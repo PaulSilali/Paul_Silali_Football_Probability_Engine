@@ -1,0 +1,434 @@
+"""
+SQLAlchemy 2.0 Database Models
+
+All tables follow the architecture specification exactly.
+"""
+from sqlalchemy import (
+    Column, Integer, String, Float, Date, DateTime, 
+    ForeignKey, Enum, JSON, Boolean, Text,
+    UniqueConstraint, CheckConstraint, Index
+)
+from sqlalchemy.orm import relationship
+from sqlalchemy.sql import func
+from datetime import datetime
+import enum
+from app.db.base import Base
+
+
+# ============================================================================
+# ENUMS
+# ============================================================================
+
+class ModelStatus(enum.Enum):
+    active = "active"
+    archived = "archived"
+    failed = "failed"
+    training = "training"
+
+
+class PredictionSet(enum.Enum):
+    A = "A"
+    B = "B"
+    C = "C"
+    D = "D"
+    E = "E"
+    F = "F"
+    G = "G"
+
+
+class MatchResult(enum.Enum):
+    H = "H"  # Home win
+    D = "D"  # Draw
+    A = "A"  # Away win
+
+
+# ============================================================================
+# REFERENCE TABLES
+# ============================================================================
+
+class League(Base):
+    __tablename__ = "leagues"
+    
+    id = Column(Integer, primary_key=True)
+    code = Column(String, unique=True, nullable=False)
+    name = Column(String, nullable=False)
+    country = Column(String, nullable=False)
+    tier = Column(Integer, default=1)
+    avg_draw_rate = Column(Float, default=0.26)
+    home_advantage = Column(Float, default=0.35)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    teams = relationship("Team", back_populates="league")
+    matches = relationship("Match", back_populates="league")
+
+
+class Team(Base):
+    __tablename__ = "teams"
+    
+    id = Column(Integer, primary_key=True)
+    league_id = Column(Integer, ForeignKey("leagues.id"), nullable=False)
+    name = Column(String, nullable=False)
+    canonical_name = Column(String, nullable=False)
+    attack_rating = Column(Float, default=1.0)
+    defense_rating = Column(Float, default=1.0)
+    home_bias = Column(Float, default=0.0)
+    last_calculated = Column(DateTime)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    league = relationship("League", back_populates="teams")
+    home_matches = relationship("Match", foreign_keys="Match.home_team_id", back_populates="home_team")
+    away_matches = relationship("Match", foreign_keys="Match.away_team_id", back_populates="away_team")
+    
+    __table_args__ = (
+        UniqueConstraint('canonical_name', 'league_id', name='uix_team_league'),
+        Index('idx_teams_canonical', 'canonical_name'),
+    )
+
+
+# ============================================================================
+# HISTORICAL DATA
+# ============================================================================
+
+class Match(Base):
+    __tablename__ = "matches"
+    
+    id = Column(Integer, primary_key=True)
+    league_id = Column(Integer, ForeignKey("leagues.id"), nullable=False)
+    season = Column(String, nullable=False)
+    match_date = Column(Date, nullable=False)
+    home_team_id = Column(Integer, ForeignKey("teams.id"), nullable=False)
+    away_team_id = Column(Integer, ForeignKey("teams.id"), nullable=False)
+    home_goals = Column(Integer, nullable=False)
+    away_goals = Column(Integer, nullable=False)
+    result = Column(Enum(MatchResult), nullable=False)
+    
+    # Closing odds
+    odds_home = Column(Float)
+    odds_draw = Column(Float)
+    odds_away = Column(Float)
+    
+    # Market-implied probabilities
+    prob_home_market = Column(Float)
+    prob_draw_market = Column(Float)
+    prob_away_market = Column(Float)
+    
+    source = Column(String, default='football-data.co.uk')
+    created_at = Column(DateTime, server_default=func.now())
+    
+    league = relationship("League", back_populates="matches")
+    home_team = relationship("Team", foreign_keys=[home_team_id], back_populates="home_matches")
+    away_team = relationship("Team", foreign_keys=[away_team_id], back_populates="away_matches")
+    
+    __table_args__ = (
+        UniqueConstraint('home_team_id', 'away_team_id', 'match_date', name='uix_match'),
+        Index('idx_matches_date', 'match_date'),
+        Index('idx_matches_league_season', 'league_id', 'season'),
+    )
+
+
+class TeamFeature(Base):
+    __tablename__ = "team_features"
+    
+    id = Column(Integer, primary_key=True)
+    team_id = Column(Integer, ForeignKey("teams.id"), nullable=False)
+    calculated_at = Column(DateTime, nullable=False)
+    
+    # Rolling metrics
+    goals_scored_5 = Column(Float)
+    goals_scored_10 = Column(Float)
+    goals_scored_20 = Column(Float)
+    goals_conceded_5 = Column(Float)
+    goals_conceded_10 = Column(Float)
+    goals_conceded_20 = Column(Float)
+    
+    # Win rates
+    win_rate_5 = Column(Float)
+    win_rate_10 = Column(Float)
+    draw_rate_5 = Column(Float)
+    draw_rate_10 = Column(Float)
+    
+    # Splits
+    home_win_rate = Column(Float)
+    away_win_rate = Column(Float)
+    
+    avg_rest_days = Column(Float)
+    league_position = Column(Integer)
+    created_at = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        Index('idx_team_features_lookup', 'team_id', 'calculated_at'),
+    )
+
+
+# ============================================================================
+# MODEL TABLES
+# ============================================================================
+
+class Model(Base):
+    __tablename__ = "models"
+    
+    id = Column(Integer, primary_key=True)
+    version = Column(String, unique=True, nullable=False)
+    model_type = Column(String, nullable=False)
+    status = Column(Enum(ModelStatus), default=ModelStatus.active)
+    
+    # Training metadata
+    training_started_at = Column(DateTime)
+    training_completed_at = Column(DateTime)
+    training_matches = Column(Integer)
+    training_leagues = Column(JSON)
+    training_seasons = Column(JSON)
+    
+    # Parameters
+    decay_rate = Column(Float)
+    blend_alpha = Column(Float)
+    
+    # Metrics
+    brier_score = Column(Float)
+    log_loss = Column(Float)
+    draw_accuracy = Column(Float)
+    overall_accuracy = Column(Float)
+    
+    # Stored weights (JSON)
+    model_weights = Column(JSON)
+    
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    predictions = relationship("Prediction", back_populates="model")
+
+
+class TrainingRun(Base):
+    __tablename__ = "training_runs"
+    
+    id = Column(Integer, primary_key=True)
+    model_id = Column(Integer, ForeignKey("models.id"))
+    run_type = Column(String, nullable=False)
+    status = Column(Enum(ModelStatus))
+    started_at = Column(DateTime, server_default=func.now())
+    completed_at = Column(DateTime)
+    
+    match_count = Column(Integer)
+    date_from = Column(Date)
+    date_to = Column(Date)
+    
+    brier_score = Column(Float)
+    log_loss = Column(Float)
+    validation_accuracy = Column(Float)
+    error_message = Column(Text)
+    logs = Column(JSON)
+    
+    created_at = Column(DateTime, server_default=func.now())
+
+
+# ============================================================================
+# JACKPOT TABLES
+# ============================================================================
+
+class Jackpot(Base):
+    __tablename__ = "jackpots"
+    
+    id = Column(Integer, primary_key=True)
+    jackpot_id = Column(String, unique=True, nullable=False)
+    user_id = Column(String)  # From auth
+    name = Column(String)
+    kickoff_date = Column(Date)
+    status = Column(String, default='pending')
+    model_version = Column(String)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    fixtures = relationship("JackpotFixture", back_populates="jackpot", cascade="all, delete-orphan")
+
+
+class JackpotFixture(Base):
+    __tablename__ = "jackpot_fixtures"
+    
+    id = Column(Integer, primary_key=True)
+    jackpot_id = Column(Integer, ForeignKey("jackpots.id", ondelete="CASCADE"), nullable=False)
+    match_order = Column(Integer, nullable=False)
+    home_team = Column(String, nullable=False)
+    away_team = Column(String, nullable=False)
+    
+    # Input odds
+    odds_home = Column(Float, nullable=False)
+    odds_draw = Column(Float, nullable=False)
+    odds_away = Column(Float, nullable=False)
+    
+    # Resolved team IDs
+    home_team_id = Column(Integer, ForeignKey("teams.id"))
+    away_team_id = Column(Integer, ForeignKey("teams.id"))
+    league_id = Column(Integer, ForeignKey("leagues.id"))
+    
+    # Actual result (for validation)
+    actual_result = Column(Enum(MatchResult))
+    actual_home_goals = Column(Integer)
+    actual_away_goals = Column(Integer)
+    
+    created_at = Column(DateTime, server_default=func.now())
+    
+    jackpot = relationship("Jackpot", back_populates="fixtures")
+    predictions = relationship("Prediction", back_populates="fixture", cascade="all, delete-orphan")
+
+
+class Prediction(Base):
+    __tablename__ = "predictions"
+    
+    id = Column(Integer, primary_key=True)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
+    model_id = Column(Integer, ForeignKey("models.id"), nullable=False)
+    set_type = Column(Enum(PredictionSet), nullable=False)
+    
+    # Probabilities
+    prob_home = Column(Float, nullable=False)
+    prob_draw = Column(Float, nullable=False)
+    prob_away = Column(Float, nullable=False)
+    
+    predicted_outcome = Column(Enum(MatchResult), nullable=False)
+    confidence = Column(Float, nullable=False)
+    entropy = Column(Float)
+    
+    # Model components
+    expected_home_goals = Column(Float)
+    expected_away_goals = Column(Float)
+    model_prob_home = Column(Float)
+    model_prob_draw = Column(Float)
+    model_prob_away = Column(Float)
+    market_prob_home = Column(Float)
+    market_prob_draw = Column(Float)
+    market_prob_away = Column(Float)
+    blend_weight = Column(Float)
+    
+    created_at = Column(DateTime, server_default=func.now())
+    
+    fixture = relationship("JackpotFixture", back_populates="predictions")
+    model = relationship("Model", back_populates="predictions")
+    
+    __table_args__ = (
+        Index('idx_predictions_fixture', 'fixture_id'),
+        Index('idx_predictions_set', 'set_type'),
+        CheckConstraint(
+            'abs((prob_home + prob_draw + prob_away) - 1.0) < 0.001',
+            name='check_prob_sum'
+        ),
+    )
+
+
+# ============================================================================
+# VALIDATION TABLES
+# ============================================================================
+
+class ValidationResult(Base):
+    __tablename__ = "validation_results"
+    
+    id = Column(Integer, primary_key=True)
+    jackpot_id = Column(Integer, ForeignKey("jackpots.id", ondelete="CASCADE"))
+    set_type = Column(Enum(PredictionSet), nullable=False)
+    model_id = Column(Integer, ForeignKey("models.id"))
+    
+    total_matches = Column(Integer)
+    correct_predictions = Column(Integer)
+    accuracy = Column(Float)
+    brier_score = Column(Float)
+    log_loss = Column(Float)
+    
+    # Breakdown by outcome
+    home_correct = Column(Integer)
+    home_total = Column(Integer)
+    draw_correct = Column(Integer)
+    draw_total = Column(Integer)
+    away_correct = Column(Integer)
+    away_total = Column(Integer)
+    
+    exported_to_training = Column(Boolean, default=False)
+    exported_at = Column(DateTime)
+    created_at = Column(DateTime, server_default=func.now())
+
+
+class CalibrationData(Base):
+    __tablename__ = "calibration_data"
+    
+    id = Column(Integer, primary_key=True)
+    model_id = Column(Integer, ForeignKey("models.id"))
+    league_id = Column(Integer, ForeignKey("leagues.id"))
+    outcome_type = Column(Enum(MatchResult), nullable=False)
+    
+    predicted_prob_bucket = Column(Float, nullable=False)
+    actual_frequency = Column(Float, nullable=False)
+    sample_count = Column(Integer, nullable=False)
+    created_at = Column(DateTime, server_default=func.now())
+
+
+# ============================================================================
+# DATA INGESTION TABLES
+# ============================================================================
+
+class DataSource(Base):
+    __tablename__ = "data_sources"
+    
+    id = Column(Integer, primary_key=True)
+    name = Column(String, unique=True, nullable=False)
+    source_type = Column(String, nullable=False)
+    status = Column(String, default='fresh')
+    last_sync_at = Column(DateTime)
+    record_count = Column(Integer, default=0)
+    last_error = Column(Text)
+    config = Column(JSON)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+class IngestionLog(Base):
+    __tablename__ = "ingestion_logs"
+    
+    id = Column(Integer, primary_key=True)
+    source_id = Column(Integer, ForeignKey("data_sources.id"))
+    started_at = Column(DateTime, server_default=func.now())
+    completed_at = Column(DateTime)
+    status = Column(String, default='running')
+    records_processed = Column(Integer, default=0)
+    records_inserted = Column(Integer, default=0)
+    records_updated = Column(Integer, default=0)
+    records_skipped = Column(Integer, default=0)
+    error_message = Column(Text)
+    logs = Column(JSON)
+    created_at = Column(DateTime, server_default=func.now())
+
+
+# ============================================================================
+# USER & AUTH TABLES
+# ============================================================================
+
+class User(Base):
+    __tablename__ = "users"
+    
+    id = Column(Integer, primary_key=True)
+    email = Column(String, unique=True, nullable=False)
+    name = Column(String, nullable=False)
+    hashed_password = Column(String)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+class AuditEntry(Base):
+    __tablename__ = "audit_entries"
+    
+    id = Column(Integer, primary_key=True)
+    timestamp = Column(DateTime, server_default=func.now(), nullable=False)
+    action = Column(String, nullable=False)
+    model_version = Column(String)
+    probability_set = Column(String)
+    jackpot_id = Column(String)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    details = Column(Text)
+    created_at = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        Index('idx_audit_timestamp', 'timestamp'),
+        Index('idx_audit_jackpot', 'jackpot_id'),
+    )
+

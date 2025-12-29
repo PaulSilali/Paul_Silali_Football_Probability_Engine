@@ -1,0 +1,27 @@
+{
+  "name": "football-probability-engine-backend",
+  "version": "2.4.1",
+  "description": "FastAPI backend for Football Jackpot Probability Engine",
+  "scripts": {
+    "dev": "python run.py",
+    "start": "python run.py",
+    "uvicorn": "uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "uvicorn:prod": "uvicorn app.main:app --host 0.0.0.0 --port 8000",
+    "alembic:upgrade": "alembic upgrade head",
+    "alembic:revision": "alembic revision --autogenerate -m",
+    "alembic:history": "alembic history",
+    "celery:worker": "celery -A app.tasks.celery_app worker --loglevel=info",
+    "celery:beat": "celery -A app.tasks.celery_app beat --loglevel=info",
+    "test": "pytest",
+    "install": "pip install -r requirements.txt"
+  },
+  "keywords": [
+    "fastapi",
+    "football",
+    "probability",
+    "dixon-coles"
+  ],
+  "author": "",
+  "license": "PROPRIETARY"
+}
+
