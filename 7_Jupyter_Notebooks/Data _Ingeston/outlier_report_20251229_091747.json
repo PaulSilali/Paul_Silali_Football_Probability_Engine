@@ -1,0 +1,237 @@
+{
+  "timestamp": "2025-12-29T09:17:47.793287",
+  "total_rows": 25221,
+  "total_columns": 18,
+  "columns_analyzed": 12,
+  "outlier_summary": [
+    {
+      "Column": "AvgD",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 3.7830323220305373,
+      "Median": 3.52,
+      "Min": 2.09,
+      "Max": 16.44,
+      "Outliers (IQR)": 2274,
+      "Outliers (%)": 9.018441403926234,
+      "Outliers (Z-score)": 535,
+      "Outliers (Mod Z)": 2050,
+      "Lower Bound": 2.494999999999999,
+      "Upper Bound": 4.695
+    },
+    {
+      "Column": "FTHG",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 1.5007335157210262,
+      "Median": 1.0,
+      "Min": 0.0,
+      "Max": 9.0,
+      "Outliers (IQR)": 1811,
+      "Outliers (%)": 7.180524166369295,
+      "Outliers (Z-score)": 178,
+      "Outliers (Mod Z)": 53,
+      "Lower Bound": -0.5,
+      "Upper Bound": 3.5
+    },
+    {
+      "Column": "AvgA",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 3.7907904025381716,
+      "Median": 3.14,
+      "Min": 1.08,
+      "Max": 38.04,
+      "Outliers (IQR)": 1722,
+      "Outliers (%)": 6.829268292682928,
+      "Outliers (Z-score)": 478,
+      "Outliers (Mod Z)": 1464,
+      "Lower Bound": -0.26000000000000023,
+      "Upper Bound": 6.94
+    },
+    {
+      "Column": "prob_draw_market",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 0.25898562142301,
+      "Median": 0.2680664616341888,
+      "Min": 0.0585160807147453,
+      "Max": 0.455636301591668,
+      "Outliers (IQR)": 1535,
+      "Outliers (%)": 6.087646242316082,
+      "Outliers (Z-score)": 502,
+      "Outliers (Mod Z)": 1085,
+      "Lower Bound": 0.18531795442147925,
+      "Upper Bound": 0.34361303346332284
+    },
+    {
+      "Column": "AvgH",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 2.5734416022209,
+      "Median": 2.26,
+      "Min": 1.05,
+      "Max": 34.14,
+      "Outliers (IQR)": 1511,
+      "Outliers (%)": 5.992464802696808,
+      "Outliers (Z-score)": 465,
+      "Outliers (Mod Z)": 1139,
+      "Lower Bound": 0.24499999999999988,
+      "Upper Bound": 4.445
+    },
+    {
+      "Column": "prob_away_market",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 0.31354751468555125,
+      "Median": 0.2998353606879685,
+      "Min": 0.0252892840943851,
+      "Max": 0.8773573606832675,
+      "Outliers (IQR)": 585,
+      "Outliers (%)": 2.3200475907198097,
+      "Outliers (Z-score)": 247,
+      "Outliers (Mod Z)": 189,
+      "Lower Bound": -0.0249865609905289,
+      "Upper Bound": 0.6344900422939894
+    },
+    {
+      "Column": "prob_home_market",
+      "Total": 25215,
+      "Missing": 6,
+      "Mean": 0.42746686389143856,
+      "Median": 0.4168751421423698,
+      "Min": 0.0276464040615966,
+      "Max": 0.9161946351908694,
+      "Outliers (IQR)": 302,
+      "Outliers (%)": 1.1976997818758675,
+      "Outliers (Z-score)": 72,
+      "Outliers (Mod Z)": 5,
+      "Lower Bound": 0.04560872563916202,
+      "Upper Bound": 0.800662704729304
+    },
+    {
+      "Column": "FTAG",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 1.2375401451171644,
+      "Median": 1.0,
+      "Min": 0.0,
+      "Max": 9.0,
+      "Outliers (IQR)": 82,
+      "Outliers (%)": 0.32512588715752744,
+      "Outliers (Z-score)": 309,
+      "Outliers (Mod Z)": 16,
+      "Lower Bound": -3.0,
+      "Upper Bound": 5.0
+    },
+    {
+      "Column": "season",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 2202.015899448872,
+      "Median": 2223.0,
+      "Min": 1920.0,
+      "Max": 2526.0,
+      "Outliers (IQR)": 0,
+      "Outliers (%)": 0.0,
+      "Outliers (Z-score)": 0,
+      "Outliers (Mod Z)": 0,
+      "Lower Bound": 1566.5,
+      "Upper Bound": 2778.5
+    },
+    {
+      "Column": "league_id",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 11.931128821220412,
+      "Median": 7.0,
+      "Min": 1.0,
+      "Max": 34.0,
+      "Outliers (IQR)": 0,
+      "Outliers (%)": 0.0,
+      "Outliers (Z-score)": 0,
+      "Outliers (Mod Z)": 8150,
+      "Lower Bound": -14.5,
+      "Upper Bound": 37.5
+    },
+    {
+      "Column": "home_team_id",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 258.15772570476986,
+      "Median": 174.0,
+      "Min": 18.0,
+      "Max": 663.0,
+      "Outliers (IQR)": 0,
+      "Outliers (%)": 0.0,
+      "Outliers (Z-score)": 0,
+      "Outliers (Mod Z)": 0,
+      "Lower Bound": -387.0,
+      "Upper Bound": 877.0
+    },
+    {
+      "Column": "away_team_id",
+      "Total": 25221,
+      "Missing": 0,
+      "Mean": 258.15514848737166,
+      "Median": 174.0,
+      "Min": 18.0,
+      "Max": 663.0,
+      "Outliers (IQR)": 0,
+      "Outliers (%)": 0.0,
+      "Outliers (Z-score)": 0,
+      "Outliers (Mod Z)": 0,
+      "Lower Bound": -387.0,
+      "Upper Bound": 877.0
+    }
+  ],
+  "domain_issues": [],
+  "recommendations": [
+    {
+      "Column": "FTHG",
+      "Outlier %": "7.18%",
+      "Recommendation": "Investigate - high outlier rate",
+      "Action": "Review data source and verify legitimacy"
+    },
+    {
+      "Column": "AvgH",
+      "Outlier %": "5.99%",
+      "Recommendation": "Investigate - high outlier rate",
+      "Action": "Review data source and verify legitimacy"
+    },
+    {
+      "Column": "AvgD",
+      "Outlier %": "9.02%",
+      "Recommendation": "Investigate - high outlier rate",
+      "Action": "Review data source and verify legitimacy"
+    },
+    {
+      "Column": "AvgA",
+      "Outlier %": "6.83%",
+      "Recommendation": "Investigate - high outlier rate",
+      "Action": "Review data source and verify legitimacy"
+    },
+    {
+      "Column": "prob_home_market",
+      "Outlier %": "1.20%",
+      "Recommendation": "Monitor - moderate outlier rate",
+      "Action": "Verify outliers are legitimate (e.g., high-scoring matches)"
+    },
+    {
+      "Column": "prob_draw_market",
+      "Outlier %": "6.09%",
+      "Recommendation": "Investigate - high outlier rate",
+      "Action": "Review data source and verify legitimacy"
+    },
+    {
+      "Column": "prob_away_market",
+      "Outlier %": "2.32%",
+      "Recommendation": "Monitor - moderate outlier rate",
+      "Action": "Verify outliers are legitimate (e.g., high-scoring matches)"
+    }
+  ],
+  "data_quality_score": {
+    "overall": 67.54065152687954,
+    "outlier_rate": 3.2456975176461262
+  }
+}

@@ -1,0 +1,51 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,season,league_id,AvgA,outlier_type,bound,deviation
+2025-02-01,Bayern Munich,Holstein Kiel,4,3,2425,3,38.04,upper,6.94,31.099999999999998
+2025-02-01,Bayern Munich,Holstein Kiel,4,3,2425,34,38.04,upper,6.94,31.099999999999998
+2022-08-13,Man City,Bournemouth,4,0,2223,1,37.57,upper,6.94,30.63
+2020-10-24,Paris FC,Dijon,4,0,2021,5,34.44,upper,6.94,27.499999999999996
+2020-02-21,Bayern Munich,Paderborn,3,2,1920,3,32.25,upper,6.94,25.31
+2020-02-21,Bayern Munich,Paderborn,3,2,1920,34,32.25,upper,6.94,25.31
+2021-09-18,Bayern Munich,Bochum,7,0,2122,3,31.99,upper,6.94,25.049999999999997
+2021-09-18,Bayern Munich,Bochum,7,0,2122,34,31.99,upper,6.94,25.049999999999997
+2022-08-31,Man City,Nott'm Forest,6,0,2223,1,30.99,upper,6.94,24.049999999999997
+2019-08-31,Man City,Brighton,4,0,1920,1,30.92,upper,6.94,23.98
+2020-07-26,Man City,Norwich,5,0,1920,1,30.42,upper,6.94,23.48
+2020-05-30,Bayern Munich,Fortuna Dusseldorf,5,0,1920,3,30.41,upper,6.94,23.47
+2020-05-30,Bayern Munich,Fortuna Dusseldorf,5,0,1920,34,30.41,upper,6.94,23.47
+2023-11-11,Bayern Munich,Heidenheim,4,2,2324,3,30.37,upper,6.94,23.43
+2023-11-11,Bayern Munich,Heidenheim,4,2,2324,34,30.37,upper,6.94,23.43
+2022-02-20,Bayern Munich,Greuther Furth,4,1,2122,3,30.35,upper,6.94,23.41
+2022-02-20,Bayern Munich,Greuther Furth,4,1,2122,34,30.35,upper,6.94,23.41
+2019-11-02,Man City,Southampton,2,1,1920,1,29.72,upper,6.94,22.779999999999998
+2023-12-30,Man City,Sheffield United,2,0,2324,1,29.4,upper,6.94,22.459999999999997
+2019-08-31,Bayern Munich,Mainz,6,1,1920,3,28.84,upper,6.94,21.9
+2019-08-31,Bayern Munich,Mainz,6,1,1920,34,28.84,upper,6.94,21.9
+2019-12-21,Paris FC,Amiens,4,1,1920,5,28.83,upper,6.94,21.889999999999997
+2023-10-28,Bayern Munich,Darmstadt,8,0,2324,3,28.45,upper,6.94,21.509999999999998
+2023-10-28,Bayern Munich,Darmstadt,8,0,2324,34,28.45,upper,6.94,21.509999999999998
+2021-11-27,Bayern Munich,Bielefeld,1,0,2122,3,28.43,upper,6.94,21.49
+2021-11-27,Bayern Munich,Bielefeld,1,0,2122,34,28.43,upper,6.94,21.49
+2019-10-26,Man City,Aston Villa,3,0,1920,1,28.3,upper,6.94,21.36
+2022-09-10,Paris FC,Brest,1,0,2223,5,27.4,upper,6.94,20.459999999999997
+2024-08-24,Man City,Ipswich,4,1,2425,1,26.97,upper,6.94,20.029999999999998
+2021-02-03,Paris FC,Nimes,3,0,2021,5,26.53,upper,6.94,19.59
+2025-09-13,Bayern Munich,Hamburg,5,0,2526,3,26.44,upper,6.94,19.5
+2025-09-13,Bayern Munich,Hamburg,5,0,2526,34,26.44,upper,6.94,19.5
+2023-11-04,Man City,Bournemouth,6,1,2324,1,26.19,upper,6.94,19.25
+2022-04-23,Man City,Watford,5,1,2122,1,25.83,upper,6.94,18.889999999999997
+2021-08-21,Man City,Norwich,5,0,2122,1,25.64,upper,6.94,18.7
+2022-08-27,Liverpool,Bournemouth,9,0,2223,1,25.51,upper,6.94,18.57
+2024-04-04,Liverpool,Sheffield United,3,1,2324,1,25.43,upper,6.94,18.49
+2024-10-05,Leverkusen,Holstein Kiel,2,2,2425,3,25.37,upper,6.94,18.43
+2024-10-05,Leverkusen,Holstein Kiel,2,2,2425,34,25.37,upper,6.94,18.43
+2024-12-26,Liverpool,Leicester,3,1,2425,1,25.35,upper,6.94,18.41
+2024-05-04,Man City,Wolves,5,1,2324,1,25.33,upper,6.94,18.389999999999997
+2022-10-29,Paris FC,Troyes,4,3,2223,5,25.33,upper,6.94,18.389999999999997
+2020-03-08,Bayern Munich,Augsburg,2,0,1920,3,25.02,upper,6.94,18.08
+2020-03-08,Bayern Munich,Augsburg,2,0,1920,34,25.02,upper,6.94,18.08
+2025-08-22,Paris FC,Angers,1,0,2526,5,24.94,upper,6.94,18.0
+2022-02-19,Liverpool,Norwich,3,1,2122,1,24.83,upper,6.94,17.889999999999997
+2023-08-27,Bayern Munich,Augsburg,3,1,2324,3,24.71,upper,6.94,17.77
+2023-08-27,Bayern Munich,Augsburg,3,1,2324,34,24.71,upper,6.94,17.77
+2020-09-18,Bayern Munich,Schalke 04,8,0,2021,3,24.69,upper,6.94,17.75
+2020-09-18,Bayern Munich,Schalke 04,8,0,2021,34,24.69,upper,6.94,17.75

@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import {
   Play,
   Loader2,
@@ -14,7 +14,8 @@ import {
   Activity,
   RotateCcw,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Minus
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -38,6 +39,8 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import { useToast } from '@/hooks/use-toast';
+import apiClient from '@/services/api';
+import type { ModelStatus, TaskStatus } from '@/types';
 
 // Model training types
 interface ModelConfig {
@@ -57,6 +60,7 @@ interface ModelConfig {
   parameters: Record<string, number | string | boolean>;
 }
 
+// Initial models state - metrics will be loaded from backend
 const initialModels: ModelConfig[] = [
   {
     id: 'poisson',
@@ -65,47 +69,58 @@ const initialModels: ModelConfig[] = [
     status: 'idle',
     progress: 0,
     phase: '',
-    lastTrained: '2024-12-27T10:00:00Z',
-    metrics: { brierScore: 0.142, logLoss: 0.891, drawAccuracy: 58.2, rmse: 0.823 },
+    // Metrics and lastTrained will be populated from backend
     parameters: {
       decayRate: 0.0065,
       homeAdvantage: true,
       lowScoreCorrection: true,
-      seasons: '2018-2024',
-      leagues: 12,
     },
   },
   {
     id: 'blending',
     name: 'Odds Blending Model',
-    description: 'Learn trust weights between model and market',
+    description: 'Learn a global trust weight between model and market',
     status: 'idle',
     progress: 0,
     phase: '',
-    lastTrained: '2024-12-27T10:05:00Z',
-    metrics: { brierScore: 0.138, logLoss: 0.872 },
+    // Metrics will be populated after training
     parameters: {
-      algorithm: 'LightGBM',
+      algorithm: 'Grid Search',
       modelWeight: 0.65,
       marketWeight: 0.35,
-      leagueSpecific: true,
-      crossValidation: 5,
+      leagueSpecific: false,
+      crossValidation: 1,
     },
   },
   {
     id: 'calibration',
     name: 'Calibration Model',
-    description: 'Isotonic regression for probability correctness',
+    description: 'Marginal isotonic calibration for probability correctness',
     status: 'idle',
     progress: 0,
     phase: '',
-    lastTrained: '2024-12-27T10:08:00Z',
-    metrics: { brierScore: 0.135, logLoss: 0.858 },
+    // Metrics will be populated after training
     parameters: {
       method: 'Isotonic',
-      perLeague: true,
-      minSamples: 100,
-      smoothing: 0.1,
+      perLeague: false,
+      minSamples: 200,
+      smoothing: 0.0,
+    },
+  },
+  {
+    id: 'draw',
+    name: 'Draw Model',
+    description: 'Dedicated draw probability model with Poisson, Dixon-Coles, and market blending',
+    status: 'idle',
+    progress: 0,
+    phase: '',
+    // Metrics will be populated after training
+    parameters: {
+      wPoisson: 0.55,
+      wDixonColes: 0.30,
+      wMarket: 0.15,
+      drawFloor: 0.18,
+      drawCap: 0.38,
     },
   },
 ];
@@ -137,15 +152,18 @@ const trainingPhases: Record<string, string[]> = {
     'Validating calibration curves...',
     'Finalizing calibrator...',
   ],
+  draw: [
+    'Loading draw predictions...',
+    'Computing Poisson draw probabilities...',
+    'Applying Dixon-Coles adjustments...',
+    'Blending with market signals...',
+    'Validating draw bounds...',
+    'Storing draw components...',
+    'Finalizing draw model...',
+  ],
 };
 
-const trainingHistory = [
-  { id: '1', date: '2024-12-27', model: 'Full Pipeline', duration: '12m 45s', status: 'success', brierDelta: -0.003 },
-  { id: '2', date: '2024-12-20', model: 'Poisson Only', duration: '4m 32s', status: 'success', brierDelta: -0.002 },
-  { id: '3', date: '2024-12-15', model: 'Full Pipeline', duration: '11m 58s', status: 'success', brierDelta: -0.005 },
-  { id: '4', date: '2024-12-08', model: 'Calibration Only', duration: '1m 23s', status: 'success', brierDelta: -0.001 },
-  { id: '5', date: '2024-12-01', model: 'Full Pipeline', duration: '13m 02s', status: 'failed', brierDelta: 0 },
-];
+// Training history is now loaded from backend - see loadTrainingHistory()
 
 function formatDate(dateString: string) {
   return new Date(dateString).toLocaleDateString('en-US', {
@@ -168,6 +186,30 @@ export default function MLTraining() {
   const [models, setModels] = useState<ModelConfig[]>(initialModels);
   const [isTrainingPipeline, setIsTrainingPipeline] = useState(false);
   const [expandedParams, setExpandedParams] = useState<string[]>([]);
+  const [modelStatus, setModelStatus] = useState<ModelStatus | null>(null);
+  const [trainingTasks, setTrainingTasks] = useState<Map<string, NodeJS.Timeout>>(new Map());
+  const [trainingHistory, setTrainingHistory] = useState<Array<{
+    id: string;
+    modelId: string | null;
+    runType: string;
+    status: string;
+    startedAt: string | null;
+    completedAt: string | null;
+    matchCount: number | null;
+    dateFrom: string | null;
+    dateTo: string | null;
+    brierScore: number | null;
+    logLoss: number | null;
+    validationAccuracy: number | null;
+    errorMessage: string | null;
+    duration: number | null;
+  }>>([]);
+  const [leagues, setLeagues] = useState<Array<{code: string; name: string; country: string; tier: number}>>([]);
+  const [selectedLeagues, setSelectedLeagues] = useState<string[]>([]);
+  const [selectedSeasons, setSelectedSeasons] = useState<string[]>([]);
+  const [showConfig, setShowConfig] = useState(false);
+  const [dateFrom, setDateFrom] = useState<string>('');
+  const [dateTo, setDateTo] = useState<string>('');
   const { toast } = useToast();
 
   const toggleParams = (modelId: string) => {
@@ -176,122 +218,316 @@ export default function MLTraining() {
     );
   };
 
-  const trainModel = useCallback((modelId: string) => {
+  // Poll task status for training progress
+  const pollTaskStatus = useCallback(async (taskId: string, modelId: string) => {
+    const pollInterval = setInterval(async () => {
+      try {
+        const response = await apiClient.getTaskStatus(taskId);
+        if (response.success && response.data) {
+          const task: TaskStatus = response.data;
+          
+          // Update model progress
+      setModels(prev => prev.map(m =>
+        m.id === modelId
+              ? {
+                  ...m,
+                  progress: task.progress || 0,
+                  phase: task.phase || 'Training...',
+                  status: task.status === 'running' ? 'training' as const :
+                          task.status === 'completed' ? 'completed' as const :
+                          task.status === 'failed' ? 'failed' as const : 'idle' as const
+                }
+          : m
+      ));
+
+          // Handle completion
+          if (task.status === 'completed' && task.result) {
+            clearInterval(pollInterval);
+            setTrainingTasks(prev => {
+              const next = new Map(prev);
+              next.delete(taskId);
+              return next;
+            });
+            
+            // Update model with completion status
+            setModels(prev => prev.map(m =>
+              m.id === modelId
+                ? {
+                    ...m,
+                    status: 'completed' as const,
+                    progress: 100,
+                    phase: 'Complete',
+                    lastTrained: new Date().toISOString(),
+                    // Only set metrics if they exist in result
+                    metrics: task.result?.metrics ? {
+                      brierScore: task.result.metrics.brierScore,
+                      logLoss: task.result.metrics.logLoss,
+                      drawAccuracy: task.result.metrics.drawAccuracy,
+                      rmse: task.result.metrics.rmse,
+                    } : undefined,
+                  }
+                : m
+            ));
+            
+            toast({
+              title: 'Training Complete',
+              description: `${models.find(m => m.id === modelId)?.name} trained successfully.`,
+            });
+            
+            // Refresh model status and training history from backend
+            loadModelStatus();
+            loadTrainingHistory();
+          }
+
+          // Handle failure
+          if (task.status === 'failed') {
+            clearInterval(pollInterval);
+            setTrainingTasks(prev => {
+              const next = new Map(prev);
+              next.delete(taskId);
+              return next;
+            });
+            
+            setModels(prev => prev.map(m =>
+              m.id === modelId
+                ? { ...m, status: 'failed' as const, phase: task.error || 'Failed' }
+                : m
+            ));
+            
+            toast({
+              title: 'Training Failed',
+              description: task.error || 'Model training failed. Please check logs.',
+              variant: 'destructive',
+            });
+          }
+        }
+      } catch (error: any) {
+        console.error('Error polling task status:', error);
+        // Continue polling on error (might be temporary)
+      }
+    }, 2000); // Poll every 2 seconds
+
+    // Store interval for cleanup
+    setTrainingTasks(prev => {
+      const next = new Map(prev);
+      next.set(taskId, pollInterval);
+      return next;
+    });
+  }, [models, toast]);
+
+  // Load model status from backend
+  const loadModelStatus = useCallback(async () => {
+    try {
+      const response = await apiClient.getModelStatus();
+      if (response.success && response.data) {
+        setModelStatus(response.data);
+        // Update models with real metrics from backend (only if model exists)
+        if (response.data.status !== 'no_model') {
+          setModels(prev => prev.map(m => {
+            if (m.id === 'poisson' && response.data) {
+              return {
+                ...m,
+                metrics: response.data.brierScore !== null || response.data.logLoss !== null ? {
+                  brierScore: response.data.brierScore || undefined,
+                  logLoss: response.data.logLoss || undefined,
+                  drawAccuracy: response.data.drawAccuracy || undefined,
+                } : undefined,
+                lastTrained: response.data.trainedAt || undefined,
+              };
+            }
+            return m;
+          }));
+        }
+      }
+    } catch (error) {
+      console.error('Error loading model status:', error);
+    }
+  }, []);
+
+  // Load model status, training history, and leagues on mount
+  useEffect(() => {
+    loadModelStatus();
+    loadTrainingHistory();
+    loadLeagues();
+  }, []);
+
+  const loadTrainingHistory = useCallback(async () => {
+    try {
+      const response = await apiClient.getTrainingHistory(50);
+      if (response.success && response.data) {
+        setTrainingHistory(response.data);
+      }
+    } catch (error) {
+      console.error('Error loading training history:', error);
+    }
+  }, []);
+
+  const loadLeagues = useCallback(async () => {
+    try {
+      const response = await apiClient.getLeagues();
+      if (response.success && response.data) {
+        setLeagues(response.data);
+      }
+    } catch (error) {
+      console.error('Error loading leagues:', error);
+    }
+  }, []);
+
+  // Cleanup polling intervals on unmount
+  useEffect(() => {
+    return () => {
+      trainingTasks.forEach(interval => clearInterval(interval));
+    };
+  }, [trainingTasks]);
+
+  const trainModel = useCallback(async (modelId: string) => {
     const phases = trainingPhases[modelId] || ['Training...'];
     
+    // Set initial training state
     setModels(prev => prev.map(m =>
       m.id === modelId ? { ...m, status: 'training' as const, progress: 0, phase: phases[0] } : m
     ));
 
-    let phaseIndex = 0;
-    let progress = 0;
+    try {
+      // Call backend API with configuration
+      const response = await apiClient.trainModel({
+        modelType: modelId === 'poisson' ? 'poisson' :
+                   modelId === 'blending' ? 'blending' :
+                   modelId === 'calibration' ? 'calibration' :
+                   modelId === 'draw' ? 'draw' : undefined,
+        leagues: selectedLeagues.length > 0 ? selectedLeagues : undefined,
+        seasons: selectedSeasons.length > 0 ? selectedSeasons : undefined,
+        dateFrom: dateFrom || undefined,
+        dateTo: dateTo || undefined,
+      });
 
-    const interval = setInterval(() => {
-      progress += Math.random() * 8 + 2;
-      
-      const newPhaseIndex = Math.min(
-        Math.floor((progress / 100) * phases.length),
-        phases.length - 1
-      );
-      
-      if (newPhaseIndex > phaseIndex) {
-        phaseIndex = newPhaseIndex;
-      }
-
-      setModels(prev => prev.map(m =>
-        m.id === modelId
-          ? { ...m, progress: Math.min(progress, 100), phase: phases[phaseIndex] }
-          : m
-      ));
-
-      if (progress >= 100) {
-        clearInterval(interval);
-        const metrics = {
-          brierScore: 0.13 + Math.random() * 0.02,
-          logLoss: 0.85 + Math.random() * 0.05,
-          drawAccuracy: 55 + Math.random() * 8,
-          rmse: 0.8 + Math.random() * 0.1,
-        };
-        setModels(prev => prev.map(m =>
-          m.id === modelId
-            ? {
-                ...m,
-                status: 'completed' as const,
-                progress: 100,
-                phase: 'Complete',
-                lastTrained: new Date().toISOString(),
-                metrics,
-              }
-            : m
-        ));
+      if (response.success && response.data) {
+        const taskId = response.data.taskId;
         toast({
-          title: 'Training Complete',
-          description: `${models.find(m => m.id === modelId)?.name} trained successfully.`,
+          title: 'Training Started',
+          description: `Training task queued. Task ID: ${taskId}`,
         });
+        
+        // Start polling for progress
+        pollTaskStatus(taskId, modelId);
+      } else {
+        throw new Error('Failed to start training');
       }
-    }, 300);
-  }, [models, toast]);
+    } catch (error: any) {
+      console.error('Error starting training:', error);
+      setModels(prev => prev.map(m =>
+        m.id === modelId ? { ...m, status: 'failed' as const, phase: 'Failed to start' } : m
+      ));
+      toast({
+        title: 'Training Failed',
+        description: error?.message || 'Failed to start model training. Please try again.',
+        variant: 'destructive',
+      });
+    }
+  }, [pollTaskStatus, toast]);
 
-  const trainFullPipeline = useCallback(() => {
+  const trainFullPipeline = useCallback(async () => {
     setIsTrainingPipeline(true);
-    const modelOrder = ['poisson', 'blending', 'calibration'];
-    let currentIndex = 0;
+    
+    try {
+      // Call backend API for full pipeline training with configuration
+      const response = await apiClient.trainModel({
+        modelType: 'full',
+        leagues: selectedLeagues.length > 0 ? selectedLeagues : undefined,
+        seasons: selectedSeasons.length > 0 ? selectedSeasons : undefined,
+        dateFrom: dateFrom || undefined,
+        dateTo: dateTo || undefined,
+      });
 
-    const trainNext = () => {
-      if (currentIndex >= modelOrder.length) {
-        setIsTrainingPipeline(false);
+      if (response.success && response.data) {
+        const taskId = response.data.taskId;
         toast({
-          title: 'Pipeline Complete',
-          description: 'All models trained successfully. New version ready for activation.',
+          title: 'Pipeline Training Started',
+          description: `Full pipeline training queued. Task ID: ${taskId}`,
         });
-        return;
-      }
+        
+        // Set all models to training state
+        setModels(prev => prev.map(m => ({
+          ...m,
+          status: 'training' as const,
+          progress: 0,
+          phase: 'Queued...',
+        })));
+        
+        // Poll for pipeline progress (backend should handle sequential training)
+        const pollInterval = setInterval(async () => {
+          try {
+            const taskResponse = await apiClient.getTaskStatus(taskId);
+            if (taskResponse.success && taskResponse.data) {
+              const task: TaskStatus = taskResponse.data;
+              
+              // Update all models with overall progress
+              setModels(prev => prev.map(m => ({
+                ...m,
+                progress: task.progress || 0,
+                phase: task.phase || 'Training pipeline...',
+                status: task.status === 'running' ? 'training' as const :
+                        task.status === 'completed' ? 'completed' as const :
+                        task.status === 'failed' ? 'failed' as const : 'idle' as const
+              })));
 
-      const modelId = modelOrder[currentIndex];
-      const phases = trainingPhases[modelId] || ['Training...'];
-      
-      setModels(prev => prev.map(m =>
-        m.id === modelId ? { ...m, status: 'training' as const, progress: 0, phase: phases[0] } : m
-      ));
-
-      let phaseIndex = 0;
-      let progress = 0;
-
-      const interval = setInterval(() => {
-        progress += Math.random() * 10 + 5;
-        const newPhaseIndex = Math.min(Math.floor((progress / 100) * phases.length), phases.length - 1);
-        if (newPhaseIndex > phaseIndex) phaseIndex = newPhaseIndex;
-
-        setModels(prev => prev.map(m =>
-          m.id === modelId ? { ...m, progress: Math.min(progress, 100), phase: phases[phaseIndex] } : m
-        ));
-
-        if (progress >= 100) {
-          clearInterval(interval);
-          setModels(prev => prev.map(m =>
-            m.id === modelId
-              ? {
+              if (task.status === 'completed') {
+                clearInterval(pollInterval);
+                setIsTrainingPipeline(false);
+                
+                // Update all models to completed state
+                setModels(prev => prev.map(m => ({
                   ...m,
                   status: 'completed' as const,
                   progress: 100,
                   phase: 'Complete',
                   lastTrained: new Date().toISOString(),
-                  metrics: {
-                    brierScore: 0.13 + Math.random() * 0.02,
-                    logLoss: 0.85 + Math.random() * 0.05,
-                    drawAccuracy: 55 + Math.random() * 8,
-                  },
-                }
-              : m
-          ));
-          currentIndex++;
-          setTimeout(trainNext, 500);
-        }
-      }, 200);
-    };
+                  // Metrics will be loaded from backend via loadModelStatus
+                })));
+                
+                toast({
+                  title: 'Pipeline Complete',
+                  description: 'All models trained successfully. New version ready for activation.',
+                });
+                
+                // Refresh all data from backend
+                loadModelStatus();
+                loadTrainingHistory();
+              }
 
-    trainNext();
-  }, [toast]);
+              if (task.status === 'failed') {
+                clearInterval(pollInterval);
+                setIsTrainingPipeline(false);
+                setModels(prev => prev.map(m => ({
+                  ...m,
+                  status: 'failed' as const,
+                  phase: task.error || 'Failed',
+                })));
+                
+                toast({
+                  title: 'Pipeline Failed',
+                  description: task.error || 'Pipeline training failed. Please check logs.',
+                  variant: 'destructive',
+                });
+              }
+            }
+          } catch (error) {
+            console.error('Error polling pipeline status:', error);
+        }
+        }, 2000);
+      } else {
+        throw new Error('Failed to start pipeline training');
+      }
+    } catch (error: any) {
+      console.error('Error starting pipeline training:', error);
+      setIsTrainingPipeline(false);
+      toast({
+        title: 'Pipeline Failed',
+        description: error?.message || 'Failed to start pipeline training. Please try again.',
+        variant: 'destructive',
+      });
+    }
+  }, [loadModelStatus, toast]);
 
   const isAnyTraining = models.some(m => m.status === 'training');
 
@@ -305,6 +541,13 @@ export default function MLTraining() {
           </p>
         </div>
         <div className="flex items-center gap-2">
+          <Button
+            variant="outline"
+            onClick={() => setShowConfig(!showConfig)}
+          >
+            <Settings className="h-4 w-4 mr-2" />
+            {showConfig ? 'Hide' : 'Show'} Configuration
+          </Button>
           <Button
             onClick={trainFullPipeline}
             disabled={isTrainingPipeline || isAnyTraining}
@@ -323,6 +566,138 @@ export default function MLTraining() {
           </Button>
         </div>
       </div>
+
+      {/* Training Configuration */}
+      {showConfig && (
+        <Card className="border-primary/20 bg-gradient-to-br from-background to-background/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Settings className="h-5 w-5 text-primary" />
+              Training Configuration
+            </CardTitle>
+            <CardDescription>
+              Configure which leagues, seasons, and date range to use for training
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* League Selection */}
+            <div className="space-y-3">
+              <Label className="text-base font-semibold">Select Leagues</Label>
+              <p className="text-sm text-muted-foreground">
+                Leave empty to train on all leagues. Selected: {selectedLeagues.length} league(s)
+              </p>
+              <ScrollArea className="h-[200px] border rounded-lg p-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {leagues.map((league) => (
+                    <div key={league.code} className="flex items-center space-x-2">
+                      <input
+                        type="checkbox"
+                        id={`league-${league.code}`}
+                        checked={selectedLeagues.includes(league.code)}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedLeagues([...selectedLeagues, league.code]);
+                          } else {
+                            setSelectedLeagues(selectedLeagues.filter(l => l !== league.code));
+                          }
+                        }}
+                        className="h-4 w-4 rounded border-gray-300"
+                      />
+                      <Label htmlFor={`league-${league.code}`} className="text-sm cursor-pointer">
+                        {league.code} - {league.name}
+                      </Label>
+                    </div>
+                  ))}
+                </div>
+              </ScrollArea>
+              {selectedLeagues.length > 0 && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setSelectedLeagues([])}
+                  className="text-destructive hover:text-destructive"
+                >
+                  Clear Selection
+                </Button>
+              )}
+            </div>
+
+            {/* Season Selection */}
+            <div className="space-y-3">
+              <Label className="text-base font-semibold">Select Seasons</Label>
+              <p className="text-sm text-muted-foreground">
+                Leave empty to train on all seasons. Format: YYYY-YY (e.g., 2324 for 2023-24)
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {['2526', '2425', '2324', '2223', '2122', '2021', '1920', '1819', '1718', '1617'].map((season) => (
+                  <div key={season} className="flex items-center space-x-2">
+                    <input
+                      type="checkbox"
+                      id={`season-${season}`}
+                      checked={selectedSeasons.includes(season)}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSelectedSeasons([...selectedSeasons, season]);
+                        } else {
+                          setSelectedSeasons(selectedSeasons.filter(s => s !== season));
+                        }
+                      }}
+                      className="h-4 w-4 rounded border-gray-300"
+                    />
+                    <Label htmlFor={`season-${season}`} className="text-sm cursor-pointer">
+                      {season}
+                    </Label>
+                  </div>
+                ))}
+              </div>
+              {selectedSeasons.length > 0 && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setSelectedSeasons([])}
+                  className="text-destructive hover:text-destructive"
+                >
+                  Clear Selection
+                </Button>
+              )}
+            </div>
+
+            {/* Date Range */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <Label htmlFor="dateFrom">Date From (Optional)</Label>
+                <Input
+                  id="dateFrom"
+                  type="date"
+                  value={dateFrom}
+                  onChange={(e) => setDateFrom(e.target.value)}
+                  placeholder="YYYY-MM-DD"
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="dateTo">Date To (Optional)</Label>
+                <Input
+                  id="dateTo"
+                  type="date"
+                  value={dateTo}
+                  onChange={(e) => setDateTo(e.target.value)}
+                  placeholder="YYYY-MM-DD"
+                />
+              </div>
+            </div>
+
+            {/* Summary */}
+            <div className="p-4 bg-muted/50 rounded-lg">
+              <p className="text-sm font-medium mb-2">Training Configuration Summary:</p>
+              <ul className="text-sm text-muted-foreground space-y-1">
+                <li>• Leagues: {selectedLeagues.length > 0 ? selectedLeagues.join(', ') : 'All leagues'}</li>
+                <li>• Seasons: {selectedSeasons.length > 0 ? selectedSeasons.join(', ') : 'All seasons'}</li>
+                <li>• Date Range: {dateFrom && dateTo ? `${dateFrom} to ${dateTo}` : dateFrom ? `From ${dateFrom}` : dateTo ? `Until ${dateTo}` : 'No date filter'}</li>
+              </ul>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       {isTrainingPipeline && (
         <Alert>
@@ -356,6 +731,7 @@ export default function MLTraining() {
                     {model.id === 'poisson' && <TrendingUp className="h-5 w-5 text-primary" />}
                     {model.id === 'blending' && <Percent className="h-5 w-5 text-primary" />}
                     {model.id === 'calibration' && <Target className="h-5 w-5 text-primary" />}
+                    {model.id === 'draw' && <Minus className="h-5 w-5 text-primary" />}
                     <div>
                       <CardTitle className="text-lg">{model.name}</CardTitle>
                       <CardDescription>{model.description}</CardDescription>
@@ -478,52 +854,95 @@ export default function MLTraining() {
         <TabsContent value="history" className="space-y-4">
           <Card>
             <CardHeader>
+              <div className="flex items-center justify-between">
+                <div>
               <CardTitle className="text-lg flex items-center gap-2">
                 <Clock className="h-5 w-5" />
                 Training History
               </CardTitle>
               <CardDescription>
-                Past training runs and performance changes
+                    Past training runs and performance changes from database
               </CardDescription>
+                </div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={loadTrainingHistory}
+                >
+                  <RotateCcw className="h-4 w-4 mr-2" />
+                  Refresh
+                </Button>
+              </div>
             </CardHeader>
             <CardContent>
+              {trainingHistory.length === 0 ? (
+                <div className="h-[400px] flex items-center justify-center text-muted-foreground">
+                  <div className="text-center">
+                    <Clock className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                    <p>No training history found.</p>
+                    <p className="text-sm mt-2">Training runs will appear here after training completes.</p>
+                  </div>
+                </div>
+              ) : (
               <ScrollArea className="h-[400px]">
                 <Table>
                   <TableHeader>
                     <TableRow>
                       <TableHead>Date</TableHead>
-                      <TableHead>Model</TableHead>
+                        <TableHead>Run Type</TableHead>
+                        <TableHead>Matches</TableHead>
                       <TableHead>Duration</TableHead>
                       <TableHead>Status</TableHead>
-                      <TableHead className="text-right">Brier Δ</TableHead>
+                        <TableHead className="text-right">Brier Score</TableHead>
+                        <TableHead className="text-right">Log Loss</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {trainingHistory.map((run) => (
                       <TableRow key={run.id}>
-                        <TableCell className="text-sm">{formatDate(run.date)}</TableCell>
-                        <TableCell className="font-medium">{run.model}</TableCell>
+                          <TableCell className="text-sm">
+                            {run.startedAt ? formatDate(run.startedAt) : '—'}
+                          </TableCell>
+                          <TableCell className="font-medium capitalize">{run.runType}</TableCell>
+                          <TableCell className="text-sm text-muted-foreground tabular-nums">
+                            {run.matchCount?.toLocaleString() || '—'}
+                          </TableCell>
                         <TableCell className="text-sm text-muted-foreground tabular-nums">
-                          {run.duration}
+                            {run.duration ? `${Math.round(run.duration)}m` : '—'}
                         </TableCell>
                         <TableCell>
-                          {run.status === 'success' ? (
+                            {run.status === 'active' ? (
                             <Badge variant="secondary" className="bg-green-500/10 text-green-600">
                               <CheckCircle className="h-3 w-3 mr-1" />
-                              Success
+                              Active
                             </Badge>
-                          ) : (
+                            ) : run.status === 'archived' ? (
+                            <Badge variant="outline" className="bg-gray-500/10 text-gray-600">
+                              <Clock className="h-3 w-3 mr-1" />
+                              Archived
+                            </Badge>
+                            ) : run.status === 'failed' || run.trainingStatus === 'failed' ? (
                             <Badge variant="destructive">
                               <AlertCircle className="h-3 w-3 mr-1" />
                               Failed
                             </Badge>
+                            ) : run.status === 'completed' || run.trainingStatus === 'completed' ? (
+                            <Badge variant="secondary" className="bg-blue-500/10 text-blue-600">
+                              <CheckCircle className="h-3 w-3 mr-1" />
+                              Completed
+                            </Badge>
+                            ) : (
+                              <Badge variant="outline">{run.status || run.trainingStatus || 'Unknown'}</Badge>
                           )}
                         </TableCell>
                         <TableCell className="text-right tabular-nums">
-                          {run.brierDelta !== 0 ? (
-                            <span className={run.brierDelta < 0 ? 'text-green-600' : 'text-red-600'}>
-                              {run.brierDelta > 0 ? '+' : ''}{run.brierDelta.toFixed(3)}
-                            </span>
+                            {run.brierScore !== null && run.brierScore !== undefined ? (
+                              <span className="font-medium">{run.brierScore.toFixed(3)}</span>
+                            ) : '—'}
+                          </TableCell>
+                          <TableCell className="text-right tabular-nums">
+                            {run.logLoss !== null && run.logLoss !== undefined ? (
+                              <span className="font-medium">{run.logLoss.toFixed(3)}</span>
                           ) : '—'}
                         </TableCell>
                       </TableRow>
@@ -531,6 +950,7 @@ export default function MLTraining() {
                   </TableBody>
                 </Table>
               </ScrollArea>
+              )}
             </CardContent>
           </Card>
 

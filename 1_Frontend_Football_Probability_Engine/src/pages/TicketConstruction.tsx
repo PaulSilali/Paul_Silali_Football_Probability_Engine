@@ -1,4 +1,5 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { 
   Ticket, 
   Plus, 
@@ -15,7 +16,8 @@ import {
   Zap,
   Scale,
   Users,
-  Sparkles
+  Sparkles,
+  Loader2
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -42,6 +44,7 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import { useToast } from '@/hooks/use-toast';
+import apiClient from '@/services/api';
 
 // Probability set configurations
 const probabilitySets = {
@@ -54,22 +57,12 @@ const probabilitySets = {
   G: { name: 'Ensemble', icon: Users, risk: 'Low', color: 'text-chart-4' },
 };
 
-// Mock fixture data with picks per set
-const fixtureData = [
-  { id: '1', home: 'Gillingham', away: 'Cambridge', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' } },
-  { id: '2', home: 'AFC Wimbledon', away: 'Crawley', sets: { A: 'X', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' } },
-  { id: '3', home: 'Cheltenham', away: 'Walsall', sets: { A: '1', B: '1', C: '2', D: 'X', E: '2', F: '2', G: '1' } },
-  { id: '4', home: 'Blackpool', away: 'Doncaster', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' } },
-  { id: '5', home: 'Burton', away: 'Accrington', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' } },
-  { id: '6', home: 'Chesterfield', away: 'Harrogate', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' } },
-  { id: '7', home: 'Plymouth', away: 'Luton', sets: { A: '1', B: 'X', C: '2', D: 'X', E: '2', F: '2', G: 'X' } },
-  { id: '8', home: 'Portsmouth', away: 'Swansea', sets: { A: '2', B: '2', C: '2', D: 'X', E: '2', F: '2', G: '2' } },
-  { id: '9', home: 'Peterborough', away: 'Northampton', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' } },
-  { id: '10', home: 'Chippenham', away: 'Taunton', sets: { A: '1', B: '2', C: '2', D: 'X', E: '2', F: '2', G: '2' } },
-  { id: '11', home: 'Salisbury', away: 'Frome', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' } },
-  { id: '12', home: 'Eastleigh', away: 'Woking', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' } },
-  { id: '13', home: 'Telford', away: 'Kidderminster', sets: { A: '1', B: '1', C: 'X', D: 'X', E: '1', F: '1', G: '1' } },
-];
+// Helper function to get highest probability outcome
+const getHighestProbOutcome = (homeProb: number, drawProb: number, awayProb: number): '1' | 'X' | '2' => {
+  if (homeProb >= drawProb && homeProb >= awayProb) return '1';
+  if (awayProb >= homeProb && awayProb >= drawProb) return '2';
+  return 'X';
+};
 
 type SetKey = keyof typeof probabilitySets;
 type Pick = '1' | 'X' | '2';
@@ -83,46 +76,257 @@ interface GeneratedTicket {
 }
 
 export default function TicketConstruction() {
+  const [searchParams] = useSearchParams();
+  const jackpotId = searchParams.get('jackpotId');
   const [selectedSets, setSelectedSets] = useState<SetKey[]>(['B']);
   const [budget, setBudget] = useState<number>(500);
   const [tickets, setTickets] = useState<GeneratedTicket[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [fixtureData, setFixtureData] = useState<Array<{
+    id: string;
+    home: string;
+    away: string;
+    sets: Record<string, '1' | 'X' | '2'>;
+    odds?: { home: number; draw: number; away: number };
+  }>>([]);
+  const [loadedSets, setLoadedSets] = useState<Record<string, any>>({});
+  const [savedResults, setSavedResults] = useState<any[]>([]);
   const { toast } = useToast();
+
+  // Load probabilities and saved results
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        let targetJackpotId = jackpotId;
+        
+        // If no jackpotId, try to get from latest saved result
+        if (!targetJackpotId) {
+          const latestResponse = await apiClient.getLatestSavedResult();
+          if (latestResponse.success && latestResponse.data?.result?.jackpotId) {
+            targetJackpotId = latestResponse.data.result.jackpotId;
+          }
+        }
+        
+        if (targetJackpotId) {
+          // Load probabilities
+          const probResponse = await apiClient.getProbabilities(targetJackpotId);
+          const probData = (probResponse as any).success ? (probResponse as any).data : probResponse;
+          
+          // Declare transformedSets in outer scope so it's available in both blocks
+          let transformedSets: Record<string, any> = {};
+          
+          if (probData && probData.probabilitySets && probData.fixtures) {
+            transformedSets = {};
+            Object.keys(probData.probabilitySets).forEach(setId => {
+              const setProbs = probData.probabilitySets[setId];
+              transformedSets[setId] = {
+                probabilities: setProbs.map((prob: any, idx: number) => ({
+                  fixtureId: probData.fixtures[idx]?.id || String(idx + 1),
+                  homeTeam: probData.fixtures[idx]?.homeTeam || '',
+                  awayTeam: probData.fixtures[idx]?.awayTeam || '',
+                  odds: probData.fixtures[idx]?.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+                  homeWinProbability: prob.homeWinProbability || 0,
+                  drawProbability: prob.drawProbability || 0,
+                  awayWinProbability: prob.awayWinProbability || 0,
+                })),
+              };
+            });
+            setLoadedSets(transformedSets);
+            
+            // Build fixture data with picks from probabilities
+            const fixtures = probData.fixtures || [];
+            const fixtureDataWithPicks = fixtures.map((fixture: any, idx: number) => {
+              const sets: Record<string, '1' | 'X' | '2'> = {};
+              Object.keys(transformedSets).forEach(setId => {
+                const prob = transformedSets[setId].probabilities[idx];
+                if (prob) {
+                  sets[setId] = getHighestProbOutcome(
+                    prob.homeWinProbability / 100,
+                    prob.drawProbability / 100,
+                    prob.awayWinProbability / 100
+                  );
+                }
+              });
+              return {
+                id: fixture.id || String(idx + 1),
+                home: fixture.homeTeam || '',
+                away: fixture.awayTeam || '',
+                sets,
+                odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+              };
+            });
+            setFixtureData(fixtureDataWithPicks);
+          }
+          
+          // Load saved results to get actual selections
+          const savedResponse = await apiClient.getSavedResults(targetJackpotId);
+          if (savedResponse.success && savedResponse.data?.results) {
+            setSavedResults(savedResponse.data.results);
+            
+            // If we have saved selections, use those instead of highest probability
+            if (savedResponse.data.results.length > 0 && savedResponse.data.results[0].selections && probData && probData.fixtures) {
+              const latestResult = savedResponse.data.results[0];
+              const fixtures = probData.fixtures || [];
+              const fixtureDataWithSelections = fixtures.map((fixture: any, idx: number) => {
+                const sets: Record<string, '1' | 'X' | '2'> = {};
+                
+                // First, try to get selections from saved results (user picks)
+                Object.keys(latestResult.selections || {}).forEach(setId => {
+                  const setSelections = latestResult.selections[setId];
+                  const fixtureId = fixture.id || String(idx + 1);
+                  
+                  // Check by fixture ID first
+                  if (setSelections && setSelections[fixtureId]) {
+                    sets[setId] = setSelections[fixtureId] as '1' | 'X' | '2';
+                  } else {
+                    // Try by index if ID doesn't match
+                    const selectionEntries = Object.entries(setSelections || {});
+                    if (idx < selectionEntries.length) {
+                      sets[setId] = selectionEntries[idx][1] as '1' | 'X' | '2';
+                    } else {
+                      // Fallback to highest probability only if no selection exists
+                      const prob = transformedSets[setId]?.probabilities?.[idx];
+                      if (prob) {
+                        sets[setId] = getHighestProbOutcome(
+                          prob.homeWinProbability / 100,
+                          prob.drawProbability / 100,
+                          prob.awayWinProbability / 100
+                        );
+                      }
+                    }
+                  }
+                });
+                
+                // Fill in any missing sets with highest probability
+                Object.keys(transformedSets).forEach(setId => {
+                  if (!sets[setId]) {
+                    const prob = transformedSets[setId]?.probabilities?.[idx];
+                    if (prob) {
+                      sets[setId] = getHighestProbOutcome(
+                        prob.homeWinProbability / 100,
+                        prob.drawProbability / 100,
+                        prob.awayWinProbability / 100
+                      );
+                    }
+                  }
+                });
+                
+                return {
+                  id: fixture.id || String(idx + 1),
+                  home: fixture.homeTeam || '',
+                  away: fixture.awayTeam || '',
+                  sets,
+                  odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+                };
+              });
+              setFixtureData(fixtureDataWithSelections);
+            }
+          }
+        } else {
+          // Use mock data if no jackpotId found
+          setFixtureData([
+            { id: '1', home: 'Gillingham', away: 'Cambridge', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' }, odds: { home: 2.0, draw: 3.0, away: 2.5 } },
+            { id: '2', home: 'AFC Wimbledon', away: 'Crawley', sets: { A: 'X', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' }, odds: { home: 2.2, draw: 3.2, away: 2.8 } },
+            { id: '3', home: 'Cheltenham', away: 'Walsall', sets: { A: '1', B: '1', C: '2', D: 'X', E: '2', F: '2', G: '1' }, odds: { home: 2.1, draw: 3.1, away: 2.9 } },
+            { id: '4', home: 'Blackpool', away: 'Doncaster', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' }, odds: { home: 1.9, draw: 3.3, away: 3.1 } },
+            { id: '5', home: 'Burton', away: 'Accrington', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' }, odds: { home: 2.0, draw: 3.2, away: 2.7 } },
+            { id: '6', home: 'Chesterfield', away: 'Harrogate', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' }, odds: { home: 1.8, draw: 3.4, away: 3.2 } },
+            { id: '7', home: 'Plymouth', away: 'Luton', sets: { A: '1', B: 'X', C: '2', D: 'X', E: '2', F: '2', G: 'X' }, odds: { home: 2.3, draw: 3.0, away: 2.6 } },
+            { id: '8', home: 'Portsmouth', away: 'Swansea', sets: { A: '2', B: '2', C: '2', D: 'X', E: '2', F: '2', G: '2' }, odds: { home: 2.5, draw: 3.1, away: 2.4 } },
+            { id: '9', home: 'Peterborough', away: 'Northampton', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' }, odds: { home: 1.9, draw: 3.3, away: 3.1 } },
+            { id: '10', home: 'Chippenham', away: 'Taunton', sets: { A: '1', B: '2', C: '2', D: 'X', E: '2', F: '2', G: '2' }, odds: { home: 2.4, draw: 3.2, away: 2.3 } },
+            { id: '11', home: 'Salisbury', away: 'Frome', sets: { A: '1', B: '1', C: '1', D: '1', E: '1', F: '1', G: '1' }, odds: { home: 2.0, draw: 3.0, away: 2.8 } },
+            { id: '12', home: 'Eastleigh', away: 'Woking', sets: { A: '1', B: '1', C: '1', D: 'X', E: '1', F: '1', G: '1' }, odds: { home: 2.1, draw: 3.1, away: 2.9 } },
+            { id: '13', home: 'Telford', away: 'Kidderminster', sets: { A: '1', B: '1', C: 'X', D: 'X', E: '1', F: '1', G: '1' }, odds: { home: 2.2, draw: 3.0, away: 2.7 } },
+          ]);
+        }
+      } catch (err: any) {
+        console.error('Error loading ticket data:', err);
+        toast({
+          title: 'Warning',
+          description: 'Could not load probability data. Using mock data.',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadData();
+  }, [jackpotId, toast]);
 
   // Generate tickets based on selected sets
   const generateTickets = useCallback(() => {
+    if (fixtureData.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'No fixture data available. Please ensure probabilities are loaded.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
     const newTickets: GeneratedTicket[] = selectedSets.map((setKey, idx) => {
-      const picks = fixtureData.map(f => f.sets[setKey] as Pick);
+      const picks = fixtureData.map(f => f.sets[setKey] as Pick).filter(p => p !== undefined);
       
-      // Calculate mock probability and odds
-      const probability = picks.reduce((acc, pick) => {
-        const base = pick === '1' ? 0.45 : pick === 'X' ? 0.28 : 0.35;
-        return acc * (base + Math.random() * 0.1);
-      }, 1) * 100;
+      if (picks.length === 0) {
+        return null;
+      }
       
-      const combinedOdds = picks.reduce((acc, pick) => {
-        const base = pick === '1' ? 2.2 : pick === 'X' ? 3.3 : 2.8;
-        return acc * (base + Math.random() * 0.5);
-      }, 1);
+      // Calculate actual probability and odds from loaded data
+      let probability = 1;
+      let combinedOdds = 1;
+      
+      fixtureData.forEach((fixture, fixtureIdx) => {
+        const pick = picks[fixtureIdx];
+        if (!pick) return;
+        
+        // Get probability from loaded sets if available
+        if (loadedSets[setKey]?.probabilities?.[fixtureIdx]) {
+          const prob = loadedSets[setKey].probabilities[fixtureIdx];
+          const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
+                          pick === 'X' ? prob.drawProbability / 100 :
+                          prob.awayWinProbability / 100;
+          probability *= pickProb;
+        } else {
+          // Fallback to mock calculation
+          const base = pick === '1' ? 0.45 : pick === 'X' ? 0.28 : 0.35;
+          probability *= base;
+        }
+        
+        // Get odds from fixture data
+        if (fixture.odds) {
+          const pickOdds = pick === '1' ? fixture.odds.home :
+                          pick === 'X' ? fixture.odds.draw :
+                          fixture.odds.away;
+          combinedOdds *= pickOdds;
+        } else {
+          // Fallback to mock odds
+          const base = pick === '1' ? 2.2 : pick === 'X' ? 3.3 : 2.8;
+          combinedOdds *= base;
+        }
+      });
 
       return {
         id: `ticket-${setKey}-${Date.now()}-${idx}`,
         setKey,
         picks,
-        probability: probability,
+        probability: probability * 100,
         combinedOdds,
       };
-    });
+    }).filter((ticket): ticket is GeneratedTicket => ticket !== null);
 
     setTickets(newTickets);
     toast({
       title: 'Tickets Generated',
       description: `${newTickets.length} tickets created using Sets ${selectedSets.join(', ')}`,
     });
-  }, [selectedSets, toast]);
+  }, [selectedSets, fixtureData, loadedSets, toast]);
 
   // Coverage diagnostics
   const coverageDiagnostics = useMemo(() => {
-    if (tickets.length === 0) return null;
+    if (tickets.length === 0 || fixtureData.length === 0) return null;
 
     const totalPicks = fixtureData.length * tickets.length;
     let homePicks = 0;
@@ -133,7 +337,7 @@ export default function TicketConstruction() {
       ticket.picks.forEach(pick => {
         if (pick === '1') homePicks++;
         else if (pick === 'X') drawPicks++;
-        else awayPicks++;
+        else if (pick === '2') awayPicks++;
       });
     });
 
@@ -143,13 +347,13 @@ export default function TicketConstruction() {
     const overlapWarning = uniqueTickets < tickets.length;
 
     return {
-      homePct: (homePicks / totalPicks) * 100,
-      drawPct: (drawPicks / totalPicks) * 100,
-      awayPct: (awayPicks / totalPicks) * 100,
+      homePct: totalPicks > 0 ? (homePicks / totalPicks) * 100 : 0,
+      drawPct: totalPicks > 0 ? (drawPicks / totalPicks) * 100 : 0,
+      awayPct: totalPicks > 0 ? (awayPicks / totalPicks) * 100 : 0,
       uniqueTickets,
       overlapWarning,
     };
-  }, [tickets]);
+  }, [tickets, fixtureData]);
 
   const addSet = (setKey: SetKey) => {
     if (!selectedSets.includes(setKey)) {
@@ -259,10 +463,19 @@ export default function TicketConstruction() {
               <Button 
                 onClick={generateTickets} 
                 className="w-full btn-glow bg-primary text-primary-foreground"
-                disabled={selectedSets.length === 0}
+                disabled={selectedSets.length === 0 || loading || fixtureData.length === 0}
               >
-                <Sparkles className="h-4 w-4 mr-2" />
-                Generate {selectedSets.length} Ticket{selectedSets.length !== 1 ? 's' : ''}
+                {loading ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Loading...
+                  </>
+                ) : (
+                  <>
+                    <Sparkles className="h-4 w-4 mr-2" />
+                    Generate {selectedSets.length} Ticket{selectedSets.length !== 1 ? 's' : ''}
+                  </>
+                )}
               </Button>
             </CardContent>
           </Card>
@@ -379,11 +592,59 @@ export default function TicketConstruction() {
                               <div className="flex gap-1">
                                 <Tooltip>
                                   <TooltipTrigger asChild>
-                                    <Button size="icon" variant="ghost" className="h-7 w-7">
+                                    <Button 
+                                      size="icon" 
+                                      variant="ghost" 
+                                      className="h-7 w-7"
+                                      onClick={() => {
+                                        const picksString = ticket.picks.join('');
+                                        navigator.clipboard.writeText(picksString);
+                                        toast({
+                                          title: 'Copied',
+                                          description: 'Ticket picks copied to clipboard',
+                                        });
+                                      }}
+                                    >
                                       <Copy className="h-3.5 w-3.5" />
                                     </Button>
                                   </TooltipTrigger>
                                   <TooltipContent>Copy picks</TooltipContent>
+                                </Tooltip>
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <Button 
+                                      size="icon" 
+                                      variant="ghost" 
+                                      className="h-7 w-7"
+                                      onClick={() => {
+                                        const csv = [
+                                          ['Set', 'Picks', 'Probability', 'Combined Odds'],
+                                          [
+                                            ticket.setKey,
+                                            ticket.picks.join(''),
+                                            ticket.probability.toExponential(2),
+                                            ticket.combinedOdds.toFixed(2)
+                                          ]
+                                        ].map(row => row.join(',')).join('\n');
+                                        
+                                        const blob = new Blob([csv], { type: 'text/csv' });
+                                        const url = URL.createObjectURL(blob);
+                                        const a = document.createElement('a');
+                                        a.href = url;
+                                        a.download = `ticket-${ticket.setKey}-${Date.now()}.csv`;
+                                        a.click();
+                                        URL.revokeObjectURL(url);
+                                        
+                                        toast({
+                                          title: 'Downloaded',
+                                          description: 'Ticket exported as CSV',
+                                        });
+                                      }}
+                                    >
+                                      <Download className="h-3.5 w-3.5" />
+                                    </Button>
+                                  </TooltipTrigger>
+                                  <TooltipContent>Export ticket</TooltipContent>
                                 </Tooltip>
                               </div>
                             </TableCell>

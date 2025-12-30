@@ -22,7 +22,22 @@ async def get_task_status(
     """Get task status by ID"""
     # Check in-memory store
     if task_id in task_store:
-        return task_store[task_id]
+        task_data = task_store[task_id].copy()
+        # Ensure response format matches frontend expectations
+        return {
+            "data": {
+                "taskId": task_data.get("taskId", task_id),
+                "status": task_data.get("status", "unknown"),
+                "progress": task_data.get("progress", 0),
+                "phase": task_data.get("phase"),
+                "message": task_data.get("message"),
+                "result": task_data.get("result"),
+                "error": task_data.get("error"),
+                "startedAt": task_data.get("startedAt"),
+                "completedAt": task_data.get("completedAt"),
+            },
+            "success": True
+        }
     
     # Check database for training runs, ingestion logs, etc.
     # For now, return not found

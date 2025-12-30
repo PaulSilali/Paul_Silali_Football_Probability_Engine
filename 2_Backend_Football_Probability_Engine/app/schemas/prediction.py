@@ -1,7 +1,7 @@
 """
 Pydantic Schemas for API Requests/Responses
 """
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, model_validator
 from typing import Dict, List, Optional
 from datetime import datetime
 from app.config import settings
@@ -31,27 +31,30 @@ class JackpotInput(BaseModel):
 
 
 class MatchProbabilitiesOutput(BaseModel):
-    """Match outcome probabilities."""
-    homeWinProbability: float = Field(..., ge=0.0, le=1.0)
-    drawProbability: float = Field(..., ge=0.0, le=1.0)
-    awayWinProbability: float = Field(..., ge=0.0, le=1.0)
+    """Match outcome probabilities (as percentages, 0-100)."""
+    homeWinProbability: float = Field(..., ge=0.0, le=100.0)
+    drawProbability: float = Field(..., ge=0.0, le=100.0)
+    awayWinProbability: float = Field(..., ge=0.0, le=100.0)
     entropy: Optional[float] = Field(None, ge=0.0)
     confidenceLow: Optional[float] = None
     confidenceHigh: Optional[float] = None
+    calibrated: Optional[bool] = Field(None, description="Whether this probability set is calibrated")
+    heuristic: Optional[bool] = Field(None, description="Whether this probability set is heuristic")
+    allowedForDecisionSupport: Optional[bool] = Field(None, description="Whether this set can be used for decision support")
     
-    @field_validator('homeWinProbability', 'drawProbability', 'awayWinProbability')
-    @classmethod
-    def validate_probability_sum(cls, v, info):
-        """Validate that probabilities sum to 1.0."""
-        if hasattr(info, 'data'):
-            total = (
-                info.data.get('homeWinProbability', 0) +
-                info.data.get('drawProbability', 0) +
-                info.data.get('awayWinProbability', 0)
-            )
-            if abs(total - 1.0) > settings.PROBABILITY_SUM_TOLERANCE:
-                raise ValueError(f"Probabilities must sum to 1.0, got {total}")
-        return v
+    @model_validator(mode='after')
+    def validate_probability_sum(self):
+        """Validate that probabilities sum to 100.0 (percentages)."""
+        total = (
+            self.homeWinProbability +
+            self.drawProbability +
+            self.awayWinProbability
+        )
+        # Allow some tolerance for rounding (e.g., 99.9 to 100.1)
+        tolerance = settings.PROBABILITY_SUM_TOLERANCE * 100
+        if abs(total - 100.0) > tolerance:
+            raise ValueError(f"Probabilities must sum to 100.0, got {total:.2f}")
+        return self
 
 
 class FixtureProbability(BaseModel):

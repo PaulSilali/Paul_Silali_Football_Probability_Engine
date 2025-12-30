@@ -1,14 +1,16 @@
 """
 Model Management API Endpoints
 """
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session
 from app.db.session import get_db
 from app.db.models import Model, ModelStatus
 from app.schemas.prediction import ModelVersionResponse
 from datetime import datetime
-from typing import List
+from typing import List, Dict, Optional
 import logging
+import uuid
+import asyncio
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/model", tags=["model"])
@@ -23,44 +25,285 @@ async def get_model_status(
     
     if not model:
         return {
-            "status": "no_model",
-            "message": "No active model found"
+            "success": True,
+            "data": {
+                "status": "no_model",
+                "message": "No active model found"
+            }
         }
     
     return {
-        "version": model.version,
-        "status": model.status.value,
-        "trainedAt": model.training_completed_at.isoformat() if model.training_completed_at else None,
-        "brierScore": model.brier_score,
-        "logLoss": model.log_loss,
-        "accuracy": model.overall_accuracy,
-        "drawAccuracy": model.draw_accuracy,
-        "trainingMatches": model.training_matches
+        "success": True,
+        "data": {
+            "version": model.version,
+            "status": model.status.value,
+            "trainedAt": model.training_completed_at.isoformat() if model.training_completed_at else None,
+            "brierScore": model.brier_score,
+            "logLoss": model.log_loss,
+            "accuracy": model.overall_accuracy,
+            "drawAccuracy": model.draw_accuracy,
+            "trainingMatches": model.training_matches
+        }
     }
 
 
 @router.post("/train")
 async def train_model(
+    request: Dict = Body(default={}),
     db: Session = Depends(get_db)
 ):
     """
     Trigger model training
     
+    Request body:
+    {
+        "modelType": "poisson" | "blending" | "calibration" | "draw" | "full",
+        "leagues": ["E0", "SP1", ...],  # Optional
+        "seasons": ["2324", "2223", ...],  # Optional
+        "dateFrom": "2020-01-01",  # Optional
+        "dateTo": "2024-12-31"  # Optional
+    }
+    
     Returns task ID for async processing
     """
-    # TODO: Implement actual training logic
-    # For now, return task ID
-    task_id = f"task-{int(datetime.now().timestamp())}"
+    from app.services.model_training import ModelTrainingService
+    from app.api.tasks import task_store
+    import threading
     
-    # In production, this would:
-    # 1. Queue a Celery task
-    # 2. Return task ID immediately
-    # 3. Process training asynchronously
+    model_type = request.get("modelType", "full")
+    leagues = request.get("leagues")
+    seasons = request.get("seasons")
+    date_from = request.get("dateFrom")
+    date_to = request.get("dateTo")
     
-    return {
+    # Generate task ID
+    task_id = f"train-{int(datetime.now().timestamp())}-{uuid.uuid4().hex[:8]}"
+    
+    # Initialize task in store
+    task_store[task_id] = {
         "taskId": task_id,
         "status": "queued",
-        "message": "Model training queued. Use /api/tasks/{taskId} to check status."
+        "progress": 0,
+        "phase": "Initializing training...",
+        "message": f"Training {model_type} model",
+        "startedAt": datetime.now().isoformat(),
+    }
+    
+    # Start async training (in production, use Celery)
+    def run_training():
+        try:
+            task_store[task_id]["status"] = "running"
+            task_store[task_id]["progress"] = 5
+            task_store[task_id]["phase"] = "Loading training data..."
+            
+            # Create new DB session for background task
+            from app.db.session import SessionLocal
+            background_db = SessionLocal()
+            service = ModelTrainingService(background_db)
+            
+            # Parse dates if provided
+            date_from_obj = datetime.fromisoformat(date_from) if date_from else None
+            date_to_obj = datetime.fromisoformat(date_to) if date_to else None
+            
+            if model_type == "poisson":
+                result = service.train_poisson_model(
+                    leagues=leagues,
+                    seasons=seasons,
+                    date_from=date_from_obj,
+                    date_to=date_to_obj,
+                    task_id=task_id
+                )
+                task_store[task_id]["result"] = {
+                    "modelId": result["modelId"],
+                    "version": result["version"],
+                    "metrics": result["metrics"],
+                }
+            elif model_type == "blending":
+                result = service.train_blending_model(
+                    leagues=leagues,
+                    seasons=seasons,
+                    date_from=date_from_obj,
+                    date_to=date_to_obj,
+                    task_id=task_id
+                )
+                task_store[task_id]["result"] = {
+                    "modelId": result.get("modelId"),
+                    "version": result["version"],
+                    "metrics": result["metrics"],
+                    "optimalAlpha": result.get("optimalAlpha"),
+                }
+            elif model_type == "calibration":
+                result = service.train_calibration_model(
+                    leagues=leagues,
+                    seasons=seasons,
+                    date_from=date_from_obj,
+                    date_to=date_to_obj,
+                    task_id=task_id
+                )
+                task_store[task_id]["result"] = {
+                    "modelId": result.get("modelId"),
+                    "version": result["version"],
+                    "metrics": result["metrics"],
+                }
+            elif model_type == "draw":
+                # Train draw-only calibration model
+                result = service.train_draw_calibration_model(
+                    leagues=leagues,
+                    seasons=seasons,
+                    task_id=task_id
+                )
+                task_store[task_id]["result"] = {
+                    "modelId": result.get("modelId"),
+                    "version": result.get("version", "draw-calibration"),
+                    "sampleCount": result.get("sampleCount", 0),
+                }
+            else:  # full pipeline
+                result = service.train_full_pipeline(
+                    leagues=leagues,
+                    seasons=seasons,
+                    task_id=task_id
+                )
+                task_store[task_id]["result"] = {
+                    "poisson": result["poisson"],
+                    "blending": result["blending"],
+                    "calibration": result["calibration"],
+                    "metrics": result["finalMetrics"],
+                }
+            
+            task_store[task_id]["status"] = "completed"
+            task_store[task_id]["progress"] = 100
+            task_store[task_id]["phase"] = "Complete"
+            task_store[task_id]["completedAt"] = datetime.now().isoformat()
+            
+            background_db.close()
+            
+        except Exception as e:
+            logger.error(f"Training failed: {e}", exc_info=True)
+            task_store[task_id]["status"] = "failed"
+            task_store[task_id]["error"] = str(e)
+            task_store[task_id]["completedAt"] = datetime.now().isoformat()
+            if 'background_db' in locals():
+                background_db.close()
+    
+    # Run training in background thread (in production, use Celery)
+    thread = threading.Thread(target=run_training, daemon=True)
+    thread.start()
+    
+    return {
+        "success": True,
+        "data": {
+            "taskId": task_id,
+            "status": "queued",
+            "message": f"Model training queued. Use /api/tasks/{task_id} to check status."
+        }
+    }
+
+
+@router.get("/versions")
+async def get_model_versions(
+    db: Session = Depends(get_db)
+):
+    """Get all model versions"""
+    models = db.query(Model).order_by(Model.training_completed_at.desc()).all()
+    
+    return {
+        "data": [
+            {
+                "id": str(model.id),
+                "version": model.version,
+                "modelType": model.model_type,
+                "status": model.status.value,
+                "trainedAt": model.training_completed_at.isoformat() if model.training_completed_at else None,
+                "brierScore": model.brier_score,
+                "logLoss": model.log_loss,
+                "drawAccuracy": model.draw_accuracy,
+                "trainingMatches": model.training_matches,
+                "trainingLeagues": model.training_leagues,
+                "trainingSeasons": model.training_seasons,
+                "isActive": model.status == ModelStatus.active,
+            }
+            for model in models
+        ],
+        "success": True,
+        "count": len(models)
+    }
+
+
+@router.get("/training-history")
+async def get_training_history(
+    limit: int = 50,
+    db: Session = Depends(get_db)
+):
+    """Get training run history from database with actual model status"""
+    from app.db.models import TrainingRun, Model
+    
+    runs = db.query(TrainingRun).order_by(TrainingRun.started_at.desc()).limit(limit).all()
+    
+    # Build response with actual model status
+    results = []
+    for run in runs:
+        # Get actual model status if model_id exists
+        model_status = None
+        if run.model_id:
+            model = db.query(Model).filter(Model.id == run.model_id).first()
+            if model:
+                model_status = model.status.value  # This shows if model is active/archived
+        
+        # Use model status if available, otherwise use training run status
+        # Training run status shows if training completed/failed
+        # Model status shows if model is currently active or archived
+        display_status = model_status if model_status else (run.status.value if run.status else "unknown")
+        
+        results.append({
+            "id": str(run.id),
+            "modelId": str(run.model_id) if run.model_id else None,
+            "runType": run.run_type,
+            "status": display_status,  # Shows actual model status (active/archived) if model exists
+            "trainingStatus": run.status.value if run.status else "unknown",  # Training run status (completed/failed)
+            "startedAt": run.started_at.isoformat() if run.started_at else None,
+            "completedAt": run.completed_at.isoformat() if run.completed_at else None,
+            "matchCount": run.match_count,
+            "dateFrom": run.date_from.isoformat() if run.date_from else None,
+            "dateTo": run.date_to.isoformat() if run.date_to else None,
+            "brierScore": run.brier_score,
+            "logLoss": run.log_loss,
+            "validationAccuracy": run.validation_accuracy,
+            "errorMessage": run.error_message,
+            "duration": (
+                (run.completed_at - run.started_at).total_seconds() / 60
+                if run.completed_at and run.started_at
+                else None
+            ),
+        })
+    
+    return {
+        "success": True,
+        "data": results,
+        "count": len(results)
+    }
+
+
+@router.get("/leagues")
+async def get_leagues(
+    db: Session = Depends(get_db)
+):
+    """Get all available leagues for training configuration"""
+    from app.db.models import League
+    
+    leagues = db.query(League).filter(League.is_active == True).order_by(League.code).all()
+    
+    return {
+        "success": True,
+        "data": [
+            {
+                "code": league.code,
+                "name": league.name,
+                "country": league.country,
+                "tier": league.tier,
+            }
+            for league in leagues
+        ],
+        "count": len(leagues)
     }
 
 

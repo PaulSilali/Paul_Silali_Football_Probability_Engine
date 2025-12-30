@@ -1,18 +1,21 @@
 """
 Data Ingestion API Endpoints
 """
-from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Body, Request, Response
 from sqlalchemy.orm import Session
 from app.db.session import get_db
-from app.services.data_ingestion import DataIngestionService, create_default_leagues
+from app.services.data_ingestion import DataIngestionService, create_default_leagues, get_seasons_list
+from app.config import settings
 from app.db.models import DataSource, IngestionLog
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List, Dict
 from datetime import datetime
 import logging
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/data", tags=["data"])
+
+
 
 
 @router.post("/updates")
@@ -65,25 +68,62 @@ async def trigger_data_refresh(
     
     Args:
         source: Data source name ('football-data.co.uk', 'api-football', etc.)
-        league_code: Optional league code
-        season: Optional season code
+        league_code: League code (e.g., 'E0' for Premier League)
+        season: Season code (e.g., '2324' for 2023-24) or 'all' for all seasons (max 7 years)
+    
+    Returns:
+        Response with batch number and ingestion statistics
     """
     try:
-        service = DataIngestionService(db)
+        service = DataIngestionService(
+            db,
+            enable_cleaning=settings.ENABLE_DATA_CLEANING
+        )
         
         if source == "football-data.co.uk":
-            if not league_code or not season:
+            if not league_code:
                 raise HTTPException(
                     status_code=400,
-                    detail="league_code and season required for football-data.co.uk"
+                    detail="league_code is required for football-data.co.uk"
                 )
             
-            stats = service.ingest_from_football_data(league_code, season)
+            if not season:
+                raise HTTPException(
+                    status_code=400,
+                    detail="season is required (e.g., '2324' or 'all')"
+                )
+            
+            # Convert season format if needed (e.g., "2023-24" -> "2324")
+            from app.services.data_ingestion import get_season_code, get_seasons_list
+            season_code = get_season_code(season)
+            
+            # Determine season display text
+            if season_code == "last7":
+                season_display = f"Last 7 Seasons ({len(get_seasons_list(7))} seasons)"
+            elif season_code == "last10":
+                season_display = f"Last 10 Seasons ({len(get_seasons_list(10))} seasons)"
+            elif season_code == "all":
+                season_display = f"All Seasons ({len(get_seasons_list())} seasons)"
+            else:
+                season_display = season_code
+            
+            # Start ingestion (batch number will be assigned from ingestion_log.id)
+            stats = service.ingest_from_football_data(
+                league_code, 
+                season_code,
+                save_csv=True
+            )
+            
+            # Get batch number from stats
+            batch_number = stats.get("batch_number", stats.get("ingestion_log_id"))
             
             return {
                 "data": {
                     "id": f"task-{int(datetime.now().timestamp())}",
+                    "batchNumber": batch_number,
                     "source": source,
+                    "leagueCode": league_code,
+                    "season": season_display,
                     "status": "completed",
                     "progress": 100,
                     "startedAt": datetime.now().isoformat(),
@@ -125,7 +165,10 @@ async def upload_csv(
         content = await file.read()
         csv_content = content.decode('utf-8')
         
-        service = DataIngestionService(db)
+        service = DataIngestionService(
+            db,
+            enable_cleaning=settings.ENABLE_DATA_CLEANING
+        )
         stats = service.ingest_csv(csv_content, league_code, season)
         
         return {
@@ -197,6 +240,367 @@ async def get_data_updates(
         "page": page,
         "pageSize": page_size
     }
+
+
+@router.post("/prepare-training-data")
+async def prepare_training_data_endpoint(
+    request: Dict = Body(...),
+    db: Session = Depends(get_db)
+):
+    """
+    Prepare cleaned training data files per league
+    
+    Combines all seasons per league into single CSV/Parquet files
+    Optimized for model training workflows
+    
+    Request body:
+        - league_codes: Optional[List[str]] - List of league codes (None = all leagues)
+        - format: str - Output format ("csv", "parquet", or "both", default: "both")
+    
+    Returns:
+        Preparation statistics and file paths
+    """
+    try:
+        from app.services.data_preparation import DataPreparationService
+        
+        league_codes = request.get("league_codes")
+        format_type = request.get("format", "both")
+        
+        service = DataPreparationService(db)
+        
+        if league_codes:
+            results = []
+            for code in league_codes:
+                stats = service.prepare_league_data(code, format=format_type)
+                results.append(stats)
+            return {
+                "success": True,
+                "data": {
+                    "leagues": results,
+                    "total_matches": sum(r["matches_count"] for r in results),
+                    "output_directory": str(service.output_dir)
+                }
+            }
+        else:
+            summary = service.prepare_all_leagues(format=format_type)
+            return {
+                "success": True,
+                "data": summary
+            }
+    
+    except Exception as e:
+        logger.error(f"Error preparing training data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/batches")
+async def get_batch_history(
+    limit: int = 50,
+    db: Session = Depends(get_db)
+):
+    """Get batch history with database and file system information"""
+    from pathlib import Path
+    
+    # Get completed ingestion logs from database
+    logs = db.query(IngestionLog).filter(
+        IngestionLog.status == "completed"
+    ).order_by(
+        IngestionLog.started_at.desc()
+    ).limit(limit).all()
+    
+    # Also get DataSource names in a separate query for efficiency
+    source_ids = {log.source_id for log in logs if log.source_id}
+    sources_map = {}
+    if source_ids:
+        sources = db.query(DataSource).filter(DataSource.id.in_(source_ids)).all()
+        sources_map = {s.id: s.name for s in sources}
+    
+    # Get file system batches
+    # Use absolute path relative to backend root directory
+    backend_root = Path(__file__).parent.parent.parent  # Go up from app/api/data.py to backend root
+    data_dir = backend_root / "data" / "1_data_ingestion"
+    file_batches = {}
+    
+    if data_dir.exists():
+        for batch_folder in data_dir.glob("batch_*"):
+            if batch_folder.is_dir():
+                # Extract batch number from folder name (e.g., "batch_176_Premier_League" -> 176)
+                folder_name = batch_folder.name
+                try:
+                    # Try to extract batch number (handles both "batch_176" and "batch_176_League_Name")
+                    batch_num_str = folder_name.split('_')[1]
+                    batch_num = int(batch_num_str)
+                    
+                    csv_files = list(batch_folder.glob("*.csv"))
+                    if csv_files:
+                        # Extract league codes and seasons from filenames
+                        leagues = set()
+                        seasons = set()
+                        for csv_file in csv_files:
+                            parts = csv_file.stem.split('_')
+                            if len(parts) >= 2:
+                                leagues.add(parts[0])
+                                seasons.add(parts[1])
+                        
+                        file_batches[batch_num] = {
+                            "batchNumber": batch_num,
+                            "folderName": folder_name,
+                            "csvCount": len(csv_files),
+                            "leagues": sorted(list(leagues)),
+                            "seasons": sorted(list(seasons)),
+                            "files": [f.name for f in csv_files]
+                        }
+                except (ValueError, IndexError):
+                    continue
+    
+    # Combine database logs with file system data
+    batch_list = []
+    for log in logs:
+        source_name = sources_map.get(log.source_id, "unknown") if log.source_id else "unknown"
+        
+        batch_info = {
+            "id": str(log.id),
+            "batchNumber": log.id,
+            "source": source_name,
+            "status": log.status,
+            "startedAt": log.started_at.isoformat(),
+            "completedAt": log.completed_at.isoformat() if log.completed_at else None,
+            "recordsProcessed": log.records_processed or 0,
+            "recordsInserted": log.records_inserted or 0,
+            "recordsUpdated": log.records_updated or 0,
+            "recordsSkipped": log.records_skipped or 0,
+            "hasFiles": log.id in file_batches,
+            "fileInfo": file_batches.get(log.id)
+        }
+        
+        # Extract league info from logs JSON if available
+        if log.logs and isinstance(log.logs, dict):
+            if "league_code" in log.logs:
+                batch_info["leagueCode"] = log.logs.get("league_code")
+            if "season" in log.logs:
+                batch_info["season"] = log.logs.get("season")
+        
+        batch_list.append(batch_info)
+    
+    # Add file-only batches (batches that exist in file system but not in DB)
+    db_batch_numbers = {log.id for log in logs}
+    for batch_num, file_info in file_batches.items():
+        if batch_num not in db_batch_numbers:
+            batch_list.append({
+                "id": f"file_{batch_num}",
+                "batchNumber": batch_num,
+                "source": "file_system",
+                "status": "completed",
+                "startedAt": None,
+                "completedAt": None,
+                "recordsProcessed": 0,
+                "recordsInserted": 0,
+                "recordsUpdated": 0,
+                "recordsSkipped": 0,
+                "hasFiles": True,
+                "fileInfo": file_info
+            })
+    
+    # Sort by batch number descending
+    batch_list.sort(key=lambda x: x["batchNumber"], reverse=True)
+    
+    # Calculate summary statistics
+    total_batches = len(batch_list)
+    total_records = sum(b["recordsInserted"] for b in batch_list)
+    total_files = sum(b["fileInfo"]["csvCount"] if b.get("fileInfo") else 0 for b in batch_list)
+    unique_leagues = set()
+    for b in batch_list:
+        if b.get("fileInfo") and b["fileInfo"].get("leagues"):
+            unique_leagues.update(b["fileInfo"]["leagues"])
+        elif b.get("leagueCode"):
+            unique_leagues.add(b["leagueCode"])
+    
+    return {
+        "batches": batch_list[:limit],
+        "summary": {
+            "totalBatches": total_batches,
+            "totalRecords": total_records,
+            "totalFiles": total_files,
+            "uniqueLeagues": len(unique_leagues),
+            "leagues": sorted(list(unique_leagues))
+        }
+    }
+
+
+@router.post("/batch-download")
+async def batch_download(
+    request: Dict = Body(...),
+    db: Session = Depends(get_db)
+):
+    """
+    Download multiple leagues/seasons in a single batch
+    
+    Body:
+        {
+            "source": "football-data.co.uk",
+            "leagues": [{"code": "E0", "season": "2324"}, ...],
+            "season": "all"  # Optional: if provided, applies to all leagues
+        }
+    """
+    try:
+        source = request.get("source", "football-data.co.uk")
+        leagues = request.get("leagues", [])
+        season_override = request.get("season")  # Optional: "all" or specific season
+        
+        if not leagues:
+            raise HTTPException(status_code=400, detail="leagues array is required")
+        
+        service = DataIngestionService(
+            db,
+            enable_cleaning=settings.ENABLE_DATA_CLEANING
+        )
+        
+        # Get or create data source
+        from app.db.models import DataSource, IngestionLog
+        data_source = db.query(DataSource).filter(
+            DataSource.name == source
+        ).first()
+        
+        if not data_source:
+            data_source = DataSource(
+                name=source,
+                source_type="csv",
+                status="running"
+            )
+            db.add(data_source)
+            db.flush()
+        
+        results = []
+        total_stats = {
+            "processed": 0,
+            "inserted": 0,
+            "updated": 0,
+            "skipped": 0,
+            "errors": 0
+        }
+        batch_numbers = []  # Track all batch numbers created
+        
+        # Create ONE batch PER LEAGUE (not per download operation)
+        for league_item in leagues:
+            league_code = league_item.get("code")
+            season = season_override or league_item.get("season", "all")
+            
+            if not league_code:
+                continue
+            
+            try:
+                # Create one batch per league
+                league_batch_log = IngestionLog(
+                    source_id=data_source.id,
+                    status="running"
+                )
+                db.add(league_batch_log)
+                db.flush()
+                league_batch_number = league_batch_log.id
+                batch_numbers.append(league_batch_number)
+                
+                from app.services.data_ingestion import get_season_code
+                season_code = get_season_code(season)
+                
+                stats = service.ingest_from_football_data(
+                    league_code,
+                    season_code,
+                    batch_number=league_batch_number,  # One batch per league
+                    save_csv=True
+                )
+                
+                # Refresh the log from DB to get updates from ingest_csv
+                # ingest_csv already updates: status, completed_at, records_*, error_message, logs
+                # Re-query to ensure it's in the session (in case of rollbacks)
+                try:
+                    league_batch_log = db.query(IngestionLog).filter(
+                        IngestionLog.id == league_batch_number
+                    ).first()
+                except Exception:
+                    # If query fails, try to refresh existing object
+                    try:
+                        db.refresh(league_batch_log)
+                    except Exception:
+                        # If refresh also fails, re-query
+                        league_batch_log = db.query(IngestionLog).filter(
+                            IngestionLog.id == league_batch_number
+                        ).first()
+                
+                # Ensure status is completed (ingest_csv should have set this, but double-check)
+                if league_batch_log.status != "completed":
+                    league_batch_log.status = "completed"
+                    league_batch_log.completed_at = league_batch_log.completed_at or datetime.now()
+                
+                # Merge logs JSON (preserve detailed logs from ingest_csv, add batch metadata if missing)
+                existing_logs = league_batch_log.logs or {}
+                if not existing_logs.get("batch_number"):
+                    existing_logs["batch_number"] = league_batch_number
+                if not existing_logs.get("league_code"):
+                    existing_logs["league_code"] = league_code
+                if not existing_logs.get("season"):
+                    existing_logs["season"] = season_code
+                league_batch_log.logs = existing_logs
+                
+                db.commit()
+                
+                results.append({
+                    "leagueCode": league_code,
+                    "season": season_code,
+                    "stats": stats,
+                    "batchNumber": league_batch_number
+                })
+                
+                total_stats["processed"] += stats.get("processed", 0)
+                total_stats["inserted"] += stats.get("inserted", 0)
+                total_stats["updated"] += stats.get("updated", 0)
+                total_stats["skipped"] += stats.get("skipped", 0)
+                total_stats["errors"] += stats.get("errors", 0)
+                
+            except Exception as e:
+                logger.error(f"Error downloading {league_code}: {e}", exc_info=True)
+                # Rollback any failed transaction
+                db.rollback()
+                
+                # Try to update the batch log if it exists
+                if 'league_batch_number' in locals():
+                    try:
+                        # Re-query the log to ensure it's in the session (after rollback)
+                        league_batch_log = db.query(IngestionLog).filter(
+                            IngestionLog.id == league_batch_number
+                        ).first()
+                        if league_batch_log:
+                            league_batch_log.status = "failed"
+                            league_batch_log.completed_at = datetime.now()
+                            league_batch_log.error_message = str(e)
+                            db.commit()
+                    except Exception as log_error:
+                        logger.error(f"Error updating batch log: {log_error}", exc_info=True)
+                        try:
+                            db.rollback()
+                        except Exception:
+                            pass
+                
+                results.append({
+                    "leagueCode": league_code,
+                    "error": str(e)
+                })
+                total_stats["errors"] += 1
+        
+        return {
+            "data": {
+                "batchId": f"batch-{batch_numbers[0] if batch_numbers else 'unknown'}",
+                "batchNumbers": batch_numbers,  # All batch numbers created
+                "source": source,
+                "totalStats": total_stats,
+                "results": results,
+                "completedAt": datetime.now().isoformat()
+            },
+            "success": True
+        }
+    
+    except Exception as e:
+        logger.error(f"Error in batch download: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/init-leagues")

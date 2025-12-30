@@ -49,7 +49,7 @@ class Settings(BaseSettings):
     API_VERSION: str = "v2.4.1"
     
     # CORS - Accept comma-separated string or JSON array
-    CORS_ORIGINS: Union[str, List[str]] = "http://localhost:8080,http://localhost:3000"
+    CORS_ORIGINS: Union[str, List[str]] = "http://localhost:8080,http://localhost:3000,http://localhost:8081"
     CORS_ALLOW_CREDENTIALS: bool = True
     CORS_ALLOW_METHODS: Union[str, List[str]] = "*"
     CORS_ALLOW_HEADERS: Union[str, List[str]] = "*"
@@ -76,9 +76,10 @@ class Settings(BaseSettings):
             return self.CORS_ALLOW_METHODS
         if isinstance(self.CORS_ALLOW_METHODS, str):
             if self.CORS_ALLOW_METHODS == "*":
-                return ["*"]
+                # Return explicit methods for better compatibility
+                return ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "PATCH"]
             return [method.strip() for method in self.CORS_ALLOW_METHODS.split(",") if method.strip()]
-        return ["*"]
+        return ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "PATCH"]
     
     def get_cors_headers(self) -> List[str]:
         """Parse CORS_ALLOW_HEADERS from string or list"""
@@ -121,9 +122,17 @@ class Settings(BaseSettings):
     PROBABILITY_SUM_TOLERANCE: float = 0.001
     MAX_GOALS_IN_CALCULATION: int = 8
     
+    # Data Cleaning Configuration
+    ENABLE_DATA_CLEANING: bool = True  # Enable data cleaning
+    DATA_CLEANING_MISSING_THRESHOLD: float = 0.5  # Drop columns with >50% missing
+    DATA_CLEANING_PHASE: str = "phase2"  # "phase1", "phase2", or "both" - Phase 2 includes Phase 1 + outlier-based features
+    
     class Config:
         env_file = ".env"
         case_sensitive = True
+        env_file_encoding = 'utf-8'
+        # Ignore parsing errors for comment lines and empty lines
+        env_ignore_empty = True
 
 
 settings = Settings()

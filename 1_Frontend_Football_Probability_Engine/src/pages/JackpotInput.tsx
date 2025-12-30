@@ -1,5 +1,6 @@
-import { useState, useCallback } from 'react';
-import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText } from 'lucide-react';
+import { useState, useCallback, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText, Loader2, Save, FolderOpen, X, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -23,7 +24,10 @@ import {
 import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
+import { Badge } from '@/components/ui/badge';
 import { PDFJackpotImport, ParsedFixture } from '@/components/PDFJackpotImport';
+import { useToast } from '@/hooks/use-toast';
+import apiClient from '@/services/api';
 import type { Fixture } from '@/types';
 
 interface EditableFixture extends Omit<Fixture, 'id'> {
@@ -43,6 +47,8 @@ const createEmptyFixture = (): EditableFixture => ({
 });
 
 export default function JackpotInput() {
+  const navigate = useNavigate();
+  const { toast } = useToast();
   const [fixtures, setFixtures] = useState<EditableFixture[]>([
     createEmptyFixture(),
   ]);
@@ -50,6 +56,12 @@ export default function JackpotInput() {
   const [isBulkDialogOpen, setIsBulkDialogOpen] = useState(false);
   const [isPDFDialogOpen, setIsPDFDialogOpen] = useState(false);
   const [validationErrors, setValidationErrors] = useState<string[]>([]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [savedTemplates, setSavedTemplates] = useState<any[]>([]);
+  const [loadingTemplates, setLoadingTemplates] = useState(false);
+  const [isSaveDialogOpen, setIsSaveDialogOpen] = useState(false);
+  const [saveName, setSaveName] = useState('');
+  const [saveDescription, setSaveDescription] = useState('');
 
   const handlePDFImport = useCallback((parsedFixtures: ParsedFixture[]) => {
     const newFixtures: EditableFixture[] = parsedFixtures.map(f => ({
@@ -140,12 +152,208 @@ export default function JackpotInput() {
     }
   }, [bulkInput]);
 
-  const handleSubmit = useCallback(() => {
-    if (validateFixtures()) {
-      // TODO: Submit to API
-      console.log('Submitting fixtures:', fixtures);
+  const handleSubmit = useCallback(async () => {
+    if (!validateFixtures()) {
+      return;
     }
-  }, [fixtures, validateFixtures]);
+    
+    setIsSubmitting(true);
+    
+    try {
+      // Convert fixtures to API format
+      const apiFixtures = fixtures.map(f => ({
+        id: f.tempId,
+        homeTeam: f.homeTeam.trim(),
+        awayTeam: f.awayTeam.trim(),
+        odds: {
+          home: f.homeOdds,
+          draw: f.drawOdds,
+          away: f.awayOdds,
+        },
+        matchDate: null,
+        league: null,
+      }));
+      
+      // Create jackpot
+      const response = await apiClient.createJackpot(apiFixtures);
+      
+      if (response.success && response.data) {
+        const jackpotId = response.data.id;
+        
+        toast({
+          title: "Jackpot created",
+          description: "Calculating probabilities...",
+        });
+        
+        // Navigate to probability output page with jackpot ID
+        navigate(`/probability-output?jackpotId=${jackpotId}`);
+      } else {
+        throw new Error(response.message || "Failed to create jackpot");
+      }
+    } catch (error: any) {
+      console.error("Error creating jackpot:", error);
+      toast({
+        title: "Error",
+        description: error.message || "Failed to create jackpot. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  }, [fixtures, validateFixtures, navigate, toast]);
+
+  // Load saved templates
+  const loadTemplates = useCallback(async () => {
+    try {
+      setLoadingTemplates(true);
+      const response = await apiClient.getTemplates(50);
+      if (response.success && response.data) {
+        setSavedTemplates(response.data.templates || []);
+      }
+    } catch (error: any) {
+      console.error('Error loading templates:', error);
+      toast({
+        title: 'Error',
+        description: 'Failed to load saved lists',
+        variant: 'destructive',
+      });
+    } finally {
+      setLoadingTemplates(false);
+    }
+  }, [toast]);
+
+  // Load templates on mount
+  useEffect(() => {
+    loadTemplates();
+  }, [loadTemplates]);
+
+  // Save current list as template
+  const handleSaveTemplate = useCallback(async () => {
+    if (!validateFixtures() || !saveName.trim()) {
+      toast({
+        title: 'Error',
+        description: 'Please provide a name for the list',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    try {
+      const apiFixtures = fixtures.map(f => ({
+        id: f.tempId,
+        homeTeam: f.homeTeam.trim(),
+        awayTeam: f.awayTeam.trim(),
+        odds: {
+          home: f.homeOdds,
+          draw: f.drawOdds,
+          away: f.awayOdds,
+        },
+        matchDate: null,
+        league: null,
+      }));
+
+      const response = await apiClient.saveTemplate(
+        saveName.trim(),
+        saveDescription.trim() || null,
+        apiFixtures
+      );
+
+      if (response.success) {
+        toast({
+          title: 'Success',
+          description: 'List saved successfully',
+        });
+        setIsSaveDialogOpen(false);
+        setSaveName('');
+        setSaveDescription('');
+        loadTemplates();
+      }
+    } catch (error: any) {
+      console.error('Error saving template:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to save list',
+        variant: 'destructive',
+      });
+    }
+  }, [fixtures, saveName, saveDescription, validateFixtures, toast, loadTemplates]);
+
+  // Load template into input form
+  const handleLoadTemplate = useCallback(async (templateId: number) => {
+    try {
+      const response = await apiClient.getTemplate(templateId);
+      if (response.success && response.data) {
+        const loadedFixtures: EditableFixture[] = response.data.fixtures.map((f: any, idx: number) => ({
+          id: f.id || '',
+          tempId: crypto.randomUUID(),
+          homeTeam: f.homeTeam || '',
+          awayTeam: f.awayTeam || '',
+          homeOdds: f.odds?.home || 2.0,
+          drawOdds: f.odds?.draw || 3.0,
+          awayOdds: f.odds?.away || 2.5,
+          validationWarnings: [],
+        }));
+        setFixtures(loadedFixtures);
+        toast({
+          title: 'Success',
+          description: 'List loaded successfully',
+        });
+      }
+    } catch (error: any) {
+      console.error('Error loading template:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to load list',
+        variant: 'destructive',
+      });
+    }
+  }, [toast]);
+
+  // Calculate probabilities from template
+  const handleCalculateFromTemplate = useCallback(async (templateId: number) => {
+    try {
+      setIsSubmitting(true);
+      const response = await apiClient.calculateFromTemplate(templateId);
+      if (response.success && response.data) {
+        const jackpotId = response.data.id;
+        navigate(`/probability-output?jackpotId=${jackpotId}`);
+      }
+    } catch (error: any) {
+      console.error('Error calculating from template:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to calculate probabilities',
+        variant: 'destructive',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  }, [navigate, toast]);
+
+  // Delete template
+  const handleDeleteTemplate = useCallback(async (templateId: number) => {
+    if (!confirm('Are you sure you want to delete this saved list?')) {
+      return;
+    }
+
+    try {
+      const response = await apiClient.deleteTemplate(templateId);
+      if (response.success) {
+        toast({
+          title: 'Success',
+          description: 'List deleted successfully',
+        });
+        loadTemplates();
+      }
+    } catch (error: any) {
+      console.error('Error deleting template:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to delete list',
+        variant: 'destructive',
+      });
+    }
+  }, [toast, loadTemplates]);
 
   const isValid = fixtures.length > 0 && 
     fixtures.every(f => 
@@ -339,13 +547,162 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
         </CardContent>
       </Card>
 
-      <div className="flex justify-end animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-        <Button onClick={handleSubmit} disabled={!isValid} size="lg" className="btn-glow bg-primary text-primary-foreground">
-          <Sparkles className="mr-2 h-5 w-5" />
-          Calculate Probabilities
-          <ArrowRight className="ml-2 h-5 w-5" />
+      <div className="flex justify-between items-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+        <Button
+          onClick={() => setIsSaveDialogOpen(true)}
+          disabled={!isValid}
+          variant="outline"
+          size="lg"
+          className="glass-card border-primary/30 hover:bg-primary/10"
+        >
+          <Save className="mr-2 h-5 w-5" />
+          Save List
+        </Button>
+        <Button 
+          onClick={handleSubmit} 
+          disabled={!isValid || isSubmitting} 
+          size="lg" 
+          className="btn-glow bg-primary text-primary-foreground"
+        >
+          {isSubmitting ? (
+            <>
+              <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+              Creating Jackpot...
+            </>
+          ) : (
+            <>
+              <Sparkles className="mr-2 h-5 w-5" />
+              Calculate Probabilities
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </>
+          )}
         </Button>
       </div>
+
+      {/* Saved Lists Section */}
+      <Card className="glass-card border-primary/20 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <FolderOpen className="h-5 w-5 text-primary" />
+            Saved Lists
+          </CardTitle>
+          <CardDescription>
+            Your saved fixture lists. Load them to edit or calculate probabilities directly.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          {loadingTemplates ? (
+            <div className="flex items-center justify-center py-8">
+              <Loader2 className="h-6 w-6 animate-spin text-primary" />
+            </div>
+          ) : savedTemplates.length === 0 ? (
+            <div className="text-center py-8 text-muted-foreground">
+              <FolderOpen className="h-12 w-12 mx-auto mb-4 opacity-50" />
+              <p>No saved lists yet.</p>
+              <p className="text-sm mt-2">Save your current list to reuse it later.</p>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {savedTemplates.map((template) => (
+                <Card key={template.id} className="glass-card border-border/50 hover:border-primary/30 transition-colors">
+                  <CardContent className="p-4">
+                    <div className="flex items-start justify-between">
+                      <div className="flex-1">
+                        <div className="flex items-center gap-2 mb-2">
+                          <h3 className="font-semibold text-foreground">{template.name}</h3>
+                          <Badge variant="outline" className="text-xs">
+                            {template.fixtureCount} fixtures
+                          </Badge>
+                        </div>
+                        {template.description && (
+                          <p className="text-sm text-muted-foreground mb-2">{template.description}</p>
+                        )}
+                        <p className="text-xs text-muted-foreground">
+                          Created: {new Date(template.createdAt).toLocaleDateString()}
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-2 ml-4">
+                        <Button
+                          onClick={() => handleLoadTemplate(template.id)}
+                          variant="outline"
+                          size="sm"
+                          className="glass-card"
+                        >
+                          <FolderOpen className="h-4 w-4 mr-2" />
+                          Load
+                        </Button>
+                        <Button
+                          onClick={() => handleCalculateFromTemplate(template.id)}
+                          variant="default"
+                          size="sm"
+                          disabled={isSubmitting}
+                          className="btn-glow"
+                        >
+                          <Sparkles className="h-4 w-4 mr-2" />
+                          Calculate
+                        </Button>
+                        <Button
+                          onClick={() => handleDeleteTemplate(template.id)}
+                          variant="ghost"
+                          size="icon"
+                          className="h-8 w-8 text-muted-foreground hover:text-destructive hover:bg-destructive/10"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Save Dialog */}
+      <Dialog open={isSaveDialogOpen} onOpenChange={setIsSaveDialogOpen}>
+        <DialogContent className="glass-card-elevated max-w-md">
+          <DialogHeader>
+            <DialogTitle>Save Fixture List</DialogTitle>
+            <DialogDescription>
+              Save your current fixture list with a name and description for later use.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4 py-4">
+            <div>
+              <label className="text-sm font-medium mb-2 block">Name *</label>
+              <Input
+                value={saveName}
+                onChange={(e) => setSaveName(e.target.value)}
+                placeholder="e.g., Weekend Premier League Matches"
+                className="bg-background/50"
+              />
+            </div>
+            <div>
+              <label className="text-sm font-medium mb-2 block">Description (optional)</label>
+              <Textarea
+                value={saveDescription}
+                onChange={(e) => setSaveDescription(e.target.value)}
+                placeholder="Add a description for this list..."
+                rows={3}
+                className="bg-background/50"
+              />
+            </div>
+            <div className="text-xs text-muted-foreground">
+              {fixtures.length} fixture{fixtures.length !== 1 ? 's' : ''} will be saved
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setIsSaveDialogOpen(false)}>
+              Cancel
+            </Button>
+            <Button onClick={handleSaveTemplate} disabled={!saveName.trim() || !isValid}>
+              <Save className="h-4 w-4 mr-2" />
+              Save List
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       {/* PDF Import Dialog */}
       <PDFJackpotImport 

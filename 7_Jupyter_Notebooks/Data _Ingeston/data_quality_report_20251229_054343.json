@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-12-29T05:43:43.147026",
+  "data_summary": {
+    "total_rows": 4116,
+    "total_columns": 171,
+    "files_analyzed": 182,
+    "leagues": 2,
+    "seasons": 7
+  },
+  "quality_score": 83.85426434567144,
+  "quality_rating": "Good",
+  "issues_found": {
+    "missing_values": 3,
+    "duplicates": "0",
+    "invalid_values": 0,
+    "outliers": 10
+  },
+  "cleaning_recommendations": {
+    "high_priority": [
+      "drop_columns",
+      "convert_to_datetime"
+    ],
+    "medium_priority": [
+      "impute_or_drop",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers",
+      "detect_outliers"
+    ],
+    "low_priority": [
+      "impute",
+      "create_total_goals",
+      "create_goal_difference"
+    ]
+  },
+  "available_methods": {
+    "Missing Values": {
+      "drop_columns": "Remove columns with >50% missing values",
+      "impute_mean": "Fill missing numeric values with mean",
+      "impute_median": "Fill missing numeric values with median",
+      "impute_mode": "Fill missing categorical values with mode",
+      "forward_fill": "Forward fill (for time series data)",
+      "backward_fill": "Backward fill (for time series data)",
+      "interpolate": "Interpolate missing values",
+      "drop_rows": "Remove rows with missing critical columns"
+    },
+    "Outliers": {
+      "iqr_method": "Remove outliers using IQR (Q1-1.5*IQR to Q3+1.5*IQR)",
+      "z_score": "Remove outliers using Z-score (>3 standard deviations)",
+      "cap_values": "Cap outliers at reasonable min/max values",
+      "winsorize": "Winsorize outliers (replace with percentile values)"
+    },
+    "Data Type Conversions": {
+      "to_datetime": "Convert date strings to datetime objects",
+      "to_numeric": "Convert numeric strings to numeric types",
+      "to_category": "Convert string columns to categorical (memory efficient)",
+      "to_int": "Convert float columns to integer where appropriate"
+    },
+    "Invalid Values": {
+      "remove_invalid_goals": "Remove rows with goals < 0 or > 20",
+      "remove_invalid_odds": "Remove rows with odds < 1.0 or > 100.0",
+      "remove_invalid_dates": "Remove rows with invalid or future dates",
+      "remove_empty_teams": "Remove rows with missing team names"
+    },
+    "Duplicates": {
+      "remove_duplicates": "Remove exact duplicate rows",
+      "remove_duplicate_matches": "Remove duplicate matches (same teams, same date)",
+      "keep_first": "Keep first occurrence of duplicates",
+      "keep_last": "Keep last occurrence of duplicates"
+    },
+    "Normalization": {
+      "standardize_team_names": "Normalize team name variations",
+      "standardize_league_codes": "Normalize league code formats",
+      "normalize_dates": "Standardize date formats"
+    },
+    "Feature Engineering": {
+      "create_total_goals": "Calculate total goals per match",
+      "create_goal_difference": "Calculate goal difference",
+      "create_result": "Derive match result (H/D/A) from goals",
+      "create_implied_probabilities": "Calculate probabilities from odds",
+      "create_overround": "Calculate bookmaker overround"
+    }
+  }
+}

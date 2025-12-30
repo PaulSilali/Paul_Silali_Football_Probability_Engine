@@ -1,0 +1,35 @@
+League Code,League Name,Country,Team Count,Teams Created,Teams Existing
+E0,Premier League,England,26,26,0
+E1,Championship,England,66,66,0
+E2,League One,England,116,116,0
+E3,League Two,England,160,160,0
+SP1,La Liga,Spain,185,185,0
+SP2,La Liga 2,Spain,229,229,0
+D1,Bundesliga,Germany,255,255,0
+D2,2. Bundesliga,Germany,288,288,0
+I1,Serie A,Italy,319,319,0
+I2,Serie B,Italy,361,361,0
+F1,Ligue 1,France,388,388,0
+F2,Ligue 2,France,425,425,0
+N1,Eredivisie,Netherlands,451,451,0
+P1,Primeira Liga,Portugal,477,477,0
+SC0,Scottish Premiership,Scotland,491,491,0
+SC1,Scottish Championship,Scotland,511,511,0
+SC2,Scottish League One,Scotland,535,535,0
+SC3,Scottish League Two,Scotland,555,555,0
+B1,Pro League,Belgium,577,577,0
+T1,Super Lig,Turkey,601,601,0
+G1,Super League 1,Greece,620,620,0
+DK1,Superliga,Denmark,646,646,0
+NO1,Eliteserien,Norway,672,672,0
+PL1,Ekstraklasa,Poland,698,698,0
+
+SUMMARY
+Total Leagues Processed,24
+Total Teams Created,698
+Total Teams Already Existing,41
+Total Teams Skipped,0
+Total Errors,0
+Total Unique Teams Extracted,739
+Success Rate,100%
+

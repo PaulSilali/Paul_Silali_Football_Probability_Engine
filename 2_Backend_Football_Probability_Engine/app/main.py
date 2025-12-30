@@ -8,6 +8,8 @@ from app.api import (
     probabilities, jackpots, validation, data, validation_team,
     auth, model, tasks, export, teams, explainability, audit
 )
+from app.db.session import engine
+from sqlalchemy import text
 import logging
 
 # Configure logging
@@ -15,6 +17,8 @@ logging.basicConfig(
     level=getattr(logging, settings.LOG_LEVEL),
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
+logger = logging.getLogger(__name__)
 
 # Create FastAPI app
 app = FastAPI(
@@ -59,6 +63,54 @@ app.include_router(explainability.router, prefix=settings.API_PREFIX)
 app.include_router(audit.router, prefix=settings.API_PREFIX)
 
 
+@app.on_event("startup")
+async def startup_event():
+    """Check database connection on startup"""
+    try:
+        logger.info("=" * 60)
+        logger.info("Starting Football Jackpot Probability Engine Backend")
+        logger.info(f"Version: {settings.API_VERSION}")
+        logger.info("=" * 60)
+        
+        # Log CORS configuration
+        cors_origins = settings.get_cors_origins()
+        logger.info("CORS Configuration:")
+        logger.info(f"  Allowed Origins: {cors_origins}")
+        logger.info(f"  Allow Credentials: {settings.CORS_ALLOW_CREDENTIALS}")
+        logger.info(f"  Allow Methods: {settings.get_cors_methods()}")
+        logger.info(f"  Allow Headers: {settings.get_cors_headers()}")
+        
+        # Test database connection
+        logger.info("Checking database connection...")
+        with engine.connect() as conn:
+            result = conn.execute(text("SELECT 1"))
+            result.fetchone()
+        
+        logger.info("✓ Database connection successful!")
+        logger.info(f"  Database: {settings.DB_NAME}")
+        logger.info(f"  Host: {settings.DB_HOST}:{settings.DB_PORT}")
+        logger.info(f"  User: {settings.DB_USER}")
+        logger.info("=" * 60)
+        logger.info("Server ready! API available at http://0.0.0.0:8000")
+        logger.info(f"API Documentation: http://0.0.0.0:8000/docs")
+        logger.info("=" * 60)
+        
+    except Exception as e:
+        logger.error("=" * 60)
+        logger.error("✗ Database connection failed!")
+        logger.error(f"  Error: {str(e)}")
+        logger.error("=" * 60)
+        logger.error("Please check your database configuration in .env file:")
+        logger.error(f"  DB_HOST={settings.DB_HOST}")
+        logger.error(f"  DB_PORT={settings.DB_PORT}")
+        logger.error(f"  DB_NAME={settings.DB_NAME}")
+        logger.error(f"  DB_USER={settings.DB_USER}")
+        logger.error("=" * 60)
+        logger.warning("Server will continue, but database operations may fail.")
+        logger.warning("Make sure PostgreSQL is running and credentials are correct.")
+        logger.error("=" * 60)
+
+
 @app.get("/")
 def root():
     return {
@@ -71,7 +123,20 @@ def root():
 
 @app.get("/health")
 def health_check():
-    return {"status": "healthy"}
+    """Health check endpoint with database status"""
+    db_status = "unknown"
+    try:
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
+        db_status = "connected"
+    except Exception as e:
+        db_status = f"disconnected: {str(e)}"
+    
+    return {
+        "status": "healthy" if db_status == "connected" else "degraded",
+        "database": db_status,
+        "version": settings.API_VERSION
+    }
 
 
 @app.get(f"{settings.API_PREFIX}/model/health")

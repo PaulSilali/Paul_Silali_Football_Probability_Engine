@@ -103,7 +103,7 @@ class Match(Base):
     away_team_id = Column(Integer, ForeignKey("teams.id"), nullable=False)
     home_goals = Column(Integer, nullable=False)
     away_goals = Column(Integer, nullable=False)
-    result = Column(Enum(MatchResult), nullable=False)
+    result = Column(Enum(MatchResult, name='match_result', create_type=False), nullable=False)
     
     # Closing odds
     odds_home = Column(Float)
@@ -264,7 +264,7 @@ class JackpotFixture(Base):
     league_id = Column(Integer, ForeignKey("leagues.id"))
     
     # Actual result (for validation)
-    actual_result = Column(Enum(MatchResult))
+    actual_result = Column(Enum(MatchResult, name='match_result', create_type=False))
     actual_home_goals = Column(Integer)
     actual_away_goals = Column(Integer)
     
@@ -274,22 +274,46 @@ class JackpotFixture(Base):
     predictions = relationship("Prediction", back_populates="fixture", cascade="all, delete-orphan")
 
 
+class SavedJackpotTemplate(Base):
+    """Saved fixture list templates for reuse"""
+    __tablename__ = "saved_jackpot_templates"
+    
+    id = Column(Integer, primary_key=True)
+    user_id = Column(String)  # From auth
+    name = Column(String, nullable=False)
+    description = Column(Text)
+    fixtures = Column(JSON, nullable=False)  # Array of fixtures
+    fixture_count = Column(Integer, nullable=False, default=0)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    __table_args__ = (
+        CheckConstraint('fixture_count >= 1 AND fixture_count <= 20', name='chk_fixture_count'),
+        Index('idx_saved_templates_user', 'user_id'),
+        Index('idx_saved_templates_created', 'created_at'),
+    )
+
+
 class Prediction(Base):
     __tablename__ = "predictions"
     
     id = Column(Integer, primary_key=True)
     fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
     model_id = Column(Integer, ForeignKey("models.id"), nullable=False)
-    set_type = Column(Enum(PredictionSet), nullable=False)
+    set_type = Column(Enum(PredictionSet, name='prediction_set', create_type=False), nullable=False)
     
     # Probabilities
     prob_home = Column(Float, nullable=False)
     prob_draw = Column(Float, nullable=False)
     prob_away = Column(Float, nullable=False)
     
-    predicted_outcome = Column(Enum(MatchResult), nullable=False)
+    predicted_outcome = Column(Enum(MatchResult, name='match_result', create_type=False), nullable=False)
     confidence = Column(Float, nullable=False)
     entropy = Column(Float)
+    
+    # Draw model components (for explainability and auditing)
+    # Stores JSON: {"poisson": 0.25, "dixon_coles": 0.27, "market": 0.26}
+    draw_components = Column(JSON)
     
     # Model components
     expected_home_goals = Column(Float)
@@ -326,7 +350,7 @@ class ValidationResult(Base):
     
     id = Column(Integer, primary_key=True)
     jackpot_id = Column(Integer, ForeignKey("jackpots.id", ondelete="CASCADE"))
-    set_type = Column(Enum(PredictionSet), nullable=False)
+    set_type = Column(Enum(PredictionSet, name='prediction_set', create_type=False), nullable=False)
     model_id = Column(Integer, ForeignKey("models.id"))
     
     total_matches = Column(Integer)
@@ -354,7 +378,7 @@ class CalibrationData(Base):
     id = Column(Integer, primary_key=True)
     model_id = Column(Integer, ForeignKey("models.id"))
     league_id = Column(Integer, ForeignKey("leagues.id"))
-    outcome_type = Column(Enum(MatchResult), nullable=False)
+    outcome_type = Column(Enum(MatchResult, name='match_result', create_type=False), nullable=False)
     
     predicted_prob_bucket = Column(Float, nullable=False)
     actual_frequency = Column(Float, nullable=False)
@@ -412,6 +436,39 @@ class User(Base):
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+class SavedProbabilityResult(Base):
+    """Saved probability output selections and actual results for backtesting"""
+    __tablename__ = "saved_probability_results"
+    
+    id = Column(Integer, primary_key=True)
+    user_id = Column(String)  # From auth
+    jackpot_id = Column(String, nullable=False)
+    name = Column(String, nullable=False)
+    description = Column(Text)
+    
+    # User selections per probability set
+    selections = Column(JSON, nullable=False)  # {"A": {"fixture_1": "1", "fixture_2": "X"}, "B": {...}}
+    
+    # Actual results (entered after matches complete)
+    actual_results = Column(JSON)  # {"fixture_1": "X", "fixture_2": "1"}
+    
+    # Score tracking per set
+    scores = Column(JSON)  # {"A": {"correct": 10, "total": 15}, "B": {...}}
+    
+    # Metadata
+    model_version = Column(String)
+    total_fixtures = Column(Integer, nullable=False, default=0)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    __table_args__ = (
+        CheckConstraint('total_fixtures >= 1 AND total_fixtures <= 20', name='chk_total_fixtures'),
+        Index('idx_saved_results_user', 'user_id'),
+        Index('idx_saved_results_jackpot', 'jackpot_id'),
+        Index('idx_saved_results_created', 'created_at'),
+    )
 
 
 class AuditEntry(Base):

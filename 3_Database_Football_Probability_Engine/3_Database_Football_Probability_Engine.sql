@@ -630,3 +630,336 @@ COMMIT;
 -- END OF SCHEMA
 -- ============================================================================
 
+-- ============================================================================
+-- COMPLETE LEAGUES LIST - FOOTBALL-DATA.CO.UK
+-- ============================================================================
+-- 
+-- This file contains ALL leagues available on football-data.co.uk
+-- Run this AFTER the main schema to add all available leagues
+-- 
+-- League codes match football-data.co.uk format exactly
+-- 
+-- ============================================================================
+
+BEGIN;
+
+-- ============================================================================
+-- ALL AVAILABLE LEAGUES FROM FOOTBALL-DATA.CO.UK
+-- ============================================================================
+
+INSERT INTO leagues (code, name, country, tier, avg_draw_rate, home_advantage, is_active) VALUES
+    -- ========================================================================
+    -- ENGLAND (E0-E3)
+    -- ========================================================================
+    ('E0', 'Premier League', 'England', 1, 0.26, 0.35, TRUE),
+    ('E1', 'Championship', 'England', 2, 0.27, 0.33, TRUE),
+    ('E2', 'League One', 'England', 3, 0.28, 0.32, TRUE),
+    ('E3', 'League Two', 'England', 4, 0.29, 0.31, TRUE),
+    
+    -- ========================================================================
+    -- SPAIN (SP1-SP2)
+    -- ========================================================================
+    ('SP1', 'La Liga', 'Spain', 1, 0.25, 0.30, TRUE),
+    ('SP2', 'La Liga 2', 'Spain', 2, 0.26, 0.29, TRUE),
+    
+    -- ========================================================================
+    -- GERMANY (D1-D2)
+    -- ========================================================================
+    ('D1', 'Bundesliga', 'Germany', 1, 0.24, 0.32, TRUE),
+    ('D2', '2. Bundesliga', 'Germany', 2, 0.25, 0.31, TRUE),
+    
+    -- ========================================================================
+    -- ITALY (I1-I2)
+    -- ========================================================================
+    ('I1', 'Serie A', 'Italy', 1, 0.27, 0.28, TRUE),
+    ('I2', 'Serie B', 'Italy', 2, 0.28, 0.27, TRUE),
+    
+    -- ========================================================================
+    -- FRANCE (F1-F2)
+    -- ========================================================================
+    ('F1', 'Ligue 1', 'France', 1, 0.26, 0.33, TRUE),
+    ('F2', 'Ligue 2', 'France', 2, 0.27, 0.32, TRUE),
+    
+    -- ========================================================================
+    -- NETHERLANDS (N1)
+    -- ========================================================================
+    ('N1', 'Eredivisie', 'Netherlands', 1, 0.25, 0.31, TRUE),
+    
+    -- ========================================================================
+    -- PORTUGAL (P1)
+    -- ========================================================================
+    ('P1', 'Primeira Liga', 'Portugal', 1, 0.26, 0.34, TRUE),
+    
+    -- ========================================================================
+    -- SCOTLAND (SC0-SC3)
+    -- ========================================================================
+    ('SC0', 'Scottish Premiership', 'Scotland', 1, 0.24, 0.36, TRUE),
+    ('SC1', 'Scottish Championship', 'Scotland', 2, 0.25, 0.35, TRUE),
+    ('SC2', 'Scottish League One', 'Scotland', 3, 0.26, 0.34, TRUE),
+    ('SC3', 'Scottish League Two', 'Scotland', 4, 0.27, 0.33, TRUE),
+    
+    -- ========================================================================
+    -- BELGIUM (B1)
+    -- ========================================================================
+    ('B1', 'Pro League', 'Belgium', 1, 0.25, 0.32, TRUE),
+    
+    -- ========================================================================
+    -- TURKEY (T1)
+    -- ========================================================================
+    ('T1', 'Super Lig', 'Turkey', 1, 0.27, 0.37, TRUE),
+    
+    -- ========================================================================
+    -- GREECE (G1)
+    -- ========================================================================
+    ('G1', 'Super League 1', 'Greece', 1, 0.28, 0.38, TRUE),
+    
+    -- ========================================================================
+    -- AUSTRIA (A1)
+    -- ========================================================================
+    ('A1', 'Bundesliga', 'Austria', 1, 0.25, 0.33, TRUE),
+    
+    -- ========================================================================
+    -- SWITZERLAND (SW1)
+    -- ========================================================================
+    ('SW1', 'Super League', 'Switzerland', 1, 0.26, 0.34, TRUE),
+    
+    -- ========================================================================
+    -- DENMARK (DK1)
+    -- ========================================================================
+    ('DK1', 'Superliga', 'Denmark', 1, 0.25, 0.32, TRUE),
+    
+    -- ========================================================================
+    -- SWEDEN (SWE1)
+    -- ========================================================================
+    ('SWE1', 'Allsvenskan', 'Sweden', 1, 0.24, 0.31, TRUE),
+    
+    -- ========================================================================
+    -- NORWAY (N1 - Note: conflicts with Netherlands, using NO1)
+    -- ========================================================================
+    ('NO1', 'Eliteserien', 'Norway', 1, 0.24, 0.30, TRUE),
+    
+    -- ========================================================================
+    -- FINLAND (FIN1)
+    -- ========================================================================
+    ('FIN1', 'Veikkausliiga', 'Finland', 1, 0.25, 0.29, TRUE),
+    
+    -- ========================================================================
+    -- POLAND (PL1)
+    -- ========================================================================
+    ('PL1', 'Ekstraklasa', 'Poland', 1, 0.26, 0.33, TRUE),
+    
+    -- ========================================================================
+    -- ROMANIA (RO1)
+    -- ========================================================================
+    ('RO1', 'Liga 1', 'Romania', 1, 0.27, 0.35, TRUE),
+    
+    -- ========================================================================
+    -- RUSSIA (RUS1)
+    -- ========================================================================
+    ('RUS1', 'Premier League', 'Russia', 1, 0.26, 0.34, TRUE),
+    
+    -- ========================================================================
+    -- CZECH REPUBLIC (CZE1)
+    -- ========================================================================
+    ('CZE1', 'First League', 'Czech Republic', 1, 0.25, 0.32, TRUE),
+    
+    -- ========================================================================
+    -- CROATIA (CRO1)
+    -- ========================================================================
+    ('CRO1', 'Prva HNL', 'Croatia', 1, 0.26, 0.33, TRUE),
+    
+    -- ========================================================================
+    -- SERBIA (SRB1)
+    -- ========================================================================
+    ('SRB1', 'SuperLiga', 'Serbia', 1, 0.27, 0.36, TRUE),
+    
+    -- ========================================================================
+    -- UKRAINE (UKR1)
+    -- ========================================================================
+    ('UKR1', 'Premier League', 'Ukraine', 1, 0.25, 0.33, TRUE),
+    
+    -- ========================================================================
+    -- IRELAND (IRL1)
+    -- ========================================================================
+    ('IRL1', 'Premier Division', 'Ireland', 1, 0.26, 0.32, TRUE),
+    
+    -- ========================================================================
+    -- ARGENTINA (ARG1)
+    -- ========================================================================
+    ('ARG1', 'Primera Division', 'Argentina', 1, 0.23, 0.28, TRUE),
+    
+    -- ========================================================================
+    -- BRAZIL (BRA1)
+    -- ========================================================================
+    ('BRA1', 'Serie A', 'Brazil', 1, 0.24, 0.27, TRUE),
+    
+    -- ========================================================================
+    -- MEXICO (MEX1)
+    -- ========================================================================
+    ('MEX1', 'Liga MX', 'Mexico', 1, 0.25, 0.29, TRUE),
+    
+    -- ========================================================================
+    -- USA (USA1)
+    -- ========================================================================
+    ('USA1', 'Major League Soccer', 'USA', 1, 0.22, 0.26, TRUE),
+    
+    -- ========================================================================
+    -- CHINA (CHN1)
+    -- ========================================================================
+    ('CHN1', 'Super League', 'China', 1, 0.24, 0.28, TRUE),
+    
+    -- ========================================================================
+    -- JAPAN (JPN1)
+    -- ========================================================================
+    ('JPN1', 'J-League', 'Japan', 1, 0.23, 0.27, TRUE),
+    
+    -- ========================================================================
+    -- SOUTH KOREA (KOR1)
+    -- ========================================================================
+    ('KOR1', 'K League 1', 'South Korea', 1, 0.24, 0.28, TRUE),
+    
+    -- ========================================================================
+    -- AUSTRALIA (AUS1)
+    -- ========================================================================
+    ('AUS1', 'A-League', 'Australia', 1, 0.23, 0.26, TRUE)
+
+ON CONFLICT (code) DO UPDATE SET
+    name = EXCLUDED.name,
+    country = EXCLUDED.country,
+    tier = EXCLUDED.tier,
+    avg_draw_rate = EXCLUDED.avg_draw_rate,
+    home_advantage = EXCLUDED.home_advantage,
+    is_active = EXCLUDED.is_active,
+    updated_at = now();
+
+COMMIT;
+
+-- ============================================================================
+-- VERIFICATION
+-- ============================================================================
+
+-- Count total leagues
+SELECT COUNT(*) as total_leagues FROM leagues WHERE is_active = TRUE;
+
+-- List all leagues by country
+SELECT country, COUNT(*) as league_count, 
+       STRING_AGG(code || ' - ' || name, ', ' ORDER BY tier) as leagues
+FROM leagues 
+WHERE is_active = TRUE
+GROUP BY country
+ORDER BY country;
+
+-- ============================================================================
+-- END OF FILE
+-- ============================================================================
+
+-- Fix MatchResult Enum Type
+-- The database has 'match_result' but SQLAlchemy expects 'matchresult'
+-- This script creates the enum with the correct name
+
+-- Check if matchresult enum exists, if not create it
+DO $$ 
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'matchresult') THEN
+        CREATE TYPE matchresult AS ENUM ('H', 'D', 'A');
+        RAISE NOTICE 'Created enum type matchresult';
+    ELSE
+        RAISE NOTICE 'Enum type matchresult already exists';
+    END IF;
+END $$;
+
+-- If match_result exists but matchresult doesn't, we can migrate
+-- But for now, just create matchresult to match SQLAlchemy's expectation
+
+-- Migration: Add unique partial index for single active model per type
+-- Purpose: Enforce single active model per model_type at database level
+-- Date: 2025-01-01
+
+-- Drop existing index if it exists
+DROP INDEX IF EXISTS idx_models_active_per_type;
+
+-- Create unique partial index
+-- This ensures only one active model per model_type can exist
+CREATE UNIQUE INDEX idx_models_active_per_type 
+ON models (model_type) 
+WHERE status = 'active';
+
+-- Add comment
+COMMENT ON INDEX idx_models_active_per_type IS 
+'Ensures only one active model per model_type exists. Prevents multiple active models of the same type.';
+
+-- Verify the index was created
+SELECT 
+    indexname, 
+    indexdef 
+FROM pg_indexes 
+WHERE indexname = 'idx_models_active_per_type';
+
+
+-- ============================================================================
+-- SAVED JACKPOT TEMPLATES TABLE
+-- ============================================================================
+-- Allows users to save fixture lists with names and descriptions for reuse
+
+CREATE TABLE IF NOT EXISTS saved_jackpot_templates (
+    id              SERIAL PRIMARY KEY,
+    user_id         VARCHAR,                            -- User identifier (string for flexibility)
+    name            VARCHAR NOT NULL,                   -- Template name
+    description     TEXT,                               -- Optional description
+    fixtures        JSONB NOT NULL,                     -- Array of fixtures with teams and odds
+    fixture_count   INTEGER NOT NULL DEFAULT 0,         -- Number of fixtures
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 20)
+);
+
+CREATE INDEX idx_saved_templates_user ON saved_jackpot_templates(user_id);
+CREATE INDEX idx_saved_templates_created ON saved_jackpot_templates(created_at DESC);
+
+COMMENT ON TABLE saved_jackpot_templates IS 'Saved fixture lists for reuse';
+COMMENT ON COLUMN saved_jackpot_templates.fixtures IS 'JSON array of fixtures: [{"homeTeam": "...", "awayTeam": "...", "homeOdds": 2.0, "drawOdds": 3.0, "awayOdds": 2.5}, ...]';
+COMMENT ON COLUMN saved_jackpot_templates.fixture_count IS 'Number of fixtures in the template';
+
+
+
+-- ============================================================================
+-- SAVED PROBABILITY RESULTS TABLE
+-- ============================================================================
+-- Allows users to save their probability output selections and actual results
+-- for backtesting and performance tracking
+
+CREATE TABLE IF NOT EXISTS saved_probability_results (
+    id              SERIAL PRIMARY KEY,
+    user_id         VARCHAR,                            -- User identifier (string for flexibility)
+    jackpot_id      VARCHAR NOT NULL,                   -- Reference to jackpot
+    name            VARCHAR NOT NULL,                   -- User-provided name
+    description     TEXT,                               -- Optional description
+    
+    -- Probability set selections (user picks per set)
+    selections      JSONB NOT NULL,                      -- {"A": {"1": "1", "2": "X", ...}, "B": {...}}
+    
+    -- Actual results (entered after matches complete)
+    actual_results  JSONB,                              -- {"1": "X", "2": "1", ...} (fixture_id -> result)
+    
+    -- Score tracking per set
+    scores          JSONB,                              -- {"A": {"correct": 10, "total": 15}, "B": {...}}
+    
+    -- Metadata
+    model_version   VARCHAR,                            -- Model version used
+    total_fixtures  INTEGER NOT NULL DEFAULT 0,         -- Number of fixtures
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 20)
+);
+
+CREATE INDEX idx_saved_results_user ON saved_probability_results(user_id);
+CREATE INDEX idx_saved_results_jackpot ON saved_probability_results(jackpot_id);
+CREATE INDEX idx_saved_results_created ON saved_probability_results(created_at DESC);
+
+COMMENT ON TABLE saved_probability_results IS 'Saved probability output selections and actual results for backtesting';
+COMMENT ON COLUMN saved_probability_results.selections IS 'User selections per probability set: {"A": {"fixture_1": "1", "fixture_2": "X"}, "B": {...}}';
+COMMENT ON COLUMN saved_probability_results.actual_results IS 'Actual match results: {"fixture_1": "X", "fixture_2": "1"}';
+COMMENT ON COLUMN saved_probability_results.scores IS 'Score tracking per set: {"A": {"correct": 10, "total": 15}, "B": {...}}';
+

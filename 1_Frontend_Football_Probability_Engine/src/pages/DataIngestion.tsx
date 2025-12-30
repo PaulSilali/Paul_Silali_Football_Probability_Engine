@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import {
   Globe,
   Database,
@@ -14,7 +14,8 @@ import {
   FileUp,
   Clock,
   Eye,
-  X
+  X,
+  Square
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -44,6 +45,8 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
+import apiClient from '@/services/api';
+import { allLeagues } from '@/data/allLeagues';
 
 // Mock dataset for preview
 const generateMockDataset = (batchNumber: number, sources: string[]) => {
@@ -95,18 +98,17 @@ interface JackpotResult {
   correctPredictions?: number;
 }
 
-const initialDataSources: DataSource[] = [
-  { id: '1', name: 'Premier League', url: 'football-data.co.uk/englandm.php', leagues: ['E0'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-20' },
-  { id: '2', name: 'Championship', url: 'football-data.co.uk/englandm.php', leagues: ['E1'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-20' },
-  { id: '3', name: 'La Liga', url: 'football-data.co.uk/spainm.php', leagues: ['SP1'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-18' },
-  { id: '4', name: 'Bundesliga', url: 'football-data.co.uk/germanym.php', leagues: ['D1'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-19' },
-  { id: '5', name: 'Serie A', url: 'football-data.co.uk/italym.php', leagues: ['I1'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-17' },
-  { id: '6', name: 'Ligue 1', url: 'football-data.co.uk/francem.php', leagues: ['F1'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-18' },
-  { id: '7', name: 'League One', url: 'football-data.co.uk/englandm.php', leagues: ['E2'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-15' },
-  { id: '8', name: 'League Two', url: 'football-data.co.uk/englandm.php', leagues: ['E3'], seasons: '2018-2024', status: 'idle', progress: 0, lastUpdated: '2024-12-15' },
-  { id: '9', name: 'Eredivisie', url: 'football-data.co.uk/netherlandsm.php', leagues: ['N1'], seasons: '2018-2024', status: 'idle', progress: 0 },
-  { id: '10', name: 'Primeira Liga', url: 'football-data.co.uk/portugalm.php', leagues: ['P1'], seasons: '2018-2024', status: 'idle', progress: 0 },
-];
+// Convert allLeagues to DataSource format
+const initialDataSources: DataSource[] = allLeagues.map(league => ({
+  id: league.id,
+  name: league.name,
+  url: league.url,
+  leagues: [league.code],
+  seasons: '2018-2024',
+  status: 'idle' as const,
+  progress: 0,
+  lastUpdated: undefined,
+}));
 
 const mockJackpotResults: JackpotResult[] = [
   { id: '1', jackpotId: 'JK-2024-1230', date: '2024-12-22', matches: 13, status: 'validated', correctPredictions: 10 },
@@ -125,12 +127,21 @@ interface DownloadBatch {
 }
 
 // Data download hook
-function useDataDownload() {
+function useDataDownload(selectedSeason: string = '2024-25') {
   const [sources, setSources] = useState<DataSource[]>(initialDataSources);
   const [isDownloading, setIsDownloading] = useState(false);
+  const [isCancelling, setIsCancelling] = useState(false);
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [downloadBatches, setDownloadBatches] = useState<DownloadBatch[]>([]);
   const [batchCounter, setBatchCounter] = useState(1000);
+  const [downloadProgress, setDownloadProgress] = useState({
+    completed: 0,
+    total: 0,
+    currentLeague: '',
+    overallProgress: 0
+  });
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const progressIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const { toast } = useToast();
 
   const toggleSource = (id: string) => {
@@ -147,81 +158,369 @@ function useDataDownload() {
     }
   };
 
-  const startDownload = useCallback(() => {
+  // Helper function to convert season format: "2023-24" -> "2324"
+  const convertSeasonFormat = (season: string): string => {
+    if (season === 'all' || season === 'last7' || season === 'last10') return 'all';
+    const parts = season.split('-');
+    if (parts.length === 2) {
+      const startYear = parts[0].slice(-2); // Last 2 digits
+      const endYear = parts[1].slice(-2);   // Last 2 digits
+      return `${startYear}${endYear}`;
+    }
+    return season;
+  };
+
+  const cancelDownload = useCallback(() => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      setIsCancelling(true);
+      setIsDownloading(false);
+      
+      // Clear progress interval
+      if (progressIntervalRef.current) {
+        clearInterval(progressIntervalRef.current);
+        progressIntervalRef.current = null;
+      }
+      
+      // Reset progress
+      setDownloadProgress({
+        completed: 0,
+        total: 0,
+        currentLeague: '',
+        overallProgress: 0
+      });
+      
+      // Mark downloading sources as cancelled
+      setSources(prev => prev.map(s =>
+        s.status === 'downloading'
+          ? { ...s, status: 'idle' as const, progress: 0 }
+          : s
+      ));
+      
+      toast({
+        title: 'Download Cancelled',
+        description: 'Download has been cancelled. No data was saved.',
+        variant: 'default',
+      });
+      
+      abortControllerRef.current = null;
+      setIsCancelling(false);
+    }
+  }, [toast]);
+
+  const startDownload = useCallback(async () => {
     if (selectedSources.length === 0) return;
 
     setIsDownloading(true);
+    setIsCancelling(false);
 
+    // Create new AbortController for this download
+    abortControllerRef.current = new AbortController();
+    const signal = abortControllerRef.current.signal;
+
+    const toDownload = sources.filter(s => selectedSources.includes(s.id));
+    const totalLeagues = toDownload.length;
+    
+    // Initialize progress tracking
+    setDownloadProgress({
+      completed: 0,
+      total: totalLeagues,
+      currentLeague: '',
+      overallProgress: 0
+    });
+
+    // Reset selected sources to downloading state
     setSources(prev => prev.map(s =>
       selectedSources.includes(s.id)
-        ? { ...s, status: 'idle' as const, progress: 0 }
+        ? { ...s, status: 'downloading' as const, progress: 0 }
         : s
     ));
 
-    let currentIndex = 0;
-    const toDownload = selectedSources.slice();
-    let batchRecords = 0;
     const downloadedSourceNames: string[] = [];
+    let totalRecords = 0;
+    let batchNumber = batchCounter;
+    
+    // Clear any existing progress interval
+    if (progressIntervalRef.current) {
+      clearInterval(progressIntervalRef.current);
+      progressIntervalRef.current = null;
+    }
+    
+    // Start progress simulation
+    progressIntervalRef.current = setInterval(() => {
+      if (signal.aborted) {
+        if (progressIntervalRef.current) {
+          clearInterval(progressIntervalRef.current);
+          progressIntervalRef.current = null;
+        }
+        return;
+      }
+      
+      setDownloadProgress(prev => {
+        // Increment progress gradually (max 90% until actual completion)
+        const newProgress = Math.min(prev.overallProgress + 2, 90);
+        return {
+          ...prev,
+          overallProgress: newProgress
+        };
+      });
+    }, 500);
+    
+    try {
+      // Check if cancelled before starting
+      if (signal.aborted) {
+        if (progressIntervalRef.current) {
+          clearInterval(progressIntervalRef.current);
+          progressIntervalRef.current = null;
+        }
+        return;
+      }
+      // Prepare leagues for batch download
+      const isMultiSeason = selectedSeason === 'all' || selectedSeason === 'last7' || selectedSeason === 'last10';
+      const leagues = toDownload.map(source => ({
+        code: source.leagues[0], // Use first league code
+        season: isMultiSeason ? undefined : convertSeasonFormat(selectedSeason)
+      }));
 
-    const processNext = () => {
-      if (currentIndex >= toDownload.length) {
-        setIsDownloading(false);
+      // Use batch download API if multiple sources or multi-season selection
+      if (toDownload.length > 1 || isMultiSeason) {
+        // Pass the actual season value (last7, last10, or all) instead of converting to 'all'
+        const seasonParam = isMultiSeason ? selectedSeason : undefined;
+        
+        // Check if cancelled
+        if (signal.aborted) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          return;
+        }
+        
+        const response = await apiClient.batchDownload(
+          'football-data.co.uk',
+          leagues,
+          seasonParam,
+          signal
+        );
+        
+        // Check if cancelled after API call
+        if (signal.aborted) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          return;
+        }
+
+        if (response.success && response.data) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          batchNumber = response.data.results[0]?.batchNumber || batchCounter;
+          totalRecords = response.data.totalStats.inserted + response.data.totalStats.updated;
+
+          // Update sources with results and track progress
+          let completedCount = 0;
+          response.data.results.forEach((result, idx) => {
+            if (idx < toDownload.length) {
+              const sourceId = toDownload[idx].id;
+              downloadedSourceNames.push(toDownload[idx].name);
+              completedCount++;
+              
+              // Update progress as each league completes
+              setDownloadProgress(prev => ({
+                completed: completedCount,
+                total: totalLeagues,
+                currentLeague: toDownload[idx].name,
+                overallProgress: Math.round((completedCount / totalLeagues) * 100)
+              }));
+              
+              setSources(prev => prev.map(s =>
+                s.id === sourceId
+                  ? {
+                      ...s,
+                      status: 'completed' as const,
+                      progress: 100,
+                      recordCount: result.stats?.inserted + result.stats?.updated || 0,
+                      lastUpdated: new Date().toISOString().split('T')[0]
+                    }
+                  : s
+              ));
+            }
+          });
+          
+          // Final progress update
+          setDownloadProgress(prev => ({
+            ...prev,
+            completed: totalLeagues,
+            overallProgress: 100,
+            currentLeague: ''
+          }));
+        }
+      } else {
+        // Single league download
+        const source = toDownload[0];
+        const leagueCode = source.leagues[0];
+        // For multi-season options, pass as-is; otherwise convert format
+        const season = (selectedSeason === 'last7' || selectedSeason === 'last10') 
+          ? selectedSeason 
+          : convertSeasonFormat(selectedSeason);
+
+        // Check if cancelled
+        if (signal.aborted) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          return;
+        }
+
+        const response = await apiClient.refreshData(
+          'football-data.co.uk',
+          leagueCode,
+          season,
+          signal
+        );
+        
+        // Check if cancelled after API call
+        if (signal.aborted) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          return;
+        }
+
+        if (response.success && response.data) {
+          if (progressIntervalRef.current) {
+            clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+          }
+          batchNumber = response.data.batchNumber || batchCounter;
+          totalRecords = response.data.stats.inserted + response.data.stats.updated;
+          downloadedSourceNames.push(source.name);
+
+          // Update progress for single download
+          setDownloadProgress({
+            completed: 1,
+            total: 1,
+            currentLeague: source.name,
+            overallProgress: 100
+          });
+
+          setSources(prev => prev.map(s =>
+            s.id === source.id
+              ? {
+                  ...s,
+                  status: 'completed' as const,
+                  progress: 100,
+                  recordCount: totalRecords,
+                  lastUpdated: new Date().toISOString().split('T')[0]
+                }
+              : s
+          ));
+        }
+      }
         
         // Create batch record
         const newBatch: DownloadBatch = {
           id: `batch-${Date.now()}`,
-          batchNumber: batchCounter,
+        batchNumber: batchNumber,
           timestamp: new Date().toISOString(),
           sources: downloadedSourceNames,
-          totalRecords: batchRecords,
+        totalRecords: totalRecords,
           status: 'completed',
         };
         setDownloadBatches(prev => [newBatch, ...prev]);
-        setBatchCounter(prev => prev + 1);
+      setBatchCounter(batchNumber + 1);
         
         toast({
           title: 'Download Complete',
-          description: `Batch #${batchCounter}: Downloaded ${toDownload.length} sources (${batchRecords.toLocaleString()} records)`,
+        description: `Batch #${batchNumber}: Downloaded ${downloadedSourceNames.length} sources (${totalRecords.toLocaleString()} records)`,
+        });
+
+    } catch (error: any) {
+      // Clear progress interval on error
+      if (progressIntervalRef.current) {
+        clearInterval(progressIntervalRef.current);
+        progressIntervalRef.current = null;
+      }
+      
+      // Don't show error if download was cancelled
+      if (error.name === 'AbortError' || signal.aborted) {
+        setDownloadProgress({
+          completed: 0,
+          total: 0,
+          currentLeague: '',
+          overallProgress: 0
         });
         return;
       }
 
-      const sourceId = toDownload[currentIndex];
-      const sourceName = sources.find(s => s.id === sourceId)?.name || 'Unknown';
+      console.error('Download error:', error);
       
+      // Mark sources as failed
       setSources(prev => prev.map(s =>
-        s.id === sourceId ? { ...s, status: 'downloading' as const, progress: 0 } : s
+        selectedSources.includes(s.id)
+          ? { ...s, status: 'failed' as const, progress: 0 }
+          : s
       ));
 
-      let progress = 0;
-      const interval = setInterval(() => {
-        progress += Math.random() * 20 + 10;
-        if (progress >= 100) {
-          progress = 100;
-          clearInterval(interval);
-          const recordCount = Math.floor(Math.random() * 3000) + 2000;
-          batchRecords += recordCount;
-          downloadedSourceNames.push(sourceName);
-          
-          setSources(prev => prev.map(s =>
-            s.id === sourceId
-              ? { ...s, status: 'completed' as const, progress: 100, recordCount, lastUpdated: new Date().toISOString().split('T')[0] }
-              : s
-          ));
-          currentIndex++;
-          setTimeout(processNext, 200);
-        } else {
-          setSources(prev => prev.map(s =>
-            s.id === sourceId ? { ...s, progress: Math.min(progress, 99) } : s
-          ));
+      // Reset progress
+      setDownloadProgress({
+        completed: 0,
+        total: 0,
+        currentLeague: '',
+        overallProgress: 0
+      });
+
+      toast({
+        title: 'Download Failed',
+        description: error.message || 'Failed to download data. Please try again.',
+        variant: 'destructive',
+      });
+    } finally {
+      // Clear progress interval
+      if (progressIntervalRef.current) {
+        clearInterval(progressIntervalRef.current);
+        progressIntervalRef.current = null;
+      }
+      
+      setIsDownloading(false);
+      setIsCancelling(false);
+      abortControllerRef.current = null;
+      
+      // Reset progress after a delay to show completion
+      setTimeout(() => {
+        setDownloadProgress(prev => {
+          // Only reset if download is complete (not cancelled)
+          if (prev.overallProgress === 100) {
+            return {
+              completed: 0,
+              total: 0,
+              currentLeague: '',
+              overallProgress: 0
+            };
+          }
+          return prev;
+        });
+      }, 2000);
         }
-      }, 150);
-    };
+  }, [selectedSources, selectedSeason, toast, batchCounter, sources]);
 
-    processNext();
-  }, [selectedSources, toast, batchCounter, sources]);
-
-  return { sources, isDownloading, selectedSources, toggleSource, selectAll, startDownload, downloadBatches };
+  return { 
+    sources, 
+    isDownloading, 
+    isCancelling,
+    selectedSources, 
+    toggleSource, 
+    selectAll, 
+    startDownload, 
+    cancelDownload,
+    downloadBatches,
+    downloadProgress
+  };
 }
 
 function formatDate(dateString: string) {
@@ -232,14 +531,113 @@ function formatDate(dateString: string) {
   });
 }
 
+// Generate list of seasons (current season going back)
+function generateSeasons(count: number = 10): string[] {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth() + 1; // 1-12
+  
+  // Determine current season (assumes season starts in August)
+  let currentSeasonStart: number;
+  if (currentMonth >= 8) {
+    currentSeasonStart = currentYear;
+  } else {
+    currentSeasonStart = currentYear - 1;
+  }
+  
+  const seasons: string[] = [];
+  for (let i = 0; i < count; i++) {
+    const yearStart = currentSeasonStart - i;
+    const yearEnd = yearStart + 1;
+    const season = `${yearStart}-${String(yearEnd).slice(-2)}`;
+    seasons.push(season);
+  }
+  
+  return seasons;
+}
+
+interface BatchHistoryItem {
+  id: string;
+  batchNumber: number;
+  source: string;
+  status: string;
+  startedAt: string | null;
+  completedAt: string | null;
+  recordsProcessed: number;
+  recordsInserted: number;
+  recordsUpdated: number;
+  recordsSkipped: number;
+  hasFiles: boolean;
+  fileInfo?: {
+    batchNumber: number;
+    folderName: string;
+    csvCount: number;
+    leagues: string[];
+    seasons: string[];
+    files: string[];
+  };
+  leagueCode?: string;
+  season?: string;
+}
+
+interface BatchHistorySummary {
+  totalBatches: number;
+  totalRecords: number;
+  totalFiles: number;
+  uniqueLeagues: number;
+  leagues: string[];
+}
+
 export default function DataIngestion() {
-  const { sources, isDownloading, selectedSources, toggleSource, selectAll, startDownload, downloadBatches } = useDataDownload();
+  const [selectedSeason, setSelectedSeason] = useState('2024-25');
+  const { 
+    sources, 
+    isDownloading, 
+    isCancelling,
+    selectedSources, 
+    toggleSource, 
+    selectAll, 
+    startDownload, 
+    cancelDownload,
+    downloadBatches,
+    downloadProgress
+  } = useDataDownload(selectedSeason);
   const [jackpotResults, setJackpotResults] = useState<JackpotResult[]>(mockJackpotResults);
   const [manualInput, setManualInput] = useState('');
-  const [selectedSeason, setSelectedSeason] = useState('2024-25');
   const [previewBatch, setPreviewBatch] = useState<DownloadBatch | null>(null);
   const [previewData, setPreviewData] = useState<ReturnType<typeof generateMockDataset>>([]);
+  const [batchHistory, setBatchHistory] = useState<BatchHistoryItem[]>([]);
+  const [batchSummary, setBatchSummary] = useState<BatchHistorySummary | null>(null);
+  const [loadingBatches, setLoadingBatches] = useState(true);
   const { toast } = useToast();
+  
+  // Generate seasons list
+  const seasonsList = generateSeasons(10);
+
+  // Fetch batch history on component mount and after downloads
+  useEffect(() => {
+    const fetchBatchHistory = async () => {
+      try {
+        setLoadingBatches(true);
+        const response = await apiClient.getBatchHistory(50);
+        if (response.success && response.data) {
+          setBatchHistory(response.data.batches);
+          setBatchSummary(response.data.summary);
+        }
+      } catch (error) {
+        console.error('Failed to fetch batch history:', error);
+        toast({
+          title: 'Error',
+          description: 'Failed to load batch history',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoadingBatches(false);
+      }
+    };
+
+    fetchBatchHistory();
+  }, [toast, downloadBatches.length]); // Refresh when new batches are added
 
   const handlePreviewBatch = (batch: DownloadBatch) => {
     setPreviewBatch(batch);
@@ -269,43 +667,94 @@ export default function DataIngestion() {
   const sourcesWithData = sources.filter(s => s.recordCount).length;
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">Data Ingestion</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Import historical data and previous jackpot results
-          </p>
-        </div>
-        <div className="flex items-center gap-3">
-          <Badge variant="secondary" className="text-xs">
-            <Database className="h-3 w-3 mr-1" />
-            {totalRecords.toLocaleString()} records
-          </Badge>
-          <Badge variant="outline" className="text-xs">
-            {sourcesWithData}/{sources.length} sources
-          </Badge>
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 p-6 space-y-6">
+      {/* Header Section with Gradient */}
+      <div className="relative overflow-hidden rounded-xl border border-border/50 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 p-6 shadow-lg">
+        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        <div className="relative flex items-center justify-between">
+          <div className="space-y-1">
+            <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+              Data Ingestion
+            </h1>
+            <p className="text-muted-foreground text-lg">
+              Import historical data and previous jackpot results
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <Badge variant="secondary" className="text-sm px-3 py-1 bg-primary/10 text-primary border-primary/30">
+              <Database className="h-4 w-4 mr-1" />
+              {totalRecords.toLocaleString()} records
+            </Badge>
+            <Badge variant="outline" className="text-sm px-3 py-1 border-border/50">
+              {sourcesWithData}/{sources.length} sources
+            </Badge>
+          </div>
         </div>
       </div>
 
-      <Tabs defaultValue="football-data">
-        <TabsList>
-          <TabsTrigger value="football-data" className="gap-2">
-            <Globe className="h-4 w-4" />
-            Football-Data.co.uk
-          </TabsTrigger>
-          <TabsTrigger value="api-football" className="gap-2">
-            <FileSpreadsheet className="h-4 w-4" />
-            API-Football
-          </TabsTrigger>
-          <TabsTrigger value="jackpot-results" className="gap-2">
-            <Trophy className="h-4 w-4" />
-            Jackpot Results
-          </TabsTrigger>
-        </TabsList>
+      <Tabs defaultValue="football-data" className="space-y-6">
+        <div className="w-full border-b border-border/40 bg-gradient-to-r from-background via-background/95 to-background">
+          <TabsList className="w-full h-14 justify-start gap-1 bg-transparent p-0">
+            <TabsTrigger 
+              value="football-data" 
+              className="h-12 px-6 text-sm font-medium data-[state=active]:bg-primary/10 data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary rounded-none border-b-2 border-transparent transition-all hover:bg-muted/50 gap-2"
+            >
+              <Globe className="h-4 w-4" />
+              Football-Data.co.uk
+            </TabsTrigger>
+            <TabsTrigger 
+              value="api-football" 
+              className="h-12 px-6 text-sm font-medium data-[state=active]:bg-primary/10 data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary rounded-none border-b-2 border-transparent transition-all hover:bg-muted/50 gap-2"
+            >
+              <FileSpreadsheet className="h-4 w-4" />
+              API-Football
+            </TabsTrigger>
+            <TabsTrigger 
+              value="jackpot-results" 
+              className="h-12 px-6 text-sm font-medium data-[state=active]:bg-primary/10 data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary rounded-none border-b-2 border-transparent transition-all hover:bg-muted/50 gap-2"
+            >
+              <Trophy className="h-4 w-4" />
+              Jackpot Results
+            </TabsTrigger>
+          </TabsList>
+        </div>
 
         {/* Football-Data.co.uk Tab */}
         <TabsContent value="football-data" className="space-y-4">
+          {/* Download Progress Summary */}
+          {isDownloading && downloadProgress.total > 0 && (
+            <Card className="border-primary/50 bg-primary/5">
+              <CardContent className="pt-6">
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <Loader2 className="h-5 w-5 animate-spin text-primary" />
+                      <div>
+                        <p className="font-semibold text-sm">
+                          Downloading {downloadProgress.completed}/{downloadProgress.total} leagues
+                        </p>
+                        {downloadProgress.currentLeague && (
+                          <p className="text-xs text-muted-foreground mt-1">
+                            Currently downloading: <span className="font-medium">{downloadProgress.currentLeague}</span>
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                    <div className="text-right">
+                      <div className="text-2xl font-bold text-primary">
+                        {downloadProgress.overallProgress}%
+                      </div>
+                      <div className="text-xs text-muted-foreground">
+                        {downloadProgress.completed} completed
+                      </div>
+                    </div>
+                  </div>
+                  <Progress value={downloadProgress.overallProgress} className="h-3" />
+                </div>
+              </CardContent>
+            </Card>
+          )}
+          
           <Card>
             <CardHeader>
               <div className="flex items-center justify-between">
@@ -319,47 +768,62 @@ export default function DataIngestion() {
                   </CardDescription>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Select value={selectedSeason} onValueChange={setSelectedSeason}>
-                    <SelectTrigger className="w-[120px]">
+                  <Select value={selectedSeason} onValueChange={setSelectedSeason} disabled={isDownloading}>
+                    <SelectTrigger className="w-[200px]">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="2024-25">2024-25</SelectItem>
-                      <SelectItem value="2023-24">2023-24</SelectItem>
-                      <SelectItem value="2022-23">2022-23</SelectItem>
-                      <SelectItem value="2021-22">2021-22</SelectItem>
-                      <SelectItem value="2020-21">2020-21</SelectItem>
-                      <SelectItem value="all">All Seasons</SelectItem>
+                      {seasonsList.map((season) => (
+                        <SelectItem key={season} value={season}>
+                          {season}
+                        </SelectItem>
+                      ))}
+                      <SelectItem value="last7">Last 7 Seasons (Ideal)</SelectItem>
+                      <SelectItem value="last10">Last 10 Seasons (Diminishing Returns)</SelectItem>
                     </SelectContent>
                   </Select>
+                  {isDownloading ? (
                   <Button
-                    onClick={startDownload}
-                    disabled={isDownloading || selectedSources.length === 0}
+                      onClick={cancelDownload}
+                      variant="destructive"
+                      disabled={isCancelling}
                   >
-                    {isDownloading ? (
+                      {isCancelling ? (
                       <>
                         <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                        Downloading...
+                          Cancelling...
                       </>
                     ) : (
                       <>
-                        <Download className="h-4 w-4 mr-2" />
-                        Download Selected
+                          <Square className="h-4 w-4 mr-2" />
+                          Stop Download
                       </>
                     )}
                   </Button>
+                  ) : (
+                    <Button
+                      onClick={startDownload}
+                      disabled={selectedSources.length === 0}
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Selected
+                    </Button>
+                  )}
                 </div>
               </div>
             </CardHeader>
             <CardContent>
               <div className="mb-4">
-                <Button variant="ghost" size="sm" onClick={selectAll}>
+                <div
+                  onClick={selectAll}
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors"
+                >
                   <Checkbox
                     checked={selectedSources.length === sources.length}
-                    className="mr-2"
+                    className="pointer-events-none"
                   />
                   {selectedSources.length === sources.length ? 'Deselect All' : 'Select All'}
-                </Button>
+                </div>
               </div>
               <ScrollArea className="h-[400px]">
                 <Table>
@@ -397,9 +861,14 @@ export default function DataIngestion() {
                         </TableCell>
                         <TableCell>
                           {source.status === 'downloading' ? (
-                            <div className="flex items-center gap-2">
-                              <Loader2 className="h-4 w-4 animate-spin text-primary" />
-                              <Progress value={source.progress} className="w-16 h-2" />
+                            <div className="flex items-center gap-2 min-w-[120px]">
+                              <Loader2 className="h-4 w-4 animate-spin text-primary flex-shrink-0" />
+                              <div className="flex-1 min-w-[80px]">
+                                <Progress value={source.progress || downloadProgress.overallProgress} className="h-2" />
+                                <span className="text-xs text-muted-foreground mt-0.5 block">
+                                  {source.progress || downloadProgress.overallProgress}%
+                                </span>
+                              </div>
                             </div>
                           ) : source.status === 'completed' ? (
                             <Badge variant="secondary" className="bg-green-500/10 text-green-600">
@@ -432,72 +901,187 @@ export default function DataIngestion() {
             </AlertDescription>
           </Alert>
 
-          {/* Download Batch History */}
-          {downloadBatches.length > 0 && (
+          {/* Available Downloaded Data */}
             <Card>
               <CardHeader>
+              <div className="flex items-center justify-between">
+                <div>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <FileUp className="h-5 w-5" />
-                  Downloaded Data Batches
+                    <Database className="h-5 w-5" />
+                    Available Downloaded Data
                 </CardTitle>
                 <CardDescription>
-                  History of completed data downloads
+                    Data available in database and file system from previous downloads
                 </CardDescription>
+                </div>
+                <div className="flex items-center gap-3">
+                  {batchSummary && (
+                    <div className="flex items-center gap-4">
+                      <Badge variant="secondary" className="text-xs">
+                        {batchSummary.totalBatches} batches
+                      </Badge>
+                      <Badge variant="secondary" className="text-xs">
+                        {batchSummary.totalRecords.toLocaleString()} records
+                      </Badge>
+                      <Badge variant="secondary" className="text-xs">
+                        {batchSummary.totalFiles} CSV files
+                      </Badge>
+                      <Badge variant="secondary" className="text-xs">
+                        {batchSummary.uniqueLeagues} leagues
+                      </Badge>
+                    </div>
+                  )}
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={async () => {
+                      try {
+                        setLoadingBatches(true);
+                        const response = await apiClient.getBatchHistory(50);
+                        if (response.success && response.data) {
+                          setBatchHistory(response.data.batches);
+                          setBatchSummary(response.data.summary);
+                          toast({
+                            title: 'Refreshed',
+                            description: 'Batch history updated',
+                          });
+                        }
+                      } catch (error) {
+                        toast({
+                          title: 'Error',
+                          description: 'Failed to refresh batch history',
+                          variant: 'destructive',
+                        });
+                      } finally {
+                        setLoadingBatches(false);
+                      }
+                    }}
+                    disabled={loadingBatches}
+                  >
+                    <RefreshCw className={`h-4 w-4 mr-1 ${loadingBatches ? 'animate-spin' : ''}`} />
+                    Refresh
+                  </Button>
+                </div>
+              </div>
               </CardHeader>
               <CardContent>
-                <ScrollArea className="h-[200px]">
+              {loadingBatches ? (
+                <div className="flex items-center justify-center py-8">
+                  <Loader2 className="h-6 w-6 animate-spin text-muted-foreground mr-2" />
+                  <span className="text-sm text-muted-foreground">Loading batch history...</span>
+                </div>
+              ) : batchHistory.length === 0 ? (
+                <div className="text-center py-8 text-muted-foreground">
+                  <Database className="h-12 w-12 mx-auto mb-3 opacity-50" />
+                  <p className="text-sm">No downloaded data found.</p>
+                  <p className="text-xs mt-1">Download data using the table above to get started.</p>
+                </div>
+              ) : (
+                <ScrollArea className="h-[400px]">
                   <div className="space-y-3">
-                    {downloadBatches.map((batch) => (
+                    {batchHistory.map((batch) => (
                       <div
                         key={batch.id}
-                        className="flex items-center justify-between p-3 rounded-lg border bg-muted/30"
+                        className="flex items-center justify-between p-4 rounded-lg border bg-muted/30 hover:bg-muted/50 transition-colors"
                       >
-                        <div className="flex items-center gap-4">
-                          <div className="flex flex-col">
+                        <div className="flex items-start gap-4 flex-1">
+                          <div className="flex flex-col min-w-[120px]">
                             <span className="font-mono font-semibold text-primary">
                               Batch #{batch.batchNumber}
                             </span>
-                            <span className="text-xs text-muted-foreground">
-                              {new Date(batch.timestamp).toLocaleString()}
+                            <span className="text-xs text-muted-foreground mt-1">
+                              {batch.completedAt 
+                                ? new Date(batch.completedAt).toLocaleString()
+                                : batch.startedAt
+                                ? new Date(batch.startedAt).toLocaleString()
+                                : 'Unknown date'}
                             </span>
+                            <Badge variant="outline" className="text-xs mt-1 w-fit">
+                              {batch.source}
+                            </Badge>
                           </div>
+                          
+                          {batch.fileInfo && (
+                            <div className="flex flex-col gap-2 flex-1">
                           <div className="flex flex-wrap gap-1">
-                            {batch.sources.slice(0, 3).map((source, idx) => (
-                              <Badge key={idx} variant="outline" className="text-xs">
-                                {source}
+                                {batch.fileInfo.leagues.slice(0, 5).map((league, idx) => (
+                                  <Badge key={idx} variant="secondary" className="text-xs">
+                                    {league}
                               </Badge>
                             ))}
-                            {batch.sources.length > 3 && (
+                                {batch.fileInfo.leagues.length > 5 && (
                               <Badge variant="secondary" className="text-xs">
-                                +{batch.sources.length - 3} more
+                                    +{batch.fileInfo.leagues.length - 5} more
                               </Badge>
                             )}
                           </div>
+                              <div className="text-xs text-muted-foreground">
+                                <span className="font-medium">{batch.fileInfo.csvCount}</span> CSV file{batch.fileInfo.csvCount !== 1 ? 's' : ''}
+                                {batch.fileInfo.seasons.length > 0 && (
+                                  <span className="ml-2">
+                                    • Seasons: {batch.fileInfo.seasons.slice(0, 3).join(', ')}
+                                    {batch.fileInfo.seasons.length > 3 && ` +${batch.fileInfo.seasons.length - 3} more`}
+                                  </span>
+                                )}
                         </div>
-                        <div className="flex items-center gap-3">
-                          <span className="text-sm font-medium tabular-nums">
-                            {batch.totalRecords.toLocaleString()} records
+                              <div className="text-xs text-muted-foreground font-mono">
+                                Folder: {batch.fileInfo.folderName}
+                              </div>
+                            </div>
+                          )}
+                          
+                          {!batch.fileInfo && batch.leagueCode && (
+                            <div className="flex flex-col gap-1">
+                              <Badge variant="outline" className="text-xs w-fit">
+                                {batch.leagueCode}
+                              </Badge>
+                              {batch.season && (
+                                <span className="text-xs text-muted-foreground">
+                                  Season: {batch.season}
                           </span>
-                          <Badge className="bg-green-500/10 text-green-600">
-                            <CheckCircle className="h-3 w-3 mr-1" />
+                              )}
+                            </div>
+                          )}
+                        </div>
+                        
+                        <div className="flex items-center gap-3 flex-shrink-0">
+                          <div className="text-right">
+                            <div className="text-sm font-medium tabular-nums">
+                              {batch.recordsInserted.toLocaleString()} records
+                            </div>
+                            {batch.recordsProcessed > 0 && (
+                              <div className="text-xs text-muted-foreground">
+                                {batch.recordsProcessed.toLocaleString()} processed
+                              </div>
+                            )}
+                          </div>
+                          <Badge 
+                            className={
+                              batch.status === 'completed' 
+                                ? 'bg-green-500/10 text-green-600'
+                                : batch.status === 'failed'
+                                ? 'bg-red-500/10 text-red-600'
+                                : 'bg-yellow-500/10 text-yellow-600'
+                            }
+                          >
+                            {batch.status === 'completed' && <CheckCircle className="h-3 w-3 mr-1" />}
+                            {batch.status === 'failed' && <AlertCircle className="h-3 w-3 mr-1" />}
                             {batch.status}
                           </Badge>
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            onClick={() => handlePreviewBatch(batch)}
-                          >
-                            <Eye className="h-4 w-4 mr-1" />
-                            Preview
-                          </Button>
+                          {batch.hasFiles && (
+                            <Badge variant="outline" className="text-xs">
+                              <FileSpreadsheet className="h-3 w-3 mr-1" />
+                              Files
+                            </Badge>
+                          )}
                         </div>
                       </div>
                     ))}
                   </div>
                 </ScrollArea>
+              )}
               </CardContent>
             </Card>
-          )}
         </TabsContent>
 
         {/* API-Football Tab */}

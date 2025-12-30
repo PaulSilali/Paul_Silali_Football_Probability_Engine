@@ -22,7 +22,9 @@ interface AccumulatorCalculatorProps {
 }
 
 export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) {
-  const [stake, setStake] = useState(10);
+  const [stake, setStake] = useState(50); // Default 50 KSH
+  const [currency, setCurrency] = useState<'KSH' | 'USD' | 'GBP'>('KSH');
+  const [jackpotType, setJackpotType] = useState<'15' | '17'>('15'); // 15 or 17 games
 
   const calculations = useMemo(() => {
     if (fixtures.length === 0) {
@@ -47,6 +49,32 @@ export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) 
 
     // Potential return
     const potentialReturn = stake * combinedOdds;
+    
+    // Kenyan jackpot prize structure
+    // 15 games: 15M KSH (if all correct), partial prizes for 13/15, 14/15
+    // 17 games: 200M KSH (if all correct), partial prizes for 15/17, 16/17
+    const getJackpotPrize = (correctCount: number, totalCount: number): number => {
+      if (totalCount === 15) {
+        if (correctCount === 15) return 15000000; // 15M KSH
+        if (correctCount === 14) return 500000;   // 500K KSH
+        if (correctCount === 13) return 50000;     // 50K KSH
+        return 0;
+      } else if (totalCount === 17) {
+        if (correctCount === 17) return 200000000; // 200M KSH
+        if (correctCount === 16) return 5000000;    // 5M KSH
+        if (correctCount === 15) return 500000;     // 500K KSH
+        return 0;
+      }
+      return 0;
+    };
+    
+    // Calculate expected jackpot prize (simplified - assumes uniform distribution)
+    // This is a rough estimate based on probability of getting N correct
+    const expectedJackpotPrize = 0; // Would require more complex calculation
+    
+    // Convert currency
+    const currencySymbol = currency === 'KSH' ? 'KSh' : currency === 'USD' ? '$' : '£';
+    const currencyMultiplier = currency === 'KSH' ? 1 : currency === 'USD' ? 0.007 : 0.0055; // Approximate rates
 
     // Expected value: (probability * return) - stake
     const expectedValue = overallProbability * potentialReturn - stake;
@@ -104,17 +132,51 @@ export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) 
           </Alert>
         ) : (
           <>
-            {/* Stake Input */}
-            <div className="space-y-2">
-              <Label htmlFor="stake">Stake Amount (£)</Label>
-              <Input
-                id="stake"
-                type="number"
-                min={1}
-                value={stake}
-                onChange={(e) => setStake(Math.max(1, Number(e.target.value)))}
-                className="w-32"
-              />
+            {/* Stake Input and Settings */}
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="stake">Stake Amount</Label>
+                  <Input
+                    id="stake"
+                    type="number"
+                    min={1}
+                    value={stake}
+                    onChange={(e) => setStake(Math.max(1, Number(e.target.value)))}
+                    className="w-full"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="currency">Currency</Label>
+                  <select
+                    id="currency"
+                    value={currency}
+                    onChange={(e) => setCurrency(e.target.value as 'KSH' | 'USD' | 'GBP')}
+                    className="w-full h-10 px-3 rounded-md border border-input bg-background"
+                  >
+                    <option value="KSH">KSH (Kenyan Shilling)</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                  </select>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="jackpotType">Jackpot Type</Label>
+                <select
+                  id="jackpotType"
+                  value={jackpotType}
+                  onChange={(e) => setJackpotType(e.target.value as '15' | '17')}
+                  className="w-full h-10 px-3 rounded-md border border-input bg-background"
+                >
+                  <option value="15">15 Games (15M KSH prize)</option>
+                  <option value="17">17 Games (200M KSH prize)</option>
+                </select>
+                <p className="text-xs text-muted-foreground">
+                  {jackpotType === '15' 
+                    ? '15 games: 15M KSH (all correct), 500K (14/15), 50K (13/15)'
+                    : '17 games: 200M KSH (all correct), 5M (16/17), 500K (15/17)'}
+                </p>
+              </div>
             </div>
 
             {/* Key Metrics */}
@@ -143,7 +205,8 @@ export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) 
                   {calculations.combinedOdds.toFixed(2)}
                 </div>
                 <div className="text-xs text-muted-foreground">
-                  Return: £{calculations.potentialReturn.toFixed(2)}
+                  Return: {currency === 'KSH' ? 'KSh' : currency === 'USD' ? '$' : '£'}
+                  {(calculations.potentialReturn * (currency === 'KSH' ? 1 : currency === 'USD' ? 0.007 : 0.0055)).toFixed(2)}
                 </div>
               </div>
 
@@ -162,7 +225,8 @@ export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) 
                 </Tooltip>
                 <div className={`text-2xl font-bold tabular-nums ${evColor}`}>
                   {calculations.expectedValue >= 0 ? '+' : ''}
-                  £{calculations.expectedValue.toFixed(2)}
+                  {currency === 'KSH' ? 'KSh' : currency === 'USD' ? '$' : '£'}
+                  {(calculations.expectedValue * (currency === 'KSH' ? 1 : currency === 'USD' ? 0.007 : 0.0055)).toFixed(2)}
                 </div>
                 <div className="text-xs text-muted-foreground">
                   Edge: {calculations.edgePercentage >= 0 ? '+' : ''}
@@ -218,15 +282,44 @@ export function AccumulatorCalculator({ fixtures }: AccumulatorCalculatorProps) 
               </div>
             </div>
 
+            {/* Kenyan Jackpot Prize Info */}
+            {fixtures.length === parseInt(jackpotType) && (
+              <Alert className="bg-primary/10 border-primary/30">
+                <Info className="h-4 w-4 text-primary" />
+                <AlertDescription className="text-sm">
+                  <strong>Kenyan Jackpot Prize Structure ({jackpotType} games):</strong>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    {jackpotType === '15' ? (
+                      <>
+                        <li>15/15 correct: <strong>15,000,000 KSH</strong></li>
+                        <li>14/15 correct: <strong>500,000 KSH</strong></li>
+                        <li>13/15 correct: <strong>50,000 KSH</strong></li>
+                      </>
+                    ) : (
+                      <>
+                        <li>17/17 correct: <strong>200,000,000 KSH</strong></li>
+                        <li>16/17 correct: <strong>5,000,000 KSH</strong></li>
+                        <li>15/17 correct: <strong>500,000 KSH</strong></li>
+                      </>
+                    )}
+                  </ul>
+                  <p className="mt-2 text-xs">
+                    <strong>Stake Amount:</strong> The amount you bet per jackpot entry. 
+                    In Kenya, typical stakes range from 50 KSH to 1,000 KSH per entry.
+                  </p>
+                </AlertDescription>
+              </Alert>
+            )}
+            
             {/* Educational Warning */}
             <Alert className="bg-status-watch/10 border-status-watch/30">
               <AlertTriangle className="h-4 w-4 text-status-watch" />
               <AlertDescription className="text-sm">
                 <strong>Remember:</strong> A {(calculations.overallProbability * 100).toFixed(2)}% probability 
                 means winning approximately {Math.round(calculations.overallProbability * 1000)} times 
-                out of 1,000 attempts. If you bet £{stake} each time, you'd expect to 
+                out of 1,000 attempts. If you bet {currency === 'KSH' ? 'KSh' : currency === 'USD' ? '$' : '£'}{stake} each time, you'd expect to 
                 {calculations.expectedValue >= 0 ? ' profit ' : ' lose '}
-                £{Math.abs(calculations.expectedValue * 1000 / stake).toFixed(0)} over 1,000 bets.
+                {currency === 'KSH' ? 'KSh' : currency === 'USD' ? '$' : '£'}{Math.abs(calculations.expectedValue * 1000 / stake).toFixed(0)} over 1,000 bets.
               </AlertDescription>
             </Alert>
           </>

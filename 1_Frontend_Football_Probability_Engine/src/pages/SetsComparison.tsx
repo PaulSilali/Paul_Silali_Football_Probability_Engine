@@ -1,5 +1,6 @@
-import { useState } from 'react';
-import { Info, Calculator, TrendingUp, Target, Zap, Scale, Users } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { Info, Calculator, TrendingUp, Target, Zap, Scale, Users, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
@@ -15,6 +16,8 @@ import {
 } from '@/components/ui/table';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { useToast } from '@/hooks/use-toast';
+import apiClient from '@/services/api';
 import type { ProbabilitySet, FixtureProbability } from '@/types';
 
 const sets: (ProbabilitySet & { icon: React.ElementType; useCase: string })[] = [
@@ -104,13 +107,207 @@ const sets: (ProbabilitySet & { icon: React.ElementType; useCase: string })[] = 
   },
 ];
 
+type Selection = '1' | 'X' | '2' | null;
+
 export default function SetsComparison() {
+  const [searchParams] = useSearchParams();
+  const { toast } = useToast();
+  const jackpotId = searchParams.get('jackpotId');
+  
   const [showDelta, setShowDelta] = useState(false);
   const [selectedSets, setSelectedSets] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G']);
-  const baseSet = sets.find(s => s.id === 'A')!;
-  const visibleSets = sets.filter(s => selectedSets.includes(s.id));
+  const [loadedSets, setLoadedSets] = useState<Record<string, any>>({});
+  const [loading, setLoading] = useState(false);
+  const [actualResults, setActualResults] = useState<Record<string, Selection>>({});
+  const [savedResults, setSavedResults] = useState<any[]>([]);
+  
+  // Fetch probabilities from API
+  useEffect(() => {
+    const fetchProbabilities = async () => {
+      const targetJackpotId = jackpotId;
+      
+      if (!targetJackpotId) {
+        // Use mock data if no jackpotId
+        setLoadedSets({});
+        return;
+      }
 
-  const formatProbability = (value: number) => value.toFixed(2);
+      try {
+        setLoading(true);
+        const response = await apiClient.getProbabilities(targetJackpotId);
+        const data = (response as any).success ? (response as any).data : response;
+        
+        if (data && data.probabilitySets) {
+          const transformedSets: Record<string, any> = {};
+          
+          Object.keys(data.probabilitySets).forEach(setId => {
+            const setProbs = data.probabilitySets[setId];
+            const fixtures = data.fixtures || [];
+            const setMetadata = sets.find(s => s.id === setId);
+            
+            transformedSets[setId] = {
+              id: setId,
+              name: setMetadata?.name || `Set ${setId}`,
+              description: setMetadata?.description || '',
+              icon: setMetadata?.icon || Calculator,
+              useCase: setMetadata?.useCase || '',
+              probabilities: setProbs.map((prob: any, idx: number) => ({
+                fixtureId: fixtures[idx]?.id || String(idx + 1),
+                homeTeam: fixtures[idx]?.homeTeam || '',
+                awayTeam: fixtures[idx]?.awayTeam || '',
+                homeWinProbability: prob.homeWinProbability || 0,
+                drawProbability: prob.drawProbability || 0,
+                awayWinProbability: prob.awayWinProbability || 0,
+              })),
+            };
+          });
+          
+          setLoadedSets(transformedSets);
+        }
+      } catch (err: any) {
+        console.error('Error fetching probabilities:', err);
+        toast({
+          title: 'Error',
+          description: 'Failed to load probabilities. Using mock data.',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProbabilities();
+  }, [jackpotId, toast]);
+
+  // Load saved results
+  useEffect(() => {
+    const loadSavedResults = async () => {
+      const targetJackpotId = jackpotId;
+      if (!targetJackpotId) {
+        // Try to load latest saved result
+        try {
+          const response = await apiClient.getLatestSavedResult();
+          if (response.success && response.data?.result) {
+            const result = response.data.result;
+            setSavedResults([result]);
+            if (result.jackpotId && !jackpotId) {
+              // Load probabilities for this jackpot
+              const probResponse = await apiClient.getProbabilities(result.jackpotId);
+              const probData = (probResponse as any).success ? (probResponse as any).data : probResponse;
+              if (probData && probData.probabilitySets) {
+                const transformedSets: Record<string, any> = {};
+                Object.keys(probData.probabilitySets).forEach(setId => {
+                  const setProbs = probData.probabilitySets[setId];
+                  const fixtures = probData.fixtures || [];
+                  const setMetadata = sets.find(s => s.id === setId);
+                  transformedSets[setId] = {
+                    id: setId,
+                    name: setMetadata?.name || `Set ${setId}`,
+                    description: setMetadata?.description || '',
+                    icon: setMetadata?.icon || Calculator,
+                    useCase: setMetadata?.useCase || '',
+                    probabilities: setProbs.map((prob: any, idx: number) => ({
+                      fixtureId: fixtures[idx]?.id || String(idx + 1),
+                      homeTeam: fixtures[idx]?.homeTeam || '',
+                      awayTeam: fixtures[idx]?.awayTeam || '',
+                      homeWinProbability: prob.homeWinProbability || 0,
+                      drawProbability: prob.drawProbability || 0,
+                      awayWinProbability: prob.awayWinProbability || 0,
+                    })),
+                  };
+                });
+                setLoadedSets(transformedSets);
+                // Apply actual results after loading probabilities
+                if (result.actualResults && Object.keys(result.actualResults).length > 0) {
+                  const actualResultsMap: Record<string, Selection> = {};
+                  const currentProbs = transformedSets['A']?.probabilities || Object.values(transformedSets)[0]?.probabilities || [];
+                  const currentFixtureIds = currentProbs.map((p: any) => p.fixtureId);
+                  Object.entries(result.actualResults).forEach(([savedFixtureId, result], index) => {
+                    if (currentFixtureIds.includes(savedFixtureId)) {
+                      actualResultsMap[savedFixtureId] = result as Selection;
+                    } else if (index < currentFixtureIds.length) {
+                      const matchedFixtureId = currentFixtureIds[index];
+                      if (matchedFixtureId) {
+                        actualResultsMap[matchedFixtureId] = result as Selection;
+                      }
+                    }
+                  });
+                  setActualResults(actualResultsMap);
+                }
+              }
+            }
+          }
+        } catch (err: any) {
+          console.error('Error loading latest saved result:', err);
+        }
+        return;
+      }
+      
+      try {
+        const response = await apiClient.getSavedResults(targetJackpotId);
+        if (response.success && response.data) {
+          const results = response.data.results || [];
+          setSavedResults(results);
+        }
+      } catch (err: any) {
+        console.error('Error loading saved results:', err);
+      }
+    };
+
+    loadSavedResults();
+  }, [jackpotId]);
+
+  // Apply actual results when loadedSets or savedResults change
+  useEffect(() => {
+    if (Object.keys(loadedSets).length === 0 || savedResults.length === 0) return;
+    
+    const lastResult = savedResults[0];
+    if (!lastResult?.actualResults || Object.keys(lastResult.actualResults).length === 0) return;
+    
+    const actualResultsMap: Record<string, Selection> = {};
+    const currentProbs = loadedSets['A']?.probabilities || Object.values(loadedSets)[0]?.probabilities || [];
+    const currentFixtureIds = currentProbs.map((p: any) => p.fixtureId);
+    
+    Object.entries(lastResult.actualResults).forEach(([savedFixtureId, result], index) => {
+      if (currentFixtureIds.includes(savedFixtureId)) {
+        actualResultsMap[savedFixtureId] = result as Selection;
+      } else if (index < currentFixtureIds.length) {
+        const matchedFixtureId = currentFixtureIds[index];
+        if (matchedFixtureId) {
+          actualResultsMap[matchedFixtureId] = result as Selection;
+        }
+      }
+    });
+    setActualResults(actualResultsMap);
+  }, [loadedSets, savedResults]);
+
+  // Use loaded sets if available, otherwise use mock data
+  const setsToUse = useMemo(() => {
+    if (Object.keys(loadedSets).length > 0) {
+      return Object.values(loadedSets) as (ProbabilitySet & { icon: React.ElementType; useCase: string })[];
+    }
+    return sets;
+  }, [loadedSets]);
+
+  const baseSet = setsToUse.find(s => s.id === 'A') || setsToUse[0];
+  const visibleSets = setsToUse.filter(s => selectedSets.includes(s.id));
+  
+  // Get highest probability outcome for a set
+  const getHighestProbOutcome = (prob: FixtureProbability): '1' | 'X' | '2' => {
+    const { homeWinProbability, drawProbability, awayWinProbability } = prob;
+    if (homeWinProbability >= drawProbability && homeWinProbability >= awayWinProbability) return '1';
+    if (awayWinProbability >= homeWinProbability && awayWinProbability >= drawProbability) return '2';
+    return 'X';
+  };
+
+  const formatProbability = (value: number) => {
+    // Values are already percentages (0-100 range)
+    // Show 2 decimal places by default, but use more precision for very small values
+    if (value < 0.1) return value.toFixed(4);
+    if (value < 1) return value.toFixed(3);
+    // For normal percentages, show 2 decimal places
+    return value.toFixed(2);
+  };
   
   const formatDelta = (value: number, baseValue: number) => {
     const delta = value - baseValue;
@@ -159,7 +356,7 @@ export default function SetsComparison() {
 
       {/* Set Selection & Explanations */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {sets.map((set) => {
+        {setsToUse.map((set) => {
           const Icon = set.icon;
           const isSelected = selectedSets.includes(set.id);
           return (
@@ -254,10 +451,11 @@ export default function SetsComparison() {
         </CardHeader>
         <CardContent>
           <Tabs defaultValue="home" className="w-full">
-            <TabsList className="grid grid-cols-3 w-full max-w-md">
+            <TabsList className="grid grid-cols-4 w-full max-w-lg">
               <TabsTrigger value="home">Home Win %</TabsTrigger>
               <TabsTrigger value="draw">Draw %</TabsTrigger>
               <TabsTrigger value="away">Away Win %</TabsTrigger>
+              <TabsTrigger value="actual">Actual Results</TabsTrigger>
             </TabsList>
             
             <TabsContent value="home" className="mt-4">
@@ -276,33 +474,73 @@ export default function SetsComparison() {
                           </Tooltip>
                         </TableHead>
                       ))}
+                      {Object.keys(actualResults).length > 0 && (
+                        <TableHead className="text-center w-[100px]">
+                          <Tooltip>
+                            <TooltipTrigger className="flex items-center justify-center gap-1 cursor-help">
+                              <Badge variant="outline" className="text-xs">Actual</Badge>
+                            </TooltipTrigger>
+                            <TooltipContent>Actual match results from saved data</TooltipContent>
+                          </Tooltip>
+                        </TableHead>
+                      )}
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {baseSet.probabilities.map((baseProbability) => (
-                      <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
-                        <TableCell className="font-medium sticky left-0 bg-card">
-                          {baseProbability.homeTeam} vs {baseProbability.awayTeam}
-                        </TableCell>
-                        {visibleSets.map(set => {
-                          const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
-                          const value = prob?.homeWinProbability || 0;
-                          const baseValue = baseProbability.homeWinProbability;
-                          
-                          return (
-                            <TableCell key={set.id} className="text-right tabular-nums">
-                              {showDelta && set.id !== 'A' ? (
-                                <span className={getDeltaColor(value, baseValue)}>
-                                  {formatDelta(value, baseValue)}
-                                </span>
+                    {baseSet.probabilities.map((baseProbability) => {
+                      const actualResult = actualResults[baseProbability.fixtureId];
+                      return (
+                        <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
+                          <TableCell className="font-medium sticky left-0 bg-card">
+                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                          </TableCell>
+                          {visibleSets.map(set => {
+                            const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                            const value = prob?.homeWinProbability || 0;
+                            const baseValue = baseProbability.homeWinProbability;
+                            const predicted = prob ? getHighestProbOutcome(prob) : null;
+                            const isCorrect = actualResult && predicted === actualResult;
+                            
+                            return (
+                              <TableCell key={set.id} className="text-right tabular-nums">
+                                {showDelta && set.id !== 'A' ? (
+                                  <span className={getDeltaColor(value, baseValue)}>
+                                    {formatDelta(value, baseValue)}
+                                  </span>
+                                ) : (
+                                  <div className="flex items-center justify-end gap-1">
+                                    <span>{formatProbability(value)}%</span>
+                                    {actualResult && predicted === '1' && (
+                                      <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
+                                        {isCorrect ? '✓' : '✗'}
+                                      </span>
+                                    )}
+                                  </div>
+                                )}
+                              </TableCell>
+                            );
+                          })}
+                          {Object.keys(actualResults).length > 0 && (
+                            <TableCell className="text-center">
+                              {actualResult ? (
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-sm font-bold ${
+                                    actualResult === '1' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    actualResult === 'X' ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' :
+                                    'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                  }`}
+                                >
+                                  {actualResult}
+                                </Badge>
                               ) : (
-                                <span>{formatProbability(value)}%</span>
+                                <span className="text-muted-foreground">—</span>
                               )}
                             </TableCell>
-                          );
-                        })}
-                      </TableRow>
-                    ))}
+                          )}
+                        </TableRow>
+                      );
+                    })}
                   </TableBody>
                 </Table>
               </div>
@@ -319,33 +557,68 @@ export default function SetsComparison() {
                           <Badge variant="outline" className="text-xs">{set.id}</Badge>
                         </TableHead>
                       ))}
+                      {Object.keys(actualResults).length > 0 && (
+                        <TableHead className="text-center w-[100px]">
+                          <Badge variant="outline" className="text-xs">Actual</Badge>
+                        </TableHead>
+                      )}
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {baseSet.probabilities.map((baseProbability) => (
-                      <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
-                        <TableCell className="font-medium sticky left-0 bg-card">
-                          {baseProbability.homeTeam} vs {baseProbability.awayTeam}
-                        </TableCell>
-                        {visibleSets.map(set => {
-                          const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
-                          const value = prob?.drawProbability || 0;
-                          const baseValue = baseProbability.drawProbability;
-                          
-                          return (
-                            <TableCell key={set.id} className="text-right tabular-nums">
-                              {showDelta && set.id !== 'A' ? (
-                                <span className={getDeltaColor(value, baseValue)}>
-                                  {formatDelta(value, baseValue)}
-                                </span>
+                    {baseSet.probabilities.map((baseProbability) => {
+                      const actualResult = actualResults[baseProbability.fixtureId];
+                      return (
+                        <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
+                          <TableCell className="font-medium sticky left-0 bg-card">
+                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                          </TableCell>
+                          {visibleSets.map(set => {
+                            const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                            const value = prob?.drawProbability || 0;
+                            const baseValue = baseProbability.drawProbability;
+                            const predicted = prob ? getHighestProbOutcome(prob) : null;
+                            const isCorrect = actualResult && predicted === actualResult;
+                            
+                            return (
+                              <TableCell key={set.id} className="text-right tabular-nums">
+                                {showDelta && set.id !== 'A' ? (
+                                  <span className={getDeltaColor(value, baseValue)}>
+                                    {formatDelta(value, baseValue)}
+                                  </span>
+                                ) : (
+                                  <div className="flex items-center justify-end gap-1">
+                                    <span>{formatProbability(value)}%</span>
+                                    {actualResult && predicted === 'X' && (
+                                      <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
+                                        {isCorrect ? '✓' : '✗'}
+                                      </span>
+                                    )}
+                                  </div>
+                                )}
+                              </TableCell>
+                            );
+                          })}
+                          {Object.keys(actualResults).length > 0 && (
+                            <TableCell className="text-center">
+                              {actualResult ? (
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-sm font-bold ${
+                                    actualResult === '1' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    actualResult === 'X' ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' :
+                                    'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                  }`}
+                                >
+                                  {actualResult}
+                                </Badge>
                               ) : (
-                                <span>{formatProbability(value)}%</span>
+                                <span className="text-muted-foreground">—</span>
                               )}
                             </TableCell>
-                          );
-                        })}
-                      </TableRow>
-                    ))}
+                          )}
+                        </TableRow>
+                      );
+                    })}
                   </TableBody>
                 </Table>
               </div>
@@ -362,40 +635,189 @@ export default function SetsComparison() {
                           <Badge variant="outline" className="text-xs">{set.id}</Badge>
                         </TableHead>
                       ))}
+                      {Object.keys(actualResults).length > 0 && (
+                        <TableHead className="text-center w-[100px]">
+                          <Badge variant="outline" className="text-xs">Actual</Badge>
+                        </TableHead>
+                      )}
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {baseSet.probabilities.map((baseProbability) => (
-                      <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
-                        <TableCell className="font-medium sticky left-0 bg-card">
-                          {baseProbability.homeTeam} vs {baseProbability.awayTeam}
-                        </TableCell>
-                        {visibleSets.map(set => {
-                          const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
-                          const value = prob?.awayWinProbability || 0;
-                          const baseValue = baseProbability.awayWinProbability;
-                          
-                          return (
-                            <TableCell key={set.id} className="text-right tabular-nums">
-                              {showDelta && set.id !== 'A' ? (
-                                <span className={getDeltaColor(value, baseValue)}>
-                                  {formatDelta(value, baseValue)}
-                                </span>
+                    {baseSet.probabilities.map((baseProbability) => {
+                      const actualResult = actualResults[baseProbability.fixtureId];
+                      return (
+                        <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
+                          <TableCell className="font-medium sticky left-0 bg-card">
+                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                          </TableCell>
+                          {visibleSets.map(set => {
+                            const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                            const value = prob?.awayWinProbability || 0;
+                            const baseValue = baseProbability.awayWinProbability;
+                            const predicted = prob ? getHighestProbOutcome(prob) : null;
+                            const isCorrect = actualResult && predicted === actualResult;
+                            
+                            return (
+                              <TableCell key={set.id} className="text-right tabular-nums">
+                                {showDelta && set.id !== 'A' ? (
+                                  <span className={getDeltaColor(value, baseValue)}>
+                                    {formatDelta(value, baseValue)}
+                                  </span>
+                                ) : (
+                                  <div className="flex items-center justify-end gap-1">
+                                    <span>{formatProbability(value)}%</span>
+                                    {actualResult && predicted === '2' && (
+                                      <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
+                                        {isCorrect ? '✓' : '✗'}
+                                      </span>
+                                    )}
+                                  </div>
+                                )}
+                              </TableCell>
+                            );
+                          })}
+                          {Object.keys(actualResults).length > 0 && (
+                            <TableCell className="text-center">
+                              {actualResult ? (
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-sm font-bold ${
+                                    actualResult === '1' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    actualResult === 'X' ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' :
+                                    'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                  }`}
+                                >
+                                  {actualResult}
+                                </Badge>
                               ) : (
-                                <span>{formatProbability(value)}%</span>
+                                <span className="text-muted-foreground">—</span>
                               )}
                             </TableCell>
-                          );
-                        })}
-                      </TableRow>
-                    ))}
+                          )}
+                        </TableRow>
+                      );
+                    })}
                   </TableBody>
                 </Table>
               </div>
             </TabsContent>
+
+            {/* Actual Results Tab */}
+            <TabsContent value="actual" className="mt-4">
+              {Object.keys(actualResults).length === 0 ? (
+                <div className="text-center py-8 text-muted-foreground">
+                  <Info className="h-12 w-12 mx-auto mb-4 opacity-50" />
+                  <p>No actual results available.</p>
+                  <p className="text-sm mt-2">
+                    {jackpotId 
+                      ? 'Enter actual results in the Probability Output page and save them to see them here.'
+                      : 'Navigate to Probability Output page with a jackpot ID to load saved results.'}
+                  </p>
+                </div>
+              ) : (
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead className="sticky left-0 bg-card">Fixture</TableHead>
+                        {visibleSets.map(set => (
+                          <TableHead key={set.id} className="text-center w-[100px]">
+                            <Badge variant="outline" className="text-xs">{set.id}</Badge>
+                          </TableHead>
+                        ))}
+                        <TableHead className="text-center w-[100px]">Actual</TableHead>
+                        <TableHead className="text-center w-[100px]">Accuracy</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {baseSet.probabilities.map((baseProbability) => {
+                        const actualResult = actualResults[baseProbability.fixtureId];
+                        if (!actualResult) return null;
+                        
+                        return (
+                          <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
+                            <TableCell className="font-medium sticky left-0 bg-card">
+                              {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                            </TableCell>
+                            {visibleSets.map(set => {
+                              const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                              const predicted = prob ? getHighestProbOutcome(prob) : null;
+                              const isCorrect = predicted === actualResult;
+                              
+                              return (
+                                <TableCell key={set.id} className="text-center">
+                                  {predicted ? (
+                                    <div className="flex flex-col items-center gap-1">
+                                      <Badge 
+                                        variant="outline" 
+                                        className={`text-sm font-bold ${
+                                          predicted === '1' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                          predicted === 'X' ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' :
+                                          'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                        }`}
+                                      >
+                                        {predicted}
+                                      </Badge>
+                                      {isCorrect ? (
+                                        <CheckCircle className="h-4 w-4 text-green-600" />
+                                      ) : (
+                                        <XCircle className="h-4 w-4 text-red-600" />
+                                      )}
+                                    </div>
+                                  ) : (
+                                    <span className="text-muted-foreground">—</span>
+                                  )}
+                                </TableCell>
+                              );
+                            })}
+                            <TableCell className="text-center">
+                              <Badge 
+                                variant="outline" 
+                                className={`text-sm font-bold ${
+                                  actualResult === '1' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                  actualResult === 'X' ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' :
+                                  'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                }`}
+                              >
+                                {actualResult}
+                              </Badge>
+                            </TableCell>
+                            <TableCell className="text-center">
+                              {visibleSets.map(set => {
+                                const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                                const predicted = prob ? getHighestProbOutcome(prob) : null;
+                                return predicted === actualResult;
+                              }).some(correct => correct) ? (
+                                <Badge variant="outline" className="bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50">
+                                  {visibleSets.filter(set => {
+                                    const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                                    return prob && getHighestProbOutcome(prob) === actualResult;
+                                  }).length}/{visibleSets.length}
+                                </Badge>
+                              ) : (
+                                <Badge variant="outline" className="bg-red-500/20 text-red-600 dark:text-red-400 border-red-500/50">
+                                  0/{visibleSets.length}
+                                </Badge>
+                              )}
+                            </TableCell>
+                          </TableRow>
+                        );
+                      })}
+                    </TableBody>
+                  </Table>
+                </div>
+              )}
+            </TabsContent>
           </Tabs>
         </CardContent>
       </Card>
+      
+      {loading && (
+        <div className="flex items-center justify-center py-8">
+          <Loader2 className="h-6 w-6 animate-spin text-primary" />
+          <span className="ml-2 text-muted-foreground">Loading probabilities...</span>
+        </div>
+      )}
     </div>
   );
 }

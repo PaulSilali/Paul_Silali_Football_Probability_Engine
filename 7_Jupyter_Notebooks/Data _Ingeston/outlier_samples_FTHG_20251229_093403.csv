@@ -1,0 +1,51 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,season,league_id,outlier_type,bound,deviation
+2021-02-02,Man City,Southampton,9,0,2021,1,upper,3.5,5.5
+2022-08-27,Liverpool,Bournemouth,9,0,2223,1,upper,3.5,5.5
+2024-02-13,Macclesfield,Harrogate,9,2,2324,8,upper,3.5,5.5
+2019-11-02,RB Leipzig,Mainz,8,0,1920,3,upper,3.5,4.5
+2020-09-18,Bayern Munich,Schalke 04,8,0,2021,3,upper,3.5,4.5
+2023-10-28,Bayern Munich,Darmstadt,8,0,2324,3,upper,3.5,4.5
+2024-03-09,Bayern Munich,Mainz,8,1,2324,3,upper,3.5,4.5
+2024-10-25,Nurnberg,Regensburg,8,3,2425,18,upper,3.5,4.5
+2019-11-02,RB Leipzig,Mainz,8,0,1920,34,upper,3.5,4.5
+2020-09-18,Bayern Munich,Schalke 04,8,0,2021,34,upper,3.5,4.5
+2023-10-28,Bayern Munich,Darmstadt,8,0,2324,34,upper,3.5,4.5
+2024-03-09,Bayern Munich,Mainz,8,1,2324,34,upper,3.5,4.5
+2019-09-21,Man City,Watford,8,0,1920,1,upper,3.5,4.5
+2020-07-14,Wigan,Hull,8,0,1920,6,upper,3.5,4.5
+2023-12-16,Stockport,Sutton,8,0,2324,8,upper,3.5,4.5
+2024-09-20,Nice,St Etienne,8,0,2425,5,upper,3.5,4.5
+2020-03-07,Anderlecht,Waregem,7,0,1920,29,upper,3.5,3.5
+2021-09-12,Anderlecht,Mechelen,7,2,2122,29,upper,3.5,3.5
+2023-04-23,Cercle Brugge,Eupen,7,0,2223,29,upper,3.5,3.5
+2023-08-20,Cercle Brugge,RWD Molenbeek,7,1,2324,29,upper,3.5,3.5
+2024-11-23,Cercle Brugge,St Truiden,7,0,2425,29,upper,3.5,3.5
+2021-09-18,Bayern Munich,Bochum,7,0,2122,3,upper,3.5,3.5
+2021-12-04,Leverkusen,Greuther Furth,7,1,2122,3,upper,3.5,3.5
+2023-01-21,FC Koln,Werder Bremen,7,1,2223,3,upper,3.5,3.5
+2023-09-23,Bayern Munich,Bochum,7,0,2324,3,upper,3.5,3.5
+2024-11-02,Ein Frankfurt,Bochum,7,2,2425,3,upper,3.5,3.5
+2022-08-20,Paderborn,Holstein Kiel,7,2,2223,18,upper,3.5,3.5
+2023-09-17,Hannover,Osnabruck,7,0,2324,18,upper,3.5,3.5
+2024-03-17,Karlsruhe,Magdeburg,7,0,2324,18,upper,3.5,3.5
+2021-09-18,Bayern Munich,Bochum,7,0,2122,34,upper,3.5,3.5
+2021-12-04,Leverkusen,Greuther Furth,7,1,2122,34,upper,3.5,3.5
+2023-01-21,FC Koln,Werder Bremen,7,1,2223,34,upper,3.5,3.5
+2023-09-23,Bayern Munich,Bochum,7,0,2324,34,upper,3.5,3.5
+2024-11-02,Ein Frankfurt,Bochum,7,2,2425,34,upper,3.5,3.5
+2020-10-04,Aston Villa,Liverpool,7,2,2021,1,upper,3.5,3.5
+2021-10-23,Chelsea,Norwich,7,0,2122,1,upper,3.5,3.5
+2021-12-14,Man City,Leeds,7,0,2122,1,upper,3.5,3.5
+2023-03-05,Liverpool,Man City,7,0,2223,1,upper,3.5,3.5
+2025-02-01,Nott'm Forest,Brighton,7,0,2425,1,upper,3.5,3.5
+2019-11-30,Brentford,Luton,7,0,1920,6,upper,3.5,3.5
+2021-01-30,Brentford,Wycombe,7,2,2021,6,upper,3.5,3.5
+2021-04-06,Norwich,Huddersfield,7,0,2021,6,upper,3.5,3.5
+2022-05-02,Fulham,Luton,7,0,2122,6,upper,3.5,3.5
+2025-02-01,Leeds,Cardiff,7,0,2425,6,upper,3.5,3.5
+2025-08-23,Coventry,QPR,7,1,2526,6,upper,3.5,3.5
+2019-11-23,Accrington,Bolton,7,1,1920,7,upper,3.5,3.5
+2021-03-27,Peterboro,Accrington,7,0,2021,7,upper,3.5,3.5
+2023-08-05,Barnsley,Port Vale,7,0,2324,7,upper,3.5,3.5
+2023-11-25,Bolton,Exeter,7,0,2324,7,upper,3.5,3.5
+2022-05-07,Bristol Rvs,Scunthorpe,7,0,2122,8,upper,3.5,3.5

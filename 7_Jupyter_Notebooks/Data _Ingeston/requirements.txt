@@ -1,0 +1,19 @@
+# Requirements for Data Cleanup Notebook
+# Install with: pip install -r requirements.txt
+
+# Core data science libraries
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional but recommended for enhanced visualizations
+seaborn>=0.12.0
+
+# Standard library (no installation needed)
+# pathlib - included in Python 3.4+
+# glob - included in Python standard library
+# warnings - included in Python standard library
+# datetime - included in Python standard library
+# json - included in Python standard library
+# collections - included in Python standard library
+

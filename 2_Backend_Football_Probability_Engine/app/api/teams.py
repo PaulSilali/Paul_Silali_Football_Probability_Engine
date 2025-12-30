@@ -58,3 +58,36 @@ async def get_team_suggestions(
         "success": True
     }
 
+
+@router.get("/all")
+async def get_all_teams(
+    league_id: Optional[int] = Query(None, description="Filter by league ID"),
+    db: Session = Depends(get_db)
+):
+    """
+    Get all teams from database
+    
+    Useful for team mapping interface to show all available teams
+    """
+    from app.db.models import Team
+    
+    query = db.query(Team)
+    if league_id:
+        query = query.filter(Team.league_id == league_id)
+    
+    teams = query.order_by(Team.canonical_name.asc()).all()
+    
+    return {
+        "data": [
+            {
+                "id": team.id,
+                "name": team.name,
+                "canonicalName": team.canonical_name,
+                "leagueId": team.league_id,
+                "leagueName": team.league.name if team.league else None
+            }
+            for team in teams
+        ],
+        "success": True,
+        "count": len(teams)
+    }

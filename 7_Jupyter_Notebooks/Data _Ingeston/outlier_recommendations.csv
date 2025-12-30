@@ -1,0 +1,8 @@
+Column,Outlier %,Recommendation,Action
+FTHG,7.18%,Investigate - high outlier rate,Review data source and verify legitimacy
+AvgH,5.99%,Investigate - high outlier rate,Review data source and verify legitimacy
+AvgD,9.02%,Investigate - high outlier rate,Review data source and verify legitimacy
+AvgA,6.83%,Investigate - high outlier rate,Review data source and verify legitimacy
+prob_home_market,1.20%,Monitor - moderate outlier rate,"Verify outliers are legitimate (e.g., high-scoring matches)"
+prob_draw_market,6.09%,Investigate - high outlier rate,Review data source and verify legitimacy
+prob_away_market,2.32%,Monitor - moderate outlier rate,"Verify outliers are legitimate (e.g., high-scoring matches)"

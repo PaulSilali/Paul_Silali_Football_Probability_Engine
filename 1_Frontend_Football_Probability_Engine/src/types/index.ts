@@ -57,6 +57,11 @@ export interface FixtureProbability {
   awayWinProbability: number;
   confidenceLow?: number;
   confidenceHigh?: number;
+  drawComponents?: {
+    poisson?: number;
+    dixonColes?: number;
+    market?: number | null;
+  };
 }
 
 export interface ProbabilitySet {
@@ -124,6 +129,38 @@ export interface ModelVersion {
   description: string;
   isActive: boolean;
   lockedJackpots: number;
+}
+
+export interface ModelStatus {
+  version: string;
+  status: string;
+  trainedAt: string | null;
+  brierScore: number | null;
+  logLoss: number | null;
+  accuracy: number | null;
+  drawAccuracy: number | null;
+  trainingMatches: number | null;
+}
+
+export interface TaskStatus {
+  taskId: string;
+  status: 'queued' | 'running' | 'completed' | 'failed' | 'cancelled';
+  progress: number;
+  phase?: string;
+  message?: string;
+  result?: {
+    modelId?: string;
+    version?: string;
+    metrics?: {
+      brierScore?: number;
+      logLoss?: number;
+      drawAccuracy?: number;
+      rmse?: number;
+    };
+  };
+  error?: string;
+  startedAt?: string;
+  completedAt?: string;
 }
 
 export interface DataUpdate {

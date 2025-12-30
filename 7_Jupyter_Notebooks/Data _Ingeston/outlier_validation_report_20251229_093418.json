@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-29T09:34:18.232642",
+  "total_columns_validated": 5,
+  "columns_passed": 5,
+  "columns_warning": 0,
+  "columns_failed": 0,
+  "validation_details": {
+    "AvgD": {
+      "column": "AvgD",
+      "total_outliers": 2274,
+      "upper_bound": 4.695,
+      "lower_bound": 2.494999999999999,
+      "issues": [],
+      "warnings": [],
+      "checks_passed": [
+        "Odds values are positive"
+      ],
+      "status": "passed"
+    },
+    "FTHG": {
+      "column": "FTHG",
+      "total_outliers": 1811,
+      "upper_bound": 3.5,
+      "lower_bound": -0.5,
+      "issues": [],
+      "warnings": [],
+      "checks_passed": [
+        "Goal values are non-negative integers"
+      ],
+      "status": "passed"
+    },
+    "AvgA": {
+      "column": "AvgA",
+      "total_outliers": 1722,
+      "upper_bound": 6.94,
+      "lower_bound": -0.26000000000000023,
+      "issues": [],
+      "warnings": [],
+      "checks_passed": [
+        "Odds values are positive"
+      ],
+      "status": "passed"
+    },
+    "prob_draw_market": {
+      "column": "prob_draw_market",
+      "total_outliers": 1535,
+      "upper_bound": 0.34361303346332284,
+      "lower_bound": 0.18531795442147925,
+      "issues": [],
+      "warnings": [],
+      "checks_passed": [
+        "Probabilities are within 0-1 range"
+      ],
+      "status": "passed"
+    },
+    "AvgH": {
+      "column": "AvgH",
+      "total_outliers": 1511,
+      "upper_bound": 4.445,
+      "lower_bound": 0.24499999999999988,
+      "issues": [],
+      "warnings": [],
+      "checks_passed": [
+        "Odds values are positive"
+      ],
+      "status": "passed"
+    }
+  }
+}
