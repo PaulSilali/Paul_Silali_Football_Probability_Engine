@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.api import (
     probabilities, jackpots, validation, data, validation_team,
-    auth, model, tasks, export, teams, explainability, audit
+    auth, model, tasks, export, teams, explainability, audit, tickets
 )
 from app.db.session import engine
 from sqlalchemy import text
@@ -61,6 +61,7 @@ app.include_router(export.router, prefix=settings.API_PREFIX)
 app.include_router(teams.router, prefix=settings.API_PREFIX)
 app.include_router(explainability.router, prefix=settings.API_PREFIX)
 app.include_router(audit.router, prefix=settings.API_PREFIX)
+app.include_router(tickets.router, prefix=settings.API_PREFIX)
 
 
 @app.on_event("startup")

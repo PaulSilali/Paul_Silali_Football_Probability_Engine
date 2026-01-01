@@ -20,10 +20,57 @@ router = APIRouter(prefix="/model", tags=["model"])
 async def get_model_status(
     db: Session = Depends(get_db)
 ):
-    """Get detailed model status"""
-    model = db.query(Model).filter(Model.status == ModelStatus.active).first()
+    """Get detailed model status for all model types"""
+    logger.info("=== GET MODEL STATUS REQUEST ===")
+    logger.info(f"Request time (UTC): {datetime.utcnow().isoformat()}")
+    logger.info(f"Request time (Local): {datetime.now().isoformat()}")
+    
+    # Get active models for each type
+    poisson_model = db.query(Model).filter(
+        Model.model_type == "poisson",
+        Model.status == ModelStatus.active
+    ).order_by(Model.training_completed_at.desc()).first()
+    
+    blending_model = db.query(Model).filter(
+        Model.model_type == "blending",
+        Model.status == ModelStatus.active
+    ).order_by(Model.training_completed_at.desc()).first()
+    
+    calibration_model = db.query(Model).filter(
+        Model.model_type == "calibration",
+        Model.status == ModelStatus.active
+    ).order_by(Model.training_completed_at.desc()).first()
+    
+    # Log what models were found
+    logger.info(f"Poisson model found: {poisson_model.version if poisson_model else 'None'}")
+    if poisson_model:
+        logger.info(f"  - ID: {poisson_model.id}")
+        if poisson_model.training_completed_at:
+            logger.info(f"  - training_completed_at (UTC): {poisson_model.training_completed_at.isoformat()}")
+        else:
+            logger.info(f"  - training_completed_at: None")
+    
+    logger.info(f"Blending model found: {blending_model.version if blending_model else 'None'}")
+    if blending_model:
+        logger.info(f"  - ID: {blending_model.id}")
+        if blending_model.training_completed_at:
+            logger.info(f"  - training_completed_at (UTC): {blending_model.training_completed_at.isoformat()}")
+        else:
+            logger.info(f"  - training_completed_at: None")
+    
+    logger.info(f"Calibration model found: {calibration_model.version if calibration_model else 'None'}")
+    if calibration_model:
+        logger.info(f"  - ID: {calibration_model.id}")
+        if calibration_model.training_completed_at:
+            logger.info(f"  - training_completed_at (UTC): {calibration_model.training_completed_at.isoformat()}")
+        else:
+            logger.info(f"  - training_completed_at: None")
+    
+    # Return status for Poisson model (primary model) or first available
+    model = poisson_model or blending_model or calibration_model
     
     if not model:
+        logger.warning("No active model found")
         return {
             "success": True,
             "data": {
@@ -32,18 +79,61 @@ async def get_model_status(
             }
         }
     
+    # Build response with all model types
+    response_data = {
+        "version": model.version,
+        "status": model.status.value,
+        "trainedAt": model.training_completed_at.isoformat() if model.training_completed_at else None,
+        "brierScore": model.brier_score,
+        "logLoss": model.log_loss,
+        "accuracy": model.overall_accuracy,
+        "drawAccuracy": model.draw_accuracy,
+        "trainingMatches": model.training_matches,
+        "modelType": model.model_type
+    }
+    
+    # Add Poisson-specific data if available
+    if poisson_model:
+        poisson_trained_at = poisson_model.training_completed_at.isoformat() if poisson_model.training_completed_at else None
+        response_data["poisson"] = {
+            "version": poisson_model.version,
+            "trainedAt": poisson_trained_at,
+            "brierScore": poisson_model.brier_score,
+            "logLoss": poisson_model.log_loss,
+            "drawAccuracy": poisson_model.draw_accuracy,
+            "trainingMatches": poisson_model.training_matches
+        }
+        logger.info(f"Poisson trainedAt in response: {poisson_trained_at}")
+    
+    # Add Blending-specific data if available
+    if blending_model:
+        blending_trained_at = blending_model.training_completed_at.isoformat() if blending_model.training_completed_at else None
+        response_data["blending"] = {
+            "version": blending_model.version,
+            "trainedAt": blending_trained_at,
+            "brierScore": blending_model.brier_score,
+            "logLoss": blending_model.log_loss,
+            "trainingMatches": blending_model.training_matches
+        }
+        logger.info(f"Blending trainedAt in response: {blending_trained_at}")
+    
+    # Add Calibration-specific data if available
+    if calibration_model:
+        calibration_trained_at = calibration_model.training_completed_at.isoformat() if calibration_model.training_completed_at else None
+        response_data["calibration"] = {
+            "version": calibration_model.version,
+            "trainedAt": calibration_trained_at,
+            "brierScore": calibration_model.brier_score,
+            "logLoss": calibration_model.log_loss,
+            "trainingMatches": calibration_model.training_matches
+        }
+        logger.info(f"Calibration trainedAt in response: {calibration_trained_at}")
+    
+    logger.info("=== MODEL STATUS RESPONSE SENT ===")
+    
     return {
         "success": True,
-        "data": {
-            "version": model.version,
-            "status": model.status.value,
-            "trainedAt": model.training_completed_at.isoformat() if model.training_completed_at else None,
-            "brierScore": model.brier_score,
-            "logLoss": model.log_loss,
-            "accuracy": model.overall_accuracy,
-            "drawAccuracy": model.draw_accuracy,
-            "trainingMatches": model.training_matches
-        }
+        "data": response_data
     }
 
 
@@ -146,17 +236,13 @@ async def train_model(
                     "metrics": result["metrics"],
                 }
             elif model_type == "draw":
-                # Train draw-only calibration model
-                result = service.train_draw_calibration_model(
-                    leagues=leagues,
-                    seasons=seasons,
-                    task_id=task_id
-                )
-                task_store[task_id]["result"] = {
-                    "modelId": result.get("modelId"),
-                    "version": result.get("version", "draw-calibration"),
-                    "sampleCount": result.get("sampleCount", 0),
-                }
+                # Draw model is deterministic - it doesn't need training
+                # Draw calibration can be trained separately if needed
+                task_store[task_id]["status"] = "failed"
+                task_store[task_id]["error"] = "Draw model is deterministic and doesn't need training. Draw model computes P(Draw) from Poisson outputs at inference time. If you need draw calibration, train it separately."
+                task_store[task_id]["completedAt"] = datetime.now().isoformat()
+                background_db.close()
+                return
             else:  # full pipeline
                 result = service.train_full_pipeline(
                     leagues=leagues,

@@ -542,6 +542,54 @@ class ApiClient {
   }>>> {
     return this.request('/model/leagues');
   }
+
+  // Ticket generation endpoints
+  async generateTickets(
+    jackpotId: string,
+    setKeys: string[] = ['B'],
+    nTickets?: number,
+    leagueCode?: string
+  ): Promise<ApiResponse<{
+    tickets: Array<{
+      id: string;
+      picks: string[];
+      drawCount: number;
+      setKey: string;
+    }>;
+    coverage: {
+      home_pct: number;
+      draw_pct: number;
+      away_pct: number;
+      warnings: string[];
+      total_picks: number;
+      total_tickets: number;
+    };
+  }>> {
+    return this.request('/tickets/generate', {
+      method: 'POST',
+      body: JSON.stringify({
+        jackpot_id: jackpotId,
+        set_keys: setKeys,
+        n_tickets: nTickets,
+        league_code: leagueCode
+      }),
+    });
+  }
+
+  async getDrawDiagnostics(
+    league: string,
+    season?: string
+  ): Promise<ApiResponse<{
+    league: string;
+    season: string | null;
+    drawRate: number;
+    totalMatches: number;
+    draws: number;
+  }>> {
+    const params = new URLSearchParams({ league });
+    if (season) params.append('season', season);
+    return this.request(`/tickets/draw-diagnostics?${params.toString()}`);
+  }
 }
 
 export const apiClient = new ApiClient();

@@ -34,6 +34,9 @@ class PredictionSet(enum.Enum):
     E = "E"
     F = "F"
     G = "G"
+    H = "H"
+    I = "I"
+    J = "J"
 
 
 class MatchResult(enum.Enum):
@@ -221,6 +224,13 @@ class TrainingRun(Base):
     error_message = Column(Text)
     logs = Column(JSON)
     
+    # Entropy and temperature metrics (for uncertainty monitoring)
+    avg_entropy = Column(Float)
+    p10_entropy = Column(Float)
+    p90_entropy = Column(Float)
+    temperature = Column(Float)
+    alpha_mean = Column(Float)
+    
     created_at = Column(DateTime, server_default=func.now())
 
 
@@ -272,6 +282,33 @@ class JackpotFixture(Base):
     
     jackpot = relationship("Jackpot", back_populates="fixtures")
     predictions = relationship("Prediction", back_populates="fixture", cascade="all, delete-orphan")
+
+
+class TeamH2HStats(Base):
+    """Head-to-head statistics for team pairs"""
+    __tablename__ = "team_h2h_stats"
+    
+    id = Column(Integer, primary_key=True)
+    team_home_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    team_away_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    meetings = Column(Integer, nullable=False, default=0)
+    draws = Column(Integer, nullable=False, default=0)
+    home_draws = Column(Integer, nullable=False, default=0)
+    away_draws = Column(Integer, nullable=False, default=0)
+    draw_rate = Column(Float, nullable=False, default=0.0)
+    home_draw_rate = Column(Float, nullable=False, default=0.0)
+    away_draw_rate = Column(Float, nullable=False, default=0.0)
+    league_draw_rate = Column(Float, nullable=False, default=0.0)
+    h2h_draw_index = Column(Float, nullable=False, default=1.0)
+    last_meeting_date = Column(Date)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    __table_args__ = (
+        UniqueConstraint('team_home_id', 'team_away_id', name='uix_h2h_pair'),
+        Index('idx_h2h_pair', 'team_home_id', 'team_away_id'),
+        Index('idx_h2h_draw_index', 'h2h_draw_index'),
+    )
 
 
 class SavedJackpotTemplate(Base):

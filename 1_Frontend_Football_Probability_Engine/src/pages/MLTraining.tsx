@@ -174,12 +174,29 @@ function formatDate(dateString: string) {
 }
 
 function formatDateTime(dateString: string) {
-  return new Date(dateString).toLocaleString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-  });
+  try {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) {
+      console.warn('[MLTraining] Invalid date string:', dateString);
+      return 'Invalid Date';
+    }
+    const formatted = date.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+    console.log('[MLTraining] Formatting timestamp:', {
+      input: dateString,
+      parsed: date.toISOString(),
+      formatted: formatted,
+      localTime: date.toLocaleString()
+    });
+    return formatted;
+  } catch (error) {
+    console.error('[MLTraining] Error formatting date:', dateString, error);
+    return 'Invalid Date';
+  }
 }
 
 export default function MLTraining() {
@@ -218,6 +235,115 @@ export default function MLTraining() {
     );
   };
 
+  // Load model status from backend
+  const loadModelStatus = useCallback(async () => {
+    try {
+      console.log('[MLTraining] Loading model status from backend...');
+      const response = await apiClient.getModelStatus();
+      console.log('[MLTraining] Model status response received:', {
+        success: response.success,
+        hasData: !!response.data,
+        timestamp: new Date().toISOString()
+      });
+      
+      if (response.success && response.data) {
+        setModelStatus(response.data);
+        // Update models with real metrics from backend (only if model exists)
+        if (response.data.status !== 'no_model') {
+          setModels(prev => prev.map(m => {
+            // Update Poisson model with Poisson-specific data
+            if (m.id === 'poisson' && response.data.poisson) {
+              const trainedAt = response.data.poisson.trainedAt;
+              console.log('[MLTraining] Poisson model timestamp received:', {
+                raw: trainedAt,
+                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
+                previous: m.lastTrained,
+                changed: trainedAt !== m.lastTrained
+              });
+              
+              return {
+                ...m,
+                metrics: response.data.poisson.brierScore !== null || response.data.poisson.logLoss !== null ? {
+                  brierScore: response.data.poisson.brierScore || undefined,
+                  logLoss: response.data.poisson.logLoss || undefined,
+                  drawAccuracy: response.data.poisson.drawAccuracy || undefined,
+                } : undefined,
+                lastTrained: trainedAt || undefined,
+              };
+            }
+            // Update Blending model with Blending-specific data
+            if (m.id === 'blending' && response.data.blending) {
+              const trainedAt = response.data.blending.trainedAt;
+              console.log('[MLTraining] Blending model timestamp received:', {
+                raw: trainedAt,
+                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
+                previous: m.lastTrained,
+                changed: trainedAt !== m.lastTrained
+              });
+              
+              return {
+                ...m,
+                metrics: response.data.blending.brierScore !== null || response.data.blending.logLoss !== null ? {
+                  brierScore: response.data.blending.brierScore || undefined,
+                  logLoss: response.data.blending.logLoss || undefined,
+                } : undefined,
+                lastTrained: trainedAt || undefined,
+              };
+            }
+            // Update Calibration model with Calibration-specific data
+            if (m.id === 'calibration' && response.data.calibration) {
+              const trainedAt = response.data.calibration.trainedAt;
+              console.log('[MLTraining] Calibration model timestamp received:', {
+                raw: trainedAt,
+                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
+                previous: m.lastTrained,
+                changed: trainedAt !== m.lastTrained
+              });
+              
+              return {
+                ...m,
+                metrics: response.data.calibration.brierScore !== null || response.data.calibration.logLoss !== null ? {
+                  brierScore: response.data.calibration.brierScore || undefined,
+                  logLoss: response.data.calibration.logLoss || undefined,
+                } : undefined,
+                lastTrained: trainedAt || undefined,
+              };
+            }
+            return m;
+          }));
+          
+          console.log('[MLTraining] Model status updated successfully');
+        }
+      } else {
+        console.warn('[MLTraining] No model data in response:', response);
+      }
+    } catch (error) {
+      console.error('[MLTraining] Error loading model status:', error);
+    }
+  }, []);
+
+  const loadTrainingHistory = useCallback(async () => {
+    try {
+      const response = await apiClient.getTrainingHistory(50);
+      if (response.success && response.data) {
+        setTrainingHistory(response.data);
+      }
+    } catch (error) {
+      console.error('Error loading training history:', error);
+    }
+  }, []);
+
+  const loadLeagues = useCallback(async () => {
+    try {
+      const response = await apiClient.getLeagues();
+      if (response.success && response.data) {
+        setLeagues(response.data);
+      }
+    } catch (error) {
+      console.error('Error loading leagues:', error);
+    }
+  }, []);
+
   // Poll task status for training progress
   const pollTaskStatus = useCallback(async (taskId: string, modelId: string) => {
     const pollInterval = setInterval(async () => {
@@ -249,34 +375,43 @@ export default function MLTraining() {
               return next;
             });
             
-            // Update model with completion status
-            setModels(prev => prev.map(m =>
-              m.id === modelId
-                ? {
-                    ...m,
-                    status: 'completed' as const,
-                    progress: 100,
-                    phase: 'Complete',
-                    lastTrained: new Date().toISOString(),
-                    // Only set metrics if they exist in result
-                    metrics: task.result?.metrics ? {
-                      brierScore: task.result.metrics.brierScore,
-                      logLoss: task.result.metrics.logLoss,
-                      drawAccuracy: task.result.metrics.drawAccuracy,
-                      rmse: task.result.metrics.rmse,
-                    } : undefined,
-                  }
-                : m
-            ));
+            // Get model name from current state (use functional update to avoid stale closure)
+            let modelName = 'Model';
+            setModels(prev => {
+              const found = prev.find(m => m.id === modelId);
+              if (found) {
+                modelName = found.name;
+              }
+              return prev.map(m =>
+                m.id === modelId
+                  ? {
+                      ...m,
+                      status: 'completed' as const,
+                      progress: 100,
+                      phase: 'Complete',
+                      // Only set metrics if they exist in result
+                      metrics: task.result?.metrics ? {
+                        brierScore: task.result.metrics.brierScore,
+                        logLoss: task.result.metrics.logLoss,
+                        drawAccuracy: task.result.metrics.drawAccuracy,
+                        rmse: task.result.metrics.rmse,
+                      } : undefined,
+                    }
+                  : m
+              );
+            });
             
             toast({
               title: 'Training Complete',
-              description: `${models.find(m => m.id === modelId)?.name} trained successfully.`,
+              description: `${modelName} trained successfully.`,
             });
             
-            // Refresh model status and training history from backend
-            loadModelStatus();
-            loadTrainingHistory();
+            // Refresh model status and training history from backend (this will update lastTrained with actual timestamp)
+            console.log('[MLTraining] Training completed, refreshing model status...');
+            console.log('[MLTraining] Current time:', new Date().toISOString());
+            await loadModelStatus();
+            await loadTrainingHistory();
+            console.log('[MLTraining] Model status refresh complete');
           }
 
           // Handle failure
@@ -313,65 +448,15 @@ export default function MLTraining() {
       next.set(taskId, pollInterval);
       return next;
     });
-  }, [models, toast]);
-
-  // Load model status from backend
-  const loadModelStatus = useCallback(async () => {
-    try {
-      const response = await apiClient.getModelStatus();
-      if (response.success && response.data) {
-        setModelStatus(response.data);
-        // Update models with real metrics from backend (only if model exists)
-        if (response.data.status !== 'no_model') {
-          setModels(prev => prev.map(m => {
-            if (m.id === 'poisson' && response.data) {
-              return {
-                ...m,
-                metrics: response.data.brierScore !== null || response.data.logLoss !== null ? {
-                  brierScore: response.data.brierScore || undefined,
-                  logLoss: response.data.logLoss || undefined,
-                  drawAccuracy: response.data.drawAccuracy || undefined,
-                } : undefined,
-                lastTrained: response.data.trainedAt || undefined,
-              };
-            }
-            return m;
-          }));
-        }
-      }
-    } catch (error) {
-      console.error('Error loading model status:', error);
-    }
-  }, []);
+  }, [toast, loadModelStatus, loadTrainingHistory]);
 
   // Load model status, training history, and leagues on mount
   useEffect(() => {
     loadModelStatus();
     loadTrainingHistory();
     loadLeagues();
-  }, []);
-
-  const loadTrainingHistory = useCallback(async () => {
-    try {
-      const response = await apiClient.getTrainingHistory(50);
-      if (response.success && response.data) {
-        setTrainingHistory(response.data);
-      }
-    } catch (error) {
-      console.error('Error loading training history:', error);
-    }
-  }, []);
-
-  const loadLeagues = useCallback(async () => {
-    try {
-      const response = await apiClient.getLeagues();
-      if (response.success && response.data) {
-        setLeagues(response.data);
-      }
-    } catch (error) {
-      console.error('Error loading leagues:', error);
-    }
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Intentionally empty - only run on mount
 
   // Cleanup polling intervals on unmount
   useEffect(() => {
@@ -424,10 +509,13 @@ export default function MLTraining() {
         variant: 'destructive',
       });
     }
-  }, [pollTaskStatus, toast]);
+  }, [pollTaskStatus, toast, selectedLeagues, selectedSeasons, dateFrom, dateTo]);
 
   const trainFullPipeline = useCallback(async () => {
     setIsTrainingPipeline(true);
+    
+    // Store interval reference for cleanup
+    let pollInterval: NodeJS.Timeout | null = null;
     
     try {
       // Call backend API for full pipeline training with configuration
@@ -455,7 +543,7 @@ export default function MLTraining() {
         })));
         
         // Poll for pipeline progress (backend should handle sequential training)
-        const pollInterval = setInterval(async () => {
+        pollInterval = setInterval(async () => {
           try {
             const taskResponse = await apiClient.getTaskStatus(taskId);
             if (taskResponse.success && taskResponse.data) {
@@ -473,16 +561,20 @@ export default function MLTraining() {
 
               if (task.status === 'completed') {
                 clearInterval(pollInterval);
+                setTrainingTasks(prev => {
+                  const next = new Map(prev);
+                  next.delete(taskId);
+                  return next;
+                });
                 setIsTrainingPipeline(false);
                 
-                // Update all models to completed state
+                // Update all models to completed state (temporary, will be refreshed from backend)
                 setModels(prev => prev.map(m => ({
                   ...m,
                   status: 'completed' as const,
                   progress: 100,
                   phase: 'Complete',
-                  lastTrained: new Date().toISOString(),
-                  // Metrics will be loaded from backend via loadModelStatus
+                  // Don't set lastTrained here - will be updated from backend with actual completion time
                 })));
                 
                 toast({
@@ -491,12 +583,17 @@ export default function MLTraining() {
                 });
                 
                 // Refresh all data from backend
-                loadModelStatus();
-                loadTrainingHistory();
+                await loadModelStatus();
+                await loadTrainingHistory();
               }
 
               if (task.status === 'failed') {
                 clearInterval(pollInterval);
+                setTrainingTasks(prev => {
+                  const next = new Map(prev);
+                  next.delete(taskId);
+                  return next;
+                });
                 setIsTrainingPipeline(false);
                 setModels(prev => prev.map(m => ({
                   ...m,
@@ -513,8 +610,15 @@ export default function MLTraining() {
             }
           } catch (error) {
             console.error('Error polling pipeline status:', error);
-        }
+          }
         }, 2000);
+        
+        // Store interval for cleanup
+        setTrainingTasks(prev => {
+          const next = new Map(prev);
+          next.set(taskId, pollInterval!);
+          return next;
+        });
       } else {
         throw new Error('Failed to start pipeline training');
       }
@@ -527,7 +631,7 @@ export default function MLTraining() {
         variant: 'destructive',
       });
     }
-  }, [loadModelStatus, toast]);
+  }, [loadModelStatus, loadTrainingHistory, toast, selectedLeagues, selectedSeasons, dateFrom, dateTo]);
 
   const isAnyTraining = models.some(m => m.status === 'training');
 
@@ -746,7 +850,12 @@ export default function MLTraining() {
                     <Button
                       size="sm"
                       onClick={() => trainModel(model.id)}
-                      disabled={model.status === 'training' || isTrainingPipeline}
+                      disabled={
+                        model.status === 'training' || 
+                        isTrainingPipeline ||
+                        model.id === 'draw'  // Draw model is deterministic, doesn't need training
+                      }
+                      title={model.id === 'draw' ? 'Draw model is deterministic and computed at inference time. It does not require training.' : undefined}
                     >
                       {model.status === 'training' ? (
                         <>

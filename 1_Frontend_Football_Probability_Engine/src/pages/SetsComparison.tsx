@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import {
   Table,
   TableBody,
@@ -18,7 +19,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useToast } from '@/hooks/use-toast';
 import apiClient from '@/services/api';
-import type { ProbabilitySet, FixtureProbability } from '@/types';
+import type { ProbabilitySet, FixtureProbability, Jackpot, PaginatedResponse } from '@/types';
 
 const sets: (ProbabilitySet & { icon: React.ElementType; useCase: string })[] = [
   {
@@ -110,7 +111,7 @@ const sets: (ProbabilitySet & { icon: React.ElementType; useCase: string })[] = 
 type Selection = '1' | 'X' | '2' | null;
 
 export default function SetsComparison() {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { toast } = useToast();
   const jackpotId = searchParams.get('jackpotId');
   
@@ -120,6 +121,51 @@ export default function SetsComparison() {
   const [loading, setLoading] = useState(false);
   const [actualResults, setActualResults] = useState<Record<string, Selection>>({});
   const [savedResults, setSavedResults] = useState<any[]>([]);
+  const [allJackpots, setAllJackpots] = useState<Array<{id: string; name: string; createdAt: string}>>([]);
+  const [loadingJackpots, setLoadingJackpots] = useState(false);
+  
+  // Load all jackpots for dropdown
+  useEffect(() => {
+    const loadJackpots = async () => {
+      try {
+        setLoadingJackpots(true);
+        // Fetch jackpots (default page size is 20, which should be enough for most cases)
+        const response = await apiClient.getJackpots();
+        
+        // Handle PaginatedResponse format - data is already an array
+        const jackpotsData = response.data || [];
+        
+        if (jackpotsData.length > 0) {
+          const jackpots = jackpotsData.map((j: any) => ({
+            id: j.id,
+            name: j.name || `Jackpot ${j.id}`,
+            createdAt: j.createdAt
+          })).sort((a: any, b: any) => 
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+          );
+          setAllJackpots(jackpots);
+          
+          // If no jackpotId in URL, use the most recent one
+          if (!jackpotId && jackpots.length > 0) {
+            const params = new URLSearchParams(searchParams);
+            params.set('jackpotId', jackpots[0].id);
+            setSearchParams(params, { replace: true });
+          }
+        }
+      } catch (err: any) {
+        console.error('Error loading jackpots:', err);
+        toast({
+          title: 'Warning',
+          description: 'Failed to load jackpot list',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoadingJackpots(false);
+      }
+    };
+    
+    loadJackpots();
+  }, [toast, searchParams, setSearchParams, jackpotId]);
   
   // Fetch probabilities from API
   useEffect(() => {
@@ -300,6 +346,50 @@ export default function SetsComparison() {
     return 'X';
   };
 
+  // Calculate normalized entropy (0-1 scale)
+  const calculateEntropy = (prob: FixtureProbability): number => {
+    const { homeWinProbability, drawProbability, awayWinProbability } = prob;
+    const h = homeWinProbability / 100;
+    const d = drawProbability / 100;
+    const a = awayWinProbability / 100;
+    
+    let entropy = 0;
+    if (h > 0) entropy -= h * Math.log(h);
+    if (d > 0) entropy -= d * Math.log(d);
+    if (a > 0) entropy -= a * Math.log(a);
+    
+    // Normalize to [0, 1] where 1 = maximum uncertainty (log(3))
+    const maxEntropy = Math.log(3);
+    return Math.min(Math.max(entropy / maxEntropy, 0), 1);
+  };
+
+  // Get entropy badge level
+  const getEntropyLevel = (entropy: number): 'HIGH' | 'MEDIUM' | 'LOW' => {
+    if (entropy >= 0.85) return 'HIGH';
+    if (entropy >= 0.60) return 'MEDIUM';
+    return 'LOW';
+  };
+
+  // Get dominance indicator
+  const getDominanceIndicator = (prob: FixtureProbability): string => {
+    const { homeWinProbability, drawProbability, awayWinProbability } = prob;
+    const maxProb = Math.max(homeWinProbability, drawProbability, awayWinProbability);
+    const minProb = Math.min(homeWinProbability, drawProbability, awayWinProbability);
+    const diff = maxProb - minProb;
+    
+    // If all probabilities are close (within 5%), it's balanced
+    if (diff < 5) return 'No dominant outcome';
+    
+    // If max is home and difference is small, weak home edge
+    if (maxProb === homeWinProbability && diff < 10) return 'Weak home edge';
+    
+    // If max is away and difference is small, weak away edge
+    if (maxProb === awayWinProbability && diff < 10) return 'Weak away edge';
+    
+    // Otherwise, there's a clear favorite
+    return 'Clear favorite';
+  };
+
   const formatProbability = (value: number) => {
     // Values are already percentages (0-100 range)
     // Show 2 decimal places by default, but use more precision for very small values
@@ -334,13 +424,49 @@ export default function SetsComparison() {
   return (
     <div className="p-6 space-y-6 animate-fade-in">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div>
+        <div className="flex-1">
           <h1 className="text-2xl font-bold text-foreground text-glow">Probability Sets Comparison</h1>
           <p className="text-sm text-muted-foreground mt-1">
             Compare 7 different probability estimation approaches (A-G)
           </p>
         </div>
         <div className="flex items-center gap-4">
+          {/* Jackpot Selector */}
+          <div className="flex items-center gap-2">
+            <Label htmlFor="jackpot-select" className="text-sm whitespace-nowrap">
+              Jackpot:
+            </Label>
+            <Select
+              value={jackpotId || ''}
+              onValueChange={(value) => {
+                const params = new URLSearchParams(searchParams);
+                if (value) {
+                  params.set('jackpotId', value);
+                } else {
+                  params.delete('jackpotId');
+                }
+                setSearchParams(params, { replace: true });
+              }}
+              disabled={loadingJackpots}
+            >
+              <SelectTrigger id="jackpot-select" className="w-[250px]">
+                <SelectValue placeholder={loadingJackpots ? "Loading..." : "Select jackpot"} />
+              </SelectTrigger>
+              <SelectContent>
+                {allJackpots.length === 0 ? (
+                  <div className="px-2 py-1.5 text-sm text-muted-foreground">
+                    No jackpots available
+                  </div>
+                ) : (
+                  allJackpots.map((jackpot) => (
+                    <SelectItem key={jackpot.id} value={jackpot.id}>
+                      {jackpot.name} ({new Date(jackpot.createdAt).toLocaleDateString()})
+                    </SelectItem>
+                  ))
+                )}
+              </SelectContent>
+            </Select>
+          </div>
           <div className="flex items-center space-x-2">
             <Switch
               id="show-delta"
@@ -489,10 +615,29 @@ export default function SetsComparison() {
                   <TableBody>
                     {baseSet.probabilities.map((baseProbability) => {
                       const actualResult = actualResults[baseProbability.fixtureId];
+                      const entropy = calculateEntropy(baseProbability);
+                      const entropyLevel = getEntropyLevel(entropy);
+                      const dominance = getDominanceIndicator(baseProbability);
+                      
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
-                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                            <div className="flex flex-col gap-1">
+                              <span>{baseProbability.homeTeam} vs {baseProbability.awayTeam}</span>
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-xs ${
+                                    entropyLevel === 'HIGH' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    entropyLevel === 'MEDIUM' ? 'bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 border-yellow-500/50' :
+                                    'bg-red-500/20 text-red-600 dark:text-red-400 border-red-500/50'
+                                  }`}
+                                >
+                                  {entropyLevel} UNCERTAINTY
+                                </Badge>
+                                <span className="text-xs text-muted-foreground">{dominance}</span>
+                              </div>
+                            </div>
                           </TableCell>
                           {visibleSets.map(set => {
                             const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
@@ -734,10 +879,29 @@ export default function SetsComparison() {
                         const actualResult = actualResults[baseProbability.fixtureId];
                         if (!actualResult) return null;
                         
+                        const entropy = calculateEntropy(baseProbability);
+                        const entropyLevel = getEntropyLevel(entropy);
+                        const dominance = getDominanceIndicator(baseProbability);
+                        
                         return (
                           <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                             <TableCell className="font-medium sticky left-0 bg-card">
-                              {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                              <div className="flex flex-col gap-1">
+                                <span>{baseProbability.homeTeam} vs {baseProbability.awayTeam}</span>
+                                <div className="flex items-center gap-2 flex-wrap">
+                                  <Badge 
+                                    variant="outline" 
+                                    className={`text-xs ${
+                                      entropyLevel === 'HIGH' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                      entropyLevel === 'MEDIUM' ? 'bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 border-yellow-500/50' :
+                                      'bg-red-500/20 text-red-600 dark:text-red-400 border-red-500/50'
+                                    }`}
+                                  >
+                                    {entropyLevel} UNCERTAINTY
+                                  </Badge>
+                                  <span className="text-xs text-muted-foreground">{dominance}</span>
+                                </div>
+                              </div>
                             </TableCell>
                             {visibleSets.map(set => {
                               const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);

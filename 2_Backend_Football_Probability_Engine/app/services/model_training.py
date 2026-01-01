@@ -86,6 +86,8 @@ class ModelTrainingService:
         )
         self.db.add(training_run)
         self.db.flush()
+        self.db.commit()  # Commit immediately so training run is saved even if training fails
+        logger.info(f"Training run created: ID={training_run.id}, type=poisson, started_at={training_run.started_at.isoformat()}")
         
         try:
             # Query matches for training (time-ordered)
@@ -151,6 +153,72 @@ class ModelTrainingService:
             logger.info("Calculating validation metrics...")
             metrics = trainer.calculate_metrics(match_data, team_strengths, home_advantage, rho)
             
+            # ============================================================
+            # TEMPERATURE LEARNING (on validation set)
+            # ============================================================
+            # Recalculate validation predictions for temperature learning
+            from app.models.dixon_coles import TeamStrength, DixonColesParams, calculate_match_probabilities
+            from app.models.temperature_optimizer import learn_temperature
+            from app.models.uncertainty import normalized_entropy
+            from app.services.entropy_monitor import summarize_entropy
+            
+            # Time-ordered split (same as in calculate_metrics)
+            match_data_sorted = sorted(match_data, key=lambda m: m.get("match_date", datetime.min))
+            split_idx = int(len(match_data_sorted) * 0.8)
+            validation_matches = match_data_sorted[split_idx:]
+            
+            validation_probs = []
+            validation_actuals = []
+            entropies = []
+            
+            params = DixonColesParams(rho=rho, home_advantage=home_advantage)
+            
+            for match in validation_matches:
+                home_id = match['home_team_id']
+                away_id = match['away_team_id']
+                
+                if home_id not in team_strengths or away_id not in team_strengths:
+                    continue
+                
+                home_strength = TeamStrength(
+                    team_id=home_id,
+                    attack=team_strengths[home_id]['attack'],
+                    defense=team_strengths[home_id]['defense']
+                )
+                away_strength = TeamStrength(
+                    team_id=away_id,
+                    attack=team_strengths[away_id]['attack'],
+                    defense=team_strengths[away_id]['defense']
+                )
+                
+                # Calculate probabilities
+                probs = calculate_match_probabilities(home_strength, away_strength, params)
+                validation_probs.append((probs.home, probs.draw, probs.away))
+                entropies.append(normalized_entropy((probs.home, probs.draw, probs.away)))
+                
+                # Actual outcome
+                if match['home_goals'] > match['away_goals']:
+                    validation_actuals.append((1, 0, 0))
+                elif match['home_goals'] == match['away_goals']:
+                    validation_actuals.append((0, 1, 0))
+                else:
+                    validation_actuals.append((0, 0, 1))
+            
+            # Learn temperature
+            if validation_probs and validation_actuals:
+                temp_result = learn_temperature(
+                    predictions=validation_probs,
+                    actuals=validation_actuals
+                )
+                logger.info(f"Learned temperature: {temp_result['temperature']:.3f}, Log Loss: {temp_result['logLoss']}")
+                
+                # Entropy monitoring
+                entropy_summary = summarize_entropy(entropies) if entropies else {}
+                logger.info(f"Entropy summary: avg={entropy_summary.get('avg_entropy', 0):.3f}, status={entropy_summary.get('status', 'unknown')}")
+            else:
+                temp_result = {"temperature": 1.2, "logLoss": None}
+                entropy_summary = {}
+            
             # ---- ARCHIVE OLD MODELS (SINGLE ACTIVE POLICY) ----
             self.db.query(Model).filter(
                 Model.model_type == 'poisson',
@@ -170,14 +238,27 @@ class ModelTrainingService:
                 'training_data_hash': data_hash,
                 'iterations': training_metadata['iterations'],
                 'max_delta': training_metadata['max_delta'],
+                'temperature': temp_result['temperature'],
+                'temperature_log_loss': temp_result['logLoss'],
+                'temperature_source': 'validation_only',
             }
+            
+            # Log timestamp before creating model
+            training_completed_utc = datetime.utcnow()
+            training_completed_local = datetime.now()
+            logger.info(f"=== POISSON MODEL TRAINING COMPLETION ===")
+            logger.info(f"Training completed at UTC: {training_completed_utc.isoformat()}")
+            logger.info(f"Training completed at Local: {training_completed_local.isoformat()}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Temperature learned: {temp_result['temperature']:.3f}")
+            logger.info(f"Temperature Log Loss: {temp_result['logLoss']}")
             
             model = Model(
                 version=version,
                 model_type='poisson',
                 status=ModelStatus.active,
                 training_started_at=training_run.started_at,
-                training_completed_at=datetime.utcnow(),
+                training_completed_at=training_completed_utc,
                 training_matches=len(match_data),
                 training_leagues=leagues or [],
                 training_seasons=seasons or [],
@@ -192,23 +273,40 @@ class ModelTrainingService:
             self.db.add(model)
             self.db.flush()
             
+            # Log after model is created and flushed
+            logger.info(f"Model created with ID: {model.id}")
+            logger.info(f"Model training_completed_at stored: {model.training_completed_at.isoformat() if model.training_completed_at else 'None'}")
+            
             # Update training run with model ID and results
             training_run.model_id = model.id
             training_run.status = ModelStatus.active  # Training completed successfully, model is now active
-            training_run.completed_at = datetime.utcnow()
+            training_run.completed_at = training_completed_utc
             training_run.match_count = len(match_data)
             training_run.brier_score = metrics['brierScore']
             training_run.log_loss = metrics['logLoss']
             training_run.validation_accuracy = metrics.get('overallAccuracy', 65.0)
+            training_run.temperature = temp_result['temperature']
             training_run.logs = {
                 "leagues": leagues,
                 "seasons": seasons,
                 "data_hash": data_hash,
-                "training_metadata": training_metadata
+                "training_metadata": training_metadata,
+                "temperature": temp_result['temperature'],
+                "temperature_log_loss": temp_result['logLoss'],
+                "entropy_summary": entropy_summary,
             }
             
             self.db.commit()
             
+            # Log final confirmation
+            logger.info(f"=== POISSON MODEL TRAINING FINAL STATUS ===")
+            logger.info(f"Model ID: {model.id}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Status: {model.status.value}")
+            logger.info(f"training_completed_at (UTC): {model.training_completed_at.isoformat() if model.training_completed_at else 'None'}")
+            logger.info(f"Training run completed_at (UTC): {training_run.completed_at.isoformat() if training_run.completed_at else 'None'}")
+            logger.info(f"Metrics - Brier: {metrics['brierScore']:.4f}, Log Loss: {metrics['logLoss']:.4f}")
+            logger.info(f"Temperature in model_weights: {model.model_weights.get('temperature', 'NOT FOUND') if model.model_weights else 'NO MODEL_WEIGHTS'}")
             logger.info(f"Poisson model training complete: {version}")
             
             return {
@@ -265,6 +363,8 @@ class ModelTrainingService:
         )
         self.db.add(training_run)
         self.db.flush()
+        self.db.commit()  # Commit immediately so training run is saved even if training fails
+        logger.info(f"Training run created: ID={training_run.id}, type=blending, started_at={training_run.started_at.isoformat()}")
         
         try:
             # Update task progress
@@ -457,6 +557,43 @@ class ModelTrainingService:
                 'logLoss': float(sum(test_log_losses) / len(test_log_losses)),
             }
             
+            # ============================================================
+            # TEMPERATURE LEARNING (on validation set)
+            # ============================================================
+            # Learn optimal temperature to minimize Log Loss
+            from app.models.temperature_optimizer import learn_temperature
+            
+            # Collect validation predictions (before blending) for temperature learning
+            validation_probs = []
+            validation_actuals = []
+            
+            for i in range(len(test_preds)):
+                # Use raw model predictions (before blending) for temperature learning
+                validation_probs.append(tuple(test_preds[i]))
+                validation_actuals.append(tuple(test_actuals[i]))
+            
+            # Learn temperature
+            temp_result = learn_temperature(
+                predictions=validation_probs,
+                actuals=validation_actuals
+            )
+            
+            logger.info(f"Learned temperature: {temp_result['temperature']:.3f}, Log Loss: {temp_result['logLoss']}")
+            
+            # ============================================================
+            # ENTROPY MONITORING
+            # ============================================================
+            from app.models.uncertainty import normalized_entropy
+            from app.services.entropy_monitor import summarize_entropy
+            
+            # Collect entropies from model predictions
+            entropies = []
+            for pred in model_predictions:
+                entropies.append(normalized_entropy(tuple(pred)))
+            
+            entropy_summary = summarize_entropy(entropies)
+            logger.info(f"Entropy summary: avg={entropy_summary['avg_entropy']:.3f}, status={entropy_summary['status']}")
+            
             # Archive old blending models
             self.db.query(Model).filter(
                 Model.model_type == 'blending',
@@ -466,12 +603,22 @@ class ModelTrainingService:
             # Create new blending model
             version = f"blending-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
             
+            # Log timestamp before creating model
+            training_completed_utc = datetime.utcnow()
+            training_completed_local = datetime.now()
+            logger.info(f"=== BLENDING MODEL TRAINING COMPLETION ===")
+            logger.info(f"Training completed at UTC: {training_completed_utc.isoformat()}")
+            logger.info(f"Training completed at Local: {training_completed_local.isoformat()}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Best alpha: {best_alpha:.4f}")
+            logger.info(f"Temperature: {temp_result['temperature']:.3f}")
+            
             model = Model(
                 version=version,
                 model_type='blending',
                 status=ModelStatus.active,
                 training_started_at=training_run.started_at,
-                training_completed_at=datetime.utcnow(),
+                training_completed_at=training_completed_utc,
                 training_matches=len(model_predictions),
                 training_leagues=leagues or [],
                 training_seasons=seasons or [],
@@ -484,6 +631,9 @@ class ModelTrainingService:
                     'market_weight': 1.0 - best_alpha,
                     'poisson_model_id': poisson_model.id,
                     'poisson_model_version': poisson_model.version,
+                    'temperature': temp_result['temperature'],
+                    'temperature_log_loss': temp_result['logLoss'],
+                    'temperature_source': 'validation_only',
                 }
             )
             
@@ -497,15 +647,28 @@ class ModelTrainingService:
             training_run.match_count = len(model_predictions)
             training_run.brier_score = metrics['brierScore']
             training_run.log_loss = metrics['logLoss']
+            training_run.temperature = temp_result['temperature']
             training_run.logs = {
                 "leagues": leagues,
                 "seasons": seasons,
                 "optimal_alpha": best_alpha,
                 "poisson_model_id": poisson_model.id,
+                "temperature": temp_result['temperature'],
+                "temperature_log_loss": temp_result['logLoss'],
+                "entropy_summary": entropy_summary,
             }
             
             self.db.commit()
             
+            # Log final confirmation
+            logger.info(f"=== BLENDING MODEL TRAINING FINAL STATUS ===")
+            logger.info(f"Model ID: {model.id}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Status: {model.status.value}")
+            logger.info(f"training_completed_at (UTC): {model.training_completed_at.isoformat() if model.training_completed_at else 'None'}")
+            logger.info(f"Training run completed_at (UTC): {training_run.completed_at.isoformat() if training_run.completed_at else 'None'}")
+            logger.info(f"Metrics - Brier: {metrics['brierScore']:.4f}, Log Loss: {metrics['logLoss']:.4f}")
+            logger.info(f"Temperature in model_weights: {model.model_weights.get('temperature', 'NOT FOUND') if model.model_weights else 'NO MODEL_WEIGHTS'}")
             logger.info(f"Blending model training complete: {version}, alpha={best_alpha:.3f}")
             
             if task_id:
@@ -566,6 +729,8 @@ class ModelTrainingService:
         )
         self.db.add(training_run)
         self.db.flush()
+        self.db.commit()  # Commit immediately so training run is saved even if training fails
+        logger.info(f"Training run created: ID={training_run.id}, type=calibration, started_at={training_run.started_at.isoformat()}")
         
         try:
             if task_id:
@@ -782,9 +947,13 @@ class ModelTrainingService:
             calibrated_away = []
             
             for i in range(split_idx, len(predictions_home)):
-                ch = calibrator.calibrate(predictions_home[i], "H")
-                cd = calibrator.calibrate(predictions_draw[i], "D")
-                ca = calibrator.calibrate(predictions_away[i], "A")
+                # Use joint renormalized calibration (simplex-constrained smoothing)
+                ch, cd, ca = calibrator.calibrate_probabilities(
+                    predictions_home[i],
+                    predictions_draw[i],
+                    predictions_away[i],
+                    use_joint_renormalization=True
+                )
                 
                 # Renormalize
                 total = ch + cd + ca
@@ -855,12 +1024,21 @@ class ModelTrainingService:
                 }
             }
             
+            # Log timestamp before creating model
+            training_completed_utc = datetime.utcnow()
+            training_completed_local = datetime.now()
+            logger.info(f"=== CALIBRATION MODEL TRAINING COMPLETION ===")
+            logger.info(f"Training completed at UTC: {training_completed_utc.isoformat()}")
+            logger.info(f"Training completed at Local: {training_completed_local.isoformat()}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Base model: {base_model.version} (type: {base_model.model_type})")
+            
             model = Model(
                 version=version,
                 model_type='calibration',
                 status=ModelStatus.active,
                 training_started_at=training_run.started_at,
-                training_completed_at=datetime.utcnow(),
+                training_completed_at=training_completed_utc,
                 training_matches=len(predictions_home),
                 training_leagues=leagues or [],
                 training_seasons=seasons or [],
@@ -871,6 +1049,10 @@ class ModelTrainingService:
             
             self.db.add(model)
             self.db.flush()
+            
+            # Log after model is created and flushed
+            logger.info(f"Calibration model created with ID: {model.id}")
+            logger.info(f"Model training_completed_at stored: {model.training_completed_at.isoformat() if model.training_completed_at else 'None'}")
             
             # Store calibration curve data in calibration_data table
             # Group matches by league for league-specific calibration (optional)
@@ -909,7 +1091,7 @@ class ModelTrainingService:
             # Update training run
             training_run.model_id = model.id
             training_run.status = ModelStatus.active
-            training_run.completed_at = datetime.utcnow()
+            training_run.completed_at = training_completed_utc
             training_run.match_count = len(predictions_home)
             training_run.brier_score = metrics['brierScore']
             training_run.log_loss = metrics['logLoss']
@@ -923,6 +1105,14 @@ class ModelTrainingService:
             
             self.db.commit()
             
+            # Log final confirmation
+            logger.info(f"=== CALIBRATION MODEL TRAINING FINAL STATUS ===")
+            logger.info(f"Model ID: {model.id}")
+            logger.info(f"Model version: {version}")
+            logger.info(f"Status: {model.status.value}")
+            logger.info(f"training_completed_at (UTC): {model.training_completed_at.isoformat() if model.training_completed_at else 'None'}")
+            logger.info(f"Training run completed_at (UTC): {training_run.completed_at.isoformat() if training_run.completed_at else 'None'}")
+            logger.info(f"Metrics - Brier: {metrics['brierScore']:.4f}, Log Loss: {metrics['logLoss']:.4f}")
             logger.info(f"Calibration model training complete: {version}")
             
             if task_id:
@@ -1026,6 +1216,8 @@ class ModelTrainingService:
         )
         self.db.add(training_run)
         self.db.flush()
+        self.db.commit()  # Commit immediately so training run is saved even if training fails
+        logger.info(f"Training run created: ID={training_run.id}, type=draw_calibration, started_at={training_run.started_at.isoformat()}")
         
         try:
             if task_id:

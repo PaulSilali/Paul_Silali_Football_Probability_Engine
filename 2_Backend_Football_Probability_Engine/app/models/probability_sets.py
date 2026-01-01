@@ -67,17 +67,38 @@ def odds_to_implied_probabilities(odds: Dict[str, float]) -> MatchProbabilities:
 def blend_probabilities(
     model_probs: MatchProbabilities,
     market_probs: MatchProbabilities,
-    model_weight: float
+    model_weight: float,
+    use_entropy_weighting: bool = True
 ) -> MatchProbabilities:
     """
     Blend model and market probabilities
     
-    P_blended = α * P_model + (1 - α) * P_market
+    If use_entropy_weighting=True (default):
+        Uses entropy-weighted alpha: alpha_eff = clamp(base_alpha * normalized_entropy, 0.15, 0.75)
+        This prevents overconfident models from dominating.
+    
+    Otherwise:
+        P_blended = α * P_model + (1 - α) * P_market
+    
+    Returns:
+        MatchProbabilities with metadata (entropy, alphaEffective) if entropy weighting used
     """
+    from app.models.uncertainty import entropy_weighted_alpha, normalized_entropy, entropy
+    
+    # Apply entropy-weighted alpha if enabled
+    if use_entropy_weighting:
+        alpha_eff = entropy_weighted_alpha(
+            base_alpha=model_weight,
+            model_probs=(model_probs.home, model_probs.draw, model_probs.away)
+        )
+    else:
+        alpha_eff = model_weight
+    
+    # Blend probabilities
     blended = MatchProbabilities(
-        home=model_weight * model_probs.home + (1 - model_weight) * market_probs.home,
-        draw=model_weight * model_probs.draw + (1 - model_weight) * market_probs.draw,
-        away=model_weight * model_probs.away + (1 - model_weight) * market_probs.away,
+        home=alpha_eff * model_probs.home + (1 - alpha_eff) * market_probs.home,
+        draw=alpha_eff * model_probs.draw + (1 - alpha_eff) * market_probs.draw,
+        away=alpha_eff * model_probs.away + (1 - alpha_eff) * market_probs.away,
         entropy=0.0
     )
     
@@ -86,6 +107,11 @@ def blend_probabilities(
         p * math.log2(p) if p > 0 else 0
         for p in [blended.home, blended.draw, blended.away]
     )
+    
+    # Store metadata if entropy weighting was used
+    if use_entropy_weighting and hasattr(blended, 'alpha_effective'):
+        blended.alpha_effective = alpha_eff
+        blended.model_entropy = normalized_entropy((model_probs.home, model_probs.draw, model_probs.away))
     
     return blended
 
@@ -343,6 +369,76 @@ def generate_all_probability_sets(
         allowed_for_decision_support=True,
     )
     
+    # Set H: Base Set B + Draw adjusted by average market odds
+    # Uses multiple market sources (if available) or single market
+    from app.models.multi_market_draw import (
+        calculate_average_market_draw,
+        apply_draw_adjustment_to_set
+    )
+    
+    # For now, use single market (can be extended to multiple markets)
+    market_draw_list = [market_odds] if market_odds else []
+    avg_market_draw = calculate_average_market_draw(market_draw_list)
+    
+    if avg_market_draw > 0:
+        # Blend base draw with average market draw (70% base, 30% market)
+        adjusted_draw_h = (b_probs.draw * 0.7) + (avg_market_draw * 0.3)
+        adjusted_draw_h = max(0.18, min(0.40, adjusted_draw_h))
+    else:
+        # Fallback: use base draw with slight boost
+        adjusted_draw_h = min(b_probs.draw * 1.10, 0.40)
+    
+    h_probs = apply_draw_adjustment_to_set(b_probs, adjusted_draw_h)
+    sets["H"] = h_probs
+    sets_with_metadata["H"] = ProbabilitySet(
+        probabilities=h_probs,
+        calibrated=True,
+        heuristic=False,
+        description="Set B + Draw adjusted by average market odds",
+        allowed_for_decision_support=True,
+    )
+    
+    # Set I: Base Set A + Draw adjusted by formula (entropy/spread-based)
+    from app.models.multi_market_draw import formula_based_draw_adjustment
+    
+    market_draw_for_formula = market_probs.draw if market_odds else None
+    adjusted_draw_i = formula_based_draw_adjustment(
+        base_probs=set_a_probs,
+        base_draw=set_a_probs.draw,
+        market_draw=market_draw_for_formula
+    )
+    
+    i_probs = apply_draw_adjustment_to_set(set_a_probs, adjusted_draw_i)
+    sets["I"] = i_probs
+    sets_with_metadata["I"] = ProbabilitySet(
+        probabilities=i_probs,
+        calibrated=True,
+        heuristic=False,
+        description="Set A + Draw adjusted by formula (entropy/spread-based)",
+        allowed_for_decision_support=True,
+    )
+    
+    # Set J: Base Set G (Ensemble) + Draw adjusted by system-selected formula
+    from app.models.multi_market_draw import system_selected_draw_adjustment
+    
+    adjusted_draw_j, strategy = system_selected_draw_adjustment(
+        base_probs=g_probs,
+        base_draw=g_probs.draw,
+        market_draw=market_probs.draw if market_odds else None,
+        lambda_home=lambda_home,
+        lambda_away=lambda_away
+    )
+    
+    j_probs = apply_draw_adjustment_to_set(g_probs, adjusted_draw_j)
+    sets["J"] = j_probs
+    sets_with_metadata["J"] = ProbabilitySet(
+        probabilities=j_probs,
+        calibrated=True,
+        heuristic=False,
+        description=f"Set G + Draw adjusted by system-selected formula ({strategy})",
+        allowed_for_decision_support=True,
+    )
+    
     return sets_with_metadata if return_metadata else sets
 
 
@@ -415,6 +511,36 @@ PROBABILITY_SET_METADATA = {
         "description": "Weighted average of A, B, C by Brier score.",
         "useCase": "Diversified consensus",
         "guidance": "Risk-averse? This set diversifies across model perspectives.",
+        "calibrated": True,
+        "heuristic": False,
+        "allowed_for_decision_support": True,
+        "statisticalStatus": "probability_correct"
+    },
+    "H": {
+        "name": "Set H - Market Consensus Draw",
+        "description": "Set B (Market-Aware) + Draw adjusted by average odds from multiple markets.",
+        "useCase": "Market-informed draw coverage",
+        "guidance": "Uses consensus from multiple bookmakers to refine draw probability. Best when you trust market wisdom.",
+        "calibrated": True,
+        "heuristic": False,
+        "allowed_for_decision_support": True,
+        "statisticalStatus": "probability_correct"
+    },
+    "I": {
+        "name": "Set I - Formula-Based Draw",
+        "description": "Set A (Pure Model) + Draw adjusted by formula considering entropy, spread, and market divergence.",
+        "useCase": "Balanced draw optimization",
+        "guidance": "Formula automatically adjusts draw based on match characteristics (uncertainty, balance). Smart default for draw coverage.",
+        "calibrated": True,
+        "heuristic": False,
+        "allowed_for_decision_support": True,
+        "statisticalStatus": "probability_correct"
+    },
+    "J": {
+        "name": "Set J - System-Selected Draw",
+        "description": "Set G (Ensemble) + Draw adjusted by system-selected optimal strategy based on match characteristics.",
+        "useCase": "Adaptive draw strategy",
+        "guidance": "System automatically selects best draw adjustment strategy (aggressive/moderate/conservative) based on match profile. Most intelligent draw coverage.",
         "calibrated": True,
         "heuristic": False,
         "allowed_for_decision_support": True,

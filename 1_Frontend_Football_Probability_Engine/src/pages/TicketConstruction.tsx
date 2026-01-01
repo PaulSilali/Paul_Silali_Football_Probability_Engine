@@ -1,5 +1,6 @@
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import type { Jackpot, PaginatedResponse } from '@/types';
 import { 
   Ticket, 
   Plus, 
@@ -76,7 +77,7 @@ interface GeneratedTicket {
 }
 
 export default function TicketConstruction() {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const jackpotId = searchParams.get('jackpotId');
   const [selectedSets, setSelectedSets] = useState<SetKey[]>(['B']);
   const [budget, setBudget] = useState<number>(500);
@@ -91,7 +92,49 @@ export default function TicketConstruction() {
   }>>([]);
   const [loadedSets, setLoadedSets] = useState<Record<string, any>>({});
   const [savedResults, setSavedResults] = useState<any[]>([]);
+  const [allJackpots, setAllJackpots] = useState<Array<{id: string; name: string; createdAt: string}>>([]);
+  const [loadingJackpots, setLoadingJackpots] = useState(false);
   const { toast } = useToast();
+
+  // Load all jackpots for dropdown
+  useEffect(() => {
+    const loadJackpots = async () => {
+      try {
+        setLoadingJackpots(true);
+        const response = await apiClient.getJackpots();
+        const jackpotsData = response.data || [];
+        
+        if (jackpotsData.length > 0) {
+          const jackpots = jackpotsData.map((j: any) => ({
+            id: j.id,
+            name: j.name || `Jackpot ${j.id}`,
+            createdAt: j.createdAt
+          })).sort((a: any, b: any) => 
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+          );
+          setAllJackpots(jackpots);
+          
+          // If no jackpotId in URL, use the most recent one
+          if (!jackpotId && jackpots.length > 0) {
+            const params = new URLSearchParams(searchParams);
+            params.set('jackpotId', jackpots[0].id);
+            setSearchParams(params, { replace: true });
+          }
+        }
+      } catch (err: any) {
+        console.error('Error loading jackpots:', err);
+        toast({
+          title: 'Warning',
+          description: 'Failed to load jackpot list',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoadingJackpots(false);
+      }
+    };
+    
+    loadJackpots();
+  }, [toast, searchParams, setSearchParams, jackpotId]);
 
   // Load probabilities and saved results
   useEffect(() => {
@@ -256,75 +299,91 @@ export default function TicketConstruction() {
     loadData();
   }, [jackpotId, toast]);
 
-  // Generate tickets based on selected sets
-  const generateTickets = useCallback(() => {
-    if (fixtureData.length === 0) {
+  // Generate tickets using backend API with draw constraints and H2H-aware eligibility
+  const generateTickets = useCallback(async () => {
+    if (fixtureData.length === 0 || !jackpotId) {
       toast({
         title: 'Error',
-        description: 'No fixture data available. Please ensure probabilities are loaded.',
+        description: 'No fixture data available or jackpot ID missing. Please ensure probabilities are loaded.',
         variant: 'destructive',
       });
       return;
     }
 
-    const newTickets: GeneratedTicket[] = selectedSets.map((setKey, idx) => {
-      const picks = fixtureData.map(f => f.sets[setKey] as Pick).filter(p => p !== undefined);
+    try {
+      setLoading(true);
       
-      if (picks.length === 0) {
-        return null;
+      // Call backend ticket generation API with draw constraints
+      const response = await apiClient.generateTickets(
+        jackpotId,
+        selectedSets,
+        1, // 1 ticket per set
+        undefined // league code will be inferred from fixtures
+      );
+
+      if (response.success && response.data) {
+        const bundle = response.data;
+        
+        // Convert backend tickets to frontend format
+        const newTickets: GeneratedTicket[] = bundle.tickets.map((ticket: any) => {
+          // Calculate probability and odds from picks
+          let probability = 1;
+          let combinedOdds = 1;
+          
+          ticket.picks.forEach((pick: string, idx: number) => {
+            const fixture = fixtureData[idx];
+            if (!fixture) return;
+            
+            // Get probability from loaded sets
+            const setKey = ticket.setKey || selectedSets[0];
+            if (loadedSets[setKey]?.probabilities?.[idx]) {
+              const prob = loadedSets[setKey].probabilities[idx];
+              const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
+                              pick === 'X' ? prob.drawProbability / 100 :
+                              prob.awayWinProbability / 100;
+              probability *= pickProb;
+            }
+            
+            // Get odds from fixture data
+            if (fixture.odds) {
+              const pickOdds = pick === '1' ? fixture.odds.home :
+                              pick === 'X' ? fixture.odds.draw :
+                              pick === '2' ? fixture.odds.away : 1;
+              combinedOdds *= pickOdds;
+            }
+          });
+
+          return {
+            id: ticket.id || `ticket-${ticket.setKey}-${Date.now()}`,
+            setKey: ticket.setKey || selectedSets[0],
+            picks: ticket.picks as Pick[],
+            probability: probability * 100,
+            combinedOdds,
+          };
+        });
+
+        setTickets(newTickets);
+        
+        toast({
+          title: 'Tickets Generated',
+          description: `${newTickets.length} tickets created with ${bundle.coverage?.draw_pct?.toFixed(1) || 0}% draw coverage`,
+        });
+      } else {
+        throw new Error(response.message || 'Failed to generate tickets');
       }
-      
-      // Calculate actual probability and odds from loaded data
-      let probability = 1;
-      let combinedOdds = 1;
-      
-      fixtureData.forEach((fixture, fixtureIdx) => {
-        const pick = picks[fixtureIdx];
-        if (!pick) return;
-        
-        // Get probability from loaded sets if available
-        if (loadedSets[setKey]?.probabilities?.[fixtureIdx]) {
-          const prob = loadedSets[setKey].probabilities[fixtureIdx];
-          const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
-                          pick === 'X' ? prob.drawProbability / 100 :
-                          prob.awayWinProbability / 100;
-          probability *= pickProb;
-        } else {
-          // Fallback to mock calculation
-          const base = pick === '1' ? 0.45 : pick === 'X' ? 0.28 : 0.35;
-          probability *= base;
-        }
-        
-        // Get odds from fixture data
-        if (fixture.odds) {
-          const pickOdds = pick === '1' ? fixture.odds.home :
-                          pick === 'X' ? fixture.odds.draw :
-                          fixture.odds.away;
-          combinedOdds *= pickOdds;
-        } else {
-          // Fallback to mock odds
-          const base = pick === '1' ? 2.2 : pick === 'X' ? 3.3 : 2.8;
-          combinedOdds *= base;
-        }
+    } catch (error: any) {
+      console.error('Error generating tickets:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to generate tickets. Please try again.',
+        variant: 'destructive',
       });
+    } finally {
+      setLoading(false);
+    }
+  }, [selectedSets, fixtureData, loadedSets, jackpotId, toast]);
 
-      return {
-        id: `ticket-${setKey}-${Date.now()}-${idx}`,
-        setKey,
-        picks,
-        probability: probability * 100,
-        combinedOdds,
-      };
-    }).filter((ticket): ticket is GeneratedTicket => ticket !== null);
-
-    setTickets(newTickets);
-    toast({
-      title: 'Tickets Generated',
-      description: `${newTickets.length} tickets created using Sets ${selectedSets.join(', ')}`,
-    });
-  }, [selectedSets, fixtureData, loadedSets, toast]);
-
-  // Coverage diagnostics
+  // Coverage diagnostics with warnings
   const coverageDiagnostics = useMemo(() => {
     if (tickets.length === 0 || fixtureData.length === 0) return null;
 
@@ -346,12 +405,31 @@ export default function TicketConstruction() {
     const uniqueTickets = new Set(pickStrings).size;
     const overlapWarning = uniqueTickets < tickets.length;
 
+    const homePct = totalPicks > 0 ? (homePicks / totalPicks) * 100 : 0;
+    const drawPct = totalPicks > 0 ? (drawPicks / totalPicks) * 100 : 0;
+    const awayPct = totalPicks > 0 ? (awayPicks / totalPicks) * 100 : 0;
+
+    // Generate warnings
+    const warnings: string[] = [];
+    if (drawPct < 1.0) {
+      warnings.push('No draw selections detected. This reduces jackpot coverage in draw-heavy leagues.');
+    } else if (drawPct < 15.0) {
+      warnings.push('Draw coverage is low. Historical jackpot draws are under-represented.');
+    }
+    if (overlapWarning) {
+      warnings.push('Some tickets have identical picks. Consider diversifying.');
+    }
+    if (Math.abs(homePct - awayPct) > 40.0) {
+      warnings.push('Significant imbalance between home and away selections.');
+    }
+
     return {
-      homePct: totalPicks > 0 ? (homePicks / totalPicks) * 100 : 0,
-      drawPct: totalPicks > 0 ? (drawPicks / totalPicks) * 100 : 0,
-      awayPct: totalPicks > 0 ? (awayPicks / totalPicks) * 100 : 0,
+      homePct,
+      drawPct,
+      awayPct,
       uniqueTickets,
       overlapWarning,
+      warnings,
     };
   }, [tickets, fixtureData]);
 
@@ -381,6 +459,42 @@ export default function TicketConstruction() {
               Generate jackpot tickets using probability Sets A-G
             </p>
           </div>
+        </div>
+        {/* Jackpot Selector */}
+        <div className="flex items-center gap-2">
+          <Label htmlFor="jackpot-select" className="text-sm whitespace-nowrap">
+            Jackpot:
+          </Label>
+          <Select
+            value={jackpotId || ''}
+            onValueChange={(value) => {
+              const params = new URLSearchParams(searchParams);
+              if (value) {
+                params.set('jackpotId', value);
+              } else {
+                params.delete('jackpotId');
+              }
+              setSearchParams(params, { replace: true });
+            }}
+            disabled={loadingJackpots}
+          >
+            <SelectTrigger id="jackpot-select" className="w-[250px]">
+              <SelectValue placeholder={loadingJackpots ? "Loading..." : "Select jackpot"} />
+            </SelectTrigger>
+            <SelectContent>
+              {allJackpots.length === 0 ? (
+                <div className="px-2 py-1.5 text-sm text-muted-foreground">
+                  No jackpots available
+                </div>
+              ) : (
+                allJackpots.map((jackpot) => (
+                  <SelectItem key={jackpot.id} value={jackpot.id}>
+                    {jackpot.name} ({new Date(jackpot.createdAt).toLocaleDateString()})
+                  </SelectItem>
+                ))
+              )}
+            </SelectContent>
+          </Select>
         </div>
       </div>
 
@@ -514,8 +628,24 @@ export default function TicketConstruction() {
                   </div>
                 </div>
 
-                {coverageDiagnostics.overlapWarning && (
-                  <Alert className="border-status-watch/50 bg-status-watch/10">
+                {coverageDiagnostics.warnings && coverageDiagnostics.warnings.length > 0 && (
+                  <Alert 
+                    variant={coverageDiagnostics.drawPct < 1.0 ? "destructive" : "default"} 
+                    className="mt-4"
+                  >
+                    <AlertTriangle className="h-4 w-4" />
+                    <AlertDescription>
+                      <ul className="list-disc list-inside space-y-1 text-sm">
+                        {coverageDiagnostics.warnings.map((warning, idx) => (
+                          <li key={idx}>{warning}</li>
+                        ))}
+                      </ul>
+                    </AlertDescription>
+                  </Alert>
+                )}
+
+                {coverageDiagnostics.overlapWarning && !coverageDiagnostics.warnings?.includes('Some tickets have identical picks. Consider diversifying.') && (
+                  <Alert className="border-status-watch/50 bg-status-watch/10 mt-4">
                     <AlertTriangle className="h-4 w-4 text-status-watch" />
                     <AlertDescription className="text-status-watch">
                       Some tickets have identical picks. Consider using more diverse sets.

@@ -60,6 +60,30 @@ TEAM_ALIASES = {
     "olympique lyonnais": ["lyon", "ol lyonnais", "ol"],
     "olympique marseille": ["marseille", "om", "olympique m"],
     "monaco": ["as monaco", "monaco fc"],
+    
+    # League Two (English Football League)
+    "milton keynes dons": ["mk dons", "mk", "milton keynes", "mk dons fc"],
+    "afc wimbledon": ["wimbledon", "afc w", "wimbledon fc"],
+    "newport county": ["newport", "newport c", "newport county afc"],
+    "notts county": ["notts", "notts c", "notts county fc"],
+    "tranmere rovers": ["tranmere", "tranmere r", "tranmere rovers fc"],
+    "port vale": ["port v", "vale", "port vale fc"],
+    "grimsby town": ["grimsby", "grimsby t", "grimsby town fc"],
+    "crewe alexandra": ["crewe", "crewe a", "crewe alexandra fc"],
+    "swindon town": ["swindon", "swindon t", "swindon town fc"],
+    "walsall": ["walsall fc"],
+    "morecambe": ["morecambe fc"],
+    "carlisle united": ["carlisle", "carlisle u", "carlisle united fc"],
+    "colchester united": ["colchester", "colchester u", "colchester united fc"],
+    "doncaster rovers": ["doncaster", "doncaster r", "doncaster rovers fc"],
+    "accrington stanley": ["accrington", "accrington s", "accrington stanley fc"],
+    "barrow": ["barrow afc", "barrow fc"],
+    "bradford city": ["bradford", "bradford c", "bradford city afc"],
+    "cheltenham town": ["cheltenham", "cheltenham t", "cheltenham town fc"],
+    "fleetwood town": ["fleetwood", "fleetwood t", "fleetwood town fc"],
+    "gillingham": ["gillingham fc"],
+    "harrogate town": ["harrogate", "harrogate t", "harrogate town afc"],
+    "salford city": ["salford", "salford c", "salford city fc"],
 }
 
 

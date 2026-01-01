@@ -7,6 +7,7 @@ from app.db.session import get_db
 from app.services.data_ingestion import DataIngestionService, create_default_leagues, get_seasons_list
 from app.config import settings
 from app.db.models import DataSource, IngestionLog
+from app.schemas.jackpot import ApiResponse
 from pydantic import BaseModel
 from typing import Optional, List, Dict
 from datetime import datetime
@@ -293,7 +294,7 @@ async def prepare_training_data_endpoint(
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@router.get("/batches")
+@router.get("/batches", response_model=ApiResponse)
 async def get_batch_history(
     limit: int = 50,
     db: Session = Depends(get_db)
@@ -415,16 +416,19 @@ async def get_batch_history(
         elif b.get("leagueCode"):
             unique_leagues.add(b["leagueCode"])
     
-    return {
-        "batches": batch_list[:limit],
-        "summary": {
-            "totalBatches": total_batches,
-            "totalRecords": total_records,
-            "totalFiles": total_files,
-            "uniqueLeagues": len(unique_leagues),
-            "leagues": sorted(list(unique_leagues))
+    return ApiResponse(
+        success=True,
+        data={
+            "batches": batch_list[:limit],
+            "summary": {
+                "totalBatches": total_batches,
+                "totalRecords": total_records,
+                "totalFiles": total_files,
+                "uniqueLeagues": len(unique_leagues),
+                "leagues": sorted(list(unique_leagues))
+            }
         }
-    }
+    )
 
 
 @router.post("/batch-download")

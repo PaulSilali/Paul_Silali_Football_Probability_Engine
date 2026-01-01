@@ -1,6 +1,6 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText, Loader2, Save, FolderOpen, X, Calendar } from 'lucide-react';
+import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText, Loader2, Save, FolderOpen, X, Calendar, CheckCircle2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -30,9 +30,19 @@ import { useToast } from '@/hooks/use-toast';
 import apiClient from '@/services/api';
 import type { Fixture } from '@/types';
 
+interface TeamValidation {
+  isValid: boolean;
+  isValidating: boolean;
+  normalizedName?: string;
+  suggestions?: string[];
+  confidence?: number;
+}
+
 interface EditableFixture extends Omit<Fixture, 'id'> {
   id: string;
   tempId: string;
+  homeTeamValidation?: TeamValidation;
+  awayTeamValidation?: TeamValidation;
 }
 
 const createEmptyFixture = (): EditableFixture => ({
@@ -44,6 +54,8 @@ const createEmptyFixture = (): EditableFixture => ({
   drawOdds: 0,
   awayOdds: 0,
   validationWarnings: [],
+  homeTeamValidation: undefined,
+  awayTeamValidation: undefined,
 });
 
 export default function JackpotInput() {
@@ -62,6 +74,100 @@ export default function JackpotInput() {
   const [isSaveDialogOpen, setIsSaveDialogOpen] = useState(false);
   const [saveName, setSaveName] = useState('');
   const [saveDescription, setSaveDescription] = useState('');
+  const validationTimersRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
+
+  // Debounced team validation
+  const validateTeam = useCallback(async (tempId: string, teamType: 'home' | 'away', teamName: string) => {
+    // Clear existing timer for this team
+    const timerKey = `${tempId}-${teamType}`;
+    const existingTimer = validationTimersRef.current.get(timerKey);
+    if (existingTimer) {
+      clearTimeout(existingTimer);
+    }
+
+    // Set validating state
+    setFixtures(prev => prev.map(f => 
+      f.tempId === tempId 
+        ? { 
+            ...f, 
+            [teamType === 'home' ? 'homeTeamValidation' : 'awayTeamValidation']: { 
+              isValid: false, 
+              isValidating: true 
+            } 
+          }
+        : f
+    ));
+
+    // Debounce validation (wait 500ms after user stops typing)
+    const timer = setTimeout(async () => {
+      if (!teamName || teamName.trim().length < 2) {
+        setFixtures(prev => prev.map(f => 
+          f.tempId === tempId 
+            ? { 
+                ...f, 
+                [teamType === 'home' ? 'homeTeamValidation' : 'awayTeamValidation']: undefined 
+              }
+            : f
+        ));
+        return;
+      }
+
+      try {
+        const response = await apiClient.validateTeamName(teamName.trim());
+        if (response.success && response.data) {
+          setFixtures(prev => prev.map(f => 
+            f.tempId === tempId 
+              ? { 
+                  ...f, 
+                  [teamType === 'home' ? 'homeTeamValidation' : 'awayTeamValidation']: {
+                    isValid: response.data.isValid,
+                    isValidating: false,
+                    normalizedName: response.data.normalizedName,
+                    suggestions: response.data.suggestions,
+                    confidence: response.data.confidence
+                  }
+                }
+              : f
+          ));
+        }
+      } catch (error) {
+        console.error('Error validating team:', error);
+        setFixtures(prev => prev.map(f => 
+          f.tempId === tempId 
+            ? { 
+                ...f, 
+                [teamType === 'home' ? 'homeTeamValidation' : 'awayTeamValidation']: {
+                  isValid: false,
+                  isValidating: false
+                }
+              }
+            : f
+        ));
+      }
+    }, 500);
+
+    validationTimersRef.current.set(timerKey, timer);
+  }, []);
+
+  // Validate all teams in fixtures
+  const validateAllTeams = useCallback(async () => {
+    for (const fixture of fixtures) {
+      if (fixture.homeTeam.trim().length >= 2) {
+        await validateTeam(fixture.tempId, 'home', fixture.homeTeam);
+      }
+      if (fixture.awayTeam.trim().length >= 2) {
+        await validateTeam(fixture.tempId, 'away', fixture.awayTeam);
+      }
+    }
+  }, [fixtures, validateTeam]);
+
+  // Cleanup timers on unmount
+  useEffect(() => {
+    return () => {
+      validationTimersRef.current.forEach(timer => clearTimeout(timer));
+      validationTimersRef.current.clear();
+    };
+  }, []);
 
   const handlePDFImport = useCallback((parsedFixtures: ParsedFixture[]) => {
     const newFixtures: EditableFixture[] = parsedFixtures.map(f => ({
@@ -73,9 +179,22 @@ export default function JackpotInput() {
       drawOdds: f.drawOdds,
       awayOdds: f.awayOdds,
       validationWarnings: [],
+      homeTeamValidation: undefined,
+      awayTeamValidation: undefined,
     }));
     setFixtures(newFixtures);
-  }, []);
+    // Validate teams after import
+    setTimeout(() => {
+      newFixtures.forEach(fixture => {
+        if (fixture.homeTeam.trim().length >= 2) {
+          validateTeam(fixture.tempId, 'home', fixture.homeTeam);
+        }
+        if (fixture.awayTeam.trim().length >= 2) {
+          validateTeam(fixture.tempId, 'away', fixture.awayTeam);
+        }
+      });
+    }, 100);
+  }, [validateTeam]);
   const addFixture = useCallback(() => {
     setFixtures((prev) => [...prev, createEmptyFixture()]);
   }, []);
@@ -91,8 +210,15 @@ export default function JackpotInput() {
           f.tempId === tempId ? { ...f, [field]: value } : f
         )
       );
+      
+      // Validate team name when it changes
+      if (field === 'homeTeam' && typeof value === 'string') {
+        validateTeam(tempId, 'home', value);
+      } else if (field === 'awayTeam' && typeof value === 'string') {
+        validateTeam(tempId, 'away', value);
+      }
     },
-    []
+    [validateTeam]
   );
 
   const parseOdds = (value: string): number => {
@@ -141,6 +267,8 @@ export default function JackpotInput() {
           drawOdds: parseOdds(parts[3]),
           awayOdds: parseOdds(parts[4]),
           validationWarnings: [],
+          homeTeamValidation: undefined,
+          awayTeamValidation: undefined,
         });
       }
     });
@@ -149,8 +277,19 @@ export default function JackpotInput() {
       setFixtures(newFixtures);
       setBulkInput('');
       setIsBulkDialogOpen(false);
+      // Validate teams after bulk import
+      setTimeout(() => {
+        newFixtures.forEach(fixture => {
+          if (fixture.homeTeam.trim().length >= 2) {
+            validateTeam(fixture.tempId, 'home', fixture.homeTeam);
+          }
+          if (fixture.awayTeam.trim().length >= 2) {
+            validateTeam(fixture.tempId, 'away', fixture.awayTeam);
+          }
+        });
+      }, 100);
     }
-  }, [bulkInput]);
+  }, [bulkInput, validateTeam]);
 
   const handleSubmit = useCallback(async () => {
     if (!validateFixtures()) {
@@ -292,12 +431,25 @@ export default function JackpotInput() {
           drawOdds: f.odds?.draw || 3.0,
           awayOdds: f.odds?.away || 2.5,
           validationWarnings: [],
+          homeTeamValidation: undefined,
+          awayTeamValidation: undefined,
         }));
         setFixtures(loadedFixtures);
         toast({
           title: 'Success',
-          description: 'List loaded successfully',
+          description: 'List loaded successfully. Validating teams...',
         });
+        // Validate teams after loading
+        setTimeout(() => {
+          loadedFixtures.forEach(fixture => {
+            if (fixture.homeTeam.trim().length >= 2) {
+              validateTeam(fixture.tempId, 'home', fixture.homeTeam);
+            }
+            if (fixture.awayTeam.trim().length >= 2) {
+              validateTeam(fixture.tempId, 'away', fixture.awayTeam);
+            }
+          });
+        }, 100);
       }
     } catch (error: any) {
       console.error('Error loading template:', error);
@@ -307,7 +459,7 @@ export default function JackpotInput() {
         variant: 'destructive',
       });
     }
-  }, [toast]);
+  }, [toast, validateTeam]);
 
   // Calculate probabilities from template
   const handleCalculateFromTemplate = useCallback(async (templateId: number) => {
@@ -354,6 +506,41 @@ export default function JackpotInput() {
       });
     }
   }, [toast, loadTemplates]);
+
+  // Calculate validation summary
+  const validationSummary = useMemo(() => {
+    let validTeams = 0;
+    let invalidTeams = 0;
+    let validatingTeams = 0;
+    let unvalidatedTeams = 0;
+
+    fixtures.forEach(f => {
+      if (f.homeTeam.trim().length >= 2) {
+        if (f.homeTeamValidation?.isValidating) {
+          validatingTeams++;
+        } else if (f.homeTeamValidation?.isValid === true) {
+          validTeams++;
+        } else if (f.homeTeamValidation?.isValid === false) {
+          invalidTeams++;
+        } else {
+          unvalidatedTeams++;
+        }
+      }
+      if (f.awayTeam.trim().length >= 2) {
+        if (f.awayTeamValidation?.isValidating) {
+          validatingTeams++;
+        } else if (f.awayTeamValidation?.isValid === true) {
+          validTeams++;
+        } else if (f.awayTeamValidation?.isValid === false) {
+          invalidTeams++;
+        } else {
+          unvalidatedTeams++;
+        }
+      }
+    });
+
+    return { validTeams, invalidTeams, validatingTeams, unvalidatedTeams };
+  }, [fixtures]);
 
   const isValid = fixtures.length > 0 && 
     fixtures.every(f => 
@@ -440,6 +627,46 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
         </Alert>
       )}
 
+      {/* Team Validation Summary */}
+      {(validationSummary.validTeams > 0 || validationSummary.invalidTeams > 0 || validationSummary.validatingTeams > 0) && (
+        <Alert className="animate-fade-in border-primary/20 bg-primary/5">
+          <Target className="h-4 w-4 text-primary" />
+          <AlertDescription className="flex items-center justify-between flex-wrap gap-2">
+            <div className="flex items-center gap-4 flex-wrap">
+              {validationSummary.validTeams > 0 && (
+                <div className="flex items-center gap-1">
+                  <CheckCircle2 className="h-4 w-4 text-green-500" />
+                  <span className="text-sm">{validationSummary.validTeams} team{validationSummary.validTeams !== 1 ? 's' : ''} validated</span>
+                </div>
+              )}
+              {validationSummary.invalidTeams > 0 && (
+                <div className="flex items-center gap-1">
+                  <AlertTriangle className="h-4 w-4 text-red-500" />
+                  <span className="text-sm">{validationSummary.invalidTeams} team{validationSummary.invalidTeams !== 1 ? 's' : ''} not found</span>
+                </div>
+              )}
+              {validationSummary.validatingTeams > 0 && (
+                <div className="flex items-center gap-1">
+                  <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
+                  <span className="text-sm">Validating {validationSummary.validatingTeams} team{validationSummary.validatingTeams !== 1 ? 's' : ''}...</span>
+                </div>
+              )}
+            </div>
+            {(validationSummary.invalidTeams > 0 || validationSummary.unvalidatedTeams > 0) && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={validateAllTeams}
+                className="ml-auto"
+              >
+                <Target className="h-4 w-4 mr-2" />
+                Validate All Teams
+              </Button>
+            )}
+          </AlertDescription>
+        </Alert>
+      )}
+
       <Card className="glass-card animate-fade-in-up">
         <CardHeader className="pb-4">
           <CardTitle className="text-lg flex items-center gap-2">
@@ -475,20 +702,98 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
                       {index + 1}
                     </TableCell>
                     <TableCell>
-                      <Input
-                        value={fixture.homeTeam}
-                        onChange={(e) => updateFixture(fixture.tempId, 'homeTeam', e.target.value)}
-                        placeholder="Home team"
-                        className="h-9 bg-background/50 border-border/50 focus:border-primary"
-                      />
+                      <div className="relative">
+                        <Input
+                          value={fixture.homeTeam}
+                          onChange={(e) => updateFixture(fixture.tempId, 'homeTeam', e.target.value)}
+                          placeholder="Home team"
+                          className={`h-9 bg-background/50 border-border/50 focus:border-primary pr-8 ${
+                            fixture.homeTeamValidation?.isValid === true 
+                              ? 'border-green-500/50' 
+                              : fixture.homeTeamValidation?.isValid === false 
+                              ? 'border-red-500/50' 
+                              : ''
+                          }`}
+                        />
+                        {fixture.homeTeamValidation?.isValidating && (
+                          <Loader2 className="absolute right-2 top-2.5 h-4 w-4 animate-spin text-muted-foreground" />
+                        )}
+                        {fixture.homeTeamValidation?.isValid === true && !fixture.homeTeamValidation.isValidating && (
+                          <CheckCircle2 className="absolute right-2 top-2.5 h-4 w-4 text-green-500" />
+                        )}
+                        {fixture.homeTeamValidation?.isValid === false && !fixture.homeTeamValidation.isValidating && (
+                          <Tooltip>
+                            <TooltipTrigger asChild>
+                              <AlertTriangle className="absolute right-2 top-2.5 h-4 w-4 text-red-500 cursor-help" />
+                            </TooltipTrigger>
+                            <TooltipContent className="max-w-xs">
+                              <div className="space-y-1">
+                                <p className="font-medium">Team not found in database</p>
+                                {fixture.homeTeamValidation.suggestions && fixture.homeTeamValidation.suggestions.length > 0 && (
+                                  <div>
+                                    <p className="text-xs mb-1">Suggestions:</p>
+                                    <ul className="text-xs list-disc list-inside">
+                                      {fixture.homeTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
+                                        <li key={idx}>{suggestion}</li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                )}
+                                <p className="text-xs text-muted-foreground mt-1">
+                                  Using default team strengths (1.0, 1.0) - probabilities may be less accurate
+                                </p>
+                              </div>
+                            </TooltipContent>
+                          </Tooltip>
+                        )}
+                      </div>
                     </TableCell>
                     <TableCell>
-                      <Input
-                        value={fixture.awayTeam}
-                        onChange={(e) => updateFixture(fixture.tempId, 'awayTeam', e.target.value)}
-                        placeholder="Away team"
-                        className="h-9 bg-background/50 border-border/50 focus:border-primary"
-                      />
+                      <div className="relative">
+                        <Input
+                          value={fixture.awayTeam}
+                          onChange={(e) => updateFixture(fixture.tempId, 'awayTeam', e.target.value)}
+                          placeholder="Away team"
+                          className={`h-9 bg-background/50 border-border/50 focus:border-primary pr-8 ${
+                            fixture.awayTeamValidation?.isValid === true 
+                              ? 'border-green-500/50' 
+                              : fixture.awayTeamValidation?.isValid === false 
+                              ? 'border-red-500/50' 
+                              : ''
+                          }`}
+                        />
+                        {fixture.awayTeamValidation?.isValidating && (
+                          <Loader2 className="absolute right-2 top-2.5 h-4 w-4 animate-spin text-muted-foreground" />
+                        )}
+                        {fixture.awayTeamValidation?.isValid === true && !fixture.awayTeamValidation.isValidating && (
+                          <CheckCircle2 className="absolute right-2 top-2.5 h-4 w-4 text-green-500" />
+                        )}
+                        {fixture.awayTeamValidation?.isValid === false && !fixture.awayTeamValidation.isValidating && (
+                          <Tooltip>
+                            <TooltipTrigger asChild>
+                              <AlertTriangle className="absolute right-2 top-2.5 h-4 w-4 text-red-500 cursor-help" />
+                            </TooltipTrigger>
+                            <TooltipContent className="max-w-xs">
+                              <div className="space-y-1">
+                                <p className="font-medium">Team not found in database</p>
+                                {fixture.awayTeamValidation.suggestions && fixture.awayTeamValidation.suggestions.length > 0 && (
+                                  <div>
+                                    <p className="text-xs mb-1">Suggestions:</p>
+                                    <ul className="text-xs list-disc list-inside">
+                                      {fixture.awayTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
+                                        <li key={idx}>{suggestion}</li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                )}
+                                <p className="text-xs text-muted-foreground mt-1">
+                                  Using default team strengths (1.0, 1.0) - probabilities may be less accurate
+                                </p>
+                              </div>
+                            </TooltipContent>
+                          </Tooltip>
+                        )}
+                      </div>
                     </TableCell>
                     <TableCell>
                       <Input

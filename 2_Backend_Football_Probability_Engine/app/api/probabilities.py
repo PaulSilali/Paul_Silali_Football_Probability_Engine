@@ -14,7 +14,7 @@ from app.schemas.jackpot import ApiResponse
 from typing import Dict, List, Optional
 from pydantic import BaseModel
 from app.models.dixon_coles import (
-    TeamStrength, DixonColesParams, calculate_match_probabilities
+    TeamStrength, DixonColesParams, calculate_match_probabilities, MatchProbabilities
 )
 from app.models.probability_sets import generate_all_probability_sets, PROBABILITY_SET_METADATA, blend_probabilities, odds_to_implied_probabilities
 from app.models.calibration import Calibrator
@@ -276,7 +276,7 @@ async def calculate_probabilities(
         # Generate probability sets for all fixtures
         probability_sets: Dict[str, List[Dict]] = {}
         
-        for set_id in ["A", "B", "C", "D", "E", "F", "G"]:
+        for set_id in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]:
             probability_sets[set_id] = []
         
         # For each fixture, generate probabilities
@@ -326,6 +326,82 @@ async def calculate_probabilities(
                 away_team_strength,
                 params
             )
+            
+            # ============================================================
+            # DRAW PRIOR INJECTION (Fix structural draw underestimation)
+            # ============================================================
+            # Apply per-league draw prior adjustment upstream
+            from app.models.draw_prior import inject_draw_prior
+            
+            # Get league code from fixture if available
+            league_code = None
+            if hasattr(fixture_obj, 'league_id') and fixture_obj.league_id:
+                # Try to get league code from database
+                from app.db.models import League
+                league = db.query(League).filter(League.id == fixture_obj.league_id).first()
+                if league:
+                    league_code = league.code
+            
+            # Inject draw prior before temperature scaling
+            adjusted_home, adjusted_draw, adjusted_away = inject_draw_prior(
+                base_probs.home,
+                base_probs.draw,
+                base_probs.away,
+                league_code=league_code
+            )
+            
+            # Update base_probs with draw-prior-adjusted values
+            base_probs = MatchProbabilities(
+                home=adjusted_home,
+                draw=adjusted_draw,
+                away=adjusted_away,
+                entropy=base_probs.entropy,  # Recalculate after adjustment
+                lambda_home=base_probs.lambda_home,
+                lambda_away=base_probs.lambda_away
+            )
+            
+            # Recalculate entropy after draw prior injection
+            base_probs.entropy = -sum(
+                p * math.log2(p) if p > 0 else 0
+                for p in [base_probs.home, base_probs.draw, base_probs.away]
+            )
+            
+            # ============================================================
+            # TEMPERATURE SCALING (Probability Softening)
+            # ============================================================
+            # Apply temperature scaling to reduce overconfidence
+            from app.models.uncertainty import temperature_scale
+            
+            # Get temperature from model (learned during training) or use default
+            temperature = 1.2  # Default
+            if model and model.model_weights:
+                temperature = model.model_weights.get('temperature', 1.2)
+                # Also check base model if this is a calibration model
+                if model.model_type == "calibration":
+                    base_model_id = model.model_weights.get('base_model_id')
+                    if base_model_id:
+                        base_model = db.query(Model).filter(Model.id == base_model_id).first()
+                        if base_model and base_model.model_weights:
+                            temperature = base_model.model_weights.get('temperature', temperature)
+            
+            # Apply temperature scaling to base probabilities
+            raw_model_probs = (base_probs.home, base_probs.draw, base_probs.away)
+            model_probs_scaled = temperature_scale(raw_model_probs, temperature)
+            
+            # Create temperature-scaled MatchProbabilities object
+            from app.models.uncertainty import entropy
+            
+            base_probs_scaled = MatchProbabilities(
+                home=model_probs_scaled[0],
+                draw=model_probs_scaled[1],
+                away=model_probs_scaled[2],
+                entropy=entropy(model_probs_scaled),
+                lambda_home=base_probs.lambda_home if hasattr(base_probs, 'lambda_home') else None,
+                lambda_away=base_probs.lambda_away if hasattr(base_probs, 'lambda_away') else None
+            )
+            
+            # Use scaled probabilities for blending
+            base_probs_for_blending = base_probs_scaled
             
             # Get market odds from fixture
             market_odds = None
@@ -379,8 +455,9 @@ async def calculate_probabilities(
                 except Exception as e:
                     logger.warning(f"Draw model computation failed: {e}, continuing without draw components")
             
+            # Use original base_probs for Set A (pure model), but scaled for blending
             all_sets = generate_all_probability_sets(
-                base_probs,
+                base_probs,  # Set A uses original (for display of pure model)
                 market_odds,
                 calibration_curves=None,
                 return_metadata=False,
@@ -390,12 +467,62 @@ async def calculate_probabilities(
                 lambda_away=lambda_away
             )
             
-            # Override Set B with correct blend_alpha if we have a trained blending model
+            # Override Set B with entropy-weighted blending using temperature-scaled probabilities
             if market_odds and (model and model.model_type in ["blending", "calibration"]):
                 from app.models.probability_sets import blend_probabilities, odds_to_implied_probabilities
+                from app.models.uncertainty import entropy_weighted_alpha, normalized_entropy, overround_aware_market_weight
+                
                 market_probs = odds_to_implied_probabilities(market_odds)
-                all_sets["B"] = blend_probabilities(base_probs, market_probs, model_weight=blend_alpha)
-                logger.debug(f"Set B recalculated with blend_alpha={blend_alpha}")
+                
+                # Calculate overround from odds
+                overround = (1.0 / market_odds["home"] + 1.0 / market_odds["draw"] + 1.0 / market_odds["away"]) - 1.0
+                
+                # Use entropy-weighted blending (v2)
+                alpha_eff = entropy_weighted_alpha(
+                    base_alpha=blend_alpha,
+                    model_probs=(base_probs_for_blending.home, base_probs_for_blending.draw, base_probs_for_blending.away)
+                )
+                
+                # Apply overround-aware market weight adjustment
+                market_weight_base = 1.0 - alpha_eff
+                market_weight_adj = overround_aware_market_weight(market_weight_base, overround, k=2.0)
+                
+                # Renormalize weights after overround adjustment
+                total_weight = alpha_eff + market_weight_adj
+                if total_weight > 0:
+                    alpha_eff_normalized = alpha_eff / total_weight
+                    market_weight_normalized = market_weight_adj / total_weight
+                else:
+                    alpha_eff_normalized = alpha_eff
+                    market_weight_normalized = market_weight_base
+                
+                # Blend with adjusted weights
+                blended_home = alpha_eff_normalized * base_probs_for_blending.home + market_weight_normalized * market_probs.home
+                blended_draw = alpha_eff_normalized * base_probs_for_blending.draw + market_weight_normalized * market_probs.draw
+                blended_away = alpha_eff_normalized * base_probs_for_blending.away + market_weight_normalized * market_probs.away
+                
+                # Normalize
+                total = blended_home + blended_draw + blended_away
+                if total > 0:
+                    blended_home /= total
+                    blended_draw /= total
+                    blended_away /= total
+                
+                # Create blended probabilities with metadata
+                set_b_probs = MatchProbabilities(
+                    home=blended_home,
+                    draw=blended_draw,
+                    away=blended_away,
+                    entropy=entropy((blended_home, blended_draw, blended_away))
+                )
+                
+                # Store metadata as attributes (will be extracted later)
+                set_b_probs.alpha_effective = alpha_eff
+                set_b_probs.temperature = temperature
+                set_b_probs.model_entropy = normalized_entropy((base_probs_for_blending.home, base_probs_for_blending.draw, base_probs_for_blending.away))
+                
+                all_sets["B"] = set_b_probs
+                logger.debug(f"Set B recalculated with entropy-weighted alpha_eff={alpha_eff:.3f}, temperature={temperature:.2f}")
             
             # Convert to output format (as dictionaries for JSON serialization)
             for set_id, probs in all_sets.items():
@@ -403,11 +530,17 @@ async def calculate_probabilities(
                     "homeWinProbability": round(probs.home * 100, 2),
                     "drawProbability": round(probs.draw * 100, 2),
                     "awayWinProbability": round(probs.away * 100, 2),
-                    "entropy": probs.entropy if hasattr(probs, 'entropy') else None,
+                    "entropy": round(probs.entropy, 4) if hasattr(probs, 'entropy') and probs.entropy is not None else None,
                     "calibrated": PROBABILITY_SET_METADATA.get(set_id, {}).get("calibrated", True),
                     "heuristic": PROBABILITY_SET_METADATA.get(set_id, {}).get("heuristic", False),
                     "allowedForDecisionSupport": PROBABILITY_SET_METADATA.get(set_id, {}).get("allowed_for_decision_support", True)
                 }
+                
+                # Add uncertainty metadata for Set B (entropy-weighted blending)
+                if set_id == "B" and hasattr(probs, 'alpha_effective'):
+                    output["alphaEffective"] = round(probs.alpha_effective, 4)
+                    output["temperature"] = round(probs.temperature, 3)
+                    output["modelEntropy"] = round(probs.model_entropy, 4) if hasattr(probs, 'model_entropy') else None
                 
                 # Add draw components for explainability (only for Set A, B, C which use draw model)
                 if draw_components and set_id in ["A", "B", "C"]:
@@ -676,7 +809,7 @@ async def export_validation_to_training(
                 set_id = parts[1].upper()
                 
                 # Validate set_id
-                if set_id not in ["A", "B", "C", "D", "E", "F", "G"]:
+                if set_id not in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]:
                     errors.append(f"Invalid set_id: {set_id} in {validation_id_str}")
                     continue
                 
@@ -828,6 +961,9 @@ async def export_validation_to_training(
                         "E": PredictionSet.E,
                         "F": PredictionSet.F,
                         "G": PredictionSet.G,
+                        "H": PredictionSet.H,
+                        "I": PredictionSet.I,
+                        "J": PredictionSet.J,
                     }
                     
                     # Store in ValidationResult table
