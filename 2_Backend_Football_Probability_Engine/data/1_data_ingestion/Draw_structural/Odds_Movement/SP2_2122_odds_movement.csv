@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SP2,2122,2021-08-13,Zaragoza,Ibiza,2.87,2.87,0.0
+SP2,2122,2021-08-13,Huesca,Eibar,3.01,3.01,0.0
+SP2,2122,2021-08-14,Girona,Amorebieta,3.36,3.36,0.0
+SP2,2122,2021-08-14,Sociedad B,Leganes,2.99,2.99,0.0
+SP2,2122,2021-08-14,Ponferradina,Alcorcon,2.77,2.77,0.0
+SP2,2122,2021-08-15,Sp Gijon,Burgos,3.36,3.36,0.0
+SP2,2122,2021-08-15,Oviedo,Lugo,2.98,2.98,0.0
+SP2,2122,2021-08-15,Fuenlabrada,Tenerife,2.81,2.81,0.0
+SP2,2122,2021-08-15,Las Palmas,Valladolid,2.85,2.85,0.0
+SP2,2122,2021-08-16,Cartagena,Almeria,2.85,2.85,0.0
+SP2,2122,2021-08-16,Malaga,Mirandes,2.92,2.92,0.0
+SP2,2122,2021-08-20,Valladolid,Zaragoza,3.38,3.38,0.0
+SP2,2122,2021-08-20,Almeria,Oviedo,3.45,3.45,0.0
+SP2,2122,2021-08-21,Alcorcon,Fuenlabrada,2.82,2.82,0.0
+SP2,2122,2021-08-21,Tenerife,Sp Gijon,2.82,2.82,0.0
+SP2,2122,2021-08-21,Lugo,Sociedad B,2.95,2.95,0.0
+SP2,2122,2021-08-22,Girona,Las Palmas,3.07,3.07,0.0
+SP2,2122,2021-08-22,Huesca,Cartagena,3.1,3.1,0.0
+SP2,2122,2021-08-22,Ibiza,Malaga,2.84,2.84,0.0
+SP2,2122,2021-08-22,Eibar,Ponferradina,3.41,3.41,0.0
+SP2,2122,2021-08-23,Leganes,Burgos,3.3,3.3,0.0
+SP2,2122,2021-08-23,Mirandes,Amorebieta,2.99,2.99,0.0
+SP2,2122,2021-08-27,Las Palmas,Huesca,2.91,2.91,0.0
+SP2,2122,2021-08-27,Malaga,Alcorcon,2.83,2.83,0.0
+SP2,2122,2021-08-28,Oviedo,Tenerife,2.94,2.94,0.0
+SP2,2122,2021-08-28,Ponferradina,Girona,2.94,2.94,0.0
+SP2,2122,2021-08-28,Leganes,Ibiza,3.23,3.23,0.0
+SP2,2122,2021-08-28,Sp Gijon,Mirandes,3.25,3.25,0.0
+SP2,2122,2021-08-29,Sociedad B,Fuenlabrada,2.74,2.74,0.0
+SP2,2122,2021-08-29,Amorebieta,Almeria,3.21,3.21,0.0
+SP2,2122,2021-08-29,Lugo,Valladolid,2.94,2.94,0.0
+SP2,2122,2021-08-29,Burgos,Eibar,2.98,2.98,0.0
+SP2,2122,2021-08-30,Zaragoza,Cartagena,2.97,2.97,0.0
+SP2,2122,2021-09-03,Girona,Sp Gijon,2.81,2.81,0.0
+SP2,2122,2021-09-04,Tenerife,Ponferradina,2.96,2.96,0.0
+SP2,2122,2021-09-04,Almeria,Malaga,3.32,3.32,0.0
+SP2,2122,2021-09-04,Fuenlabrada,Lugo,2.92,2.92,0.0
+SP2,2122,2021-09-04,Eibar,Leganes,2.98,2.98,0.0
+SP2,2122,2021-09-04,Cartagena,Sociedad B,2.8,2.8,0.0
+SP2,2122,2021-09-05,Alcorcon,Zaragoza,2.83,2.83,0.0
+SP2,2122,2021-09-05,Mirandes,Las Palmas,2.85,2.85,0.0
+SP2,2122,2021-09-05,Ibiza,Amorebieta,2.96,2.96,0.0
+SP2,2122,2021-09-05,Burgos,Valladolid,2.89,2.89,0.0
+SP2,2122,2021-09-06,Huesca,Oviedo,3.3,3.3,0.0
+SP2,2122,2021-09-10,Sp Gijon,Leganes,2.9,2.9,0.0
+SP2,2122,2021-09-11,Las Palmas,Ibiza,3.19,3.19,0.0
+SP2,2122,2021-09-11,Mirandes,Alcorcon,2.91,2.91,0.0
+SP2,2122,2021-09-11,Amorebieta,Burgos,2.94,2.94,0.0
+SP2,2122,2021-09-11,Sociedad B,Eibar,2.9,2.9,0.0
+SP2,2122,2021-09-12,Valladolid,Tenerife,2.95,2.95,0.0
+SP2,2122,2021-09-12,Fuenlabrada,Zaragoza,2.89,2.89,0.0
+SP2,2122,2021-09-12,Malaga,Girona,2.9,2.9,0.0
+SP2,2122,2021-09-12,Ponferradina,Almeria,3.32,3.32,0.0
+SP2,2122,2021-09-12,Oviedo,Cartagena,3.12,3.12,0.0
+SP2,2122,2021-09-13,Lugo,Huesca,2.92,2.92,0.0
+SP2,2122,2021-09-17,Alcorcon,Almeria,2.95,2.95,0.0
+SP2,2122,2021-09-18,Cartagena,Lugo,2.89,2.89,0.0
+SP2,2122,2021-09-18,Ibiza,Oviedo,2.88,2.88,0.0
+SP2,2122,2021-09-18,Leganes,Amorebieta,3.53,3.53,0.0
+SP2,2122,2021-09-18,Zaragoza,Sociedad B,3.13,3.13,0.0
+SP2,2122,2021-09-18,Girona,Valladolid,2.86,2.86,0.0
+SP2,2122,2021-09-19,Tenerife,Mirandes,3.34,3.34,0.0
+SP2,2122,2021-09-19,Eibar,Sp Gijon,2.93,2.93,0.0
+SP2,2122,2021-09-19,Huesca,Fuenlabrada,3.22,3.22,0.0
+SP2,2122,2021-09-19,Ponferradina,Malaga,2.8,2.8,0.0
+SP2,2122,2021-09-20,Burgos,Las Palmas,2.96,2.96,0.0
+SP2,2122,2021-09-24,Sociedad B,Huesca,2.94,2.94,0.0
+SP2,2122,2021-09-24,Almeria,Tenerife,3.06,3.06,0.0
+SP2,2122,2021-09-25,Las Palmas,Ponferradina,3.17,3.17,0.0
+SP2,2122,2021-09-25,Ibiza,Burgos,2.96,2.96,0.0
+SP2,2122,2021-09-25,Amorebieta,Eibar,3.1,3.1,0.0
+SP2,2122,2021-09-26,Oviedo,Girona,2.91,2.91,0.0
+SP2,2122,2021-09-26,Lugo,Zaragoza,2.91,2.91,0.0
+SP2,2122,2021-09-26,Valladolid,Alcorcon,3.37,3.37,0.0
+SP2,2122,2021-09-26,Sp Gijon,Malaga,3.26,3.26,0.0
+SP2,2122,2021-09-26,Mirandes,Leganes,2.94,2.94,0.0
+SP2,2122,2021-09-27,Fuenlabrada,Cartagena,3.04,3.04,0.0
+SP2,2122,2021-10-01,Ponferradina,Valladolid,3.13,3.13,0.0
+SP2,2122,2021-10-02,Zaragoza,Oviedo,2.94,2.94,0.0
+SP2,2122,2021-10-02,Alcorcon,Sociedad B,2.98,2.98,0.0
+SP2,2122,2021-10-02,Amorebieta,Sp Gijon,2.99,2.99,0.0
+SP2,2122,2021-10-02,Huesca,Tenerife,3.12,3.12,0.0
+SP2,2122,2021-10-03,Malaga,Fuenlabrada,2.87,2.87,0.0
+SP2,2122,2021-10-03,Las Palmas,Cartagena,3.13,3.13,0.0
+SP2,2122,2021-10-03,Leganes,Lugo,3.59,3.59,0.0
+SP2,2122,2021-10-03,Burgos,Mirandes,2.99,2.99,0.0
+SP2,2122,2021-10-03,Eibar,Ibiza,3.44,3.44,0.0
+SP2,2122,2021-10-04,Girona,Almeria,3.1,3.1,0.0
+SP2,2122,2021-10-08,Valladolid,Malaga,3.39,3.39,0.0
+SP2,2122,2021-10-09,Almeria,Las Palmas,3.4,3.4,0.0
+SP2,2122,2021-10-09,Lugo,Girona,3.0,3.0,0.0
+SP2,2122,2021-10-09,Mirandes,Eibar,3.16,3.16,0.0
+SP2,2122,2021-10-09,Oviedo,Sp Gijon,2.84,2.84,0.0
+SP2,2122,2021-10-10,Alcorcon,Burgos,2.86,2.86,0.0
+SP2,2122,2021-10-10,Fuenlabrada,Leganes,2.87,2.87,0.0
+SP2,2122,2021-10-10,Tenerife,Amorebieta,3.49,3.49,0.0
+SP2,2122,2021-10-10,Cartagena,Ibiza,2.98,2.98,0.0
+SP2,2122,2021-10-10,Sociedad B,Ponferradina,3.06,3.06,0.0
+SP2,2122,2021-10-11,Zaragoza,Huesca,2.93,2.93,0.0
+SP2,2122,2021-10-15,Eibar,Almeria,3.2,3.2,0.0
+SP2,2122,2021-10-16,Las Palmas,Tenerife,2.96,2.96,0.0
+SP2,2122,2021-10-16,Malaga,Zaragoza,2.88,2.88,0.0
+SP2,2122,2021-10-16,Sp Gijon,Alcorcon,3.5,3.5,0.0
+SP2,2122,2021-10-16,Amorebieta,Cartagena,2.88,2.88,0.0
+SP2,2122,2021-10-16,Girona,Huesca,2.93,2.93,0.0
+SP2,2122,2021-10-17,Burgos,Lugo,3.0,3.0,0.0
+SP2,2122,2021-10-17,Sociedad B,Oviedo,2.95,2.95,0.0
+SP2,2122,2021-10-17,Ponferradina,Fuenlabrada,2.86,2.86,0.0
+SP2,2122,2021-10-17,Leganes,Valladolid,2.97,2.97,0.0
+SP2,2122,2021-10-17,Ibiza,Mirandes,3.19,3.19,0.0
+SP2,2122,2021-10-19,Tenerife,Eibar,2.94,2.94,0.0
+SP2,2122,2021-10-19,Cartagena,Sp Gijon,2.9,2.9,0.0
+SP2,2122,2021-10-19,Huesca,Malaga,3.12,3.12,0.0
+SP2,2122,2021-10-20,Lugo,Las Palmas,2.9,2.9,0.0
+SP2,2122,2021-10-20,Alcorcon,Leganes,2.82,2.82,0.0
+SP2,2122,2021-10-20,Fuenlabrada,Amorebieta,3.46,3.46,0.0
+SP2,2122,2021-10-20,Valladolid,Ibiza,3.39,3.39,0.0
+SP2,2122,2021-10-21,Zaragoza,Ponferradina,3.06,3.06,0.0
+SP2,2122,2021-10-21,Almeria,Sociedad B,3.96,3.96,0.0
+SP2,2122,2021-10-21,Mirandes,Girona,3.11,3.11,0.0
+SP2,2122,2021-10-21,Oviedo,Burgos,2.94,2.94,0.0
+SP2,2122,2021-10-22,Eibar,Cartagena,3.49,3.49,0.0
+SP2,2122,2021-10-23,Leganes,Tenerife,3.03,3.03,0.0
+SP2,2122,2021-10-23,Malaga,Lugo,3.19,3.19,0.0
+SP2,2122,2021-10-23,Ibiza,Fuenlabrada,3.11,3.11,0.0
+SP2,2122,2021-10-23,Sp Gijon,Valladolid,2.9,2.9,0.0
+SP2,2122,2021-10-24,Burgos,Huesca,2.93,2.93,0.0
+SP2,2122,2021-10-24,Ponferradina,Oviedo,2.87,2.87,0.0
+SP2,2122,2021-10-24,Las Palmas,Alcorcon,3.47,3.47,0.0
+SP2,2122,2021-10-24,Amorebieta,Sociedad B,3.05,3.05,0.0
+SP2,2122,2021-10-24,Mirandes,Almeria,3.25,3.25,0.0
+SP2,2122,2021-10-25,Girona,Zaragoza,3.03,3.03,0.0
+SP2,2122,2021-10-29,Sociedad B,Las Palmas,3.06,3.06,0.0
+SP2,2122,2021-10-29,Almeria,Leganes,3.55,3.55,0.0
+SP2,2122,2021-10-30,Cartagena,Ponferradina,3.15,3.15,0.0
+SP2,2122,2021-10-30,Huesca,Amorebieta,3.61,3.61,0.0
+SP2,2122,2021-10-30,Lugo,Sp Gijon,2.87,2.87,0.0
+SP2,2122,2021-10-31,Valladolid,Eibar,3.17,3.17,0.0
+SP2,2122,2021-10-31,Zaragoza,Mirandes,3.4,3.4,0.0
+SP2,2122,2021-10-31,Fuenlabrada,Girona,2.97,2.97,0.0
+SP2,2122,2021-10-31,Oviedo,Malaga,2.95,2.95,0.0
+SP2,2122,2021-11-01,Tenerife,Burgos,3.16,3.16,0.0
+SP2,2122,2021-11-01,Alcorcon,Ibiza,3.08,3.08,0.0
+SP2,2122,2021-11-02,Leganes,Cartagena,3.2,3.2,0.0
+SP2,2122,2021-11-02,Ponferradina,Huesca,2.97,2.97,0.0
+SP2,2122,2021-11-02,Sp Gijon,Almeria,3.16,3.16,0.0
+SP2,2122,2021-11-03,Eibar,Oviedo,3.18,3.18,0.0
+SP2,2122,2021-11-03,Las Palmas,Fuenlabrada,3.21,3.21,0.0
+SP2,2122,2021-11-03,Mirandes,Lugo,3.06,3.06,0.0
+SP2,2122,2021-11-03,Amorebieta,Valladolid,3.23,3.23,0.0
+SP2,2122,2021-11-04,Girona,Alcorcon,3.6,3.6,0.0
+SP2,2122,2021-11-04,Burgos,Zaragoza,2.95,2.95,0.0
+SP2,2122,2021-11-04,Ibiza,Tenerife,3.03,3.03,0.0
+SP2,2122,2021-11-04,Malaga,Sociedad B,3.41,3.41,0.0
+SP2,2122,2021-11-05,Huesca,Leganes,2.88,2.88,0.0
+SP2,2122,2021-11-06,Valladolid,Mirandes,3.83,3.83,0.0
+SP2,2122,2021-11-06,Fuenlabrada,Eibar,2.92,2.92,0.0
+SP2,2122,2021-11-06,Oviedo,Las Palmas,3.06,3.06,0.0
+SP2,2122,2021-11-06,Lugo,Ponferradina,2.92,2.92,0.0
+SP2,2122,2021-11-07,Almeria,Burgos,3.94,3.94,0.0
+SP2,2122,2021-11-07,Cartagena,Malaga,3.01,3.01,0.0
+SP2,2122,2021-11-07,Sociedad B,Ibiza,3.0,3.0,0.0
+SP2,2122,2021-11-07,Alcorcon,Amorebieta,3.01,3.01,0.0
+SP2,2122,2021-11-07,Zaragoza,Sp Gijon,2.83,2.83,0.0
+SP2,2122,2021-11-08,Tenerife,Girona,3.11,3.11,0.0
+SP2,2122,2021-11-12,Sp Gijon,Sociedad B,3.37,3.37,0.0
+SP2,2122,2021-11-13,Mirandes,Huesca,3.18,3.18,0.0
+SP2,2122,2021-11-13,Las Palmas,Zaragoza,3.13,3.13,0.0
+SP2,2122,2021-11-13,Valladolid,Fuenlabrada,3.72,3.72,0.0
+SP2,2122,2021-11-13,Eibar,Alcorcon,4.16,4.16,0.0
+SP2,2122,2021-11-14,Girona,Cartagena,3.52,3.52,0.0
+SP2,2122,2021-11-14,Burgos,Ponferradina,2.93,2.93,0.0
+SP2,2122,2021-11-14,Leganes,Oviedo,3.15,3.15,0.0
+SP2,2122,2021-11-14,Ibiza,Almeria,3.21,3.21,0.0
+SP2,2122,2021-11-14,Amorebieta,Lugo,3.2,3.2,0.0
+SP2,2122,2021-11-15,Malaga,Tenerife,2.93,2.93,0.0
+SP2,2122,2021-11-19,Fuenlabrada,Mirandes,3.08,3.08,0.0
+SP2,2122,2021-11-20,Almeria,Valladolid,3.19,3.19,0.0
+SP2,2122,2021-11-20,Oviedo,Amorebieta,3.28,3.28,0.0
+SP2,2122,2021-11-20,Malaga,Las Palmas,2.93,2.93,0.0
+SP2,2122,2021-11-21,Huesca,Ibiza,3.13,3.13,0.0
+SP2,2122,2021-11-21,Cartagena,Burgos,3.19,3.19,0.0
+SP2,2122,2021-11-21,Lugo,Eibar,3.02,3.02,0.0
+SP2,2122,2021-11-21,Tenerife,Alcorcon,4.02,4.02,0.0
+SP2,2122,2021-11-21,Ponferradina,Sp Gijon,2.93,2.93,0.0
+SP2,2122,2021-11-22,Zaragoza,Leganes,2.89,2.89,0.0
+SP2,2122,2021-11-22,Sociedad B,Girona,2.99,2.99,0.0
+SP2,2122,2021-11-26,Alcorcon,Lugo,3.01,3.01,0.0
+SP2,2122,2021-11-26,Mirandes,Oviedo,2.97,2.97,0.0
+SP2,2122,2021-11-27,Sp Gijon,Fuenlabrada,3.35,3.35,0.0
+SP2,2122,2021-11-27,Valladolid,Cartagena,3.49,3.49,0.0
+SP2,2122,2021-11-27,Almeria,Huesca,3.46,3.46,0.0
+SP2,2122,2021-11-27,Burgos,Malaga,2.84,2.84,0.0
+SP2,2122,2021-11-28,Ibiza,Ponferradina,2.97,2.97,0.0
+SP2,2122,2021-11-28,Tenerife,Sociedad B,3.39,3.39,0.0
+SP2,2122,2021-11-28,Leganes,Las Palmas,3.0,3.0,0.0
+SP2,2122,2021-11-28,Amorebieta,Zaragoza,2.9,2.9,0.0
+SP2,2122,2021-11-29,Eibar,Girona,3.2,3.2,0.0
+SP2,2122,2021-12-03,Huesca,Valladolid,3.13,3.13,0.0
+SP2,2122,2021-12-04,Fuenlabrada,Almeria,3.23,3.23,0.0
+SP2,2122,2021-12-05,Lugo,Ibiza,2.92,2.92,0.0
+SP2,2122,2021-12-05,Oviedo,Alcorcon,3.41,3.41,0.0
+SP2,2122,2021-12-05,Sociedad B,Burgos,2.98,2.98,0.0
+SP2,2122,2021-12-05,Las Palmas,Sp Gijon,3.16,3.16,0.0
+SP2,2122,2021-12-05,Malaga,Amorebieta,3.33,3.33,0.0
+SP2,2122,2021-12-05,Ponferradina,Mirandes,3.32,3.32,0.0
+SP2,2122,2021-12-06,Girona,Leganes,2.95,2.95,0.0
+SP2,2122,2021-12-06,Zaragoza,Eibar,2.92,2.92,0.0
+SP2,2122,2021-12-06,Cartagena,Tenerife,3.12,3.12,0.0
+SP2,2122,2021-12-10,Sp Gijon,Huesca,3.13,3.13,0.0
+SP2,2122,2021-12-11,Almeria,Zaragoza,3.57,3.57,0.0
+SP2,2122,2021-12-11,Eibar,Malaga,3.43,3.43,0.0
+SP2,2122,2021-12-11,Tenerife,Lugo,3.37,3.37,0.0
+SP2,2122,2021-12-11,Ibiza,Girona,3.09,3.09,0.0
+SP2,2122,2021-12-11,Burgos,Fuenlabrada,3.03,3.03,0.0
+SP2,2122,2021-12-12,Alcorcon,Cartagena,2.92,2.92,0.0
+SP2,2122,2021-12-12,Amorebieta,Las Palmas,3.0,3.0,0.0
+SP2,2122,2021-12-12,Leganes,Ponferradina,3.17,3.17,0.0
+SP2,2122,2021-12-12,Valladolid,Oviedo,3.41,3.41,0.0
+SP2,2122,2021-12-13,Mirandes,Sociedad B,3.17,3.17,0.0
+SP2,2122,2021-12-17,Girona,Burgos,3.93,3.93,0.0
+SP2,2122,2021-12-18,Las Palmas,Eibar,3.13,3.13,0.0
+SP2,2122,2021-12-18,Ibiza,Sp Gijon,2.92,2.92,0.0
+SP2,2122,2021-12-18,Malaga,Leganes,2.89,2.89,0.0
+SP2,2122,2021-12-19,Zaragoza,Tenerife,2.95,2.95,0.0
+SP2,2122,2021-12-19,Cartagena,Mirandes,3.24,3.24,0.0
+SP2,2122,2021-12-19,Huesca,Alcorcon,3.41,3.41,0.0
+SP2,2122,2021-12-19,Sociedad B,Valladolid,3.22,3.22,0.0
+SP2,2122,2021-12-19,Ponferradina,Amorebieta,3.33,3.33,0.0
+SP2,2122,2021-12-19,Fuenlabrada,Oviedo,2.97,2.97,0.0
+SP2,2122,2021-12-31,Eibar,Sociedad B,4.08,4.08,0.0
+SP2,2122,2021-12-31,Oviedo,Ponferradina,2.96,2.96,0.0
+SP2,2122,2021-12-31,Burgos,Amorebieta,2.98,2.98,0.0
+SP2,2122,2022-01-02,Almeria,Cartagena,3.9,3.9,0.0
+SP2,2122,2022-01-02,Valladolid,Leganes,3.23,3.23,0.0
+SP2,2122,2022-01-02,Sp Gijon,Lugo,3.23,3.23,0.0
+SP2,2122,2022-01-02,Huesca,Girona,3.04,3.04,0.0
+SP2,2122,2022-01-02,Mirandes,Zaragoza,3.22,3.22,0.0
+SP2,2122,2022-01-02,Fuenlabrada,Ibiza,2.95,2.95,0.0
+SP2,2122,2022-01-02,Tenerife,Las Palmas,3.07,3.07,0.0
+SP2,2122,2022-01-03,Alcorcon,Malaga,2.96,2.96,0.0
+SP2,2122,2022-01-07,Amorebieta,Tenerife,3.05,3.05,0.0
+SP2,2122,2022-01-08,Leganes,Sociedad B,3.3,3.3,0.0
+SP2,2122,2022-01-08,Valladolid,Burgos,4.13,4.13,0.0
+SP2,2122,2022-01-08,Ibiza,Alcorcon,3.37,3.37,0.0
+SP2,2122,2022-01-08,Cartagena,Huesca,3.25,3.25,0.0
+SP2,2122,2022-01-09,Malaga,Sp Gijon,3.0,3.0,0.0
+SP2,2122,2022-01-09,Ponferradina,Zaragoza,3.01,3.01,0.0
+SP2,2122,2022-01-09,Las Palmas,Almeria,3.1,3.1,0.0
+SP2,2122,2022-01-09,Lugo,Mirandes,3.17,3.17,0.0
+SP2,2122,2022-01-09,Girona,Fuenlabrada,3.48,3.48,0.0
+SP2,2122,2022-01-10,Oviedo,Eibar,3.03,3.03,0.0
+SP2,2122,2022-01-19,Lugo,Almeria,3.16,3.16,0.0
+SP2,2122,2022-01-21,Tenerife,Oviedo,3.0,3.0,0.0
+SP2,2122,2022-01-22,Malaga,Ibiza,3.06,3.06,0.0
+SP2,2122,2022-01-22,Fuenlabrada,Las Palmas,3.05,3.05,0.0
+SP2,2122,2022-01-22,Zaragoza,Valladolid,3.08,3.08,0.0
+SP2,2122,2022-01-23,Girona,Lugo,3.48,3.48,0.0
+SP2,2122,2022-01-23,Huesca,Ponferradina,2.99,2.99,0.0
+SP2,2122,2022-01-23,Alcorcon,Mirandes,3.07,3.07,0.0
+SP2,2122,2022-01-23,Burgos,Leganes,3.08,3.08,0.0
+SP2,2122,2022-01-23,Sp Gijon,Amorebieta,3.33,3.33,0.0
+SP2,2122,2022-01-24,Almeria,Eibar,3.27,3.27,0.0
+SP2,2122,2022-01-24,Sociedad B,Cartagena,3.13,3.13,0.0
+SP2,2122,2022-01-28,Valladolid,Sp Gijon,3.83,3.83,0.0
+SP2,2122,2022-01-29,Oviedo,Almeria,3.01,3.01,0.0
+SP2,2122,2022-01-29,Lugo,Burgos,3.11,3.11,0.0
+SP2,2122,2022-01-29,Amorebieta,Girona,3.1,3.1,0.0
+SP2,2122,2022-01-29,Eibar,Huesca,3.42,3.42,0.0
+SP2,2122,2022-01-30,Las Palmas,Sociedad B,3.76,3.76,0.0
+SP2,2122,2022-01-30,Leganes,Alcorcon,3.5,3.5,0.0
+SP2,2122,2022-01-30,Cartagena,Fuenlabrada,3.26,3.26,0.0
+SP2,2122,2022-01-30,Mirandes,Malaga,3.14,3.14,0.0
+SP2,2122,2022-01-30,Ponferradina,Tenerife,2.9,2.9,0.0
+SP2,2122,2022-01-31,Ibiza,Zaragoza,3.14,3.14,0.0
+SP2,2122,2022-02-04,Burgos,Alcorcon,2.94,2.94,0.0
+SP2,2122,2022-02-04,Almeria,Ibiza,3.7,3.7,0.0
+SP2,2122,2022-02-05,Girona,Ponferradina,3.28,3.28,0.0
+SP2,2122,2022-02-05,Sp Gijon,Eibar,3.02,3.02,0.0
+SP2,2122,2022-02-05,Sociedad B,Lugo,3.02,3.02,0.0
+SP2,2122,2022-02-05,Zaragoza,Malaga,3.08,3.08,0.0
+SP2,2122,2022-02-06,Cartagena,Las Palmas,3.13,3.13,0.0
+SP2,2122,2022-02-06,Huesca,Mirandes,3.17,3.17,0.0
+SP2,2122,2022-02-06,Tenerife,Leganes,3.06,3.06,0.0
+SP2,2122,2022-02-06,Amorebieta,Oviedo,2.9,2.9,0.0
+SP2,2122,2022-02-06,Fuenlabrada,Valladolid,3.22,3.22,0.0
+SP2,2122,2022-02-11,Leganes,Zaragoza,2.97,2.97,0.0
+SP2,2122,2022-02-12,Valladolid,Girona,3.45,3.45,0.0
+SP2,2122,2022-02-12,Malaga,Almeria,3.17,3.17,0.0
+SP2,2122,2022-02-12,Ibiza,Cartagena,3.32,3.32,0.0
+SP2,2122,2022-02-12,Mirandes,Sp Gijon,3.1,3.1,0.0
+SP2,2122,2022-02-13,Eibar,Fuenlabrada,3.62,3.62,0.0
+SP2,2122,2022-02-13,Lugo,Amorebieta,3.16,3.16,0.0
+SP2,2122,2022-02-13,Las Palmas,Burgos,3.52,3.52,0.0
+SP2,2122,2022-02-13,Alcorcon,Tenerife,3.12,3.12,0.0
+SP2,2122,2022-02-13,Oviedo,Huesca,3.03,3.03,0.0
+SP2,2122,2022-02-14,Ponferradina,Sociedad B,3.26,3.26,0.0
+SP2,2122,2022-02-18,Cartagena,Valladolid,3.42,3.42,0.0
+SP2,2122,2022-02-19,Zaragoza,Las Palmas,2.99,2.99,0.0
+SP2,2122,2022-02-19,Girona,Eibar,3.12,3.12,0.0
+SP2,2122,2022-02-19,Tenerife,Ibiza,3.37,3.37,0.0
+SP2,2122,2022-02-19,Sociedad B,Malaga,3.14,3.14,0.0
+SP2,2122,2022-02-20,Burgos,Oviedo,2.94,2.94,0.0
+SP2,2122,2022-02-20,Sp Gijon,Ponferradina,3.22,3.22,0.0
+SP2,2122,2022-02-20,Almeria,Mirandes,3.84,3.84,0.0
+SP2,2122,2022-02-20,Huesca,Lugo,3.33,3.33,0.0
+SP2,2122,2022-02-20,Fuenlabrada,Alcorcon,2.97,2.97,0.0
+SP2,2122,2022-02-21,Amorebieta,Leganes,2.96,2.96,0.0
+SP2,2122,2022-02-25,Almeria,Fuenlabrada,3.77,3.77,0.0
+SP2,2122,2022-02-26,Oviedo,Sociedad B,3.4,3.4,0.0
+SP2,2122,2022-02-26,Las Palmas,Lugo,3.55,3.55,0.0
+SP2,2122,2022-02-26,Ibiza,Huesca,3.04,3.04,0.0
+SP2,2122,2022-02-26,Mirandes,Tenerife,3.03,3.03,0.0
+SP2,2122,2022-02-27,Leganes,Girona,2.95,2.95,0.0
+SP2,2122,2022-02-27,Valladolid,Amorebieta,4.28,4.28,0.0
+SP2,2122,2022-02-27,Alcorcon,Ponferradina,2.98,2.98,0.0
+SP2,2122,2022-02-27,Sp Gijon,Zaragoza,3.11,3.11,0.0
+SP2,2122,2022-02-27,Eibar,Burgos,3.57,3.57,0.0
+SP2,2122,2022-02-28,Malaga,Cartagena,3.02,3.02,0.0
+SP2,2122,2022-03-04,Zaragoza,Almeria,2.99,2.99,0.0
+SP2,2122,2022-03-05,Tenerife,Valladolid,2.96,2.96,0.0
+SP2,2122,2022-03-05,Fuenlabrada,Burgos,2.96,2.96,0.0
+SP2,2122,2022-03-05,Huesca,Las Palmas,3.08,3.08,0.0
+SP2,2122,2022-03-06,Amorebieta,Malaga,3.0,3.0,0.0
+SP2,2122,2022-03-06,Cartagena,Eibar,3.16,3.16,0.0
+SP2,2122,2022-03-06,Leganes,Mirandes,3.28,3.28,0.0
+SP2,2122,2022-03-06,Girona,Oviedo,3.04,3.04,0.0
+SP2,2122,2022-03-06,Ponferradina,Ibiza,3.09,3.09,0.0
+SP2,2122,2022-03-06,Lugo,Alcorcon,3.23,3.23,0.0
+SP2,2122,2022-03-07,Sociedad B,Sp Gijon,3.02,3.02,0.0
+SP2,2122,2022-03-11,Zaragoza,Fuenlabrada,3.04,3.04,0.0
+SP2,2122,2022-03-12,Almeria,Lugo,4.3,4.3,0.0
+SP2,2122,2022-03-12,Las Palmas,Girona,3.39,3.39,0.0
+SP2,2122,2022-03-12,Malaga,Ponferradina,2.88,2.88,0.0
+SP2,2122,2022-03-12,Mirandes,Cartagena,3.39,3.39,0.0
+SP2,2122,2022-03-12,Ibiza,Leganes,3.18,3.18,0.0
+SP2,2122,2022-03-13,Sp Gijon,Tenerife,2.92,2.92,0.0
+SP2,2122,2022-03-13,Alcorcon,Huesca,3.13,3.13,0.0
+SP2,2122,2022-03-13,Oviedo,Valladolid,3.2,3.2,0.0
+SP2,2122,2022-03-13,Burgos,Sociedad B,3.02,3.02,0.0
+SP2,2122,2022-03-13,Eibar,Amorebieta,3.54,3.54,0.0
+SP2,2122,2022-03-18,Huesca,Burgos,3.59,3.59,0.0
+SP2,2122,2022-03-19,Fuenlabrada,Malaga,3.08,3.08,0.0
+SP2,2122,2022-03-19,Lugo,Oviedo,2.93,2.93,0.0
+SP2,2122,2022-03-19,Valladolid,Las Palmas,3.91,3.91,0.0
+SP2,2122,2022-03-19,Girona,Ibiza,3.38,3.38,0.0
+SP2,2122,2022-03-19,Cartagena,Zaragoza,3.18,3.18,0.0
+SP2,2122,2022-03-19,Sociedad B,Mirandes,3.27,3.27,0.0
+SP2,2122,2022-03-20,Leganes,Sp Gijon,3.01,3.01,0.0
+SP2,2122,2022-03-20,Amorebieta,Alcorcon,3.17,3.17,0.0
+SP2,2122,2022-03-20,Ponferradina,Eibar,3.02,3.02,0.0
+SP2,2122,2022-03-21,Tenerife,Almeria,3.15,3.15,0.0
+SP2,2122,2022-03-25,Zaragoza,Amorebieta,3.16,3.16,0.0
+SP2,2122,2022-03-26,Ibiza,Sociedad B,3.53,3.53,0.0
+SP2,2122,2022-03-26,Eibar,Lugo,3.57,3.57,0.0
+SP2,2122,2022-03-26,Sp Gijon,Cartagena,3.35,3.35,0.0
+SP2,2122,2022-03-26,Oviedo,Fuenlabrada,3.15,3.15,0.0
+SP2,2122,2022-03-27,Malaga,Huesca,2.91,2.91,0.0
+SP2,2122,2022-03-27,Alcorcon,Valladolid,3.52,3.52,0.0
+SP2,2122,2022-03-27,Mirandes,Ponferradina,3.33,3.33,0.0
+SP2,2122,2022-03-27,Burgos,Tenerife,2.89,2.89,0.0
+SP2,2122,2022-03-27,Almeria,Girona,3.33,3.33,0.0
+SP2,2122,2022-03-28,Las Palmas,Leganes,3.16,3.16,0.0
+SP2,2122,2022-04-01,Girona,Malaga,3.74,3.74,0.0
+SP2,2122,2022-04-02,Amorebieta,Ibiza,3.03,3.03,0.0
+SP2,2122,2022-04-02,Tenerife,Zaragoza,3.1,3.1,0.0
+SP2,2122,2022-04-02,Sociedad B,Alcorcon,3.26,3.26,0.0
+SP2,2122,2022-04-02,Valladolid,Lugo,4.71,4.71,0.0
+SP2,2122,2022-04-03,Ponferradina,Las Palmas,3.1,3.1,0.0
+SP2,2122,2022-04-03,Eibar,Mirandes,3.54,3.54,0.0
+SP2,2122,2022-04-03,Huesca,Almeria,3.07,3.07,0.0
+SP2,2122,2022-04-03,Burgos,Sp Gijon,2.92,2.92,0.0
+SP2,2122,2022-04-03,Cartagena,Oviedo,3.11,3.11,0.0
+SP2,2122,2022-04-04,Leganes,Fuenlabrada,3.27,3.27,0.0
+SP2,2122,2022-04-08,Lugo,Cartagena,3.11,3.11,0.0
+SP2,2122,2022-04-09,Malaga,Valladolid,3.36,3.36,0.0
+SP2,2122,2022-04-09,Las Palmas,Amorebieta,3.73,3.73,0.0
+SP2,2122,2022-04-09,Sociedad B,Tenerife,3.09,3.09,0.0
+SP2,2122,2022-04-09,Alcorcon,Sp Gijon,2.96,2.96,0.0
+SP2,2122,2022-04-10,Ibiza,Eibar,3.11,3.11,0.0
+SP2,2122,2022-04-10,Mirandes,Burgos,3.36,3.36,0.0
+SP2,2122,2022-04-10,Oviedo,Leganes,3.04,3.04,0.0
+SP2,2122,2022-04-10,Zaragoza,Girona,3.07,3.07,0.0
+SP2,2122,2022-04-10,Fuenlabrada,Huesca,3.01,3.01,0.0
+SP2,2122,2022-04-11,Almeria,Ponferradina,3.76,3.76,0.0
+SP2,2122,2022-04-15,Amorebieta,Mirandes,3.11,3.11,0.0
+SP2,2122,2022-04-15,Eibar,Las Palmas,3.25,3.25,0.0
+SP2,2122,2022-04-16,Sp Gijon,Oviedo,2.92,2.92,0.0
+SP2,2122,2022-04-16,Cartagena,Alcorcon,3.53,3.53,0.0
+SP2,2122,2022-04-16,Valladolid,Almeria,3.44,3.44,0.0
+SP2,2122,2022-04-16,Leganes,Malaga,3.11,3.11,0.0
+SP2,2122,2022-04-17,Huesca,Zaragoza,3.24,3.24,0.0
+SP2,2122,2022-04-17,Tenerife,Fuenlabrada,3.53,3.53,0.0
+SP2,2122,2022-04-17,Ponferradina,Lugo,3.29,3.29,0.0
+SP2,2122,2022-04-17,Burgos,Ibiza,3.03,3.03,0.0
+SP2,2122,2022-04-18,Girona,Sociedad B,3.76,3.76,0.0
+SP2,2122,2022-04-22,Tenerife,Huesca,3.04,3.04,0.0
+SP2,2122,2022-04-23,Fuenlabrada,Ponferradina,3.11,3.11,0.0
+SP2,2122,2022-04-23,Malaga,Eibar,3.09,3.09,0.0
+SP2,2122,2022-04-23,Sociedad B,Amorebieta,3.18,3.18,0.0
+SP2,2122,2022-04-23,Cartagena,Girona,3.28,3.28,0.0
+SP2,2122,2022-04-24,Mirandes,Valladolid,3.52,3.52,0.0
+SP2,2122,2022-04-24,Lugo,Leganes,2.89,2.89,0.0
+SP2,2122,2022-04-24,Zaragoza,Burgos,3.05,3.05,0.0
+SP2,2122,2022-04-24,Ibiza,Las Palmas,3.22,3.22,0.0
+SP2,2122,2022-04-24,Alcorcon,Oviedo,3.24,3.24,0.0
+SP2,2122,2022-04-25,Almeria,Sp Gijon,3.73,3.73,0.0
+SP2,2122,2022-04-29,Las Palmas,Malaga,3.93,3.93,0.0
+SP2,2122,2022-04-30,Oviedo,Mirandes,3.56,3.56,0.0
+SP2,2122,2022-04-30,Eibar,Zaragoza,3.31,3.31,0.0
+SP2,2122,2022-04-30,Burgos,Almeria,3.2,3.2,0.0
+SP2,2122,2022-05-01,Amorebieta,Fuenlabrada,3.37,3.37,0.0
+SP2,2122,2022-05-01,Alcorcon,Girona,3.41,3.41,0.0
+SP2,2122,2022-05-01,Sp Gijon,Ibiza,3.16,3.16,0.0
+SP2,2122,2022-05-01,Lugo,Tenerife,3.06,3.06,0.0
+SP2,2122,2022-05-01,Ponferradina,Cartagena,3.38,3.38,0.0
+SP2,2122,2022-05-02,Valladolid,Sociedad B,4.79,4.79,0.0
+SP2,2122,2022-05-02,Leganes,Huesca,3.01,3.01,0.0
+SP2,2122,2022-05-06,Las Palmas,Mirandes,4.01,4.01,0.0
+SP2,2122,2022-05-07,Almeria,Amorebieta,3.99,3.99,0.0
+SP2,2122,2022-05-07,Malaga,Oviedo,2.92,2.92,0.0
+SP2,2122,2022-05-07,Ponferradina,Burgos,3.7,3.7,0.0
+SP2,2122,2022-05-07,Fuenlabrada,Sociedad B,3.22,3.22,0.0
+SP2,2122,2022-05-07,Huesca,Sp Gijon,3.09,3.09,0.0
+SP2,2122,2022-05-08,Eibar,Valladolid,3.32,3.32,0.0
+SP2,2122,2022-05-08,Cartagena,Leganes,3.3,3.3,0.0
+SP2,2122,2022-05-08,Ibiza,Lugo,3.25,3.25,0.0
+SP2,2122,2022-05-08,Zaragoza,Alcorcon,3.51,3.51,0.0
+SP2,2122,2022-05-09,Girona,Tenerife,3.16,3.16,0.0
+SP2,2122,2022-05-13,Sociedad B,Almeria,3.4,3.4,0.0
+SP2,2122,2022-05-14,Lugo,Fuenlabrada,3.2,3.2,0.0
+SP2,2122,2022-05-14,Valladolid,Ponferradina,4.13,4.13,0.0
+SP2,2122,2022-05-14,Leganes,Eibar,3.35,3.35,0.0
+SP2,2122,2022-05-14,Amorebieta,Huesca,3.41,3.41,0.0
+SP2,2122,2022-05-14,Burgos,Cartagena,3.16,3.16,0.0
+SP2,2122,2022-05-15,Sp Gijon,Girona,3.08,3.08,0.0
+SP2,2122,2022-05-15,Tenerife,Malaga,3.39,3.39,0.0
+SP2,2122,2022-05-15,Mirandes,Ibiza,3.56,3.56,0.0
+SP2,2122,2022-05-15,Alcorcon,Las Palmas,3.65,3.65,0.0
+SP2,2122,2022-05-16,Oviedo,Zaragoza,3.67,3.67,0.0
+SP2,2122,2022-05-20,Zaragoza,Lugo,3.37,3.37,0.0
+SP2,2122,2022-05-21,Eibar,Tenerife,3.3,3.3,0.0
+SP2,2122,2022-05-21,Cartagena,Amorebieta,3.49,3.49,0.0
+SP2,2122,2022-05-21,Fuenlabrada,Sp Gijon,3.13,3.13,0.0
+SP2,2122,2022-05-21,Huesca,Sociedad B,3.43,3.43,0.0
+SP2,2122,2022-05-21,Malaga,Burgos,3.41,3.41,0.0
+SP2,2122,2022-05-21,Almeria,Alcorcon,6.02,6.02,0.0
+SP2,2122,2022-05-21,Girona,Mirandes,4.71,4.71,0.0
+SP2,2122,2022-05-21,Ibiza,Valladolid,4.01,4.01,0.0
+SP2,2122,2022-05-21,Las Palmas,Oviedo,3.36,3.36,0.0
+SP2,2122,2022-05-21,Ponferradina,Leganes,4.17,4.17,0.0
+SP2,2122,2022-05-27,Mirandes,Fuenlabrada,4.0,4.0,0.0
+SP2,2122,2022-05-27,Sociedad B,Zaragoza,3.46,3.46,0.0
+SP2,2122,2022-05-28,Amorebieta,Ponferradina,3.41,3.41,0.0
+SP2,2122,2022-05-28,Lugo,Malaga,3.22,3.22,0.0
+SP2,2122,2022-05-29,Leganes,Almeria,3.74,3.74,0.0
+SP2,2122,2022-05-29,Oviedo,Ibiza,4.08,4.08,0.0
+SP2,2122,2022-05-29,Sp Gijon,Las Palmas,3.47,3.47,0.0
+SP2,2122,2022-05-29,Tenerife,Cartagena,4.08,4.08,0.0
+SP2,2122,2022-05-29,Valladolid,Huesca,5.14,5.14,0.0
+SP2,2122,2022-05-29,Burgos,Girona,2.96,2.96,0.0
+SP2,2122,2022-05-29,Alcorcon,Eibar,4.6,4.6,0.0

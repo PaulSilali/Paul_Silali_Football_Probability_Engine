@@ -1,0 +1,111 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2020-10-17,Stirling,Queens Park,0,0,D,1
+2020-10-17,Brechin,Edinburgh City,1,5,A,0
+2020-10-17,Cowdenbeath,Annan Athletic,0,3,A,0
+2020-10-17,Albion Rvs,Stenhousemuir,1,3,A,0
+2020-10-17,Stranraer,Elgin,1,4,A,0
+2020-10-24,Elgin,Brechin,3,0,H,0
+2020-10-24,Queens Park,Albion Rvs,2,0,H,0
+2020-10-24,Stenhousemuir,Stirling,2,2,D,1
+2020-10-24,Edinburgh City,Cowdenbeath,0,1,A,0
+2020-10-24,Annan Athletic,Stranraer,1,1,D,1
+2020-10-31,Edinburgh City,Elgin,1,0,H,0
+2020-10-31,Stirling,Annan Athletic,1,0,H,0
+2020-10-31,Stranraer,Queens Park,0,1,A,0
+2020-10-31,Albion Rvs,Brechin,0,2,A,0
+2020-10-31,Cowdenbeath,Stenhousemuir,1,1,D,1
+2020-11-07,Elgin,Queens Park,0,1,A,0
+2020-11-07,Stenhousemuir,Edinburgh City,2,0,H,0
+2020-11-07,Stranraer,Cowdenbeath,2,0,H,0
+2020-11-07,Annan Athletic,Albion Rvs,2,3,A,0
+2020-11-07,Brechin,Stirling,0,5,A,0
+2020-11-21,Stenhousemuir,Annan Athletic,1,2,A,0
+2020-11-21,Stirling,Elgin,1,2,A,0
+2020-11-21,Edinburgh City,Stranraer,0,1,A,0
+2020-11-21,Queens Park,Brechin,3,0,H,0
+2020-11-28,Brechin,Stranraer,1,4,A,0
+2020-11-28,Elgin,Cowdenbeath,5,2,H,0
+2020-11-28,Queens Park,Stenhousemuir,3,1,H,0
+2020-11-28,Albion Rvs,Stirling,0,1,A,0
+2020-11-28,Annan Athletic,Edinburgh City,0,4,A,0
+2020-12-05,Edinburgh City,Albion Rvs,5,2,H,0
+2020-12-05,Cowdenbeath,Queens Park,0,3,A,0
+2020-12-05,Elgin,Annan Athletic,1,0,H,0
+2020-12-05,Stenhousemuir,Brechin,2,1,H,0
+2020-12-05,Stranraer,Stirling,2,2,D,1
+2020-12-12,Stenhousemuir,Stranraer,2,2,D,1
+2020-12-12,Stirling,Cowdenbeath,1,0,H,0
+2020-12-12,Queens Park,Edinburgh City,3,3,D,1
+2020-12-12,Albion Rvs,Elgin,3,1,H,0
+2020-12-19,Edinburgh City,Stirling,2,3,A,0
+2020-12-19,Elgin,Stenhousemuir,2,0,H,0
+2020-12-19,Stranraer,Albion Rvs,4,0,H,0
+2020-12-19,Annan Athletic,Queens Park,1,2,A,0
+2020-12-19,Cowdenbeath,Brechin,2,0,H,0
+2020-12-22,Brechin,Annan Athletic,0,0,D,1
+2021-01-02,Stranraer,Annan Athletic,2,0,H,0
+2021-03-20,Queens Park,Stranraer,3,0,H,0
+2021-03-20,Stenhousemuir,Albion Rvs,2,0,H,0
+2021-03-20,Stirling,Brechin,1,0,H,0
+2021-03-20,Annan Athletic,Cowdenbeath,0,0,D,1
+2021-03-20,Elgin,Edinburgh City,1,2,A,0
+2021-03-23,Albion Rvs,Edinburgh City,1,2,A,0
+2021-03-23,Stranraer,Brechin,2,0,H,0
+2021-03-27,Cowdenbeath,Stranraer,1,1,D,1
+2021-03-27,Albion Rvs,Annan Athletic,1,1,D,1
+2021-03-27,Elgin,Stirling,1,1,D,1
+2021-03-27,Edinburgh City,Stenhousemuir,3,1,H,0
+2021-03-27,Brechin,Queens Park,0,2,A,0
+2021-03-30,Albion Rvs,Queens Park,0,3,A,0
+2021-03-30,Brechin,Elgin,1,2,A,0
+2021-03-30,Cowdenbeath,Edinburgh City,1,3,A,0
+2021-03-30,Stirling,Stenhousemuir,1,0,H,0
+2021-04-03,Cowdenbeath,Albion Rvs,0,1,A,0
+2021-04-03,Annan Athletic,Elgin,0,3,A,0
+2021-04-03,Queens Park,Stirling,1,0,H,0
+2021-04-06,Elgin,Stranraer,2,1,H,0
+2021-04-06,Edinburgh City,Annan Athletic,1,1,D,1
+2021-04-06,Queens Park,Cowdenbeath,3,0,H,0
+2021-04-06,Stirling,Albion Rvs,1,1,D,1
+2021-04-06,Brechin,Stenhousemuir,1,1,D,1
+2021-04-08,Stenhousemuir,Cowdenbeath,1,0,H,0
+2021-04-10,Cowdenbeath,Elgin,1,0,H,0
+2021-04-10,Stenhousemuir,Queens Park,1,3,A,0
+2021-04-10,Stranraer,Edinburgh City,0,1,A,0
+2021-04-10,Brechin,Albion Rvs,2,4,A,0
+2021-04-10,Annan Athletic,Stirling,1,2,A,0
+2021-04-13,Queens Park,Annan Athletic,1,0,H,0
+2021-04-13,Stenhousemuir,Elgin,2,0,H,0
+2021-04-13,Stirling,Stranraer,0,1,A,0
+2021-04-13,Albion Rvs,Cowdenbeath,0,0,D,1
+2021-04-13,Edinburgh City,Brechin,2,1,H,0
+2021-04-15,Stranraer,Stenhousemuir,4,0,H,0
+2021-04-17,Cowdenbeath,Stirling,1,5,A,0
+2021-04-17,Edinburgh City,Queens Park,2,3,A,0
+2021-04-17,Elgin,Albion Rvs,2,5,A,0
+2021-04-17,Annan Athletic,Brechin,3,0,H,0
+2021-04-20,Brechin,Cowdenbeath,0,0,D,1
+2021-04-20,Albion Rvs,Stranraer,0,2,A,0
+2021-04-20,Annan Athletic,Stenhousemuir,5,1,H,0
+2021-04-20,Queens Park,Elgin,0,0,D,1
+2021-04-20,Stirling,Edinburgh City,0,1,A,0
+2021-04-23,Queens Park,Stranraer,0,1,A,0
+2021-04-24,Stenhousemuir,Cowdenbeath,0,2,A,0
+2021-04-24,Edinburgh City,Stirling,0,1,A,0
+2021-04-24,Albion Rvs,Annan Athletic,1,0,H,0
+2021-04-27,Stirling,Queens Park,1,2,A,0
+2021-04-27,Stranraer,Elgin,1,4,A,0
+2021-04-27,Annan Athletic,Stenhousemuir,1,1,D,1
+2021-04-27,Cowdenbeath,Brechin,0,2,A,0
+2021-04-29,Queens Park,Edinburgh City,2,0,H,0
+2021-04-29,Stenhousemuir,Albion Rvs,0,1,A,0
+2021-04-29,Brechin,Annan Athletic,0,3,A,0
+2021-04-29,Elgin,Stirling,3,1,H,0
+2021-05-01,Edinburgh City,Elgin,2,0,H,0
+2021-05-01,Stirling,Stranraer,2,2,D,1
+2021-05-01,Albion Rvs,Brechin,1,1,D,1
+2021-05-01,Annan Athletic,Cowdenbeath,1,1,D,1
+2021-05-04,Elgin,Queens Park,3,2,H,0
+2021-05-04,Stranraer,Edinburgh City,2,1,H,0
+2021-05-04,Brechin,Stenhousemuir,0,1,A,0
+2021-05-04,Cowdenbeath,Albion Rvs,2,0,H,0

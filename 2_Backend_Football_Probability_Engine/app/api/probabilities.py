@@ -20,11 +20,12 @@ from app.models.probability_sets import generate_all_probability_sets, PROBABILI
 from app.models.calibration import Calibrator
 from app.db.models import (
     Model, ModelStatus, Jackpot as JackpotModel, JackpotFixture, Prediction, Team, 
-    SavedProbabilityResult, ValidationResult, PredictionSet, CalibrationData, MatchResult
+    SavedProbabilityResult, ValidationResult, PredictionSet, CalibrationData, MatchResult,
+    MatchWeather, TeamRestDays, OddsMovement, League
 )
 from app.models.calibration import calculate_brier_score, calculate_log_loss
 from app.services.team_resolver import resolve_team_safe
-from datetime import datetime
+from datetime import datetime, date, time
 import logging
 import pickle
 import base64
@@ -35,7 +36,7 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/probabilities", tags=["probabilities"])
 
 
-@router.get("/{jackpot_id}/probabilities")
+@router.get("/{jackpot_id}/probabilities", response_model=ApiResponse)
 async def calculate_probabilities(
     jackpot_id: str,
     db: Session = Depends(get_db)
@@ -44,6 +45,12 @@ async def calculate_probabilities(
     logger.info(f"=== COMPUTE PROBABILITIES REQUEST ===")
     logger.info(f"Jackpot ID: {jackpot_id}")
     logger.info(f"Timestamp: {datetime.now().isoformat()}")
+    
+    # Ensure we start with a clean transaction state
+    try:
+        db.rollback()  # Rollback any existing transaction to start fresh
+    except Exception:
+        pass  # Ignore if no transaction exists
     
     try:
         # Get jackpot by jackpot_id (string field)
@@ -80,9 +87,91 @@ async def calculate_probabilities(
             Model.model_type == "calibration"
         ).order_by(Model.training_completed_at.desc()).first()
         
+        # Load calibrator if calibration model is active
+        calibrator = None
         if calibration_model:
             model = calibration_model
             logger.info(f"Found calibration model: {calibration_model.version}")
+            
+            # Load calibration curves from calibration_data table
+            from app.models.calibration import Calibrator
+            from app.db.models import CalibrationData, MatchResult
+            import numpy as np
+            
+            calibrator = Calibrator()
+            calibration_data_records = db.query(CalibrationData).filter(
+                CalibrationData.model_id == calibration_model.id
+            ).all()
+            
+            if calibration_data_records:
+                logger.info(f"Loading {len(calibration_data_records)} calibration data records for model {calibration_model.id}")
+                # Group by outcome type
+                calibration_by_outcome = {"H": [], "D": [], "A": []}
+                for record in calibration_data_records:
+                    outcome_str = record.outcome_type.value if hasattr(record.outcome_type, 'value') else str(record.outcome_type)
+                    if outcome_str in calibration_by_outcome:
+                        calibration_by_outcome[outcome_str].append({
+                            'predicted': record.predicted_prob_bucket,
+                            'actual': record.actual_frequency,
+                            'count': record.sample_count
+                        })
+                
+                # Log summary of calibration data
+                for outcome_type in ["H", "D", "A"]:
+                    if calibration_by_outcome[outcome_type]:
+                        buckets = calibration_by_outcome[outcome_type]
+                        total_samples = sum(b['count'] for b in buckets)
+                        logger.info(f"Calibration data for {outcome_type}: {len(buckets)} buckets, {total_samples} total samples")
+                
+                # Reconstruct IsotonicRegression from buckets
+                # We create synthetic training data by replicating each bucket proportionally
+                for outcome_type in ["H", "D", "A"]:
+                    if calibration_by_outcome[outcome_type]:
+                        # Sort by predicted probability
+                        buckets = sorted(calibration_by_outcome[outcome_type], key=lambda x: x['predicted'])
+                        
+                        # Create synthetic training data
+                        synthetic_preds = []
+                        synthetic_acts = []
+                        
+                        for bucket in buckets:
+                            # Replicate each bucket's data points proportionally
+                            # Use predicted_prob_bucket as input
+                            # actual_frequency tells us what proportion should be 1
+                            num_samples = max(bucket['count'], 1)  # At least 1 sample per bucket
+                            # Limit replication to avoid memory issues, but preserve proportions
+                            num_samples = min(num_samples, 200)
+                            
+                            # Calculate how many should be 1 based on actual_frequency
+                            num_positive = int(round(num_samples * bucket['actual']))
+                            num_negative = num_samples - num_positive
+                            
+                            # Add positive samples
+                            for _ in range(num_positive):
+                                synthetic_preds.append(bucket['predicted'])
+                                synthetic_acts.append(1)
+                            
+                            # Add negative samples
+                            for _ in range(num_negative):
+                                synthetic_preds.append(bucket['predicted'])
+                                synthetic_acts.append(0)
+                        
+                        if len(synthetic_preds) > 0:
+                            try:
+                                calibrator.fit(synthetic_preds, synthetic_acts, outcome_type)
+                                # Verify calibrator is fitted
+                                meta = calibrator.metadata.get(outcome_type)
+                                if meta and meta.fitted:
+                                    logger.info(f"✓ Reconstructed calibrator for {outcome_type} from {len(buckets)} buckets ({len(synthetic_preds)} synthetic samples, {meta.sample_count} actual samples)")
+                                else:
+                                    logger.warning(f"⚠ Calibrator fit attempted for {outcome_type} but not marked as fitted")
+                            except Exception as e:
+                                logger.error(f"✗ Failed to reconstruct calibrator for {outcome_type}: {e}", exc_info=True)
+                    else:
+                        logger.warning(f"No calibration data found for outcome {outcome_type}")
+            else:
+                logger.warning(f"No calibration data records found for calibration model {calibration_model.id}")
+            
             # Calibration model references a base model (could be blending or poisson)
             base_model_id = calibration_model.model_weights.get('base_model_id')
             if base_model_id:
@@ -189,9 +278,36 @@ async def calculate_probabilities(
                 'xi': 0.0065
             }
         
-        # Helper function to get team strength (using fuzzy matching like old code)
+        # Eagerly access ALL model attributes NOW to avoid lazy loading issues later
+        # Store values we'll need in local variables
+        model_weights_cache = {}
+        model_type_cache = None
+        model_version_cache = None
+        model_id_cache = None
+        
+        if model:
+            try:
+                # Force access to all model attributes now, before we start processing fixtures
+                # This prevents lazy loading after transaction issues
+                model_weights_cache = model.model_weights or {} if hasattr(model, 'model_weights') else {}
+                model_type_cache = model.model_type if hasattr(model, 'model_type') else None
+                model_version_cache = model.version if hasattr(model, 'version') else None
+                model_id_cache = model.id if hasattr(model, 'id') else None
+                logger.debug(f"Cached model attributes: type={model_type_cache}, version={model_version_cache}, id={model_id_cache}, weights_keys={list(model_weights_cache.keys())}")
+            except Exception as e:
+                logger.warning(f"Failed to access model attributes upfront: {e}", exc_info=True)
+                model_weights_cache = {}
+                model_type_cache = None
+                model_version_cache = None
+                model_id_cache = None
+        
+        # Cache for team data (populated during team ID resolution)
+        # Store primitive values instead of SQLAlchemy objects to avoid lazy loading issues
+        team_cache = {}  # {team_id: {'id': int, 'attack_rating': float, 'defense_rating': float, 'canonical_name': str}}
+        
+        # Helper function to get team strength (using cached team data to avoid database queries)
         def get_team_strength_for_fixture(team_name: str, team_id_from_fixture: Optional[int] = None) -> TeamStrength:
-            """Get team strength from model or database using fuzzy matching"""
+            """Get team strength from model or cached team data"""
             # Try to find team in model's team_strengths by ID first (handle both int and string keys)
             if team_id_from_fixture:
                 # Try integer key first
@@ -213,39 +329,58 @@ async def calculate_probabilities(
                         defense=float(strengths.get('defense', 1.0))
                     )
             
-            # Use fuzzy matching to find team in database (like old code)
+                # Try to get team from cache (avoid database query)
+                if team_id_from_fixture in team_cache:
+                    team_data = team_cache[team_id_from_fixture]
+                    logger.debug(f"Found team {team_id_from_fixture} in cache: '{team_data.get('canonical_name', 'unknown')}'")
+                    # Use database ratings from cached team data (primitive values, no lazy loading)
+                    return TeamStrength(
+                        team_id=team_data['id'],
+                        attack=float(team_data.get('attack_rating', 1.0)) if team_data.get('attack_rating') else 1.0,
+                        defense=float(team_data.get('defense_rating', 1.0)) if team_data.get('defense_rating') else 1.0
+                    )
+            
+            # Fallback: try to resolve team name (only if not in cache and transaction is OK)
             if team_name:
-                team = resolve_team_safe(db, team_name)
-                
-                if team:
-                    logger.debug(f"Found team '{team_name}' -> DB team '{team.canonical_name}' (ID: {team.id})")
-                    # Check if this team is in model's team_strengths (handle both int and string keys)
-                    if team.id in team_strengths_dict:
-                        strengths = team_strengths_dict[team.id]
-                        logger.debug(f"Using model strengths for team {team.id}: attack={strengths.get('attack', 1.0)}, defense={strengths.get('defense', 1.0)}")
-                        return TeamStrength(
-                            team_id=team.id,
-                            attack=float(strengths.get('attack', 1.0)),
-                            defense=float(strengths.get('defense', 1.0))
-                        )
-                    elif str(team.id) in team_strengths_dict:
-                        strengths = team_strengths_dict[str(team.id)]
-                        logger.debug(f"Using model strengths (string key) for team {team.id}: attack={strengths.get('attack', 1.0)}, defense={strengths.get('defense', 1.0)}")
-                        return TeamStrength(
-                            team_id=team.id,
-                            attack=float(strengths.get('attack', 1.0)),
-                            defense=float(strengths.get('defense', 1.0))
-                        )
-                    else:
-                        # Use database ratings (like old code)
-                        logger.debug(f"Using DB ratings for team {team.id}: attack={team.attack_rating}, defense={team.defense_rating}")
-                        return TeamStrength(
-                            team_id=team.id,
-                            attack=float(team.attack_rating) if team.attack_rating else 1.0,
-                            defense=float(team.defense_rating) if team.defense_rating else 1.0
-                        )
-                else:
-                    logger.warning(f"Team '{team_name}' not found in database (fuzzy match failed), using default strengths (1.0, 1.0)")
+                try:
+                    team = resolve_team_safe(db, team_name)
+                    if team:
+                        team_id = team.id
+                        # Extract all attributes NOW before any commits
+                        team_data = {
+                            'id': team_id,
+                            'attack_rating': float(team.attack_rating) if team.attack_rating else None,
+                            'defense_rating': float(team.defense_rating) if team.defense_rating else None,
+                            'canonical_name': team.canonical_name or team_name
+                        }
+                        logger.debug(f"Found team '{team_name}' -> DB team '{team_data['canonical_name']}' (ID: {team_id})")
+                        # Cache primitive values for future use
+                        team_cache[team_id] = team_data
+                        # Check if this team is in model's team_strengths
+                        if team_id in team_strengths_dict:
+                            strengths = team_strengths_dict[team_id]
+                            return TeamStrength(
+                                team_id=team_id,
+                                attack=float(strengths.get('attack', 1.0)),
+                                defense=float(strengths.get('defense', 1.0))
+                            )
+                        elif str(team_id) in team_strengths_dict:
+                            strengths = team_strengths_dict[str(team_id)]
+                            return TeamStrength(
+                                team_id=team_id,
+                                attack=float(strengths.get('attack', 1.0)),
+                                defense=float(strengths.get('defense', 1.0))
+                            )
+                        else:
+                            # Use database ratings from extracted data
+                            return TeamStrength(
+                                team_id=team_id,
+                                attack=team_data['attack_rating'] if team_data['attack_rating'] else 1.0,
+                                defense=team_data['defense_rating'] if team_data['defense_rating'] else 1.0
+                            )
+                except Exception as e:
+                    # If database query fails (transaction aborted), use defaults
+                    logger.warning(f"Could not resolve team '{team_name}' (transaction may be aborted): {e}")
             
             # Fallback to default
             logger.warning(f"Using default team strengths for '{team_name}' (ID: {team_id_from_fixture})")
@@ -283,20 +418,110 @@ async def calculate_probabilities(
         logger.info(f"Processing {len(fixtures)} fixtures...")
         team_match_stats = {"found": 0, "not_found": 0, "model_strengths": 0, "db_strengths": 0, "default_strengths": 0}
         
-        for idx, fixture_obj in enumerate(fixtures):
-            logger.debug(f"Processing fixture {idx + 1}/{len(fixtures)}: {fixture_obj.home_team} vs {fixture_obj.away_team}")
+        # Cache all fixture attributes upfront to avoid lazy loading after commits
+        fixture_cache = []
+        for fixture_obj in fixtures:
+            fixture_cache.append({
+                'id': fixture_obj.id,
+                'home_team': fixture_obj.home_team,
+                'away_team': fixture_obj.away_team,
+                'odds_home': fixture_obj.odds_home,
+                'odds_draw': fixture_obj.odds_draw,
+                'odds_away': fixture_obj.odds_away,
+                'home_team_id': getattr(fixture_obj, 'home_team_id', None),
+                'away_team_id': getattr(fixture_obj, 'away_team_id', None),
+                'league_id': getattr(fixture_obj, 'league_id', None),
+                'fixture_obj': fixture_obj  # Keep reference for updates
+            })
+        
+        # Resolve ALL team IDs and cache team objects upfront BEFORE processing fixtures to avoid transaction issues
+        logger.info("Resolving team IDs and caching team objects for all fixtures...")
+        
+        for fixture_data in fixture_cache:
+            fixture_obj = fixture_data['fixture_obj']
+            team_ids_updated = False
             
-            # Get team IDs from fixture if available
-            home_team_id = getattr(fixture_obj, 'home_team_id', None)
-            away_team_id = getattr(fixture_obj, 'away_team_id', None)
+            # Resolve team IDs if missing and cache team data (primitive values, not objects)
+            if not fixture_data.get('home_team_id') and fixture_data['home_team']:
+                try:
+                    home_team = resolve_team_safe(db, fixture_data['home_team'])
+                    if home_team:
+                        home_team_id = home_team.id
+                        fixture_obj.home_team_id = home_team_id
+                        fixture_data['home_team_id'] = home_team_id
+                        # Extract all attributes NOW before any commits (avoid lazy loading later)
+                        team_cache[home_team_id] = {
+                            'id': home_team_id,
+                            'attack_rating': float(home_team.attack_rating) if home_team.attack_rating else None,
+                            'defense_rating': float(home_team.defense_rating) if home_team.defense_rating else None,
+                            'canonical_name': home_team.canonical_name or fixture_data['home_team']
+                        }
+                        team_ids_updated = True
+                        logger.debug(f"Resolved home team '{fixture_data['home_team']}' -> ID {home_team_id}")
+                except Exception as e:
+                    logger.warning(f"Failed to resolve home team '{fixture_data['home_team']}': {e}")
+                    try:
+                        db.rollback()
+                    except Exception:
+                        pass
+            
+            if not fixture_data.get('away_team_id') and fixture_data['away_team']:
+                try:
+                    away_team = resolve_team_safe(db, fixture_data['away_team'])
+                    if away_team:
+                        away_team_id = away_team.id
+                        fixture_obj.away_team_id = away_team_id
+                        fixture_data['away_team_id'] = away_team_id
+                        # Extract all attributes NOW before any commits (avoid lazy loading later)
+                        team_cache[away_team_id] = {
+                            'id': away_team_id,
+                            'attack_rating': float(away_team.attack_rating) if away_team.attack_rating else None,
+                            'defense_rating': float(away_team.defense_rating) if away_team.defense_rating else None,
+                            'canonical_name': away_team.canonical_name or fixture_data['away_team']
+                        }
+                        team_ids_updated = True
+                        logger.debug(f"Resolved away team '{fixture_data['away_team']}' -> ID {away_team_id}")
+                except Exception as e:
+                    logger.warning(f"Failed to resolve away team '{fixture_data['away_team']}': {e}")
+                    try:
+                        db.rollback()
+                    except Exception:
+                        pass
+            
+            # Commit team ID updates if they were resolved (use savepoint)
+            if team_ids_updated:
+                try:
+                    savepoint = db.begin_nested()
+                    try:
+                        savepoint.commit()
+                        logger.debug(f"✓ Updated team IDs for fixture {fixture_data['id']}: home={fixture_data.get('home_team_id')}, away={fixture_data.get('away_team_id')}")
+                    except Exception as e:
+                        savepoint.rollback()
+                        logger.warning(f"Failed to commit team ID updates: {e}", exc_info=True)
+                except Exception as e:
+                    logger.warning(f"Failed to create savepoint for team ID updates: {e}", exc_info=True)
+                    try:
+                        db.rollback()
+                    except Exception:
+                        pass
+        
+        logger.info(f"✓ Completed team ID resolution for {len(fixture_cache)} fixtures, cached {len(team_cache)} team objects")
+        
+        for idx, fixture_data in enumerate(fixture_cache):
+            fixture_obj = fixture_data['fixture_obj']
+            logger.debug(f"Processing fixture {idx + 1}/{len(fixture_cache)}: {fixture_data['home_team']} vs {fixture_data['away_team']}")
+            
+            # Get team IDs from cache (already resolved)
+            home_team_id = fixture_data.get('home_team_id')
+            away_team_id = fixture_data.get('away_team_id')
             
             # Get team strengths from model or database
             home_team_strength = get_team_strength_for_fixture(
-                fixture_obj.home_team or "",
+                fixture_data['home_team'] or "",
                 home_team_id
             )
             away_team_strength = get_team_strength_for_fixture(
-                fixture_obj.away_team or "",
+                fixture_data['away_team'] or "",
                 away_team_id
             )
             
@@ -335,12 +560,15 @@ async def calculate_probabilities(
             
             # Get league code from fixture if available
             league_code = None
-            if hasattr(fixture_obj, 'league_id') and fixture_obj.league_id:
+            if fixture_data.get('league_id'):
                 # Try to get league code from database
                 from app.db.models import League
-                league = db.query(League).filter(League.id == fixture_obj.league_id).first()
-                if league:
-                    league_code = league.code
+                try:
+                    league = db.query(League).filter(League.id == fixture_data['league_id']).first()
+                    if league:
+                        league_code = league.code
+                except Exception as e:
+                    logger.debug(f"Could not load league: {e}")
             
             # Inject draw prior before temperature scaling
             adjusted_home, adjusted_draw, adjusted_away = inject_draw_prior(
@@ -367,6 +595,216 @@ async def calculate_probabilities(
             )
             
             # ============================================================
+            # AUTOMATIC INGESTION: Weather, Rest Days, Odds Movement
+            # ============================================================
+            # Automatically ingest missing draw structural features before calculating probabilities
+            # Use a savepoint to isolate ingestion errors from main transaction
+            try:
+                from app.db.models import MatchWeather, TeamRestDays, OddsMovement
+                from app.services.ingestion.ingest_weather import ingest_weather_from_open_meteo
+                from app.services.ingestion.ingest_rest_days import ingest_rest_days_for_fixture
+                from app.services.ingestion.ingest_odds_movement import track_odds_movement
+                from sqlalchemy import text
+                
+                # Create a savepoint for this fixture's ingestion
+                savepoint = db.begin_nested()
+                
+                try:
+                    # Get fixture date for weather/rest days
+                    fixture_date = None
+                    if hasattr(fixture_obj, 'match_date') and fixture_obj.match_date:
+                        fixture_date = fixture_obj.match_date
+                    elif hasattr(fixture_obj, 'jackpot') and fixture_obj.jackpot and fixture_obj.jackpot.kickoff_date:
+                        fixture_date = fixture_obj.jackpot.kickoff_date
+                    else:
+                        fixture_date = date.today()
+                    
+                    match_datetime = datetime.combine(fixture_date, time(hour=15, minute=0))  # Default to 3 PM
+                    
+                    # 1. Auto-ingest weather if missing
+                    weather_exists = db.query(MatchWeather).filter(
+                        MatchWeather.fixture_id == fixture_data['id']
+                    ).first()
+                    
+                    if not weather_exists:
+                        try:
+                            # Try to get stadium coordinates (use league country capital as fallback)
+                            league = db.query(League).filter(League.id == getattr(fixture_obj, 'league_id', None)).first() if getattr(fixture_obj, 'league_id', None) else None
+                            
+                            # Fallback coordinates (country capitals)
+                            country_coords = {
+                                'England': {'lat': 51.5074, 'lon': -0.1278},
+                                'Spain': {'lat': 40.4168, 'lon': -3.7038},
+                                'Germany': {'lat': 52.5200, 'lon': 13.4050},
+                                'Italy': {'lat': 41.9028, 'lon': 12.4964},
+                                'France': {'lat': 48.8566, 'lon': 2.3522},
+                                'Netherlands': {'lat': 52.3676, 'lon': 4.9041},
+                                'Portugal': {'lat': 38.7223, 'lon': -9.1393},
+                                'Scotland': {'lat': 55.9533, 'lon': -3.1883},
+                                'Belgium': {'lat': 50.8503, 'lon': 4.3517},
+                                'Turkey': {'lat': 41.0082, 'lon': 28.9784},
+                                'Greece': {'lat': 37.9838, 'lon': 23.7275},
+                                'Mexico': {'lat': 19.4326, 'lon': -99.1332},
+                                'USA': {'lat': 38.9072, 'lon': -77.0369},
+                                'China': {'lat': 39.9042, 'lon': 116.4074},
+                                'Japan': {'lat': 35.6762, 'lon': 139.6503},
+                                'Australia': {'lat': -33.8688, 'lon': 151.2093},
+                            }
+                            
+                            default_coords = country_coords.get(league.country if league else 'England', {'lat': 51.5074, 'lon': -0.1278})
+                            
+                            weather_result = ingest_weather_from_open_meteo(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                latitude=default_coords['lat'],
+                                longitude=default_coords['lon'],
+                                match_datetime=match_datetime
+                            )
+                            
+                            if weather_result.get("success"):
+                                logger.debug(f"✓ Auto-ingested weather for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Weather auto-ingestion failed for fixture {fixture_data['id']}: {weather_result.get('error', 'Unknown error')}")
+                        except Exception as e:
+                            logger.debug(f"⚠ Weather auto-ingestion error for fixture {fixture_data['id']}: {e}")
+                            savepoint.rollback()
+                            savepoint = db.begin_nested()  # Start new savepoint
+                    
+                    # 2. Auto-calculate rest days if missing
+                    rest_days_exist = db.query(TeamRestDays).filter(
+                        TeamRestDays.fixture_id == fixture_data['id']
+                    ).first()
+                    
+                    home_team_id_val = getattr(fixture_obj, 'home_team_id', None)
+                    away_team_id_val = getattr(fixture_obj, 'away_team_id', None)
+                    
+                    if not rest_days_exist:
+                        if home_team_id_val and away_team_id_val:
+                            try:
+                                rest_days_result = ingest_rest_days_for_fixture(
+                                    db=db,
+                                    fixture_id=fixture_data['id'],
+                                    home_team_id=home_team_id_val,
+                                    away_team_id=away_team_id_val
+                                )
+                                
+                                if rest_days_result.get("success"):
+                                    logger.info(f"✓ Auto-calculated rest days for fixture {fixture_data['id']}: home={rest_days_result.get('home_rest_days', 'N/A')}, away={rest_days_result.get('away_rest_days', 'N/A')}")
+                                else:
+                                    logger.warning(f"⚠ Rest days auto-calculation failed for fixture {fixture_data['id']}: {rest_days_result.get('error', 'Unknown error')}")
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception as e:
+                                logger.warning(f"⚠ Rest days auto-calculation error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                        else:
+                            logger.debug(f"⚠ Skipping rest days calculation for fixture {fixture_data['id']}: home_team_id={home_team_id_val}, away_team_id={away_team_id_val}")
+                    
+                    # 3. Auto-track odds movement if missing and odds available
+                    odds_movement_exists = db.query(OddsMovement).filter(
+                        OddsMovement.fixture_id == fixture_obj.id
+                    ).first()
+                    
+                    if not odds_movement_exists and fixture_data.get('odds_draw'):
+                        try:
+                            # Track current draw odds (will calculate delta if opening odds exist later)
+                            odds_result = track_odds_movement(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                draw_odds=float(fixture_data['odds_draw'])
+                            )
+                            
+                            if odds_result.get("success"):
+                                logger.debug(f"✓ Auto-tracked odds movement for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Odds movement auto-tracking failed for fixture {fixture_data['id']}: {odds_result.get('error', 'Unknown error')}")
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                        except Exception as e:
+                            logger.debug(f"⚠ Odds movement auto-tracking error for fixture {fixture_data['id']}: {e}")
+                            savepoint.rollback()
+                            savepoint = db.begin_nested()  # Start new savepoint
+                    
+                    # Note: ingestion functions call db.commit() themselves, which commits the outer transaction
+                    # So we can't commit the savepoint - it's already committed
+                    # Just mark it as done
+                    try:
+                        savepoint.commit()
+                    except Exception as commit_err:
+                        # If savepoint was already committed by ingestion function, that's OK
+                        logger.debug(f"Savepoint commit note (may be already committed): {commit_err}")
+                    
+                except Exception as e:
+                    # Rollback savepoint on any error
+                    try:
+                        savepoint.rollback()
+                    except Exception:
+                        pass
+                    logger.debug(f"⚠ Automatic ingestion error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                    # If transaction was aborted, rollback and continue
+                    try:
+                        db.rollback()
+                    except Exception:
+                        pass
+            
+            except Exception as e:
+                # Outer exception handler - log but don't fail the whole request
+                logger.warning(f"⚠ Automatic ingestion setup error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                # Rollback to ensure clean state
+                try:
+                    db.rollback()
+                except Exception:
+                    pass
+            
+            # ============================================================
+            # DRAW STRUCTURAL ADJUSTMENT (New: League priors, Elo, H2H, etc.)
+            # ============================================================
+            # Apply structural draw adjustment using league priors, Elo symmetry,
+            # H2H, weather, fatigue, referee, and odds movement
+            try:
+                from app.features.draw_features import compute_draw_components, adjust_draw_probability
+                
+                # Get fixture context for draw components
+                draw_components = compute_draw_components(
+                    db=db,
+                    fixture_id=fixture_data['id'],
+                    league_id=fixture_data.get('league_id'),
+                    home_team_id=fixture_data.get('home_team_id'),
+                    away_team_id=fixture_data.get('away_team_id'),
+                    match_date=None  # Will default to today if not available
+                )
+                
+                # Adjust draw probability (only draw is modified, home/away renormalized)
+                p_home_adj, p_draw_adj, p_away_adj = adjust_draw_probability(
+                    p_home_base=base_probs.home,
+                    p_draw_base=base_probs.draw,
+                    p_away_base=base_probs.away,
+                    draw_multiplier=draw_components.total()
+                )
+                
+                # Update base_probs with draw-structurally-adjusted values
+                base_probs = MatchProbabilities(
+                    home=p_home_adj,
+                    draw=p_draw_adj,
+                    away=p_away_adj,
+                    entropy=-sum(
+                        p * math.log2(p) if p > 0 else 0
+                        for p in [p_home_adj, p_draw_adj, p_away_adj]
+                    ),
+                    lambda_home=base_probs.lambda_home,
+                    lambda_away=base_probs.lambda_away
+                )
+                
+                # Store draw components for later use in output
+                draw_structural_components = draw_components.to_dict()
+                logger.debug(f"Draw structural adjustment applied: multiplier={draw_components.total():.4f}, components={draw_structural_components}")
+            except Exception as e:
+                # If draw structural adjustment fails, continue with base probabilities
+                logger.warning(f"Draw structural adjustment failed: {e}, continuing with base probabilities")
+                draw_structural_components = None
+            
+            # ============================================================
             # TEMPERATURE SCALING (Probability Softening)
             # ============================================================
             # Apply temperature scaling to reduce overconfidence
@@ -374,15 +812,18 @@ async def calculate_probabilities(
             
             # Get temperature from model (learned during training) or use default
             temperature = 1.2  # Default
-            if model and model.model_weights:
-                temperature = model.model_weights.get('temperature', 1.2)
+            if model_weights_cache:
+                temperature = model_weights_cache.get('temperature', 1.2)
                 # Also check base model if this is a calibration model
-                if model.model_type == "calibration":
-                    base_model_id = model.model_weights.get('base_model_id')
+                if model_type_cache == "calibration":
+                    base_model_id = model_weights_cache.get('base_model_id')
                     if base_model_id:
-                        base_model = db.query(Model).filter(Model.id == base_model_id).first()
-                        if base_model and base_model.model_weights:
-                            temperature = base_model.model_weights.get('temperature', temperature)
+                        try:
+                            base_model = db.query(Model).filter(Model.id == base_model_id).first()
+                            if base_model and hasattr(base_model, 'model_weights') and base_model.model_weights:
+                                temperature = base_model.model_weights.get('temperature', temperature)
+                        except Exception as e:
+                            logger.debug(f"Could not load base model for temperature: {e}")
             
             # Apply temperature scaling to base probabilities
             raw_model_probs = (base_probs.home, base_probs.draw, base_probs.away)
@@ -405,26 +846,29 @@ async def calculate_probabilities(
             
             # Get market odds from fixture
             market_odds = None
-            if fixture_obj.odds_home:
+            if fixture_data.get('odds_home'):
                 market_odds = {
-                    "home": float(fixture_obj.odds_home),
-                    "draw": float(fixture_obj.odds_draw),
-                    "away": float(fixture_obj.odds_away)
+                    "home": float(fixture_data['odds_home']),
+                    "draw": float(fixture_data['odds_draw']),
+                    "away": float(fixture_data['odds_away'])
                 }
             
             # Get blend alpha from blending model if available (for Set B)
             blend_alpha = 0.6  # Default
-            if model and model.model_type == "blending" and model.model_weights:
-                blend_alpha = model.model_weights.get('blend_alpha', 0.6)
+            if model_type_cache == "blending" and model_weights_cache:
+                blend_alpha = model_weights_cache.get('blend_alpha', 0.6)
                 logger.debug(f"Using trained blend_alpha={blend_alpha} from blending model")
-            elif model and model.model_type == "calibration":
+            elif model_type_cache == "calibration" and model_weights_cache:
                 # Calibration model references a blending model
-                base_model_id = model.model_weights.get('base_model_id')
+                base_model_id = model_weights_cache.get('base_model_id')
                 if base_model_id:
-                    base_model = db.query(Model).filter(Model.id == base_model_id).first()
-                    if base_model and base_model.model_type == "blending" and base_model.model_weights:
-                        blend_alpha = base_model.model_weights.get('blend_alpha', 0.6)
-                        logger.debug(f"Using trained blend_alpha={blend_alpha} from blending model (via calibration)")
+                    try:
+                        base_model = db.query(Model).filter(Model.id == base_model_id).first()
+                        if base_model and base_model.model_type == "blending" and hasattr(base_model, 'model_weights') and base_model.model_weights:
+                            blend_alpha = base_model.model_weights.get('blend_alpha', 0.6)
+                            logger.debug(f"Using trained blend_alpha={blend_alpha} from blending model (via calibration)")
+                    except Exception as e:
+                        logger.debug(f"Could not load base model for blend_alpha: {e}")
             
             # Generate all probability sets with draw model integration
             # Extract lambda values from base_probs for draw model
@@ -468,7 +912,7 @@ async def calculate_probabilities(
             )
             
             # Override Set B with entropy-weighted blending using temperature-scaled probabilities
-            if market_odds and (model and model.model_type in ["blending", "calibration"]):
+            if market_odds and (model_type_cache in ["blending", "calibration"]):
                 from app.models.probability_sets import blend_probabilities, odds_to_implied_probabilities
                 from app.models.uncertainty import entropy_weighted_alpha, normalized_entropy, overround_aware_market_weight
                 
@@ -524,14 +968,86 @@ async def calculate_probabilities(
                 all_sets["B"] = set_b_probs
                 logger.debug(f"Set B recalculated with entropy-weighted alpha_eff={alpha_eff:.3f}, temperature={temperature:.2f}")
             
-            # Convert to output format (as dictionaries for JSON serialization)
+            # Apply calibration if calibrator is available
+            # Calibration should be applied to sets that use model probabilities (A, B, C, F, G)
+            calibrated_sets = {}
+            calibration_applied = False
             for set_id, probs in all_sets.items():
+                if calibrator and set_id in ["A", "B", "C", "F", "G"]:
+                    # Check if calibrator is actually fitted for at least one outcome
+                    meta_h = calibrator.metadata.get("H")
+                    meta_d = calibrator.metadata.get("D")
+                    meta_a = calibrator.metadata.get("A")
+                    is_fitted = (meta_h and meta_h.fitted) or (meta_d and meta_d.fitted) or (meta_a and meta_a.fitted)
+                    
+                    if is_fitted:
+                        # Apply calibration using joint renormalization
+                        try:
+                            ch, cd, ca = calibrator.calibrate_probabilities(
+                                probs.home,
+                                probs.draw,
+                                probs.away,
+                                use_joint_renormalization=True
+                            )
+                            calibrated_sets[set_id] = MatchProbabilities(
+                                home=ch,
+                                draw=cd,
+                                away=ca,
+                                entropy=-sum(
+                                    p * math.log2(p) if p > 0 else 0
+                                    for p in [ch, cd, ca]
+                                ),
+                                lambda_home=probs.lambda_home if hasattr(probs, 'lambda_home') else None,
+                                lambda_away=probs.lambda_away if hasattr(probs, 'lambda_away') else None
+                            )
+                            if not calibration_applied:
+                                logger.info(f"✓ Applying calibration to Set {set_id}: ({probs.home:.3f}, {probs.draw:.3f}, {probs.away:.3f}) -> ({ch:.3f}, {cd:.3f}, {ca:.3f})")
+                                calibration_applied = True
+                            else:
+                                logger.debug(f"Applied calibration to Set {set_id}: ({probs.home:.3f}, {probs.draw:.3f}, {probs.away:.3f}) -> ({ch:.3f}, {cd:.3f}, {ca:.3f})")
+                        except Exception as e:
+                            logger.warning(f"Failed to apply calibration to Set {set_id}: {e}, using uncalibrated probabilities")
+                            calibrated_sets[set_id] = probs
+                    else:
+                        logger.debug(f"Calibrator not fitted for Set {set_id}, skipping calibration")
+                        calibrated_sets[set_id] = probs
+                else:
+                    calibrated_sets[set_id] = probs
+            
+            # Log calibration summary for this fixture
+            if calibrator:
+                meta_h = calibrator.metadata.get("H")
+                meta_d = calibrator.metadata.get("D")
+                meta_a = calibrator.metadata.get("A")
+                is_fitted = (meta_h and meta_h.fitted) or (meta_d and meta_d.fitted) or (meta_a and meta_a.fitted)
+                
+                if is_fitted and calibration_applied:
+                    logger.debug(f"✓ Calibration applied to fixture {idx + 1}/{len(fixtures)}")
+                elif is_fitted and not calibration_applied:
+                    logger.warning(f"⚠ Calibrator fitted but not applied to fixture {idx + 1}/{len(fixtures)}. Sets processed: {list(all_sets.keys())}")
+                elif not is_fitted:
+                    logger.debug(f"Calibrator not fitted for fixture {idx + 1}/{len(fixtures)}")
+            
+            if calibrator and not calibration_applied:
+                # Check if calibrator is actually fitted
+                meta_h = calibrator.metadata.get("H")
+                meta_d = calibrator.metadata.get("D")
+                meta_a = calibrator.metadata.get("A")
+                is_fitted = (meta_h and meta_h.fitted) or (meta_d and meta_d.fitted) or (meta_a and meta_a.fitted)
+                
+                if is_fitted:
+                    logger.warning(f"Calibrator loaded and fitted but calibration was not applied to fixture {idx + 1}. Metadata: H={meta_h.fitted if meta_h else False}, D={meta_d.fitted if meta_d else False}, A={meta_a.fitted if meta_a else False}")
+                else:
+                    logger.warning(f"Calibrator loaded but not fitted for fixture {idx + 1} - calibration data may be missing or insufficient")
+            
+            # Convert to output format (as dictionaries for JSON serialization)
+            for set_id, probs in calibrated_sets.items():
                 output = {
                     "homeWinProbability": round(probs.home * 100, 2),
                     "drawProbability": round(probs.draw * 100, 2),
                     "awayWinProbability": round(probs.away * 100, 2),
                     "entropy": round(probs.entropy, 4) if hasattr(probs, 'entropy') and probs.entropy is not None else None,
-                    "calibrated": PROBABILITY_SET_METADATA.get(set_id, {}).get("calibrated", True),
+                    "calibrated": PROBABILITY_SET_METADATA.get(set_id, {}).get("calibrated", True) and (calibrator is not None and set_id in ["A", "B", "C", "F", "G"]),
                     "heuristic": PROBABILITY_SET_METADATA.get(set_id, {}).get("heuristic", False),
                     "allowedForDecisionSupport": PROBABILITY_SET_METADATA.get(set_id, {}).get("allowed_for_decision_support", True)
                 }
@@ -550,6 +1066,12 @@ async def calculate_probabilities(
                         "market": round(draw_components.get("market", 0.0), 4) if draw_components.get("market") is not None else None
                     }
                 
+                # Add draw structural components for explainability (all sets)
+                if 'draw_structural_components' in locals() and draw_structural_components and set_id in ["A", "B", "C"]:
+                    if "drawStructuralComponents" not in output:
+                        output["drawStructuralComponents"] = {}
+                    output["drawStructuralComponents"].update(draw_structural_components)
+                
                 probability_sets[set_id].append(output)
             
         # Log summary statistics
@@ -560,20 +1082,41 @@ async def calculate_probabilities(
         logger.info(f"Teams using model strengths: {team_match_stats['model_strengths']}")
         logger.info(f"Teams using DB strengths: {team_match_stats['db_strengths']}")
         
-        # Return in format expected by frontend
-        return {
+        # Log calibration summary
+        if calibrator:
+            meta_h = calibrator.metadata.get("H")
+            meta_d = calibrator.metadata.get("D")
+            meta_a = calibrator.metadata.get("A")
+            is_fitted = (meta_h and meta_h.fitted) or (meta_d and meta_d.fitted) or (meta_a and meta_a.fitted)
+            if is_fitted:
+                logger.info(f"✓ Calibration model active: H={meta_h.fitted if meta_h else False}, D={meta_d.fitted if meta_d else False}, A={meta_a.fitted if meta_a else False}")
+                logger.info(f"  Calibration applied to {len(fixtures)} fixtures for sets A, B, C, F, G")
+            else:
+                logger.warning(f"⚠ Calibration model loaded but not fitted - calibration not applied")
+        
+        # Return in format expected by frontend (wrapped in ApiResponse)
+        return ApiResponse(
+            success=True,
+            message="Probabilities calculated successfully",
+            data={
             "predictionId": f"{jackpot_id}-{datetime.now().isoformat()}",
-            "modelVersion": model.version if model else "unknown",
+            "modelVersion": model_version_cache if model_version_cache else "unknown",
             "createdAt": datetime.now().isoformat(),
             "fixtures": fixtures_data,
             "probabilitySets": probability_sets,
             "confidenceFlags": {},
             "warnings": []
         }
+        )
     except HTTPException:
         raise
     except Exception as e:
         logger.error(f"Error calculating probabilities: {e}", exc_info=True)
+        # Ensure we rollback on any error to prevent transaction issues
+        try:
+            db.rollback()
+        except Exception:
+            pass
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -650,6 +1193,159 @@ async def get_latest_saved_result(
         )
     except Exception as e:
         logger.error(f"Error fetching latest saved result: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/saved-results/{result_id}", response_model=ApiResponse)
+async def get_saved_result(
+    result_id: int,
+    db: Session = Depends(get_db)
+):
+    """Get a specific saved probability result by ID"""
+    try:
+        saved_result = db.query(SavedProbabilityResult).filter(
+            SavedProbabilityResult.id == result_id
+        ).first()
+        
+        if not saved_result:
+            raise HTTPException(status_code=404, detail=f"Saved result {result_id} not found")
+        
+        result = {
+            "id": saved_result.id,
+            "name": saved_result.name,
+            "description": saved_result.description,
+            "jackpotId": saved_result.jackpot_id,
+            "selections": saved_result.selections,
+            "actualResults": saved_result.actual_results or {},
+            "scores": saved_result.scores or {},
+            "modelVersion": saved_result.model_version,
+            "totalFixtures": saved_result.total_fixtures,
+            "createdAt": saved_result.created_at.isoformat(),
+            "updatedAt": saved_result.updated_at.isoformat()
+        }
+        
+        return ApiResponse(
+            success=True,
+            message="Saved result retrieved",
+            data=result
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching saved result {result_id}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/imported-jackpots", response_model=ApiResponse)
+async def get_imported_jackpots(
+    db: Session = Depends(get_db)
+):
+    """Get all imported jackpots with summary information"""
+    try:
+        # Query saved probability results grouped by jackpot_id
+        # Get the most recent result for each jackpot
+        from sqlalchemy import func
+        
+        # First, get distinct jackpot_ids with their most recent saved_result
+        subquery = db.query(
+            SavedProbabilityResult.jackpot_id,
+            func.max(SavedProbabilityResult.created_at).label('max_created_at')
+        ).group_by(SavedProbabilityResult.jackpot_id).subquery()
+        
+        # Then join back to get full details
+        saved_results = db.query(SavedProbabilityResult).join(
+            subquery,
+            (SavedProbabilityResult.jackpot_id == subquery.c.jackpot_id) &
+            (SavedProbabilityResult.created_at == subquery.c.max_created_at)
+        ).all()
+        
+        # Also get jackpot information
+        jackpot_ids = [sr.jackpot_id for sr in saved_results]
+        jackpots_map = {}
+        if jackpot_ids:
+            jackpots = db.query(JackpotModel).filter(
+                JackpotModel.jackpot_id.in_(jackpot_ids)
+            ).all()
+            jackpots_map = {j.jackpot_id: j for j in jackpots}
+        
+        results = []
+        for sr in saved_results:
+            jackpot = jackpots_map.get(sr.jackpot_id)
+            results.append({
+                'id': sr.id,
+                'jackpot_id': sr.jackpot_id,
+                'name': sr.name,
+                'total_fixtures': sr.total_fixtures,
+                'actual_results': sr.actual_results,
+                'scores': sr.scores,
+                'selections': sr.selections,  # Include selections to check if probabilities computed
+                'created_at': sr.created_at,
+                'kickoff_date': jackpot.kickoff_date if jackpot else None,
+                'jackpot_created_at': jackpot.created_at if jackpot else None
+            })
+        
+        imported_jackpots = []
+        for row in results:
+            jackpot_id = row['jackpot_id']
+            total_fixtures = row['total_fixtures'] or 0
+            
+            # Determine status
+            # "validated" = has actual_results AND scores calculated
+            # "probabilities_computed" = has actual_results AND selections with actual data (probabilities computed but not validated)
+            # "imported" = has actual_results but no selections/scores yet
+            # "pending" = no actual_results
+            has_actual_results = bool(row['actual_results'])
+            has_scores = bool(row['scores'])
+            # Check if selections exist AND contain actual data (not empty dict)
+            selections = row['selections'] or {}
+            has_selections = bool(selections) and isinstance(selections, dict) and len(selections) > 0
+            
+            if has_actual_results and has_scores:
+                status = "validated"
+            elif has_actual_results and has_selections:
+                status = "probabilities_computed"
+            elif has_actual_results:
+                status = "imported"
+            else:
+                status = "pending"
+            
+            # Calculate correct predictions from scores
+            # Try to get from scores first (most accurate)
+            correct_predictions = None
+            if row['scores']:
+                # Get the first set's score (usually Set A)
+                scores_dict = row['scores'] if isinstance(row['scores'], dict) else {}
+                first_set_score = None
+                for set_id in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']:
+                    if set_id in scores_dict:
+                        first_set_score = scores_dict[set_id]
+                        break
+                
+                if first_set_score and isinstance(first_set_score, dict):
+                    correct_predictions = first_set_score.get('correct')
+            
+            # Get date (prefer kickoff_date, fallback to created_at)
+            date_value = row['kickoff_date'] or row['jackpot_created_at'] or row['created_at']
+            
+            imported_jackpots.append({
+                "id": str(row['id']),
+                "jackpotId": jackpot_id,
+                "date": date_value.isoformat() if date_value else None,
+                "matches": total_fixtures,
+                "status": status,
+                "correctPredictions": correct_predictions
+            })
+        
+        # Sort by date descending (most recent first)
+        imported_jackpots.sort(key=lambda x: x.get("date") or "", reverse=True)
+        
+        return ApiResponse(
+            success=True,
+            message=f"Found {len(imported_jackpots)} imported jackpots",
+            data={"jackpots": imported_jackpots}
+        )
+    except Exception as e:
+        logger.error(f"Error fetching imported jackpots: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -843,7 +1539,9 @@ async def export_validation_to_training(
                 # Re-calculate probabilities for this jackpot to get set probabilities
                 # This ensures we have the correct probabilities for the set
                 prob_response = await calculate_probabilities(saved_result.jackpot_id, db)
-                all_probability_sets = prob_response.get("probabilitySets", {})
+                # Extract data from ApiResponse if needed
+                prob_data = prob_response.data if hasattr(prob_response, 'data') else prob_response
+                all_probability_sets = prob_data.get("probabilitySets", {})
                 
                 set_probabilities = all_probability_sets.get(set_id)
                 if not set_probabilities or len(set_probabilities) != len(fixtures):
@@ -876,18 +1574,37 @@ async def export_validation_to_training(
                 
                 for idx, fixture in enumerate(fixtures):
                     fixture_id = str(fixture.id)
-                    actual_result_str = saved_result.actual_results.get(fixture_id) if saved_result.actual_results else None
+                    match_number = str(idx + 1)  # 1-indexed match number (from CSV: "1", "2", "3", ...)
+                    
+                    # actual_results uses match numbers (1-indexed) as keys from CSV import, not fixture IDs
+                    # Priority: match number (1-indexed) > fixture ID > index (0-indexed) > by position
+                    actual_result_str = None
+                    if saved_result.actual_results:
+                        actual_result_str = (
+                            saved_result.actual_results.get(match_number) or
+                            saved_result.actual_results.get(fixture_id) or
+                            saved_result.actual_results.get(str(idx)) or
+                            (list(saved_result.actual_results.values())[idx] if idx < len(saved_result.actual_results) else None)
+                        )
                     
                     if not actual_result_str:
+                        logger.warning(f"No actual result found for fixture {fixture_id} (match {match_number}) in saved_result {saved_result_id}")
                         continue
                     
                     total_matches += 1
                     actual_result = convert_result(actual_result_str)
                     
                     # Get prediction for this set
+                    # selections also use match numbers (1-indexed) as keys
                     prediction_for_fixture = None
                     if saved_result.selections and saved_result.selections.get(set_id):
-                        prediction_for_fixture = saved_result.selections[set_id].get(fixture_id)
+                        set_selections = saved_result.selections[set_id]
+                        prediction_for_fixture = (
+                            set_selections.get(match_number) or
+                            set_selections.get(fixture_id) or
+                            set_selections.get(str(idx)) or
+                            (list(set_selections.values())[idx] if idx < len(set_selections) else None)
+                        )
                     
                     # If no saved selection, use highest probability
                     if not prediction_for_fixture:

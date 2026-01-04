@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+P1,1920,2019-08-09,Portimonense,Belenenses,7,7,False
+P1,1920,2019-08-10,Santa Clara,Famalicao,7,7,False
+P1,1920,2019-08-10,Benfica,Pacos Ferreira,7,7,False
+P1,1920,2019-08-10,Gil Vicente,Porto,7,7,False
+P1,1920,2019-08-11,Boavista,AVS,7,7,False
+P1,1920,2019-08-11,Maritimo,Sp Lisbon,7,7,False
+P1,1920,2019-08-11,Sp Braga,Moreirense,7,7,False
+P1,1920,2019-08-12,Setubal,Tondela,7,7,False
+P1,1920,2019-08-16,Famalicao,Rio Ave,6,7,False
+P1,1920,2019-08-17,Belenenses,Benfica,8,7,False
+P1,1920,2019-08-17,Porto,Setubal,7,5,False
+P1,1920,2019-08-17,Moreirense,Gil Vicente,6,7,False
+P1,1920,2019-08-18,Pacos Ferreira,Santa Clara,8,8,False
+P1,1920,2019-08-18,Guimaraes,Boavista,7,7,False
+P1,1920,2019-08-18,Sp Lisbon,Sp Braga,7,7,False
+P1,1920,2019-08-18,AVS,Maritimo,7,7,False
+P1,1920,2019-08-19,Tondela,Portimonense,7,10,False
+P1,1920,2019-08-23,Rio Ave,AVS,7,5,False
+P1,1920,2019-08-23,Setubal,Moreirense,6,6,False
+P1,1920,2019-08-24,Boavista,Pacos Ferreira,6,6,False
+P1,1920,2019-08-24,Benfica,Porto,7,7,False
+P1,1920,2019-08-25,Santa Clara,Belenenses,7,8,False
+P1,1920,2019-08-25,Portimonense,Sp Lisbon,6,7,False
+P1,1920,2019-08-25,Gil Vicente,Sp Braga,8,7,False
+P1,1920,2019-08-25,Guimaraes,Famalicao,7,9,False
+P1,1920,2019-08-25,Maritimo,Tondela,7,6,False
+P1,1920,2019-08-30,Belenenses,Boavista,5,6,False
+P1,1920,2019-08-30,Moreirense,Portimonense,7,5,False
+P1,1920,2019-08-31,Pacos Ferreira,Maritimo,7,6,False
+P1,1920,2019-08-31,Sp Lisbon,Rio Ave,6,8,False
+P1,1920,2019-08-31,Gil Vicente,Setubal,6,8,False
+P1,1920,2019-08-31,AVS,Famalicao,8,6,False
+P1,1920,2019-09-01,Porto,Guimaraes,8,7,False
+P1,1920,2019-09-01,Sp Braga,Benfica,7,8,False
+P1,1920,2019-09-01,Tondela,Santa Clara,7,7,False
+P1,1920,2019-09-08,Rio Ave,Guimaraes,8,7,False
+P1,1920,2019-09-13,Setubal,Sp Braga,13,12,False
+P1,1920,2019-09-14,Famalicao,Pacos Ferreira,14,14,False
+P1,1920,2019-09-14,Benfica,Gil Vicente,13,14,False
+P1,1920,2019-09-14,Guimaraes,AVS,6,14,False
+P1,1920,2019-09-15,Rio Ave,Tondela,7,14,False
+P1,1920,2019-09-15,Santa Clara,Moreirense,14,16,False
+P1,1920,2019-09-15,Portimonense,Porto,16,14,False
+P1,1920,2019-09-15,Boavista,Sp Lisbon,16,15,False
+P1,1920,2019-09-15,Maritimo,Belenenses,15,16,False
+P1,1920,2019-09-20,Pacos Ferreira,AVS,6,6,False
+P1,1920,2019-09-21,Moreirense,Benfica,6,7,False
+P1,1920,2019-09-21,Belenenses,Rio Ave,6,6,False
+P1,1920,2019-09-22,Setubal,Portimonense,9,7,False
+P1,1920,2019-09-22,Tondela,Guimaraes,7,8,False
+P1,1920,2019-09-22,Porto,Santa Clara,7,7,False
+P1,1920,2019-09-22,Gil Vicente,Boavista,8,7,False
+P1,1920,2019-09-23,Sp Lisbon,Famalicao,8,9,False
+P1,1920,2019-09-23,Sp Braga,Maritimo,10,8,False
+P1,1920,2019-09-27,Boavista,Tondela,5,5,False
+P1,1920,2019-09-28,Benfica,Setubal,7,6,False
+P1,1920,2019-09-28,Famalicao,Belenenses,5,7,False
+P1,1920,2019-09-28,Maritimo,Moreirense,5,7,False
+P1,1920,2019-09-29,Santa Clara,Gil Vicente,7,7,False
+P1,1920,2019-09-29,Portimonense,Sp Braga,7,6,False
+P1,1920,2019-09-29,Rio Ave,Porto,8,7,False
+P1,1920,2019-09-29,Guimaraes,Pacos Ferreira,7,9,False
+P1,1920,2019-09-30,AVS,Sp Lisbon,10,7,False
+P1,1920,2019-10-05,AVS,Tondela,5,8,False
+P1,1920,2019-10-25,Pacos Ferreira,Rio Ave,26,26,False
+P1,1920,2019-10-26,Gil Vicente,Portimonense,27,27,False
+P1,1920,2019-10-26,Setubal,Maritimo,28,28,False
+P1,1920,2019-10-26,Moreirense,Boavista,28,29,False
+P1,1920,2019-10-26,Belenenses,AVS,28,21,False
+P1,1920,2019-10-27,Porto,Famalicao,28,29,False
+P1,1920,2019-10-27,Sp Lisbon,Guimaraes,27,28,False
+P1,1920,2019-10-27,Tondela,Benfica,22,29,False
+P1,1920,2019-10-28,Sp Braga,Santa Clara,29,29,False
+P1,1920,2019-10-30,Famalicao,Gil Vicente,3,4,True
+P1,1920,2019-10-30,Rio Ave,Moreirense,5,4,True
+P1,1920,2019-10-30,Maritimo,Porto,4,3,True
+P1,1920,2019-10-30,Guimaraes,Belenenses,3,4,True
+P1,1920,2019-10-30,Benfica,Portimonense,3,4,True
+P1,1920,2019-10-31,Pacos Ferreira,Sp Lisbon,6,4,True
+P1,1920,2019-10-31,Santa Clara,Setubal,3,5,True
+P1,1920,2019-10-31,Boavista,Sp Braga,5,3,True
+P1,1920,2019-11-02,Moreirense,Guimaraes,3,3,False
+P1,1920,2019-11-02,Benfica,Rio Ave,3,3,False
+P1,1920,2019-11-03,Tondela,Sp Lisbon,7,3,False
+P1,1920,2019-11-03,Porto,AVS,4,8,False
+P1,1920,2019-11-03,Sp Braga,Famalicao,3,4,False
+P1,1920,2019-11-03,Gil Vicente,Maritimo,4,4,False
+P1,1920,2019-11-04,Portimonense,Santa Clara,5,4,False
+P1,1920,2019-11-04,Setubal,Boavista,4,4,False
+P1,1920,2019-11-04,Belenenses,Pacos Ferreira,5,4,False
+P1,1920,2019-11-08,AVS,Gil Vicente,5,5,False
+P1,1920,2019-11-09,Santa Clara,Benfica,5,7,False
+P1,1920,2019-11-09,Famalicao,Moreirense,6,7,False
+P1,1920,2019-11-09,Rio Ave,Setubal,7,5,False
+P1,1920,2019-11-10,Pacos Ferreira,Tondela,6,7,False
+P1,1920,2019-11-10,Sp Lisbon,Belenenses,7,6,False
+P1,1920,2019-11-10,Guimaraes,Sp Braga,8,7,False
+P1,1920,2019-11-10,Boavista,Porto,6,7,False
+P1,1920,2019-11-10,Maritimo,Portimonense,7,6,False
+P1,1920,2019-11-29,Santa Clara,Boavista,20,19,False
+P1,1920,2019-11-30,Benfica,Maritimo,21,20,False
+P1,1920,2019-11-30,Portimonense,Famalicao,20,21,False
+P1,1920,2019-11-30,Moreirense,AVS,21,22,False
+P1,1920,2019-12-01,Setubal,Guimaraes,22,21,False
+P1,1920,2019-12-01,Gil Vicente,Sp Lisbon,23,21,False
+P1,1920,2019-12-01,Tondela,Belenenses,21,21,False
+P1,1920,2019-12-02,Porto,Pacos Ferreira,22,22,False
+P1,1920,2019-12-02,Sp Braga,Rio Ave,22,23,False
+P1,1920,2019-12-06,Boavista,Benfica,7,6,False
+P1,1920,2019-12-07,Famalicao,Tondela,7,6,False
+P1,1920,2019-12-07,AVS,Sp Braga,7,5,False
+P1,1920,2019-12-07,Maritimo,Santa Clara,7,8,False
+P1,1920,2019-12-08,Pacos Ferreira,Setubal,6,7,False
+P1,1920,2019-12-08,Sp Lisbon,Moreirense,7,8,False
+P1,1920,2019-12-08,Belenenses,Porto,7,6,False
+P1,1920,2019-12-08,Guimaraes,Portimonense,7,8,False
+P1,1920,2019-12-09,Rio Ave,Gil Vicente,7,8,False
+P1,1920,2019-12-13,Portimonense,Rio Ave,5,4,False
+P1,1920,2019-12-14,Benfica,Famalicao,8,7,False
+P1,1920,2019-12-14,Setubal,AVS,6,7,False
+P1,1920,2019-12-14,Maritimo,Boavista,7,8,False
+P1,1920,2019-12-15,Gil Vicente,Guimaraes,6,7,False
+P1,1920,2019-12-15,Sp Braga,Pacos Ferreira,8,7,False
+P1,1920,2019-12-15,Moreirense,Belenenses,7,7,False
+P1,1920,2019-12-16,Porto,Tondela,8,9,False
+P1,1920,2019-12-16,Santa Clara,Sp Lisbon,9,8,False
+P1,1920,2020-01-04,Boavista,Portimonense,21,22,False
+P1,1920,2020-01-04,Belenenses,Sp Braga,20,20,False
+P1,1920,2020-01-04,Guimaraes,Benfica,20,21,False
+P1,1920,2020-01-04,AVS,Santa Clara,21,19,False
+P1,1920,2020-01-05,Rio Ave,Maritimo,23,22,False
+P1,1920,2020-01-05,Tondela,Gil Vicente,20,21,False
+P1,1920,2020-01-05,Sp Lisbon,Porto,20,20,False
+P1,1920,2020-01-05,Famalicao,Setubal,22,22,False
+P1,1920,2020-01-05,Pacos Ferreira,Moreirense,21,21,False
+P1,1920,2020-01-10,Santa Clara,Rio Ave,6,5,False
+P1,1920,2020-01-10,Moreirense,Porto,5,5,False
+P1,1920,2020-01-10,Benfica,AVS,6,6,False
+P1,1920,2020-01-11,Boavista,Famalicao,7,6,False
+P1,1920,2020-01-11,Setubal,Sp Lisbon,6,6,False
+P1,1920,2020-01-11,Portimonense,Pacos Ferreira,7,6,False
+P1,1920,2020-01-12,Maritimo,Guimaraes,7,8,False
+P1,1920,2020-01-12,Sp Braga,Tondela,8,7,False
+P1,1920,2020-01-12,Gil Vicente,Belenenses,7,8,False
+P1,1920,2020-01-17,Sp Lisbon,Benfica,6,7,False
+P1,1920,2020-01-17,Porto,Sp Braga,7,5,False
+P1,1920,2020-01-18,Tondela,Moreirense,6,8,False
+P1,1920,2020-01-18,Belenenses,Setubal,6,7,False
+P1,1920,2020-01-18,AVS,Portimonense,8,7,False
+P1,1920,2020-01-18,Guimaraes,Santa Clara,6,8,False
+P1,1920,2020-01-19,Pacos Ferreira,Gil Vicente,8,7,False
+P1,1920,2020-01-19,Famalicao,Maritimo,8,7,False
+P1,1920,2020-01-19,Rio Ave,Boavista,9,8,False
+P1,1920,2020-01-26,Famalicao,Santa Clara,7,8,False
+P1,1920,2020-01-26,Belenenses,Portimonense,8,8,False
+P1,1920,2020-01-26,Tondela,Setubal,8,8,False
+P1,1920,2020-01-26,Pacos Ferreira,Benfica,7,9,False
+P1,1920,2020-01-26,AVS,Boavista,8,7,False
+P1,1920,2020-01-27,Guimaraes,Rio Ave,9,8,False
+P1,1920,2020-01-27,Sp Lisbon,Maritimo,10,8,False
+P1,1920,2020-01-28,Porto,Gil Vicente,11,9,True
+P1,1920,2020-01-29,Moreirense,Sp Braga,11,12,True
+P1,1920,2020-01-31,Rio Ave,Famalicao,4,5,False
+P1,1920,2020-01-31,Benfica,Belenenses,5,5,False
+P1,1920,2020-02-01,Setubal,Porto,6,4,False
+P1,1920,2020-02-01,Portimonense,Tondela,6,6,False
+P1,1920,2020-02-02,Maritimo,AVS,6,7,False
+P1,1920,2020-02-02,Santa Clara,Pacos Ferreira,7,7,False
+P1,1920,2020-02-02,Sp Braga,Sp Lisbon,4,6,False
+P1,1920,2020-02-02,Boavista,Guimaraes,7,6,False
+P1,1920,2020-02-02,Gil Vicente,Moreirense,5,4,False
+P1,1920,2020-02-07,Pacos Ferreira,Boavista,5,5,False
+P1,1920,2020-02-08,Famalicao,Guimaraes,8,6,False
+P1,1920,2020-02-08,Sp Braga,Gil Vicente,6,6,False
+P1,1920,2020-02-08,Porto,Benfica,7,8,False
+P1,1920,2020-02-08,Belenenses,Santa Clara,8,6,False
+P1,1920,2020-02-09,Tondela,Maritimo,8,7,False
+P1,1920,2020-02-09,Sp Lisbon,Portimonense,7,8,False
+P1,1920,2020-02-09,AVS,Rio Ave,7,9,False
+P1,1920,2020-02-09,Moreirense,Setubal,7,8,False
+P1,1920,2020-02-14,Setubal,Gil Vicente,5,6,False
+P1,1920,2020-02-15,Santa Clara,Tondela,7,6,False
+P1,1920,2020-02-15,Benfica,Sp Braga,7,7,False
+P1,1920,2020-02-15,Rio Ave,Sp Lisbon,6,6,False
+P1,1920,2020-02-15,Portimonense,Moreirense,6,6,False
+P1,1920,2020-02-16,Boavista,Belenenses,9,8,False
+P1,1920,2020-02-16,Guimaraes,Porto,8,8,False
+P1,1920,2020-02-16,Famalicao,AVS,8,7,False
+P1,1920,2020-02-16,Maritimo,Pacos Ferreira,7,9,False
+P1,1920,2020-02-21,AVS,Guimaraes,5,5,False
+P1,1920,2020-02-22,Belenenses,Maritimo,6,6,False
+P1,1920,2020-02-22,Tondela,Rio Ave,7,7,False
+P1,1920,2020-02-23,Porto,Portimonense,7,8,False
+P1,1920,2020-02-23,Moreirense,Santa Clara,8,8,False
+P1,1920,2020-02-23,Pacos Ferreira,Famalicao,7,7,False
+P1,1920,2020-02-23,Sp Lisbon,Boavista,8,7,False
+P1,1920,2020-02-23,Sp Braga,Setubal,8,9,False
+P1,1920,2020-02-24,Gil Vicente,Benfica,10,9,False
+P1,1920,2020-02-28,Portimonense,Setubal,5,5,False
+P1,1920,2020-02-29,Boavista,Gil Vicente,6,5,False
+P1,1920,2020-02-29,Rio Ave,Belenenses,7,7,False
+P1,1920,2020-03-01,Maritimo,Sp Braga,8,7,False
+P1,1920,2020-03-01,Guimaraes,Tondela,9,8,False
+P1,1920,2020-03-01,AVS,Pacos Ferreira,9,7,False
+P1,1920,2020-03-02,Benfica,Moreirense,7,8,False
+P1,1920,2020-03-02,Santa Clara,Porto,8,8,False
+P1,1920,2020-03-03,Famalicao,Sp Lisbon,9,9,True
+P1,1920,2020-03-06,Sp Braga,Portimonense,5,7,False
+P1,1920,2020-03-07,Setubal,Benfica,8,5,False
+P1,1920,2020-03-07,Porto,Rio Ave,5,7,False
+P1,1920,2020-03-07,Tondela,Boavista,6,7,False
+P1,1920,2020-03-08,Moreirense,Maritimo,6,7,False
+P1,1920,2020-03-08,Gil Vicente,Santa Clara,8,6,False
+P1,1920,2020-03-08,Sp Lisbon,AVS,5,7,False
+P1,1920,2020-03-08,Pacos Ferreira,Guimaraes,7,7,False
+P1,1920,2020-03-08,Belenenses,Famalicao,8,5,False
+P1,1920,2020-06-03,Famalicao,Porto,87,88,True
+P1,1920,2020-06-03,Portimonense,Gil Vicente,89,87,True
+P1,1920,2020-06-04,Benfica,Tondela,89,89,True
+P1,1920,2020-06-04,Guimaraes,Sp Lisbon,88,88,True
+P1,1920,2020-06-04,Maritimo,Setubal,88,89,True
+P1,1920,2020-06-05,AVS,Belenenses,89,89,False
+P1,1920,2020-06-05,Santa Clara,Sp Braga,89,91,False
+P1,1920,2020-06-06,Boavista,Moreirense,91,90,False
+P1,1920,2020-06-07,Rio Ave,Pacos Ferreira,92,91,False
+P1,1920,2020-06-09,Gil Vicente,Famalicao,6,6,True
+P1,1920,2020-06-10,Portimonense,Benfica,7,6,True
+P1,1920,2020-06-10,Porto,Maritimo,7,6,True
+P1,1920,2020-06-10,Setubal,Santa Clara,6,5,True
+P1,1920,2020-06-11,Tondela,AVS,7,6,True
+P1,1920,2020-06-11,Belenenses,Guimaraes,6,7,True
+P1,1920,2020-06-12,Moreirense,Rio Ave,6,5,False
+P1,1920,2020-06-12,Sp Lisbon,Pacos Ferreira,8,5,False
+P1,1920,2020-06-13,Sp Braga,Boavista,8,7,False
+P1,1920,2020-06-15,Maritimo,Gil Vicente,5,6,False
+P1,1920,2020-06-16,Santa Clara,Portimonense,6,6,True
+P1,1920,2020-06-16,AVS,Porto,5,6,True
+P1,1920,2020-06-17,Rio Ave,Benfica,5,7,True
+P1,1920,2020-06-17,Pacos Ferreira,Belenenses,5,6,True
+P1,1920,2020-06-18,Sp Lisbon,Tondela,6,7,True
+P1,1920,2020-06-18,Boavista,Setubal,5,8,True
+P1,1920,2020-06-19,Famalicao,Sp Braga,10,6,False
+P1,1920,2020-06-19,Guimaraes,Moreirense,8,7,False
+P1,1920,2020-06-21,Gil Vicente,AVS,6,5,False
+P1,1920,2020-06-22,Portimonense,Maritimo,6,7,False
+P1,1920,2020-06-23,Benfica,Santa Clara,6,7,True
+P1,1920,2020-06-23,Porto,Boavista,7,5,True
+P1,1920,2020-06-23,Setubal,Rio Ave,5,6,True
+P1,1920,2020-06-24,Moreirense,Famalicao,5,5,True
+P1,1920,2020-06-24,Tondela,Pacos Ferreira,6,7,True
+P1,1920,2020-06-25,Sp Braga,Guimaraes,6,6,True
+P1,1920,2020-06-26,Belenenses,Sp Lisbon,9,8,False
+P1,1920,2020-06-28,Boavista,Santa Clara,5,5,False
+P1,1920,2020-06-29,Maritimo,Benfica,7,6,False
+P1,1920,2020-06-29,Pacos Ferreira,Porto,5,6,False
+P1,1920,2020-06-29,AVS,Moreirense,8,5,False
+P1,1920,2020-06-30,Guimaraes,Setubal,5,7,True
+P1,1920,2020-06-30,Rio Ave,Sp Braga,7,5,True
+P1,1920,2020-06-30,Famalicao,Portimonense,6,8,True
+P1,1920,2020-07-01,Sp Lisbon,Gil Vicente,5,10,True
+P1,1920,2020-07-01,Belenenses,Tondela,5,7,True
+P1,1920,2020-07-03,Santa Clara,Maritimo,5,4,False
+P1,1920,2020-07-04,Portimonense,Guimaraes,4,4,False
+P1,1920,2020-07-04,Benfica,Boavista,5,6,False
+P1,1920,2020-07-04,Sp Braga,AVS,4,5,False
+P1,1920,2020-07-04,Setubal,Pacos Ferreira,4,5,False
+P1,1920,2020-07-05,Tondela,Famalicao,4,5,False
+P1,1920,2020-07-05,Porto,Belenenses,6,4,False
+P1,1920,2020-07-05,Gil Vicente,Rio Ave,4,5,False
+P1,1920,2020-07-06,Moreirense,Sp Lisbon,7,5,False
+P1,1920,2020-07-08,AVS,Setubal,4,4,True
+P1,1920,2020-07-08,Boavista,Maritimo,4,5,True
+P1,1920,2020-07-09,Tondela,Porto,4,4,True
+P1,1920,2020-07-09,Famalicao,Benfica,4,5,True
+P1,1920,2020-07-09,Rio Ave,Portimonense,4,5,True
+P1,1920,2020-07-10,Sp Lisbon,Santa Clara,4,7,False
+P1,1920,2020-07-10,Pacos Ferreira,Sp Braga,6,6,False
+P1,1920,2020-07-10,Guimaraes,Gil Vicente,6,5,False
+P1,1920,2020-07-11,Belenenses,Moreirense,6,5,False
+P1,1920,2020-07-13,Setubal,Famalicao,5,4,False
+P1,1920,2020-07-13,Maritimo,Rio Ave,5,4,False
+P1,1920,2020-07-14,Portimonense,Boavista,5,6,True
+P1,1920,2020-07-14,Benfica,Guimaraes,5,4,True
+P1,1920,2020-07-14,Gil Vicente,Tondela,4,5,True
+P1,1920,2020-07-14,Santa Clara,AVS,4,6,True
+P1,1920,2020-07-15,Sp Braga,Belenenses,5,4,True
+P1,1920,2020-07-15,Porto,Sp Lisbon,6,5,True
+P1,1920,2020-07-15,Moreirense,Pacos Ferreira,4,5,True
+P1,1920,2020-07-18,Famalicao,Boavista,5,4,False
+P1,1920,2020-07-18,Rio Ave,Santa Clara,5,4,False
+P1,1920,2020-07-19,Guimaraes,Maritimo,5,6,False
+P1,1920,2020-07-19,Belenenses,Gil Vicente,4,5,False
+P1,1920,2020-07-20,Tondela,Sp Braga,6,5,False
+P1,1920,2020-07-20,Porto,Moreirense,5,5,False
+P1,1920,2020-07-20,Pacos Ferreira,Portimonense,5,6,False
+P1,1920,2020-07-21,AVS,Benfica,7,7,True
+P1,1920,2020-07-21,Sp Lisbon,Setubal,6,8,True
+P1,1920,2020-07-24,Gil Vicente,Pacos Ferreira,5,4,False
+P1,1920,2020-07-24,Santa Clara,Guimaraes,6,5,False
+P1,1920,2020-07-25,Benfica,Sp Lisbon,4,4,False
+P1,1920,2020-07-25,Sp Braga,Porto,5,5,False
+P1,1920,2020-07-25,Boavista,Rio Ave,7,7,False
+P1,1920,2020-07-25,Maritimo,Famalicao,6,7,False
+P1,1920,2020-07-26,Moreirense,Tondela,6,6,False
+P1,1920,2020-07-26,Portimonense,AVS,6,5,False
+P1,1920,2020-07-26,Setubal,Belenenses,5,7,False

@@ -1,0 +1,306 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+JPN1,2324,2023-02-17,Kawasaki Frontale,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Nagoya Grampus,721,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Hokkaido Consadole Sapporo,7,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Kashima Antlers,721,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Kawasaki Frontale,7,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Kashima Antlers,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Kyoto Sanga FC,721,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Nagoya Grampus,7,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Avispa Fukuoka,721,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Avispa Fukuoka,7,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Sanfrecce Hiroshima,721,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Kashima Antlers,7,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Hokkaido Consadole Sapporo,721,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Albirex Niigata,721,7,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Kashiwa Reysol,7,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Albirex Niigata,Yokohama F. Marinos,7,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Kawasaki Frontale,721,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Gamba Osaka,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Gamba Osaka,7,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Sagan Tosu,721,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Kyoto Sanga FC,7,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Urawa Red Diamonds,721,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Sanfrecce Hiroshima,7,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Gamba Osaka,721,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Vissel Kobe,7,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Vissel Kobe,721,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Shonan Bellmare,7,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,FC Tokyo,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Cerezo Osaka,721,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Yokohama FC,Yokohama F. Marinos,721,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Urawa Red Diamonds,7,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Kashiwa Reysol,721,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Albirex Niigata,Yokohama FC,7,721,False
+JPN1,2324,2023-02-17,FC Tokyo,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Sagan Tosu,7,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,FC Tokyo,721,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Shonan Bellmare,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,FC Tokyo,7,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Kashiwa Reysol,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Cerezo Osaka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Kawasaki Frontale,Kashima Antlers,364,364,False
+JPN1,2324,2023-02-17,Yokohama F. Marinos,Albirex Niigata,364,7,False
+JPN1,2324,2023-02-17,Cerezo Osaka,Kyoto Sanga FC,364,364,False
+JPN1,2324,2023-02-17,FC Tokyo,Hokkaido Consadole Sapporo,364,364,False
+JPN1,2324,2023-02-17,Kashiwa Reysol,Sagan Tosu,364,364,False
+JPN1,2324,2023-02-17,Sanfrecce Hiroshima,Gamba Osaka,364,364,False
+JPN1,2324,2023-02-17,Urawa Red Diamonds,Avispa Fukuoka,364,364,False
+JPN1,2324,2023-02-17,Vissel Kobe,Nagoya Grampus,364,364,False
+JPN1,2324,2023-02-17,Yokohama FC,Shonan Bellmare,721,364,False
+JPN1,2324,2023-02-17,Albirex Niigata,Cerezo Osaka,7,364,False
+JPN1,2324,2023-02-17,Avispa Fukuoka,Sanfrecce Hiroshima,364,364,False
+JPN1,2324,2023-02-17,Hokkaido Consadole Sapporo,Urawa Red Diamonds,364,364,False
+JPN1,2324,2023-02-17,Gamba Osaka,Vissel Kobe,364,364,False
+JPN1,2324,2023-02-17,Kashima Antlers,Yokohama FC,364,721,False
+JPN1,2324,2023-02-17,Kyoto Sanga FC,Yokohama F. Marinos,364,364,False
+JPN1,2324,2023-02-17,Sagan Tosu,Kawasaki Frontale,364,364,False
+JPN1,2324,2023-02-17,Shonan Bellmare,FC Tokyo,364,364,False
+JPN1,2324,2023-02-17,Nagoya Grampus,Kashiwa Reysol,364,364,False

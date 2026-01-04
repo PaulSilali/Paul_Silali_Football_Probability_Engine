@@ -4,6 +4,8 @@ import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, File
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import {
   Table,
   TableBody,
@@ -552,26 +554,17 @@ export default function JackpotInput() {
     );
 
   return (
-    <div className="p-6 space-y-6">
-      {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 animate-fade-in">
-        <div className="flex items-center gap-3">
-          <div className="p-2 rounded-lg bg-primary/10 glow-primary">
-            <Target className="h-5 w-5 text-primary" />
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold gradient-text">Jackpot Input</h1>
-            <p className="text-sm text-muted-foreground">
-              Enter fixtures and their corresponding decimal odds
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center gap-2 animate-slide-in-right">
+    <PageLayout
+      title="Jackpot Input"
+      description="Enter fixtures and their corresponding decimal odds"
+      icon={<Target className="h-6 w-6" />}
+      action={
+        <div className="flex items-center gap-2">
           <Button 
             variant="outline" 
             size="sm" 
             onClick={() => setIsPDFDialogOpen(true)}
-            className="glass-card border-accent/30 hover:bg-accent/10"
+            className="btn-glow"
           >
             <FileText className="h-4 w-4 mr-2" />
             Import PDF
@@ -612,7 +605,8 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
             Add Fixture
           </Button>
         </div>
-      </div>
+      }
+    >
 
       {validationErrors.length > 0 && (
         <Alert variant="destructive" className="animate-fade-in border-destructive/50 bg-destructive/10">
@@ -1015,6 +1009,6 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
         onOpenChange={setIsPDFDialogOpen}
         onImport={handlePDFImport}
       />
-    </div>
+    </PageLayout>
   );
 }

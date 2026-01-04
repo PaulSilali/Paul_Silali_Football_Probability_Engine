@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+489,Gil Vicente,496,Pacos Ferreira,2021,2,0,0.0,2.5
+480,Porto,495,Maritimo,2021,2,0,0.0,4.0
+477,Moreirense,496,Pacos Ferreira,2021,2,0,0.0,2.0
+484,Benfica,492,Portimonense,2021,2,0,0.0,4.5
+487,Santa Clara,490,Boavista,2021,2,2,1.0,4.0
+487,Santa Clara,491,Farense,2021,2,1,0.5,3.0
+485,Rio Ave,490,Boavista,2021,2,2,1.0,3.0
+495,Maritimo,496,Pacos Ferreira,2021,2,1,0.5,2.5
+489,Gil Vicente,495,Maritimo,2021,2,0,0.0,1.0
+485,Rio Ave,492,Portimonense,2021,2,1,0.5,1.5
+489,Gil Vicente,491,Farense,2021,2,1,0.5,2.0
+484,Benfica,491,Farense,2021,2,1,0.5,2.5
+489,Gil Vicente,497,Belenenses,2021,2,1,0.5,1.5
+474,Nacional,491,Farense,2021,2,0,0.0,3.0
+480,Porto,489,Gil Vicente,2021,2,0,0.0,1.5
+485,Rio Ave,495,Maritimo,2021,2,0,0.0,2.5
+483,Guimaraes,484,Benfica,2021,2,1,0.5,2.0
+477,Moreirense,497,Belenenses,2021,2,2,1.0,2.0
+488,Sp Lisbon,497,Belenenses,2021,2,1,0.5,3.5
+474,Nacional,480,Porto,2021,2,0,0.0,1.5
+476,Famalicao,492,Portimonense,2021,2,1,0.5,0.5
+487,Santa Clara,492,Portimonense,2021,2,0,0.0,2.5
+484,Benfica,485,Rio Ave,2021,2,0,0.0,2.5
+476,Famalicao,483,Guimaraes,2021,2,0,0.0,2.0
+489,Gil Vicente,492,Portimonense,2021,2,0,0.0,3.0
+476,Famalicao,491,Farense,2021,2,2,1.0,3.0
+476,Famalicao,496,Pacos Ferreira,2021,2,0,0.0,2.0
+487,Santa Clara,496,Pacos Ferreira,2021,2,0,0.0,3.0
+477,Moreirense,483,Guimaraes,2021,2,1,0.5,3.0
+480,Porto,483,Guimaraes,2021,2,0,0.0,3.0
+488,Sp Lisbon,496,Pacos Ferreira,2021,2,0,0.0,2.0
+483,Guimaraes,488,Sp Lisbon,2021,2,0,0.0,2.5
+485,Rio Ave,487,Santa Clara,2021,2,0,0.0,2.0
+485,Rio Ave,496,Pacos Ferreira,2021,2,1,0.5,2.0
+490,Boavista,492,Portimonense,2021,2,0,0.0,2.0
+478,Sp Braga,487,Santa Clara,2021,2,0,0.0,1.0
+483,Guimaraes,492,Portimonense,2021,2,0,0.0,2.0
+478,Sp Braga,485,Rio Ave,2021,2,1,0.5,1.5
+477,Moreirense,495,Maritimo,2021,2,0,0.0,2.5
+487,Santa Clara,489,Gil Vicente,2021,2,1,0.5,0.5
+477,Moreirense,485,Rio Ave,2021,2,1,0.5,2.0
+482,Tondela,489,Gil Vicente,2021,2,1,0.5,1.5
+478,Sp Braga,484,Benfica,2021,2,0,0.0,3.5
+488,Sp Lisbon,492,Portimonense,2021,2,0,0.0,2.0
+484,Benfica,497,Belenenses,2021,2,0,0.0,2.5
+480,Porto,487,Santa Clara,2021,2,0,0.0,2.0
+488,Sp Lisbon,489,Gil Vicente,2021,2,0,0.0,3.5
+478,Sp Braga,496,Pacos Ferreira,2021,2,1,0.5,2.0
+476,Famalicao,487,Santa Clara,2021,2,0,0.0,2.0
+492,Portimonense,495,Maritimo,2021,2,1,0.5,1.5
+483,Guimaraes,490,Boavista,2021,2,0,0.0,2.0
+484,Benfica,489,Gil Vicente,2021,2,0,0.0,2.5
+480,Porto,492,Portimonense,2021,2,0,0.0,3.5
+474,Nacional,489,Gil Vicente,2021,2,0,0.0,2.5
+487,Santa Clara,495,Maritimo,2021,2,0,0.0,2.5
+478,Sp Braga,480,Porto,2021,2,1,0.5,4.0
+491,Farense,497,Belenenses,2021,2,1,0.5,1.5
+482,Tondela,483,Guimaraes,2021,2,0,0.0,2.5
+484,Benfica,487,Santa Clara,2021,2,1,0.5,2.5
+480,Porto,485,Rio Ave,2021,2,0,0.0,2.5
+477,Moreirense,488,Sp Lisbon,2021,2,1,0.5,2.5
+483,Guimaraes,489,Gil Vicente,2021,2,0,0.0,4.5
+478,Sp Braga,492,Portimonense,2021,2,1,0.5,1.5
+476,Famalicao,497,Belenenses,2021,2,1,0.5,1.5
+490,Boavista,497,Belenenses,2021,2,1,0.5,1.0
+476,Famalicao,495,Maritimo,2021,2,0,0.0,3.5
+476,Famalicao,490,Boavista,2021,2,1,0.5,3.5
+480,Porto,491,Farense,2021,2,0,0.0,3.5
+474,Nacional,477,Moreirense,2021,2,1,0.5,2.5
+476,Famalicao,488,Sp Lisbon,2021,2,2,1.0,3.0
+478,Sp Braga,483,Guimaraes,2021,2,0,0.0,2.0
+480,Porto,482,Tondela,2021,2,0,0.0,4.5
+477,Moreirense,480,Porto,2021,2,1,0.5,2.5
+483,Guimaraes,491,Farense,2021,2,2,1.0,4.0
+476,Famalicao,478,Sp Braga,2021,2,1,0.5,2.5
+477,Moreirense,491,Farense,2021,2,0,0.0,2.5
+484,Benfica,495,Maritimo,2021,2,0,0.0,2.0
+474,Nacional,478,Sp Braga,2021,2,0,0.0,3.0
+478,Sp Braga,490,Boavista,2021,2,0,0.0,4.0
+474,Nacional,485,Rio Ave,2021,2,1,0.5,1.5
+482,Tondela,496,Pacos Ferreira,2021,2,0,0.0,4.0
+474,Nacional,495,Maritimo,2021,2,1,0.5,1.5
+485,Rio Ave,489,Gil Vicente,2021,2,0,0.0,2.0
+477,Moreirense,487,Santa Clara,2021,2,1,0.5,0.5
+492,Portimonense,496,Pacos Ferreira,2021,2,2,1.0,1.0
+487,Santa Clara,488,Sp Lisbon,2021,2,0,0.0,3.0
+485,Rio Ave,488,Sp Lisbon,2021,2,1,0.5,2.0
+488,Sp Lisbon,490,Boavista,2021,2,0,0.0,1.5
+474,Nacional,484,Benfica,2021,2,1,0.5,3.0
+480,Porto,496,Pacos Ferreira,2021,2,0,0.0,3.5
+474,Nacional,497,Belenenses,2021,2,1,0.5,1.5
+482,Tondela,497,Belenenses,2021,2,0,0.0,3.0
+474,Nacional,496,Pacos Ferreira,2021,2,1,0.5,2.5
+489,Gil Vicente,490,Boavista,2021,2,0,0.0,3.0
+482,Tondela,491,Farense,2021,2,0,0.0,1.5
+484,Benfica,496,Pacos Ferreira,2021,2,0,0.0,4.0
+485,Rio Ave,497,Belenenses,2021,2,2,1.0,
+480,Porto,490,Boavista,2021,2,1,0.5,4.5
+490,Boavista,495,Maritimo,2021,2,1,0.5,0.5
+483,Guimaraes,485,Rio Ave,2021,2,1,0.5,2.0
+476,Famalicao,480,Porto,2021,2,0,0.0,5.0
+491,Farense,496,Pacos Ferreira,2021,2,1,0.5,2.0
+482,Tondela,487,Santa Clara,2021,2,1,0.5,2.0
+482,Tondela,485,Rio Ave,2021,2,1,0.5,2.5
+477,Moreirense,492,Portimonense,2021,2,1,0.5,3.5
+474,Nacional,483,Guimaraes,2021,2,0,0.0,2.5
+474,Nacional,488,Sp Lisbon,2021,2,0,0.0,2.0
+483,Guimaraes,487,Santa Clara,2021,2,0,0.0,2.5
+474,Nacional,490,Boavista,2021,2,1,0.5,3.5
+490,Boavista,491,Farense,2021,2,0,0.0,2.5
+484,Benfica,490,Boavista,2021,2,0,0.0,2.5
+490,Boavista,496,Pacos Ferreira,2021,2,1,0.5,2.0
+482,Tondela,495,Maritimo,2021,2,0,0.0,3.0
+478,Sp Braga,491,Farense,2021,2,0,0.0,2.0
+483,Guimaraes,497,Belenenses,2021,2,1,0.5,1.5
+482,Tondela,488,Sp Lisbon,2021,2,0,0.0,2.5
+477,Moreirense,489,Gil Vicente,2021,2,1,0.5,2.5
+476,Famalicao,484,Benfica,2021,2,0,0.0,4.0
+477,Moreirense,484,Benfica,2021,2,1,0.5,2.0
+480,Porto,488,Sp Lisbon,2021,2,2,1.0,2.0
+476,Famalicao,485,Rio Ave,2021,2,1,0.5,1.5
+474,Nacional,476,Famalicao,2021,2,0,0.0,3.0
+476,Famalicao,489,Gil Vicente,2021,2,0,0.0,2.0
+492,Portimonense,497,Belenenses,2021,2,0,0.0,1.0
+480,Porto,497,Belenenses,2021,2,1,0.5,2.0
+477,Moreirense,478,Sp Braga,2021,2,0,0.0,3.5
+483,Guimaraes,496,Pacos Ferreira,2021,2,0,0.0,2.0
+474,Nacional,492,Portimonense,2021,2,0,0.0,3.5
+478,Sp Braga,495,Maritimo,2021,2,0,0.0,2.0
+478,Sp Braga,488,Sp Lisbon,2021,2,0,0.0,1.5
+482,Tondela,492,Portimonense,2021,2,0,0.0,2.0
+477,Moreirense,490,Boavista,2021,2,1,0.5,1.5
+478,Sp Braga,497,Belenenses,2021,2,1,0.5,2.5
+478,Sp Braga,482,Tondela,2021,2,0,0.0,5.0
+483,Guimaraes,495,Maritimo,2021,2,1,0.5,0.5
+491,Farense,492,Portimonense,2021,2,1,0.5,2.0
+476,Famalicao,482,Tondela,2021,2,1,0.5,2.5
+488,Sp Lisbon,491,Farense,2021,2,0,0.0,1.0
+482,Tondela,484,Benfica,2021,2,0,0.0,2.0
+477,Moreirense,482,Tondela,2021,2,1,0.5,2.5
+480,Porto,484,Benfica,2021,2,2,1.0,2.0
+484,Benfica,488,Sp Lisbon,2021,2,0,0.0,4.0
+495,Maritimo,497,Belenenses,2021,2,0,0.0,1.5
+488,Sp Lisbon,495,Maritimo,2021,2,0,0.0,4.0
+476,Famalicao,477,Moreirense,2021,2,0,0.0,2.5
+474,Nacional,482,Tondela,2021,2,0,0.0,2.5
+474,Nacional,487,Santa Clara,2021,2,0,0.0,5.0
+496,Pacos Ferreira,497,Belenenses,2021,2,0,0.0,1.5
+478,Sp Braga,489,Gil Vicente,2021,2,1,0.5,1.5
+491,Farense,495,Maritimo,2021,2,0,0.0,2.0
+485,Rio Ave,491,Farense,2021,2,0,0.0,1.5
+482,Tondela,490,Boavista,2021,2,1,0.5,3.0
+487,Santa Clara,497,Belenenses,2021,2,0,0.0,2.0

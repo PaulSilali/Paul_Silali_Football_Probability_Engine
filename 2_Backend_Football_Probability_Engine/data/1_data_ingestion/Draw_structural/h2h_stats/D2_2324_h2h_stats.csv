@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+398,Greuther Furth,403,Braunschweig,2324,2,1,0.5,3.5
+405,Fortuna Dusseldorf,415,Osnabruck,2324,2,1,0.5,3.0
+403,Braunschweig,415,Osnabruck,2324,2,0,0.0,4.0
+409,Holstein Kiel,415,Osnabruck,2324,2,1,0.5,3.0
+396,Paderborn,405,Fortuna Dusseldorf,2324,2,0,0.0,5.0
+398,Greuther Furth,400,Magdeburg,2324,2,2,1.0,1.0
+401,Nurnberg,409,Holstein Kiel,2324,2,0,0.0,3.0
+392,Schalke 04,409,Holstein Kiel,2324,2,0,0.0,1.5
+403,Braunschweig,414,St Pauli,2324,2,1,0.5,1.5
+398,Greuther Furth,413,Hamburg,2324,2,1,0.5,2.0
+399,Hannover,415,Osnabruck,2324,2,0,0.0,4.0
+396,Paderborn,408,Hertha,2324,2,0,0.0,4.5
+399,Hannover,409,Holstein Kiel,2324,2,0,0.0,3.0
+394,Elversberg,409,Holstein Kiel,2324,2,1,0.5,2.0
+395,Karlsruhe,403,Braunschweig,2324,2,0,0.0,2.0
+392,Schalke 04,414,St Pauli,2324,2,0,0.0,4.0
+401,Nurnberg,405,Fortuna Dusseldorf,2324,2,0,0.0,4.5
+400,Magdeburg,413,Hamburg,2324,2,1,0.5,3.0
+396,Paderborn,417,Hansa Rostock,2324,2,0,0.0,3.0
+399,Hannover,400,Magdeburg,2324,2,0,0.0,3.0
+399,Hannover,414,St Pauli,2324,2,1,0.5,1.5
+392,Schalke 04,417,Hansa Rostock,2324,2,0,0.0,2.5
+408,Hertha,415,Osnabruck,2324,2,1,0.5,1.5
+406,Kaiserslautern,409,Holstein Kiel,2324,2,0,0.0,3.5
+405,Fortuna Dusseldorf,416,Wehen,2324,2,0,0.0,3.0
+392,Schalke 04,400,Magdeburg,2324,2,0,0.0,5.0
+414,St Pauli,417,Hansa Rostock,2324,2,0,0.0,3.0
+395,Karlsruhe,414,St Pauli,2324,2,0,0.0,3.0
+401,Nurnberg,413,Hamburg,2324,2,0,0.0,3.5
+406,Kaiserslautern,415,Osnabruck,2324,2,1,0.5,4.5
+399,Hannover,403,Braunschweig,2324,2,1,0.5,1.0
+414,St Pauli,416,Wehen,2324,2,1,0.5,2.5
+406,Kaiserslautern,413,Hamburg,2324,2,1,0.5,4.5
+394,Elversberg,396,Paderborn,2324,2,0,0.0,4.5
+400,Magdeburg,408,Hertha,2324,2,0,0.0,7.5
+401,Nurnberg,414,St Pauli,2324,2,0,0.0,4.0
+398,Greuther Furth,408,Hertha,2324,2,0,0.0,4.0
+392,Schalke 04,403,Braunschweig,2324,2,0,0.0,1.0
+416,Wehen,417,Hansa Rostock,2324,2,0,0.0,2.5
+394,Elversberg,399,Hannover,2324,2,2,1.0,4.0
+409,Holstein Kiel,414,St Pauli,2324,2,0,0.0,6.5
+400,Magdeburg,403,Braunschweig,2324,2,0,0.0,2.0
+394,Elversberg,413,Hamburg,2324,2,0,0.0,2.0
+405,Fortuna Dusseldorf,413,Hamburg,2324,2,0,0.0,1.5
+394,Elversberg,403,Braunschweig,2324,2,0,0.0,4.0
+392,Schalke 04,415,Osnabruck,2324,2,0,0.0,4.0
+403,Braunschweig,406,Kaiserslautern,2324,2,0,0.0,4.0
+399,Hannover,416,Wehen,2324,2,1,0.5,2.0
+395,Karlsruhe,416,Wehen,2324,2,1,0.5,2.5
+405,Fortuna Dusseldorf,409,Holstein Kiel,2324,2,1,0.5,1.5
+398,Greuther Furth,401,Nurnberg,2324,2,1,0.5,2.5
+413,Hamburg,417,Hansa Rostock,2324,2,1,0.5,3.0
+415,Osnabruck,416,Wehen,2324,2,0,0.0,1.5
+414,St Pauli,415,Osnabruck,2324,2,1,0.5,3.0
+396,Paderborn,403,Braunschweig,2324,2,0,0.0,3.5
+392,Schalke 04,394,Elversberg,2324,2,1,0.5,2.5
+400,Magdeburg,416,Wehen,2324,2,1,0.5,1.5
+395,Karlsruhe,396,Paderborn,2324,2,1,0.5,2.5
+392,Schalke 04,401,Nurnberg,2324,2,0,0.0,2.5
+396,Paderborn,415,Osnabruck,2324,2,2,1.0,1.0
+401,Nurnberg,415,Osnabruck,2324,2,1,0.5,4.5
+408,Hertha,413,Hamburg,2324,2,0,0.0,3.0
+398,Greuther Furth,415,Osnabruck,2324,2,0,0.0,3.0
+403,Braunschweig,408,Hertha,2324,2,1,0.5,2.5
+394,Elversberg,415,Osnabruck,2324,2,0,0.0,2.5
+394,Elversberg,417,Hansa Rostock,2324,2,0,0.0,3.0
+392,Schalke 04,396,Paderborn,2324,2,1,0.5,5.0
+395,Karlsruhe,417,Hansa Rostock,2324,2,1,0.5,3.5
+396,Paderborn,416,Wehen,2324,2,0,0.0,3.0
+396,Paderborn,399,Hannover,2324,2,0,0.0,3.0
+396,Paderborn,398,Greuther Furth,2324,2,0,0.0,3.0
+413,Hamburg,416,Wehen,2324,2,1,0.5,2.5
+396,Paderborn,406,Kaiserslautern,2324,2,0,0.0,3.0
+408,Hertha,416,Wehen,2324,2,0,0.0,2.5
+408,Hertha,417,Hansa Rostock,2324,2,1,0.5,2.0
+401,Nurnberg,406,Kaiserslautern,2324,2,1,0.5,3.0
+399,Hannover,408,Hertha,2324,2,2,1.0,3.0
+392,Schalke 04,398,Greuther Furth,2324,2,1,0.5,3.0
+401,Nurnberg,416,Wehen,2324,2,1,0.5,2.5
+394,Elversberg,405,Fortuna Dusseldorf,2324,2,1,0.5,3.5
+405,Fortuna Dusseldorf,414,St Pauli,2324,2,1,0.5,1.5
+400,Magdeburg,401,Nurnberg,2324,2,0,0.0,1.0
+403,Braunschweig,417,Hansa Rostock,2324,2,0,0.0,1.0
+398,Greuther Furth,405,Fortuna Dusseldorf,2324,2,0,0.0,1.0
+401,Nurnberg,408,Hertha,2324,2,1,0.5,5.0
+398,Greuther Furth,409,Holstein Kiel,2324,2,0,0.0,3.0
+408,Hertha,414,St Pauli,2324,2,0,0.0,2.5
+399,Hannover,401,Nurnberg,2324,2,1,0.5,3.5
+396,Paderborn,400,Magdeburg,2324,2,2,1.0,1.0
+400,Magdeburg,415,Osnabruck,2324,2,1,0.5,2.0
+395,Karlsruhe,401,Nurnberg,2324,2,0,0.0,3.0
+406,Kaiserslautern,416,Wehen,2324,2,1,0.5,2.5
+392,Schalke 04,408,Hertha,2324,2,0,0.0,5.0
+409,Holstein Kiel,416,Wehen,2324,2,0,0.0,3.0
+394,Elversberg,408,Hertha,2324,2,0,0.0,6.0
+400,Magdeburg,414,St Pauli,2324,2,1,0.5,0.5
+399,Hannover,405,Fortuna Dusseldorf,2324,2,2,1.0,3.0
+395,Karlsruhe,408,Hertha,2324,2,1,0.5,4.5
+394,Elversberg,398,Greuther Furth,2324,2,1,0.5,3.5
+396,Paderborn,401,Nurnberg,2324,2,0,0.0,3.0
+405,Fortuna Dusseldorf,417,Hansa Rostock,2324,2,0,0.0,3.0
+406,Kaiserslautern,408,Hertha,2324,2,0,0.0,3.5
+399,Hannover,417,Hansa Rostock,2324,2,0,0.0,3.0
+394,Elversberg,401,Nurnberg,2324,2,0,0.0,2.0
+396,Paderborn,413,Hamburg,2324,2,0,0.0,2.0
+403,Braunschweig,409,Holstein Kiel,2324,2,0,0.0,2.0
+400,Magdeburg,417,Hansa Rostock,2324,2,0,0.0,2.5
+400,Magdeburg,409,Holstein Kiel,2324,2,1,0.5,4.0
+394,Elversberg,414,St Pauli,2324,2,0,0.0,4.5
+392,Schalke 04,413,Hamburg,2324,2,0,0.0,5.0
+400,Magdeburg,406,Kaiserslautern,2324,2,0,0.0,5.0
+395,Karlsruhe,409,Holstein Kiel,2324,2,0,0.0,1.5
+398,Greuther Furth,406,Kaiserslautern,2324,2,0,0.0,2.5
+406,Kaiserslautern,414,St Pauli,2324,2,0,0.0,2.5
+396,Paderborn,414,St Pauli,2324,2,1,0.5,3.5
+406,Kaiserslautern,417,Hansa Rostock,2324,2,0,0.0,3.5
+409,Holstein Kiel,413,Hamburg,2324,2,0,0.0,3.5
+395,Karlsruhe,405,Fortuna Dusseldorf,2324,2,1,0.5,4.0
+403,Braunschweig,413,Hamburg,2324,2,0,0.0,3.5
+396,Paderborn,409,Holstein Kiel,2324,2,0,0.0,3.5
+405,Fortuna Dusseldorf,408,Hertha,2324,2,1,0.5,2.5
+398,Greuther Furth,416,Wehen,2324,2,0,0.0,5.0
+392,Schalke 04,395,Karlsruhe,2324,2,1,0.5,1.5
+413,Hamburg,415,Osnabruck,2324,2,0,0.0,3.0
+400,Magdeburg,405,Fortuna Dusseldorf,2324,2,0,0.0,5.0
+415,Osnabruck,417,Hansa Rostock,2324,2,1,0.5,1.5
+398,Greuther Furth,399,Hannover,2324,2,0,0.0,3.5
+392,Schalke 04,416,Wehen,2324,2,1,0.5,1.5
+399,Hannover,406,Kaiserslautern,2324,2,1,0.5,3.0
+398,Greuther Furth,417,Hansa Rostock,2324,2,0,0.0,1.0
+392,Schalke 04,399,Hannover,2324,2,1,0.5,3.5
+409,Holstein Kiel,417,Hansa Rostock,2324,2,0,0.0,3.0
+413,Hamburg,414,St Pauli,2324,2,1,0.5,2.5
+392,Schalke 04,406,Kaiserslautern,2324,2,0,0.0,4.0
+395,Karlsruhe,400,Magdeburg,2324,2,1,0.5,4.5
+395,Karlsruhe,415,Osnabruck,2324,2,0,0.0,4.0
+394,Elversberg,406,Kaiserslautern,2324,2,0,0.0,4.0
+403,Braunschweig,416,Wehen,2324,2,0,0.0,2.5
+408,Hertha,409,Holstein Kiel,2324,2,1,0.5,4.5
+395,Karlsruhe,398,Greuther Furth,2324,2,0,0.0,5.5
+403,Braunschweig,405,Fortuna Dusseldorf,2324,2,0,0.0,3.5
+401,Nurnberg,417,Hansa Rostock,2324,2,0,0.0,2.5
+394,Elversberg,395,Karlsruhe,2324,2,0,0.0,4.0
+392,Schalke 04,405,Fortuna Dusseldorf,2324,2,1,0.5,5.0
+395,Karlsruhe,399,Hannover,2324,2,1,0.5,3.5
+401,Nurnberg,403,Braunschweig,2324,2,1,0.5,3.5
+405,Fortuna Dusseldorf,406,Kaiserslautern,2324,2,0,0.0,5.5
+394,Elversberg,400,Magdeburg,2324,2,1,0.5,1.5
+395,Karlsruhe,406,Kaiserslautern,2324,2,1,0.5,3.0
+394,Elversberg,416,Wehen,2324,2,0,0.0,2.5
+399,Hannover,413,Hamburg,2324,2,0,0.0,4.0
+395,Karlsruhe,413,Hamburg,2324,2,1,0.5,5.5
+398,Greuther Furth,414,St Pauli,2324,2,1,0.5,2.5

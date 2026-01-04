@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,2021,2020-09-12,Ponferradina,Castellon,54,7,False
+SP2,2021,2020-09-12,Sp Gijon,Logrones,54,7,False
+SP2,2021,2020-09-12,Leganes,Las Palmas,7,54,False
+SP2,2021,2020-09-12,Espanol,Albacete,7,54,False
+SP2,2021,2020-09-13,Fuenlabrada,Lugo,37,55,False
+SP2,2021,2020-09-13,Oviedo,Cartagena,55,7,False
+SP2,2021,2020-09-13,Mallorca,Vallecano,7,55,False
+SP2,2021,2020-09-13,Tenerife,Malaga,55,55,False
+SP2,2021,2020-09-13,Mirandes,Alcorcon,55,55,False
+SP2,2021,2020-09-19,Vallecano,Sabadell,6,7,False
+SP2,2021,2020-09-19,Mirandes,Oviedo,6,6,False
+SP2,2021,2020-09-19,Alcorcon,Tenerife,6,6,False
+SP2,2021,2020-09-19,Castellon,Malaga,7,6,False
+SP2,2021,2020-09-20,Cartagena,Sp Gijon,7,8,False
+SP2,2021,2020-09-20,Las Palmas,Fuenlabrada,8,7,False
+SP2,2021,2020-09-20,Albacete,Ponferradina,8,8,False
+SP2,2021,2020-09-20,Espanol,Mallorca,8,7,False
+SP2,2021,2020-09-20,Lugo,Leganes,7,8,False
+SP2,2021,2020-09-26,Sp Gijon,Girona,6,68,False
+SP2,2021,2020-09-26,Fuenlabrada,Albacete,6,6,False
+SP2,2021,2020-09-26,Zaragoza,Las Palmas,68,6,False
+SP2,2021,2020-09-26,Logrones,Castellon,14,7,False
+SP2,2021,2020-09-26,Malaga,Alcorcon,7,7,False
+SP2,2021,2020-09-27,Tenerife,Mirandes,8,8,False
+SP2,2021,2020-09-27,Leganes,Cartagena,7,7,False
+SP2,2021,2020-09-27,Mallorca,Sabadell,7,8,False
+SP2,2021,2020-09-27,Lugo,Almeria,7,69,False
+SP2,2021,2020-09-27,Oviedo,Espanol,8,7,False
+SP2,2021,2020-09-27,Ponferradina,Vallecano,7,8,False
+SP2,2021,2020-10-03,Vallecano,Malaga,6,7,False
+SP2,2021,2020-10-03,Alcorcon,Zaragoza,7,7,False
+SP2,2021,2020-10-03,Mirandes,Ponferradina,6,6,False
+SP2,2021,2020-10-03,Albacete,Oviedo,7,6,False
+SP2,2021,2020-10-03,Mallorca,Tenerife,6,6,False
+SP2,2021,2020-10-03,Las Palmas,Logrones,7,7,False
+SP2,2021,2020-10-04,Cartagena,Lugo,7,7,False
+SP2,2021,2020-10-04,Castellon,Leganes,8,7,False
+SP2,2021,2020-10-04,Almeria,Sp Gijon,7,8,False
+SP2,2021,2020-10-04,Sabadell,Espanol,7,7,False
+SP2,2021,2020-10-04,Girona,Fuenlabrada,8,8,False
+SP2,2021,2020-10-10,Tenerife,Vallecano,7,7,False
+SP2,2021,2020-10-10,Logrones,Almeria,7,6,False
+SP2,2021,2020-10-10,Espanol,Alcorcon,6,7,False
+SP2,2021,2020-10-10,Sabadell,Mirandes,6,7,False
+SP2,2021,2020-10-11,Zaragoza,Albacete,8,8,False
+SP2,2021,2020-10-11,Ponferradina,Cartagena,8,7,False
+SP2,2021,2020-10-11,Oviedo,Sp Gijon,8,7,False
+SP2,2021,2020-10-11,Fuenlabrada,Castellon,7,7,False
+SP2,2021,2020-10-11,Lugo,Mallorca,7,8,False
+SP2,2021,2020-10-11,Leganes,Girona,7,7,False
+SP2,2021,2020-10-11,Malaga,Las Palmas,8,8,False
+SP2,2021,2020-10-17,Logrones,Leganes,7,6,False
+SP2,2021,2020-10-17,Las Palmas,Almeria,6,7,False
+SP2,2021,2020-10-17,Cartagena,Fuenlabrada,6,6,False
+SP2,2021,2020-10-17,Castellon,Lugo,6,6,False
+SP2,2021,2020-10-17,Albacete,Sabadell,6,7,False
+SP2,2021,2020-10-18,Sp Gijon,Tenerife,7,8,False
+SP2,2021,2020-10-18,Vallecano,Espanol,8,8,False
+SP2,2021,2020-10-18,Mirandes,Mallorca,8,7,False
+SP2,2021,2020-10-18,Zaragoza,Malaga,7,7,False
+SP2,2021,2020-10-18,Girona,Oviedo,7,7,False
+SP2,2021,2020-10-21,Lugo,Girona,4,3,True
+SP2,2021,2020-10-21,Espanol,Mirandes,3,3,True
+SP2,2021,2020-10-21,Las Palmas,Castellon,4,4,True
+SP2,2021,2020-10-21,Ponferradina,Tenerife,10,3,True
+SP2,2021,2020-10-21,Almeria,Cartagena,4,4,True
+SP2,2021,2020-10-21,Fuenlabrada,Logrones,4,4,True
+SP2,2021,2020-10-22,Mallorca,Albacete,4,5,True
+SP2,2021,2020-10-22,Oviedo,Vallecano,4,4,True
+SP2,2021,2020-10-22,Leganes,Zaragoza,5,4,True
+SP2,2021,2020-10-22,Malaga,Sp Gijon,4,4,True
+SP2,2021,2020-10-24,Almeria,Fuenlabrada,3,3,False
+SP2,2021,2020-10-24,Logrones,Lugo,3,3,False
+SP2,2021,2020-10-24,Castellon,Girona,3,3,False
+SP2,2021,2020-10-24,Cartagena,Las Palmas,3,3,False
+SP2,2021,2020-10-25,Sp Gijon,Ponferradina,3,4,False
+SP2,2021,2020-10-25,Leganes,Oviedo,3,3,False
+SP2,2021,2020-10-25,Tenerife,Espanol,4,4,False
+SP2,2021,2020-10-25,Albacete,Vallecano,3,3,False
+SP2,2021,2020-10-25,Malaga,Mirandes,3,4,False
+SP2,2021,2020-10-25,Zaragoza,Sabadell,3,8,False
+SP2,2021,2020-10-26,Alcorcon,Mallorca,16,4,False
+SP2,2021,2020-10-27,Girona,Cartagena,3,3,True
+SP2,2021,2020-10-28,Espanol,Ponferradina,3,3,True
+SP2,2021,2020-10-28,Oviedo,Logrones,3,4,True
+SP2,2021,2020-10-28,Castellon,Almeria,4,4,True
+SP2,2021,2020-10-28,Albacete,Las Palmas,3,4,True
+SP2,2021,2020-10-29,Tenerife,Lugo,4,5,True
+SP2,2021,2020-10-29,Vallecano,Fuenlabrada,4,5,True
+SP2,2021,2020-10-29,Mirandes,Zaragoza,4,4,True
+SP2,2021,2020-10-29,Sabadell,Leganes,4,4,True
+SP2,2021,2020-10-29,Mallorca,Malaga,3,4,True
+SP2,2021,2020-10-29,Alcorcon,Sp Gijon,3,4,True
+SP2,2021,2020-10-31,Cartagena,Albacete,4,3,False
+SP2,2021,2020-10-31,Las Palmas,Oviedo,3,3,False
+SP2,2021,2020-11-01,Fuenlabrada,Tenerife,3,3,False
+SP2,2021,2020-11-01,Leganes,Mirandes,3,3,False
+SP2,2021,2020-11-01,Zaragoza,Mallorca,3,3,False
+SP2,2021,2020-11-01,Ponferradina,Sabadell,4,3,False
+SP2,2021,2020-11-01,Lugo,Vallecano,3,3,False
+SP2,2021,2020-11-01,Almeria,Girona,4,5,False
+SP2,2021,2020-11-02,Malaga,Espanol,4,5,False
+SP2,2021,2020-11-02,Logrones,Alcorcon,5,4,False
+SP2,2021,2020-11-02,Sp Gijon,Castellon,4,5,False
+SP2,2021,2020-11-04,Zaragoza,Girona,3,3,True
+SP2,2021,2020-11-05,Alcorcon,Ponferradina,3,4,True
+SP2,2021,2020-11-05,Sabadell,Almeria,4,4,True
+SP2,2021,2020-11-06,Albacete,Leganes,6,5,False
+SP2,2021,2020-11-07,Cartagena,Logrones,7,5,False
+SP2,2021,2020-11-07,Espanol,Lugo,5,6,False
+SP2,2021,2020-11-07,Mirandes,Sp Gijon,6,5,False
+SP2,2021,2020-11-08,Oviedo,Castellon,8,6,False
+SP2,2021,2020-11-08,Tenerife,Zaragoza,7,4,False
+SP2,2021,2020-11-08,Sabadell,Malaga,3,6,False
+SP2,2021,2020-11-08,Alcorcon,Fuenlabrada,3,7,False
+SP2,2021,2020-11-08,Vallecano,Almeria,7,3,False
+SP2,2021,2020-11-08,Mallorca,Ponferradina,7,3,False
+SP2,2021,2020-11-09,Girona,Las Palmas,5,9,False
+SP2,2021,2020-11-13,Zaragoza,Oviedo,5,5,False
+SP2,2021,2020-11-14,Girona,Mallorca,5,6,False
+SP2,2021,2020-11-14,Fuenlabrada,Espanol,6,7,False
+SP2,2021,2020-11-14,Almeria,Mirandes,6,7,False
+SP2,2021,2020-11-14,Lugo,Albacete,7,8,False
+SP2,2021,2020-11-15,Ponferradina,Malaga,7,7,False
+SP2,2021,2020-11-15,Las Palmas,Tenerife,6,7,False
+SP2,2021,2020-11-15,Logrones,Sabadell,8,7,False
+SP2,2021,2020-11-15,Castellon,Cartagena,7,8,False
+SP2,2021,2020-11-15,Leganes,Alcorcon,9,7,False
+SP2,2021,2020-11-16,Sp Gijon,Vallecano,9,8,False
+SP2,2021,2020-11-20,Espanol,Girona,6,6,False
+SP2,2021,2020-11-20,Alcorcon,Lugo,5,6,False
+SP2,2021,2020-11-21,Malaga,Leganes,6,6,False
+SP2,2021,2020-11-21,Mirandes,Cartagena,7,6,False
+SP2,2021,2020-11-21,Vallecano,Castellon,5,6,False
+SP2,2021,2020-11-21,Oviedo,Fuenlabrada,8,7,False
+SP2,2021,2020-11-22,Ponferradina,Zaragoza,7,9,False
+SP2,2021,2020-11-22,Sabadell,Las Palmas,7,7,False
+SP2,2021,2020-11-22,Mallorca,Sp Gijon,8,6,False
+SP2,2021,2020-11-22,Tenerife,Logrones,7,7,False
+SP2,2021,2020-11-23,Albacete,Almeria,9,9,False
+SP2,2021,2020-11-24,Castellon,Alcorcon,3,4,True
+SP2,2021,2020-11-24,Girona,Malaga,4,3,True
+SP2,2021,2020-11-24,Lugo,Oviedo,4,3,True
+SP2,2021,2020-11-25,Fuenlabrada,Ponferradina,4,3,True
+SP2,2021,2020-11-25,Sp Gijon,Sabadell,3,3,True
+SP2,2021,2020-11-25,Zaragoza,Vallecano,3,4,True
+SP2,2021,2020-11-25,Cartagena,Mallorca,4,3,True
+SP2,2021,2020-11-25,Las Palmas,Mirandes,3,4,True
+SP2,2021,2020-11-26,Leganes,Espanol,5,6,True
+SP2,2021,2020-11-26,Logrones,Albacete,4,3,True
+SP2,2021,2020-11-26,Almeria,Tenerife,3,4,True
+SP2,2021,2020-11-27,Alcorcon,Girona,3,3,False
+SP2,2021,2020-11-27,Malaga,Lugo,3,3,False
+SP2,2021,2020-11-28,Vallecano,Cartagena,3,3,False
+SP2,2021,2020-11-28,Sabadell,Fuenlabrada,3,3,False
+SP2,2021,2020-11-28,Mirandes,Castellon,3,4,False
+SP2,2021,2020-11-29,Albacete,Tenerife,3,3,False
+SP2,2021,2020-11-29,Espanol,Zaragoza,3,4,False
+SP2,2021,2020-11-29,Mallorca,Logrones,4,3,False
+SP2,2021,2020-11-29,Ponferradina,Leganes,4,3,False
+SP2,2021,2020-11-29,Las Palmas,Sp Gijon,4,4,False
+SP2,2021,2020-11-30,Oviedo,Almeria,6,4,False
+SP2,2021,2020-12-01,Fuenlabrada,Malaga,3,4,True
+SP2,2021,2020-12-01,Girona,Mirandes,4,3,True
+SP2,2021,2020-12-02,Lugo,Las Palmas,5,3,True
+SP2,2021,2020-12-02,Leganes,Vallecano,3,4,True
+SP2,2021,2020-12-02,Logrones,Ponferradina,3,3,True
+SP2,2021,2020-12-02,Castellon,Zaragoza,4,3,True
+SP2,2021,2020-12-02,Cartagena,Espanol,4,3,True
+SP2,2021,2020-12-03,Sp Gijon,Albacete,4,4,True
+SP2,2021,2020-12-03,Oviedo,Alcorcon,3,6,True
+SP2,2021,2020-12-03,Tenerife,Sabadell,4,5,True
+SP2,2021,2020-12-03,Almeria,Mallorca,3,4,True
+SP2,2021,2020-12-05,Vallecano,Logrones,3,3,False
+SP2,2021,2020-12-05,Ponferradina,Las Palmas,3,3,False
+SP2,2021,2020-12-05,Mirandes,Lugo,4,3,False
+SP2,2021,2020-12-05,Malaga,Cartagena,4,3,False
+SP2,2021,2020-12-06,Zaragoza,Fuenlabrada,4,5,False
+SP2,2021,2020-12-06,Sabadell,Oviedo,3,3,False
+SP2,2021,2020-12-06,Albacete,Girona,3,5,False
+SP2,2021,2020-12-06,Espanol,Sp Gijon,4,3,False
+SP2,2021,2020-12-06,Alcorcon,Almeria,3,3,False
+SP2,2021,2020-12-07,Mallorca,Castellon,4,5,False
+SP2,2021,2020-12-07,Tenerife,Leganes,4,5,False
+SP2,2021,2020-12-09,Almeria,Zaragoza,3,3,True
+SP2,2021,2020-12-09,Sabadell,Alcorcon,3,3,True
+SP2,2021,2020-12-10,Girona,Logrones,4,5,True
+SP2,2021,2020-12-11,Oviedo,Tenerife,5,4,False
+SP2,2021,2020-12-11,Lugo,Ponferradina,6,6,False
+SP2,2021,2020-12-12,Leganes,Mallorca,5,5,False
+SP2,2021,2020-12-12,Castellon,Albacete,5,6,False
+SP2,2021,2020-12-12,Fuenlabrada,Mirandes,6,7,False
+SP2,2021,2020-12-13,Logrones,Espanol,3,7,False
+SP2,2021,2020-12-13,Almeria,Malaga,4,8,False
+SP2,2021,2020-12-13,Las Palmas,Alcorcon,8,4,False
+SP2,2021,2020-12-13,Cartagena,Sabadell,8,4,False
+SP2,2021,2020-12-13,Sp Gijon,Zaragoza,7,4,False
+SP2,2021,2020-12-14,Girona,Vallecano,4,9,False
+SP2,2021,2020-12-18,Ponferradina,Oviedo,7,7,False
+SP2,2021,2020-12-19,Zaragoza,Lugo,6,8,False
+SP2,2021,2020-12-19,Mallorca,Fuenlabrada,7,7,False
+SP2,2021,2020-12-19,Sabadell,Castellon,6,7,False
+SP2,2021,2020-12-20,Vallecano,Las Palmas,6,7,False
+SP2,2021,2020-12-20,Alcorcon,Cartagena,7,7,False
+SP2,2021,2020-12-20,Espanol,Almeria,7,7,False
+SP2,2021,2020-12-20,Malaga,Logrones,7,7,False
+SP2,2021,2020-12-21,Mirandes,Albacete,9,9,False
+SP2,2021,2020-12-21,Sp Gijon,Leganes,8,9,False
+SP2,2021,2020-12-21,Tenerife,Girona,10,7,False
+SP2,2021,2021-01-02,Cartagena,Zaragoza,13,14,False
+SP2,2021,2021-01-02,Logrones,Mirandes,13,12,False
+SP2,2021,2021-01-02,Vallecano,Alcorcon,13,13,False
+SP2,2021,2021-01-02,Fuenlabrada,Leganes,14,12,False
+SP2,2021,2021-01-03,Castellon,Tenerife,15,13,False
+SP2,2021,2021-01-03,Las Palmas,Espanol,14,14,False
+SP2,2021,2021-01-03,Albacete,Malaga,13,14,False
+SP2,2021,2021-01-03,Almeria,Ponferradina,14,16,False
+SP2,2021,2021-01-03,Oviedo,Mallorca,16,15,False
+SP2,2021,2021-01-04,Lugo,Sp Gijon,16,14,False
+SP2,2021,2021-01-04,Girona,Sabadell,14,16,False
+SP2,2021,2021-01-08,Zaragoza,Logrones,6,6,False
+SP2,2021,2021-01-09,Malaga,Oviedo,6,6,False
+SP2,2021,2021-01-10,Mallorca,Las Palmas,7,7,False
+SP2,2021,2021-01-10,Tenerife,Cartagena,7,8,False
+SP2,2021,2021-01-10,Espanol,Castellon,7,7,False
+SP2,2021,2021-01-11,Sabadell,Lugo,7,7,False
+SP2,2021,2021-01-11,Ponferradina,Girona,8,7,False
+SP2,2021,2021-01-11,Sp Gijon,Fuenlabrada,7,9,False
+SP2,2021,2021-01-19,Mirandes,Vallecano,17,17,True
+SP2,2021,2021-01-22,Fuenlabrada,Alcorcon,11,20,False
+SP2,2021,2021-01-22,Albacete,Zaragoza,19,14,False
+SP2,2021,2021-01-23,Malaga,Ponferradina,14,12,False
+SP2,2021,2021-01-23,Lugo,Tenerife,12,13,False
+SP2,2021,2021-01-23,Girona,Espanol,12,13,False
+SP2,2021,2021-01-23,Vallecano,Mallorca,4,13,False
+SP2,2021,2021-01-24,Almeria,Sabadell,21,13,False
+SP2,2021,2021-01-24,Logrones,Oviedo,16,15,False
+SP2,2021,2021-01-24,Castellon,Sp Gijon,14,13,False
+SP2,2021,2021-01-24,Las Palmas,Leganes,14,22,False
+SP2,2021,2021-01-25,Cartagena,Mirandes,15,6,False
+SP2,2021,2021-01-26,Alcorcon,Albacete,4,4,True
+SP2,2021,2021-01-29,Zaragoza,Ponferradina,7,6,False
+SP2,2021,2021-01-30,Mallorca,Girona,7,7,False
+SP2,2021,2021-01-30,Alcorcon,Malaga,4,7,False
+SP2,2021,2021-01-30,Almeria,Castellon,6,6,False
+SP2,2021,2021-01-30,Oviedo,Albacete,6,4,False
+SP2,2021,2021-01-31,Espanol,Vallecano,8,8,False
+SP2,2021,2021-01-31,Mirandes,Las Palmas,6,7,False
+SP2,2021,2021-01-31,Tenerife,Fuenlabrada,8,9,False
+SP2,2021,2021-01-31,Sp Gijon,Cartagena,7,6,False
+SP2,2021,2021-02-01,Leganes,Lugo,8,9,False
+SP2,2021,2021-02-01,Sabadell,Logrones,8,8,False
+SP2,2021,2021-02-05,Albacete,Mallorca,6,6,False
+SP2,2021,2021-02-06,Logrones,Sp Gijon,5,6,False
+SP2,2021,2021-02-06,Fuenlabrada,Almeria,6,7,False
+SP2,2021,2021-02-06,Cartagena,Oviedo,6,7,False
+SP2,2021,2021-02-07,Las Palmas,Sabadell,7,6,False
+SP2,2021,2021-02-07,Castellon,Mirandes,8,7,False
+SP2,2021,2021-02-07,Malaga,Zaragoza,8,9,False
+SP2,2021,2021-02-07,Girona,Leganes,8,6,False
+SP2,2021,2021-02-07,Vallecano,Tenerife,7,7,False
+SP2,2021,2021-02-08,Lugo,Espanol,7,8,False
+SP2,2021,2021-02-08,Ponferradina,Alcorcon,10,9,False
+SP2,2021,2021-02-12,Sabadell,Zaragoza,5,5,False
+SP2,2021,2021-02-13,Mirandes,Girona,6,6,False
+SP2,2021,2021-02-13,Tenerife,Ponferradina,6,5,False
+SP2,2021,2021-02-13,Cartagena,Vallecano,7,6,False
+SP2,2021,2021-02-14,Sp Gijon,Malaga,8,7,False
+SP2,2021,2021-02-14,Alcorcon,Logrones,6,8,False
+SP2,2021,2021-02-14,Almeria,Las Palmas,8,7,False
+SP2,2021,2021-02-14,Mallorca,Espanol,9,6,False
+SP2,2021,2021-02-14,Leganes,Albacete,7,9,False
+SP2,2021,2021-02-15,Castellon,Fuenlabrada,8,9,False
+SP2,2021,2021-02-15,Oviedo,Lugo,9,7,False
+SP2,2021,2021-02-17,Leganes,Almeria,3,3,True
+SP2,2021,2021-02-19,Ponferradina,Mirandes,6,6,False
+SP2,2021,2021-02-20,Las Palmas,Cartagena,6,7,False
+SP2,2021,2021-02-20,Albacete,Sp Gijon,6,6,False
+SP2,2021,2021-02-20,Espanol,Sabadell,6,8,False
+SP2,2021,2021-02-21,Malaga,Vallecano,7,8,False
+SP2,2021,2021-02-21,Mallorca,Almeria,7,4,False
+SP2,2021,2021-02-21,Leganes,Tenerife,4,8,False
+SP2,2021,2021-02-21,Girona,Castellon,8,6,False
+SP2,2021,2021-02-21,Lugo,Logrones,6,7,False
+SP2,2021,2021-02-22,Zaragoza,Alcorcon,10,8,False
+SP2,2021,2021-02-22,Fuenlabrada,Oviedo,7,7,False
+SP2,2021,2021-02-26,Cartagena,Leganes,6,5,False
+SP2,2021,2021-02-26,Sabadell,Albacete,6,6,False
+SP2,2021,2021-02-27,Vallecano,Ponferradina,6,8,False
+SP2,2021,2021-02-27,Almeria,Lugo,6,6,False
+SP2,2021,2021-02-27,Castellon,Las Palmas,6,7,False
+SP2,2021,2021-02-27,Logrones,Mallorca,6,6,False
+SP2,2021,2021-02-28,Oviedo,Zaragoza,6,6,False
+SP2,2021,2021-02-28,Tenerife,Alcorcon,7,6,False
+SP2,2021,2021-02-28,Sp Gijon,Espanol,8,8,False
+SP2,2021,2021-02-28,Fuenlabrada,Girona,6,7,False
+SP2,2021,2021-03-01,Mirandes,Malaga,10,8,False
+SP2,2021,2021-03-05,Espanol,Oviedo,5,5,False
+SP2,2021,2021-03-06,Leganes,Castellon,8,7,False
+SP2,2021,2021-03-06,Zaragoza,Tenerife,6,6,False
+SP2,2021,2021-03-06,Las Palmas,Vallecano,7,7,False
+SP2,2021,2021-03-06,Albacete,Logrones,8,7,False
+SP2,2021,2021-03-07,Ponferradina,Sp Gijon,8,7,False
+SP2,2021,2021-03-07,Mallorca,Cartagena,8,9,False
+SP2,2021,2021-03-07,Girona,Almeria,7,8,False
+SP2,2021,2021-03-07,Malaga,Sabadell,6,9,False
+SP2,2021,2021-03-08,Alcorcon,Mirandes,8,7,False
+SP2,2021,2021-03-08,Lugo,Fuenlabrada,9,8,False
+SP2,2021,2021-03-12,Vallecano,Zaragoza,6,6,False
+SP2,2021,2021-03-12,Cartagena,Ponferradina,5,5,False
+SP2,2021,2021-03-13,Mirandes,Espanol,5,8,False
+SP2,2021,2021-03-13,Fuenlabrada,Las Palmas,5,7,False
+SP2,2021,2021-03-13,Girona,Lugo,6,5,False
+SP2,2021,2021-03-13,Castellon,Sabadell,7,6,False
+SP2,2021,2021-03-14,Logrones,Malaga,8,7,False
+SP2,2021,2021-03-14,Sp Gijon,Mallorca,7,7,False
+SP2,2021,2021-03-14,Tenerife,Albacete,8,8,False
+SP2,2021,2021-03-14,Oviedo,Leganes,9,8,False
+SP2,2021,2021-03-15,Almeria,Alcorcon,8,7,False
+SP2,2021,2021-03-19,Las Palmas,Girona,6,6,False
+SP2,2021,2021-03-20,Leganes,Fuenlabrada,6,7,False
+SP2,2021,2021-03-20,Espanol,Logrones,7,6,False
+SP2,2021,2021-03-20,Mallorca,Oviedo,6,6,False
+SP2,2021,2021-03-20,Sabadell,Sp Gijon,7,6,False
+SP2,2021,2021-03-21,Alcorcon,Vallecano,6,9,False
+SP2,2021,2021-03-21,Malaga,Tenerife,7,7,False
+SP2,2021,2021-03-21,Ponferradina,Almeria,9,6,False
+SP2,2021,2021-03-21,Lugo,Castellon,8,8,False
+SP2,2021,2021-03-22,Albacete,Cartagena,8,10,False
+SP2,2021,2021-03-22,Zaragoza,Mirandes,10,9,False
+SP2,2021,2021-03-26,Sp Gijon,Alcorcon,6,5,False
+SP2,2021,2021-03-26,Castellon,Espanol,5,6,False
+SP2,2021,2021-03-27,Oviedo,Ponferradina,7,6,False
+SP2,2021,2021-03-27,Almeria,Leganes,6,7,False
+SP2,2021,2021-03-27,Cartagena,Malaga,5,6,False
+SP2,2021,2021-03-27,Logrones,Zaragoza,7,5,False
+SP2,2021,2021-03-28,Lugo,Sabadell,7,8,False
+SP2,2021,2021-03-28,Girona,Albacete,9,6,False
+SP2,2021,2021-03-28,Tenerife,Las Palmas,7,9,False
+SP2,2021,2021-03-29,Fuenlabrada,Mallorca,9,9,False
+SP2,2021,2021-03-30,Alcorcon,Oviedo,4,3,True
+SP2,2021,2021-03-30,Malaga,Almeria,3,3,True
+SP2,2021,2021-03-30,Ponferradina,Logrones,3,3,True
+SP2,2021,2021-03-30,Vallecano,Sp Gijon,9,4,True
+SP2,2021,2021-03-31,Albacete,Castellon,3,5,True
+SP2,2021,2021-03-31,Sabadell,Girona,3,3,True
+SP2,2021,2021-04-01,Las Palmas,Lugo,4,4,True
+SP2,2021,2021-04-01,Zaragoza,Cartagena,5,5,True
+SP2,2021,2021-04-01,Mallorca,Leganes,3,5,True
+SP2,2021,2021-04-01,Espanol,Fuenlabrada,6,3,True
+SP2,2021,2021-04-02,Almeria,Vallecano,3,3,False
+SP2,2021,2021-04-03,Logrones,Tenerife,4,6,False
+SP2,2021,2021-04-03,Girona,Ponferradina,3,4,False
+SP2,2021,2021-04-03,Castellon,Oviedo,3,4,False
+SP2,2021,2021-04-04,Sp Gijon,Mirandes,5,13,False
+SP2,2021,2021-04-04,Albacete,Espanol,4,3,False
+SP2,2021,2021-04-04,Leganes,Sabadell,3,4,False
+SP2,2021,2021-04-04,Lugo,Malaga,3,5,False
+SP2,2021,2021-04-04,Las Palmas,Mallorca,3,3,False
+SP2,2021,2021-04-05,Cartagena,Alcorcon,4,6,False
+SP2,2021,2021-04-05,Fuenlabrada,Zaragoza,4,4,False
+SP2,2021,2021-04-09,Tenerife,Sp Gijon,6,5,False
+SP2,2021,2021-04-10,Oviedo,Las Palmas,7,6,False
+SP2,2021,2021-04-10,Vallecano,Girona,8,7,False
+SP2,2021,2021-04-10,Ponferradina,Fuenlabrada,7,5,False
+SP2,2021,2021-04-11,Zaragoza,Almeria,6,9,False
+SP2,2021,2021-04-11,Malaga,Albacete,7,7,False
+SP2,2021,2021-04-11,Mallorca,Lugo,7,7,False
+SP2,2021,2021-04-11,Mirandes,Logrones,7,8,False
+SP2,2021,2021-04-11,Sabadell,Cartagena,7,6,False
+SP2,2021,2021-04-11,Espanol,Leganes,7,7,False
+SP2,2021,2021-04-12,Alcorcon,Castellon,7,9,False
+SP2,2021,2021-04-14,Vallecano,Mirandes,4,3,True
+SP2,2021,2021-04-16,Fuenlabrada,Sabadell,6,5,False
+SP2,2021,2021-04-16,Girona,Zaragoza,6,5,False
+SP2,2021,2021-04-17,Lugo,Alcorcon,6,5,False
+SP2,2021,2021-04-17,Castellon,Mallorca,5,6,False
+SP2,2021,2021-04-17,Las Palmas,Malaga,7,6,False
+SP2,2021,2021-04-17,Sp Gijon,Oviedo,8,7,False
+SP2,2021,2021-04-18,Albacete,Mirandes,7,4,False
+SP2,2021,2021-04-18,Cartagena,Tenerife,7,9,False
+SP2,2021,2021-04-18,Logrones,Vallecano,7,4,False
+SP2,2021,2021-04-19,Leganes,Ponferradina,8,9,False
+SP2,2021,2021-04-19,Almeria,Espanol,8,8,False
+SP2,2021,2021-04-21,Mirandes,Tenerife,3,3,True
+SP2,2021,2021-04-23,Zaragoza,Sp Gijon,7,6,False
+SP2,2021,2021-04-24,Ponferradina,Lugo,5,7,False
+SP2,2021,2021-04-24,Logrones,Cartagena,6,6,False
+SP2,2021,2021-04-24,Malaga,Fuenlabrada,7,8,False
+SP2,2021,2021-04-24,Espanol,Las Palmas,5,7,False
+SP2,2021,2021-04-25,Alcorcon,Leganes,8,6,False
+SP2,2021,2021-04-25,Tenerife,Castellon,4,8,False
+SP2,2021,2021-04-25,Oviedo,Girona,8,9,False
+SP2,2021,2021-04-25,Mirandes,Almeria,4,6,False
+SP2,2021,2021-04-26,Vallecano,Albacete,8,8,False
+SP2,2021,2021-04-26,Sabadell,Mallorca,10,9,False
+SP2,2021,2021-04-30,Lugo,Zaragoza,6,7,False
+SP2,2021,2021-05-01,Girona,Tenerife,6,6,False
+SP2,2021,2021-05-01,Almeria,Oviedo,6,6,False
+SP2,2021,2021-05-01,Mallorca,Mirandes,5,6,False
+SP2,2021,2021-05-02,Las Palmas,Ponferradina,8,8,False
+SP2,2021,2021-05-02,Fuenlabrada,Cartagena,8,8,False
+SP2,2021,2021-05-02,Espanol,Malaga,8,8,False
+SP2,2021,2021-05-02,Castellon,Logrones,7,8,False
+SP2,2021,2021-05-02,Leganes,Sp Gijon,7,9,False
+SP2,2021,2021-05-03,Albacete,Alcorcon,7,8,False
+SP2,2021,2021-05-03,Sabadell,Vallecano,7,7,False
+SP2,2021,2021-05-07,Tenerife,Almeria,6,6,False
+SP2,2021,2021-05-08,Zaragoza,Espanol,8,6,False
+SP2,2021,2021-05-08,Ponferradina,Albacete,6,5,False
+SP2,2021,2021-05-08,Alcorcon,Las Palmas,5,6,False
+SP2,2021,2021-05-08,Malaga,Mallorca,6,7,False
+SP2,2021,2021-05-09,Cartagena,Castellon,7,7,False
+SP2,2021,2021-05-09,Mirandes,Fuenlabrada,8,7,False
+SP2,2021,2021-05-09,Oviedo,Sabadell,8,6,False
+SP2,2021,2021-05-09,Logrones,Girona,7,8,False
+SP2,2021,2021-05-10,Vallecano,Leganes,7,8,False
+SP2,2021,2021-05-10,Sp Gijon,Lugo,8,10,False
+SP2,2021,2021-05-14,Espanol,Cartagena,6,5,False
+SP2,2021,2021-05-15,Almeria,Albacete,8,7,False
+SP2,2021,2021-05-15,Las Palmas,Zaragoza,7,7,False
+SP2,2021,2021-05-15,Castellon,Ponferradina,6,7,False
+SP2,2021,2021-05-15,Lugo,Mirandes,5,6,False
+SP2,2021,2021-05-16,Mallorca,Alcorcon,8,8,False
+SP2,2021,2021-05-16,Leganes,Logrones,6,7,False
+SP2,2021,2021-05-16,Sabadell,Tenerife,7,9,False
+SP2,2021,2021-05-16,Fuenlabrada,Vallecano,7,6,False
+SP2,2021,2021-05-17,Girona,Sp Gijon,8,7,False
+SP2,2021,2021-05-17,Oviedo,Malaga,8,9,False
+SP2,2021,2021-05-18,Ponferradina,Espanol,3,4,True
+SP2,2021,2021-05-18,Cartagena,Almeria,4,3,True
+SP2,2021,2021-05-18,Albacete,Lugo,3,3,True
+SP2,2021,2021-05-19,Tenerife,Mallorca,3,3,True
+SP2,2021,2021-05-19,Mirandes,Leganes,4,3,True
+SP2,2021,2021-05-19,Logrones,Fuenlabrada,3,3,True
+SP2,2021,2021-05-19,Alcorcon,Sabadell,3,3,True
+SP2,2021,2021-05-20,Malaga,Girona,3,3,True
+SP2,2021,2021-05-20,Sp Gijon,Las Palmas,3,5,True
+SP2,2021,2021-05-20,Vallecano,Oviedo,4,3,True
+SP2,2021,2021-05-20,Zaragoza,Castellon,5,5,True
+SP2,2021,2021-05-23,Mallorca,Zaragoza,4,3,False
+SP2,2021,2021-05-23,Espanol,Tenerife,5,4,False
+SP2,2021,2021-05-24,Leganes,Malaga,5,4,False
+SP2,2021,2021-05-24,Oviedo,Mirandes,4,5,False
+SP2,2021,2021-05-24,Almeria,Logrones,6,5,False
+SP2,2021,2021-05-24,Castellon,Vallecano,4,4,False
+SP2,2021,2021-05-24,Fuenlabrada,Sp Gijon,5,4,False
+SP2,2021,2021-05-24,Girona,Alcorcon,4,5,False
+SP2,2021,2021-05-24,Las Palmas,Albacete,4,6,False
+SP2,2021,2021-05-24,Lugo,Cartagena,6,6,False
+SP2,2021,2021-05-24,Sabadell,Ponferradina,5,6,False
+SP2,2021,2021-05-29,Tenerife,Oviedo,6,5,False
+SP2,2021,2021-05-30,Malaga,Castellon,6,6,False
+SP2,2021,2021-05-30,Mirandes,Sabadell,6,6,False
+SP2,2021,2021-05-30,Ponferradina,Mallorca,6,7,False
+SP2,2021,2021-05-30,Sp Gijon,Almeria,6,6,False
+SP2,2021,2021-05-30,Logrones,Las Palmas,6,6,False
+SP2,2021,2021-05-30,Zaragoza,Leganes,7,6,False
+SP2,2021,2021-05-30,Cartagena,Girona,6,6,False
+SP2,2021,2021-05-30,Alcorcon,Espanol,6,7,False
+SP2,2021,2021-05-30,Albacete,Fuenlabrada,6,6,False
+SP2,2021,2021-05-30,Vallecano,Lugo,6,6,False

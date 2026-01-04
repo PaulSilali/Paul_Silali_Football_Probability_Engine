@@ -1,0 +1,277 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+72,Doncaster,108,Crewe,2021,2,0,0.0,2.0
+86,Northampton,111,Swindon,2021,2,0,0.0,3.0
+75,Plymouth,92,Shrewsbury,2021,2,1,0.5,2.5
+74,Lincoln,101,Fleetwood Town,2021,2,1,0.5,1.5
+67,Luton,86,Northampton,2021,2,0,0.0,3.0
+77,Wigan,96,Oxford,2021,2,0,0.0,3.0
+77,Wigan,90,Bristol Rvs,2021,2,1,0.5,1.5
+74,Lincoln,110,Hull,2021,2,1,0.5,1.5
+86,Northampton,102,Accrington,2021,2,1,0.5,0.5
+94,Charlton,96,Oxford,2021,2,1,0.5,1.0
+82,AFC Wimbledon,109,Sunderland,2021,2,1,0.5,2.5
+80,Peterboro,86,Northampton,2021,2,0,0.0,3.0
+102,Accrington,105,Ipswich,2021,2,0,0.0,2.5
+101,Fleetwood Town,108,Crewe,2021,2,1,0.5,2.0
+77,Wigan,101,Fleetwood Town,2021,2,2,1.0,1.0
+69,Blackpool,72,Doncaster,2021,2,0,0.0,3.5
+72,Doncaster,90,Bristol Rvs,2021,2,0,0.0,4.0
+105,Ipswich,112,Rochdale,2021,2,1,0.5,1.0
+86,Northampton,96,Oxford,2021,2,0,0.0,2.5
+74,Lincoln,82,AFC Wimbledon,2021,2,1,0.5,1.5
+92,Shrewsbury,101,Fleetwood Town,2021,2,0,0.0,1.5
+89,Birmingham,92,Shrewsbury,2021,2,2,1.0,1.0
+80,Peterboro,92,Shrewsbury,2021,2,0,0.0,4.0
+86,Northampton,92,Shrewsbury,2021,2,0,0.0,2.0
+89,Birmingham,108,Crewe,2021,2,0,0.0,3.0
+67,Luton,99,Portsmouth,2021,2,0,0.0,4.5
+72,Doncaster,82,AFC Wimbledon,2021,2,1,0.5,3.0
+92,Shrewsbury,110,Hull,2021,2,1,0.5,1.5
+75,Plymouth,89,Birmingham,2021,2,0,0.0,1.0
+82,AFC Wimbledon,96,Oxford,2021,2,0,0.0,2.5
+109,Sunderland,111,Swindon,2021,2,0,0.0,1.5
+77,Wigan,105,Ipswich,2021,2,1,0.5,1.0
+80,Peterboro,90,Bristol Rvs,2021,2,1,0.5,1.0
+86,Northampton,90,Bristol Rvs,2021,2,1,0.5,2.0
+67,Luton,74,Lincoln,2021,2,0,0.0,3.5
+75,Plymouth,109,Sunderland,2021,2,0,0.0,3.5
+92,Shrewsbury,96,Oxford,2021,2,0,0.0,5.0
+89,Birmingham,96,Oxford,2021,2,0,0.0,4.5
+99,Portsmouth,112,Rochdale,2021,2,1,0.5,1.5
+101,Fleetwood Town,111,Swindon,2021,2,0,0.0,1.5
+94,Charlton,102,Accrington,2021,2,1,0.5,2.0
+96,Oxford,112,Rochdale,2021,2,0,0.0,5.5
+111,Swindon,112,Rochdale,2021,2,0,0.0,3.5
+69,Blackpool,86,Northampton,2021,2,0,0.0,2.5
+104,Milton Keynes Dons,108,Crewe,2021,2,0,0.0,2.0
+101,Fleetwood Town,102,Accrington,2021,2,1,0.5,1.5
+69,Blackpool,94,Charlton,2021,2,0,0.0,2.0
+86,Northampton,110,Hull,2021,2,0,0.0,2.5
+67,Luton,75,Plymouth,2021,2,1,0.5,2.0
+94,Charlton,110,Hull,2021,2,0,0.0,1.5
+80,Peterboro,109,Sunderland,2021,2,1,0.5,1.5
+89,Birmingham,94,Charlton,2021,2,1,0.5,3.5
+74,Lincoln,94,Charlton,2021,2,0,0.0,3.0
+90,Bristol Rvs,96,Oxford,2021,2,0,0.0,2.0
+86,Northampton,108,Crewe,2021,2,0,0.0,2.0
+94,Charlton,112,Rochdale,2021,2,1,0.5,5.0
+74,Lincoln,77,Wigan,2021,2,0,0.0,3.0
+96,Oxford,102,Accrington,2021,2,0,0.0,4.0
+104,Milton Keynes Dons,110,Hull,2021,2,0,0.0,2.5
+80,Peterboro,104,Milton Keynes Dons,2021,2,1,0.5,2.5
+77,Wigan,80,Peterboro,2021,2,0,0.0,2.0
+80,Peterboro,89,Birmingham,2021,2,0,0.0,2.5
+90,Bristol Rvs,108,Crewe,2021,2,0,0.0,3.0
+67,Luton,72,Doncaster,2021,2,0,0.0,3.5
+75,Plymouth,111,Swindon,2021,2,0,0.0,4.0
+92,Shrewsbury,111,Swindon,2021,2,1,0.5,3.5
+90,Bristol Rvs,102,Accrington,2021,2,0,0.0,6.0
+108,Crewe,111,Swindon,2021,2,0,0.0,4.5
+72,Doncaster,96,Oxford,2021,2,0,0.0,4.0
+67,Luton,104,Milton Keynes Dons,2021,2,1,0.5,2.5
+96,Oxford,108,Crewe,2021,2,0,0.0,4.0
+72,Doncaster,99,Portsmouth,2021,2,0,0.0,2.0
+105,Ipswich,108,Crewe,2021,2,1,0.5,1.5
+72,Doncaster,89,Birmingham,2021,2,1,0.5,3.5
+74,Lincoln,112,Rochdale,2021,2,0,0.0,2.5
+80,Peterboro,105,Ipswich,2021,2,0,0.0,2.0
+69,Blackpool,90,Bristol Rvs,2021,2,0,0.0,2.0
+67,Luton,82,AFC Wimbledon,2021,2,1,0.5,1.5
+90,Bristol Rvs,109,Sunderland,2021,2,1,0.5,1.5
+80,Peterboro,108,Crewe,2021,2,0,0.0,2.0
+72,Doncaster,105,Ipswich,2021,2,0,0.0,4.0
+99,Portsmouth,104,Milton Keynes Dons,2021,2,0,0.0,2.0
+82,AFC Wimbledon,108,Crewe,2021,2,1,0.5,2.5
+102,Accrington,112,Rochdale,2021,2,0,0.0,3.5
+105,Ipswich,109,Sunderland,2021,2,0,0.0,2.0
+92,Shrewsbury,104,Milton Keynes Dons,2021,2,1,0.5,5.0
+80,Peterboro,112,Rochdale,2021,2,1,0.5,5.5
+74,Lincoln,102,Accrington,2021,2,2,1.0,2.0
+67,Luton,109,Sunderland,2021,2,1,0.5,2.5
+74,Lincoln,108,Crewe,2021,2,0,0.0,2.0
+69,Blackpool,74,Lincoln,2021,2,1,0.5,4.5
+92,Shrewsbury,94,Charlton,2021,2,2,1.0,2.0
+69,Blackpool,108,Crewe,2021,2,2,1.0,2.0
+102,Accrington,104,Milton Keynes Dons,2021,2,0,0.0,4.0
+77,Wigan,99,Portsmouth,2021,2,0,0.0,2.0
+82,AFC Wimbledon,110,Hull,2021,2,0,0.0,2.0
+69,Blackpool,111,Swindon,2021,2,0,0.0,2.0
+89,Birmingham,112,Rochdale,2021,2,1,0.5,4.5
+99,Portsmouth,105,Ipswich,2021,2,0,0.0,2.5
+89,Birmingham,99,Portsmouth,2021,2,1,0.5,2.0
+74,Lincoln,86,Northampton,2021,2,0,0.0,3.5
+101,Fleetwood Town,105,Ipswich,2021,2,0,0.0,3.0
+77,Wigan,82,AFC Wimbledon,2021,2,1,0.5,3.5
+77,Wigan,92,Shrewsbury,2021,2,1,0.5,2.5
+86,Northampton,112,Rochdale,2021,2,2,1.0,1.0
+92,Shrewsbury,99,Portsmouth,2021,2,1,0.5,1.5
+72,Doncaster,101,Fleetwood Town,2021,2,0,0.0,2.5
+82,AFC Wimbledon,89,Birmingham,2021,2,0,0.0,2.0
+89,Birmingham,104,Milton Keynes Dons,2021,2,0,0.0,3.5
+72,Doncaster,74,Lincoln,2021,2,0,0.0,1.0
+75,Plymouth,112,Rochdale,2021,2,1,0.5,2.0
+74,Lincoln,92,Shrewsbury,2021,2,0,0.0,1.0
+99,Portsmouth,111,Swindon,2021,2,0,0.0,3.0
+77,Wigan,89,Birmingham,2021,2,0,0.0,3.0
+75,Plymouth,101,Fleetwood Town,2021,2,0,0.0,3.5
+80,Peterboro,111,Swindon,2021,2,0,0.0,3.5
+74,Lincoln,96,Oxford,2021,2,0,0.0,2.5
+89,Birmingham,110,Hull,2021,2,1,0.5,2.0
+72,Doncaster,77,Wigan,2021,2,0,0.0,3.0
+82,AFC Wimbledon,94,Charlton,2021,2,1,0.5,5.5
+82,AFC Wimbledon,111,Swindon,2021,2,0,0.0,3.0
+75,Plymouth,80,Peterboro,2021,2,0,0.0,2.0
+72,Doncaster,111,Swindon,2021,2,0,0.0,3.0
+80,Peterboro,99,Portsmouth,2021,2,0,0.0,1.5
+90,Bristol Rvs,99,Portsmouth,2021,2,0,0.0,2.5
+67,Luton,110,Hull,2021,2,0,0.0,1.5
+67,Luton,102,Accrington,2021,2,1,0.5,1.5
+99,Portsmouth,110,Hull,2021,2,0,0.0,3.0
+96,Oxford,105,Ipswich,2021,2,2,1.0,
+74,Lincoln,105,Ipswich,2021,2,1,0.5,1.5
+77,Wigan,108,Crewe,2021,2,0,0.0,2.5
+69,Blackpool,105,Ipswich,2021,2,0,0.0,3.5
+75,Plymouth,82,AFC Wimbledon,2021,2,1,0.5,4.5
+75,Plymouth,102,Accrington,2021,2,1,0.5,2.5
+75,Plymouth,90,Bristol Rvs,2021,2,0,0.0,2.5
+75,Plymouth,110,Hull,2021,2,0,0.0,2.0
+96,Oxford,109,Sunderland,2021,2,0,0.0,3.0
+67,Luton,101,Fleetwood Town,2021,2,0,0.0,5.0
+89,Birmingham,102,Accrington,2021,2,0,0.0,1.5
+94,Charlton,109,Sunderland,2021,2,1,0.5,1.5
+86,Northampton,89,Birmingham,2021,2,1,0.5,4.0
+101,Fleetwood Town,109,Sunderland,2021,2,1,0.5,2.0
+89,Birmingham,109,Sunderland,2021,2,1,0.5,3.0
+80,Peterboro,101,Fleetwood Town,2021,2,0,0.0,2.0
+90,Bristol Rvs,112,Rochdale,2021,2,1,0.5,2.5
+77,Wigan,94,Charlton,2021,2,0,0.0,1.0
+69,Blackpool,112,Rochdale,2021,2,0,0.0,1.0
+72,Doncaster,80,Peterboro,2021,2,1,0.5,4.5
+86,Northampton,109,Sunderland,2021,2,2,1.0,1.0
+108,Crewe,112,Rochdale,2021,2,2,1.0,4.0
+69,Blackpool,80,Peterboro,2021,2,0,0.0,3.5
+92,Shrewsbury,112,Rochdale,2021,2,0,0.0,2.5
+96,Oxford,104,Milton Keynes Dons,2021,2,1,0.5,3.5
+102,Accrington,111,Swindon,2021,2,0,0.0,3.0
+75,Plymouth,108,Crewe,2021,2,1,0.5,2.5
+86,Northampton,104,Milton Keynes Dons,2021,2,1,0.5,3.5
+90,Bristol Rvs,111,Swindon,2021,2,0,0.0,1.0
+69,Blackpool,102,Accrington,2021,2,2,1.0,
+96,Oxford,101,Fleetwood Town,2021,2,0,0.0,1.5
+101,Fleetwood Town,110,Hull,2021,2,0,0.0,4.0
+86,Northampton,94,Charlton,2021,2,0,0.0,2.5
+90,Bristol Rvs,94,Charlton,2021,2,0,0.0,3.0
+89,Birmingham,90,Bristol Rvs,2021,2,0,0.0,2.0
+75,Plymouth,105,Ipswich,2021,2,0,0.0,2.0
+110,Hull,112,Rochdale,2021,2,0,0.0,2.5
+77,Wigan,102,Accrington,2021,2,0,0.0,5.5
+99,Portsmouth,109,Sunderland,2021,2,0,0.0,3.0
+74,Lincoln,89,Birmingham,2021,2,0,0.0,3.0
+67,Luton,90,Bristol Rvs,2021,2,1,0.5,1.5
+90,Bristol Rvs,104,Milton Keynes Dons,2021,2,0,0.0,2.0
+96,Oxford,110,Hull,2021,2,1,0.5,2.0
+90,Bristol Rvs,105,Ipswich,2021,2,0,0.0,2.5
+94,Charlton,101,Fleetwood Town,2021,2,1,0.5,3.5
+92,Shrewsbury,105,Ipswich,2021,2,1,0.5,1.5
+69,Blackpool,77,Wigan,2021,2,0,0.0,3.0
+82,AFC Wimbledon,86,Northampton,2021,2,1,0.5,2.5
+90,Bristol Rvs,101,Fleetwood Town,2021,2,1,0.5,2.5
+77,Wigan,111,Swindon,2021,2,0,0.0,4.0
+104,Milton Keynes Dons,109,Sunderland,2021,2,1,0.5,3.5
+80,Peterboro,82,AFC Wimbledon,2021,2,0,0.0,3.0
+89,Birmingham,101,Fleetwood Town,2021,2,0,0.0,1.5
+69,Blackpool,101,Fleetwood Town,2021,2,1,0.5,0.5
+67,Luton,92,Shrewsbury,2021,2,1,0.5,2.5
+75,Plymouth,99,Portsmouth,2021,2,2,1.0,4.0
+89,Birmingham,105,Ipswich,2021,2,0,0.0,2.5
+80,Peterboro,102,Accrington,2021,2,0,0.0,4.5
+82,AFC Wimbledon,102,Accrington,2021,2,0,0.0,4.5
+74,Lincoln,104,Milton Keynes Dons,2021,2,0,0.0,3.5
+99,Portsmouth,102,Accrington,2021,2,1,0.5,3.5
+94,Charlton,111,Swindon,2021,2,2,1.0,4.0
+74,Lincoln,75,Plymouth,2021,2,0,0.0,4.5
+110,Hull,111,Swindon,2021,2,0,0.0,2.0
+109,Sunderland,112,Rochdale,2021,2,1,0.5,3.0
+82,AFC Wimbledon,99,Portsmouth,2021,2,0,0.0,4.0
+67,Luton,69,Blackpool,2021,2,1,0.5,2.5
+102,Accrington,109,Sunderland,2021,2,1,0.5,4.0
+77,Wigan,109,Sunderland,2021,2,0,0.0,2.0
+74,Lincoln,80,Peterboro,2021,2,2,1.0,4.0
+94,Charlton,105,Ipswich,2021,2,1,0.5,1.0
+101,Fleetwood Town,112,Rochdale,2021,2,0,0.0,2.0
+75,Plymouth,77,Wigan,2021,2,1,0.5,2.0
+74,Lincoln,90,Bristol Rvs,2021,2,0,0.0,2.0
+92,Shrewsbury,108,Crewe,2021,2,0,0.0,3.0
+69,Blackpool,89,Birmingham,2021,2,0,0.0,3.5
+82,AFC Wimbledon,90,Bristol Rvs,2021,2,1,0.5,3.0
+104,Milton Keynes Dons,105,Ipswich,2021,2,2,1.0,1.0
+72,Doncaster,86,Northampton,2021,2,1,0.5,1.0
+72,Doncaster,102,Accrington,2021,2,0,0.0,2.0
+96,Oxford,111,Swindon,2021,2,0,0.0,3.0
+82,AFC Wimbledon,104,Milton Keynes Dons,2021,2,1,0.5,2.0
+69,Blackpool,99,Portsmouth,2021,2,0,0.0,1.0
+82,AFC Wimbledon,101,Fleetwood Town,2021,2,0,0.0,1.0
+74,Lincoln,111,Swindon,2021,2,1,0.5,2.5
+72,Doncaster,112,Rochdale,2021,2,0,0.0,2.0
+67,Luton,108,Crewe,2021,2,1,0.5,2.5
+86,Northampton,101,Fleetwood Town,2021,2,1,0.5,0.5
+75,Plymouth,104,Milton Keynes Dons,2021,2,0,0.0,2.0
+72,Doncaster,110,Hull,2021,2,1,0.5,4.5
+75,Plymouth,96,Oxford,2021,2,0,0.0,4.5
+74,Lincoln,99,Portsmouth,2021,2,0,0.0,2.5
+69,Blackpool,110,Hull,2021,2,1,0.5,3.5
+104,Milton Keynes Dons,112,Rochdale,2021,2,0,0.0,4.0
+77,Wigan,104,Milton Keynes Dons,2021,2,0,0.0,2.5
+67,Luton,105,Ipswich,2021,2,0,0.0,2.0
+67,Luton,112,Rochdale,2021,2,0,0.0,1.5
+109,Sunderland,110,Hull,2021,2,2,1.0,3.0
+105,Ipswich,110,Hull,2021,2,0,0.0,2.0
+77,Wigan,86,Northampton,2021,2,0,0.0,3.0
+92,Shrewsbury,109,Sunderland,2021,2,0,0.0,2.0
+99,Portsmouth,108,Crewe,2021,2,1,0.5,2.5
+72,Doncaster,104,Milton Keynes Dons,2021,2,1,0.5,1.5
+86,Northampton,105,Ipswich,2021,2,1,0.5,1.5
+69,Blackpool,104,Milton Keynes Dons,2021,2,0,0.0,1.0
+94,Charlton,104,Milton Keynes Dons,2021,2,0,0.0,1.0
+90,Bristol Rvs,110,Hull,2021,2,0,0.0,3.0
+69,Blackpool,75,Plymouth,2021,2,1,0.5,2.5
+92,Shrewsbury,102,Accrington,2021,2,2,1.0,3.0
+102,Accrington,110,Hull,2021,2,0,0.0,2.5
+74,Lincoln,109,Sunderland,2021,2,1,0.5,3.0
+86,Northampton,99,Portsmouth,2021,2,0,0.0,4.5
+102,Accrington,108,Crewe,2021,2,0,0.0,1.5
+67,Luton,80,Peterboro,2021,2,1,0.5,3.5
+82,AFC Wimbledon,112,Rochdale,2021,2,1,0.5,3.5
+72,Doncaster,109,Sunderland,2021,2,1,0.5,3.5
+69,Blackpool,82,AFC Wimbledon,2021,2,1,0.5,1.5
+77,Wigan,112,Rochdale,2021,2,1,0.5,5.5
+75,Plymouth,86,Northampton,2021,2,0,0.0,2.5
+67,Luton,111,Swindon,2021,2,0,0.0,4.5
+105,Ipswich,111,Swindon,2021,2,0,0.0,4.0
+67,Luton,89,Birmingham,2021,2,1,0.5,1.5
+82,AFC Wimbledon,105,Ipswich,2021,2,1,0.5,1.5
+94,Charlton,99,Portsmouth,2021,2,0,0.0,3.0
+80,Peterboro,110,Hull,2021,2,0,0.0,3.5
+104,Milton Keynes Dons,111,Swindon,2021,2,0,0.0,5.0
+94,Charlton,108,Crewe,2021,2,1,0.5,3.0
+101,Fleetwood Town,104,Milton Keynes Dons,2021,2,1,0.5,3.0
+69,Blackpool,92,Shrewsbury,2021,2,0,0.0,1.0
+72,Doncaster,75,Plymouth,2021,2,0,0.0,3.0
+67,Luton,94,Charlton,2021,2,0,0.0,4.5
+108,Crewe,109,Sunderland,2021,2,1,0.5,2.5
+80,Peterboro,96,Oxford,2021,2,1,0.5,1.0
+72,Doncaster,94,Charlton,2021,2,0,0.0,2.5
+77,Wigan,110,Hull,2021,2,0,0.0,4.5
+75,Plymouth,94,Charlton,2021,2,1,0.5,5.0
+67,Luton,77,Wigan,2021,2,1,0.5,4.5
+80,Peterboro,94,Charlton,2021,2,0,0.0,2.0
+72,Doncaster,92,Shrewsbury,2021,2,0,0.0,1.5
+96,Oxford,99,Portsmouth,2021,2,1,0.5,1.5
+69,Blackpool,109,Sunderland,2021,2,0,0.0,1.0
+90,Bristol Rvs,92,Shrewsbury,2021,2,0,0.0,2.0
+69,Blackpool,96,Oxford,2021,2,1,0.5,1.0
+108,Crewe,110,Hull,2021,2,0,0.0,2.0
+89,Birmingham,111,Swindon,2021,2,0,0.0,3.0
+82,AFC Wimbledon,92,Shrewsbury,2021,2,1,0.5,1.5
+67,Luton,96,Oxford,2021,2,0,0.0,5.0
+99,Portsmouth,101,Fleetwood Town,2021,2,1,0.5,0.5

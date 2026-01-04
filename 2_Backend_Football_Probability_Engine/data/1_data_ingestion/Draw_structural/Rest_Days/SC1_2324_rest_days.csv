@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,2324,2023-08-04,Arbroath,Dundee United,91,91,False
+SC1,2324,2023-08-05,Inverness C,Queens Park,92,92,False
+SC1,2324,2023-08-05,Dunfermline,Airdrie Utd,463,7,False
+SC1,2324,2023-08-05,Morton,Ayr,92,92,False
+SC1,2324,2023-08-05,Partick,Raith Rvs,92,92,False
+SC1,2324,2023-08-12,Dundee United,Dunfermline,8,7,False
+SC1,2324,2023-08-12,Queens Park,Arbroath,7,8,False
+SC1,2324,2023-08-12,Raith Rvs,Morton,7,7,False
+SC1,2324,2023-08-12,Airdrie Utd,Partick,7,7,False
+SC1,2324,2023-08-12,Ayr,Inverness C,7,7,False
+SC1,2324,2023-08-19,Arbroath,Queens Park,7,7,False
+SC1,2324,2023-08-26,Dunfermline,Raith Rvs,14,14,False
+SC1,2324,2023-08-26,Morton,Arbroath,14,7,False
+SC1,2324,2023-08-26,Partick,Queens Park,14,7,False
+SC1,2324,2023-08-26,Ayr,Dundee United,14,14,False
+SC1,2324,2023-08-26,Airdrie Utd,Inverness C,14,14,False
+SC1,2324,2023-09-02,Inverness C,Dunfermline,7,7,False
+SC1,2324,2023-09-02,Morton,Partick,7,7,False
+SC1,2324,2023-09-02,Raith Rvs,Queens Park,7,7,False
+SC1,2324,2023-09-02,Arbroath,Ayr,7,7,False
+SC1,2324,2023-09-02,Dundee United,Airdrie Utd,7,7,False
+SC1,2324,2023-09-15,Ayr,Partick,13,13,False
+SC1,2324,2023-09-16,Dundee United,Morton,14,14,False
+SC1,2324,2023-09-16,Queens Park,Dunfermline,14,14,False
+SC1,2324,2023-09-16,Raith Rvs,Inverness C,14,14,False
+SC1,2324,2023-09-16,Arbroath,Airdrie Utd,14,14,False
+SC1,2324,2023-09-22,Queens Park,Ayr,6,7,False
+SC1,2324,2023-09-23,Inverness C,Dundee United,7,7,False
+SC1,2324,2023-09-23,Partick,Arbroath,8,7,False
+SC1,2324,2023-09-23,Dunfermline,Morton,7,7,False
+SC1,2324,2023-09-23,Airdrie Utd,Raith Rvs,7,7,False
+SC1,2324,2023-09-30,Dundee United,Queens Park,7,8,False
+SC1,2324,2023-09-30,Morton,Airdrie Utd,7,7,False
+SC1,2324,2023-09-30,Partick,Dunfermline,7,7,False
+SC1,2324,2023-09-30,Arbroath,Inverness C,7,7,False
+SC1,2324,2023-09-30,Ayr,Raith Rvs,8,7,False
+SC1,2324,2023-10-07,Queens Park,Morton,7,7,False
+SC1,2324,2023-10-07,Raith Rvs,Dundee United,7,7,False
+SC1,2324,2023-10-07,Airdrie Utd,Ayr,7,7,False
+SC1,2324,2023-10-07,Inverness C,Partick,7,7,False
+SC1,2324,2023-10-20,Airdrie Utd,Queens Park,13,13,False
+SC1,2324,2023-10-21,Partick,Dundee United,14,14,False
+SC1,2324,2023-10-21,Dunfermline,Ayr,21,14,False
+SC1,2324,2023-10-27,Dundee United,Arbroath,6,27,False
+SC1,2324,2023-10-27,Queens Park,Partick,7,6,False
+SC1,2324,2023-10-28,Ayr,Morton,7,21,False
+SC1,2324,2023-10-28,Inverness C,Airdrie Utd,21,8,False
+SC1,2324,2023-10-28,Raith Rvs,Dunfermline,21,7,False
+SC1,2324,2023-10-31,Airdrie Utd,Dundee United,3,4,True
+SC1,2324,2023-10-31,Morton,Raith Rvs,3,3,True
+SC1,2324,2023-10-31,Partick,Ayr,4,3,True
+SC1,2324,2023-11-03,Morton,Dunfermline,3,6,False
+SC1,2324,2023-11-04,Raith Rvs,Airdrie Utd,4,4,False
+SC1,2324,2023-11-04,Arbroath,Partick,8,4,False
+SC1,2324,2023-11-04,Dundee United,Inverness C,4,7,False
+SC1,2324,2023-11-04,Ayr,Queens Park,4,8,False
+SC1,2324,2023-11-10,Dunfermline,Dundee United,7,6,False
+SC1,2324,2023-11-11,Queens Park,Raith Rvs,7,7,False
+SC1,2324,2023-11-11,Airdrie Utd,Arbroath,7,7,False
+SC1,2324,2023-11-11,Inverness C,Ayr,7,7,False
+SC1,2324,2023-11-11,Partick,Morton,7,8,False
+SC1,2324,2023-11-18,Dunfermline,Inverness C,8,7,False
+SC1,2324,2023-11-28,Dunfermline,Arbroath,10,17,True
+SC1,2324,2023-12-02,Inverness C,Raith Rvs,14,21,False
+SC1,2324,2023-12-02,Partick,Airdrie Utd,21,21,False
+SC1,2324,2023-12-08,Raith Rvs,Partick,6,6,False
+SC1,2324,2023-12-09,Airdrie Utd,Dunfermline,7,11,False
+SC1,2324,2023-12-09,Arbroath,Morton,11,28,False
+SC1,2324,2023-12-09,Dundee United,Ayr,29,28,False
+SC1,2324,2023-12-09,Queens Park,Inverness C,28,7,False
+SC1,2324,2023-12-12,Morton,Inverness C,3,3,True
+SC1,2324,2023-12-13,Arbroath,Raith Rvs,4,5,True
+SC1,2324,2023-12-16,Dundee United,Raith Rvs,7,3,False
+SC1,2324,2023-12-16,Ayr,Airdrie Utd,7,7,False
+SC1,2324,2023-12-16,Dunfermline,Partick,7,8,False
+SC1,2324,2023-12-16,Inverness C,Arbroath,4,3,False
+SC1,2324,2023-12-16,Morton,Queens Park,4,7,False
+SC1,2324,2023-12-22,Queens Park,Dundee United,6,6,False
+SC1,2324,2023-12-22,Raith Rvs,Ayr,6,6,False
+SC1,2324,2023-12-23,Partick,Inverness C,7,7,False
+SC1,2324,2023-12-23,Airdrie Utd,Morton,7,7,False
+SC1,2324,2023-12-23,Arbroath,Dunfermline,7,7,False
+SC1,2324,2023-12-29,Dundee United,Partick,7,6,False
+SC1,2324,2023-12-30,Queens Park,Airdrie Utd,8,7,False
+SC1,2324,2023-12-30,Raith Rvs,Arbroath,8,7,False
+SC1,2324,2023-12-30,Inverness C,Morton,7,7,False
+SC1,2324,2023-12-30,Ayr,Dunfermline,8,7,False
+SC1,2324,2024-01-02,Dunfermline,Raith Rvs,3,3,True
+SC1,2324,2024-01-02,Morton,Ayr,3,3,True
+SC1,2324,2024-01-02,Partick,Queens Park,4,3,True
+SC1,2324,2024-01-02,Airdrie Utd,Inverness C,3,3,True
+SC1,2324,2024-01-02,Arbroath,Dundee United,3,4,True
+SC1,2324,2024-01-05,Queens Park,Dunfermline,3,3,False
+SC1,2324,2024-01-06,Ayr,Inverness C,4,4,False
+SC1,2324,2024-01-06,Partick,Arbroath,4,4,False
+SC1,2324,2024-01-06,Airdrie Utd,Raith Rvs,4,4,False
+SC1,2324,2024-01-06,Dundee United,Morton,4,4,False
+SC1,2324,2024-01-12,Inverness C,Dundee United,6,6,False
+SC1,2324,2024-01-13,Raith Rvs,Queens Park,7,8,False
+SC1,2324,2024-01-13,Morton,Partick,7,7,False
+SC1,2324,2024-01-13,Arbroath,Ayr,7,7,False
+SC1,2324,2024-01-23,Ayr,Arbroath,10,10,True
+SC1,2324,2024-01-27,Morton,Arbroath,14,4,False
+SC1,2324,2024-01-27,Queens Park,Ayr,14,4,False
+SC1,2324,2024-01-27,Raith Rvs,Inverness C,14,15,False
+SC1,2324,2024-01-27,Dundee United,Dunfermline,15,22,False
+SC1,2324,2024-01-27,Airdrie Utd,Partick,21,14,False
+SC1,2324,2024-02-03,Inverness C,Queens Park,7,7,False
+SC1,2324,2024-02-03,Ayr,Dundee United,7,7,False
+SC1,2324,2024-02-03,Dunfermline,Morton,7,7,False
+SC1,2324,2024-02-10,Dunfermline,Queens Park,7,7,False
+SC1,2324,2024-02-16,Raith Rvs,Dundee United,20,13,False
+SC1,2324,2024-02-17,Inverness C,Partick,14,21,False
+SC1,2324,2024-02-17,Airdrie Utd,Ayr,21,14,False
+SC1,2324,2024-02-17,Queens Park,Morton,7,14,False
+SC1,2324,2024-02-17,Dunfermline,Arbroath,7,21,False
+SC1,2324,2024-02-23,Partick,Dunfermline,6,6,False
+SC1,2324,2024-02-24,Arbroath,Inverness C,7,7,False
+SC1,2324,2024-02-24,Ayr,Raith Rvs,7,8,False
+SC1,2324,2024-02-24,Dundee United,Queens Park,8,7,False
+SC1,2324,2024-02-24,Morton,Airdrie Utd,7,7,False
+SC1,2324,2024-02-27,Inverness C,Dunfermline,3,4,True
+SC1,2324,2024-02-27,Queens Park,Arbroath,3,3,True
+SC1,2324,2024-02-27,Raith Rvs,Morton,3,3,True
+SC1,2324,2024-02-27,Dundee United,Airdrie Utd,3,3,True
+SC1,2324,2024-02-27,Ayr,Partick,3,4,True
+SC1,2324,2024-03-01,Arbroath,Raith Rvs,3,3,False
+SC1,2324,2024-03-02,Morton,Inverness C,4,4,False
+SC1,2324,2024-03-02,Partick,Dundee United,4,4,False
+SC1,2324,2024-03-02,Dunfermline,Ayr,4,4,False
+SC1,2324,2024-03-02,Airdrie Utd,Queens Park,4,4,False
+SC1,2324,2024-03-05,Morton,Dundee United,3,3,True
+SC1,2324,2024-03-05,Dunfermline,Airdrie Utd,3,3,True
+SC1,2324,2024-03-09,Queens Park,Partick,7,7,False
+SC1,2324,2024-03-09,Dundee United,Arbroath,4,8,False
+SC1,2324,2024-03-09,Raith Rvs,Dunfermline,8,4,False
+SC1,2324,2024-03-09,Inverness C,Airdrie Utd,7,4,False
+SC1,2324,2024-03-12,Partick,Raith Rvs,3,3,True
+SC1,2324,2024-03-15,Dunfermline,Dundee United,6,6,False
+SC1,2324,2024-03-16,Airdrie Utd,Arbroath,7,7,False
+SC1,2324,2024-03-16,Inverness C,Ayr,7,14,False
+SC1,2324,2024-03-16,Queens Park,Raith Rvs,7,4,False
+SC1,2324,2024-03-16,Partick,Morton,4,11,False
+SC1,2324,2024-03-23,Arbroath,Partick,7,7,False
+SC1,2324,2024-03-23,Ayr,Queens Park,7,7,False
+SC1,2324,2024-03-23,Dundee United,Inverness C,8,7,False
+SC1,2324,2024-03-23,Morton,Dunfermline,7,8,False
+SC1,2324,2024-03-29,Ayr,Airdrie Utd,6,13,False
+SC1,2324,2024-03-30,Morton,Queens Park,7,7,False
+SC1,2324,2024-03-30,Partick,Inverness C,7,7,False
+SC1,2324,2024-03-30,Dundee United,Raith Rvs,7,14,False
+SC1,2324,2024-03-30,Arbroath,Dunfermline,7,7,False
+SC1,2324,2024-04-02,Arbroath,Airdrie Utd,3,4,True
+SC1,2324,2024-04-06,Inverness C,Arbroath,7,4,False
+SC1,2324,2024-04-06,Queens Park,Dundee United,7,7,False
+SC1,2324,2024-04-06,Raith Rvs,Ayr,7,8,False
+SC1,2324,2024-04-06,Dunfermline,Partick,7,7,False
+SC1,2324,2024-04-06,Airdrie Utd,Morton,4,7,False
+SC1,2324,2024-04-09,Ayr,Morton,3,3,True
+SC1,2324,2024-04-09,Raith Rvs,Airdrie Utd,3,3,True
+SC1,2324,2024-04-12,Morton,Dundee United,3,6,False
+SC1,2324,2024-04-13,Airdrie Utd,Dunfermline,4,7,False
+SC1,2324,2024-04-13,Ayr,Arbroath,4,7,False
+SC1,2324,2024-04-13,Queens Park,Inverness C,7,7,False
+SC1,2324,2024-04-13,Raith Rvs,Partick,4,7,False
+SC1,2324,2024-04-19,Inverness C,Raith Rvs,6,6,False
+SC1,2324,2024-04-20,Dunfermline,Queens Park,7,7,False
+SC1,2324,2024-04-20,Partick,Airdrie Utd,7,7,False
+SC1,2324,2024-04-20,Dundee United,Ayr,8,7,False
+SC1,2324,2024-04-20,Arbroath,Morton,7,8,False
+SC1,2324,2024-04-26,Airdrie Utd,Dundee United,6,6,False
+SC1,2324,2024-04-27,Morton,Raith Rvs,7,8,False
+SC1,2324,2024-04-27,Partick,Ayr,7,7,False
+SC1,2324,2024-04-27,Dunfermline,Inverness C,7,8,False
+SC1,2324,2024-04-27,Arbroath,Queens Park,7,7,False
+SC1,2324,2024-05-03,Inverness C,Morton,6,6,False
+SC1,2324,2024-05-03,Queens Park,Airdrie Utd,6,7,False
+SC1,2324,2024-05-03,Raith Rvs,Arbroath,6,6,False
+SC1,2324,2024-05-03,Ayr,Dunfermline,6,6,False
+SC1,2324,2024-05-03,Dundee United,Partick,7,6,False

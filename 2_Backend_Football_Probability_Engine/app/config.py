@@ -22,8 +22,9 @@ class Settings(BaseSettings):
     DATABASE_URL: Optional[str] = None
     
     # Database connection pool settings
-    DATABASE_POOL_SIZE: int = 5
-    DATABASE_MAX_OVERFLOW: int = 10
+    # Increased for concurrent data ingestion operations
+    DATABASE_POOL_SIZE: int = 20
+    DATABASE_MAX_OVERFLOW: int = 30
     DATABASE_ECHO: bool = False
     
     def get_database_url(self) -> str:
@@ -104,6 +105,14 @@ class Settings(BaseSettings):
     # External APIs
     API_FOOTBALL_KEY: str = ""
     FOOTBALL_DATA_BASE_URL: str = "https://www.football-data.co.uk"
+    FOOTBALL_DATA_ORG_KEY: str = ""  # Football-Data.org API key (free tier available)
+    FOOTBALL_DATA_ORG_BASE_URL: str = "https://api.football-data.org/v4"
+    
+    # OpenFootball Local Data Path (optional)
+    # If set, will use local files instead of downloading from GitHub
+    # Should point to the repository root folder (e.g., "12_Important_Documets/world-master" for world repo)
+    # For europe and south-america repos, set separate paths or use full path
+    OPENFOOTBALL_LOCAL_PATH: Optional[str] = None  # e.g., "12_Important_Documets/world-master"
     
     # Environment
     ENV: str = "development"

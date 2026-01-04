@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+T1,2324,2023-08-11,Trabzonspor,Antalyaspor,3.67,3.67,0.0
+T1,2324,2023-08-12,Pendikspor,Antalyaspor,3.5,3.5,0.0
+T1,2324,2023-08-12,Kasimpasa,Karagumruk,3.58,3.58,0.0
+T1,2324,2023-08-12,Kocaelispor,Galatasaray,4.19,4.19,0.0
+T1,2324,2023-08-12,Antalyaspor,Istanbulspor,3.77,3.77,0.0
+T1,2324,2023-08-13,Ad. Demirspor,Rizespor,4.27,4.27,0.0
+T1,2324,2023-08-13,Samsunspor,Samsunspor,3.49,3.49,0.0
+T1,2324,2023-08-13,Fenerbahce,Gaziantep,5.6,5.6,0.0
+T1,2324,2023-08-14,Antalyaspor,Buyuksehyr,3.5,3.5,0.0
+T1,2324,2023-08-14,Karagumruk,Besiktas,4.22,4.22,0.0
+T1,2324,2023-08-18,Antalyaspor,Antalyaspor,3.46,3.46,0.0
+T1,2324,2023-08-18,Istanbulspor,Kocaelispor,3.46,3.46,0.0
+T1,2324,2023-08-19,Antalyaspor,Kasimpasa,3.63,3.63,0.0
+T1,2324,2023-08-19,Galatasaray,Trabzonspor,4.29,4.29,0.0
+T1,2324,2023-08-19,Rizespor,Antalyaspor,3.52,3.52,0.0
+T1,2324,2023-08-20,Gaziantep,Samsunspor,3.54,3.54,0.0
+T1,2324,2023-08-20,Buyuksehyr,Karagumruk,4.09,4.09,0.0
+T1,2324,2023-08-20,Besiktas,Pendikspor,6.09,6.09,0.0
+T1,2324,2023-08-21,Karagumruk,Ad. Demirspor,3.69,3.69,0.0
+T1,2324,2023-08-21,Samsunspor,Fenerbahce,4.29,4.29,0.0
+T1,2324,2023-08-25,Antalyaspor,Gaziantep,3.87,3.87,0.0
+T1,2324,2023-08-26,Kasimpasa,Pendikspor,3.84,3.84,0.0
+T1,2324,2023-08-26,Trabzonspor,Rizespor,4.51,4.51,0.0
+T1,2324,2023-08-26,Samsunspor,Antalyaspor,3.35,3.35,0.0
+T1,2324,2023-08-27,Kocaelispor,Samsunspor,3.49,3.49,0.0
+T1,2324,2023-08-27,Karagumruk,Karagumruk,3.55,3.55,0.0
+T1,2324,2023-08-27,Antalyaspor,Antalyaspor,3.73,3.73,0.0
+T1,2324,2023-09-01,Kasimpasa,Trabzonspor,3.47,3.47,0.0
+T1,2324,2023-09-01,Rizespor,Karagumruk,3.71,3.71,0.0
+T1,2324,2023-09-02,Antalyaspor,Kocaelispor,3.69,3.69,0.0
+T1,2324,2023-09-02,Gaziantep,Galatasaray,4.87,4.87,0.0
+T1,2324,2023-09-02,Buyuksehyr,Antalyaspor,3.38,3.38,0.0
+T1,2324,2023-09-02,Pendikspor,Antalyaspor,3.54,3.54,0.0
+T1,2324,2023-09-03,Antalyaspor,Ad. Demirspor,3.68,3.68,0.0
+T1,2324,2023-09-03,Karagumruk,Fenerbahce,3.99,3.99,0.0
+T1,2324,2023-09-03,Besiktas,Samsunspor,4.66,4.66,0.0
+T1,2324,2023-09-16,Ad. Demirspor,Pendikspor,4.63,4.63,0.0
+T1,2324,2023-09-16,Galatasaray,Samsunspor,5.35,5.35,0.0
+T1,2324,2023-09-16,Kocaelispor,Gaziantep,3.7,3.7,0.0
+T1,2324,2023-09-16,Antalyaspor,Rizespor,3.57,3.57,0.0
+T1,2324,2023-09-17,Istanbulspor,Buyuksehyr,3.38,3.38,0.0
+T1,2324,2023-09-17,Fenerbahce,Antalyaspor,4.99,4.99,0.0
+T1,2324,2023-09-17,Trabzonspor,Besiktas,3.48,3.48,0.0
+T1,2324,2023-09-17,Antalyaspor,Kasimpasa,3.56,3.56,0.0
+T1,2324,2023-09-18,Samsunspor,Karagumruk,3.34,3.34,0.0
+T1,2324,2023-09-18,Karagumruk,Antalyaspor,3.54,3.54,0.0
+T1,2324,2023-09-22,Gaziantep,Istanbulspor,3.71,3.71,0.0
+T1,2324,2023-09-23,Antalyaspor,Samsunspor,3.57,3.57,0.0
+T1,2324,2023-09-23,Pendikspor,Karagumruk,3.42,3.42,0.0
+T1,2324,2023-09-23,Rizespor,Samsunspor,3.42,3.42,0.0
+T1,2324,2023-09-23,Buyuksehyr,Galatasaray,3.75,3.75,0.0
+T1,2324,2023-09-24,Kasimpasa,Ad. Demirspor,3.78,3.78,0.0
+T1,2324,2023-09-24,Antalyaspor,Fenerbahce,4.17,4.17,0.0
+T1,2324,2023-09-24,Karagumruk,Antalyaspor,3.47,3.47,0.0
+T1,2324,2023-09-24,Besiktas,Kocaelispor,5.04,5.04,0.0
+T1,2324,2023-09-25,Antalyaspor,Trabzonspor,3.55,3.55,0.0
+T1,2324,2023-09-26,Istanbulspor,Galatasaray,5.51,5.51,0.0
+T1,2324,2023-09-27,Ad. Demirspor,Besiktas,3.81,3.81,0.0
+T1,2324,2023-09-28,Fenerbahce,Buyuksehyr,4.71,4.71,0.0
+T1,2324,2023-09-29,Samsunspor,Gaziantep,3.6,3.6,0.0
+T1,2324,2023-09-30,Trabzonspor,Pendikspor,4.45,4.45,0.0
+T1,2324,2023-09-30,Galatasaray,Karagumruk,5.73,5.73,0.0
+T1,2324,2023-09-30,Istanbulspor,Antalyaspor,3.58,3.58,0.0
+T1,2324,2023-09-30,Samsunspor,Antalyaspor,3.52,3.52,0.0
+T1,2324,2023-10-01,Karagumruk,Kasimpasa,3.55,3.55,0.0
+T1,2324,2023-10-01,Fenerbahce,Rizespor,5.3,5.3,0.0
+T1,2324,2023-10-01,Ad. Demirspor,Antalyaspor,4.08,4.08,0.0
+T1,2324,2023-10-01,Antalyaspor,Besiktas,3.6,3.6,0.0
+T1,2324,2023-10-02,Kocaelispor,Buyuksehyr,3.38,3.38,0.0
+T1,2324,2023-10-06,Ad. Demirspor,Trabzonspor,3.78,3.78,0.0
+T1,2324,2023-10-06,Antalyaspor,Karagumruk,3.29,3.29,0.0
+T1,2324,2023-10-07,Buyuksehyr,Gaziantep,3.59,3.59,0.0
+T1,2324,2023-10-07,Pendikspor,Samsunspor,3.47,3.47,0.0
+T1,2324,2023-10-07,Karagumruk,Kocaelispor,3.49,3.49,0.0
+T1,2324,2023-10-07,Antalyaspor,Galatasaray,4.03,4.03,0.0
+T1,2324,2023-10-08,Antalyaspor,Antalyaspor,3.21,3.21,0.0
+T1,2324,2023-10-08,Kasimpasa,Fenerbahce,4.67,4.67,0.0
+T1,2324,2023-10-08,Besiktas,Istanbulspor,6.49,6.49,0.0
+T1,2324,2023-10-08,Rizespor,Samsunspor,3.48,3.48,0.0
+T1,2324,2023-10-21,Antalyaspor,Pendikspor,3.74,3.74,0.0
+T1,2324,2023-10-21,Galatasaray,Besiktas,4.2,4.2,0.0
+T1,2324,2023-10-21,Kocaelispor,Rizespor,3.36,3.36,0.0
+T1,2324,2023-10-21,Gaziantep,Antalyaspor,3.29,3.29,0.0
+T1,2324,2023-10-22,Fenerbahce,Antalyaspor,6.56,6.56,0.0
+T1,2324,2023-10-22,Samsunspor,Buyuksehyr,3.39,3.39,0.0
+T1,2324,2023-10-22,Samsunspor,Kasimpasa,3.47,3.47,0.0
+T1,2324,2023-10-22,Istanbulspor,Karagumruk,3.5,3.5,0.0
+T1,2324,2023-10-23,Karagumruk,Ad. Demirspor,3.77,3.77,0.0
+T1,2324,2023-10-23,Trabzonspor,Antalyaspor,4.06,4.06,0.0
+T1,2324,2023-10-27,Kasimpasa,Istanbulspor,3.9,3.9,0.0
+T1,2324,2023-10-27,Antalyaspor,Kocaelispor,3.44,3.44,0.0
+T1,2324,2023-10-28,Ad. Demirspor,Antalyaspor,4.12,4.12,0.0
+T1,2324,2023-10-28,Antalyaspor,Samsunspor,3.52,3.52,0.0
+T1,2324,2023-10-28,Rizespor,Galatasaray,4.44,4.44,0.0
+T1,2324,2023-10-29,Pendikspor,Fenerbahce,5.66,5.66,0.0
+T1,2324,2023-10-29,Karagumruk,Trabzonspor,3.52,3.52,0.0
+T1,2324,2023-10-29,Karagumruk,Samsunspor,3.48,3.48,0.0
+T1,2324,2023-10-29,Antalyaspor,Buyuksehyr,3.32,3.32,0.0
+T1,2324,2023-10-30,Besiktas,Gaziantep,5.03,5.03,0.0
+T1,2324,2023-11-03,Galatasaray,Kasimpasa,7.73,7.73,0.0
+T1,2324,2023-11-04,Fenerbahce,Trabzonspor,5.21,5.21,0.0
+T1,2324,2023-11-04,Samsunspor,Antalyaspor,3.36,3.36,0.0
+T1,2324,2023-11-04,Istanbulspor,Pendikspor,3.51,3.51,0.0
+T1,2324,2023-11-05,Antalyaspor,Karagumruk,3.43,3.43,0.0
+T1,2324,2023-11-05,Antalyaspor,Besiktas,3.49,3.49,0.0
+T1,2324,2023-11-05,Samsunspor,Ad. Demirspor,3.61,3.61,0.0
+T1,2324,2023-11-05,Buyuksehyr,Karagumruk,3.38,3.38,0.0
+T1,2324,2023-11-06,Gaziantep,Rizespor,3.38,3.38,0.0
+T1,2324,2023-11-06,Kocaelispor,Antalyaspor,3.5,3.5,0.0
+T1,2324,2023-11-08,Samsunspor,Istanbulspor,3.68,3.68,0.0
+T1,2324,2023-11-10,Karagumruk,Antalyaspor,3.31,3.31,0.0
+T1,2324,2023-11-10,Trabzonspor,Antalyaspor,3.83,3.83,0.0
+T1,2324,2023-11-11,Karagumruk,Samsunspor,3.35,3.35,0.0
+T1,2324,2023-11-11,Antalyaspor,Galatasaray,4.93,4.93,0.0
+T1,2324,2023-11-11,Kasimpasa,Kocaelispor,3.57,3.57,0.0
+T1,2324,2023-11-11,Antalyaspor,Gaziantep,3.47,3.47,0.0
+T1,2324,2023-11-12,Rizespor,Istanbulspor,3.84,3.84,0.0
+T1,2324,2023-11-12,Ad. Demirspor,Fenerbahce,4.03,4.03,0.0
+T1,2324,2023-11-12,Besiktas,Buyuksehyr,3.76,3.76,0.0
+T1,2324,2023-11-12,Pendikspor,Samsunspor,3.41,3.41,0.0
+T1,2324,2023-11-25,Galatasaray,Antalyaspor,7.13,7.13,0.0
+T1,2324,2023-11-25,Istanbulspor,Antalyaspor,3.49,3.49,0.0
+T1,2324,2023-11-25,Gaziantep,Karagumruk,3.37,3.37,0.0
+T1,2324,2023-11-25,Antalyaspor,Kasimpasa,3.56,3.56,0.0
+T1,2324,2023-11-26,Samsunspor,Besiktas,3.47,3.47,0.0
+T1,2324,2023-11-26,Fenerbahce,Karagumruk,6.46,6.46,0.0
+T1,2324,2023-11-26,Antalyaspor,Rizespor,3.63,3.63,0.0
+T1,2324,2023-11-26,Kocaelispor,Ad. Demirspor,3.76,3.76,0.0
+T1,2324,2023-11-27,Samsunspor,Trabzonspor,3.39,3.39,0.0
+T1,2324,2023-11-27,Buyuksehyr,Pendikspor,3.69,3.69,0.0
+T1,2324,2023-12-01,Antalyaspor,Antalyaspor,3.32,3.32,0.0
+T1,2324,2023-12-01,Karagumruk,Istanbulspor,3.8,3.8,0.0
+T1,2324,2023-12-02,Ad. Demirspor,Samsunspor,4.24,4.24,0.0
+T1,2324,2023-12-02,Pendikspor,Galatasaray,5.61,5.61,0.0
+T1,2324,2023-12-02,Rizespor,Buyuksehyr,3.33,3.33,0.0
+T1,2324,2023-12-02,Antalyaspor,Antalyaspor,3.36,3.36,0.0
+T1,2324,2023-12-03,Karagumruk,Besiktas,3.53,3.53,0.0
+T1,2324,2023-12-03,Kasimpasa,Gaziantep,3.52,3.52,0.0
+T1,2324,2023-12-03,Trabzonspor,Kocaelispor,3.83,3.83,0.0
+T1,2324,2023-12-04,Fenerbahce,Samsunspor,6.5,6.5,0.0
+T1,2324,2023-12-08,Galatasaray,Ad. Demirspor,6.24,6.24,0.0
+T1,2324,2023-12-09,Antalyaspor,Karagumruk,3.6,3.6,0.0
+T1,2324,2023-12-09,Samsunspor,Kasimpasa,3.62,3.62,0.0
+T1,2324,2023-12-09,Besiktas,Fenerbahce,3.65,3.65,0.0
+T1,2324,2023-12-10,Kocaelispor,Pendikspor,3.76,3.76,0.0
+T1,2324,2023-12-10,Istanbulspor,Antalyaspor,3.39,3.39,0.0
+T1,2324,2023-12-10,Buyuksehyr,Antalyaspor,3.54,3.54,0.0
+T1,2324,2023-12-10,Gaziantep,Trabzonspor,3.33,3.33,0.0
+T1,2324,2023-12-11,Antalyaspor,Samsunspor,3.43,3.43,0.0
+T1,2324,2023-12-11,Karagumruk,Rizespor,3.45,3.45,0.0
+T1,2324,2023-12-19,Istanbulspor,Trabzonspor,4.27,4.27,0.0
+T1,2324,2023-12-19,Gaziantep,Ad. Demirspor,3.64,3.64,0.0
+T1,2324,2023-12-19,Buyuksehyr,Samsunspor,3.38,3.38,0.0
+T1,2324,2023-12-20,Galatasaray,Karagumruk,6.29,6.29,0.0
+T1,2324,2023-12-20,Kocaelispor,Fenerbahce,4.71,4.71,0.0
+T1,2324,2023-12-20,Antalyaspor,Kasimpasa,3.96,3.96,0.0
+T1,2324,2023-12-21,Karagumruk,Antalyaspor,3.66,3.66,0.0
+T1,2324,2023-12-21,Besiktas,Antalyaspor,4.42,4.42,0.0
+T1,2324,2023-12-21,Rizespor,Pendikspor,3.7,3.7,0.0
+T1,2324,2023-12-21,Samsunspor,Antalyaspor,3.52,3.52,0.0
+T1,2324,2023-12-23,Trabzonspor,Buyuksehyr,3.8,3.8,0.0
+T1,2324,2023-12-23,Samsunspor,Istanbulspor,3.97,3.97,0.0
+T1,2324,2023-12-23,Karagumruk,Gaziantep,3.48,3.48,0.0
+T1,2324,2023-12-24,Fenerbahce,Galatasaray,3.68,3.68,0.0
+T1,2324,2023-12-24,Antalyaspor,Kocaelispor,3.42,3.42,0.0
+T1,2324,2023-12-24,Ad. Demirspor,Antalyaspor,3.76,3.76,0.0
+T1,2324,2023-12-25,Pendikspor,Karagumruk,3.48,3.48,0.0
+T1,2324,2023-12-25,Antalyaspor,Besiktas,3.57,3.57,0.0
+T1,2324,2023-12-25,Antalyaspor,Samsunspor,3.37,3.37,0.0
+T1,2324,2023-12-25,Kasimpasa,Rizespor,3.62,3.62,0.0
+T1,2324,2024-01-05,Antalyaspor,Antalyaspor,3.38,3.38,0.0
+T1,2324,2024-01-05,Gaziantep,Pendikspor,3.58,3.58,0.0
+T1,2324,2024-01-05,Besiktas,Kasimpasa,4.43,4.43,0.0
+T1,2324,2024-01-06,Karagumruk,Trabzonspor,3.45,3.45,0.0
+T1,2324,2024-01-06,Samsunspor,Karagumruk,3.45,3.45,0.0
+T1,2324,2024-01-06,Buyuksehyr,Ad. Demirspor,3.72,3.72,0.0
+T1,2324,2024-01-06,Rizespor,Antalyaspor,3.51,3.51,0.0
+T1,2324,2024-01-07,Galatasaray,Antalyaspor,5.89,5.89,0.0
+T1,2324,2024-01-07,Kocaelispor,Samsunspor,3.59,3.59,0.0
+T1,2324,2024-01-07,Istanbulspor,Fenerbahce,6.64,6.64,0.0
+T1,2324,2024-01-09,Kasimpasa,Buyuksehyr,3.55,3.55,0.0
+T1,2324,2024-01-09,Rizespor,Besiktas,3.54,3.54,0.0
+T1,2324,2024-01-09,Antalyaspor,Karagumruk,3.32,3.32,0.0
+T1,2324,2024-01-09,Pendikspor,Antalyaspor,3.41,3.41,0.0
+T1,2324,2024-01-10,Ad. Demirspor,Istanbulspor,5.51,5.51,0.0
+T1,2324,2024-01-10,Fenerbahce,Antalyaspor,6.41,6.41,0.0
+T1,2324,2024-01-10,Antalyaspor,Gaziantep,3.47,3.47,0.0
+T1,2324,2024-01-10,Karagumruk,Kocaelispor,3.5,3.5,0.0
+T1,2324,2024-01-11,Samsunspor,Galatasaray,4.54,4.54,0.0
+T1,2324,2024-01-11,Trabzonspor,Samsunspor,3.79,3.79,0.0
+T1,2324,2024-01-13,Buyuksehyr,Antalyaspor,3.48,3.48,0.0
+T1,2324,2024-01-13,Karagumruk,Kasimpasa,3.55,3.55,0.0
+T1,2324,2024-01-13,Antalyaspor,Pendikspor,3.51,3.51,0.0
+T1,2324,2024-01-13,Besiktas,Karagumruk,3.96,3.96,0.0
+T1,2324,2024-01-13,Rizespor,Ad. Demirspor,3.78,3.78,0.0
+T1,2324,2024-01-14,Antalyaspor,Trabzonspor,3.39,3.39,0.0
+T1,2324,2024-01-14,Gaziantep,Fenerbahce,5.24,5.24,0.0
+T1,2324,2024-01-14,Istanbulspor,Antalyaspor,3.53,3.53,0.0
+T1,2324,2024-01-14,Samsunspor,Samsunspor,3.33,3.33,0.0
+T1,2324,2024-01-15,Galatasaray,Kocaelispor,6.12,6.12,0.0
+T1,2324,2024-01-20,Karagumruk,Buyuksehyr,3.35,3.35,0.0
+T1,2324,2024-01-20,Ad. Demirspor,Karagumruk,3.49,3.49,0.0
+T1,2324,2024-01-20,Pendikspor,Besiktas,3.76,3.76,0.0
+T1,2324,2024-01-20,Kasimpasa,Antalyaspor,3.73,3.73,0.0
+T1,2324,2024-01-20,Antalyaspor,Rizespor,3.42,3.42,0.0
+T1,2324,2024-01-21,Antalyaspor,Antalyaspor,3.22,3.22,0.0
+T1,2324,2024-01-21,Trabzonspor,Galatasaray,3.82,3.82,0.0
+T1,2324,2024-01-21,Samsunspor,Gaziantep,3.38,3.38,0.0
+T1,2324,2024-01-21,Fenerbahce,Samsunspor,6.58,6.58,0.0
+T1,2324,2024-01-22,Kocaelispor,Istanbulspor,4.21,4.21,0.0
+T1,2324,2024-01-23,Pendikspor,Kasimpasa,3.59,3.59,0.0
+T1,2324,2024-01-23,Besiktas,Ad. Demirspor,3.92,3.92,0.0
+T1,2324,2024-01-23,Antalyaspor,Antalyaspor,3.31,3.31,0.0
+T1,2324,2024-01-24,Buyuksehyr,Fenerbahce,4.17,4.17,0.0
+T1,2324,2024-01-24,Karagumruk,Karagumruk,3.16,3.16,0.0
+T1,2324,2024-01-24,Gaziantep,Antalyaspor,3.38,3.38,0.0
+T1,2324,2024-01-24,Antalyaspor,Samsunspor,3.61,3.61,0.0
+T1,2324,2024-01-25,Galatasaray,Istanbulspor,8.79,8.79,0.0
+T1,2324,2024-01-25,Samsunspor,Kocaelispor,3.59,3.59,0.0
+T1,2324,2024-01-25,Rizespor,Trabzonspor,3.4,3.4,0.0
+T1,2324,2024-01-27,Ad. Demirspor,Antalyaspor,3.66,3.66,0.0
+T1,2324,2024-01-27,Antalyaspor,Pendikspor,3.7,3.7,0.0
+T1,2324,2024-01-28,Samsunspor,Besiktas,3.65,3.65,0.0
+T1,2324,2024-01-28,Fenerbahce,Karagumruk,7.06,7.06,0.0
+T1,2324,2024-01-28,Karagumruk,Rizespor,3.41,3.41,0.0
+T1,2324,2024-01-28,Antalyaspor,Buyuksehyr,3.29,3.29,0.0
+T1,2324,2024-01-29,Galatasaray,Gaziantep,7.11,7.11,0.0
+T1,2324,2024-01-29,Trabzonspor,Kasimpasa,4.01,4.01,0.0
+T1,2324,2024-01-29,Istanbulspor,Samsunspor,3.47,3.47,0.0
+T1,2324,2024-01-29,Kocaelispor,Antalyaspor,3.41,3.41,0.0
+T1,2324,2024-02-02,Samsunspor,Galatasaray,4.03,4.03,0.0
+T1,2324,2024-02-02,Karagumruk,Samsunspor,3.38,3.38,0.0
+T1,2324,2024-02-02,Antalyaspor,Karagumruk,3.11,3.11,0.0
+T1,2324,2024-02-03,Antalyaspor,Fenerbahce,4.11,4.11,0.0
+T1,2324,2024-02-03,Gaziantep,Kocaelispor,3.44,3.44,0.0
+T1,2324,2024-02-03,Rizespor,Antalyaspor,3.5,3.5,0.0
+T1,2324,2024-02-03,Buyuksehyr,Istanbulspor,4.25,4.25,0.0
+T1,2324,2024-02-04,Besiktas,Trabzonspor,3.54,3.54,0.0
+T1,2324,2024-02-04,Pendikspor,Ad. Demirspor,3.57,3.57,0.0
+T1,2324,2024-02-04,Kasimpasa,Antalyaspor,3.62,3.62,0.0
+T1,2324,2024-02-09,Ad. Demirspor,Kasimpasa,3.72,3.72,0.0
+T1,2324,2024-02-10,Karagumruk,Pendikspor,3.43,3.43,0.0
+T1,2324,2024-02-10,Galatasaray,Buyuksehyr,5.53,5.53,0.0
+T1,2324,2024-02-11,Istanbulspor,Gaziantep,3.3,3.3,0.0
+T1,2324,2024-02-11,Samsunspor,Rizespor,3.39,3.39,0.0
+T1,2324,2024-02-11,Antalyaspor,Karagumruk,3.13,3.13,0.0
+T1,2324,2024-02-11,Fenerbahce,Antalyaspor,6.71,6.71,0.0
+T1,2324,2024-02-12,Kocaelispor,Besiktas,3.63,3.63,0.0
+T1,2324,2024-02-12,Samsunspor,Antalyaspor,3.25,3.25,0.0
+T1,2324,2024-02-12,Trabzonspor,Antalyaspor,3.66,3.66,0.0
+T1,2324,2024-02-16,Kasimpasa,Karagumruk,3.6,3.6,0.0
+T1,2324,2024-02-17,Rizespor,Fenerbahce,4.62,4.62,0.0
+T1,2324,2024-02-17,Antalyaspor,Samsunspor,3.3,3.3,0.0
+T1,2324,2024-02-17,Antalyaspor,Istanbulspor,4.36,4.36,0.0
+T1,2324,2024-02-18,Pendikspor,Trabzonspor,3.54,3.54,0.0
+T1,2324,2024-02-18,Karagumruk,Galatasaray,4.37,4.37,0.0
+T1,2324,2024-02-18,Antalyaspor,Ad. Demirspor,3.58,3.58,0.0
+T1,2324,2024-02-18,Gaziantep,Samsunspor,3.24,3.24,0.0
+T1,2324,2024-02-19,Besiktas,Antalyaspor,4.16,4.16,0.0
+T1,2324,2024-02-19,Buyuksehyr,Kocaelispor,3.7,3.7,0.0
+T1,2324,2024-02-23,Samsunspor,Rizespor,3.51,3.51,0.0
+T1,2324,2024-02-24,Fenerbahce,Kasimpasa,7.47,7.47,0.0
+T1,2324,2024-02-24,Antalyaspor,Antalyaspor,3.22,3.22,0.0
+T1,2324,2024-02-24,Gaziantep,Buyuksehyr,3.2,3.2,0.0
+T1,2324,2024-02-24,Kocaelispor,Karagumruk,3.38,3.38,0.0
+T1,2324,2024-02-25,Trabzonspor,Ad. Demirspor,3.81,3.81,0.0
+T1,2324,2024-02-25,Istanbulspor,Besiktas,4.26,4.26,0.0
+T1,2324,2024-02-25,Samsunspor,Pendikspor,3.43,3.43,0.0
+T1,2324,2024-02-25,Karagumruk,Antalyaspor,3.43,3.43,0.0
+T1,2324,2024-02-26,Galatasaray,Antalyaspor,5.56,5.56,0.0
+T1,2324,2024-03-01,Kasimpasa,Samsunspor,3.55,3.55,0.0
+T1,2324,2024-03-02,Antalyaspor,Fenerbahce,5.36,5.36,0.0
+T1,2324,2024-03-02,Rizespor,Kocaelispor,3.54,3.54,0.0
+T1,2324,2024-03-02,Karagumruk,Istanbulspor,4.32,4.32,0.0
+T1,2324,2024-03-03,Besiktas,Galatasaray,3.8,3.8,0.0
+T1,2324,2024-03-03,Buyuksehyr,Samsunspor,3.37,3.37,0.0
+T1,2324,2024-03-03,Pendikspor,Antalyaspor,3.49,3.49,0.0
+T1,2324,2024-03-04,Antalyaspor,Gaziantep,3.67,3.67,0.0
+T1,2324,2024-03-04,Ad. Demirspor,Karagumruk,3.52,3.52,0.0
+T1,2324,2024-03-04,Antalyaspor,Trabzonspor,3.46,3.46,0.0
+T1,2324,2024-03-08,Galatasaray,Rizespor,6.27,6.27,0.0
+T1,2324,2024-03-09,Buyuksehyr,Antalyaspor,3.35,3.35,0.0
+T1,2324,2024-03-09,Trabzonspor,Karagumruk,3.7,3.7,0.0
+T1,2324,2024-03-09,Antalyaspor,Ad. Demirspor,3.36,3.36,0.0
+T1,2324,2024-03-09,Samsunspor,Antalyaspor,3.37,3.37,0.0
+T1,2324,2024-03-10,Samsunspor,Karagumruk,3.27,3.27,0.0
+T1,2324,2024-03-10,Fenerbahce,Pendikspor,7.65,7.65,0.0
+T1,2324,2024-03-10,Kocaelispor,Antalyaspor,3.56,3.56,0.0
+T1,2324,2024-03-10,Istanbulspor,Kasimpasa,3.83,3.83,0.0
+T1,2324,2024-03-11,Gaziantep,Besiktas,3.55,3.55,0.0
+T1,2324,2024-03-15,Pendikspor,Istanbulspor,4.22,4.22,0.0
+T1,2324,2024-03-15,Karagumruk,Antalyaspor,3.27,3.27,0.0
+T1,2324,2024-03-16,Ad. Demirspor,Samsunspor,3.49,3.49,0.0
+T1,2324,2024-03-16,Karagumruk,Buyuksehyr,3.14,3.14,0.0
+T1,2324,2024-03-16,Besiktas,Antalyaspor,3.52,3.52,0.0
+T1,2324,2024-03-16,Antalyaspor,Kocaelispor,3.44,3.44,0.0
+T1,2324,2024-03-17,Kasimpasa,Galatasaray,4.85,4.85,0.0
+T1,2324,2024-03-17,Trabzonspor,Fenerbahce,3.92,3.92,0.0
+T1,2324,2024-03-17,Rizespor,Gaziantep,3.58,3.58,0.0
+T1,2324,2024-03-17,Antalyaspor,Samsunspor,3.22,3.22,0.0
+T1,2324,2024-04-02,Galatasaray,Antalyaspor,7.49,7.49,0.0
+T1,2324,2024-04-02,Gaziantep,Antalyaspor,3.3,3.3,0.0
+T1,2324,2024-04-02,Istanbulspor,Rizespor,3.82,3.82,0.0
+T1,2324,2024-04-02,Antalyaspor,Karagumruk,3.45,3.45,0.0
+T1,2324,2024-04-03,Fenerbahce,Ad. Demirspor,6.13,6.13,0.0
+T1,2324,2024-04-03,Samsunspor,Karagumruk,3.2,3.2,0.0
+T1,2324,2024-04-03,Antalyaspor,Trabzonspor,3.37,3.37,0.0
+T1,2324,2024-04-03,Kocaelispor,Kasimpasa,3.7,3.7,0.0
+T1,2324,2024-04-04,Samsunspor,Pendikspor,3.65,3.65,0.0
+T1,2324,2024-04-04,Buyuksehyr,Besiktas,3.31,3.31,0.0
+T1,2324,2024-04-12,Trabzonspor,Samsunspor,4.41,4.41,0.0
+T1,2324,2024-04-13,Besiktas,Samsunspor,3.69,3.69,0.0
+T1,2324,2024-04-13,Kasimpasa,Antalyaspor,3.52,3.52,0.0
+T1,2324,2024-04-13,Karagumruk,Gaziantep,3.46,3.46,0.0
+T1,2324,2024-04-13,Ad. Demirspor,Kocaelispor,3.68,3.68,0.0
+T1,2324,2024-04-14,Rizespor,Antalyaspor,3.38,3.38,0.0
+T1,2324,2024-04-14,Karagumruk,Fenerbahce,4.92,4.92,0.0
+T1,2324,2024-04-14,Antalyaspor,Istanbulspor,4.47,4.47,0.0
+T1,2324,2024-04-14,Pendikspor,Buyuksehyr,3.35,3.35,0.0
+T1,2324,2024-04-15,Antalyaspor,Galatasaray,4.63,4.63,0.0
+T1,2324,2024-04-19,Besiktas,Karagumruk,3.69,3.69,0.0
+T1,2324,2024-04-20,Kocaelispor,Trabzonspor,3.71,3.71,0.0
+T1,2324,2024-04-20,Samsunspor,Ad. Demirspor,3.39,3.39,0.0
+T1,2324,2024-04-20,Istanbulspor,Karagumruk,4.0,4.0,0.0
+T1,2324,2024-04-20,Antalyaspor,Antalyaspor,3.41,3.41,0.0
+T1,2324,2024-04-21,Galatasaray,Pendikspor,6.62,6.62,0.0
+T1,2324,2024-04-21,Gaziantep,Kasimpasa,3.51,3.51,0.0
+T1,2324,2024-04-21,Antalyaspor,Antalyaspor,3.46,3.46,0.0
+T1,2324,2024-04-21,Buyuksehyr,Rizespor,3.56,3.56,0.0
+T1,2324,2024-04-22,Samsunspor,Fenerbahce,4.85,4.85,0.0
+T1,2324,2024-04-26,Ad. Demirspor,Galatasaray,4.76,4.76,0.0
+T1,2324,2024-04-27,Kasimpasa,Samsunspor,3.64,3.64,0.0
+T1,2324,2024-04-27,Samsunspor,Antalyaspor,3.15,3.15,0.0
+T1,2324,2024-04-27,Fenerbahce,Besiktas,4.77,4.77,0.0
+T1,2324,2024-04-27,Antalyaspor,Buyuksehyr,3.33,3.33,0.0
+T1,2324,2024-04-28,Rizespor,Karagumruk,3.39,3.39,0.0
+T1,2324,2024-04-28,Antalyaspor,Istanbulspor,4.99,4.99,0.0
+T1,2324,2024-04-28,Pendikspor,Kocaelispor,3.53,3.53,0.0
+T1,2324,2024-04-28,Trabzonspor,Gaziantep,4.39,4.39,0.0
+T1,2324,2024-04-29,Karagumruk,Antalyaspor,3.32,3.32,0.0
+T1,2324,2024-05-03,Karagumruk,Antalyaspor,3.43,3.43,0.0
+T1,2324,2024-05-03,Besiktas,Rizespor,3.9,3.9,0.0
+T1,2324,2024-05-04,Samsunspor,Trabzonspor,3.3,3.3,0.0
+T1,2324,2024-05-04,Istanbulspor,Ad. Demirspor,4.49,4.49,0.0
+T1,2324,2024-05-04,Kocaelispor,Karagumruk,3.46,3.46,0.0
+T1,2324,2024-05-05,Gaziantep,Antalyaspor,3.27,3.27,0.0
+T1,2324,2024-05-05,Buyuksehyr,Kasimpasa,3.6,3.6,0.0
+T1,2324,2024-05-05,Galatasaray,Samsunspor,8.41,8.41,0.0
+T1,2324,2024-05-06,Antalyaspor,Pendikspor,3.57,3.57,0.0
+T1,2324,2024-05-06,Antalyaspor,Fenerbahce,5.11,5.11,0.0
+T1,2324,2024-05-12,Fenerbahce,Kocaelispor,7.8,7.8,0.0
+T1,2324,2024-05-12,Antalyaspor,Karagumruk,3.4,3.4,0.0
+T1,2324,2024-05-12,Karagumruk,Galatasaray,4.61,4.61,0.0
+T1,2324,2024-05-12,Kasimpasa,Antalyaspor,3.7,3.7,0.0
+T1,2324,2024-05-12,Ad. Demirspor,Gaziantep,3.61,3.61,0.0
+T1,2324,2024-05-12,Pendikspor,Rizespor,3.8,3.8,0.0
+T1,2324,2024-05-12,Samsunspor,Buyuksehyr,3.33,3.33,0.0
+T1,2324,2024-05-12,Trabzonspor,Istanbulspor,7.54,7.54,0.0
+T1,2324,2024-05-12,Antalyaspor,Samsunspor,3.17,3.17,0.0
+T1,2324,2024-05-12,Antalyaspor,Besiktas,3.46,3.46,0.0
+T1,2324,2024-05-17,Antalyaspor,Ad. Demirspor,3.68,3.68,0.0
+T1,2324,2024-05-17,Istanbulspor,Samsunspor,3.48,3.48,0.0
+T1,2324,2024-05-18,Buyuksehyr,Trabzonspor,3.39,3.39,0.0
+T1,2324,2024-05-18,Gaziantep,Karagumruk,3.33,3.33,0.0
+T1,2324,2024-05-18,Kocaelispor,Antalyaspor,2.48,2.48,0.0
+T1,2324,2024-05-18,Rizespor,Kasimpasa,3.74,3.74,0.0
+T1,2324,2024-05-18,Samsunspor,Antalyaspor,3.38,3.38,0.0
+T1,2324,2024-05-18,Besiktas,Antalyaspor,4.34,4.34,0.0
+T1,2324,2024-05-18,Karagumruk,Pendikspor,3.68,3.68,0.0
+T1,2324,2024-05-19,Galatasaray,Fenerbahce,3.69,3.69,0.0
+T1,2324,2024-05-24,Antalyaspor,Antalyaspor,4.15,4.15,0.0
+T1,2324,2024-05-25,Karagumruk,Samsunspor,3.79,3.79,0.0
+T1,2324,2024-05-25,Samsunspor,Kocaelispor,3.7,3.7,0.0
+T1,2324,2024-05-26,Antalyaspor,Rizespor,4.48,4.48,0.0
+T1,2324,2024-05-26,Kasimpasa,Besiktas,3.83,3.83,0.0
+T1,2324,2024-05-26,Antalyaspor,Galatasaray,2.11,2.11,0.0
+T1,2324,2024-05-26,Pendikspor,Gaziantep,3.41,3.41,0.0
+T1,2324,2024-05-26,Trabzonspor,Karagumruk,3.68,3.68,0.0
+T1,2324,2024-05-26,Fenerbahce,Istanbulspor,14.18,14.18,0.0
+T1,2324,2024-05-26,Ad. Demirspor,Buyuksehyr,3.99,3.99,0.0

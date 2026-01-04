@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,2223,2022-07-15,Kaiserslautern,Hannover,7,61,False
+D2,2223,2022-07-16,Regensburg,Darmstadt,62,62,False
+D2,2223,2022-07-16,St Pauli,Nurnberg,62,62,False
+D2,2223,2022-07-16,Magdeburg,Fortuna Dusseldorf,7,62,False
+D2,2223,2022-07-16,Sandhausen,Bielefeld,62,748,False
+D2,2223,2022-07-16,Greuther Furth,Holstein Kiel,419,62,False
+D2,2223,2022-07-17,Paderborn,Karlsruhe,63,63,False
+D2,2223,2022-07-17,Hansa Rostock,Heidenheim,63,63,False
+D2,2223,2022-07-17,Braunschweig,Hamburg,420,63,False
+D2,2223,2022-07-22,Fortuna Dusseldorf,Paderborn,6,5,False
+D2,2223,2022-07-22,Darmstadt,Sandhausen,6,6,False
+D2,2223,2022-07-23,Nurnberg,Greuther Furth,7,7,False
+D2,2223,2022-07-23,Hannover,St Pauli,8,7,False
+D2,2223,2022-07-23,Heidenheim,Braunschweig,6,6,False
+D2,2223,2022-07-23,Holstein Kiel,Kaiserslautern,7,8,False
+D2,2223,2022-07-24,Karlsruhe,Magdeburg,7,8,False
+D2,2223,2022-07-24,Hamburg,Hansa Rostock,7,7,False
+D2,2223,2022-07-24,Bielefeld,Regensburg,8,8,False
+D2,2223,2022-08-05,Sandhausen,Fortuna Dusseldorf,14,14,False
+D2,2223,2022-08-05,Greuther Furth,Karlsruhe,13,12,False
+D2,2223,2022-08-06,Regensburg,Nurnberg,13,14,False
+D2,2223,2022-08-06,Hansa Rostock,Bielefeld,13,13,False
+D2,2223,2022-08-06,Hamburg,Heidenheim,13,14,False
+D2,2223,2022-08-06,Paderborn,Hannover,15,14,False
+D2,2223,2022-08-07,Magdeburg,Holstein Kiel,14,15,False
+D2,2223,2022-08-07,Kaiserslautern,St Pauli,15,15,False
+D2,2223,2022-08-07,Braunschweig,Darmstadt,15,16,False
+D2,2223,2022-08-12,Nurnberg,Heidenheim,6,6,False
+D2,2223,2022-08-12,Kaiserslautern,Paderborn,5,6,False
+D2,2223,2022-08-13,Karlsruhe,Sandhausen,8,8,False
+D2,2223,2022-08-13,Darmstadt,Hansa Rostock,6,7,False
+D2,2223,2022-08-13,Bielefeld,Hamburg,7,7,False
+D2,2223,2022-08-13,Holstein Kiel,Braunschweig,6,6,False
+D2,2223,2022-08-14,St Pauli,Magdeburg,7,7,False
+D2,2223,2022-08-14,Hannover,Regensburg,8,8,False
+D2,2223,2022-08-14,Fortuna Dusseldorf,Greuther Furth,9,9,False
+D2,2223,2022-08-19,Hamburg,Darmstadt,6,6,False
+D2,2223,2022-08-19,Magdeburg,Hannover,5,5,False
+D2,2223,2022-08-20,Braunschweig,Fortuna Dusseldorf,7,6,False
+D2,2223,2022-08-20,Paderborn,Holstein Kiel,8,7,False
+D2,2223,2022-08-20,Regensburg,Karlsruhe,6,7,False
+D2,2223,2022-08-20,Sandhausen,Nurnberg,7,8,False
+D2,2223,2022-08-21,Heidenheim,Bielefeld,9,8,False
+D2,2223,2022-08-21,Hansa Rostock,St Pauli,8,7,False
+D2,2223,2022-08-21,Greuther Furth,Kaiserslautern,7,9,False
+D2,2223,2022-08-26,Fortuna Dusseldorf,Regensburg,6,6,False
+D2,2223,2022-08-26,Bielefeld,Braunschweig,5,6,False
+D2,2223,2022-08-27,St Pauli,Paderborn,6,7,False
+D2,2223,2022-08-27,Nurnberg,Hamburg,7,8,False
+D2,2223,2022-08-27,Darmstadt,Heidenheim,8,6,False
+D2,2223,2022-08-27,Karlsruhe,Hansa Rostock,7,6,False
+D2,2223,2022-08-28,Kaiserslautern,Magdeburg,7,9,False
+D2,2223,2022-08-28,Holstein Kiel,Sandhausen,8,8,False
+D2,2223,2022-08-28,Hannover,Greuther Furth,9,7,False
+D2,2223,2022-09-02,Heidenheim,Fortuna Dusseldorf,6,7,False
+D2,2223,2022-09-02,Braunschweig,Nurnberg,7,6,False
+D2,2223,2022-09-03,Regensburg,Holstein Kiel,8,6,False
+D2,2223,2022-09-03,Hamburg,Karlsruhe,7,7,False
+D2,2223,2022-09-03,Greuther Furth,St Pauli,6,7,False
+D2,2223,2022-09-03,Paderborn,Magdeburg,7,6,False
+D2,2223,2022-09-04,Sandhausen,Kaiserslautern,7,7,False
+D2,2223,2022-09-04,Hansa Rostock,Hannover,8,7,False
+D2,2223,2022-09-04,Darmstadt,Bielefeld,8,9,False
+D2,2223,2022-09-09,Nurnberg,Bielefeld,7,5,False
+D2,2223,2022-09-09,Holstein Kiel,Hamburg,6,6,False
+D2,2223,2022-09-10,Paderborn,Regensburg,7,7,False
+D2,2223,2022-09-10,Fortuna Dusseldorf,Hansa Rostock,8,6,False
+D2,2223,2022-09-10,Hannover,Braunschweig,6,8,False
+D2,2223,2022-09-10,Karlsruhe,Heidenheim,7,8,False
+D2,2223,2022-09-11,St Pauli,Sandhausen,8,7,False
+D2,2223,2022-09-11,Magdeburg,Greuther Furth,8,8,False
+D2,2223,2022-09-11,Kaiserslautern,Darmstadt,7,7,False
+D2,2223,2022-09-16,Braunschweig,Karlsruhe,6,6,False
+D2,2223,2022-09-16,Sandhausen,Hannover,5,6,False
+D2,2223,2022-09-17,Bielefeld,Holstein Kiel,8,8,False
+D2,2223,2022-09-17,Darmstadt,Nurnberg,6,8,False
+D2,2223,2022-09-17,Hansa Rostock,Magdeburg,7,6,False
+D2,2223,2022-09-17,Hamburg,Fortuna Dusseldorf,8,7,False
+D2,2223,2022-09-18,Heidenheim,Kaiserslautern,8,7,False
+D2,2223,2022-09-18,Greuther Furth,Paderborn,7,8,False
+D2,2223,2022-09-18,Regensburg,St Pauli,8,7,False
+D2,2223,2022-09-30,Hannover,Hamburg,14,13,False
+D2,2223,2022-09-30,Paderborn,Darmstadt,12,13,False
+D2,2223,2022-10-01,Holstein Kiel,Hansa Rostock,14,14,False
+D2,2223,2022-10-01,St Pauli,Heidenheim,13,13,False
+D2,2223,2022-10-01,Greuther Furth,Sandhausen,13,15,False
+D2,2223,2022-10-01,Fortuna Dusseldorf,Bielefeld,14,14,False
+D2,2223,2022-10-02,Magdeburg,Regensburg,15,14,False
+D2,2223,2022-10-02,Kaiserslautern,Braunschweig,14,16,False
+D2,2223,2022-10-02,Karlsruhe,Nurnberg,16,15,False
+D2,2223,2022-10-07,Regensburg,Greuther Furth,5,6,False
+D2,2223,2022-10-07,Bielefeld,Karlsruhe,6,5,False
+D2,2223,2022-10-08,Hansa Rostock,Paderborn,7,8,False
+D2,2223,2022-10-08,Hamburg,Kaiserslautern,8,6,False
+D2,2223,2022-10-08,Braunschweig,St Pauli,6,7,False
+D2,2223,2022-10-08,Darmstadt,Fortuna Dusseldorf,8,7,False
+D2,2223,2022-10-09,Sandhausen,Magdeburg,8,7,False
+D2,2223,2022-10-09,Nurnberg,Holstein Kiel,7,8,False
+D2,2223,2022-10-09,Heidenheim,Hannover,8,9,False
+D2,2223,2022-10-14,St Pauli,Hamburg,6,6,False
+D2,2223,2022-10-14,Greuther Furth,Hansa Rostock,7,6,False
+D2,2223,2022-10-15,Magdeburg,Braunschweig,6,7,False
+D2,2223,2022-10-15,Hannover,Bielefeld,6,8,False
+D2,2223,2022-10-15,Fortuna Dusseldorf,Nurnberg,7,6,False
+D2,2223,2022-10-15,Karlsruhe,Darmstadt,8,7,False
+D2,2223,2022-10-16,Paderborn,Sandhausen,8,7,False
+D2,2223,2022-10-16,Kaiserslautern,Regensburg,8,9,False
+D2,2223,2022-10-16,Holstein Kiel,Heidenheim,7,7,False
+D2,2223,2022-10-21,Hansa Rostock,Kaiserslautern,7,5,False
+D2,2223,2022-10-21,Darmstadt,Holstein Kiel,6,5,False
+D2,2223,2022-10-22,Regensburg,Sandhausen,6,6,False
+D2,2223,2022-10-22,Bielefeld,St Pauli,7,8,False
+D2,2223,2022-10-22,Braunschweig,Paderborn,7,6,False
+D2,2223,2022-10-22,Nurnberg,Hannover,7,7,False
+D2,2223,2022-10-23,Karlsruhe,Fortuna Dusseldorf,8,8,False
+D2,2223,2022-10-23,Heidenheim,Greuther Furth,7,9,False
+D2,2223,2022-10-23,Hamburg,Magdeburg,9,8,False
+D2,2223,2022-10-28,Greuther Furth,Bielefeld,5,6,False
+D2,2223,2022-10-28,Magdeburg,Heidenheim,5,5,False
+D2,2223,2022-10-29,Kaiserslautern,Nurnberg,8,7,False
+D2,2223,2022-10-29,Holstein Kiel,Fortuna Dusseldorf,8,6,False
+D2,2223,2022-10-29,Regensburg,Hansa Rostock,7,8,False
+D2,2223,2022-10-29,St Pauli,Darmstadt,7,8,False
+D2,2223,2022-10-30,Sandhausen,Braunschweig,8,8,False
+D2,2223,2022-10-30,Paderborn,Hamburg,8,7,False
+D2,2223,2022-10-30,Hannover,Karlsruhe,8,7,False
+D2,2223,2022-11-04,Hansa Rostock,Sandhausen,6,5,False
+D2,2223,2022-11-04,Darmstadt,Hannover,6,5,False
+D2,2223,2022-11-05,Karlsruhe,Holstein Kiel,6,7,False
+D2,2223,2022-11-05,Bielefeld,Kaiserslautern,8,7,False
+D2,2223,2022-11-05,Fortuna Dusseldorf,St Pauli,7,7,False
+D2,2223,2022-11-05,Heidenheim,Paderborn,8,6,False
+D2,2223,2022-11-06,Nurnberg,Magdeburg,8,9,False
+D2,2223,2022-11-06,Hamburg,Regensburg,7,8,False
+D2,2223,2022-11-06,Braunschweig,Greuther Furth,7,9,False
+D2,2223,2022-11-08,Paderborn,Bielefeld,3,3,True
+D2,2223,2022-11-08,St Pauli,Holstein Kiel,3,3,True
+D2,2223,2022-11-08,Hannover,Fortuna Dusseldorf,4,3,True
+D2,2223,2022-11-08,Kaiserslautern,Karlsruhe,3,3,True
+D2,2223,2022-11-09,Regensburg,Braunschweig,3,3,True
+D2,2223,2022-11-09,Sandhausen,Heidenheim,5,4,True
+D2,2223,2022-11-09,Greuther Furth,Hamburg,3,3,True
+D2,2223,2022-11-09,Hansa Rostock,Nurnberg,5,3,True
+D2,2223,2022-11-10,Magdeburg,Darmstadt,4,6,True
+D2,2223,2022-11-11,Holstein Kiel,Hannover,3,3,False
+D2,2223,2022-11-11,Fortuna Dusseldorf,Kaiserslautern,3,3,False
+D2,2223,2022-11-12,Karlsruhe,St Pauli,4,4,False
+D2,2223,2022-11-12,Braunschweig,Hansa Rostock,3,3,False
+D2,2223,2022-11-12,Hamburg,Sandhausen,3,3,False
+D2,2223,2022-11-12,Heidenheim,Regensburg,3,3,False
+D2,2223,2022-11-13,Nurnberg,Paderborn,4,5,False
+D2,2223,2022-11-13,Bielefeld,Magdeburg,5,3,False
+D2,2223,2022-11-13,Darmstadt,Greuther Furth,3,4,False
+D2,2223,2023-01-27,Fortuna Dusseldorf,Magdeburg,77,75,False
+D2,2223,2023-01-27,Karlsruhe,Paderborn,76,75,False
+D2,2223,2023-01-28,Darmstadt,Regensburg,76,77,False
+D2,2223,2023-01-28,Heidenheim,Hansa Rostock,77,77,False
+D2,2223,2023-01-28,Holstein Kiel,Greuther Furth,78,76,False
+D2,2223,2023-01-28,Hannover,Kaiserslautern,78,78,False
+D2,2223,2023-01-29,Bielefeld,Sandhausen,77,78,False
+D2,2223,2023-01-29,Hamburg,Braunschweig,78,78,False
+D2,2223,2023-01-29,Nurnberg,St Pauli,77,78,False
+D2,2223,2023-02-03,Paderborn,Fortuna Dusseldorf,7,7,False
+D2,2223,2023-02-03,Sandhausen,Darmstadt,5,6,False
+D2,2223,2023-02-04,Braunschweig,Heidenheim,6,7,False
+D2,2223,2023-02-04,Kaiserslautern,Holstein Kiel,7,7,False
+D2,2223,2023-02-04,Regensburg,Bielefeld,7,6,False
+D2,2223,2023-02-04,Greuther Furth,Nurnberg,7,6,False
+D2,2223,2023-02-05,St Pauli,Hannover,7,8,False
+D2,2223,2023-02-05,Magdeburg,Karlsruhe,9,9,False
+D2,2223,2023-02-05,Hansa Rostock,Hamburg,8,7,False
+D2,2223,2023-02-10,Karlsruhe,Greuther Furth,5,6,False
+D2,2223,2023-02-10,Bielefeld,Hansa Rostock,6,5,False
+D2,2223,2023-02-11,Nurnberg,Regensburg,7,7,False
+D2,2223,2023-02-11,Heidenheim,Hamburg,7,6,False
+D2,2223,2023-02-11,Hannover,Paderborn,6,8,False
+D2,2223,2023-02-11,Holstein Kiel,Magdeburg,7,6,False
+D2,2223,2023-02-12,St Pauli,Kaiserslautern,7,8,False
+D2,2223,2023-02-12,Fortuna Dusseldorf,Sandhausen,9,9,False
+D2,2223,2023-02-12,Darmstadt,Braunschweig,9,8,False
+D2,2223,2023-02-17,Paderborn,Kaiserslautern,6,5,False
+D2,2223,2023-02-17,Braunschweig,Holstein Kiel,5,6,False
+D2,2223,2023-02-18,Regensburg,Hannover,7,7,False
+D2,2223,2023-02-18,Hansa Rostock,Darmstadt,8,6,False
+D2,2223,2023-02-18,Greuther Furth,Fortuna Dusseldorf,8,6,False
+D2,2223,2023-02-18,Magdeburg,St Pauli,7,6,False
+D2,2223,2023-02-19,Sandhausen,Karlsruhe,7,9,False
+D2,2223,2023-02-19,Heidenheim,Nurnberg,8,8,False
+D2,2223,2023-02-19,Hamburg,Bielefeld,8,9,False
+D2,2223,2023-02-24,Karlsruhe,Regensburg,5,6,False
+D2,2223,2023-02-24,Fortuna Dusseldorf,Braunschweig,6,7,False
+D2,2223,2023-02-25,Nurnberg,Sandhausen,6,6,False
+D2,2223,2023-02-25,Darmstadt,Hamburg,7,6,False
+D2,2223,2023-02-25,Holstein Kiel,Paderborn,8,8,False
+D2,2223,2023-02-25,Kaiserslautern,Greuther Furth,8,7,False
+D2,2223,2023-02-26,St Pauli,Hansa Rostock,8,8,False
+D2,2223,2023-02-26,Hannover,Magdeburg,8,8,False
+D2,2223,2023-02-26,Bielefeld,Heidenheim,7,7,False
+D2,2223,2023-03-03,Magdeburg,Kaiserslautern,5,6,False
+D2,2223,2023-03-03,Paderborn,St Pauli,6,5,False
+D2,2223,2023-03-04,Sandhausen,Holstein Kiel,7,7,False
+D2,2223,2023-03-04,Heidenheim,Darmstadt,6,7,False
+D2,2223,2023-03-04,Regensburg,Fortuna Dusseldorf,8,8,False
+D2,2223,2023-03-04,Hamburg,Nurnberg,7,7,False
+D2,2223,2023-03-05,Hansa Rostock,Karlsruhe,7,9,False
+D2,2223,2023-03-05,Braunschweig,Bielefeld,9,7,False
+D2,2223,2023-03-05,Greuther Furth,Hannover,8,7,False
+D2,2223,2023-03-10,Nurnberg,Braunschweig,6,5,False
+D2,2223,2023-03-10,Kaiserslautern,Sandhausen,7,6,False
+D2,2223,2023-03-11,St Pauli,Greuther Furth,8,6,False
+D2,2223,2023-03-11,Fortuna Dusseldorf,Heidenheim,7,7,False
+D2,2223,2023-03-11,Bielefeld,Darmstadt,6,7,False
+D2,2223,2023-03-11,Magdeburg,Paderborn,8,8,False
+D2,2223,2023-03-12,Karlsruhe,Hamburg,7,8,False
+D2,2223,2023-03-12,Holstein Kiel,Regensburg,8,8,False
+D2,2223,2023-03-12,Hannover,Hansa Rostock,7,7,False
+D2,2223,2023-03-17,Heidenheim,Karlsruhe,6,5,False
+D2,2223,2023-03-17,Bielefeld,Nurnberg,6,7,False
+D2,2223,2023-03-18,Regensburg,Paderborn,6,7,False
+D2,2223,2023-03-18,Darmstadt,Kaiserslautern,7,8,False
+D2,2223,2023-03-18,Greuther Furth,Magdeburg,7,7,False
+D2,2223,2023-03-18,Hamburg,Holstein Kiel,6,6,False
+D2,2223,2023-03-19,Sandhausen,St Pauli,9,8,False
+D2,2223,2023-03-19,Hansa Rostock,Fortuna Dusseldorf,7,8,False
+D2,2223,2023-03-19,Braunschweig,Hannover,9,7,False
+D2,2223,2023-03-31,Nurnberg,Darmstadt,14,13,False
+D2,2223,2023-03-31,Fortuna Dusseldorf,Hamburg,12,13,False
+D2,2223,2023-04-01,St Pauli,Regensburg,13,14,False
+D2,2223,2023-04-01,Kaiserslautern,Heidenheim,14,15,False
+D2,2223,2023-04-01,Hannover,Sandhausen,13,13,False
+D2,2223,2023-04-01,Karlsruhe,Braunschweig,15,13,False
+D2,2223,2023-04-02,Paderborn,Greuther Furth,15,15,False
+D2,2223,2023-04-02,Magdeburg,Hansa Rostock,15,14,False
+D2,2223,2023-04-02,Holstein Kiel,Bielefeld,15,16,False
+D2,2223,2023-04-08,Braunschweig,Kaiserslautern,7,7,False
+D2,2223,2023-04-08,Hamburg,Hannover,8,7,False
+D2,2223,2023-04-08,Nurnberg,Karlsruhe,8,7,False
+D2,2223,2023-04-08,Heidenheim,St Pauli,7,7,False
+D2,2223,2023-04-09,Hansa Rostock,Holstein Kiel,7,7,False
+D2,2223,2023-04-09,Bielefeld,Fortuna Dusseldorf,7,9,False
+D2,2223,2023-04-09,Darmstadt,Paderborn,9,7,False
+D2,2223,2023-04-09,Regensburg,Magdeburg,8,7,False
+D2,2223,2023-04-09,Sandhausen,Greuther Furth,8,7,False
+D2,2223,2023-04-14,Hannover,Heidenheim,6,6,False
+D2,2223,2023-04-14,Greuther Furth,Regensburg,5,5,False
+D2,2223,2023-04-15,Paderborn,Hansa Rostock,6,6,False
+D2,2223,2023-04-15,Kaiserslautern,Hamburg,7,7,False
+D2,2223,2023-04-15,Holstein Kiel,Nurnberg,6,7,False
+D2,2223,2023-04-15,Magdeburg,Sandhausen,6,6,False
+D2,2223,2023-04-16,St Pauli,Braunschweig,8,8,False
+D2,2223,2023-04-16,Karlsruhe,Bielefeld,8,7,False
+D2,2223,2023-04-16,Fortuna Dusseldorf,Darmstadt,7,7,False
+D2,2223,2023-04-21,Hamburg,St Pauli,6,5,False
+D2,2223,2023-04-21,Darmstadt,Karlsruhe,5,5,False
+D2,2223,2023-04-22,Nurnberg,Fortuna Dusseldorf,7,6,False
+D2,2223,2023-04-22,Braunschweig,Magdeburg,6,7,False
+D2,2223,2023-04-22,Bielefeld,Hannover,6,8,False
+D2,2223,2023-04-22,Hansa Rostock,Greuther Furth,7,8,False
+D2,2223,2023-04-23,Sandhausen,Paderborn,8,8,False
+D2,2223,2023-04-23,Regensburg,Kaiserslautern,9,8,False
+D2,2223,2023-04-23,Heidenheim,Holstein Kiel,9,8,False
+D2,2223,2023-04-28,Paderborn,Braunschweig,5,6,False
+D2,2223,2023-04-28,Greuther Furth,Heidenheim,6,5,False
+D2,2223,2023-04-29,St Pauli,Bielefeld,8,7,False
+D2,2223,2023-04-29,Hannover,Nurnberg,7,7,False
+D2,2223,2023-04-29,Kaiserslautern,Hansa Rostock,6,7,False
+D2,2223,2023-04-29,Magdeburg,Hamburg,7,8,False
+D2,2223,2023-04-30,Sandhausen,Regensburg,7,7,False
+D2,2223,2023-04-30,Holstein Kiel,Darmstadt,7,9,False
+D2,2223,2023-04-30,Fortuna Dusseldorf,Karlsruhe,8,9,False
+D2,2223,2023-05-05,Hamburg,Paderborn,6,7,False
+D2,2223,2023-05-05,Bielefeld,Greuther Furth,6,7,False
+D2,2223,2023-05-06,Karlsruhe,Hannover,6,7,False
+D2,2223,2023-05-06,Fortuna Dusseldorf,Holstein Kiel,6,6,False
+D2,2223,2023-05-06,Hansa Rostock,Regensburg,7,6,False
+D2,2223,2023-05-06,Darmstadt,St Pauli,6,7,False
+D2,2223,2023-05-07,Nurnberg,Kaiserslautern,8,8,False
+D2,2223,2023-05-07,Heidenheim,Magdeburg,9,8,False
+D2,2223,2023-05-07,Braunschweig,Sandhausen,9,7,False
+D2,2223,2023-05-12,Sandhausen,Hansa Rostock,5,6,False
+D2,2223,2023-05-12,Magdeburg,Nurnberg,5,5,False
+D2,2223,2023-05-13,Kaiserslautern,Bielefeld,6,8,False
+D2,2223,2023-05-13,St Pauli,Fortuna Dusseldorf,7,7,False
+D2,2223,2023-05-13,Greuther Furth,Braunschweig,8,6,False
+D2,2223,2023-05-13,Holstein Kiel,Karlsruhe,7,7,False
+D2,2223,2023-05-14,Regensburg,Hamburg,8,9,False
+D2,2223,2023-05-14,Paderborn,Heidenheim,9,7,False
+D2,2223,2023-05-14,Hannover,Darmstadt,8,8,False
+D2,2223,2023-05-19,Holstein Kiel,St Pauli,6,6,False
+D2,2223,2023-05-19,Darmstadt,Magdeburg,5,7,False
+D2,2223,2023-05-20,Heidenheim,Sandhausen,6,8,False
+D2,2223,2023-05-20,Hamburg,Greuther Furth,6,7,False
+D2,2223,2023-05-20,Bielefeld,Paderborn,7,6,False
+D2,2223,2023-05-20,Braunschweig,Regensburg,7,6,False
+D2,2223,2023-05-21,Nurnberg,Hansa Rostock,9,9,False
+D2,2223,2023-05-21,Karlsruhe,Kaiserslautern,8,8,False
+D2,2223,2023-05-21,Fortuna Dusseldorf,Hannover,8,7,False
+D2,2223,2023-05-28,Hansa Rostock,Braunschweig,7,8,False
+D2,2223,2023-05-28,Kaiserslautern,Fortuna Dusseldorf,7,7,False
+D2,2223,2023-05-28,Magdeburg,Bielefeld,9,8,False
+D2,2223,2023-05-28,Paderborn,Nurnberg,8,7,False
+D2,2223,2023-05-28,Regensburg,Heidenheim,8,8,False
+D2,2223,2023-05-28,Sandhausen,Hamburg,8,8,False
+D2,2223,2023-05-28,St Pauli,Karlsruhe,9,7,False
+D2,2223,2023-05-28,Greuther Furth,Darmstadt,8,9,False
+D2,2223,2023-05-28,Hannover,Holstein Kiel,7,9,False

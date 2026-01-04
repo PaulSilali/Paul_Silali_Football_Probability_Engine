@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E0,1920,2019-08-09,Liverpool,Norwich,7,7,False
+E0,1920,2019-08-10,West Ham,Man United,7,7,False
+E0,1920,2019-08-10,Bournemouth,Sheffield United,7,7,False
+E0,1920,2019-08-10,Burnley,Southampton,7,7,False
+E0,1920,2019-08-10,Crystal Palace,Everton,7,7,False
+E0,1920,2019-08-10,Watford,Brighton,7,7,False
+E0,1920,2019-08-10,Tottenham,Aston Villa,7,7,False
+E0,1920,2019-08-11,Leicester,Wolves,7,7,False
+E0,1920,2019-08-11,Newcastle,Arsenal,7,7,False
+E0,1920,2019-08-11,Man United,Chelsea,1,7,False
+E0,1920,2019-08-17,Arsenal,Burnley,6,7,False
+E0,1920,2019-08-17,Aston Villa,Bournemouth,7,7,False
+E0,1920,2019-08-17,Brighton,West Ham,7,7,False
+E0,1920,2019-08-17,Everton,Watford,7,7,False
+E0,1920,2019-08-17,Norwich,Newcastle,8,6,False
+E0,1920,2019-08-17,Southampton,Liverpool,7,8,False
+E0,1920,2019-08-17,Man United,Tottenham,6,7,False
+E0,1920,2019-08-18,Sheffield United,Crystal Palace,8,8,False
+E0,1920,2019-08-18,Chelsea,Leicester,7,7,False
+E0,1920,2019-08-19,Wolves,Man United,8,2,False
+E0,1920,2019-08-23,Aston Villa,Everton,6,6,False
+E0,1920,2019-08-24,Norwich,Chelsea,7,6,False
+E0,1920,2019-08-24,Brighton,Southampton,7,7,False
+E0,1920,2019-08-24,Man United,Crystal Palace,5,6,False
+E0,1920,2019-08-24,Sheffield United,Leicester,6,6,False
+E0,1920,2019-08-24,Watford,West Ham,7,7,False
+E0,1920,2019-08-24,Liverpool,Arsenal,7,7,False
+E0,1920,2019-08-25,Bournemouth,Man United,8,1,False
+E0,1920,2019-08-25,Tottenham,Newcastle,8,8,False
+E0,1920,2019-08-25,Wolves,Burnley,6,8,False
+E0,1920,2019-08-31,Southampton,Man United,7,6,False
+E0,1920,2019-08-31,Chelsea,Sheffield United,7,7,False
+E0,1920,2019-08-31,Crystal Palace,Aston Villa,7,8,False
+E0,1920,2019-08-31,Leicester,Bournemouth,7,6,False
+E0,1920,2019-08-31,Man United,Brighton,6,7,False
+E0,1920,2019-08-31,Newcastle,Watford,6,7,False
+E0,1920,2019-08-31,West Ham,Norwich,7,7,False
+E0,1920,2019-08-31,Burnley,Liverpool,6,7,False
+E0,1920,2019-09-01,Everton,Wolves,9,7,False
+E0,1920,2019-09-01,Arsenal,Tottenham,8,7,False
+E0,1920,2019-09-14,Liverpool,Newcastle,14,14,False
+E0,1920,2019-09-14,Brighton,Burnley,14,14,False
+E0,1920,2019-09-14,Man United,Leicester,14,14,False
+E0,1920,2019-09-14,Sheffield United,Southampton,14,14,False
+E0,1920,2019-09-14,Tottenham,Crystal Palace,13,14,False
+E0,1920,2019-09-14,Wolves,Chelsea,13,14,False
+E0,1920,2019-09-14,Norwich,Man United,14,14,False
+E0,1920,2019-09-15,Bournemouth,Everton,15,14,False
+E0,1920,2019-09-15,Watford,Arsenal,15,14,False
+E0,1920,2019-09-16,Aston Villa,West Ham,16,16,False
+E0,1920,2019-09-20,Southampton,Bournemouth,6,5,False
+E0,1920,2019-09-21,Leicester,Tottenham,7,7,False
+E0,1920,2019-09-21,Burnley,Norwich,7,7,False
+E0,1920,2019-09-21,Everton,Sheffield United,6,7,False
+E0,1920,2019-09-21,Man United,Watford,7,6,False
+E0,1920,2019-09-21,Newcastle,Brighton,7,7,False
+E0,1920,2019-09-22,Crystal Palace,Wolves,8,8,False
+E0,1920,2019-09-22,West Ham,Man United,6,1,False
+E0,1920,2019-09-22,Arsenal,Aston Villa,7,6,False
+E0,1920,2019-09-22,Chelsea,Liverpool,8,8,False
+E0,1920,2019-09-28,Sheffield United,Liverpool,7,6,False
+E0,1920,2019-09-28,Aston Villa,Burnley,6,7,False
+E0,1920,2019-09-28,Bournemouth,West Ham,8,6,False
+E0,1920,2019-09-28,Chelsea,Brighton,6,7,False
+E0,1920,2019-09-28,Crystal Palace,Norwich,6,7,False
+E0,1920,2019-09-28,Tottenham,Southampton,7,8,False
+E0,1920,2019-09-28,Wolves,Watford,6,7,False
+E0,1920,2019-09-28,Everton,Man United,7,6,False
+E0,1920,2019-09-29,Leicester,Newcastle,8,8,False
+E0,1920,2019-09-30,Man United,Arsenal,2,8,False
+E0,1920,2019-10-05,Brighton,Tottenham,7,7,False
+E0,1920,2019-10-05,Burnley,Everton,7,7,False
+E0,1920,2019-10-05,Liverpool,Leicester,7,6,False
+E0,1920,2019-10-05,Norwich,Aston Villa,7,7,False
+E0,1920,2019-10-05,Watford,Sheffield United,7,7,False
+E0,1920,2019-10-05,West Ham,Crystal Palace,7,7,False
+E0,1920,2019-10-06,Arsenal,Bournemouth,6,8,False
+E0,1920,2019-10-06,Man United,Wolves,6,8,False
+E0,1920,2019-10-06,Southampton,Chelsea,8,8,False
+E0,1920,2019-10-06,Newcastle,Man United,7,6,False
+E0,1920,2019-10-19,Everton,West Ham,14,14,False
+E0,1920,2019-10-19,Aston Villa,Brighton,14,14,False
+E0,1920,2019-10-19,Bournemouth,Norwich,13,14,False
+E0,1920,2019-10-19,Chelsea,Newcastle,13,13,False
+E0,1920,2019-10-19,Leicester,Burnley,14,14,False
+E0,1920,2019-10-19,Tottenham,Watford,14,14,False
+E0,1920,2019-10-19,Wolves,Southampton,13,13,False
+E0,1920,2019-10-19,Crystal Palace,Man United,14,13,False
+E0,1920,2019-10-20,Man United,Liverpool,1,15,False
+E0,1920,2019-10-21,Sheffield United,Arsenal,16,15,False
+E0,1920,2019-10-25,Southampton,Leicester,6,6,False
+E0,1920,2019-10-26,Man United,Aston Villa,6,7,False
+E0,1920,2019-10-26,Brighton,Everton,7,7,False
+E0,1920,2019-10-26,Watford,Bournemouth,7,7,False
+E0,1920,2019-10-26,West Ham,Sheffield United,7,5,False
+E0,1920,2019-10-26,Burnley,Chelsea,7,7,False
+E0,1920,2019-10-27,Newcastle,Wolves,8,8,False
+E0,1920,2019-10-27,Arsenal,Crystal Palace,6,8,False
+E0,1920,2019-10-27,Liverpool,Tottenham,7,8,False
+E0,1920,2019-10-27,Norwich,Man United,8,1,False
+E0,1920,2019-11-02,Bournemouth,Man United,7,6,False
+E0,1920,2019-11-02,Arsenal,Wolves,6,6,False
+E0,1920,2019-11-02,Aston Villa,Liverpool,7,6,False
+E0,1920,2019-11-02,Brighton,Norwich,7,6,False
+E0,1920,2019-11-02,Man United,Southampton,6,8,False
+E0,1920,2019-11-02,Sheffield United,Burnley,7,7,False
+E0,1920,2019-11-02,West Ham,Newcastle,7,6,False
+E0,1920,2019-11-02,Watford,Chelsea,7,7,False
+E0,1920,2019-11-03,Crystal Palace,Leicester,7,9,False
+E0,1920,2019-11-03,Everton,Tottenham,8,7,False
+E0,1920,2019-11-08,Norwich,Watford,6,6,False
+E0,1920,2019-11-09,Chelsea,Crystal Palace,7,6,False
+E0,1920,2019-11-09,Burnley,West Ham,7,7,False
+E0,1920,2019-11-09,Newcastle,Bournemouth,7,7,False
+E0,1920,2019-11-09,Southampton,Everton,7,6,False
+E0,1920,2019-11-09,Tottenham,Sheffield United,6,7,False
+E0,1920,2019-11-09,Leicester,Arsenal,6,7,False
+E0,1920,2019-11-10,Man United,Brighton,8,8,False
+E0,1920,2019-11-10,Wolves,Aston Villa,8,8,False
+E0,1920,2019-11-10,Liverpool,Man United,8,8,False
+E0,1920,2019-11-23,West Ham,Tottenham,14,14,False
+E0,1920,2019-11-23,Arsenal,Southampton,14,14,False
+E0,1920,2019-11-23,Bournemouth,Wolves,14,13,False
+E0,1920,2019-11-23,Brighton,Leicester,13,14,False
+E0,1920,2019-11-23,Crystal Palace,Liverpool,14,13,False
+E0,1920,2019-11-23,Everton,Norwich,14,15,False
+E0,1920,2019-11-23,Watford,Burnley,15,14,False
+E0,1920,2019-11-23,Man United,Chelsea,13,14,False
+E0,1920,2019-11-24,Sheffield United,Man United,15,1,False
+E0,1920,2019-11-25,Aston Villa,Newcastle,15,16,False
+E0,1920,2019-11-30,Newcastle,Man United,5,6,False
+E0,1920,2019-11-30,Burnley,Crystal Palace,7,7,False
+E0,1920,2019-11-30,Chelsea,West Ham,7,7,False
+E0,1920,2019-11-30,Liverpool,Brighton,7,7,False
+E0,1920,2019-11-30,Tottenham,Bournemouth,7,7,False
+E0,1920,2019-11-30,Southampton,Watford,7,7,False
+E0,1920,2019-12-01,Norwich,Arsenal,8,8,False
+E0,1920,2019-12-01,Wolves,Sheffield United,8,7,False
+E0,1920,2019-12-01,Leicester,Everton,8,8,False
+E0,1920,2019-12-01,Man United,Aston Villa,1,6,False
+E0,1920,2019-12-03,Crystal Palace,Bournemouth,3,3,True
+E0,1920,2019-12-03,Burnley,Man United,3,2,True
+E0,1920,2019-12-04,Chelsea,Aston Villa,4,3,True
+E0,1920,2019-12-04,Leicester,Watford,3,4,True
+E0,1920,2019-12-04,Man United,Tottenham,1,4,True
+E0,1920,2019-12-04,Southampton,Norwich,4,3,True
+E0,1920,2019-12-04,Wolves,West Ham,3,4,True
+E0,1920,2019-12-04,Liverpool,Everton,4,3,True
+E0,1920,2019-12-05,Sheffield United,Newcastle,4,5,True
+E0,1920,2019-12-05,Arsenal,Brighton,4,5,True
+E0,1920,2019-12-07,Everton,Chelsea,3,3,False
+E0,1920,2019-12-07,Bournemouth,Liverpool,4,3,False
+E0,1920,2019-12-07,Tottenham,Burnley,3,4,False
+E0,1920,2019-12-07,Watford,Crystal Palace,3,4,False
+E0,1920,2019-12-07,Man United,Man United,3,3,False
+E0,1920,2019-12-08,Aston Villa,Leicester,4,4,False
+E0,1920,2019-12-08,Newcastle,Southampton,3,4,False
+E0,1920,2019-12-08,Norwich,Sheffield United,4,3,False
+E0,1920,2019-12-08,Brighton,Wolves,3,4,False
+E0,1920,2019-12-09,West Ham,Arsenal,5,4,False
+E0,1920,2019-12-14,Liverpool,Watford,7,7,False
+E0,1920,2019-12-14,Burnley,Newcastle,7,6,False
+E0,1920,2019-12-14,Chelsea,Bournemouth,7,7,False
+E0,1920,2019-12-14,Leicester,Norwich,6,6,False
+E0,1920,2019-12-14,Sheffield United,Aston Villa,6,6,False
+E0,1920,2019-12-14,Southampton,West Ham,6,5,False
+E0,1920,2019-12-15,Man United,Everton,8,8,False
+E0,1920,2019-12-15,Wolves,Tottenham,7,8,False
+E0,1920,2019-12-15,Arsenal,Man United,6,8,False
+E0,1920,2019-12-16,Crystal Palace,Brighton,9,8,False
+E0,1920,2019-12-21,Everton,Arsenal,6,6,False
+E0,1920,2019-12-21,Aston Villa,Southampton,7,7,False
+E0,1920,2019-12-21,Bournemouth,Burnley,7,7,False
+E0,1920,2019-12-21,Brighton,Sheffield United,5,7,False
+E0,1920,2019-12-21,Newcastle,Crystal Palace,7,5,False
+E0,1920,2019-12-21,Norwich,Wolves,7,6,False
+E0,1920,2019-12-21,Man United,Leicester,6,7,False
+E0,1920,2019-12-22,Watford,Man United,8,1,False
+E0,1920,2019-12-22,Tottenham,Chelsea,7,8,False
+E0,1920,2019-12-26,Tottenham,Brighton,4,5,True
+E0,1920,2019-12-26,Aston Villa,Norwich,5,5,True
+E0,1920,2019-12-26,Bournemouth,Arsenal,5,5,True
+E0,1920,2019-12-26,Chelsea,Southampton,4,5,True
+E0,1920,2019-12-26,Crystal Palace,West Ham,5,12,True
+E0,1920,2019-12-26,Everton,Burnley,5,5,True
+E0,1920,2019-12-26,Sheffield United,Watford,5,4,True
+E0,1920,2019-12-26,Man United,Newcastle,4,5,True
+E0,1920,2019-12-26,Leicester,Liverpool,5,12,True
+E0,1920,2019-12-27,Wolves,Man United,6,1,False
+E0,1920,2019-12-28,Brighton,Bournemouth,2,2,False
+E0,1920,2019-12-28,Newcastle,Everton,2,2,False
+E0,1920,2019-12-28,Southampton,Crystal Palace,2,2,False
+E0,1920,2019-12-28,Watford,Aston Villa,2,2,False
+E0,1920,2019-12-28,Norwich,Tottenham,2,2,False
+E0,1920,2019-12-28,West Ham,Leicester,2,2,False
+E0,1920,2019-12-28,Burnley,Man United,2,1,False
+E0,1920,2019-12-29,Arsenal,Chelsea,3,3,False
+E0,1920,2019-12-29,Liverpool,Wolves,3,2,False
+E0,1920,2019-12-29,Man United,Sheffield United,1,3,False
+E0,1920,2020-01-01,Brighton,Chelsea,4,3,True
+E0,1920,2020-01-01,Burnley,Aston Villa,4,4,True
+E0,1920,2020-01-01,Newcastle,Leicester,4,4,True
+E0,1920,2020-01-01,Southampton,Tottenham,4,4,True
+E0,1920,2020-01-01,Watford,Wolves,4,3,True
+E0,1920,2020-01-01,Man United,Everton,3,4,True
+E0,1920,2020-01-01,Norwich,Crystal Palace,4,4,True
+E0,1920,2020-01-01,West Ham,Bournemouth,4,4,True
+E0,1920,2020-01-01,Arsenal,Man United,3,3,True
+E0,1920,2020-01-02,Liverpool,Sheffield United,4,4,True
+E0,1920,2020-01-10,Sheffield United,West Ham,8,9,False
+E0,1920,2020-01-11,Crystal Palace,Arsenal,10,10,False
+E0,1920,2020-01-11,Chelsea,Burnley,10,10,False
+E0,1920,2020-01-11,Everton,Brighton,10,10,False
+E0,1920,2020-01-11,Leicester,Southampton,10,10,False
+E0,1920,2020-01-11,Man United,Norwich,10,10,False
+E0,1920,2020-01-11,Wolves,Newcastle,10,10,False
+E0,1920,2020-01-11,Tottenham,Liverpool,10,9,False
+E0,1920,2020-01-12,Bournemouth,Watford,11,11,False
+E0,1920,2020-01-12,Aston Villa,Man United,11,1,False
+E0,1920,2020-01-18,Watford,Tottenham,6,7,False
+E0,1920,2020-01-18,Arsenal,Sheffield United,7,8,False
+E0,1920,2020-01-18,Brighton,Aston Villa,7,6,False
+E0,1920,2020-01-18,Man United,Crystal Palace,6,7,False
+E0,1920,2020-01-18,Norwich,Bournemouth,7,6,False
+E0,1920,2020-01-18,Southampton,Wolves,7,7,False
+E0,1920,2020-01-18,West Ham,Everton,8,7,False
+E0,1920,2020-01-18,Newcastle,Chelsea,7,7,False
+E0,1920,2020-01-19,Burnley,Leicester,8,8,False
+E0,1920,2020-01-19,Liverpool,Man United,8,1,False
+E0,1920,2020-01-21,Aston Villa,Watford,3,3,True
+E0,1920,2020-01-21,Bournemouth,Brighton,3,3,True
+E0,1920,2020-01-21,Crystal Palace,Southampton,3,3,True
+E0,1920,2020-01-21,Everton,Newcastle,3,3,True
+E0,1920,2020-01-21,Sheffield United,Man United,3,2,True
+E0,1920,2020-01-21,Chelsea,Arsenal,3,3,True
+E0,1920,2020-01-22,Leicester,West Ham,3,4,True
+E0,1920,2020-01-22,Tottenham,Norwich,4,4,True
+E0,1920,2020-01-22,Man United,Burnley,1,3,True
+E0,1920,2020-01-23,Wolves,Liverpool,5,4,True
+E0,1920,2020-01-29,West Ham,Liverpool,7,6,True
+E0,1920,2020-02-01,Leicester,Chelsea,10,11,False
+E0,1920,2020-02-01,Bournemouth,Aston Villa,11,11,False
+E0,1920,2020-02-01,Crystal Palace,Sheffield United,11,11,False
+E0,1920,2020-02-01,Liverpool,Southampton,3,11,False
+E0,1920,2020-02-01,Newcastle,Norwich,11,10,False
+E0,1920,2020-02-01,Watford,Everton,11,11,False
+E0,1920,2020-02-01,West Ham,Brighton,3,11,False
+E0,1920,2020-02-01,Man United,Wolves,10,9,False
+E0,1920,2020-02-02,Burnley,Arsenal,11,12,False
+E0,1920,2020-02-02,Tottenham,Man United,11,1,False
+E0,1920,2020-02-08,Everton,Crystal Palace,7,7,False
+E0,1920,2020-02-08,Brighton,Watford,7,7,False
+E0,1920,2020-02-09,Sheffield United,Bournemouth,8,8,False
+E0,1920,2020-02-14,Wolves,Leicester,13,13,False
+E0,1920,2020-02-15,Southampton,Burnley,14,13,False
+E0,1920,2020-02-15,Norwich,Liverpool,14,14,False
+E0,1920,2020-02-16,Aston Villa,Tottenham,15,14,False
+E0,1920,2020-02-16,Arsenal,Newcastle,14,15,False
+E0,1920,2020-02-17,Chelsea,Man United,16,15,False
+E0,1920,2020-02-19,Man United,West Ham,2,18,True
+E0,1920,2020-02-22,Chelsea,Tottenham,5,6,False
+E0,1920,2020-02-22,Burnley,Bournemouth,7,13,False
+E0,1920,2020-02-22,Crystal Palace,Newcastle,14,6,False
+E0,1920,2020-02-22,Sheffield United,Brighton,13,14,False
+E0,1920,2020-02-22,Southampton,Aston Villa,7,6,False
+E0,1920,2020-02-22,Leicester,Man United,8,3,False
+E0,1920,2020-02-23,Man United,Watford,1,15,False
+E0,1920,2020-02-23,Wolves,Norwich,9,8,False
+E0,1920,2020-02-23,Arsenal,Everton,7,15,False
+E0,1920,2020-02-24,Liverpool,West Ham,9,5,False
+E0,1920,2020-02-28,Norwich,Leicester,5,6,False
+E0,1920,2020-02-29,Brighton,Crystal Palace,7,7,False
+E0,1920,2020-02-29,Bournemouth,Chelsea,7,7,False
+E0,1920,2020-02-29,Newcastle,Burnley,7,7,False
+E0,1920,2020-02-29,West Ham,Southampton,5,7,False
+E0,1920,2020-02-29,Watford,Liverpool,6,5,False
+E0,1920,2020-03-01,Everton,Man United,7,7,False
+E0,1920,2020-03-01,Tottenham,Wolves,8,7,False
+E0,1920,2020-03-07,Liverpool,Bournemouth,7,7,False
+E0,1920,2020-03-07,Arsenal,West Ham,13,7,False
+E0,1920,2020-03-07,Crystal Palace,Watford,7,7,False
+E0,1920,2020-03-07,Sheffield United,Norwich,14,8,False
+E0,1920,2020-03-07,Southampton,Newcastle,7,7,False
+E0,1920,2020-03-07,Wolves,Brighton,6,7,False
+E0,1920,2020-03-07,Burnley,Tottenham,7,6,False
+E0,1920,2020-03-08,Chelsea,Everton,8,7,False
+E0,1920,2020-03-08,Man United,Man United,7,7,False
+E0,1920,2020-03-09,Leicester,Aston Villa,10,16,False
+E0,1920,2020-06-17,Aston Villa,Sheffield United,100,102,True
+E0,1920,2020-06-17,Man United,Arsenal,101,102,True
+E0,1920,2020-06-19,Norwich,Southampton,104,104,False
+E0,1920,2020-06-19,Tottenham,Man United,104,2,False
+E0,1920,2020-06-20,Watford,Leicester,105,103,False
+E0,1920,2020-06-20,Brighton,Arsenal,105,3,False
+E0,1920,2020-06-20,West Ham,Wolves,105,105,False
+E0,1920,2020-06-20,Bournemouth,Crystal Palace,105,105,False
+E0,1920,2020-06-21,Newcastle,Sheffield United,106,4,False
+E0,1920,2020-06-21,Aston Villa,Chelsea,4,105,False
+E0,1920,2020-06-21,Everton,Liverpool,105,106,False
+E0,1920,2020-06-22,Man United,Burnley,3,107,False
+E0,1920,2020-06-23,Leicester,Brighton,3,3,True
+E0,1920,2020-06-23,Tottenham,West Ham,4,3,True
+E0,1920,2020-06-24,Man United,Sheffield United,2,3,True
+E0,1920,2020-06-24,Newcastle,Aston Villa,3,3,True
+E0,1920,2020-06-24,Norwich,Everton,5,3,True
+E0,1920,2020-06-24,Wolves,Bournemouth,4,4,True
+E0,1920,2020-06-24,Liverpool,Crystal Palace,3,4,True
+E0,1920,2020-06-25,Burnley,Watford,3,5,True
+E0,1920,2020-06-25,Southampton,Arsenal,6,5,True
+E0,1920,2020-06-25,Chelsea,Man United,4,1,True
+E0,1920,2020-06-27,Aston Villa,Wolves,3,3,False
+E0,1920,2020-06-28,Watford,Southampton,3,3,False
+E0,1920,2020-06-29,Crystal Palace,Burnley,5,4,False
+E0,1920,2020-06-30,Brighton,Man United,7,5,True
+E0,1920,2020-07-01,Arsenal,Norwich,6,7,True
+E0,1920,2020-07-01,Bournemouth,Newcastle,7,7,True
+E0,1920,2020-07-01,Everton,Leicester,7,8,True
+E0,1920,2020-07-01,West Ham,Chelsea,8,6,True
+E0,1920,2020-07-02,Sheffield United,Tottenham,8,9,True
+E0,1920,2020-07-02,Man United,Liverpool,2,8,True
+E0,1920,2020-07-04,Norwich,Brighton,3,4,False
+E0,1920,2020-07-04,Leicester,Crystal Palace,3,5,False
+E0,1920,2020-07-04,Man United,Bournemouth,2,3,False
+E0,1920,2020-07-04,Wolves,Arsenal,7,3,False
+E0,1920,2020-07-04,Chelsea,Watford,3,6,False
+E0,1920,2020-07-05,Burnley,Sheffield United,6,3,False
+E0,1920,2020-07-05,Newcastle,West Ham,4,4,False
+E0,1920,2020-07-05,Liverpool,Aston Villa,3,8,False
+E0,1920,2020-07-05,Southampton,Man United,7,1,False
+E0,1920,2020-07-06,Tottenham,Everton,4,5,False
+E0,1920,2020-07-07,Crystal Palace,Chelsea,3,3,True
+E0,1920,2020-07-07,Watford,Norwich,3,3,True
+E0,1920,2020-07-07,Arsenal,Leicester,3,3,True
+E0,1920,2020-07-08,Man United,Newcastle,3,3,True
+E0,1920,2020-07-08,Sheffield United,Wolves,3,4,True
+E0,1920,2020-07-08,West Ham,Burnley,3,3,True
+E0,1920,2020-07-08,Brighton,Liverpool,4,3,True
+E0,1920,2020-07-09,Bournemouth,Tottenham,5,3,True
+E0,1920,2020-07-09,Everton,Southampton,3,4,True
+E0,1920,2020-07-09,Aston Villa,Man United,4,1,True
+E0,1920,2020-07-11,Norwich,West Ham,4,3,False
+E0,1920,2020-07-11,Watford,Newcastle,4,3,False
+E0,1920,2020-07-11,Liverpool,Burnley,3,3,False
+E0,1920,2020-07-11,Sheffield United,Chelsea,3,4,False
+E0,1920,2020-07-11,Brighton,Man United,3,2,False
+E0,1920,2020-07-12,Wolves,Everton,4,3,False
+E0,1920,2020-07-12,Aston Villa,Crystal Palace,3,5,False
+E0,1920,2020-07-12,Tottenham,Arsenal,3,5,False
+E0,1920,2020-07-12,Bournemouth,Leicester,3,5,False
+E0,1920,2020-07-13,Man United,Southampton,2,4,False
+E0,1920,2020-07-14,Chelsea,Norwich,3,3,True
+E0,1920,2020-07-15,Burnley,Wolves,4,3,True
+E0,1920,2020-07-15,Man United,Bournemouth,2,3,True
+E0,1920,2020-07-15,Newcastle,Tottenham,4,3,True
+E0,1920,2020-07-15,Arsenal,Liverpool,3,4,True
+E0,1920,2020-07-16,Everton,Aston Villa,4,4,True
+E0,1920,2020-07-16,Leicester,Sheffield United,4,5,True
+E0,1920,2020-07-16,Crystal Palace,Man United,4,1,True
+E0,1920,2020-07-16,Southampton,Brighton,3,5,True
+E0,1920,2020-07-17,West Ham,Watford,6,6,False
+E0,1920,2020-07-18,Norwich,Burnley,4,3,False
+E0,1920,2020-07-19,Bournemouth,Southampton,4,3,False
+E0,1920,2020-07-19,Tottenham,Leicester,4,3,False
+E0,1920,2020-07-20,Brighton,Newcastle,4,5,False
+E0,1920,2020-07-20,Sheffield United,Everton,4,4,False
+E0,1920,2020-07-20,Wolves,Crystal Palace,5,4,False
+E0,1920,2020-07-21,Watford,Man United,4,5,True
+E0,1920,2020-07-21,Aston Villa,Arsenal,5,6,True
+E0,1920,2020-07-22,Man United,West Ham,1,5,True
+E0,1920,2020-07-22,Liverpool,Chelsea,7,8,True
+E0,1920,2020-07-26,Arsenal,Watford,5,5,False
+E0,1920,2020-07-26,Burnley,Brighton,8,6,False
+E0,1920,2020-07-26,Chelsea,Wolves,4,6,False
+E0,1920,2020-07-26,Crystal Palace,Tottenham,6,7,False
+E0,1920,2020-07-26,Everton,Bournemouth,6,7,False
+E0,1920,2020-07-26,Leicester,Man United,7,4,False
+E0,1920,2020-07-26,Man United,Norwich,4,8,False
+E0,1920,2020-07-26,Newcastle,Liverpool,6,4,False
+E0,1920,2020-07-26,Southampton,Sheffield United,7,6,False
+E0,1920,2020-07-26,West Ham,Aston Villa,4,5,False

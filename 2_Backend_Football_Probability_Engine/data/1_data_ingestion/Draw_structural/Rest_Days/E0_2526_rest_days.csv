@@ -1,0 +1,191 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E0,2526,2025-08-15,Liverpool,Bournemouth,82,82,False
+E0,2526,2025-08-16,Aston Villa,Newcastle,83,83,False
+E0,2526,2025-08-16,Wolves,Man United,83,83,False
+E0,2526,2025-08-16,Tottenham,Burnley,83,454,False
+E0,2526,2025-08-16,Sunderland,West Ham,7,83,False
+E0,2526,2025-08-16,Brighton,Fulham,83,83,False
+E0,2526,2025-08-17,Chelsea,Crystal Palace,84,84,False
+E0,2526,2025-08-17,Man United,Arsenal,1,84,False
+E0,2526,2025-08-17,Nott'm Forest,Brentford,84,84,False
+E0,2526,2025-08-18,Leeds,Everton,813,85,False
+E0,2526,2025-08-22,West Ham,Chelsea,6,5,False
+E0,2526,2025-08-23,Arsenal,Leeds,6,5,False
+E0,2526,2025-08-23,Burnley,Sunderland,7,7,False
+E0,2526,2025-08-23,Man United,Tottenham,6,7,False
+E0,2526,2025-08-23,Brentford,Aston Villa,6,7,False
+E0,2526,2025-08-23,Bournemouth,Wolves,8,7,False
+E0,2526,2025-08-24,Fulham,Man United,8,1,False
+E0,2526,2025-08-24,Crystal Palace,Nott'm Forest,7,7,False
+E0,2526,2025-08-24,Everton,Brighton,6,8,False
+E0,2526,2025-08-25,Newcastle,Liverpool,9,10,False
+E0,2526,2025-08-30,Chelsea,Fulham,8,6,False
+E0,2526,2025-08-30,Leeds,Newcastle,7,5,False
+E0,2526,2025-08-30,Sunderland,Brentford,7,7,False
+E0,2526,2025-08-30,Tottenham,Bournemouth,7,7,False
+E0,2526,2025-08-30,Wolves,Everton,7,6,False
+E0,2526,2025-08-30,Man United,Burnley,6,7,False
+E0,2526,2025-08-31,Brighton,Man United,7,1,False
+E0,2526,2025-08-31,Nott'm Forest,West Ham,7,9,False
+E0,2526,2025-08-31,Aston Villa,Crystal Palace,8,7,False
+E0,2526,2025-08-31,Liverpool,Arsenal,6,8,False
+E0,2526,2025-09-13,Crystal Palace,Sunderland,13,14,False
+E0,2526,2025-09-13,Arsenal,Nott'm Forest,13,13,False
+E0,2526,2025-09-13,Bournemouth,Brighton,14,13,False
+E0,2526,2025-09-13,Everton,Aston Villa,14,13,False
+E0,2526,2025-09-13,Fulham,Leeds,14,14,False
+E0,2526,2025-09-13,Newcastle,Wolves,14,14,False
+E0,2526,2025-09-13,West Ham,Tottenham,13,14,False
+E0,2526,2025-09-13,Brentford,Chelsea,14,14,False
+E0,2526,2025-09-14,Burnley,Liverpool,15,14,False
+E0,2526,2025-09-14,Man United,Man United,14,14,False
+E0,2526,2025-09-20,Brighton,Tottenham,7,7,False
+E0,2526,2025-09-20,Burnley,Nott'm Forest,6,7,False
+E0,2526,2025-09-20,Liverpool,Everton,6,7,False
+E0,2526,2025-09-20,Man United,Chelsea,6,7,False
+E0,2526,2025-09-20,Wolves,Leeds,7,7,False
+E0,2526,2025-09-20,West Ham,Crystal Palace,7,7,False
+E0,2526,2025-09-20,Fulham,Brentford,7,7,False
+E0,2526,2025-09-21,Arsenal,Man United,8,1,False
+E0,2526,2025-09-21,Sunderland,Aston Villa,8,8,False
+E0,2526,2025-09-21,Bournemouth,Newcastle,8,8,False
+E0,2526,2025-09-27,Chelsea,Brighton,7,7,False
+E0,2526,2025-09-27,Leeds,Bournemouth,7,6,False
+E0,2526,2025-09-27,Man United,Burnley,6,7,False
+E0,2526,2025-09-27,Nott'm Forest,Sunderland,7,6,False
+E0,2526,2025-09-27,Tottenham,Wolves,7,7,False
+E0,2526,2025-09-27,Brentford,Man United,7,6,False
+E0,2526,2025-09-27,Crystal Palace,Liverpool,7,7,False
+E0,2526,2025-09-28,Aston Villa,Fulham,7,8,False
+E0,2526,2025-09-28,Newcastle,Arsenal,7,7,False
+E0,2526,2025-09-29,Everton,West Ham,9,9,False
+E0,2526,2025-10-03,Bournemouth,Fulham,6,5,False
+E0,2526,2025-10-04,Man United,Sunderland,7,7,False
+E0,2526,2025-10-04,Arsenal,West Ham,6,5,False
+E0,2526,2025-10-04,Leeds,Tottenham,7,7,False
+E0,2526,2025-10-04,Chelsea,Liverpool,7,7,False
+E0,2526,2025-10-05,Everton,Crystal Palace,6,8,False
+E0,2526,2025-10-05,Aston Villa,Burnley,7,8,False
+E0,2526,2025-10-05,Newcastle,Nott'm Forest,7,8,False
+E0,2526,2025-10-05,Wolves,Brighton,8,8,False
+E0,2526,2025-10-05,Brentford,Man United,8,1,False
+E0,2526,2025-10-18,Fulham,Arsenal,15,14,False
+E0,2526,2025-10-18,Nott'm Forest,Chelsea,13,14,False
+E0,2526,2025-10-18,Brighton,Newcastle,13,13,False
+E0,2526,2025-10-18,Burnley,Leeds,13,14,False
+E0,2526,2025-10-18,Crystal Palace,Bournemouth,13,15,False
+E0,2526,2025-10-18,Man United,Everton,13,13,False
+E0,2526,2025-10-18,Sunderland,Wolves,14,13,False
+E0,2526,2025-10-19,Tottenham,Aston Villa,15,14,False
+E0,2526,2025-10-19,Liverpool,Man United,15,1,False
+E0,2526,2025-10-20,West Ham,Brentford,16,15,False
+E0,2526,2025-10-24,Leeds,West Ham,6,4,False
+E0,2526,2025-10-25,Man United,Brighton,6,7,False
+E0,2526,2025-10-25,Chelsea,Sunderland,7,7,False
+E0,2526,2025-10-25,Newcastle,Fulham,7,7,False
+E0,2526,2025-10-25,Brentford,Liverpool,5,6,False
+E0,2526,2025-10-26,Everton,Tottenham,8,7,False
+E0,2526,2025-10-26,Wolves,Burnley,8,8,False
+E0,2526,2025-10-26,Bournemouth,Nott'm Forest,8,8,False
+E0,2526,2025-10-26,Aston Villa,Man United,7,1,False
+E0,2526,2025-10-26,Arsenal,Crystal Palace,8,8,False
+E0,2526,2025-11-01,Nott'm Forest,Man United,6,6,False
+E0,2526,2025-11-01,Fulham,Wolves,7,6,False
+E0,2526,2025-11-01,Crystal Palace,Brentford,6,7,False
+E0,2526,2025-11-01,Burnley,Arsenal,6,6,False
+E0,2526,2025-11-01,Brighton,Leeds,7,8,False
+E0,2526,2025-11-01,Liverpool,Aston Villa,7,6,False
+E0,2526,2025-11-01,Tottenham,Chelsea,6,7,False
+E0,2526,2025-11-02,West Ham,Newcastle,9,8,False
+E0,2526,2025-11-02,Man United,Bournemouth,1,7,False
+E0,2526,2025-11-03,Sunderland,Everton,9,8,False
+E0,2526,2025-11-08,Chelsea,Wolves,7,7,False
+E0,2526,2025-11-08,West Ham,Burnley,6,7,False
+E0,2526,2025-11-08,Sunderland,Arsenal,5,7,False
+E0,2526,2025-11-08,Everton,Fulham,5,7,False
+E0,2526,2025-11-08,Tottenham,Man United,7,6,False
+E0,2526,2025-11-09,Nott'm Forest,Leeds,8,8,False
+E0,2526,2025-11-09,Aston Villa,Bournemouth,8,7,False
+E0,2526,2025-11-09,Brentford,Newcastle,8,7,False
+E0,2526,2025-11-09,Crystal Palace,Brighton,8,8,False
+E0,2526,2025-11-09,Man United,Liverpool,1,8,False
+E0,2526,2025-11-22,Liverpool,Nott'm Forest,13,13,False
+E0,2526,2025-11-22,Burnley,Chelsea,14,14,False
+E0,2526,2025-11-22,Bournemouth,West Ham,13,14,False
+E0,2526,2025-11-22,Brighton,Brentford,13,13,False
+E0,2526,2025-11-22,Fulham,Sunderland,14,14,False
+E0,2526,2025-11-22,Wolves,Crystal Palace,14,13,False
+E0,2526,2025-11-22,Newcastle,Man United,13,13,False
+E0,2526,2025-11-23,Leeds,Aston Villa,14,14,False
+E0,2526,2025-11-23,Arsenal,Tottenham,15,15,False
+E0,2526,2025-11-24,Man United,Everton,2,16,False
+E0,2526,2025-11-29,Everton,Newcastle,5,7,False
+E0,2526,2025-11-29,Sunderland,Bournemouth,7,7,False
+E0,2526,2025-11-29,Man United,Leeds,5,6,False
+E0,2526,2025-11-29,Brentford,Burnley,7,7,False
+E0,2526,2025-11-29,Tottenham,Fulham,6,7,False
+E0,2526,2025-11-30,West Ham,Liverpool,8,8,False
+E0,2526,2025-11-30,Crystal Palace,Man United,8,1,False
+E0,2526,2025-11-30,Aston Villa,Wolves,7,8,False
+E0,2526,2025-11-30,Nott'm Forest,Brighton,8,8,False
+E0,2526,2025-11-30,Chelsea,Arsenal,8,7,False
+E0,2526,2025-12-02,Fulham,Man United,3,2,True
+E0,2526,2025-12-02,Bournemouth,Everton,3,3,True
+E0,2526,2025-12-02,Newcastle,Tottenham,3,3,True
+E0,2526,2025-12-03,Wolves,Nott'm Forest,3,3,True
+E0,2526,2025-12-03,Leeds,Chelsea,4,3,True
+E0,2526,2025-12-03,Brighton,Aston Villa,3,3,True
+E0,2526,2025-12-03,Arsenal,Brentford,3,4,True
+E0,2526,2025-12-03,Burnley,Crystal Palace,4,3,True
+E0,2526,2025-12-03,Liverpool,Sunderland,3,4,True
+E0,2526,2025-12-04,Man United,West Ham,2,4,True
+E0,2526,2025-12-06,Tottenham,Brentford,4,3,False
+E0,2526,2025-12-06,Aston Villa,Arsenal,3,3,False
+E0,2526,2025-12-06,Bournemouth,Chelsea,4,3,False
+E0,2526,2025-12-06,Everton,Nott'm Forest,4,3,False
+E0,2526,2025-12-06,Man United,Sunderland,2,3,False
+E0,2526,2025-12-06,Newcastle,Burnley,4,3,False
+E0,2526,2025-12-06,Leeds,Liverpool,3,3,False
+E0,2526,2025-12-07,Brighton,West Ham,4,3,False
+E0,2526,2025-12-07,Fulham,Crystal Palace,5,4,False
+E0,2526,2025-12-08,Wolves,Man United,5,2,False
+E0,2526,2025-12-13,Chelsea,Everton,7,7,False
+E0,2526,2025-12-13,Liverpool,Brighton,7,6,False
+E0,2526,2025-12-13,Arsenal,Wolves,7,5,False
+E0,2526,2025-12-13,Burnley,Fulham,7,6,False
+E0,2526,2025-12-14,Brentford,Leeds,8,8,False
+E0,2526,2025-12-14,Crystal Palace,Man United,7,6,False
+E0,2526,2025-12-14,Nott'm Forest,Tottenham,8,8,False
+E0,2526,2025-12-14,Sunderland,Newcastle,8,8,False
+E0,2526,2025-12-14,West Ham,Aston Villa,7,8,False
+E0,2526,2025-12-15,Man United,Bournemouth,1,9,False
+E0,2526,2025-12-20,Newcastle,Chelsea,6,7,False
+E0,2526,2025-12-20,Bournemouth,Burnley,5,7,False
+E0,2526,2025-12-20,Brighton,Sunderland,7,6,False
+E0,2526,2025-12-20,Man United,West Ham,5,6,False
+E0,2526,2025-12-20,Wolves,Brentford,7,6,False
+E0,2526,2025-12-20,Tottenham,Liverpool,6,7,False
+E0,2526,2025-12-20,Leeds,Crystal Palace,6,6,False
+E0,2526,2025-12-20,Everton,Arsenal,7,7,False
+E0,2526,2025-12-21,Aston Villa,Man United,7,1,False
+E0,2526,2025-12-22,Fulham,Nott'm Forest,9,8,False
+E0,2526,2025-12-26,Man United,Newcastle,5,6,False
+E0,2526,2025-12-27,West Ham,Fulham,7,5,False
+E0,2526,2025-12-27,Nott'm Forest,Man United,5,1,False
+E0,2526,2025-12-27,Arsenal,Brighton,7,7,False
+E0,2526,2025-12-27,Brentford,Bournemouth,7,7,False
+E0,2526,2025-12-27,Burnley,Everton,7,7,False
+E0,2526,2025-12-27,Liverpool,Wolves,7,7,False
+E0,2526,2025-12-27,Chelsea,Aston Villa,7,6,False
+E0,2526,2025-12-28,Crystal Palace,Tottenham,8,8,False
+E0,2526,2025-12-28,Sunderland,Leeds,8,8,False
+E0,2526,2025-12-30,West Ham,Brighton,3,3,True
+E0,2526,2025-12-30,Arsenal,Aston Villa,3,3,True
+E0,2526,2025-12-30,Nott'm Forest,Everton,3,3,True
+E0,2526,2025-12-30,Chelsea,Bournemouth,3,3,True
+E0,2526,2025-12-30,Burnley,Newcastle,3,4,True
+E0,2526,2025-12-30,Man United,Wolves,3,3,True
+E0,2526,2026-01-01,Crystal Palace,Fulham,4,5,True
+E0,2526,2026-01-01,Brentford,Tottenham,5,4,True
+E0,2526,2026-01-01,Liverpool,Leeds,5,4,True
+E0,2526,2026-01-01,Sunderland,Man United,4,2,True

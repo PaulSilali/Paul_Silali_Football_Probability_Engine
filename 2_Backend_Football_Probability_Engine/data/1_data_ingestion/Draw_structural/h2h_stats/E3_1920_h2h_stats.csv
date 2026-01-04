@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+131,Cheltenham,156,Scunthorpe,1920,2,0,0.0,3.0
+126,Walsall,143,Port Vale,1920,2,1,0.5,2.5
+137,Oldham,141,Carlisle,1920,2,1,0.5,1.5
+141,Carlisle,150,Leyton Orient,1920,1,1,1.0,2.0
+126,Walsall,151,Northampton,1920,2,0,0.0,3.0
+121,Colchester,127,Newport County,1920,1,0,0.0,4.0
+122,Grimsby,141,Carlisle,1920,1,1,1.0,
+119,Cambridge,151,Northampton,1920,1,0,0.0,2.0
+131,Cheltenham,146,Forest Green,1920,1,0,0.0,3.0
+127,Newport County,146,Forest Green,1920,1,0,0.0,2.0
+144,Morecambe,156,Scunthorpe,1920,1,0,0.0,3.0
+119,Cambridge,124,Salford,1920,2,0,0.0,2.5
+126,Walsall,150,Leyton Orient,1920,2,0,0.0,2.5
+124,Salford,127,Newport County,1920,1,0,0.0,3.0
+138,Swindon,143,Port Vale,1920,2,0,0.0,2.5
+144,Morecambe,151,Northampton,1920,2,1,0.5,4.5
+146,Forest Green,151,Northampton,1920,1,0,0.0,1.0
+133,Crewe,155,Exeter,1920,2,2,1.0,2.0
+126,Walsall,131,Cheltenham,1920,2,0,0.0,3.5
+156,Scunthorpe,159,Plymouth,1920,2,1,0.5,4.0
+131,Cheltenham,141,Carlisle,1920,2,0,0.0,1.5
+124,Salford,144,Morecambe,1920,1,1,1.0,4.0
+144,Morecambe,155,Exeter,1920,1,0,0.0,5.0
+122,Grimsby,142,Bradford,1920,2,2,1.0,2.0
+132,Crawley Town,141,Carlisle,1920,2,1,0.5,1.5
+145,Mansfield,153,Stevenage,1920,2,2,1.0,2.0
+119,Cambridge,137,Oldham,1920,1,0,0.0,3.0
+141,Carlisle,145,Mansfield,1920,3,1,0.3333333333333333,3.0
+122,Grimsby,153,Stevenage,1920,2,0,0.0,3.5
+121,Colchester,132,Crawley Town,1920,2,1,0.5,2.5
+142,Bradford,153,Stevenage,1920,2,0,0.0,2.5
+124,Salford,126,Walsall,1920,2,0,0.0,3.0
+127,Newport County,141,Carlisle,1920,2,0,0.0,1.5
+133,Crewe,144,Morecambe,1920,2,1,0.5,3.5
+133,Crewe,145,Mansfield,1920,3,2,0.6666666666666666,2.0
+126,Walsall,146,Forest Green,1920,2,1,0.5,2.5
+146,Forest Green,156,Scunthorpe,1920,2,0,0.0,1.5
+121,Colchester,144,Morecambe,1920,2,1,0.5,1.5
+133,Crewe,137,Oldham,1920,2,0,0.0,3.0
+145,Mansfield,151,Northampton,1920,4,1,0.25,2.25
+121,Colchester,156,Scunthorpe,1920,1,1,1.0,4.0
+121,Colchester,126,Walsall,1920,1,1,1.0,
+119,Cambridge,146,Forest Green,1920,1,0,0.0,1.0
+119,Cambridge,132,Crawley Town,1920,1,0,0.0,3.0
+132,Crawley Town,146,Forest Green,1920,2,1,0.5,3.0
+138,Swindon,142,Bradford,1920,2,1,0.5,2.5
+131,Cheltenham,145,Mansfield,1920,3,0,0.0,2.3333333333333335
+144,Morecambe,145,Mansfield,1920,4,2,0.5,2.25
+137,Oldham,143,Port Vale,1920,1,1,1.0,
+143,Port Vale,153,Stevenage,1920,2,1,0.5,1.5
+121,Colchester,150,Leyton Orient,1920,2,0,0.0,3.5
+126,Walsall,133,Crewe,1920,2,0,0.0,2.0
+141,Carlisle,143,Port Vale,1920,1,0,0.0,3.0
+119,Cambridge,126,Walsall,1920,1,0,0.0,3.0
+121,Colchester,142,Bradford,1920,1,1,1.0,
+141,Carlisle,153,Stevenage,1920,1,0,0.0,5.0
+131,Cheltenham,132,Crawley Town,1920,1,0,0.0,1.0
+122,Grimsby,131,Cheltenham,1920,1,1,1.0,
+119,Cambridge,142,Bradford,1920,2,1,0.5,1.5
+121,Colchester,143,Port Vale,1920,2,1,0.5,2.5
+131,Cheltenham,159,Plymouth,1920,2,0,0.0,1.5
+127,Newport County,144,Morecambe,1920,2,0,0.0,2.0
+150,Leyton Orient,159,Plymouth,1920,1,0,0.0,4.0
+121,Colchester,122,Grimsby,1920,2,1,0.5,4.5
+150,Leyton Orient,156,Scunthorpe,1920,1,0,0.0,2.0
+132,Crawley Town,133,Crewe,1920,2,0,0.0,3.0
+137,Oldham,155,Exeter,1920,2,1,0.5,3.0
+145,Mansfield,150,Leyton Orient,1920,4,1,0.25,3.25
+137,Oldham,159,Plymouth,1920,1,1,1.0,4.0
+132,Crawley Town,150,Leyton Orient,1920,1,0,0.0,5.0
+142,Bradford,155,Exeter,1920,1,0,0.0,2.0
+133,Crewe,151,Northampton,1920,1,0,0.0,5.0
+119,Cambridge,155,Exeter,1920,2,0,0.0,3.0
+145,Mansfield,159,Plymouth,1920,4,1,0.25,2.5
+126,Walsall,132,Crawley Town,1920,2,0,0.0,4.0
+121,Colchester,131,Cheltenham,1920,2,1,0.5,2.0
+151,Northampton,159,Plymouth,1920,1,0,0.0,4.0
+131,Cheltenham,144,Morecambe,1920,2,1,0.5,1.5
+122,Grimsby,155,Exeter,1920,2,0,0.0,2.5
+143,Port Vale,156,Scunthorpe,1920,2,1,0.5,3.5
+127,Newport County,142,Bradford,1920,2,0,0.0,2.0
+138,Swindon,153,Stevenage,1920,1,0,0.0,1.0
+122,Grimsby,159,Plymouth,1920,1,0,0.0,3.0
+138,Swindon,155,Exeter,1920,2,1,0.5,2.5
+133,Crewe,142,Bradford,1920,1,0,0.0,3.0
+124,Salford,150,Leyton Orient,1920,1,1,1.0,2.0
+144,Morecambe,159,Plymouth,1920,1,0,0.0,3.0
+143,Port Vale,145,Mansfield,1920,4,3,0.75,3.75
+131,Cheltenham,143,Port Vale,1920,2,2,1.0,1.0
+142,Bradford,146,Forest Green,1920,1,0,0.0,1.0
+142,Bradford,159,Plymouth,1920,2,0,0.0,3.0
+138,Swindon,150,Leyton Orient,1920,1,0,0.0,4.0
+138,Swindon,145,Mansfield,1920,2,0,0.0,2.0
+127,Newport County,150,Leyton Orient,1920,2,1,0.5,2.5
+124,Salford,142,Bradford,1920,2,1,0.5,2.0
+142,Bradford,151,Northampton,1920,1,0,0.0,3.0
+126,Walsall,141,Carlisle,1920,2,0,0.0,3.0
+122,Grimsby,156,Scunthorpe,1920,2,0,0.0,1.5
+145,Mansfield,145,Mansfield,1920,1,1,1.0,
+124,Salford,146,Forest Green,1920,2,0,0.0,3.5
+138,Swindon,151,Northampton,1920,2,0,0.0,1.0
+132,Crawley Town,156,Scunthorpe,1920,2,1,0.5,4.0
+122,Grimsby,133,Crewe,1920,1,0,0.0,2.0
+131,Cheltenham,133,Crewe,1920,2,1,0.5,1.5
+132,Crawley Town,142,Bradford,1920,2,0,0.0,3.0
+127,Newport County,138,Swindon,1920,2,0,0.0,2.0
+142,Bradford,156,Scunthorpe,1920,2,2,1.0,3.0
+133,Crewe,156,Scunthorpe,1920,2,1,0.5,4.0
+132,Crawley Town,153,Stevenage,1920,2,1,0.5,1.0
+132,Crawley Town,144,Morecambe,1920,1,1,1.0,2.0
+133,Crewe,138,Swindon,1920,2,0,0.0,4.0
+137,Oldham,153,Stevenage,1920,1,1,1.0,
+146,Forest Green,153,Stevenage,1920,2,2,1.0,
+122,Grimsby,124,Salford,1920,2,0,0.0,1.0
+137,Oldham,138,Swindon,1920,1,0,0.0,2.0
+122,Grimsby,144,Morecambe,1920,2,0,0.0,2.5
+119,Cambridge,143,Port Vale,1920,1,0,0.0,1.0
+150,Leyton Orient,151,Northampton,1920,2,1,0.5,1.5
+122,Grimsby,138,Swindon,1920,2,0,0.0,3.5
+126,Walsall,156,Scunthorpe,1920,2,0,0.0,1.5
+122,Grimsby,126,Walsall,1920,1,0,0.0,4.0
+141,Carlisle,159,Plymouth,1920,2,0,0.0,2.5
+138,Swindon,156,Scunthorpe,1920,2,0,0.0,2.0
+126,Walsall,145,Mansfield,1920,2,1,0.5,2.5
+121,Colchester,155,Exeter,1920,2,2,1.0,2.0
+119,Cambridge,138,Swindon,1920,2,0,0.0,2.5
+126,Walsall,137,Oldham,1920,1,0,0.0,2.0
+121,Colchester,146,Forest Green,1920,1,0,0.0,1.0
+124,Salford,156,Scunthorpe,1920,1,1,1.0,2.0
+145,Mansfield,156,Scunthorpe,1920,2,0,0.0,1.5
+155,Exeter,156,Scunthorpe,1920,1,0,0.0,4.0
+131,Cheltenham,153,Stevenage,1920,1,0,0.0,6.0
+155,Exeter,159,Plymouth,1920,1,0,0.0,4.0
+119,Cambridge,144,Morecambe,1920,2,1,0.5,1.5
+153,Stevenage,155,Exeter,1920,2,0,0.0,2.0
+119,Cambridge,159,Plymouth,1920,2,1,0.5,0.5
+137,Oldham,145,Mansfield,1920,4,1,0.25,3.5
+146,Forest Green,159,Plymouth,1920,1,0,0.0,1.0
+119,Cambridge,121,Colchester,1920,2,0,0.0,3.0
+127,Newport County,156,Scunthorpe,1920,2,0,0.0,3.0
+138,Swindon,159,Plymouth,1920,2,1,0.5,2.5
+141,Carlisle,155,Exeter,1920,1,0,0.0,4.0
+127,Newport County,145,Mansfield,1920,4,2,0.5,2.0
+126,Walsall,153,Stevenage,1920,1,1,1.0,
+124,Salford,138,Swindon,1920,1,0,0.0,5.0
+127,Newport County,143,Port Vale,1920,1,0,0.0,1.0
+145,Mansfield,155,Exeter,1920,3,0,0.0,2.3333333333333335
+121,Colchester,141,Carlisle,1920,2,0,0.0,3.0
+131,Cheltenham,155,Exeter,1920,1,1,1.0,
+127,Newport County,159,Plymouth,1920,2,0,0.0,1.0
+133,Crewe,153,Stevenage,1920,2,0,0.0,5.0
+126,Walsall,138,Swindon,1920,1,0,0.0,3.0
+142,Bradford,143,Port Vale,1920,1,0,0.0,3.0
+131,Cheltenham,137,Oldham,1920,2,1,0.5,2.5
+127,Newport County,155,Exeter,1920,2,1,0.5,1.5
+131,Cheltenham,138,Swindon,1920,1,1,1.0,4.0
+122,Grimsby,146,Forest Green,1920,2,1,0.5,2.5
+124,Salford,137,Oldham,1920,2,1,0.5,3.5
+122,Grimsby,145,Mansfield,1920,4,1,0.25,1.25
+124,Salford,132,Crawley Town,1920,2,1,0.5,1.0
+127,Newport County,133,Crewe,1920,1,0,0.0,1.0
+127,Newport County,131,Cheltenham,1920,1,1,1.0,2.0
+119,Cambridge,153,Stevenage,1920,2,1,0.5,3.0
+121,Colchester,124,Salford,1920,2,0,0.0,2.0
+143,Port Vale,159,Plymouth,1920,1,0,0.0,1.0
+133,Crewe,159,Plymouth,1920,2,0,0.0,3.0
+121,Colchester,151,Northampton,1920,1,0,0.0,1.0
+119,Cambridge,145,Mansfield,1920,4,1,0.25,3.5
+132,Crawley Town,143,Port Vale,1920,1,1,1.0,
+131,Cheltenham,142,Bradford,1920,2,1,0.5,3.5
+143,Port Vale,151,Northampton,1920,2,1,0.5,1.5
+132,Crawley Town,159,Plymouth,1920,2,2,1.0,4.0
+133,Crewe,150,Leyton Orient,1920,2,0,0.0,2.5
+142,Bradford,150,Leyton Orient,1920,1,1,1.0,
+127,Newport County,132,Crawley Town,1920,1,1,1.0,2.0
+126,Walsall,155,Exeter,1920,2,1,0.5,5.0
+122,Grimsby,132,Crawley Town,1920,2,1,0.5,3.5
+153,Stevenage,159,Plymouth,1920,2,0,0.0,3.0
+144,Morecambe,150,Leyton Orient,1920,1,0,0.0,1.0
+141,Carlisle,151,Northampton,1920,1,0,0.0,2.0
+119,Cambridge,156,Scunthorpe,1920,2,0,0.0,3.5
+151,Northampton,153,Stevenage,1920,2,0,0.0,1.0
+150,Leyton Orient,155,Exeter,1920,1,1,1.0,4.0
+144,Morecambe,153,Stevenage,1920,1,0,0.0,1.0
+126,Walsall,127,Newport County,1920,2,2,1.0,
+124,Salford,133,Crewe,1920,2,0,0.0,4.5
+146,Forest Green,150,Leyton Orient,1920,1,0,0.0,6.0
+150,Leyton Orient,153,Stevenage,1920,2,1,0.5,1.5
+131,Cheltenham,150,Leyton Orient,1920,2,0,0.0,2.0
+151,Northampton,156,Scunthorpe,1920,2,0,0.0,3.0
+142,Bradford,145,Mansfield,1920,3,1,0.3333333333333333,2.3333333333333335
+124,Salford,159,Plymouth,1920,2,1,0.5,4.5
+141,Carlisle,144,Morecambe,1920,2,2,1.0,3.0
+151,Northampton,155,Exeter,1920,2,0,0.0,3.5
+121,Colchester,133,Crewe,1920,1,1,1.0,
+131,Cheltenham,151,Northampton,1920,2,1,0.5,2.5
+143,Port Vale,150,Leyton Orient,1920,2,1,0.5,3.5
+127,Newport County,151,Northampton,1920,1,0,0.0,2.0
+121,Colchester,153,Stevenage,1920,2,1,0.5,2.0
+142,Bradford,144,Morecambe,1920,2,0,0.0,2.0
+119,Cambridge,141,Carlisle,1920,2,1,0.5,1.5
+138,Swindon,146,Forest Green,1920,2,1,0.5,3.0
+133,Crewe,141,Carlisle,1920,2,0,0.0,5.5
+124,Salford,143,Port Vale,1920,2,2,1.0,2.0
+132,Crawley Town,138,Swindon,1920,1,0,0.0,4.0
+124,Salford,131,Cheltenham,1920,1,0,0.0,2.0
+119,Cambridge,133,Crewe,1920,1,0,0.0,5.0
+119,Cambridge,127,Newport County,1920,2,1,0.5,0.5
+132,Crawley Town,151,Northampton,1920,2,1,0.5,4.0
+126,Walsall,159,Plymouth,1920,1,0,0.0,3.0
+141,Carlisle,146,Forest Green,1920,2,1,0.5,2.5
+121,Colchester,145,Mansfield,1920,3,1,0.3333333333333333,3.3333333333333335
+143,Port Vale,155,Exeter,1920,2,0,0.0,3.0
+124,Salford,141,Carlisle,1920,1,1,1.0,4.0
+124,Salford,153,Stevenage,1920,2,0,0.0,1.5
+137,Oldham,144,Morecambe,1920,2,0,0.0,3.5
+121,Colchester,138,Swindon,1920,2,0,0.0,3.5
+122,Grimsby,151,Northampton,1920,2,0,0.0,2.5
+143,Port Vale,146,Forest Green,1920,2,0,0.0,4.0
+122,Grimsby,150,Leyton Orient,1920,2,1,0.5,3.0
+119,Cambridge,150,Leyton Orient,1920,2,0,0.0,4.0
+124,Salford,155,Exeter,1920,1,0,0.0,1.0
+124,Salford,145,Mansfield,1920,3,1,0.3333333333333333,1.6666666666666667
+119,Cambridge,131,Cheltenham,1920,1,1,1.0,2.0
+127,Newport County,137,Oldham,1920,2,0,0.0,3.0
+143,Port Vale,144,Morecambe,1920,2,0,0.0,3.5
+133,Crewe,143,Port Vale,1920,1,0,0.0,1.0
+124,Salford,151,Northampton,1920,2,0,0.0,2.5
+146,Forest Green,155,Exeter,1920,2,0,0.0,1.0
+145,Mansfield,146,Forest Green,1920,4,1,0.25,3.75
+133,Crewe,146,Forest Green,1920,1,1,1.0,
+119,Cambridge,122,Grimsby,1920,1,1,1.0,
+126,Walsall,142,Bradford,1920,1,0,0.0,1.0
+132,Crawley Town,137,Oldham,1920,2,0,0.0,3.0
+153,Stevenage,156,Scunthorpe,1920,1,1,1.0,
+141,Carlisle,142,Bradford,1920,2,1,0.5,2.0
+122,Grimsby,143,Port Vale,1920,1,0,0.0,7.0
+122,Grimsby,127,Newport County,1920,1,0,0.0,6.0
+121,Colchester,137,Oldham,1920,1,0,0.0,1.0
+137,Oldham,150,Leyton Orient,1920,2,2,1.0,3.0
+144,Morecambe,146,Forest Green,1920,1,0,0.0,2.0
+126,Walsall,144,Morecambe,1920,2,0,0.0,1.5
+132,Crawley Town,145,Mansfield,1920,2,1,0.5,1.5
+138,Swindon,141,Carlisle,1920,2,1,0.5,3.5
+138,Swindon,144,Morecambe,1920,1,0,0.0,4.0
+137,Oldham,156,Scunthorpe,1920,2,1,0.5,3.0
+127,Newport County,153,Stevenage,1920,1,1,1.0,2.0
+137,Oldham,151,Northampton,1920,1,1,1.0,4.0
+137,Oldham,142,Bradford,1920,2,0,0.0,3.0
+122,Grimsby,137,Oldham,1920,1,1,1.0,4.0
+121,Colchester,159,Plymouth,1920,2,0,0.0,2.0
+132,Crawley Town,155,Exeter,1920,2,1,0.5,1.5
+141,Carlisle,156,Scunthorpe,1920,1,0,0.0,1.0
+137,Oldham,146,Forest Green,1920,2,1,0.5,1.5

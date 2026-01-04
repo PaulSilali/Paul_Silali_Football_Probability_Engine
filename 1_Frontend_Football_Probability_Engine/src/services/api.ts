@@ -111,10 +111,14 @@ class ApiClient {
     return this.request(`/jackpots/${id}`);
   }
 
-  async createJackpot(fixtures: Fixture[]): Promise<ApiResponse<Jackpot>> {
+  async createJackpot(fixtures: Fixture[], jackpotId?: string): Promise<ApiResponse<Jackpot>> {
+    const body: any = { fixtures };
+    if (jackpotId) {
+      body.jackpot_id = jackpotId;
+    }
     return this.request('/jackpots', {
       method: 'POST',
-      body: JSON.stringify({ fixtures }),
+      body: JSON.stringify(body),
     });
   }
 
@@ -212,6 +216,19 @@ class ApiClient {
       });
       throw error;
     }
+  }
+
+  async getImportedJackpots(): Promise<ApiResponse<{
+    jackpots: Array<{
+      id: string;
+      jackpotId: string;
+      date: string | null;
+      matches: number;
+      status: 'validated' | 'imported' | 'pending';
+      correctPredictions?: number;
+    }>;
+  }>> {
+    return this.request('/probabilities/imported-jackpots');
   }
 
   async getSavedResults(jackpotId: string): Promise<ApiResponse<any>> {
@@ -373,6 +390,14 @@ class ApiClient {
       body: JSON.stringify({ source, leagues, season }),
       signal,
     });
+  }
+
+  async getLeagueStats(): Promise<ApiResponse<Record<string, {
+    name: string;
+    recordCount: number;
+    lastUpdated: string | null;
+  }>>> {
+    return this.request('/data/league-stats');
   }
 
   async getBatchHistory(limit: number = 50): Promise<ApiResponse<{
@@ -576,6 +601,39 @@ class ApiClient {
     });
   }
 
+  async saveTickets(
+    jackpotId: string,
+    name: string,
+    description: string | undefined,
+    tickets: Array<{
+      id: string;
+      setKey: string;
+      picks: string[];
+      probability?: number;
+      combinedOdds?: number;
+    }>
+  ): Promise<ApiResponse<{
+    id: number;
+    name: string;
+    description: string | null;
+    jackpotId: string;
+    tickets: Array<any>;
+    modelVersion: string | null;
+    totalFixtures: number;
+    createdAt: string;
+    updatedAt: string;
+  }>> {
+    return this.request('/tickets/save', {
+      method: 'POST',
+      body: JSON.stringify({
+        jackpot_id: jackpotId,
+        name,
+        description,
+        tickets
+      }),
+    });
+  }
+
   async getDrawDiagnostics(
     league: string,
     season?: string
@@ -589,6 +647,567 @@ class ApiClient {
     const params = new URLSearchParams({ league });
     if (season) params.append('season', season);
     return this.request(`/tickets/draw-diagnostics?${params.toString()}`);
+  }
+
+  // Model Health endpoints
+  async getModelHealth(): Promise<ApiResponse<{
+    status: string;
+    lastChecked: string;
+    lastValidationDate: string | null;
+    metrics: {
+      brierScore: number | null;
+      logLoss: number | null;
+      accuracy: number | null;
+    };
+    alerts: string[];
+    driftIndicators: Array<{
+      league: string;
+      driftScore: number;
+      signal: 'normal' | 'elevated' | 'high';
+      accuracy: number;
+      matches: number;
+    }>;
+    oddsDistribution: Array<{
+      bucket: string;
+      divergence: number;
+    }>;
+    leagueDrift: Array<{
+      league: string;
+      driftScore: number;
+      signal: 'normal' | 'elevated' | 'high';
+      accuracy: number;
+      matches: number;
+    }>;
+  }>> {
+    return this.request('/model/health');
+  }
+
+  // Feature Store endpoints
+  async getFeatureStoreStats(): Promise<ApiResponse<{
+    stats: {
+      status: string;
+      total_features: number;
+      team_features: number;
+      match_features: number;
+      memory_usage_mb: number;
+    };
+  }>> {
+    return this.request('/feature-store/stats');
+  }
+
+  async getTeamFeatures(teamId?: number): Promise<ApiResponse<{
+    teams: Array<{
+      team_id: number;
+      team_name: string;
+      league: string;
+      features: {
+        attack?: number;
+        defense?: number;
+        [key: string]: any;
+      };
+      updated_at: string | null;
+      data_quality: string;
+    }>;
+    total: number;
+  }>> {
+    const query = teamId ? `?team_id=${teamId}` : '';
+    return this.request(`/feature-store/teams${query}`);
+  }
+
+  // Draw Ingestion endpoints
+  async ingestLeagueDrawPriors(leagueCode: string, season?: string, csvPath?: string): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/league-priors', {
+      method: 'POST',
+      body: JSON.stringify({ league_code: leagueCode, season: season || 'ALL', csv_path: csvPath }),
+    });
+  }
+
+  async batchIngestLeagueDrawPriors(
+    options: {
+      leagueCodes?: string[];
+      season?: string;
+      useAllLeagues?: boolean;
+      useAllSeasons?: boolean;
+      maxYears?: number;
+    }
+  ): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/league-priors/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears,
+      }),
+    });
+  }
+
+  async getLeaguePriorsSummary(): Promise<ApiResponse<{
+    total_priors: number;
+    leagues_with_priors: number;
+    total_leagues: number;
+    unique_seasons: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/league-priors/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getH2HStatsSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_stats: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/h2h-stats/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getEloRatingsSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_elo: number;
+    total_leagues: number;
+    unique_dates: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/elo-ratings/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getWeatherSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_weather: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/weather/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getRefereeSummary(): Promise<ApiResponse<{
+    total_records: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/referee/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getRestDaysSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_rest_days: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/rest-days/summary', {
+      method: 'GET',
+    });
+  }
+
+  async getOddsMovementSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_odds: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{
+      code: string;
+      name: string;
+      count: number;
+    }>;
+  }>> {
+    return this.request('/draw-ingestion/odds-movement/summary', {
+      method: 'GET',
+    });
+  }
+
+  async ingestH2HStats(homeTeamId: number, awayTeamId: number, useApi: boolean = false): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/h2h', {
+      method: 'POST',
+      body: JSON.stringify({ home_team_id: homeTeamId, away_team_id: awayTeamId, use_api: useApi }),
+    });
+  }
+
+  async batchIngestH2HStats(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/h2h/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async ingestEloRatings(teamId?: number, csvPath?: string, calculateFromMatches: boolean = false): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/elo', {
+      method: 'POST',
+      body: JSON.stringify({ team_id: teamId, csv_path: csvPath, calculate_from_matches: calculateFromMatches }),
+    });
+  }
+
+  async ingestWeather(fixtureId: number, latitude: number, longitude: number, matchDatetime: string): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/weather', {
+      method: 'POST',
+      body: JSON.stringify({ fixture_id: fixtureId, latitude, longitude, match_datetime: matchDatetime }),
+    });
+  }
+
+  async ingestRefereeStats(refereeId: number, refereeName?: string): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/referee', {
+      method: 'POST',
+      body: JSON.stringify({ referee_id: refereeId, referee_name: refereeName }),
+    });
+  }
+
+  async ingestRestDays(fixtureId: number, homeTeamId?: number, awayTeamId?: number): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/rest-days', {
+      method: 'POST',
+      body: JSON.stringify({ fixture_id: fixtureId, home_team_id: homeTeamId, away_team_id: awayTeamId }),
+    });
+  }
+
+  async ingestOddsMovement(fixtureId: number, drawOdds?: number): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/odds-movement', {
+      method: 'POST',
+      body: JSON.stringify({ fixture_id: fixtureId, draw_odds: drawOdds }),
+    });
+  }
+
+  async batchIngestEloRatings(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/elo/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async batchIngestRefereeStats(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/referee/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async batchIngestRestDays(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/rest-days/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async batchIngestOddsMovement(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/odds-movement/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async ingestLeagueStructure(
+    leagueCode: string,
+    season: string,
+    options?: {
+      totalTeams?: number;
+      relegationZones?: number;
+      promotionZones?: number;
+      playoffZones?: number;
+      saveCsv?: boolean;
+    }
+  ): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/league-structure', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_code: leagueCode,
+        season: season,
+        total_teams: options?.totalTeams,
+        relegation_zones: options?.relegationZones,
+        promotion_zones: options?.promotionZones,
+        playoff_zones: options?.playoffZones,
+        save_csv: options?.saveCsv !== false,
+      }),
+    });
+  }
+
+  async batchIngestLeagueStructure(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/league-structure/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async getLeagueStructureSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_structure: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  }>> {
+    return this.request('/draw-ingestion/league-structure/summary');
+  }
+
+  async batchIngestWeather(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/weather/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async ingestXGData(fixtureId?: number, matchId?: number, xgHome: number, xgAway: number): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/xg-data', {
+      method: 'POST',
+      body: JSON.stringify({
+        fixture_id: fixtureId,
+        match_id: matchId,
+        xg_home: xgHome,
+        xg_away: xgAway,
+      }),
+    });
+  }
+
+  async batchIngestXGData(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/xg-data/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || 'ALL',
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+      }),
+    });
+  }
+
+  async getXGDataSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_xg: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  }>> {
+    return this.request('/draw-ingestion/xg-data/summary');
+  }
+
+  // Draw Diagnostics endpoints
+  async getDrawDiagnostics(modelId?: number): Promise<ApiResponse<{
+    brier_score: number | null;
+    reliability_curve: Array<{
+      predicted_prob: number;
+      observed_frequency: number;
+      sample_count: number;
+      bin_low: number;
+      bin_high: number;
+    }>;
+    sample_count: number;
+    mean_predicted: number;
+    mean_actual: number;
+    calibration_error: number;
+  }>> {
+    const query = modelId ? `?model_id=${modelId}` : '';
+    return this.request(`/draw/diagnostics${query}`);
+  }
+
+  async getDrawComponents(fixtureId: number): Promise<ApiResponse<{
+    league_prior: number;
+    elo_symmetry: number;
+    h2h: number;
+    weather: number;
+    fatigue: number;
+    referee: number;
+    odds_drift: number;
+    total_multiplier: number;
+  }>> {
+    return this.request(`/draw/components/${fixtureId}`);
+  }
+
+  async getDrawStats(): Promise<ApiResponse<{
+    avg_multiplier: number | null;
+    total_predictions: number;
+    with_components: number;
+    distribution: Array<{ category: string; count: number }>;
+  }>> {
+    return this.request('/draw/stats');
+  }
+
+  async trainDrawCalibrator(modelId?: number): Promise<ApiResponse<{
+    is_fitted: boolean;
+    message: string;
+  }>> {
+    const query = modelId ? `?model_id=${modelId}` : '';
+    return this.request(`/draw/calibrate${query}`, { method: 'POST' });
+  }
+
+  // Dashboard endpoints
+  async getDashboardSummary(): Promise<ApiResponse<{
+    systemHealth: {
+      modelVersion: string;
+      modelStatus: string;
+      lastRetrain: string | null;
+      calibrationScore: number;
+      logLoss: number;
+      totalMatches: number;
+      avgWeeklyAccuracy: number;
+      drawAccuracy: number;
+      leagueCount: number;
+      seasonCount: number;
+    };
+    dataFreshness: Array<{
+      source: string;
+      lastUpdated: string | null;
+      status: string;
+      recordCount: number;
+    }>;
+    calibrationTrend: Array<{
+      week: string;
+      brier: number;
+    }>;
+    outcomeDistribution: Array<{
+      name: string;
+      predicted: number;
+      actual: number;
+    }>;
+    leaguePerformance: Array<{
+      league: string;
+      accuracy: number;
+      matches: number;
+      status: string;
+    }>;
+  }>> {
+    return this.request('/dashboard/summary');
   }
 }
 

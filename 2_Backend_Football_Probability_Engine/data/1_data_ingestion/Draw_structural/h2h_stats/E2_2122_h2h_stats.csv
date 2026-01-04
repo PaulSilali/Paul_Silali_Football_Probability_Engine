@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+75,Plymouth,92,Shrewsbury,2122,2,0,0.0,2.0
+74,Lincoln,101,Fleetwood Town,2122,2,1,0.5,2.5
+77,Wigan,96,Oxford,2122,2,1,0.5,3.5
+96,Oxford,106,Morecambe,2122,2,0,0.0,3.5
+94,Charlton,96,Oxford,2122,2,0,0.0,3.5
+82,AFC Wimbledon,109,Sunderland,2122,2,1,0.5,1.5
+102,Accrington,105,Ipswich,2122,2,0,0.0,3.0
+101,Fleetwood Town,108,Crewe,2122,2,0,0.0,3.5
+77,Wigan,101,Fleetwood Town,2122,2,0,0.0,3.5
+94,Charlton,107,Sheffield Weds,2122,2,1,0.5,1.0
+92,Shrewsbury,101,Fleetwood Town,2122,2,1,0.5,2.5
+74,Lincoln,82,AFC Wimbledon,2122,2,0,0.0,1.5
+89,Birmingham,92,Shrewsbury,2122,2,1,0.5,1.5
+76,Rotherham,102,Accrington,2122,2,0,0.0,1.0
+89,Birmingham,108,Crewe,2122,2,0,0.0,1.5
+67,Luton,99,Portsmouth,2122,4,1,0.25,2.25
+72,Doncaster,82,AFC Wimbledon,2122,2,1,0.5,3.5
+75,Plymouth,89,Birmingham,2122,2,0,0.0,1.5
+76,Rotherham,108,Crewe,2122,2,1,0.5,2.0
+88,Wycombe,99,Portsmouth,2122,2,1,0.5,0.5
+72,Doncaster,88,Wycombe,2122,2,0,0.0,2.0
+82,AFC Wimbledon,96,Oxford,2122,2,0,0.0,3.5
+77,Wigan,105,Ipswich,2122,2,2,1.0,3.0
+75,Plymouth,107,Sheffield Weds,2122,2,0,0.0,4.5
+67,Luton,74,Lincoln,2122,4,0,0.0,2.75
+94,Charlton,100,Cheltenham,2122,2,1,0.5,2.5
+75,Plymouth,109,Sunderland,2122,2,1,0.5,1.5
+75,Plymouth,88,Wycombe,2122,2,0,0.0,2.5
+88,Wycombe,104,Milton Keynes Dons,2122,2,0,0.0,1.0
+88,Wycombe,100,Cheltenham,2122,2,1,0.5,7.0
+92,Shrewsbury,96,Oxford,2122,2,0,0.0,2.5
+89,Birmingham,96,Oxford,2122,2,1,0.5,5.5
+94,Charlton,102,Accrington,2122,2,0,0.0,4.0
+76,Rotherham,94,Charlton,2122,2,1,0.5,1.5
+100,Cheltenham,102,Accrington,2122,2,1,0.5,4.5
+67,Luton,106,Morecambe,2122,4,2,0.5,3.0
+104,Milton Keynes Dons,108,Crewe,2122,2,0,0.0,4.0
+101,Fleetwood Town,102,Accrington,2122,2,0,0.0,4.5
+74,Lincoln,88,Wycombe,2122,2,1,0.5,1.5
+77,Wigan,107,Sheffield Weds,2122,2,0,0.0,2.0
+82,AFC Wimbledon,100,Cheltenham,2122,2,1,0.5,4.0
+67,Luton,75,Plymouth,2122,4,1,0.25,1.75
+75,Plymouth,93,Cambridge,2122,2,1,0.5,2.0
+89,Birmingham,94,Charlton,2122,2,1,0.5,1.5
+96,Oxford,100,Cheltenham,2122,2,1,0.5,1.5
+74,Lincoln,94,Charlton,2122,2,0,0.0,3.0
+77,Wigan,88,Wycombe,2122,2,1,0.5,3.0
+88,Wycombe,106,Morecambe,2122,2,0,0.0,6.0
+107,Sheffield Weds,109,Sunderland,2122,2,0,0.0,4.0
+74,Lincoln,77,Wigan,2122,2,0,0.0,3.5
+76,Rotherham,107,Sheffield Weds,2122,2,0,0.0,2.0
+96,Oxford,102,Accrington,2122,2,0,0.0,4.0
+82,AFC Wimbledon,106,Morecambe,2122,2,1,0.5,3.5
+99,Portsmouth,107,Sheffield Weds,2122,2,1,0.5,2.5
+67,Luton,72,Doncaster,2122,4,0,0.0,2.5
+99,Portsmouth,100,Cheltenham,2122,2,1,0.5,1.5
+72,Doncaster,100,Cheltenham,2122,2,0,0.0,4.5
+88,Wycombe,105,Ipswich,2122,2,0,0.0,3.0
+72,Doncaster,96,Oxford,2122,2,1,0.5,2.5
+67,Luton,104,Milton Keynes Dons,2122,4,1,0.25,2.5
+96,Oxford,108,Crewe,2122,2,0,0.0,1.0
+72,Doncaster,99,Portsmouth,2122,2,1,0.5,2.0
+105,Ipswich,108,Crewe,2122,2,1,0.5,2.5
+72,Doncaster,107,Sheffield Weds,2122,2,0,0.0,3.0
+72,Doncaster,89,Birmingham,2122,2,0,0.0,1.0
+67,Luton,82,AFC Wimbledon,2122,4,3,0.75,3.5
+94,Charlton,106,Morecambe,2122,2,1,0.5,4.5
+72,Doncaster,76,Rotherham,2122,2,0,0.0,3.5
+72,Doncaster,105,Ipswich,2122,2,0,0.0,3.5
+99,Portsmouth,104,Milton Keynes Dons,2122,2,0,0.0,2.0
+82,AFC Wimbledon,108,Crewe,2122,2,0,0.0,4.5
+88,Wycombe,93,Cambridge,2122,2,0,0.0,4.0
+105,Ipswich,109,Sunderland,2122,2,1,0.5,2.0
+67,Luton,67,Luton,2122,2,1,0.5,2.0
+92,Shrewsbury,104,Milton Keynes Dons,2122,2,0,0.0,1.5
+67,Luton,107,Sheffield Weds,2122,4,1,0.25,3.0
+74,Lincoln,102,Accrington,2122,2,0,0.0,2.0
+67,Luton,109,Sunderland,2122,4,1,0.25,2.5
+106,Morecambe,109,Sunderland,2122,2,0,0.0,3.0
+74,Lincoln,108,Crewe,2122,2,0,0.0,2.5
+92,Shrewsbury,100,Cheltenham,2122,2,0,0.0,3.5
+76,Rotherham,89,Birmingham,2122,2,0,0.0,4.0
+92,Shrewsbury,94,Charlton,2122,2,0,0.0,1.5
+93,Cambridge,94,Charlton,2122,2,0,0.0,2.0
+77,Wigan,99,Portsmouth,2122,2,0,0.0,3.0
+102,Accrington,104,Milton Keynes Dons,2122,2,1,0.5,2.0
+92,Shrewsbury,93,Cambridge,2122,2,1,0.5,2.5
+92,Shrewsbury,106,Morecambe,2122,2,0,0.0,3.5
+99,Portsmouth,105,Ipswich,2122,2,1,0.5,2.0
+93,Cambridge,99,Portsmouth,2122,2,1,0.5,1.5
+93,Cambridge,105,Ipswich,2122,2,1,0.5,2.5
+89,Birmingham,99,Portsmouth,2122,2,0,0.0,2.5
+74,Lincoln,107,Sheffield Weds,2122,2,1,0.5,3.0
+77,Wigan,92,Shrewsbury,2122,2,0,0.0,3.0
+101,Fleetwood Town,105,Ipswich,2122,2,0,0.0,2.5
+77,Wigan,82,AFC Wimbledon,2122,2,0,0.0,1.5
+92,Shrewsbury,99,Portsmouth,2122,2,0,0.0,2.0
+88,Wycombe,92,Shrewsbury,2122,2,1,0.5,1.5
+76,Rotherham,88,Wycombe,2122,2,2,1.0,
+93,Cambridge,102,Accrington,2122,2,0,0.0,2.5
+72,Doncaster,101,Fleetwood Town,2122,2,1,0.5,0.5
+82,AFC Wimbledon,89,Birmingham,2122,2,2,1.0,1.0
+89,Birmingham,104,Milton Keynes Dons,2122,2,1,0.5,2.5
+72,Doncaster,74,Lincoln,2122,2,1,0.5,0.5
+74,Lincoln,92,Shrewsbury,2122,2,1,0.5,1.5
+77,Wigan,89,Birmingham,2122,2,0,0.0,3.5
+72,Doncaster,106,Morecambe,2122,2,0,0.0,4.0
+75,Plymouth,101,Fleetwood Town,2122,2,2,1.0,4.0
+74,Lincoln,106,Morecambe,2122,2,0,0.0,2.5
+76,Rotherham,92,Shrewsbury,2122,2,1,0.5,1.5
+74,Lincoln,96,Oxford,2122,2,0,0.0,3.0
+67,Luton,88,Wycombe,2122,4,0,0.0,2.25
+72,Doncaster,77,Wigan,2122,2,0,0.0,3.0
+74,Lincoln,76,Rotherham,2122,2,1,0.5,2.5
+67,Luton,100,Cheltenham,2122,4,3,0.75,2.75
+82,AFC Wimbledon,94,Charlton,2122,2,1,0.5,3.5
+77,Wigan,100,Cheltenham,2122,2,1,0.5,1.0
+105,Ipswich,107,Sheffield Weds,2122,2,1,0.5,1.5
+93,Cambridge,107,Sheffield Weds,2122,2,1,0.5,4.0
+67,Luton,102,Accrington,2122,4,1,0.25,2.25
+67,Luton,76,Rotherham,2122,4,0,0.0,2.75
+92,Shrewsbury,107,Sheffield Weds,2122,2,1,0.5,1.5
+96,Oxford,105,Ipswich,2122,2,2,1.0,1.0
+74,Lincoln,105,Ipswich,2122,2,0,0.0,1.5
+77,Wigan,108,Crewe,2122,2,0,0.0,2.0
+102,Accrington,107,Sheffield Weds,2122,2,1,0.5,3.5
+75,Plymouth,82,AFC Wimbledon,2122,2,0,0.0,1.5
+75,Plymouth,102,Accrington,2122,2,0,0.0,4.5
+104,Milton Keynes Dons,107,Sheffield Weds,2122,2,0,0.0,4.0
+76,Rotherham,106,Morecambe,2122,2,0,0.0,1.5
+88,Wycombe,107,Sheffield Weds,2122,2,1,0.5,2.5
+96,Oxford,109,Sunderland,2122,2,1,0.5,2.5
+89,Birmingham,106,Morecambe,2122,2,1,0.5,2.5
+67,Luton,101,Fleetwood Town,2122,4,0,0.0,3.75
+89,Birmingham,102,Accrington,2122,2,1,0.5,1.5
+93,Cambridge,101,Fleetwood Town,2122,2,2,1.0,3.0
+89,Birmingham,100,Cheltenham,2122,2,1,0.5,3.0
+94,Charlton,109,Sunderland,2122,2,1,0.5,0.5
+102,Accrington,106,Morecambe,2122,2,2,1.0,5.0
+76,Rotherham,100,Cheltenham,2122,2,0,0.0,1.5
+76,Rotherham,105,Ipswich,2122,2,0,0.0,1.5
+101,Fleetwood Town,109,Sunderland,2122,2,1,0.5,4.0
+100,Cheltenham,101,Fleetwood Town,2122,2,0,0.0,3.5
+82,AFC Wimbledon,93,Cambridge,2122,2,0,0.0,1.0
+89,Birmingham,109,Sunderland,2122,2,0,0.0,2.0
+77,Wigan,94,Charlton,2122,2,0,0.0,2.5
+76,Rotherham,77,Wigan,2122,2,1,0.5,1.5
+93,Cambridge,108,Crewe,2122,2,1,0.5,2.5
+75,Plymouth,76,Rotherham,2122,2,0,0.0,1.5
+100,Cheltenham,106,Morecambe,2122,2,0,0.0,4.0
+96,Oxford,104,Milton Keynes Dons,2122,2,0,0.0,2.0
+88,Wycombe,89,Birmingham,2122,2,1,0.5,2.0
+74,Lincoln,93,Cambridge,2122,2,0,0.0,3.5
+75,Plymouth,108,Crewe,2122,2,1,0.5,3.5
+93,Cambridge,104,Milton Keynes Dons,2122,2,0,0.0,3.0
+89,Birmingham,93,Cambridge,2122,2,0,0.0,1.5
+96,Oxford,101,Fleetwood Town,2122,2,0,0.0,4.5
+93,Cambridge,100,Cheltenham,2122,2,1,0.5,4.5
+100,Cheltenham,107,Sheffield Weds,2122,2,1,0.5,4.5
+75,Plymouth,105,Ipswich,2122,2,0,0.0,2.0
+106,Morecambe,107,Sheffield Weds,2122,2,0,0.0,1.5
+101,Fleetwood Town,106,Morecambe,2122,2,1,0.5,1.5
+77,Wigan,102,Accrington,2122,2,0,0.0,4.0
+99,Portsmouth,109,Sunderland,2122,2,0,0.0,2.5
+74,Lincoln,89,Birmingham,2122,2,1,0.5,2.0
+75,Plymouth,100,Cheltenham,2122,2,0,0.0,2.0
+100,Cheltenham,109,Sunderland,2122,2,0,0.0,4.0
+94,Charlton,101,Fleetwood Town,2122,2,0,0.0,2.5
+92,Shrewsbury,105,Ipswich,2122,2,1,0.5,2.5
+76,Rotherham,96,Oxford,2122,2,1,0.5,1.5
+76,Rotherham,104,Milton Keynes Dons,2122,2,0,0.0,3.0
+100,Cheltenham,108,Crewe,2122,2,1,0.5,2.5
+104,Milton Keynes Dons,106,Morecambe,2122,2,0,0.0,3.0
+104,Milton Keynes Dons,109,Sunderland,2122,2,0,0.0,3.0
+89,Birmingham,101,Fleetwood Town,2122,2,1,0.5,1.5
+67,Luton,92,Shrewsbury,2122,4,0,0.0,1.75
+75,Plymouth,99,Portsmouth,2122,2,1,0.5,2.5
+89,Birmingham,105,Ipswich,2122,2,0,0.0,2.5
+76,Rotherham,109,Sunderland,2122,2,1,0.5,4.0
+82,AFC Wimbledon,88,Wycombe,2122,2,2,1.0,3.0
+82,AFC Wimbledon,102,Accrington,2122,2,0,0.0,4.5
+74,Lincoln,104,Milton Keynes Dons,2122,2,0,0.0,4.0
+99,Portsmouth,102,Accrington,2122,2,1,0.5,4.0
+74,Lincoln,75,Plymouth,2122,2,1,0.5,3.5
+82,AFC Wimbledon,99,Portsmouth,2122,2,1,0.5,1.5
+77,Wigan,109,Sunderland,2122,2,0,0.0,3.0
+102,Accrington,109,Sunderland,2122,2,1,0.5,2.5
+107,Sheffield Weds,108,Crewe,2122,2,0,0.0,1.5
+94,Charlton,105,Ipswich,2122,2,0,0.0,3.0
+77,Wigan,106,Morecambe,2122,2,0,0.0,4.0
+88,Wycombe,109,Sunderland,2122,2,1,0.5,5.0
+75,Plymouth,77,Wigan,2122,2,1,0.5,2.5
+92,Shrewsbury,108,Crewe,2122,2,2,1.0,1.0
+104,Milton Keynes Dons,105,Ipswich,2122,2,2,1.0,2.0
+67,Luton,93,Cambridge,2122,4,1,0.25,2.5
+72,Doncaster,102,Accrington,2122,2,0,0.0,1.5
+88,Wycombe,101,Fleetwood Town,2122,2,1,0.5,3.5
+82,AFC Wimbledon,104,Milton Keynes Dons,2122,2,1,0.5,1.5
+82,AFC Wimbledon,101,Fleetwood Town,2122,2,2,1.0,3.0
+93,Cambridge,109,Sunderland,2122,2,0,0.0,4.5
+101,Fleetwood Town,107,Sheffield Weds,2122,2,0,0.0,3.0
+76,Rotherham,101,Fleetwood Town,2122,2,0,0.0,3.5
+67,Luton,108,Crewe,2122,4,0,0.0,2.5
+75,Plymouth,104,Milton Keynes Dons,2122,2,1,0.5,3.5
+96,Oxford,107,Sheffield Weds,2122,2,0,0.0,4.0
+93,Cambridge,96,Oxford,2122,2,1,0.5,4.0
+74,Lincoln,99,Portsmouth,2122,2,0,0.0,4.0
+75,Plymouth,96,Oxford,2122,2,0,0.0,2.5
+77,Wigan,104,Milton Keynes Dons,2122,2,1,0.5,2.5
+67,Luton,105,Ipswich,2122,4,0,0.0,3.75
+88,Wycombe,94,Charlton,2122,2,0,0.0,2.0
+92,Shrewsbury,109,Sunderland,2122,2,1,0.5,3.5
+72,Doncaster,104,Milton Keynes Dons,2122,2,0,0.0,2.0
+99,Portsmouth,108,Crewe,2122,2,0,0.0,3.0
+99,Portsmouth,106,Morecambe,2122,2,1,0.5,2.0
+77,Wigan,93,Cambridge,2122,2,1,0.5,3.5
+74,Lincoln,100,Cheltenham,2122,2,1,0.5,3.5
+100,Cheltenham,104,Milton Keynes Dons,2122,2,1,0.5,3.0
+94,Charlton,104,Milton Keynes Dons,2122,2,0,0.0,2.5
+105,Ipswich,106,Morecambe,2122,2,2,1.0,3.0
+92,Shrewsbury,102,Accrington,2122,2,1,0.5,0.5
+74,Lincoln,109,Sunderland,2122,2,1,0.5,2.0
+76,Rotherham,99,Portsmouth,2122,2,0,0.0,4.0
+102,Accrington,108,Crewe,2122,2,0,0.0,3.0
+72,Doncaster,109,Sunderland,2122,2,0,0.0,3.0
+72,Doncaster,93,Cambridge,2122,2,1,0.5,3.0
+106,Morecambe,108,Crewe,2122,2,0,0.0,3.5
+67,Luton,89,Birmingham,2122,4,2,0.5,3.25
+76,Rotherham,82,AFC Wimbledon,2122,2,0,0.0,2.0
+93,Cambridge,106,Morecambe,2122,2,0,0.0,2.5
+94,Charlton,99,Portsmouth,2122,2,1,0.5,3.5
+82,AFC Wimbledon,105,Ipswich,2122,2,1,0.5,3.0
+94,Charlton,108,Crewe,2122,2,0,0.0,2.5
+89,Birmingham,107,Sheffield Weds,2122,2,2,1.0,1.0
+82,AFC Wimbledon,107,Sheffield Weds,2122,2,1,0.5,3.5
+101,Fleetwood Town,104,Milton Keynes Dons,2122,2,2,1.0,4.0
+72,Doncaster,75,Plymouth,2122,2,0,0.0,3.5
+108,Crewe,109,Sunderland,2122,2,0,0.0,3.0
+67,Luton,94,Charlton,2122,4,0,0.0,2.75
+72,Doncaster,94,Charlton,2122,2,0,0.0,2.5
+75,Plymouth,94,Charlton,2122,2,0,0.0,1.5
+67,Luton,77,Wigan,2122,4,2,0.5,2.0
+72,Doncaster,92,Shrewsbury,2122,2,1,0.5,3.5
+75,Plymouth,106,Morecambe,2122,2,1,0.5,2.0
+96,Oxford,99,Portsmouth,2122,2,0,0.0,5.0
+100,Cheltenham,105,Ipswich,2122,2,1,0.5,1.5
+88,Wycombe,108,Crewe,2122,2,0,0.0,3.5
+76,Rotherham,93,Cambridge,2122,2,0,0.0,2.5
+88,Wycombe,96,Oxford,2122,2,1,0.5,1.0
+82,AFC Wimbledon,92,Shrewsbury,2122,2,1,0.5,2.5
+88,Wycombe,102,Accrington,2122,2,0,0.0,4.0
+67,Luton,96,Oxford,2122,4,0,0.0,4.25
+99,Portsmouth,101,Fleetwood Town,2122,2,1,0.5,3.5
+72,Doncaster,108,Crewe,2122,2,1,0.5,2.0

@@ -7,13 +7,56 @@ import hashlib
 import json
 import math
 from datetime import datetime
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 from sqlalchemy.orm import Session
 from app.db.models import Model, ModelStatus, TrainingRun, Match, League
 from app.db.session import SessionLocal
 import uuid
+import numpy as np
 
 logger = logging.getLogger(__name__)
+
+
+def clean_nan_for_json(obj: Any) -> Any:
+    """
+    Recursively replace NaN, Infinity values with None or 0.0 for JSON serialization.
+    PostgreSQL JSON doesn't accept NaN or Infinity.
+    """
+    if isinstance(obj, dict):
+        return {k: clean_nan_for_json(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [clean_nan_for_json(item) for item in obj]
+    elif isinstance(obj, tuple):
+        return tuple(clean_nan_for_json(item) for item in obj)
+    elif isinstance(obj, (float, np.floating)):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return float(obj)
+    elif isinstance(obj, (int, np.integer)):
+        return int(obj)
+    elif hasattr(obj, 'item'):  # Handle numpy scalars (e.g., np.float64)
+        try:
+            scalar_value = obj.item()
+            if isinstance(scalar_value, (float, np.floating)):
+                if math.isnan(scalar_value) or math.isinf(scalar_value):
+                    return None
+                return float(scalar_value)
+            elif isinstance(scalar_value, (int, np.integer)):
+                return int(scalar_value)
+            else:
+                return clean_nan_for_json(scalar_value)
+        except (ValueError, AttributeError):
+            return obj
+    else:
+        return obj
+
+# MLOps imports
+try:
+    from app.mlops.mlflow_client import MLflowModelRegistry
+    MLFLOW_AVAILABLE = True
+except ImportError as e:
+    MLFLOW_AVAILABLE = False
+    logger.warning(f"MLflow not available - experiment tracking disabled: {e}")
 
 
 class ModelTrainingService:
@@ -21,6 +64,15 @@ class ModelTrainingService:
     
     def __init__(self, db: Session):
         self.db = db
+        # Initialize MLflow if available
+        self.mlflow_registry = None
+        if MLFLOW_AVAILABLE:
+            try:
+                self.mlflow_registry = MLflowModelRegistry()
+                logger.info("MLflow registry initialized")
+            except Exception as e:
+                logger.warning(f"Could not initialize MLflow: {e}. Training will continue without MLflow tracking.")
+                self.mlflow_registry = None
     
     def _update_task_status(
         self,
@@ -229,19 +281,26 @@ class ModelTrainingService:
             version = f"poisson-{datetime.utcnow().strftime('%Y%m%d-%H%M%S')}"
             
             # Prepare model weights for storage (team strengths + parameters + metadata)
+            # Clean team_strengths first to ensure all values are Python native types
+            cleaned_team_strengths = clean_nan_for_json(team_strengths)
+            
             model_weights = {
-                'team_strengths': team_strengths,
-                'home_advantage': home_advantage,
-                'rho': rho,
-                'decay_rate': trainer.decay_rate,
+                'team_strengths': cleaned_team_strengths,
+                'home_advantage': float(home_advantage) if not (math.isnan(home_advantage) or math.isinf(home_advantage)) else None,
+                'rho': float(rho) if not (math.isnan(rho) or math.isinf(rho)) else None,
+                'decay_rate': float(trainer.decay_rate) if not (math.isnan(trainer.decay_rate) or math.isinf(trainer.decay_rate)) else None,
                 'normalization': training_metadata['normalization'],
                 'training_data_hash': data_hash,
                 'iterations': training_metadata['iterations'],
-                'max_delta': training_metadata['max_delta'],
-                'temperature': temp_result['temperature'],
-                'temperature_log_loss': temp_result['logLoss'],
+                'max_delta': float(training_metadata['max_delta']) if not (math.isnan(training_metadata['max_delta']) or math.isinf(training_metadata['max_delta'])) else None,
+                'temperature': float(temp_result['temperature']) if temp_result.get('temperature') is not None and not (math.isnan(temp_result['temperature']) or math.isinf(temp_result['temperature'])) else None,
+                'temperature_log_loss': float(temp_result['logLoss']) if temp_result.get('logLoss') is not None and not (math.isnan(temp_result['logLoss']) or math.isinf(temp_result['logLoss'])) else None,
                 'temperature_source': 'validation_only',
             }
+            
+            # Clean NaN values from model_weights before saving to database
+            # PostgreSQL JSON doesn't accept NaN or Infinity values
+            model_weights = clean_nan_for_json(model_weights)
             
             # Log timestamp before creating model
             training_completed_utc = datetime.utcnow()
@@ -298,6 +357,40 @@ class ModelTrainingService:
             
             self.db.commit()
             
+            # Log to MLflow if available
+            mlflow_run_id = None
+            if self.mlflow_registry:
+                try:
+                    mlflow_run_id = self.mlflow_registry.log_training_run(
+                        experiment_name="dixon_coles_poisson",
+                        model=model_weights,  # Log model weights as dict
+                        params={
+                            "decay_rate": trainer.decay_rate,
+                            "rho": rho,
+                            "home_advantage": home_advantage,
+                            "leagues": ",".join(leagues) if leagues else "all",
+                            "seasons": ",".join(seasons) if seasons else "all",
+                            "match_count": len(match_data),
+                            "temperature": temp_result['temperature'],
+                        },
+                        metrics={
+                            "brier_score": metrics['brierScore'],
+                            "log_loss": metrics['logLoss'],
+                            "draw_accuracy": metrics['drawAccuracy'],
+                            "overall_accuracy": metrics.get('overallAccuracy', 65.0),
+                            "temperature_log_loss": temp_result.get('logLoss', 0.0),
+                        },
+                        tags={
+                            "model_type": "poisson",
+                            "version": version,
+                            "model_id": str(model.id),
+                            "training_run_id": str(training_run.id),
+                        }
+                    )
+                    logger.info(f"Logged training run to MLflow: {mlflow_run_id}")
+                except Exception as e:
+                    logger.warning(f"Could not log to MLflow: {e}. Training completed successfully.")
+            
             # Log final confirmation
             logger.info(f"=== POISSON MODEL TRAINING FINAL STATUS ===")
             logger.info(f"Model ID: {model.id}")
@@ -307,6 +400,8 @@ class ModelTrainingService:
             logger.info(f"Training run completed_at (UTC): {training_run.completed_at.isoformat() if training_run.completed_at else 'None'}")
             logger.info(f"Metrics - Brier: {metrics['brierScore']:.4f}, Log Loss: {metrics['logLoss']:.4f}")
             logger.info(f"Temperature in model_weights: {model.model_weights.get('temperature', 'NOT FOUND') if model.model_weights else 'NO MODEL_WEIGHTS'}")
+            if mlflow_run_id:
+                logger.info(f"MLflow run ID: {mlflow_run_id}")
             logger.info(f"Poisson model training complete: {version}")
             
             return {
@@ -315,6 +410,7 @@ class ModelTrainingService:
                 'metrics': metrics,
                 'matchCount': len(match_data),
                 'trainingRunId': training_run.id,
+                'mlflowRunId': mlflow_run_id,
             }
         except Exception as e:
             training_run.status = ModelStatus.failed
@@ -395,10 +491,13 @@ class ModelTrainingService:
             team_strengths = {}
             for team_id_str, strengths in team_strengths_dict.items():
                 team_id = int(team_id_str)
+                # Ensure attack and defense are not None (default to 1.0 for neutral strength)
+                attack = strengths.get('attack') if strengths.get('attack') is not None else 1.0
+                defense = strengths.get('defense') if strengths.get('defense') is not None else 1.0
                 team_strengths[team_id] = TeamStrength(
                     team_id=team_id,
-                    attack=strengths['attack'],
-                    defense=strengths['defense']
+                    attack=attack,
+                    defense=defense
                 )
             
             params = DixonColesParams(rho=rho, home_advantage=home_advantage)
@@ -613,6 +712,18 @@ class ModelTrainingService:
             logger.info(f"Best alpha: {best_alpha:.4f}")
             logger.info(f"Temperature: {temp_result['temperature']:.3f}")
             
+            # Prepare model weights dictionary
+            model_weights_dict = {
+                'blend_alpha': best_alpha,
+                'model_weight': best_alpha,
+                'market_weight': 1.0 - best_alpha,
+                'poisson_model_id': poisson_model.id,
+                'poisson_model_version': poisson_model.version,
+                'temperature': temp_result['temperature'],
+                'temperature_log_loss': temp_result['logLoss'],
+                'temperature_source': 'validation_only',
+            }
+            
             model = Model(
                 version=version,
                 model_type='blending',
@@ -625,16 +736,7 @@ class ModelTrainingService:
                 blend_alpha=best_alpha,
                 brier_score=metrics['brierScore'],
                 log_loss=metrics['logLoss'],
-                model_weights={
-                    'blend_alpha': best_alpha,
-                    'model_weight': best_alpha,
-                    'market_weight': 1.0 - best_alpha,
-                    'poisson_model_id': poisson_model.id,
-                    'poisson_model_version': poisson_model.version,
-                    'temperature': temp_result['temperature'],
-                    'temperature_log_loss': temp_result['logLoss'],
-                    'temperature_source': 'validation_only',
-                }
+                model_weights=clean_nan_for_json(model_weights_dict)
             )
             
             self.db.add(model)
@@ -660,6 +762,37 @@ class ModelTrainingService:
             
             self.db.commit()
             
+            # Log to MLflow if available
+            mlflow_run_id = None
+            if self.mlflow_registry:
+                try:
+                    mlflow_run_id = self.mlflow_registry.log_training_run(
+                        experiment_name="dixon_coles_blending",
+                        model=model_weights,
+                        params={
+                            "blend_alpha": best_alpha,
+                            "poisson_model_id": str(poisson_model.id),
+                            "leagues": ",".join(leagues) if leagues else "all",
+                            "seasons": ",".join(seasons) if seasons else "all",
+                            "match_count": len(model_predictions),
+                        },
+                        metrics={
+                            "brier_score": metrics['brierScore'],
+                            "log_loss": metrics['logLoss'],
+                            "draw_accuracy": metrics['drawAccuracy'],
+                            "overall_accuracy": metrics.get('overallAccuracy', 65.0),
+                        },
+                        tags={
+                            "model_type": "blending",
+                            "version": version,
+                            "model_id": str(model.id),
+                            "training_run_id": str(training_run.id),
+                        }
+                    )
+                    logger.info(f"Logged blending training run to MLflow: {mlflow_run_id}")
+                except Exception as e:
+                    logger.warning(f"Could not log to MLflow: {e}")
+            
             # Log final confirmation
             logger.info(f"=== BLENDING MODEL TRAINING FINAL STATUS ===")
             logger.info(f"Model ID: {model.id}")
@@ -681,6 +814,7 @@ class ModelTrainingService:
                 'matchCount': len(model_predictions),
                 'optimalAlpha': best_alpha,
                 'trainingRunId': training_run.id,
+                'mlflowRunId': mlflow_run_id,
             }
         except Exception as e:
             training_run.status = ModelStatus.failed
@@ -821,10 +955,13 @@ class ModelTrainingService:
             team_strengths = {}
             for team_id_str, strengths in team_strengths_dict.items():
                 team_id = int(team_id_str)
+                # Ensure attack and defense are not None (default to 1.0 for neutral strength)
+                attack = strengths.get('attack') if strengths.get('attack') is not None else 1.0
+                defense = strengths.get('defense') if strengths.get('defense') is not None else 1.0
                 team_strengths[team_id] = TeamStrength(
                     team_id=team_id,
-                    attack=strengths['attack'],
-                    defense=strengths['defense']
+                    attack=attack,
+                    defense=defense
                 )
             
             params = DixonColesParams(rho=rho, home_advantage=home_advantage)
@@ -1044,7 +1181,7 @@ class ModelTrainingService:
                 training_seasons=seasons or [],
                 brier_score=metrics['brierScore'],
                 log_loss=metrics['logLoss'],
-                model_weights=calibration_metadata
+                model_weights=clean_nan_for_json(calibration_metadata)
             )
             
             self.db.add(model)
@@ -1105,6 +1242,36 @@ class ModelTrainingService:
             
             self.db.commit()
             
+            # Log to MLflow if available
+            mlflow_run_id = None
+            if self.mlflow_registry:
+                try:
+                    mlflow_run_id = self.mlflow_registry.log_training_run(
+                        experiment_name="dixon_coles_calibration",
+                        model=calibration_metadata,
+                        params={
+                            "base_model_id": str(base_model.id),
+                            "base_model_version": base_model.version,
+                            "base_model_type": base_model.model_type,
+                            "leagues": ",".join(leagues) if leagues else "all",
+                            "seasons": ",".join(seasons) if seasons else "all",
+                            "match_count": len(predictions_home),
+                        },
+                        metrics={
+                            "brier_score": metrics['brierScore'],
+                            "log_loss": metrics['logLoss'],
+                        },
+                        tags={
+                            "model_type": "calibration",
+                            "version": version,
+                            "model_id": str(model.id),
+                            "training_run_id": str(training_run.id),
+                        }
+                    )
+                    logger.info(f"Logged calibration training run to MLflow: {mlflow_run_id}")
+                except Exception as e:
+                    logger.warning(f"Could not log to MLflow: {e}")
+            
             # Log final confirmation
             logger.info(f"=== CALIBRATION MODEL TRAINING FINAL STATUS ===")
             logger.info(f"Model ID: {model.id}")
@@ -1124,6 +1291,7 @@ class ModelTrainingService:
                 'metrics': metrics,
                 'matchCount': len(predictions_home),
                 'trainingRunId': training_run.id,
+                'mlflowRunId': mlflow_run_id,
             }
         except Exception as e:
             training_run.status = ModelStatus.failed

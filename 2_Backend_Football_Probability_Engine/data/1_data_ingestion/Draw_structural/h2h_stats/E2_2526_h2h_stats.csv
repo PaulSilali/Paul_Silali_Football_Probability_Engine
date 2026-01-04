@@ -1,0 +1,227 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+67,Luton,86,Northampton,2526,3,0,0.0,3.0
+68,Cardiff,75,Plymouth,2526,1,0,0.0,4.0
+71,Mansfield,75,Plymouth,2526,1,0,0.0,2.0
+67,Luton,73,Huddersfield,2526,3,1,0.3333333333333333,2.0
+68,Cardiff,71,Mansfield,2526,1,0,0.0,3.0
+80,Peterboro,86,Northampton,2526,1,0,0.0,3.0
+81,Reading,86,Northampton,2526,1,0,0.0,1.0
+69,Blackpool,78,Stockport,2526,1,0,0.0,1.0
+84,Exeter,86,Northampton,2526,1,0,0.0,2.0
+69,Blackpool,72,Doncaster,2526,1,0,0.0,1.0
+75,Plymouth,84,Exeter,2526,1,0,0.0,2.0
+70,Bradford,86,Northampton,2526,1,1,1.0,
+74,Lincoln,82,AFC Wimbledon,2526,1,0,0.0,2.0
+70,Bradford,71,Mansfield,2526,1,0,0.0,3.0
+75,Plymouth,78,Stockport,2526,1,0,0.0,6.0
+79,Port Vale,86,Northampton,2526,1,1,1.0,
+71,Mansfield,85,Leyton Orient,2526,1,0,0.0,5.0
+70,Bradford,88,Wycombe,2526,1,0,0.0,3.0
+82,AFC Wimbledon,85,Leyton Orient,2526,1,0,0.0,4.0
+72,Doncaster,82,AFC Wimbledon,2526,1,0,0.0,3.0
+71,Mansfield,88,Wycombe,2526,1,0,0.0,2.0
+70,Bradford,87,Stevenage,2526,1,1,1.0,2.0
+71,Mansfield,74,Lincoln,2526,1,1,1.0,2.0
+72,Doncaster,88,Wycombe,2526,1,1,1.0,2.0
+70,Bradford,82,AFC Wimbledon,2526,1,0,0.0,5.0
+84,Exeter,85,Leyton Orient,2526,1,0,0.0,3.0
+67,Luton,74,Lincoln,2526,3,1,0.3333333333333333,2.3333333333333335
+68,Cardiff,69,Blackpool,2526,1,0,0.0,4.0
+71,Mansfield,82,AFC Wimbledon,2526,1,1,1.0,
+75,Plymouth,88,Wycombe,2526,2,1,0.5,1.5
+74,Lincoln,81,Reading,2526,1,0,0.0,2.0
+70,Bradford,78,Stockport,2526,1,0,0.0,3.0
+78,Stockport,84,Exeter,2526,1,0,0.0,1.0
+68,Cardiff,70,Bradford,2526,1,0,0.0,4.0
+85,Leyton Orient,88,Wycombe,2526,1,0,0.0,5.0
+69,Blackpool,86,Northampton,2526,1,0,0.0,1.0
+74,Lincoln,88,Wycombe,2526,1,0,0.0,5.0
+71,Mansfield,72,Doncaster,2526,1,0,0.0,3.0
+67,Luton,75,Plymouth,2526,3,0,0.0,3.6666666666666665
+69,Blackpool,73,Huddersfield,2526,1,0,0.0,5.0
+76,Rotherham,83,Barnsley,2526,1,0,0.0,1.0
+77,Wigan,88,Wycombe,2526,1,0,0.0,1.0
+68,Cardiff,88,Wycombe,2526,1,1,1.0,2.0
+68,Cardiff,84,Exeter,2526,1,0,0.0,1.0
+72,Doncaster,79,Port Vale,2526,1,0,0.0,1.0
+72,Doncaster,87,Stevenage,2526,1,1,1.0,
+76,Rotherham,85,Leyton Orient,2526,1,0,0.0,1.0
+74,Lincoln,77,Wigan,2526,1,1,1.0,4.0
+78,Stockport,88,Wycombe,2526,1,0,0.0,3.0
+67,Luton,78,Stockport,2526,3,0,0.0,2.6666666666666665
+77,Wigan,80,Peterboro,2526,1,0,0.0,2.0
+72,Doncaster,78,Stockport,2526,2,0,0.0,4.0
+67,Luton,72,Doncaster,2526,3,2,0.6666666666666666,1.6666666666666667
+82,AFC Wimbledon,83,Barnsley,2526,1,0,0.0,2.0
+76,Rotherham,79,Port Vale,2526,1,0,0.0,3.0
+73,Huddersfield,79,Port Vale,2526,1,0,0.0,5.0
+69,Blackpool,76,Rotherham,2526,2,0,0.0,3.5
+74,Lincoln,79,Port Vale,2526,1,0,0.0,1.0
+67,Luton,82,AFC Wimbledon,2526,3,0,0.0,1.6666666666666667
+68,Cardiff,87,Stevenage,2526,2,0,0.0,2.0
+82,AFC Wimbledon,84,Exeter,2526,2,0,0.0,1.0
+70,Bradford,72,Doncaster,2526,1,0,0.0,4.0
+72,Doncaster,73,Huddersfield,2526,1,0,0.0,2.0
+70,Bradford,77,Wigan,2526,1,0,0.0,3.0
+72,Doncaster,76,Rotherham,2526,1,0,0.0,1.0
+68,Cardiff,81,Reading,2526,1,0,0.0,3.0
+67,Luton,68,Cardiff,2526,3,0,0.0,1.0
+67,Luton,67,Luton,2526,3,1,0.3333333333333333,2.6666666666666665
+78,Stockport,86,Northampton,2526,1,1,1.0,
+76,Rotherham,87,Stevenage,2526,1,0,0.0,1.0
+69,Blackpool,74,Lincoln,2526,1,1,1.0,4.0
+75,Plymouth,81,Reading,2526,1,0,0.0,5.0
+86,Northampton,88,Wycombe,2526,1,0,0.0,2.0
+82,AFC Wimbledon,87,Stevenage,2526,1,1,1.0,
+79,Port Vale,85,Leyton Orient,2526,1,0,0.0,5.0
+74,Lincoln,86,Northampton,2526,1,0,0.0,1.0
+77,Wigan,82,AFC Wimbledon,2526,1,0,0.0,3.0
+67,Luton,87,Stevenage,2526,2,1,0.5,3.0
+79,Port Vale,80,Peterboro,2526,1,0,0.0,1.0
+78,Stockport,85,Leyton Orient,2526,1,1,1.0,4.0
+80,Peterboro,84,Exeter,2526,1,0,0.0,3.0
+81,Reading,82,AFC Wimbledon,2526,1,0,0.0,3.0
+76,Rotherham,88,Wycombe,2526,1,1,1.0,2.0
+74,Lincoln,84,Exeter,2526,1,0,0.0,1.0
+72,Doncaster,74,Lincoln,2526,1,0,0.0,3.0
+69,Blackpool,79,Port Vale,2526,1,0,0.0,6.0
+70,Bradford,75,Plymouth,2526,1,0,0.0,1.0
+77,Wigan,83,Barnsley,2526,1,1,1.0,2.0
+68,Cardiff,74,Lincoln,2526,1,0,0.0,3.0
+70,Bradford,85,Leyton Orient,2526,1,0,0.0,3.0
+73,Huddersfield,74,Lincoln,2526,1,1,1.0,2.0
+78,Stockport,80,Peterboro,2526,1,0,0.0,3.0
+69,Blackpool,70,Bradford,2526,1,0,0.0,1.0
+67,Luton,88,Wycombe,2526,3,1,0.3333333333333333,2.3333333333333335
+81,Reading,85,Leyton Orient,2526,1,0,0.0,3.0
+72,Doncaster,77,Wigan,2526,1,0,0.0,3.0
+74,Lincoln,76,Rotherham,2526,1,0,0.0,3.0
+70,Bradford,73,Huddersfield,2526,1,0,0.0,4.0
+68,Cardiff,79,Port Vale,2526,1,1,1.0,
+71,Mansfield,78,Stockport,2526,1,0,0.0,3.0
+71,Mansfield,87,Stevenage,2526,1,1,1.0,2.0
+75,Plymouth,80,Peterboro,2526,1,0,0.0,1.0
+79,Port Vale,82,AFC Wimbledon,2526,1,1,1.0,2.0
+74,Lincoln,78,Stockport,2526,1,0,0.0,3.0
+73,Huddersfield,83,Barnsley,2526,1,0,0.0,4.0
+68,Cardiff,73,Huddersfield,2526,1,0,0.0,5.0
+71,Mansfield,81,Reading,2526,1,1,1.0,2.0
+73,Huddersfield,88,Wycombe,2526,1,0,0.0,3.0
+67,Luton,83,Barnsley,2526,3,1,0.3333333333333333,4.0
+67,Luton,76,Rotherham,2526,3,2,0.6666666666666666,2.3333333333333335
+68,Cardiff,85,Leyton Orient,2526,1,0,0.0,7.0
+73,Huddersfield,78,Stockport,2526,1,0,0.0,3.0
+69,Blackpool,84,Exeter,2526,1,0,0.0,5.0
+73,Huddersfield,80,Peterboro,2526,1,0,0.0,5.0
+70,Bradford,79,Port Vale,2526,1,0,0.0,1.0
+74,Lincoln,87,Stevenage,2526,1,0,0.0,1.0
+75,Plymouth,82,AFC Wimbledon,2526,1,0,0.0,3.0
+68,Cardiff,76,Rotherham,2526,1,0,0.0,3.0
+78,Stockport,79,Port Vale,2526,1,0,0.0,3.0
+73,Huddersfield,82,AFC Wimbledon,2526,1,1,1.0,6.0
+73,Huddersfield,86,Northampton,2526,2,1,0.5,2.0
+68,Cardiff,82,AFC Wimbledon,2526,1,0,0.0,1.0
+69,Blackpool,71,Mansfield,2526,1,0,0.0,2.0
+79,Port Vale,88,Wycombe,2526,1,1,1.0,
+81,Reading,88,Wycombe,2526,1,1,1.0,4.0
+76,Rotherham,77,Wigan,2526,1,1,1.0,4.0
+78,Stockport,83,Barnsley,2526,1,1,1.0,2.0
+72,Doncaster,80,Peterboro,2526,1,0,0.0,3.0
+75,Plymouth,76,Rotherham,2526,1,0,0.0,1.0
+72,Doncaster,85,Leyton Orient,2526,1,0,0.0,4.0
+69,Blackpool,80,Peterboro,2526,1,0,0.0,3.0
+84,Exeter,88,Wycombe,2526,1,0,0.0,1.0
+76,Rotherham,86,Northampton,2526,1,0,0.0,3.0
+80,Peterboro,81,Reading,2526,2,1,0.5,2.5
+68,Cardiff,78,Stockport,2526,1,1,1.0,2.0
+71,Mansfield,86,Northampton,2526,1,0,0.0,3.0
+79,Port Vale,81,Reading,2526,1,0,0.0,1.0
+81,Reading,84,Exeter,2526,1,1,1.0,2.0
+80,Peterboro,87,Stevenage,2526,1,0,0.0,1.0
+70,Bradford,80,Peterboro,2526,1,1,1.0,2.0
+75,Plymouth,87,Stevenage,2526,1,1,1.0,2.0
+69,Blackpool,83,Barnsley,2526,1,0,0.0,1.0
+70,Bradford,74,Lincoln,2526,1,1,1.0,
+86,Northampton,87,Stevenage,2526,1,0,0.0,2.0
+69,Blackpool,87,Stevenage,2526,1,0,0.0,5.0
+79,Port Vale,83,Barnsley,2526,1,0,0.0,2.0
+75,Plymouth,83,Barnsley,2526,1,0,0.0,4.0
+76,Rotherham,78,Stockport,2526,1,0,0.0,1.0
+69,Blackpool,77,Wigan,2526,1,0,0.0,2.0
+82,AFC Wimbledon,86,Northampton,2526,1,0,0.0,4.0
+70,Bradford,83,Barnsley,2526,1,1,1.0,4.0
+75,Plymouth,79,Port Vale,2526,1,0,0.0,1.0
+71,Mansfield,76,Rotherham,2526,1,0,0.0,3.0
+81,Reading,87,Stevenage,2526,1,0,0.0,1.0
+71,Mansfield,77,Wigan,2526,1,1,1.0,2.0
+87,Stevenage,88,Wycombe,2526,1,0,0.0,1.0
+80,Peterboro,82,AFC Wimbledon,2526,1,0,0.0,5.0
+70,Bradford,81,Reading,2526,1,0,0.0,2.0
+68,Cardiff,72,Doncaster,2526,1,0,0.0,7.0
+82,AFC Wimbledon,88,Wycombe,2526,1,0,0.0,3.0
+74,Lincoln,75,Plymouth,2526,1,0,0.0,5.0
+67,Luton,69,Blackpool,2526,3,2,0.6666666666666666,2.3333333333333335
+76,Rotherham,81,Reading,2526,1,1,1.0,2.0
+74,Lincoln,80,Peterboro,2526,1,0,0.0,3.0
+75,Plymouth,77,Wigan,2526,1,1,1.0,2.0
+85,Leyton Orient,87,Stevenage,2526,1,0,0.0,5.0
+73,Huddersfield,85,Leyton Orient,2526,1,0,0.0,3.0
+83,Barnsley,88,Wycombe,2526,1,1,1.0,4.0
+72,Doncaster,86,Northampton,2526,1,0,0.0,3.0
+72,Doncaster,84,Exeter,2526,1,0,0.0,1.0
+77,Wigan,79,Port Vale,2526,1,0,0.0,1.0
+85,Leyton Orient,86,Northampton,2526,1,0,0.0,1.0
+67,Luton,70,Bradford,2526,3,1,0.3333333333333333,2.0
+80,Peterboro,88,Wycombe,2526,1,0,0.0,3.0
+67,Luton,84,Exeter,2526,2,0,0.0,2.0
+67,Luton,79,Port Vale,2526,3,2,0.6666666666666666,2.6666666666666665
+68,Cardiff,80,Peterboro,2526,1,0,0.0,3.0
+77,Wigan,84,Exeter,2526,1,1,1.0,2.0
+76,Rotherham,84,Exeter,2526,1,0,0.0,1.0
+80,Peterboro,83,Barnsley,2526,1,0,0.0,1.0
+71,Mansfield,79,Port Vale,2526,1,0,0.0,3.0
+74,Lincoln,85,Leyton Orient,2526,1,0,0.0,1.0
+73,Huddersfield,76,Rotherham,2526,1,0,0.0,4.0
+73,Huddersfield,81,Reading,2526,1,0,0.0,2.0
+77,Wigan,86,Northampton,2526,1,0,0.0,4.0
+72,Doncaster,81,Reading,2526,1,1,1.0,2.0
+78,Stockport,81,Reading,2526,1,1,1.0,2.0
+69,Blackpool,88,Wycombe,2526,1,1,1.0,2.0
+76,Rotherham,80,Peterboro,2526,1,0,0.0,2.0
+67,Luton,71,Mansfield,2526,4,0,0.0,1.75
+71,Mansfield,84,Exeter,2526,1,0,0.0,3.0
+67,Luton,85,Leyton Orient,2526,4,2,0.5,2.75
+81,Reading,83,Barnsley,2526,1,0,0.0,5.0
+69,Blackpool,75,Plymouth,2526,1,0,0.0,1.0
+74,Lincoln,83,Barnsley,2526,2,0,0.0,3.0
+67,Luton,80,Peterboro,2526,3,0,0.0,2.0
+71,Mansfield,83,Barnsley,2526,1,0,0.0,5.0
+69,Blackpool,81,Reading,2526,1,0,0.0,3.0
+69,Blackpool,82,AFC Wimbledon,2526,1,0,0.0,2.0
+68,Cardiff,86,Northampton,2526,1,0,0.0,4.0
+75,Plymouth,86,Northampton,2526,1,0,0.0,3.0
+72,Doncaster,83,Barnsley,2526,1,0,0.0,3.0
+76,Rotherham,82,AFC Wimbledon,2526,1,0,0.0,3.0
+77,Wigan,87,Stevenage,2526,1,1,1.0,
+77,Wigan,78,Stockport,2526,1,1,1.0,2.0
+70,Bradford,84,Exeter,2526,1,0,0.0,1.0
+67,Luton,81,Reading,2526,3,1,0.3333333333333333,3.0
+83,Barnsley,84,Exeter,2526,1,0,0.0,3.0
+72,Doncaster,75,Plymouth,2526,1,0,0.0,6.0
+77,Wigan,85,Leyton Orient,2526,1,0,0.0,2.0
+67,Luton,77,Wigan,2526,4,0,0.0,2.25
+73,Huddersfield,75,Plymouth,2526,1,0,0.0,4.0
+80,Peterboro,85,Leyton Orient,2526,1,0,0.0,1.0
+71,Mansfield,73,Huddersfield,2526,1,0,0.0,4.0
+79,Port Vale,84,Exeter,2526,1,0,0.0,2.0
+78,Stockport,87,Stevenage,2526,1,0,0.0,4.0
+73,Huddersfield,84,Exeter,2526,1,0,0.0,1.0
+70,Bradford,76,Rotherham,2526,1,1,1.0,4.0
+83,Barnsley,85,Leyton Orient,2526,1,0,0.0,5.0
+73,Huddersfield,77,Wigan,2526,1,1,1.0,2.0
+79,Port Vale,87,Stevenage,2526,1,0,0.0,3.0
+69,Blackpool,85,Leyton Orient,2526,1,1,1.0,2.0
+73,Huddersfield,87,Stevenage,2526,1,0,0.0,1.0
+68,Cardiff,77,Wigan,2526,1,0,0.0,2.0
+75,Plymouth,85,Leyton Orient,2526,1,0,0.0,1.0
+84,Exeter,87,Stevenage,2526,1,0,0.0,3.0

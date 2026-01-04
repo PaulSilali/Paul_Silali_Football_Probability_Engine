@@ -17,6 +17,8 @@ import {
   Eye
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
@@ -387,14 +389,11 @@ export default function System() {
   };
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">System & Data Management</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Model registry, data sources, training, and audit trail
-          </p>
-        </div>
+    <PageLayout
+      title="System & Data Management"
+      description="Model registry, data sources, training, and audit trail"
+      icon={<Power className="h-6 w-6" />}
+      action={
         <div className="flex items-center gap-2">
           <Button variant="outline" size="sm" onClick={() => setShowDownloadDialog(true)}>
             <Globe className="h-4 w-4 mr-2" />
@@ -414,7 +413,8 @@ export default function System() {
             )}
           </Button>
         </div>
-      </div>
+      }
+    >
 
       {/* Retrain Progress Alert */}
       {isRetraining && (
@@ -891,6 +891,6 @@ export default function System() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+    </PageLayout>
   );
 }

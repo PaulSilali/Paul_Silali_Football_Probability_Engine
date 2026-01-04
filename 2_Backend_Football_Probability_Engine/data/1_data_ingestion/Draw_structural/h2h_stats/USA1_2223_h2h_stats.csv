@@ -1,0 +1,94 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+646,Inter Miami CF,654,New England Revolution,2223,1,0,0.0,5.0
+649,Orlando City,657,CF Montréal,2223,1,0,0.0,2.0
+662,Real Salt Lake,665,Nashville SC,2223,1,0,0.0,3.0
+642,Los Angeles FC,663,Vancouver Whitecaps,2223,1,0,0.0,4.0
+646,Inter Miami CF,660,FC Cincinnati,2223,1,0,0.0,4.0
+659,Colorado Rapids,661,Minnesota United FC,2223,1,0,0.0,4.0
+643,FC Dallas,658,Chicago Fire,2223,1,1,1.0,
+654,New England Revolution,664,Charlotte FC,2223,2,0,0.0,3.5
+648,Portland Timbers,663,Vancouver Whitecaps,2223,1,0,0.0,5.0
+659,Colorado Rapids,662,Real Salt Lake,2223,1,1,1.0,2.0
+644,Austin FC,645,D.C. United,2223,1,0,0.0,5.0
+642,Los Angeles FC,651,New York City FC,2223,1,0,0.0,1.0
+653,Seattle Sounders,661,Minnesota United FC,2223,1,0,0.0,3.0
+640,Philadelphia Union,661,Minnesota United FC,2223,1,1,1.0,2.0
+645,D.C. United,658,Chicago Fire,2223,1,0,0.0,2.0
+644,Austin FC,648,Portland Timbers,2223,1,0,0.0,1.0
+647,San Jose Earthquakes,661,Minnesota United FC,2223,1,0,0.0,1.0
+656,Sporting Kansas City,658,Chicago Fire,2223,1,0,0.0,4.0
+653,Seattle Sounders,662,Real Salt Lake,2223,1,0,0.0,1.0
+652,Houston Dynamo,662,Real Salt Lake,2223,1,1,1.0,
+656,Sporting Kansas City,663,Vancouver Whitecaps,2223,1,0,0.0,1.0
+642,Los Angeles FC,649,Orlando City,2223,2,0,0.0,3.5
+641,Columbus Crew,663,Vancouver Whitecaps,2223,1,0,0.0,4.0
+644,Austin FC,646,Inter Miami CF,2223,1,0,0.0,6.0
+648,Portland Timbers,649,Orlando City,2223,1,1,1.0,2.0
+642,Los Angeles FC,664,Charlotte FC,2223,1,0,0.0,1.0
+652,Houston Dynamo,663,Vancouver Whitecaps,2223,1,0,0.0,3.0
+661,Minnesota United FC,665,Nashville SC,2223,1,1,1.0,2.0
+642,Los Angeles FC,653,Seattle Sounders,2223,1,0,0.0,5.0
+647,San Jose Earthquakes,651,New York City FC,2223,1,0,0.0,4.0
+645,D.C. United,650,Atlanta United FC,2223,1,0,0.0,1.0
+640,Philadelphia Union,647,San Jose Earthquakes,2223,1,0,0.0,2.0
+645,D.C. United,660,FC Cincinnati,2223,1,0,0.0,1.0
+650,Atlanta United FC,660,FC Cincinnati,2223,1,1,1.0,
+651,New York City FC,654,New England Revolution,2223,1,0,0.0,1.0
+640,Philadelphia Union,641,Columbus Crew,2223,1,0,0.0,1.0
+651,New York City FC,657,CF Montréal,2223,1,0,0.0,3.0
+656,Sporting Kansas City,659,Colorado Rapids,2223,1,0,0.0,2.0
+642,Los Angeles FC,659,Colorado Rapids,2223,1,0,0.0,3.0
+645,D.C. United,664,Charlotte FC,2223,1,0,0.0,3.0
+643,FC Dallas,665,Nashville SC,2223,1,0,0.0,2.0
+643,FC Dallas,659,Colorado Rapids,2223,1,0,0.0,4.0
+642,Los Angeles FC,646,Inter Miami CF,2223,1,0,0.0,2.0
+643,FC Dallas,652,Houston Dynamo,2223,1,0,0.0,3.0
+649,Orlando City,660,FC Cincinnati,2223,1,0,0.0,3.0
+643,FC Dallas,655,Toronto FC,2223,1,1,1.0,2.0
+647,San Jose Earthquakes,652,Houston Dynamo,2223,1,0,0.0,7.0
+648,Portland Timbers,654,New England Revolution,2223,1,1,1.0,4.0
+643,FC Dallas,651,New York City FC,2223,1,1,1.0,
+641,Columbus Crew,665,Nashville SC,2223,1,0,0.0,1.0
+660,FC Cincinnati,664,Charlotte FC,2223,1,0,0.0,2.0
+641,Columbus Crew,649,Orlando City,2223,1,0,0.0,2.0
+652,Houston Dynamo,656,Sporting Kansas City,2223,1,0,0.0,1.0
+643,FC Dallas,654,New England Revolution,2223,1,0,0.0,1.0
+642,Los Angeles FC,656,Sporting Kansas City,2223,1,0,0.0,4.0
+652,Houston Dynamo,659,Colorado Rapids,2223,1,1,1.0,2.0
+654,New England Revolution,662,Real Salt Lake,2223,1,0,0.0,5.0
+651,New York City FC,655,Toronto FC,2223,1,0,0.0,3.0
+642,Los Angeles FC,648,Portland Timbers,2223,2,1,0.5,3.0
+651,New York City FC,661,Minnesota United FC,2223,1,0,0.0,1.0
+648,Portland Timbers,652,Houston Dynamo,2223,1,1,1.0,
+640,Philadelphia Union,651,New York City FC,2223,1,0,0.0,2.0
+644,Austin FC,661,Minnesota United FC,2223,1,0,0.0,1.0
+644,Austin FC,653,Seattle Sounders,2223,1,1,1.0,2.0
+645,D.C. United,655,Toronto FC,2223,1,0,0.0,3.0
+650,Atlanta United FC,659,Colorado Rapids,2223,1,0,0.0,3.0
+646,Inter Miami CF,652,Houston Dynamo,2223,1,0,0.0,4.0
+644,Austin FC,660,FC Cincinnati,2223,1,0,0.0,5.0
+642,Los Angeles FC,642,Los Angeles FC,2223,1,0,0.0,3.0
+649,Orlando City,658,Chicago Fire,2223,2,1,0.5,0.5
+646,Inter Miami CF,653,Seattle Sounders,2223,1,0,0.0,1.0
+650,Atlanta United FC,664,Charlotte FC,2223,2,0,0.0,2.0
+641,Columbus Crew,655,Toronto FC,2223,1,0,0.0,3.0
+657,CF Montréal,663,Vancouver Whitecaps,2223,1,0,0.0,3.0
+644,Austin FC,647,San Jose Earthquakes,2223,1,1,1.0,4.0
+640,Philadelphia Union,655,Toronto FC,2223,1,0,0.0,3.0
+640,Philadelphia Union,664,Charlotte FC,2223,1,0,0.0,2.0
+656,Sporting Kansas City,665,Nashville SC,2223,1,0,0.0,3.0
+647,San Jose Earthquakes,665,Nashville SC,2223,1,1,1.0,4.0
+655,Toronto FC,662,Real Salt Lake,2223,1,1,1.0,4.0
+646,Inter Miami CF,658,Chicago Fire,2223,1,1,1.0,
+651,New York City FC,663,Vancouver Whitecaps,2223,1,1,1.0,
+643,FC Dallas,648,Portland Timbers,2223,1,0,0.0,5.0
+653,Seattle Sounders,665,Nashville SC,2223,1,0,0.0,1.0
+657,CF Montréal,660,FC Cincinnati,2223,1,0,0.0,7.0
+650,Atlanta United FC,656,Sporting Kansas City,2223,1,0,0.0,4.0
+641,Columbus Crew,651,New York City FC,2223,1,1,1.0,2.0
+650,Atlanta United FC,657,CF Montréal,2223,1,1,1.0,6.0
+651,New York City FC,662,Real Salt Lake,2223,1,0,0.0,6.0
+642,Los Angeles FC,658,Chicago Fire,2223,1,1,1.0,
+656,Sporting Kansas City,662,Real Salt Lake,2223,1,0,0.0,1.0
+641,Columbus Crew,647,San Jose Earthquakes,2223,1,1,1.0,6.0
+640,Philadelphia Union,657,CF Montréal,2223,1,0,0.0,3.0

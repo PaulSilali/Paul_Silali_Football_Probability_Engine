@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E2,2122,2021-08-07,Rotherham,Plymouth,518,90,False
+E2,2122,2021-08-07,Wycombe,Accrington,525,90,False
+E2,2122,2021-08-07,Sunderland,Wigan,90,90,False
+E2,2122,2021-08-07,Charlton,Sheffield Weds,90,7,False
+E2,2122,2021-08-07,Cambridge,Oxford,7,90,False
+E2,2122,2021-08-07,Luton,Milton Keynes Dons,90,90,False
+E2,2122,2021-08-07,Doncaster,AFC Wimbledon,90,90,False
+E2,2122,2021-08-07,Crewe,Cheltenham,90,7,False
+E2,2122,2021-08-07,Ipswich,Morecambe,90,7,False
+E2,2122,2021-08-07,Birmingham,Lincoln,90,90,False
+E2,2122,2021-08-07,Shrewsbury,Luton,90,90,False
+E2,2122,2021-08-07,Fleetwood Town,Portsmouth,90,90,False
+E2,2122,2021-08-14,Luton,Ipswich,7,7,False
+E2,2122,2021-08-14,Cheltenham,Wycombe,7,7,False
+E2,2122,2021-08-14,Lincoln,Fleetwood Town,7,7,False
+E2,2122,2021-08-14,Milton Keynes Dons,Sunderland,7,7,False
+E2,2122,2021-08-14,Accrington,Cambridge,7,7,False
+E2,2122,2021-08-14,Morecambe,Shrewsbury,7,7,False
+E2,2122,2021-08-14,Oxford,Charlton,7,7,False
+E2,2122,2021-08-14,AFC Wimbledon,Luton,7,7,False
+E2,2122,2021-08-14,Plymouth,Birmingham,7,7,False
+E2,2122,2021-08-14,Portsmouth,Crewe,7,7,False
+E2,2122,2021-08-14,Sheffield Weds,Doncaster,7,7,False
+E2,2122,2021-08-14,Wigan,Rotherham,7,7,False
+E2,2122,2021-08-17,Luton,Sunderland,3,3,True
+E2,2122,2021-08-17,Accrington,Doncaster,3,3,True
+E2,2122,2021-08-17,AFC Wimbledon,Birmingham,3,3,True
+E2,2122,2021-08-17,Cheltenham,Ipswich,3,3,True
+E2,2122,2021-08-17,Lincoln,Luton,3,3,True
+E2,2122,2021-08-17,Milton Keynes Dons,Charlton,3,3,True
+E2,2122,2021-08-17,Morecambe,Rotherham,3,3,True
+E2,2122,2021-08-17,Oxford,Crewe,3,3,True
+E2,2122,2021-08-17,Plymouth,Cambridge,3,3,True
+E2,2122,2021-08-17,Portsmouth,Shrewsbury,3,3,True
+E2,2122,2021-08-17,Sheffield Weds,Fleetwood Town,3,3,True
+E2,2122,2021-08-17,Wigan,Wycombe,3,3,True
+E2,2122,2021-08-21,Cambridge,Luton,4,4,False
+E2,2122,2021-08-21,Charlton,Wigan,4,4,False
+E2,2122,2021-08-21,Crewe,Accrington,4,4,False
+E2,2122,2021-08-21,Doncaster,Portsmouth,4,4,False
+E2,2122,2021-08-21,Fleetwood Town,Cheltenham,4,4,False
+E2,2122,2021-08-21,Birmingham,Morecambe,4,4,False
+E2,2122,2021-08-21,Ipswich,Milton Keynes Dons,4,4,False
+E2,2122,2021-08-21,Shrewsbury,Plymouth,4,4,False
+E2,2122,2021-08-21,Sunderland,AFC Wimbledon,4,4,False
+E2,2122,2021-08-21,Wycombe,Lincoln,4,4,False
+E2,2122,2021-08-21,Luton,Oxford,4,4,False
+E2,2122,2021-08-21,Rotherham,Sheffield Weds,4,4,False
+E2,2122,2021-08-27,Luton,Cheltenham,6,6,False
+E2,2122,2021-08-28,Charlton,Crewe,7,7,False
+E2,2122,2021-08-28,Ipswich,AFC Wimbledon,7,7,False
+E2,2122,2021-08-28,Milton Keynes Dons,Accrington,7,7,False
+E2,2122,2021-08-28,Morecambe,Sheffield Weds,7,7,False
+E2,2122,2021-08-28,Oxford,Lincoln,7,7,False
+E2,2122,2021-08-28,Plymouth,Fleetwood Town,7,7,False
+E2,2122,2021-08-28,Shrewsbury,Birmingham,7,7,False
+E2,2122,2021-08-28,Sunderland,Wycombe,7,7,False
+E2,2122,2021-08-28,Wigan,Portsmouth,7,7,False
+E2,2122,2021-08-28,Rotherham,Doncaster,7,7,False
+E2,2122,2021-08-28,Cambridge,Luton,7,1,False
+E2,2122,2021-09-04,Cheltenham,Milton Keynes Dons,8,7,False
+E2,2122,2021-09-04,Accrington,Shrewsbury,7,7,False
+E2,2122,2021-09-04,AFC Wimbledon,Oxford,7,7,False
+E2,2122,2021-09-06,Luton,Luton,9,9,False
+E2,2122,2021-09-11,Milton Keynes Dons,Portsmouth,7,14,False
+E2,2122,2021-09-11,Luton,Birmingham,5,14,False
+E2,2122,2021-09-11,Cambridge,Lincoln,14,14,False
+E2,2122,2021-09-11,Charlton,Cheltenham,14,7,False
+E2,2122,2021-09-11,Ipswich,Luton,14,5,False
+E2,2122,2021-09-11,Morecambe,AFC Wimbledon,14,7,False
+E2,2122,2021-09-11,Oxford,Wycombe,7,14,False
+E2,2122,2021-09-11,Plymouth,Sheffield Weds,14,14,False
+E2,2122,2021-09-11,Rotherham,Fleetwood Town,14,14,False
+E2,2122,2021-09-11,Shrewsbury,Crewe,7,14,False
+E2,2122,2021-09-11,Sunderland,Accrington,14,7,False
+E2,2122,2021-09-11,Wigan,Doncaster,14,14,False
+E2,2122,2021-09-14,Lincoln,Rotherham,3,3,True
+E2,2122,2021-09-18,Doncaster,Morecambe,7,7,False
+E2,2122,2021-09-18,Fleetwood Town,Sunderland,7,7,False
+E2,2122,2021-09-18,Birmingham,Milton Keynes Dons,7,7,False
+E2,2122,2021-09-18,Lincoln,Ipswich,4,7,False
+E2,2122,2021-09-18,Portsmouth,Cambridge,7,7,False
+E2,2122,2021-09-18,Sheffield Weds,Shrewsbury,7,7,False
+E2,2122,2021-09-18,AFC Wimbledon,Plymouth,7,7,False
+E2,2122,2021-09-18,Wycombe,Charlton,7,7,False
+E2,2122,2021-09-18,Crewe,Luton,7,7,False
+E2,2122,2021-09-18,Accrington,Wigan,7,7,False
+E2,2122,2021-09-18,Luton,Rotherham,7,4,False
+E2,2122,2021-09-18,Cheltenham,Oxford,7,7,False
+E2,2122,2021-09-21,Portsmouth,Plymouth,3,3,True
+E2,2122,2021-09-21,Crewe,Morecambe,3,3,True
+E2,2122,2021-09-21,Birmingham,Charlton,3,3,True
+E2,2122,2021-09-25,Charlton,Portsmouth,4,4,False
+E2,2122,2021-09-25,Ipswich,Sheffield Weds,7,7,False
+E2,2122,2021-09-25,Milton Keynes Dons,Wycombe,7,7,False
+E2,2122,2021-09-25,Morecambe,Accrington,4,7,False
+E2,2122,2021-09-25,Oxford,Birmingham,7,4,False
+E2,2122,2021-09-25,Plymouth,Doncaster,4,7,False
+E2,2122,2021-09-25,Rotherham,Crewe,7,4,False
+E2,2122,2021-09-25,Shrewsbury,AFC Wimbledon,7,7,False
+E2,2122,2021-09-25,Sunderland,Luton,7,7,False
+E2,2122,2021-09-25,Wigan,Cheltenham,7,7,False
+E2,2122,2021-09-25,Luton,Lincoln,7,7,False
+E2,2122,2021-09-25,Cambridge,Fleetwood Town,7,7,False
+E2,2122,2021-09-28,Shrewsbury,Wycombe,3,3,True
+E2,2122,2021-09-28,Luton,Portsmouth,3,3,True
+E2,2122,2021-09-28,Cambridge,Birmingham,3,3,True
+E2,2122,2021-09-28,Charlton,Luton,3,3,True
+E2,2122,2021-09-28,Ipswich,Doncaster,3,3,True
+E2,2122,2021-09-28,Milton Keynes Dons,Fleetwood Town,3,3,True
+E2,2122,2021-09-28,Morecambe,Lincoln,3,3,True
+E2,2122,2021-09-28,Oxford,Accrington,3,3,True
+E2,2122,2021-09-28,Plymouth,Crewe,3,3,True
+E2,2122,2021-09-28,Rotherham,AFC Wimbledon,3,3,True
+E2,2122,2021-09-28,Sunderland,Cheltenham,3,3,True
+E2,2122,2021-09-28,Wigan,Sheffield Weds,3,3,True
+E2,2122,2021-10-02,Accrington,Ipswich,4,4,False
+E2,2122,2021-10-02,Cheltenham,Rotherham,4,4,False
+E2,2122,2021-10-02,Crewe,Cambridge,4,4,False
+E2,2122,2021-10-02,Doncaster,Milton Keynes Dons,4,4,False
+E2,2122,2021-10-02,Fleetwood Town,Charlton,4,4,False
+E2,2122,2021-10-02,Birmingham,Wigan,4,4,False
+E2,2122,2021-10-02,Lincoln,Plymouth,4,4,False
+E2,2122,2021-10-02,Portsmouth,Sunderland,4,4,False
+E2,2122,2021-10-02,Sheffield Weds,Oxford,4,4,False
+E2,2122,2021-10-02,Wycombe,Morecambe,4,4,False
+E2,2122,2021-10-02,AFC Wimbledon,Luton,4,4,False
+E2,2122,2021-10-02,Luton,Shrewsbury,4,4,False
+E2,2122,2021-10-09,Sheffield Weds,Luton,7,7,False
+E2,2122,2021-10-09,Wycombe,Birmingham,7,7,False
+E2,2122,2021-10-09,Ipswich,Shrewsbury,7,7,False
+E2,2122,2021-10-09,Plymouth,Luton,7,7,False
+E2,2122,2021-10-15,Luton,Morecambe,6,13,False
+E2,2122,2021-10-16,Oxford,Plymouth,14,7,False
+E2,2122,2021-10-16,AFC Wimbledon,Sheffield Weds,14,7,False
+E2,2122,2021-10-16,Luton,Wigan,1,14,False
+E2,2122,2021-10-16,Cambridge,Ipswich,14,7,False
+E2,2122,2021-10-16,Cheltenham,Accrington,14,14,False
+E2,2122,2021-10-16,Doncaster,Wycombe,14,7,False
+E2,2122,2021-10-16,Fleetwood Town,Crewe,14,14,False
+E2,2122,2021-10-16,Birmingham,Sunderland,7,14,False
+E2,2122,2021-10-16,Lincoln,Charlton,14,14,False
+E2,2122,2021-10-16,Rotherham,Portsmouth,14,14,False
+E2,2122,2021-10-16,Shrewsbury,Milton Keynes Dons,7,14,False
+E2,2122,2021-10-19,Oxford,Shrewsbury,3,3,True
+E2,2122,2021-10-19,Plymouth,Luton,3,3,True
+E2,2122,2021-10-19,Cheltenham,Morecambe,3,4,True
+E2,2122,2021-10-19,Portsmouth,Ipswich,3,3,True
+E2,2122,2021-10-19,Rotherham,Wycombe,3,3,True
+E2,2122,2021-10-19,Wigan,Milton Keynes Dons,3,3,True
+E2,2122,2021-10-19,Cambridge,Sheffield Weds,3,3,True
+E2,2122,2021-10-19,Charlton,Accrington,3,3,True
+E2,2122,2021-10-19,Fleetwood Town,Luton,3,3,True
+E2,2122,2021-10-19,Crewe,Sunderland,3,3,True
+E2,2122,2021-10-19,Birmingham,Doncaster,3,3,True
+E2,2122,2021-10-19,Lincoln,AFC Wimbledon,3,3,True
+E2,2122,2021-10-23,Luton,Birmingham,4,4,False
+E2,2122,2021-10-23,Luton,Oxford,4,4,False
+E2,2122,2021-10-23,Doncaster,Cheltenham,4,4,False
+E2,2122,2021-10-23,Ipswich,Fleetwood Town,4,4,False
+E2,2122,2021-10-23,Milton Keynes Dons,Rotherham,4,4,False
+E2,2122,2021-10-23,Morecambe,Plymouth,4,4,False
+E2,2122,2021-10-23,Sheffield Weds,Lincoln,4,4,False
+E2,2122,2021-10-23,Shrewsbury,Cambridge,4,4,False
+E2,2122,2021-10-23,Accrington,Portsmouth,4,4,False
+E2,2122,2021-10-23,AFC Wimbledon,Wigan,4,4,False
+E2,2122,2021-10-23,Sunderland,Charlton,4,4,False
+E2,2122,2021-10-23,Wycombe,Crewe,4,4,False
+E2,2122,2021-10-26,Doncaster,Cambridge,3,3,True
+E2,2122,2021-10-26,Wigan,Lincoln,3,3,True
+E2,2122,2021-10-30,Cambridge,AFC Wimbledon,4,7,False
+E2,2122,2021-10-30,Charlton,Doncaster,7,4,False
+E2,2122,2021-10-30,Cheltenham,Sheffield Weds,7,7,False
+E2,2122,2021-10-30,Crewe,Milton Keynes Dons,7,7,False
+E2,2122,2021-10-30,Fleetwood Town,Wycombe,7,7,False
+E2,2122,2021-10-30,Birmingham,Accrington,7,7,False
+E2,2122,2021-10-30,Lincoln,Shrewsbury,4,7,False
+E2,2122,2021-10-30,Oxford,Morecambe,7,7,False
+E2,2122,2021-10-30,Plymouth,Ipswich,7,7,False
+E2,2122,2021-10-30,Portsmouth,Luton,7,7,False
+E2,2122,2021-10-30,Rotherham,Sunderland,7,7,False
+E2,2122,2021-10-30,Wigan,Luton,4,7,False
+E2,2122,2021-11-02,Fleetwood Town,Wigan,3,3,True
+E2,2122,2021-11-02,Morecambe,Cambridge,3,3,True
+E2,2122,2021-11-02,Portsmouth,Cheltenham,3,3,True
+E2,2122,2021-11-02,Sheffield Weds,Sunderland,3,3,True
+E2,2122,2021-11-02,Wycombe,Ipswich,3,3,True
+E2,2122,2021-11-02,Crewe,Doncaster,3,3,True
+E2,2122,2021-11-02,Charlton,Rotherham,3,3,True
+E2,2122,2021-11-12,Luton,Crewe,13,10,False
+E2,2122,2021-11-13,Ipswich,Oxford,11,14,False
+E2,2122,2021-11-13,Milton Keynes Dons,Cambridge,14,11,False
+E2,2122,2021-11-13,Sheffield Weds,Birmingham,11,14,False
+E2,2122,2021-11-13,Wycombe,Portsmouth,11,11,False
+E2,2122,2021-11-13,Luton,Charlton,1,11,False
+E2,2122,2021-11-13,Accrington,Plymouth,14,14,False
+E2,2122,2021-11-20,Cheltenham,Shrewsbury,18,21,False
+E2,2122,2021-11-20,Crewe,Birmingham,8,7,False
+E2,2122,2021-11-20,Doncaster,Lincoln,18,21,False
+E2,2122,2021-11-20,Fleetwood Town,Morecambe,18,18,False
+E2,2122,2021-11-20,Milton Keynes Dons,Luton,7,7,False
+E2,2122,2021-11-20,Portsmouth,AFC Wimbledon,7,21,False
+E2,2122,2021-11-20,Rotherham,Cambridge,18,7,False
+E2,2122,2021-11-20,Sunderland,Ipswich,18,7,False
+E2,2122,2021-11-20,Wycombe,Luton,7,7,False
+E2,2122,2021-11-20,Accrington,Sheffield Weds,7,7,False
+E2,2122,2021-11-20,Charlton,Plymouth,7,7,False
+E2,2122,2021-11-23,Morecambe,Charlton,3,3,True
+E2,2122,2021-11-23,AFC Wimbledon,Crewe,3,3,True
+E2,2122,2021-11-23,Luton,Accrington,3,3,True
+E2,2122,2021-11-23,Cambridge,Wigan,3,21,True
+E2,2122,2021-11-23,Birmingham,Cheltenham,3,3,True
+E2,2122,2021-11-23,Ipswich,Rotherham,3,3,True
+E2,2122,2021-11-23,Lincoln,Portsmouth,3,3,True
+E2,2122,2021-11-23,Oxford,Fleetwood Town,10,3,True
+E2,2122,2021-11-23,Plymouth,Wycombe,3,3,True
+E2,2122,2021-11-23,Sheffield Weds,Milton Keynes Dons,3,3,True
+E2,2122,2021-11-23,Shrewsbury,Sunderland,3,3,True
+E2,2122,2021-11-23,Luton,Doncaster,3,3,True
+E2,2122,2021-11-27,Morecambe,Milton Keynes Dons,4,4,False
+E2,2122,2021-11-27,Oxford,Rotherham,4,4,False
+E2,2122,2021-11-27,Plymouth,Wigan,4,4,False
+E2,2122,2021-11-27,Luton,Doncaster,4,4,False
+E2,2122,2021-11-27,Sheffield Weds,Wycombe,4,4,False
+E2,2122,2021-11-27,Shrewsbury,Charlton,4,4,False
+E2,2122,2021-11-27,Lincoln,Accrington,4,4,False
+E2,2122,2021-11-27,AFC Wimbledon,Fleetwood Town,4,4,False
+E2,2122,2021-11-27,Luton,Cheltenham,4,4,False
+E2,2122,2021-11-27,Cambridge,Sunderland,4,4,False
+E2,2122,2021-11-27,Birmingham,Portsmouth,4,4,False
+E2,2122,2021-11-28,Ipswich,Crewe,5,5,False
+E2,2122,2021-12-04,Sunderland,Oxford,7,7,False
+E2,2122,2021-12-04,Accrington,Fleetwood Town,7,7,False
+E2,2122,2021-12-07,Cheltenham,Cambridge,10,10,True
+E2,2122,2021-12-07,Crewe,Lincoln,9,10,True
+E2,2122,2021-12-07,Doncaster,Oxford,10,3,True
+E2,2122,2021-12-07,Fleetwood Town,Luton,3,10,True
+E2,2122,2021-12-07,Portsmouth,Sheffield Weds,10,10,True
+E2,2122,2021-12-07,Rotherham,Birmingham,10,10,True
+E2,2122,2021-12-07,Sunderland,Morecambe,3,10,True
+E2,2122,2021-12-07,Wycombe,Luton,10,10,True
+E2,2122,2021-12-07,Accrington,AFC Wimbledon,3,10,True
+E2,2122,2021-12-07,Charlton,Ipswich,10,9,True
+E2,2122,2021-12-08,Milton Keynes Dons,Plymouth,11,11,True
+E2,2122,2021-12-08,Wigan,Shrewsbury,11,11,True
+E2,2122,2021-12-11,Fleetwood Town,Birmingham,4,4,False
+E2,2122,2021-12-11,Accrington,Luton,4,4,False
+E2,2122,2021-12-11,Charlton,Cambridge,4,4,False
+E2,2122,2021-12-11,Cheltenham,Lincoln,4,4,False
+E2,2122,2021-12-11,Crewe,Sheffield Weds,4,4,False
+E2,2122,2021-12-11,Doncaster,Shrewsbury,4,3,False
+E2,2122,2021-12-11,Milton Keynes Dons,Oxford,3,4,False
+E2,2122,2021-12-11,Portsmouth,Morecambe,4,4,False
+E2,2122,2021-12-11,Rotherham,Luton,4,4,False
+E2,2122,2021-12-11,Sunderland,Plymouth,4,3,False
+E2,2122,2021-12-11,Wigan,Ipswich,3,4,False
+E2,2122,2021-12-11,Wycombe,AFC Wimbledon,4,4,False
+E2,2122,2021-12-18,Morecambe,Fleetwood Town,7,7,False
+E2,2122,2021-12-18,Oxford,Wigan,7,7,False
+E2,2122,2021-12-18,Plymouth,Charlton,7,7,False
+E2,2122,2021-12-18,Shrewsbury,Cheltenham,7,7,False
+E2,2122,2021-12-18,Ipswich,Sunderland,7,7,False
+E2,2122,2021-12-18,Cambridge,Rotherham,7,7,False
+E2,2122,2021-12-26,Fleetwood Town,Shrewsbury,8,8,False
+E2,2122,2021-12-26,Lincoln,Milton Keynes Dons,15,15,False
+E2,2122,2021-12-26,Accrington,Rotherham,15,8,False
+E2,2122,2021-12-26,Cheltenham,Plymouth,8,8,False
+E2,2122,2021-12-27,Doncaster,Sunderland,16,9,False
+E2,2122,2021-12-29,Oxford,AFC Wimbledon,11,18,True
+E2,2122,2021-12-29,Shrewsbury,Accrington,3,3,True
+E2,2122,2021-12-29,Morecambe,Crewe,11,18,True
+E2,2122,2021-12-29,Ipswich,Wycombe,11,18,True
+E2,2122,2021-12-30,Sunderland,Sheffield Weds,3,19,True
+E2,2122,2022-01-01,Charlton,Wycombe,14,3,False
+E2,2122,2022-01-01,Milton Keynes Dons,Birmingham,6,21,False
+E2,2122,2022-01-01,Oxford,Cheltenham,3,6,False
+E2,2122,2022-01-01,Rotherham,Luton,6,21,False
+E2,2122,2022-01-01,Luton,Crewe,21,3,False
+E2,2122,2022-01-02,Morecambe,Doncaster,4,6,False
+E2,2122,2022-01-02,Shrewsbury,Sheffield Weds,4,3,False
+E2,2122,2022-01-03,Cambridge,Portsmouth,16,23,False
+E2,2122,2022-01-08,Wycombe,Sunderland,7,9,False
+E2,2122,2022-01-08,Doncaster,Fleetwood Town,6,13,False
+E2,2122,2022-01-08,Cheltenham,Luton,7,7,False
+E2,2122,2022-01-08,Lincoln,Oxford,13,7,False
+E2,2122,2022-01-08,Birmingham,Ipswich,7,10,False
+E2,2122,2022-01-08,Accrington,Milton Keynes Dons,10,7,False
+E2,2122,2022-01-11,Sunderland,Lincoln,3,3,True
+E2,2122,2022-01-11,Milton Keynes Dons,AFC Wimbledon,3,13,True
+E2,2122,2022-01-11,Luton,Wycombe,3,3,True
+E2,2122,2022-01-12,Crewe,Charlton,11,11,True
+E2,2122,2022-01-15,Accrington,Sunderland,7,4,False
+E2,2122,2022-01-15,Cheltenham,Charlton,7,3,False
+E2,2122,2022-01-15,Crewe,Shrewsbury,3,13,False
+E2,2122,2022-01-15,Doncaster,Wigan,7,28,False
+E2,2122,2022-01-15,Fleetwood Town,Rotherham,7,14,False
+E2,2122,2022-01-15,Birmingham,Luton,7,4,False
+E2,2122,2022-01-15,Lincoln,Cambridge,4,12,False
+E2,2122,2022-01-15,Portsmouth,Milton Keynes Dons,12,4,False
+E2,2122,2022-01-15,Sheffield Weds,Plymouth,13,20,False
+E2,2122,2022-01-15,Wycombe,Oxford,4,7,False
+E2,2122,2022-01-15,AFC Wimbledon,Morecambe,4,13,False
+E2,2122,2022-01-15,Luton,Ipswich,4,7,False
+E2,2122,2022-01-18,Morecambe,Wigan,3,3,True
+E2,2122,2022-01-18,AFC Wimbledon,Portsmouth,3,3,True
+E2,2122,2022-01-18,Cambridge,Doncaster,3,3,True
+E2,2122,2022-01-22,Oxford,Sheffield Weds,7,7,False
+E2,2122,2022-01-22,Luton,AFC Wimbledon,7,4,False
+E2,2122,2022-01-22,Cambridge,Crewe,4,7,False
+E2,2122,2022-01-22,Charlton,Fleetwood Town,7,7,False
+E2,2122,2022-01-22,Ipswich,Accrington,7,7,False
+E2,2122,2022-01-22,Milton Keynes Dons,Doncaster,7,4,False
+E2,2122,2022-01-22,Morecambe,Wycombe,4,7,False
+E2,2122,2022-01-22,Plymouth,Lincoln,7,7,False
+E2,2122,2022-01-22,Rotherham,Cheltenham,7,7,False
+E2,2122,2022-01-22,Shrewsbury,Luton,7,7,False
+E2,2122,2022-01-22,Sunderland,Portsmouth,7,4,False
+E2,2122,2022-01-22,Wigan,Birmingham,4,7,False
+E2,2122,2022-01-25,Fleetwood Town,Plymouth,3,3,True
+E2,2122,2022-01-25,Birmingham,Shrewsbury,3,3,True
+E2,2122,2022-01-25,Luton,Milton Keynes Dons,3,3,True
+E2,2122,2022-01-25,AFC Wimbledon,Ipswich,3,3,True
+E2,2122,2022-01-29,Luton,Sunderland,4,7,False
+E2,2122,2022-01-29,Cheltenham,Wigan,7,7,False
+E2,2122,2022-01-29,Crewe,Rotherham,7,7,False
+E2,2122,2022-01-29,Doncaster,Plymouth,7,4,False
+E2,2122,2022-01-29,Fleetwood Town,Cambridge,4,7,False
+E2,2122,2022-01-29,Birmingham,Oxford,4,7,False
+E2,2122,2022-01-29,Lincoln,Luton,7,4,False
+E2,2122,2022-01-29,Sheffield Weds,Ipswich,7,4,False
+E2,2122,2022-01-29,Wycombe,Milton Keynes Dons,7,4,False
+E2,2122,2022-01-29,Accrington,Morecambe,7,7,False
+E2,2122,2022-01-29,AFC Wimbledon,Shrewsbury,4,4,False
+E2,2122,2022-01-31,Portsmouth,Charlton,9,9,False
+E2,2122,2022-02-01,Birmingham,Crewe,3,3,True
+E2,2122,2022-02-01,Sheffield Weds,Morecambe,3,3,True
+E2,2122,2022-02-01,Doncaster,Rotherham,3,3,True
+E2,2122,2022-02-01,Luton,Cambridge,3,3,True
+E2,2122,2022-02-01,AFC Wimbledon,Cheltenham,3,3,True
+E2,2122,2022-02-01,Wigan,Oxford,3,3,True
+E2,2122,2022-02-05,Sunderland,Doncaster,7,4,False
+E2,2122,2022-02-05,Luton,Sheffield Weds,4,4,False
+E2,2122,2022-02-05,Charlton,AFC Wimbledon,5,4,False
+E2,2122,2022-02-05,Ipswich,Birmingham,7,4,False
+E2,2122,2022-02-05,Milton Keynes Dons,Lincoln,7,7,False
+E2,2122,2022-02-05,Morecambe,Luton,4,4,False
+E2,2122,2022-02-05,Oxford,Portsmouth,4,5,False
+E2,2122,2022-02-05,Rotherham,Accrington,4,7,False
+E2,2122,2022-02-05,Shrewsbury,Fleetwood Town,7,7,False
+E2,2122,2022-02-08,Fleetwood Town,Milton Keynes Dons,3,3,True
+E2,2122,2022-02-08,Birmingham,Cambridge,3,7,True
+E2,2122,2022-02-08,Lincoln,Morecambe,3,3,True
+E2,2122,2022-02-08,Portsmouth,Luton,3,3,True
+E2,2122,2022-02-08,Cheltenham,Sunderland,7,3,True
+E2,2122,2022-02-08,Sheffield Weds,Wigan,3,7,True
+E2,2122,2022-02-08,Accrington,Oxford,3,3,True
+E2,2122,2022-02-08,AFC Wimbledon,Rotherham,3,3,True
+E2,2122,2022-02-08,Wycombe,Shrewsbury,10,3,True
+E2,2122,2022-02-08,Luton,Charlton,3,3,True
+E2,2122,2022-02-08,Crewe,Plymouth,7,10,True
+E2,2122,2022-02-08,Doncaster,Ipswich,3,3,True
+E2,2122,2022-02-12,AFC Wimbledon,Sunderland,4,4,False
+E2,2122,2022-02-12,Cheltenham,Fleetwood Town,4,4,False
+E2,2122,2022-02-12,Lincoln,Wycombe,4,4,False
+E2,2122,2022-02-12,Milton Keynes Dons,Ipswich,4,4,False
+E2,2122,2022-02-12,Morecambe,Birmingham,4,4,False
+E2,2122,2022-02-12,Oxford,Luton,4,4,False
+E2,2122,2022-02-12,Plymouth,Shrewsbury,4,4,False
+E2,2122,2022-02-12,Portsmouth,Doncaster,4,4,False
+E2,2122,2022-02-12,Wigan,Charlton,4,4,False
+E2,2122,2022-02-12,Accrington,Crewe,4,4,False
+E2,2122,2022-02-12,Luton,Cambridge,4,4,False
+E2,2122,2022-02-13,Sheffield Weds,Rotherham,5,5,False
+E2,2122,2022-02-15,Lincoln,Doncaster,3,3,True
+E2,2122,2022-02-15,Wigan,Crewe,3,3,True
+E2,2122,2022-02-15,Luton,Luton,3,3,True
+E2,2122,2022-02-18,Rotherham,Wigan,5,3,False
+E2,2122,2022-02-19,Sunderland,Milton Keynes Dons,7,7,False
+E2,2122,2022-02-19,Luton,AFC Wimbledon,4,7,False
+E2,2122,2022-02-19,Cambridge,Accrington,7,7,False
+E2,2122,2022-02-19,Charlton,Oxford,7,7,False
+E2,2122,2022-02-19,Doncaster,Sheffield Weds,4,6,False
+E2,2122,2022-02-19,Birmingham,Plymouth,7,7,False
+E2,2122,2022-02-19,Ipswich,Luton,7,4,False
+E2,2122,2022-02-19,Wycombe,Cheltenham,7,7,False
+E2,2122,2022-02-22,Crewe,Oxford,7,3,True
+E2,2122,2022-02-22,Doncaster,Accrington,3,3,True
+E2,2122,2022-02-22,Birmingham,AFC Wimbledon,3,3,True
+E2,2122,2022-02-22,Ipswich,Cheltenham,3,3,True
+E2,2122,2022-02-22,Rotherham,Morecambe,4,10,True
+E2,2122,2022-02-22,Shrewsbury,Portsmouth,10,10,True
+E2,2122,2022-02-22,Sunderland,Luton,3,3,True
+E2,2122,2022-02-22,Wycombe,Wigan,3,4,True
+E2,2122,2022-02-22,Luton,Lincoln,3,7,True
+E2,2122,2022-02-22,Charlton,Milton Keynes Dons,3,3,True
+E2,2122,2022-02-22,Cambridge,Plymouth,3,3,True
+E2,2122,2022-02-26,AFC Wimbledon,Doncaster,4,4,False
+E2,2122,2022-02-26,Cheltenham,Crewe,4,4,False
+E2,2122,2022-02-26,Lincoln,Birmingham,4,4,False
+E2,2122,2022-02-26,Milton Keynes Dons,Luton,4,4,False
+E2,2122,2022-02-26,Morecambe,Ipswich,4,4,False
+E2,2122,2022-02-26,Oxford,Cambridge,4,4,False
+E2,2122,2022-02-26,Plymouth,Rotherham,4,4,False
+E2,2122,2022-02-26,Portsmouth,Fleetwood Town,4,14,False
+E2,2122,2022-02-26,Sheffield Weds,Charlton,7,4,False
+E2,2122,2022-02-26,Wigan,Sunderland,4,4,False
+E2,2122,2022-02-26,Accrington,Wycombe,4,4,False
+E2,2122,2022-02-26,Luton,Shrewsbury,4,4,False
+E2,2122,2022-03-01,Shrewsbury,Rotherham,3,3,True
+E2,2122,2022-03-01,Wigan,Fleetwood Town,3,3,True
+E2,2122,2022-03-01,Wycombe,Cambridge,3,3,True
+E2,2122,2022-03-01,Portsmouth,Oxford,3,3,True
+E2,2122,2022-03-01,Sheffield Weds,Luton,3,3,True
+E2,2122,2022-03-05,Birmingham,Luton,7,4,False
+E2,2122,2022-03-05,Cambridge,Shrewsbury,4,4,False
+E2,2122,2022-03-05,Charlton,Sunderland,7,7,False
+E2,2122,2022-03-05,Cheltenham,Doncaster,7,7,False
+E2,2122,2022-03-05,Crewe,Wycombe,7,4,False
+E2,2122,2022-03-05,Fleetwood Town,Ipswich,4,7,False
+E2,2122,2022-03-05,Lincoln,Sheffield Weds,7,4,False
+E2,2122,2022-03-05,Oxford,Luton,4,4,False
+E2,2122,2022-03-05,Plymouth,Morecambe,7,7,False
+E2,2122,2022-03-05,Portsmouth,Accrington,4,7,False
+E2,2122,2022-03-05,Rotherham,Milton Keynes Dons,4,7,False
+E2,2122,2022-03-05,Wigan,AFC Wimbledon,4,7,False
+E2,2122,2022-03-08,Crewe,Portsmouth,3,3,True
+E2,2122,2022-03-08,Ipswich,Lincoln,3,3,True
+E2,2122,2022-03-08,Sunderland,Fleetwood Town,3,3,True
+E2,2122,2022-03-08,Plymouth,AFC Wimbledon,3,3,True
+E2,2122,2022-03-08,Luton,Morecambe,3,3,True
+E2,2122,2022-03-08,Milton Keynes Dons,Cheltenham,3,3,True
+E2,2122,2022-03-12,Milton Keynes Dons,Wigan,4,7,False
+E2,2122,2022-03-12,Morecambe,Cheltenham,4,4,False
+E2,2122,2022-03-12,Accrington,Charlton,7,7,False
+E2,2122,2022-03-12,Shrewsbury,Oxford,7,7,False
+E2,2122,2022-03-12,Sunderland,Crewe,4,4,False
+E2,2122,2022-03-12,Wycombe,Rotherham,7,7,False
+E2,2122,2022-03-12,Sheffield Weds,Cambridge,7,7,False
+E2,2122,2022-03-12,AFC Wimbledon,Lincoln,4,4,False
+E2,2122,2022-03-12,Luton,Plymouth,4,4,False
+E2,2122,2022-03-12,Luton,Fleetwood Town,4,4,False
+E2,2122,2022-03-12,Doncaster,Birmingham,7,7,False
+E2,2122,2022-03-12,Ipswich,Portsmouth,4,4,False
+E2,2122,2022-03-15,Plymouth,Portsmouth,3,3,True
+E2,2122,2022-03-15,Rotherham,Lincoln,3,3,True
+E2,2122,2022-03-15,Sheffield Weds,Accrington,3,3,True
+E2,2122,2022-03-15,Shrewsbury,Morecambe,3,3,True
+E2,2122,2022-03-15,Wycombe,Fleetwood Town,3,3,True
+E2,2122,2022-03-15,Crewe,Wigan,3,3,True
+E2,2122,2022-03-15,Charlton,Birmingham,3,3,True
+E2,2122,2022-03-19,Charlton,Luton,4,7,False
+E2,2122,2022-03-19,Cambridge,Milton Keynes Dons,7,7,False
+E2,2122,2022-03-19,Cheltenham,AFC Wimbledon,7,7,False
+E2,2122,2022-03-19,Crewe,Luton,4,7,False
+E2,2122,2022-03-19,Fleetwood Town,Doncaster,4,7,False
+E2,2122,2022-03-19,Birmingham,Sheffield Weds,4,4,False
+E2,2122,2022-03-19,Lincoln,Sunderland,4,7,False
+E2,2122,2022-03-19,Oxford,Ipswich,7,7,False
+E2,2122,2022-03-19,Plymouth,Accrington,4,4,False
+E2,2122,2022-03-19,Portsmouth,Wycombe,4,4,False
+E2,2122,2022-03-19,Rotherham,Shrewsbury,4,4,False
+E2,2122,2022-03-19,Wigan,Morecambe,4,4,False
+E2,2122,2022-03-22,Plymouth,Cheltenham,3,3,True
+E2,2122,2022-03-26,Doncaster,Charlton,7,7,False
+E2,2122,2022-03-26,Ipswich,Plymouth,7,4,False
+E2,2122,2022-03-26,Sheffield Weds,Cheltenham,7,4,False
+E2,2122,2022-03-26,Shrewsbury,Lincoln,7,7,False
+E2,2122,2022-03-26,AFC Wimbledon,Cambridge,7,7,False
+E2,2122,2022-03-26,Accrington,Birmingham,7,7,False
+E2,2122,2022-04-02,Charlton,Lincoln,7,7,False
+E2,2122,2022-04-02,Crewe,Fleetwood Town,14,14,False
+E2,2122,2022-04-02,Ipswich,Cambridge,7,7,False
+E2,2122,2022-04-02,Milton Keynes Dons,Shrewsbury,14,7,False
+E2,2122,2022-04-02,Morecambe,Luton,14,14,False
+E2,2122,2022-04-02,Plymouth,Oxford,7,14,False
+E2,2122,2022-04-02,Sheffield Weds,AFC Wimbledon,7,7,False
+E2,2122,2022-04-02,Sunderland,Birmingham,14,7,False
+E2,2122,2022-04-02,Wycombe,Doncaster,14,7,False
+E2,2122,2022-04-02,Wigan,Luton,14,14,False
+E2,2122,2022-04-02,Accrington,Cheltenham,7,7,False
+E2,2122,2022-04-05,Fleetwood Town,Lincoln,3,3,True
+E2,2122,2022-04-05,Milton Keynes Dons,Crewe,3,3,True
+E2,2122,2022-04-05,Morecambe,Oxford,3,3,True
+E2,2122,2022-04-05,Wigan,Accrington,3,3,True
+E2,2122,2022-04-05,Luton,Portsmouth,3,17,True
+E2,2122,2022-04-05,AFC Wimbledon,Charlton,3,3,True
+E2,2122,2022-04-05,Cambridge,Wycombe,3,3,True
+E2,2122,2022-04-09,Cambridge,Morecambe,4,4,False
+E2,2122,2022-04-09,AFC Wimbledon,Milton Keynes Dons,4,4,False
+E2,2122,2022-04-09,Luton,Sheffield Weds,4,7,False
+E2,2122,2022-04-09,Luton,Plymouth,4,7,False
+E2,2122,2022-04-09,Cheltenham,Portsmouth,7,4,False
+E2,2122,2022-04-09,Doncaster,Crewe,7,4,False
+E2,2122,2022-04-09,Fleetwood Town,Accrington,4,4,False
+E2,2122,2022-04-09,Birmingham,Wycombe,7,4,False
+E2,2122,2022-04-09,Lincoln,Wigan,4,4,False
+E2,2122,2022-04-09,Oxford,Sunderland,4,7,False
+E2,2122,2022-04-09,Rotherham,Charlton,21,4,False
+E2,2122,2022-04-09,Shrewsbury,Ipswich,7,7,False
+E2,2122,2022-04-12,Portsmouth,Rotherham,3,3,True
+E2,2122,2022-04-12,Luton,Wigan,3,3,True
+E2,2122,2022-04-15,Fleetwood Town,Oxford,6,6,False
+E2,2122,2022-04-15,Portsmouth,Lincoln,3,6,False
+E2,2122,2022-04-15,Sunderland,Shrewsbury,6,6,False
+E2,2122,2022-04-15,Wycombe,Plymouth,6,6,False
+E2,2122,2022-04-15,Accrington,Luton,6,3,False
+E2,2122,2022-04-15,Crewe,AFC Wimbledon,6,6,False
+E2,2122,2022-04-15,Doncaster,Luton,6,3,False
+E2,2122,2022-04-15,Charlton,Morecambe,6,6,False
+E2,2122,2022-04-15,Cheltenham,Birmingham,6,6,False
+E2,2122,2022-04-16,Rotherham,Ipswich,4,7,False
+E2,2122,2022-04-16,Milton Keynes Dons,Sheffield Weds,7,7,False
+E2,2122,2022-04-16,Wigan,Cambridge,4,7,False
+E2,2122,2022-04-18,Birmingham,Fleetwood Town,3,3,False
+E2,2122,2022-04-18,Lincoln,Cheltenham,3,3,False
+E2,2122,2022-04-18,Morecambe,Portsmouth,3,3,False
+E2,2122,2022-04-18,Plymouth,Sunderland,3,3,False
+E2,2122,2022-04-18,Shrewsbury,Doncaster,3,3,False
+E2,2122,2022-04-18,AFC Wimbledon,Wycombe,3,3,False
+E2,2122,2022-04-18,Luton,Accrington,3,3,False
+E2,2122,2022-04-19,Ipswich,Wigan,3,3,True
+E2,2122,2022-04-19,Oxford,Milton Keynes Dons,4,3,True
+E2,2122,2022-04-19,Sheffield Weds,Crewe,3,4,True
+E2,2122,2022-04-19,Luton,Rotherham,1,3,True
+E2,2122,2022-04-19,Cambridge,Charlton,3,4,True
+E2,2122,2022-04-23,Rotherham,Oxford,4,4,False
+E2,2122,2022-04-23,Accrington,Lincoln,5,5,False
+E2,2122,2022-04-23,Charlton,Shrewsbury,4,5,False
+E2,2122,2022-04-23,Cheltenham,Luton,5,4,False
+E2,2122,2022-04-23,Crewe,Ipswich,4,4,False
+E2,2122,2022-04-23,Doncaster,Luton,5,4,False
+E2,2122,2022-04-23,Fleetwood Town,AFC Wimbledon,5,5,False
+E2,2122,2022-04-23,Milton Keynes Dons,Morecambe,4,5,False
+E2,2122,2022-04-23,Portsmouth,Birmingham,5,5,False
+E2,2122,2022-04-23,Sunderland,Cambridge,5,4,False
+E2,2122,2022-04-23,Wigan,Plymouth,4,5,False
+E2,2122,2022-04-23,Wycombe,Sheffield Weds,5,4,False
+E2,2122,2022-04-26,Sunderland,Rotherham,3,3,True
+E2,2122,2022-04-26,Portsmouth,Wigan,3,3,True
+E2,2122,2022-04-26,Fleetwood Town,Sheffield Weds,3,3,True
+E2,2122,2022-04-30,Luton,Wycombe,7,7,False
+E2,2122,2022-04-30,Cambridge,Cheltenham,7,7,False
+E2,2122,2022-04-30,Birmingham,Rotherham,7,4,False
+E2,2122,2022-04-30,Ipswich,Charlton,7,7,False
+E2,2122,2022-04-30,Lincoln,Crewe,7,7,False
+E2,2122,2022-04-30,Morecambe,Sunderland,7,4,False
+E2,2122,2022-04-30,Oxford,Doncaster,7,7,False
+E2,2122,2022-04-30,Plymouth,Milton Keynes Dons,7,7,False
+E2,2122,2022-04-30,Sheffield Weds,Portsmouth,4,4,False
+E2,2122,2022-04-30,Shrewsbury,Wigan,7,4,False
+E2,2122,2022-04-30,AFC Wimbledon,Accrington,7,7,False
+E2,2122,2022-04-30,Luton,Fleetwood Town,7,4,False

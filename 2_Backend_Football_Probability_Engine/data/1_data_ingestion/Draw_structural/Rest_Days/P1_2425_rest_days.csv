@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+P1,2425,2024-08-09,Sp Lisbon,Rio Ave,83,84,False
+P1,2425,2024-08-10,Casa Pia,Boavista,85,84,False
+P1,2425,2024-08-10,AVS,Nacional,1476,1179,False
+P1,2425,2024-08-10,Porto,Gil Vicente,84,84,False
+P1,2425,2024-08-11,Estoril,Santa Clara,85,442,False
+P1,2425,2024-08-11,Farense,Moreirense,85,85,False
+P1,2425,2024-08-11,Famalicao,Benfica,86,86,False
+P1,2425,2024-08-11,Sp Braga,Estoril,85,85,False
+P1,2425,2024-08-12,Arouca,Guimaraes,86,86,False
+P1,2425,2024-08-16,Gil Vicente,AVS,6,6,False
+P1,2425,2024-08-16,Santa Clara,Porto,5,6,False
+P1,2425,2024-08-17,Benfica,Casa Pia,6,7,False
+P1,2425,2024-08-17,Rio Ave,Farense,8,6,False
+P1,2425,2024-08-17,Nacional,Sp Lisbon,7,8,False
+P1,2425,2024-08-18,Boavista,Sp Braga,8,7,False
+P1,2425,2024-08-18,Moreirense,Arouca,7,6,False
+P1,2425,2024-08-18,Guimaraes,Estoril,6,7,False
+P1,2425,2024-08-19,Estoril,Famalicao,1,8,False
+P1,2425,2024-08-23,Farense,Sp Lisbon,6,6,False
+P1,2425,2024-08-24,Famalicao,Boavista,5,6,False
+P1,2425,2024-08-24,Casa Pia,Santa Clara,7,8,False
+P1,2425,2024-08-24,Porto,Rio Ave,8,7,False
+P1,2425,2024-08-24,Benfica,Estoril,7,5,False
+P1,2425,2024-08-25,AVS,Guimaraes,9,7,False
+P1,2425,2024-08-25,Sp Braga,Moreirense,7,7,False
+P1,2425,2024-08-25,Estoril,Gil Vicente,1,9,False
+P1,2425,2024-08-25,Arouca,Nacional,7,8,False
+P1,2425,2024-08-30,Moreirense,Benfica,5,6,False
+P1,2425,2024-08-31,Estoril,Casa Pia,6,7,False
+P1,2425,2024-08-31,Sp Lisbon,Porto,8,7,False
+P1,2425,2024-08-31,Boavista,Estoril,7,6,False
+P1,2425,2024-08-31,Santa Clara,AVS,7,6,False
+P1,2425,2024-09-01,Gil Vicente,Sp Braga,7,7,False
+P1,2425,2024-09-01,Guimaraes,Famalicao,7,8,False
+P1,2425,2024-09-01,Nacional,Farense,7,9,False
+P1,2425,2024-09-01,Rio Ave,Arouca,8,7,False
+P1,2425,2024-09-13,Arouca,Sp Lisbon,12,13,False
+P1,2425,2024-09-14,AVS,Rio Ave,14,13,False
+P1,2425,2024-09-14,Benfica,Santa Clara,15,14,False
+P1,2425,2024-09-14,Famalicao,Gil Vicente,13,13,False
+P1,2425,2024-09-14,Casa Pia,Moreirense,14,15,False
+P1,2425,2024-09-15,Porto,Farense,15,14,False
+P1,2425,2024-09-15,Estoril,Nacional,15,14,False
+P1,2425,2024-09-15,Sp Braga,Guimaraes,14,14,False
+P1,2425,2024-09-16,Estoril,Boavista,1,16,False
+P1,2425,2024-09-20,Nacional,Sp Braga,5,5,False
+P1,2425,2024-09-21,Guimaraes,Porto,6,6,False
+P1,2425,2024-09-21,Moreirense,Famalicao,7,7,False
+P1,2425,2024-09-21,Rio Ave,Estoril,7,5,False
+P1,2425,2024-09-21,Santa Clara,Estoril,7,5,False
+P1,2425,2024-09-22,Sp Lisbon,AVS,9,8,False
+P1,2425,2024-09-22,Farense,Arouca,7,9,False
+P1,2425,2024-09-22,Gil Vicente,Casa Pia,8,8,False
+P1,2425,2024-09-23,Boavista,Benfica,7,9,False
+P1,2425,2024-09-27,Estoril,Sp Lisbon,6,5,False
+P1,2425,2024-09-28,Benfica,Gil Vicente,5,6,False
+P1,2425,2024-09-28,Estoril,Moreirense,1,7,False
+P1,2425,2024-09-28,Casa Pia,Guimaraes,6,7,False
+P1,2425,2024-09-29,Santa Clara,Boavista,8,6,False
+P1,2425,2024-09-29,Sp Braga,Rio Ave,9,8,False
+P1,2425,2024-09-29,Porto,Arouca,8,7,False
+P1,2425,2024-09-29,Famalicao,Nacional,8,9,False
+P1,2425,2024-09-30,AVS,Farense,8,8,False
+P1,2425,2024-10-04,Rio Ave,Famalicao,5,5,False
+P1,2425,2024-10-05,Arouca,AVS,6,5,False
+P1,2425,2024-10-05,Sp Lisbon,Casa Pia,8,7,False
+P1,2425,2024-10-05,Gil Vicente,Estoril,7,7,False
+P1,2425,2024-10-05,Moreirense,Santa Clara,7,6,False
+P1,2425,2024-10-06,Porto,Sp Braga,7,7,False
+P1,2425,2024-10-06,Guimaraes,Boavista,8,7,False
+P1,2425,2024-10-06,Farense,Estoril,6,1,False
+P1,2425,2024-10-25,Santa Clara,Gil Vicente,20,20,False
+P1,2425,2024-10-25,Casa Pia,Nacional,20,26,False
+P1,2425,2024-10-26,Famalicao,Sp Lisbon,22,21,False
+P1,2425,2024-10-26,Estoril,Arouca,20,21,False
+P1,2425,2024-10-26,Boavista,Moreirense,20,21,False
+P1,2425,2024-10-27,Estoril,Guimaraes,1,21,False
+P1,2425,2024-10-27,Benfica,Rio Ave,29,23,False
+P1,2425,2024-10-27,Sp Braga,Farense,21,21,False
+P1,2425,2024-10-28,AVS,Porto,23,22,False
+P1,2425,2024-11-01,Sp Lisbon,Estoril,6,5,False
+P1,2425,2024-11-02,Rio Ave,Casa Pia,6,8,False
+P1,2425,2024-11-02,Gil Vicente,Boavista,8,7,False
+P1,2425,2024-11-02,Farense,Benfica,6,6,False
+P1,2425,2024-11-03,AVS,Famalicao,6,8,False
+P1,2425,2024-11-03,Arouca,Sp Braga,8,7,False
+P1,2425,2024-11-03,Guimaraes,Moreirense,7,8,False
+P1,2425,2024-11-03,Porto,Estoril,6,2,False
+P1,2425,2024-11-04,Nacional,Santa Clara,10,10,False
+P1,2425,2024-11-08,Moreirense,Gil Vicente,5,6,False
+P1,2425,2024-11-09,Famalicao,Arouca,6,6,False
+P1,2425,2024-11-09,Boavista,Rio Ave,7,7,False
+P1,2425,2024-11-09,Casa Pia,Farense,7,7,False
+P1,2425,2024-11-09,Estoril,AVS,6,6,False
+P1,2425,2024-11-10,Sp Braga,Sp Lisbon,7,9,False
+P1,2425,2024-11-10,Benfica,Porto,8,7,False
+P1,2425,2024-11-10,Santa Clara,Guimaraes,6,7,False
+P1,2425,2024-11-10,Estoril,Nacional,1,6,False
+P1,2425,2024-11-29,Farense,Estoril,20,19,False
+P1,2425,2024-11-30,Sp Lisbon,Santa Clara,20,20,False
+P1,2425,2024-11-30,Nacional,Boavista,20,21,False
+P1,2425,2024-11-30,Rio Ave,Moreirense,21,22,False
+P1,2425,2024-12-01,AVS,Sp Braga,22,21,False
+P1,2425,2024-12-01,Estoril,Famalicao,2,22,False
+P1,2425,2024-12-01,Arouca,Benfica,22,21,False
+P1,2425,2024-12-02,Guimaraes,Gil Vicente,22,24,False
+P1,2425,2024-12-02,Porto,Casa Pia,22,23,False
+P1,2425,2024-12-05,Moreirense,Sp Lisbon,5,5,True
+P1,2425,2024-12-06,Sp Braga,Estoril,5,5,False
+P1,2425,2024-12-07,Santa Clara,Rio Ave,7,7,False
+P1,2425,2024-12-07,Famalicao,Porto,6,5,False
+P1,2425,2024-12-07,Benfica,Guimaraes,6,5,False
+P1,2425,2024-12-07,Gil Vicente,Nacional,5,7,False
+P1,2425,2024-12-08,Boavista,Farense,8,9,False
+P1,2425,2024-12-08,Casa Pia,AVS,6,7,False
+P1,2425,2024-12-09,Estoril,Arouca,3,8,False
+P1,2425,2024-12-14,Farense,Gil Vicente,6,7,False
+P1,2425,2024-12-14,Nacional,Moreirense,7,9,False
+P1,2425,2024-12-14,Sp Lisbon,Boavista,9,6,False
+P1,2425,2024-12-15,Arouca,Santa Clara,6,8,False
+P1,2425,2024-12-15,AVS,Benfica,7,8,False
+P1,2425,2024-12-15,Estoril,Casa Pia,6,7,False
+P1,2425,2024-12-16,Rio Ave,Guimaraes,9,9,False
+P1,2425,2024-12-16,Porto,Estoril,9,1,False
+P1,2425,2024-12-16,Sp Braga,Famalicao,10,9,False
+P1,2425,2024-12-19,Nacional,Benfica,5,4,True
+P1,2425,2024-12-20,Casa Pia,Arouca,5,5,False
+P1,2425,2024-12-21,Moreirense,Porto,7,5,False
+P1,2425,2024-12-21,Famalicao,Farense,5,7,False
+P1,2425,2024-12-21,Boavista,AVS,7,6,False
+P1,2425,2024-12-22,Santa Clara,Sp Braga,7,6,False
+P1,2425,2024-12-22,Gil Vicente,Sp Lisbon,8,8,False
+P1,2425,2024-12-23,Estoril,Rio Ave,7,7,False
+P1,2425,2024-12-23,Benfica,Estoril,4,7,False
+P1,2425,2024-12-23,Guimaraes,Nacional,7,4,False
+P1,2425,2024-12-27,Arouca,Gil Vicente,7,5,False
+P1,2425,2024-12-28,Porto,Boavista,7,7,False
+P1,2425,2024-12-28,Estoril,Moreirense,5,7,False
+P1,2425,2024-12-28,AVS,Estoril,7,5,False
+P1,2425,2024-12-29,Sp Braga,Casa Pia,7,9,False
+P1,2425,2024-12-29,Sp Lisbon,Benfica,7,6,False
+P1,2425,2024-12-29,Farense,Guimaraes,8,6,False
+P1,2425,2024-12-29,Rio Ave,Nacional,6,6,False
+P1,2425,2024-12-30,Famalicao,Santa Clara,9,8,False
+P1,2425,2025-01-03,Guimaraes,Sp Lisbon,5,5,False
+P1,2425,2025-01-04,Boavista,Arouca,7,8,False
+P1,2425,2025-01-04,Moreirense,AVS,7,7,False
+P1,2425,2025-01-04,Benfica,Sp Braga,6,6,False
+P1,2425,2025-01-05,Estoril,Estoril,8,8,False
+P1,2425,2025-01-05,Casa Pia,Famalicao,7,6,False
+P1,2425,2025-01-05,Santa Clara,Farense,6,7,False
+P1,2425,2025-01-06,Gil Vicente,Rio Ave,10,8,False
+P1,2425,2025-01-12,Nacional,Porto,14,15,False
+P1,2425,2025-01-17,Benfica,Famalicao,13,12,False
+P1,2425,2025-01-18,Rio Ave,Sp Lisbon,12,15,False
+P1,2425,2025-01-18,Santa Clara,Estoril,13,13,False
+P1,2425,2025-01-18,Guimaraes,Arouca,15,14,False
+P1,2425,2025-01-19,Estoril,Sp Braga,1,15,False
+P1,2425,2025-01-19,Gil Vicente,Porto,13,7,False
+P1,2425,2025-01-19,Nacional,AVS,7,15,False
+P1,2425,2025-01-19,Moreirense,Farense,15,14,False
+P1,2425,2025-01-20,Boavista,Casa Pia,16,15,False
+P1,2425,2025-01-24,Arouca,Moreirense,6,5,False
+P1,2425,2025-01-25,Casa Pia,Benfica,5,8,False
+P1,2425,2025-01-25,Sp Lisbon,Nacional,7,6,False
+P1,2425,2025-01-25,Famalicao,Estoril,8,6,False
+P1,2425,2025-01-25,Farense,Rio Ave,6,7,False
+P1,2425,2025-01-26,Sp Braga,Boavista,7,6,False
+P1,2425,2025-01-26,Porto,Santa Clara,7,8,False
+P1,2425,2025-01-26,Estoril,Guimaraes,1,8,False
+P1,2425,2025-01-27,AVS,Gil Vicente,8,8,False
+P1,2425,2025-01-31,Boavista,Famalicao,5,6,False
+P1,2425,2025-02-01,Gil Vicente,Estoril,5,6,False
+P1,2425,2025-02-01,Guimaraes,AVS,6,5,False
+P1,2425,2025-02-01,Nacional,Arouca,7,8,False
+P1,2425,2025-02-01,Santa Clara,Casa Pia,6,7,False
+P1,2425,2025-02-02,Sp Lisbon,Farense,8,8,False
+P1,2425,2025-02-02,Estoril,Benfica,1,8,False
+P1,2425,2025-02-03,Moreirense,Sp Braga,10,8,False
+P1,2425,2025-02-03,Rio Ave,Porto,9,8,False
+P1,2425,2025-02-07,Porto,Sp Lisbon,4,5,False
+P1,2425,2025-02-08,Famalicao,Guimaraes,8,7,False
+P1,2425,2025-02-08,Benfica,Moreirense,6,5,False
+P1,2425,2025-02-08,AVS,Santa Clara,7,7,False
+P1,2425,2025-02-09,Sp Braga,Gil Vicente,6,8,False
+P1,2425,2025-02-09,Casa Pia,Estoril,8,7,False
+P1,2425,2025-02-09,Estoril,Boavista,7,9,False
+P1,2425,2025-02-09,Farense,Nacional,7,8,False
+P1,2425,2025-02-10,Arouca,Rio Ave,9,7,False
+P1,2425,2025-02-14,Boavista,Estoril,5,5,False
+P1,2425,2025-02-15,Santa Clara,Benfica,7,7,False
+P1,2425,2025-02-15,Sp Lisbon,Arouca,8,5,False
+P1,2425,2025-02-15,Moreirense,Casa Pia,7,6,False
+P1,2425,2025-02-15,Nacional,Estoril,6,1,False
+P1,2425,2025-02-16,Guimaraes,Sp Braga,8,7,False
+P1,2425,2025-02-16,Farense,Porto,7,9,False
+P1,2425,2025-02-16,Rio Ave,AVS,6,8,False
+P1,2425,2025-02-17,Gil Vicente,Famalicao,8,9,False
+P1,2425,2025-02-21,Sp Braga,Nacional,5,6,False
+P1,2425,2025-02-22,Estoril,Rio Ave,7,6,False
+P1,2425,2025-02-22,Benfica,Boavista,7,8,False
+P1,2425,2025-02-22,Casa Pia,Gil Vicente,7,5,False
+P1,2425,2025-02-23,AVS,Sp Lisbon,7,8,False
+P1,2425,2025-02-23,Famalicao,Moreirense,6,8,False
+P1,2425,2025-02-23,Arouca,Farense,8,7,False
+P1,2425,2025-02-23,Estoril,Santa Clara,1,8,False
+P1,2425,2025-02-24,Porto,Guimaraes,8,8,False
+P1,2425,2025-03-01,Guimaraes,Casa Pia,5,7,False
+P1,2425,2025-03-01,Arouca,Porto,6,5,False
+P1,2425,2025-03-01,Nacional,Famalicao,8,6,False
+P1,2425,2025-03-02,Farense,AVS,7,7,False
+P1,2425,2025-03-02,Rio Ave,Sp Braga,8,9,False
+P1,2425,2025-03-02,Boavista,Santa Clara,8,7,False
+P1,2425,2025-03-02,Moreirense,Estoril,7,7,False
+P1,2425,2025-03-03,Sp Lisbon,Estoril,8,1,False
+P1,2425,2025-03-07,Estoril,Gil Vicente,4,13,False
+P1,2425,2025-03-08,Estoril,Farense,1,6,False
+P1,2425,2025-03-08,Sp Braga,Porto,6,7,False
+P1,2425,2025-03-08,AVS,Arouca,6,7,False
+P1,2425,2025-03-08,Benfica,Nacional,14,7,False
+P1,2425,2025-03-09,Boavista,Guimaraes,7,8,False
+P1,2425,2025-03-09,Casa Pia,Sp Lisbon,8,6,False
+P1,2425,2025-03-09,Santa Clara,Moreirense,7,7,False
+P1,2425,2025-03-10,Famalicao,Rio Ave,9,8,False
+P1,2425,2025-03-15,Porto,AVS,7,7,False
+P1,2425,2025-03-15,Sp Lisbon,Famalicao,6,5,False
+P1,2425,2025-03-15,Gil Vicente,Santa Clara,8,6,False
+P1,2425,2025-03-15,Farense,Sp Braga,7,7,False
+P1,2425,2025-03-16,Rio Ave,Benfica,6,8,False
+P1,2425,2025-03-16,Guimaraes,Estoril,7,8,False
+P1,2425,2025-03-16,Moreirense,Boavista,7,7,False
+P1,2425,2025-03-16,Arouca,Estoril,8,8,False
+P1,2425,2025-03-16,Nacional,Casa Pia,8,7,False
+P1,2425,2025-03-28,Gil Vicente,Benfica,13,12,False
+P1,2425,2025-03-29,Casa Pia,Rio Ave,13,13,False
+P1,2425,2025-03-29,Estoril,Sp Lisbon,13,14,False
+P1,2425,2025-03-29,Sp Braga,Arouca,14,13,False
+P1,2425,2025-03-30,Santa Clara,Nacional,15,14,False
+P1,2425,2025-03-30,Estoril,Porto,1,15,False
+P1,2425,2025-03-30,Moreirense,Guimaraes,14,14,False
+P1,2425,2025-03-30,Famalicao,AVS,15,15,False
+P1,2425,2025-04-01,Boavista,Gil Vicente,16,4,True
+P1,2425,2025-04-02,Benfica,Farense,5,18,True
+P1,2425,2025-04-04,AVS,Estoril,5,5,False
+P1,2425,2025-04-05,Arouca,Famalicao,7,6,False
+P1,2425,2025-04-05,Guimaraes,Santa Clara,6,6,False
+P1,2425,2025-04-06,Porto,Benfica,7,4,False
+P1,2425,2025-04-06,Gil Vicente,Moreirense,5,7,False
+P1,2425,2025-04-06,Nacional,Estoril,7,2,False
+P1,2425,2025-04-07,Sp Lisbon,Sp Braga,9,9,False
+P1,2425,2025-04-07,Rio Ave,Boavista,9,6,False
+P1,2425,2025-04-07,Farense,Casa Pia,5,9,False
+P1,2425,2025-04-11,Gil Vicente,Guimaraes,5,6,False
+P1,2425,2025-04-12,Santa Clara,Sp Lisbon,7,5,False
+P1,2425,2025-04-12,Casa Pia,Porto,5,6,False
+P1,2425,2025-04-12,Famalicao,Estoril,7,6,False
+P1,2425,2025-04-12,Boavista,Nacional,5,6,False
+P1,2425,2025-04-13,Sp Braga,AVS,6,9,False
+P1,2425,2025-04-13,Moreirense,Rio Ave,7,6,False
+P1,2425,2025-04-13,Estoril,Farense,1,6,False
+P1,2425,2025-04-13,Benfica,Arouca,7,8,False
+P1,2425,2025-04-18,Porto,Famalicao,6,6,False
+P1,2425,2025-04-18,Sp Lisbon,Moreirense,6,5,False
+P1,2425,2025-04-18,Farense,Boavista,5,6,False
+P1,2425,2025-04-18,Rio Ave,Santa Clara,5,6,False
+P1,2425,2025-04-19,Arouca,Estoril,6,6,False
+P1,2425,2025-04-19,Estoril,Sp Braga,6,6,False
+P1,2425,2025-04-19,Guimaraes,Benfica,8,6,False
+P1,2425,2025-04-19,AVS,Casa Pia,6,7,False
+P1,2425,2025-04-19,Nacional,Gil Vicente,7,8,False
+P1,2425,2025-04-25,Famalicao,Sp Braga,7,6,False
+P1,2425,2025-04-26,Gil Vicente,Farense,7,8,False
+P1,2425,2025-04-26,Santa Clara,Arouca,8,7,False
+P1,2425,2025-04-26,Estoril,Porto,7,8,False
+P1,2425,2025-04-27,Guimaraes,Rio Ave,8,9,False
+P1,2425,2025-04-27,Boavista,Sp Lisbon,9,9,False
+P1,2425,2025-04-27,Benfica,AVS,8,8,False
+P1,2425,2025-04-27,Moreirense,Nacional,9,8,False
+P1,2425,2025-04-29,Casa Pia,Estoril,10,3,True
+P1,2425,2025-05-02,Porto,Moreirense,6,5,False
+P1,2425,2025-05-03,Sp Braga,Santa Clara,8,7,False
+P1,2425,2025-05-03,Estoril,Benfica,4,6,False
+P1,2425,2025-05-03,Farense,Famalicao,7,8,False
+P1,2425,2025-05-03,Nacional,Guimaraes,6,6,False
+P1,2425,2025-05-04,Arouca,Casa Pia,8,5,False
+P1,2425,2025-05-04,Sp Lisbon,Gil Vicente,7,8,False
+P1,2425,2025-05-05,Rio Ave,Estoril,8,2,False
+P1,2425,2025-05-05,AVS,Boavista,8,8,False
+P1,2425,2025-05-10,Benfica,Sp Lisbon,7,6,False
+P1,2425,2025-05-10,Casa Pia,Sp Braga,6,7,False
+P1,2425,2025-05-10,Gil Vicente,Arouca,6,6,False
+P1,2425,2025-05-10,Santa Clara,Famalicao,7,7,False
+P1,2425,2025-05-10,Nacional,Rio Ave,7,5,False
+P1,2425,2025-05-11,Moreirense,Estoril,9,6,False
+P1,2425,2025-05-11,Boavista,Porto,6,9,False
+P1,2425,2025-05-11,Estoril,AVS,6,6,False
+P1,2425,2025-05-11,Guimaraes,Farense,8,8,False
+P1,2425,2025-05-16,Famalicao,Casa Pia,6,6,False
+P1,2425,2025-05-16,Rio Ave,Gil Vicente,6,6,False
+P1,2425,2025-05-17,Estoril,Estoril,6,6,False
+P1,2425,2025-05-17,Farense,Santa Clara,6,7,False
+P1,2425,2025-05-17,Arouca,Boavista,7,6,False
+P1,2425,2025-05-17,Sp Braga,Benfica,7,7,False
+P1,2425,2025-05-17,Sp Lisbon,Guimaraes,7,6,False
+P1,2425,2025-05-17,Porto,Nacional,6,7,False
+P1,2425,2025-05-17,AVS,Moreirense,6,6,False

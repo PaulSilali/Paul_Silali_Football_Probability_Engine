@@ -1,0 +1,232 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+196,Eibar,213,Amorebieta,2122,2,1,0.5,1.5
+201,Zaragoza,218,Ibiza,2122,2,2,1.0,2.0
+198,Leganes,201,Zaragoza,2122,2,0,0.0,2.5
+185,Burgos,209,Cartagena,2122,2,1,0.5,1.5
+190,Sociedad B,193,Las Palmas,2122,2,1,0.5,0.5
+185,Burgos,222,Fuenlabrada,2122,2,0,0.0,2.5
+185,Burgos,190,Sociedad B,2122,2,1,0.5,0.5
+188,Malaga,222,Fuenlabrada,2122,2,0,0.0,1.0
+208,Oviedo,216,Alcorcon,2122,2,0,0.0,3.5
+192,Huesca,198,Leganes,2122,2,0,0.0,2.5
+194,Sp Gijon,220,Ponferradina,2122,2,0,0.0,5.0
+190,Sociedad B,219,Lugo,2122,2,2,1.0,1.0
+216,Alcorcon,219,Lugo,2122,2,1,0.5,1.5
+185,Burgos,219,Lugo,2122,2,1,0.5,1.5
+208,Oviedo,209,Cartagena,2122,2,0,0.0,2.5
+186,Valladolid,221,Girona,2122,2,1,0.5,2.5
+185,Burgos,221,Girona,2122,2,1,0.5,2.0
+194,Sp Gijon,196,Eibar,2122,2,0,0.0,3.0
+193,Las Palmas,219,Lugo,2122,2,1,0.5,3.0
+195,Almeria,216,Alcorcon,2122,2,1,0.5,3.0
+201,Zaragoza,216,Alcorcon,2122,2,0,0.0,3.0
+186,Valladolid,195,Almeria,2122,2,1,0.5,4.0
+188,Malaga,218,Ibiza,2122,2,1,0.5,4.5
+190,Sociedad B,192,Huesca,2122,2,0,0.0,3.5
+194,Sp Gijon,213,Amorebieta,2122,2,1,0.5,2.5
+213,Amorebieta,219,Lugo,2122,2,1,0.5,3.0
+196,Eibar,219,Lugo,2122,2,1,0.5,2.5
+195,Almeria,212,Tenerife,2122,2,0,0.0,2.5
+195,Almeria,208,Oviedo,2122,2,0,0.0,2.5
+188,Malaga,192,Huesca,2122,2,1,0.5,1.0
+186,Valladolid,213,Amorebieta,2122,2,0,0.0,5.5
+209,Cartagena,221,Girona,2122,2,0,0.0,2.5
+198,Leganes,212,Tenerife,2122,2,1,0.5,1.5
+212,Tenerife,221,Girona,2122,2,0,0.0,2.0
+186,Valladolid,212,Tenerife,2122,2,0,0.0,3.5
+188,Malaga,219,Lugo,2122,2,0,0.0,1.0
+213,Amorebieta,218,Ibiza,2122,2,1,0.5,3.0
+185,Burgos,193,Las Palmas,2122,2,1,0.5,1.0
+194,Sp Gijon,221,Girona,2122,2,0,0.0,3.0
+190,Sociedad B,218,Ibiza,2122,2,1,0.5,2.5
+196,Eibar,218,Ibiza,2122,2,0,0.0,3.0
+193,Las Palmas,201,Zaragoza,2122,2,0,0.0,4.0
+198,Leganes,222,Fuenlabrada,2122,2,0,0.0,4.0
+213,Amorebieta,221,Girona,2122,2,0,0.0,1.5
+199,Mirandes,201,Zaragoza,2122,2,1,0.5,2.0
+199,Mirandes,221,Girona,2122,2,0,0.0,2.5
+193,Las Palmas,216,Alcorcon,2122,2,0,0.0,2.5
+194,Sp Gijon,212,Tenerife,2122,2,1,0.5,1.5
+186,Valladolid,218,Ibiza,2122,2,1,0.5,2.5
+193,Las Palmas,222,Fuenlabrada,2122,2,0,0.0,4.0
+195,Almeria,220,Ponferradina,2122,2,0,0.0,2.0
+201,Zaragoza,219,Lugo,2122,2,1,0.5,1.5
+196,Eibar,212,Tenerife,2122,2,0,0.0,1.5
+201,Zaragoza,209,Cartagena,2122,2,0,0.0,2.0
+188,Malaga,193,Las Palmas,2122,2,0,0.0,3.0
+192,Huesca,212,Tenerife,2122,2,1,0.5,1.5
+188,Malaga,196,Eibar,2122,2,1,0.5,4.0
+192,Huesca,195,Almeria,2122,2,2,1.0,1.0
+198,Leganes,208,Oviedo,2122,2,1,0.5,0.5
+218,Ibiza,219,Lugo,2122,2,2,1.0,1.0
+190,Sociedad B,221,Girona,2122,2,0,0.0,2.5
+192,Huesca,216,Alcorcon,2122,2,1,0.5,0.5
+196,Eibar,201,Zaragoza,2122,2,0,0.0,1.5
+190,Sociedad B,194,Sp Gijon,2122,2,0,0.0,2.0
+208,Oviedo,218,Ibiza,2122,2,1,0.5,3.5
+186,Valladolid,209,Cartagena,2122,2,0,0.0,3.5
+209,Cartagena,220,Ponferradina,2122,2,0,0.0,3.5
+198,Leganes,216,Alcorcon,2122,2,1,0.5,3.5
+219,Lugo,221,Girona,2122,2,1,0.5,1.5
+186,Valladolid,192,Huesca,2122,2,0,0.0,4.0
+212,Tenerife,218,Ibiza,2122,2,1,0.5,1.0
+188,Malaga,195,Almeria,2122,2,0,0.0,1.5
+199,Mirandes,209,Cartagena,2122,2,0,0.0,3.0
+190,Sociedad B,199,Mirandes,2122,2,0,0.0,3.0
+186,Valladolid,190,Sociedad B,2122,2,0,0.0,2.5
+195,Almeria,218,Ibiza,2122,2,0,0.0,1.5
+188,Malaga,221,Girona,2122,2,0,0.0,1.5
+196,Eibar,216,Alcorcon,2122,2,0,0.0,2.0
+192,Huesca,222,Fuenlabrada,2122,2,1,0.5,2.5
+196,Eibar,199,Mirandes,2122,2,2,1.0,4.0
+212,Tenerife,222,Fuenlabrada,2122,2,0,0.0,3.5
+201,Zaragoza,208,Oviedo,2122,2,2,1.0,3.0
+186,Valladolid,193,Las Palmas,2122,2,1,0.5,1.5
+190,Sociedad B,213,Amorebieta,2122,2,0,0.0,3.0
+216,Alcorcon,222,Fuenlabrada,2122,2,1,0.5,3.0
+193,Las Palmas,209,Cartagena,2122,2,0,0.0,3.5
+188,Malaga,199,Mirandes,2122,2,1,0.5,1.5
+209,Cartagena,213,Amorebieta,2122,2,0,0.0,5.0
+188,Malaga,213,Amorebieta,2122,2,0,0.0,3.0
+198,Leganes,209,Cartagena,2122,2,2,1.0,1.0
+192,Huesca,220,Ponferradina,2122,2,1,0.5,2.5
+194,Sp Gijon,218,Ibiza,2122,2,0,0.0,1.5
+185,Burgos,220,Ponferradina,2122,2,0,0.0,2.5
+219,Lugo,222,Fuenlabrada,2122,2,1,0.5,3.0
+186,Valladolid,196,Eibar,2122,2,0,0.0,2.0
+185,Burgos,199,Mirandes,2122,2,0,0.0,2.5
+209,Cartagena,218,Ibiza,2122,2,0,0.0,4.5
+219,Lugo,220,Ponferradina,2122,2,0,0.0,3.5
+196,Eibar,222,Fuenlabrada,2122,2,2,1.0,
+194,Sp Gijon,219,Lugo,2122,2,2,1.0,2.0
+186,Valladolid,198,Leganes,2122,2,0,0.0,1.5
+188,Malaga,208,Oviedo,2122,2,1,0.5,1.5
+199,Mirandes,219,Lugo,2122,2,0,0.0,4.0
+190,Sociedad B,216,Alcorcon,2122,2,0,0.0,5.5
+199,Mirandes,208,Oviedo,2122,2,1,0.5,2.5
+193,Las Palmas,199,Mirandes,2122,2,0,0.0,3.5
+186,Valladolid,208,Oviedo,2122,2,0,0.0,3.0
+196,Eibar,221,Girona,2122,2,0,0.0,3.5
+190,Sociedad B,209,Cartagena,2122,2,0,0.0,2.0
+185,Burgos,208,Oviedo,2122,2,0,0.0,2.5
+218,Ibiza,221,Girona,2122,2,1,0.5,4.0
+198,Leganes,218,Ibiza,2122,2,1,0.5,2.5
+193,Las Palmas,196,Eibar,2122,2,1,0.5,2.5
+199,Mirandes,216,Alcorcon,2122,2,1,0.5,2.0
+213,Amorebieta,222,Fuenlabrada,2122,2,1,0.5,1.5
+193,Las Palmas,195,Almeria,2122,2,2,1.0,2.0
+208,Oviedo,222,Fuenlabrada,2122,2,1,0.5,1.5
+192,Huesca,218,Ibiza,2122,2,1,0.5,1.5
+193,Las Palmas,218,Ibiza,2122,2,2,1.0,2.0
+194,Sp Gijon,198,Leganes,2122,2,1,0.5,2.5
+193,Las Palmas,194,Sp Gijon,2122,2,0,0.0,1.0
+190,Sociedad B,201,Zaragoza,2122,2,1,0.5,2.5
+209,Cartagena,222,Fuenlabrada,2122,2,0,0.0,3.0
+199,Mirandes,212,Tenerife,2122,2,0,0.0,3.0
+193,Las Palmas,213,Amorebieta,2122,2,1,0.5,1.5
+213,Amorebieta,216,Alcorcon,2122,2,2,1.0,2.0
+208,Oviedo,219,Lugo,2122,2,2,1.0,3.0
+190,Sociedad B,195,Almeria,2122,2,0,0.0,3.0
+185,Burgos,218,Ibiza,2122,2,0,0.0,2.5
+195,Almeria,219,Lugo,2122,2,1,0.5,4.5
+188,Malaga,190,Sociedad B,2122,2,0,0.0,2.5
+212,Tenerife,219,Lugo,2122,2,1,0.5,2.0
+192,Huesca,219,Lugo,2122,2,0,0.0,3.0
+194,Sp Gijon,208,Oviedo,2122,2,1,0.5,1.5
+192,Huesca,213,Amorebieta,2122,2,1,0.5,1.5
+212,Tenerife,216,Alcorcon,2122,2,0,0.0,1.5
+190,Sociedad B,222,Fuenlabrada,2122,2,1,0.5,1.5
+216,Alcorcon,220,Ponferradina,2122,2,1,0.5,2.5
+201,Zaragoza,220,Ponferradina,2122,2,2,1.0,1.0
+198,Leganes,219,Lugo,2122,2,2,1.0,1.0
+196,Eibar,198,Leganes,2122,2,1,0.5,3.5
+208,Oviedo,220,Ponferradina,2122,2,0,0.0,2.5
+195,Almeria,221,Girona,2122,2,0,0.0,2.0
+196,Eibar,220,Ponferradina,2122,2,1,0.5,2.5
+194,Sp Gijon,216,Alcorcon,2122,2,1,0.5,1.5
+185,Burgos,198,Leganes,2122,2,1,0.5,2.0
+193,Las Palmas,208,Oviedo,2122,2,1,0.5,2.5
+193,Las Palmas,220,Ponferradina,2122,2,0,0.0,3.0
+218,Ibiza,220,Ponferradina,2122,2,1,0.5,1.5
+218,Ibiza,222,Fuenlabrada,2122,2,0,0.0,3.5
+196,Eibar,209,Cartagena,2122,2,0,0.0,4.0
+185,Burgos,196,Eibar,2122,2,0,0.0,1.5
+201,Zaragoza,213,Amorebieta,2122,2,2,1.0,2.0
+186,Valladolid,201,Zaragoza,2122,2,1,0.5,1.0
+188,Malaga,201,Zaragoza,2122,2,2,1.0,2.0
+198,Leganes,213,Amorebieta,2122,2,0,0.0,2.5
+185,Burgos,188,Malaga,2122,2,0,0.0,2.0
+199,Mirandes,220,Ponferradina,2122,2,0,0.0,3.5
+194,Sp Gijon,199,Mirandes,2122,2,0,0.0,3.0
+192,Huesca,193,Las Palmas,2122,2,1,0.5,1.5
+192,Huesca,209,Cartagena,2122,2,0,0.0,2.5
+192,Huesca,199,Mirandes,2122,2,0,0.0,2.5
+190,Sociedad B,198,Leganes,2122,2,1,0.5,1.5
+199,Mirandes,213,Amorebieta,2122,2,0,0.0,1.5
+195,Almeria,201,Zaragoza,2122,2,0,0.0,2.5
+193,Las Palmas,221,Girona,2122,2,1,0.5,2.0
+220,Ponferradina,222,Fuenlabrada,2122,2,1,0.5,2.5
+190,Sociedad B,208,Oviedo,2122,2,1,0.5,1.5
+186,Valladolid,220,Ponferradina,2122,2,1,0.5,3.0
+196,Eibar,208,Oviedo,2122,2,1,0.5,1.5
+201,Zaragoza,212,Tenerife,2122,2,1,0.5,2.0
+186,Valladolid,188,Malaga,2122,2,2,1.0,3.0
+209,Cartagena,219,Lugo,2122,2,0,0.0,2.0
+192,Huesca,194,Sp Gijon,2122,2,2,1.0,2.0
+193,Las Palmas,198,Leganes,2122,2,0,0.0,5.5
+201,Zaragoza,222,Fuenlabrada,2122,2,1,0.5,2.5
+216,Alcorcon,221,Girona,2122,2,0,0.0,2.5
+220,Ponferradina,221,Girona,2122,2,0,0.0,3.0
+193,Las Palmas,212,Tenerife,2122,2,0,0.0,2.0
+195,Almeria,213,Amorebieta,2122,2,0,0.0,3.0
+209,Cartagena,212,Tenerife,2122,2,1,0.5,2.5
+192,Huesca,201,Zaragoza,2122,2,2,1.0,1.0
+195,Almeria,196,Eibar,2122,2,0,0.0,1.5
+199,Mirandes,222,Fuenlabrada,2122,2,1,0.5,4.0
+195,Almeria,199,Mirandes,2122,2,0,0.0,4.0
+185,Burgos,192,Huesca,2122,2,0,0.0,2.5
+209,Cartagena,216,Alcorcon,2122,2,1,0.5,3.0
+194,Sp Gijon,222,Fuenlabrada,2122,2,2,1.0,1.0
+194,Sp Gijon,209,Cartagena,2122,2,0,0.0,3.0
+199,Mirandes,218,Ibiza,2122,2,0,0.0,3.0
+188,Malaga,198,Leganes,2122,2,0,0.0,2.5
+188,Malaga,216,Alcorcon,2122,2,0,0.0,1.0
+186,Valladolid,222,Fuenlabrada,2122,2,1,0.5,1.5
+208,Oviedo,212,Tenerife,2122,2,1,0.5,2.0
+213,Amorebieta,220,Ponferradina,2122,2,1,0.5,1.5
+201,Zaragoza,221,Girona,2122,2,1,0.5,1.5
+192,Huesca,221,Girona,2122,2,0,0.0,2.5
+195,Almeria,222,Fuenlabrada,2122,2,1,0.5,3.0
+198,Leganes,220,Ponferradina,2122,2,1,0.5,2.5
+192,Huesca,208,Oviedo,2122,2,1,0.5,4.5
+185,Burgos,201,Zaragoza,2122,2,1,0.5,0.5
+212,Tenerife,220,Ponferradina,2122,2,0,0.0,2.5
+185,Burgos,212,Tenerife,2122,2,0,0.0,2.5
+188,Malaga,194,Sp Gijon,2122,2,1,0.5,3.5
+186,Valladolid,194,Sp Gijon,2122,2,0,0.0,2.0
+188,Malaga,212,Tenerife,2122,2,0,0.0,1.5
+188,Malaga,220,Ponferradina,2122,2,1,0.5,2.0
+212,Tenerife,213,Amorebieta,2122,2,1,0.5,2.5
+194,Sp Gijon,201,Zaragoza,2122,2,0,0.0,2.5
+221,Girona,222,Fuenlabrada,2122,2,0,0.0,3.0
+185,Burgos,213,Amorebieta,2122,2,2,1.0,4.0
+190,Sociedad B,196,Eibar,2122,2,0,0.0,5.0
+186,Valladolid,199,Mirandes,2122,2,0,0.0,2.5
+194,Sp Gijon,195,Almeria,2122,2,0,0.0,1.0
+190,Sociedad B,220,Ponferradina,2122,2,1,0.5,3.5
+190,Sociedad B,212,Tenerife,2122,2,0,0.0,2.5
+216,Alcorcon,218,Ibiza,2122,2,0,0.0,5.0
+188,Malaga,209,Cartagena,2122,2,1,0.5,3.0
+198,Leganes,199,Mirandes,2122,2,0,0.0,2.5
+195,Almeria,198,Leganes,2122,2,1,0.5,2.5
+208,Oviedo,213,Amorebieta,2122,2,1,0.5,2.0
+185,Burgos,195,Almeria,2122,2,0,0.0,2.0
+186,Valladolid,219,Lugo,2122,2,0,0.0,3.5
+185,Burgos,186,Valladolid,2122,2,0,0.0,2.0
+208,Oviedo,221,Girona,2122,2,1,0.5,1.5
+198,Leganes,221,Girona,2122,2,1,0.5,2.5
+195,Almeria,209,Cartagena,2122,2,0,0.0,2.5
+185,Burgos,216,Alcorcon,2122,2,0,0.0,2.5
+192,Huesca,196,Eibar,2122,2,0,0.0,2.5
+185,Burgos,194,Sp Gijon,2122,2,1,0.5,0.5
+186,Valladolid,216,Alcorcon,2122,2,0,0.0,2.5

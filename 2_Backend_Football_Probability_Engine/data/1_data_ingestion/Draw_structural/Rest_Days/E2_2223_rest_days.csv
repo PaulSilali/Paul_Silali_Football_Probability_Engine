@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E2,2223,2022-07-30,Port Vale,Fleetwood Town,7,91,False
+E2,2223,2022-07-30,Wycombe,Luton,91,91,False
+E2,2223,2022-07-30,Cheltenham,Peterboro,91,447,False
+E2,2223,2022-07-30,Sheffield Weds,Portsmouth,91,91,False
+E2,2223,2022-07-30,Bristol Rvs,Forest Green,447,7,False
+E2,2223,2022-07-30,Cambridge,Milton Keynes Dons,91,91,False
+E2,2223,2022-07-30,Ipswich,Luton,91,91,False
+E2,2223,2022-07-30,Morecambe,Shrewsbury,91,91,False
+E2,2223,2022-07-30,Derby,Oxford,7,91,False
+E2,2223,2022-07-30,Lincoln,Exeter,91,7,False
+E2,2223,2022-07-30,Plymouth,Barnsley,91,7,False
+E2,2223,2022-07-30,Accrington,Charlton,91,91,False
+E2,2223,2022-08-06,Forest Green,Ipswich,7,7,False
+E2,2223,2022-08-06,Milton Keynes Dons,Sheffield Weds,7,7,False
+E2,2223,2022-08-06,Oxford,Cambridge,7,7,False
+E2,2223,2022-08-06,Peterboro,Morecambe,7,7,False
+E2,2223,2022-08-06,Portsmouth,Lincoln,7,7,False
+E2,2223,2022-08-06,Shrewsbury,Accrington,7,7,False
+E2,2223,2022-08-06,Luton,Wycombe,7,7,False
+E2,2223,2022-08-06,Fleetwood Town,Plymouth,7,7,False
+E2,2223,2022-08-06,Luton,Bristol Rvs,7,7,False
+E2,2223,2022-08-06,Charlton,Derby,7,7,False
+E2,2223,2022-08-06,Exeter,Port Vale,7,7,False
+E2,2223,2022-08-06,Barnsley,Cheltenham,7,7,False
+E2,2223,2022-08-13,Lincoln,Forest Green,7,7,False
+E2,2223,2022-08-13,Morecambe,Fleetwood Town,7,7,False
+E2,2223,2022-08-13,Plymouth,Peterboro,7,7,False
+E2,2223,2022-08-13,Port Vale,Luton,7,7,False
+E2,2223,2022-08-13,Wycombe,Shrewsbury,7,7,False
+E2,2223,2022-08-13,Sheffield Weds,Charlton,7,7,False
+E2,2223,2022-08-13,Bristol Rvs,Oxford,7,7,False
+E2,2223,2022-08-13,Accrington,Luton,7,7,False
+E2,2223,2022-08-13,Cambridge,Exeter,7,7,False
+E2,2223,2022-08-13,Cheltenham,Portsmouth,7,7,False
+E2,2223,2022-08-13,Derby,Barnsley,7,7,False
+E2,2223,2022-08-13,Ipswich,Milton Keynes Dons,7,7,False
+E2,2223,2022-08-16,Fleetwood Town,Cheltenham,3,3,True
+E2,2223,2022-08-16,Barnsley,Bristol Rvs,3,3,True
+E2,2223,2022-08-16,Luton,Morecambe,3,3,True
+E2,2223,2022-08-16,Luton,Ipswich,3,3,True
+E2,2223,2022-08-16,Charlton,Plymouth,3,3,True
+E2,2223,2022-08-16,Exeter,Wycombe,3,3,True
+E2,2223,2022-08-16,Milton Keynes Dons,Port Vale,3,3,True
+E2,2223,2022-08-16,Oxford,Lincoln,3,3,True
+E2,2223,2022-08-16,Peterboro,Sheffield Weds,3,3,True
+E2,2223,2022-08-16,Portsmouth,Cambridge,3,3,True
+E2,2223,2022-08-16,Shrewsbury,Derby,3,3,True
+E2,2223,2022-08-20,Forest Green,Plymouth,7,4,False
+E2,2223,2022-08-20,Milton Keynes Dons,Accrington,4,7,False
+E2,2223,2022-08-20,Oxford,Morecambe,4,4,False
+E2,2223,2022-08-20,Peterboro,Lincoln,4,4,False
+E2,2223,2022-08-20,Portsmouth,Bristol Rvs,4,4,False
+E2,2223,2022-08-20,Shrewsbury,Ipswich,4,4,False
+E2,2223,2022-08-20,Fleetwood Town,Derby,4,4,False
+E2,2223,2022-08-20,Exeter,Cheltenham,4,4,False
+E2,2223,2022-08-20,Charlton,Cambridge,4,4,False
+E2,2223,2022-08-20,Luton,Port Vale,4,4,False
+E2,2223,2022-08-20,Luton,Sheffield Weds,4,4,False
+E2,2223,2022-08-20,Barnsley,Wycombe,4,4,False
+E2,2223,2022-08-27,Lincoln,Fleetwood Town,7,7,False
+E2,2223,2022-08-27,Morecambe,Milton Keynes Dons,7,7,False
+E2,2223,2022-08-27,Plymouth,Luton,7,7,False
+E2,2223,2022-08-27,Port Vale,Portsmouth,7,7,False
+E2,2223,2022-08-27,Sheffield Weds,Forest Green,7,7,False
+E2,2223,2022-08-27,Wycombe,Charlton,7,7,False
+E2,2223,2022-08-27,Accrington,Exeter,7,7,False
+E2,2223,2022-08-27,Bristol Rvs,Shrewsbury,7,7,False
+E2,2223,2022-08-27,Cambridge,Luton,7,7,False
+E2,2223,2022-08-27,Cheltenham,Oxford,7,7,False
+E2,2223,2022-08-27,Derby,Peterboro,7,7,False
+E2,2223,2022-08-27,Ipswich,Barnsley,7,7,False
+E2,2223,2022-09-03,Forest Green,Shrewsbury,7,7,False
+E2,2223,2022-09-03,Accrington,Ipswich,7,7,False
+E2,2223,2022-09-03,Luton,Charlton,7,7,False
+E2,2223,2022-09-03,Bristol Rvs,Morecambe,7,7,False
+E2,2223,2022-09-03,Cambridge,Lincoln,7,7,False
+E2,2223,2022-09-03,Derby,Plymouth,7,7,False
+E2,2223,2022-09-03,Exeter,Milton Keynes Dons,7,7,False
+E2,2223,2022-09-03,Fleetwood Town,Wycombe,7,7,False
+E2,2223,2022-09-03,Oxford,Luton,7,7,False
+E2,2223,2022-09-03,Port Vale,Cheltenham,7,7,False
+E2,2223,2022-09-03,Portsmouth,Peterboro,7,7,False
+E2,2223,2022-09-03,Sheffield Weds,Barnsley,7,7,False
+E2,2223,2022-09-06,Forest Green,Accrington,3,3,True
+E2,2223,2022-09-13,Barnsley,Port Vale,10,10,True
+E2,2223,2022-09-13,Luton,Portsmouth,10,10,True
+E2,2223,2022-09-13,Charlton,Forest Green,10,7,True
+E2,2223,2022-09-13,Cheltenham,Cambridge,10,10,True
+E2,2223,2022-09-13,Ipswich,Bristol Rvs,10,10,True
+E2,2223,2022-09-13,Wycombe,Accrington,10,7,True
+E2,2223,2022-09-13,Shrewsbury,Exeter,10,10,True
+E2,2223,2022-09-13,Plymouth,Oxford,10,10,True
+E2,2223,2022-09-13,Peterboro,Fleetwood Town,10,10,True
+E2,2223,2022-09-13,Morecambe,Sheffield Weds,10,10,True
+E2,2223,2022-09-13,Milton Keynes Dons,Luton,10,10,True
+E2,2223,2022-09-13,Lincoln,Derby,10,10,True
+E2,2223,2022-09-17,Port Vale,Shrewsbury,4,4,False
+E2,2223,2022-09-17,Luton,Peterboro,4,4,False
+E2,2223,2022-09-17,Bristol Rvs,Lincoln,4,4,False
+E2,2223,2022-09-17,Cambridge,Barnsley,4,4,False
+E2,2223,2022-09-17,Derby,Wycombe,4,4,False
+E2,2223,2022-09-17,Exeter,Luton,4,4,False
+E2,2223,2022-09-17,Fleetwood Town,Charlton,4,4,False
+E2,2223,2022-09-17,Forest Green,Morecambe,4,4,False
+E2,2223,2022-09-17,Oxford,Milton Keynes Dons,4,4,False
+E2,2223,2022-09-17,Accrington,Cheltenham,4,4,False
+E2,2223,2022-09-17,Portsmouth,Plymouth,4,4,False
+E2,2223,2022-09-17,Sheffield Weds,Ipswich,4,4,False
+E2,2223,2022-09-24,Forest Green,Exeter,7,7,False
+E2,2223,2022-09-24,Shrewsbury,Luton,7,7,False
+E2,2223,2022-09-24,Sheffield Weds,Wycombe,7,7,False
+E2,2223,2022-09-24,Peterboro,Port Vale,7,7,False
+E2,2223,2022-09-24,Morecambe,Cambridge,7,7,False
+E2,2223,2022-09-24,Bristol Rvs,Accrington,7,7,False
+E2,2223,2022-09-24,Barnsley,Charlton,7,7,False
+E2,2223,2022-09-25,Plymouth,Ipswich,8,8,False
+E2,2223,2022-10-01,Port Vale,Sheffield Weds,7,7,False
+E2,2223,2022-10-01,Accrington,Morecambe,7,7,False
+E2,2223,2022-10-01,Luton,Lincoln,7,14,False
+E2,2223,2022-10-01,Luton,Forest Green,7,7,False
+E2,2223,2022-10-01,Cambridge,Derby,7,14,False
+E2,2223,2022-10-01,Charlton,Oxford,7,14,False
+E2,2223,2022-10-01,Cheltenham,Shrewsbury,14,7,False
+E2,2223,2022-10-01,Exeter,Bristol Rvs,7,7,False
+E2,2223,2022-10-01,Fleetwood Town,Barnsley,14,7,False
+E2,2223,2022-10-01,Ipswich,Portsmouth,6,14,False
+E2,2223,2022-10-01,Milton Keynes Dons,Peterboro,14,7,False
+E2,2223,2022-10-01,Wycombe,Plymouth,7,6,False
+E2,2223,2022-10-04,Plymouth,Sheffield Weds,3,3,True
+E2,2223,2022-10-04,Ipswich,Cambridge,3,3,True
+E2,2223,2022-10-04,Cheltenham,Luton,3,3,True
+E2,2223,2022-10-04,Luton,Fleetwood Town,3,3,True
+E2,2223,2022-10-08,Oxford,Wycombe,7,7,False
+E2,2223,2022-10-08,Peterboro,Luton,7,4,False
+E2,2223,2022-10-08,Plymouth,Accrington,4,7,False
+E2,2223,2022-10-08,Portsmouth,Fleetwood Town,7,4,False
+E2,2223,2022-10-08,Derby,Port Vale,7,7,False
+E2,2223,2022-10-08,Shrewsbury,Milton Keynes Dons,7,7,False
+E2,2223,2022-10-08,Bristol Rvs,Cambridge,7,4,False
+E2,2223,2022-10-08,Barnsley,Exeter,7,7,False
+E2,2223,2022-10-08,Sheffield Weds,Cheltenham,4,4,False
+E2,2223,2022-10-08,Forest Green,Luton,7,4,False
+E2,2223,2022-10-08,Lincoln,Charlton,7,7,False
+E2,2223,2022-10-08,Morecambe,Ipswich,7,4,False
+E2,2223,2022-10-11,Charlton,Exeter,3,3,True
+E2,2223,2022-10-11,Milton Keynes Dons,Bristol Rvs,3,3,True
+E2,2223,2022-10-11,Peterboro,Forest Green,3,3,True
+E2,2223,2022-10-15,Luton,Barnsley,7,7,False
+E2,2223,2022-10-15,Luton,Morecambe,7,7,False
+E2,2223,2022-10-15,Cambridge,Sheffield Weds,7,7,False
+E2,2223,2022-10-15,Cheltenham,Bristol Rvs,7,4,False
+E2,2223,2022-10-15,Exeter,Oxford,4,7,False
+E2,2223,2022-10-15,Fleetwood Town,Shrewsbury,7,7,False
+E2,2223,2022-10-15,Wycombe,Peterboro,7,4,False
+E2,2223,2022-10-15,Port Vale,Forest Green,7,4,False
+E2,2223,2022-10-15,Milton Keynes Dons,Plymouth,4,7,False
+E2,2223,2022-10-15,Ipswich,Lincoln,7,7,False
+E2,2223,2022-10-15,Accrington,Derby,7,7,False
+E2,2223,2022-10-17,Charlton,Portsmouth,6,9,False
+E2,2223,2022-10-21,Ipswich,Derby,6,6,False
+E2,2223,2022-10-22,Forest Green,Portsmouth,7,5,False
+E2,2223,2022-10-22,Milton Keynes Dons,Wycombe,7,7,False
+E2,2223,2022-10-22,Morecambe,Barnsley,7,7,False
+E2,2223,2022-10-22,Oxford,Peterboro,7,7,False
+E2,2223,2022-10-22,Shrewsbury,Charlton,7,5,False
+E2,2223,2022-10-22,Cambridge,Port Vale,7,7,False
+E2,2223,2022-10-22,Exeter,Fleetwood Town,7,7,False
+E2,2223,2022-10-22,Lincoln,Sheffield Weds,7,7,False
+E2,2223,2022-10-22,Accrington,Luton,7,7,False
+E2,2223,2022-10-22,Bristol Rvs,Plymouth,7,7,False
+E2,2223,2022-10-22,Luton,Cheltenham,7,7,False
+E2,2223,2022-10-25,Fleetwood Town,Forest Green,3,3,True
+E2,2223,2022-10-25,Plymouth,Shrewsbury,3,3,True
+E2,2223,2022-10-25,Port Vale,Ipswich,3,4,True
+E2,2223,2022-10-25,Portsmouth,Oxford,3,3,True
+E2,2223,2022-10-25,Wycombe,Cambridge,3,3,True
+E2,2223,2022-10-25,Peterboro,Accrington,3,3,True
+E2,2223,2022-10-25,Barnsley,Lincoln,3,3,True
+E2,2223,2022-10-25,Luton,Luton,3,3,True
+E2,2223,2022-10-25,Charlton,Milton Keynes Dons,3,3,True
+E2,2223,2022-10-25,Cheltenham,Morecambe,3,3,True
+E2,2223,2022-10-25,Derby,Exeter,4,3,True
+E2,2223,2022-10-26,Sheffield Weds,Bristol Rvs,4,4,True
+E2,2223,2022-10-29,Cheltenham,Milton Keynes Dons,4,4,False
+E2,2223,2022-10-29,Barnsley,Forest Green,4,4,False
+E2,2223,2022-10-29,Luton,Oxford,4,4,False
+E2,2223,2022-10-29,Charlton,Ipswich,4,4,False
+E2,2223,2022-10-29,Derby,Bristol Rvs,4,3,False
+E2,2223,2022-10-29,Fleetwood Town,Accrington,4,4,False
+E2,2223,2022-10-29,Peterboro,Cambridge,4,4,False
+E2,2223,2022-10-29,Port Vale,Lincoln,4,4,False
+E2,2223,2022-10-29,Portsmouth,Shrewsbury,4,4,False
+E2,2223,2022-10-29,Sheffield Weds,Luton,3,4,False
+E2,2223,2022-10-29,Wycombe,Morecambe,4,4,False
+E2,2223,2022-10-31,Plymouth,Exeter,6,6,False
+E2,2223,2022-11-01,Wycombe,Port Vale,3,3,True
+E2,2223,2022-11-01,Oxford,Fleetwood Town,3,3,True
+E2,2223,2022-11-01,Morecambe,Derby,3,3,True
+E2,2223,2022-11-01,Lincoln,Accrington,3,3,True
+E2,2223,2022-11-09,Shrewsbury,Oxford,11,8,True
+E2,2223,2022-11-12,Ipswich,Cheltenham,14,14,False
+E2,2223,2022-11-12,Lincoln,Plymouth,11,12,False
+E2,2223,2022-11-12,Milton Keynes Dons,Derby,14,11,False
+E2,2223,2022-11-12,Accrington,Sheffield Weds,11,14,False
+E2,2223,2022-11-12,Oxford,Port Vale,3,11,False
+E2,2223,2022-11-12,Shrewsbury,Barnsley,3,14,False
+E2,2223,2022-11-12,Morecambe,Portsmouth,11,14,False
+E2,2223,2022-11-12,Bristol Rvs,Fleetwood Town,14,11,False
+E2,2223,2022-11-12,Luton,Charlton,14,14,False
+E2,2223,2022-11-12,Cambridge,Luton,14,14,False
+E2,2223,2022-11-12,Exeter,Peterboro,12,14,False
+E2,2223,2022-11-12,Forest Green,Wycombe,14,11,False
+E2,2223,2022-11-18,Portsmouth,Derby,6,6,False
+E2,2223,2022-11-19,Cheltenham,Wycombe,7,7,False
+E2,2223,2022-11-19,Exeter,Ipswich,7,7,False
+E2,2223,2022-11-19,Barnsley,Milton Keynes Dons,7,7,False
+E2,2223,2022-11-19,Bristol Rvs,Peterboro,7,7,False
+E2,2223,2022-11-19,Luton,Plymouth,7,7,False
+E2,2223,2022-11-19,Cambridge,Accrington,7,7,False
+E2,2223,2022-11-19,Fleetwood Town,Luton,7,7,False
+E2,2223,2022-11-19,Lincoln,Morecambe,7,7,False
+E2,2223,2022-11-19,Oxford,Forest Green,7,7,False
+E2,2223,2022-11-19,Port Vale,Charlton,7,7,False
+E2,2223,2022-11-19,Sheffield Weds,Shrewsbury,7,7,False
+E2,2223,2022-12-02,Luton,Bristol Rvs,13,13,False
+E2,2223,2022-12-02,Charlton,Cheltenham,13,13,False
+E2,2223,2022-12-02,Morecambe,Exeter,13,13,False
+E2,2223,2022-12-02,Peterboro,Barnsley,13,13,False
+E2,2223,2022-12-02,Plymouth,Port Vale,13,13,False
+E2,2223,2022-12-02,Ipswich,Fleetwood Town,13,13,False
+E2,2223,2022-12-03,Derby,Sheffield Weds,15,14,False
+E2,2223,2022-12-03,Accrington,Oxford,14,14,False
+E2,2223,2022-12-03,Forest Green,Cambridge,14,14,False
+E2,2223,2022-12-03,Shrewsbury,Lincoln,14,14,False
+E2,2223,2022-12-03,Milton Keynes Dons,Luton,14,1,False
+E2,2223,2022-12-04,Wycombe,Portsmouth,15,16,False
+E2,2223,2022-12-10,Ipswich,Peterboro,8,8,False
+E2,2223,2022-12-10,Luton,Derby,7,7,False
+E2,2223,2022-12-10,Forest Green,Cheltenham,7,8,False
+E2,2223,2022-12-10,Bristol Rvs,Port Vale,8,8,False
+E2,2223,2022-12-10,Cambridge,Plymouth,7,8,False
+E2,2223,2022-12-10,Exeter,Sheffield Weds,8,7,False
+E2,2223,2022-12-10,Lincoln,Wycombe,7,6,False
+E2,2223,2022-12-10,Milton Keynes Dons,Fleetwood Town,7,8,False
+E2,2223,2022-12-10,Shrewsbury,Luton,7,7,False
+E2,2223,2022-12-17,Sheffield Weds,Oxford,7,14,False
+E2,2223,2022-12-17,Wycombe,Ipswich,7,7,False
+E2,2223,2022-12-17,Plymouth,Morecambe,7,15,False
+E2,2223,2022-12-17,Derby,Forest Green,7,7,False
+E2,2223,2022-12-17,Charlton,Bristol Rvs,15,7,False
+E2,2223,2022-12-17,Luton,Exeter,7,7,False
+E2,2223,2022-12-17,Barnsley,Luton,15,7,False
+E2,2223,2022-12-17,Portsmouth,Milton Keynes Dons,13,7,False
+E2,2223,2022-12-26,Port Vale,Morecambe,16,9,False
+E2,2223,2022-12-26,Accrington,Barnsley,23,9,False
+E2,2223,2022-12-26,Luton,Lincoln,9,16,False
+E2,2223,2022-12-26,Cambridge,Shrewsbury,16,16,False
+E2,2223,2022-12-26,Charlton,Peterboro,9,16,False
+E2,2223,2022-12-26,Cheltenham,Plymouth,16,9,False
+E2,2223,2022-12-26,Exeter,Portsmouth,9,9,False
+E2,2223,2022-12-26,Fleetwood Town,Sheffield Weds,16,9,False
+E2,2223,2022-12-26,Ipswich,Oxford,9,9,False
+E2,2223,2022-12-26,Milton Keynes Dons,Forest Green,9,9,False
+E2,2223,2022-12-26,Wycombe,Bristol Rvs,9,9,False
+E2,2223,2022-12-27,Luton,Derby,1,10,True
+E2,2223,2022-12-29,Plymouth,Wycombe,3,3,True
+E2,2223,2022-12-29,Portsmouth,Ipswich,3,3,True
+E2,2223,2022-12-29,Sheffield Weds,Port Vale,3,3,True
+E2,2223,2022-12-29,Shrewsbury,Cheltenham,3,3,True
+E2,2223,2022-12-29,Peterboro,Milton Keynes Dons,3,3,True
+E2,2223,2022-12-29,Bristol Rvs,Exeter,3,3,True
+E2,2223,2022-12-29,Barnsley,Fleetwood Town,3,3,True
+E2,2223,2022-12-29,Oxford,Charlton,3,3,True
+E2,2223,2022-12-29,Morecambe,Accrington,3,3,True
+E2,2223,2022-12-29,Forest Green,Luton,3,2,True
+E2,2223,2022-12-30,Lincoln,Luton,4,1,False
+E2,2223,2022-12-30,Derby,Cambridge,3,4,False
+E2,2223,2023-01-01,Plymouth,Milton Keynes Dons,3,3,False
+E2,2223,2023-01-01,Bristol Rvs,Cheltenham,3,3,False
+E2,2223,2023-01-01,Forest Green,Port Vale,3,3,False
+E2,2223,2023-01-01,Morecambe,Luton,3,2,False
+E2,2223,2023-01-01,Oxford,Exeter,3,3,False
+E2,2223,2023-01-01,Peterboro,Wycombe,3,3,False
+E2,2223,2023-01-01,Portsmouth,Charlton,3,3,False
+E2,2223,2023-01-01,Shrewsbury,Fleetwood Town,3,3,False
+E2,2223,2023-01-02,Barnsley,Luton,4,1,False
+E2,2223,2023-01-02,Sheffield Weds,Cambridge,4,3,False
+E2,2223,2023-01-02,Lincoln,Ipswich,3,4,False
+E2,2223,2023-01-02,Derby,Accrington,3,4,False
+E2,2223,2023-01-07,Luton,Plymouth,5,6,False
+E2,2223,2023-01-07,Morecambe,Cheltenham,6,6,False
+E2,2223,2023-01-07,Cambridge,Bristol Rvs,5,6,False
+E2,2223,2023-01-07,Charlton,Lincoln,6,5,False
+E2,2223,2023-01-14,Luton,Portsmouth,7,13,False
+E2,2223,2023-01-14,Accrington,Bristol Rvs,12,7,False
+E2,2223,2023-01-14,Cheltenham,Derby,7,12,False
+E2,2223,2023-01-14,Charlton,Barnsley,7,12,False
+E2,2223,2023-01-14,Wycombe,Sheffield Weds,13,12,False
+E2,2223,2023-01-14,Exeter,Forest Green,13,13,False
+E2,2223,2023-01-14,Milton Keynes Dons,Lincoln,13,7,False
+E2,2223,2023-01-14,Ipswich,Plymouth,12,7,False
+E2,2223,2023-01-14,Fleetwood Town,Oxford,13,13,False
+E2,2223,2023-01-14,Luton,Shrewsbury,7,13,False
+E2,2223,2023-01-16,Port Vale,Peterboro,15,15,False
+E2,2223,2023-01-21,Sheffield Weds,Fleetwood Town,7,7,False
+E2,2223,2023-01-21,Shrewsbury,Cambridge,7,14,False
+E2,2223,2023-01-21,Portsmouth,Exeter,7,7,False
+E2,2223,2023-01-21,Plymouth,Cheltenham,7,7,False
+E2,2223,2023-01-21,Oxford,Ipswich,7,7,False
+E2,2223,2023-01-21,Forest Green,Milton Keynes Dons,7,7,False
+E2,2223,2023-01-21,Derby,Luton,7,7,False
+E2,2223,2023-01-21,Barnsley,Accrington,7,7,False
+E2,2223,2023-01-24,Luton,Forest Green,3,3,True
+E2,2223,2023-01-24,Fleetwood Town,Portsmouth,3,3,True
+E2,2223,2023-01-24,Ipswich,Morecambe,3,17,True
+E2,2223,2023-01-24,Milton Keynes Dons,Shrewsbury,3,3,True
+E2,2223,2023-01-24,Port Vale,Derby,8,3,True
+E2,2223,2023-01-24,Wycombe,Oxford,10,3,True
+E2,2223,2023-01-28,Peterboro,Portsmouth,12,4,False
+E2,2223,2023-01-28,Charlton,Luton,14,4,False
+E2,2223,2023-01-28,Luton,Oxford,4,4,False
+E2,2223,2023-01-28,Cheltenham,Port Vale,7,4,False
+E2,2223,2023-01-28,Lincoln,Cambridge,14,7,False
+E2,2223,2023-01-28,Milton Keynes Dons,Exeter,4,7,False
+E2,2223,2023-01-28,Morecambe,Bristol Rvs,4,14,False
+E2,2223,2023-01-28,Shrewsbury,Forest Green,4,4,False
+E2,2223,2023-02-01,Oxford,Barnsley,4,11,True
+E2,2223,2023-02-04,Fleetwood Town,Luton,11,7,False
+E2,2223,2023-02-04,Forest Green,Peterboro,7,7,False
+E2,2223,2023-02-04,Oxford,Shrewsbury,3,7,False
+E2,2223,2023-02-04,Port Vale,Wycombe,7,11,False
+E2,2223,2023-02-04,Portsmouth,Barnsley,7,3,False
+E2,2223,2023-02-04,Sheffield Weds,Plymouth,14,14,False
+E2,2223,2023-02-04,Exeter,Charlton,7,7,False
+E2,2223,2023-02-04,Derby,Morecambe,11,7,False
+E2,2223,2023-02-04,Cambridge,Ipswich,7,11,False
+E2,2223,2023-02-04,Bristol Rvs,Milton Keynes Dons,7,7,False
+E2,2223,2023-02-04,Luton,Cheltenham,7,7,False
+E2,2223,2023-02-04,Accrington,Lincoln,14,7,False
+E2,2223,2023-02-07,Port Vale,Accrington,3,3,True
+E2,2223,2023-02-11,Milton Keynes Dons,Oxford,7,7,False
+E2,2223,2023-02-11,Morecambe,Forest Green,7,7,False
+E2,2223,2023-02-11,Peterboro,Luton,7,7,False
+E2,2223,2023-02-11,Plymouth,Portsmouth,7,7,False
+E2,2223,2023-02-11,Shrewsbury,Port Vale,7,4,False
+E2,2223,2023-02-11,Wycombe,Derby,7,7,False
+E2,2223,2023-02-11,Barnsley,Cambridge,7,7,False
+E2,2223,2023-02-11,Luton,Exeter,7,7,False
+E2,2223,2023-02-11,Charlton,Fleetwood Town,7,7,False
+E2,2223,2023-02-11,Cheltenham,Accrington,7,4,False
+E2,2223,2023-02-11,Lincoln,Bristol Rvs,7,7,False
+E2,2223,2023-02-11,Ipswich,Sheffield Weds,7,7,False
+E2,2223,2023-02-14,Cambridge,Cheltenham,3,3,True
+E2,2223,2023-02-14,Accrington,Wycombe,3,3,True
+E2,2223,2023-02-14,Luton,Milton Keynes Dons,3,3,True
+E2,2223,2023-02-14,Bristol Rvs,Ipswich,3,3,True
+E2,2223,2023-02-14,Derby,Lincoln,3,3,True
+E2,2223,2023-02-14,Exeter,Shrewsbury,3,3,True
+E2,2223,2023-02-14,Fleetwood Town,Peterboro,3,3,True
+E2,2223,2023-02-14,Forest Green,Charlton,3,3,True
+E2,2223,2023-02-14,Oxford,Plymouth,3,3,True
+E2,2223,2023-02-14,Port Vale,Barnsley,3,3,True
+E2,2223,2023-02-14,Portsmouth,Luton,3,3,True
+E2,2223,2023-02-14,Sheffield Weds,Morecambe,3,3,True
+E2,2223,2023-02-18,Plymouth,Fleetwood Town,4,4,False
+E2,2223,2023-02-18,Morecambe,Peterboro,4,4,False
+E2,2223,2023-02-18,Lincoln,Portsmouth,4,4,False
+E2,2223,2023-02-18,Wycombe,Luton,4,4,False
+E2,2223,2023-02-18,Sheffield Weds,Milton Keynes Dons,4,4,False
+E2,2223,2023-02-18,Port Vale,Exeter,4,4,False
+E2,2223,2023-02-18,Accrington,Shrewsbury,4,4,False
+E2,2223,2023-02-18,Bristol Rvs,Luton,4,4,False
+E2,2223,2023-02-18,Cambridge,Oxford,4,4,False
+E2,2223,2023-02-18,Cheltenham,Barnsley,4,4,False
+E2,2223,2023-02-18,Derby,Charlton,4,4,False
+E2,2223,2023-02-18,Ipswich,Forest Green,4,4,False
+E2,2223,2023-02-21,Fleetwood Town,Cambridge,3,3,True
+E2,2223,2023-02-21,Morecambe,Port Vale,3,3,True
+E2,2223,2023-02-25,Fleetwood Town,Morecambe,4,4,False
+E2,2223,2023-02-25,Forest Green,Lincoln,7,7,False
+E2,2223,2023-02-25,Milton Keynes Dons,Ipswich,7,7,False
+E2,2223,2023-02-25,Peterboro,Plymouth,7,7,False
+E2,2223,2023-02-25,Portsmouth,Cheltenham,7,7,False
+E2,2223,2023-02-25,Shrewsbury,Wycombe,7,7,False
+E2,2223,2023-02-25,Luton,Accrington,7,7,False
+E2,2223,2023-02-25,Luton,Port Vale,7,4,False
+E2,2223,2023-02-25,Barnsley,Derby,7,7,False
+E2,2223,2023-02-25,Oxford,Bristol Rvs,7,7,False
+E2,2223,2023-02-25,Exeter,Cambridge,7,4,False
+E2,2223,2023-02-25,Charlton,Sheffield Weds,7,7,False
+E2,2223,2023-02-28,Derby,Cheltenham,3,3,True
+E2,2223,2023-02-28,Lincoln,Milton Keynes Dons,3,3,True
+E2,2223,2023-02-28,Peterboro,Charlton,3,3,True
+E2,2223,2023-02-28,Portsmouth,Luton,3,3,True
+E2,2223,2023-03-04,Ipswich,Luton,7,4,False
+E2,2223,2023-03-04,Morecambe,Luton,7,4,False
+E2,2223,2023-03-04,Accrington,Forest Green,7,7,False
+E2,2223,2023-03-04,Bristol Rvs,Barnsley,7,7,False
+E2,2223,2023-03-04,Cambridge,Portsmouth,7,4,False
+E2,2223,2023-03-04,Cheltenham,Fleetwood Town,4,7,False
+E2,2223,2023-03-04,Derby,Shrewsbury,4,7,False
+E2,2223,2023-03-04,Lincoln,Oxford,4,7,False
+E2,2223,2023-03-04,Plymouth,Charlton,7,4,False
+E2,2223,2023-03-04,Port Vale,Milton Keynes Dons,7,4,False
+E2,2223,2023-03-04,Sheffield Weds,Peterboro,7,4,False
+E2,2223,2023-03-04,Wycombe,Exeter,7,7,False
+E2,2223,2023-03-07,Plymouth,Derby,3,3,True
+E2,2223,2023-03-07,Wycombe,Fleetwood Town,3,3,True
+E2,2223,2023-03-07,Peterboro,Shrewsbury,3,3,True
+E2,2223,2023-03-07,Ipswich,Accrington,3,3,True
+E2,2223,2023-03-07,Cheltenham,Lincoln,3,3,True
+E2,2223,2023-03-07,Cambridge,Morecambe,3,3,True
+E2,2223,2023-03-07,Barnsley,Portsmouth,3,3,True
+E2,2223,2023-03-11,Shrewsbury,Morecambe,4,4,False
+E2,2223,2023-03-11,Barnsley,Plymouth,4,4,False
+E2,2223,2023-03-11,Luton,Ipswich,7,4,False
+E2,2223,2023-03-11,Luton,Wycombe,7,4,False
+E2,2223,2023-03-11,Charlton,Accrington,7,4,False
+E2,2223,2023-03-11,Exeter,Lincoln,7,4,False
+E2,2223,2023-03-11,Fleetwood Town,Port Vale,4,7,False
+E2,2223,2023-03-11,Forest Green,Bristol Rvs,7,7,False
+E2,2223,2023-03-11,Milton Keynes Dons,Cambridge,7,4,False
+E2,2223,2023-03-11,Oxford,Derby,7,4,False
+E2,2223,2023-03-11,Peterboro,Cheltenham,4,4,False
+E2,2223,2023-03-11,Portsmouth,Sheffield Weds,4,7,False
+E2,2223,2023-03-14,Bristol Rvs,Wycombe,3,3,True
+E2,2223,2023-03-14,Accrington,Portsmouth,3,3,True
+E2,2223,2023-03-14,Luton,Peterboro,3,3,True
+E2,2223,2023-03-14,Morecambe,Charlton,3,3,True
+E2,2223,2023-03-17,Sheffield Weds,Luton,6,3,False
+E2,2223,2023-03-18,Cambridge,Charlton,7,4,False
+E2,2223,2023-03-18,Bristol Rvs,Portsmouth,4,4,False
+E2,2223,2023-03-18,Lincoln,Peterboro,7,4,False
+E2,2223,2023-03-18,Wycombe,Barnsley,4,7,False
+E2,2223,2023-03-18,Plymouth,Forest Green,7,7,False
+E2,2223,2023-03-18,Port Vale,Luton,7,1,False
+E2,2223,2023-03-18,Accrington,Milton Keynes Dons,4,7,False
+E2,2223,2023-03-18,Morecambe,Oxford,4,7,False
+E2,2223,2023-03-18,Ipswich,Shrewsbury,7,7,False
+E2,2223,2023-03-18,Derby,Fleetwood Town,7,7,False
+E2,2223,2023-03-18,Cheltenham,Exeter,7,7,False
+E2,2223,2023-03-21,Barnsley,Sheffield Weds,3,4,True
+E2,2223,2023-03-21,Accrington,Plymouth,3,3,True
+E2,2223,2023-03-25,Portsmouth,Port Vale,7,7,False
+E2,2223,2023-03-25,Fleetwood Town,Lincoln,7,7,False
+E2,2223,2023-03-25,Exeter,Accrington,7,4,False
+E2,2223,2023-03-25,Charlton,Wycombe,7,7,False
+E2,2223,2023-03-25,Peterboro,Derby,7,7,False
+E2,2223,2023-03-25,Milton Keynes Dons,Morecambe,7,7,False
+E2,2223,2023-03-26,Forest Green,Sheffield Weds,8,5,False
+E2,2223,2023-03-28,Exeter,Barnsley,3,7,True
+E2,2223,2023-03-29,Cheltenham,Sheffield Weds,11,3,True
+E2,2223,2023-04-01,Cheltenham,Luton,3,14,False
+E2,2223,2023-04-01,Barnsley,Morecambe,4,7,False
+E2,2223,2023-04-01,Charlton,Shrewsbury,7,14,False
+E2,2223,2023-04-01,Derby,Ipswich,7,14,False
+E2,2223,2023-04-01,Fleetwood Town,Exeter,7,4,False
+E2,2223,2023-04-01,Peterboro,Oxford,7,14,False
+E2,2223,2023-04-01,Port Vale,Cambridge,7,14,False
+E2,2223,2023-04-01,Portsmouth,Forest Green,7,6,False
+E2,2223,2023-04-01,Sheffield Weds,Lincoln,3,7,False
+E2,2223,2023-04-01,Wycombe,Milton Keynes Dons,7,7,False
+E2,2223,2023-04-07,Ipswich,Wycombe,6,6,False
+E2,2223,2023-04-07,Lincoln,Cheltenham,6,6,False
+E2,2223,2023-04-07,Milton Keynes Dons,Portsmouth,6,6,False
+E2,2223,2023-04-07,Morecambe,Plymouth,6,17,False
+E2,2223,2023-04-07,Oxford,Sheffield Weds,6,6,False
+E2,2223,2023-04-07,Shrewsbury,Peterboro,6,6,False
+E2,2223,2023-04-07,Forest Green,Derby,6,6,False
+E2,2223,2023-04-07,Exeter,Luton,6,6,False
+E2,2223,2023-04-07,Cambridge,Fleetwood Town,6,6,False
+E2,2223,2023-04-07,Luton,Barnsley,6,6,False
+E2,2223,2023-04-07,Bristol Rvs,Charlton,20,6,False
+E2,2223,2023-04-07,Accrington,Port Vale,13,6,False
+E2,2223,2023-04-10,Peterboro,Exeter,3,3,False
+E2,2223,2023-04-10,Plymouth,Lincoln,3,3,False
+E2,2223,2023-04-10,Port Vale,Oxford,3,3,False
+E2,2223,2023-04-10,Portsmouth,Morecambe,3,3,False
+E2,2223,2023-04-10,Sheffield Weds,Accrington,3,3,False
+E2,2223,2023-04-10,Wycombe,Forest Green,3,3,False
+E2,2223,2023-04-10,Barnsley,Shrewsbury,3,3,False
+E2,2223,2023-04-10,Luton,Cambridge,3,3,False
+E2,2223,2023-04-10,Charlton,Luton,3,3,False
+E2,2223,2023-04-10,Cheltenham,Ipswich,3,3,False
+E2,2223,2023-04-10,Derby,Milton Keynes Dons,3,3,False
+E2,2223,2023-04-10,Fleetwood Town,Bristol Rvs,3,3,False
+E2,2223,2023-04-15,Milton Keynes Dons,Cheltenham,5,5,False
+E2,2223,2023-04-15,Exeter,Plymouth,5,5,False
+E2,2223,2023-04-15,Cambridge,Peterboro,5,5,False
+E2,2223,2023-04-15,Accrington,Fleetwood Town,5,5,False
+E2,2223,2023-04-15,Bristol Rvs,Derby,5,5,False
+E2,2223,2023-04-15,Luton,Sheffield Weds,5,5,False
+E2,2223,2023-04-15,Forest Green,Barnsley,5,5,False
+E2,2223,2023-04-15,Ipswich,Charlton,5,5,False
+E2,2223,2023-04-15,Lincoln,Port Vale,5,5,False
+E2,2223,2023-04-15,Morecambe,Wycombe,5,5,False
+E2,2223,2023-04-15,Oxford,Luton,5,5,False
+E2,2223,2023-04-15,Shrewsbury,Portsmouth,5,5,False
+E2,2223,2023-04-18,Forest Green,Fleetwood Town,3,3,True
+E2,2223,2023-04-18,Ipswich,Port Vale,3,3,True
+E2,2223,2023-04-18,Accrington,Peterboro,3,3,True
+E2,2223,2023-04-18,Bristol Rvs,Sheffield Weds,3,3,True
+E2,2223,2023-04-18,Luton,Luton,3,3,True
+E2,2223,2023-04-18,Cambridge,Wycombe,3,3,True
+E2,2223,2023-04-18,Shrewsbury,Plymouth,3,3,True
+E2,2223,2023-04-18,Oxford,Portsmouth,3,3,True
+E2,2223,2023-04-18,Milton Keynes Dons,Charlton,3,3,True
+E2,2223,2023-04-18,Lincoln,Barnsley,3,3,True
+E2,2223,2023-04-18,Exeter,Derby,3,3,True
+E2,2223,2023-04-22,Luton,Shrewsbury,4,4,False
+E2,2223,2023-04-22,Cheltenham,Forest Green,7,4,False
+E2,2223,2023-04-22,Derby,Luton,4,4,False
+E2,2223,2023-04-22,Fleetwood Town,Milton Keynes Dons,4,4,False
+E2,2223,2023-04-22,Peterboro,Ipswich,4,4,False
+E2,2223,2023-04-22,Plymouth,Cambridge,4,4,False
+E2,2223,2023-04-22,Port Vale,Bristol Rvs,4,4,False
+E2,2223,2023-04-22,Portsmouth,Accrington,4,4,False
+E2,2223,2023-04-22,Sheffield Weds,Exeter,4,4,False
+E2,2223,2023-04-22,Wycombe,Lincoln,4,4,False
+E2,2223,2023-04-22,Barnsley,Oxford,4,4,False
+E2,2223,2023-04-22,Charlton,Morecambe,4,7,False
+E2,2223,2023-04-25,Lincoln,Luton,3,3,True
+E2,2223,2023-04-25,Luton,Accrington,3,3,True
+E2,2223,2023-04-25,Barnsley,Ipswich,3,3,True
+E2,2223,2023-04-25,Plymouth,Bristol Rvs,3,3,True
+E2,2223,2023-04-25,Oxford,Cheltenham,3,3,True
+E2,2223,2023-04-29,Wycombe,Cheltenham,7,4,False
+E2,2223,2023-04-29,Accrington,Cambridge,4,7,False
+E2,2223,2023-04-29,Luton,Fleetwood Town,4,7,False
+E2,2223,2023-04-29,Charlton,Port Vale,7,7,False
+E2,2223,2023-04-29,Derby,Portsmouth,7,7,False
+E2,2223,2023-04-29,Forest Green,Oxford,7,4,False
+E2,2223,2023-04-29,Ipswich,Exeter,4,7,False
+E2,2223,2023-04-29,Milton Keynes Dons,Barnsley,7,4,False
+E2,2223,2023-04-29,Morecambe,Lincoln,7,4,False
+E2,2223,2023-04-29,Peterboro,Bristol Rvs,7,4,False
+E2,2223,2023-04-29,Plymouth,Luton,4,4,False
+E2,2223,2023-04-29,Shrewsbury,Sheffield Weds,7,7,False
+E2,2223,2023-05-02,Shrewsbury,Bristol Rvs,3,3,True
+E2,2223,2023-05-03,Luton,Cambridge,4,4,True
+E2,2223,2023-05-07,Fleetwood Town,Ipswich,8,8,False
+E2,2223,2023-05-07,Lincoln,Shrewsbury,8,5,False
+E2,2223,2023-05-07,Oxford,Accrington,8,8,False
+E2,2223,2023-05-07,Port Vale,Plymouth,8,8,False
+E2,2223,2023-05-07,Portsmouth,Wycombe,8,8,False
+E2,2223,2023-05-07,Cheltenham,Charlton,8,8,False
+E2,2223,2023-05-07,Cambridge,Forest Green,4,8,False
+E2,2223,2023-05-07,Luton,Milton Keynes Dons,4,8,False
+E2,2223,2023-05-07,Bristol Rvs,Luton,5,4,False
+E2,2223,2023-05-07,Barnsley,Peterboro,8,8,False
+E2,2223,2023-05-07,Sheffield Weds,Derby,8,8,False
+E2,2223,2023-05-07,Exeter,Morecambe,8,8,False

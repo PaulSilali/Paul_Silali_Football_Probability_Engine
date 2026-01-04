@@ -1,0 +1,95 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,2526,2025-08-02,Peterhead,East Fife,819,1190,False
+SC2,2526,2025-08-02,Stenhousemuir,Alloa,91,91,False
+SC2,2526,2025-08-02,Kelty Hearts,Inverness C,91,91,False
+SC2,2526,2025-08-02,Hamilton,Montrose,455,91,False
+SC2,2526,2025-08-02,Cove Rangers,Queen of Sth,91,91,False
+SC2,2526,2025-08-09,East Fife,Alloa,7,7,False
+SC2,2526,2025-08-09,Montrose,Kelty Hearts,7,7,False
+SC2,2526,2025-08-09,Queen of Sth,Hamilton,7,7,False
+SC2,2526,2025-08-09,Stenhousemuir,Cove Rangers,7,7,False
+SC2,2526,2025-08-09,Inverness C,Peterhead,7,7,False
+SC2,2526,2025-08-16,Queen of Sth,Peterhead,7,7,False
+SC2,2526,2025-08-16,Hamilton,East Fife,7,7,False
+SC2,2526,2025-08-16,Cove Rangers,Montrose,7,7,False
+SC2,2526,2025-08-16,Inverness C,Stenhousemuir,7,7,False
+SC2,2526,2025-08-23,Montrose,Inverness C,7,7,False
+SC2,2526,2025-08-23,East Fife,Kelty Hearts,7,14,False
+SC2,2526,2025-08-23,Peterhead,Cove Rangers,7,7,False
+SC2,2526,2025-08-23,Stenhousemuir,Queen of Sth,7,7,False
+SC2,2526,2025-08-23,Alloa,Hamilton,14,7,False
+SC2,2526,2025-08-30,Hamilton,Cove Rangers,7,7,False
+SC2,2526,2025-08-30,Montrose,Peterhead,7,7,False
+SC2,2526,2025-08-30,Queen of Sth,Kelty Hearts,7,7,False
+SC2,2526,2025-08-30,Stenhousemuir,East Fife,7,7,False
+SC2,2526,2025-08-30,Inverness C,Alloa,7,7,False
+SC2,2526,2025-09-13,Cove Rangers,Inverness C,14,14,False
+SC2,2526,2025-09-13,Alloa,Montrose,14,14,False
+SC2,2526,2025-09-13,East Fife,Queen of Sth,14,14,False
+SC2,2526,2025-09-13,Kelty Hearts,Stenhousemuir,14,14,False
+SC2,2526,2025-09-13,Peterhead,Hamilton,14,14,False
+SC2,2526,2025-09-20,Alloa,Cove Rangers,7,7,False
+SC2,2526,2025-09-20,East Fife,Montrose,7,7,False
+SC2,2526,2025-09-20,Kelty Hearts,Hamilton,7,7,False
+SC2,2526,2025-09-20,Queen of Sth,Inverness C,7,7,False
+SC2,2526,2025-09-20,Stenhousemuir,Peterhead,7,7,False
+SC2,2526,2025-09-27,Peterhead,Alloa,7,7,False
+SC2,2526,2025-09-27,Cove Rangers,Kelty Hearts,7,7,False
+SC2,2526,2025-09-27,Hamilton,Stenhousemuir,7,7,False
+SC2,2526,2025-09-27,Inverness C,East Fife,7,7,False
+SC2,2526,2025-09-27,Montrose,Queen of Sth,7,7,False
+SC2,2526,2025-10-04,Stenhousemuir,Montrose,7,7,False
+SC2,2526,2025-10-04,East Fife,Cove Rangers,7,7,False
+SC2,2526,2025-10-04,Hamilton,Inverness C,7,7,False
+SC2,2526,2025-10-04,Kelty Hearts,Peterhead,7,7,False
+SC2,2526,2025-10-04,Queen of Sth,Alloa,7,7,False
+SC2,2526,2025-10-07,Kelty Hearts,Alloa,3,3,True
+SC2,2526,2025-10-18,Alloa,East Fife,11,14,False
+SC2,2526,2025-10-18,Peterhead,Queen of Sth,14,14,False
+SC2,2526,2025-10-18,Montrose,Hamilton,14,14,False
+SC2,2526,2025-10-18,Inverness C,Kelty Hearts,14,11,False
+SC2,2526,2025-10-18,Cove Rangers,Stenhousemuir,14,14,False
+SC2,2526,2025-10-24,Hamilton,Queen of Sth,6,6,False
+SC2,2526,2025-10-25,Peterhead,Inverness C,7,7,False
+SC2,2526,2025-10-25,Montrose,Cove Rangers,7,7,False
+SC2,2526,2025-10-25,Kelty Hearts,East Fife,7,7,False
+SC2,2526,2025-10-25,Alloa,Stenhousemuir,7,7,False
+SC2,2526,2025-11-01,East Fife,Hamilton,7,8,False
+SC2,2526,2025-11-01,Alloa,Kelty Hearts,7,7,False
+SC2,2526,2025-11-01,Cove Rangers,Peterhead,7,7,False
+SC2,2526,2025-11-01,Inverness C,Montrose,7,7,False
+SC2,2526,2025-11-01,Queen of Sth,Stenhousemuir,8,7,False
+SC2,2526,2025-11-08,Stenhousemuir,Kelty Hearts,7,7,False
+SC2,2526,2025-11-08,Hamilton,Peterhead,7,7,False
+SC2,2526,2025-11-08,Inverness C,Cove Rangers,7,7,False
+SC2,2526,2025-11-08,Montrose,Alloa,7,7,False
+SC2,2526,2025-11-08,Queen of Sth,East Fife,7,7,False
+SC2,2526,2025-11-15,Kelty Hearts,Queen of Sth,7,7,False
+SC2,2526,2025-11-15,Peterhead,Montrose,7,7,False
+SC2,2526,2025-11-15,East Fife,Stenhousemuir,7,7,False
+SC2,2526,2025-11-15,Cove Rangers,Hamilton,7,7,False
+SC2,2526,2025-11-22,Hamilton,Kelty Hearts,7,7,False
+SC2,2526,2025-11-22,Montrose,East Fife,7,7,False
+SC2,2526,2025-11-22,Peterhead,Stenhousemuir,7,7,False
+SC2,2526,2025-11-22,Inverness C,Queen of Sth,14,7,False
+SC2,2526,2025-11-22,Cove Rangers,Alloa,7,14,False
+SC2,2526,2025-11-25,Alloa,Inverness C,3,3,True
+SC2,2526,2025-12-06,Alloa,Peterhead,11,14,False
+SC2,2526,2025-12-06,Kelty Hearts,Montrose,14,14,False
+SC2,2526,2025-12-06,Queen of Sth,Cove Rangers,14,14,False
+SC2,2526,2025-12-06,Stenhousemuir,Hamilton,14,14,False
+SC2,2526,2025-12-13,Peterhead,Kelty Hearts,7,7,False
+SC2,2526,2025-12-13,Montrose,Stenhousemuir,7,7,False
+SC2,2526,2025-12-13,Inverness C,Hamilton,18,7,False
+SC2,2526,2025-12-13,Cove Rangers,East Fife,7,21,False
+SC2,2526,2025-12-13,Alloa,Queen of Sth,7,7,False
+SC2,2526,2025-12-20,Stenhousemuir,Inverness C,7,7,False
+SC2,2526,2025-12-20,Queen of Sth,Montrose,7,7,False
+SC2,2526,2025-12-20,Kelty Hearts,Cove Rangers,7,7,False
+SC2,2526,2025-12-20,Hamilton,Alloa,7,7,False
+SC2,2526,2025-12-20,East Fife,Peterhead,7,7,False
+SC2,2526,2025-12-27,Queen of Sth,Hamilton,7,7,False
+SC2,2526,2025-12-27,East Fife,Kelty Hearts,7,7,False
+SC2,2526,2025-12-27,Montrose,Inverness C,7,7,False
+SC2,2526,2025-12-27,Peterhead,Cove Rangers,7,7,False
+SC2,2526,2025-12-27,Alloa,Stenhousemuir,7,7,False

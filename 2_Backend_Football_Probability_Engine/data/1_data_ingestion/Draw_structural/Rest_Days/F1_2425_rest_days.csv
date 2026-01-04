@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+F1,2425,2024-08-16,Le Havre,Paris SG,89,89,False
+F1,2425,2024-08-17,Monaco,St Etienne,90,819,False
+F1,2425,2024-08-17,Brest,Marseille,90,90,False
+F1,2425,2024-08-17,Reims,Lille,90,90,False
+F1,2425,2024-08-18,Auxerre,Nice,442,91,False
+F1,2425,2024-08-18,Angers,Lens,442,91,False
+F1,2425,2024-08-18,Rennes,Lyon,91,91,False
+F1,2425,2024-08-18,Montpellier,Strasbourg,91,91,False
+F1,2425,2024-08-18,Toulouse,Nantes,91,91,False
+F1,2425,2024-08-23,Paris SG,Montpellier,7,5,False
+F1,2425,2024-08-24,St Etienne,Le Havre,7,8,False
+F1,2425,2024-08-24,Lyon,Monaco,6,7,False
+F1,2425,2024-08-24,Lille,Angers,7,6,False
+F1,2425,2024-08-25,Strasbourg,Rennes,7,7,False
+F1,2425,2024-08-25,Marseille,Reims,8,8,False
+F1,2425,2024-08-25,Lens,Brest,7,8,False
+F1,2425,2024-08-25,Nantes,Auxerre,7,7,False
+F1,2425,2024-08-25,Nice,Toulouse,7,7,False
+F1,2425,2024-08-30,Lyon,Strasbourg,6,5,False
+F1,2425,2024-08-31,Toulouse,Marseille,6,6,False
+F1,2425,2024-08-31,Brest,St Etienne,6,7,False
+F1,2425,2024-08-31,Montpellier,Nantes,8,6,False
+F1,2425,2024-09-01,Reims,Rennes,7,7,False
+F1,2425,2024-09-01,Lille,Paris SG,8,9,False
+F1,2425,2024-09-01,Monaco,Lens,8,7,False
+F1,2425,2024-09-01,Angers,Nice,8,7,False
+F1,2425,2024-09-01,Le Havre,Auxerre,8,7,False
+F1,2425,2024-09-13,St Etienne,Lille,13,12,False
+F1,2425,2024-09-14,Paris SG,Brest,13,14,False
+F1,2425,2024-09-14,Marseille,Nice,14,13,False
+F1,2425,2024-09-14,Auxerre,Monaco,13,13,False
+F1,2425,2024-09-15,Toulouse,Le Havre,15,14,False
+F1,2425,2024-09-15,Lens,Lyon,14,16,False
+F1,2425,2024-09-15,Rennes,Montpellier,14,15,False
+F1,2425,2024-09-15,Nantes,Reims,15,14,False
+F1,2425,2024-09-15,Strasbourg,Angers,16,14,False
+F1,2425,2024-09-20,Nice,St Etienne,6,7,False
+F1,2425,2024-09-21,Reims,Paris SG,6,7,False
+F1,2425,2024-09-21,Lille,Strasbourg,8,6,False
+F1,2425,2024-09-21,Rennes,Lens,6,6,False
+F1,2425,2024-09-22,Angers,Nantes,7,7,False
+F1,2425,2024-09-22,Monaco,Le Havre,8,7,False
+F1,2425,2024-09-22,Brest,Toulouse,8,7,False
+F1,2425,2024-09-22,Montpellier,Auxerre,7,8,False
+F1,2425,2024-09-22,Lyon,Marseille,7,8,False
+F1,2425,2024-09-27,Auxerre,Brest,5,5,False
+F1,2425,2024-09-27,Paris SG,Rennes,6,6,False
+F1,2425,2024-09-28,Le Havre,Lille,6,7,False
+F1,2425,2024-09-28,Monaco,Montpellier,6,6,False
+F1,2425,2024-09-28,Lens,Nice,7,8,False
+F1,2425,2024-09-29,Strasbourg,Marseille,8,7,False
+F1,2425,2024-09-29,Toulouse,Lyon,7,7,False
+F1,2425,2024-09-29,Angers,Reims,7,8,False
+F1,2425,2024-09-29,Nantes,St Etienne,7,9,False
+F1,2425,2024-10-04,Marseille,Angers,5,5,False
+F1,2425,2024-10-05,Rennes,Monaco,8,7,False
+F1,2425,2024-10-05,St Etienne,Auxerre,6,8,False
+F1,2425,2024-10-05,Lille,Toulouse,7,6,False
+F1,2425,2024-10-06,Strasbourg,Lens,7,8,False
+F1,2425,2024-10-06,Nice,Paris SG,8,9,False
+F1,2425,2024-10-06,Lyon,Nantes,7,7,False
+F1,2425,2024-10-06,Brest,Le Havre,9,8,False
+F1,2425,2024-10-06,Reims,Montpellier,7,8,False
+F1,2425,2024-10-18,Monaco,Lille,13,13,False
+F1,2425,2024-10-19,Paris SG,Strasbourg,13,13,False
+F1,2425,2024-10-19,Brest,Rennes,13,14,False
+F1,2425,2024-10-19,St Etienne,Lens,14,13,False
+F1,2425,2024-10-20,Toulouse,Angers,15,16,False
+F1,2425,2024-10-20,Montpellier,Marseille,14,16,False
+F1,2425,2024-10-20,Le Havre,Lyon,14,14,False
+F1,2425,2024-10-20,Auxerre,Reims,15,14,False
+F1,2425,2024-10-20,Nantes,Nice,14,14,False
+F1,2425,2024-10-25,Rennes,Le Havre,6,5,False
+F1,2425,2024-10-26,Lens,Lille,7,8,False
+F1,2425,2024-10-26,Angers,St Etienne,6,7,False
+F1,2425,2024-10-26,Reims,Brest,6,7,False
+F1,2425,2024-10-27,Marseille,Paris SG,7,8,False
+F1,2425,2024-10-27,Lyon,Auxerre,7,7,False
+F1,2425,2024-10-27,Montpellier,Toulouse,7,7,False
+F1,2425,2024-10-27,Nice,Monaco,7,9,False
+F1,2425,2024-10-27,Strasbourg,Nantes,8,7,False
+F1,2425,2024-11-01,Lille,Lyon,6,5,False
+F1,2425,2024-11-01,Monaco,Angers,5,6,False
+F1,2425,2024-11-02,Brest,Nice,7,6,False
+F1,2425,2024-11-02,Paris SG,Lens,6,7,False
+F1,2425,2024-11-02,St Etienne,Strasbourg,7,6,False
+F1,2425,2024-11-03,Nantes,Marseille,7,7,False
+F1,2425,2024-11-03,Auxerre,Rennes,7,9,False
+F1,2425,2024-11-03,Toulouse,Reims,7,8,False
+F1,2425,2024-11-03,Le Havre,Montpellier,9,7,False
+F1,2425,2024-11-08,Marseille,Auxerre,5,5,False
+F1,2425,2024-11-09,Angers,Paris SG,8,7,False
+F1,2425,2024-11-09,Strasbourg,Monaco,7,8,False
+F1,2425,2024-11-09,Lens,Nantes,7,6,False
+F1,2425,2024-11-10,Rennes,Toulouse,7,7,False
+F1,2425,2024-11-10,Lyon,St Etienne,9,8,False
+F1,2425,2024-11-10,Nice,Lille,8,9,False
+F1,2425,2024-11-10,Le Havre,Reims,7,7,False
+F1,2425,2024-11-10,Montpellier,Brest,7,8,False
+F1,2425,2024-11-22,Paris SG,Toulouse,13,12,False
+F1,2425,2024-11-22,Monaco,Brest,13,12,False
+F1,2425,2024-11-23,St Etienne,Montpellier,13,13,False
+F1,2425,2024-11-23,Reims,Lyon,13,13,False
+F1,2425,2024-11-23,Lens,Marseille,14,15,False
+F1,2425,2024-11-24,Nice,Strasbourg,14,15,False
+F1,2425,2024-11-24,Auxerre,Angers,16,15,False
+F1,2425,2024-11-24,Lille,Rennes,14,14,False
+F1,2425,2024-11-24,Nantes,Le Havre,15,14,False
+F1,2425,2024-11-29,Reims,Lens,6,6,False
+F1,2425,2024-11-30,Paris SG,Nantes,8,6,False
+F1,2425,2024-11-30,Rennes,St Etienne,6,7,False
+F1,2425,2024-11-30,Brest,Strasbourg,8,6,False
+F1,2425,2024-12-01,Le Havre,Angers,7,7,False
+F1,2425,2024-12-01,Lyon,Nice,8,7,False
+F1,2425,2024-12-01,Marseille,Monaco,8,9,False
+F1,2425,2024-12-01,Toulouse,Auxerre,9,7,False
+F1,2425,2024-12-01,Montpellier,Lille,8,7,False
+F1,2425,2024-12-06,Auxerre,Paris SG,5,6,False
+F1,2425,2024-12-06,Lille,Brest,5,6,False
+F1,2425,2024-12-07,Angers,Lyon,6,6,False
+F1,2425,2024-12-07,Monaco,Toulouse,6,6,False
+F1,2425,2024-12-07,Nice,Le Havre,6,6,False
+F1,2425,2024-12-08,St Etienne,Marseille,8,7,False
+F1,2425,2024-12-08,Strasbourg,Reims,8,9,False
+F1,2425,2024-12-08,Nantes,Rennes,8,8,False
+F1,2425,2024-12-08,Lens,Montpellier,9,7,False
+F1,2425,2024-12-13,Toulouse,St Etienne,6,5,False
+F1,2425,2024-12-14,Reims,Monaco,6,7,False
+F1,2425,2024-12-14,Marseille,Lille,6,8,False
+F1,2425,2024-12-14,Auxerre,Lens,8,6,False
+F1,2425,2024-12-15,Rennes,Angers,7,8,False
+F1,2425,2024-12-15,Paris SG,Lyon,9,8,False
+F1,2425,2024-12-15,Montpellier,Nice,7,8,False
+F1,2425,2024-12-15,Brest,Nantes,9,7,False
+F1,2425,2024-12-15,Le Havre,Strasbourg,8,7,False
+F1,2425,2024-12-18,Monaco,Paris SG,4,3,True
+F1,2425,2025-01-03,Nice,Rennes,19,19,False
+F1,2425,2025-01-04,Lille,Nantes,21,20,False
+F1,2425,2025-01-04,Lyon,Montpellier,20,20,False
+F1,2425,2025-01-04,St Etienne,Reims,22,21,False
+F1,2425,2025-01-05,Marseille,Le Havre,22,21,False
+F1,2425,2025-01-05,Lens,Toulouse,22,23,False
+F1,2425,2025-01-05,Angers,Brest,21,21,False
+F1,2425,2025-01-05,Strasbourg,Auxerre,21,22,False
+F1,2425,2025-01-10,Auxerre,Lille,5,6,False
+F1,2425,2025-01-10,Nantes,Monaco,6,23,False
+F1,2425,2025-01-11,Reims,Nice,7,8,False
+F1,2425,2025-01-11,Rennes,Marseille,8,6,False
+F1,2425,2025-01-11,Brest,Lyon,6,7,False
+F1,2425,2025-01-12,Paris SG,St Etienne,25,8,False
+F1,2425,2025-01-12,Montpellier,Angers,8,7,False
+F1,2425,2025-01-12,Le Havre,Lens,7,7,False
+F1,2425,2025-01-12,Toulouse,Strasbourg,7,7,False
+F1,2425,2025-01-17,Montpellier,Monaco,5,7,False
+F1,2425,2025-01-17,Lille,Nice,7,6,False
+F1,2425,2025-01-18,Rennes,Brest,7,7,False
+F1,2425,2025-01-18,Lens,Paris SG,6,6,False
+F1,2425,2025-01-18,Lyon,Toulouse,7,6,False
+F1,2425,2025-01-19,Angers,Auxerre,7,9,False
+F1,2425,2025-01-19,St Etienne,Nantes,7,9,False
+F1,2425,2025-01-19,Marseille,Strasbourg,8,7,False
+F1,2425,2025-01-19,Reims,Le Havre,8,7,False
+F1,2425,2025-01-24,Auxerre,St Etienne,5,5,False
+F1,2425,2025-01-25,Paris SG,Reims,7,6,False
+F1,2425,2025-01-25,Monaco,Rennes,8,7,False
+F1,2425,2025-01-25,Strasbourg,Lille,6,8,False
+F1,2425,2025-01-26,Toulouse,Montpellier,8,9,False
+F1,2425,2025-01-26,Nice,Marseille,9,7,False
+F1,2425,2025-01-26,Le Havre,Brest,7,8,False
+F1,2425,2025-01-26,Lens,Angers,8,7,False
+F1,2425,2025-01-26,Nantes,Lyon,7,8,False
+F1,2425,2025-01-31,Montpellier,Lens,5,5,False
+F1,2425,2025-02-01,Lille,St Etienne,7,8,False
+F1,2425,2025-02-01,Brest,Paris SG,6,7,False
+F1,2425,2025-02-01,Monaco,Auxerre,7,8,False
+F1,2425,2025-02-02,Rennes,Strasbourg,8,8,False
+F1,2425,2025-02-02,Marseille,Lyon,7,7,False
+F1,2425,2025-02-02,Toulouse,Nice,7,7,False
+F1,2425,2025-02-02,Angers,Le Havre,7,7,False
+F1,2425,2025-02-02,Reims,Nantes,8,7,False
+F1,2425,2025-02-07,Paris SG,Monaco,6,6,False
+F1,2425,2025-02-07,Nantes,Brest,5,6,False
+F1,2425,2025-02-08,Nice,Lens,6,8,False
+F1,2425,2025-02-08,Lille,Le Havre,7,6,False
+F1,2425,2025-02-08,St Etienne,Rennes,7,6,False
+F1,2425,2025-02-09,Angers,Marseille,7,7,False
+F1,2425,2025-02-09,Lyon,Reims,7,7,False
+F1,2425,2025-02-09,Auxerre,Toulouse,8,7,False
+F1,2425,2025-02-09,Strasbourg,Montpellier,7,9,False
+F1,2425,2025-02-14,Brest,Auxerre,7,5,False
+F1,2425,2025-02-15,Toulouse,Paris SG,6,8,False
+F1,2425,2025-02-15,Monaco,Nantes,8,8,False
+F1,2425,2025-02-15,Marseille,St Etienne,6,7,False
+F1,2425,2025-02-16,Reims,Angers,7,7,False
+F1,2425,2025-02-16,Rennes,Lille,8,8,False
+F1,2425,2025-02-16,Montpellier,Lyon,7,7,False
+F1,2425,2025-02-16,Le Havre,Nice,8,8,False
+F1,2425,2025-02-16,Lens,Strasbourg,8,7,False
+F1,2425,2025-02-21,Rennes,Reims,5,5,False
+F1,2425,2025-02-22,Lille,Monaco,6,7,False
+F1,2425,2025-02-22,St Etienne,Angers,7,6,False
+F1,2425,2025-02-22,Auxerre,Marseille,8,7,False
+F1,2425,2025-02-23,Strasbourg,Brest,7,9,False
+F1,2425,2025-02-23,Lyon,Paris SG,7,8,False
+F1,2425,2025-02-23,Nice,Montpellier,7,7,False
+F1,2425,2025-02-23,Le Havre,Toulouse,7,8,False
+F1,2425,2025-02-23,Nantes,Lens,8,7,False
+F1,2425,2025-02-28,Monaco,Reims,6,7,False
+F1,2425,2025-03-01,Paris SG,Lille,6,7,False
+F1,2425,2025-03-01,St Etienne,Nice,7,6,False
+F1,2425,2025-03-01,Lens,Le Havre,6,6,False
+F1,2425,2025-03-02,Montpellier,Rennes,7,9,False
+F1,2425,2025-03-02,Marseille,Nantes,8,7,False
+F1,2425,2025-03-02,Lyon,Brest,7,7,False
+F1,2425,2025-03-02,Angers,Toulouse,8,7,False
+F1,2425,2025-03-02,Auxerre,Strasbourg,8,7,False
+F1,2425,2025-03-07,Toulouse,Monaco,5,7,False
+F1,2425,2025-03-08,Marseille,Lens,6,7,False
+F1,2425,2025-03-08,Rennes,Paris SG,6,7,False
+F1,2425,2025-03-08,Lille,Montpellier,7,6,False
+F1,2425,2025-03-09,Reims,Auxerre,9,7,False
+F1,2425,2025-03-09,Nice,Lyon,8,7,False
+F1,2425,2025-03-09,Brest,Angers,7,7,False
+F1,2425,2025-03-09,Le Havre,St Etienne,8,8,False
+F1,2425,2025-03-09,Nantes,Strasbourg,7,7,False
+F1,2425,2025-03-14,Nice,Auxerre,5,5,False
+F1,2425,2025-03-15,Lens,Rennes,7,7,False
+F1,2425,2025-03-15,Nantes,Lille,6,7,False
+F1,2425,2025-03-15,Angers,Monaco,6,8,False
+F1,2425,2025-03-16,Strasbourg,Toulouse,7,9,False
+F1,2425,2025-03-16,Paris SG,Marseille,8,8,False
+F1,2425,2025-03-16,Lyon,Le Havre,7,7,False
+F1,2425,2025-03-16,Brest,Reims,7,7,False
+F1,2425,2025-03-16,Montpellier,St Etienne,8,7,False
+F1,2425,2025-03-28,Strasbourg,Lyon,12,12,False
+F1,2425,2025-03-29,Reims,Marseille,13,13,False
+F1,2425,2025-03-29,St Etienne,Paris SG,13,13,False
+F1,2425,2025-03-29,Monaco,Nice,14,15,False
+F1,2425,2025-03-30,Le Havre,Nantes,14,15,False
+F1,2425,2025-03-30,Lille,Lens,15,15,False
+F1,2425,2025-03-30,Angers,Rennes,15,15,False
+F1,2425,2025-03-30,Auxerre,Montpellier,16,14,False
+F1,2425,2025-03-30,Toulouse,Brest,14,14,False
+F1,2425,2025-04-04,Nice,Nantes,6,5,False
+F1,2425,2025-04-05,Paris SG,Angers,7,6,False
+F1,2425,2025-04-05,Brest,Monaco,6,7,False
+F1,2425,2025-04-05,Lyon,Lille,8,6,False
+F1,2425,2025-04-06,Rennes,Auxerre,7,7,False
+F1,2425,2025-04-06,Marseille,Toulouse,8,7,False
+F1,2425,2025-04-06,Reims,Strasbourg,8,9,False
+F1,2425,2025-04-06,Montpellier,Le Havre,7,7,False
+F1,2425,2025-04-06,Lens,St Etienne,7,8,False
+F1,2425,2025-04-11,Lens,Reims,5,5,False
+F1,2425,2025-04-12,Strasbourg,Nice,6,8,False
+F1,2425,2025-04-12,Monaco,Marseille,7,6,False
+F1,2425,2025-04-12,Toulouse,Lille,6,7,False
+F1,2425,2025-04-13,Auxerre,Lyon,7,8,False
+F1,2425,2025-04-13,St Etienne,Brest,7,8,False
+F1,2425,2025-04-13,Angers,Montpellier,8,7,False
+F1,2425,2025-04-13,Le Havre,Rennes,7,7,False
+F1,2425,2025-04-18,Rennes,Nantes,5,14,False
+F1,2425,2025-04-19,Marseille,Montpellier,7,6,False
+F1,2425,2025-04-19,Paris SG,Le Havre,14,6,False
+F1,2425,2025-04-19,Monaco,Strasbourg,7,7,False
+F1,2425,2025-04-20,Reims,Toulouse,9,8,False
+F1,2425,2025-04-20,St Etienne,Lyon,7,7,False
+F1,2425,2025-04-20,Lille,Auxerre,8,7,False
+F1,2425,2025-04-20,Brest,Lens,7,9,False
+F1,2425,2025-04-20,Nice,Angers,8,7,False
+F1,2425,2025-04-22,Nantes,Paris SG,4,3,True
+F1,2425,2025-04-25,Paris SG,Nice,3,5,False
+F1,2425,2025-04-26,Le Havre,Monaco,7,7,False
+F1,2425,2025-04-26,Lyon,Rennes,6,8,False
+F1,2425,2025-04-26,Strasbourg,St Etienne,7,6,False
+F1,2425,2025-04-27,Lens,Auxerre,7,7,False
+F1,2425,2025-04-27,Angers,Lille,7,7,False
+F1,2425,2025-04-27,Montpellier,Reims,8,7,False
+F1,2425,2025-04-27,Nantes,Toulouse,5,7,False
+F1,2425,2025-04-27,Marseille,Brest,8,7,False
+F1,2425,2025-05-02,Nice,Reims,7,5,False
+F1,2425,2025-05-03,St Etienne,Monaco,7,7,False
+F1,2425,2025-05-03,Toulouse,Rennes,6,7,False
+F1,2425,2025-05-03,Strasbourg,Paris SG,7,8,False
+F1,2425,2025-05-04,Lyon,Lens,8,7,False
+F1,2425,2025-05-04,Lille,Marseille,7,7,False
+F1,2425,2025-05-04,Nantes,Angers,7,7,False
+F1,2425,2025-05-04,Auxerre,Le Havre,7,8,False
+F1,2425,2025-05-04,Brest,Montpellier,7,7,False
+F1,2425,2025-05-10,Le Havre,Marseille,6,6,False
+F1,2425,2025-05-10,Monaco,Lyon,7,6,False
+F1,2425,2025-05-10,Montpellier,Paris SG,6,7,False
+F1,2425,2025-05-10,Reims,St Etienne,8,7,False
+F1,2425,2025-05-10,Rennes,Nice,7,8,False
+F1,2425,2025-05-10,Toulouse,Lens,7,6,False
+F1,2425,2025-05-10,Angers,Strasbourg,6,7,False
+F1,2425,2025-05-10,Auxerre,Nantes,6,6,False
+F1,2425,2025-05-10,Brest,Lille,6,6,False
+F1,2425,2025-05-17,Marseille,Rennes,7,7,False
+F1,2425,2025-05-17,Nantes,Montpellier,7,7,False
+F1,2425,2025-05-17,Nice,Brest,7,7,False
+F1,2425,2025-05-17,Paris SG,Auxerre,7,7,False
+F1,2425,2025-05-17,St Etienne,Toulouse,7,7,False
+F1,2425,2025-05-17,Strasbourg,Le Havre,7,7,False
+F1,2425,2025-05-17,Lens,Monaco,7,7,False
+F1,2425,2025-05-17,Lille,Reims,7,7,False
+F1,2425,2025-05-17,Lyon,Angers,7,7,False

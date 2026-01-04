@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SP1,2122,2021-08-13,Valencia,Getafe,3.01,3.01,0.0
+SP1,2122,2021-08-14,Cadiz,Levante,3.23,3.23,0.0
+SP1,2122,2021-08-14,Mallorca,Betis,3.29,3.29,0.0
+SP1,2122,2021-08-14,Alaves,Real Madrid,4.57,4.57,0.0
+SP1,2122,2021-08-14,Osasuna,Espanol,3.26,3.26,0.0
+SP1,2122,2021-08-15,Celta,Real Madrid,3.25,3.25,0.0
+SP1,2122,2021-08-15,Barcelona,Sociedad,4.06,4.06,0.0
+SP1,2122,2021-08-15,Sevilla,Valencia,4.54,4.54,0.0
+SP1,2122,2021-08-16,Villarreal,Granada,4.24,4.24,0.0
+SP1,2122,2021-08-16,Elche,Ath Bilbao,3.3,3.3,0.0
+SP1,2122,2021-08-20,Betis,Cadiz,4.3,4.3,0.0
+SP1,2122,2021-08-21,Alaves,Mallorca,3.19,3.19,0.0
+SP1,2122,2021-08-21,Espanol,Villarreal,3.38,3.38,0.0
+SP1,2122,2021-08-21,Granada,Valencia,3.25,3.25,0.0
+SP1,2122,2021-08-21,Ath Bilbao,Barcelona,3.63,3.63,0.0
+SP1,2122,2021-08-22,Sociedad,Valencia,4.38,4.38,0.0
+SP1,2122,2021-08-22,Real Madrid,Elche,6.07,6.07,0.0
+SP1,2122,2021-08-22,Levante,Real Madrid,4.23,4.23,0.0
+SP1,2122,2021-08-23,Getafe,Sevilla,3.14,3.14,0.0
+SP1,2122,2021-08-23,Osasuna,Celta,3.19,3.19,0.0
+SP1,2122,2021-08-27,Mallorca,Espanol,2.95,2.95,0.0
+SP1,2122,2021-08-27,Valencia,Alaves,3.58,3.58,0.0
+SP1,2122,2021-08-28,Celta,Ath Bilbao,3.2,3.2,0.0
+SP1,2122,2021-08-28,Elche,Sevilla,3.46,3.46,0.0
+SP1,2122,2021-08-28,Sociedad,Levante,4.2,4.2,0.0
+SP1,2122,2021-08-28,Betis,Real Madrid,3.84,3.84,0.0
+SP1,2122,2021-08-29,Barcelona,Getafe,4.83,4.83,0.0
+SP1,2122,2021-08-29,Cadiz,Osasuna,3.07,3.07,0.0
+SP1,2122,2021-08-29,Valencia,Granada,3.2,3.2,0.0
+SP1,2122,2021-08-29,Real Madrid,Villarreal,3.41,3.41,0.0
+SP1,2122,2021-09-11,Levante,Valencia,3.44,3.44,0.0
+SP1,2122,2021-09-11,Ath Bilbao,Mallorca,3.62,3.62,0.0
+SP1,2122,2021-09-12,Espanol,Real Madrid,3.38,3.38,0.0
+SP1,2122,2021-09-12,Osasuna,Valencia,3.14,3.14,0.0
+SP1,2122,2021-09-12,Cadiz,Sociedad,3.52,3.52,0.0
+SP1,2122,2021-09-12,Real Madrid,Celta,5.25,5.25,0.0
+SP1,2122,2021-09-13,Getafe,Elche,3.36,3.36,0.0
+SP1,2122,2021-09-13,Granada,Betis,3.3,3.3,0.0
+SP1,2122,2021-09-17,Celta,Cadiz,4.28,4.28,0.0
+SP1,2122,2021-09-18,Valencia,Getafe,2.98,2.98,0.0
+SP1,2122,2021-09-18,Real Madrid,Ath Bilbao,3.57,3.57,0.0
+SP1,2122,2021-09-18,Elche,Levante,3.13,3.13,0.0
+SP1,2122,2021-09-18,Alaves,Osasuna,3.07,3.07,0.0
+SP1,2122,2021-09-19,Mallorca,Villarreal,3.13,3.13,0.0
+SP1,2122,2021-09-19,Sociedad,Sevilla,3.19,3.19,0.0
+SP1,2122,2021-09-19,Betis,Espanol,3.33,3.33,0.0
+SP1,2122,2021-09-19,Valencia,Real Madrid,3.82,3.82,0.0
+SP1,2122,2021-09-20,Barcelona,Granada,5.83,5.83,0.0
+SP1,2122,2021-09-21,Getafe,Real Madrid,3.47,3.47,0.0
+SP1,2122,2021-09-21,Ath Bilbao,Valencia,3.37,3.37,0.0
+SP1,2122,2021-09-21,Levante,Celta,3.39,3.39,0.0
+SP1,2122,2021-09-22,Espanol,Alaves,3.41,3.41,0.0
+SP1,2122,2021-09-22,Sevilla,Valencia,3.88,3.88,0.0
+SP1,2122,2021-09-22,Real Madrid,Mallorca,6.36,6.36,0.0
+SP1,2122,2021-09-22,Villarreal,Elche,4.14,4.14,0.0
+SP1,2122,2021-09-23,Granada,Sociedad,3.51,3.51,0.0
+SP1,2122,2021-09-23,Osasuna,Betis,3.31,3.31,0.0
+SP1,2122,2021-09-23,Cadiz,Barcelona,4.43,4.43,0.0
+SP1,2122,2021-09-25,Alaves,Real Madrid,3.91,3.91,0.0
+SP1,2122,2021-09-25,Valencia,Ath Bilbao,3.2,3.2,0.0
+SP1,2122,2021-09-25,Sevilla,Espanol,3.82,3.82,0.0
+SP1,2122,2021-09-25,Real Madrid,Villarreal,4.69,4.69,0.0
+SP1,2122,2021-09-26,Mallorca,Osasuna,3.12,3.12,0.0
+SP1,2122,2021-09-26,Barcelona,Levante,4.99,4.99,0.0
+SP1,2122,2021-09-26,Sociedad,Elche,4.42,4.42,0.0
+SP1,2122,2021-09-26,Valencia,Cadiz,3.82,3.82,0.0
+SP1,2122,2021-09-26,Betis,Getafe,3.7,3.7,0.0
+SP1,2122,2021-09-27,Celta,Granada,4.02,4.02,0.0
+SP1,2122,2021-10-01,Ath Bilbao,Alaves,3.82,3.82,0.0
+SP1,2122,2021-10-02,Osasuna,Valencia,3.39,3.39,0.0
+SP1,2122,2021-10-02,Mallorca,Levante,3.37,3.37,0.0
+SP1,2122,2021-10-02,Cadiz,Valencia,3.08,3.08,0.0
+SP1,2122,2021-10-02,Real Madrid,Barcelona,3.52,3.52,0.0
+SP1,2122,2021-10-03,Elche,Celta,3.16,3.16,0.0
+SP1,2122,2021-10-03,Espanol,Real Madrid,4.07,4.07,0.0
+SP1,2122,2021-10-03,Getafe,Sociedad,3.11,3.11,0.0
+SP1,2122,2021-10-03,Villarreal,Betis,3.69,3.69,0.0
+SP1,2122,2021-10-03,Granada,Sevilla,3.53,3.53,0.0
+SP1,2122,2021-10-16,Levante,Getafe,2.92,2.92,0.0
+SP1,2122,2021-10-16,Sociedad,Mallorca,4.44,4.44,0.0
+SP1,2122,2021-10-17,Valencia,Elche,3.57,3.57,0.0
+SP1,2122,2021-10-17,Celta,Sevilla,3.18,3.18,0.0
+SP1,2122,2021-10-17,Villarreal,Osasuna,3.87,3.87,0.0
+SP1,2122,2021-10-17,Barcelona,Valencia,4.29,4.29,0.0
+SP1,2122,2021-10-18,Alaves,Betis,3.34,3.34,0.0
+SP1,2122,2021-10-18,Espanol,Cadiz,3.69,3.69,0.0
+SP1,2122,2021-10-22,Osasuna,Granada,3.52,3.52,0.0
+SP1,2122,2021-10-23,Valencia,Mallorca,3.84,3.84,0.0
+SP1,2122,2021-10-23,Cadiz,Alaves,2.96,2.96,0.0
+SP1,2122,2021-10-23,Elche,Espanol,3.0,3.0,0.0
+SP1,2122,2021-10-23,Ath Bilbao,Villarreal,3.17,3.17,0.0
+SP1,2122,2021-10-24,Sevilla,Levante,4.43,4.43,0.0
+SP1,2122,2021-10-24,Barcelona,Real Madrid,3.67,3.67,0.0
+SP1,2122,2021-10-24,Betis,Valencia,3.77,3.77,0.0
+SP1,2122,2021-10-24,Real Madrid,Sociedad,3.77,3.77,0.0
+SP1,2122,2021-10-25,Getafe,Celta,2.94,2.94,0.0
+SP1,2122,2021-10-26,Alaves,Elche,2.99,2.99,0.0
+SP1,2122,2021-10-26,Espanol,Ath Bilbao,3.01,3.01,0.0
+SP1,2122,2021-10-26,Villarreal,Cadiz,5.34,5.34,0.0
+SP1,2122,2021-10-27,Mallorca,Sevilla,3.33,3.33,0.0
+SP1,2122,2021-10-27,Valencia,Barcelona,3.78,3.78,0.0
+SP1,2122,2021-10-27,Betis,Valencia,3.57,3.57,0.0
+SP1,2122,2021-10-27,Real Madrid,Osasuna,5.49,5.49,0.0
+SP1,2122,2021-10-28,Celta,Sociedad,3.35,3.35,0.0
+SP1,2122,2021-10-28,Granada,Getafe,2.85,2.85,0.0
+SP1,2122,2021-10-28,Levante,Real Madrid,3.62,3.62,0.0
+SP1,2122,2021-10-30,Elche,Real Madrid,4.56,4.56,0.0
+SP1,2122,2021-10-30,Sevilla,Osasuna,4.14,4.14,0.0
+SP1,2122,2021-10-30,Valencia,Villarreal,3.44,3.44,0.0
+SP1,2122,2021-10-30,Barcelona,Alaves,5.69,5.69,0.0
+SP1,2122,2021-10-31,Cadiz,Mallorca,2.97,2.97,0.0
+SP1,2122,2021-10-31,Real Madrid,Betis,3.98,3.98,0.0
+SP1,2122,2021-10-31,Getafe,Espanol,3.06,3.06,0.0
+SP1,2122,2021-10-31,Sociedad,Ath Bilbao,3.17,3.17,0.0
+SP1,2122,2021-11-01,Valencia,Celta,3.33,3.33,0.0
+SP1,2122,2021-11-01,Levante,Granada,3.44,3.44,0.0
+SP1,2122,2021-11-05,Ath Bilbao,Cadiz,4.81,4.81,0.0
+SP1,2122,2021-11-06,Espanol,Granada,3.42,3.42,0.0
+SP1,2122,2021-11-06,Celta,Barcelona,3.6,3.6,0.0
+SP1,2122,2021-11-06,Alaves,Levante,3.07,3.07,0.0
+SP1,2122,2021-11-06,Real Madrid,Valencia,5.29,5.29,0.0
+SP1,2122,2021-11-07,Villarreal,Getafe,4.09,4.09,0.0
+SP1,2122,2021-11-07,Valencia,Real Madrid,3.27,3.27,0.0
+SP1,2122,2021-11-07,Mallorca,Elche,3.1,3.1,0.0
+SP1,2122,2021-11-07,Osasuna,Sociedad,3.3,3.3,0.0
+SP1,2122,2021-11-07,Betis,Sevilla,3.28,3.28,0.0
+SP1,2122,2021-11-19,Levante,Ath Bilbao,3.25,3.25,0.0
+SP1,2122,2021-11-20,Celta,Villarreal,3.31,3.31,0.0
+SP1,2122,2021-11-20,Sevilla,Alaves,4.46,4.46,0.0
+SP1,2122,2021-11-20,Real Madrid,Osasuna,4.49,4.49,0.0
+SP1,2122,2021-11-20,Barcelona,Espanol,5.08,5.08,0.0
+SP1,2122,2021-11-21,Getafe,Cadiz,3.14,3.14,0.0
+SP1,2122,2021-11-21,Granada,Real Madrid,4.5,4.5,0.0
+SP1,2122,2021-11-21,Elche,Betis,3.34,3.34,0.0
+SP1,2122,2021-11-21,Sociedad,Valencia,3.86,3.86,0.0
+SP1,2122,2021-11-22,Valencia,Mallorca,3.49,3.49,0.0
+SP1,2122,2021-11-26,Ath Bilbao,Granada,4.6,4.6,0.0
+SP1,2122,2021-11-27,Alaves,Celta,3.15,3.15,0.0
+SP1,2122,2021-11-27,Valencia,Valencia,3.39,3.39,0.0
+SP1,2122,2021-11-27,Mallorca,Getafe,2.94,2.94,0.0
+SP1,2122,2021-11-27,Villarreal,Barcelona,3.45,3.45,0.0
+SP1,2122,2021-11-28,Betis,Levante,4.15,4.15,0.0
+SP1,2122,2021-11-28,Espanol,Sociedad,3.25,3.25,0.0
+SP1,2122,2021-11-28,Cadiz,Real Madrid,3.98,3.98,0.0
+SP1,2122,2021-11-28,Real Madrid,Sevilla,4.0,4.0,0.0
+SP1,2122,2021-11-29,Osasuna,Elche,3.42,3.42,0.0
+SP1,2122,2021-12-01,Real Madrid,Ath Bilbao,4.58,4.58,0.0
+SP1,2122,2021-12-03,Granada,Alaves,3.06,3.06,0.0
+SP1,2122,2021-12-04,Sevilla,Villarreal,3.41,3.41,0.0
+SP1,2122,2021-12-04,Barcelona,Betis,4.71,4.71,0.0
+SP1,2122,2021-12-04,Real Madrid,Mallorca,5.13,5.13,0.0
+SP1,2122,2021-12-04,Sociedad,Real Madrid,3.46,3.46,0.0
+SP1,2122,2021-12-05,Valencia,Espanol,3.25,3.25,0.0
+SP1,2122,2021-12-05,Elche,Cadiz,3.2,3.2,0.0
+SP1,2122,2021-12-05,Levante,Osasuna,3.24,3.24,0.0
+SP1,2122,2021-12-05,Celta,Valencia,3.38,3.38,0.0
+SP1,2122,2021-12-06,Getafe,Ath Bilbao,3.03,3.03,0.0
+SP1,2122,2021-12-10,Mallorca,Celta,2.98,2.98,0.0
+SP1,2122,2021-12-11,Espanol,Levante,3.36,3.36,0.0
+SP1,2122,2021-12-11,Alaves,Getafe,2.91,2.91,0.0
+SP1,2122,2021-12-11,Valencia,Elche,3.55,3.55,0.0
+SP1,2122,2021-12-11,Ath Bilbao,Sevilla,3.06,3.06,0.0
+SP1,2122,2021-12-12,Villarreal,Valencia,3.77,3.77,0.0
+SP1,2122,2021-12-12,Osasuna,Barcelona,3.52,3.52,0.0
+SP1,2122,2021-12-12,Betis,Sociedad,3.31,3.31,0.0
+SP1,2122,2021-12-12,Real Madrid,Real Madrid,3.5,3.5,0.0
+SP1,2122,2021-12-13,Cadiz,Granada,3.11,3.11,0.0
+SP1,2122,2021-12-17,Celta,Espanol,3.4,3.4,0.0
+SP1,2122,2021-12-18,Valencia,Alaves,3.55,3.55,0.0
+SP1,2122,2021-12-18,Sociedad,Villarreal,3.27,3.27,0.0
+SP1,2122,2021-12-18,Barcelona,Elche,5.21,5.21,0.0
+SP1,2122,2021-12-18,Sevilla,Real Madrid,3.0,3.0,0.0
+SP1,2122,2021-12-19,Granada,Mallorca,3.09,3.09,0.0
+SP1,2122,2021-12-19,Ath Bilbao,Betis,3.27,3.27,0.0
+SP1,2122,2021-12-19,Getafe,Osasuna,2.93,2.93,0.0
+SP1,2122,2021-12-19,Real Madrid,Cadiz,6.51,6.51,0.0
+SP1,2122,2021-12-20,Levante,Valencia,3.27,3.27,0.0
+SP1,2122,2021-12-21,Villarreal,Alaves,5.05,5.05,0.0
+SP1,2122,2021-12-21,Sevilla,Barcelona,3.23,3.23,0.0
+SP1,2122,2021-12-22,Granada,Real Madrid,3.77,3.77,0.0
+SP1,2122,2021-12-22,Ath Bilbao,Real Madrid,3.49,3.49,0.0
+SP1,2122,2021-12-31,Valencia,Espanol,3.76,3.76,0.0
+SP1,2122,2022-01-02,Getafe,Real Madrid,3.72,3.72,0.0
+SP1,2122,2022-01-02,Real Madrid,Valencia,4.8,4.8,0.0
+SP1,2122,2022-01-02,Elche,Granada,3.11,3.11,0.0
+SP1,2122,2022-01-02,Alaves,Sociedad,3.14,3.14,0.0
+SP1,2122,2022-01-02,Betis,Celta,3.79,3.79,0.0
+SP1,2122,2022-01-02,Mallorca,Barcelona,3.33,3.33,0.0
+SP1,2122,2022-01-03,Villarreal,Levante,4.83,4.83,0.0
+SP1,2122,2022-01-03,Osasuna,Ath Bilbao,3.0,3.0,0.0
+SP1,2122,2022-01-03,Cadiz,Sevilla,3.37,3.37,0.0
+SP1,2122,2022-01-08,Levante,Mallorca,3.34,3.34,0.0
+SP1,2122,2022-01-08,Sociedad,Celta,3.45,3.45,0.0
+SP1,2122,2022-01-08,Granada,Barcelona,3.79,3.79,0.0
+SP1,2122,2022-01-08,Real Madrid,Valencia,5.2,5.2,0.0
+SP1,2122,2022-01-09,Valencia,Betis,3.46,3.46,0.0
+SP1,2122,2022-01-09,Sevilla,Getafe,3.66,3.66,0.0
+SP1,2122,2022-01-09,Alaves,Ath Bilbao,3.33,3.33,0.0
+SP1,2122,2022-01-09,Osasuna,Cadiz,3.36,3.36,0.0
+SP1,2122,2022-01-09,Villarreal,Real Madrid,3.23,3.23,0.0
+SP1,2122,2022-01-10,Espanol,Elche,3.43,3.43,0.0
+SP1,2122,2022-01-16,Elche,Villarreal,3.72,3.72,0.0
+SP1,2122,2022-01-18,Betis,Alaves,4.38,4.38,0.0
+SP1,2122,2022-01-18,Cadiz,Espanol,3.09,3.09,0.0
+SP1,2122,2022-01-19,Celta,Osasuna,3.41,3.41,0.0
+SP1,2122,2022-01-19,Valencia,Sevilla,3.17,3.17,0.0
+SP1,2122,2022-01-20,Getafe,Granada,3.1,3.1,0.0
+SP1,2122,2022-01-21,Espanol,Betis,3.33,3.33,0.0
+SP1,2122,2022-01-22,Levante,Cadiz,3.68,3.68,0.0
+SP1,2122,2022-01-22,Villarreal,Mallorca,4.73,4.73,0.0
+SP1,2122,2022-01-22,Sevilla,Celta,3.59,3.59,0.0
+SP1,2122,2022-01-22,Real Madrid,Valencia,4.27,4.27,0.0
+SP1,2122,2022-01-23,Granada,Osasuna,3.14,3.14,0.0
+SP1,2122,2022-01-23,Real Madrid,Elche,7.79,7.79,0.0
+SP1,2122,2022-01-23,Sociedad,Getafe,3.5,3.5,0.0
+SP1,2122,2022-01-23,Valencia,Ath Bilbao,2.88,2.88,0.0
+SP1,2122,2022-01-23,Alaves,Barcelona,4.25,4.25,0.0
+SP1,2122,2022-02-04,Getafe,Levante,3.14,3.14,0.0
+SP1,2122,2022-02-05,Elche,Alaves,3.09,3.09,0.0
+SP1,2122,2022-02-05,Mallorca,Cadiz,3.39,3.39,0.0
+SP1,2122,2022-02-05,Celta,Valencia,3.36,3.36,0.0
+SP1,2122,2022-02-05,Osasuna,Sevilla,3.15,3.15,0.0
+SP1,2122,2022-02-06,Valencia,Sociedad,3.27,3.27,0.0
+SP1,2122,2022-02-06,Barcelona,Real Madrid,3.37,3.37,0.0
+SP1,2122,2022-02-06,Betis,Villarreal,3.57,3.57,0.0
+SP1,2122,2022-02-06,Real Madrid,Granada,6.26,6.26,0.0
+SP1,2122,2022-02-07,Ath Bilbao,Espanol,3.83,3.83,0.0
+SP1,2122,2022-02-11,Sevilla,Elche,4.25,4.25,0.0
+SP1,2122,2022-02-12,Cadiz,Celta,3.33,3.33,0.0
+SP1,2122,2022-02-12,Villarreal,Real Madrid,3.51,3.51,0.0
+SP1,2122,2022-02-12,Valencia,Osasuna,3.17,3.17,0.0
+SP1,2122,2022-02-12,Real Madrid,Getafe,4.22,4.22,0.0
+SP1,2122,2022-02-13,Alaves,Valencia,3.26,3.26,0.0
+SP1,2122,2022-02-13,Levante,Betis,3.74,3.74,0.0
+SP1,2122,2022-02-13,Sociedad,Granada,4.61,4.61,0.0
+SP1,2122,2022-02-13,Espanol,Barcelona,3.92,3.92,0.0
+SP1,2122,2022-02-14,Mallorca,Ath Bilbao,3.12,3.12,0.0
+SP1,2122,2022-02-16,Real Madrid,Levante,5.15,5.15,0.0
+SP1,2122,2022-02-18,Elche,Valencia,2.9,2.9,0.0
+SP1,2122,2022-02-19,Granada,Villarreal,3.49,3.49,0.0
+SP1,2122,2022-02-19,Osasuna,Real Madrid,3.3,3.3,0.0
+SP1,2122,2022-02-19,Cadiz,Getafe,2.94,2.94,0.0
+SP1,2122,2022-02-19,Real Madrid,Alaves,6.55,6.55,0.0
+SP1,2122,2022-02-20,Espanol,Sevilla,3.25,3.25,0.0
+SP1,2122,2022-02-20,Valencia,Barcelona,3.69,3.69,0.0
+SP1,2122,2022-02-20,Betis,Mallorca,4.12,4.12,0.0
+SP1,2122,2022-02-20,Ath Bilbao,Sociedad,2.93,2.93,0.0
+SP1,2122,2022-02-21,Celta,Levante,4.11,4.11,0.0
+SP1,2122,2022-02-25,Levante,Elche,3.32,3.32,0.0
+SP1,2122,2022-02-26,Mallorca,Valencia,3.17,3.17,0.0
+SP1,2122,2022-02-26,Getafe,Alaves,3.11,3.11,0.0
+SP1,2122,2022-02-26,Valencia,Real Madrid,4.05,4.05,0.0
+SP1,2122,2022-02-26,Real Madrid,Celta,3.87,3.87,0.0
+SP1,2122,2022-02-27,Villarreal,Espanol,4.4,4.4,0.0
+SP1,2122,2022-02-27,Sevilla,Betis,3.2,3.2,0.0
+SP1,2122,2022-02-27,Sociedad,Osasuna,3.33,3.33,0.0
+SP1,2122,2022-02-27,Barcelona,Ath Bilbao,4.12,4.12,0.0
+SP1,2122,2022-02-28,Granada,Cadiz,3.33,3.33,0.0
+SP1,2122,2022-03-02,Mallorca,Sociedad,3.21,3.21,0.0
+SP1,2122,2022-03-04,Alaves,Sevilla,3.13,3.13,0.0
+SP1,2122,2022-03-05,Osasuna,Villarreal,3.41,3.41,0.0
+SP1,2122,2022-03-05,Espanol,Getafe,3.09,3.09,0.0
+SP1,2122,2022-03-05,Valencia,Granada,3.69,3.69,0.0
+SP1,2122,2022-03-05,Real Madrid,Sociedad,4.13,4.13,0.0
+SP1,2122,2022-03-06,Cadiz,Valencia,3.03,3.03,0.0
+SP1,2122,2022-03-06,Elche,Barcelona,4.73,4.73,0.0
+SP1,2122,2022-03-06,Celta,Mallorca,3.49,3.49,0.0
+SP1,2122,2022-03-06,Betis,Real Madrid,3.29,3.29,0.0
+SP1,2122,2022-03-07,Ath Bilbao,Levante,4.15,4.15,0.0
+SP1,2122,2022-03-11,Real Madrid,Cadiz,4.6,4.6,0.0
+SP1,2122,2022-03-12,Levante,Espanol,3.45,3.45,0.0
+SP1,2122,2022-03-12,Granada,Elche,3.2,3.2,0.0
+SP1,2122,2022-03-12,Villarreal,Celta,4.1,4.1,0.0
+SP1,2122,2022-03-12,Getafe,Valencia,3.14,3.14,0.0
+SP1,2122,2022-03-13,Valencia,Sevilla,3.17,3.17,0.0
+SP1,2122,2022-03-13,Betis,Ath Bilbao,3.28,3.28,0.0
+SP1,2122,2022-03-13,Sociedad,Alaves,4.18,4.18,0.0
+SP1,2122,2022-03-13,Barcelona,Osasuna,5.2,5.2,0.0
+SP1,2122,2022-03-14,Mallorca,Real Madrid,4.28,4.28,0.0
+SP1,2122,2022-03-18,Ath Bilbao,Getafe,3.28,3.28,0.0
+SP1,2122,2022-03-19,Alaves,Granada,3.31,3.31,0.0
+SP1,2122,2022-03-19,Elche,Valencia,3.18,3.18,0.0
+SP1,2122,2022-03-19,Osasuna,Levante,3.51,3.51,0.0
+SP1,2122,2022-03-19,Valencia,Real Madrid,3.31,3.31,0.0
+SP1,2122,2022-03-20,Espanol,Mallorca,3.43,3.43,0.0
+SP1,2122,2022-03-20,Cadiz,Villarreal,3.6,3.6,0.0
+SP1,2122,2022-03-20,Celta,Betis,3.41,3.41,0.0
+SP1,2122,2022-03-20,Sevilla,Sociedad,3.25,3.25,0.0
+SP1,2122,2022-03-20,Real Madrid,Barcelona,3.66,3.66,0.0
+SP1,2122,2022-04-02,Getafe,Mallorca,3.03,3.03,0.0
+SP1,2122,2022-04-02,Levante,Villarreal,3.73,3.73,0.0
+SP1,2122,2022-04-02,Celta,Real Madrid,3.67,3.67,0.0
+SP1,2122,2022-04-02,Real Madrid,Alaves,4.76,4.76,0.0
+SP1,2122,2022-04-03,Ath Bilbao,Elche,4.35,4.35,0.0
+SP1,2122,2022-04-03,Betis,Osasuna,3.44,3.44,0.0
+SP1,2122,2022-04-03,Granada,Valencia,3.16,3.16,0.0
+SP1,2122,2022-04-03,Valencia,Cadiz,3.36,3.36,0.0
+SP1,2122,2022-04-03,Barcelona,Sevilla,4.5,4.5,0.0
+SP1,2122,2022-04-04,Sociedad,Espanol,4.04,4.04,0.0
+SP1,2122,2022-04-08,Sevilla,Granada,4.26,4.26,0.0
+SP1,2122,2022-04-09,Cadiz,Betis,3.23,3.23,0.0
+SP1,2122,2022-04-09,Mallorca,Real Madrid,3.35,3.35,0.0
+SP1,2122,2022-04-09,Villarreal,Ath Bilbao,3.35,3.35,0.0
+SP1,2122,2022-04-09,Real Madrid,Getafe,4.57,4.57,0.0
+SP1,2122,2022-04-10,Osasuna,Alaves,3.32,3.32,0.0
+SP1,2122,2022-04-10,Espanol,Celta,3.14,3.14,0.0
+SP1,2122,2022-04-10,Elche,Sociedad,3.44,3.44,0.0
+SP1,2122,2022-04-10,Levante,Barcelona,4.97,4.97,0.0
+SP1,2122,2022-04-11,Valencia,Valencia,3.27,3.27,0.0
+SP1,2122,2022-04-15,Sociedad,Betis,3.48,3.48,0.0
+SP1,2122,2022-04-16,Elche,Mallorca,3.05,3.05,0.0
+SP1,2122,2022-04-16,Alaves,Valencia,3.13,3.13,0.0
+SP1,2122,2022-04-16,Valencia,Osasuna,3.25,3.25,0.0
+SP1,2122,2022-04-16,Getafe,Villarreal,3.11,3.11,0.0
+SP1,2122,2022-04-17,Granada,Levante,3.55,3.55,0.0
+SP1,2122,2022-04-17,Real Madrid,Espanol,4.5,4.5,0.0
+SP1,2122,2022-04-17,Ath Bilbao,Celta,3.57,3.57,0.0
+SP1,2122,2022-04-17,Sevilla,Real Madrid,3.35,3.35,0.0
+SP1,2122,2022-04-18,Barcelona,Cadiz,6.63,6.63,0.0
+SP1,2122,2022-04-19,Mallorca,Alaves,3.24,3.24,0.0
+SP1,2122,2022-04-19,Betis,Elche,4.24,4.24,0.0
+SP1,2122,2022-04-19,Villarreal,Valencia,4.69,4.69,0.0
+SP1,2122,2022-04-20,Real Madrid,Granada,5.43,5.43,0.0
+SP1,2122,2022-04-20,Celta,Getafe,3.07,3.07,0.0
+SP1,2122,2022-04-20,Osasuna,Real Madrid,3.84,3.84,0.0
+SP1,2122,2022-04-21,Espanol,Valencia,3.16,3.16,0.0
+SP1,2122,2022-04-21,Levante,Sevilla,3.48,3.48,0.0
+SP1,2122,2022-04-21,Cadiz,Ath Bilbao,3.13,3.13,0.0
+SP1,2122,2022-04-21,Sociedad,Barcelona,3.61,3.61,0.0
+SP1,2122,2022-04-24,Barcelona,Valencia,5.66,5.66,0.0
+SP1,2122,2022-04-29,Sevilla,Cadiz,3.71,3.71,0.0
+SP1,2122,2022-04-30,Alaves,Villarreal,3.41,3.41,0.0
+SP1,2122,2022-04-30,Real Madrid,Espanol,4.45,4.45,0.0
+SP1,2122,2022-04-30,Valencia,Levante,3.51,3.51,0.0
+SP1,2122,2022-04-30,Ath Bilbao,Real Madrid,3.08,3.08,0.0
+SP1,2122,2022-05-01,Elche,Osasuna,3.18,3.18,0.0
+SP1,2122,2022-05-01,Granada,Celta,3.25,3.25,0.0
+SP1,2122,2022-05-01,Valencia,Sociedad,3.19,3.19,0.0
+SP1,2122,2022-05-01,Barcelona,Mallorca,5.6,5.6,0.0
+SP1,2122,2022-05-02,Getafe,Betis,3.13,3.13,0.0
+SP1,2122,2022-05-06,Levante,Sociedad,3.52,3.52,0.0
+SP1,2122,2022-05-07,Mallorca,Granada,3.39,3.39,0.0
+SP1,2122,2022-05-07,Ath Bilbao,Valencia,4.11,4.11,0.0
+SP1,2122,2022-05-07,Cadiz,Elche,3.66,3.66,0.0
+SP1,2122,2022-05-07,Celta,Alaves,3.43,3.43,0.0
+SP1,2122,2022-05-07,Betis,Barcelona,3.76,3.76,0.0
+SP1,2122,2022-05-08,Getafe,Valencia,3.07,3.07,0.0
+SP1,2122,2022-05-08,Villarreal,Sevilla,3.31,3.31,0.0
+SP1,2122,2022-05-08,Espanol,Osasuna,3.29,3.29,0.0
+SP1,2122,2022-05-08,Real Madrid,Real Madrid,3.54,3.54,0.0
+SP1,2122,2022-05-10,Valencia,Betis,3.39,3.39,0.0
+SP1,2122,2022-05-10,Granada,Ath Bilbao,3.39,3.39,0.0
+SP1,2122,2022-05-10,Barcelona,Celta,5.01,5.01,0.0
+SP1,2122,2022-05-11,Alaves,Espanol,3.49,3.49,0.0
+SP1,2122,2022-05-11,Osasuna,Getafe,2.96,2.96,0.0
+SP1,2122,2022-05-11,Sevilla,Mallorca,3.9,3.9,0.0
+SP1,2122,2022-05-11,Elche,Real Madrid,3.74,3.74,0.0
+SP1,2122,2022-05-12,Sociedad,Cadiz,3.7,3.7,0.0
+SP1,2122,2022-05-12,Valencia,Villarreal,3.75,3.75,0.0
+SP1,2122,2022-05-12,Real Madrid,Levante,4.94,4.94,0.0
+SP1,2122,2022-05-14,Espanol,Valencia,3.34,3.34,0.0
+SP1,2122,2022-05-15,Ath Bilbao,Osasuna,4.18,4.18,0.0
+SP1,2122,2022-05-15,Real Madrid,Sevilla,2.99,2.99,0.0
+SP1,2122,2022-05-15,Betis,Granada,4.41,4.41,0.0
+SP1,2122,2022-05-15,Cadiz,Real Madrid,3.39,3.39,0.0
+SP1,2122,2022-05-15,Celta,Elche,3.9,3.9,0.0
+SP1,2122,2022-05-15,Getafe,Barcelona,3.29,3.29,0.0
+SP1,2122,2022-05-15,Levante,Alaves,3.67,3.67,0.0
+SP1,2122,2022-05-15,Mallorca,Valencia,3.82,3.82,0.0
+SP1,2122,2022-05-15,Villarreal,Sociedad,3.63,3.63,0.0
+SP1,2122,2022-05-20,Real Madrid,Betis,4.43,4.43,0.0
+SP1,2122,2022-05-20,Valencia,Levante,3.97,3.97,0.0
+SP1,2122,2022-05-21,Valencia,Celta,3.31,3.31,0.0
+SP1,2122,2022-05-22,Elche,Getafe,2.92,2.92,0.0
+SP1,2122,2022-05-22,Alaves,Cadiz,3.71,3.71,0.0
+SP1,2122,2022-05-22,Granada,Espanol,4.66,4.66,0.0
+SP1,2122,2022-05-22,Osasuna,Mallorca,3.38,3.38,0.0
+SP1,2122,2022-05-22,Barcelona,Villarreal,3.94,3.94,0.0
+SP1,2122,2022-05-22,Sevilla,Ath Bilbao,3.29,3.29,0.0
+SP1,2122,2022-05-22,Sociedad,Real Madrid,3.27,3.27,0.0

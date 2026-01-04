@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2019-07-26,Stuttgart,Hannover,2,1,H,0
+2019-07-27,Holstein Kiel,Sandhausen,1,1,D,1
+2019-07-27,Dresden,Nurnberg,0,1,A,0
+2019-07-27,Osnabruck,Heidenheim,1,3,A,0
+2019-07-28,Greuther Furth,Erzgebirge Aue,0,2,A,0
+2019-07-28,Regensburg,Bochum,3,1,H,0
+2019-07-28,Wehen,Karlsruhe,1,2,A,0
+2019-07-28,Hamburg,Darmstadt,1,1,D,1
+2019-07-29,Bielefeld,St Pauli,1,1,D,1
+2019-08-02,Sandhausen,Osnabruck,0,1,A,0
+2019-08-02,St Pauli,Greuther Furth,1,3,A,0
+2019-08-02,Bochum,Bielefeld,3,3,D,1
+2019-08-03,Hannover,Regensburg,1,1,D,1
+2019-08-03,Karlsruhe,Dresden,4,2,H,0
+2019-08-04,Darmstadt,Holstein Kiel,2,0,H,0
+2019-08-04,Erzgebirge Aue,Wehen,3,2,H,0
+2019-08-04,Heidenheim,Stuttgart,2,2,D,1
+2019-08-05,Nurnberg,Hamburg,0,4,A,0
+2019-08-16,Sandhausen,Nurnberg,3,2,H,0
+2019-08-16,Hamburg,Bochum,1,0,H,0
+2019-08-17,Stuttgart,St Pauli,2,1,H,0
+2019-08-17,Wehen,Hannover,0,3,A,0
+2019-08-17,Bielefeld,Erzgebirge Aue,3,1,H,0
+2019-08-18,Greuther Furth,Regensburg,1,0,H,0
+2019-08-18,Holstein Kiel,Karlsruhe,2,1,H,0
+2019-08-18,Dresden,Heidenheim,2,1,H,0
+2019-08-19,Osnabruck,Darmstadt,4,0,H,0
+2019-08-23,Erzgebirge Aue,Stuttgart,0,0,D,1
+2019-08-23,Darmstadt,Dresden,0,0,D,1
+2019-08-24,Hannover,Greuther Furth,1,1,D,1
+2019-08-24,Regensburg,Bielefeld,1,3,A,0
+2019-08-24,Bochum,Wehen,3,3,D,1
+2019-08-25,Karlsruhe,Hamburg,2,4,A,0
+2019-08-25,Nurnberg,Osnabruck,1,0,H,0
+2019-08-25,Heidenheim,Sandhausen,0,2,A,0
+2019-08-26,St Pauli,Holstein Kiel,2,1,H,0
+2019-08-30,Nurnberg,Heidenheim,2,2,D,1
+2019-08-30,Sandhausen,Darmstadt,1,0,H,0
+2019-08-31,Dresden,St Pauli,3,3,D,1
+2019-08-31,Bielefeld,Greuther Furth,2,2,D,1
+2019-08-31,Wehen,Regensburg,0,5,A,0
+2019-09-01,Holstein Kiel,Erzgebirge Aue,1,1,D,1
+2019-09-01,Osnabruck,Karlsruhe,3,0,H,0
+2019-09-01,Hamburg,Hannover,3,0,H,0
+2019-09-02,Stuttgart,Bochum,2,1,H,0
+2019-09-13,Karlsruhe,Sandhausen,1,0,H,0
+2019-09-13,Greuther Furth,Wehen,2,1,H,0
+2019-09-14,Heidenheim,Holstein Kiel,3,0,H,0
+2019-09-14,Regensburg,Stuttgart,2,3,A,0
+2019-09-14,Hannover,Bielefeld,0,2,A,0
+2019-09-15,Darmstadt,Nurnberg,3,3,D,1
+2019-09-15,Erzgebirge Aue,Osnabruck,1,0,H,0
+2019-09-15,Bochum,Dresden,2,2,D,1
+2019-09-16,St Pauli,Hamburg,2,0,H,0
+2019-09-20,Holstein Kiel,Hannover,1,2,A,0
+2019-09-20,Heidenheim,Darmstadt,1,0,H,0
+2019-09-21,Sandhausen,Bochum,1,1,D,1
+2019-09-21,Stuttgart,Greuther Furth,2,0,H,0
+2019-09-21,Wehen,Bielefeld,2,5,A,0
+2019-09-21,Nurnberg,Karlsruhe,1,1,D,1
+2019-09-22,Hamburg,Erzgebirge Aue,4,0,H,0
+2019-09-22,Osnabruck,St Pauli,1,1,D,1
+2019-09-22,Dresden,Regensburg,2,1,H,0
+2019-09-27,Wehen,Osnabruck,2,0,H,0
+2019-09-27,Bielefeld,Stuttgart,0,1,A,0
+2019-09-28,Karlsruhe,Heidenheim,1,1,D,1
+2019-09-28,Regensburg,Hamburg,2,2,D,1
+2019-09-28,Bochum,Darmstadt,2,2,D,1
+2019-09-29,Greuther Furth,Holstein Kiel,0,3,A,0
+2019-09-29,St Pauli,Sandhausen,2,0,H,0
+2019-09-29,Erzgebirge Aue,Dresden,4,1,H,0
+2019-09-30,Hannover,Nurnberg,0,4,A,0
+2019-10-04,Darmstadt,Karlsruhe,1,1,D,1
+2019-10-04,Stuttgart,Wehen,1,2,A,0
+2019-10-05,Dresden,Hannover,0,2,A,0
+2019-10-05,Hamburg,Greuther Furth,2,0,H,0
+2019-10-05,Sandhausen,Erzgebirge Aue,2,2,D,1
+2019-10-06,Heidenheim,Bochum,2,3,A,0
+2019-10-06,Holstein Kiel,Regensburg,1,2,A,0
+2019-10-06,Nurnberg,St Pauli,1,1,D,1
+2019-10-07,Osnabruck,Bielefeld,0,1,A,0
+2019-10-18,Greuther Furth,Dresden,2,0,H,0
+2019-10-18,Erzgebirge Aue,Nurnberg,4,3,H,0
+2019-10-19,St Pauli,Darmstadt,0,1,A,0
+2019-10-19,Wehen,Heidenheim,0,0,D,1
+2019-10-19,Regensburg,Sandhausen,1,0,H,0
+2019-10-20,Hannover,Osnabruck,0,0,D,1
+2019-10-20,Stuttgart,Holstein Kiel,0,1,A,0
+2019-10-20,Bochum,Karlsruhe,3,3,D,1
+2019-10-21,Bielefeld,Hamburg,1,1,D,1
+2019-10-25,Holstein Kiel,Bochum,2,1,H,0
+2019-10-25,Darmstadt,Erzgebirge Aue,1,0,H,0
+2019-10-26,Hamburg,Stuttgart,6,2,H,0
+2019-10-26,Karlsruhe,Hannover,3,3,D,1
+2019-10-26,Dresden,Bielefeld,0,1,A,0
+2019-10-27,Nurnberg,Regensburg,1,1,D,1
+2019-10-27,Osnabruck,Greuther Furth,0,0,D,1
+2019-10-27,Heidenheim,St Pauli,1,0,H,0
+2019-10-28,Sandhausen,Wehen,0,0,D,1
+2019-11-01,Regensburg,Osnabruck,3,3,D,1
+2019-11-01,Hannover,Sandhausen,1,1,D,1
+2019-11-02,Greuther Furth,Darmstadt,3,1,H,0
+2019-11-02,St Pauli,Karlsruhe,2,2,D,1
+2019-11-02,Erzgebirge Aue,Heidenheim,1,1,D,1
+2019-11-03,Stuttgart,Dresden,3,1,H,0
+2019-11-03,Wehen,Hamburg,1,1,D,1
+2019-11-03,Bielefeld,Holstein Kiel,2,1,H,0
+2019-11-04,Bochum,Nurnberg,3,1,H,0
+2019-11-08,St Pauli,Bochum,1,1,D,1
+2019-11-08,Dresden,Wehen,1,0,H,0
+2019-11-09,Osnabruck,Stuttgart,1,0,H,0
+2019-11-09,Sandhausen,Greuther Furth,3,2,H,0
+2019-11-09,Holstein Kiel,Hamburg,1,1,D,1
+2019-11-10,Heidenheim,Hannover,4,0,H,0
+2019-11-10,Darmstadt,Regensburg,2,2,D,1
+2019-11-10,Nurnberg,Bielefeld,1,5,A,0
+2019-11-11,Karlsruhe,Erzgebirge Aue,1,1,D,1
+2019-11-22,Bochum,Osnabruck,1,1,D,1
+2019-11-22,Erzgebirge Aue,St Pauli,3,1,H,0
+2019-11-23,Hamburg,Dresden,2,1,H,0
+2019-11-23,Wehen,Holstein Kiel,3,6,A,0
+2019-11-23,Bielefeld,Sandhausen,1,1,D,1
+2019-11-24,Regensburg,Heidenheim,3,1,H,0
+2019-11-24,Stuttgart,Karlsruhe,3,0,H,0
+2019-11-24,Greuther Furth,Nurnberg,0,0,D,1
+2019-11-25,Hannover,Darmstadt,1,2,A,0
+2019-11-29,Osnabruck,Hamburg,2,1,H,0
+2019-11-29,Karlsruhe,Regensburg,4,1,H,0
+2019-11-30,Dresden,Holstein Kiel,1,2,A,0
+2019-11-30,Nurnberg,Wehen,0,2,A,0
+2019-11-30,St Pauli,Hannover,0,1,A,0
+2019-11-30,Bochum,Erzgebirge Aue,2,0,H,0
+2019-12-01,Heidenheim,Greuther Furth,1,0,H,0
+2019-12-01,Sandhausen,Stuttgart,2,1,H,0
+2019-12-01,Darmstadt,Bielefeld,1,3,A,0
+2019-12-06,Hamburg,Heidenheim,0,1,A,0
+2019-12-06,Bielefeld,Karlsruhe,2,2,D,1
+2019-12-07,Hannover,Erzgebirge Aue,3,2,H,0
+2019-12-07,Holstein Kiel,Osnabruck,2,4,A,0
+2019-12-07,Greuther Furth,Bochum,3,1,H,0
+2019-12-08,Regensburg,St Pauli,1,0,H,0
+2019-12-08,Wehen,Darmstadt,0,0,D,1
+2019-12-08,Dresden,Sandhausen,1,1,D,1
+2019-12-09,Stuttgart,Nurnberg,3,1,H,0
+2019-12-13,Erzgebirge Aue,Regensburg,1,0,H,0
+2019-12-13,Bochum,Hannover,2,1,H,0
+2019-12-14,Karlsruhe,Greuther Furth,1,5,A,0
+2019-12-14,St Pauli,Wehen,3,1,H,0
+2019-12-14,Heidenheim,Bielefeld,0,0,D,1
+2019-12-15,Osnabruck,Dresden,3,0,H,0
+2019-12-15,Nurnberg,Holstein Kiel,2,2,D,1
+2019-12-15,Sandhausen,Hamburg,1,1,D,1
+2019-12-16,Darmstadt,Stuttgart,1,1,D,1
+2019-12-20,Nurnberg,Dresden,2,0,H,0
+2019-12-20,Karlsruhe,Wehen,0,1,A,0
+2019-12-21,St Pauli,Bielefeld,3,0,H,0
+2019-12-21,Hannover,Stuttgart,2,2,D,1
+2019-12-21,Erzgebirge Aue,Greuther Furth,3,1,H,0
+2019-12-21,Darmstadt,Hamburg,2,2,D,1
+2019-12-22,Bochum,Regensburg,2,3,A,0
+2019-12-22,Heidenheim,Osnabruck,3,1,H,0
+2019-12-22,Sandhausen,Holstein Kiel,2,2,D,1
+2020-01-28,Greuther Furth,St Pauli,3,0,H,0
+2020-01-28,Regensburg,Hannover,1,0,H,0
+2020-01-28,Wehen,Erzgebirge Aue,1,0,H,0
+2020-01-28,Bielefeld,Bochum,2,0,H,0
+2020-01-29,Dresden,Karlsruhe,1,0,H,0
+2020-01-29,Holstein Kiel,Darmstadt,1,1,D,1
+2020-01-29,Osnabruck,Sandhausen,1,3,A,0
+2020-01-29,Stuttgart,Heidenheim,3,0,H,0
+2020-01-30,Hamburg,Nurnberg,4,1,H,0
+2020-01-31,Regensburg,Greuther Furth,0,2,A,0
+2020-01-31,Erzgebirge Aue,Bielefeld,0,0,D,1
+2020-02-01,Karlsruhe,Holstein Kiel,0,2,A,0
+2020-02-01,St Pauli,Stuttgart,1,1,D,1
+2020-02-01,Hannover,Wehen,2,2,D,1
+2020-02-02,Heidenheim,Dresden,0,0,D,1
+2020-02-02,Nurnberg,Sandhausen,2,0,H,0
+2020-02-02,Darmstadt,Osnabruck,2,2,D,1
+2020-02-03,Bochum,Hamburg,1,3,A,0
+2020-02-07,Sandhausen,Heidenheim,0,1,A,0
+2020-02-07,Dresden,Darmstadt,2,3,A,0
+2020-02-08,Osnabruck,Nurnberg,0,1,A,0
+2020-02-08,Stuttgart,Erzgebirge Aue,3,0,H,0
+2020-02-08,Hamburg,Karlsruhe,2,0,H,0
+2020-02-09,Greuther Furth,Hannover,1,3,A,0
+2020-02-09,Wehen,Bochum,0,1,A,0
+2020-02-09,Bielefeld,Regensburg,6,0,H,0
+2020-02-10,Holstein Kiel,St Pauli,2,1,H,0
+2020-02-14,Heidenheim,Nurnberg,2,2,D,1
+2020-02-14,St Pauli,Dresden,0,0,D,1
+2020-02-15,Regensburg,Wehen,1,0,H,0
+2020-02-15,Greuther Furth,Bielefeld,2,4,A,0
+2020-02-15,Hannover,Hamburg,1,1,D,1
+2020-02-16,Erzgebirge Aue,Holstein Kiel,1,2,A,0
+2020-02-16,Karlsruhe,Osnabruck,1,1,D,1
+2020-02-16,Darmstadt,Sandhausen,1,0,H,0
+2020-02-17,Bochum,Stuttgart,0,1,A,0
+2020-02-21,Wehen,Greuther Furth,1,1,D,1
+2020-02-21,Osnabruck,Erzgebirge Aue,0,0,D,1
+2020-02-22,Hamburg,St Pauli,0,2,A,0
+2020-02-22,Holstein Kiel,Heidenheim,0,1,A,0
+2020-02-22,Stuttgart,Regensburg,2,0,H,0
+2020-02-22,Dresden,Bochum,1,2,A,0
+2020-02-23,Nurnberg,Darmstadt,1,2,A,0
+2020-02-23,Sandhausen,Karlsruhe,0,2,A,0
+2020-02-23,Bielefeld,Hannover,1,0,H,0
+2020-02-28,Regensburg,Dresden,1,2,A,0
+2020-02-28,Karlsruhe,Nurnberg,0,1,A,0
+2020-02-29,Erzgebirge Aue,Hamburg,3,0,H,0
+2020-02-29,Greuther Furth,Stuttgart,2,0,H,0
+2020-02-29,Darmstadt,Heidenheim,2,0,H,0
+2020-03-01,Bochum,Sandhausen,4,4,D,1
+2020-03-01,St Pauli,Osnabruck,3,1,H,0
+2020-03-01,Bielefeld,Wehen,1,0,H,0
+2020-03-02,Hannover,Holstein Kiel,3,1,H,0
+2020-03-06,Osnabruck,Wehen,2,6,A,0
+2020-03-06,Nurnberg,Hannover,0,3,A,0
+2020-03-07,Hamburg,Regensburg,2,1,H,0
+2020-03-07,Heidenheim,Karlsruhe,3,1,H,0
+2020-03-07,Darmstadt,Bochum,0,0,D,1
+2020-03-08,Holstein Kiel,Greuther Furth,1,1,D,1
+2020-03-08,Sandhausen,St Pauli,2,2,D,1
+2020-03-08,Dresden,Erzgebirge Aue,2,1,H,0
+2020-03-09,Stuttgart,Bielefeld,1,1,D,1
+2020-05-16,Bochum,Heidenheim,3,0,H,0
+2020-05-16,Erzgebirge Aue,Sandhausen,3,1,H,0
+2020-05-16,Karlsruhe,Darmstadt,2,0,H,0
+2020-05-16,Regensburg,Holstein Kiel,2,2,D,1
+2020-05-17,St Pauli,Nurnberg,1,0,H,0
+2020-05-17,Bielefeld,Osnabruck,1,1,D,1
+2020-05-17,Greuther Furth,Hamburg,2,2,D,1
+2020-05-17,Wehen,Stuttgart,2,1,H,0
+2020-05-22,Heidenheim,Wehen,1,0,H,0
+2020-05-22,Nurnberg,Erzgebirge Aue,1,1,D,1
+2020-05-23,Sandhausen,Regensburg,0,0,D,1
+2020-05-23,Darmstadt,St Pauli,4,0,H,0
+2020-05-23,Osnabruck,Hannover,2,4,A,0
+2020-05-24,Holstein Kiel,Stuttgart,3,2,H,0
+2020-05-24,Karlsruhe,Bochum,0,0,D,1
+2020-05-24,Hamburg,Bielefeld,0,0,D,1
+2020-05-26,Greuther Furth,Osnabruck,0,2,A,0
+2020-05-26,Regensburg,Nurnberg,2,2,D,1
+2020-05-26,Wehen,Sandhausen,0,1,A,0
+2020-05-26,Erzgebirge Aue,Darmstadt,1,3,A,0
+2020-05-27,Hannover,Karlsruhe,1,1,D,1
+2020-05-27,St Pauli,Heidenheim,0,0,D,1
+2020-05-27,Bochum,Holstein Kiel,2,1,H,0
+2020-05-28,Stuttgart,Hamburg,3,2,H,0
+2020-05-29,Osnabruck,Regensburg,2,2,D,1
+2020-05-29,Darmstadt,Greuther Furth,1,1,D,1
+2020-05-30,Karlsruhe,St Pauli,1,1,D,1
+2020-05-30,Nurnberg,Bochum,0,0,D,1
+2020-05-30,Sandhausen,Hannover,3,1,H,0
+2020-05-30,Holstein Kiel,Bielefeld,1,2,A,0
+2020-05-31,Hamburg,Wehen,3,2,H,0
+2020-05-31,Heidenheim,Erzgebirge Aue,3,0,H,0
+2020-05-31,Dresden,Stuttgart,0,2,A,0
+2020-06-03,Hannover,Dresden,3,0,H,0
+2020-06-05,Greuther Furth,Sandhausen,1,2,A,0
+2020-06-05,Bochum,St Pauli,2,0,H,0
+2020-06-06,Regensburg,Darmstadt,3,0,H,0
+2020-06-06,Wehen,Dresden,2,3,A,0
+2020-06-06,Bielefeld,Nurnberg,1,1,D,1
+2020-06-07,Hannover,Heidenheim,2,1,H,0
+2020-06-07,Stuttgart,Osnabruck,0,0,D,1
+2020-06-07,Erzgebirge Aue,Karlsruhe,1,0,H,0
+2020-06-08,Hamburg,Holstein Kiel,3,3,D,1
+2020-06-09,Dresden,Greuther Furth,1,1,D,1
+2020-06-12,Sandhausen,Bielefeld,0,0,D,1
+2020-06-12,Dresden,Hamburg,0,1,A,0
+2020-06-13,Holstein Kiel,Wehen,1,2,A,0
+2020-06-13,Nurnberg,Greuther Furth,0,1,A,0
+2020-06-13,Osnabruck,Bochum,0,2,A,0
+2020-06-13,Heidenheim,Regensburg,4,1,H,0
+2020-06-14,Karlsruhe,Stuttgart,2,1,H,0
+2020-06-14,St Pauli,Erzgebirge Aue,2,1,H,0
+2020-06-14,Darmstadt,Hannover,3,2,H,0
+2020-06-15,Bielefeld,Dresden,4,0,H,0
+2020-06-16,Hamburg,Osnabruck,1,1,D,1
+2020-06-16,Wehen,Nurnberg,0,6,A,0
+2020-06-16,Greuther Furth,Heidenheim,0,0,D,1
+2020-06-17,Hannover,St Pauli,4,0,H,0
+2020-06-17,Regensburg,Karlsruhe,2,1,H,0
+2020-06-17,Stuttgart,Sandhausen,5,1,H,0
+2020-06-17,Erzgebirge Aue,Bochum,1,2,A,0
+2020-06-18,Bielefeld,Darmstadt,1,0,H,0
+2020-06-18,Holstein Kiel,Dresden,2,0,H,0
+2020-06-21,Darmstadt,Wehen,3,1,H,0
+2020-06-21,Erzgebirge Aue,Hannover,2,1,H,0
+2020-06-21,Heidenheim,Hamburg,2,1,H,0
+2020-06-21,Karlsruhe,Bielefeld,3,3,D,1
+2020-06-21,Nurnberg,Stuttgart,0,6,A,0
+2020-06-21,Osnabruck,Holstein Kiel,4,1,H,0
+2020-06-21,Sandhausen,Dresden,0,1,A,0
+2020-06-21,St Pauli,Regensburg,1,1,D,1
+2020-06-21,Bochum,Greuther Furth,2,2,D,1
+2020-06-28,Dresden,Osnabruck,2,2,D,1
+2020-06-28,Greuther Furth,Karlsruhe,1,2,A,0
+2020-06-28,Hamburg,Sandhausen,1,5,A,0
+2020-06-28,Hannover,Bochum,2,0,H,0
+2020-06-28,Holstein Kiel,Nurnberg,1,1,D,1
+2020-06-28,Regensburg,Erzgebirge Aue,1,2,A,0
+2020-06-28,Stuttgart,Darmstadt,1,3,A,0
+2020-06-28,Wehen,St Pauli,5,3,H,0
+2020-06-28,Bielefeld,Heidenheim,3,0,H,0

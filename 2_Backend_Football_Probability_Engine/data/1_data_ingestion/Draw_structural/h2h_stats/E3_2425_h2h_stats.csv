@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+126,Walsall,143,Port Vale,2425,2,0,0.0,3.0
+121,Colchester,127,Newport County,2425,4,2,0.5,1.25
+122,Grimsby,141,Carlisle,2425,2,0,0.0,4.0
+120,Chesterfield,128,Tranmere,2425,2,0,0.0,3.5
+129,Barrow,134,Fleetwood Town,2425,2,1,0.5,1.0
+122,Grimsby,123,Milton Keynes Dons,2425,2,1,0.5,2.0
+124,Salford,127,Newport County,2425,4,1,0.25,3.25
+138,Swindon,143,Port Vale,2425,2,1,0.5,4.5
+127,Newport County,134,Fleetwood Town,2425,4,3,0.75,2.5
+123,Milton Keynes Dons,129,Barrow,2425,2,0,0.0,3.0
+134,Fleetwood Town,141,Carlisle,2425,2,0,0.0,4.0
+129,Barrow,131,Cheltenham,2425,2,0,0.0,4.0
+140,Doncaster,142,Bradford,2425,2,0,0.0,3.0
+126,Walsall,131,Cheltenham,2425,2,1,0.5,3.5
+131,Cheltenham,141,Carlisle,2425,2,0,0.0,3.0
+128,Tranmere,138,Swindon,2425,2,1,0.5,3.0
+124,Salford,144,Morecambe,2425,2,0,0.0,2.5
+122,Grimsby,142,Bradford,2425,2,0,0.0,3.5
+121,Colchester,135,Gillingham,2425,2,1,0.5,2.0
+128,Tranmere,139,AFC Wimbledon,2425,2,0,0.0,2.0
+122,Grimsby,140,Doncaster,2425,2,0,0.0,3.0
+124,Salford,126,Walsall,2425,2,1,0.5,3.0
+123,Milton Keynes Dons,128,Tranmere,2425,2,2,1.0,2.0
+127,Newport County,141,Carlisle,2425,4,0,0.0,2.25
+120,Chesterfield,142,Bradford,2425,2,1,0.5,4.5
+133,Crewe,144,Morecambe,2425,2,0,0.0,1.0
+120,Chesterfield,130,Bromley,2425,2,1,0.5,3.5
+129,Barrow,141,Carlisle,2425,2,0,0.0,1.0
+121,Colchester,144,Morecambe,2425,2,1,0.5,3.5
+120,Chesterfield,139,AFC Wimbledon,2425,2,1,0.5,0.5
+116,Accrington,144,Morecambe,2425,2,0,0.0,2.5
+121,Colchester,126,Walsall,2425,2,0,0.0,3.5
+128,Tranmere,131,Cheltenham,2425,2,0,0.0,1.5
+128,Tranmere,143,Port Vale,2425,2,2,1.0,1.0
+116,Accrington,127,Newport County,2425,4,0,0.0,3.5
+138,Swindon,142,Bradford,2425,2,0,0.0,5.0
+123,Milton Keynes Dons,135,Gillingham,2425,2,0,0.0,1.0
+116,Accrington,139,AFC Wimbledon,2425,2,2,1.0,2.0
+136,Harrogate,140,Doncaster,2425,2,0,0.0,1.5
+126,Walsall,133,Crewe,2425,2,1,0.5,1.5
+141,Carlisle,143,Port Vale,2425,2,1,0.5,2.5
+121,Colchester,142,Bradford,2425,2,1,0.5,3.5
+122,Grimsby,128,Tranmere,2425,2,1,0.5,1.5
+121,Colchester,136,Harrogate,2425,2,1,0.5,0.5
+121,Colchester,129,Barrow,2425,2,2,1.0,1.0
+122,Grimsby,131,Cheltenham,2425,2,1,0.5,3.5
+116,Accrington,138,Swindon,2425,2,2,1.0,2.0
+121,Colchester,143,Port Vale,2425,2,1,0.5,2.5
+135,Gillingham,139,AFC Wimbledon,2425,2,0,0.0,1.0
+130,Bromley,143,Port Vale,2425,2,1,0.5,2.5
+127,Newport County,144,Morecambe,2425,4,1,0.25,2.0
+120,Chesterfield,134,Fleetwood Town,2425,2,0,0.0,2.5
+121,Colchester,122,Grimsby,2425,2,0,0.0,2.0
+116,Accrington,136,Harrogate,2425,2,1,0.5,4.5
+123,Milton Keynes Dons,138,Swindon,2425,2,1,0.5,2.0
+126,Walsall,136,Harrogate,2425,2,1,0.5,3.0
+121,Colchester,131,Cheltenham,2425,2,0,0.0,2.0
+131,Cheltenham,144,Morecambe,2425,2,0,0.0,2.0
+134,Fleetwood Town,136,Harrogate,2425,2,1,0.5,3.0
+127,Newport County,142,Bradford,2425,4,2,0.5,2.25
+121,Colchester,139,AFC Wimbledon,2425,2,1,0.5,4.0
+121,Colchester,140,Doncaster,2425,2,1,0.5,2.5
+133,Crewe,142,Bradford,2425,2,1,0.5,2.0
+133,Crewe,135,Gillingham,2425,2,1,0.5,1.0
+134,Fleetwood Town,144,Morecambe,2425,2,1,0.5,5.0
+130,Bromley,136,Harrogate,2425,2,0,0.0,2.0
+120,Chesterfield,123,Milton Keynes Dons,2425,2,0,0.0,3.0
+123,Milton Keynes Dons,133,Crewe,2425,2,1,0.5,1.5
+131,Cheltenham,143,Port Vale,2425,2,2,1.0,1.0
+129,Barrow,130,Bromley,2425,2,2,1.0,4.0
+127,Newport County,129,Barrow,2425,4,1,0.25,2.0
+129,Barrow,143,Port Vale,2425,2,0,0.0,2.5
+126,Walsall,130,Bromley,2425,2,2,1.0,4.0
+123,Milton Keynes Dons,134,Fleetwood Town,2425,2,0,0.0,4.5
+136,Harrogate,138,Swindon,2425,2,1,0.5,0.5
+134,Fleetwood Town,140,Doncaster,2425,2,0,0.0,4.5
+121,Colchester,128,Tranmere,2425,2,0,0.0,3.5
+124,Salford,142,Bradford,2425,2,1,0.5,1.5
+136,Harrogate,143,Port Vale,2425,2,1,0.5,0.5
+116,Accrington,143,Port Vale,2425,2,1,0.5,3.5
+122,Grimsby,129,Barrow,2425,2,0,0.0,3.0
+120,Chesterfield,138,Swindon,2425,2,1,0.5,1.5
+120,Chesterfield,144,Morecambe,2425,2,0,0.0,6.0
+126,Walsall,141,Carlisle,2425,2,1,0.5,3.0
+126,Walsall,134,Fleetwood Town,2425,2,0,0.0,5.0
+123,Milton Keynes Dons,127,Newport County,2425,4,1,0.25,3.5
+120,Chesterfield,143,Port Vale,2425,2,1,0.5,1.5
+116,Accrington,129,Barrow,2425,2,0,0.0,1.5
+122,Grimsby,133,Crewe,2425,2,0,0.0,2.0
+134,Fleetwood Town,143,Port Vale,2425,2,1,0.5,3.0
+131,Cheltenham,133,Crewe,2425,2,0,0.0,4.0
+127,Newport County,136,Harrogate,2425,4,0,0.0,2.25
+120,Chesterfield,127,Newport County,2425,4,1,0.25,3.25
+122,Grimsby,130,Bromley,2425,2,0,0.0,1.5
+127,Newport County,138,Swindon,2425,4,0,0.0,3.0
+120,Chesterfield,140,Doncaster,2425,2,0,0.0,5.0
+133,Crewe,138,Swindon,2425,2,2,1.0,
+127,Newport County,135,Gillingham,2425,4,0,0.0,2.5
+130,Bromley,138,Swindon,2425,2,1,0.5,1.5
+122,Grimsby,124,Salford,2425,2,0,0.0,2.0
+122,Grimsby,144,Morecambe,2425,2,0,0.0,3.5
+116,Accrington,122,Grimsby,2425,2,0,0.0,6.0
+139,AFC Wimbledon,143,Port Vale,2425,2,0,0.0,3.5
+139,AFC Wimbledon,142,Bradford,2425,2,1,0.5,0.5
+122,Grimsby,138,Swindon,2425,2,0,0.0,4.0
+123,Milton Keynes Dons,142,Bradford,2425,2,0,0.0,2.5
+136,Harrogate,144,Morecambe,2425,2,0,0.0,3.0
+122,Grimsby,126,Walsall,2425,2,0,0.0,4.5
+126,Walsall,140,Doncaster,2425,2,1,0.5,3.0
+123,Milton Keynes Dons,131,Cheltenham,2425,2,0,0.0,3.0
+133,Crewe,134,Fleetwood Town,2425,2,0,0.0,3.0
+120,Chesterfield,121,Colchester,2425,2,1,0.5,1.5
+116,Accrington,140,Doncaster,2425,2,0,0.0,4.0
+131,Cheltenham,136,Harrogate,2425,2,0,0.0,1.5
+121,Colchester,123,Milton Keynes Dons,2425,2,0,0.0,1.5
+131,Cheltenham,139,AFC Wimbledon,2425,2,0,0.0,2.0
+134,Fleetwood Town,138,Swindon,2425,2,0,0.0,4.0
+123,Milton Keynes Dons,130,Bromley,2425,2,1,0.5,1.5
+120,Chesterfield,133,Crewe,2425,2,0,0.0,4.5
+130,Bromley,142,Bradford,2425,2,0,0.0,2.5
+123,Milton Keynes Dons,141,Carlisle,2425,2,1,0.5,3.5
+120,Chesterfield,136,Harrogate,2425,2,1,0.5,1.5
+124,Salford,140,Doncaster,2425,2,2,1.0,2.0
+136,Harrogate,141,Carlisle,2425,2,1,0.5,1.5
+129,Barrow,144,Morecambe,2425,2,1,0.5,2.5
+116,Accrington,126,Walsall,2425,2,1,0.5,0.5
+127,Newport County,127,Newport County,2425,2,1,0.5,1.0
+127,Newport County,130,Bromley,2425,4,2,0.5,4.25
+130,Bromley,144,Morecambe,2425,2,0,0.0,1.5
+136,Harrogate,142,Bradford,2425,2,0,0.0,2.0
+128,Tranmere,136,Harrogate,2425,2,0,0.0,4.0
+116,Accrington,142,Bradford,2425,2,1,0.5,0.5
+126,Walsall,135,Gillingham,2425,2,2,1.0,1.0
+126,Walsall,128,Tranmere,2425,2,0,0.0,3.5
+116,Accrington,131,Cheltenham,2425,2,1,0.5,1.5
+128,Tranmere,134,Fleetwood Town,2425,2,2,1.0,
+116,Accrington,130,Bromley,2425,2,0,0.0,3.5
+135,Gillingham,141,Carlisle,2425,2,1,0.5,2.5
+128,Tranmere,144,Morecambe,2425,2,1,0.5,3.0
+123,Milton Keynes Dons,136,Harrogate,2425,2,0,0.0,4.5
+124,Salford,138,Swindon,2425,2,1,0.5,3.5
+127,Newport County,143,Port Vale,2425,4,0,0.0,3.0
+127,Newport County,128,Tranmere,2425,4,1,0.25,2.75
+124,Salford,129,Barrow,2425,2,1,0.5,2.5
+139,AFC Wimbledon,140,Doncaster,2425,2,1,0.5,1.5
+121,Colchester,141,Carlisle,2425,2,2,1.0,
+130,Bromley,140,Doncaster,2425,2,0,0.0,1.0
+129,Barrow,133,Crewe,2425,2,0,0.0,2.0
+127,Newport County,139,AFC Wimbledon,2425,4,1,0.25,2.5
+127,Newport County,140,Doncaster,2425,4,1,0.25,3.0
+116,Accrington,134,Fleetwood Town,2425,2,1,0.5,3.5
+126,Walsall,138,Swindon,2425,2,0,0.0,2.5
+128,Tranmere,140,Doncaster,2425,2,0,0.0,3.5
+142,Bradford,143,Port Vale,2425,2,0,0.0,2.5
+116,Accrington,120,Chesterfield,2425,2,0,0.0,2.0
+123,Milton Keynes Dons,124,Salford,2425,2,0,0.0,1.0
+131,Cheltenham,138,Swindon,2425,2,1,0.5,5.5
+133,Crewe,136,Harrogate,2425,2,1,0.5,2.5
+133,Crewe,139,AFC Wimbledon,2425,2,1,0.5,2.5
+122,Grimsby,139,AFC Wimbledon,2425,2,0,0.0,1.0
+129,Barrow,139,AFC Wimbledon,2425,2,1,0.5,4.0
+130,Bromley,133,Crewe,2425,2,0,0.0,4.0
+120,Chesterfield,122,Grimsby,2425,2,1,0.5,2.5
+136,Harrogate,139,AFC Wimbledon,2425,2,0,0.0,2.0
+120,Chesterfield,126,Walsall,2425,2,1,0.5,4.0
+127,Newport County,133,Crewe,2425,4,1,0.25,2.0
+128,Tranmere,135,Gillingham,2425,2,1,0.5,2.5
+127,Newport County,131,Cheltenham,2425,4,0,0.0,4.75
+121,Colchester,124,Salford,2425,2,0,0.0,4.0
+128,Tranmere,133,Crewe,2425,2,0,0.0,3.0
+130,Bromley,134,Fleetwood Town,2425,2,1,0.5,0.5
+139,AFC Wimbledon,141,Carlisle,2425,2,0,0.0,3.5
+124,Salford,134,Fleetwood Town,2425,2,1,0.5,3.0
+124,Salford,135,Gillingham,2425,2,1,0.5,2.5
+128,Tranmere,141,Carlisle,2425,2,0,0.0,2.0
+131,Cheltenham,142,Bradford,2425,2,1,0.5,2.5
+123,Milton Keynes Dons,143,Port Vale,2425,2,0,0.0,2.0
+129,Barrow,140,Doncaster,2425,2,0,0.0,2.5
+121,Colchester,134,Fleetwood Town,2425,2,1,0.5,1.5
+135,Gillingham,143,Port Vale,2425,2,0,0.0,1.0
+131,Cheltenham,140,Doncaster,2425,2,1,0.5,3.0
+124,Salford,136,Harrogate,2425,2,0,0.0,2.0
+126,Walsall,127,Newport County,2425,4,1,0.25,2.5
+135,Gillingham,136,Harrogate,2425,2,1,0.5,2.5
+122,Grimsby,136,Harrogate,2425,2,1,0.5,3.5
+131,Cheltenham,135,Gillingham,2425,2,2,1.0,3.0
+124,Salford,133,Crewe,2425,2,2,1.0,2.0
+116,Accrington,141,Carlisle,2425,2,1,0.5,2.5
+120,Chesterfield,131,Cheltenham,2425,2,1,0.5,1.5
+133,Crewe,140,Doncaster,2425,2,2,1.0,2.0
+128,Tranmere,142,Bradford,2425,2,0,0.0,1.5
+128,Tranmere,130,Bromley,2425,2,0,0.0,3.0
+120,Chesterfield,129,Barrow,2425,2,0,0.0,1.0
+120,Chesterfield,141,Carlisle,2425,2,0,0.0,2.5
+129,Barrow,142,Bradford,2425,2,2,1.0,3.0
+120,Chesterfield,135,Gillingham,2425,2,1,0.5,1.5
+135,Gillingham,138,Swindon,2425,2,2,1.0,2.0
+141,Carlisle,144,Morecambe,2425,2,0,0.0,1.5
+121,Colchester,133,Crewe,2425,2,2,1.0,
+116,Accrington,124,Salford,2425,2,0,0.0,2.5
+134,Fleetwood Town,139,AFC Wimbledon,2425,2,1,0.5,0.5
+116,Accrington,128,Tranmere,2425,2,1,0.5,3.5
+121,Colchester,130,Bromley,2425,2,1,0.5,1.5
+129,Barrow,136,Harrogate,2425,2,0,0.0,1.5
+142,Bradford,144,Morecambe,2425,2,1,0.5,1.5
+122,Grimsby,135,Gillingham,2425,2,1,0.5,1.5
+123,Milton Keynes Dons,126,Walsall,2425,2,0,0.0,3.5
+133,Crewe,141,Carlisle,2425,2,1,0.5,3.5
+124,Salford,143,Port Vale,2425,2,0,0.0,2.5
+116,Accrington,121,Colchester,2425,2,1,0.5,2.0
+129,Barrow,138,Swindon,2425,2,1,0.5,2.0
+124,Salford,131,Cheltenham,2425,2,0,0.0,3.0
+126,Walsall,139,AFC Wimbledon,2425,2,1,0.5,1.5
+116,Accrington,135,Gillingham,2425,2,1,0.5,2.5
+123,Milton Keynes Dons,139,AFC Wimbledon,2425,2,1,0.5,1.5
+124,Salford,139,AFC Wimbledon,2425,2,0,0.0,1.0
+140,Doncaster,143,Port Vale,2425,2,0,0.0,4.0
+124,Salford,141,Carlisle,2425,2,1,0.5,2.5
+121,Colchester,138,Swindon,2425,2,0,0.0,4.5
+130,Bromley,135,Gillingham,2425,2,0,0.0,3.0
+122,Grimsby,134,Fleetwood Town,2425,2,0,0.0,2.0
+130,Bromley,141,Carlisle,2425,2,1,0.5,2.5
+140,Doncaster,144,Morecambe,2425,2,0,0.0,1.0
+134,Fleetwood Town,142,Bradford,2425,2,0,0.0,1.0
+129,Barrow,135,Gillingham,2425,2,0,0.0,2.5
+116,Accrington,133,Crewe,2425,2,0,0.0,1.0
+135,Gillingham,144,Morecambe,2425,2,0,0.0,1.0
+143,Port Vale,144,Morecambe,2425,2,0,0.0,1.0
+133,Crewe,143,Port Vale,2425,2,1,0.5,1.5
+123,Milton Keynes Dons,144,Morecambe,2425,2,0,0.0,3.5
+126,Walsall,129,Barrow,2425,2,0,0.0,1.5
+126,Walsall,142,Bradford,2425,2,0,0.0,3.0
+138,Swindon,139,AFC Wimbledon,2425,2,1,0.5,2.5
+141,Carlisle,142,Bradford,2425,2,0,0.0,2.0
+135,Gillingham,140,Doncaster,2425,2,0,0.0,1.0
+124,Salford,128,Tranmere,2425,2,1,0.5,1.0
+122,Grimsby,143,Port Vale,2425,2,1,0.5,3.5
+138,Swindon,140,Doncaster,2425,2,1,0.5,3.5
+134,Fleetwood Town,135,Gillingham,2425,2,1,0.5,1.5
+122,Grimsby,127,Newport County,2425,4,1,0.25,2.0
+126,Walsall,144,Morecambe,2425,2,0,0.0,1.5
+130,Bromley,139,AFC Wimbledon,2425,2,0,0.0,1.5
+139,AFC Wimbledon,144,Morecambe,2425,2,0,0.0,2.0
+138,Swindon,141,Carlisle,2425,2,0,0.0,4.0
+130,Bromley,131,Cheltenham,2425,2,1,0.5,2.5
+138,Swindon,144,Morecambe,2425,2,0,0.0,3.0
+140,Doncaster,141,Carlisle,2425,2,1,0.5,1.5
+124,Salford,130,Bromley,2425,2,1,0.5,5.5
+128,Tranmere,129,Barrow,2425,2,2,1.0,1.0
+123,Milton Keynes Dons,140,Doncaster,2425,2,1,0.5,2.5
+131,Cheltenham,134,Fleetwood Town,2425,2,0,0.0,2.0
+120,Chesterfield,124,Salford,2425,2,1,0.5,3.0
+116,Accrington,123,Milton Keynes Dons,2425,2,0,0.0,2.5
+135,Gillingham,142,Bradford,2425,2,0,0.0,2.0

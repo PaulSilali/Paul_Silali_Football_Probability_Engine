@@ -1,0 +1,233 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+76,Rotherham,115,Southend,1920,1,1,1.0,4.0
+74,Lincoln,101,Fleetwood Town,1920,1,0,0.0,2.0
+82,AFC Wimbledon,109,Sunderland,1920,1,0,0.0,4.0
+102,Accrington,105,Ipswich,1920,2,0,0.0,3.5
+72,Doncaster,90,Bristol Rvs,1920,2,0,0.0,2.0
+69,Blackpool,72,Doncaster,1920,1,0,0.0,1.0
+105,Ipswich,112,Rochdale,1920,1,0,0.0,1.0
+74,Lincoln,82,AFC Wimbledon,1920,1,1,1.0,2.0
+89,Birmingham,92,Shrewsbury,1920,2,1,0.5,2.0
+92,Shrewsbury,101,Fleetwood Town,1920,2,1,0.5,3.5
+76,Rotherham,102,Accrington,1920,2,0,0.0,2.0
+80,Peterboro,92,Shrewsbury,1920,1,0,0.0,1.0
+67,Luton,99,Portsmouth,1920,3,1,0.3333333333333333,2.0
+72,Doncaster,82,AFC Wimbledon,1920,1,0,0.0,3.0
+67,Luton,115,Southend,1920,3,1,0.3333333333333333,4.0
+72,Doncaster,88,Wycombe,1920,2,0,0.0,2.5
+88,Wycombe,99,Portsmouth,1920,2,0,0.0,1.5
+82,AFC Wimbledon,96,Oxford,1920,2,0,0.0,4.0
+80,Peterboro,90,Bristol Rvs,1920,1,1,1.0,
+76,Rotherham,90,Bristol Rvs,1920,2,0,0.0,2.0
+67,Luton,74,Lincoln,1920,3,0,0.0,4.333333333333333
+80,Peterboro,115,Southend,1920,2,0,0.0,3.0
+88,Wycombe,104,Milton Keynes Dons,1920,2,0,0.0,3.5
+92,Shrewsbury,96,Oxford,1920,2,1,0.5,2.5
+89,Birmingham,96,Oxford,1920,2,1,0.5,2.5
+99,Portsmouth,112,Rochdale,1920,2,0,0.0,3.0
+80,Peterboro,113,Coventry,1920,1,1,1.0,4.0
+82,AFC Wimbledon,114,Tranmere,1920,1,0,0.0,1.0
+96,Oxford,112,Rochdale,1920,1,0,0.0,3.0
+90,Bristol Rvs,115,Southend,1920,2,0,0.0,5.0
+101,Fleetwood Town,113,Coventry,1920,2,1,0.5,1.5
+101,Fleetwood Town,102,Accrington,1920,1,0,0.0,2.0
+74,Lincoln,88,Wycombe,1920,1,0,0.0,4.0
+104,Milton Keynes Dons,114,Tranmere,1920,1,0,0.0,4.0
+114,Tranmere,115,Southend,1920,2,2,1.0,1.0
+99,Portsmouth,113,Coventry,1920,2,1,0.5,3.5
+80,Peterboro,109,Sunderland,1920,1,0,0.0,3.0
+82,AFC Wimbledon,113,Coventry,1920,1,0,0.0,3.0
+102,Accrington,114,Tranmere,1920,2,1,0.5,2.5
+90,Bristol Rvs,96,Oxford,1920,1,0,0.0,4.0
+90,Bristol Rvs,113,Coventry,1920,2,0,0.0,2.5
+92,Shrewsbury,115,Southend,1920,1,0,0.0,7.0
+96,Oxford,102,Accrington,1920,2,1,0.5,3.5
+105,Ipswich,115,Southend,1920,1,0,0.0,4.0
+80,Peterboro,104,Milton Keynes Dons,1920,1,0,0.0,4.0
+80,Peterboro,89,Birmingham,1920,2,1,0.5,1.5
+67,Luton,72,Doncaster,1920,2,1,0.5,3.5
+105,Ipswich,114,Tranmere,1920,2,0,0.0,4.0
+90,Bristol Rvs,102,Accrington,1920,1,1,1.0,6.0
+88,Wycombe,105,Ipswich,1920,2,2,1.0,1.0
+72,Doncaster,96,Oxford,1920,2,0,0.0,2.0
+67,Luton,104,Milton Keynes Dons,1920,4,0,0.0,1.5
+105,Ipswich,113,Coventry,1920,2,1,0.5,1.5
+72,Doncaster,99,Portsmouth,1920,1,0,0.0,3.0
+99,Portsmouth,115,Southend,1920,1,0,0.0,5.0
+72,Doncaster,113,Coventry,1920,2,1,0.5,1.5
+69,Blackpool,76,Rotherham,1920,2,0,0.0,3.0
+74,Lincoln,112,Rochdale,1920,1,1,1.0,2.0
+72,Doncaster,89,Birmingham,1920,2,1,0.5,2.5
+80,Peterboro,105,Ipswich,1920,2,1,0.5,4.5
+69,Blackpool,90,Bristol Rvs,1920,2,0,0.0,2.5
+90,Bristol Rvs,109,Sunderland,1920,2,0,0.0,2.5
+67,Luton,82,AFC Wimbledon,1920,4,3,0.75,2.25
+72,Doncaster,115,Southend,1920,2,0,0.0,6.0
+72,Doncaster,76,Rotherham,1920,1,0,0.0,3.0
+72,Doncaster,105,Ipswich,1920,1,1,1.0,
+99,Portsmouth,104,Milton Keynes Dons,1920,2,0,0.0,4.0
+102,Accrington,112,Rochdale,1920,2,0,0.0,3.0
+67,Luton,67,Luton,1920,2,1,0.5,5.5
+105,Ipswich,109,Sunderland,1920,2,1,0.5,1.5
+92,Shrewsbury,104,Milton Keynes Dons,1920,2,1,0.5,1.5
+80,Peterboro,112,Rochdale,1920,1,0,0.0,6.0
+74,Lincoln,102,Accrington,1920,2,0,0.0,4.5
+76,Rotherham,113,Coventry,1920,2,1,0.5,3.0
+67,Luton,109,Sunderland,1920,3,2,0.6666666666666666,1.6666666666666667
+88,Wycombe,113,Coventry,1920,1,0,0.0,5.0
+92,Shrewsbury,114,Tranmere,1920,2,0,0.0,3.0
+88,Wycombe,115,Southend,1920,1,0,0.0,7.0
+69,Blackpool,74,Lincoln,1920,2,0,0.0,2.0
+76,Rotherham,89,Birmingham,1920,1,0,0.0,3.0
+89,Birmingham,114,Tranmere,1920,1,1,1.0,4.0
+102,Accrington,104,Milton Keynes Dons,1920,1,0,0.0,3.0
+89,Birmingham,112,Rochdale,1920,2,1,0.5,2.5
+99,Portsmouth,105,Ipswich,1920,1,0,0.0,1.0
+89,Birmingham,99,Portsmouth,1920,2,2,1.0,1.0
+101,Fleetwood Town,105,Ipswich,1920,2,0,0.0,1.0
+74,Lincoln,115,Southend,1920,2,0,0.0,3.5
+92,Shrewsbury,99,Portsmouth,1920,2,0,0.0,1.5
+88,Wycombe,92,Shrewsbury,1920,1,0,0.0,1.0
+88,Wycombe,90,Bristol Rvs,1920,2,1,0.5,2.0
+76,Rotherham,88,Wycombe,1920,1,0,0.0,1.0
+89,Birmingham,115,Southend,1920,2,0,0.0,2.5
+72,Doncaster,101,Fleetwood Town,1920,2,0,0.0,4.0
+82,AFC Wimbledon,89,Birmingham,1920,2,0,0.0,2.0
+89,Birmingham,104,Milton Keynes Dons,1920,1,0,0.0,4.0
+89,Birmingham,113,Coventry,1920,1,0,0.0,1.0
+72,Doncaster,74,Lincoln,1920,1,0,0.0,3.0
+74,Lincoln,92,Shrewsbury,1920,2,2,1.0,1.0
+104,Milton Keynes Dons,113,Coventry,1920,2,2,1.0,1.0
+67,Luton,114,Tranmere,1920,4,0,0.0,4.0
+76,Rotherham,92,Shrewsbury,1920,2,1,0.5,1.5
+112,Rochdale,113,Coventry,1920,2,0,0.0,3.0
+74,Lincoln,96,Oxford,1920,2,0,0.0,3.5
+67,Luton,88,Wycombe,1920,3,0,0.0,2.0
+104,Milton Keynes Dons,115,Southend,1920,2,1,0.5,2.5
+74,Lincoln,76,Rotherham,1920,2,0,0.0,1.5
+112,Rochdale,115,Southend,1920,1,0,0.0,3.0
+80,Peterboro,99,Portsmouth,1920,2,1,0.5,3.0
+82,AFC Wimbledon,115,Southend,1920,2,1,0.5,3.5
+90,Bristol Rvs,99,Portsmouth,1920,1,1,1.0,4.0
+67,Luton,102,Accrington,1920,4,2,0.5,3.0
+67,Luton,76,Rotherham,1920,3,0,0.0,4.333333333333333
+72,Doncaster,114,Tranmere,1920,1,0,0.0,3.0
+96,Oxford,105,Ipswich,1920,2,1,0.5,0.5
+74,Lincoln,105,Ipswich,1920,2,0,0.0,4.5
+101,Fleetwood Town,115,Southend,1920,1,1,1.0,6.0
+113,Coventry,115,Southend,1920,2,0,0.0,1.5
+69,Blackpool,105,Ipswich,1920,2,1,0.5,3.5
+109,Sunderland,113,Coventry,1920,2,1,0.5,1.5
+102,Accrington,115,Southend,1920,2,0,0.0,2.0
+96,Oxford,109,Sunderland,1920,2,1,0.5,1.5
+74,Lincoln,113,Coventry,1920,1,0,0.0,1.0
+67,Luton,101,Fleetwood Town,1920,3,0,0.0,3.0
+89,Birmingham,102,Accrington,1920,1,0,0.0,1.0
+76,Rotherham,105,Ipswich,1920,2,0,0.0,1.5
+101,Fleetwood Town,109,Sunderland,1920,2,2,1.0,2.0
+89,Birmingham,109,Sunderland,1920,2,1,0.5,2.5
+96,Oxford,113,Coventry,1920,1,1,1.0,6.0
+80,Peterboro,101,Fleetwood Town,1920,2,0,0.0,3.5
+90,Bristol Rvs,112,Rochdale,1920,1,0,0.0,3.0
+112,Rochdale,114,Tranmere,1920,1,0,0.0,5.0
+76,Rotherham,112,Rochdale,1920,2,0,0.0,2.5
+69,Blackpool,112,Rochdale,1920,1,1,1.0,
+72,Doncaster,80,Peterboro,1920,2,0,0.0,2.5
+69,Blackpool,80,Peterboro,1920,1,0,0.0,7.0
+96,Oxford,104,Milton Keynes Dons,1920,1,0,0.0,1.0
+92,Shrewsbury,112,Rochdale,1920,2,1,0.5,0.5
+76,Rotherham,114,Tranmere,1920,1,1,1.0,2.0
+88,Wycombe,89,Birmingham,1920,1,0,0.0,2.0
+92,Shrewsbury,113,Coventry,1920,1,0,0.0,3.0
+69,Blackpool,102,Accrington,1920,2,1,0.5,1.5
+101,Fleetwood Town,114,Tranmere,1920,1,0,0.0,3.0
+96,Oxford,101,Fleetwood Town,1920,1,0,0.0,3.0
+74,Lincoln,114,Tranmere,1920,1,0,0.0,1.0
+69,Blackpool,114,Tranmere,1920,2,1,0.5,2.5
+89,Birmingham,90,Bristol Rvs,1920,1,1,1.0,2.0
+109,Sunderland,114,Tranmere,1920,2,0,0.0,3.0
+113,Coventry,114,Tranmere,1920,2,0,0.0,3.0
+99,Portsmouth,109,Sunderland,1920,2,0,0.0,2.5
+74,Lincoln,89,Birmingham,1920,2,1,0.5,0.5
+67,Luton,90,Bristol Rvs,1920,3,1,0.3333333333333333,2.0
+90,Bristol Rvs,104,Milton Keynes Dons,1920,2,0,0.0,2.0
+90,Bristol Rvs,105,Ipswich,1920,1,0,0.0,3.0
+92,Shrewsbury,105,Ipswich,1920,1,0,0.0,3.0
+90,Bristol Rvs,101,Fleetwood Town,1920,2,2,1.0,
+76,Rotherham,96,Oxford,1920,2,0,0.0,3.5
+88,Wycombe,112,Rochdale,1920,2,0,0.0,3.0
+76,Rotherham,104,Milton Keynes Dons,1920,2,1,0.5,3.5
+88,Wycombe,114,Tranmere,1920,2,0,0.0,3.0
+104,Milton Keynes Dons,109,Sunderland,1920,2,0,0.0,2.0
+89,Birmingham,101,Fleetwood Town,1920,1,1,1.0,2.0
+80,Peterboro,82,AFC Wimbledon,1920,2,0,0.0,3.0
+69,Blackpool,101,Fleetwood Town,1920,2,1,0.5,2.0
+67,Luton,92,Shrewsbury,1920,2,2,1.0,1.0
+89,Birmingham,105,Ipswich,1920,2,1,0.5,0.5
+76,Rotherham,109,Sunderland,1920,1,1,1.0,2.0
+80,Peterboro,102,Accrington,1920,2,0,0.0,3.0
+82,AFC Wimbledon,88,Wycombe,1920,1,1,1.0,
+82,AFC Wimbledon,102,Accrington,1920,2,1,0.5,2.5
+74,Lincoln,104,Milton Keynes Dons,1920,2,1,0.5,2.5
+99,Portsmouth,102,Accrington,1920,1,0,0.0,5.0
+109,Sunderland,112,Rochdale,1920,2,0,0.0,3.0
+82,AFC Wimbledon,99,Portsmouth,1920,2,0,0.0,2.0
+67,Luton,69,Blackpool,1920,3,2,0.6666666666666666,1.0
+102,Accrington,109,Sunderland,1920,1,0,0.0,4.0
+74,Lincoln,80,Peterboro,1920,2,0,0.0,2.5
+88,Wycombe,109,Sunderland,1920,2,0,0.0,2.5
+101,Fleetwood Town,112,Rochdale,1920,2,0,0.0,4.0
+74,Lincoln,90,Bristol Rvs,1920,1,0,0.0,1.0
+69,Blackpool,89,Birmingham,1920,2,1,0.5,4.5
+82,AFC Wimbledon,90,Bristol Rvs,1920,2,0,0.0,3.5
+104,Milton Keynes Dons,105,Ipswich,1920,1,0,0.0,1.0
+90,Bristol Rvs,114,Tranmere,1920,2,1,0.5,1.0
+72,Doncaster,102,Accrington,1920,1,1,1.0,2.0
+80,Peterboro,114,Tranmere,1920,1,1,1.0,4.0
+88,Wycombe,101,Fleetwood Town,1920,2,1,0.5,1.5
+96,Oxford,115,Southend,1920,2,0,0.0,3.5
+82,AFC Wimbledon,104,Milton Keynes Dons,1920,1,0,0.0,3.0
+69,Blackpool,99,Portsmouth,1920,1,1,1.0,2.0
+82,AFC Wimbledon,101,Fleetwood Town,1920,2,0,0.0,3.0
+80,Peterboro,88,Wycombe,1920,2,1,0.5,5.0
+76,Rotherham,101,Fleetwood Town,1920,1,1,1.0,4.0
+72,Doncaster,112,Rochdale,1920,2,2,1.0,2.0
+74,Lincoln,99,Portsmouth,1920,2,0,0.0,1.5
+104,Milton Keynes Dons,112,Rochdale,1920,2,0,0.0,2.5
+67,Luton,105,Ipswich,1920,3,0,0.0,3.6666666666666665
+67,Luton,112,Rochdale,1920,3,0,0.0,3.3333333333333335
+67,Luton,113,Coventry,1920,3,2,0.6666666666666666,1.0
+92,Shrewsbury,109,Sunderland,1920,1,0,0.0,1.0
+72,Doncaster,104,Milton Keynes Dons,1920,2,1,0.5,1.5
+69,Blackpool,88,Wycombe,1920,2,1,0.5,2.5
+76,Rotherham,80,Peterboro,1920,2,0,0.0,3.5
+69,Blackpool,104,Milton Keynes Dons,1920,1,0,0.0,3.0
+96,Oxford,114,Tranmere,1920,1,0,0.0,3.0
+102,Accrington,113,Coventry,1920,1,1,1.0,
+92,Shrewsbury,102,Accrington,1920,2,0,0.0,3.5
+74,Lincoln,109,Sunderland,1920,2,0,0.0,3.0
+76,Rotherham,99,Portsmouth,1920,1,0,0.0,5.0
+67,Luton,80,Peterboro,1920,3,1,0.3333333333333333,1.3333333333333333
+72,Doncaster,109,Sunderland,1920,2,1,0.5,1.5
+82,AFC Wimbledon,112,Rochdale,1920,1,0,0.0,5.0
+69,Blackpool,82,AFC Wimbledon,1920,2,1,0.5,1.0
+67,Luton,89,Birmingham,1920,3,1,0.3333333333333333,2.6666666666666665
+76,Rotherham,82,AFC Wimbledon,1920,2,1,0.5,3.5
+69,Blackpool,115,Southend,1920,2,0,0.0,3.5
+82,AFC Wimbledon,105,Ipswich,1920,2,1,0.5,1.5
+69,Blackpool,113,Coventry,1920,1,0,0.0,5.0
+101,Fleetwood Town,104,Milton Keynes Dons,1920,1,0,0.0,1.0
+69,Blackpool,92,Shrewsbury,1920,1,0,0.0,1.0
+80,Peterboro,96,Oxford,1920,2,0,0.0,2.5
+72,Doncaster,92,Shrewsbury,1920,2,0,0.0,1.5
+96,Oxford,99,Portsmouth,1920,1,1,1.0,2.0
+69,Blackpool,109,Sunderland,1920,1,1,1.0,2.0
+90,Bristol Rvs,92,Shrewsbury,1920,2,0,0.0,4.0
+69,Blackpool,96,Oxford,1920,2,0,0.0,3.0
+88,Wycombe,96,Oxford,1920,1,0,0.0,1.0
+99,Portsmouth,114,Tranmere,1920,2,0,0.0,2.0
+88,Wycombe,102,Accrington,1920,1,1,1.0,2.0
+82,AFC Wimbledon,92,Shrewsbury,1920,1,1,1.0,2.0
+67,Luton,96,Oxford,1920,3,2,0.6666666666666666,3.3333333333333335
+109,Sunderland,115,Southend,1920,1,0,0.0,1.0
+99,Portsmouth,101,Fleetwood Town,1920,2,1,0.5,2.5

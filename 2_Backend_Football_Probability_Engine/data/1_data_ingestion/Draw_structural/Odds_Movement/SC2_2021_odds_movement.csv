@@ -1,0 +1,111 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SC2,2021,2020-10-17,Forfar,Dumbarton,3.49,3.49,0.0
+SC2,2021,2020-10-17,Montrose,Falkirk,3.78,3.78,0.0
+SC2,2021,2020-10-17,Airdrie Utd,Peterhead,3.59,3.59,0.0
+SC2,2021,2020-10-17,Cove Rangers,East Fife,3.89,3.89,0.0
+SC2,2021,2020-10-17,Clyde,Partick,3.54,3.54,0.0
+SC2,2021,2020-10-24,Falkirk,Forfar,4.52,4.52,0.0
+SC2,2021,2020-10-24,Partick,Airdrie Utd,3.46,3.46,0.0
+SC2,2021,2020-10-24,Peterhead,Cove Rangers,4.77,4.77,0.0
+SC2,2021,2020-10-24,East Fife,Montrose,3.63,3.63,0.0
+SC2,2021,2020-10-31,Cove Rangers,Partick,3.76,3.76,0.0
+SC2,2021,2020-10-31,Falkirk,East Fife,3.66,3.66,0.0
+SC2,2021,2020-10-31,Forfar,Montrose,3.5,3.5,0.0
+SC2,2021,2020-10-31,Airdrie Utd,Dumbarton,3.61,3.61,0.0
+SC2,2021,2020-10-31,Clyde,Peterhead,4.16,4.16,0.0
+SC2,2021,2020-11-03,Dumbarton,Clyde,3.47,3.47,0.0
+SC2,2021,2020-11-07,East Fife,Dumbarton,3.73,3.73,0.0
+SC2,2021,2020-11-07,Montrose,Peterhead,3.88,3.88,0.0
+SC2,2021,2020-11-07,Partick,Falkirk,3.37,3.37,0.0
+SC2,2021,2020-11-07,Cove Rangers,Forfar,5.75,5.75,0.0
+SC2,2021,2020-11-07,Airdrie Utd,Clyde,3.63,3.63,0.0
+SC2,2021,2020-11-21,Forfar,Airdrie Utd,3.56,3.56,0.0
+SC2,2021,2020-11-21,Partick,East Fife,3.88,3.88,0.0
+SC2,2021,2020-11-21,Peterhead,Dumbarton,3.64,3.64,0.0
+SC2,2021,2020-11-21,Clyde,Montrose,3.69,3.69,0.0
+SC2,2021,2020-11-21,Falkirk,Cove Rangers,3.62,3.62,0.0
+SC2,2021,2020-11-24,Dumbarton,Falkirk,4.35,4.35,0.0
+SC2,2021,2020-11-28,Montrose,Partick,3.66,3.66,0.0
+SC2,2021,2020-11-28,Peterhead,Forfar,3.68,3.68,0.0
+SC2,2021,2020-11-28,Airdrie Utd,Cove Rangers,3.51,3.51,0.0
+SC2,2021,2020-12-05,Cove Rangers,Montrose,4.17,4.17,0.0
+SC2,2021,2020-12-05,East Fife,Airdrie Utd,3.5,3.5,0.0
+SC2,2021,2020-12-05,Falkirk,Peterhead,4.91,4.91,0.0
+SC2,2021,2020-12-05,Partick,Dumbarton,4.26,4.26,0.0
+SC2,2021,2020-12-12,Dumbarton,Cove Rangers,4.09,4.09,0.0
+SC2,2021,2020-12-12,Forfar,Partick,4.01,4.01,0.0
+SC2,2021,2020-12-12,Peterhead,East Fife,3.37,3.37,0.0
+SC2,2021,2020-12-12,Clyde,Falkirk,4.0,4.0,0.0
+SC2,2021,2020-12-12,Airdrie Utd,Montrose,3.64,3.64,0.0
+SC2,2021,2020-12-19,Montrose,Dumbarton,3.89,3.89,0.0
+SC2,2021,2020-12-19,Partick,Peterhead,4.32,4.32,0.0
+SC2,2021,2020-12-19,Cove Rangers,Clyde,4.24,4.24,0.0
+SC2,2021,2020-12-19,East Fife,Forfar,4.23,4.23,0.0
+SC2,2021,2020-12-20,Falkirk,Airdrie Utd,4.17,4.17,0.0
+SC2,2021,2020-12-22,Peterhead,Montrose,3.59,3.59,0.0
+SC2,2021,2020-12-26,Forfar,Cove Rangers,4.67,4.67,0.0
+SC2,2021,2020-12-26,Falkirk,Partick,3.5,3.5,0.0
+SC2,2021,2020-12-26,Clyde,Airdrie Utd,3.8,3.8,0.0
+SC2,2021,2021-01-02,Montrose,Forfar,4.52,4.52,0.0
+SC2,2021,2021-01-02,East Fife,Falkirk,3.67,3.67,0.0
+SC2,2021,2021-01-02,Cove Rangers,Peterhead,4.21,4.21,0.0
+SC2,2021,2021-03-20,Falkirk,Montrose,4.12,4.12,0.0
+SC2,2021,2021-03-20,Partick,Cove Rangers,3.61,3.61,0.0
+SC2,2021,2021-03-20,Peterhead,Airdrie Utd,3.69,3.69,0.0
+SC2,2021,2021-03-20,Clyde,East Fife,3.17,3.17,0.0
+SC2,2021,2021-03-20,Dumbarton,Forfar,3.7,3.7,0.0
+SC2,2021,2021-03-27,East Fife,Cove Rangers,3.37,3.37,0.0
+SC2,2021,2021-03-27,Airdrie Utd,Partick,3.33,3.33,0.0
+SC2,2021,2021-03-27,Dumbarton,Peterhead,3.23,3.23,0.0
+SC2,2021,2021-03-27,Forfar,Falkirk,4.09,4.09,0.0
+SC2,2021,2021-03-27,Montrose,Clyde,3.48,3.48,0.0
+SC2,2021,2021-03-30,Montrose,East Fife,3.63,3.63,0.0
+SC2,2021,2021-03-30,Cove Rangers,Airdrie Utd,3.61,3.61,0.0
+SC2,2021,2021-03-30,Falkirk,Dumbarton,5.76,5.76,0.0
+SC2,2021,2021-03-30,Partick,Forfar,5.95,5.95,0.0
+SC2,2021,2021-03-30,Peterhead,Clyde,3.23,3.23,0.0
+SC2,2021,2021-04-01,East Fife,Clyde,3.64,3.64,0.0
+SC2,2021,2021-04-01,Dumbarton,Airdrie Utd,3.47,3.47,0.0
+SC2,2021,2021-04-06,Forfar,Peterhead,3.39,3.39,0.0
+SC2,2021,2021-04-06,Dumbarton,Montrose,3.47,3.47,0.0
+SC2,2021,2021-04-06,Airdrie Utd,Falkirk,3.57,3.57,0.0
+SC2,2021,2021-04-06,Clyde,Cove Rangers,3.6,3.6,0.0
+SC2,2021,2021-04-06,East Fife,Partick,3.36,3.36,0.0
+SC2,2021,2021-04-08,Clyde,Forfar,3.66,3.66,0.0
+SC2,2021,2021-04-08,Dumbarton,East Fife,3.36,3.36,0.0
+SC2,2021,2021-04-10,Montrose,Airdrie Utd,3.55,3.55,0.0
+SC2,2021,2021-04-10,Cove Rangers,Dumbarton,4.7,4.7,0.0
+SC2,2021,2021-04-10,Falkirk,Clyde,4.89,4.89,0.0
+SC2,2021,2021-04-10,Forfar,East Fife,3.49,3.49,0.0
+SC2,2021,2021-04-10,Peterhead,Partick,3.36,3.36,0.0
+SC2,2021,2021-04-13,Partick,Clyde,4.2,4.2,0.0
+SC2,2021,2021-04-13,Airdrie Utd,Forfar,4.19,4.19,0.0
+SC2,2021,2021-04-15,Clyde,Dumbarton,3.41,3.41,0.0
+SC2,2021,2021-04-15,Partick,Montrose,3.5,3.5,0.0
+SC2,2021,2021-04-17,Cove Rangers,Falkirk,3.15,3.15,0.0
+SC2,2021,2021-04-17,East Fife,Peterhead,3.73,3.73,0.0
+SC2,2021,2021-04-20,Forfar,Clyde,3.45,3.45,0.0
+SC2,2021,2021-04-20,Airdrie Utd,East Fife,3.23,3.23,0.0
+SC2,2021,2021-04-20,Dumbarton,Partick,3.99,3.99,0.0
+SC2,2021,2021-04-20,Montrose,Cove Rangers,3.62,3.62,0.0
+SC2,2021,2021-04-20,Peterhead,Falkirk,3.54,3.54,0.0
+SC2,2021,2021-04-24,Partick,Airdrie Utd,3.62,3.62,0.0
+SC2,2021,2021-04-24,Peterhead,Clyde,3.24,3.24,0.0
+SC2,2021,2021-04-24,Falkirk,Cove Rangers,3.23,3.23,0.0
+SC2,2021,2021-04-24,East Fife,Dumbarton,3.56,3.56,0.0
+SC2,2021,2021-04-27,Dumbarton,Forfar,3.39,3.39,0.0
+SC2,2021,2021-04-27,Airdrie Utd,Montrose,3.36,3.36,0.0
+SC2,2021,2021-04-27,Cove Rangers,Partick,3.03,3.03,0.0
+SC2,2021,2021-04-29,Montrose,Cove Rangers,3.43,3.43,0.0
+SC2,2021,2021-04-29,Partick,Falkirk,3.24,3.24,0.0
+SC2,2021,2021-04-29,East Fife,Peterhead,3.59,3.59,0.0
+SC2,2021,2021-04-29,Forfar,Clyde,3.6,3.6,0.0
+SC2,2021,2021-05-01,Falkirk,Montrose,3.64,3.64,0.0
+SC2,2021,2021-05-01,Peterhead,Forfar,3.83,3.83,0.0
+SC2,2021,2021-05-01,Clyde,Dumbarton,3.45,3.45,0.0
+SC2,2021,2021-05-01,Cove Rangers,Airdrie Utd,3.64,3.64,0.0
+SC2,2021,2021-05-04,Forfar,East Fife,3.65,3.65,0.0
+SC2,2021,2021-05-04,Montrose,Partick,3.57,3.57,0.0
+SC2,2021,2021-05-04,Airdrie Utd,Falkirk,3.38,3.38,0.0
+SC2,2021,2021-05-04,Dumbarton,Peterhead,3.23,3.23,0.0
+SC2,2021,2021-05-06,Clyde,East Fife,3.46,3.46,0.0

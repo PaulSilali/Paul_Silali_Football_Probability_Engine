@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP1,2122,2021-08-13,Valencia,Getafe,83,82,False
+SP1,2122,2021-08-14,Cadiz,Levante,85,85,False
+SP1,2122,2021-08-14,Mallorca,Betis,391,84,False
+SP1,2122,2021-08-14,Alaves,Real Madrid,83,84,False
+SP1,2122,2021-08-14,Osasuna,Espanol,84,391,False
+SP1,2122,2021-08-15,Celta,Real Madrid,85,1,False
+SP1,2122,2021-08-15,Barcelona,Sociedad,85,85,False
+SP1,2122,2021-08-15,Sevilla,Valencia,84,2,False
+SP1,2122,2021-08-16,Villarreal,Granada,86,85,False
+SP1,2122,2021-08-16,Elche,Ath Bilbao,86,86,False
+SP1,2122,2021-08-20,Betis,Cadiz,6,6,False
+SP1,2122,2021-08-21,Alaves,Mallorca,7,7,False
+SP1,2122,2021-08-21,Espanol,Villarreal,7,5,False
+SP1,2122,2021-08-21,Granada,Valencia,5,6,False
+SP1,2122,2021-08-21,Ath Bilbao,Barcelona,5,6,False
+SP1,2122,2021-08-22,Sociedad,Valencia,7,1,False
+SP1,2122,2021-08-22,Real Madrid,Elche,7,6,False
+SP1,2122,2021-08-22,Levante,Real Madrid,8,7,False
+SP1,2122,2021-08-23,Getafe,Sevilla,10,8,False
+SP1,2122,2021-08-23,Osasuna,Celta,9,8,False
+SP1,2122,2021-08-27,Mallorca,Espanol,6,6,False
+SP1,2122,2021-08-27,Valencia,Alaves,5,6,False
+SP1,2122,2021-08-28,Celta,Ath Bilbao,5,7,False
+SP1,2122,2021-08-28,Elche,Sevilla,6,5,False
+SP1,2122,2021-08-28,Sociedad,Levante,6,6,False
+SP1,2122,2021-08-28,Betis,Real Madrid,8,6,False
+SP1,2122,2021-08-29,Barcelona,Getafe,8,6,False
+SP1,2122,2021-08-29,Cadiz,Osasuna,9,6,False
+SP1,2122,2021-08-29,Valencia,Granada,2,8,False
+SP1,2122,2021-08-29,Real Madrid,Villarreal,1,8,False
+SP1,2122,2021-09-11,Levante,Valencia,14,13,False
+SP1,2122,2021-09-11,Ath Bilbao,Mallorca,14,15,False
+SP1,2122,2021-09-12,Espanol,Real Madrid,16,14,False
+SP1,2122,2021-09-12,Osasuna,Valencia,14,1,False
+SP1,2122,2021-09-12,Cadiz,Sociedad,14,15,False
+SP1,2122,2021-09-12,Real Madrid,Celta,14,15,False
+SP1,2122,2021-09-13,Getafe,Elche,15,16,False
+SP1,2122,2021-09-13,Granada,Betis,15,16,False
+SP1,2122,2021-09-17,Celta,Cadiz,5,5,False
+SP1,2122,2021-09-18,Valencia,Getafe,6,5,False
+SP1,2122,2021-09-18,Real Madrid,Ath Bilbao,6,7,False
+SP1,2122,2021-09-18,Elche,Levante,5,7,False
+SP1,2122,2021-09-18,Alaves,Osasuna,22,6,False
+SP1,2122,2021-09-19,Mallorca,Villarreal,8,21,False
+SP1,2122,2021-09-19,Sociedad,Sevilla,7,22,False
+SP1,2122,2021-09-19,Betis,Espanol,6,7,False
+SP1,2122,2021-09-19,Valencia,Real Madrid,1,1,False
+SP1,2122,2021-09-20,Barcelona,Granada,22,7,False
+SP1,2122,2021-09-21,Getafe,Real Madrid,3,2,True
+SP1,2122,2021-09-21,Ath Bilbao,Valencia,3,2,True
+SP1,2122,2021-09-21,Levante,Celta,3,4,True
+SP1,2122,2021-09-22,Espanol,Alaves,3,4,True
+SP1,2122,2021-09-22,Sevilla,Valencia,3,1,True
+SP1,2122,2021-09-22,Real Madrid,Mallorca,1,3,True
+SP1,2122,2021-09-22,Villarreal,Elche,3,4,True
+SP1,2122,2021-09-23,Granada,Sociedad,3,4,True
+SP1,2122,2021-09-23,Osasuna,Betis,5,4,True
+SP1,2122,2021-09-23,Cadiz,Barcelona,6,3,True
+SP1,2122,2021-09-25,Alaves,Real Madrid,3,3,False
+SP1,2122,2021-09-25,Valencia,Ath Bilbao,3,4,False
+SP1,2122,2021-09-25,Sevilla,Espanol,3,3,False
+SP1,2122,2021-09-25,Real Madrid,Villarreal,3,3,False
+SP1,2122,2021-09-26,Mallorca,Osasuna,4,3,False
+SP1,2122,2021-09-26,Barcelona,Levante,3,5,False
+SP1,2122,2021-09-26,Sociedad,Elche,3,4,False
+SP1,2122,2021-09-26,Valencia,Cadiz,1,3,False
+SP1,2122,2021-09-26,Betis,Getafe,3,5,False
+SP1,2122,2021-09-27,Celta,Granada,6,4,False
+SP1,2122,2021-10-01,Ath Bilbao,Alaves,6,6,False
+SP1,2122,2021-10-02,Osasuna,Valencia,6,6,False
+SP1,2122,2021-10-02,Mallorca,Levante,6,6,False
+SP1,2122,2021-10-02,Cadiz,Valencia,6,6,False
+SP1,2122,2021-10-02,Real Madrid,Barcelona,7,6,False
+SP1,2122,2021-10-03,Elche,Celta,7,6,False
+SP1,2122,2021-10-03,Espanol,Real Madrid,8,1,False
+SP1,2122,2021-10-03,Getafe,Sociedad,7,7,False
+SP1,2122,2021-10-03,Villarreal,Betis,8,7,False
+SP1,2122,2021-10-03,Granada,Sevilla,6,8,False
+SP1,2122,2021-10-16,Levante,Getafe,14,13,False
+SP1,2122,2021-10-16,Sociedad,Mallorca,13,14,False
+SP1,2122,2021-10-17,Valencia,Elche,15,14,False
+SP1,2122,2021-10-17,Celta,Sevilla,14,14,False
+SP1,2122,2021-10-17,Villarreal,Osasuna,14,15,False
+SP1,2122,2021-10-17,Barcelona,Valencia,15,15,False
+SP1,2122,2021-10-18,Alaves,Betis,17,15,False
+SP1,2122,2021-10-18,Espanol,Cadiz,15,16,False
+SP1,2122,2021-10-22,Osasuna,Granada,5,19,False
+SP1,2122,2021-10-23,Valencia,Mallorca,6,7,False
+SP1,2122,2021-10-23,Cadiz,Alaves,5,5,False
+SP1,2122,2021-10-23,Elche,Espanol,6,5,False
+SP1,2122,2021-10-23,Ath Bilbao,Villarreal,22,6,False
+SP1,2122,2021-10-24,Sevilla,Levante,7,8,False
+SP1,2122,2021-10-24,Barcelona,Real Madrid,7,21,False
+SP1,2122,2021-10-24,Betis,Valencia,6,1,False
+SP1,2122,2021-10-24,Real Madrid,Sociedad,21,8,False
+SP1,2122,2021-10-25,Getafe,Celta,9,8,False
+SP1,2122,2021-10-26,Alaves,Elche,3,3,True
+SP1,2122,2021-10-26,Espanol,Ath Bilbao,3,3,True
+SP1,2122,2021-10-26,Villarreal,Cadiz,3,3,True
+SP1,2122,2021-10-27,Mallorca,Sevilla,4,3,True
+SP1,2122,2021-10-27,Valencia,Barcelona,3,3,True
+SP1,2122,2021-10-27,Betis,Valencia,3,3,True
+SP1,2122,2021-10-27,Real Madrid,Osasuna,3,5,True
+SP1,2122,2021-10-28,Celta,Sociedad,3,4,True
+SP1,2122,2021-10-28,Granada,Getafe,6,3,True
+SP1,2122,2021-10-28,Levante,Real Madrid,4,1,True
+SP1,2122,2021-10-30,Elche,Real Madrid,4,2,False
+SP1,2122,2021-10-30,Sevilla,Osasuna,3,3,False
+SP1,2122,2021-10-30,Valencia,Villarreal,3,4,False
+SP1,2122,2021-10-30,Barcelona,Alaves,3,4,False
+SP1,2122,2021-10-31,Cadiz,Mallorca,5,4,False
+SP1,2122,2021-10-31,Real Madrid,Betis,1,4,False
+SP1,2122,2021-10-31,Getafe,Espanol,3,5,False
+SP1,2122,2021-10-31,Sociedad,Ath Bilbao,3,5,False
+SP1,2122,2021-11-01,Valencia,Celta,2,4,False
+SP1,2122,2021-11-01,Levante,Granada,4,4,False
+SP1,2122,2021-11-05,Ath Bilbao,Cadiz,5,5,False
+SP1,2122,2021-11-06,Espanol,Granada,6,5,False
+SP1,2122,2021-11-06,Celta,Barcelona,5,7,False
+SP1,2122,2021-11-06,Alaves,Levante,7,5,False
+SP1,2122,2021-11-06,Real Madrid,Valencia,6,5,False
+SP1,2122,2021-11-07,Villarreal,Getafe,8,7,False
+SP1,2122,2021-11-07,Valencia,Real Madrid,1,1,False
+SP1,2122,2021-11-07,Mallorca,Elche,7,8,False
+SP1,2122,2021-11-07,Osasuna,Sociedad,8,7,False
+SP1,2122,2021-11-07,Betis,Sevilla,7,8,False
+SP1,2122,2021-11-19,Levante,Ath Bilbao,13,14,False
+SP1,2122,2021-11-20,Celta,Villarreal,14,13,False
+SP1,2122,2021-11-20,Sevilla,Alaves,13,14,False
+SP1,2122,2021-11-20,Real Madrid,Osasuna,13,13,False
+SP1,2122,2021-11-20,Barcelona,Espanol,14,14,False
+SP1,2122,2021-11-21,Getafe,Cadiz,14,16,False
+SP1,2122,2021-11-21,Granada,Real Madrid,15,1,False
+SP1,2122,2021-11-21,Elche,Betis,14,14,False
+SP1,2122,2021-11-21,Sociedad,Valencia,14,14,False
+SP1,2122,2021-11-22,Valencia,Mallorca,1,15,False
+SP1,2122,2021-11-26,Ath Bilbao,Granada,7,5,False
+SP1,2122,2021-11-27,Alaves,Celta,7,7,False
+SP1,2122,2021-11-27,Valencia,Valencia,5,5,False
+SP1,2122,2021-11-27,Mallorca,Getafe,5,6,False
+SP1,2122,2021-11-27,Villarreal,Barcelona,7,7,False
+SP1,2122,2021-11-28,Betis,Levante,7,9,False
+SP1,2122,2021-11-28,Espanol,Sociedad,8,7,False
+SP1,2122,2021-11-28,Cadiz,Real Madrid,7,7,False
+SP1,2122,2021-11-28,Real Madrid,Sevilla,7,8,False
+SP1,2122,2021-11-29,Osasuna,Elche,9,8,False
+SP1,2122,2021-12-01,Real Madrid,Ath Bilbao,3,5,True
+SP1,2122,2021-12-03,Granada,Alaves,7,6,False
+SP1,2122,2021-12-04,Sevilla,Villarreal,6,7,False
+SP1,2122,2021-12-04,Barcelona,Betis,7,6,False
+SP1,2122,2021-12-04,Real Madrid,Mallorca,3,7,False
+SP1,2122,2021-12-04,Sociedad,Real Madrid,6,3,False
+SP1,2122,2021-12-05,Valencia,Espanol,8,7,False
+SP1,2122,2021-12-05,Elche,Cadiz,6,7,False
+SP1,2122,2021-12-05,Levante,Osasuna,7,6,False
+SP1,2122,2021-12-05,Celta,Valencia,8,8,False
+SP1,2122,2021-12-06,Getafe,Ath Bilbao,9,5,False
+SP1,2122,2021-12-10,Mallorca,Celta,6,5,False
+SP1,2122,2021-12-11,Espanol,Levante,6,6,False
+SP1,2122,2021-12-11,Alaves,Getafe,8,5,False
+SP1,2122,2021-12-11,Valencia,Elche,6,6,False
+SP1,2122,2021-12-11,Ath Bilbao,Sevilla,5,7,False
+SP1,2122,2021-12-12,Villarreal,Valencia,8,1,False
+SP1,2122,2021-12-12,Osasuna,Barcelona,7,8,False
+SP1,2122,2021-12-12,Betis,Sociedad,8,8,False
+SP1,2122,2021-12-12,Real Madrid,Real Madrid,8,8,False
+SP1,2122,2021-12-13,Cadiz,Granada,8,10,False
+SP1,2122,2021-12-17,Celta,Espanol,7,6,False
+SP1,2122,2021-12-18,Valencia,Alaves,6,7,False
+SP1,2122,2021-12-18,Sociedad,Villarreal,6,6,False
+SP1,2122,2021-12-18,Barcelona,Elche,6,7,False
+SP1,2122,2021-12-18,Sevilla,Real Madrid,7,6,False
+SP1,2122,2021-12-19,Granada,Mallorca,6,9,False
+SP1,2122,2021-12-19,Ath Bilbao,Betis,8,7,False
+SP1,2122,2021-12-19,Getafe,Osasuna,8,7,False
+SP1,2122,2021-12-19,Real Madrid,Cadiz,1,6,False
+SP1,2122,2021-12-20,Levante,Valencia,9,2,False
+SP1,2122,2021-12-21,Villarreal,Alaves,3,3,True
+SP1,2122,2021-12-21,Sevilla,Barcelona,3,3,True
+SP1,2122,2021-12-22,Granada,Real Madrid,3,3,True
+SP1,2122,2021-12-22,Ath Bilbao,Real Madrid,3,3,True
+SP1,2122,2021-12-31,Valencia,Espanol,11,14,False
+SP1,2122,2022-01-02,Getafe,Real Madrid,14,11,False
+SP1,2122,2022-01-02,Real Madrid,Valencia,11,2,False
+SP1,2122,2022-01-02,Elche,Granada,15,11,False
+SP1,2122,2022-01-02,Alaves,Sociedad,12,15,False
+SP1,2122,2022-01-02,Betis,Celta,14,16,False
+SP1,2122,2022-01-02,Mallorca,Barcelona,14,12,False
+SP1,2122,2022-01-03,Villarreal,Levante,13,14,False
+SP1,2122,2022-01-03,Osasuna,Ath Bilbao,15,12,False
+SP1,2122,2022-01-03,Cadiz,Sevilla,15,13,False
+SP1,2122,2022-01-08,Levante,Mallorca,5,6,False
+SP1,2122,2022-01-08,Sociedad,Celta,6,6,False
+SP1,2122,2022-01-08,Granada,Barcelona,6,6,False
+SP1,2122,2022-01-08,Real Madrid,Valencia,6,6,False
+SP1,2122,2022-01-09,Valencia,Betis,1,7,False
+SP1,2122,2022-01-09,Sevilla,Getafe,6,7,False
+SP1,2122,2022-01-09,Alaves,Ath Bilbao,7,6,False
+SP1,2122,2022-01-09,Osasuna,Cadiz,6,6,False
+SP1,2122,2022-01-09,Villarreal,Real Madrid,6,1,False
+SP1,2122,2022-01-10,Espanol,Elche,10,8,False
+SP1,2122,2022-01-16,Elche,Villarreal,6,7,False
+SP1,2122,2022-01-18,Betis,Alaves,9,9,True
+SP1,2122,2022-01-18,Cadiz,Espanol,9,8,True
+SP1,2122,2022-01-19,Celta,Osasuna,11,10,True
+SP1,2122,2022-01-19,Valencia,Sevilla,10,10,True
+SP1,2122,2022-01-20,Getafe,Granada,11,12,True
+SP1,2122,2022-01-21,Espanol,Betis,3,3,False
+SP1,2122,2022-01-22,Levante,Cadiz,14,4,False
+SP1,2122,2022-01-22,Villarreal,Mallorca,6,14,False
+SP1,2122,2022-01-22,Sevilla,Celta,3,3,False
+SP1,2122,2022-01-22,Real Madrid,Valencia,13,3,False
+SP1,2122,2022-01-23,Granada,Osasuna,3,4,False
+SP1,2122,2022-01-23,Real Madrid,Elche,1,7,False
+SP1,2122,2022-01-23,Sociedad,Getafe,15,3,False
+SP1,2122,2022-01-23,Valencia,Ath Bilbao,1,14,False
+SP1,2122,2022-01-23,Alaves,Barcelona,5,15,False
+SP1,2122,2022-02-04,Getafe,Levante,12,13,False
+SP1,2122,2022-02-05,Elche,Alaves,13,13,False
+SP1,2122,2022-02-05,Mallorca,Cadiz,14,14,False
+SP1,2122,2022-02-05,Celta,Valencia,14,13,False
+SP1,2122,2022-02-05,Osasuna,Sevilla,13,14,False
+SP1,2122,2022-02-06,Valencia,Sociedad,1,14,False
+SP1,2122,2022-02-06,Barcelona,Real Madrid,14,14,False
+SP1,2122,2022-02-06,Betis,Villarreal,16,15,False
+SP1,2122,2022-02-06,Real Madrid,Granada,14,14,False
+SP1,2122,2022-02-07,Ath Bilbao,Espanol,15,17,False
+SP1,2122,2022-02-11,Sevilla,Elche,6,6,False
+SP1,2122,2022-02-12,Cadiz,Celta,7,7,False
+SP1,2122,2022-02-12,Villarreal,Real Madrid,6,6,False
+SP1,2122,2022-02-12,Valencia,Osasuna,6,7,False
+SP1,2122,2022-02-12,Real Madrid,Getafe,6,8,False
+SP1,2122,2022-02-13,Alaves,Valencia,8,1,False
+SP1,2122,2022-02-13,Levante,Betis,9,7,False
+SP1,2122,2022-02-13,Sociedad,Granada,7,7,False
+SP1,2122,2022-02-13,Espanol,Barcelona,6,7,False
+SP1,2122,2022-02-14,Mallorca,Ath Bilbao,9,7,False
+SP1,2122,2022-02-16,Real Madrid,Levante,4,3,True
+SP1,2122,2022-02-18,Elche,Valencia,7,5,False
+SP1,2122,2022-02-19,Granada,Villarreal,6,7,False
+SP1,2122,2022-02-19,Osasuna,Real Madrid,7,3,False
+SP1,2122,2022-02-19,Cadiz,Getafe,7,7,False
+SP1,2122,2022-02-19,Real Madrid,Alaves,3,6,False
+SP1,2122,2022-02-20,Espanol,Sevilla,7,9,False
+SP1,2122,2022-02-20,Valencia,Barcelona,2,7,False
+SP1,2122,2022-02-20,Betis,Mallorca,7,6,False
+SP1,2122,2022-02-20,Ath Bilbao,Sociedad,6,7,False
+SP1,2122,2022-02-21,Celta,Levante,9,5,False
+SP1,2122,2022-02-25,Levante,Elche,4,7,False
+SP1,2122,2022-02-26,Mallorca,Valencia,6,6,False
+SP1,2122,2022-02-26,Getafe,Alaves,7,7,False
+SP1,2122,2022-02-26,Valencia,Real Madrid,6,7,False
+SP1,2122,2022-02-26,Real Madrid,Celta,7,5,False
+SP1,2122,2022-02-27,Villarreal,Espanol,8,7,False
+SP1,2122,2022-02-27,Sevilla,Betis,7,7,False
+SP1,2122,2022-02-27,Sociedad,Osasuna,7,8,False
+SP1,2122,2022-02-27,Barcelona,Ath Bilbao,7,7,False
+SP1,2122,2022-02-28,Granada,Cadiz,9,9,False
+SP1,2122,2022-03-02,Mallorca,Sociedad,4,3,True
+SP1,2122,2022-03-04,Alaves,Sevilla,6,5,False
+SP1,2122,2022-03-05,Osasuna,Villarreal,6,6,False
+SP1,2122,2022-03-05,Espanol,Getafe,6,7,False
+SP1,2122,2022-03-05,Valencia,Granada,7,5,False
+SP1,2122,2022-03-05,Real Madrid,Sociedad,7,3,False
+SP1,2122,2022-03-06,Cadiz,Valencia,6,1,False
+SP1,2122,2022-03-06,Elche,Barcelona,9,7,False
+SP1,2122,2022-03-06,Celta,Mallorca,8,4,False
+SP1,2122,2022-03-06,Betis,Real Madrid,7,1,False
+SP1,2122,2022-03-07,Ath Bilbao,Levante,8,10,False
+SP1,2122,2022-03-11,Real Madrid,Cadiz,5,5,False
+SP1,2122,2022-03-12,Levante,Espanol,5,7,False
+SP1,2122,2022-03-12,Granada,Elche,7,6,False
+SP1,2122,2022-03-12,Villarreal,Celta,7,6,False
+SP1,2122,2022-03-12,Getafe,Valencia,7,6,False
+SP1,2122,2022-03-13,Valencia,Sevilla,1,9,False
+SP1,2122,2022-03-13,Betis,Ath Bilbao,7,6,False
+SP1,2122,2022-03-13,Sociedad,Alaves,8,9,False
+SP1,2122,2022-03-13,Barcelona,Osasuna,7,8,False
+SP1,2122,2022-03-14,Mallorca,Real Madrid,8,3,False
+SP1,2122,2022-03-18,Ath Bilbao,Getafe,5,6,False
+SP1,2122,2022-03-19,Alaves,Granada,6,7,False
+SP1,2122,2022-03-19,Elche,Valencia,7,6,False
+SP1,2122,2022-03-19,Osasuna,Levante,6,7,False
+SP1,2122,2022-03-19,Valencia,Real Madrid,6,5,False
+SP1,2122,2022-03-20,Espanol,Mallorca,8,6,False
+SP1,2122,2022-03-20,Cadiz,Villarreal,9,8,False
+SP1,2122,2022-03-20,Celta,Betis,8,7,False
+SP1,2122,2022-03-20,Sevilla,Sociedad,7,7,False
+SP1,2122,2022-03-20,Real Madrid,Barcelona,1,7,False
+SP1,2122,2022-04-02,Getafe,Mallorca,15,13,False
+SP1,2122,2022-04-02,Levante,Villarreal,14,13,False
+SP1,2122,2022-04-02,Celta,Real Madrid,13,13,False
+SP1,2122,2022-04-02,Real Madrid,Alaves,13,14,False
+SP1,2122,2022-04-03,Ath Bilbao,Elche,16,15,False
+SP1,2122,2022-04-03,Betis,Osasuna,14,15,False
+SP1,2122,2022-04-03,Granada,Valencia,15,15,False
+SP1,2122,2022-04-03,Valencia,Cadiz,15,14,False
+SP1,2122,2022-04-03,Barcelona,Sevilla,14,14,False
+SP1,2122,2022-04-04,Sociedad,Espanol,15,15,False
+SP1,2122,2022-04-08,Sevilla,Granada,5,5,False
+SP1,2122,2022-04-09,Cadiz,Betis,6,6,False
+SP1,2122,2022-04-09,Mallorca,Real Madrid,7,7,False
+SP1,2122,2022-04-09,Villarreal,Ath Bilbao,7,6,False
+SP1,2122,2022-04-09,Real Madrid,Getafe,7,7,False
+SP1,2122,2022-04-10,Osasuna,Alaves,7,8,False
+SP1,2122,2022-04-10,Espanol,Celta,6,8,False
+SP1,2122,2022-04-10,Elche,Sociedad,7,6,False
+SP1,2122,2022-04-10,Levante,Barcelona,8,7,False
+SP1,2122,2022-04-11,Valencia,Valencia,8,8,False
+SP1,2122,2022-04-15,Sociedad,Betis,5,6,False
+SP1,2122,2022-04-16,Elche,Mallorca,6,7,False
+SP1,2122,2022-04-16,Alaves,Valencia,6,5,False
+SP1,2122,2022-04-16,Valencia,Osasuna,5,6,False
+SP1,2122,2022-04-16,Getafe,Villarreal,7,7,False
+SP1,2122,2022-04-17,Granada,Levante,9,7,False
+SP1,2122,2022-04-17,Real Madrid,Espanol,8,7,False
+SP1,2122,2022-04-17,Ath Bilbao,Celta,8,7,False
+SP1,2122,2022-04-17,Sevilla,Real Madrid,9,8,False
+SP1,2122,2022-04-18,Barcelona,Cadiz,8,9,False
+SP1,2122,2022-04-19,Mallorca,Alaves,3,3,True
+SP1,2122,2022-04-19,Betis,Elche,4,3,True
+SP1,2122,2022-04-19,Villarreal,Valencia,3,3,True
+SP1,2122,2022-04-20,Real Madrid,Granada,3,3,True
+SP1,2122,2022-04-20,Celta,Getafe,3,4,True
+SP1,2122,2022-04-20,Osasuna,Real Madrid,4,3,True
+SP1,2122,2022-04-21,Espanol,Valencia,4,2,True
+SP1,2122,2022-04-21,Levante,Sevilla,4,4,True
+SP1,2122,2022-04-21,Cadiz,Ath Bilbao,3,4,True
+SP1,2122,2022-04-21,Sociedad,Barcelona,6,3,True
+SP1,2122,2022-04-24,Barcelona,Valencia,3,3,False
+SP1,2122,2022-04-29,Sevilla,Cadiz,8,8,False
+SP1,2122,2022-04-30,Alaves,Villarreal,11,11,False
+SP1,2122,2022-04-30,Real Madrid,Espanol,10,9,False
+SP1,2122,2022-04-30,Valencia,Levante,6,9,False
+SP1,2122,2022-04-30,Ath Bilbao,Real Madrid,9,10,False
+SP1,2122,2022-05-01,Elche,Osasuna,12,11,False
+SP1,2122,2022-05-01,Granada,Celta,11,11,False
+SP1,2122,2022-05-01,Valencia,Sociedad,1,10,False
+SP1,2122,2022-05-01,Barcelona,Mallorca,7,12,False
+SP1,2122,2022-05-02,Getafe,Betis,12,13,False
+SP1,2122,2022-05-06,Levante,Sociedad,6,5,False
+SP1,2122,2022-05-07,Mallorca,Granada,6,6,False
+SP1,2122,2022-05-07,Ath Bilbao,Valencia,7,6,False
+SP1,2122,2022-05-07,Cadiz,Elche,8,6,False
+SP1,2122,2022-05-07,Celta,Alaves,6,7,False
+SP1,2122,2022-05-07,Betis,Barcelona,5,6,False
+SP1,2122,2022-05-08,Getafe,Valencia,6,1,False
+SP1,2122,2022-05-08,Villarreal,Sevilla,8,9,False
+SP1,2122,2022-05-08,Espanol,Osasuna,8,7,False
+SP1,2122,2022-05-08,Real Madrid,Real Madrid,8,8,False
+SP1,2122,2022-05-10,Valencia,Betis,2,3,True
+SP1,2122,2022-05-10,Granada,Ath Bilbao,3,3,True
+SP1,2122,2022-05-10,Barcelona,Celta,3,3,True
+SP1,2122,2022-05-11,Alaves,Espanol,4,3,True
+SP1,2122,2022-05-11,Osasuna,Getafe,3,3,True
+SP1,2122,2022-05-11,Sevilla,Mallorca,3,4,True
+SP1,2122,2022-05-11,Elche,Real Madrid,4,3,True
+SP1,2122,2022-05-12,Sociedad,Cadiz,6,5,True
+SP1,2122,2022-05-12,Valencia,Villarreal,2,4,True
+SP1,2122,2022-05-12,Real Madrid,Levante,1,6,True
+SP1,2122,2022-05-14,Espanol,Valencia,3,2,False
+SP1,2122,2022-05-15,Ath Bilbao,Osasuna,5,4,False
+SP1,2122,2022-05-15,Real Madrid,Sevilla,3,4,False
+SP1,2122,2022-05-15,Betis,Granada,5,5,False
+SP1,2122,2022-05-15,Cadiz,Real Madrid,3,3,False
+SP1,2122,2022-05-15,Celta,Elche,5,4,False
+SP1,2122,2022-05-15,Getafe,Barcelona,4,5,False
+SP1,2122,2022-05-15,Levante,Alaves,3,4,False
+SP1,2122,2022-05-15,Mallorca,Valencia,4,1,False
+SP1,2122,2022-05-15,Villarreal,Sociedad,3,3,False
+SP1,2122,2022-05-20,Real Madrid,Betis,5,5,False
+SP1,2122,2022-05-20,Valencia,Levante,5,5,False
+SP1,2122,2022-05-21,Valencia,Celta,1,6,False
+SP1,2122,2022-05-22,Elche,Getafe,7,7,False
+SP1,2122,2022-05-22,Alaves,Cadiz,7,7,False
+SP1,2122,2022-05-22,Granada,Espanol,7,8,False
+SP1,2122,2022-05-22,Osasuna,Mallorca,7,7,False
+SP1,2122,2022-05-22,Barcelona,Villarreal,7,7,False
+SP1,2122,2022-05-22,Sevilla,Ath Bilbao,7,7,False
+SP1,2122,2022-05-22,Sociedad,Real Madrid,7,2,False

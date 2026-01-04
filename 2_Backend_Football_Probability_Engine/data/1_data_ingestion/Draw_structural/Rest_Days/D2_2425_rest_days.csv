@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,2425,2024-08-02,FC Koln,Hamburg,7,75,False
+D2,2425,2024-08-03,Hannover,Regensburg,76,433,False
+D2,2425,2024-08-03,Karlsruhe,Nurnberg,76,76,False
+D2,2425,2024-08-03,Magdeburg,Elversberg,76,76,False
+D2,2425,2024-08-03,Schalke 04,Braunschweig,76,76,False
+D2,2425,2024-08-03,Hertha,Paderborn,76,76,False
+D2,2425,2024-08-04,Darmstadt,Fortuna Dusseldorf,434,77,False
+D2,2425,2024-08-04,Ulm,Kaiserslautern,7,77,False
+D2,2425,2024-08-04,Greuther Furth,PreuÃen MÃ¼nster,77,7,False
+D2,2425,2024-08-09,Kaiserslautern,Greuther Furth,5,5,False
+D2,2425,2024-08-09,Regensburg,Ulm,6,5,False
+D2,2425,2024-08-10,Fortuna Dusseldorf,Karlsruhe,6,7,False
+D2,2425,2024-08-10,Hamburg,Hertha,8,7,False
+D2,2425,2024-08-10,Nurnberg,Schalke 04,7,7,False
+D2,2425,2024-08-10,Elversberg,FC Koln,7,8,False
+D2,2425,2024-08-11,Braunschweig,Magdeburg,8,8,False
+D2,2425,2024-08-11,Paderborn,Darmstadt,8,7,False
+D2,2425,2024-08-11,PreuÃen MÃ¼nster,Hannover,7,8,False
+D2,2425,2024-08-23,Karlsruhe,Elversberg,13,13,False
+D2,2425,2024-08-23,Hannover,Hamburg,12,13,False
+D2,2425,2024-08-24,PreuÃen MÃ¼nster,Kaiserslautern,13,15,False
+D2,2425,2024-08-24,FC Koln,Braunschweig,14,13,False
+D2,2425,2024-08-24,Hertha,Regensburg,14,15,False
+D2,2425,2024-08-24,Greuther Furth,Paderborn,15,13,False
+D2,2425,2024-08-25,Magdeburg,Schalke 04,14,15,False
+D2,2425,2024-08-25,Darmstadt,Nurnberg,14,15,False
+D2,2425,2024-08-25,Ulm,Fortuna Dusseldorf,16,15,False
+D2,2425,2024-08-30,Fortuna Dusseldorf,Hannover,5,7,False
+D2,2425,2024-08-30,Regensburg,Greuther Furth,6,6,False
+D2,2425,2024-08-31,Nurnberg,Magdeburg,6,6,False
+D2,2425,2024-08-31,Kaiserslautern,Hertha,7,7,False
+D2,2425,2024-08-31,Hamburg,PreuÃen MÃ¼nster,8,7,False
+D2,2425,2024-08-31,Elversberg,Darmstadt,8,6,False
+D2,2425,2024-09-01,Paderborn,Ulm,8,7,False
+D2,2425,2024-09-01,Schalke 04,FC Koln,7,8,False
+D2,2425,2024-09-01,Braunschweig,Karlsruhe,8,9,False
+D2,2425,2024-09-13,PreuÃen MÃ¼nster,Paderborn,13,12,False
+D2,2425,2024-09-13,Karlsruhe,Schalke 04,12,12,False
+D2,2425,2024-09-14,Ulm,Nurnberg,13,14,False
+D2,2425,2024-09-14,Hannover,Kaiserslautern,15,14,False
+D2,2425,2024-09-14,Darmstadt,Braunschweig,14,13,False
+D2,2425,2024-09-14,FC Koln,Magdeburg,13,14,False
+D2,2425,2024-09-15,Hertha,Fortuna Dusseldorf,15,16,False
+D2,2425,2024-09-15,Greuther Furth,Elversberg,16,15,False
+D2,2425,2024-09-15,Hamburg,Regensburg,15,16,False
+D2,2425,2024-09-20,Paderborn,Hannover,7,6,False
+D2,2425,2024-09-20,Schalke 04,Darmstadt,7,6,False
+D2,2425,2024-09-21,Nurnberg,Hertha,7,6,False
+D2,2425,2024-09-21,Kaiserslautern,Hamburg,7,6,False
+D2,2425,2024-09-21,Fortuna Dusseldorf,FC Koln,6,7,False
+D2,2425,2024-09-21,Braunschweig,Greuther Furth,7,6,False
+D2,2425,2024-09-22,Magdeburg,Karlsruhe,8,9,False
+D2,2425,2024-09-22,Regensburg,PreuÃen MÃ¼nster,7,9,False
+D2,2425,2024-09-22,Elversberg,Ulm,7,8,False
+D2,2425,2024-09-27,Ulm,Braunschweig,5,6,False
+D2,2425,2024-09-27,Greuther Furth,Fortuna Dusseldorf,6,6,False
+D2,2425,2024-09-28,Darmstadt,Magdeburg,8,6,False
+D2,2425,2024-09-28,Hamburg,Paderborn,7,8,False
+D2,2425,2024-09-28,Regensburg,Kaiserslautern,6,7,False
+D2,2425,2024-09-28,PreuÃen MÃ¼nster,Schalke 04,6,8,False
+D2,2425,2024-09-29,FC Koln,Karlsruhe,8,7,False
+D2,2425,2024-09-29,Hannover,Nurnberg,9,8,False
+D2,2425,2024-09-29,Hertha,Elversberg,8,7,False
+D2,2425,2024-10-04,Karlsruhe,Darmstadt,5,6,False
+D2,2425,2024-10-04,Paderborn,Regensburg,6,6,False
+D2,2425,2024-10-05,Nurnberg,PreuÃen MÃ¼nster,6,7,False
+D2,2425,2024-10-05,Schalke 04,Hertha,7,6,False
+D2,2425,2024-10-05,FC Koln,Ulm,6,8,False
+D2,2425,2024-10-05,Elversberg,Kaiserslautern,6,7,False
+D2,2425,2024-10-06,Fortuna Dusseldorf,Hamburg,9,8,False
+D2,2425,2024-10-06,Magdeburg,Greuther Furth,8,9,False
+D2,2425,2024-10-06,Braunschweig,Hannover,9,7,False
+D2,2425,2024-10-18,Hertha,Braunschweig,13,12,False
+D2,2425,2024-10-18,Darmstadt,FC Koln,14,13,False
+D2,2425,2024-10-19,Regensburg,Fortuna Dusseldorf,15,13,False
+D2,2425,2024-10-19,PreuÃen MÃ¼nster,Elversberg,14,14,False
+D2,2425,2024-10-19,Hannover,Schalke 04,13,14,False
+D2,2425,2024-10-19,Kaiserslautern,Paderborn,14,15,False
+D2,2425,2024-10-20,Hamburg,Magdeburg,14,14,False
+D2,2425,2024-10-20,Ulm,Karlsruhe,15,16,False
+D2,2425,2024-10-20,Greuther Furth,Nurnberg,14,15,False
+D2,2425,2024-10-25,FC Koln,Paderborn,7,6,False
+D2,2425,2024-10-25,Nurnberg,Regensburg,5,6,False
+D2,2425,2024-10-26,Karlsruhe,Hertha,6,8,False
+D2,2425,2024-10-26,Schalke 04,Greuther Furth,7,6,False
+D2,2425,2024-10-26,Fortuna Dusseldorf,Kaiserslautern,7,7,False
+D2,2425,2024-10-26,Elversberg,Hamburg,7,6,False
+D2,2425,2024-10-27,Braunschweig,PreuÃen MÃ¼nster,9,8,False
+D2,2425,2024-10-27,Magdeburg,Hannover,7,8,False
+D2,2425,2024-10-27,Darmstadt,Ulm,9,7,False
+D2,2425,2024-11-01,Ulm,Schalke 04,5,6,False
+D2,2425,2024-11-01,PreuÃen MÃ¼nster,Fortuna Dusseldorf,5,6,False
+D2,2425,2024-11-02,Greuther Furth,Darmstadt,7,6,False
+D2,2425,2024-11-02,Hannover,Karlsruhe,6,7,False
+D2,2425,2024-11-02,Regensburg,Elversberg,8,7,False
+D2,2425,2024-11-02,Hertha,FC Koln,7,8,False
+D2,2425,2024-11-03,Hamburg,Nurnberg,8,9,False
+D2,2425,2024-11-03,Kaiserslautern,Magdeburg,8,7,False
+D2,2425,2024-11-03,Paderborn,Braunschweig,9,7,False
+D2,2425,2024-11-08,Braunschweig,Hamburg,5,5,False
+D2,2425,2024-11-08,Nurnberg,Kaiserslautern,5,5,False
+D2,2425,2024-11-09,Magdeburg,Ulm,6,8,False
+D2,2425,2024-11-09,Fortuna Dusseldorf,Paderborn,8,6,False
+D2,2425,2024-11-09,FC Koln,Greuther Furth,7,7,False
+D2,2425,2024-11-09,Darmstadt,Hertha,7,7,False
+D2,2425,2024-11-10,Karlsruhe,PreuÃen MÃ¼nster,8,9,False
+D2,2425,2024-11-10,Schalke 04,Regensburg,9,8,False
+D2,2425,2024-11-10,Elversberg,Hannover,8,8,False
+D2,2425,2024-11-22,PreuÃen MÃ¼nster,FC Koln,12,13,False
+D2,2425,2024-11-22,Paderborn,Nurnberg,13,14,False
+D2,2425,2024-11-23,Hamburg,Schalke 04,15,13,False
+D2,2425,2024-11-23,Hannover,Darmstadt,13,14,False
+D2,2425,2024-11-23,Greuther Furth,Karlsruhe,14,13,False
+D2,2425,2024-11-23,Fortuna Dusseldorf,Elversberg,14,13,False
+D2,2425,2024-11-23,Hertha,Ulm,14,14,False
+D2,2425,2024-11-24,Kaiserslautern,Braunschweig,16,16,False
+D2,2425,2024-11-24,Regensburg,Magdeburg,14,15,False
+D2,2425,2024-11-29,Schalke 04,Kaiserslautern,6,5,False
+D2,2425,2024-11-29,Magdeburg,Hertha,5,6,False
+D2,2425,2024-11-30,FC Koln,Hannover,8,7,False
+D2,2425,2024-11-30,Elversberg,Paderborn,7,8,False
+D2,2425,2024-11-30,Braunschweig,Regensburg,6,6,False
+D2,2425,2024-11-30,Darmstadt,PreuÃen MÃ¼nster,7,8,False
+D2,2425,2024-12-01,Karlsruhe,Hamburg,8,8,False
+D2,2425,2024-12-01,Nurnberg,Fortuna Dusseldorf,9,8,False
+D2,2425,2024-12-01,Ulm,Greuther Furth,8,8,False
+D2,2425,2024-12-06,Elversberg,Nurnberg,6,5,False
+D2,2425,2024-12-06,Paderborn,Schalke 04,6,7,False
+D2,2425,2024-12-07,Kaiserslautern,Karlsruhe,8,6,False
+D2,2425,2024-12-07,PreuÃen MÃ¼nster,Magdeburg,7,8,False
+D2,2425,2024-12-07,Hannover,Ulm,7,6,False
+D2,2425,2024-12-07,Greuther Furth,Hertha,6,8,False
+D2,2425,2024-12-08,Hamburg,Darmstadt,7,8,False
+D2,2425,2024-12-08,Regensburg,FC Koln,8,8,False
+D2,2425,2024-12-08,Fortuna Dusseldorf,Braunschweig,7,8,False
+D2,2425,2024-12-13,Karlsruhe,Regensburg,6,5,False
+D2,2425,2024-12-13,Hertha,PreuÃen MÃ¼nster,6,6,False
+D2,2425,2024-12-14,Magdeburg,Paderborn,7,8,False
+D2,2425,2024-12-14,Schalke 04,Fortuna Dusseldorf,8,6,False
+D2,2425,2024-12-14,Ulm,Hamburg,7,6,False
+D2,2425,2024-12-14,Darmstadt,Kaiserslautern,6,7,False
+D2,2425,2024-12-15,Braunschweig,Elversberg,7,9,False
+D2,2425,2024-12-15,FC Koln,Nurnberg,7,9,False
+D2,2425,2024-12-15,Greuther Furth,Hannover,8,8,False
+D2,2425,2024-12-20,Elversberg,Schalke 04,5,6,False
+D2,2425,2024-12-20,Fortuna Dusseldorf,Magdeburg,6,6,False
+D2,2425,2024-12-21,PreuÃen MÃ¼nster,Ulm,8,7,False
+D2,2425,2024-12-21,Nurnberg,Braunschweig,6,6,False
+D2,2425,2024-12-21,Paderborn,Karlsruhe,7,8,False
+D2,2425,2024-12-21,Hamburg,Greuther Furth,7,6,False
+D2,2425,2024-12-22,Kaiserslautern,FC Koln,8,7,False
+D2,2425,2024-12-22,Hannover,Hertha,7,9,False
+D2,2425,2024-12-22,Regensburg,Darmstadt,9,8,False
+D2,2425,2025-01-17,Regensburg,Hannover,26,26,False
+D2,2425,2025-01-17,Fortuna Dusseldorf,Darmstadt,28,26,False
+D2,2425,2025-01-18,PreuÃen MÃ¼nster,Greuther Furth,28,28,False
+D2,2425,2025-01-18,Braunschweig,Schalke 04,28,29,False
+D2,2425,2025-01-18,Kaiserslautern,Ulm,27,28,False
+D2,2425,2025-01-18,Hamburg,FC Koln,28,27,False
+D2,2425,2025-01-19,Nurnberg,Karlsruhe,29,29,False
+D2,2425,2025-01-19,Paderborn,Hertha,29,28,False
+D2,2425,2025-01-19,Elversberg,Magdeburg,30,30,False
+D2,2425,2025-01-24,Greuther Furth,Kaiserslautern,6,6,False
+D2,2425,2025-01-24,Magdeburg,Braunschweig,5,6,False
+D2,2425,2025-01-25,FC Koln,Elversberg,7,6,False
+D2,2425,2025-01-25,Schalke 04,Nurnberg,7,6,False
+D2,2425,2025-01-25,Karlsruhe,Fortuna Dusseldorf,6,8,False
+D2,2425,2025-01-25,Hertha,Hamburg,6,7,False
+D2,2425,2025-01-26,Darmstadt,Paderborn,9,7,False
+D2,2425,2025-01-26,Hannover,PreuÃen MÃ¼nster,9,8,False
+D2,2425,2025-01-26,Ulm,Regensburg,8,9,False
+D2,2425,2025-01-31,Elversberg,Karlsruhe,6,6,False
+D2,2425,2025-01-31,Nurnberg,Darmstadt,6,5,False
+D2,2425,2025-02-01,Regensburg,Hertha,6,7,False
+D2,2425,2025-02-01,Schalke 04,Magdeburg,7,8,False
+D2,2425,2025-02-01,Fortuna Dusseldorf,Ulm,7,6,False
+D2,2425,2025-02-01,Braunschweig,FC Koln,8,7,False
+D2,2425,2025-02-02,Kaiserslautern,PreuÃen MÃ¼nster,9,7,False
+D2,2425,2025-02-02,Hamburg,Hannover,8,7,False
+D2,2425,2025-02-02,Paderborn,Greuther Furth,7,9,False
+D2,2425,2025-02-07,PreuÃen MÃ¼nster,Hamburg,5,5,False
+D2,2425,2025-02-07,Greuther Furth,Regensburg,5,6,False
+D2,2425,2025-02-08,Magdeburg,Nurnberg,7,8,False
+D2,2425,2025-02-08,Darmstadt,Elversberg,8,8,False
+D2,2425,2025-02-08,Ulm,Paderborn,7,6,False
+D2,2425,2025-02-08,Hertha,Kaiserslautern,7,6,False
+D2,2425,2025-02-09,Karlsruhe,Braunschweig,9,8,False
+D2,2425,2025-02-09,FC Koln,Schalke 04,8,8,False
+D2,2425,2025-02-09,Hannover,Fortuna Dusseldorf,7,8,False
+D2,2425,2025-02-14,Paderborn,PreuÃen MÃ¼nster,6,7,False
+D2,2425,2025-02-14,Magdeburg,FC Koln,6,5,False
+D2,2425,2025-02-15,Elversberg,Greuther Furth,7,8,False
+D2,2425,2025-02-15,Braunschweig,Darmstadt,6,7,False
+D2,2425,2025-02-15,Kaiserslautern,Hannover,7,6,False
+D2,2425,2025-02-15,Fortuna Dusseldorf,Hertha,6,7,False
+D2,2425,2025-02-16,Nurnberg,Ulm,8,8,False
+D2,2425,2025-02-16,Regensburg,Hamburg,9,9,False
+D2,2425,2025-02-16,Schalke 04,Karlsruhe,7,7,False
+D2,2425,2025-02-21,Hertha,Nurnberg,6,5,False
+D2,2425,2025-02-21,Hamburg,Kaiserslautern,5,6,False
+D2,2425,2025-02-22,PreuÃen MÃ¼nster,Regensburg,8,6,False
+D2,2425,2025-02-22,Karlsruhe,Magdeburg,6,8,False
+D2,2425,2025-02-22,Ulm,Elversberg,6,7,False
+D2,2425,2025-02-22,Hannover,Paderborn,7,8,False
+D2,2425,2025-02-23,Greuther Furth,Braunschweig,8,8,False
+D2,2425,2025-02-23,Darmstadt,Schalke 04,8,7,False
+D2,2425,2025-02-23,FC Koln,Fortuna Dusseldorf,9,8,False
+D2,2425,2025-02-28,Schalke 04,PreuÃen MÃ¼nster,5,6,False
+D2,2425,2025-02-28,Fortuna Dusseldorf,Greuther Furth,5,5,False
+D2,2425,2025-03-01,Kaiserslautern,Regensburg,8,7,False
+D2,2425,2025-03-01,Nurnberg,Hannover,8,7,False
+D2,2425,2025-03-01,Braunschweig,Ulm,6,7,False
+D2,2425,2025-03-01,Karlsruhe,FC Koln,7,6,False
+D2,2425,2025-03-02,Elversberg,Hertha,8,9,False
+D2,2425,2025-03-02,Magdeburg,Darmstadt,8,7,False
+D2,2425,2025-03-02,Paderborn,Hamburg,8,9,False
+D2,2425,2025-03-07,Darmstadt,Karlsruhe,5,6,False
+D2,2425,2025-03-07,Kaiserslautern,Elversberg,6,5,False
+D2,2425,2025-03-08,Ulm,FC Koln,7,7,False
+D2,2425,2025-03-08,Hamburg,Fortuna Dusseldorf,6,8,False
+D2,2425,2025-03-08,Hertha,Schalke 04,6,8,False
+D2,2425,2025-03-08,Greuther Furth,Magdeburg,8,6,False
+D2,2425,2025-03-09,PreuÃen MÃ¼nster,Nurnberg,9,8,False
+D2,2425,2025-03-09,Regensburg,Paderborn,8,7,False
+D2,2425,2025-03-09,Hannover,Braunschweig,8,8,False
+D2,2425,2025-03-14,Schalke 04,Hannover,6,5,False
+D2,2425,2025-03-14,Magdeburg,Hamburg,6,6,False
+D2,2425,2025-03-15,Elversberg,PreuÃen MÃ¼nster,8,6,False
+D2,2425,2025-03-15,Paderborn,Kaiserslautern,6,8,False
+D2,2425,2025-03-15,Fortuna Dusseldorf,Regensburg,7,6,False
+D2,2425,2025-03-15,FC Koln,Darmstadt,7,8,False
+D2,2425,2025-03-16,Braunschweig,Hertha,7,8,False
+D2,2425,2025-03-16,Karlsruhe,Ulm,9,8,False
+D2,2425,2025-03-16,Nurnberg,Greuther Furth,7,8,False
+D2,2425,2025-03-28,Ulm,Darmstadt,12,13,False
+D2,2425,2025-03-28,Hamburg,Elversberg,14,13,False
+D2,2425,2025-03-29,Hannover,Magdeburg,15,15,False
+D2,2425,2025-03-29,Hertha,Karlsruhe,13,13,False
+D2,2425,2025-03-29,Paderborn,FC Koln,14,14,False
+D2,2425,2025-03-29,Kaiserslautern,Fortuna Dusseldorf,14,14,False
+D2,2425,2025-03-30,PreuÃen MÃ¼nster,Braunschweig,15,14,False
+D2,2425,2025-03-30,Regensburg,Nurnberg,15,14,False
+D2,2425,2025-03-30,Greuther Furth,Schalke 04,14,16,False
+D2,2425,2025-04-04,Braunschweig,Paderborn,5,6,False
+D2,2425,2025-04-04,Karlsruhe,Hannover,6,6,False
+D2,2425,2025-04-05,Nurnberg,Hamburg,6,8,False
+D2,2425,2025-04-05,FC Koln,Hertha,7,7,False
+D2,2425,2025-04-05,Darmstadt,Greuther Furth,8,6,False
+D2,2425,2025-04-05,Fortuna Dusseldorf,PreuÃen MÃ¼nster,7,6,False
+D2,2425,2025-04-06,Elversberg,Regensburg,9,7,False
+D2,2425,2025-04-06,Schalke 04,Ulm,7,9,False
+D2,2425,2025-04-06,Magdeburg,Kaiserslautern,8,8,False
+D2,2425,2025-04-11,Hamburg,Braunschweig,6,7,False
+D2,2425,2025-04-11,Greuther Furth,FC Koln,6,6,False
+D2,2425,2025-04-12,Hannover,Elversberg,8,6,False
+D2,2425,2025-04-12,Hertha,Darmstadt,7,7,False
+D2,2425,2025-04-12,Ulm,Magdeburg,6,6,False
+D2,2425,2025-04-12,Kaiserslautern,Nurnberg,6,7,False
+D2,2425,2025-04-13,Paderborn,Fortuna Dusseldorf,9,8,False
+D2,2425,2025-04-13,PreuÃen MÃ¼nster,Karlsruhe,8,9,False
+D2,2425,2025-04-13,Regensburg,Schalke 04,7,7,False
+D2,2425,2025-04-19,Braunschweig,Kaiserslautern,8,7,False
+D2,2425,2025-04-19,Elversberg,Fortuna Dusseldorf,7,6,False
+D2,2425,2025-04-19,Nurnberg,Paderborn,7,6,False
+D2,2425,2025-04-19,Schalke 04,Hamburg,6,8,False
+D2,2425,2025-04-20,Ulm,Hertha,8,8,False
+D2,2425,2025-04-20,Darmstadt,Hannover,8,8,False
+D2,2425,2025-04-20,FC Koln,PreuÃen MÃ¼nster,9,7,False
+D2,2425,2025-04-20,Karlsruhe,Greuther Furth,7,9,False
+D2,2425,2025-04-20,Magdeburg,Regensburg,8,7,False
+D2,2425,2025-04-25,Hertha,Magdeburg,5,5,False
+D2,2425,2025-04-25,Greuther Furth,Ulm,5,5,False
+D2,2425,2025-04-26,Regensburg,Braunschweig,6,7,False
+D2,2425,2025-04-26,Fortuna Dusseldorf,Nurnberg,7,7,False
+D2,2425,2025-04-26,PreuÃen MÃ¼nster,Darmstadt,6,6,False
+D2,2425,2025-04-26,Paderborn,Elversberg,7,7,False
+D2,2425,2025-04-27,Hannover,FC Koln,7,7,False
+D2,2425,2025-04-27,Hamburg,Karlsruhe,8,7,False
+D2,2425,2025-04-27,Kaiserslautern,Schalke 04,8,8,False
+D2,2425,2025-05-02,Magdeburg,PreuÃen MÃ¼nster,7,6,False
+D2,2425,2025-05-02,Schalke 04,Paderborn,5,6,False
+D2,2425,2025-05-03,Ulm,Hannover,8,6,False
+D2,2425,2025-05-03,FC Koln,Regensburg,6,7,False
+D2,2425,2025-05-03,Darmstadt,Hamburg,7,6,False
+D2,2425,2025-05-03,Braunschweig,Fortuna Dusseldorf,7,7,False
+D2,2425,2025-05-04,Karlsruhe,Kaiserslautern,7,7,False
+D2,2425,2025-05-04,Nurnberg,Elversberg,8,8,False
+D2,2425,2025-05-04,Hertha,Greuther Furth,9,9,False
+D2,2425,2025-05-09,PreuÃen MÃ¼nster,Hertha,7,5,False
+D2,2425,2025-05-09,Nurnberg,FC Koln,5,6,False
+D2,2425,2025-05-10,Elversberg,Braunschweig,6,7,False
+D2,2425,2025-05-10,Fortuna Dusseldorf,Schalke 04,7,8,False
+D2,2425,2025-05-10,Paderborn,Magdeburg,8,8,False
+D2,2425,2025-05-10,Hamburg,Ulm,7,7,False
+D2,2425,2025-05-11,Hannover,Greuther Furth,8,7,False
+D2,2425,2025-05-11,Kaiserslautern,Darmstadt,7,8,False
+D2,2425,2025-05-11,Regensburg,Karlsruhe,8,7,False
+D2,2425,2025-05-18,Hertha,Hannover,9,7,False
+D2,2425,2025-05-18,Karlsruhe,Paderborn,7,8,False
+D2,2425,2025-05-18,Magdeburg,Fortuna Dusseldorf,8,8,False
+D2,2425,2025-05-18,Schalke 04,Elversberg,8,8,False
+D2,2425,2025-05-18,Ulm,PreuÃen MÃ¼nster,8,9,False
+D2,2425,2025-05-18,Greuther Furth,Hamburg,7,8,False
+D2,2425,2025-05-18,FC Koln,Kaiserslautern,9,7,False
+D2,2425,2025-05-18,Darmstadt,Regensburg,7,7,False
+D2,2425,2025-05-18,Braunschweig,Nurnberg,8,9,False

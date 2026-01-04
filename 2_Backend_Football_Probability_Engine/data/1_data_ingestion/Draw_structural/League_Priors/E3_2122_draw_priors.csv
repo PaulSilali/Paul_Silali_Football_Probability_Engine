@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2021-08-07,Tranmere,Walsall,1,0,H,0
+2021-08-07,Hartlepool,Crawley Town,1,0,H,0
+2021-08-07,Scunthorpe,Swindon,1,3,A,0
+2021-08-07,Exeter,Bradford,0,0,D,1
+2021-08-07,Harrogate,Rochdale,3,2,H,0
+2021-08-07,Northampton,Port Vale,1,0,H,0
+2021-08-07,Salford,Leyton Orient,1,1,D,1
+2021-08-07,Oldham,Newport County,0,1,A,0
+2021-08-07,Carlisle,Colchester,0,0,D,1
+2021-08-07,Mansfield,Bristol Rvs,2,1,H,0
+2021-08-07,Forest Green,Sutton,2,1,H,0
+2021-08-07,Stevenage,Barrow,1,0,H,0
+2021-08-14,Bristol Rvs,Stevenage,0,2,A,0
+2021-08-14,Colchester,Northampton,0,1,A,0
+2021-08-14,Leyton Orient,Exeter,3,0,H,0
+2021-08-14,Bradford,Oldham,2,1,H,0
+2021-08-14,Mansfield,Newport County,2,1,H,0
+2021-08-14,Port Vale,Tranmere,0,0,D,1
+2021-08-14,Rochdale,Scunthorpe,0,0,D,1
+2021-08-14,Salford,Sutton,0,0,D,1
+2021-08-14,Swindon,Carlisle,1,2,A,0
+2021-08-14,Walsall,Forest Green,1,3,A,0
+2021-08-14,Barrow,Hartlepool,3,2,H,0
+2021-08-17,Barrow,Exeter,0,0,D,1
+2021-08-17,Bradford,Stevenage,4,1,H,0
+2021-08-17,Bristol Rvs,Oldham,1,0,H,0
+2021-08-17,Colchester,Mansfield,1,1,D,1
+2021-08-17,Crawley Town,Salford,2,1,H,0
+2021-08-17,Port Vale,Carlisle,0,0,D,1
+2021-08-17,Rochdale,Forest Green,1,2,A,0
+2021-08-17,Swindon,Tranmere,0,0,D,1
+2021-08-17,Walsall,Scunthorpe,1,1,D,1
+2021-08-21,Forest Green,Crawley Town,6,3,H,0
+2021-08-21,Harrogate,Barrow,2,1,H,0
+2021-08-21,Hartlepool,Walsall,2,0,H,0
+2021-08-21,Mansfield,Bradford,2,3,A,0
+2021-08-21,Northampton,Rochdale,1,3,A,0
+2021-08-21,Oldham,Colchester,1,2,A,0
+2021-08-21,Salford,Swindon,0,1,A,0
+2021-08-21,Scunthorpe,Sutton,1,1,D,1
+2021-08-21,Stevenage,Port Vale,1,1,D,1
+2021-08-21,Tranmere,Newport County,0,1,A,0
+2021-08-21,Exeter,Bristol Rvs,4,1,H,0
+2021-08-21,Carlisle,Leyton Orient,1,1,D,1
+2021-08-24,Leyton Orient,Harrogate,0,2,A,0
+2021-08-27,Rochdale,Colchester,1,1,D,1
+2021-08-28,Forest Green,Port Vale,0,2,A,0
+2021-08-28,Harrogate,Exeter,1,1,D,1
+2021-08-28,Hartlepool,Carlisle,2,1,H,0
+2021-08-28,Leyton Orient,Bradford,2,0,H,0
+2021-08-28,Barrow,Bristol Rvs,1,1,D,1
+2021-08-28,Scunthorpe,Tranmere,1,0,H,0
+2021-08-28,Sutton,Oldham,1,2,A,0
+2021-08-28,Swindon,Mansfield,1,0,H,0
+2021-08-28,Walsall,Stevenage,1,0,H,0
+2021-08-28,Salford,Newport County,3,0,H,0
+2021-08-28,Crawley Town,Northampton,0,0,D,1
+2021-09-04,Tranmere,Hartlepool,1,0,H,0
+2021-09-04,Bradford,Walsall,1,1,D,1
+2021-09-04,Bristol Rvs,Crawley Town,1,0,H,0
+2021-09-04,Carlisle,Salford,2,1,H,0
+2021-09-04,Exeter,Forest Green,0,0,D,1
+2021-09-04,Mansfield,Harrogate,1,3,A,0
+2021-09-04,Newport County,Leyton Orient,2,2,D,1
+2021-09-04,Northampton,Scunthorpe,2,0,H,0
+2021-09-04,Oldham,Barrow,0,3,A,0
+2021-09-04,Port Vale,Rochdale,2,3,A,0
+2021-09-04,Stevenage,Swindon,1,1,D,1
+2021-09-10,Harrogate,Newport County,2,2,D,1
+2021-09-10,Barrow,Colchester,2,3,A,0
+2021-09-11,Salford,Bradford,1,0,H,0
+2021-09-11,Crawley Town,Carlisle,2,1,H,0
+2021-09-11,Scunthorpe,Exeter,0,4,A,0
+2021-09-11,Sutton,Stevenage,2,1,H,0
+2021-09-11,Swindon,Port Vale,1,2,A,0
+2021-09-11,Walsall,Mansfield,3,1,H,0
+2021-09-11,Leyton Orient,Oldham,4,0,H,0
+2021-09-11,Rochdale,Tranmere,1,0,H,0
+2021-09-11,Forest Green,Northampton,1,0,H,0
+2021-09-11,Hartlepool,Bristol Rvs,1,0,H,0
+2021-09-14,Sutton,Hartlepool,1,0,H,0
+2021-09-14,Newport County,Northampton,0,1,A,0
+2021-09-18,Bristol Rvs,Leyton Orient,1,3,A,0
+2021-09-18,Carlisle,Scunthorpe,2,2,D,1
+2021-09-18,Colchester,Crawley Town,0,1,A,0
+2021-09-18,Exeter,Sutton,2,0,H,0
+2021-09-18,Mansfield,Rochdale,1,1,D,1
+2021-09-18,Newport County,Walsall,2,1,H,0
+2021-09-18,Northampton,Swindon,1,1,D,1
+2021-09-18,Port Vale,Harrogate,2,0,H,0
+2021-09-18,Stevenage,Forest Green,0,4,A,0
+2021-09-18,Tranmere,Salford,2,0,H,0
+2021-09-18,Oldham,Hartlepool,0,0,D,1
+2021-09-18,Bradford,Barrow,1,1,D,1
+2021-09-21,Crawley Town,Harrogate,2,2,D,1
+2021-09-24,Barrow,Newport County,2,1,H,0
+2021-09-25,Rochdale,Oldham,0,1,A,0
+2021-09-25,Crawley Town,Bradford,2,1,H,0
+2021-09-25,Forest Green,Tranmere,0,0,D,1
+2021-09-25,Harrogate,Stevenage,0,0,D,1
+2021-09-25,Hartlepool,Exeter,1,1,D,1
+2021-09-25,Leyton Orient,Mansfield,0,0,D,1
+2021-09-25,Salford,Northampton,2,2,D,1
+2021-09-25,Scunthorpe,Port Vale,0,1,A,0
+2021-09-25,Sutton,Carlisle,4,0,H,0
+2021-09-25,Swindon,Colchester,0,0,D,1
+2021-09-25,Walsall,Bristol Rvs,1,2,A,0
+2021-10-02,Carlisle,Forest Green,0,2,A,0
+2021-10-02,Colchester,Salford,0,2,A,0
+2021-10-02,Exeter,Walsall,2,2,D,1
+2021-10-02,Mansfield,Barrow,0,1,A,0
+2021-10-02,Newport County,Scunthorpe,3,0,H,0
+2021-10-02,Northampton,Sutton,0,2,A,0
+2021-10-02,Oldham,Harrogate,1,2,A,0
+2021-10-02,Port Vale,Leyton Orient,3,2,H,0
+2021-10-02,Stevenage,Hartlepool,2,0,H,0
+2021-10-02,Tranmere,Crawley Town,2,1,H,0
+2021-10-02,Bristol Rvs,Swindon,1,3,A,0
+2021-10-02,Bradford,Rochdale,2,0,H,0
+2021-10-08,Tranmere,Colchester,2,0,H,0
+2021-10-09,Bristol Rvs,Carlisle,3,0,H,0
+2021-10-09,Harrogate,Scunthorpe,6,1,H,0
+2021-10-09,Hartlepool,Northampton,2,1,H,0
+2021-10-09,Mansfield,Oldham,0,0,D,1
+2021-10-09,Newport County,Bradford,0,0,D,1
+2021-10-09,Rochdale,Crawley Town,0,1,A,0
+2021-10-09,Stevenage,Exeter,2,2,D,1
+2021-10-09,Sutton,Port Vale,4,3,H,0
+2021-10-09,Walsall,Salford,2,1,H,0
+2021-10-09,Barrow,Leyton Orient,1,1,D,1
+2021-10-09,Forest Green,Swindon,0,2,A,0
+2021-10-16,Port Vale,Barrow,3,1,H,0
+2021-10-16,Bradford,Bristol Rvs,2,2,D,1
+2021-10-16,Carlisle,Tranmere,0,1,A,0
+2021-10-16,Colchester,Harrogate,1,0,H,0
+2021-10-16,Crawley Town,Sutton,0,1,A,0
+2021-10-16,Exeter,Newport County,2,2,D,1
+2021-10-16,Leyton Orient,Walsall,0,0,D,1
+2021-10-16,Northampton,Mansfield,2,0,H,0
+2021-10-16,Oldham,Stevenage,3,0,H,0
+2021-10-16,Salford,Hartlepool,2,0,H,0
+2021-10-16,Scunthorpe,Forest Green,0,2,A,0
+2021-10-16,Swindon,Rochdale,2,2,D,1
+2021-10-19,Northampton,Stevenage,3,0,H,0
+2021-10-19,Oldham,Walsall,1,3,A,0
+2021-10-19,Salford,Rochdale,0,0,D,1
+2021-10-19,Colchester,Bristol Rvs,1,1,D,1
+2021-10-19,Leyton Orient,Forest Green,1,1,D,1
+2021-10-19,Sutton,Swindon,1,2,A,0
+2021-10-19,Barrow,Scunthorpe,1,1,D,1
+2021-10-19,Bradford,Hartlepool,1,3,A,0
+2021-10-19,Harrogate,Tranmere,2,2,D,1
+2021-10-19,Crawley Town,Exeter,1,3,A,0
+2021-10-19,Mansfield,Port Vale,1,1,D,1
+2021-10-19,Newport County,Carlisle,2,2,D,1
+2021-10-23,Exeter,Mansfield,2,1,H,0
+2021-10-23,Forest Green,Salford,3,1,H,0
+2021-10-23,Hartlepool,Harrogate,3,2,H,0
+2021-10-23,Port Vale,Colchester,3,0,H,0
+2021-10-23,Rochdale,Sutton,3,2,H,0
+2021-10-23,Scunthorpe,Crawley Town,2,1,H,0
+2021-10-23,Stevenage,Leyton Orient,0,0,D,1
+2021-10-23,Bristol Rvs,Newport County,1,3,A,0
+2021-10-23,Carlisle,Oldham,0,0,D,1
+2021-10-23,Swindon,Bradford,1,3,A,0
+2021-10-23,Tranmere,Northampton,0,2,A,0
+2021-10-23,Walsall,Barrow,2,2,D,1
+2021-10-26,Colchester,Sutton,1,3,A,0
+2021-10-30,Mansfield,Tranmere,2,0,H,0
+2021-10-30,Northampton,Carlisle,3,0,H,0
+2021-10-30,Bradford,Forest Green,1,1,D,1
+2021-10-30,Colchester,Scunthorpe,2,1,H,0
+2021-10-30,Crawley Town,Port Vale,1,4,A,0
+2021-10-30,Harrogate,Bristol Rvs,0,1,A,0
+2021-10-30,Leyton Orient,Hartlepool,5,0,H,0
+2021-10-30,Newport County,Stevenage,5,0,H,0
+2021-10-30,Oldham,Swindon,1,3,A,0
+2021-10-30,Salford,Exeter,1,2,A,0
+2021-10-30,Sutton,Walsall,0,1,A,0
+2021-10-30,Barrow,Rochdale,1,2,A,0
+2021-11-12,Hartlepool,Newport County,1,2,A,0
+2021-11-13,Bristol Rvs,Northampton,2,1,H,0
+2021-11-13,Exeter,Oldham,2,1,H,0
+2021-11-13,Rochdale,Leyton Orient,2,2,D,1
+2021-11-13,Scunthorpe,Salford,1,1,D,1
+2021-11-13,Stevenage,Mansfield,1,2,A,0
+2021-11-13,Tranmere,Sutton,0,1,A,0
+2021-11-13,Walsall,Harrogate,1,3,A,0
+2021-11-13,Carlisle,Barrow,0,0,D,1
+2021-11-13,Port Vale,Bradford,1,1,D,1
+2021-11-20,Bristol Rvs,Tranmere,2,2,D,1
+2021-11-20,Exeter,Carlisle,2,1,H,0
+2021-11-20,Harrogate,Salford,0,2,A,0
+2021-11-20,Hartlepool,Forest Green,1,3,A,0
+2021-11-20,Leyton Orient,Sutton,4,1,H,0
+2021-11-20,Mansfield,Scunthorpe,3,1,H,0
+2021-11-20,Newport County,Swindon,1,2,A,0
+2021-11-20,Oldham,Port Vale,3,2,H,0
+2021-11-20,Stevenage,Colchester,1,0,H,0
+2021-11-20,Walsall,Rochdale,0,0,D,1
+2021-11-20,Barrow,Crawley Town,0,1,A,0
+2021-11-20,Bradford,Northampton,1,1,D,1
+2021-11-23,Scunthorpe,Leyton Orient,1,1,D,1
+2021-11-23,Carlisle,Harrogate,0,2,A,0
+2021-11-23,Colchester,Exeter,3,1,H,0
+2021-11-23,Crawley Town,Newport County,1,1,D,1
+2021-11-23,Forest Green,Barrow,2,0,H,0
+2021-11-23,Northampton,Oldham,2,1,H,0
+2021-11-23,Port Vale,Walsall,0,1,A,0
+2021-11-23,Rochdale,Stevenage,2,2,D,1
+2021-11-23,Salford,Bristol Rvs,1,1,D,1
+2021-11-23,Sutton,Mansfield,2,0,H,0
+2021-11-23,Swindon,Hartlepool,3,1,H,0
+2021-11-23,Tranmere,Bradford,2,1,H,0
+2021-11-26,Colchester,Newport County,1,1,D,1
+2021-11-27,Crawley Town,Mansfield,1,2,A,0
+2021-11-27,Rochdale,Exeter,1,1,D,1
+2021-11-27,Salford,Oldham,2,0,H,0
+2021-11-27,Scunthorpe,Bradford,1,1,D,1
+2021-11-27,Sutton,Barrow,1,0,H,0
+2021-11-27,Swindon,Harrogate,1,1,D,1
+2021-11-27,Northampton,Leyton Orient,1,0,H,0
+2021-11-27,Carlisle,Walsall,1,0,H,0
+2021-11-27,Forest Green,Bristol Rvs,2,0,H,0
+2021-11-27,Port Vale,Hartlepool,2,0,H,0
+2021-12-07,Bristol Rvs,Port Vale,1,2,A,0
+2021-12-07,Leyton Orient,Swindon,4,1,H,0
+2021-12-07,Mansfield,Carlisle,1,0,H,0
+2021-12-07,Newport County,Sutton,3,2,H,0
+2021-12-07,Oldham,Tranmere,0,1,A,0
+2021-12-07,Stevenage,Scunthorpe,1,1,D,1
+2021-12-07,Walsall,Crawley Town,1,1,D,1
+2021-12-07,Exeter,Northampton,1,2,A,0
+2021-12-07,Harrogate,Forest Green,1,4,A,0
+2021-12-08,Bradford,Colchester,0,0,D,1
+2021-12-08,Hartlepool,Rochdale,2,1,H,0
+2021-12-11,Exeter,Tranmere,0,1,A,0
+2021-12-11,Barrow,Swindon,2,0,H,0
+2021-12-11,Bradford,Sutton,2,2,D,1
+2021-12-11,Bristol Rvs,Rochdale,4,2,H,0
+2021-12-11,Harrogate,Northampton,1,2,A,0
+2021-12-11,Hartlepool,Scunthorpe,0,0,D,1
+2021-12-11,Leyton Orient,Crawley Town,1,2,A,0
+2021-12-11,Mansfield,Salford,2,1,H,0
+2021-12-11,Newport County,Port Vale,2,1,H,0
+2021-12-11,Oldham,Forest Green,5,5,D,1
+2021-12-11,Stevenage,Carlisle,0,2,A,0
+2021-12-11,Walsall,Colchester,3,0,H,0
+2021-12-18,Sutton,Harrogate,1,0,H,0
+2021-12-18,Tranmere,Leyton Orient,1,0,H,0
+2021-12-18,Salford,Stevenage,1,0,H,0
+2021-12-18,Rochdale,Newport County,3,0,H,0
+2021-12-26,Tranmere,Barrow,2,0,H,0
+2021-12-26,Mansfield,Hartlepool,3,2,H,0
+2021-12-26,Oldham,Scunthorpe,1,3,A,0
+2021-12-29,Swindon,Stevenage,0,0,D,1
+2021-12-29,Barrow,Oldham,0,0,D,1
+2022-01-01,Forest Green,Stevenage,2,0,H,0
+2022-01-01,Hartlepool,Oldham,0,0,D,1
+2022-01-01,Scunthorpe,Carlisle,0,1,A,0
+2022-01-01,Sutton,Exeter,2,1,H,0
+2022-01-01,Swindon,Northampton,5,2,H,0
+2022-01-01,Walsall,Newport County,3,3,D,1
+2022-01-01,Barrow,Bradford,1,2,A,0
+2022-01-01,Crawley Town,Colchester,3,1,H,0
+2022-01-04,Forest Green,Exeter,0,0,D,1
+2022-01-08,Northampton,Crawley Town,0,1,A,0
+2022-01-08,Stevenage,Walsall,3,1,H,0
+2022-01-08,Tranmere,Scunthorpe,4,0,H,0
+2022-01-08,Newport County,Salford,0,2,A,0
+2022-01-08,Carlisle,Bradford,2,0,H,0
+2022-01-11,Salford,Tranmere,1,1,D,1
+2022-01-11,Mansfield,Swindon,3,2,H,0
+2022-01-11,Forest Green,Colchester,2,0,H,0
+2022-01-15,Colchester,Barrow,0,2,A,0
+2022-01-15,Newport County,Harrogate,4,0,H,0
+2022-01-15,Bradford,Salford,2,1,H,0
+2022-01-15,Bristol Rvs,Hartlepool,2,0,H,0
+2022-01-15,Carlisle,Crawley Town,1,1,D,1
+2022-01-15,Exeter,Scunthorpe,2,0,H,0
+2022-01-15,Mansfield,Walsall,2,0,H,0
+2022-01-15,Northampton,Forest Green,1,1,D,1
+2022-01-15,Port Vale,Swindon,1,3,A,0
+2022-01-15,Stevenage,Sutton,3,3,D,1
+2022-01-15,Tranmere,Rochdale,2,0,H,0
+2022-01-18,Stevenage,Crawley Town,2,1,H,0
+2022-01-18,Sutton,Colchester,3,2,H,0
+2022-01-18,Port Vale,Salford,0,1,A,0
+2022-01-18,Carlisle,Hartlepool,0,0,D,1
+2022-01-22,Forest Green,Carlisle,3,0,H,0
+2022-01-22,Crawley Town,Tranmere,0,1,A,0
+2022-01-22,Scunthorpe,Newport County,0,1,A,0
+2022-01-22,Swindon,Bristol Rvs,1,1,D,1
+2022-01-22,Sutton,Northampton,0,0,D,1
+2022-01-22,Walsall,Exeter,0,2,A,0
+2022-01-22,Leyton Orient,Port Vale,0,0,D,1
+2022-01-22,Rochdale,Bradford,0,0,D,1
+2022-01-22,Salford,Colchester,0,3,A,0
+2022-01-22,Harrogate,Oldham,3,0,H,0
+2022-01-22,Barrow,Mansfield,1,3,A,0
+2022-01-22,Hartlepool,Stevenage,1,1,D,1
+2022-01-25,Scunthorpe,Bristol Rvs,2,3,A,0
+2022-01-25,Walsall,Bradford,1,2,A,0
+2022-01-25,Barrow,Salford,0,2,A,0
+2022-01-25,Leyton Orient,Newport County,0,1,A,0
+2022-01-29,Carlisle,Sutton,0,2,A,0
+2022-01-29,Colchester,Swindon,1,1,D,1
+2022-01-29,Exeter,Hartlepool,0,0,D,1
+2022-01-29,Mansfield,Leyton Orient,2,0,H,0
+2022-01-29,Newport County,Barrow,2,1,H,0
+2022-01-29,Northampton,Salford,1,0,H,0
+2022-01-29,Oldham,Rochdale,0,0,D,1
+2022-01-29,Port Vale,Scunthorpe,1,0,H,0
+2022-01-29,Stevenage,Harrogate,3,0,H,0
+2022-01-29,Tranmere,Forest Green,0,4,A,0
+2022-01-29,Bradford,Crawley Town,1,2,A,0
+2022-01-29,Bristol Rvs,Walsall,1,0,H,0
+2022-02-01,Tranmere,Stevenage,1,0,H,0
+2022-02-01,Bradford,Leyton Orient,1,1,D,1
+2022-02-01,Colchester,Rochdale,1,1,D,1
+2022-02-01,Harrogate,Mansfield,0,0,D,1
+2022-02-01,Northampton,Barrow,0,1,A,0
+2022-02-01,Port Vale,Forest Green,1,1,D,1
+2022-02-01,Salford,Carlisle,2,1,H,0
+2022-02-01,Swindon,Crawley Town,1,1,D,1
+2022-02-05,Crawley Town,Stevenage,2,2,D,1
+2022-02-05,Forest Green,Newport County,2,0,H,0
+2022-02-05,Leyton Orient,Colchester,0,1,A,0
+2022-02-05,Scunthorpe,Oldham,0,1,A,0
+2022-02-05,Sutton,Bristol Rvs,1,1,D,1
+2022-02-05,Swindon,Exeter,1,2,A,0
+2022-02-05,Walsall,Northampton,0,1,A,0
+2022-02-05,Barrow,Tranmere,1,1,D,1
+2022-02-05,Harrogate,Bradford,2,0,H,0
+2022-02-08,Forest Green,Rochdale,2,1,H,0
+2022-02-08,Harrogate,Crawley Town,1,3,A,0
+2022-02-08,Hartlepool,Barrow,3,1,H,0
+2022-02-08,Mansfield,Colchester,2,1,H,0
+2022-02-08,Northampton,Newport County,1,0,H,0
+2022-02-08,Oldham,Bristol Rvs,2,1,H,0
+2022-02-08,Scunthorpe,Walsall,1,0,H,0
+2022-02-08,Stevenage,Bradford,0,1,A,0
+2022-02-08,Sutton,Salford,0,0,D,1
+2022-02-08,Tranmere,Swindon,3,0,H,0
+2022-02-08,Carlisle,Port Vale,1,3,A,0
+2022-02-08,Exeter,Leyton Orient,1,0,H,0
+2022-02-12,Colchester,Carlisle,2,2,D,1
+2022-02-12,Barrow,Stevenage,0,0,D,1
+2022-02-12,Bradford,Exeter,0,1,A,0
+2022-02-12,Bristol Rvs,Mansfield,0,0,D,1
+2022-02-12,Crawley Town,Hartlepool,0,1,A,0
+2022-02-12,Leyton Orient,Salford,0,2,A,0
+2022-02-12,Newport County,Oldham,3,3,D,1
+2022-02-12,Port Vale,Northampton,0,0,D,1
+2022-02-12,Rochdale,Harrogate,3,3,D,1
+2022-02-12,Sutton,Forest Green,1,1,D,1
+2022-02-12,Swindon,Scunthorpe,3,0,H,0
+2022-02-12,Walsall,Tranmere,1,0,H,0
+2022-02-15,Hartlepool,Tranmere,1,0,H,0
+2022-02-15,Exeter,Harrogate,4,3,H,0
+2022-02-15,Bristol Rvs,Sutton,2,0,H,0
+2022-02-19,Oldham,Bradford,2,0,H,0
+2022-02-19,Scunthorpe,Rochdale,1,2,A,0
+2022-02-19,Stevenage,Bristol Rvs,0,4,A,0
+2022-02-19,Tranmere,Port Vale,1,1,D,1
+2022-02-19,Forest Green,Walsall,0,1,A,0
+2022-02-19,Hartlepool,Sutton,1,1,D,1
+2022-02-19,Newport County,Mansfield,1,1,D,1
+2022-02-19,Northampton,Colchester,3,0,H,0
+2022-02-19,Carlisle,Swindon,0,3,A,0
+2022-02-22,Leyton Orient,Bristol Rvs,0,2,A,0
+2022-02-22,Rochdale,Port Vale,1,1,D,1
+2022-02-22,Scunthorpe,Northampton,0,0,D,1
+2022-02-22,Swindon,Walsall,5,0,H,0
+2022-02-22,Colchester,Hartlepool,1,2,A,0
+2022-02-22,Bradford,Harrogate,1,3,A,0
+2022-02-26,Crawley Town,Forest Green,2,1,H,0
+2022-02-26,Barrow,Harrogate,0,0,D,1
+2022-02-26,Bradford,Mansfield,0,2,A,0
+2022-02-26,Bristol Rvs,Exeter,1,1,D,1
+2022-02-26,Colchester,Oldham,1,1,D,1
+2022-02-26,Leyton Orient,Carlisle,0,1,A,0
+2022-02-26,Newport County,Tranmere,4,2,H,0
+2022-02-26,Port Vale,Stevenage,2,0,H,0
+2022-02-26,Rochdale,Northampton,1,0,H,0
+2022-02-26,Sutton,Scunthorpe,4,1,H,0
+2022-02-26,Swindon,Salford,1,2,A,0
+2022-02-26,Walsall,Hartlepool,3,1,H,0
+2022-03-01,Colchester,Leyton Orient,2,2,D,1
+2022-03-01,Crawley Town,Oldham,2,2,D,1
+2022-03-01,Harrogate,Port Vale,1,1,D,1
+2022-03-01,Newport County,Forest Green,1,1,D,1
+2022-03-01,Northampton,Walsall,1,1,D,1
+2022-03-01,Carlisle,Rochdale,2,0,H,0
+2022-03-01,Bristol Rvs,Barrow,1,0,H,0
+2022-03-04,Mansfield,Exeter,2,1,H,0
+2022-03-05,Bradford,Swindon,1,2,A,0
+2022-03-05,Colchester,Port Vale,1,0,H,0
+2022-03-05,Crawley Town,Scunthorpe,0,0,D,1
+2022-03-05,Leyton Orient,Stevenage,2,2,D,1
+2022-03-05,Newport County,Bristol Rvs,1,0,H,0
+2022-03-05,Northampton,Tranmere,3,2,H,0
+2022-03-05,Oldham,Carlisle,1,2,A,0
+2022-03-05,Salford,Forest Green,1,1,D,1
+2022-03-05,Sutton,Rochdale,3,0,H,0
+2022-03-05,Harrogate,Hartlepool,1,2,A,0
+2022-03-05,Barrow,Walsall,1,1,D,1
+2022-03-08,Crawley Town,Bristol Rvs,1,2,A,0
+2022-03-08,Exeter,Swindon,3,1,H,0
+2022-03-11,Tranmere,Mansfield,3,2,H,0
+2022-03-12,Walsall,Sutton,1,0,H,0
+2022-03-12,Bristol Rvs,Harrogate,3,0,H,0
+2022-03-12,Carlisle,Northampton,2,1,H,0
+2022-03-12,Exeter,Salford,0,0,D,1
+2022-03-12,Forest Green,Bradford,0,2,A,0
+2022-03-12,Hartlepool,Leyton Orient,0,0,D,1
+2022-03-12,Port Vale,Crawley Town,4,1,H,0
+2022-03-12,Rochdale,Barrow,0,0,D,1
+2022-03-12,Scunthorpe,Colchester,1,3,A,0
+2022-03-12,Stevenage,Newport County,0,2,A,0
+2022-03-12,Swindon,Oldham,1,0,H,0
+2022-03-15,Rochdale,Salford,1,1,D,1
+2022-03-15,Scunthorpe,Barrow,0,1,A,0
+2022-03-15,Stevenage,Northampton,1,2,A,0
+2022-03-15,Swindon,Sutton,2,1,H,0
+2022-03-15,Tranmere,Harrogate,2,0,H,0
+2022-03-15,Walsall,Oldham,2,1,H,0
+2022-03-15,Bristol Rvs,Colchester,1,0,H,0
+2022-03-15,Forest Green,Leyton Orient,1,1,D,1
+2022-03-15,Exeter,Crawley Town,2,1,H,0
+2022-03-15,Carlisle,Newport County,1,2,A,0
+2022-03-15,Hartlepool,Bradford,0,2,A,0
+2022-03-15,Port Vale,Mansfield,3,1,H,0
+2022-03-18,Newport County,Hartlepool,2,3,A,0
+2022-03-19,Crawley Town,Swindon,3,1,H,0
+2022-03-19,Harrogate,Walsall,1,1,D,1
+2022-03-19,Leyton Orient,Rochdale,3,1,H,0
+2022-03-19,Northampton,Bristol Rvs,0,1,A,0
+2022-03-19,Oldham,Exeter,0,2,A,0
+2022-03-19,Salford,Scunthorpe,5,1,H,0
+2022-03-19,Sutton,Tranmere,1,1,D,1
+2022-03-19,Bradford,Port Vale,1,2,A,0
+2022-03-19,Barrow,Carlisle,1,2,A,0
+2022-03-21,Colchester,Forest Green,0,1,A,0
+2022-03-22,Rochdale,Mansfield,0,1,A,0
+2022-03-22,Harrogate,Leyton Orient,0,3,A,0
+2022-03-22,Oldham,Sutton,1,3,A,0
+2022-03-22,Port Vale,Exeter,0,0,D,1
+2022-03-26,Bradford,Newport County,0,0,D,1
+2022-03-26,Carlisle,Bristol Rvs,1,0,H,0
+2022-03-26,Colchester,Tranmere,1,0,H,0
+2022-03-26,Crawley Town,Rochdale,1,0,H,0
+2022-03-26,Exeter,Stevenage,2,1,H,0
+2022-03-26,Leyton Orient,Barrow,2,0,H,0
+2022-03-26,Northampton,Hartlepool,2,0,H,0
+2022-03-26,Oldham,Mansfield,1,2,A,0
+2022-03-26,Port Vale,Sutton,2,0,H,0
+2022-03-26,Salford,Walsall,2,1,H,0
+2022-03-26,Scunthorpe,Harrogate,0,3,A,0
+2022-03-29,Rochdale,Carlisle,2,0,H,0
+2022-03-29,Salford,Crawley Town,2,1,H,0
+2022-03-29,Oldham,Leyton Orient,2,0,H,0
+2022-03-29,Hartlepool,Mansfield,2,2,D,1
+2022-04-02,Forest Green,Scunthorpe,1,0,H,0
+2022-04-02,Harrogate,Colchester,1,2,A,0
+2022-04-02,Hartlepool,Salford,0,2,A,0
+2022-04-02,Mansfield,Northampton,1,0,H,0
+2022-04-02,Newport County,Exeter,0,1,A,0
+2022-04-02,Rochdale,Swindon,0,0,D,1
+2022-04-02,Stevenage,Oldham,0,1,A,0
+2022-04-02,Tranmere,Carlisle,2,2,D,1
+2022-04-02,Walsall,Leyton Orient,0,2,A,0
+2022-04-02,Barrow,Port Vale,1,2,A,0
+2022-04-02,Bristol Rvs,Bradford,2,1,H,0
+2022-04-05,Forest Green,Mansfield,1,0,H,0
+2022-04-05,Salford,Port Vale,0,1,A,0
+2022-04-09,Crawley Town,Barrow,1,0,H,0
+2022-04-09,Forest Green,Hartlepool,1,1,D,1
+2022-04-09,Northampton,Bradford,0,0,D,1
+2022-04-09,Port Vale,Oldham,3,2,H,0
+2022-04-09,Rochdale,Walsall,1,0,H,0
+2022-04-09,Carlisle,Exeter,0,1,A,0
+2022-04-09,Scunthorpe,Mansfield,0,4,A,0
+2022-04-09,Sutton,Leyton Orient,1,0,H,0
+2022-04-09,Swindon,Newport County,0,1,A,0
+2022-04-09,Tranmere,Bristol Rvs,1,1,D,1
+2022-04-09,Salford,Harrogate,2,0,H,0
+2022-04-09,Colchester,Stevenage,0,2,A,0
+2022-04-15,Exeter,Colchester,2,0,H,0
+2022-04-15,Barrow,Forest Green,4,0,H,0
+2022-04-15,Bradford,Tranmere,1,1,D,1
+2022-04-15,Bristol Rvs,Salford,1,0,H,0
+2022-04-15,Harrogate,Swindon,1,4,A,0
+2022-04-15,Hartlepool,Port Vale,0,1,A,0
+2022-04-15,Leyton Orient,Scunthorpe,3,0,H,0
+2022-04-15,Mansfield,Sutton,2,3,A,0
+2022-04-15,Newport County,Crawley Town,1,2,A,0
+2022-04-15,Oldham,Northampton,0,2,A,0
+2022-04-15,Stevenage,Rochdale,1,0,H,0
+2022-04-15,Walsall,Carlisle,1,0,H,0
+2022-04-18,Port Vale,Bristol Rvs,1,3,A,0
+2022-04-18,Rochdale,Hartlepool,2,1,H,0
+2022-04-18,Salford,Barrow,2,2,D,1
+2022-04-18,Scunthorpe,Stevenage,1,1,D,1
+2022-04-18,Crawley Town,Walsall,1,0,H,0
+2022-04-18,Sutton,Newport County,1,0,H,0
+2022-04-18,Swindon,Leyton Orient,1,2,A,0
+2022-04-18,Tranmere,Exeter,2,0,H,0
+2022-04-18,Carlisle,Mansfield,1,0,H,0
+2022-04-18,Colchester,Bradford,3,0,H,0
+2022-04-18,Forest Green,Oldham,2,0,H,0
+2022-04-18,Northampton,Harrogate,3,0,H,0
+2022-04-22,Newport County,Colchester,1,2,A,0
+2022-04-23,Bristol Rvs,Forest Green,0,0,D,1
+2022-04-23,Exeter,Rochdale,2,0,H,0
+2022-04-23,Harrogate,Carlisle,3,0,H,0
+2022-04-23,Hartlepool,Swindon,0,3,A,0
+2022-04-23,Leyton Orient,Northampton,2,4,A,0
+2022-04-23,Mansfield,Crawley Town,2,0,H,0
+2022-04-23,Oldham,Salford,1,2,A,0
+2022-04-23,Stevenage,Tranmere,2,0,H,0
+2022-04-23,Walsall,Port Vale,2,0,H,0
+2022-04-23,Barrow,Sutton,1,0,H,0
+2022-04-23,Bradford,Scunthorpe,2,1,H,0
+2022-04-26,Sutton,Crawley Town,3,0,H,0
+2022-04-26,Swindon,Forest Green,2,1,H,0
+2022-04-26,Exeter,Barrow,2,1,H,0
+2022-04-26,Mansfield,Stevenage,2,0,H,0
+2022-04-30,Scunthorpe,Hartlepool,1,1,D,1
+2022-04-30,Carlisle,Stevenage,2,1,H,0
+2022-04-30,Colchester,Walsall,2,2,D,1
+2022-04-30,Crawley Town,Leyton Orient,0,2,A,0
+2022-04-30,Forest Green,Harrogate,1,3,A,0
+2022-04-30,Northampton,Exeter,1,1,D,1
+2022-04-30,Rochdale,Bristol Rvs,3,4,A,0
+2022-04-30,Sutton,Bradford,1,4,A,0
+2022-04-30,Swindon,Barrow,2,1,H,0
+2022-04-30,Tranmere,Oldham,2,0,H,0
+2022-05-02,Port Vale,Newport County,1,2,A,0
+2022-05-02,Salford,Mansfield,2,2,D,1
+2022-05-07,Bristol Rvs,Scunthorpe,7,0,H,0
+2022-05-07,Exeter,Port Vale,0,1,A,0
+2022-05-07,Harrogate,Sutton,0,2,A,0
+2022-05-07,Hartlepool,Colchester,0,2,A,0
+2022-05-07,Leyton Orient,Tranmere,0,1,A,0
+2022-05-07,Barrow,Northampton,1,3,A,0
+2022-05-07,Newport County,Rochdale,0,2,A,0
+2022-05-07,Oldham,Crawley Town,3,3,D,1
+2022-05-07,Stevenage,Salford,4,2,H,0
+2022-05-07,Walsall,Swindon,0,3,A,0
+2022-05-07,Mansfield,Forest Green,2,2,D,1
+2022-05-07,Bradford,Carlisle,2,0,H,0

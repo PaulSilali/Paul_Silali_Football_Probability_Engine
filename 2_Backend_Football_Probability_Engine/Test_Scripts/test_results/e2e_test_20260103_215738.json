@@ -1,0 +1,166 @@
+{
+  "stage1_data_ingestion": {
+    "success": true,
+    "ingested_leagues": [
+      "G1",
+      "MEX1",
+      "USA1",
+      "CHN1",
+      "JPN1"
+    ],
+    "failed_leagues": [
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "SP1",
+      "SP2",
+      "I1",
+      "I2",
+      "F1",
+      "F2",
+      "D1",
+      "D2",
+      "N1",
+      "B1",
+      "P1",
+      "T1",
+      "SC0",
+      "SC1",
+      "SC2",
+      "SC3",
+      "SWE1",
+      "FIN1",
+      "RO1",
+      "RUS1",
+      "IRL1",
+      "CZE1",
+      "CRO1",
+      "SRB1",
+      "UKR1",
+      "ARG1",
+      "BRA1",
+      "KOR1",
+      "AUS1"
+    ],
+    "working_sources": {
+      "football-data.co.uk": [
+        "G1",
+        "MEX1",
+        "USA1",
+        "CHN1",
+        "JPN1"
+      ],
+      "football-data.org": [],
+      "OpenFootball": []
+    },
+    "table_counts": {
+      "matches": 49451,
+      "teams": 730,
+      "leagues": 43,
+      "league_draw_priors": 2,
+      "h2h_draw_stats": 0,
+      "team_elo": 0
+    },
+    "draw_structural_success": true
+  },
+  "stage2_data_cleaning": {
+    "success": true,
+    "matches_count": 49451,
+    "cleaning_integrated": true
+  },
+  "stage3_model_training": {
+    "success": true,
+    "training_results": {
+      "poisson": {
+        "success": true,
+        "model_id": 3,
+        "version": "poisson-20260103-191910"
+      },
+      "blending": {
+        "success": true,
+        "model_id": 4,
+        "version": "blending-20260103-222832"
+      },
+      "calibration": {
+        "success": false,
+        "error": "unsupported operand type(s) for -: 'float' and 'NoneType'"
+      }
+    },
+    "models_count": 4
+  },
+  "stage4_probability_generation": {
+    "success": true,
+    "jackpot_results": {
+      "creation": {
+        "success": true,
+        "jackpot_id": "JK-1767468516"
+      },
+      "probabilities": {
+        "success": true,
+        "sets_count": 0
+      }
+    },
+    "predictions_count": 0
+  },
+  "stage5_validation_backtesting": {
+    "success": true,
+    "validation_count": 0,
+    "calibration_count": 0,
+    "note": "Validation/backtesting typically done via frontend UI"
+  },
+  "data_source_status": {
+    "working": {
+      "football-data.co.uk": [
+        "G1",
+        "MEX1",
+        "USA1",
+        "CHN1",
+        "JPN1"
+      ],
+      "football-data.org": [],
+      "OpenFootball": []
+    },
+    "failed": [
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "SP1",
+      "SP2",
+      "I1",
+      "I2",
+      "F1",
+      "F2",
+      "D1",
+      "D2",
+      "N1",
+      "B1",
+      "P1",
+      "T1",
+      "SC0",
+      "SC1",
+      "SC2",
+      "SC3",
+      "SWE1",
+      "FIN1",
+      "RO1",
+      "RUS1",
+      "IRL1",
+      "CZE1",
+      "CRO1",
+      "SRB1",
+      "UKR1",
+      "ARG1",
+      "BRA1",
+      "KOR1",
+      "AUS1"
+    ]
+  },
+  "table_population": {},
+  "test_metadata": {
+    "start_time": "2026-01-03T21:57:38.118184",
+    "end_time": "2026-01-03T22:28:40.467802",
+    "duration_seconds": 1862.34962
+  }
+}

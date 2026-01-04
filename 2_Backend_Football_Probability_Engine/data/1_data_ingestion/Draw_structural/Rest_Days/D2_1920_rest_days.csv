@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,1920,2019-07-26,Stuttgart,Hannover,7,7,False
+D2,1920,2019-07-27,Holstein Kiel,Sandhausen,7,7,False
+D2,1920,2019-07-27,Dresden,Nurnberg,7,7,False
+D2,1920,2019-07-27,Osnabruck,Heidenheim,7,7,False
+D2,1920,2019-07-28,Greuther Furth,Erzgebirge Aue,7,7,False
+D2,1920,2019-07-28,Regensburg,Bochum,7,7,False
+D2,1920,2019-07-28,Wehen,Karlsruhe,7,7,False
+D2,1920,2019-07-28,Hamburg,Darmstadt,7,7,False
+D2,1920,2019-07-29,Bielefeld,St Pauli,7,7,False
+D2,1920,2019-08-02,Sandhausen,Osnabruck,6,6,False
+D2,1920,2019-08-02,St Pauli,Greuther Furth,4,5,False
+D2,1920,2019-08-02,Bochum,Bielefeld,5,4,False
+D2,1920,2019-08-03,Hannover,Regensburg,8,6,False
+D2,1920,2019-08-03,Karlsruhe,Dresden,6,7,False
+D2,1920,2019-08-04,Darmstadt,Holstein Kiel,7,8,False
+D2,1920,2019-08-04,Erzgebirge Aue,Wehen,7,7,False
+D2,1920,2019-08-04,Heidenheim,Stuttgart,8,9,False
+D2,1920,2019-08-05,Nurnberg,Hamburg,9,8,False
+D2,1920,2019-08-16,Sandhausen,Nurnberg,14,11,False
+D2,1920,2019-08-16,Hamburg,Bochum,11,14,False
+D2,1920,2019-08-17,Stuttgart,St Pauli,13,15,False
+D2,1920,2019-08-17,Wehen,Hannover,13,14,False
+D2,1920,2019-08-17,Bielefeld,Erzgebirge Aue,15,13,False
+D2,1920,2019-08-18,Greuther Furth,Regensburg,16,15,False
+D2,1920,2019-08-18,Holstein Kiel,Karlsruhe,14,15,False
+D2,1920,2019-08-18,Dresden,Heidenheim,15,14,False
+D2,1920,2019-08-19,Osnabruck,Darmstadt,17,15,False
+D2,1920,2019-08-23,Erzgebirge Aue,Stuttgart,6,6,False
+D2,1920,2019-08-23,Darmstadt,Dresden,4,5,False
+D2,1920,2019-08-24,Hannover,Greuther Furth,7,6,False
+D2,1920,2019-08-24,Regensburg,Bielefeld,6,7,False
+D2,1920,2019-08-24,Bochum,Wehen,8,7,False
+D2,1920,2019-08-25,Karlsruhe,Hamburg,7,9,False
+D2,1920,2019-08-25,Nurnberg,Osnabruck,9,6,False
+D2,1920,2019-08-25,Heidenheim,Sandhausen,7,9,False
+D2,1920,2019-08-26,St Pauli,Holstein Kiel,9,8,False
+D2,1920,2019-08-30,Nurnberg,Heidenheim,5,5,False
+D2,1920,2019-08-30,Sandhausen,Darmstadt,5,7,False
+D2,1920,2019-08-31,Dresden,St Pauli,8,5,False
+D2,1920,2019-08-31,Bielefeld,Greuther Furth,7,7,False
+D2,1920,2019-08-31,Wehen,Regensburg,7,7,False
+D2,1920,2019-09-01,Holstein Kiel,Erzgebirge Aue,6,9,False
+D2,1920,2019-09-01,Osnabruck,Karlsruhe,7,7,False
+D2,1920,2019-09-01,Hamburg,Hannover,7,8,False
+D2,1920,2019-09-02,Stuttgart,Bochum,10,9,False
+D2,1920,2019-09-13,Karlsruhe,Sandhausen,12,14,False
+D2,1920,2019-09-13,Greuther Furth,Wehen,13,13,False
+D2,1920,2019-09-14,Heidenheim,Holstein Kiel,15,13,False
+D2,1920,2019-09-14,Regensburg,Stuttgart,14,12,False
+D2,1920,2019-09-14,Hannover,Bielefeld,13,14,False
+D2,1920,2019-09-15,Darmstadt,Nurnberg,16,16,False
+D2,1920,2019-09-15,Erzgebirge Aue,Osnabruck,14,14,False
+D2,1920,2019-09-15,Bochum,Dresden,13,15,False
+D2,1920,2019-09-16,St Pauli,Hamburg,16,15,False
+D2,1920,2019-09-20,Holstein Kiel,Hannover,6,6,False
+D2,1920,2019-09-20,Heidenheim,Darmstadt,6,5,False
+D2,1920,2019-09-21,Sandhausen,Bochum,8,6,False
+D2,1920,2019-09-21,Stuttgart,Greuther Furth,7,8,False
+D2,1920,2019-09-21,Wehen,Bielefeld,8,7,False
+D2,1920,2019-09-21,Nurnberg,Karlsruhe,6,8,False
+D2,1920,2019-09-22,Hamburg,Erzgebirge Aue,6,7,False
+D2,1920,2019-09-22,Osnabruck,St Pauli,7,6,False
+D2,1920,2019-09-22,Dresden,Regensburg,7,8,False
+D2,1920,2019-09-27,Wehen,Osnabruck,6,5,False
+D2,1920,2019-09-27,Bielefeld,Stuttgart,6,6,False
+D2,1920,2019-09-28,Karlsruhe,Heidenheim,7,8,False
+D2,1920,2019-09-28,Regensburg,Hamburg,6,6,False
+D2,1920,2019-09-28,Bochum,Darmstadt,7,8,False
+D2,1920,2019-09-29,Greuther Furth,Holstein Kiel,8,9,False
+D2,1920,2019-09-29,St Pauli,Sandhausen,7,8,False
+D2,1920,2019-09-29,Erzgebirge Aue,Dresden,7,7,False
+D2,1920,2019-09-30,Hannover,Nurnberg,10,9,False
+D2,1920,2019-10-04,Darmstadt,Karlsruhe,6,6,False
+D2,1920,2019-10-04,Stuttgart,Wehen,7,7,False
+D2,1920,2019-10-05,Dresden,Hannover,6,5,False
+D2,1920,2019-10-05,Hamburg,Greuther Furth,7,6,False
+D2,1920,2019-10-05,Sandhausen,Erzgebirge Aue,6,6,False
+D2,1920,2019-10-06,Heidenheim,Bochum,8,8,False
+D2,1920,2019-10-06,Holstein Kiel,Regensburg,7,8,False
+D2,1920,2019-10-06,Nurnberg,St Pauli,6,7,False
+D2,1920,2019-10-07,Osnabruck,Bielefeld,10,10,False
+D2,1920,2019-10-18,Greuther Furth,Dresden,13,13,False
+D2,1920,2019-10-18,Erzgebirge Aue,Nurnberg,13,12,False
+D2,1920,2019-10-19,St Pauli,Darmstadt,13,15,False
+D2,1920,2019-10-19,Wehen,Heidenheim,15,13,False
+D2,1920,2019-10-19,Regensburg,Sandhausen,13,14,False
+D2,1920,2019-10-20,Hannover,Osnabruck,15,13,False
+D2,1920,2019-10-20,Stuttgart,Holstein Kiel,16,14,False
+D2,1920,2019-10-20,Bochum,Karlsruhe,14,16,False
+D2,1920,2019-10-21,Bielefeld,Hamburg,14,16,False
+D2,1920,2019-10-25,Holstein Kiel,Bochum,5,5,False
+D2,1920,2019-10-25,Darmstadt,Erzgebirge Aue,6,7,False
+D2,1920,2019-10-26,Hamburg,Stuttgart,5,6,False
+D2,1920,2019-10-26,Karlsruhe,Hannover,6,6,False
+D2,1920,2019-10-26,Dresden,Bielefeld,8,5,False
+D2,1920,2019-10-27,Nurnberg,Regensburg,9,8,False
+D2,1920,2019-10-27,Osnabruck,Greuther Furth,7,9,False
+D2,1920,2019-10-27,Heidenheim,St Pauli,8,8,False
+D2,1920,2019-10-28,Sandhausen,Wehen,9,9,False
+D2,1920,2019-11-01,Regensburg,Osnabruck,5,5,False
+D2,1920,2019-11-01,Hannover,Sandhausen,6,4,False
+D2,1920,2019-11-02,Greuther Furth,Darmstadt,6,8,False
+D2,1920,2019-11-02,St Pauli,Karlsruhe,6,7,False
+D2,1920,2019-11-02,Erzgebirge Aue,Heidenheim,8,6,False
+D2,1920,2019-11-03,Stuttgart,Dresden,8,8,False
+D2,1920,2019-11-03,Wehen,Hamburg,6,8,False
+D2,1920,2019-11-03,Bielefeld,Holstein Kiel,8,9,False
+D2,1920,2019-11-04,Bochum,Nurnberg,10,8,False
+D2,1920,2019-11-08,St Pauli,Bochum,6,4,False
+D2,1920,2019-11-08,Dresden,Wehen,5,5,False
+D2,1920,2019-11-09,Osnabruck,Stuttgart,8,6,False
+D2,1920,2019-11-09,Sandhausen,Greuther Furth,8,7,False
+D2,1920,2019-11-09,Holstein Kiel,Hamburg,6,6,False
+D2,1920,2019-11-10,Heidenheim,Hannover,8,9,False
+D2,1920,2019-11-10,Darmstadt,Regensburg,8,9,False
+D2,1920,2019-11-10,Nurnberg,Bielefeld,6,7,False
+D2,1920,2019-11-11,Karlsruhe,Erzgebirge Aue,9,9,False
+D2,1920,2019-11-22,Bochum,Osnabruck,14,13,False
+D2,1920,2019-11-22,Erzgebirge Aue,St Pauli,11,14,False
+D2,1920,2019-11-23,Hamburg,Dresden,14,15,False
+D2,1920,2019-11-23,Wehen,Holstein Kiel,15,14,False
+D2,1920,2019-11-23,Bielefeld,Sandhausen,13,14,False
+D2,1920,2019-11-24,Regensburg,Heidenheim,14,14,False
+D2,1920,2019-11-24,Stuttgart,Karlsruhe,15,13,False
+D2,1920,2019-11-24,Greuther Furth,Nurnberg,15,14,False
+D2,1920,2019-11-25,Hannover,Darmstadt,15,15,False
+D2,1920,2019-11-29,Osnabruck,Hamburg,7,6,False
+D2,1920,2019-11-29,Karlsruhe,Regensburg,5,5,False
+D2,1920,2019-11-30,Dresden,Holstein Kiel,7,7,False
+D2,1920,2019-11-30,Nurnberg,Wehen,6,7,False
+D2,1920,2019-11-30,St Pauli,Hannover,8,5,False
+D2,1920,2019-11-30,Bochum,Erzgebirge Aue,8,8,False
+D2,1920,2019-12-01,Heidenheim,Greuther Furth,7,7,False
+D2,1920,2019-12-01,Sandhausen,Stuttgart,8,7,False
+D2,1920,2019-12-01,Darmstadt,Bielefeld,6,8,False
+D2,1920,2019-12-06,Hamburg,Heidenheim,7,5,False
+D2,1920,2019-12-06,Bielefeld,Karlsruhe,5,7,False
+D2,1920,2019-12-07,Hannover,Erzgebirge Aue,7,7,False
+D2,1920,2019-12-07,Holstein Kiel,Osnabruck,7,8,False
+D2,1920,2019-12-07,Greuther Furth,Bochum,6,7,False
+D2,1920,2019-12-08,Regensburg,St Pauli,9,8,False
+D2,1920,2019-12-08,Wehen,Darmstadt,8,7,False
+D2,1920,2019-12-08,Dresden,Sandhausen,8,7,False
+D2,1920,2019-12-09,Stuttgart,Nurnberg,8,9,False
+D2,1920,2019-12-13,Erzgebirge Aue,Regensburg,6,5,False
+D2,1920,2019-12-13,Bochum,Hannover,6,6,False
+D2,1920,2019-12-14,Karlsruhe,Greuther Furth,8,7,False
+D2,1920,2019-12-14,St Pauli,Wehen,6,6,False
+D2,1920,2019-12-14,Heidenheim,Bielefeld,8,8,False
+D2,1920,2019-12-15,Osnabruck,Dresden,8,7,False
+D2,1920,2019-12-15,Nurnberg,Holstein Kiel,6,8,False
+D2,1920,2019-12-15,Sandhausen,Hamburg,7,9,False
+D2,1920,2019-12-16,Darmstadt,Stuttgart,8,7,False
+D2,1920,2019-12-20,Nurnberg,Dresden,5,5,False
+D2,1920,2019-12-20,Karlsruhe,Wehen,6,6,False
+D2,1920,2019-12-21,St Pauli,Bielefeld,7,7,False
+D2,1920,2019-12-21,Hannover,Stuttgart,8,5,False
+D2,1920,2019-12-21,Erzgebirge Aue,Greuther Furth,8,7,False
+D2,1920,2019-12-21,Darmstadt,Hamburg,5,6,False
+D2,1920,2019-12-22,Bochum,Regensburg,9,9,False
+D2,1920,2019-12-22,Heidenheim,Osnabruck,8,7,False
+D2,1920,2019-12-22,Sandhausen,Holstein Kiel,7,7,False
+D2,1920,2020-01-28,Greuther Furth,St Pauli,38,38,True
+D2,1920,2020-01-28,Regensburg,Hannover,37,38,True
+D2,1920,2020-01-28,Wehen,Erzgebirge Aue,39,38,True
+D2,1920,2020-01-28,Bielefeld,Bochum,38,37,True
+D2,1920,2020-01-29,Dresden,Karlsruhe,40,40,True
+D2,1920,2020-01-29,Holstein Kiel,Darmstadt,38,39,True
+D2,1920,2020-01-29,Osnabruck,Sandhausen,38,38,True
+D2,1920,2020-01-29,Stuttgart,Heidenheim,39,38,True
+D2,1920,2020-01-30,Hamburg,Nurnberg,40,41,True
+D2,1920,2020-01-31,Regensburg,Greuther Furth,3,3,False
+D2,1920,2020-01-31,Erzgebirge Aue,Bielefeld,3,3,False
+D2,1920,2020-02-01,Karlsruhe,Holstein Kiel,3,3,False
+D2,1920,2020-02-01,St Pauli,Stuttgart,4,3,False
+D2,1920,2020-02-01,Hannover,Wehen,4,4,False
+D2,1920,2020-02-02,Heidenheim,Dresden,4,4,False
+D2,1920,2020-02-02,Nurnberg,Sandhausen,3,4,False
+D2,1920,2020-02-02,Darmstadt,Osnabruck,4,4,False
+D2,1920,2020-02-03,Bochum,Hamburg,6,4,False
+D2,1920,2020-02-07,Sandhausen,Heidenheim,5,5,False
+D2,1920,2020-02-07,Dresden,Darmstadt,5,5,False
+D2,1920,2020-02-08,Osnabruck,Nurnberg,6,6,False
+D2,1920,2020-02-08,Stuttgart,Erzgebirge Aue,7,8,False
+D2,1920,2020-02-08,Hamburg,Karlsruhe,5,7,False
+D2,1920,2020-02-09,Greuther Furth,Hannover,9,8,False
+D2,1920,2020-02-09,Wehen,Bochum,8,6,False
+D2,1920,2020-02-09,Bielefeld,Regensburg,9,9,False
+D2,1920,2020-02-10,Holstein Kiel,St Pauli,9,9,False
+D2,1920,2020-02-14,Heidenheim,Nurnberg,7,6,False
+D2,1920,2020-02-14,St Pauli,Dresden,4,7,False
+D2,1920,2020-02-15,Regensburg,Wehen,6,6,False
+D2,1920,2020-02-15,Greuther Furth,Bielefeld,6,6,False
+D2,1920,2020-02-15,Hannover,Hamburg,6,7,False
+D2,1920,2020-02-16,Erzgebirge Aue,Holstein Kiel,8,6,False
+D2,1920,2020-02-16,Karlsruhe,Osnabruck,8,8,False
+D2,1920,2020-02-16,Darmstadt,Sandhausen,9,9,False
+D2,1920,2020-02-17,Bochum,Stuttgart,8,9,False
+D2,1920,2020-02-21,Wehen,Greuther Furth,6,6,False
+D2,1920,2020-02-21,Osnabruck,Erzgebirge Aue,5,5,False
+D2,1920,2020-02-22,Hamburg,St Pauli,7,8,False
+D2,1920,2020-02-22,Holstein Kiel,Heidenheim,6,8,False
+D2,1920,2020-02-22,Stuttgart,Regensburg,5,7,False
+D2,1920,2020-02-22,Dresden,Bochum,8,5,False
+D2,1920,2020-02-23,Nurnberg,Darmstadt,9,7,False
+D2,1920,2020-02-23,Sandhausen,Karlsruhe,7,7,False
+D2,1920,2020-02-23,Bielefeld,Hannover,8,8,False
+D2,1920,2020-02-28,Regensburg,Dresden,6,6,False
+D2,1920,2020-02-28,Karlsruhe,Nurnberg,5,5,False
+D2,1920,2020-02-29,Erzgebirge Aue,Hamburg,8,7,False
+D2,1920,2020-02-29,Greuther Furth,Stuttgart,8,7,False
+D2,1920,2020-02-29,Darmstadt,Heidenheim,6,7,False
+D2,1920,2020-03-01,Bochum,Sandhausen,8,7,False
+D2,1920,2020-03-01,St Pauli,Osnabruck,8,9,False
+D2,1920,2020-03-01,Bielefeld,Wehen,7,9,False
+D2,1920,2020-03-02,Hannover,Holstein Kiel,8,9,False
+D2,1920,2020-03-06,Osnabruck,Wehen,5,5,False
+D2,1920,2020-03-06,Nurnberg,Hannover,7,4,False
+D2,1920,2020-03-07,Hamburg,Regensburg,7,8,False
+D2,1920,2020-03-07,Heidenheim,Karlsruhe,7,8,False
+D2,1920,2020-03-07,Darmstadt,Bochum,7,6,False
+D2,1920,2020-03-08,Holstein Kiel,Greuther Furth,6,8,False
+D2,1920,2020-03-08,Sandhausen,St Pauli,7,7,False
+D2,1920,2020-03-08,Dresden,Erzgebirge Aue,9,8,False
+D2,1920,2020-03-09,Stuttgart,Bielefeld,9,8,False
+D2,1920,2020-05-16,Bochum,Heidenheim,70,70,False
+D2,1920,2020-05-16,Erzgebirge Aue,Sandhausen,69,69,False
+D2,1920,2020-05-16,Karlsruhe,Darmstadt,70,70,False
+D2,1920,2020-05-16,Regensburg,Holstein Kiel,70,69,False
+D2,1920,2020-05-17,St Pauli,Nurnberg,70,72,False
+D2,1920,2020-05-17,Bielefeld,Osnabruck,69,72,False
+D2,1920,2020-05-17,Greuther Furth,Hamburg,70,71,False
+D2,1920,2020-05-17,Wehen,Stuttgart,72,69,False
+D2,1920,2020-05-22,Heidenheim,Wehen,6,5,False
+D2,1920,2020-05-22,Nurnberg,Erzgebirge Aue,5,6,False
+D2,1920,2020-05-23,Sandhausen,Regensburg,7,7,False
+D2,1920,2020-05-23,Darmstadt,St Pauli,7,6,False
+D2,1920,2020-05-23,Osnabruck,Hannover,6,78,False
+D2,1920,2020-05-24,Holstein Kiel,Stuttgart,8,7,False
+D2,1920,2020-05-24,Karlsruhe,Bochum,8,8,False
+D2,1920,2020-05-24,Hamburg,Bielefeld,7,7,False
+D2,1920,2020-05-26,Greuther Furth,Osnabruck,9,3,True
+D2,1920,2020-05-26,Regensburg,Nurnberg,3,4,True
+D2,1920,2020-05-26,Wehen,Sandhausen,4,3,True
+D2,1920,2020-05-26,Erzgebirge Aue,Darmstadt,4,3,True
+D2,1920,2020-05-27,Hannover,Karlsruhe,4,3,True
+D2,1920,2020-05-27,St Pauli,Heidenheim,4,5,True
+D2,1920,2020-05-27,Bochum,Holstein Kiel,3,3,True
+D2,1920,2020-05-28,Stuttgart,Hamburg,4,4,True
+D2,1920,2020-05-29,Osnabruck,Regensburg,3,3,False
+D2,1920,2020-05-29,Darmstadt,Greuther Furth,3,3,False
+D2,1920,2020-05-30,Karlsruhe,St Pauli,3,3,False
+D2,1920,2020-05-30,Nurnberg,Bochum,4,3,False
+D2,1920,2020-05-30,Sandhausen,Hannover,4,3,False
+D2,1920,2020-05-30,Holstein Kiel,Bielefeld,3,6,False
+D2,1920,2020-05-31,Hamburg,Wehen,3,5,False
+D2,1920,2020-05-31,Heidenheim,Erzgebirge Aue,4,5,False
+D2,1920,2020-05-31,Dresden,Stuttgart,84,3,False
+D2,1920,2020-06-03,Hannover,Dresden,4,3,True
+D2,1920,2020-06-05,Greuther Furth,Sandhausen,7,6,False
+D2,1920,2020-06-05,Bochum,St Pauli,6,6,False
+D2,1920,2020-06-06,Regensburg,Darmstadt,8,8,False
+D2,1920,2020-06-06,Wehen,Dresden,6,3,False
+D2,1920,2020-06-06,Bielefeld,Nurnberg,7,7,False
+D2,1920,2020-06-07,Hannover,Heidenheim,4,7,False
+D2,1920,2020-06-07,Stuttgart,Osnabruck,7,9,False
+D2,1920,2020-06-07,Erzgebirge Aue,Karlsruhe,7,8,False
+D2,1920,2020-06-08,Hamburg,Holstein Kiel,8,9,False
+D2,1920,2020-06-09,Dresden,Greuther Furth,3,4,True
+D2,1920,2020-06-12,Sandhausen,Bielefeld,7,6,False
+D2,1920,2020-06-12,Dresden,Hamburg,3,4,False
+D2,1920,2020-06-13,Holstein Kiel,Wehen,5,7,False
+D2,1920,2020-06-13,Nurnberg,Greuther Furth,7,4,False
+D2,1920,2020-06-13,Osnabruck,Bochum,6,8,False
+D2,1920,2020-06-13,Heidenheim,Regensburg,6,7,False
+D2,1920,2020-06-14,Karlsruhe,Stuttgart,7,7,False
+D2,1920,2020-06-14,St Pauli,Erzgebirge Aue,9,7,False
+D2,1920,2020-06-14,Darmstadt,Hannover,8,7,False
+D2,1920,2020-06-15,Bielefeld,Dresden,3,3,False
+D2,1920,2020-06-16,Hamburg,Osnabruck,4,3,True
+D2,1920,2020-06-16,Wehen,Nurnberg,3,3,True
+D2,1920,2020-06-16,Greuther Furth,Heidenheim,3,3,True
+D2,1920,2020-06-17,Hannover,St Pauli,3,3,True
+D2,1920,2020-06-17,Regensburg,Karlsruhe,4,3,True
+D2,1920,2020-06-17,Stuttgart,Sandhausen,3,5,True
+D2,1920,2020-06-17,Erzgebirge Aue,Bochum,3,4,True
+D2,1920,2020-06-18,Bielefeld,Darmstadt,3,4,True
+D2,1920,2020-06-18,Holstein Kiel,Dresden,5,3,True
+D2,1920,2020-06-21,Darmstadt,Wehen,3,5,False
+D2,1920,2020-06-21,Erzgebirge Aue,Hannover,4,4,False
+D2,1920,2020-06-21,Heidenheim,Hamburg,5,5,False
+D2,1920,2020-06-21,Karlsruhe,Bielefeld,4,3,False
+D2,1920,2020-06-21,Nurnberg,Stuttgart,5,4,False
+D2,1920,2020-06-21,Osnabruck,Holstein Kiel,5,3,False
+D2,1920,2020-06-21,Sandhausen,Dresden,4,3,False
+D2,1920,2020-06-21,St Pauli,Regensburg,4,4,False
+D2,1920,2020-06-21,Bochum,Greuther Furth,4,5,False
+D2,1920,2020-06-28,Dresden,Osnabruck,7,7,False
+D2,1920,2020-06-28,Greuther Furth,Karlsruhe,7,7,False
+D2,1920,2020-06-28,Hamburg,Sandhausen,7,7,False
+D2,1920,2020-06-28,Hannover,Bochum,7,7,False
+D2,1920,2020-06-28,Holstein Kiel,Nurnberg,7,7,False
+D2,1920,2020-06-28,Regensburg,Erzgebirge Aue,7,7,False
+D2,1920,2020-06-28,Stuttgart,Darmstadt,7,7,False
+D2,1920,2020-06-28,Wehen,St Pauli,7,7,False
+D2,1920,2020-06-28,Bielefeld,Heidenheim,7,7,False

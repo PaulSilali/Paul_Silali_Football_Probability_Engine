@@ -1,0 +1,56 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+549,St Mirren,550,Rangers,2526,2,1,0.5,2.5
+542,Kilmarnock,549,St Mirren,2526,2,1,0.5,1.0
+542,Kilmarnock,545,Dundee,2526,4,2,0.5,1.75
+543,Motherwell,552,Hibernian,2526,1,0,0.0,2.0
+543,Motherwell,547,Hearts,2526,2,2,1.0,3.0
+545,Dundee,552,Hibernian,2526,4,2,0.5,3.25
+542,Kilmarnock,546,Celtic,2526,2,0,0.0,3.5
+542,Kilmarnock,548,Livingston,2526,1,1,1.0,4.0
+547,Hearts,550,Rangers,2526,2,0,0.0,2.5
+550,Rangers,552,Hibernian,2526,2,0,0.0,1.0
+545,Dundee,549,St Mirren,2526,4,0,0.0,2.75
+542,Kilmarnock,543,Motherwell,2526,2,1,0.5,4.0
+551,Aberdeen,552,Hibernian,2526,2,0,0.0,2.5
+542,Kilmarnock,552,Hibernian,2526,1,1,1.0,4.0
+544,Falkirk,546,Celtic,2526,1,0,0.0,4.0
+544,Falkirk,547,Hearts,2526,2,0,0.0,2.5
+542,Kilmarnock,544,Falkirk,2526,2,0,0.0,2.5
+545,Dundee,546,Celtic,2526,3,0,0.0,2.0
+546,Celtic,548,Livingston,2526,2,0,0.0,4.5
+545,Dundee,548,Livingston,2526,4,2,0.5,3.75
+545,Dundee,547,Hearts,2526,3,1,0.3333333333333333,3.6666666666666665
+543,Motherwell,546,Celtic,2526,2,0,0.0,3.5
+546,Celtic,549,St Mirren,2526,2,0,0.0,1.0
+544,Falkirk,550,Rangers,2526,2,2,1.0,1.0
+544,Falkirk,552,Hibernian,2526,2,1,0.5,3.5
+543,Motherwell,549,St Mirren,2526,1,1,1.0,
+548,Livingston,551,Aberdeen,2526,2,1,0.5,0.5
+548,Livingston,550,Rangers,2526,2,0,0.0,3.0
+543,Motherwell,548,Livingston,2526,2,0,0.0,3.0
+547,Hearts,552,Hibernian,2526,2,0,0.0,3.0
+543,Motherwell,551,Aberdeen,2526,2,1,0.5,2.0
+543,Motherwell,544,Falkirk,2526,2,1,0.5,1.5
+545,Dundee,550,Rangers,2526,4,3,0.75,3.25
+549,St Mirren,552,Hibernian,2526,2,1,0.5,2.5
+542,Kilmarnock,551,Aberdeen,2526,2,0,0.0,2.0
+548,Livingston,552,Hibernian,2526,2,1,0.5,4.0
+545,Dundee,545,Dundee,2526,1,0,0.0,2.0
+544,Falkirk,548,Livingston,2526,2,1,0.5,3.0
+546,Celtic,547,Hearts,2526,2,0,0.0,3.5
+544,Falkirk,549,St Mirren,2526,1,0,0.0,3.0
+543,Motherwell,550,Rangers,2526,2,1,0.5,1.5
+547,Hearts,548,Livingston,2526,1,0,0.0,3.0
+548,Livingston,549,St Mirren,2526,1,0,0.0,1.0
+544,Falkirk,545,Dundee,2526,4,1,0.25,2.75
+547,Hearts,549,St Mirren,2526,1,1,1.0,4.0
+549,St Mirren,551,Aberdeen,2526,2,1,0.5,3.5
+542,Kilmarnock,547,Hearts,2526,2,1,0.5,2.5
+543,Motherwell,545,Dundee,2526,4,2,0.5,1.25
+542,Kilmarnock,550,Rangers,2526,2,0,0.0,3.5
+545,Dundee,551,Aberdeen,2526,4,1,0.25,3.0
+546,Celtic,550,Rangers,2526,1,1,1.0,
+546,Celtic,551,Aberdeen,2526,2,0,0.0,3.0
+547,Hearts,551,Aberdeen,2526,2,0,0.0,1.5
+546,Celtic,552,Hibernian,2526,2,1,0.5,1.5
+544,Falkirk,551,Aberdeen,2526,1,0,0.0,1.0

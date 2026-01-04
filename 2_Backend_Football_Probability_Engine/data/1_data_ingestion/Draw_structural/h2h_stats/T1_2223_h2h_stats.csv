@@ -1,0 +1,108 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+501,Antalyaspor,505,Galatasaray,2223,8,1,0.125,3.25
+512,Karagumruk,513,Fenerbahce,2223,4,0,0.0,4.5
+509,Besiktas,510,Buyuksehyr,2223,2,0,0.0,1.5
+505,Galatasaray,512,Karagumruk,2223,4,1,0.25,4.0
+513,Fenerbahce,514,Ad. Demirspor,2223,2,1,0.5,4.0
+504,Trabzonspor,516,Istanbulspor,2223,2,0,0.0,3.0
+504,Trabzonspor,511,Kasimpasa,2223,2,1,0.5,1.0
+501,Antalyaspor,516,Istanbulspor,2223,8,1,0.125,2.75
+500,Samsunspor,502,Rizespor,2223,2,1,0.5,4.5
+501,Antalyaspor,501,Antalyaspor,2223,12,4,0.3333333333333333,2.5833333333333335
+504,Trabzonspor,514,Ad. Demirspor,2223,2,0,0.0,5.0
+504,Trabzonspor,513,Fenerbahce,2223,2,0,0.0,3.0
+509,Besiktas,511,Kasimpasa,2223,2,0,0.0,5.0
+499,Gaziantep,509,Besiktas,2223,2,1,0.5,2.5
+505,Galatasaray,506,Kocaelispor,2223,2,0,0.0,4.5
+504,Trabzonspor,505,Galatasaray,2223,2,1,0.5,1.5
+499,Gaziantep,512,Karagumruk,2223,4,1,0.25,3.0
+499,Gaziantep,500,Samsunspor,2223,2,1,0.5,2.5
+504,Trabzonspor,518,Giresunspor,2223,2,0,0.0,4.5
+513,Fenerbahce,518,Giresunspor,2223,2,1,0.5,2.5
+514,Ad. Demirspor,516,Istanbulspor,2223,2,0,0.0,4.0
+512,Karagumruk,518,Giresunspor,2223,4,3,0.75,3.0
+499,Gaziantep,516,Istanbulspor,2223,2,1,0.5,2.5
+501,Antalyaspor,504,Trabzonspor,2223,8,1,0.125,3.875
+505,Galatasaray,518,Giresunspor,2223,2,0,0.0,2.5
+505,Galatasaray,509,Besiktas,2223,2,0,0.0,3.5
+500,Samsunspor,510,Buyuksehyr,2223,2,1,0.5,2.0
+502,Rizespor,505,Galatasaray,2223,2,0,0.0,3.0
+502,Rizespor,518,Giresunspor,2223,2,0,0.0,1.0
+502,Rizespor,516,Istanbulspor,2223,2,0,0.0,3.0
+512,Karagumruk,512,Karagumruk,2223,2,0,0.0,3.5
+511,Kasimpasa,513,Fenerbahce,2223,2,0,0.0,6.0
+509,Besiktas,513,Fenerbahce,2223,2,1,0.5,3.0
+499,Gaziantep,513,Fenerbahce,2223,2,0,0.0,3.0
+505,Galatasaray,510,Buyuksehyr,2223,2,0,0.0,4.0
+510,Buyuksehyr,518,Giresunspor,2223,2,0,0.0,5.0
+499,Gaziantep,510,Buyuksehyr,2223,2,1,0.5,2.5
+505,Galatasaray,513,Fenerbahce,2223,2,0,0.0,3.0
+502,Rizespor,514,Ad. Demirspor,2223,2,1,0.5,1.5
+500,Samsunspor,505,Galatasaray,2223,2,0,0.0,2.5
+516,Istanbulspor,518,Giresunspor,2223,2,0,0.0,3.0
+501,Antalyaspor,513,Fenerbahce,2223,8,0,0.0,3.25
+502,Rizespor,511,Kasimpasa,2223,2,1,0.5,2.5
+512,Karagumruk,516,Istanbulspor,2223,4,0,0.0,3.0
+514,Ad. Demirspor,518,Giresunspor,2223,2,1,0.5,3.5
+510,Buyuksehyr,516,Istanbulspor,2223,2,0,0.0,1.5
+505,Galatasaray,511,Kasimpasa,2223,2,0,0.0,3.0
+500,Samsunspor,512,Karagumruk,2223,4,1,0.25,3.0
+510,Buyuksehyr,513,Fenerbahce,2223,2,0,0.0,2.0
+499,Gaziantep,506,Kocaelispor,2223,2,0,0.0,3.0
+511,Kasimpasa,516,Istanbulspor,2223,2,0,0.0,2.0
+500,Samsunspor,518,Giresunspor,2223,2,0,0.0,2.0
+501,Antalyaspor,512,Karagumruk,2223,16,5,0.3125,3.0625
+510,Buyuksehyr,512,Karagumruk,2223,4,2,0.5,2.0
+499,Gaziantep,514,Ad. Demirspor,2223,2,1,0.5,2.5
+502,Rizespor,513,Fenerbahce,2223,2,1,0.5,4.5
+504,Trabzonspor,506,Kocaelispor,2223,2,0,0.0,5.0
+504,Trabzonspor,510,Buyuksehyr,2223,2,0,0.0,2.5
+502,Rizespor,504,Trabzonspor,2223,2,0,0.0,2.0
+504,Trabzonspor,512,Karagumruk,2223,4,1,0.25,3.5
+502,Rizespor,510,Buyuksehyr,2223,2,1,0.5,3.0
+509,Besiktas,516,Istanbulspor,2223,2,1,0.5,4.0
+499,Gaziantep,505,Galatasaray,2223,2,0,0.0,3.0
+499,Gaziantep,518,Giresunspor,2223,2,0,0.0,3.0
+500,Samsunspor,506,Kocaelispor,2223,2,1,0.5,3.5
+500,Samsunspor,516,Istanbulspor,2223,2,1,0.5,2.5
+501,Antalyaspor,502,Rizespor,2223,8,2,0.25,2.875
+500,Samsunspor,504,Trabzonspor,2223,2,0,0.0,3.0
+506,Kocaelispor,512,Karagumruk,2223,4,0,0.0,3.0
+499,Gaziantep,511,Kasimpasa,2223,2,0,0.0,2.0
+506,Kocaelispor,511,Kasimpasa,2223,2,1,0.5,0.5
+499,Gaziantep,501,Antalyaspor,2223,8,0,0.0,3.125
+502,Rizespor,506,Kocaelispor,2223,2,1,0.5,4.0
+501,Antalyaspor,518,Giresunspor,2223,8,5,0.625,2.25
+500,Samsunspor,501,Antalyaspor,2223,8,2,0.25,2.625
+501,Antalyaspor,511,Kasimpasa,2223,8,1,0.125,2.75
+510,Buyuksehyr,511,Kasimpasa,2223,2,0,0.0,4.0
+500,Samsunspor,514,Ad. Demirspor,2223,2,0,0.0,3.0
+504,Trabzonspor,509,Besiktas,2223,2,2,1.0,2.0
+511,Kasimpasa,514,Ad. Demirspor,2223,2,0,0.0,5.0
+499,Gaziantep,502,Rizespor,2223,2,1,0.5,2.5
+509,Besiktas,518,Giresunspor,2223,2,0,0.0,2.5
+511,Kasimpasa,518,Giresunspor,2223,2,0,0.0,3.5
+509,Besiktas,514,Ad. Demirspor,2223,2,0,0.0,3.0
+502,Rizespor,512,Karagumruk,2223,4,0,0.0,4.0
+501,Antalyaspor,514,Ad. Demirspor,2223,8,3,0.375,2.625
+506,Kocaelispor,514,Ad. Demirspor,2223,2,1,0.5,6.0
+501,Antalyaspor,506,Kocaelispor,2223,8,1,0.125,3.375
+505,Galatasaray,514,Ad. Demirspor,2223,2,1,0.5,1.0
+499,Gaziantep,504,Trabzonspor,2223,2,0,0.0,4.0
+506,Kocaelispor,509,Besiktas,2223,2,0,0.0,1.5
+505,Galatasaray,516,Istanbulspor,2223,2,0,0.0,2.5
+501,Antalyaspor,509,Besiktas,2223,8,3,0.375,3.5
+512,Karagumruk,514,Ad. Demirspor,2223,4,0,0.0,3.75
+506,Kocaelispor,516,Istanbulspor,2223,2,0,0.0,3.5
+500,Samsunspor,511,Kasimpasa,2223,2,0,0.0,3.0
+506,Kocaelispor,518,Giresunspor,2223,2,0,0.0,3.0
+510,Buyuksehyr,514,Ad. Demirspor,2223,2,0,0.0,4.0
+506,Kocaelispor,513,Fenerbahce,2223,2,0,0.0,2.5
+509,Besiktas,512,Karagumruk,2223,4,1,0.25,3.75
+513,Fenerbahce,516,Istanbulspor,2223,2,1,0.5,6.5
+506,Kocaelispor,510,Buyuksehyr,2223,2,0,0.0,1.5
+501,Antalyaspor,510,Buyuksehyr,2223,8,3,0.375,2.0
+500,Samsunspor,513,Fenerbahce,2223,2,0,0.0,2.5
+511,Kasimpasa,512,Karagumruk,2223,4,3,0.75,2.25
+502,Rizespor,509,Besiktas,2223,2,0,0.0,4.5
+500,Samsunspor,509,Besiktas,2223,2,0,0.0,2.5

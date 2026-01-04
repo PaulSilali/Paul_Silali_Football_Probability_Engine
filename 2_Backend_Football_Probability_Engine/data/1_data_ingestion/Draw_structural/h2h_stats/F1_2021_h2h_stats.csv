@@ -1,0 +1,191 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+310,Nantes,316,Strasbourg,2021,2,0,0.0,3.5
+306,Brest,325,Bordeaux,2021,2,0,0.0,2.0
+319,Reims,321,Montpellier,2021,2,1,0.5,2.0
+309,Metz,313,Lyon,2021,2,0,0.0,2.5
+313,Lyon,326,Dijon,2021,2,0,0.0,3.0
+312,Marseille,313,Lyon,2021,2,2,1.0,2.0
+313,Lyon,321,Montpellier,2021,2,0,0.0,3.0
+311,Paris SG,325,Bordeaux,2021,2,1,0.5,2.5
+310,Nantes,314,Lorient,2021,2,1,0.5,2.0
+310,Nantes,327,Nimes,2021,2,1,0.5,2.5
+309,Metz,321,Montpellier,2021,2,1,0.5,2.0
+305,Nice,325,Bordeaux,2021,2,1,0.5,1.5
+313,Lyon,325,Bordeaux,2021,2,1,0.5,1.5
+319,Reims,325,Bordeaux,2021,2,0,0.0,3.5
+304,Monaco,318,Lille,2021,2,1,0.5,1.5
+313,Lyon,319,Reims,2021,2,1,0.5,2.5
+306,Brest,311,Paris SG,2021,2,0,0.0,2.5
+312,Marseille,320,St Etienne,2021,2,0,0.0,1.5
+306,Brest,316,Strasbourg,2021,2,1,0.5,3.5
+316,Strasbourg,320,St Etienne,2021,2,0,0.0,1.5
+311,Paris SG,319,Reims,2021,2,0,0.0,3.0
+303,Lens,326,Dijon,2021,2,0,0.0,2.0
+302,Rennes,311,Paris SG,2021,2,1,0.5,2.5
+307,Angers,319,Reims,2021,2,1,0.5,0.5
+305,Nice,312,Marseille,2021,2,0,0.0,4.0
+302,Rennes,303,Lens,2021,2,1,0.5,1.0
+304,Monaco,313,Lyon,2021,2,0,0.0,5.0
+306,Brest,319,Reims,2021,2,0,0.0,2.0
+302,Rennes,326,Dijon,2021,2,1,0.5,4.0
+302,Rennes,312,Marseille,2021,2,0,0.0,2.0
+304,Monaco,307,Angers,2021,2,0,0.0,2.0
+306,Brest,320,St Etienne,2021,2,0,0.0,4.0
+304,Monaco,319,Reims,2021,2,1,0.5,2.5
+303,Lens,310,Nantes,2021,2,2,1.0,2.0
+312,Marseille,326,Dijon,2021,2,1,0.5,1.0
+304,Monaco,309,Metz,2021,2,0,0.0,2.5
+312,Marseille,321,Montpellier,2021,2,1,0.5,5.0
+305,Nice,307,Angers,2021,2,0,0.0,3.0
+302,Rennes,321,Montpellier,2021,2,0,0.0,3.0
+303,Lens,318,Lille,2021,2,0,0.0,3.5
+311,Paris SG,320,St Etienne,2021,2,1,0.5,3.5
+304,Monaco,312,Marseille,2021,2,0,0.0,3.5
+306,Brest,309,Metz,2021,2,0,0.0,4.0
+307,Angers,311,Paris SG,2021,2,0,0.0,4.0
+306,Brest,327,Nimes,2021,2,1,0.5,3.0
+302,Rennes,314,Lorient,2021,2,1,0.5,2.5
+303,Lens,307,Angers,2021,2,1,0.5,4.0
+312,Marseille,327,Nimes,2021,2,0,0.0,2.5
+310,Nantes,312,Marseille,2021,2,1,0.5,3.0
+303,Lens,305,Nice,2021,2,0,0.0,2.0
+309,Metz,314,Lorient,2021,2,0,0.0,3.5
+309,Metz,318,Lille,2021,2,0,0.0,1.5
+320,St Etienne,327,Nimes,2021,2,1,0.5,3.0
+302,Rennes,313,Lyon,2021,2,1,0.5,2.5
+311,Paris SG,326,Dijon,2021,2,0,0.0,4.0
+304,Monaco,326,Dijon,2021,2,0,0.0,2.0
+319,Reims,320,St Etienne,2021,2,1,0.5,3.0
+305,Nice,318,Lille,2021,2,1,0.5,2.0
+310,Nantes,313,Lyon,2021,2,0,0.0,3.0
+303,Lens,316,Strasbourg,2021,2,0,0.0,2.0
+321,Montpellier,325,Bordeaux,2021,2,0,0.0,3.0
+305,Nice,319,Reims,2021,2,2,1.0,
+305,Nice,316,Strasbourg,2021,2,0,0.0,2.0
+307,Angers,318,Lille,2021,2,0,0.0,3.0
+314,Lorient,318,Lille,2021,2,0,0.0,4.5
+304,Monaco,310,Nantes,2021,2,0,0.0,3.0
+314,Lorient,320,St Etienne,2021,2,0,0.0,2.5
+325,Bordeaux,327,Nimes,2021,2,0,0.0,2.0
+311,Paris SG,316,Strasbourg,2021,2,0,0.0,4.5
+310,Nantes,326,Dijon,2021,2,1,0.5,3.0
+303,Lens,311,Paris SG,2021,2,0,0.0,2.0
+312,Marseille,319,Reims,2021,2,1,0.5,3.0
+316,Strasbourg,325,Bordeaux,2021,2,0,0.0,3.5
+307,Angers,320,St Etienne,2021,2,1,0.5,0.5
+303,Lens,313,Lyon,2021,2,1,0.5,3.5
+318,Lille,319,Reims,2021,2,0,0.0,2.0
+326,Dijon,327,Nimes,2021,2,0,0.0,3.0
+304,Monaco,311,Paris SG,2021,2,0,0.0,3.5
+302,Rennes,325,Bordeaux,2021,2,0,0.0,1.0
+310,Nantes,320,St Etienne,2021,2,2,1.0,3.0
+311,Paris SG,312,Marseille,2021,2,0,0.0,1.5
+302,Rennes,306,Brest,2021,2,0,0.0,3.0
+306,Brest,307,Angers,2021,2,1,0.5,2.5
+309,Metz,325,Bordeaux,2021,2,1,0.5,1.5
+302,Rennes,318,Lille,2021,2,1,0.5,1.5
+316,Strasbourg,319,Reims,2021,2,0,0.0,2.0
+303,Lens,314,Lorient,2021,2,0,0.0,5.0
+304,Monaco,320,St Etienne,2021,2,1,0.5,4.0
+305,Nice,326,Dijon,2021,2,0,0.0,3.0
+304,Monaco,325,Bordeaux,2021,2,0,0.0,3.5
+305,Nice,321,Montpellier,2021,2,0,0.0,4.0
+305,Nice,314,Lorient,2021,2,2,1.0,3.0
+321,Montpellier,326,Dijon,2021,2,1,0.5,5.0
+303,Lens,321,Montpellier,2021,2,0,0.0,4.0
+313,Lyon,327,Nimes,2021,2,1,0.5,3.5
+306,Brest,313,Lyon,2021,2,1,0.5,4.5
+303,Lens,309,Metz,2021,2,1,0.5,3.0
+305,Nice,320,St Etienne,2021,2,0,0.0,2.5
+302,Rennes,305,Nice,2021,2,0,0.0,2.0
+310,Nantes,325,Bordeaux,2021,2,1,0.5,1.5
+305,Nice,311,Paris SG,2021,2,0,0.0,3.0
+316,Strasbourg,327,Nimes,2021,2,1,0.5,3.5
+305,Nice,306,Brest,2021,2,0,0.0,3.5
+302,Rennes,316,Strasbourg,2021,2,1,0.5,1.5
+309,Metz,326,Dijon,2021,2,1,0.5,4.0
+304,Monaco,306,Brest,2021,2,0,0.0,1.5
+306,Brest,326,Dijon,2021,2,0,0.0,3.0
+304,Monaco,316,Strasbourg,2021,2,0,0.0,3.0
+311,Paris SG,318,Lille,2021,2,1,0.5,0.5
+313,Lyon,320,St Etienne,2021,2,0,0.0,4.0
+309,Metz,312,Marseille,2021,2,2,1.0,2.0
+309,Metz,310,Nantes,2021,2,1,0.5,2.0
+316,Strasbourg,326,Dijon,2021,2,1,0.5,1.5
+303,Lens,304,Monaco,2021,2,1,0.5,1.5
+314,Lorient,321,Montpellier,2021,2,1,0.5,1.5
+320,St Etienne,325,Bordeaux,2021,2,0,0.0,4.0
+313,Lyon,314,Lorient,2021,2,1,0.5,3.5
+307,Angers,309,Metz,2021,2,1,0.5,1.5
+309,Metz,320,St Etienne,2021,2,0,0.0,1.5
+313,Lyon,316,Strasbourg,2021,2,0,0.0,4.0
+302,Rennes,327,Nimes,2021,2,0,0.0,4.0
+306,Brest,321,Montpellier,2021,2,2,1.0,2.0
+318,Lille,325,Bordeaux,2021,2,0,0.0,3.0
+303,Lens,325,Bordeaux,2021,2,0,0.0,3.0
+318,Lille,321,Montpellier,2021,2,1,0.5,3.5
+302,Rennes,309,Metz,2021,2,0,0.0,2.5
+316,Strasbourg,321,Montpellier,2021,2,0,0.0,6.0
+310,Nantes,321,Montpellier,2021,2,1,0.5,2.5
+303,Lens,320,St Etienne,2021,2,0,0.0,3.5
+314,Lorient,316,Strasbourg,2021,2,1,0.5,3.0
+320,St Etienne,326,Dijon,2021,2,1,0.5,0.5
+303,Lens,319,Reims,2021,2,2,1.0,5.0
+309,Metz,311,Paris SG,2021,2,0,0.0,2.5
+312,Marseille,325,Bordeaux,2021,2,1,0.5,2.0
+314,Lorient,325,Bordeaux,2021,2,0,0.0,4.0
+303,Lens,312,Marseille,2021,2,1,0.5,2.5
+319,Reims,327,Nimes,2021,2,1,0.5,2.5
+314,Lorient,319,Reims,2021,2,0,0.0,2.5
+311,Paris SG,321,Montpellier,2021,2,0,0.0,4.0
+325,Bordeaux,326,Dijon,2021,2,0,0.0,3.5
+304,Monaco,314,Lorient,2021,2,1,0.5,5.5
+309,Metz,319,Reims,2021,2,1,0.5,1.5
+319,Reims,326,Dijon,2021,2,1,0.5,0.5
+311,Paris SG,313,Lyon,2021,2,0,0.0,3.5
+307,Angers,327,Nimes,2021,2,0,0.0,5.0
+302,Rennes,320,St Etienne,2021,2,0,0.0,2.5
+307,Angers,312,Marseille,2021,2,0,0.0,4.0
+309,Metz,316,Strasbourg,2021,2,1,0.5,3.5
+303,Lens,327,Nimes,2021,2,1,0.5,2.5
+307,Angers,321,Montpellier,2021,2,1,0.5,3.5
+318,Lille,327,Nimes,2021,2,0,0.0,2.0
+306,Brest,312,Marseille,2021,2,0,0.0,4.5
+313,Lyon,318,Lille,2021,2,1,0.5,3.5
+307,Angers,325,Bordeaux,2021,2,0,0.0,2.5
+321,Montpellier,327,Nimes,2021,2,1,0.5,1.5
+312,Marseille,316,Strasbourg,2021,2,1,0.5,1.5
+312,Marseille,318,Lille,2021,2,1,0.5,2.0
+307,Angers,310,Nantes,2021,2,1,0.5,3.0
+314,Lorient,327,Nimes,2021,2,0,0.0,2.0
+310,Nantes,311,Paris SG,2021,2,0,0.0,3.0
+307,Angers,326,Dijon,2021,2,0,0.0,2.0
+311,Paris SG,314,Lorient,2021,2,0,0.0,3.5
+307,Angers,313,Lyon,2021,2,0,0.0,2.0
+311,Paris SG,327,Nimes,2021,2,0,0.0,3.5
+304,Monaco,305,Nice,2021,2,0,0.0,3.0
+304,Monaco,321,Montpellier,2021,2,1,0.5,3.5
+306,Brest,318,Lille,2021,2,1,0.5,2.5
+302,Rennes,307,Angers,2021,2,0,0.0,3.0
+302,Rennes,310,Nantes,2021,2,1,0.5,0.5
+305,Nice,309,Metz,2021,2,1,0.5,2.5
+302,Rennes,304,Monaco,2021,2,0,0.0,3.0
+304,Monaco,327,Nimes,2021,2,0,0.0,5.0
+320,St Etienne,321,Montpellier,2021,2,0,0.0,2.0
+312,Marseille,314,Lorient,2021,2,0,0.0,3.0
+306,Brest,310,Nantes,2021,2,0,0.0,4.5
+310,Nantes,318,Lille,2021,2,0,0.0,2.0
+305,Nice,327,Nimes,2021,2,0,0.0,2.5
+316,Strasbourg,318,Lille,2021,2,1,0.5,2.5
+305,Nice,313,Lyon,2021,2,0,0.0,5.0
+314,Lorient,326,Dijon,2021,2,1,0.5,2.5
+303,Lens,306,Brest,2021,2,1,0.5,2.5
+307,Angers,316,Strasbourg,2021,2,1,0.5,1.0
+307,Angers,314,Lorient,2021,2,0,0.0,2.0
+318,Lille,320,St Etienne,2021,2,2,1.0,1.0
+309,Metz,327,Nimes,2021,2,0,0.0,2.0
+306,Brest,314,Lorient,2021,2,0,0.0,3.0
+318,Lille,326,Dijon,2021,2,0,0.0,1.5
+310,Nantes,319,Reims,2021,2,0,0.0,4.0
+305,Nice,310,Nantes,2021,2,0,0.0,3.0
+302,Rennes,319,Reims,2021,2,2,1.0,4.0

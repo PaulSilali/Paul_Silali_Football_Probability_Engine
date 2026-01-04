@@ -1,0 +1,191 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+268,Frosinone,285,Ascoli,1920,2,0,0.0,2.0
+261,Empoli,266,Venezia,1920,2,1,0.5,2.0
+268,Frosinone,271,Juve Stabia,1920,2,1,0.5,3.0
+284,Cittadella,301,Livorno,1920,2,0,0.0,1.5
+262,Virtus Entella,271,Juve Stabia,1920,2,1,0.5,2.0
+266,Venezia,299,Chievo,1920,2,0,0.0,1.5
+285,Ascoli,300,Trapani,1920,2,0,0.0,4.0
+271,Juve Stabia,280,Pisa,1920,2,1,0.5,2.0
+266,Venezia,300,Trapani,1920,2,1,0.5,1.5
+281,Salernitana,298,Crotone,1920,2,1,0.5,3.5
+273,Cesena,292,Perugia,1920,2,1,0.5,3.5
+262,Virtus Entella,280,Pisa,1920,2,1,0.5,2.0
+283,Cremonese,299,Chievo,1920,2,0,0.0,1.0
+280,Pisa,284,Cittadella,1920,2,1,0.5,2.0
+280,Pisa,285,Ascoli,1920,2,0,0.0,1.0
+268,Frosinone,293,Benevento,1920,2,0,0.0,3.0
+262,Virtus Entella,266,Venezia,1920,2,1,0.5,3.0
+266,Venezia,301,Livorno,1920,2,0,0.0,1.5
+260,Pescara,301,Livorno,1920,2,0,0.0,1.5
+280,Pisa,301,Livorno,1920,2,0,0.0,1.0
+281,Salernitana,296,Pordenone,1920,2,1,0.5,3.0
+285,Ascoli,292,Perugia,1920,2,1,0.5,1.5
+281,Salernitana,292,Perugia,1920,2,1,0.5,1.5
+260,Pescara,281,Salernitana,1920,2,0,0.0,3.5
+262,Virtus Entella,285,Ascoli,1920,2,0,0.0,3.0
+268,Frosinone,296,Pordenone,1920,2,1,0.5,3.5
+280,Pisa,299,Chievo,1920,2,2,1.0,3.0
+265,Spezia,284,Cittadella,1920,2,1,0.5,2.5
+265,Spezia,271,Juve Stabia,1920,2,0,0.0,3.0
+271,Juve Stabia,296,Pordenone,1920,2,0,0.0,4.5
+265,Spezia,285,Ascoli,1920,2,0,0.0,3.5
+280,Pisa,296,Pordenone,1920,2,0,0.0,1.5
+260,Pescara,296,Pordenone,1920,2,0,0.0,4.0
+268,Frosinone,273,Cesena,1920,2,1,0.5,2.0
+293,Benevento,296,Pordenone,1920,2,1,0.5,2.5
+262,Virtus Entella,268,Frosinone,1920,2,0,0.0,1.0
+273,Cesena,301,Livorno,1920,2,1,0.5,2.5
+284,Cittadella,292,Perugia,1920,2,0,0.0,2.0
+262,Virtus Entella,293,Benevento,1920,2,1,0.5,3.0
+261,Empoli,262,Virtus Entella,1920,2,0,0.0,4.0
+262,Virtus Entella,300,Trapani,1920,2,1,0.5,3.5
+265,Spezia,283,Cremonese,1920,2,1,0.5,2.5
+283,Cremonese,298,Crotone,1920,2,0,0.0,2.0
+273,Cesena,284,Cittadella,1920,2,0,0.0,3.5
+268,Frosinone,284,Cittadella,1920,2,1,0.5,1.0
+284,Cittadella,299,Chievo,1920,2,1,0.5,3.5
+266,Venezia,293,Benevento,1920,2,1,0.5,2.0
+284,Cittadella,296,Pordenone,1920,2,1,0.5,1.0
+296,Pordenone,299,Chievo,1920,2,1,0.5,1.5
+271,Juve Stabia,284,Cittadella,1920,2,0,0.0,2.0
+271,Juve Stabia,273,Cesena,1920,2,0,0.0,2.5
+262,Virtus Entella,292,Perugia,1920,2,0,0.0,2.0
+261,Empoli,273,Cesena,1920,2,0,0.0,3.5
+284,Cittadella,285,Ascoli,1920,2,0,0.0,2.0
+292,Perugia,301,Livorno,1920,2,0,0.0,1.0
+260,Pescara,293,Benevento,1920,2,0,0.0,4.0
+261,Empoli,271,Juve Stabia,1920,2,0,0.0,2.0
+260,Pescara,271,Juve Stabia,1920,2,0,0.0,3.5
+260,Pescara,262,Virtus Entella,1920,2,1,0.5,2.0
+261,Empoli,296,Pordenone,1920,2,0,0.0,1.5
+266,Venezia,271,Juve Stabia,1920,2,0,0.0,1.5
+292,Perugia,296,Pordenone,1920,2,0,0.0,3.0
+296,Pordenone,298,Crotone,1920,2,0,0.0,1.0
+266,Venezia,283,Cremonese,1920,2,1,0.5,1.5
+271,Juve Stabia,293,Benevento,1920,2,1,0.5,1.5
+281,Salernitana,301,Livorno,1920,2,0,0.0,3.0
+265,Spezia,280,Pisa,1920,2,0,0.0,4.0
+281,Salernitana,300,Trapani,1920,2,0,0.0,1.0
+261,Empoli,281,Salernitana,1920,2,1,0.5,4.0
+260,Pescara,283,Cremonese,1920,2,1,0.5,1.5
+273,Cesena,293,Benevento,1920,2,0,0.0,1.0
+268,Frosinone,299,Chievo,1920,2,0,0.0,2.0
+285,Ascoli,301,Livorno,1920,2,0,0.0,2.5
+283,Cremonese,301,Livorno,1920,2,1,0.5,1.5
+285,Ascoli,293,Benevento,1920,2,0,0.0,5.0
+262,Virtus Entella,283,Cremonese,1920,2,1,0.5,1.5
+266,Venezia,284,Cittadella,1920,2,0,0.0,2.0
+293,Benevento,299,Chievo,1920,2,0,0.0,2.0
+284,Cittadella,298,Crotone,1920,2,1,0.5,3.0
+268,Frosinone,292,Perugia,1920,2,0,0.0,2.5
+262,Virtus Entella,296,Pordenone,1920,2,1,0.5,2.0
+296,Pordenone,300,Trapani,1920,2,0,0.0,3.0
+292,Perugia,299,Chievo,1920,2,0,0.0,2.5
+271,Juve Stabia,299,Chievo,1920,2,0,0.0,5.0
+280,Pisa,283,Cremonese,1920,2,0,0.0,6.0
+273,Cesena,300,Trapani,1920,2,2,1.0,4.0
+281,Salernitana,293,Benevento,1920,2,1,0.5,2.0
+268,Frosinone,300,Trapani,1920,2,1,0.5,1.5
+261,Empoli,285,Ascoli,1920,2,0,0.0,2.0
+265,Spezia,268,Frosinone,1920,2,0,0.0,2.5
+284,Cittadella,293,Benevento,1920,2,0,0.0,4.0
+262,Virtus Entella,265,Spezia,1920,2,2,1.0,
+271,Juve Stabia,292,Perugia,1920,2,1,0.5,1.5
+283,Cremonese,296,Pordenone,1920,2,1,0.5,2.5
+271,Juve Stabia,281,Salernitana,1920,2,0,0.0,2.5
+260,Pescara,299,Chievo,1920,2,1,0.5,0.5
+262,Virtus Entella,284,Cittadella,1920,2,0,0.0,4.5
+260,Pescara,273,Cesena,1920,2,0,0.0,3.0
+271,Juve Stabia,298,Crotone,1920,2,0,0.0,3.5
+292,Perugia,300,Trapani,1920,2,1,0.5,3.5
+266,Venezia,285,Ascoli,1920,2,1,0.5,2.5
+261,Empoli,300,Trapani,1920,2,2,1.0,3.0
+271,Juve Stabia,285,Ascoli,1920,2,1,0.5,5.0
+260,Pescara,300,Trapani,1920,2,1,0.5,1.5
+266,Venezia,298,Crotone,1920,2,0,0.0,4.5
+281,Salernitana,299,Chievo,1920,2,1,0.5,2.0
+260,Pescara,266,Venezia,1920,2,2,1.0,3.0
+280,Pisa,293,Benevento,1920,2,2,1.0,1.0
+280,Pisa,292,Perugia,1920,2,0,0.0,1.0
+280,Pisa,300,Trapani,1920,2,0,0.0,4.5
+261,Empoli,292,Perugia,1920,2,0,0.0,2.0
+261,Empoli,284,Cittadella,1920,2,0,0.0,2.0
+299,Chievo,300,Trapani,1920,2,1,0.5,1.5
+273,Cesena,280,Pisa,1920,2,0,0.0,3.5
+266,Venezia,296,Pordenone,1920,2,1,0.5,1.5
+283,Cremonese,293,Benevento,1920,2,0,0.0,1.5
+260,Pescara,292,Perugia,1920,2,1,0.5,4.0
+298,Crotone,301,Livorno,1920,2,0,0.0,4.5
+261,Empoli,301,Livorno,1920,2,1,0.5,2.0
+268,Frosinone,298,Crotone,1920,2,0,0.0,2.0
+265,Spezia,266,Venezia,1920,2,1,0.5,0.5
+271,Juve Stabia,283,Cremonese,1920,2,1,0.5,2.5
+299,Chievo,301,Livorno,1920,2,0,0.0,4.0
+261,Empoli,298,Crotone,1920,2,1,0.5,2.0
+262,Virtus Entella,273,Cesena,1920,2,0,0.0,2.0
+293,Benevento,301,Livorno,1920,2,0,0.0,3.0
+292,Perugia,293,Benevento,1920,2,0,0.0,2.0
+260,Pescara,298,Crotone,1920,2,0,0.0,4.0
+292,Perugia,298,Crotone,1920,2,1,0.5,2.5
+265,Spezia,300,Trapani,1920,2,1,0.5,4.0
+265,Spezia,273,Cesena,1920,2,1,0.5,4.0
+260,Pescara,268,Frosinone,1920,2,1,0.5,2.0
+260,Pescara,261,Empoli,1920,2,1,0.5,2.5
+298,Crotone,299,Chievo,1920,2,1,0.5,2.5
+280,Pisa,298,Crotone,1920,2,1,0.5,1.5
+265,Spezia,292,Perugia,1920,2,1,0.5,3.5
+284,Cittadella,300,Trapani,1920,2,0,0.0,2.5
+265,Spezia,281,Salernitana,1920,2,0,0.0,3.0
+265,Spezia,293,Benevento,1920,2,0,0.0,2.5
+281,Salernitana,283,Cremonese,1920,2,1,0.5,3.5
+262,Virtus Entella,299,Chievo,1920,2,1,0.5,2.5
+268,Frosinone,283,Cremonese,1920,2,1,0.5,2.0
+265,Spezia,296,Pordenone,1920,2,0,0.0,1.0
+273,Cesena,298,Crotone,1920,2,1,0.5,0.5
+273,Cesena,285,Ascoli,1920,2,0,0.0,3.0
+285,Ascoli,299,Chievo,1920,2,1,0.5,2.0
+266,Venezia,268,Frosinone,1920,2,1,0.5,1.5
+261,Empoli,283,Cremonese,1920,2,1,0.5,3.5
+262,Virtus Entella,281,Salernitana,1920,2,0,0.0,2.0
+271,Juve Stabia,300,Trapani,1920,2,1,0.5,3.5
+260,Pescara,285,Ascoli,1920,2,0,0.0,2.5
+260,Pescara,284,Cittadella,1920,2,0,0.0,3.0
+283,Cremonese,285,Ascoli,1920,2,0,0.0,2.5
+262,Virtus Entella,301,Livorno,1920,2,1,0.5,4.5
+266,Venezia,292,Perugia,1920,2,0,0.0,2.5
+285,Ascoli,296,Pordenone,1920,2,1,0.5,3.5
+268,Frosinone,301,Livorno,1920,2,1,0.5,2.5
+261,Empoli,280,Pisa,1920,2,0,0.0,4.0
+266,Venezia,280,Pisa,1920,2,1,0.5,2.5
+283,Cremonese,300,Trapani,1920,2,1,0.5,2.5
+285,Ascoli,298,Crotone,1920,2,1,0.5,3.0
+283,Cremonese,284,Cittadella,1920,2,1,0.5,1.0
+261,Empoli,299,Chievo,1920,2,2,1.0,2.0
+268,Frosinone,280,Pisa,1920,2,2,1.0,1.0
+261,Empoli,268,Frosinone,1920,2,0,0.0,3.0
+265,Spezia,299,Chievo,1920,2,1,0.5,2.0
+281,Salernitana,284,Cittadella,1920,2,0,0.0,6.0
+283,Cremonese,292,Perugia,1920,2,1,0.5,1.5
+273,Cesena,281,Salernitana,1920,2,0,0.0,2.0
+293,Benevento,298,Crotone,1920,2,0,0.0,2.5
+281,Salernitana,285,Ascoli,1920,2,1,0.5,3.5
+280,Pisa,281,Salernitana,1920,2,1,0.5,2.5
+265,Spezia,298,Crotone,1920,2,0,0.0,3.0
+271,Juve Stabia,301,Livorno,1920,2,0,0.0,4.0
+261,Empoli,293,Benevento,1920,2,1,0.5,1.0
+260,Pescara,280,Pisa,1920,2,0,0.0,3.0
+300,Trapani,301,Livorno,1920,2,0,0.0,3.0
+265,Spezia,301,Livorno,1920,2,0,0.0,1.5
+293,Benevento,300,Trapani,1920,2,0,0.0,3.5
+273,Cesena,296,Pordenone,1920,2,0,0.0,3.0
+261,Empoli,265,Spezia,1920,2,1,0.5,1.5
+266,Venezia,273,Cesena,1920,2,2,1.0,2.0
+298,Crotone,300,Trapani,1920,2,0,0.0,2.5
+273,Cesena,283,Cremonese,1920,2,0,0.0,2.0
+296,Pordenone,301,Livorno,1920,2,1,0.5,3.5
+260,Pescara,265,Spezia,1920,2,0,0.0,2.5
+262,Virtus Entella,298,Crotone,1920,2,0,0.0,3.5
+273,Cesena,299,Chievo,1920,2,1,0.5,2.0
+266,Venezia,281,Salernitana,1920,2,0,0.0,1.5
+268,Frosinone,281,Salernitana,1920,2,1,0.5,1.5

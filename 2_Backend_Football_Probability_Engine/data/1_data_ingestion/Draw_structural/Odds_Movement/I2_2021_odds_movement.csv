@@ -1,0 +1,379 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+I2,2021,2020-09-25,Monza,Spal,3.22,3.22,0.0
+I2,2021,2020-09-26,Pescara,Chievo,3.02,3.02,0.0
+I2,2021,2020-09-26,Frosinone,Empoli,3.04,3.04,0.0
+I2,2021,2020-09-26,Salernitana,Reggiana,3.26,3.26,0.0
+I2,2021,2020-09-26,Venezia,Venezia,3.17,3.17,0.0
+I2,2021,2020-09-26,Lecco,Pordenone,3.27,3.27,0.0
+I2,2021,2020-09-26,Brescia,Ascoli,3.33,3.33,0.0
+I2,2021,2020-09-26,Cesena,Virtus Entella,3.11,3.11,0.0
+I2,2021,2020-09-27,Reggiana,Pisa,3.02,3.02,0.0
+I2,2021,2020-09-27,Cremonese,Cittadella,3.08,3.08,0.0
+I2,2021,2020-10-03,Ascoli,Lecco,3.08,3.08,0.0
+I2,2021,2020-10-03,Empoli,Monza,3.02,3.02,0.0
+I2,2021,2020-10-03,Reggiana,Pescara,3.07,3.07,0.0
+I2,2021,2020-10-03,Spal,Cesena,3.29,3.29,0.0
+I2,2021,2020-10-03,Venezia,Pordenone,2.93,2.93,0.0
+I2,2021,2020-10-03,Virtus Entella,Reggiana,3.05,3.05,0.0
+I2,2021,2020-10-03,Venezia,Frosinone,2.79,2.79,0.0
+I2,2021,2020-10-03,Chievo,Salernitana,3.18,3.18,0.0
+I2,2021,2020-10-04,Cittadella,Brescia,3.05,3.05,0.0
+I2,2021,2020-10-04,Pisa,Cremonese,2.91,2.91,0.0
+I2,2021,2020-10-16,Brescia,Lecco,3.2,3.2,0.0
+I2,2021,2020-10-17,Pordenone,Spal,3.09,3.09,0.0
+I2,2021,2020-10-17,Cesena,Cittadella,3.02,3.02,0.0
+I2,2021,2020-10-17,Cremonese,Venezia,3.03,3.03,0.0
+I2,2021,2020-10-17,Frosinone,Ascoli,3.37,3.37,0.0
+I2,2021,2020-10-17,Reggiana,Chievo,2.97,2.97,0.0
+I2,2021,2020-10-17,Salernitana,Pisa,3.15,3.15,0.0
+I2,2021,2020-10-17,Virtus Entella,Reggiana,3.07,3.07,0.0
+I2,2021,2020-10-17,Pescara,Empoli,3.1,3.1,0.0
+I2,2021,2020-10-20,Chievo,Brescia,3.12,3.12,0.0
+I2,2021,2020-10-20,Cittadella,Pordenone,3.09,3.09,0.0
+I2,2021,2020-10-20,Empoli,Spal,2.98,2.98,0.0
+I2,2021,2020-10-20,Frosinone,Virtus Entella,3.19,3.19,0.0
+I2,2021,2020-10-20,Pisa,Monza,3.31,3.31,0.0
+I2,2021,2020-10-20,Reggiana,Cesena,3.25,3.25,0.0
+I2,2021,2020-10-20,Venezia,Pescara,3.08,3.08,0.0
+I2,2021,2020-10-20,Venezia,Salernitana,3.07,3.07,0.0
+I2,2021,2020-10-20,Ascoli,Reggiana,3.17,3.17,0.0
+I2,2021,2020-10-21,Lecco,Cremonese,3.41,3.41,0.0
+I2,2021,2020-10-23,Empoli,Pisa,3.19,3.19,0.0
+I2,2021,2020-10-24,Pordenone,Reggiana,3.12,3.12,0.0
+I2,2021,2020-10-24,Salernitana,Ascoli,3.13,3.13,0.0
+I2,2021,2020-10-24,Spal,Venezia,3.21,3.21,0.0
+I2,2021,2020-10-24,Pescara,Frosinone,3.06,3.06,0.0
+I2,2021,2020-10-24,Monza,Chievo,2.98,2.98,0.0
+I2,2021,2020-10-25,Cesena,Lecco,3.14,3.14,0.0
+I2,2021,2020-10-31,Brescia,Virtus Entella,3.05,3.05,0.0
+I2,2021,2020-10-31,Cittadella,Monza,2.98,2.98,0.0
+I2,2021,2020-10-31,Ascoli,Pordenone,3.13,3.13,0.0
+I2,2021,2020-10-31,Chievo,Cesena,3.5,3.5,0.0
+I2,2021,2020-10-31,Venezia,Empoli,3.18,3.18,0.0
+I2,2021,2020-10-31,Venezia,Pisa,3.22,3.22,0.0
+I2,2021,2020-11-01,Reggiana,Spal,3.1,3.1,0.0
+I2,2021,2020-11-01,Frosinone,Cremonese,3.13,3.13,0.0
+I2,2021,2020-11-02,Lecco,Pescara,3.91,3.91,0.0
+I2,2021,2020-11-06,Spal,Salernitana,3.08,3.08,0.0
+I2,2021,2020-11-07,Cremonese,Venezia,2.89,2.89,0.0
+I2,2021,2020-11-07,Monza,Frosinone,3.12,3.12,0.0
+I2,2021,2020-11-07,Pordenone,Chievo,2.97,2.97,0.0
+I2,2021,2020-11-07,Empoli,Reggiana,3.18,3.18,0.0
+I2,2021,2020-11-07,Cesena,Brescia,3.0,3.0,0.0
+I2,2021,2020-11-08,Reggiana,Venezia,3.22,3.22,0.0
+I2,2021,2020-11-08,Virtus Entella,Lecco,2.96,2.96,0.0
+I2,2021,2020-11-08,Pescara,Cittadella,2.97,2.97,0.0
+I2,2021,2020-11-14,Virtus Entella,Venezia,2.94,2.94,0.0
+I2,2021,2020-11-20,Frosinone,Cesena,3.63,3.63,0.0
+I2,2021,2020-11-21,Cittadella,Empoli,3.09,3.09,0.0
+I2,2021,2020-11-21,Lecco,Reggiana,3.77,3.77,0.0
+I2,2021,2020-11-21,Pordenone,Monza,2.97,2.97,0.0
+I2,2021,2020-11-21,Spal,Pescara,3.71,3.71,0.0
+I2,2021,2020-11-21,Brescia,Venezia,3.21,3.21,0.0
+I2,2021,2020-11-22,Reggiana,Pisa,3.18,3.18,0.0
+I2,2021,2020-11-22,Ascoli,Virtus Entella,3.03,3.03,0.0
+I2,2021,2020-11-23,Salernitana,Cremonese,3.17,3.17,0.0
+I2,2021,2020-11-27,Chievo,Lecco,3.12,3.12,0.0
+I2,2021,2020-11-28,Empoli,Venezia,3.31,3.31,0.0
+I2,2021,2020-11-28,Pescara,Pordenone,2.9,2.9,0.0
+I2,2021,2020-11-28,Pisa,Cittadella,3.0,3.0,0.0
+I2,2021,2020-11-28,Venezia,Ascoli,3.52,3.52,0.0
+I2,2021,2020-11-28,Monza,Reggiana,3.39,3.39,0.0
+I2,2021,2020-11-28,Brescia,Frosinone,3.13,3.13,0.0
+I2,2021,2020-11-29,Cesena,Salernitana,2.83,2.83,0.0
+I2,2021,2020-11-29,Reggiana,Cremonese,2.9,2.9,0.0
+I2,2021,2020-11-30,Virtus Entella,Spal,3.08,3.08,0.0
+I2,2021,2020-12-02,Monza,Venezia,3.67,3.67,0.0
+I2,2021,2020-12-04,Ascoli,Pescara,3.02,3.02,0.0
+I2,2021,2020-12-05,Frosinone,Chievo,3.03,3.03,0.0
+I2,2021,2020-12-05,Lecco,Venezia,3.35,3.35,0.0
+I2,2021,2020-12-05,Salernitana,Cittadella,3.16,3.16,0.0
+I2,2021,2020-12-05,Spal,Pisa,3.22,3.22,0.0
+I2,2021,2020-12-05,Cremonese,Virtus Entella,3.01,3.01,0.0
+I2,2021,2020-12-05,Reggiana,Brescia,3.0,3.0,0.0
+I2,2021,2020-12-06,Venezia,Cesena,3.16,3.16,0.0
+I2,2021,2020-12-06,Reggiana,Monza,3.44,3.44,0.0
+I2,2021,2020-12-07,Pordenone,Empoli,3.11,3.11,0.0
+I2,2021,2020-12-08,Cremonese,Brescia,3.06,3.06,0.0
+I2,2021,2020-12-08,Pisa,Ascoli,3.38,3.38,0.0
+I2,2021,2020-12-11,Chievo,Reggiana,3.18,3.18,0.0
+I2,2021,2020-12-11,Venezia,Monza,3.08,3.08,0.0
+I2,2021,2020-12-12,Lecco,Frosinone,3.27,3.27,0.0
+I2,2021,2020-12-12,Pisa,Pordenone,2.95,2.95,0.0
+I2,2021,2020-12-12,Virtus Entella,Empoli,3.27,3.27,0.0
+I2,2021,2020-12-12,Pescara,Venezia,2.99,2.99,0.0
+I2,2021,2020-12-12,Cittadella,Spal,3.02,3.02,0.0
+I2,2021,2020-12-12,Cesena,Reggiana,3.29,3.29,0.0
+I2,2021,2020-12-12,Cremonese,Ascoli,3.36,3.36,0.0
+I2,2021,2020-12-12,Brescia,Salernitana,3.12,3.12,0.0
+I2,2021,2020-12-14,Reggiana,Venezia,3.05,3.05,0.0
+I2,2021,2020-12-15,Ascoli,Cesena,3.11,3.11,0.0
+I2,2021,2020-12-15,Cittadella,Venezia,3.4,3.4,0.0
+I2,2021,2020-12-15,Empoli,Cremonese,3.37,3.37,0.0
+I2,2021,2020-12-15,Monza,Virtus Entella,3.86,3.86,0.0
+I2,2021,2020-12-15,Pisa,Pescara,3.23,3.23,0.0
+I2,2021,2020-12-15,Pordenone,Brescia,3.14,3.14,0.0
+I2,2021,2020-12-15,Salernitana,Lecco,3.58,3.58,0.0
+I2,2021,2020-12-15,Spal,Chievo,3.11,3.11,0.0
+I2,2021,2020-12-15,Reggiana,Frosinone,3.23,3.23,0.0
+I2,2021,2020-12-18,Frosinone,Salernitana,3.17,3.17,0.0
+I2,2021,2020-12-18,Virtus Entella,Pordenone,3.1,3.1,0.0
+I2,2021,2020-12-19,Chievo,Empoli,2.99,2.99,0.0
+I2,2021,2020-12-19,Cremonese,Cesena,3.37,3.37,0.0
+I2,2021,2020-12-19,Lecco,Pisa,4.22,4.22,0.0
+I2,2021,2020-12-19,Reggiana,Cittadella,3.23,3.23,0.0
+I2,2021,2020-12-19,Venezia,Ascoli,3.31,3.31,0.0
+I2,2021,2020-12-19,Pescara,Monza,3.3,3.3,0.0
+I2,2021,2020-12-19,Venezia,Spal,3.13,3.13,0.0
+I2,2021,2020-12-19,Brescia,Reggiana,3.61,3.61,0.0
+I2,2021,2020-12-21,Salernitana,Virtus Entella,3.33,3.33,0.0
+I2,2021,2020-12-22,Cesena,Venezia,2.96,2.96,0.0
+I2,2021,2020-12-22,Monza,Ascoli,4.47,4.47,0.0
+I2,2021,2020-12-22,Pescara,Brescia,3.13,3.13,0.0
+I2,2021,2020-12-22,Pisa,Chievo,3.13,3.13,0.0
+I2,2021,2020-12-22,Cittadella,Frosinone,2.97,2.97,0.0
+I2,2021,2020-12-22,Spal,Lecco,3.25,3.25,0.0
+I2,2021,2020-12-22,Venezia,Reggiana,3.04,3.04,0.0
+I2,2021,2020-12-22,Empoli,Reggiana,3.91,3.91,0.0
+I2,2021,2020-12-22,Pordenone,Cremonese,3.1,3.1,0.0
+I2,2021,2020-12-27,Brescia,Empoli,3.18,3.18,0.0
+I2,2021,2020-12-27,Reggiana,Reggiana,2.94,2.94,0.0
+I2,2021,2020-12-27,Ascoli,Spal,3.36,3.36,0.0
+I2,2021,2020-12-27,Cesena,Pisa,3.27,3.27,0.0
+I2,2021,2020-12-27,Frosinone,Pordenone,3.06,3.06,0.0
+I2,2021,2020-12-27,Lecco,Venezia,3.86,3.86,0.0
+I2,2021,2020-12-27,Venezia,Salernitana,3.14,3.14,0.0
+I2,2021,2020-12-27,Virtus Entella,Pescara,2.94,2.94,0.0
+I2,2021,2020-12-27,Cremonese,Monza,2.93,2.93,0.0
+I2,2021,2020-12-30,Pordenone,Reggiana,3.41,3.41,0.0
+I2,2021,2020-12-30,Reggiana,Cremonese,3.09,3.09,0.0
+I2,2021,2020-12-30,Monza,Salernitana,3.45,3.45,0.0
+I2,2021,2020-12-30,Empoli,Ascoli,4.25,4.25,0.0
+I2,2021,2020-12-30,Cittadella,Lecco,3.25,3.25,0.0
+I2,2021,2020-12-30,Spal,Brescia,3.24,3.24,0.0
+I2,2021,2020-12-30,Venezia,Virtus Entella,3.37,3.37,0.0
+I2,2021,2020-12-30,Chievo,Venezia,3.03,3.03,0.0
+I2,2021,2020-12-30,Pescara,Cesena,3.01,3.01,0.0
+I2,2021,2021-01-04,Cesena,Empoli,3.05,3.05,0.0
+I2,2021,2021-01-04,Lecco,Monza,3.33,3.33,0.0
+I2,2021,2021-01-04,Ascoli,Reggiana,2.92,2.92,0.0
+I2,2021,2021-01-04,Cremonese,Chievo,2.96,2.96,0.0
+I2,2021,2021-01-04,Frosinone,Spal,2.98,2.98,0.0
+I2,2021,2021-01-04,Reggiana,Pescara,3.12,3.12,0.0
+I2,2021,2021-01-04,Salernitana,Pordenone,3.21,3.21,0.0
+I2,2021,2021-01-04,Virtus Entella,Cittadella,3.14,3.14,0.0
+I2,2021,2021-01-04,Brescia,Venezia,3.17,3.17,0.0
+I2,2021,2021-01-04,Venezia,Pisa,3.2,3.2,0.0
+I2,2021,2021-01-09,Reggiana,Cittadella,3.26,3.26,0.0
+I2,2021,2021-01-15,Chievo,Virtus Entella,3.56,3.56,0.0
+I2,2021,2021-01-15,Venezia,Frosinone,2.96,2.96,0.0
+I2,2021,2021-01-16,Cittadella,Ascoli,4.11,4.11,0.0
+I2,2021,2021-01-16,Monza,Cesena,4.31,4.31,0.0
+I2,2021,2021-01-16,Pisa,Brescia,2.96,2.96,0.0
+I2,2021,2021-01-16,Pordenone,Venezia,2.97,2.97,0.0
+I2,2021,2021-01-16,Reggiana,Lecco,3.21,3.21,0.0
+I2,2021,2021-01-17,Empoli,Salernitana,3.6,3.6,0.0
+I2,2021,2021-01-17,Pescara,Cremonese,2.89,2.89,0.0
+I2,2021,2021-01-18,Spal,Reggiana,4.12,4.12,0.0
+I2,2021,2021-01-19,Venezia,Chievo,3.11,3.11,0.0
+I2,2021,2021-01-22,Virtus Entella,Pisa,3.12,3.12,0.0
+I2,2021,2021-01-23,Cesena,Pordenone,2.79,2.79,0.0
+I2,2021,2021-01-23,Frosinone,Reggiana,2.81,2.81,0.0
+I2,2021,2021-01-23,Reggiana,Venezia,3.07,3.07,0.0
+I2,2021,2021-01-23,Venezia,Cittadella,2.89,2.89,0.0
+I2,2021,2021-01-23,Salernitana,Pescara,3.14,3.14,0.0
+I2,2021,2021-01-23,Ascoli,Chievo,3.17,3.17,0.0
+I2,2021,2021-01-24,Cremonese,Spal,2.87,2.87,0.0
+I2,2021,2021-01-24,Lecco,Empoli,3.17,3.17,0.0
+I2,2021,2021-01-25,Brescia,Monza,3.18,3.18,0.0
+I2,2021,2021-01-27,Chievo,Cittadella,2.94,2.94,0.0
+I2,2021,2021-01-29,Venezia,Venezia,2.9,2.9,0.0
+I2,2021,2021-01-30,Empoli,Frosinone,3.5,3.5,0.0
+I2,2021,2021-01-30,Ascoli,Brescia,3.14,3.14,0.0
+I2,2021,2021-01-30,Pordenone,Lecco,3.02,3.02,0.0
+I2,2021,2021-01-30,Virtus Entella,Cesena,2.96,2.96,0.0
+I2,2021,2021-01-30,Pisa,Reggiana,3.38,3.38,0.0
+I2,2021,2021-01-31,Spal,Monza,3.02,3.02,0.0
+I2,2021,2021-01-31,Cittadella,Cremonese,3.09,3.09,0.0
+I2,2021,2021-01-31,Chievo,Pescara,3.75,3.75,0.0
+I2,2021,2021-02-01,Reggiana,Salernitana,3.1,3.1,0.0
+I2,2021,2021-02-02,Pisa,Frosinone,2.97,2.97,0.0
+I2,2021,2021-02-05,Lecco,Ascoli,3.87,3.87,0.0
+I2,2021,2021-02-06,Frosinone,Venezia,2.82,2.82,0.0
+I2,2021,2021-02-06,Cesena,Spal,2.91,2.91,0.0
+I2,2021,2021-02-06,Pescara,Reggiana,3.03,3.03,0.0
+I2,2021,2021-02-06,Salernitana,Chievo,3.05,3.05,0.0
+I2,2021,2021-02-06,Monza,Empoli,3.14,3.14,0.0
+I2,2021,2021-02-06,Pordenone,Venezia,3.19,3.19,0.0
+I2,2021,2021-02-06,Brescia,Cittadella,3.07,3.07,0.0
+I2,2021,2021-02-06,Cremonese,Pisa,3.09,3.09,0.0
+I2,2021,2021-02-07,Reggiana,Virtus Entella,2.86,2.86,0.0
+I2,2021,2021-02-09,Lecco,Brescia,3.7,3.7,0.0
+I2,2021,2021-02-09,Cittadella,Cesena,3.58,3.58,0.0
+I2,2021,2021-02-09,Empoli,Pescara,4.04,4.04,0.0
+I2,2021,2021-02-09,Pisa,Salernitana,3.04,3.04,0.0
+I2,2021,2021-02-09,Spal,Pordenone,3.07,3.07,0.0
+I2,2021,2021-02-09,Venezia,Cremonese,2.87,2.87,0.0
+I2,2021,2021-02-09,Venezia,Monza,3.09,3.09,0.0
+I2,2021,2021-02-09,Ascoli,Frosinone,2.96,2.96,0.0
+I2,2021,2021-02-10,Chievo,Reggiana,4.21,4.21,0.0
+I2,2021,2021-02-10,Reggiana,Virtus Entella,3.23,3.23,0.0
+I2,2021,2021-02-12,Monza,Pisa,3.5,3.5,0.0
+I2,2021,2021-02-13,Cremonese,Lecco,3.03,3.03,0.0
+I2,2021,2021-02-13,Pescara,Venezia,2.93,2.93,0.0
+I2,2021,2021-02-13,Pordenone,Cittadella,2.87,2.87,0.0
+I2,2021,2021-02-13,Spal,Empoli,2.97,2.97,0.0
+I2,2021,2021-02-13,Salernitana,Venezia,2.96,2.96,0.0
+I2,2021,2021-02-14,Reggiana,Ascoli,2.94,2.94,0.0
+I2,2021,2021-02-14,Brescia,Chievo,3.1,3.1,0.0
+I2,2021,2021-02-14,Virtus Entella,Frosinone,2.77,2.77,0.0
+I2,2021,2021-02-15,Cesena,Reggiana,3.0,3.0,0.0
+I2,2021,2021-02-19,Frosinone,Pescara,3.15,3.15,0.0
+I2,2021,2021-02-20,Brescia,Cremonese,3.04,3.04,0.0
+I2,2021,2021-02-20,Cittadella,Reggiana,3.71,3.71,0.0
+I2,2021,2021-02-20,Venezia,Virtus Entella,3.33,3.33,0.0
+I2,2021,2021-02-20,Venezia,Spal,3.0,3.0,0.0
+I2,2021,2021-02-20,Chievo,Monza,2.87,2.87,0.0
+I2,2021,2021-02-20,Pisa,Empoli,3.24,3.24,0.0
+I2,2021,2021-02-20,Ascoli,Salernitana,2.98,2.98,0.0
+I2,2021,2021-02-21,Lecco,Cesena,3.37,3.37,0.0
+I2,2021,2021-02-21,Reggiana,Pordenone,2.93,2.93,0.0
+I2,2021,2021-02-26,Empoli,Venezia,3.18,3.18,0.0
+I2,2021,2021-02-26,Reggiana,Salernitana,2.92,2.92,0.0
+I2,2021,2021-02-27,Pisa,Venezia,2.96,2.96,0.0
+I2,2021,2021-02-27,Pordenone,Ascoli,3.0,3.0,0.0
+I2,2021,2021-02-27,Spal,Reggiana,3.03,3.03,0.0
+I2,2021,2021-02-27,Monza,Cittadella,3.14,3.14,0.0
+I2,2021,2021-02-27,Virtus Entella,Brescia,2.93,2.93,0.0
+I2,2021,2021-02-27,Cremonese,Frosinone,3.0,3.0,0.0
+I2,2021,2021-02-27,Pescara,Lecco,3.35,3.35,0.0
+I2,2021,2021-02-27,Cesena,Chievo,2.96,2.96,0.0
+I2,2021,2021-03-01,Venezia,Reggiana,3.43,3.43,0.0
+I2,2021,2021-03-02,Ascoli,Pisa,3.06,3.06,0.0
+I2,2021,2021-03-02,Brescia,Cesena,3.18,3.18,0.0
+I2,2021,2021-03-02,Chievo,Pordenone,3.11,3.11,0.0
+I2,2021,2021-03-02,Cittadella,Pescara,3.47,3.47,0.0
+I2,2021,2021-03-02,Frosinone,Monza,2.97,2.97,0.0
+I2,2021,2021-03-02,Reggiana,Empoli,3.02,3.02,0.0
+I2,2021,2021-03-02,Salernitana,Spal,3.0,3.0,0.0
+I2,2021,2021-03-02,Venezia,Cremonese,3.0,3.0,0.0
+I2,2021,2021-03-02,Lecco,Virtus Entella,3.93,3.93,0.0
+I2,2021,2021-03-06,Monza,Pordenone,3.51,3.51,0.0
+I2,2021,2021-03-06,Cesena,Frosinone,2.87,2.87,0.0
+I2,2021,2021-03-06,Cremonese,Salernitana,3.15,3.15,0.0
+I2,2021,2021-03-06,Pescara,Spal,2.97,2.97,0.0
+I2,2021,2021-03-06,Pisa,Reggiana,2.96,2.96,0.0
+I2,2021,2021-03-06,Virtus Entella,Ascoli,2.96,2.96,0.0
+I2,2021,2021-03-06,Venezia,Brescia,3.3,3.3,0.0
+I2,2021,2021-03-07,Reggiana,Lecco,3.22,3.22,0.0
+I2,2021,2021-03-07,Empoli,Cittadella,3.41,3.41,0.0
+I2,2021,2021-03-08,Chievo,Venezia,3.44,3.44,0.0
+I2,2021,2021-03-12,Spal,Virtus Entella,3.27,3.27,0.0
+I2,2021,2021-03-12,Cittadella,Pisa,3.21,3.21,0.0
+I2,2021,2021-03-13,Ascoli,Venezia,3.01,3.01,0.0
+I2,2021,2021-03-13,Frosinone,Brescia,2.85,2.85,0.0
+I2,2021,2021-03-13,Lecco,Chievo,3.07,3.07,0.0
+I2,2021,2021-03-13,Pordenone,Pescara,3.08,3.08,0.0
+I2,2021,2021-03-13,Reggiana,Monza,2.99,2.99,0.0
+I2,2021,2021-03-13,Salernitana,Cesena,2.9,2.9,0.0
+I2,2021,2021-03-13,Venezia,Empoli,3.06,3.06,0.0
+I2,2021,2021-03-13,Cremonese,Reggiana,3.41,3.41,0.0
+I2,2021,2021-03-15,Pisa,Spal,3.0,3.0,0.0
+I2,2021,2021-03-16,Monza,Reggiana,4.18,4.18,0.0
+I2,2021,2021-03-16,Virtus Entella,Cremonese,3.13,3.13,0.0
+I2,2021,2021-03-16,Cesena,Venezia,2.86,2.86,0.0
+I2,2021,2021-03-16,Venezia,Lecco,3.03,3.03,0.0
+I2,2021,2021-03-16,Brescia,Reggiana,2.97,2.97,0.0
+I2,2021,2021-03-16,Chievo,Frosinone,2.89,2.89,0.0
+I2,2021,2021-03-16,Cittadella,Salernitana,3.16,3.16,0.0
+I2,2021,2021-03-16,Empoli,Pordenone,3.79,3.79,0.0
+I2,2021,2021-03-16,Pescara,Ascoli,2.93,2.93,0.0
+I2,2021,2021-03-19,Ascoli,Cremonese,2.97,2.97,0.0
+I2,2021,2021-03-20,Venezia,Pescara,3.14,3.14,0.0
+I2,2021,2021-03-20,Monza,Venezia,3.0,3.0,0.0
+I2,2021,2021-03-20,Spal,Cittadella,2.98,2.98,0.0
+I2,2021,2021-03-20,Empoli,Virtus Entella,4.08,4.08,0.0
+I2,2021,2021-03-20,Reggiana,Cesena,2.93,2.93,0.0
+I2,2021,2021-03-20,Frosinone,Lecco,3.05,3.05,0.0
+I2,2021,2021-03-21,Reggiana,Chievo,2.81,2.81,0.0
+I2,2021,2021-03-21,Salernitana,Brescia,2.93,2.93,0.0
+I2,2021,2021-04-02,Frosinone,Reggiana,3.53,3.53,0.0
+I2,2021,2021-04-02,Pescara,Pisa,3.03,3.03,0.0
+I2,2021,2021-04-02,Brescia,Pordenone,2.93,2.93,0.0
+I2,2021,2021-04-02,Chievo,Spal,3.11,3.11,0.0
+I2,2021,2021-04-02,Lecco,Salernitana,3.44,3.44,0.0
+I2,2021,2021-04-02,Venezia,Reggiana,3.04,3.04,0.0
+I2,2021,2021-04-02,Venezia,Cittadella,3.13,3.13,0.0
+I2,2021,2021-04-02,Virtus Entella,Monza,3.37,3.37,0.0
+I2,2021,2021-04-02,Cesena,Ascoli,2.85,2.85,0.0
+I2,2021,2021-04-05,Ascoli,Venezia,3.0,3.0,0.0
+I2,2021,2021-04-05,Cittadella,Reggiana,3.03,3.03,0.0
+I2,2021,2021-04-05,Cesena,Cremonese,2.87,2.87,0.0
+I2,2021,2021-04-05,Monza,Pescara,4.07,4.07,0.0
+I2,2021,2021-04-05,Pisa,Lecco,3.03,3.03,0.0
+I2,2021,2021-04-05,Reggiana,Brescia,2.99,2.99,0.0
+I2,2021,2021-04-05,Spal,Venezia,3.07,3.07,0.0
+I2,2021,2021-04-05,Salernitana,Frosinone,2.98,2.98,0.0
+I2,2021,2021-04-05,Pordenone,Virtus Entella,3.1,3.1,0.0
+I2,2021,2021-04-09,Reggiana,Empoli,3.27,3.27,0.0
+I2,2021,2021-04-10,Brescia,Pescara,3.17,3.17,0.0
+I2,2021,2021-04-10,Cremonese,Pordenone,2.94,2.94,0.0
+I2,2021,2021-04-10,Lecco,Spal,3.41,3.41,0.0
+I2,2021,2021-04-10,Virtus Entella,Salernitana,3.13,3.13,0.0
+I2,2021,2021-04-10,Frosinone,Cittadella,2.99,2.99,0.0
+I2,2021,2021-04-10,Ascoli,Monza,3.19,3.19,0.0
+I2,2021,2021-04-11,Venezia,Cesena,3.15,3.15,0.0
+I2,2021,2021-04-11,Reggiana,Venezia,3.03,3.03,0.0
+I2,2021,2021-04-12,Chievo,Pisa,3.16,3.16,0.0
+I2,2021,2021-04-13,Cremonese,Empoli,3.06,3.06,0.0
+I2,2021,2021-04-16,Spal,Ascoli,2.98,2.98,0.0
+I2,2021,2021-04-17,Cittadella,Chievo,2.8,2.8,0.0
+I2,2021,2021-04-17,Empoli,Brescia,3.43,3.43,0.0
+I2,2021,2021-04-17,Monza,Cremonese,2.96,2.96,0.0
+I2,2021,2021-04-17,Pisa,Cesena,3.15,3.15,0.0
+I2,2021,2021-04-17,Reggiana,Reggiana,3.07,3.07,0.0
+I2,2021,2021-04-17,Salernitana,Venezia,2.89,2.89,0.0
+I2,2021,2021-04-17,Venezia,Lecco,3.0,3.0,0.0
+I2,2021,2021-04-17,Pordenone,Frosinone,2.76,2.76,0.0
+I2,2021,2021-04-24,Pordenone,Pisa,2.93,2.93,0.0
+I2,2021,2021-04-27,Pescara,Virtus Entella,3.22,3.22,0.0
+I2,2021,2021-04-27,Empoli,Chievo,3.25,3.25,0.0
+I2,2021,2021-05-01,Cremonese,Reggiana,3.0,3.0,0.0
+I2,2021,2021-05-01,Frosinone,Pisa,3.1,3.1,0.0
+I2,2021,2021-05-01,Ascoli,Empoli,3.46,3.46,0.0
+I2,2021,2021-05-01,Reggiana,Pordenone,2.99,2.99,0.0
+I2,2021,2021-05-01,Salernitana,Monza,3.19,3.19,0.0
+I2,2021,2021-05-01,Venezia,Chievo,2.86,2.86,0.0
+I2,2021,2021-05-01,Virtus Entella,Venezia,3.15,3.15,0.0
+I2,2021,2021-05-01,Lecco,Cittadella,3.44,3.44,0.0
+I2,2021,2021-05-01,Brescia,Spal,2.96,2.96,0.0
+I2,2021,2021-05-01,Cesena,Pescara,2.95,2.95,0.0
+I2,2021,2021-05-04,Pescara,Reggiana,3.27,3.27,0.0
+I2,2021,2021-05-04,Chievo,Cremonese,3.19,3.19,0.0
+I2,2021,2021-05-04,Cittadella,Virtus Entella,4.51,4.51,0.0
+I2,2021,2021-05-04,Empoli,Cesena,4.31,4.31,0.0
+I2,2021,2021-05-04,Monza,Lecco,3.01,3.01,0.0
+I2,2021,2021-05-04,Pisa,Venezia,2.9,2.9,0.0
+I2,2021,2021-05-04,Pordenone,Salernitana,2.91,2.91,0.0
+I2,2021,2021-05-04,Reggiana,Ascoli,3.09,3.09,0.0
+I2,2021,2021-05-04,Spal,Frosinone,3.06,3.06,0.0
+I2,2021,2021-05-04,Venezia,Brescia,3.17,3.17,0.0
+I2,2021,2021-05-07,Brescia,Pisa,3.73,3.73,0.0
+I2,2021,2021-05-07,Cesena,Monza,3.32,3.32,0.0
+I2,2021,2021-05-07,Cremonese,Pescara,3.41,3.41,0.0
+I2,2021,2021-05-07,Frosinone,Venezia,2.7,2.7,0.0
+I2,2021,2021-05-07,Lecco,Reggiana,3.49,3.49,0.0
+I2,2021,2021-05-07,Reggiana,Spal,3.05,3.05,0.0
+I2,2021,2021-05-07,Salernitana,Empoli,3.92,3.92,0.0
+I2,2021,2021-05-07,Venezia,Pordenone,3.31,3.31,0.0
+I2,2021,2021-05-07,Virtus Entella,Chievo,3.94,3.94,0.0
+I2,2021,2021-05-07,Ascoli,Cittadella,2.94,2.94,0.0
+I2,2021,2021-05-10,Empoli,Lecco,3.27,3.27,0.0
+I2,2021,2021-05-10,Monza,Brescia,3.61,3.61,0.0
+I2,2021,2021-05-10,Pescara,Salernitana,5.22,5.22,0.0
+I2,2021,2021-05-10,Pisa,Virtus Entella,3.55,3.55,0.0
+I2,2021,2021-05-10,Pordenone,Cesena,3.4,3.4,0.0
+I2,2021,2021-05-10,Reggiana,Frosinone,3.04,3.04,0.0
+I2,2021,2021-05-10,Spal,Cremonese,4.12,4.12,0.0
+I2,2021,2021-05-10,Venezia,Reggiana,3.29,3.29,0.0
+I2,2021,2021-05-10,Chievo,Ascoli,3.88,3.88,0.0

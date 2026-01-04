@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+P1,2021,2020-09-18,Famalicao,Benfica,4.72,4.72,0.0
+P1,2021,2020-09-18,Guimaraes,Belenenses,4.2,4.2,0.0
+P1,2021,2020-09-19,Nacional,Boavista,3.01,3.01,0.0
+P1,2021,2020-09-19,Porto,Sp Braga,3.92,3.92,0.0
+P1,2021,2020-09-20,Santa Clara,Maritimo,3.06,3.06,0.0
+P1,2021,2020-09-20,Moreirense,Farense,3.12,3.12,0.0
+P1,2021,2020-09-20,Tondela,Rio Ave,3.19,3.19,0.0
+P1,2021,2020-09-21,Portimonense,Pacos Ferreira,3.16,3.16,0.0
+P1,2021,2020-09-25,Sp Braga,Santa Clara,4.26,4.26,0.0
+P1,2021,2020-09-26,Maritimo,Tondela,3.11,3.11,0.0
+P1,2021,2020-09-26,Benfica,Moreirense,7.72,7.72,0.0
+P1,2021,2020-09-26,Boavista,Porto,4.38,4.38,0.0
+P1,2021,2020-09-27,Farense,Nacional,3.25,3.25,0.0
+P1,2021,2020-09-27,Gil Vicente,Portimonense,3.04,3.04,0.0
+P1,2021,2020-09-27,Pacos Ferreira,Sp Lisbon,3.15,3.15,0.0
+P1,2021,2020-09-27,Rio Ave,Guimaraes,3.2,3.2,0.0
+P1,2021,2020-09-28,Belenenses,Famalicao,3.09,3.09,0.0
+P1,2021,2020-10-02,Moreirense,Boavista,3.08,3.08,0.0
+P1,2021,2020-10-02,Guimaraes,Pacos Ferreira,3.43,3.43,0.0
+P1,2021,2020-10-03,Santa Clara,Gil Vicente,3.08,3.08,0.0
+P1,2021,2020-10-03,Porto,Maritimo,7.39,7.39,0.0
+P1,2021,2020-10-03,Tondela,Sp Braga,3.97,3.97,0.0
+P1,2021,2020-10-04,Nacional,Belenenses,3.07,3.07,0.0
+P1,2021,2020-10-04,Benfica,Farense,8.7,8.7,0.0
+P1,2021,2020-10-04,Famalicao,Rio Ave,3.29,3.29,0.0
+P1,2021,2020-10-04,Portimonense,Sp Lisbon,3.54,3.54,0.0
+P1,2021,2020-10-17,Gil Vicente,Tondela,3.2,3.2,0.0
+P1,2021,2020-10-17,Maritimo,Portimonense,3.1,3.1,0.0
+P1,2021,2020-10-17,Sp Braga,Nacional,4.78,4.78,0.0
+P1,2021,2020-10-17,Sp Lisbon,Porto,3.35,3.35,0.0
+P1,2021,2020-10-18,Belenenses,Moreirense,2.95,2.95,0.0
+P1,2021,2020-10-18,Pacos Ferreira,Santa Clara,3.08,3.08,0.0
+P1,2021,2020-10-18,Farense,Famalicao,3.22,3.22,0.0
+P1,2021,2020-10-18,Rio Ave,Benfica,4.21,4.21,0.0
+P1,2021,2020-10-19,Boavista,Guimaraes,3.21,3.21,0.0
+P1,2021,2020-10-23,Tondela,Portimonense,3.26,3.26,0.0
+P1,2021,2020-10-24,Nacional,Pacos Ferreira,3.2,3.2,0.0
+P1,2021,2020-10-24,Santa Clara,Sp Lisbon,3.41,3.41,0.0
+P1,2021,2020-10-24,Porto,Gil Vicente,6.01,6.01,0.0
+P1,2021,2020-10-25,Farense,Rio Ave,3.28,3.28,0.0
+P1,2021,2020-10-25,Moreirense,Maritimo,3.02,3.02,0.0
+P1,2021,2020-10-25,Famalicao,Boavista,3.23,3.23,0.0
+P1,2021,2020-10-25,Guimaraes,Sp Braga,3.33,3.33,0.0
+P1,2021,2020-10-26,Benfica,Belenenses,8.68,8.68,0.0
+P1,2021,2020-10-28,Sp Lisbon,Gil Vicente,4.26,4.26,0.0
+P1,2021,2020-10-30,Pacos Ferreira,Porto,4.12,4.12,0.0
+P1,2021,2020-10-31,Belenenses,Farense,2.98,2.98,0.0
+P1,2021,2020-10-31,Rio Ave,Moreirense,3.29,3.29,0.0
+P1,2021,2020-10-31,Maritimo,Nacional,3.25,3.25,0.0
+P1,2021,2020-11-01,Portimonense,Santa Clara,3.12,3.12,0.0
+P1,2021,2020-11-01,Gil Vicente,Guimaraes,2.85,2.85,0.0
+P1,2021,2020-11-01,Sp Lisbon,Tondela,4.42,4.42,0.0
+P1,2021,2020-11-02,Sp Braga,Famalicao,4.89,4.89,0.0
+P1,2021,2020-11-02,Boavista,Benfica,5.67,5.67,0.0
+P1,2021,2020-11-06,Belenenses,Rio Ave,3.15,3.15,0.0
+P1,2021,2020-11-07,Tondela,Santa Clara,3.1,3.1,0.0
+P1,2021,2020-11-07,Famalicao,Maritimo,3.16,3.16,0.0
+P1,2021,2020-11-07,Guimaraes,Sp Lisbon,3.23,3.23,0.0
+P1,2021,2020-11-08,Farense,Boavista,3.11,3.11,0.0
+P1,2021,2020-11-08,Nacional,Gil Vicente,2.95,2.95,0.0
+P1,2021,2020-11-08,Porto,Portimonense,6.08,6.08,0.0
+P1,2021,2020-11-08,Benfica,Sp Braga,4.13,4.13,0.0
+P1,2021,2020-11-27,Pacos Ferreira,Famalicao,3.23,3.23,0.0
+P1,2021,2020-11-27,Tondela,Guimaraes,3.54,3.54,0.0
+P1,2021,2020-11-28,Santa Clara,Porto,3.99,3.99,0.0
+P1,2021,2020-11-28,Sp Lisbon,Moreirense,5.67,5.67,0.0
+P1,2021,2020-11-29,Gil Vicente,Rio Ave,3.08,3.08,0.0
+P1,2021,2020-11-29,Portimonense,Nacional,3.37,3.37,0.0
+P1,2021,2020-11-29,Boavista,Belenenses,3.15,3.15,0.0
+P1,2021,2020-11-29,Sp Braga,Farense,4.74,4.74,0.0
+P1,2021,2020-11-30,Maritimo,Benfica,4.89,4.89,0.0
+P1,2021,2020-12-01,Moreirense,Pacos Ferreira,3.26,3.26,0.0
+P1,2021,2020-12-05,Guimaraes,Portimonense,3.51,3.51,0.0
+P1,2021,2020-12-05,Moreirense,Gil Vicente,3.14,3.14,0.0
+P1,2021,2020-12-05,Famalicao,Sp Lisbon,4.25,4.25,0.0
+P1,2021,2020-12-05,Porto,Tondela,6.83,6.83,0.0
+P1,2021,2020-12-06,Nacional,Santa Clara,3.16,3.16,0.0
+P1,2021,2020-12-06,Rio Ave,Boavista,3.32,3.32,0.0
+P1,2021,2020-12-06,Belenenses,Sp Braga,4.05,4.05,0.0
+P1,2021,2020-12-06,Benfica,Pacos Ferreira,5.72,5.72,0.0
+P1,2021,2020-12-07,Farense,Maritimo,3.26,3.26,0.0
+P1,2021,2020-12-18,Portimonense,Famalicao,3.19,3.19,0.0
+P1,2021,2020-12-19,Maritimo,Belenenses,3.15,3.15,0.0
+P1,2021,2020-12-19,Tondela,Moreirense,3.13,3.13,0.0
+P1,2021,2020-12-19,Sp Lisbon,Farense,5.34,5.34,0.0
+P1,2021,2020-12-20,Pacos Ferreira,Boavista,3.28,3.28,0.0
+P1,2021,2020-12-20,Gil Vicente,Benfica,4.77,4.77,0.0
+P1,2021,2020-12-20,Porto,Nacional,5.78,5.78,0.0
+P1,2021,2020-12-21,Santa Clara,Guimaraes,3.18,3.18,0.0
+P1,2021,2020-12-22,Sp Braga,Rio Ave,4.0,4.0,0.0
+P1,2021,2020-12-27,Famalicao,Gil Vicente,2.99,2.99,0.0
+P1,2021,2020-12-27,Nacional,Tondela,3.22,3.22,0.0
+P1,2021,2020-12-27,Farense,Pacos Ferreira,3.17,3.17,0.0
+P1,2021,2020-12-27,Belenenses,Sp Lisbon,4.24,4.24,0.0
+P1,2021,2020-12-28,Rio Ave,Maritimo,3.33,3.33,0.0
+P1,2021,2020-12-28,Boavista,Sp Braga,3.64,3.64,0.0
+P1,2021,2020-12-29,Benfica,Portimonense,6.27,6.27,0.0
+P1,2021,2020-12-29,Moreirense,Santa Clara,3.01,3.01,0.0
+P1,2021,2020-12-29,Guimaraes,Porto,3.76,3.76,0.0
+P1,2021,2021-01-02,Sp Lisbon,Sp Braga,3.51,3.51,0.0
+P1,2021,2021-01-03,Tondela,Famalicao,3.06,3.06,0.0
+P1,2021,2021-01-03,Maritimo,Boavista,3.04,3.04,0.0
+P1,2021,2021-01-03,Pacos Ferreira,Rio Ave,2.99,2.99,0.0
+P1,2021,2021-01-03,Porto,Moreirense,6.39,6.39,0.0
+P1,2021,2021-01-04,Santa Clara,Benfica,4.38,4.38,0.0
+P1,2021,2021-01-04,Gil Vicente,Belenenses,3.07,3.07,0.0
+P1,2021,2021-01-04,Portimonense,Farense,3.2,3.2,0.0
+P1,2021,2021-01-07,Sp Braga,Maritimo,5.0,5.0,0.0
+P1,2021,2021-01-08,Nacional,Sp Lisbon,4.46,4.46,0.0
+P1,2021,2021-01-08,Benfica,Tondela,8.97,8.97,0.0
+P1,2021,2021-01-08,Rio Ave,Portimonense,3.01,3.01,0.0
+P1,2021,2021-01-08,Famalicao,Porto,4.97,4.97,0.0
+P1,2021,2021-01-09,Moreirense,Guimaraes,3.15,3.15,0.0
+P1,2021,2021-01-09,Boavista,Santa Clara,2.97,2.97,0.0
+P1,2021,2021-01-10,Farense,Gil Vicente,2.93,2.93,0.0
+P1,2021,2021-01-10,Belenenses,Pacos Ferreira,3.0,3.0,0.0
+P1,2021,2021-01-15,Sp Lisbon,Rio Ave,3.99,3.99,0.0
+P1,2021,2021-01-15,Porto,Benfica,3.39,3.39,0.0
+P1,2021,2021-01-16,Pacos Ferreira,Sp Braga,3.54,3.54,0.0
+P1,2021,2021-01-16,Tondela,Boavista,3.24,3.24,0.0
+P1,2021,2021-01-17,Nacional,Moreirense,3.11,3.11,0.0
+P1,2021,2021-01-17,Santa Clara,Famalicao,3.14,3.14,0.0
+P1,2021,2021-01-17,Gil Vicente,Maritimo,3.12,3.12,0.0
+P1,2021,2021-01-18,Portimonense,Belenenses,3.06,3.06,0.0
+P1,2021,2021-01-21,Guimaraes,Nacional,3.76,3.76,0.0
+P1,2021,2021-01-24,Maritimo,Pacos Ferreira,2.98,2.98,0.0
+P1,2021,2021-01-24,Moreirense,Portimonense,3.14,3.14,0.0
+P1,2021,2021-01-24,Famalicao,Guimaraes,3.08,3.08,0.0
+P1,2021,2021-01-25,Belenenses,Tondela,3.0,3.0,0.0
+P1,2021,2021-01-25,Rio Ave,Santa Clara,3.17,3.17,0.0
+P1,2021,2021-01-25,Benfica,Nacional,6.87,6.87,0.0
+P1,2021,2021-01-25,Farense,Porto,4.42,4.42,0.0
+P1,2021,2021-01-26,Sp Braga,Gil Vicente,4.39,4.39,0.0
+P1,2021,2021-01-26,Boavista,Sp Lisbon,4.06,4.06,0.0
+P1,2021,2021-01-30,Nacional,Famalicao,2.91,2.91,0.0
+P1,2021,2021-01-30,Tondela,Farense,3.13,3.13,0.0
+P1,2021,2021-01-30,Portimonense,Boavista,3.11,3.11,0.0
+P1,2021,2021-01-31,Guimaraes,Maritimo,3.65,3.65,0.0
+P1,2021,2021-02-01,Santa Clara,Belenenses,2.97,2.97,0.0
+P1,2021,2021-02-01,Porto,Rio Ave,5.01,5.01,0.0
+P1,2021,2021-02-01,Moreirense,Sp Braga,4.06,4.06,0.0
+P1,2021,2021-02-01,Sp Lisbon,Benfica,3.42,3.42,0.0
+P1,2021,2021-02-02,Gil Vicente,Pacos Ferreira,3.0,3.0,0.0
+P1,2021,2021-02-04,Farense,Santa Clara,2.87,2.87,0.0
+P1,2021,2021-02-04,Belenenses,Porto,4.57,4.57,0.0
+P1,2021,2021-02-04,Sp Braga,Portimonense,4.59,4.59,0.0
+P1,2021,2021-02-04,Famalicao,Moreirense,3.13,3.13,0.0
+P1,2021,2021-02-05,Rio Ave,Nacional,3.16,3.16,0.0
+P1,2021,2021-02-05,Benfica,Guimaraes,4.45,4.45,0.0
+P1,2021,2021-02-05,Maritimo,Sp Lisbon,3.93,3.93,0.0
+P1,2021,2021-02-05,Boavista,Gil Vicente,2.89,2.89,0.0
+P1,2021,2021-02-05,Pacos Ferreira,Tondela,3.64,3.64,0.0
+P1,2021,2021-02-07,Sp Braga,Porto,3.41,3.41,0.0
+P1,2021,2021-02-08,Farense,Moreirense,3.14,3.14,0.0
+P1,2021,2021-02-08,Benfica,Famalicao,5.84,5.84,0.0
+P1,2021,2021-02-08,Maritimo,Santa Clara,3.13,3.13,0.0
+P1,2021,2021-02-08,Belenenses,Guimaraes,3.17,3.17,0.0
+P1,2021,2021-02-09,Pacos Ferreira,Portimonense,3.13,3.13,0.0
+P1,2021,2021-02-09,Rio Ave,Tondela,3.39,3.39,0.0
+P1,2021,2021-02-09,Boavista,Nacional,3.14,3.14,0.0
+P1,2021,2021-02-09,Gil Vicente,Sp Lisbon,3.75,3.75,0.0
+P1,2021,2021-02-12,Famalicao,Belenenses,2.94,2.94,0.0
+P1,2021,2021-02-13,Nacional,Farense,2.95,2.95,0.0
+P1,2021,2021-02-13,Guimaraes,Rio Ave,3.31,3.31,0.0
+P1,2021,2021-02-13,Porto,Boavista,6.11,6.11,0.0
+P1,2021,2021-02-14,Portimonense,Gil Vicente,2.9,2.9,0.0
+P1,2021,2021-02-14,Santa Clara,Sp Braga,3.46,3.46,0.0
+P1,2021,2021-02-14,Moreirense,Benfica,4.76,4.76,0.0
+P1,2021,2021-02-15,Sp Lisbon,Pacos Ferreira,4.18,4.18,0.0
+P1,2021,2021-02-16,Tondela,Maritimo,2.99,2.99,0.0
+P1,2021,2021-02-17,Guimaraes,Farense,3.24,3.24,0.0
+P1,2021,2021-02-19,Boavista,Moreirense,3.0,3.0,0.0
+P1,2021,2021-02-20,Belenenses,Nacional,2.91,2.91,0.0
+P1,2021,2021-02-20,Gil Vicente,Santa Clara,3.02,3.02,0.0
+P1,2021,2021-02-20,Sp Lisbon,Portimonense,4.45,4.45,0.0
+P1,2021,2021-02-21,Pacos Ferreira,Guimaraes,2.95,2.95,0.0
+P1,2021,2021-02-21,Rio Ave,Famalicao,3.32,3.32,0.0
+P1,2021,2021-02-21,Sp Braga,Tondela,4.84,4.84,0.0
+P1,2021,2021-02-21,Farense,Benfica,4.37,4.37,0.0
+P1,2021,2021-02-22,Maritimo,Porto,4.9,4.9,0.0
+P1,2021,2021-02-26,Guimaraes,Boavista,3.28,3.28,0.0
+P1,2021,2021-02-27,Famalicao,Farense,3.22,3.22,0.0
+P1,2021,2021-02-27,Santa Clara,Pacos Ferreira,2.96,2.96,0.0
+P1,2021,2021-02-27,Porto,Sp Lisbon,3.28,3.28,0.0
+P1,2021,2021-02-28,Portimonense,Maritimo,3.06,3.06,0.0
+P1,2021,2021-02-28,Tondela,Gil Vicente,2.91,2.91,0.0
+P1,2021,2021-02-28,Nacional,Sp Braga,3.78,3.78,0.0
+P1,2021,2021-03-01,Benfica,Rio Ave,4.38,4.38,0.0
+P1,2021,2021-03-01,Moreirense,Belenenses,2.87,2.87,0.0
+P1,2021,2021-03-05,Pacos Ferreira,Nacional,3.46,3.46,0.0
+P1,2021,2021-03-05,Sp Lisbon,Santa Clara,4.23,4.23,0.0
+P1,2021,2021-03-06,Portimonense,Tondela,3.29,3.29,0.0
+P1,2021,2021-03-06,Gil Vicente,Porto,3.91,3.91,0.0
+P1,2021,2021-03-06,Boavista,Famalicao,3.11,3.11,0.0
+P1,2021,2021-03-07,Maritimo,Moreirense,3.06,3.06,0.0
+P1,2021,2021-03-07,Rio Ave,Farense,3.12,3.12,0.0
+P1,2021,2021-03-08,Belenenses,Benfica,4.27,4.27,0.0
+P1,2021,2021-03-09,Sp Braga,Guimaraes,4.02,4.02,0.0
+P1,2021,2021-03-12,Nacional,Maritimo,2.97,2.97,0.0
+P1,2021,2021-03-13,Farense,Belenenses,3.01,3.01,0.0
+P1,2021,2021-03-13,Benfica,Boavista,5.13,5.13,0.0
+P1,2021,2021-03-13,Santa Clara,Portimonense,2.89,2.89,0.0
+P1,2021,2021-03-13,Tondela,Sp Lisbon,4.34,4.34,0.0
+P1,2021,2021-03-14,Moreirense,Rio Ave,3.03,3.03,0.0
+P1,2021,2021-03-14,Guimaraes,Gil Vicente,3.22,3.22,0.0
+P1,2021,2021-03-14,Porto,Pacos Ferreira,4.48,4.48,0.0
+P1,2021,2021-03-15,Famalicao,Sp Braga,4.06,4.06,0.0
+P1,2021,2021-03-19,Gil Vicente,Nacional,3.15,3.15,0.0
+P1,2021,2021-03-20,Pacos Ferreira,Moreirense,3.33,3.33,0.0
+P1,2021,2021-03-20,Santa Clara,Tondela,3.21,3.21,0.0
+P1,2021,2021-03-20,Portimonense,Porto,4.29,4.29,0.0
+P1,2021,2021-03-20,Sp Lisbon,Guimaraes,3.91,3.91,0.0
+P1,2021,2021-03-21,Rio Ave,Belenenses,3.12,3.12,0.0
+P1,2021,2021-03-21,Boavista,Farense,3.18,3.18,0.0
+P1,2021,2021-03-21,Maritimo,Famalicao,3.06,3.06,0.0
+P1,2021,2021-03-21,Sp Braga,Benfica,3.66,3.66,0.0
+P1,2021,2021-04-02,Nacional,Portimonense,3.12,3.12,0.0
+P1,2021,2021-04-03,Rio Ave,Gil Vicente,3.22,3.22,0.0
+P1,2021,2021-04-03,Porto,Santa Clara,5.38,5.38,0.0
+P1,2021,2021-04-04,Belenenses,Boavista,2.91,2.91,0.0
+P1,2021,2021-04-04,Guimaraes,Tondela,3.66,3.66,0.0
+P1,2021,2021-04-04,Famalicao,Pacos Ferreira,3.09,3.09,0.0
+P1,2021,2021-04-05,Farense,Sp Braga,3.72,3.72,0.0
+P1,2021,2021-04-05,Benfica,Maritimo,6.92,6.92,0.0
+P1,2021,2021-04-05,Moreirense,Sp Lisbon,4.0,4.0,0.0
+P1,2021,2021-04-09,Portimonense,Guimaraes,3.04,3.04,0.0
+P1,2021,2021-04-10,Maritimo,Farense,2.96,2.96,0.0
+P1,2021,2021-04-10,Boavista,Rio Ave,3.02,3.02,0.0
+P1,2021,2021-04-10,Tondela,Porto,4.35,4.35,0.0
+P1,2021,2021-04-10,Pacos Ferreira,Benfica,4.19,4.19,0.0
+P1,2021,2021-04-11,Gil Vicente,Moreirense,3.26,3.26,0.0
+P1,2021,2021-04-11,Santa Clara,Nacional,3.37,3.37,0.0
+P1,2021,2021-04-11,Sp Braga,Belenenses,4.35,4.35,0.0
+P1,2021,2021-04-11,Sp Lisbon,Famalicao,4.31,4.31,0.0
+P1,2021,2021-04-16,Boavista,Pacos Ferreira,3.02,3.02,0.0
+P1,2021,2021-04-16,Farense,Sp Lisbon,3.66,3.66,0.0
+P1,2021,2021-04-17,Guimaraes,Santa Clara,3.2,3.2,0.0
+P1,2021,2021-04-17,Moreirense,Tondela,3.23,3.23,0.0
+P1,2021,2021-04-17,Belenenses,Maritimo,3.06,3.06,0.0
+P1,2021,2021-04-17,Benfica,Gil Vicente,5.9,5.9,0.0
+P1,2021,2021-04-17,Rio Ave,Sp Braga,3.59,3.59,0.0
+P1,2021,2021-04-18,Famalicao,Portimonense,3.21,3.21,0.0
+P1,2021,2021-04-18,Nacional,Porto,5.21,5.21,0.0
+P1,2021,2021-04-20,Pacos Ferreira,Farense,3.14,3.14,0.0
+P1,2021,2021-04-21,Santa Clara,Moreirense,3.28,3.28,0.0
+P1,2021,2021-04-21,Maritimo,Rio Ave,3.07,3.07,0.0
+P1,2021,2021-04-21,Sp Braga,Boavista,4.29,4.29,0.0
+P1,2021,2021-04-21,Sp Lisbon,Belenenses,4.16,4.16,0.0
+P1,2021,2021-04-22,Tondela,Nacional,3.44,3.44,0.0
+P1,2021,2021-04-22,Gil Vicente,Famalicao,3.11,3.11,0.0
+P1,2021,2021-04-22,Portimonense,Benfica,4.16,4.16,0.0
+P1,2021,2021-04-22,Porto,Guimaraes,4.94,4.94,0.0
+P1,2021,2021-04-25,Boavista,Maritimo,3.36,3.36,0.0
+P1,2021,2021-04-25,Rio Ave,Pacos Ferreira,3.23,3.23,0.0
+P1,2021,2021-04-25,Sp Braga,Sp Lisbon,3.11,3.11,0.0
+P1,2021,2021-04-26,Belenenses,Gil Vicente,2.86,2.86,0.0
+P1,2021,2021-04-26,Benfica,Santa Clara,4.92,4.92,0.0
+P1,2021,2021-04-26,Famalicao,Tondela,3.31,3.31,0.0
+P1,2021,2021-04-26,Nacional,Guimaraes,3.3,3.3,0.0
+P1,2021,2021-04-26,Moreirense,Porto,4.74,4.74,0.0
+P1,2021,2021-04-27,Farense,Portimonense,3.15,3.15,0.0
+P1,2021,2021-04-29,Maritimo,Sp Braga,4.05,4.05,0.0
+P1,2021,2021-04-30,Pacos Ferreira,Belenenses,3.1,3.1,0.0
+P1,2021,2021-04-30,Guimaraes,Moreirense,3.28,3.28,0.0
+P1,2021,2021-04-30,Tondela,Benfica,5.52,5.52,0.0
+P1,2021,2021-04-30,Porto,Famalicao,4.85,4.85,0.0
+P1,2021,2021-05-01,Gil Vicente,Farense,3.1,3.1,0.0
+P1,2021,2021-05-01,Portimonense,Rio Ave,3.07,3.07,0.0
+P1,2021,2021-05-01,Santa Clara,Boavista,3.13,3.13,0.0
+P1,2021,2021-05-01,Sp Lisbon,Nacional,5.29,5.29,0.0
+P1,2021,2021-05-05,Maritimo,Gil Vicente,2.96,2.96,0.0
+P1,2021,2021-05-05,Sp Braga,Pacos Ferreira,4.03,4.03,0.0
+P1,2021,2021-05-05,Rio Ave,Sp Lisbon,3.48,3.48,0.0
+P1,2021,2021-05-06,Moreirense,Nacional,3.34,3.34,0.0
+P1,2021,2021-05-06,Belenenses,Portimonense,2.59,2.59,0.0
+P1,2021,2021-05-06,Benfica,Porto,3.36,3.36,0.0
+P1,2021,2021-05-06,Farense,Guimaraes,3.25,3.25,0.0
+P1,2021,2021-05-07,Famalicao,Santa Clara,3.24,3.24,0.0
+P1,2021,2021-05-07,Boavista,Tondela,3.54,3.54,0.0
+P1,2021,2021-05-09,Pacos Ferreira,Maritimo,3.19,3.19,0.0
+P1,2021,2021-05-09,Gil Vicente,Sp Braga,3.57,3.57,0.0
+P1,2021,2021-05-10,Portimonense,Moreirense,3.51,3.51,0.0
+P1,2021,2021-05-10,Porto,Farense,5.29,5.29,0.0
+P1,2021,2021-05-11,Santa Clara,Rio Ave,3.13,3.13,0.0
+P1,2021,2021-05-11,Tondela,Belenenses,2.94,2.94,0.0
+P1,2021,2021-05-11,Nacional,Benfica,5.49,5.49,0.0
+P1,2021,2021-05-11,Sp Lisbon,Boavista,5.36,5.36,0.0
+P1,2021,2021-05-12,Guimaraes,Famalicao,3.15,3.15,0.0
+P1,2021,2021-05-14,Pacos Ferreira,Gil Vicente,3.04,3.04,0.0
+P1,2021,2021-05-14,Sp Braga,Moreirense,5.08,5.08,0.0
+P1,2021,2021-05-15,Boavista,Portimonense,3.21,3.21,0.0
+P1,2021,2021-05-15,Farense,Tondela,3.88,3.88,0.0
+P1,2021,2021-05-15,Benfica,Sp Lisbon,3.48,3.48,0.0
+P1,2021,2021-05-15,Rio Ave,Porto,4.25,4.25,0.0
+P1,2021,2021-05-16,Famalicao,Nacional,3.61,3.61,0.0
+P1,2021,2021-05-16,Belenenses,Santa Clara,3.06,3.06,0.0
+P1,2021,2021-05-16,Maritimo,Guimaraes,3.11,3.11,0.0
+P1,2021,2021-05-18,Tondela,Pacos Ferreira,3.3,3.3,0.0
+P1,2021,2021-05-19,Porto,Belenenses,5.96,5.96,0.0
+P1,2021,2021-05-19,Gil Vicente,Boavista,3.61,3.61,0.0
+P1,2021,2021-05-19,Guimaraes,Benfica,3.69,3.69,0.0
+P1,2021,2021-05-19,Moreirense,Famalicao,3.52,3.52,0.0
+P1,2021,2021-05-19,Nacional,Rio Ave,3.79,3.79,0.0
+P1,2021,2021-05-19,Portimonense,Sp Braga,3.14,3.14,0.0
+P1,2021,2021-05-19,Santa Clara,Farense,3.42,3.42,0.0
+P1,2021,2021-05-19,Sp Lisbon,Maritimo,5.65,5.65,0.0

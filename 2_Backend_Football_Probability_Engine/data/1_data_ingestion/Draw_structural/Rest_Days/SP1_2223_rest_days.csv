@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP1,2223,2022-08-12,Osasuna,Sevilla,82,82,False
+SP1,2223,2022-08-13,Celta,Espanol,84,83,False
+SP1,2223,2022-08-13,Valladolid,Villarreal,448,83,False
+SP1,2223,2022-08-13,Barcelona,Valencia,83,84,False
+SP1,2223,2022-08-14,Cadiz,Sociedad,84,84,False
+SP1,2223,2022-08-14,Valencia,Girona,1,7,False
+SP1,2223,2022-08-14,Almeria,Real Madrid,7,84,False
+SP1,2223,2022-08-15,Ath Bilbao,Mallorca,85,85,False
+SP1,2223,2022-08-15,Getafe,Real Madrid,85,1,False
+SP1,2223,2022-08-15,Betis,Elche,87,85,False
+SP1,2223,2022-08-19,Espanol,Valencia,6,5,False
+SP1,2223,2022-08-19,Sevilla,Valladolid,7,6,False
+SP1,2223,2022-08-20,Osasuna,Cadiz,8,6,False
+SP1,2223,2022-08-20,Mallorca,Betis,5,5,False
+SP1,2223,2022-08-20,Celta,Real Madrid,7,5,False
+SP1,2223,2022-08-21,Ath Bilbao,Valencia,6,2,False
+SP1,2223,2022-08-21,Real Madrid,Villarreal,1,8,False
+SP1,2223,2022-08-21,Sociedad,Barcelona,7,8,False
+SP1,2223,2022-08-22,Elche,Almeria,7,8,False
+SP1,2223,2022-08-22,Girona,Getafe,8,7,False
+SP1,2223,2022-08-26,Girona,Celta,4,6,False
+SP1,2223,2022-08-26,Betis,Osasuna,6,6,False
+SP1,2223,2022-08-27,Elche,Sociedad,5,6,False
+SP1,2223,2022-08-27,Valencia,Mallorca,6,7,False
+SP1,2223,2022-08-27,Almeria,Sevilla,5,8,False
+SP1,2223,2022-08-28,Getafe,Villarreal,6,7,False
+SP1,2223,2022-08-28,Barcelona,Valladolid,7,9,False
+SP1,2223,2022-08-28,Espanol,Real Madrid,9,7,False
+SP1,2223,2022-08-29,Cadiz,Ath Bilbao,9,8,False
+SP1,2223,2022-08-29,Valencia,Real Madrid,2,1,False
+SP1,2223,2022-09-02,Celta,Cadiz,7,4,False
+SP1,2223,2022-09-03,Mallorca,Girona,7,8,False
+SP1,2223,2022-09-03,Real Madrid,Betis,5,8,False
+SP1,2223,2022-09-03,Sociedad,Real Madrid,7,5,False
+SP1,2223,2022-09-03,Sevilla,Barcelona,7,6,False
+SP1,2223,2022-09-04,Osasuna,Valencia,9,6,False
+SP1,2223,2022-09-04,Ath Bilbao,Espanol,6,7,False
+SP1,2223,2022-09-04,Villarreal,Elche,7,8,False
+SP1,2223,2022-09-04,Valencia,Getafe,6,7,False
+SP1,2223,2022-09-05,Valladolid,Almeria,8,9,False
+SP1,2223,2022-09-09,Girona,Valladolid,6,4,False
+SP1,2223,2022-09-10,Valencia,Valencia,6,6,False
+SP1,2223,2022-09-10,Espanol,Sevilla,6,7,False
+SP1,2223,2022-09-10,Cadiz,Barcelona,8,7,False
+SP1,2223,2022-09-10,Real Madrid,Celta,7,8,False
+SP1,2223,2022-09-11,Real Madrid,Mallorca,1,8,False
+SP1,2223,2022-09-11,Elche,Ath Bilbao,7,7,False
+SP1,2223,2022-09-11,Getafe,Sociedad,7,8,False
+SP1,2223,2022-09-11,Betis,Villarreal,8,7,False
+SP1,2223,2022-09-12,Almeria,Osasuna,7,8,False
+SP1,2223,2022-09-16,Valladolid,Cadiz,7,6,False
+SP1,2223,2022-09-17,Mallorca,Almeria,6,5,False
+SP1,2223,2022-09-17,Barcelona,Elche,7,6,False
+SP1,2223,2022-09-17,Valencia,Celta,7,7,False
+SP1,2223,2022-09-17,Ath Bilbao,Valencia,6,7,False
+SP1,2223,2022-09-18,Osasuna,Getafe,6,7,False
+SP1,2223,2022-09-18,Villarreal,Sevilla,7,8,False
+SP1,2223,2022-09-18,Betis,Girona,7,9,False
+SP1,2223,2022-09-18,Sociedad,Espanol,7,8,False
+SP1,2223,2022-09-18,Real Madrid,Real Madrid,7,7,False
+SP1,2223,2022-09-30,Ath Bilbao,Almeria,13,13,False
+SP1,2223,2022-10-01,Cadiz,Villarreal,15,13,False
+SP1,2223,2022-10-01,Getafe,Valladolid,13,15,False
+SP1,2223,2022-10-01,Sevilla,Real Madrid,13,13,False
+SP1,2223,2022-10-01,Mallorca,Barcelona,14,14,False
+SP1,2223,2022-10-02,Espanol,Valencia,14,15,False
+SP1,2223,2022-10-02,Celta,Betis,15,14,False
+SP1,2223,2022-10-02,Girona,Sociedad,14,14,False
+SP1,2223,2022-10-02,Real Madrid,Osasuna,1,14,False
+SP1,2223,2022-10-03,Valencia,Elche,1,16,False
+SP1,2223,2022-10-07,Osasuna,Valencia,5,4,False
+SP1,2223,2022-10-08,Almeria,Valencia,8,1,False
+SP1,2223,2022-10-08,Real Madrid,Girona,6,6,False
+SP1,2223,2022-10-08,Sevilla,Ath Bilbao,7,8,False
+SP1,2223,2022-10-08,Getafe,Real Madrid,7,6,False
+SP1,2223,2022-10-09,Valladolid,Betis,8,7,False
+SP1,2223,2022-10-09,Cadiz,Espanol,8,7,False
+SP1,2223,2022-10-09,Sociedad,Villarreal,7,8,False
+SP1,2223,2022-10-09,Barcelona,Celta,8,7,False
+SP1,2223,2022-10-10,Elche,Mallorca,7,9,False
+SP1,2223,2022-10-14,Valencia,Getafe,6,6,False
+SP1,2223,2022-10-15,Girona,Cadiz,7,6,False
+SP1,2223,2022-10-15,Valencia,Elche,1,5,False
+SP1,2223,2022-10-15,Mallorca,Sevilla,5,7,False
+SP1,2223,2022-10-15,Ath Bilbao,Real Madrid,7,7,False
+SP1,2223,2022-10-16,Celta,Sociedad,7,7,False
+SP1,2223,2022-10-16,Real Madrid,Barcelona,1,7,False
+SP1,2223,2022-10-16,Espanol,Valladolid,7,7,False
+SP1,2223,2022-10-16,Betis,Almeria,7,8,False
+SP1,2223,2022-10-17,Villarreal,Osasuna,8,10,False
+SP1,2223,2022-10-18,Sevilla,Valencia,3,3,True
+SP1,2223,2022-10-18,Getafe,Ath Bilbao,4,3,True
+SP1,2223,2022-10-18,Real Madrid,Valencia,2,3,True
+SP1,2223,2022-10-19,Cadiz,Betis,4,3,True
+SP1,2223,2022-10-19,Valladolid,Celta,3,3,True
+SP1,2223,2022-10-19,Sociedad,Mallorca,3,4,True
+SP1,2223,2022-10-19,Elche,Real Madrid,4,1,True
+SP1,2223,2022-10-20,Almeria,Girona,4,5,True
+SP1,2223,2022-10-20,Osasuna,Espanol,3,4,True
+SP1,2223,2022-10-20,Barcelona,Villarreal,4,3,True
+SP1,2223,2022-10-22,Valencia,Cadiz,4,3,False
+SP1,2223,2022-10-22,Valladolid,Sociedad,3,3,False
+SP1,2223,2022-10-22,Valencia,Mallorca,4,3,False
+SP1,2223,2022-10-22,Real Madrid,Sevilla,3,4,False
+SP1,2223,2022-10-23,Espanol,Elche,3,4,False
+SP1,2223,2022-10-23,Betis,Real Madrid,4,1,False
+SP1,2223,2022-10-23,Girona,Osasuna,3,3,False
+SP1,2223,2022-10-23,Villarreal,Almeria,3,3,False
+SP1,2223,2022-10-23,Barcelona,Ath Bilbao,3,5,False
+SP1,2223,2022-10-24,Celta,Getafe,5,6,False
+SP1,2223,2022-10-28,Mallorca,Espanol,6,5,False
+SP1,2223,2022-10-29,Almeria,Celta,6,5,False
+SP1,2223,2022-10-29,Cadiz,Real Madrid,7,6,False
+SP1,2223,2022-10-29,Sevilla,Valencia,7,7,False
+SP1,2223,2022-10-29,Valencia,Barcelona,7,6,False
+SP1,2223,2022-10-30,Osasuna,Valladolid,7,8,False
+SP1,2223,2022-10-30,Real Madrid,Girona,1,7,False
+SP1,2223,2022-10-30,Ath Bilbao,Villarreal,7,7,False
+SP1,2223,2022-10-30,Sociedad,Betis,8,7,False
+SP1,2223,2022-10-31,Elche,Getafe,8,7,False
+SP1,2223,2022-11-04,Girona,Ath Bilbao,5,5,False
+SP1,2223,2022-11-05,Getafe,Cadiz,5,7,False
+SP1,2223,2022-11-05,Valladolid,Elche,6,5,False
+SP1,2223,2022-11-05,Celta,Osasuna,7,6,False
+SP1,2223,2022-11-05,Barcelona,Almeria,7,7,False
+SP1,2223,2022-11-06,Real Madrid,Espanol,7,9,False
+SP1,2223,2022-11-06,Sociedad,Valencia,7,8,False
+SP1,2223,2022-11-06,Villarreal,Mallorca,7,9,False
+SP1,2223,2022-11-06,Betis,Sevilla,7,8,False
+SP1,2223,2022-11-07,Valencia,Real Madrid,1,1,False
+SP1,2223,2022-11-08,Elche,Girona,3,4,True
+SP1,2223,2022-11-08,Ath Bilbao,Valladolid,4,3,True
+SP1,2223,2022-11-08,Osasuna,Barcelona,3,3,True
+SP1,2223,2022-11-09,Almeria,Getafe,4,4,True
+SP1,2223,2022-11-09,Sevilla,Sociedad,3,3,True
+SP1,2223,2022-11-09,Espanol,Villarreal,3,3,True
+SP1,2223,2022-11-09,Mallorca,Real Madrid,3,2,True
+SP1,2223,2022-11-10,Valencia,Celta,3,5,True
+SP1,2223,2022-11-10,Valencia,Betis,3,4,True
+SP1,2223,2022-11-10,Real Madrid,Cadiz,1,5,True
+SP1,2223,2022-12-29,Girona,Valencia,51,49,True
+SP1,2223,2022-12-29,Betis,Ath Bilbao,49,51,True
+SP1,2223,2022-12-29,Real Madrid,Elche,49,51,True
+SP1,2223,2022-12-30,Getafe,Mallorca,51,51,False
+SP1,2223,2022-12-30,Cadiz,Almeria,50,51,False
+SP1,2223,2022-12-30,Celta,Sevilla,50,51,False
+SP1,2223,2022-12-30,Valladolid,Real Madrid,52,1,False
+SP1,2223,2022-12-31,Barcelona,Espanol,53,52,False
+SP1,2223,2022-12-31,Sociedad,Osasuna,52,53,False
+SP1,2223,2022-12-31,Villarreal,Valencia,52,2,False
+SP1,2223,2023-01-06,Elche,Celta,8,7,False
+SP1,2223,2023-01-06,Valencia,Cadiz,6,7,False
+SP1,2223,2023-01-07,Villarreal,Real Madrid,7,8,False
+SP1,2223,2023-01-07,Mallorca,Valladolid,8,8,False
+SP1,2223,2023-01-07,Espanol,Girona,7,9,False
+SP1,2223,2023-01-08,Almeria,Sociedad,9,8,False
+SP1,2223,2023-01-08,Valencia,Betis,2,10,False
+SP1,2223,2023-01-08,Sevilla,Getafe,9,9,False
+SP1,2223,2023-01-08,Real Madrid,Barcelona,1,8,False
+SP1,2223,2023-01-09,Ath Bilbao,Osasuna,11,9,False
+SP1,2223,2023-01-13,Celta,Villarreal,7,6,False
+SP1,2223,2023-01-14,Valladolid,Valencia,7,6,False
+SP1,2223,2023-01-14,Girona,Sevilla,7,6,False
+SP1,2223,2023-01-14,Osasuna,Mallorca,5,7,False
+SP1,2223,2023-01-14,Sociedad,Ath Bilbao,6,5,False
+SP1,2223,2023-01-15,Getafe,Espanol,7,8,False
+SP1,2223,2023-01-15,Almeria,Real Madrid,7,7,False
+SP1,2223,2023-01-16,Cadiz,Elche,10,10,False
+SP1,2223,2023-01-20,Mallorca,Celta,6,7,False
+SP1,2223,2023-01-21,Valencia,Sociedad,7,7,False
+SP1,2223,2023-01-21,Espanol,Betis,6,13,False
+SP1,2223,2023-01-21,Real Madrid,Valladolid,6,7,False
+SP1,2223,2023-01-21,Sevilla,Cadiz,7,5,False
+SP1,2223,2023-01-22,Villarreal,Girona,9,8,False
+SP1,2223,2023-01-22,Elche,Osasuna,6,8,False
+SP1,2223,2023-01-22,Barcelona,Getafe,14,7,False
+SP1,2223,2023-01-22,Ath Bilbao,Real Madrid,8,1,False
+SP1,2223,2023-01-23,Valencia,Almeria,2,8,False
+SP1,2223,2023-01-27,Almeria,Espanol,4,6,False
+SP1,2223,2023-01-28,Cadiz,Mallorca,7,8,False
+SP1,2223,2023-01-28,Girona,Barcelona,6,6,False
+SP1,2223,2023-01-28,Sevilla,Elche,7,6,False
+SP1,2223,2023-01-28,Getafe,Betis,6,7,False
+SP1,2223,2023-01-29,Valladolid,Valencia,8,6,False
+SP1,2223,2023-01-29,Osasuna,Real Madrid,7,7,False
+SP1,2223,2023-01-29,Celta,Ath Bilbao,9,7,False
+SP1,2223,2023-01-29,Real Madrid,Sociedad,7,8,False
+SP1,2223,2023-01-30,Villarreal,Valencia,8,1,False
+SP1,2223,2023-02-01,Betis,Barcelona,4,4,True
+SP1,2223,2023-02-02,Real Madrid,Valencia,4,3,True
+SP1,2223,2023-02-03,Ath Bilbao,Cadiz,5,6,False
+SP1,2223,2023-02-04,Espanol,Osasuna,8,6,False
+SP1,2223,2023-02-04,Elche,Villarreal,7,5,False
+SP1,2223,2023-02-04,Real Madrid,Getafe,2,7,False
+SP1,2223,2023-02-04,Betis,Celta,3,6,False
+SP1,2223,2023-02-05,Mallorca,Real Madrid,8,1,False
+SP1,2223,2023-02-05,Girona,Valencia,8,3,False
+SP1,2223,2023-02-05,Sociedad,Valladolid,7,7,False
+SP1,2223,2023-02-05,Barcelona,Sevilla,4,8,False
+SP1,2223,2023-02-06,Valencia,Almeria,1,10,False
+SP1,2223,2023-02-10,Cadiz,Girona,7,5,False
+SP1,2223,2023-02-11,Almeria,Betis,5,7,False
+SP1,2223,2023-02-11,Sevilla,Mallorca,6,6,False
+SP1,2223,2023-02-11,Valencia,Ath Bilbao,5,8,False
+SP1,2223,2023-02-12,Getafe,Valencia,8,1,False
+SP1,2223,2023-02-12,Celta,Real Madrid,8,7,False
+SP1,2223,2023-02-12,Valladolid,Osasuna,7,8,False
+SP1,2223,2023-02-12,Villarreal,Barcelona,8,7,False
+SP1,2223,2023-02-13,Espanol,Sociedad,9,8,False
+SP1,2223,2023-02-15,Real Madrid,Elche,3,11,True
+SP1,2223,2023-02-17,Girona,Almeria,7,6,False
+SP1,2223,2023-02-18,Sociedad,Celta,5,6,False
+SP1,2223,2023-02-18,Betis,Valladolid,7,6,False
+SP1,2223,2023-02-18,Mallorca,Villarreal,7,6,False
+SP1,2223,2023-02-18,Osasuna,Real Madrid,6,3,False
+SP1,2223,2023-02-19,Elche,Espanol,4,6,False
+SP1,2223,2023-02-19,Valencia,Sevilla,7,8,False
+SP1,2223,2023-02-19,Real Madrid,Ath Bilbao,1,8,False
+SP1,2223,2023-02-19,Barcelona,Cadiz,7,9,False
+SP1,2223,2023-02-20,Getafe,Valencia,8,1,False
+SP1,2223,2023-02-24,Elche,Betis,5,6,False
+SP1,2223,2023-02-25,Espanol,Mallorca,6,7,False
+SP1,2223,2023-02-25,Cadiz,Valencia,6,5,False
+SP1,2223,2023-02-25,Real Madrid,Real Madrid,6,6,False
+SP1,2223,2023-02-25,Valencia,Sociedad,5,7,False
+SP1,2223,2023-02-26,Ath Bilbao,Girona,7,9,False
+SP1,2223,2023-02-26,Celta,Valladolid,8,8,False
+SP1,2223,2023-02-26,Almeria,Barcelona,9,7,False
+SP1,2223,2023-02-26,Sevilla,Osasuna,7,8,False
+SP1,2223,2023-02-27,Villarreal,Getafe,9,7,False
+SP1,2223,2023-03-03,Sociedad,Cadiz,6,6,False
+SP1,2223,2023-03-04,Getafe,Girona,5,6,False
+SP1,2223,2023-03-04,Almeria,Villarreal,6,5,False
+SP1,2223,2023-03-04,Mallorca,Elche,7,8,False
+SP1,2223,2023-03-04,Real Madrid,Sevilla,7,6,False
+SP1,2223,2023-03-05,Valladolid,Espanol,7,8,False
+SP1,2223,2023-03-05,Barcelona,Valencia,7,8,False
+SP1,2223,2023-03-05,Valencia,Ath Bilbao,8,7,False
+SP1,2223,2023-03-05,Betis,Real Madrid,9,1,False
+SP1,2223,2023-03-06,Osasuna,Celta,8,8,False
+SP1,2223,2023-03-10,Cadiz,Getafe,7,6,False
+SP1,2223,2023-03-11,Real Madrid,Espanol,6,6,False
+SP1,2223,2023-03-11,Elche,Valladolid,7,6,False
+SP1,2223,2023-03-11,Celta,Valencia,5,6,False
+SP1,2223,2023-03-11,Valencia,Osasuna,6,5,False
+SP1,2223,2023-03-12,Mallorca,Sociedad,8,9,False
+SP1,2223,2023-03-12,Sevilla,Almeria,8,8,False
+SP1,2223,2023-03-12,Villarreal,Betis,8,7,False
+SP1,2223,2023-03-12,Ath Bilbao,Barcelona,7,7,False
+SP1,2223,2023-03-13,Girona,Real Madrid,9,2,False
+SP1,2223,2023-03-17,Valladolid,Ath Bilbao,6,5,False
+SP1,2223,2023-03-18,Almeria,Cadiz,6,8,False
+SP1,2223,2023-03-18,Valencia,Girona,7,5,False
+SP1,2223,2023-03-18,Espanol,Celta,7,7,False
+SP1,2223,2023-03-18,Real Madrid,Valencia,5,7,False
+SP1,2223,2023-03-19,Betis,Mallorca,7,7,False
+SP1,2223,2023-03-19,Osasuna,Villarreal,8,7,False
+SP1,2223,2023-03-19,Sociedad,Elche,7,8,False
+SP1,2223,2023-03-19,Getafe,Sevilla,9,7,False
+SP1,2223,2023-03-19,Barcelona,Real Madrid,7,1,False
+SP1,2223,2023-03-31,Mallorca,Osasuna,12,12,False
+SP1,2223,2023-04-01,Girona,Espanol,14,14,False
+SP1,2223,2023-04-01,Ath Bilbao,Getafe,15,13,False
+SP1,2223,2023-04-01,Cadiz,Sevilla,14,13,False
+SP1,2223,2023-04-01,Elche,Barcelona,13,13,False
+SP1,2223,2023-04-02,Celta,Almeria,15,15,False
+SP1,2223,2023-04-02,Real Madrid,Valladolid,14,16,False
+SP1,2223,2023-04-02,Villarreal,Sociedad,14,14,False
+SP1,2223,2023-04-02,Real Madrid,Betis,14,14,False
+SP1,2223,2023-04-03,Valencia,Valencia,16,16,False
+SP1,2223,2023-04-07,Sevilla,Celta,6,5,False
+SP1,2223,2023-04-08,Osasuna,Elche,8,7,False
+SP1,2223,2023-04-08,Espanol,Ath Bilbao,7,7,False
+SP1,2223,2023-04-08,Sociedad,Getafe,6,7,False
+SP1,2223,2023-04-08,Real Madrid,Villarreal,6,6,False
+SP1,2223,2023-04-09,Valladolid,Mallorca,7,9,False
+SP1,2223,2023-04-09,Betis,Cadiz,7,8,False
+SP1,2223,2023-04-09,Almeria,Valencia,7,6,False
+SP1,2223,2023-04-09,Valencia,Real Madrid,6,1,False
+SP1,2223,2023-04-10,Barcelona,Girona,9,9,False
+SP1,2223,2023-04-14,Valencia,Osasuna,5,6,False
+SP1,2223,2023-04-15,Villarreal,Valladolid,7,6,False
+SP1,2223,2023-04-15,Ath Bilbao,Sociedad,7,7,False
+SP1,2223,2023-04-15,Betis,Espanol,6,7,False
+SP1,2223,2023-04-15,Cadiz,Real Madrid,6,6,False
+SP1,2223,2023-04-16,Girona,Elche,6,8,False
+SP1,2223,2023-04-16,Getafe,Barcelona,8,6,False
+SP1,2223,2023-04-16,Real Madrid,Almeria,1,7,False
+SP1,2223,2023-04-16,Valencia,Sevilla,2,9,False
+SP1,2223,2023-04-17,Celta,Mallorca,10,8,False
+SP1,2223,2023-04-21,Espanol,Cadiz,6,6,False
+SP1,2223,2023-04-22,Osasuna,Betis,8,7,False
+SP1,2223,2023-04-22,Almeria,Ath Bilbao,6,7,False
+SP1,2223,2023-04-22,Sociedad,Valencia,7,6,False
+SP1,2223,2023-04-22,Valladolid,Girona,7,6,False
+SP1,2223,2023-04-22,Real Madrid,Celta,6,5,False
+SP1,2223,2023-04-23,Elche,Valencia,7,1,False
+SP1,2223,2023-04-23,Barcelona,Real Madrid,7,1,False
+SP1,2223,2023-04-23,Mallorca,Getafe,6,7,False
+SP1,2223,2023-04-23,Sevilla,Villarreal,7,8,False
+SP1,2223,2023-04-25,Cadiz,Osasuna,4,3,True
+SP1,2223,2023-04-25,Girona,Real Madrid,3,2,True
+SP1,2223,2023-04-25,Betis,Sociedad,3,3,True
+SP1,2223,2023-04-26,Real Madrid,Mallorca,1,3,True
+SP1,2223,2023-04-26,Getafe,Almeria,3,4,True
+SP1,2223,2023-04-26,Celta,Elche,4,3,True
+SP1,2223,2023-04-26,Valencia,Barcelona,3,3,True
+SP1,2223,2023-04-27,Valencia,Valladolid,1,5,True
+SP1,2223,2023-04-27,Villarreal,Espanol,4,6,True
+SP1,2223,2023-04-27,Ath Bilbao,Sevilla,5,4,True
+SP1,2223,2023-04-28,Osasuna,Sociedad,3,3,False
+SP1,2223,2023-04-29,Elche,Valencia,3,2,False
+SP1,2223,2023-04-29,Real Madrid,Almeria,3,3,False
+SP1,2223,2023-04-29,Barcelona,Betis,3,4,False
+SP1,2223,2023-04-30,Cadiz,Valencia,5,1,False
+SP1,2223,2023-04-30,Villarreal,Celta,3,4,False
+SP1,2223,2023-04-30,Espanol,Getafe,3,4,False
+SP1,2223,2023-04-30,Valladolid,Real Madrid,3,1,False
+SP1,2223,2023-05-01,Mallorca,Ath Bilbao,5,4,False
+SP1,2223,2023-05-01,Sevilla,Girona,4,6,False
+SP1,2223,2023-05-02,Almeria,Elche,3,3,True
+SP1,2223,2023-05-02,Barcelona,Osasuna,3,4,True
+SP1,2223,2023-05-02,Sociedad,Real Madrid,4,2,True
+SP1,2223,2023-05-03,Valencia,Villarreal,3,3,True
+SP1,2223,2023-05-03,Real Madrid,Cadiz,1,3,True
+SP1,2223,2023-05-03,Getafe,Celta,3,3,True
+SP1,2223,2023-05-04,Girona,Mallorca,3,3,True
+SP1,2223,2023-05-04,Sevilla,Espanol,3,4,True
+SP1,2223,2023-05-04,Ath Bilbao,Betis,3,5,True
+SP1,2223,2023-05-04,Valencia,Valladolid,1,4,True
+SP1,2223,2023-05-12,Mallorca,Cadiz,8,9,False
+SP1,2223,2023-05-13,Sociedad,Girona,11,9,False
+SP1,2223,2023-05-13,Osasuna,Almeria,11,11,False
+SP1,2223,2023-05-13,Villarreal,Ath Bilbao,10,9,False
+SP1,2223,2023-05-13,Real Madrid,Getafe,10,10,False
+SP1,2223,2023-05-14,Celta,Valencia,11,10,False
+SP1,2223,2023-05-14,Elche,Real Madrid,12,1,False
+SP1,2223,2023-05-14,Valladolid,Sevilla,10,10,False
+SP1,2223,2023-05-14,Espanol,Barcelona,10,12,False
+SP1,2223,2023-05-15,Betis,Valencia,11,1,False
+SP1,2223,2023-05-19,Cadiz,Valladolid,7,5,False
+SP1,2223,2023-05-20,Girona,Villarreal,7,7,False
+SP1,2223,2023-05-20,Ath Bilbao,Celta,7,6,False
+SP1,2223,2023-05-20,Almeria,Mallorca,7,8,False
+SP1,2223,2023-05-20,Getafe,Elche,7,6,False
+SP1,2223,2023-05-20,Barcelona,Sociedad,6,7,False
+SP1,2223,2023-05-21,Valencia,Espanol,6,7,False
+SP1,2223,2023-05-21,Real Madrid,Osasuna,7,8,False
+SP1,2223,2023-05-21,Valencia,Real Madrid,6,7,False
+SP1,2223,2023-05-21,Sevilla,Betis,7,6,False
+SP1,2223,2023-05-23,Celta,Girona,3,3,True
+SP1,2223,2023-05-23,Sociedad,Almeria,3,3,True
+SP1,2223,2023-05-23,Valladolid,Barcelona,4,3,True
+SP1,2223,2023-05-24,Elche,Sevilla,4,3,True
+SP1,2223,2023-05-24,Real Madrid,Valencia,3,3,True
+SP1,2223,2023-05-24,Villarreal,Cadiz,4,5,True
+SP1,2223,2023-05-24,Betis,Getafe,3,4,True
+SP1,2223,2023-05-24,Espanol,Real Madrid,3,3,True
+SP1,2223,2023-05-25,Mallorca,Valencia,5,1,True
+SP1,2223,2023-05-25,Osasuna,Ath Bilbao,4,5,True
+SP1,2223,2023-05-27,Sevilla,Real Madrid,3,3,False
+SP1,2223,2023-05-28,Almeria,Valladolid,5,5,False
+SP1,2223,2023-05-28,Ath Bilbao,Elche,3,4,False
+SP1,2223,2023-05-28,Real Madrid,Sociedad,1,5,False
+SP1,2223,2023-05-28,Barcelona,Mallorca,5,3,False
+SP1,2223,2023-05-28,Cadiz,Celta,4,5,False
+SP1,2223,2023-05-28,Getafe,Osasuna,4,3,False
+SP1,2223,2023-05-28,Girona,Betis,5,4,False
+SP1,2223,2023-05-28,Valencia,Espanol,3,4,False
+SP1,2223,2023-05-28,Valencia,Villarreal,3,4,False
+SP1,2223,2023-06-04,Mallorca,Valencia,7,7,False
+SP1,2223,2023-06-04,Osasuna,Girona,7,7,False
+SP1,2223,2023-06-04,Real Madrid,Ath Bilbao,7,7,False
+SP1,2223,2023-06-04,Sociedad,Sevilla,7,8,False
+SP1,2223,2023-06-04,Villarreal,Real Madrid,7,7,False
+SP1,2223,2023-06-04,Betis,Valencia,7,7,False
+SP1,2223,2023-06-04,Celta,Barcelona,7,7,False
+SP1,2223,2023-06-04,Elche,Cadiz,7,7,False
+SP1,2223,2023-06-04,Espanol,Almeria,7,7,False
+SP1,2223,2023-06-04,Valladolid,Getafe,7,7,False

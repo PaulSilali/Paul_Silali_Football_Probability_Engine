@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E3,2122,2021-08-07,Tranmere,Walsall,91,91,False
+E3,2122,2021-08-07,Hartlepool,Crawley Town,7,91,False
+E3,2122,2021-08-07,Scunthorpe,Swindon,91,518,False
+E3,2122,2021-08-07,Exeter,Bradford,91,91,False
+E3,2122,2021-08-07,Harrogate,Rochdale,91,7,False
+E3,2122,2021-08-07,Northampton,Port Vale,518,91,False
+E3,2122,2021-08-07,Salford,Leyton Orient,91,91,False
+E3,2122,2021-08-07,Oldham,Newport County,91,91,False
+E3,2122,2021-08-07,Carlisle,Colchester,91,91,False
+E3,2122,2021-08-07,Mansfield,Bristol Rvs,91,7,False
+E3,2122,2021-08-07,Forest Green,Sutton,91,7,False
+E3,2122,2021-08-07,Stevenage,Barrow,91,91,False
+E3,2122,2021-08-14,Bristol Rvs,Stevenage,7,7,False
+E3,2122,2021-08-14,Colchester,Northampton,7,7,False
+E3,2122,2021-08-14,Leyton Orient,Exeter,7,7,False
+E3,2122,2021-08-14,Bradford,Oldham,7,7,False
+E3,2122,2021-08-14,Mansfield,Newport County,7,7,False
+E3,2122,2021-08-14,Port Vale,Tranmere,7,7,False
+E3,2122,2021-08-14,Rochdale,Scunthorpe,7,7,False
+E3,2122,2021-08-14,Salford,Sutton,7,7,False
+E3,2122,2021-08-14,Swindon,Carlisle,7,7,False
+E3,2122,2021-08-14,Walsall,Forest Green,7,7,False
+E3,2122,2021-08-14,Barrow,Hartlepool,7,7,False
+E3,2122,2021-08-17,Barrow,Exeter,3,3,True
+E3,2122,2021-08-17,Bradford,Stevenage,3,3,True
+E3,2122,2021-08-17,Bristol Rvs,Oldham,3,3,True
+E3,2122,2021-08-17,Colchester,Mansfield,3,3,True
+E3,2122,2021-08-17,Crawley Town,Salford,10,3,True
+E3,2122,2021-08-17,Port Vale,Carlisle,3,3,True
+E3,2122,2021-08-17,Rochdale,Forest Green,3,3,True
+E3,2122,2021-08-17,Swindon,Tranmere,3,3,True
+E3,2122,2021-08-17,Walsall,Scunthorpe,3,3,True
+E3,2122,2021-08-21,Forest Green,Crawley Town,4,4,False
+E3,2122,2021-08-21,Harrogate,Barrow,14,4,False
+E3,2122,2021-08-21,Hartlepool,Walsall,7,4,False
+E3,2122,2021-08-21,Mansfield,Bradford,4,4,False
+E3,2122,2021-08-21,Northampton,Rochdale,7,4,False
+E3,2122,2021-08-21,Oldham,Colchester,4,4,False
+E3,2122,2021-08-21,Salford,Swindon,4,4,False
+E3,2122,2021-08-21,Scunthorpe,Sutton,4,7,False
+E3,2122,2021-08-21,Stevenage,Port Vale,4,4,False
+E3,2122,2021-08-21,Tranmere,Newport County,4,7,False
+E3,2122,2021-08-21,Exeter,Bristol Rvs,4,4,False
+E3,2122,2021-08-21,Carlisle,Leyton Orient,4,7,False
+E3,2122,2021-08-24,Leyton Orient,Harrogate,3,3,True
+E3,2122,2021-08-27,Rochdale,Colchester,6,6,False
+E3,2122,2021-08-28,Forest Green,Port Vale,7,7,False
+E3,2122,2021-08-28,Harrogate,Exeter,4,7,False
+E3,2122,2021-08-28,Hartlepool,Carlisle,7,7,False
+E3,2122,2021-08-28,Leyton Orient,Bradford,4,7,False
+E3,2122,2021-08-28,Barrow,Bristol Rvs,7,7,False
+E3,2122,2021-08-28,Scunthorpe,Tranmere,7,7,False
+E3,2122,2021-08-28,Sutton,Oldham,7,7,False
+E3,2122,2021-08-28,Swindon,Mansfield,7,7,False
+E3,2122,2021-08-28,Walsall,Stevenage,7,7,False
+E3,2122,2021-08-28,Salford,Newport County,7,7,False
+E3,2122,2021-08-28,Crawley Town,Northampton,7,7,False
+E3,2122,2021-09-04,Tranmere,Hartlepool,7,7,False
+E3,2122,2021-09-04,Bradford,Walsall,7,7,False
+E3,2122,2021-09-04,Bristol Rvs,Crawley Town,7,7,False
+E3,2122,2021-09-04,Carlisle,Salford,7,7,False
+E3,2122,2021-09-04,Exeter,Forest Green,7,7,False
+E3,2122,2021-09-04,Mansfield,Harrogate,7,7,False
+E3,2122,2021-09-04,Newport County,Leyton Orient,7,7,False
+E3,2122,2021-09-04,Northampton,Scunthorpe,7,7,False
+E3,2122,2021-09-04,Oldham,Barrow,7,7,False
+E3,2122,2021-09-04,Port Vale,Rochdale,7,8,False
+E3,2122,2021-09-04,Stevenage,Swindon,7,7,False
+E3,2122,2021-09-10,Harrogate,Newport County,6,6,False
+E3,2122,2021-09-10,Barrow,Colchester,6,14,False
+E3,2122,2021-09-11,Salford,Bradford,7,7,False
+E3,2122,2021-09-11,Crawley Town,Carlisle,7,7,False
+E3,2122,2021-09-11,Scunthorpe,Exeter,7,7,False
+E3,2122,2021-09-11,Sutton,Stevenage,14,7,False
+E3,2122,2021-09-11,Swindon,Port Vale,7,7,False
+E3,2122,2021-09-11,Walsall,Mansfield,7,7,False
+E3,2122,2021-09-11,Leyton Orient,Oldham,7,7,False
+E3,2122,2021-09-11,Rochdale,Tranmere,7,7,False
+E3,2122,2021-09-11,Forest Green,Northampton,7,7,False
+E3,2122,2021-09-11,Hartlepool,Bristol Rvs,7,7,False
+E3,2122,2021-09-14,Sutton,Hartlepool,3,3,True
+E3,2122,2021-09-14,Newport County,Northampton,4,3,True
+E3,2122,2021-09-18,Bristol Rvs,Leyton Orient,7,7,False
+E3,2122,2021-09-18,Carlisle,Scunthorpe,7,7,False
+E3,2122,2021-09-18,Colchester,Crawley Town,8,7,False
+E3,2122,2021-09-18,Exeter,Sutton,7,4,False
+E3,2122,2021-09-18,Mansfield,Rochdale,7,7,False
+E3,2122,2021-09-18,Newport County,Walsall,4,7,False
+E3,2122,2021-09-18,Northampton,Swindon,4,7,False
+E3,2122,2021-09-18,Port Vale,Harrogate,7,8,False
+E3,2122,2021-09-18,Stevenage,Forest Green,7,7,False
+E3,2122,2021-09-18,Tranmere,Salford,7,7,False
+E3,2122,2021-09-18,Oldham,Hartlepool,7,4,False
+E3,2122,2021-09-18,Bradford,Barrow,7,8,False
+E3,2122,2021-09-21,Crawley Town,Harrogate,3,3,True
+E3,2122,2021-09-24,Barrow,Newport County,6,6,False
+E3,2122,2021-09-25,Rochdale,Oldham,7,7,False
+E3,2122,2021-09-25,Crawley Town,Bradford,4,7,False
+E3,2122,2021-09-25,Forest Green,Tranmere,7,7,False
+E3,2122,2021-09-25,Harrogate,Stevenage,4,7,False
+E3,2122,2021-09-25,Hartlepool,Exeter,7,7,False
+E3,2122,2021-09-25,Leyton Orient,Mansfield,7,7,False
+E3,2122,2021-09-25,Salford,Northampton,7,7,False
+E3,2122,2021-09-25,Scunthorpe,Port Vale,7,7,False
+E3,2122,2021-09-25,Sutton,Carlisle,7,7,False
+E3,2122,2021-09-25,Swindon,Colchester,7,7,False
+E3,2122,2021-09-25,Walsall,Bristol Rvs,7,7,False
+E3,2122,2021-10-02,Carlisle,Forest Green,7,7,False
+E3,2122,2021-10-02,Colchester,Salford,7,7,False
+E3,2122,2021-10-02,Exeter,Walsall,7,7,False
+E3,2122,2021-10-02,Mansfield,Barrow,7,8,False
+E3,2122,2021-10-02,Newport County,Scunthorpe,8,7,False
+E3,2122,2021-10-02,Northampton,Sutton,7,7,False
+E3,2122,2021-10-02,Oldham,Harrogate,7,7,False
+E3,2122,2021-10-02,Port Vale,Leyton Orient,7,7,False
+E3,2122,2021-10-02,Stevenage,Hartlepool,7,7,False
+E3,2122,2021-10-02,Tranmere,Crawley Town,7,7,False
+E3,2122,2021-10-02,Bristol Rvs,Swindon,7,7,False
+E3,2122,2021-10-02,Bradford,Rochdale,7,7,False
+E3,2122,2021-10-08,Tranmere,Colchester,6,6,False
+E3,2122,2021-10-09,Bristol Rvs,Carlisle,7,7,False
+E3,2122,2021-10-09,Harrogate,Scunthorpe,7,7,False
+E3,2122,2021-10-09,Hartlepool,Northampton,7,7,False
+E3,2122,2021-10-09,Mansfield,Oldham,7,7,False
+E3,2122,2021-10-09,Newport County,Bradford,7,7,False
+E3,2122,2021-10-09,Rochdale,Crawley Town,7,7,False
+E3,2122,2021-10-09,Stevenage,Exeter,7,7,False
+E3,2122,2021-10-09,Sutton,Port Vale,7,7,False
+E3,2122,2021-10-09,Walsall,Salford,7,7,False
+E3,2122,2021-10-09,Barrow,Leyton Orient,7,7,False
+E3,2122,2021-10-09,Forest Green,Swindon,7,7,False
+E3,2122,2021-10-16,Port Vale,Barrow,7,7,False
+E3,2122,2021-10-16,Bradford,Bristol Rvs,7,7,False
+E3,2122,2021-10-16,Carlisle,Tranmere,7,8,False
+E3,2122,2021-10-16,Colchester,Harrogate,8,7,False
+E3,2122,2021-10-16,Crawley Town,Sutton,7,7,False
+E3,2122,2021-10-16,Exeter,Newport County,7,7,False
+E3,2122,2021-10-16,Leyton Orient,Walsall,7,7,False
+E3,2122,2021-10-16,Northampton,Mansfield,7,7,False
+E3,2122,2021-10-16,Oldham,Stevenage,7,7,False
+E3,2122,2021-10-16,Salford,Hartlepool,7,7,False
+E3,2122,2021-10-16,Scunthorpe,Forest Green,7,7,False
+E3,2122,2021-10-16,Swindon,Rochdale,7,7,False
+E3,2122,2021-10-19,Northampton,Stevenage,3,3,True
+E3,2122,2021-10-19,Oldham,Walsall,3,3,True
+E3,2122,2021-10-19,Salford,Rochdale,3,3,True
+E3,2122,2021-10-19,Colchester,Bristol Rvs,3,3,True
+E3,2122,2021-10-19,Leyton Orient,Forest Green,3,3,True
+E3,2122,2021-10-19,Sutton,Swindon,3,3,True
+E3,2122,2021-10-19,Barrow,Scunthorpe,3,3,True
+E3,2122,2021-10-19,Bradford,Hartlepool,3,3,True
+E3,2122,2021-10-19,Harrogate,Tranmere,3,3,True
+E3,2122,2021-10-19,Crawley Town,Exeter,3,3,True
+E3,2122,2021-10-19,Mansfield,Port Vale,3,3,True
+E3,2122,2021-10-19,Newport County,Carlisle,3,3,True
+E3,2122,2021-10-23,Exeter,Mansfield,4,4,False
+E3,2122,2021-10-23,Forest Green,Salford,4,4,False
+E3,2122,2021-10-23,Hartlepool,Harrogate,4,4,False
+E3,2122,2021-10-23,Port Vale,Colchester,4,4,False
+E3,2122,2021-10-23,Rochdale,Sutton,4,4,False
+E3,2122,2021-10-23,Scunthorpe,Crawley Town,4,4,False
+E3,2122,2021-10-23,Stevenage,Leyton Orient,4,4,False
+E3,2122,2021-10-23,Bristol Rvs,Newport County,4,4,False
+E3,2122,2021-10-23,Carlisle,Oldham,4,4,False
+E3,2122,2021-10-23,Swindon,Bradford,4,4,False
+E3,2122,2021-10-23,Tranmere,Northampton,4,4,False
+E3,2122,2021-10-23,Walsall,Barrow,4,4,False
+E3,2122,2021-10-26,Colchester,Sutton,3,3,True
+E3,2122,2021-10-30,Mansfield,Tranmere,7,7,False
+E3,2122,2021-10-30,Northampton,Carlisle,7,7,False
+E3,2122,2021-10-30,Bradford,Forest Green,7,7,False
+E3,2122,2021-10-30,Colchester,Scunthorpe,4,7,False
+E3,2122,2021-10-30,Crawley Town,Port Vale,7,7,False
+E3,2122,2021-10-30,Harrogate,Bristol Rvs,7,7,False
+E3,2122,2021-10-30,Leyton Orient,Hartlepool,7,7,False
+E3,2122,2021-10-30,Newport County,Stevenage,7,7,False
+E3,2122,2021-10-30,Oldham,Swindon,7,7,False
+E3,2122,2021-10-30,Salford,Exeter,7,7,False
+E3,2122,2021-10-30,Sutton,Walsall,4,7,False
+E3,2122,2021-10-30,Barrow,Rochdale,7,7,False
+E3,2122,2021-11-12,Hartlepool,Newport County,13,13,False
+E3,2122,2021-11-13,Bristol Rvs,Northampton,14,14,False
+E3,2122,2021-11-13,Exeter,Oldham,14,14,False
+E3,2122,2021-11-13,Rochdale,Leyton Orient,14,14,False
+E3,2122,2021-11-13,Scunthorpe,Salford,14,14,False
+E3,2122,2021-11-13,Stevenage,Mansfield,14,14,False
+E3,2122,2021-11-13,Tranmere,Sutton,14,14,False
+E3,2122,2021-11-13,Walsall,Harrogate,14,14,False
+E3,2122,2021-11-13,Carlisle,Barrow,14,14,False
+E3,2122,2021-11-13,Port Vale,Bradford,14,14,False
+E3,2122,2021-11-20,Bristol Rvs,Tranmere,7,7,False
+E3,2122,2021-11-20,Exeter,Carlisle,7,7,False
+E3,2122,2021-11-20,Harrogate,Salford,7,7,False
+E3,2122,2021-11-20,Hartlepool,Forest Green,8,21,False
+E3,2122,2021-11-20,Leyton Orient,Sutton,7,7,False
+E3,2122,2021-11-20,Mansfield,Scunthorpe,7,7,False
+E3,2122,2021-11-20,Newport County,Swindon,8,21,False
+E3,2122,2021-11-20,Oldham,Port Vale,7,7,False
+E3,2122,2021-11-20,Stevenage,Colchester,7,21,False
+E3,2122,2021-11-20,Walsall,Rochdale,7,7,False
+E3,2122,2021-11-20,Barrow,Crawley Town,7,21,False
+E3,2122,2021-11-20,Bradford,Northampton,7,7,False
+E3,2122,2021-11-23,Scunthorpe,Leyton Orient,3,3,True
+E3,2122,2021-11-23,Carlisle,Harrogate,3,3,True
+E3,2122,2021-11-23,Colchester,Exeter,3,3,True
+E3,2122,2021-11-23,Crawley Town,Newport County,3,3,True
+E3,2122,2021-11-23,Forest Green,Barrow,3,3,True
+E3,2122,2021-11-23,Northampton,Oldham,3,3,True
+E3,2122,2021-11-23,Port Vale,Walsall,3,3,True
+E3,2122,2021-11-23,Rochdale,Stevenage,3,3,True
+E3,2122,2021-11-23,Salford,Bristol Rvs,3,3,True
+E3,2122,2021-11-23,Sutton,Mansfield,3,3,True
+E3,2122,2021-11-23,Swindon,Hartlepool,3,3,True
+E3,2122,2021-11-23,Tranmere,Bradford,3,3,True
+E3,2122,2021-11-26,Colchester,Newport County,3,3,False
+E3,2122,2021-11-27,Crawley Town,Mansfield,4,4,False
+E3,2122,2021-11-27,Rochdale,Exeter,4,4,False
+E3,2122,2021-11-27,Salford,Oldham,4,4,False
+E3,2122,2021-11-27,Scunthorpe,Bradford,4,4,False
+E3,2122,2021-11-27,Sutton,Barrow,4,4,False
+E3,2122,2021-11-27,Swindon,Harrogate,4,4,False
+E3,2122,2021-11-27,Northampton,Leyton Orient,4,4,False
+E3,2122,2021-11-27,Carlisle,Walsall,4,4,False
+E3,2122,2021-11-27,Forest Green,Bristol Rvs,4,4,False
+E3,2122,2021-11-27,Port Vale,Hartlepool,4,4,False
+E3,2122,2021-12-07,Bristol Rvs,Port Vale,10,10,True
+E3,2122,2021-12-07,Leyton Orient,Swindon,10,10,True
+E3,2122,2021-12-07,Mansfield,Carlisle,10,10,True
+E3,2122,2021-12-07,Newport County,Sutton,11,10,True
+E3,2122,2021-12-07,Oldham,Tranmere,10,14,True
+E3,2122,2021-12-07,Stevenage,Scunthorpe,14,10,True
+E3,2122,2021-12-07,Walsall,Crawley Town,10,10,True
+E3,2122,2021-12-07,Exeter,Northampton,10,10,True
+E3,2122,2021-12-07,Harrogate,Forest Green,10,10,True
+E3,2122,2021-12-08,Bradford,Colchester,11,12,True
+E3,2122,2021-12-08,Hartlepool,Rochdale,11,11,True
+E3,2122,2021-12-11,Exeter,Tranmere,4,4,False
+E3,2122,2021-12-11,Barrow,Swindon,14,4,False
+E3,2122,2021-12-11,Bradford,Sutton,3,4,False
+E3,2122,2021-12-11,Bristol Rvs,Rochdale,4,3,False
+E3,2122,2021-12-11,Harrogate,Northampton,4,4,False
+E3,2122,2021-12-11,Hartlepool,Scunthorpe,3,4,False
+E3,2122,2021-12-11,Leyton Orient,Crawley Town,4,4,False
+E3,2122,2021-12-11,Mansfield,Salford,4,14,False
+E3,2122,2021-12-11,Newport County,Port Vale,4,4,False
+E3,2122,2021-12-11,Oldham,Forest Green,4,4,False
+E3,2122,2021-12-11,Stevenage,Carlisle,4,4,False
+E3,2122,2021-12-11,Walsall,Colchester,4,3,False
+E3,2122,2021-12-18,Sutton,Harrogate,7,7,False
+E3,2122,2021-12-18,Tranmere,Leyton Orient,7,7,False
+E3,2122,2021-12-18,Salford,Stevenage,7,7,False
+E3,2122,2021-12-18,Rochdale,Newport County,7,7,False
+E3,2122,2021-12-26,Tranmere,Barrow,8,15,False
+E3,2122,2021-12-26,Mansfield,Hartlepool,15,15,False
+E3,2122,2021-12-26,Oldham,Scunthorpe,15,15,False
+E3,2122,2021-12-29,Swindon,Stevenage,18,11,True
+E3,2122,2021-12-29,Barrow,Oldham,3,3,True
+E3,2122,2022-01-01,Forest Green,Stevenage,21,3,False
+E3,2122,2022-01-01,Hartlepool,Oldham,6,3,False
+E3,2122,2022-01-01,Scunthorpe,Carlisle,6,21,False
+E3,2122,2022-01-01,Sutton,Exeter,14,21,False
+E3,2122,2022-01-01,Swindon,Northampton,3,21,False
+E3,2122,2022-01-01,Walsall,Newport County,21,14,False
+E3,2122,2022-01-01,Barrow,Bradford,3,21,False
+E3,2122,2022-01-01,Crawley Town,Colchester,21,21,False
+E3,2122,2022-01-04,Forest Green,Exeter,3,3,True
+E3,2122,2022-01-08,Northampton,Crawley Town,7,7,False
+E3,2122,2022-01-08,Stevenage,Walsall,7,7,False
+E3,2122,2022-01-08,Tranmere,Scunthorpe,13,7,False
+E3,2122,2022-01-08,Newport County,Salford,7,21,False
+E3,2122,2022-01-08,Carlisle,Bradford,7,7,False
+E3,2122,2022-01-11,Salford,Tranmere,3,3,True
+E3,2122,2022-01-11,Mansfield,Swindon,16,10,True
+E3,2122,2022-01-11,Forest Green,Colchester,7,10,True
+E3,2122,2022-01-15,Colchester,Barrow,4,14,False
+E3,2122,2022-01-15,Newport County,Harrogate,7,28,False
+E3,2122,2022-01-15,Bradford,Salford,7,4,False
+E3,2122,2022-01-15,Bristol Rvs,Hartlepool,35,14,False
+E3,2122,2022-01-15,Carlisle,Crawley Town,7,7,False
+E3,2122,2022-01-15,Exeter,Scunthorpe,11,7,False
+E3,2122,2022-01-15,Mansfield,Walsall,4,7,False
+E3,2122,2022-01-15,Northampton,Forest Green,7,4,False
+E3,2122,2022-01-15,Port Vale,Swindon,35,4,False
+E3,2122,2022-01-15,Stevenage,Sutton,7,14,False
+E3,2122,2022-01-15,Tranmere,Rochdale,4,28,False
+E3,2122,2022-01-18,Stevenage,Crawley Town,3,3,True
+E3,2122,2022-01-18,Sutton,Colchester,3,3,True
+E3,2122,2022-01-18,Port Vale,Salford,3,3,True
+E3,2122,2022-01-18,Carlisle,Hartlepool,3,3,True
+E3,2122,2022-01-22,Forest Green,Carlisle,7,4,False
+E3,2122,2022-01-22,Crawley Town,Tranmere,4,7,False
+E3,2122,2022-01-22,Scunthorpe,Newport County,7,7,False
+E3,2122,2022-01-22,Swindon,Bristol Rvs,7,7,False
+E3,2122,2022-01-22,Sutton,Northampton,4,7,False
+E3,2122,2022-01-22,Walsall,Exeter,7,7,False
+E3,2122,2022-01-22,Leyton Orient,Port Vale,35,4,False
+E3,2122,2022-01-22,Rochdale,Bradford,7,7,False
+E3,2122,2022-01-22,Salford,Colchester,4,4,False
+E3,2122,2022-01-22,Harrogate,Oldham,7,21,False
+E3,2122,2022-01-22,Barrow,Mansfield,7,7,False
+E3,2122,2022-01-22,Hartlepool,Stevenage,4,4,False
+E3,2122,2022-01-25,Scunthorpe,Bristol Rvs,3,3,True
+E3,2122,2022-01-25,Walsall,Bradford,3,3,True
+E3,2122,2022-01-25,Barrow,Salford,3,3,True
+E3,2122,2022-01-25,Leyton Orient,Newport County,3,3,True
+E3,2122,2022-01-29,Carlisle,Sutton,7,7,False
+E3,2122,2022-01-29,Colchester,Swindon,7,7,False
+E3,2122,2022-01-29,Exeter,Hartlepool,7,7,False
+E3,2122,2022-01-29,Mansfield,Leyton Orient,7,4,False
+E3,2122,2022-01-29,Newport County,Barrow,4,4,False
+E3,2122,2022-01-29,Northampton,Salford,7,4,False
+E3,2122,2022-01-29,Oldham,Rochdale,7,7,False
+E3,2122,2022-01-29,Port Vale,Scunthorpe,7,4,False
+E3,2122,2022-01-29,Stevenage,Harrogate,7,7,False
+E3,2122,2022-01-29,Tranmere,Forest Green,7,7,False
+E3,2122,2022-01-29,Bradford,Crawley Town,4,7,False
+E3,2122,2022-01-29,Bristol Rvs,Walsall,4,4,False
+E3,2122,2022-02-01,Tranmere,Stevenage,3,3,True
+E3,2122,2022-02-01,Bradford,Leyton Orient,3,3,True
+E3,2122,2022-02-01,Colchester,Rochdale,3,3,True
+E3,2122,2022-02-01,Harrogate,Mansfield,3,3,True
+E3,2122,2022-02-01,Northampton,Barrow,3,3,True
+E3,2122,2022-02-01,Port Vale,Forest Green,3,3,True
+E3,2122,2022-02-01,Salford,Carlisle,3,3,True
+E3,2122,2022-02-01,Swindon,Crawley Town,3,3,True
+E3,2122,2022-02-05,Crawley Town,Stevenage,4,4,False
+E3,2122,2022-02-05,Forest Green,Newport County,4,7,False
+E3,2122,2022-02-05,Leyton Orient,Colchester,4,4,False
+E3,2122,2022-02-05,Scunthorpe,Oldham,7,7,False
+E3,2122,2022-02-05,Sutton,Bristol Rvs,7,7,False
+E3,2122,2022-02-05,Swindon,Exeter,4,7,False
+E3,2122,2022-02-05,Walsall,Northampton,7,4,False
+E3,2122,2022-02-05,Barrow,Tranmere,4,4,False
+E3,2122,2022-02-05,Harrogate,Bradford,4,4,False
+E3,2122,2022-02-08,Forest Green,Rochdale,3,7,True
+E3,2122,2022-02-08,Harrogate,Crawley Town,3,3,True
+E3,2122,2022-02-08,Hartlepool,Barrow,10,3,True
+E3,2122,2022-02-08,Mansfield,Colchester,7,3,True
+E3,2122,2022-02-08,Northampton,Newport County,3,3,True
+E3,2122,2022-02-08,Oldham,Bristol Rvs,3,3,True
+E3,2122,2022-02-08,Scunthorpe,Walsall,3,3,True
+E3,2122,2022-02-08,Stevenage,Bradford,3,3,True
+E3,2122,2022-02-08,Sutton,Salford,3,7,True
+E3,2122,2022-02-08,Tranmere,Swindon,3,3,True
+E3,2122,2022-02-08,Carlisle,Port Vale,7,7,True
+E3,2122,2022-02-08,Exeter,Leyton Orient,3,3,True
+E3,2122,2022-02-12,Colchester,Carlisle,4,4,False
+E3,2122,2022-02-12,Barrow,Stevenage,4,4,False
+E3,2122,2022-02-12,Bradford,Exeter,4,4,False
+E3,2122,2022-02-12,Bristol Rvs,Mansfield,4,4,False
+E3,2122,2022-02-12,Crawley Town,Hartlepool,4,4,False
+E3,2122,2022-02-12,Leyton Orient,Salford,4,4,False
+E3,2122,2022-02-12,Newport County,Oldham,4,4,False
+E3,2122,2022-02-12,Port Vale,Northampton,4,4,False
+E3,2122,2022-02-12,Rochdale,Harrogate,4,4,False
+E3,2122,2022-02-12,Sutton,Forest Green,4,4,False
+E3,2122,2022-02-12,Swindon,Scunthorpe,4,4,False
+E3,2122,2022-02-12,Walsall,Tranmere,4,4,False
+E3,2122,2022-02-15,Hartlepool,Tranmere,3,3,True
+E3,2122,2022-02-15,Exeter,Harrogate,3,3,True
+E3,2122,2022-02-15,Bristol Rvs,Sutton,3,3,True
+E3,2122,2022-02-19,Oldham,Bradford,7,7,False
+E3,2122,2022-02-19,Scunthorpe,Rochdale,7,7,False
+E3,2122,2022-02-19,Stevenage,Bristol Rvs,7,4,False
+E3,2122,2022-02-19,Tranmere,Port Vale,4,7,False
+E3,2122,2022-02-19,Forest Green,Walsall,7,7,False
+E3,2122,2022-02-19,Hartlepool,Sutton,4,4,False
+E3,2122,2022-02-19,Newport County,Mansfield,7,7,False
+E3,2122,2022-02-19,Northampton,Colchester,7,7,False
+E3,2122,2022-02-19,Carlisle,Swindon,7,7,False
+E3,2122,2022-02-22,Leyton Orient,Bristol Rvs,10,3,True
+E3,2122,2022-02-22,Rochdale,Port Vale,3,3,True
+E3,2122,2022-02-22,Scunthorpe,Northampton,3,3,True
+E3,2122,2022-02-22,Swindon,Walsall,3,3,True
+E3,2122,2022-02-22,Colchester,Hartlepool,3,3,True
+E3,2122,2022-02-22,Bradford,Harrogate,3,7,True
+E3,2122,2022-02-26,Crawley Town,Forest Green,14,7,False
+E3,2122,2022-02-26,Barrow,Harrogate,14,4,False
+E3,2122,2022-02-26,Bradford,Mansfield,4,7,False
+E3,2122,2022-02-26,Bristol Rvs,Exeter,4,11,False
+E3,2122,2022-02-26,Colchester,Oldham,4,7,False
+E3,2122,2022-02-26,Leyton Orient,Carlisle,4,7,False
+E3,2122,2022-02-26,Newport County,Tranmere,7,7,False
+E3,2122,2022-02-26,Port Vale,Stevenage,4,7,False
+E3,2122,2022-02-26,Rochdale,Northampton,4,4,False
+E3,2122,2022-02-26,Sutton,Scunthorpe,7,4,False
+E3,2122,2022-02-26,Swindon,Salford,4,14,False
+E3,2122,2022-02-26,Walsall,Hartlepool,4,4,False
+E3,2122,2022-03-01,Colchester,Leyton Orient,3,3,True
+E3,2122,2022-03-01,Crawley Town,Oldham,3,3,True
+E3,2122,2022-03-01,Harrogate,Port Vale,3,3,True
+E3,2122,2022-03-01,Newport County,Forest Green,3,3,True
+E3,2122,2022-03-01,Northampton,Walsall,3,3,True
+E3,2122,2022-03-01,Carlisle,Rochdale,3,3,True
+E3,2122,2022-03-01,Bristol Rvs,Barrow,3,3,True
+E3,2122,2022-03-04,Mansfield,Exeter,6,6,False
+E3,2122,2022-03-05,Bradford,Swindon,7,7,False
+E3,2122,2022-03-05,Colchester,Port Vale,4,4,False
+E3,2122,2022-03-05,Crawley Town,Scunthorpe,4,7,False
+E3,2122,2022-03-05,Leyton Orient,Stevenage,4,7,False
+E3,2122,2022-03-05,Newport County,Bristol Rvs,4,4,False
+E3,2122,2022-03-05,Northampton,Tranmere,4,7,False
+E3,2122,2022-03-05,Oldham,Carlisle,4,4,False
+E3,2122,2022-03-05,Salford,Forest Green,7,4,False
+E3,2122,2022-03-05,Sutton,Rochdale,7,4,False
+E3,2122,2022-03-05,Harrogate,Hartlepool,4,7,False
+E3,2122,2022-03-05,Barrow,Walsall,4,4,False
+E3,2122,2022-03-08,Crawley Town,Bristol Rvs,3,3,True
+E3,2122,2022-03-08,Exeter,Swindon,4,3,True
+E3,2122,2022-03-11,Tranmere,Mansfield,6,7,False
+E3,2122,2022-03-12,Walsall,Sutton,7,7,False
+E3,2122,2022-03-12,Bristol Rvs,Harrogate,4,7,False
+E3,2122,2022-03-12,Carlisle,Northampton,7,7,False
+E3,2122,2022-03-12,Exeter,Salford,4,7,False
+E3,2122,2022-03-12,Forest Green,Bradford,7,7,False
+E3,2122,2022-03-12,Hartlepool,Leyton Orient,7,7,False
+E3,2122,2022-03-12,Port Vale,Crawley Town,7,4,False
+E3,2122,2022-03-12,Rochdale,Barrow,7,7,False
+E3,2122,2022-03-12,Scunthorpe,Colchester,7,7,False
+E3,2122,2022-03-12,Stevenage,Newport County,7,7,False
+E3,2122,2022-03-12,Swindon,Oldham,4,7,False
+E3,2122,2022-03-15,Rochdale,Salford,3,3,True
+E3,2122,2022-03-15,Scunthorpe,Barrow,3,3,True
+E3,2122,2022-03-15,Stevenage,Northampton,3,3,True
+E3,2122,2022-03-15,Swindon,Sutton,3,3,True
+E3,2122,2022-03-15,Tranmere,Harrogate,4,3,True
+E3,2122,2022-03-15,Walsall,Oldham,3,3,True
+E3,2122,2022-03-15,Bristol Rvs,Colchester,3,3,True
+E3,2122,2022-03-15,Forest Green,Leyton Orient,3,3,True
+E3,2122,2022-03-15,Exeter,Crawley Town,3,3,True
+E3,2122,2022-03-15,Carlisle,Newport County,3,3,True
+E3,2122,2022-03-15,Hartlepool,Bradford,3,3,True
+E3,2122,2022-03-15,Port Vale,Mansfield,3,4,True
+E3,2122,2022-03-18,Newport County,Hartlepool,3,3,False
+E3,2122,2022-03-19,Crawley Town,Swindon,4,4,False
+E3,2122,2022-03-19,Harrogate,Walsall,4,4,False
+E3,2122,2022-03-19,Leyton Orient,Rochdale,4,4,False
+E3,2122,2022-03-19,Northampton,Bristol Rvs,4,4,False
+E3,2122,2022-03-19,Oldham,Exeter,4,4,False
+E3,2122,2022-03-19,Salford,Scunthorpe,4,4,False
+E3,2122,2022-03-19,Sutton,Tranmere,4,4,False
+E3,2122,2022-03-19,Bradford,Port Vale,4,4,False
+E3,2122,2022-03-19,Barrow,Carlisle,4,4,False
+E3,2122,2022-03-21,Colchester,Forest Green,6,6,False
+E3,2122,2022-03-22,Rochdale,Mansfield,3,7,True
+E3,2122,2022-03-22,Harrogate,Leyton Orient,3,3,True
+E3,2122,2022-03-22,Oldham,Sutton,3,3,True
+E3,2122,2022-03-22,Port Vale,Exeter,3,3,True
+E3,2122,2022-03-26,Bradford,Newport County,7,8,False
+E3,2122,2022-03-26,Carlisle,Bristol Rvs,7,7,False
+E3,2122,2022-03-26,Colchester,Tranmere,5,7,False
+E3,2122,2022-03-26,Crawley Town,Rochdale,7,4,False
+E3,2122,2022-03-26,Exeter,Stevenage,4,11,False
+E3,2122,2022-03-26,Leyton Orient,Barrow,4,7,False
+E3,2122,2022-03-26,Northampton,Hartlepool,7,8,False
+E3,2122,2022-03-26,Oldham,Mansfield,4,4,False
+E3,2122,2022-03-26,Port Vale,Sutton,4,4,False
+E3,2122,2022-03-26,Salford,Walsall,7,7,False
+E3,2122,2022-03-26,Scunthorpe,Harrogate,7,4,False
+E3,2122,2022-03-29,Rochdale,Carlisle,3,3,True
+E3,2122,2022-03-29,Salford,Crawley Town,3,3,True
+E3,2122,2022-03-29,Oldham,Leyton Orient,3,3,True
+E3,2122,2022-03-29,Hartlepool,Mansfield,3,3,True
+E3,2122,2022-04-02,Forest Green,Scunthorpe,12,7,False
+E3,2122,2022-04-02,Harrogate,Colchester,7,7,False
+E3,2122,2022-04-02,Hartlepool,Salford,4,4,False
+E3,2122,2022-04-02,Mansfield,Northampton,4,7,False
+E3,2122,2022-04-02,Newport County,Exeter,7,7,False
+E3,2122,2022-04-02,Rochdale,Swindon,4,14,False
+E3,2122,2022-04-02,Stevenage,Oldham,7,4,False
+E3,2122,2022-04-02,Tranmere,Carlisle,7,4,False
+E3,2122,2022-04-02,Walsall,Leyton Orient,7,4,False
+E3,2122,2022-04-02,Barrow,Port Vale,7,7,False
+E3,2122,2022-04-02,Bristol Rvs,Bradford,7,7,False
+E3,2122,2022-04-05,Forest Green,Mansfield,3,3,True
+E3,2122,2022-04-05,Salford,Port Vale,3,3,True
+E3,2122,2022-04-09,Crawley Town,Barrow,11,7,False
+E3,2122,2022-04-09,Forest Green,Hartlepool,4,7,False
+E3,2122,2022-04-09,Northampton,Bradford,7,7,False
+E3,2122,2022-04-09,Port Vale,Oldham,4,7,False
+E3,2122,2022-04-09,Rochdale,Walsall,7,7,False
+E3,2122,2022-04-09,Carlisle,Exeter,7,7,False
+E3,2122,2022-04-09,Scunthorpe,Mansfield,7,4,False
+E3,2122,2022-04-09,Sutton,Leyton Orient,14,7,False
+E3,2122,2022-04-09,Swindon,Newport County,7,7,False
+E3,2122,2022-04-09,Tranmere,Bristol Rvs,7,7,False
+E3,2122,2022-04-09,Salford,Harrogate,4,7,False
+E3,2122,2022-04-09,Colchester,Stevenage,7,7,False
+E3,2122,2022-04-15,Exeter,Colchester,6,6,False
+E3,2122,2022-04-15,Barrow,Forest Green,6,6,False
+E3,2122,2022-04-15,Bradford,Tranmere,6,6,False
+E3,2122,2022-04-15,Bristol Rvs,Salford,6,6,False
+E3,2122,2022-04-15,Harrogate,Swindon,6,6,False
+E3,2122,2022-04-15,Hartlepool,Port Vale,6,6,False
+E3,2122,2022-04-15,Leyton Orient,Scunthorpe,6,6,False
+E3,2122,2022-04-15,Mansfield,Sutton,6,6,False
+E3,2122,2022-04-15,Newport County,Crawley Town,6,6,False
+E3,2122,2022-04-15,Oldham,Northampton,6,6,False
+E3,2122,2022-04-15,Stevenage,Rochdale,6,6,False
+E3,2122,2022-04-15,Walsall,Carlisle,6,6,False
+E3,2122,2022-04-18,Port Vale,Bristol Rvs,3,3,False
+E3,2122,2022-04-18,Rochdale,Hartlepool,3,3,False
+E3,2122,2022-04-18,Salford,Barrow,3,3,False
+E3,2122,2022-04-18,Scunthorpe,Stevenage,3,3,False
+E3,2122,2022-04-18,Crawley Town,Walsall,3,3,False
+E3,2122,2022-04-18,Sutton,Newport County,3,3,False
+E3,2122,2022-04-18,Swindon,Leyton Orient,3,3,False
+E3,2122,2022-04-18,Tranmere,Exeter,3,3,False
+E3,2122,2022-04-18,Carlisle,Mansfield,3,3,False
+E3,2122,2022-04-18,Colchester,Bradford,3,3,False
+E3,2122,2022-04-18,Forest Green,Oldham,3,3,False
+E3,2122,2022-04-18,Northampton,Harrogate,3,3,False
+E3,2122,2022-04-22,Newport County,Colchester,4,4,False
+E3,2122,2022-04-23,Bristol Rvs,Forest Green,5,5,False
+E3,2122,2022-04-23,Exeter,Rochdale,5,5,False
+E3,2122,2022-04-23,Harrogate,Carlisle,5,5,False
+E3,2122,2022-04-23,Hartlepool,Swindon,5,5,False
+E3,2122,2022-04-23,Leyton Orient,Northampton,5,5,False
+E3,2122,2022-04-23,Mansfield,Crawley Town,5,5,False
+E3,2122,2022-04-23,Oldham,Salford,5,5,False
+E3,2122,2022-04-23,Stevenage,Tranmere,5,5,False
+E3,2122,2022-04-23,Walsall,Port Vale,5,5,False
+E3,2122,2022-04-23,Barrow,Sutton,5,5,False
+E3,2122,2022-04-23,Bradford,Scunthorpe,5,5,False
+E3,2122,2022-04-26,Sutton,Crawley Town,3,3,True
+E3,2122,2022-04-26,Swindon,Forest Green,3,3,True
+E3,2122,2022-04-26,Exeter,Barrow,3,3,True
+E3,2122,2022-04-26,Mansfield,Stevenage,3,3,True
+E3,2122,2022-04-30,Scunthorpe,Hartlepool,7,7,False
+E3,2122,2022-04-30,Carlisle,Stevenage,7,4,False
+E3,2122,2022-04-30,Colchester,Walsall,8,7,False
+E3,2122,2022-04-30,Crawley Town,Leyton Orient,4,7,False
+E3,2122,2022-04-30,Forest Green,Harrogate,4,7,False
+E3,2122,2022-04-30,Northampton,Exeter,7,4,False
+E3,2122,2022-04-30,Rochdale,Bristol Rvs,7,7,False
+E3,2122,2022-04-30,Sutton,Bradford,4,7,False
+E3,2122,2022-04-30,Swindon,Barrow,4,4,False
+E3,2122,2022-04-30,Tranmere,Oldham,7,7,False
+E3,2122,2022-05-02,Port Vale,Newport County,9,10,False
+E3,2122,2022-05-02,Salford,Mansfield,9,6,False
+E3,2122,2022-05-07,Bristol Rvs,Scunthorpe,7,7,False
+E3,2122,2022-05-07,Exeter,Port Vale,7,5,False
+E3,2122,2022-05-07,Harrogate,Sutton,7,7,False
+E3,2122,2022-05-07,Hartlepool,Colchester,7,7,False
+E3,2122,2022-05-07,Leyton Orient,Tranmere,7,7,False
+E3,2122,2022-05-07,Barrow,Northampton,7,7,False
+E3,2122,2022-05-07,Newport County,Rochdale,5,7,False
+E3,2122,2022-05-07,Oldham,Crawley Town,7,7,False
+E3,2122,2022-05-07,Stevenage,Salford,7,5,False
+E3,2122,2022-05-07,Walsall,Swindon,7,7,False
+E3,2122,2022-05-07,Mansfield,Forest Green,5,7,False
+E3,2122,2022-05-07,Bradford,Carlisle,7,7,False

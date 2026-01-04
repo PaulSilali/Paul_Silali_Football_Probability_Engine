@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E3,2324,2023-08-05,Crewe,Mansfield,89,89,False
+E3,2324,2023-08-05,Forest Green,Salford,455,89,False
+E3,2324,2023-08-05,Stockport,Gillingham,89,89,False
+E3,2324,2023-08-05,Sutton,Newport County,89,89,False
+E3,2324,2023-08-05,Wrexham,Milton Keynes Dons,7,7,False
+E3,2324,2023-08-05,Tranmere,Barrow,89,89,False
+E3,2324,2023-08-05,Crawley Town,Bradford,89,89,False
+E3,2324,2023-08-05,Doncaster,Harrogate,89,89,False
+E3,2324,2023-08-05,Grimsby,AFC Wimbledon,89,89,False
+E3,2324,2023-08-05,Accrington,Newport County,7,89,False
+E3,2324,2023-08-05,Morecambe,Walsall,819,89,False
+E3,2324,2023-08-12,Harrogate,Forest Green,7,7,False
+E3,2324,2023-08-12,Walsall,Stockport,7,7,False
+E3,2324,2023-08-12,Gillingham,Accrington,7,7,False
+E3,2324,2023-08-12,Bradford,Colchester,7,96,False
+E3,2324,2023-08-12,Barrow,Sutton,7,7,False
+E3,2324,2023-08-12,AFC Wimbledon,Wrexham,7,7,False
+E3,2324,2023-08-12,Mansfield,Morecambe,7,7,False
+E3,2324,2023-08-12,Milton Keynes Dons,Tranmere,7,7,False
+E3,2324,2023-08-12,Newport County,Doncaster,7,7,False
+E3,2324,2023-08-12,Newport County,Grimsby,7,7,False
+E3,2324,2023-08-12,Salford,Crawley Town,7,7,False
+E3,2324,2023-08-12,Swindon,Crewe,96,7,False
+E3,2324,2023-08-15,Forest Green,Swindon,3,3,True
+E3,2324,2023-08-15,Grimsby,Salford,3,3,True
+E3,2324,2023-08-15,Morecambe,Newport County,3,3,True
+E3,2324,2023-08-15,Stockport,Bradford,3,3,True
+E3,2324,2023-08-15,Sutton,Gillingham,3,3,True
+E3,2324,2023-08-15,Tranmere,Harrogate,3,3,True
+E3,2324,2023-08-15,Wrexham,Walsall,3,3,True
+E3,2324,2023-08-15,Doncaster,Mansfield,3,3,True
+E3,2324,2023-08-15,Crewe,Newport County,3,3,True
+E3,2324,2023-08-15,Crawley Town,Milton Keynes Dons,3,3,True
+E3,2324,2023-08-15,Colchester,AFC Wimbledon,3,3,True
+E3,2324,2023-08-15,Accrington,Barrow,3,3,True
+E3,2324,2023-08-19,Forest Green,Newport County,4,4,False
+E3,2324,2023-08-19,Accrington,Harrogate,4,4,False
+E3,2324,2023-08-19,Colchester,Milton Keynes Dons,4,4,False
+E3,2324,2023-08-19,Crawley Town,Gillingham,4,4,False
+E3,2324,2023-08-19,Crewe,Walsall,4,4,False
+E3,2324,2023-08-19,Doncaster,Newport County,4,4,False
+E3,2324,2023-08-19,Grimsby,Mansfield,4,4,False
+E3,2324,2023-08-19,Morecambe,Bradford,4,4,False
+E3,2324,2023-08-19,Stockport,Barrow,4,4,False
+E3,2324,2023-08-19,Sutton,AFC Wimbledon,4,4,False
+E3,2324,2023-08-19,Tranmere,Salford,4,4,False
+E3,2324,2023-08-19,Wrexham,Swindon,4,4,False
+E3,2324,2023-08-26,Mansfield,Stockport,7,7,False
+E3,2324,2023-08-26,Milton Keynes Dons,Doncaster,7,7,False
+E3,2324,2023-08-26,Newport County,Sutton,7,7,False
+E3,2324,2023-08-26,Newport County,Tranmere,7,7,False
+E3,2324,2023-08-26,Salford,Accrington,7,7,False
+E3,2324,2023-08-26,Swindon,Crawley Town,7,7,False
+E3,2324,2023-08-26,Walsall,Grimsby,7,7,False
+E3,2324,2023-08-26,Harrogate,Morecambe,7,7,False
+E3,2324,2023-08-26,Gillingham,Colchester,7,7,False
+E3,2324,2023-08-26,Bradford,Crewe,7,7,False
+E3,2324,2023-08-26,Barrow,Wrexham,7,7,False
+E3,2324,2023-08-26,AFC Wimbledon,Forest Green,7,7,False
+E3,2324,2023-09-02,Mansfield,Bradford,7,7,False
+E3,2324,2023-09-02,Morecambe,Salford,7,7,False
+E3,2324,2023-09-02,Newport County,AFC Wimbledon,7,7,False
+E3,2324,2023-09-02,Newport County,Accrington,7,7,False
+E3,2324,2023-09-02,Stockport,Crawley Town,7,7,False
+E3,2324,2023-09-02,Sutton,Forest Green,7,7,False
+E3,2324,2023-09-02,Walsall,Colchester,7,7,False
+E3,2324,2023-09-02,Tranmere,Wrexham,7,7,False
+E3,2324,2023-09-02,Crewe,Milton Keynes Dons,7,7,False
+E3,2324,2023-09-02,Doncaster,Swindon,7,7,False
+E3,2324,2023-09-02,Grimsby,Gillingham,7,7,False
+E3,2324,2023-09-02,Harrogate,Barrow,7,7,False
+E3,2324,2023-09-09,Forest Green,Crewe,7,7,False
+E3,2324,2023-09-09,Bradford,Grimsby,7,7,False
+E3,2324,2023-09-09,Accrington,Mansfield,7,7,False
+E3,2324,2023-09-09,AFC Wimbledon,Stockport,7,7,False
+E3,2324,2023-09-09,Colchester,Tranmere,7,7,False
+E3,2324,2023-09-09,Crawley Town,Newport County,7,7,False
+E3,2324,2023-09-09,Gillingham,Harrogate,7,7,False
+E3,2324,2023-09-09,Milton Keynes Dons,Newport County,7,7,False
+E3,2324,2023-09-09,Salford,Walsall,7,7,False
+E3,2324,2023-09-09,Swindon,Sutton,7,7,False
+E3,2324,2023-09-09,Wrexham,Doncaster,7,7,False
+E3,2324,2023-09-15,Salford,Newport County,6,6,False
+E3,2324,2023-09-16,Wrexham,Grimsby,7,7,False
+E3,2324,2023-09-16,Swindon,Walsall,7,7,False
+E3,2324,2023-09-16,Accrington,Sutton,7,7,False
+E3,2324,2023-09-16,AFC Wimbledon,Crewe,7,7,False
+E3,2324,2023-09-16,Bradford,Harrogate,7,7,False
+E3,2324,2023-09-16,Colchester,Mansfield,7,7,False
+E3,2324,2023-09-16,Forest Green,Doncaster,7,7,False
+E3,2324,2023-09-16,Gillingham,Morecambe,7,14,False
+E3,2324,2023-09-16,Milton Keynes Dons,Stockport,7,7,False
+E3,2324,2023-09-16,Newport County,Barrow,1,14,False
+E3,2324,2023-09-16,Crawley Town,Tranmere,7,7,False
+E3,2324,2023-09-23,Morecambe,Swindon,7,7,False
+E3,2324,2023-09-23,Newport County,Bradford,7,7,False
+E3,2324,2023-09-23,Newport County,Forest Green,7,7,False
+E3,2324,2023-09-23,Doncaster,Gillingham,7,7,False
+E3,2324,2023-09-23,Grimsby,Crawley Town,7,7,False
+E3,2324,2023-09-23,Harrogate,Salford,7,8,False
+E3,2324,2023-09-23,Mansfield,Barrow,7,7,False
+E3,2324,2023-09-23,Crewe,Colchester,7,7,False
+E3,2324,2023-09-23,Stockport,Wrexham,7,7,False
+E3,2324,2023-09-23,Sutton,Milton Keynes Dons,7,7,False
+E3,2324,2023-09-23,Tranmere,Accrington,7,7,False
+E3,2324,2023-09-23,Walsall,AFC Wimbledon,7,7,False
+E3,2324,2023-09-30,Colchester,Newport County,7,7,False
+E3,2324,2023-09-30,Accrington,Stockport,7,7,False
+E3,2324,2023-09-30,AFC Wimbledon,Tranmere,7,7,False
+E3,2324,2023-09-30,Barrow,Doncaster,7,7,False
+E3,2324,2023-09-30,Bradford,Walsall,7,7,False
+E3,2324,2023-09-30,Crawley Town,Sutton,7,7,False
+E3,2324,2023-09-30,Forest Green,Morecambe,7,7,False
+E3,2324,2023-09-30,Gillingham,Mansfield,7,7,False
+E3,2324,2023-09-30,Milton Keynes Dons,Harrogate,7,7,False
+E3,2324,2023-09-30,Salford,Newport County,7,7,False
+E3,2324,2023-09-30,Swindon,Grimsby,7,7,False
+E3,2324,2023-09-30,Wrexham,Crewe,7,7,False
+E3,2324,2023-10-03,Morecambe,Accrington,3,3,True
+E3,2324,2023-10-03,Newport County,Colchester,3,3,True
+E3,2324,2023-10-03,Newport County,Swindon,3,3,True
+E3,2324,2023-10-03,Stockport,Forest Green,3,3,True
+E3,2324,2023-10-03,Sutton,Salford,3,3,True
+E3,2324,2023-10-03,Tranmere,Bradford,3,3,True
+E3,2324,2023-10-03,Walsall,Milton Keynes Dons,3,3,True
+E3,2324,2023-10-03,Mansfield,Wrexham,3,3,True
+E3,2324,2023-10-03,Harrogate,AFC Wimbledon,3,3,True
+E3,2324,2023-10-03,Grimsby,Barrow,3,3,True
+E3,2324,2023-10-03,Doncaster,Crawley Town,3,3,True
+E3,2324,2023-10-03,Crewe,Gillingham,3,3,True
+E3,2324,2023-10-07,Gillingham,Milton Keynes Dons,4,4,False
+E3,2324,2023-10-07,Mansfield,AFC Wimbledon,4,4,False
+E3,2324,2023-10-07,Newport County,Harrogate,4,4,False
+E3,2324,2023-10-07,Salford,Crewe,4,4,False
+E3,2324,2023-10-07,Stockport,Doncaster,4,4,False
+E3,2324,2023-10-07,Sutton,Walsall,4,4,False
+E3,2324,2023-10-07,Tranmere,Grimsby,4,4,False
+E3,2324,2023-10-07,Accrington,Forest Green,4,4,False
+E3,2324,2023-10-07,Barrow,Newport County,4,4,False
+E3,2324,2023-10-07,Bradford,Swindon,4,4,False
+E3,2324,2023-10-07,Colchester,Morecambe,4,4,False
+E3,2324,2023-10-07,Crawley Town,Wrexham,4,4,False
+E3,2324,2023-10-14,Crewe,Tranmere,7,7,False
+E3,2324,2023-10-14,Newport County,Mansfield,7,7,False
+E3,2324,2023-10-14,AFC Wimbledon,Bradford,7,7,False
+E3,2324,2023-10-14,Doncaster,Sutton,7,7,False
+E3,2324,2023-10-14,Forest Green,Colchester,7,7,False
+E3,2324,2023-10-14,Grimsby,Accrington,7,7,False
+E3,2324,2023-10-14,Harrogate,Stockport,7,7,False
+E3,2324,2023-10-14,Milton Keynes Dons,Barrow,7,7,False
+E3,2324,2023-10-14,Swindon,Newport County,7,7,False
+E3,2324,2023-10-14,Walsall,Gillingham,7,7,False
+E3,2324,2023-10-14,Wrexham,Salford,7,7,False
+E3,2324,2023-10-20,Newport County,Walsall,6,6,False
+E3,2324,2023-10-20,Tranmere,Doncaster,6,6,False
+E3,2324,2023-10-21,Accrington,Milton Keynes Dons,7,7,False
+E3,2324,2023-10-21,Barrow,AFC Wimbledon,7,7,False
+E3,2324,2023-10-21,Bradford,Wrexham,7,7,False
+E3,2324,2023-10-21,Sutton,Morecambe,7,14,False
+E3,2324,2023-10-21,Stockport,Grimsby,7,7,False
+E3,2324,2023-10-21,Salford,Swindon,7,7,False
+E3,2324,2023-10-21,Gillingham,Newport County,7,1,False
+E3,2324,2023-10-21,Colchester,Harrogate,7,7,False
+E3,2324,2023-10-21,Crawley Town,Crewe,14,7,False
+E3,2324,2023-10-24,Grimsby,Colchester,3,3,True
+E3,2324,2023-10-24,AFC Wimbledon,Accrington,3,3,True
+E3,2324,2023-10-24,Harrogate,Mansfield,3,10,True
+E3,2324,2023-10-24,Milton Keynes Dons,Bradford,3,3,True
+E3,2324,2023-10-24,Morecambe,Tranmere,3,4,True
+E3,2324,2023-10-24,Newport County,Newport County,3,3,True
+E3,2324,2023-10-24,Swindon,Gillingham,3,3,True
+E3,2324,2023-10-24,Walsall,Crawley Town,4,3,True
+E3,2324,2023-10-24,Wrexham,Sutton,3,3,True
+E3,2324,2023-10-24,Crewe,Stockport,3,3,True
+E3,2324,2023-10-24,Doncaster,Salford,4,3,True
+E3,2324,2023-10-24,Forest Green,Barrow,10,3,True
+E3,2324,2023-10-28,Gillingham,Newport County,4,4,False
+E3,2324,2023-10-28,Accrington,Colchester,4,4,False
+E3,2324,2023-10-28,Barrow,Salford,4,4,False
+E3,2324,2023-10-28,Doncaster,Grimsby,4,4,False
+E3,2324,2023-10-28,Forest Green,Crawley Town,4,4,False
+E3,2324,2023-10-28,Harrogate,Crewe,4,4,False
+E3,2324,2023-10-28,Mansfield,Walsall,4,4,False
+E3,2324,2023-10-28,Milton Keynes Dons,Swindon,4,4,False
+E3,2324,2023-10-28,Morecambe,AFC Wimbledon,4,4,False
+E3,2324,2023-10-28,Newport County,Wrexham,4,4,False
+E3,2324,2023-10-28,Stockport,Tranmere,4,4,False
+E3,2324,2023-10-28,Sutton,Bradford,4,4,False
+E3,2324,2023-10-31,Barrow,Morecambe,3,3,True
+E3,2324,2023-11-07,Colchester,Swindon,10,10,True
+E3,2324,2023-11-11,Grimsby,Morecambe,14,11,False
+E3,2324,2023-11-11,Newport County,Milton Keynes Dons,14,14,False
+E3,2324,2023-11-11,Salford,Mansfield,14,14,False
+E3,2324,2023-11-11,Swindon,Stockport,4,14,False
+E3,2324,2023-11-11,Tranmere,Forest Green,14,14,False
+E3,2324,2023-11-11,Walsall,Harrogate,14,14,False
+E3,2324,2023-11-11,Wrexham,Gillingham,14,14,False
+E3,2324,2023-11-11,Crawley Town,Accrington,14,14,False
+E3,2324,2023-11-11,Crewe,Newport County,14,14,False
+E3,2324,2023-11-11,Colchester,Sutton,4,14,False
+E3,2324,2023-11-11,Bradford,Barrow,14,11,False
+E3,2324,2023-11-11,AFC Wimbledon,Doncaster,14,14,False
+E3,2324,2023-11-18,Harrogate,Swindon,7,7,False
+E3,2324,2023-11-18,Mansfield,Newport County,7,7,False
+E3,2324,2023-11-18,Stockport,Colchester,7,7,False
+E3,2324,2023-11-18,Sutton,Tranmere,7,7,False
+E3,2324,2023-11-18,Newport County,Bradford,7,7,False
+E3,2324,2023-11-18,Accrington,Wrexham,7,7,False
+E3,2324,2023-11-18,Barrow,Crawley Town,7,7,False
+E3,2324,2023-11-18,Forest Green,Grimsby,7,7,False
+E3,2324,2023-11-18,Gillingham,Salford,7,7,False
+E3,2324,2023-11-25,Tranmere,Gillingham,7,7,False
+E3,2324,2023-11-25,AFC Wimbledon,Newport County,14,7,False
+E3,2324,2023-11-25,Bradford,Accrington,7,7,False
+E3,2324,2023-11-25,Colchester,Barrow,7,7,False
+E3,2324,2023-11-25,Crawley Town,Harrogate,7,7,False
+E3,2324,2023-11-25,Crewe,Doncaster,14,14,False
+E3,2324,2023-11-25,Grimsby,Sutton,7,7,False
+E3,2324,2023-11-25,Newport County,Stockport,7,7,False
+E3,2324,2023-11-25,Salford,Milton Keynes Dons,7,14,False
+E3,2324,2023-11-25,Swindon,Mansfield,7,7,False
+E3,2324,2023-11-25,Walsall,Forest Green,14,7,False
+E3,2324,2023-11-25,Wrexham,Morecambe,7,14,False
+E3,2324,2023-11-28,Stockport,Salford,3,3,True
+E3,2324,2023-11-28,Accrington,Swindon,3,3,True
+E3,2324,2023-11-28,Barrow,Walsall,3,3,True
+E3,2324,2023-11-28,Doncaster,Colchester,3,3,True
+E3,2324,2023-11-28,Forest Green,Bradford,3,3,True
+E3,2324,2023-11-28,Gillingham,AFC Wimbledon,3,3,True
+E3,2324,2023-11-28,Sutton,Crewe,3,3,True
+E3,2324,2023-11-28,Mansfield,Tranmere,3,3,True
+E3,2324,2023-11-28,Harrogate,Wrexham,3,3,True
+E3,2324,2023-11-28,Milton Keynes Dons,Grimsby,3,3,True
+E3,2324,2023-11-28,Morecambe,Newport County,3,3,True
+E3,2324,2023-11-28,Newport County,Crawley Town,3,3,True
+E3,2324,2023-12-09,Newport County,Walsall,11,11,False
+E3,2324,2023-12-09,Tranmere,Newport County,11,11,False
+E3,2324,2023-12-09,Accrington,Doncaster,11,11,False
+E3,2324,2023-12-09,AFC Wimbledon,Swindon,11,11,False
+E3,2324,2023-12-09,Colchester,Crawley Town,11,11,False
+E3,2324,2023-12-09,Grimsby,Crewe,11,11,False
+E3,2324,2023-12-09,Morecambe,Stockport,11,11,False
+E3,2324,2023-12-16,Milton Keynes Dons,Forest Green,18,18,False
+E3,2324,2023-12-16,Newport County,Grimsby,7,7,False
+E3,2324,2023-12-16,Salford,AFC Wimbledon,18,7,False
+E3,2324,2023-12-16,Stockport,Sutton,7,18,False
+E3,2324,2023-12-16,Swindon,Barrow,7,18,False
+E3,2324,2023-12-16,Walsall,Tranmere,7,7,False
+E3,2324,2023-12-16,Wrexham,Colchester,18,7,False
+E3,2324,2023-12-16,Crawley Town,Mansfield,7,18,False
+E3,2324,2023-12-16,Crewe,Accrington,7,7,False
+E3,2324,2023-12-16,Doncaster,Morecambe,7,7,False
+E3,2324,2023-12-16,Gillingham,Bradford,18,18,False
+E3,2324,2023-12-16,Harrogate,Newport County,18,7,False
+E3,2324,2023-12-22,Colchester,Salford,6,6,False
+E3,2324,2023-12-22,Forest Green,Gillingham,6,6,False
+E3,2324,2023-12-22,Crawley Town,AFC Wimbledon,6,6,False
+E3,2324,2023-12-22,Crewe,Barrow,6,6,False
+E3,2324,2023-12-22,Doncaster,Bradford,6,6,False
+E3,2324,2023-12-22,Stockport,Newport County,6,6,False
+E3,2324,2023-12-23,Wrexham,Newport County,7,1,False
+E3,2324,2023-12-23,Tranmere,Swindon,7,7,False
+E3,2324,2023-12-23,Sutton,Mansfield,7,7,False
+E3,2324,2023-12-23,Morecambe,Milton Keynes Dons,7,7,False
+E3,2324,2023-12-23,Grimsby,Harrogate,7,7,False
+E3,2324,2023-12-23,Accrington,Walsall,7,7,False
+E3,2324,2023-12-26,Harrogate,Accrington,3,3,True
+E3,2324,2023-12-26,Milton Keynes Dons,Colchester,3,4,True
+E3,2324,2023-12-26,Newport County,Forest Green,3,4,True
+E3,2324,2023-12-26,Newport County,Doncaster,3,4,True
+E3,2324,2023-12-26,Salford,Tranmere,4,3,True
+E3,2324,2023-12-26,Swindon,Wrexham,3,3,True
+E3,2324,2023-12-26,Walsall,Crewe,3,4,True
+E3,2324,2023-12-26,Mansfield,Grimsby,3,3,True
+E3,2324,2023-12-26,Gillingham,Crawley Town,4,4,True
+E3,2324,2023-12-26,AFC Wimbledon,Sutton,4,3,True
+E3,2324,2023-12-26,Barrow,Stockport,4,4,True
+E3,2324,2023-12-26,Bradford,Morecambe,4,3,True
+E3,2324,2023-12-29,Gillingham,Sutton,3,3,False
+E3,2324,2023-12-29,AFC Wimbledon,Colchester,3,3,False
+E3,2324,2023-12-29,Barrow,Accrington,3,3,False
+E3,2324,2023-12-29,Bradford,Stockport,3,3,False
+E3,2324,2023-12-29,Harrogate,Tranmere,3,3,False
+E3,2324,2023-12-29,Mansfield,Doncaster,3,3,False
+E3,2324,2023-12-29,Milton Keynes Dons,Crawley Town,3,3,False
+E3,2324,2023-12-29,Newport County,Crewe,3,3,False
+E3,2324,2023-12-29,Newport County,Morecambe,3,3,False
+E3,2324,2023-12-29,Salford,Grimsby,3,3,False
+E3,2324,2023-12-29,Swindon,Forest Green,3,3,False
+E3,2324,2023-12-29,Walsall,Wrexham,3,3,False
+E3,2324,2024-01-01,Forest Green,AFC Wimbledon,3,3,False
+E3,2324,2024-01-01,Colchester,Gillingham,3,3,False
+E3,2324,2024-01-01,Accrington,Salford,3,3,False
+E3,2324,2024-01-01,Crawley Town,Swindon,3,3,False
+E3,2324,2024-01-01,Wrexham,Barrow,3,3,False
+E3,2324,2024-01-01,Crewe,Bradford,3,3,False
+E3,2324,2024-01-01,Tranmere,Newport County,3,3,False
+E3,2324,2024-01-01,Sutton,Newport County,3,3,False
+E3,2324,2024-01-01,Stockport,Mansfield,3,3,False
+E3,2324,2024-01-01,Morecambe,Harrogate,3,3,False
+E3,2324,2024-01-01,Grimsby,Walsall,3,3,False
+E3,2324,2024-01-01,Doncaster,Milton Keynes Dons,3,3,False
+E3,2324,2024-01-06,Barrow,Tranmere,5,5,False
+E3,2324,2024-01-06,Harrogate,Doncaster,5,5,False
+E3,2324,2024-01-06,Swindon,Colchester,5,5,False
+E3,2324,2024-01-06,Salford,Forest Green,5,5,False
+E3,2324,2024-01-06,Mansfield,Crewe,5,5,False
+E3,2324,2024-01-06,Bradford,Crawley Town,5,5,False
+E3,2324,2024-01-13,Forest Green,Harrogate,7,7,False
+E3,2324,2024-01-13,Grimsby,Newport County,12,12,False
+E3,2324,2024-01-13,Morecambe,Mansfield,12,7,False
+E3,2324,2024-01-13,Stockport,Walsall,12,12,False
+E3,2324,2024-01-13,Sutton,Barrow,12,7,False
+E3,2324,2024-01-13,Tranmere,Milton Keynes Dons,7,12,False
+E3,2324,2024-01-13,Wrexham,AFC Wimbledon,12,12,False
+E3,2324,2024-01-13,Accrington,Gillingham,12,12,False
+E3,2324,2024-01-13,Crawley Town,Salford,7,7,False
+E3,2324,2024-01-13,Crewe,Swindon,7,7,False
+E3,2324,2024-01-13,Doncaster,Newport County,7,12,False
+E3,2324,2024-01-13,Colchester,Bradford,7,7,False
+E3,2324,2024-01-20,Barrow,Crewe,7,7,False
+E3,2324,2024-01-20,Gillingham,Forest Green,7,7,False
+E3,2324,2024-01-20,Milton Keynes Dons,Morecambe,7,7,False
+E3,2324,2024-01-20,Newport County,Wrexham,7,7,False
+E3,2324,2024-01-23,Mansfield,Sutton,10,10,True
+E3,2324,2024-01-23,Bradford,Salford,10,10,True
+E3,2324,2024-01-23,Milton Keynes Dons,AFC Wimbledon,3,10,True
+E3,2324,2024-01-27,Milton Keynes Dons,Gillingham,4,7,False
+E3,2324,2024-01-27,Morecambe,Colchester,7,14,False
+E3,2324,2024-01-27,Newport County,Barrow,7,7,False
+E3,2324,2024-01-27,Swindon,Bradford,14,4,False
+E3,2324,2024-01-27,Walsall,Sutton,14,4,False
+E3,2324,2024-01-27,Grimsby,Tranmere,14,14,False
+E3,2324,2024-01-27,Forest Green,Accrington,7,14,False
+E3,2324,2024-01-27,Doncaster,Stockport,14,14,False
+E3,2324,2024-01-27,Crewe,Salford,7,4,False
+E3,2324,2024-01-27,AFC Wimbledon,Mansfield,4,4,False
+E3,2324,2024-01-30,Sutton,Harrogate,3,17,True
+E3,2324,2024-02-03,Crawley Town,Morecambe,21,7,False
+E3,2324,2024-02-03,Gillingham,Walsall,7,7,False
+E3,2324,2024-02-03,Mansfield,Newport County,7,7,False
+E3,2324,2024-02-03,Salford,Wrexham,7,14,False
+E3,2324,2024-02-03,Stockport,Harrogate,7,4,False
+E3,2324,2024-02-03,Sutton,Doncaster,4,7,False
+E3,2324,2024-02-03,Tranmere,Crewe,7,7,False
+E3,2324,2024-02-03,Bradford,AFC Wimbledon,7,7,False
+E3,2324,2024-02-03,Colchester,Forest Green,7,7,False
+E3,2324,2024-02-03,Newport County,Swindon,7,7,False
+E3,2324,2024-02-03,Accrington,Grimsby,7,7,False
+E3,2324,2024-02-03,Barrow,Milton Keynes Dons,7,7,False
+E3,2324,2024-02-09,Newport County,Gillingham,6,6,False
+E3,2324,2024-02-10,Walsall,Newport County,7,1,False
+E3,2324,2024-02-10,AFC Wimbledon,Barrow,7,7,False
+E3,2324,2024-02-10,Crewe,Crawley Town,7,7,False
+E3,2324,2024-02-10,Doncaster,Tranmere,7,7,False
+E3,2324,2024-02-10,Forest Green,Mansfield,7,7,False
+E3,2324,2024-02-10,Grimsby,Stockport,7,7,False
+E3,2324,2024-02-10,Harrogate,Colchester,7,7,False
+E3,2324,2024-02-10,Milton Keynes Dons,Accrington,7,7,False
+E3,2324,2024-02-10,Morecambe,Sutton,7,7,False
+E3,2324,2024-02-10,Swindon,Salford,7,7,False
+E3,2324,2024-02-10,Wrexham,Bradford,7,7,False
+E3,2324,2024-02-13,Tranmere,Morecambe,3,3,True
+E3,2324,2024-02-13,Accrington,AFC Wimbledon,3,3,True
+E3,2324,2024-02-13,Barrow,Forest Green,3,3,True
+E3,2324,2024-02-13,Bradford,Milton Keynes Dons,3,3,True
+E3,2324,2024-02-13,Crawley Town,Walsall,3,3,True
+E3,2324,2024-02-13,Gillingham,Swindon,4,3,True
+E3,2324,2024-02-13,Mansfield,Harrogate,3,3,True
+E3,2324,2024-02-13,Newport County,Newport County,3,3,True
+E3,2324,2024-02-13,Salford,Doncaster,3,3,True
+E3,2324,2024-02-13,Stockport,Crewe,3,3,True
+E3,2324,2024-02-13,Sutton,Wrexham,3,3,True
+E3,2324,2024-02-17,Grimsby,Doncaster,7,4,False
+E3,2324,2024-02-17,Newport County,Gillingham,4,4,False
+E3,2324,2024-02-17,Salford,Barrow,4,4,False
+E3,2324,2024-02-17,Swindon,Milton Keynes Dons,4,4,False
+E3,2324,2024-02-17,Tranmere,Stockport,4,4,False
+E3,2324,2024-02-17,Walsall,Mansfield,4,4,False
+E3,2324,2024-02-17,AFC Wimbledon,Morecambe,4,4,False
+E3,2324,2024-02-17,Bradford,Sutton,4,4,False
+E3,2324,2024-02-17,Colchester,Accrington,7,4,False
+E3,2324,2024-02-17,Crawley Town,Forest Green,4,4,False
+E3,2324,2024-02-17,Crewe,Harrogate,4,4,False
+E3,2324,2024-02-17,Wrexham,Newport County,4,4,False
+E3,2324,2024-02-20,AFC Wimbledon,Crawley Town,3,3,True
+E3,2324,2024-02-20,Gillingham,Stockport,3,3,True
+E3,2324,2024-02-20,Milton Keynes Dons,Wrexham,3,3,True
+E3,2324,2024-02-20,Walsall,Morecambe,3,3,True
+E3,2324,2024-02-24,Accrington,Crawley Town,7,4,False
+E3,2324,2024-02-24,Doncaster,AFC Wimbledon,7,4,False
+E3,2324,2024-02-24,Forest Green,Tranmere,7,7,False
+E3,2324,2024-02-24,Gillingham,Wrexham,4,4,False
+E3,2324,2024-02-24,Harrogate,Walsall,7,4,False
+E3,2324,2024-02-24,Mansfield,Salford,7,7,False
+E3,2324,2024-02-24,Milton Keynes Dons,Newport County,4,7,False
+E3,2324,2024-02-24,Morecambe,Grimsby,4,7,False
+E3,2324,2024-02-24,Newport County,Crewe,7,7,False
+E3,2324,2024-02-24,Stockport,Swindon,4,7,False
+E3,2324,2024-02-24,Sutton,Colchester,7,7,False
+E3,2324,2024-02-27,Walsall,Accrington,3,3,True
+E3,2324,2024-02-27,Swindon,Tranmere,3,3,True
+E3,2324,2024-02-27,Salford,Colchester,3,3,True
+E3,2324,2024-02-27,Newport County,Sutton,3,3,True
+E3,2324,2024-02-27,Harrogate,Newport County,3,3,True
+E3,2324,2024-02-27,Forest Green,Wrexham,3,3,True
+E3,2324,2024-03-02,Swindon,Harrogate,4,4,False
+E3,2324,2024-03-02,Tranmere,Sutton,4,4,False
+E3,2324,2024-03-02,Walsall,Doncaster,4,7,False
+E3,2324,2024-03-02,Wrexham,Accrington,4,4,False
+E3,2324,2024-03-02,AFC Wimbledon,Milton Keynes Dons,7,7,False
+E3,2324,2024-03-02,Crewe,Morecambe,7,7,False
+E3,2324,2024-03-02,Grimsby,Forest Green,7,4,False
+E3,2324,2024-03-02,Newport County,Mansfield,4,7,False
+E3,2324,2024-03-02,Salford,Gillingham,4,7,False
+E3,2324,2024-03-05,AFC Wimbledon,Grimsby,3,3,True
+E3,2324,2024-03-05,Barrow,Gillingham,17,3,True
+E3,2324,2024-03-05,Bradford,Doncaster,17,3,True
+E3,2324,2024-03-05,Mansfield,Milton Keynes Dons,3,3,True
+E3,2324,2024-03-05,Morecambe,Crawley Town,3,10,True
+E3,2324,2024-03-09,Mansfield,Swindon,4,7,False
+E3,2324,2024-03-09,Accrington,Bradford,7,4,False
+E3,2324,2024-03-09,Barrow,Colchester,4,11,False
+E3,2324,2024-03-09,Doncaster,Crewe,4,7,False
+E3,2324,2024-03-09,Forest Green,Walsall,7,7,False
+E3,2324,2024-03-09,Gillingham,Tranmere,4,7,False
+E3,2324,2024-03-09,Harrogate,Crawley Town,7,4,False
+E3,2324,2024-03-09,Milton Keynes Dons,Salford,4,7,False
+E3,2324,2024-03-09,Morecambe,Wrexham,4,7,False
+E3,2324,2024-03-09,Newport County,AFC Wimbledon,7,4,False
+E3,2324,2024-03-09,Stockport,Newport County,14,7,False
+E3,2324,2024-03-09,Sutton,Grimsby,7,4,False
+E3,2324,2024-03-12,Swindon,Accrington,3,3,True
+E3,2324,2024-03-12,AFC Wimbledon,Gillingham,3,3,True
+E3,2324,2024-03-12,Bradford,Forest Green,3,3,True
+E3,2324,2024-03-12,Crawley Town,Newport County,3,3,True
+E3,2324,2024-03-12,Crewe,Sutton,3,3,True
+E3,2324,2024-03-12,Newport County,Morecambe,3,3,True
+E3,2324,2024-03-12,Grimsby,Milton Keynes Dons,3,3,True
+E3,2324,2024-03-12,Wrexham,Harrogate,3,3,True
+E3,2324,2024-03-12,Walsall,Barrow,3,3,True
+E3,2324,2024-03-12,Tranmere,Mansfield,3,3,True
+E3,2324,2024-03-14,Salford,Stockport,5,5,True
+E3,2324,2024-03-16,Bradford,Mansfield,4,4,False
+E3,2324,2024-03-16,Forest Green,Sutton,4,4,False
+E3,2324,2024-03-16,Gillingham,Grimsby,4,4,False
+E3,2324,2024-03-16,Milton Keynes Dons,Crewe,4,4,False
+E3,2324,2024-03-16,Swindon,Doncaster,4,7,False
+E3,2324,2024-03-16,Wrexham,Tranmere,4,4,False
+E3,2324,2024-03-16,Barrow,Harrogate,4,4,False
+E3,2324,2024-03-16,Accrington,Newport County,4,4,False
+E3,2324,2024-03-16,Colchester,Walsall,7,4,False
+E3,2324,2024-03-16,AFC Wimbledon,Newport County,4,4,False
+E3,2324,2024-03-17,Salford,Morecambe,3,5,False
+E3,2324,2024-03-18,Crawley Town,Stockport,6,4,False
+E3,2324,2024-03-19,Bradford,Newport County,3,3,True
+E3,2324,2024-03-23,Crewe,AFC Wimbledon,7,7,False
+E3,2324,2024-03-23,Mansfield,Colchester,7,7,False
+E3,2324,2024-03-23,Harrogate,Bradford,7,4,False
+E3,2324,2024-03-23,Barrow,Newport County,7,4,False
+E3,2324,2024-03-23,Doncaster,Forest Green,7,7,False
+E3,2324,2024-03-23,Grimsby,Wrexham,7,7,False
+E3,2324,2024-03-23,Morecambe,Gillingham,6,7,False
+E3,2324,2024-03-23,Newport County,Salford,4,6,False
+E3,2324,2024-03-23,Sutton,Accrington,7,7,False
+E3,2324,2024-03-23,Tranmere,Crawley Town,7,5,False
+E3,2324,2024-03-23,Stockport,Milton Keynes Dons,5,7,False
+E3,2324,2024-03-29,Crawley Town,Doncaster,6,6,False
+E3,2324,2024-03-29,Forest Green,Stockport,6,6,False
+E3,2324,2024-03-29,Gillingham,Crewe,6,6,False
+E3,2324,2024-03-29,Milton Keynes Dons,Walsall,6,13,False
+E3,2324,2024-03-29,Salford,Sutton,6,6,False
+E3,2324,2024-03-29,Swindon,Newport County,13,6,False
+E3,2324,2024-03-29,Wrexham,Mansfield,6,6,False
+E3,2324,2024-03-29,Colchester,Newport County,6,6,False
+E3,2324,2024-03-29,Bradford,Tranmere,6,6,False
+E3,2324,2024-03-29,Barrow,Grimsby,6,6,False
+E3,2324,2024-03-29,AFC Wimbledon,Harrogate,6,6,False
+E3,2324,2024-03-29,Accrington,Morecambe,6,6,False
+E3,2324,2024-04-01,Newport County,Milton Keynes Dons,3,3,False
+E3,2324,2024-04-01,Stockport,AFC Wimbledon,3,3,False
+E3,2324,2024-04-01,Sutton,Swindon,3,3,False
+E3,2324,2024-04-01,Tranmere,Colchester,3,3,False
+E3,2324,2024-04-01,Walsall,Salford,3,3,False
+E3,2324,2024-04-01,Newport County,Crawley Town,3,3,False
+E3,2324,2024-04-01,Grimsby,Bradford,3,3,False
+E3,2324,2024-04-01,Crewe,Forest Green,3,3,False
+E3,2324,2024-04-01,Harrogate,Gillingham,3,3,False
+E3,2324,2024-04-01,Morecambe,Barrow,3,3,False
+E3,2324,2024-04-02,Doncaster,Wrexham,4,4,True
+E3,2324,2024-04-06,Mansfield,Crawley Town,8,5,False
+E3,2324,2024-04-06,Accrington,Crewe,8,5,False
+E3,2324,2024-04-06,AFC Wimbledon,Salford,5,5,False
+E3,2324,2024-04-06,Barrow,Swindon,5,5,False
+E3,2324,2024-04-06,Bradford,Gillingham,5,5,False
+E3,2324,2024-04-06,Colchester,Wrexham,5,4,False
+E3,2324,2024-04-06,Forest Green,Milton Keynes Dons,5,5,False
+E3,2324,2024-04-06,Grimsby,Newport County,5,5,False
+E3,2324,2024-04-06,Morecambe,Doncaster,5,4,False
+E3,2324,2024-04-06,Newport County,Harrogate,5,5,False
+E3,2324,2024-04-06,Sutton,Stockport,5,5,False
+E3,2324,2024-04-06,Tranmere,Walsall,5,5,False
+E3,2324,2024-04-09,Harrogate,Grimsby,3,3,True
+E3,2324,2024-04-09,Mansfield,Forest Green,3,3,True
+E3,2324,2024-04-09,Morecambe,Crewe,3,3,True
+E3,2324,2024-04-09,Colchester,Stockport,3,3,True
+E3,2324,2024-04-09,Doncaster,Walsall,3,3,True
+E3,2324,2024-04-09,Wrexham,Crawley Town,3,3,True
+E3,2324,2024-04-09,Newport County,Accrington,3,3,True
+E3,2324,2024-04-13,Walsall,Newport County,4,4,False
+E3,2324,2024-04-13,Wrexham,Forest Green,4,4,False
+E3,2324,2024-04-13,Doncaster,Accrington,4,4,False
+E3,2324,2024-04-13,Harrogate,Sutton,4,7,False
+E3,2324,2024-04-13,Milton Keynes Dons,Mansfield,7,4,False
+E3,2324,2024-04-13,Newport County,Tranmere,4,7,False
+E3,2324,2024-04-13,Salford,Bradford,7,7,False
+E3,2324,2024-04-13,Stockport,Morecambe,4,4,False
+E3,2324,2024-04-13,Swindon,AFC Wimbledon,7,7,False
+E3,2324,2024-04-13,Crawley Town,Colchester,4,4,False
+E3,2324,2024-04-13,Crewe,Grimsby,4,4,False
+E3,2324,2024-04-13,Gillingham,Barrow,7,7,False
+E3,2324,2024-04-16,Crawley Town,Barrow,3,3,True
+E3,2324,2024-04-16,Colchester,Grimsby,3,3,True
+E3,2324,2024-04-16,Mansfield,Accrington,3,3,True
+E3,2324,2024-04-16,Newport County,Stockport,3,3,True
+E3,2324,2024-04-16,Walsall,Swindon,3,3,True
+E3,2324,2024-04-20,Crewe,Wrexham,7,7,False
+E3,2324,2024-04-20,Doncaster,Barrow,7,4,False
+E3,2324,2024-04-20,Grimsby,Swindon,4,4,False
+E3,2324,2024-04-20,Harrogate,Milton Keynes Dons,7,7,False
+E3,2324,2024-04-20,Mansfield,Gillingham,4,7,False
+E3,2324,2024-04-20,Morecambe,Forest Green,7,7,False
+E3,2324,2024-04-20,Newport County,Salford,4,7,False
+E3,2324,2024-04-20,Newport County,Colchester,4,4,False
+E3,2324,2024-04-20,Stockport,Accrington,4,4,False
+E3,2324,2024-04-20,Sutton,Crawley Town,7,4,False
+E3,2324,2024-04-20,Tranmere,AFC Wimbledon,7,7,False
+E3,2324,2024-04-20,Walsall,Bradford,4,7,False
+E3,2324,2024-04-23,Colchester,Doncaster,3,3,True
+E3,2324,2024-04-23,Barrow,Bradford,3,3,True
+E3,2324,2024-04-27,Crawley Town,Grimsby,7,7,False
+E3,2324,2024-04-27,Forest Green,Newport County,7,7,False
+E3,2324,2024-04-27,Gillingham,Doncaster,7,4,False
+E3,2324,2024-04-27,Milton Keynes Dons,Sutton,7,7,False
+E3,2324,2024-04-27,Salford,Harrogate,7,7,False
+E3,2324,2024-04-27,Bradford,Newport County,4,7,False
+E3,2324,2024-04-27,Wrexham,Stockport,7,7,False
+E3,2324,2024-04-27,Barrow,Mansfield,4,7,False
+E3,2324,2024-04-27,AFC Wimbledon,Walsall,7,7,False
+E3,2324,2024-04-27,Accrington,Tranmere,7,7,False
+E3,2324,2024-04-27,Swindon,Morecambe,7,7,False
+E3,2324,2024-04-27,Colchester,Crewe,4,7,False

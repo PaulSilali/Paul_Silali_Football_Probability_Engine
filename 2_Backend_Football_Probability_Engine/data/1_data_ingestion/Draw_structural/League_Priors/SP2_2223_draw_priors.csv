@@ -1,0 +1,463 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2022-08-12,Leganes,Huesca,0,0,D,1
+2022-08-13,Leganes,Alaves,1,2,A,0
+2022-08-13,Mirandes,Sp Gijon,1,1,D,1
+2022-08-13,Las Palmas,Zaragoza,0,0,D,1
+2022-08-13,Eibar,Tenerife,2,1,H,0
+2022-08-14,Burgos,Malaga,1,0,H,0
+2022-08-14,Ibiza,Granada,0,2,A,0
+2022-08-14,Santander,Villarreal B,0,2,A,0
+2022-08-15,Lugo,Albacete,1,2,A,0
+2022-08-15,Oviedo,Andorra,0,1,A,0
+2022-08-15,Cartagena,Ponferradina,2,3,A,0
+2022-08-19,Villarreal B,Eibar,2,2,D,1
+2022-08-19,Alaves,Mirandes,1,0,H,0
+2022-08-20,Zaragoza,Leganes,0,0,D,1
+2022-08-20,Granada,Santander,2,0,H,0
+2022-08-20,Sp Gijon,Andorra,4,1,H,0
+2022-08-20,Albacete,Burgos,0,0,D,1
+2022-08-21,Oviedo,Leganes,1,0,H,0
+2022-08-21,Tenerife,Lugo,1,1,D,1
+2022-08-21,Huesca,Cartagena,2,3,A,0
+2022-08-22,Malaga,Las Palmas,0,4,A,0
+2022-08-22,Ponferradina,Ibiza,2,1,H,0
+2022-08-26,Albacete,Huesca,2,1,H,0
+2022-08-26,Cartagena,Zaragoza,1,0,H,0
+2022-08-27,Mirandes,Malaga,1,3,A,0
+2022-08-27,Leganes,Tenerife,2,0,H,0
+2022-08-27,Sp Gijon,Burgos,0,0,D,1
+2022-08-27,Lugo,Leganes,1,0,H,0
+2022-08-28,Santander,Oviedo,0,1,A,0
+2022-08-28,Eibar,Ponferradina,1,0,H,0
+2022-08-28,Ibiza,Alaves,1,1,D,1
+2022-08-29,Las Palmas,Andorra,2,0,H,0
+2022-08-29,Granada,Villarreal B,3,0,H,0
+2022-09-02,Leganes,Eibar,2,1,H,0
+2022-09-03,Alaves,Las Palmas,1,1,D,1
+2022-09-03,Villarreal B,Mirandes,3,0,H,0
+2022-09-03,Ponferradina,Sp Gijon,1,3,A,0
+2022-09-03,Tenerife,Santander,1,0,H,0
+2022-09-04,Zaragoza,Lugo,1,2,A,0
+2022-09-04,Huesca,Ibiza,3,0,H,0
+2022-09-04,Burgos,Cartagena,1,0,H,0
+2022-09-04,Malaga,Albacete,1,2,A,0
+2022-09-04,Andorra,Granada,1,0,H,0
+2022-09-05,Oviedo,Leganes,1,1,D,1
+2022-09-09,Las Palmas,Leganes,1,0,H,0
+2022-09-10,Cartagena,Albacete,2,1,H,0
+2022-09-10,Leganes,Villarreal B,4,1,H,0
+2022-09-10,Lugo,Alaves,1,2,A,0
+2022-09-10,Burgos,Oviedo,0,0,D,1
+2022-09-11,Huesca,Malaga,1,0,H,0
+2022-09-11,Ibiza,Tenerife,1,0,H,0
+2022-09-11,Sp Gijon,Santander,0,2,A,0
+2022-09-11,Mirandes,Andorra,1,1,D,1
+2022-09-11,Ponferradina,Zaragoza,1,2,A,0
+2022-09-12,Eibar,Granada,4,0,H,0
+2022-09-16,Leganes,Cartagena,0,1,A,0
+2022-09-17,Granada,Mirandes,2,1,H,0
+2022-09-17,Zaragoza,Sp Gijon,1,0,H,0
+2022-09-17,Andorra,Eibar,2,0,H,0
+2022-09-17,Villarreal B,Lugo,3,1,H,0
+2022-09-17,Oviedo,Ibiza,0,1,A,0
+2022-09-18,Albacete,Ponferradina,0,1,A,0
+2022-09-18,Leganes,Burgos,0,0,D,1
+2022-09-18,Alaves,Huesca,2,1,H,0
+2022-09-18,Santander,Las Palmas,0,0,D,1
+2022-09-19,Tenerife,Malaga,3,1,H,0
+2022-09-23,Sp Gijon,Ibiza,2,1,H,0
+2022-09-24,Malaga,Villarreal B,1,1,D,1
+2022-09-24,Ponferradina,Tenerife,2,2,D,1
+2022-09-24,Huesca,Leganes,1,0,H,0
+2022-09-24,Mirandes,Zaragoza,2,0,H,0
+2022-09-25,Albacete,Andorra,1,1,D,1
+2022-09-25,Eibar,Santander,2,1,H,0
+2022-09-25,Burgos,Leganes,0,0,D,1
+2022-09-25,Lugo,Oviedo,0,0,D,1
+2022-09-26,Cartagena,Alaves,1,1,D,1
+2022-09-26,Las Palmas,Granada,2,0,H,0
+2022-09-30,Tenerife,Sp Gijon,1,1,D,1
+2022-10-01,Santander,Malaga,0,0,D,1
+2022-10-01,Andorra,Leganes,3,1,H,0
+2022-10-01,Villarreal B,Burgos,0,0,D,1
+2022-10-01,Mirandes,Las Palmas,3,3,D,1
+2022-10-02,Ibiza,Lugo,3,2,H,0
+2022-10-02,Granada,Huesca,0,0,D,1
+2022-10-02,Leganes,Albacete,1,2,A,0
+2022-10-02,Alaves,Ponferradina,3,1,H,0
+2022-10-02,Oviedo,Cartagena,1,3,A,0
+2022-10-03,Zaragoza,Eibar,0,0,D,1
+2022-10-07,Sp Gijon,Villarreal B,3,1,H,0
+2022-10-08,Las Palmas,Ibiza,0,0,D,1
+2022-10-08,Burgos,Alaves,3,0,H,0
+2022-10-08,Ponferradina,Granada,0,0,D,1
+2022-10-08,Huesca,Lugo,1,1,D,1
+2022-10-09,Malaga,Andorra,0,0,D,1
+2022-10-09,Cartagena,Leganes,1,2,A,0
+2022-10-09,Zaragoza,Oviedo,1,1,D,1
+2022-10-09,Albacete,Tenerife,1,1,D,1
+2022-10-09,Leganes,Santander,0,1,A,0
+2022-10-10,Eibar,Mirandes,0,0,D,1
+2022-10-12,Oviedo,Huesca,0,1,A,0
+2022-10-12,Tenerife,Cartagena,0,0,D,1
+2022-10-12,Lugo,Las Palmas,0,1,A,0
+2022-10-12,Santander,Zaragoza,1,0,H,0
+2022-10-12,Alaves,Albacete,0,0,D,1
+2022-10-12,Leganes,Malaga,1,0,H,0
+2022-10-12,Andorra,Burgos,0,1,A,0
+2022-10-12,Villarreal B,Ponferradina,2,2,D,1
+2022-10-13,Granada,Sp Gijon,5,0,H,0
+2022-10-13,Mirandes,Leganes,0,1,A,0
+2022-10-13,Ibiza,Eibar,1,2,A,0
+2022-10-15,Albacete,Oviedo,1,0,H,0
+2022-10-15,Zaragoza,Villarreal B,2,1,H,0
+2022-10-15,Huesca,Santander,0,0,D,1
+2022-10-15,Ponferradina,Las Palmas,0,1,A,0
+2022-10-15,Andorra,Alaves,0,1,A,0
+2022-10-16,Tenerife,Granada,2,0,H,0
+2022-10-16,Malaga,Lugo,3,2,H,0
+2022-10-16,Burgos,Mirandes,2,1,H,0
+2022-10-16,Leganes,Leganes,2,1,H,0
+2022-10-16,Cartagena,Ibiza,2,0,H,0
+2022-10-17,Sp Gijon,Eibar,2,0,H,0
+2022-10-21,Granada,Zaragoza,1,0,H,0
+2022-10-22,Ibiza,Leganes,1,2,A,0
+2022-10-22,Mirandes,Huesca,1,1,D,1
+2022-10-22,Villarreal B,Andorra,1,0,H,0
+2022-10-22,Alaves,Sp Gijon,0,0,D,1
+2022-10-23,Las Palmas,Cartagena,1,0,H,0
+2022-10-23,Leganes,Tenerife,2,1,H,0
+2022-10-23,Eibar,Albacete,1,1,D,1
+2022-10-23,Lugo,Burgos,2,0,H,0
+2022-10-23,Santander,Ponferradina,1,1,D,1
+2022-10-24,Oviedo,Malaga,1,0,H,0
+2022-10-28,Tenerife,Zaragoza,0,2,A,0
+2022-10-29,Burgos,Ibiza,2,0,H,0
+2022-10-29,Alaves,Oviedo,2,1,H,0
+2022-10-29,Leganes,Santander,0,0,D,1
+2022-10-29,Huesca,Las Palmas,1,0,H,0
+2022-10-29,Andorra,Ponferradina,3,0,H,0
+2022-10-30,Malaga,Eibar,0,1,A,0
+2022-10-30,Albacete,Villarreal B,0,0,D,1
+2022-10-30,Cartagena,Granada,0,0,D,1
+2022-10-30,Lugo,Mirandes,0,0,D,1
+2022-10-31,Leganes,Sp Gijon,1,0,H,0
+2022-11-01,Ibiza,Leganes,0,2,A,0
+2022-11-01,Santander,Alaves,1,1,D,1
+2022-11-01,Las Palmas,Burgos,0,2,A,0
+2022-11-01,Zaragoza,Andorra,0,2,A,0
+2022-11-01,Ponferradina,Huesca,1,0,H,0
+2022-11-02,Eibar,Lugo,1,0,H,0
+2022-11-02,Villarreal B,Oviedo,2,1,H,0
+2022-11-02,Mirandes,Tenerife,1,0,H,0
+2022-11-03,Sp Gijon,Albacete,2,2,D,1
+2022-11-03,Cartagena,Malaga,2,1,H,0
+2022-11-03,Granada,Leganes,0,0,D,1
+2022-11-04,Alaves,Zaragoza,1,0,H,0
+2022-11-05,Andorra,Santander,0,1,A,0
+2022-11-05,Burgos,Tenerife,0,1,A,0
+2022-11-05,Huesca,Villarreal B,1,0,H,0
+2022-11-05,Leganes,Ponferradina,2,1,H,0
+2022-11-06,Albacete,Leganes,2,3,A,0
+2022-11-06,Malaga,Sp Gijon,1,1,D,1
+2022-11-06,Las Palmas,Eibar,1,1,D,1
+2022-11-06,Oviedo,Granada,1,0,H,0
+2022-11-06,Ibiza,Mirandes,1,1,D,1
+2022-11-07,Lugo,Cartagena,1,1,D,1
+2022-11-18,Granada,Albacete,4,0,H,0
+2022-11-19,Tenerife,Huesca,2,0,H,0
+2022-11-19,Zaragoza,Malaga,1,1,D,1
+2022-11-19,Ponferradina,Oviedo,1,1,D,1
+2022-11-19,Sp Gijon,Leganes,2,2,D,1
+2022-11-20,Leganes,Las Palmas,1,1,D,1
+2022-11-20,Andorra,Lugo,4,0,H,0
+2022-11-20,Villarreal B,Ibiza,1,0,H,0
+2022-11-20,Eibar,Alaves,0,0,D,1
+2022-11-20,Santander,Burgos,0,1,A,0
+2022-11-21,Mirandes,Cartagena,2,1,H,0
+2022-11-25,Huesca,Sp Gijon,0,0,D,1
+2022-11-26,Oviedo,Mirandes,1,0,H,0
+2022-11-26,Las Palmas,Tenerife,3,1,H,0
+2022-11-26,Albacete,Santander,2,1,H,0
+2022-11-26,Alaves,Villarreal B,2,0,H,0
+2022-11-26,Malaga,Ponferradina,1,0,H,0
+2022-11-27,Burgos,Zaragoza,2,2,D,1
+2022-11-27,Leganes,Granada,1,0,H,0
+2022-11-27,Lugo,Leganes,1,1,D,1
+2022-11-27,Cartagena,Eibar,2,1,H,0
+2022-11-28,Ibiza,Andorra,0,1,A,0
+2022-11-30,Tenerife,Oviedo,0,1,A,0
+2022-12-02,Granada,Alaves,3,1,H,0
+2022-12-03,Villarreal B,Leganes,0,0,D,1
+2022-12-03,Sp Gijon,Las Palmas,0,1,A,0
+2022-12-03,Mirandes,Albacete,4,2,H,0
+2022-12-03,Zaragoza,Ibiza,2,1,H,0
+2022-12-04,Santander,Lugo,0,1,A,0
+2022-12-04,Eibar,Huesca,2,1,H,0
+2022-12-04,Leganes,Malaga,1,0,H,0
+2022-12-04,Andorra,Cartagena,0,1,A,0
+2022-12-05,Ponferradina,Burgos,1,2,A,0
+2022-12-06,Leganes,Mirandes,2,2,D,1
+2022-12-06,Oviedo,Las Palmas,0,0,D,1
+2022-12-06,Albacete,Zaragoza,0,0,D,1
+2022-12-07,Cartagena,Villarreal B,0,1,A,0
+2022-12-07,Huesca,Andorra,1,0,H,0
+2022-12-07,Tenerife,Alaves,2,1,H,0
+2022-12-08,Burgos,Eibar,1,2,A,0
+2022-12-08,Ibiza,Santander,1,0,H,0
+2022-12-08,Lugo,Sp Gijon,0,1,A,0
+2022-12-08,Malaga,Granada,1,1,D,1
+2022-12-08,Leganes,Ponferradina,0,0,D,1
+2022-12-10,Andorra,Leganes,1,1,D,1
+2022-12-10,Villarreal B,Tenerife,2,2,D,1
+2022-12-10,Zaragoza,Huesca,3,0,H,0
+2022-12-11,Sp Gijon,Cartagena,0,0,D,1
+2022-12-11,Ibiza,Malaga,1,1,D,1
+2022-12-11,Ponferradina,Lugo,1,0,H,0
+2022-12-11,Eibar,Oviedo,1,0,H,0
+2022-12-11,Granada,Burgos,1,0,H,0
+2022-12-11,Las Palmas,Albacete,1,2,A,0
+2022-12-11,Santander,Mirandes,1,2,A,0
+2022-12-12,Alaves,Leganes,0,2,A,0
+2022-12-16,Tenerife,Andorra,1,1,D,1
+2022-12-17,Oviedo,Sp Gijon,1,0,H,0
+2022-12-17,Villarreal B,Las Palmas,0,1,A,0
+2022-12-17,Cartagena,Santander,0,3,A,0
+2022-12-17,Mirandes,Ponferradina,2,1,H,0
+2022-12-17,Lugo,Granada,1,0,H,0
+2022-12-18,Malaga,Alaves,1,0,H,0
+2022-12-18,Leganes,Eibar,0,0,D,1
+2022-12-18,Albacete,Ibiza,4,0,H,0
+2022-12-18,Burgos,Huesca,1,1,D,1
+2022-12-19,Leganes,Zaragoza,2,1,H,0
+2023-01-06,Ponferradina,Villarreal B,2,1,H,0
+2023-01-06,Sp Gijon,Leganes,1,1,D,1
+2023-01-06,Leganes,Lugo,1,0,H,0
+2023-01-07,Malaga,Tenerife,1,1,D,1
+2023-01-07,Andorra,Oviedo,3,1,H,0
+2023-01-07,Alaves,Burgos,1,0,H,0
+2023-01-08,Zaragoza,Mirandes,0,0,D,1
+2023-01-08,Las Palmas,Santander,1,1,D,1
+2023-01-08,Granada,Cartagena,1,0,H,0
+2023-01-08,Eibar,Ibiza,1,0,H,0
+2023-01-09,Huesca,Albacete,1,1,D,1
+2023-01-13,Oviedo,Alaves,1,0,H,0
+2023-01-14,Villarreal B,Zaragoza,2,3,A,0
+2023-01-14,Ibiza,Las Palmas,1,2,A,0
+2023-01-14,Santander,Sp Gijon,2,0,H,0
+2023-01-14,Tenerife,Ponferradina,0,0,D,1
+2023-01-14,Leganes,Granada,3,1,H,0
+2023-01-14,Cartagena,Huesca,0,0,D,1
+2023-01-15,Eibar,Malaga,2,1,H,0
+2023-01-15,Burgos,Andorra,2,1,H,0
+2023-01-15,Mirandes,Lugo,2,0,H,0
+2023-01-16,Albacete,Leganes,1,0,H,0
+2023-01-20,Las Palmas,Mirandes,2,1,H,0
+2023-01-21,Malaga,Burgos,1,1,D,1
+2023-01-21,Ponferradina,Eibar,0,1,A,0
+2023-01-21,Granada,Ibiza,2,0,H,0
+2023-01-21,Alaves,Santander,3,0,H,0
+2023-01-22,Lugo,Villarreal B,1,2,A,0
+2023-01-22,Leganes,Leganes,2,2,D,1
+2023-01-22,Cartagena,Tenerife,0,1,A,0
+2023-01-22,Sp Gijon,Zaragoza,1,0,H,0
+2023-01-22,Huesca,Oviedo,1,1,D,1
+2023-01-23,Andorra,Albacete,0,1,A,0
+2023-01-27,Santander,Tenerife,1,1,D,1
+2023-01-28,Oviedo,Villarreal B,0,1,A,0
+2023-01-28,Las Palmas,Huesca,1,0,H,0
+2023-01-28,Eibar,Leganes,0,0,D,1
+2023-01-28,Granada,Andorra,2,0,H,0
+2023-01-29,Albacete,Lugo,2,0,H,0
+2023-01-29,Mirandes,Alaves,1,3,A,0
+2023-01-29,Leganes,Burgos,1,0,H,0
+2023-01-29,Sp Gijon,Malaga,0,0,D,1
+2023-01-29,Ibiza,Cartagena,2,2,D,1
+2023-01-30,Zaragoza,Ponferradina,0,0,D,1
+2023-02-03,Malaga,Oviedo,0,1,A,0
+2023-02-04,Tenerife,Albacete,1,0,H,0
+2023-02-04,Alaves,Eibar,2,0,H,0
+2023-02-04,Leganes,Sp Gijon,1,0,H,0
+2023-02-04,Huesca,Mirandes,1,0,H,0
+2023-02-05,Lugo,Ibiza,0,0,D,1
+2023-02-05,Andorra,Zaragoza,0,1,A,0
+2023-02-05,Villarreal B,Granada,0,2,A,0
+2023-02-05,Cartagena,Leganes,1,2,A,0
+2023-02-05,Ponferradina,Santander,1,1,D,1
+2023-02-06,Burgos,Las Palmas,0,0,D,1
+2023-02-10,Granada,Tenerife,2,0,H,0
+2023-02-11,Mirandes,Villarreal B,2,1,H,0
+2023-02-11,Las Palmas,Lugo,3,0,H,0
+2023-02-11,Zaragoza,Alaves,1,4,A,0
+2023-02-11,Leganes,Andorra,1,0,H,0
+2023-02-12,Oviedo,Burgos,0,1,A,0
+2023-02-12,Eibar,Cartagena,0,3,A,0
+2023-02-12,Sp Gijon,Huesca,1,1,D,1
+2023-02-12,Ibiza,Ponferradina,1,1,D,1
+2023-02-12,Albacete,Malaga,3,2,H,0
+2023-02-13,Santander,Leganes,2,1,H,0
+2023-02-17,Cartagena,Oviedo,2,1,H,0
+2023-02-18,Leganes,Las Palmas,0,0,D,1
+2023-02-18,Lugo,Eibar,0,2,A,0
+2023-02-18,Ponferradina,Leganes,0,0,D,1
+2023-02-18,Tenerife,Mirandes,1,0,H,0
+2023-02-19,Villarreal B,Santander,2,1,H,0
+2023-02-19,Andorra,Sp Gijon,1,0,H,0
+2023-02-19,Burgos,Albacete,1,1,D,1
+2023-02-19,Huesca,Granada,1,1,D,1
+2023-02-19,Alaves,Ibiza,4,2,H,0
+2023-02-20,Malaga,Zaragoza,3,0,H,0
+2023-02-24,Eibar,Villarreal B,2,0,H,0
+2023-02-25,Alaves,Cartagena,0,0,D,1
+2023-02-25,Santander,Andorra,2,1,H,0
+2023-02-25,Mirandes,Leganes,0,0,D,1
+2023-02-25,Sp Gijon,Tenerife,1,0,H,0
+2023-02-26,Oviedo,Albacete,1,1,D,1
+2023-02-26,Las Palmas,Ponferradina,2,0,H,0
+2023-02-26,Zaragoza,Burgos,0,0,D,1
+2023-02-26,Leganes,Lugo,3,1,H,0
+2023-02-26,Ibiza,Huesca,2,2,D,1
+2023-02-27,Granada,Malaga,1,0,H,0
+2023-03-03,Andorra,Las Palmas,0,0,D,1
+2023-03-04,Tenerife,Eibar,0,1,A,0
+2023-03-04,Mirandes,Oviedo,1,0,H,0
+2023-03-04,Burgos,Granada,1,3,A,0
+2023-03-04,Huesca,Leganes,3,0,H,0
+2023-03-05,Albacete,Sp Gijon,2,1,H,0
+2023-03-05,Lugo,Zaragoza,0,0,D,1
+2023-03-05,Malaga,Santander,0,1,A,0
+2023-03-05,Ponferradina,Cartagena,0,3,A,0
+2023-03-05,Leganes,Ibiza,0,1,A,0
+2023-03-06,Villarreal B,Alaves,1,0,H,0
+2023-03-10,Oviedo,Tenerife,0,0,D,1
+2023-03-11,Eibar,Burgos,1,0,H,0
+2023-03-11,Alaves,Lugo,0,0,D,1
+2023-03-11,Ibiza,Villarreal B,0,0,D,1
+2023-03-11,Las Palmas,Malaga,2,2,D,1
+2023-03-12,Granada,Ponferradina,2,2,D,1
+2023-03-12,Leganes,Albacete,0,0,D,1
+2023-03-12,Cartagena,Andorra,0,3,A,0
+2023-03-12,Sp Gijon,Mirandes,3,4,A,0
+2023-03-12,Zaragoza,Leganes,3,0,H,0
+2023-03-13,Santander,Huesca,1,1,D,1
+2023-03-17,Malaga,Leganes,0,0,D,1
+2023-03-18,Ponferradina,Alaves,1,0,H,0
+2023-03-18,Leganes,Oviedo,0,1,A,0
+2023-03-18,Tenerife,Las Palmas,4,1,H,0
+2023-03-18,Andorra,Ibiza,2,2,D,1
+2023-03-18,Albacete,Granada,1,2,A,0
+2023-03-19,Huesca,Zaragoza,1,1,D,1
+2023-03-19,Burgos,Sp Gijon,0,0,D,1
+2023-03-19,Lugo,Santander,1,1,D,1
+2023-03-19,Villarreal B,Cartagena,5,2,H,0
+2023-03-20,Mirandes,Eibar,2,3,A,0
+2023-03-24,Cartagena,Lugo,2,0,H,0
+2023-03-25,Ibiza,Burgos,2,0,H,0
+2023-03-25,Santander,Leganes,0,1,A,0
+2023-03-25,Alaves,Tenerife,1,0,H,0
+2023-03-26,Las Palmas,Sp Gijon,1,1,D,1
+2023-03-26,Villarreal B,Huesca,0,0,D,1
+2023-03-26,Eibar,Andorra,0,0,D,1
+2023-03-26,Ponferradina,Mirandes,0,0,D,1
+2023-03-26,Granada,Oviedo,1,0,H,0
+2023-03-26,Zaragoza,Albacete,1,1,D,1
+2023-03-27,Malaga,Leganes,2,0,H,0
+2023-03-31,Leganes,Zaragoza,1,1,D,1
+2023-04-01,Burgos,Santander,2,1,H,0
+2023-04-01,Leganes,Cartagena,1,3,A,0
+2023-04-01,Tenerife,Villarreal B,1,1,D,1
+2023-04-01,Oviedo,Eibar,1,1,D,1
+2023-04-02,Mirandes,Ibiza,2,2,D,1
+2023-04-02,Huesca,Alaves,0,1,A,0
+2023-04-02,Lugo,Ponferradina,0,0,D,1
+2023-04-02,Andorra,Malaga,1,0,H,0
+2023-04-02,Sp Gijon,Granada,1,0,H,0
+2023-04-03,Albacete,Las Palmas,1,2,A,0
+2023-04-07,Lugo,Tenerife,0,0,D,1
+2023-04-07,Villarreal B,Malaga,1,2,A,0
+2023-04-08,Ibiza,Sp Gijon,1,3,A,0
+2023-04-08,Santander,Albacete,4,1,H,0
+2023-04-08,Zaragoza,Granada,1,0,H,0
+2023-04-09,Huesca,Burgos,2,1,H,0
+2023-04-09,Eibar,Leganes,1,1,D,1
+2023-04-09,Ponferradina,Leganes,0,1,A,0
+2023-04-09,Las Palmas,Oviedo,0,1,A,0
+2023-04-09,Cartagena,Mirandes,1,0,H,0
+2023-04-10,Alaves,Andorra,0,0,D,1
+2023-04-14,Albacete,Eibar,3,1,H,0
+2023-04-15,Oviedo,Lugo,2,1,H,0
+2023-04-15,Granada,Las Palmas,2,1,H,0
+2023-04-15,Zaragoza,Santander,4,1,H,0
+2023-04-15,Burgos,Ponferradina,2,2,D,1
+2023-04-16,Leganes,Villarreal B,1,0,H,0
+2023-04-16,Tenerife,Ibiza,4,0,H,0
+2023-04-16,Malaga,Cartagena,1,0,H,0
+2023-04-16,Sp Gijon,Alaves,0,0,D,1
+2023-04-16,Andorra,Huesca,1,0,H,0
+2023-04-17,Leganes,Mirandes,1,2,A,0
+2023-04-21,Eibar,Zaragoza,1,1,D,1
+2023-04-22,Ibiza,Oviedo,1,2,A,0
+2023-04-22,Ponferradina,Andorra,1,4,A,0
+2023-04-22,Las Palmas,Leganes,0,0,D,1
+2023-04-22,Villarreal B,Albacete,1,2,A,0
+2023-04-22,Cartagena,Sp Gijon,2,1,H,0
+2023-04-23,Mirandes,Burgos,2,1,H,0
+2023-04-23,Alaves,Leganes,2,1,H,0
+2023-04-23,Santander,Granada,1,0,H,0
+2023-04-23,Lugo,Malaga,0,2,A,0
+2023-04-24,Huesca,Tenerife,1,1,D,1
+2023-04-28,Santander,Ibiza,1,0,H,0
+2023-04-29,Tenerife,Leganes,1,0,H,0
+2023-04-29,Albacete,Cartagena,1,1,D,1
+2023-04-29,Leganes,Alaves,2,0,H,0
+2023-04-30,Granada,Eibar,1,1,D,1
+2023-04-30,Andorra,Mirandes,0,1,A,0
+2023-04-30,Oviedo,Ponferradina,3,2,H,0
+2023-04-30,Zaragoza,Las Palmas,1,1,D,1
+2023-05-01,Sp Gijon,Lugo,3,1,H,0
+2023-05-01,Malaga,Huesca,0,0,D,1
+2023-05-01,Burgos,Villarreal B,1,0,H,0
+2023-05-05,Alaves,Granada,1,1,D,1
+2023-05-06,Leganes,Huesca,2,1,H,0
+2023-05-06,Tenerife,Leganes,1,0,H,0
+2023-05-06,Mirandes,Santander,1,1,D,1
+2023-05-07,Ponferradina,Malaga,2,0,H,0
+2023-05-07,Lugo,Andorra,2,2,D,1
+2023-05-07,Oviedo,Zaragoza,2,1,H,0
+2023-05-07,Cartagena,Burgos,0,0,D,1
+2023-05-07,Villarreal B,Sp Gijon,2,0,H,0
+2023-05-07,Ibiza,Albacete,0,5,A,0
+2023-05-08,Eibar,Las Palmas,0,1,A,0
+2023-05-12,Burgos,Leganes,0,3,A,0
+2023-05-13,Zaragoza,Cartagena,2,0,H,0
+2023-05-13,Malaga,Mirandes,2,0,H,0
+2023-05-13,Sp Gijon,Oviedo,1,1,D,1
+2023-05-13,Granada,Lugo,2,0,H,0
+2023-05-14,Las Palmas,Villarreal B,1,1,D,1
+2023-05-14,Andorra,Tenerife,1,0,H,0
+2023-05-14,Santander,Eibar,1,0,H,0
+2023-05-14,Albacete,Alaves,1,1,D,1
+2023-05-14,Huesca,Ponferradina,1,1,D,1
+2023-05-15,Leganes,Ibiza,0,0,D,1
+2023-05-20,Villarreal B,Leganes,2,3,A,0
+2023-05-20,Ibiza,Zaragoza,1,0,H,0
+2023-05-20,Alaves,Malaga,2,1,H,0
+2023-05-20,Cartagena,Las Palmas,1,4,A,0
+2023-05-20,Eibar,Sp Gijon,2,2,D,1
+2023-05-20,Lugo,Huesca,1,2,A,0
+2023-05-20,Mirandes,Granada,1,3,A,0
+2023-05-20,Ponferradina,Albacete,1,1,D,1
+2023-05-20,Tenerife,Burgos,2,1,H,0
+2023-05-21,Leganes,Andorra,1,1,D,1
+2023-05-21,Oviedo,Santander,1,0,H,0
+2023-05-26,Zaragoza,Tenerife,1,1,D,1
+2023-05-27,Granada,Leganes,2,0,H,0
+2023-05-27,Huesca,Eibar,0,1,A,0
+2023-05-27,Las Palmas,Alaves,0,0,D,1
+2023-05-27,Burgos,Lugo,0,1,A,0
+2023-05-27,Andorra,Villarreal B,4,3,H,0
+2023-05-27,Leganes,Oviedo,2,1,H,0
+2023-05-27,Albacete,Mirandes,2,1,H,0
+2023-05-27,Malaga,Ibiza,1,1,D,1
+2023-05-28,Sp Gijon,Ponferradina,1,4,A,0
+2023-05-28,Santander,Cartagena,3,1,H,0

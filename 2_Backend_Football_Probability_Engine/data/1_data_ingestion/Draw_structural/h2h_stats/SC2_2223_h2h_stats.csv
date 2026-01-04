@@ -1,0 +1,46 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+591,Edinburgh City,592,Dunfermline,2223,4,1,0.25,1.25
+578,Kelty Hearts,583,Montrose,2223,4,1,0.25,4.0
+579,Peterhead,584,Queen of Sth,2223,4,0,0.0,3.5
+583,Montrose,585,Alloa,2223,4,1,0.25,2.0
+584,Queen of Sth,585,Alloa,2223,4,1,0.25,3.5
+583,Montrose,592,Dunfermline,2223,4,0,0.0,2.25
+584,Queen of Sth,591,Edinburgh City,2223,4,0,0.0,3.25
+585,Alloa,592,Dunfermline,2223,4,0,0.0,2.0
+585,Alloa,589,Falkirk,2223,4,1,0.25,3.0
+583,Montrose,589,Falkirk,2223,4,2,0.5,2.0
+578,Kelty Hearts,591,Edinburgh City,2223,4,1,0.25,2.75
+583,Montrose,593,Airdrie Utd,2223,4,0,0.0,4.75
+578,Kelty Hearts,589,Falkirk,2223,4,1,0.25,2.5
+579,Peterhead,589,Falkirk,2223,4,0,0.0,4.25
+578,Kelty Hearts,584,Queen of Sth,2223,4,0,0.0,3.0
+579,Peterhead,593,Airdrie Utd,2223,4,1,0.25,3.5
+578,Kelty Hearts,594,Clyde,2223,4,1,0.25,2.25
+579,Peterhead,591,Edinburgh City,2223,4,1,0.25,2.25
+589,Falkirk,594,Clyde,2223,4,2,0.5,3.0
+584,Queen of Sth,592,Dunfermline,2223,4,1,0.25,2.75
+583,Montrose,594,Clyde,2223,4,0,0.0,3.0
+592,Dunfermline,594,Clyde,2223,4,2,0.5,2.75
+583,Montrose,591,Edinburgh City,2223,4,3,0.75,3.75
+585,Alloa,594,Clyde,2223,4,1,0.25,4.25
+589,Falkirk,592,Dunfermline,2223,4,2,0.5,2.25
+589,Falkirk,591,Edinburgh City,2223,4,0,0.0,2.75
+585,Alloa,593,Airdrie Utd,2223,4,0,0.0,2.25
+589,Falkirk,593,Airdrie Utd,2223,4,2,0.5,3.5
+592,Dunfermline,593,Airdrie Utd,2223,4,3,0.75,3.25
+579,Peterhead,583,Montrose,2223,4,1,0.25,2.0
+578,Kelty Hearts,579,Peterhead,2223,4,1,0.25,2.75
+578,Kelty Hearts,593,Airdrie Utd,2223,4,1,0.25,2.75
+579,Peterhead,592,Dunfermline,2223,4,1,0.25,3.0
+579,Peterhead,585,Alloa,2223,4,0,0.0,2.5
+578,Kelty Hearts,592,Dunfermline,2223,4,2,0.5,1.5
+591,Edinburgh City,593,Airdrie Utd,2223,4,0,0.0,5.75
+593,Airdrie Utd,594,Clyde,2223,4,0,0.0,3.25
+584,Queen of Sth,593,Airdrie Utd,2223,4,2,0.5,4.25
+584,Queen of Sth,594,Clyde,2223,4,1,0.25,2.75
+583,Montrose,584,Queen of Sth,2223,4,1,0.25,2.5
+578,Kelty Hearts,585,Alloa,2223,4,2,0.5,1.75
+591,Edinburgh City,594,Clyde,2223,4,0,0.0,2.5
+579,Peterhead,594,Clyde,2223,4,2,0.5,2.0
+585,Alloa,591,Edinburgh City,2223,4,0,0.0,4.5
+584,Queen of Sth,589,Falkirk,2223,4,0,0.0,4.0

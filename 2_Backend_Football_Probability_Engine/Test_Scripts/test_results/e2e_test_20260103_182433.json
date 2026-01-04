@@ -1,0 +1,59 @@
+{
+  "stage1_data_ingestion": {
+    "success": true,
+    "ingested_leagues": [
+      "E0",
+      "E1",
+      "E2"
+    ],
+    "failed_leagues": [],
+    "working_sources": {
+      "football-data.co.uk": [
+        "E0",
+        "E1",
+        "E2"
+      ],
+      "football-data.org": [],
+      "OpenFootball": []
+    },
+    "table_counts": {
+      "matches": 9404,
+      "teams": 115,
+      "leagues": 43,
+      "league_draw_priors": 1,
+      "h2h_draw_stats": 0,
+      "team_elo": 0
+    },
+    "draw_structural_success": true
+  },
+  "stage2_data_cleaning": {
+    "success": true,
+    "matches_count": 9404,
+    "cleaning_integrated": true
+  },
+  "stage3_model_training": {
+    "success": false,
+    "training_results": {},
+    "models_count": 1
+  },
+  "stage4_probability_generation": {},
+  "stage5_validation_backtesting": {},
+  "data_source_status": {
+    "working": {
+      "football-data.co.uk": [
+        "E0",
+        "E1",
+        "E2"
+      ],
+      "football-data.org": [],
+      "OpenFootball": []
+    },
+    "failed": []
+  },
+  "table_population": {},
+  "test_metadata": {
+    "start_time": "2026-01-03T18:24:33.938603",
+    "end_time": "2026-01-03T18:40:40.540906",
+    "duration_seconds": 966.602306
+  }
+}

@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,2122,2021-07-31,Albion Rvs,Edinburgh City,88,88,False
+SC3,2122,2021-07-31,Elgin,Stranraer,88,88,False
+SC3,2122,2021-07-31,Annan Athletic,Forfar,91,7,False
+SC3,2122,2021-07-31,Stenhousemuir,Stirling,88,91,False
+SC3,2122,2021-07-31,Kelty Hearts,Cowdenbeath,7,88,False
+SC3,2122,2021-08-07,Cowdenbeath,Elgin,7,7,False
+SC3,2122,2021-08-07,Albion Rvs,Stenhousemuir,7,7,False
+SC3,2122,2021-08-07,Forfar,Edinburgh City,7,7,False
+SC3,2122,2021-08-07,Stirling,Kelty Hearts,7,7,False
+SC3,2122,2021-08-07,Stranraer,Annan Athletic,7,7,False
+SC3,2122,2021-08-13,Edinburgh City,Stenhousemuir,6,6,False
+SC3,2122,2021-08-14,Forfar,Kelty Hearts,7,7,False
+SC3,2122,2021-08-14,Elgin,Albion Rvs,7,7,False
+SC3,2122,2021-08-14,Annan Athletic,Stirling,7,7,False
+SC3,2122,2021-08-21,Kelty Hearts,Edinburgh City,7,8,False
+SC3,2122,2021-08-21,Stenhousemuir,Cowdenbeath,8,14,False
+SC3,2122,2021-08-21,Stranraer,Stirling,14,7,False
+SC3,2122,2021-08-21,Albion Rvs,Annan Athletic,7,7,False
+SC3,2122,2021-08-21,Elgin,Forfar,7,7,False
+SC3,2122,2021-08-27,Edinburgh City,Elgin,6,6,False
+SC3,2122,2021-08-28,Forfar,Stranraer,7,7,False
+SC3,2122,2021-08-28,Stenhousemuir,Kelty Hearts,7,7,False
+SC3,2122,2021-08-28,Stirling,Albion Rvs,7,7,False
+SC3,2122,2021-08-28,Cowdenbeath,Annan Athletic,7,7,False
+SC3,2122,2021-08-31,Cowdenbeath,Stranraer,3,3,True
+SC3,2122,2021-09-11,Albion Rvs,Cowdenbeath,14,11,False
+SC3,2122,2021-09-11,Annan Athletic,Stenhousemuir,14,14,False
+SC3,2122,2021-09-11,Kelty Hearts,Elgin,14,15,False
+SC3,2122,2021-09-11,Stirling,Forfar,14,14,False
+SC3,2122,2021-09-11,Stranraer,Edinburgh City,11,15,False
+SC3,2122,2021-09-17,Edinburgh City,Stirling,6,6,False
+SC3,2122,2021-09-18,Elgin,Annan Athletic,7,7,False
+SC3,2122,2021-09-18,Stranraer,Stenhousemuir,7,7,False
+SC3,2122,2021-09-18,Cowdenbeath,Forfar,7,7,False
+SC3,2122,2021-09-18,Albion Rvs,Kelty Hearts,7,7,False
+SC3,2122,2021-09-25,Kelty Hearts,Stranraer,7,7,False
+SC3,2122,2021-09-25,Stenhousemuir,Elgin,7,7,False
+SC3,2122,2021-09-25,Stirling,Cowdenbeath,8,7,False
+SC3,2122,2021-09-25,Annan Athletic,Edinburgh City,7,8,False
+SC3,2122,2021-09-25,Forfar,Albion Rvs,7,7,False
+SC3,2122,2021-10-01,Edinburgh City,Cowdenbeath,6,6,False
+SC3,2122,2021-10-02,Kelty Hearts,Annan Athletic,7,7,False
+SC3,2122,2021-10-02,Stenhousemuir,Forfar,7,7,False
+SC3,2122,2021-10-02,Stranraer,Albion Rvs,7,7,False
+SC3,2122,2021-10-02,Elgin,Stirling,7,7,False
+SC3,2122,2021-10-15,Edinburgh City,Kelty Hearts,14,13,False
+SC3,2122,2021-10-16,Forfar,Annan Athletic,14,14,False
+SC3,2122,2021-10-16,Albion Rvs,Elgin,14,14,False
+SC3,2122,2021-10-16,Cowdenbeath,Stenhousemuir,15,14,False
+SC3,2122,2021-10-16,Stirling,Stranraer,14,14,False
+SC3,2122,2021-10-30,Kelty Hearts,Stirling,15,14,False
+SC3,2122,2021-10-30,Annan Athletic,Cowdenbeath,14,14,False
+SC3,2122,2021-10-30,Stranraer,Forfar,14,14,False
+SC3,2122,2021-11-05,Edinburgh City,Albion Rvs,21,20,False
+SC3,2122,2021-11-06,Annan Athletic,Stranraer,7,7,False
+SC3,2122,2021-11-06,Cowdenbeath,Kelty Hearts,7,7,False
+SC3,2122,2021-11-06,Forfar,Elgin,7,21,False
+SC3,2122,2021-11-06,Stirling,Stenhousemuir,7,21,False
+SC3,2122,2021-11-09,Stenhousemuir,Albion Rvs,3,4,True
+SC3,2122,2021-11-12,Edinburgh City,Stranraer,7,6,False
+SC3,2122,2021-11-13,Kelty Hearts,Forfar,7,7,False
+SC3,2122,2021-11-13,Stenhousemuir,Annan Athletic,4,7,False
+SC3,2122,2021-11-13,Albion Rvs,Stirling,4,7,False
+SC3,2122,2021-11-13,Elgin,Cowdenbeath,7,7,False
+SC3,2122,2021-11-20,Forfar,Cowdenbeath,7,7,False
+SC3,2122,2021-11-20,Stirling,Edinburgh City,7,8,False
+SC3,2122,2021-11-20,Stranraer,Elgin,8,7,False
+SC3,2122,2021-11-20,Kelty Hearts,Stenhousemuir,7,7,False
+SC3,2122,2021-11-20,Annan Athletic,Albion Rvs,7,7,False
+SC3,2122,2021-11-23,Elgin,Edinburgh City,3,3,True
+SC3,2122,2021-12-03,Edinburgh City,Annan Athletic,10,13,False
+SC3,2122,2021-12-04,Stenhousemuir,Stranraer,14,14,False
+SC3,2122,2021-12-04,Albion Rvs,Forfar,14,14,False
+SC3,2122,2021-12-04,Cowdenbeath,Stirling,14,14,False
+SC3,2122,2021-12-11,Kelty Hearts,Albion Rvs,21,7,False
+SC3,2122,2021-12-11,Stenhousemuir,Edinburgh City,7,8,False
+SC3,2122,2021-12-11,Stranraer,Cowdenbeath,7,7,False
+SC3,2122,2021-12-11,Forfar,Stirling,7,7,False
+SC3,2122,2021-12-11,Annan Athletic,Elgin,8,18,False
+SC3,2122,2021-12-17,Edinburgh City,Forfar,6,6,False
+SC3,2122,2021-12-18,Stirling,Annan Athletic,7,7,False
+SC3,2122,2021-12-18,Stranraer,Kelty Hearts,7,7,False
+SC3,2122,2021-12-18,Elgin,Stenhousemuir,7,7,False
+SC3,2122,2021-12-18,Cowdenbeath,Albion Rvs,7,7,False
+SC3,2122,2021-12-21,Stirling,Elgin,3,3,True
+SC3,2122,2021-12-22,Cowdenbeath,Edinburgh City,4,5,True
+SC3,2122,2021-12-26,Forfar,Stenhousemuir,9,8,False
+SC3,2122,2021-12-26,Annan Athletic,Kelty Hearts,8,8,False
+SC3,2122,2021-12-26,Albion Rvs,Stranraer,8,8,False
+SC3,2122,2022-01-02,Stranraer,Annan Athletic,7,7,False
+SC3,2122,2022-01-02,Stenhousemuir,Stirling,7,12,False
+SC3,2122,2022-01-02,Elgin,Forfar,12,7,False
+SC3,2122,2022-01-07,Edinburgh City,Elgin,16,5,False
+SC3,2122,2022-01-08,Albion Rvs,Stenhousemuir,13,6,False
+SC3,2122,2022-01-08,Cowdenbeath,Annan Athletic,17,6,False
+SC3,2122,2022-01-08,Forfar,Stranraer,6,6,False
+SC3,2122,2022-01-08,Stirling,Kelty Hearts,6,13,False
+SC3,2122,2022-01-15,Annan Athletic,Forfar,7,7,False
+SC3,2122,2022-01-15,Stenhousemuir,Cowdenbeath,7,7,False
+SC3,2122,2022-01-15,Stranraer,Stirling,7,7,False
+SC3,2122,2022-01-15,Elgin,Albion Rvs,8,7,False
+SC3,2122,2022-01-15,Kelty Hearts,Edinburgh City,7,8,False
+SC3,2122,2022-01-22,Cowdenbeath,Stranraer,7,7,False
+SC3,2122,2022-01-25,Elgin,Kelty Hearts,10,10,True
+SC3,2122,2022-01-29,Stenhousemuir,Elgin,14,4,False
+SC3,2122,2022-01-29,Annan Athletic,Stirling,14,14,False
+SC3,2122,2022-01-29,Albion Rvs,Cowdenbeath,14,7,False
+SC3,2122,2022-01-29,Kelty Hearts,Stranraer,4,7,False
+SC3,2122,2022-01-31,Forfar,Edinburgh City,16,16,False
+SC3,2122,2022-02-05,Annan Athletic,Stenhousemuir,7,7,False
+SC3,2122,2022-02-05,Kelty Hearts,Elgin,7,7,False
+SC3,2122,2022-02-05,Stranraer,Edinburgh City,7,5,False
+SC3,2122,2022-02-05,Forfar,Albion Rvs,5,7,False
+SC3,2122,2022-02-11,Edinburgh City,Stirling,6,13,False
+SC3,2122,2022-02-12,Elgin,Stranraer,7,7,False
+SC3,2122,2022-02-15,Stirling,Forfar,4,10,True
+SC3,2122,2022-02-15,Edinburgh City,Albion Rvs,4,10,True
+SC3,2122,2022-02-15,Elgin,Annan Athletic,3,10,True
+SC3,2122,2022-02-19,Forfar,Kelty Hearts,4,14,False
+SC3,2122,2022-02-19,Stranraer,Stenhousemuir,7,14,False
+SC3,2122,2022-02-19,Cowdenbeath,Elgin,21,4,False
+SC3,2122,2022-02-19,Annan Athletic,Edinburgh City,4,4,False
+SC3,2122,2022-02-22,Kelty Hearts,Cowdenbeath,3,3,True
+SC3,2122,2022-02-25,Edinburgh City,Cowdenbeath,6,3,False
+SC3,2122,2022-02-26,Stenhousemuir,Forfar,7,7,False
+SC3,2122,2022-02-26,Stranraer,Albion Rvs,7,11,False
+SC3,2122,2022-02-26,Elgin,Stirling,7,11,False
+SC3,2122,2022-02-26,Kelty Hearts,Annan Athletic,4,7,False
+SC3,2122,2022-03-02,Albion Rvs,Annan Athletic,4,4,True
+SC3,2122,2022-03-02,Edinburgh City,Stenhousemuir,5,4,True
+SC3,2122,2022-03-05,Cowdenbeath,Kelty Hearts,8,7,False
+SC3,2122,2022-03-05,Forfar,Elgin,7,7,False
+SC3,2122,2022-03-05,Albion Rvs,Edinburgh City,3,3,False
+SC3,2122,2022-03-05,Stirling,Stenhousemuir,7,3,False
+SC3,2122,2022-03-05,Annan Athletic,Stranraer,3,7,False
+SC3,2122,2022-03-08,Stirling,Cowdenbeath,3,3,True
+SC3,2122,2022-03-08,Stenhousemuir,Kelty Hearts,3,3,True
+SC3,2122,2022-03-12,Forfar,Stirling,7,4,False
+SC3,2122,2022-03-12,Annan Athletic,Elgin,7,7,False
+SC3,2122,2022-03-12,Kelty Hearts,Albion Rvs,4,7,False
+SC3,2122,2022-03-12,Stenhousemuir,Edinburgh City,4,7,False
+SC3,2122,2022-03-12,Stranraer,Cowdenbeath,7,4,False
+SC3,2122,2022-03-15,Cowdenbeath,Forfar,3,3,True
+SC3,2122,2022-03-16,Albion Rvs,Kelty Hearts,4,4,True
+SC3,2122,2022-03-18,Edinburgh City,Stranraer,6,6,False
+SC3,2122,2022-03-19,Elgin,Kelty Hearts,7,3,False
+SC3,2122,2022-03-19,Stirling,Annan Athletic,7,7,False
+SC3,2122,2022-03-19,Cowdenbeath,Stenhousemuir,4,7,False
+SC3,2122,2022-03-19,Albion Rvs,Forfar,3,4,False
+SC3,2122,2022-03-22,Stirling,Albion Rvs,3,3,True
+SC3,2122,2022-03-26,Forfar,Cowdenbeath,7,7,False
+SC3,2122,2022-03-26,Kelty Hearts,Stenhousemuir,7,7,False
+SC3,2122,2022-03-26,Stirling,Stranraer,4,8,False
+SC3,2122,2022-03-26,Elgin,Edinburgh City,7,8,False
+SC3,2122,2022-03-26,Annan Athletic,Albion Rvs,7,4,False
+SC3,2122,2022-04-01,Edinburgh City,Kelty Hearts,6,6,False
+SC3,2122,2022-04-02,Stenhousemuir,Annan Athletic,7,7,False
+SC3,2122,2022-04-02,Stranraer,Forfar,7,7,False
+SC3,2122,2022-04-02,Cowdenbeath,Stirling,7,7,False
+SC3,2122,2022-04-02,Albion Rvs,Elgin,7,7,False
+SC3,2122,2022-04-09,Edinburgh City,Forfar,8,7,False
+SC3,2122,2022-04-09,Elgin,Stenhousemuir,7,7,False
+SC3,2122,2022-04-09,Kelty Hearts,Stirling,8,7,False
+SC3,2122,2022-04-09,Albion Rvs,Stranraer,7,7,False
+SC3,2122,2022-04-09,Annan Athletic,Cowdenbeath,7,7,False
+SC3,2122,2022-04-16,Stenhousemuir,Albion Rvs,7,7,False
+SC3,2122,2022-04-16,Stirling,Elgin,7,7,False
+SC3,2122,2022-04-16,Stranraer,Kelty Hearts,7,7,False
+SC3,2122,2022-04-16,Cowdenbeath,Edinburgh City,7,7,False
+SC3,2122,2022-04-16,Forfar,Annan Athletic,7,7,False
+SC3,2122,2022-04-22,Edinburgh City,Annan Athletic,6,6,False
+SC3,2122,2022-04-23,Kelty Hearts,Forfar,7,7,False
+SC3,2122,2022-04-23,Stenhousemuir,Stranraer,7,7,False
+SC3,2122,2022-04-23,Elgin,Cowdenbeath,7,7,False
+SC3,2122,2022-04-23,Albion Rvs,Stirling,7,7,False
+SC3,2122,2022-04-30,Forfar,Stenhousemuir,7,7,False
+SC3,2122,2022-04-30,Stirling,Edinburgh City,7,8,False
+SC3,2122,2022-04-30,Stranraer,Elgin,7,7,False
+SC3,2122,2022-04-30,Annan Athletic,Kelty Hearts,8,7,False
+SC3,2122,2022-04-30,Cowdenbeath,Albion Rvs,7,7,False

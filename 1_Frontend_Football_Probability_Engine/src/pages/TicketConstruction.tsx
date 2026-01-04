@@ -18,9 +18,12 @@ import {
   Scale,
   Users,
   Sparkles,
-  Loader2
+  Loader2,
+  Save
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
@@ -56,6 +59,9 @@ const probabilitySets = {
   E: { name: 'High Conviction', icon: Zap, risk: 'Medium-High', color: 'text-status-watch' },
   F: { name: 'Kelly-Weighted', icon: Calculator, risk: 'High', color: 'text-chart-5' },
   G: { name: 'Ensemble', icon: Users, risk: 'Low', color: 'text-chart-4' },
+  H: { name: 'Market Consensus Draw', icon: Layers, risk: 'Low', color: 'text-chart-2' },
+  I: { name: 'Formula-Based Draw', icon: Sparkles, risk: 'Medium', color: 'text-chart-6' },
+  J: { name: 'System-Selected Draw', icon: Target, risk: 'Medium-Low', color: 'text-primary' },
 };
 
 // Helper function to get highest probability outcome
@@ -94,6 +100,19 @@ export default function TicketConstruction() {
   const [savedResults, setSavedResults] = useState<any[]>([]);
   const [allJackpots, setAllJackpots] = useState<Array<{id: string; name: string; createdAt: string}>>([]);
   const [loadingJackpots, setLoadingJackpots] = useState(false);
+  const [savingTickets, setSavingTickets] = useState(false);
+  const [saveTicketName, setSaveTicketName] = useState('');
+  const [saveTicketDescription, setSaveTicketDescription] = useState('');
+  const [showSaveDialog, setShowSaveDialog] = useState(false);
+  const [savedTicketsList, setSavedTicketsList] = useState<Array<{
+    id: number;
+    name: string;
+    description: string | null;
+    createdAt: string;
+    selections: Record<string, Record<string, string>>;
+  }>>([]);
+  const [loadingSavedTickets, setLoadingSavedTickets] = useState(false);
+  const [selectedSavedTicketId, setSelectedSavedTicketId] = useState<string>('');
   const { toast } = useToast();
 
   // Load all jackpots for dropdown
@@ -135,6 +154,126 @@ export default function TicketConstruction() {
     
     loadJackpots();
   }, [toast, searchParams, setSearchParams, jackpotId]);
+
+  // Load saved tickets for the current jackpot
+  useEffect(() => {
+    const loadSavedTickets = async () => {
+      if (!jackpotId) {
+        setSavedTicketsList([]);
+        return;
+      }
+
+      try {
+        setLoadingSavedTickets(true);
+        const response = await apiClient.getSavedResults(jackpotId);
+        if (response.success && response.data?.results) {
+          // Filter for ticket-like saved results (those with selections that look like tickets)
+          const ticketResults = response.data.results.filter((result: any) => {
+            const selections = result.selections || {};
+            // Tickets have selections in format {"A": {"1": "1", "2": "X"}, "B": {...}}
+            // Check if it looks like ticket format (multiple sets, each with numeric keys)
+            const setKeys = Object.keys(selections);
+            if (setKeys.length === 0) return false;
+            
+            // Check if first set has numeric keys (fixture indices)
+            const firstSet = selections[setKeys[0]] || {};
+            const firstSetKeys = Object.keys(firstSet);
+            return firstSetKeys.length > 0 && firstSetKeys.every(k => /^\d+$/.test(k));
+          });
+          
+          setSavedTicketsList(ticketResults.map((r: any) => ({
+            id: r.id,
+            name: r.name,
+            description: r.description,
+            createdAt: r.createdAt,
+            selections: r.selections
+          })));
+        }
+      } catch (err: any) {
+        console.error('Error loading saved tickets:', err);
+        setSavedTicketsList([]);
+      } finally {
+        setLoadingSavedTickets(false);
+      }
+    };
+
+    loadSavedTickets();
+  }, [jackpotId]);
+
+  // Load saved ticket when selected
+  useEffect(() => {
+    if (!selectedSavedTicketId || savedTicketsList.length === 0 || fixtureData.length === 0) return;
+
+    const savedTicket = savedTicketsList.find(t => t.id.toString() === selectedSavedTicketId);
+    if (!savedTicket) return;
+
+    // Convert saved selections back to ticket format
+    const loadedTickets: GeneratedTicket[] = [];
+    const selections = savedTicket.selections || {};
+
+    Object.keys(selections).forEach(setKey => {
+      const setSelections = selections[setKey] || {};
+      const picks: Pick[] = [];
+      
+      // Sort by fixture number (keys are "1", "2", "3", etc.)
+      const sortedKeys = Object.keys(setSelections).sort((a, b) => parseInt(a) - parseInt(b));
+      
+      sortedKeys.forEach(fixtureKey => {
+        const pick = setSelections[fixtureKey] as Pick;
+        if (pick === '1' || pick === 'X' || pick === '2') {
+          picks.push(pick);
+        }
+      });
+
+      if (picks.length > 0) {
+        // Calculate probability and odds from picks
+        let probability = 1;
+        let combinedOdds = 1;
+
+        picks.forEach((pick, idx) => {
+          const fixture = fixtureData[idx];
+          if (!fixture) return;
+
+          // Get probability from loaded sets (if available)
+          const setKeyTyped = setKey as SetKey;
+          if (loadedSets[setKeyTyped]?.probabilities?.[idx]) {
+            const prob = loadedSets[setKeyTyped].probabilities[idx];
+            const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
+                            pick === 'X' ? prob.drawProbability / 100 :
+                            prob.awayWinProbability / 100;
+            probability *= pickProb;
+          } else {
+            // Fallback: use default probability if not loaded
+            probability *= 0.33;
+          }
+
+          // Get odds from fixture data
+          if (fixture.odds) {
+            const pickOdds = pick === '1' ? fixture.odds.home :
+                            pick === 'X' ? fixture.odds.draw :
+                            pick === '2' ? fixture.odds.away : 1;
+            combinedOdds *= pickOdds;
+          }
+        });
+
+        loadedTickets.push({
+          id: `saved-${savedTicket.id}-${setKey}`,
+          setKey: setKey as SetKey,
+          picks,
+          probability: probability * 100,
+          combinedOdds,
+        });
+      }
+    });
+
+    if (loadedTickets.length > 0) {
+      setTickets(loadedTickets);
+      toast({
+        title: 'Tickets Loaded',
+        description: `Loaded ${loadedTickets.length} ticket(s) from "${savedTicket.name}"`,
+      });
+    }
+  }, [selectedSavedTicketId, savedTicketsList, fixtureData, loadedSets, toast]);
 
   // Load probabilities and saved results
   useEffect(() => {
@@ -445,22 +584,82 @@ export default function TicketConstruction() {
 
   const costPerTicket = budget / Math.max(selectedSets.length, 1);
 
+  // Save tickets function
+  const saveTickets = useCallback(async () => {
+    if (tickets.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'No tickets to save. Please generate tickets first.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    if (!saveTicketName.trim()) {
+      toast({
+        title: 'Error',
+        description: 'Please enter a name for the saved tickets.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    if (!jackpotId) {
+      toast({
+        title: 'Error',
+        description: 'Jackpot ID is missing.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    try {
+      setSavingTickets(true);
+      
+      const response = await apiClient.saveTickets(
+        jackpotId,
+        saveTicketName.trim(),
+        saveTicketDescription.trim() || undefined,
+        tickets.map(t => ({
+          id: t.id,
+          setKey: t.setKey,
+          picks: t.picks,
+          probability: t.probability,
+          combinedOdds: t.combinedOdds
+        }))
+      );
+
+      if (response.success) {
+        toast({
+          title: 'Success',
+          description: `Saved ${tickets.length} tickets successfully`,
+        });
+        setShowSaveDialog(false);
+        setSaveTicketName('');
+        setSaveTicketDescription('');
+      } else {
+        throw new Error(response.message || 'Failed to save tickets');
+      }
+    } catch (error: any) {
+      console.error('Error saving tickets:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to save tickets. Please try again.',
+        variant: 'destructive',
+      });
+    } finally {
+      setSavingTickets(false);
+    }
+  }, [tickets, saveTicketName, saveTicketDescription, jackpotId, toast]);
+
   return (
-    <div className="p-6 space-y-6 animate-fade-in">
-      {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <div className="p-2 rounded-lg bg-primary/10 glow-primary">
-            <Ticket className="h-5 w-5 text-primary" />
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold gradient-text">Ticket Construction</h1>
-            <p className="text-sm text-muted-foreground">
-              Generate jackpot tickets using probability Sets A-G
-            </p>
-          </div>
-        </div>
-        {/* Jackpot Selector */}
+    <PageLayout
+      title="Ticket Construction"
+      description="Generate optimized tickets from probability sets"
+      icon={<Ticket className="h-6 w-6" />}
+    >
+        {/* Jackpot Selector and Load Saved Tickets */}
+        <div className="flex items-center gap-4 flex-wrap">
         <div className="flex items-center gap-2">
           <Label htmlFor="jackpot-select" className="text-sm whitespace-nowrap">
             Jackpot:
@@ -475,6 +674,7 @@ export default function TicketConstruction() {
                 params.delete('jackpotId');
               }
               setSearchParams(params, { replace: true });
+                setSelectedSavedTicketId(''); // Reset saved ticket selection when jackpot changes
             }}
             disabled={loadingJackpots}
           >
@@ -495,8 +695,46 @@ export default function TicketConstruction() {
               )}
             </SelectContent>
           </Select>
+          </div>
+
+          {jackpotId && (
+            <div className="flex items-center gap-2">
+              <Label htmlFor="saved-tickets-select" className="text-sm whitespace-nowrap">
+                Load Saved Tickets:
+              </Label>
+              <Select
+                value={selectedSavedTicketId || 'none'}
+                onValueChange={(value) => {
+                  if (value === 'none') {
+                    setSelectedSavedTicketId('');
+                    setTickets([]); // Clear tickets if "None" selected
+                  } else {
+                    setSelectedSavedTicketId(value);
+                  }
+                }}
+                disabled={loadingSavedTickets}
+              >
+                <SelectTrigger id="saved-tickets-select" className="w-[300px]">
+                  <SelectValue placeholder={loadingSavedTickets ? "Loading..." : "Select saved tickets"} />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="none">None (Generate New)</SelectItem>
+                  {savedTicketsList.length === 0 ? (
+                    <div className="px-2 py-1.5 text-sm text-muted-foreground">
+                      No saved tickets found
+                    </div>
+                  ) : (
+                    savedTicketsList.map((savedTicket) => (
+                      <SelectItem key={savedTicket.id} value={savedTicket.id.toString()}>
+                        {savedTicket.name} ({new Date(savedTicket.createdAt).toLocaleDateString()})
+                      </SelectItem>
+                    ))
+                  )}
+                </SelectContent>
+              </Select>
+            </div>
+          )}
         </div>
-      </div>
 
       {/* Strategy Guide */}
       <Alert className="glass-card border-primary/20">
@@ -508,50 +746,75 @@ export default function TicketConstruction() {
         </AlertDescription>
       </Alert>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Configuration Panel */}
-        <div className="space-y-4">
-          <Card className="glass-card">
-            <CardHeader>
-              <CardTitle className="text-lg flex items-center gap-2">
-                <Layers className="h-5 w-5 text-primary" />
-                Select Probability Sets
-              </CardTitle>
-              <CardDescription>
-                Choose which sets to generate tickets from
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              <div className="grid grid-cols-1 gap-2">
-                {(Object.entries(probabilitySets) as [SetKey, typeof probabilitySets['A']][]).map(([key, set]) => {
-                  const Icon = set.icon;
-                  const isSelected = selectedSets.includes(key);
-                  
-                  return (
-                    <button
-                      key={key}
-                      onClick={() => isSelected ? removeSet(key) : addSet(key)}
-                      className={`flex items-center gap-3 p-3 rounded-lg border transition-all text-left ${
-                        isSelected 
-                          ? 'bg-primary/10 border-primary/50' 
-                          : 'bg-muted/20 border-border/50 hover:border-primary/30'
-                      }`}
-                    >
-                      <div className={`p-1.5 rounded-md ${isSelected ? 'bg-primary/20' : 'bg-muted/30'}`}>
-                        <Icon className={`h-4 w-4 ${set.color}`} />
-                      </div>
-                      <div className="flex-1">
-                        <div className="font-medium text-sm">Set {key} - {set.name}</div>
-                        <div className="text-xs text-muted-foreground">Risk: {set.risk}</div>
-                      </div>
-                      {isSelected && <CheckCircle className="h-4 w-4 text-primary" />}
-                    </button>
-                  );
-                })}
+      <div className="space-y-6">
+        {/* Select Probability Sets Section */}
+        <Card className="glass-card">
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle className="text-lg flex items-center gap-2">
+                  <Layers className="h-5 w-5 text-primary" />
+                  Select Probability Sets
+                </CardTitle>
+                <CardDescription>
+                  Choose which sets to generate tickets from
+                </CardDescription>
               </div>
-            </CardContent>
-          </Card>
+              {/* Select All Checkbox */}
+              <div className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  id="select-all-sets"
+                  checked={selectedSets.length === Object.keys(probabilitySets).length}
+                  onChange={(e) => {
+                    if (e.target.checked) {
+                      setSelectedSets(Object.keys(probabilitySets) as SetKey[]);
+                    } else {
+                      setSelectedSets([]);
+                    }
+                  }}
+                  className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
+                />
+                <Label htmlFor="select-all-sets" className="text-sm font-medium cursor-pointer">
+                  Select All ({Object.keys(probabilitySets).length})
+                </Label>
+              </div>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-3">
+              {(Object.entries(probabilitySets) as [SetKey, typeof probabilitySets['A']][]).map(([key, set]) => {
+                const Icon = set.icon;
+                const isSelected = selectedSets.includes(key);
+                
+                return (
+                  <button
+                    key={key}
+                    onClick={() => isSelected ? removeSet(key) : addSet(key)}
+                    className={`relative flex flex-col items-center gap-2 p-4 rounded-lg border transition-all ${
+                      isSelected 
+                        ? 'bg-primary/10 border-primary/50 shadow-md' 
+                        : 'bg-muted/20 border-border/50 hover:border-primary/30 hover:shadow-sm'
+                    }`}
+                  >
+                    <div className={`p-2.5 rounded-md ${isSelected ? 'bg-primary/20' : 'bg-muted/30'}`}>
+                      <Icon className={`h-5 w-5 ${set.color}`} />
+                    </div>
+                    <div className="flex-1 text-center w-full">
+                      <div className="font-semibold text-sm">Set {key}</div>
+                      <div className="text-xs text-muted-foreground mt-0.5 leading-tight">{set.name}</div>
+                      <div className="text-[10px] text-muted-foreground/80 mt-1">Risk: {set.risk}</div>
+                    </div>
+                    {isSelected && <CheckCircle className="h-4 w-4 text-primary absolute top-2 right-2" />}
+                  </button>
+                );
+              })}
+            </div>
+          </CardContent>
+        </Card>
 
+        {/* Budget Allocation Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="glass-card">
             <CardHeader>
               <CardTitle className="text-lg">Budget Allocation</CardTitle>
@@ -594,9 +857,10 @@ export default function TicketConstruction() {
             </CardContent>
           </Card>
         </div>
+      </div>
 
-        {/* Generated Tickets */}
-        <div className="lg:col-span-2 space-y-4">
+      {/* Generated Tickets */}
+      <div className="space-y-4">
           {/* Coverage Diagnostics */}
           {coverageDiagnostics && (
             <Card className="glass-card">
@@ -659,10 +923,23 @@ export default function TicketConstruction() {
           {/* Tickets Table */}
           <Card className="glass-card">
             <CardHeader>
+              <div className="flex items-center justify-between">
               <CardTitle className="text-lg flex items-center gap-2">
                 <Ticket className="h-5 w-5 text-primary" />
                 Generated Tickets ({tickets.length})
               </CardTitle>
+                {tickets.length > 0 && (
+                  <Button
+                    onClick={() => setShowSaveDialog(true)}
+                    variant="outline"
+                    size="sm"
+                    className="gap-2"
+                  >
+                    <Save className="h-4 w-4" />
+                    Save Tickets
+                  </Button>
+                )}
+              </div>
             </CardHeader>
             <CardContent>
               {tickets.length === 0 ? (
@@ -671,15 +948,55 @@ export default function TicketConstruction() {
                   <p>Select probability sets and click Generate to create tickets</p>
                 </div>
               ) : (
-                <ScrollArea className="h-[400px]">
+                <div className="overflow-x-auto">
+                  <ScrollArea className="h-[600px]">
                   <Table>
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead className="w-[60px]">Set</TableHead>
-                        <TableHead>Picks</TableHead>
-                        <TableHead className="text-right">Prob</TableHead>
-                        <TableHead className="text-right">Odds</TableHead>
-                        <TableHead className="w-[80px]"></TableHead>
+                      <TableHeader className="sticky top-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
+                        {/* Team names header row */}
+                        <TableRow className="border-b-0 h-12">
+                          <TableHead className="w-[80px] sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-20 border-r border-t-0 py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Set</div>
+                          </TableHead>
+                          {fixtureData.map((fixture, idx) => (
+                            <TableHead 
+                              key={fixture.id} 
+                              className="p-0.5 text-center border-l border-border/50 min-w-[80px] py-1"
+                            >
+                              <div className="flex flex-col items-center gap-0">
+                                <div className="text-[8px] font-medium text-muted-foreground leading-[1.1] px-0.5">
+                                  {fixture.home.length > 7 ? fixture.home.substring(0, 7) + '..' : fixture.home}
+                                </div>
+                                <div className="text-[7px] text-muted-foreground/70">vs</div>
+                                <div className="text-[8px] font-medium text-muted-foreground leading-[1.1] px-0.5">
+                                  {fixture.away.length > 7 ? fixture.away.substring(0, 7) + '..' : fixture.away}
+                                </div>
+                              </div>
+                            </TableHead>
+                          ))}
+                          <TableHead className="text-right w-[100px] border-l-2 border-primary/20 py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Probability</div>
+                          </TableHead>
+                          <TableHead className="text-right w-[100px] py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Combined Odds</div>
+                          </TableHead>
+                          <TableHead className="w-[100px] py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Actions</div>
+                          </TableHead>
+                        </TableRow>
+                        {/* Picks header row */}
+                        <TableRow className="h-8">
+                          <TableHead className="w-[80px] sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-20 border-r border-t-0 py-0.5"></TableHead>
+                          {fixtureData.map((fixture, idx) => (
+                            <TableHead 
+                              key={`pick-header-${fixture.id}`}
+                              className="p-0.5 text-center border-l border-border/50 min-w-[80px] py-0.5"
+                            >
+                              <div className="text-[9px] font-semibold text-muted-foreground">#{idx + 1}</div>
+                            </TableHead>
+                          ))}
+                          <TableHead className="text-right w-[100px] border-l-2 border-primary/20 border-t-0 py-0.5"></TableHead>
+                          <TableHead className="text-right w-[100px] border-t-0 py-0.5"></TableHead>
+                          <TableHead className="w-[100px] border-t-0 py-0.5"></TableHead>
                       </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -688,44 +1005,47 @@ export default function TicketConstruction() {
                         const Icon = set.icon;
                         
                         return (
-                          <TableRow key={ticket.id}>
-                            <TableCell>
-                              <Badge variant="outline" className={`${set.color}`}>
+                            <TableRow key={ticket.id} className="hover:bg-muted/30 transition-colors">
+                              <TableCell className="sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10 border-r">
+                                <Badge variant="outline" className={`${set.color} text-xs`}>
                                 <Icon className="h-3 w-3 mr-1" />
                                 {ticket.setKey}
                               </Badge>
                             </TableCell>
-                            <TableCell>
-                              <div className="flex gap-0.5 flex-wrap">
-                                {ticket.picks.map((pick, idx) => (
+                              {ticket.picks.map((pick, idx) => {
+                                const fixture = fixtureData[idx];
+                                return (
+                                  <TableCell 
+                                    key={`${ticket.id}-${idx}`}
+                                    className="p-1 text-center border-l border-border/50"
+                                  >
                                   <Badge 
-                                    key={idx}
                                     variant="outline"
-                                    className={`w-6 h-6 p-0 justify-center text-xs font-bold ${
-                                      pick === '1' ? 'bg-chart-1/20 text-chart-1 border-chart-1/50' :
-                                      pick === 'X' ? 'bg-chart-3/20 text-chart-3 border-chart-3/50' :
-                                      'bg-chart-2/20 text-chart-2 border-chart-2/50'
+                                      className={`w-7 h-7 p-0 justify-center text-xs font-bold transition-all hover:scale-110 ${
+                                        pick === '1' ? 'bg-chart-1/20 text-chart-1 border-chart-1/50 hover:bg-chart-1/30' :
+                                        pick === 'X' ? 'bg-chart-3/20 text-chart-3 border-chart-3/50 hover:bg-chart-3/30' :
+                                        'bg-chart-2/20 text-chart-2 border-chart-2/50 hover:bg-chart-2/30'
                                     }`}
                                   >
                                     {pick}
                                   </Badge>
-                                ))}
-                              </div>
                             </TableCell>
-                            <TableCell className="text-right tabular-nums text-sm">
+                                );
+                              })}
+                              <TableCell className="text-right tabular-nums text-sm border-l-2 border-primary/20 font-medium">
                               {ticket.probability.toExponential(2)}
                             </TableCell>
-                            <TableCell className="text-right tabular-nums font-medium">
-                              {ticket.combinedOdds.toFixed(0)}
+                              <TableCell className="text-right tabular-nums font-semibold text-primary">
+                                {ticket.combinedOdds.toFixed(0)}x
                             </TableCell>
                             <TableCell>
-                              <div className="flex gap-1">
+                                <div className="flex gap-1 justify-center">
                                 <Tooltip>
                                   <TooltipTrigger asChild>
                                     <Button 
                                       size="icon" 
                                       variant="ghost" 
-                                      className="h-7 w-7"
+                                        className="h-7 w-7 hover:bg-primary/10"
                                       onClick={() => {
                                         const picksString = ticket.picks.join('');
                                         navigator.clipboard.writeText(picksString);
@@ -745,7 +1065,7 @@ export default function TicketConstruction() {
                                     <Button 
                                       size="icon" 
                                       variant="ghost" 
-                                      className="h-7 w-7"
+                                        className="h-7 w-7 hover:bg-primary/10"
                                       onClick={() => {
                                         const csv = [
                                           ['Set', 'Picks', 'Probability', 'Combined Odds'],
@@ -784,9 +1104,74 @@ export default function TicketConstruction() {
                     </TableBody>
                   </Table>
                 </ScrollArea>
+                </div>
               )}
             </CardContent>
           </Card>
+
+          {/* Save Dialog */}
+          {showSaveDialog && (
+            <Card className="glass-card border-primary/50">
+              <CardHeader>
+                <CardTitle className="text-lg">Save Tickets</CardTitle>
+                <CardDescription>
+                  Save {tickets.length} generated ticket{tickets.length !== 1 ? 's' : ''} for later reference
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="save-name">Name *</Label>
+                  <Input
+                    id="save-name"
+                    value={saveTicketName}
+                    onChange={(e) => setSaveTicketName(e.target.value)}
+                    placeholder="e.g., Week 1 Tickets - Set B"
+                    className="bg-background/50"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="save-description">Description (Optional)</Label>
+                  <Input
+                    id="save-description"
+                    value={saveTicketDescription}
+                    onChange={(e) => setSaveTicketDescription(e.target.value)}
+                    placeholder="Additional notes..."
+                    className="bg-background/50"
+                  />
+                </div>
+                <div className="flex gap-2 justify-end">
+                  <Button
+                    variant="outline"
+                    onClick={() => {
+                      setShowSaveDialog(false);
+                      setSaveTicketName('');
+                      setSaveTicketDescription('');
+                    }}
+                    disabled={savingTickets}
+                  >
+                    Cancel
+                  </Button>
+                  <Button
+                    onClick={saveTickets}
+                    disabled={savingTickets || !saveTicketName.trim()}
+                    className="gap-2"
+                  >
+                    {savingTickets ? (
+                      <>
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                        Saving...
+                      </>
+                    ) : (
+                      <>
+                        <Save className="h-4 w-4" />
+                        Save
+                      </>
+                    )}
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
           {/* Fixture Reference */}
           <Card className="glass-card">
@@ -805,7 +1190,6 @@ export default function TicketConstruction() {
             </CardContent>
           </Card>
         </div>
-      </div>
-    </div>
+    </PageLayout>
   );
 }

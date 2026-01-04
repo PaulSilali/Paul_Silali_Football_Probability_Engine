@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2022-07-30,Port Vale,Fleetwood Town,2,1,H,0
+2022-07-30,Wycombe,Luton,3,0,H,0
+2022-07-30,Cheltenham,Peterboro,2,3,A,0
+2022-07-30,Sheffield Weds,Portsmouth,3,3,D,1
+2022-07-30,Bristol Rvs,Forest Green,1,2,A,0
+2022-07-30,Cambridge,Milton Keynes Dons,1,0,H,0
+2022-07-30,Ipswich,Luton,1,1,D,1
+2022-07-30,Morecambe,Shrewsbury,0,0,D,1
+2022-07-30,Derby,Oxford,1,0,H,0
+2022-07-30,Lincoln,Exeter,1,1,D,1
+2022-07-30,Plymouth,Barnsley,1,0,H,0
+2022-07-30,Accrington,Charlton,2,2,D,1
+2022-08-06,Forest Green,Ipswich,1,2,A,0
+2022-08-06,Milton Keynes Dons,Sheffield Weds,0,1,A,0
+2022-08-06,Oxford,Cambridge,1,0,H,0
+2022-08-06,Peterboro,Morecambe,3,0,H,0
+2022-08-06,Portsmouth,Lincoln,0,0,D,1
+2022-08-06,Shrewsbury,Accrington,0,1,A,0
+2022-08-06,Luton,Wycombe,3,0,H,0
+2022-08-06,Fleetwood Town,Plymouth,2,1,H,0
+2022-08-06,Luton,Bristol Rvs,0,4,A,0
+2022-08-06,Charlton,Derby,1,0,H,0
+2022-08-06,Exeter,Port Vale,4,0,H,0
+2022-08-06,Barnsley,Cheltenham,1,0,H,0
+2022-08-13,Lincoln,Forest Green,1,1,D,1
+2022-08-13,Morecambe,Fleetwood Town,1,1,D,1
+2022-08-13,Plymouth,Peterboro,2,0,H,0
+2022-08-13,Port Vale,Luton,0,0,D,1
+2022-08-13,Wycombe,Shrewsbury,1,2,A,0
+2022-08-13,Sheffield Weds,Charlton,1,0,H,0
+2022-08-13,Bristol Rvs,Oxford,1,0,H,0
+2022-08-13,Accrington,Luton,4,4,D,1
+2022-08-13,Cambridge,Exeter,2,1,H,0
+2022-08-13,Cheltenham,Portsmouth,0,2,A,0
+2022-08-13,Derby,Barnsley,2,1,H,0
+2022-08-13,Ipswich,Milton Keynes Dons,3,0,H,0
+2022-08-16,Fleetwood Town,Cheltenham,0,0,D,1
+2022-08-16,Barnsley,Bristol Rvs,3,0,H,0
+2022-08-16,Luton,Morecambe,1,0,H,0
+2022-08-16,Luton,Ipswich,0,1,A,0
+2022-08-16,Charlton,Plymouth,5,1,H,0
+2022-08-16,Exeter,Wycombe,3,1,H,0
+2022-08-16,Milton Keynes Dons,Port Vale,2,1,H,0
+2022-08-16,Oxford,Lincoln,1,2,A,0
+2022-08-16,Peterboro,Sheffield Weds,2,0,H,0
+2022-08-16,Portsmouth,Cambridge,4,1,H,0
+2022-08-16,Shrewsbury,Derby,0,0,D,1
+2022-08-20,Forest Green,Plymouth,0,3,A,0
+2022-08-20,Milton Keynes Dons,Accrington,1,1,D,1
+2022-08-20,Oxford,Morecambe,1,1,D,1
+2022-08-20,Peterboro,Lincoln,4,0,H,0
+2022-08-20,Portsmouth,Bristol Rvs,3,1,H,0
+2022-08-20,Shrewsbury,Ipswich,0,3,A,0
+2022-08-20,Fleetwood Town,Derby,0,0,D,1
+2022-08-20,Exeter,Cheltenham,0,1,A,0
+2022-08-20,Charlton,Cambridge,1,1,D,1
+2022-08-20,Luton,Port Vale,0,2,A,0
+2022-08-20,Luton,Sheffield Weds,0,2,A,0
+2022-08-20,Barnsley,Wycombe,0,3,A,0
+2022-08-27,Lincoln,Fleetwood Town,2,2,D,1
+2022-08-27,Morecambe,Milton Keynes Dons,0,4,A,0
+2022-08-27,Plymouth,Luton,2,0,H,0
+2022-08-27,Port Vale,Portsmouth,0,1,A,0
+2022-08-27,Sheffield Weds,Forest Green,5,0,H,0
+2022-08-27,Wycombe,Charlton,1,1,D,1
+2022-08-27,Accrington,Exeter,0,0,D,1
+2022-08-27,Bristol Rvs,Shrewsbury,1,1,D,1
+2022-08-27,Cambridge,Luton,4,3,H,0
+2022-08-27,Cheltenham,Oxford,1,2,A,0
+2022-08-27,Derby,Peterboro,2,1,H,0
+2022-08-27,Ipswich,Barnsley,2,2,D,1
+2022-09-03,Forest Green,Shrewsbury,0,2,A,0
+2022-09-03,Accrington,Ipswich,0,2,A,0
+2022-09-03,Luton,Charlton,3,1,H,0
+2022-09-03,Bristol Rvs,Morecambe,2,2,D,1
+2022-09-03,Cambridge,Lincoln,2,0,H,0
+2022-09-03,Derby,Plymouth,2,3,A,0
+2022-09-03,Exeter,Milton Keynes Dons,1,0,H,0
+2022-09-03,Fleetwood Town,Wycombe,1,1,D,1
+2022-09-03,Oxford,Luton,2,1,H,0
+2022-09-03,Port Vale,Cheltenham,2,2,D,1
+2022-09-03,Portsmouth,Peterboro,2,1,H,0
+2022-09-03,Sheffield Weds,Barnsley,0,2,A,0
+2022-09-06,Forest Green,Accrington,2,1,H,0
+2022-09-13,Barnsley,Port Vale,1,1,D,1
+2022-09-13,Luton,Portsmouth,0,2,A,0
+2022-09-13,Charlton,Forest Green,1,1,D,1
+2022-09-13,Cheltenham,Cambridge,2,1,H,0
+2022-09-13,Ipswich,Bristol Rvs,2,0,H,0
+2022-09-13,Wycombe,Accrington,1,0,H,0
+2022-09-13,Shrewsbury,Exeter,3,2,H,0
+2022-09-13,Plymouth,Oxford,1,0,H,0
+2022-09-13,Peterboro,Fleetwood Town,0,1,A,0
+2022-09-13,Morecambe,Sheffield Weds,0,3,A,0
+2022-09-13,Milton Keynes Dons,Luton,0,2,A,0
+2022-09-13,Lincoln,Derby,2,0,H,0
+2022-09-17,Port Vale,Shrewsbury,2,1,H,0
+2022-09-17,Luton,Peterboro,1,0,H,0
+2022-09-17,Bristol Rvs,Lincoln,3,6,A,0
+2022-09-17,Cambridge,Barnsley,0,3,A,0
+2022-09-17,Derby,Wycombe,2,1,H,0
+2022-09-17,Exeter,Luton,0,2,A,0
+2022-09-17,Fleetwood Town,Charlton,1,1,D,1
+2022-09-17,Forest Green,Morecambe,1,2,A,0
+2022-09-17,Oxford,Milton Keynes Dons,1,2,A,0
+2022-09-17,Accrington,Cheltenham,1,0,H,0
+2022-09-17,Portsmouth,Plymouth,2,2,D,1
+2022-09-17,Sheffield Weds,Ipswich,2,2,D,1
+2022-09-24,Forest Green,Exeter,0,4,A,0
+2022-09-24,Shrewsbury,Luton,2,1,H,0
+2022-09-24,Sheffield Weds,Wycombe,3,1,H,0
+2022-09-24,Peterboro,Port Vale,3,0,H,0
+2022-09-24,Morecambe,Cambridge,1,2,A,0
+2022-09-24,Bristol Rvs,Accrington,0,1,A,0
+2022-09-24,Barnsley,Charlton,3,1,H,0
+2022-09-25,Plymouth,Ipswich,2,1,H,0
+2022-10-01,Port Vale,Sheffield Weds,0,1,A,0
+2022-10-01,Accrington,Morecambe,3,1,H,0
+2022-10-01,Luton,Lincoln,2,0,H,0
+2022-10-01,Luton,Forest Green,3,2,H,0
+2022-10-01,Cambridge,Derby,0,2,A,0
+2022-10-01,Charlton,Oxford,1,1,D,1
+2022-10-01,Cheltenham,Shrewsbury,2,0,H,0
+2022-10-01,Exeter,Bristol Rvs,2,2,D,1
+2022-10-01,Fleetwood Town,Barnsley,0,1,A,0
+2022-10-01,Ipswich,Portsmouth,3,2,H,0
+2022-10-01,Milton Keynes Dons,Peterboro,2,3,A,0
+2022-10-01,Wycombe,Plymouth,0,1,A,0
+2022-10-04,Plymouth,Sheffield Weds,2,1,H,0
+2022-10-04,Ipswich,Cambridge,3,0,H,0
+2022-10-04,Cheltenham,Luton,1,0,H,0
+2022-10-04,Luton,Fleetwood Town,0,1,A,0
+2022-10-08,Oxford,Wycombe,0,1,A,0
+2022-10-08,Peterboro,Luton,1,1,D,1
+2022-10-08,Plymouth,Accrington,3,0,H,0
+2022-10-08,Portsmouth,Fleetwood Town,1,1,D,1
+2022-10-08,Derby,Port Vale,1,2,A,0
+2022-10-08,Shrewsbury,Milton Keynes Dons,2,1,H,0
+2022-10-08,Bristol Rvs,Cambridge,2,1,H,0
+2022-10-08,Barnsley,Exeter,0,2,A,0
+2022-10-08,Sheffield Weds,Cheltenham,3,0,H,0
+2022-10-08,Forest Green,Luton,1,0,H,0
+2022-10-08,Lincoln,Charlton,0,0,D,1
+2022-10-08,Morecambe,Ipswich,1,2,A,0
+2022-10-11,Charlton,Exeter,4,2,H,0
+2022-10-11,Milton Keynes Dons,Bristol Rvs,0,1,A,0
+2022-10-11,Peterboro,Forest Green,4,1,H,0
+2022-10-15,Luton,Barnsley,0,0,D,1
+2022-10-15,Luton,Morecambe,1,1,D,1
+2022-10-15,Cambridge,Sheffield Weds,0,2,A,0
+2022-10-15,Cheltenham,Bristol Rvs,1,4,A,0
+2022-10-15,Exeter,Oxford,2,4,A,0
+2022-10-15,Fleetwood Town,Shrewsbury,0,1,A,0
+2022-10-15,Wycombe,Peterboro,3,1,H,0
+2022-10-15,Port Vale,Forest Green,2,2,D,1
+2022-10-15,Milton Keynes Dons,Plymouth,1,4,A,0
+2022-10-15,Ipswich,Lincoln,0,1,A,0
+2022-10-15,Accrington,Derby,0,3,A,0
+2022-10-17,Charlton,Portsmouth,3,0,H,0
+2022-10-21,Ipswich,Derby,1,0,H,0
+2022-10-22,Forest Green,Portsmouth,0,1,A,0
+2022-10-22,Milton Keynes Dons,Wycombe,0,1,A,0
+2022-10-22,Morecambe,Barnsley,1,0,H,0
+2022-10-22,Oxford,Peterboro,1,2,A,0
+2022-10-22,Shrewsbury,Charlton,0,1,A,0
+2022-10-22,Cambridge,Port Vale,0,1,A,0
+2022-10-22,Exeter,Fleetwood Town,2,1,H,0
+2022-10-22,Lincoln,Sheffield Weds,1,1,D,1
+2022-10-22,Accrington,Luton,2,3,A,0
+2022-10-22,Bristol Rvs,Plymouth,2,2,D,1
+2022-10-22,Luton,Cheltenham,1,0,H,0
+2022-10-25,Fleetwood Town,Forest Green,1,1,D,1
+2022-10-25,Plymouth,Shrewsbury,2,1,H,0
+2022-10-25,Port Vale,Ipswich,2,3,A,0
+2022-10-25,Portsmouth,Oxford,1,1,D,1
+2022-10-25,Wycombe,Cambridge,2,3,A,0
+2022-10-25,Peterboro,Accrington,3,1,H,0
+2022-10-25,Barnsley,Lincoln,0,1,A,0
+2022-10-25,Luton,Luton,2,1,H,0
+2022-10-25,Charlton,Milton Keynes Dons,0,2,A,0
+2022-10-25,Cheltenham,Morecambe,1,0,H,0
+2022-10-25,Derby,Exeter,0,0,D,1
+2022-10-26,Sheffield Weds,Bristol Rvs,1,1,D,1
+2022-10-29,Cheltenham,Milton Keynes Dons,0,0,D,1
+2022-10-29,Barnsley,Forest Green,2,0,H,0
+2022-10-29,Luton,Oxford,1,3,A,0
+2022-10-29,Charlton,Ipswich,4,4,D,1
+2022-10-29,Derby,Bristol Rvs,4,2,H,0
+2022-10-29,Fleetwood Town,Accrington,3,0,H,0
+2022-10-29,Peterboro,Cambridge,1,0,H,0
+2022-10-29,Port Vale,Lincoln,1,0,H,0
+2022-10-29,Portsmouth,Shrewsbury,1,1,D,1
+2022-10-29,Sheffield Weds,Luton,4,2,H,0
+2022-10-29,Wycombe,Morecambe,1,1,D,1
+2022-10-31,Plymouth,Exeter,4,2,H,0
+2022-11-01,Wycombe,Port Vale,2,2,D,1
+2022-11-01,Oxford,Fleetwood Town,1,1,D,1
+2022-11-01,Morecambe,Derby,1,1,D,1
+2022-11-01,Lincoln,Accrington,1,1,D,1
+2022-11-09,Shrewsbury,Oxford,1,1,D,1
+2022-11-12,Ipswich,Cheltenham,1,1,D,1
+2022-11-12,Lincoln,Plymouth,1,1,D,1
+2022-11-12,Milton Keynes Dons,Derby,1,3,A,0
+2022-11-12,Accrington,Sheffield Weds,0,1,A,0
+2022-11-12,Oxford,Port Vale,4,0,H,0
+2022-11-12,Shrewsbury,Barnsley,0,1,A,0
+2022-11-12,Morecambe,Portsmouth,1,1,D,1
+2022-11-12,Bristol Rvs,Fleetwood Town,2,2,D,1
+2022-11-12,Luton,Charlton,3,3,D,1
+2022-11-12,Cambridge,Luton,0,0,D,1
+2022-11-12,Exeter,Peterboro,3,2,H,0
+2022-11-12,Forest Green,Wycombe,0,2,A,0
+2022-11-18,Portsmouth,Derby,0,0,D,1
+2022-11-19,Cheltenham,Wycombe,1,0,H,0
+2022-11-19,Exeter,Ipswich,0,2,A,0
+2022-11-19,Barnsley,Milton Keynes Dons,3,1,H,0
+2022-11-19,Bristol Rvs,Peterboro,1,0,H,0
+2022-11-19,Luton,Plymouth,2,2,D,1
+2022-11-19,Cambridge,Accrington,0,1,A,0
+2022-11-19,Fleetwood Town,Luton,1,2,A,0
+2022-11-19,Lincoln,Morecambe,2,1,H,0
+2022-11-19,Oxford,Forest Green,1,1,D,1
+2022-11-19,Port Vale,Charlton,1,0,H,0
+2022-11-19,Sheffield Weds,Shrewsbury,1,0,H,0
+2022-12-02,Luton,Bristol Rvs,1,1,D,1
+2022-12-02,Charlton,Cheltenham,0,1,A,0
+2022-12-02,Morecambe,Exeter,1,1,D,1
+2022-12-02,Peterboro,Barnsley,1,2,A,0
+2022-12-02,Plymouth,Port Vale,0,2,A,0
+2022-12-02,Ipswich,Fleetwood Town,1,1,D,1
+2022-12-03,Derby,Sheffield Weds,0,0,D,1
+2022-12-03,Accrington,Oxford,1,1,D,1
+2022-12-03,Forest Green,Cambridge,2,1,H,0
+2022-12-03,Shrewsbury,Lincoln,2,0,H,0
+2022-12-03,Milton Keynes Dons,Luton,1,1,D,1
+2022-12-04,Wycombe,Portsmouth,2,0,H,0
+2022-12-10,Ipswich,Peterboro,2,1,H,0
+2022-12-10,Luton,Derby,1,1,D,1
+2022-12-10,Forest Green,Cheltenham,1,0,H,0
+2022-12-10,Bristol Rvs,Port Vale,1,0,H,0
+2022-12-10,Cambridge,Plymouth,0,0,D,1
+2022-12-10,Exeter,Sheffield Weds,1,1,D,1
+2022-12-10,Lincoln,Wycombe,0,0,D,1
+2022-12-10,Milton Keynes Dons,Fleetwood Town,1,2,A,0
+2022-12-10,Shrewsbury,Luton,3,2,H,0
+2022-12-17,Sheffield Weds,Oxford,0,0,D,1
+2022-12-17,Wycombe,Ipswich,1,0,H,0
+2022-12-17,Plymouth,Morecambe,2,1,H,0
+2022-12-17,Derby,Forest Green,4,0,H,0
+2022-12-17,Charlton,Bristol Rvs,1,2,A,0
+2022-12-17,Luton,Exeter,2,0,H,0
+2022-12-17,Barnsley,Luton,2,0,H,0
+2022-12-17,Portsmouth,Milton Keynes Dons,0,2,A,0
+2022-12-26,Port Vale,Morecambe,1,0,H,0
+2022-12-26,Accrington,Barnsley,1,1,D,1
+2022-12-26,Luton,Lincoln,3,0,H,0
+2022-12-26,Cambridge,Shrewsbury,2,1,H,0
+2022-12-26,Charlton,Peterboro,1,1,D,1
+2022-12-26,Cheltenham,Plymouth,0,1,A,0
+2022-12-26,Exeter,Portsmouth,0,0,D,1
+2022-12-26,Fleetwood Town,Sheffield Weds,1,2,A,0
+2022-12-26,Ipswich,Oxford,3,0,H,0
+2022-12-26,Milton Keynes Dons,Forest Green,1,0,H,0
+2022-12-26,Wycombe,Bristol Rvs,2,1,H,0
+2022-12-27,Luton,Derby,0,0,D,1
+2022-12-29,Plymouth,Wycombe,1,0,H,0
+2022-12-29,Portsmouth,Ipswich,2,2,D,1
+2022-12-29,Sheffield Weds,Port Vale,2,0,H,0
+2022-12-29,Shrewsbury,Cheltenham,0,1,A,0
+2022-12-29,Peterboro,Milton Keynes Dons,2,0,H,0
+2022-12-29,Bristol Rvs,Exeter,3,4,A,0
+2022-12-29,Barnsley,Fleetwood Town,2,1,H,0
+2022-12-29,Oxford,Charlton,3,1,H,0
+2022-12-29,Morecambe,Accrington,2,0,H,0
+2022-12-29,Forest Green,Luton,1,2,A,0
+2022-12-30,Lincoln,Luton,1,1,D,1
+2022-12-30,Derby,Cambridge,1,0,H,0
+2023-01-01,Plymouth,Milton Keynes Dons,3,1,H,0
+2023-01-01,Bristol Rvs,Cheltenham,2,1,H,0
+2023-01-01,Forest Green,Port Vale,1,3,A,0
+2023-01-01,Morecambe,Luton,5,0,H,0
+2023-01-01,Oxford,Exeter,0,1,A,0
+2023-01-01,Peterboro,Wycombe,0,3,A,0
+2023-01-01,Portsmouth,Charlton,1,3,A,0
+2023-01-01,Shrewsbury,Fleetwood Town,0,3,A,0
+2023-01-02,Barnsley,Luton,0,3,A,0
+2023-01-02,Sheffield Weds,Cambridge,5,0,H,0
+2023-01-02,Lincoln,Ipswich,1,1,D,1
+2023-01-02,Derby,Accrington,4,0,H,0
+2023-01-07,Luton,Plymouth,0,0,D,1
+2023-01-07,Morecambe,Cheltenham,2,1,H,0
+2023-01-07,Cambridge,Bristol Rvs,1,2,A,0
+2023-01-07,Charlton,Lincoln,2,1,H,0
+2023-01-14,Luton,Portsmouth,3,0,H,0
+2023-01-14,Accrington,Bristol Rvs,2,0,H,0
+2023-01-14,Cheltenham,Derby,2,3,A,0
+2023-01-14,Charlton,Barnsley,2,0,H,0
+2023-01-14,Wycombe,Sheffield Weds,0,1,A,0
+2023-01-14,Exeter,Forest Green,1,1,D,1
+2023-01-14,Milton Keynes Dons,Lincoln,0,0,D,1
+2023-01-14,Ipswich,Plymouth,1,1,D,1
+2023-01-14,Fleetwood Town,Oxford,1,2,A,0
+2023-01-14,Luton,Shrewsbury,0,4,A,0
+2023-01-16,Port Vale,Peterboro,0,2,A,0
+2023-01-21,Sheffield Weds,Fleetwood Town,1,0,H,0
+2023-01-21,Shrewsbury,Cambridge,5,1,H,0
+2023-01-21,Portsmouth,Exeter,2,0,H,0
+2023-01-21,Plymouth,Cheltenham,4,2,H,0
+2023-01-21,Oxford,Ipswich,2,1,H,0
+2023-01-21,Forest Green,Milton Keynes Dons,1,2,A,0
+2023-01-21,Derby,Luton,2,1,H,0
+2023-01-21,Barnsley,Accrington,3,1,H,0
+2023-01-24,Luton,Forest Green,1,0,H,0
+2023-01-24,Fleetwood Town,Portsmouth,0,2,A,0
+2023-01-24,Ipswich,Morecambe,4,0,H,0
+2023-01-24,Milton Keynes Dons,Shrewsbury,0,1,A,0
+2023-01-24,Port Vale,Derby,1,2,A,0
+2023-01-24,Wycombe,Oxford,2,0,H,0
+2023-01-28,Peterboro,Portsmouth,2,1,H,0
+2023-01-28,Charlton,Luton,1,2,A,0
+2023-01-28,Luton,Oxford,2,0,H,0
+2023-01-28,Cheltenham,Port Vale,0,0,D,1
+2023-01-28,Lincoln,Cambridge,0,0,D,1
+2023-01-28,Milton Keynes Dons,Exeter,0,2,A,0
+2023-01-28,Morecambe,Bristol Rvs,5,1,H,0
+2023-01-28,Shrewsbury,Forest Green,2,1,H,0
+2023-02-01,Oxford,Barnsley,1,2,A,0
+2023-02-04,Fleetwood Town,Luton,2,3,A,0
+2023-02-04,Forest Green,Peterboro,0,2,A,0
+2023-02-04,Oxford,Shrewsbury,0,1,A,0
+2023-02-04,Port Vale,Wycombe,0,3,A,0
+2023-02-04,Portsmouth,Barnsley,1,1,D,1
+2023-02-04,Sheffield Weds,Plymouth,1,0,H,0
+2023-02-04,Exeter,Charlton,1,2,A,0
+2023-02-04,Derby,Morecambe,5,0,H,0
+2023-02-04,Cambridge,Ipswich,1,1,D,1
+2023-02-04,Bristol Rvs,Milton Keynes Dons,0,2,A,0
+2023-02-04,Luton,Cheltenham,1,0,H,0
+2023-02-04,Accrington,Lincoln,0,3,A,0
+2023-02-07,Port Vale,Accrington,1,1,D,1
+2023-02-11,Milton Keynes Dons,Oxford,1,1,D,1
+2023-02-11,Morecambe,Forest Green,1,1,D,1
+2023-02-11,Peterboro,Luton,0,5,A,0
+2023-02-11,Plymouth,Portsmouth,3,1,H,0
+2023-02-11,Shrewsbury,Port Vale,3,2,H,0
+2023-02-11,Wycombe,Derby,3,2,H,0
+2023-02-11,Barnsley,Cambridge,2,0,H,0
+2023-02-11,Luton,Exeter,1,0,H,0
+2023-02-11,Charlton,Fleetwood Town,1,2,A,0
+2023-02-11,Cheltenham,Accrington,0,0,D,1
+2023-02-11,Lincoln,Bristol Rvs,1,0,H,0
+2023-02-11,Ipswich,Sheffield Weds,2,2,D,1
+2023-02-14,Cambridge,Cheltenham,1,2,A,0
+2023-02-14,Accrington,Wycombe,0,2,A,0
+2023-02-14,Luton,Milton Keynes Dons,5,0,H,0
+2023-02-14,Bristol Rvs,Ipswich,0,0,D,1
+2023-02-14,Derby,Lincoln,1,1,D,1
+2023-02-14,Exeter,Shrewsbury,0,0,D,1
+2023-02-14,Fleetwood Town,Peterboro,1,0,H,0
+2023-02-14,Forest Green,Charlton,0,1,A,0
+2023-02-14,Oxford,Plymouth,1,3,A,0
+2023-02-14,Port Vale,Barnsley,1,3,A,0
+2023-02-14,Portsmouth,Luton,1,0,H,0
+2023-02-14,Sheffield Weds,Morecambe,3,0,H,0
+2023-02-18,Plymouth,Fleetwood Town,0,0,D,1
+2023-02-18,Morecambe,Peterboro,0,3,A,0
+2023-02-18,Lincoln,Portsmouth,0,0,D,1
+2023-02-18,Wycombe,Luton,1,0,H,0
+2023-02-18,Sheffield Weds,Milton Keynes Dons,5,2,H,0
+2023-02-18,Port Vale,Exeter,1,0,H,0
+2023-02-18,Accrington,Shrewsbury,1,0,H,0
+2023-02-18,Bristol Rvs,Luton,1,2,A,0
+2023-02-18,Cambridge,Oxford,1,0,H,0
+2023-02-18,Cheltenham,Barnsley,0,4,A,0
+2023-02-18,Derby,Charlton,2,0,H,0
+2023-02-18,Ipswich,Forest Green,4,0,H,0
+2023-02-21,Fleetwood Town,Cambridge,1,0,H,0
+2023-02-21,Morecambe,Port Vale,1,0,H,0
+2023-02-25,Fleetwood Town,Morecambe,1,0,H,0
+2023-02-25,Forest Green,Lincoln,1,1,D,1
+2023-02-25,Milton Keynes Dons,Ipswich,0,1,A,0
+2023-02-25,Peterboro,Plymouth,5,2,H,0
+2023-02-25,Portsmouth,Cheltenham,4,0,H,0
+2023-02-25,Shrewsbury,Wycombe,2,0,H,0
+2023-02-25,Luton,Accrington,0,0,D,1
+2023-02-25,Luton,Port Vale,2,1,H,0
+2023-02-25,Barnsley,Derby,4,1,H,0
+2023-02-25,Oxford,Bristol Rvs,0,3,A,0
+2023-02-25,Exeter,Cambridge,2,0,H,0
+2023-02-25,Charlton,Sheffield Weds,0,1,A,0
+2023-02-28,Derby,Cheltenham,2,0,H,0
+2023-02-28,Lincoln,Milton Keynes Dons,1,1,D,1
+2023-02-28,Peterboro,Charlton,0,0,D,1
+2023-02-28,Portsmouth,Luton,3,1,H,0
+2023-03-04,Ipswich,Luton,4,0,H,0
+2023-03-04,Morecambe,Luton,0,0,D,1
+2023-03-04,Accrington,Forest Green,2,1,H,0
+2023-03-04,Bristol Rvs,Barnsley,0,0,D,1
+2023-03-04,Cambridge,Portsmouth,0,1,A,0
+2023-03-04,Cheltenham,Fleetwood Town,1,0,H,0
+2023-03-04,Derby,Shrewsbury,2,2,D,1
+2023-03-04,Lincoln,Oxford,1,0,H,0
+2023-03-04,Plymouth,Charlton,2,0,H,0
+2023-03-04,Port Vale,Milton Keynes Dons,1,0,H,0
+2023-03-04,Sheffield Weds,Peterboro,1,0,H,0
+2023-03-04,Wycombe,Exeter,1,1,D,1
+2023-03-07,Plymouth,Derby,2,1,H,0
+2023-03-07,Wycombe,Fleetwood Town,2,0,H,0
+2023-03-07,Peterboro,Shrewsbury,2,1,H,0
+2023-03-07,Ipswich,Accrington,3,0,H,0
+2023-03-07,Cheltenham,Lincoln,0,0,D,1
+2023-03-07,Cambridge,Morecambe,1,1,D,1
+2023-03-07,Barnsley,Portsmouth,3,1,H,0
+2023-03-11,Shrewsbury,Morecambe,3,1,H,0
+2023-03-11,Barnsley,Plymouth,3,0,H,0
+2023-03-11,Luton,Ipswich,0,2,A,0
+2023-03-11,Luton,Wycombe,2,1,H,0
+2023-03-11,Charlton,Accrington,1,1,D,1
+2023-03-11,Exeter,Lincoln,2,1,H,0
+2023-03-11,Fleetwood Town,Port Vale,1,1,D,1
+2023-03-11,Forest Green,Bristol Rvs,1,3,A,0
+2023-03-11,Milton Keynes Dons,Cambridge,1,0,H,0
+2023-03-11,Oxford,Derby,2,3,A,0
+2023-03-11,Peterboro,Cheltenham,0,3,A,0
+2023-03-11,Portsmouth,Sheffield Weds,0,1,A,0
+2023-03-14,Bristol Rvs,Wycombe,0,2,A,0
+2023-03-14,Accrington,Portsmouth,1,3,A,0
+2023-03-14,Luton,Peterboro,2,5,A,0
+2023-03-14,Morecambe,Charlton,1,4,A,0
+2023-03-17,Sheffield Weds,Luton,1,1,D,1
+2023-03-18,Cambridge,Charlton,1,2,A,0
+2023-03-18,Bristol Rvs,Portsmouth,0,2,A,0
+2023-03-18,Lincoln,Peterboro,0,3,A,0
+2023-03-18,Wycombe,Barnsley,0,1,A,0
+2023-03-18,Plymouth,Forest Green,2,0,H,0
+2023-03-18,Port Vale,Luton,2,3,A,0
+2023-03-18,Accrington,Milton Keynes Dons,0,1,A,0
+2023-03-18,Morecambe,Oxford,1,1,D,1
+2023-03-18,Ipswich,Shrewsbury,2,0,H,0
+2023-03-18,Derby,Fleetwood Town,0,2,A,0
+2023-03-18,Cheltenham,Exeter,3,1,H,0
+2023-03-21,Barnsley,Sheffield Weds,4,2,H,0
+2023-03-21,Accrington,Plymouth,0,2,A,0
+2023-03-25,Portsmouth,Port Vale,2,2,D,1
+2023-03-25,Fleetwood Town,Lincoln,2,1,H,0
+2023-03-25,Exeter,Accrington,5,0,H,0
+2023-03-25,Charlton,Wycombe,1,1,D,1
+2023-03-25,Peterboro,Derby,2,0,H,0
+2023-03-25,Milton Keynes Dons,Morecambe,1,0,H,0
+2023-03-26,Forest Green,Sheffield Weds,1,0,H,0
+2023-03-28,Exeter,Barnsley,3,1,H,0
+2023-03-29,Cheltenham,Sheffield Weds,2,2,D,1
+2023-04-01,Cheltenham,Luton,0,0,D,1
+2023-04-01,Barnsley,Morecambe,5,0,H,0
+2023-04-01,Charlton,Shrewsbury,6,0,H,0
+2023-04-01,Derby,Ipswich,0,2,A,0
+2023-04-01,Fleetwood Town,Exeter,2,2,D,1
+2023-04-01,Peterboro,Oxford,0,0,D,1
+2023-04-01,Port Vale,Cambridge,0,2,A,0
+2023-04-01,Portsmouth,Forest Green,1,0,H,0
+2023-04-01,Sheffield Weds,Lincoln,1,1,D,1
+2023-04-01,Wycombe,Milton Keynes Dons,2,2,D,1
+2023-04-07,Ipswich,Wycombe,4,0,H,0
+2023-04-07,Lincoln,Cheltenham,2,0,H,0
+2023-04-07,Milton Keynes Dons,Portsmouth,1,1,D,1
+2023-04-07,Morecambe,Plymouth,1,3,A,0
+2023-04-07,Oxford,Sheffield Weds,1,1,D,1
+2023-04-07,Shrewsbury,Peterboro,0,3,A,0
+2023-04-07,Forest Green,Derby,0,2,A,0
+2023-04-07,Exeter,Luton,0,1,A,0
+2023-04-07,Cambridge,Fleetwood Town,2,1,H,0
+2023-04-07,Luton,Barnsley,2,1,H,0
+2023-04-07,Bristol Rvs,Charlton,1,0,H,0
+2023-04-07,Accrington,Port Vale,3,0,H,0
+2023-04-10,Peterboro,Exeter,3,1,H,0
+2023-04-10,Plymouth,Lincoln,0,2,A,0
+2023-04-10,Port Vale,Oxford,0,0,D,1
+2023-04-10,Portsmouth,Morecambe,0,0,D,1
+2023-04-10,Sheffield Weds,Accrington,3,0,H,0
+2023-04-10,Wycombe,Forest Green,2,0,H,0
+2023-04-10,Barnsley,Shrewsbury,2,1,H,0
+2023-04-10,Luton,Cambridge,1,1,D,1
+2023-04-10,Charlton,Luton,3,2,H,0
+2023-04-10,Cheltenham,Ipswich,1,1,D,1
+2023-04-10,Derby,Milton Keynes Dons,1,1,D,1
+2023-04-10,Fleetwood Town,Bristol Rvs,1,2,A,0
+2023-04-15,Milton Keynes Dons,Cheltenham,2,2,D,1
+2023-04-15,Exeter,Plymouth,0,1,A,0
+2023-04-15,Cambridge,Peterboro,2,0,H,0
+2023-04-15,Accrington,Fleetwood Town,2,5,A,0
+2023-04-15,Bristol Rvs,Derby,1,1,D,1
+2023-04-15,Luton,Sheffield Weds,3,2,H,0
+2023-04-15,Forest Green,Barnsley,1,5,A,0
+2023-04-15,Ipswich,Charlton,6,0,H,0
+2023-04-15,Lincoln,Port Vale,3,2,H,0
+2023-04-15,Morecambe,Wycombe,1,0,H,0
+2023-04-15,Oxford,Luton,0,1,A,0
+2023-04-15,Shrewsbury,Portsmouth,1,1,D,1
+2023-04-18,Forest Green,Fleetwood Town,0,0,D,1
+2023-04-18,Ipswich,Port Vale,2,1,H,0
+2023-04-18,Accrington,Peterboro,1,2,A,0
+2023-04-18,Bristol Rvs,Sheffield Weds,1,2,A,0
+2023-04-18,Luton,Luton,1,1,D,1
+2023-04-18,Cambridge,Wycombe,1,2,A,0
+2023-04-18,Shrewsbury,Plymouth,1,2,A,0
+2023-04-18,Oxford,Portsmouth,1,1,D,1
+2023-04-18,Milton Keynes Dons,Charlton,0,1,A,0
+2023-04-18,Lincoln,Barnsley,0,0,D,1
+2023-04-18,Exeter,Derby,1,2,A,0
+2023-04-22,Luton,Shrewsbury,1,0,H,0
+2023-04-22,Cheltenham,Forest Green,3,1,H,0
+2023-04-22,Derby,Luton,1,0,H,0
+2023-04-22,Fleetwood Town,Milton Keynes Dons,1,0,H,0
+2023-04-22,Peterboro,Ipswich,0,3,A,0
+2023-04-22,Plymouth,Cambridge,3,1,H,0
+2023-04-22,Port Vale,Bristol Rvs,2,0,H,0
+2023-04-22,Portsmouth,Accrington,1,0,H,0
+2023-04-22,Sheffield Weds,Exeter,2,1,H,0
+2023-04-22,Wycombe,Lincoln,0,2,A,0
+2023-04-22,Barnsley,Oxford,2,0,H,0
+2023-04-22,Charlton,Morecambe,2,3,A,0
+2023-04-25,Lincoln,Luton,0,1,A,0
+2023-04-25,Luton,Accrington,0,1,A,0
+2023-04-25,Barnsley,Ipswich,0,3,A,0
+2023-04-25,Plymouth,Bristol Rvs,2,0,H,0
+2023-04-25,Oxford,Cheltenham,4,0,H,0
+2023-04-29,Wycombe,Cheltenham,0,3,A,0
+2023-04-29,Accrington,Cambridge,1,2,A,0
+2023-04-29,Luton,Fleetwood Town,2,0,H,0
+2023-04-29,Charlton,Port Vale,3,2,H,0
+2023-04-29,Derby,Portsmouth,1,1,D,1
+2023-04-29,Forest Green,Oxford,0,3,A,0
+2023-04-29,Ipswich,Exeter,6,0,H,0
+2023-04-29,Milton Keynes Dons,Barnsley,4,4,D,1
+2023-04-29,Morecambe,Lincoln,3,2,H,0
+2023-04-29,Peterboro,Bristol Rvs,0,0,D,1
+2023-04-29,Plymouth,Luton,1,0,H,0
+2023-04-29,Shrewsbury,Sheffield Weds,0,3,A,0
+2023-05-02,Shrewsbury,Bristol Rvs,2,1,H,0
+2023-05-03,Luton,Cambridge,1,0,H,0
+2023-05-07,Fleetwood Town,Ipswich,2,2,D,1
+2023-05-07,Lincoln,Shrewsbury,1,0,H,0
+2023-05-07,Oxford,Accrington,1,2,A,0
+2023-05-07,Port Vale,Plymouth,1,3,A,0
+2023-05-07,Portsmouth,Wycombe,2,2,D,1
+2023-05-07,Cheltenham,Charlton,2,2,D,1
+2023-05-07,Cambridge,Forest Green,2,0,H,0
+2023-05-07,Luton,Milton Keynes Dons,0,0,D,1
+2023-05-07,Bristol Rvs,Luton,2,3,A,0
+2023-05-07,Barnsley,Peterboro,0,2,A,0
+2023-05-07,Sheffield Weds,Derby,1,0,H,0
+2023-05-07,Exeter,Morecambe,3,2,H,0

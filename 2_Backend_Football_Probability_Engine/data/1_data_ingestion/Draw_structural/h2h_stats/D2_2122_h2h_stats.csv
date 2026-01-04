@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+409,Holstein Kiel,411,Regensburg,2122,2,0,0.0,3.0
+414,St Pauli,419,Heidenheim,2122,2,0,0.0,3.5
+396,Paderborn,405,Fortuna Dusseldorf,2122,2,1,0.5,3.5
+401,Nurnberg,409,Holstein Kiel,2122,2,0,0.0,3.0
+392,Schalke 04,409,Holstein Kiel,2122,2,1,0.5,2.5
+405,Fortuna Dusseldorf,419,Heidenheim,2122,2,0,0.0,2.5
+393,Darmstadt,395,Karlsruhe,2122,2,1,0.5,3.5
+414,St Pauli,420,Ingolstadt,2122,2,0,0.0,4.5
+393,Darmstadt,396,Paderborn,2122,2,0,0.0,2.0
+401,Nurnberg,418,Sandhausen,2122,2,0,0.0,4.5
+396,Paderborn,411,Regensburg,2122,2,1,0.5,1.5
+393,Darmstadt,419,Heidenheim,2122,2,0,0.0,4.0
+420,Ingolstadt,421,Werder Bremen,2122,2,1,0.5,2.5
+405,Fortuna Dusseldorf,421,Werder Bremen,2122,2,0,0.0,4.0
+411,Regensburg,420,Ingolstadt,2122,2,1,0.5,2.5
+399,Hannover,409,Holstein Kiel,2122,2,0,0.0,2.5
+393,Darmstadt,405,Fortuna Dusseldorf,2122,2,0,0.0,3.5
+404,Dresden,405,Fortuna Dusseldorf,2122,2,1,0.5,2.5
+418,Sandhausen,420,Ingolstadt,2122,2,1,0.5,1.0
+392,Schalke 04,414,St Pauli,2122,2,0,0.0,4.0
+401,Nurnberg,405,Fortuna Dusseldorf,2122,2,0,0.0,1.5
+393,Darmstadt,401,Nurnberg,2122,2,0,0.0,3.0
+401,Nurnberg,422,Erzgebirge Aue,2122,2,1,0.5,2.0
+404,Dresden,422,Erzgebirge Aue,2122,2,0,0.0,1.0
+396,Paderborn,417,Hansa Rostock,2122,2,2,1.0,1.0
+399,Hannover,414,St Pauli,2122,2,0,0.0,2.0
+395,Karlsruhe,420,Ingolstadt,2122,2,2,1.0,3.0
+392,Schalke 04,417,Hansa Rostock,2122,2,0,0.0,4.5
+417,Hansa Rostock,419,Heidenheim,2122,2,2,1.0,1.0
+411,Regensburg,422,Erzgebirge Aue,2122,2,0,0.0,3.0
+414,St Pauli,417,Hansa Rostock,2122,2,0,0.0,2.5
+393,Darmstadt,404,Dresden,2122,2,0,0.0,1.0
+393,Darmstadt,422,Erzgebirge Aue,2122,2,0,0.0,4.5
+395,Karlsruhe,414,St Pauli,2122,2,0,0.0,4.0
+401,Nurnberg,413,Hamburg,2122,2,1,0.5,3.5
+393,Darmstadt,411,Regensburg,2122,2,0,0.0,2.0
+399,Hannover,421,Werder Bremen,2122,2,1,0.5,3.5
+411,Regensburg,418,Sandhausen,2122,2,0,0.0,3.0
+401,Nurnberg,414,St Pauli,2122,2,1,0.5,3.5
+399,Hannover,419,Heidenheim,2122,2,0,0.0,2.5
+399,Hannover,418,Sandhausen,2122,2,0,0.0,3.5
+411,Regensburg,417,Hansa Rostock,2122,2,1,0.5,3.5
+409,Holstein Kiel,414,St Pauli,2122,2,0,0.0,3.0
+393,Darmstadt,409,Holstein Kiel,2122,2,1,0.5,3.0
+404,Dresden,414,St Pauli,2122,2,1,0.5,2.5
+405,Fortuna Dusseldorf,413,Hamburg,2122,2,2,1.0,2.0
+413,Hamburg,420,Ingolstadt,2122,2,0,0.0,3.5
+413,Hamburg,417,Hansa Rostock,2122,2,0,0.0,4.0
+405,Fortuna Dusseldorf,409,Holstein Kiel,2122,2,1,0.5,2.5
+413,Hamburg,419,Heidenheim,2122,2,1,0.5,1.0
+392,Schalke 04,422,Erzgebirge Aue,2122,2,1,0.5,3.5
+392,Schalke 04,420,Ingolstadt,2122,2,0,0.0,3.0
+417,Hansa Rostock,422,Erzgebirge Aue,2122,2,1,0.5,3.5
+411,Regensburg,419,Heidenheim,2122,2,0,0.0,2.5
+393,Darmstadt,418,Sandhausen,2122,2,1,0.5,4.5
+411,Regensburg,414,St Pauli,2122,2,0,0.0,3.5
+419,Heidenheim,420,Ingolstadt,2122,2,0,0.0,3.0
+396,Paderborn,419,Heidenheim,2122,2,1,0.5,1.5
+395,Karlsruhe,396,Paderborn,2122,2,1,0.5,5.0
+418,Sandhausen,421,Werder Bremen,2122,2,2,1.0,3.0
+392,Schalke 04,401,Nurnberg,2122,2,0,0.0,4.0
+395,Karlsruhe,422,Erzgebirge Aue,2122,2,0,0.0,3.0
+392,Schalke 04,411,Regensburg,2122,2,0,0.0,4.0
+421,Werder Bremen,422,Erzgebirge Aue,2122,2,0,0.0,3.5
+411,Regensburg,421,Werder Bremen,2122,2,0,0.0,3.5
+392,Schalke 04,396,Paderborn,2122,2,0,0.0,1.5
+395,Karlsruhe,417,Hansa Rostock,2122,2,1,0.5,4.0
+414,St Pauli,422,Erzgebirge Aue,2122,2,2,1.0,2.0
+413,Hamburg,418,Sandhausen,2122,2,1,0.5,2.5
+396,Paderborn,399,Hannover,2122,2,1,0.5,1.5
+392,Schalke 04,418,Sandhausen,2122,2,0,0.0,5.0
+405,Fortuna Dusseldorf,411,Regensburg,2122,2,2,1.0,1.0
+396,Paderborn,418,Sandhausen,2122,2,1,0.5,2.0
+420,Ingolstadt,422,Erzgebirge Aue,2122,2,0,0.0,3.0
+405,Fortuna Dusseldorf,414,St Pauli,2122,2,1,0.5,2.0
+396,Paderborn,404,Dresden,2122,2,1,0.5,1.5
+401,Nurnberg,420,Ingolstadt,2122,2,1,0.5,2.5
+396,Paderborn,420,Ingolstadt,2122,2,0,0.0,2.0
+399,Hannover,404,Dresden,2122,2,1,0.5,1.0
+404,Dresden,417,Hansa Rostock,2122,2,0,0.0,4.5
+404,Dresden,413,Hamburg,2122,2,2,1.0,2.0
+401,Nurnberg,421,Werder Bremen,2122,2,1,0.5,2.5
+401,Nurnberg,404,Dresden,2122,2,1,0.5,1.5
+399,Hannover,401,Nurnberg,2122,2,1,0.5,1.5
+419,Heidenheim,422,Erzgebirge Aue,2122,2,0,0.0,2.0
+414,St Pauli,418,Sandhausen,2122,2,1,0.5,3.0
+395,Karlsruhe,401,Nurnberg,2122,2,0,0.0,4.0
+419,Heidenheim,421,Werder Bremen,2122,2,0,0.0,3.0
+393,Darmstadt,417,Hansa Rostock,2122,2,1,0.5,2.5
+399,Hannover,405,Fortuna Dusseldorf,2122,2,2,1.0,1.0
+392,Schalke 04,393,Darmstadt,2122,2,0,0.0,6.5
+405,Fortuna Dusseldorf,417,Hansa Rostock,2122,2,0,0.0,3.0
+396,Paderborn,401,Nurnberg,2122,2,1,0.5,3.5
+399,Hannover,417,Hansa Rostock,2122,2,0,0.0,2.0
+411,Regensburg,413,Hamburg,2122,2,0,0.0,5.5
+393,Darmstadt,421,Werder Bremen,2122,2,0,0.0,2.0
+417,Hansa Rostock,420,Ingolstadt,2122,2,2,1.0,1.0
+396,Paderborn,413,Hamburg,2122,2,0,0.0,3.0
+396,Paderborn,421,Werder Bremen,2122,2,0,0.0,6.0
+418,Sandhausen,422,Erzgebirge Aue,2122,2,0,0.0,3.0
+405,Fortuna Dusseldorf,422,Erzgebirge Aue,2122,2,0,0.0,2.5
+392,Schalke 04,413,Hamburg,2122,2,1,0.5,3.0
+413,Hamburg,422,Erzgebirge Aue,2122,2,1,0.5,3.0
+395,Karlsruhe,409,Holstein Kiel,2122,2,1,0.5,3.0
+409,Holstein Kiel,418,Sandhausen,2122,2,1,0.5,4.0
+404,Dresden,420,Ingolstadt,2122,2,0,0.0,3.0
+396,Paderborn,414,St Pauli,2122,2,1,0.5,4.0
+395,Karlsruhe,419,Heidenheim,2122,2,0,0.0,3.5
+413,Hamburg,421,Werder Bremen,2122,2,0,0.0,3.5
+409,Holstein Kiel,413,Hamburg,2122,2,1,0.5,1.5
+395,Karlsruhe,405,Fortuna Dusseldorf,2122,2,1,0.5,4.0
+399,Hannover,411,Regensburg,2122,2,1,0.5,3.0
+399,Hannover,422,Erzgebirge Aue,2122,2,1,0.5,3.0
+404,Dresden,411,Regensburg,2122,2,1,0.5,3.0
+395,Karlsruhe,404,Dresden,2122,2,1,0.5,4.0
+396,Paderborn,409,Holstein Kiel,2122,2,0,0.0,5.0
+417,Hansa Rostock,421,Werder Bremen,2122,2,0,0.0,3.0
+401,Nurnberg,411,Regensburg,2122,2,1,0.5,3.0
+409,Holstein Kiel,419,Heidenheim,2122,2,1,0.5,2.5
+392,Schalke 04,395,Karlsruhe,2122,2,1,0.5,2.5
+395,Karlsruhe,418,Sandhausen,2122,2,1,0.5,1.0
+414,St Pauli,421,Werder Bremen,2122,2,2,1.0,2.0
+404,Dresden,419,Heidenheim,2122,2,1,0.5,2.5
+404,Dresden,421,Werder Bremen,2122,2,0,0.0,3.0
+409,Holstein Kiel,422,Erzgebirge Aue,2122,2,0,0.0,4.0
+399,Hannover,420,Ingolstadt,2122,2,0,0.0,4.0
+393,Darmstadt,399,Hannover,2122,2,1,0.5,4.0
+417,Hansa Rostock,418,Sandhausen,2122,2,1,0.5,1.5
+392,Schalke 04,399,Hannover,2122,2,0,0.0,2.0
+409,Holstein Kiel,417,Hansa Rostock,2122,2,0,0.0,3.5
+409,Holstein Kiel,420,Ingolstadt,2122,2,1,0.5,1.5
+396,Paderborn,422,Erzgebirge Aue,2122,2,1,0.5,5.5
+393,Darmstadt,420,Ingolstadt,2122,2,0,0.0,4.5
+413,Hamburg,414,St Pauli,2122,2,0,0.0,4.0
+392,Schalke 04,419,Heidenheim,2122,2,0,0.0,2.0
+401,Nurnberg,419,Heidenheim,2122,2,0,0.0,4.0
+393,Darmstadt,414,St Pauli,2122,2,0,0.0,3.5
+405,Fortuna Dusseldorf,420,Ingolstadt,2122,2,0,0.0,3.0
+401,Nurnberg,417,Hansa Rostock,2122,2,0,0.0,1.5
+405,Fortuna Dusseldorf,418,Sandhausen,2122,2,0,0.0,1.5
+392,Schalke 04,405,Fortuna Dusseldorf,2122,2,0,0.0,3.5
+395,Karlsruhe,399,Hannover,2122,2,0,0.0,3.0
+392,Schalke 04,421,Werder Bremen,2122,2,1,0.5,3.5
+395,Karlsruhe,421,Werder Bremen,2122,2,1,0.5,1.5
+404,Dresden,418,Sandhausen,2122,2,0,0.0,2.0
+404,Dresden,409,Holstein Kiel,2122,2,1,0.5,1.5
+395,Karlsruhe,411,Regensburg,2122,2,2,1.0,3.0
+393,Darmstadt,413,Hamburg,2122,2,1,0.5,4.5
+418,Sandhausen,419,Heidenheim,2122,2,1,0.5,3.0
+409,Holstein Kiel,421,Werder Bremen,2122,2,0,0.0,4.0
+399,Hannover,413,Hamburg,2122,2,0,0.0,2.0
+395,Karlsruhe,413,Hamburg,2122,2,1,0.5,2.5
+392,Schalke 04,404,Dresden,2122,2,0,0.0,3.0

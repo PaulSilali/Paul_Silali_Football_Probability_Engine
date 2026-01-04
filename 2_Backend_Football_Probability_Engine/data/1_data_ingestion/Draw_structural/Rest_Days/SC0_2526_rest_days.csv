@@ -1,0 +1,117 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC0,2526,2025-08-02,Kilmarnock,Livingston,76,440,False
+SC0,2526,2025-08-02,Motherwell,Rangers,76,77,False
+SC0,2526,2025-08-03,Falkirk,Dundee,7,77,False
+SC0,2526,2025-08-03,Dundee,Hibernian,77,78,False
+SC0,2526,2025-08-03,Celtic,St Mirren,78,78,False
+SC0,2526,2025-08-04,Hearts,Aberdeen,78,79,False
+SC0,2526,2025-08-09,Livingston,Falkirk,7,6,False
+SC0,2526,2025-08-09,St Mirren,Motherwell,6,7,False
+SC0,2526,2025-08-09,Rangers,Dundee,7,6,False
+SC0,2526,2025-08-10,Aberdeen,Celtic,6,7,False
+SC0,2526,2025-08-10,Hibernian,Kilmarnock,7,8,False
+SC0,2526,2025-08-10,Dundee,Hearts,1,6,False
+SC0,2526,2025-08-23,Kilmarnock,Dundee,13,13,False
+SC0,2526,2025-08-23,Hearts,Motherwell,13,14,False
+SC0,2526,2025-08-23,Celtic,Livingston,13,14,False
+SC0,2526,2025-08-24,St Mirren,Rangers,15,15,False
+SC0,2526,2025-08-30,Motherwell,Kilmarnock,7,7,False
+SC0,2526,2025-08-30,Livingston,Hearts,7,7,False
+SC0,2526,2025-08-31,Dundee,Dundee,8,8,False
+SC0,2526,2025-08-31,Rangers,Celtic,7,8,False
+SC0,2526,2025-08-31,Aberdeen,Falkirk,21,22,False
+SC0,2526,2025-08-31,Hibernian,St Mirren,21,7,False
+SC0,2526,2025-09-13,Hibernian,Dundee,13,13,False
+SC0,2526,2025-09-13,Falkirk,St Mirren,13,13,False
+SC0,2526,2025-09-13,Dundee,Motherwell,13,14,False
+SC0,2526,2025-09-13,Aberdeen,Livingston,13,14,False
+SC0,2526,2025-09-13,Rangers,Hearts,13,14,False
+SC0,2526,2025-09-14,Kilmarnock,Celtic,15,14,False
+SC0,2526,2025-09-20,Dundee,Livingston,7,7,False
+SC0,2526,2025-09-23,Dundee,Aberdeen,3,10,True
+SC0,2526,2025-09-23,Falkirk,Hibernian,10,10,True
+SC0,2526,2025-09-27,Hearts,Falkirk,14,4,False
+SC0,2526,2025-09-27,St Mirren,Dundee,14,4,False
+SC0,2526,2025-09-27,Dundee,Kilmarnock,4,13,False
+SC0,2526,2025-09-27,Celtic,Hibernian,13,4,False
+SC0,2526,2025-09-27,Motherwell,Aberdeen,14,4,False
+SC0,2526,2025-09-28,Livingston,Rangers,8,15,False
+SC0,2526,2025-10-04,Kilmarnock,St Mirren,7,7,False
+SC0,2526,2025-10-04,Dundee,Livingston,7,6,False
+SC0,2526,2025-10-04,Hearts,Hibernian,7,7,False
+SC0,2526,2025-10-05,Celtic,Motherwell,8,8,False
+SC0,2526,2025-10-05,Falkirk,Rangers,8,7,False
+SC0,2526,2025-10-05,Aberdeen,Dundee,8,1,False
+SC0,2526,2025-10-18,Rangers,Dundee,13,13,False
+SC0,2526,2025-10-18,St Mirren,Aberdeen,14,13,False
+SC0,2526,2025-10-18,Kilmarnock,Hearts,14,14,False
+SC0,2526,2025-10-18,Hibernian,Livingston,14,14,False
+SC0,2526,2025-10-18,Motherwell,Falkirk,13,13,False
+SC0,2526,2025-10-19,Dundee,Celtic,1,14,False
+SC0,2526,2025-10-25,Livingston,Motherwell,7,7,False
+SC0,2526,2025-10-25,Falkirk,Dundee,7,6,False
+SC0,2526,2025-10-25,Dundee,St Mirren,6,7,False
+SC0,2526,2025-10-26,Rangers,Kilmarnock,8,8,False
+SC0,2526,2025-10-26,Aberdeen,Hibernian,8,8,False
+SC0,2526,2025-10-26,Hearts,Celtic,8,7,False
+SC0,2526,2025-10-29,Hibernian,Rangers,3,3,True
+SC0,2526,2025-10-29,Kilmarnock,Aberdeen,3,3,True
+SC0,2526,2025-10-29,Motherwell,Dundee,4,4,True
+SC0,2526,2025-10-29,St Mirren,Hearts,4,3,True
+SC0,2526,2025-10-29,Celtic,Falkirk,3,4,True
+SC0,2526,2025-11-01,Livingston,Hibernian,7,3,False
+SC0,2526,2025-11-01,Falkirk,Kilmarnock,3,3,False
+SC0,2526,2025-11-01,Hearts,Dundee,3,3,False
+SC0,2526,2025-11-08,St Mirren,Hibernian,10,7,False
+SC0,2526,2025-11-08,Falkirk,Livingston,7,7,False
+SC0,2526,2025-11-09,Hearts,Dundee,8,8,False
+SC0,2526,2025-11-09,Dundee,Rangers,8,11,False
+SC0,2526,2025-11-09,Aberdeen,Motherwell,11,11,False
+SC0,2526,2025-11-09,Celtic,Kilmarnock,11,8,False
+SC0,2526,2025-11-22,Dundee,Falkirk,13,14,False
+SC0,2526,2025-11-22,Hibernian,Dundee,14,13,False
+SC0,2526,2025-11-22,Kilmarnock,Motherwell,13,13,False
+SC0,2526,2025-11-22,Rangers,Livingston,13,14,False
+SC0,2526,2025-11-22,St Mirren,Celtic,14,13,False
+SC0,2526,2025-11-23,Aberdeen,Hearts,14,14,False
+SC0,2526,2025-11-25,Motherwell,Hibernian,3,3,True
+SC0,2526,2025-11-29,Kilmarnock,Dundee,7,7,False
+SC0,2526,2025-11-29,Motherwell,Hearts,4,6,False
+SC0,2526,2025-11-29,Dundee,St Mirren,7,7,False
+SC0,2526,2025-11-30,Rangers,Falkirk,8,8,False
+SC0,2526,2025-11-30,Livingston,Aberdeen,8,7,False
+SC0,2526,2025-11-30,Hibernian,Celtic,5,8,False
+SC0,2526,2025-12-03,Falkirk,Motherwell,3,4,True
+SC0,2526,2025-12-03,Dundee,Rangers,4,3,True
+SC0,2526,2025-12-03,Celtic,Dundee,3,4,True
+SC0,2526,2025-12-03,Aberdeen,St Mirren,3,4,True
+SC0,2526,2025-12-03,Hearts,Kilmarnock,4,4,True
+SC0,2526,2025-12-06,St Mirren,Dundee,3,3,False
+SC0,2526,2025-12-06,Dundee,Aberdeen,3,3,False
+SC0,2526,2025-12-06,Hibernian,Falkirk,6,3,False
+SC0,2526,2025-12-06,Motherwell,Livingston,3,6,False
+SC0,2526,2025-12-06,Kilmarnock,Rangers,3,3,False
+SC0,2526,2025-12-07,Celtic,Hearts,4,4,False
+SC0,2526,2025-12-13,Dundee,Motherwell,7,7,False
+SC0,2526,2025-12-13,Livingston,Dundee,7,7,False
+SC0,2526,2025-12-13,Falkirk,Hearts,7,6,False
+SC0,2526,2025-12-14,Aberdeen,Kilmarnock,8,8,False
+SC0,2526,2025-12-15,Rangers,Hibernian,9,9,False
+SC0,2526,2025-12-17,Dundee,Celtic,4,10,True
+SC0,2526,2025-12-20,Kilmarnock,Falkirk,6,7,False
+SC0,2526,2025-12-20,St Mirren,Livingston,14,7,False
+SC0,2526,2025-12-20,Dundee,Hibernian,3,5,False
+SC0,2526,2025-12-20,Motherwell,Dundee,7,3,False
+SC0,2526,2025-12-21,Hearts,Rangers,8,6,False
+SC0,2526,2025-12-21,Celtic,Aberdeen,4,7,False
+SC0,2526,2025-12-27,Hibernian,Hearts,7,6,False
+SC0,2526,2025-12-27,Aberdeen,Dundee,6,7,False
+SC0,2526,2025-12-27,St Mirren,Kilmarnock,7,7,False
+SC0,2526,2025-12-27,Rangers,Motherwell,6,7,False
+SC0,2526,2025-12-27,Livingston,Celtic,7,6,False
+SC0,2526,2025-12-27,Dundee,Falkirk,7,7,False
+SC0,2526,2025-12-30,Rangers,St Mirren,3,3,True
+SC0,2526,2025-12-30,Livingston,Dundee,3,3,True
+SC0,2526,2025-12-30,Hibernian,Aberdeen,3,3,True
+SC0,2526,2025-12-30,Dundee,Kilmarnock,3,3,True
+SC0,2526,2025-12-30,Motherwell,Celtic,3,3,True

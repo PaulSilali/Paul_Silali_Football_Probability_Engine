@@ -1,0 +1,173 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+5,Tottenham,19,Newcastle,2122,2,0,0.0,5.5
+5,Tottenham,13,Brentford,2122,2,1,0.5,1.0
+19,Newcastle,21,Southampton,2122,2,1,0.5,3.5
+16,Crystal Palace,19,Newcastle,2122,2,1,0.5,1.5
+2,Aston Villa,13,Brentford,2122,2,1,0.5,2.5
+7,Chelsea,14,Burnley,2122,2,1,0.5,3.0
+3,Brighton,15,Arsenal,2122,2,1,0.5,1.5
+3,Brighton,13,Brentford,2122,2,0,0.0,1.5
+6,Wolves,26,Norwich,2122,2,2,1.0,1.0
+3,Brighton,22,Leicester,2122,2,1,0.5,2.5
+6,Wolves,9,Man United,2122,4,0,0.0,2.25
+5,Tottenham,22,Leicester,2122,2,0,0.0,4.5
+1,Liverpool,11,West Ham,2122,2,0,0.0,3.0
+1,Liverpool,9,Man United,2122,4,2,0.5,4.25
+5,Tottenham,25,Watford,2122,2,0,0.0,1.0
+17,Everton,25,Watford,2122,2,1,0.5,3.5
+1,Liverpool,5,Tottenham,2122,2,2,1.0,3.0
+22,Leicester,26,Norwich,2122,2,0,0.0,3.0
+9,Man United,15,Arsenal,2122,4,0,0.0,4.25
+6,Wolves,22,Leicester,2122,2,0,0.0,2.0
+17,Everton,19,Newcastle,2122,2,0,0.0,2.5
+9,Man United,11,West Ham,2122,4,1,0.25,2.75
+14,Burnley,15,Arsenal,2122,2,1,0.5,0.5
+5,Tottenham,11,West Ham,2122,2,0,0.0,2.5
+11,West Ham,26,Norwich,2122,2,0,0.0,3.0
+9,Man United,22,Leicester,2122,4,1,0.25,4.5
+7,Chelsea,17,Everton,2122,2,1,0.5,1.5
+7,Chelsea,11,West Ham,2122,2,0,0.0,3.0
+1,Liverpool,13,Brentford,2122,2,1,0.5,4.5
+1,Liverpool,26,Norwich,2122,2,0,0.0,3.5
+3,Brighton,11,West Ham,2122,2,1,0.5,3.0
+7,Chelsea,22,Leicester,2122,2,1,0.5,2.5
+2,Aston Villa,22,Leicester,2122,2,1,0.5,1.5
+19,Newcastle,26,Norwich,2122,2,1,0.5,2.5
+5,Tottenham,14,Burnley,2122,2,0,0.0,1.0
+17,Everton,22,Leicester,2122,2,1,0.5,2.5
+10,Leeds,17,Everton,2122,2,1,0.5,3.5
+1,Liverpool,15,Arsenal,2122,2,0,0.0,3.0
+10,Leeds,21,Southampton,2122,2,1,0.5,1.5
+11,West Ham,16,Crystal Palace,2122,2,1,0.5,4.5
+3,Brighton,14,Burnley,2122,2,0,0.0,3.0
+2,Aston Villa,9,Man United,2122,4,1,0.25,3.25
+2,Aston Villa,14,Burnley,2122,2,1,0.5,3.0
+6,Wolves,11,West Ham,2122,2,0,0.0,1.0
+1,Liverpool,6,Wolves,2122,2,0,0.0,2.5
+15,Arsenal,21,Southampton,2122,2,0,0.0,2.0
+10,Leeds,25,Watford,2122,2,0,0.0,2.0
+9,Man United,14,Burnley,2122,4,1,0.25,2.5
+6,Wolves,13,Brentford,2122,2,0,0.0,2.5
+11,West Ham,13,Brentford,2122,2,0,0.0,2.5
+1,Liverpool,19,Newcastle,2122,2,0,0.0,2.5
+7,Chelsea,15,Arsenal,2122,2,0,0.0,4.0
+5,Tottenham,6,Wolves,2122,2,0,0.0,1.5
+13,Brentford,16,Crystal Palace,2122,2,2,1.0,
+2,Aston Villa,26,Norwich,2122,2,0,0.0,2.0
+5,Tottenham,10,Leeds,2122,2,0,0.0,3.5
+14,Burnley,25,Watford,2122,2,1,0.5,1.5
+14,Burnley,19,Newcastle,2122,2,0,0.0,2.0
+15,Arsenal,16,Crystal Palace,2122,2,1,0.5,3.5
+9,Man United,13,Brentford,2122,4,0,0.0,2.5
+11,West Ham,25,Watford,2122,2,0,0.0,3.0
+9,Man United,26,Norwich,2122,4,0,0.0,3.75
+1,Liverpool,7,Chelsea,2122,2,2,1.0,3.0
+10,Leeds,22,Leicester,2122,2,1,0.5,1.5
+2,Aston Villa,10,Leeds,2122,2,1,0.5,4.5
+10,Leeds,14,Burnley,2122,2,1,0.5,3.0
+2,Aston Villa,11,West Ham,2122,2,0,0.0,4.0
+21,Southampton,26,Norwich,2122,2,0,0.0,2.5
+3,Brighton,6,Wolves,2122,2,0,0.0,2.0
+13,Brentford,17,Everton,2122,2,0,0.0,3.0
+21,Southampton,25,Watford,2122,2,0,0.0,2.0
+22,Leicester,25,Watford,2122,2,0,0.0,6.0
+3,Brighton,7,Chelsea,2122,2,2,1.0,2.0
+13,Brentford,15,Arsenal,2122,2,0,0.0,2.5
+16,Crystal Palace,22,Leicester,2122,2,1,0.5,3.5
+10,Leeds,11,West Ham,2122,2,0,0.0,4.0
+3,Brighton,10,Leeds,2122,2,2,1.0,1.0
+13,Brentford,14,Burnley,2122,2,0,0.0,3.0
+6,Wolves,25,Watford,2122,2,0,0.0,3.0
+7,Chelsea,10,Leeds,2122,2,0,0.0,4.0
+7,Chelsea,13,Brentford,2122,2,0,0.0,3.0
+11,West Ham,19,Newcastle,2122,2,1,0.5,4.0
+13,Brentford,26,Norwich,2122,2,0,0.0,3.5
+9,Man United,19,Newcastle,2122,4,1,0.25,4.0
+2,Aston Villa,5,Tottenham,2122,2,0,0.0,3.5
+1,Liverpool,14,Burnley,2122,2,0,0.0,1.5
+6,Wolves,14,Burnley,2122,2,1,0.5,0.5
+21,Southampton,22,Leicester,2122,2,1,0.5,4.5
+2,Aston Villa,7,Chelsea,2122,2,0,0.0,3.5
+15,Arsenal,25,Watford,2122,2,0,0.0,3.0
+15,Arsenal,17,Everton,2122,2,0,0.0,4.5
+11,West Ham,22,Leicester,2122,2,1,0.5,4.5
+11,West Ham,21,Southampton,2122,2,1,0.5,2.5
+6,Wolves,15,Arsenal,2122,2,0,0.0,2.0
+2,Aston Villa,17,Everton,2122,2,0,0.0,2.0
+13,Brentford,19,Newcastle,2122,2,1,0.5,4.0
+2,Aston Villa,3,Brighton,2122,2,0,0.0,2.0
+9,Man United,17,Everton,2122,4,1,0.25,1.75
+6,Wolves,16,Crystal Palace,2122,2,0,0.0,2.0
+5,Tottenham,15,Arsenal,2122,2,0,0.0,3.5
+1,Liverpool,3,Brighton,2122,2,1,0.5,3.0
+13,Brentford,25,Watford,2122,2,0,0.0,3.0
+3,Brighton,9,Man United,2122,4,0,0.0,3.5
+15,Arsenal,19,Newcastle,2122,2,0,0.0,2.0
+3,Brighton,17,Everton,2122,2,0,0.0,3.5
+11,West Ham,14,Burnley,2122,2,2,1.0,1.0
+7,Chelsea,26,Norwich,2122,2,0,0.0,5.5
+5,Tottenham,16,Crystal Palace,2122,2,0,0.0,3.0
+6,Wolves,19,Newcastle,2122,2,0,0.0,2.0
+2,Aston Villa,21,Southampton,2122,2,0,0.0,2.5
+16,Crystal Palace,21,Southampton,2122,2,1,0.5,3.5
+9,Man United,16,Crystal Palace,2122,4,1,0.25,1.0
+1,Liverpool,25,Watford,2122,2,0,0.0,3.5
+1,Liverpool,21,Southampton,2122,2,0,0.0,3.5
+3,Brighton,25,Watford,2122,2,0,0.0,2.0
+9,Man United,10,Leeds,2122,4,0,0.0,5.75
+5,Tottenham,9,Man United,2122,4,0,0.0,3.5
+3,Brighton,26,Norwich,2122,2,2,1.0,
+6,Wolves,21,Southampton,2122,2,0,0.0,2.5
+7,Chelsea,21,Southampton,2122,2,0,0.0,5.0
+15,Arsenal,26,Norwich,2122,2,0,0.0,3.0
+6,Wolves,10,Leeds,2122,2,1,0.5,3.5
+14,Burnley,17,Everton,2122,2,0,0.0,4.5
+15,Arsenal,22,Leicester,2122,2,0,0.0,2.0
+13,Brentford,22,Leicester,2122,2,0,0.0,3.0
+7,Chelsea,25,Watford,2122,2,0,0.0,3.0
+6,Wolves,7,Chelsea,2122,2,2,1.0,2.0
+10,Leeds,16,Crystal Palace,2122,2,1,0.5,0.5
+17,Everton,21,Southampton,2122,2,0,0.0,3.0
+5,Tottenham,26,Norwich,2122,2,0,0.0,4.0
+16,Crystal Palace,25,Watford,2122,2,0,0.0,3.0
+14,Burnley,21,Southampton,2122,2,1,0.5,3.0
+11,West Ham,17,Everton,2122,2,0,0.0,2.0
+10,Leeds,13,Brentford,2122,2,1,0.5,3.5
+3,Brighton,21,Southampton,2122,2,2,1.0,3.0
+11,West Ham,15,Arsenal,2122,2,0,0.0,2.5
+9,Man United,9,Man United,2122,2,0,0.0,3.5
+17,Everton,26,Norwich,2122,2,0,0.0,2.5
+10,Leeds,26,Norwich,2122,2,0,0.0,3.0
+10,Leeds,15,Arsenal,2122,2,0,0.0,4.0
+1,Liverpool,10,Leeds,2122,2,0,0.0,4.5
+2,Aston Villa,19,Newcastle,2122,2,0,0.0,1.5
+2,Aston Villa,6,Wolves,2122,2,0,0.0,4.0
+1,Liverpool,17,Everton,2122,2,0,0.0,3.5
+1,Liverpool,2,Aston Villa,2122,2,0,0.0,2.0
+3,Brighton,5,Tottenham,2122,2,0,0.0,1.5
+14,Burnley,26,Norwich,2122,2,1,0.5,1.0
+1,Liverpool,16,Crystal Palace,2122,2,0,0.0,3.5
+13,Brentford,21,Southampton,2122,2,0,0.0,4.0
+9,Man United,21,Southampton,2122,4,4,1.0,1.5
+16,Crystal Palace,17,Everton,2122,2,0,0.0,4.5
+3,Brighton,16,Crystal Palace,2122,2,2,1.0,2.0
+2,Aston Villa,16,Crystal Palace,2122,2,1,0.5,2.5
+2,Aston Villa,25,Watford,2122,2,0,0.0,3.0
+6,Wolves,17,Everton,2122,2,0,0.0,2.0
+19,Newcastle,25,Watford,2122,2,2,1.0,2.0
+1,Liverpool,22,Leicester,2122,2,0,0.0,1.5
+10,Leeds,19,Newcastle,2122,2,1,0.5,1.5
+5,Tottenham,21,Southampton,2122,2,1,0.5,3.5
+3,Brighton,19,Newcastle,2122,2,1,0.5,2.5
+16,Crystal Palace,26,Norwich,2122,2,1,0.5,2.5
+7,Chelsea,19,Newcastle,2122,2,0,0.0,2.0
+7,Chelsea,9,Man United,2122,4,2,0.5,1.5
+5,Tottenham,7,Chelsea,2122,2,0,0.0,2.5
+2,Aston Villa,15,Arsenal,2122,2,0,0.0,2.5
+5,Tottenham,17,Everton,2122,2,1,0.5,2.5
+25,Watford,26,Norwich,2122,2,0,0.0,3.5
+19,Newcastle,22,Leicester,2122,2,0,0.0,3.5
+14,Burnley,16,Crystal Palace,2122,2,2,1.0,4.0
+9,Man United,25,Watford,2122,4,1,0.25,3.75
+7,Chelsea,16,Crystal Palace,2122,2,0,0.0,2.0
+14,Burnley,22,Leicester,2122,2,1,0.5,3.0

@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E1,2324,2023-08-04,Sheffield United,Southampton,88,7,False
+E1,2324,2023-08-05,Stoke,Rotherham,89,89,False
+E1,2324,2023-08-05,Swansea,Birmingham,89,89,False
+E1,2324,2023-08-05,Norwich,Hull,89,89,False
+E1,2324,2023-08-05,Middlesbrough,Millwall,89,89,False
+E1,2324,2023-08-05,Bristol City,Preston,89,89,False
+E1,2324,2023-08-05,Watford,QPR,89,89,False
+E1,2324,2023-08-05,Plymouth,Huddersfield,7,89,False
+E1,2324,2023-08-05,Blackburn,West Brom,89,89,False
+E1,2324,2023-08-06,Sunderland,Ipswich,90,7,False
+E1,2324,2023-08-06,Leicester,Coventry,7,90,False
+E1,2324,2023-08-06,Leeds,Cardiff,1110,90,False
+E1,2324,2023-08-12,Cardiff,QPR,6,7,False
+E1,2324,2023-08-12,Birmingham,Leeds,7,6,False
+E1,2324,2023-08-12,Coventry,Middlesbrough,6,7,False
+E1,2324,2023-08-12,Huddersfield,Leicester,7,6,False
+E1,2324,2023-08-12,Hull,Sheffield United,7,8,False
+E1,2324,2023-08-12,Ipswich,Stoke,6,7,False
+E1,2324,2023-08-12,Millwall,Bristol City,7,7,False
+E1,2324,2023-08-12,Preston,Sunderland,7,6,False
+E1,2324,2023-08-12,Rotherham,Blackburn,7,7,False
+E1,2324,2023-08-12,Southampton,Norwich,8,7,False
+E1,2324,2023-08-12,Watford,Plymouth,7,7,False
+E1,2324,2023-08-12,West Brom,Swansea,7,7,False
+E1,2324,2023-08-18,Leeds,West Brom,6,6,False
+E1,2324,2023-08-19,Blackburn,Hull,7,7,False
+E1,2324,2023-08-19,Plymouth,Southampton,7,7,False
+E1,2324,2023-08-19,Bristol City,Birmingham,7,7,False
+E1,2324,2023-08-19,Leicester,Cardiff,7,7,False
+E1,2324,2023-08-19,Middlesbrough,Huddersfield,7,7,False
+E1,2324,2023-08-19,QPR,Ipswich,7,7,False
+E1,2324,2023-08-19,Sheffield United,Preston,7,7,False
+E1,2324,2023-08-19,Stoke,Watford,7,7,False
+E1,2324,2023-08-19,Sunderland,Rotherham,7,7,False
+E1,2324,2023-08-19,Swansea,Coventry,7,7,False
+E1,2324,2023-08-20,Norwich,Millwall,8,8,False
+E1,2324,2023-08-25,Hull,Bristol City,6,6,False
+E1,2324,2023-08-26,Coventry,Sunderland,7,7,False
+E1,2324,2023-08-26,Huddersfield,Norwich,7,6,False
+E1,2324,2023-08-26,Ipswich,Leeds,7,8,False
+E1,2324,2023-08-26,Millwall,Stoke,6,7,False
+E1,2324,2023-08-26,Preston,Swansea,7,7,False
+E1,2324,2023-08-26,Rotherham,Leicester,7,7,False
+E1,2324,2023-08-26,Southampton,QPR,7,7,False
+E1,2324,2023-08-26,West Brom,Middlesbrough,8,7,False
+E1,2324,2023-08-26,Birmingham,Plymouth,7,7,False
+E1,2324,2023-08-26,Cardiff,Sheffield United,7,7,False
+E1,2324,2023-08-27,Watford,Blackburn,8,8,False
+E1,2324,2023-09-02,Swansea,Bristol City,7,8,False
+E1,2324,2023-09-02,Coventry,Watford,7,6,False
+E1,2324,2023-09-02,Ipswich,Cardiff,7,7,False
+E1,2324,2023-09-02,Leeds,Sheffield United,7,7,False
+E1,2324,2023-09-02,Leicester,Hull,7,8,False
+E1,2324,2023-09-02,Middlesbrough,QPR,7,7,False
+E1,2324,2023-09-02,Sunderland,Southampton,7,7,False
+E1,2324,2023-09-02,Rotherham,Norwich,7,7,False
+E1,2324,2023-09-02,Stoke,Preston,7,7,False
+E1,2324,2023-09-02,West Brom,Huddersfield,7,7,False
+E1,2324,2023-09-02,Plymouth,Blackburn,7,6,False
+E1,2324,2023-09-02,Birmingham,Millwall,7,7,False
+E1,2324,2023-09-15,Hull,Coventry,13,13,False
+E1,2324,2023-09-15,Southampton,Leicester,13,13,False
+E1,2324,2023-09-16,Sheffield United,Ipswich,14,14,False
+E1,2324,2023-09-16,Blackburn,Middlesbrough,14,14,False
+E1,2324,2023-09-16,Bristol City,West Brom,14,14,False
+E1,2324,2023-09-16,Huddersfield,Rotherham,14,14,False
+E1,2324,2023-09-16,Norwich,Stoke,14,14,False
+E1,2324,2023-09-16,Preston,Plymouth,14,14,False
+E1,2324,2023-09-16,QPR,Sunderland,14,14,False
+E1,2324,2023-09-16,Watford,Birmingham,14,14,False
+E1,2324,2023-09-16,Cardiff,Swansea,14,14,False
+E1,2324,2023-09-17,Millwall,Leeds,15,15,False
+E1,2324,2023-09-19,Sheffield United,Middlesbrough,3,3,True
+E1,2324,2023-09-19,Southampton,Ipswich,4,3,True
+E1,2324,2023-09-19,Cardiff,Coventry,3,4,True
+E1,2324,2023-09-19,Bristol City,Plymouth,3,3,True
+E1,2324,2023-09-19,Preston,Birmingham,3,3,True
+E1,2324,2023-09-19,QPR,Swansea,3,3,True
+E1,2324,2023-09-20,Watford,West Brom,4,4,True
+E1,2324,2023-09-20,Blackburn,Sunderland,4,4,True
+E1,2324,2023-09-20,Norwich,Leicester,4,5,True
+E1,2324,2023-09-20,Huddersfield,Stoke,4,4,True
+E1,2324,2023-09-20,Hull,Leeds,5,3,True
+E1,2324,2023-09-20,Millwall,Rotherham,3,4,True
+E1,2324,2023-09-22,Birmingham,QPR,3,3,False
+E1,2324,2023-09-23,Leicester,Bristol City,3,4,False
+E1,2324,2023-09-23,Middlesbrough,Southampton,4,4,False
+E1,2324,2023-09-23,Plymouth,Norwich,4,3,False
+E1,2324,2023-09-23,Rotherham,Preston,3,4,False
+E1,2324,2023-09-23,Swansea,Sheffield United,4,4,False
+E1,2324,2023-09-23,West Brom,Millwall,3,3,False
+E1,2324,2023-09-23,Ipswich,Blackburn,4,3,False
+E1,2324,2023-09-23,Leeds,Watford,3,3,False
+E1,2324,2023-09-24,Stoke,Hull,4,4,False
+E1,2324,2023-09-24,Sunderland,Cardiff,4,5,False
+E1,2324,2023-09-25,Coventry,Huddersfield,6,5,False
+E1,2324,2023-09-29,Sheffield United,Sunderland,6,5,False
+E1,2324,2023-09-30,Norwich,Birmingham,7,8,False
+E1,2324,2023-09-30,Southampton,Leeds,7,7,False
+E1,2324,2023-09-30,Bristol City,Stoke,7,6,False
+E1,2324,2023-09-30,Cardiff,Rotherham,6,7,False
+E1,2324,2023-09-30,Huddersfield,Ipswich,5,7,False
+E1,2324,2023-09-30,Hull,Plymouth,6,7,False
+E1,2324,2023-09-30,Millwall,Swansea,7,7,False
+E1,2324,2023-09-30,Preston,West Brom,7,7,False
+E1,2324,2023-09-30,QPR,Coventry,8,5,False
+E1,2324,2023-09-30,Watford,Middlesbrough,7,7,False
+E1,2324,2023-10-01,Blackburn,Leicester,8,8,False
+E1,2324,2023-10-03,Middlesbrough,Cardiff,3,3,True
+E1,2324,2023-10-03,Plymouth,Millwall,3,3,True
+E1,2324,2023-10-03,Stoke,Southampton,3,3,True
+E1,2324,2023-10-03,West Brom,Sheffield United,3,4,True
+E1,2324,2023-10-03,Ipswich,Hull,3,3,True
+E1,2324,2023-10-03,Birmingham,Huddersfield,3,3,True
+E1,2324,2023-10-04,Leicester,Preston,3,4,True
+E1,2324,2023-10-04,Sunderland,Watford,5,4,True
+E1,2324,2023-10-04,Swansea,Norwich,4,4,True
+E1,2324,2023-10-04,Rotherham,Bristol City,4,4,True
+E1,2324,2023-10-04,Coventry,Blackburn,4,3,True
+E1,2324,2023-10-04,Leeds,QPR,4,4,True
+E1,2324,2023-10-06,Birmingham,West Brom,3,3,False
+E1,2324,2023-10-07,Coventry,Norwich,3,3,False
+E1,2324,2023-10-07,Ipswich,Preston,4,3,False
+E1,2324,2023-10-07,Leeds,Bristol City,3,3,False
+E1,2324,2023-10-07,Leicester,Stoke,3,4,False
+E1,2324,2023-10-07,Millwall,Hull,4,4,False
+E1,2324,2023-10-07,Plymouth,Swansea,4,3,False
+E1,2324,2023-10-07,QPR,Blackburn,3,3,False
+E1,2324,2023-10-07,Sheffield United,Huddersfield,4,4,False
+E1,2324,2023-10-07,Southampton,Rotherham,4,3,False
+E1,2324,2023-10-07,Cardiff,Watford,4,3,False
+E1,2324,2023-10-07,Sunderland,Middlesbrough,3,4,False
+E1,2324,2023-10-21,Swansea,Leicester,14,14,False
+E1,2324,2023-10-21,Preston,Millwall,14,14,False
+E1,2324,2023-10-21,Blackburn,Cardiff,14,14,False
+E1,2324,2023-10-21,Bristol City,Coventry,14,14,False
+E1,2324,2023-10-21,Huddersfield,QPR,14,14,False
+E1,2324,2023-10-21,Hull,Southampton,14,14,False
+E1,2324,2023-10-21,Middlesbrough,Birmingham,14,15,False
+E1,2324,2023-10-21,Norwich,Leeds,14,14,False
+E1,2324,2023-10-21,Stoke,Sunderland,14,14,False
+E1,2324,2023-10-21,Watford,Sheffield United,14,14,False
+E1,2324,2023-10-21,West Brom,Plymouth,15,14,False
+E1,2324,2023-10-24,Swansea,Watford,3,3,True
+E1,2324,2023-10-24,West Brom,QPR,3,3,True
+E1,2324,2023-10-24,Huddersfield,Cardiff,3,3,True
+E1,2324,2023-10-24,Millwall,Blackburn,3,3,True
+E1,2324,2023-10-24,Leicester,Sunderland,3,3,True
+E1,2324,2023-10-24,Norwich,Middlesbrough,3,3,True
+E1,2324,2023-10-25,Birmingham,Hull,4,4,True
+E1,2324,2023-10-25,Preston,Southampton,4,4,True
+E1,2324,2023-10-25,Rotherham,Coventry,18,4,True
+E1,2324,2023-10-25,Stoke,Leeds,4,4,True
+E1,2324,2023-10-25,Plymouth,Sheffield United,4,4,True
+E1,2324,2023-10-25,Bristol City,Ipswich,4,18,True
+E1,2324,2023-10-28,Blackburn,Swansea,4,4,False
+E1,2324,2023-10-28,Cardiff,Bristol City,4,3,False
+E1,2324,2023-10-28,Hull,Preston,3,3,False
+E1,2324,2023-10-28,Ipswich,Plymouth,3,3,False
+E1,2324,2023-10-28,Middlesbrough,Stoke,4,3,False
+E1,2324,2023-10-28,QPR,Leicester,4,4,False
+E1,2324,2023-10-28,Sunderland,Norwich,4,4,False
+E1,2324,2023-10-28,Watford,Millwall,4,4,False
+E1,2324,2023-10-28,Leeds,Huddersfield,3,4,False
+E1,2324,2023-10-28,Southampton,Birmingham,3,3,False
+E1,2324,2023-10-29,Sheffield United,Rotherham,4,4,False
+E1,2324,2023-10-30,Coventry,West Brom,5,6,False
+E1,2324,2023-11-03,Leicester,Leeds,6,6,False
+E1,2324,2023-11-04,Huddersfield,Watford,7,7,False
+E1,2324,2023-11-04,Millwall,Southampton,7,7,False
+E1,2324,2023-11-04,Plymouth,Middlesbrough,7,7,False
+E1,2324,2023-11-04,Preston,Coventry,7,5,False
+E1,2324,2023-11-04,Rotherham,QPR,6,7,False
+E1,2324,2023-11-04,Stoke,Cardiff,7,7,False
+E1,2324,2023-11-04,Swansea,Sunderland,7,7,False
+E1,2324,2023-11-04,Birmingham,Ipswich,7,7,False
+E1,2324,2023-11-04,West Brom,Hull,5,7,False
+E1,2324,2023-11-04,Bristol City,Sheffield United,7,6,False
+E1,2324,2023-11-05,Norwich,Blackburn,8,8,False
+E1,2324,2023-11-07,Rotherham,Ipswich,3,3,True
+E1,2324,2023-11-10,Blackburn,Preston,5,6,False
+E1,2324,2023-11-11,Coventry,Stoke,7,7,False
+E1,2324,2023-11-11,Hull,Huddersfield,7,7,False
+E1,2324,2023-11-11,Ipswich,Swansea,4,7,False
+E1,2324,2023-11-11,Leeds,Plymouth,8,7,False
+E1,2324,2023-11-11,Middlesbrough,Leicester,7,8,False
+E1,2324,2023-11-11,QPR,Bristol City,7,7,False
+E1,2324,2023-11-11,Sheffield United,Millwall,7,7,False
+E1,2324,2023-11-11,Southampton,West Brom,7,7,False
+E1,2324,2023-11-11,Watford,Rotherham,7,4,False
+E1,2324,2023-11-11,Sunderland,Birmingham,7,7,False
+E1,2324,2023-11-11,Cardiff,Norwich,7,6,False
+E1,2324,2023-11-24,Rotherham,Leeds,13,13,False
+E1,2324,2023-11-25,Huddersfield,Southampton,14,14,False
+E1,2324,2023-11-25,Leicester,Watford,14,14,False
+E1,2324,2023-11-25,Millwall,Coventry,14,14,False
+E1,2324,2023-11-25,Norwich,QPR,14,14,False
+E1,2324,2023-11-25,Plymouth,Sunderland,14,14,False
+E1,2324,2023-11-25,Preston,Cardiff,15,14,False
+E1,2324,2023-11-25,Stoke,Blackburn,14,15,False
+E1,2324,2023-11-25,Swansea,Hull,14,14,False
+E1,2324,2023-11-25,Bristol City,Middlesbrough,14,14,False
+E1,2324,2023-11-25,West Brom,Ipswich,14,14,False
+E1,2324,2023-11-25,Birmingham,Sheffield United,14,14,False
+E1,2324,2023-11-28,Hull,Rotherham,3,4,True
+E1,2324,2023-11-28,Middlesbrough,Preston,3,3,True
+E1,2324,2023-11-28,QPR,Stoke,3,3,True
+E1,2324,2023-11-28,Watford,Norwich,3,3,True
+E1,2324,2023-11-28,Cardiff,West Brom,3,3,True
+E1,2324,2023-11-28,Coventry,Plymouth,3,3,True
+E1,2324,2023-11-29,Leeds,Swansea,5,4,True
+E1,2324,2023-11-29,Blackburn,Birmingham,4,4,True
+E1,2324,2023-11-29,Sheffield United,Leicester,4,4,True
+E1,2324,2023-11-29,Southampton,Bristol City,4,4,True
+E1,2324,2023-11-29,Sunderland,Huddersfield,4,4,True
+E1,2324,2023-11-29,Ipswich,Millwall,4,4,True
+E1,2324,2023-12-01,Preston,QPR,3,3,False
+E1,2324,2023-12-02,Leeds,Middlesbrough,3,4,False
+E1,2324,2023-12-02,Millwall,Sunderland,3,3,False
+E1,2324,2023-12-02,Plymouth,Stoke,4,4,False
+E1,2324,2023-12-02,West Brom,Leicester,4,3,False
+E1,2324,2023-12-02,Sheffield United,Blackburn,3,3,False
+E1,2324,2023-12-02,Southampton,Cardiff,3,4,False
+E1,2324,2023-12-02,Swansea,Huddersfield,3,3,False
+E1,2324,2023-12-02,Birmingham,Rotherham,3,4,False
+E1,2324,2023-12-02,Hull,Watford,4,4,False
+E1,2324,2023-12-02,Ipswich,Coventry,3,4,False
+E1,2324,2023-12-03,Bristol City,Norwich,4,5,False
+E1,2324,2023-12-08,Coventry,Birmingham,6,6,False
+E1,2324,2023-12-09,Cardiff,Millwall,7,7,False
+E1,2324,2023-12-09,Huddersfield,Bristol City,7,6,False
+E1,2324,2023-12-09,Leicester,Plymouth,7,7,False
+E1,2324,2023-12-09,Middlesbrough,Ipswich,7,7,False
+E1,2324,2023-12-09,Norwich,Preston,6,8,False
+E1,2324,2023-12-09,QPR,Hull,8,7,False
+E1,2324,2023-12-09,Rotherham,Swansea,7,7,False
+E1,2324,2023-12-09,Blackburn,Leeds,7,7,False
+E1,2324,2023-12-09,Watford,Southampton,7,7,False
+E1,2324,2023-12-09,Stoke,Sheffield United,7,7,False
+E1,2324,2023-12-09,Sunderland,West Brom,7,7,False
+E1,2324,2023-12-12,Rotherham,West Brom,3,3,True
+E1,2324,2023-12-12,Stoke,Swansea,3,3,True
+E1,2324,2023-12-12,Watford,Ipswich,3,3,True
+E1,2324,2023-12-12,Sunderland,Leeds,3,3,True
+E1,2324,2023-12-12,Huddersfield,Preston,3,3,True
+E1,2324,2023-12-12,Blackburn,Bristol City,3,3,True
+E1,2324,2023-12-13,Leicester,Millwall,4,4,True
+E1,2324,2023-12-13,Cardiff,Birmingham,4,5,True
+E1,2324,2023-12-13,Coventry,Southampton,5,4,True
+E1,2324,2023-12-13,Norwich,Sheffield United,4,4,True
+E1,2324,2023-12-13,QPR,Plymouth,4,4,True
+E1,2324,2023-12-13,Middlesbrough,Hull,4,4,True
+E1,2324,2023-12-16,Hull,Cardiff,3,3,False
+E1,2324,2023-12-16,Leeds,Coventry,4,3,False
+E1,2324,2023-12-16,Millwall,Huddersfield,3,4,False
+E1,2324,2023-12-16,Plymouth,Rotherham,3,4,False
+E1,2324,2023-12-16,Preston,Watford,4,4,False
+E1,2324,2023-12-16,Sheffield United,QPR,3,3,False
+E1,2324,2023-12-16,Southampton,Blackburn,3,4,False
+E1,2324,2023-12-16,Swansea,Middlesbrough,4,3,False
+E1,2324,2023-12-16,Bristol City,Sunderland,4,4,False
+E1,2324,2023-12-16,Ipswich,Norwich,4,3,False
+E1,2324,2023-12-17,West Brom,Stoke,5,5,False
+E1,2324,2023-12-18,Birmingham,Leicester,5,5,False
+E1,2324,2023-12-22,Bristol City,Hull,6,6,False
+E1,2324,2023-12-22,Swansea,Preston,6,6,False
+E1,2324,2023-12-23,Leicester,Rotherham,5,7,False
+E1,2324,2023-12-23,Middlesbrough,West Brom,7,6,False
+E1,2324,2023-12-23,Norwich,Huddersfield,7,7,False
+E1,2324,2023-12-23,Plymouth,Birmingham,7,5,False
+E1,2324,2023-12-23,QPR,Southampton,7,7,False
+E1,2324,2023-12-23,Sheffield United,Cardiff,7,7,False
+E1,2324,2023-12-23,Stoke,Millwall,6,7,False
+E1,2324,2023-12-23,Sunderland,Coventry,7,7,False
+E1,2324,2023-12-23,Blackburn,Watford,7,7,False
+E1,2324,2023-12-23,Leeds,Ipswich,7,7,False
+E1,2324,2023-12-26,Cardiff,Plymouth,3,3,True
+E1,2324,2023-12-26,Preston,Leeds,4,3,True
+E1,2324,2023-12-26,Millwall,QPR,3,3,True
+E1,2324,2023-12-26,Coventry,Sheffield United,3,3,True
+E1,2324,2023-12-26,Huddersfield,Blackburn,3,3,True
+E1,2324,2023-12-26,Hull,Sunderland,4,3,True
+E1,2324,2023-12-26,Rotherham,Middlesbrough,3,3,True
+E1,2324,2023-12-26,Southampton,Swansea,3,4,True
+E1,2324,2023-12-26,Watford,Bristol City,3,4,True
+E1,2324,2023-12-26,West Brom,Norwich,3,3,True
+E1,2324,2023-12-26,Birmingham,Stoke,3,3,True
+E1,2324,2023-12-26,Ipswich,Leicester,3,3,True
+E1,2324,2023-12-29,Hull,Blackburn,3,3,False
+E1,2324,2023-12-29,Cardiff,Leicester,3,3,False
+E1,2324,2023-12-29,Ipswich,QPR,3,3,False
+E1,2324,2023-12-29,Millwall,Norwich,3,3,False
+E1,2324,2023-12-29,Preston,Sheffield United,3,3,False
+E1,2324,2023-12-29,Southampton,Plymouth,3,3,False
+E1,2324,2023-12-29,Birmingham,Bristol City,3,3,False
+E1,2324,2023-12-29,Rotherham,Sunderland,3,3,False
+E1,2324,2023-12-29,Watford,Stoke,3,3,False
+E1,2324,2023-12-29,West Brom,Leeds,3,3,False
+E1,2324,2023-12-29,Coventry,Swansea,3,3,False
+E1,2324,2023-12-29,Huddersfield,Middlesbrough,3,3,False
+E1,2324,2024-01-01,Bristol City,Millwall,3,3,False
+E1,2324,2024-01-01,Leeds,Birmingham,3,3,False
+E1,2324,2024-01-01,Leicester,Huddersfield,3,3,False
+E1,2324,2024-01-01,Middlesbrough,Coventry,3,3,False
+E1,2324,2024-01-01,Norwich,Southampton,3,3,False
+E1,2324,2024-01-01,Plymouth,Watford,3,3,False
+E1,2324,2024-01-01,QPR,Cardiff,3,3,False
+E1,2324,2024-01-01,Stoke,Ipswich,3,3,False
+E1,2324,2024-01-01,Swansea,West Brom,3,3,False
+E1,2324,2024-01-01,Sheffield United,Hull,3,3,False
+E1,2324,2024-01-01,Sunderland,Preston,3,3,False
+E1,2324,2024-01-01,Blackburn,Rotherham,3,3,False
+E1,2324,2024-01-12,Hull,Norwich,11,11,False
+E1,2324,2024-01-13,Cardiff,Leeds,12,12,False
+E1,2324,2024-01-13,Huddersfield,Plymouth,12,12,False
+E1,2324,2024-01-13,Millwall,Middlesbrough,12,12,False
+E1,2324,2024-01-13,Preston,Bristol City,12,12,False
+E1,2324,2024-01-13,Rotherham,Stoke,12,12,False
+E1,2324,2024-01-13,Southampton,Sheffield United,12,12,False
+E1,2324,2024-01-13,West Brom,Blackburn,12,12,False
+E1,2324,2024-01-13,Ipswich,Sunderland,12,12,False
+E1,2324,2024-01-13,Birmingham,Swansea,12,12,False
+E1,2324,2024-01-13,Coventry,Leicester,12,12,False
+E1,2324,2024-01-14,QPR,Watford,13,13,False
+E1,2324,2024-01-19,Sunderland,Hull,6,7,False
+E1,2324,2024-01-20,Bristol City,Watford,7,6,False
+E1,2324,2024-01-20,Middlesbrough,Rotherham,7,7,False
+E1,2324,2024-01-20,Norwich,West Brom,8,7,False
+E1,2324,2024-01-20,Plymouth,Cardiff,7,7,False
+E1,2324,2024-01-20,QPR,Millwall,6,7,False
+E1,2324,2024-01-20,Sheffield United,Coventry,7,7,False
+E1,2324,2024-01-20,Stoke,Birmingham,7,7,False
+E1,2324,2024-01-20,Blackburn,Huddersfield,7,7,False
+E1,2324,2024-01-20,Swansea,Southampton,7,7,False
+E1,2324,2024-01-21,Leeds,Preston,8,8,False
+E1,2324,2024-01-22,Leicester,Ipswich,9,9,False
+E1,2324,2024-01-24,Leeds,Norwich,3,4,True
+E1,2324,2024-01-27,Sunderland,Stoke,8,7,False
+E1,2324,2024-01-27,Millwall,Preston,7,6,False
+E1,2324,2024-01-28,QPR,Huddersfield,8,8,False
+E1,2324,2024-01-30,Leicester,Swansea,8,10,True
+E1,2324,2024-01-30,Coventry,Bristol City,10,10,True
+E1,2324,2024-01-31,Sheffield United,Watford,11,11,True
+E1,2324,2024-02-02,Bristol City,Leeds,3,9,False
+E1,2324,2024-02-03,Hull,Millwall,15,7,False
+E1,2324,2024-02-03,Norwich,Coventry,10,4,False
+E1,2324,2024-02-03,Preston,Ipswich,7,12,False
+E1,2324,2024-02-03,Rotherham,Southampton,14,14,False
+E1,2324,2024-02-03,Stoke,Leicester,7,4,False
+E1,2324,2024-02-03,Huddersfield,Sheffield United,6,3,False
+E1,2324,2024-02-03,Watford,Cardiff,3,14,False
+E1,2324,2024-02-03,West Brom,Birmingham,14,14,False
+E1,2324,2024-02-03,Blackburn,QPR,14,6,False
+E1,2324,2024-02-03,Swansea,Plymouth,4,14,False
+E1,2324,2024-02-04,Middlesbrough,Sunderland,15,8,False
+E1,2324,2024-02-09,Sheffield United,Birmingham,6,6,False
+E1,2324,2024-02-10,Cardiff,Preston,7,7,False
+E1,2324,2024-02-10,Middlesbrough,Bristol City,6,8,False
+E1,2324,2024-02-10,QPR,Norwich,7,7,False
+E1,2324,2024-02-10,Southampton,Huddersfield,7,7,False
+E1,2324,2024-02-10,Sunderland,Plymouth,6,7,False
+E1,2324,2024-02-10,Watford,Leicester,7,7,False
+E1,2324,2024-02-10,Ipswich,West Brom,7,7,False
+E1,2324,2024-02-10,Blackburn,Stoke,7,7,False
+E1,2324,2024-02-10,Hull,Swansea,7,7,False
+E1,2324,2024-02-10,Leeds,Rotherham,8,7,False
+E1,2324,2024-02-11,Coventry,Millwall,8,8,False
+E1,2324,2024-02-13,Bristol City,Southampton,3,3,True
+E1,2324,2024-02-13,Birmingham,Blackburn,4,3,True
+E1,2324,2024-02-13,Leicester,Sheffield United,3,4,True
+E1,2324,2024-02-13,West Brom,Cardiff,3,3,True
+E1,2324,2024-02-13,Norwich,Watford,3,3,True
+E1,2324,2024-02-13,Swansea,Leeds,3,3,True
+E1,2324,2024-02-13,Rotherham,Hull,3,3,True
+E1,2324,2024-02-14,Millwall,Ipswich,3,4,True
+E1,2324,2024-02-14,Huddersfield,Sunderland,4,4,True
+E1,2324,2024-02-14,Plymouth,Coventry,4,3,True
+E1,2324,2024-02-14,Preston,Middlesbrough,4,4,True
+E1,2324,2024-02-14,Stoke,QPR,4,4,True
+E1,2324,2024-02-16,West Brom,Southampton,3,3,False
+E1,2324,2024-02-17,Bristol City,QPR,4,3,False
+E1,2324,2024-02-17,Plymouth,Leeds,3,4,False
+E1,2324,2024-02-17,Birmingham,Sunderland,4,3,False
+E1,2324,2024-02-17,Huddersfield,Hull,3,4,False
+E1,2324,2024-02-17,Leicester,Middlesbrough,4,3,False
+E1,2324,2024-02-17,Millwall,Sheffield United,3,4,False
+E1,2324,2024-02-17,Norwich,Cardiff,4,4,False
+E1,2324,2024-02-17,Preston,Blackburn,3,4,False
+E1,2324,2024-02-17,Rotherham,Watford,4,4,False
+E1,2324,2024-02-17,Stoke,Coventry,3,3,False
+E1,2324,2024-02-17,Swansea,Ipswich,4,3,False
+E1,2324,2024-02-20,Plymouth,West Brom,3,4,True
+E1,2324,2024-02-20,Southampton,Hull,4,3,True
+E1,2324,2024-02-20,Ipswich,Rotherham,3,3,True
+E1,2324,2024-02-20,Cardiff,Blackburn,3,3,True
+E1,2324,2024-02-23,Leeds,Leicester,6,6,False
+E1,2324,2024-02-23,Coventry,Preston,6,6,False
+E1,2324,2024-02-24,Cardiff,Stoke,4,7,False
+E1,2324,2024-02-24,Ipswich,Birmingham,4,7,False
+E1,2324,2024-02-24,Middlesbrough,Plymouth,7,4,False
+E1,2324,2024-02-24,QPR,Rotherham,7,4,False
+E1,2324,2024-02-24,Sheffield United,Bristol City,7,7,False
+E1,2324,2024-02-24,Southampton,Millwall,4,7,False
+E1,2324,2024-02-24,Sunderland,Swansea,7,7,False
+E1,2324,2024-02-24,Watford,Huddersfield,7,7,False
+E1,2324,2024-02-24,Hull,West Brom,4,4,False
+E1,2324,2024-02-24,Blackburn,Norwich,4,7,False
+E1,2324,2024-03-01,West Brom,Coventry,6,7,False
+E1,2324,2024-03-02,Birmingham,Southampton,7,7,False
+E1,2324,2024-03-02,Leicester,QPR,8,7,False
+E1,2324,2024-03-02,Millwall,Watford,7,7,False
+E1,2324,2024-03-02,Norwich,Sunderland,7,7,False
+E1,2324,2024-03-02,Plymouth,Ipswich,7,7,False
+E1,2324,2024-03-02,Huddersfield,Leeds,7,8,False
+E1,2324,2024-03-02,Rotherham,Sheffield United,7,7,False
+E1,2324,2024-03-02,Stoke,Middlesbrough,7,7,False
+E1,2324,2024-03-02,Swansea,Blackburn,7,7,False
+E1,2324,2024-03-02,Bristol City,Cardiff,7,7,False
+E1,2324,2024-03-02,Preston,Hull,8,7,False
+E1,2324,2024-03-05,Leeds,Stoke,3,3,True
+E1,2324,2024-03-05,Blackburn,Millwall,3,3,True
+E1,2324,2024-03-05,Coventry,Rotherham,4,3,True
+E1,2324,2024-03-05,Hull,Birmingham,3,3,True
+E1,2324,2024-03-05,Sheffield United,Plymouth,3,3,True
+E1,2324,2024-03-05,Sunderland,Leicester,3,3,True
+E1,2324,2024-03-05,Ipswich,Bristol City,3,3,True
+E1,2324,2024-03-06,Watford,Swansea,4,4,True
+E1,2324,2024-03-06,Middlesbrough,Norwich,4,4,True
+E1,2324,2024-03-06,Cardiff,Huddersfield,4,4,True
+E1,2324,2024-03-06,QPR,West Brom,4,5,True
+E1,2324,2024-03-08,Sheffield United,Leeds,3,3,False
+E1,2324,2024-03-09,Southampton,Sunderland,7,4,False
+E1,2324,2024-03-09,Watford,Coventry,3,4,False
+E1,2324,2024-03-09,Hull,Leicester,4,4,False
+E1,2324,2024-03-09,Millwall,Birmingham,4,4,False
+E1,2324,2024-03-09,Norwich,Rotherham,3,4,False
+E1,2324,2024-03-09,Preston,Stoke,7,4,False
+E1,2324,2024-03-09,QPR,Middlesbrough,3,3,False
+E1,2324,2024-03-09,Cardiff,Ipswich,3,4,False
+E1,2324,2024-03-09,Blackburn,Plymouth,4,4,False
+E1,2324,2024-03-10,Huddersfield,West Brom,4,4,False
+E1,2324,2024-03-10,Bristol City,Swansea,5,4,False
+E1,2324,2024-03-12,Birmingham,Middlesbrough,3,3,True
+E1,2324,2024-03-16,Swansea,Cardiff,6,7,False
+E1,2324,2024-03-16,Middlesbrough,Blackburn,4,7,False
+E1,2324,2024-03-16,Plymouth,Preston,7,7,False
+E1,2324,2024-03-16,Rotherham,Huddersfield,7,6,False
+E1,2324,2024-03-16,Stoke,Norwich,7,7,False
+E1,2324,2024-03-16,Sunderland,QPR,7,7,False
+E1,2324,2024-03-16,West Brom,Bristol City,6,6,False
+E1,2324,2024-03-16,Ipswich,Sheffield United,7,8,False
+E1,2324,2024-03-16,Birmingham,Watford,4,7,False
+E1,2324,2024-03-17,Leeds,Millwall,9,8,False
+E1,2324,2024-03-29,Preston,Rotherham,13,13,False
+E1,2324,2024-03-29,Bristol City,Leicester,13,20,False
+E1,2324,2024-03-29,Millwall,West Brom,12,13,False
+E1,2324,2024-03-29,Cardiff,Sunderland,13,13,False
+E1,2324,2024-03-29,Huddersfield,Coventry,13,20,False
+E1,2324,2024-03-29,Hull,Stoke,20,13,False
+E1,2324,2024-03-29,Norwich,Plymouth,13,13,False
+E1,2324,2024-03-29,QPR,Birmingham,13,13,False
+E1,2324,2024-03-29,Sheffield United,Swansea,13,13,False
+E1,2324,2024-03-29,Southampton,Middlesbrough,20,13,False
+E1,2324,2024-03-29,Blackburn,Ipswich,13,13,False
+E1,2324,2024-03-29,Watford,Leeds,13,12,False
+E1,2324,2024-04-01,Coventry,Cardiff,3,3,False
+E1,2324,2024-04-01,Middlesbrough,Sheffield United,3,3,False
+E1,2324,2024-04-01,Plymouth,Bristol City,3,3,False
+E1,2324,2024-04-01,Rotherham,Millwall,3,3,False
+E1,2324,2024-04-01,Stoke,Huddersfield,3,3,False
+E1,2324,2024-04-01,Sunderland,Blackburn,3,3,False
+E1,2324,2024-04-01,Swansea,QPR,3,3,False
+E1,2324,2024-04-01,West Brom,Watford,3,3,False
+E1,2324,2024-04-01,Ipswich,Southampton,3,3,False
+E1,2324,2024-04-01,Leeds,Hull,3,3,False
+E1,2324,2024-04-01,Birmingham,Preston,3,3,False
+E1,2324,2024-04-01,Leicester,Norwich,3,3,False
+E1,2324,2024-04-05,Rotherham,Plymouth,4,4,False
+E1,2324,2024-04-06,Cardiff,Hull,5,5,False
+E1,2324,2024-04-06,Coventry,Leeds,5,5,False
+E1,2324,2024-04-06,Huddersfield,Millwall,5,5,False
+E1,2324,2024-04-06,Leicester,Birmingham,5,5,False
+E1,2324,2024-04-06,Middlesbrough,Swansea,5,5,False
+E1,2324,2024-04-06,QPR,Sheffield United,5,5,False
+E1,2324,2024-04-06,Stoke,West Brom,5,5,False
+E1,2324,2024-04-06,Sunderland,Bristol City,5,5,False
+E1,2324,2024-04-06,Watford,Preston,5,5,False
+E1,2324,2024-04-06,Blackburn,Southampton,5,5,False
+E1,2324,2024-04-06,Norwich,Ipswich,5,5,False
+E1,2324,2024-04-09,Preston,Huddersfield,3,3,True
+E1,2324,2024-04-09,Millwall,Leicester,3,3,True
+E1,2324,2024-04-09,Plymouth,QPR,4,3,True
+E1,2324,2024-04-09,Sheffield United,Norwich,3,3,True
+E1,2324,2024-04-09,Southampton,Coventry,3,3,True
+E1,2324,2024-04-09,Leeds,Sunderland,3,3,True
+E1,2324,2024-04-10,Bristol City,Blackburn,4,4,True
+E1,2324,2024-04-10,Ipswich,Watford,4,4,True
+E1,2324,2024-04-10,Swansea,Stoke,4,4,True
+E1,2324,2024-04-10,West Brom,Rotherham,4,5,True
+E1,2324,2024-04-10,Hull,Middlesbrough,4,4,True
+E1,2324,2024-04-10,Birmingham,Cardiff,4,4,True
+E1,2324,2024-04-12,Plymouth,Leicester,3,3,False
+E1,2324,2024-04-13,Bristol City,Huddersfield,3,4,False
+E1,2324,2024-04-13,Hull,QPR,3,4,False
+E1,2324,2024-04-13,Ipswich,Middlesbrough,3,3,False
+E1,2324,2024-04-13,Millwall,Cardiff,4,3,False
+E1,2324,2024-04-13,Preston,Norwich,4,4,False
+E1,2324,2024-04-13,Sheffield United,Stoke,4,3,False
+E1,2324,2024-04-13,Southampton,Watford,4,3,False
+E1,2324,2024-04-13,Swansea,Rotherham,3,3,False
+E1,2324,2024-04-13,West Brom,Sunderland,3,4,False
+E1,2324,2024-04-13,Birmingham,Coventry,3,4,False
+E1,2324,2024-04-13,Leeds,Blackburn,4,3,False
+E1,2324,2024-04-16,Southampton,Preston,3,3,True
+E1,2324,2024-04-20,Huddersfield,Swansea,7,7,False
+E1,2324,2024-04-20,Norwich,Bristol City,7,7,False
+E1,2324,2024-04-20,Rotherham,Birmingham,7,7,False
+E1,2324,2024-04-20,Stoke,Plymouth,7,8,False
+E1,2324,2024-04-20,Sunderland,Millwall,7,7,False
+E1,2324,2024-04-20,Watford,Hull,7,7,False
+E1,2324,2024-04-20,QPR,Preston,7,4,False
+E1,2324,2024-04-20,Leicester,West Brom,8,7,False
+E1,2324,2024-04-20,Cardiff,Southampton,7,4,False
+E1,2324,2024-04-21,Blackburn,Sheffield United,8,8,False
+E1,2324,2024-04-22,Middlesbrough,Leeds,9,9,False
+E1,2324,2024-04-23,Leicester,Southampton,3,3,True
+E1,2324,2024-04-24,Coventry,Hull,11,4,True
+E1,2324,2024-04-26,QPR,Leeds,6,4,False
+E1,2324,2024-04-27,Cardiff,Middlesbrough,7,5,False
+E1,2324,2024-04-27,Huddersfield,Birmingham,7,7,False
+E1,2324,2024-04-27,Millwall,Plymouth,7,7,False
+E1,2324,2024-04-27,Norwich,Swansea,7,7,False
+E1,2324,2024-04-27,Sheffield United,West Brom,6,7,False
+E1,2324,2024-04-27,Southampton,Stoke,4,7,False
+E1,2324,2024-04-27,Watford,Sunderland,7,7,False
+E1,2324,2024-04-27,Hull,Ipswich,3,14,False
+E1,2324,2024-04-27,Blackburn,Coventry,6,3,False
+E1,2324,2024-04-27,Bristol City,Rotherham,7,7,False
+E1,2324,2024-04-29,Preston,Leicester,9,6,False
+E1,2324,2024-04-30,Coventry,Ipswich,3,3,True
+E1,2324,2024-05-04,Ipswich,Huddersfield,4,7,False
+E1,2324,2024-05-04,Leeds,Southampton,8,7,False
+E1,2324,2024-05-04,Leicester,Blackburn,5,7,False
+E1,2324,2024-05-04,Middlesbrough,Watford,7,7,False
+E1,2324,2024-05-04,Plymouth,Hull,7,7,False
+E1,2324,2024-05-04,Birmingham,Norwich,7,7,False
+E1,2324,2024-05-04,Stoke,Bristol City,7,7,False
+E1,2324,2024-05-04,Sunderland,Sheffield United,7,7,False
+E1,2324,2024-05-04,Swansea,Millwall,7,7,False
+E1,2324,2024-05-04,West Brom,Preston,7,5,False
+E1,2324,2024-05-04,Rotherham,Cardiff,7,7,False
+E1,2324,2024-05-04,Coventry,QPR,4,8,False

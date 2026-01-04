@@ -1,0 +1,233 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+N1,1920,2019-08-02,Zwolle,Willem II,7,7,False
+N1,1920,2019-08-03,FC Emmen,Groningen,7,7,False
+N1,1920,2019-08-03,Vitesse,Ajax,7,7,False
+N1,1920,2019-08-03,Twente,PSV Eindhoven,7,7,False
+N1,1920,2019-08-03,VVV Venlo,Waalwijk,7,7,False
+N1,1920,2019-08-04,Heracles,Heerenveen,7,7,False
+N1,1920,2019-08-04,Feyenoord,Sparta Rotterdam,7,7,False
+N1,1920,2019-08-04,Den Haag,Utrecht,7,7,False
+N1,1920,2019-08-04,AZ Alkmaar,For Sittard,7,7,False
+N1,1920,2019-08-09,Sparta Rotterdam,VVV Venlo,5,6,False
+N1,1920,2019-08-10,Groningen,Twente,7,7,False
+N1,1920,2019-08-10,Ajax,FC Emmen,7,7,False
+N1,1920,2019-08-10,Willem II,Vitesse,8,7,False
+N1,1920,2019-08-11,For Sittard,Heracles,7,7,False
+N1,1920,2019-08-11,Heerenveen,Feyenoord,7,7,False
+N1,1920,2019-08-11,Waalwijk,AZ Alkmaar,8,7,False
+N1,1920,2019-08-11,Utrecht,Zwolle,7,9,False
+N1,1920,2019-08-11,PSV Eindhoven,Den Haag,8,7,False
+N1,1920,2019-08-16,Vitesse,Zwolle,6,5,False
+N1,1920,2019-08-17,Den Haag,Sparta Rotterdam,6,8,False
+N1,1920,2019-08-17,VVV Venlo,Ajax,8,7,False
+N1,1920,2019-08-17,FC Emmen,Heerenveen,7,6,False
+N1,1920,2019-08-18,For Sittard,Willem II,7,8,False
+N1,1920,2019-08-18,Twente,Waalwijk,8,7,False
+N1,1920,2019-08-18,AZ Alkmaar,Groningen,7,8,False
+N1,1920,2019-08-18,Feyenoord,Utrecht,7,7,False
+N1,1920,2019-08-18,Heracles,PSV Eindhoven,7,7,False
+N1,1920,2019-08-24,Willem II,FC Emmen,6,7,False
+N1,1920,2019-08-24,Heracles,Vitesse,6,8,False
+N1,1920,2019-08-24,Heerenveen,Twente,7,6,False
+N1,1920,2019-08-25,Waalwijk,Den Haag,7,8,False
+N1,1920,2019-08-25,Utrecht,VVV Venlo,7,8,False
+N1,1920,2019-08-25,Zwolle,Sparta Rotterdam,9,8,False
+N1,1920,2019-08-30,FC Emmen,Zwolle,6,5,False
+N1,1920,2019-08-31,Heerenveen,For Sittard,7,13,False
+N1,1920,2019-08-31,Groningen,Heracles,13,7,False
+N1,1920,2019-08-31,Den Haag,VVV Venlo,6,6,False
+N1,1920,2019-09-01,Twente,Utrecht,8,7,False
+N1,1920,2019-09-01,Sparta Rotterdam,Ajax,7,15,False
+N1,1920,2019-09-01,Vitesse,AZ Alkmaar,8,14,False
+N1,1920,2019-09-01,Willem II,Feyenoord,8,14,False
+N1,1920,2019-09-01,Waalwijk,PSV Eindhoven,7,14,False
+N1,1920,2019-09-14,Ajax,Heerenveen,13,14,False
+N1,1920,2019-09-14,AZ Alkmaar,Sparta Rotterdam,13,13,False
+N1,1920,2019-09-14,VVV Venlo,Groningen,14,14,False
+N1,1920,2019-09-14,PSV Eindhoven,Vitesse,13,13,False
+N1,1920,2019-09-14,Utrecht,FC Emmen,13,15,False
+N1,1920,2019-09-15,Zwolle,Waalwijk,16,14,False
+N1,1920,2019-09-15,Feyenoord,Den Haag,14,15,False
+N1,1920,2019-09-15,Heracles,Willem II,15,14,False
+N1,1920,2019-09-15,For Sittard,Twente,15,14,False
+N1,1920,2019-09-20,Twente,Heracles,5,5,False
+N1,1920,2019-09-21,Sparta Rotterdam,Waalwijk,7,6,False
+N1,1920,2019-09-21,Groningen,Zwolle,7,6,False
+N1,1920,2019-09-21,Willem II,VVV Venlo,6,7,False
+N1,1920,2019-09-21,Vitesse,For Sittard,7,6,False
+N1,1920,2019-09-22,Heerenveen,Utrecht,8,8,False
+N1,1920,2019-09-22,FC Emmen,Feyenoord,8,7,False
+N1,1920,2019-09-22,Den Haag,AZ Alkmaar,7,8,False
+N1,1920,2019-09-22,PSV Eindhoven,Ajax,8,8,False
+N1,1920,2019-09-25,PSV Eindhoven,Groningen,3,4,True
+N1,1920,2019-09-25,Ajax,For Sittard,3,4,True
+N1,1920,2019-09-26,Feyenoord,AZ Alkmaar,4,4,True
+N1,1920,2019-09-27,FC Emmen,Den Haag,5,5,False
+N1,1920,2019-09-28,VVV Venlo,Heerenveen,7,6,False
+N1,1920,2019-09-28,Ajax,Groningen,3,3,False
+N1,1920,2019-09-28,For Sittard,Sparta Rotterdam,3,7,False
+N1,1920,2019-09-29,Waalwijk,Vitesse,8,8,False
+N1,1920,2019-09-29,Utrecht,Willem II,7,8,False
+N1,1920,2019-09-29,Zwolle,PSV Eindhoven,8,4,False
+N1,1920,2019-09-29,AZ Alkmaar,Heracles,3,9,False
+N1,1920,2019-09-29,Feyenoord,Twente,3,9,False
+N1,1920,2019-10-04,Groningen,Waalwijk,6,5,False
+N1,1920,2019-10-05,Heracles,FC Emmen,6,8,False
+N1,1920,2019-10-05,Sparta Rotterdam,Twente,7,6,False
+N1,1920,2019-10-05,Vitesse,Utrecht,6,6,False
+N1,1920,2019-10-05,Heerenveen,Zwolle,7,6,False
+N1,1920,2019-10-06,Den Haag,Ajax,9,8,False
+N1,1920,2019-10-06,For Sittard,Feyenoord,8,7,False
+N1,1920,2019-10-06,PSV Eindhoven,VVV Venlo,7,8,False
+N1,1920,2019-10-06,Willem II,AZ Alkmaar,7,7,False
+N1,1920,2019-10-19,AZ Alkmaar,Heerenveen,13,14,False
+N1,1920,2019-10-19,Waalwijk,Ajax,15,13,False
+N1,1920,2019-10-19,Twente,Willem II,14,13,False
+N1,1920,2019-10-19,Utrecht,PSV Eindhoven,14,13,False
+N1,1920,2019-10-19,VVV Venlo,Vitesse,13,14,False
+N1,1920,2019-10-20,Zwolle,Den Haag,15,14,False
+N1,1920,2019-10-20,FC Emmen,For Sittard,15,14,False
+N1,1920,2019-10-20,Groningen,Sparta Rotterdam,16,15,False
+N1,1920,2019-10-20,Feyenoord,Heracles,14,15,False
+N1,1920,2019-10-25,Twente,FC Emmen,6,5,False
+N1,1920,2019-10-26,Willem II,Waalwijk,7,7,False
+N1,1920,2019-10-26,For Sittard,VVV Venlo,6,7,False
+N1,1920,2019-10-26,Vitesse,Den Haag,7,6,False
+N1,1920,2019-10-26,Heracles,Zwolle,6,6,False
+N1,1920,2019-10-27,Heerenveen,Groningen,8,7,False
+N1,1920,2019-10-27,PSV Eindhoven,AZ Alkmaar,8,8,False
+N1,1920,2019-10-27,Sparta Rotterdam,Utrecht,7,8,False
+N1,1920,2019-10-27,Ajax,Feyenoord,8,7,False
+N1,1920,2019-11-01,Zwolle,Ajax,6,5,False
+N1,1920,2019-11-02,Waalwijk,Heracles,7,7,False
+N1,1920,2019-11-02,Sparta Rotterdam,PSV Eindhoven,6,6,False
+N1,1920,2019-11-02,AZ Alkmaar,Twente,6,8,False
+N1,1920,2019-11-03,FC Emmen,Vitesse,9,8,False
+N1,1920,2019-11-03,Groningen,Willem II,7,8,False
+N1,1920,2019-11-03,Utrecht,For Sittard,7,8,False
+N1,1920,2019-11-03,VVV Venlo,Feyenoord,8,7,False
+N1,1920,2019-11-03,Den Haag,Heerenveen,8,7,False
+N1,1920,2019-11-08,Vitesse,Groningen,5,5,False
+N1,1920,2019-11-09,Heerenveen,Sparta Rotterdam,6,7,False
+N1,1920,2019-11-09,For Sittard,Den Haag,6,6,False
+N1,1920,2019-11-09,Heracles,VVV Venlo,7,6,False
+N1,1920,2019-11-10,Ajax,Utrecht,9,7,False
+N1,1920,2019-11-10,Twente,Zwolle,8,9,False
+N1,1920,2019-11-10,Willem II,PSV Eindhoven,7,8,False
+N1,1920,2019-11-10,Feyenoord,Waalwijk,7,8,False
+N1,1920,2019-11-10,AZ Alkmaar,FC Emmen,8,7,False
+N1,1920,2019-11-23,Utrecht,AZ Alkmaar,13,13,False
+N1,1920,2019-11-23,Ajax,Heracles,13,14,False
+N1,1920,2019-11-23,Zwolle,For Sittard,13,14,False
+N1,1920,2019-11-23,Den Haag,Willem II,14,13,False
+N1,1920,2019-11-24,Groningen,Feyenoord,16,14,False
+N1,1920,2019-11-24,PSV Eindhoven,Heerenveen,14,15,False
+N1,1920,2019-11-24,Waalwijk,FC Emmen,14,14,False
+N1,1920,2019-11-24,Sparta Rotterdam,Vitesse,15,16,False
+N1,1920,2019-11-24,VVV Venlo,Twente,15,14,False
+N1,1920,2019-11-29,Heerenveen,Vitesse,5,5,False
+N1,1920,2019-11-30,Willem II,Sparta Rotterdam,7,6,False
+N1,1920,2019-11-30,For Sittard,Groningen,7,6,False
+N1,1920,2019-11-30,Heracles,Den Haag,7,7,False
+N1,1920,2019-12-01,Twente,Ajax,7,8,False
+N1,1920,2019-12-01,Utrecht,Waalwijk,8,7,False
+N1,1920,2019-12-01,AZ Alkmaar,VVV Venlo,8,7,False
+N1,1920,2019-12-01,Feyenoord,Zwolle,7,8,False
+N1,1920,2019-12-01,FC Emmen,PSV Eindhoven,7,7,False
+N1,1920,2019-12-06,Ajax,Willem II,5,6,False
+N1,1920,2019-12-07,Den Haag,Twente,7,6,False
+N1,1920,2019-12-07,PSV Eindhoven,For Sittard,6,7,False
+N1,1920,2019-12-07,VVV Venlo,FC Emmen,6,6,False
+N1,1920,2019-12-07,Zwolle,AZ Alkmaar,6,6,False
+N1,1920,2019-12-08,Vitesse,Feyenoord,9,7,False
+N1,1920,2019-12-08,Groningen,Utrecht,8,7,False
+N1,1920,2019-12-08,Waalwijk,Heerenveen,7,9,False
+N1,1920,2019-12-08,Sparta Rotterdam,Heracles,8,8,False
+N1,1920,2019-12-13,Heerenveen,Willem II,5,7,False
+N1,1920,2019-12-14,Den Haag,Groningen,7,6,False
+N1,1920,2019-12-14,For Sittard,Waalwijk,7,6,False
+N1,1920,2019-12-14,VVV Venlo,Zwolle,7,7,False
+N1,1920,2019-12-14,Twente,Vitesse,7,6,False
+N1,1920,2019-12-15,FC Emmen,Sparta Rotterdam,8,7,False
+N1,1920,2019-12-15,Feyenoord,PSV Eindhoven,7,8,False
+N1,1920,2019-12-15,AZ Alkmaar,Ajax,8,9,False
+N1,1920,2019-12-15,Heracles,Utrecht,7,7,False
+N1,1920,2019-12-20,Waalwijk,Twente,6,6,False
+N1,1920,2019-12-21,Heerenveen,Heracles,8,6,False
+N1,1920,2019-12-21,PSV Eindhoven,Zwolle,6,7,False
+N1,1920,2019-12-21,Sparta Rotterdam,AZ Alkmaar,6,6,False
+N1,1920,2019-12-21,Willem II,For Sittard,8,7,False
+N1,1920,2019-12-22,Ajax,Den Haag,7,8,False
+N1,1920,2019-12-22,Groningen,FC Emmen,8,7,False
+N1,1920,2019-12-22,Utrecht,Feyenoord,7,7,False
+N1,1920,2019-12-22,Vitesse,VVV Venlo,8,8,False
+N1,1920,2020-01-17,Zwolle,Utrecht,27,26,False
+N1,1920,2020-01-18,For Sittard,Vitesse,28,27,False
+N1,1920,2020-01-18,Feyenoord,Heerenveen,27,28,False
+N1,1920,2020-01-18,Twente,Groningen,29,27,False
+N1,1920,2020-01-18,AZ Alkmaar,Willem II,28,28,False
+N1,1920,2020-01-19,VVV Venlo,PSV Eindhoven,28,29,False
+N1,1920,2020-01-19,Ajax,Sparta Rotterdam,28,29,False
+N1,1920,2020-01-19,FC Emmen,Heracles,28,29,False
+N1,1920,2020-01-19,Den Haag,Waalwijk,28,30,False
+N1,1920,2020-01-24,Utrecht,Den Haag,7,5,False
+N1,1920,2020-01-25,Heerenveen,AZ Alkmaar,7,7,False
+N1,1920,2020-01-25,Heracles,Feyenoord,6,7,False
+N1,1920,2020-01-25,Waalwijk,VVV Venlo,6,6,False
+N1,1920,2020-01-25,Sparta Rotterdam,For Sittard,6,7,False
+N1,1920,2020-01-26,Vitesse,FC Emmen,8,7,False
+N1,1920,2020-01-26,Groningen,Ajax,8,7,False
+N1,1920,2020-01-26,Willem II,Zwolle,8,9,False
+N1,1920,2020-01-26,PSV Eindhoven,Twente,7,8,False
+N1,1920,2020-01-31,AZ Alkmaar,Waalwijk,6,6,False
+N1,1920,2020-02-01,Den Haag,Vitesse,8,6,False
+N1,1920,2020-02-01,Feyenoord,FC Emmen,7,6,False
+N1,1920,2020-02-01,Twente,Sparta Rotterdam,6,7,False
+N1,1920,2020-02-01,Zwolle,Groningen,6,6,False
+N1,1920,2020-02-02,Willem II,Heracles,7,8,False
+N1,1920,2020-02-02,For Sittard,Heerenveen,8,8,False
+N1,1920,2020-02-02,VVV Venlo,Utrecht,8,9,False
+N1,1920,2020-02-02,Ajax,PSV Eindhoven,7,7,False
+N1,1920,2020-02-07,Heracles,For Sittard,5,5,False
+N1,1920,2020-02-08,Groningen,Vitesse,7,7,False
+N1,1920,2020-02-08,Heerenveen,VVV Venlo,6,6,False
+N1,1920,2020-02-08,PSV Eindhoven,Willem II,6,6,False
+N1,1920,2020-02-08,Waalwijk,Zwolle,8,7,False
+N1,1920,2020-02-11,FC Emmen,Twente,10,10,True
+N1,1920,2020-02-11,Sparta Rotterdam,Den Haag,10,10,True
+N1,1920,2020-02-14,VVV Venlo,Heracles,6,7,False
+N1,1920,2020-02-15,Twente,AZ Alkmaar,4,15,False
+N1,1920,2020-02-15,Den Haag,PSV Eindhoven,4,7,False
+N1,1920,2020-02-15,For Sittard,FC Emmen,8,4,False
+N1,1920,2020-02-16,Vitesse,Heerenveen,8,8,False
+N1,1920,2020-02-16,Ajax,Waalwijk,14,8,False
+N1,1920,2020-02-16,Sparta Rotterdam,Groningen,5,8,False
+N1,1920,2020-02-16,Willem II,Utrecht,8,14,False
+N1,1920,2020-02-16,Zwolle,Feyenoord,8,15,False
+N1,1920,2020-02-21,Waalwijk,Sparta Rotterdam,5,5,False
+N1,1920,2020-02-22,FC Emmen,Willem II,7,6,False
+N1,1920,2020-02-22,Feyenoord,For Sittard,6,7,False
+N1,1920,2020-02-22,Heerenveen,Den Haag,6,7,False
+N1,1920,2020-02-22,Groningen,VVV Venlo,6,8,False
+N1,1920,2020-02-23,Utrecht,Twente,7,8,False
+N1,1920,2020-02-23,AZ Alkmaar,Zwolle,8,7,False
+N1,1920,2020-02-23,Vitesse,PSV Eindhoven,7,8,False
+N1,1920,2020-02-23,Heracles,Ajax,9,7,False
+N1,1920,2020-02-28,Willem II,Groningen,6,6,False
+N1,1920,2020-02-29,Den Haag,Heracles,7,6,False
+N1,1920,2020-02-29,VVV Venlo,For Sittard,7,7,False
+N1,1920,2020-02-29,Zwolle,Vitesse,6,6,False
+N1,1920,2020-02-29,Twente,Heerenveen,6,7,False
+N1,1920,2020-03-01,Waalwijk,Utrecht,9,7,False
+N1,1920,2020-03-01,PSV Eindhoven,Feyenoord,7,8,False
+N1,1920,2020-03-01,Sparta Rotterdam,FC Emmen,9,8,False
+N1,1920,2020-03-01,Ajax,AZ Alkmaar,7,7,False
+N1,1920,2020-03-06,For Sittard,Zwolle,6,6,False
+N1,1920,2020-03-07,AZ Alkmaar,Den Haag,6,7,False
+N1,1920,2020-03-07,FC Emmen,VVV Venlo,6,7,False
+N1,1920,2020-03-07,Vitesse,Twente,7,7,False
+N1,1920,2020-03-07,Heerenveen,Ajax,7,6,False
+N1,1920,2020-03-08,Utrecht,Sparta Rotterdam,7,7,False
+N1,1920,2020-03-08,Feyenoord,Willem II,7,9,False
+N1,1920,2020-03-08,Heracles,Waalwijk,8,7,False
+N1,1920,2020-03-08,Groningen,PSV Eindhoven,9,7,False

@@ -1,0 +1,136 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2020-10-16,Hearts,Dundee United,6,2,H,0
+2020-10-17,Raith Rvs,Arbroath,3,0,H,0
+2020-10-17,Dunfermline,Inverness C,3,1,H,0
+2020-10-17,Morton,Alloa,1,0,H,0
+2020-10-17,Ayr,Queen of Sth,2,1,H,0
+2020-10-23,Arbroath,Hearts,0,1,A,0
+2020-10-24,Inverness C,Ayr,1,1,D,1
+2020-10-24,Queen of Sth,Raith Rvs,2,5,A,0
+2020-10-24,Dundee United,Morton,1,0,H,0
+2020-10-24,Alloa,Dunfermline,1,4,A,0
+2020-10-31,Inverness C,Arbroath,3,1,H,0
+2020-10-31,Morton,Ayr,3,2,H,0
+2020-10-31,Dundee United,Raith Rvs,1,1,D,1
+2020-10-31,Dunfermline,Queen of Sth,3,2,H,0
+2020-11-06,Alloa,Dundee United,3,3,D,1
+2020-11-07,Hearts,Inverness C,2,1,H,0
+2020-11-07,Raith Rvs,Morton,5,0,H,0
+2020-11-07,Ayr,Dunfermline,0,0,D,1
+2020-11-07,Arbroath,Queen of Sth,1,1,D,1
+2020-11-20,Dunfermline,Hearts,2,1,H,0
+2020-11-21,Inverness C,Raith Rvs,2,0,H,0
+2020-11-21,Queen of Sth,Alloa,2,0,H,0
+2020-11-21,Ayr,Dundee United,2,0,H,0
+2020-11-21,Arbroath,Morton,0,0,D,1
+2020-11-24,Hearts,Alloa,3,0,H,0
+2020-12-04,Queen of Sth,Inverness C,0,3,A,0
+2020-12-05,Morton,Hearts,0,2,A,0
+2020-12-05,Raith Rvs,Dunfermline,2,2,D,1
+2020-12-05,Alloa,Ayr,0,2,A,0
+2020-12-05,Dundee United,Arbroath,1,0,H,0
+2020-12-11,Ayr,Raith Rvs,0,0,D,1
+2020-12-12,Dunfermline,Morton,1,2,A,0
+2020-12-12,Hearts,Queen of Sth,6,1,H,0
+2020-12-12,Inverness C,Dundee United,2,2,D,1
+2020-12-12,Arbroath,Alloa,0,1,A,0
+2020-12-19,Alloa,Inverness C,2,1,H,0
+2020-12-19,Arbroath,Ayr,2,1,H,0
+2020-12-19,Dundee United,Dunfermline,3,3,D,1
+2020-12-19,Morton,Queen of Sth,2,0,H,0
+2020-12-26,Hearts,Ayr,5,3,H,0
+2020-12-26,Queen of Sth,Dundee United,1,3,A,0
+2020-12-26,Dunfermline,Arbroath,1,0,H,0
+2020-12-26,Alloa,Raith Rvs,2,5,A,0
+2020-12-29,Dundee United,Alloa,3,1,H,0
+2020-12-29,Hearts,Arbroath,3,1,H,0
+2020-12-29,Raith Rvs,Queen of Sth,0,2,A,0
+2020-12-29,Ayr,Morton,1,1,D,1
+2020-12-29,Inverness C,Dunfermline,1,1,D,1
+2021-01-02,Dundee United,Hearts,3,1,H,0
+2021-01-02,Alloa,Morton,1,1,D,1
+2021-01-02,Queen of Sth,Ayr,3,2,H,0
+2021-01-15,Morton,Dunfermline,0,0,D,1
+2021-01-16,Queen of Sth,Arbroath,2,2,D,1
+2021-01-16,Alloa,Hearts,1,3,A,0
+2021-01-22,Arbroath,Dundee United,1,1,D,1
+2021-01-23,Queen of Sth,Morton,2,1,H,0
+2021-01-23,Hearts,Raith Rvs,2,3,A,0
+2021-01-23,Dunfermline,Ayr,0,0,D,1
+2021-01-26,Raith Rvs,Hearts,0,4,A,0
+2021-01-27,Morton,Inverness C,2,2,D,1
+2021-01-30,Morton,Arbroath,0,1,A,0
+2021-01-30,Raith Rvs,Dundee United,3,1,H,0
+2021-01-30,Ayr,Alloa,4,1,H,0
+2021-01-30,Hearts,Dunfermline,1,0,H,0
+2021-02-03,Dunfermline,Raith Rvs,4,1,H,0
+2021-02-03,Arbroath,Inverness C,1,1,D,1
+2021-02-05,Ayr,Hearts,0,1,A,0
+2021-02-06,Alloa,Queen of Sth,2,1,H,0
+2021-02-06,Arbroath,Dunfermline,2,0,H,0
+2021-02-06,Morton,Raith Rvs,0,1,A,0
+2021-02-12,Queen of Sth,Hearts,1,1,D,1
+2021-02-13,Alloa,Arbroath,1,1,D,1
+2021-02-17,Inverness C,Queen of Sth,0,1,A,0
+2021-02-20,Hearts,Morton,1,1,D,1
+2021-02-20,Ayr,Inverness C,0,2,A,0
+2021-02-20,Dundee United,Queen of Sth,2,3,A,0
+2021-02-20,Dunfermline,Alloa,2,1,H,0
+2021-02-20,Arbroath,Raith Rvs,1,0,H,0
+2021-02-23,Inverness C,Alloa,2,2,D,1
+2021-02-26,Inverness C,Hearts,1,1,D,1
+2021-02-27,Queen of Sth,Dunfermline,1,0,H,0
+2021-02-27,Raith Rvs,Alloa,3,1,H,0
+2021-02-27,Ayr,Arbroath,0,1,A,0
+2021-02-27,Morton,Dundee United,2,2,D,1
+2021-03-02,Dundee United,Inverness C,2,1,H,0
+2021-03-06,Hearts,Dundee United,2,1,H,0
+2021-03-06,Morton,Ayr,0,2,A,0
+2021-03-06,Arbroath,Queen of Sth,2,4,A,0
+2021-03-06,Alloa,Inverness C,1,1,D,1
+2021-03-09,Inverness C,Morton,0,1,A,0
+2021-03-09,Raith Rvs,Ayr,0,0,D,1
+2021-03-12,Inverness C,Raith Rvs,0,0,D,1
+2021-03-13,Hearts,Ayr,2,0,H,0
+2021-03-13,Queen of Sth,Alloa,2,3,A,0
+2021-03-13,Dunfermline,Morton,1,0,H,0
+2021-03-13,Dundee United,Arbroath,2,0,H,0
+2021-03-16,Dundee United,Ayr,1,3,A,0
+2021-03-16,Raith Rvs,Inverness C,0,1,A,0
+2021-03-19,Alloa,Dundee United,0,3,A,0
+2021-03-20,Morton,Queen of Sth,2,1,H,0
+2021-03-20,Dunfermline,Inverness C,0,1,A,0
+2021-03-20,Arbroath,Hearts,0,0,D,1
+2021-03-20,Ayr,Raith Rvs,1,1,D,1
+2021-03-27,Hearts,Queen of Sth,2,3,A,0
+2021-03-27,Alloa,Ayr,2,2,D,1
+2021-03-27,Inverness C,Arbroath,1,0,H,0
+2021-03-27,Raith Rvs,Morton,1,0,H,0
+2021-03-27,Dundee United,Dunfermline,3,2,H,0
+2021-03-30,Raith Rvs,Dunfermline,5,1,H,0
+2021-04-03,Dunfermline,Hearts,0,0,D,1
+2021-04-03,Arbroath,Alloa,2,1,H,0
+2021-04-06,Ayr,Dundee United,0,3,A,0
+2021-04-06,Morton,Inverness C,1,4,A,0
+2021-04-09,Hearts,Alloa,6,0,H,0
+2021-04-10,Queen of Sth,Inverness C,1,1,D,1
+2021-04-10,Raith Rvs,Arbroath,2,2,D,1
+2021-04-10,Dundee United,Morton,1,1,D,1
+2021-04-10,Ayr,Dunfermline,1,1,D,1
+2021-04-13,Queen of Sth,Raith Rvs,0,1,A,0
+2021-04-13,Dunfermline,Dundee United,0,0,D,1
+2021-04-17,Dunfermline,Queen of Sth,3,1,H,0
+2021-04-17,Alloa,Raith Rvs,1,2,A,0
+2021-04-17,Arbroath,Ayr,4,0,H,0
+2021-04-20,Inverness C,Dundee United,1,1,D,1
+2021-04-20,Morton,Hearts,0,0,D,1
+2021-04-24,Dunfermline,Arbroath,4,3,H,0
+2021-04-24,Hearts,Inverness C,3,0,H,0
+2021-04-24,Morton,Alloa,1,1,D,1
+2021-04-24,Ayr,Queen of Sth,0,0,D,1
+2021-04-24,Dundee United,Raith Rvs,2,1,H,0
+2021-04-30,Inverness C,Ayr,2,2,D,1
+2021-04-30,Queen of Sth,Dundee United,0,2,A,0
+2021-04-30,Raith Rvs,Hearts,0,4,A,0
+2021-04-30,Arbroath,Morton,0,0,D,1
+2021-04-30,Alloa,Dunfermline,1,0,H,0

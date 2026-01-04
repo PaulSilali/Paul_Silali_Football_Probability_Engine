@@ -84,9 +84,9 @@ def compute_h2h_stats(
     
     # Calculate statistics
     total_meetings = len(matches)
-    total_draws = sum(1 for m in matches if m.result == MatchResult.DRAW)
-    home_draws = sum(1 for m in matches if m.result == MatchResult.DRAW and m.home_team_id == team_home_id)
-    away_draws = sum(1 for m in matches if m.result == MatchResult.DRAW and m.home_team_id == team_away_id)
+    total_draws = sum(1 for m in matches if m.result == MatchResult.D)
+    home_draws = sum(1 for m in matches if m.result == MatchResult.D and m.home_team_id == team_home_id)
+    away_draws = sum(1 for m in matches if m.result == MatchResult.D and m.home_team_id == team_away_id)
     
     draw_rate = total_draws / total_meetings if total_meetings > 0 else 0.0
     home_draw_rate = home_draws / sum(1 for m in matches if m.home_team_id == team_home_id) if any(m.home_team_id == team_home_id for m in matches) else 0.0
@@ -99,7 +99,7 @@ def compute_h2h_stats(
             Match.result.isnot(None)
         ).all()
         if league_matches:
-            league_draws = sum(1 for m in league_matches if m.result == MatchResult.DRAW)
+            league_draws = sum(1 for m in league_matches if m.result == MatchResult.D)
             league_draw_rate = league_draws / len(league_matches)
         else:
             league_draw_rate = 0.27  # Default league draw rate

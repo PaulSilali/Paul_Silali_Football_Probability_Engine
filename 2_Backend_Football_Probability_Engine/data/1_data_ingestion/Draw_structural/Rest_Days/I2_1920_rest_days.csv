@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+I2,1920,2019-08-23,Pisa,Benevento,7,7,False
+I2,1920,2019-08-24,Ascoli,Trapani,7,7,False
+I2,1920,2019-08-24,Cittadella,Spezia,7,7,False
+I2,1920,2019-08-24,Crotone,Cesena,7,7,False
+I2,1920,2019-08-24,Virtus Entella,Livorno,7,7,False
+I2,1920,2019-08-24,Venezia,Cremonese,7,7,False
+I2,1920,2019-08-24,Salernitana,Pescara,7,7,False
+I2,1920,2019-08-25,Perugia,Chievo,7,7,False
+I2,1920,2019-08-25,Empoli,Juve Stabia,7,7,False
+I2,1920,2019-08-26,Pordenone,Frosinone,7,7,False
+I2,1920,2019-08-30,Chievo,Empoli,5,5,False
+I2,1920,2019-08-31,Cesena,Salernitana,7,7,False
+I2,1920,2019-08-31,Cremonese,Virtus Entella,7,7,False
+I2,1920,2019-08-31,Livorno,Perugia,7,6,False
+I2,1920,2019-08-31,Trapani,Venezia,7,7,False
+I2,1920,2019-08-31,Benevento,Cittadella,8,7,False
+I2,1920,2019-08-31,Spezia,Crotone,7,7,False
+I2,1920,2019-09-01,Frosinone,Ascoli,6,8,False
+I2,1920,2019-09-01,Pescara,Pordenone,8,6,False
+I2,1920,2019-09-01,Juve Stabia,Pisa,7,9,False
+I2,1920,2019-09-13,Pordenone,Spezia,12,13,False
+I2,1920,2019-09-14,Perugia,Juve Stabia,14,13,False
+I2,1920,2019-09-14,Virtus Entella,Frosinone,14,13,False
+I2,1920,2019-09-14,Venezia,Chievo,14,15,False
+I2,1920,2019-09-14,Cittadella,Trapani,14,14,False
+I2,1920,2019-09-14,Ascoli,Livorno,13,14,False
+I2,1920,2019-09-15,Pisa,Cremonese,14,15,False
+I2,1920,2019-09-15,Cesena,Pescara,15,14,False
+I2,1920,2019-09-15,Crotone,Empoli,15,16,False
+I2,1920,2019-09-16,Salernitana,Benevento,16,16,False
+I2,1920,2019-09-20,Frosinone,Venezia,6,6,False
+I2,1920,2019-09-21,Empoli,Cittadella,6,7,False
+I2,1920,2019-09-21,Juve Stabia,Ascoli,7,7,False
+I2,1920,2019-09-21,Livorno,Pordenone,7,8,False
+I2,1920,2019-09-21,Benevento,Cesena,5,6,False
+I2,1920,2019-09-21,Spezia,Perugia,8,7,False
+I2,1920,2019-09-21,Chievo,Pisa,7,6,False
+I2,1920,2019-09-21,Pescara,Virtus Entella,6,7,False
+I2,1920,2019-09-21,Cremonese,Crotone,6,6,False
+I2,1920,2019-09-22,Trapani,Salernitana,8,6,False
+I2,1920,2019-09-24,Virtus Entella,Venezia,3,4,True
+I2,1920,2019-09-24,Ascoli,Spezia,3,3,True
+I2,1920,2019-09-24,Cittadella,Pescara,3,3,True
+I2,1920,2019-09-24,Cesena,Livorno,3,3,True
+I2,1920,2019-09-24,Crotone,Juve Stabia,3,3,True
+I2,1920,2019-09-24,Perugia,Frosinone,3,4,True
+I2,1920,2019-09-24,Pisa,Empoli,3,3,True
+I2,1920,2019-09-24,Pordenone,Benevento,3,3,True
+I2,1920,2019-09-25,Trapani,Cremonese,3,4,True
+I2,1920,2019-09-25,Salernitana,Chievo,3,4,True
+I2,1920,2019-09-27,Pescara,Crotone,3,3,False
+I2,1920,2019-09-28,Juve Stabia,Cittadella,4,4,False
+I2,1920,2019-09-28,Venezia,Pisa,4,4,False
+I2,1920,2019-09-28,Empoli,Perugia,4,4,False
+I2,1920,2019-09-28,Frosinone,Cesena,4,4,False
+I2,1920,2019-09-29,Spezia,Trapani,5,4,False
+I2,1920,2019-09-29,Livorno,Salernitana,5,4,False
+I2,1920,2019-09-29,Benevento,Virtus Entella,5,5,False
+I2,1920,2019-09-29,Chievo,Pordenone,4,5,False
+I2,1920,2019-09-30,Cremonese,Ascoli,5,6,False
+I2,1920,2019-10-04,Perugia,Pisa,6,6,False
+I2,1920,2019-10-05,Livorno,Chievo,6,6,False
+I2,1920,2019-10-05,Pordenone,Empoli,6,7,False
+I2,1920,2019-10-05,Spezia,Benevento,6,6,False
+I2,1920,2019-10-05,Trapani,Juve Stabia,6,7,False
+I2,1920,2019-10-05,Cesena,Venezia,7,7,False
+I2,1920,2019-10-05,Crotone,Virtus Entella,8,6,False
+I2,1920,2019-10-06,Ascoli,Pescara,6,9,False
+I2,1920,2019-10-06,Salernitana,Frosinone,7,8,False
+I2,1920,2019-10-06,Cremonese,Cittadella,6,8,False
+I2,1920,2019-10-18,Cittadella,Cesena,12,13,False
+I2,1920,2019-10-19,Juve Stabia,Pordenone,14,14,False
+I2,1920,2019-10-19,Pescara,Spezia,13,14,False
+I2,1920,2019-10-19,Venezia,Salernitana,14,13,False
+I2,1920,2019-10-19,Virtus Entella,Trapani,14,14,False
+I2,1920,2019-10-19,Benevento,Perugia,14,15,False
+I2,1920,2019-10-20,Empoli,Cremonese,15,14,False
+I2,1920,2019-10-20,Pisa,Crotone,16,15,False
+I2,1920,2019-10-20,Chievo,Ascoli,15,14,False
+I2,1920,2019-10-21,Frosinone,Livorno,15,16,False
+I2,1920,2019-10-25,Ascoli,Virtus Entella,5,6,False
+I2,1920,2019-10-26,Pescara,Benevento,7,7,False
+I2,1920,2019-10-26,Pordenone,Cittadella,7,8,False
+I2,1920,2019-10-26,Salernitana,Perugia,7,7,False
+I2,1920,2019-10-26,Cesena,Chievo,8,6,False
+I2,1920,2019-10-26,Trapani,Empoli,7,6,False
+I2,1920,2019-10-26,Livorno,Pisa,5,6,False
+I2,1920,2019-10-26,Spezia,Juve Stabia,7,7,False
+I2,1920,2019-10-26,Crotone,Venezia,6,7,False
+I2,1920,2019-10-27,Cremonese,Frosinone,7,6,False
+I2,1920,2019-10-29,Virtus Entella,Cesena,4,3,True
+I2,1920,2019-10-29,Chievo,Crotone,3,3,True
+I2,1920,2019-10-29,Cittadella,Livorno,3,3,True
+I2,1920,2019-10-29,Empoli,Spezia,3,3,True
+I2,1920,2019-10-29,Juve Stabia,Pescara,3,3,True
+I2,1920,2019-10-29,Perugia,Ascoli,3,4,True
+I2,1920,2019-10-29,Pisa,Salernitana,3,3,True
+I2,1920,2019-10-29,Venezia,Pordenone,3,3,True
+I2,1920,2019-10-30,Frosinone,Trapani,3,4,True
+I2,1920,2019-10-30,Benevento,Cremonese,4,3,True
+I2,1920,2019-11-01,Spezia,Chievo,3,3,False
+I2,1920,2019-11-02,Ascoli,Venezia,4,4,False
+I2,1920,2019-11-02,Salernitana,Virtus Entella,4,4,False
+I2,1920,2019-11-02,Livorno,Juve Stabia,4,4,False
+I2,1920,2019-11-02,Crotone,Perugia,4,4,False
+I2,1920,2019-11-02,Pescara,Pisa,4,4,False
+I2,1920,2019-11-03,Benevento,Empoli,4,5,False
+I2,1920,2019-11-03,Pordenone,Trapani,5,4,False
+I2,1920,2019-11-03,Cittadella,Frosinone,5,4,False
+I2,1920,2019-11-04,Cesena,Cremonese,6,5,False
+I2,1920,2019-11-08,Crotone,Ascoli,6,6,False
+I2,1920,2019-11-09,Pisa,Spezia,7,8,False
+I2,1920,2019-11-09,Venezia,Livorno,7,7,False
+I2,1920,2019-11-09,Virtus Entella,Pordenone,7,6,False
+I2,1920,2019-11-09,Empoli,Pescara,6,7,False
+I2,1920,2019-11-09,Juve Stabia,Benevento,7,6,False
+I2,1920,2019-11-09,Perugia,Cittadella,7,6,False
+I2,1920,2019-11-10,Frosinone,Chievo,7,9,False
+I2,1920,2019-11-10,Trapani,Cesena,7,6,False
+I2,1920,2019-11-10,Cremonese,Salernitana,6,8,False
+I2,1920,2019-11-22,Pescara,Cremonese,13,12,False
+I2,1920,2019-11-23,Pordenone,Perugia,14,14,False
+I2,1920,2019-11-23,Benevento,Crotone,14,15,False
+I2,1920,2019-11-23,Juve Stabia,Salernitana,14,13,False
+I2,1920,2019-11-23,Livorno,Trapani,14,13,False
+I2,1920,2019-11-23,Empoli,Venezia,14,14,False
+I2,1920,2019-11-24,Spezia,Frosinone,15,14,False
+I2,1920,2019-11-24,Cittadella,Pisa,15,15,False
+I2,1920,2019-11-24,Ascoli,Cesena,16,14,False
+I2,1920,2019-11-25,Chievo,Virtus Entella,15,16,False
+I2,1920,2019-11-29,Cesena,Spezia,5,5,False
+I2,1920,2019-11-30,Frosinone,Empoli,6,7,False
+I2,1920,2019-11-30,Venezia,Benevento,7,7,False
+I2,1920,2019-11-30,Salernitana,Ascoli,7,6,False
+I2,1920,2019-11-30,Cremonese,Livorno,8,7,False
+I2,1920,2019-11-30,Crotone,Cittadella,7,6,False
+I2,1920,2019-12-01,Perugia,Pescara,8,9,False
+I2,1920,2019-12-01,Virtus Entella,Juve Stabia,6,8,False
+I2,1920,2019-12-01,Trapani,Chievo,8,6,False
+I2,1920,2019-12-02,Pisa,Pordenone,8,9,False
+I2,1920,2019-12-06,Benevento,Trapani,6,5,False
+I2,1920,2019-12-07,Pescara,Venezia,6,7,False
+I2,1920,2019-12-07,Cittadella,Salernitana,7,7,False
+I2,1920,2019-12-07,Chievo,Cremonese,6,7,False
+I2,1920,2019-12-07,Spezia,Livorno,8,7,False
+I2,1920,2019-12-07,Empoli,Ascoli,7,7,False
+I2,1920,2019-12-08,Juve Stabia,Frosinone,7,8,False
+I2,1920,2019-12-08,Pisa,Virtus Entella,6,7,False
+I2,1920,2019-12-08,Pordenone,Crotone,6,8,False
+I2,1920,2019-12-09,Perugia,Cesena,8,10,False
+I2,1920,2019-12-13,Chievo,Juve Stabia,6,5,False
+I2,1920,2019-12-14,Virtus Entella,Empoli,6,7,False
+I2,1920,2019-12-14,Livorno,Benevento,7,8,False
+I2,1920,2019-12-14,Ascoli,Cittadella,7,7,False
+I2,1920,2019-12-14,Frosinone,Pescara,6,7,False
+I2,1920,2019-12-14,Venezia,Spezia,7,7,False
+I2,1920,2019-12-15,Cesena,Pordenone,6,7,False
+I2,1920,2019-12-15,Cremonese,Perugia,8,6,False
+I2,1920,2019-12-15,Salernitana,Crotone,8,7,False
+I2,1920,2019-12-16,Trapani,Pisa,10,8,False
+I2,1920,2019-12-21,Cittadella,Chievo,7,8,False
+I2,1920,2019-12-21,Benevento,Frosinone,7,7,False
+I2,1920,2019-12-21,Perugia,Virtus Entella,6,7,False
+I2,1920,2019-12-21,Crotone,Livorno,6,7,False
+I2,1920,2019-12-21,Empoli,Salernitana,7,6,False
+I2,1920,2019-12-21,Juve Stabia,Venezia,8,7,False
+I2,1920,2019-12-22,Pisa,Cesena,6,7,False
+I2,1920,2019-12-22,Pordenone,Ascoli,7,8,False
+I2,1920,2019-12-22,Pescara,Trapani,8,6,False
+I2,1920,2019-12-26,Venezia,Cittadella,5,5,True
+I2,1920,2019-12-26,Cesena,Empoli,4,5,True
+I2,1920,2019-12-26,Chievo,Benevento,5,5,True
+I2,1920,2019-12-26,Cremonese,Juve Stabia,11,5,True
+I2,1920,2019-12-26,Frosinone,Crotone,5,5,True
+I2,1920,2019-12-26,Livorno,Pescara,5,4,True
+I2,1920,2019-12-26,Salernitana,Pordenone,5,4,True
+I2,1920,2019-12-26,Trapani,Perugia,4,5,True
+I2,1920,2019-12-26,Ascoli,Pisa,4,4,True
+I2,1920,2019-12-26,Virtus Entella,Spezia,5,12,True
+I2,1920,2019-12-29,Pescara,Chievo,3,3,False
+I2,1920,2019-12-29,Juve Stabia,Cesena,3,3,False
+I2,1920,2019-12-29,Perugia,Venezia,3,3,False
+I2,1920,2019-12-29,Pisa,Frosinone,3,3,False
+I2,1920,2019-12-29,Pordenone,Cremonese,3,3,False
+I2,1920,2019-12-29,Spezia,Salernitana,3,3,False
+I2,1920,2019-12-29,Benevento,Ascoli,3,3,False
+I2,1920,2019-12-29,Empoli,Livorno,3,3,False
+I2,1920,2019-12-29,Crotone,Trapani,3,3,False
+I2,1920,2019-12-29,Cittadella,Virtus Entella,3,3,False
+I2,1920,2020-01-17,Frosinone,Pordenone,19,19,False
+I2,1920,2020-01-18,Livorno,Virtus Entella,20,20,False
+I2,1920,2020-01-18,Cremonese,Venezia,20,20,False
+I2,1920,2020-01-18,Juve Stabia,Empoli,20,20,False
+I2,1920,2020-01-18,Trapani,Ascoli,20,20,False
+I2,1920,2020-01-18,Chievo,Perugia,20,20,False
+I2,1920,2020-01-19,Spezia,Cittadella,21,21,False
+I2,1920,2020-01-19,Benevento,Pisa,21,21,False
+I2,1920,2020-01-19,Pescara,Salernitana,21,21,False
+I2,1920,2020-01-20,Cesena,Crotone,22,22,False
+I2,1920,2020-01-24,Empoli,Chievo,6,6,False
+I2,1920,2020-01-25,Cittadella,Benevento,6,6,False
+I2,1920,2020-01-25,Pisa,Juve Stabia,6,7,False
+I2,1920,2020-01-25,Pordenone,Pescara,8,6,False
+I2,1920,2020-01-25,Virtus Entella,Cremonese,7,7,False
+I2,1920,2020-01-25,Salernitana,Cesena,6,5,False
+I2,1920,2020-01-26,Ascoli,Frosinone,8,9,False
+I2,1920,2020-01-26,Venezia,Trapani,8,8,False
+I2,1920,2020-01-26,Crotone,Spezia,6,7,False
+I2,1920,2020-01-27,Perugia,Livorno,9,9,False
+I2,1920,2020-01-31,Cremonese,Pisa,6,6,False
+I2,1920,2020-02-01,Spezia,Pordenone,6,7,False
+I2,1920,2020-02-01,Trapani,Cittadella,6,7,False
+I2,1920,2020-02-01,Empoli,Crotone,8,6,False
+I2,1920,2020-02-01,Frosinone,Virtus Entella,6,7,False
+I2,1920,2020-02-01,Livorno,Ascoli,5,6,False
+I2,1920,2020-02-02,Benevento,Salernitana,8,8,False
+I2,1920,2020-02-02,Juve Stabia,Perugia,8,6,False
+I2,1920,2020-02-02,Chievo,Venezia,9,7,False
+I2,1920,2020-02-03,Pescara,Cesena,9,9,False
+I2,1920,2020-02-07,Ascoli,Juve Stabia,6,5,False
+I2,1920,2020-02-08,Cittadella,Empoli,7,7,False
+I2,1920,2020-02-08,Crotone,Cremonese,7,8,False
+I2,1920,2020-02-08,Pordenone,Livorno,7,7,False
+I2,1920,2020-02-08,Venezia,Frosinone,6,7,False
+I2,1920,2020-02-08,Perugia,Spezia,6,7,False
+I2,1920,2020-02-09,Cesena,Benevento,6,7,False
+I2,1920,2020-02-09,Virtus Entella,Pescara,8,6,False
+I2,1920,2020-02-09,Pisa,Chievo,9,7,False
+I2,1920,2020-02-10,Salernitana,Trapani,8,9,False
+I2,1920,2020-02-11,Spezia,Cremonese,3,3,True
+I2,1920,2020-02-14,Pescara,Cittadella,5,6,False
+I2,1920,2020-02-15,Livorno,Cesena,7,6,False
+I2,1920,2020-02-15,Venezia,Virtus Entella,7,6,False
+I2,1920,2020-02-15,Spezia,Ascoli,4,8,False
+I2,1920,2020-02-15,Juve Stabia,Crotone,8,7,False
+I2,1920,2020-02-15,Benevento,Pordenone,6,7,False
+I2,1920,2020-02-16,Empoli,Pisa,8,7,False
+I2,1920,2020-02-16,Cremonese,Trapani,5,6,False
+I2,1920,2020-02-16,Frosinone,Perugia,8,8,False
+I2,1920,2020-02-17,Chievo,Salernitana,8,7,False
+I2,1920,2020-02-21,Cesena,Frosinone,6,5,False
+I2,1920,2020-02-22,Virtus Entella,Benevento,7,7,False
+I2,1920,2020-02-22,Cittadella,Juve Stabia,8,7,False
+I2,1920,2020-02-22,Trapani,Spezia,6,7,False
+I2,1920,2020-02-22,Pisa,Venezia,6,7,False
+I2,1920,2020-02-23,Pordenone,Chievo,8,6,False
+I2,1920,2020-02-23,Salernitana,Livorno,6,8,False
+I2,1920,2020-02-23,Crotone,Pescara,8,9,False
+I2,1920,2020-02-24,Perugia,Empoli,8,8,False
+I2,1920,2020-02-28,Virtus Entella,Crotone,6,5,False
+I2,1920,2020-02-29,Empoli,Pordenone,5,6,False
+I2,1920,2020-02-29,Juve Stabia,Trapani,7,7,False
+I2,1920,2020-02-29,Pisa,Perugia,7,5,False
+I2,1920,2020-02-29,Venezia,Cesena,7,8,False
+I2,1920,2020-02-29,Chievo,Livorno,6,6,False
+I2,1920,2020-02-29,Frosinone,Salernitana,8,6,False
+I2,1920,2020-02-29,Benevento,Spezia,7,7,False
+I2,1920,2020-02-29,Cittadella,Cremonese,7,13,False
+I2,1920,2020-03-01,Pescara,Ascoli,7,15,False
+I2,1920,2020-03-03,Crotone,Pisa,4,3,True
+I2,1920,2020-03-03,Livorno,Frosinone,3,3,True
+I2,1920,2020-03-03,Perugia,Benevento,3,3,True
+I2,1920,2020-03-03,Cremonese,Empoli,3,3,True
+I2,1920,2020-03-03,Salernitana,Venezia,3,3,True
+I2,1920,2020-03-03,Trapani,Virtus Entella,3,4,True
+I2,1920,2020-03-03,Cesena,Cittadella,3,3,True
+I2,1920,2020-03-03,Pordenone,Juve Stabia,3,3,True
+I2,1920,2020-03-04,Spezia,Pescara,4,3,True
+I2,1920,2020-03-04,Ascoli,Chievo,3,4,True
+I2,1920,2020-03-07,Frosinone,Cremonese,4,4,False
+I2,1920,2020-03-07,Perugia,Salernitana,4,4,False
+I2,1920,2020-03-07,Venezia,Crotone,4,4,False
+I2,1920,2020-03-07,Pisa,Livorno,4,4,False
+I2,1920,2020-03-07,Empoli,Trapani,4,4,False
+I2,1920,2020-03-07,Cittadella,Pordenone,4,4,False
+I2,1920,2020-03-08,Benevento,Pescara,5,4,False
+I2,1920,2020-03-08,Juve Stabia,Spezia,5,4,False
+I2,1920,2020-03-08,Virtus Entella,Ascoli,5,4,False
+I2,1920,2020-03-09,Chievo,Cesena,5,6,False
+I2,1920,2020-06-17,Ascoli,Cremonese,101,102,True
+I2,1920,2020-06-19,Spezia,Empoli,103,104,False
+I2,1920,2020-06-20,Livorno,Cittadella,105,105,False
+I2,1920,2020-06-20,Pescara,Juve Stabia,104,104,False
+I2,1920,2020-06-20,Salernitana,Pisa,105,105,False
+I2,1920,2020-06-20,Trapani,Frosinone,105,105,False
+I2,1920,2020-06-20,Pordenone,Venezia,105,105,False
+I2,1920,2020-06-20,Crotone,Chievo,105,103,False
+I2,1920,2020-06-20,Cesena,Virtus Entella,103,104,False
+I2,1920,2020-06-21,Ascoli,Perugia,4,106,False
+I2,1920,2020-06-21,Cremonese,Benevento,4,105,False
+I2,1920,2020-06-26,Juve Stabia,Livorno,6,6,False
+I2,1920,2020-06-26,Perugia,Crotone,5,6,False
+I2,1920,2020-06-26,Pisa,Pescara,6,6,False
+I2,1920,2020-06-26,Venezia,Ascoli,6,5,False
+I2,1920,2020-06-26,Virtus Entella,Salernitana,6,6,False
+I2,1920,2020-06-26,Cremonese,Cesena,5,6,False
+I2,1920,2020-06-26,Trapani,Pordenone,6,6,False
+I2,1920,2020-06-26,Chievo,Spezia,6,7,False
+I2,1920,2020-06-26,Empoli,Benevento,7,5,False
+I2,1920,2020-06-26,Frosinone,Cittadella,6,6,False
+I2,1920,2020-06-29,Cesena,Trapani,3,3,False
+I2,1920,2020-06-29,Livorno,Venezia,3,3,False
+I2,1920,2020-06-29,Pescara,Empoli,3,3,False
+I2,1920,2020-06-29,Pordenone,Virtus Entella,3,3,False
+I2,1920,2020-06-29,Spezia,Pisa,3,3,False
+I2,1920,2020-06-29,Benevento,Juve Stabia,3,3,False
+I2,1920,2020-06-29,Chievo,Frosinone,3,3,False
+I2,1920,2020-06-29,Cittadella,Perugia,3,3,False
+I2,1920,2020-06-29,Ascoli,Crotone,3,3,False
+I2,1920,2020-06-29,Salernitana,Cremonese,3,3,False
+I2,1920,2020-07-03,Trapani,Livorno,4,4,False
+I2,1920,2020-07-03,Pisa,Cittadella,4,4,False
+I2,1920,2020-07-03,Cesena,Ascoli,4,4,False
+I2,1920,2020-07-03,Cremonese,Pescara,4,4,False
+I2,1920,2020-07-03,Crotone,Benevento,4,4,False
+I2,1920,2020-07-03,Frosinone,Spezia,4,4,False
+I2,1920,2020-07-03,Perugia,Pordenone,4,4,False
+I2,1920,2020-07-03,Salernitana,Juve Stabia,4,4,False
+I2,1920,2020-07-03,Venezia,Empoli,4,4,False
+I2,1920,2020-07-03,Virtus Entella,Chievo,4,4,False
+I2,1920,2020-07-10,Benevento,Venezia,7,7,False
+I2,1920,2020-07-10,Chievo,Trapani,7,7,False
+I2,1920,2020-07-10,Cittadella,Crotone,7,7,False
+I2,1920,2020-07-10,Empoli,Frosinone,7,7,False
+I2,1920,2020-07-10,Livorno,Cremonese,7,7,False
+I2,1920,2020-07-10,Pescara,Perugia,7,7,False
+I2,1920,2020-07-10,Ascoli,Salernitana,7,7,False
+I2,1920,2020-07-10,Juve Stabia,Virtus Entella,7,7,False
+I2,1920,2020-07-10,Pordenone,Pisa,7,7,False
+I2,1920,2020-07-10,Spezia,Cesena,7,7,False
+I2,1920,2020-07-13,Trapani,Benevento,3,3,False
+I2,1920,2020-07-13,Cesena,Perugia,3,3,False
+I2,1920,2020-07-13,Ascoli,Empoli,3,3,False
+I2,1920,2020-07-13,Cremonese,Chievo,3,3,False
+I2,1920,2020-07-13,Crotone,Pordenone,3,3,False
+I2,1920,2020-07-13,Frosinone,Juve Stabia,3,3,False
+I2,1920,2020-07-13,Livorno,Spezia,3,3,False
+I2,1920,2020-07-13,Salernitana,Cittadella,3,3,False
+I2,1920,2020-07-13,Venezia,Pescara,3,3,False
+I2,1920,2020-07-13,Virtus Entella,Pisa,3,3,False
+I2,1920,2020-07-17,Cittadella,Ascoli,4,4,False
+I2,1920,2020-07-17,Crotone,Salernitana,4,4,False
+I2,1920,2020-07-17,Empoli,Virtus Entella,4,4,False
+I2,1920,2020-07-17,Juve Stabia,Chievo,4,4,False
+I2,1920,2020-07-17,Perugia,Cremonese,4,4,False
+I2,1920,2020-07-17,Pisa,Trapani,4,4,False
+I2,1920,2020-07-17,Pordenone,Cesena,4,4,False
+I2,1920,2020-07-17,Spezia,Venezia,4,4,False
+I2,1920,2020-07-17,Benevento,Livorno,4,4,False
+I2,1920,2020-07-17,Pescara,Frosinone,4,4,False
+I2,1920,2020-07-24,Chievo,Cittadella,7,7,False
+I2,1920,2020-07-24,Cesena,Pisa,7,7,False
+I2,1920,2020-07-24,Cremonese,Spezia,7,7,False
+I2,1920,2020-07-24,Frosinone,Benevento,7,7,False
+I2,1920,2020-07-24,Salernitana,Empoli,7,7,False
+I2,1920,2020-07-24,Trapani,Pescara,7,7,False
+I2,1920,2020-07-24,Venezia,Juve Stabia,7,7,False
+I2,1920,2020-07-24,Virtus Entella,Perugia,7,7,False
+I2,1920,2020-07-24,Livorno,Crotone,7,7,False
+I2,1920,2020-07-24,Ascoli,Pordenone,7,7,False
+I2,1920,2020-07-27,Crotone,Frosinone,3,3,False
+I2,1920,2020-07-27,Empoli,Cesena,3,3,False
+I2,1920,2020-07-27,Juve Stabia,Cremonese,3,3,False
+I2,1920,2020-07-27,Perugia,Trapani,3,3,False
+I2,1920,2020-07-27,Pescara,Livorno,3,3,False
+I2,1920,2020-07-27,Pisa,Ascoli,3,3,False
+I2,1920,2020-07-27,Pordenone,Salernitana,3,3,False
+I2,1920,2020-07-27,Spezia,Virtus Entella,3,3,False
+I2,1920,2020-07-27,Benevento,Chievo,3,3,False
+I2,1920,2020-07-27,Cittadella,Venezia,3,3,False
+I2,1920,2020-07-31,Cesena,Juve Stabia,4,4,False
+I2,1920,2020-07-31,Cremonese,Pordenone,4,4,False
+I2,1920,2020-07-31,Frosinone,Pisa,4,4,False
+I2,1920,2020-07-31,Livorno,Empoli,4,4,False
+I2,1920,2020-07-31,Salernitana,Spezia,4,4,False
+I2,1920,2020-07-31,Trapani,Crotone,4,4,False
+I2,1920,2020-07-31,Venezia,Perugia,4,4,False
+I2,1920,2020-07-31,Virtus Entella,Cittadella,4,4,False
+I2,1920,2020-07-31,Ascoli,Benevento,4,4,False
+I2,1920,2020-07-31,Chievo,Pescara,4,4,False

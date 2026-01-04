@@ -87,16 +87,21 @@ def tau_adjustment(
     if home_goals > 1 or away_goals > 1:
         return 1.0
     
+    tau = 1.0
     if home_goals == 0 and away_goals == 0:
-        return 1 - lambda_home * lambda_away * rho
-    if home_goals == 0 and away_goals == 1:
-        return 1 + lambda_home * rho
-    if home_goals == 1 and away_goals == 0:
-        return 1 + lambda_away * rho
-    if home_goals == 1 and away_goals == 1:
-        return 1 - rho
+        tau = 1 - lambda_home * lambda_away * rho
+    elif home_goals == 0 and away_goals == 1:
+        tau = 1 + lambda_home * rho
+    elif home_goals == 1 and away_goals == 0:
+        tau = 1 + lambda_away * rho
+    elif home_goals == 1 and away_goals == 1:
+        tau = 1 - rho
     
-    return 1.0
+    # Clamp tau to prevent negative or extreme values
+    # Tau should be positive and reasonable (between 0.1 and 2.0)
+    tau = max(0.1, min(2.0, tau))
+    
+    return tau
 
 
 def calculate_expected_goals(
@@ -112,12 +117,18 @@ def calculate_expected_goals(
     
     where γ is home advantage
     """
+    # Handle None values - default to 1.0 (neutral strength)
+    home_attack = home_team.attack if home_team.attack is not None else 1.0
+    home_defense = home_team.defense if home_team.defense is not None else 1.0
+    away_attack = away_team.attack if away_team.attack is not None else 1.0
+    away_defense = away_team.defense if away_team.defense is not None else 1.0
+    
     lambda_home = math.exp(
-        home_team.attack - away_team.defense + params.home_advantage
+        home_attack - away_defense + params.home_advantage
     )
     
     lambda_away = math.exp(
-        away_team.attack - home_team.defense
+        away_attack - home_defense
     )
     
     return GoalExpectations(lambda_home=lambda_home, lambda_away=lambda_away)
@@ -179,10 +190,28 @@ def calculate_match_probabilities(
     
     # Normalize (should sum to ~1.0 already)
     total = prob_home + prob_draw + prob_away
+    
+    # Safeguard against numerical issues
+    if total <= 1e-10:  # Total is too small, use uniform distribution
+        prob_home = prob_draw = prob_away = 1.0 / 3.0
+    else:
+        prob_home /= total
+        prob_draw /= total
+        prob_away /= total
+    
+    # Ensure probabilities are in valid range [0, 1] and sum to 1.0
+    prob_home = max(0.0, min(1.0, prob_home))
+    prob_draw = max(0.0, min(1.0, prob_draw))
+    prob_away = max(0.0, min(1.0, prob_away))
+    
+    # Renormalize to ensure exact sum = 1.0
+    total = prob_home + prob_draw + prob_away
     if total > 0:
         prob_home /= total
         prob_draw /= total
         prob_away /= total
+    else:
+        prob_home = prob_draw = prob_away = 1.0 / 3.0
     
     # Calculate entropy
     entropy = -sum(

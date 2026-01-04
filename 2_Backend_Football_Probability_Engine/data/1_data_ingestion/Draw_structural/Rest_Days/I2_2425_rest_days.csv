@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+I2,2425,2024-08-16,Brescia,Palermo,98,98,False
+I2,2425,2024-08-17,Bari,Juve Stabia,99,1478,False
+I2,2425,2024-08-17,Sudtirol,Monza,99,99,False
+I2,2425,2024-08-17,Salernitana,Cittadella,1195,99,False
+I2,2425,2024-08-17,Pisa,Spezia,99,99,False
+I2,2425,2024-08-18,Frosinone,Sampdoria,457,100,False
+I2,2425,2024-08-18,Cesena,Cremonese,100,100,False
+I2,2425,2024-08-18,Cesena,Carrarese,100,7,False
+I2,2425,2024-08-18,Catanzaro,Sassuolo,100,7,False
+I2,2425,2024-08-18,Reggiana,Mantova,100,7,False
+I2,2425,2024-08-23,Monza,Bari,6,6,False
+I2,2425,2024-08-24,Sudtirol,Salernitana,7,7,False
+I2,2425,2024-08-24,Cremonese,Carrarese,6,6,False
+I2,2425,2024-08-24,Sassuolo,Cesena,6,6,False
+I2,2425,2024-08-24,Spezia,Frosinone,7,6,False
+I2,2425,2024-08-24,Brescia,Cittadella,8,7,False
+I2,2425,2024-08-24,Sampdoria,Reggiana,6,6,False
+I2,2425,2024-08-24,Pisa,Palermo,7,8,False
+I2,2425,2024-08-25,Mantova,Cesena,7,1,False
+I2,2425,2024-08-25,Catanzaro,Juve Stabia,7,8,False
+I2,2425,2024-08-27,Salernitana,Sampdoria,3,3,True
+I2,2425,2024-08-27,Cremonese,Palermo,3,3,True
+I2,2425,2024-08-27,Reggiana,Brescia,3,3,True
+I2,2425,2024-08-27,Carrarese,Sudtirol,3,3,True
+I2,2425,2024-08-27,Cittadella,Pisa,3,3,True
+I2,2425,2024-08-27,Frosinone,Monza,3,4,True
+I2,2425,2024-08-27,Bari,Sassuolo,4,3,True
+I2,2425,2024-08-28,Juve Stabia,Mantova,3,3,True
+I2,2425,2024-08-28,Cesena,Spezia,3,4,True
+I2,2425,2024-08-28,Cesena,Catanzaro,3,3,True
+I2,2425,2024-08-31,Monza,Cittadella,4,4,False
+I2,2425,2024-08-31,Sampdoria,Bari,4,4,False
+I2,2425,2024-08-31,Pisa,Reggiana,4,4,False
+I2,2425,2024-08-31,Sassuolo,Cremonese,4,4,False
+I2,2425,2024-08-31,Sudtirol,Brescia,4,4,False
+I2,2425,2024-09-01,Frosinone,Juve Stabia,5,4,False
+I2,2425,2024-09-01,Mantova,Salernitana,4,5,False
+I2,2425,2024-09-01,Palermo,Cesena,5,4,False
+I2,2425,2024-09-01,Spezia,Cesena,4,4,False
+I2,2425,2024-09-01,Catanzaro,Carrarese,4,5,False
+I2,2425,2024-09-13,Cesena,Monza,12,13,False
+I2,2425,2024-09-14,Bari,Mantova,14,13,False
+I2,2425,2024-09-14,Brescia,Frosinone,14,13,False
+I2,2425,2024-09-14,Cittadella,Catanzaro,14,13,False
+I2,2425,2024-09-14,Cremonese,Spezia,14,13,False
+I2,2425,2024-09-14,Juve Stabia,Palermo,13,13,False
+I2,2425,2024-09-15,Salernitana,Pisa,14,15,False
+I2,2425,2024-09-15,Reggiana,Sudtirol,15,15,False
+I2,2425,2024-09-15,Cesena,Sampdoria,2,15,False
+I2,2425,2024-09-15,Carrarese,Sassuolo,14,15,False
+I2,2425,2024-09-20,Catanzaro,Cremonese,6,6,False
+I2,2425,2024-09-21,Monza,Juve Stabia,8,7,False
+I2,2425,2024-09-21,Cesena,Sassuolo,6,6,False
+I2,2425,2024-09-21,Palermo,Cesena,7,6,False
+I2,2425,2024-09-21,Pisa,Brescia,6,7,False
+I2,2425,2024-09-21,Reggiana,Salernitana,6,6,False
+I2,2425,2024-09-21,Sampdoria,Sudtirol,6,6,False
+I2,2425,2024-09-22,Mantova,Cittadella,8,8,False
+I2,2425,2024-09-22,Frosinone,Bari,8,8,False
+I2,2425,2024-09-22,Spezia,Carrarese,8,7,False
+I2,2425,2024-09-27,Cittadella,Frosinone,5,5,False
+I2,2425,2024-09-28,Sassuolo,Spezia,7,6,False
+I2,2425,2024-09-28,Carrarese,Reggiana,6,7,False
+I2,2425,2024-09-28,Bari,Cesena,6,7,False
+I2,2425,2024-09-29,Cesena,Mantova,1,7,False
+I2,2425,2024-09-29,Salernitana,Catanzaro,8,9,False
+I2,2425,2024-09-29,Monza,Sampdoria,8,8,False
+I2,2425,2024-09-29,Juve Stabia,Pisa,8,8,False
+I2,2425,2024-09-30,Sudtirol,Palermo,9,9,False
+I2,2425,2024-09-30,Brescia,Cremonese,9,10,False
+I2,2425,2024-10-04,Sampdoria,Juve Stabia,5,5,False
+I2,2425,2024-10-05,Frosinone,Carrarese,8,7,False
+I2,2425,2024-10-05,Pisa,Cesena,6,6,False
+I2,2425,2024-10-05,Sassuolo,Cittadella,7,8,False
+I2,2425,2024-10-05,Spezia,Reggiana,7,7,False
+I2,2425,2024-10-06,Cesena,Sudtirol,1,6,False
+I2,2425,2024-10-06,Cremonese,Bari,6,8,False
+I2,2425,2024-10-06,Mantova,Brescia,7,6,False
+I2,2425,2024-10-06,Palermo,Salernitana,6,7,False
+I2,2425,2024-10-06,Catanzaro,Monza,7,7,False
+I2,2425,2024-10-18,Bari,Catanzaro,12,12,False
+I2,2425,2024-10-19,Monza,Palermo,13,13,False
+I2,2425,2024-10-19,Salernitana,Spezia,13,14,False
+I2,2425,2024-10-19,Sudtirol,Pisa,13,14,False
+I2,2425,2024-10-19,Brescia,Sassuolo,13,14,False
+I2,2425,2024-10-19,Cittadella,Cesena,14,13,False
+I2,2425,2024-10-20,Carrarese,Mantova,15,14,False
+I2,2425,2024-10-20,Juve Stabia,Cremonese,16,14,False
+I2,2425,2024-10-20,Reggiana,Frosinone,15,15,False
+I2,2425,2024-10-20,Cesena,Sampdoria,1,16,False
+I2,2425,2024-10-25,Spezia,Bari,6,7,False
+I2,2425,2024-10-26,Palermo,Reggiana,7,6,False
+I2,2425,2024-10-26,Cremonese,Salernitana,6,7,False
+I2,2425,2024-10-26,Cesena,Juve Stabia,6,6,False
+I2,2425,2024-10-26,Cesena,Brescia,6,7,False
+I2,2425,2024-10-26,Carrarese,Cittadella,6,7,False
+I2,2425,2024-10-26,Sassuolo,Monza,7,7,False
+I2,2425,2024-10-27,Frosinone,Pisa,7,8,False
+I2,2425,2024-10-27,Sampdoria,Mantova,7,7,False
+I2,2425,2024-10-27,Catanzaro,Sudtirol,9,8,False
+I2,2425,2024-10-29,Brescia,Spezia,3,4,True
+I2,2425,2024-10-29,Bari,Carrarese,4,3,True
+I2,2425,2024-10-29,Juve Stabia,Sassuolo,3,3,True
+I2,2425,2024-10-29,Monza,Cremonese,3,3,True
+I2,2425,2024-10-29,Reggiana,Cesena,3,3,True
+I2,2425,2024-10-29,Salernitana,Cesena,3,3,True
+I2,2425,2024-10-30,Sudtirol,Frosinone,3,3,True
+I2,2425,2024-10-30,Cittadella,Sampdoria,4,3,True
+I2,2425,2024-10-30,Mantova,Palermo,3,4,True
+I2,2425,2024-10-30,Pisa,Catanzaro,3,3,True
+I2,2425,2024-11-02,Bari,Reggiana,4,4,False
+I2,2425,2024-11-02,Spezia,Monza,4,4,False
+I2,2425,2024-11-02,Carrarese,Juve Stabia,4,4,False
+I2,2425,2024-11-03,Palermo,Cittadella,4,4,False
+I2,2425,2024-11-03,Sampdoria,Brescia,4,5,False
+I2,2425,2024-11-03,Sassuolo,Mantova,5,4,False
+I2,2425,2024-11-03,Catanzaro,Frosinone,4,4,False
+I2,2425,2024-11-03,Cesena,Sudtirol,5,4,False
+I2,2425,2024-11-03,Cesena,Salernitana,5,5,False
+I2,2425,2024-11-03,Cremonese,Pisa,5,4,False
+I2,2425,2024-11-08,Frosinone,Palermo,5,5,False
+I2,2425,2024-11-09,Pisa,Sampdoria,6,6,False
+I2,2425,2024-11-09,Monza,Carrarese,7,7,False
+I2,2425,2024-11-09,Brescia,Cesena,6,6,False
+I2,2425,2024-11-09,Mantova,Cremonese,6,6,False
+I2,2425,2024-11-09,Sudtirol,Sassuolo,6,6,False
+I2,2425,2024-11-10,Cittadella,Cesena,7,1,False
+I2,2425,2024-11-10,Juve Stabia,Spezia,8,8,False
+I2,2425,2024-11-10,Reggiana,Catanzaro,8,7,False
+I2,2425,2024-11-10,Salernitana,Bari,7,8,False
+I2,2425,2024-11-22,Cesena,Monza,12,13,False
+I2,2425,2024-11-23,Catanzaro,Mantova,13,14,False
+I2,2425,2024-11-23,Juve Stabia,Brescia,13,14,False
+I2,2425,2024-11-23,Sassuolo,Salernitana,14,13,False
+I2,2425,2024-11-23,Cesena,Reggiana,1,13,False
+I2,2425,2024-11-23,Carrarese,Pisa,14,14,False
+I2,2425,2024-11-24,Bari,Cittadella,14,14,False
+I2,2425,2024-11-24,Cremonese,Frosinone,15,16,False
+I2,2425,2024-11-24,Spezia,Sudtirol,14,15,False
+I2,2425,2024-11-24,Palermo,Sampdoria,16,15,False
+I2,2425,2024-11-29,Reggiana,Sassuolo,6,6,False
+I2,2425,2024-11-30,Mantova,Monza,7,8,False
+I2,2425,2024-11-30,Sudtirol,Cremonese,6,6,False
+I2,2425,2024-11-30,Sampdoria,Catanzaro,6,7,False
+I2,2425,2024-11-30,Cittadella,Juve Stabia,6,7,False
+I2,2425,2024-11-30,Brescia,Bari,7,6,False
+I2,2425,2024-12-01,Palermo,Spezia,7,7,False
+I2,2425,2024-12-01,Pisa,Cesena,8,8,False
+I2,2425,2024-12-01,Salernitana,Carrarese,8,8,False
+I2,2425,2024-12-01,Frosinone,Cesena,7,8,False
+I2,2425,2024-12-06,Juve Stabia,Sudtirol,6,6,False
+I2,2425,2024-12-07,Monza,Salernitana,7,6,False
+I2,2425,2024-12-07,Bari,Cesena,7,6,False
+I2,2425,2024-12-07,Carrarese,Palermo,6,6,False
+I2,2425,2024-12-07,Mantova,Pisa,7,6,False
+I2,2425,2024-12-07,Cesena,Frosinone,6,6,False
+I2,2425,2024-12-08,Cremonese,Reggiana,8,9,False
+I2,2425,2024-12-08,Spezia,Cittadella,7,8,False
+I2,2425,2024-12-08,Sassuolo,Sampdoria,9,8,False
+I2,2425,2024-12-08,Catanzaro,Brescia,8,8,False
+I2,2425,2024-12-13,Pisa,Bari,6,6,False
+I2,2425,2024-12-14,Frosinone,Sassuolo,7,6,False
+I2,2425,2024-12-14,Reggiana,Monza,6,7,False
+I2,2425,2024-12-14,Sudtirol,Mantova,8,7,False
+I2,2425,2024-12-14,Sampdoria,Spezia,6,6,False
+I2,2425,2024-12-14,Cesena,Cesena,7,7,False
+I2,2425,2024-12-15,Cittadella,Cremonese,7,7,False
+I2,2425,2024-12-15,Palermo,Catanzaro,8,7,False
+I2,2425,2024-12-15,Salernitana,Juve Stabia,8,9,False
+I2,2425,2024-12-15,Brescia,Carrarese,7,8,False
+I2,2425,2024-12-20,Salernitana,Brescia,5,5,False
+I2,2425,2024-12-21,Monza,Pisa,7,8,False
+I2,2425,2024-12-21,Carrarese,Cesena,6,7,False
+I2,2425,2024-12-21,Mantova,Frosinone,7,7,False
+I2,2425,2024-12-21,Sassuolo,Palermo,7,6,False
+I2,2425,2024-12-21,Catanzaro,Spezia,6,7,False
+I2,2425,2024-12-21,Cittadella,Reggiana,6,7,False
+I2,2425,2024-12-21,Bari,Sudtirol,8,7,False
+I2,2425,2024-12-22,Juve Stabia,Cesena,7,1,False
+I2,2425,2024-12-22,Cremonese,Sampdoria,7,8,False
+I2,2425,2024-12-26,Spezia,Mantova,5,5,True
+I2,2425,2024-12-26,Sudtirol,Cittadella,5,5,True
+I2,2425,2024-12-26,Palermo,Bari,5,5,True
+I2,2425,2024-12-26,Sampdoria,Carrarese,4,5,True
+I2,2425,2024-12-26,Cesena,Cremonese,4,4,True
+I2,2425,2024-12-26,Brescia,Monza,6,5,True
+I2,2425,2024-12-26,Pisa,Sassuolo,5,5,True
+I2,2425,2024-12-26,Frosinone,Salernitana,5,6,True
+I2,2425,2024-12-26,Cesena,Catanzaro,4,5,True
+I2,2425,2024-12-26,Reggiana,Juve Stabia,5,4,True
+I2,2425,2024-12-29,Catanzaro,Salernitana,3,3,False
+I2,2425,2024-12-29,Cremonese,Brescia,3,3,False
+I2,2425,2024-12-29,Bari,Spezia,3,3,False
+I2,2425,2024-12-29,Carrarese,Cesena,3,3,False
+I2,2425,2024-12-29,Mantova,Reggiana,3,3,False
+I2,2425,2024-12-29,Monza,Sudtirol,3,3,False
+I2,2425,2024-12-29,Sassuolo,Cesena,3,3,False
+I2,2425,2024-12-29,Cittadella,Palermo,3,3,False
+I2,2425,2024-12-29,Juve Stabia,Frosinone,3,3,False
+I2,2425,2024-12-29,Sampdoria,Pisa,3,3,False
+I2,2425,2025-01-12,Salernitana,Sassuolo,14,14,False
+I2,2425,2025-01-12,Frosinone,Cremonese,14,14,False
+I2,2425,2025-01-12,Spezia,Juve Stabia,14,14,False
+I2,2425,2025-01-12,Reggiana,Bari,14,14,False
+I2,2425,2025-01-12,Palermo,Monza,14,14,False
+I2,2425,2025-01-12,Cesena,Mantova,14,14,False
+I2,2425,2025-01-12,Sudtirol,Catanzaro,14,14,False
+I2,2425,2025-01-12,Cesena,Cittadella,14,14,False
+I2,2425,2025-01-12,Brescia,Sampdoria,14,14,False
+I2,2425,2025-01-13,Pisa,Carrarese,15,15,False
+I2,2425,2025-01-17,Sampdoria,Cesena,5,5,False
+I2,2425,2025-01-18,Monza,Frosinone,6,6,False
+I2,2425,2025-01-18,Salernitana,Reggiana,6,6,False
+I2,2425,2025-01-18,Bari,Brescia,6,6,False
+I2,2425,2025-01-18,Cittadella,Mantova,6,6,False
+I2,2425,2025-01-18,Cremonese,Cesena,6,1,False
+I2,2425,2025-01-19,Palermo,Juve Stabia,7,7,False
+I2,2425,2025-01-19,Sassuolo,Sudtirol,7,7,False
+I2,2425,2025-01-19,Carrarese,Spezia,6,7,False
+I2,2425,2025-01-19,Catanzaro,Pisa,7,6,False
+I2,2425,2025-01-24,Spezia,Sassuolo,5,5,False
+I2,2425,2025-01-25,Mantova,Sampdoria,7,8,False
+I2,2425,2025-01-25,Juve Stabia,Carrarese,6,6,False
+I2,2425,2025-01-25,Frosinone,Sudtirol,7,6,False
+I2,2425,2025-01-25,Cesena,Cittadella,7,7,False
+I2,2425,2025-01-25,Cesena,Bari,7,7,False
+I2,2425,2025-01-26,Brescia,Catanzaro,8,7,False
+I2,2425,2025-01-26,Reggiana,Palermo,8,7,False
+I2,2425,2025-01-26,Cremonese,Monza,8,8,False
+I2,2425,2025-01-26,Pisa,Salernitana,7,8,False
+I2,2425,2025-01-31,Palermo,Pisa,5,5,False
+I2,2425,2025-02-01,Catanzaro,Cesena,6,7,False
+I2,2425,2025-02-01,Cittadella,Spezia,7,8,False
+I2,2425,2025-02-01,Sampdoria,Cesena,7,7,False
+I2,2425,2025-02-01,Sassuolo,Juve Stabia,8,7,False
+I2,2425,2025-02-01,Monza,Mantova,6,7,False
+I2,2425,2025-02-02,Salernitana,Cremonese,7,7,False
+I2,2425,2025-02-02,Sudtirol,Reggiana,8,7,False
+I2,2425,2025-02-02,Bari,Frosinone,8,8,False
+I2,2425,2025-02-02,Carrarese,Brescia,8,7,False
+I2,2425,2025-02-07,Brescia,Salernitana,5,5,False
+I2,2425,2025-02-08,Frosinone,Catanzaro,6,7,False
+I2,2425,2025-02-08,Mantova,Sassuolo,7,7,False
+I2,2425,2025-02-08,Pisa,Cittadella,8,7,False
+I2,2425,2025-02-08,Sampdoria,Monza,7,7,False
+I2,2425,2025-02-08,Cesena,Carrarese,7,6,False
+I2,2425,2025-02-09,Juve Stabia,Bari,8,7,False
+I2,2425,2025-02-09,Spezia,Palermo,8,9,False
+I2,2425,2025-02-09,Reggiana,Cesena,7,1,False
+I2,2425,2025-02-09,Cremonese,Sudtirol,7,7,False
+I2,2425,2025-02-14,Catanzaro,Cittadella,6,6,False
+I2,2425,2025-02-15,Sudtirol,Sampdoria,6,7,False
+I2,2425,2025-02-15,Carrarese,Salernitana,7,8,False
+I2,2425,2025-02-15,Monza,Spezia,7,6,False
+I2,2425,2025-02-15,Sassuolo,Brescia,7,8,False
+I2,2425,2025-02-15,Bari,Cremonese,6,6,False
+I2,2425,2025-02-16,Juve Stabia,Cesena,7,7,False
+I2,2425,2025-02-16,Palermo,Mantova,7,8,False
+I2,2425,2025-02-16,Cesena,Pisa,7,8,False
+I2,2425,2025-02-16,Frosinone,Reggiana,8,7,False
+I2,2425,2025-02-21,Sampdoria,Sassuolo,6,6,False
+I2,2425,2025-02-22,Mantova,Bari,6,7,False
+I2,2425,2025-02-22,Pisa,Juve Stabia,6,6,False
+I2,2425,2025-02-22,Reggiana,Carrarese,6,7,False
+I2,2425,2025-02-22,Cremonese,Cesena,7,6,False
+I2,2425,2025-02-22,Cittadella,Monza,8,7,False
+I2,2425,2025-02-23,Spezia,Catanzaro,8,9,False
+I2,2425,2025-02-23,Salernitana,Frosinone,8,7,False
+I2,2425,2025-02-23,Brescia,Sudtirol,8,8,False
+I2,2425,2025-02-23,Cesena,Palermo,1,7,False
+I2,2425,2025-02-28,Sudtirol,Spezia,5,5,False
+I2,2425,2025-03-01,Cesena,Salernitana,6,6,False
+I2,2425,2025-03-01,Frosinone,Mantova,6,7,False
+I2,2425,2025-03-01,Juve Stabia,Cittadella,7,7,False
+I2,2425,2025-03-01,Sassuolo,Pisa,8,7,False
+I2,2425,2025-03-01,Carrarese,Cremonese,7,7,False
+I2,2425,2025-03-02,Catanzaro,Reggiana,7,8,False
+I2,2425,2025-03-02,Monza,Cesena,8,1,False
+I2,2425,2025-03-02,Palermo,Brescia,7,7,False
+I2,2425,2025-03-02,Bari,Sampdoria,8,9,False
+I2,2425,2025-03-07,Cesena,Reggiana,5,5,False
+I2,2425,2025-03-08,Cremonese,Catanzaro,7,6,False
+I2,2425,2025-03-08,Mantova,Juve Stabia,7,7,False
+I2,2425,2025-03-08,Salernitana,Monza,7,6,False
+I2,2425,2025-03-08,Sampdoria,Palermo,6,6,False
+I2,2425,2025-03-08,Brescia,Cesena,6,1,False
+I2,2425,2025-03-08,Carrarese,Frosinone,7,7,False
+I2,2425,2025-03-09,Cittadella,Sudtirol,8,9,False
+I2,2425,2025-03-09,Spezia,Pisa,9,8,False
+I2,2425,2025-03-09,Sassuolo,Bari,8,7,False
+I2,2425,2025-03-14,Palermo,Cremonese,6,6,False
+I2,2425,2025-03-15,Frosinone,Brescia,7,7,False
+I2,2425,2025-03-15,Cittadella,Sassuolo,6,6,False
+I2,2425,2025-03-15,Juve Stabia,Monza,7,7,False
+I2,2425,2025-03-15,Bari,Salernitana,6,7,False
+I2,2425,2025-03-15,Cesena,Spezia,7,6,False
+I2,2425,2025-03-16,Pisa,Mantova,7,8,False
+I2,2425,2025-03-16,Reggiana,Sampdoria,9,8,False
+I2,2425,2025-03-16,Sudtirol,Carrarese,7,8,False
+I2,2425,2025-03-16,Catanzaro,Cesena,8,1,False
+I2,2425,2025-03-28,Spezia,Brescia,13,13,False
+I2,2425,2025-03-29,Cesena,Pisa,13,13,False
+I2,2425,2025-03-29,Mantova,Sudtirol,13,13,False
+I2,2425,2025-03-29,Monza,Catanzaro,14,13,False
+I2,2425,2025-03-29,Sampdoria,Frosinone,13,14,False
+I2,2425,2025-03-29,Cremonese,Cittadella,15,14,False
+I2,2425,2025-03-29,Sassuolo,Reggiana,14,13,False
+I2,2425,2025-03-30,Salernitana,Palermo,15,16,False
+I2,2425,2025-03-30,Cesena,Juve Stabia,1,15,False
+I2,2425,2025-03-30,Carrarese,Bari,14,15,False
+I2,2425,2025-04-04,Reggiana,Cremonese,6,6,False
+I2,2425,2025-04-05,Cittadella,Carrarese,7,6,False
+I2,2425,2025-04-05,Frosinone,Cesena,7,6,False
+I2,2425,2025-04-05,Sudtirol,Cesena,7,6,False
+I2,2425,2025-04-05,Pisa,Monza,7,7,False
+I2,2425,2025-04-05,Juve Stabia,Salernitana,6,6,False
+I2,2425,2025-04-05,Brescia,Mantova,8,7,False
+I2,2425,2025-04-06,Catanzaro,Bari,8,7,False
+I2,2425,2025-04-06,Palermo,Sassuolo,7,8,False
+I2,2425,2025-04-06,Spezia,Sampdoria,9,8,False
+I2,2425,2025-04-11,Bari,Palermo,5,5,False
+I2,2425,2025-04-12,Reggiana,Pisa,8,7,False
+I2,2425,2025-04-12,Salernitana,Sudtirol,7,7,False
+I2,2425,2025-04-12,Sampdoria,Cittadella,6,7,False
+I2,2425,2025-04-12,Monza,Sassuolo,7,6,False
+I2,2425,2025-04-12,Carrarese,Catanzaro,7,6,False
+I2,2425,2025-04-12,Cesena,Brescia,7,7,False
+I2,2425,2025-04-13,Mantova,Spezia,8,7,False
+I2,2425,2025-04-13,Cesena,Frosinone,1,8,False
+I2,2425,2025-04-13,Cremonese,Juve Stabia,9,8,False
+I2,2425,2025-04-25,Cremonese,Mantova,12,12,False
+I2,2425,2025-04-25,Cesena,Sassuolo,12,13,False
+I2,2425,2025-04-25,Frosinone,Spezia,12,12,False
+I2,2425,2025-04-25,Carrarese,Sampdoria,13,13,False
+I2,2425,2025-04-25,Reggiana,Cittadella,13,13,False
+I2,2425,2025-04-25,Salernitana,Cesena,13,12,False
+I2,2425,2025-04-25,Bari,Monza,14,13,False
+I2,2425,2025-04-25,Brescia,Pisa,13,13,False
+I2,2425,2025-04-27,Sudtirol,Juve Stabia,15,14,False
+I2,2425,2025-04-27,Catanzaro,Palermo,15,16,False
+I2,2425,2025-05-01,Sampdoria,Cremonese,6,6,True
+I2,2425,2025-05-01,Juve Stabia,Catanzaro,4,4,True
+I2,2425,2025-05-01,Cesena,Bari,6,6,True
+I2,2425,2025-05-01,Mantova,Cesena,6,6,True
+I2,2425,2025-05-01,Monza,Reggiana,6,6,True
+I2,2425,2025-05-01,Palermo,Sudtirol,4,4,True
+I2,2425,2025-05-01,Pisa,Frosinone,6,6,True
+I2,2425,2025-05-01,Spezia,Salernitana,6,6,True
+I2,2425,2025-05-01,Cittadella,Brescia,6,6,True
+I2,2425,2025-05-01,Sassuolo,Carrarese,6,6,True
+I2,2425,2025-05-04,Reggiana,Spezia,3,3,False
+I2,2425,2025-05-04,Salernitana,Mantova,3,3,False
+I2,2425,2025-05-04,Sudtirol,Cesena,3,3,False
+I2,2425,2025-05-04,Cremonese,Sassuolo,3,3,False
+I2,2425,2025-05-04,Frosinone,Cittadella,3,3,False
+I2,2425,2025-05-04,Cesena,Palermo,3,3,False
+I2,2425,2025-05-04,Catanzaro,Sampdoria,3,3,False
+I2,2425,2025-05-04,Carrarese,Monza,3,3,False
+I2,2425,2025-05-04,Brescia,Juve Stabia,3,3,False
+I2,2425,2025-05-04,Bari,Pisa,3,3,False
+I2,2425,2025-05-09,Pisa,Sudtirol,5,5,False
+I2,2425,2025-05-09,Sampdoria,Salernitana,5,5,False
+I2,2425,2025-05-09,Sassuolo,Catanzaro,5,5,False
+I2,2425,2025-05-09,Spezia,Cremonese,5,5,False
+I2,2425,2025-05-09,Cittadella,Bari,5,5,False
+I2,2425,2025-05-09,Cesena,Cesena,5,5,False
+I2,2425,2025-05-09,Juve Stabia,Reggiana,5,5,False
+I2,2425,2025-05-09,Mantova,Carrarese,5,5,False
+I2,2425,2025-05-09,Monza,Brescia,5,5,False
+I2,2425,2025-05-09,Palermo,Frosinone,5,5,False
+I2,2425,2025-05-13,Pisa,Cremonese,4,4,True
+I2,2425,2025-05-13,Sassuolo,Frosinone,4,4,True
+I2,2425,2025-05-13,Spezia,Cesena,4,4,True
+I2,2425,2025-05-13,Sudtirol,Bari,4,4,True
+I2,2425,2025-05-13,Brescia,Reggiana,4,4,True
+I2,2425,2025-05-13,Cittadella,Salernitana,4,4,True
+I2,2425,2025-05-13,Juve Stabia,Sampdoria,4,4,True
+I2,2425,2025-05-13,Mantova,Catanzaro,4,4,True
+I2,2425,2025-05-13,Monza,Cesena,4,4,True
+I2,2425,2025-05-13,Palermo,Carrarese,4,4,True

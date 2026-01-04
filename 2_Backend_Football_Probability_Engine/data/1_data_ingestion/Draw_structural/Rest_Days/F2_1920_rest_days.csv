@@ -1,0 +1,281 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+F2,1920,2019-07-26,Ajaccio,Le Havre,7,7,False
+F2,1920,2019-07-26,Chambly,Valenciennes,7,7,False
+F2,1920,2019-07-26,Clermont,Chateauroux,7,7,False
+F2,1920,2019-07-26,Guingamp,Grenoble,7,7,False
+F2,1920,2019-07-26,Nancy,Le Mans,7,7,False
+F2,1920,2019-07-26,Niort,Troyes,7,7,False
+F2,1920,2019-07-26,Rodez,Auxerre,7,7,False
+F2,1920,2019-07-26,Sochaux,Caen,7,7,False
+F2,1920,2019-07-27,Le Mans,Le Mans,1,1,False
+F2,1920,2019-07-29,Lorient,Paris FC,7,7,False
+F2,1920,2019-08-02,Auxerre,Le Mans,7,6,False
+F2,1920,2019-08-02,Chateauroux,Rodez,7,7,False
+F2,1920,2019-08-02,Grenoble,Ajaccio,7,7,False
+F2,1920,2019-08-02,Le Havre,Niort,7,7,False
+F2,1920,2019-08-02,Le Mans,Chambly,6,7,False
+F2,1920,2019-08-02,Paris FC,Sochaux,4,7,False
+F2,1920,2019-08-02,Troyes,Clermont,7,7,False
+F2,1920,2019-08-02,Valenciennes,Nancy,7,7,False
+F2,1920,2019-08-03,Le Mans,Guingamp,1,8,False
+F2,1920,2019-08-05,Caen,Lorient,10,7,False
+F2,1920,2019-08-09,Ajaccio,Caen,7,4,False
+F2,1920,2019-08-09,Chambly,Grenoble,7,7,False
+F2,1920,2019-08-09,Guingamp,Le Mans,6,6,False
+F2,1920,2019-08-09,Le Mans,Valenciennes,6,7,False
+F2,1920,2019-08-09,Nancy,Lorient,7,4,False
+F2,1920,2019-08-09,Niort,Chateauroux,7,7,False
+F2,1920,2019-08-09,Rodez,Paris FC,7,7,False
+F2,1920,2019-08-09,Sochaux,Auxerre,7,7,False
+F2,1920,2019-08-09,Troyes,Le Havre,7,7,False
+F2,1920,2019-08-10,Clermont,Le Mans,8,1,False
+F2,1920,2019-08-16,Caen,Chambly,7,7,False
+F2,1920,2019-08-16,Chateauroux,Ajaccio,7,7,False
+F2,1920,2019-08-16,Grenoble,Troyes,7,7,False
+F2,1920,2019-08-16,Lorient,Sochaux,7,7,False
+F2,1920,2019-08-16,Nancy,Le Mans,7,6,False
+F2,1920,2019-08-16,Le Mans,Clermont,6,6,False
+F2,1920,2019-08-16,Paris FC,Niort,7,7,False
+F2,1920,2019-08-16,Valenciennes,Rodez,7,7,False
+F2,1920,2019-08-17,Le Mans,Le Havre,1,8,False
+F2,1920,2019-08-19,Auxerre,Guingamp,10,10,False
+F2,1920,2019-08-23,Ajaccio,Paris FC,7,7,False
+F2,1920,2019-08-23,Chambly,Chateauroux,7,7,False
+F2,1920,2019-08-23,Clermont,Auxerre,7,4,False
+F2,1920,2019-08-23,Le Havre,Grenoble,6,7,False
+F2,1920,2019-08-23,Le Mans,Lorient,6,7,False
+F2,1920,2019-08-23,Niort,Caen,7,7,False
+F2,1920,2019-08-23,Rodez,Le Mans,7,6,False
+F2,1920,2019-08-23,Sochaux,Nancy,7,7,False
+F2,1920,2019-08-24,Troyes,Le Mans,8,1,False
+F2,1920,2019-08-26,Guingamp,Valenciennes,7,10,False
+F2,1920,2019-08-30,Auxerre,Ajaccio,7,7,False
+F2,1920,2019-08-30,Caen,Le Havre,7,7,False
+F2,1920,2019-08-30,Chateauroux,Troyes,7,6,False
+F2,1920,2019-08-30,Le Mans,Sochaux,6,7,False
+F2,1920,2019-08-30,Nancy,Rodez,7,7,False
+F2,1920,2019-08-30,Le Mans,Niort,6,7,False
+F2,1920,2019-08-30,Valenciennes,Clermont,4,7,False
+F2,1920,2019-08-31,Lorient,Guingamp,8,5,False
+F2,1920,2019-09-02,Paris FC,Chambly,10,10,False
+F2,1920,2019-09-02,Grenoble,Le Mans,10,3,False
+F2,1920,2019-09-13,Ajaccio,Le Mans,14,11,False
+F2,1920,2019-09-13,Chambly,Auxerre,11,14,False
+F2,1920,2019-09-13,Guingamp,Nancy,13,14,False
+F2,1920,2019-09-13,Le Havre,Paris FC,14,11,False
+F2,1920,2019-09-13,Niort,Grenoble,14,11,False
+F2,1920,2019-09-13,Rodez,Le Mans,14,11,False
+F2,1920,2019-09-13,Sochaux,Valenciennes,14,14,False
+F2,1920,2019-09-13,Troyes,Caen,14,14,False
+F2,1920,2019-09-14,Clermont,Lorient,15,14,False
+F2,1920,2019-09-16,Le Mans,Chateauroux,3,17,False
+F2,1920,2019-09-20,Auxerre,Troyes,7,7,False
+F2,1920,2019-09-20,Chateauroux,Grenoble,4,7,False
+F2,1920,2019-09-20,Le Mans,Ajaccio,4,7,False
+F2,1920,2019-09-20,Nancy,Chambly,7,7,False
+F2,1920,2019-09-20,Le Mans,Le Havre,4,7,False
+F2,1920,2019-09-20,Paris FC,Clermont,7,6,False
+F2,1920,2019-09-20,Sochaux,Guingamp,7,7,False
+F2,1920,2019-09-20,Valenciennes,Niort,7,7,False
+F2,1920,2019-09-21,Caen,Le Mans,8,1,False
+F2,1920,2019-09-23,Lorient,Rodez,9,10,False
+F2,1920,2019-09-27,Ajaccio,Valenciennes,7,7,False
+F2,1920,2019-09-27,Chambly,Lorient,7,4,False
+F2,1920,2019-09-27,Clermont,Nancy,7,7,False
+F2,1920,2019-09-27,Grenoble,Caen,7,6,False
+F2,1920,2019-09-27,Le Havre,Chateauroux,7,7,False
+F2,1920,2019-09-27,Niort,Auxerre,7,7,False
+F2,1920,2019-09-27,Rodez,Sochaux,4,7,False
+F2,1920,2019-09-27,Troyes,Le Mans,7,6,False
+F2,1920,2019-09-28,Le Mans,Paris FC,1,8,False
+F2,1920,2019-09-30,Guingamp,Le Mans,10,2,False
+F2,1920,2019-10-04,Caen,Chateauroux,7,7,False
+F2,1920,2019-10-04,Guingamp,Rodez,4,7,False
+F2,1920,2019-10-04,Le Mans,Chambly,4,7,False
+F2,1920,2019-10-04,Lorient,Ajaccio,7,7,False
+F2,1920,2019-10-04,Nancy,Niort,7,7,False
+F2,1920,2019-10-04,Paris FC,Troyes,6,7,False
+F2,1920,2019-10-04,Sochaux,Clermont,7,7,False
+F2,1920,2019-10-04,Valenciennes,Grenoble,7,7,False
+F2,1920,2019-10-05,Auxerre,Le Havre,8,8,False
+F2,1920,2019-10-07,Le Mans,Le Mans,3,3,False
+F2,1920,2019-10-18,Ajaccio,Nancy,14,14,False
+F2,1920,2019-10-18,Caen,Valenciennes,14,14,False
+F2,1920,2019-10-18,Chambly,Sochaux,14,14,False
+F2,1920,2019-10-18,Chateauroux,Paris FC,14,14,False
+F2,1920,2019-10-18,Clermont,Rodez,14,14,False
+F2,1920,2019-10-18,Grenoble,Le Mans,14,11,False
+F2,1920,2019-10-18,Niort,Guingamp,14,14,False
+F2,1920,2019-10-18,Troyes,Le Mans,14,11,False
+F2,1920,2019-10-19,Le Havre,Lorient,14,15,False
+F2,1920,2019-10-21,Le Mans,Auxerre,3,16,False
+F2,1920,2019-10-25,Auxerre,Grenoble,4,7,False
+F2,1920,2019-10-25,Guingamp,Clermont,7,7,False
+F2,1920,2019-10-25,Le Mans,Niort,4,7,False
+F2,1920,2019-10-25,Nancy,Le Mans,7,4,False
+F2,1920,2019-10-25,Le Mans,Chateauroux,4,7,False
+F2,1920,2019-10-25,Paris FC,Caen,7,7,False
+F2,1920,2019-10-25,Rodez,Chambly,7,7,False
+F2,1920,2019-10-25,Sochaux,Ajaccio,7,7,False
+F2,1920,2019-10-26,Lorient,Troyes,7,8,False
+F2,1920,2019-10-28,Valenciennes,Le Havre,10,9,False
+F2,1920,2019-11-01,Ajaccio,Rodez,7,7,False
+F2,1920,2019-11-01,Caen,Le Mans,7,7,False
+F2,1920,2019-11-01,Chambly,Guingamp,7,7,False
+F2,1920,2019-11-01,Chateauroux,Auxerre,7,7,False
+F2,1920,2019-11-01,Troyes,Valenciennes,6,4,False
+F2,1920,2019-11-02,Clermont,Le Mans,8,1,False
+F2,1920,2019-11-02,Grenoble,Paris FC,8,8,False
+F2,1920,2019-11-02,Le Mans,Lorient,1,7,False
+F2,1920,2019-11-02,Niort,Sochaux,8,8,False
+F2,1920,2019-11-04,Le Havre,Nancy,7,10,False
+F2,1920,2019-11-08,Auxerre,Caen,7,7,False
+F2,1920,2019-11-08,Chambly,Clermont,7,6,False
+F2,1920,2019-11-08,Le Mans,Grenoble,6,6,False
+F2,1920,2019-11-08,Lorient,Niort,6,6,False
+F2,1920,2019-11-08,Nancy,Troyes,4,7,False
+F2,1920,2019-11-08,Le Mans,Paris FC,6,6,False
+F2,1920,2019-11-08,Sochaux,Le Havre,6,4,False
+F2,1920,2019-11-08,Valenciennes,Chateauroux,7,7,False
+F2,1920,2019-11-09,Guingamp,Ajaccio,8,8,False
+F2,1920,2019-11-11,Rodez,Le Mans,10,3,False
+F2,1920,2019-11-22,Ajaccio,Clermont,13,14,False
+F2,1920,2019-11-22,Caen,Le Mans,14,11,False
+F2,1920,2019-11-22,Chateauroux,Lorient,14,14,False
+F2,1920,2019-11-22,Grenoble,Nancy,14,14,False
+F2,1920,2019-11-22,Niort,Rodez,14,11,False
+F2,1920,2019-11-22,Le Mans,Valenciennes,11,14,False
+F2,1920,2019-11-22,Paris FC,Auxerre,14,14,False
+F2,1920,2019-11-22,Troyes,Chambly,14,14,False
+F2,1920,2019-11-23,Le Mans,Sochaux,1,15,False
+F2,1920,2019-11-25,Le Havre,Guingamp,17,16,False
+F2,1920,2019-11-29,Auxerre,Le Mans,7,6,False
+F2,1920,2019-11-29,Chambly,Ajaccio,7,7,False
+F2,1920,2019-11-29,Clermont,Niort,7,7,False
+F2,1920,2019-11-29,Guingamp,Caen,4,7,False
+F2,1920,2019-11-29,Le Mans,Chateauroux,6,7,False
+F2,1920,2019-11-29,Lorient,Grenoble,7,7,False
+F2,1920,2019-11-29,Nancy,Paris FC,7,7,False
+F2,1920,2019-11-29,Rodez,Le Havre,7,4,False
+F2,1920,2019-11-29,Valenciennes,Le Mans,7,6,False
+F2,1920,2019-11-30,Sochaux,Troyes,7,8,False
+F2,1920,2019-12-02,Caen,Nancy,3,3,False
+F2,1920,2019-12-03,Auxerre,Valenciennes,4,4,True
+F2,1920,2019-12-03,Chateauroux,Sochaux,4,3,True
+F2,1920,2019-12-03,Grenoble,Clermont,4,4,True
+F2,1920,2019-12-03,Le Havre,Le Mans,4,4,True
+F2,1920,2019-12-03,Le Mans,Chambly,4,4,True
+F2,1920,2019-12-03,Niort,Ajaccio,4,4,True
+F2,1920,2019-12-03,Le Mans,Lorient,4,4,True
+F2,1920,2019-12-03,Paris FC,Guingamp,4,4,True
+F2,1920,2019-12-03,Troyes,Rodez,3,4,True
+F2,1920,2019-12-13,Chambly,Niort,10,10,False
+F2,1920,2019-12-13,Clermont,Le Havre,10,10,False
+F2,1920,2019-12-13,Le Mans,Le Mans,10,10,False
+F2,1920,2019-12-13,Lorient,Auxerre,10,10,False
+F2,1920,2019-12-13,Nancy,Chateauroux,11,10,False
+F2,1920,2019-12-13,Rodez,Caen,10,11,False
+F2,1920,2019-12-13,Sochaux,Grenoble,10,10,False
+F2,1920,2019-12-13,Valenciennes,Paris FC,10,10,False
+F2,1920,2019-12-14,Ajaccio,Le Mans,11,1,False
+F2,1920,2019-12-16,Guingamp,Troyes,13,13,False
+F2,1920,2019-12-20,Auxerre,Nancy,7,7,False
+F2,1920,2019-12-20,Caen,Clermont,7,7,False
+F2,1920,2019-12-20,Chateauroux,Guingamp,7,4,False
+F2,1920,2019-12-20,Grenoble,Rodez,7,7,False
+F2,1920,2019-12-20,Le Havre,Chambly,7,7,False
+F2,1920,2019-12-20,Le Mans,Sochaux,6,7,False
+F2,1920,2019-12-20,Valenciennes,Lorient,7,7,False
+F2,1920,2019-12-21,Le Mans,Niort,1,8,False
+F2,1920,2019-12-21,Paris FC,Le Mans,8,1,False
+F2,1920,2019-12-21,Troyes,Ajaccio,5,7,False
+F2,1920,2020-01-10,Ajaccio,Grenoble,20,21,False
+F2,1920,2020-01-10,Chambly,Le Mans,21,20,False
+F2,1920,2020-01-10,Clermont,Troyes,21,20,False
+F2,1920,2020-01-10,Le Mans,Auxerre,20,21,False
+F2,1920,2020-01-10,Nancy,Valenciennes,21,21,False
+F2,1920,2020-01-10,Niort,Le Havre,20,21,False
+F2,1920,2020-01-10,Rodez,Chateauroux,21,21,False
+F2,1920,2020-01-10,Sochaux,Paris FC,21,20,False
+F2,1920,2020-01-13,Lorient,Caen,24,24,False
+F2,1920,2020-01-18,Guingamp,Le Mans,29,8,False
+F2,1920,2020-01-24,Auxerre,Sochaux,14,14,False
+F2,1920,2020-01-24,Caen,Ajaccio,11,14,False
+F2,1920,2020-01-24,Chateauroux,Niort,14,14,False
+F2,1920,2020-01-24,Grenoble,Chambly,14,14,False
+F2,1920,2020-01-24,Lorient,Nancy,11,14,False
+F2,1920,2020-01-24,Le Mans,Guingamp,6,6,False
+F2,1920,2020-01-24,Paris FC,Rodez,14,14,False
+F2,1920,2020-01-24,Valenciennes,Le Mans,14,6,False
+F2,1920,2020-01-25,Le Mans,Clermont,1,15,False
+F2,1920,2020-01-27,Le Havre,Troyes,17,17,False
+F2,1920,2020-01-31,Ajaccio,Chateauroux,7,7,False
+F2,1920,2020-01-31,Chambly,Caen,7,7,False
+F2,1920,2020-01-31,Clermont,Le Mans,6,6,False
+F2,1920,2020-01-31,Guingamp,Auxerre,7,7,False
+F2,1920,2020-01-31,Le Havre,Le Mans,4,6,False
+F2,1920,2020-01-31,Le Mans,Nancy,6,7,False
+F2,1920,2020-01-31,Niort,Paris FC,7,7,False
+F2,1920,2020-01-31,Rodez,Valenciennes,7,7,False
+F2,1920,2020-01-31,Troyes,Grenoble,4,7,False
+F2,1920,2020-02-01,Sochaux,Lorient,8,8,False
+F2,1920,2020-02-03,Grenoble,Le Havre,3,3,False
+F2,1920,2020-02-04,Auxerre,Clermont,4,4,True
+F2,1920,2020-02-04,Caen,Niort,4,4,True
+F2,1920,2020-02-04,Chateauroux,Chambly,4,4,True
+F2,1920,2020-02-04,Le Mans,Troyes,4,4,True
+F2,1920,2020-02-04,Lorient,Le Mans,3,4,True
+F2,1920,2020-02-04,Nancy,Sochaux,4,3,True
+F2,1920,2020-02-04,Le Mans,Rodez,4,4,True
+F2,1920,2020-02-04,Paris FC,Ajaccio,4,4,True
+F2,1920,2020-02-04,Valenciennes,Guingamp,4,4,True
+F2,1920,2020-02-07,Ajaccio,Auxerre,3,3,False
+F2,1920,2020-02-07,Chambly,Paris FC,3,3,False
+F2,1920,2020-02-07,Clermont,Valenciennes,3,3,False
+F2,1920,2020-02-07,Le Havre,Caen,4,3,False
+F2,1920,2020-02-07,Niort,Le Mans,3,3,False
+F2,1920,2020-02-07,Rodez,Nancy,3,3,False
+F2,1920,2020-02-07,Sochaux,Le Mans,3,3,False
+F2,1920,2020-02-07,Troyes,Chateauroux,3,3,False
+F2,1920,2020-02-08,Guingamp,Lorient,4,4,False
+F2,1920,2020-02-10,Le Mans,Grenoble,3,7,False
+F2,1920,2020-02-14,Auxerre,Chambly,7,7,False
+F2,1920,2020-02-14,Caen,Troyes,7,7,False
+F2,1920,2020-02-14,Grenoble,Niort,4,7,False
+F2,1920,2020-02-14,Le Mans,Rodez,4,7,False
+F2,1920,2020-02-14,Le Mans,Ajaccio,4,7,False
+F2,1920,2020-02-14,Paris FC,Le Havre,7,7,False
+F2,1920,2020-02-14,Valenciennes,Sochaux,7,7,False
+F2,1920,2020-02-15,Lorient,Clermont,7,8,False
+F2,1920,2020-02-15,Nancy,Guingamp,8,7,False
+F2,1920,2020-02-17,Chateauroux,Le Mans,10,3,False
+F2,1920,2020-02-21,Ajaccio,Le Mans,7,4,False
+F2,1920,2020-02-21,Chambly,Nancy,7,6,False
+F2,1920,2020-02-21,Clermont,Paris FC,6,7,False
+F2,1920,2020-02-21,Grenoble,Chateauroux,7,4,False
+F2,1920,2020-02-21,Guingamp,Sochaux,6,7,False
+F2,1920,2020-02-21,Le Havre,Le Mans,7,4,False
+F2,1920,2020-02-21,Niort,Valenciennes,7,7,False
+F2,1920,2020-02-21,Rodez,Lorient,7,6,False
+F2,1920,2020-02-22,Le Mans,Caen,1,8,False
+F2,1920,2020-02-24,Troyes,Auxerre,10,10,False
+F2,1920,2020-02-28,Auxerre,Niort,4,7,False
+F2,1920,2020-02-28,Caen,Grenoble,6,7,False
+F2,1920,2020-02-28,Chateauroux,Le Havre,7,7,False
+F2,1920,2020-02-28,Le Mans,Guingamp,6,7,False
+F2,1920,2020-02-28,Nancy,Clermont,7,7,False
+F2,1920,2020-02-28,Le Mans,Troyes,6,4,False
+F2,1920,2020-02-28,Sochaux,Rodez,7,7,False
+F2,1920,2020-02-28,Valenciennes,Ajaccio,7,7,False
+F2,1920,2020-02-29,Lorient,Chambly,8,8,False
+F2,1920,2020-03-02,Paris FC,Le Mans,10,3,False
+F2,1920,2020-03-06,Chambly,Le Mans,6,4,False
+F2,1920,2020-03-06,Chateauroux,Caen,7,7,False
+F2,1920,2020-03-06,Clermont,Sochaux,7,7,False
+F2,1920,2020-03-06,Grenoble,Valenciennes,7,7,False
+F2,1920,2020-03-06,Le Havre,Auxerre,7,7,False
+F2,1920,2020-03-06,Niort,Nancy,7,7,False
+F2,1920,2020-03-06,Rodez,Guingamp,7,7,False
+F2,1920,2020-03-06,Troyes,Paris FC,7,4,False
+F2,1920,2020-03-07,Ajaccio,Lorient,8,7,False
+F2,1920,2020-03-09,Le Mans,Le Mans,3,3,False

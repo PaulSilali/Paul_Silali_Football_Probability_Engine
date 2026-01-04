@@ -1,0 +1,138 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+475,Arouca,489,Gil Vicente,2324,2,1,0.5,3.5
+475,Arouca,477,Moreirense,2324,2,0,0.0,1.0
+479,Estoril,490,Boavista,2324,4,1,0.25,3.0
+484,Benfica,492,Portimonense,2324,2,0,0.0,4.0
+483,Guimaraes,493,Vizela,2324,2,0,0.0,1.5
+485,Rio Ave,490,Boavista,2324,2,1,0.5,1.0
+485,Rio Ave,492,Portimonense,2324,2,1,0.5,3.0
+489,Gil Vicente,491,Farense,2324,2,0,0.0,1.5
+479,Estoril,491,Farense,2324,4,1,0.25,3.0
+489,Gil Vicente,493,Vizela,2324,2,0,0.0,1.0
+473,Casa Pia,479,Estoril,2324,4,1,0.25,2.25
+484,Benfica,491,Farense,2324,2,1,0.5,3.0
+490,Boavista,493,Vizela,2324,2,1,0.5,4.5
+475,Arouca,476,Famalicao,2324,2,0,0.0,3.0
+480,Porto,489,Gil Vicente,2324,2,1,0.5,2.5
+473,Casa Pia,488,Sp Lisbon,2324,2,0,0.0,5.5
+475,Arouca,478,Sp Braga,2324,2,0,0.0,2.0
+478,Sp Braga,479,Estoril,2324,4,0,0.0,3.5
+483,Guimaraes,484,Benfica,2324,2,1,0.5,4.0
+480,Porto,494,Chaves,2324,2,0,0.0,2.0
+475,Arouca,491,Farense,2324,2,0,0.0,2.5
+476,Famalicao,492,Portimonense,2324,2,2,1.0,3.0
+473,Casa Pia,491,Farense,2324,2,0,0.0,3.5
+484,Benfica,485,Rio Ave,2324,2,1,0.5,3.5
+476,Famalicao,483,Guimaraes,2324,2,0,0.0,2.5
+483,Guimaraes,494,Chaves,2324,2,0,0.0,4.0
+489,Gil Vicente,492,Portimonense,2324,2,0,0.0,3.5
+476,Famalicao,491,Farense,2324,2,1,0.5,1.5
+475,Arouca,485,Rio Ave,2324,2,2,1.0,3.0
+477,Moreirense,483,Guimaraes,2324,2,0,0.0,1.0
+480,Porto,483,Guimaraes,2324,2,0,0.0,3.0
+484,Benfica,493,Vizela,2324,2,0,0.0,5.0
+483,Guimaraes,488,Sp Lisbon,2324,2,0,0.0,4.0
+476,Famalicao,479,Estoril,2324,4,2,0.5,1.0
+473,Casa Pia,492,Portimonense,2324,2,1,0.5,2.5
+490,Boavista,492,Portimonense,2324,2,0,0.0,5.0
+477,Moreirense,493,Vizela,2324,2,1,0.5,0.5
+483,Guimaraes,492,Portimonense,2324,2,1,0.5,2.5
+479,Estoril,492,Portimonense,2324,4,1,0.25,1.75
+479,Estoril,493,Vizela,2324,4,3,0.75,4.0
+479,Estoril,494,Chaves,2324,4,3,0.75,3.5
+476,Famalicao,493,Vizela,2324,2,1,0.5,2.5
+478,Sp Braga,485,Rio Ave,2324,2,1,0.5,1.5
+477,Moreirense,485,Rio Ave,2324,2,1,0.5,2.0
+478,Sp Braga,484,Benfica,2324,2,0,0.0,2.5
+473,Casa Pia,480,Porto,2324,2,0,0.0,3.5
+488,Sp Lisbon,492,Portimonense,2324,2,0,0.0,3.0
+488,Sp Lisbon,489,Gil Vicente,2324,2,0,0.0,4.0
+479,Estoril,484,Benfica,2324,4,0,0.0,3.0
+485,Rio Ave,494,Chaves,2324,2,1,0.5,1.0
+483,Guimaraes,490,Boavista,2324,2,1,0.5,1.5
+484,Benfica,489,Gil Vicente,2324,2,0,0.0,4.0
+479,Estoril,483,Guimaraes,2324,4,0,0.0,3.25
+480,Porto,492,Portimonense,2324,2,0,0.0,2.0
+477,Moreirense,494,Chaves,2324,2,0,0.0,2.0
+478,Sp Braga,480,Porto,2324,2,0,0.0,1.5
+493,Vizela,494,Chaves,2324,2,0,0.0,2.0
+473,Casa Pia,476,Famalicao,2324,2,0,0.0,2.5
+480,Porto,485,Rio Ave,2324,2,1,0.5,1.5
+477,Moreirense,488,Sp Lisbon,2324,2,0,0.0,2.5
+483,Guimaraes,489,Gil Vicente,2324,2,0,0.0,2.0
+478,Sp Braga,492,Portimonense,2324,2,0,0.0,7.5
+477,Moreirense,479,Estoril,2324,4,1,0.25,3.0
+488,Sp Lisbon,494,Chaves,2324,2,0,0.0,3.0
+476,Famalicao,490,Boavista,2324,2,2,1.0,3.0
+480,Porto,491,Farense,2324,2,0,0.0,3.5
+478,Sp Braga,494,Chaves,2324,2,1,0.5,4.0
+476,Famalicao,488,Sp Lisbon,2324,2,0,0.0,1.0
+478,Sp Braga,483,Guimaraes,2324,2,1,0.5,3.5
+473,Casa Pia,483,Guimaraes,2324,2,1,0.5,1.0
+477,Moreirense,480,Porto,2324,2,0,0.0,4.0
+483,Guimaraes,491,Farense,2324,2,1,0.5,2.5
+475,Arouca,483,Guimaraes,2324,2,0,0.0,3.5
+476,Famalicao,478,Sp Braga,2324,2,0,0.0,3.0
+477,Moreirense,491,Farense,2324,2,0,0.0,1.0
+478,Sp Braga,490,Boavista,2324,2,0,0.0,4.5
+473,Casa Pia,478,Sp Braga,2324,2,0,0.0,5.5
+475,Arouca,494,Chaves,2324,2,0,0.0,4.0
+475,Arouca,492,Portimonense,2324,2,1,0.5,2.5
+492,Portimonense,494,Chaves,2324,2,0,0.0,4.0
+475,Arouca,480,Porto,2324,2,1,0.5,3.5
+475,Arouca,490,Boavista,2324,2,0,0.0,3.5
+484,Benfica,494,Chaves,2324,2,0,0.0,1.5
+485,Rio Ave,489,Gil Vicente,2324,2,1,0.5,2.5
+485,Rio Ave,488,Sp Lisbon,2324,2,1,0.5,4.0
+473,Casa Pia,493,Vizela,2324,2,0,0.0,2.5
+480,Porto,493,Vizela,2324,2,0,0.0,3.5
+488,Sp Lisbon,490,Boavista,2324,2,0,0.0,4.5
+492,Portimonense,493,Vizela,2324,2,1,0.5,2.5
+473,Casa Pia,494,Chaves,2324,2,0,0.0,4.0
+489,Gil Vicente,490,Boavista,2324,2,1,0.5,1.5
+479,Estoril,485,Rio Ave,2324,4,3,0.75,2.5
+491,Farense,493,Vizela,2324,2,1,0.5,1.5
+480,Porto,490,Boavista,2324,2,1,0.5,2.5
+483,Guimaraes,485,Rio Ave,2324,2,0,0.0,2.0
+476,Famalicao,480,Porto,2324,2,1,0.5,3.5
+473,Casa Pia,477,Moreirense,2324,2,0,0.0,3.0
+477,Moreirense,492,Portimonense,2324,2,0,0.0,4.5
+473,Casa Pia,475,Arouca,2324,2,0,0.0,1.0
+475,Arouca,488,Sp Lisbon,2324,2,0,0.0,3.0
+479,Estoril,479,Estoril,2324,2,0,0.0,2.0
+490,Boavista,491,Farense,2324,2,0,0.0,3.0
+479,Estoril,489,Gil Vicente,2324,4,1,0.25,3.75
+484,Benfica,490,Boavista,2324,2,0,0.0,3.5
+478,Sp Braga,491,Farense,2324,2,0,0.0,3.5
+490,Boavista,494,Chaves,2324,2,0,0.0,4.0
+476,Famalicao,484,Benfica,2324,2,0,0.0,2.5
+477,Moreirense,489,Gil Vicente,2324,2,1,0.5,1.5
+477,Moreirense,484,Benfica,2324,2,1,0.5,1.5
+475,Arouca,493,Vizela,2324,2,1,0.5,4.5
+480,Porto,488,Sp Lisbon,2324,2,1,0.5,3.0
+479,Estoril,488,Sp Lisbon,2324,4,0,0.0,3.75
+476,Famalicao,485,Rio Ave,2324,2,1,0.5,2.5
+475,Arouca,484,Benfica,2324,2,0,0.0,4.0
+476,Famalicao,489,Gil Vicente,2324,2,0,0.0,3.5
+479,Estoril,480,Porto,2324,4,0,0.0,1.25
+477,Moreirense,478,Sp Braga,2324,2,0,0.0,3.0
+485,Rio Ave,493,Vizela,2324,2,2,1.0,2.0
+473,Casa Pia,490,Boavista,2324,2,2,1.0,1.0
+473,Casa Pia,489,Gil Vicente,2324,2,1,0.5,1.0
+478,Sp Braga,488,Sp Lisbon,2324,2,1,0.5,3.5
+477,Moreirense,490,Boavista,2324,2,1,0.5,1.5
+476,Famalicao,494,Chaves,2324,2,1,0.5,2.5
+491,Farense,492,Portimonense,2324,2,0,0.0,2.5
+473,Casa Pia,485,Rio Ave,2324,2,1,0.5,1.5
+488,Sp Lisbon,491,Farense,2324,2,0,0.0,5.0
+491,Farense,494,Chaves,2324,2,1,0.5,3.5
+478,Sp Braga,493,Vizela,2324,2,0,0.0,3.5
+480,Porto,484,Benfica,2324,2,0,0.0,3.0
+484,Benfica,488,Sp Lisbon,2324,2,0,0.0,3.0
+475,Arouca,479,Estoril,2324,4,1,0.25,3.75
+489,Gil Vicente,494,Chaves,2324,2,1,0.5,3.0
+488,Sp Lisbon,493,Vizela,2324,2,0,0.0,6.0
+473,Casa Pia,484,Benfica,2324,2,1,0.5,1.5
+476,Famalicao,477,Moreirense,2324,2,1,0.5,0.5
+478,Sp Braga,489,Gil Vicente,2324,2,1,0.5,4.5
+485,Rio Ave,491,Farense,2324,2,1,0.5,4.5

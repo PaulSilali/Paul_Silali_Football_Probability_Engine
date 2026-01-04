@@ -1,0 +1,138 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,1920,2019-08-03,Stenhousemuir,Albion Rvs,7,7,False
+SC3,1920,2019-08-03,Stirling,Queens Park,7,7,False
+SC3,1920,2019-08-03,Cove Rangers,Edinburgh City,7,7,False
+SC3,1920,2019-08-03,Brechin,Annan Athletic,7,7,False
+SC3,1920,2019-08-03,Elgin,Cowdenbeath,7,7,False
+SC3,1920,2019-08-10,Annan Athletic,Elgin,7,7,False
+SC3,1920,2019-08-10,Edinburgh City,Brechin,7,7,False
+SC3,1920,2019-08-10,Queens Park,Stenhousemuir,7,7,False
+SC3,1920,2019-08-10,Albion Rvs,Cove Rangers,7,7,False
+SC3,1920,2019-08-10,Cowdenbeath,Stirling,7,7,False
+SC3,1920,2019-08-17,Edinburgh City,Stirling,7,7,False
+SC3,1920,2019-08-17,Elgin,Stenhousemuir,7,7,False
+SC3,1920,2019-08-17,Cove Rangers,Cowdenbeath,7,7,False
+SC3,1920,2019-08-17,Annan Athletic,Albion Rvs,7,7,False
+SC3,1920,2019-08-17,Brechin,Queens Park,7,7,False
+SC3,1920,2019-08-24,Stirling,Cove Rangers,7,7,False
+SC3,1920,2019-08-24,Albion Rvs,Brechin,7,7,False
+SC3,1920,2019-08-24,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1920,2019-08-24,Queens Park,Elgin,7,7,False
+SC3,1920,2019-08-24,Stenhousemuir,Edinburgh City,7,7,False
+SC3,1920,2019-08-31,Annan Athletic,Stenhousemuir,7,7,False
+SC3,1920,2019-08-31,Albion Rvs,Stirling,7,7,False
+SC3,1920,2019-08-31,Cove Rangers,Queens Park,7,7,False
+SC3,1920,2019-08-31,Cowdenbeath,Brechin,7,7,False
+SC3,1920,2019-08-31,Elgin,Edinburgh City,7,7,False
+SC3,1920,2019-09-14,Stenhousemuir,Cowdenbeath,14,14,False
+SC3,1920,2019-09-14,Stirling,Elgin,14,14,False
+SC3,1920,2019-09-14,Brechin,Cove Rangers,14,14,False
+SC3,1920,2019-09-14,Queens Park,Albion Rvs,14,14,False
+SC3,1920,2019-09-14,Edinburgh City,Annan Athletic,14,14,False
+SC3,1920,2019-09-21,Stenhousemuir,Brechin,7,7,False
+SC3,1920,2019-09-21,Albion Rvs,Edinburgh City,7,7,False
+SC3,1920,2019-09-21,Annan Athletic,Stirling,7,7,False
+SC3,1920,2019-09-21,Elgin,Cove Rangers,7,7,False
+SC3,1920,2019-09-21,Queens Park,Cowdenbeath,7,7,False
+SC3,1920,2019-09-28,Brechin,Elgin,7,7,False
+SC3,1920,2019-09-28,Cove Rangers,Annan Athletic,7,7,False
+SC3,1920,2019-09-28,Cowdenbeath,Albion Rvs,7,7,False
+SC3,1920,2019-09-28,Edinburgh City,Queens Park,7,7,False
+SC3,1920,2019-09-28,Stirling,Stenhousemuir,7,7,False
+SC3,1920,2019-10-05,Brechin,Stirling,7,7,False
+SC3,1920,2019-10-05,Cowdenbeath,Edinburgh City,7,7,False
+SC3,1920,2019-10-05,Queens Park,Annan Athletic,7,7,False
+SC3,1920,2019-10-05,Stenhousemuir,Cove Rangers,7,7,False
+SC3,1920,2019-10-05,Albion Rvs,Elgin,7,7,False
+SC3,1920,2019-10-26,Elgin,Queens Park,21,21,False
+SC3,1920,2019-10-29,Edinburgh City,Stenhousemuir,24,24,True
+SC3,1920,2019-10-29,Stirling,Cowdenbeath,24,24,True
+SC3,1920,2019-10-29,Cove Rangers,Albion Rvs,24,24,True
+SC3,1920,2019-11-02,Cowdenbeath,Cove Rangers,4,4,False
+SC3,1920,2019-11-02,Elgin,Annan Athletic,7,28,False
+SC3,1920,2019-11-02,Stenhousemuir,Queens Park,4,7,False
+SC3,1920,2019-11-02,Stirling,Albion Rvs,4,4,False
+SC3,1920,2019-11-02,Brechin,Edinburgh City,28,4,False
+SC3,1920,2019-11-09,Annan Athletic,Cowdenbeath,7,7,False
+SC3,1920,2019-11-09,Cove Rangers,Stirling,7,7,False
+SC3,1920,2019-11-09,Edinburgh City,Elgin,7,7,False
+SC3,1920,2019-11-09,Queens Park,Brechin,7,7,False
+SC3,1920,2019-11-09,Albion Rvs,Stenhousemuir,7,7,False
+SC3,1920,2019-11-12,Annan Athletic,Brechin,3,3,True
+SC3,1920,2019-11-16,Cowdenbeath,Queens Park,7,7,False
+SC3,1920,2019-11-16,Edinburgh City,Albion Rvs,7,7,False
+SC3,1920,2019-11-16,Stirling,Annan Athletic,7,4,False
+SC3,1920,2019-11-16,Cove Rangers,Brechin,7,4,False
+SC3,1920,2019-11-30,Brechin,Stenhousemuir,14,21,False
+SC3,1920,2019-11-30,Elgin,Stirling,21,14,False
+SC3,1920,2019-11-30,Queens Park,Edinburgh City,14,14,False
+SC3,1920,2019-11-30,Annan Athletic,Cove Rangers,14,14,False
+SC3,1920,2019-12-03,Stenhousemuir,Elgin,3,3,True
+SC3,1920,2019-12-07,Albion Rvs,Queens Park,21,7,False
+SC3,1920,2019-12-07,Cowdenbeath,Elgin,21,4,False
+SC3,1920,2019-12-07,Edinburgh City,Cove Rangers,7,7,False
+SC3,1920,2019-12-07,Stenhousemuir,Annan Athletic,4,7,False
+SC3,1920,2019-12-07,Stirling,Brechin,7,7,False
+SC3,1920,2019-12-14,Brechin,Cowdenbeath,7,7,False
+SC3,1920,2019-12-14,Elgin,Albion Rvs,7,7,False
+SC3,1920,2019-12-14,Queens Park,Stirling,7,7,False
+SC3,1920,2019-12-14,Annan Athletic,Edinburgh City,7,7,False
+SC3,1920,2019-12-14,Cove Rangers,Stenhousemuir,7,7,False
+SC3,1920,2019-12-21,Queens Park,Cove Rangers,7,7,False
+SC3,1920,2019-12-21,Stirling,Edinburgh City,7,7,False
+SC3,1920,2019-12-21,Cowdenbeath,Stenhousemuir,7,7,False
+SC3,1920,2019-12-21,Albion Rvs,Annan Athletic,7,7,False
+SC3,1920,2019-12-21,Elgin,Brechin,7,7,False
+SC3,1920,2019-12-28,Brechin,Albion Rvs,7,7,False
+SC3,1920,2019-12-28,Cove Rangers,Elgin,7,7,False
+SC3,1920,2019-12-28,Annan Athletic,Queens Park,7,7,False
+SC3,1920,2019-12-28,Edinburgh City,Cowdenbeath,7,7,False
+SC3,1920,2019-12-28,Stenhousemuir,Stirling,7,7,False
+SC3,1920,2020-01-04,Queens Park,Stenhousemuir,7,7,False
+SC3,1920,2020-01-04,Albion Rvs,Stirling,7,7,False
+SC3,1920,2020-01-04,Brechin,Cove Rangers,7,7,False
+SC3,1920,2020-01-04,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1920,2020-01-04,Elgin,Edinburgh City,7,7,False
+SC3,1920,2020-01-11,Annan Athletic,Elgin,7,7,False
+SC3,1920,2020-01-11,Edinburgh City,Queens Park,7,7,False
+SC3,1920,2020-01-11,Stenhousemuir,Brechin,7,7,False
+SC3,1920,2020-01-18,Annan Athletic,Stirling,7,14,False
+SC3,1920,2020-01-18,Cove Rangers,Cowdenbeath,14,14,False
+SC3,1920,2020-01-18,Elgin,Stenhousemuir,7,7,False
+SC3,1920,2020-01-25,Stirling,Elgin,7,7,False
+SC3,1920,2020-01-25,Cove Rangers,Annan Athletic,7,7,False
+SC3,1920,2020-01-25,Cowdenbeath,Brechin,7,14,False
+SC3,1920,2020-01-25,Queens Park,Albion Rvs,14,21,False
+SC3,1920,2020-01-25,Stenhousemuir,Edinburgh City,7,14,False
+SC3,1920,2020-02-01,Annan Athletic,Stenhousemuir,7,7,False
+SC3,1920,2020-02-01,Albion Rvs,Cove Rangers,7,7,False
+SC3,1920,2020-02-01,Brechin,Elgin,7,7,False
+SC3,1920,2020-02-01,Edinburgh City,Stirling,7,7,False
+SC3,1920,2020-02-01,Queens Park,Cowdenbeath,7,7,False
+SC3,1920,2020-02-08,Edinburgh City,Annan Athletic,7,7,False
+SC3,1920,2020-02-08,Elgin,Cove Rangers,7,7,False
+SC3,1920,2020-02-08,Stenhousemuir,Cowdenbeath,7,7,False
+SC3,1920,2020-02-08,Stirling,Queens Park,7,7,False
+SC3,1920,2020-02-08,Albion Rvs,Brechin,7,7,False
+SC3,1920,2020-02-15,Cowdenbeath,Stirling,7,7,False
+SC3,1920,2020-02-15,Queens Park,Elgin,7,7,False
+SC3,1920,2020-02-15,Stenhousemuir,Albion Rvs,7,7,False
+SC3,1920,2020-02-15,Cove Rangers,Edinburgh City,7,7,False
+SC3,1920,2020-02-22,Cove Rangers,Queens Park,7,7,False
+SC3,1920,2020-02-22,Edinburgh City,Brechin,7,14,False
+SC3,1920,2020-02-22,Annan Athletic,Albion Rvs,14,7,False
+SC3,1920,2020-02-26,Brechin,Queens Park,4,4,True
+SC3,1920,2020-02-29,Brechin,Stirling,3,14,False
+SC3,1920,2020-02-29,Cowdenbeath,Edinburgh City,14,7,False
+SC3,1920,2020-02-29,Queens Park,Annan Athletic,3,7,False
+SC3,1920,2020-02-29,Stenhousemuir,Cove Rangers,14,7,False
+SC3,1920,2020-02-29,Albion Rvs,Elgin,7,14,False
+SC3,1920,2020-03-03,Stirling,Stenhousemuir,3,3,True
+SC3,1920,2020-03-03,Cowdenbeath,Albion Rvs,3,3,True
+SC3,1920,2020-03-07,Stenhousemuir,Queens Park,4,7,False
+SC3,1920,2020-03-07,Edinburgh City,Albion Rvs,7,4,False
+SC3,1920,2020-03-07,Elgin,Stirling,7,4,False
+SC3,1920,2020-03-07,Cove Rangers,Brechin,7,7,False
+SC3,1920,2020-03-07,Annan Athletic,Cowdenbeath,7,4,False
+SC3,1920,2020-03-10,Stirling,Cove Rangers,3,3,True
+SC3,1920,2020-03-10,Elgin,Cowdenbeath,3,3,True

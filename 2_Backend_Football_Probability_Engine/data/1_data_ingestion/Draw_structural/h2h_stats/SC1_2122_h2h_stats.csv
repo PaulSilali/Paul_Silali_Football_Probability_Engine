@@ -1,0 +1,46 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+570,Inverness C,573,Kilmarnock,2122,4,0,0.0,1.5
+563,Dunfermline,570,Inverness C,2122,4,2,0.5,1.75
+559,Raith Rvs,570,Inverness C,2122,4,2,0.5,2.5
+556,Arbroath,570,Inverness C,2122,4,1,0.25,1.25
+559,Raith Rvs,564,Partick,2122,4,1,0.25,1.75
+563,Dunfermline,573,Kilmarnock,2122,4,2,0.5,2.25
+570,Inverness C,572,Queen of Sth,2122,4,1,0.25,3.25
+558,Morton,564,Partick,2122,4,1,0.25,1.75
+564,Partick,567,Hamilton,2122,4,1,0.25,4.0
+559,Raith Rvs,562,Ayr,2122,4,0,0.0,2.75
+562,Ayr,564,Partick,2122,4,0,0.0,3.25
+559,Raith Rvs,567,Hamilton,2122,4,2,0.5,3.25
+567,Hamilton,570,Inverness C,2122,4,1,0.25,3.0
+562,Ayr,570,Inverness C,2122,4,2,0.5,3.0
+556,Arbroath,562,Ayr,2122,4,2,0.5,2.0
+562,Ayr,572,Queen of Sth,2122,4,1,0.25,2.25
+558,Morton,567,Hamilton,2122,4,1,0.25,1.25
+563,Dunfermline,567,Hamilton,2122,4,2,0.5,1.5
+562,Ayr,563,Dunfermline,2122,4,1,0.25,3.0
+564,Partick,570,Inverness C,2122,4,2,0.5,2.75
+558,Morton,570,Inverness C,2122,4,0,0.0,2.75
+558,Morton,559,Raith Rvs,2122,4,1,0.25,2.25
+567,Hamilton,572,Queen of Sth,2122,4,0,0.0,2.0
+564,Partick,573,Kilmarnock,2122,4,1,0.25,2.0
+572,Queen of Sth,573,Kilmarnock,2122,4,0,0.0,2.5
+567,Hamilton,573,Kilmarnock,2122,4,0,0.0,3.0
+558,Morton,573,Kilmarnock,2122,4,2,0.5,1.75
+563,Dunfermline,564,Partick,2122,4,1,0.25,2.25
+556,Arbroath,567,Hamilton,2122,4,2,0.5,2.75
+562,Ayr,567,Hamilton,2122,4,3,0.75,2.0
+558,Morton,562,Ayr,2122,4,3,0.75,2.0
+563,Dunfermline,572,Queen of Sth,2122,4,1,0.25,3.0
+564,Partick,572,Queen of Sth,2122,4,1,0.25,1.75
+559,Raith Rvs,563,Dunfermline,2122,4,3,0.75,1.5
+558,Morton,563,Dunfermline,2122,4,2,0.5,3.75
+556,Arbroath,558,Morton,2122,4,2,0.5,2.5
+556,Arbroath,559,Raith Rvs,2122,4,2,0.5,3.0
+558,Morton,572,Queen of Sth,2122,4,1,0.25,2.75
+556,Arbroath,573,Kilmarnock,2122,4,1,0.25,1.25
+562,Ayr,573,Kilmarnock,2122,4,0,0.0,2.5
+556,Arbroath,563,Dunfermline,2122,4,0,0.0,3.25
+556,Arbroath,564,Partick,2122,4,2,0.5,2.0
+559,Raith Rvs,573,Kilmarnock,2122,4,1,0.25,2.5
+556,Arbroath,572,Queen of Sth,2122,4,2,0.5,2.5
+559,Raith Rvs,572,Queen of Sth,2122,4,2,0.5,2.5

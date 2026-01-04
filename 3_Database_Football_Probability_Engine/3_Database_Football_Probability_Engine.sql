@@ -16,8 +16,76 @@
 -- - Audit-safe
 -- 
 -- ============================================================================
+-- DATABASE CREATION
+-- ============================================================================
+-- IMPORTANT: Database creation cannot be done inside a transaction
+-- 
+-- Option 1: Run this command separately (recommended):
+--   psql -U postgres -c "CREATE DATABASE football_probability_engine;"
+--
+-- Option 2: Connect to 'postgres' database and run:
+--   CREATE DATABASE football_probability_engine;
+--
+-- Then connect to 'football_probability_engine' database and run this schema file
+
+-- Attempt to create database (will fail if run inside transaction, use Option 1 or 2 above)
+-- Uncomment the line below if running from 'postgres' database outside a transaction:
+-- CREATE DATABASE football_probability_engine;
+
+-- ============================================================================
+-- SCHEMA CREATION (Run this after connecting to football_probability_engine database)
+-- ============================================================================
 
 BEGIN;
+
+-- ============================================================================
+-- DROP EXISTING OBJECTS (CLEAN SLATE)
+-- ============================================================================
+-- Drop in reverse dependency order to avoid constraint violations
+-- Using CASCADE to automatically drop dependent objects
+
+-- Drop all triggers first (they depend on tables)
+DROP TRIGGER IF EXISTS update_leagues_updated_at ON leagues;
+DROP TRIGGER IF EXISTS update_teams_updated_at ON teams;
+DROP TRIGGER IF EXISTS update_models_updated_at ON models;
+DROP TRIGGER IF EXISTS update_jackpots_updated_at ON jackpots;
+DROP TRIGGER IF EXISTS update_users_updated_at ON users;
+DROP TRIGGER IF EXISTS update_team_h2h_stats_updated_at ON team_h2h_stats;
+DROP TRIGGER IF EXISTS update_data_sources_updated_at ON data_sources;
+
+-- Drop all tables (CASCADE will handle foreign keys and indexes)
+DROP TABLE IF EXISTS saved_probability_results CASCADE;
+DROP TABLE IF EXISTS saved_jackpot_templates CASCADE;
+DROP TABLE IF EXISTS audit_entries CASCADE;
+DROP TABLE IF EXISTS ingestion_logs CASCADE;
+DROP TABLE IF EXISTS data_sources CASCADE;
+DROP TABLE IF EXISTS calibration_data CASCADE;
+DROP TABLE IF EXISTS validation_results CASCADE;
+DROP TABLE IF EXISTS predictions CASCADE;
+DROP TABLE IF EXISTS jackpot_fixtures CASCADE;
+DROP TABLE IF EXISTS jackpots CASCADE;
+DROP TABLE IF EXISTS training_runs CASCADE;
+DROP TABLE IF EXISTS models CASCADE;
+DROP TABLE IF EXISTS league_stats CASCADE;
+DROP TABLE IF EXISTS team_features CASCADE;
+DROP TABLE IF EXISTS team_h2h_stats CASCADE;
+DROP TABLE IF EXISTS matches CASCADE;
+DROP TABLE IF EXISTS teams CASCADE;
+DROP TABLE IF EXISTS leagues CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+
+-- Drop all custom types/enums
+DROP TYPE IF EXISTS prediction_set CASCADE;
+DROP TYPE IF EXISTS match_result CASCADE;
+DROP TYPE IF EXISTS matchresult CASCADE;  -- SQLAlchemy compatibility enum
+DROP TYPE IF EXISTS model_status CASCADE;
+DROP TYPE IF EXISTS data_source_status CASCADE;
+
+-- Drop functions
+DROP FUNCTION IF EXISTS update_updated_at_column() CASCADE;
+
+-- Drop indexes (if they exist independently, though CASCADE should handle most)
+DROP INDEX IF EXISTS idx_models_active_per_type;
 
 -- ============================================================================
 -- EXTENSIONS
@@ -36,9 +104,9 @@ DO $$ BEGIN
 EXCEPTION WHEN duplicate_object THEN NULL;
 END $$;
 
--- Prediction set enum (A-G)
+-- Prediction set enum (A-J)
 DO $$ BEGIN
-    CREATE TYPE prediction_set AS ENUM ('A', 'B', 'C', 'D', 'E', 'F', 'G');
+    CREATE TYPE prediction_set AS ENUM ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J');
 EXCEPTION WHEN duplicate_object THEN NULL;
 END $$;
 
@@ -96,6 +164,34 @@ COMMENT ON TABLE teams IS 'Team registry with Dixon-Coles strength parameters';
 COMMENT ON COLUMN teams.canonical_name IS 'Normalized team name for matching across sources';
 COMMENT ON COLUMN teams.attack_rating IS 'Attack strength α (log scale, ~1.0 average)';
 COMMENT ON COLUMN teams.defense_rating IS 'Defense strength β (log scale, ~1.0 average)';
+
+-- Team H2H (Head-to-Head) statistics table
+CREATE TABLE IF NOT EXISTS team_h2h_stats (
+    id              SERIAL PRIMARY KEY,
+    team_home_id    INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    team_away_id    INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    meetings        INTEGER NOT NULL DEFAULT 0,
+    draws           INTEGER NOT NULL DEFAULT 0,
+    home_draws      INTEGER NOT NULL DEFAULT 0,
+    away_draws      INTEGER NOT NULL DEFAULT 0,
+    draw_rate       DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    home_draw_rate  DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    away_draw_rate  DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    league_draw_rate DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    h2h_draw_index  DOUBLE PRECISION NOT NULL DEFAULT 1.0,
+    last_meeting_date DATE,
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_h2h_pair UNIQUE (team_home_id, team_away_id)
+);
+
+COMMENT ON TABLE team_h2h_stats IS 'Head-to-head statistics for team pairs, used for draw eligibility in ticket construction';
+COMMENT ON COLUMN team_h2h_stats.h2h_draw_index IS 'Ratio of H2H draw rate to league draw rate (draw_rate / league_draw_rate)';
+COMMENT ON COLUMN team_h2h_stats.meetings IS 'Total number of historical meetings between these teams';
+COMMENT ON COLUMN team_h2h_stats.draws IS 'Total number of draws in H2H matches';
+COMMENT ON COLUMN team_h2h_stats.home_draws IS 'Number of draws when team_home_id was at home';
+COMMENT ON COLUMN team_h2h_stats.away_draws IS 'Number of draws when team_away_id was at home';
 
 -- ============================================================================
 -- HISTORICAL DATA
@@ -249,6 +345,13 @@ CREATE TABLE IF NOT EXISTS training_runs (
     log_loss        DOUBLE PRECISION,
     validation_accuracy DOUBLE PRECISION,
     
+    -- Entropy and temperature metrics (for uncertainty monitoring)
+    avg_entropy     DOUBLE PRECISION,                   -- Average normalized entropy (0-1)
+    p10_entropy     DOUBLE PRECISION,                   -- 10th percentile of entropy distribution
+    p90_entropy     DOUBLE PRECISION,                   -- 90th percentile of entropy distribution
+    temperature     DOUBLE PRECISION,                   -- Learned temperature parameter for probability softening
+    alpha_mean      DOUBLE PRECISION,                   -- Mean effective alpha used in entropy-weighted blending
+    
     -- Diagnostics
     error_message   TEXT,
     logs            JSONB,
@@ -257,6 +360,11 @@ CREATE TABLE IF NOT EXISTS training_runs (
 );
 
 COMMENT ON TABLE training_runs IS 'Training job execution history with full audit trail';
+COMMENT ON COLUMN training_runs.avg_entropy IS 'Average normalized entropy (0-1) of model predictions during training';
+COMMENT ON COLUMN training_runs.p10_entropy IS '10th percentile of entropy distribution';
+COMMENT ON COLUMN training_runs.p90_entropy IS '90th percentile of entropy distribution';
+COMMENT ON COLUMN training_runs.temperature IS 'Learned temperature parameter for probability softening (typically 1.0-1.5)';
+COMMENT ON COLUMN training_runs.alpha_mean IS 'Mean effective alpha used in entropy-weighted blending';
 
 -- ============================================================================
 -- USER & AUTH TABLES
@@ -346,6 +454,10 @@ CREATE TABLE IF NOT EXISTS predictions (
     confidence      DOUBLE PRECISION NOT NULL,         -- Max probability
     entropy         DOUBLE PRECISION,                   -- Prediction entropy
     
+    -- Draw model components (for explainability and auditing)
+    -- Stores JSON: {"poisson": 0.25, "dixon_coles": 0.27, "market": 0.26}
+    draw_components JSONB,
+    
     -- Model components (for explainability)
     expected_home_goals DOUBLE PRECISION,               -- λ_home
     expected_away_goals DOUBLE PRECISION,               -- λ_away
@@ -368,9 +480,10 @@ CREATE TABLE IF NOT EXISTS predictions (
     CONSTRAINT check_prob_sum CHECK (abs((prob_home + prob_draw + prob_away) - 1.0) < 0.001)
 );
 
-COMMENT ON TABLE predictions IS 'Predicted probabilities for all sets (A-G)';
-COMMENT ON COLUMN predictions.set_type IS 'Probability set identifier (A-G)';
+COMMENT ON TABLE predictions IS 'Predicted probabilities for all sets (A-J)';
+COMMENT ON COLUMN predictions.set_type IS 'Probability set identifier (A-J)';
 COMMENT ON COLUMN predictions.entropy IS 'Prediction entropy for uncertainty quantification';
+COMMENT ON COLUMN predictions.draw_components IS 'Draw probability components: {"poisson": 0.25, "dixon_coles": 0.27, "market": 0.26}';
 
 -- ============================================================================
 -- VALIDATION & CALIBRATION
@@ -502,6 +615,10 @@ CREATE INDEX IF NOT EXISTS idx_matches_league_season ON matches(league_id, seaso
 CREATE INDEX IF NOT EXISTS idx_teams_canonical ON teams(canonical_name);
 CREATE INDEX IF NOT EXISTS idx_teams_league ON teams(league_id);
 
+-- Team H2H indexes
+CREATE INDEX IF NOT EXISTS idx_h2h_pair ON team_h2h_stats(team_home_id, team_away_id);
+CREATE INDEX IF NOT EXISTS idx_h2h_draw_index ON team_h2h_stats(h2h_draw_index);
+
 -- Predictions indexes
 CREATE INDEX IF NOT EXISTS idx_predictions_fixture ON predictions(fixture_id);
 CREATE INDEX IF NOT EXISTS idx_predictions_set ON predictions(set_type);
@@ -514,6 +631,10 @@ CREATE INDEX IF NOT EXISTS idx_jackpots_status ON jackpots(status);
 
 -- Feature store indexes
 CREATE INDEX IF NOT EXISTS idx_team_features_lookup ON team_features(team_id, calculated_at DESC);
+
+-- Training runs indexes (entropy and temperature monitoring)
+CREATE INDEX IF NOT EXISTS idx_training_runs_entropy ON training_runs(avg_entropy);
+CREATE INDEX IF NOT EXISTS idx_training_runs_temperature ON training_runs(temperature);
 
 -- Validation indexes
 CREATE INDEX IF NOT EXISTS idx_validation_results_jackpot ON validation_results(jackpot_id);
@@ -575,6 +696,13 @@ CREATE TRIGGER update_users_updated_at
     FOR EACH ROW
     EXECUTE FUNCTION update_updated_at_column();
 
+-- Trigger for team_h2h_stats
+DROP TRIGGER IF EXISTS update_team_h2h_stats_updated_at ON team_h2h_stats;
+CREATE TRIGGER update_team_h2h_stats_updated_at
+    BEFORE UPDATE ON team_h2h_stats
+    FOR EACH ROW
+    EXECUTE FUNCTION update_updated_at_column();
+
 -- Trigger for data_sources
 DROP TRIGGER IF EXISTS update_data_sources_updated_at ON data_sources;
 CREATE TRIGGER update_data_sources_updated_at
@@ -594,37 +722,6 @@ INSERT INTO leagues (code, name, country, home_advantage) VALUES
     ('I1', 'Serie A', 'Italy', 0.28),
     ('F1', 'Ligue 1', 'France', 0.33)
 ON CONFLICT (code) DO NOTHING;
-
--- ============================================================================
--- SCHEMA VALIDATION
--- ============================================================================
-
--- Verify all tables created
-DO $$
-DECLARE
-    expected_tables TEXT[] := ARRAY[
-        'leagues', 'teams', 'matches', 'team_features', 'league_stats',
-        'models', 'training_runs', 'users', 'jackpots', 'jackpot_fixtures',
-        'predictions', 'validation_results', 'calibration_data',
-        'data_sources', 'ingestion_logs', 'audit_entries'
-    ];
-    missing_tables TEXT[];
-BEGIN
-    SELECT ARRAY_AGG(table_name)
-    INTO missing_tables
-    FROM unnest(expected_tables) AS table_name
-    WHERE table_name NOT IN (
-        SELECT tablename FROM pg_tables WHERE schemaname = 'public'
-    );
-    
-    IF array_length(missing_tables, 1) > 0 THEN
-        RAISE EXCEPTION 'Missing tables: %', array_to_string(missing_tables, ', ');
-    ELSE
-        RAISE NOTICE 'All tables created successfully ✓';
-    END IF;
-END $$;
-
-COMMIT;
 
 -- ============================================================================
 -- END OF SCHEMA
@@ -832,8 +929,6 @@ ON CONFLICT (code) DO UPDATE SET
     is_active = EXCLUDED.is_active,
     updated_at = now();
 
-COMMIT;
-
 -- ============================================================================
 -- VERIFICATION
 -- ============================================================================
@@ -962,4 +1057,448 @@ COMMENT ON TABLE saved_probability_results IS 'Saved probability output selectio
 COMMENT ON COLUMN saved_probability_results.selections IS 'User selections per probability set: {"A": {"fixture_1": "1", "fixture_2": "X"}, "B": {...}}';
 COMMENT ON COLUMN saved_probability_results.actual_results IS 'Actual match results: {"fixture_1": "X", "fixture_2": "1"}';
 COMMENT ON COLUMN saved_probability_results.scores IS 'Score tracking per set: {"A": {"correct": 10, "total": 15}, "B": {...}}';
+
+COMMIT;
+
+-- ============================================================================
+-- SCHEMA VALIDATION
+-- ============================================================================
+-- Note: Validation runs AFTER all tables are created (including saved_jackpot_templates
+-- and saved_probability_results which are created later in the file)
+
+-- Verify all tables created
+DO $$
+DECLARE
+    expected_tables TEXT[] := ARRAY[
+        'leagues', 'teams', 'team_h2h_stats', 'matches', 'team_features', 'league_stats',
+        'models', 'training_runs', 'users', 'jackpots', 'jackpot_fixtures',
+        'predictions', 'validation_results', 'calibration_data',
+        'data_sources', 'ingestion_logs', 'audit_entries',
+        'saved_jackpot_templates', 'saved_probability_results'
+    ];
+    missing_tables TEXT[];
+BEGIN
+    SELECT ARRAY_AGG(table_name)
+    INTO missing_tables
+    FROM unnest(expected_tables) AS table_name
+    WHERE table_name NOT IN (
+        SELECT tablename FROM pg_tables WHERE schemaname = 'public'
+    );
+    
+    IF array_length(missing_tables, 1) > 0 THEN
+        RAISE EXCEPTION 'Missing tables: %', array_to_string(missing_tables, ', ');
+    ELSE
+        RAISE NOTICE 'All tables created successfully ✓';
+    END IF;
+END $$;
+
+-- ============================================================================
+-- DRAW STRUCTURAL MODELING EXTENSIONS
+-- ============================================================================
+-- 
+-- This migration adds tables for draw-first probability enhancement
+-- using league priors, Elo symmetry, H2H, weather, fatigue, referee, and odds drift.
+-- 
+-- NON-DESTRUCTIVE: Only adds new tables, does not modify existing ones.
+-- Safe to run in production.
+-- 
+-- ============================================================================
+
+BEGIN;
+
+-- ============================================================================
+-- 1. LEAGUE-LEVEL DRAW PRIORS
+-- ============================================================================
+-- Stores historical draw rates per league/season for use as structural priors
+
+CREATE TABLE IF NOT EXISTS league_draw_priors (
+    id              SERIAL PRIMARY KEY,
+    league_id       INTEGER NOT NULL REFERENCES leagues(id) ON DELETE CASCADE,
+    season          VARCHAR(20) NOT NULL,
+    draw_rate       DOUBLE PRECISION NOT NULL CHECK (draw_rate BETWEEN 0 AND 1),
+    sample_size     INTEGER NOT NULL CHECK (sample_size > 0),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_league_draw_prior UNIQUE (league_id, season)
+);
+
+CREATE INDEX idx_league_draw_priors_league ON league_draw_priors(league_id);
+CREATE INDEX idx_league_draw_priors_season ON league_draw_priors(season);
+
+COMMENT ON TABLE league_draw_priors IS 'Historical draw rates per league/season for structural draw modeling';
+COMMENT ON COLUMN league_draw_priors.draw_rate IS 'Observed draw rate (0.0-1.0)';
+COMMENT ON COLUMN league_draw_priors.sample_size IS 'Number of matches used to calculate draw_rate';
+
+-- ============================================================================
+-- 2. HEAD-TO-HEAD AGGREGATES (Enhanced - separate from team_h2h_stats)
+-- ============================================================================
+-- Stores H2H statistics specifically for draw modeling
+-- Note: team_h2h_stats already exists, but this provides additional granularity
+
+CREATE TABLE IF NOT EXISTS h2h_draw_stats (
+    id              SERIAL PRIMARY KEY,
+    team_home_id    INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    team_away_id    INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    matches_played  INTEGER NOT NULL DEFAULT 0 CHECK (matches_played >= 0),
+    draw_count      INTEGER NOT NULL DEFAULT 0 CHECK (draw_count >= 0),
+    avg_goals       DOUBLE PRECISION,
+    last_updated    TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_h2h_draw_pair UNIQUE (team_home_id, team_away_id),
+    CONSTRAINT chk_h2h_draw_count CHECK (draw_count <= matches_played)
+);
+
+CREATE INDEX idx_h2h_draw_pair ON h2h_draw_stats(team_home_id, team_away_id);
+CREATE INDEX idx_h2h_draw_matches ON h2h_draw_stats(matches_played) WHERE matches_played >= 4;
+
+COMMENT ON TABLE h2h_draw_stats IS 'Head-to-head statistics specifically for draw probability modeling';
+COMMENT ON COLUMN h2h_draw_stats.matches_played IS 'Total historical meetings between these teams';
+COMMENT ON COLUMN h2h_draw_stats.draw_count IS 'Number of draws in H2H matches';
+
+-- ============================================================================
+-- 3. TEAM ELO RATINGS
+-- ============================================================================
+-- Stores Elo ratings over time for symmetry-based draw adjustment
+
+CREATE TABLE IF NOT EXISTS team_elo (
+    id              SERIAL PRIMARY KEY,
+    team_id         INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    date            DATE NOT NULL,
+    elo_rating      DOUBLE PRECISION NOT NULL,
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_team_elo_date UNIQUE (team_id, date)
+);
+
+CREATE INDEX idx_team_elo_team_date ON team_elo(team_id, date DESC);
+CREATE INDEX idx_team_elo_date ON team_elo(date);
+
+COMMENT ON TABLE team_elo IS 'Team Elo ratings over time for draw symmetry modeling';
+COMMENT ON COLUMN team_elo.elo_rating IS 'Elo rating (typically 1000-2000 range)';
+
+-- ============================================================================
+-- 4. WEATHER SNAPSHOT PER FIXTURE
+-- ============================================================================
+-- Stores weather conditions at match time for draw probability adjustment
+
+CREATE TABLE IF NOT EXISTS match_weather (
+    id                  SERIAL PRIMARY KEY,
+    fixture_id          INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    temperature          DOUBLE PRECISION,
+    rainfall            DOUBLE PRECISION CHECK (rainfall >= 0),
+    wind_speed          DOUBLE PRECISION CHECK (wind_speed >= 0),
+    weather_draw_index  DOUBLE PRECISION,
+    recorded_at         TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_match_weather_fixture UNIQUE (fixture_id)
+);
+
+CREATE INDEX idx_match_weather_fixture ON match_weather(fixture_id);
+CREATE INDEX idx_match_weather_index ON match_weather(weather_draw_index);
+
+COMMENT ON TABLE match_weather IS 'Weather conditions at match time for draw probability adjustment';
+COMMENT ON COLUMN match_weather.weather_draw_index IS 'Computed draw adjustment factor from weather (0.95-1.10 typical)';
+
+-- Historical weather table (for matches table, not fixtures)
+CREATE TABLE IF NOT EXISTS match_weather_historical (
+    id                  SERIAL PRIMARY KEY,
+    match_id            BIGINT NOT NULL REFERENCES matches(id) ON DELETE CASCADE,
+    temperature         DOUBLE PRECISION,
+    rainfall            DOUBLE PRECISION CHECK (rainfall >= 0),
+    wind_speed          DOUBLE PRECISION CHECK (wind_speed >= 0),
+    weather_draw_index  DOUBLE PRECISION,
+    recorded_at         TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_match_weather_historical_match UNIQUE (match_id)
+);
+
+CREATE INDEX idx_match_weather_historical_match ON match_weather_historical(match_id);
+
+COMMENT ON TABLE match_weather_historical IS 'Weather conditions for historical matches (from matches table)';
+COMMENT ON COLUMN match_weather_historical.weather_draw_index IS 'Computed draw adjustment factor from weather (0.95-1.10 typical)';
+
+-- ============================================================================
+-- 5. REFEREE BEHAVIORAL PROFILE
+-- ============================================================================
+-- Stores referee statistics for draw probability modeling
+
+CREATE TABLE IF NOT EXISTS referee_stats (
+    id              SERIAL PRIMARY KEY,
+    referee_id      INTEGER NOT NULL UNIQUE,
+    referee_name    VARCHAR(200),
+    matches         INTEGER NOT NULL DEFAULT 0 CHECK (matches >= 0),
+    avg_cards       DOUBLE PRECISION CHECK (avg_cards >= 0),
+    avg_penalties   DOUBLE PRECISION CHECK (avg_penalties >= 0),
+    draw_rate       DOUBLE PRECISION CHECK (draw_rate BETWEEN 0 AND 1),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_referee_stats_id ON referee_stats(referee_id);
+CREATE INDEX idx_referee_stats_draw_rate ON referee_stats(draw_rate);
+
+COMMENT ON TABLE referee_stats IS 'Referee behavioral statistics for draw probability adjustment';
+COMMENT ON COLUMN referee_stats.avg_cards IS 'Average cards per match';
+COMMENT ON COLUMN referee_stats.draw_rate IS 'Observed draw rate in matches officiated by this referee';
+
+-- ============================================================================
+-- 6. TEAM REST & CONGESTION
+-- ============================================================================
+-- Stores rest days and congestion data for fatigue-based draw adjustment
+
+CREATE TABLE IF NOT EXISTS team_rest_days (
+    id              SERIAL PRIMARY KEY,
+    team_id         INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    fixture_id      INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    rest_days       INTEGER NOT NULL CHECK (rest_days >= 0),
+    is_midweek      BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_team_rest_fixture UNIQUE (team_id, fixture_id)
+);
+
+CREATE INDEX idx_team_rest_team ON team_rest_days(team_id);
+CREATE INDEX idx_team_rest_fixture ON team_rest_days(fixture_id);
+CREATE INDEX idx_team_rest_days ON team_rest_days(rest_days);
+
+COMMENT ON TABLE team_rest_days IS 'Team rest days and congestion data for fatigue-based draw adjustment';
+COMMENT ON COLUMN team_rest_days.rest_days IS 'Days of rest before this fixture';
+COMMENT ON COLUMN team_rest_days.is_midweek IS 'Whether match is played midweek (Tue-Thu)';
+
+-- Historical rest days table (for matches table, not fixtures)
+CREATE TABLE IF NOT EXISTS team_rest_days_historical (
+    id              SERIAL PRIMARY KEY,
+    match_id        BIGINT NOT NULL REFERENCES matches(id) ON DELETE CASCADE,
+    team_id         INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    rest_days       INTEGER NOT NULL CHECK (rest_days >= 0),
+    is_midweek      BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_team_rest_historical_match_team UNIQUE (match_id, team_id)
+);
+
+CREATE INDEX idx_team_rest_historical_match ON team_rest_days_historical(match_id);
+CREATE INDEX idx_team_rest_historical_team ON team_rest_days_historical(team_id);
+CREATE INDEX idx_team_rest_historical_days ON team_rest_days_historical(rest_days);
+
+COMMENT ON TABLE team_rest_days_historical IS 'Team rest days for historical matches (from matches table)';
+COMMENT ON COLUMN team_rest_days_historical.rest_days IS 'Days of rest before this match';
+COMMENT ON COLUMN team_rest_days_historical.is_midweek IS 'Whether match is played midweek (Tue-Thu)';
+
+-- ============================================================================
+-- 7. ODDS MOVEMENT (DRAW FOCUS)
+-- ============================================================================
+-- Stores odds movement specifically for draw probability adjustment
+
+CREATE TABLE IF NOT EXISTS odds_movement (
+    id              SERIAL PRIMARY KEY,
+    fixture_id      INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    draw_open       DOUBLE PRECISION CHECK (draw_open > 1.0),
+    draw_close      DOUBLE PRECISION CHECK (draw_close > 1.0),
+    draw_delta      DOUBLE PRECISION,
+    recorded_at     TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_odds_movement_fixture UNIQUE (fixture_id)
+);
+
+CREATE INDEX idx_odds_movement_fixture ON odds_movement(fixture_id);
+CREATE INDEX idx_odds_movement_delta ON odds_movement(draw_delta);
+
+COMMENT ON TABLE odds_movement IS 'Odds movement data for draw probability adjustment';
+COMMENT ON COLUMN odds_movement.draw_delta IS 'Change in draw odds (close - open), positive = draw odds increased';
+
+-- Historical odds movement table (for matches table, not fixtures)
+CREATE TABLE IF NOT EXISTS odds_movement_historical (
+    id              SERIAL PRIMARY KEY,
+    match_id        BIGINT NOT NULL REFERENCES matches(id) ON DELETE CASCADE,
+    draw_open       DOUBLE PRECISION CHECK (draw_open > 1.0),
+    draw_close      DOUBLE PRECISION CHECK (draw_close > 1.0),
+    draw_delta      DOUBLE PRECISION,
+    recorded_at     TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_odds_movement_historical_match UNIQUE (match_id)
+);
+
+CREATE INDEX idx_odds_movement_historical_match ON odds_movement_historical(match_id);
+CREATE INDEX idx_odds_movement_historical_delta ON odds_movement_historical(draw_delta);
+
+COMMENT ON TABLE odds_movement_historical IS 'Odds movement data for historical matches (from matches table)';
+COMMENT ON COLUMN odds_movement_historical.draw_delta IS 'Change in draw odds (close - open), positive = draw odds increased';
+
+-- ============================================================================
+-- 8. LEAGUE STRUCTURE METADATA
+-- ============================================================================
+-- Stores league structural information for draw probability modeling
+-- Includes league size, relegation/promotion zones, etc.
+
+CREATE TABLE IF NOT EXISTS league_structure (
+    id              SERIAL PRIMARY KEY,
+    league_id       INTEGER NOT NULL REFERENCES leagues(id) ON DELETE CASCADE,
+    season          VARCHAR(20) NOT NULL,
+    total_teams     INTEGER NOT NULL CHECK (total_teams > 0),
+    relegation_zones INTEGER NOT NULL DEFAULT 3 CHECK (relegation_zones >= 0),
+    promotion_zones INTEGER NOT NULL DEFAULT 3 CHECK (promotion_zones >= 0),
+    playoff_zones   INTEGER DEFAULT 0 CHECK (playoff_zones >= 0),
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_league_structure_season UNIQUE (league_id, season)
+);
+
+CREATE INDEX idx_league_structure_league ON league_structure(league_id);
+CREATE INDEX idx_league_structure_season ON league_structure(season);
+
+COMMENT ON TABLE league_structure IS 'League structural metadata for draw probability modeling';
+COMMENT ON COLUMN league_structure.total_teams IS 'Total number of teams in the league';
+COMMENT ON COLUMN league_structure.relegation_zones IS 'Number of teams that get relegated (affects late-season draw rates)';
+COMMENT ON COLUMN league_structure.promotion_zones IS 'Number of teams that get promoted';
+COMMENT ON COLUMN league_structure.playoff_zones IS 'Number of teams in playoff positions';
+
+-- ============================================================================
+-- 9. REFEREE ASSIGNMENT (Linking referees to fixtures)
+-- ============================================================================
+-- Links referees to specific fixtures (if not already in jackpot_fixtures)
+
+-- Note: If referee_id is already in jackpot_fixtures, this table is optional
+-- Adding it for completeness and flexibility
+
+ALTER TABLE jackpot_fixtures 
+ADD COLUMN IF NOT EXISTS referee_id INTEGER REFERENCES referee_stats(referee_id);
+
+CREATE INDEX IF NOT EXISTS idx_jackpot_fixtures_referee ON jackpot_fixtures(referee_id);
+
+-- ============================================================================
+-- VERIFICATION
+-- ============================================================================
+
+-- Verify all tables created
+DO $$
+DECLARE
+    expected_tables TEXT[] := ARRAY[
+        'league_draw_priors', 'h2h_draw_stats', 'team_elo', 'match_weather',
+        'match_weather_historical', 'referee_stats', 'team_rest_days',
+        'team_rest_days_historical', 'odds_movement', 'odds_movement_historical',
+        'league_structure'
+    ];
+    missing_tables TEXT[];
+BEGIN
+    SELECT ARRAY_AGG(table_name)
+    INTO missing_tables
+    FROM unnest(expected_tables) AS table_name
+    WHERE table_name NOT IN (
+        SELECT tablename FROM pg_tables WHERE schemaname = 'public'
+    );
+    
+    IF array_length(missing_tables, 1) > 0 THEN
+        RAISE EXCEPTION 'Missing tables: %', array_to_string(missing_tables, ', ');
+    ELSE
+        RAISE NOTICE 'All draw structural tables created successfully ✓';
+    END IF;
+END $$;
+
+COMMIT;
+
+-- ============================================================================
+-- END OF MIGRATION
+-- ============================================================================
+
+-- ============================================================================
+-- XG DATA TABLE MIGRATION
+-- ============================================================================
+-- 
+-- This migration adds tables for Expected Goals (xG) data for draw probability modeling.
+-- xG data helps predict draw probability by measuring chance quality rather than actual goals.
+-- Low xG matches (defensive) tend to have higher draw rates.
+-- 
+-- NON-DESTRUCTIVE: Only adds new tables, does not modify existing ones.
+-- Safe to run in production.
+-- 
+-- ============================================================================
+
+BEGIN;
+
+-- ============================================================================
+-- 1. XG DATA FOR FIXTURES (Future matches)
+-- ============================================================================
+-- Stores xG data for jackpot fixtures
+
+CREATE TABLE IF NOT EXISTS match_xg (
+    id              SERIAL PRIMARY KEY,
+    fixture_id      INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    xg_home         DOUBLE PRECISION CHECK (xg_home >= 0),
+    xg_away         DOUBLE PRECISION CHECK (xg_away >= 0),
+    xg_total        DOUBLE PRECISION CHECK (xg_total >= 0),
+    xg_draw_index   DOUBLE PRECISION CHECK (xg_draw_index BETWEEN 0.8 AND 1.2),
+    -- xG draw index: lower xG_total = higher draw probability
+    -- Formula: 1.0 + (2.5 - xg_total) * 0.08
+    -- Example: xg_total=1.5 -> index=1.08 (8% boost), xg_total=3.5 -> index=0.92 (8% reduction)
+    recorded_at     TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_match_xg_fixture UNIQUE (fixture_id)
+);
+
+CREATE INDEX idx_match_xg_fixture ON match_xg(fixture_id);
+CREATE INDEX idx_match_xg_total ON match_xg(xg_total);
+CREATE INDEX idx_match_xg_draw_index ON match_xg(xg_draw_index);
+
+COMMENT ON TABLE match_xg IS 'Expected Goals (xG) data for jackpot fixtures';
+COMMENT ON COLUMN match_xg.xg_home IS 'Expected goals for home team';
+COMMENT ON COLUMN match_xg.xg_away IS 'Expected goals for away team';
+COMMENT ON COLUMN match_xg.xg_total IS 'Total expected goals (xg_home + xg_away)';
+COMMENT ON COLUMN match_xg.xg_draw_index IS 'Draw probability adjustment factor based on xG (lower xG = higher draw probability)';
+
+-- ============================================================================
+-- 2. XG DATA FOR HISTORICAL MATCHES
+-- ============================================================================
+-- Stores xG data for historical matches (from matches table)
+
+CREATE TABLE IF NOT EXISTS match_xg_historical (
+    id              SERIAL PRIMARY KEY,
+    match_id        BIGINT NOT NULL REFERENCES matches(id) ON DELETE CASCADE,
+    xg_home         DOUBLE PRECISION CHECK (xg_home >= 0),
+    xg_away         DOUBLE PRECISION CHECK (xg_away >= 0),
+    xg_total        DOUBLE PRECISION CHECK (xg_total >= 0),
+    xg_draw_index   DOUBLE PRECISION CHECK (xg_draw_index BETWEEN 0.8 AND 1.2),
+    recorded_at     TIMESTAMPTZ NOT NULL DEFAULT now(),
+    
+    CONSTRAINT uix_match_xg_historical_match UNIQUE (match_id)
+);
+
+CREATE INDEX idx_match_xg_historical_match ON match_xg_historical(match_id);
+CREATE INDEX idx_match_xg_historical_total ON match_xg_historical(xg_total);
+CREATE INDEX idx_match_xg_historical_draw_index ON match_xg_historical(xg_draw_index);
+
+COMMENT ON TABLE match_xg_historical IS 'Expected Goals (xG) data for historical matches';
+COMMENT ON COLUMN match_xg_historical.xg_home IS 'Expected goals for home team';
+COMMENT ON COLUMN match_xg_historical.xg_away IS 'Expected goals for away team';
+COMMENT ON COLUMN match_xg_historical.xg_total IS 'Total expected goals (xg_home + xg_away)';
+COMMENT ON COLUMN match_xg_historical.xg_draw_index IS 'Draw probability adjustment factor based on xG (lower xG = higher draw probability)';
+
+-- ============================================================================
+-- VERIFICATION
+-- ============================================================================
+
+DO $$
+DECLARE
+    expected_tables TEXT[] := ARRAY['match_xg', 'match_xg_historical'];
+    missing_tables TEXT[];
+BEGIN
+    SELECT ARRAY_AGG(table_name)
+    INTO missing_tables
+    FROM unnest(expected_tables) AS table_name
+    WHERE table_name NOT IN (
+        SELECT tablename FROM pg_tables WHERE schemaname = 'public'
+    );
+    
+    IF array_length(missing_tables, 1) > 0 THEN
+        RAISE EXCEPTION 'Missing tables: %', array_to_string(missing_tables, ', ');
+    ELSE
+        RAISE NOTICE 'All xG data tables created successfully ✓';
+    END IF;
+END $$;
+
+COMMIT;
+
+-- ============================================================================
+-- END OF MIGRATION
+-- ============================================================================
 

@@ -1,0 +1,277 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+44,Millwall,61,Bournemouth,2021,2,1,0.5,3.5
+39,Derby,42,Blackburn,2021,2,0,0.0,3.5
+47,Watford,64,Nott'm Forest,2021,2,1,0.5,0.5
+27,Birmingham,32,Norwich,2021,2,0,0.0,2.5
+47,Watford,61,Bournemouth,2021,2,1,0.5,1.5
+29,Coventry,57,Rotherham,2021,2,0,0.0,2.5
+32,Norwich,53,Luton,2021,2,0,0.0,3.5
+29,Coventry,60,Reading,2021,2,0,0.0,4.0
+64,Nott'm Forest,65,Brentford,2021,2,1,0.5,3.0
+45,Preston,47,Watford,2021,2,0,0.0,3.0
+42,Blackburn,66,Wycombe,2021,2,0,0.0,3.0
+61,Bournemouth,65,Brentford,2021,2,0,0.0,2.0
+37,Sheffield United,47,Watford,2021,2,1,0.5,0.5
+54,Burnley,61,Bournemouth,2021,2,0,0.0,4.5
+39,Derby,54,Burnley,2021,2,1,0.5,1.0
+31,Middlesbrough,61,Bournemouth,2021,2,1,0.5,3.0
+43,Bristol City,61,Bournemouth,2021,2,0,0.0,2.0
+32,Norwich,50,Cardiff,2021,2,0,0.0,2.5
+29,Coventry,65,Brentford,2021,2,0,0.0,2.0
+31,Middlesbrough,32,Norwich,2021,2,1,0.5,0.5
+44,Millwall,46,Swansea,2021,2,0,0.0,3.0
+46,Swansea,54,Burnley,2021,2,0,0.0,2.0
+29,Coventry,42,Blackburn,2021,2,1,0.5,3.0
+31,Middlesbrough,54,Burnley,2021,2,0,0.0,2.5
+39,Derby,50,Cardiff,2021,2,1,0.5,3.0
+27,Birmingham,66,Wycombe,2021,2,1,0.5,1.5
+46,Swansea,47,Watford,2021,2,0,0.0,2.5
+43,Bristol City,44,Millwall,2021,2,0,0.0,3.5
+45,Preston,56,Huddersfield,2021,2,0,0.0,3.0
+50,Cardiff,56,Huddersfield,2021,2,1,0.5,1.5
+42,Blackburn,56,Huddersfield,2021,2,0,0.0,5.0
+32,Norwich,47,Watford,2021,2,0,0.0,1.0
+32,Norwich,43,Bristol City,2021,2,0,0.0,3.0
+31,Middlesbrough,34,QPR,2021,2,1,0.5,2.5
+27,Birmingham,31,Middlesbrough,2021,2,0,0.0,3.0
+42,Blackburn,65,Brentford,2021,2,1,0.5,2.5
+42,Blackburn,53,Luton,2021,2,1,0.5,1.5
+35,Stoke,45,Preston,2021,2,1,0.5,0.5
+39,Derby,46,Swansea,2021,2,0,0.0,2.5
+27,Birmingham,61,Bournemouth,2021,2,0,0.0,4.5
+31,Middlesbrough,37,Sheffield United,2021,2,0,0.0,3.5
+50,Cardiff,60,Reading,2021,2,1,0.5,2.5
+27,Birmingham,45,Preston,2021,2,0,0.0,2.0
+34,QPR,65,Brentford,2021,2,0,0.0,3.0
+37,Sheffield United,56,Huddersfield,2021,2,1,0.5,2.0
+56,Huddersfield,65,Brentford,2021,2,1,0.5,2.5
+34,QPR,43,Bristol City,2021,2,0,0.0,2.5
+29,Coventry,39,Derby,2021,2,1,0.5,1.5
+45,Preston,53,Luton,2021,2,0,0.0,2.0
+32,Norwich,66,Wycombe,2021,2,0,0.0,2.5
+50,Cardiff,61,Bournemouth,2021,2,1,0.5,2.5
+37,Sheffield United,42,Blackburn,2021,2,1,0.5,1.5
+39,Derby,53,Luton,2021,2,0,0.0,2.5
+47,Watford,54,Burnley,2021,2,0,0.0,1.0
+44,Millwall,56,Huddersfield,2021,2,0,0.0,2.0
+60,Reading,65,Brentford,2021,2,0,0.0,4.0
+29,Coventry,34,QPR,2021,2,0,0.0,4.0
+37,Sheffield United,44,Millwall,2021,2,1,0.5,2.5
+34,QPR,44,Millwall,2021,2,1,0.5,3.5
+50,Cardiff,64,Nott'm Forest,2021,2,0,0.0,1.5
+29,Coventry,43,Bristol City,2021,2,0,0.0,3.5
+27,Birmingham,35,Stoke,2021,2,1,0.5,2.0
+43,Bristol City,57,Rotherham,2021,2,0,0.0,2.0
+60,Reading,61,Bournemouth,2021,2,0,0.0,5.0
+39,Derby,65,Brentford,2021,2,2,1.0,2.0
+34,QPR,64,Nott'm Forest,2021,2,0,0.0,3.0
+35,Stoke,66,Wycombe,2021,2,0,0.0,1.5
+46,Swansea,61,Bournemouth,2021,2,1,0.5,1.5
+32,Norwich,39,Derby,2021,2,0,0.0,1.0
+31,Middlesbrough,44,Millwall,2021,2,0,0.0,2.0
+31,Middlesbrough,43,Bristol City,2021,2,0,0.0,2.5
+43,Bristol City,54,Burnley,2021,2,1,0.5,2.5
+29,Coventry,54,Burnley,2021,2,1,0.5,1.0
+29,Coventry,61,Bournemouth,2021,2,0,0.0,4.5
+37,Sheffield United,64,Nott'm Forest,2021,2,1,0.5,1.0
+34,QPR,35,Stoke,2021,2,1,0.5,1.0
+31,Middlesbrough,42,Blackburn,2021,2,1,0.5,0.5
+47,Watford,53,Luton,2021,2,0,0.0,1.0
+34,QPR,50,Cardiff,2021,2,0,0.0,3.0
+37,Sheffield United,65,Brentford,2021,2,0,0.0,3.0
+54,Burnley,60,Reading,2021,2,1,0.5,2.0
+29,Coventry,35,Stoke,2021,2,1,0.5,2.5
+27,Birmingham,47,Watford,2021,2,0,0.0,2.0
+31,Middlesbrough,56,Huddersfield,2021,2,0,0.0,4.0
+35,Stoke,61,Bournemouth,2021,2,0,0.0,1.5
+32,Norwich,37,Sheffield United,2021,2,0,0.0,3.0
+29,Coventry,37,Sheffield United,2021,2,0,0.0,1.5
+27,Birmingham,60,Reading,2021,2,0,0.0,3.0
+29,Coventry,45,Preston,2021,2,0,0.0,1.5
+54,Burnley,64,Nott'm Forest,2021,2,1,0.5,1.0
+34,QPR,66,Wycombe,2021,2,1,0.5,1.5
+46,Swansea,64,Nott'm Forest,2021,2,0,0.0,1.0
+27,Birmingham,46,Swansea,2021,2,1,0.5,0.5
+44,Millwall,50,Cardiff,2021,2,2,1.0,2.0
+42,Blackburn,45,Preston,2021,2,0,0.0,3.0
+50,Cardiff,53,Luton,2021,2,0,0.0,3.0
+32,Norwich,56,Huddersfield,2021,2,0,0.0,4.0
+43,Bristol City,53,Luton,2021,2,0,0.0,4.0
+64,Nott'm Forest,66,Wycombe,2021,2,0,0.0,2.5
+39,Derby,60,Reading,2021,2,0,0.0,3.0
+27,Birmingham,42,Blackburn,2021,2,0,0.0,4.5
+27,Birmingham,44,Millwall,2021,2,1,0.5,1.0
+57,Rotherham,60,Reading,2021,2,0,0.0,2.0
+42,Blackburn,64,Nott'm Forest,2021,2,0,0.0,1.0
+46,Swansea,60,Reading,2021,2,2,1.0,2.0
+35,Stoke,64,Nott'm Forest,2021,2,2,1.0,2.0
+34,QPR,42,Blackburn,2021,2,0,0.0,2.5
+53,Luton,54,Burnley,2021,2,0,0.0,2.0
+42,Blackburn,43,Bristol City,2021,2,1,0.5,0.5
+29,Coventry,64,Nott'm Forest,2021,2,0,0.0,3.0
+34,QPR,56,Huddersfield,2021,2,0,0.0,1.5
+44,Millwall,64,Nott'm Forest,2021,2,1,0.5,3.0
+27,Birmingham,29,Coventry,2021,2,2,1.0,1.0
+35,Stoke,65,Brentford,2021,2,0,0.0,4.0
+27,Birmingham,37,Sheffield United,2021,2,0,0.0,1.0
+42,Blackburn,61,Bournemouth,2021,2,0,0.0,3.5
+53,Luton,66,Wycombe,2021,2,0,0.0,3.0
+31,Middlesbrough,64,Nott'm Forest,2021,2,0,0.0,2.0
+44,Millwall,45,Preston,2021,2,0,0.0,2.5
+31,Middlesbrough,57,Rotherham,2021,2,0,0.0,3.0
+37,Sheffield United,46,Swansea,2021,2,1,0.5,2.0
+54,Burnley,56,Huddersfield,2021,2,0,0.0,2.0
+46,Swansea,56,Huddersfield,2021,2,0,0.0,4.0
+43,Bristol City,46,Swansea,2021,2,1,0.5,3.0
+37,Sheffield United,39,Derby,2021,2,1,0.5,3.5
+32,Norwich,46,Swansea,2021,2,0,0.0,1.5
+53,Luton,65,Brentford,2021,2,0,0.0,2.0
+65,Brentford,66,Wycombe,2021,2,1,0.5,4.5
+37,Sheffield United,43,Bristol City,2021,2,1,0.5,2.0
+37,Sheffield United,54,Burnley,2021,2,0,0.0,3.0
+39,Derby,64,Nott'm Forest,2021,2,2,1.0,2.0
+32,Norwich,65,Brentford,2021,2,1,0.5,1.5
+43,Bristol City,45,Preston,2021,2,0,0.0,1.5
+47,Watford,66,Wycombe,2021,2,1,0.5,2.0
+27,Birmingham,43,Bristol City,2021,2,0,0.0,2.0
+34,QPR,39,Derby,2021,2,0,0.0,1.0
+32,Norwich,54,Burnley,2021,2,1,0.5,2.5
+45,Preston,46,Swansea,2021,2,0,0.0,1.0
+42,Blackburn,50,Cardiff,2021,2,2,1.0,2.0
+27,Birmingham,53,Luton,2021,2,1,0.5,1.5
+60,Reading,66,Wycombe,2021,2,0,0.0,1.0
+32,Norwich,57,Rotherham,2021,2,0,0.0,2.0
+27,Birmingham,56,Huddersfield,2021,2,1,0.5,2.5
+60,Reading,64,Nott'm Forest,2021,2,1,0.5,2.0
+57,Rotherham,61,Bournemouth,2021,2,1,0.5,2.5
+46,Swansea,65,Brentford,2021,2,2,1.0,2.0
+44,Millwall,53,Luton,2021,2,1,0.5,2.0
+45,Preston,65,Brentford,2021,2,0,0.0,5.5
+47,Watford,57,Rotherham,2021,2,0,0.0,3.5
+53,Luton,60,Reading,2021,2,1,0.5,1.5
+54,Burnley,66,Wycombe,2021,2,0,0.0,3.5
+31,Middlesbrough,46,Swansea,2021,2,0,0.0,3.0
+45,Preston,57,Rotherham,2021,2,0,0.0,3.0
+35,Stoke,47,Watford,2021,2,0,0.0,4.0
+29,Coventry,44,Millwall,2021,2,0,0.0,5.0
+45,Preston,60,Reading,2021,2,1,0.5,1.5
+56,Huddersfield,66,Wycombe,2021,2,1,0.5,2.5
+61,Bournemouth,64,Nott'm Forest,2021,2,1,0.5,1.0
+35,Stoke,56,Huddersfield,2021,2,1,0.5,4.5
+50,Cardiff,65,Brentford,2021,2,1,0.5,3.5
+31,Middlesbrough,50,Cardiff,2021,2,2,1.0,2.0
+44,Millwall,66,Wycombe,2021,2,1,0.5,1.5
+46,Swansea,57,Rotherham,2021,2,0,0.0,2.5
+37,Sheffield United,66,Wycombe,2021,2,0,0.0,1.5
+44,Millwall,57,Rotherham,2021,2,0,0.0,1.0
+32,Norwich,60,Reading,2021,2,0,0.0,4.0
+56,Huddersfield,64,Nott'm Forest,2021,2,0,0.0,1.5
+53,Luton,57,Rotherham,2021,2,1,0.5,0.5
+47,Watford,56,Huddersfield,2021,2,0,0.0,2.0
+29,Coventry,56,Huddersfield,2021,2,2,1.0,1.0
+35,Stoke,50,Cardiff,2021,2,1,0.5,1.5
+44,Millwall,60,Reading,2021,2,1,0.5,2.5
+34,QPR,54,Burnley,2021,2,0,0.0,3.5
+39,Derby,56,Huddersfield,2021,2,0,0.0,1.5
+56,Huddersfield,60,Reading,2021,2,1,0.5,3.5
+35,Stoke,57,Rotherham,2021,2,1,0.5,3.5
+44,Millwall,65,Brentford,2021,2,2,1.0,1.0
+57,Rotherham,65,Brentford,2021,2,0,0.0,1.5
+31,Middlesbrough,53,Luton,2021,2,1,0.5,1.5
+43,Bristol City,50,Cardiff,2021,2,0,0.0,1.5
+37,Sheffield United,57,Rotherham,2021,2,0,0.0,3.0
+56,Huddersfield,61,Bournemouth,2021,2,0,0.0,4.0
+39,Derby,44,Millwall,2021,2,0,0.0,1.0
+43,Bristol City,47,Watford,2021,2,1,0.5,3.0
+27,Birmingham,39,Derby,2021,2,0,0.0,3.5
+37,Sheffield United,45,Preston,2021,2,0,0.0,1.0
+35,Stoke,39,Derby,2021,2,1,0.5,0.5
+32,Norwich,61,Bournemouth,2021,2,0,0.0,2.5
+43,Bristol City,65,Brentford,2021,2,0,0.0,4.5
+32,Norwich,35,Stoke,2021,2,0,0.0,5.0
+29,Coventry,32,Norwich,2021,2,1,0.5,2.0
+45,Preston,54,Burnley,2021,2,0,0.0,2.5
+42,Blackburn,54,Burnley,2021,2,0,0.0,3.0
+37,Sheffield United,50,Cardiff,2021,2,0,0.0,3.5
+42,Blackburn,44,Millwall,2021,2,0,0.0,2.5
+35,Stoke,60,Reading,2021,2,1,0.5,1.5
+29,Coventry,66,Wycombe,2021,2,1,0.5,1.5
+32,Norwich,45,Preston,2021,2,2,1.0,3.0
+45,Preston,66,Wycombe,2021,2,1,0.5,2.5
+29,Coventry,46,Swansea,2021,2,1,0.5,1.5
+31,Middlesbrough,45,Preston,2021,2,0,0.0,2.5
+47,Watford,65,Brentford,2021,2,1,0.5,2.0
+61,Bournemouth,66,Wycombe,2021,2,0,0.0,1.0
+34,QPR,37,Sheffield United,2021,2,1,0.5,3.5
+39,Derby,66,Wycombe,2021,2,1,0.5,2.5
+34,QPR,60,Reading,2021,2,1,0.5,1.5
+46,Swansea,50,Cardiff,2021,2,0,0.0,1.5
+39,Derby,57,Rotherham,2021,2,0,0.0,2.0
+46,Swansea,53,Luton,2021,2,0,0.0,1.5
+34,QPR,57,Rotherham,2021,2,0,0.0,4.5
+42,Blackburn,46,Swansea,2021,2,1,0.5,2.0
+34,QPR,61,Bournemouth,2021,2,1,0.5,1.5
+35,Stoke,53,Luton,2021,2,0,0.0,2.5
+53,Luton,61,Bournemouth,2021,2,1,0.5,0.5
+37,Sheffield United,60,Reading,2021,2,1,0.5,2.5
+45,Preston,61,Bournemouth,2021,2,1,0.5,3.5
+35,Stoke,37,Sheffield United,2021,2,1,0.5,0.5
+35,Stoke,43,Bristol City,2021,2,0,0.0,2.0
+27,Birmingham,64,Nott'm Forest,2021,2,2,1.0,1.0
+32,Norwich,42,Blackburn,2021,2,1,0.5,2.5
+44,Millwall,54,Burnley,2021,2,1,0.5,2.5
+34,QPR,45,Preston,2021,2,1,0.5,1.0
+45,Preston,64,Nott'm Forest,2021,2,0,0.0,2.0
+54,Burnley,57,Rotherham,2021,2,0,0.0,2.0
+46,Swansea,66,Wycombe,2021,2,1,0.5,3.0
+31,Middlesbrough,66,Wycombe,2021,2,0,0.0,3.5
+31,Middlesbrough,47,Watford,2021,2,1,0.5,1.5
+34,QPR,46,Swansea,2021,2,0,0.0,1.5
+27,Birmingham,34,QPR,2021,2,1,0.5,1.5
+39,Derby,47,Watford,2021,2,0,0.0,2.0
+32,Norwich,64,Nott'm Forest,2021,2,0,0.0,2.5
+35,Stoke,44,Millwall,2021,2,1,0.5,1.5
+31,Middlesbrough,65,Brentford,2021,2,1,0.5,2.5
+27,Birmingham,57,Rotherham,2021,2,1,0.5,1.5
+27,Birmingham,54,Burnley,2021,2,0,0.0,2.0
+27,Birmingham,65,Brentford,2021,2,1,0.5,0.5
+35,Stoke,46,Swansea,2021,2,0,0.0,2.5
+29,Coventry,31,Middlesbrough,2021,2,0,0.0,2.5
+34,QPR,47,Watford,2021,2,1,0.5,2.5
+50,Cardiff,66,Wycombe,2021,2,0,0.0,3.0
+43,Bristol City,64,Nott'm Forest,2021,2,1,0.5,1.5
+32,Norwich,34,QPR,2021,2,1,0.5,3.0
+44,Millwall,47,Watford,2021,2,1,0.5,0.5
+43,Bristol City,56,Huddersfield,2021,2,0,0.0,3.0
+57,Rotherham,64,Nott'm Forest,2021,2,1,0.5,1.5
+42,Blackburn,47,Watford,2021,2,0,0.0,4.5
+31,Middlesbrough,35,Stoke,2021,2,0,0.0,2.0
+39,Derby,45,Preston,2021,2,0,0.0,2.0
+47,Watford,60,Reading,2021,2,0,0.0,1.5
+27,Birmingham,50,Cardiff,2021,2,0,0.0,4.5
+53,Luton,56,Huddersfield,2021,2,2,1.0,2.0
+43,Bristol City,66,Wycombe,2021,2,0,0.0,3.0
+29,Coventry,53,Luton,2021,2,1,0.5,1.0
+37,Sheffield United,53,Luton,2021,2,0,0.0,3.0
+43,Bristol City,60,Reading,2021,2,0,0.0,3.0
+29,Coventry,47,Watford,2021,2,1,0.5,2.5
+35,Stoke,42,Blackburn,2021,2,1,0.5,1.5
+50,Cardiff,54,Burnley,2021,2,1,0.5,3.5
+37,Sheffield United,61,Bournemouth,2021,2,0,0.0,2.0
+50,Cardiff,57,Rotherham,2021,2,1,0.5,2.5
+54,Burnley,65,Brentford,2021,2,0,0.0,1.5
+39,Derby,43,Bristol City,2021,2,0,0.0,1.0
+47,Watford,50,Cardiff,2021,2,0,0.0,2.0
+42,Blackburn,57,Rotherham,2021,2,1,0.5,2.5
+53,Luton,64,Nott'm Forest,2021,2,1,0.5,1.5
+45,Preston,50,Cardiff,2021,2,0,0.0,2.5
+31,Middlesbrough,60,Reading,2021,2,1,0.5,1.0
+57,Rotherham,66,Wycombe,2021,2,0,0.0,2.0
+32,Norwich,44,Millwall,2021,2,2,1.0,
+29,Coventry,50,Cardiff,2021,2,0,0.0,2.5
+34,QPR,53,Luton,2021,2,0,0.0,3.0
+39,Derby,61,Bournemouth,2021,2,1,0.5,1.5
+42,Blackburn,60,Reading,2021,2,0,0.0,3.5
+56,Huddersfield,57,Rotherham,2021,2,2,1.0,1.0
+31,Middlesbrough,39,Derby,2021,2,0,0.0,3.0
+35,Stoke,54,Burnley,2021,2,1,0.5,3.0

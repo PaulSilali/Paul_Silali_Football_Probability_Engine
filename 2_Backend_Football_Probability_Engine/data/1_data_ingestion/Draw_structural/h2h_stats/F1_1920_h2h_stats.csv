@@ -1,0 +1,191 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+310,Nantes,316,Strasbourg,1920,1,0,0.0,3.0
+319,Reims,321,Montpellier,1920,1,0,0.0,1.0
+306,Brest,325,Bordeaux,1920,2,2,1.0,3.0
+309,Metz,313,Lyon,1920,2,0,0.0,2.0
+313,Lyon,326,Dijon,1920,1,1,1.0,
+312,Marseille,313,Lyon,1920,1,0,0.0,3.0
+313,Lyon,321,Montpellier,1920,1,0,0.0,1.0
+305,Nice,328,Amiens,1920,1,0,0.0,3.0
+311,Paris SG,325,Bordeaux,1920,2,0,0.0,4.0
+325,Bordeaux,328,Amiens,1920,1,0,0.0,4.0
+310,Nantes,327,Nimes,1920,1,0,0.0,1.0
+309,Metz,321,Montpellier,1920,2,2,1.0,3.0
+305,Nice,325,Bordeaux,1920,2,2,1.0,2.0
+313,Lyon,325,Bordeaux,1920,2,1,0.5,2.5
+319,Reims,325,Bordeaux,1920,1,1,1.0,2.0
+304,Monaco,318,Lille,1920,1,0,0.0,6.0
+313,Lyon,319,Reims,1920,1,1,1.0,2.0
+306,Brest,311,Paris SG,1920,1,0,0.0,3.0
+312,Marseille,320,St Etienne,1920,2,0,0.0,1.5
+317,Toulouse,328,Amiens,1920,2,1,0.5,1.0
+306,Brest,316,Strasbourg,1920,1,0,0.0,5.0
+319,Reims,328,Amiens,1920,1,1,1.0,2.0
+316,Strasbourg,320,St Etienne,1920,1,0,0.0,3.0
+311,Paris SG,319,Reims,1920,1,0,0.0,2.0
+309,Metz,328,Amiens,1920,2,0,0.0,2.0
+302,Rennes,311,Paris SG,1920,1,0,0.0,3.0
+307,Angers,319,Reims,1920,2,1,0.5,2.5
+305,Nice,312,Marseille,1920,1,0,0.0,3.0
+304,Monaco,313,Lyon,1920,1,0,0.0,3.0
+306,Brest,319,Reims,1920,2,0,0.0,1.0
+307,Angers,317,Toulouse,1920,1,0,0.0,2.0
+305,Nice,317,Toulouse,1920,2,0,0.0,2.5
+302,Rennes,326,Dijon,1920,1,0,0.0,3.0
+317,Toulouse,318,Lille,1920,2,0,0.0,3.0
+302,Rennes,312,Marseille,1920,2,1,0.5,1.5
+304,Monaco,307,Angers,1920,2,1,0.5,0.5
+306,Brest,320,St Etienne,1920,2,1,0.5,3.5
+306,Brest,317,Toulouse,1920,2,1,0.5,4.5
+304,Monaco,319,Reims,1920,2,2,1.0,1.0
+312,Marseille,326,Dijon,1920,1,1,1.0,
+304,Monaco,309,Metz,1920,1,0,0.0,3.0
+312,Marseille,321,Montpellier,1920,1,1,1.0,2.0
+305,Nice,307,Angers,1920,2,1,0.5,3.0
+302,Rennes,321,Montpellier,1920,2,0,0.0,3.0
+311,Paris SG,320,St Etienne,1920,1,0,0.0,4.0
+304,Monaco,317,Toulouse,1920,1,0,0.0,3.0
+304,Monaco,312,Marseille,1920,1,0,0.0,7.0
+306,Brest,309,Metz,1920,1,0,0.0,2.0
+307,Angers,311,Paris SG,1920,1,0,0.0,4.0
+320,St Etienne,328,Amiens,1920,1,1,1.0,4.0
+306,Brest,327,Nimes,1920,1,0,0.0,3.0
+312,Marseille,327,Nimes,1920,2,0,0.0,4.5
+317,Toulouse,319,Reims,1920,1,0,0.0,1.0
+317,Toulouse,320,St Etienne,1920,1,1,1.0,4.0
+310,Nantes,312,Marseille,1920,2,1,0.5,2.0
+309,Metz,318,Lille,1920,1,1,1.0,
+320,St Etienne,327,Nimes,1920,2,0,0.0,2.0
+302,Rennes,313,Lyon,1920,1,0,0.0,1.0
+311,Paris SG,326,Dijon,1920,2,0,0.0,3.5
+304,Monaco,326,Dijon,1920,2,1,0.5,1.5
+319,Reims,320,St Etienne,1920,2,1,0.5,3.0
+306,Brest,328,Amiens,1920,2,0,0.0,2.0
+305,Nice,318,Lille,1920,1,1,1.0,2.0
+310,Nantes,313,Lyon,1920,1,0,0.0,1.0
+321,Montpellier,325,Bordeaux,1920,1,1,1.0,2.0
+305,Nice,319,Reims,1920,2,1,0.5,2.0
+305,Nice,316,Strasbourg,1920,1,0,0.0,1.0
+304,Monaco,310,Nantes,1920,1,0,0.0,1.0
+307,Angers,318,Lille,1920,2,0,0.0,2.5
+325,Bordeaux,327,Nimes,1920,1,0,0.0,6.0
+311,Paris SG,316,Strasbourg,1920,1,0,0.0,1.0
+310,Nantes,326,Dijon,1920,2,1,0.5,3.5
+312,Marseille,319,Reims,1920,1,0,0.0,2.0
+316,Strasbourg,325,Bordeaux,1920,1,0,0.0,1.0
+307,Angers,320,St Etienne,1920,1,0,0.0,5.0
+318,Lille,319,Reims,1920,1,0,0.0,2.0
+326,Dijon,327,Nimes,1920,2,1,0.5,1.0
+304,Monaco,311,Paris SG,1920,2,1,0.5,5.5
+302,Rennes,325,Bordeaux,1920,1,0,0.0,1.0
+313,Lyon,328,Amiens,1920,2,2,1.0,2.0
+310,Nantes,320,St Etienne,1920,2,0,0.0,3.5
+311,Paris SG,312,Marseille,1920,1,0,0.0,4.0
+302,Rennes,306,Brest,1920,2,2,1.0,
+306,Brest,307,Angers,1920,2,0,0.0,1.0
+309,Metz,325,Bordeaux,1920,2,0,0.0,2.5
+302,Rennes,318,Lille,1920,2,1,0.5,1.5
+316,Strasbourg,319,Reims,1920,2,1,0.5,1.5
+304,Monaco,325,Bordeaux,1920,1,0,0.0,3.0
+304,Monaco,320,St Etienne,1920,1,0,0.0,1.0
+309,Metz,317,Toulouse,1920,1,1,1.0,4.0
+305,Nice,326,Dijon,1920,1,0,0.0,3.0
+305,Nice,321,Montpellier,1920,1,0,0.0,3.0
+321,Montpellier,326,Dijon,1920,2,1,0.5,3.5
+313,Lyon,327,Nimes,1920,1,0,0.0,4.0
+306,Brest,313,Lyon,1920,1,1,1.0,4.0
+305,Nice,320,St Etienne,1920,1,0,0.0,5.0
+316,Strasbourg,328,Amiens,1920,2,1,0.5,2.0
+302,Rennes,305,Nice,1920,2,1,0.5,2.5
+310,Nantes,325,Bordeaux,1920,2,0,0.0,1.5
+305,Nice,311,Paris SG,1920,1,0,0.0,5.0
+317,Toulouse,326,Dijon,1920,2,0,0.0,2.0
+305,Nice,306,Brest,1920,2,2,1.0,2.0
+316,Strasbourg,327,Nimes,1920,1,0,0.0,5.0
+302,Rennes,328,Amiens,1920,1,0,0.0,4.0
+302,Rennes,316,Strasbourg,1920,1,0,0.0,2.0
+309,Metz,326,Dijon,1920,1,1,1.0,4.0
+326,Dijon,328,Amiens,1920,1,1,1.0,2.0
+304,Monaco,306,Brest,1920,1,0,0.0,5.0
+306,Brest,326,Dijon,1920,2,0,0.0,2.5
+302,Rennes,317,Toulouse,1920,2,0,0.0,3.5
+304,Monaco,316,Strasbourg,1920,2,1,0.5,4.0
+311,Paris SG,318,Lille,1920,2,0,0.0,2.0
+313,Lyon,320,St Etienne,1920,2,0,0.0,1.5
+309,Metz,312,Marseille,1920,1,1,1.0,2.0
+309,Metz,310,Nantes,1920,2,1,0.5,0.5
+316,Strasbourg,326,Dijon,1920,1,0,0.0,1.0
+311,Paris SG,317,Toulouse,1920,1,0,0.0,4.0
+320,St Etienne,325,Bordeaux,1920,2,1,0.5,1.5
+307,Angers,309,Metz,1920,1,0,0.0,3.0
+313,Lyon,317,Toulouse,1920,2,0,0.0,4.0
+309,Metz,320,St Etienne,1920,2,0,0.0,2.5
+302,Rennes,327,Nimes,1920,2,0,0.0,2.0
+313,Lyon,316,Strasbourg,1920,2,1,0.5,2.5
+306,Brest,321,Montpellier,1920,1,0,0.0,4.0
+318,Lille,325,Bordeaux,1920,1,0,0.0,3.0
+310,Nantes,317,Toulouse,1920,1,0,0.0,3.0
+321,Montpellier,328,Amiens,1920,2,0,0.0,4.5
+312,Marseille,328,Amiens,1920,2,1,0.5,4.0
+307,Angers,328,Amiens,1920,1,1,1.0,2.0
+318,Lille,321,Montpellier,1920,1,0,0.0,3.0
+302,Rennes,309,Metz,1920,1,0,0.0,1.0
+311,Paris SG,328,Amiens,1920,2,1,0.5,6.5
+316,Strasbourg,321,Montpellier,1920,2,0,0.0,2.0
+310,Nantes,321,Montpellier,1920,1,0,0.0,1.0
+320,St Etienne,326,Dijon,1920,1,0,0.0,3.0
+309,Metz,311,Paris SG,1920,1,0,0.0,2.0
+312,Marseille,325,Bordeaux,1920,2,1,0.5,2.0
+316,Strasbourg,317,Toulouse,1920,2,0,0.0,3.5
+319,Reims,327,Nimes,1920,2,1,0.5,1.0
+304,Monaco,328,Amiens,1920,2,0,0.0,3.0
+310,Nantes,328,Amiens,1920,1,0,0.0,3.0
+317,Toulouse,321,Montpellier,1920,1,0,0.0,3.0
+311,Paris SG,321,Montpellier,1920,2,0,0.0,4.5
+325,Bordeaux,326,Dijon,1920,2,1,0.5,3.0
+309,Metz,319,Reims,1920,2,1,0.5,1.5
+319,Reims,326,Dijon,1920,1,0,0.0,3.0
+311,Paris SG,313,Lyon,1920,2,0,0.0,3.5
+307,Angers,327,Nimes,1920,2,0,0.0,1.0
+302,Rennes,320,St Etienne,1920,1,0,0.0,3.0
+307,Angers,312,Marseille,1920,2,1,0.5,1.0
+309,Metz,316,Strasbourg,1920,2,1,0.5,1.5
+307,Angers,321,Montpellier,1920,2,1,0.5,0.5
+318,Lille,327,Nimes,1920,1,1,1.0,4.0
+306,Brest,312,Marseille,1920,1,0,0.0,3.0
+313,Lyon,318,Lille,1920,2,0,0.0,1.0
+307,Angers,325,Bordeaux,1920,1,0,0.0,4.0
+321,Montpellier,327,Nimes,1920,1,0,0.0,1.0
+312,Marseille,318,Lille,1920,2,0,0.0,3.0
+312,Marseille,316,Strasbourg,1920,1,0,0.0,2.0
+307,Angers,310,Nantes,1920,2,0,0.0,2.5
+310,Nantes,311,Paris SG,1920,2,0,0.0,2.5
+307,Angers,326,Dijon,1920,1,0,0.0,2.0
+307,Angers,313,Lyon,1920,1,0,0.0,6.0
+311,Paris SG,327,Nimes,1920,1,0,0.0,3.0
+304,Monaco,305,Nice,1920,2,0,0.0,3.5
+304,Monaco,321,Montpellier,1920,2,0,0.0,2.5
+306,Brest,318,Lille,1920,1,0,0.0,1.0
+302,Rennes,307,Angers,1920,1,0,0.0,3.0
+302,Rennes,310,Nantes,1920,2,0,0.0,3.0
+305,Nice,309,Metz,1920,1,0,0.0,5.0
+312,Marseille,317,Toulouse,1920,2,0,0.0,1.5
+302,Rennes,304,Monaco,1920,1,0,0.0,5.0
+304,Monaco,327,Nimes,1920,2,1,0.5,4.0
+327,Nimes,328,Amiens,1920,1,1,1.0,2.0
+320,St Etienne,321,Montpellier,1920,2,1,0.5,0.5
+318,Lille,328,Amiens,1920,1,0,0.0,1.0
+306,Brest,310,Nantes,1920,1,1,1.0,2.0
+310,Nantes,318,Lille,1920,2,0,0.0,2.0
+316,Strasbourg,318,Lille,1920,2,0,0.0,2.5
+305,Nice,327,Nimes,1920,2,0,0.0,3.5
+305,Nice,313,Lyon,1920,2,0,0.0,3.0
+307,Angers,316,Strasbourg,1920,1,0,0.0,1.0
+309,Metz,327,Nimes,1920,2,1,0.5,2.5
+318,Lille,320,St Etienne,1920,1,0,0.0,3.0
+318,Lille,326,Dijon,1920,2,0,0.0,1.0
+317,Toulouse,325,Bordeaux,1920,1,0,0.0,4.0
+317,Toulouse,327,Nimes,1920,1,0,0.0,1.0
+305,Nice,310,Nantes,1920,1,0,0.0,1.0
+310,Nantes,319,Reims,1920,1,0,0.0,1.0
+302,Rennes,319,Reims,1920,2,0,0.0,1.0

@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,2122,2021-08-13,Zaragoza,Ibiza,75,7,False
+SP2,2122,2021-08-13,Huesca,Eibar,389,7,False
+SP2,2122,2021-08-14,Girona,Amorebieta,76,7,False
+SP2,2122,2021-08-14,Sociedad B,Leganes,7,76,False
+SP2,2122,2021-08-14,Ponferradina,Alcorcon,76,76,False
+SP2,2122,2021-08-15,Sp Gijon,Burgos,77,7,False
+SP2,2122,2021-08-15,Oviedo,Lugo,78,77,False
+SP2,2122,2021-08-15,Fuenlabrada,Tenerife,77,78,False
+SP2,2122,2021-08-15,Las Palmas,Valladolid,77,7,False
+SP2,2122,2021-08-16,Cartagena,Almeria,78,78,False
+SP2,2122,2021-08-16,Malaga,Mirandes,78,78,False
+SP2,2122,2021-08-20,Valladolid,Zaragoza,5,7,False
+SP2,2122,2021-08-20,Almeria,Oviedo,4,5,False
+SP2,2122,2021-08-21,Alcorcon,Fuenlabrada,7,6,False
+SP2,2122,2021-08-21,Tenerife,Sp Gijon,6,6,False
+SP2,2122,2021-08-21,Lugo,Sociedad B,6,7,False
+SP2,2122,2021-08-22,Girona,Las Palmas,8,7,False
+SP2,2122,2021-08-22,Huesca,Cartagena,9,6,False
+SP2,2122,2021-08-22,Ibiza,Malaga,9,6,False
+SP2,2122,2021-08-22,Eibar,Ponferradina,9,8,False
+SP2,2122,2021-08-23,Leganes,Burgos,9,8,False
+SP2,2122,2021-08-23,Mirandes,Amorebieta,7,9,False
+SP2,2122,2021-08-27,Las Palmas,Huesca,5,5,False
+SP2,2122,2021-08-27,Malaga,Alcorcon,5,6,False
+SP2,2122,2021-08-28,Oviedo,Tenerife,8,7,False
+SP2,2122,2021-08-28,Ponferradina,Girona,6,6,False
+SP2,2122,2021-08-28,Leganes,Ibiza,5,6,False
+SP2,2122,2021-08-28,Sp Gijon,Mirandes,7,5,False
+SP2,2122,2021-08-29,Sociedad B,Fuenlabrada,8,8,False
+SP2,2122,2021-08-29,Amorebieta,Almeria,6,9,False
+SP2,2122,2021-08-29,Lugo,Valladolid,8,9,False
+SP2,2122,2021-08-29,Burgos,Eibar,6,7,False
+SP2,2122,2021-08-30,Zaragoza,Cartagena,10,8,False
+SP2,2122,2021-09-03,Girona,Sp Gijon,6,6,False
+SP2,2122,2021-09-04,Tenerife,Ponferradina,7,7,False
+SP2,2122,2021-09-04,Almeria,Malaga,6,8,False
+SP2,2122,2021-09-04,Fuenlabrada,Lugo,6,6,False
+SP2,2122,2021-09-04,Eibar,Leganes,6,7,False
+SP2,2122,2021-09-04,Cartagena,Sociedad B,5,6,False
+SP2,2122,2021-09-05,Alcorcon,Zaragoza,9,6,False
+SP2,2122,2021-09-05,Mirandes,Las Palmas,8,9,False
+SP2,2122,2021-09-05,Ibiza,Amorebieta,8,7,False
+SP2,2122,2021-09-05,Burgos,Valladolid,7,7,False
+SP2,2122,2021-09-06,Huesca,Oviedo,10,9,False
+SP2,2122,2021-09-10,Sp Gijon,Leganes,7,6,False
+SP2,2122,2021-09-11,Las Palmas,Ibiza,6,6,False
+SP2,2122,2021-09-11,Mirandes,Alcorcon,6,6,False
+SP2,2122,2021-09-11,Amorebieta,Burgos,6,6,False
+SP2,2122,2021-09-11,Sociedad B,Eibar,7,7,False
+SP2,2122,2021-09-12,Valladolid,Tenerife,7,8,False
+SP2,2122,2021-09-12,Fuenlabrada,Zaragoza,8,7,False
+SP2,2122,2021-09-12,Malaga,Girona,8,9,False
+SP2,2122,2021-09-12,Ponferradina,Almeria,8,8,False
+SP2,2122,2021-09-12,Oviedo,Cartagena,6,8,False
+SP2,2122,2021-09-13,Lugo,Huesca,9,7,False
+SP2,2122,2021-09-17,Alcorcon,Almeria,6,5,False
+SP2,2122,2021-09-18,Cartagena,Lugo,6,5,False
+SP2,2122,2021-09-18,Ibiza,Oviedo,7,6,False
+SP2,2122,2021-09-18,Leganes,Amorebieta,8,7,False
+SP2,2122,2021-09-18,Zaragoza,Sociedad B,6,7,False
+SP2,2122,2021-09-18,Girona,Valladolid,6,6,False
+SP2,2122,2021-09-19,Tenerife,Mirandes,7,8,False
+SP2,2122,2021-09-19,Eibar,Sp Gijon,8,9,False
+SP2,2122,2021-09-19,Huesca,Fuenlabrada,6,7,False
+SP2,2122,2021-09-19,Ponferradina,Malaga,7,7,False
+SP2,2122,2021-09-20,Burgos,Las Palmas,9,9,False
+SP2,2122,2021-09-24,Sociedad B,Huesca,6,5,False
+SP2,2122,2021-09-24,Almeria,Tenerife,7,5,False
+SP2,2122,2021-09-25,Las Palmas,Ponferradina,5,6,False
+SP2,2122,2021-09-25,Ibiza,Burgos,7,5,False
+SP2,2122,2021-09-25,Amorebieta,Eibar,7,6,False
+SP2,2122,2021-09-26,Oviedo,Girona,8,8,False
+SP2,2122,2021-09-26,Lugo,Zaragoza,8,8,False
+SP2,2122,2021-09-26,Valladolid,Alcorcon,8,9,False
+SP2,2122,2021-09-26,Sp Gijon,Malaga,7,7,False
+SP2,2122,2021-09-26,Mirandes,Leganes,7,8,False
+SP2,2122,2021-09-27,Fuenlabrada,Cartagena,8,9,False
+SP2,2122,2021-10-01,Ponferradina,Valladolid,6,5,False
+SP2,2122,2021-10-02,Zaragoza,Oviedo,6,6,False
+SP2,2122,2021-10-02,Alcorcon,Sociedad B,6,8,False
+SP2,2122,2021-10-02,Amorebieta,Sp Gijon,7,6,False
+SP2,2122,2021-10-02,Huesca,Tenerife,8,8,False
+SP2,2122,2021-10-03,Malaga,Fuenlabrada,7,6,False
+SP2,2122,2021-10-03,Las Palmas,Cartagena,8,6,False
+SP2,2122,2021-10-03,Leganes,Lugo,7,7,False
+SP2,2122,2021-10-03,Burgos,Mirandes,8,7,False
+SP2,2122,2021-10-03,Eibar,Ibiza,8,8,False
+SP2,2122,2021-10-04,Girona,Almeria,8,10,False
+SP2,2122,2021-10-08,Valladolid,Malaga,7,5,False
+SP2,2122,2021-10-09,Almeria,Las Palmas,5,6,False
+SP2,2122,2021-10-09,Lugo,Girona,6,5,False
+SP2,2122,2021-10-09,Mirandes,Eibar,6,6,False
+SP2,2122,2021-10-09,Oviedo,Sp Gijon,7,7,False
+SP2,2122,2021-10-10,Alcorcon,Burgos,8,7,False
+SP2,2122,2021-10-10,Fuenlabrada,Leganes,7,7,False
+SP2,2122,2021-10-10,Tenerife,Amorebieta,8,8,False
+SP2,2122,2021-10-10,Cartagena,Ibiza,7,7,False
+SP2,2122,2021-10-10,Sociedad B,Ponferradina,8,9,False
+SP2,2122,2021-10-11,Zaragoza,Huesca,9,9,False
+SP2,2122,2021-10-15,Eibar,Almeria,6,6,False
+SP2,2122,2021-10-16,Las Palmas,Tenerife,7,6,False
+SP2,2122,2021-10-16,Malaga,Zaragoza,8,5,False
+SP2,2122,2021-10-16,Sp Gijon,Alcorcon,7,6,False
+SP2,2122,2021-10-16,Amorebieta,Cartagena,6,6,False
+SP2,2122,2021-10-16,Girona,Huesca,7,5,False
+SP2,2122,2021-10-17,Burgos,Lugo,7,8,False
+SP2,2122,2021-10-17,Sociedad B,Oviedo,7,8,False
+SP2,2122,2021-10-17,Ponferradina,Fuenlabrada,7,7,False
+SP2,2122,2021-10-17,Leganes,Valladolid,7,9,False
+SP2,2122,2021-10-17,Ibiza,Mirandes,7,8,False
+SP2,2122,2021-10-19,Tenerife,Eibar,3,4,True
+SP2,2122,2021-10-19,Cartagena,Sp Gijon,3,3,True
+SP2,2122,2021-10-19,Huesca,Malaga,3,3,True
+SP2,2122,2021-10-20,Lugo,Las Palmas,3,4,True
+SP2,2122,2021-10-20,Alcorcon,Leganes,4,3,True
+SP2,2122,2021-10-20,Fuenlabrada,Amorebieta,3,4,True
+SP2,2122,2021-10-20,Valladolid,Ibiza,3,3,True
+SP2,2122,2021-10-21,Zaragoza,Ponferradina,5,4,True
+SP2,2122,2021-10-21,Almeria,Sociedad B,6,4,True
+SP2,2122,2021-10-21,Mirandes,Girona,4,5,True
+SP2,2122,2021-10-21,Oviedo,Burgos,4,4,True
+SP2,2122,2021-10-22,Eibar,Cartagena,3,3,False
+SP2,2122,2021-10-23,Leganes,Tenerife,3,4,False
+SP2,2122,2021-10-23,Malaga,Lugo,4,3,False
+SP2,2122,2021-10-23,Ibiza,Fuenlabrada,3,3,False
+SP2,2122,2021-10-23,Sp Gijon,Valladolid,4,3,False
+SP2,2122,2021-10-24,Burgos,Huesca,3,5,False
+SP2,2122,2021-10-24,Ponferradina,Oviedo,3,3,False
+SP2,2122,2021-10-24,Las Palmas,Alcorcon,4,4,False
+SP2,2122,2021-10-24,Amorebieta,Sociedad B,4,3,False
+SP2,2122,2021-10-24,Mirandes,Almeria,3,3,False
+SP2,2122,2021-10-25,Girona,Zaragoza,4,4,False
+SP2,2122,2021-10-29,Sociedad B,Las Palmas,5,5,False
+SP2,2122,2021-10-29,Almeria,Leganes,5,6,False
+SP2,2122,2021-10-30,Cartagena,Ponferradina,8,6,False
+SP2,2122,2021-10-30,Huesca,Amorebieta,6,6,False
+SP2,2122,2021-10-30,Lugo,Sp Gijon,7,7,False
+SP2,2122,2021-10-31,Valladolid,Eibar,8,9,False
+SP2,2122,2021-10-31,Zaragoza,Mirandes,6,7,False
+SP2,2122,2021-10-31,Fuenlabrada,Girona,8,6,False
+SP2,2122,2021-10-31,Oviedo,Malaga,7,8,False
+SP2,2122,2021-11-01,Tenerife,Burgos,9,8,False
+SP2,2122,2021-11-01,Alcorcon,Ibiza,8,9,False
+SP2,2122,2021-11-02,Leganes,Cartagena,4,3,True
+SP2,2122,2021-11-02,Ponferradina,Huesca,3,3,True
+SP2,2122,2021-11-02,Sp Gijon,Almeria,3,4,True
+SP2,2122,2021-11-03,Eibar,Oviedo,3,3,True
+SP2,2122,2021-11-03,Las Palmas,Fuenlabrada,5,3,True
+SP2,2122,2021-11-03,Mirandes,Lugo,3,4,True
+SP2,2122,2021-11-03,Amorebieta,Valladolid,4,3,True
+SP2,2122,2021-11-04,Girona,Alcorcon,4,3,True
+SP2,2122,2021-11-04,Burgos,Zaragoza,3,4,True
+SP2,2122,2021-11-04,Ibiza,Tenerife,3,3,True
+SP2,2122,2021-11-04,Malaga,Sociedad B,4,6,True
+SP2,2122,2021-11-05,Huesca,Leganes,3,3,False
+SP2,2122,2021-11-06,Valladolid,Mirandes,3,3,False
+SP2,2122,2021-11-06,Fuenlabrada,Eibar,3,3,False
+SP2,2122,2021-11-06,Oviedo,Las Palmas,3,3,False
+SP2,2122,2021-11-06,Lugo,Ponferradina,3,4,False
+SP2,2122,2021-11-07,Almeria,Burgos,5,3,False
+SP2,2122,2021-11-07,Cartagena,Malaga,5,3,False
+SP2,2122,2021-11-07,Sociedad B,Ibiza,3,3,False
+SP2,2122,2021-11-07,Alcorcon,Amorebieta,3,4,False
+SP2,2122,2021-11-07,Zaragoza,Sp Gijon,3,5,False
+SP2,2122,2021-11-08,Tenerife,Girona,4,4,False
+SP2,2122,2021-11-12,Sp Gijon,Sociedad B,5,5,False
+SP2,2122,2021-11-13,Mirandes,Huesca,7,8,False
+SP2,2122,2021-11-13,Las Palmas,Zaragoza,7,6,False
+SP2,2122,2021-11-13,Valladolid,Fuenlabrada,7,7,False
+SP2,2122,2021-11-13,Eibar,Alcorcon,7,6,False
+SP2,2122,2021-11-14,Girona,Cartagena,6,7,False
+SP2,2122,2021-11-14,Burgos,Ponferradina,7,8,False
+SP2,2122,2021-11-14,Leganes,Oviedo,9,8,False
+SP2,2122,2021-11-14,Ibiza,Almeria,7,7,False
+SP2,2122,2021-11-14,Amorebieta,Lugo,7,8,False
+SP2,2122,2021-11-15,Malaga,Tenerife,8,7,False
+SP2,2122,2021-11-19,Fuenlabrada,Mirandes,6,6,False
+SP2,2122,2021-11-20,Almeria,Valladolid,6,7,False
+SP2,2122,2021-11-20,Oviedo,Amorebieta,6,6,False
+SP2,2122,2021-11-20,Malaga,Las Palmas,5,7,False
+SP2,2122,2021-11-21,Huesca,Ibiza,8,7,False
+SP2,2122,2021-11-21,Cartagena,Burgos,7,7,False
+SP2,2122,2021-11-21,Lugo,Eibar,7,8,False
+SP2,2122,2021-11-21,Tenerife,Alcorcon,6,8,False
+SP2,2122,2021-11-21,Ponferradina,Sp Gijon,7,9,False
+SP2,2122,2021-11-22,Zaragoza,Leganes,9,8,False
+SP2,2122,2021-11-22,Sociedad B,Girona,10,8,False
+SP2,2122,2021-11-26,Alcorcon,Lugo,5,5,False
+SP2,2122,2021-11-26,Mirandes,Oviedo,7,6,False
+SP2,2122,2021-11-27,Sp Gijon,Fuenlabrada,6,8,False
+SP2,2122,2021-11-27,Valladolid,Cartagena,7,6,False
+SP2,2122,2021-11-27,Almeria,Huesca,7,6,False
+SP2,2122,2021-11-27,Burgos,Malaga,6,7,False
+SP2,2122,2021-11-28,Ibiza,Ponferradina,7,7,False
+SP2,2122,2021-11-28,Tenerife,Sociedad B,7,6,False
+SP2,2122,2021-11-28,Leganes,Las Palmas,6,8,False
+SP2,2122,2021-11-28,Amorebieta,Zaragoza,8,6,False
+SP2,2122,2021-11-29,Eibar,Girona,8,7,False
+SP2,2122,2021-12-03,Huesca,Valladolid,6,6,False
+SP2,2122,2021-12-04,Fuenlabrada,Almeria,7,7,False
+SP2,2122,2021-12-05,Lugo,Ibiza,9,7,False
+SP2,2122,2021-12-05,Oviedo,Alcorcon,9,9,False
+SP2,2122,2021-12-05,Sociedad B,Burgos,7,8,False
+SP2,2122,2021-12-05,Las Palmas,Sp Gijon,7,8,False
+SP2,2122,2021-12-05,Malaga,Amorebieta,8,7,False
+SP2,2122,2021-12-05,Ponferradina,Mirandes,7,9,False
+SP2,2122,2021-12-06,Girona,Leganes,7,8,False
+SP2,2122,2021-12-06,Zaragoza,Eibar,8,7,False
+SP2,2122,2021-12-06,Cartagena,Tenerife,9,8,False
+SP2,2122,2021-12-10,Sp Gijon,Huesca,5,7,False
+SP2,2122,2021-12-11,Almeria,Zaragoza,7,5,False
+SP2,2122,2021-12-11,Eibar,Malaga,5,6,False
+SP2,2122,2021-12-11,Tenerife,Lugo,5,6,False
+SP2,2122,2021-12-11,Ibiza,Girona,6,5,False
+SP2,2122,2021-12-11,Burgos,Fuenlabrada,6,7,False
+SP2,2122,2021-12-12,Alcorcon,Cartagena,7,6,False
+SP2,2122,2021-12-12,Amorebieta,Las Palmas,7,7,False
+SP2,2122,2021-12-12,Leganes,Ponferradina,6,7,False
+SP2,2122,2021-12-12,Valladolid,Oviedo,9,7,False
+SP2,2122,2021-12-13,Mirandes,Sociedad B,8,8,False
+SP2,2122,2021-12-17,Girona,Burgos,6,6,False
+SP2,2122,2021-12-18,Las Palmas,Eibar,6,7,False
+SP2,2122,2021-12-18,Ibiza,Sp Gijon,7,8,False
+SP2,2122,2021-12-18,Malaga,Leganes,7,6,False
+SP2,2122,2021-12-19,Zaragoza,Tenerife,8,8,False
+SP2,2122,2021-12-19,Cartagena,Mirandes,7,6,False
+SP2,2122,2021-12-19,Huesca,Alcorcon,9,7,False
+SP2,2122,2021-12-19,Sociedad B,Valladolid,6,7,False
+SP2,2122,2021-12-19,Ponferradina,Amorebieta,7,7,False
+SP2,2122,2021-12-19,Fuenlabrada,Oviedo,8,7,False
+SP2,2122,2021-12-31,Eibar,Sociedad B,13,12,False
+SP2,2122,2021-12-31,Oviedo,Ponferradina,12,12,False
+SP2,2122,2021-12-31,Burgos,Amorebieta,14,12,False
+SP2,2122,2022-01-02,Almeria,Cartagena,22,14,False
+SP2,2122,2022-01-02,Valladolid,Leganes,14,15,False
+SP2,2122,2022-01-02,Sp Gijon,Lugo,15,22,False
+SP2,2122,2022-01-02,Huesca,Girona,14,16,False
+SP2,2122,2022-01-02,Mirandes,Zaragoza,14,14,False
+SP2,2122,2022-01-02,Fuenlabrada,Ibiza,14,15,False
+SP2,2122,2022-01-02,Tenerife,Las Palmas,14,15,False
+SP2,2122,2022-01-03,Alcorcon,Malaga,15,16,False
+SP2,2122,2022-01-07,Amorebieta,Tenerife,7,5,False
+SP2,2122,2022-01-08,Leganes,Sociedad B,6,8,False
+SP2,2122,2022-01-08,Valladolid,Burgos,6,8,False
+SP2,2122,2022-01-08,Ibiza,Alcorcon,6,5,False
+SP2,2122,2022-01-08,Cartagena,Huesca,6,6,False
+SP2,2122,2022-01-09,Malaga,Sp Gijon,6,7,False
+SP2,2122,2022-01-09,Ponferradina,Zaragoza,9,7,False
+SP2,2122,2022-01-09,Las Palmas,Almeria,7,7,False
+SP2,2122,2022-01-09,Lugo,Mirandes,7,7,False
+SP2,2122,2022-01-09,Girona,Fuenlabrada,7,7,False
+SP2,2122,2022-01-10,Oviedo,Eibar,10,10,False
+SP2,2122,2022-01-19,Lugo,Almeria,10,10,True
+SP2,2122,2022-01-21,Tenerife,Oviedo,14,11,False
+SP2,2122,2022-01-22,Malaga,Ibiza,13,14,False
+SP2,2122,2022-01-22,Fuenlabrada,Las Palmas,13,13,False
+SP2,2122,2022-01-22,Zaragoza,Valladolid,13,14,False
+SP2,2122,2022-01-23,Girona,Lugo,14,4,False
+SP2,2122,2022-01-23,Huesca,Ponferradina,15,14,False
+SP2,2122,2022-01-23,Alcorcon,Mirandes,15,14,False
+SP2,2122,2022-01-23,Burgos,Leganes,15,15,False
+SP2,2122,2022-01-23,Sp Gijon,Amorebieta,14,16,False
+SP2,2122,2022-01-24,Almeria,Eibar,5,14,False
+SP2,2122,2022-01-24,Sociedad B,Cartagena,16,16,False
+SP2,2122,2022-01-28,Valladolid,Sp Gijon,6,5,False
+SP2,2122,2022-01-29,Oviedo,Almeria,8,5,False
+SP2,2122,2022-01-29,Lugo,Burgos,6,6,False
+SP2,2122,2022-01-29,Amorebieta,Girona,6,6,False
+SP2,2122,2022-01-29,Eibar,Huesca,5,6,False
+SP2,2122,2022-01-30,Las Palmas,Sociedad B,8,6,False
+SP2,2122,2022-01-30,Leganes,Alcorcon,7,7,False
+SP2,2122,2022-01-30,Cartagena,Fuenlabrada,6,8,False
+SP2,2122,2022-01-30,Mirandes,Malaga,7,8,False
+SP2,2122,2022-01-30,Ponferradina,Tenerife,7,9,False
+SP2,2122,2022-01-31,Ibiza,Zaragoza,9,9,False
+SP2,2122,2022-02-04,Burgos,Alcorcon,6,5,False
+SP2,2122,2022-02-04,Almeria,Ibiza,6,4,False
+SP2,2122,2022-02-05,Girona,Ponferradina,7,6,False
+SP2,2122,2022-02-05,Sp Gijon,Eibar,8,7,False
+SP2,2122,2022-02-05,Sociedad B,Lugo,6,7,False
+SP2,2122,2022-02-05,Zaragoza,Malaga,5,6,False
+SP2,2122,2022-02-06,Cartagena,Las Palmas,7,7,False
+SP2,2122,2022-02-06,Huesca,Mirandes,8,7,False
+SP2,2122,2022-02-06,Tenerife,Leganes,7,7,False
+SP2,2122,2022-02-06,Amorebieta,Oviedo,8,8,False
+SP2,2122,2022-02-06,Fuenlabrada,Valladolid,7,9,False
+SP2,2122,2022-02-11,Leganes,Zaragoza,5,6,False
+SP2,2122,2022-02-12,Valladolid,Girona,6,7,False
+SP2,2122,2022-02-12,Malaga,Almeria,7,8,False
+SP2,2122,2022-02-12,Ibiza,Cartagena,8,6,False
+SP2,2122,2022-02-12,Mirandes,Sp Gijon,6,7,False
+SP2,2122,2022-02-13,Eibar,Fuenlabrada,8,7,False
+SP2,2122,2022-02-13,Lugo,Amorebieta,8,7,False
+SP2,2122,2022-02-13,Las Palmas,Burgos,7,9,False
+SP2,2122,2022-02-13,Alcorcon,Tenerife,9,7,False
+SP2,2122,2022-02-13,Oviedo,Huesca,7,7,False
+SP2,2122,2022-02-14,Ponferradina,Sociedad B,9,9,False
+SP2,2122,2022-02-18,Cartagena,Valladolid,6,6,False
+SP2,2122,2022-02-19,Zaragoza,Las Palmas,8,6,False
+SP2,2122,2022-02-19,Girona,Eibar,7,6,False
+SP2,2122,2022-02-19,Tenerife,Ibiza,6,7,False
+SP2,2122,2022-02-19,Sociedad B,Malaga,5,7,False
+SP2,2122,2022-02-20,Burgos,Oviedo,7,7,False
+SP2,2122,2022-02-20,Sp Gijon,Ponferradina,8,6,False
+SP2,2122,2022-02-20,Almeria,Mirandes,8,8,False
+SP2,2122,2022-02-20,Huesca,Lugo,7,7,False
+SP2,2122,2022-02-20,Fuenlabrada,Alcorcon,7,7,False
+SP2,2122,2022-02-21,Amorebieta,Leganes,8,10,False
+SP2,2122,2022-02-25,Almeria,Fuenlabrada,5,5,False
+SP2,2122,2022-02-26,Oviedo,Sociedad B,6,7,False
+SP2,2122,2022-02-26,Las Palmas,Lugo,7,6,False
+SP2,2122,2022-02-26,Ibiza,Huesca,7,6,False
+SP2,2122,2022-02-26,Mirandes,Tenerife,6,7,False
+SP2,2122,2022-02-27,Leganes,Girona,6,8,False
+SP2,2122,2022-02-27,Valladolid,Amorebieta,9,6,False
+SP2,2122,2022-02-27,Alcorcon,Ponferradina,7,7,False
+SP2,2122,2022-02-27,Sp Gijon,Zaragoza,7,8,False
+SP2,2122,2022-02-27,Eibar,Burgos,8,7,False
+SP2,2122,2022-02-28,Malaga,Cartagena,9,10,False
+SP2,2122,2022-03-04,Zaragoza,Almeria,5,7,False
+SP2,2122,2022-03-05,Tenerife,Valladolid,7,6,False
+SP2,2122,2022-03-05,Fuenlabrada,Burgos,8,6,False
+SP2,2122,2022-03-05,Huesca,Las Palmas,7,7,False
+SP2,2122,2022-03-06,Amorebieta,Malaga,7,6,False
+SP2,2122,2022-03-06,Cartagena,Eibar,6,7,False
+SP2,2122,2022-03-06,Leganes,Mirandes,7,8,False
+SP2,2122,2022-03-06,Girona,Oviedo,7,8,False
+SP2,2122,2022-03-06,Ponferradina,Ibiza,7,8,False
+SP2,2122,2022-03-06,Lugo,Alcorcon,8,7,False
+SP2,2122,2022-03-07,Sociedad B,Sp Gijon,9,8,False
+SP2,2122,2022-03-11,Zaragoza,Fuenlabrada,7,6,False
+SP2,2122,2022-03-12,Almeria,Lugo,8,6,False
+SP2,2122,2022-03-12,Las Palmas,Girona,7,6,False
+SP2,2122,2022-03-12,Malaga,Ponferradina,6,6,False
+SP2,2122,2022-03-12,Mirandes,Cartagena,6,6,False
+SP2,2122,2022-03-12,Ibiza,Leganes,6,6,False
+SP2,2122,2022-03-13,Sp Gijon,Tenerife,6,8,False
+SP2,2122,2022-03-13,Alcorcon,Huesca,7,8,False
+SP2,2122,2022-03-13,Oviedo,Valladolid,7,8,False
+SP2,2122,2022-03-13,Burgos,Sociedad B,8,6,False
+SP2,2122,2022-03-13,Eibar,Amorebieta,7,7,False
+SP2,2122,2022-03-18,Huesca,Burgos,5,5,False
+SP2,2122,2022-03-19,Fuenlabrada,Malaga,8,7,False
+SP2,2122,2022-03-19,Lugo,Oviedo,7,6,False
+SP2,2122,2022-03-19,Valladolid,Las Palmas,6,7,False
+SP2,2122,2022-03-19,Girona,Ibiza,7,7,False
+SP2,2122,2022-03-19,Cartagena,Zaragoza,7,8,False
+SP2,2122,2022-03-19,Sociedad B,Mirandes,6,7,False
+SP2,2122,2022-03-20,Leganes,Sp Gijon,8,7,False
+SP2,2122,2022-03-20,Amorebieta,Alcorcon,7,7,False
+SP2,2122,2022-03-20,Ponferradina,Eibar,8,7,False
+SP2,2122,2022-03-21,Tenerife,Almeria,8,9,False
+SP2,2122,2022-03-25,Zaragoza,Amorebieta,6,5,False
+SP2,2122,2022-03-26,Ibiza,Sociedad B,7,7,False
+SP2,2122,2022-03-26,Eibar,Lugo,6,7,False
+SP2,2122,2022-03-26,Sp Gijon,Cartagena,6,7,False
+SP2,2122,2022-03-26,Oviedo,Fuenlabrada,7,7,False
+SP2,2122,2022-03-27,Malaga,Huesca,8,9,False
+SP2,2122,2022-03-27,Alcorcon,Valladolid,7,8,False
+SP2,2122,2022-03-27,Mirandes,Ponferradina,8,7,False
+SP2,2122,2022-03-27,Burgos,Tenerife,9,6,False
+SP2,2122,2022-03-27,Almeria,Girona,6,8,False
+SP2,2122,2022-03-28,Las Palmas,Leganes,9,8,False
+SP2,2122,2022-04-01,Girona,Malaga,5,5,False
+SP2,2122,2022-04-02,Amorebieta,Ibiza,8,7,False
+SP2,2122,2022-04-02,Tenerife,Zaragoza,6,8,False
+SP2,2122,2022-04-02,Sociedad B,Alcorcon,7,6,False
+SP2,2122,2022-04-02,Valladolid,Lugo,6,7,False
+SP2,2122,2022-04-03,Ponferradina,Las Palmas,7,6,False
+SP2,2122,2022-04-03,Eibar,Mirandes,8,7,False
+SP2,2122,2022-04-03,Huesca,Almeria,7,7,False
+SP2,2122,2022-04-03,Burgos,Sp Gijon,7,8,False
+SP2,2122,2022-04-03,Cartagena,Oviedo,8,8,False
+SP2,2122,2022-04-04,Leganes,Fuenlabrada,7,9,False
+SP2,2122,2022-04-08,Lugo,Cartagena,6,5,False
+SP2,2122,2022-04-09,Malaga,Valladolid,8,7,False
+SP2,2122,2022-04-09,Las Palmas,Amorebieta,6,7,False
+SP2,2122,2022-04-09,Sociedad B,Tenerife,7,7,False
+SP2,2122,2022-04-09,Alcorcon,Sp Gijon,7,6,False
+SP2,2122,2022-04-10,Ibiza,Eibar,8,7,False
+SP2,2122,2022-04-10,Mirandes,Burgos,7,7,False
+SP2,2122,2022-04-10,Oviedo,Leganes,7,6,False
+SP2,2122,2022-04-10,Zaragoza,Girona,8,9,False
+SP2,2122,2022-04-10,Fuenlabrada,Huesca,6,7,False
+SP2,2122,2022-04-11,Almeria,Ponferradina,8,8,False
+SP2,2122,2022-04-15,Amorebieta,Mirandes,6,5,False
+SP2,2122,2022-04-15,Eibar,Las Palmas,5,6,False
+SP2,2122,2022-04-16,Sp Gijon,Oviedo,7,6,False
+SP2,2122,2022-04-16,Cartagena,Alcorcon,8,7,False
+SP2,2122,2022-04-16,Valladolid,Almeria,7,5,False
+SP2,2122,2022-04-16,Leganes,Malaga,6,7,False
+SP2,2122,2022-04-17,Huesca,Zaragoza,7,7,False
+SP2,2122,2022-04-17,Tenerife,Fuenlabrada,8,7,False
+SP2,2122,2022-04-17,Ponferradina,Lugo,6,9,False
+SP2,2122,2022-04-17,Burgos,Ibiza,7,7,False
+SP2,2122,2022-04-18,Girona,Sociedad B,8,9,False
+SP2,2122,2022-04-22,Tenerife,Huesca,5,5,False
+SP2,2122,2022-04-23,Fuenlabrada,Ponferradina,6,6,False
+SP2,2122,2022-04-23,Malaga,Eibar,7,8,False
+SP2,2122,2022-04-23,Sociedad B,Amorebieta,5,8,False
+SP2,2122,2022-04-23,Cartagena,Girona,7,5,False
+SP2,2122,2022-04-24,Mirandes,Valladolid,9,8,False
+SP2,2122,2022-04-24,Lugo,Leganes,7,8,False
+SP2,2122,2022-04-24,Zaragoza,Burgos,7,7,False
+SP2,2122,2022-04-24,Ibiza,Las Palmas,7,9,False
+SP2,2122,2022-04-24,Alcorcon,Oviedo,8,8,False
+SP2,2122,2022-04-25,Almeria,Sp Gijon,9,9,False
+SP2,2122,2022-04-29,Las Palmas,Malaga,5,6,False
+SP2,2122,2022-04-30,Oviedo,Mirandes,6,6,False
+SP2,2122,2022-04-30,Eibar,Zaragoza,7,6,False
+SP2,2122,2022-04-30,Burgos,Almeria,6,5,False
+SP2,2122,2022-05-01,Amorebieta,Fuenlabrada,8,8,False
+SP2,2122,2022-05-01,Alcorcon,Girona,7,8,False
+SP2,2122,2022-05-01,Sp Gijon,Ibiza,6,7,False
+SP2,2122,2022-05-01,Lugo,Tenerife,7,9,False
+SP2,2122,2022-05-01,Ponferradina,Cartagena,8,8,False
+SP2,2122,2022-05-02,Valladolid,Sociedad B,8,9,False
+SP2,2122,2022-05-02,Leganes,Huesca,8,10,False
+SP2,2122,2022-05-06,Las Palmas,Mirandes,7,6,False
+SP2,2122,2022-05-07,Almeria,Amorebieta,7,6,False
+SP2,2122,2022-05-07,Malaga,Oviedo,8,7,False
+SP2,2122,2022-05-07,Ponferradina,Burgos,6,7,False
+SP2,2122,2022-05-07,Fuenlabrada,Sociedad B,6,5,False
+SP2,2122,2022-05-07,Huesca,Sp Gijon,5,6,False
+SP2,2122,2022-05-08,Eibar,Valladolid,8,6,False
+SP2,2122,2022-05-08,Cartagena,Leganes,7,6,False
+SP2,2122,2022-05-08,Ibiza,Lugo,7,7,False
+SP2,2122,2022-05-08,Zaragoza,Alcorcon,8,7,False
+SP2,2122,2022-05-09,Girona,Tenerife,8,8,False
+SP2,2122,2022-05-13,Sociedad B,Almeria,6,6,False
+SP2,2122,2022-05-14,Lugo,Fuenlabrada,6,7,False
+SP2,2122,2022-05-14,Valladolid,Ponferradina,6,7,False
+SP2,2122,2022-05-14,Leganes,Eibar,6,6,False
+SP2,2122,2022-05-14,Amorebieta,Huesca,7,7,False
+SP2,2122,2022-05-14,Burgos,Cartagena,7,6,False
+SP2,2122,2022-05-15,Sp Gijon,Girona,8,6,False
+SP2,2122,2022-05-15,Tenerife,Malaga,6,8,False
+SP2,2122,2022-05-15,Mirandes,Ibiza,9,7,False
+SP2,2122,2022-05-15,Alcorcon,Las Palmas,7,9,False
+SP2,2122,2022-05-16,Oviedo,Zaragoza,9,8,False
+SP2,2122,2022-05-20,Zaragoza,Lugo,4,6,False
+SP2,2122,2022-05-21,Eibar,Tenerife,7,6,False
+SP2,2122,2022-05-21,Cartagena,Amorebieta,7,7,False
+SP2,2122,2022-05-21,Fuenlabrada,Sp Gijon,7,6,False
+SP2,2122,2022-05-21,Huesca,Sociedad B,7,8,False
+SP2,2122,2022-05-21,Malaga,Burgos,6,7,False
+SP2,2122,2022-05-21,Almeria,Alcorcon,8,6,False
+SP2,2122,2022-05-21,Girona,Mirandes,6,6,False
+SP2,2122,2022-05-21,Ibiza,Valladolid,6,7,False
+SP2,2122,2022-05-21,Las Palmas,Oviedo,6,5,False
+SP2,2122,2022-05-21,Ponferradina,Leganes,7,7,False
+SP2,2122,2022-05-27,Mirandes,Fuenlabrada,6,6,False
+SP2,2122,2022-05-27,Sociedad B,Zaragoza,6,7,False
+SP2,2122,2022-05-28,Amorebieta,Ponferradina,7,7,False
+SP2,2122,2022-05-28,Lugo,Malaga,8,7,False
+SP2,2122,2022-05-29,Leganes,Almeria,8,8,False
+SP2,2122,2022-05-29,Oviedo,Ibiza,8,8,False
+SP2,2122,2022-05-29,Sp Gijon,Las Palmas,8,8,False
+SP2,2122,2022-05-29,Tenerife,Cartagena,8,8,False
+SP2,2122,2022-05-29,Valladolid,Huesca,8,8,False
+SP2,2122,2022-05-29,Burgos,Girona,8,8,False
+SP2,2122,2022-05-29,Alcorcon,Eibar,8,8,False

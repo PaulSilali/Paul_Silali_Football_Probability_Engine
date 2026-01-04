@@ -1,0 +1,101 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+AUS1,2122,2021-11-19,Melbourne City FC,Brisbane Roar,7,7,False
+AUS1,2122,2021-11-19,Adelaide United,Melbourne City FC,7,7,False
+AUS1,2122,2021-11-19,Sydney FC,Macarthur FC,7,7,False
+AUS1,2122,2021-11-19,Melbourne Victory,Brisbane Roar,7,7,False
+AUS1,2122,2021-11-19,Brisbane Roar,Adelaide United,7,7,False
+AUS1,2122,2021-11-19,Macarthur FC,Central Coast Mariners,7,7,False
+AUS1,2122,2021-11-19,Western United,Perth Glory,7,7,False
+AUS1,2122,2021-11-19,Western Sydney Wanderers,Newcastle United Jets,7,7,False
+AUS1,2122,2021-11-19,Wellington Phoenix,Western Sydney Wanderers,7,7,False
+AUS1,2122,2021-11-19,Melbourne City FC,Western United,7,7,False
+AUS1,2122,2021-11-19,Sydney FC,Newcastle United Jets,7,7,False
+AUS1,2122,2021-11-19,Melbourne Victory,Perth Glory,7,7,False
+AUS1,2122,2021-11-19,Melbourne City FC,Perth Glory,7,7,False
+AUS1,2122,2021-11-19,Newcastle United Jets,Wellington Phoenix,7,7,False
+AUS1,2122,2021-11-19,Western United,Brisbane Roar,7,7,False
+AUS1,2122,2021-11-19,Adelaide United,Melbourne Victory,7,7,False
+AUS1,2122,2021-11-19,Western Sydney Wanderers,Macarthur FC,7,7,False
+AUS1,2122,2021-11-19,Central Coast Mariners,Sydney FC,7,7,False
+AUS1,2122,2021-11-19,Western United,Adelaide United,7,7,False
+AUS1,2122,2021-11-19,Central Coast Mariners,Western Sydney Wanderers,7,7,False
+AUS1,2122,2021-11-19,Melbourne City FC,Melbourne Victory,7,7,False
+AUS1,2122,2021-11-19,Macarthur FC,Newcastle United Jets,7,7,False
+AUS1,2122,2021-11-19,Sydney FC,Wellington Phoenix,7,7,False
+AUS1,2122,2021-11-19,Newcastle United Jets,Central Coast Mariners,7,7,False
+AUS1,2122,2021-11-19,Macarthur FC,Wellington Phoenix,7,7,False
+AUS1,2122,2021-11-19,Wellington Phoenix,Central Coast Mariners,7,7,False
+AUS1,2122,2021-11-19,Western Sydney Wanderers,Sydney FC,7,7,False
+AUS1,2122,2021-11-19,Western United,Melbourne Victory,7,7,False
+AUS1,2122,2021-11-19,Perth Glory,Adelaide United,7,7,False
+AUS1,2122,2021-12-26,Melbourne Victory,Western United,37,37,False
+AUS1,2122,2021-12-26,Macarthur FC,Sydney FC,37,37,False
+AUS1,2122,2022-01-19,Brisbane Roar,Perth Glory,61,61,True
+AUS1,2122,2022-02-23,Melbourne City FC,Sydney FC,96,59,True
+AUS1,2122,2022-02-23,Western United,Wellington Phoenix,59,96,True
+AUS1,2122,2022-02-23,Macarthur FC,Western Sydney Wanderers,59,96,True
+AUS1,2122,2022-02-23,Brisbane Roar,Western Sydney Wanderers,35,96,True
+AUS1,2122,2022-02-23,Western United,Melbourne City FC,59,96,True
+AUS1,2122,2022-02-23,Sydney FC,Central Coast Mariners,59,96,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Adelaide United,96,96,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Melbourne Victory,96,59,True
+AUS1,2122,2022-02-23,Perth Glory,Macarthur FC,35,59,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Brisbane Roar,96,35,True
+AUS1,2122,2022-02-23,Adelaide United,Sydney FC,96,59,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Macarthur FC,96,59,True
+AUS1,2122,2022-02-23,Melbourne City FC,Perth Glory,96,35,True
+AUS1,2122,2022-02-23,Melbourne Victory,Western United,59,59,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Central Coast Mariners,96,96,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Melbourne City FC,96,96,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Adelaide United,96,96,True
+AUS1,2122,2022-02-23,Sydney FC,Western United,59,59,True
+AUS1,2122,2022-02-23,Melbourne Victory,Newcastle United Jets,59,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Perth Glory,96,35,True
+AUS1,2122,2022-02-23,Brisbane Roar,Macarthur FC,35,59,True
+AUS1,2122,2022-02-23,Melbourne City FC,Newcastle United Jets,96,96,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Sydney FC,96,59,True
+AUS1,2122,2022-02-23,Melbourne Victory,Central Coast Mariners,59,96,True
+AUS1,2122,2022-02-23,Macarthur FC,Adelaide United,59,96,True
+AUS1,2122,2022-02-23,Perth Glory,Brisbane Roar,35,35,True
+AUS1,2122,2022-02-23,Western United,Western Sydney Wanderers,59,96,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Macarthur FC,96,59,True
+AUS1,2122,2022-02-23,Sydney FC,Melbourne City FC,59,96,True
+AUS1,2122,2022-02-23,Adelaide United,Central Coast Mariners,96,96,True
+AUS1,2122,2022-02-23,Perth Glory,Western United,35,59,True
+AUS1,2122,2022-02-23,Brisbane Roar,Melbourne Victory,35,59,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Wellington Phoenix,96,96,True
+AUS1,2122,2022-02-23,Melbourne Victory,Macarthur FC,59,59,True
+AUS1,2122,2022-02-23,Western United,Newcastle United Jets,59,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Brisbane Roar,96,35,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Sydney FC,96,59,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Western Sydney Wanderers,96,96,True
+AUS1,2122,2022-02-23,Brisbane Roar,Melbourne City FC,35,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Wellington Phoenix,96,96,True
+AUS1,2122,2022-02-23,Adelaide United,Perth Glory,96,35,True
+AUS1,2122,2022-02-23,Adelaide United,Wellington Phoenix,96,96,True
+AUS1,2122,2022-02-23,Sydney FC,Perth Glory,59,35,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Western United,96,59,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Melbourne City FC,96,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Macarthur FC,96,59,True
+AUS1,2122,2022-02-23,Melbourne Victory,Brisbane Roar,59,35,True
+AUS1,2122,2022-02-23,Melbourne Victory,Sydney FC,59,59,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Brisbane Roar,96,35,True
+AUS1,2122,2022-02-23,Melbourne City FC,Central Coast Mariners,96,96,True
+AUS1,2122,2022-02-23,Adelaide United,Western Sydney Wanderers,96,96,True
+AUS1,2122,2022-02-23,Macarthur FC,Perth Glory,59,35,True
+AUS1,2122,2022-02-23,Newcastle United Jets,Western United,96,59,True
+AUS1,2122,2022-02-23,Melbourne Victory,Adelaide United,59,96,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Perth Glory,96,35,True
+AUS1,2122,2022-02-23,Western United,Sydney FC,59,59,True
+AUS1,2122,2022-02-23,Melbourne City FC,Macarthur FC,96,59,True
+AUS1,2122,2022-02-23,Wellington Phoenix,Newcastle United Jets,96,96,True
+AUS1,2122,2022-02-23,Brisbane Roar,Central Coast Mariners,35,96,True
+AUS1,2122,2022-02-23,Adelaide United,Melbourne City FC,96,96,True
+AUS1,2122,2022-02-23,Sydney FC,Brisbane Roar,59,35,True
+AUS1,2122,2022-02-23,Macarthur FC,Western United,59,59,True
+AUS1,2122,2022-02-23,Western Sydney Wanderers,Melbourne Victory,96,59,True
+AUS1,2122,2022-02-23,Perth Glory,Wellington Phoenix,35,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Newcastle United Jets,96,96,True
+AUS1,2122,2022-02-23,Brisbane Roar,Adelaide United,35,96,True
+AUS1,2122,2022-02-23,Central Coast Mariners,Melbourne Victory,96,59,True
+AUS1,2122,2022-02-23,Perth Glory,Newcastle United Jets,35,96,True

@@ -455,7 +455,11 @@ class PoissonTrainer:
             brier_scores.append(brier)
             
             # Log Loss
-            log_loss = -sum(actual[i] * math.log(max(predicted[i], 1e-10)) for i in range(3))
+            # Use larger epsilon (1e-7) to prevent numerical instability
+            # Clip probabilities to valid range before calculating log loss
+            epsilon = 1e-7
+            clipped_predicted = [max(epsilon, min(1.0 - epsilon, predicted[i])) for i in range(3)]
+            log_loss = -sum(actual[i] * math.log(clipped_predicted[i]) for i in range(3))
             log_losses.append(log_loss)
             
             # Accuracy

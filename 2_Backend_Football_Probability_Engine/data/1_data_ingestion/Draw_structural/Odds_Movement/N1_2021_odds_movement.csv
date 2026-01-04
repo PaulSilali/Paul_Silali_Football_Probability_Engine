@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+N1,2021,2020-09-12,Zwolle,Feyenoord,4.0,4.0,0.0
+N1,2021,2020-09-12,Twente,For Sittard,3.7,3.7,0.0
+N1,2021,2020-09-12,Heerenveen,Willem II,3.51,3.51,0.0
+N1,2021,2020-09-13,FC Emmen,VVV Venlo,3.59,3.59,0.0
+N1,2021,2020-09-13,Heracles,Den Haag,3.85,3.85,0.0
+N1,2021,2020-09-13,Sparta Rotterdam,Ajax,6.39,6.39,0.0
+N1,2021,2020-09-13,Groningen,PSV Eindhoven,3.32,3.32,0.0
+N1,2021,2020-09-13,Waalwijk,Vitesse,4.1,4.1,0.0
+N1,2021,2020-09-18,VVV Venlo,Utrecht,3.84,3.84,0.0
+N1,2021,2020-09-19,PSV Eindhoven,FC Emmen,7.17,7.17,0.0
+N1,2021,2020-09-19,For Sittard,Heerenveen,3.66,3.66,0.0
+N1,2021,2020-09-19,Vitesse,Sparta Rotterdam,4.02,4.02,0.0
+N1,2021,2020-09-19,AZ Alkmaar,Zwolle,5.08,5.08,0.0
+N1,2021,2020-09-20,Willem II,Heracles,3.47,3.47,0.0
+N1,2021,2020-09-20,Ajax,Waalwijk,12.99,12.99,0.0
+N1,2021,2020-09-20,Den Haag,Groningen,3.4,3.4,0.0
+N1,2021,2020-09-20,Feyenoord,Twente,4.9,4.9,0.0
+N1,2021,2020-09-25,Twente,Groningen,3.35,3.35,0.0
+N1,2021,2020-09-26,Heerenveen,VVV Venlo,4.2,4.2,0.0
+N1,2021,2020-09-26,Ajax,Vitesse,6.03,6.03,0.0
+N1,2021,2020-09-26,For Sittard,AZ Alkmaar,4.52,4.52,0.0
+N1,2021,2020-09-26,Zwolle,Sparta Rotterdam,3.63,3.63,0.0
+N1,2021,2020-09-27,FC Emmen,Willem II,3.46,3.46,0.0
+N1,2021,2020-09-27,Heracles,PSV Eindhoven,3.97,3.97,0.0
+N1,2021,2020-09-27,Feyenoord,Den Haag,6.51,6.51,0.0
+N1,2021,2020-09-27,Utrecht,Waalwijk,6.01,6.01,0.0
+N1,2021,2020-10-02,Utrecht,Heerenveen,4.32,4.32,0.0
+N1,2021,2020-10-03,Twente,FC Emmen,3.77,3.77,0.0
+N1,2021,2020-10-03,VVV Venlo,Den Haag,3.6,3.6,0.0
+N1,2021,2020-10-03,Vitesse,Heracles,4.02,4.02,0.0
+N1,2021,2020-10-04,PSV Eindhoven,For Sittard,6.81,6.81,0.0
+N1,2021,2020-10-04,Groningen,Ajax,4.88,4.88,0.0
+N1,2021,2020-10-04,Sparta Rotterdam,AZ Alkmaar,4.04,4.04,0.0
+N1,2021,2020-10-04,Willem II,Feyenoord,4.01,4.01,0.0
+N1,2021,2020-10-17,AZ Alkmaar,VVV Venlo,6.19,6.19,0.0
+N1,2021,2020-10-17,Heracles,Waalwijk,4.31,4.31,0.0
+N1,2021,2020-10-17,Willem II,Twente,3.49,3.49,0.0
+N1,2021,2020-10-18,Den Haag,Vitesse,4.02,4.02,0.0
+N1,2021,2020-10-18,Feyenoord,Sparta Rotterdam,5.28,5.28,0.0
+N1,2021,2020-10-18,Ajax,Heerenveen,7.14,7.14,0.0
+N1,2021,2020-10-18,Groningen,Utrecht,3.45,3.45,0.0
+N1,2021,2020-10-18,Zwolle,PSV Eindhoven,4.27,4.27,0.0
+N1,2021,2020-10-18,FC Emmen,For Sittard,3.79,3.79,0.0
+N1,2021,2020-10-21,Waalwijk,Zwolle,3.36,3.36,0.0
+N1,2021,2020-10-24,Zwolle,Willem II,3.52,3.52,0.0
+N1,2021,2020-10-24,Heerenveen,FC Emmen,4.01,4.01,0.0
+N1,2021,2020-10-24,Utrecht,Twente,4.04,4.04,0.0
+N1,2021,2020-10-24,VVV Venlo,Ajax,6.96,6.96,0.0
+N1,2021,2020-10-25,Vitesse,PSV Eindhoven,3.75,3.75,0.0
+N1,2021,2020-10-25,Waalwijk,Feyenoord,5.81,5.81,0.0
+N1,2021,2020-10-25,Den Haag,AZ Alkmaar,3.97,3.97,0.0
+N1,2021,2020-10-25,For Sittard,Groningen,3.46,3.46,0.0
+N1,2021,2020-10-25,Sparta Rotterdam,Heracles,3.61,3.61,0.0
+N1,2021,2020-10-31,Groningen,VVV Venlo,4.53,4.53,0.0
+N1,2021,2020-10-31,Willem II,Vitesse,3.59,3.59,0.0
+N1,2021,2020-10-31,Twente,Zwolle,3.7,3.7,0.0
+N1,2021,2020-10-31,Ajax,For Sittard,11.65,11.65,0.0
+N1,2021,2020-11-01,Sparta Rotterdam,Heerenveen,3.67,3.67,0.0
+N1,2021,2020-11-01,PSV Eindhoven,Den Haag,7.4,7.4,0.0
+N1,2021,2020-11-01,AZ Alkmaar,Waalwijk,6.31,6.31,0.0
+N1,2021,2020-11-01,Heracles,Utrecht,3.71,3.71,0.0
+N1,2021,2020-11-01,FC Emmen,Feyenoord,4.19,4.19,0.0
+N1,2021,2020-11-06,For Sittard,Zwolle,3.56,3.56,0.0
+N1,2021,2020-11-07,Waalwijk,Sparta Rotterdam,3.59,3.59,0.0
+N1,2021,2020-11-07,VVV Venlo,Heracles,3.55,3.55,0.0
+N1,2021,2020-11-07,Den Haag,Twente,3.83,3.83,0.0
+N1,2021,2020-11-08,Vitesse,FC Emmen,4.56,4.56,0.0
+N1,2021,2020-11-08,Heerenveen,AZ Alkmaar,3.78,3.78,0.0
+N1,2021,2020-11-08,PSV Eindhoven,Willem II,4.94,4.94,0.0
+N1,2021,2020-11-08,Utrecht,Ajax,4.19,4.19,0.0
+N1,2021,2020-11-08,Feyenoord,Groningen,3.75,3.75,0.0
+N1,2021,2020-11-21,Zwolle,Utrecht,3.72,3.72,0.0
+N1,2021,2020-11-21,Willem II,VVV Venlo,4.19,4.19,0.0
+N1,2021,2020-11-21,Groningen,Vitesse,3.36,3.36,0.0
+N1,2021,2020-11-22,AZ Alkmaar,FC Emmen,6.15,6.15,0.0
+N1,2021,2020-11-22,Ajax,Heracles,9.52,9.52,0.0
+N1,2021,2020-11-22,For Sittard,Feyenoord,4.39,4.39,0.0
+N1,2021,2020-11-22,Sparta Rotterdam,Den Haag,4.06,4.06,0.0
+N1,2021,2020-11-22,Twente,PSV Eindhoven,4.17,4.17,0.0
+N1,2021,2020-11-22,Waalwijk,Heerenveen,4.03,4.03,0.0
+N1,2021,2020-11-27,Twente,Waalwijk,4.86,4.86,0.0
+N1,2021,2020-11-28,Den Haag,Heerenveen,4.19,4.19,0.0
+N1,2021,2020-11-28,FC Emmen,Ajax,7.09,7.09,0.0
+N1,2021,2020-11-28,VVV Venlo,Zwolle,3.42,3.42,0.0
+N1,2021,2020-11-29,Feyenoord,Utrecht,4.03,4.03,0.0
+N1,2021,2020-11-29,Groningen,Willem II,3.45,3.45,0.0
+N1,2021,2020-11-29,Heracles,AZ Alkmaar,4.22,4.22,0.0
+N1,2021,2020-11-29,PSV Eindhoven,Sparta Rotterdam,6.06,6.06,0.0
+N1,2021,2020-11-29,Vitesse,For Sittard,5.29,5.29,0.0
+N1,2021,2020-12-04,Sparta Rotterdam,FC Emmen,4.14,4.14,0.0
+N1,2021,2020-12-05,Ajax,Twente,6.92,6.92,0.0
+N1,2021,2020-12-05,Zwolle,Vitesse,3.81,3.81,0.0
+N1,2021,2020-12-05,For Sittard,Willem II,3.73,3.73,0.0
+N1,2021,2020-12-05,Waalwijk,VVV Venlo,3.58,3.58,0.0
+N1,2021,2020-12-06,Utrecht,Den Haag,6.53,6.53,0.0
+N1,2021,2020-12-06,Heerenveen,PSV Eindhoven,3.85,3.85,0.0
+N1,2021,2020-12-06,Feyenoord,Heracles,4.5,4.5,0.0
+N1,2021,2020-12-06,AZ Alkmaar,Groningen,4.24,4.24,0.0
+N1,2021,2020-12-11,Heracles,For Sittard,4.1,4.1,0.0
+N1,2021,2020-12-12,Ajax,Zwolle,8.62,8.62,0.0
+N1,2021,2020-12-12,FC Emmen,Den Haag,4.12,4.12,0.0
+N1,2021,2020-12-12,Groningen,Waalwijk,4.4,4.4,0.0
+N1,2021,2020-12-13,Willem II,Sparta Rotterdam,3.58,3.58,0.0
+N1,2021,2020-12-13,PSV Eindhoven,Utrecht,4.42,4.42,0.0
+N1,2021,2020-12-13,Twente,AZ Alkmaar,3.56,3.56,0.0
+N1,2021,2020-12-13,Vitesse,Heerenveen,4.04,4.04,0.0
+N1,2021,2020-12-13,VVV Venlo,Feyenoord,4.51,4.51,0.0
+N1,2021,2020-12-18,Zwolle,FC Emmen,3.72,3.72,0.0
+N1,2021,2020-12-19,Waalwijk,PSV Eindhoven,5.22,5.22,0.0
+N1,2021,2020-12-19,Utrecht,For Sittard,5.21,5.21,0.0
+N1,2021,2020-12-19,VVV Venlo,Twente,4.09,4.09,0.0
+N1,2021,2020-12-19,Sparta Rotterdam,Groningen,3.28,3.28,0.0
+N1,2021,2020-12-20,Heerenveen,Heracles,3.94,3.94,0.0
+N1,2021,2020-12-20,AZ Alkmaar,Willem II,5.32,5.32,0.0
+N1,2021,2020-12-20,Vitesse,Feyenoord,3.57,3.57,0.0
+N1,2021,2020-12-20,Den Haag,Ajax,10.73,10.73,0.0
+N1,2021,2020-12-22,Twente,Sparta Rotterdam,3.66,3.66,0.0
+N1,2021,2020-12-22,For Sittard,Waalwijk,3.5,3.5,0.0
+N1,2021,2020-12-22,FC Emmen,Utrecht,4.17,4.17,0.0
+N1,2021,2020-12-22,PSV Eindhoven,VVV Venlo,8.13,8.13,0.0
+N1,2021,2020-12-23,Den Haag,Zwolle,4.01,4.01,0.0
+N1,2021,2020-12-23,Groningen,Heracles,3.43,3.43,0.0
+N1,2021,2020-12-23,Feyenoord,Heerenveen,4.27,4.27,0.0
+N1,2021,2020-12-23,Willem II,Ajax,7.65,7.65,0.0
+N1,2021,2020-12-23,AZ Alkmaar,Vitesse,3.8,3.8,0.0
+N1,2021,2020-12-27,Utrecht,AZ Alkmaar,3.65,3.65,0.0
+N1,2021,2021-01-09,Heracles,Vitesse,3.65,3.65,0.0
+N1,2021,2021-01-09,Zwolle,AZ Alkmaar,4.14,4.14,0.0
+N1,2021,2021-01-09,Utrecht,Groningen,3.67,3.67,0.0
+N1,2021,2021-01-09,FC Emmen,Twente,3.76,3.76,0.0
+N1,2021,2021-01-09,Waalwijk,Den Haag,4.05,4.05,0.0
+N1,2021,2021-01-10,VVV Venlo,Willem II,3.59,3.59,0.0
+N1,2021,2021-01-10,Ajax,PSV Eindhoven,4.14,4.14,0.0
+N1,2021,2021-01-10,Sparta Rotterdam,Feyenoord,3.82,3.82,0.0
+N1,2021,2021-01-10,Heerenveen,For Sittard,3.94,3.94,0.0
+N1,2021,2021-01-12,Heracles,FC Emmen,3.75,3.75,0.0
+N1,2021,2021-01-12,Vitesse,Utrecht,3.64,3.64,0.0
+N1,2021,2021-01-13,For Sittard,Sparta Rotterdam,3.52,3.52,0.0
+N1,2021,2021-01-13,Feyenoord,Zwolle,4.58,4.58,0.0
+N1,2021,2021-01-13,PSV Eindhoven,AZ Alkmaar,3.96,3.96,0.0
+N1,2021,2021-01-13,Den Haag,VVV Venlo,3.58,3.58,0.0
+N1,2021,2021-01-14,Willem II,Groningen,3.39,3.39,0.0
+N1,2021,2021-01-14,Twente,Ajax,5.46,5.46,0.0
+N1,2021,2021-01-14,Heerenveen,Waalwijk,4.1,4.1,0.0
+N1,2021,2021-01-16,Utrecht,Heracles,4.11,4.11,0.0
+N1,2021,2021-01-16,Zwolle,For Sittard,3.61,3.61,0.0
+N1,2021,2021-01-16,AZ Alkmaar,Den Haag,8.78,8.78,0.0
+N1,2021,2021-01-16,FC Emmen,Vitesse,4.3,4.3,0.0
+N1,2021,2021-01-16,Sparta Rotterdam,PSV Eindhoven,4.15,4.15,0.0
+N1,2021,2021-01-17,VVV Venlo,Heerenveen,3.79,3.79,0.0
+N1,2021,2021-01-17,Ajax,Feyenoord,4.9,4.9,0.0
+N1,2021,2021-01-17,Waalwijk,Willem II,3.56,3.56,0.0
+N1,2021,2021-01-17,Groningen,Twente,3.39,3.39,0.0
+N1,2021,2021-01-22,Willem II,Zwolle,3.47,3.47,0.0
+N1,2021,2021-01-23,Vitesse,Groningen,3.8,3.8,0.0
+N1,2021,2021-01-23,Den Haag,FC Emmen,3.47,3.47,0.0
+N1,2021,2021-01-23,PSV Eindhoven,Waalwijk,7.9,7.9,0.0
+N1,2021,2021-01-23,Heracles,Heerenveen,3.46,3.46,0.0
+N1,2021,2021-01-24,Twente,VVV Venlo,4.32,4.32,0.0
+N1,2021,2021-01-24,Feyenoord,AZ Alkmaar,3.59,3.59,0.0
+N1,2021,2021-01-24,Utrecht,Sparta Rotterdam,3.92,3.92,0.0
+N1,2021,2021-01-24,For Sittard,Ajax,8.1,8.1,0.0
+N1,2021,2021-01-26,FC Emmen,PSV Eindhoven,4.87,4.87,0.0
+N1,2021,2021-01-26,Groningen,Den Haag,4.6,4.6,0.0
+N1,2021,2021-01-26,Zwolle,Heracles,3.31,3.31,0.0
+N1,2021,2021-01-27,VVV Venlo,Vitesse,4.57,4.57,0.0
+N1,2021,2021-01-27,Waalwijk,For Sittard,3.5,3.5,0.0
+N1,2021,2021-01-27,Heerenveen,Feyenoord,4.06,4.06,0.0
+N1,2021,2021-01-27,AZ Alkmaar,Utrecht,3.72,3.72,0.0
+N1,2021,2021-01-28,Sparta Rotterdam,Twente,3.6,3.6,0.0
+N1,2021,2021-01-28,Ajax,Willem II,9.6,9.6,0.0
+N1,2021,2021-01-30,For Sittard,VVV Venlo,3.71,3.71,0.0
+N1,2021,2021-01-30,Vitesse,Waalwijk,5.16,5.16,0.0
+N1,2021,2021-01-30,Heracles,Groningen,3.35,3.35,0.0
+N1,2021,2021-01-30,Utrecht,Zwolle,3.94,3.94,0.0
+N1,2021,2021-01-31,Willem II,FC Emmen,3.63,3.63,0.0
+N1,2021,2021-01-31,AZ Alkmaar,Ajax,4.06,4.06,0.0
+N1,2021,2021-01-31,Den Haag,Sparta Rotterdam,4.1,4.1,0.0
+N1,2021,2021-01-31,Feyenoord,PSV Eindhoven,3.6,3.6,0.0
+N1,2021,2021-01-31,Twente,Heerenveen,3.63,3.63,0.0
+N1,2021,2021-02-05,For Sittard,Heracles,3.26,3.26,0.0
+N1,2021,2021-02-06,Zwolle,Waalwijk,3.7,3.7,0.0
+N1,2021,2021-02-06,FC Emmen,AZ Alkmaar,4.67,4.67,0.0
+N1,2021,2021-02-06,Heerenveen,Vitesse,3.88,3.88,0.0
+N1,2021,2021-02-06,PSV Eindhoven,Twente,4.85,4.85,0.0
+N1,2021,2021-02-12,Waalwijk,FC Emmen,3.55,3.55,0.0
+N1,2021,2021-02-13,Den Haag,PSV Eindhoven,5.99,5.99,0.0
+N1,2021,2021-02-13,Sparta Rotterdam,For Sittard,3.71,3.71,0.0
+N1,2021,2021-02-13,Groningen,Zwolle,3.43,3.43,0.0
+N1,2021,2021-02-13,Heracles,Ajax,5.34,5.34,0.0
+N1,2021,2021-02-14,Vitesse,Twente,3.85,3.85,0.0
+N1,2021,2021-02-14,AZ Alkmaar,Heerenveen,4.59,4.59,0.0
+N1,2021,2021-02-14,Feyenoord,Willem II,5.03,5.03,0.0
+N1,2021,2021-02-14,Utrecht,VVV Venlo,5.41,5.41,0.0
+N1,2021,2021-02-19,Willem II,Utrecht,4.58,4.58,0.0
+N1,2021,2021-02-20,VVV Venlo,AZ Alkmaar,5.29,5.29,0.0
+N1,2021,2021-02-20,FC Emmen,Zwolle,3.58,3.58,0.0
+N1,2021,2021-02-20,For Sittard,Den Haag,4.16,4.16,0.0
+N1,2021,2021-02-21,Twente,Feyenoord,3.68,3.68,0.0
+N1,2021,2021-02-21,Heerenveen,Groningen,3.38,3.38,0.0
+N1,2021,2021-02-21,Waalwijk,Heracles,3.54,3.54,0.0
+N1,2021,2021-02-21,PSV Eindhoven,Vitesse,4.11,4.11,0.0
+N1,2021,2021-02-21,Ajax,Sparta Rotterdam,8.15,8.15,0.0
+N1,2021,2021-02-24,Groningen,Feyenoord,3.48,3.48,0.0
+N1,2021,2021-02-24,Willem II,Den Haag,3.78,3.78,0.0
+N1,2021,2021-02-26,Zwolle,Heerenveen,3.4,3.4,0.0
+N1,2021,2021-02-27,Vitesse,VVV Venlo,4.69,4.69,0.0
+N1,2021,2021-02-27,Heracles,Twente,3.38,3.38,0.0
+N1,2021,2021-02-27,Den Haag,Waalwijk,3.54,3.54,0.0
+N1,2021,2021-02-27,Utrecht,FC Emmen,5.87,5.87,0.0
+N1,2021,2021-02-28,PSV Eindhoven,Ajax,3.96,3.96,0.0
+N1,2021,2021-02-28,AZ Alkmaar,Feyenoord,3.72,3.72,0.0
+N1,2021,2021-02-28,Sparta Rotterdam,Willem II,3.84,3.84,0.0
+N1,2021,2021-02-28,Groningen,For Sittard,3.6,3.6,0.0
+N1,2021,2021-03-05,FC Emmen,Sparta Rotterdam,3.42,3.42,0.0
+N1,2021,2021-03-06,Heerenveen,Den Haag,4.35,4.35,0.0
+N1,2021,2021-03-06,Waalwijk,Utrecht,4.16,4.16,0.0
+N1,2021,2021-03-06,Twente,Willem II,3.9,3.9,0.0
+N1,2021,2021-03-06,Feyenoord,VVV Venlo,6.01,6.01,0.0
+N1,2021,2021-03-07,Heracles,Zwolle,3.49,3.49,0.0
+N1,2021,2021-03-07,Vitesse,AZ Alkmaar,3.77,3.77,0.0
+N1,2021,2021-03-07,Ajax,Groningen,6.42,6.42,0.0
+N1,2021,2021-03-07,For Sittard,PSV Eindhoven,4.74,4.74,0.0
+N1,2021,2021-03-09,VVV Venlo,Sparta Rotterdam,3.6,3.6,0.0
+N1,2021,2021-03-13,AZ Alkmaar,Twente,4.75,4.75,0.0
+N1,2021,2021-03-13,Groningen,FC Emmen,3.49,3.49,0.0
+N1,2021,2021-03-13,Sparta Rotterdam,Waalwijk,3.54,3.54,0.0
+N1,2021,2021-03-13,Den Haag,Heracles,3.99,3.99,0.0
+N1,2021,2021-03-13,Willem II,Heerenveen,3.53,3.53,0.0
+N1,2021,2021-03-14,Utrecht,Vitesse,3.65,3.65,0.0
+N1,2021,2021-03-14,Zwolle,Ajax,6.35,6.35,0.0
+N1,2021,2021-03-14,VVV Venlo,For Sittard,3.79,3.79,0.0
+N1,2021,2021-03-14,PSV Eindhoven,Feyenoord,3.93,3.93,0.0
+N1,2021,2021-03-19,Heerenveen,Twente,3.42,3.42,0.0
+N1,2021,2021-03-20,For Sittard,Utrecht,3.96,3.96,0.0
+N1,2021,2021-03-20,Feyenoord,FC Emmen,5.35,5.35,0.0
+N1,2021,2021-03-20,Waalwijk,Groningen,3.19,3.19,0.0
+N1,2021,2021-03-21,Vitesse,Willem II,4.32,4.32,0.0
+N1,2021,2021-03-21,Zwolle,VVV Venlo,3.93,3.93,0.0
+N1,2021,2021-03-21,Ajax,Den Haag,13.89,13.89,0.0
+N1,2021,2021-03-21,Heracles,Sparta Rotterdam,3.35,3.35,0.0
+N1,2021,2021-03-21,AZ Alkmaar,PSV Eindhoven,3.67,3.67,0.0
+N1,2021,2021-04-03,VVV Venlo,Groningen,3.59,3.59,0.0
+N1,2021,2021-04-03,Twente,Vitesse,3.4,3.4,0.0
+N1,2021,2021-04-03,Willem II,AZ Alkmaar,4.56,4.56,0.0
+N1,2021,2021-04-03,Sparta Rotterdam,Zwolle,3.38,3.38,0.0
+N1,2021,2021-04-04,PSV Eindhoven,Heracles,4.95,4.95,0.0
+N1,2021,2021-04-04,FC Emmen,Waalwijk,3.43,3.43,0.0
+N1,2021,2021-04-04,Heerenveen,Ajax,6.02,6.02,0.0
+N1,2021,2021-04-04,Den Haag,Utrecht,5.21,5.21,0.0
+N1,2021,2021-04-04,Feyenoord,For Sittard,4.43,4.43,0.0
+N1,2021,2021-04-09,Vitesse,Den Haag,6.61,6.61,0.0
+N1,2021,2021-04-10,For Sittard,FC Emmen,3.35,3.35,0.0
+N1,2021,2021-04-10,Zwolle,Twente,3.44,3.44,0.0
+N1,2021,2021-04-10,AZ Alkmaar,Sparta Rotterdam,4.58,4.58,0.0
+N1,2021,2021-04-10,Heracles,Willem II,3.52,3.52,0.0
+N1,2021,2021-04-11,VVV Venlo,PSV Eindhoven,6.16,6.16,0.0
+N1,2021,2021-04-11,Waalwijk,Ajax,8.06,8.06,0.0
+N1,2021,2021-04-11,Utrecht,Feyenoord,3.62,3.62,0.0
+N1,2021,2021-04-11,Groningen,Heerenveen,3.3,3.3,0.0
+N1,2021,2021-04-22,Ajax,Utrecht,4.97,4.97,0.0
+N1,2021,2021-04-23,Willem II,Waalwijk,3.66,3.66,0.0
+N1,2021,2021-04-24,Sparta Rotterdam,VVV Venlo,4.15,4.15,0.0
+N1,2021,2021-04-24,Heerenveen,Zwolle,3.73,3.73,0.0
+N1,2021,2021-04-24,PSV Eindhoven,Groningen,5.32,5.32,0.0
+N1,2021,2021-04-25,Den Haag,For Sittard,3.75,3.75,0.0
+N1,2021,2021-04-25,Feyenoord,Vitesse,3.65,3.65,0.0
+N1,2021,2021-04-25,Twente,Utrecht,3.72,3.72,0.0
+N1,2021,2021-04-25,Ajax,AZ Alkmaar,4.52,4.52,0.0
+N1,2021,2021-04-25,FC Emmen,Heracles,3.37,3.37,0.0
+N1,2021,2021-05-01,Waalwijk,AZ Alkmaar,5.07,5.07,0.0
+N1,2021,2021-05-01,Heracles,VVV Venlo,4.11,4.11,0.0
+N1,2021,2021-05-01,For Sittard,Twente,3.66,3.66,0.0
+N1,2021,2021-05-01,Vitesse,Zwolle,4.25,4.25,0.0
+N1,2021,2021-05-01,Utrecht,Willem II,4.38,4.38,0.0
+N1,2021,2021-05-02,Groningen,Sparta Rotterdam,3.33,3.33,0.0
+N1,2021,2021-05-02,PSV Eindhoven,Heerenveen,6.1,6.1,0.0
+N1,2021,2021-05-02,Ajax,FC Emmen,8.94,8.94,0.0
+N1,2021,2021-05-02,Den Haag,Feyenoord,5.39,5.39,0.0
+N1,2021,2021-05-07,Sparta Rotterdam,Vitesse,3.65,3.65,0.0
+N1,2021,2021-05-08,AZ Alkmaar,For Sittard,5.62,5.62,0.0
+N1,2021,2021-05-08,VVV Venlo,Waalwijk,3.51,3.51,0.0
+N1,2021,2021-05-08,Heerenveen,Utrecht,3.9,3.9,0.0
+N1,2021,2021-05-08,Twente,Heracles,3.47,3.47,0.0
+N1,2021,2021-05-09,Zwolle,Den Haag,3.83,3.83,0.0
+N1,2021,2021-05-09,Willem II,PSV Eindhoven,4.83,4.83,0.0
+N1,2021,2021-05-09,FC Emmen,Groningen,3.5,3.5,0.0
+N1,2021,2021-05-09,Feyenoord,Ajax,4.63,4.63,0.0
+N1,2021,2021-05-13,FC Emmen,Heerenveen,3.71,3.71,0.0
+N1,2021,2021-05-13,For Sittard,Vitesse,3.76,3.76,0.0
+N1,2021,2021-05-13,Groningen,AZ Alkmaar,4.0,4.0,0.0
+N1,2021,2021-05-13,Heracles,Feyenoord,3.71,3.71,0.0
+N1,2021,2021-05-13,PSV Eindhoven,Zwolle,7.26,7.26,0.0
+N1,2021,2021-05-13,Sparta Rotterdam,Utrecht,3.7,3.7,0.0
+N1,2021,2021-05-13,Waalwijk,Twente,3.57,3.57,0.0
+N1,2021,2021-05-13,Ajax,VVV Venlo,10.19,10.19,0.0
+N1,2021,2021-05-13,Den Haag,Willem II,3.74,3.74,0.0
+N1,2021,2021-05-16,Heerenveen,Sparta Rotterdam,3.53,3.53,0.0
+N1,2021,2021-05-16,Twente,Den Haag,4.22,4.22,0.0
+N1,2021,2021-05-16,Utrecht,PSV Eindhoven,3.77,3.77,0.0
+N1,2021,2021-05-16,Vitesse,Ajax,4.43,4.43,0.0
+N1,2021,2021-05-16,VVV Venlo,FC Emmen,4.15,4.15,0.0
+N1,2021,2021-05-16,Willem II,For Sittard,4.14,4.14,0.0
+N1,2021,2021-05-16,Zwolle,Groningen,3.45,3.45,0.0
+N1,2021,2021-05-16,AZ Alkmaar,Heracles,4.6,4.6,0.0
+N1,2021,2021-05-16,Feyenoord,Waalwijk,5.0,5.0,0.0

@@ -1,13 +1,15 @@
 """
 FastAPI Application Entry Point
 """
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from app.config import settings
 from app.api import (
     probabilities, jackpots, validation, data, validation_team,
-    auth, model, tasks, export, teams, explainability, audit, tickets
+    auth, model, tasks, export, teams, explainability, audit, tickets, dashboard
 )
+from app.api import model_health, automated_training, feature_store, draw_ingestion, draw_diagnostics
 from app.db.session import engine
 from sqlalchemy import text
 import logging
@@ -48,6 +50,32 @@ app.add_middleware(
     allow_headers=settings.get_cors_headers(),
 )
 
+# Suppress 404 logging for known non-existent endpoints
+IGNORED_404_PATHS = [
+    '/api/ml-performance/model-status',
+    '/api/ml-performance/signal-history',
+    '/api/live-data/prediction-status',
+]
+
+from fastapi.exceptions import RequestValidationError
+from starlette.exceptions import HTTPException as StarletteHTTPException
+
+@app.exception_handler(StarletteHTTPException)
+async def http_exception_handler(request: Request, exc: StarletteHTTPException):
+    """Custom exception handler to suppress 404 logging for ignored paths"""
+    # Suppress logging for ignored 404 paths
+    if exc.status_code == 404 and request.url.path in IGNORED_404_PATHS:
+        return JSONResponse(
+            status_code=404,
+            content={"detail": "Endpoint not implemented"},
+            headers={"X-Suppress-Log": "true"}
+        )
+    # For other exceptions, use default behavior
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"detail": exc.detail}
+    )
+
 # Include routers
 app.include_router(auth.router, prefix=settings.API_PREFIX)
 app.include_router(jackpots.router, prefix=settings.API_PREFIX)
@@ -62,6 +90,12 @@ app.include_router(teams.router, prefix=settings.API_PREFIX)
 app.include_router(explainability.router, prefix=settings.API_PREFIX)
 app.include_router(audit.router, prefix=settings.API_PREFIX)
 app.include_router(tickets.router, prefix=settings.API_PREFIX)
+app.include_router(dashboard.router, prefix=settings.API_PREFIX)
+app.include_router(model_health.router, prefix=settings.API_PREFIX)
+app.include_router(automated_training.router, prefix=settings.API_PREFIX)
+app.include_router(feature_store.router, prefix=settings.API_PREFIX)
+app.include_router(draw_ingestion.router, prefix=settings.API_PREFIX)
+app.include_router(draw_diagnostics.router, prefix=settings.API_PREFIX)
 
 
 @app.on_event("startup")
@@ -140,20 +174,8 @@ def health_check():
     }
 
 
-@app.get(f"{settings.API_PREFIX}/model/health")
-def model_health():
-    """Get model health status"""
-    return {
-        "status": "stable",
-        "lastChecked": "2024-12-28T10:00:00Z",
-        "metrics": {
-            "brierScore": 0.142,
-            "logLoss": 0.891,
-            "accuracy": 67.3
-        },
-        "alerts": [],
-        "driftIndicators": []
-    }
+# Model health endpoint moved to app/api/model_health.py
+# Imported via router below
 
 
 @app.get(f"{settings.API_PREFIX}/model/versions")

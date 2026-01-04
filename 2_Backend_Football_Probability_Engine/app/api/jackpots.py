@@ -355,6 +355,7 @@ async def get_jackpot(
 class CreateJackpotRequest(BaseModel):
     """Request body for creating a jackpot"""
     fixtures: List[FixtureInput]
+    jackpot_id: Optional[str] = None  # Optional: specify jackpot ID, otherwise auto-generated
 
 
 @router.post("", response_model=ApiResponse)
@@ -386,7 +387,21 @@ async def create_jackpot(
                     raise HTTPException(status_code=400, detail=f"Fixture {idx + 1}: Invalid away odds")
         
         # Create jackpot record
-        jackpot_id = f"JK-{int(datetime.now().timestamp())}"
+        # Use provided jackpot_id or auto-generate one
+        if request.jackpot_id:
+            # Check if jackpot_id already exists
+            existing = db.query(JackpotModel).filter(
+                JackpotModel.jackpot_id == request.jackpot_id
+            ).first()
+            if existing:
+                raise HTTPException(
+                    status_code=400, 
+                    detail=f"Jackpot ID {request.jackpot_id} already exists"
+                )
+            jackpot_id = request.jackpot_id
+        else:
+            jackpot_id = f"JK-{int(datetime.now().timestamp())}"
+        
         jackpot = JackpotModel(
             jackpot_id=jackpot_id,
             user_id="anonymous",  # TODO: Get from auth

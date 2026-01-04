@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+E3,2021,2020-09-12,Bolton,Forest Green,3.33,3.33,0.0
+E3,2021,2020-09-12,Walsall,Grimsby,3.36,3.36,0.0
+E3,2021,2020-09-12,Cheltenham,Morecambe,3.51,3.51,0.0
+E3,2021,2020-09-12,Port Vale,Crawley Town,3.6,3.6,0.0
+E3,2021,2020-09-12,Cambridge,Carlisle,3.23,3.23,0.0
+E3,2021,2020-09-12,Bradford,Colchester,3.22,3.22,0.0
+E3,2021,2020-09-12,Salford,Exeter,3.32,3.32,0.0
+E3,2021,2020-09-12,Barrow,Stevenage,3.32,3.32,0.0
+E3,2021,2020-09-12,Oldham,Leyton Orient,3.31,3.31,0.0
+E3,2021,2020-09-12,Mansfield,Tranmere,3.29,3.29,0.0
+E3,2021,2020-09-12,Scunthorpe,Newport County,3.16,3.16,0.0
+E3,2021,2020-09-12,Southend,Harrogate,3.29,3.29,0.0
+E3,2021,2020-09-19,Crawley Town,Scunthorpe,3.35,3.35,0.0
+E3,2021,2020-09-19,Exeter,Port Vale,3.21,3.21,0.0
+E3,2021,2020-09-19,Forest Green,Bradford,3.22,3.22,0.0
+E3,2021,2020-09-19,Grimsby,Salford,3.28,3.28,0.0
+E3,2021,2020-09-19,Harrogate,Walsall,3.32,3.32,0.0
+E3,2021,2020-09-19,Leyton Orient,Mansfield,3.38,3.38,0.0
+E3,2021,2020-09-19,Carlisle,Southend,3.86,3.86,0.0
+E3,2021,2020-09-19,Colchester,Bolton,3.29,3.29,0.0
+E3,2021,2020-09-19,Morecambe,Cambridge,3.12,3.12,0.0
+E3,2021,2020-09-19,Newport County,Barrow,3.25,3.25,0.0
+E3,2021,2020-09-19,Stevenage,Oldham,3.2,3.2,0.0
+E3,2021,2020-09-19,Tranmere,Cheltenham,3.32,3.32,0.0
+E3,2021,2020-09-26,Barrow,Colchester,3.26,3.26,0.0
+E3,2021,2020-09-26,Bolton,Newport County,3.26,3.26,0.0
+E3,2021,2020-09-26,Bradford,Stevenage,3.27,3.27,0.0
+E3,2021,2020-09-26,Cambridge,Tranmere,3.18,3.18,0.0
+E3,2021,2020-09-26,Mansfield,Exeter,3.3,3.3,0.0
+E3,2021,2020-09-26,Oldham,Crawley Town,3.19,3.19,0.0
+E3,2021,2020-09-26,Port Vale,Harrogate,3.53,3.53,0.0
+E3,2021,2020-09-26,Salford,Forest Green,3.36,3.36,0.0
+E3,2021,2020-09-26,Scunthorpe,Carlisle,3.23,3.23,0.0
+E3,2021,2020-09-26,Southend,Morecambe,3.29,3.29,0.0
+E3,2021,2020-10-03,Crawley Town,Southend,3.87,3.87,0.0
+E3,2021,2020-10-03,Exeter,Cambridge,3.5,3.5,0.0
+E3,2021,2020-10-03,Forest Green,Walsall,3.36,3.36,0.0
+E3,2021,2020-10-03,Harrogate,Bolton,3.34,3.34,0.0
+E3,2021,2020-10-03,Leyton Orient,Cheltenham,3.41,3.41,0.0
+E3,2021,2020-10-03,Morecambe,Port Vale,3.3,3.3,0.0
+E3,2021,2020-10-03,Newport County,Mansfield,3.31,3.31,0.0
+E3,2021,2020-10-03,Stevenage,Salford,3.34,3.34,0.0
+E3,2021,2020-10-03,Tranmere,Scunthorpe,3.2,3.2,0.0
+E3,2021,2020-10-03,Colchester,Oldham,3.44,3.44,0.0
+E3,2021,2020-10-03,Carlisle,Barrow,3.18,3.18,0.0
+E3,2021,2020-10-10,Bolton,Grimsby,3.4,3.4,0.0
+E3,2021,2020-10-10,Cheltenham,Crawley Town,3.49,3.49,0.0
+E3,2021,2020-10-10,Mansfield,Stevenage,3.45,3.45,0.0
+E3,2021,2020-10-10,Oldham,Morecambe,3.23,3.23,0.0
+E3,2021,2020-10-10,Port Vale,Carlisle,3.36,3.36,0.0
+E3,2021,2020-10-10,Salford,Tranmere,3.41,3.41,0.0
+E3,2021,2020-10-10,Scunthorpe,Forest Green,3.38,3.38,0.0
+E3,2021,2020-10-10,Southend,Exeter,3.49,3.49,0.0
+E3,2021,2020-10-10,Walsall,Colchester,3.27,3.27,0.0
+E3,2021,2020-10-10,Barrow,Leyton Orient,3.24,3.24,0.0
+E3,2021,2020-10-10,Cambridge,Newport County,3.13,3.13,0.0
+E3,2021,2020-10-12,Bradford,Harrogate,3.29,3.29,0.0
+E3,2021,2020-10-13,Walsall,Leyton Orient,3.41,3.41,0.0
+E3,2021,2020-10-13,Cheltenham,Grimsby,3.77,3.77,0.0
+E3,2021,2020-10-17,Port Vale,Salford,3.23,3.23,0.0
+E3,2021,2020-10-17,Bolton,Oldham,3.59,3.59,0.0
+E3,2021,2020-10-17,Carlisle,Colchester,3.29,3.29,0.0
+E3,2021,2020-10-17,Crawley Town,Morecambe,3.32,3.32,0.0
+E3,2021,2020-10-17,Forest Green,Stevenage,3.73,3.73,0.0
+E3,2021,2020-10-17,Harrogate,Barrow,3.39,3.39,0.0
+E3,2021,2020-10-17,Mansfield,Bradford,3.31,3.31,0.0
+E3,2021,2020-10-17,Newport County,Tranmere,3.11,3.11,0.0
+E3,2021,2020-10-17,Scunthorpe,Cambridge,3.26,3.26,0.0
+E3,2021,2020-10-17,Southend,Cheltenham,3.76,3.76,0.0
+E3,2021,2020-10-17,Walsall,Exeter,3.26,3.26,0.0
+E3,2021,2020-10-17,Leyton Orient,Grimsby,3.41,3.41,0.0
+E3,2021,2020-10-20,Colchester,Forest Green,3.19,3.19,0.0
+E3,2021,2020-10-20,Exeter,Crawley Town,3.7,3.7,0.0
+E3,2021,2020-10-20,Oldham,Carlisle,3.18,3.18,0.0
+E3,2021,2020-10-20,Stevenage,Newport County,3.11,3.11,0.0
+E3,2021,2020-10-20,Tranmere,Leyton Orient,3.26,3.26,0.0
+E3,2021,2020-10-20,Bradford,Walsall,3.18,3.18,0.0
+E3,2021,2020-10-20,Grimsby,Harrogate,3.41,3.41,0.0
+E3,2021,2020-10-20,Salford,Southend,4.48,4.48,0.0
+E3,2021,2020-10-20,Cheltenham,Scunthorpe,4.13,4.13,0.0
+E3,2021,2020-10-20,Morecambe,Mansfield,3.27,3.27,0.0
+E3,2021,2020-10-20,Barrow,Bolton,3.28,3.28,0.0
+E3,2021,2020-10-20,Cambridge,Port Vale,3.07,3.07,0.0
+E3,2021,2020-10-24,Bradford,Newport County,3.26,3.26,0.0
+E3,2021,2020-10-24,Cambridge,Bolton,3.41,3.41,0.0
+E3,2021,2020-10-24,Cheltenham,Mansfield,3.75,3.75,0.0
+E3,2021,2020-10-24,Colchester,Harrogate,3.41,3.41,0.0
+E3,2021,2020-10-24,Grimsby,Carlisle,3.43,3.43,0.0
+E3,2021,2020-10-24,Morecambe,Forest Green,3.48,3.48,0.0
+E3,2021,2020-10-24,Oldham,Port Vale,3.35,3.35,0.0
+E3,2021,2020-10-24,Salford,Crawley Town,3.87,3.87,0.0
+E3,2021,2020-10-24,Exeter,Scunthorpe,3.83,3.83,0.0
+E3,2021,2020-10-24,Stevenage,Leyton Orient,3.37,3.37,0.0
+E3,2021,2020-10-24,Tranmere,Southend,3.96,3.96,0.0
+E3,2021,2020-10-24,Barrow,Walsall,3.27,3.27,0.0
+E3,2021,2020-10-27,Crawley Town,Tranmere,3.19,3.19,0.0
+E3,2021,2020-10-27,Bolton,Bradford,3.34,3.34,0.0
+E3,2021,2020-10-27,Carlisle,Morecambe,3.85,3.85,0.0
+E3,2021,2020-10-27,Forest Green,Grimsby,3.82,3.82,0.0
+E3,2021,2020-10-27,Harrogate,Stevenage,3.66,3.66,0.0
+E3,2021,2020-10-27,Leyton Orient,Exeter,3.31,3.31,0.0
+E3,2021,2020-10-27,Mansfield,Barrow,3.27,3.27,0.0
+E3,2021,2020-10-27,Newport County,Colchester,3.43,3.43,0.0
+E3,2021,2020-10-27,Port Vale,Cheltenham,3.19,3.19,0.0
+E3,2021,2020-10-27,Southend,Oldham,3.45,3.45,0.0
+E3,2021,2020-10-27,Walsall,Cambridge,3.24,3.24,0.0
+E3,2021,2020-10-31,Cheltenham,Forest Green,3.24,3.24,0.0
+E3,2021,2020-10-31,Crawley Town,Cambridge,3.36,3.36,0.0
+E3,2021,2020-10-31,Leyton Orient,Bolton,3.28,3.28,0.0
+E3,2021,2020-10-31,Mansfield,Walsall,3.24,3.24,0.0
+E3,2021,2020-10-31,Newport County,Harrogate,3.38,3.38,0.0
+E3,2021,2020-10-31,Salford,Oldham,3.61,3.61,0.0
+E3,2021,2020-10-31,Southend,Port Vale,3.62,3.62,0.0
+E3,2021,2020-10-31,Stevenage,Grimsby,3.17,3.17,0.0
+E3,2021,2020-10-31,Tranmere,Morecambe,3.4,3.4,0.0
+E3,2021,2020-10-31,Barrow,Bradford,3.08,3.08,0.0
+E3,2021,2020-10-31,Exeter,Carlisle,3.21,3.21,0.0
+E3,2021,2020-11-03,Morecambe,Exeter,3.33,3.33,0.0
+E3,2021,2020-11-03,Bradford,Southend,3.92,3.92,0.0
+E3,2021,2020-11-03,Cambridge,Salford,3.3,3.3,0.0
+E3,2021,2020-11-03,Carlisle,Newport County,3.18,3.18,0.0
+E3,2021,2020-11-03,Colchester,Stevenage,3.25,3.25,0.0
+E3,2021,2020-11-03,Forest Green,Leyton Orient,3.51,3.51,0.0
+E3,2021,2020-11-03,Grimsby,Barrow,3.31,3.31,0.0
+E3,2021,2020-11-03,Harrogate,Tranmere,3.3,3.3,0.0
+E3,2021,2020-11-03,Walsall,Crawley Town,3.37,3.37,0.0
+E3,2021,2020-11-03,Bolton,Mansfield,3.25,3.25,0.0
+E3,2021,2020-11-03,Oldham,Cheltenham,3.51,3.51,0.0
+E3,2021,2020-11-13,Bolton,Salford,3.46,3.46,0.0
+E3,2021,2020-11-14,Walsall,Southend,4.18,4.18,0.0
+E3,2021,2020-11-14,Bradford,Exeter,3.32,3.32,0.0
+E3,2021,2020-11-14,Cambridge,Barrow,3.34,3.34,0.0
+E3,2021,2020-11-14,Carlisle,Cheltenham,3.24,3.24,0.0
+E3,2021,2020-11-14,Colchester,Leyton Orient,3.45,3.45,0.0
+E3,2021,2020-11-14,Forest Green,Mansfield,3.4,3.4,0.0
+E3,2021,2020-11-14,Harrogate,Crawley Town,3.32,3.32,0.0
+E3,2021,2020-11-14,Morecambe,Stevenage,3.24,3.24,0.0
+E3,2021,2020-11-14,Oldham,Scunthorpe,3.41,3.41,0.0
+E3,2021,2020-11-14,Port Vale,Tranmere,3.14,3.14,0.0
+E3,2021,2020-11-17,Port Vale,Scunthorpe,3.47,3.47,0.0
+E3,2021,2020-11-20,Mansfield,Colchester,3.34,3.34,0.0
+E3,2021,2020-11-21,Barrow,Forest Green,3.33,3.33,0.0
+E3,2021,2020-11-21,Salford,Bradford,3.53,3.53,0.0
+E3,2021,2020-11-21,Crawley Town,Carlisle,3.39,3.39,0.0
+E3,2021,2020-11-21,Scunthorpe,Morecambe,3.31,3.31,0.0
+E3,2021,2020-11-21,Stevenage,Bolton,3.23,3.23,0.0
+E3,2021,2020-11-21,Tranmere,Grimsby,3.33,3.33,0.0
+E3,2021,2020-11-21,Newport County,Port Vale,3.32,3.32,0.0
+E3,2021,2020-11-21,Cheltenham,Walsall,3.52,3.52,0.0
+E3,2021,2020-11-21,Exeter,Oldham,3.91,3.91,0.0
+E3,2021,2020-11-21,Leyton Orient,Harrogate,3.3,3.3,0.0
+E3,2021,2020-11-24,Crawley Town,Grimsby,3.37,3.37,0.0
+E3,2021,2020-11-24,Exeter,Colchester,3.41,3.41,0.0
+E3,2021,2020-11-24,Leyton Orient,Bradford,3.36,3.36,0.0
+E3,2021,2020-11-24,Mansfield,Harrogate,3.26,3.26,0.0
+E3,2021,2020-11-24,Newport County,Walsall,3.6,3.6,0.0
+E3,2021,2020-11-24,Salford,Morecambe,3.64,3.64,0.0
+E3,2021,2020-11-24,Scunthorpe,Bolton,3.22,3.22,0.0
+E3,2021,2020-11-24,Southend,Forest Green,4.26,4.26,0.0
+E3,2021,2020-11-24,Stevenage,Port Vale,3.17,3.17,0.0
+E3,2021,2020-11-24,Tranmere,Carlisle,3.2,3.2,0.0
+E3,2021,2020-11-24,Barrow,Oldham,3.43,3.43,0.0
+E3,2021,2020-11-24,Cheltenham,Cambridge,3.36,3.36,0.0
+E3,2021,2020-11-28,Port Vale,Leyton Orient,3.3,3.3,0.0
+E3,2021,2020-11-28,Bolton,Southend,3.95,3.95,0.0
+E3,2021,2020-12-01,Colchester,Crawley Town,3.36,3.36,0.0
+E3,2021,2020-12-01,Forest Green,Newport County,3.09,3.09,0.0
+E3,2021,2020-12-01,Morecambe,Barrow,3.11,3.11,0.0
+E3,2021,2020-12-01,Harrogate,Scunthorpe,3.27,3.27,0.0
+E3,2021,2020-12-01,Oldham,Tranmere,3.26,3.26,0.0
+E3,2021,2020-12-01,Grimsby,Exeter,3.5,3.5,0.0
+E3,2021,2020-12-01,Bradford,Cheltenham,3.39,3.39,0.0
+E3,2021,2020-12-02,Carlisle,Salford,3.29,3.29,0.0
+E3,2021,2020-12-02,Walsall,Stevenage,3.33,3.33,0.0
+E3,2021,2020-12-02,Cambridge,Mansfield,3.32,3.32,0.0
+E3,2021,2020-12-05,Bolton,Port Vale,3.41,3.41,0.0
+E3,2021,2020-12-05,Bradford,Carlisle,3.23,3.23,0.0
+E3,2021,2020-12-05,Cambridge,Oldham,3.45,3.45,0.0
+E3,2021,2020-12-05,Cheltenham,Exeter,3.35,3.35,0.0
+E3,2021,2020-12-05,Harrogate,Forest Green,3.44,3.44,0.0
+E3,2021,2020-12-05,Mansfield,Crawley Town,3.24,3.24,0.0
+E3,2021,2020-12-05,Newport County,Morecambe,3.82,3.82,0.0
+E3,2021,2020-12-05,Stevenage,Southend,3.52,3.52,0.0
+E3,2021,2020-12-05,Tranmere,Walsall,3.3,3.3,0.0
+E3,2021,2020-12-05,Colchester,Grimsby,3.55,3.55,0.0
+E3,2021,2020-12-05,Barrow,Salford,3.22,3.22,0.0
+E3,2021,2020-12-05,Scunthorpe,Leyton Orient,3.23,3.23,0.0
+E3,2021,2020-12-08,Grimsby,Newport County,3.51,3.51,0.0
+E3,2021,2020-12-08,Scunthorpe,Colchester,3.23,3.23,0.0
+E3,2021,2020-12-12,Exeter,Tranmere,3.55,3.55,0.0
+E3,2021,2020-12-12,Forest Green,Cambridge,3.43,3.43,0.0
+E3,2021,2020-12-12,Grimsby,Mansfield,3.31,3.31,0.0
+E3,2021,2020-12-12,Leyton Orient,Newport County,3.3,3.3,0.0
+E3,2021,2020-12-12,Morecambe,Harrogate,3.26,3.26,0.0
+E3,2021,2020-12-12,Carlisle,Stevenage,3.86,3.86,0.0
+E3,2021,2020-12-12,Port Vale,Colchester,3.49,3.49,0.0
+E3,2021,2020-12-12,Salford,Cheltenham,3.37,3.37,0.0
+E3,2021,2020-12-12,Southend,Scunthorpe,3.21,3.21,0.0
+E3,2021,2020-12-12,Walsall,Bolton,3.27,3.27,0.0
+E3,2021,2020-12-12,Oldham,Bradford,3.31,3.31,0.0
+E3,2021,2020-12-12,Crawley Town,Barrow,3.32,3.32,0.0
+E3,2021,2020-12-15,Cambridge,Colchester,3.62,3.62,0.0
+E3,2021,2020-12-15,Morecambe,Leyton Orient,3.24,3.24,0.0
+E3,2021,2020-12-15,Carlisle,Mansfield,3.61,3.61,0.0
+E3,2021,2020-12-15,Oldham,Walsall,3.2,3.2,0.0
+E3,2021,2020-12-15,Port Vale,Forest Green,3.29,3.29,0.0
+E3,2021,2020-12-15,Salford,Newport County,3.32,3.32,0.0
+E3,2021,2020-12-15,Scunthorpe,Barrow,3.18,3.18,0.0
+E3,2021,2020-12-15,Cheltenham,Bolton,3.65,3.65,0.0
+E3,2021,2020-12-15,Crawley Town,Bradford,3.44,3.44,0.0
+E3,2021,2020-12-15,Exeter,Harrogate,3.95,3.95,0.0
+E3,2021,2020-12-15,Southend,Grimsby,3.05,3.05,0.0
+E3,2021,2020-12-19,Forest Green,Carlisle,3.05,3.05,0.0
+E3,2021,2020-12-19,Grimsby,Scunthorpe,3.17,3.17,0.0
+E3,2021,2020-12-19,Harrogate,Salford,3.37,3.37,0.0
+E3,2021,2020-12-19,Leyton Orient,Crawley Town,3.5,3.5,0.0
+E3,2021,2020-12-19,Barrow,Cheltenham,3.51,3.51,0.0
+E3,2021,2020-12-19,Bolton,Tranmere,3.26,3.26,0.0
+E3,2021,2020-12-19,Mansfield,Southend,3.96,3.96,0.0
+E3,2021,2020-12-19,Newport County,Oldham,3.74,3.74,0.0
+E3,2021,2020-12-19,Walsall,Port Vale,3.32,3.32,0.0
+E3,2021,2020-12-19,Bradford,Cambridge,3.3,3.3,0.0
+E3,2021,2020-12-19,Colchester,Morecambe,3.36,3.36,0.0
+E3,2021,2020-12-22,Grimsby,Bradford,3.3,3.3,0.0
+E3,2021,2020-12-26,Scunthorpe,Mansfield,3.12,3.12,0.0
+E3,2021,2020-12-26,Southend,Colchester,3.3,3.3,0.0
+E3,2021,2020-12-26,Carlisle,Bolton,3.74,3.74,0.0
+E3,2021,2020-12-26,Cheltenham,Stevenage,3.96,3.96,0.0
+E3,2021,2020-12-26,Crawley Town,Newport County,3.36,3.36,0.0
+E3,2021,2020-12-26,Morecambe,Grimsby,3.62,3.62,0.0
+E3,2021,2020-12-26,Oldham,Harrogate,3.51,3.51,0.0
+E3,2021,2020-12-26,Port Vale,Barrow,3.33,3.33,0.0
+E3,2021,2020-12-26,Salford,Walsall,3.35,3.35,0.0
+E3,2021,2020-12-26,Tranmere,Bradford,3.31,3.31,0.0
+E3,2021,2020-12-26,Cambridge,Leyton Orient,3.27,3.27,0.0
+E3,2021,2020-12-26,Exeter,Forest Green,3.26,3.26,0.0
+E3,2021,2020-12-29,Forest Green,Crawley Town,3.67,3.67,0.0
+E3,2021,2020-12-29,Grimsby,Oldham,3.47,3.47,0.0
+E3,2021,2020-12-29,Leyton Orient,Southend,3.6,3.6,0.0
+E3,2021,2020-12-29,Walsall,Scunthorpe,3.49,3.49,0.0
+E3,2021,2020-12-29,Barrow,Tranmere,3.15,3.15,0.0
+E3,2021,2020-12-29,Colchester,Cheltenham,3.64,3.64,0.0
+E3,2021,2020-12-29,Stevenage,Cambridge,3.23,3.23,0.0
+E3,2021,2020-12-29,Bradford,Port Vale,3.23,3.23,0.0
+E3,2021,2021-01-02,Bolton,Crawley Town,3.43,3.43,0.0
+E3,2021,2021-01-02,Grimsby,Cambridge,3.42,3.42,0.0
+E3,2021,2021-01-02,Leyton Orient,Salford,3.25,3.25,0.0
+E3,2021,2021-01-02,Mansfield,Port Vale,3.22,3.22,0.0
+E3,2021,2021-01-02,Stevenage,Scunthorpe,3.27,3.27,0.0
+E3,2021,2021-01-02,Walsall,Carlisle,3.37,3.37,0.0
+E3,2021,2021-01-05,Mansfield,Salford,3.17,3.17,0.0
+E3,2021,2021-01-09,Southend,Barrow,3.38,3.38,0.0
+E3,2021,2021-01-09,Port Vale,Grimsby,3.54,3.54,0.0
+E3,2021,2021-01-09,Cambridge,Harrogate,3.22,3.22,0.0
+E3,2021,2021-01-12,Exeter,Bolton,3.71,3.71,0.0
+E3,2021,2021-01-12,Scunthorpe,Salford,3.17,3.17,0.0
+E3,2021,2021-01-13,Oldham,Mansfield,3.36,3.36,0.0
+E3,2021,2021-01-16,Colchester,Cambridge,3.42,3.42,0.0
+E3,2021,2021-01-16,Forest Green,Port Vale,3.69,3.69,0.0
+E3,2021,2021-01-16,Grimsby,Southend,3.18,3.18,0.0
+E3,2021,2021-01-16,Leyton Orient,Morecambe,3.33,3.33,0.0
+E3,2021,2021-01-16,Newport County,Salford,3.28,3.28,0.0
+E3,2021,2021-01-16,Stevenage,Tranmere,3.02,3.02,0.0
+E3,2021,2021-01-16,Walsall,Oldham,3.35,3.35,0.0
+E3,2021,2021-01-16,Bolton,Cheltenham,3.43,3.43,0.0
+E3,2021,2021-01-16,Barrow,Scunthorpe,3.37,3.37,0.0
+E3,2021,2021-01-19,Morecambe,Walsall,3.41,3.41,0.0
+E3,2021,2021-01-19,Southend,Cambridge,3.15,3.15,0.0
+E3,2021,2021-01-19,Tranmere,Forest Green,3.1,3.1,0.0
+E3,2021,2021-01-19,Cheltenham,Newport County,3.1,3.1,0.0
+E3,2021,2021-01-19,Harrogate,Exeter,3.46,3.46,0.0
+E3,2021,2021-01-22,Salford,Harrogate,3.36,3.36,0.0
+E3,2021,2021-01-23,Port Vale,Walsall,3.1,3.1,0.0
+E3,2021,2021-01-23,Exeter,Stevenage,3.71,3.71,0.0
+E3,2021,2021-01-23,Scunthorpe,Grimsby,3.17,3.17,0.0
+E3,2021,2021-01-23,Cambridge,Bradford,3.25,3.25,0.0
+E3,2021,2021-01-23,Leyton Orient,Forest Green,3.23,3.23,0.0
+E3,2021,2021-01-23,Morecambe,Colchester,3.88,3.88,0.0
+E3,2021,2021-01-23,Oldham,Newport County,3.14,3.14,0.0
+E3,2021,2021-01-23,Southend,Mansfield,3.44,3.44,0.0
+E3,2021,2021-01-23,Tranmere,Bolton,3.26,3.26,0.0
+E3,2021,2021-01-26,Exeter,Morecambe,3.55,3.55,0.0
+E3,2021,2021-01-26,Scunthorpe,Port Vale,3.0,3.0,0.0
+E3,2021,2021-01-26,Tranmere,Harrogate,3.19,3.19,0.0
+E3,2021,2021-01-26,Southend,Bradford,3.15,3.15,0.0
+E3,2021,2021-01-26,Stevenage,Colchester,3.19,3.19,0.0
+E3,2021,2021-01-26,Cheltenham,Oldham,3.33,3.33,0.0
+E3,2021,2021-01-29,Colchester,Scunthorpe,3.05,3.05,0.0
+E3,2021,2021-01-30,Harrogate,Newport County,3.15,3.15,0.0
+E3,2021,2021-01-30,Grimsby,Stevenage,3.23,3.23,0.0
+E3,2021,2021-01-30,Forest Green,Cheltenham,2.98,2.98,0.0
+E3,2021,2021-01-30,Cambridge,Crawley Town,3.22,3.22,0.0
+E3,2021,2021-01-30,Bradford,Barrow,3.19,3.19,0.0
+E3,2021,2021-01-30,Morecambe,Tranmere,3.35,3.35,0.0
+E3,2021,2021-01-30,Oldham,Salford,3.06,3.06,0.0
+E3,2021,2021-01-30,Port Vale,Southend,3.58,3.58,0.0
+E3,2021,2021-01-30,Carlisle,Exeter,3.29,3.29,0.0
+E3,2021,2021-01-30,Bolton,Leyton Orient,3.41,3.41,0.0
+E3,2021,2021-02-02,Stevenage,Exeter,3.27,3.27,0.0
+E3,2021,2021-02-02,Carlisle,Forest Green,3.57,3.57,0.0
+E3,2021,2021-02-02,Crawley Town,Leyton Orient,3.32,3.32,0.0
+E3,2021,2021-02-06,Crawley Town,Harrogate,3.25,3.25,0.0
+E3,2021,2021-02-06,Leyton Orient,Colchester,3.4,3.4,0.0
+E3,2021,2021-02-06,Newport County,Grimsby,3.51,3.51,0.0
+E3,2021,2021-02-06,Stevenage,Morecambe,3.14,3.14,0.0
+E3,2021,2021-02-06,Tranmere,Port Vale,3.43,3.43,0.0
+E3,2021,2021-02-06,Exeter,Bradford,3.36,3.36,0.0
+E3,2021,2021-02-06,Barrow,Cambridge,3.12,3.12,0.0
+E3,2021,2021-02-09,Walsall,Mansfield,3.17,3.17,0.0
+E3,2021,2021-02-09,Bolton,Morecambe,3.35,3.35,0.0
+E3,2021,2021-02-09,Newport County,Southend,3.56,3.56,0.0
+E3,2021,2021-02-09,Tranmere,Stevenage,3.27,3.27,0.0
+E3,2021,2021-02-09,Salford,Cambridge,3.18,3.18,0.0
+E3,2021,2021-02-09,Harrogate,Cheltenham,3.23,3.23,0.0
+E3,2021,2021-02-13,Bolton,Stevenage,3.49,3.49,0.0
+E3,2021,2021-02-13,Cambridge,Southend,3.54,3.54,0.0
+E3,2021,2021-02-14,Colchester,Mansfield,3.47,3.47,0.0
+E3,2021,2021-02-16,Forest Green,Oldham,3.51,3.51,0.0
+E3,2021,2021-02-16,Harrogate,Carlisle,3.24,3.24,0.0
+E3,2021,2021-02-16,Newport County,Exeter,3.11,3.11,0.0
+E3,2021,2021-02-16,Salford,Barrow,3.44,3.44,0.0
+E3,2021,2021-02-16,Walsall,Cheltenham,3.19,3.19,0.0
+E3,2021,2021-02-16,Crawley Town,Stevenage,3.11,3.11,0.0
+E3,2021,2021-02-16,Bradford,Morecambe,3.3,3.3,0.0
+E3,2021,2021-02-17,Mansfield,Bolton,3.26,3.26,0.0
+E3,2021,2021-02-20,Crawley Town,Colchester,3.34,3.34,0.0
+E3,2021,2021-02-20,Leyton Orient,Port Vale,3.08,3.08,0.0
+E3,2021,2021-02-20,Mansfield,Cambridge,3.34,3.34,0.0
+E3,2021,2021-02-20,Salford,Carlisle,3.18,3.18,0.0
+E3,2021,2021-02-20,Scunthorpe,Harrogate,3.19,3.19,0.0
+E3,2021,2021-02-20,Southend,Bolton,3.42,3.42,0.0
+E3,2021,2021-02-20,Stevenage,Walsall,3.11,3.11,0.0
+E3,2021,2021-02-20,Tranmere,Oldham,3.49,3.49,0.0
+E3,2021,2021-02-20,Cheltenham,Bradford,3.32,3.32,0.0
+E3,2021,2021-02-20,Barrow,Morecambe,3.35,3.35,0.0
+E3,2021,2021-02-21,Newport County,Forest Green,3.2,3.2,0.0
+E3,2021,2021-02-23,Bradford,Leyton Orient,3.27,3.27,0.0
+E3,2021,2021-02-23,Cambridge,Cheltenham,3.16,3.16,0.0
+E3,2021,2021-02-23,Carlisle,Tranmere,3.18,3.18,0.0
+E3,2021,2021-02-23,Colchester,Exeter,3.23,3.23,0.0
+E3,2021,2021-02-23,Grimsby,Crawley Town,3.25,3.25,0.0
+E3,2021,2021-02-23,Harrogate,Mansfield,3.08,3.08,0.0
+E3,2021,2021-02-23,Oldham,Barrow,3.43,3.43,0.0
+E3,2021,2021-02-23,Port Vale,Stevenage,3.05,3.05,0.0
+E3,2021,2021-02-23,Morecambe,Salford,3.21,3.21,0.0
+E3,2021,2021-02-23,Bolton,Scunthorpe,3.16,3.16,0.0
+E3,2021,2021-02-24,Walsall,Newport County,3.27,3.27,0.0
+E3,2021,2021-02-24,Forest Green,Southend,3.77,3.77,0.0
+E3,2021,2021-02-27,Bolton,Barrow,3.53,3.53,0.0
+E3,2021,2021-02-27,Crawley Town,Exeter,3.16,3.16,0.0
+E3,2021,2021-02-27,Carlisle,Oldham,3.47,3.47,0.0
+E3,2021,2021-02-27,Harrogate,Grimsby,3.5,3.5,0.0
+E3,2021,2021-02-27,Leyton Orient,Tranmere,3.18,3.18,0.0
+E3,2021,2021-02-27,Mansfield,Morecambe,3.41,3.41,0.0
+E3,2021,2021-02-27,Newport County,Stevenage,3.16,3.16,0.0
+E3,2021,2021-02-27,Port Vale,Cambridge,3.1,3.1,0.0
+E3,2021,2021-02-27,Scunthorpe,Cheltenham,3.18,3.18,0.0
+E3,2021,2021-02-27,Southend,Salford,3.4,3.4,0.0
+E3,2021,2021-02-27,Walsall,Bradford,3.28,3.28,0.0
+E3,2021,2021-02-27,Forest Green,Colchester,3.37,3.37,0.0
+E3,2021,2021-03-02,Colchester,Carlisle,3.33,3.33,0.0
+E3,2021,2021-03-02,Exeter,Walsall,3.51,3.51,0.0
+E3,2021,2021-03-02,Grimsby,Leyton Orient,3.16,3.16,0.0
+E3,2021,2021-03-02,Oldham,Bolton,3.41,3.41,0.0
+E3,2021,2021-03-02,Salford,Port Vale,3.3,3.3,0.0
+E3,2021,2021-03-02,Stevenage,Forest Green,3.09,3.09,0.0
+E3,2021,2021-03-02,Tranmere,Newport County,3.05,3.05,0.0
+E3,2021,2021-03-02,Bradford,Mansfield,3.1,3.1,0.0
+E3,2021,2021-03-02,Morecambe,Crawley Town,3.33,3.33,0.0
+E3,2021,2021-03-02,Barrow,Harrogate,3.12,3.12,0.0
+E3,2021,2021-03-02,Cambridge,Scunthorpe,3.04,3.04,0.0
+E3,2021,2021-03-02,Cheltenham,Southend,3.67,3.67,0.0
+E3,2021,2021-03-06,Bradford,Bolton,3.01,3.01,0.0
+E3,2021,2021-03-06,Cambridge,Walsall,3.29,3.29,0.0
+E3,2021,2021-03-06,Cheltenham,Port Vale,3.68,3.68,0.0
+E3,2021,2021-03-06,Colchester,Newport County,3.12,3.12,0.0
+E3,2021,2021-03-06,Grimsby,Forest Green,3.41,3.41,0.0
+E3,2021,2021-03-06,Morecambe,Carlisle,3.28,3.28,0.0
+E3,2021,2021-03-06,Oldham,Southend,3.31,3.31,0.0
+E3,2021,2021-03-06,Exeter,Leyton Orient,3.54,3.54,0.0
+E3,2021,2021-03-06,Salford,Scunthorpe,3.43,3.43,0.0
+E3,2021,2021-03-06,Stevenage,Harrogate,3.04,3.04,0.0
+E3,2021,2021-03-06,Tranmere,Crawley Town,3.57,3.57,0.0
+E3,2021,2021-03-06,Barrow,Mansfield,3.22,3.22,0.0
+E3,2021,2021-03-09,Southend,Tranmere,3.15,3.15,0.0
+E3,2021,2021-03-09,Bolton,Cambridge,3.31,3.31,0.0
+E3,2021,2021-03-09,Carlisle,Grimsby,3.86,3.86,0.0
+E3,2021,2021-03-09,Crawley Town,Salford,3.13,3.13,0.0
+E3,2021,2021-03-09,Forest Green,Morecambe,3.2,3.2,0.0
+E3,2021,2021-03-09,Harrogate,Colchester,3.54,3.54,0.0
+E3,2021,2021-03-09,Leyton Orient,Stevenage,2.94,2.94,0.0
+E3,2021,2021-03-09,Mansfield,Cheltenham,3.22,3.22,0.0
+E3,2021,2021-03-09,Newport County,Bradford,3.02,3.02,0.0
+E3,2021,2021-03-09,Port Vale,Oldham,3.25,3.25,0.0
+E3,2021,2021-03-09,Scunthorpe,Exeter,3.2,3.2,0.0
+E3,2021,2021-03-12,Walsall,Barrow,3.08,3.08,0.0
+E3,2021,2021-03-13,Crawley Town,Mansfield,3.32,3.32,0.0
+E3,2021,2021-03-13,Exeter,Cheltenham,3.02,3.02,0.0
+E3,2021,2021-03-13,Forest Green,Harrogate,3.13,3.13,0.0
+E3,2021,2021-03-13,Morecambe,Newport County,3.27,3.27,0.0
+E3,2021,2021-03-13,Oldham,Cambridge,3.31,3.31,0.0
+E3,2021,2021-03-13,Port Vale,Bolton,3.33,3.33,0.0
+E3,2021,2021-03-13,Southend,Stevenage,3.05,3.05,0.0
+E3,2021,2021-03-13,Grimsby,Colchester,3.08,3.08,0.0
+E3,2021,2021-03-13,Carlisle,Bradford,3.06,3.06,0.0
+E3,2021,2021-03-13,Leyton Orient,Scunthorpe,3.16,3.16,0.0
+E3,2021,2021-03-16,Mansfield,Carlisle,3.04,3.04,0.0
+E3,2021,2021-03-16,Salford,Colchester,3.59,3.59,0.0
+E3,2021,2021-03-16,Scunthorpe,Oldham,3.1,3.1,0.0
+E3,2021,2021-03-16,Port Vale,Newport County,2.96,2.96,0.0
+E3,2021,2021-03-16,Crawley Town,Walsall,3.23,3.23,0.0
+E3,2021,2021-03-16,Cheltenham,Barrow,3.16,3.16,0.0
+E3,2021,2021-03-17,Grimsby,Tranmere,3.35,3.35,0.0
+E3,2021,2021-03-20,Cambridge,Forest Green,3.13,3.13,0.0
+E3,2021,2021-03-20,Newport County,Leyton Orient,3.36,3.36,0.0
+E3,2021,2021-03-20,Stevenage,Carlisle,3.18,3.18,0.0
+E3,2021,2021-03-20,Barrow,Crawley Town,3.2,3.2,0.0
+E3,2021,2021-03-20,Bolton,Walsall,3.35,3.35,0.0
+E3,2021,2021-03-20,Bradford,Oldham,3.27,3.27,0.0
+E3,2021,2021-03-20,Cheltenham,Salford,2.96,2.96,0.0
+E3,2021,2021-03-20,Colchester,Port Vale,3.23,3.23,0.0
+E3,2021,2021-03-20,Harrogate,Morecambe,3.25,3.25,0.0
+E3,2021,2021-03-20,Mansfield,Grimsby,3.57,3.57,0.0
+E3,2021,2021-03-20,Scunthorpe,Southend,3.1,3.1,0.0
+E3,2021,2021-03-20,Tranmere,Exeter,3.09,3.09,0.0
+E3,2021,2021-03-23,Mansfield,Forest Green,3.19,3.19,0.0
+E3,2021,2021-03-23,Barrow,Grimsby,3.33,3.33,0.0
+E3,2021,2021-03-23,Oldham,Exeter,3.52,3.52,0.0
+E3,2021,2021-03-23,Colchester,Tranmere,3.17,3.17,0.0
+E3,2021,2021-03-23,Carlisle,Leyton Orient,3.31,3.31,0.0
+E3,2021,2021-03-23,Southend,Walsall,3.04,3.04,0.0
+E3,2021,2021-03-23,Scunthorpe,Bradford,3.02,3.02,0.0
+E3,2021,2021-03-27,Leyton Orient,Oldham,3.25,3.25,0.0
+E3,2021,2021-03-27,Morecambe,Cheltenham,3.21,3.21,0.0
+E3,2021,2021-03-27,Stevenage,Barrow,3.01,3.01,0.0
+E3,2021,2021-03-27,Forest Green,Bolton,3.24,3.24,0.0
+E3,2021,2021-03-27,Tranmere,Mansfield,3.14,3.14,0.0
+E3,2021,2021-03-27,Exeter,Salford,3.25,3.25,0.0
+E3,2021,2021-03-27,Carlisle,Cambridge,3.18,3.18,0.0
+E3,2021,2021-03-27,Colchester,Bradford,3.07,3.07,0.0
+E3,2021,2021-03-27,Crawley Town,Port Vale,3.23,3.23,0.0
+E3,2021,2021-03-27,Grimsby,Walsall,3.05,3.05,0.0
+E3,2021,2021-03-27,Harrogate,Southend,3.4,3.4,0.0
+E3,2021,2021-03-30,Carlisle,Crawley Town,3.31,3.31,0.0
+E3,2021,2021-04-02,Barrow,Newport County,3.06,3.06,0.0
+E3,2021,2021-04-02,Bradford,Forest Green,3.18,3.18,0.0
+E3,2021,2021-04-02,Cambridge,Morecambe,3.23,3.23,0.0
+E3,2021,2021-04-02,Cheltenham,Tranmere,3.3,3.3,0.0
+E3,2021,2021-04-02,Mansfield,Leyton Orient,3.32,3.32,0.0
+E3,2021,2021-04-02,Scunthorpe,Crawley Town,3.24,3.24,0.0
+E3,2021,2021-04-02,Port Vale,Exeter,3.27,3.27,0.0
+E3,2021,2021-04-02,Salford,Grimsby,3.39,3.39,0.0
+E3,2021,2021-04-02,Walsall,Harrogate,3.13,3.13,0.0
+E3,2021,2021-04-02,Bolton,Colchester,3.63,3.63,0.0
+E3,2021,2021-04-02,Oldham,Stevenage,3.21,3.21,0.0
+E3,2021,2021-04-03,Southend,Carlisle,3.2,3.2,0.0
+E3,2021,2021-04-05,Tranmere,Cambridge,3.28,3.28,0.0
+E3,2021,2021-04-05,Colchester,Barrow,3.01,3.01,0.0
+E3,2021,2021-04-05,Crawley Town,Oldham,3.43,3.43,0.0
+E3,2021,2021-04-05,Exeter,Mansfield,3.26,3.26,0.0
+E3,2021,2021-04-05,Forest Green,Salford,3.2,3.2,0.0
+E3,2021,2021-04-05,Grimsby,Cheltenham,3.47,3.47,0.0
+E3,2021,2021-04-05,Harrogate,Port Vale,3.13,3.13,0.0
+E3,2021,2021-04-05,Leyton Orient,Walsall,3.22,3.22,0.0
+E3,2021,2021-04-05,Newport County,Bolton,3.19,3.19,0.0
+E3,2021,2021-04-05,Stevenage,Bradford,3.12,3.12,0.0
+E3,2021,2021-04-06,Carlisle,Scunthorpe,3.46,3.46,0.0
+E3,2021,2021-04-06,Morecambe,Southend,3.5,3.5,0.0
+E3,2021,2021-04-09,Mansfield,Newport County,2.93,2.93,0.0
+E3,2021,2021-04-09,Oldham,Colchester,3.28,3.28,0.0
+E3,2021,2021-04-10,Bradford,Grimsby,3.22,3.22,0.0
+E3,2021,2021-04-10,Cambridge,Exeter,3.25,3.25,0.0
+E3,2021,2021-04-10,Cheltenham,Leyton Orient,3.44,3.44,0.0
+E3,2021,2021-04-10,Port Vale,Morecambe,3.23,3.23,0.0
+E3,2021,2021-04-10,Salford,Stevenage,3.06,3.06,0.0
+E3,2021,2021-04-10,Scunthorpe,Tranmere,3.12,3.12,0.0
+E3,2021,2021-04-10,Southend,Crawley Town,3.04,3.04,0.0
+E3,2021,2021-04-10,Walsall,Forest Green,3.01,3.01,0.0
+E3,2021,2021-04-10,Bolton,Harrogate,3.54,3.54,0.0
+E3,2021,2021-04-10,Barrow,Carlisle,3.11,3.11,0.0
+E3,2021,2021-04-13,Barrow,Exeter,3.17,3.17,0.0
+E3,2021,2021-04-13,Harrogate,Leyton Orient,3.13,3.13,0.0
+E3,2021,2021-04-13,Newport County,Carlisle,3.01,3.01,0.0
+E3,2021,2021-04-13,Salford,Bolton,3.06,3.06,0.0
+E3,2021,2021-04-13,Walsall,Tranmere,3.07,3.07,0.0
+E3,2021,2021-04-13,Bradford,Crawley Town,3.33,3.33,0.0
+E3,2021,2021-04-13,Morecambe,Scunthorpe,3.48,3.48,0.0
+E3,2021,2021-04-16,Crawley Town,Cheltenham,3.42,3.42,0.0
+E3,2021,2021-04-17,Forest Green,Scunthorpe,3.34,3.34,0.0
+E3,2021,2021-04-17,Carlisle,Port Vale,3.2,3.2,0.0
+E3,2021,2021-04-17,Exeter,Southend,3.44,3.44,0.0
+E3,2021,2021-04-17,Grimsby,Bolton,3.36,3.36,0.0
+E3,2021,2021-04-17,Harrogate,Bradford,3.21,3.21,0.0
+E3,2021,2021-04-17,Leyton Orient,Barrow,3.08,3.08,0.0
+E3,2021,2021-04-17,Morecambe,Oldham,3.56,3.56,0.0
+E3,2021,2021-04-17,Newport County,Cambridge,3.07,3.07,0.0
+E3,2021,2021-04-17,Stevenage,Mansfield,2.98,2.98,0.0
+E3,2021,2021-04-17,Tranmere,Salford,3.01,3.01,0.0
+E3,2021,2021-04-17,Colchester,Walsall,3.12,3.12,0.0
+E3,2021,2021-04-20,Grimsby,Morecambe,3.26,3.26,0.0
+E3,2021,2021-04-20,Harrogate,Oldham,3.6,3.6,0.0
+E3,2021,2021-04-20,Bradford,Tranmere,3.18,3.18,0.0
+E3,2021,2021-04-20,Barrow,Port Vale,3.07,3.07,0.0
+E3,2021,2021-04-20,Bolton,Carlisle,3.24,3.24,0.0
+E3,2021,2021-04-20,Leyton Orient,Cambridge,3.12,3.12,0.0
+E3,2021,2021-04-20,Mansfield,Scunthorpe,3.47,3.47,0.0
+E3,2021,2021-04-20,Newport County,Crawley Town,3.26,3.26,0.0
+E3,2021,2021-04-20,Stevenage,Cheltenham,3.16,3.16,0.0
+E3,2021,2021-04-20,Walsall,Salford,3.2,3.2,0.0
+E3,2021,2021-04-20,Colchester,Southend,3.04,3.04,0.0
+E3,2021,2021-04-20,Forest Green,Exeter,3.22,3.22,0.0
+E3,2021,2021-04-24,Cheltenham,Colchester,3.88,3.88,0.0
+E3,2021,2021-04-24,Crawley Town,Forest Green,3.26,3.26,0.0
+E3,2021,2021-04-24,Exeter,Newport County,3.21,3.21,0.0
+E3,2021,2021-04-24,Morecambe,Bolton,3.02,3.02,0.0
+E3,2021,2021-04-24,Oldham,Grimsby,3.46,3.46,0.0
+E3,2021,2021-04-24,Port Vale,Bradford,3.23,3.23,0.0
+E3,2021,2021-04-24,Salford,Mansfield,3.22,3.22,0.0
+E3,2021,2021-04-24,Scunthorpe,Walsall,2.92,2.92,0.0
+E3,2021,2021-04-24,Southend,Leyton Orient,3.41,3.41,0.0
+E3,2021,2021-04-24,Tranmere,Barrow,3.28,3.28,0.0
+E3,2021,2021-04-24,Cambridge,Stevenage,3.25,3.25,0.0
+E3,2021,2021-04-24,Carlisle,Harrogate,3.35,3.35,0.0
+E3,2021,2021-04-27,Forest Green,Barrow,3.32,3.32,0.0
+E3,2021,2021-04-27,Newport County,Scunthorpe,3.72,3.72,0.0
+E3,2021,2021-04-27,Bradford,Salford,3.34,3.34,0.0
+E3,2021,2021-04-27,Cheltenham,Carlisle,3.35,3.35,0.0
+E3,2021,2021-04-27,Exeter,Grimsby,3.59,3.59,0.0
+E3,2021,2021-04-30,Harrogate,Cambridge,3.39,3.39,0.0
+E3,2021,2021-05-01,Bradford,Scunthorpe,3.6,3.6,0.0
+E3,2021,2021-05-01,Colchester,Salford,3.64,3.64,0.0
+E3,2021,2021-05-01,Forest Green,Tranmere,3.19,3.19,0.0
+E3,2021,2021-05-01,Grimsby,Port Vale,3.38,3.38,0.0
+E3,2021,2021-05-01,Leyton Orient,Carlisle,3.18,3.18,0.0
+E3,2021,2021-05-01,Mansfield,Oldham,3.62,3.62,0.0
+E3,2021,2021-05-01,Newport County,Cheltenham,3.21,3.21,0.0
+E3,2021,2021-05-01,Stevenage,Crawley Town,3.23,3.23,0.0
+E3,2021,2021-05-01,Walsall,Morecambe,3.36,3.36,0.0
+E3,2021,2021-05-01,Bolton,Exeter,3.43,3.43,0.0
+E3,2021,2021-05-01,Barrow,Southend,3.33,3.33,0.0
+E3,2021,2021-05-08,Cheltenham,Harrogate,3.9,3.9,0.0
+E3,2021,2021-05-08,Crawley Town,Bolton,3.81,3.81,0.0
+E3,2021,2021-05-08,Exeter,Barrow,3.77,3.77,0.0
+E3,2021,2021-05-08,Morecambe,Bradford,3.73,3.73,0.0
+E3,2021,2021-05-08,Oldham,Forest Green,3.73,3.73,0.0
+E3,2021,2021-05-08,Port Vale,Mansfield,3.2,3.2,0.0
+E3,2021,2021-05-08,Scunthorpe,Stevenage,3.32,3.32,0.0
+E3,2021,2021-05-08,Southend,Newport County,3.3,3.3,0.0
+E3,2021,2021-05-08,Tranmere,Colchester,3.63,3.63,0.0
+E3,2021,2021-05-08,Salford,Leyton Orient,3.91,3.91,0.0
+E3,2021,2021-05-08,Cambridge,Grimsby,3.94,3.94,0.0
+E3,2021,2021-05-08,Carlisle,Walsall,3.52,3.52,0.0

@@ -1,5 +1,10 @@
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Badge } from '@/components/ui/badge';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Loader2, AlertTriangle, Activity } from 'lucide-react';
 import {
   BarChart,
   Bar,
@@ -9,41 +14,22 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-import type { ModelHealth as ModelHealthType, ModelStatus } from '@/types';
+import apiClient from '@/services/api';
+import { useToast } from '@/hooks/use-toast';
 
-// Mock data
-const mockHealth: ModelHealthType = {
-  status: 'stable',
-  lastValidationDate: '2024-12-27T10:30:00Z',
-  oddsDistribution: [
-    { bucket: '-10 to -5', divergence: 12 },
-    { bucket: '-5 to -2', divergence: 28 },
-    { bucket: '-2 to 0', divergence: 35 },
-    { bucket: '0 to 2', divergence: 38 },
-    { bucket: '2 to 5', divergence: 25 },
-    { bucket: '5 to 10', divergence: 15 },
-  ],
-  leagueDrift: [
-    { league: 'Premier League', driftScore: 0.023, signal: 'normal' },
-    { league: 'La Liga', driftScore: 0.018, signal: 'normal' },
-    { league: 'Bundesliga', driftScore: 0.041, signal: 'elevated' },
-    { league: 'Serie A', driftScore: 0.029, signal: 'normal' },
-    { league: 'Ligue 1', driftScore: 0.034, signal: 'normal' },
-  ],
-};
-
-function StatusBadge({ status }: { status: ModelStatus }) {
-  const variants: Record<ModelStatus, { label: string; className: string }> = {
+function StatusBadge({ status }: { status: string }) {
+  const variants: Record<string, { label: string; className: string }> = {
     stable: { label: 'Stable', className: 'status-stable' },
     watch: { label: 'Watch', className: 'status-watch' },
     degraded: { label: 'Degraded', className: 'status-degraded' },
+    no_model: { label: 'No Model', className: 'status-degraded' },
   };
   
-  const { label, className } = variants[status];
+  const variant = variants[status] || { label: status, className: 'bg-muted' };
   
   return (
-    <Badge variant="outline" className={`${className} font-medium`}>
-      {label}
+    <Badge variant="outline" className={`${variant.className} font-medium`}>
+      {variant.label}
     </Badge>
   );
 }
@@ -65,17 +51,101 @@ function DriftSignalBadge({ signal }: { signal: 'normal' | 'elevated' | 'high' }
 }
 
 export default function ModelHealth() {
-  const health = mockHealth;
-  const lastValidation = new Date(health.lastValidationDate);
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [health, setHealth] = useState<{
+    status: string;
+    lastChecked: string;
+    lastValidationDate: string | null;
+    metrics: {
+      brierScore: number | null;
+      logLoss: number | null;
+      accuracy: number | null;
+    };
+    alerts: string[];
+    driftIndicators: Array<{
+      league: string;
+      driftScore: number;
+      signal: 'normal' | 'elevated' | 'high';
+      accuracy: number;
+      matches: number;
+    }>;
+    oddsDistribution: Array<{
+      bucket: string;
+      divergence: number;
+    }>;
+    leagueDrift: Array<{
+      league: string;
+      driftScore: number;
+      signal: 'normal' | 'elevated' | 'high';
+      accuracy: number;
+      matches: number;
+    }>;
+  } | null>(null);
+
+  useEffect(() => {
+    const fetchHealth = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await apiClient.getModelHealth();
+        
+        if (response.success && response.data) {
+          setHealth(response.data);
+        } else {
+          throw new Error('Failed to load model health data');
+        }
+      } catch (err: any) {
+        console.error('Error fetching model health:', err);
+        setError(err.message || 'Failed to load model health data');
+        toast({
+          title: 'Error',
+          description: 'Failed to load model health data.',
+          variant: 'destructive',
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchHealth();
+  }, [toast]);
+
+  if (loading) {
+    return (
+      <div className="p-6 flex items-center justify-center min-h-[400px]">
+        <div className="flex flex-col items-center gap-4">
+          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+          <p className="text-muted-foreground">Loading model health data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !health) {
+    return (
+      <div className="p-6">
+        <Alert variant="destructive">
+          <AlertTriangle className="h-4 w-4" />
+          <AlertDescription>
+            {error || 'Failed to load model health data'}
+          </AlertDescription>
+        </Alert>
+      </div>
+    );
+  }
+
+  const lastValidation = health.lastValidationDate 
+    ? new Date(health.lastValidationDate)
+    : null;
 
   return (
-    <div className="p-6 space-y-6">
-      <div>
-        <h1 className="text-2xl font-semibold text-foreground">Model Health & Stability</h1>
-        <p className="text-sm text-muted-foreground mt-1">
-          Monitor model performance and detect drift
-        </p>
-      </div>
+    <PageLayout
+      title="Model Health & Stability"
+      description="Monitor model performance and detect drift across leagues"
+      icon={<Activity className="h-6 w-6" />}
+    >
 
       {/* Status Overview */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -85,7 +155,7 @@ export default function ModelHealth() {
           </CardHeader>
           <CardContent>
             <div className="flex items-center gap-3">
-              <StatusBadge status={health.status} />
+              <StatusBadge status={health.status as string} />
               <span className="text-sm text-muted-foreground">
                 All systems operating normally
               </span>
@@ -99,17 +169,21 @@ export default function ModelHealth() {
           </CardHeader>
           <CardContent>
             <div className="text-lg font-medium tabular-nums">
-              {lastValidation.toLocaleDateString('en-US', { 
-                month: 'short', 
-                day: 'numeric',
-                year: 'numeric'
-              })}
+              {lastValidation 
+                ? lastValidation.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric',
+                    year: 'numeric'
+                  })
+                : 'Never'}
             </div>
             <div className="text-sm text-muted-foreground">
-              {lastValidation.toLocaleTimeString('en-US', { 
-                hour: '2-digit',
-                minute: '2-digit'
-              })}
+              {lastValidation 
+                ? lastValidation.toLocaleTimeString('en-US', { 
+                    hour: '2-digit',
+                    minute: '2-digit'
+                  })
+                : 'No validation data available'}
             </div>
           </CardContent>
         </Card>
@@ -139,22 +213,28 @@ export default function ModelHealth() {
         </CardHeader>
         <CardContent>
           <div className="h-[250px]">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={health.oddsDistribution} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                <XAxis dataKey="bucket" className="text-xs" />
-                <YAxis className="text-xs" />
-                <Tooltip 
-                  formatter={(value: number) => [value, 'Fixtures']}
-                  labelFormatter={(label) => `Divergence: ${label}%`}
-                />
-                <Bar 
-                  dataKey="divergence" 
-                  fill="hsl(var(--chart-1))" 
-                  radius={[4, 4, 0, 0]}
-                />
-              </BarChart>
-            </ResponsiveContainer>
+            {health.oddsDistribution.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={health.oddsDistribution} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
+                  <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+                  <XAxis dataKey="bucket" className="text-xs" />
+                  <YAxis className="text-xs" />
+                  <Tooltip 
+                    formatter={(value: number) => [value, 'Fixtures']}
+                    labelFormatter={(label) => `Divergence: ${label}%`}
+                  />
+                  <Bar 
+                    dataKey="divergence" 
+                    fill="hsl(var(--chart-1))" 
+                    radius={[4, 4, 0, 0]}
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="flex items-center justify-center h-full text-muted-foreground">
+                <p>No odds divergence data available</p>
+              </div>
+            )}
           </div>
           <p className="text-xs text-muted-foreground mt-4 text-center">
             A symmetric distribution centered near zero indicates good alignment with market consensus
@@ -172,7 +252,7 @@ export default function ModelHealth() {
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
-            {health.leagueDrift.map((league) => (
+            {health.leagueDrift.length > 0 ? health.leagueDrift.map((league) => (
               <div key={league.league} className="flex items-center justify-between py-2 border-b last:border-0">
                 <div className="flex items-center gap-4">
                   <span className="font-medium text-sm w-36">{league.league}</span>
@@ -194,10 +274,29 @@ export default function ModelHealth() {
                 </div>
                 <DriftSignalBadge signal={league.signal} />
               </div>
-            ))}
+            )) : (
+              <div className="text-center py-8 text-muted-foreground">
+                <p>No league drift data available</p>
+                <p className="text-xs mt-2">Run validation on completed jackpots to see drift signals</p>
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>
+
+      {/* Alerts */}
+      {health.alerts.length > 0 && (
+        <Alert variant={health.status === 'degraded' ? 'destructive' : 'default'}>
+          <AlertTriangle className="h-4 w-4" />
+          <AlertDescription>
+            <div className="space-y-1">
+              {health.alerts.map((alert, idx) => (
+                <p key={idx}>{alert}</p>
+              ))}
+            </div>
+          </AlertDescription>
+        </Alert>
+      )}
 
       <Card className="bg-muted/30">
         <CardContent className="pt-6">
@@ -208,6 +307,6 @@ export default function ModelHealth() {
           </p>
         </CardContent>
       </Card>
-    </div>
+    </PageLayout>
   );
 }

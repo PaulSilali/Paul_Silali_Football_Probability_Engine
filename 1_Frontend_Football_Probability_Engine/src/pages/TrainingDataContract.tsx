@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { 
   CheckCircle2, 
   XCircle, 
@@ -105,13 +107,11 @@ export default function TrainingDataContract() {
   ];
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-col gap-2">
-        <h1 className="text-3xl font-bold tracking-tight">Training Data Contract</h1>
-        <p className="text-muted-foreground">
-          Formal specification of data requirements for the Football Jackpot Probability Engine
-        </p>
-      </div>
+    <PageLayout
+      title="Training Data Contract"
+      description="Formal specification of data requirements for the Football Jackpot Probability Engine"
+      icon={<FileText className="h-6 w-6" />}
+    >
 
       {/* Quick Summary */}
       <Card className="border-primary/30 bg-primary/5">
@@ -323,6 +323,6 @@ export default function TrainingDataContract() {
           </div>
         </CardContent>
       </Card>
-    </div>
+    </PageLayout>
   );
 }

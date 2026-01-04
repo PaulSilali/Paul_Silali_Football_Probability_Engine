@@ -65,6 +65,7 @@ class League(Base):
     
     teams = relationship("Team", back_populates="league")
     matches = relationship("Match", back_populates="league")
+    league_stats = relationship("LeagueStats", back_populates="league")
 
 
 class Team(Base):
@@ -128,6 +129,7 @@ class Match(Base):
     __table_args__ = (
         UniqueConstraint('home_team_id', 'away_team_id', 'match_date', name='uix_match'),
         Index('idx_matches_date', 'match_date'),
+        Index('idx_matches_teams', 'home_team_id', 'away_team_id'),
         Index('idx_matches_league_season', 'league_id', 'season'),
     )
 
@@ -163,6 +165,31 @@ class TeamFeature(Base):
     
     __table_args__ = (
         Index('idx_team_features_lookup', 'team_id', 'calculated_at'),
+    )
+
+
+class LeagueStats(Base):
+    """League-level baseline statistics per season"""
+    __tablename__ = "league_stats"
+    
+    id = Column(Integer, primary_key=True)
+    league_id = Column(Integer, ForeignKey("leagues.id", ondelete="CASCADE"), nullable=False)
+    season = Column(String, nullable=False)
+    calculated_at = Column(DateTime, nullable=False)
+    
+    total_matches = Column(Integer, nullable=False)
+    home_win_rate = Column(Float, nullable=False)
+    draw_rate = Column(Float, nullable=False)
+    away_win_rate = Column(Float, nullable=False)
+    avg_goals_per_match = Column(Float, nullable=False)
+    home_advantage_factor = Column(Float, nullable=False)
+    
+    created_at = Column(DateTime, server_default=func.now())
+    
+    league = relationship("League", back_populates="league_stats")
+    
+    __table_args__ = (
+        UniqueConstraint('league_id', 'season', name='uix_league_stats'),
     )
 
 
@@ -232,6 +259,11 @@ class TrainingRun(Base):
     alpha_mean = Column(Float)
     
     created_at = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        Index('idx_training_runs_entropy', 'avg_entropy'),
+        Index('idx_training_runs_temperature', 'temperature'),
+    )
 
 
 # ============================================================================
@@ -272,6 +304,7 @@ class JackpotFixture(Base):
     home_team_id = Column(Integer, ForeignKey("teams.id"))
     away_team_id = Column(Integer, ForeignKey("teams.id"))
     league_id = Column(Integer, ForeignKey("leagues.id"))
+    referee_id = Column(Integer, ForeignKey("referee_stats.referee_id"))
     
     # Actual result (for validation)
     actual_result = Column(Enum(MatchResult, name='match_result', create_type=False))
@@ -371,6 +404,7 @@ class Prediction(Base):
     __table_args__ = (
         Index('idx_predictions_fixture', 'fixture_id'),
         Index('idx_predictions_set', 'set_type'),
+        Index('idx_predictions_model', 'model_id'),
         CheckConstraint(
             'abs((prob_home + prob_draw + prob_away) - 1.0) < 0.001',
             name='check_prob_sum'
@@ -407,6 +441,16 @@ class ValidationResult(Base):
     exported_to_training = Column(Boolean, default=False)
     exported_at = Column(DateTime)
     created_at = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        Index('idx_validation_results_jackpot', 'jackpot_id'),
+        Index('idx_validation_results_model', 'model_id'),
+    )
+    
+    __table_args__ = (
+        Index('idx_validation_results_jackpot', 'jackpot_id'),
+        Index('idx_validation_results_model', 'model_id'),
+    )
 
 
 class CalibrationData(Base):
@@ -524,5 +568,149 @@ class AuditEntry(Base):
     __table_args__ = (
         Index('idx_audit_timestamp', 'timestamp'),
         Index('idx_audit_jackpot', 'jackpot_id'),
+        Index('idx_audit_user', 'user_id'),
+    )
+
+
+# ============================================================================
+# DRAW STRUCTURAL MODELING TABLES
+# ============================================================================
+
+class LeagueDrawPrior(Base):
+    """League-level draw priors for structural draw modeling"""
+    __tablename__ = "league_draw_priors"
+    
+    id = Column(Integer, primary_key=True)
+    league_id = Column(Integer, ForeignKey("leagues.id", ondelete="CASCADE"), nullable=False)
+    season = Column(String(20), nullable=False)
+    draw_rate = Column(Float, nullable=False)
+    sample_size = Column(Integer, nullable=False)
+    updated_at = Column(DateTime, server_default=func.now())
+    
+    league = relationship("League")
+    
+    __table_args__ = (
+        UniqueConstraint('league_id', 'season', name='uix_league_draw_prior'),
+        Index('idx_league_draw_priors_league', 'league_id'),
+        Index('idx_league_draw_priors_season', 'season'),
+    )
+
+
+class H2HDrawStats(Base):
+    """Head-to-head statistics specifically for draw probability modeling"""
+    __tablename__ = "h2h_draw_stats"
+    
+    id = Column(Integer, primary_key=True)
+    team_home_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    team_away_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    matches_played = Column(Integer, nullable=False, default=0)
+    draw_count = Column(Integer, nullable=False, default=0)
+    avg_goals = Column(Float)
+    last_updated = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        UniqueConstraint('team_home_id', 'team_away_id', name='uix_h2h_draw_pair'),
+        Index('idx_h2h_draw_pair', 'team_home_id', 'team_away_id'),
+    )
+
+
+class TeamElo(Base):
+    """Team Elo ratings over time for draw symmetry modeling"""
+    __tablename__ = "team_elo"
+    
+    id = Column(Integer, primary_key=True)
+    team_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    date = Column(Date, nullable=False)
+    elo_rating = Column(Float, nullable=False)
+    created_at = Column(DateTime, server_default=func.now())
+    
+    team = relationship("Team")
+    
+    __table_args__ = (
+        UniqueConstraint('team_id', 'date', name='uix_team_elo_date'),
+        Index('idx_team_elo_team_date', 'team_id', 'date'),
+        Index('idx_team_elo_date', 'date'),
+    )
+
+
+class MatchWeather(Base):
+    """Weather conditions at match time for draw probability adjustment"""
+    __tablename__ = "match_weather"
+    
+    id = Column(Integer, primary_key=True)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
+    temperature = Column(Float)
+    rainfall = Column(Float)
+    wind_speed = Column(Float)
+    weather_draw_index = Column(Float)
+    recorded_at = Column(DateTime, server_default=func.now())
+    
+    fixture = relationship("JackpotFixture")
+    
+    __table_args__ = (
+        UniqueConstraint('fixture_id', name='uix_match_weather_fixture'),
+        Index('idx_match_weather_fixture', 'fixture_id'),
+        Index('idx_match_weather_index', 'weather_draw_index'),
+    )
+
+
+class RefereeStats(Base):
+    """Referee behavioral statistics for draw probability adjustment"""
+    __tablename__ = "referee_stats"
+    
+    id = Column(Integer, primary_key=True)
+    referee_id = Column(Integer, unique=True, nullable=False)
+    referee_name = Column(String(200))
+    matches = Column(Integer, nullable=False, default=0)
+    avg_cards = Column(Float)
+    avg_penalties = Column(Float)
+    draw_rate = Column(Float)
+    updated_at = Column(DateTime, server_default=func.now())
+    
+    __table_args__ = (
+        Index('idx_referee_stats_id', 'referee_id'),
+        Index('idx_referee_stats_draw_rate', 'draw_rate'),
+    )
+
+
+class TeamRestDays(Base):
+    """Team rest days and congestion data for fatigue-based draw adjustment"""
+    __tablename__ = "team_rest_days"
+    
+    id = Column(Integer, primary_key=True)
+    team_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
+    rest_days = Column(Integer, nullable=False)
+    is_midweek = Column(Boolean, nullable=False, default=False)
+    created_at = Column(DateTime, server_default=func.now())
+    
+    team = relationship("Team")
+    fixture = relationship("JackpotFixture")
+    
+    __table_args__ = (
+        UniqueConstraint('team_id', 'fixture_id', name='uix_team_rest_fixture'),
+        Index('idx_team_rest_team', 'team_id'),
+        Index('idx_team_rest_fixture', 'fixture_id'),
+        Index('idx_team_rest_days', 'rest_days'),
+    )
+
+
+class OddsMovement(Base):
+    """Odds movement data for draw probability adjustment"""
+    __tablename__ = "odds_movement"
+    
+    id = Column(Integer, primary_key=True)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
+    draw_open = Column(Float)
+    draw_close = Column(Float)
+    draw_delta = Column(Float)
+    recorded_at = Column(DateTime, server_default=func.now())
+    
+    fixture = relationship("JackpotFixture")
+    
+    __table_args__ = (
+        UniqueConstraint('fixture_id', name='uix_odds_movement_fixture'),
+        Index('idx_odds_movement_fixture', 'fixture_id'),
+        Index('idx_odds_movement_delta', 'draw_delta'),
     )
 

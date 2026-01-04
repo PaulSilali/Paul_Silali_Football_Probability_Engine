@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+E1,2122,2021-08-06,Bournemouth,West Brom,3.32,3.32,0.0
+E1,2122,2021-08-07,Blackburn,Swansea,3.29,3.29,0.0
+E1,2122,2021-08-07,Cardiff,Burnley,3.18,3.18,0.0
+E1,2122,2021-08-07,Sheffield United,Birmingham,3.45,3.45,0.0
+E1,2122,2021-08-07,Stoke,Reading,3.25,3.25,0.0
+E1,2122,2021-08-07,QPR,Millwall,3.33,3.33,0.0
+E1,2122,2021-08-07,Preston,Hull,3.27,3.27,0.0
+E1,2122,2021-08-07,Luton,Peterboro,3.42,3.42,0.0
+E1,2122,2021-08-07,Derby,Huddersfield,3.73,3.73,0.0
+E1,2122,2021-08-07,Bristol City,Blackpool,3.32,3.32,0.0
+E1,2122,2021-08-08,Coventry,Nott'm Forest,3.08,3.08,0.0
+E1,2122,2021-08-08,Fulham,Middlesbrough,3.45,3.45,0.0
+E1,2122,2021-08-14,Huddersfield,Fulham,3.42,3.42,0.0
+E1,2122,2021-08-14,Hull,QPR,3.21,3.21,0.0
+E1,2122,2021-08-14,Middlesbrough,Bristol City,3.45,3.45,0.0
+E1,2122,2021-08-14,Millwall,Blackburn,3.17,3.17,0.0
+E1,2122,2021-08-14,Nott'm Forest,Bournemouth,3.29,3.29,0.0
+E1,2122,2021-08-14,Reading,Preston,3.31,3.31,0.0
+E1,2122,2021-08-14,West Brom,Luton,3.84,3.84,0.0
+E1,2122,2021-08-14,Swansea,Sheffield United,3.18,3.18,0.0
+E1,2122,2021-08-14,Blackpool,Cardiff,3.19,3.19,0.0
+E1,2122,2021-08-14,Birmingham,Stoke,3.05,3.05,0.0
+E1,2122,2021-08-14,Peterboro,Derby,3.28,3.28,0.0
+E1,2122,2021-08-14,Burnley,Coventry,3.27,3.27,0.0
+E1,2122,2021-08-17,Peterboro,Cardiff,3.17,3.17,0.0
+E1,2122,2021-08-17,Swansea,Stoke,3.08,3.08,0.0
+E1,2122,2021-08-17,Reading,Bristol City,3.17,3.17,0.0
+E1,2122,2021-08-17,Burnley,Luton,3.2,3.2,0.0
+E1,2122,2021-08-17,Blackpool,Coventry,3.15,3.15,0.0
+E1,2122,2021-08-17,Huddersfield,Preston,3.15,3.15,0.0
+E1,2122,2021-08-17,Millwall,Fulham,3.08,3.08,0.0
+E1,2122,2021-08-18,Nott'm Forest,Blackburn,3.24,3.24,0.0
+E1,2122,2021-08-18,Birmingham,Bournemouth,3.2,3.2,0.0
+E1,2122,2021-08-18,Hull,Derby,3.55,3.55,0.0
+E1,2122,2021-08-18,Middlesbrough,QPR,3.18,3.18,0.0
+E1,2122,2021-08-18,West Brom,Sheffield United,3.37,3.37,0.0
+E1,2122,2021-08-20,Bristol City,Swansea,3.19,3.19,0.0
+E1,2122,2021-08-21,Coventry,Reading,3.35,3.35,0.0
+E1,2122,2021-08-21,Derby,Middlesbrough,3.17,3.17,0.0
+E1,2122,2021-08-21,Fulham,Hull,4.63,4.63,0.0
+E1,2122,2021-08-21,Luton,Birmingham,3.34,3.34,0.0
+E1,2122,2021-08-21,Preston,Peterboro,3.25,3.25,0.0
+E1,2122,2021-08-21,Sheffield United,Huddersfield,3.79,3.79,0.0
+E1,2122,2021-08-21,Stoke,Nott'm Forest,3.38,3.38,0.0
+E1,2122,2021-08-21,Cardiff,Millwall,3.09,3.09,0.0
+E1,2122,2021-08-21,Bournemouth,Blackpool,3.73,3.73,0.0
+E1,2122,2021-08-21,Blackburn,West Brom,3.4,3.4,0.0
+E1,2122,2021-08-21,QPR,Burnley,3.41,3.41,0.0
+E1,2122,2021-08-28,Fulham,Stoke,3.34,3.34,0.0
+E1,2122,2021-08-28,Hull,Bournemouth,3.3,3.3,0.0
+E1,2122,2021-08-28,Luton,Sheffield United,3.2,3.2,0.0
+E1,2122,2021-08-28,Middlesbrough,Blackburn,3.26,3.26,0.0
+E1,2122,2021-08-28,Millwall,Blackpool,3.47,3.47,0.0
+E1,2122,2021-08-28,Preston,Swansea,3.29,3.29,0.0
+E1,2122,2021-08-28,QPR,Coventry,3.31,3.31,0.0
+E1,2122,2021-08-28,Peterboro,West Brom,3.71,3.71,0.0
+E1,2122,2021-08-28,Huddersfield,Reading,3.27,3.27,0.0
+E1,2122,2021-08-28,Cardiff,Bristol City,3.37,3.37,0.0
+E1,2122,2021-08-28,Derby,Nott'm Forest,2.99,2.99,0.0
+E1,2122,2021-08-28,Burnley,Birmingham,3.19,3.19,0.0
+E1,2122,2021-09-10,Birmingham,Derby,3.29,3.29,0.0
+E1,2122,2021-09-11,West Brom,Millwall,4.03,4.03,0.0
+E1,2122,2021-09-11,Blackburn,Luton,3.34,3.34,0.0
+E1,2122,2021-09-11,Blackpool,Fulham,4.03,4.03,0.0
+E1,2122,2021-09-11,Bournemouth,Burnley,3.46,3.46,0.0
+E1,2122,2021-09-11,Bristol City,Preston,3.22,3.22,0.0
+E1,2122,2021-09-11,Coventry,Middlesbrough,3.21,3.21,0.0
+E1,2122,2021-09-11,Reading,QPR,3.4,3.4,0.0
+E1,2122,2021-09-11,Sheffield United,Peterboro,3.81,3.81,0.0
+E1,2122,2021-09-11,Stoke,Huddersfield,3.55,3.55,0.0
+E1,2122,2021-09-11,Swansea,Hull,3.38,3.38,0.0
+E1,2122,2021-09-12,Nott'm Forest,Cardiff,3.08,3.08,0.0
+E1,2122,2021-09-14,Blackpool,Huddersfield,3.17,3.17,0.0
+E1,2122,2021-09-14,Bournemouth,QPR,3.65,3.65,0.0
+E1,2122,2021-09-14,Blackburn,Hull,3.53,3.53,0.0
+E1,2122,2021-09-14,Reading,Peterboro,3.44,3.44,0.0
+E1,2122,2021-09-14,West Brom,Derby,4.08,4.08,0.0
+E1,2122,2021-09-14,Sheffield United,Preston,3.38,3.38,0.0
+E1,2122,2021-09-15,Bristol City,Luton,3.14,3.14,0.0
+E1,2122,2021-09-15,Coventry,Cardiff,3.19,3.19,0.0
+E1,2122,2021-09-15,Nott'm Forest,Middlesbrough,2.98,2.98,0.0
+E1,2122,2021-09-15,Stoke,Burnley,3.49,3.49,0.0
+E1,2122,2021-09-15,Swansea,Millwall,3.07,3.07,0.0
+E1,2122,2021-09-15,Birmingham,Fulham,3.14,3.14,0.0
+E1,2122,2021-09-18,Derby,Stoke,3.13,3.13,0.0
+E1,2122,2021-09-18,Huddersfield,Nott'm Forest,3.34,3.34,0.0
+E1,2122,2021-09-18,Luton,Swansea,3.33,3.33,0.0
+E1,2122,2021-09-18,Middlesbrough,Blackpool,3.43,3.43,0.0
+E1,2122,2021-09-18,Millwall,Coventry,3.09,3.09,0.0
+E1,2122,2021-09-18,Peterboro,Birmingham,3.32,3.32,0.0
+E1,2122,2021-09-18,Preston,West Brom,3.53,3.53,0.0
+E1,2122,2021-09-18,QPR,Bristol City,3.7,3.7,0.0
+E1,2122,2021-09-18,Hull,Sheffield United,3.24,3.24,0.0
+E1,2122,2021-09-18,Fulham,Reading,4.95,4.95,0.0
+E1,2122,2021-09-18,Cardiff,Bournemouth,3.27,3.27,0.0
+E1,2122,2021-09-18,Burnley,Blackburn,3.12,3.12,0.0
+E1,2122,2021-09-24,Coventry,Peterboro,3.91,3.91,0.0
+E1,2122,2021-09-24,West Brom,QPR,3.93,3.93,0.0
+E1,2122,2021-09-25,Birmingham,Preston,3.26,3.26,0.0
+E1,2122,2021-09-25,Reading,Middlesbrough,3.21,3.21,0.0
+E1,2122,2021-09-25,Blackburn,Cardiff,3.34,3.34,0.0
+E1,2122,2021-09-25,Blackpool,Burnley,3.24,3.24,0.0
+E1,2122,2021-09-25,Bournemouth,Luton,3.99,3.99,0.0
+E1,2122,2021-09-25,Bristol City,Fulham,3.62,3.62,0.0
+E1,2122,2021-09-25,Nott'm Forest,Millwall,3.06,3.06,0.0
+E1,2122,2021-09-25,Sheffield United,Derby,3.72,3.72,0.0
+E1,2122,2021-09-25,Stoke,Hull,3.82,3.82,0.0
+E1,2122,2021-09-25,Swansea,Huddersfield,3.13,3.13,0.0
+E1,2122,2021-09-28,Preston,Stoke,3.07,3.07,0.0
+E1,2122,2021-09-28,QPR,Birmingham,3.5,3.5,0.0
+E1,2122,2021-09-28,Middlesbrough,Sheffield United,3.04,3.04,0.0
+E1,2122,2021-09-28,Hull,Blackpool,3.2,3.2,0.0
+E1,2122,2021-09-28,Huddersfield,Blackburn,3.25,3.25,0.0
+E1,2122,2021-09-28,Cardiff,West Brom,3.48,3.48,0.0
+E1,2122,2021-09-29,Millwall,Bristol City,3.18,3.18,0.0
+E1,2122,2021-09-29,Peterboro,Bournemouth,3.7,3.7,0.0
+E1,2122,2021-09-29,Burnley,Nott'm Forest,2.98,2.98,0.0
+E1,2122,2021-09-29,Derby,Reading,3.19,3.19,0.0
+E1,2122,2021-09-29,Fulham,Swansea,4.67,4.67,0.0
+E1,2122,2021-09-29,Luton,Coventry,3.16,3.16,0.0
+E1,2122,2021-10-01,Stoke,West Brom,3.19,3.19,0.0
+E1,2122,2021-10-02,Bournemouth,Sheffield United,3.44,3.44,0.0
+E1,2122,2021-10-02,Cardiff,Reading,3.53,3.53,0.0
+E1,2122,2021-10-02,Derby,Swansea,3.09,3.09,0.0
+E1,2122,2021-10-02,Hull,Middlesbrough,3.17,3.17,0.0
+E1,2122,2021-10-02,Luton,Huddersfield,3.41,3.41,0.0
+E1,2122,2021-10-02,Peterboro,Bristol City,3.27,3.27,0.0
+E1,2122,2021-10-02,QPR,Preston,3.46,3.46,0.0
+E1,2122,2021-10-02,Birmingham,Nott'm Forest,3.16,3.16,0.0
+E1,2122,2021-10-02,Blackpool,Blackburn,3.3,3.3,0.0
+E1,2122,2021-10-02,Coventry,Fulham,3.6,3.6,0.0
+E1,2122,2021-10-02,Burnley,Millwall,3.03,3.03,0.0
+E1,2122,2021-10-15,West Brom,Birmingham,3.92,3.92,0.0
+E1,2122,2021-10-16,Sheffield United,Stoke,3.27,3.27,0.0
+E1,2122,2021-10-16,Fulham,QPR,4.2,4.2,0.0
+E1,2122,2021-10-16,Blackburn,Coventry,3.23,3.23,0.0
+E1,2122,2021-10-16,Bristol City,Bournemouth,3.5,3.5,0.0
+E1,2122,2021-10-16,Huddersfield,Hull,3.4,3.4,0.0
+E1,2122,2021-10-16,Middlesbrough,Peterboro,3.6,3.6,0.0
+E1,2122,2021-10-16,Millwall,Luton,3.22,3.22,0.0
+E1,2122,2021-10-16,Nott'm Forest,Blackpool,3.37,3.37,0.0
+E1,2122,2021-10-16,Preston,Derby,3.18,3.18,0.0
+E1,2122,2021-10-16,Reading,Burnley,3.28,3.28,0.0
+E1,2122,2021-10-17,Swansea,Cardiff,3.12,3.12,0.0
+E1,2122,2021-10-19,QPR,Blackburn,3.51,3.51,0.0
+E1,2122,2021-10-19,Sheffield United,Millwall,3.47,3.47,0.0
+E1,2122,2021-10-19,Derby,Luton,3.12,3.12,0.0
+E1,2122,2021-10-19,Stoke,Bournemouth,3.16,3.16,0.0
+E1,2122,2021-10-19,Bristol City,Nott'm Forest,3.21,3.21,0.0
+E1,2122,2021-10-20,Reading,Blackpool,3.35,3.35,0.0
+E1,2122,2021-10-20,Middlesbrough,Burnley,3.42,3.42,0.0
+E1,2122,2021-10-20,Swansea,West Brom,3.3,3.3,0.0
+E1,2122,2021-10-20,Preston,Coventry,3.21,3.21,0.0
+E1,2122,2021-10-20,Hull,Peterboro,3.38,3.38,0.0
+E1,2122,2021-10-20,Huddersfield,Birmingham,3.18,3.18,0.0
+E1,2122,2021-10-20,Fulham,Cardiff,4.4,4.4,0.0
+E1,2122,2021-10-23,Bournemouth,Huddersfield,3.87,3.87,0.0
+E1,2122,2021-10-23,Birmingham,Swansea,3.07,3.07,0.0
+E1,2122,2021-10-23,Blackburn,Reading,3.54,3.54,0.0
+E1,2122,2021-10-23,Blackpool,Preston,3.18,3.18,0.0
+E1,2122,2021-10-23,Cardiff,Middlesbrough,3.12,3.12,0.0
+E1,2122,2021-10-23,Coventry,Derby,3.31,3.31,0.0
+E1,2122,2021-10-23,Luton,Hull,3.55,3.55,0.0
+E1,2122,2021-10-23,Millwall,Stoke,3.06,3.06,0.0
+E1,2122,2021-10-23,Peterboro,QPR,3.63,3.63,0.0
+E1,2122,2021-10-23,West Brom,Bristol City,4.26,4.26,0.0
+E1,2122,2021-10-24,Nott'm Forest,Fulham,3.4,3.4,0.0
+E1,2122,2021-10-24,Burnley,Sheffield United,3.45,3.45,0.0
+E1,2122,2021-10-29,QPR,Nott'm Forest,3.44,3.44,0.0
+E1,2122,2021-10-30,Derby,Blackburn,3.22,3.22,0.0
+E1,2122,2021-10-30,Fulham,West Brom,3.46,3.46,0.0
+E1,2122,2021-10-30,Bristol City,Burnley,3.3,3.3,0.0
+E1,2122,2021-10-30,Huddersfield,Millwall,3.1,3.1,0.0
+E1,2122,2021-10-30,Hull,Coventry,3.24,3.24,0.0
+E1,2122,2021-10-30,Middlesbrough,Birmingham,3.26,3.26,0.0
+E1,2122,2021-10-30,Preston,Luton,3.2,3.2,0.0
+E1,2122,2021-10-30,Sheffield United,Blackpool,4.0,4.0,0.0
+E1,2122,2021-10-30,Stoke,Cardiff,3.41,3.41,0.0
+E1,2122,2021-10-30,Swansea,Peterboro,3.81,3.81,0.0
+E1,2122,2021-10-30,Reading,Bournemouth,3.65,3.65,0.0
+E1,2122,2021-11-02,Nott'm Forest,Sheffield United,3.31,3.31,0.0
+E1,2122,2021-11-02,Peterboro,Huddersfield,3.33,3.33,0.0
+E1,2122,2021-11-02,Millwall,Reading,3.37,3.37,0.0
+E1,2122,2021-11-02,Luton,Middlesbrough,3.24,3.24,0.0
+E1,2122,2021-11-02,Coventry,Swansea,3.23,3.23,0.0
+E1,2122,2021-11-02,Birmingham,Bristol City,3.54,3.54,0.0
+E1,2122,2021-11-03,Cardiff,QPR,3.34,3.34,0.0
+E1,2122,2021-11-03,West Brom,Hull,4.57,4.57,0.0
+E1,2122,2021-11-03,Burnley,Derby,3.17,3.17,0.0
+E1,2122,2021-11-03,Blackburn,Fulham,3.64,3.64,0.0
+E1,2122,2021-11-03,Blackpool,Stoke,3.34,3.34,0.0
+E1,2122,2021-11-03,Bournemouth,Preston,3.95,3.95,0.0
+E1,2122,2021-11-06,Cardiff,Huddersfield,3.25,3.25,0.0
+E1,2122,2021-11-06,Luton,Stoke,3.21,3.21,0.0
+E1,2122,2021-11-06,Millwall,Derby,3.34,3.34,0.0
+E1,2122,2021-11-06,Nott'm Forest,Preston,3.17,3.17,0.0
+E1,2122,2021-11-06,Peterboro,Fulham,4.35,4.35,0.0
+E1,2122,2021-11-06,West Brom,Middlesbrough,3.55,3.55,0.0
+E1,2122,2021-11-06,Birmingham,Reading,3.54,3.54,0.0
+E1,2122,2021-11-06,Blackpool,QPR,3.35,3.35,0.0
+E1,2122,2021-11-06,Coventry,Bristol City,3.84,3.84,0.0
+E1,2122,2021-11-06,Burnley,Hull,3.24,3.24,0.0
+E1,2122,2021-11-06,Blackburn,Sheffield United,3.38,3.38,0.0
+E1,2122,2021-11-06,Bournemouth,Swansea,3.51,3.51,0.0
+E1,2122,2021-11-19,QPR,Luton,3.37,3.37,0.0
+E1,2122,2021-11-20,Swansea,Blackpool,3.48,3.48,0.0
+E1,2122,2021-11-20,Sheffield United,Coventry,3.48,3.48,0.0
+E1,2122,2021-11-20,Bristol City,Blackburn,3.42,3.42,0.0
+E1,2122,2021-11-20,Fulham,Burnley,5.55,5.55,0.0
+E1,2122,2021-11-20,Huddersfield,West Brom,3.28,3.28,0.0
+E1,2122,2021-11-20,Hull,Birmingham,3.18,3.18,0.0
+E1,2122,2021-11-20,Middlesbrough,Millwall,3.28,3.28,0.0
+E1,2122,2021-11-20,Preston,Cardiff,3.35,3.35,0.0
+E1,2122,2021-11-20,Reading,Nott'm Forest,3.28,3.28,0.0
+E1,2122,2021-11-20,Stoke,Peterboro,4.18,4.18,0.0
+E1,2122,2021-11-21,Derby,Bournemouth,3.41,3.41,0.0
+E1,2122,2021-11-23,Blackpool,West Brom,3.48,3.48,0.0
+E1,2122,2021-11-23,Coventry,Birmingham,3.27,3.27,0.0
+E1,2122,2021-11-23,Middlesbrough,Preston,3.25,3.25,0.0
+E1,2122,2021-11-23,Reading,Sheffield United,3.46,3.46,0.0
+E1,2122,2021-11-23,Nott'm Forest,Luton,3.11,3.11,0.0
+E1,2122,2021-11-24,Bristol City,Stoke,3.36,3.36,0.0
+E1,2122,2021-11-24,Cardiff,Hull,3.45,3.45,0.0
+E1,2122,2021-11-24,Fulham,Derby,5.36,5.36,0.0
+E1,2122,2021-11-24,Millwall,Bournemouth,3.34,3.34,0.0
+E1,2122,2021-11-24,QPR,Huddersfield,3.45,3.45,0.0
+E1,2122,2021-11-24,Burnley,Swansea,3.3,3.3,0.0
+E1,2122,2021-11-24,Blackburn,Peterboro,3.79,3.79,0.0
+E1,2122,2021-11-26,West Brom,Nott'm Forest,3.76,3.76,0.0
+E1,2122,2021-11-27,Hull,Millwall,3.09,3.09,0.0
+E1,2122,2021-11-27,Luton,Cardiff,3.56,3.56,0.0
+E1,2122,2021-11-27,Peterboro,Burnley,3.33,3.33,0.0
+E1,2122,2021-11-27,Stoke,Blackburn,3.36,3.36,0.0
+E1,2122,2021-11-27,Swansea,Reading,3.64,3.64,0.0
+E1,2122,2021-11-27,Huddersfield,Middlesbrough,3.14,3.14,0.0
+E1,2122,2021-11-27,Preston,Fulham,3.64,3.64,0.0
+E1,2122,2021-11-27,Birmingham,Blackpool,3.24,3.24,0.0
+E1,2122,2021-11-27,Bournemouth,Coventry,3.44,3.44,0.0
+E1,2122,2021-11-28,Sheffield United,Bristol City,4.4,4.4,0.0
+E1,2122,2021-11-29,Derby,QPR,3.32,3.32,0.0
+E1,2122,2021-12-03,Fulham,Bournemouth,3.68,3.68,0.0
+E1,2122,2021-12-04,Blackburn,Preston,3.37,3.37,0.0
+E1,2122,2021-12-04,Coventry,West Brom,3.22,3.22,0.0
+E1,2122,2021-12-04,Burnley,Huddersfield,3.19,3.19,0.0
+E1,2122,2021-12-04,Blackpool,Luton,3.14,3.14,0.0
+E1,2122,2021-12-04,Bristol City,Derby,3.19,3.19,0.0
+E1,2122,2021-12-04,Cardiff,Sheffield United,3.38,3.38,0.0
+E1,2122,2021-12-04,Middlesbrough,Swansea,3.47,3.47,0.0
+E1,2122,2021-12-04,Millwall,Birmingham,3.2,3.2,0.0
+E1,2122,2021-12-04,Nott'm Forest,Peterboro,3.64,3.64,0.0
+E1,2122,2021-12-04,Reading,Hull,3.27,3.27,0.0
+E1,2122,2021-12-05,QPR,Stoke,3.31,3.31,0.0
+E1,2122,2021-12-11,Hull,Bristol City,3.49,3.49,0.0
+E1,2122,2021-12-11,Luton,Fulham,3.73,3.73,0.0
+E1,2122,2021-12-11,Peterboro,Millwall,3.24,3.24,0.0
+E1,2122,2021-12-11,Preston,Burnley,3.62,3.62,0.0
+E1,2122,2021-12-11,Stoke,Middlesbrough,3.18,3.18,0.0
+E1,2122,2021-12-11,Swansea,Nott'm Forest,3.22,3.22,0.0
+E1,2122,2021-12-11,West Brom,Reading,4.51,4.51,0.0
+E1,2122,2021-12-11,Derby,Blackpool,3.13,3.13,0.0
+E1,2122,2021-12-11,Bournemouth,Blackburn,3.77,3.77,0.0
+E1,2122,2021-12-11,Birmingham,Cardiff,3.29,3.29,0.0
+E1,2122,2021-12-11,Huddersfield,Coventry,3.13,3.13,0.0
+E1,2122,2021-12-17,Burnley,West Brom,3.82,3.82,0.0
+E1,2122,2021-12-18,Nott'm Forest,Hull,3.46,3.46,0.0
+E1,2122,2021-12-18,Bristol City,Huddersfield,3.26,3.26,0.0
+E1,2122,2021-12-18,Middlesbrough,Bournemouth,3.26,3.26,0.0
+E1,2122,2021-12-18,Blackburn,Birmingham,3.51,3.51,0.0
+E1,2122,2021-12-18,Blackpool,Peterboro,3.35,3.35,0.0
+E1,2122,2021-12-20,Fulham,Sheffield United,3.81,3.81,0.0
+E1,2122,2021-12-26,Middlesbrough,Nott'm Forest,3.33,3.33,0.0
+E1,2122,2021-12-26,Huddersfield,Blackpool,3.32,3.32,0.0
+E1,2122,2021-12-27,Derby,West Brom,3.54,3.54,0.0
+E1,2122,2021-12-27,QPR,Bournemouth,3.47,3.47,0.0
+E1,2122,2021-12-29,Blackpool,Middlesbrough,3.32,3.32,0.0
+E1,2122,2021-12-29,Blackburn,Burnley,3.9,3.9,0.0
+E1,2122,2021-12-29,Coventry,Millwall,3.39,3.39,0.0
+E1,2122,2021-12-30,Stoke,Derby,3.54,3.54,0.0
+E1,2122,2021-12-30,Bournemouth,Cardiff,3.86,3.86,0.0
+E1,2122,2021-12-30,Bristol City,QPR,3.37,3.37,0.0
+E1,2122,2021-12-30,Nott'm Forest,Huddersfield,3.42,3.42,0.0
+E1,2122,2022-01-01,Blackpool,Hull,3.43,3.43,0.0
+E1,2122,2022-01-02,West Brom,Cardiff,3.96,3.96,0.0
+E1,2122,2022-01-02,Bristol City,Millwall,3.17,3.17,0.0
+E1,2122,2022-01-02,Blackburn,Huddersfield,3.58,3.58,0.0
+E1,2122,2022-01-02,Birmingham,QPR,3.2,3.2,0.0
+E1,2122,2022-01-03,Reading,Derby,3.23,3.23,0.0
+E1,2122,2022-01-03,Stoke,Preston,3.37,3.37,0.0
+E1,2122,2022-01-11,Reading,Fulham,4.72,4.72,0.0
+E1,2122,2022-01-15,QPR,West Brom,3.38,3.38,0.0
+E1,2122,2022-01-15,Cardiff,Blackburn,3.34,3.34,0.0
+E1,2122,2022-01-15,Luton,Bournemouth,3.3,3.3,0.0
+E1,2122,2022-01-15,Fulham,Bristol City,6.39,6.39,0.0
+E1,2122,2022-01-15,Huddersfield,Swansea,3.2,3.2,0.0
+E1,2122,2022-01-15,Middlesbrough,Reading,4.39,4.39,0.0
+E1,2122,2022-01-15,Millwall,Nott'm Forest,3.2,3.2,0.0
+E1,2122,2022-01-15,Peterboro,Coventry,3.38,3.38,0.0
+E1,2122,2022-01-15,Preston,Birmingham,3.48,3.48,0.0
+E1,2122,2022-01-15,Derby,Sheffield United,3.24,3.24,0.0
+E1,2122,2022-01-16,Hull,Stoke,3.25,3.25,0.0
+E1,2122,2022-01-18,Preston,Sheffield United,3.18,3.18,0.0
+E1,2122,2022-01-18,Fulham,Birmingham,5.76,5.76,0.0
+E1,2122,2022-01-19,Reading,Luton,3.53,3.53,0.0
+E1,2122,2022-01-19,Hull,Blackburn,3.3,3.3,0.0
+E1,2122,2022-01-22,Blackpool,Millwall,3.21,3.21,0.0
+E1,2122,2022-01-22,Coventry,QPR,3.36,3.36,0.0
+E1,2122,2022-01-22,Reading,Huddersfield,3.29,3.29,0.0
+E1,2122,2022-01-22,Sheffield United,Luton,3.51,3.51,0.0
+E1,2122,2022-01-22,Stoke,Fulham,3.52,3.52,0.0
+E1,2122,2022-01-22,Swansea,Preston,3.27,3.27,0.0
+E1,2122,2022-01-22,West Brom,Peterboro,4.98,4.98,0.0
+E1,2122,2022-01-22,Bournemouth,Hull,4.04,4.04,0.0
+E1,2122,2022-01-22,Birmingham,Burnley,3.56,3.56,0.0
+E1,2122,2022-01-22,Nott'm Forest,Derby,3.29,3.29,0.0
+E1,2122,2022-01-22,Bristol City,Cardiff,3.38,3.38,0.0
+E1,2122,2022-01-24,Blackburn,Middlesbrough,3.2,3.2,0.0
+E1,2122,2022-01-25,Luton,Bristol City,3.6,3.6,0.0
+E1,2122,2022-01-25,Birmingham,Peterboro,3.44,3.44,0.0
+E1,2122,2022-01-25,Coventry,Stoke,3.21,3.21,0.0
+E1,2122,2022-01-25,Nott'm Forest,Burnley,3.97,3.97,0.0
+E1,2122,2022-01-25,QPR,Swansea,3.41,3.41,0.0
+E1,2122,2022-01-26,West Brom,Preston,3.81,3.81,0.0
+E1,2122,2022-01-28,Huddersfield,Stoke,3.2,3.2,0.0
+E1,2122,2022-01-29,Middlesbrough,Coventry,3.35,3.35,0.0
+E1,2122,2022-01-29,Millwall,West Brom,3.2,3.2,0.0
+E1,2122,2022-01-29,Preston,Bristol City,3.45,3.45,0.0
+E1,2122,2022-01-29,QPR,Reading,4.17,4.17,0.0
+E1,2122,2022-01-29,Peterboro,Sheffield United,3.52,3.52,0.0
+E1,2122,2022-01-29,Hull,Swansea,3.19,3.19,0.0
+E1,2122,2022-01-29,Luton,Blackburn,3.27,3.27,0.0
+E1,2122,2022-01-29,Fulham,Blackpool,5.38,5.38,0.0
+E1,2122,2022-01-29,Burnley,Bournemouth,3.63,3.63,0.0
+E1,2122,2022-01-30,Derby,Birmingham,3.12,3.12,0.0
+E1,2122,2022-01-30,Cardiff,Nott'm Forest,3.2,3.2,0.0
+E1,2122,2022-02-01,Swansea,Luton,3.13,3.13,0.0
+E1,2122,2022-02-01,Millwall,Preston,3.05,3.05,0.0
+E1,2122,2022-02-02,Burnley,Cardiff,3.19,3.19,0.0
+E1,2122,2022-02-02,Huddersfield,Derby,3.28,3.28,0.0
+E1,2122,2022-02-04,Birmingham,Sheffield United,3.41,3.41,0.0
+E1,2122,2022-02-05,Swansea,Blackburn,3.1,3.1,0.0
+E1,2122,2022-02-05,Hull,Preston,3.17,3.17,0.0
+E1,2122,2022-02-05,Blackpool,Bristol City,3.29,3.29,0.0
+E1,2122,2022-02-08,Coventry,Blackpool,3.79,3.79,0.0
+E1,2122,2022-02-08,Stoke,Swansea,3.18,3.18,0.0
+E1,2122,2022-02-08,Derby,Hull,3.16,3.16,0.0
+E1,2122,2022-02-08,Fulham,Millwall,4.81,4.81,0.0
+E1,2122,2022-02-08,Luton,Burnley,3.8,3.8,0.0
+E1,2122,2022-02-09,QPR,Middlesbrough,3.16,3.16,0.0
+E1,2122,2022-02-09,Blackburn,Nott'm Forest,3.19,3.19,0.0
+E1,2122,2022-02-09,Bournemouth,Birmingham,4.2,4.2,0.0
+E1,2122,2022-02-09,Bristol City,Reading,3.65,3.65,0.0
+E1,2122,2022-02-09,Cardiff,Peterboro,3.68,3.68,0.0
+E1,2122,2022-02-09,Preston,Huddersfield,3.28,3.28,0.0
+E1,2122,2022-02-09,Sheffield United,West Brom,3.25,3.25,0.0
+E1,2122,2022-02-12,Hull,Fulham,3.9,3.9,0.0
+E1,2122,2022-02-12,Reading,Coventry,3.53,3.53,0.0
+E1,2122,2022-02-12,Huddersfield,Sheffield United,3.33,3.33,0.0
+E1,2122,2022-02-12,Burnley,QPR,3.34,3.34,0.0
+E1,2122,2022-02-12,Birmingham,Luton,3.22,3.22,0.0
+E1,2122,2022-02-12,Blackpool,Bournemouth,3.47,3.47,0.0
+E1,2122,2022-02-12,Middlesbrough,Derby,3.76,3.76,0.0
+E1,2122,2022-02-12,Millwall,Cardiff,3.21,3.21,0.0
+E1,2122,2022-02-12,Nott'm Forest,Stoke,3.24,3.24,0.0
+E1,2122,2022-02-12,Peterboro,Preston,3.46,3.46,0.0
+E1,2122,2022-02-13,Swansea,Bristol City,3.52,3.52,0.0
+E1,2122,2022-02-14,West Brom,Blackburn,3.47,3.47,0.0
+E1,2122,2022-02-15,Sheffield United,Hull,4.06,4.06,0.0
+E1,2122,2022-02-15,Cardiff,Coventry,3.24,3.24,0.0
+E1,2122,2022-02-15,Millwall,QPR,3.13,3.13,0.0
+E1,2122,2022-02-16,Peterboro,Reading,3.36,3.36,0.0
+E1,2122,2022-02-19,Derby,Peterboro,3.49,3.49,0.0
+E1,2122,2022-02-19,Luton,West Brom,3.15,3.15,0.0
+E1,2122,2022-02-19,Preston,Reading,3.82,3.82,0.0
+E1,2122,2022-02-19,QPR,Hull,3.61,3.61,0.0
+E1,2122,2022-02-19,Sheffield United,Swansea,3.83,3.83,0.0
+E1,2122,2022-02-19,Stoke,Birmingham,3.65,3.65,0.0
+E1,2122,2022-02-19,Coventry,Burnley,3.99,3.99,0.0
+E1,2122,2022-02-19,Fulham,Huddersfield,4.91,4.91,0.0
+E1,2122,2022-02-19,Bristol City,Middlesbrough,3.41,3.41,0.0
+E1,2122,2022-02-19,Cardiff,Blackpool,3.36,3.36,0.0
+E1,2122,2022-02-22,Reading,Birmingham,3.34,3.34,0.0
+E1,2122,2022-02-22,Bristol City,Coventry,3.41,3.41,0.0
+E1,2122,2022-02-22,Hull,Burnley,3.23,3.23,0.0
+E1,2122,2022-02-22,Middlesbrough,West Brom,3.26,3.26,0.0
+E1,2122,2022-02-22,Preston,Nott'm Forest,3.15,3.15,0.0
+E1,2122,2022-02-23,Sheffield United,Blackburn,3.65,3.65,0.0
+E1,2122,2022-02-23,Derby,Millwall,3.02,3.02,0.0
+E1,2122,2022-02-23,Fulham,Peterboro,7.12,7.12,0.0
+E1,2122,2022-02-23,Huddersfield,Cardiff,3.27,3.27,0.0
+E1,2122,2022-02-23,QPR,Blackpool,3.45,3.45,0.0
+E1,2122,2022-02-23,Stoke,Luton,3.26,3.26,0.0
+E1,2122,2022-02-26,Bournemouth,Stoke,3.79,3.79,0.0
+E1,2122,2022-02-26,Cardiff,Fulham,3.91,3.91,0.0
+E1,2122,2022-02-26,Coventry,Preston,3.38,3.38,0.0
+E1,2122,2022-02-26,Luton,Derby,3.36,3.36,0.0
+E1,2122,2022-02-26,Millwall,Sheffield United,3.25,3.25,0.0
+E1,2122,2022-02-26,Nott'm Forest,Bristol City,3.72,3.72,0.0
+E1,2122,2022-02-26,Peterboro,Hull,3.25,3.25,0.0
+E1,2122,2022-02-26,Blackpool,Reading,3.47,3.47,0.0
+E1,2122,2022-02-26,Birmingham,Huddersfield,3.22,3.22,0.0
+E1,2122,2022-02-26,Burnley,Middlesbrough,3.51,3.51,0.0
+E1,2122,2022-02-26,Blackburn,QPR,3.3,3.3,0.0
+E1,2122,2022-02-28,West Brom,Swansea,3.64,3.64,0.0
+E1,2122,2022-03-01,Cardiff,Derby,3.19,3.19,0.0
+E1,2122,2022-03-04,Huddersfield,Peterboro,3.94,3.94,0.0
+E1,2122,2022-03-04,Sheffield United,Nott'm Forest,3.33,3.33,0.0
+E1,2122,2022-03-05,Middlesbrough,Luton,3.55,3.55,0.0
+E1,2122,2022-03-05,Preston,Bournemouth,3.27,3.27,0.0
+E1,2122,2022-03-05,QPR,Cardiff,3.22,3.22,0.0
+E1,2122,2022-03-05,Fulham,Blackburn,4.4,4.4,0.0
+E1,2122,2022-03-05,Stoke,Blackpool,3.41,3.41,0.0
+E1,2122,2022-03-05,Swansea,Coventry,3.23,3.23,0.0
+E1,2122,2022-03-05,Reading,Millwall,3.25,3.25,0.0
+E1,2122,2022-03-05,Bristol City,Birmingham,3.41,3.41,0.0
+E1,2122,2022-03-05,Derby,Burnley,3.14,3.14,0.0
+E1,2122,2022-03-05,Hull,West Brom,3.31,3.31,0.0
+E1,2122,2022-03-08,Sheffield United,Middlesbrough,3.29,3.29,0.0
+E1,2122,2022-03-08,Burnley,Stoke,3.16,3.16,0.0
+E1,2122,2022-03-08,Blackburn,Millwall,2.98,2.98,0.0
+E1,2122,2022-03-08,Bournemouth,Peterboro,5.87,5.87,0.0
+E1,2122,2022-03-08,Coventry,Luton,3.18,3.18,0.0
+E1,2122,2022-03-08,Swansea,Fulham,3.64,3.64,0.0
+E1,2122,2022-03-11,West Brom,Huddersfield,3.34,3.34,0.0
+E1,2122,2022-03-12,Blackpool,Swansea,3.28,3.28,0.0
+E1,2122,2022-03-12,Peterboro,Stoke,3.33,3.33,0.0
+E1,2122,2022-03-12,Nott'm Forest,Reading,4.24,4.24,0.0
+E1,2122,2022-03-12,Burnley,Fulham,4.53,4.53,0.0
+E1,2122,2022-03-12,Millwall,Middlesbrough,3.09,3.09,0.0
+E1,2122,2022-03-12,Coventry,Sheffield United,3.21,3.21,0.0
+E1,2122,2022-03-12,Cardiff,Preston,3.05,3.05,0.0
+E1,2122,2022-03-12,Bournemouth,Derby,3.84,3.84,0.0
+E1,2122,2022-03-12,Birmingham,Hull,3.3,3.3,0.0
+E1,2122,2022-03-12,Blackburn,Bristol City,3.61,3.61,0.0
+E1,2122,2022-03-13,Luton,QPR,3.27,3.27,0.0
+E1,2122,2022-03-15,Burnley,Bristol City,3.25,3.25,0.0
+E1,2122,2022-03-15,Birmingham,Middlesbrough,3.34,3.34,0.0
+E1,2122,2022-03-15,Blackburn,Derby,3.25,3.25,0.0
+E1,2122,2022-03-15,Bournemouth,Reading,4.95,4.95,0.0
+E1,2122,2022-03-15,West Brom,Fulham,3.43,3.43,0.0
+E1,2122,2022-03-16,Millwall,Huddersfield,3.07,3.07,0.0
+E1,2122,2022-03-16,Nott'm Forest,QPR,3.5,3.5,0.0
+E1,2122,2022-03-16,Peterboro,Swansea,3.48,3.48,0.0
+E1,2122,2022-03-16,Luton,Preston,3.11,3.11,0.0
+E1,2122,2022-03-16,Coventry,Hull,3.89,3.89,0.0
+E1,2122,2022-03-16,Cardiff,Stoke,3.18,3.18,0.0
+E1,2122,2022-03-16,Blackpool,Sheffield United,3.22,3.22,0.0
+E1,2122,2022-03-19,Hull,Luton,3.2,3.2,0.0
+E1,2122,2022-03-19,Reading,Blackburn,3.3,3.3,0.0
+E1,2122,2022-03-19,Stoke,Millwall,3.13,3.13,0.0
+E1,2122,2022-03-19,Swansea,Birmingham,3.54,3.54,0.0
+E1,2122,2022-03-19,Bristol City,West Brom,3.48,3.48,0.0
+E1,2122,2022-03-19,Huddersfield,Bournemouth,3.34,3.34,0.0
+E1,2122,2022-03-19,Derby,Coventry,3.16,3.16,0.0
+E1,2122,2022-03-19,Sheffield United,Burnley,4.07,4.07,0.0
+E1,2122,2022-03-20,QPR,Peterboro,4.24,4.24,0.0
+E1,2122,2022-04-01,Hull,Huddersfield,3.16,3.16,0.0
+E1,2122,2022-04-02,Bournemouth,Bristol City,4.64,4.64,0.0
+E1,2122,2022-04-02,Blackpool,Nott'm Forest,3.27,3.27,0.0
+E1,2122,2022-04-02,Burnley,Reading,3.3,3.3,0.0
+E1,2122,2022-04-02,Cardiff,Swansea,3.21,3.21,0.0
+E1,2122,2022-04-02,Coventry,Blackburn,3.21,3.21,0.0
+E1,2122,2022-04-02,Derby,Preston,3.1,3.1,0.0
+E1,2122,2022-04-02,Luton,Millwall,3.18,3.18,0.0
+E1,2122,2022-04-02,Peterboro,Middlesbrough,3.9,3.9,0.0
+E1,2122,2022-04-02,QPR,Fulham,3.89,3.89,0.0
+E1,2122,2022-04-02,Stoke,Sheffield United,3.25,3.25,0.0
+E1,2122,2022-04-03,Birmingham,West Brom,3.38,3.38,0.0
+E1,2122,2022-04-05,Reading,Stoke,3.14,3.14,0.0
+E1,2122,2022-04-05,Sheffield United,QPR,3.81,3.81,0.0
+E1,2122,2022-04-05,Preston,Blackpool,3.15,3.15,0.0
+E1,2122,2022-04-05,Peterboro,Luton,3.71,3.71,0.0
+E1,2122,2022-04-05,Millwall,Swansea,3.22,3.22,0.0
+E1,2122,2022-04-06,West Brom,Bournemouth,3.29,3.29,0.0
+E1,2122,2022-04-06,Nott'm Forest,Coventry,3.52,3.52,0.0
+E1,2122,2022-04-06,Middlesbrough,Fulham,3.36,3.36,0.0
+E1,2122,2022-04-09,Millwall,Burnley,3.52,3.52,0.0
+E1,2122,2022-04-09,Nott'm Forest,Birmingham,3.99,3.99,0.0
+E1,2122,2022-04-09,Preston,QPR,3.31,3.31,0.0
+E1,2122,2022-04-09,Reading,Cardiff,3.23,3.23,0.0
+E1,2122,2022-04-09,Swansea,Derby,3.35,3.35,0.0
+E1,2122,2022-04-09,West Brom,Stoke,3.44,3.44,0.0
+E1,2122,2022-04-09,Sheffield United,Bournemouth,3.3,3.3,0.0
+E1,2122,2022-04-09,Bristol City,Peterboro,3.8,3.8,0.0
+E1,2122,2022-04-09,Middlesbrough,Hull,4.05,4.05,0.0
+E1,2122,2022-04-09,Blackburn,Blackpool,3.68,3.68,0.0
+E1,2122,2022-04-10,Fulham,Coventry,4.45,4.45,0.0
+E1,2122,2022-04-11,Huddersfield,Luton,3.24,3.24,0.0
+E1,2122,2022-04-15,Peterboro,Blackburn,3.68,3.68,0.0
+E1,2122,2022-04-15,Luton,Nott'm Forest,3.28,3.28,0.0
+E1,2122,2022-04-15,Birmingham,Coventry,3.47,3.47,0.0
+E1,2122,2022-04-15,Bournemouth,Middlesbrough,3.44,3.44,0.0
+E1,2122,2022-04-15,Hull,Cardiff,3.13,3.13,0.0
+E1,2122,2022-04-15,Preston,Millwall,3.09,3.09,0.0
+E1,2122,2022-04-15,Sheffield United,Reading,3.96,3.96,0.0
+E1,2122,2022-04-15,Stoke,Bristol City,3.72,3.72,0.0
+E1,2122,2022-04-15,Swansea,Burnley,3.72,3.72,0.0
+E1,2122,2022-04-15,West Brom,Blackpool,3.64,3.64,0.0
+E1,2122,2022-04-15,Huddersfield,QPR,3.48,3.48,0.0
+E1,2122,2022-04-15,Derby,Fulham,3.86,3.86,0.0
+E1,2122,2022-04-18,Bristol City,Sheffield United,3.62,3.62,0.0
+E1,2122,2022-04-18,Nott'm Forest,West Brom,3.43,3.43,0.0
+E1,2122,2022-04-18,Cardiff,Luton,3.15,3.15,0.0
+E1,2122,2022-04-18,Middlesbrough,Huddersfield,3.53,3.53,0.0
+E1,2122,2022-04-18,Burnley,Peterboro,3.5,3.5,0.0
+E1,2122,2022-04-18,Blackburn,Stoke,3.38,3.38,0.0
+E1,2122,2022-04-18,Blackpool,Birmingham,3.4,3.4,0.0
+E1,2122,2022-04-18,Coventry,Bournemouth,3.36,3.36,0.0
+E1,2122,2022-04-18,Millwall,Hull,3.41,3.41,0.0
+E1,2122,2022-04-18,QPR,Derby,3.3,3.3,0.0
+E1,2122,2022-04-18,Reading,Swansea,3.34,3.34,0.0
+E1,2122,2022-04-19,Fulham,Preston,4.42,4.42,0.0
+E1,2122,2022-04-22,Huddersfield,Burnley,3.92,3.92,0.0
+E1,2122,2022-04-23,Hull,Reading,3.26,3.26,0.0
+E1,2122,2022-04-23,Peterboro,Nott'm Forest,3.95,3.95,0.0
+E1,2122,2022-04-23,Sheffield United,Cardiff,3.95,3.95,0.0
+E1,2122,2022-04-23,Stoke,QPR,3.48,3.48,0.0
+E1,2122,2022-04-23,Swansea,Middlesbrough,3.38,3.38,0.0
+E1,2122,2022-04-23,West Brom,Coventry,3.4,3.4,0.0
+E1,2122,2022-04-23,Birmingham,Millwall,3.33,3.33,0.0
+E1,2122,2022-04-23,Derby,Bristol City,3.47,3.47,0.0
+E1,2122,2022-04-23,Luton,Blackpool,3.51,3.51,0.0
+E1,2122,2022-04-23,Bournemouth,Fulham,3.61,3.61,0.0
+E1,2122,2022-04-25,Preston,Blackburn,3.21,3.21,0.0
+E1,2122,2022-04-26,Fulham,Nott'm Forest,3.66,3.66,0.0
+E1,2122,2022-04-26,Swansea,Bournemouth,3.52,3.52,0.0
+E1,2122,2022-04-26,Burnley,Blackpool,3.42,3.42,0.0
+E1,2122,2022-04-27,Middlesbrough,Cardiff,3.91,3.91,0.0
+E1,2122,2022-04-29,QPR,Sheffield United,3.89,3.89,0.0
+E1,2122,2022-04-30,Millwall,Peterboro,4.43,4.43,0.0
+E1,2122,2022-04-30,Burnley,Preston,3.45,3.45,0.0
+E1,2122,2022-04-30,Blackburn,Bournemouth,3.44,3.44,0.0
+E1,2122,2022-04-30,Blackpool,Derby,3.62,3.62,0.0
+E1,2122,2022-04-30,Bristol City,Hull,3.52,3.52,0.0
+E1,2122,2022-04-30,Cardiff,Birmingham,3.42,3.42,0.0
+E1,2122,2022-04-30,Coventry,Huddersfield,3.33,3.33,0.0
+E1,2122,2022-04-30,Middlesbrough,Stoke,3.67,3.67,0.0
+E1,2122,2022-04-30,Nott'm Forest,Swansea,4.23,4.23,0.0
+E1,2122,2022-04-30,Reading,West Brom,3.39,3.39,0.0
+E1,2122,2022-05-02,Fulham,Luton,4.21,4.21,0.0
+E1,2122,2022-05-03,Bournemouth,Nott'm Forest,3.33,3.33,0.0
+E1,2122,2022-05-07,Hull,Nott'm Forest,3.65,3.65,0.0
+E1,2122,2022-05-07,Luton,Reading,4.47,4.47,0.0
+E1,2122,2022-05-07,Peterboro,Blackpool,3.8,3.8,0.0
+E1,2122,2022-05-07,Preston,Middlesbrough,4.09,4.09,0.0
+E1,2122,2022-05-07,Sheffield United,Fulham,3.6,3.6,0.0
+E1,2122,2022-05-07,Derby,Cardiff,3.5,3.5,0.0
+E1,2122,2022-05-07,Swansea,QPR,3.7,3.7,0.0
+E1,2122,2022-05-07,West Brom,Burnley,4.96,4.96,0.0
+E1,2122,2022-05-07,Bournemouth,Millwall,3.72,3.72,0.0
+E1,2122,2022-05-07,Birmingham,Blackburn,3.59,3.59,0.0
+E1,2122,2022-05-07,Stoke,Coventry,3.57,3.57,0.0
+E1,2122,2022-05-07,Huddersfield,Bristol City,3.74,3.74,0.0

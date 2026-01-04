@@ -1,16 +1,15 @@
 import { ResponsibleGambling } from '@/components/ResponsibleGambling';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { Shield } from 'lucide-react';
 
 export default function ResponsibleGamblingPage() {
   return (
-    <div className="p-6 space-y-6 animate-fade-in">
-      <div>
-        <h1 className="text-2xl font-bold text-foreground text-glow">Responsible Gambling</h1>
-        <p className="text-sm text-muted-foreground mt-1">
-          Tools and resources for maintaining healthy gambling habits
-        </p>
-      </div>
-      
+    <PageLayout
+      title="Responsible Gambling"
+      description="Tools and resources for maintaining healthy gambling habits"
+      icon={<Shield className="h-6 w-6" />}
+    >
       <ResponsibleGambling />
-    </div>
+    </PageLayout>
   );
 }

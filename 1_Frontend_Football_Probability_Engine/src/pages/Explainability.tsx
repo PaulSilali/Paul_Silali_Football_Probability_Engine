@@ -1,5 +1,7 @@
 import { Info, AlertCircle } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useState } from 'react';
@@ -88,14 +90,11 @@ export default function Explainability() {
   const maxContribution = Math.max(...currentFixture.contributions.map(c => Math.abs(c.value)));
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">Model Explainability</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Feature contributions to probability estimates
-          </p>
-        </div>
+    <PageLayout
+      title="Model Explainability"
+      description="Feature contributions to probability estimates"
+      icon={<Info className="h-6 w-6" />}
+    >
         <Select value={selectedFixture} onValueChange={setSelectedFixture}>
           <SelectTrigger className="w-[250px]">
             <SelectValue placeholder="Select fixture" />
@@ -108,7 +107,6 @@ export default function Explainability() {
             ))}
           </SelectContent>
         </Select>
-      </div>
 
       <Alert variant="default" className="border-muted bg-muted/30">
         <AlertCircle className="h-4 w-4" />
@@ -175,6 +173,6 @@ export default function Explainability() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </PageLayout>
   );
 }

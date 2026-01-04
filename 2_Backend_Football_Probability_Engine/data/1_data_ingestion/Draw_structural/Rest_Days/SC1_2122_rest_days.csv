@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,2122,2021-07-31,Arbroath,Inverness C,92,92,False
+SC1,2122,2021-07-31,Raith Rvs,Hamilton,92,7,False
+SC1,2122,2021-07-31,Partick,Queen of Sth,508,92,False
+SC1,2122,2021-07-31,Morton,Dunfermline,92,92,False
+SC1,2122,2021-08-02,Kilmarnock,Ayr,7,94,False
+SC1,2122,2021-08-07,Dunfermline,Partick,7,7,False
+SC1,2122,2021-08-07,Hamilton,Morton,7,7,False
+SC1,2122,2021-08-07,Inverness C,Raith Rvs,7,7,False
+SC1,2122,2021-08-07,Queen of Sth,Kilmarnock,7,5,False
+SC1,2122,2021-08-07,Ayr,Arbroath,5,7,False
+SC1,2122,2021-08-21,Inverness C,Ayr,14,14,False
+SC1,2122,2021-08-21,Morton,Queen of Sth,14,14,False
+SC1,2122,2021-08-21,Arbroath,Partick,14,14,False
+SC1,2122,2021-08-21,Hamilton,Kilmarnock,14,14,False
+SC1,2122,2021-08-28,Partick,Morton,7,7,False
+SC1,2122,2021-08-28,Queen of Sth,Hamilton,7,7,False
+SC1,2122,2021-08-28,Dunfermline,Arbroath,21,7,False
+SC1,2122,2021-08-28,Kilmarnock,Inverness C,7,7,False
+SC1,2122,2021-09-07,Ayr,Raith Rvs,17,31,True
+SC1,2122,2021-09-11,Ayr,Dunfermline,4,14,False
+SC1,2122,2021-09-11,Inverness C,Partick,14,14,False
+SC1,2122,2021-09-11,Kilmarnock,Morton,14,14,False
+SC1,2122,2021-09-11,Raith Rvs,Queen of Sth,4,14,False
+SC1,2122,2021-09-11,Arbroath,Hamilton,14,14,False
+SC1,2122,2021-09-18,Dunfermline,Inverness C,7,7,False
+SC1,2122,2021-09-18,Hamilton,Ayr,7,7,False
+SC1,2122,2021-09-18,Morton,Raith Rvs,7,7,False
+SC1,2122,2021-09-18,Partick,Kilmarnock,7,7,False
+SC1,2122,2021-09-18,Queen of Sth,Arbroath,7,7,False
+SC1,2122,2021-09-24,Arbroath,Kilmarnock,6,6,False
+SC1,2122,2021-09-25,Inverness C,Queen of Sth,7,7,False
+SC1,2122,2021-09-25,Dunfermline,Hamilton,7,7,False
+SC1,2122,2021-09-25,Ayr,Morton,7,7,False
+SC1,2122,2021-09-26,Raith Rvs,Partick,8,8,False
+SC1,2122,2021-09-29,Raith Rvs,Dunfermline,3,4,True
+SC1,2122,2021-10-02,Morton,Arbroath,7,8,False
+SC1,2122,2021-10-02,Partick,Ayr,6,7,False
+SC1,2122,2021-10-02,Queen of Sth,Dunfermline,7,3,False
+SC1,2122,2021-10-02,Hamilton,Inverness C,7,7,False
+SC1,2122,2021-10-02,Kilmarnock,Raith Rvs,8,3,False
+SC1,2122,2021-10-15,Hamilton,Partick,13,13,False
+SC1,2122,2021-10-16,Dunfermline,Kilmarnock,14,14,False
+SC1,2122,2021-10-16,Inverness C,Morton,14,14,False
+SC1,2122,2021-10-16,Raith Rvs,Arbroath,14,14,False
+SC1,2122,2021-10-16,Ayr,Queen of Sth,14,14,False
+SC1,2122,2021-10-23,Queen of Sth,Morton,7,7,False
+SC1,2122,2021-10-23,Arbroath,Ayr,7,7,False
+SC1,2122,2021-10-23,Kilmarnock,Hamilton,7,8,False
+SC1,2122,2021-10-23,Partick,Dunfermline,8,7,False
+SC1,2122,2021-10-23,Raith Rvs,Inverness C,7,7,False
+SC1,2122,2021-10-26,Dunfermline,Raith Rvs,3,3,True
+SC1,2122,2021-10-26,Morton,Partick,3,3,True
+SC1,2122,2021-10-26,Ayr,Kilmarnock,3,3,True
+SC1,2122,2021-10-26,Hamilton,Queen of Sth,3,3,True
+SC1,2122,2021-10-26,Inverness C,Arbroath,3,3,True
+SC1,2122,2021-10-30,Morton,Hamilton,4,4,False
+SC1,2122,2021-10-30,Partick,Inverness C,4,4,False
+SC1,2122,2021-10-30,Raith Rvs,Ayr,4,4,False
+SC1,2122,2021-10-30,Arbroath,Dunfermline,4,4,False
+SC1,2122,2021-10-30,Kilmarnock,Queen of Sth,4,4,False
+SC1,2122,2021-11-06,Hamilton,Arbroath,7,7,False
+SC1,2122,2021-11-06,Kilmarnock,Partick,7,7,False
+SC1,2122,2021-11-06,Queen of Sth,Raith Rvs,7,7,False
+SC1,2122,2021-11-06,Ayr,Inverness C,7,7,False
+SC1,2122,2021-11-06,Dunfermline,Morton,7,7,False
+SC1,2122,2021-11-13,Hamilton,Raith Rvs,7,7,False
+SC1,2122,2021-11-13,Inverness C,Dunfermline,7,7,False
+SC1,2122,2021-11-13,Morton,Kilmarnock,7,7,False
+SC1,2122,2021-11-13,Arbroath,Queen of Sth,7,7,False
+SC1,2122,2021-11-13,Ayr,Partick,7,7,False
+SC1,2122,2021-11-19,Queen of Sth,Inverness C,6,6,False
+SC1,2122,2021-11-20,Partick,Hamilton,7,7,False
+SC1,2122,2021-11-20,Dunfermline,Ayr,7,7,False
+SC1,2122,2021-11-20,Kilmarnock,Arbroath,7,7,False
+SC1,2122,2021-11-20,Raith Rvs,Morton,7,7,False
+SC1,2122,2021-12-03,Inverness C,Kilmarnock,14,13,False
+SC1,2122,2021-12-04,Morton,Ayr,14,14,False
+SC1,2122,2021-12-04,Queen of Sth,Partick,15,14,False
+SC1,2122,2021-12-04,Hamilton,Dunfermline,14,14,False
+SC1,2122,2021-12-04,Arbroath,Raith Rvs,14,14,False
+SC1,2122,2021-12-10,Ayr,Hamilton,6,6,False
+SC1,2122,2021-12-11,Partick,Arbroath,7,7,False
+SC1,2122,2021-12-11,Raith Rvs,Kilmarnock,7,8,False
+SC1,2122,2021-12-11,Morton,Inverness C,7,8,False
+SC1,2122,2021-12-11,Dunfermline,Queen of Sth,7,7,False
+SC1,2122,2021-12-18,Queen of Sth,Ayr,7,8,False
+SC1,2122,2021-12-18,Arbroath,Morton,7,7,False
+SC1,2122,2021-12-18,Inverness C,Hamilton,7,8,False
+SC1,2122,2021-12-18,Partick,Raith Rvs,7,7,False
+SC1,2122,2021-12-26,Dunfermline,Arbroath,15,8,False
+SC1,2122,2021-12-26,Ayr,Raith Rvs,8,8,False
+SC1,2122,2021-12-26,Hamilton,Kilmarnock,8,15,False
+SC1,2122,2021-12-29,Kilmarnock,Morton,3,11,True
+SC1,2122,2022-01-02,Raith Rvs,Dunfermline,7,7,False
+SC1,2122,2022-01-02,Arbroath,Inverness C,7,15,False
+SC1,2122,2022-01-02,Queen of Sth,Hamilton,15,7,False
+SC1,2122,2022-01-08,Queen of Sth,Kilmarnock,6,10,False
+SC1,2122,2022-01-08,Hamilton,Partick,6,21,False
+SC1,2122,2022-01-08,Inverness C,Raith Rvs,6,6,False
+SC1,2122,2022-01-08,Morton,Dunfermline,10,6,False
+SC1,2122,2022-01-08,Ayr,Arbroath,13,6,False
+SC1,2122,2022-01-14,Partick,Kilmarnock,6,6,False
+SC1,2122,2022-01-15,Inverness C,Queen of Sth,7,7,False
+SC1,2122,2022-01-15,Raith Rvs,Arbroath,7,7,False
+SC1,2122,2022-01-15,Dunfermline,Hamilton,7,7,False
+SC1,2122,2022-01-15,Ayr,Morton,7,7,False
+SC1,2122,2022-01-22,Dunfermline,Inverness C,7,7,False
+SC1,2122,2022-01-28,Morton,Raith Rvs,13,13,False
+SC1,2122,2022-01-29,Queen of Sth,Dunfermline,14,7,False
+SC1,2122,2022-01-29,Hamilton,Ayr,14,14,False
+SC1,2122,2022-01-29,Kilmarnock,Inverness C,15,7,False
+SC1,2122,2022-02-01,Raith Rvs,Queen of Sth,4,3,True
+SC1,2122,2022-02-01,Partick,Ayr,18,3,True
+SC1,2122,2022-02-04,Arbroath,Kilmarnock,20,6,False
+SC1,2122,2022-02-05,Ayr,Dunfermline,4,7,False
+SC1,2122,2022-02-05,Inverness C,Morton,7,8,False
+SC1,2122,2022-02-05,Raith Rvs,Hamilton,4,7,False
+SC1,2122,2022-02-09,Arbroath,Hamilton,5,4,True
+SC1,2122,2022-02-09,Inverness C,Partick,4,8,True
+SC1,2122,2022-02-09,Kilmarnock,Ayr,5,4,True
+SC1,2122,2022-02-12,Kilmarnock,Dunfermline,3,7,False
+SC1,2122,2022-02-12,Morton,Queen of Sth,7,11,False
+SC1,2122,2022-02-19,Kilmarnock,Raith Rvs,7,14,False
+SC1,2122,2022-02-19,Queen of Sth,Arbroath,7,10,False
+SC1,2122,2022-02-19,Hamilton,Morton,10,7,False
+SC1,2122,2022-02-19,Inverness C,Ayr,10,10,False
+SC1,2122,2022-02-22,Partick,Morton,13,3,True
+SC1,2122,2022-02-25,Hamilton,Inverness C,6,6,False
+SC1,2122,2022-02-26,Morton,Arbroath,4,7,False
+SC1,2122,2022-02-26,Raith Rvs,Partick,7,4,False
+SC1,2122,2022-02-26,Ayr,Queen of Sth,7,7,False
+SC1,2122,2022-02-26,Dunfermline,Kilmarnock,14,7,False
+SC1,2122,2022-03-01,Arbroath,Partick,3,3,True
+SC1,2122,2022-03-04,Partick,Inverness C,3,7,False
+SC1,2122,2022-03-05,Arbroath,Dunfermline,4,7,False
+SC1,2122,2022-03-05,Kilmarnock,Hamilton,7,8,False
+SC1,2122,2022-03-05,Queen of Sth,Morton,7,7,False
+SC1,2122,2022-03-05,Raith Rvs,Ayr,7,7,False
+SC1,2122,2022-03-08,Partick,Queen of Sth,4,3,True
+SC1,2122,2022-03-11,Ayr,Kilmarnock,6,6,False
+SC1,2122,2022-03-12,Queen of Sth,Raith Rvs,4,7,False
+SC1,2122,2022-03-12,Hamilton,Dunfermline,7,7,False
+SC1,2122,2022-03-12,Morton,Partick,7,4,False
+SC1,2122,2022-03-12,Inverness C,Arbroath,8,7,False
+SC1,2122,2022-03-18,Dunfermline,Morton,6,6,False
+SC1,2122,2022-03-19,Partick,Hamilton,7,7,False
+SC1,2122,2022-03-19,Raith Rvs,Inverness C,7,7,False
+SC1,2122,2022-03-19,Kilmarnock,Queen of Sth,8,7,False
+SC1,2122,2022-03-19,Arbroath,Ayr,7,8,False
+SC1,2122,2022-03-22,Dunfermline,Partick,4,3,True
+SC1,2122,2022-03-26,Inverness C,Dunfermline,7,4,False
+SC1,2122,2022-03-26,Kilmarnock,Partick,7,4,False
+SC1,2122,2022-03-26,Morton,Ayr,8,7,False
+SC1,2122,2022-03-26,Hamilton,Queen of Sth,7,7,False
+SC1,2122,2022-03-26,Arbroath,Raith Rvs,7,7,False
+SC1,2122,2022-04-01,Ayr,Hamilton,6,6,False
+SC1,2122,2022-04-01,Morton,Kilmarnock,6,6,False
+SC1,2122,2022-04-02,Partick,Arbroath,7,7,False
+SC1,2122,2022-04-06,Dunfermline,Raith Rvs,11,11,True
+SC1,2122,2022-04-08,Queen of Sth,Partick,13,6,False
+SC1,2122,2022-04-09,Hamilton,Arbroath,8,7,False
+SC1,2122,2022-04-09,Ayr,Inverness C,8,14,False
+SC1,2122,2022-04-09,Kilmarnock,Dunfermline,8,3,False
+SC1,2122,2022-04-09,Raith Rvs,Morton,3,8,False
+SC1,2122,2022-04-15,Inverness C,Kilmarnock,6,6,False
+SC1,2122,2022-04-16,Morton,Hamilton,7,7,False
+SC1,2122,2022-04-16,Partick,Raith Rvs,8,7,False
+SC1,2122,2022-04-16,Dunfermline,Ayr,7,7,False
+SC1,2122,2022-04-16,Arbroath,Queen of Sth,7,8,False
+SC1,2122,2022-04-19,Queen of Sth,Inverness C,3,4,True
+SC1,2122,2022-04-22,Kilmarnock,Arbroath,7,6,False
+SC1,2122,2022-04-23,Partick,Dunfermline,7,7,False
+SC1,2122,2022-04-23,Queen of Sth,Ayr,4,7,False
+SC1,2122,2022-04-23,Hamilton,Raith Rvs,7,7,False
+SC1,2122,2022-04-23,Morton,Inverness C,7,4,False
+SC1,2122,2022-04-29,Dunfermline,Queen of Sth,6,6,False
+SC1,2122,2022-04-29,Inverness C,Hamilton,6,6,False
+SC1,2122,2022-04-29,Raith Rvs,Kilmarnock,6,7,False
+SC1,2122,2022-04-29,Ayr,Partick,6,6,False
+SC1,2122,2022-04-29,Arbroath,Morton,7,6,False

@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,2425,2024-08-02,Falkirk,Queens Park,7,91,False
+SC1,2425,2024-08-03,Livingston,Dunfermline,7,92,False
+SC1,2425,2024-08-03,Partick,Morton,92,92,False
+SC1,2425,2024-08-03,Airdrie Utd,Raith Rvs,92,92,False
+SC1,2425,2024-08-03,Hamilton,Ayr,456,92,False
+SC1,2425,2024-08-09,Queens Park,Livingston,7,6,False
+SC1,2425,2024-08-09,Ayr,Airdrie Utd,6,6,False
+SC1,2425,2024-08-10,Morton,Hamilton,7,7,False
+SC1,2425,2024-08-10,Raith Rvs,Partick,7,7,False
+SC1,2425,2024-08-10,Dunfermline,Falkirk,7,8,False
+SC1,2425,2024-08-17,Ayr,Hamilton,8,7,False
+SC1,2425,2024-08-24,Hamilton,Dunfermline,7,14,False
+SC1,2425,2024-08-24,Livingston,Morton,15,14,False
+SC1,2425,2024-08-24,Falkirk,Partick,14,14,False
+SC1,2425,2024-08-24,Airdrie Utd,Queens Park,15,15,False
+SC1,2425,2024-08-24,Ayr,Raith Rvs,7,14,False
+SC1,2425,2024-08-31,Partick,Queens Park,7,7,False
+SC1,2425,2024-08-31,Raith Rvs,Livingston,7,7,False
+SC1,2425,2024-08-31,Dunfermline,Ayr,7,7,False
+SC1,2425,2024-08-31,Hamilton,Airdrie Utd,7,7,False
+SC1,2425,2024-08-31,Morton,Falkirk,7,7,False
+SC1,2425,2024-09-13,Dunfermline,Raith Rvs,13,13,False
+SC1,2425,2024-09-14,Livingston,Hamilton,14,14,False
+SC1,2425,2024-09-14,Queens Park,Morton,14,14,False
+SC1,2425,2024-09-14,Airdrie Utd,Falkirk,14,14,False
+SC1,2425,2024-09-14,Ayr,Partick,14,14,False
+SC1,2425,2024-09-21,Morton,Airdrie Utd,7,7,False
+SC1,2425,2024-09-21,Partick,Dunfermline,7,8,False
+SC1,2425,2024-09-21,Queens Park,Ayr,7,7,False
+SC1,2425,2024-09-21,Raith Rvs,Hamilton,8,7,False
+SC1,2425,2024-09-28,Livingston,Airdrie Utd,14,7,False
+SC1,2425,2024-09-28,Raith Rvs,Falkirk,7,14,False
+SC1,2425,2024-09-28,Hamilton,Partick,7,7,False
+SC1,2425,2024-09-28,Dunfermline,Queens Park,7,7,False
+SC1,2425,2024-09-28,Ayr,Morton,7,7,False
+SC1,2425,2024-10-05,Partick,Livingston,7,7,False
+SC1,2425,2024-10-05,Queens Park,Hamilton,7,7,False
+SC1,2425,2024-10-05,Airdrie Utd,Dunfermline,7,7,False
+SC1,2425,2024-10-05,Falkirk,Ayr,7,7,False
+SC1,2425,2024-10-05,Morton,Raith Rvs,7,7,False
+SC1,2425,2024-10-08,Falkirk,Livingston,3,3,True
+SC1,2425,2024-10-12,Partick,Falkirk,7,4,False
+SC1,2425,2024-10-18,Hamilton,Falkirk,13,6,False
+SC1,2425,2024-10-19,Ayr,Livingston,14,11,False
+SC1,2425,2024-10-19,Raith Rvs,Queens Park,14,14,False
+SC1,2425,2024-10-19,Dunfermline,Morton,14,14,False
+SC1,2425,2024-10-19,Partick,Airdrie Utd,7,14,False
+SC1,2425,2024-10-26,Hamilton,Morton,8,7,False
+SC1,2425,2024-10-26,Airdrie Utd,Ayr,7,7,False
+SC1,2425,2024-10-26,Falkirk,Dunfermline,8,7,False
+SC1,2425,2024-10-26,Livingston,Raith Rvs,7,7,False
+SC1,2425,2024-10-26,Queens Park,Partick,7,7,False
+SC1,2425,2024-10-29,Raith Rvs,Airdrie Utd,3,3,True
+SC1,2425,2024-10-29,Dunfermline,Livingston,3,3,True
+SC1,2425,2024-10-29,Morton,Queens Park,3,3,True
+SC1,2425,2024-11-01,Raith Rvs,Ayr,3,6,False
+SC1,2425,2024-11-02,Falkirk,Morton,7,4,False
+SC1,2425,2024-11-02,Livingston,Queens Park,4,4,False
+SC1,2425,2024-11-02,Airdrie Utd,Hamilton,4,7,False
+SC1,2425,2024-11-02,Dunfermline,Partick,4,7,False
+SC1,2425,2024-11-08,Morton,Ayr,6,7,False
+SC1,2425,2024-11-09,Queens Park,Dunfermline,7,7,False
+SC1,2425,2024-11-09,Partick,Raith Rvs,7,8,False
+SC1,2425,2024-11-09,Falkirk,Airdrie Utd,7,7,False
+SC1,2425,2024-11-09,Hamilton,Livingston,7,7,False
+SC1,2425,2024-11-16,Livingston,Falkirk,7,7,False
+SC1,2425,2024-11-16,Raith Rvs,Morton,7,8,False
+SC1,2425,2024-11-16,Partick,Hamilton,7,7,False
+SC1,2425,2024-11-16,Ayr,Queens Park,8,7,False
+SC1,2425,2024-11-16,Dunfermline,Airdrie Utd,7,7,False
+SC1,2425,2024-11-22,Queens Park,Falkirk,6,6,False
+SC1,2425,2024-11-23,Ayr,Dunfermline,7,7,False
+SC1,2425,2024-12-07,Partick,Ayr,21,14,False
+SC1,2425,2024-12-07,Dunfermline,Hamilton,14,21,False
+SC1,2425,2024-12-07,Falkirk,Raith Rvs,15,21,False
+SC1,2425,2024-12-07,Morton,Livingston,21,21,False
+SC1,2425,2024-12-07,Queens Park,Airdrie Utd,15,21,False
+SC1,2425,2024-12-13,Livingston,Partick,6,6,False
+SC1,2425,2024-12-14,Raith Rvs,Dunfermline,7,7,False
+SC1,2425,2024-12-14,Hamilton,Queens Park,7,7,False
+SC1,2425,2024-12-14,Ayr,Falkirk,7,7,False
+SC1,2425,2024-12-14,Airdrie Utd,Morton,7,7,False
+SC1,2425,2024-12-17,Airdrie Utd,Livingston,3,4,True
+SC1,2425,2024-12-20,Queens Park,Raith Rvs,6,6,False
+SC1,2425,2024-12-21,Morton,Dunfermline,7,7,False
+SC1,2425,2024-12-21,Falkirk,Hamilton,7,7,False
+SC1,2425,2024-12-21,Livingston,Ayr,4,7,False
+SC1,2425,2024-12-21,Airdrie Utd,Partick,4,8,False
+SC1,2425,2024-12-27,Dunfermline,Falkirk,6,6,False
+SC1,2425,2024-12-28,Partick,Queens Park,7,8,False
+SC1,2425,2024-12-28,Raith Rvs,Livingston,8,7,False
+SC1,2425,2024-12-28,Ayr,Morton,7,7,False
+SC1,2425,2024-12-28,Hamilton,Airdrie Utd,7,7,False
+SC1,2425,2024-12-31,Morton,Partick,3,3,True
+SC1,2425,2025-01-04,Queens Park,Livingston,7,7,False
+SC1,2425,2025-01-04,Ayr,Raith Rvs,7,7,False
+SC1,2425,2025-01-04,Partick,Dunfermline,4,8,False
+SC1,2425,2025-01-10,Hamilton,Partick,13,6,False
+SC1,2425,2025-01-11,Falkirk,Queens Park,15,7,False
+SC1,2425,2025-01-14,Dunfermline,Ayr,10,10,True
+SC1,2425,2025-01-14,Livingston,Airdrie Utd,10,17,True
+SC1,2425,2025-01-25,Queens Park,Morton,14,25,False
+SC1,2425,2025-01-25,Raith Rvs,Falkirk,21,14,False
+SC1,2425,2025-01-25,Ayr,Partick,11,15,False
+SC1,2425,2025-01-25,Livingston,Hamilton,11,15,False
+SC1,2425,2025-01-25,Airdrie Utd,Dunfermline,11,11,False
+SC1,2425,2025-01-28,Hamilton,Raith Rvs,3,3,True
+SC1,2425,2025-01-31,Falkirk,Livingston,6,6,False
+SC1,2425,2025-02-01,Partick,Morton,7,7,False
+SC1,2425,2025-02-01,Dunfermline,Raith Rvs,7,4,False
+SC1,2425,2025-02-01,Hamilton,Ayr,4,7,False
+SC1,2425,2025-02-01,Airdrie Utd,Queens Park,7,7,False
+SC1,2425,2025-02-08,Falkirk,Partick,8,7,False
+SC1,2425,2025-02-15,Queens Park,Hamilton,14,14,False
+SC1,2425,2025-02-15,Raith Rvs,Partick,14,7,False
+SC1,2425,2025-02-15,Morton,Airdrie Utd,14,14,False
+SC1,2425,2025-02-15,Falkirk,Ayr,7,14,False
+SC1,2425,2025-02-15,Livingston,Dunfermline,15,14,False
+SC1,2425,2025-02-18,Morton,Hamilton,3,3,True
+SC1,2425,2025-02-21,Morton,Falkirk,3,6,False
+SC1,2425,2025-02-22,Ayr,Livingston,7,7,False
+SC1,2425,2025-02-22,Dunfermline,Queens Park,7,7,False
+SC1,2425,2025-02-22,Partick,Airdrie Utd,7,7,False
+SC1,2425,2025-02-22,Raith Rvs,Hamilton,7,4,False
+SC1,2425,2025-02-25,Livingston,Morton,3,4,True
+SC1,2425,2025-02-25,Airdrie Utd,Raith Rvs,3,3,True
+SC1,2425,2025-02-25,Hamilton,Dunfermline,3,3,True
+SC1,2425,2025-02-28,Partick,Livingston,6,3,False
+SC1,2425,2025-03-01,Raith Rvs,Queens Park,4,7,False
+SC1,2425,2025-03-01,Hamilton,Falkirk,4,8,False
+SC1,2425,2025-03-01,Dunfermline,Morton,4,4,False
+SC1,2425,2025-03-01,Ayr,Airdrie Utd,7,4,False
+SC1,2425,2025-03-04,Queens Park,Ayr,3,3,True
+SC1,2425,2025-03-04,Airdrie Utd,Falkirk,3,3,True
+SC1,2425,2025-03-05,Livingston,Raith Rvs,5,4,True
+SC1,2425,2025-03-08,Airdrie Utd,Hamilton,4,7,False
+SC1,2425,2025-03-08,Falkirk,Dunfermline,4,7,False
+SC1,2425,2025-03-08,Morton,Ayr,7,4,False
+SC1,2425,2025-03-11,Queens Park,Partick,7,11,True
+SC1,2425,2025-03-14,Raith Rvs,Dunfermline,9,6,False
+SC1,2425,2025-03-15,Airdrie Utd,Livingston,7,10,False
+SC1,2425,2025-03-15,Hamilton,Morton,7,7,False
+SC1,2425,2025-03-15,Partick,Ayr,4,7,False
+SC1,2425,2025-03-15,Queens Park,Falkirk,4,7,False
+SC1,2425,2025-03-21,Partick,Raith Rvs,6,7,False
+SC1,2425,2025-03-22,Morton,Queens Park,7,7,False
+SC1,2425,2025-03-22,Falkirk,Airdrie Utd,7,7,False
+SC1,2425,2025-03-22,Ayr,Hamilton,7,7,False
+SC1,2425,2025-03-25,Morton,Raith Rvs,3,4,True
+SC1,2425,2025-03-25,Livingston,Falkirk,10,3,True
+SC1,2425,2025-03-29,Hamilton,Raith Rvs,7,4,False
+SC1,2425,2025-03-29,Morton,Partick,4,8,False
+SC1,2425,2025-03-29,Ayr,Dunfermline,7,15,False
+SC1,2425,2025-04-02,Dunfermline,Livingston,4,8,True
+SC1,2425,2025-04-02,Queens Park,Airdrie Utd,11,11,True
+SC1,2425,2025-04-05,Livingston,Queens Park,3,3,False
+SC1,2425,2025-04-05,Raith Rvs,Ayr,7,7,False
+SC1,2425,2025-04-05,Dunfermline,Hamilton,3,7,False
+SC1,2425,2025-04-05,Falkirk,Morton,11,7,False
+SC1,2425,2025-04-05,Airdrie Utd,Partick,3,7,False
+SC1,2425,2025-04-11,Ayr,Falkirk,6,6,False
+SC1,2425,2025-04-12,Raith Rvs,Airdrie Utd,7,7,False
+SC1,2425,2025-04-12,Queens Park,Dunfermline,7,7,False
+SC1,2425,2025-04-12,Morton,Livingston,7,7,False
+SC1,2425,2025-04-12,Partick,Hamilton,7,7,False
+SC1,2425,2025-04-18,Livingston,Ayr,6,7,False
+SC1,2425,2025-04-19,Hamilton,Queens Park,7,7,False
+SC1,2425,2025-04-19,Falkirk,Raith Rvs,8,7,False
+SC1,2425,2025-04-19,Airdrie Utd,Morton,7,7,False
+SC1,2425,2025-04-19,Dunfermline,Partick,7,7,False
+SC1,2425,2025-04-25,Partick,Falkirk,6,6,False
+SC1,2425,2025-04-26,Raith Rvs,Morton,7,7,False
+SC1,2425,2025-04-26,Hamilton,Livingston,7,8,False
+SC1,2425,2025-04-26,Ayr,Queens Park,8,7,False
+SC1,2425,2025-04-26,Dunfermline,Airdrie Utd,7,7,False
+SC1,2425,2025-05-02,Morton,Dunfermline,6,6,False
+SC1,2425,2025-05-02,Queens Park,Raith Rvs,6,6,False
+SC1,2425,2025-05-02,Airdrie Utd,Ayr,6,6,False
+SC1,2425,2025-05-02,Falkirk,Hamilton,7,6,False
+SC1,2425,2025-05-02,Livingston,Partick,6,7,False

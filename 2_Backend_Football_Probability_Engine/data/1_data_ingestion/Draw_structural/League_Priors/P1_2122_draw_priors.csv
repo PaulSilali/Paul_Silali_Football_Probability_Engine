@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2021-08-06,Sp Lisbon,Vizela,3,0,H,0
+2021-08-07,Arouca,Estoril,0,2,A,0
+2021-08-07,Maritimo,Sp Braga,0,2,A,0
+2021-08-07,Moreirense,Benfica,1,2,A,0
+2021-08-08,Porto,Belenenses,2,0,H,0
+2021-08-08,Guimaraes,Portimonense,0,1,A,0
+2021-08-08,Tondela,Santa Clara,3,0,H,0
+2021-08-08,Pacos Ferreira,Famalicao,2,0,H,0
+2021-08-09,Gil Vicente,Boavista,3,0,H,0
+2021-08-13,Estoril,Guimaraes,0,0,D,1
+2021-08-14,Benfica,Arouca,2,0,H,0
+2021-08-14,Sp Braga,Sp Lisbon,1,2,A,0
+2021-08-14,Vizela,Tondela,2,1,H,0
+2021-08-15,Famalicao,Porto,1,2,A,0
+2021-08-15,Santa Clara,Moreirense,2,2,D,1
+2021-08-15,Portimonense,Gil Vicente,0,1,A,0
+2021-08-16,Belenenses,Maritimo,1,2,A,0
+2021-08-16,Boavista,Pacos Ferreira,3,0,H,0
+2021-08-20,Moreirense,Sp Braga,2,3,A,0
+2021-08-20,Arouca,Famalicao,2,1,H,0
+2021-08-21,Sp Lisbon,Belenenses,2,0,H,0
+2021-08-21,Gil Vicente,Benfica,0,2,A,0
+2021-08-22,Maritimo,Porto,1,1,D,1
+2021-08-22,Guimaraes,Vizela,4,0,H,0
+2021-08-22,Tondela,Portimonense,0,3,A,0
+2021-08-23,Boavista,Santa Clara,2,0,H,0
+2021-08-23,Pacos Ferreira,Estoril,1,3,A,0
+2021-08-27,Estoril,Maritimo,2,1,H,0
+2021-08-27,Belenenses,Moreirense,1,1,D,1
+2021-08-28,Porto,Arouca,3,0,H,0
+2021-08-28,Famalicao,Sp Lisbon,1,1,D,1
+2021-08-28,Vizela,Boavista,1,1,D,1
+2021-08-29,Portimonense,Pacos Ferreira,0,1,A,0
+2021-08-29,Santa Clara,Gil Vicente,1,0,H,0
+2021-08-29,Benfica,Tondela,2,1,H,0
+2021-08-29,Sp Braga,Guimaraes,0,0,D,1
+2021-09-11,Pacos Ferreira,Sp Braga,0,0,D,1
+2021-09-11,Santa Clara,Benfica,0,5,A,0
+2021-09-11,Sp Lisbon,Porto,1,1,D,1
+2021-09-12,Moreirense,Famalicao,2,2,D,1
+2021-09-12,Boavista,Portimonense,1,1,D,1
+2021-09-12,Gil Vicente,Vizela,2,2,D,1
+2021-09-12,Guimaraes,Belenenses,0,0,D,1
+2021-09-13,Tondela,Estoril,1,2,A,0
+2021-09-13,Maritimo,Arouca,2,2,D,1
+2021-09-17,Portimonense,Santa Clara,2,1,H,0
+2021-09-18,Belenenses,Gil Vicente,1,1,D,1
+2021-09-18,Arouca,Guimaraes,2,2,D,1
+2021-09-18,Famalicao,Maritimo,0,0,D,1
+2021-09-19,Porto,Moreirense,5,0,H,0
+2021-09-19,Estoril,Sp Lisbon,0,1,A,0
+2021-09-19,Vizela,Pacos Ferreira,1,1,D,1
+2021-09-20,Sp Braga,Tondela,3,1,H,0
+2021-09-20,Benfica,Boavista,3,1,H,0
+2021-09-24,Gil Vicente,Porto,1,2,A,0
+2021-09-24,Sp Lisbon,Maritimo,1,0,H,0
+2021-09-25,Guimaraes,Benfica,1,3,A,0
+2021-09-25,Tondela,Famalicao,3,2,H,0
+2021-09-25,Moreirense,Arouca,2,1,H,0
+2021-09-26,Portimonense,Vizela,0,0,D,1
+2021-09-26,Santa Clara,Sp Braga,1,1,D,1
+2021-09-27,Boavista,Estoril,1,1,D,1
+2021-09-27,Pacos Ferreira,Belenenses,2,2,D,1
+2021-10-01,Famalicao,Guimaraes,1,2,A,0
+2021-10-01,Maritimo,Moreirense,0,0,D,1
+2021-10-02,Porto,Pacos Ferreira,2,1,H,0
+2021-10-02,Arouca,Sp Lisbon,1,2,A,0
+2021-10-02,Vizela,Santa Clara,1,1,D,1
+2021-10-03,Benfica,Portimonense,0,1,A,0
+2021-10-03,Estoril,Gil Vicente,2,2,D,1
+2021-10-03,Sp Braga,Boavista,2,2,D,1
+2021-10-03,Belenenses,Tondela,0,2,A,0
+2021-10-22,Guimaraes,Maritimo,2,1,H,0
+2021-10-23,Santa Clara,Famalicao,0,2,A,0
+2021-10-23,Tondela,Porto,1,3,A,0
+2021-10-23,Sp Lisbon,Moreirense,1,0,H,0
+2021-10-24,Vizela,Benfica,0,1,A,0
+2021-10-24,Pacos Ferreira,Arouca,0,0,D,1
+2021-10-24,Portimonense,Estoril,0,2,A,0
+2021-10-25,Gil Vicente,Sp Braga,0,1,A,0
+2021-10-25,Boavista,Belenenses,0,0,D,1
+2021-10-29,Arouca,Tondela,2,0,H,0
+2021-10-30,Estoril,Benfica,1,1,D,1
+2021-10-30,Sp Lisbon,Guimaraes,1,0,H,0
+2021-10-30,Porto,Boavista,4,1,H,0
+2021-10-31,Belenenses,Santa Clara,2,1,H,0
+2021-10-31,Famalicao,Vizela,1,1,D,1
+2021-10-31,Maritimo,Gil Vicente,1,2,A,0
+2021-11-01,Moreirense,Pacos Ferreira,1,1,D,1
+2021-11-01,Sp Braga,Portimonense,3,0,H,0
+2021-11-05,Boavista,Famalicao,2,5,A,0
+2021-11-05,Gil Vicente,Arouca,1,1,D,1
+2021-11-06,Portimonense,Belenenses,2,0,H,0
+2021-11-06,Guimaraes,Moreirense,2,1,H,0
+2021-11-06,Vizela,Estoril,1,1,D,1
+2021-11-07,Santa Clara,Porto,0,3,A,0
+2021-11-07,Pacos Ferreira,Sp Lisbon,0,2,A,0
+2021-11-07,Benfica,Sp Braga,6,1,H,0
+2021-11-07,Tondela,Maritimo,4,2,H,0
+2021-11-26,Moreirense,Gil Vicente,2,2,D,1
+2021-11-27,Arouca,Boavista,2,1,H,0
+2021-11-27,Belenenses,Benfica,0,7,A,0
+2021-11-27,Famalicao,Portimonense,0,3,A,0
+2021-11-28,Sp Lisbon,Tondela,2,0,H,0
+2021-11-28,Porto,Guimaraes,2,1,H,0
+2021-11-28,Maritimo,Pacos Ferreira,2,0,H,0
+2021-11-29,Estoril,Santa Clara,2,2,D,1
+2021-11-30,Sp Braga,Vizela,4,1,H,0
+2021-12-03,Benfica,Sp Lisbon,1,3,A,0
+2021-12-03,Portimonense,Porto,0,3,A,0
+2021-12-04,Pacos Ferreira,Guimaraes,1,2,A,0
+2021-12-04,Boavista,Maritimo,1,1,D,1
+2021-12-05,Santa Clara,Arouca,2,1,H,0
+2021-12-05,Gil Vicente,Famalicao,4,0,H,0
+2021-12-05,Sp Braga,Estoril,2,0,H,0
+2021-12-10,Pacos Ferreira,Gil Vicente,0,1,A,0
+2021-12-11,Guimaraes,Tondela,5,2,H,0
+2021-12-11,Maritimo,Santa Clara,4,1,H,0
+2021-12-11,Sp Lisbon,Boavista,2,0,H,0
+2021-12-12,Moreirense,Portimonense,0,1,A,0
+2021-12-12,Famalicao,Benfica,1,4,A,0
+2021-12-12,Porto,Sp Braga,1,0,H,0
+2021-12-12,Belenenses,Estoril,0,1,A,0
+2021-12-13,Arouca,Vizela,1,4,A,0
+2021-12-17,Estoril,Famalicao,2,2,D,1
+2021-12-17,Santa Clara,Guimaraes,1,0,H,0
+2021-12-18,Tondela,Pacos Ferreira,0,1,A,0
+2021-12-18,Gil Vicente,Sp Lisbon,0,3,A,0
+2021-12-18,Portimonense,Arouca,1,1,D,1
+2021-12-19,Boavista,Moreirense,1,0,H,0
+2021-12-19,Vizela,Porto,0,4,A,0
+2021-12-19,Sp Braga,Belenenses,1,0,H,0
+2021-12-19,Benfica,Maritimo,7,1,H,0
+2021-12-28,Maritimo,Vizela,2,0,H,0
+2021-12-28,Moreirense,Estoril,1,0,H,0
+2021-12-28,Tondela,Gil Vicente,0,3,A,0
+2021-12-29,Sp Lisbon,Portimonense,3,2,H,0
+2021-12-29,Guimaraes,Boavista,1,1,D,1
+2021-12-30,Arouca,Sp Braga,0,6,A,0
+2021-12-30,Porto,Benfica,3,1,H,0
+2021-12-30,Pacos Ferreira,Santa Clara,2,1,H,0
+2022-01-02,Vizela,Belenenses,2,0,H,0
+2022-01-03,Tondela,Moreirense,2,1,H,0
+2022-01-07,Santa Clara,Sp Lisbon,3,2,H,0
+2022-01-08,Estoril,Porto,2,3,A,0
+2022-01-08,Boavista,Tondela,1,1,D,1
+2022-01-08,Vizela,Moreirense,0,1,A,0
+2022-01-09,Benfica,Pacos Ferreira,2,0,H,0
+2022-01-09,Sp Braga,Famalicao,2,2,D,1
+2022-01-09,Belenenses,Arouca,2,1,H,0
+2022-01-09,Portimonense,Maritimo,1,2,A,0
+2022-01-10,Gil Vicente,Guimaraes,3,2,H,0
+2022-01-13,Famalicao,Belenenses,1,0,H,0
+2022-01-15,Benfica,Moreirense,1,1,D,1
+2022-01-15,Boavista,Gil Vicente,1,1,D,1
+2022-01-15,Sp Braga,Maritimo,0,1,A,0
+2022-01-16,Vizela,Sp Lisbon,0,2,A,0
+2022-01-16,Santa Clara,Tondela,2,2,D,1
+2022-01-16,Famalicao,Pacos Ferreira,0,0,D,1
+2022-01-16,Belenenses,Porto,1,4,A,0
+2022-01-17,Portimonense,Guimaraes,1,1,D,1
+2022-01-21,Pacos Ferreira,Boavista,1,1,D,1
+2022-01-21,Arouca,Benfica,0,2,A,0
+2022-01-22,Tondela,Vizela,2,3,A,0
+2022-01-22,Sp Lisbon,Sp Braga,1,2,A,0
+2022-01-22,Moreirense,Santa Clara,0,2,A,0
+2022-01-23,Maritimo,Belenenses,1,1,D,1
+2022-01-23,Gil Vicente,Portimonense,1,0,H,0
+2022-01-23,Porto,Famalicao,3,1,H,0
+2022-01-23,Guimaraes,Estoril,3,1,H,0
+2022-01-27,Estoril,Arouca,1,2,A,0
+2022-01-30,Vizela,Guimaraes,3,2,H,0
+2022-01-30,Sp Braga,Moreirense,2,0,H,0
+2022-01-30,Porto,Maritimo,2,1,H,0
+2022-01-30,Portimonense,Tondela,1,2,A,0
+2022-01-31,Famalicao,Arouca,0,0,D,1
+2022-01-31,Estoril,Pacos Ferreira,0,0,D,1
+2022-02-01,Santa Clara,Boavista,2,1,H,0
+2022-02-02,Belenenses,Sp Lisbon,1,4,A,0
+2022-02-02,Benfica,Gil Vicente,1,2,A,0
+2022-02-05,Pacos Ferreira,Portimonense,1,1,D,1
+2022-02-05,Guimaraes,Sp Braga,2,1,H,0
+2022-02-05,Maritimo,Estoril,0,0,D,1
+2022-02-06,Gil Vicente,Santa Clara,2,2,D,1
+2022-02-06,Arouca,Porto,0,2,A,0
+2022-02-06,Sp Lisbon,Famalicao,2,0,H,0
+2022-02-06,Boavista,Vizela,2,2,D,1
+2022-02-07,Moreirense,Belenenses,4,1,H,0
+2022-02-07,Tondela,Benfica,1,3,A,0
+2022-02-11,Porto,Sp Lisbon,2,2,D,1
+2022-02-12,Estoril,Tondela,1,0,H,0
+2022-02-12,Benfica,Santa Clara,2,1,H,0
+2022-02-12,Sp Braga,Pacos Ferreira,2,1,H,0
+2022-02-12,Portimonense,Boavista,1,1,D,1
+2022-02-13,Famalicao,Moreirense,5,0,H,0
+2022-02-13,Belenenses,Guimaraes,1,0,H,0
+2022-02-13,Vizela,Gil Vicente,0,1,A,0
+2022-02-14,Arouca,Maritimo,0,3,A,0
+2022-02-18,Boavista,Benfica,2,2,D,1
+2022-02-19,Pacos Ferreira,Vizela,2,1,H,0
+2022-02-19,Guimaraes,Arouca,1,3,A,0
+2022-02-19,Gil Vicente,Belenenses,2,0,H,0
+2022-02-20,Sp Lisbon,Estoril,3,0,H,0
+2022-02-20,Moreirense,Porto,0,1,A,0
+2022-02-20,Tondela,Sp Braga,0,1,A,0
+2022-02-20,Maritimo,Famalicao,0,1,A,0
+2022-02-21,Santa Clara,Portimonense,1,1,D,1
+2022-02-25,Belenenses,Pacos Ferreira,0,2,A,0
+2022-02-26,Maritimo,Sp Lisbon,1,1,D,1
+2022-02-26,Arouca,Moreirense,1,1,D,1
+2022-02-26,Famalicao,Tondela,2,1,H,0
+2022-02-27,Benfica,Guimaraes,3,0,H,0
+2022-02-27,Estoril,Boavista,2,3,A,0
+2022-02-27,Porto,Gil Vicente,1,1,D,1
+2022-02-27,Vizela,Portimonense,1,1,D,1
+2022-02-28,Sp Braga,Santa Clara,0,0,D,1
+2022-03-04,Gil Vicente,Estoril,0,0,D,1
+2022-03-05,Portimonense,Benfica,1,2,A,0
+2022-03-05,Sp Lisbon,Arouca,2,0,H,0
+2022-03-05,Boavista,Sp Braga,1,1,D,1
+2022-03-06,Pacos Ferreira,Porto,2,4,A,0
+2022-03-06,Guimaraes,Famalicao,2,1,H,0
+2022-03-06,Santa Clara,Vizela,3,1,H,0
+2022-03-06,Moreirense,Maritimo,0,1,A,0
+2022-03-07,Tondela,Belenenses,1,1,D,1
+2022-03-11,Benfica,Vizela,1,1,D,1
+2022-03-12,Estoril,Portimonense,2,0,H,0
+2022-03-12,Famalicao,Santa Clara,0,0,D,1
+2022-03-12,Arouca,Pacos Ferreira,0,1,A,0
+2022-03-12,Belenenses,Boavista,0,0,D,1
+2022-03-13,Sp Braga,Gil Vicente,0,1,A,0
+2022-03-13,Maritimo,Guimaraes,0,1,A,0
+2022-03-13,Porto,Tondela,4,0,H,0
+2022-03-14,Moreirense,Sp Lisbon,0,2,A,0
+2022-03-18,Vizela,Famalicao,1,1,D,1
+2022-03-19,Santa Clara,Belenenses,0,0,D,1
+2022-03-19,Guimaraes,Sp Lisbon,1,3,A,0
+2022-03-19,Tondela,Arouca,2,2,D,1
+2022-03-20,Pacos Ferreira,Moreirense,2,1,H,0
+2022-03-20,Benfica,Estoril,2,1,H,0
+2022-03-20,Portimonense,Sp Braga,1,2,A,0
+2022-03-20,Boavista,Porto,0,1,A,0
+2022-03-20,Gil Vicente,Maritimo,1,1,D,1
+2022-04-01,Sp Braga,Benfica,3,2,H,0
+2022-04-02,Arouca,Gil Vicente,2,1,H,0
+2022-04-02,Estoril,Vizela,1,2,A,0
+2022-04-02,Famalicao,Boavista,1,2,A,0
+2022-04-02,Belenenses,Portimonense,2,0,H,0
+2022-04-03,Moreirense,Guimaraes,0,1,A,0
+2022-04-03,Sp Lisbon,Pacos Ferreira,2,0,H,0
+2022-04-03,Maritimo,Tondela,1,3,A,0
+2022-04-04,Porto,Santa Clara,3,0,H,0
+2022-04-08,Gil Vicente,Moreirense,1,2,A,0
+2022-04-09,Benfica,Belenenses,3,1,H,0
+2022-04-09,Boavista,Arouca,1,0,H,0
+2022-04-09,Tondela,Sp Lisbon,1,3,A,0
+2022-04-09,Pacos Ferreira,Maritimo,2,0,H,0
+2022-04-10,Santa Clara,Estoril,2,0,H,0
+2022-04-10,Guimaraes,Porto,0,1,A,0
+2022-04-10,Vizela,Sp Braga,0,1,A,0
+2022-04-10,Portimonense,Famalicao,1,0,H,0
+2022-04-15,Famalicao,Gil Vicente,2,2,D,1
+2022-04-15,Guimaraes,Pacos Ferreira,4,0,H,0
+2022-04-15,Arouca,Santa Clara,1,1,D,1
+2022-04-16,Belenenses,Vizela,1,0,H,0
+2022-04-16,Maritimo,Boavista,4,0,H,0
+2022-04-16,Porto,Portimonense,7,0,H,0
+2022-04-16,Moreirense,Tondela,2,0,H,0
+2022-04-17,Sp Lisbon,Benfica,0,2,A,0
+2022-04-18,Estoril,Sp Braga,0,0,D,1
+2022-04-22,Vizela,Arouca,2,1,H,0
+2022-04-23,Benfica,Famalicao,0,0,D,1
+2022-04-23,Santa Clara,Maritimo,2,2,D,1
+2022-04-23,Gil Vicente,Pacos Ferreira,1,1,D,1
+2022-04-23,Portimonense,Moreirense,1,0,H,0
+2022-04-24,Tondela,Guimaraes,1,1,D,1
+2022-04-24,Estoril,Belenenses,2,2,D,1
+2022-04-25,Boavista,Sp Lisbon,0,3,A,0
+2022-04-25,Sp Braga,Porto,1,0,H,0
+2022-04-29,Famalicao,Estoril,3,1,H,0
+2022-04-30,Maritimo,Benfica,0,1,A,0
+2022-04-30,Porto,Vizela,4,2,H,0
+2022-04-30,Belenenses,Sp Braga,0,1,A,0
+2022-04-30,Arouca,Portimonense,1,0,H,0
+2022-05-01,Moreirense,Boavista,1,2,A,0
+2022-05-01,Sp Lisbon,Gil Vicente,4,1,H,0
+2022-05-01,Guimaraes,Santa Clara,1,1,D,1
+2022-05-02,Pacos Ferreira,Tondela,1,1,D,1
+2022-05-06,Boavista,Guimaraes,1,1,D,1
+2022-05-07,Benfica,Porto,0,1,A,0
+2022-05-07,Portimonense,Sp Lisbon,2,3,A,0
+2022-05-07,Estoril,Moreirense,1,0,H,0
+2022-05-08,Vizela,Maritimo,1,1,D,1
+2022-05-08,Sp Braga,Arouca,1,0,H,0
+2022-05-08,Santa Clara,Pacos Ferreira,2,0,H,0
+2022-05-08,Gil Vicente,Tondela,3,0,H,0
+2022-05-09,Belenenses,Famalicao,2,3,A,0
+2022-05-13,Pacos Ferreira,Benfica,0,2,A,0
+2022-05-14,Arouca,Belenenses,0,0,D,1
+2022-05-14,Tondela,Boavista,2,2,D,1
+2022-05-14,Maritimo,Portimonense,0,1,A,0
+2022-05-14,Porto,Estoril,2,0,H,0
+2022-05-14,Sp Lisbon,Santa Clara,4,0,H,0
+2022-05-14,Moreirense,Vizela,4,1,H,0
+2022-05-15,Guimaraes,Gil Vicente,5,0,H,0
+2022-05-15,Famalicao,Sp Braga,3,2,H,0

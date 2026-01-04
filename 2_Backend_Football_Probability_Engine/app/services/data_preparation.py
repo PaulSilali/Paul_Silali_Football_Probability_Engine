@@ -427,7 +427,10 @@ class DataPreparationService:
     
     def _load_from_batch_csv_files(self, league_code: str, league_name: str) -> Optional[pd.DataFrame]:
         """
-        Load data from batch CSV files in data/1_data_ingestion/batch_* folders
+        Load data from CSV files in:
+        1. New structure: data/1_data_ingestion/Historical Match_Odds_Data/{session_folder}/{league_code}/
+        2. Moved batch folders: data/1_data_ingestion/Historical Match_Odds_Data/batch_*/
+        3. Old structure: data/1_data_ingestion/batch_*/ (for backward compatibility)
         
         Args:
             league_code: League code (e.g., "E0")
@@ -439,31 +442,44 @@ class DataPreparationService:
         import glob
         from pathlib import Path
         
-        # Find batch folders matching the league
-        batch_dir = Path("data/1_data_ingestion")
-        if not batch_dir.exists():
-            logger.warning(f"Batch directory {batch_dir} does not exist")
-            return None
+        # Check both old batch folder structure and new Historical Match_Odds_Data structure
+        base_dir = Path("data/1_data_ingestion")
+        historical_data_dir = base_dir / "Historical Match_Odds_Data"
         
-        # Find all batch folders that contain this league's CSV files
-        # Pattern: batch_*_{league_name}/
-        league_name_safe = league_name.replace(' ', '_').replace('/', '_')
-        league_name_safe = ''.join(c for c in league_name_safe if c.isalnum() or c in ('_', '-'))
-        
-        # Try to find batch folders
-        batch_folders = []
-        for folder in batch_dir.iterdir():
-            if folder.is_dir() and folder.name.startswith("batch_") and league_name_safe in folder.name:
-                batch_folders.append(folder)
-        
-        # Also search for CSV files with the league code pattern
         csv_files = []
-        for folder in batch_dir.iterdir():
-            if folder.is_dir() and folder.name.startswith("batch_"):
-                # Look for CSV files matching league code
-                pattern = f"{league_code}_*.csv"
-                found_files = list(folder.glob(pattern))
-                csv_files.extend(found_files)
+        
+        # First, check new structure: Historical Match_Odds_Data/{session_folder}/{league_code}/
+        if historical_data_dir.exists():
+            for session_folder in historical_data_dir.iterdir():
+                if session_folder.is_dir():
+                    league_folder = session_folder / league_code
+                    if league_folder.exists():
+                        # Look for CSV files matching league code
+                        pattern = f"{league_code}_*.csv"
+                        found_files = list(league_folder.glob(pattern))
+                        csv_files.extend(found_files)
+            
+            # Also check for batch folders that were moved to Historical Match_Odds_Data
+            for folder in historical_data_dir.iterdir():
+                if folder.is_dir() and folder.name.startswith("batch_"):
+                    # Look for CSV files matching league code
+                    pattern = f"{league_code}_*.csv"
+                    found_files = list(folder.glob(pattern))
+                    csv_files.extend(found_files)
+        
+        # Then, check old structure: data/1_data_ingestion/batch_*/
+        if base_dir.exists():
+            # Find all batch folders that contain this league's CSV files
+            # Pattern: batch_*_{league_name}/
+            league_name_safe = league_name.replace(' ', '_').replace('/', '_')
+            league_name_safe = ''.join(c for c in league_name_safe if c.isalnum() or c in ('_', '-'))
+            
+            for folder in base_dir.iterdir():
+                if folder.is_dir() and folder.name.startswith("batch_"):
+                    # Look for CSV files matching league code
+                    pattern = f"{league_code}_*.csv"
+                    found_files = list(folder.glob(pattern))
+                    csv_files.extend(found_files)
         
         if not csv_files:
             logger.warning(f"No CSV files found for league {league_code} in batch folders")

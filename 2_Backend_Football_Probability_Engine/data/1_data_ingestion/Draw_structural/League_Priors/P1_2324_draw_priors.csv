@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2023-08-11,Sp Braga,Famalicao,1,2,A,0
+2023-08-12,Gil Vicente,Portimonense,5,0,H,0
+2023-08-12,Sp Lisbon,Vizela,3,2,H,0
+2023-08-12,Farense,Casa Pia,0,3,A,0
+2023-08-13,Arouca,Estoril,4,3,H,0
+2023-08-13,Estoril,Guimaraes,0,1,A,0
+2023-08-13,Rio Ave,Chaves,2,0,H,0
+2023-08-14,Moreirense,Porto,1,2,A,0
+2023-08-14,Boavista,Benfica,3,2,H,0
+2023-08-18,Casa Pia,Sp Lisbon,1,2,A,0
+2023-08-19,Portimonense,Boavista,1,4,A,0
+2023-08-19,Guimaraes,Gil Vicente,2,1,H,0
+2023-08-19,Chaves,Sp Braga,2,4,A,0
+2023-08-19,Benfica,Estoril,2,0,H,0
+2023-08-20,Vizela,Arouca,2,2,D,1
+2023-08-20,Estoril,Rio Ave,2,0,H,0
+2023-08-20,Porto,Farense,2,1,H,0
+2023-08-21,Famalicao,Moreirense,0,0,D,1
+2023-08-25,Estoril,Estoril,2,1,H,0
+2023-08-26,Gil Vicente,Benfica,2,3,A,0
+2023-08-26,Farense,Chaves,5,0,H,0
+2023-08-26,Arouca,Portimonense,1,1,D,1
+2023-08-27,Boavista,Casa Pia,1,1,D,1
+2023-08-27,Sp Lisbon,Famalicao,1,0,H,0
+2023-08-27,Guimaraes,Vizela,2,0,H,0
+2023-08-28,Rio Ave,Porto,1,2,A,0
+2023-09-01,Vizela,Gil Vicente,1,0,H,0
+2023-09-02,Benfica,Guimaraes,4,0,H,0
+2023-09-02,Portimonense,Estoril,1,1,D,1
+2023-09-02,Famalicao,Farense,1,0,H,0
+2023-09-02,Casa Pia,Rio Ave,1,1,D,1
+2023-09-03,Sp Braga,Sp Lisbon,1,1,D,1
+2023-09-03,Chaves,Moreirense,1,2,A,0
+2023-09-03,Estoril,Boavista,1,2,A,0
+2023-09-03,Porto,Arouca,1,1,D,1
+2023-09-09,Moreirense,Sp Braga,2,3,A,0
+2023-09-15,Estoril,Porto,0,1,A,0
+2023-09-16,Farense,Sp Braga,3,1,H,0
+2023-09-16,Vizela,Benfica,1,2,A,0
+2023-09-16,Rio Ave,Famalicao,1,1,D,1
+2023-09-17,Sp Lisbon,Moreirense,3,0,H,0
+2023-09-17,Arouca,Casa Pia,0,1,A,0
+2023-09-17,Gil Vicente,Estoril,5,3,H,0
+2023-09-17,Guimaraes,Portimonense,1,2,A,0
+2023-09-18,Boavista,Chaves,4,1,H,0
+2023-09-22,Famalicao,Arouca,1,0,H,0
+2023-09-23,Porto,Gil Vicente,2,1,H,0
+2023-09-23,Moreirense,Farense,1,0,H,0
+2023-09-23,Casa Pia,Guimaraes,0,0,D,1
+2023-09-23,Estoril,Vizela,2,2,D,1
+2023-09-24,Chaves,Estoril,2,2,D,1
+2023-09-24,Sp Braga,Boavista,4,1,H,0
+2023-09-24,Portimonense,Benfica,1,3,A,0
+2023-09-25,Sp Lisbon,Rio Ave,2,0,H,0
+2023-09-28,Estoril,Sp Braga,2,4,A,0
+2023-09-29,Benfica,Porto,1,0,H,0
+2023-09-30,Boavista,Famalicao,2,2,D,1
+2023-09-30,Farense,Sp Lisbon,2,3,A,0
+2023-09-30,Vizela,Portimonense,2,3,A,0
+2023-10-01,Arouca,Chaves,0,2,A,0
+2023-10-01,Rio Ave,Moreirense,0,4,A,0
+2023-10-01,Guimaraes,Estoril,3,2,H,0
+2023-10-02,Gil Vicente,Casa Pia,2,0,H,0
+2023-10-06,Moreirense,Boavista,1,1,D,1
+2023-10-07,Estoril,Benfica,0,1,A,0
+2023-10-07,Sp Braga,Rio Ave,2,1,H,0
+2023-10-07,Farense,Vizela,0,0,D,1
+2023-10-07,Chaves,Gil Vicente,4,2,H,0
+2023-10-08,Sp Lisbon,Arouca,2,1,H,0
+2023-10-08,Casa Pia,Estoril,0,1,A,0
+2023-10-08,Famalicao,Guimaraes,1,3,A,0
+2023-10-08,Porto,Portimonense,1,0,H,0
+2023-10-27,Arouca,Moreirense,0,1,A,0
+2023-10-28,Gil Vicente,Sp Braga,3,3,D,1
+2023-10-28,Guimaraes,Chaves,5,0,H,0
+2023-10-28,Portimonense,Estoril,1,0,H,0
+2023-10-28,Benfica,Casa Pia,1,1,D,1
+2023-10-29,Rio Ave,Farense,3,4,A,0
+2023-10-29,Estoril,Famalicao,1,0,H,0
+2023-10-29,Vizela,Porto,0,2,A,0
+2023-10-30,Boavista,Sp Lisbon,0,2,A,0
+2023-11-03,Porto,Estoril,0,1,A,0
+2023-11-04,Sp Braga,Portimonense,6,1,H,0
+2023-11-04,Chaves,Benfica,0,2,A,0
+2023-11-04,Famalicao,Gil Vicente,3,1,H,0
+2023-11-05,Sp Lisbon,Estoril,3,2,H,0
+2023-11-05,Moreirense,Guimaraes,1,0,H,0
+2023-11-05,Casa Pia,Vizela,0,1,A,0
+2023-11-05,Rio Ave,Boavista,2,0,H,0
+2023-11-06,Farense,Arouca,2,0,H,0
+2023-11-10,Estoril,Casa Pia,4,0,H,0
+2023-11-11,Guimaraes,Porto,1,2,A,0
+2023-11-11,Estoril,Moreirense,0,1,A,0
+2023-11-11,Vizela,Famalicao,0,0,D,1
+2023-11-11,Portimonense,Chaves,2,1,H,0
+2023-11-12,Benfica,Sp Lisbon,2,1,H,0
+2023-11-12,Gil Vicente,Rio Ave,1,1,D,1
+2023-11-12,Boavista,Farense,1,3,A,0
+2023-11-12,Arouca,Sp Braga,0,1,A,0
+2023-12-01,Chaves,Vizela,2,1,H,0
+2023-12-02,Casa Pia,Portimonense,1,0,H,0
+2023-12-02,Famalicao,Porto,0,3,A,0
+2023-12-02,Farense,Guimaraes,1,2,A,0
+2023-12-02,Rio Ave,Estoril,1,1,D,1
+2023-12-03,Sp Braga,Estoril,3,1,H,0
+2023-12-03,Boavista,Arouca,0,4,A,0
+2023-12-03,Moreirense,Benfica,0,0,D,1
+2023-12-04,Sp Lisbon,Gil Vicente,3,1,H,0
+2023-12-08,Vizela,Sp Braga,1,3,A,0
+2023-12-08,Benfica,Farense,1,1,D,1
+2023-12-09,Guimaraes,Sp Lisbon,3,2,H,0
+2023-12-09,Porto,Casa Pia,3,1,H,0
+2023-12-09,Portimonense,Famalicao,1,1,D,1
+2023-12-10,Estoril,Boavista,3,1,H,0
+2023-12-10,Estoril,Chaves,4,0,H,0
+2023-12-10,Arouca,Rio Ave,2,2,D,1
+2023-12-11,Gil Vicente,Moreirense,1,1,D,1
+2023-12-15,Farense,Estoril,0,0,D,1
+2023-12-16,Boavista,Guimaraes,1,1,D,1
+2023-12-16,Arouca,Gil Vicente,3,0,H,0
+2023-12-16,Rio Ave,Vizela,1,1,D,1
+2023-12-17,Moreirense,Portimonense,5,2,H,0
+2023-12-17,Chaves,Casa Pia,1,3,A,0
+2023-12-17,Famalicao,Estoril,1,1,D,1
+2023-12-17,Sp Braga,Benfica,0,1,A,0
+2023-12-18,Sp Lisbon,Porto,2,0,H,0
+2023-12-23,Vizela,Moreirense,0,0,D,1
+2023-12-23,Guimaraes,Rio Ave,1,0,H,0
+2023-12-28,Estoril,Arouca,1,4,A,0
+2023-12-29,Benfica,Famalicao,3,0,H,0
+2023-12-29,Porto,Chaves,1,0,H,0
+2023-12-30,Portimonense,Sp Lisbon,1,2,A,0
+2023-12-30,Gil Vicente,Boavista,1,0,H,0
+2023-12-30,Casa Pia,Sp Braga,1,3,A,0
+2023-12-30,Estoril,Farense,4,0,H,0
+2024-01-05,Boavista,Porto,1,1,D,1
+2024-01-05,Sp Lisbon,Estoril,5,1,H,0
+2024-01-06,Sp Braga,Guimaraes,1,1,D,1
+2024-01-06,Farense,Gil Vicente,1,0,H,0
+2024-01-06,Arouca,Benfica,0,3,A,0
+2024-01-06,Estoril,Vizela,1,1,D,1
+2024-01-07,Famalicao,Chaves,2,2,D,1
+2024-01-07,Rio Ave,Portimonense,2,0,H,0
+2024-01-08,Moreirense,Casa Pia,1,4,A,0
+2024-01-12,Portimonense,Farense,1,0,H,0
+2024-01-13,Casa Pia,Famalicao,0,2,A,0
+2024-01-13,Chaves,Sp Lisbon,0,3,A,0
+2024-01-13,Estoril,Moreirense,1,3,A,0
+2024-01-14,Porto,Sp Braga,2,0,H,0
+2024-01-14,Gil Vicente,Estoril,1,1,D,1
+2024-01-14,Benfica,Rio Ave,4,1,H,0
+2024-01-14,Vizela,Boavista,1,4,A,0
+2024-01-15,Guimaraes,Arouca,2,1,H,0
+2024-01-18,Vizela,Sp Lisbon,2,5,A,0
+2024-01-18,Famalicao,Sp Braga,1,2,A,0
+2024-01-19,Benfica,Boavista,2,0,H,0
+2024-01-20,Estoril,Arouca,1,2,A,0
+2024-01-20,Casa Pia,Farense,1,3,A,0
+2024-01-20,Porto,Moreirense,5,0,H,0
+2024-01-21,Guimaraes,Estoril,3,0,H,0
+2024-01-21,Portimonense,Gil Vicente,0,2,A,0
+2024-01-21,Chaves,Rio Ave,0,0,D,1
+2024-01-28,Arouca,Vizela,5,0,H,0
+2024-01-28,Gil Vicente,Guimaraes,1,0,H,0
+2024-01-28,Boavista,Portimonense,1,4,A,0
+2024-01-28,Farense,Porto,1,3,A,0
+2024-01-28,Moreirense,Famalicao,1,0,H,0
+2024-01-29,Sp Lisbon,Casa Pia,8,0,H,0
+2024-01-29,Estoril,Benfica,1,4,A,0
+2024-01-31,Sp Braga,Chaves,1,1,D,1
+2024-01-31,Rio Ave,Estoril,1,1,D,1
+2024-02-03,Porto,Rio Ave,0,0,D,1
+2024-02-03,Portimonense,Arouca,1,2,A,0
+2024-02-04,Estoril,Estoril,1,0,H,0
+2024-02-04,Sp Braga,Moreirense,1,0,H,0
+2024-02-04,Vizela,Guimaraes,0,1,A,0
+2024-02-04,Benfica,Gil Vicente,3,0,H,0
+2024-02-04,Chaves,Farense,1,1,D,1
+2024-02-05,Casa Pia,Boavista,0,0,D,1
+2024-02-09,Estoril,Portimonense,3,0,H,0
+2024-02-10,Moreirense,Chaves,1,0,H,0
+2024-02-10,Boavista,Estoril,2,1,H,0
+2024-02-10,Farense,Famalicao,1,1,D,1
+2024-02-11,Sp Lisbon,Sp Braga,5,0,H,0
+2024-02-11,Guimaraes,Benfica,2,2,D,1
+2024-02-11,Rio Ave,Casa Pia,1,0,H,0
+2024-02-12,Arouca,Porto,3,2,H,0
+2024-02-13,Gil Vicente,Vizela,0,1,A,0
+2024-02-16,Famalicao,Rio Ave,2,1,H,0
+2024-02-17,Portimonense,Guimaraes,1,1,D,1
+2024-02-17,Porto,Estoril,2,0,H,0
+2024-02-17,Chaves,Boavista,2,1,H,0
+2024-02-18,Sp Braga,Farense,2,1,H,0
+2024-02-18,Casa Pia,Arouca,1,0,H,0
+2024-02-18,Benfica,Vizela,6,1,H,0
+2024-02-18,Estoril,Gil Vicente,1,3,A,0
+2024-02-19,Moreirense,Sp Lisbon,0,2,A,0
+2024-02-23,Arouca,Famalicao,3,2,H,0
+2024-02-24,Estoril,Chaves,1,1,D,1
+2024-02-24,Farense,Moreirense,0,1,A,0
+2024-02-24,Guimaraes,Casa Pia,0,2,A,0
+2024-02-25,Rio Ave,Sp Lisbon,3,3,D,1
+2024-02-25,Gil Vicente,Porto,1,1,D,1
+2024-02-25,Benfica,Portimonense,4,0,H,0
+2024-02-25,Vizela,Estoril,3,3,D,1
+2024-02-26,Boavista,Sp Braga,0,4,A,0
+2024-03-01,Chaves,Arouca,1,5,A,0
+2024-03-02,Estoril,Guimaraes,1,3,A,0
+2024-03-02,Sp Braga,Estoril,3,0,H,0
+2024-03-02,Moreirense,Rio Ave,0,0,D,1
+2024-03-03,Porto,Benfica,5,0,H,0
+2024-03-03,Portimonense,Vizela,0,0,D,1
+2024-03-03,Casa Pia,Gil Vicente,0,0,D,1
+2024-03-03,Sp Lisbon,Farense,3,2,H,0
+2024-03-04,Famalicao,Boavista,1,1,D,1
+2024-03-08,Estoril,Casa Pia,3,1,H,0
+2024-03-08,Portimonense,Porto,0,3,A,0
+2024-03-09,Guimaraes,Famalicao,1,0,H,0
+2024-03-09,Vizela,Farense,2,1,H,0
+2024-03-09,Boavista,Moreirense,1,0,H,0
+2024-03-09,Rio Ave,Sp Braga,0,0,D,1
+2024-03-10,Arouca,Sp Lisbon,0,3,A,0
+2024-03-10,Benfica,Estoril,3,1,H,0
+2024-03-11,Gil Vicente,Chaves,0,0,D,1
+2024-03-15,Estoril,Portimonense,1,0,H,0
+2024-03-16,Porto,Vizela,4,1,H,0
+2024-03-16,Sp Braga,Gil Vicente,2,1,H,0
+2024-03-16,Farense,Rio Ave,1,1,D,1
+2024-03-16,Famalicao,Estoril,0,0,D,1
+2024-03-17,Sp Lisbon,Boavista,6,1,H,0
+2024-03-17,Chaves,Guimaraes,1,2,A,0
+2024-03-17,Moreirense,Arouca,1,0,H,0
+2024-03-17,Casa Pia,Benfica,0,1,A,0
+2024-03-29,Estoril,Sp Lisbon,1,2,A,0
+2024-03-29,Gil Vicente,Famalicao,1,2,A,0
+2024-03-29,Benfica,Chaves,1,0,H,0
+2024-03-30,Arouca,Farense,2,1,H,0
+2024-03-30,Guimaraes,Moreirense,1,0,H,0
+2024-03-30,Boavista,Rio Ave,0,0,D,1
+2024-03-30,Estoril,Porto,1,0,H,0
+2024-03-31,Vizela,Casa Pia,0,4,A,0
+2024-04-01,Portimonense,Sp Braga,3,5,A,0
+2024-04-05,Farense,Boavista,2,0,H,0
+2024-04-06,Sp Lisbon,Benfica,2,1,H,0
+2024-04-06,Sp Braga,Arouca,0,3,A,0
+2024-04-06,Rio Ave,Gil Vicente,3,0,H,0
+2024-04-06,Famalicao,Vizela,3,2,H,0
+2024-04-07,Chaves,Portimonense,2,3,A,0
+2024-04-07,Porto,Guimaraes,1,2,A,0
+2024-04-07,Moreirense,Estoril,2,2,D,1
+2024-04-08,Casa Pia,Estoril,0,0,D,1
+2024-04-12,Gil Vicente,Sp Lisbon,0,4,A,0
+2024-04-13,Estoril,Sp Braga,0,1,A,0
+2024-04-13,Porto,Famalicao,2,2,D,1
+2024-04-13,Guimaraes,Farense,1,1,D,1
+2024-04-14,Benfica,Moreirense,3,0,H,0
+2024-04-14,Estoril,Rio Ave,2,2,D,1
+2024-04-14,Arouca,Boavista,2,1,H,0
+2024-04-14,Portimonense,Casa Pia,2,2,D,1
+2024-04-15,Vizela,Chaves,0,1,A,0
+2024-04-16,Famalicao,Sp Lisbon,0,1,A,0
+2024-04-19,Rio Ave,Arouca,1,1,D,1
+2024-04-20,Moreirense,Gil Vicente,0,1,A,0
+2024-04-20,Boavista,Estoril,1,1,D,1
+2024-04-20,Sp Braga,Vizela,2,1,H,0
+2024-04-21,Sp Lisbon,Guimaraes,3,0,H,0
+2024-04-21,Casa Pia,Porto,1,2,A,0
+2024-04-21,Famalicao,Portimonense,2,2,D,1
+2024-04-21,Chaves,Estoril,2,2,D,1
+2024-04-22,Farense,Benfica,1,3,A,0
+2024-04-26,Gil Vicente,Arouca,2,2,D,1
+2024-04-27,Guimaraes,Boavista,1,0,H,0
+2024-04-27,Casa Pia,Chaves,3,1,H,0
+2024-04-27,Vizela,Rio Ave,1,1,D,1
+2024-04-27,Benfica,Sp Braga,3,1,H,0
+2024-04-28,Porto,Sp Lisbon,2,2,D,1
+2024-04-28,Portimonense,Moreirense,0,2,A,0
+2024-04-28,Estoril,Famalicao,1,0,H,0
+2024-04-29,Estoril,Farense,0,3,A,0
+2024-05-03,Moreirense,Vizela,1,0,H,0
+2024-05-04,Chaves,Porto,0,3,A,0
+2024-05-04,Sp Lisbon,Portimonense,3,0,H,0
+2024-05-04,Rio Ave,Guimaraes,2,1,H,0
+2024-05-04,Boavista,Gil Vicente,1,1,D,1
+2024-05-05,Famalicao,Benfica,2,0,H,0
+2024-05-05,Farense,Estoril,3,2,H,0
+2024-05-05,Arouca,Estoril,0,0,D,1
+2024-05-05,Sp Braga,Casa Pia,4,3,H,0
+2024-05-10,Chaves,Famalicao,0,1,A,0
+2024-05-11,Guimaraes,Sp Braga,2,3,A,0
+2024-05-11,Estoril,Sp Lisbon,0,1,A,0
+2024-05-11,Portimonense,Rio Ave,2,2,D,1
+2024-05-11,Vizela,Estoril,4,0,H,0
+2024-05-12,Porto,Boavista,2,1,H,0
+2024-05-12,Gil Vicente,Farense,2,0,H,0
+2024-05-12,Benfica,Arouca,5,0,H,0
+2024-05-12,Casa Pia,Moreirense,0,1,A,0
+2024-05-17,Rio Ave,Benfica,1,1,D,1
+2024-05-17,Famalicao,Casa Pia,1,2,A,0
+2024-05-18,Farense,Portimonense,1,3,A,0
+2024-05-18,Moreirense,Estoril,2,1,H,0
+2024-05-18,Sp Lisbon,Chaves,3,0,H,0
+2024-05-18,Sp Braga,Porto,0,1,A,0
+2024-05-18,Boavista,Vizela,2,2,D,1
+2024-05-18,Arouca,Guimaraes,1,3,A,0
+2024-05-18,Estoril,Gil Vicente,1,0,H,0

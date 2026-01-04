@@ -1,4 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
@@ -151,18 +153,8 @@ interface ValidationRow {
   sourceFile?: string;
 }
 
-const defaultSampleData: ValidationRow[] = [
-  { date: '26/12/2023', league: 'E0', home: 'Arsenal', away: 'West Ham', home_goals: 2, away_goals: 0, odds_h: 1.45, odds_d: 4.50, odds_a: 6.00 },
-  { date: '26/12/2023', league: 'E0', home: 'Liverpool', away: 'Burnley', home_goals: 3, away_goals: 1, odds_h: 1.25, odds_d: 5.75, odds_a: 11.00 },
-  { date: '2023-12-26', league: 'E0', home: 'Man City', away: 'Everton', home_goals: 2, away_goals: null, odds_h: 1.18, odds_d: 7.00, odds_a: 15.00 },
-  { date: '27/12/2023', league: 'E0', home: 'Chelsea', away: 'Crystal Palace', home_goals: 2, away_goals: 1, odds_h: 1.55, odds_d: 4.20, odds_a: 5.50 },
-  { date: 'invalid', league: 'E0', home: 'Spurs', away: 'Brighton', home_goals: 1, away_goals: 1, odds_h: 1.80, odds_d: 3.60, odds_a: 4.00 },
-  { date: '27/12/2023', league: 'E0', home: 'Aston Villa', away: 'Sheffield Utd', home_goals: null, away_goals: null, odds_h: 1.35, odds_d: 5.00, odds_a: 8.50 },
-  { date: '28/12/2023', league: 'E0', home: 'Newcastle', away: 'Nottingham Forest', home_goals: 3, away_goals: 1, odds_h: 1.50, odds_d: 4.20, odds_a: 6.00 },
-  { date: '28/12/2023', league: 'E0', home: 'Wolves', away: 'Brentford', home_goals: 1, away_goals: 0, odds_h: 1.01, odds_d: 3.50, odds_a: 4.75 },
-  { date: '29/12/2023', league: 'E0', home: 'Fulham', away: 'Luton', home_goals: 2, away_goals: 2, odds_h: 1.65, odds_d: 3.80, odds_a: 5.00 },
-  { date: '', league: 'E0', home: 'Bournemouth', away: 'Man United', home_goals: 0, away_goals: 3, odds_h: 4.00, odds_d: 3.50, odds_a: 1.00 },
-];
+// No mock data - use empty array instead
+const defaultSampleData: ValidationRow[] = [];
 
 type ValidationIssue = 'date' | 'home_goals' | 'away_goals' | 'odds_h' | 'odds_d' | 'odds_a';
 
@@ -380,7 +372,8 @@ export default function DataCleaning() {
     { id: 'load', name: 'Load to Training Store', description: 'Store processed data for model training', status: 'pending', progress: 0, icon: Zap },
   ]);
 
-  const displayData = uploadedData.length > 0 ? uploadedData : defaultSampleData;
+  // Use uploaded data only - no mock data
+  const displayData = uploadedData;
 
   const validationStats = useMemo(() => {
     const results = displayData.map(row => validateRow(row));
@@ -797,21 +790,21 @@ export default function DataCleaning() {
   const totalFileSize = uploadedFiles.reduce((acc, f) => acc + f.size, 0);
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-col gap-2">
-        <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold tracking-tight">Data Cleaning & ETL</h1>
-          <div className="flex gap-2">
-            <Button variant="outline" size="sm" onClick={resetConfig} className="gap-2">
-              <RotateCcw className="h-4 w-4" />Reset Config
-            </Button>
-            <Button variant="outline" size="sm" onClick={saveConfig} className="gap-2">
-              <Save className="h-4 w-4" />Save Config
-            </Button>
-          </div>
+    <PageLayout
+      title="Data Cleaning & ETL"
+      description="Configure column selection, type normalization, and team name standardization"
+      icon={<GitMerge className="h-6 w-6" />}
+      action={
+        <div className="flex gap-2">
+          <Button variant="outline" size="sm" onClick={resetConfig} className="gap-2 btn-glow">
+            <RotateCcw className="h-4 w-4" />Reset Config
+          </Button>
+          <Button variant="outline" size="sm" onClick={saveConfig} className="gap-2 btn-glow">
+            <Save className="h-4 w-4" />Save Config
+          </Button>
         </div>
-        <p className="text-muted-foreground">Configure column selection, type normalization, and team name standardization</p>
-      </div>
+      }
+    >
 
       <Tabs defaultValue="pipeline" className="space-y-6">
         <div className="w-full border-b border-border/40 bg-gradient-to-r from-background via-background/95 to-background">
@@ -1500,6 +1493,16 @@ export default function DataCleaning() {
               </div>
               
               {/* Validation Table */}
+              {displayData.length === 0 ? (
+                <div className="border-2 border-border/50 rounded-lg p-12 text-center bg-background/50">
+                  <Filter className="h-12 w-12 mx-auto mb-4 text-muted-foreground" />
+                  <h3 className="text-lg font-medium mb-2">No Data to Validate</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Upload CSV files in the "Upload Data" tab to see validation results here.
+                  </p>
+                </div>
+              ) : (
+                <>
               <div className="border-2 border-border/50 rounded-lg overflow-hidden bg-background/50">
                 <div className="max-h-[500px] overflow-y-auto">
                 <Table>
@@ -1579,6 +1582,8 @@ export default function DataCleaning() {
                 <p className="text-sm text-muted-foreground text-center">
                   Showing first 100 of {displayData.length} rows
                 </p>
+                  )}
+                </>
               )}
 
               {/* Validation Stats */}
@@ -1612,6 +1617,6 @@ export default function DataCleaning() {
           </Card>
         </TabsContent>
       </Tabs>
-    </div>
+    </PageLayout>
   );
 }

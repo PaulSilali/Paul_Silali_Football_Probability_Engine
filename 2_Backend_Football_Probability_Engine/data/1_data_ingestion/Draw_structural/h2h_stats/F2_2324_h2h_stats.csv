@@ -1,0 +1,191 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+334,Rodez,357,Auxerre,2324,2,0,0.0,3.0
+333,Pau FC,350,Paris FC,2324,2,1,0.5,2.0
+330,Dunkerque,347,Caen,2324,2,1,0.5,2.5
+337,Bastia,356,Bordeaux,2324,2,0,0.0,4.5
+347,Caen,352,Quevilly Rouen,2324,2,1,0.5,4.5
+333,Pau FC,355,Valenciennes,2324,2,0,0.0,4.5
+352,Quevilly Rouen,357,Auxerre,2324,2,0,0.0,6.0
+333,Pau FC,340,Nancy,2324,2,1,0.5,1.5
+330,Dunkerque,350,Paris FC,2324,2,0,0.0,3.5
+346,Ajaccio,353,Concarneau,2324,2,0,0.0,2.0
+329,Guingamp,335,Troyes,2324,2,1,0.5,0.5
+340,Nancy,357,Auxerre,2324,2,0,0.0,3.0
+339,Grenoble,354,Angers,2324,2,1,0.5,0.5
+350,Paris FC,352,Quevilly Rouen,2324,2,2,1.0,2.0
+330,Dunkerque,335,Troyes,2324,2,1,0.5,3.5
+350,Paris FC,355,Valenciennes,2324,2,0,0.0,2.0
+329,Guingamp,331,Laval,2324,2,0,0.0,2.0
+330,Dunkerque,337,Bastia,2324,2,1,0.5,3.5
+340,Nancy,347,Caen,2324,2,0,0.0,3.0
+330,Dunkerque,343,St Etienne,2324,2,0,0.0,1.5
+336,Amiens,346,Ajaccio,2324,2,2,1.0,
+339,Grenoble,355,Valenciennes,2324,2,1,0.5,4.0
+331,Laval,339,Grenoble,2324,2,1,0.5,2.0
+336,Amiens,350,Paris FC,2324,2,1,0.5,2.5
+331,Laval,357,Auxerre,2324,2,0,0.0,4.0
+331,Laval,337,Bastia,2324,2,0,0.0,3.0
+340,Nancy,356,Bordeaux,2324,2,0,0.0,4.0
+329,Guingamp,347,Caen,2324,2,0,0.0,1.0
+340,Nancy,346,Ajaccio,2324,2,0,0.0,3.0
+353,Concarneau,355,Valenciennes,2324,2,0,0.0,1.0
+333,Pau FC,354,Angers,2324,2,1,0.5,5.5
+329,Guingamp,352,Quevilly Rouen,2324,2,1,0.5,2.5
+354,Angers,357,Auxerre,2324,2,1,0.5,2.5
+329,Guingamp,336,Amiens,2324,2,1,0.5,2.5
+331,Laval,355,Valenciennes,2324,2,1,0.5,1.5
+340,Nancy,355,Valenciennes,2324,2,1,0.5,1.5
+336,Amiens,354,Angers,2324,2,0,0.0,4.5
+336,Amiens,355,Valenciennes,2324,2,1,0.5,0.5
+343,St Etienne,346,Ajaccio,2324,2,1,0.5,1.0
+335,Troyes,356,Bordeaux,2324,2,0,0.0,2.0
+350,Paris FC,353,Concarneau,2324,2,1,0.5,3.5
+347,Caen,353,Concarneau,2324,2,0,0.0,1.5
+339,Grenoble,352,Quevilly Rouen,2324,2,1,0.5,2.5
+333,Pau FC,356,Bordeaux,2324,2,0,0.0,4.0
+336,Amiens,353,Concarneau,2324,2,2,1.0,1.0
+335,Troyes,343,St Etienne,2324,2,0,0.0,3.0
+331,Laval,343,St Etienne,2324,2,1,0.5,0.5
+335,Troyes,354,Angers,2324,2,0,0.0,4.0
+330,Dunkerque,352,Quevilly Rouen,2324,2,0,0.0,2.0
+336,Amiens,339,Grenoble,2324,2,0,0.0,3.5
+335,Troyes,350,Paris FC,2324,2,1,0.5,3.5
+334,Rodez,350,Paris FC,2324,2,0,0.0,1.5
+330,Dunkerque,355,Valenciennes,2324,2,0,0.0,2.0
+335,Troyes,355,Valenciennes,2324,1,1,1.0,2.0
+334,Rodez,355,Valenciennes,2324,2,0,0.0,1.5
+336,Amiens,357,Auxerre,2324,2,1,0.5,0.5
+331,Laval,334,Rodez,2324,2,0,0.0,2.0
+329,Guingamp,356,Bordeaux,2324,2,1,0.5,0.5
+333,Pau FC,346,Ajaccio,2324,2,1,0.5,2.0
+340,Nancy,353,Concarneau,2324,2,1,0.5,2.5
+336,Amiens,347,Caen,2324,2,1,0.5,1.0
+330,Dunkerque,331,Laval,2324,2,0,0.0,2.5
+335,Troyes,340,Nancy,2324,2,2,1.0,1.0
+334,Rodez,343,St Etienne,2324,2,1,0.5,2.5
+331,Laval,340,Nancy,2324,2,0,0.0,3.5
+335,Troyes,337,Bastia,2324,2,0,0.0,3.5
+337,Bastia,355,Valenciennes,2324,2,0,0.0,3.5
+352,Quevilly Rouen,353,Concarneau,2324,2,1,0.5,2.5
+329,Guingamp,337,Bastia,2324,2,1,0.5,0.5
+339,Grenoble,347,Caen,2324,2,0,0.0,4.5
+353,Concarneau,357,Auxerre,2324,2,0,0.0,4.0
+330,Dunkerque,333,Pau FC,2324,2,1,0.5,1.5
+330,Dunkerque,353,Concarneau,2324,2,1,0.5,5.5
+329,Guingamp,357,Auxerre,2324,2,1,0.5,2.5
+346,Ajaccio,350,Paris FC,2324,2,0,0.0,2.5
+343,St Etienne,357,Auxerre,2324,2,0,0.0,4.0
+331,Laval,353,Concarneau,2324,2,0,0.0,3.5
+334,Rodez,335,Troyes,2324,2,0,0.0,4.0
+331,Laval,333,Pau FC,2324,2,1,0.5,2.5
+330,Dunkerque,336,Amiens,2324,2,0,0.0,1.0
+354,Angers,356,Bordeaux,2324,2,0,0.0,1.5
+346,Ajaccio,354,Angers,2324,2,1,0.5,3.0
+350,Paris FC,356,Bordeaux,2324,2,1,0.5,4.5
+337,Bastia,347,Caen,2324,2,0,0.0,2.0
+329,Guingamp,355,Valenciennes,2324,2,1,0.5,1.5
+334,Rodez,340,Nancy,2324,2,0,0.0,3.5
+333,Pau FC,334,Rodez,2324,2,1,0.5,3.5
+346,Ajaccio,356,Bordeaux,2324,2,1,0.5,2.0
+337,Bastia,350,Paris FC,2324,2,1,0.5,1.5
+329,Guingamp,334,Rodez,2324,2,2,1.0,3.0
+333,Pau FC,347,Caen,2324,2,0,0.0,3.5
+337,Bastia,346,Ajaccio,2324,2,0,0.0,1.5
+334,Rodez,337,Bastia,2324,2,1,0.5,2.0
+339,Grenoble,356,Bordeaux,2324,2,0,0.0,1.5
+334,Rodez,346,Ajaccio,2324,2,1,0.5,2.0
+331,Laval,350,Paris FC,2324,2,1,0.5,1.5
+336,Amiens,340,Nancy,2324,2,1,0.5,1.5
+356,Bordeaux,357,Auxerre,2324,2,0,0.0,5.0
+352,Quevilly Rouen,355,Valenciennes,2324,2,1,0.5,1.5
+354,Angers,355,Valenciennes,2324,2,1,0.5,1.0
+339,Grenoble,350,Paris FC,2324,2,0,0.0,2.5
+331,Laval,354,Angers,2324,2,1,0.5,1.5
+353,Concarneau,356,Bordeaux,2324,2,0,0.0,3.5
+335,Troyes,357,Auxerre,2324,2,0,0.0,2.5
+343,St Etienne,354,Angers,2324,2,0,0.0,2.5
+333,Pau FC,357,Auxerre,2324,2,2,1.0,4.0
+339,Grenoble,343,St Etienne,2324,2,0,0.0,1.5
+347,Caen,356,Bordeaux,2324,2,1,0.5,1.5
+350,Paris FC,354,Angers,2324,2,0,0.0,3.0
+335,Troyes,339,Grenoble,2324,2,1,0.5,2.0
+330,Dunkerque,346,Ajaccio,2324,2,1,0.5,3.0
+335,Troyes,347,Caen,2324,2,1,0.5,1.5
+334,Rodez,336,Amiens,2324,2,2,1.0,3.0
+334,Rodez,356,Bordeaux,2324,2,2,1.0,4.0
+334,Rodez,353,Concarneau,2324,2,0,0.0,2.5
+330,Dunkerque,356,Bordeaux,2324,2,0,0.0,2.0
+329,Guingamp,350,Paris FC,2324,2,0,0.0,2.0
+333,Pau FC,337,Bastia,2324,2,0,0.0,4.0
+335,Troyes,352,Quevilly Rouen,2324,2,2,1.0,3.0
+337,Bastia,354,Angers,2324,2,0,0.0,2.0
+333,Pau FC,353,Concarneau,2324,2,0,0.0,2.5
+343,St Etienne,352,Quevilly Rouen,2324,2,0,0.0,3.0
+347,Caen,354,Angers,2324,2,0,0.0,2.5
+347,Caen,350,Paris FC,2324,2,0,0.0,1.5
+335,Troyes,336,Amiens,2324,2,1,0.5,1.0
+335,Troyes,346,Ajaccio,2324,2,0,0.0,2.5
+334,Rodez,339,Grenoble,2324,2,0,0.0,3.5
+337,Bastia,353,Concarneau,2324,2,1,0.5,1.0
+329,Guingamp,353,Concarneau,2324,2,0,0.0,3.0
+347,Caen,355,Valenciennes,2324,2,1,0.5,3.5
+331,Laval,335,Troyes,2324,2,0,0.0,3.5
+339,Grenoble,340,Nancy,2324,2,0,0.0,1.0
+340,Nancy,350,Paris FC,2324,2,1,0.5,3.5
+329,Guingamp,333,Pau FC,2324,2,0,0.0,3.5
+330,Dunkerque,340,Nancy,2324,2,0,0.0,2.5
+346,Ajaccio,355,Valenciennes,2324,2,0,0.0,2.0
+333,Pau FC,339,Grenoble,2324,2,0,0.0,3.0
+329,Guingamp,354,Angers,2324,2,0,0.0,2.0
+337,Bastia,340,Nancy,2324,2,0,0.0,4.0
+347,Caen,357,Auxerre,2324,2,1,0.5,2.5
+334,Rodez,347,Caen,2324,2,0,0.0,4.5
+343,St Etienne,355,Valenciennes,2324,2,1,0.5,1.0
+333,Pau FC,336,Amiens,2324,2,0,0.0,3.0
+337,Bastia,352,Quevilly Rouen,2324,2,1,0.5,0.5
+334,Rodez,354,Angers,2324,2,0,0.0,4.0
+346,Ajaccio,347,Caen,2324,2,0,0.0,3.0
+331,Laval,356,Bordeaux,2324,2,0,0.0,1.0
+337,Bastia,357,Auxerre,2324,2,2,1.0,1.0
+331,Laval,347,Caen,2324,2,0,0.0,2.0
+353,Concarneau,354,Angers,2324,2,0,0.0,4.0
+352,Quevilly Rouen,354,Angers,2324,2,0,0.0,3.0
+339,Grenoble,353,Concarneau,2324,2,0,0.0,3.0
+329,Guingamp,330,Dunkerque,2324,2,0,0.0,1.0
+334,Rodez,352,Quevilly Rouen,2324,2,1,0.5,5.0
+329,Guingamp,343,St Etienne,2324,2,1,0.5,4.0
+333,Pau FC,352,Quevilly Rouen,2324,2,1,0.5,3.0
+343,St Etienne,347,Caen,2324,2,0,0.0,2.0
+343,St Etienne,353,Concarneau,2324,2,0,0.0,1.0
+346,Ajaccio,352,Quevilly Rouen,2324,2,1,0.5,1.5
+330,Dunkerque,339,Grenoble,2324,2,2,1.0,2.0
+330,Dunkerque,334,Rodez,2324,2,1,0.5,1.5
+350,Paris FC,357,Auxerre,2324,2,0,0.0,2.0
+336,Amiens,343,St Etienne,2324,2,0,0.0,1.0
+329,Guingamp,346,Ajaccio,2324,2,0,0.0,3.0
+355,Valenciennes,357,Auxerre,2324,2,1,0.5,2.5
+340,Nancy,352,Quevilly Rouen,2324,2,1,0.5,1.5
+331,Laval,352,Quevilly Rouen,2324,2,1,0.5,3.0
+337,Bastia,343,St Etienne,2324,2,0,0.0,4.5
+337,Bastia,339,Grenoble,2324,2,1,0.5,0.5
+340,Nancy,343,St Etienne,2324,2,1,0.5,2.5
+331,Laval,346,Ajaccio,2324,2,1,0.5,2.0
+335,Troyes,353,Concarneau,2324,2,1,0.5,0.5
+336,Amiens,356,Bordeaux,2324,2,1,0.5,2.0
+343,St Etienne,356,Bordeaux,2324,2,1,0.5,1.5
+330,Dunkerque,357,Auxerre,2324,2,0,0.0,2.5
+329,Guingamp,339,Grenoble,2324,2,2,1.0,2.0
+333,Pau FC,335,Troyes,2324,2,2,1.0,3.0
+339,Grenoble,346,Ajaccio,2324,2,0,0.0,3.0
+339,Grenoble,357,Auxerre,2324,2,2,1.0,1.0
+331,Laval,336,Amiens,2324,2,2,1.0,1.0
+343,St Etienne,350,Paris FC,2324,2,1,0.5,0.5
+340,Nancy,354,Angers,2324,2,1,0.5,1.5
+355,Valenciennes,356,Bordeaux,2324,2,0,0.0,3.5
+330,Dunkerque,354,Angers,2324,2,1,0.5,0.5
+352,Quevilly Rouen,356,Bordeaux,2324,2,1,0.5,2.5
+336,Amiens,337,Bastia,2324,2,0,0.0,3.0
+336,Amiens,352,Quevilly Rouen,2324,2,1,0.5,3.5
+333,Pau FC,343,St Etienne,2324,2,0,0.0,2.0
+346,Ajaccio,357,Auxerre,2324,2,0,0.0,1.5
+329,Guingamp,340,Nancy,2324,2,0,0.0,5.0

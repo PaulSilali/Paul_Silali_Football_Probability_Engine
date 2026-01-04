@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2023-08-11,Sevilla,Valencia,1,2,A,0
+2023-08-11,Almeria,Valencia,0,2,A,0
+2023-08-12,Las Palmas,Mallorca,1,1,D,1
+2023-08-12,Ath Bilbao,Real Madrid,0,2,A,0
+2023-08-12,Sociedad,Girona,1,1,D,1
+2023-08-13,Villarreal,Betis,1,2,A,0
+2023-08-13,Getafe,Barcelona,0,0,D,1
+2023-08-13,Celta,Osasuna,0,2,A,0
+2023-08-14,Cadiz,Alaves,1,0,H,0
+2023-08-14,Real Madrid,Granada,3,1,H,0
+2023-08-18,Mallorca,Villarreal,0,1,A,0
+2023-08-18,Valencia,Las Palmas,1,0,H,0
+2023-08-19,Almeria,Real Madrid,1,3,A,0
+2023-08-19,Osasuna,Ath Bilbao,0,2,A,0
+2023-08-19,Sociedad,Celta,1,1,D,1
+2023-08-20,Barcelona,Cadiz,2,0,H,0
+2023-08-20,Girona,Getafe,3,0,H,0
+2023-08-20,Betis,Real Madrid,0,0,D,1
+2023-08-21,Alaves,Sevilla,4,3,H,0
+2023-08-21,Granada,Valencia,0,2,A,0
+2023-08-25,Las Palmas,Sociedad,0,0,D,1
+2023-08-25,Celta,Real Madrid,0,1,A,0
+2023-08-26,Granada,Mallorca,3,2,H,0
+2023-08-26,Sevilla,Girona,1,2,A,0
+2023-08-26,Cadiz,Almeria,1,1,D,1
+2023-08-27,Villarreal,Barcelona,3,4,A,0
+2023-08-27,Valencia,Osasuna,1,2,A,0
+2023-08-27,Ath Bilbao,Betis,4,2,H,0
+2023-08-28,Getafe,Alaves,1,0,H,0
+2023-08-28,Valencia,Real Madrid,0,7,A,0
+2023-09-01,Cadiz,Villarreal,3,1,H,0
+2023-09-01,Almeria,Celta,2,3,A,0
+2023-09-02,Betis,Valencia,1,0,H,0
+2023-09-02,Real Madrid,Getafe,2,1,H,0
+2023-09-02,Alaves,Valencia,1,0,H,0
+2023-09-02,Sociedad,Granada,5,3,H,0
+2023-09-03,Girona,Las Palmas,1,0,H,0
+2023-09-03,Osasuna,Barcelona,1,2,A,0
+2023-09-03,Mallorca,Ath Bilbao,0,0,D,1
+2023-09-15,Valencia,Alaves,2,0,H,0
+2023-09-16,Barcelona,Betis,5,0,H,0
+2023-09-16,Celta,Mallorca,0,1,A,0
+2023-09-16,Valencia,Real Madrid,3,0,H,0
+2023-09-16,Ath Bilbao,Cadiz,3,0,H,0
+2023-09-17,Real Madrid,Sociedad,2,1,H,0
+2023-09-17,Getafe,Osasuna,3,2,H,0
+2023-09-17,Villarreal,Almeria,2,1,H,0
+2023-09-17,Sevilla,Las Palmas,1,0,H,0
+2023-09-18,Granada,Girona,2,4,A,0
+2023-09-22,Alaves,Ath Bilbao,0,2,A,0
+2023-09-23,Barcelona,Celta,3,2,H,0
+2023-09-23,Girona,Mallorca,5,3,H,0
+2023-09-23,Osasuna,Sevilla,0,0,D,1
+2023-09-23,Almeria,Valencia,2,2,D,1
+2023-09-24,Betis,Cadiz,1,1,D,1
+2023-09-24,Real Madrid,Real Madrid,3,1,H,0
+2023-09-24,Las Palmas,Granada,1,0,H,0
+2023-09-24,Sociedad,Getafe,4,3,H,0
+2023-09-24,Valencia,Villarreal,1,1,D,1
+2023-09-26,Mallorca,Barcelona,2,2,D,1
+2023-09-26,Sevilla,Almeria,5,1,H,0
+2023-09-27,Cadiz,Valencia,0,0,D,1
+2023-09-27,Valencia,Sociedad,0,1,A,0
+2023-09-27,Real Madrid,Las Palmas,2,0,H,0
+2023-09-27,Villarreal,Girona,1,2,A,0
+2023-09-27,Ath Bilbao,Getafe,2,2,D,1
+2023-09-28,Granada,Betis,1,1,D,1
+2023-09-28,Osasuna,Real Madrid,0,2,A,0
+2023-09-28,Celta,Alaves,1,1,D,1
+2023-09-29,Barcelona,Sevilla,1,0,H,0
+2023-09-30,Sociedad,Ath Bilbao,3,0,H,0
+2023-09-30,Girona,Real Madrid,0,3,A,0
+2023-09-30,Valencia,Mallorca,2,2,D,1
+2023-09-30,Getafe,Villarreal,0,0,D,1
+2023-10-01,Betis,Valencia,3,0,H,0
+2023-10-01,Almeria,Granada,3,3,D,1
+2023-10-01,Alaves,Osasuna,0,2,A,0
+2023-10-01,Real Madrid,Cadiz,3,2,H,0
+2023-10-02,Las Palmas,Celta,2,1,H,0
+2023-10-06,Ath Bilbao,Almeria,3,0,H,0
+2023-10-07,Sevilla,Valencia,2,2,D,1
+2023-10-07,Mallorca,Valencia,1,1,D,1
+2023-10-07,Real Madrid,Osasuna,4,0,H,0
+2023-10-07,Cadiz,Girona,0,1,A,0
+2023-10-08,Celta,Getafe,2,2,D,1
+2023-10-08,Granada,Barcelona,2,2,D,1
+2023-10-08,Villarreal,Las Palmas,1,2,A,0
+2023-10-08,Real Madrid,Sociedad,2,1,H,0
+2023-10-08,Alaves,Betis,1,1,D,1
+2023-10-20,Osasuna,Granada,2,0,H,0
+2023-10-21,Celta,Real Madrid,0,3,A,0
+2023-10-21,Sevilla,Real Madrid,1,1,D,1
+2023-10-21,Sociedad,Mallorca,1,0,H,0
+2023-10-21,Getafe,Betis,1,1,D,1
+2023-10-22,Barcelona,Ath Bilbao,1,0,H,0
+2023-10-22,Las Palmas,Valencia,0,1,A,0
+2023-10-22,Girona,Almeria,5,2,H,0
+2023-10-22,Villarreal,Alaves,1,1,D,1
+2023-10-23,Valencia,Cadiz,2,0,H,0
+2023-10-27,Girona,Celta,1,0,H,0
+2023-10-28,Almeria,Las Palmas,1,2,A,0
+2023-10-28,Barcelona,Real Madrid,1,2,A,0
+2023-10-28,Cadiz,Sevilla,2,2,D,1
+2023-10-28,Mallorca,Getafe,0,0,D,1
+2023-10-29,Betis,Osasuna,2,1,H,0
+2023-10-29,Valencia,Sociedad,2,2,D,1
+2023-10-29,Ath Bilbao,Valencia,2,2,D,1
+2023-10-29,Real Madrid,Alaves,2,1,H,0
+2023-10-30,Granada,Villarreal,2,3,A,0
+2023-11-03,Las Palmas,Real Madrid,2,1,H,0
+2023-11-04,Sociedad,Barcelona,0,1,A,0
+2023-11-04,Betis,Mallorca,2,0,H,0
+2023-11-04,Celta,Sevilla,1,1,D,1
+2023-11-04,Osasuna,Girona,2,4,A,0
+2023-11-05,Real Madrid,Valencia,0,0,D,1
+2023-11-05,Alaves,Almeria,1,0,H,0
+2023-11-05,Valencia,Granada,1,0,H,0
+2023-11-05,Villarreal,Ath Bilbao,2,3,A,0
+2023-11-06,Getafe,Cadiz,1,0,H,0
+2023-11-10,Ath Bilbao,Celta,4,3,H,0
+2023-11-11,Osasuna,Las Palmas,1,1,D,1
+2023-11-11,Almeria,Sociedad,1,3,A,0
+2023-11-11,Valencia,Girona,1,2,A,0
+2023-11-11,Real Madrid,Valencia,5,1,H,0
+2023-11-11,Granada,Getafe,1,1,D,1
+2023-11-12,Sevilla,Betis,1,1,D,1
+2023-11-12,Barcelona,Alaves,2,1,H,0
+2023-11-12,Real Madrid,Villarreal,3,1,H,0
+2023-11-24,Alaves,Granada,3,1,H,0
+2023-11-25,Real Madrid,Mallorca,1,0,H,0
+2023-11-25,Getafe,Almeria,2,1,H,0
+2023-11-25,Valencia,Celta,0,0,D,1
+2023-11-25,Valencia,Barcelona,1,1,D,1
+2023-11-26,Betis,Las Palmas,1,0,H,0
+2023-11-26,Villarreal,Osasuna,3,1,H,0
+2023-11-26,Sociedad,Sevilla,2,1,H,0
+2023-11-26,Cadiz,Real Madrid,0,3,A,0
+2023-11-27,Girona,Ath Bilbao,1,1,D,1
+2023-11-29,Mallorca,Cadiz,1,1,D,1
+2023-12-01,Las Palmas,Getafe,2,0,H,0
+2023-12-02,Osasuna,Sociedad,1,1,D,1
+2023-12-02,Girona,Valencia,2,1,H,0
+2023-12-02,Ath Bilbao,Valencia,4,0,H,0
+2023-12-02,Real Madrid,Granada,2,0,H,0
+2023-12-03,Barcelona,Real Madrid,1,0,H,0
+2023-12-03,Sevilla,Villarreal,1,1,D,1
+2023-12-03,Almeria,Betis,0,0,D,1
+2023-12-03,Mallorca,Alaves,0,0,D,1
+2023-12-04,Celta,Cadiz,1,1,D,1
+2023-12-08,Getafe,Valencia,1,0,H,0
+2023-12-09,Villarreal,Sociedad,0,3,A,0
+2023-12-09,Mallorca,Sevilla,1,0,H,0
+2023-12-09,Alaves,Las Palmas,0,1,A,0
+2023-12-09,Betis,Real Madrid,1,1,D,1
+2023-12-10,Real Madrid,Almeria,2,1,H,0
+2023-12-10,Cadiz,Osasuna,1,1,D,1
+2023-12-10,Barcelona,Girona,2,4,A,0
+2023-12-11,Granada,Ath Bilbao,1,1,D,1
+2023-12-11,Valencia,Celta,0,0,D,1
+2023-12-15,Osasuna,Valencia,1,0,H,0
+2023-12-16,Valencia,Barcelona,1,1,D,1
+2023-12-16,Celta,Granada,1,0,H,0
+2023-12-16,Ath Bilbao,Real Madrid,2,0,H,0
+2023-12-16,Sevilla,Getafe,0,3,A,0
+2023-12-17,Real Madrid,Villarreal,4,1,H,0
+2023-12-17,Las Palmas,Cadiz,1,1,D,1
+2023-12-17,Sociedad,Betis,0,0,D,1
+2023-12-17,Almeria,Mallorca,0,0,D,1
+2023-12-18,Girona,Alaves,3,0,H,0
+2023-12-19,Granada,Sevilla,0,3,A,0
+2023-12-19,Valencia,Valencia,0,1,A,0
+2023-12-19,Real Madrid,Getafe,3,3,D,1
+2023-12-20,Ath Bilbao,Las Palmas,1,0,H,0
+2023-12-20,Barcelona,Almeria,3,2,H,0
+2023-12-20,Villarreal,Celta,3,2,H,0
+2023-12-21,Mallorca,Osasuna,3,2,H,0
+2023-12-21,Alaves,Real Madrid,0,1,A,0
+2023-12-21,Cadiz,Sociedad,0,0,D,1
+2023-12-21,Betis,Girona,1,1,D,1
+2023-12-23,Real Madrid,Sevilla,1,0,H,0
+2024-01-02,Valencia,Villarreal,3,1,H,0
+2024-01-02,Getafe,Valencia,0,2,A,0
+2024-01-02,Sociedad,Alaves,1,1,D,1
+2024-01-03,Girona,Real Madrid,4,3,H,0
+2024-01-03,Granada,Cadiz,2,0,H,0
+2024-01-03,Celta,Betis,2,1,H,0
+2024-01-03,Real Madrid,Mallorca,1,0,H,0
+2024-01-04,Osasuna,Almeria,1,0,H,0
+2024-01-04,Sevilla,Ath Bilbao,0,2,A,0
+2024-01-04,Las Palmas,Barcelona,1,2,A,0
+2024-01-12,Sevilla,Alaves,2,3,A,0
+2024-01-13,Ath Bilbao,Sociedad,2,1,H,0
+2024-01-13,Las Palmas,Villarreal,3,0,H,0
+2024-01-13,Mallorca,Celta,1,1,D,1
+2024-01-13,Betis,Granada,1,0,H,0
+2024-01-14,Cadiz,Valencia,1,4,A,0
+2024-01-14,Almeria,Girona,0,0,D,1
+2024-01-19,Alaves,Cadiz,1,0,H,0
+2024-01-20,Valencia,Las Palmas,0,2,A,0
+2024-01-20,Celta,Sociedad,0,1,A,0
+2024-01-20,Valencia,Ath Bilbao,1,0,H,0
+2024-01-20,Villarreal,Mallorca,1,1,D,1
+2024-01-21,Girona,Sevilla,5,1,H,0
+2024-01-21,Osasuna,Getafe,3,2,H,0
+2024-01-21,Real Madrid,Almeria,3,2,H,0
+2024-01-21,Betis,Barcelona,2,4,A,0
+2024-01-22,Granada,Real Madrid,0,1,A,0
+2024-01-26,Almeria,Alaves,0,3,A,0
+2024-01-27,Mallorca,Betis,0,1,A,0
+2024-01-27,Las Palmas,Real Madrid,1,2,A,0
+2024-01-27,Barcelona,Villarreal,3,5,A,0
+2024-01-27,Sociedad,Valencia,0,0,D,1
+2024-01-28,Real Madrid,Valencia,2,0,H,0
+2024-01-28,Cadiz,Ath Bilbao,0,0,D,1
+2024-01-28,Celta,Girona,0,1,A,0
+2024-01-28,Sevilla,Osasuna,1,1,D,1
+2024-01-29,Getafe,Granada,2,0,H,0
+2024-01-31,Barcelona,Osasuna,1,0,H,0
+2024-01-31,Real Madrid,Valencia,2,1,H,0
+2024-02-01,Getafe,Real Madrid,0,2,A,0
+2024-02-02,Ath Bilbao,Mallorca,4,0,H,0
+2024-02-03,Alaves,Barcelona,1,3,A,0
+2024-02-03,Valencia,Almeria,2,1,H,0
+2024-02-03,Granada,Las Palmas,1,1,D,1
+2024-02-03,Girona,Sociedad,0,0,D,1
+2024-02-04,Real Madrid,Real Madrid,1,1,D,1
+2024-02-04,Betis,Getafe,1,1,D,1
+2024-02-04,Osasuna,Celta,0,3,A,0
+2024-02-04,Villarreal,Cadiz,0,0,D,1
+2024-02-05,Valencia,Sevilla,1,2,A,0
+2024-02-09,Cadiz,Betis,0,2,A,0
+2024-02-10,Las Palmas,Valencia,2,0,H,0
+2024-02-10,Sociedad,Osasuna,0,1,A,0
+2024-02-10,Real Madrid,Girona,4,0,H,0
+2024-02-10,Alaves,Villarreal,1,1,D,1
+2024-02-11,Barcelona,Granada,3,3,D,1
+2024-02-11,Mallorca,Valencia,2,1,H,0
+2024-02-11,Getafe,Celta,3,2,H,0
+2024-02-11,Sevilla,Real Madrid,1,0,H,0
+2024-02-12,Almeria,Ath Bilbao,0,0,D,1
+2024-02-16,Villarreal,Getafe,1,1,D,1
+2024-02-17,Osasuna,Cadiz,2,0,H,0
+2024-02-17,Celta,Barcelona,1,2,A,0
+2024-02-17,Valencia,Sevilla,0,0,D,1
+2024-02-17,Real Madrid,Las Palmas,5,0,H,0
+2024-02-18,Valencia,Real Madrid,1,1,D,1
+2024-02-18,Granada,Almeria,1,1,D,1
+2024-02-18,Mallorca,Sociedad,1,2,A,0
+2024-02-18,Betis,Alaves,0,0,D,1
+2024-02-19,Ath Bilbao,Girona,3,2,H,0
+2024-02-23,Sociedad,Villarreal,1,3,A,0
+2024-02-24,Alaves,Mallorca,1,1,D,1
+2024-02-24,Almeria,Real Madrid,2,2,D,1
+2024-02-24,Barcelona,Getafe,4,0,H,0
+2024-02-25,Betis,Ath Bilbao,3,1,H,0
+2024-02-25,Las Palmas,Osasuna,1,1,D,1
+2024-02-25,Real Madrid,Sevilla,1,0,H,0
+2024-02-25,Cadiz,Celta,2,2,D,1
+2024-02-26,Girona,Valencia,3,0,H,0
+2024-03-01,Celta,Almeria,1,0,H,0
+2024-03-02,Valencia,Real Madrid,2,2,D,1
+2024-03-02,Valencia,Cadiz,1,1,D,1
+2024-03-02,Getafe,Las Palmas,3,3,D,1
+2024-03-02,Sevilla,Sociedad,3,2,H,0
+2024-03-03,Ath Bilbao,Barcelona,0,0,D,1
+2024-03-03,Real Madrid,Betis,2,1,H,0
+2024-03-03,Villarreal,Granada,5,1,H,0
+2024-03-03,Mallorca,Girona,1,0,H,0
+2024-03-04,Osasuna,Alaves,1,0,H,0
+2024-03-08,Barcelona,Mallorca,1,0,H,0
+2024-03-09,Granada,Sociedad,2,3,A,0
+2024-03-09,Valencia,Getafe,1,0,H,0
+2024-03-09,Cadiz,Real Madrid,2,0,H,0
+2024-03-09,Girona,Osasuna,2,0,H,0
+2024-03-10,Betis,Villarreal,2,3,A,0
+2024-03-10,Real Madrid,Celta,4,0,H,0
+2024-03-10,Las Palmas,Ath Bilbao,0,2,A,0
+2024-03-10,Alaves,Valencia,1,0,H,0
+2024-03-11,Almeria,Sevilla,2,2,D,1
+2024-03-15,Sociedad,Cadiz,2,0,H,0
+2024-03-16,Ath Bilbao,Alaves,2,0,H,0
+2024-03-16,Osasuna,Real Madrid,2,4,A,0
+2024-03-16,Getafe,Girona,1,0,H,0
+2024-03-16,Mallorca,Granada,1,0,H,0
+2024-03-17,Valencia,Betis,2,0,H,0
+2024-03-17,Real Madrid,Barcelona,0,3,A,0
+2024-03-17,Las Palmas,Almeria,0,1,A,0
+2024-03-17,Sevilla,Celta,1,2,A,0
+2024-03-17,Villarreal,Valencia,1,0,H,0
+2024-03-29,Cadiz,Granada,1,0,H,0
+2024-03-30,Getafe,Sevilla,0,1,A,0
+2024-03-30,Almeria,Osasuna,0,3,A,0
+2024-03-30,Valencia,Mallorca,0,0,D,1
+2024-03-30,Barcelona,Las Palmas,1,0,H,0
+2024-03-31,Real Madrid,Ath Bilbao,2,0,H,0
+2024-03-31,Alaves,Sociedad,0,1,A,0
+2024-03-31,Girona,Betis,3,2,H,0
+2024-03-31,Celta,Valencia,0,0,D,1
+2024-04-01,Villarreal,Real Madrid,1,2,A,0
+2024-04-04,Granada,Valencia,0,1,A,0
+2024-04-12,Betis,Celta,2,1,H,0
+2024-04-13,Cadiz,Barcelona,0,1,A,0
+2024-04-13,Real Madrid,Girona,3,1,H,0
+2024-04-13,Valencia,Getafe,0,0,D,1
+2024-04-13,Mallorca,Real Madrid,0,1,A,0
+2024-04-14,Sociedad,Almeria,2,2,D,1
+2024-04-14,Ath Bilbao,Villarreal,1,1,D,1
+2024-04-14,Granada,Alaves,2,0,H,0
+2024-04-14,Las Palmas,Sevilla,0,2,A,0
+2024-04-15,Osasuna,Valencia,0,1,A,0
+2024-04-19,Ath Bilbao,Granada,1,1,D,1
+2024-04-20,Girona,Cadiz,4,1,H,0
+2024-04-20,Valencia,Osasuna,2,1,H,0
+2024-04-20,Valencia,Betis,1,2,A,0
+2024-04-20,Celta,Las Palmas,4,1,H,0
+2024-04-21,Real Madrid,Barcelona,3,2,H,0
+2024-04-21,Almeria,Villarreal,1,2,A,0
+2024-04-21,Getafe,Sociedad,1,1,D,1
+2024-04-21,Alaves,Real Madrid,2,0,H,0
+2024-04-22,Sevilla,Mallorca,2,1,H,0
+2024-04-26,Sociedad,Real Madrid,0,1,A,0
+2024-04-27,Real Madrid,Ath Bilbao,3,1,H,0
+2024-04-27,Alaves,Celta,3,0,H,0
+2024-04-27,Almeria,Getafe,1,3,A,0
+2024-04-27,Las Palmas,Girona,0,2,A,0
+2024-04-28,Betis,Sevilla,1,1,D,1
+2024-04-28,Cadiz,Mallorca,1,1,D,1
+2024-04-28,Granada,Osasuna,3,0,H,0
+2024-04-28,Villarreal,Valencia,3,0,H,0
+2024-04-29,Barcelona,Valencia,4,2,H,0
+2024-05-03,Getafe,Ath Bilbao,0,2,A,0
+2024-05-04,Mallorca,Real Madrid,0,1,A,0
+2024-05-04,Real Madrid,Cadiz,3,0,H,0
+2024-05-04,Girona,Barcelona,4,2,H,0
+2024-05-04,Sociedad,Las Palmas,2,0,H,0
+2024-05-05,Sevilla,Granada,3,0,H,0
+2024-05-05,Valencia,Almeria,0,1,A,0
+2024-05-05,Celta,Villarreal,3,2,H,0
+2024-05-05,Osasuna,Betis,0,2,A,0
+2024-05-05,Valencia,Alaves,0,1,A,0
+2024-05-10,Alaves,Girona,2,2,D,1
+2024-05-11,Ath Bilbao,Osasuna,2,2,D,1
+2024-05-11,Granada,Real Madrid,0,4,A,0
+2024-05-11,Villarreal,Sevilla,3,2,H,0
+2024-05-11,Mallorca,Las Palmas,1,0,H,0
+2024-05-12,Betis,Almeria,3,2,H,0
+2024-05-12,Cadiz,Getafe,1,0,H,0
+2024-05-12,Real Madrid,Celta,1,0,H,0
+2024-05-12,Valencia,Valencia,0,0,D,1
+2024-05-13,Barcelona,Sociedad,2,0,H,0
+2024-05-14,Girona,Villarreal,0,1,A,0
+2024-05-14,Osasuna,Mallorca,1,1,D,1
+2024-05-14,Real Madrid,Alaves,5,0,H,0
+2024-05-15,Getafe,Real Madrid,0,3,A,0
+2024-05-15,Sevilla,Cadiz,0,1,A,0
+2024-05-15,Valencia,Granada,2,1,H,0
+2024-05-15,Celta,Ath Bilbao,2,1,H,0
+2024-05-16,Las Palmas,Betis,2,2,D,1
+2024-05-16,Sociedad,Valencia,1,0,H,0
+2024-05-16,Almeria,Barcelona,0,2,A,0
+2024-05-18,Alaves,Getafe,1,0,H,0
+2024-05-19,Betis,Sociedad,0,2,A,0
+2024-05-19,Cadiz,Las Palmas,0,0,D,1
+2024-05-19,Granada,Celta,1,2,A,0
+2024-05-19,Mallorca,Almeria,2,2,D,1
+2024-05-19,Valencia,Girona,1,3,A,0
+2024-05-19,Villarreal,Real Madrid,4,4,D,1
+2024-05-19,Barcelona,Valencia,3,0,H,0
+2024-05-19,Real Madrid,Osasuna,1,4,A,0
+2024-05-19,Ath Bilbao,Sevilla,2,0,H,0
+2024-05-24,Girona,Granada,7,0,H,0
+2024-05-25,Valencia,Ath Bilbao,0,1,A,0
+2024-05-25,Real Madrid,Betis,0,0,D,1
+2024-05-25,Almeria,Cadiz,6,1,H,0
+2024-05-25,Osasuna,Villarreal,1,1,D,1
+2024-05-25,Sociedad,Real Madrid,0,2,A,0
+2024-05-26,Sevilla,Barcelona,1,2,A,0
+2024-05-26,Getafe,Mallorca,1,2,A,0
+2024-05-26,Celta,Valencia,2,2,D,1
+2024-05-26,Las Palmas,Alaves,1,1,D,1

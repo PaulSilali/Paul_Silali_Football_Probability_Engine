@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,2122,2021-07-31,Peterhead,Alloa,88,7,False
+SC2,2122,2021-07-31,East Fife,Queens Park,86,7,False
+SC2,2122,2021-07-31,Clyde,Dumbarton,86,88,False
+SC2,2122,2021-07-31,Airdrie Utd,Montrose,88,88,False
+SC2,2122,2021-07-31,Cove Rangers,Falkirk,91,88,False
+SC2,2122,2021-08-07,Montrose,Clyde,7,7,False
+SC2,2122,2021-08-07,Queens Park,Cove Rangers,7,7,False
+SC2,2122,2021-08-07,Dumbarton,Airdrie Utd,7,7,False
+SC2,2122,2021-08-07,Falkirk,Peterhead,7,7,False
+SC2,2122,2021-08-07,Alloa,East Fife,7,7,False
+SC2,2122,2021-08-14,Montrose,Peterhead,7,7,False
+SC2,2122,2021-08-14,Airdrie Utd,Falkirk,7,7,False
+SC2,2122,2021-08-14,Clyde,Alloa,7,7,False
+SC2,2122,2021-08-14,Cove Rangers,East Fife,7,7,False
+SC2,2122,2021-08-14,Queens Park,Dumbarton,7,7,False
+SC2,2122,2021-08-21,Dumbarton,Cove Rangers,7,7,False
+SC2,2122,2021-08-21,Alloa,Queens Park,7,7,False
+SC2,2122,2021-08-21,East Fife,Montrose,7,7,False
+SC2,2122,2021-08-21,Falkirk,Clyde,7,7,False
+SC2,2122,2021-08-21,Peterhead,Airdrie Utd,7,7,False
+SC2,2122,2021-08-28,Montrose,Dumbarton,7,7,False
+SC2,2122,2021-08-28,Clyde,Cove Rangers,7,7,False
+SC2,2122,2021-08-28,East Fife,Peterhead,7,7,False
+SC2,2122,2021-08-28,Falkirk,Queens Park,7,7,False
+SC2,2122,2021-09-11,Cove Rangers,Montrose,14,14,False
+SC2,2122,2021-09-11,Dumbarton,East Fife,14,14,False
+SC2,2122,2021-09-11,Peterhead,Clyde,14,14,False
+SC2,2122,2021-09-11,Queens Park,Airdrie Utd,14,21,False
+SC2,2122,2021-09-11,Alloa,Falkirk,21,14,False
+SC2,2122,2021-09-14,Airdrie Utd,Alloa,3,3,True
+SC2,2122,2021-09-18,Clyde,Queens Park,7,7,False
+SC2,2122,2021-09-18,Falkirk,Dumbarton,7,7,False
+SC2,2122,2021-09-18,Montrose,Alloa,7,4,False
+SC2,2122,2021-09-18,Peterhead,Cove Rangers,7,7,False
+SC2,2122,2021-09-18,Airdrie Utd,East Fife,4,7,False
+SC2,2122,2021-09-25,Dumbarton,Alloa,7,7,False
+SC2,2122,2021-09-25,East Fife,Clyde,7,7,False
+SC2,2122,2021-09-25,Montrose,Falkirk,7,7,False
+SC2,2122,2021-09-25,Queens Park,Peterhead,7,7,False
+SC2,2122,2021-09-25,Cove Rangers,Airdrie Utd,7,7,False
+SC2,2122,2021-10-02,Alloa,Cove Rangers,7,7,False
+SC2,2122,2021-10-02,Falkirk,East Fife,7,7,False
+SC2,2122,2021-10-02,Peterhead,Dumbarton,7,7,False
+SC2,2122,2021-10-02,Airdrie Utd,Clyde,7,7,False
+SC2,2122,2021-10-03,Queens Park,Montrose,8,8,False
+SC2,2122,2021-10-16,Clyde,Montrose,14,13,False
+SC2,2122,2021-10-16,Alloa,Peterhead,14,14,False
+SC2,2122,2021-10-16,Dumbarton,Queens Park,14,13,False
+SC2,2122,2021-10-16,East Fife,Cove Rangers,14,14,False
+SC2,2122,2021-10-16,Falkirk,Airdrie Utd,14,14,False
+SC2,2122,2021-10-23,Cove Rangers,Clyde,7,7,False
+SC2,2122,2021-10-23,Peterhead,Falkirk,7,7,False
+SC2,2122,2021-10-23,Airdrie Utd,Dumbarton,7,7,False
+SC2,2122,2021-10-23,Montrose,East Fife,7,7,False
+SC2,2122,2021-10-24,Queens Park,Alloa,8,8,False
+SC2,2122,2021-10-30,Cove Rangers,Queens Park,7,6,False
+SC2,2122,2021-10-30,East Fife,Dumbarton,7,7,False
+SC2,2122,2021-10-30,Alloa,Airdrie Utd,6,7,False
+SC2,2122,2021-10-30,Peterhead,Montrose,7,7,False
+SC2,2122,2021-10-30,Clyde,Falkirk,7,7,False
+SC2,2122,2021-11-06,Montrose,Cove Rangers,7,7,False
+SC2,2122,2021-11-06,Airdrie Utd,Peterhead,7,7,False
+SC2,2122,2021-11-06,Dumbarton,Clyde,7,7,False
+SC2,2122,2021-11-06,Falkirk,Alloa,7,7,False
+SC2,2122,2021-11-06,Queens Park,East Fife,7,7,False
+SC2,2122,2021-11-13,Cove Rangers,Peterhead,7,7,False
+SC2,2122,2021-11-13,Dumbarton,Falkirk,7,7,False
+SC2,2122,2021-11-13,East Fife,Airdrie Utd,7,7,False
+SC2,2122,2021-11-13,Alloa,Montrose,7,7,False
+SC2,2122,2021-11-13,Queens Park,Clyde,7,7,False
+SC2,2122,2021-11-20,Alloa,Dumbarton,7,7,False
+SC2,2122,2021-11-20,Airdrie Utd,Cove Rangers,7,7,False
+SC2,2122,2021-11-20,Clyde,East Fife,7,7,False
+SC2,2122,2021-11-20,Falkirk,Montrose,7,7,False
+SC2,2122,2021-11-20,Peterhead,Queens Park,7,7,False
+SC2,2122,2021-12-04,Cove Rangers,Dumbarton,14,14,False
+SC2,2122,2021-12-04,East Fife,Alloa,14,14,False
+SC2,2122,2021-12-04,Queens Park,Falkirk,14,14,False
+SC2,2122,2021-12-04,Clyde,Peterhead,14,14,False
+SC2,2122,2021-12-07,Montrose,Airdrie Utd,17,17,True
+SC2,2122,2021-12-11,Dumbarton,Montrose,7,4,False
+SC2,2122,2021-12-11,Falkirk,Cove Rangers,7,7,False
+SC2,2122,2021-12-11,Peterhead,East Fife,7,7,False
+SC2,2122,2021-12-11,Alloa,Clyde,7,7,False
+SC2,2122,2021-12-18,Montrose,Queens Park,7,14,False
+SC2,2122,2021-12-18,Cove Rangers,Alloa,7,7,False
+SC2,2122,2021-12-18,Dumbarton,Peterhead,7,7,False
+SC2,2122,2021-12-22,Montrose,Peterhead,4,4,True
+SC2,2122,2021-12-26,Airdrie Utd,Alloa,19,8,False
+SC2,2122,2021-12-26,Cove Rangers,East Fife,8,15,False
+SC2,2122,2021-12-26,Falkirk,Clyde,15,15,False
+SC2,2122,2021-12-29,Airdrie Utd,Queens Park,3,11,True
+SC2,2122,2022-01-02,Peterhead,Cove Rangers,11,7,False
+SC2,2122,2022-01-02,Dumbarton,Airdrie Utd,15,4,False
+SC2,2122,2022-01-02,East Fife,Montrose,7,11,False
+SC2,2122,2022-01-08,Montrose,Alloa,6,13,False
+SC2,2122,2022-01-08,Clyde,Cove Rangers,13,6,False
+SC2,2122,2022-01-08,Airdrie Utd,East Fife,6,6,False
+SC2,2122,2022-01-08,Falkirk,Dumbarton,13,6,False
+SC2,2122,2022-01-15,Alloa,Queens Park,7,17,False
+SC2,2122,2022-01-15,Cove Rangers,Montrose,7,7,False
+SC2,2122,2022-01-15,Dumbarton,East Fife,7,7,False
+SC2,2122,2022-01-15,Peterhead,Clyde,13,7,False
+SC2,2122,2022-01-15,Airdrie Utd,Falkirk,7,7,False
+SC2,2122,2022-01-22,East Fife,Falkirk,7,7,False
+SC2,2122,2022-01-22,Clyde,Queens Park,7,7,False
+SC2,2122,2022-01-25,Clyde,Airdrie Utd,3,10,True
+SC2,2122,2022-01-29,Clyde,Alloa,4,14,False
+SC2,2122,2022-01-29,Dumbarton,Cove Rangers,14,14,False
+SC2,2122,2022-01-29,East Fife,Peterhead,7,14,False
+SC2,2122,2022-01-29,Montrose,Falkirk,14,7,False
+SC2,2122,2022-01-29,Queens Park,Airdrie Utd,7,4,False
+SC2,2122,2022-02-05,Falkirk,Queens Park,7,7,False
+SC2,2122,2022-02-05,Cove Rangers,Airdrie Utd,7,7,False
+SC2,2122,2022-02-05,East Fife,Clyde,7,7,False
+SC2,2122,2022-02-05,Montrose,Dumbarton,7,7,False
+SC2,2122,2022-02-05,Peterhead,Alloa,7,7,False
+SC2,2122,2022-02-08,Queens Park,Dumbarton,3,3,True
+SC2,2122,2022-02-08,Alloa,Falkirk,3,3,True
+SC2,2122,2022-02-12,Alloa,East Fife,4,7,False
+SC2,2122,2022-02-12,Clyde,Dumbarton,7,4,False
+SC2,2122,2022-02-12,Cove Rangers,Queens Park,7,4,False
+SC2,2122,2022-02-12,Airdrie Utd,Montrose,7,7,False
+SC2,2122,2022-02-19,Dumbarton,Alloa,7,7,False
+SC2,2122,2022-02-19,East Fife,Queens Park,7,7,False
+SC2,2122,2022-02-19,Montrose,Clyde,7,7,False
+SC2,2122,2022-02-19,Peterhead,Airdrie Utd,14,7,False
+SC2,2122,2022-02-19,Cove Rangers,Falkirk,7,11,False
+SC2,2122,2022-02-22,Falkirk,Peterhead,3,3,True
+SC2,2122,2022-02-26,Alloa,Cove Rangers,7,7,False
+SC2,2122,2022-02-26,Falkirk,East Fife,4,7,False
+SC2,2122,2022-02-26,Airdrie Utd,Clyde,7,7,False
+SC2,2122,2022-02-26,Queens Park,Montrose,7,7,False
+SC2,2122,2022-02-26,Peterhead,Dumbarton,4,7,False
+SC2,2122,2022-03-01,Queens Park,Peterhead,3,3,True
+SC2,2122,2022-03-05,Cove Rangers,Peterhead,7,4,False
+SC2,2122,2022-03-05,Alloa,Airdrie Utd,7,7,False
+SC2,2122,2022-03-05,Clyde,Falkirk,7,7,False
+SC2,2122,2022-03-05,Dumbarton,Queens Park,7,4,False
+SC2,2122,2022-03-05,Montrose,East Fife,7,7,False
+SC2,2122,2022-03-12,East Fife,Dumbarton,7,7,False
+SC2,2122,2022-03-12,Falkirk,Airdrie Utd,7,7,False
+SC2,2122,2022-03-12,Peterhead,Montrose,7,7,False
+SC2,2122,2022-03-12,Queens Park,Alloa,7,7,False
+SC2,2122,2022-03-12,Cove Rangers,Clyde,7,7,False
+SC2,2122,2022-03-19,Alloa,Peterhead,7,7,False
+SC2,2122,2022-03-19,Clyde,East Fife,7,7,False
+SC2,2122,2022-03-19,Dumbarton,Falkirk,7,7,False
+SC2,2122,2022-03-19,Montrose,Cove Rangers,7,7,False
+SC2,2122,2022-03-19,Airdrie Utd,Queens Park,7,7,False
+SC2,2122,2022-03-26,Dumbarton,Montrose,7,7,False
+SC2,2122,2022-03-26,East Fife,Alloa,7,7,False
+SC2,2122,2022-03-26,Peterhead,Falkirk,7,7,False
+SC2,2122,2022-03-26,Queens Park,Clyde,7,7,False
+SC2,2122,2022-03-26,Airdrie Utd,Cove Rangers,7,7,False
+SC2,2122,2022-04-02,Clyde,Peterhead,7,7,False
+SC2,2122,2022-04-02,East Fife,Airdrie Utd,7,7,False
+SC2,2122,2022-04-02,Falkirk,Montrose,7,7,False
+SC2,2122,2022-04-02,Alloa,Dumbarton,7,7,False
+SC2,2122,2022-04-03,Queens Park,Cove Rangers,8,8,False
+SC2,2122,2022-04-09,Dumbarton,Peterhead,7,7,False
+SC2,2122,2022-04-09,Falkirk,Cove Rangers,7,6,False
+SC2,2122,2022-04-09,Montrose,Airdrie Utd,7,7,False
+SC2,2122,2022-04-09,Queens Park,East Fife,6,7,False
+SC2,2122,2022-04-09,Alloa,Clyde,7,7,False
+SC2,2122,2022-04-16,Clyde,Montrose,7,7,False
+SC2,2122,2022-04-16,Cove Rangers,Alloa,7,7,False
+SC2,2122,2022-04-16,East Fife,Falkirk,7,7,False
+SC2,2122,2022-04-16,Peterhead,Queens Park,7,7,False
+SC2,2122,2022-04-16,Airdrie Utd,Dumbarton,7,7,False
+SC2,2122,2022-04-23,Cove Rangers,Dumbarton,7,7,False
+SC2,2122,2022-04-23,Falkirk,Alloa,7,7,False
+SC2,2122,2022-04-23,Montrose,Queens Park,7,7,False
+SC2,2122,2022-04-23,Peterhead,East Fife,7,7,False
+SC2,2122,2022-04-23,Clyde,Airdrie Utd,7,7,False
+SC2,2122,2022-04-30,Alloa,Montrose,7,7,False
+SC2,2122,2022-04-30,Dumbarton,Clyde,7,7,False
+SC2,2122,2022-04-30,East Fife,Cove Rangers,7,7,False
+SC2,2122,2022-04-30,Queens Park,Falkirk,7,7,False
+SC2,2122,2022-04-30,Airdrie Utd,Peterhead,7,7,False

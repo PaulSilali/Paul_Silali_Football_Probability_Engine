@@ -1,0 +1,463 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2023-08-11,Amorebieta,Leganes,1,1,D,1
+2023-08-11,Valladolid,Sp Gijon,2,0,H,0
+2023-08-12,Santander,Eibar,4,0,H,0
+2023-08-12,Elche,Ferrol,0,1,A,0
+2023-08-12,Zaragoza,Villarreal B,2,0,H,0
+2023-08-13,Burgos,Huesca,1,1,D,1
+2023-08-13,Leganes,Andorra,0,1,A,0
+2023-08-13,Albacete,Espanol,1,1,D,1
+2023-08-13,Cartagena,Eldense,0,1,A,0
+2023-08-14,Mirandes,Alcorcon,4,0,H,0
+2023-08-14,Tenerife,Oviedo,1,0,H,0
+2023-08-18,Andorra,Cartagena,3,2,H,0
+2023-08-18,Zaragoza,Valladolid,1,0,H,0
+2023-08-19,Leganes,Burgos,3,2,H,0
+2023-08-19,Alcorcon,Leganes,0,2,A,0
+2023-08-19,Espanol,Santander,2,0,H,0
+2023-08-19,Eibar,Elche,2,1,H,0
+2023-08-20,Sp Gijon,Mirandes,3,0,H,0
+2023-08-20,Albacete,Amorebieta,2,2,D,1
+2023-08-20,Oviedo,Ferrol,1,1,D,1
+2023-08-21,Huesca,Tenerife,0,2,A,0
+2023-08-21,Villarreal B,Eldense,3,1,H,0
+2023-08-25,Cartagena,Leganes,0,1,A,0
+2023-08-26,Valladolid,Alcorcon,0,2,A,0
+2023-08-26,Tenerife,Zaragoza,0,1,A,0
+2023-08-26,Burgos,Oviedo,1,0,H,0
+2023-08-26,Elche,Villarreal B,1,0,H,0
+2023-08-27,Ferrol,Sp Gijon,2,0,H,0
+2023-08-27,Amorebieta,Andorra,3,0,H,0
+2023-08-27,Mirandes,Espanol,0,1,A,0
+2023-08-27,Leganes,Albacete,2,0,H,0
+2023-08-28,Eldense,Eibar,2,1,H,0
+2023-08-28,Santander,Huesca,0,0,D,1
+2023-09-01,Albacete,Valladolid,2,0,H,0
+2023-09-01,Alcorcon,Ferrol,1,1,D,1
+2023-09-02,Sp Gijon,Burgos,2,1,H,0
+2023-09-02,Leganes,Oviedo,1,1,D,1
+2023-09-02,Elche,Santander,1,1,D,1
+2023-09-02,Villarreal B,Cartagena,1,2,A,0
+2023-09-03,Huesca,Mirandes,1,1,D,1
+2023-09-03,Andorra,Tenerife,0,1,A,0
+2023-09-03,Eibar,Leganes,0,1,A,0
+2023-09-03,Espanol,Amorebieta,3,2,H,0
+2023-09-03,Zaragoza,Eldense,2,0,H,0
+2023-09-08,Leganes,Espanol,1,4,A,0
+2023-09-09,Tenerife,Albacete,2,0,H,0
+2023-09-09,Leganes,Huesca,2,0,H,0
+2023-09-09,Oviedo,Sp Gijon,0,0,D,1
+2023-09-09,Burgos,Eibar,1,0,H,0
+2023-09-10,Valladolid,Elche,1,1,D,1
+2023-09-10,Ferrol,Villarreal B,2,2,D,1
+2023-09-10,Santander,Amorebieta,1,0,H,0
+2023-09-10,Cartagena,Zaragoza,1,3,A,0
+2023-09-10,Mirandes,Andorra,4,3,H,0
+2023-09-11,Eldense,Alcorcon,2,2,D,1
+2023-09-15,Zaragoza,Santander,1,1,D,1
+2023-09-16,Valladolid,Cartagena,1,0,H,0
+2023-09-16,Albacete,Burgos,2,1,H,0
+2023-09-16,Huesca,Villarreal B,2,2,D,1
+2023-09-16,Alcorcon,Leganes,0,2,A,0
+2023-09-17,Sp Gijon,Tenerife,2,1,H,0
+2023-09-17,Amorebieta,Mirandes,2,0,H,0
+2023-09-17,Eibar,Ferrol,2,0,H,0
+2023-09-17,Elche,Leganes,1,0,H,0
+2023-09-17,Espanol,Eldense,3,3,D,1
+2023-09-18,Andorra,Oviedo,1,0,H,0
+2023-09-22,Cartagena,Eibar,1,2,A,0
+2023-09-23,Alcorcon,Huesca,0,2,A,0
+2023-09-23,Santander,Albacete,2,1,H,0
+2023-09-23,Andorra,Sp Gijon,0,0,D,1
+2023-09-23,Leganes,Eldense,2,0,H,0
+2023-09-23,Burgos,Elche,4,0,H,0
+2023-09-24,Villarreal B,Amorebieta,3,1,H,0
+2023-09-24,Oviedo,Valladolid,0,1,A,0
+2023-09-24,Mirandes,Leganes,1,3,A,0
+2023-09-25,Ferrol,Zaragoza,1,0,H,0
+2023-09-25,Tenerife,Espanol,1,0,H,0
+2023-09-29,Leganes,Santander,2,1,H,0
+2023-09-30,Elche,Leganes,0,0,D,1
+2023-09-30,Albacete,Andorra,3,1,H,0
+2023-09-30,Villarreal B,Alcorcon,2,2,D,1
+2023-09-30,Eibar,Tenerife,3,0,H,0
+2023-10-01,Huesca,Sp Gijon,0,1,A,0
+2023-10-01,Eldense,Oviedo,1,3,A,0
+2023-10-01,Valladolid,Burgos,3,0,H,0
+2023-10-01,Amorebieta,Cartagena,0,0,D,1
+2023-10-01,Zaragoza,Mirandes,0,1,A,0
+2023-10-02,Espanol,Ferrol,3,0,H,0
+2023-10-03,Tenerife,Santander,2,0,H,0
+2023-10-03,Alcorcon,Albacete,1,2,A,0
+2023-10-03,Leganes,Villarreal B,1,1,D,1
+2023-10-04,Oviedo,Huesca,1,0,H,0
+2023-10-04,Eldense,Valladolid,0,1,A,0
+2023-10-04,Burgos,Leganes,1,0,H,0
+2023-10-04,Sp Gijon,Elche,2,0,H,0
+2023-10-05,Mirandes,Eibar,1,3,A,0
+2023-10-05,Andorra,Zaragoza,0,1,A,0
+2023-10-05,Cartagena,Espanol,0,2,A,0
+2023-10-05,Ferrol,Amorebieta,1,0,H,0
+2023-10-06,Albacete,Leganes,0,2,A,0
+2023-10-07,Huesca,Eldense,0,1,A,0
+2023-10-07,Santander,Sp Gijon,3,2,H,0
+2023-10-07,Leganes,Oviedo,0,0,D,1
+2023-10-08,Zaragoza,Alcorcon,0,2,A,0
+2023-10-08,Amorebieta,Eibar,1,2,A,0
+2023-10-08,Valladolid,Mirandes,3,2,H,0
+2023-10-08,Ferrol,Cartagena,1,1,D,1
+2023-10-08,Tenerife,Burgos,2,1,H,0
+2023-10-09,Elche,Andorra,2,1,H,0
+2023-10-09,Villarreal B,Espanol,3,1,H,0
+2023-10-13,Oviedo,Albacete,3,0,H,0
+2023-10-14,Cartagena,Santander,2,3,A,0
+2023-10-14,Sp Gijon,Zaragoza,2,2,D,1
+2023-10-14,Espanol,Valladolid,2,0,H,0
+2023-10-14,Mirandes,Tenerife,1,1,D,1
+2023-10-15,Leganes,Amorebieta,6,0,H,0
+2023-10-15,Burgos,Villarreal B,3,2,H,0
+2023-10-15,Eldense,Elche,1,1,D,1
+2023-10-15,Andorra,Alcorcon,2,0,H,0
+2023-10-15,Eibar,Huesca,1,1,D,1
+2023-10-16,Leganes,Ferrol,1,0,H,0
+2023-10-20,Espanol,Leganes,0,1,A,0
+2023-10-21,Villarreal B,Mirandes,0,3,A,0
+2023-10-21,Zaragoza,Eibar,2,3,A,0
+2023-10-21,Tenerife,Leganes,0,0,D,1
+2023-10-21,Amorebieta,Oviedo,0,0,D,1
+2023-10-22,Ferrol,Eldense,1,1,D,1
+2023-10-22,Santander,Burgos,3,0,H,0
+2023-10-22,Valladolid,Andorra,2,0,H,0
+2023-10-22,Albacete,Sp Gijon,1,3,A,0
+2023-10-22,Huesca,Elche,0,1,A,0
+2023-10-23,Alcorcon,Cartagena,1,1,D,1
+2023-10-27,Eibar,Valladolid,5,1,H,0
+2023-10-28,Sp Gijon,Espanol,2,0,H,0
+2023-10-28,Elche,Tenerife,2,1,H,0
+2023-10-28,Eldense,Amorebieta,2,0,H,0
+2023-10-28,Andorra,Leganes,2,0,H,0
+2023-10-29,Santander,Ferrol,1,3,A,0
+2023-10-29,Huesca,Albacete,0,0,D,1
+2023-10-29,Mirandes,Cartagena,2,1,H,0
+2023-10-29,Leganes,Villarreal B,1,0,H,0
+2023-10-29,Oviedo,Alcorcon,2,0,H,0
+2023-10-30,Burgos,Zaragoza,1,1,D,1
+2023-11-03,Espanol,Eibar,2,2,D,1
+2023-11-04,Valladolid,Tenerife,2,0,H,0
+2023-11-04,Albacete,Elche,1,1,D,1
+2023-11-04,Villarreal B,Sp Gijon,0,3,A,0
+2023-11-04,Leganes,Mirandes,2,2,D,1
+2023-11-05,Eldense,Burgos,2,0,H,0
+2023-11-05,Amorebieta,Huesca,0,1,A,0
+2023-11-05,Ferrol,Andorra,1,0,H,0
+2023-11-05,Alcorcon,Santander,3,1,H,0
+2023-11-05,Cartagena,Leganes,0,3,A,0
+2023-11-06,Zaragoza,Oviedo,0,0,D,1
+2023-11-10,Leganes,Leganes,2,1,H,0
+2023-11-11,Sp Gijon,Amorebieta,1,1,D,1
+2023-11-11,Mirandes,Ferrol,1,2,A,0
+2023-11-11,Elche,Zaragoza,2,0,H,0
+2023-11-11,Santander,Valladolid,2,3,A,0
+2023-11-12,Eibar,Albacete,1,1,D,1
+2023-11-12,Burgos,Alcorcon,4,2,H,0
+2023-11-12,Andorra,Eldense,1,3,A,0
+2023-11-12,Huesca,Espanol,1,1,D,1
+2023-11-12,Tenerife,Villarreal B,0,1,A,0
+2023-11-13,Oviedo,Cartagena,1,1,D,1
+2023-11-17,Valladolid,Leganes,1,1,D,1
+2023-11-18,Zaragoza,Huesca,0,2,A,0
+2023-11-18,Espanol,Elche,2,0,H,0
+2023-11-18,Alcorcon,Sp Gijon,0,0,D,1
+2023-11-18,Amorebieta,Tenerife,2,0,H,0
+2023-11-19,Eldense,Mirandes,2,2,D,1
+2023-11-19,Oviedo,Eibar,2,1,H,0
+2023-11-19,Cartagena,Albacete,1,1,D,1
+2023-11-19,Villarreal B,Andorra,0,0,D,1
+2023-11-19,Ferrol,Burgos,1,1,D,1
+2023-11-20,Leganes,Santander,2,4,A,0
+2023-11-24,Huesca,Valladolid,0,1,A,0
+2023-11-25,Eibar,Leganes,3,1,H,0
+2023-11-25,Burgos,Andorra,0,0,D,1
+2023-11-25,Santander,Villarreal B,2,0,H,0
+2023-11-25,Albacete,Zaragoza,1,0,H,0
+2023-11-26,Mirandes,Oviedo,2,1,H,0
+2023-11-26,Leganes,Ferrol,2,2,D,1
+2023-11-26,Elche,Amorebieta,2,0,H,0
+2023-11-26,Espanol,Alcorcon,2,0,H,0
+2023-11-26,Tenerife,Cartagena,1,1,D,1
+2023-11-27,Sp Gijon,Eldense,2,0,H,0
+2023-12-01,Oviedo,Espanol,2,0,H,0
+2023-12-02,Eldense,Tenerife,0,3,A,0
+2023-12-02,Zaragoza,Leganes,1,0,H,0
+2023-12-02,Leganes,Valladolid,2,1,H,0
+2023-12-02,Cartagena,Sp Gijon,1,0,H,0
+2023-12-03,Amorebieta,Burgos,0,1,A,0
+2023-12-03,Ferrol,Albacete,5,4,H,0
+2023-12-03,Alcorcon,Elche,0,2,A,0
+2023-12-03,Andorra,Huesca,1,0,H,0
+2023-12-03,Mirandes,Santander,0,0,D,1
+2023-12-04,Villarreal B,Eibar,1,0,H,0
+2023-12-08,Albacete,Villarreal B,2,0,H,0
+2023-12-08,Espanol,Zaragoza,1,1,D,1
+2023-12-09,Sp Gijon,Leganes,0,0,D,1
+2023-12-09,Burgos,Mirandes,0,0,D,1
+2023-12-09,Valladolid,Amorebieta,2,1,H,0
+2023-12-10,Eibar,Andorra,2,2,D,1
+2023-12-10,Elche,Cartagena,1,2,A,0
+2023-12-10,Leganes,Eldense,1,1,D,1
+2023-12-10,Huesca,Ferrol,1,0,H,0
+2023-12-10,Santander,Oviedo,2,2,D,1
+2023-12-11,Tenerife,Alcorcon,1,0,H,0
+2023-12-15,Oviedo,Elche,3,2,H,0
+2023-12-16,Eldense,Santander,3,3,D,1
+2023-12-16,Andorra,Espanol,1,1,D,1
+2023-12-16,Cartagena,Burgos,0,3,A,0
+2023-12-16,Sp Gijon,Leganes,1,1,D,1
+2023-12-16,Mirandes,Albacete,2,0,H,0
+2023-12-17,Ferrol,Tenerife,3,1,H,0
+2023-12-17,Alcorcon,Eibar,1,0,H,0
+2023-12-17,Leganes,Huesca,2,1,H,0
+2023-12-17,Amorebieta,Zaragoza,1,1,D,1
+2023-12-18,Villarreal B,Valladolid,1,0,H,0
+2023-12-19,Santander,Andorra,2,0,H,0
+2023-12-19,Elche,Mirandes,0,0,D,1
+2023-12-19,Espanol,Burgos,3,3,D,1
+2023-12-19,Albacete,Eldense,1,1,D,1
+2023-12-20,Zaragoza,Leganes,2,2,D,1
+2023-12-20,Eibar,Sp Gijon,1,1,D,1
+2023-12-20,Leganes,Tenerife,1,1,D,1
+2023-12-21,Valladolid,Ferrol,0,1,A,0
+2023-12-21,Amorebieta,Alcorcon,1,2,A,0
+2023-12-21,Villarreal B,Oviedo,1,1,D,1
+2023-12-21,Huesca,Cartagena,3,0,H,0
+2024-01-12,Eibar,Santander,2,0,H,0
+2024-01-13,Tenerife,Elche,0,1,A,0
+2024-01-13,Alcorcon,Mirandes,0,0,D,1
+2024-01-13,Leganes,Albacete,3,2,H,0
+2024-01-13,Oviedo,Amorebieta,1,1,D,1
+2024-01-13,Burgos,Valladolid,1,0,H,0
+2024-01-13,Ferrol,Espanol,0,0,D,1
+2024-01-14,Sp Gijon,Huesca,0,0,D,1
+2024-01-14,Cartagena,Villarreal B,4,1,H,0
+2024-01-14,Andorra,Leganes,2,3,A,0
+2024-01-15,Eldense,Zaragoza,1,1,D,1
+2024-01-20,Espanol,Villarreal B,2,1,H,0
+2024-01-20,Tenerife,Sp Gijon,1,2,A,0
+2024-01-20,Ferrol,Oviedo,1,3,A,0
+2024-01-20,Albacete,Alcorcon,0,1,A,0
+2024-01-20,Amorebieta,Eldense,0,2,A,0
+2024-01-20,Zaragoza,Andorra,2,0,H,0
+2024-01-21,Santander,Cartagena,0,2,A,0
+2024-01-21,Elche,Valladolid,0,0,D,1
+2024-01-21,Huesca,Eibar,2,3,A,0
+2024-01-21,Mirandes,Leganes,1,1,D,1
+2024-01-22,Leganes,Burgos,2,0,H,0
+2024-01-26,Eibar,Mirandes,1,0,H,0
+2024-01-27,Leganes,Tenerife,0,0,D,1
+2024-01-27,Oviedo,Leganes,1,0,H,0
+2024-01-27,Cartagena,Amorebieta,1,0,H,0
+2024-01-27,Alcorcon,Zaragoza,0,0,D,1
+2024-01-28,Sp Gijon,Ferrol,1,2,A,0
+2024-01-28,Eldense,Espanol,3,2,H,0
+2024-01-28,Andorra,Elche,0,1,A,0
+2024-01-28,Villarreal B,Huesca,1,1,D,1
+2024-01-28,Burgos,Albacete,2,1,H,0
+2024-01-29,Valladolid,Santander,3,1,H,0
+2024-02-02,Elche,Burgos,2,0,H,0
+2024-02-03,Leganes,Valladolid,0,0,D,1
+2024-02-03,Tenerife,Andorra,0,0,D,1
+2024-02-03,Mirandes,Villarreal B,3,0,H,0
+2024-02-03,Albacete,Cartagena,1,1,D,1
+2024-02-03,Huesca,Alcorcon,1,0,H,0
+2024-02-04,Oviedo,Eldense,1,1,D,1
+2024-02-04,Ferrol,Eibar,1,1,D,1
+2024-02-04,Amorebieta,Santander,0,1,A,0
+2024-02-04,Espanol,Leganes,2,1,H,0
+2024-02-05,Zaragoza,Sp Gijon,3,0,H,0
+2024-02-09,Leganes,Leganes,0,0,D,1
+2024-02-10,Sp Gijon,Oviedo,1,0,H,0
+2024-02-10,Santander,Espanol,2,0,H,0
+2024-02-10,Eldense,Huesca,0,0,D,1
+2024-02-10,Amorebieta,Elche,1,0,H,0
+2024-02-11,Burgos,Ferrol,2,0,H,0
+2024-02-11,Alcorcon,Andorra,1,0,H,0
+2024-02-11,Villarreal B,Tenerife,1,0,H,0
+2024-02-11,Cartagena,Mirandes,1,0,H,0
+2024-02-11,Eibar,Zaragoza,1,0,H,0
+2024-02-12,Valladolid,Albacete,0,0,D,1
+2024-02-16,Zaragoza,Cartagena,1,2,A,0
+2024-02-17,Sp Gijon,Valladolid,1,1,D,1
+2024-02-17,Espanol,Mirandes,3,0,H,0
+2024-02-17,Andorra,Villarreal B,1,1,D,1
+2024-02-17,Oviedo,Burgos,5,0,H,0
+2024-02-18,Ferrol,Leganes,0,0,D,1
+2024-02-18,Leganes,Alcorcon,3,0,H,0
+2024-02-18,Huesca,Amorebieta,0,0,D,1
+2024-02-18,Elche,Eibar,0,0,D,1
+2024-02-18,Albacete,Santander,2,0,H,0
+2024-02-19,Tenerife,Eldense,1,0,H,0
+2024-02-23,Valladolid,Oviedo,3,0,H,0
+2024-02-24,Eibar,Espanol,2,3,A,0
+2024-02-24,Santander,Leganes,2,1,H,0
+2024-02-24,Villarreal B,Zaragoza,0,0,D,1
+2024-02-25,Amorebieta,Albacete,1,1,D,1
+2024-02-25,Eldense,Ferrol,2,0,H,0
+2024-02-25,Alcorcon,Tenerife,1,1,D,1
+2024-02-25,Burgos,Sp Gijon,1,0,H,0
+2024-02-25,Cartagena,Elche,0,1,A,0
+2024-02-26,Mirandes,Huesca,0,3,A,0
+2024-03-01,Sp Gijon,Albacete,2,1,H,0
+2024-03-02,Espanol,Huesca,0,0,D,1
+2024-03-02,Ferrol,Santander,2,2,D,1
+2024-03-02,Oviedo,Leganes,3,2,H,0
+2024-03-02,Burgos,Cartagena,3,0,H,0
+2024-03-02,Eldense,Villarreal B,2,0,H,0
+2024-03-03,Zaragoza,Amorebieta,0,1,A,0
+2024-03-03,Leganes,Eibar,0,2,A,0
+2024-03-03,Andorra,Valladolid,2,1,H,0
+2024-03-03,Tenerife,Mirandes,2,1,H,0
+2024-03-04,Elche,Alcorcon,3,0,H,0
+2024-03-08,Huesca,Andorra,2,0,H,0
+2024-03-09,Cartagena,Ferrol,2,1,H,0
+2024-03-09,Valladolid,Zaragoza,2,0,H,0
+2024-03-09,Mirandes,Eldense,3,1,H,0
+2024-03-09,Albacete,Oviedo,1,2,A,0
+2024-03-10,Eibar,Burgos,0,1,A,0
+2024-03-10,Leganes,Sp Gijon,1,0,H,0
+2024-03-10,Villarreal B,Elche,0,1,A,0
+2024-03-10,Alcorcon,Espanol,1,1,D,1
+2024-03-10,Santander,Tenerife,4,2,H,0
+2024-03-11,Amorebieta,Leganes,0,1,A,0
+2024-03-13,Leganes,Andorra,0,0,D,1
+2024-03-15,Eldense,Cartagena,0,0,D,1
+2024-03-16,Burgos,Leganes,1,1,D,1
+2024-03-16,Eibar,Villarreal B,2,0,H,0
+2024-03-16,Oviedo,Santander,1,1,D,1
+2024-03-16,Tenerife,Huesca,0,0,D,1
+2024-03-16,Sp Gijon,Alcorcon,1,0,H,0
+2024-03-17,Zaragoza,Espanol,0,1,A,0
+2024-03-17,Leganes,Mirandes,4,0,H,0
+2024-03-17,Ferrol,Valladolid,2,0,H,0
+2024-03-17,Elche,Albacete,3,2,H,0
+2024-03-18,Andorra,Amorebieta,0,1,A,0
+2024-03-23,Alcorcon,Oviedo,1,0,H,0
+2024-03-23,Cartagena,Andorra,1,0,H,0
+2024-03-23,Espanol,Tenerife,1,1,D,1
+2024-03-23,Villarreal B,Leganes,1,2,A,0
+2024-03-24,Mirandes,Zaragoza,0,0,D,1
+2024-03-24,Santander,Eldense,2,1,H,0
+2024-03-24,Amorebieta,Sp Gijon,3,1,H,0
+2024-03-24,Huesca,Burgos,3,0,H,0
+2024-03-24,Valladolid,Eibar,3,1,H,0
+2024-03-24,Leganes,Elche,3,2,H,0
+2024-03-25,Albacete,Ferrol,1,1,D,1
+2024-03-29,Burgos,Espanol,0,0,D,1
+2024-03-30,Andorra,Mirandes,1,0,H,0
+2024-03-30,Valladolid,Leganes,0,0,D,1
+2024-03-30,Eibar,Eldense,5,1,H,0
+2024-03-30,Leganes,Cartagena,0,0,D,1
+2024-03-30,Albacete,Huesca,1,1,D,1
+2024-03-30,Sp Gijon,Santander,2,3,A,0
+2024-03-31,Alcorcon,Amorebieta,1,1,D,1
+2024-03-31,Oviedo,Villarreal B,2,1,H,0
+2024-03-31,Zaragoza,Tenerife,3,1,H,0
+2024-03-31,Ferrol,Elche,1,0,H,0
+2024-04-05,Amorebieta,Ferrol,3,1,H,0
+2024-04-05,Elche,Oviedo,0,2,A,0
+2024-04-06,Leganes,Zaragoza,2,1,H,0
+2024-04-06,Eldense,Andorra,0,2,A,0
+2024-04-07,Huesca,Leganes,0,0,D,1
+2024-04-07,Villarreal B,Burgos,2,1,H,0
+2024-04-07,Espanol,Albacete,2,1,H,0
+2024-04-07,Tenerife,Eibar,2,1,H,0
+2024-04-07,Cartagena,Valladolid,0,2,A,0
+2024-04-07,Mirandes,Sp Gijon,1,3,A,0
+2024-04-08,Santander,Alcorcon,0,1,A,0
+2024-04-12,Leganes,Espanol,0,0,D,1
+2024-04-13,Leganes,Amorebieta,1,2,A,0
+2024-04-13,Sp Gijon,Cartagena,1,0,H,0
+2024-04-13,Valladolid,Eldense,1,0,H,0
+2024-04-14,Burgos,Santander,2,1,H,0
+2024-04-14,Ferrol,Huesca,2,1,H,0
+2024-04-14,Andorra,Eibar,0,2,A,0
+2024-04-14,Zaragoza,Elche,1,1,D,1
+2024-04-14,Albacete,Tenerife,1,0,H,0
+2024-04-14,Oviedo,Mirandes,1,1,D,1
+2024-04-15,Alcorcon,Villarreal B,1,0,H,0
+2024-04-19,Tenerife,Leganes,0,0,D,1
+2024-04-20,Elche,Sp Gijon,2,1,H,0
+2024-04-20,Amorebieta,Valladolid,0,3,A,0
+2024-04-20,Santander,Leganes,0,0,D,1
+2024-04-20,Villarreal B,Ferrol,1,0,H,0
+2024-04-20,Huesca,Zaragoza,1,2,A,0
+2024-04-21,Mirandes,Burgos,2,1,H,0
+2024-04-21,Espanol,Andorra,1,1,D,1
+2024-04-21,Eibar,Alcorcon,2,0,H,0
+2024-04-21,Eldense,Albacete,0,1,A,0
+2024-04-22,Cartagena,Oviedo,2,0,H,0
+2024-04-26,Andorra,Santander,1,1,D,1
+2024-04-27,Burgos,Amorebieta,2,2,D,1
+2024-04-27,Leganes,Zaragoza,1,1,D,1
+2024-04-27,Elche,Espanol,2,2,D,1
+2024-04-28,Valladolid,Huesca,1,0,H,0
+2024-04-28,Albacete,Eibar,2,1,H,0
+2024-04-28,Sp Gijon,Villarreal B,0,3,A,0
+2024-04-28,Alcorcon,Eldense,0,0,D,1
+2024-04-28,Oviedo,Tenerife,0,1,A,0
+2024-04-28,Leganes,Cartagena,0,1,A,0
+2024-04-29,Ferrol,Mirandes,0,2,A,0
+2024-05-03,Villarreal B,Leganes,0,3,A,0
+2024-05-04,Santander,Elche,3,1,H,0
+2024-05-04,Cartagena,Alcorcon,1,0,H,0
+2024-05-04,Huesca,Oviedo,0,2,A,0
+2024-05-04,Mirandes,Valladolid,0,1,A,0
+2024-05-05,Espanol,Sp Gijon,0,0,D,1
+2024-05-05,Eibar,Amorebieta,5,0,H,0
+2024-05-05,Andorra,Albacete,0,1,A,0
+2024-05-05,Eldense,Leganes,1,2,A,0
+2024-05-05,Zaragoza,Burgos,1,3,A,0
+2024-05-05,Tenerife,Ferrol,2,0,H,0
+2024-05-10,Burgos,Eldense,1,2,A,0
+2024-05-11,Santander,Mirandes,1,0,H,0
+2024-05-11,Leganes,Eibar,2,2,D,1
+2024-05-11,Sp Gijon,Andorra,5,2,H,0
+2024-05-11,Ferrol,Alcorcon,2,1,H,0
+2024-05-11,Valladolid,Espanol,0,0,D,1
+2024-05-12,Cartagena,Tenerife,2,0,H,0
+2024-05-12,Elche,Huesca,0,3,A,0
+2024-05-12,Amorebieta,Villarreal B,2,0,H,0
+2024-05-12,Oviedo,Zaragoza,1,0,H,0
+2024-05-12,Albacete,Leganes,1,0,H,0
+2024-05-17,Mirandes,Elche,1,1,D,1
+2024-05-18,Tenerife,Amorebieta,0,1,A,0
+2024-05-18,Eldense,Leganes,0,0,D,1
+2024-05-18,Leganes,Sp Gijon,2,1,H,0
+2024-05-18,Huesca,Santander,0,3,A,0
+2024-05-18,Andorra,Burgos,1,0,H,0
+2024-05-19,Eibar,Cartagena,1,0,H,0
+2024-05-19,Alcorcon,Valladolid,1,1,D,1
+2024-05-19,Zaragoza,Ferrol,2,2,D,1
+2024-05-20,Villarreal B,Albacete,2,2,D,1
+2024-05-20,Espanol,Oviedo,2,1,H,0
+2024-05-26,Sp Gijon,Eibar,1,0,H,0
+2024-05-26,Albacete,Mirandes,2,2,D,1
+2024-05-26,Amorebieta,Espanol,0,0,D,1
+2024-05-26,Burgos,Tenerife,1,1,D,1
+2024-05-26,Cartagena,Huesca,0,2,A,0
+2024-05-26,Elche,Eldense,1,2,A,0
+2024-05-26,Ferrol,Leganes,2,2,D,1
+2024-05-26,Leganes,Alcorcon,2,2,D,1
+2024-05-26,Oviedo,Andorra,3,0,H,0
+2024-05-26,Santander,Zaragoza,0,2,A,0
+2024-05-26,Valladolid,Villarreal B,3,2,H,0
+2024-06-02,Eldense,Sp Gijon,0,1,A,0
+2024-06-02,Espanol,Cartagena,3,0,H,0
+2024-06-02,Leganes,Elche,2,0,H,0
+2024-06-02,Mirandes,Amorebieta,1,0,H,0
+2024-06-02,Tenerife,Valladolid,2,1,H,0
+2024-06-02,Villarreal B,Santander,1,0,H,0
+2024-06-02,Zaragoza,Albacete,1,1,D,1
+2024-06-02,Eibar,Oviedo,4,3,H,0
+2024-06-02,Huesca,Leganes,0,0,D,1
+2024-06-02,Andorra,Ferrol,1,0,H,0
+2024-06-02,Alcorcon,Burgos,1,1,D,1

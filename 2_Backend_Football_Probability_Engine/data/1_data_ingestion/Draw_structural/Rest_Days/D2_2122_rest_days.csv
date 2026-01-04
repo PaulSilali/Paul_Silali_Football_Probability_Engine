@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,2122,2021-07-23,Schalke 04,Hamburg,7,61,False
+D2,2122,2021-07-24,Darmstadt,Regensburg,62,62,False
+D2,2122,2021-07-24,Werder Bremen,Hannover,7,62,False
+D2,2122,2021-07-24,Heidenheim,Paderborn,62,62,False
+D2,2122,2021-07-24,Dresden,Ingolstadt,391,7,False
+D2,2122,2021-07-24,Hansa Rostock,Karlsruhe,7,62,False
+D2,2122,2021-07-25,Nurnberg,Erzgebirge Aue,63,63,False
+D2,2122,2021-07-25,Sandhausen,Fortuna Dusseldorf,63,63,False
+D2,2122,2021-07-25,St Pauli,Holstein Kiel,63,63,False
+D2,2122,2021-07-30,Karlsruhe,Darmstadt,6,6,False
+D2,2122,2021-07-30,Paderborn,Nurnberg,6,5,False
+D2,2122,2021-07-31,Fortuna Dusseldorf,Werder Bremen,6,7,False
+D2,2122,2021-07-31,Ingolstadt,Heidenheim,7,7,False
+D2,2122,2021-07-31,Regensburg,Sandhausen,7,6,False
+D2,2122,2021-07-31,Hannover,Hansa Rostock,7,7,False
+D2,2122,2021-08-01,Hamburg,Dresden,9,8,False
+D2,2122,2021-08-01,Erzgebirge Aue,St Pauli,7,7,False
+D2,2122,2021-08-01,Holstein Kiel,Schalke 04,7,9,False
+D2,2122,2021-08-13,Schalke 04,Erzgebirge Aue,12,12,False
+D2,2122,2021-08-13,St Pauli,Hamburg,12,12,False
+D2,2122,2021-08-14,Dresden,Hannover,13,14,False
+D2,2122,2021-08-14,Sandhausen,Karlsruhe,14,15,False
+D2,2122,2021-08-14,Nurnberg,Fortuna Dusseldorf,15,14,False
+D2,2122,2021-08-14,Holstein Kiel,Regensburg,13,14,False
+D2,2122,2021-08-15,Darmstadt,Ingolstadt,16,15,False
+D2,2122,2021-08-15,Heidenheim,Hansa Rostock,15,15,False
+D2,2122,2021-08-15,Werder Bremen,Paderborn,15,16,False
+D2,2122,2021-08-20,Fortuna Dusseldorf,Holstein Kiel,6,6,False
+D2,2122,2021-08-20,Hannover,Heidenheim,6,5,False
+D2,2122,2021-08-21,Hansa Rostock,Dresden,6,7,False
+D2,2122,2021-08-21,Paderborn,St Pauli,6,8,False
+D2,2122,2021-08-21,Regensburg,Schalke 04,7,8,False
+D2,2122,2021-08-21,Karlsruhe,Werder Bremen,7,6,False
+D2,2122,2021-08-22,Hamburg,Darmstadt,9,7,False
+D2,2122,2021-08-22,Erzgebirge Aue,Sandhausen,9,8,False
+D2,2122,2021-08-22,Ingolstadt,Nurnberg,7,8,False
+D2,2122,2021-08-27,Nurnberg,Karlsruhe,5,6,False
+D2,2122,2021-08-27,Sandhausen,Ingolstadt,5,5,False
+D2,2122,2021-08-28,Schalke 04,Fortuna Dusseldorf,7,8,False
+D2,2122,2021-08-28,Holstein Kiel,Erzgebirge Aue,8,6,False
+D2,2122,2021-08-28,Heidenheim,Hamburg,8,6,False
+D2,2122,2021-08-28,Darmstadt,Hannover,6,8,False
+D2,2122,2021-08-29,Dresden,Paderborn,8,8,False
+D2,2122,2021-08-29,St Pauli,Regensburg,8,8,False
+D2,2122,2021-08-29,Werder Bremen,Hansa Rostock,8,8,False
+D2,2122,2021-09-11,Hamburg,Sandhausen,14,15,False
+D2,2122,2021-09-11,Karlsruhe,Holstein Kiel,15,14,False
+D2,2122,2021-09-11,Ingolstadt,Werder Bremen,15,13,False
+D2,2122,2021-09-11,Hannover,St Pauli,14,13,False
+D2,2122,2021-09-12,Paderborn,Schalke 04,14,15,False
+D2,2122,2021-09-12,Regensburg,Nurnberg,14,16,False
+D2,2122,2021-09-12,Erzgebirge Aue,Fortuna Dusseldorf,15,15,False
+D2,2122,2021-09-12,Hansa Rostock,Darmstadt,14,15,False
+D2,2122,2021-09-12,Heidenheim,Dresden,15,14,False
+D2,2122,2021-09-17,Schalke 04,Karlsruhe,5,6,False
+D2,2122,2021-09-17,Nurnberg,Hansa Rostock,5,5,False
+D2,2122,2021-09-18,Werder Bremen,Hamburg,7,7,False
+D2,2122,2021-09-18,Holstein Kiel,Hannover,7,7,False
+D2,2122,2021-09-18,Sandhausen,Heidenheim,7,6,False
+D2,2122,2021-09-18,Fortuna Dusseldorf,Regensburg,6,6,False
+D2,2122,2021-09-19,Darmstadt,Dresden,7,7,False
+D2,2122,2021-09-19,Erzgebirge Aue,Paderborn,7,7,False
+D2,2122,2021-09-19,St Pauli,Ingolstadt,8,8,False
+D2,2122,2021-09-24,Heidenheim,Darmstadt,6,5,False
+D2,2122,2021-09-24,Regensburg,Erzgebirge Aue,6,5,False
+D2,2122,2021-09-25,Hansa Rostock,Schalke 04,8,8,False
+D2,2122,2021-09-25,Paderborn,Holstein Kiel,6,7,False
+D2,2122,2021-09-25,Karlsruhe,St Pauli,8,6,False
+D2,2122,2021-09-25,Ingolstadt,Fortuna Dusseldorf,6,7,False
+D2,2122,2021-09-26,Hamburg,Nurnberg,8,9,False
+D2,2122,2021-09-26,Dresden,Werder Bremen,7,8,False
+D2,2122,2021-09-26,Hannover,Sandhausen,8,8,False
+D2,2122,2021-10-01,Erzgebirge Aue,Hamburg,7,5,False
+D2,2122,2021-10-01,Werder Bremen,Heidenheim,5,7,False
+D2,2122,2021-10-02,Nurnberg,Hannover,6,6,False
+D2,2122,2021-10-02,Regensburg,Karlsruhe,8,7,False
+D2,2122,2021-10-02,Holstein Kiel,Hansa Rostock,7,7,False
+D2,2122,2021-10-02,Fortuna Dusseldorf,Paderborn,7,7,False
+D2,2122,2021-10-03,St Pauli,Dresden,8,7,False
+D2,2122,2021-10-03,Sandhausen,Darmstadt,7,9,False
+D2,2122,2021-10-03,Schalke 04,Ingolstadt,8,8,False
+D2,2122,2021-10-15,Hannover,Schalke 04,13,12,False
+D2,2122,2021-10-15,Paderborn,Regensburg,13,13,False
+D2,2122,2021-10-16,Ingolstadt,Holstein Kiel,13,14,False
+D2,2122,2021-10-16,Hamburg,Fortuna Dusseldorf,15,14,False
+D2,2122,2021-10-16,Karlsruhe,Erzgebirge Aue,14,15,False
+D2,2122,2021-10-16,Heidenheim,St Pauli,15,13,False
+D2,2122,2021-10-17,Darmstadt,Werder Bremen,14,16,False
+D2,2122,2021-10-17,Dresden,Nurnberg,14,15,False
+D2,2122,2021-10-17,Hansa Rostock,Sandhausen,15,14,False
+D2,2122,2021-10-22,Erzgebirge Aue,Ingolstadt,6,6,False
+D2,2122,2021-10-22,Paderborn,Hamburg,7,6,False
+D2,2122,2021-10-23,Schalke 04,Dresden,8,6,False
+D2,2122,2021-10-23,Holstein Kiel,Darmstadt,7,6,False
+D2,2122,2021-10-23,Nurnberg,Heidenheim,6,7,False
+D2,2122,2021-10-23,Fortuna Dusseldorf,Karlsruhe,7,7,False
+D2,2122,2021-10-24,Sandhausen,Werder Bremen,7,7,False
+D2,2122,2021-10-24,Regensburg,Hannover,9,9,False
+D2,2122,2021-10-24,St Pauli,Hansa Rostock,8,7,False
+D2,2122,2021-10-29,Darmstadt,Nurnberg,6,6,False
+D2,2122,2021-10-29,Heidenheim,Schalke 04,6,6,False
+D2,2122,2021-10-30,Hamburg,Holstein Kiel,8,7,False
+D2,2122,2021-10-30,Werder Bremen,St Pauli,6,6,False
+D2,2122,2021-10-30,Hannover,Erzgebirge Aue,6,8,False
+D2,2122,2021-10-30,Dresden,Sandhausen,7,6,False
+D2,2122,2021-10-31,Ingolstadt,Regensburg,9,7,False
+D2,2122,2021-10-31,Hansa Rostock,Fortuna Dusseldorf,7,8,False
+D2,2122,2021-10-31,Karlsruhe,Paderborn,8,9,False
+D2,2122,2021-11-05,Holstein Kiel,Dresden,6,6,False
+D2,2122,2021-11-05,Nurnberg,Werder Bremen,7,6,False
+D2,2122,2021-11-06,Karlsruhe,Hamburg,6,7,False
+D2,2122,2021-11-06,Regensburg,Hansa Rostock,6,6,False
+D2,2122,2021-11-06,Paderborn,Ingolstadt,6,6,False
+D2,2122,2021-11-06,Fortuna Dusseldorf,Hannover,6,7,False
+D2,2122,2021-11-07,Erzgebirge Aue,Heidenheim,8,9,False
+D2,2122,2021-11-07,Schalke 04,Darmstadt,9,9,False
+D2,2122,2021-11-19,Sandhausen,Nurnberg,20,14,False
+D2,2122,2021-11-19,Hannover,Paderborn,13,13,False
+D2,2122,2021-11-20,Werder Bremen,Schalke 04,15,13,False
+D2,2122,2021-11-20,Darmstadt,St Pauli,13,21,False
+D2,2122,2021-11-20,Hamburg,Regensburg,14,14,False
+D2,2122,2021-11-20,Hansa Rostock,Erzgebirge Aue,14,13,False
+D2,2122,2021-11-21,Ingolstadt,Karlsruhe,15,15,False
+D2,2122,2021-11-21,Dresden,Fortuna Dusseldorf,16,15,False
+D2,2122,2021-11-21,Heidenheim,Holstein Kiel,14,16,False
+D2,2122,2021-11-24,St Pauli,Sandhausen,4,5,True
+D2,2122,2021-11-26,Fortuna Dusseldorf,Heidenheim,5,5,False
+D2,2122,2021-11-26,Regensburg,Dresden,6,5,False
+D2,2122,2021-11-27,Holstein Kiel,Werder Bremen,6,7,False
+D2,2122,2021-11-27,Karlsruhe,Hannover,6,8,False
+D2,2122,2021-11-27,Schalke 04,Sandhausen,7,3,False
+D2,2122,2021-11-27,Erzgebirge Aue,Darmstadt,7,7,False
+D2,2122,2021-11-28,Nurnberg,St Pauli,9,4,False
+D2,2122,2021-11-28,Hamburg,Ingolstadt,8,7,False
+D2,2122,2021-11-28,Paderborn,Hansa Rostock,9,8,False
+D2,2122,2021-12-03,Darmstadt,Fortuna Dusseldorf,6,7,False
+D2,2122,2021-12-03,Werder Bremen,Erzgebirge Aue,6,6,False
+D2,2122,2021-12-04,St Pauli,Schalke 04,6,7,False
+D2,2122,2021-12-04,Sandhausen,Paderborn,7,6,False
+D2,2122,2021-12-04,Nurnberg,Holstein Kiel,6,7,False
+D2,2122,2021-12-04,Hansa Rostock,Ingolstadt,6,6,False
+D2,2122,2021-12-05,Hannover,Hamburg,8,7,False
+D2,2122,2021-12-05,Dresden,Karlsruhe,9,8,False
+D2,2122,2021-12-05,Heidenheim,Regensburg,9,9,False
+D2,2122,2021-12-10,Regensburg,Werder Bremen,5,7,False
+D2,2122,2021-12-10,Schalke 04,Nurnberg,6,6,False
+D2,2122,2021-12-11,Fortuna Dusseldorf,St Pauli,8,7,False
+D2,2122,2021-12-11,Paderborn,Darmstadt,7,8,False
+D2,2122,2021-12-11,Ingolstadt,Hannover,7,6,False
+D2,2122,2021-12-11,Holstein Kiel,Sandhausen,7,7,False
+D2,2122,2021-12-12,Erzgebirge Aue,Dresden,9,7,False
+D2,2122,2021-12-12,Hamburg,Hansa Rostock,7,8,False
+D2,2122,2021-12-12,Karlsruhe,Heidenheim,7,7,False
+D2,2122,2021-12-17,Fortuna Dusseldorf,Sandhausen,6,6,False
+D2,2122,2021-12-17,Holstein Kiel,St Pauli,6,6,False
+D2,2122,2021-12-18,Ingolstadt,Dresden,7,6,False
+D2,2122,2021-12-18,Erzgebirge Aue,Nurnberg,6,8,False
+D2,2122,2021-12-18,Paderborn,Heidenheim,7,6,False
+D2,2122,2021-12-18,Hamburg,Schalke 04,6,8,False
+D2,2122,2021-12-19,Regensburg,Darmstadt,9,8,False
+D2,2122,2021-12-19,Karlsruhe,Hansa Rostock,7,7,False
+D2,2122,2021-12-19,Hannover,Werder Bremen,8,9,False
+D2,2122,2022-01-14,Dresden,Hamburg,27,27,False
+D2,2122,2022-01-14,Hansa Rostock,Hannover,26,26,False
+D2,2122,2022-01-15,Darmstadt,Karlsruhe,27,27,False
+D2,2122,2022-01-15,Nurnberg,Paderborn,28,28,False
+D2,2122,2022-01-15,St Pauli,Erzgebirge Aue,29,28,False
+D2,2122,2022-01-15,Werder Bremen,Fortuna Dusseldorf,27,29,False
+D2,2122,2022-01-16,Sandhausen,Regensburg,30,28,False
+D2,2122,2022-01-16,Heidenheim,Ingolstadt,29,29,False
+D2,2122,2022-01-16,Schalke 04,Holstein Kiel,29,30,False
+D2,2122,2022-01-21,Fortuna Dusseldorf,Nurnberg,6,6,False
+D2,2122,2022-01-21,Hamburg,St Pauli,7,6,False
+D2,2122,2022-01-22,Erzgebirge Aue,Schalke 04,7,6,False
+D2,2122,2022-01-22,Paderborn,Werder Bremen,7,7,False
+D2,2122,2022-01-22,Ingolstadt,Darmstadt,6,7,False
+D2,2122,2022-01-22,Hansa Rostock,Heidenheim,8,6,False
+D2,2122,2022-01-23,Hannover,Dresden,9,9,False
+D2,2122,2022-01-23,Regensburg,Holstein Kiel,7,7,False
+D2,2122,2022-02-04,Nurnberg,Ingolstadt,14,13,False
+D2,2122,2022-02-04,Heidenheim,Hannover,13,12,False
+D2,2122,2022-02-05,Schalke 04,Regensburg,14,13,False
+D2,2122,2022-02-05,Sandhausen,Erzgebirge Aue,20,14,False
+D2,2122,2022-02-05,Werder Bremen,Karlsruhe,14,21,False
+D2,2122,2022-02-05,St Pauli,Paderborn,15,14,False
+D2,2122,2022-02-06,Holstein Kiel,Fortuna Dusseldorf,14,16,False
+D2,2122,2022-02-06,Darmstadt,Hamburg,15,16,False
+D2,2122,2022-02-06,Dresden,Hansa Rostock,14,15,False
+D2,2122,2022-02-08,Karlsruhe,Sandhausen,3,3,True
+D2,2122,2022-02-11,Erzgebirge Aue,Holstein Kiel,6,5,False
+D2,2122,2022-02-11,Hansa Rostock,Werder Bremen,5,6,False
+D2,2122,2022-02-12,Regensburg,St Pauli,7,7,False
+D2,2122,2022-02-12,Karlsruhe,Nurnberg,4,8,False
+D2,2122,2022-02-12,Paderborn,Dresden,7,6,False
+D2,2122,2022-02-12,Hamburg,Heidenheim,6,8,False
+D2,2122,2022-02-13,Fortuna Dusseldorf,Schalke 04,7,8,False
+D2,2122,2022-02-13,Hannover,Darmstadt,9,7,False
+D2,2122,2022-02-13,Ingolstadt,Sandhausen,9,5,False
+D2,2122,2022-02-18,Dresden,Heidenheim,6,6,False
+D2,2122,2022-02-18,Schalke 04,Paderborn,5,6,False
+D2,2122,2022-02-19,Holstein Kiel,Karlsruhe,8,7,False
+D2,2122,2022-02-19,Sandhausen,Hamburg,6,7,False
+D2,2122,2022-02-19,Werder Bremen,Ingolstadt,8,6,False
+D2,2122,2022-02-19,Nurnberg,Regensburg,7,7,False
+D2,2122,2022-02-20,Fortuna Dusseldorf,Erzgebirge Aue,7,9,False
+D2,2122,2022-02-20,St Pauli,Hannover,8,7,False
+D2,2122,2022-02-20,Darmstadt,Hansa Rostock,7,9,False
+D2,2122,2022-02-25,Hannover,Holstein Kiel,5,6,False
+D2,2122,2022-02-25,Paderborn,Erzgebirge Aue,7,5,False
+D2,2122,2022-02-26,Dresden,Darmstadt,8,6,False
+D2,2122,2022-02-26,Karlsruhe,Schalke 04,7,8,False
+D2,2122,2022-02-26,Ingolstadt,St Pauli,7,6,False
+D2,2122,2022-02-26,Hansa Rostock,Nurnberg,6,7,False
+D2,2122,2022-02-27,Heidenheim,Sandhausen,9,8,False
+D2,2122,2022-02-27,Hamburg,Werder Bremen,8,8,False
+D2,2122,2022-02-27,Regensburg,Fortuna Dusseldorf,8,7,False
+D2,2122,2022-03-04,Darmstadt,Heidenheim,6,5,False
+D2,2122,2022-03-04,Holstein Kiel,Paderborn,7,7,False
+D2,2122,2022-03-05,Nurnberg,Hamburg,7,6,False
+D2,2122,2022-03-05,St Pauli,Karlsruhe,7,7,False
+D2,2122,2022-03-05,Schalke 04,Hansa Rostock,7,7,False
+D2,2122,2022-03-05,Sandhausen,Hannover,6,8,False
+D2,2122,2022-03-06,Fortuna Dusseldorf,Ingolstadt,7,8,False
+D2,2122,2022-03-06,Erzgebirge Aue,Regensburg,9,7,False
+D2,2122,2022-03-06,Werder Bremen,Dresden,7,8,False
+D2,2122,2022-03-11,Darmstadt,Sandhausen,7,6,False
+D2,2122,2022-03-11,Hansa Rostock,Holstein Kiel,6,7,False
+D2,2122,2022-03-12,Dresden,St Pauli,6,7,False
+D2,2122,2022-03-12,Paderborn,Fortuna Dusseldorf,8,6,False
+D2,2122,2022-03-12,Heidenheim,Werder Bremen,8,6,False
+D2,2122,2022-03-13,Hannover,Nurnberg,8,8,False
+D2,2122,2022-03-13,Ingolstadt,Schalke 04,7,8,False
+D2,2122,2022-03-13,Karlsruhe,Regensburg,8,7,False
+D2,2122,2022-03-18,St Pauli,Heidenheim,6,6,False
+D2,2122,2022-03-18,Erzgebirge Aue,Karlsruhe,12,5,False
+D2,2122,2022-03-19,Fortuna Dusseldorf,Hamburg,7,14,False
+D2,2122,2022-03-19,Sandhausen,Hansa Rostock,8,8,False
+D2,2122,2022-03-19,Schalke 04,Hannover,6,6,False
+D2,2122,2022-03-19,Werder Bremen,Darmstadt,7,8,False
+D2,2122,2022-03-20,Nurnberg,Dresden,7,8,False
+D2,2122,2022-03-20,Regensburg,Paderborn,7,8,False
+D2,2122,2022-03-20,Holstein Kiel,Ingolstadt,9,7,False
+D2,2122,2022-04-01,Dresden,Schalke 04,12,13,False
+D2,2122,2022-04-01,Ingolstadt,Erzgebirge Aue,12,14,False
+D2,2122,2022-04-02,Hamburg,Paderborn,14,13,False
+D2,2122,2022-04-02,Hannover,Regensburg,14,13,False
+D2,2122,2022-04-02,Hansa Rostock,St Pauli,14,15,False
+D2,2122,2022-04-02,Darmstadt,Holstein Kiel,14,13,False
+D2,2122,2022-04-03,Karlsruhe,Fortuna Dusseldorf,16,15,False
+D2,2122,2022-04-03,Werder Bremen,Sandhausen,15,15,False
+D2,2122,2022-04-03,Heidenheim,Nurnberg,16,14,False
+D2,2122,2022-04-05,Hamburg,Erzgebirge Aue,3,4,True
+D2,2122,2022-04-08,Fortuna Dusseldorf,Hansa Rostock,5,6,False
+D2,2122,2022-04-08,Regensburg,Ingolstadt,6,7,False
+D2,2122,2022-04-09,Nurnberg,Darmstadt,6,7,False
+D2,2122,2022-04-09,Schalke 04,Heidenheim,8,6,False
+D2,2122,2022-04-09,St Pauli,Werder Bremen,7,6,False
+D2,2122,2022-04-09,Erzgebirge Aue,Hannover,4,7,False
+D2,2122,2022-04-10,Sandhausen,Dresden,7,9,False
+D2,2122,2022-04-10,Paderborn,Karlsruhe,8,7,False
+D2,2122,2022-04-10,Holstein Kiel,Hamburg,8,5,False
+D2,2122,2022-04-16,Hamburg,Karlsruhe,6,6,False
+D2,2122,2022-04-16,Dresden,Holstein Kiel,6,6,False
+D2,2122,2022-04-16,Hannover,Fortuna Dusseldorf,7,8,False
+D2,2122,2022-04-16,Sandhausen,St Pauli,6,7,False
+D2,2122,2022-04-17,Hansa Rostock,Regensburg,9,9,False
+D2,2122,2022-04-17,Darmstadt,Schalke 04,8,8,False
+D2,2122,2022-04-17,Werder Bremen,Nurnberg,8,8,False
+D2,2122,2022-04-17,Ingolstadt,Paderborn,9,7,False
+D2,2122,2022-04-17,Heidenheim,Erzgebirge Aue,8,8,False
+D2,2122,2022-04-22,Karlsruhe,Ingolstadt,6,5,False
+D2,2122,2022-04-22,Fortuna Dusseldorf,Dresden,6,6,False
+D2,2122,2022-04-23,St Pauli,Darmstadt,7,6,False
+D2,2122,2022-04-23,Holstein Kiel,Heidenheim,7,6,False
+D2,2122,2022-04-23,Regensburg,Hamburg,6,7,False
+D2,2122,2022-04-23,Schalke 04,Werder Bremen,6,6,False
+D2,2122,2022-04-24,Erzgebirge Aue,Hansa Rostock,7,7,False
+D2,2122,2022-04-24,Nurnberg,Sandhausen,7,8,False
+D2,2122,2022-04-24,Paderborn,Hannover,7,8,False
+D2,2122,2022-04-29,St Pauli,Nurnberg,6,5,False
+D2,2122,2022-04-29,Werder Bremen,Holstein Kiel,6,6,False
+D2,2122,2022-04-29,Hannover,Karlsruhe,5,7,False
+D2,2122,2022-04-29,Heidenheim,Fortuna Dusseldorf,6,7,False
+D2,2122,2022-04-29,Sandhausen,Schalke 04,5,6,False
+D2,2122,2022-04-30,Darmstadt,Erzgebirge Aue,7,6,False
+D2,2122,2022-04-30,Ingolstadt,Hamburg,8,7,False
+D2,2122,2022-04-30,Hansa Rostock,Paderborn,6,6,False
+D2,2122,2022-04-30,Dresden,Regensburg,8,7,False
+D2,2122,2022-05-06,Paderborn,Sandhausen,6,7,False
+D2,2122,2022-05-06,Fortuna Dusseldorf,Darmstadt,7,6,False
+D2,2122,2022-05-07,Schalke 04,St Pauli,8,8,False
+D2,2122,2022-05-07,Ingolstadt,Hansa Rostock,7,7,False
+D2,2122,2022-05-07,Regensburg,Heidenheim,7,8,False
+D2,2122,2022-05-07,Hamburg,Hannover,7,8,False
+D2,2122,2022-05-08,Holstein Kiel,Nurnberg,9,9,False
+D2,2122,2022-05-08,Erzgebirge Aue,Werder Bremen,8,9,False
+D2,2122,2022-05-08,Karlsruhe,Dresden,9,8,False
+D2,2122,2022-05-15,Hansa Rostock,Hamburg,8,8,False
+D2,2122,2022-05-15,Heidenheim,Karlsruhe,8,7,False
+D2,2122,2022-05-15,Nurnberg,Schalke 04,7,8,False
+D2,2122,2022-05-15,Darmstadt,Paderborn,9,9,False
+D2,2122,2022-05-15,St Pauli,Fortuna Dusseldorf,8,9,False
+D2,2122,2022-05-15,Werder Bremen,Regensburg,7,8,False
+D2,2122,2022-05-15,Sandhausen,Holstein Kiel,9,7,False
+D2,2122,2022-05-15,Dresden,Erzgebirge Aue,7,7,False
+D2,2122,2022-05-15,Hannover,Ingolstadt,8,8,False

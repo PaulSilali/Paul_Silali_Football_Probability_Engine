@@ -1,0 +1,140 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,1920,2019-08-03,Stranraer,Montrose,7,7,False
+SC2,1920,2019-08-03,Dumbarton,Raith Rvs,7,7,False
+SC2,1920,2019-08-03,Airdrie Utd,Forfar,7,7,False
+SC2,1920,2019-08-03,Peterhead,Falkirk,7,7,False
+SC2,1920,2019-08-03,Clyde,East Fife,7,7,False
+SC2,1920,2019-08-10,Falkirk,Dumbarton,7,7,False
+SC2,1920,2019-08-10,Forfar,Stranraer,7,7,False
+SC2,1920,2019-08-10,Montrose,Airdrie Utd,7,7,False
+SC2,1920,2019-08-10,Raith Rvs,Clyde,7,7,False
+SC2,1920,2019-08-10,East Fife,Peterhead,7,7,False
+SC2,1920,2019-08-17,Peterhead,Dumbarton,7,7,False
+SC2,1920,2019-08-17,Stranraer,Raith Rvs,7,7,False
+SC2,1920,2019-08-17,Airdrie Utd,Clyde,7,7,False
+SC2,1920,2019-08-17,Falkirk,Montrose,7,7,False
+SC2,1920,2019-08-24,East Fife,Airdrie Utd,14,7,False
+SC2,1920,2019-08-24,Peterhead,Forfar,7,14,False
+SC2,1920,2019-08-24,Raith Rvs,Montrose,7,7,False
+SC2,1920,2019-08-24,Clyde,Falkirk,7,7,False
+SC2,1920,2019-08-24,Dumbarton,Stranraer,7,7,False
+SC2,1920,2019-08-31,Forfar,Clyde,7,7,False
+SC2,1920,2019-08-31,Montrose,Dumbarton,7,7,False
+SC2,1920,2019-08-31,Stranraer,Peterhead,7,7,False
+SC2,1920,2019-08-31,Airdrie Utd,Falkirk,7,7,False
+SC2,1920,2019-08-31,East Fife,Raith Rvs,7,7,False
+SC2,1920,2019-09-07,Forfar,East Fife,7,7,False
+SC2,1920,2019-09-14,Falkirk,Forfar,14,7,False
+SC2,1920,2019-09-14,Montrose,East Fife,14,7,False
+SC2,1920,2019-09-14,Raith Rvs,Peterhead,14,14,False
+SC2,1920,2019-09-14,Dumbarton,Airdrie Utd,14,14,False
+SC2,1920,2019-09-14,Clyde,Stranraer,14,14,False
+SC2,1920,2019-09-21,Forfar,Montrose,7,7,False
+SC2,1920,2019-09-21,Peterhead,Clyde,7,7,False
+SC2,1920,2019-09-21,Stranraer,Falkirk,7,7,False
+SC2,1920,2019-09-21,Airdrie Utd,Raith Rvs,7,7,False
+SC2,1920,2019-09-21,East Fife,Dumbarton,7,7,False
+SC2,1920,2019-09-28,Falkirk,East Fife,7,7,False
+SC2,1920,2019-09-28,Airdrie Utd,Stranraer,7,7,False
+SC2,1920,2019-09-28,Dumbarton,Clyde,7,7,False
+SC2,1920,2019-09-28,Forfar,Raith Rvs,7,7,False
+SC2,1920,2019-09-28,Montrose,Peterhead,7,7,False
+SC2,1920,2019-10-05,East Fife,Stranraer,7,7,False
+SC2,1920,2019-10-05,Peterhead,Airdrie Utd,7,7,False
+SC2,1920,2019-10-05,Raith Rvs,Falkirk,7,7,False
+SC2,1920,2019-10-05,Dumbarton,Forfar,7,7,False
+SC2,1920,2019-10-05,Clyde,Montrose,7,7,False
+SC2,1920,2019-10-19,East Fife,Forfar,14,14,False
+SC2,1920,2019-10-19,Falkirk,Peterhead,14,14,False
+SC2,1920,2019-10-19,Stranraer,Dumbarton,14,14,False
+SC2,1920,2019-10-19,Airdrie Utd,Montrose,14,14,False
+SC2,1920,2019-10-19,Clyde,Raith Rvs,14,14,False
+SC2,1920,2019-10-26,Forfar,Airdrie Utd,7,7,False
+SC2,1920,2019-10-26,Montrose,Stranraer,7,7,False
+SC2,1920,2019-10-26,Raith Rvs,East Fife,7,7,False
+SC2,1920,2019-10-26,Dumbarton,Peterhead,7,7,False
+SC2,1920,2019-10-26,Falkirk,Clyde,7,7,False
+SC2,1920,2019-11-02,Forfar,Falkirk,7,7,False
+SC2,1920,2019-11-02,Peterhead,Raith Rvs,7,7,False
+SC2,1920,2019-11-02,Stranraer,Clyde,7,7,False
+SC2,1920,2019-11-02,Airdrie Utd,Dumbarton,7,7,False
+SC2,1920,2019-11-02,East Fife,Montrose,7,7,False
+SC2,1920,2019-11-09,Falkirk,Airdrie Utd,7,7,False
+SC2,1920,2019-11-09,Montrose,Forfar,7,7,False
+SC2,1920,2019-11-09,Raith Rvs,Stranraer,7,7,False
+SC2,1920,2019-11-09,Clyde,Peterhead,7,7,False
+SC2,1920,2019-11-09,Dumbarton,East Fife,7,7,False
+SC2,1920,2019-11-16,Stranraer,Airdrie Utd,7,7,False
+SC2,1920,2019-11-16,Dumbarton,Falkirk,7,7,False
+SC2,1920,2019-11-16,Peterhead,Montrose,7,7,False
+SC2,1920,2019-11-26,East Fife,Clyde,17,17,True
+SC2,1920,2019-11-26,Raith Rvs,Forfar,17,17,True
+SC2,1920,2019-11-30,Clyde,Dumbarton,4,14,False
+SC2,1920,2019-11-30,Airdrie Utd,East Fife,14,4,False
+SC2,1920,2019-11-30,Falkirk,Stranraer,14,14,False
+SC2,1920,2019-11-30,Forfar,Peterhead,4,14,False
+SC2,1920,2019-11-30,Montrose,Raith Rvs,14,4,False
+SC2,1920,2019-12-07,Raith Rvs,Airdrie Utd,7,7,False
+SC2,1920,2019-12-07,Clyde,Forfar,7,7,False
+SC2,1920,2019-12-07,Dumbarton,Montrose,7,7,False
+SC2,1920,2019-12-07,Peterhead,Stranraer,7,7,False
+SC2,1920,2019-12-07,East Fife,Falkirk,7,7,False
+SC2,1920,2019-12-14,Stranraer,East Fife,7,7,False
+SC2,1920,2019-12-14,Falkirk,Raith Rvs,7,7,False
+SC2,1920,2019-12-14,Airdrie Utd,Peterhead,7,7,False
+SC2,1920,2019-12-14,Montrose,Clyde,7,7,False
+SC2,1920,2019-12-14,Forfar,Dumbarton,7,7,False
+SC2,1920,2019-12-21,Raith Rvs,Dumbarton,7,7,False
+SC2,1920,2019-12-21,Clyde,Airdrie Utd,7,7,False
+SC2,1920,2019-12-21,Montrose,Falkirk,7,7,False
+SC2,1920,2019-12-21,Stranraer,Forfar,7,7,False
+SC2,1920,2019-12-21,Peterhead,East Fife,7,7,False
+SC2,1920,2019-12-28,Peterhead,Clyde,7,7,False
+SC2,1920,2019-12-28,Airdrie Utd,Falkirk,7,7,False
+SC2,1920,2019-12-28,Dumbarton,Stranraer,7,7,False
+SC2,1920,2019-12-28,East Fife,Raith Rvs,7,7,False
+SC2,1920,2019-12-28,Forfar,Montrose,7,7,False
+SC2,1920,2020-01-04,Clyde,Stranraer,7,7,False
+SC2,1920,2020-01-04,Airdrie Utd,Forfar,7,7,False
+SC2,1920,2020-01-04,Falkirk,Dumbarton,7,7,False
+SC2,1920,2020-01-04,Montrose,East Fife,7,7,False
+SC2,1920,2020-01-04,Raith Rvs,Peterhead,7,7,False
+SC2,1920,2020-01-11,Peterhead,Falkirk,7,7,False
+SC2,1920,2020-01-11,Forfar,Raith Rvs,7,7,False
+SC2,1920,2020-01-11,East Fife,Airdrie Utd,7,7,False
+SC2,1920,2020-01-25,Falkirk,Forfar,14,14,False
+SC2,1920,2020-01-25,Peterhead,Dumbarton,14,21,False
+SC2,1920,2020-01-25,Raith Rvs,Montrose,14,21,False
+SC2,1920,2020-01-25,Airdrie Utd,Stranraer,14,21,False
+SC2,1920,2020-01-25,Clyde,East Fife,21,14,False
+SC2,1920,2020-02-01,East Fife,Dumbarton,7,7,False
+SC2,1920,2020-02-01,Airdrie Utd,Raith Rvs,7,7,False
+SC2,1920,2020-02-01,Forfar,Clyde,7,7,False
+SC2,1920,2020-02-01,Montrose,Peterhead,7,7,False
+SC2,1920,2020-02-01,Stranraer,Falkirk,7,7,False
+SC2,1920,2020-02-08,Dumbarton,Airdrie Utd,7,7,False
+SC2,1920,2020-02-08,Stranraer,Raith Rvs,7,7,False
+SC2,1920,2020-02-15,Forfar,Stranraer,14,7,False
+SC2,1920,2020-02-15,Montrose,Dumbarton,14,7,False
+SC2,1920,2020-02-15,Airdrie Utd,Clyde,7,14,False
+SC2,1920,2020-02-15,East Fife,Peterhead,14,14,False
+SC2,1920,2020-02-18,Falkirk,East Fife,17,3,True
+SC2,1920,2020-02-22,Peterhead,Airdrie Utd,7,7,False
+SC2,1920,2020-02-22,Raith Rvs,Clyde,14,7,False
+SC2,1920,2020-02-22,Falkirk,Montrose,4,7,False
+SC2,1920,2020-02-22,East Fife,Stranraer,4,7,False
+SC2,1920,2020-02-25,Peterhead,Forfar,3,10,True
+SC2,1920,2020-02-25,Dumbarton,Clyde,10,3,True
+SC2,1920,2020-02-29,Forfar,East Fife,4,7,False
+SC2,1920,2020-02-29,Montrose,Airdrie Utd,7,7,False
+SC2,1920,2020-02-29,Clyde,Falkirk,4,7,False
+SC2,1920,2020-02-29,Dumbarton,Raith Rvs,4,7,False
+SC2,1920,2020-03-03,Raith Rvs,Falkirk,3,3,True
+SC2,1920,2020-03-03,Dumbarton,Forfar,3,3,True
+SC2,1920,2020-03-03,Clyde,Montrose,3,3,True
+SC2,1920,2020-03-07,Falkirk,Peterhead,4,11,False
+SC2,1920,2020-03-07,Montrose,Stranraer,4,14,False
+SC2,1920,2020-03-07,Raith Rvs,Forfar,4,4,False
+SC2,1920,2020-03-07,Airdrie Utd,East Fife,7,7,False
+SC2,1920,2020-03-07,Clyde,Dumbarton,4,4,False
+SC2,1920,2020-03-10,Stranraer,Montrose,3,3,True

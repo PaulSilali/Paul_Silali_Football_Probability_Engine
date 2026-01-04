@@ -30,22 +30,76 @@ TEAM_ALIASES = {
     "watford": ["watford fc"],
     "bournemouth": ["bournemouth fc", "afc bournemouth"],
     
-    # La Liga
-    "atletico madrid": ["atletico", "atletico m", "atletico mad"],
-    "real madrid": ["real madrid cf", "real m", "real mad"],
-    "barcelona": ["barcelona fc", "barca", "fc barcelona"],
-    "sevilla": ["sevilla fc"],
-    "valencia": ["valencia cf"],
-    "villarreal": ["villarreal cf"],
-    "real sociedad": ["real s", "real sociedad"],
-    "athletic bilbao": ["athletic", "athletic club", "athletic b"],
+    # La Liga (Spain) - SP1
+    # Canonical names should match database canonical_name (normalized)
+    # Aliases include all variations from Football-Data.org and other sources
+    "club atletico de madrid": ["atletico madrid", "atletico", "atletico m", "atletico mad", "atletico de madrid", "atletico madrid cf"],
+    "real madrid cf": ["real madrid", "real m", "real mad", "real madrid cf", "real madrid club"],
+    "fc barcelona": ["barcelona", "barcelona fc", "barca", "fc barcelona", "barcelona cf"],
+    "sevilla fc": ["sevilla", "sevilla fc", "sevilla club"],
+    "valencia cf": ["valencia", "valencia cf", "valencia club"],
+    "villarreal cf": ["villarreal", "villarreal cf", "villarreal club"],
+    "real sociedad de futbol": ["real sociedad", "real s", "real sociedad de futbol", "real sociedad cf", "real sociedad club"],
+    "athletic club": ["athletic bilbao", "athletic", "athletic club", "athletic b", "athletic bilbao fc"],
+    "rcd mallorca": ["mallorca", "rcd mallorca", "mallorca cf", "real mallorca"],
+    "ca osasuna": ["osasuna", "ca osasuna", "osasuna cf", "club atletico osasuna"],
+    "rayo vallecano de madrid": ["rayo vallecano", "rayo", "rayo vallecano de madrid", "rayo vallecano cf"],
+    "deportivo alaves": ["alaves", "deportivo alaves", "alaves cf", "deportivo alaves cf"],
+    "cadiz cf": ["cadiz", "cadiz cf", "cadiz club"],
+    "getafe cf": ["getafe", "getafe cf", "getafe club"],
+    "ud almeria": ["almeria", "ud almeria", "almeria cf", "union deportiva almeria"],
+    "ud las palmas": ["las palmas", "ud las palmas", "las palmas cf", "union deportiva las palmas"],
+    "rc celta de vigo": ["celta vigo", "celta", "rc celta de vigo", "celta de vigo", "celta vigo cf"],
+    "real betis balompie": ["real betis", "betis", "real betis balompie", "betis cf", "real betis cf"],
+    "girona fc": ["girona", "girona fc", "girona cf", "girona club"],
+    "granada cf": ["granada", "granada cf", "granada club"],
     
-    # Bundesliga
-    "bayern munich": ["bayern", "bayern m", "fc bayern"],
-    "borussia dortmund": ["dortmund", "bvb", "borussia d"],
-    "rb leipzig": ["leipzig", "rb l", "rasenballsport leipzig"],
-    "bayer leverkusen": ["leverkusen", "bayer l"],
-    "borussia monchengladbach": ["gladbach", "borussia m", "m'gladbach"],
+    # Additional mappings for common variations
+    "atletico madrid": ["club atletico de madrid", "atletico madrid", "atletico"],
+    "real madrid": ["real madrid cf", "real madrid"],
+    "barcelona": ["fc barcelona", "barcelona"],
+    "sevilla": ["sevilla fc", "sevilla"],
+    "valencia": ["valencia cf", "valencia"],
+    "villarreal": ["villarreal cf", "villarreal"],
+    "real sociedad": ["real sociedad de futbol", "real sociedad"],
+    "athletic bilbao": ["athletic club", "athletic bilbao", "athletic"],
+    "mallorca": ["rcd mallorca", "mallorca"],
+    "osasuna": ["ca osasuna", "osasuna"],
+    "rayo vallecano": ["rayo vallecano de madrid", "rayo vallecano", "rayo"],
+    "alaves": ["deportivo alaves", "alaves"],
+    "cadiz": ["cadiz cf", "cadiz"],
+    "getafe": ["getafe cf", "getafe"],
+    "almeria": ["ud almeria", "almeria"],
+    "las palmas": ["ud las palmas", "las palmas"],
+    "celta vigo": ["rc celta de vigo", "celta vigo", "celta"],
+    "real betis": ["real betis balompie", "real betis", "betis"],
+    "girona": ["girona fc", "girona"],
+    "granada": ["granada cf", "granada"],
+    
+    # Bundesliga (Germany) - D1
+    # Canonical names should match database canonical_name (normalized)
+    # Aliases include all variations from Football-Data.org and other sources
+    # Note: Umlauts (ö, ü, ä) are preserved in normalization, but aliases include both forms
+    "fc bayern munchen": ["fc bayern munich", "bayern munich", "bayern munchen", "bayern", "bayern m", "fc bayern", "fc bayern m", "fc bayern münchen"],
+    "borussia dortmund": ["dortmund", "bvb", "borussia d", "bvb dortmund", "borussia dortmund"],
+    "rb leipzig": ["leipzig", "rb l", "rasenballsport leipzig", "rb leipzig", "red bull leipzig"],
+    "bayer 04 leverkusen": ["bayer leverkusen", "leverkusen", "bayer l", "bayer 04", "bayer leverkusen", "bayer", "bayer 04 leverkusen"],
+    "borussia monchengladbach": ["borussia mönchengladbach", "gladbach", "borussia m", "m'gladbach", "borussia mg", "mönchengladbach", "monchengladbach", "borussia mönchengladbach", "mgladbach"],
+    "eintracht frankfurt": ["frankfurt", "eintracht f", "eintracht", "eintracht frankfurt", "frankfurt eintracht", "eintracht frankfurt"],
+    "fc st pauli 1910": ["st pauli", "fc st pauli", "fc st pauli 1910", "st pauli 1910", "st. pauli", "fc st. pauli", "fc st. pauli 1910"],
+    "vfb stuttgart": ["stuttgart", "vfb s", "vfb stuttgart", "vfb", "stuttgart vfb", "vfb stuttgart"],
+    "fc augsburg": ["augsburg", "fc a", "fc augsburg", "augsburg fc"],
+    "1 fsv mainz 05": ["mainz", "mainz 05", "1. fsv mainz 05", "1 fsv mainz", "fsv mainz", "mainz 05", "1. fsv mainz", "1 fsv mainz 05"],
+    "tsg 1899 hoffenheim": ["hoffenheim", "tsg hoffenheim", "tsg 1899", "1899 hoffenheim", "tsg", "hoffenheim 1899", "tsg 1899 hoffenheim"],
+    "sc freiburg": ["freiburg", "sc f", "sc freiburg", "freiburg sc"],
+    "1 fc heidenheim 1846": ["heidenheim", "1. fc heidenheim 1846", "fc heidenheim", "heidenheim 1846", "1 fc heidenheim", "1. fc heidenheim", "1 fc heidenheim 1846"],
+    "sv werder bremen": ["werder bremen", "werder", "sv werder", "sv werder bremen", "bremen", "werder b"],
+    "vfl wolfsburg": ["wolfsburg", "vfl w", "vfl wolfsburg", "vfl", "wolfsburg vfl"],
+    "1 fc union berlin": ["union berlin", "1. fc union berlin", "fc union berlin", "union", "1 fc union berlin", "1. fc union", "1 fc union berlin"],
+    "vfl bochum 1848": ["bochum", "vfl bochum", "vfl bochum 1848", "bochum 1848", "1. fc bochum", "vfl bochum"],
+    "holstein kiel": ["kiel", "holstein k", "holstein kiel", "holstein"],
+    "1 fc koln": ["1 fc köln", "fc köln", "koln", "köln", "1. fc köln", "1 fc koln", "1. fc koln", "fc koln", "1. fc köln"],
+    "sv darmstadt 98": ["darmstadt", "sv darmstadt", "sv darmstadt 98", "darmstadt 98", "sv darmstadt 98"],
     
     # Serie A
     "ac milan": ["milan", "ac m", "a.c. milan"],
@@ -84,6 +138,72 @@ TEAM_ALIASES = {
     "gillingham": ["gillingham fc"],
     "harrogate town": ["harrogate", "harrogate t", "harrogate town afc"],
     "salford city": ["salford", "salford c", "salford city fc"],
+    
+    # Eredivisie (Netherlands) - N1
+    # Canonical names should match database canonical_name (normalized)
+    # Aliases include all variations from Football-Data.org and other sources
+    # Note: Both full names and abbreviations are included to handle all cases
+    "afc ajax": ["ajax", "ajax amsterdam", "ajax a", "afc ajax amsterdam"],
+    "psv eindhoven": ["psv", "psv e", "psv eindhoven", "psv eindhoven fc"],
+    "feyenoord rotterdam": ["feyenoord", "feyenoord r", "feyenoord rotterdam", "feyenoord fc"],
+    "az alkmaar": ["az", "az alkmaar", "alkmaar", "az alkmaar fc"],
+    "fc utrecht": ["utrecht", "fc u", "fc utrecht", "utrecht fc"],
+    "sbv vitesse": ["vitesse", "vitesse arnhem", "sbv v", "vitesse arnhem", "sbv vitesse arnhem"],
+    "sc heerenveen": ["heerenveen", "sc h", "sc heerenveen", "heerenveen fc"],
+    "nec nijmegen": ["nec", "nec nijmegen", "nijmegen", "nec nijmegen fc"],
+    "sparta rotterdam": ["sparta", "sparta rotterdam", "sparta r", "sparta rotterdam fc"],
+    "fc twente 65": ["fc twente '65", "twente", "fc twente", "twente '65", "fc twente 65", "twente 65"],
+    "pec zwolle": ["zwolle", "pec z", "pec zwolle", "zwolle fc"],
+    "fortuna sittard": ["fortuna", "fortuna s", "fortuna sittard", "fortuna sittard fc"],
+    "go ahead eagles": ["go ahead", "go ahead eagles", "gae", "go ahead eagles deventer"],
+    "rkc waalwijk": ["waalwijk", "rkc", "rkc waalwijk", "rkc waalwijk fc"],
+    "sbv excelsior": ["excelsior", "sbv e", "sbv excelsior", "excelsior rotterdam", "excelsior fc"],
+    "heracles almelo": ["heracles", "heracles a", "heracles almelo", "heracles almelo fc"],
+    "fc volendam": ["volendam", "fc v", "fc volendam", "volendam fc"],
+    "almere city fc": ["almere city", "almere", "almere city fc", "almere fc"],
+    
+    # Additional mappings for common Football-Data.org variations
+    # These handle cases where database might have different canonical names
+    "nec": ["nec nijmegen", "nec", "nijmegen"],  # If DB has "nec" as canonical
+    "ajax": ["afc ajax", "ajax", "ajax amsterdam"],  # If DB has "ajax" as canonical
+    "psv": ["psv eindhoven", "psv"],  # If DB has "psv" as canonical
+    "feyenoord": ["feyenoord rotterdam", "feyenoord"],  # If DB has "feyenoord" as canonical
+    "az": ["az alkmaar", "az"],  # If DB has "az" as canonical
+    "utrecht": ["fc utrecht", "utrecht"],  # If DB has "utrecht" as canonical
+    "vitesse": ["sbv vitesse", "vitesse"],  # If DB has "vitesse" as canonical
+    "heerenveen": ["sc heerenveen", "heerenveen"],  # If DB has "heerenveen" as canonical
+    "sparta": ["sparta rotterdam", "sparta"],  # If DB has "sparta" as canonical
+    "twente": ["fc twente 65", "fc twente '65", "twente"],  # If DB has "twente" as canonical
+    "zwolle": ["pec zwolle", "zwolle"],  # If DB has "zwolle" as canonical
+    "fortuna": ["fortuna sittard", "fortuna"],  # If DB has "fortuna" as canonical
+    "go ahead": ["go ahead eagles", "go ahead"],  # If DB has "go ahead" as canonical
+    "rkc": ["rkc waalwijk", "rkc"],  # If DB has "rkc" as canonical
+    "excelsior": ["sbv excelsior", "excelsior"],  # If DB has "excelsior" as canonical
+    "heracles": ["heracles almelo", "heracles"],  # If DB has "heracles" as canonical
+    "volendam": ["fc volendam", "volendam"],  # If DB has "volendam" as canonical
+    "almere city": ["almere city fc", "almere city"],  # If DB has "almere city" as canonical
+    
+    # Allsvenskan (Sweden) - SWE1
+    "malmo ff": ["malmo", "malmo ff", "malmö ff"],
+    "aik": ["aik stockholm", "aik", "aik s"],
+    "ifk goteborg": ["goteborg", "ifk g", "ifk göteborg", "ifk gothenburg"],
+    "hammarby": ["hammarby if", "hammarby", "hammarby if"],
+    "djurgarden": ["djurgarden", "djurgårdens if", "djurgårdens", "djurgarden if"],
+    "ifk norrkoping": ["norrkoping", "ifk n", "ifk norrköping"],
+    "kalmar ff": ["kalmar", "kalmar ff", "kalmar f"],
+    "orebro": ["orebro sk", "orebro", "örebro"],
+    "hacken": ["bk hacken", "hacken", "bk h"],
+    "elfsborg": ["if elfsborg", "elfsborg", "if e"],
+    "sundsvall": ["gif sundsvall", "sundsvall", "gif s"],
+    "ostersunds": ["ostersunds fk", "ostersunds", "östersunds"],
+    "trelleborg": ["trelleborgs ff", "trelleborg", "trelleborgs"],
+    "halmstad": ["halmstads bk", "halmstad", "halmstads"],
+    "ifk varnamo": ["varnamo", "ifk v", "ifk varnamo"],
+    "dalkurd": ["dalkurd ff", "dalkurd", "dalkurd f"],
+    "sirius": ["ik sirius", "sirius", "ik s"],
+    "varberg": ["varbergs bois", "varberg", "varbergs"],
+    "degefors": ["degefors if", "degefors", "degefors if"],
+    "hammarby talang": ["hammarby t", "hammarby talang"],
 }
 
 
@@ -202,6 +322,59 @@ def resolve_team_safe(
     """
     result = resolve_team(db, team_name, league_id)
     return result[0] if result else None
+
+
+def create_team_if_not_exists(
+    db: Session,
+    team_name: str,
+    league_id: int
+) -> Team:
+    """
+    Create a team if it doesn't exist, or return existing team
+    
+    Args:
+        db: Database session
+        team_name: Team name to create
+        league_id: League ID
+    
+    Returns:
+        Team object (newly created or existing)
+    """
+    if not team_name or len(team_name.strip()) < 2:
+        raise ValueError(f"Invalid team name: {team_name}")
+    
+    # First try to resolve existing team
+    existing = resolve_team_safe(db, team_name, league_id)
+    if existing:
+        return existing
+    
+    # Create new team
+    canonical_name = normalize_team_name(team_name)
+    
+    # Check if team with same canonical name exists in this league
+    existing_canonical = db.query(Team).filter(
+        Team.league_id == league_id,
+        Team.canonical_name == canonical_name
+    ).first()
+    
+    if existing_canonical:
+        return existing_canonical
+    
+    # Create new team
+    new_team = Team(
+        league_id=league_id,
+        name=team_name.strip(),
+        canonical_name=canonical_name,
+        attack_rating=1.0,
+        defense_rating=1.0,
+        home_bias=0.0
+    )
+    db.add(new_team)
+    db.flush()  # Flush to get the ID without committing
+    
+    logger.info(f"Created new team: {team_name} (canonical: {canonical_name}) in league_id {league_id}")
+    
+    return new_team
 
 
 def search_teams(

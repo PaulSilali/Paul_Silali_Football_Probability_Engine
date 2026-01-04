@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+71,Mansfield,90,Bristol Rvs,2425,2,0,0.0,2.0
+84,Exeter,87,Stevenage,2425,2,0,0.0,3.5
+81,Reading,94,Charlton,2425,2,1,0.5,1.0
+67,Luton,86,Northampton,2425,4,1,0.25,2.75
+71,Mansfield,80,Peterboro,2425,2,0,0.0,4.5
+77,Wigan,90,Bristol Rvs,2425,2,0,0.0,3.0
+67,Luton,73,Huddersfield,2425,4,1,0.25,2.5
+73,Huddersfield,91,Crawley Town,2425,2,1,0.5,5.0
+80,Peterboro,86,Northampton,2425,2,0,0.0,3.5
+81,Reading,86,Northampton,2425,2,1,0.5,2.5
+67,Luton,95,Wrexham,2425,4,2,0.5,1.0
+69,Blackpool,78,Stockport,2425,2,0,0.0,3.0
+84,Exeter,94,Charlton,2425,2,0,0.0,2.0
+84,Exeter,86,Northampton,2425,2,1,0.5,2.5
+89,Birmingham,92,Shrewsbury,2425,2,0,0.0,5.0
+86,Northampton,92,Shrewsbury,2425,2,1,0.5,3.5
+80,Peterboro,92,Shrewsbury,2425,2,0,0.0,4.5
+71,Mansfield,85,Leyton Orient,2425,2,0,0.0,4.0
+71,Mansfield,88,Wycombe,2425,2,0,0.0,2.0
+71,Mansfield,74,Lincoln,2425,2,0,0.0,4.0
+92,Shrewsbury,95,Wrexham,2425,2,0,0.0,3.0
+83,Barnsley,95,Wrexham,2425,2,0,0.0,2.0
+87,Stevenage,91,Crawley Town,2425,2,0,0.0,4.0
+80,Peterboro,90,Bristol Rvs,2425,2,0,0.0,4.5
+86,Northampton,90,Bristol Rvs,2425,2,0,0.0,2.0
+76,Rotherham,90,Bristol Rvs,2425,2,1,0.5,2.5
+84,Exeter,85,Leyton Orient,2425,2,0,0.0,4.5
+67,Luton,74,Lincoln,2425,4,0,0.0,3.75
+74,Lincoln,81,Reading,2425,2,0,0.0,1.5
+78,Stockport,84,Exeter,2425,2,0,0.0,2.0
+81,Reading,90,Bristol Rvs,2425,2,0,0.0,1.5
+76,Rotherham,94,Charlton,2425,2,1,0.5,4.0
+80,Peterboro,91,Crawley Town,2425,2,0,0.0,7.0
+69,Blackpool,86,Northampton,2425,2,1,0.5,1.0
+85,Leyton Orient,88,Wycombe,2425,2,0,0.0,2.0
+74,Lincoln,88,Wycombe,2425,2,0,0.0,3.0
+69,Blackpool,94,Charlton,2425,2,1,0.5,3.5
+84,Exeter,89,Birmingham,2425,2,0,0.0,1.5
+73,Huddersfield,90,Bristol Rvs,2425,2,0,0.0,2.5
+69,Blackpool,73,Huddersfield,2425,2,1,0.5,3.0
+76,Rotherham,83,Barnsley,2425,2,0,0.0,1.5
+89,Birmingham,94,Charlton,2425,2,0,0.0,1.0
+74,Lincoln,94,Charlton,2425,2,2,1.0,2.0
+77,Wigan,88,Wycombe,2425,2,1,0.5,0.5
+76,Rotherham,91,Crawley Town,2425,2,0,0.0,2.5
+76,Rotherham,85,Leyton Orient,2425,2,0,0.0,1.0
+74,Lincoln,77,Wigan,2425,2,2,1.0,1.0
+67,Luton,78,Stockport,2425,4,0,0.0,3.0
+78,Stockport,88,Wycombe,2425,2,0,0.0,4.5
+77,Wigan,80,Peterboro,2425,2,0,0.0,2.0
+80,Peterboro,89,Birmingham,2425,2,0,0.0,4.0
+85,Leyton Orient,95,Wrexham,2425,2,1,0.5,1.5
+77,Wigan,95,Wrexham,2425,2,1,0.5,1.5
+90,Bristol Rvs,93,Cambridge,2425,2,0,0.0,1.5
+84,Exeter,91,Crawley Town,2425,2,1,0.5,6.0
+69,Blackpool,76,Rotherham,2425,2,1,0.5,1.5
+69,Blackpool,90,Bristol Rvs,2425,2,0,0.0,3.5
+71,Mansfield,91,Crawley Town,2425,2,0,0.0,1.5
+69,Blackpool,95,Wrexham,2425,2,0,0.0,3.0
+93,Cambridge,95,Wrexham,2425,2,2,1.0,4.0
+78,Stockport,93,Cambridge,2425,2,0,0.0,2.0
+74,Lincoln,91,Crawley Town,2425,2,0,0.0,4.0
+88,Wycombe,93,Cambridge,2425,2,1,0.5,2.5
+67,Luton,67,Luton,2425,2,0,0.0,3.0
+71,Mansfield,92,Shrewsbury,2425,2,0,0.0,3.0
+78,Stockport,86,Northampton,2425,2,2,1.0,2.0
+76,Rotherham,87,Stevenage,2425,2,1,0.5,2.0
+69,Blackpool,74,Lincoln,2425,2,1,0.5,2.0
+76,Rotherham,89,Birmingham,2425,2,0,0.0,2.5
+87,Stevenage,89,Birmingham,2425,2,0,0.0,2.0
+92,Shrewsbury,94,Charlton,2425,2,0,0.0,1.0
+93,Cambridge,94,Charlton,2425,2,0,0.0,2.0
+86,Northampton,88,Wycombe,2425,2,1,0.5,1.5
+94,Charlton,95,Wrexham,2425,2,1,0.5,3.5
+86,Northampton,91,Crawley Town,2425,2,0,0.0,3.0
+92,Shrewsbury,93,Cambridge,2425,2,0,0.0,3.0
+89,Birmingham,95,Wrexham,2425,2,1,0.5,3.0
+74,Lincoln,86,Northampton,2425,2,0,0.0,2.0
+91,Crawley Town,95,Wrexham,2425,2,0,0.0,3.0
+85,Leyton Orient,92,Shrewsbury,2425,2,0,0.0,2.0
+77,Wigan,92,Shrewsbury,2425,2,1,0.5,2.5
+85,Leyton Orient,89,Birmingham,2425,2,0,0.0,2.5
+67,Luton,87,Stevenage,2425,4,2,0.5,2.0
+88,Wycombe,92,Shrewsbury,2425,2,1,0.5,2.5
+78,Stockport,90,Bristol Rvs,2425,2,1,0.5,2.0
+78,Stockport,85,Leyton Orient,2425,2,0,0.0,3.0
+80,Peterboro,84,Exeter,2425,2,1,0.5,2.5
+88,Wycombe,90,Bristol Rvs,2425,2,0,0.0,2.5
+76,Rotherham,88,Wycombe,2425,2,0,0.0,3.5
+74,Lincoln,84,Exeter,2425,2,2,1.0,
+89,Birmingham,91,Crawley Town,2425,2,1,0.5,0.5
+91,Crawley Town,93,Cambridge,2425,2,0,0.0,1.5
+67,Luton,91,Crawley Town,2425,4,2,0.5,2.75
+74,Lincoln,92,Shrewsbury,2425,2,1,0.5,1.5
+77,Wigan,89,Birmingham,2425,2,0,0.0,3.0
+77,Wigan,83,Barnsley,2425,2,1,0.5,1.5
+73,Huddersfield,74,Lincoln,2425,2,1,0.5,2.5
+78,Stockport,80,Peterboro,2425,2,1,0.5,2.5
+76,Rotherham,92,Shrewsbury,2425,2,1,0.5,2.5
+67,Luton,88,Wycombe,2425,4,1,0.25,2.25
+81,Reading,85,Leyton Orient,2425,2,0,0.0,1.5
+74,Lincoln,76,Rotherham,2425,2,0,0.0,2.0
+81,Reading,91,Crawley Town,2425,2,1,0.5,3.5
+84,Exeter,92,Shrewsbury,2425,2,0,0.0,2.0
+80,Peterboro,95,Wrexham,2425,2,0,0.0,1.5
+71,Mansfield,87,Stevenage,2425,2,1,0.5,1.5
+71,Mansfield,78,Stockport,2425,2,1,0.5,2.5
+74,Lincoln,78,Stockport,2425,2,0,0.0,4.0
+73,Huddersfield,83,Barnsley,2425,2,0,0.0,2.5
+71,Mansfield,81,Reading,2425,2,0,0.0,4.5
+73,Huddersfield,88,Wycombe,2425,2,0,0.0,1.0
+67,Luton,83,Barnsley,2425,4,1,0.25,2.75
+67,Luton,76,Rotherham,2425,4,1,0.25,3.75
+73,Huddersfield,78,Stockport,2425,2,0,0.0,2.0
+84,Exeter,95,Wrexham,2425,2,0,0.0,2.5
+69,Blackpool,84,Exeter,2425,2,0,0.0,3.5
+90,Bristol Rvs,95,Wrexham,2425,2,2,1.0,2.0
+85,Leyton Orient,90,Bristol Rvs,2425,2,0,0.0,4.0
+73,Huddersfield,80,Peterboro,2425,2,0,0.0,1.5
+74,Lincoln,87,Stevenage,2425,2,1,0.5,0.5
+78,Stockport,91,Crawley Town,2425,2,1,0.5,2.0
+85,Leyton Orient,93,Cambridge,2425,2,0,0.0,2.5
+73,Huddersfield,86,Northampton,2425,2,0,0.0,4.5
+69,Blackpool,71,Mansfield,2425,2,1,0.5,4.0
+77,Wigan,81,Reading,2425,2,0,0.0,2.5
+83,Barnsley,94,Charlton,2425,2,1,0.5,2.5
+86,Northampton,89,Birmingham,2425,2,2,1.0,2.0
+71,Mansfield,89,Birmingham,2425,2,1,0.5,3.0
+74,Lincoln,95,Wrexham,2425,2,0,0.0,1.5
+81,Reading,88,Wycombe,2425,2,1,0.5,1.5
+73,Huddersfield,95,Wrexham,2425,2,1,0.5,0.5
+77,Wigan,94,Charlton,2425,2,0,0.0,2.0
+76,Rotherham,77,Wigan,2425,2,0,0.0,1.0
+78,Stockport,83,Barnsley,2425,2,1,0.5,2.5
+84,Exeter,88,Wycombe,2425,2,1,0.5,3.5
+69,Blackpool,80,Peterboro,2425,2,1,0.5,3.0
+78,Stockport,92,Shrewsbury,2425,2,0,0.0,1.5
+76,Rotherham,86,Northampton,2425,2,0,0.0,2.5
+73,Huddersfield,94,Charlton,2425,2,0,0.0,3.5
+80,Peterboro,81,Reading,2425,2,0,0.0,3.5
+87,Stevenage,92,Shrewsbury,2425,2,0,0.0,1.0
+71,Mansfield,86,Northampton,2425,2,0,0.0,1.5
+88,Wycombe,89,Birmingham,2425,2,0,0.0,3.0
+74,Lincoln,93,Cambridge,2425,2,1,0.5,2.0
+83,Barnsley,86,Northampton,2425,2,1,0.5,3.5
+81,Reading,84,Exeter,2425,2,1,0.5,1.5
+80,Peterboro,87,Stevenage,2425,2,1,0.5,2.5
+73,Huddersfield,93,Cambridge,2425,2,0,0.0,3.5
+77,Wigan,91,Crawley Town,2425,2,1,0.5,1.5
+89,Birmingham,93,Cambridge,2425,2,0,0.0,3.5
+84,Exeter,90,Bristol Rvs,2425,2,0,0.0,3.5
+76,Rotherham,95,Wrexham,2425,2,0,0.0,1.0
+86,Northampton,94,Charlton,2425,2,0,0.0,4.0
+90,Bristol Rvs,94,Charlton,2425,2,0,0.0,3.5
+69,Blackpool,83,Barnsley,2425,2,0,0.0,3.0
+89,Birmingham,90,Bristol Rvs,2425,2,0,0.0,2.5
+84,Exeter,93,Cambridge,2425,2,0,0.0,1.0
+87,Stevenage,90,Bristol Rvs,2425,2,0,0.0,2.0
+86,Northampton,87,Stevenage,2425,2,1,0.5,1.0
+69,Blackpool,87,Stevenage,2425,2,1,0.5,2.0
+74,Lincoln,89,Birmingham,2425,2,0,0.0,2.5
+81,Reading,95,Wrexham,2425,2,0,0.0,2.5
+67,Luton,90,Bristol Rvs,2425,4,0,0.0,3.5
+76,Rotherham,78,Stockport,2425,2,1,0.5,3.0
+87,Stevenage,93,Cambridge,2425,2,0,0.0,1.5
+83,Barnsley,89,Birmingham,2425,2,0,0.0,5.5
+69,Blackpool,77,Wigan,2425,2,2,1.0,3.0
+71,Mansfield,76,Rotherham,2425,2,1,0.5,3.5
+81,Reading,87,Stevenage,2425,2,2,1.0,2.0
+71,Mansfield,77,Wigan,2425,2,1,0.5,1.5
+87,Stevenage,88,Wycombe,2425,2,0,0.0,2.0
+71,Mansfield,93,Cambridge,2425,2,0,0.0,4.0
+67,Luton,92,Shrewsbury,2425,4,1,0.25,3.25
+78,Stockport,95,Wrexham,2425,2,0,0.0,1.0
+90,Bristol Rvs,91,Crawley Town,2425,2,1,0.5,0.5
+67,Luton,69,Blackpool,2425,4,1,0.25,2.75
+78,Stockport,89,Birmingham,2425,2,1,0.5,2.0
+76,Rotherham,81,Reading,2425,2,0,0.0,3.0
+74,Lincoln,80,Peterboro,2425,2,1,0.5,4.0
+73,Huddersfield,92,Shrewsbury,2425,2,0,0.0,1.0
+86,Northampton,95,Wrexham,2425,2,0,0.0,3.5
+74,Lincoln,90,Bristol Rvs,2425,2,1,0.5,3.5
+69,Blackpool,89,Birmingham,2425,2,1,0.5,1.0
+86,Northampton,93,Cambridge,2425,2,2,1.0,1.0
+85,Leyton Orient,87,Stevenage,2425,2,1,0.5,0.5
+71,Mansfield,94,Charlton,2425,2,1,0.5,1.5
+73,Huddersfield,85,Leyton Orient,2425,2,0,0.0,3.5
+83,Barnsley,88,Wycombe,2425,2,1,0.5,3.5
+91,Crawley Town,92,Shrewsbury,2425,2,0,0.0,5.5
+67,Luton,93,Cambridge,2425,4,2,0.5,2.5
+81,Reading,92,Shrewsbury,2425,2,1,0.5,3.0
+83,Barnsley,90,Bristol Rvs,2425,2,0,0.0,3.5
+85,Leyton Orient,86,Northampton,2425,2,0,0.0,2.0
+88,Wycombe,95,Wrexham,2425,2,0,0.0,3.0
+80,Peterboro,88,Wycombe,2425,2,1,0.5,3.0
+67,Luton,84,Exeter,2425,4,1,0.25,2.0
+77,Wigan,84,Exeter,2425,2,2,1.0,1.0
+76,Rotherham,84,Exeter,2425,2,1,0.5,1.5
+80,Peterboro,83,Barnsley,2425,2,1,0.5,3.0
+74,Lincoln,85,Leyton Orient,2425,2,0,0.0,4.0
+91,Crawley Town,94,Charlton,2425,2,0,0.0,2.0
+88,Wycombe,91,Crawley Town,2425,2,1,0.5,1.5
+73,Huddersfield,76,Rotherham,2425,2,1,0.5,1.5
+73,Huddersfield,81,Reading,2425,2,1,0.5,1.5
+81,Reading,93,Cambridge,2425,2,0,0.0,3.5
+77,Wigan,86,Northampton,2425,2,1,0.5,2.5
+88,Wycombe,94,Charlton,2425,2,0,0.0,3.5
+78,Stockport,81,Reading,2425,2,0,0.0,4.5
+69,Blackpool,88,Wycombe,2425,2,2,1.0,3.0
+76,Rotherham,80,Peterboro,2425,2,1,0.5,4.5
+71,Mansfield,84,Exeter,2425,2,0,0.0,2.5
+67,Luton,71,Mansfield,2425,4,2,0.5,3.75
+77,Wigan,93,Cambridge,2425,2,0,0.0,1.5
+67,Luton,85,Leyton Orient,2425,4,1,0.25,2.25
+81,Reading,83,Barnsley,2425,2,1,0.5,5.0
+87,Stevenage,94,Charlton,2425,2,0,0.0,1.5
+74,Lincoln,83,Barnsley,2425,2,0,0.0,5.0
+81,Reading,89,Birmingham,2425,2,2,1.0,1.0
+83,Barnsley,92,Shrewsbury,2425,2,0,0.0,2.5
+67,Luton,80,Peterboro,2425,4,2,0.5,2.0
+78,Stockport,94,Charlton,2425,2,2,1.0,1.0
+69,Blackpool,81,Reading,2425,2,0,0.0,3.0
+71,Mansfield,83,Barnsley,2425,2,0,0.0,3.0
+85,Leyton Orient,91,Crawley Town,2425,2,0,0.0,3.5
+67,Luton,89,Birmingham,2425,4,0,0.0,2.75
+69,Blackpool,91,Crawley Town,2425,2,0,0.0,3.5
+77,Wigan,87,Stevenage,2425,2,1,0.5,1.5
+80,Peterboro,93,Cambridge,2425,2,0,0.0,4.0
+77,Wigan,78,Stockport,2425,2,1,0.5,1.0
+69,Blackpool,92,Shrewsbury,2425,2,1,0.5,2.5
+67,Luton,81,Reading,2425,4,0,0.0,4.25
+83,Barnsley,87,Stevenage,2425,2,0,0.0,2.0
+83,Barnsley,84,Exeter,2425,2,0,0.0,3.0
+67,Luton,94,Charlton,2425,4,0,0.0,2.5
+77,Wigan,85,Leyton Orient,2425,2,1,0.5,1.0
+67,Luton,77,Wigan,2425,4,1,0.25,2.0
+87,Stevenage,95,Wrexham,2425,2,0,0.0,3.0
+80,Peterboro,94,Charlton,2425,2,0,0.0,3.0
+85,Leyton Orient,94,Charlton,2425,2,0,0.0,2.0
+90,Bristol Rvs,92,Shrewsbury,2425,2,1,0.5,0.5
+71,Mansfield,73,Huddersfield,2425,2,0,0.0,3.0
+73,Huddersfield,89,Birmingham,2425,2,0,0.0,1.0
+80,Peterboro,85,Leyton Orient,2425,2,2,1.0,2.0
+83,Barnsley,91,Crawley Town,2425,2,0,0.0,3.0
+78,Stockport,87,Stevenage,2425,2,0,0.0,3.0
+73,Huddersfield,84,Exeter,2425,2,0,0.0,3.0
+71,Mansfield,95,Wrexham,2425,2,0,0.0,2.0
+83,Barnsley,85,Leyton Orient,2425,2,0,0.0,5.5
+73,Huddersfield,77,Wigan,2425,2,0,0.0,2.0
+83,Barnsley,93,Cambridge,2425,2,2,1.0,2.0
+76,Rotherham,93,Cambridge,2425,2,0,0.0,2.0
+69,Blackpool,85,Leyton Orient,2425,2,0,0.0,3.0
+69,Blackpool,93,Cambridge,2425,2,1,0.5,5.5
+73,Huddersfield,87,Stevenage,2425,2,0,0.0,3.0

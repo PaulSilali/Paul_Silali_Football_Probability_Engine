@@ -1,0 +1,277 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+131,Cheltenham,156,Scunthorpe,2021,2,0,0.0,1.5
+126,Walsall,143,Port Vale,2021,2,0,0.0,5.5
+137,Oldham,141,Carlisle,2021,2,1,0.5,3.0
+141,Carlisle,150,Leyton Orient,2021,2,0,0.0,3.0
+150,Leyton Orient,157,Bolton,2021,2,0,0.0,3.0
+121,Colchester,127,Newport County,2021,2,0,0.0,2.5
+122,Grimsby,141,Carlisle,2021,2,2,1.0,2.0
+127,Newport County,146,Forest Green,2021,2,1,0.5,2.0
+131,Cheltenham,146,Forest Green,2021,2,1,0.5,1.5
+144,Morecambe,156,Scunthorpe,2021,2,1,0.5,3.5
+119,Cambridge,124,Salford,2021,2,0,0.0,4.0
+129,Barrow,153,Stevenage,2021,2,1,0.5,2.5
+126,Walsall,150,Leyton Orient,2021,2,1,0.5,1.5
+128,Tranmere,132,Crawley Town,2021,2,0,0.0,2.5
+124,Salford,127,Newport County,2021,2,2,1.0,1.0
+128,Tranmere,155,Exeter,2021,2,0,0.0,4.0
+156,Scunthorpe,157,Bolton,2021,2,0,0.0,1.5
+129,Barrow,131,Cheltenham,2021,2,0,0.0,2.5
+126,Walsall,131,Cheltenham,2021,2,0,0.0,3.0
+131,Cheltenham,141,Carlisle,2021,2,1,0.5,2.5
+122,Grimsby,142,Bradford,2021,2,0,0.0,2.0
+124,Salford,144,Morecambe,2021,2,0,0.0,3.0
+132,Crawley Town,141,Carlisle,2021,2,0,0.0,2.5
+144,Morecambe,155,Exeter,2021,2,1,0.5,3.0
+119,Cambridge,137,Oldham,2021,2,0,0.0,4.5
+145,Mansfield,153,Stevenage,2021,2,1,0.5,0.5
+141,Carlisle,145,Mansfield,2021,2,1,0.5,1.5
+128,Tranmere,145,Mansfield,2021,2,2,1.0,1.0
+122,Grimsby,153,Stevenage,2021,2,1,0.5,1.5
+121,Colchester,132,Crawley Town,2021,2,1,0.5,1.5
+142,Bradford,153,Stevenage,2021,2,1,0.5,2.5
+124,Salford,126,Walsall,2021,2,0,0.0,2.0
+128,Tranmere,150,Leyton Orient,2021,2,0,0.0,2.5
+127,Newport County,141,Carlisle,2021,2,1,0.5,2.5
+119,Cambridge,129,Barrow,2021,2,1,0.5,2.0
+129,Barrow,141,Carlisle,2021,2,1,0.5,2.5
+121,Colchester,157,Bolton,2021,2,1,0.5,1.0
+126,Walsall,146,Forest Green,2021,2,1,0.5,2.5
+121,Colchester,144,Morecambe,2021,2,0,0.0,3.0
+146,Forest Green,156,Scunthorpe,2021,2,0,0.0,5.0
+121,Colchester,156,Scunthorpe,2021,2,0,0.0,1.0
+122,Grimsby,158,Southend,2021,2,1,0.5,2.0
+119,Cambridge,157,Bolton,2021,2,1,0.5,2.5
+121,Colchester,126,Walsall,2021,2,1,0.5,2.5
+155,Exeter,158,Southend,2021,2,2,1.0,2.0
+128,Tranmere,146,Forest Green,2021,2,0,0.0,4.0
+119,Cambridge,146,Forest Green,2021,2,0,0.0,1.5
+129,Barrow,158,Southend,2021,2,0,0.0,2.0
+128,Tranmere,131,Cheltenham,2021,2,0,0.0,3.5
+128,Tranmere,143,Port Vale,2021,2,0,0.0,5.5
+150,Leyton Orient,158,Southend,2021,2,0,0.0,2.5
+132,Crawley Town,146,Forest Green,2021,2,1,0.5,1.5
+157,Bolton,158,Southend,2021,2,0,0.0,2.0
+119,Cambridge,132,Crawley Town,2021,2,0,0.0,3.5
+131,Cheltenham,145,Mansfield,2021,2,1,0.5,2.0
+144,Morecambe,145,Mansfield,2021,2,1,0.5,1.5
+137,Oldham,143,Port Vale,2021,2,1,0.5,1.5
+143,Port Vale,153,Stevenage,2021,2,1,0.5,1.5
+121,Colchester,150,Leyton Orient,2021,2,1,0.5,1.5
+141,Carlisle,143,Port Vale,2021,2,1,0.5,0.5
+119,Cambridge,126,Walsall,2021,2,0,0.0,1.5
+126,Walsall,157,Bolton,2021,2,0,0.0,3.0
+145,Mansfield,158,Southend,2021,2,1,0.5,1.5
+141,Carlisle,153,Stevenage,2021,2,0,0.0,4.0
+122,Grimsby,128,Tranmere,2021,2,1,0.5,2.5
+136,Harrogate,153,Stevenage,2021,2,1,0.5,0.5
+121,Colchester,142,Bradford,2021,2,1,0.5,1.5
+129,Barrow,146,Forest Green,2021,2,1,0.5,3.0
+121,Colchester,136,Harrogate,2021,2,0,0.0,3.0
+131,Cheltenham,132,Crawley Town,2021,2,0,0.0,1.5
+121,Colchester,129,Barrow,2021,2,2,1.0,2.0
+119,Cambridge,142,Bradford,2021,2,1,0.5,0.5
+122,Grimsby,131,Cheltenham,2021,2,1,0.5,3.0
+121,Colchester,143,Port Vale,2021,2,1,0.5,1.5
+131,Cheltenham,158,Southend,2021,2,0,0.0,1.5
+127,Newport County,144,Morecambe,2021,2,0,0.0,3.5
+121,Colchester,122,Grimsby,2021,2,1,0.5,1.5
+150,Leyton Orient,156,Scunthorpe,2021,2,1,0.5,2.0
+137,Oldham,155,Exeter,2021,2,0,0.0,3.0
+145,Mansfield,150,Leyton Orient,2021,2,1,0.5,3.0
+132,Crawley Town,150,Leyton Orient,2021,2,1,0.5,1.5
+126,Walsall,136,Harrogate,2021,2,2,1.0,2.0
+142,Bradford,155,Exeter,2021,2,1,0.5,4.5
+126,Walsall,132,Crawley Town,2021,2,1,0.5,1.5
+119,Cambridge,155,Exeter,2021,2,0,0.0,3.5
+121,Colchester,131,Cheltenham,2021,2,1,0.5,0.5
+131,Cheltenham,144,Morecambe,2021,2,0,0.0,2.0
+122,Grimsby,155,Exeter,2021,2,0,0.0,5.0
+146,Forest Green,157,Bolton,2021,2,0,0.0,1.0
+143,Port Vale,156,Scunthorpe,2021,2,0,0.0,1.5
+127,Newport County,142,Bradford,2021,2,0,0.0,3.0
+132,Crawley Town,136,Harrogate,2021,2,1,0.5,3.0
+119,Cambridge,158,Southend,2021,2,1,0.5,1.5
+124,Salford,150,Leyton Orient,2021,2,0,0.0,2.0
+143,Port Vale,145,Mansfield,2021,2,0,0.0,3.5
+131,Cheltenham,143,Port Vale,2021,2,0,0.0,4.0
+142,Bradford,146,Forest Green,2021,2,1,0.5,4.5
+127,Newport County,129,Barrow,2021,2,0,0.0,3.0
+129,Barrow,143,Port Vale,2021,2,0,0.0,2.0
+127,Newport County,150,Leyton Orient,2021,2,0,0.0,2.0
+121,Colchester,128,Tranmere,2021,2,2,1.0,2.0
+145,Mansfield,157,Bolton,2021,2,1,0.5,3.5
+124,Salford,142,Bradford,2021,2,0,0.0,2.0
+136,Harrogate,143,Port Vale,2021,2,1,0.5,1.0
+122,Grimsby,129,Barrow,2021,2,0,0.0,1.0
+126,Walsall,141,Carlisle,2021,2,1,0.5,1.0
+131,Cheltenham,157,Bolton,2021,2,1,0.5,1.5
+122,Grimsby,156,Scunthorpe,2021,2,0,0.0,2.0
+124,Salford,146,Forest Green,2021,2,1,0.5,1.0
+132,Crawley Town,156,Scunthorpe,2021,2,1,0.5,0.5
+137,Oldham,158,Southend,2021,2,1,0.5,1.5
+127,Newport County,136,Harrogate,2021,2,0,0.0,3.0
+132,Crawley Town,142,Bradford,2021,2,1,0.5,2.0
+142,Bradford,156,Scunthorpe,2021,2,1,0.5,1.0
+132,Crawley Town,153,Stevenage,2021,2,1,0.5,3.5
+132,Crawley Town,144,Morecambe,2021,2,0,0.0,4.0
+143,Port Vale,158,Southend,2021,2,0,0.0,4.0
+146,Forest Green,153,Stevenage,2021,2,0,0.0,2.0
+137,Oldham,153,Stevenage,2021,2,0,0.0,2.0
+122,Grimsby,124,Salford,2021,2,1,0.5,3.0
+156,Scunthorpe,158,Southend,2021,2,1,0.5,1.5
+129,Barrow,155,Exeter,2021,2,1,0.5,2.5
+128,Tranmere,153,Stevenage,2021,2,1,0.5,0.5
+122,Grimsby,144,Morecambe,2021,2,0,0.0,3.5
+119,Cambridge,143,Port Vale,2021,2,0,0.0,2.5
+119,Cambridge,128,Tranmere,2021,2,2,1.0,1.0
+126,Walsall,156,Scunthorpe,2021,2,0,0.0,2.5
+136,Harrogate,144,Morecambe,2021,2,0,0.0,1.0
+122,Grimsby,126,Walsall,2021,2,1,0.5,1.5
+126,Walsall,145,Mansfield,2021,2,2,1.0,2.0
+121,Colchester,155,Exeter,2021,2,0,0.0,5.0
+126,Walsall,137,Oldham,2021,2,1,0.5,3.5
+131,Cheltenham,136,Harrogate,2021,2,0,0.0,3.0
+121,Colchester,146,Forest Green,2021,2,0,0.0,2.0
+142,Bradford,157,Bolton,2021,2,1,0.5,1.5
+124,Salford,156,Scunthorpe,2021,2,1,0.5,1.5
+145,Mansfield,156,Scunthorpe,2021,2,0,0.0,4.0
+155,Exeter,156,Scunthorpe,2021,2,0,0.0,3.0
+131,Cheltenham,153,Stevenage,2021,2,1,0.5,1.5
+136,Harrogate,141,Carlisle,2021,2,1,0.5,1.5
+153,Stevenage,155,Exeter,2021,2,0,0.0,2.5
+119,Cambridge,144,Morecambe,2021,2,0,0.0,4.0
+129,Barrow,144,Morecambe,2021,2,0,0.0,2.0
+129,Barrow,157,Bolton,2021,2,1,0.5,3.5
+137,Oldham,145,Mansfield,2021,2,0,0.0,5.0
+128,Tranmere,157,Bolton,2021,2,0,0.0,3.0
+136,Harrogate,142,Bradford,2021,2,0,0.0,2.0
+128,Tranmere,136,Harrogate,2021,2,0,0.0,3.0
+119,Cambridge,121,Colchester,2021,2,1,0.5,2.5
+126,Walsall,128,Tranmere,2021,2,0,0.0,2.5
+127,Newport County,156,Scunthorpe,2021,2,1,0.5,3.0
+144,Morecambe,157,Bolton,2021,2,1,0.5,1.5
+141,Carlisle,155,Exeter,2021,2,0,0.0,1.0
+127,Newport County,145,Mansfield,2021,2,1,0.5,2.5
+126,Walsall,153,Stevenage,2021,2,2,1.0,2.0
+142,Bradford,158,Southend,2021,2,0,0.0,3.5
+128,Tranmere,144,Morecambe,2021,2,0,0.0,1.0
+127,Newport County,143,Port Vale,2021,2,0,0.0,2.0
+127,Newport County,128,Tranmere,2021,2,0,0.0,1.0
+145,Mansfield,155,Exeter,2021,2,1,0.5,1.5
+124,Salford,129,Barrow,2021,2,0,0.0,1.0
+121,Colchester,158,Southend,2021,2,0,0.0,2.0
+136,Harrogate,145,Mansfield,2021,2,0,0.0,1.0
+137,Oldham,157,Bolton,2021,2,0,0.0,2.5
+131,Cheltenham,155,Exeter,2021,2,0,0.0,4.5
+121,Colchester,141,Carlisle,2021,2,0,0.0,4.0
+126,Walsall,158,Southend,2021,2,1,0.5,0.5
+142,Bradford,143,Port Vale,2021,2,1,0.5,1.5
+129,Barrow,132,Crawley Town,2021,2,0,0.0,5.5
+131,Cheltenham,137,Oldham,2021,2,0,0.0,2.5
+128,Tranmere,137,Oldham,2021,2,1,0.5,2.5
+127,Newport County,155,Exeter,2021,2,2,1.0,1.0
+122,Grimsby,146,Forest Green,2021,2,0,0.0,2.0
+124,Salford,137,Oldham,2021,2,0,0.0,2.5
+122,Grimsby,145,Mansfield,2021,2,2,1.0,3.0
+136,Harrogate,137,Oldham,2021,2,0,0.0,3.0
+119,Cambridge,136,Harrogate,2021,2,0,0.0,6.0
+124,Salford,132,Crawley Town,2021,2,1,0.5,1.5
+124,Salford,158,Southend,2021,2,1,0.5,1.5
+127,Newport County,131,Cheltenham,2021,2,1,0.5,1.5
+119,Cambridge,153,Stevenage,2021,2,0,0.0,1.0
+121,Colchester,124,Salford,2021,2,1,0.5,0.5
+136,Harrogate,146,Forest Green,2021,2,0,0.0,2.0
+128,Tranmere,156,Scunthorpe,2021,2,1,0.5,1.0
+129,Barrow,145,Mansfield,2021,2,0,0.0,4.0
+119,Cambridge,145,Mansfield,2021,2,0,0.0,2.0
+132,Crawley Town,143,Port Vale,2021,2,0,0.0,3.0
+128,Tranmere,141,Carlisle,2021,2,0,0.0,3.0
+131,Cheltenham,142,Bradford,2021,2,0,0.0,2.5
+122,Grimsby,157,Bolton,2021,2,1,0.5,1.5
+129,Barrow,150,Leyton Orient,2021,2,1,0.5,2.0
+132,Crawley Town,157,Bolton,2021,2,0,0.0,3.0
+142,Bradford,150,Leyton Orient,2021,2,0,0.0,1.0
+127,Newport County,132,Crawley Town,2021,2,1,0.5,2.0
+126,Walsall,155,Exeter,2021,2,2,1.0,
+122,Grimsby,132,Crawley Town,2021,2,0,0.0,3.0
+128,Tranmere,158,Southend,2021,2,0,0.0,2.0
+144,Morecambe,150,Leyton Orient,2021,2,0,0.0,2.5
+119,Cambridge,156,Scunthorpe,2021,2,0,0.0,3.0
+150,Leyton Orient,155,Exeter,2021,2,1,0.5,3.0
+155,Exeter,157,Bolton,2021,2,1,0.5,2.5
+144,Morecambe,153,Stevenage,2021,2,2,1.0,3.0
+124,Salford,136,Harrogate,2021,2,1,0.5,2.5
+126,Walsall,127,Newport County,2021,2,1,0.5,1.5
+122,Grimsby,136,Harrogate,2021,2,0,0.0,2.0
+132,Crawley Town,158,Southend,2021,2,2,1.0,1.0
+146,Forest Green,150,Leyton Orient,2021,2,0,0.0,2.0
+150,Leyton Orient,153,Stevenage,2021,2,1,0.5,1.0
+131,Cheltenham,150,Leyton Orient,2021,2,0,0.0,1.5
+128,Tranmere,142,Bradford,2021,2,0,0.0,1.0
+129,Barrow,142,Bradford,2021,2,0,0.0,2.0
+141,Carlisle,158,Southend,2021,2,0,0.0,2.0
+142,Bradford,145,Mansfield,2021,2,0,0.0,2.5
+141,Carlisle,144,Morecambe,2021,2,0,0.0,4.0
+136,Harrogate,158,Southend,2021,2,0,0.0,2.5
+143,Port Vale,150,Leyton Orient,2021,2,1,0.5,3.5
+129,Barrow,136,Harrogate,2021,2,0,0.0,1.0
+121,Colchester,153,Stevenage,2021,2,1,0.5,2.0
+142,Bradford,144,Morecambe,2021,2,0,0.0,2.5
+144,Morecambe,158,Southend,2021,2,1,0.5,2.5
+119,Cambridge,141,Carlisle,2021,2,0,0.0,3.0
+124,Salford,157,Bolton,2021,2,0,0.0,1.5
+124,Salford,143,Port Vale,2021,2,0,0.0,1.0
+129,Barrow,156,Scunthorpe,2021,2,0,0.0,2.0
+124,Salford,131,Cheltenham,2021,2,1,0.5,1.0
+141,Carlisle,157,Bolton,2021,2,1,0.5,3.5
+119,Cambridge,127,Newport County,2021,2,0,0.0,2.0
+141,Carlisle,146,Forest Green,2021,2,0,0.0,2.0
+121,Colchester,145,Mansfield,2021,2,2,1.0,3.0
+127,Newport County,157,Bolton,2021,2,0,0.0,1.5
+143,Port Vale,155,Exeter,2021,2,0,0.0,1.5
+124,Salford,141,Carlisle,2021,2,1,0.5,2.5
+124,Salford,153,Stevenage,2021,2,0,0.0,2.0
+137,Oldham,144,Morecambe,2021,2,0,0.0,6.0
+143,Port Vale,146,Forest Green,2021,2,2,1.0,2.0
+122,Grimsby,150,Leyton Orient,2021,2,0,0.0,3.0
+119,Cambridge,150,Leyton Orient,2021,2,0,0.0,4.5
+124,Salford,155,Exeter,2021,2,1,0.5,2.5
+124,Salford,145,Mansfield,2021,2,0,0.0,2.5
+127,Newport County,137,Oldham,2021,2,0,0.0,5.5
+119,Cambridge,131,Cheltenham,2021,2,1,0.5,1.5
+143,Port Vale,144,Morecambe,2021,2,0,0.0,1.0
+153,Stevenage,157,Bolton,2021,2,0,0.0,2.0
+129,Barrow,137,Oldham,2021,2,0,0.0,4.0
+146,Forest Green,155,Exeter,2021,2,2,1.0,1.0
+145,Mansfield,146,Forest Green,2021,2,1,0.5,1.5
+126,Walsall,129,Barrow,2021,2,1,0.5,2.5
+119,Cambridge,122,Grimsby,2021,2,0,0.0,3.0
+126,Walsall,142,Bradford,2021,2,1,0.5,2.5
+132,Crawley Town,137,Oldham,2021,2,0,0.0,5.0
+153,Stevenage,156,Scunthorpe,2021,2,0,0.0,2.5
+141,Carlisle,142,Bradford,2021,2,0,0.0,2.5
+146,Forest Green,158,Southend,2021,2,0,0.0,2.5
+136,Harrogate,156,Scunthorpe,2021,2,0,0.0,5.5
+124,Salford,128,Tranmere,2021,2,2,1.0,2.0
+122,Grimsby,143,Port Vale,2021,2,0,0.0,2.0
+122,Grimsby,127,Newport County,2021,2,0,0.0,1.5
+121,Colchester,137,Oldham,2021,2,1,0.5,6.5
+137,Oldham,150,Leyton Orient,2021,2,0,0.0,2.0
+127,Newport County,158,Southend,2021,2,1,0.5,1.5
+136,Harrogate,155,Exeter,2021,2,1,0.5,1.5
+126,Walsall,144,Morecambe,2021,2,1,0.5,2.0
+144,Morecambe,146,Forest Green,2021,2,1,0.5,3.5
+132,Crawley Town,145,Mansfield,2021,2,1,0.5,3.5
+137,Oldham,156,Scunthorpe,2021,2,1,0.5,2.0
+143,Port Vale,157,Bolton,2021,2,0,0.0,5.0
+128,Tranmere,129,Barrow,2021,2,1,0.5,1.5
+127,Newport County,153,Stevenage,2021,2,1,0.5,0.5
+153,Stevenage,158,Southend,2021,2,2,1.0,
+137,Oldham,142,Bradford,2021,2,1,0.5,2.0
+122,Grimsby,137,Oldham,2021,2,1,0.5,1.5
+137,Oldham,146,Forest Green,2021,2,0,0.0,5.0
+132,Crawley Town,155,Exeter,2021,2,0,0.0,2.5
+136,Harrogate,157,Bolton,2021,2,0,0.0,3.0
+141,Carlisle,156,Scunthorpe,2021,2,0,0.0,1.5
+136,Harrogate,150,Leyton Orient,2021,2,1,0.5,3.5

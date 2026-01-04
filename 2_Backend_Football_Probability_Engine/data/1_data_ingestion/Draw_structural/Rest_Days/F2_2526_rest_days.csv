@@ -1,0 +1,153 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+F2,2526,2025-08-09,Troyes,Grenoble,91,91,False
+F2,2526,2025-08-09,Montpellier,Red Star,7,91,False
+F2,2526,2025-08-09,Laval,St Etienne,91,449,False
+F2,2526,2025-08-09,Pau FC,Nancy,91,91,False
+F2,2526,2025-08-09,Dunkerque,Clermont,91,91,False
+F2,2526,2025-08-09,Guingamp,Le Mans,91,1979,False
+F2,2526,2025-08-09,Rodez,Nancy,91,91,False
+F2,2526,2025-08-11,Amiens,Reims,93,7,False
+F2,2526,2025-08-15,Bastia,Pau FC,97,6,False
+F2,2526,2025-08-15,Clermont,Troyes,6,6,False
+F2,2526,2025-08-15,Red Star,Amiens,6,4,False
+F2,2526,2025-08-15,Nancy,Boulogne,6,7,False
+F2,2526,2025-08-15,Grenoble,Laval,6,6,False
+F2,2526,2025-08-16,St Etienne,Rodez,7,7,False
+F2,2526,2025-08-16,Nancy,Dunkerque,1,7,False
+F2,2526,2025-08-16,Reims,Guingamp,5,7,False
+F2,2526,2025-08-18,Le Mans,Montpellier,9,9,False
+F2,2526,2025-08-22,Rodez,Laval,6,7,False
+F2,2526,2025-08-22,Amiens,Nancy,7,6,False
+F2,2526,2025-08-22,Clermont,Grenoble,7,7,False
+F2,2526,2025-08-22,Dunkerque,Nancy,6,6,False
+F2,2526,2025-08-22,Le Mans,Bastia,4,7,False
+F2,2526,2025-08-23,Troyes,Montpellier,8,5,False
+F2,2526,2025-08-23,Guingamp,Red Star,7,8,False
+F2,2526,2025-08-23,Boulogne,St Etienne,8,7,False
+F2,2526,2025-08-25,Pau FC,Reims,10,9,False
+F2,2526,2025-08-29,Montpellier,Amiens,6,7,False
+F2,2526,2025-08-29,Dunkerque,Troyes,7,6,False
+F2,2526,2025-08-29,Laval,Clermont,7,7,False
+F2,2526,2025-08-29,Nancy,Pau FC,7,4,False
+F2,2526,2025-08-29,Red Star,Nancy,6,7,False
+F2,2526,2025-08-29,Rodez,Boulogne,7,6,False
+F2,2526,2025-08-30,St Etienne,Grenoble,7,8,False
+F2,2526,2025-08-30,Reims,Le Mans,5,8,False
+F2,2526,2025-08-30,Bastia,Guingamp,8,7,False
+F2,2526,2025-09-12,Troyes,Nancy,14,14,False
+F2,2526,2025-09-12,Pau FC,Red Star,14,14,False
+F2,2526,2025-09-12,Le Mans,Rodez,13,14,False
+F2,2526,2025-09-12,Boulogne,Laval,14,14,False
+F2,2526,2025-09-12,Amiens,Bastia,14,13,False
+F2,2526,2025-09-13,Nancy,Reims,1,14,False
+F2,2526,2025-09-13,Grenoble,Dunkerque,14,15,False
+F2,2526,2025-09-13,Clermont,St Etienne,15,14,False
+F2,2526,2025-09-15,Guingamp,Montpellier,16,17,False
+F2,2526,2025-09-16,Boulogne,Bastia,4,4,True
+F2,2526,2025-09-19,Rodez,Clermont,7,6,False
+F2,2526,2025-09-19,Laval,Amiens,7,7,False
+F2,2526,2025-09-19,Nancy,Red Star,6,7,False
+F2,2526,2025-09-19,Grenoble,Nancy,6,6,False
+F2,2526,2025-09-19,Dunkerque,Le Mans,6,7,False
+F2,2526,2025-09-19,Boulogne,Pau FC,3,7,False
+F2,2526,2025-09-20,Montpellier,Bastia,5,4,False
+F2,2526,2025-09-20,Troyes,Guingamp,8,5,False
+F2,2526,2025-09-20,St Etienne,Reims,7,7,False
+F2,2526,2025-09-23,Bastia,Rodez,3,4,True
+F2,2526,2025-09-23,Amiens,St Etienne,4,3,True
+F2,2526,2025-09-23,Nancy,Nancy,4,4,True
+F2,2526,2025-09-23,Guingamp,Dunkerque,3,4,True
+F2,2526,2025-09-23,Le Mans,Grenoble,4,4,True
+F2,2526,2025-09-23,Montpellier,Boulogne,3,4,True
+F2,2526,2025-09-23,Pau FC,Laval,4,4,True
+F2,2526,2025-09-23,Red Star,Troyes,4,3,True
+F2,2526,2025-09-23,Reims,Clermont,3,4,True
+F2,2526,2025-09-26,Troyes,Nancy,3,3,False
+F2,2526,2025-09-26,Clermont,Le Mans,3,3,False
+F2,2526,2025-09-26,Grenoble,Bastia,3,3,False
+F2,2526,2025-09-26,Nancy,Reims,3,3,False
+F2,2526,2025-09-26,Rodez,Pau FC,3,3,False
+F2,2526,2025-09-27,St Etienne,Guingamp,4,4,False
+F2,2526,2025-09-27,Dunkerque,Amiens,4,4,False
+F2,2526,2025-09-27,Laval,Montpellier,4,4,False
+F2,2526,2025-09-29,Boulogne,Red Star,6,6,False
+F2,2526,2025-10-03,Le Mans,Troyes,7,7,False
+F2,2526,2025-10-03,Pau FC,Clermont,7,7,False
+F2,2526,2025-10-03,Guingamp,Nancy,6,7,False
+F2,2526,2025-10-03,Bastia,Dunkerque,7,6,False
+F2,2526,2025-10-03,Nancy,Laval,7,6,False
+F2,2526,2025-10-03,Amiens,Boulogne,6,4,False
+F2,2526,2025-10-04,Montpellier,St Etienne,7,7,False
+F2,2526,2025-10-04,Red Star,Rodez,5,8,False
+F2,2526,2025-10-04,Reims,Grenoble,8,8,False
+F2,2526,2025-10-17,Grenoble,Pau FC,13,14,False
+F2,2526,2025-10-17,Clermont,Nancy,14,14,False
+F2,2526,2025-10-17,Boulogne,Guingamp,14,14,False
+F2,2526,2025-10-17,Troyes,Bastia,14,14,False
+F2,2526,2025-10-17,Rodez,Reims,13,13,False
+F2,2526,2025-10-18,St Etienne,Le Mans,14,15,False
+F2,2526,2025-10-18,Dunkerque,Montpellier,15,14,False
+F2,2526,2025-10-18,Laval,Red Star,15,14,False
+F2,2526,2025-10-20,Nancy,Amiens,3,17,False
+F2,2526,2025-10-24,Red Star,Grenoble,6,7,False
+F2,2526,2025-10-24,Guingamp,Clermont,7,7,False
+F2,2526,2025-10-24,Le Mans,Boulogne,6,7,False
+F2,2526,2025-10-24,Pau FC,Dunkerque,7,6,False
+F2,2526,2025-10-24,Reims,Troyes,7,7,False
+F2,2526,2025-10-25,Amiens,Rodez,5,8,False
+F2,2526,2025-10-25,Nancy,St Etienne,5,7,False
+F2,2526,2025-10-25,Montpellier,Nancy,7,5,False
+F2,2526,2025-10-28,St Etienne,Pau FC,3,4,True
+F2,2526,2025-10-28,Boulogne,Reims,4,4,True
+F2,2526,2025-10-28,Clermont,Montpellier,4,3,True
+F2,2526,2025-10-28,Dunkerque,Red Star,4,4,True
+F2,2526,2025-10-28,Grenoble,Guingamp,4,4,True
+F2,2526,2025-10-28,Laval,Le Mans,10,4,True
+F2,2526,2025-10-28,Nancy,Bastia,3,11,True
+F2,2526,2025-10-28,Rodez,Nancy,3,3,True
+F2,2526,2025-10-28,Troyes,Amiens,4,3,True
+F2,2526,2025-10-31,Nancy,Boulogne,3,3,False
+F2,2526,2025-10-31,Le Mans,Nancy,3,3,False
+F2,2526,2025-10-31,Montpellier,Rodez,3,3,False
+F2,2526,2025-10-31,Guingamp,Laval,3,3,False
+F2,2526,2025-10-31,Bastia,Clermont,3,3,False
+F2,2526,2025-11-01,Reims,Dunkerque,4,4,False
+F2,2526,2025-11-01,Red Star,St Etienne,4,4,False
+F2,2526,2025-11-01,Amiens,Grenoble,4,4,False
+F2,2526,2025-11-03,Pau FC,Troyes,6,6,False
+F2,2526,2025-11-07,Grenoble,Rodez,6,7,False
+F2,2526,2025-11-07,Bastia,Reims,7,6,False
+F2,2526,2025-11-07,Clermont,Amiens,7,6,False
+F2,2526,2025-11-07,Dunkerque,Boulogne,6,7,False
+F2,2526,2025-11-07,Montpellier,Nancy,7,7,False
+F2,2526,2025-11-07,Nancy,Laval,7,7,False
+F2,2526,2025-11-08,Troyes,St Etienne,5,7,False
+F2,2526,2025-11-08,Le Mans,Red Star,8,7,False
+F2,2526,2025-11-08,Guingamp,Pau FC,8,5,False
+F2,2526,2025-11-21,Laval,Troyes,14,13,False
+F2,2526,2025-11-21,Nancy,Bastia,14,14,False
+F2,2526,2025-11-21,Boulogne,Grenoble,14,14,False
+F2,2526,2025-11-21,Pau FC,Le Mans,13,13,False
+F2,2526,2025-11-21,Rodez,Dunkerque,14,14,False
+F2,2526,2025-11-22,Amiens,Guingamp,15,14,False
+F2,2526,2025-11-22,Red Star,Clermont,14,15,False
+F2,2526,2025-11-22,St Etienne,Nancy,14,1,False
+F2,2526,2025-11-24,Reims,Montpellier,17,17,False
+F2,2526,2025-11-25,Bastia,Laval,4,4,True
+F2,2526,2025-12-05,Grenoble,Nancy,14,13,False
+F2,2526,2025-12-05,Le Mans,Amiens,14,13,False
+F2,2526,2025-12-05,Guingamp,Nancy,13,13,False
+F2,2526,2025-12-05,Clermont,Boulogne,13,14,False
+F2,2526,2025-12-06,Montpellier,Pau FC,12,15,False
+F2,2526,2025-12-06,Dunkerque,St Etienne,15,14,False
+F2,2526,2025-12-06,Troyes,Rodez,15,15,False
+F2,2526,2025-12-08,Reims,Laval,14,13,False
+F2,2526,2025-12-12,Nancy,Le Mans,7,7,False
+F2,2526,2025-12-12,Rodez,Guingamp,6,7,False
+F2,2526,2025-12-12,Pau FC,Amiens,6,7,False
+F2,2526,2025-12-12,Nancy,Clermont,7,7,False
+F2,2526,2025-12-12,Laval,Dunkerque,4,6,False
+F2,2526,2025-12-13,St Etienne,Bastia,7,18,False
+F2,2526,2025-12-13,Grenoble,Montpellier,8,7,False
+F2,2526,2025-12-13,Red Star,Reims,21,5,False
+F2,2526,2025-12-15,Boulogne,Troyes,10,9,False

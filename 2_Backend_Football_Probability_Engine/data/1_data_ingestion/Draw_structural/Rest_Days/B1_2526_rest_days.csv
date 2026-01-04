@@ -1,0 +1,161 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+B1,2526,2025-07-25,Antwerp,St. Gilloise,61,61,False
+B1,2526,2025-07-26,Dender,Club Brugge,63,62,False
+B1,2526,2025-07-26,Waregem,Mechelen,825,63,False
+B1,2526,2025-07-26,RAAL La Louviere,Standard,7,63,False
+B1,2526,2025-07-27,Oud-Heverlee Leuven,Charleroi,64,64,False
+B1,2526,2025-07-27,Anderlecht,Westerlo,63,64,False
+B1,2526,2025-07-27,St Truiden,Gent,78,63,False
+B1,2526,2025-07-27,Club Brugge,Gent,1,63,False
+B1,2526,2025-08-01,Mechelen,Club Brugge,6,5,False
+B1,2526,2025-08-02,Gent,RAAL La Louviere,6,7,False
+B1,2526,2025-08-02,Westerlo,Waregem,6,7,False
+B1,2526,2025-08-02,Standard,Dender,7,7,False
+B1,2526,2025-08-03,Gent,Antwerp,1,9,False
+B1,2526,2025-08-03,Club Brugge,Anderlecht,2,7,False
+B1,2526,2025-08-03,St. Gilloise,Oud-Heverlee Leuven,9,7,False
+B1,2526,2025-08-03,Charleroi,St Truiden,7,7,False
+B1,2526,2025-08-08,St Truiden,Dender,5,6,False
+B1,2526,2025-08-09,Westerlo,Mechelen,7,8,False
+B1,2526,2025-08-09,Club Brugge,Club Brugge,6,6,False
+B1,2526,2025-08-09,Gent,St. Gilloise,6,6,False
+B1,2526,2025-08-10,Antwerp,Oud-Heverlee Leuven,7,7,False
+B1,2526,2025-08-10,Anderlecht,Waregem,7,8,False
+B1,2526,2025-08-10,RAAL La Louviere,Charleroi,8,7,False
+B1,2526,2025-08-10,Standard,Gent,8,1,False
+B1,2526,2025-08-15,Oud-Heverlee Leuven,Gent,5,5,False
+B1,2526,2025-08-16,Waregem,Club Brugge,6,7,False
+B1,2526,2025-08-16,Mechelen,Gent,7,1,False
+B1,2526,2025-08-16,St. Gilloise,Standard,7,6,False
+B1,2526,2025-08-17,Charleroi,Antwerp,7,7,False
+B1,2526,2025-08-17,Dender,Anderlecht,9,7,False
+B1,2526,2025-08-17,St Truiden,RAAL La Louviere,9,7,False
+B1,2526,2025-08-17,Club Brugge,Westerlo,1,8,False
+B1,2526,2025-08-23,Waregem,St Truiden,7,6,False
+B1,2526,2025-08-23,Standard,Club Brugge,7,6,False
+B1,2526,2025-08-24,Dender,Oud-Heverlee Leuven,7,9,False
+B1,2526,2025-08-24,RAAL La Louviere,St. Gilloise,7,8,False
+B1,2526,2025-08-24,Antwerp,Mechelen,7,8,False
+B1,2526,2025-08-29,Club Brugge,St Truiden,6,6,False
+B1,2526,2025-08-30,Mechelen,RAAL La Louviere,6,6,False
+B1,2526,2025-08-30,Westerlo,Antwerp,13,6,False
+B1,2526,2025-08-30,Charleroi,Dender,13,6,False
+B1,2526,2025-08-31,Gent,Club Brugge,15,2,False
+B1,2526,2025-08-31,Gent,Waregem,15,8,False
+B1,2526,2025-08-31,Oud-Heverlee Leuven,Standard,7,8,False
+B1,2526,2025-08-31,St. Gilloise,Anderlecht,7,14,False
+B1,2526,2025-09-12,Standard,Mechelen,12,13,False
+B1,2526,2025-09-13,Dender,St. Gilloise,14,13,False
+B1,2526,2025-09-13,Waregem,Oud-Heverlee Leuven,13,13,False
+B1,2526,2025-09-13,RAAL La Louviere,Club Brugge,14,13,False
+B1,2526,2025-09-14,Club Brugge,Charleroi,1,15,False
+B1,2526,2025-09-14,Antwerp,Gent,15,14,False
+B1,2526,2025-09-14,Anderlecht,Gent,14,14,False
+B1,2526,2025-09-14,St Truiden,Westerlo,16,15,False
+B1,2526,2025-09-17,Gent,Charleroi,3,3,True
+B1,2526,2025-09-19,Gent,Dender,2,6,False
+B1,2526,2025-09-20,Anderlecht,Antwerp,6,6,False
+B1,2526,2025-09-20,Oud-Heverlee Leuven,RAAL La Louviere,7,7,False
+B1,2526,2025-09-20,Charleroi,Waregem,3,7,False
+B1,2526,2025-09-21,Mechelen,Club Brugge,9,7,False
+B1,2526,2025-09-21,Gent,St. Gilloise,2,8,False
+B1,2526,2025-09-21,Westerlo,Standard,7,9,False
+B1,2526,2025-09-21,Club Brugge,St Truiden,7,7,False
+B1,2526,2025-09-23,Anderlecht,Gent,3,2,True
+B1,2526,2025-09-24,Club Brugge,Westerlo,3,3,True
+B1,2526,2025-09-26,Oud-Heverlee Leuven,Anderlecht,6,3,False
+B1,2526,2025-09-27,St. Gilloise,Westerlo,6,3,False
+B1,2526,2025-09-27,Standard,Club Brugge,6,3,False
+B1,2526,2025-09-27,Waregem,Antwerp,7,7,False
+B1,2526,2025-09-28,Dender,RAAL La Louviere,9,8,False
+B1,2526,2025-09-28,St Truiden,Gent,7,5,False
+B1,2526,2025-09-28,Club Brugge,Gent,1,5,False
+B1,2526,2025-09-28,Charleroi,Mechelen,8,7,False
+B1,2526,2025-10-03,Gent,Charleroi,5,5,False
+B1,2526,2025-10-04,Antwerp,Club Brugge,7,6,False
+B1,2526,2025-10-04,Mechelen,St Truiden,6,6,False
+B1,2526,2025-10-04,RAAL La Louviere,Waregem,6,7,False
+B1,2526,2025-10-05,Gent,Dender,2,7,False
+B1,2526,2025-10-05,Club Brugge,St. Gilloise,1,8,False
+B1,2526,2025-10-05,Anderlecht,Standard,9,8,False
+B1,2526,2025-10-05,Westerlo,Oud-Heverlee Leuven,8,9,False
+B1,2526,2025-10-18,Oud-Heverlee Leuven,Club Brugge,13,13,False
+B1,2526,2025-10-18,RAAL La Louviere,Westerlo,14,13,False
+B1,2526,2025-10-18,St. Gilloise,Charleroi,13,15,False
+B1,2526,2025-10-19,Club Brugge,Gent,1,14,False
+B1,2526,2025-10-19,Waregem,Gent,15,14,False
+B1,2526,2025-10-19,St Truiden,Anderlecht,15,14,False
+B1,2526,2025-10-19,Dender,Mechelen,14,15,False
+B1,2526,2025-10-20,Standard,Antwerp,15,16,False
+B1,2526,2025-10-24,Charleroi,Anderlecht,6,5,False
+B1,2526,2025-10-25,Mechelen,Oud-Heverlee Leuven,6,7,False
+B1,2526,2025-10-25,Gent,Standard,6,5,False
+B1,2526,2025-10-25,Westerlo,Dender,7,6,False
+B1,2526,2025-10-26,Gent,RAAL La Louviere,1,8,False
+B1,2526,2025-10-26,Antwerp,Club Brugge,6,7,False
+B1,2526,2025-10-26,Club Brugge,Waregem,7,7,False
+B1,2526,2025-10-26,St. Gilloise,St Truiden,8,7,False
+B1,2526,2025-10-31,Standard,Charleroi,6,7,False
+B1,2526,2025-11-01,Waregem,St. Gilloise,6,6,False
+B1,2526,2025-11-01,Anderlecht,Mechelen,8,7,False
+B1,2526,2025-11-01,Club Brugge,Dender,6,7,False
+B1,2526,2025-11-02,St Truiden,Antwerp,7,7,False
+B1,2526,2025-11-02,Oud-Heverlee Leuven,Gent,8,7,False
+B1,2526,2025-11-02,Westerlo,Gent,8,7,False
+B1,2526,2025-11-02,RAAL La Louviere,Club Brugge,7,1,False
+B1,2526,2025-11-07,Dender,Waregem,6,6,False
+B1,2526,2025-11-08,Club Brugge,Oud-Heverlee Leuven,6,6,False
+B1,2526,2025-11-08,Antwerp,RAAL La Louviere,6,6,False
+B1,2526,2025-11-08,Charleroi,Westerlo,8,6,False
+B1,2526,2025-11-09,St Truiden,Standard,7,9,False
+B1,2526,2025-11-09,Anderlecht,Club Brugge,8,1,False
+B1,2526,2025-11-09,Gent,Gent,7,7,False
+B1,2526,2025-11-09,Mechelen,St. Gilloise,8,8,False
+B1,2526,2025-11-21,Standard,Waregem,12,14,False
+B1,2526,2025-11-22,St. Gilloise,Club Brugge,13,13,False
+B1,2526,2025-11-22,Club Brugge,Charleroi,13,14,False
+B1,2526,2025-11-22,Westerlo,Gent,14,13,False
+B1,2526,2025-11-23,RAAL La Louviere,Anderlecht,15,14,False
+B1,2526,2025-11-23,Gent,Mechelen,1,14,False
+B1,2526,2025-11-23,Antwerp,Dender,15,16,False
+B1,2526,2025-11-23,Oud-Heverlee Leuven,St Truiden,15,14,False
+B1,2526,2025-11-28,Mechelen,Standard,5,7,False
+B1,2526,2025-11-29,Waregem,Club Brugge,8,7,False
+B1,2526,2025-11-29,Charleroi,RAAL La Louviere,7,6,False
+B1,2526,2025-11-29,Dender,Westerlo,6,7,False
+B1,2526,2025-11-30,Anderlecht,St. Gilloise,7,8,False
+B1,2526,2025-11-30,Gent,St Truiden,7,7,False
+B1,2526,2025-11-30,Club Brugge,Antwerp,1,7,False
+B1,2526,2025-11-30,Gent,Oud-Heverlee Leuven,7,7,False
+B1,2526,2025-12-05,RAAL La Louviere,Dender,6,6,False
+B1,2526,2025-12-06,Club Brugge,Standard,6,8,False
+B1,2526,2025-12-06,St Truiden,Club Brugge,6,6,False
+B1,2526,2025-12-06,St. Gilloise,Gent,6,6,False
+B1,2526,2025-12-07,Antwerp,Gent,7,1,False
+B1,2526,2025-12-07,Oud-Heverlee Leuven,Waregem,7,8,False
+B1,2526,2025-12-07,Westerlo,Anderlecht,8,7,False
+B1,2526,2025-12-07,Mechelen,Charleroi,9,8,False
+B1,2526,2025-12-12,Standard,Oud-Heverlee Leuven,6,5,False
+B1,2526,2025-12-13,Waregem,RAAL La Louviere,6,8,False
+B1,2526,2025-12-13,Club Brugge,Mechelen,7,6,False
+B1,2526,2025-12-13,Anderlecht,St Truiden,6,7,False
+B1,2526,2025-12-14,Charleroi,St. Gilloise,7,8,False
+B1,2526,2025-12-14,Gent,Antwerp,7,7,False
+B1,2526,2025-12-14,Dender,Club Brugge,9,1,False
+B1,2526,2025-12-14,Gent,Westerlo,7,7,False
+B1,2526,2025-12-19,Charleroi,Gent,5,5,False
+B1,2526,2025-12-20,Dender,Standard,6,8,False
+B1,2526,2025-12-20,St. Gilloise,Waregem,6,7,False
+B1,2526,2025-12-20,Westerlo,RAAL La Louviere,6,7,False
+B1,2526,2025-12-21,St Truiden,Mechelen,8,8,False
+B1,2526,2025-12-21,Oud-Heverlee Leuven,Club Brugge,9,7,False
+B1,2526,2025-12-21,Club Brugge,Gent,7,2,False
+B1,2526,2025-12-21,Antwerp,Anderlecht,7,8,False
+B1,2526,2025-12-26,Club Brugge,St. Gilloise,5,6,False
+B1,2526,2025-12-26,Gent,Club Brugge,5,5,False
+B1,2526,2025-12-26,Anderlecht,Charleroi,5,7,False
+B1,2526,2025-12-26,Standard,St Truiden,6,5,False
+B1,2526,2025-12-27,Mechelen,Dender,6,7,False
+B1,2526,2025-12-27,Antwerp,Waregem,6,7,False
+B1,2526,2025-12-27,Gent,Westerlo,1,7,False
+B1,2526,2025-12-27,RAAL La Louviere,Oud-Heverlee Leuven,7,6,False

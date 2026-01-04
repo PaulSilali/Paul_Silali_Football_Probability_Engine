@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,2324,2023-07-28,Hamburg,Schalke 04,61,439,False
+D2,2324,2023-07-29,Osnabruck,Karlsruhe,797,62,False
+D2,2324,2023-07-29,Hannover,Elversberg,62,7,False
+D2,2324,2023-07-29,Kaiserslautern,St Pauli,62,62,False
+D2,2324,2023-07-29,Fortuna Dusseldorf,Hertha,62,7,False
+D2,2324,2023-07-29,Wehen,Magdeburg,1126,62,False
+D2,2324,2023-07-30,Greuther Furth,Paderborn,63,63,False
+D2,2324,2023-07-30,Hansa Rostock,Nurnberg,63,63,False
+D2,2324,2023-07-30,Braunschweig,Holstein Kiel,63,63,False
+D2,2324,2023-08-04,Paderborn,Osnabruck,5,6,False
+D2,2324,2023-08-04,Hertha,Wehen,6,6,False
+D2,2324,2023-08-05,Elversberg,Hansa Rostock,7,6,False
+D2,2324,2023-08-05,Holstein Kiel,Greuther Furth,6,6,False
+D2,2324,2023-08-05,St Pauli,Fortuna Dusseldorf,7,7,False
+D2,2324,2023-08-05,Schalke 04,Kaiserslautern,8,7,False
+D2,2324,2023-08-06,Karlsruhe,Hamburg,8,9,False
+D2,2324,2023-08-06,Magdeburg,Braunschweig,8,7,False
+D2,2324,2023-08-06,Nurnberg,Hannover,7,8,False
+D2,2324,2023-08-18,Wehen,Karlsruhe,14,12,False
+D2,2324,2023-08-18,Kaiserslautern,Elversberg,13,13,False
+D2,2324,2023-08-19,Hansa Rostock,Hannover,14,13,False
+D2,2324,2023-08-19,Hamburg,Hertha,13,15,False
+D2,2324,2023-08-19,Greuther Furth,St Pauli,14,14,False
+D2,2324,2023-08-19,Fortuna Dusseldorf,Paderborn,14,15,False
+D2,2324,2023-08-20,Holstein Kiel,Magdeburg,15,14,False
+D2,2324,2023-08-20,Braunschweig,Schalke 04,14,15,False
+D2,2324,2023-08-20,Osnabruck,Nurnberg,16,14,False
+D2,2324,2023-08-25,Paderborn,Kaiserslautern,6,7,False
+D2,2324,2023-08-25,Schalke 04,Holstein Kiel,5,5,False
+D2,2324,2023-08-26,Hertha,Greuther Furth,7,7,False
+D2,2324,2023-08-26,Hannover,Hamburg,7,7,False
+D2,2324,2023-08-26,Hansa Rostock,Osnabruck,7,6,False
+D2,2324,2023-08-26,Elversberg,Fortuna Dusseldorf,8,7,False
+D2,2324,2023-08-27,Nurnberg,Wehen,7,9,False
+D2,2324,2023-08-27,St Pauli,Magdeburg,8,7,False
+D2,2324,2023-08-27,Karlsruhe,Braunschweig,9,7,False
+D2,2324,2023-09-01,Fortuna Dusseldorf,Karlsruhe,6,5,False
+D2,2324,2023-09-01,Braunschweig,St Pauli,5,5,False
+D2,2324,2023-09-02,Wehen,Schalke 04,6,8,False
+D2,2324,2023-09-02,Magdeburg,Hertha,6,7,False
+D2,2324,2023-09-02,Holstein Kiel,Paderborn,8,8,False
+D2,2324,2023-09-02,Kaiserslautern,Nurnberg,8,6,False
+D2,2324,2023-09-03,Osnabruck,Elversberg,8,8,False
+D2,2324,2023-09-03,Greuther Furth,Hannover,8,8,False
+D2,2324,2023-09-03,Hamburg,Hansa Rostock,8,8,False
+D2,2324,2023-09-15,Nurnberg,Greuther Furth,13,12,False
+D2,2324,2023-09-15,Paderborn,Wehen,13,13,False
+D2,2324,2023-09-16,Karlsruhe,Kaiserslautern,15,14,False
+D2,2324,2023-09-16,Schalke 04,Magdeburg,14,14,False
+D2,2324,2023-09-16,Hansa Rostock,Fortuna Dusseldorf,13,15,False
+D2,2324,2023-09-16,Elversberg,Hamburg,13,13,False
+D2,2324,2023-09-17,Hertha,Braunschweig,15,16,False
+D2,2324,2023-09-17,St Pauli,Holstein Kiel,16,15,False
+D2,2324,2023-09-17,Hannover,Osnabruck,14,14,False
+D2,2324,2023-09-22,Osnabruck,Hamburg,5,6,False
+D2,2324,2023-09-22,Magdeburg,Paderborn,6,7,False
+D2,2324,2023-09-23,Braunschweig,Nurnberg,6,8,False
+D2,2324,2023-09-23,Greuther Furth,Karlsruhe,8,7,False
+D2,2324,2023-09-23,Wehen,Elversberg,8,7,False
+D2,2324,2023-09-23,St Pauli,Schalke 04,6,7,False
+D2,2324,2023-09-24,Fortuna Dusseldorf,Hannover,8,7,False
+D2,2324,2023-09-24,Holstein Kiel,Hertha,7,7,False
+D2,2324,2023-09-24,Kaiserslautern,Hansa Rostock,8,8,False
+D2,2324,2023-09-29,Hamburg,Fortuna Dusseldorf,7,5,False
+D2,2324,2023-09-29,Paderborn,Schalke 04,7,6,False
+D2,2324,2023-09-30,Karlsruhe,Holstein Kiel,7,6,False
+D2,2324,2023-09-30,Hertha,St Pauli,6,7,False
+D2,2324,2023-09-30,Hansa Rostock,Braunschweig,6,7,False
+D2,2324,2023-09-30,Hannover,Wehen,6,7,False
+D2,2324,2023-10-01,Nurnberg,Magdeburg,8,9,False
+D2,2324,2023-10-01,Osnabruck,Kaiserslautern,9,7,False
+D2,2324,2023-10-01,Elversberg,Greuther Furth,8,8,False
+D2,2324,2023-10-06,Kaiserslautern,Hannover,5,6,False
+D2,2324,2023-10-06,Fortuna Dusseldorf,Osnabruck,7,5,False
+D2,2324,2023-10-07,Wehen,Hamburg,7,8,False
+D2,2324,2023-10-07,Magdeburg,Karlsruhe,6,7,False
+D2,2324,2023-10-07,Greuther Furth,Hansa Rostock,6,7,False
+D2,2324,2023-10-07,St Pauli,Nurnberg,7,6,False
+D2,2324,2023-10-08,Holstein Kiel,Elversberg,8,7,False
+D2,2324,2023-10-08,Schalke 04,Hertha,9,8,False
+D2,2324,2023-10-08,Braunschweig,Paderborn,8,9,False
+D2,2324,2023-10-20,Elversberg,Braunschweig,12,12,False
+D2,2324,2023-10-20,Hannover,Magdeburg,14,13,False
+D2,2324,2023-10-21,Osnabruck,Wehen,15,14,False
+D2,2324,2023-10-21,Paderborn,St Pauli,13,14,False
+D2,2324,2023-10-21,Fortuna Dusseldorf,Kaiserslautern,15,15,False
+D2,2324,2023-10-21,Hamburg,Greuther Furth,14,14,False
+D2,2324,2023-10-22,Hansa Rostock,Holstein Kiel,15,14,False
+D2,2324,2023-10-22,Nurnberg,Hertha,15,14,False
+D2,2324,2023-10-22,Karlsruhe,Schalke 04,15,14,False
+D2,2324,2023-10-27,Greuther Furth,Osnabruck,6,6,False
+D2,2324,2023-10-27,Braunschweig,Fortuna Dusseldorf,7,6,False
+D2,2324,2023-10-28,Hertha,Paderborn,6,7,False
+D2,2324,2023-10-28,Schalke 04,Hannover,6,8,False
+D2,2324,2023-10-28,St Pauli,Karlsruhe,7,6,False
+D2,2324,2023-10-28,Kaiserslautern,Hamburg,7,7,False
+D2,2324,2023-10-29,Holstein Kiel,Nurnberg,7,7,False
+D2,2324,2023-10-29,Magdeburg,Elversberg,9,9,False
+D2,2324,2023-10-29,Wehen,Hansa Rostock,8,7,False
+D2,2324,2023-11-03,Elversberg,St Pauli,5,6,False
+D2,2324,2023-11-03,Fortuna Dusseldorf,Wehen,7,5,False
+D2,2324,2023-11-04,Osnabruck,Holstein Kiel,8,6,False
+D2,2324,2023-11-04,Hamburg,Magdeburg,7,6,False
+D2,2324,2023-11-04,Nurnberg,Schalke 04,6,7,False
+D2,2324,2023-11-04,Kaiserslautern,Greuther Furth,7,8,False
+D2,2324,2023-11-05,Hansa Rostock,Hertha,7,8,False
+D2,2324,2023-11-05,Karlsruhe,Paderborn,8,8,False
+D2,2324,2023-11-05,Hannover,Braunschweig,8,9,False
+D2,2324,2023-11-10,St Pauli,Hannover,7,5,False
+D2,2324,2023-11-10,Schalke 04,Elversberg,6,7,False
+D2,2324,2023-11-11,Braunschweig,Osnabruck,6,7,False
+D2,2324,2023-11-11,Holstein Kiel,Hamburg,7,7,False
+D2,2324,2023-11-11,Paderborn,Nurnberg,6,7,False
+D2,2324,2023-11-11,Hertha,Karlsruhe,6,6,False
+D2,2324,2023-11-12,Greuther Furth,Fortuna Dusseldorf,8,9,False
+D2,2324,2023-11-12,Magdeburg,Hansa Rostock,8,7,False
+D2,2324,2023-11-12,Wehen,Kaiserslautern,9,8,False
+D2,2324,2023-11-24,Hannover,Hertha,14,13,False
+D2,2324,2023-11-24,Hamburg,Braunschweig,13,13,False
+D2,2324,2023-11-25,Osnabruck,Magdeburg,14,13,False
+D2,2324,2023-11-25,Fortuna Dusseldorf,Schalke 04,13,15,False
+D2,2324,2023-11-25,Hansa Rostock,St Pauli,13,15,False
+D2,2324,2023-11-25,Elversberg,Paderborn,15,14,False
+D2,2324,2023-11-26,Greuther Furth,Wehen,14,14,False
+D2,2324,2023-11-26,Kaiserslautern,Holstein Kiel,14,15,False
+D2,2324,2023-11-26,Karlsruhe,Nurnberg,15,15,False
+D2,2324,2023-12-01,Schalke 04,Osnabruck,6,6,False
+D2,2324,2023-12-01,St Pauli,Hamburg,6,7,False
+D2,2324,2023-12-02,Nurnberg,Fortuna Dusseldorf,6,7,False
+D2,2324,2023-12-02,Magdeburg,Kaiserslautern,7,6,False
+D2,2324,2023-12-02,Holstein Kiel,Wehen,6,6,False
+D2,2324,2023-12-02,Braunschweig,Greuther Furth,8,6,False
+D2,2324,2023-12-03,Karlsruhe,Hansa Rostock,7,8,False
+D2,2324,2023-12-03,Paderborn,Hannover,8,9,False
+D2,2324,2023-12-03,Hertha,Elversberg,9,8,False
+D2,2324,2023-12-08,Wehen,Braunschweig,6,6,False
+D2,2324,2023-12-08,Hannover,Karlsruhe,5,5,False
+D2,2324,2023-12-09,Greuther Furth,Magdeburg,7,7,False
+D2,2324,2023-12-09,Hamburg,Paderborn,8,6,False
+D2,2324,2023-12-09,Kaiserslautern,Hertha,7,6,False
+D2,2324,2023-12-09,Osnabruck,St Pauli,8,8,False
+D2,2324,2023-12-10,Elversberg,Nurnberg,7,8,False
+D2,2324,2023-12-10,Fortuna Dusseldorf,Holstein Kiel,8,8,False
+D2,2324,2023-12-10,Hansa Rostock,Schalke 04,7,9,False
+D2,2324,2023-12-15,Paderborn,Hansa Rostock,6,5,False
+D2,2324,2023-12-15,Schalke 04,Greuther Furth,5,6,False
+D2,2324,2023-12-16,Nurnberg,Hamburg,6,7,False
+D2,2324,2023-12-16,Holstein Kiel,Hannover,6,8,False
+D2,2324,2023-12-16,Magdeburg,Fortuna Dusseldorf,7,6,False
+D2,2324,2023-12-16,Hertha,Osnabruck,7,7,False
+D2,2324,2023-12-17,Karlsruhe,Elversberg,9,7,False
+D2,2324,2023-12-17,Braunschweig,Kaiserslautern,9,8,False
+D2,2324,2023-12-17,St Pauli,Wehen,8,9,False
+D2,2324,2024-01-19,Karlsruhe,Osnabruck,33,34,False
+D2,2324,2024-01-19,Holstein Kiel,Braunschweig,34,33,False
+D2,2324,2024-01-20,St Pauli,Kaiserslautern,34,34,False
+D2,2324,2024-01-20,Elversberg,Hannover,34,35,False
+D2,2324,2024-01-20,Nurnberg,Hansa Rostock,35,36,False
+D2,2324,2024-01-20,Schalke 04,Hamburg,36,35,False
+D2,2324,2024-01-21,Magdeburg,Wehen,36,35,False
+D2,2324,2024-01-21,Hertha,Fortuna Dusseldorf,36,36,False
+D2,2324,2024-01-21,Paderborn,Greuther Furth,37,37,False
+D2,2324,2024-01-26,Hannover,Nurnberg,6,6,False
+D2,2324,2024-01-26,Kaiserslautern,Schalke 04,6,6,False
+D2,2324,2024-01-27,Hansa Rostock,Elversberg,7,7,False
+D2,2324,2024-01-27,Fortuna Dusseldorf,St Pauli,6,7,False
+D2,2324,2024-01-27,Wehen,Hertha,6,6,False
+D2,2324,2024-01-27,Osnabruck,Paderborn,8,6,False
+D2,2324,2024-01-28,Greuther Furth,Holstein Kiel,7,9,False
+D2,2324,2024-01-28,Hamburg,Karlsruhe,8,9,False
+D2,2324,2024-01-28,Braunschweig,Magdeburg,9,7,False
+D2,2324,2024-02-02,Magdeburg,Holstein Kiel,5,5,False
+D2,2324,2024-02-02,Karlsruhe,Wehen,5,6,False
+D2,2324,2024-02-03,Nurnberg,Osnabruck,8,7,False
+D2,2324,2024-02-03,St Pauli,Greuther Furth,7,6,False
+D2,2324,2024-02-03,Schalke 04,Braunschweig,8,6,False
+D2,2324,2024-02-03,Hertha,Hamburg,7,6,False
+D2,2324,2024-02-04,Elversberg,Kaiserslautern,8,9,False
+D2,2324,2024-02-04,Hannover,Hansa Rostock,9,8,False
+D2,2324,2024-02-04,Paderborn,Fortuna Dusseldorf,8,8,False
+D2,2324,2024-02-09,Wehen,Nurnberg,7,6,False
+D2,2324,2024-02-09,Hamburg,Hannover,6,5,False
+D2,2324,2024-02-10,Fortuna Dusseldorf,Elversberg,6,6,False
+D2,2324,2024-02-10,Braunschweig,Karlsruhe,7,8,False
+D2,2324,2024-02-10,Magdeburg,St Pauli,8,7,False
+D2,2324,2024-02-10,Kaiserslautern,Paderborn,6,6,False
+D2,2324,2024-02-11,Osnabruck,Hansa Rostock,8,7,False
+D2,2324,2024-02-11,Greuther Furth,Hertha,8,8,False
+D2,2324,2024-02-11,Holstein Kiel,Schalke 04,9,8,False
+D2,2324,2024-02-16,Hertha,Magdeburg,5,6,False
+D2,2324,2024-02-16,Hannover,Greuther Furth,7,5,False
+D2,2324,2024-02-17,Paderborn,Holstein Kiel,7,6,False
+D2,2324,2024-02-17,Hansa Rostock,Hamburg,6,8,False
+D2,2324,2024-02-17,Schalke 04,Wehen,6,8,False
+D2,2324,2024-02-17,Karlsruhe,Fortuna Dusseldorf,7,7,False
+D2,2324,2024-02-18,Elversberg,Osnabruck,8,7,False
+D2,2324,2024-02-18,Nurnberg,Kaiserslautern,9,8,False
+D2,2324,2024-02-18,St Pauli,Braunschweig,8,8,False
+D2,2324,2024-02-23,Wehen,Paderborn,6,6,False
+D2,2324,2024-02-23,Holstein Kiel,St Pauli,6,5,False
+D2,2324,2024-02-24,Braunschweig,Hertha,6,8,False
+D2,2324,2024-02-24,Kaiserslautern,Karlsruhe,6,7,False
+D2,2324,2024-02-24,Osnabruck,Hannover,6,8,False
+D2,2324,2024-02-24,Magdeburg,Schalke 04,8,7,False
+D2,2324,2024-02-25,Hamburg,Elversberg,8,7,False
+D2,2324,2024-02-25,Fortuna Dusseldorf,Hansa Rostock,8,8,False
+D2,2324,2024-02-25,Greuther Furth,Nurnberg,9,7,False
+D2,2324,2024-03-01,Schalke 04,St Pauli,6,7,False
+D2,2324,2024-03-01,Hertha,Holstein Kiel,6,7,False
+D2,2324,2024-03-02,Hansa Rostock,Kaiserslautern,6,7,False
+D2,2324,2024-03-02,Nurnberg,Braunschweig,6,7,False
+D2,2324,2024-03-02,Hannover,Fortuna Dusseldorf,7,6,False
+D2,2324,2024-03-02,Karlsruhe,Greuther Furth,7,6,False
+D2,2324,2024-03-03,Elversberg,Wehen,7,9,False
+D2,2324,2024-03-03,Hamburg,Osnabruck,7,8,False
+D2,2324,2024-03-03,Paderborn,Magdeburg,9,8,False
+D2,2324,2024-03-08,Braunschweig,Hansa Rostock,6,6,False
+D2,2324,2024-03-08,Fortuna Dusseldorf,Hamburg,6,5,False
+D2,2324,2024-03-09,Wehen,Hannover,6,7,False
+D2,2324,2024-03-09,Magdeburg,Nurnberg,6,7,False
+D2,2324,2024-03-09,Schalke 04,Paderborn,8,6,False
+D2,2324,2024-03-09,Holstein Kiel,Karlsruhe,8,7,False
+D2,2324,2024-03-10,Kaiserslautern,Osnabruck,8,7,False
+D2,2324,2024-03-10,St Pauli,Hertha,9,9,False
+D2,2324,2024-03-10,Greuther Furth,Elversberg,8,7,False
+D2,2324,2024-03-15,Paderborn,Braunschweig,6,7,False
+D2,2324,2024-03-15,Osnabruck,Fortuna Dusseldorf,5,7,False
+D2,2324,2024-03-16,Nurnberg,St Pauli,7,6,False
+D2,2324,2024-03-16,Hansa Rostock,Greuther Furth,8,6,False
+D2,2324,2024-03-16,Elversberg,Holstein Kiel,6,7,False
+D2,2324,2024-03-16,Hannover,Kaiserslautern,7,6,False
+D2,2324,2024-03-17,Hertha,Schalke 04,7,8,False
+D2,2324,2024-03-17,Karlsruhe,Magdeburg,8,8,False
+D2,2324,2024-03-17,Hamburg,Wehen,9,8,False
+D2,2324,2024-03-30,Kaiserslautern,Fortuna Dusseldorf,14,15,False
+D2,2324,2024-03-30,Braunschweig,Elversberg,15,14,False
+D2,2324,2024-03-30,Holstein Kiel,Hansa Rostock,14,14,False
+D2,2324,2024-03-30,Hertha,Nurnberg,13,14,False
+D2,2324,2024-03-31,Magdeburg,Hannover,14,15,False
+D2,2324,2024-03-31,Schalke 04,Karlsruhe,14,14,False
+D2,2324,2024-03-31,St Pauli,Paderborn,15,16,False
+D2,2324,2024-03-31,Wehen,Osnabruck,14,16,False
+D2,2324,2024-03-31,Greuther Furth,Hamburg,15,14,False
+D2,2324,2024-04-05,Hansa Rostock,Wehen,6,5,False
+D2,2324,2024-04-05,Paderborn,Hertha,5,6,False
+D2,2324,2024-04-06,Nurnberg,Holstein Kiel,7,7,False
+D2,2324,2024-04-06,Karlsruhe,St Pauli,6,6,False
+D2,2324,2024-04-06,Elversberg,Magdeburg,7,6,False
+D2,2324,2024-04-06,Hamburg,Kaiserslautern,6,7,False
+D2,2324,2024-04-07,Hannover,Schalke 04,7,7,False
+D2,2324,2024-04-07,Osnabruck,Greuther Furth,7,7,False
+D2,2324,2024-04-07,Fortuna Dusseldorf,Braunschweig,8,8,False
+D2,2324,2024-04-12,Hertha,Hansa Rostock,7,7,False
+D2,2324,2024-04-12,Greuther Furth,Kaiserslautern,5,6,False
+D2,2324,2024-04-13,Holstein Kiel,Osnabruck,7,6,False
+D2,2324,2024-04-13,Paderborn,Karlsruhe,8,7,False
+D2,2324,2024-04-13,Wehen,Fortuna Dusseldorf,8,6,False
+D2,2324,2024-04-13,Schalke 04,Nurnberg,6,7,False
+D2,2324,2024-04-14,Braunschweig,Hannover,7,7,False
+D2,2324,2024-04-14,Magdeburg,Hamburg,8,8,False
+D2,2324,2024-04-14,St Pauli,Elversberg,8,8,False
+D2,2324,2024-04-19,Elversberg,Schalke 04,5,6,False
+D2,2324,2024-04-19,Nurnberg,Paderborn,6,6,False
+D2,2324,2024-04-20,Osnabruck,Braunschweig,7,6,False
+D2,2324,2024-04-20,Hamburg,Holstein Kiel,6,7,False
+D2,2324,2024-04-20,Kaiserslautern,Wehen,8,7,False
+D2,2324,2024-04-20,Fortuna Dusseldorf,Greuther Furth,7,8,False
+D2,2324,2024-04-21,Hansa Rostock,Magdeburg,9,7,False
+D2,2324,2024-04-21,Karlsruhe,Hertha,8,9,False
+D2,2324,2024-04-21,Hannover,St Pauli,7,7,False
+D2,2324,2024-04-26,St Pauli,Hansa Rostock,5,5,False
+D2,2324,2024-04-26,Hertha,Hannover,5,5,False
+D2,2324,2024-04-27,Paderborn,Elversberg,8,8,False
+D2,2324,2024-04-27,Holstein Kiel,Kaiserslautern,7,7,False
+D2,2324,2024-04-27,Braunschweig,Hamburg,7,7,False
+D2,2324,2024-04-27,Schalke 04,Fortuna Dusseldorf,8,7,False
+D2,2324,2024-04-28,Magdeburg,Osnabruck,7,8,False
+D2,2324,2024-04-28,Nurnberg,Karlsruhe,9,7,False
+D2,2324,2024-04-28,Wehen,Greuther Furth,8,8,False
+D2,2324,2024-05-03,Hamburg,St Pauli,6,7,False
+D2,2324,2024-05-03,Fortuna Dusseldorf,Nurnberg,6,5,False
+D2,2324,2024-05-04,Kaiserslautern,Magdeburg,7,6,False
+D2,2324,2024-05-04,Hansa Rostock,Karlsruhe,8,6,False
+D2,2324,2024-05-04,Greuther Furth,Braunschweig,6,7,False
+D2,2324,2024-05-05,Elversberg,Hertha,8,9,False
+D2,2324,2024-05-05,Hannover,Paderborn,9,8,False
+D2,2324,2024-05-05,Wehen,Holstein Kiel,7,8,False
+D2,2324,2024-05-07,Osnabruck,Schalke 04,9,10,True
+D2,2324,2024-05-10,Magdeburg,Greuther Furth,6,6,False
+D2,2324,2024-05-10,Paderborn,Hamburg,5,7,False
+D2,2324,2024-05-11,Nurnberg,Elversberg,8,6,False
+D2,2324,2024-05-11,Schalke 04,Hansa Rostock,4,7,False
+D2,2324,2024-05-11,Holstein Kiel,Fortuna Dusseldorf,6,8,False
+D2,2324,2024-05-11,Hertha,Kaiserslautern,6,7,False
+D2,2324,2024-05-12,Braunschweig,Wehen,8,7,False
+D2,2324,2024-05-12,Karlsruhe,Hannover,8,7,False
+D2,2324,2024-05-12,St Pauli,Osnabruck,9,5,False
+D2,2324,2024-05-19,Hannover,Holstein Kiel,7,8,False
+D2,2324,2024-05-19,Hansa Rostock,Paderborn,8,9,False
+D2,2324,2024-05-19,Kaiserslautern,Braunschweig,8,7,False
+D2,2324,2024-05-19,Osnabruck,Hertha,7,8,False
+D2,2324,2024-05-19,Wehen,St Pauli,7,7,False
+D2,2324,2024-05-19,Hamburg,Nurnberg,9,8,False
+D2,2324,2024-05-19,Greuther Furth,Schalke 04,9,8,False
+D2,2324,2024-05-19,Fortuna Dusseldorf,Magdeburg,8,9,False
+D2,2324,2024-05-19,Elversberg,Karlsruhe,8,7,False

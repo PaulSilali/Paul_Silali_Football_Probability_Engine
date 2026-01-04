@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { 
   Activity, 
   Database, 
@@ -9,11 +10,16 @@ import {
   Target,
   Percent,
   Zap,
-  ArrowUpRight
+  ArrowUpRight,
+  Loader2
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { ModernCard } from '@/components/ui/modern-card';
+import { MetricCard } from '@/components/ui/metric-card';
+import { PageLayout } from '@/components/layouts/PageLayout';
 import {
   LineChart,
   Line,
@@ -23,47 +29,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-
-// Mock system health data
-const systemHealth = {
-  modelVersion: 'v2.4.1',
-  modelStatus: 'stable' as const,
-  lastRetrain: '2024-12-27T10:00:00Z',
-  calibrationScore: 0.142,
-  logLoss: 0.891,
-  totalMatches: 45672,
-  avgWeeklyAccuracy: 67.3,
-  drawAccuracy: 58.2,
-};
-
-const dataFreshness = [
-  { source: 'Match Results', lastUpdated: '2024-12-27T10:05:32Z', status: 'fresh', recordCount: 45672 },
-  { source: 'Team Ratings', lastUpdated: '2024-12-27T08:12:45Z', status: 'fresh', recordCount: 2340 },
-  { source: 'Market Odds', lastUpdated: '2024-12-26T22:00:00Z', status: 'stale', recordCount: 128945 },
-  { source: 'League Metadata', lastUpdated: '2024-12-20T14:30:00Z', status: 'warning', recordCount: 156 },
-];
-
-const calibrationTrend = [
-  { week: 'W48', brier: 0.168 },
-  { week: 'W49', brier: 0.155 },
-  { week: 'W50', brier: 0.149 },
-  { week: 'W51', brier: 0.144 },
-  { week: 'W52', brier: 0.142 },
-];
-
-const outcomeDistribution = [
-  { name: 'Home', predicted: 42.3, actual: 41.8, color: 'hsl(var(--chart-1))' },
-  { name: 'Draw', predicted: 27.5, actual: 28.1, color: 'hsl(var(--chart-2))' },
-  { name: 'Away', predicted: 30.2, actual: 30.1, color: 'hsl(var(--chart-3))' },
-];
-
-const leaguePerformance = [
-  { league: 'Premier League', accuracy: 71.2, matches: 380, status: 'excellent' },
-  { league: 'La Liga', accuracy: 68.5, matches: 380, status: 'good' },
-  { league: 'Bundesliga', accuracy: 65.8, matches: 306, status: 'good' },
-  { league: 'Serie A', accuracy: 64.2, matches: 380, status: 'fair' },
-  { league: 'Ligue 1', accuracy: 62.1, matches: 380, status: 'fair' },
-];
+import apiClient from '@/services/api';
+import { useToast } from '@/hooks/use-toast';
 
 function formatDate(dateString: string) {
   return new Date(dateString).toLocaleDateString('en-US', {
@@ -104,134 +71,207 @@ function getStatusBadge(status: string) {
 }
 
 export default function Dashboard() {
-  return (
-    <div className="p-6 space-y-6">
-      {/* Header */}
-      <div className="flex items-center justify-between animate-fade-in">
-        <div className="flex items-center gap-3">
-          <div className="p-2 rounded-lg bg-primary/10 glow-primary">
-            <Zap className="h-5 w-5 text-primary" />
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold gradient-text">Dashboard</h1>
-            <p className="text-sm text-muted-foreground">
-              System health overview and model performance metrics
-            </p>
-          </div>
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [systemHealth, setSystemHealth] = useState({
+    modelVersion: 'Loading...',
+    modelStatus: 'unknown' as const,
+    lastRetrain: null as string | null,
+    calibrationScore: null as number | null,
+    logLoss: null as number | null,
+    totalMatches: 0,
+    avgWeeklyAccuracy: null as number | null,
+    drawAccuracy: null as number | null,
+    leagueCount: 0,
+    seasonCount: 0,
+  });
+  const [dataFreshness, setDataFreshness] = useState<Array<{
+    source: string;
+    lastUpdated: string | null;
+    status: string;
+    recordCount: number;
+  }>>([]);
+  const [calibrationTrend, setCalibrationTrend] = useState<Array<{
+    week: string;
+    brier: number;
+  }>>([]);
+  const [outcomeDistribution, setOutcomeDistribution] = useState<Array<{
+    name: string;
+    predicted: number;
+    actual: number;
+  }>>([]);
+  const [leaguePerformance, setLeaguePerformance] = useState<Array<{
+    league: string;
+    accuracy: number;
+    matches: number;
+    status: string;
+  }>>([]);
+
+  useEffect(() => {
+    const fetchDashboardData = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await apiClient.getDashboardSummary();
+        
+        if (response.success && response.data) {
+          setSystemHealth(response.data.systemHealth);
+          setDataFreshness(response.data.dataFreshness);
+          setCalibrationTrend(response.data.calibrationTrend);
+          setOutcomeDistribution(response.data.outcomeDistribution);
+          setLeaguePerformance(response.data.leaguePerformance);
+        } else {
+          throw new Error('Failed to load dashboard data');
+        }
+      } catch (err: any) {
+        console.error('Error fetching dashboard data:', err);
+        setError(err.message || 'Failed to load dashboard data');
+        toast({
+          title: 'Error',
+          description: 'Failed to load dashboard data. Using fallback values.',
+          variant: 'destructive',
+        });
+        // Set fallback values (no fake data)
+        setSystemHealth({
+          modelVersion: 'No model',
+          modelStatus: 'no_model',
+          lastRetrain: null,
+          calibrationScore: null,
+          logLoss: null,
+          totalMatches: 0,
+          avgWeeklyAccuracy: null,
+          drawAccuracy: null,
+          leagueCount: 0,
+          seasonCount: 0,
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDashboardData();
+  }, [toast]);
+
+  if (loading) {
+    return (
+      <div className="p-6 flex items-center justify-center min-h-[400px]">
+        <div className="flex flex-col items-center gap-4">
+          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+          <p className="text-muted-foreground">Loading dashboard data...</p>
         </div>
       </div>
+    );
+  }
+
+  return (
+    <PageLayout
+      title="Dashboard"
+      description="Real-time system health overview and model performance metrics"
+      icon={<Zap className="h-6 w-6" />}
+    >
+
+      {/* Error Alert */}
+      {error && (
+        <Alert variant="destructive" className="animate-fade-in">
+          <AlertTriangle className="h-4 w-4" />
+          <AlertDescription>{error}</AlertDescription>
+        </Alert>
+      )}
 
       {/* Key Metrics Row */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {[
-          {
-            icon: Database,
-            label: 'Model Version',
-            value: systemHealth.modelVersion,
-            badge: getStatusBadge(systemHealth.modelStatus),
-            sub: `Last retrain: ${formatDate(systemHealth.lastRetrain)}`,
-            delay: '0s'
-          },
-          {
-            icon: Target,
-            label: 'Brier Score',
-            value: systemHealth.calibrationScore.toFixed(3),
-            badge: <Badge className="bg-status-stable/10 text-status-stable border-status-stable/20">
-              <TrendingUp className="h-3 w-3 mr-1" />-2.1%
-            </Badge>,
-            sub: 'Lower is better (perfect = 0)',
-            delay: '0.1s'
-          },
-          {
-            icon: Percent,
-            label: 'Weekly Accuracy',
-            value: `${systemHealth.avgWeeklyAccuracy}%`,
-            badge: <Badge variant="outline">Rolling 8w</Badge>,
-            sub: `Draw accuracy: ${systemHealth.drawAccuracy}%`,
-            delay: '0.2s'
-          },
-          {
-            icon: BarChart3,
-            label: 'Training Data',
-            value: systemHealth.totalMatches.toLocaleString(),
-            badge: <Badge variant="outline">matches</Badge>,
-            sub: 'Across 12 leagues, 8 seasons',
-            delay: '0.3s'
-          },
-        ].map((metric) => (
-          <Card 
-            key={metric.label} 
-            className="glass-card group hover:border-primary/30 transition-all duration-300 animate-fade-in-up"
-            style={{ animationDelay: metric.delay }}
-          >
-            <CardHeader className="pb-2">
-              <CardDescription className="flex items-center gap-2">
-                <metric.icon className="h-4 w-4 text-primary" />
-                {metric.label}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold tabular-nums group-hover:text-primary transition-colors">{metric.value}</span>
-                {metric.badge}
-              </div>
-              <p className="text-xs text-muted-foreground mt-1">{metric.sub}</p>
-            </CardContent>
-          </Card>
-        ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <MetricCard
+          title="Model Version"
+          value={systemHealth.modelVersion}
+          icon={<Database className="h-5 w-5" />}
+          description={systemHealth.lastRetrain ? `Last retrain: ${formatDate(systemHealth.lastRetrain)}` : 'No training data'}
+          variant="primary"
+        />
+        <MetricCard
+          title="Brier Score"
+          value={systemHealth.calibrationScore !== null && systemHealth.calibrationScore !== undefined 
+            ? systemHealth.calibrationScore.toFixed(3) 
+            : 'N/A'}
+          change={systemHealth.calibrationScore !== null ? -2.1 : undefined}
+          trend={systemHealth.calibrationScore !== null ? 'up' : undefined}
+          icon={<Target className="h-5 w-5" />}
+          description={systemHealth.calibrationScore !== null 
+            ? 'Lower is better (perfect = 0)' 
+            : 'No model trained yet'}
+          variant="success"
+        />
+        <MetricCard
+          title="Weekly Accuracy"
+          value={systemHealth.avgWeeklyAccuracy !== null ? `${systemHealth.avgWeeklyAccuracy}%` : 'N/A'}
+          icon={<Percent className="h-5 w-5" />}
+          description={systemHealth.drawAccuracy !== null 
+            ? `Draw accuracy: ${systemHealth.drawAccuracy}%` 
+            : 'Rolling 8-week average'}
+          variant="accent"
+        />
+        <MetricCard
+          title="Training Data"
+          value={systemHealth.totalMatches.toLocaleString()}
+          icon={<BarChart3 className="h-5 w-5" />}
+          description={`Across ${systemHealth.leagueCount} leagues, ${systemHealth.seasonCount} seasons`}
+          variant="default"
+        />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Calibration Trend */}
-        <Card className="glass-card animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              <TrendingUp className="h-5 w-5 text-primary" />
-              Calibration Trend
-            </CardTitle>
-            <CardDescription>Brier score over last 5 weeks (lower is better)</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="h-[200px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={calibrationTrend}>
-                  <CartesianGrid strokeDasharray="3 3" className="stroke-border/50" />
-                  <XAxis dataKey="week" className="text-xs" tick={{ fill: 'hsl(var(--muted-foreground))' }} />
-                  <YAxis domain={[0.1, 0.2]} className="text-xs" tick={{ fill: 'hsl(var(--muted-foreground))' }} />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'hsl(var(--card))', 
-                      border: '1px solid hsl(var(--border))',
-                      borderRadius: '12px',
-                      boxShadow: '0 4px 30px hsl(var(--primary) / 0.1)'
-                    }}
-                  />
-                  <Line 
-                    type="monotone" 
-                    dataKey="brier" 
-                    stroke="hsl(var(--primary))" 
-                    strokeWidth={3}
-                    dot={{ fill: 'hsl(var(--primary))', strokeWidth: 2, r: 4 }}
-                    activeDot={{ r: 6, className: 'glow-primary' }}
-                  />
-                </LineChart>
-              </ResponsiveContainer>
-            </div>
-          </CardContent>
-        </Card>
+        <ModernCard
+          title="Calibration Trend"
+          description="Brier score over last 5 weeks (lower is better)"
+          icon={<TrendingUp className="h-5 w-5" />}
+          variant="elevated"
+        >
+            {calibrationTrend.length > 0 ? (
+              <div className="h-[200px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={calibrationTrend}>
+                    <CartesianGrid strokeDasharray="3 3" className="stroke-border/50" />
+                    <XAxis dataKey="week" className="text-xs" tick={{ fill: 'hsl(var(--muted-foreground))' }} />
+                    <YAxis domain={[0.1, 0.2]} className="text-xs" tick={{ fill: 'hsl(var(--muted-foreground))' }} />
+                    <Tooltip 
+                      contentStyle={{ 
+                        backgroundColor: 'hsl(var(--card))', 
+                        border: '1px solid hsl(var(--border))',
+                        borderRadius: '12px',
+                        boxShadow: '0 4px 30px hsl(var(--primary) / 0.1)'
+                      }}
+                    />
+                    <Line 
+                      type="monotone" 
+                      dataKey="brier" 
+                      stroke="hsl(var(--primary))" 
+                      strokeWidth={3}
+                      dot={{ fill: 'hsl(var(--primary))', strokeWidth: 2, r: 4 }}
+                      activeDot={{ r: 6, className: 'glow-primary' }}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            ) : (
+              <div className="h-[200px] flex items-center justify-center text-muted-foreground">
+                <div className="text-center">
+                  <p>No calibration trend data available</p>
+                  <p className="text-xs mt-2">Train models to see calibration trend</p>
+                </div>
+              </div>
+            )}
+        </ModernCard>
 
         {/* Outcome Distribution */}
-        <Card className="glass-card animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              <BarChart3 className="h-5 w-5 text-accent" />
-              Outcome Distribution
-            </CardTitle>
-            <CardDescription>Predicted vs Actual (Market vs Model)</CardDescription>
-          </CardHeader>
-          <CardContent>
+        <ModernCard
+          title="Outcome Distribution"
+          description="Predicted vs Actual (Market vs Model)"
+          icon={<BarChart3 className="h-5 w-5" />}
+          variant="elevated"
+        >
             <div className="space-y-4">
-              {outcomeDistribution.map((item, index) => (
+              {outcomeDistribution.length > 0 ? outcomeDistribution.map((item, index) => (
                 <div key={item.name} className="space-y-2 animate-fade-in" style={{ animationDelay: `${0.1 * index}s` }}>
                   <div className="flex items-center justify-between text-sm">
                     <span className="font-medium">{item.name}</span>
@@ -255,25 +295,26 @@ export default function Dashboard() {
                     />
                   </div>
                 </div>
-              ))}
+              )) : (
+                <div className="text-center py-8 text-muted-foreground">
+                  <p>No outcome distribution data available</p>
+                  <p className="text-xs mt-2">Complete some jackpots with actual results to see distribution</p>
+                </div>
+              )}
             </div>
-          </CardContent>
-        </Card>
+        </ModernCard>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Data Freshness */}
-        <Card className="glass-card animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              <Clock className="h-5 w-5 text-chart-4" />
-              Data Freshness
-            </CardTitle>
-            <CardDescription>Status of ingested data sources</CardDescription>
-          </CardHeader>
-          <CardContent>
+        <ModernCard
+          title="Data Freshness"
+          description="Status of ingested data sources"
+          icon={<Clock className="h-5 w-5" />}
+          variant="elevated"
+        >
             <div className="space-y-3">
-              {dataFreshness.map((source, index) => (
+              {dataFreshness.length > 0 ? dataFreshness.map((source, index) => (
                 <div 
                   key={source.source} 
                   className="flex items-center justify-between py-3 border-b border-border/50 last:border-0 animate-fade-in"
@@ -297,23 +338,23 @@ export default function Dashboard() {
                     {getStatusBadge(source.status)}
                   </div>
                 </div>
-              ))}
+              )) : (
+                <div className="text-center py-8 text-muted-foreground">
+                  <p>No data sources configured</p>
+                </div>
+              )}
             </div>
-          </CardContent>
-        </Card>
+        </ModernCard>
 
         {/* League Performance */}
-        <Card className="glass-card animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              <Activity className="h-5 w-5 text-chart-5" />
-              League Performance
-            </CardTitle>
-            <CardDescription>Model accuracy by competition</CardDescription>
-          </CardHeader>
-          <CardContent>
+        <ModernCard
+          title="League Performance"
+          description="Model accuracy by competition"
+          icon={<Activity className="h-5 w-5" />}
+          variant="elevated"
+        >
             <div className="space-y-3">
-              {leaguePerformance.map((league, index) => (
+              {leaguePerformance.length > 0 ? leaguePerformance.map((league, index) => (
                 <div key={league.league} className="space-y-2 animate-fade-in" style={{ animationDelay: `${0.1 * index}s` }}>
                   <div className="flex items-center justify-between text-sm">
                     <span className="font-medium">{league.league}</span>
@@ -329,15 +370,21 @@ export default function Dashboard() {
                     </span>
                   </div>
                 </div>
-              ))}
+              )) : (
+                <div className="text-center py-8 text-muted-foreground">
+                  <p>No league performance data available</p>
+                  <p className="text-xs mt-2">Run validation on completed jackpots to see league performance</p>
+                </div>
+              )}
             </div>
-          </CardContent>
-        </Card>
+        </ModernCard>
       </div>
 
       {/* Quick Actions */}
-      <Card className="glass-card-elevated border-primary/10 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-        <CardContent className="pt-6">
+      <ModernCard
+        variant="glow"
+        className="border-primary/20"
+      >
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-2 px-3 py-2 glass-card rounded-lg">
               <CheckCircle className="h-4 w-4 text-status-stable" />
@@ -352,8 +399,7 @@ export default function Dashboard() {
               <span>1 data source needs refresh</span>
             </div>
           </div>
-        </CardContent>
-      </Card>
-    </div>
+      </ModernCard>
+    </PageLayout>
   );
 }

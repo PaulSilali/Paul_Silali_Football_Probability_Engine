@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+T1,2122,2021-08-13,Besiktas,Rizespor,90,90,False
+T1,2122,2021-08-14,Antalyaspor,Kasimpasa,91,91,False
+T1,2122,2021-08-14,Altay,Kocaelispor,7,91,False
+T1,2122,2021-08-14,Karagumruk,Gaziantep,91,91,False
+T1,2122,2021-08-15,Ad. Demirspor,Fenerbahce,7,92,False
+T1,2122,2021-08-15,Antalyaspor,Goztep,1,92,False
+T1,2122,2021-08-15,Buyuksehyr,Antalyaspor,92,1,False
+T1,2122,2021-08-16,Yeni Malatyaspor,Trabzonspor,93,93,False
+T1,2122,2021-08-16,Samsunspor,Antalyaspor,93,1,False
+T1,2122,2021-08-16,Giresunspor,Galatasaray,7,93,False
+T1,2122,2021-08-20,Kocaelispor,Ad. Demirspor,6,5,False
+T1,2122,2021-08-21,Antalyaspor,Altay,5,7,False
+T1,2122,2021-08-21,Gaziantep,Besiktas,7,8,False
+T1,2122,2021-08-21,Rizespor,Karagumruk,8,7,False
+T1,2122,2021-08-21,Kasimpasa,Giresunspor,7,5,False
+T1,2122,2021-08-22,Antalyaspor,Buyuksehyr,1,7,False
+T1,2122,2021-08-22,Fenerbahce,Antalyaspor,7,1,False
+T1,2122,2021-08-22,Goztep,Yeni Malatyaspor,7,6,False
+T1,2122,2021-08-23,Galatasaray,Antalyaspor,7,1,False
+T1,2122,2021-08-23,Trabzonspor,Samsunspor,7,7,False
+T1,2122,2021-08-27,Antalyaspor,Rizespor,4,6,False
+T1,2122,2021-08-27,Ad. Demirspor,Antalyaspor,7,4,False
+T1,2122,2021-08-28,Antalyaspor,Antalyaspor,1,1,False
+T1,2122,2021-08-28,Buyuksehyr,Kocaelispor,6,8,False
+T1,2122,2021-08-28,Yeni Malatyaspor,Gaziantep,6,7,False
+T1,2122,2021-08-28,Besiktas,Karagumruk,7,7,False
+T1,2122,2021-08-29,Altay,Fenerbahce,8,7,False
+T1,2122,2021-08-29,Giresunspor,Trabzonspor,8,6,False
+T1,2122,2021-08-29,Samsunspor,Goztep,6,7,False
+T1,2122,2021-08-29,Kasimpasa,Galatasaray,8,6,False
+T1,2122,2021-09-11,Besiktas,Yeni Malatyaspor,14,14,False
+T1,2122,2021-09-11,Kocaelispor,Kasimpasa,14,13,False
+T1,2122,2021-09-11,Karagumruk,Ad. Demirspor,14,15,False
+T1,2122,2021-09-11,Antalyaspor,Altay,14,13,False
+T1,2122,2021-09-12,Goztep,Buyuksehyr,14,15,False
+T1,2122,2021-09-12,Trabzonspor,Galatasaray,14,14,False
+T1,2122,2021-09-12,Fenerbahce,Samsunspor,14,14,False
+T1,2122,2021-09-12,Rizespor,Antalyaspor,16,1,False
+T1,2122,2021-09-13,Gaziantep,Antalyaspor,16,1,False
+T1,2122,2021-09-13,Antalyaspor,Giresunspor,1,15,False
+T1,2122,2021-09-17,Altay,Goztep,6,5,False
+T1,2122,2021-09-17,Yeni Malatyaspor,Karagumruk,6,6,False
+T1,2122,2021-09-18,Ad. Demirspor,Rizespor,7,6,False
+T1,2122,2021-09-18,Antalyaspor,Besiktas,5,7,False
+T1,2122,2021-09-18,Kasimpasa,Trabzonspor,7,6,False
+T1,2122,2021-09-18,Samsunspor,Gaziantep,6,5,False
+T1,2122,2021-09-19,Antalyaspor,Kocaelispor,1,8,False
+T1,2122,2021-09-19,Giresunspor,Antalyaspor,6,1,False
+T1,2122,2021-09-19,Galatasaray,Antalyaspor,7,1,False
+T1,2122,2021-09-19,Buyuksehyr,Fenerbahce,7,7,False
+T1,2122,2021-09-21,Karagumruk,Antalyaspor,4,2,True
+T1,2122,2021-09-21,Besiktas,Ad. Demirspor,3,3,True
+T1,2122,2021-09-21,Yeni Malatyaspor,Samsunspor,4,3,True
+T1,2122,2021-09-21,Rizespor,Altay,3,4,True
+T1,2122,2021-09-22,Gaziantep,Buyuksehyr,4,3,True
+T1,2122,2021-09-22,Goztep,Antalyaspor,5,1,True
+T1,2122,2021-09-22,Kocaelispor,Galatasaray,3,3,True
+T1,2122,2021-09-23,Fenerbahce,Giresunspor,4,4,True
+T1,2122,2021-09-23,Antalyaspor,Kasimpasa,1,5,True
+T1,2122,2021-09-23,Antalyaspor,Trabzonspor,1,5,True
+T1,2122,2021-09-24,Altay,Besiktas,3,3,False
+T1,2122,2021-09-25,Ad. Demirspor,Gaziantep,4,3,False
+T1,2122,2021-09-25,Antalyaspor,Yeni Malatyaspor,2,4,False
+T1,2122,2021-09-25,Samsunspor,Karagumruk,4,4,False
+T1,2122,2021-09-26,Antalyaspor,Fenerbahce,1,3,False
+T1,2122,2021-09-26,Galatasaray,Goztep,4,4,False
+T1,2122,2021-09-26,Giresunspor,Kocaelispor,3,4,False
+T1,2122,2021-09-26,Buyuksehyr,Rizespor,4,5,False
+T1,2122,2021-09-27,Kasimpasa,Antalyaspor,4,1,False
+T1,2122,2021-09-27,Trabzonspor,Antalyaspor,4,1,False
+T1,2122,2021-10-01,Antalyaspor,Ad. Demirspor,4,6,False
+T1,2122,2021-10-01,Karagumruk,Buyuksehyr,6,5,False
+T1,2122,2021-10-02,Kocaelispor,Trabzonspor,6,5,False
+T1,2122,2021-10-02,Antalyaspor,Antalyaspor,1,1,False
+T1,2122,2021-10-02,Goztep,Giresunspor,6,6,False
+T1,2122,2021-10-02,Besiktas,Samsunspor,8,7,False
+T1,2122,2021-10-03,Gaziantep,Altay,8,9,False
+T1,2122,2021-10-03,Rizespor,Galatasaray,7,7,False
+T1,2122,2021-10-03,Fenerbahce,Kasimpasa,7,6,False
+T1,2122,2021-10-03,Yeni Malatyaspor,Antalyaspor,8,1,False
+T1,2122,2021-10-15,Buyuksehyr,Besiktas,14,13,False
+T1,2122,2021-10-16,Ad. Demirspor,Yeni Malatyaspor,15,13,False
+T1,2122,2021-10-16,Samsunspor,Antalyaspor,14,13,False
+T1,2122,2021-10-16,Giresunspor,Rizespor,14,13,False
+T1,2122,2021-10-17,Galatasaray,Antalyaspor,14,1,False
+T1,2122,2021-10-17,Trabzonspor,Fenerbahce,15,14,False
+T1,2122,2021-10-17,Kasimpasa,Goztep,14,15,False
+T1,2122,2021-10-17,Altay,Karagumruk,14,16,False
+T1,2122,2021-10-18,Antalyaspor,Kocaelispor,1,16,False
+T1,2122,2021-10-18,Antalyaspor,Gaziantep,1,15,False
+T1,2122,2021-10-22,Yeni Malatyaspor,Altay,6,5,False
+T1,2122,2021-10-23,Goztep,Trabzonspor,6,6,False
+T1,2122,2021-10-23,Antalyaspor,Kocaelispor,5,5,False
+T1,2122,2021-10-23,Rizespor,Kasimpasa,7,6,False
+T1,2122,2021-10-23,Gaziantep,Giresunspor,5,7,False
+T1,2122,2021-10-24,Samsunspor,Ad. Demirspor,8,8,False
+T1,2122,2021-10-24,Karagumruk,Antalyaspor,7,1,False
+T1,2122,2021-10-24,Antalyaspor,Buyuksehyr,1,9,False
+T1,2122,2021-10-24,Fenerbahce,Antalyaspor,7,1,False
+T1,2122,2021-10-25,Besiktas,Galatasaray,10,8,False
+T1,2122,2021-10-29,Trabzonspor,Rizespor,6,6,False
+T1,2122,2021-10-30,Antalyaspor,Besiktas,6,5,False
+T1,2122,2021-10-30,Altay,Samsunspor,8,6,False
+T1,2122,2021-10-30,Kasimpasa,Yeni Malatyaspor,7,8,False
+T1,2122,2021-10-30,Antalyaspor,Fenerbahce,6,6,False
+T1,2122,2021-10-31,Galatasaray,Gaziantep,6,8,False
+T1,2122,2021-10-31,Kocaelispor,Karagumruk,8,7,False
+T1,2122,2021-10-31,Antalyaspor,Goztep,1,8,False
+T1,2122,2021-11-01,Giresunspor,Antalyaspor,9,1,False
+T1,2122,2021-11-01,Buyuksehyr,Ad. Demirspor,8,8,False
+T1,2122,2021-11-05,Gaziantep,Kasimpasa,5,6,False
+T1,2122,2021-11-05,Rizespor,Antalyaspor,7,4,False
+T1,2122,2021-11-06,Yeni Malatyaspor,Buyuksehyr,7,5,False
+T1,2122,2021-11-06,Besiktas,Trabzonspor,7,8,False
+T1,2122,2021-11-06,Antalyaspor,Altay,1,7,False
+T1,2122,2021-11-06,Samsunspor,Giresunspor,7,5,False
+T1,2122,2021-11-07,Karagumruk,Galatasaray,7,7,False
+T1,2122,2021-11-07,Fenerbahce,Kocaelispor,8,7,False
+T1,2122,2021-11-07,Goztep,Antalyaspor,7,1,False
+T1,2122,2021-11-07,Ad. Demirspor,Antalyaspor,6,1,False
+T1,2122,2021-11-20,Antalyaspor,Besiktas,13,14,False
+T1,2122,2021-11-20,Antalyaspor,Antalyaspor,13,13,False
+T1,2122,2021-11-20,Buyuksehyr,Samsunspor,14,14,False
+T1,2122,2021-11-20,Giresunspor,Yeni Malatyaspor,14,14,False
+T1,2122,2021-11-21,Antalyaspor,Rizespor,1,16,False
+T1,2122,2021-11-21,Galatasaray,Fenerbahce,14,14,False
+T1,2122,2021-11-21,Altay,Ad. Demirspor,15,14,False
+T1,2122,2021-11-21,Kasimpasa,Karagumruk,16,14,False
+T1,2122,2021-11-22,Trabzonspor,Gaziantep,16,17,False
+T1,2122,2021-11-22,Kocaelispor,Goztep,15,15,False
+T1,2122,2021-11-26,Ad. Demirspor,Kasimpasa,5,5,False
+T1,2122,2021-11-26,Buyuksehyr,Altay,6,5,False
+T1,2122,2021-11-27,Besiktas,Giresunspor,7,7,False
+T1,2122,2021-11-27,Rizespor,Kocaelispor,6,5,False
+T1,2122,2021-11-27,Antalyaspor,Antalyaspor,6,6,False
+T1,2122,2021-11-28,Samsunspor,Antalyaspor,8,1,False
+T1,2122,2021-11-28,Yeni Malatyaspor,Galatasaray,8,7,False
+T1,2122,2021-11-28,Gaziantep,Antalyaspor,6,1,False
+T1,2122,2021-11-28,Karagumruk,Trabzonspor,7,6,False
+T1,2122,2021-11-29,Goztep,Fenerbahce,7,8,False
+T1,2122,2021-12-03,Kasimpasa,Besiktas,7,6,False
+T1,2122,2021-12-04,Antalyaspor,Samsunspor,6,6,False
+T1,2122,2021-12-04,Trabzonspor,Ad. Demirspor,6,8,False
+T1,2122,2021-12-04,Galatasaray,Altay,6,8,False
+T1,2122,2021-12-05,Fenerbahce,Rizespor,6,8,False
+T1,2122,2021-12-05,Kocaelispor,Antalyaspor,8,1,False
+T1,2122,2021-12-05,Giresunspor,Karagumruk,8,7,False
+T1,2122,2021-12-05,Antalyaspor,Buyuksehyr,1,9,False
+T1,2122,2021-12-06,Antalyaspor,Yeni Malatyaspor,1,8,False
+T1,2122,2021-12-06,Goztep,Gaziantep,7,8,False
+T1,2122,2021-12-10,Altay,Antalyaspor,6,4,False
+T1,2122,2021-12-11,Buyuksehyr,Kasimpasa,6,8,False
+T1,2122,2021-12-11,Rizespor,Goztep,6,5,False
+T1,2122,2021-12-11,Antalyaspor,Trabzonspor,1,7,False
+T1,2122,2021-12-11,Karagumruk,Antalyaspor,6,1,False
+T1,2122,2021-12-12,Besiktas,Kocaelispor,9,7,False
+T1,2122,2021-12-12,Ad. Demirspor,Giresunspor,8,7,False
+T1,2122,2021-12-12,Yeni Malatyaspor,Antalyaspor,6,1,False
+T1,2122,2021-12-13,Samsunspor,Galatasaray,9,9,False
+T1,2122,2021-12-13,Gaziantep,Fenerbahce,7,8,False
+T1,2122,2021-12-17,Giresunspor,Altay,5,7,False
+T1,2122,2021-12-18,Trabzonspor,Antalyaspor,7,6,False
+T1,2122,2021-12-18,Antalyaspor,Ad. Demirspor,6,6,False
+T1,2122,2021-12-18,Galatasaray,Buyuksehyr,5,7,False
+T1,2122,2021-12-18,Antalyaspor,Antalyaspor,6,6,False
+T1,2122,2021-12-18,Kasimpasa,Samsunspor,7,5,False
+T1,2122,2021-12-19,Kocaelispor,Gaziantep,7,6,False
+T1,2122,2021-12-19,Fenerbahce,Besiktas,6,7,False
+T1,2122,2021-12-19,Rizespor,Yeni Malatyaspor,8,7,False
+T1,2122,2021-12-19,Goztep,Karagumruk,8,8,False
+T1,2122,2021-12-21,Buyuksehyr,Giresunspor,3,4,True
+T1,2122,2021-12-21,Antalyaspor,Kasimpasa,3,3,True
+T1,2122,2021-12-21,Ad. Demirspor,Galatasaray,3,3,True
+T1,2122,2021-12-21,Altay,Trabzonspor,4,3,True
+T1,2122,2021-12-22,Gaziantep,Antalyaspor,3,1,True
+T1,2122,2021-12-22,Karagumruk,Fenerbahce,3,3,True
+T1,2122,2021-12-22,Samsunspor,Rizespor,4,3,True
+T1,2122,2021-12-22,Antalyaspor,Antalyaspor,1,1,True
+T1,2122,2021-12-23,Besiktas,Goztep,4,4,True
+T1,2122,2021-12-23,Yeni Malatyaspor,Kocaelispor,4,4,True
+T1,2122,2021-12-25,Giresunspor,Antalyaspor,4,3,False
+T1,2122,2021-12-25,Trabzonspor,Buyuksehyr,4,4,False
+T1,2122,2021-12-25,Kasimpasa,Altay,4,4,False
+T1,2122,2021-12-25,Galatasaray,Antalyaspor,4,3,False
+T1,2122,2021-12-26,Rizespor,Gaziantep,4,4,False
+T1,2122,2021-12-26,Antalyaspor,Karagumruk,1,4,False
+T1,2122,2021-12-26,Fenerbahce,Yeni Malatyaspor,4,3,False
+T1,2122,2021-12-26,Goztep,Ad. Demirspor,3,5,False
+T1,2122,2021-12-27,Antalyaspor,Besiktas,1,4,False
+T1,2122,2021-12-27,Kocaelispor,Samsunspor,4,5,False
+T1,2122,2022-01-07,Trabzonspor,Yeni Malatyaspor,13,12,False
+T1,2122,2022-01-08,Antalyaspor,Buyuksehyr,12,14,False
+T1,2122,2022-01-08,Gaziantep,Karagumruk,13,13,False
+T1,2122,2022-01-08,Kasimpasa,Antalyaspor,14,12,False
+T1,2122,2022-01-08,Galatasaray,Giresunspor,14,14,False
+T1,2122,2022-01-09,Goztep,Antalyaspor,14,1,False
+T1,2122,2022-01-09,Rizespor,Besiktas,14,13,False
+T1,2122,2022-01-09,Kocaelispor,Altay,13,15,False
+T1,2122,2022-01-09,Antalyaspor,Samsunspor,1,13,False
+T1,2122,2022-01-10,Fenerbahce,Ad. Demirspor,15,15,False
+T1,2122,2022-01-14,Yeni Malatyaspor,Goztep,7,5,False
+T1,2122,2022-01-14,Besiktas,Gaziantep,5,6,False
+T1,2122,2022-01-15,Samsunspor,Trabzonspor,6,8,False
+T1,2122,2022-01-15,Antalyaspor,Fenerbahce,6,5,False
+T1,2122,2022-01-15,Ad. Demirspor,Kocaelispor,5,6,False
+T1,2122,2022-01-15,Karagumruk,Rizespor,7,6,False
+T1,2122,2022-01-16,Antalyaspor,Galatasaray,1,8,False
+T1,2122,2022-01-16,Giresunspor,Kasimpasa,8,8,False
+T1,2122,2022-01-16,Altay,Antalyaspor,7,1,False
+T1,2122,2022-01-18,Antalyaspor,Ad. Demirspor,2,3,True
+T1,2122,2022-01-18,Karagumruk,Besiktas,3,4,True
+T1,2122,2022-01-19,Fenerbahce,Altay,4,3,True
+T1,2122,2022-01-19,Trabzonspor,Giresunspor,4,3,True
+T1,2122,2022-01-19,Goztep,Samsunspor,5,4,True
+T1,2122,2022-01-19,Kocaelispor,Buyuksehyr,4,11,True
+T1,2122,2022-01-20,Galatasaray,Kasimpasa,4,4,True
+T1,2122,2022-01-20,Rizespor,Antalyaspor,5,2,True
+T1,2122,2022-01-20,Antalyaspor,Antalyaspor,2,2,True
+T1,2122,2022-01-22,Samsunspor,Fenerbahce,3,3,False
+T1,2122,2022-01-22,Yeni Malatyaspor,Besiktas,8,4,False
+T1,2122,2022-01-22,Ad. Demirspor,Karagumruk,4,4,False
+T1,2122,2022-01-22,Buyuksehyr,Goztep,3,3,False
+T1,2122,2022-01-23,Altay,Antalyaspor,4,3,False
+T1,2122,2022-01-23,Antalyaspor,Gaziantep,3,9,False
+T1,2122,2022-01-23,Giresunspor,Antalyaspor,4,3,False
+T1,2122,2022-01-23,Galatasaray,Trabzonspor,3,4,False
+T1,2122,2022-01-23,Kasimpasa,Kocaelispor,3,4,False
+T1,2122,2022-01-23,Antalyaspor,Rizespor,3,3,False
+T1,2122,2022-02-04,Antalyaspor,Giresunspor,12,12,False
+T1,2122,2022-02-04,Kocaelispor,Antalyaspor,12,12,False
+T1,2122,2022-02-05,Trabzonspor,Kasimpasa,13,13,False
+T1,2122,2022-02-05,Fenerbahce,Buyuksehyr,14,14,False
+T1,2122,2022-02-05,Gaziantep,Samsunspor,13,14,False
+T1,2122,2022-02-05,Karagumruk,Yeni Malatyaspor,14,14,False
+T1,2122,2022-02-06,Besiktas,Antalyaspor,15,2,False
+T1,2122,2022-02-06,Goztep,Altay,15,14,False
+T1,2122,2022-02-06,Rizespor,Ad. Demirspor,14,15,False
+T1,2122,2022-02-06,Antalyaspor,Galatasaray,2,14,False
+T1,2122,2022-02-11,Altay,Rizespor,5,5,False
+T1,2122,2022-02-12,Giresunspor,Fenerbahce,8,7,False
+T1,2122,2022-02-12,Galatasaray,Kocaelispor,6,8,False
+T1,2122,2022-02-12,Buyuksehyr,Gaziantep,7,7,False
+T1,2122,2022-02-13,Antalyaspor,Karagumruk,7,8,False
+T1,2122,2022-02-13,Samsunspor,Yeni Malatyaspor,8,8,False
+T1,2122,2022-02-13,Kasimpasa,Antalyaspor,8,7,False
+T1,2122,2022-02-13,Trabzonspor,Antalyaspor,8,7,False
+T1,2122,2022-02-14,Antalyaspor,Goztep,1,8,False
+T1,2122,2022-02-14,Ad. Demirspor,Besiktas,8,8,False
+T1,2122,2022-02-18,Rizespor,Buyuksehyr,7,6,False
+T1,2122,2022-02-18,Antalyaspor,Kasimpasa,4,5,False
+T1,2122,2022-02-19,Kocaelispor,Giresunspor,7,7,False
+T1,2122,2022-02-19,Besiktas,Altay,5,8,False
+T1,2122,2022-02-19,Yeni Malatyaspor,Antalyaspor,6,1,False
+T1,2122,2022-02-20,Karagumruk,Samsunspor,7,7,False
+T1,2122,2022-02-20,Fenerbahce,Antalyaspor,8,1,False
+T1,2122,2022-02-20,Gaziantep,Ad. Demirspor,8,6,False
+T1,2122,2022-02-20,Antalyaspor,Trabzonspor,1,7,False
+T1,2122,2022-02-21,Goztep,Galatasaray,7,9,False
+T1,2122,2022-02-22,Buyuksehyr,Antalyaspor,4,2,True
+T1,2122,2022-02-23,Gaziantep,Yeni Malatyaspor,3,4,True
+T1,2122,2022-02-25,Trabzonspor,Kocaelispor,5,6,False
+T1,2122,2022-02-25,Ad. Demirspor,Antalyaspor,5,3,False
+T1,2122,2022-02-26,Buyuksehyr,Karagumruk,4,6,False
+T1,2122,2022-02-26,Samsunspor,Besiktas,6,7,False
+T1,2122,2022-02-27,Galatasaray,Rizespor,6,9,False
+T1,2122,2022-02-27,Altay,Gaziantep,8,4,False
+T1,2122,2022-02-27,Giresunspor,Goztep,8,6,False
+T1,2122,2022-02-27,Antalyaspor,Antalyaspor,2,2,False
+T1,2122,2022-02-27,Antalyaspor,Yeni Malatyaspor,2,4,False
+T1,2122,2022-02-28,Kasimpasa,Fenerbahce,10,8,False
+T1,2122,2022-03-04,Yeni Malatyaspor,Ad. Demirspor,5,7,False
+T1,2122,2022-03-05,Antalyaspor,Galatasaray,6,6,False
+T1,2122,2022-03-05,Goztep,Kasimpasa,6,5,False
+T1,2122,2022-03-05,Rizespor,Giresunspor,6,6,False
+T1,2122,2022-03-06,Fenerbahce,Trabzonspor,6,9,False
+T1,2122,2022-03-06,Antalyaspor,Samsunspor,1,8,False
+T1,2122,2022-03-06,Karagumruk,Altay,8,7,False
+T1,2122,2022-03-07,Kocaelispor,Antalyaspor,10,1,False
+T1,2122,2022-03-07,Besiktas,Buyuksehyr,9,9,False
+T1,2122,2022-03-07,Gaziantep,Antalyaspor,8,1,False
+T1,2122,2022-03-12,Trabzonspor,Goztep,6,7,False
+T1,2122,2022-03-12,Antalyaspor,Karagumruk,5,6,False
+T1,2122,2022-03-12,Altay,Yeni Malatyaspor,6,8,False
+T1,2122,2022-03-12,Kasimpasa,Rizespor,7,7,False
+T1,2122,2022-03-13,Ad. Demirspor,Samsunspor,9,7,False
+T1,2122,2022-03-13,Kocaelispor,Antalyaspor,6,1,False
+T1,2122,2022-03-13,Antalyaspor,Fenerbahce,1,7,False
+T1,2122,2022-03-14,Giresunspor,Gaziantep,9,7,False
+T1,2122,2022-03-14,Buyuksehyr,Antalyaspor,7,1,False
+T1,2122,2022-03-14,Galatasaray,Besiktas,9,7,False
+T1,2122,2022-03-18,Rizespor,Trabzonspor,6,6,False
+T1,2122,2022-03-18,Karagumruk,Kocaelispor,6,5,False
+T1,2122,2022-03-19,Ad. Demirspor,Buyuksehyr,6,5,False
+T1,2122,2022-03-19,Goztep,Antalyaspor,7,5,False
+T1,2122,2022-03-19,Besiktas,Antalyaspor,5,5,False
+T1,2122,2022-03-19,Yeni Malatyaspor,Kasimpasa,7,7,False
+T1,2122,2022-03-20,Antalyaspor,Giresunspor,1,6,False
+T1,2122,2022-03-20,Samsunspor,Altay,7,8,False
+T1,2122,2022-03-20,Gaziantep,Galatasaray,6,6,False
+T1,2122,2022-03-20,Fenerbahce,Antalyaspor,7,1,False
+T1,2122,2022-04-02,Kocaelispor,Fenerbahce,15,13,False
+T1,2122,2022-04-02,Galatasaray,Karagumruk,13,15,False
+T1,2122,2022-04-02,Altay,Antalyaspor,13,13,False
+T1,2122,2022-04-02,Giresunspor,Samsunspor,13,13,False
+T1,2122,2022-04-03,Antalyaspor,Goztep,1,15,False
+T1,2122,2022-04-03,Trabzonspor,Besiktas,16,15,False
+T1,2122,2022-04-03,Kasimpasa,Gaziantep,15,14,False
+T1,2122,2022-04-03,Antalyaspor,Rizespor,1,16,False
+T1,2122,2022-04-04,Buyuksehyr,Yeni Malatyaspor,16,16,False
+T1,2122,2022-04-04,Antalyaspor,Ad. Demirspor,1,16,False
+T1,2122,2022-04-09,Gaziantep,Trabzonspor,6,6,False
+T1,2122,2022-04-09,Karagumruk,Kasimpasa,7,6,False
+T1,2122,2022-04-09,Goztep,Kocaelispor,6,7,False
+T1,2122,2022-04-09,Rizespor,Antalyaspor,6,5,False
+T1,2122,2022-04-09,Besiktas,Antalyaspor,6,5,False
+T1,2122,2022-04-10,Samsunspor,Buyuksehyr,8,6,False
+T1,2122,2022-04-10,Fenerbahce,Galatasaray,8,8,False
+T1,2122,2022-04-10,Ad. Demirspor,Altay,6,8,False
+T1,2122,2022-04-10,Yeni Malatyaspor,Giresunspor,6,8,False
+T1,2122,2022-04-11,Antalyaspor,Antalyaspor,2,2,False
+T1,2122,2022-04-15,Trabzonspor,Karagumruk,6,6,False
+T1,2122,2022-04-15,Kocaelispor,Rizespor,6,6,False
+T1,2122,2022-04-16,Altay,Buyuksehyr,6,6,False
+T1,2122,2022-04-16,Fenerbahce,Goztep,6,7,False
+T1,2122,2022-04-16,Antalyaspor,Samsunspor,5,6,False
+T1,2122,2022-04-16,Antalyaspor,Antalyaspor,5,5,False
+T1,2122,2022-04-17,Giresunspor,Besiktas,7,8,False
+T1,2122,2022-04-17,Antalyaspor,Gaziantep,1,8,False
+T1,2122,2022-04-17,Kasimpasa,Ad. Demirspor,8,7,False
+T1,2122,2022-04-18,Galatasaray,Yeni Malatyaspor,8,8,False
+T1,2122,2022-04-22,Rizespor,Fenerbahce,7,6,False
+T1,2122,2022-04-23,Gaziantep,Goztep,6,7,False
+T1,2122,2022-04-23,Karagumruk,Giresunspor,8,6,False
+T1,2122,2022-04-23,Ad. Demirspor,Trabzonspor,6,8,False
+T1,2122,2022-04-24,Antalyaspor,Kocaelispor,7,9,False
+T1,2122,2022-04-24,Buyuksehyr,Antalyaspor,8,7,False
+T1,2122,2022-04-24,Yeni Malatyaspor,Antalyaspor,6,7,False
+T1,2122,2022-04-24,Altay,Galatasaray,8,6,False
+T1,2122,2022-04-25,Besiktas,Kasimpasa,8,8,False
+T1,2122,2022-04-25,Samsunspor,Antalyaspor,9,1,False
+T1,2122,2022-04-29,Giresunspor,Ad. Demirspor,6,6,False
+T1,2122,2022-04-29,Fenerbahce,Gaziantep,7,6,False
+T1,2122,2022-04-30,Antalyaspor,Karagumruk,5,7,False
+T1,2122,2022-04-30,Antalyaspor,Altay,5,6,False
+T1,2122,2022-04-30,Trabzonspor,Antalyaspor,7,5,False
+T1,2122,2022-04-30,Kasimpasa,Buyuksehyr,5,6,False
+T1,2122,2022-05-01,Galatasaray,Samsunspor,7,6,False
+T1,2122,2022-05-01,Goztep,Rizespor,8,9,False
+T1,2122,2022-05-01,Antalyaspor,Yeni Malatyaspor,1,7,False
+T1,2122,2022-05-01,Kocaelispor,Besiktas,7,6,False
+T1,2122,2022-05-06,Antalyaspor,Trabzonspor,5,6,False
+T1,2122,2022-05-06,Gaziantep,Kocaelispor,7,5,False
+T1,2122,2022-05-07,Ad. Demirspor,Antalyaspor,8,1,False
+T1,2122,2022-05-07,Buyuksehyr,Galatasaray,7,6,False
+T1,2122,2022-05-07,Karagumruk,Goztep,7,6,False
+T1,2122,2022-05-07,Samsunspor,Kasimpasa,6,7,False
+T1,2122,2022-05-08,Besiktas,Fenerbahce,7,9,False
+T1,2122,2022-05-08,Yeni Malatyaspor,Rizespor,7,7,False
+T1,2122,2022-05-08,Altay,Giresunspor,8,9,False
+T1,2122,2022-05-09,Antalyaspor,Antalyaspor,2,2,False
+T1,2122,2022-05-14,Kocaelispor,Yeni Malatyaspor,8,6,False
+T1,2122,2022-05-15,Kasimpasa,Antalyaspor,8,6,False
+T1,2122,2022-05-15,Goztep,Besiktas,8,7,False
+T1,2122,2022-05-15,Trabzonspor,Altay,9,7,False
+T1,2122,2022-05-15,Antalyaspor,Gaziantep,6,9,False
+T1,2122,2022-05-15,Fenerbahce,Karagumruk,7,8,False
+T1,2122,2022-05-15,Giresunspor,Buyuksehyr,7,8,False
+T1,2122,2022-05-15,Antalyaspor,Antalyaspor,6,6,False
+T1,2122,2022-05-16,Galatasaray,Ad. Demirspor,9,9,False
+T1,2122,2022-05-16,Rizespor,Samsunspor,8,9,False
+T1,2122,2022-05-20,Antalyaspor,Galatasaray,5,4,False
+T1,2122,2022-05-20,Gaziantep,Rizespor,5,4,False
+T1,2122,2022-05-21,Besiktas,Antalyaspor,6,1,False
+T1,2122,2022-05-21,Yeni Malatyaspor,Fenerbahce,7,6,False
+T1,2122,2022-05-21,Samsunspor,Kocaelispor,5,7,False
+T1,2122,2022-05-21,Altay,Kasimpasa,6,6,False
+T1,2122,2022-05-22,Ad. Demirspor,Goztep,6,7,False
+T1,2122,2022-05-22,Antalyaspor,Giresunspor,1,7,False
+T1,2122,2022-05-22,Buyuksehyr,Trabzonspor,7,7,False
+T1,2122,2022-05-22,Karagumruk,Antalyaspor,7,1,False

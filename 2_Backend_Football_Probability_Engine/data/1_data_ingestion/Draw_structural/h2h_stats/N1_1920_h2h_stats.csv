@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+432,AZ Alkmaar,450,Den Haag,1920,2,0,0.0,2.5
+448,FC Emmen,449,VVV Venlo,1920,2,0,0.0,2.5
+431,Ajax,446,Vitesse,1920,1,1,1.0,4.0
+437,Groningen,449,VVV Venlo,1920,2,0,0.0,2.0
+431,Ajax,443,Willem II,1920,1,0,0.0,2.0
+430,Zwolle,449,VVV Venlo,1920,1,0,0.0,3.0
+428,Heerenveen,443,Willem II,1920,1,0,0.0,3.0
+437,Groningen,450,Den Haag,1920,1,1,1.0,2.0
+425,For Sittard,429,PSV Eindhoven,1920,1,0,0.0,5.0
+439,Sparta Rotterdam,446,Vitesse,1920,1,0,0.0,2.0
+443,Willem II,446,Vitesse,1920,1,0,0.0,2.0
+443,Willem II,445,Waalwijk,1920,1,0,0.0,3.0
+445,Waalwijk,450,Den Haag,1920,2,0,0.0,2.5
+431,Ajax,450,Den Haag,1920,2,0,0.0,4.5
+439,Sparta Rotterdam,445,Waalwijk,1920,2,0,0.0,2.5
+427,Feyenoord,440,Twente,1920,1,0,0.0,6.0
+430,Zwolle,436,Heracles,1920,1,0,0.0,4.0
+427,Feyenoord,446,Vitesse,1920,1,1,1.0,
+439,Sparta Rotterdam,448,FC Emmen,1920,2,0,0.0,4.0
+427,Feyenoord,433,Utrecht,1920,2,1,0.5,2.5
+431,Ajax,440,Twente,1920,1,0,0.0,7.0
+436,Heracles,450,Den Haag,1920,2,1,0.5,2.0
+432,AZ Alkmaar,437,Groningen,1920,1,1,1.0,
+429,PSV Eindhoven,437,Groningen,1920,2,0,0.0,2.5
+430,Zwolle,433,Utrecht,1920,2,1,0.5,5.0
+430,Zwolle,431,Ajax,1920,1,0,0.0,6.0
+433,Utrecht,440,Twente,1920,2,0,0.0,3.5
+430,Zwolle,439,Sparta Rotterdam,1920,1,1,1.0,4.0
+431,Ajax,439,Sparta Rotterdam,1920,2,0,0.0,4.0
+445,Waalwijk,448,FC Emmen,1920,1,1,1.0,2.0
+439,Sparta Rotterdam,449,VVV Venlo,1920,1,0,0.0,5.0
+428,Heerenveen,448,FC Emmen,1920,1,0,0.0,2.0
+439,Sparta Rotterdam,440,Twente,1920,2,0,0.0,2.5
+440,Twente,443,Willem II,1920,1,0,0.0,1.0
+427,Feyenoord,448,FC Emmen,1920,2,1,0.5,4.5
+443,Willem II,449,VVV Venlo,1920,1,0,0.0,1.0
+431,Ajax,436,Heracles,1920,2,0,0.0,3.0
+425,For Sittard,428,Heerenveen,1920,2,1,0.5,2.5
+440,Twente,446,Vitesse,1920,2,0,0.0,2.0
+425,For Sittard,427,Feyenoord,1920,2,0,0.0,4.5
+430,Zwolle,446,Vitesse,1920,2,0,0.0,5.0
+437,Groningen,439,Sparta Rotterdam,1920,2,0,0.0,2.5
+430,Zwolle,445,Waalwijk,1920,2,1,0.5,4.0
+443,Willem II,448,FC Emmen,1920,2,0,0.0,4.5
+427,Feyenoord,429,PSV Eindhoven,1920,2,1,0.5,3.0
+431,Ajax,437,Groningen,1920,2,0,0.0,2.5
+433,Utrecht,449,VVV Venlo,1920,2,1,0.5,2.5
+429,PSV Eindhoven,445,Waalwijk,1920,1,0,0.0,4.0
+432,AZ Alkmaar,446,Vitesse,1920,1,0,0.0,3.0
+433,Utrecht,437,Groningen,1920,1,0,0.0,1.0
+427,Feyenoord,437,Groningen,1920,1,1,1.0,2.0
+433,Utrecht,445,Waalwijk,1920,2,0,0.0,2.0
+433,Utrecht,448,FC Emmen,1920,1,0,0.0,4.0
+429,PSV Eindhoven,433,Utrecht,1920,1,0,0.0,3.0
+427,Feyenoord,430,Zwolle,1920,2,0,0.0,4.0
+437,Groningen,446,Vitesse,1920,2,0,0.0,2.0
+431,Ajax,433,Utrecht,1920,1,0,0.0,4.0
+429,PSV Eindhoven,443,Willem II,1920,2,0,0.0,3.0
+425,For Sittard,449,VVV Venlo,1920,2,1,0.5,2.5
+425,For Sittard,440,Twente,1920,1,0,0.0,5.0
+429,PSV Eindhoven,450,Den Haag,1920,2,0,0.0,3.5
+432,AZ Alkmaar,448,FC Emmen,1920,1,0,0.0,3.0
+448,FC Emmen,450,Den Haag,1920,1,0,0.0,3.0
+436,Heracles,449,VVV Venlo,1920,2,0,0.0,4.0
+425,For Sittard,445,Waalwijk,1920,1,0,0.0,5.0
+430,Zwolle,437,Groningen,1920,2,0,0.0,1.5
+430,Zwolle,448,FC Emmen,1920,1,0,0.0,4.0
+440,Twente,450,Den Haag,1920,1,1,1.0,
+436,Heracles,448,FC Emmen,1920,2,0,0.0,1.5
+429,PSV Eindhoven,440,Twente,1920,2,2,1.0,2.0
+432,AZ Alkmaar,440,Twente,1920,2,0,0.0,2.5
+437,Groningen,448,FC Emmen,1920,2,0,0.0,1.5
+427,Feyenoord,449,VVV Venlo,1920,1,0,0.0,3.0
+437,Groningen,443,Willem II,1920,2,0,0.0,3.0
+427,Feyenoord,431,Ajax,1920,1,0,0.0,4.0
+427,Feyenoord,428,Heerenveen,1920,2,1,0.5,3.0
+429,PSV Eindhoven,431,Ajax,1920,2,1,0.5,1.5
+428,Heerenveen,436,Heracles,1920,2,1,0.5,3.0
+428,Heerenveen,432,AZ Alkmaar,1920,2,0,0.0,4.5
+428,Heerenveen,429,PSV Eindhoven,1920,1,0,0.0,3.0
+427,Feyenoord,432,AZ Alkmaar,1920,1,0,0.0,3.0
+446,Vitesse,449,VVV Venlo,1920,2,0,0.0,3.5
+425,For Sittard,436,Heracles,1920,2,1,0.5,2.0
+428,Heerenveen,430,Zwolle,1920,1,0,0.0,1.0
+433,Utrecht,436,Heracles,1920,1,0,0.0,4.0
+425,For Sittard,443,Willem II,1920,2,1,0.5,2.5
+431,Ajax,448,FC Emmen,1920,1,0,0.0,5.0
+429,PSV Eindhoven,439,Sparta Rotterdam,1920,1,1,1.0,4.0
+425,For Sittard,437,Groningen,1920,1,0,0.0,1.0
+432,AZ Alkmaar,436,Heracles,1920,1,0,0.0,2.0
+436,Heracles,440,Twente,1920,1,0,0.0,5.0
+428,Heerenveen,449,VVV Venlo,1920,2,1,0.5,2.5
+440,Twente,448,FC Emmen,1920,2,0,0.0,3.5
+445,Waalwijk,449,VVV Venlo,1920,2,0,0.0,3.5
+427,Feyenoord,445,Waalwijk,1920,1,0,0.0,5.0
+449,VVV Venlo,450,Den Haag,1920,1,0,0.0,1.0
+428,Heerenveen,445,Waalwijk,1920,1,0,0.0,4.0
+427,Feyenoord,439,Sparta Rotterdam,1920,1,1,1.0,4.0
+425,For Sittard,450,Den Haag,1920,1,0,0.0,1.0
+439,Sparta Rotterdam,443,Willem II,1920,1,0,0.0,4.0
+437,Groningen,445,Waalwijk,1920,1,0,0.0,3.0
+443,Willem II,450,Den Haag,1920,1,1,1.0,6.0
+428,Heerenveen,450,Den Haag,1920,2,2,1.0,3.0
+425,For Sittard,430,Zwolle,1920,2,1,0.5,3.0
+433,Utrecht,446,Vitesse,1920,1,0,0.0,3.0
+430,Zwolle,443,Willem II,1920,2,1,0.5,2.0
+436,Heracles,437,Groningen,1920,1,0,0.0,3.0
+428,Heerenveen,440,Twente,1920,2,1,0.5,2.5
+432,AZ Alkmaar,439,Sparta Rotterdam,1920,2,0,0.0,4.5
+436,Heracles,439,Sparta Rotterdam,1920,1,1,1.0,
+429,PSV Eindhoven,448,FC Emmen,1920,1,1,1.0,2.0
+432,AZ Alkmaar,433,Utrecht,1920,1,0,0.0,3.0
+430,Zwolle,450,Den Haag,1920,1,0,0.0,4.0
+439,Sparta Rotterdam,450,Den Haag,1920,2,0,0.0,4.5
+431,Ajax,445,Waalwijk,1920,2,0,0.0,3.0
+437,Groningen,440,Twente,1920,2,1,0.5,2.0
+433,Utrecht,439,Sparta Rotterdam,1920,2,0,0.0,4.5
+425,For Sittard,439,Sparta Rotterdam,1920,2,2,1.0,1.0
+431,Ajax,449,VVV Venlo,1920,1,0,0.0,5.0
+429,PSV Eindhoven,432,AZ Alkmaar,1920,1,0,0.0,4.0
+425,For Sittard,431,Ajax,1920,1,0,0.0,5.0
+436,Heracles,443,Willem II,1920,2,0,0.0,3.0
+433,Utrecht,450,Den Haag,1920,2,0,0.0,5.0
+440,Twente,445,Waalwijk,1920,2,1,0.5,4.5
+428,Heerenveen,437,Groningen,1920,1,1,1.0,2.0
+427,Feyenoord,436,Heracles,1920,2,1,0.5,3.5
+428,Heerenveen,433,Utrecht,1920,1,1,1.0,2.0
+433,Utrecht,443,Willem II,1920,2,1,0.5,2.0
+446,Vitesse,450,Den Haag,1920,2,1,0.5,1.0
+425,For Sittard,446,Vitesse,1920,2,0,0.0,5.0
+432,AZ Alkmaar,443,Willem II,1920,2,1,0.5,3.0
+425,For Sittard,432,AZ Alkmaar,1920,1,0,0.0,4.0
+429,PSV Eindhoven,430,Zwolle,1920,2,0,0.0,4.5
+429,PSV Eindhoven,446,Vitesse,1920,2,0,0.0,4.0
+430,Zwolle,440,Twente,1920,1,0,0.0,3.0
+428,Heerenveen,439,Sparta Rotterdam,1920,1,0,0.0,3.0
+446,Vitesse,448,FC Emmen,1920,2,1,0.5,2.5
+440,Twente,449,VVV Venlo,1920,1,0,0.0,3.0
+431,Ajax,432,AZ Alkmaar,1920,2,0,0.0,1.5
+428,Heerenveen,431,Ajax,1920,2,0,0.0,4.5
+429,PSV Eindhoven,436,Heracles,1920,1,0,0.0,2.0
+432,AZ Alkmaar,445,Waalwijk,1920,2,0,0.0,3.0
+436,Heracles,446,Vitesse,1920,1,1,1.0,2.0
+427,Feyenoord,443,Willem II,1920,2,0,0.0,1.5
+425,For Sittard,433,Utrecht,1920,1,0,0.0,6.0
+430,Zwolle,432,AZ Alkmaar,1920,2,0,0.0,2.5
+425,For Sittard,448,FC Emmen,1920,2,1,0.5,1.5
+445,Waalwijk,446,Vitesse,1920,1,0,0.0,3.0
+427,Feyenoord,450,Den Haag,1920,1,0,0.0,5.0
+428,Heerenveen,446,Vitesse,1920,2,0,0.0,5.5
+436,Heracles,445,Waalwijk,1920,2,0,0.0,4.0
+429,PSV Eindhoven,449,VVV Venlo,1920,2,1,0.5,3.5
+432,AZ Alkmaar,449,VVV Venlo,1920,1,0,0.0,1.0

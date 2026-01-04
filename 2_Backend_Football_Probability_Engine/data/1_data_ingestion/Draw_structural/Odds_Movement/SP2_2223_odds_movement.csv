@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SP2,2223,2022-08-12,Leganes,Huesca,3.85,3.85,0.0
+SP2,2223,2022-08-13,Leganes,Alaves,3.08,3.08,0.0
+SP2,2223,2022-08-13,Mirandes,Sp Gijon,3.2,3.2,0.0
+SP2,2223,2022-08-13,Las Palmas,Zaragoza,3.3,3.3,0.0
+SP2,2223,2022-08-13,Eibar,Tenerife,3.03,3.03,0.0
+SP2,2223,2022-08-14,Burgos,Malaga,2.93,2.93,0.0
+SP2,2223,2022-08-14,Ibiza,Granada,3.14,3.14,0.0
+SP2,2223,2022-08-14,Santander,Villarreal B,3.09,3.09,0.0
+SP2,2223,2022-08-15,Lugo,Albacete,3.06,3.06,0.0
+SP2,2223,2022-08-15,Oviedo,Andorra,3.51,3.51,0.0
+SP2,2223,2022-08-15,Cartagena,Ponferradina,3.19,3.19,0.0
+SP2,2223,2022-08-19,Villarreal B,Eibar,3.06,3.06,0.0
+SP2,2223,2022-08-19,Alaves,Mirandes,3.64,3.64,0.0
+SP2,2223,2022-08-20,Zaragoza,Leganes,3.13,3.13,0.0
+SP2,2223,2022-08-20,Granada,Santander,3.98,3.98,0.0
+SP2,2223,2022-08-20,Sp Gijon,Andorra,3.46,3.46,0.0
+SP2,2223,2022-08-20,Albacete,Burgos,3.05,3.05,0.0
+SP2,2223,2022-08-21,Oviedo,Leganes,3.03,3.03,0.0
+SP2,2223,2022-08-21,Tenerife,Lugo,3.53,3.53,0.0
+SP2,2223,2022-08-21,Huesca,Cartagena,3.22,3.22,0.0
+SP2,2223,2022-08-22,Malaga,Las Palmas,2.96,2.96,0.0
+SP2,2223,2022-08-22,Ponferradina,Ibiza,3.21,3.21,0.0
+SP2,2223,2022-08-26,Albacete,Huesca,3.05,3.05,0.0
+SP2,2223,2022-08-26,Cartagena,Zaragoza,3.05,3.05,0.0
+SP2,2223,2022-08-27,Mirandes,Malaga,3.13,3.13,0.0
+SP2,2223,2022-08-27,Leganes,Tenerife,3.32,3.32,0.0
+SP2,2223,2022-08-27,Sp Gijon,Burgos,3.33,3.33,0.0
+SP2,2223,2022-08-27,Lugo,Leganes,2.92,2.92,0.0
+SP2,2223,2022-08-28,Santander,Oviedo,2.95,2.95,0.0
+SP2,2223,2022-08-28,Eibar,Ponferradina,3.69,3.69,0.0
+SP2,2223,2022-08-28,Ibiza,Alaves,3.16,3.16,0.0
+SP2,2223,2022-08-29,Las Palmas,Andorra,3.55,3.55,0.0
+SP2,2223,2022-08-29,Granada,Villarreal B,3.74,3.74,0.0
+SP2,2223,2022-09-02,Leganes,Eibar,2.92,2.92,0.0
+SP2,2223,2022-09-03,Alaves,Las Palmas,3.16,3.16,0.0
+SP2,2223,2022-09-03,Villarreal B,Mirandes,3.38,3.38,0.0
+SP2,2223,2022-09-03,Ponferradina,Sp Gijon,3.2,3.2,0.0
+SP2,2223,2022-09-03,Tenerife,Santander,3.46,3.46,0.0
+SP2,2223,2022-09-04,Zaragoza,Lugo,3.34,3.34,0.0
+SP2,2223,2022-09-04,Huesca,Ibiza,3.33,3.33,0.0
+SP2,2223,2022-09-04,Burgos,Cartagena,3.09,3.09,0.0
+SP2,2223,2022-09-04,Malaga,Albacete,3.17,3.17,0.0
+SP2,2223,2022-09-04,Andorra,Granada,3.15,3.15,0.0
+SP2,2223,2022-09-05,Oviedo,Leganes,2.94,2.94,0.0
+SP2,2223,2022-09-09,Las Palmas,Leganes,3.23,3.23,0.0
+SP2,2223,2022-09-10,Cartagena,Albacete,3.16,3.16,0.0
+SP2,2223,2022-09-10,Leganes,Villarreal B,3.91,3.91,0.0
+SP2,2223,2022-09-10,Lugo,Alaves,3.07,3.07,0.0
+SP2,2223,2022-09-10,Burgos,Oviedo,2.84,2.84,0.0
+SP2,2223,2022-09-11,Huesca,Malaga,3.27,3.27,0.0
+SP2,2223,2022-09-11,Ibiza,Tenerife,2.96,2.96,0.0
+SP2,2223,2022-09-11,Sp Gijon,Santander,3.72,3.72,0.0
+SP2,2223,2022-09-11,Mirandes,Andorra,3.26,3.26,0.0
+SP2,2223,2022-09-11,Ponferradina,Zaragoza,3.08,3.08,0.0
+SP2,2223,2022-09-12,Eibar,Granada,3.02,3.02,0.0
+SP2,2223,2022-09-16,Leganes,Cartagena,3.86,3.86,0.0
+SP2,2223,2022-09-17,Granada,Mirandes,4.13,4.13,0.0
+SP2,2223,2022-09-17,Zaragoza,Sp Gijon,3.02,3.02,0.0
+SP2,2223,2022-09-17,Andorra,Eibar,3.08,3.08,0.0
+SP2,2223,2022-09-17,Villarreal B,Lugo,3.44,3.44,0.0
+SP2,2223,2022-09-17,Oviedo,Ibiza,3.32,3.32,0.0
+SP2,2223,2022-09-18,Albacete,Ponferradina,3.25,3.25,0.0
+SP2,2223,2022-09-18,Leganes,Burgos,3.22,3.22,0.0
+SP2,2223,2022-09-18,Alaves,Huesca,3.33,3.33,0.0
+SP2,2223,2022-09-18,Santander,Las Palmas,3.07,3.07,0.0
+SP2,2223,2022-09-19,Tenerife,Malaga,3.21,3.21,0.0
+SP2,2223,2022-09-23,Sp Gijon,Ibiza,3.3,3.3,0.0
+SP2,2223,2022-09-24,Malaga,Villarreal B,3.26,3.26,0.0
+SP2,2223,2022-09-24,Ponferradina,Tenerife,3.1,3.1,0.0
+SP2,2223,2022-09-24,Huesca,Leganes,3.03,3.03,0.0
+SP2,2223,2022-09-24,Mirandes,Zaragoza,3.12,3.12,0.0
+SP2,2223,2022-09-25,Albacete,Andorra,3.34,3.34,0.0
+SP2,2223,2022-09-25,Eibar,Santander,3.68,3.68,0.0
+SP2,2223,2022-09-25,Burgos,Leganes,3.05,3.05,0.0
+SP2,2223,2022-09-25,Lugo,Oviedo,2.94,2.94,0.0
+SP2,2223,2022-09-26,Cartagena,Alaves,3.22,3.22,0.0
+SP2,2223,2022-09-26,Las Palmas,Granada,3.13,3.13,0.0
+SP2,2223,2022-09-30,Tenerife,Sp Gijon,3.0,3.0,0.0
+SP2,2223,2022-10-01,Santander,Malaga,3.12,3.12,0.0
+SP2,2223,2022-10-01,Andorra,Leganes,3.2,3.2,0.0
+SP2,2223,2022-10-01,Villarreal B,Burgos,3.17,3.17,0.0
+SP2,2223,2022-10-01,Mirandes,Las Palmas,3.25,3.25,0.0
+SP2,2223,2022-10-02,Ibiza,Lugo,3.33,3.33,0.0
+SP2,2223,2022-10-02,Granada,Huesca,3.54,3.54,0.0
+SP2,2223,2022-10-02,Leganes,Albacete,3.2,3.2,0.0
+SP2,2223,2022-10-02,Alaves,Ponferradina,3.35,3.35,0.0
+SP2,2223,2022-10-02,Oviedo,Cartagena,3.13,3.13,0.0
+SP2,2223,2022-10-03,Zaragoza,Eibar,3.02,3.02,0.0
+SP2,2223,2022-10-07,Sp Gijon,Villarreal B,3.38,3.38,0.0
+SP2,2223,2022-10-08,Las Palmas,Ibiza,3.73,3.73,0.0
+SP2,2223,2022-10-08,Burgos,Alaves,2.98,2.98,0.0
+SP2,2223,2022-10-08,Ponferradina,Granada,3.25,3.25,0.0
+SP2,2223,2022-10-08,Huesca,Lugo,3.49,3.49,0.0
+SP2,2223,2022-10-09,Malaga,Andorra,3.3,3.3,0.0
+SP2,2223,2022-10-09,Cartagena,Leganes,3.04,3.04,0.0
+SP2,2223,2022-10-09,Zaragoza,Oviedo,2.96,2.96,0.0
+SP2,2223,2022-10-09,Albacete,Tenerife,3.11,3.11,0.0
+SP2,2223,2022-10-09,Leganes,Santander,3.64,3.64,0.0
+SP2,2223,2022-10-10,Eibar,Mirandes,3.83,3.83,0.0
+SP2,2223,2022-10-12,Oviedo,Huesca,2.95,2.95,0.0
+SP2,2223,2022-10-12,Tenerife,Cartagena,3.21,3.21,0.0
+SP2,2223,2022-10-12,Lugo,Las Palmas,3.12,3.12,0.0
+SP2,2223,2022-10-12,Santander,Zaragoza,2.92,2.92,0.0
+SP2,2223,2022-10-12,Alaves,Albacete,3.21,3.21,0.0
+SP2,2223,2022-10-12,Leganes,Malaga,3.34,3.34,0.0
+SP2,2223,2022-10-12,Andorra,Burgos,2.99,2.99,0.0
+SP2,2223,2022-10-12,Villarreal B,Ponferradina,3.32,3.32,0.0
+SP2,2223,2022-10-13,Granada,Sp Gijon,3.38,3.38,0.0
+SP2,2223,2022-10-13,Mirandes,Leganes,3.5,3.5,0.0
+SP2,2223,2022-10-13,Ibiza,Eibar,3.23,3.23,0.0
+SP2,2223,2022-10-15,Albacete,Oviedo,2.91,2.91,0.0
+SP2,2223,2022-10-15,Zaragoza,Villarreal B,3.5,3.5,0.0
+SP2,2223,2022-10-15,Huesca,Santander,3.08,3.08,0.0
+SP2,2223,2022-10-15,Ponferradina,Las Palmas,3.14,3.14,0.0
+SP2,2223,2022-10-15,Andorra,Alaves,3.0,3.0,0.0
+SP2,2223,2022-10-16,Tenerife,Granada,3.02,3.02,0.0
+SP2,2223,2022-10-16,Malaga,Lugo,3.2,3.2,0.0
+SP2,2223,2022-10-16,Burgos,Mirandes,3.31,3.31,0.0
+SP2,2223,2022-10-16,Leganes,Leganes,3.19,3.19,0.0
+SP2,2223,2022-10-16,Cartagena,Ibiza,3.65,3.65,0.0
+SP2,2223,2022-10-17,Sp Gijon,Eibar,3.02,3.02,0.0
+SP2,2223,2022-10-21,Granada,Zaragoza,3.1,3.1,0.0
+SP2,2223,2022-10-22,Ibiza,Leganes,3.32,3.32,0.0
+SP2,2223,2022-10-22,Mirandes,Huesca,3.16,3.16,0.0
+SP2,2223,2022-10-22,Villarreal B,Andorra,3.27,3.27,0.0
+SP2,2223,2022-10-22,Alaves,Sp Gijon,3.09,3.09,0.0
+SP2,2223,2022-10-23,Las Palmas,Cartagena,3.39,3.39,0.0
+SP2,2223,2022-10-23,Leganes,Tenerife,2.87,2.87,0.0
+SP2,2223,2022-10-23,Eibar,Albacete,3.17,3.17,0.0
+SP2,2223,2022-10-23,Lugo,Burgos,2.98,2.98,0.0
+SP2,2223,2022-10-23,Santander,Ponferradina,3.4,3.4,0.0
+SP2,2223,2022-10-24,Oviedo,Malaga,3.03,3.03,0.0
+SP2,2223,2022-10-28,Tenerife,Zaragoza,2.88,2.88,0.0
+SP2,2223,2022-10-29,Burgos,Ibiza,3.0,3.0,0.0
+SP2,2223,2022-10-29,Alaves,Oviedo,2.95,2.95,0.0
+SP2,2223,2022-10-29,Leganes,Santander,2.97,2.97,0.0
+SP2,2223,2022-10-29,Huesca,Las Palmas,3.08,3.08,0.0
+SP2,2223,2022-10-29,Andorra,Ponferradina,3.38,3.38,0.0
+SP2,2223,2022-10-30,Malaga,Eibar,3.1,3.1,0.0
+SP2,2223,2022-10-30,Albacete,Villarreal B,3.46,3.46,0.0
+SP2,2223,2022-10-30,Cartagena,Granada,3.17,3.17,0.0
+SP2,2223,2022-10-30,Lugo,Mirandes,3.16,3.16,0.0
+SP2,2223,2022-10-31,Leganes,Sp Gijon,3.27,3.27,0.0
+SP2,2223,2022-11-01,Ibiza,Leganes,2.93,2.93,0.0
+SP2,2223,2022-11-01,Santander,Alaves,2.92,2.92,0.0
+SP2,2223,2022-11-01,Las Palmas,Burgos,3.38,3.38,0.0
+SP2,2223,2022-11-01,Zaragoza,Andorra,3.0,3.0,0.0
+SP2,2223,2022-11-01,Ponferradina,Huesca,3.06,3.06,0.0
+SP2,2223,2022-11-02,Eibar,Lugo,3.84,3.84,0.0
+SP2,2223,2022-11-02,Villarreal B,Oviedo,2.99,2.99,0.0
+SP2,2223,2022-11-02,Mirandes,Tenerife,3.1,3.1,0.0
+SP2,2223,2022-11-03,Sp Gijon,Albacete,3.2,3.2,0.0
+SP2,2223,2022-11-03,Cartagena,Malaga,3.26,3.26,0.0
+SP2,2223,2022-11-03,Granada,Leganes,3.03,3.03,0.0
+SP2,2223,2022-11-04,Alaves,Zaragoza,2.93,2.93,0.0
+SP2,2223,2022-11-05,Andorra,Santander,3.06,3.06,0.0
+SP2,2223,2022-11-05,Burgos,Tenerife,2.9,2.9,0.0
+SP2,2223,2022-11-05,Huesca,Villarreal B,3.34,3.34,0.0
+SP2,2223,2022-11-05,Leganes,Ponferradina,3.47,3.47,0.0
+SP2,2223,2022-11-06,Albacete,Leganes,3.13,3.13,0.0
+SP2,2223,2022-11-06,Malaga,Sp Gijon,3.0,3.0,0.0
+SP2,2223,2022-11-06,Las Palmas,Eibar,3.19,3.19,0.0
+SP2,2223,2022-11-06,Oviedo,Granada,2.92,2.92,0.0
+SP2,2223,2022-11-06,Ibiza,Mirandes,3.14,3.14,0.0
+SP2,2223,2022-11-07,Lugo,Cartagena,2.97,2.97,0.0
+SP2,2223,2022-11-18,Granada,Albacete,3.27,3.27,0.0
+SP2,2223,2022-11-19,Tenerife,Huesca,3.02,3.02,0.0
+SP2,2223,2022-11-19,Zaragoza,Malaga,2.97,2.97,0.0
+SP2,2223,2022-11-19,Ponferradina,Oviedo,3.0,3.0,0.0
+SP2,2223,2022-11-19,Sp Gijon,Leganes,2.96,2.96,0.0
+SP2,2223,2022-11-20,Leganes,Las Palmas,3.09,3.09,0.0
+SP2,2223,2022-11-20,Andorra,Lugo,3.33,3.33,0.0
+SP2,2223,2022-11-20,Villarreal B,Ibiza,3.34,3.34,0.0
+SP2,2223,2022-11-20,Eibar,Alaves,3.14,3.14,0.0
+SP2,2223,2022-11-20,Santander,Burgos,2.79,2.79,0.0
+SP2,2223,2022-11-21,Mirandes,Cartagena,3.08,3.08,0.0
+SP2,2223,2022-11-25,Huesca,Sp Gijon,2.94,2.94,0.0
+SP2,2223,2022-11-26,Oviedo,Mirandes,3.05,3.05,0.0
+SP2,2223,2022-11-26,Las Palmas,Tenerife,3.13,3.13,0.0
+SP2,2223,2022-11-26,Albacete,Santander,3.0,3.0,0.0
+SP2,2223,2022-11-26,Alaves,Villarreal B,3.55,3.55,0.0
+SP2,2223,2022-11-26,Malaga,Ponferradina,3.14,3.14,0.0
+SP2,2223,2022-11-27,Burgos,Zaragoza,2.86,2.86,0.0
+SP2,2223,2022-11-27,Leganes,Granada,2.95,2.95,0.0
+SP2,2223,2022-11-27,Lugo,Leganes,3.09,3.09,0.0
+SP2,2223,2022-11-27,Cartagena,Eibar,3.02,3.02,0.0
+SP2,2223,2022-11-28,Ibiza,Andorra,3.05,3.05,0.0
+SP2,2223,2022-11-30,Tenerife,Oviedo,2.81,2.81,0.0
+SP2,2223,2022-12-02,Granada,Alaves,2.98,2.98,0.0
+SP2,2223,2022-12-03,Villarreal B,Leganes,2.85,2.85,0.0
+SP2,2223,2022-12-03,Sp Gijon,Las Palmas,3.03,3.03,0.0
+SP2,2223,2022-12-03,Mirandes,Albacete,3.02,3.02,0.0
+SP2,2223,2022-12-03,Zaragoza,Ibiza,3.36,3.36,0.0
+SP2,2223,2022-12-04,Santander,Lugo,3.36,3.36,0.0
+SP2,2223,2022-12-04,Eibar,Huesca,3.27,3.27,0.0
+SP2,2223,2022-12-04,Leganes,Malaga,3.75,3.75,0.0
+SP2,2223,2022-12-04,Andorra,Cartagena,3.01,3.01,0.0
+SP2,2223,2022-12-05,Ponferradina,Burgos,2.97,2.97,0.0
+SP2,2223,2022-12-06,Leganes,Mirandes,3.09,3.09,0.0
+SP2,2223,2022-12-06,Oviedo,Las Palmas,2.87,2.87,0.0
+SP2,2223,2022-12-06,Albacete,Zaragoza,2.99,2.99,0.0
+SP2,2223,2022-12-07,Cartagena,Villarreal B,3.45,3.45,0.0
+SP2,2223,2022-12-07,Huesca,Andorra,2.84,2.84,0.0
+SP2,2223,2022-12-07,Tenerife,Alaves,2.86,2.86,0.0
+SP2,2223,2022-12-08,Burgos,Eibar,2.86,2.86,0.0
+SP2,2223,2022-12-08,Ibiza,Santander,2.9,2.9,0.0
+SP2,2223,2022-12-08,Lugo,Sp Gijon,3.02,3.02,0.0
+SP2,2223,2022-12-08,Malaga,Granada,3.05,3.05,0.0
+SP2,2223,2022-12-08,Leganes,Ponferradina,4.15,4.15,0.0
+SP2,2223,2022-12-10,Andorra,Leganes,3.0,3.0,0.0
+SP2,2223,2022-12-10,Villarreal B,Tenerife,2.94,2.94,0.0
+SP2,2223,2022-12-10,Zaragoza,Huesca,3.04,3.04,0.0
+SP2,2223,2022-12-11,Sp Gijon,Cartagena,3.11,3.11,0.0
+SP2,2223,2022-12-11,Ibiza,Malaga,2.99,2.99,0.0
+SP2,2223,2022-12-11,Ponferradina,Lugo,3.2,3.2,0.0
+SP2,2223,2022-12-11,Eibar,Oviedo,3.25,3.25,0.0
+SP2,2223,2022-12-11,Granada,Burgos,3.21,3.21,0.0
+SP2,2223,2022-12-11,Las Palmas,Albacete,3.2,3.2,0.0
+SP2,2223,2022-12-11,Santander,Mirandes,3.02,3.02,0.0
+SP2,2223,2022-12-12,Alaves,Leganes,2.99,2.99,0.0
+SP2,2223,2022-12-16,Tenerife,Andorra,2.95,2.95,0.0
+SP2,2223,2022-12-17,Oviedo,Sp Gijon,2.8,2.8,0.0
+SP2,2223,2022-12-17,Villarreal B,Las Palmas,3.1,3.1,0.0
+SP2,2223,2022-12-17,Cartagena,Santander,3.13,3.13,0.0
+SP2,2223,2022-12-17,Mirandes,Ponferradina,3.25,3.25,0.0
+SP2,2223,2022-12-17,Lugo,Granada,3.15,3.15,0.0
+SP2,2223,2022-12-18,Malaga,Alaves,2.9,2.9,0.0
+SP2,2223,2022-12-18,Leganes,Eibar,3.16,3.16,0.0
+SP2,2223,2022-12-18,Albacete,Ibiza,3.32,3.32,0.0
+SP2,2223,2022-12-18,Burgos,Huesca,2.87,2.87,0.0
+SP2,2223,2022-12-19,Leganes,Zaragoza,2.93,2.93,0.0
+SP2,2223,2023-01-06,Ponferradina,Villarreal B,3.16,3.16,0.0
+SP2,2223,2023-01-06,Sp Gijon,Leganes,2.97,2.97,0.0
+SP2,2223,2023-01-06,Leganes,Lugo,3.34,3.34,0.0
+SP2,2223,2023-01-07,Malaga,Tenerife,2.91,2.91,0.0
+SP2,2223,2023-01-07,Andorra,Oviedo,2.96,2.96,0.0
+SP2,2223,2023-01-07,Alaves,Burgos,3.18,3.18,0.0
+SP2,2223,2023-01-08,Zaragoza,Mirandes,3.24,3.24,0.0
+SP2,2223,2023-01-08,Las Palmas,Santander,3.25,3.25,0.0
+SP2,2223,2023-01-08,Granada,Cartagena,3.48,3.48,0.0
+SP2,2223,2023-01-08,Eibar,Ibiza,3.87,3.87,0.0
+SP2,2223,2023-01-09,Huesca,Albacete,3.06,3.06,0.0
+SP2,2223,2023-01-13,Oviedo,Alaves,2.69,2.69,0.0
+SP2,2223,2023-01-14,Villarreal B,Zaragoza,2.95,2.95,0.0
+SP2,2223,2023-01-14,Ibiza,Las Palmas,3.02,3.02,0.0
+SP2,2223,2023-01-14,Santander,Sp Gijon,2.83,2.83,0.0
+SP2,2223,2023-01-14,Tenerife,Ponferradina,3.51,3.51,0.0
+SP2,2223,2023-01-14,Leganes,Granada,3.09,3.09,0.0
+SP2,2223,2023-01-14,Cartagena,Huesca,3.08,3.08,0.0
+SP2,2223,2023-01-15,Eibar,Malaga,3.47,3.47,0.0
+SP2,2223,2023-01-15,Burgos,Andorra,2.78,2.78,0.0
+SP2,2223,2023-01-15,Mirandes,Lugo,3.05,3.05,0.0
+SP2,2223,2023-01-16,Albacete,Leganes,3.01,3.01,0.0
+SP2,2223,2023-01-20,Las Palmas,Mirandes,3.67,3.67,0.0
+SP2,2223,2023-01-21,Malaga,Burgos,2.93,2.93,0.0
+SP2,2223,2023-01-21,Ponferradina,Eibar,3.12,3.12,0.0
+SP2,2223,2023-01-21,Granada,Ibiza,4.07,4.07,0.0
+SP2,2223,2023-01-21,Alaves,Santander,2.97,2.97,0.0
+SP2,2223,2023-01-22,Lugo,Villarreal B,2.97,2.97,0.0
+SP2,2223,2023-01-22,Leganes,Leganes,2.97,2.97,0.0
+SP2,2223,2023-01-22,Cartagena,Tenerife,2.89,2.89,0.0
+SP2,2223,2023-01-22,Sp Gijon,Zaragoza,2.81,2.81,0.0
+SP2,2223,2023-01-22,Huesca,Oviedo,2.77,2.77,0.0
+SP2,2223,2023-01-23,Andorra,Albacete,3.09,3.09,0.0
+SP2,2223,2023-01-27,Santander,Tenerife,2.75,2.75,0.0
+SP2,2223,2023-01-28,Oviedo,Villarreal B,3.16,3.16,0.0
+SP2,2223,2023-01-28,Las Palmas,Huesca,3.46,3.46,0.0
+SP2,2223,2023-01-28,Eibar,Leganes,3.03,3.03,0.0
+SP2,2223,2023-01-28,Granada,Andorra,3.14,3.14,0.0
+SP2,2223,2023-01-29,Albacete,Lugo,3.47,3.47,0.0
+SP2,2223,2023-01-29,Mirandes,Alaves,2.92,2.92,0.0
+SP2,2223,2023-01-29,Leganes,Burgos,3.66,3.66,0.0
+SP2,2223,2023-01-29,Sp Gijon,Malaga,3.26,3.26,0.0
+SP2,2223,2023-01-29,Ibiza,Cartagena,2.96,2.96,0.0
+SP2,2223,2023-01-30,Zaragoza,Ponferradina,3.31,3.31,0.0
+SP2,2223,2023-02-03,Malaga,Oviedo,2.74,2.74,0.0
+SP2,2223,2023-02-04,Tenerife,Albacete,3.0,3.0,0.0
+SP2,2223,2023-02-04,Alaves,Eibar,2.89,2.89,0.0
+SP2,2223,2023-02-04,Leganes,Sp Gijon,2.96,2.96,0.0
+SP2,2223,2023-02-04,Huesca,Mirandes,3.07,3.07,0.0
+SP2,2223,2023-02-05,Lugo,Ibiza,2.95,2.95,0.0
+SP2,2223,2023-02-05,Andorra,Zaragoza,2.98,2.98,0.0
+SP2,2223,2023-02-05,Villarreal B,Granada,3.16,3.16,0.0
+SP2,2223,2023-02-05,Cartagena,Leganes,3.13,3.13,0.0
+SP2,2223,2023-02-05,Ponferradina,Santander,1.88,1.88,0.0
+SP2,2223,2023-02-06,Burgos,Las Palmas,2.99,2.99,0.0
+SP2,2223,2023-02-10,Granada,Tenerife,2.97,2.97,0.0
+SP2,2223,2023-02-11,Mirandes,Villarreal B,3.11,3.11,0.0
+SP2,2223,2023-02-11,Las Palmas,Lugo,4.19,4.19,0.0
+SP2,2223,2023-02-11,Zaragoza,Alaves,2.82,2.82,0.0
+SP2,2223,2023-02-11,Leganes,Andorra,3.41,3.41,0.0
+SP2,2223,2023-02-12,Oviedo,Burgos,2.9,2.9,0.0
+SP2,2223,2023-02-12,Eibar,Cartagena,3.5,3.5,0.0
+SP2,2223,2023-02-12,Sp Gijon,Huesca,3.02,3.02,0.0
+SP2,2223,2023-02-12,Ibiza,Ponferradina,2.99,2.99,0.0
+SP2,2223,2023-02-12,Albacete,Malaga,3.15,3.15,0.0
+SP2,2223,2023-02-13,Santander,Leganes,2.82,2.82,0.0
+SP2,2223,2023-02-17,Cartagena,Oviedo,2.77,2.77,0.0
+SP2,2223,2023-02-18,Leganes,Las Palmas,2.87,2.87,0.0
+SP2,2223,2023-02-18,Lugo,Eibar,2.96,2.96,0.0
+SP2,2223,2023-02-18,Ponferradina,Leganes,3.23,3.23,0.0
+SP2,2223,2023-02-18,Tenerife,Mirandes,3.33,3.33,0.0
+SP2,2223,2023-02-19,Villarreal B,Santander,3.01,3.01,0.0
+SP2,2223,2023-02-19,Andorra,Sp Gijon,2.92,2.92,0.0
+SP2,2223,2023-02-19,Burgos,Albacete,2.8,2.8,0.0
+SP2,2223,2023-02-19,Huesca,Granada,2.82,2.82,0.0
+SP2,2223,2023-02-19,Alaves,Ibiza,3.89,3.89,0.0
+SP2,2223,2023-02-20,Malaga,Zaragoza,2.87,2.87,0.0
+SP2,2223,2023-02-24,Eibar,Villarreal B,3.31,3.31,0.0
+SP2,2223,2023-02-25,Alaves,Cartagena,3.35,3.35,0.0
+SP2,2223,2023-02-25,Santander,Andorra,2.89,2.89,0.0
+SP2,2223,2023-02-25,Mirandes,Leganes,2.98,2.98,0.0
+SP2,2223,2023-02-25,Sp Gijon,Tenerife,2.85,2.85,0.0
+SP2,2223,2023-02-26,Oviedo,Albacete,2.75,2.75,0.0
+SP2,2223,2023-02-26,Las Palmas,Ponferradina,4.1,4.1,0.0
+SP2,2223,2023-02-26,Zaragoza,Burgos,2.99,2.99,0.0
+SP2,2223,2023-02-26,Leganes,Lugo,4.68,4.68,0.0
+SP2,2223,2023-02-26,Ibiza,Huesca,2.86,2.86,0.0
+SP2,2223,2023-02-27,Granada,Malaga,3.68,3.68,0.0
+SP2,2223,2023-03-03,Andorra,Las Palmas,2.91,2.91,0.0
+SP2,2223,2023-03-04,Tenerife,Eibar,2.77,2.77,0.0
+SP2,2223,2023-03-04,Mirandes,Oviedo,2.77,2.77,0.0
+SP2,2223,2023-03-04,Burgos,Granada,2.82,2.82,0.0
+SP2,2223,2023-03-04,Huesca,Leganes,3.02,3.02,0.0
+SP2,2223,2023-03-05,Albacete,Sp Gijon,2.94,2.94,0.0
+SP2,2223,2023-03-05,Lugo,Zaragoza,2.96,2.96,0.0
+SP2,2223,2023-03-05,Malaga,Santander,2.95,2.95,0.0
+SP2,2223,2023-03-05,Ponferradina,Cartagena,3.08,3.08,0.0
+SP2,2223,2023-03-05,Leganes,Ibiza,3.24,3.24,0.0
+SP2,2223,2023-03-06,Villarreal B,Alaves,3.16,3.16,0.0
+SP2,2223,2023-03-10,Oviedo,Tenerife,2.56,2.56,0.0
+SP2,2223,2023-03-11,Eibar,Burgos,3.17,3.17,0.0
+SP2,2223,2023-03-11,Alaves,Lugo,4.22,4.22,0.0
+SP2,2223,2023-03-11,Ibiza,Villarreal B,2.97,2.97,0.0
+SP2,2223,2023-03-11,Las Palmas,Malaga,3.72,3.72,0.0
+SP2,2223,2023-03-12,Granada,Ponferradina,3.73,3.73,0.0
+SP2,2223,2023-03-12,Leganes,Albacete,3.41,3.41,0.0
+SP2,2223,2023-03-12,Cartagena,Andorra,2.9,2.9,0.0
+SP2,2223,2023-03-12,Sp Gijon,Mirandes,3.3,3.3,0.0
+SP2,2223,2023-03-12,Zaragoza,Leganes,2.82,2.82,0.0
+SP2,2223,2023-03-13,Santander,Huesca,2.84,2.84,0.0
+SP2,2223,2023-03-17,Malaga,Leganes,3.19,3.19,0.0
+SP2,2223,2023-03-18,Ponferradina,Alaves,3.0,3.0,0.0
+SP2,2223,2023-03-18,Leganes,Oviedo,2.79,2.79,0.0
+SP2,2223,2023-03-18,Tenerife,Las Palmas,2.74,2.74,0.0
+SP2,2223,2023-03-18,Andorra,Ibiza,3.44,3.44,0.0
+SP2,2223,2023-03-18,Albacete,Granada,2.98,2.98,0.0
+SP2,2223,2023-03-19,Huesca,Zaragoza,2.79,2.79,0.0
+SP2,2223,2023-03-19,Burgos,Sp Gijon,2.82,2.82,0.0
+SP2,2223,2023-03-19,Lugo,Santander,2.87,2.87,0.0
+SP2,2223,2023-03-19,Villarreal B,Cartagena,2.99,2.99,0.0
+SP2,2223,2023-03-20,Mirandes,Eibar,2.95,2.95,0.0
+SP2,2223,2023-03-24,Cartagena,Lugo,3.47,3.47,0.0
+SP2,2223,2023-03-25,Ibiza,Burgos,2.88,2.88,0.0
+SP2,2223,2023-03-25,Santander,Leganes,3.05,3.05,0.0
+SP2,2223,2023-03-25,Alaves,Tenerife,2.99,2.99,0.0
+SP2,2223,2023-03-26,Las Palmas,Sp Gijon,3.39,3.39,0.0
+SP2,2223,2023-03-26,Villarreal B,Huesca,3.08,3.08,0.0
+SP2,2223,2023-03-26,Eibar,Andorra,3.12,3.12,0.0
+SP2,2223,2023-03-26,Ponferradina,Mirandes,3.18,3.18,0.0
+SP2,2223,2023-03-26,Granada,Oviedo,3.14,3.14,0.0
+SP2,2223,2023-03-26,Zaragoza,Albacete,2.98,2.98,0.0
+SP2,2223,2023-03-27,Malaga,Leganes,2.87,2.87,0.0
+SP2,2223,2023-03-31,Leganes,Zaragoza,3.3,3.3,0.0
+SP2,2223,2023-04-01,Burgos,Santander,2.83,2.83,0.0
+SP2,2223,2023-04-01,Leganes,Cartagena,3.05,3.05,0.0
+SP2,2223,2023-04-01,Tenerife,Villarreal B,3.33,3.33,0.0
+SP2,2223,2023-04-01,Oviedo,Eibar,2.66,2.66,0.0
+SP2,2223,2023-04-02,Mirandes,Ibiza,3.15,3.15,0.0
+SP2,2223,2023-04-02,Huesca,Alaves,2.91,2.91,0.0
+SP2,2223,2023-04-02,Lugo,Ponferradina,2.89,2.89,0.0
+SP2,2223,2023-04-02,Andorra,Malaga,3.3,3.3,0.0
+SP2,2223,2023-04-02,Sp Gijon,Granada,2.97,2.97,0.0
+SP2,2223,2023-04-03,Albacete,Las Palmas,2.98,2.98,0.0
+SP2,2223,2023-04-07,Lugo,Tenerife,3.06,3.06,0.0
+SP2,2223,2023-04-07,Villarreal B,Malaga,3.22,3.22,0.0
+SP2,2223,2023-04-08,Ibiza,Sp Gijon,2.91,2.91,0.0
+SP2,2223,2023-04-08,Santander,Albacete,2.95,2.95,0.0
+SP2,2223,2023-04-08,Zaragoza,Granada,2.86,2.86,0.0
+SP2,2223,2023-04-09,Huesca,Burgos,2.8,2.8,0.0
+SP2,2223,2023-04-09,Eibar,Leganes,2.87,2.87,0.0
+SP2,2223,2023-04-09,Ponferradina,Leganes,2.82,2.82,0.0
+SP2,2223,2023-04-09,Las Palmas,Oviedo,3.17,3.17,0.0
+SP2,2223,2023-04-09,Cartagena,Mirandes,3.28,3.28,0.0
+SP2,2223,2023-04-10,Alaves,Andorra,3.41,3.41,0.0
+SP2,2223,2023-04-14,Albacete,Eibar,2.87,2.87,0.0
+SP2,2223,2023-04-15,Oviedo,Lugo,3.33,3.33,0.0
+SP2,2223,2023-04-15,Granada,Las Palmas,3.07,3.07,0.0
+SP2,2223,2023-04-15,Zaragoza,Santander,2.97,2.97,0.0
+SP2,2223,2023-04-15,Burgos,Ponferradina,2.84,2.84,0.0
+SP2,2223,2023-04-16,Leganes,Villarreal B,3.24,3.24,0.0
+SP2,2223,2023-04-16,Tenerife,Ibiza,3.22,3.22,0.0
+SP2,2223,2023-04-16,Malaga,Cartagena,3.01,3.01,0.0
+SP2,2223,2023-04-16,Sp Gijon,Alaves,2.94,2.94,0.0
+SP2,2223,2023-04-16,Andorra,Huesca,3.33,3.33,0.0
+SP2,2223,2023-04-17,Leganes,Mirandes,3.91,3.91,0.0
+SP2,2223,2023-04-21,Eibar,Zaragoza,2.98,2.98,0.0
+SP2,2223,2023-04-22,Ibiza,Oviedo,2.75,2.75,0.0
+SP2,2223,2023-04-22,Ponferradina,Andorra,2.95,2.95,0.0
+SP2,2223,2023-04-22,Las Palmas,Leganes,3.03,3.03,0.0
+SP2,2223,2023-04-22,Villarreal B,Albacete,3.07,3.07,0.0
+SP2,2223,2023-04-22,Cartagena,Sp Gijon,3.07,3.07,0.0
+SP2,2223,2023-04-23,Mirandes,Burgos,2.87,2.87,0.0
+SP2,2223,2023-04-23,Alaves,Leganes,3.29,3.29,0.0
+SP2,2223,2023-04-23,Santander,Granada,3.1,3.1,0.0
+SP2,2223,2023-04-23,Lugo,Malaga,3.09,3.09,0.0
+SP2,2223,2023-04-24,Huesca,Tenerife,3.0,3.0,0.0
+SP2,2223,2023-04-28,Santander,Ibiza,3.42,3.42,0.0
+SP2,2223,2023-04-29,Tenerife,Leganes,2.86,2.86,0.0
+SP2,2223,2023-04-29,Albacete,Cartagena,3.22,3.22,0.0
+SP2,2223,2023-04-29,Leganes,Alaves,3.0,3.0,0.0
+SP2,2223,2023-04-30,Granada,Eibar,3.11,3.11,0.0
+SP2,2223,2023-04-30,Andorra,Mirandes,3.3,3.3,0.0
+SP2,2223,2023-04-30,Oviedo,Ponferradina,2.94,2.94,0.0
+SP2,2223,2023-04-30,Zaragoza,Las Palmas,2.96,2.96,0.0
+SP2,2223,2023-05-01,Sp Gijon,Lugo,3.7,3.7,0.0
+SP2,2223,2023-05-01,Malaga,Huesca,3.13,3.13,0.0
+SP2,2223,2023-05-01,Burgos,Villarreal B,3.02,3.02,0.0
+SP2,2223,2023-05-05,Alaves,Granada,3.06,3.06,0.0
+SP2,2223,2023-05-06,Leganes,Huesca,2.91,2.91,0.0
+SP2,2223,2023-05-06,Tenerife,Leganes,2.89,2.89,0.0
+SP2,2223,2023-05-06,Mirandes,Santander,3.05,3.05,0.0
+SP2,2223,2023-05-07,Ponferradina,Malaga,2.97,2.97,0.0
+SP2,2223,2023-05-07,Lugo,Andorra,3.36,3.36,0.0
+SP2,2223,2023-05-07,Oviedo,Zaragoza,2.83,2.83,0.0
+SP2,2223,2023-05-07,Cartagena,Burgos,3.35,3.35,0.0
+SP2,2223,2023-05-07,Villarreal B,Sp Gijon,3.13,3.13,0.0
+SP2,2223,2023-05-07,Ibiza,Albacete,3.45,3.45,0.0
+SP2,2223,2023-05-08,Eibar,Las Palmas,3.05,3.05,0.0
+SP2,2223,2023-05-12,Burgos,Leganes,2.76,2.76,0.0
+SP2,2223,2023-05-13,Zaragoza,Cartagena,3.16,3.16,0.0
+SP2,2223,2023-05-13,Malaga,Mirandes,3.2,3.2,0.0
+SP2,2223,2023-05-13,Sp Gijon,Oviedo,2.87,2.87,0.0
+SP2,2223,2023-05-13,Granada,Lugo,5.66,5.66,0.0
+SP2,2223,2023-05-14,Las Palmas,Villarreal B,3.87,3.87,0.0
+SP2,2223,2023-05-14,Andorra,Tenerife,3.16,3.16,0.0
+SP2,2223,2023-05-14,Santander,Eibar,3.08,3.08,0.0
+SP2,2223,2023-05-14,Albacete,Alaves,3.09,3.09,0.0
+SP2,2223,2023-05-14,Huesca,Ponferradina,3.15,3.15,0.0
+SP2,2223,2023-05-15,Leganes,Ibiza,4.77,4.77,0.0
+SP2,2223,2023-05-20,Villarreal B,Leganes,3.42,3.42,0.0
+SP2,2223,2023-05-20,Ibiza,Zaragoza,3.23,3.23,0.0
+SP2,2223,2023-05-20,Alaves,Malaga,3.48,3.48,0.0
+SP2,2223,2023-05-20,Cartagena,Las Palmas,3.26,3.26,0.0
+SP2,2223,2023-05-20,Eibar,Sp Gijon,3.33,3.33,0.0
+SP2,2223,2023-05-20,Lugo,Huesca,3.11,3.11,0.0
+SP2,2223,2023-05-20,Mirandes,Granada,3.54,3.54,0.0
+SP2,2223,2023-05-20,Ponferradina,Albacete,3.44,3.44,0.0
+SP2,2223,2023-05-20,Tenerife,Burgos,3.19,3.19,0.0
+SP2,2223,2023-05-21,Leganes,Andorra,3.01,3.01,0.0
+SP2,2223,2023-05-21,Oviedo,Santander,3.09,3.09,0.0
+SP2,2223,2023-05-26,Zaragoza,Tenerife,3.13,3.13,0.0
+SP2,2223,2023-05-27,Granada,Leganes,4.21,4.21,0.0
+SP2,2223,2023-05-27,Huesca,Eibar,3.22,3.22,0.0
+SP2,2223,2023-05-27,Las Palmas,Alaves,3.22,3.22,0.0
+SP2,2223,2023-05-27,Burgos,Lugo,3.55,3.55,0.0
+SP2,2223,2023-05-27,Andorra,Villarreal B,3.22,3.22,0.0
+SP2,2223,2023-05-27,Leganes,Oviedo,4.12,4.12,0.0
+SP2,2223,2023-05-27,Albacete,Mirandes,3.64,3.64,0.0
+SP2,2223,2023-05-27,Malaga,Ibiza,3.88,3.88,0.0
+SP2,2223,2023-05-28,Sp Gijon,Ponferradina,3.42,3.42,0.0
+SP2,2223,2023-05-28,Santander,Cartagena,3.17,3.17,0.0

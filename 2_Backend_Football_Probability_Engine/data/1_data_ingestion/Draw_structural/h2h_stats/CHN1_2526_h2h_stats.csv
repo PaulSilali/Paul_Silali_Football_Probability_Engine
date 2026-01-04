@@ -1,0 +1,80 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+681,Shanghai Port FC,684,Shenzhen Peng City,2526,1,0,0.0,4.0
+675,Shanghai Shenhua,679,Shandong Taishan,2526,1,0,0.0,1.0
+678,Zhejiang Professional,682,Dalian Yingbo,2526,1,1,1.0,2.0
+677,Qingdao Hainiu,685,Meizhou Hakka,2526,1,1,1.0,2.0
+680,Tianjin Jinmen Tiger,686,Beijing Guoan,2526,1,1,1.0,4.0
+674,Chengdu Rongcheng,679,Shandong Taishan,2526,1,0,0.0,3.0
+687,Qingdao West Coast,689,Henan FC,2526,1,0,0.0,5.0
+679,Shandong Taishan,689,Henan FC,2526,1,1,1.0,
+684,Shenzhen Peng City,689,Henan FC,2526,1,0,0.0,4.0
+678,Zhejiang Professional,685,Meizhou Hakka,2526,1,1,1.0,4.0
+682,Dalian Yingbo,689,Henan FC,2526,1,0,0.0,1.0
+677,Qingdao Hainiu,679,Shandong Taishan,2526,1,1,1.0,2.0
+674,Chengdu Rongcheng,677,Qingdao Hainiu,2526,1,0,0.0,1.0
+676,Yunnan Yukun,686,Beijing Guoan,2526,1,0,0.0,2.0
+674,Chengdu Rongcheng,675,Shanghai Shenhua,2526,1,0,0.0,1.0
+674,Chengdu Rongcheng,688,Wuhan Three Towns,2526,1,0,0.0,1.0
+680,Tianjin Jinmen Tiger,688,Wuhan Three Towns,2526,1,0,0.0,3.0
+680,Tianjin Jinmen Tiger,684,Shenzhen Peng City,2526,1,0,0.0,1.0
+679,Shandong Taishan,683,Changchun Yatai,2526,1,0,0.0,3.0
+683,Changchun Yatai,688,Wuhan Three Towns,2526,1,1,1.0,2.0
+676,Yunnan Yukun,682,Dalian Yingbo,2526,1,0,0.0,5.0
+685,Meizhou Hakka,689,Henan FC,2526,1,0,0.0,3.0
+684,Shenzhen Peng City,685,Meizhou Hakka,2526,1,0,0.0,3.0
+676,Yunnan Yukun,681,Shanghai Port FC,2526,1,0,0.0,5.0
+675,Shanghai Shenhua,681,Shanghai Port FC,2526,1,1,1.0,2.0
+676,Yunnan Yukun,678,Zhejiang Professional,2526,1,1,1.0,2.0
+675,Shanghai Shenhua,677,Qingdao Hainiu,2526,1,0,0.0,5.0
+683,Changchun Yatai,684,Shenzhen Peng City,2526,1,0,0.0,4.0
+678,Zhejiang Professional,687,Qingdao West Coast,2526,1,0,0.0,3.0
+674,Chengdu Rongcheng,676,Yunnan Yukun,2526,1,1,1.0,2.0
+679,Shandong Taishan,686,Beijing Guoan,2526,1,0,0.0,7.0
+679,Shandong Taishan,685,Meizhou Hakka,2526,1,0,0.0,7.0
+677,Qingdao Hainiu,689,Henan FC,2526,1,0,0.0,4.0
+680,Tianjin Jinmen Tiger,685,Meizhou Hakka,2526,1,1,1.0,4.0
+680,Tianjin Jinmen Tiger,682,Dalian Yingbo,2526,1,1,1.0,2.0
+675,Shanghai Shenhua,689,Henan FC,2526,1,0,0.0,4.0
+688,Wuhan Three Towns,689,Henan FC,2526,1,0,0.0,3.0
+676,Yunnan Yukun,688,Wuhan Three Towns,2526,1,0,0.0,4.0
+686,Beijing Guoan,689,Henan FC,2526,1,0,0.0,1.0
+680,Tianjin Jinmen Tiger,681,Shanghai Port FC,2526,1,0,0.0,5.0
+681,Shanghai Port FC,683,Changchun Yatai,2526,1,0,0.0,2.0
+678,Zhejiang Professional,686,Beijing Guoan,2526,1,0,0.0,2.0
+676,Yunnan Yukun,677,Qingdao Hainiu,2526,1,0,0.0,1.0
+678,Zhejiang Professional,688,Wuhan Three Towns,2526,1,0,0.0,4.0
+681,Shanghai Port FC,686,Beijing Guoan,2526,1,0,0.0,3.0
+677,Qingdao Hainiu,687,Qingdao West Coast,2526,1,1,1.0,4.0
+681,Shanghai Port FC,687,Qingdao West Coast,2526,1,1,1.0,6.0
+685,Meizhou Hakka,688,Wuhan Three Towns,2526,1,0,0.0,4.0
+674,Chengdu Rongcheng,680,Tianjin Jinmen Tiger,2526,1,0,0.0,3.0
+679,Shandong Taishan,682,Dalian Yingbo,2526,1,0,0.0,5.0
+674,Chengdu Rongcheng,681,Shanghai Port FC,2526,1,0,0.0,4.0
+682,Dalian Yingbo,687,Qingdao West Coast,2526,1,0,0.0,2.0
+675,Shanghai Shenhua,683,Changchun Yatai,2526,1,0,0.0,3.0
+682,Dalian Yingbo,686,Beijing Guoan,2526,1,0,0.0,2.0
+686,Beijing Guoan,688,Wuhan Three Towns,2526,1,1,1.0,8.0
+682,Dalian Yingbo,684,Shenzhen Peng City,2526,1,1,1.0,2.0
+678,Zhejiang Professional,684,Shenzhen Peng City,2526,1,0,0.0,3.0
+674,Chengdu Rongcheng,686,Beijing Guoan,2526,1,1,1.0,2.0
+682,Dalian Yingbo,683,Changchun Yatai,2526,1,0,0.0,2.0
+676,Yunnan Yukun,684,Shenzhen Peng City,2526,1,0,0.0,7.0
+685,Meizhou Hakka,687,Qingdao West Coast,2526,1,0,0.0,4.0
+677,Qingdao Hainiu,684,Shenzhen Peng City,2526,1,0,0.0,1.0
+679,Shandong Taishan,684,Shenzhen Peng City,2526,1,0,0.0,4.0
+676,Yunnan Yukun,683,Changchun Yatai,2526,1,1,1.0,
+675,Shanghai Shenhua,686,Beijing Guoan,2526,1,1,1.0,4.0
+678,Zhejiang Professional,680,Tianjin Jinmen Tiger,2526,1,0,0.0,2.0
+674,Chengdu Rongcheng,682,Dalian Yingbo,2526,1,0,0.0,2.0
+675,Shanghai Shenhua,676,Yunnan Yukun,2526,1,0,0.0,4.0
+678,Zhejiang Professional,683,Changchun Yatai,2526,1,0,0.0,6.0
+680,Tianjin Jinmen Tiger,687,Qingdao West Coast,2526,1,1,1.0,4.0
+675,Shanghai Shenhua,688,Wuhan Three Towns,2526,1,0,0.0,2.0
+687,Qingdao West Coast,688,Wuhan Three Towns,2526,1,0,0.0,2.0
+681,Shanghai Port FC,685,Meizhou Hakka,2526,1,0,0.0,3.0
+677,Qingdao Hainiu,682,Dalian Yingbo,2526,1,1,1.0,2.0
+677,Qingdao Hainiu,680,Tianjin Jinmen Tiger,2526,1,0,0.0,1.0
+675,Shanghai Shenhua,678,Zhejiang Professional,2526,1,0,0.0,5.0
+679,Shandong Taishan,687,Qingdao West Coast,2526,1,0,0.0,6.0
+683,Changchun Yatai,685,Meizhou Hakka,2526,1,0,0.0,4.0
+674,Chengdu Rongcheng,683,Changchun Yatai,2526,1,0,0.0,3.0

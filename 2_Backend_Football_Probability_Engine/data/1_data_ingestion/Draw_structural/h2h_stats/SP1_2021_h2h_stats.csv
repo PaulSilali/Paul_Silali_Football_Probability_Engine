@@ -1,0 +1,173 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+172,Osasuna,184,Huesca,2021,2,2,1.0,1.0
+166,Ath Bilbao,169,Real Madrid,2021,4,0,0.0,2.75
+176,Getafe,182,Granada,2021,2,1,0.5,0.5
+163,Alaves,184,Huesca,2021,2,0,0.0,1.0
+176,Getafe,181,Cadiz,2021,2,0,0.0,1.5
+164,Valencia,171,Levante,2021,2,0,0.0,3.5
+166,Ath Bilbao,170,Betis,2021,2,1,0.5,2.0
+173,Sociedad,182,Granada,2021,2,0,0.0,1.5
+164,Valencia,170,Betis,2021,2,1,0.5,3.0
+173,Sociedad,181,Cadiz,2021,2,0,0.0,3.0
+161,Villarreal,179,Valladolid,2021,2,0,0.0,2.0
+171,Levante,175,Sevilla,2021,2,0,0.0,1.0
+168,Elche,177,Barcelona,2021,2,0,0.0,2.5
+181,Cadiz,182,Granada,2021,2,1,0.5,1.5
+169,Real Madrid,183,Eibar,2021,4,0,0.0,3.5
+177,Barcelona,182,Granada,2021,2,0,0.0,3.5
+176,Getafe,179,Valladolid,2021,2,0,0.0,2.0
+161,Villarreal,172,Osasuna,2021,2,0,0.0,3.5
+169,Real Madrid,171,Levante,2021,4,1,0.25,2.25
+165,Celta,184,Huesca,2021,2,0,0.0,5.0
+168,Elche,170,Betis,2021,2,1,0.5,3.0
+168,Elche,173,Sociedad,2021,2,0,0.0,2.5
+181,Cadiz,183,Eibar,2021,2,0,0.0,1.5
+169,Real Madrid,177,Barcelona,2021,4,1,0.25,2.0
+171,Levante,179,Valladolid,2021,2,2,1.0,3.0
+181,Cadiz,184,Huesca,2021,2,0,0.0,2.5
+168,Elche,182,Granada,2021,2,0,0.0,2.0
+166,Ath Bilbao,172,Osasuna,2021,2,1,0.5,2.5
+161,Villarreal,169,Real Madrid,2021,4,2,0.5,1.75
+172,Osasuna,182,Granada,2021,2,0,0.0,3.0
+168,Elche,183,Eibar,2021,2,0,0.0,1.0
+166,Ath Bilbao,184,Huesca,2021,2,0,0.0,1.5
+163,Alaves,177,Barcelona,2021,2,1,0.5,4.0
+172,Osasuna,173,Sociedad,2021,2,1,0.5,1.5
+169,Real Madrid,172,Osasuna,2021,4,1,0.25,2.25
+177,Barcelona,183,Eibar,2021,2,1,0.5,1.5
+163,Alaves,171,Levante,2021,2,2,1.0,3.0
+169,Real Madrid,169,Real Madrid,2021,2,1,0.5,2.0
+164,Valencia,168,Elche,2021,2,0,0.0,2.0
+168,Elche,181,Cadiz,2021,2,1,0.5,3.0
+173,Sociedad,175,Sevilla,2021,2,0,0.0,4.0
+166,Ath Bilbao,173,Sociedad,2021,2,1,0.5,1.5
+177,Barcelona,184,Huesca,2021,2,0,0.0,3.0
+171,Levante,183,Eibar,2021,2,0,0.0,2.0
+179,Valladolid,181,Cadiz,2021,2,2,1.0,1.0
+168,Elche,171,Levante,2021,2,1,0.5,1.5
+169,Real Madrid,175,Sevilla,2021,4,1,0.25,2.0
+168,Elche,172,Osasuna,2021,2,1,0.5,3.0
+165,Celta,179,Valladolid,2021,2,2,1.0,2.0
+163,Alaves,175,Sevilla,2021,2,0,0.0,2.0
+161,Villarreal,177,Barcelona,2021,2,0,0.0,3.5
+170,Betis,183,Eibar,2021,2,1,0.5,2.0
+164,Valencia,183,Eibar,2021,2,1,0.5,2.5
+169,Real Madrid,179,Valladolid,2021,4,0,0.0,1.75
+169,Real Madrid,182,Granada,2021,4,0,0.0,4.25
+161,Villarreal,183,Eibar,2021,2,0,0.0,3.5
+161,Villarreal,170,Betis,2021,2,1,0.5,2.5
+165,Celta,183,Eibar,2021,2,2,1.0,1.0
+166,Ath Bilbao,181,Cadiz,2021,2,0,0.0,2.5
+176,Getafe,183,Eibar,2021,2,1,0.5,0.5
+168,Elche,176,Getafe,2021,2,1,0.5,3.0
+170,Betis,182,Granada,2021,2,0,0.0,2.5
+163,Alaves,181,Cadiz,2021,2,1,0.5,3.0
+165,Celta,181,Cadiz,2021,2,1,0.5,2.0
+164,Valencia,176,Getafe,2021,2,1,0.5,3.5
+164,Valencia,165,Celta,2021,2,0,0.0,2.5
+164,Valencia,181,Cadiz,2021,2,1,0.5,2.5
+161,Villarreal,163,Alaves,2021,2,0,0.0,3.5
+170,Betis,177,Barcelona,2021,2,0,0.0,6.0
+161,Villarreal,165,Celta,2021,2,0,0.0,5.0
+175,Sevilla,176,Getafe,2021,2,0,0.0,2.0
+164,Valencia,175,Sevilla,2021,2,0,0.0,1.0
+169,Real Madrid,176,Getafe,2021,4,2,0.5,0.75
+165,Celta,175,Sevilla,2021,2,0,0.0,6.5
+165,Celta,172,Osasuna,2021,2,0,0.0,2.5
+166,Ath Bilbao,171,Levante,2021,2,1,0.5,2.0
+183,Eibar,184,Huesca,2021,2,2,1.0,2.0
+168,Elche,184,Huesca,2021,2,1,0.5,2.0
+163,Alaves,166,Ath Bilbao,2021,2,1,0.5,0.5
+165,Celta,182,Granada,2021,2,1,0.5,2.0
+172,Osasuna,175,Sevilla,2021,2,0,0.0,1.5
+179,Valladolid,184,Huesca,2021,2,1,0.5,4.0
+165,Celta,176,Getafe,2021,2,1,0.5,1.5
+161,Villarreal,166,Ath Bilbao,2021,2,2,1.0,2.0
+177,Barcelona,179,Valladolid,2021,2,0,0.0,2.0
+165,Celta,168,Elche,2021,2,1,0.5,3.0
+175,Sevilla,181,Cadiz,2021,2,0,0.0,3.5
+164,Valencia,172,Osasuna,2021,2,1,0.5,3.0
+173,Sociedad,177,Barcelona,2021,2,0,0.0,5.0
+164,Valencia,179,Valladolid,2021,2,0,0.0,2.0
+165,Celta,171,Levante,2021,2,1,0.5,2.0
+170,Betis,179,Valladolid,2021,2,1,0.5,2.0
+170,Betis,171,Levante,2021,2,0,0.0,4.5
+173,Sociedad,183,Eibar,2021,2,1,0.5,1.5
+170,Betis,173,Sociedad,2021,2,1,0.5,3.5
+171,Levante,177,Barcelona,2021,2,1,0.5,3.5
+170,Betis,184,Huesca,2021,2,0,0.0,1.5
+176,Getafe,177,Barcelona,2021,2,0,0.0,4.0
+161,Villarreal,173,Sociedad,2021,2,2,1.0,2.0
+165,Celta,173,Sociedad,2021,2,0,0.0,4.0
+165,Celta,169,Real Madrid,2021,4,1,0.25,3.0
+168,Elche,175,Sevilla,2021,2,0,0.0,2.5
+161,Villarreal,164,Valencia,2021,2,0,0.0,3.0
+177,Barcelona,181,Cadiz,2021,2,1,0.5,2.5
+182,Granada,184,Huesca,2021,2,1,0.5,5.5
+166,Ath Bilbao,179,Valladolid,2021,2,1,0.5,3.5
+161,Villarreal,181,Cadiz,2021,2,1,0.5,1.5
+161,Villarreal,168,Elche,2021,2,2,1.0,2.0
+171,Levante,173,Sociedad,2021,2,0,0.0,2.0
+172,Osasuna,177,Barcelona,2021,2,0,0.0,3.0
+166,Ath Bilbao,177,Barcelona,2021,2,0,0.0,4.0
+166,Ath Bilbao,182,Granada,2021,2,0,0.0,2.5
+172,Osasuna,183,Eibar,2021,2,1,0.5,1.5
+165,Celta,177,Barcelona,2021,2,0,0.0,3.0
+169,Real Madrid,181,Cadiz,2021,4,0,0.0,3.5
+161,Villarreal,182,Granada,2021,2,1,0.5,3.5
+172,Osasuna,179,Valladolid,2021,2,1,0.5,2.5
+172,Osasuna,181,Cadiz,2021,2,0,0.0,3.5
+175,Sevilla,184,Huesca,2021,2,0,0.0,1.0
+161,Villarreal,175,Sevilla,2021,2,0,0.0,3.0
+175,Sevilla,179,Valladolid,2021,2,2,1.0,2.0
+175,Sevilla,183,Eibar,2021,2,0,0.0,1.5
+166,Ath Bilbao,168,Elche,2021,2,0,0.0,1.5
+171,Levante,184,Huesca,2021,2,1,0.5,2.0
+164,Valencia,182,Granada,2021,2,0,0.0,3.0
+170,Betis,175,Sevilla,2021,2,1,0.5,1.5
+170,Betis,176,Getafe,2021,2,0,0.0,2.0
+169,Real Madrid,173,Sociedad,2021,4,2,0.5,1.75
+172,Osasuna,176,Getafe,2021,2,1,0.5,0.5
+175,Sevilla,177,Barcelona,2021,2,1,0.5,2.0
+169,Real Madrid,184,Huesca,2021,4,1,0.25,2.5
+165,Celta,166,Ath Bilbao,2021,2,1,0.5,1.0
+168,Elche,169,Real Madrid,2021,4,1,0.25,2.5
+182,Granada,183,Eibar,2021,2,0,0.0,3.5
+163,Alaves,173,Sociedad,2021,2,1,0.5,2.0
+163,Alaves,182,Granada,2021,2,0,0.0,4.5
+164,Valencia,177,Barcelona,2021,2,1,0.5,4.5
+161,Villarreal,171,Levante,2021,2,0,0.0,4.5
+179,Valladolid,182,Granada,2021,2,0,0.0,3.5
+175,Sevilla,182,Granada,2021,2,0,0.0,2.0
+179,Valladolid,183,Eibar,2021,2,1,0.5,2.5
+169,Real Madrid,170,Betis,2021,4,2,0.5,2.25
+166,Ath Bilbao,175,Sevilla,2021,2,0,0.0,2.0
+173,Sociedad,184,Huesca,2021,2,0,0.0,3.0
+176,Getafe,184,Huesca,2021,2,0,0.0,1.5
+165,Celta,170,Betis,2021,2,0,0.0,4.0
+171,Levante,181,Cadiz,2021,2,2,1.0,4.0
+170,Betis,181,Cadiz,2021,2,0,0.0,1.0
+163,Alaves,172,Osasuna,2021,2,1,0.5,1.5
+163,Alaves,179,Valladolid,2021,2,0,0.0,1.5
+163,Alaves,168,Elche,2021,2,0,0.0,2.0
+164,Valencia,169,Real Madrid,2021,4,0,0.0,3.0
+163,Alaves,170,Betis,2021,2,0,0.0,3.0
+166,Ath Bilbao,176,Getafe,2021,2,1,0.5,4.0
+164,Valencia,173,Sociedad,2021,2,1,0.5,2.5
+164,Valencia,184,Huesca,2021,2,2,1.0,1.0
+163,Alaves,165,Celta,2021,2,0,0.0,3.0
+171,Levante,182,Granada,2021,2,2,1.0,3.0
+164,Valencia,166,Ath Bilbao,2021,2,2,1.0,3.0
+163,Alaves,183,Eibar,2021,2,0,0.0,3.0
+161,Villarreal,184,Huesca,2021,2,2,1.0,1.0
+163,Alaves,169,Real Madrid,2021,4,0,0.0,3.0
+161,Villarreal,176,Getafe,2021,2,0,0.0,2.5
+163,Alaves,164,Valencia,2021,2,2,1.0,3.0
+173,Sociedad,176,Getafe,2021,2,0,0.0,2.0
+163,Alaves,176,Getafe,2021,2,2,1.0,
+168,Elche,179,Valladolid,2021,2,2,1.0,3.0
+173,Sociedad,179,Valladolid,2021,2,1,0.5,3.5
+171,Levante,176,Getafe,2021,2,0,0.0,3.0
+171,Levante,172,Osasuna,2021,2,0,0.0,2.5
+166,Ath Bilbao,183,Eibar,2021,2,1,0.5,2.5
+170,Betis,172,Osasuna,2021,2,0,0.0,1.5

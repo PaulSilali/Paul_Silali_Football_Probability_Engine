@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+B1,2122,2021-07-23,Standard,Gent,96,96,False
+B1,2122,2021-07-24,Oud-Heverlee Leuven,Waregem,97,97,False
+B1,2122,2021-07-24,Kortrijk,Seraing,97,7,False
+B1,2122,2021-07-24,Oostende,Charleroi,97,98,False
+B1,2122,2021-07-25,Mechelen,Antwerp,98,99,False
+B1,2122,2021-07-25,Club Brugge,Eupen,98,99,False
+B1,2122,2021-07-25,Anderlecht,St. Gilloise,98,7,False
+B1,2122,2021-07-25,St Truiden,Gent,98,2,False
+B1,2122,2021-07-27,Beerschot VA,Club Brugge,100,2,True
+B1,2122,2021-07-30,Gent,Oostende,5,6,False
+B1,2122,2021-07-31,Charleroi,St Truiden,7,6,False
+B1,2122,2021-07-31,Club Brugge,Oud-Heverlee Leuven,4,7,False
+B1,2122,2021-07-31,Seraing,Mechelen,7,6,False
+B1,2122,2021-07-31,Eupen,Anderlecht,6,6,False
+B1,2122,2021-08-01,St. Gilloise,Club Brugge,7,1,False
+B1,2122,2021-08-01,Waregem,Standard,8,9,False
+B1,2122,2021-08-01,Gent,Beerschot VA,2,5,False
+B1,2122,2021-08-01,Antwerp,Kortrijk,7,8,False
+B1,2122,2021-08-06,Club Brugge,Club Brugge,5,5,False
+B1,2122,2021-08-07,Beerschot VA,St. Gilloise,6,6,False
+B1,2122,2021-08-07,Mechelen,Eupen,7,7,False
+B1,2122,2021-08-07,St Truiden,Waregem,7,6,False
+B1,2122,2021-08-07,Kortrijk,Gent,6,6,False
+B1,2122,2021-08-08,Standard,Antwerp,7,7,False
+B1,2122,2021-08-08,Oud-Heverlee Leuven,Charleroi,8,8,False
+B1,2122,2021-08-08,Anderlecht,Seraing,8,8,False
+B1,2122,2021-08-08,Oostende,Gent,9,1,False
+B1,2122,2021-08-13,Charleroi,Antwerp,5,5,False
+B1,2122,2021-08-14,St. Gilloise,Kortrijk,7,7,False
+B1,2122,2021-08-14,Eupen,St Truiden,7,7,False
+B1,2122,2021-08-14,Seraing,Oostende,6,6,False
+B1,2122,2021-08-14,Gent,Oud-Heverlee Leuven,6,6,False
+B1,2122,2021-08-15,Beerschot VA,Standard,8,7,False
+B1,2122,2021-08-15,Gent,Mechelen,1,8,False
+B1,2122,2021-08-15,Club Brugge,Anderlecht,9,7,False
+B1,2122,2021-08-15,Waregem,Club Brugge,8,9,False
+B1,2122,2021-08-20,Standard,Oostende,5,6,False
+B1,2122,2021-08-21,Seraing,Club Brugge,7,6,False
+B1,2122,2021-08-21,Oud-Heverlee Leuven,Eupen,7,7,False
+B1,2122,2021-08-21,St Truiden,Kortrijk,7,7,False
+B1,2122,2021-08-22,Waregem,Charleroi,7,9,False
+B1,2122,2021-08-22,Club Brugge,Beerschot VA,1,7,False
+B1,2122,2021-08-22,Mechelen,St. Gilloise,7,8,False
+B1,2122,2021-08-27,Kortrijk,Mechelen,6,5,False
+B1,2122,2021-08-28,Charleroi,Beerschot VA,6,6,False
+B1,2122,2021-08-28,Club Brugge,St Truiden,6,7,False
+B1,2122,2021-08-28,Eupen,Seraing,7,7,False
+B1,2122,2021-08-28,St. Gilloise,Standard,6,8,False
+B1,2122,2021-08-29,Gent,Club Brugge,14,1,False
+B1,2122,2021-08-29,Antwerp,Oud-Heverlee Leuven,16,8,False
+B1,2122,2021-08-29,Gent,Anderlecht,14,14,False
+B1,2122,2021-08-29,Oostende,Waregem,9,7,False
+B1,2122,2021-09-10,Club Brugge,Oostende,12,12,False
+B1,2122,2021-09-11,Eupen,Antwerp,14,13,False
+B1,2122,2021-09-11,Waregem,Club Brugge,13,1,False
+B1,2122,2021-09-12,Anderlecht,Mechelen,14,16,False
+B1,2122,2021-09-12,Gent,Charleroi,14,15,False
+B1,2122,2021-09-12,Seraing,Standard,15,15,False
+B1,2122,2021-09-12,Gent,St. Gilloise,14,15,False
+B1,2122,2021-09-12,Oud-Heverlee Leuven,Kortrijk,14,16,False
+B1,2122,2021-09-13,Beerschot VA,St Truiden,16,16,False
+B1,2122,2021-09-17,Club Brugge,Eupen,6,6,False
+B1,2122,2021-09-18,Oostende,Beerschot VA,8,5,False
+B1,2122,2021-09-18,Mechelen,Oud-Heverlee Leuven,6,6,False
+B1,2122,2021-09-18,St. Gilloise,Waregem,6,7,False
+B1,2122,2021-09-18,Charleroi,Club Brugge,6,1,False
+B1,2122,2021-09-19,St Truiden,Gent,6,7,False
+B1,2122,2021-09-19,Antwerp,Seraing,8,7,False
+B1,2122,2021-09-19,Standard,Anderlecht,7,7,False
+B1,2122,2021-09-19,Kortrijk,Gent,7,7,False
+B1,2122,2021-09-22,Antwerp,Gent,3,3,True
+B1,2122,2021-09-23,Anderlecht,Gent,4,1,True
+B1,2122,2021-09-24,Club Brugge,Oud-Heverlee Leuven,6,6,False
+B1,2122,2021-09-25,Beerschot VA,Eupen,7,8,False
+B1,2122,2021-09-25,Waregem,Kortrijk,7,6,False
+B1,2122,2021-09-25,Standard,St Truiden,6,6,False
+B1,2122,2021-09-26,St. Gilloise,Antwerp,8,4,False
+B1,2122,2021-09-26,Gent,Club Brugge,3,2,False
+B1,2122,2021-09-26,Oostende,Anderlecht,8,3,False
+B1,2122,2021-09-26,Charleroi,Mechelen,8,8,False
+B1,2122,2021-09-26,Gent,Seraing,3,7,False
+B1,2122,2021-10-01,Mechelen,Standard,5,6,False
+B1,2122,2021-10-02,Kortrijk,Charleroi,7,6,False
+B1,2122,2021-10-02,Club Brugge,St. Gilloise,6,6,False
+B1,2122,2021-10-02,St Truiden,Oostende,7,6,False
+B1,2122,2021-10-02,Oud-Heverlee Leuven,Beerschot VA,8,7,False
+B1,2122,2021-10-03,Anderlecht,Club Brugge,7,1,False
+B1,2122,2021-10-03,Seraing,Waregem,7,8,False
+B1,2122,2021-10-03,Antwerp,Gent,7,7,False
+B1,2122,2021-10-03,Eupen,Gent,8,7,False
+B1,2122,2021-10-15,Club Brugge,Kortrijk,12,13,False
+B1,2122,2021-10-16,St. Gilloise,Seraing,14,13,False
+B1,2122,2021-10-16,Oostende,Club Brugge,14,1,False
+B1,2122,2021-10-16,Waregem,Antwerp,13,13,False
+B1,2122,2021-10-16,Standard,Oud-Heverlee Leuven,15,14,False
+B1,2122,2021-10-17,St Truiden,Anderlecht,15,14,False
+B1,2122,2021-10-17,Beerschot VA,Mechelen,15,16,False
+B1,2122,2021-10-17,Charleroi,Gent,15,14,False
+B1,2122,2021-10-17,Gent,Eupen,14,14,False
+B1,2122,2021-10-22,Seraing,Charleroi,6,5,False
+B1,2122,2021-10-23,Club Brugge,Standard,7,7,False
+B1,2122,2021-10-23,Kortrijk,Oostende,8,7,False
+B1,2122,2021-10-23,Mechelen,Waregem,6,7,False
+B1,2122,2021-10-23,Eupen,St. Gilloise,6,7,False
+B1,2122,2021-10-24,Antwerp,Club Brugge,8,1,False
+B1,2122,2021-10-24,Anderlecht,Beerschot VA,7,7,False
+B1,2122,2021-10-24,Gent,Gent,7,7,False
+B1,2122,2021-10-24,Oud-Heverlee Leuven,St Truiden,8,7,False
+B1,2122,2021-10-29,Oostende,Mechelen,6,6,False
+B1,2122,2021-10-30,Charleroi,Eupen,8,7,False
+B1,2122,2021-10-30,Beerschot VA,Seraing,6,8,False
+B1,2122,2021-10-30,Standard,Kortrijk,7,7,False
+B1,2122,2021-10-30,St Truiden,Club Brugge,6,6,False
+B1,2122,2021-10-31,Waregem,Gent,8,7,False
+B1,2122,2021-10-31,Club Brugge,Antwerp,1,7,False
+B1,2122,2021-10-31,Anderlecht,Oud-Heverlee Leuven,7,7,False
+B1,2122,2021-10-31,Gent,St. Gilloise,7,8,False
+B1,2122,2021-11-05,Oud-Heverlee Leuven,Oostende,5,7,False
+B1,2122,2021-11-06,Eupen,Waregem,7,6,False
+B1,2122,2021-11-06,Kortrijk,Beerschot VA,7,7,False
+B1,2122,2021-11-06,Mechelen,St Truiden,8,7,False
+B1,2122,2021-11-06,St. Gilloise,Charleroi,6,7,False
+B1,2122,2021-11-07,Club Brugge,Standard,7,8,False
+B1,2122,2021-11-07,Seraing,Gent,8,7,False
+B1,2122,2021-11-07,Antwerp,Anderlecht,7,7,False
+B1,2122,2021-11-07,Gent,Club Brugge,7,7,False
+B1,2122,2021-11-19,Mechelen,Club Brugge,13,12,False
+B1,2122,2021-11-20,Club Brugge,Charleroi,1,14,False
+B1,2122,2021-11-20,Oud-Heverlee Leuven,Seraing,15,13,False
+B1,2122,2021-11-20,Waregem,Gent,14,13,False
+B1,2122,2021-11-20,Standard,Eupen,13,14,False
+B1,2122,2021-11-21,Anderlecht,Kortrijk,14,15,False
+B1,2122,2021-11-21,St Truiden,Antwerp,15,14,False
+B1,2122,2021-11-21,Oostende,St. Gilloise,16,15,False
+B1,2122,2021-11-21,Beerschot VA,Gent,15,1,False
+B1,2122,2021-11-26,St. Gilloise,Oud-Heverlee Leuven,5,6,False
+B1,2122,2021-11-27,Seraing,St Truiden,7,6,False
+B1,2122,2021-11-27,Club Brugge,Mechelen,7,8,False
+B1,2122,2021-11-27,Eupen,Kortrijk,7,6,False
+B1,2122,2021-11-27,Charleroi,Anderlecht,7,6,False
+B1,2122,2021-11-28,Gent,Club Brugge,7,1,False
+B1,2122,2021-11-28,Waregem,Beerschot VA,8,7,False
+B1,2122,2021-11-28,Gent,Standard,7,8,False
+B1,2122,2021-11-28,Antwerp,Oostende,7,7,False
+B1,2122,2021-12-03,St Truiden,St. Gilloise,6,7,False
+B1,2122,2021-12-04,Oud-Heverlee Leuven,Gent,8,6,False
+B1,2122,2021-12-04,Kortrijk,Club Brugge,7,6,False
+B1,2122,2021-12-04,Oostende,Eupen,6,7,False
+B1,2122,2021-12-04,Club Brugge,Seraing,6,7,False
+B1,2122,2021-12-05,Beerschot VA,Antwerp,7,7,False
+B1,2122,2021-12-05,Anderlecht,Waregem,8,7,False
+B1,2122,2021-12-05,Standard,Charleroi,7,8,False
+B1,2122,2021-12-05,Mechelen,Gent,8,1,False
+B1,2122,2021-12-10,Charleroi,Oostende,5,6,False
+B1,2122,2021-12-11,Kortrijk,Oud-Heverlee Leuven,7,7,False
+B1,2122,2021-12-11,Eupen,Beerschot VA,7,6,False
+B1,2122,2021-12-11,St Truiden,Club Brugge,8,7,False
+B1,2122,2021-12-11,Seraing,Anderlecht,7,6,False
+B1,2122,2021-12-12,Antwerp,Standard,7,7,False
+B1,2122,2021-12-12,St. Gilloise,Mechelen,9,7,False
+B1,2122,2021-12-12,Gent,Gent,7,7,False
+B1,2122,2021-12-12,Club Brugge,Waregem,1,7,False
+B1,2122,2021-12-14,Club Brugge,Seraing,2,3,True
+B1,2122,2021-12-14,Anderlecht,St Truiden,3,3,True
+B1,2122,2021-12-14,Oostende,Kortrijk,4,3,True
+B1,2122,2021-12-15,Mechelen,Gent,3,3,True
+B1,2122,2021-12-15,Waregem,St. Gilloise,3,3,True
+B1,2122,2021-12-15,Oud-Heverlee Leuven,Club Brugge,4,1,True
+B1,2122,2021-12-16,Antwerp,Eupen,4,5,True
+B1,2122,2021-12-16,Gent,Charleroi,1,6,True
+B1,2122,2021-12-17,Seraing,Kortrijk,3,3,False
+B1,2122,2021-12-18,Beerschot VA,Oostende,7,4,False
+B1,2122,2021-12-18,St. Gilloise,Club Brugge,3,3,False
+B1,2122,2021-12-18,Waregem,Mechelen,3,3,False
+B1,2122,2021-12-18,Gent,St Truiden,2,4,False
+B1,2122,2021-12-19,Club Brugge,Anderlecht,1,5,False
+B1,2122,2021-12-19,Eupen,Charleroi,3,3,False
+B1,2122,2021-12-19,Gent,Antwerp,1,3,False
+B1,2122,2021-12-19,Oud-Heverlee Leuven,Standard,4,7,False
+B1,2122,2021-12-26,Club Brugge,Club Brugge,7,7,False
+B1,2122,2021-12-26,Standard,Waregem,7,8,False
+B1,2122,2021-12-26,St. Gilloise,Gent,8,7,False
+B1,2122,2021-12-26,Oostende,Gent,8,7,False
+B1,2122,2021-12-27,Charleroi,Oud-Heverlee Leuven,8,8,False
+B1,2122,2021-12-27,Mechelen,Seraing,9,10,False
+B1,2122,2021-12-27,Beerschot VA,Anderlecht,9,8,False
+B1,2122,2021-12-27,St Truiden,Eupen,9,8,False
+B1,2122,2022-01-14,Gent,Kortrijk,19,28,False
+B1,2122,2022-01-15,Oud-Heverlee Leuven,Mechelen,19,19,False
+B1,2122,2022-01-15,Club Brugge,St Truiden,20,19,False
+B1,2122,2022-01-16,Antwerp,Charleroi,28,20,False
+B1,2122,2022-01-16,Eupen,Club Brugge,20,1,False
+B1,2122,2022-01-16,Anderlecht,Standard,20,21,False
+B1,2122,2022-01-16,Gent,Beerschot VA,2,20,False
+B1,2122,2022-01-18,Seraing,St. Gilloise,22,23,True
+B1,2122,2022-01-21,Oostende,Antwerp,26,5,False
+B1,2122,2022-01-22,Kortrijk,Eupen,8,6,False
+B1,2122,2022-01-22,Beerschot VA,Oud-Heverlee Leuven,6,7,False
+B1,2122,2022-01-22,St Truiden,Seraing,7,4,False
+B1,2122,2022-01-22,Charleroi,Gent,6,6,False
+B1,2122,2022-01-23,Standard,Club Brugge,7,7,False
+B1,2122,2022-01-23,St. Gilloise,Gent,5,1,False
+B1,2122,2022-01-23,Mechelen,Anderlecht,8,7,False
+B1,2122,2022-01-23,Club Brugge,Waregem,7,28,False
+B1,2122,2022-01-25,Antwerp,St Truiden,4,3,True
+B1,2122,2022-01-25,Charleroi,Kortrijk,3,3,True
+B1,2122,2022-01-25,Gent,Oostende,2,4,True
+B1,2122,2022-01-26,Eupen,Standard,4,3,True
+B1,2122,2022-01-26,Waregem,Oud-Heverlee Leuven,3,4,True
+B1,2122,2022-01-26,Anderlecht,Club Brugge,3,3,True
+B1,2122,2022-01-26,Seraing,Beerschot VA,4,4,True
+B1,2122,2022-01-27,Club Brugge,St. Gilloise,1,4,True
+B1,2122,2022-01-28,St Truiden,Charleroi,3,3,False
+B1,2122,2022-01-29,Beerschot VA,Waregem,3,3,False
+B1,2122,2022-01-29,Seraing,Eupen,3,3,False
+B1,2122,2022-01-29,Club Brugge,Oostende,2,4,False
+B1,2122,2022-01-30,St. Gilloise,Anderlecht,3,4,False
+B1,2122,2022-01-30,Gent,Antwerp,5,5,False
+B1,2122,2022-01-30,Standard,Mechelen,4,7,False
+B1,2122,2022-01-30,Kortrijk,Club Brugge,5,1,False
+B1,2122,2022-02-02,Kortrijk,Antwerp,3,3,True
+B1,2122,2022-02-04,Charleroi,Seraing,7,6,False
+B1,2122,2022-02-05,Kortrijk,St Truiden,3,8,False
+B1,2122,2022-02-05,Oostende,Oud-Heverlee Leuven,7,10,False
+B1,2122,2022-02-05,Standard,Club Brugge,6,6,False
+B1,2122,2022-02-05,Antwerp,St. Gilloise,3,6,False
+B1,2122,2022-02-06,Club Brugge,Gent,1,7,False
+B1,2122,2022-02-06,Mechelen,Beerschot VA,7,8,False
+B1,2122,2022-02-06,Anderlecht,Eupen,7,8,False
+B1,2122,2022-02-06,Gent,Waregem,7,8,False
+B1,2122,2022-02-09,Waregem,Oostende,3,4,True
+B1,2122,2022-02-09,Oud-Heverlee Leuven,Gent,4,3,True
+B1,2122,2022-02-11,Seraing,Antwerp,7,6,False
+B1,2122,2022-02-12,Eupen,Gent,6,3,False
+B1,2122,2022-02-12,Mechelen,Oostende,6,3,False
+B1,2122,2022-02-12,Oud-Heverlee Leuven,Club Brugge,3,6,False
+B1,2122,2022-02-12,Waregem,Anderlecht,3,6,False
+B1,2122,2022-02-13,Gent,Standard,1,8,False
+B1,2122,2022-02-13,St. Gilloise,St Truiden,8,8,False
+B1,2122,2022-02-13,Club Brugge,Charleroi,1,9,False
+B1,2122,2022-02-13,Beerschot VA,Kortrijk,7,8,False
+B1,2122,2022-02-16,Gent,Mechelen,3,4,True
+B1,2122,2022-02-19,Club Brugge,Beerschot VA,6,6,False
+B1,2122,2022-02-19,Kortrijk,Waregem,6,7,False
+B1,2122,2022-02-19,Oostende,Standard,7,6,False
+B1,2122,2022-02-19,Charleroi,St. Gilloise,6,6,False
+B1,2122,2022-02-20,Antwerp,Mechelen,9,4,False
+B1,2122,2022-02-20,Eupen,Club Brugge,8,1,False
+B1,2122,2022-02-20,Anderlecht,Gent,8,4,False
+B1,2122,2022-02-20,St Truiden,Oud-Heverlee Leuven,7,8,False
+B1,2122,2022-02-23,Gent,Seraing,3,12,True
+B1,2122,2022-02-25,Beerschot VA,Charleroi,6,6,False
+B1,2122,2022-02-26,St. Gilloise,Eupen,7,6,False
+B1,2122,2022-02-26,Mechelen,Club Brugge,6,6,False
+B1,2122,2022-02-26,Oostende,St Truiden,7,6,False
+B1,2122,2022-02-26,Oud-Heverlee Leuven,Anderlecht,6,6,False
+B1,2122,2022-02-27,Club Brugge,Antwerp,1,7,False
+B1,2122,2022-02-27,Gent,Kortrijk,4,8,False
+B1,2122,2022-02-27,Standard,Gent,8,4,False
+B1,2122,2022-02-27,Waregem,Seraing,8,4,False
+B1,2122,2022-03-02,Standard,Beerschot VA,3,5,True
+B1,2122,2022-03-04,St Truiden,Mechelen,6,6,False
+B1,2122,2022-03-05,Club Brugge,Gent,6,6,False
+B1,2122,2022-03-05,Kortrijk,St. Gilloise,6,7,False
+B1,2122,2022-03-05,Seraing,Club Brugge,6,6,False
+B1,2122,2022-03-06,Antwerp,Beerschot VA,7,4,False
+B1,2122,2022-03-06,Anderlecht,Oostende,8,8,False
+B1,2122,2022-03-06,Charleroi,Standard,9,4,False
+B1,2122,2022-03-06,Eupen,Oud-Heverlee Leuven,8,8,False
+B1,2122,2022-03-06,Gent,Waregem,1,7,False
+B1,2122,2022-03-11,Oud-Heverlee Leuven,St. Gilloise,5,6,False
+B1,2122,2022-03-12,Mechelen,Charleroi,8,6,False
+B1,2122,2022-03-12,Club Brugge,Kortrijk,7,7,False
+B1,2122,2022-03-12,Waregem,Eupen,6,6,False
+B1,2122,2022-03-12,Oostende,Club Brugge,6,7,False
+B1,2122,2022-03-13,Anderlecht,Antwerp,7,7,False
+B1,2122,2022-03-13,Gent,St Truiden,7,9,False
+B1,2122,2022-03-13,Beerschot VA,Gent,7,7,False
+B1,2122,2022-03-13,Standard,Seraing,7,8,False
+B1,2122,2022-03-18,St. Gilloise,Oostende,7,6,False
+B1,2122,2022-03-19,Eupen,Mechelen,7,7,False
+B1,2122,2022-03-19,Charleroi,Club Brugge,7,7,False
+B1,2122,2022-03-19,Seraing,Oud-Heverlee Leuven,6,8,False
+B1,2122,2022-03-19,Antwerp,Waregem,6,7,False
+B1,2122,2022-03-20,Club Brugge,Gent,1,7,False
+B1,2122,2022-03-20,Kortrijk,Standard,8,7,False
+B1,2122,2022-03-20,Gent,Anderlecht,7,7,False
+B1,2122,2022-03-20,St Truiden,Beerschot VA,7,7,False
+B1,2122,2022-04-01,Beerschot VA,Club Brugge,12,12,False
+B1,2122,2022-04-02,Waregem,St Truiden,14,13,False
+B1,2122,2022-04-02,Mechelen,Kortrijk,14,13,False
+B1,2122,2022-04-02,Oostende,Seraing,15,14,False
+B1,2122,2022-04-02,Oud-Heverlee Leuven,Antwerp,14,14,False
+B1,2122,2022-04-03,Standard,St. Gilloise,14,16,False
+B1,2122,2022-04-03,Club Brugge,Gent,2,14,False
+B1,2122,2022-04-03,Anderlecht,Charleroi,14,15,False
+B1,2122,2022-04-03,Gent,Eupen,14,15,False
+B1,2122,2022-04-09,Eupen,Oostende,6,7,False
+B1,2122,2022-04-09,Antwerp,Club Brugge,7,6,False
+B1,2122,2022-04-10,Charleroi,Waregem,7,8,False
+B1,2122,2022-04-10,Club Brugge,Mechelen,1,8,False
+B1,2122,2022-04-10,Gent,Oud-Heverlee Leuven,7,8,False
+B1,2122,2022-04-10,Kortrijk,Anderlecht,8,7,False
+B1,2122,2022-04-10,Seraing,Gent,8,7,False
+B1,2122,2022-04-10,St. Gilloise,Beerschot VA,7,9,False
+B1,2122,2022-04-10,St Truiden,Standard,8,7,False

@@ -1,0 +1,138 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,1920,2019-08-02,Dunfermline,Dundee United,7,7,False
+SC1,1920,2019-08-03,Alloa,Partick,7,7,False
+SC1,1920,2019-08-03,Arbroath,Queen of Sth,7,7,False
+SC1,1920,2019-08-03,Ayr,Morton,7,7,False
+SC1,1920,2019-08-03,Dundee United,Inverness C,1,7,False
+SC1,1920,2019-08-09,Partick,Dundee United,6,6,False
+SC1,1920,2019-08-10,Dundee United,Ayr,1,7,False
+SC1,1920,2019-08-10,Inverness C,Arbroath,7,7,False
+SC1,1920,2019-08-10,Morton,Alloa,7,7,False
+SC1,1920,2019-08-10,Queen of Sth,Dunfermline,7,8,False
+SC1,1920,2019-08-23,Morton,Partick,13,14,False
+SC1,1920,2019-08-24,Alloa,Arbroath,14,14,False
+SC1,1920,2019-08-24,Ayr,Queen of Sth,14,14,False
+SC1,1920,2019-08-24,Dundee United,Inverness C,14,14,False
+SC1,1920,2019-08-24,Dunfermline,Dundee United,14,14,False
+SC1,1920,2019-08-30,Inverness C,Morton,6,7,False
+SC1,1920,2019-08-30,Dundee United,Dundee United,6,6,False
+SC1,1920,2019-08-31,Arbroath,Dunfermline,7,7,False
+SC1,1920,2019-08-31,Partick,Ayr,8,7,False
+SC1,1920,2019-08-31,Queen of Sth,Alloa,7,7,False
+SC1,1920,2019-09-13,Arbroath,Partick,13,13,False
+SC1,1920,2019-09-14,Ayr,Dundee United,14,15,False
+SC1,1920,2019-09-14,Dundee United,Alloa,15,14,False
+SC1,1920,2019-09-14,Dunfermline,Inverness C,14,15,False
+SC1,1920,2019-09-14,Queen of Sth,Morton,14,15,False
+SC1,1920,2019-09-21,Alloa,Ayr,7,7,False
+SC1,1920,2019-09-21,Dundee United,Arbroath,7,8,False
+SC1,1920,2019-09-21,Inverness C,Queen of Sth,7,7,False
+SC1,1920,2019-09-21,Morton,Dundee United,7,7,False
+SC1,1920,2019-09-21,Partick,Dunfermline,8,7,False
+SC1,1920,2019-09-27,Queen of Sth,Dundee United,6,6,False
+SC1,1920,2019-09-28,Arbroath,Ayr,7,7,False
+SC1,1920,2019-09-28,Dundee United,Morton,1,7,False
+SC1,1920,2019-09-28,Dunfermline,Alloa,7,7,False
+SC1,1920,2019-09-28,Inverness C,Partick,7,7,False
+SC1,1920,2019-10-04,Alloa,Dundee United,6,6,False
+SC1,1920,2019-10-05,Ayr,Inverness C,7,7,False
+SC1,1920,2019-10-05,Dundee United,Arbroath,1,7,False
+SC1,1920,2019-10-05,Morton,Dunfermline,7,7,False
+SC1,1920,2019-10-05,Partick,Queen of Sth,7,8,False
+SC1,1920,2019-10-19,Arbroath,Morton,14,14,False
+SC1,1920,2019-10-19,Dundee United,Partick,14,14,False
+SC1,1920,2019-10-19,Dunfermline,Ayr,14,14,False
+SC1,1920,2019-10-19,Inverness C,Alloa,14,15,False
+SC1,1920,2019-10-19,Queen of Sth,Dundee United,14,14,False
+SC1,1920,2019-10-25,Ayr,Dundee United,6,6,False
+SC1,1920,2019-10-26,Alloa,Queen of Sth,7,7,False
+SC1,1920,2019-10-26,Dundee United,Dunfermline,1,7,False
+SC1,1920,2019-10-26,Morton,Inverness C,7,7,False
+SC1,1920,2019-10-26,Partick,Arbroath,7,7,False
+SC1,1920,2019-10-29,Alloa,Dundee United,3,3,True
+SC1,1920,2019-10-29,Dundee United,Partick,3,3,True
+SC1,1920,2019-10-29,Dunfermline,Arbroath,3,3,True
+SC1,1920,2019-10-29,Morton,Ayr,3,4,True
+SC1,1920,2019-10-29,Queen of Sth,Inverness C,3,3,True
+SC1,1920,2019-11-01,Dundee United,Morton,3,3,False
+SC1,1920,2019-11-02,Arbroath,Alloa,4,4,False
+SC1,1920,2019-11-02,Ayr,Partick,4,4,False
+SC1,1920,2019-11-02,Dunfermline,Queen of Sth,4,4,False
+SC1,1920,2019-11-02,Inverness C,Dundee United,4,1,False
+SC1,1920,2019-11-08,Dundee United,Dundee United,6,6,False
+SC1,1920,2019-11-09,Alloa,Dunfermline,7,7,False
+SC1,1920,2019-11-09,Arbroath,Inverness C,7,7,False
+SC1,1920,2019-11-09,Partick,Morton,7,8,False
+SC1,1920,2019-11-09,Queen of Sth,Ayr,7,7,False
+SC1,1920,2019-11-16,Dundee United,Queen of Sth,8,7,False
+SC1,1920,2019-11-16,Morton,Arbroath,7,7,False
+SC1,1920,2019-11-23,Inverness C,Dundee United,14,7,False
+SC1,1920,2019-11-26,Partick,Alloa,17,17,True
+SC1,1920,2019-11-30,Alloa,Inverness C,4,7,False
+SC1,1920,2019-11-30,Dundee United,Queen of Sth,7,14,False
+SC1,1920,2019-11-30,Dunfermline,Partick,21,4,False
+SC1,1920,2019-12-03,Ayr,Dunfermline,24,3,True
+SC1,1920,2019-12-07,Arbroath,Dundee United,21,7,False
+SC1,1920,2019-12-07,Dundee United,Alloa,7,7,False
+SC1,1920,2019-12-07,Dunfermline,Morton,4,21,False
+SC1,1920,2019-12-07,Inverness C,Ayr,7,4,False
+SC1,1920,2019-12-07,Queen of Sth,Partick,7,7,False
+SC1,1920,2019-12-10,Ayr,Arbroath,3,3,True
+SC1,1920,2019-12-10,Morton,Dundee United,3,3,True
+SC1,1920,2019-12-14,Arbroath,Dundee United,4,4,False
+SC1,1920,2019-12-14,Ayr,Alloa,4,7,False
+SC1,1920,2019-12-14,Dundee United,Dunfermline,4,7,False
+SC1,1920,2019-12-14,Partick,Inverness C,7,7,False
+SC1,1920,2019-12-21,Alloa,Morton,7,11,False
+SC1,1920,2019-12-21,Dundee United,Ayr,7,7,False
+SC1,1920,2019-12-21,Inverness C,Dunfermline,7,7,False
+SC1,1920,2019-12-21,Partick,Dundee United,7,7,False
+SC1,1920,2019-12-21,Queen of Sth,Arbroath,14,7,False
+SC1,1920,2019-12-27,Dundee United,Dundee United,6,6,False
+SC1,1920,2019-12-28,Ayr,Queen of Sth,7,7,False
+SC1,1920,2019-12-28,Dunfermline,Alloa,7,7,False
+SC1,1920,2019-12-28,Inverness C,Arbroath,7,7,False
+SC1,1920,2019-12-28,Morton,Partick,7,7,False
+SC1,1920,2020-01-04,Alloa,Partick,7,7,False
+SC1,1920,2020-01-04,Arbroath,Morton,7,7,False
+SC1,1920,2020-01-04,Dundee United,Inverness C,8,7,False
+SC1,1920,2020-01-04,Dunfermline,Ayr,7,7,False
+SC1,1920,2020-01-04,Queen of Sth,Dundee United,7,8,False
+SC1,1920,2020-01-11,Morton,Dunfermline,7,7,False
+SC1,1920,2020-01-11,Partick,Dundee United,7,7,False
+SC1,1920,2020-01-21,Alloa,Arbroath,17,17,True
+SC1,1920,2020-01-24,Dunfermline,Dundee United,13,13,False
+SC1,1920,2020-01-25,Arbroath,Partick,4,14,False
+SC1,1920,2020-01-25,Ayr,Inverness C,21,21,False
+SC1,1920,2020-01-25,Dundee United,Morton,1,14,False
+SC1,1920,2020-01-25,Queen of Sth,Alloa,21,4,False
+SC1,1920,2020-01-31,Partick,Ayr,6,6,False
+SC1,1920,2020-02-01,Dundee United,Arbroath,7,7,False
+SC1,1920,2020-02-01,Inverness C,Alloa,7,7,False
+SC1,1920,2020-02-01,Morton,Dundee United,7,7,False
+SC1,1920,2020-02-01,Queen of Sth,Dunfermline,7,8,False
+SC1,1920,2020-02-08,Dundee United,Partick,7,8,False
+SC1,1920,2020-02-08,Morton,Queen of Sth,7,7,False
+SC1,1920,2020-02-14,Alloa,Dundee United,13,6,False
+SC1,1920,2020-02-15,Arbroath,Queen of Sth,14,7,False
+SC1,1920,2020-02-21,Dundee United,Inverness C,7,20,False
+SC1,1920,2020-02-22,Morton,Alloa,14,8,False
+SC1,1920,2020-02-22,Queen of Sth,Dundee United,7,1,False
+SC1,1920,2020-02-25,Ayr,Morton,25,3,True
+SC1,1920,2020-02-25,Dunfermline,Inverness C,24,4,True
+SC1,1920,2020-02-29,Alloa,Ayr,7,4,False
+SC1,1920,2020-02-29,Dunfermline,Dundee United,4,7,False
+SC1,1920,2020-02-29,Queen of Sth,Morton,7,4,False
+SC1,1920,2020-03-03,Ayr,Dundee United,3,3,True
+SC1,1920,2020-03-03,Dundee United,Alloa,3,3,True
+SC1,1920,2020-03-03,Inverness C,Morton,7,3,True
+SC1,1920,2020-03-03,Partick,Queen of Sth,24,3,True
+SC1,1920,2020-03-04,Arbroath,Dunfermline,18,4,True
+SC1,1920,2020-03-07,Alloa,Inverness C,4,4,False
+SC1,1920,2020-03-07,Ayr,Dundee United,4,4,False
+SC1,1920,2020-03-07,Dundee United,Partick,4,4,False
+SC1,1920,2020-03-07,Dunfermline,Queen of Sth,3,4,False
+SC1,1920,2020-03-07,Morton,Arbroath,4,3,False
+SC1,1920,2020-03-10,Dundee United,Ayr,3,3,True
+SC1,1920,2020-03-10,Inverness C,Queen of Sth,3,3,True
+SC1,1920,2020-03-10,Partick,Dunfermline,3,3,True

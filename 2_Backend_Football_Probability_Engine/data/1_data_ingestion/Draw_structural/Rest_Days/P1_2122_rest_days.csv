@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+P1,2122,2021-08-06,Sp Lisbon,Vizela,79,7,False
+P1,2122,2021-08-07,Arouca,Estoril,7,7,False
+P1,2122,2021-08-07,Maritimo,Sp Braga,80,80,False
+P1,2122,2021-08-07,Moreirense,Benfica,80,80,False
+P1,2122,2021-08-08,Porto,Belenenses,81,81,False
+P1,2122,2021-08-08,Guimaraes,Portimonense,81,81,False
+P1,2122,2021-08-08,Tondela,Santa Clara,82,81,False
+P1,2122,2021-08-08,Pacos Ferreira,Famalicao,82,81,False
+P1,2122,2021-08-09,Gil Vicente,Boavista,82,82,False
+P1,2122,2021-08-13,Estoril,Guimaraes,6,5,False
+P1,2122,2021-08-14,Benfica,Arouca,7,7,False
+P1,2122,2021-08-14,Sp Braga,Sp Lisbon,7,8,False
+P1,2122,2021-08-14,Vizela,Tondela,8,6,False
+P1,2122,2021-08-15,Famalicao,Porto,7,7,False
+P1,2122,2021-08-15,Santa Clara,Moreirense,7,8,False
+P1,2122,2021-08-15,Portimonense,Gil Vicente,7,6,False
+P1,2122,2021-08-16,Belenenses,Maritimo,8,9,False
+P1,2122,2021-08-16,Boavista,Pacos Ferreira,7,8,False
+P1,2122,2021-08-20,Moreirense,Sp Braga,5,6,False
+P1,2122,2021-08-20,Arouca,Famalicao,6,5,False
+P1,2122,2021-08-21,Sp Lisbon,Belenenses,7,5,False
+P1,2122,2021-08-21,Gil Vicente,Benfica,6,7,False
+P1,2122,2021-08-22,Maritimo,Porto,6,7,False
+P1,2122,2021-08-22,Guimaraes,Vizela,9,8,False
+P1,2122,2021-08-22,Tondela,Portimonense,8,7,False
+P1,2122,2021-08-23,Boavista,Santa Clara,7,8,False
+P1,2122,2021-08-23,Pacos Ferreira,Estoril,7,10,False
+P1,2122,2021-08-27,Estoril,Maritimo,4,5,False
+P1,2122,2021-08-27,Belenenses,Moreirense,6,7,False
+P1,2122,2021-08-28,Porto,Arouca,6,8,False
+P1,2122,2021-08-28,Famalicao,Sp Lisbon,8,7,False
+P1,2122,2021-08-28,Vizela,Boavista,6,5,False
+P1,2122,2021-08-29,Portimonense,Pacos Ferreira,7,6,False
+P1,2122,2021-08-29,Santa Clara,Gil Vicente,6,8,False
+P1,2122,2021-08-29,Benfica,Tondela,8,7,False
+P1,2122,2021-08-29,Sp Braga,Guimaraes,9,7,False
+P1,2122,2021-09-11,Pacos Ferreira,Sp Braga,13,13,False
+P1,2122,2021-09-11,Santa Clara,Benfica,13,13,False
+P1,2122,2021-09-11,Sp Lisbon,Porto,14,14,False
+P1,2122,2021-09-12,Moreirense,Famalicao,16,15,False
+P1,2122,2021-09-12,Boavista,Portimonense,15,14,False
+P1,2122,2021-09-12,Gil Vicente,Vizela,14,15,False
+P1,2122,2021-09-12,Guimaraes,Belenenses,14,16,False
+P1,2122,2021-09-13,Tondela,Estoril,15,17,False
+P1,2122,2021-09-13,Maritimo,Arouca,17,16,False
+P1,2122,2021-09-17,Portimonense,Santa Clara,5,6,False
+P1,2122,2021-09-18,Belenenses,Gil Vicente,6,6,False
+P1,2122,2021-09-18,Arouca,Guimaraes,5,6,False
+P1,2122,2021-09-18,Famalicao,Maritimo,6,5,False
+P1,2122,2021-09-19,Porto,Moreirense,8,7,False
+P1,2122,2021-09-19,Estoril,Sp Lisbon,6,8,False
+P1,2122,2021-09-19,Vizela,Pacos Ferreira,7,8,False
+P1,2122,2021-09-20,Sp Braga,Tondela,9,7,False
+P1,2122,2021-09-20,Benfica,Boavista,9,8,False
+P1,2122,2021-09-24,Gil Vicente,Porto,6,5,False
+P1,2122,2021-09-24,Sp Lisbon,Maritimo,5,6,False
+P1,2122,2021-09-25,Guimaraes,Benfica,7,5,False
+P1,2122,2021-09-25,Tondela,Famalicao,5,7,False
+P1,2122,2021-09-25,Moreirense,Arouca,6,7,False
+P1,2122,2021-09-26,Portimonense,Vizela,9,7,False
+P1,2122,2021-09-26,Santa Clara,Sp Braga,9,6,False
+P1,2122,2021-09-27,Boavista,Estoril,7,8,False
+P1,2122,2021-09-27,Pacos Ferreira,Belenenses,8,9,False
+P1,2122,2021-10-01,Famalicao,Guimaraes,6,6,False
+P1,2122,2021-10-01,Maritimo,Moreirense,7,6,False
+P1,2122,2021-10-02,Porto,Pacos Ferreira,8,5,False
+P1,2122,2021-10-02,Arouca,Sp Lisbon,7,8,False
+P1,2122,2021-10-02,Vizela,Santa Clara,6,6,False
+P1,2122,2021-10-03,Benfica,Portimonense,8,7,False
+P1,2122,2021-10-03,Estoril,Gil Vicente,6,9,False
+P1,2122,2021-10-03,Sp Braga,Boavista,7,6,False
+P1,2122,2021-10-03,Belenenses,Tondela,6,8,False
+P1,2122,2021-10-22,Guimaraes,Maritimo,21,21,False
+P1,2122,2021-10-23,Santa Clara,Famalicao,21,22,False
+P1,2122,2021-10-23,Tondela,Porto,20,21,False
+P1,2122,2021-10-23,Sp Lisbon,Moreirense,21,22,False
+P1,2122,2021-10-24,Vizela,Benfica,22,21,False
+P1,2122,2021-10-24,Pacos Ferreira,Arouca,22,22,False
+P1,2122,2021-10-24,Portimonense,Estoril,21,21,False
+P1,2122,2021-10-25,Gil Vicente,Sp Braga,22,22,False
+P1,2122,2021-10-25,Boavista,Belenenses,22,22,False
+P1,2122,2021-10-29,Arouca,Tondela,5,6,False
+P1,2122,2021-10-30,Estoril,Benfica,6,6,False
+P1,2122,2021-10-30,Sp Lisbon,Guimaraes,7,8,False
+P1,2122,2021-10-30,Porto,Boavista,7,5,False
+P1,2122,2021-10-31,Belenenses,Santa Clara,6,8,False
+P1,2122,2021-10-31,Famalicao,Vizela,8,7,False
+P1,2122,2021-10-31,Maritimo,Gil Vicente,9,6,False
+P1,2122,2021-11-01,Moreirense,Pacos Ferreira,9,8,False
+P1,2122,2021-11-01,Sp Braga,Portimonense,7,8,False
+P1,2122,2021-11-05,Boavista,Famalicao,6,5,False
+P1,2122,2021-11-05,Gil Vicente,Arouca,5,7,False
+P1,2122,2021-11-06,Portimonense,Belenenses,5,6,False
+P1,2122,2021-11-06,Guimaraes,Moreirense,7,5,False
+P1,2122,2021-11-06,Vizela,Estoril,6,7,False
+P1,2122,2021-11-07,Santa Clara,Porto,7,8,False
+P1,2122,2021-11-07,Pacos Ferreira,Sp Lisbon,6,8,False
+P1,2122,2021-11-07,Benfica,Sp Braga,8,6,False
+P1,2122,2021-11-07,Tondela,Maritimo,9,7,False
+P1,2122,2021-11-26,Moreirense,Gil Vicente,20,21,False
+P1,2122,2021-11-27,Arouca,Boavista,22,22,False
+P1,2122,2021-11-27,Belenenses,Benfica,21,20,False
+P1,2122,2021-11-27,Famalicao,Portimonense,22,21,False
+P1,2122,2021-11-28,Sp Lisbon,Tondela,21,21,False
+P1,2122,2021-11-28,Porto,Guimaraes,21,22,False
+P1,2122,2021-11-28,Maritimo,Pacos Ferreira,21,21,False
+P1,2122,2021-11-29,Estoril,Santa Clara,23,22,False
+P1,2122,2021-11-30,Sp Braga,Vizela,23,24,True
+P1,2122,2021-12-03,Benfica,Sp Lisbon,6,5,False
+P1,2122,2021-12-03,Portimonense,Porto,6,5,False
+P1,2122,2021-12-04,Pacos Ferreira,Guimaraes,6,6,False
+P1,2122,2021-12-04,Boavista,Maritimo,7,6,False
+P1,2122,2021-12-05,Santa Clara,Arouca,6,8,False
+P1,2122,2021-12-05,Gil Vicente,Famalicao,9,8,False
+P1,2122,2021-12-05,Sp Braga,Estoril,5,6,False
+P1,2122,2021-12-10,Pacos Ferreira,Gil Vicente,6,5,False
+P1,2122,2021-12-11,Guimaraes,Tondela,7,13,False
+P1,2122,2021-12-11,Maritimo,Santa Clara,7,6,False
+P1,2122,2021-12-11,Sp Lisbon,Boavista,8,7,False
+P1,2122,2021-12-12,Moreirense,Portimonense,16,9,False
+P1,2122,2021-12-12,Famalicao,Benfica,7,9,False
+P1,2122,2021-12-12,Porto,Sp Braga,9,7,False
+P1,2122,2021-12-12,Belenenses,Estoril,15,7,False
+P1,2122,2021-12-13,Arouca,Vizela,8,13,False
+P1,2122,2021-12-17,Estoril,Famalicao,5,5,False
+P1,2122,2021-12-17,Santa Clara,Guimaraes,6,6,False
+P1,2122,2021-12-18,Tondela,Pacos Ferreira,7,8,False
+P1,2122,2021-12-18,Gil Vicente,Sp Lisbon,8,7,False
+P1,2122,2021-12-18,Portimonense,Arouca,6,5,False
+P1,2122,2021-12-19,Boavista,Moreirense,8,7,False
+P1,2122,2021-12-19,Vizela,Porto,6,7,False
+P1,2122,2021-12-19,Sp Braga,Belenenses,7,7,False
+P1,2122,2021-12-19,Benfica,Maritimo,7,8,False
+P1,2122,2021-12-28,Maritimo,Vizela,9,9,True
+P1,2122,2021-12-28,Moreirense,Estoril,9,11,True
+P1,2122,2021-12-28,Tondela,Gil Vicente,10,10,True
+P1,2122,2021-12-29,Sp Lisbon,Portimonense,11,11,True
+P1,2122,2021-12-29,Guimaraes,Boavista,12,10,True
+P1,2122,2021-12-30,Arouca,Sp Braga,12,11,True
+P1,2122,2021-12-30,Porto,Benfica,11,11,True
+P1,2122,2021-12-30,Pacos Ferreira,Santa Clara,12,13,True
+P1,2122,2022-01-02,Vizela,Belenenses,5,14,False
+P1,2122,2022-01-03,Tondela,Moreirense,6,6,False
+P1,2122,2022-01-07,Santa Clara,Sp Lisbon,8,9,False
+P1,2122,2022-01-08,Estoril,Porto,11,9,False
+P1,2122,2022-01-08,Boavista,Tondela,10,5,False
+P1,2122,2022-01-08,Vizela,Moreirense,6,5,False
+P1,2122,2022-01-09,Benfica,Pacos Ferreira,10,10,False
+P1,2122,2022-01-09,Sp Braga,Famalicao,10,23,False
+P1,2122,2022-01-09,Belenenses,Arouca,7,10,False
+P1,2122,2022-01-09,Portimonense,Maritimo,11,12,False
+P1,2122,2022-01-10,Gil Vicente,Guimaraes,13,12,False
+P1,2122,2022-01-13,Famalicao,Belenenses,4,4,True
+P1,2122,2022-01-15,Benfica,Moreirense,6,7,False
+P1,2122,2022-01-15,Boavista,Gil Vicente,7,5,False
+P1,2122,2022-01-15,Sp Braga,Maritimo,6,6,False
+P1,2122,2022-01-16,Vizela,Sp Lisbon,8,9,False
+P1,2122,2022-01-16,Santa Clara,Tondela,9,8,False
+P1,2122,2022-01-16,Famalicao,Pacos Ferreira,3,7,False
+P1,2122,2022-01-16,Belenenses,Porto,3,8,False
+P1,2122,2022-01-17,Portimonense,Guimaraes,8,7,False
+P1,2122,2022-01-21,Pacos Ferreira,Boavista,5,6,False
+P1,2122,2022-01-21,Arouca,Benfica,12,6,False
+P1,2122,2022-01-22,Tondela,Vizela,6,6,False
+P1,2122,2022-01-22,Sp Lisbon,Sp Braga,6,7,False
+P1,2122,2022-01-22,Moreirense,Santa Clara,7,6,False
+P1,2122,2022-01-23,Maritimo,Belenenses,8,7,False
+P1,2122,2022-01-23,Gil Vicente,Portimonense,8,6,False
+P1,2122,2022-01-23,Porto,Famalicao,7,7,False
+P1,2122,2022-01-23,Guimaraes,Estoril,6,15,False
+P1,2122,2022-01-27,Estoril,Arouca,4,6,True
+P1,2122,2022-01-30,Vizela,Guimaraes,8,7,False
+P1,2122,2022-01-30,Sp Braga,Moreirense,8,8,False
+P1,2122,2022-01-30,Porto,Maritimo,7,7,False
+P1,2122,2022-01-30,Portimonense,Tondela,7,8,False
+P1,2122,2022-01-31,Famalicao,Arouca,8,4,False
+P1,2122,2022-01-31,Estoril,Pacos Ferreira,4,10,False
+P1,2122,2022-02-01,Santa Clara,Boavista,10,11,True
+P1,2122,2022-02-02,Belenenses,Sp Lisbon,10,11,True
+P1,2122,2022-02-02,Benfica,Gil Vicente,12,10,True
+P1,2122,2022-02-05,Pacos Ferreira,Portimonense,5,6,False
+P1,2122,2022-02-05,Guimaraes,Sp Braga,6,6,False
+P1,2122,2022-02-05,Maritimo,Estoril,6,5,False
+P1,2122,2022-02-06,Gil Vicente,Santa Clara,4,5,False
+P1,2122,2022-02-06,Arouca,Porto,6,7,False
+P1,2122,2022-02-06,Sp Lisbon,Famalicao,4,6,False
+P1,2122,2022-02-06,Boavista,Vizela,5,7,False
+P1,2122,2022-02-07,Moreirense,Belenenses,8,5,False
+P1,2122,2022-02-07,Tondela,Benfica,8,5,False
+P1,2122,2022-02-11,Porto,Sp Lisbon,5,5,False
+P1,2122,2022-02-12,Estoril,Tondela,7,5,False
+P1,2122,2022-02-12,Benfica,Santa Clara,5,6,False
+P1,2122,2022-02-12,Sp Braga,Pacos Ferreira,7,7,False
+P1,2122,2022-02-12,Portimonense,Boavista,7,6,False
+P1,2122,2022-02-13,Famalicao,Moreirense,7,6,False
+P1,2122,2022-02-13,Belenenses,Guimaraes,6,8,False
+P1,2122,2022-02-13,Vizela,Gil Vicente,7,7,False
+P1,2122,2022-02-14,Arouca,Maritimo,8,9,False
+P1,2122,2022-02-18,Boavista,Benfica,6,6,False
+P1,2122,2022-02-19,Pacos Ferreira,Vizela,7,6,False
+P1,2122,2022-02-19,Guimaraes,Arouca,6,5,False
+P1,2122,2022-02-19,Gil Vicente,Belenenses,6,6,False
+P1,2122,2022-02-20,Sp Lisbon,Estoril,9,8,False
+P1,2122,2022-02-20,Moreirense,Porto,7,9,False
+P1,2122,2022-02-20,Tondela,Sp Braga,8,8,False
+P1,2122,2022-02-20,Maritimo,Famalicao,6,7,False
+P1,2122,2022-02-21,Santa Clara,Portimonense,9,9,False
+P1,2122,2022-02-25,Belenenses,Pacos Ferreira,6,6,False
+P1,2122,2022-02-26,Maritimo,Sp Lisbon,6,6,False
+P1,2122,2022-02-26,Arouca,Moreirense,7,6,False
+P1,2122,2022-02-26,Famalicao,Tondela,6,6,False
+P1,2122,2022-02-27,Benfica,Guimaraes,9,8,False
+P1,2122,2022-02-27,Estoril,Boavista,7,9,False
+P1,2122,2022-02-27,Porto,Gil Vicente,7,8,False
+P1,2122,2022-02-27,Vizela,Portimonense,8,6,False
+P1,2122,2022-02-28,Sp Braga,Santa Clara,8,7,False
+P1,2122,2022-03-04,Gil Vicente,Estoril,5,5,False
+P1,2122,2022-03-05,Portimonense,Benfica,6,6,False
+P1,2122,2022-03-05,Sp Lisbon,Arouca,7,7,False
+P1,2122,2022-03-05,Boavista,Sp Braga,6,5,False
+P1,2122,2022-03-06,Pacos Ferreira,Porto,9,7,False
+P1,2122,2022-03-06,Guimaraes,Famalicao,7,8,False
+P1,2122,2022-03-06,Santa Clara,Vizela,6,7,False
+P1,2122,2022-03-06,Moreirense,Maritimo,8,8,False
+P1,2122,2022-03-07,Tondela,Belenenses,9,10,False
+P1,2122,2022-03-11,Benfica,Vizela,6,5,False
+P1,2122,2022-03-12,Estoril,Portimonense,8,7,False
+P1,2122,2022-03-12,Famalicao,Santa Clara,6,6,False
+P1,2122,2022-03-12,Arouca,Pacos Ferreira,7,6,False
+P1,2122,2022-03-12,Belenenses,Boavista,5,7,False
+P1,2122,2022-03-13,Sp Braga,Gil Vicente,8,9,False
+P1,2122,2022-03-13,Maritimo,Guimaraes,7,7,False
+P1,2122,2022-03-13,Porto,Tondela,7,6,False
+P1,2122,2022-03-14,Moreirense,Sp Lisbon,8,9,False
+P1,2122,2022-03-18,Vizela,Famalicao,7,6,False
+P1,2122,2022-03-19,Santa Clara,Belenenses,7,7,False
+P1,2122,2022-03-19,Guimaraes,Sp Lisbon,6,5,False
+P1,2122,2022-03-19,Tondela,Arouca,6,7,False
+P1,2122,2022-03-20,Pacos Ferreira,Moreirense,8,6,False
+P1,2122,2022-03-20,Benfica,Estoril,9,8,False
+P1,2122,2022-03-20,Portimonense,Sp Braga,8,7,False
+P1,2122,2022-03-20,Boavista,Porto,8,7,False
+P1,2122,2022-03-20,Gil Vicente,Maritimo,7,7,False
+P1,2122,2022-04-01,Sp Braga,Benfica,12,12,False
+P1,2122,2022-04-02,Arouca,Gil Vicente,14,13,False
+P1,2122,2022-04-02,Estoril,Vizela,13,15,False
+P1,2122,2022-04-02,Famalicao,Boavista,15,13,False
+P1,2122,2022-04-02,Belenenses,Portimonense,14,13,False
+P1,2122,2022-04-03,Moreirense,Guimaraes,14,15,False
+P1,2122,2022-04-03,Sp Lisbon,Pacos Ferreira,15,14,False
+P1,2122,2022-04-03,Maritimo,Tondela,14,15,False
+P1,2122,2022-04-04,Porto,Santa Clara,15,16,False
+P1,2122,2022-04-08,Gil Vicente,Moreirense,6,5,False
+P1,2122,2022-04-09,Benfica,Belenenses,8,7,False
+P1,2122,2022-04-09,Boavista,Arouca,7,7,False
+P1,2122,2022-04-09,Tondela,Sp Lisbon,6,6,False
+P1,2122,2022-04-09,Pacos Ferreira,Maritimo,6,6,False
+P1,2122,2022-04-10,Santa Clara,Estoril,6,8,False
+P1,2122,2022-04-10,Guimaraes,Porto,7,6,False
+P1,2122,2022-04-10,Vizela,Sp Braga,8,9,False
+P1,2122,2022-04-10,Portimonense,Famalicao,8,8,False
+P1,2122,2022-04-15,Famalicao,Gil Vicente,5,7,False
+P1,2122,2022-04-15,Guimaraes,Pacos Ferreira,5,6,False
+P1,2122,2022-04-15,Arouca,Santa Clara,6,5,False
+P1,2122,2022-04-16,Belenenses,Vizela,7,6,False
+P1,2122,2022-04-16,Maritimo,Boavista,7,7,False
+P1,2122,2022-04-16,Porto,Portimonense,6,6,False
+P1,2122,2022-04-16,Moreirense,Tondela,8,7,False
+P1,2122,2022-04-17,Sp Lisbon,Benfica,8,8,False
+P1,2122,2022-04-18,Estoril,Sp Braga,8,8,False
+P1,2122,2022-04-22,Vizela,Arouca,6,7,False
+P1,2122,2022-04-23,Benfica,Famalicao,6,8,False
+P1,2122,2022-04-23,Santa Clara,Maritimo,8,7,False
+P1,2122,2022-04-23,Gil Vicente,Pacos Ferreira,8,8,False
+P1,2122,2022-04-23,Portimonense,Moreirense,7,7,False
+P1,2122,2022-04-24,Tondela,Guimaraes,8,9,False
+P1,2122,2022-04-24,Estoril,Belenenses,6,8,False
+P1,2122,2022-04-25,Boavista,Sp Lisbon,9,8,False
+P1,2122,2022-04-25,Sp Braga,Porto,7,9,False
+P1,2122,2022-04-29,Famalicao,Estoril,6,5,False
+P1,2122,2022-04-30,Maritimo,Benfica,7,7,False
+P1,2122,2022-04-30,Porto,Vizela,5,8,False
+P1,2122,2022-04-30,Belenenses,Sp Braga,6,5,False
+P1,2122,2022-04-30,Arouca,Portimonense,8,7,False
+P1,2122,2022-05-01,Moreirense,Boavista,8,6,False
+P1,2122,2022-05-01,Sp Lisbon,Gil Vicente,6,8,False
+P1,2122,2022-05-01,Guimaraes,Santa Clara,7,8,False
+P1,2122,2022-05-02,Pacos Ferreira,Tondela,9,8,False
+P1,2122,2022-05-06,Boavista,Guimaraes,5,5,False
+P1,2122,2022-05-07,Benfica,Porto,7,7,False
+P1,2122,2022-05-07,Portimonense,Sp Lisbon,7,6,False
+P1,2122,2022-05-07,Estoril,Moreirense,8,6,False
+P1,2122,2022-05-08,Vizela,Maritimo,8,8,False
+P1,2122,2022-05-08,Sp Braga,Arouca,8,8,False
+P1,2122,2022-05-08,Santa Clara,Pacos Ferreira,7,6,False
+P1,2122,2022-05-08,Gil Vicente,Tondela,7,6,False
+P1,2122,2022-05-09,Belenenses,Famalicao,9,10,False
+P1,2122,2022-05-13,Pacos Ferreira,Benfica,5,6,False
+P1,2122,2022-05-14,Arouca,Belenenses,6,5,False
+P1,2122,2022-05-14,Tondela,Boavista,6,8,False
+P1,2122,2022-05-14,Maritimo,Portimonense,6,7,False
+P1,2122,2022-05-14,Porto,Estoril,7,7,False
+P1,2122,2022-05-14,Sp Lisbon,Santa Clara,7,6,False
+P1,2122,2022-05-14,Moreirense,Vizela,7,6,False
+P1,2122,2022-05-15,Guimaraes,Gil Vicente,9,7,False
+P1,2122,2022-05-15,Famalicao,Sp Braga,6,7,False

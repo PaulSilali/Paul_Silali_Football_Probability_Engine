@@ -1,0 +1,94 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+462,Gent,464,Charleroi,2526,3,1,0.3333333333333333,2.6666666666666665
+452,Dender,460,Westerlo,2526,2,2,1.0,3.0
+453,Waregem,460,Westerlo,2526,1,0,0.0,4.0
+451,Antwerp,452,Dender,2526,1,0,0.0,3.0
+452,Dender,464,Charleroi,2526,1,0,0.0,4.0
+456,Oud-Heverlee Leuven,462,Gent,2526,3,0,0.0,3.3333333333333335
+461,Standard,463,St. Gilloise,2526,1,0,0.0,3.0
+458,St Truiden,463,St. Gilloise,2526,1,0,0.0,2.0
+460,Westerlo,461,Standard,2526,1,0,0.0,2.0
+455,Anderlecht,457,Club Brugge,2526,2,0,0.0,1.5
+451,Antwerp,459,Mechelen,2526,1,0,0.0,3.0
+454,RAAL La Louviere,456,Oud-Heverlee Leuven,2526,2,1,0.5,1.5
+456,Oud-Heverlee Leuven,463,St. Gilloise,2526,1,0,0.0,5.0
+454,RAAL La Louviere,458,St Truiden,2526,1,0,0.0,3.0
+457,Club Brugge,458,St Truiden,2526,3,1,0.3333333333333333,3.0
+456,Oud-Heverlee Leuven,460,Westerlo,2526,1,0,0.0,2.0
+454,RAAL La Louviere,457,Club Brugge,2526,2,0,0.0,2.0
+460,Westerlo,462,Gent,2526,4,2,0.5,1.25
+459,Mechelen,461,Standard,2526,2,1,0.5,1.5
+453,Waregem,457,Club Brugge,2526,3,2,0.6666666666666666,1.6666666666666667
+455,Anderlecht,459,Mechelen,2526,1,0,0.0,4.0
+451,Antwerp,462,Gent,2526,4,1,0.25,2.5
+451,Antwerp,454,RAAL La Louviere,2526,1,0,0.0,4.0
+452,Dender,459,Mechelen,2526,2,1,0.5,3.0
+454,RAAL La Louviere,455,Anderlecht,2526,1,0,0.0,1.0
+457,Club Brugge,460,Westerlo,2526,2,1,0.5,7.5
+453,Waregem,455,Anderlecht,2526,1,0,0.0,5.0
+451,Antwerp,460,Westerlo,2526,1,0,0.0,2.0
+455,Anderlecht,460,Westerlo,2526,2,0,0.0,5.5
+453,Waregem,454,RAAL La Louviere,2526,2,2,1.0,2.0
+454,RAAL La Louviere,461,Standard,2526,1,0,0.0,2.0
+456,Oud-Heverlee Leuven,464,Charleroi,2526,1,1,1.0,4.0
+458,St Truiden,462,Gent,2526,3,0,0.0,3.3333333333333335
+454,RAAL La Louviere,460,Westerlo,2526,2,1,0.5,1.5
+452,Dender,461,Standard,2526,2,1,0.5,1.5
+460,Westerlo,463,St. Gilloise,2526,1,0,0.0,2.0
+453,Waregem,458,St Truiden,2526,1,0,0.0,2.0
+452,Dender,455,Anderlecht,2526,1,0,0.0,2.0
+459,Mechelen,464,Charleroi,2526,2,0,0.0,1.5
+463,St. Gilloise,464,Charleroi,2526,2,1,0.5,3.0
+453,Waregem,462,Gent,2526,2,0,0.0,5.0
+455,Anderlecht,464,Charleroi,2526,2,0,0.0,2.0
+451,Antwerp,453,Waregem,2526,2,0,0.0,2.5
+456,Oud-Heverlee Leuven,461,Standard,2526,2,0,0.0,1.0
+459,Mechelen,460,Westerlo,2526,1,0,0.0,1.0
+459,Mechelen,462,Gent,2526,2,1,0.5,1.5
+455,Anderlecht,461,Standard,2526,1,0,0.0,1.0
+451,Antwerp,457,Club Brugge,2526,3,1,0.3333333333333333,1.3333333333333333
+457,Club Brugge,461,Standard,2526,3,0,0.0,3.0
+452,Dender,458,St Truiden,2526,1,0,0.0,2.0
+462,Gent,463,St. Gilloise,2526,3,1,0.3333333333333333,3.3333333333333335
+452,Dender,463,St. Gilloise,2526,1,0,0.0,1.0
+457,Club Brugge,464,Charleroi,2526,2,0,0.0,3.0
+453,Waregem,456,Oud-Heverlee Leuven,2526,2,1,0.5,2.0
+456,Oud-Heverlee Leuven,459,Mechelen,2526,1,1,1.0,2.0
+457,Club Brugge,459,Mechelen,2526,3,1,0.3333333333333333,2.6666666666666665
+458,St Truiden,464,Charleroi,2526,1,1,1.0,2.0
+458,St Truiden,459,Mechelen,2526,2,0,0.0,2.5
+458,St Truiden,460,Westerlo,2526,1,0,0.0,3.0
+461,Standard,464,Charleroi,2526,1,0,0.0,4.0
+457,Club Brugge,463,St. Gilloise,2526,3,1,0.3333333333333333,1.6666666666666667
+456,Oud-Heverlee Leuven,457,Club Brugge,2526,3,0,0.0,2.0
+455,Anderlecht,458,St Truiden,2526,2,1,0.5,3.5
+452,Dender,456,Oud-Heverlee Leuven,2526,1,0,0.0,1.0
+452,Dender,457,Club Brugge,2526,3,1,0.3333333333333333,3.0
+454,RAAL La Louviere,462,Gent,2526,2,1,0.5,1.5
+451,Antwerp,463,St. Gilloise,2526,1,1,1.0,2.0
+453,Waregem,459,Mechelen,2526,1,1,1.0,2.0
+457,Club Brugge,457,Club Brugge,2526,1,0,0.0,2.0
+452,Dender,462,Gent,2526,2,0,0.0,3.0
+462,Gent,462,Gent,2526,1,1,1.0,2.0
+458,St Truiden,461,Standard,2526,2,0,0.0,2.0
+451,Antwerp,461,Standard,2526,1,0,0.0,1.0
+451,Antwerp,456,Oud-Heverlee Leuven,2526,1,0,0.0,4.0
+452,Dender,453,Waregem,2526,1,1,1.0,4.0
+453,Waregem,463,St. Gilloise,2526,2,0,0.0,3.5
+452,Dender,454,RAAL La Louviere,2526,2,1,0.5,1.5
+451,Antwerp,455,Anderlecht,2526,2,2,1.0,2.0
+454,RAAL La Louviere,463,St. Gilloise,2526,1,1,1.0,
+454,RAAL La Louviere,464,Charleroi,2526,2,1,0.5,0.5
+460,Westerlo,464,Charleroi,2526,1,0,0.0,2.0
+455,Anderlecht,456,Oud-Heverlee Leuven,2526,1,1,1.0,2.0
+457,Club Brugge,462,Gent,2526,6,2,0.3333333333333333,4.333333333333333
+453,Waregem,464,Charleroi,2526,1,0,0.0,3.0
+451,Antwerp,458,St Truiden,2526,1,0,0.0,1.0
+459,Mechelen,463,St. Gilloise,2526,1,1,1.0,2.0
+451,Antwerp,464,Charleroi,2526,1,1,1.0,2.0
+453,Waregem,461,Standard,2526,1,1,1.0,
+455,Anderlecht,463,St. Gilloise,2526,2,0,0.0,1.5
+461,Standard,462,Gent,2526,2,0,0.0,3.5
+456,Oud-Heverlee Leuven,458,St Truiden,2526,1,0,0.0,3.0
+455,Anderlecht,462,Gent,2526,2,1,0.5,1.5
+454,RAAL La Louviere,459,Mechelen,2526,1,0,0.0,5.0

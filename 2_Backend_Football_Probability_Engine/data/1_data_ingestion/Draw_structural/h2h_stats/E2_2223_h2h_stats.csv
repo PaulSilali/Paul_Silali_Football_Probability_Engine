@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+75,Plymouth,92,Shrewsbury,2223,2,0,0.0,3.0
+74,Lincoln,101,Fleetwood Town,2223,2,1,0.5,3.5
+98,Derby,101,Fleetwood Town,2223,2,1,0.5,1.0
+83,Barnsley,101,Fleetwood Town,2223,2,0,0.0,2.0
+96,Oxford,106,Morecambe,2223,2,2,1.0,2.0
+94,Charlton,96,Oxford,2223,2,1,0.5,3.0
+102,Accrington,105,Ipswich,2223,2,0,0.0,2.5
+83,Barnsley,103,Forest Green,2223,2,0,0.0,4.0
+84,Exeter,94,Charlton,2223,2,0,0.0,4.5
+83,Barnsley,105,Ipswich,2223,2,1,0.5,3.5
+75,Plymouth,84,Exeter,2223,2,0,0.0,3.5
+79,Port Vale,92,Shrewsbury,2223,2,0,0.0,4.0
+94,Charlton,107,Sheffield Weds,2223,2,0,0.0,1.0
+92,Shrewsbury,101,Fleetwood Town,2223,2,0,0.0,2.0
+80,Peterboro,92,Shrewsbury,2223,2,0,0.0,3.0
+67,Luton,99,Portsmouth,2223,4,0,0.0,2.5
+96,Oxford,98,Derby,2223,2,0,0.0,3.0
+80,Peterboro,100,Cheltenham,2223,2,0,0.0,4.0
+79,Port Vale,103,Forest Green,2223,2,1,0.5,4.0
+67,Luton,98,Derby,2223,4,2,0.5,1.5
+101,Fleetwood Town,103,Forest Green,2223,2,2,1.0,1.0
+83,Barnsley,96,Oxford,2223,2,0,0.0,2.5
+88,Wycombe,99,Portsmouth,2223,2,1,0.5,3.0
+84,Exeter,105,Ipswich,2223,2,0,0.0,4.0
+80,Peterboro,90,Bristol Rvs,2223,2,1,0.5,0.5
+75,Plymouth,107,Sheffield Weds,2223,2,0,0.0,2.0
+84,Exeter,101,Fleetwood Town,2223,2,1,0.5,3.5
+67,Luton,74,Lincoln,2223,4,1,0.25,2.0
+94,Charlton,100,Cheltenham,2223,2,1,0.5,2.5
+98,Derby,100,Cheltenham,2223,2,0,0.0,3.5
+88,Wycombe,104,Milton Keynes Dons,2223,2,1,0.5,2.5
+75,Plymouth,88,Wycombe,2223,2,0,0.0,1.0
+88,Wycombe,100,Cheltenham,2223,2,0,0.0,2.0
+92,Shrewsbury,96,Oxford,2223,2,1,0.5,1.5
+94,Charlton,102,Accrington,2223,2,2,1.0,3.0
+94,Charlton,103,Forest Green,2223,2,1,0.5,1.5
+100,Cheltenham,102,Accrington,2223,2,1,0.5,0.5
+79,Port Vale,105,Ipswich,2223,2,0,0.0,4.0
+67,Luton,106,Morecambe,2223,4,2,0.5,2.0
+101,Fleetwood Town,102,Accrington,2223,2,0,0.0,5.0
+74,Lincoln,88,Wycombe,2223,2,1,0.5,1.0
+75,Plymouth,93,Cambridge,2223,2,1,0.5,2.0
+67,Luton,75,Plymouth,2223,4,2,0.5,1.75
+96,Oxford,100,Cheltenham,2223,2,0,0.0,3.5
+74,Lincoln,94,Charlton,2223,2,1,0.5,1.5
+88,Wycombe,106,Morecambe,2223,2,1,0.5,1.5
+90,Bristol Rvs,96,Oxford,2223,2,0,0.0,2.0
+96,Oxford,102,Accrington,2223,2,1,0.5,2.5
+80,Peterboro,104,Milton Keynes Dons,2223,2,0,0.0,3.5
+99,Portsmouth,107,Sheffield Weds,2223,2,1,0.5,3.5
+99,Portsmouth,100,Cheltenham,2223,2,0,0.0,3.0
+84,Exeter,106,Morecambe,2223,2,1,0.5,3.5
+90,Bristol Rvs,102,Accrington,2223,2,0,0.0,1.5
+88,Wycombe,105,Ipswich,2223,2,0,0.0,2.5
+99,Portsmouth,103,Forest Green,2223,2,0,0.0,1.0
+67,Luton,104,Milton Keynes Dons,2223,4,2,0.5,2.25
+90,Bristol Rvs,93,Cambridge,2223,2,0,0.0,3.0
+74,Lincoln,79,Port Vale,2223,2,0,0.0,3.0
+80,Peterboro,105,Ipswich,2223,2,0,0.0,3.0
+94,Charlton,106,Morecambe,2223,2,0,0.0,5.0
+84,Exeter,102,Accrington,2223,2,1,0.5,2.5
+99,Portsmouth,104,Milton Keynes Dons,2223,2,1,0.5,2.0
+88,Wycombe,93,Cambridge,2223,2,0,0.0,4.0
+67,Luton,67,Luton,2223,2,1,0.5,2.5
+92,Shrewsbury,104,Milton Keynes Dons,2223,2,0,0.0,2.0
+67,Luton,107,Sheffield Weds,2223,4,1,0.25,3.75
+74,Lincoln,102,Accrington,2223,2,1,0.5,2.5
+80,Peterboro,106,Morecambe,2223,2,0,0.0,3.0
+83,Barnsley,102,Accrington,2223,2,1,0.5,3.0
+84,Exeter,100,Cheltenham,2223,2,0,0.0,2.5
+103,Forest Green,104,Milton Keynes Dons,2223,2,0,0.0,2.0
+79,Port Vale,93,Cambridge,2223,2,0,0.0,1.5
+90,Bristol Rvs,106,Morecambe,2223,2,1,0.5,5.0
+92,Shrewsbury,100,Cheltenham,2223,2,0,0.0,1.5
+92,Shrewsbury,94,Charlton,2223,2,0,0.0,3.5
+93,Cambridge,94,Charlton,2223,2,1,0.5,2.5
+83,Barnsley,99,Portsmouth,2223,2,1,0.5,3.0
+84,Exeter,96,Oxford,2223,2,0,0.0,3.5
+102,Accrington,104,Milton Keynes Dons,2223,2,1,0.5,1.5
+90,Bristol Rvs,98,Derby,2223,2,1,0.5,4.0
+83,Barnsley,107,Sheffield Weds,2223,2,0,0.0,4.0
+92,Shrewsbury,106,Morecambe,2223,2,1,0.5,2.0
+92,Shrewsbury,93,Cambridge,2223,2,0,0.0,4.5
+83,Barnsley,106,Morecambe,2223,2,0,0.0,3.0
+99,Portsmouth,105,Ipswich,2223,2,1,0.5,4.5
+93,Cambridge,99,Portsmouth,2223,2,0,0.0,3.0
+93,Cambridge,105,Ipswich,2223,2,1,0.5,2.5
+74,Lincoln,107,Sheffield Weds,2223,2,2,1.0,2.0
+101,Fleetwood Town,105,Ipswich,2223,2,2,1.0,3.0
+98,Derby,104,Milton Keynes Dons,2223,2,1,0.5,3.0
+92,Shrewsbury,99,Portsmouth,2223,2,2,1.0,2.0
+88,Wycombe,92,Shrewsbury,2223,2,0,0.0,2.5
+79,Port Vale,80,Peterboro,2223,2,0,0.0,2.5
+80,Peterboro,84,Exeter,2223,2,0,0.0,4.5
+88,Wycombe,90,Bristol Rvs,2223,2,0,0.0,2.5
+84,Exeter,98,Derby,2223,2,1,0.5,1.5
+93,Cambridge,102,Accrington,2223,2,0,0.0,2.0
+74,Lincoln,84,Exeter,2223,2,1,0.5,2.5
+84,Exeter,103,Forest Green,2223,2,1,0.5,3.0
+103,Forest Green,106,Morecambe,2223,2,1,0.5,2.5
+74,Lincoln,92,Shrewsbury,2223,2,0,0.0,1.5
+84,Exeter,99,Portsmouth,2223,2,1,0.5,1.0
+75,Plymouth,101,Fleetwood Town,2223,2,1,0.5,1.5
+74,Lincoln,106,Morecambe,2223,2,0,0.0,4.0
+74,Lincoln,96,Oxford,2223,2,0,0.0,2.0
+67,Luton,88,Wycombe,2223,4,0,0.0,2.5
+96,Oxford,103,Forest Green,2223,2,1,0.5,2.5
+67,Luton,100,Cheltenham,2223,4,1,0.25,0.75
+84,Exeter,92,Shrewsbury,2223,2,1,0.5,2.5
+92,Shrewsbury,103,Forest Green,2223,2,0,0.0,2.5
+75,Plymouth,103,Forest Green,2223,2,0,0.0,2.5
+105,Ipswich,107,Sheffield Weds,2223,2,2,1.0,4.0
+75,Plymouth,80,Peterboro,2223,2,0,0.0,4.5
+80,Peterboro,99,Portsmouth,2223,2,0,0.0,3.0
+93,Cambridge,107,Sheffield Weds,2223,2,0,0.0,3.5
+90,Bristol Rvs,99,Portsmouth,2223,2,0,0.0,3.0
+98,Derby,106,Morecambe,2223,2,1,0.5,3.5
+67,Luton,102,Accrington,2223,4,2,0.5,3.5
+67,Luton,83,Barnsley,2223,4,1,0.25,2.0
+92,Shrewsbury,107,Sheffield Weds,2223,2,0,0.0,2.0
+98,Derby,107,Sheffield Weds,2223,2,1,0.5,0.5
+96,Oxford,105,Ipswich,2223,2,0,0.0,3.0
+74,Lincoln,105,Ipswich,2223,2,1,0.5,1.5
+79,Port Vale,102,Accrington,2223,2,1,0.5,2.5
+102,Accrington,107,Sheffield Weds,2223,2,0,0.0,2.0
+92,Shrewsbury,98,Derby,2223,2,2,1.0,2.0
+83,Barnsley,100,Cheltenham,2223,2,0,0.0,2.5
+75,Plymouth,102,Accrington,2223,2,0,0.0,2.5
+75,Plymouth,90,Bristol Rvs,2223,2,1,0.5,3.0
+104,Milton Keynes Dons,107,Sheffield Weds,2223,2,0,0.0,4.0
+79,Port Vale,96,Oxford,2223,2,1,0.5,2.0
+79,Port Vale,98,Derby,2223,2,0,0.0,3.0
+88,Wycombe,107,Sheffield Weds,2223,2,0,0.0,2.5
+79,Port Vale,106,Morecambe,2223,2,0,0.0,1.0
+67,Luton,101,Fleetwood Town,2223,4,0,0.0,2.75
+93,Cambridge,101,Fleetwood Town,2223,2,0,0.0,2.0
+83,Barnsley,94,Charlton,2223,2,0,0.0,3.0
+102,Accrington,106,Morecambe,2223,2,0,0.0,3.0
+79,Port Vale,88,Wycombe,2223,2,1,0.5,3.5
+100,Cheltenham,101,Fleetwood Town,2223,2,1,0.5,0.5
+74,Lincoln,103,Forest Green,2223,2,2,1.0,2.0
+80,Peterboro,101,Fleetwood Town,2223,2,0,0.0,1.0
+100,Cheltenham,106,Morecambe,2223,2,0,0.0,2.0
+88,Wycombe,103,Forest Green,2223,2,0,0.0,2.0
+102,Accrington,103,Forest Green,2223,2,0,0.0,3.0
+84,Exeter,88,Wycombe,2223,2,1,0.5,3.0
+96,Oxford,104,Milton Keynes Dons,2223,2,1,0.5,2.5
+90,Bristol Rvs,100,Cheltenham,2223,2,0,0.0,4.0
+83,Barnsley,104,Milton Keynes Dons,2223,2,1,0.5,6.0
+74,Lincoln,93,Cambridge,2223,2,1,0.5,1.0
+93,Cambridge,104,Milton Keynes Dons,2223,2,0,0.0,1.0
+80,Peterboro,103,Forest Green,2223,2,0,0.0,3.5
+84,Exeter,90,Bristol Rvs,2223,2,1,0.5,5.5
+96,Oxford,101,Fleetwood Town,2223,2,1,0.5,2.5
+93,Cambridge,100,Cheltenham,2223,2,0,0.0,3.0
+75,Plymouth,98,Derby,2223,2,0,0.0,4.0
+90,Bristol Rvs,94,Charlton,2223,2,0,0.0,2.0
+100,Cheltenham,107,Sheffield Weds,2223,2,1,0.5,3.5
+80,Peterboro,98,Derby,2223,2,0,0.0,2.5
+90,Bristol Rvs,103,Forest Green,2223,2,0,0.0,3.5
+84,Exeter,93,Cambridge,2223,2,0,0.0,2.5
+93,Cambridge,98,Derby,2223,2,0,0.0,1.5
+75,Plymouth,105,Ipswich,2223,2,1,0.5,2.5
+106,Morecambe,107,Sheffield Weds,2223,2,0,0.0,3.0
+101,Fleetwood Town,106,Morecambe,2223,2,1,0.5,1.5
+79,Port Vale,83,Barnsley,2223,2,1,0.5,3.0
+103,Forest Green,107,Sheffield Weds,2223,2,0,0.0,3.0
+67,Luton,90,Bristol Rvs,2223,4,1,0.25,3.5
+75,Plymouth,83,Barnsley,2223,2,0,0.0,2.0
+90,Bristol Rvs,104,Milton Keynes Dons,2223,2,0,0.0,1.5
+75,Plymouth,100,Cheltenham,2223,2,0,0.0,3.5
+90,Bristol Rvs,105,Ipswich,2223,2,1,0.5,1.0
+79,Port Vale,104,Milton Keynes Dons,2223,2,0,0.0,2.0
+94,Charlton,101,Fleetwood Town,2223,2,1,0.5,2.5
+92,Shrewsbury,105,Ipswich,2223,2,0,0.0,2.5
+75,Plymouth,79,Port Vale,2223,2,0,0.0,3.0
+90,Bristol Rvs,101,Fleetwood Town,2223,2,1,0.5,3.5
+84,Exeter,104,Milton Keynes Dons,2223,2,0,0.0,1.5
+104,Milton Keynes Dons,106,Morecambe,2223,2,0,0.0,2.5
+98,Derby,105,Ipswich,2223,2,0,0.0,1.5
+67,Luton,92,Shrewsbury,2223,4,0,0.0,3.25
+75,Plymouth,99,Portsmouth,2223,2,1,0.5,4.0
+79,Port Vale,100,Cheltenham,2223,2,2,1.0,2.0
+79,Port Vale,99,Portsmouth,2223,2,1,0.5,2.5
+80,Peterboro,102,Accrington,2223,2,0,0.0,3.5
+94,Charlton,98,Derby,2223,2,0,0.0,1.5
+74,Lincoln,104,Milton Keynes Dons,2223,2,2,1.0,1.0
+99,Portsmouth,102,Accrington,2223,2,0,0.0,2.5
+74,Lincoln,75,Plymouth,2223,2,1,0.5,2.0
+93,Cambridge,103,Forest Green,2223,2,0,0.0,2.5
+74,Lincoln,80,Peterboro,2223,2,0,0.0,3.5
+94,Charlton,105,Ipswich,2223,2,1,0.5,7.0
+79,Port Vale,94,Charlton,2223,2,0,0.0,3.0
+74,Lincoln,90,Bristol Rvs,2223,2,0,0.0,5.0
+104,Milton Keynes Dons,105,Ipswich,2223,2,0,0.0,2.0
+83,Barnsley,88,Wycombe,2223,2,0,0.0,2.0
+67,Luton,93,Cambridge,2223,4,2,0.5,2.5
+88,Wycombe,101,Fleetwood Town,2223,2,1,0.5,2.0
+83,Barnsley,90,Bristol Rvs,2223,2,1,0.5,1.5
+101,Fleetwood Town,107,Sheffield Weds,2223,2,0,0.0,2.0
+80,Peterboro,88,Wycombe,2223,2,0,0.0,3.5
+75,Plymouth,104,Milton Keynes Dons,2223,2,0,0.0,4.5
+67,Luton,84,Exeter,2223,4,0,0.0,1.5
+67,Luton,79,Port Vale,2223,4,1,0.25,2.5
+79,Port Vale,90,Bristol Rvs,2223,2,0,0.0,1.5
+96,Oxford,107,Sheffield Weds,2223,2,2,1.0,1.0
+93,Cambridge,96,Oxford,2223,2,0,0.0,1.0
+80,Peterboro,83,Barnsley,2223,2,0,0.0,2.5
+75,Plymouth,96,Oxford,2223,2,0,0.0,2.5
+74,Lincoln,99,Portsmouth,2223,2,2,1.0,
+79,Port Vale,107,Sheffield Weds,2223,2,0,0.0,1.5
+84,Exeter,107,Sheffield Weds,2223,2,1,0.5,2.5
+80,Peterboro,107,Sheffield Weds,2223,2,0,0.0,1.5
+67,Luton,105,Ipswich,2223,4,1,0.25,2.25
+88,Wycombe,94,Charlton,2223,2,2,1.0,2.0
+103,Forest Green,105,Ipswich,2223,2,0,0.0,3.5
+99,Portsmouth,106,Morecambe,2223,2,2,1.0,1.0
+74,Lincoln,100,Cheltenham,2223,2,1,0.5,1.0
+100,Cheltenham,104,Milton Keynes Dons,2223,2,2,1.0,2.0
+94,Charlton,104,Milton Keynes Dons,2223,2,0,0.0,1.5
+105,Ipswich,106,Morecambe,2223,2,0,0.0,3.5
+74,Lincoln,83,Barnsley,2223,2,1,0.5,0.5
+92,Shrewsbury,102,Accrington,2223,2,0,0.0,1.0
+83,Barnsley,92,Shrewsbury,2223,2,0,0.0,2.0
+67,Luton,80,Peterboro,2223,4,1,0.25,3.75
+90,Bristol Rvs,107,Sheffield Weds,2223,2,1,0.5,2.5
+98,Derby,103,Forest Green,2223,2,0,0.0,3.0
+88,Wycombe,98,Derby,2223,2,0,0.0,4.0
+94,Charlton,99,Portsmouth,2223,2,0,0.0,3.5
+93,Cambridge,106,Morecambe,2223,2,1,0.5,2.5
+98,Derby,102,Accrington,2223,2,0,0.0,3.5
+80,Peterboro,93,Cambridge,2223,2,0,0.0,1.5
+101,Fleetwood Town,104,Milton Keynes Dons,2223,2,0,0.0,2.0
+83,Barnsley,84,Exeter,2223,2,0,0.0,3.0
+67,Luton,94,Charlton,2223,4,1,0.25,4.5
+80,Peterboro,96,Oxford,2223,2,1,0.5,1.5
+75,Plymouth,94,Charlton,2223,2,0,0.0,4.0
+74,Lincoln,98,Derby,2223,2,1,0.5,2.0
+80,Peterboro,94,Charlton,2223,2,2,1.0,1.0
+75,Plymouth,106,Morecambe,2223,2,0,0.0,3.5
+96,Oxford,99,Portsmouth,2223,2,2,1.0,2.0
+100,Cheltenham,105,Ipswich,2223,2,2,1.0,2.0
+90,Bristol Rvs,92,Shrewsbury,2223,2,1,0.5,2.5
+79,Port Vale,84,Exeter,2223,2,0,0.0,2.5
+83,Barnsley,98,Derby,2223,2,0,0.0,4.0
+88,Wycombe,96,Oxford,2223,2,0,0.0,1.5
+83,Barnsley,93,Cambridge,2223,2,0,0.0,2.5
+79,Port Vale,101,Fleetwood Town,2223,2,1,0.5,2.5
+88,Wycombe,102,Accrington,2223,2,0,0.0,1.5
+67,Luton,96,Oxford,2223,4,0,0.0,2.5
+98,Derby,99,Portsmouth,2223,2,2,1.0,1.0
+100,Cheltenham,103,Forest Green,2223,2,0,0.0,2.5
+99,Portsmouth,101,Fleetwood Town,2223,2,1,0.5,2.0
+67,Luton,103,Forest Green,2223,4,0,0.0,2.5

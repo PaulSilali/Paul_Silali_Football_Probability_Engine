@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,2425,2024-08-03,Montrose,Kelty Hearts,91,91,False
+SC2,2425,2024-08-03,Stenhousemuir,Arbroath,7,7,False
+SC2,2425,2024-08-03,Cove Rangers,Annan Athletic,91,91,False
+SC2,2425,2024-08-03,Inverness C,Dumbarton,7,826,False
+SC2,2425,2024-08-03,Alloa,Queen of Sth,91,91,False
+SC2,2425,2024-08-10,Annan Athletic,Inverness C,7,7,False
+SC2,2425,2024-08-10,Dumbarton,Alloa,7,7,False
+SC2,2425,2024-08-10,Kelty Hearts,Stenhousemuir,7,7,False
+SC2,2425,2024-08-10,Queen of Sth,Cove Rangers,7,7,False
+SC2,2425,2024-08-10,Arbroath,Montrose,7,7,False
+SC2,2425,2024-08-17,Inverness C,Montrose,7,7,False
+SC2,2425,2024-08-17,Queen of Sth,Annan Athletic,7,7,False
+SC2,2425,2024-08-17,Arbroath,Kelty Hearts,7,7,False
+SC2,2425,2024-08-17,Alloa,Stenhousemuir,7,7,False
+SC2,2425,2024-08-17,Cove Rangers,Dumbarton,7,7,False
+SC2,2425,2024-08-24,Stenhousemuir,Cove Rangers,7,7,False
+SC2,2425,2024-08-24,Montrose,Queen of Sth,7,7,False
+SC2,2425,2024-08-24,Annan Athletic,Alloa,7,7,False
+SC2,2425,2024-08-24,Dumbarton,Arbroath,7,7,False
+SC2,2425,2024-08-24,Kelty Hearts,Inverness C,7,7,False
+SC2,2425,2024-08-31,Inverness C,Queen of Sth,7,7,False
+SC2,2425,2024-08-31,Stenhousemuir,Annan Athletic,7,7,False
+SC2,2425,2024-08-31,Arbroath,Alloa,7,7,False
+SC2,2425,2024-08-31,Cove Rangers,Montrose,7,7,False
+SC2,2425,2024-08-31,Dumbarton,Kelty Hearts,7,7,False
+SC2,2425,2024-09-14,Alloa,Inverness C,14,14,False
+SC2,2425,2024-09-14,Annan Athletic,Dumbarton,14,14,False
+SC2,2425,2024-09-14,Kelty Hearts,Cove Rangers,14,14,False
+SC2,2425,2024-09-14,Montrose,Stenhousemuir,14,14,False
+SC2,2425,2024-09-14,Queen of Sth,Arbroath,14,14,False
+SC2,2425,2024-09-21,Inverness C,Cove Rangers,7,7,False
+SC2,2425,2024-09-21,Stenhousemuir,Queen of Sth,7,7,False
+SC2,2425,2024-09-21,Dumbarton,Montrose,7,7,False
+SC2,2425,2024-09-21,Arbroath,Annan Athletic,7,7,False
+SC2,2425,2024-09-21,Alloa,Kelty Hearts,7,7,False
+SC2,2425,2024-09-28,Queen of Sth,Dumbarton,7,7,False
+SC2,2425,2024-09-28,Cove Rangers,Arbroath,7,7,False
+SC2,2425,2024-09-28,Inverness C,Stenhousemuir,7,7,False
+SC2,2425,2024-09-28,Kelty Hearts,Annan Athletic,7,7,False
+SC2,2425,2024-09-28,Montrose,Alloa,7,7,False
+SC2,2425,2024-10-05,Dumbarton,Stenhousemuir,7,7,False
+SC2,2425,2024-10-05,Queen of Sth,Kelty Hearts,7,7,False
+SC2,2425,2024-10-05,Alloa,Cove Rangers,7,7,False
+SC2,2425,2024-10-05,Annan Athletic,Montrose,7,7,False
+SC2,2425,2024-10-05,Arbroath,Inverness C,7,7,False
+SC2,2425,2024-10-19,Inverness C,Annan Athletic,14,14,False
+SC2,2425,2024-10-19,Arbroath,Dumbarton,14,14,False
+SC2,2425,2024-10-19,Cove Rangers,Queen of Sth,14,14,False
+SC2,2425,2024-10-19,Kelty Hearts,Montrose,14,14,False
+SC2,2425,2024-10-19,Stenhousemuir,Alloa,14,14,False
+SC2,2425,2024-10-26,Stenhousemuir,Kelty Hearts,7,7,False
+SC2,2425,2024-10-26,Annan Athletic,Queen of Sth,7,7,False
+SC2,2425,2024-10-26,Montrose,Cove Rangers,7,7,False
+SC2,2425,2024-10-26,Dumbarton,Inverness C,7,7,False
+SC2,2425,2024-10-26,Alloa,Arbroath,7,7,False
+SC2,2425,2024-11-02,Inverness C,Kelty Hearts,7,7,False
+SC2,2425,2024-11-02,Queen of Sth,Montrose,7,7,False
+SC2,2425,2024-11-02,Dumbarton,Cove Rangers,7,7,False
+SC2,2425,2024-11-02,Alloa,Annan Athletic,7,7,False
+SC2,2425,2024-11-02,Arbroath,Stenhousemuir,7,7,False
+SC2,2425,2024-11-09,Montrose,Arbroath,7,7,False
+SC2,2425,2024-11-09,Queen of Sth,Alloa,7,7,False
+SC2,2425,2024-11-09,Annan Athletic,Stenhousemuir,7,7,False
+SC2,2425,2024-11-09,Cove Rangers,Inverness C,7,7,False
+SC2,2425,2024-11-09,Kelty Hearts,Dumbarton,7,7,False
+SC2,2425,2024-11-16,Inverness C,Alloa,7,7,False
+SC2,2425,2024-11-16,Stenhousemuir,Montrose,7,7,False
+SC2,2425,2024-11-16,Annan Athletic,Kelty Hearts,7,7,False
+SC2,2425,2024-11-16,Arbroath,Cove Rangers,7,7,False
+SC2,2425,2024-11-16,Dumbarton,Queen of Sth,7,7,False
+SC2,2425,2024-11-23,Montrose,Annan Athletic,7,7,False
+SC2,2425,2024-12-03,Cove Rangers,Stenhousemuir,17,17,True
+SC2,2425,2024-12-03,Alloa,Dumbarton,17,17,True
+SC2,2425,2024-12-07,Stenhousemuir,Dumbarton,4,4,False
+SC2,2425,2024-12-07,Arbroath,Queen of Sth,21,21,False
+SC2,2425,2024-12-07,Annan Athletic,Cove Rangers,14,4,False
+SC2,2425,2024-12-07,Kelty Hearts,Alloa,21,4,False
+SC2,2425,2024-12-07,Montrose,Inverness C,14,21,False
+SC2,2425,2024-12-14,Inverness C,Arbroath,7,7,False
+SC2,2425,2024-12-14,Queen of Sth,Stenhousemuir,7,7,False
+SC2,2425,2024-12-14,Dumbarton,Annan Athletic,7,7,False
+SC2,2425,2024-12-14,Cove Rangers,Kelty Hearts,7,7,False
+SC2,2425,2024-12-14,Alloa,Montrose,7,7,False
+SC2,2425,2024-12-17,Kelty Hearts,Arbroath,3,3,True
+SC2,2425,2024-12-21,Kelty Hearts,Queen of Sth,4,7,False
+SC2,2425,2024-12-21,Montrose,Dumbarton,7,7,False
+SC2,2425,2024-12-21,Stenhousemuir,Inverness C,7,7,False
+SC2,2425,2024-12-21,Annan Athletic,Arbroath,7,4,False
+SC2,2425,2024-12-21,Cove Rangers,Alloa,7,7,False
+SC2,2425,2024-12-28,Queen of Sth,Annan Athletic,7,7,False
+SC2,2425,2024-12-28,Alloa,Stenhousemuir,7,7,False
+SC2,2425,2024-12-28,Arbroath,Montrose,7,7,False
+SC2,2425,2024-12-28,Dumbarton,Kelty Hearts,7,7,False
+SC2,2425,2024-12-28,Inverness C,Cove Rangers,7,7,False
+SC2,2425,2025-01-04,Inverness C,Dumbarton,7,7,False
+SC2,2425,2025-01-04,Arbroath,Alloa,7,7,False
+SC2,2425,2025-01-04,Stenhousemuir,Annan Athletic,7,7,False
+SC2,2425,2025-01-04,Queen of Sth,Cove Rangers,7,7,False
+SC2,2425,2025-01-04,Montrose,Kelty Hearts,7,7,False
+SC2,2425,2025-01-11,Kelty Hearts,Stenhousemuir,7,7,False
+SC2,2425,2025-01-11,Alloa,Queen of Sth,7,7,False
+SC2,2425,2025-01-18,Annan Athletic,Inverness C,14,14,False
+SC2,2425,2025-01-21,Queen of Sth,Inverness C,10,3,True
+SC2,2425,2025-01-25,Annan Athletic,Montrose,7,21,False
+SC2,2425,2025-01-25,Queen of Sth,Dumbarton,4,21,False
+SC2,2425,2025-01-25,Stenhousemuir,Cove Rangers,14,21,False
+SC2,2425,2025-01-25,Alloa,Inverness C,14,4,False
+SC2,2425,2025-02-01,Kelty Hearts,Annan Athletic,21,7,False
+SC2,2425,2025-02-01,Montrose,Stenhousemuir,7,7,False
+SC2,2425,2025-02-01,Dumbarton,Alloa,7,7,False
+SC2,2425,2025-02-01,Cove Rangers,Arbroath,7,28,False
+SC2,2425,2025-02-01,Inverness C,Queen of Sth,7,7,False
+SC2,2425,2025-02-08,Stenhousemuir,Queen of Sth,7,7,False
+SC2,2425,2025-02-08,Annan Athletic,Dumbarton,7,7,False
+SC2,2425,2025-02-08,Arbroath,Inverness C,7,7,False
+SC2,2425,2025-02-08,Montrose,Alloa,7,7,False
+SC2,2425,2025-02-11,Cove Rangers,Montrose,10,3,True
+SC2,2425,2025-02-15,Queen of Sth,Arbroath,7,7,False
+SC2,2425,2025-02-15,Alloa,Kelty Hearts,7,14,False
+SC2,2425,2025-02-15,Cove Rangers,Annan Athletic,4,7,False
+SC2,2425,2025-02-15,Dumbarton,Montrose,7,4,False
+SC2,2425,2025-02-22,Montrose,Queen of Sth,7,7,False
+SC2,2425,2025-02-22,Stenhousemuir,Arbroath,14,7,False
+SC2,2425,2025-02-22,Kelty Hearts,Inverness C,7,14,False
+SC2,2425,2025-02-22,Cove Rangers,Dumbarton,7,7,False
+SC2,2425,2025-02-22,Annan Athletic,Alloa,7,7,False
+SC2,2425,2025-02-25,Arbroath,Kelty Hearts,3,3,True
+SC2,2425,2025-03-01,Inverness C,Montrose,7,7,False
+SC2,2425,2025-03-01,Queen of Sth,Kelty Hearts,7,4,False
+SC2,2425,2025-03-01,Dumbarton,Stenhousemuir,7,7,False
+SC2,2425,2025-03-01,Alloa,Cove Rangers,7,7,False
+SC2,2425,2025-03-01,Arbroath,Annan Athletic,4,7,False
+SC2,2425,2025-03-04,Dumbarton,Arbroath,3,3,True
+SC2,2425,2025-03-08,Dumbarton,Inverness C,4,7,False
+SC2,2425,2025-03-08,Kelty Hearts,Montrose,7,7,False
+SC2,2425,2025-03-08,Cove Rangers,Queen of Sth,7,7,False
+SC2,2425,2025-03-08,Alloa,Arbroath,7,4,False
+SC2,2425,2025-03-08,Annan Athletic,Stenhousemuir,7,7,False
+SC2,2425,2025-03-11,Inverness C,Stenhousemuir,3,3,True
+SC2,2425,2025-03-11,Kelty Hearts,Cove Rangers,3,3,True
+SC2,2425,2025-03-15,Arbroath,Dumbarton,7,7,False
+SC2,2425,2025-03-15,Inverness C,Annan Athletic,4,7,False
+SC2,2425,2025-03-15,Montrose,Cove Rangers,7,4,False
+SC2,2425,2025-03-15,Queen of Sth,Alloa,7,7,False
+SC2,2425,2025-03-15,Stenhousemuir,Kelty Hearts,4,4,False
+SC2,2425,2025-03-22,Montrose,Annan Athletic,7,7,False
+SC2,2425,2025-03-22,Cove Rangers,Stenhousemuir,7,7,False
+SC2,2425,2025-03-22,Kelty Hearts,Arbroath,7,7,False
+SC2,2425,2025-03-22,Inverness C,Alloa,7,7,False
+SC2,2425,2025-03-22,Dumbarton,Queen of Sth,7,7,False
+SC2,2425,2025-03-29,Queen of Sth,Inverness C,7,7,False
+SC2,2425,2025-03-29,Stenhousemuir,Montrose,7,7,False
+SC2,2425,2025-03-29,Alloa,Dumbarton,7,7,False
+SC2,2425,2025-03-29,Annan Athletic,Kelty Hearts,7,7,False
+SC2,2425,2025-03-29,Arbroath,Cove Rangers,7,7,False
+SC2,2425,2025-04-05,Montrose,Arbroath,7,7,False
+SC2,2425,2025-04-05,Stenhousemuir,Alloa,7,7,False
+SC2,2425,2025-04-05,Annan Athletic,Queen of Sth,7,7,False
+SC2,2425,2025-04-05,Cove Rangers,Inverness C,7,7,False
+SC2,2425,2025-04-05,Kelty Hearts,Dumbarton,7,7,False
+SC2,2425,2025-04-12,Queen of Sth,Montrose,7,7,False
+SC2,2425,2025-04-12,Arbroath,Stenhousemuir,7,7,False
+SC2,2425,2025-04-12,Alloa,Annan Athletic,7,7,False
+SC2,2425,2025-04-12,Dumbarton,Cove Rangers,7,7,False
+SC2,2425,2025-04-12,Inverness C,Kelty Hearts,7,7,False
+SC2,2425,2025-04-19,Montrose,Dumbarton,7,7,False
+SC2,2425,2025-04-19,Stenhousemuir,Inverness C,7,7,False
+SC2,2425,2025-04-19,Annan Athletic,Arbroath,7,7,False
+SC2,2425,2025-04-19,Cove Rangers,Alloa,7,7,False
+SC2,2425,2025-04-19,Kelty Hearts,Queen of Sth,7,7,False
+SC2,2425,2025-04-26,Inverness C,Arbroath,7,7,False
+SC2,2425,2025-04-26,Queen of Sth,Stenhousemuir,7,7,False
+SC2,2425,2025-04-26,Alloa,Montrose,7,7,False
+SC2,2425,2025-04-26,Cove Rangers,Kelty Hearts,7,7,False
+SC2,2425,2025-04-26,Dumbarton,Annan Athletic,7,7,False
+SC2,2425,2025-05-03,Montrose,Inverness C,7,7,False
+SC2,2425,2025-05-03,Stenhousemuir,Dumbarton,7,7,False
+SC2,2425,2025-05-03,Annan Athletic,Cove Rangers,7,7,False
+SC2,2425,2025-05-03,Arbroath,Queen of Sth,7,7,False
+SC2,2425,2025-05-03,Kelty Hearts,Alloa,7,7,False

@@ -1,0 +1,210 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,2526,2025-08-15,Burgos,Cultural Leonesa,76,7,False
+SP2,2526,2025-08-15,Valladolid,Ceuta,439,7,False
+SP2,2526,2025-08-16,Santander,Castellon,76,78,False
+SP2,2526,2025-08-16,Malaga,Eibar,77,76,False
+SP2,2526,2025-08-16,Granada,La Coruna,76,76,False
+SP2,2526,2025-08-17,Las Palmas,Andorra,813,441,False
+SP2,2526,2025-08-17,Huesca,Leganes,77,77,False
+SP2,2526,2025-08-17,Cadiz,Mirandes,77,77,False
+SP2,2526,2025-08-17,Sociedad B,Zaragoza,1178,79,False
+SP2,2526,2025-08-18,Sp Gijon,Cordoba,79,78,False
+SP2,2526,2025-08-18,Almeria,Albacete,78,78,False
+SP2,2526,2025-08-22,Eibar,Granada,6,6,False
+SP2,2526,2025-08-22,Castellon,Valladolid,6,7,False
+SP2,2526,2025-08-22,Leganes,Cadiz,5,5,False
+SP2,2526,2025-08-23,Ceuta,Sp Gijon,8,5,False
+SP2,2526,2025-08-23,Zaragoza,Andorra,6,6,False
+SP2,2526,2025-08-23,Mirandes,Huesca,6,6,False
+SP2,2526,2025-08-24,Malaga,Sociedad B,8,7,False
+SP2,2526,2025-08-24,La Coruna,Burgos,8,9,False
+SP2,2526,2025-08-24,Cultural Leonesa,Almeria,9,6,False
+SP2,2526,2025-08-25,Cordoba,Las Palmas,7,8,False
+SP2,2526,2025-08-25,Albacete,Santander,7,9,False
+SP2,2526,2025-08-29,Sp Gijon,Cultural Leonesa,6,5,False
+SP2,2526,2025-08-29,Sociedad B,Almeria,5,5,False
+SP2,2526,2025-08-30,Castellon,Zaragoza,8,7,False
+SP2,2526,2025-08-30,Santander,Ceuta,5,7,False
+SP2,2526,2025-08-30,Valladolid,Cordoba,8,5,False
+SP2,2526,2025-08-31,Las Palmas,Malaga,6,7,False
+SP2,2526,2025-08-31,Granada,Mirandes,9,8,False
+SP2,2526,2025-08-31,Cadiz,Albacete,9,6,False
+SP2,2526,2025-08-31,Andorra,Burgos,8,7,False
+SP2,2526,2025-09-01,Huesca,Eibar,9,10,False
+SP2,2526,2025-09-01,Leganes,La Coruna,10,8,False
+SP2,2526,2025-09-05,Albacete,Mirandes,5,5,False
+SP2,2526,2025-09-05,Cordoba,Castellon,6,6,False
+SP2,2526,2025-09-06,Malaga,Granada,6,6,False
+SP2,2526,2025-09-06,La Coruna,Sp Gijon,5,8,False
+SP2,2526,2025-09-06,Zaragoza,Valladolid,7,7,False
+SP2,2526,2025-09-07,Ceuta,Huesca,8,6,False
+SP2,2526,2025-09-07,Cultural Leonesa,Leganes,9,6,False
+SP2,2526,2025-09-07,Almeria,Santander,9,8,False
+SP2,2526,2025-09-07,Sociedad B,Cadiz,9,7,False
+SP2,2526,2025-09-07,Burgos,Las Palmas,7,7,False
+SP2,2526,2025-09-08,Eibar,Andorra,7,8,False
+SP2,2526,2025-09-12,Las Palmas,Sociedad B,5,5,False
+SP2,2526,2025-09-13,Valladolid,Almeria,7,6,False
+SP2,2526,2025-09-13,Huesca,Malaga,6,7,False
+SP2,2526,2025-09-13,Mirandes,La Coruna,8,7,False
+SP2,2526,2025-09-13,Cadiz,Eibar,6,5,False
+SP2,2526,2025-09-14,Granada,Leganes,8,7,False
+SP2,2526,2025-09-14,Andorra,Cordoba,6,9,False
+SP2,2526,2025-09-14,Santander,Cultural Leonesa,7,7,False
+SP2,2526,2025-09-14,Castellon,Ceuta,9,7,False
+SP2,2526,2025-09-14,Sp Gijon,Burgos,8,7,False
+SP2,2526,2025-09-15,Zaragoza,Albacete,9,10,False
+SP2,2526,2025-09-19,La Coruna,Huesca,6,6,False
+SP2,2526,2025-09-20,Almeria,Sp Gijon,7,6,False
+SP2,2526,2025-09-20,Leganes,Las Palmas,6,8,False
+SP2,2526,2025-09-20,Cultural Leonesa,Castellon,6,6,False
+SP2,2526,2025-09-20,Andorra,Mirandes,6,7,False
+SP2,2526,2025-09-21,Albacete,Valladolid,6,8,False
+SP2,2526,2025-09-21,Ceuta,Zaragoza,7,6,False
+SP2,2526,2025-09-21,Eibar,Sociedad B,8,9,False
+SP2,2526,2025-09-21,Malaga,Cadiz,8,8,False
+SP2,2526,2025-09-21,Cordoba,Santander,7,7,False
+SP2,2526,2025-09-22,Burgos,Granada,8,8,False
+SP2,2526,2025-09-26,Mirandes,Zaragoza,6,5,False
+SP2,2526,2025-09-27,Las Palmas,Almeria,7,7,False
+SP2,2526,2025-09-27,Eibar,La Coruna,6,8,False
+SP2,2526,2025-09-27,Santander,Andorra,6,7,False
+SP2,2526,2025-09-28,Sociedad B,Cordoba,7,7,False
+SP2,2526,2025-09-28,Burgos,Malaga,6,7,False
+SP2,2526,2025-09-28,Cadiz,Ceuta,7,7,False
+SP2,2526,2025-09-28,Sp Gijon,Albacete,8,7,False
+SP2,2526,2025-09-28,Valladolid,Cultural Leonesa,7,8,False
+SP2,2526,2025-09-28,Huesca,Granada,9,6,False
+SP2,2526,2025-09-29,Leganes,Castellon,9,9,False
+SP2,2526,2025-10-03,Ceuta,Eibar,5,6,False
+SP2,2526,2025-10-04,Andorra,Leganes,7,5,False
+SP2,2526,2025-10-04,Granada,Sociedad B,6,6,False
+SP2,2526,2025-10-04,Huesca,Burgos,6,6,False
+SP2,2526,2025-10-04,La Coruna,Almeria,7,7,False
+SP2,2526,2025-10-05,Santander,Malaga,8,7,False
+SP2,2526,2025-10-05,Zaragoza,Cordoba,9,7,False
+SP2,2526,2025-10-05,Castellon,Sp Gijon,6,7,False
+SP2,2526,2025-10-05,Las Palmas,Cadiz,8,7,False
+SP2,2526,2025-10-05,Valladolid,Mirandes,7,9,False
+SP2,2526,2025-10-06,Cultural Leonesa,Albacete,8,8,False
+SP2,2526,2025-10-10,Granada,Las Palmas,6,5,False
+SP2,2526,2025-10-11,Sociedad B,Andorra,7,7,False
+SP2,2526,2025-10-11,Mirandes,Leganes,6,7,False
+SP2,2526,2025-10-11,Almeria,Zaragoza,7,6,False
+SP2,2526,2025-10-12,Sp Gijon,Santander,7,7,False
+SP2,2526,2025-10-12,Malaga,La Coruna,7,8,False
+SP2,2526,2025-10-12,Eibar,Castellon,9,7,False
+SP2,2526,2025-10-12,Albacete,Ceuta,6,9,False
+SP2,2526,2025-10-12,Burgos,Valladolid,8,7,False
+SP2,2526,2025-10-12,Cadiz,Huesca,7,8,False
+SP2,2526,2025-10-13,Cordoba,Cultural Leonesa,8,7,False
+SP2,2526,2025-10-17,Andorra,Granada,6,7,False
+SP2,2526,2025-10-18,Ceuta,Mirandes,6,7,False
+SP2,2526,2025-10-18,Zaragoza,Cultural Leonesa,7,5,False
+SP2,2526,2025-10-19,Valladolid,Sp Gijon,7,7,False
+SP2,2526,2025-10-19,Leganes,Malaga,8,7,False
+SP2,2526,2025-10-19,Castellon,Albacete,7,7,False
+SP2,2526,2025-10-19,Cordoba,Almeria,6,8,False
+SP2,2526,2025-10-19,Santander,La Coruna,7,7,False
+SP2,2526,2025-10-19,Las Palmas,Eibar,9,7,False
+SP2,2526,2025-10-20,Cadiz,Burgos,8,8,False
+SP2,2526,2025-10-24,Huesca,Las Palmas,12,5,False
+SP2,2526,2025-10-25,Granada,Cadiz,8,5,False
+SP2,2526,2025-10-25,Burgos,Sociedad B,5,14,False
+SP2,2526,2025-10-25,Albacete,Cordoba,6,6,False
+SP2,2526,2025-10-25,Eibar,Leganes,6,6,False
+SP2,2526,2025-10-25,Cultural Leonesa,Ceuta,7,7,False
+SP2,2526,2025-10-25,Mirandes,Santander,7,6,False
+SP2,2526,2025-10-26,Malaga,Andorra,7,9,False
+SP2,2526,2025-10-26,La Coruna,Valladolid,7,7,False
+SP2,2526,2025-10-26,Sp Gijon,Zaragoza,7,8,False
+SP2,2526,2025-10-26,Almeria,Castellon,7,7,False
+SP2,2526,2025-10-31,Santander,Sociedad B,6,6,False
+SP2,2526,2025-11-01,Almeria,Eibar,6,7,False
+SP2,2526,2025-11-01,Cultural Leonesa,Mirandes,7,7,False
+SP2,2526,2025-11-01,Albacete,Huesca,7,8,False
+SP2,2526,2025-11-01,Leganes,Burgos,7,7,False
+SP2,2526,2025-11-02,Cordoba,Ceuta,8,8,False
+SP2,2526,2025-11-02,Andorra,Cadiz,7,8,False
+SP2,2526,2025-11-02,Sp Gijon,Las Palmas,7,9,False
+SP2,2526,2025-11-02,Castellon,Malaga,7,7,False
+SP2,2526,2025-11-02,Zaragoza,La Coruna,7,7,False
+SP2,2526,2025-11-03,Valladolid,Granada,8,9,False
+SP2,2526,2025-11-05,Sociedad B,Huesca,5,4,True
+SP2,2526,2025-11-07,Mirandes,Sp Gijon,6,5,False
+SP2,2526,2025-11-08,Huesca,Andorra,3,6,False
+SP2,2526,2025-11-08,La Coruna,Cultural Leonesa,6,7,False
+SP2,2526,2025-11-08,Malaga,Cordoba,6,6,False
+SP2,2526,2025-11-08,Sociedad B,Leganes,3,7,False
+SP2,2526,2025-11-08,Eibar,Albacete,7,7,False
+SP2,2526,2025-11-09,Granada,Zaragoza,6,7,False
+SP2,2526,2025-11-09,Cadiz,Valladolid,7,6,False
+SP2,2526,2025-11-09,Las Palmas,Santander,7,9,False
+SP2,2526,2025-11-10,Burgos,Castellon,9,8,False
+SP2,2526,2025-11-14,Valladolid,Las Palmas,5,5,False
+SP2,2526,2025-11-15,Santander,Granada,6,6,False
+SP2,2526,2025-11-15,Castellon,Sociedad B,5,7,False
+SP2,2526,2025-11-15,Albacete,Andorra,7,7,False
+SP2,2526,2025-11-16,Ceuta,Leganes,14,8,False
+SP2,2526,2025-11-16,Sp Gijon,Eibar,9,8,False
+SP2,2526,2025-11-16,Cordoba,La Coruna,8,8,False
+SP2,2526,2025-11-16,Mirandes,Burgos,9,6,False
+SP2,2526,2025-11-16,Zaragoza,Huesca,7,8,False
+SP2,2526,2025-11-16,Almeria,Cadiz,15,7,False
+SP2,2526,2025-11-17,Cultural Leonesa,Malaga,9,9,False
+SP2,2526,2025-11-21,Las Palmas,Albacete,7,6,False
+SP2,2526,2025-11-22,Eibar,Zaragoza,6,6,False
+SP2,2526,2025-11-22,Andorra,Castellon,7,7,False
+SP2,2526,2025-11-22,Granada,Cordoba,7,6,False
+SP2,2526,2025-11-22,Leganes,Almeria,6,6,False
+SP2,2526,2025-11-23,Burgos,Santander,7,8,False
+SP2,2526,2025-11-23,La Coruna,Ceuta,7,7,False
+SP2,2526,2025-11-23,Cadiz,Cultural Leonesa,7,6,False
+SP2,2526,2025-11-23,Huesca,Sp Gijon,7,7,False
+SP2,2526,2025-11-23,Malaga,Mirandes,6,7,False
+SP2,2526,2025-11-24,Sociedad B,Valladolid,9,10,False
+SP2,2526,2025-11-26,Ceuta,Almeria,3,4,True
+SP2,2526,2025-11-28,Sp Gijon,Andorra,5,6,False
+SP2,2526,2025-11-29,Valladolid,Malaga,5,6,False
+SP2,2526,2025-11-29,Ceuta,Burgos,3,6,False
+SP2,2526,2025-11-29,Cultural Leonesa,Granada,6,7,False
+SP2,2526,2025-11-29,Albacete,La Coruna,8,6,False
+SP2,2526,2025-11-29,Almeria,Huesca,3,6,False
+SP2,2526,2025-11-30,Castellon,Las Palmas,8,9,False
+SP2,2526,2025-11-30,Cordoba,Cadiz,8,7,False
+SP2,2526,2025-11-30,Santander,Eibar,7,8,False
+SP2,2526,2025-11-30,Zaragoza,Leganes,8,8,False
+SP2,2526,2025-11-30,Mirandes,Sociedad B,7,6,False
+SP2,2526,2025-12-06,Sociedad B,Sp Gijon,6,8,False
+SP2,2526,2025-12-06,Huesca,Valladolid,7,7,False
+SP2,2526,2025-12-06,Andorra,Almeria,8,7,False
+SP2,2526,2025-12-07,Granada,Ceuta,8,8,False
+SP2,2526,2025-12-07,La Coruna,Castellon,8,7,False
+SP2,2526,2025-12-07,Eibar,Cultural Leonesa,7,8,False
+SP2,2526,2025-12-07,Leganes,Cordoba,7,7,False
+SP2,2526,2025-12-07,Cadiz,Santander,7,7,False
+SP2,2526,2025-12-08,Las Palmas,Mirandes,8,8,False
+SP2,2526,2025-12-08,Malaga,Zaragoza,9,8,False
+SP2,2526,2025-12-08,Burgos,Albacete,9,9,False
+SP2,2526,2025-12-12,Cultural Leonesa,Huesca,5,6,False
+SP2,2526,2025-12-13,Valladolid,Andorra,7,7,False
+SP2,2526,2025-12-13,Cordoba,Eibar,6,6,False
+SP2,2526,2025-12-13,Sp Gijon,Granada,7,6,False
+SP2,2526,2025-12-13,Santander,Leganes,6,6,False
+SP2,2526,2025-12-13,La Coruna,Sociedad B,6,7,False
+SP2,2526,2025-12-13,Zaragoza,Cadiz,5,6,False
+SP2,2526,2025-12-14,Albacete,Malaga,6,6,False
+SP2,2526,2025-12-14,Almeria,Burgos,8,6,False
+SP2,2526,2025-12-14,Ceuta,Las Palmas,7,6,False
+SP2,2526,2025-12-15,Castellon,Mirandes,8,7,False
+SP2,2526,2025-12-19,Eibar,Valladolid,6,6,False
+SP2,2526,2025-12-20,Leganes,Sp Gijon,7,7,False
+SP2,2526,2025-12-20,Las Palmas,Cultural Leonesa,6,8,False
+SP2,2526,2025-12-20,Huesca,Santander,8,7,False
+SP2,2526,2025-12-20,Andorra,La Coruna,7,7,False
+SP2,2526,2025-12-21,Granada,Albacete,8,7,False
+SP2,2526,2025-12-21,Malaga,Almeria,7,7,False
+SP2,2526,2025-12-21,Mirandes,Cordoba,6,8,False
+SP2,2526,2025-12-21,Sociedad B,Ceuta,8,7,False
+SP2,2526,2025-12-21,Cadiz,Castellon,8,6,False
+SP2,2526,2025-12-21,Burgos,Zaragoza,7,8,False

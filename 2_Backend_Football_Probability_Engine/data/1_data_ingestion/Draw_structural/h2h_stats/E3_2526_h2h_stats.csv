@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+130,Bromley,137,Oldham,2526,1,0,0.0,1.0
+121,Colchester,127,Newport County,2526,2,0,0.0,4.5
+120,Chesterfield,128,Tranmere,2526,1,1,1.0,2.0
+119,Cambridge,124,Salford,2526,1,1,1.0,
+129,Barrow,134,Fleetwood Town,2526,1,0,0.0,1.0
+117,Barnet,137,Oldham,2526,1,1,1.0,2.0
+117,Barnet,136,Harrogate,2526,1,1,1.0,2.0
+122,Grimsby,123,Milton Keynes Dons,2526,1,0,0.0,5.0
+128,Tranmere,132,Crawley Town,2526,1,0,0.0,2.0
+124,Salford,127,Newport County,2526,2,0,0.0,2.0
+127,Newport County,134,Fleetwood Town,2526,2,0,0.0,1.5
+123,Milton Keynes Dons,129,Barrow,2526,1,0,0.0,2.0
+129,Barrow,131,Cheltenham,2526,1,0,0.0,3.0
+119,Cambridge,125,Shrewsbury,2526,1,0,0.0,2.0
+126,Walsall,131,Cheltenham,2526,1,0,0.0,1.0
+128,Tranmere,138,Swindon,2526,1,0,0.0,3.0
+119,Cambridge,137,Oldham,2526,1,0,0.0,1.0
+121,Colchester,135,Gillingham,2526,2,2,1.0,1.0
+121,Colchester,132,Crawley Town,2526,1,1,1.0,2.0
+118,Bristol Rvs,132,Crawley Town,2526,1,0,0.0,4.0
+125,Shrewsbury,132,Crawley Town,2526,1,0,0.0,1.0
+124,Salford,126,Walsall,2526,1,0,0.0,1.0
+123,Milton Keynes Dons,128,Tranmere,2526,1,1,1.0,4.0
+118,Bristol Rvs,120,Chesterfield,2526,1,0,0.0,4.0
+119,Cambridge,129,Barrow,2526,1,0,0.0,2.0
+120,Chesterfield,130,Bromley,2526,1,1,1.0,4.0
+125,Shrewsbury,138,Swindon,2526,1,0,0.0,3.0
+133,Crewe,137,Oldham,2526,1,1,1.0,
+121,Colchester,126,Walsall,2526,1,0,0.0,2.0
+117,Barnet,127,Newport County,2526,2,1,0.5,0.5
+128,Tranmere,131,Cheltenham,2526,1,0,0.0,5.0
+125,Shrewsbury,130,Bromley,2526,1,1,1.0,
+116,Accrington,127,Newport County,2526,2,0,0.0,1.0
+119,Cambridge,132,Crawley Town,2526,1,0,0.0,4.0
+123,Milton Keynes Dons,135,Gillingham,2526,1,0,0.0,5.0
+126,Walsall,133,Crewe,2526,1,0,0.0,1.0
+119,Cambridge,126,Walsall,2526,1,0,0.0,2.0
+122,Grimsby,128,Tranmere,2526,1,0,0.0,3.0
+121,Colchester,136,Harrogate,2526,1,0,0.0,4.0
+118,Bristol Rvs,128,Tranmere,2526,1,0,0.0,5.0
+117,Barnet,125,Shrewsbury,2526,1,0,0.0,4.0
+131,Cheltenham,132,Crawley Town,2526,1,0,0.0,2.0
+121,Colchester,129,Barrow,2526,1,0,0.0,2.0
+122,Grimsby,131,Cheltenham,2526,1,0,0.0,8.0
+116,Accrington,138,Swindon,2526,1,0,0.0,4.0
+120,Chesterfield,134,Fleetwood Town,2526,1,1,1.0,2.0
+121,Colchester,122,Grimsby,2526,1,0,0.0,3.0
+116,Accrington,136,Harrogate,2526,2,0,0.0,1.5
+132,Crawley Town,133,Crewe,2526,1,0,0.0,1.0
+118,Bristol Rvs,134,Fleetwood Town,2526,1,0,0.0,3.0
+123,Milton Keynes Dons,138,Swindon,2526,1,0,0.0,1.0
+117,Barnet,119,Cambridge,2526,1,1,1.0,
+126,Walsall,136,Harrogate,2526,1,0,0.0,2.0
+126,Walsall,132,Crawley Town,2526,1,1,1.0,2.0
+121,Colchester,131,Cheltenham,2526,1,0,0.0,2.0
+134,Fleetwood Town,136,Harrogate,2526,1,0,0.0,5.0
+132,Crawley Town,136,Harrogate,2526,1,0,0.0,1.0
+133,Crewe,135,Gillingham,2526,1,0,0.0,1.0
+130,Bromley,136,Harrogate,2526,1,0,0.0,2.0
+120,Chesterfield,123,Milton Keynes Dons,2526,1,1,1.0,2.0
+123,Milton Keynes Dons,133,Crewe,2526,1,0,0.0,4.0
+129,Barrow,130,Bromley,2526,1,0,0.0,3.0
+127,Newport County,129,Barrow,2526,2,1,0.5,3.5
+126,Walsall,130,Bromley,2526,1,0,0.0,4.0
+123,Milton Keynes Dons,134,Fleetwood Town,2526,1,0,0.0,3.0
+136,Harrogate,138,Swindon,2526,1,0,0.0,4.0
+121,Colchester,125,Shrewsbury,2526,1,0,0.0,2.0
+121,Colchester,128,Tranmere,2526,1,1,1.0,2.0
+117,Barnet,123,Milton Keynes Dons,2526,1,1,1.0,4.0
+122,Grimsby,129,Barrow,2526,1,1,1.0,4.0
+120,Chesterfield,138,Swindon,2526,1,0,0.0,3.0
+117,Barnet,121,Colchester,2526,1,1,1.0,2.0
+125,Shrewsbury,134,Fleetwood Town,2526,1,0,0.0,4.0
+117,Barnet,133,Crewe,2526,1,0,0.0,3.0
+118,Bristol Rvs,126,Walsall,2526,1,0,0.0,3.0
+126,Walsall,134,Fleetwood Town,2526,1,1,1.0,2.0
+123,Milton Keynes Dons,127,Newport County,2526,3,1,0.3333333333333333,3.3333333333333335
+116,Accrington,125,Shrewsbury,2526,1,1,1.0,
+116,Accrington,129,Barrow,2526,1,0,0.0,3.0
+118,Bristol Rvs,127,Newport County,2526,2,0,0.0,3.0
+122,Grimsby,133,Crewe,2526,1,0,0.0,5.0
+117,Barnet,120,Chesterfield,2526,1,0,0.0,4.0
+131,Cheltenham,133,Crewe,2526,1,0,0.0,5.0
+127,Newport County,136,Harrogate,2526,2,1,0.5,2.5
+122,Grimsby,130,Bromley,2526,1,0,0.0,2.0
+127,Newport County,138,Swindon,2526,2,1,0.5,2.5
+120,Chesterfield,127,Newport County,2526,2,0,0.0,3.5
+135,Gillingham,137,Oldham,2526,1,0,0.0,1.0
+133,Crewe,138,Swindon,2526,1,0,0.0,3.0
+117,Barnet,130,Bromley,2526,1,0,0.0,2.0
+127,Newport County,135,Gillingham,2526,2,0,0.0,2.5
+122,Grimsby,124,Salford,2526,1,0,0.0,2.0
+130,Bromley,138,Swindon,2526,1,0,0.0,2.0
+118,Bristol Rvs,130,Bromley,2526,1,0,0.0,5.0
+117,Barnet,129,Barrow,2526,1,1,1.0,4.0
+137,Oldham,138,Swindon,2526,1,0,0.0,3.0
+116,Accrington,122,Grimsby,2526,1,1,1.0,2.0
+117,Barnet,132,Crawley Town,2526,1,0,0.0,3.0
+119,Cambridge,128,Tranmere,2526,1,1,1.0,
+122,Grimsby,138,Swindon,2526,1,1,1.0,4.0
+118,Bristol Rvs,119,Cambridge,2526,1,0,0.0,1.0
+122,Grimsby,126,Walsall,2526,1,0,0.0,1.0
+125,Shrewsbury,126,Walsall,2526,1,1,1.0,2.0
+123,Milton Keynes Dons,131,Cheltenham,2526,1,0,0.0,5.0
+125,Shrewsbury,136,Harrogate,2526,1,0,0.0,2.0
+133,Crewe,134,Fleetwood Town,2526,1,0,0.0,5.0
+117,Barnet,134,Fleetwood Town,2526,1,0,0.0,2.0
+119,Cambridge,138,Swindon,2526,1,0,0.0,5.0
+120,Chesterfield,121,Colchester,2526,1,0,0.0,8.0
+118,Bristol Rvs,129,Barrow,2526,1,0,0.0,3.0
+126,Walsall,137,Oldham,2526,2,0,0.0,2.0
+131,Cheltenham,136,Harrogate,2526,1,1,1.0,2.0
+121,Colchester,123,Milton Keynes Dons,2526,1,0,0.0,1.0
+134,Fleetwood Town,138,Swindon,2526,1,1,1.0,2.0
+120,Chesterfield,133,Crewe,2526,1,1,1.0,6.0
+123,Milton Keynes Dons,130,Bromley,2526,1,0,0.0,3.0
+120,Chesterfield,136,Harrogate,2526,1,0,0.0,3.0
+134,Fleetwood Town,137,Oldham,2526,1,1,1.0,2.0
+116,Accrington,126,Walsall,2526,1,0,0.0,4.0
+127,Newport County,127,Newport County,2526,1,1,1.0,2.0
+120,Chesterfield,125,Shrewsbury,2526,1,0,0.0,1.0
+118,Bristol Rvs,131,Cheltenham,2526,1,0,0.0,1.0
+125,Shrewsbury,137,Oldham,2526,1,1,1.0,4.0
+127,Newport County,130,Bromley,2526,2,1,0.5,3.5
+125,Shrewsbury,127,Newport County,2526,2,0,0.0,3.0
+128,Tranmere,136,Harrogate,2526,1,0,0.0,2.0
+119,Cambridge,121,Colchester,2526,1,0,0.0,3.0
+126,Walsall,135,Gillingham,2526,1,0,0.0,1.0
+126,Walsall,128,Tranmere,2526,1,0,0.0,6.0
+117,Barnet,122,Grimsby,2526,1,0,0.0,3.0
+118,Bristol Rvs,124,Salford,2526,1,0,0.0,3.0
+116,Accrington,131,Cheltenham,2526,1,0,0.0,1.0
+128,Tranmere,134,Fleetwood Town,2526,1,0,0.0,1.0
+116,Accrington,130,Bromley,2526,1,0,0.0,1.0
+119,Cambridge,120,Chesterfield,2526,2,1,0.5,1.5
+118,Bristol Rvs,122,Grimsby,2526,1,0,0.0,1.0
+123,Milton Keynes Dons,136,Harrogate,2526,1,0,0.0,4.0
+124,Salford,138,Swindon,2526,1,0,0.0,5.0
+127,Newport County,128,Tranmere,2526,2,1,0.5,2.5
+124,Salford,129,Barrow,2526,1,0,0.0,3.0
+123,Milton Keynes Dons,137,Oldham,2526,1,1,1.0,
+116,Accrington,118,Bristol Rvs,2526,1,0,0.0,4.0
+132,Crawley Town,135,Gillingham,2526,1,1,1.0,4.0
+129,Barrow,133,Crewe,2526,1,0,0.0,1.0
+116,Accrington,134,Fleetwood Town,2526,1,0,0.0,3.0
+125,Shrewsbury,129,Barrow,2526,1,1,1.0,
+126,Walsall,138,Swindon,2526,1,0,0.0,3.0
+119,Cambridge,123,Milton Keynes Dons,2526,1,1,1.0,2.0
+118,Bristol Rvs,135,Gillingham,2526,1,0,0.0,1.0
+129,Barrow,132,Crawley Town,2526,1,0,0.0,3.0
+116,Accrington,120,Chesterfield,2526,1,1,1.0,6.0
+131,Cheltenham,137,Oldham,2526,1,0,0.0,3.0
+128,Tranmere,137,Oldham,2526,1,0,0.0,4.0
+123,Milton Keynes Dons,124,Salford,2526,1,0,0.0,2.0
+120,Chesterfield,137,Oldham,2526,1,1,1.0,2.0
+131,Cheltenham,138,Swindon,2526,2,0,0.0,1.5
+124,Salford,137,Oldham,2526,1,0,0.0,1.0
+133,Crewe,136,Harrogate,2526,1,0,0.0,3.0
+125,Shrewsbury,128,Tranmere,2526,1,0,0.0,4.0
+130,Bromley,133,Crewe,2526,1,0,0.0,1.0
+116,Accrington,117,Barnet,2526,1,0,0.0,2.0
+120,Chesterfield,122,Grimsby,2526,1,0,0.0,1.0
+136,Harrogate,137,Oldham,2526,1,0,0.0,1.0
+124,Salford,132,Crawley Town,2526,1,0,0.0,7.0
+119,Cambridge,136,Harrogate,2526,1,1,1.0,2.0
+120,Chesterfield,126,Walsall,2526,1,0,0.0,1.0
+125,Shrewsbury,133,Crewe,2526,1,0,0.0,4.0
+127,Newport County,133,Crewe,2526,3,1,0.3333333333333333,3.0
+128,Tranmere,135,Gillingham,2526,1,1,1.0,2.0
+127,Newport County,131,Cheltenham,2526,2,0,0.0,2.5
+118,Bristol Rvs,121,Colchester,2526,1,1,1.0,2.0
+121,Colchester,124,Salford,2526,1,0,0.0,7.0
+118,Bristol Rvs,136,Harrogate,2526,1,0,0.0,1.0
+128,Tranmere,133,Crewe,2526,1,0,0.0,5.0
+130,Bromley,134,Fleetwood Town,2526,1,1,1.0,4.0
+124,Salford,134,Fleetwood Town,2526,2,2,1.0,1.0
+124,Salford,135,Gillingham,2526,1,0,0.0,3.0
+118,Bristol Rvs,137,Oldham,2526,1,1,1.0,
+118,Bristol Rvs,123,Milton Keynes Dons,2526,1,0,0.0,4.0
+121,Colchester,134,Fleetwood Town,2526,1,0,0.0,6.0
+130,Bromley,132,Crawley Town,2526,2,0,0.0,4.0
+127,Newport County,132,Crawley Town,2526,2,0,0.0,3.5
+117,Barnet,118,Bristol Rvs,2526,2,0,0.0,3.0
+122,Grimsby,132,Crawley Town,2526,1,0,0.0,3.0
+119,Cambridge,134,Fleetwood Town,2526,1,0,0.0,3.0
+124,Salford,136,Harrogate,2526,1,0,0.0,1.0
+126,Walsall,127,Newport County,2526,2,1,0.5,3.0
+118,Bristol Rvs,133,Crewe,2526,1,1,1.0,2.0
+135,Gillingham,136,Harrogate,2526,1,0,0.0,1.0
+122,Grimsby,136,Harrogate,2526,1,1,1.0,6.0
+124,Salford,133,Crewe,2526,1,0,0.0,4.0
+131,Cheltenham,135,Gillingham,2526,1,1,1.0,2.0
+120,Chesterfield,131,Cheltenham,2526,1,0,0.0,2.0
+116,Accrington,137,Oldham,2526,1,0,0.0,1.0
+128,Tranmere,130,Bromley,2526,1,1,1.0,6.0
+120,Chesterfield,129,Barrow,2526,1,0,0.0,1.0
+120,Chesterfield,135,Gillingham,2526,1,0,0.0,5.0
+123,Milton Keynes Dons,125,Shrewsbury,2526,1,0,0.0,3.0
+135,Gillingham,138,Swindon,2526,1,0,0.0,2.0
+125,Shrewsbury,135,Gillingham,2526,1,1,1.0,6.0
+121,Colchester,133,Crewe,2526,1,1,1.0,2.0
+122,Grimsby,125,Shrewsbury,2526,2,1,0.5,1.5
+117,Barnet,131,Cheltenham,2526,1,0,0.0,1.0
+116,Accrington,124,Salford,2526,1,0,0.0,3.0
+121,Colchester,130,Bromley,2526,1,0,0.0,2.0
+116,Accrington,128,Tranmere,2526,1,1,1.0,2.0
+129,Barrow,136,Harrogate,2526,1,0,0.0,1.0
+119,Cambridge,130,Bromley,2526,1,0,0.0,3.0
+122,Grimsby,135,Gillingham,2526,1,0,0.0,1.0
+123,Milton Keynes Dons,126,Walsall,2526,1,0,0.0,1.0
+119,Cambridge,135,Gillingham,2526,1,1,1.0,2.0
+116,Accrington,121,Colchester,2526,1,0,0.0,1.0
+132,Crawley Town,138,Swindon,2526,1,0,0.0,1.0
+129,Barrow,138,Swindon,2526,1,0,0.0,4.0
+124,Salford,131,Cheltenham,2526,1,1,1.0,2.0
+119,Cambridge,133,Crewe,2526,1,0,0.0,3.0
+119,Cambridge,127,Newport County,2526,2,0,0.0,2.0
+116,Accrington,135,Gillingham,2526,1,1,1.0,2.0
+121,Colchester,138,Swindon,2526,1,1,1.0,
+130,Bromley,135,Gillingham,2526,1,1,1.0,4.0
+132,Crawley Town,134,Fleetwood Town,2526,1,0,0.0,3.0
+123,Milton Keynes Dons,132,Crawley Town,2526,1,1,1.0,2.0
+122,Grimsby,134,Fleetwood Town,2526,1,0,0.0,1.0
+116,Accrington,133,Crewe,2526,1,0,0.0,2.0
+129,Barrow,135,Gillingham,2526,1,1,1.0,4.0
+119,Cambridge,131,Cheltenham,2526,1,0,0.0,1.0
+127,Newport County,137,Oldham,2526,2,0,0.0,3.5
+117,Barnet,128,Tranmere,2526,1,0,0.0,2.0
+129,Barrow,137,Oldham,2526,1,1,1.0,
+117,Barnet,126,Walsall,2526,1,0,0.0,3.0
+125,Shrewsbury,131,Cheltenham,2526,1,0,0.0,4.0
+116,Accrington,132,Crawley Town,2526,1,1,1.0,2.0
+126,Walsall,129,Barrow,2526,1,0,0.0,3.0
+119,Cambridge,122,Grimsby,2526,1,1,1.0,2.0
+117,Barnet,138,Swindon,2526,1,0,0.0,2.0
+132,Crawley Town,137,Oldham,2526,1,1,1.0,4.0
+124,Salford,128,Tranmere,2526,1,0,0.0,4.0
+134,Fleetwood Town,135,Gillingham,2526,1,0,0.0,3.0
+121,Colchester,137,Oldham,2526,1,1,1.0,2.0
+122,Grimsby,127,Newport County,2526,2,0,0.0,2.5
+118,Bristol Rvs,138,Swindon,2526,1,0,0.0,3.0
+130,Bromley,131,Cheltenham,2526,1,0,0.0,3.0
+118,Bristol Rvs,125,Shrewsbury,2526,1,0,0.0,3.0
+117,Barnet,135,Gillingham,2526,1,1,1.0,2.0
+124,Salford,130,Bromley,2526,1,0,0.0,2.0
+128,Tranmere,129,Barrow,2526,2,0,0.0,3.5
+116,Accrington,119,Cambridge,2526,1,0,0.0,2.0
+131,Cheltenham,134,Fleetwood Town,2526,1,0,0.0,2.0
+124,Salford,125,Shrewsbury,2526,1,0,0.0,4.0
+120,Chesterfield,124,Salford,2526,1,0,0.0,2.0
+122,Grimsby,137,Oldham,2526,1,1,1.0,
+116,Accrington,123,Milton Keynes Dons,2526,1,0,0.0,3.0
+120,Chesterfield,132,Crawley Town,2526,1,1,1.0,4.0
+117,Barnet,124,Salford,2526,1,0,0.0,4.0

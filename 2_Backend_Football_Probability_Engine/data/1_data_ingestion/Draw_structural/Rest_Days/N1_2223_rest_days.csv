@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+N1,2223,2022-08-05,Heerenveen,Sparta Rotterdam,82,82,False
+N1,2223,2022-08-06,PSV Eindhoven,FC Emmen,83,447,False
+N1,2223,2022-08-06,Cambuur,Excelsior,83,7,False
+N1,2223,2022-08-06,For Sittard,Ajax,83,83,False
+N1,2223,2022-08-06,Waalwijk,Utrecht,83,83,False
+N1,2223,2022-08-07,Vitesse,Feyenoord,84,84,False
+N1,2223,2022-08-07,AZ Alkmaar,Go Ahead Eagles,84,84,False
+N1,2223,2022-08-07,Groningen,Volendam,84,7,False
+N1,2223,2022-08-07,Nijmegen,Twente,84,84,False
+N1,2223,2022-08-12,Excelsior,Vitesse,6,5,False
+N1,2223,2022-08-13,Utrecht,Cambuur,7,7,False
+N1,2223,2022-08-13,Feyenoord,Heerenveen,6,8,False
+N1,2223,2022-08-13,FC Emmen,Waalwijk,7,7,False
+N1,2223,2022-08-13,Go Ahead Eagles,PSV Eindhoven,6,7,False
+N1,2223,2022-08-14,Twente,For Sittard,7,8,False
+N1,2223,2022-08-14,Sparta Rotterdam,AZ Alkmaar,9,7,False
+N1,2223,2022-08-14,Volendam,Nijmegen,7,7,False
+N1,2223,2022-08-14,Ajax,Groningen,8,7,False
+N1,2223,2022-08-20,FC Emmen,Utrecht,7,7,False
+N1,2223,2022-08-20,Vitesse,Heerenveen,8,7,False
+N1,2223,2022-08-20,For Sittard,Cambuur,6,7,False
+N1,2223,2022-08-21,Waalwijk,Feyenoord,8,8,False
+N1,2223,2022-08-21,Groningen,Go Ahead Eagles,7,8,False
+N1,2223,2022-08-21,Sparta Rotterdam,Ajax,7,7,False
+N1,2223,2022-08-26,Nijmegen,Groningen,12,5,False
+N1,2223,2022-08-27,Feyenoord,FC Emmen,6,7,False
+N1,2223,2022-08-27,Heerenveen,For Sittard,7,7,False
+N1,2223,2022-08-27,Vitesse,Waalwijk,7,6,False
+N1,2223,2022-08-27,Go Ahead Eagles,Sparta Rotterdam,6,6,False
+N1,2223,2022-08-28,Volendam,Twente,14,14,False
+N1,2223,2022-08-28,Cambuur,AZ Alkmaar,8,14,False
+N1,2223,2022-08-28,Utrecht,Ajax,8,7,False
+N1,2223,2022-08-28,Excelsior,PSV Eindhoven,16,15,False
+N1,2223,2022-08-31,PSV Eindhoven,Volendam,3,3,True
+N1,2223,2022-08-31,Twente,Excelsior,3,3,True
+N1,2223,2022-09-01,AZ Alkmaar,Nijmegen,4,6,True
+N1,2223,2022-09-02,For Sittard,Utrecht,6,5,False
+N1,2223,2022-09-03,Go Ahead Eagles,Feyenoord,7,7,False
+N1,2223,2022-09-03,Ajax,Cambuur,6,6,False
+N1,2223,2022-09-03,Twente,PSV Eindhoven,3,3,False
+N1,2223,2022-09-03,Sparta Rotterdam,Volendam,7,3,False
+N1,2223,2022-09-04,Heerenveen,Nijmegen,8,3,False
+N1,2223,2022-09-04,Groningen,Vitesse,9,8,False
+N1,2223,2022-09-04,FC Emmen,AZ Alkmaar,8,3,False
+N1,2223,2022-09-04,Waalwijk,Excelsior,8,4,False
+N1,2223,2022-09-09,Volendam,Go Ahead Eagles,6,6,False
+N1,2223,2022-09-10,Excelsior,FC Emmen,6,6,False
+N1,2223,2022-09-10,Ajax,Heerenveen,7,6,False
+N1,2223,2022-09-10,Nijmegen,For Sittard,6,8,False
+N1,2223,2022-09-11,PSV Eindhoven,Waalwijk,8,7,False
+N1,2223,2022-09-11,AZ Alkmaar,Twente,7,8,False
+N1,2223,2022-09-11,Feyenoord,Sparta Rotterdam,8,8,False
+N1,2223,2022-09-11,Utrecht,Vitesse,9,7,False
+N1,2223,2022-09-11,Cambuur,Groningen,8,7,False
+N1,2223,2022-09-16,Utrecht,Nijmegen,5,6,False
+N1,2223,2022-09-17,Waalwijk,Cambuur,6,6,False
+N1,2223,2022-09-17,For Sittard,Excelsior,7,7,False
+N1,2223,2022-09-17,Vitesse,Volendam,6,8,False
+N1,2223,2022-09-17,Sparta Rotterdam,Groningen,6,6,False
+N1,2223,2022-09-18,PSV Eindhoven,Feyenoord,7,7,False
+N1,2223,2022-09-18,AZ Alkmaar,Ajax,7,8,False
+N1,2223,2022-09-18,Go Ahead Eagles,FC Emmen,9,8,False
+N1,2223,2022-09-18,Heerenveen,Twente,8,7,False
+N1,2223,2022-10-01,Ajax,Go Ahead Eagles,13,13,False
+N1,2223,2022-10-01,Twente,Vitesse,13,14,False
+N1,2223,2022-10-01,Cambuur,PSV Eindhoven,14,13,False
+N1,2223,2022-10-01,Groningen,AZ Alkmaar,14,13,False
+N1,2223,2022-10-02,Nijmegen,Feyenoord,16,14,False
+N1,2223,2022-10-02,Waalwijk,Sparta Rotterdam,15,15,False
+N1,2223,2022-10-02,FC Emmen,Heerenveen,14,14,False
+N1,2223,2022-10-02,For Sittard,Volendam,15,15,False
+N1,2223,2022-10-02,Excelsior,Utrecht,15,16,False
+N1,2223,2022-10-07,Groningen,Waalwijk,6,5,False
+N1,2223,2022-10-08,Sparta Rotterdam,FC Emmen,6,6,False
+N1,2223,2022-10-08,Nijmegen,Excelsior,6,6,False
+N1,2223,2022-10-08,Volendam,Ajax,6,7,False
+N1,2223,2022-10-09,Heerenveen,PSV Eindhoven,7,8,False
+N1,2223,2022-10-09,Go Ahead Eagles,Cambuur,8,8,False
+N1,2223,2022-10-09,Feyenoord,Twente,7,8,False
+N1,2223,2022-10-09,Utrecht,AZ Alkmaar,7,8,False
+N1,2223,2022-10-09,Vitesse,For Sittard,8,7,False
+N1,2223,2022-10-14,FC Emmen,Volendam,6,6,False
+N1,2223,2022-10-15,For Sittard,Waalwijk,6,8,False
+N1,2223,2022-10-15,Go Ahead Eagles,Heerenveen,6,6,False
+N1,2223,2022-10-15,Cambuur,Vitesse,6,6,False
+N1,2223,2022-10-16,Ajax,Excelsior,8,8,False
+N1,2223,2022-10-16,Sparta Rotterdam,Nijmegen,8,8,False
+N1,2223,2022-10-16,PSV Eindhoven,Utrecht,7,7,False
+N1,2223,2022-10-16,Twente,Groningen,7,9,False
+N1,2223,2022-10-16,AZ Alkmaar,Feyenoord,7,7,False
+N1,2223,2022-10-22,Vitesse,FC Emmen,7,8,False
+N1,2223,2022-10-22,Waalwijk,Ajax,7,6,False
+N1,2223,2022-10-22,Feyenoord,For Sittard,6,7,False
+N1,2223,2022-10-23,Groningen,PSV Eindhoven,7,7,False
+N1,2223,2022-10-23,Nijmegen,Go Ahead Eagles,7,8,False
+N1,2223,2022-10-23,Utrecht,Sparta Rotterdam,7,7,False
+N1,2223,2022-10-23,Volendam,Heerenveen,9,8,False
+N1,2223,2022-10-23,Excelsior,AZ Alkmaar,7,7,False
+N1,2223,2022-10-23,Cambuur,Twente,8,7,False
+N1,2223,2022-10-29,Go Ahead Eagles,Excelsior,6,6,False
+N1,2223,2022-10-29,Heerenveen,Utrecht,6,6,False
+N1,2223,2022-10-29,Sparta Rotterdam,For Sittard,6,7,False
+N1,2223,2022-10-30,Twente,Waalwijk,7,8,False
+N1,2223,2022-10-30,AZ Alkmaar,Volendam,7,7,False
+N1,2223,2022-10-30,FC Emmen,Groningen,8,7,False
+N1,2223,2022-10-30,PSV Eindhoven,Nijmegen,7,7,False
+N1,2223,2022-11-04,Cambuur,Nijmegen,12,5,False
+N1,2223,2022-11-05,Excelsior,Heerenveen,7,7,False
+N1,2223,2022-11-05,For Sittard,FC Emmen,7,6,False
+N1,2223,2022-11-05,Vitesse,Sparta Rotterdam,14,7,False
+N1,2223,2022-11-06,Volendam,Feyenoord,7,15,False
+N1,2223,2022-11-06,Ajax,PSV Eindhoven,15,7,False
+N1,2223,2022-11-06,Waalwijk,AZ Alkmaar,7,7,False
+N1,2223,2022-11-06,Utrecht,Groningen,8,7,False
+N1,2223,2022-11-06,Twente,Go Ahead Eagles,7,8,False
+N1,2223,2022-11-09,Ajax,Vitesse,3,4,True
+N1,2223,2022-11-10,Feyenoord,Cambuur,4,6,True
+N1,2223,2022-11-11,Sparta Rotterdam,Twente,6,5,False
+N1,2223,2022-11-12,FC Emmen,Ajax,7,3,False
+N1,2223,2022-11-12,Volendam,Utrecht,6,6,False
+N1,2223,2022-11-12,PSV Eindhoven,AZ Alkmaar,6,6,False
+N1,2223,2022-11-13,Heerenveen,Cambuur,8,3,False
+N1,2223,2022-11-13,Feyenoord,Excelsior,3,8,False
+N1,2223,2022-11-13,Go Ahead Eagles,Vitesse,7,4,False
+N1,2223,2022-11-13,Groningen,For Sittard,7,8,False
+N1,2223,2022-11-13,Nijmegen,Waalwijk,9,7,False
+N1,2223,2023-01-06,Twente,FC Emmen,56,55,False
+N1,2223,2023-01-07,For Sittard,Go Ahead Eagles,55,55,False
+N1,2223,2023-01-07,PSV Eindhoven,Sparta Rotterdam,56,57,False
+N1,2223,2023-01-07,AZ Alkmaar,Vitesse,56,55,False
+N1,2223,2023-01-07,Waalwijk,Heerenveen,55,55,False
+N1,2223,2023-01-08,Nijmegen,Ajax,56,57,False
+N1,2223,2023-01-08,Excelsior,Groningen,56,56,False
+N1,2223,2023-01-08,Utrecht,Feyenoord,57,56,False
+N1,2223,2023-01-08,Cambuur,Volendam,56,57,False
+N1,2223,2023-01-14,Ajax,Twente,6,8,False
+N1,2223,2023-01-14,Sparta Rotterdam,Excelsior,7,6,False
+N1,2223,2023-01-14,Heerenveen,AZ Alkmaar,7,7,False
+N1,2223,2023-01-14,Volendam,Waalwijk,6,7,False
+N1,2223,2023-01-15,Go Ahead Eagles,Utrecht,8,7,False
+N1,2223,2023-01-15,FC Emmen,Cambuur,9,7,False
+N1,2223,2023-01-15,Groningen,Feyenoord,7,7,False
+N1,2223,2023-01-15,Vitesse,Nijmegen,8,7,False
+N1,2223,2023-01-15,For Sittard,PSV Eindhoven,8,8,False
+N1,2223,2023-01-20,Excelsior,Volendam,6,6,False
+N1,2223,2023-01-21,PSV Eindhoven,Vitesse,6,6,False
+N1,2223,2023-01-21,Cambuur,Sparta Rotterdam,6,7,False
+N1,2223,2023-01-21,Nijmegen,FC Emmen,6,6,False
+N1,2223,2023-01-22,Twente,Utrecht,8,7,False
+N1,2223,2023-01-22,AZ Alkmaar,For Sittard,8,7,False
+N1,2223,2023-01-22,Heerenveen,Groningen,8,7,False
+N1,2223,2023-01-22,Feyenoord,Ajax,7,8,False
+N1,2223,2023-01-24,FC Emmen,PSV Eindhoven,3,3,True
+N1,2223,2023-01-24,Sparta Rotterdam,Waalwijk,3,10,True
+N1,2223,2023-01-25,Vitesse,Twente,4,3,True
+N1,2223,2023-01-25,Go Ahead Eagles,AZ Alkmaar,10,3,True
+N1,2223,2023-01-25,For Sittard,Heerenveen,3,3,True
+N1,2223,2023-01-25,Feyenoord,Nijmegen,3,4,True
+N1,2223,2023-01-25,Utrecht,Excelsior,3,5,True
+N1,2223,2023-01-26,Groningen,Cambuur,4,5,True
+N1,2223,2023-01-26,Ajax,Volendam,4,6,True
+N1,2223,2023-01-28,AZ Alkmaar,Utrecht,3,3,False
+N1,2223,2023-01-28,Waalwijk,FC Emmen,4,4,False
+N1,2223,2023-01-28,Nijmegen,Sparta Rotterdam,3,4,False
+N1,2223,2023-01-28,Heerenveen,Vitesse,3,3,False
+N1,2223,2023-01-28,PSV Eindhoven,Go Ahead Eagles,4,3,False
+N1,2223,2023-01-29,Volendam,Groningen,3,3,False
+N1,2223,2023-01-29,Cambuur,For Sittard,3,4,False
+N1,2223,2023-01-29,Twente,Feyenoord,4,4,False
+N1,2223,2023-01-29,Excelsior,Ajax,4,3,False
+N1,2223,2023-02-01,Waalwijk,Go Ahead Eagles,4,4,True
+N1,2223,2023-02-03,For Sittard,Sparta Rotterdam,5,6,False
+N1,2223,2023-02-04,Utrecht,Heerenveen,7,7,False
+N1,2223,2023-02-04,Excelsior,Waalwijk,6,3,False
+N1,2223,2023-02-04,Volendam,AZ Alkmaar,6,7,False
+N1,2223,2023-02-04,FC Emmen,Vitesse,7,7,False
+N1,2223,2023-02-05,Go Ahead Eagles,Nijmegen,4,8,False
+N1,2223,2023-02-05,Groningen,Twente,7,7,False
+N1,2223,2023-02-05,Feyenoord,PSV Eindhoven,7,8,False
+N1,2223,2023-02-05,Cambuur,Ajax,7,7,False
+N1,2223,2023-02-10,AZ Alkmaar,Excelsior,6,6,False
+N1,2223,2023-02-11,FC Emmen,For Sittard,7,8,False
+N1,2223,2023-02-11,PSV Eindhoven,Groningen,6,6,False
+N1,2223,2023-02-11,Nijmegen,Cambuur,6,6,False
+N1,2223,2023-02-12,Vitesse,Utrecht,8,8,False
+N1,2223,2023-02-12,Ajax,Waalwijk,7,8,False
+N1,2223,2023-02-12,Twente,Volendam,7,8,False
+N1,2223,2023-02-12,Sparta Rotterdam,Go Ahead Eagles,9,7,False
+N1,2223,2023-02-12,Heerenveen,Feyenoord,8,7,False
+N1,2223,2023-02-17,Waalwijk,For Sittard,5,6,False
+N1,2223,2023-02-18,Feyenoord,AZ Alkmaar,6,8,False
+N1,2223,2023-02-18,Groningen,FC Emmen,7,7,False
+N1,2223,2023-02-18,Volendam,Vitesse,6,6,False
+N1,2223,2023-02-19,Utrecht,PSV Eindhoven,7,8,False
+N1,2223,2023-02-19,Ajax,Sparta Rotterdam,7,7,False
+N1,2223,2023-02-19,Excelsior,Nijmegen,9,8,False
+N1,2223,2023-02-19,Cambuur,Heerenveen,8,7,False
+N1,2223,2023-02-19,Go Ahead Eagles,Twente,7,7,False
+N1,2223,2023-02-24,Sparta Rotterdam,Utrecht,5,5,False
+N1,2223,2023-02-25,AZ Alkmaar,Cambuur,7,6,False
+N1,2223,2023-02-25,Nijmegen,Volendam,6,7,False
+N1,2223,2023-02-25,Heerenveen,Waalwijk,6,8,False
+N1,2223,2023-02-25,Groningen,Excelsior,7,6,False
+N1,2223,2023-02-26,Vitesse,Ajax,8,7,False
+N1,2223,2023-02-26,PSV Eindhoven,Twente,7,7,False
+N1,2223,2023-02-26,For Sittard,Feyenoord,9,8,False
+N1,2223,2023-02-26,FC Emmen,Go Ahead Eagles,8,7,False
+N1,2223,2023-03-03,Vitesse,AZ Alkmaar,5,6,False
+N1,2223,2023-03-03,Utrecht,For Sittard,7,5,False
+N1,2223,2023-03-04,Twente,Heerenveen,6,7,False
+N1,2223,2023-03-04,Volendam,FC Emmen,7,6,False
+N1,2223,2023-03-04,Feyenoord,Groningen,6,7,False
+N1,2223,2023-03-05,Ajax,Nijmegen,7,8,False
+N1,2223,2023-03-05,Cambuur,Go Ahead Eagles,8,7,False
+N1,2223,2023-03-05,Waalwijk,PSV Eindhoven,8,7,False
+N1,2223,2023-03-05,Excelsior,Sparta Rotterdam,8,9,False
+N1,2223,2023-03-11,AZ Alkmaar,Groningen,8,7,False
+N1,2223,2023-03-11,Sparta Rotterdam,Vitesse,6,8,False
+N1,2223,2023-03-11,FC Emmen,Excelsior,7,6,False
+N1,2223,2023-03-11,For Sittard,Twente,8,7,False
+N1,2223,2023-03-12,PSV Eindhoven,Cambuur,7,7,False
+N1,2223,2023-03-12,Feyenoord,Volendam,8,8,False
+N1,2223,2023-03-12,Nijmegen,Utrecht,7,9,False
+N1,2223,2023-03-12,Heerenveen,Ajax,8,7,False
+N1,2223,2023-03-17,Volendam,For Sittard,5,6,False
+N1,2223,2023-03-18,Waalwijk,Nijmegen,13,6,False
+N1,2223,2023-03-18,FC Emmen,Sparta Rotterdam,7,7,False
+N1,2223,2023-03-18,Utrecht,Go Ahead Eagles,6,13,False
+N1,2223,2023-03-19,Excelsior,Cambuur,8,7,False
+N1,2223,2023-03-19,Vitesse,PSV Eindhoven,8,7,False
+N1,2223,2023-03-19,Twente,AZ Alkmaar,8,8,False
+N1,2223,2023-03-19,Groningen,Heerenveen,8,7,False
+N1,2223,2023-03-19,Ajax,Feyenoord,7,7,False
+N1,2223,2023-04-01,Excelsior,Twente,13,13,False
+N1,2223,2023-04-01,AZ Alkmaar,Heerenveen,13,13,False
+N1,2223,2023-04-01,Cambuur,FC Emmen,13,14,False
+N1,2223,2023-04-01,Nijmegen,PSV Eindhoven,14,13,False
+N1,2223,2023-04-01,Waalwijk,Vitesse,14,13,False
+N1,2223,2023-04-02,Go Ahead Eagles,Ajax,15,14,False
+N1,2223,2023-04-02,Sparta Rotterdam,Feyenoord,15,14,False
+N1,2223,2023-04-02,For Sittard,Groningen,16,14,False
+N1,2223,2023-04-02,Utrecht,Volendam,15,16,False
+N1,2223,2023-04-07,Groningen,Utrecht,5,5,False
+N1,2223,2023-04-08,Vitesse,Go Ahead Eagles,7,6,False
+N1,2223,2023-04-08,AZ Alkmaar,Sparta Rotterdam,7,6,False
+N1,2223,2023-04-08,PSV Eindhoven,Excelsior,7,7,False
+N1,2223,2023-04-08,Heerenveen,Volendam,7,6,False
+N1,2223,2023-04-09,Ajax,For Sittard,7,7,False
+N1,2223,2023-04-09,Feyenoord,Waalwijk,7,8,False
+N1,2223,2023-04-09,FC Emmen,Nijmegen,8,8,False
+N1,2223,2023-04-09,Twente,Cambuur,8,8,False
+N1,2223,2023-04-14,Excelsior,Go Ahead Eagles,6,6,False
+N1,2223,2023-04-15,Sparta Rotterdam,Heerenveen,7,7,False
+N1,2223,2023-04-15,Waalwijk,Groningen,6,8,False
+N1,2223,2023-04-16,Volendam,PSV Eindhoven,8,8,False
+N1,2223,2023-04-16,Cambuur,Feyenoord,7,7,False
+N1,2223,2023-04-16,Ajax,FC Emmen,7,7,False
+N1,2223,2023-04-16,For Sittard,AZ Alkmaar,7,8,False
+N1,2223,2023-04-16,Nijmegen,Vitesse,7,8,False
+N1,2223,2023-04-16,Utrecht,Twente,9,7,False
+N1,2223,2023-04-19,Go Ahead Eagles,Waalwijk,5,4,True
+N1,2223,2023-04-21,Volendam,Cambuur,5,5,False
+N1,2223,2023-04-22,Heerenveen,FC Emmen,7,6,False
+N1,2223,2023-04-22,Vitesse,Excelsior,6,8,False
+N1,2223,2023-04-23,Go Ahead Eagles,For Sittard,4,7,False
+N1,2223,2023-04-23,Feyenoord,Utrecht,7,7,False
+N1,2223,2023-04-23,AZ Alkmaar,Waalwijk,7,4,False
+N1,2223,2023-04-23,PSV Eindhoven,Ajax,7,7,False
+N1,2223,2023-04-23,Twente,Sparta Rotterdam,7,8,False
+N1,2223,2023-04-25,Groningen,Nijmegen,10,9,True
+N1,2223,2023-05-05,Waalwijk,Volendam,12,14,False
+N1,2223,2023-05-06,Ajax,AZ Alkmaar,13,13,False
+N1,2223,2023-05-06,Sparta Rotterdam,PSV Eindhoven,13,13,False
+N1,2223,2023-05-06,Cambuur,Utrecht,15,13,False
+N1,2223,2023-05-06,Nijmegen,Heerenveen,11,14,False
+N1,2223,2023-05-07,Go Ahead Eagles,Groningen,14,12,False
+N1,2223,2023-05-07,For Sittard,Vitesse,14,15,False
+N1,2223,2023-05-07,Excelsior,Feyenoord,15,14,False
+N1,2223,2023-05-07,FC Emmen,Twente,15,14,False
+N1,2223,2023-05-12,Twente,Nijmegen,5,6,False
+N1,2223,2023-05-13,Utrecht,Waalwijk,7,8,False
+N1,2223,2023-05-13,Heerenveen,Excelsior,7,6,False
+N1,2223,2023-05-13,Volendam,Sparta Rotterdam,8,7,False
+N1,2223,2023-05-14,AZ Alkmaar,FC Emmen,8,7,False
+N1,2223,2023-05-14,PSV Eindhoven,For Sittard,8,7,False
+N1,2223,2023-05-14,Groningen,Ajax,7,8,False
+N1,2223,2023-05-14,Vitesse,Cambuur,7,8,False
+N1,2223,2023-05-14,Feyenoord,Go Ahead Eagles,7,7,False
+N1,2223,2023-05-21,FC Emmen,Feyenoord,7,7,False
+N1,2223,2023-05-21,Go Ahead Eagles,Volendam,7,8,False
+N1,2223,2023-05-21,Nijmegen,AZ Alkmaar,9,7,False
+N1,2223,2023-05-21,PSV Eindhoven,Heerenveen,7,8,False
+N1,2223,2023-05-21,Sparta Rotterdam,Cambuur,8,7,False
+N1,2223,2023-05-21,Vitesse,Groningen,7,7,False
+N1,2223,2023-05-21,Waalwijk,Twente,8,9,False
+N1,2223,2023-05-21,Ajax,Utrecht,7,8,False
+N1,2223,2023-05-21,Excelsior,For Sittard,8,7,False
+N1,2223,2023-05-28,Feyenoord,Vitesse,7,7,False
+N1,2223,2023-05-28,For Sittard,Nijmegen,7,7,False
+N1,2223,2023-05-28,Groningen,Sparta Rotterdam,7,7,False
+N1,2223,2023-05-28,Heerenveen,Go Ahead Eagles,7,7,False
+N1,2223,2023-05-28,Twente,Ajax,7,7,False
+N1,2223,2023-05-28,Utrecht,FC Emmen,7,7,False
+N1,2223,2023-05-28,Volendam,Excelsior,7,7,False
+N1,2223,2023-05-28,AZ Alkmaar,PSV Eindhoven,7,7,False
+N1,2223,2023-05-28,Cambuur,Waalwijk,7,7,False

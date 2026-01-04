@@ -1,0 +1,180 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2019-08-03,Celtic,St Johnstone,7,0,H,0
+2019-08-03,Hibernian,St Mirren,1,0,H,0
+2019-08-03,Livingston,Motherwell,0,0,D,1
+2019-08-03,Ross County,Hamilton,3,0,H,0
+2019-08-04,Kilmarnock,Rangers,1,2,A,0
+2019-08-04,Aberdeen,Hearts,3,2,H,0
+2019-08-10,Motherwell,Celtic,2,5,A,0
+2019-08-10,St Johnstone,Livingston,2,2,D,1
+2019-08-10,Hamilton,Kilmarnock,2,0,H,0
+2019-08-10,Hearts,Ross County,0,0,D,1
+2019-08-11,Rangers,Hibernian,6,1,H,0
+2019-08-11,St Mirren,Aberdeen,1,0,H,0
+2019-08-24,Hamilton,Motherwell,1,3,A,0
+2019-08-24,Hibernian,St Johnstone,2,2,D,1
+2019-08-24,Kilmarnock,Aberdeen,0,0,D,1
+2019-08-24,Ross County,Livingston,1,4,A,0
+2019-08-25,St Mirren,Rangers,0,1,A,0
+2019-08-25,Celtic,Hearts,3,1,H,0
+2019-08-31,Aberdeen,Ross County,3,0,H,0
+2019-08-31,Hearts,Hamilton,2,2,D,1
+2019-08-31,Livingston,St Mirren,2,1,H,0
+2019-08-31,Motherwell,Hibernian,3,0,H,0
+2019-08-31,St Johnstone,Kilmarnock,0,1,A,0
+2019-09-01,Rangers,Celtic,0,2,A,0
+2019-09-14,Hamilton,Celtic,0,1,A,0
+2019-09-14,Aberdeen,St Johnstone,1,1,D,1
+2019-09-14,Hearts,Motherwell,2,3,A,0
+2019-09-14,Kilmarnock,Hibernian,2,0,H,0
+2019-09-14,Rangers,Livingston,3,1,H,0
+2019-09-14,Ross County,St Mirren,2,1,H,0
+2019-09-21,Livingston,Aberdeen,0,2,A,0
+2019-09-21,Motherwell,Ross County,1,2,A,0
+2019-09-21,St Mirren,Hamilton,0,0,D,1
+2019-09-22,St Johnstone,Rangers,0,4,A,0
+2019-09-22,Celtic,Kilmarnock,3,1,H,0
+2019-09-22,Hibernian,Hearts,1,2,A,0
+2019-09-28,Hibernian,Celtic,1,1,D,1
+2019-09-28,Hamilton,Livingston,2,1,H,0
+2019-09-28,Kilmarnock,Ross County,0,0,D,1
+2019-09-28,Rangers,Aberdeen,5,0,H,0
+2019-09-28,St Johnstone,Motherwell,0,1,A,0
+2019-09-28,St Mirren,Hearts,0,0,D,1
+2019-10-05,Aberdeen,Hibernian,1,1,D,1
+2019-10-05,Hearts,Kilmarnock,0,1,A,0
+2019-10-05,Motherwell,St Mirren,2,0,H,0
+2019-10-05,Ross County,St Johnstone,2,2,D,1
+2019-10-06,Livingston,Celtic,2,0,H,0
+2019-10-06,Rangers,Hamilton,5,0,H,0
+2019-10-19,Celtic,Ross County,6,0,H,0
+2019-10-19,Hamilton,Hibernian,1,1,D,1
+2019-10-19,Kilmarnock,Livingston,2,1,H,0
+2019-10-19,Motherwell,Aberdeen,0,3,A,0
+2019-10-19,St Mirren,St Johnstone,2,0,H,0
+2019-10-20,Hearts,Rangers,1,1,D,1
+2019-10-26,Hibernian,Ross County,2,2,D,1
+2019-10-26,Kilmarnock,St Mirren,1,0,H,0
+2019-10-26,Livingston,Hearts,0,0,D,1
+2019-10-26,St Johnstone,Hamilton,3,2,H,0
+2019-10-27,Aberdeen,Celtic,0,4,A,0
+2019-10-27,Rangers,Motherwell,2,1,H,0
+2019-10-30,Celtic,St Mirren,2,0,H,0
+2019-10-30,Hamilton,Aberdeen,0,1,A,0
+2019-10-30,Hibernian,Livingston,2,2,D,1
+2019-10-30,Motherwell,Kilmarnock,2,1,H,0
+2019-10-30,Ross County,Rangers,0,4,A,0
+2019-10-30,St Johnstone,Hearts,1,0,H,0
+2019-11-02,Aberdeen,Kilmarnock,3,0,H,0
+2019-11-02,Hamilton,Ross County,2,2,D,1
+2019-11-02,Motherwell,Livingston,2,1,H,0
+2019-11-09,Hearts,St Mirren,5,2,H,0
+2019-11-09,Kilmarnock,Hamilton,2,2,D,1
+2019-11-09,Ross County,Aberdeen,1,3,A,0
+2019-11-09,St Johnstone,Hibernian,1,4,A,0
+2019-11-10,Celtic,Motherwell,2,0,H,0
+2019-11-10,Livingston,Rangers,0,2,A,0
+2019-11-23,Celtic,Livingston,4,0,H,0
+2019-11-23,Hibernian,Motherwell,3,1,H,0
+2019-11-23,Kilmarnock,Hearts,3,0,H,0
+2019-11-23,St Mirren,Ross County,2,1,H,0
+2019-11-24,Hamilton,Rangers,1,3,A,0
+2019-11-24,St Johnstone,Aberdeen,1,1,D,1
+2019-11-26,St Mirren,Hibernian,1,2,A,0
+2019-11-30,Aberdeen,St Mirren,2,1,H,0
+2019-11-30,Hibernian,Kilmarnock,2,2,D,1
+2019-11-30,Livingston,Hamilton,0,0,D,1
+2019-11-30,Motherwell,St Johnstone,4,0,H,0
+2019-12-01,Ross County,Celtic,1,4,A,0
+2019-12-01,Rangers,Hearts,5,0,H,0
+2019-12-04,Aberdeen,Rangers,2,2,D,1
+2019-12-04,Celtic,Hamilton,2,1,H,0
+2019-12-04,Hearts,Livingston,1,1,D,1
+2019-12-04,Kilmarnock,St Johnstone,0,0,D,1
+2019-12-04,Ross County,Hibernian,2,1,H,0
+2019-12-04,St Mirren,Motherwell,0,3,A,0
+2019-12-07,Hamilton,St Mirren,0,1,A,0
+2019-12-07,Hibernian,Aberdeen,3,0,H,0
+2019-12-07,Livingston,Kilmarnock,3,0,H,0
+2019-12-07,Motherwell,Hearts,1,0,H,0
+2019-12-14,Aberdeen,Hamilton,1,0,H,0
+2019-12-14,Hearts,St Johnstone,0,1,A,0
+2019-12-14,Ross County,Kilmarnock,1,0,H,0
+2019-12-14,St Mirren,Livingston,3,3,D,1
+2019-12-15,Motherwell,Rangers,0,2,A,0
+2019-12-15,Celtic,Hibernian,2,0,H,0
+2019-12-18,Hearts,Celtic,0,2,A,0
+2019-12-20,Hibernian,Rangers,0,3,A,0
+2019-12-21,Celtic,Aberdeen,2,1,H,0
+2019-12-21,Hamilton,Hearts,2,1,H,0
+2019-12-21,Kilmarnock,Motherwell,0,1,A,0
+2019-12-21,Livingston,Ross County,4,0,H,0
+2019-12-21,St Johnstone,St Mirren,0,0,D,1
+2019-12-26,Hearts,Hibernian,0,2,A,0
+2019-12-26,Aberdeen,Livingston,2,1,H,0
+2019-12-26,Hamilton,St Johnstone,0,1,A,0
+2019-12-26,Rangers,Kilmarnock,1,0,H,0
+2019-12-26,Ross County,Motherwell,1,2,A,0
+2019-12-26,St Mirren,Celtic,1,2,A,0
+2019-12-29,Celtic,Rangers,1,2,A,0
+2019-12-29,Hearts,Aberdeen,1,1,D,1
+2019-12-29,Livingston,Hibernian,2,0,H,0
+2019-12-29,Motherwell,Hamilton,1,2,A,0
+2019-12-29,St Johnstone,Ross County,1,1,D,1
+2019-12-29,St Mirren,Kilmarnock,1,0,H,0
+2020-01-22,Aberdeen,Motherwell,0,1,A,0
+2020-01-22,Hibernian,Hamilton,2,1,H,0
+2020-01-22,Kilmarnock,Celtic,1,3,A,0
+2020-01-22,Livingston,St Johnstone,1,0,H,0
+2020-01-22,Rangers,St Mirren,1,0,H,0
+2020-01-22,Ross County,Hearts,0,0,D,1
+2020-01-25,Celtic,Ross County,3,0,H,0
+2020-01-25,Hamilton,Livingston,2,4,A,0
+2020-01-25,Motherwell,Hibernian,0,0,D,1
+2020-01-25,St Johnstone,Kilmarnock,2,1,H,0
+2020-01-26,St Mirren,Aberdeen,0,0,D,1
+2020-01-26,Hearts,Rangers,2,1,H,0
+2020-01-29,Rangers,Ross County,2,0,H,0
+2020-01-29,St Johnstone,Celtic,0,3,A,0
+2020-02-01,Hibernian,St Mirren,2,2,D,1
+2020-02-01,Kilmarnock,Ross County,3,1,H,0
+2020-02-01,Livingston,Motherwell,1,0,H,0
+2020-02-01,Rangers,Aberdeen,0,0,D,1
+2020-02-01,St Johnstone,Hearts,3,3,D,1
+2020-02-02,Hamilton,Celtic,1,4,A,0
+2020-02-05,Aberdeen,St Johnstone,0,1,A,0
+2020-02-05,Hearts,Kilmarnock,2,3,A,0
+2020-02-05,Motherwell,Celtic,0,4,A,0
+2020-02-05,Rangers,Hibernian,2,1,H,0
+2020-02-05,Ross County,Livingston,2,0,H,0
+2020-02-05,St Mirren,Hamilton,1,1,D,1
+2020-02-11,Hamilton,Aberdeen,1,3,A,0
+2020-02-12,Celtic,Hearts,5,0,H,0
+2020-02-12,Hibernian,Ross County,3,0,H,0
+2020-02-12,Kilmarnock,Rangers,2,1,H,0
+2020-02-12,Livingston,St Mirren,2,1,H,0
+2020-02-12,St Johnstone,Motherwell,2,1,H,0
+2020-02-15,Hearts,Hamilton,2,2,D,1
+2020-02-15,Ross County,St Johnstone,1,1,D,1
+2020-02-16,Aberdeen,Celtic,1,2,A,0
+2020-02-16,Rangers,Livingston,1,0,H,0
+2020-02-16,Kilmarnock,Hibernian,1,2,A,0
+2020-02-22,Aberdeen,Ross County,1,2,A,0
+2020-02-22,Hamilton,Motherwell,0,0,D,1
+2020-02-22,Hibernian,Livingston,1,1,D,1
+2020-02-23,St Johnstone,Rangers,2,2,D,1
+2020-02-23,Celtic,Kilmarnock,3,1,H,0
+2020-02-25,Motherwell,St Mirren,1,2,A,0
+2020-03-03,Hibernian,Hearts,1,3,A,0
+2020-03-04,Kilmarnock,Aberdeen,2,2,D,1
+2020-03-04,Livingston,Celtic,2,2,D,1
+2020-03-04,Motherwell,Ross County,4,1,H,0
+2020-03-04,Rangers,Hamilton,0,1,A,0
+2020-03-04,St Mirren,St Johnstone,0,0,D,1
+2020-03-07,Aberdeen,Hibernian,3,1,H,0
+2020-03-07,Celtic,St Mirren,5,0,H,0
+2020-03-07,Hamilton,Kilmarnock,1,0,H,0
+2020-03-07,Hearts,Motherwell,1,1,D,1
+2020-03-07,St Johnstone,Livingston,1,0,H,0
+2020-03-08,Ross County,Rangers,0,1,A,0
+2020-03-11,St Mirren,Hearts,1,0,H,0

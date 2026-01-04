@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D1,2021,2020-09-18,Bayern Munich,Schalke 04,83,83,False
+D1,2021,2020-09-19,Ein Frankfurt,Bielefeld,84,7,False
+D1,2021,2020-09-19,FC Koln,Heidenheim,84,84,False
+D1,2021,2020-09-19,Stuttgart,Freiburg,7,84,False
+D1,2021,2020-09-19,Union Berlin,Augsburg,84,84,False
+D1,2021,2020-09-19,Werder Bremen,Hertha,84,84,False
+D1,2021,2020-09-19,Dortmund,M'gladbach,84,84,False
+D1,2021,2020-09-20,RB Leipzig,Mainz,85,85,False
+D1,2021,2020-09-20,Wolfsburg,Leverkusen,85,85,False
+D1,2021,2020-09-25,Hertha,Ein Frankfurt,6,6,False
+D1,2021,2020-09-26,Augsburg,Dortmund,7,7,False
+D1,2021,2020-09-26,Bielefeld,FC Koln,7,7,False
+D1,2021,2020-09-26,Leverkusen,RB Leipzig,6,6,False
+D1,2021,2020-09-26,Mainz,Stuttgart,6,7,False
+D1,2021,2020-09-26,M'gladbach,Union Berlin,7,7,False
+D1,2021,2020-09-26,Schalke 04,Werder Bremen,8,7,False
+D1,2021,2020-09-27,Heidenheim,Bayern Munich,8,9,False
+D1,2021,2020-09-27,Freiburg,Wolfsburg,8,7,False
+D1,2021,2020-10-02,Union Berlin,Mainz,6,6,False
+D1,2021,2020-10-03,Dortmund,Freiburg,7,6,False
+D1,2021,2020-10-03,Ein Frankfurt,Heidenheim,8,6,False
+D1,2021,2020-10-03,FC Koln,M'gladbach,7,7,False
+D1,2021,2020-10-03,Stuttgart,Leverkusen,7,7,False
+D1,2021,2020-10-03,Werder Bremen,Bielefeld,7,7,False
+D1,2021,2020-10-03,RB Leipzig,Schalke 04,7,7,False
+D1,2021,2020-10-04,Wolfsburg,Augsburg,7,8,False
+D1,2021,2020-10-04,Bayern Munich,Hertha,7,9,False
+D1,2021,2020-10-17,Augsburg,RB Leipzig,13,14,False
+D1,2021,2020-10-17,Freiburg,Werder Bremen,14,14,False
+D1,2021,2020-10-17,Hertha,Stuttgart,13,14,False
+D1,2021,2020-10-17,Heidenheim,Dortmund,14,14,False
+D1,2021,2020-10-17,Mainz,Leverkusen,15,14,False
+D1,2021,2020-10-17,Bielefeld,Bayern Munich,14,13,False
+D1,2021,2020-10-17,M'gladbach,Wolfsburg,14,13,False
+D1,2021,2020-10-18,FC Koln,Ein Frankfurt,15,15,False
+D1,2021,2020-10-18,Schalke 04,Union Berlin,15,16,False
+D1,2021,2020-10-23,Stuttgart,FC Koln,6,5,False
+D1,2021,2020-10-24,Bayern Munich,Ein Frankfurt,7,6,False
+D1,2021,2020-10-24,Mainz,M'gladbach,7,7,False
+D1,2021,2020-10-24,RB Leipzig,Hertha,7,7,False
+D1,2021,2020-10-24,Union Berlin,Freiburg,6,7,False
+D1,2021,2020-10-24,Dortmund,Schalke 04,7,6,False
+D1,2021,2020-10-25,Wolfsburg,Bielefeld,8,8,False
+D1,2021,2020-10-25,Werder Bremen,Heidenheim,8,8,False
+D1,2021,2020-10-26,Leverkusen,Augsburg,9,9,False
+D1,2021,2020-10-30,Schalke 04,Stuttgart,6,7,False
+D1,2021,2020-10-31,Augsburg,Mainz,5,7,False
+D1,2021,2020-10-31,Bielefeld,Dortmund,6,7,False
+D1,2021,2020-10-31,Ein Frankfurt,Werder Bremen,7,6,False
+D1,2021,2020-10-31,FC Koln,Bayern Munich,8,7,False
+D1,2021,2020-10-31,M'gladbach,RB Leipzig,7,7,False
+D1,2021,2020-11-01,Freiburg,Leverkusen,8,6,False
+D1,2021,2020-11-01,Hertha,Wolfsburg,8,7,False
+D1,2021,2020-11-02,Heidenheim,Union Berlin,8,9,False
+D1,2021,2020-11-06,Werder Bremen,FC Koln,6,6,False
+D1,2021,2020-11-07,Augsburg,Hertha,7,6,False
+D1,2021,2020-11-07,Mainz,Schalke 04,7,8,False
+D1,2021,2020-11-07,RB Leipzig,Freiburg,7,6,False
+D1,2021,2020-11-07,Stuttgart,Ein Frankfurt,8,7,False
+D1,2021,2020-11-07,Union Berlin,Bielefeld,5,7,False
+D1,2021,2020-11-07,Dortmund,Bayern Munich,7,7,False
+D1,2021,2020-11-08,Wolfsburg,Heidenheim,7,6,False
+D1,2021,2020-11-08,Leverkusen,M'gladbach,7,8,False
+D1,2021,2020-11-21,Bayern Munich,Werder Bremen,14,15,False
+D1,2021,2020-11-21,Bielefeld,Leverkusen,14,13,False
+D1,2021,2020-11-21,Heidenheim,Stuttgart,13,14,False
+D1,2021,2020-11-21,M'gladbach,Augsburg,13,14,False
+D1,2021,2020-11-21,Schalke 04,Wolfsburg,14,13,False
+D1,2021,2020-11-21,Ein Frankfurt,RB Leipzig,14,14,False
+D1,2021,2020-11-21,Hertha,Dortmund,14,14,False
+D1,2021,2020-11-22,Freiburg,Mainz,15,15,False
+D1,2021,2020-11-22,FC Koln,Union Berlin,16,15,False
+D1,2021,2020-11-27,Wolfsburg,Werder Bremen,6,6,False
+D1,2021,2020-11-28,Augsburg,Freiburg,7,6,False
+D1,2021,2020-11-28,Dortmund,FC Koln,7,6,False
+D1,2021,2020-11-28,RB Leipzig,Bielefeld,7,7,False
+D1,2021,2020-11-28,Stuttgart,Bayern Munich,7,7,False
+D1,2021,2020-11-28,Union Berlin,Ein Frankfurt,6,7,False
+D1,2021,2020-11-28,M'gladbach,Schalke 04,7,7,False
+D1,2021,2020-11-29,Leverkusen,Hertha,8,8,False
+D1,2021,2020-11-29,Mainz,Heidenheim,7,8,False
+D1,2021,2020-12-04,Hertha,Union Berlin,5,6,False
+D1,2021,2020-12-05,Bielefeld,Mainz,7,6,False
+D1,2021,2020-12-05,Ein Frankfurt,Dortmund,7,7,False
+D1,2021,2020-12-05,FC Koln,Wolfsburg,7,8,False
+D1,2021,2020-12-05,Freiburg,M'gladbach,7,7,False
+D1,2021,2020-12-05,Bayern Munich,RB Leipzig,7,7,False
+D1,2021,2020-12-06,Werder Bremen,Stuttgart,9,8,False
+D1,2021,2020-12-06,Schalke 04,Leverkusen,8,7,False
+D1,2021,2020-12-07,Heidenheim,Augsburg,8,9,False
+D1,2021,2020-12-11,Wolfsburg,Ein Frankfurt,6,6,False
+D1,2021,2020-12-12,Dortmund,Stuttgart,7,6,False
+D1,2021,2020-12-12,Freiburg,Bielefeld,7,7,False
+D1,2021,2020-12-12,Mainz,FC Koln,7,7,False
+D1,2021,2020-12-12,M'gladbach,Hertha,7,8,False
+D1,2021,2020-12-12,RB Leipzig,Werder Bremen,7,6,False
+D1,2021,2020-12-12,Union Berlin,Bayern Munich,8,7,False
+D1,2021,2020-12-13,Augsburg,Schalke 04,6,7,False
+D1,2021,2020-12-13,Leverkusen,Heidenheim,7,6,False
+D1,2021,2020-12-15,Ein Frankfurt,M'gladbach,4,3,True
+D1,2021,2020-12-15,Hertha,Mainz,3,3,True
+D1,2021,2020-12-15,Stuttgart,Union Berlin,3,3,True
+D1,2021,2020-12-15,Werder Bremen,Dortmund,3,3,True
+D1,2021,2020-12-16,Schalke 04,Freiburg,3,4,True
+D1,2021,2020-12-16,Bayern Munich,Wolfsburg,4,5,True
+D1,2021,2020-12-16,Bielefeld,Augsburg,4,3,True
+D1,2021,2020-12-16,FC Koln,Leverkusen,4,3,True
+D1,2021,2020-12-16,Heidenheim,RB Leipzig,3,4,True
+D1,2021,2020-12-18,Union Berlin,Dortmund,3,3,False
+D1,2021,2020-12-19,Augsburg,Ein Frankfurt,3,4,False
+D1,2021,2020-12-19,Mainz,Werder Bremen,4,4,False
+D1,2021,2020-12-19,M'gladbach,Heidenheim,4,3,False
+D1,2021,2020-12-19,RB Leipzig,FC Koln,3,3,False
+D1,2021,2020-12-19,Schalke 04,Bielefeld,3,3,False
+D1,2021,2020-12-19,Leverkusen,Bayern Munich,3,3,False
+D1,2021,2020-12-20,Freiburg,Hertha,4,5,False
+D1,2021,2020-12-20,Wolfsburg,Stuttgart,4,5,False
+D1,2021,2021-01-02,Bielefeld,M'gladbach,14,14,False
+D1,2021,2021-01-02,Ein Frankfurt,Leverkusen,14,14,False
+D1,2021,2021-01-02,FC Koln,Augsburg,14,14,False
+D1,2021,2021-01-02,Heidenheim,Freiburg,14,13,False
+D1,2021,2021-01-02,Werder Bremen,Union Berlin,14,15,False
+D1,2021,2021-01-02,Hertha,Schalke 04,13,14,False
+D1,2021,2021-01-02,Stuttgart,RB Leipzig,13,14,False
+D1,2021,2021-01-03,Dortmund,Wolfsburg,16,14,False
+D1,2021,2021-01-03,Bayern Munich,Mainz,15,15,False
+D1,2021,2021-01-08,M'gladbach,Bayern Munich,6,5,False
+D1,2021,2021-01-09,Freiburg,FC Koln,7,7,False
+D1,2021,2021-01-09,Leverkusen,Werder Bremen,7,7,False
+D1,2021,2021-01-09,Mainz,Ein Frankfurt,6,7,False
+D1,2021,2021-01-09,Schalke 04,Heidenheim,7,7,False
+D1,2021,2021-01-09,Union Berlin,Wolfsburg,7,6,False
+D1,2021,2021-01-09,RB Leipzig,Dortmund,7,6,False
+D1,2021,2021-01-10,Augsburg,Stuttgart,8,8,False
+D1,2021,2021-01-10,Bielefeld,Hertha,8,8,False
+D1,2021,2021-01-15,Union Berlin,Leverkusen,6,6,False
+D1,2021,2021-01-16,Dortmund,Mainz,7,7,False
+D1,2021,2021-01-16,FC Koln,Hertha,7,6,False
+D1,2021,2021-01-16,Heidenheim,Bielefeld,7,6,False
+D1,2021,2021-01-16,Werder Bremen,Augsburg,7,6,False
+D1,2021,2021-01-16,Wolfsburg,RB Leipzig,7,7,False
+D1,2021,2021-01-16,Stuttgart,M'gladbach,6,8,False
+D1,2021,2021-01-17,Bayern Munich,Freiburg,9,8,False
+D1,2021,2021-01-17,Ein Frankfurt,Schalke 04,8,8,False
+D1,2021,2021-01-19,M'gladbach,Werder Bremen,3,3,True
+D1,2021,2021-01-19,Hertha,Heidenheim,3,3,True
+D1,2021,2021-01-19,Leverkusen,Dortmund,4,3,True
+D1,2021,2021-01-19,Mainz,Wolfsburg,3,3,True
+D1,2021,2021-01-20,Schalke 04,FC Koln,3,4,True
+D1,2021,2021-01-20,Augsburg,Bayern Munich,4,3,True
+D1,2021,2021-01-20,Bielefeld,Stuttgart,4,4,True
+D1,2021,2021-01-20,Freiburg,Ein Frankfurt,3,3,True
+D1,2021,2021-01-20,RB Leipzig,Union Berlin,4,5,True
+D1,2021,2021-01-22,M'gladbach,Dortmund,3,3,False
+D1,2021,2021-01-23,Augsburg,Union Berlin,3,3,False
+D1,2021,2021-01-23,Bielefeld,Ein Frankfurt,3,3,False
+D1,2021,2021-01-23,Freiburg,Stuttgart,3,3,False
+D1,2021,2021-01-23,Leverkusen,Wolfsburg,4,4,False
+D1,2021,2021-01-23,Mainz,RB Leipzig,4,3,False
+D1,2021,2021-01-23,Hertha,Werder Bremen,4,4,False
+D1,2021,2021-01-24,Schalke 04,Bayern Munich,4,4,False
+D1,2021,2021-01-24,Heidenheim,FC Koln,5,4,False
+D1,2021,2021-01-29,Stuttgart,Mainz,6,6,False
+D1,2021,2021-01-30,Bayern Munich,Heidenheim,6,6,False
+D1,2021,2021-01-30,Dortmund,Augsburg,8,7,False
+D1,2021,2021-01-30,Ein Frankfurt,Hertha,7,7,False
+D1,2021,2021-01-30,Union Berlin,M'gladbach,7,8,False
+D1,2021,2021-01-30,Werder Bremen,Schalke 04,7,6,False
+D1,2021,2021-01-30,RB Leipzig,Leverkusen,7,7,False
+D1,2021,2021-01-31,FC Koln,Bielefeld,7,8,False
+D1,2021,2021-01-31,Wolfsburg,Freiburg,8,8,False
+D1,2021,2021-02-05,Hertha,Bayern Munich,6,6,False
+D1,2021,2021-02-06,Augsburg,Wolfsburg,7,6,False
+D1,2021,2021-02-06,Freiburg,Dortmund,6,7,False
+D1,2021,2021-02-06,Leverkusen,Stuttgart,7,8,False
+D1,2021,2021-02-06,Mainz,Union Berlin,8,7,False
+D1,2021,2021-02-06,Schalke 04,RB Leipzig,7,7,False
+D1,2021,2021-02-06,M'gladbach,FC Koln,7,6,False
+D1,2021,2021-02-07,Heidenheim,Ein Frankfurt,8,8,False
+D1,2021,2021-02-12,RB Leipzig,Augsburg,6,6,False
+D1,2021,2021-02-13,Dortmund,Heidenheim,7,6,False
+D1,2021,2021-02-13,Leverkusen,Mainz,7,7,False
+D1,2021,2021-02-13,Stuttgart,Hertha,7,8,False
+D1,2021,2021-02-13,Werder Bremen,Freiburg,14,7,False
+D1,2021,2021-02-13,Union Berlin,Schalke 04,7,7,False
+D1,2021,2021-02-14,Ein Frankfurt,FC Koln,7,8,False
+D1,2021,2021-02-14,Wolfsburg,M'gladbach,8,8,False
+D1,2021,2021-02-15,Bayern Munich,Bielefeld,10,15,False
+D1,2021,2021-02-19,Bielefeld,Wolfsburg,4,5,False
+D1,2021,2021-02-20,Ein Frankfurt,Bayern Munich,6,5,False
+D1,2021,2021-02-20,FC Koln,Stuttgart,6,7,False
+D1,2021,2021-02-20,Freiburg,Union Berlin,7,7,False
+D1,2021,2021-02-20,M'gladbach,Mainz,6,7,False
+D1,2021,2021-02-20,Schalke 04,Dortmund,7,7,False
+D1,2021,2021-02-21,Augsburg,Leverkusen,9,8,False
+D1,2021,2021-02-21,Hertha,RB Leipzig,8,9,False
+D1,2021,2021-02-21,Heidenheim,Werder Bremen,8,8,False
+D1,2021,2021-02-26,Werder Bremen,Ein Frankfurt,5,6,False
+D1,2021,2021-02-27,Bayern Munich,FC Koln,7,7,False
+D1,2021,2021-02-27,Dortmund,Bielefeld,7,8,False
+D1,2021,2021-02-27,Stuttgart,Schalke 04,7,7,False
+D1,2021,2021-02-27,Wolfsburg,Hertha,8,6,False
+D1,2021,2021-02-27,RB Leipzig,M'gladbach,6,7,False
+D1,2021,2021-02-28,Union Berlin,Heidenheim,8,7,False
+D1,2021,2021-02-28,Mainz,Augsburg,8,7,False
+D1,2021,2021-02-28,Leverkusen,Freiburg,7,8,False
+D1,2021,2021-03-05,Schalke 04,Mainz,6,5,False
+D1,2021,2021-03-06,Ein Frankfurt,Stuttgart,8,7,False
+D1,2021,2021-03-06,Freiburg,RB Leipzig,6,7,False
+D1,2021,2021-03-06,Hertha,Augsburg,7,6,False
+D1,2021,2021-03-06,Heidenheim,Wolfsburg,6,7,False
+D1,2021,2021-03-06,M'gladbach,Leverkusen,7,6,False
+D1,2021,2021-03-06,Bayern Munich,Dortmund,7,7,False
+D1,2021,2021-03-07,FC Koln,Werder Bremen,8,9,False
+D1,2021,2021-03-07,Bielefeld,Union Berlin,8,7,False
+D1,2021,2021-03-10,Bielefeld,Werder Bremen,3,3,True
+D1,2021,2021-03-12,Augsburg,M'gladbach,6,6,False
+D1,2021,2021-03-13,Mainz,Freiburg,8,7,False
+D1,2021,2021-03-13,Union Berlin,FC Koln,6,6,False
+D1,2021,2021-03-13,Werder Bremen,Bayern Munich,3,7,False
+D1,2021,2021-03-13,Wolfsburg,Schalke 04,7,8,False
+D1,2021,2021-03-13,Dortmund,Hertha,7,7,False
+D1,2021,2021-03-14,Leverkusen,Bielefeld,8,4,False
+D1,2021,2021-03-14,RB Leipzig,Ein Frankfurt,8,8,False
+D1,2021,2021-03-14,Stuttgart,Heidenheim,8,8,False
+D1,2021,2021-03-19,Bielefeld,RB Leipzig,5,5,False
+D1,2021,2021-03-20,Bayern Munich,Stuttgart,7,6,False
+D1,2021,2021-03-20,Ein Frankfurt,Union Berlin,6,7,False
+D1,2021,2021-03-20,FC Koln,Dortmund,7,7,False
+D1,2021,2021-03-20,Werder Bremen,Wolfsburg,7,7,False
+D1,2021,2021-03-20,Schalke 04,M'gladbach,7,8,False
+D1,2021,2021-03-21,Heidenheim,Mainz,7,8,False
+D1,2021,2021-03-21,Hertha,Leverkusen,8,7,False
+D1,2021,2021-03-21,Freiburg,Augsburg,8,9,False
+D1,2021,2021-04-03,Augsburg,Heidenheim,13,13,False
+D1,2021,2021-04-03,Dortmund,Ein Frankfurt,14,14,False
+D1,2021,2021-04-03,Leverkusen,Schalke 04,13,14,False
+D1,2021,2021-04-03,Mainz,Bielefeld,13,15,False
+D1,2021,2021-04-03,Wolfsburg,FC Koln,14,14,False
+D1,2021,2021-04-03,RB Leipzig,Bayern Munich,15,14,False
+D1,2021,2021-04-03,M'gladbach,Freiburg,14,13,False
+D1,2021,2021-04-04,Stuttgart,Werder Bremen,15,15,False
+D1,2021,2021-04-04,Union Berlin,Hertha,15,14,False
+D1,2021,2021-04-09,Bielefeld,Freiburg,6,6,False
+D1,2021,2021-04-10,Bayern Munich,Union Berlin,7,6,False
+D1,2021,2021-04-10,Ein Frankfurt,Wolfsburg,7,7,False
+D1,2021,2021-04-10,Hertha,M'gladbach,6,7,False
+D1,2021,2021-04-10,Werder Bremen,RB Leipzig,6,7,False
+D1,2021,2021-04-10,Stuttgart,Dortmund,6,7,False
+D1,2021,2021-04-11,Schalke 04,Augsburg,8,8,False
+D1,2021,2021-04-11,FC Koln,Mainz,8,8,False
+D1,2021,2021-04-12,Heidenheim,Leverkusen,9,9,False
+D1,2021,2021-04-16,RB Leipzig,Heidenheim,6,4,False
+D1,2021,2021-04-17,Augsburg,Bielefeld,6,8,False
+D1,2021,2021-04-17,Freiburg,Schalke 04,8,6,False
+D1,2021,2021-04-17,M'gladbach,Ein Frankfurt,7,7,False
+D1,2021,2021-04-17,Union Berlin,Stuttgart,7,7,False
+D1,2021,2021-04-17,Wolfsburg,Bayern Munich,7,7,False
+D1,2021,2021-04-17,Leverkusen,FC Koln,5,6,False
+D1,2021,2021-04-18,Dortmund,Werder Bremen,8,8,False
+D1,2021,2021-04-20,FC Koln,RB Leipzig,3,4,True
+D1,2021,2021-04-20,Bayern Munich,Leverkusen,3,3,True
+D1,2021,2021-04-20,Bielefeld,Schalke 04,3,3,True
+D1,2021,2021-04-20,Ein Frankfurt,Augsburg,3,3,True
+D1,2021,2021-04-21,Dortmund,Union Berlin,3,4,True
+D1,2021,2021-04-21,Heidenheim,M'gladbach,5,4,True
+D1,2021,2021-04-21,Stuttgart,Wolfsburg,4,4,True
+D1,2021,2021-04-21,Werder Bremen,Mainz,3,10,True
+D1,2021,2021-04-23,Augsburg,FC Koln,3,3,False
+D1,2021,2021-04-24,Freiburg,Heidenheim,7,3,False
+D1,2021,2021-04-24,Mainz,Bayern Munich,3,4,False
+D1,2021,2021-04-24,Union Berlin,Werder Bremen,3,3,False
+D1,2021,2021-04-24,Wolfsburg,Dortmund,3,3,False
+D1,2021,2021-04-24,Leverkusen,Ein Frankfurt,4,4,False
+D1,2021,2021-04-25,RB Leipzig,Stuttgart,5,4,False
+D1,2021,2021-04-25,M'gladbach,Bielefeld,4,5,False
+D1,2021,2021-05-03,Mainz,Hertha,9,23,False
+D1,2021,2021-05-06,Hertha,Freiburg,3,12,True
+D1,2021,2021-05-07,Stuttgart,Augsburg,12,14,False
+D1,2021,2021-05-08,Dortmund,RB Leipzig,14,13,False
+D1,2021,2021-05-08,Heidenheim,Schalke 04,14,18,False
+D1,2021,2021-05-08,Werder Bremen,Leverkusen,14,14,False
+D1,2021,2021-05-08,Wolfsburg,Union Berlin,14,14,False
+D1,2021,2021-05-08,Bayern Munich,M'gladbach,14,13,False
+D1,2021,2021-05-09,FC Koln,Freiburg,16,3,False
+D1,2021,2021-05-09,Ein Frankfurt,Mainz,15,6,False
+D1,2021,2021-05-09,Hertha,Bielefeld,3,14,False
+D1,2021,2021-05-12,Schalke 04,Hertha,4,3,True
+D1,2021,2021-05-15,Augsburg,Werder Bremen,8,7,False
+D1,2021,2021-05-15,Bielefeld,Heidenheim,6,7,False
+D1,2021,2021-05-15,Freiburg,Bayern Munich,6,7,False
+D1,2021,2021-05-15,Hertha,FC Koln,3,6,False
+D1,2021,2021-05-15,Leverkusen,Union Berlin,7,7,False
+D1,2021,2021-05-15,M'gladbach,Stuttgart,7,8,False
+D1,2021,2021-05-15,Schalke 04,Ein Frankfurt,3,6,False
+D1,2021,2021-05-16,Mainz,Dortmund,7,8,False
+D1,2021,2021-05-16,RB Leipzig,Wolfsburg,8,8,False
+D1,2021,2021-05-22,Bayern Munich,Augsburg,7,7,False
+D1,2021,2021-05-22,Dortmund,Leverkusen,6,7,False
+D1,2021,2021-05-22,Ein Frankfurt,Freiburg,7,7,False
+D1,2021,2021-05-22,FC Koln,Schalke 04,7,7,False
+D1,2021,2021-05-22,Heidenheim,Hertha,7,7,False
+D1,2021,2021-05-22,Stuttgart,Bielefeld,7,7,False
+D1,2021,2021-05-22,Union Berlin,RB Leipzig,7,6,False
+D1,2021,2021-05-22,Werder Bremen,M'gladbach,7,7,False
+D1,2021,2021-05-22,Wolfsburg,Mainz,6,6,False

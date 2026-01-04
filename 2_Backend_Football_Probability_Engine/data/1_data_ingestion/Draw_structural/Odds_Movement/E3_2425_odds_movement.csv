@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+E3,2425,2024-08-09,Chesterfield,Swindon,4.12,4.12,0.0
+E3,2425,2024-08-10,Gillingham,Carlisle,3.53,3.53,0.0
+E3,2425,2024-08-10,Milton Keynes Dons,Bradford,3.56,3.56,0.0
+E3,2425,2024-08-10,Salford,Port Vale,3.47,3.47,0.0
+E3,2425,2024-08-10,Walsall,Morecambe,3.97,3.97,0.0
+E3,2425,2024-08-10,Doncaster,Accrington,4.21,4.21,0.0
+E3,2425,2024-08-10,Barrow,Crewe,3.48,3.48,0.0
+E3,2425,2024-08-10,Harrogate,Bromley,3.45,3.45,0.0
+E3,2425,2024-08-10,Fleetwood Town,Grimsby,3.53,3.53,0.0
+E3,2425,2024-08-10,Cheltenham,Newport County,3.66,3.66,0.0
+E3,2425,2024-08-10,AFC Wimbledon,Colchester,3.52,3.52,0.0
+E3,2425,2024-08-10,Tranmere,Newport County,3.58,3.58,0.0
+E3,2425,2024-08-17,Grimsby,Cheltenham,3.31,3.31,0.0
+E3,2425,2024-08-17,Morecambe,Gillingham,3.52,3.52,0.0
+E3,2425,2024-08-17,Newport County,Doncaster,3.82,3.82,0.0
+E3,2425,2024-08-17,Port Vale,Tranmere,3.66,3.66,0.0
+E3,2425,2024-08-17,Swindon,Walsall,3.58,3.58,0.0
+E3,2425,2024-08-17,Crewe,Chesterfield,3.52,3.52,0.0
+E3,2425,2024-08-17,Colchester,Milton Keynes Dons,3.56,3.56,0.0
+E3,2425,2024-08-17,Bradford,Salford,3.87,3.87,0.0
+E3,2425,2024-08-17,Accrington,Harrogate,3.55,3.55,0.0
+E3,2425,2024-08-17,Bromley,AFC Wimbledon,3.41,3.41,0.0
+E3,2425,2024-08-17,Carlisle,Barrow,3.4,3.4,0.0
+E3,2425,2024-08-18,Newport County,Fleetwood Town,3.74,3.74,0.0
+E3,2425,2024-08-22,Newport County,Grimsby,3.67,3.67,0.0
+E3,2425,2024-08-24,Colchester,Harrogate,3.54,3.54,0.0
+E3,2425,2024-08-24,Doncaster,Morecambe,4.32,4.32,0.0
+E3,2425,2024-08-24,Fleetwood Town,Gillingham,3.42,3.42,0.0
+E3,2425,2024-08-24,Milton Keynes Dons,Carlisle,3.73,3.73,0.0
+E3,2425,2024-08-24,Newport County,Accrington,3.47,3.47,0.0
+E3,2425,2024-08-24,Crewe,Swindon,3.4,3.4,0.0
+E3,2425,2024-08-24,Tranmere,Walsall,3.33,3.33,0.0
+E3,2425,2024-08-24,Barrow,Port Vale,3.32,3.32,0.0
+E3,2425,2024-08-24,Cheltenham,AFC Wimbledon,3.28,3.28,0.0
+E3,2425,2024-08-24,Bradford,Bromley,3.86,3.86,0.0
+E3,2425,2024-08-24,Chesterfield,Salford,4.01,4.01,0.0
+E3,2425,2024-08-31,Carlisle,Tranmere,3.41,3.41,0.0
+E3,2425,2024-08-31,Gillingham,Chesterfield,3.31,3.31,0.0
+E3,2425,2024-08-31,Port Vale,Doncaster,3.23,3.23,0.0
+E3,2425,2024-08-31,Accrington,Colchester,3.34,3.34,0.0
+E3,2425,2024-08-31,AFC Wimbledon,Fleetwood Town,3.35,3.35,0.0
+E3,2425,2024-08-31,Bromley,Crewe,3.42,3.42,0.0
+E3,2425,2024-08-31,Grimsby,Bradford,3.34,3.34,0.0
+E3,2425,2024-08-31,Harrogate,Barrow,3.39,3.39,0.0
+E3,2425,2024-08-31,Morecambe,Newport County,3.43,3.43,0.0
+E3,2425,2024-08-31,Swindon,Newport County,3.74,3.74,0.0
+E3,2425,2024-08-31,Walsall,Cheltenham,3.77,3.77,0.0
+E3,2425,2024-09-02,Salford,Milton Keynes Dons,3.52,3.52,0.0
+E3,2425,2024-09-07,Doncaster,Gillingham,3.58,3.58,0.0
+E3,2425,2024-09-07,Milton Keynes Dons,Walsall,3.49,3.49,0.0
+E3,2425,2024-09-07,Newport County,Port Vale,3.47,3.47,0.0
+E3,2425,2024-09-07,Newport County,Accrington,4.38,4.38,0.0
+E3,2425,2024-09-07,Crewe,Morecambe,3.47,3.47,0.0
+E3,2425,2024-09-07,Colchester,Bromley,3.5,3.5,0.0
+E3,2425,2024-09-07,Chesterfield,Grimsby,3.99,3.99,0.0
+E3,2425,2024-09-07,Cheltenham,Harrogate,3.56,3.56,0.0
+E3,2425,2024-09-07,Bradford,Carlisle,3.73,3.73,0.0
+E3,2425,2024-09-07,Barrow,Swindon,3.59,3.59,0.0
+E3,2425,2024-09-12,Harrogate,Doncaster,3.68,3.68,0.0
+E3,2425,2024-09-14,Grimsby,Barrow,3.36,3.36,0.0
+E3,2425,2024-09-14,Morecambe,Colchester,3.31,3.31,0.0
+E3,2425,2024-09-14,Port Vale,Chesterfield,3.42,3.42,0.0
+E3,2425,2024-09-14,Salford,Cheltenham,3.6,3.6,0.0
+E3,2425,2024-09-14,Walsall,Bradford,3.36,3.36,0.0
+E3,2425,2024-09-14,AFC Wimbledon,Milton Keynes Dons,3.37,3.37,0.0
+E3,2425,2024-09-14,Swindon,Newport County,3.94,3.94,0.0
+E3,2425,2024-09-14,Accrington,Crewe,3.47,3.47,0.0
+E3,2425,2024-09-14,Bromley,Newport County,3.55,3.55,0.0
+E3,2425,2024-09-14,Gillingham,Tranmere,3.43,3.43,0.0
+E3,2425,2024-09-14,Carlisle,Fleetwood Town,3.4,3.4,0.0
+E3,2425,2024-09-21,Crewe,Harrogate,3.49,3.49,0.0
+E3,2425,2024-09-21,Accrington,Port Vale,3.52,3.52,0.0
+E3,2425,2024-09-21,Chesterfield,Cheltenham,4.4,4.4,0.0
+E3,2425,2024-09-21,Barrow,Newport County,4.3,4.3,0.0
+E3,2425,2024-09-21,Bradford,AFC Wimbledon,3.31,3.31,0.0
+E3,2425,2024-09-21,Colchester,Tranmere,3.32,3.32,0.0
+E3,2425,2024-09-21,Grimsby,Bromley,3.45,3.45,0.0
+E3,2425,2024-09-21,Milton Keynes Dons,Doncaster,3.46,3.46,0.0
+E3,2425,2024-09-21,Newport County,Gillingham,3.66,3.66,0.0
+E3,2425,2024-09-21,Salford,Walsall,3.33,3.33,0.0
+E3,2425,2024-09-21,Swindon,Carlisle,3.51,3.51,0.0
+E3,2425,2024-09-23,Fleetwood Town,Morecambe,3.94,3.94,0.0
+E3,2425,2024-09-27,Tranmere,Salford,3.26,3.26,0.0
+E3,2425,2024-09-28,Gillingham,Barrow,3.16,3.16,0.0
+E3,2425,2024-09-28,Morecambe,Newport County,3.91,3.91,0.0
+E3,2425,2024-09-28,Newport County,Crewe,3.53,3.53,0.0
+E3,2425,2024-09-28,Port Vale,Swindon,3.57,3.57,0.0
+E3,2425,2024-09-28,Carlisle,Grimsby,3.44,3.44,0.0
+E3,2425,2024-09-28,Doncaster,Chesterfield,3.46,3.46,0.0
+E3,2425,2024-09-28,Cheltenham,Fleetwood Town,3.39,3.39,0.0
+E3,2425,2024-09-28,Harrogate,Bradford,3.55,3.55,0.0
+E3,2425,2024-09-28,Walsall,Colchester,3.61,3.61,0.0
+E3,2425,2024-09-28,Bromley,Milton Keynes Dons,3.59,3.59,0.0
+E3,2425,2024-10-01,Morecambe,Bradford,3.44,3.44,0.0
+E3,2425,2024-10-01,Newport County,Salford,3.43,3.43,0.0
+E3,2425,2024-10-01,Port Vale,Colchester,3.56,3.56,0.0
+E3,2425,2024-10-01,Tranmere,Swindon,3.26,3.26,0.0
+E3,2425,2024-10-01,Walsall,Fleetwood Town,3.46,3.46,0.0
+E3,2425,2024-10-01,Bromley,Chesterfield,3.46,3.46,0.0
+E3,2425,2024-10-01,Carlisle,Newport County,3.61,3.61,0.0
+E3,2425,2024-10-01,Cheltenham,Accrington,3.37,3.37,0.0
+E3,2425,2024-10-01,Doncaster,Barrow,3.33,3.33,0.0
+E3,2425,2024-10-01,Gillingham,Grimsby,3.54,3.54,0.0
+E3,2425,2024-10-01,Harrogate,Milton Keynes Dons,3.54,3.54,0.0
+E3,2425,2024-10-05,Crewe,Gillingham,3.19,3.19,0.0
+E3,2425,2024-10-05,Milton Keynes Dons,Tranmere,3.93,3.93,0.0
+E3,2425,2024-10-05,Newport County,Port Vale,3.44,3.44,0.0
+E3,2425,2024-10-05,Salford,AFC Wimbledon,3.26,3.26,0.0
+E3,2425,2024-10-05,Swindon,Harrogate,3.79,3.79,0.0
+E3,2425,2024-10-05,Fleetwood Town,Bromley,3.8,3.8,0.0
+E3,2425,2024-10-05,Grimsby,Doncaster,3.41,3.41,0.0
+E3,2425,2024-10-05,Accrington,Morecambe,3.5,3.5,0.0
+E3,2425,2024-10-05,Barrow,Cheltenham,3.75,3.75,0.0
+E3,2425,2024-10-05,Chesterfield,Walsall,3.42,3.42,0.0
+E3,2425,2024-10-05,Colchester,Carlisle,3.46,3.46,0.0
+E3,2425,2024-10-07,Bradford,Newport County,4.4,4.4,0.0
+E3,2425,2024-10-12,Harrogate,Newport County,3.51,3.51,0.0
+E3,2425,2024-10-12,Milton Keynes Dons,Port Vale,3.39,3.39,0.0
+E3,2425,2024-10-12,Salford,Grimsby,3.39,3.39,0.0
+E3,2425,2024-10-12,Tranmere,Bradford,3.27,3.27,0.0
+E3,2425,2024-10-12,Gillingham,Accrington,3.69,3.69,0.0
+E3,2425,2024-10-12,Doncaster,Crewe,3.67,3.67,0.0
+E3,2425,2024-10-12,Cheltenham,Swindon,3.31,3.31,0.0
+E3,2425,2024-10-12,Barrow,Morecambe,3.98,3.98,0.0
+E3,2425,2024-10-12,AFC Wimbledon,Carlisle,3.6,3.6,0.0
+E3,2425,2024-10-12,Chesterfield,Newport County,3.66,3.66,0.0
+E3,2425,2024-10-18,Newport County,Chesterfield,3.93,3.93,0.0
+E3,2425,2024-10-19,Grimsby,Walsall,3.44,3.44,0.0
+E3,2425,2024-10-19,Morecambe,Milton Keynes Dons,3.63,3.63,0.0
+E3,2425,2024-10-19,Newport County,AFC Wimbledon,3.48,3.48,0.0
+E3,2425,2024-10-19,Port Vale,Fleetwood Town,3.51,3.51,0.0
+E3,2425,2024-10-19,Swindon,Doncaster,3.41,3.41,0.0
+E3,2425,2024-10-19,Accrington,Barrow,3.34,3.34,0.0
+E3,2425,2024-10-19,Bradford,Gillingham,3.1,3.1,0.0
+E3,2425,2024-10-19,Bromley,Tranmere,3.38,3.38,0.0
+E3,2425,2024-10-19,Carlisle,Harrogate,3.62,3.62,0.0
+E3,2425,2024-10-19,Crewe,Salford,3.32,3.32,0.0
+E3,2425,2024-10-19,Colchester,Cheltenham,3.53,3.53,0.0
+E3,2425,2024-10-22,Harrogate,Port Vale,3.61,3.61,0.0
+E3,2425,2024-10-22,AFC Wimbledon,Morecambe,4.43,4.43,0.0
+E3,2425,2024-10-22,Barrow,Newport County,3.39,3.39,0.0
+E3,2425,2024-10-22,Cheltenham,Bradford,3.46,3.46,0.0
+E3,2425,2024-10-22,Chesterfield,Colchester,3.56,3.56,0.0
+E3,2425,2024-10-22,Doncaster,Bromley,4.03,4.03,0.0
+E3,2425,2024-10-22,Fleetwood Town,Crewe,3.52,3.52,0.0
+E3,2425,2024-10-22,Gillingham,Newport County,3.71,3.71,0.0
+E3,2425,2024-10-22,Milton Keynes Dons,Accrington,4.1,4.1,0.0
+E3,2425,2024-10-22,Salford,Swindon,3.33,3.33,0.0
+E3,2425,2024-10-22,Tranmere,Grimsby,3.25,3.25,0.0
+E3,2425,2024-10-22,Walsall,Carlisle,4.03,4.03,0.0
+E3,2425,2024-10-26,Morecambe,Chesterfield,3.76,3.76,0.0
+E3,2425,2024-10-26,Swindon,Gillingham,3.28,3.28,0.0
+E3,2425,2024-10-26,Port Vale,AFC Wimbledon,3.27,3.27,0.0
+E3,2425,2024-10-26,Newport County,Harrogate,4.36,4.36,0.0
+E3,2425,2024-10-26,Newport County,Fleetwood Town,3.72,3.72,0.0
+E3,2425,2024-10-26,Crewe,Tranmere,3.27,3.27,0.0
+E3,2425,2024-10-26,Grimsby,Milton Keynes Dons,3.44,3.44,0.0
+E3,2425,2024-10-26,Accrington,Walsall,3.47,3.47,0.0
+E3,2425,2024-10-26,Bradford,Doncaster,3.37,3.37,0.0
+E3,2425,2024-10-26,Bromley,Barrow,3.23,3.23,0.0
+E3,2425,2024-10-26,Carlisle,Cheltenham,3.44,3.44,0.0
+E3,2425,2024-10-26,Colchester,Salford,3.32,3.32,0.0
+E3,2425,2024-10-29,Fleetwood Town,Salford,3.53,3.53,0.0
+E3,2425,2024-11-09,Doncaster,Newport County,3.77,3.77,0.0
+E3,2425,2024-11-09,Fleetwood Town,Bradford,3.44,3.44,0.0
+E3,2425,2024-11-09,Gillingham,Port Vale,3.23,3.23,0.0
+E3,2425,2024-11-09,Milton Keynes Dons,Swindon,3.56,3.56,0.0
+E3,2425,2024-11-09,Tranmere,Newport County,3.7,3.7,0.0
+E3,2425,2024-11-09,Walsall,Crewe,3.69,3.69,0.0
+E3,2425,2024-11-09,Chesterfield,Accrington,4.17,4.17,0.0
+E3,2425,2024-11-09,Harrogate,Morecambe,3.38,3.38,0.0
+E3,2425,2024-11-09,Salford,Carlisle,3.51,3.51,0.0
+E3,2425,2024-11-09,AFC Wimbledon,Grimsby,4.19,4.19,0.0
+E3,2425,2024-11-09,Barrow,Colchester,3.32,3.32,0.0
+E3,2425,2024-11-09,Cheltenham,Bromley,3.28,3.28,0.0
+E3,2425,2024-11-16,Doncaster,Salford,3.83,3.83,0.0
+E3,2425,2024-11-16,Milton Keynes Dons,Cheltenham,3.9,3.9,0.0
+E3,2425,2024-11-16,Morecambe,Port Vale,3.66,3.66,0.0
+E3,2425,2024-11-16,Newport County,Grimsby,3.45,3.45,0.0
+E3,2425,2024-11-16,Crewe,Newport County,3.44,3.44,0.0
+E3,2425,2024-11-16,Harrogate,Chesterfield,3.79,3.79,0.0
+E3,2425,2024-11-16,Accrington,Swindon,3.47,3.47,0.0
+E3,2425,2024-11-16,Barrow,AFC Wimbledon,3.0,3.0,0.0
+E3,2425,2024-11-16,Bromley,Carlisle,3.48,3.48,0.0
+E3,2425,2024-11-16,Colchester,Bradford,3.35,3.35,0.0
+E3,2425,2024-11-19,AFC Wimbledon,Accrington,3.8,3.8,0.0
+E3,2425,2024-11-22,Cheltenham,Tranmere,3.11,3.11,0.0
+E3,2425,2024-11-23,Carlisle,Doncaster,3.48,3.48,0.0
+E3,2425,2024-11-23,Grimsby,Colchester,3.38,3.38,0.0
+E3,2425,2024-11-23,Newport County,Newport County,4.81,4.81,0.0
+E3,2425,2024-11-23,AFC Wimbledon,Walsall,3.26,3.26,0.0
+E3,2425,2024-11-23,Chesterfield,Barrow,3.46,3.46,0.0
+E3,2425,2024-11-23,Gillingham,Harrogate,3.7,3.7,0.0
+E3,2425,2024-11-23,Swindon,Morecambe,3.61,3.61,0.0
+E3,2425,2024-11-25,Port Vale,Crewe,3.34,3.34,0.0
+E3,2425,2024-11-26,Tranmere,AFC Wimbledon,3.17,3.17,0.0
+E3,2425,2024-11-26,Walsall,Bromley,4.06,4.06,0.0
+E3,2425,2024-11-30,Carlisle,Crewe,3.22,3.22,0.0
+E3,2425,2024-11-30,Fleetwood Town,Colchester,3.59,3.59,0.0
+E3,2425,2024-12-03,Salford,Harrogate,3.61,3.61,0.0
+E3,2425,2024-12-03,Tranmere,Morecambe,3.54,3.54,0.0
+E3,2425,2024-12-03,Walsall,Newport County,3.48,3.48,0.0
+E3,2425,2024-12-03,Bradford,Barrow,3.3,3.3,0.0
+E3,2425,2024-12-03,Cheltenham,Port Vale,3.27,3.27,0.0
+E3,2425,2024-12-03,Colchester,Swindon,3.48,3.48,0.0
+E3,2425,2024-12-03,Grimsby,Accrington,3.34,3.34,0.0
+E3,2425,2024-12-03,Milton Keynes Dons,Chesterfield,3.56,3.56,0.0
+E3,2425,2024-12-03,AFC Wimbledon,Newport County,4.66,4.66,0.0
+E3,2425,2024-12-04,Fleetwood Town,Doncaster,3.42,3.42,0.0
+E3,2425,2024-12-04,Bromley,Gillingham,3.34,3.34,0.0
+E3,2425,2024-12-07,Harrogate,AFC Wimbledon,3.56,3.56,0.0
+E3,2425,2024-12-07,Morecambe,Grimsby,3.29,3.29,0.0
+E3,2425,2024-12-07,Swindon,Fleetwood Town,3.45,3.45,0.0
+E3,2425,2024-12-07,Accrington,Bromley,3.34,3.34,0.0
+E3,2425,2024-12-07,Port Vale,Walsall,3.25,3.25,0.0
+E3,2425,2024-12-07,Crewe,Bradford,3.28,3.28,0.0
+E3,2425,2024-12-07,Doncaster,Cheltenham,4.32,4.32,0.0
+E3,2425,2024-12-07,Chesterfield,Tranmere,3.8,3.8,0.0
+E3,2425,2024-12-07,Gillingham,Salford,3.29,3.29,0.0
+E3,2425,2024-12-14,Tranmere,Harrogate,3.66,3.66,0.0
+E3,2425,2024-12-14,Salford,Newport County,3.32,3.32,0.0
+E3,2425,2024-12-14,AFC Wimbledon,Doncaster,3.26,3.26,0.0
+E3,2425,2024-12-14,Bradford,Swindon,3.88,3.88,0.0
+E3,2425,2024-12-14,Bromley,Port Vale,3.24,3.24,0.0
+E3,2425,2024-12-14,Carlisle,Chesterfield,3.37,3.37,0.0
+E3,2425,2024-12-14,Cheltenham,Morecambe,3.58,3.58,0.0
+E3,2425,2024-12-14,Colchester,Newport County,4.17,4.17,0.0
+E3,2425,2024-12-14,Grimsby,Crewe,3.22,3.22,0.0
+E3,2425,2024-12-14,Milton Keynes Dons,Gillingham,3.64,3.64,0.0
+E3,2425,2024-12-14,Walsall,Barrow,3.52,3.52,0.0
+E3,2425,2024-12-16,Fleetwood Town,Accrington,3.66,3.66,0.0
+E3,2425,2024-12-20,Gillingham,Cheltenham,3.21,3.21,0.0
+E3,2425,2024-12-20,Crewe,Colchester,3.25,3.25,0.0
+E3,2425,2024-12-21,Swindon,Grimsby,3.48,3.48,0.0
+E3,2425,2024-12-21,Barrow,Fleetwood Town,3.36,3.36,0.0
+E3,2425,2024-12-21,Doncaster,Tranmere,3.95,3.95,0.0
+E3,2425,2024-12-21,Accrington,Salford,3.22,3.22,0.0
+E3,2425,2024-12-21,Chesterfield,AFC Wimbledon,3.34,3.34,0.0
+E3,2425,2024-12-21,Harrogate,Walsall,3.75,3.75,0.0
+E3,2425,2024-12-21,Morecambe,Bromley,3.54,3.54,0.0
+E3,2425,2024-12-21,Newport County,Milton Keynes Dons,3.8,3.8,0.0
+E3,2425,2024-12-21,Newport County,Bradford,3.44,3.44,0.0
+E3,2425,2024-12-21,Port Vale,Carlisle,3.63,3.63,0.0
+E3,2425,2024-12-26,Fleetwood Town,Chesterfield,3.44,3.44,0.0
+E3,2425,2024-12-26,Grimsby,Harrogate,3.76,3.76,0.0
+E3,2425,2024-12-26,Carlisle,Morecambe,3.54,3.54,0.0
+E3,2425,2024-12-26,Bromley,Newport County,4.2,4.2,0.0
+E3,2425,2024-12-26,Bradford,Port Vale,3.3,3.3,0.0
+E3,2425,2024-12-26,AFC Wimbledon,Swindon,3.9,3.9,0.0
+E3,2425,2024-12-26,Milton Keynes Dons,Newport County,3.54,3.54,0.0
+E3,2425,2024-12-26,Salford,Barrow,3.26,3.26,0.0
+E3,2425,2024-12-26,Walsall,Doncaster,3.31,3.31,0.0
+E3,2425,2024-12-26,Cheltenham,Crewe,3.22,3.22,0.0
+E3,2425,2024-12-26,Colchester,Gillingham,3.34,3.34,0.0
+E3,2425,2024-12-29,Bromley,Swindon,3.61,3.61,0.0
+E3,2425,2024-12-29,Carlisle,Accrington,3.36,3.36,0.0
+E3,2425,2024-12-29,Bradford,Chesterfield,3.38,3.38,0.0
+E3,2425,2024-12-29,Cheltenham,Newport County,3.4,3.4,0.0
+E3,2425,2024-12-29,Colchester,Doncaster,3.27,3.27,0.0
+E3,2425,2024-12-29,Fleetwood Town,Harrogate,4.07,4.07,0.0
+E3,2425,2024-12-29,Grimsby,Port Vale,3.36,3.36,0.0
+E3,2425,2024-12-29,Milton Keynes Dons,Crewe,3.44,3.44,0.0
+E3,2425,2024-12-29,Salford,Morecambe,3.72,3.72,0.0
+E3,2425,2024-12-29,Tranmere,Barrow,3.2,3.2,0.0
+E3,2425,2024-12-29,Walsall,Newport County,5.41,5.41,0.0
+E3,2425,2024-12-30,AFC Wimbledon,Gillingham,3.47,3.47,0.0
+E3,2425,2025-01-01,Morecambe,Tranmere,3.28,3.28,0.0
+E3,2425,2025-01-01,Newport County,Walsall,3.47,3.47,0.0
+E3,2425,2025-01-01,Port Vale,Cheltenham,3.61,3.61,0.0
+E3,2425,2025-01-01,Swindon,Colchester,3.33,3.33,0.0
+E3,2425,2025-01-01,Harrogate,Salford,3.46,3.46,0.0
+E3,2425,2025-01-01,Barrow,Bradford,3.2,3.2,0.0
+E3,2425,2025-01-01,Accrington,Grimsby,3.38,3.38,0.0
+E3,2425,2025-01-01,Doncaster,Fleetwood Town,3.65,3.65,0.0
+E3,2425,2025-01-01,Crewe,Carlisle,3.42,3.42,0.0
+E3,2425,2025-01-01,Chesterfield,Milton Keynes Dons,3.46,3.46,0.0
+E3,2425,2025-01-02,Newport County,AFC Wimbledon,3.94,3.94,0.0
+E3,2425,2025-01-02,Gillingham,Bromley,3.33,3.33,0.0
+E3,2425,2025-01-04,Doncaster,Port Vale,3.44,3.44,0.0
+E3,2425,2025-01-04,Newport County,Swindon,4.01,4.01,0.0
+E3,2425,2025-01-04,Bradford,Grimsby,3.47,3.47,0.0
+E3,2425,2025-01-04,Barrow,Harrogate,3.71,3.71,0.0
+E3,2425,2025-01-04,Colchester,Accrington,3.52,3.52,0.0
+E3,2425,2025-01-04,Milton Keynes Dons,Salford,3.38,3.38,0.0
+E3,2425,2025-01-04,Tranmere,Carlisle,3.36,3.36,0.0
+E3,2425,2025-01-05,Crewe,Bromley,3.29,3.29,0.0
+E3,2425,2025-01-11,Walsall,Tranmere,4.1,4.1,0.0
+E3,2425,2025-01-11,Swindon,Crewe,3.24,3.24,0.0
+E3,2425,2025-01-17,Harrogate,Cheltenham,3.25,3.25,0.0
+E3,2425,2025-01-18,Salford,Fleetwood Town,3.44,3.44,0.0
+E3,2425,2025-01-18,Port Vale,Newport County,4.23,4.23,0.0
+E3,2425,2025-01-18,Gillingham,Doncaster,3.27,3.27,0.0
+E3,2425,2025-01-18,Carlisle,Bradford,3.31,3.31,0.0
+E3,2425,2025-01-18,Grimsby,Chesterfield,3.34,3.34,0.0
+E3,2425,2025-01-18,Bromley,Colchester,3.33,3.33,0.0
+E3,2425,2025-01-18,AFC Wimbledon,Tranmere,3.78,3.78,0.0
+E3,2425,2025-01-18,Accrington,Newport County,3.46,3.46,0.0
+E3,2425,2025-01-18,Swindon,Barrow,3.25,3.25,0.0
+E3,2425,2025-01-18,Walsall,Milton Keynes Dons,3.83,3.83,0.0
+E3,2425,2025-01-18,Morecambe,Crewe,3.29,3.29,0.0
+E3,2425,2025-01-21,Fleetwood Town,Milton Keynes Dons,3.43,3.43,0.0
+E3,2425,2025-01-21,Harrogate,Colchester,3.33,3.33,0.0
+E3,2425,2025-01-24,Newport County,Swindon,3.61,3.61,0.0
+E3,2425,2025-01-25,Crewe,Accrington,3.49,3.49,0.0
+E3,2425,2025-01-25,Doncaster,Harrogate,4.62,4.62,0.0
+E3,2425,2025-01-25,Fleetwood Town,Carlisle,3.52,3.52,0.0
+E3,2425,2025-01-25,Newport County,Bromley,3.72,3.72,0.0
+E3,2425,2025-01-25,Tranmere,Gillingham,3.13,3.13,0.0
+E3,2425,2025-01-25,Cheltenham,Salford,3.2,3.2,0.0
+E3,2425,2025-01-25,Chesterfield,Port Vale,3.35,3.35,0.0
+E3,2425,2025-01-25,Colchester,Morecambe,3.84,3.84,0.0
+E3,2425,2025-01-25,Bradford,Walsall,3.23,3.23,0.0
+E3,2425,2025-01-25,Milton Keynes Dons,AFC Wimbledon,3.28,3.28,0.0
+E3,2425,2025-01-25,Barrow,Grimsby,3.3,3.3,0.0
+E3,2425,2025-01-28,Grimsby,Gillingham,3.29,3.29,0.0
+E3,2425,2025-01-28,Newport County,Carlisle,4.25,4.25,0.0
+E3,2425,2025-01-28,Salford,Newport County,4.42,4.42,0.0
+E3,2425,2025-01-28,Swindon,Tranmere,3.58,3.58,0.0
+E3,2425,2025-01-28,Milton Keynes Dons,Harrogate,3.77,3.77,0.0
+E3,2425,2025-01-28,Chesterfield,Bromley,3.39,3.39,0.0
+E3,2425,2025-01-28,Bradford,Morecambe,4.2,4.2,0.0
+E3,2425,2025-01-28,Accrington,Cheltenham,3.3,3.3,0.0
+E3,2425,2025-01-28,Crewe,AFC Wimbledon,2.91,2.91,0.0
+E3,2425,2025-01-28,Fleetwood Town,Walsall,3.22,3.22,0.0
+E3,2425,2025-01-29,Barrow,Doncaster,3.13,3.13,0.0
+E3,2425,2025-02-01,Walsall,Salford,3.48,3.48,0.0
+E3,2425,2025-02-01,Cheltenham,Chesterfield,3.34,3.34,0.0
+E3,2425,2025-02-01,Gillingham,Newport County,3.41,3.41,0.0
+E3,2425,2025-02-01,AFC Wimbledon,Bradford,3.14,3.14,0.0
+E3,2425,2025-02-01,Bromley,Grimsby,3.4,3.4,0.0
+E3,2425,2025-02-01,Carlisle,Swindon,3.25,3.25,0.0
+E3,2425,2025-02-01,Doncaster,Milton Keynes Dons,3.71,3.71,0.0
+E3,2425,2025-02-01,Harrogate,Crewe,3.24,3.24,0.0
+E3,2425,2025-02-01,Morecambe,Fleetwood Town,3.29,3.29,0.0
+E3,2425,2025-02-01,Newport County,Barrow,3.2,3.2,0.0
+E3,2425,2025-02-01,Port Vale,Accrington,3.6,3.6,0.0
+E3,2425,2025-02-01,Tranmere,Colchester,3.18,3.18,0.0
+E3,2425,2025-02-04,Newport County,Morecambe,3.37,3.37,0.0
+E3,2425,2025-02-04,Salford,Bromley,3.27,3.27,0.0
+E3,2425,2025-02-06,Chesterfield,Doncaster,3.34,3.34,0.0
+E3,2425,2025-02-08,Fleetwood Town,Cheltenham,3.37,3.37,0.0
+E3,2425,2025-02-08,Grimsby,Carlisle,3.42,3.42,0.0
+E3,2425,2025-02-08,Milton Keynes Dons,Bromley,3.41,3.41,0.0
+E3,2425,2025-02-08,Newport County,Morecambe,4.75,4.75,0.0
+E3,2425,2025-02-08,Salford,Tranmere,3.56,3.56,0.0
+E3,2425,2025-02-08,Barrow,Gillingham,3.06,3.06,0.0
+E3,2425,2025-02-08,Colchester,Walsall,3.05,3.05,0.0
+E3,2425,2025-02-08,Crewe,Newport County,4.07,4.07,0.0
+E3,2425,2025-02-08,Accrington,AFC Wimbledon,3.12,3.12,0.0
+E3,2425,2025-02-08,Swindon,Port Vale,3.26,3.26,0.0
+E3,2425,2025-02-08,Bradford,Harrogate,3.77,3.77,0.0
+E3,2425,2025-02-11,AFC Wimbledon,Crewe,3.36,3.36,0.0
+E3,2425,2025-02-11,Bradford,Accrington,3.71,3.71,0.0
+E3,2425,2025-02-11,Barrow,Milton Keynes Dons,3.23,3.23,0.0
+E3,2425,2025-02-11,Walsall,Gillingham,3.88,3.88,0.0
+E3,2425,2025-02-11,Newport County,Carlisle,3.33,3.33,0.0
+E3,2425,2025-02-11,Tranmere,Fleetwood Town,3.25,3.25,0.0
+E3,2425,2025-02-13,Port Vale,Newport County,3.29,3.29,0.0
+E3,2425,2025-02-15,Bromley,Fleetwood Town,3.21,3.21,0.0
+E3,2425,2025-02-15,AFC Wimbledon,Salford,3.27,3.27,0.0
+E3,2425,2025-02-15,Doncaster,Grimsby,3.89,3.89,0.0
+E3,2425,2025-02-15,Carlisle,Colchester,3.21,3.21,0.0
+E3,2425,2025-02-15,Cheltenham,Barrow,3.07,3.07,0.0
+E3,2425,2025-02-15,Gillingham,Crewe,2.97,2.97,0.0
+E3,2425,2025-02-15,Harrogate,Swindon,3.19,3.19,0.0
+E3,2425,2025-02-15,Morecambe,Accrington,3.24,3.24,0.0
+E3,2425,2025-02-15,Newport County,Bradford,3.79,3.79,0.0
+E3,2425,2025-02-15,Tranmere,Milton Keynes Dons,3.34,3.34,0.0
+E3,2425,2025-02-15,Walsall,Chesterfield,3.42,3.42,0.0
+E3,2425,2025-02-18,Newport County,Colchester,3.52,3.52,0.0
+E3,2425,2025-02-18,Morecambe,Doncaster,3.58,3.58,0.0
+E3,2425,2025-02-18,Fleetwood Town,AFC Wimbledon,3.01,3.01,0.0
+E3,2425,2025-02-22,Port Vale,Salford,3.31,3.31,0.0
+E3,2425,2025-02-22,Swindon,Chesterfield,3.36,3.36,0.0
+E3,2425,2025-02-22,Bradford,Milton Keynes Dons,3.65,3.65,0.0
+E3,2425,2025-02-22,Crewe,Barrow,3.15,3.15,0.0
+E3,2425,2025-02-22,Morecambe,Walsall,3.71,3.71,0.0
+E3,2425,2025-02-22,Accrington,Doncaster,3.41,3.41,0.0
+E3,2425,2025-02-22,Bromley,Harrogate,3.49,3.49,0.0
+E3,2425,2025-02-22,Carlisle,Gillingham,3.18,3.18,0.0
+E3,2425,2025-02-22,Colchester,AFC Wimbledon,2.92,2.92,0.0
+E3,2425,2025-02-22,Grimsby,Fleetwood Town,3.35,3.35,0.0
+E3,2425,2025-02-22,Newport County,Cheltenham,3.31,3.31,0.0
+E3,2425,2025-02-22,Newport County,Tranmere,4.16,4.16,0.0
+E3,2425,2025-02-25,Cheltenham,Walsall,3.27,3.27,0.0
+E3,2425,2025-02-25,Bromley,Bradford,3.21,3.21,0.0
+E3,2425,2025-02-25,Tranmere,Accrington,3.25,3.25,0.0
+E3,2425,2025-02-25,Gillingham,Fleetwood Town,3.07,3.07,0.0
+E3,2425,2025-02-27,Barrow,Carlisle,3.34,3.34,0.0
+E3,2425,2025-03-01,Fleetwood Town,Newport County,3.29,3.29,0.0
+E3,2425,2025-03-01,Gillingham,Morecambe,3.27,3.27,0.0
+E3,2425,2025-03-01,Harrogate,Accrington,3.12,3.12,0.0
+E3,2425,2025-03-01,Milton Keynes Dons,Colchester,3.18,3.18,0.0
+E3,2425,2025-03-01,Walsall,Swindon,3.64,3.64,0.0
+E3,2425,2025-03-01,Tranmere,Port Vale,3.36,3.36,0.0
+E3,2425,2025-03-01,Salford,Bradford,3.11,3.11,0.0
+E3,2425,2025-03-01,AFC Wimbledon,Bromley,3.46,3.46,0.0
+E3,2425,2025-03-01,Cheltenham,Grimsby,3.28,3.28,0.0
+E3,2425,2025-03-01,Chesterfield,Crewe,3.48,3.48,0.0
+E3,2425,2025-03-01,Doncaster,Newport County,4.77,4.77,0.0
+E3,2425,2025-03-04,Newport County,Gillingham,3.3,3.3,0.0
+E3,2425,2025-03-04,Accrington,Milton Keynes Dons,3.24,3.24,0.0
+E3,2425,2025-03-04,Bradford,Cheltenham,3.71,3.71,0.0
+E3,2425,2025-03-04,Bromley,Doncaster,3.43,3.43,0.0
+E3,2425,2025-03-04,Carlisle,Walsall,3.3,3.3,0.0
+E3,2425,2025-03-04,Colchester,Chesterfield,3.29,3.29,0.0
+E3,2425,2025-03-04,Crewe,Fleetwood Town,3.16,3.16,0.0
+E3,2425,2025-03-04,Grimsby,Tranmere,3.54,3.54,0.0
+E3,2425,2025-03-04,Morecambe,AFC Wimbledon,3.3,3.3,0.0
+E3,2425,2025-03-04,Newport County,Barrow,3.75,3.75,0.0
+E3,2425,2025-03-04,Port Vale,Harrogate,3.27,3.27,0.0
+E3,2425,2025-03-04,Swindon,Salford,3.27,3.27,0.0
+E3,2425,2025-03-08,Fleetwood Town,Port Vale,3.12,3.12,0.0
+E3,2425,2025-03-08,Gillingham,Bradford,3.25,3.25,0.0
+E3,2425,2025-03-08,Harrogate,Carlisle,3.12,3.12,0.0
+E3,2425,2025-03-08,Milton Keynes Dons,Morecambe,3.5,3.5,0.0
+E3,2425,2025-03-08,Salford,Crewe,3.19,3.19,0.0
+E3,2425,2025-03-08,Tranmere,Bromley,3.26,3.26,0.0
+E3,2425,2025-03-08,Doncaster,Swindon,3.76,3.76,0.0
+E3,2425,2025-03-08,Chesterfield,Newport County,4.23,4.23,0.0
+E3,2425,2025-03-08,Cheltenham,Colchester,3.11,3.11,0.0
+E3,2425,2025-03-08,Barrow,Accrington,3.06,3.06,0.0
+E3,2425,2025-03-08,Walsall,Grimsby,3.55,3.55,0.0
+E3,2425,2025-03-08,AFC Wimbledon,Newport County,3.15,3.15,0.0
+E3,2425,2025-03-11,Accrington,Newport County,3.48,3.48,0.0
+E3,2425,2025-03-11,AFC Wimbledon,Cheltenham,3.52,3.52,0.0
+E3,2425,2025-03-11,Colchester,Port Vale,2.98,2.98,0.0
+E3,2425,2025-03-11,Grimsby,Newport County,3.33,3.33,0.0
+E3,2425,2025-03-11,Salford,Chesterfield,3.23,3.23,0.0
+E3,2425,2025-03-13,Bromley,Walsall,3.39,3.39,0.0
+E3,2425,2025-03-15,Bradford,Tranmere,3.65,3.65,0.0
+E3,2425,2025-03-15,Carlisle,AFC Wimbledon,2.97,2.97,0.0
+E3,2425,2025-03-15,Accrington,Gillingham,2.94,2.94,0.0
+E3,2425,2025-03-15,Port Vale,Milton Keynes Dons,3.38,3.38,0.0
+E3,2425,2025-03-15,Newport County,Chesterfield,3.61,3.61,0.0
+E3,2425,2025-03-15,Colchester,Fleetwood Town,3.12,3.12,0.0
+E3,2425,2025-03-15,Newport County,Harrogate,3.13,3.13,0.0
+E3,2425,2025-03-15,Morecambe,Barrow,3.12,3.12,0.0
+E3,2425,2025-03-15,Grimsby,Salford,3.43,3.43,0.0
+E3,2425,2025-03-15,Crewe,Doncaster,3.31,3.31,0.0
+E3,2425,2025-03-15,Swindon,Cheltenham,3.51,3.51,0.0
+E3,2425,2025-03-22,Fleetwood Town,Tranmere,3.39,3.39,0.0
+E3,2425,2025-03-22,Gillingham,Walsall,3.1,3.1,0.0
+E3,2425,2025-03-22,Grimsby,Newport County,4.44,4.44,0.0
+E3,2425,2025-03-22,Port Vale,Morecambe,3.9,3.9,0.0
+E3,2425,2025-03-22,Swindon,Accrington,3.54,3.54,0.0
+E3,2425,2025-03-22,Cheltenham,Milton Keynes Dons,3.39,3.39,0.0
+E3,2425,2025-03-22,AFC Wimbledon,Barrow,3.18,3.18,0.0
+E3,2425,2025-03-22,Bradford,Colchester,3.01,3.01,0.0
+E3,2425,2025-03-22,Carlisle,Bromley,3.38,3.38,0.0
+E3,2425,2025-03-22,Newport County,Crewe,3.54,3.54,0.0
+E3,2425,2025-03-22,Chesterfield,Harrogate,3.71,3.71,0.0
+E3,2425,2025-03-25,Port Vale,Barrow,3.3,3.3,0.0
+E3,2425,2025-03-25,Carlisle,Milton Keynes Dons,3.39,3.39,0.0
+E3,2425,2025-03-28,Colchester,Grimsby,3.09,3.09,0.0
+E3,2425,2025-03-28,Tranmere,Cheltenham,3.37,3.37,0.0
+E3,2425,2025-03-29,Milton Keynes Dons,Fleetwood Town,3.3,3.3,0.0
+E3,2425,2025-03-29,Morecambe,Swindon,3.41,3.41,0.0
+E3,2425,2025-03-29,Walsall,AFC Wimbledon,3.15,3.15,0.0
+E3,2425,2025-03-29,Newport County,Newport County,3.92,3.92,0.0
+E3,2425,2025-03-29,Accrington,Bradford,3.26,3.26,0.0
+E3,2425,2025-03-29,Barrow,Chesterfield,3.27,3.27,0.0
+E3,2425,2025-03-29,Crewe,Port Vale,3.02,3.02,0.0
+E3,2425,2025-03-29,Bromley,Salford,3.29,3.29,0.0
+E3,2425,2025-03-29,Doncaster,Carlisle,4.06,4.06,0.0
+E3,2425,2025-03-29,Harrogate,Gillingham,2.95,2.95,0.0
+E3,2425,2025-04-01,Port Vale,Bradford,3.01,3.01,0.0
+E3,2425,2025-04-01,Accrington,Fleetwood Town,3.12,3.12,0.0
+E3,2425,2025-04-01,Barrow,Salford,3.16,3.16,0.0
+E3,2425,2025-04-01,Chesterfield,Carlisle,3.71,3.71,0.0
+E3,2425,2025-04-01,Crewe,Grimsby,3.22,3.22,0.0
+E3,2425,2025-04-01,Doncaster,Walsall,3.39,3.39,0.0
+E3,2425,2025-04-01,Gillingham,Colchester,2.99,2.99,0.0
+E3,2425,2025-04-01,Harrogate,Tranmere,3.0,3.0,0.0
+E3,2425,2025-04-01,Morecambe,Cheltenham,3.29,3.29,0.0
+E3,2425,2025-04-01,Newport County,Bromley,3.43,3.43,0.0
+E3,2425,2025-04-01,Swindon,AFC Wimbledon,3.24,3.24,0.0
+E3,2425,2025-04-02,Newport County,Milton Keynes Dons,3.96,3.96,0.0
+E3,2425,2025-04-05,Carlisle,Newport County,3.78,3.78,0.0
+E3,2425,2025-04-05,Colchester,Newport County,3.19,3.19,0.0
+E3,2425,2025-04-05,Fleetwood Town,Swindon,3.31,3.31,0.0
+E3,2425,2025-04-05,Grimsby,Morecambe,3.83,3.83,0.0
+E3,2425,2025-04-05,Milton Keynes Dons,Barrow,3.24,3.24,0.0
+E3,2425,2025-04-05,Salford,Gillingham,3.24,3.24,0.0
+E3,2425,2025-04-05,Bromley,Accrington,3.23,3.23,0.0
+E3,2425,2025-04-05,Tranmere,Chesterfield,3.16,3.16,0.0
+E3,2425,2025-04-05,Walsall,Port Vale,3.12,3.12,0.0
+E3,2425,2025-04-05,Cheltenham,Doncaster,3.64,3.64,0.0
+E3,2425,2025-04-05,Bradford,Crewe,3.43,3.43,0.0
+E3,2425,2025-04-05,AFC Wimbledon,Harrogate,3.6,3.6,0.0
+E3,2425,2025-04-08,Chesterfield,Gillingham,3.48,3.48,0.0
+E3,2425,2025-04-10,Crewe,Cheltenham,3.64,3.64,0.0
+E3,2425,2025-04-11,Newport County,Salford,3.6,3.6,0.0
+E3,2425,2025-04-12,Barrow,Walsall,3.17,3.17,0.0
+E3,2425,2025-04-12,Doncaster,AFC Wimbledon,3.39,3.39,0.0
+E3,2425,2025-04-12,Swindon,Bradford,3.29,3.29,0.0
+E3,2425,2025-04-12,Accrington,Tranmere,2.96,2.96,0.0
+E3,2425,2025-04-12,Chesterfield,Fleetwood Town,3.38,3.38,0.0
+E3,2425,2025-04-12,Gillingham,Milton Keynes Dons,3.32,3.32,0.0
+E3,2425,2025-04-12,Harrogate,Grimsby,3.35,3.35,0.0
+E3,2425,2025-04-12,Morecambe,Carlisle,3.44,3.44,0.0
+E3,2425,2025-04-12,Newport County,Colchester,3.63,3.63,0.0
+E3,2425,2025-04-12,Port Vale,Bromley,3.63,3.63,0.0
+E3,2425,2025-04-15,Salford,Doncaster,3.29,3.29,0.0
+E3,2425,2025-04-17,Bradford,Newport County,3.23,3.23,0.0
+E3,2425,2025-04-18,AFC Wimbledon,Chesterfield,3.33,3.33,0.0
+E3,2425,2025-04-18,Bromley,Morecambe,3.63,3.63,0.0
+E3,2425,2025-04-18,Carlisle,Port Vale,3.34,3.34,0.0
+E3,2425,2025-04-18,Cheltenham,Gillingham,3.14,3.14,0.0
+E3,2425,2025-04-18,Fleetwood Town,Barrow,3.29,3.29,0.0
+E3,2425,2025-04-18,Grimsby,Swindon,3.63,3.63,0.0
+E3,2425,2025-04-18,Milton Keynes Dons,Newport County,4.25,4.25,0.0
+E3,2425,2025-04-18,Salford,Accrington,3.56,3.56,0.0
+E3,2425,2025-04-18,Tranmere,Doncaster,3.61,3.61,0.0
+E3,2425,2025-04-18,Walsall,Harrogate,4.12,4.12,0.0
+E3,2425,2025-04-18,Colchester,Crewe,3.29,3.29,0.0
+E3,2425,2025-04-21,Doncaster,Colchester,3.61,3.61,0.0
+E3,2425,2025-04-21,Accrington,Carlisle,3.3,3.3,0.0
+E3,2425,2025-04-21,Barrow,Tranmere,3.21,3.21,0.0
+E3,2425,2025-04-21,Chesterfield,Bradford,3.28,3.28,0.0
+E3,2425,2025-04-21,Crewe,Milton Keynes Dons,3.4,3.4,0.0
+E3,2425,2025-04-21,Newport County,Walsall,4.08,4.08,0.0
+E3,2425,2025-04-21,Gillingham,AFC Wimbledon,3.28,3.28,0.0
+E3,2425,2025-04-21,Harrogate,Fleetwood Town,3.2,3.2,0.0
+E3,2425,2025-04-21,Morecambe,Salford,3.36,3.36,0.0
+E3,2425,2025-04-21,Newport County,Cheltenham,4.35,4.35,0.0
+E3,2425,2025-04-21,Port Vale,Grimsby,3.41,3.41,0.0
+E3,2425,2025-04-21,Swindon,Bromley,3.7,3.7,0.0
+E3,2425,2025-04-26,Walsall,Accrington,3.88,3.88,0.0
+E3,2425,2025-04-26,AFC Wimbledon,Port Vale,3.11,3.11,0.0
+E3,2425,2025-04-26,Doncaster,Bradford,3.33,3.33,0.0
+E3,2425,2025-04-26,Harrogate,Newport County,3.9,3.9,0.0
+E3,2425,2025-04-26,Barrow,Bromley,3.41,3.41,0.0
+E3,2425,2025-04-26,Cheltenham,Carlisle,3.56,3.56,0.0
+E3,2425,2025-04-26,Chesterfield,Morecambe,4.96,4.96,0.0
+E3,2425,2025-04-26,Fleetwood Town,Newport County,4.24,4.24,0.0
+E3,2425,2025-04-26,Gillingham,Swindon,3.34,3.34,0.0
+E3,2425,2025-04-26,Milton Keynes Dons,Grimsby,3.43,3.43,0.0
+E3,2425,2025-04-26,Salford,Colchester,3.29,3.29,0.0
+E3,2425,2025-04-26,Tranmere,Crewe,3.56,3.56,0.0
+E3,2425,2025-05-03,Grimsby,AFC Wimbledon,3.18,3.18,0.0
+E3,2425,2025-05-03,Morecambe,Harrogate,3.47,3.47,0.0
+E3,2425,2025-05-03,Newport County,Tranmere,3.71,3.71,0.0
+E3,2425,2025-05-03,Newport County,Doncaster,3.52,3.52,0.0
+E3,2425,2025-05-03,Port Vale,Gillingham,3.81,3.81,0.0
+E3,2425,2025-05-03,Swindon,Milton Keynes Dons,3.94,3.94,0.0
+E3,2425,2025-05-03,Crewe,Walsall,3.55,3.55,0.0
+E3,2425,2025-05-03,Colchester,Barrow,3.44,3.44,0.0
+E3,2425,2025-05-03,Carlisle,Salford,4.14,4.14,0.0
+E3,2425,2025-05-03,Bromley,Cheltenham,3.85,3.85,0.0
+E3,2425,2025-05-03,Bradford,Fleetwood Town,4.22,4.22,0.0
+E3,2425,2025-05-03,Accrington,Chesterfield,3.74,3.74,0.0

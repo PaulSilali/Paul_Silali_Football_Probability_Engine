@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,2324,2023-08-05,Spartans,Clyde,7,7,False
+SC3,2324,2023-08-05,Stenhousemuir,Forfar,91,91,False
+SC3,2324,2023-08-05,Bonnyrigg Rose,Dumbarton,91,91,False
+SC3,2324,2023-08-05,East Fife,Peterhead,91,7,False
+SC3,2324,2023-08-05,Elgin,Stranraer,91,91,False
+SC3,2324,2023-08-12,Peterhead,Stenhousemuir,7,7,False
+SC3,2324,2023-08-12,Stranraer,East Fife,7,7,False
+SC3,2324,2023-08-12,Dumbarton,Spartans,7,7,False
+SC3,2324,2023-08-12,Forfar,Elgin,7,7,False
+SC3,2324,2023-08-12,Clyde,Bonnyrigg Rose,7,7,False
+SC3,2324,2023-08-19,East Fife,Stenhousemuir,7,7,False
+SC3,2324,2023-08-19,Bonnyrigg Rose,Stranraer,7,7,False
+SC3,2324,2023-08-19,Clyde,Peterhead,7,7,False
+SC3,2324,2023-08-19,Dumbarton,Forfar,7,7,False
+SC3,2324,2023-08-19,Spartans,Elgin,7,7,False
+SC3,2324,2023-08-26,Forfar,Bonnyrigg Rose,7,7,False
+SC3,2324,2023-08-26,Elgin,East Fife,7,7,False
+SC3,2324,2023-08-26,Peterhead,Spartans,7,7,False
+SC3,2324,2023-08-26,Stenhousemuir,Dumbarton,7,7,False
+SC3,2324,2023-08-26,Stranraer,Clyde,7,7,False
+SC3,2324,2023-09-02,Stranraer,Peterhead,7,7,False
+SC3,2324,2023-09-02,Bonnyrigg Rose,Elgin,7,7,False
+SC3,2324,2023-09-02,Clyde,Forfar,7,7,False
+SC3,2324,2023-09-02,Dumbarton,East Fife,7,7,False
+SC3,2324,2023-09-02,Spartans,Stenhousemuir,7,7,False
+SC3,2324,2023-09-16,Elgin,Dumbarton,14,14,False
+SC3,2324,2023-09-16,Forfar,Spartans,14,14,False
+SC3,2324,2023-09-16,Peterhead,Bonnyrigg Rose,14,14,False
+SC3,2324,2023-09-16,Stenhousemuir,Stranraer,14,14,False
+SC3,2324,2023-09-16,East Fife,Clyde,14,14,False
+SC3,2324,2023-09-23,Clyde,Elgin,7,7,False
+SC3,2324,2023-09-23,Dumbarton,Peterhead,7,7,False
+SC3,2324,2023-09-23,Spartans,East Fife,7,7,False
+SC3,2324,2023-09-23,Stranraer,Forfar,7,7,False
+SC3,2324,2023-09-23,Bonnyrigg Rose,Stenhousemuir,7,7,False
+SC3,2324,2023-09-30,East Fife,Forfar,7,7,False
+SC3,2324,2023-09-30,Peterhead,Elgin,7,7,False
+SC3,2324,2023-09-30,Spartans,Bonnyrigg Rose,7,7,False
+SC3,2324,2023-09-30,Stenhousemuir,Clyde,7,7,False
+SC3,2324,2023-09-30,Dumbarton,Stranraer,7,7,False
+SC3,2324,2023-10-07,Forfar,Peterhead,7,7,False
+SC3,2324,2023-10-07,Stranraer,Spartans,7,7,False
+SC3,2324,2023-10-07,Clyde,Dumbarton,7,7,False
+SC3,2324,2023-10-21,Bonnyrigg Rose,Clyde,21,14,False
+SC3,2324,2023-10-21,East Fife,Stranraer,21,14,False
+SC3,2324,2023-10-21,Spartans,Dumbarton,14,14,False
+SC3,2324,2023-10-24,Elgin,Stenhousemuir,24,24,True
+SC3,2324,2023-11-04,Peterhead,East Fife,28,14,False
+SC3,2324,2023-11-04,Stranraer,Elgin,14,11,False
+SC3,2324,2023-11-04,Dumbarton,Bonnyrigg Rose,14,14,False
+SC3,2324,2023-11-04,Clyde,Spartans,14,14,False
+SC3,2324,2023-11-04,Forfar,Stenhousemuir,28,11,False
+SC3,2324,2023-11-11,Peterhead,Stranraer,7,7,False
+SC3,2324,2023-11-11,Elgin,Bonnyrigg Rose,7,7,False
+SC3,2324,2023-11-11,Stenhousemuir,Spartans,7,7,False
+SC3,2324,2023-11-11,East Fife,Dumbarton,7,7,False
+SC3,2324,2023-11-11,Forfar,Clyde,7,7,False
+SC3,2324,2023-11-14,Stenhousemuir,Peterhead,3,3,True
+SC3,2324,2023-11-18,Dumbarton,Elgin,7,7,False
+SC3,2324,2023-11-18,Bonnyrigg Rose,Forfar,7,7,False
+SC3,2324,2023-11-18,Clyde,East Fife,7,7,False
+SC3,2324,2023-11-18,Spartans,Peterhead,7,4,False
+SC3,2324,2023-11-18,Stranraer,Stenhousemuir,7,4,False
+SC3,2324,2023-11-21,Elgin,Forfar,3,3,True
+SC3,2324,2023-11-21,Bonnyrigg Rose,East Fife,3,3,True
+SC3,2324,2023-12-02,Forfar,Stranraer,11,14,False
+SC3,2324,2023-12-02,Stenhousemuir,Bonnyrigg Rose,14,11,False
+SC3,2324,2023-12-09,East Fife,Elgin,18,18,False
+SC3,2324,2023-12-09,Bonnyrigg Rose,Peterhead,7,21,False
+SC3,2324,2023-12-09,Clyde,Stranraer,21,7,False
+SC3,2324,2023-12-09,Dumbarton,Stenhousemuir,21,7,False
+SC3,2324,2023-12-09,Spartans,Forfar,21,7,False
+SC3,2324,2023-12-16,Forfar,Dumbarton,7,7,False
+SC3,2324,2023-12-16,Peterhead,Clyde,7,7,False
+SC3,2324,2023-12-16,Stenhousemuir,East Fife,7,7,False
+SC3,2324,2023-12-16,Stranraer,Bonnyrigg Rose,7,7,False
+SC3,2324,2023-12-16,Elgin,Spartans,7,7,False
+SC3,2324,2023-12-22,East Fife,Bonnyrigg Rose,6,6,False
+SC3,2324,2023-12-23,Peterhead,Forfar,7,7,False
+SC3,2324,2023-12-23,Spartans,Stranraer,7,7,False
+SC3,2324,2023-12-23,Stenhousemuir,Elgin,7,7,False
+SC3,2324,2023-12-23,Dumbarton,Clyde,7,7,False
+SC3,2324,2023-12-30,Elgin,Peterhead,7,7,False
+SC3,2324,2023-12-30,Forfar,East Fife,7,8,False
+SC3,2324,2023-12-30,Clyde,Stenhousemuir,7,7,False
+SC3,2324,2024-01-06,Dumbarton,East Fife,14,7,False
+SC3,2324,2024-01-06,Elgin,Stranraer,7,14,False
+SC3,2324,2024-01-06,Peterhead,Spartans,7,14,False
+SC3,2324,2024-01-06,Stenhousemuir,Forfar,7,7,False
+SC3,2324,2024-01-06,Clyde,Bonnyrigg Rose,7,15,False
+SC3,2324,2024-01-09,Peterhead,Dumbarton,3,3,True
+SC3,2324,2024-01-13,Bonnyrigg Rose,Dumbarton,7,4,False
+SC3,2324,2024-01-13,East Fife,Clyde,7,7,False
+SC3,2324,2024-01-13,Forfar,Elgin,7,7,False
+SC3,2324,2024-01-13,Spartans,Stenhousemuir,7,7,False
+SC3,2324,2024-01-13,Stranraer,Peterhead,7,4,False
+SC3,2324,2024-01-20,East Fife,Peterhead,7,7,False
+SC3,2324,2024-01-20,Stenhousemuir,Stranraer,7,7,False
+SC3,2324,2024-01-27,Spartans,Clyde,14,14,False
+SC3,2324,2024-01-27,Stranraer,East Fife,7,7,False
+SC3,2324,2024-01-27,Forfar,Bonnyrigg Rose,14,14,False
+SC3,2324,2024-01-27,Peterhead,Stenhousemuir,7,7,False
+SC3,2324,2024-01-27,Elgin,Dumbarton,14,14,False
+SC3,2324,2024-01-30,Elgin,Clyde,3,3,True
+SC3,2324,2024-01-30,East Fife,Spartans,3,3,True
+SC3,2324,2024-02-03,Clyde,Peterhead,4,7,False
+SC3,2324,2024-02-03,Elgin,East Fife,4,4,False
+SC3,2324,2024-02-03,Forfar,Spartans,7,4,False
+SC3,2324,2024-02-03,Stenhousemuir,Dumbarton,7,7,False
+SC3,2324,2024-02-03,Bonnyrigg Rose,Stranraer,7,7,False
+SC3,2324,2024-02-06,Bonnyrigg Rose,Elgin,3,3,True
+SC3,2324,2024-02-10,East Fife,Stenhousemuir,7,7,False
+SC3,2324,2024-02-10,Spartans,Elgin,7,4,False
+SC3,2324,2024-02-10,Stranraer,Clyde,7,7,False
+SC3,2324,2024-02-10,Dumbarton,Forfar,7,7,False
+SC3,2324,2024-02-13,Dumbarton,Spartans,3,3,True
+SC3,2324,2024-02-17,Clyde,Dumbarton,7,4,False
+SC3,2324,2024-02-17,Elgin,Stenhousemuir,7,7,False
+SC3,2324,2024-02-17,Forfar,Peterhead,7,14,False
+SC3,2324,2024-02-17,Stranraer,Spartans,7,4,False
+SC3,2324,2024-02-17,Bonnyrigg Rose,East Fife,11,7,False
+SC3,2324,2024-02-20,Peterhead,Bonnyrigg Rose,3,3,True
+SC3,2324,2024-02-20,Clyde,Forfar,3,3,True
+SC3,2324,2024-02-24,East Fife,Forfar,7,4,False
+SC3,2324,2024-02-24,Peterhead,Elgin,4,7,False
+SC3,2324,2024-02-24,Spartans,Bonnyrigg Rose,7,4,False
+SC3,2324,2024-02-24,Stenhousemuir,Clyde,7,4,False
+SC3,2324,2024-02-24,Dumbarton,Stranraer,7,7,False
+SC3,2324,2024-03-02,Stranraer,Forfar,7,7,False
+SC3,2324,2024-03-02,Dumbarton,Peterhead,7,7,False
+SC3,2324,2024-03-02,Spartans,East Fife,7,7,False
+SC3,2324,2024-03-02,Clyde,Elgin,7,7,False
+SC3,2324,2024-03-02,Bonnyrigg Rose,Stenhousemuir,7,7,False
+SC3,2324,2024-03-05,Stranraer,Dumbarton,3,3,True
+SC3,2324,2024-03-05,Bonnyrigg Rose,Spartans,3,3,True
+SC3,2324,2024-03-09,Stenhousemuir,Spartans,7,4,False
+SC3,2324,2024-03-09,East Fife,Dumbarton,7,4,False
+SC3,2324,2024-03-09,Elgin,Bonnyrigg Rose,7,4,False
+SC3,2324,2024-03-09,Forfar,Clyde,7,7,False
+SC3,2324,2024-03-09,Peterhead,Stranraer,7,4,False
+SC3,2324,2024-03-16,Forfar,Stenhousemuir,7,7,False
+SC3,2324,2024-03-16,Peterhead,East Fife,7,7,False
+SC3,2324,2024-03-16,Spartans,Dumbarton,7,7,False
+SC3,2324,2024-03-16,Stranraer,Elgin,7,7,False
+SC3,2324,2024-03-16,Bonnyrigg Rose,Clyde,7,7,False
+SC3,2324,2024-03-23,Dumbarton,Bonnyrigg Rose,7,7,False
+SC3,2324,2024-03-23,East Fife,Stranraer,7,7,False
+SC3,2324,2024-03-23,Elgin,Forfar,7,7,False
+SC3,2324,2024-03-23,Stenhousemuir,Peterhead,7,7,False
+SC3,2324,2024-03-23,Clyde,Spartans,7,7,False
+SC3,2324,2024-03-30,East Fife,Elgin,7,7,False
+SC3,2324,2024-03-30,Peterhead,Clyde,7,7,False
+SC3,2324,2024-03-30,Spartans,Forfar,7,7,False
+SC3,2324,2024-03-30,Stranraer,Bonnyrigg Rose,7,7,False
+SC3,2324,2024-03-30,Dumbarton,Stenhousemuir,7,7,False
+SC3,2324,2024-04-06,Clyde,Stranraer,7,7,False
+SC3,2324,2024-04-06,Elgin,Spartans,7,7,False
+SC3,2324,2024-04-06,Forfar,Dumbarton,7,7,False
+SC3,2324,2024-04-06,Stenhousemuir,East Fife,7,7,False
+SC3,2324,2024-04-06,Bonnyrigg Rose,Peterhead,7,7,False
+SC3,2324,2024-04-13,East Fife,Bonnyrigg Rose,7,7,False
+SC3,2324,2024-04-13,Peterhead,Forfar,7,7,False
+SC3,2324,2024-04-13,Spartans,Stranraer,7,7,False
+SC3,2324,2024-04-13,Stenhousemuir,Elgin,7,7,False
+SC3,2324,2024-04-13,Dumbarton,Clyde,7,7,False
+SC3,2324,2024-04-20,Clyde,Stenhousemuir,7,7,False
+SC3,2324,2024-04-20,Elgin,Peterhead,7,7,False
+SC3,2324,2024-04-20,Forfar,East Fife,7,7,False
+SC3,2324,2024-04-20,Stranraer,Dumbarton,7,7,False
+SC3,2324,2024-04-20,Bonnyrigg Rose,Spartans,7,7,False
+SC3,2324,2024-04-27,Dumbarton,Elgin,7,7,False
+SC3,2324,2024-04-27,Forfar,Stranraer,7,7,False
+SC3,2324,2024-04-27,Spartans,Peterhead,7,7,False
+SC3,2324,2024-04-27,Stenhousemuir,Bonnyrigg Rose,7,7,False
+SC3,2324,2024-04-27,Clyde,East Fife,7,7,False
+SC3,2324,2024-05-04,East Fife,Spartans,7,7,False
+SC3,2324,2024-05-04,Elgin,Clyde,7,7,False
+SC3,2324,2024-05-04,Peterhead,Dumbarton,7,7,False
+SC3,2324,2024-05-04,Stranraer,Stenhousemuir,7,7,False
+SC3,2324,2024-05-04,Bonnyrigg Rose,Forfar,7,7,False

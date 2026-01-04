@@ -1,0 +1,156 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+268,Frosinone,281,Salernitana,2021,2,1,0.5,0.5
+273,Cesena,299,Chievo,2021,2,0,0.0,1.5
+266,Venezia,281,Salernitana,2021,4,2,0.5,2.5
+268,Frosinone,285,Ascoli,2021,2,1,0.5,1.5
+284,Cittadella,290,Lecco,2021,2,1,0.5,4.0
+261,Empoli,266,Venezia,2021,4,2,0.5,2.5
+270,Reggiana,283,Cremonese,2021,4,2,0.5,2.0
+270,Reggiana,273,Cesena,2021,4,3,0.75,1.75
+270,Reggiana,270,Reggiana,2021,2,0,0.0,2.0
+266,Venezia,299,Chievo,2021,4,2,0.5,2.75
+279,Brescia,280,Pisa,2021,2,0,0.0,4.0
+284,Cittadella,294,Spal,2021,2,0,0.0,1.5
+262,Virtus Entella,280,Pisa,2021,2,0,0.0,4.0
+283,Cremonese,299,Chievo,2021,2,1,0.5,2.0
+280,Pisa,284,Cittadella,2021,2,0,0.0,3.5
+280,Pisa,285,Ascoli,2021,2,0,0.0,2.5
+263,Monza,299,Chievo,2021,2,0,0.0,2.0
+262,Virtus Entella,266,Venezia,2021,4,0,0.0,2.75
+281,Salernitana,296,Pordenone,2021,2,0,0.0,2.5
+260,Pescara,281,Salernitana,2021,2,0,0.0,2.5
+279,Brescia,284,Cittadella,2021,2,1,0.5,4.5
+262,Virtus Entella,285,Ascoli,2021,2,2,1.0,1.0
+270,Reggiana,294,Spal,2021,4,0,0.0,2.75
+281,Salernitana,294,Spal,2021,2,1,0.5,1.0
+270,Reggiana,285,Ascoli,2021,4,1,0.25,2.75
+261,Empoli,270,Reggiana,2021,4,1,0.25,1.75
+268,Frosinone,296,Pordenone,2021,2,1,0.5,2.0
+273,Cesena,290,Lecco,2021,2,1,0.5,3.0
+280,Pisa,299,Chievo,2021,2,1,0.5,3.0
+280,Pisa,296,Pordenone,2021,2,1,0.5,2.5
+260,Pescara,296,Pordenone,2021,2,1,0.5,1.0
+263,Monza,294,Spal,2021,2,2,1.0,1.0
+268,Frosinone,273,Cesena,2021,2,0,0.0,2.5
+268,Frosinone,294,Spal,2021,2,0,0.0,2.0
+262,Virtus Entella,268,Frosinone,2021,2,1,0.5,2.5
+266,Venezia,294,Spal,2021,4,3,0.75,2.75
+261,Empoli,262,Virtus Entella,2021,2,0,0.0,4.0
+281,Salernitana,290,Lecco,2021,2,1,0.5,2.0
+270,Reggiana,299,Chievo,2021,4,1,0.25,1.75
+273,Cesena,294,Spal,2021,2,2,1.0,2.0
+263,Monza,268,Frosinone,2021,2,1,0.5,3.0
+273,Cesena,284,Cittadella,2021,2,2,1.0,2.0
+268,Frosinone,284,Cittadella,2021,2,1,0.5,1.5
+284,Cittadella,299,Chievo,2021,2,0,0.0,2.0
+270,Reggiana,290,Lecco,2021,4,1,0.25,4.25
+279,Brescia,299,Chievo,2021,2,0,0.0,1.0
+284,Cittadella,296,Pordenone,2021,2,0,0.0,1.5
+270,Reggiana,284,Cittadella,2021,4,1,0.25,2.75
+296,Pordenone,299,Chievo,2021,2,1,0.5,2.5
+261,Empoli,273,Cesena,2021,2,0,0.0,3.0
+284,Cittadella,285,Ascoli,2021,2,0,0.0,1.5
+280,Pisa,290,Lecco,2021,2,0,0.0,2.0
+260,Pescara,262,Virtus Entella,2021,2,1,0.5,2.5
+285,Ascoli,290,Lecco,2021,2,0,0.0,2.5
+261,Empoli,296,Pordenone,2021,2,1,0.5,0.5
+263,Monza,280,Pisa,2021,2,1,0.5,2.0
+263,Monza,281,Salernitana,2021,2,0,0.0,3.5
+263,Monza,296,Pordenone,2021,2,1,0.5,2.0
+263,Monza,283,Cremonese,2021,2,0,0.0,2.5
+266,Venezia,283,Cremonese,2021,4,1,0.25,2.25
+262,Virtus Entella,294,Spal,2021,2,1,0.5,0.5
+261,Empoli,281,Salernitana,2021,2,0,0.0,3.5
+260,Pescara,283,Cremonese,2021,2,0,0.0,2.5
+268,Frosinone,299,Chievo,2021,2,1,0.5,2.5
+294,Spal,299,Chievo,2021,2,2,1.0,1.0
+260,Pescara,270,Reggiana,2021,4,0,0.0,2.0
+285,Ascoli,294,Spal,2021,2,0,0.0,2.5
+262,Virtus Entella,283,Cremonese,2021,2,0,0.0,2.5
+266,Venezia,284,Cittadella,2021,4,1,0.25,1.75
+262,Virtus Entella,270,Reggiana,2021,4,1,0.25,2.0
+260,Pescara,263,Monza,2021,2,1,0.5,3.5
+270,Reggiana,281,Salernitana,2021,4,3,0.75,1.25
+260,Pescara,279,Brescia,2021,2,2,1.0,2.0
+262,Virtus Entella,296,Pordenone,2021,2,0,0.0,2.0
+280,Pisa,283,Cremonese,2021,2,1,0.5,2.5
+263,Monza,284,Cittadella,2021,2,1,0.5,1.5
+261,Empoli,279,Brescia,2021,2,0,0.0,5.0
+273,Cesena,279,Brescia,2021,2,0,0.0,2.5
+261,Empoli,285,Ascoli,2021,2,1,0.5,2.0
+268,Frosinone,270,Reggiana,2021,4,2,0.5,2.25
+279,Brescia,290,Lecco,2021,2,1,0.5,3.5
+263,Monza,270,Reggiana,2021,4,0,0.0,1.75
+283,Cremonese,296,Pordenone,2021,2,0,0.0,3.0
+260,Pescara,299,Chievo,2021,2,1,0.5,2.0
+290,Lecco,296,Pordenone,2021,2,2,1.0,1.0
+262,Virtus Entella,284,Cittadella,2021,2,0,0.0,1.0
+263,Monza,285,Ascoli,2021,2,0,0.0,1.5
+260,Pescara,273,Cesena,2021,2,1,0.5,1.5
+279,Brescia,294,Spal,2021,2,0,0.0,4.5
+279,Brescia,281,Salernitana,2021,2,0,0.0,2.5
+279,Brescia,285,Ascoli,2021,2,1,0.5,2.5
+266,Venezia,285,Ascoli,2021,4,1,0.25,2.75
+270,Reggiana,280,Pisa,2021,4,2,0.5,2.0
+261,Empoli,294,Spal,2021,2,1,0.5,2.5
+283,Cremonese,290,Lecco,2021,2,1,0.5,3.5
+262,Virtus Entella,290,Lecco,2021,2,1,0.5,3.0
+290,Lecco,299,Chievo,2021,2,0,0.0,4.5
+281,Salernitana,299,Chievo,2021,2,1,0.5,2.5
+260,Pescara,266,Venezia,2021,4,0,0.0,3.0
+261,Empoli,284,Cittadella,2021,2,2,1.0,3.0
+273,Cesena,280,Pisa,2021,2,1,0.5,2.5
+279,Brescia,283,Cremonese,2021,2,1,0.5,3.5
+266,Venezia,296,Pordenone,2021,4,2,0.5,1.75
+260,Pescara,294,Spal,2021,2,0,0.0,1.5
+262,Virtus Entella,263,Monza,2021,2,1,0.5,3.5
+279,Brescia,296,Pordenone,2021,2,1,0.5,3.5
+262,Virtus Entella,273,Cesena,2021,2,1,0.5,1.5
+261,Empoli,290,Lecco,2021,2,1,0.5,3.5
+268,Frosinone,279,Brescia,2021,2,0,0.0,2.0
+260,Pescara,268,Frosinone,2021,2,1,0.5,1.0
+260,Pescara,261,Empoli,2021,2,1,0.5,3.5
+266,Venezia,270,Reggiana,2021,8,1,0.125,2.75
+281,Salernitana,283,Cremonese,2021,2,0,0.0,2.0
+290,Lecco,294,Spal,2021,2,0,0.0,2.0
+262,Virtus Entella,299,Chievo,2021,2,0,0.0,3.5
+268,Frosinone,283,Cremonese,2021,2,0,0.0,2.5
+261,Empoli,263,Monza,2021,2,2,1.0,1.0
+273,Cesena,285,Ascoli,2021,2,0,0.0,3.0
+280,Pisa,294,Spal,2021,2,0,0.0,3.5
+263,Monza,266,Venezia,2021,4,1,0.25,3.0
+285,Ascoli,299,Chievo,2021,2,1,0.5,1.5
+266,Venezia,268,Frosinone,2021,4,2,0.5,1.75
+261,Empoli,283,Cremonese,2021,2,1,0.5,2.5
+262,Virtus Entella,281,Salernitana,2021,2,0,0.0,3.0
+270,Reggiana,296,Pordenone,2021,4,1,0.25,2.25
+260,Pescara,285,Ascoli,2021,2,0,0.0,3.5
+260,Pescara,284,Cittadella,2021,2,0,0.0,2.5
+283,Cremonese,285,Ascoli,2021,2,2,1.0,3.0
+268,Frosinone,290,Lecco,2021,2,1,0.5,3.5
+285,Ascoli,296,Pordenone,2021,2,1,0.5,1.5
+261,Empoli,280,Pisa,2021,2,1,0.5,3.0
+266,Venezia,280,Pisa,2021,4,4,1.0,4.5
+283,Cremonese,284,Cittadella,2021,2,1,0.5,2.0
+261,Empoli,299,Chievo,2021,2,2,1.0,3.0
+268,Frosinone,280,Pisa,2021,2,1,0.5,2.0
+261,Empoli,268,Frosinone,2021,2,0,0.0,3.0
+281,Salernitana,284,Cittadella,2021,2,1,0.5,0.5
+266,Venezia,279,Brescia,2021,4,1,0.25,2.75
+273,Cesena,281,Salernitana,2021,2,1,0.5,0.5
+283,Cremonese,294,Spal,2021,2,1,0.5,1.5
+262,Virtus Entella,279,Brescia,2021,2,2,1.0,3.0
+281,Salernitana,285,Ascoli,2021,2,0,0.0,1.5
+260,Pescara,290,Lecco,2021,2,1,0.5,3.0
+280,Pisa,281,Salernitana,2021,2,1,0.5,4.5
+263,Monza,273,Cesena,2021,2,1,0.5,3.5
+270,Reggiana,279,Brescia,2021,4,1,0.25,3.0
+260,Pescara,280,Pisa,2021,2,1,0.5,2.0
+273,Cesena,296,Pordenone,2021,2,1,0.5,1.0
+266,Venezia,273,Cesena,2021,4,3,0.75,1.75
+263,Monza,290,Lecco,2021,2,1,0.5,0.5
+266,Venezia,266,Venezia,2021,2,1,0.5,0.5
+273,Cesena,283,Cremonese,2021,2,0,0.0,1.0
+294,Spal,296,Pordenone,2021,2,1,0.5,5.0
+263,Monza,279,Brescia,2021,2,0,0.0,1.5
+266,Venezia,290,Lecco,2021,4,1,0.25,3.75

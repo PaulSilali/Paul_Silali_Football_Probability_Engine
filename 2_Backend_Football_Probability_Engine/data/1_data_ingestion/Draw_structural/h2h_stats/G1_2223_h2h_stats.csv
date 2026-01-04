@@ -1,0 +1,92 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+533,Atromitos,535,OFI Crete,2223,3,0,0.0,3.3333333333333335
+528,Levadeiakos,534,Panathinaikos,2223,2,0,0.0,1.0
+524,Olympiakos,539,Ionikos,2223,2,0,0.0,3.0
+523,Aris,533,Atromitos,2223,2,1,0.5,1.5
+526,AEK,539,Ionikos,2223,2,0,0.0,4.0
+526,AEK,527,PAOK,2223,4,0,0.0,2.25
+526,AEK,528,Levadeiakos,2223,2,0,0.0,2.5
+527,PAOK,538,Giannina,2223,2,1,0.5,1.0
+524,Olympiakos,535,OFI Crete,2223,2,0,0.0,3.0
+525,Panetolikos,529,Volos NFC,2223,2,0,0.0,5.0
+525,Panetolikos,527,PAOK,2223,2,0,0.0,1.5
+528,Levadeiakos,539,Ionikos,2223,3,2,0.6666666666666666,1.6666666666666667
+527,PAOK,528,Levadeiakos,2223,2,1,0.5,3.5
+524,Olympiakos,532,Asteras Tripolis,2223,2,1,0.5,2.5
+533,Atromitos,534,Panathinaikos,2223,2,0,0.0,2.0
+526,AEK,535,OFI Crete,2223,2,0,0.0,3.0
+533,Atromitos,538,Giannina,2223,3,2,0.6666666666666666,2.3333333333333335
+528,Levadeiakos,537,Lamia,2223,3,2,0.6666666666666666,1.0
+525,Panetolikos,528,Levadeiakos,2223,3,3,1.0,1.3333333333333333
+523,Aris,524,Olympiakos,2223,4,1,0.25,2.75
+527,PAOK,539,Ionikos,2223,2,0,0.0,4.5
+524,Olympiakos,533,Atromitos,2223,2,1,0.5,2.0
+527,PAOK,535,OFI Crete,2223,2,2,1.0,1.0
+525,Panetolikos,532,Asteras Tripolis,2223,3,2,0.6666666666666666,1.0
+532,Asteras Tripolis,537,Lamia,2223,3,2,0.6666666666666666,1.0
+535,OFI Crete,539,Ionikos,2223,3,1,0.3333333333333333,2.6666666666666665
+528,Levadeiakos,533,Atromitos,2223,3,1,0.3333333333333333,2.0
+532,Asteras Tripolis,533,Atromitos,2223,3,2,0.6666666666666666,2.0
+524,Olympiakos,526,AEK,2223,4,2,0.5,2.0
+526,AEK,534,Panathinaikos,2223,4,2,0.5,1.0
+528,Levadeiakos,538,Giannina,2223,3,1,0.3333333333333333,4.333333333333333
+524,Olympiakos,529,Volos NFC,2223,4,1,0.25,3.5
+538,Giannina,539,Ionikos,2223,3,2,0.6666666666666666,1.6666666666666667
+523,Aris,527,PAOK,2223,4,1,0.25,2.25
+527,PAOK,537,Lamia,2223,2,0,0.0,2.0
+525,Panetolikos,533,Atromitos,2223,3,1,0.3333333333333333,2.0
+526,AEK,529,Volos NFC,2223,4,0,0.0,2.5
+523,Aris,538,Giannina,2223,2,0,0.0,4.0
+528,Levadeiakos,529,Volos NFC,2223,2,0,0.0,3.0
+529,Volos NFC,537,Lamia,2223,2,2,1.0,3.0
+527,PAOK,533,Atromitos,2223,2,1,0.5,2.5
+537,Lamia,539,Ionikos,2223,3,2,0.6666666666666666,2.6666666666666665
+532,Asteras Tripolis,538,Giannina,2223,3,1,0.3333333333333333,2.0
+525,Panetolikos,537,Lamia,2223,3,1,0.3333333333333333,3.3333333333333335
+527,PAOK,532,Asteras Tripolis,2223,2,2,1.0,4.0
+523,Aris,537,Lamia,2223,2,0,0.0,4.0
+524,Olympiakos,538,Giannina,2223,2,1,0.5,3.0
+529,Volos NFC,539,Ionikos,2223,2,0,0.0,1.5
+528,Levadeiakos,532,Asteras Tripolis,2223,3,2,0.6666666666666666,1.0
+525,Panetolikos,534,Panathinaikos,2223,2,0,0.0,1.5
+523,Aris,528,Levadeiakos,2223,2,1,0.5,2.5
+526,AEK,532,Asteras Tripolis,2223,2,1,0.5,2.0
+523,Aris,532,Asteras Tripolis,2223,2,0,0.0,2.5
+535,OFI Crete,537,Lamia,2223,3,1,0.3333333333333333,3.3333333333333335
+523,Aris,534,Panathinaikos,2223,4,1,0.25,1.75
+526,AEK,538,Giannina,2223,2,0,0.0,2.5
+523,Aris,525,Panetolikos,2223,2,0,0.0,2.5
+534,Panathinaikos,539,Ionikos,2223,2,1,0.5,1.5
+535,OFI Crete,538,Giannina,2223,3,2,0.6666666666666666,1.6666666666666667
+525,Panetolikos,538,Giannina,2223,3,1,0.3333333333333333,4.0
+524,Olympiakos,528,Levadeiakos,2223,2,0,0.0,3.5
+524,Olympiakos,525,Panetolikos,2223,2,0,0.0,4.5
+529,Volos NFC,533,Atromitos,2223,2,0,0.0,2.5
+527,PAOK,534,Panathinaikos,2223,4,1,0.25,2.75
+529,Volos NFC,532,Asteras Tripolis,2223,2,2,1.0,3.0
+523,Aris,526,AEK,2223,4,0,0.0,3.0
+523,Aris,535,OFI Crete,2223,2,1,0.5,2.5
+527,PAOK,529,Volos NFC,2223,4,0,0.0,3.0
+533,Atromitos,539,Ionikos,2223,3,0,0.0,3.0
+537,Lamia,538,Giannina,2223,3,2,0.6666666666666666,2.0
+529,Volos NFC,535,OFI Crete,2223,2,1,0.5,0.5
+532,Asteras Tripolis,539,Ionikos,2223,3,0,0.0,1.0
+523,Aris,539,Ionikos,2223,2,0,0.0,2.0
+529,Volos NFC,538,Giannina,2223,2,0,0.0,2.0
+533,Atromitos,537,Lamia,2223,3,2,0.6666666666666666,1.0
+524,Olympiakos,537,Lamia,2223,2,0,0.0,2.5
+534,Panathinaikos,537,Lamia,2223,2,0,0.0,2.0
+524,Olympiakos,527,PAOK,2223,4,1,0.25,2.0
+525,Panetolikos,526,AEK,2223,2,0,0.0,3.5
+528,Levadeiakos,535,OFI Crete,2223,3,1,0.3333333333333333,2.3333333333333335
+532,Asteras Tripolis,535,OFI Crete,2223,3,1,0.3333333333333333,1.6666666666666667
+525,Panetolikos,539,Ionikos,2223,3,1,0.3333333333333333,1.3333333333333333
+534,Panathinaikos,535,OFI Crete,2223,2,1,0.5,2.0
+529,Volos NFC,534,Panathinaikos,2223,4,1,0.25,2.5
+534,Panathinaikos,538,Giannina,2223,2,0,0.0,2.0
+523,Aris,529,Volos NFC,2223,4,0,0.0,3.5
+526,AEK,533,Atromitos,2223,2,0,0.0,1.0
+525,Panetolikos,535,OFI Crete,2223,3,0,0.0,3.0
+532,Asteras Tripolis,534,Panathinaikos,2223,2,0,0.0,1.0
+526,AEK,537,Lamia,2223,2,0,0.0,3.0
+524,Olympiakos,534,Panathinaikos,2223,4,2,0.5,1.25

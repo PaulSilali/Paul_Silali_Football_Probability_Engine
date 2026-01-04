@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E1,1920,2019-08-02,Luton,Middlesbrough,7,7,False
+E1,1920,2019-08-03,Burnley,Fulham,7,7,False
+E1,1920,2019-08-03,Blackburn,Charlton,7,7,False
+E1,1920,2019-08-03,Brentford,Birmingham,7,7,False
+E1,1920,2019-08-03,Millwall,Preston,7,7,False
+E1,1920,2019-08-03,Reading,Sheffield United,7,7,False
+E1,1920,2019-08-03,Stoke,QPR,7,7,False
+E1,1920,2019-08-03,Swansea,Hull,7,7,False
+E1,1920,2019-08-03,Wigan,Cardiff,7,7,False
+E1,1920,2019-08-03,Nott'm Forest,West Brom,7,7,False
+E1,1920,2019-08-04,Bristol City,Leeds,7,7,False
+E1,1920,2019-08-05,Huddersfield,Derby,7,7,False
+E1,1920,2019-08-10,Leeds,Nott'm Forest,6,7,False
+E1,1920,2019-08-10,Birmingham,Bristol City,7,6,False
+E1,1920,2019-08-10,Cardiff,Luton,7,8,False
+E1,1920,2019-08-10,Charlton,Stoke,7,7,False
+E1,1920,2019-08-10,Derby,Swansea,5,7,False
+E1,1920,2019-08-10,Fulham,Blackburn,7,7,False
+E1,1920,2019-08-10,Hull,Reading,7,7,False
+E1,1920,2019-08-10,Middlesbrough,Brentford,8,7,False
+E1,1920,2019-08-10,Preston,Wigan,7,7,False
+E1,1920,2019-08-10,QPR,Huddersfield,7,5,False
+E1,1920,2019-08-10,Sheffield United,Burnley,7,7,False
+E1,1920,2019-08-10,West Brom,Millwall,7,7,False
+E1,1920,2019-08-16,Huddersfield,Fulham,6,6,False
+E1,1920,2019-08-17,Burnley,Charlton,7,7,False
+E1,1920,2019-08-17,Blackburn,Middlesbrough,7,7,False
+E1,1920,2019-08-17,Brentford,Hull,7,7,False
+E1,1920,2019-08-17,Bristol City,QPR,7,7,False
+E1,1920,2019-08-17,Luton,West Brom,7,7,False
+E1,1920,2019-08-17,Millwall,Sheffield United,7,7,False
+E1,1920,2019-08-17,Nott'm Forest,Birmingham,7,7,False
+E1,1920,2019-08-17,Stoke,Derby,7,7,False
+E1,1920,2019-08-17,Swansea,Preston,7,7,False
+E1,1920,2019-08-17,Wigan,Leeds,7,7,False
+E1,1920,2019-08-18,Reading,Cardiff,8,8,False
+E1,1920,2019-08-20,Birmingham,Burnley,3,3,True
+E1,1920,2019-08-20,Derby,Bristol City,3,3,True
+E1,1920,2019-08-20,Hull,Blackburn,3,3,True
+E1,1920,2019-08-20,Middlesbrough,Wigan,3,3,True
+E1,1920,2019-08-20,Sheffield United,Luton,3,3,True
+E1,1920,2019-08-21,Cardiff,Huddersfield,3,5,True
+E1,1920,2019-08-21,Charlton,Nott'm Forest,4,4,True
+E1,1920,2019-08-21,Fulham,Millwall,5,4,True
+E1,1920,2019-08-21,Leeds,Brentford,4,4,True
+E1,1920,2019-08-21,Preston,Stoke,4,4,True
+E1,1920,2019-08-21,QPR,Swansea,4,4,True
+E1,1920,2019-08-21,West Brom,Reading,4,3,True
+E1,1920,2019-08-24,Derby,West Brom,4,3,False
+E1,1920,2019-08-24,Burnley,Luton,4,4,False
+E1,1920,2019-08-24,Blackburn,Cardiff,4,3,False
+E1,1920,2019-08-24,Charlton,Brentford,3,3,False
+E1,1920,2019-08-24,Fulham,Nott'm Forest,3,3,False
+E1,1920,2019-08-24,Huddersfield,Reading,3,3,False
+E1,1920,2019-08-24,Hull,Bristol City,4,4,False
+E1,1920,2019-08-24,Middlesbrough,Millwall,4,3,False
+E1,1920,2019-08-24,Preston,Sheffield United,3,4,False
+E1,1920,2019-08-24,QPR,Wigan,3,4,False
+E1,1920,2019-08-24,Stoke,Leeds,3,3,False
+E1,1920,2019-08-25,Swansea,Birmingham,4,5,False
+E1,1920,2019-08-30,Cardiff,Fulham,6,6,False
+E1,1920,2019-08-31,Bristol City,Middlesbrough,7,7,False
+E1,1920,2019-08-31,Birmingham,Stoke,6,7,False
+E1,1920,2019-08-31,Brentford,Derby,7,7,False
+E1,1920,2019-08-31,Leeds,Swansea,7,6,False
+E1,1920,2019-08-31,Luton,Huddersfield,7,7,False
+E1,1920,2019-08-31,Millwall,Hull,7,7,False
+E1,1920,2019-08-31,Nott'm Forest,Preston,7,7,False
+E1,1920,2019-08-31,Reading,Charlton,7,7,False
+E1,1920,2019-08-31,Sheffield United,QPR,7,7,False
+E1,1920,2019-08-31,West Brom,Blackburn,7,7,False
+E1,1920,2019-08-31,Wigan,Burnley,7,7,False
+E1,1920,2019-09-13,Derby,Cardiff,13,14,False
+E1,1920,2019-09-14,Fulham,West Brom,15,14,False
+E1,1920,2019-09-14,Blackburn,Millwall,14,14,False
+E1,1920,2019-09-14,Charlton,Birmingham,14,14,False
+E1,1920,2019-09-14,Hull,Wigan,14,14,False
+E1,1920,2019-09-14,Middlesbrough,Reading,14,14,False
+E1,1920,2019-09-14,Preston,Brentford,14,14,False
+E1,1920,2019-09-14,QPR,Luton,14,14,False
+E1,1920,2019-09-14,Stoke,Bristol City,14,14,False
+E1,1920,2019-09-14,Swansea,Nott'm Forest,14,14,False
+E1,1920,2019-09-15,Huddersfield,Sheffield United,15,15,False
+E1,1920,2019-09-15,Burnley,Leeds,15,15,False
+E1,1920,2019-09-21,Leeds,Derby,6,8,False
+E1,1920,2019-09-21,Birmingham,Preston,7,7,False
+E1,1920,2019-09-21,Brentford,Stoke,7,7,False
+E1,1920,2019-09-21,Bristol City,Swansea,7,7,False
+E1,1920,2019-09-21,Cardiff,Middlesbrough,8,7,False
+E1,1920,2019-09-21,Luton,Hull,7,7,False
+E1,1920,2019-09-21,Millwall,QPR,7,7,False
+E1,1920,2019-09-21,Nott'm Forest,Burnley,7,6,False
+E1,1920,2019-09-21,Reading,Blackburn,7,7,False
+E1,1920,2019-09-21,Sheffield United,Fulham,6,7,False
+E1,1920,2019-09-21,Wigan,Charlton,7,7,False
+E1,1920,2019-09-22,West Brom,Huddersfield,8,7,False
+E1,1920,2019-09-27,Fulham,Wigan,6,6,False
+E1,1920,2019-09-27,Stoke,Nott'm Forest,6,6,False
+E1,1920,2019-09-28,QPR,West Brom,7,6,False
+E1,1920,2019-09-28,Blackburn,Luton,7,7,False
+E1,1920,2019-09-28,Charlton,Leeds,7,7,False
+E1,1920,2019-09-28,Derby,Birmingham,7,7,False
+E1,1920,2019-09-28,Huddersfield,Millwall,6,7,False
+E1,1920,2019-09-28,Hull,Cardiff,7,7,False
+E1,1920,2019-09-28,Middlesbrough,Sheffield United,7,7,False
+E1,1920,2019-09-28,Preston,Bristol City,7,7,False
+E1,1920,2019-09-28,Swansea,Reading,7,7,False
+E1,1920,2019-09-29,Burnley,Brentford,8,8,False
+E1,1920,2019-10-01,Blackburn,Nott'm Forest,3,4,True
+E1,1920,2019-10-01,Hull,Sheffield United,3,3,True
+E1,1920,2019-10-01,Leeds,West Brom,3,3,True
+E1,1920,2019-10-01,Middlesbrough,Preston,3,3,True
+E1,1920,2019-10-01,Wigan,Birmingham,4,3,True
+E1,1920,2019-10-01,Reading,Fulham,3,4,True
+E1,1920,2019-10-01,Stoke,Huddersfield,4,3,True
+E1,1920,2019-10-02,Burnley,Derby,3,4,True
+E1,1920,2019-10-02,Brentford,Bristol City,3,4,True
+E1,1920,2019-10-02,Cardiff,QPR,4,4,True
+E1,1920,2019-10-02,Charlton,Swansea,4,4,True
+E1,1920,2019-10-02,Luton,Millwall,4,4,True
+E1,1920,2019-10-04,Birmingham,Middlesbrough,3,3,False
+E1,1920,2019-10-05,Fulham,Charlton,4,3,False
+E1,1920,2019-10-05,Bristol City,Reading,3,4,False
+E1,1920,2019-10-05,Derby,Luton,3,3,False
+E1,1920,2019-10-05,Huddersfield,Hull,4,4,False
+E1,1920,2019-10-05,Millwall,Leeds,3,4,False
+E1,1920,2019-10-05,Nott'm Forest,Brentford,4,3,False
+E1,1920,2019-10-05,Preston,Burnley,4,3,False
+E1,1920,2019-10-05,QPR,Blackburn,3,4,False
+E1,1920,2019-10-05,Sheffield United,Wigan,4,4,False
+E1,1920,2019-10-05,Swansea,Stoke,3,4,False
+E1,1920,2019-10-05,West Brom,Cardiff,4,3,False
+E1,1920,2019-10-18,Cardiff,Sheffield United,13,13,False
+E1,1920,2019-10-19,Blackburn,Huddersfield,14,14,False
+E1,1920,2019-10-19,Burnley,Swansea,14,14,False
+E1,1920,2019-10-19,Brentford,Millwall,14,14,False
+E1,1920,2019-10-19,Charlton,Derby,14,14,False
+E1,1920,2019-10-19,Hull,QPR,14,14,False
+E1,1920,2019-10-19,Leeds,Birmingham,14,15,False
+E1,1920,2019-10-19,Luton,Bristol City,14,14,False
+E1,1920,2019-10-19,Middlesbrough,West Brom,15,14,False
+E1,1920,2019-10-19,Reading,Preston,14,14,False
+E1,1920,2019-10-19,Stoke,Fulham,14,14,False
+E1,1920,2019-10-20,Wigan,Nott'm Forest,15,15,False
+E1,1920,2019-10-22,Birmingham,Blackburn,3,3,True
+E1,1920,2019-10-22,Millwall,Cardiff,3,4,True
+E1,1920,2019-10-22,Preston,Leeds,3,3,True
+E1,1920,2019-10-22,QPR,Reading,3,3,True
+E1,1920,2019-10-22,Sheffield United,Stoke,4,3,True
+E1,1920,2019-10-22,Swansea,Brentford,3,3,True
+E1,1920,2019-10-22,West Brom,Burnley,3,3,True
+E1,1920,2019-10-23,Bristol City,Charlton,4,4,True
+E1,1920,2019-10-23,Derby,Wigan,4,3,True
+E1,1920,2019-10-23,Fulham,Luton,4,4,True
+E1,1920,2019-10-23,Huddersfield,Middlesbrough,4,4,True
+E1,1920,2019-10-23,Nott'm Forest,Hull,3,4,True
+E1,1920,2019-10-26,Sheffield United,Leeds,4,4,False
+E1,1920,2019-10-26,Birmingham,Luton,4,3,False
+E1,1920,2019-10-26,Huddersfield,Burnley,3,4,False
+E1,1920,2019-10-26,Hull,Derby,3,3,False
+E1,1920,2019-10-26,Middlesbrough,Fulham,3,3,False
+E1,1920,2019-10-26,Millwall,Stoke,4,4,False
+E1,1920,2019-10-26,Preston,Blackburn,4,4,False
+E1,1920,2019-10-26,West Brom,Charlton,4,3,False
+E1,1920,2019-10-27,Swansea,Cardiff,5,5,False
+E1,1920,2019-10-27,Bristol City,Wigan,4,4,False
+E1,1920,2019-10-28,QPR,Brentford,6,6,False
+E1,1920,2019-11-01,Burnley,Bristol City,6,5,False
+E1,1920,2019-11-02,Wigan,Swansea,6,6,False
+E1,1920,2019-11-02,Blackburn,Sheffield United,7,7,False
+E1,1920,2019-11-02,Brentford,Huddersfield,5,7,False
+E1,1920,2019-11-02,Cardiff,Birmingham,6,7,False
+E1,1920,2019-11-02,Derby,Middlesbrough,7,7,False
+E1,1920,2019-11-02,Fulham,Hull,7,7,False
+E1,1920,2019-11-02,Leeds,QPR,7,5,False
+E1,1920,2019-11-02,Luton,Nott'm Forest,7,10,False
+E1,1920,2019-11-02,Reading,Millwall,11,7,False
+E1,1920,2019-11-03,Charlton,Preston,8,8,False
+E1,1920,2019-11-04,Stoke,West Brom,9,9,False
+E1,1920,2019-11-09,Nott'm Forest,Derby,7,7,False
+E1,1920,2019-11-09,Burnley,Stoke,8,5,False
+E1,1920,2019-11-09,Birmingham,Fulham,7,7,False
+E1,1920,2019-11-09,Hull,West Brom,7,5,False
+E1,1920,2019-11-09,Leeds,Blackburn,7,7,False
+E1,1920,2019-11-09,Millwall,Charlton,7,6,False
+E1,1920,2019-11-09,Preston,Huddersfield,6,7,False
+E1,1920,2019-11-09,QPR,Middlesbrough,7,7,False
+E1,1920,2019-11-09,Reading,Luton,7,7,False
+E1,1920,2019-11-09,Sheffield United,Swansea,7,7,False
+E1,1920,2019-11-09,Wigan,Brentford,7,7,False
+E1,1920,2019-11-10,Cardiff,Bristol City,8,9,False
+E1,1920,2019-11-22,Fulham,QPR,13,13,False
+E1,1920,2019-11-23,Charlton,Cardiff,14,13,False
+E1,1920,2019-11-23,Blackburn,Burnley,14,14,False
+E1,1920,2019-11-23,Brentford,Reading,14,14,False
+E1,1920,2019-11-23,Bristol City,Nott'm Forest,13,14,False
+E1,1920,2019-11-23,Derby,Preston,14,14,False
+E1,1920,2019-11-23,Huddersfield,Birmingham,14,14,False
+E1,1920,2019-11-23,Luton,Leeds,14,14,False
+E1,1920,2019-11-23,Stoke,Wigan,14,14,False
+E1,1920,2019-11-23,Swansea,Millwall,14,14,False
+E1,1920,2019-11-23,West Brom,Sheffield United,14,14,False
+E1,1920,2019-11-24,Middlesbrough,Hull,15,15,False
+E1,1920,2019-11-26,Cardiff,Stoke,3,3,True
+E1,1920,2019-11-26,Fulham,Derby,4,3,True
+E1,1920,2019-11-26,Huddersfield,Swansea,3,3,True
+E1,1920,2019-11-26,Luton,Charlton,3,3,True
+E1,1920,2019-11-26,Millwall,Wigan,3,3,True
+E1,1920,2019-11-26,Reading,Leeds,3,3,True
+E1,1920,2019-11-27,Blackburn,Brentford,4,4,True
+E1,1920,2019-11-27,Hull,Preston,3,4,True
+E1,1920,2019-11-27,Middlesbrough,Burnley,3,4,True
+E1,1920,2019-11-27,QPR,Nott'm Forest,5,4,True
+E1,1920,2019-11-27,Sheffield United,Birmingham,4,4,True
+E1,1920,2019-11-27,West Brom,Bristol City,4,4,True
+E1,1920,2019-11-29,Swansea,Fulham,3,3,False
+E1,1920,2019-11-30,Charlton,Sheffield United,4,3,False
+E1,1920,2019-11-30,Burnley,Hull,3,3,False
+E1,1920,2019-11-30,Birmingham,Millwall,3,4,False
+E1,1920,2019-11-30,Brentford,Luton,3,4,False
+E1,1920,2019-11-30,Bristol City,Huddersfield,3,4,False
+E1,1920,2019-11-30,Derby,QPR,4,3,False
+E1,1920,2019-11-30,Leeds,Middlesbrough,4,3,False
+E1,1920,2019-11-30,Nott'm Forest,Cardiff,3,4,False
+E1,1920,2019-11-30,Stoke,Blackburn,4,3,False
+E1,1920,2019-11-30,Wigan,Reading,4,4,False
+E1,1920,2019-12-02,Preston,West Brom,5,5,False
+E1,1920,2019-12-06,Millwall,Nott'm Forest,6,6,False
+E1,1920,2019-12-07,Huddersfield,Leeds,7,7,False
+E1,1920,2019-12-07,Blackburn,Derby,7,7,False
+E1,1920,2019-12-07,Cardiff,Burnley,7,7,False
+E1,1920,2019-12-07,Fulham,Bristol City,8,7,False
+E1,1920,2019-12-07,Hull,Stoke,7,7,False
+E1,1920,2019-12-07,Luton,Wigan,7,7,False
+E1,1920,2019-12-07,Middlesbrough,Charlton,7,7,False
+E1,1920,2019-12-07,QPR,Preston,7,5,False
+E1,1920,2019-12-07,Reading,Birmingham,7,7,False
+E1,1920,2019-12-07,Sheffield United,Brentford,7,7,False
+E1,1920,2019-12-08,West Brom,Swansea,6,9,False
+E1,1920,2019-12-10,Bristol City,Millwall,3,4,True
+E1,1920,2019-12-10,Charlton,Huddersfield,3,3,True
+E1,1920,2019-12-10,Leeds,Hull,3,3,True
+E1,1920,2019-12-10,Nott'm Forest,Middlesbrough,4,3,True
+E1,1920,2019-12-10,Preston,Fulham,3,3,True
+E1,1920,2019-12-10,Stoke,Luton,3,3,True
+E1,1920,2019-12-11,Burnley,Reading,4,4,True
+E1,1920,2019-12-11,Birmingham,QPR,4,4,True
+E1,1920,2019-12-11,Brentford,Cardiff,4,4,True
+E1,1920,2019-12-11,Derby,Sheffield United,4,4,True
+E1,1920,2019-12-11,Swansea,Blackburn,3,4,True
+E1,1920,2019-12-11,Wigan,West Brom,4,3,True
+E1,1920,2019-12-13,Charlton,Hull,3,3,False
+E1,1920,2019-12-14,Birmingham,West Brom,3,3,False
+E1,1920,2019-12-14,Burnley,QPR,3,3,False
+E1,1920,2019-12-14,Brentford,Fulham,3,4,False
+E1,1920,2019-12-14,Bristol City,Blackburn,4,3,False
+E1,1920,2019-12-14,Derby,Millwall,3,4,False
+E1,1920,2019-12-14,Leeds,Cardiff,4,3,False
+E1,1920,2019-12-14,Nott'm Forest,Sheffield United,4,3,False
+E1,1920,2019-12-14,Preston,Luton,4,4,False
+E1,1920,2019-12-14,Stoke,Reading,4,3,False
+E1,1920,2019-12-14,Swansea,Middlesbrough,3,4,False
+E1,1920,2019-12-14,Wigan,Huddersfield,3,4,False
+E1,1920,2019-12-20,Middlesbrough,Stoke,6,6,False
+E1,1920,2019-12-21,Cardiff,Preston,7,7,False
+E1,1920,2019-12-21,Fulham,Leeds,7,7,False
+E1,1920,2019-12-21,Huddersfield,Nott'm Forest,7,7,False
+E1,1920,2019-12-21,Hull,Birmingham,8,7,False
+E1,1920,2019-12-21,Luton,Swansea,7,7,False
+E1,1920,2019-12-21,Millwall,Burnley,7,7,False
+E1,1920,2019-12-21,QPR,Charlton,7,8,False
+E1,1920,2019-12-21,Reading,Derby,7,7,False
+E1,1920,2019-12-21,West Brom,Brentford,7,7,False
+E1,1920,2019-12-22,Sheffield United,Bristol City,8,8,False
+E1,1920,2019-12-23,Blackburn,Wigan,9,9,False
+E1,1920,2019-12-26,Burnley,West Brom,5,5,True
+E1,1920,2019-12-26,Blackburn,Birmingham,3,5,True
+E1,1920,2019-12-26,Brentford,Swansea,5,5,True
+E1,1920,2019-12-26,Cardiff,Millwall,5,5,True
+E1,1920,2019-12-26,Charlton,Bristol City,5,4,True
+E1,1920,2019-12-26,Hull,Nott'm Forest,5,5,True
+E1,1920,2019-12-26,Luton,Fulham,5,5,True
+E1,1920,2019-12-26,Middlesbrough,Huddersfield,6,5,True
+E1,1920,2019-12-26,Stoke,Sheffield United,6,4,True
+E1,1920,2019-12-26,Wigan,Derby,3,5,True
+E1,1920,2019-12-26,Leeds,Preston,5,5,True
+E1,1920,2019-12-26,Reading,QPR,5,5,True
+E1,1920,2019-12-29,Birmingham,Leeds,3,3,False
+E1,1920,2019-12-29,Bristol City,Luton,3,3,False
+E1,1920,2019-12-29,Fulham,Stoke,3,3,False
+E1,1920,2019-12-29,Huddersfield,Blackburn,3,3,False
+E1,1920,2019-12-29,Millwall,Brentford,3,3,False
+E1,1920,2019-12-29,Nott'm Forest,Wigan,3,3,False
+E1,1920,2019-12-29,Preston,Reading,3,3,False
+E1,1920,2019-12-29,QPR,Hull,3,3,False
+E1,1920,2019-12-29,Sheffield United,Cardiff,3,3,False
+E1,1920,2019-12-29,Swansea,Burnley,3,3,False
+E1,1920,2019-12-29,West Brom,Middlesbrough,3,3,False
+E1,1920,2019-12-30,Derby,Charlton,4,4,False
+E1,1920,2020-01-01,Millwall,Luton,3,3,True
+E1,1920,2020-01-01,Birmingham,Wigan,3,3,True
+E1,1920,2020-01-01,Bristol City,Brentford,3,3,True
+E1,1920,2020-01-01,Fulham,Reading,3,3,True
+E1,1920,2020-01-01,Huddersfield,Stoke,3,3,True
+E1,1920,2020-01-01,Nott'm Forest,Blackburn,3,3,True
+E1,1920,2020-01-01,Preston,Middlesbrough,3,3,True
+E1,1920,2020-01-01,QPR,Cardiff,3,3,True
+E1,1920,2020-01-01,Sheffield United,Hull,3,3,True
+E1,1920,2020-01-01,West Brom,Leeds,3,3,True
+E1,1920,2020-01-02,Derby,Burnley,3,4,True
+E1,1920,2020-01-02,Swansea,Charlton,4,3,True
+E1,1920,2020-01-11,Brentford,QPR,10,10,False
+E1,1920,2020-01-11,Burnley,Huddersfield,9,10,False
+E1,1920,2020-01-11,Blackburn,Preston,10,10,False
+E1,1920,2020-01-11,Charlton,West Brom,9,10,False
+E1,1920,2020-01-11,Hull,Fulham,10,10,False
+E1,1920,2020-01-11,Leeds,Sheffield United,10,10,False
+E1,1920,2020-01-11,Luton,Birmingham,10,10,False
+E1,1920,2020-01-11,Middlesbrough,Derby,10,9,False
+E1,1920,2020-01-11,Reading,Nott'm Forest,10,10,False
+E1,1920,2020-01-11,Stoke,Millwall,10,10,False
+E1,1920,2020-01-11,Wigan,Bristol City,10,10,False
+E1,1920,2020-01-12,Cardiff,Swansea,11,10,False
+E1,1920,2020-01-17,Fulham,Middlesbrough,6,6,False
+E1,1920,2020-01-18,QPR,Leeds,7,7,False
+E1,1920,2020-01-18,Birmingham,Cardiff,7,6,False
+E1,1920,2020-01-18,Bristol City,Burnley,7,7,False
+E1,1920,2020-01-18,Derby,Hull,7,7,False
+E1,1920,2020-01-18,Huddersfield,Brentford,7,7,False
+E1,1920,2020-01-18,Millwall,Reading,7,7,False
+E1,1920,2020-01-18,Preston,Charlton,7,7,False
+E1,1920,2020-01-18,Sheffield United,Blackburn,7,7,False
+E1,1920,2020-01-18,Swansea,Wigan,6,7,False
+E1,1920,2020-01-19,Nott'm Forest,Luton,8,8,False
+E1,1920,2020-01-20,West Brom,Stoke,9,9,False
+E1,1920,2020-01-21,Burnley,Preston,3,3,True
+E1,1920,2020-01-21,Middlesbrough,Birmingham,4,3,True
+E1,1920,2020-01-22,Charlton,Fulham,4,5,True
+E1,1920,2020-01-22,Nott'm Forest,Reading,3,4,True
+E1,1920,2020-01-25,Stoke,Swansea,5,7,False
+E1,1920,2020-01-28,Blackburn,QPR,10,10,True
+E1,1920,2020-01-28,Brentford,Nott'm Forest,10,6,True
+E1,1920,2020-01-28,Cardiff,West Brom,10,8,True
+E1,1920,2020-01-28,Hull,Huddersfield,10,10,True
+E1,1920,2020-01-28,Leeds,Millwall,10,10,True
+E1,1920,2020-01-28,Luton,Derby,9,10,True
+E1,1920,2020-01-28,Wigan,Sheffield United,10,10,True
+E1,1920,2020-01-28,Reading,Bristol City,6,10,True
+E1,1920,2020-01-31,Cardiff,Reading,3,3,False
+E1,1920,2020-01-31,Derby,Stoke,3,6,False
+E1,1920,2020-02-01,Hull,Brentford,4,4,False
+E1,1920,2020-02-01,Birmingham,Nott'm Forest,11,4,False
+E1,1920,2020-02-01,Charlton,Burnley,10,11,False
+E1,1920,2020-02-01,Fulham,Huddersfield,10,4,False
+E1,1920,2020-02-01,Leeds,Wigan,4,4,False
+E1,1920,2020-02-01,Middlesbrough,Blackburn,11,4,False
+E1,1920,2020-02-01,Preston,Swansea,11,7,False
+E1,1920,2020-02-01,QPR,Bristol City,4,4,False
+E1,1920,2020-02-01,Sheffield United,Millwall,4,4,False
+E1,1920,2020-02-01,West Brom,Luton,4,4,False
+E1,1920,2020-02-07,Bristol City,Birmingham,6,6,False
+E1,1920,2020-02-08,Wigan,Preston,7,7,False
+E1,1920,2020-02-08,Burnley,Sheffield United,7,7,False
+E1,1920,2020-02-08,Blackburn,Fulham,7,7,False
+E1,1920,2020-02-08,Brentford,Middlesbrough,7,7,False
+E1,1920,2020-02-08,Huddersfield,QPR,7,7,False
+E1,1920,2020-02-08,Luton,Cardiff,7,8,False
+E1,1920,2020-02-08,Reading,Hull,8,7,False
+E1,1920,2020-02-08,Stoke,Charlton,8,7,False
+E1,1920,2020-02-08,Swansea,Derby,7,8,False
+E1,1920,2020-02-08,Nott'm Forest,Leeds,7,7,False
+E1,1920,2020-02-09,Millwall,West Brom,8,8,False
+E1,1920,2020-02-11,Burnley,Birmingham,3,4,True
+E1,1920,2020-02-11,Blackburn,Hull,3,3,True
+E1,1920,2020-02-11,Brentford,Leeds,3,3,True
+E1,1920,2020-02-11,Nott'm Forest,Charlton,3,3,True
+E1,1920,2020-02-11,Swansea,QPR,3,3,True
+E1,1920,2020-02-11,Wigan,Middlesbrough,3,3,True
+E1,1920,2020-02-12,Bristol City,Derby,5,4,True
+E1,1920,2020-02-12,Huddersfield,Cardiff,4,4,True
+E1,1920,2020-02-12,Luton,Sheffield United,4,4,True
+E1,1920,2020-02-12,Millwall,Fulham,3,4,True
+E1,1920,2020-02-12,Reading,West Brom,4,3,True
+E1,1920,2020-02-12,Stoke,Preston,4,4,True
+E1,1920,2020-02-14,Hull,Swansea,3,3,False
+E1,1920,2020-02-15,West Brom,Nott'm Forest,3,4,False
+E1,1920,2020-02-15,Birmingham,Brentford,4,4,False
+E1,1920,2020-02-15,Cardiff,Wigan,3,4,False
+E1,1920,2020-02-15,Charlton,Blackburn,4,4,False
+E1,1920,2020-02-15,Derby,Huddersfield,3,3,False
+E1,1920,2020-02-15,Fulham,Burnley,3,4,False
+E1,1920,2020-02-15,Leeds,Bristol City,4,3,False
+E1,1920,2020-02-15,Middlesbrough,Luton,4,3,False
+E1,1920,2020-02-15,Preston,Millwall,3,3,False
+E1,1920,2020-02-15,QPR,Stoke,4,3,False
+E1,1920,2020-02-15,Sheffield United,Reading,3,3,False
+E1,1920,2020-02-21,Derby,Fulham,6,6,False
+E1,1920,2020-02-22,Brentford,Blackburn,7,7,False
+E1,1920,2020-02-22,Burnley,Middlesbrough,7,7,False
+E1,1920,2020-02-22,Birmingham,Sheffield United,7,7,False
+E1,1920,2020-02-22,Bristol City,West Brom,7,7,False
+E1,1920,2020-02-22,Charlton,Luton,7,7,False
+E1,1920,2020-02-22,Leeds,Reading,7,7,False
+E1,1920,2020-02-22,Nott'm Forest,QPR,7,7,False
+E1,1920,2020-02-22,Preston,Hull,7,8,False
+E1,1920,2020-02-22,Stoke,Cardiff,7,7,False
+E1,1920,2020-02-22,Swansea,Huddersfield,8,7,False
+E1,1920,2020-02-22,Wigan,Millwall,7,7,False
+E1,1920,2020-02-25,Cardiff,Nott'm Forest,3,3,True
+E1,1920,2020-02-25,Huddersfield,Bristol City,3,3,True
+E1,1920,2020-02-25,Luton,Brentford,3,3,True
+E1,1920,2020-02-25,QPR,Derby,3,4,True
+E1,1920,2020-02-25,West Brom,Preston,3,3,True
+E1,1920,2020-02-26,Blackburn,Stoke,4,4,True
+E1,1920,2020-02-26,Fulham,Swansea,5,4,True
+E1,1920,2020-02-26,Hull,Burnley,4,4,True
+E1,1920,2020-02-26,Middlesbrough,Leeds,4,4,True
+E1,1920,2020-02-26,Millwall,Birmingham,4,4,True
+E1,1920,2020-02-26,Sheffield United,Charlton,4,4,True
+E1,1920,2020-02-26,Reading,Wigan,4,4,True
+E1,1920,2020-02-29,Hull,Leeds,3,3,False
+E1,1920,2020-02-29,Blackburn,Swansea,3,3,False
+E1,1920,2020-02-29,Cardiff,Brentford,4,4,False
+E1,1920,2020-02-29,Fulham,Preston,3,4,False
+E1,1920,2020-02-29,Huddersfield,Charlton,4,3,False
+E1,1920,2020-02-29,Luton,Stoke,4,3,False
+E1,1920,2020-02-29,Millwall,Bristol City,3,4,False
+E1,1920,2020-02-29,QPR,Birmingham,4,3,False
+E1,1920,2020-02-29,Reading,Burnley,3,3,False
+E1,1920,2020-02-29,Sheffield United,Derby,3,4,False
+E1,1920,2020-02-29,West Brom,Wigan,4,3,False
+E1,1920,2020-03-02,Middlesbrough,Nott'm Forest,5,6,False
+E1,1920,2020-03-06,Nott'm Forest,Millwall,4,6,False
+E1,1920,2020-03-07,Bristol City,Fulham,7,7,False
+E1,1920,2020-03-07,Burnley,Cardiff,7,7,False
+E1,1920,2020-03-07,Birmingham,Reading,7,7,False
+E1,1920,2020-03-07,Brentford,Sheffield United,7,7,False
+E1,1920,2020-03-07,Charlton,Middlesbrough,7,5,False
+E1,1920,2020-03-07,Leeds,Huddersfield,7,7,False
+E1,1920,2020-03-07,Preston,QPR,7,7,False
+E1,1920,2020-03-07,Stoke,Hull,7,7,False
+E1,1920,2020-03-07,Swansea,West Brom,7,7,False
+E1,1920,2020-03-07,Wigan,Luton,7,7,False
+E1,1920,2020-03-08,Derby,Blackburn,8,8,False
+E1,1920,2020-06-20,Fulham,Brentford,105,105,False
+E1,1920,2020-06-20,Middlesbrough,Swansea,105,105,False
+E1,1920,2020-06-20,Millwall,Derby,106,104,False
+E1,1920,2020-06-20,Blackburn,Bristol City,104,105,False
+E1,1920,2020-06-20,Huddersfield,Wigan,105,105,False
+E1,1920,2020-06-20,Hull,Charlton,105,105,False
+E1,1920,2020-06-20,Luton,Preston,105,105,False
+E1,1920,2020-06-20,QPR,Burnley,105,105,False
+E1,1920,2020-06-20,Reading,Stoke,105,105,False
+E1,1920,2020-06-20,Sheffield United,Nott'm Forest,105,106,False
+E1,1920,2020-06-20,West Brom,Birmingham,105,105,False
+E1,1920,2020-06-21,Cardiff,Leeds,106,106,False
+E1,1920,2020-06-26,Brentford,West Brom,6,6,False
+E1,1920,2020-06-27,Charlton,QPR,7,7,False
+E1,1920,2020-06-27,Preston,Cardiff,7,6,False
+E1,1920,2020-06-27,Swansea,Luton,7,7,False
+E1,1920,2020-06-27,Burnley,Millwall,7,7,False
+E1,1920,2020-06-27,Derby,Reading,7,7,False
+E1,1920,2020-06-27,Birmingham,Hull,7,7,False
+E1,1920,2020-06-27,Leeds,Fulham,6,7,False
+E1,1920,2020-06-27,Stoke,Middlesbrough,7,7,False
+E1,1920,2020-06-27,Wigan,Blackburn,7,7,False
+E1,1920,2020-06-28,Bristol City,Sheffield United,8,8,False
+E1,1920,2020-06-28,Nott'm Forest,Huddersfield,8,8,False
+E1,1920,2020-06-30,Millwall,Swansea,3,3,True
+E1,1920,2020-06-30,Burnley,Blackburn,3,3,True
+E1,1920,2020-06-30,Cardiff,Charlton,3,3,True
+E1,1920,2020-06-30,Reading,Brentford,3,4,True
+E1,1920,2020-06-30,QPR,Fulham,3,3,True
+E1,1920,2020-06-30,Leeds,Luton,3,3,True
+E1,1920,2020-06-30,Wigan,Stoke,3,3,True
+E1,1920,2020-07-01,Preston,Derby,4,4,True
+E1,1920,2020-07-01,Birmingham,Huddersfield,4,3,True
+E1,1920,2020-07-01,Nott'm Forest,Bristol City,3,3,True
+E1,1920,2020-07-01,Sheffield United,West Brom,3,5,True
+E1,1920,2020-07-02,Hull,Middlesbrough,5,5,True
+E1,1920,2020-07-03,Charlton,Millwall,3,3,False
+E1,1920,2020-07-04,Derby,Nott'm Forest,3,3,False
+E1,1920,2020-07-04,Blackburn,Leeds,4,4,False
+E1,1920,2020-07-04,Brentford,Wigan,4,4,False
+E1,1920,2020-07-04,Bristol City,Cardiff,3,4,False
+E1,1920,2020-07-04,Fulham,Birmingham,4,3,False
+E1,1920,2020-07-04,Huddersfield,Preston,3,3,False
+E1,1920,2020-07-04,Luton,Reading,4,4,False
+E1,1920,2020-07-04,Stoke,Burnley,4,4,False
+E1,1920,2020-07-05,Swansea,Sheffield United,5,4,False
+E1,1920,2020-07-05,Middlesbrough,QPR,3,5,False
+E1,1920,2020-07-05,West Brom,Hull,4,3,False
+E1,1920,2020-07-07,Nott'm Forest,Fulham,3,3,True
+E1,1920,2020-07-07,Brentford,Charlton,3,4,True
+E1,1920,2020-07-07,Luton,Burnley,3,3,True
+E1,1920,2020-07-07,Reading,Huddersfield,3,3,True
+E1,1920,2020-07-07,Cardiff,Blackburn,3,3,True
+E1,1920,2020-07-08,Millwall,Middlesbrough,5,3,True
+E1,1920,2020-07-08,West Brom,Derby,3,4,True
+E1,1920,2020-07-08,Birmingham,Swansea,4,3,True
+E1,1920,2020-07-08,Bristol City,Hull,4,3,True
+E1,1920,2020-07-08,Wigan,QPR,4,3,True
+E1,1920,2020-07-08,Sheffield United,Preston,3,4,True
+E1,1920,2020-07-09,Leeds,Stoke,5,5,True
+E1,1920,2020-07-10,Huddersfield,Luton,3,3,False
+E1,1920,2020-07-10,Fulham,Cardiff,3,3,False
+E1,1920,2020-07-11,Charlton,Reading,4,4,False
+E1,1920,2020-07-11,Derby,Brentford,3,4,False
+E1,1920,2020-07-11,Burnley,Wigan,4,3,False
+E1,1920,2020-07-11,Blackburn,West Brom,4,3,False
+E1,1920,2020-07-11,Hull,Millwall,3,3,False
+E1,1920,2020-07-11,Middlesbrough,Bristol City,3,3,False
+E1,1920,2020-07-11,Preston,Nott'm Forest,3,4,False
+E1,1920,2020-07-11,QPR,Sheffield United,3,3,False
+E1,1920,2020-07-12,Stoke,Birmingham,3,4,False
+E1,1920,2020-07-12,Swansea,Leeds,4,3,False
+E1,1920,2020-07-14,West Brom,Fulham,3,4,True
+E1,1920,2020-07-14,Reading,Middlesbrough,3,3,True
+E1,1920,2020-07-14,Wigan,Hull,3,3,True
+E1,1920,2020-07-14,Cardiff,Derby,4,3,True
+E1,1920,2020-07-14,Luton,QPR,4,3,True
+E1,1920,2020-07-14,Millwall,Blackburn,3,3,True
+E1,1920,2020-07-14,Sheffield United,Huddersfield,3,4,True
+E1,1920,2020-07-15,Brentford,Preston,4,4,True
+E1,1920,2020-07-15,Bristol City,Stoke,4,3,True
+E1,1920,2020-07-15,Birmingham,Charlton,3,4,True
+E1,1920,2020-07-15,Nott'm Forest,Swansea,4,3,True
+E1,1920,2020-07-16,Leeds,Burnley,4,5,True
+E1,1920,2020-07-17,Huddersfield,West Brom,3,3,False
+E1,1920,2020-07-18,Charlton,Wigan,3,4,False
+E1,1920,2020-07-18,Stoke,Brentford,3,3,False
+E1,1920,2020-07-18,Blackburn,Reading,4,4,False
+E1,1920,2020-07-18,Fulham,Sheffield United,4,4,False
+E1,1920,2020-07-18,Hull,Luton,4,4,False
+E1,1920,2020-07-18,Middlesbrough,Cardiff,4,4,False
+E1,1920,2020-07-18,Preston,Birmingham,3,3,False
+E1,1920,2020-07-18,QPR,Millwall,4,4,False
+E1,1920,2020-07-18,Swansea,Bristol City,3,3,False
+E1,1920,2020-07-19,Derby,Leeds,5,3,False
+E1,1920,2020-07-19,Burnley,Nott'm Forest,3,4,False
+E1,1920,2020-07-22,Birmingham,Derby,4,3,True
+E1,1920,2020-07-22,Brentford,Burnley,4,3,True
+E1,1920,2020-07-22,Bristol City,Preston,4,4,True
+E1,1920,2020-07-22,Cardiff,Hull,4,4,True
+E1,1920,2020-07-22,Leeds,Charlton,3,4,True
+E1,1920,2020-07-22,Luton,Blackburn,4,4,True
+E1,1920,2020-07-22,Millwall,Huddersfield,4,5,True
+E1,1920,2020-07-22,Nott'm Forest,Stoke,3,4,True
+E1,1920,2020-07-22,Reading,Swansea,4,4,True
+E1,1920,2020-07-22,Sheffield United,Middlesbrough,4,4,True
+E1,1920,2020-07-22,West Brom,QPR,5,4,True
+E1,1920,2020-07-22,Wigan,Fulham,4,4,True

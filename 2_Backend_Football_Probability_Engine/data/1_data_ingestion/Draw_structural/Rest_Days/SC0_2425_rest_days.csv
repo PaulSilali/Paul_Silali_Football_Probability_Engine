@@ -1,0 +1,229 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC0,2425,2024-08-03,Motherwell,Ross County,76,76,False
+SC0,2425,2024-08-03,Hearts,Rangers,77,77,False
+SC0,2425,2024-08-04,Celtic,Kilmarnock,78,78,False
+SC0,2425,2024-08-04,St Mirren,Hibernian,78,77,False
+SC0,2425,2024-08-04,Dundee,Dundee,78,78,False
+SC0,2425,2024-08-05,St Johnstone,Aberdeen,78,78,False
+SC0,2425,2024-08-10,Rangers,Motherwell,7,7,False
+SC0,2425,2024-08-10,Dundee,Hearts,6,7,False
+SC0,2425,2024-08-10,Ross County,Dundee,7,6,False
+SC0,2425,2024-08-11,Kilmarnock,St Johnstone,7,6,False
+SC0,2425,2024-08-11,Hibernian,Celtic,7,7,False
+SC0,2425,2024-08-11,Aberdeen,St Mirren,6,7,False
+SC0,2425,2024-08-24,Rangers,Ross County,14,14,False
+SC0,2425,2024-08-24,Dundee,St Johnstone,14,13,False
+SC0,2425,2024-08-24,Hibernian,Dundee,13,14,False
+SC0,2425,2024-08-25,Motherwell,Hearts,15,15,False
+SC0,2425,2024-08-25,St Mirren,Celtic,14,14,False
+SC0,2425,2024-08-25,Aberdeen,Kilmarnock,14,14,False
+SC0,2425,2024-08-31,Ross County,Aberdeen,7,6,False
+SC0,2425,2024-08-31,Dundee,St Mirren,7,6,False
+SC0,2425,2024-08-31,St Johnstone,Motherwell,7,6,False
+SC0,2425,2024-09-01,Kilmarnock,Hibernian,7,8,False
+SC0,2425,2024-09-01,Celtic,Rangers,7,8,False
+SC0,2425,2024-09-01,Hearts,Dundee,7,1,False
+SC0,2425,2024-09-14,Hibernian,St Johnstone,13,14,False
+SC0,2425,2024-09-14,Ross County,Dundee,14,13,False
+SC0,2425,2024-09-14,St Mirren,Kilmarnock,14,13,False
+SC0,2425,2024-09-14,Aberdeen,Motherwell,14,14,False
+SC0,2425,2024-09-14,Celtic,Hearts,13,13,False
+SC0,2425,2024-09-15,Dundee,Rangers,1,14,False
+SC0,2425,2024-09-21,Ross County,St Johnstone,7,7,False
+SC0,2425,2024-09-21,St Mirren,Hearts,7,7,False
+SC0,2425,2024-09-28,Kilmarnock,Dundee,14,13,False
+SC0,2425,2024-09-28,Motherwell,St Mirren,14,7,False
+SC0,2425,2024-09-28,St Johnstone,Celtic,7,14,False
+SC0,2425,2024-09-28,Hearts,Ross County,7,7,False
+SC0,2425,2024-09-28,Dundee,Aberdeen,13,14,False
+SC0,2425,2024-09-29,Rangers,Hibernian,14,15,False
+SC0,2425,2024-10-05,St Mirren,Dundee,7,7,False
+SC0,2425,2024-10-05,Hibernian,Motherwell,6,7,False
+SC0,2425,2024-10-05,Dundee,Kilmarnock,7,7,False
+SC0,2425,2024-10-06,Rangers,St Johnstone,7,8,False
+SC0,2425,2024-10-06,Ross County,Celtic,8,8,False
+SC0,2425,2024-10-06,Aberdeen,Hearts,8,8,False
+SC0,2425,2024-10-19,Hearts,St Mirren,13,14,False
+SC0,2425,2024-10-19,Motherwell,Dundee,14,14,False
+SC0,2425,2024-10-19,St Johnstone,Ross County,13,13,False
+SC0,2425,2024-10-19,Celtic,Aberdeen,13,13,False
+SC0,2425,2024-10-19,Dundee,Hibernian,14,14,False
+SC0,2425,2024-10-20,Kilmarnock,Rangers,15,14,False
+SC0,2425,2024-10-26,Aberdeen,Dundee,7,7,False
+SC0,2425,2024-10-26,Dundee,St Johnstone,7,7,False
+SC0,2425,2024-10-26,Ross County,Kilmarnock,7,6,False
+SC0,2425,2024-10-27,Motherwell,Celtic,8,8,False
+SC0,2425,2024-10-27,Hibernian,Hearts,8,8,False
+SC0,2425,2024-10-27,Rangers,St Mirren,7,8,False
+SC0,2425,2024-10-30,St Mirren,St Johnstone,3,4,True
+SC0,2425,2024-10-30,Celtic,Dundee,3,4,True
+SC0,2425,2024-10-30,Dundee,Motherwell,4,3,True
+SC0,2425,2024-10-30,Hearts,Kilmarnock,3,4,True
+SC0,2425,2024-10-30,Ross County,Hibernian,4,3,True
+SC0,2425,2024-10-30,Aberdeen,Rangers,4,3,True
+SC0,2425,2024-11-02,St Mirren,Ross County,3,3,False
+SC0,2425,2024-11-02,St Johnstone,Hearts,3,3,False
+SC0,2425,2024-11-03,Dundee,Kilmarnock,4,4,False
+SC0,2425,2024-11-03,Hibernian,Dundee,4,4,False
+SC0,2425,2024-11-09,Hibernian,St Mirren,6,7,False
+SC0,2425,2024-11-09,Motherwell,St Johnstone,10,7,False
+SC0,2425,2024-11-09,Aberdeen,Dundee,10,6,False
+SC0,2425,2024-11-09,Dundee,Ross County,6,7,False
+SC0,2425,2024-11-10,Rangers,Hearts,11,8,False
+SC0,2425,2024-11-10,Kilmarnock,Celtic,7,11,False
+SC0,2425,2024-11-23,Rangers,Dundee,13,14,False
+SC0,2425,2024-11-23,St Mirren,Aberdeen,14,14,False
+SC0,2425,2024-11-23,Dundee,Hibernian,14,14,False
+SC0,2425,2024-11-23,Hearts,Celtic,13,13,False
+SC0,2425,2024-11-23,St Johnstone,Kilmarnock,14,13,False
+SC0,2425,2024-11-23,Ross County,Motherwell,14,14,False
+SC0,2425,2024-11-26,Hibernian,Aberdeen,3,3,True
+SC0,2425,2024-11-30,Kilmarnock,Dundee,7,7,False
+SC0,2425,2024-11-30,Motherwell,Hibernian,7,4,False
+SC0,2425,2024-11-30,Dundee,St Mirren,7,7,False
+SC0,2425,2024-11-30,Celtic,Ross County,7,7,False
+SC0,2425,2024-12-01,St Johnstone,Rangers,8,8,False
+SC0,2425,2024-12-01,Hearts,Aberdeen,8,5,False
+SC0,2425,2024-12-04,Dundee,Motherwell,4,4,True
+SC0,2425,2024-12-04,Rangers,Kilmarnock,3,4,True
+SC0,2425,2024-12-04,Aberdeen,Celtic,3,4,True
+SC0,2425,2024-12-07,Hearts,Dundee,6,3,False
+SC0,2425,2024-12-07,Aberdeen,St Johnstone,3,6,False
+SC0,2425,2024-12-07,Celtic,Hibernian,3,7,False
+SC0,2425,2024-12-07,Dundee,Kilmarnock,3,3,False
+SC0,2425,2024-12-07,St Mirren,Motherwell,7,3,False
+SC0,2425,2024-12-08,Ross County,Rangers,8,4,False
+SC0,2425,2024-12-14,St Johnstone,St Mirren,7,7,False
+SC0,2425,2024-12-14,Motherwell,Dundee,7,7,False
+SC0,2425,2024-12-14,Hibernian,Ross County,7,6,False
+SC0,2425,2024-12-15,Kilmarnock,Hearts,8,8,False
+SC0,2425,2024-12-20,Motherwell,Kilmarnock,6,5,False
+SC0,2425,2024-12-21,Ross County,St Mirren,7,7,False
+SC0,2425,2024-12-21,Aberdeen,Hibernian,14,7,False
+SC0,2425,2024-12-21,Rangers,Dundee,13,7,False
+SC0,2425,2024-12-22,Dundee,Celtic,1,15,False
+SC0,2425,2024-12-22,Hearts,St Johnstone,7,8,False
+SC0,2425,2024-12-26,Dundee,Ross County,4,5,True
+SC0,2425,2024-12-26,Kilmarnock,Aberdeen,6,5,True
+SC0,2425,2024-12-26,St Johnstone,Dundee,4,4,True
+SC0,2425,2024-12-26,St Mirren,Rangers,5,5,True
+SC0,2425,2024-12-26,Hearts,Hibernian,4,5,True
+SC0,2425,2024-12-26,Celtic,Motherwell,4,6,True
+SC0,2425,2024-12-29,Motherwell,Rangers,3,3,False
+SC0,2425,2024-12-29,Ross County,Hearts,3,3,False
+SC0,2425,2024-12-29,St Mirren,Dundee,3,3,False
+SC0,2425,2024-12-29,Dundee,Aberdeen,3,3,False
+SC0,2425,2024-12-29,Hibernian,Kilmarnock,3,3,False
+SC0,2425,2024-12-29,Celtic,St Johnstone,3,3,False
+SC0,2425,2025-01-02,Aberdeen,Ross County,4,4,True
+SC0,2425,2025-01-02,Hearts,Motherwell,4,4,True
+SC0,2425,2025-01-02,Kilmarnock,St Mirren,4,4,True
+SC0,2425,2025-01-02,Rangers,Celtic,4,4,True
+SC0,2425,2025-01-02,St Johnstone,Hibernian,4,4,True
+SC0,2425,2025-01-02,Dundee,Dundee,4,4,True
+SC0,2425,2025-01-05,Hibernian,Rangers,3,3,False
+SC0,2425,2025-01-05,Motherwell,Aberdeen,3,3,False
+SC0,2425,2025-01-05,Kilmarnock,Ross County,3,3,False
+SC0,2425,2025-01-05,Dundee,Hearts,3,3,False
+SC0,2425,2025-01-05,St Johnstone,Dundee,3,3,False
+SC0,2425,2025-01-05,Celtic,St Mirren,3,3,False
+SC0,2425,2025-01-08,Celtic,Dundee,3,3,True
+SC0,2425,2025-01-08,Kilmarnock,Motherwell,3,3,True
+SC0,2425,2025-01-09,Dundee,Rangers,1,4,True
+SC0,2425,2025-01-11,St Mirren,Dundee,6,2,False
+SC0,2425,2025-01-11,Hibernian,Motherwell,6,3,False
+SC0,2425,2025-01-11,Ross County,Celtic,6,3,False
+SC0,2425,2025-01-12,Aberdeen,Hearts,7,7,False
+SC0,2425,2025-01-12,Rangers,St Johnstone,3,7,False
+SC0,2425,2025-01-14,Dundee,Celtic,3,3,True
+SC0,2425,2025-01-15,Rangers,Aberdeen,3,3,True
+SC0,2425,2025-01-25,Ross County,Hibernian,14,14,False
+SC0,2425,2025-01-25,St Johnstone,Motherwell,13,14,False
+SC0,2425,2025-01-25,Hearts,Kilmarnock,13,17,False
+SC0,2425,2025-01-25,Aberdeen,St Mirren,10,14,False
+SC0,2425,2025-01-26,Dundee,Rangers,12,11,False
+SC0,2425,2025-02-01,St Mirren,St Johnstone,7,7,False
+SC0,2425,2025-02-01,Kilmarnock,Dundee,7,6,False
+SC0,2425,2025-02-01,Hibernian,Aberdeen,7,7,False
+SC0,2425,2025-02-01,Dundee,Hearts,6,7,False
+SC0,2425,2025-02-02,Motherwell,Celtic,8,19,False
+SC0,2425,2025-02-02,Rangers,Ross County,7,8,False
+SC0,2425,2025-02-05,Celtic,Dundee,3,4,True
+SC0,2425,2025-02-15,Celtic,Dundee,10,10,False
+SC0,2425,2025-02-15,Dundee,Aberdeen,10,14,False
+SC0,2425,2025-02-15,Kilmarnock,St Johnstone,14,14,False
+SC0,2425,2025-02-15,Motherwell,Ross County,13,13,False
+SC0,2425,2025-02-16,Hearts,Rangers,15,14,False
+SC0,2425,2025-02-16,St Mirren,Hibernian,15,15,False
+SC0,2425,2025-02-22,Dundee,Motherwell,7,7,False
+SC0,2425,2025-02-22,Rangers,St Mirren,6,6,False
+SC0,2425,2025-02-22,Ross County,Dundee,7,7,False
+SC0,2425,2025-02-22,Hibernian,Celtic,6,7,False
+SC0,2425,2025-02-22,Aberdeen,Kilmarnock,7,7,False
+SC0,2425,2025-02-23,St Johnstone,Hearts,8,7,False
+SC0,2425,2025-02-25,Celtic,Aberdeen,3,3,True
+SC0,2425,2025-02-26,Motherwell,Dundee,4,4,True
+SC0,2425,2025-02-26,St Johnstone,Ross County,3,4,True
+SC0,2425,2025-02-26,Kilmarnock,Rangers,4,4,True
+SC0,2425,2025-02-26,Dundee,Hibernian,4,4,True
+SC0,2425,2025-02-26,Hearts,St Mirren,3,4,True
+SC0,2425,2025-03-01,Ross County,Kilmarnock,3,3,False
+SC0,2425,2025-03-01,St Mirren,Celtic,3,4,False
+SC0,2425,2025-03-01,Rangers,Motherwell,3,3,False
+SC0,2425,2025-03-01,Dundee,St Johnstone,3,3,False
+SC0,2425,2025-03-02,Hibernian,Hearts,4,4,False
+SC0,2425,2025-03-02,Aberdeen,Dundee,5,1,False
+SC0,2425,2025-03-15,St Johnstone,Aberdeen,14,13,False
+SC0,2425,2025-03-15,Hearts,Ross County,13,14,False
+SC0,2425,2025-03-15,Kilmarnock,Hibernian,14,13,False
+SC0,2425,2025-03-15,Motherwell,St Mirren,14,14,False
+SC0,2425,2025-03-16,Celtic,Rangers,15,15,False
+SC0,2425,2025-03-16,Dundee,Dundee,14,14,False
+SC0,2425,2025-03-29,Dundee,Rangers,13,13,False
+SC0,2425,2025-03-29,Hibernian,St Johnstone,14,14,False
+SC0,2425,2025-03-29,St Mirren,Kilmarnock,14,14,False
+SC0,2425,2025-03-29,Celtic,Hearts,13,14,False
+SC0,2425,2025-03-29,Aberdeen,Motherwell,14,14,False
+SC0,2425,2025-03-30,Ross County,Dundee,15,1,False
+SC0,2425,2025-04-05,Rangers,Hibernian,7,7,False
+SC0,2425,2025-04-05,Ross County,Aberdeen,6,7,False
+SC0,2425,2025-04-05,Kilmarnock,Motherwell,7,7,False
+SC0,2425,2025-04-05,Dundee,St Mirren,6,7,False
+SC0,2425,2025-04-06,Hearts,Dundee,8,1,False
+SC0,2425,2025-04-06,St Johnstone,Celtic,8,8,False
+SC0,2425,2025-04-12,Motherwell,Hearts,7,6,False
+SC0,2425,2025-04-12,St Mirren,Ross County,7,7,False
+SC0,2425,2025-04-12,Celtic,Kilmarnock,6,7,False
+SC0,2425,2025-04-12,Dundee,St Johnstone,6,6,False
+SC0,2425,2025-04-13,Hibernian,Dundee,8,1,False
+SC0,2425,2025-04-13,Aberdeen,Rangers,8,8,False
+SC0,2425,2025-04-26,Hearts,Dundee,14,13,False
+SC0,2425,2025-04-26,Kilmarnock,Ross County,14,14,False
+SC0,2425,2025-04-26,Dundee,Celtic,13,14,False
+SC0,2425,2025-04-26,St Mirren,Rangers,14,13,False
+SC0,2425,2025-04-26,Motherwell,St Johnstone,14,14,False
+SC0,2425,2025-04-26,Aberdeen,Hibernian,13,13,False
+SC0,2425,2025-05-03,Hibernian,Dundee,7,7,False
+SC0,2425,2025-05-03,Dundee,Motherwell,7,7,False
+SC0,2425,2025-05-03,Ross County,Hearts,7,7,False
+SC0,2425,2025-05-03,St Johnstone,Kilmarnock,7,7,False
+SC0,2425,2025-05-03,St Mirren,Aberdeen,7,7,False
+SC0,2425,2025-05-04,Rangers,Celtic,8,8,False
+SC0,2425,2025-05-10,Hearts,Motherwell,7,7,False
+SC0,2425,2025-05-10,Kilmarnock,Dundee,7,7,False
+SC0,2425,2025-05-10,St Johnstone,Ross County,7,7,False
+SC0,2425,2025-05-10,Dundee,St Mirren,7,7,False
+SC0,2425,2025-05-10,Celtic,Hibernian,6,7,False
+SC0,2425,2025-05-11,Rangers,Aberdeen,7,8,False
+SC0,2425,2025-05-14,Motherwell,Kilmarnock,4,4,True
+SC0,2425,2025-05-14,Rangers,Dundee,3,4,True
+SC0,2425,2025-05-14,St Mirren,Hibernian,4,4,True
+SC0,2425,2025-05-14,Aberdeen,Celtic,3,4,True
+SC0,2425,2025-05-14,Hearts,St Johnstone,4,4,True
+SC0,2425,2025-05-14,Dundee,Ross County,4,4,True
+SC0,2425,2025-05-17,Hibernian,Rangers,3,3,False
+SC0,2425,2025-05-17,Celtic,St Mirren,3,3,False
+SC0,2425,2025-05-17,Dundee,Aberdeen,3,3,False
+SC0,2425,2025-05-18,Kilmarnock,Hearts,4,4,False
+SC0,2425,2025-05-18,Ross County,Motherwell,4,4,False
+SC0,2425,2025-05-18,St Johnstone,Dundee,4,1,False

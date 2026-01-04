@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,2223,2022-07-30,Hamilton,Morton,92,92,False
+SC1,2223,2022-07-30,Ayr,Arbroath,92,92,False
+SC1,2223,2022-07-30,Dundee United,Partick,456,92,False
+SC1,2223,2022-07-30,Inverness C,Queens Park,92,7,False
+SC1,2223,2022-07-30,Cove Rangers,Raith Rvs,7,92,False
+SC1,2223,2022-08-05,Queens Park,Ayr,6,6,False
+SC1,2223,2022-08-06,Morton,Cove Rangers,7,7,False
+SC1,2223,2022-08-06,Partick,Hamilton,7,7,False
+SC1,2223,2022-08-06,Raith Rvs,Dundee United,7,7,False
+SC1,2223,2022-08-06,Arbroath,Inverness C,7,7,False
+SC1,2223,2022-08-12,Dundee United,Arbroath,6,6,False
+SC1,2223,2022-08-13,Inverness C,Cove Rangers,7,7,False
+SC1,2223,2022-08-13,Queens Park,Partick,8,7,False
+SC1,2223,2022-08-13,Raith Rvs,Morton,7,7,False
+SC1,2223,2022-08-13,Ayr,Hamilton,8,7,False
+SC1,2223,2022-08-19,Partick,Inverness C,6,6,False
+SC1,2223,2022-08-20,Arbroath,Queens Park,8,7,False
+SC1,2223,2022-08-20,Cove Rangers,Ayr,7,7,False
+SC1,2223,2022-08-20,Hamilton,Raith Rvs,7,7,False
+SC1,2223,2022-08-20,Morton,Dundee United,7,8,False
+SC1,2223,2022-08-26,Ayr,Dundee United,6,6,False
+SC1,2223,2022-08-27,Inverness C,Morton,8,7,False
+SC1,2223,2022-08-27,Hamilton,Arbroath,7,7,False
+SC1,2223,2022-08-27,Partick,Raith Rvs,8,7,False
+SC1,2223,2022-08-27,Queens Park,Cove Rangers,7,7,False
+SC1,2223,2022-09-03,Cove Rangers,Hamilton,7,7,False
+SC1,2223,2022-09-03,Dundee United,Queens Park,8,7,False
+SC1,2223,2022-09-03,Morton,Ayr,7,8,False
+SC1,2223,2022-09-03,Raith Rvs,Inverness C,7,7,False
+SC1,2223,2022-09-03,Arbroath,Partick,7,7,False
+SC1,2223,2022-09-17,Hamilton,Queens Park,14,14,False
+SC1,2223,2022-09-17,Morton,Arbroath,14,14,False
+SC1,2223,2022-09-17,Partick,Cove Rangers,14,14,False
+SC1,2223,2022-09-17,Raith Rvs,Ayr,14,14,False
+SC1,2223,2022-09-17,Dundee United,Inverness C,14,14,False
+SC1,2223,2022-10-01,Cove Rangers,Arbroath,14,14,False
+SC1,2223,2022-10-01,Hamilton,Dundee United,14,14,False
+SC1,2223,2022-10-01,Partick,Morton,14,14,False
+SC1,2223,2022-10-01,Queens Park,Raith Rvs,14,14,False
+SC1,2223,2022-10-01,Ayr,Inverness C,14,14,False
+SC1,2223,2022-10-04,Queens Park,Morton,3,3,True
+SC1,2223,2022-10-04,Cove Rangers,Dundee United,3,3,True
+SC1,2223,2022-10-07,Inverness C,Partick,6,6,False
+SC1,2223,2022-10-08,Ayr,Queens Park,7,4,False
+SC1,2223,2022-10-08,Arbroath,Dundee United,7,4,False
+SC1,2223,2022-10-08,Morton,Hamilton,4,7,False
+SC1,2223,2022-10-08,Raith Rvs,Cove Rangers,7,4,False
+SC1,2223,2022-10-14,Queens Park,Arbroath,6,6,False
+SC1,2223,2022-10-15,Dundee United,Ayr,7,7,False
+SC1,2223,2022-10-15,Hamilton,Partick,7,8,False
+SC1,2223,2022-10-15,Morton,Raith Rvs,7,7,False
+SC1,2223,2022-10-15,Cove Rangers,Inverness C,7,8,False
+SC1,2223,2022-10-18,Inverness C,Hamilton,3,3,True
+SC1,2223,2022-10-19,Arbroath,Raith Rvs,5,4,True
+SC1,2223,2022-10-22,Ayr,Cove Rangers,7,7,False
+SC1,2223,2022-10-22,Dundee United,Morton,7,7,False
+SC1,2223,2022-10-22,Inverness C,Raith Rvs,4,3,False
+SC1,2223,2022-10-22,Partick,Queens Park,7,8,False
+SC1,2223,2022-10-22,Arbroath,Hamilton,3,4,False
+SC1,2223,2022-10-25,Ayr,Partick,3,3,True
+SC1,2223,2022-10-28,Queens Park,Dundee United,6,6,False
+SC1,2223,2022-10-28,Morton,Inverness C,6,6,False
+SC1,2223,2022-10-29,Hamilton,Cove Rangers,7,7,False
+SC1,2223,2022-10-29,Raith Rvs,Partick,7,4,False
+SC1,2223,2022-10-29,Arbroath,Ayr,7,4,False
+SC1,2223,2022-11-04,Cove Rangers,Queens Park,6,7,False
+SC1,2223,2022-11-05,Inverness C,Arbroath,8,7,False
+SC1,2223,2022-11-05,Partick,Dundee United,7,8,False
+SC1,2223,2022-11-05,Raith Rvs,Hamilton,7,7,False
+SC1,2223,2022-11-05,Ayr,Morton,7,8,False
+SC1,2223,2022-11-11,Hamilton,Ayr,6,6,False
+SC1,2223,2022-11-12,Dundee United,Raith Rvs,7,7,False
+SC1,2223,2022-11-12,Morton,Partick,7,7,False
+SC1,2223,2022-11-12,Queens Park,Inverness C,8,7,False
+SC1,2223,2022-11-12,Arbroath,Cove Rangers,7,8,False
+SC1,2223,2022-11-19,Dundee United,Hamilton,7,8,False
+SC1,2223,2022-11-19,Inverness C,Ayr,7,8,False
+SC1,2223,2022-11-19,Partick,Arbroath,7,7,False
+SC1,2223,2022-11-19,Raith Rvs,Queens Park,7,7,False
+SC1,2223,2022-11-19,Cove Rangers,Morton,7,7,False
+SC1,2223,2022-12-03,Queens Park,Hamilton,14,14,False
+SC1,2223,2022-12-03,Cove Rangers,Partick,14,14,False
+SC1,2223,2022-12-03,Inverness C,Dundee United,14,14,False
+SC1,2223,2022-12-03,Ayr,Raith Rvs,14,14,False
+SC1,2223,2022-12-03,Arbroath,Morton,14,14,False
+SC1,2223,2022-12-17,Raith Rvs,Arbroath,14,14,False
+SC1,2223,2022-12-17,Partick,Ayr,14,14,False
+SC1,2223,2022-12-23,Raith Rvs,Morton,6,20,False
+SC1,2223,2022-12-23,Arbroath,Queens Park,6,20,False
+SC1,2223,2022-12-23,Ayr,Dundee United,6,20,False
+SC1,2223,2022-12-23,Cove Rangers,Hamilton,20,20,False
+SC1,2223,2022-12-23,Partick,Inverness C,6,20,False
+SC1,2223,2023-01-02,Hamilton,Raith Rvs,10,10,False
+SC1,2223,2023-01-02,Inverness C,Cove Rangers,10,10,False
+SC1,2223,2023-01-02,Queens Park,Partick,10,10,False
+SC1,2223,2023-01-02,Dundee United,Arbroath,10,10,False
+SC1,2223,2023-01-06,Raith Rvs,Dundee United,4,4,False
+SC1,2223,2023-01-07,Ayr,Hamilton,15,5,False
+SC1,2223,2023-01-07,Cove Rangers,Queens Park,5,5,False
+SC1,2223,2023-01-07,Partick,Morton,5,15,False
+SC1,2223,2023-01-07,Arbroath,Inverness C,5,5,False
+SC1,2223,2023-01-14,Cove Rangers,Raith Rvs,7,8,False
+SC1,2223,2023-01-14,Hamilton,Morton,7,7,False
+SC1,2223,2023-01-14,Inverness C,Queens Park,7,7,False
+SC1,2223,2023-01-14,Ayr,Arbroath,7,7,False
+SC1,2223,2023-01-27,Cove Rangers,Ayr,13,13,False
+SC1,2223,2023-01-28,Morton,Arbroath,14,14,False
+SC1,2223,2023-01-28,Partick,Hamilton,21,14,False
+SC1,2223,2023-01-28,Raith Rvs,Inverness C,14,14,False
+SC1,2223,2023-01-28,Dundee United,Queens Park,22,14,False
+SC1,2223,2023-02-03,Queens Park,Ayr,6,7,False
+SC1,2223,2023-02-04,Arbroath,Raith Rvs,7,7,False
+SC1,2223,2023-02-04,Hamilton,Dundee United,7,7,False
+SC1,2223,2023-02-04,Inverness C,Morton,7,7,False
+SC1,2223,2023-02-04,Partick,Cove Rangers,7,8,False
+SC1,2223,2023-02-11,Morton,Queens Park,7,8,False
+SC1,2223,2023-02-12,Dundee United,Cove Rangers,8,8,False
+SC1,2223,2023-02-17,Queens Park,Raith Rvs,6,13,False
+SC1,2223,2023-02-17,Morton,Dundee United,6,5,False
+SC1,2223,2023-02-18,Cove Rangers,Arbroath,6,14,False
+SC1,2223,2023-02-18,Inverness C,Hamilton,14,14,False
+SC1,2223,2023-02-18,Ayr,Partick,15,14,False
+SC1,2223,2023-02-21,Hamilton,Inverness C,3,3,True
+SC1,2223,2023-02-24,Raith Rvs,Ayr,7,6,False
+SC1,2223,2023-02-25,Dundee United,Inverness C,8,4,False
+SC1,2223,2023-02-25,Hamilton,Queens Park,4,8,False
+SC1,2223,2023-02-25,Morton,Cove Rangers,8,7,False
+SC1,2223,2023-02-25,Arbroath,Partick,7,7,False
+SC1,2223,2023-02-28,Dundee United,Partick,3,3,True
+SC1,2223,2023-03-03,Hamilton,Arbroath,6,6,False
+SC1,2223,2023-03-04,Ayr,Inverness C,8,7,False
+SC1,2223,2023-03-04,Partick,Raith Rvs,4,8,False
+SC1,2223,2023-03-04,Queens Park,Morton,7,7,False
+SC1,2223,2023-03-04,Cove Rangers,Dundee United,7,4,False
+SC1,2223,2023-03-07,Morton,Ayr,3,3,True
+SC1,2223,2023-03-10,Queens Park,Cove Rangers,6,6,False
+SC1,2223,2023-03-11,Morton,Partick,4,7,False
+SC1,2223,2023-03-17,Arbroath,Morton,14,6,False
+SC1,2223,2023-03-18,Hamilton,Ayr,15,11,False
+SC1,2223,2023-03-18,Queens Park,Inverness C,8,14,False
+SC1,2223,2023-03-18,Raith Rvs,Cove Rangers,14,8,False
+SC1,2223,2023-03-18,Partick,Dundee United,7,14,False
+SC1,2223,2023-03-21,Dundee United,Ayr,3,3,True
+SC1,2223,2023-03-24,Inverness C,Partick,6,6,False
+SC1,2223,2023-03-24,Queens Park,Arbroath,6,7,False
+SC1,2223,2023-03-24,Ayr,Cove Rangers,3,6,False
+SC1,2223,2023-03-31,Arbroath,Ayr,7,7,False
+SC1,2223,2023-04-01,Dundee United,Hamilton,11,14,False
+SC1,2223,2023-04-01,Morton,Inverness C,15,8,False
+SC1,2223,2023-04-01,Raith Rvs,Queens Park,14,8,False
+SC1,2223,2023-04-01,Cove Rangers,Partick,8,8,False
+SC1,2223,2023-04-04,Raith Rvs,Hamilton,3,3,True
+SC1,2223,2023-04-07,Partick,Queens Park,6,6,False
+SC1,2223,2023-04-08,Hamilton,Cove Rangers,4,7,False
+SC1,2223,2023-04-08,Inverness C,Raith Rvs,7,4,False
+SC1,2223,2023-04-08,Arbroath,Dundee United,8,7,False
+SC1,2223,2023-04-08,Ayr,Morton,8,7,False
+SC1,2223,2023-04-11,Dundee United,Raith Rvs,3,3,True
+SC1,2223,2023-04-11,Inverness C,Arbroath,3,3,True
+SC1,2223,2023-04-11,Morton,Hamilton,3,3,True
+SC1,2223,2023-04-14,Queens Park,Hamilton,7,3,False
+SC1,2223,2023-04-15,Dundee United,Morton,4,4,False
+SC1,2223,2023-04-15,Partick,Ayr,8,7,False
+SC1,2223,2023-04-15,Raith Rvs,Arbroath,4,4,False
+SC1,2223,2023-04-15,Cove Rangers,Inverness C,7,4,False
+SC1,2223,2023-04-18,Hamilton,Inverness C,4,3,True
+SC1,2223,2023-04-21,Ayr,Queens Park,6,7,False
+SC1,2223,2023-04-22,Hamilton,Partick,4,7,False
+SC1,2223,2023-04-22,Inverness C,Dundee United,4,7,False
+SC1,2223,2023-04-22,Morton,Raith Rvs,7,7,False
+SC1,2223,2023-04-22,Arbroath,Cove Rangers,7,7,False
+SC1,2223,2023-04-28,Dundee United,Cove Rangers,6,6,False
+SC1,2223,2023-04-29,Morton,Queens Park,7,8,False
+SC1,2223,2023-04-29,Partick,Arbroath,7,7,False
+SC1,2223,2023-04-29,Ayr,Raith Rvs,8,7,False
+SC1,2223,2023-05-05,Cove Rangers,Morton,7,6,False
+SC1,2223,2023-05-05,Inverness C,Ayr,13,6,False
+SC1,2223,2023-05-05,Queens Park,Dundee United,6,7,False
+SC1,2223,2023-05-05,Raith Rvs,Partick,6,6,False
+SC1,2223,2023-05-05,Arbroath,Hamilton,6,13,False

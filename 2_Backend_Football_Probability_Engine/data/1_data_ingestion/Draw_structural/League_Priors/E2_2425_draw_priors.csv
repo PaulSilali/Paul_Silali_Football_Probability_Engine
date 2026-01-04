@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2024-08-09,Barnsley,Mansfield,1,2,A,0
+2024-08-10,Exeter,Rotherham,1,0,H,0
+2024-08-10,Luton,Lincoln,2,3,A,0
+2024-08-10,Birmingham,Reading,1,1,D,1
+2024-08-10,Leyton Orient,Luton,1,2,A,0
+2024-08-10,Wrexham,Wycombe,3,2,H,0
+2024-08-10,Wigan,Charlton,0,1,A,0
+2024-08-10,Stockport,Cambridge,2,0,H,0
+2024-08-10,Crawley Town,Blackpool,2,1,H,0
+2024-08-10,Stevenage,Shrewsbury,1,0,H,0
+2024-08-10,Bristol Rvs,Northampton,1,0,H,0
+2024-08-10,Peterboro,Huddersfield,0,2,A,0
+2024-08-17,Northampton,Exeter,2,1,H,0
+2024-08-17,Reading,Wigan,2,0,H,0
+2024-08-17,Rotherham,Bristol Rvs,0,0,D,1
+2024-08-17,Wycombe,Birmingham,2,3,A,0
+2024-08-17,Mansfield,Luton,3,3,D,1
+2024-08-17,Cambridge,Crawley Town,0,1,A,0
+2024-08-17,Lincoln,Barnsley,1,2,A,0
+2024-08-17,Huddersfield,Stevenage,2,1,H,0
+2024-08-17,Charlton,Leyton Orient,1,0,H,0
+2024-08-17,Blackpool,Stockport,0,3,A,0
+2024-08-17,Shrewsbury,Peterboro,1,4,A,0
+2024-08-18,Luton,Wrexham,0,0,D,1
+2024-08-24,Leyton Orient,Birmingham,1,2,A,0
+2024-08-24,Lincoln,Mansfield,4,1,H,0
+2024-08-24,Wigan,Crawley Town,1,0,H,0
+2024-08-24,Wrexham,Reading,3,0,H,0
+2024-08-24,Wycombe,Rotherham,2,0,H,0
+2024-08-24,Luton,Stevenage,0,0,D,1
+2024-08-24,Stockport,Bristol Rvs,2,0,H,0
+2024-08-24,Barnsley,Northampton,2,2,D,1
+2024-08-24,Cambridge,Blackpool,4,4,D,1
+2024-08-24,Charlton,Luton,2,0,H,0
+2024-08-24,Huddersfield,Shrewsbury,1,0,H,0
+2024-08-24,Exeter,Peterboro,1,2,A,0
+2024-08-31,Peterboro,Wrexham,0,2,A,0
+2024-08-31,Blackpool,Wycombe,2,2,D,1
+2024-08-31,Rotherham,Huddersfield,2,1,H,0
+2024-08-31,Birmingham,Wigan,2,1,H,0
+2024-08-31,Luton,Exeter,0,2,A,0
+2024-08-31,Bristol Rvs,Cambridge,2,0,H,0
+2024-08-31,Crawley Town,Barnsley,0,3,A,0
+2024-08-31,Mansfield,Stockport,1,1,D,1
+2024-08-31,Northampton,Luton,0,0,D,1
+2024-08-31,Reading,Charlton,2,0,H,0
+2024-08-31,Shrewsbury,Leyton Orient,3,0,H,0
+2024-08-31,Stevenage,Lincoln,0,1,A,0
+2024-09-07,Barnsley,Bristol Rvs,2,1,H,0
+2024-09-07,Charlton,Rotherham,1,1,D,1
+2024-09-07,Wrexham,Shrewsbury,3,0,H,0
+2024-09-14,Reading,Leyton Orient,0,1,A,0
+2024-09-14,Rotherham,Luton,2,2,D,1
+2024-09-14,Shrewsbury,Charlton,0,1,A,0
+2024-09-14,Stevenage,Barnsley,3,0,H,0
+2024-09-14,Bristol Rvs,Wigan,0,4,A,0
+2024-09-14,Crawley Town,Stockport,1,1,D,1
+2024-09-14,Peterboro,Lincoln,1,1,D,1
+2024-09-14,Luton,Huddersfield,0,4,A,0
+2024-09-14,Blackpool,Exeter,2,1,H,0
+2024-09-14,Northampton,Wycombe,1,2,A,0
+2024-09-14,Mansfield,Cambridge,2,1,H,0
+2024-09-16,Birmingham,Wrexham,3,1,H,0
+2024-09-21,Peterboro,Bristol Rvs,3,2,H,0
+2024-09-21,Rotherham,Birmingham,0,2,A,0
+2024-09-21,Stockport,Leyton Orient,1,4,A,0
+2024-09-21,Wrexham,Crawley Town,2,1,H,0
+2024-09-21,Wycombe,Cambridge,2,1,H,0
+2024-09-21,Lincoln,Wigan,0,0,D,1
+2024-09-21,Exeter,Stevenage,2,0,H,0
+2024-09-21,Luton,Reading,5,2,H,0
+2024-09-21,Luton,Barnsley,1,2,A,0
+2024-09-21,Charlton,Blackpool,1,2,A,0
+2024-09-21,Mansfield,Shrewsbury,2,1,H,0
+2024-09-21,Huddersfield,Northampton,1,3,A,0
+2024-09-24,Wigan,Stevenage,0,0,D,1
+2024-09-24,Huddersfield,Blackpool,0,2,A,0
+2024-09-24,Leyton Orient,Peterboro,2,2,D,1
+2024-09-28,Leyton Orient,Wrexham,0,0,D,1
+2024-09-28,Shrewsbury,Rotherham,1,1,D,1
+2024-09-28,Stevenage,Charlton,1,0,H,0
+2024-09-28,Wigan,Exeter,0,0,D,1
+2024-09-28,Barnsley,Stockport,1,1,D,1
+2024-09-28,Northampton,Mansfield,0,2,A,0
+2024-09-28,Crawley Town,Luton,0,2,A,0
+2024-09-28,Reading,Huddersfield,2,1,H,0
+2024-09-28,Birmingham,Peterboro,3,2,H,0
+2024-09-28,Blackpool,Luton,3,0,H,0
+2024-09-28,Bristol Rvs,Wycombe,1,2,A,0
+2024-09-28,Cambridge,Lincoln,0,2,A,0
+2024-10-01,Northampton,Luton,2,4,A,0
+2024-10-01,Shrewsbury,Stockport,0,2,A,0
+2024-10-01,Stevenage,Wrexham,1,0,H,0
+2024-10-01,Wigan,Peterboro,3,0,H,0
+2024-10-01,Reading,Luton,3,1,H,0
+2024-10-01,Barnsley,Wycombe,2,2,D,1
+2024-10-01,Birmingham,Huddersfield,1,0,H,0
+2024-10-01,Blackpool,Lincoln,1,1,D,1
+2024-10-01,Bristol Rvs,Charlton,3,2,H,0
+2024-10-01,Cambridge,Rotherham,0,1,A,0
+2024-10-01,Crawley Town,Mansfield,0,2,A,0
+2024-10-01,Leyton Orient,Exeter,0,1,A,0
+2024-10-05,Lincoln,Leyton Orient,2,1,H,0
+2024-10-05,Rotherham,Reading,2,1,H,0
+2024-10-05,Stockport,Wigan,0,0,D,1
+2024-10-05,Wrexham,Northampton,4,1,H,0
+2024-10-05,Wycombe,Crawley Town,1,0,H,0
+2024-10-05,Exeter,Cambridge,1,0,H,0
+2024-10-05,Mansfield,Blackpool,2,0,H,0
+2024-10-05,Huddersfield,Barnsley,2,0,H,0
+2024-10-05,Peterboro,Stevenage,2,1,H,0
+2024-10-05,Luton,Shrewsbury,2,2,D,1
+2024-10-05,Luton,Bristol Rvs,1,3,A,0
+2024-10-05,Charlton,Birmingham,1,0,H,0
+2024-10-12,Crawley Town,Shrewsbury,3,5,A,0
+2024-10-12,Peterboro,Rotherham,3,3,D,1
+2024-10-17,Shrewsbury,Exeter,0,2,A,0
+2024-10-19,Lincoln,Birmingham,1,3,A,0
+2024-10-19,Mansfield,Stevenage,0,1,A,0
+2024-10-19,Northampton,Leyton Orient,1,0,H,0
+2024-10-19,Rotherham,Wrexham,0,1,A,0
+2024-10-19,Huddersfield,Bristol Rvs,3,1,H,0
+2024-10-19,Charlton,Stockport,1,1,D,1
+2024-10-19,Cambridge,Wigan,2,0,H,0
+2024-10-19,Luton,Luton,2,1,H,0
+2024-10-19,Blackpool,Barnsley,1,2,A,0
+2024-10-19,Wycombe,Peterboro,3,1,H,0
+2024-10-19,Reading,Crawley Town,4,1,H,0
+2024-10-22,Peterboro,Blackpool,5,1,H,0
+2024-10-22,Stevenage,Cambridge,0,2,A,0
+2024-10-22,Stockport,Northampton,1,1,D,1
+2024-10-22,Wigan,Mansfield,1,2,A,0
+2024-10-22,Wrexham,Huddersfield,0,0,D,1
+2024-10-22,Barnsley,Charlton,2,2,D,1
+2024-10-22,Birmingham,Luton,2,0,H,0
+2024-10-22,Bristol Rvs,Shrewsbury,1,0,H,0
+2024-10-22,Luton,Wycombe,2,3,A,0
+2024-10-22,Crawley Town,Lincoln,3,0,H,0
+2024-10-22,Exeter,Reading,1,2,A,0
+2024-10-22,Leyton Orient,Rotherham,1,0,H,0
+2024-10-26,Charlton,Wrexham,2,2,D,1
+2024-10-26,Mansfield,Birmingham,1,1,D,1
+2024-10-26,Reading,Bristol Rvs,1,0,H,0
+2024-10-26,Luton,Peterboro,1,0,H,0
+2024-10-26,Cambridge,Luton,1,0,H,0
+2024-10-26,Huddersfield,Exeter,2,0,H,0
+2024-10-26,Lincoln,Stockport,2,1,H,0
+2024-10-26,Northampton,Crawley Town,3,0,H,0
+2024-10-26,Rotherham,Stevenage,2,0,H,0
+2024-10-26,Shrewsbury,Barnsley,0,2,A,0
+2024-10-26,Wycombe,Leyton Orient,3,0,H,0
+2024-10-28,Blackpool,Wigan,2,2,D,1
+2024-10-29,Stockport,Reading,4,1,H,0
+2024-10-29,Stevenage,Luton,1,4,A,0
+2024-10-29,Lincoln,Northampton,2,1,H,0
+2024-11-05,Luton,Crawley Town,0,0,D,1
+2024-11-05,Stockport,Wycombe,0,5,A,0
+2024-11-08,Barnsley,Rotherham,2,0,H,0
+2024-11-09,Birmingham,Northampton,1,1,D,1
+2024-11-09,Wrexham,Mansfield,1,0,H,0
+2024-11-09,Crawley Town,Huddersfield,2,2,D,1
+2024-11-09,Luton,Shrewsbury,2,0,H,0
+2024-11-09,Bristol Rvs,Lincoln,1,1,D,1
+2024-11-09,Stevenage,Reading,1,1,D,1
+2024-11-09,Stockport,Luton,5,0,H,0
+2024-11-09,Wigan,Wycombe,0,1,A,0
+2024-11-09,Peterboro,Cambridge,6,1,H,0
+2024-11-09,Leyton Orient,Blackpool,3,0,H,0
+2024-11-09,Exeter,Charlton,1,0,H,0
+2024-11-16,Bristol Rvs,Crawley Town,0,0,D,1
+2024-11-16,Cambridge,Barnsley,1,1,D,1
+2024-11-16,Stockport,Wrexham,1,0,H,0
+2024-11-16,Exeter,Lincoln,0,0,D,1
+2024-11-16,Blackpool,Northampton,0,0,D,1
+2024-11-23,Lincoln,Wycombe,2,3,A,0
+2024-11-23,Mansfield,Bristol Rvs,0,1,A,0
+2024-11-23,Northampton,Cambridge,0,0,D,1
+2024-11-23,Peterboro,Reading,1,2,A,0
+2024-11-23,Wrexham,Exeter,3,0,H,0
+2024-11-23,Luton,Blackpool,2,1,H,0
+2024-11-23,Stevenage,Leyton Orient,0,0,D,1
+2024-11-23,Shrewsbury,Birmingham,3,2,H,0
+2024-11-23,Barnsley,Wigan,0,1,A,0
+2024-11-23,Luton,Stockport,0,3,A,0
+2024-11-23,Crawley Town,Rotherham,1,0,H,0
+2024-11-23,Huddersfield,Charlton,2,1,H,0
+2024-11-26,Exeter,Birmingham,0,2,A,0
+2024-11-26,Barnsley,Reading,2,2,D,1
+2024-11-26,Bristol Rvs,Blackpool,0,2,A,0
+2024-11-26,Luton,Charlton,0,1,A,0
+2024-11-26,Cambridge,Luton,1,1,D,1
+2024-11-26,Leyton Orient,Huddersfield,0,2,A,0
+2024-11-26,Wigan,Northampton,2,1,H,0
+2024-11-26,Wrexham,Lincoln,1,0,H,0
+2024-11-26,Wycombe,Mansfield,1,0,H,0
+2024-12-03,Huddersfield,Wigan,1,0,H,0
+2024-12-03,Reading,Cambridge,3,0,H,0
+2024-12-03,Wrexham,Barnsley,1,0,H,0
+2024-12-03,Stevenage,Northampton,2,0,H,0
+2024-12-03,Rotherham,Lincoln,2,1,H,0
+2024-12-03,Leyton Orient,Bristol Rvs,3,0,H,0
+2024-12-03,Exeter,Wycombe,2,2,D,1
+2024-12-03,Charlton,Crawley Town,1,2,A,0
+2024-12-03,Luton,Mansfield,3,1,H,0
+2024-12-04,Shrewsbury,Blackpool,1,2,A,0
+2024-12-04,Birmingham,Stockport,2,0,H,0
+2024-12-04,Peterboro,Luton,0,1,A,0
+2024-12-07,Wycombe,Reading,1,1,D,1
+2024-12-07,Luton,Wrexham,0,1,A,0
+2024-12-07,Mansfield,Huddersfield,1,2,A,0
+2024-12-07,Stockport,Exeter,2,0,H,0
+2024-12-07,Cambridge,Shrewsbury,4,1,H,0
+2024-12-07,Lincoln,Charlton,0,0,D,1
+2024-12-07,Wigan,Leyton Orient,0,2,A,0
+2024-12-07,Barnsley,Birmingham,1,2,A,0
+2024-12-09,Northampton,Peterboro,2,1,H,0
+2024-12-14,Charlton,Mansfield,0,0,D,1
+2024-12-14,Luton,Wigan,0,2,A,0
+2024-12-14,Leyton Orient,Luton,0,0,D,1
+2024-12-14,Birmingham,Bristol Rvs,2,0,H,0
+2024-12-14,Exeter,Barnsley,1,2,A,0
+2024-12-14,Huddersfield,Lincoln,2,2,D,1
+2024-12-14,Peterboro,Crawley Town,4,3,H,0
+2024-12-14,Reading,Blackpool,0,3,A,0
+2024-12-14,Rotherham,Northampton,3,0,H,0
+2024-12-14,Shrewsbury,Wycombe,1,4,A,0
+2024-12-14,Stevenage,Stockport,2,1,H,0
+2024-12-14,Wrexham,Cambridge,2,2,D,1
+2024-12-20,Wycombe,Luton,0,0,D,1
+2024-12-20,Cambridge,Huddersfield,0,4,A,0
+2024-12-20,Stockport,Peterboro,2,1,H,0
+2024-12-21,Northampton,Charlton,0,5,A,0
+2024-12-21,Blackpool,Stevenage,0,0,D,1
+2024-12-21,Mansfield,Rotherham,1,0,H,0
+2024-12-21,Luton,Exeter,1,2,A,0
+2024-12-21,Wigan,Shrewsbury,2,2,D,1
+2024-12-21,Bristol Rvs,Wrexham,1,1,D,1
+2024-12-21,Lincoln,Reading,2,0,H,0
+2024-12-21,Barnsley,Leyton Orient,0,4,A,0
+2024-12-23,Crawley Town,Birmingham,0,1,A,0
+2024-12-26,Huddersfield,Stockport,1,0,H,0
+2024-12-26,Leyton Orient,Crawley Town,3,0,H,0
+2024-12-26,Birmingham,Luton,2,0,H,0
+2024-12-26,Luton,Barnsley,1,2,A,0
+2024-12-26,Charlton,Cambridge,2,1,H,0
+2024-12-26,Exeter,Bristol Rvs,3,1,H,0
+2024-12-26,Peterboro,Mansfield,0,3,A,0
+2024-12-26,Reading,Northampton,4,1,H,0
+2024-12-26,Rotherham,Wigan,0,1,A,0
+2024-12-26,Shrewsbury,Lincoln,1,0,H,0
+2024-12-26,Stevenage,Wycombe,0,3,A,0
+2024-12-26,Wrexham,Blackpool,2,1,H,0
+2024-12-29,Peterboro,Barnsley,1,3,A,0
+2024-12-29,Reading,Mansfield,2,1,H,0
+2024-12-29,Shrewsbury,Northampton,1,1,D,1
+2024-12-29,Stevenage,Bristol Rvs,3,0,H,0
+2024-12-29,Wrexham,Wigan,2,1,H,0
+2024-12-29,Leyton Orient,Cambridge,2,0,H,0
+2024-12-29,Huddersfield,Luton,1,1,D,1
+2024-12-29,Exeter,Crawley Town,4,4,D,1
+2024-12-29,Luton,Lincoln,3,0,H,0
+2024-12-29,Birmingham,Blackpool,0,0,D,1
+2024-12-29,Rotherham,Stockport,1,1,D,1
+2024-12-29,Charlton,Wycombe,2,1,H,0
+2025-01-01,Northampton,Stevenage,0,0,D,1
+2025-01-01,Stockport,Birmingham,1,1,D,1
+2025-01-01,Wycombe,Exeter,2,1,H,0
+2025-01-01,Barnsley,Wrexham,2,1,H,0
+2025-01-01,Blackpool,Shrewsbury,1,1,D,1
+2025-01-01,Bristol Rvs,Leyton Orient,2,3,A,0
+2025-01-01,Luton,Peterboro,2,2,D,1
+2025-01-01,Cambridge,Reading,1,3,A,0
+2025-01-01,Lincoln,Rotherham,0,1,A,0
+2025-01-01,Mansfield,Luton,2,1,H,0
+2025-01-04,Wigan,Birmingham,0,3,A,0
+2025-01-04,Luton,Northampton,0,1,A,0
+2025-01-04,Cambridge,Bristol Rvs,0,1,A,0
+2025-01-04,Barnsley,Crawley Town,3,0,H,0
+2025-01-04,Charlton,Reading,0,0,D,1
+2025-01-04,Exeter,Luton,1,2,A,0
+2025-01-04,Huddersfield,Rotherham,0,0,D,1
+2025-01-04,Leyton Orient,Shrewsbury,1,0,H,0
+2025-01-04,Lincoln,Stevenage,0,0,D,1
+2025-01-04,Stockport,Mansfield,1,2,A,0
+2025-01-04,Wrexham,Peterboro,1,0,H,0
+2025-01-04,Wycombe,Blackpool,1,1,D,1
+2025-01-07,Wycombe,Huddersfield,0,1,A,0
+2025-01-11,Rotherham,Luton,3,1,H,0
+2025-01-16,Shrewsbury,Wrexham,2,1,H,0
+2025-01-18,Crawley Town,Luton,1,1,D,1
+2025-01-18,Stevenage,Wigan,1,2,A,0
+2025-01-18,Birmingham,Exeter,1,0,H,0
+2025-01-18,Northampton,Lincoln,0,1,A,0
+2025-01-18,Peterboro,Leyton Orient,0,0,D,1
+2025-01-18,Blackpool,Huddersfield,2,2,D,1
+2025-01-18,Bristol Rvs,Barnsley,3,1,H,0
+2025-01-18,Reading,Stockport,1,3,A,0
+2025-01-18,Rotherham,Charlton,4,2,H,0
+2025-01-18,Luton,Cambridge,2,2,D,1
+2025-01-18,Mansfield,Wycombe,1,2,A,0
+2025-01-21,Wigan,Luton,1,2,A,0
+2025-01-21,Luton,Charlton,1,2,A,0
+2025-01-21,Peterboro,Exeter,1,1,D,1
+2025-01-23,Wrexham,Birmingham,1,1,D,1
+2025-01-25,Lincoln,Peterboro,5,1,H,0
+2025-01-25,Stockport,Crawley Town,2,0,H,0
+2025-01-25,Wigan,Bristol Rvs,2,0,H,0
+2025-01-25,Wycombe,Northampton,0,0,D,1
+2025-01-25,Leyton Orient,Reading,2,0,H,0
+2025-01-25,Huddersfield,Luton,0,1,A,0
+2025-01-25,Charlton,Shrewsbury,1,0,H,0
+2025-01-25,Cambridge,Mansfield,3,2,H,0
+2025-01-25,Luton,Rotherham,4,2,H,0
+2025-01-25,Barnsley,Stevenage,0,1,A,0
+2025-01-25,Exeter,Blackpool,1,3,A,0
+2025-01-28,Rotherham,Cambridge,2,1,H,0
+2025-01-28,Stockport,Shrewsbury,1,0,H,0
+2025-01-28,Wrexham,Stevenage,2,3,A,0
+2025-01-28,Wycombe,Barnsley,2,1,H,0
+2025-01-28,Huddersfield,Birmingham,0,1,A,0
+2025-01-28,Luton,Northampton,3,1,H,0
+2025-01-28,Luton,Reading,3,2,H,0
+2025-01-28,Charlton,Bristol Rvs,2,0,H,0
+2025-01-28,Exeter,Leyton Orient,2,6,A,0
+2025-01-28,Lincoln,Blackpool,0,2,A,0
+2025-01-28,Mansfield,Crawley Town,0,1,A,0
+2025-01-28,Peterboro,Wigan,1,0,H,0
+2025-02-01,Reading,Luton,1,0,H,0
+2025-02-01,Barnsley,Luton,0,0,D,1
+2025-02-01,Stevenage,Exeter,4,1,H,0
+2025-02-01,Birmingham,Rotherham,2,1,H,0
+2025-02-01,Blackpool,Charlton,2,2,D,1
+2025-02-01,Cambridge,Wycombe,1,1,D,1
+2025-02-01,Crawley Town,Wrexham,1,2,A,0
+2025-02-01,Leyton Orient,Stockport,0,1,A,0
+2025-02-01,Northampton,Huddersfield,3,2,H,0
+2025-02-01,Shrewsbury,Mansfield,2,1,H,0
+2025-02-01,Wigan,Lincoln,1,1,D,1
+2025-02-02,Bristol Rvs,Peterboro,3,1,H,0
+2025-02-07,Mansfield,Northampton,0,1,A,0
+2025-02-08,Lincoln,Cambridge,1,1,D,1
+2025-02-08,Rotherham,Shrewsbury,1,2,A,0
+2025-02-08,Huddersfield,Reading,0,0,D,1
+2025-02-08,Luton,Blackpool,1,1,D,1
+2025-02-08,Luton,Crawley Town,4,3,H,0
+2025-02-08,Stockport,Barnsley,2,1,H,0
+2025-02-08,Charlton,Stevenage,2,0,H,0
+2025-02-11,Birmingham,Cambridge,4,0,H,0
+2025-02-11,Blackpool,Rotherham,0,0,D,1
+2025-02-11,Bristol Rvs,Stockport,1,1,D,1
+2025-02-11,Charlton,Peterboro,2,1,H,0
+2025-02-11,Crawley Town,Stevenage,3,1,H,0
+2025-02-11,Leyton Orient,Mansfield,3,0,H,0
+2025-02-11,Reading,Shrewsbury,1,1,D,1
+2025-02-15,Leyton Orient,Lincoln,3,2,H,0
+2025-02-15,Cambridge,Exeter,0,1,A,0
+2025-02-15,Northampton,Wrexham,0,2,A,0
+2025-02-15,Barnsley,Huddersfield,1,2,A,0
+2025-02-15,Birmingham,Charlton,1,0,H,0
+2025-02-15,Blackpool,Mansfield,3,3,D,1
+2025-02-15,Bristol Rvs,Luton,3,1,H,0
+2025-02-15,Crawley Town,Wycombe,1,1,D,1
+2025-02-15,Reading,Rotherham,2,1,H,0
+2025-02-15,Shrewsbury,Luton,2,3,A,0
+2025-02-15,Stevenage,Peterboro,1,1,D,1
+2025-02-15,Wigan,Stockport,0,2,A,0
+2025-02-18,Mansfield,Lincoln,0,3,A,0
+2025-02-18,Shrewsbury,Huddersfield,0,1,A,0
+2025-02-18,Stevenage,Luton,0,1,A,0
+2025-02-18,Wycombe,Bristol Rvs,2,0,H,0
+2025-02-18,Wrexham,Leyton Orient,1,2,A,0
+2025-02-18,Crawley Town,Wigan,1,1,D,1
+2025-02-22,Shrewsbury,Stevenage,0,1,A,0
+2025-02-22,Wycombe,Wigan,0,0,D,1
+2025-02-22,Rotherham,Barnsley,0,1,A,0
+2025-02-22,Reading,Birmingham,0,0,D,1
+2025-02-22,Blackpool,Crawley Town,3,1,H,0
+2025-02-22,Luton,Leyton Orient,2,1,H,0
+2025-02-22,Cambridge,Stockport,2,0,H,0
+2025-02-22,Charlton,Exeter,3,0,H,0
+2025-02-22,Huddersfield,Peterboro,0,1,A,0
+2025-02-22,Lincoln,Luton,0,1,A,0
+2025-02-22,Northampton,Bristol Rvs,2,1,H,0
+2025-02-23,Mansfield,Wrexham,1,2,A,0
+2025-02-25,Wigan,Huddersfield,2,1,H,0
+2025-02-25,Birmingham,Leyton Orient,2,0,H,0
+2025-02-25,Northampton,Barnsley,1,2,A,0
+2025-03-01,Leyton Orient,Charlton,1,2,A,0
+2025-03-01,Peterboro,Shrewsbury,3,1,H,0
+2025-03-01,Stevenage,Huddersfield,1,2,A,0
+2025-03-01,Stockport,Blackpool,2,1,H,0
+2025-03-01,Wigan,Reading,1,2,A,0
+2025-03-01,Birmingham,Wycombe,1,0,H,0
+2025-03-01,Wrexham,Luton,0,0,D,1
+2025-03-01,Bristol Rvs,Rotherham,2,3,A,0
+2025-03-01,Barnsley,Lincoln,4,3,H,0
+2025-03-01,Luton,Mansfield,1,1,D,1
+2025-03-01,Crawley Town,Cambridge,0,2,A,0
+2025-03-01,Exeter,Northampton,1,1,D,1
+2025-03-04,Shrewsbury,Bristol Rvs,0,0,D,1
+2025-03-04,Blackpool,Peterboro,0,0,D,1
+2025-03-04,Luton,Birmingham,3,1,H,0
+2025-03-04,Cambridge,Stevenage,0,1,A,0
+2025-03-04,Charlton,Barnsley,1,0,H,0
+2025-03-04,Huddersfield,Wrexham,0,1,A,0
+2025-03-04,Lincoln,Crawley Town,4,1,H,0
+2025-03-04,Mansfield,Wigan,0,0,D,1
+2025-03-04,Northampton,Stockport,1,1,D,1
+2025-03-04,Rotherham,Leyton Orient,1,0,H,0
+2025-03-04,Reading,Exeter,0,0,D,1
+2025-03-04,Wycombe,Luton,2,0,H,0
+2025-03-08,Leyton Orient,Northampton,1,2,A,0
+2025-03-08,Peterboro,Wycombe,1,1,D,1
+2025-03-08,Stevenage,Mansfield,1,1,D,1
+2025-03-08,Wigan,Cambridge,1,0,H,0
+2025-03-08,Wrexham,Rotherham,1,0,H,0
+2025-03-08,Exeter,Shrewsbury,2,0,H,0
+2025-03-08,Luton,Luton,1,2,A,0
+2025-03-08,Bristol Rvs,Huddersfield,1,0,H,0
+2025-03-08,Birmingham,Lincoln,1,0,H,0
+2025-03-08,Barnsley,Blackpool,0,3,A,0
+2025-03-08,Stockport,Charlton,0,0,D,1
+2025-03-08,Crawley Town,Reading,1,1,D,1
+2025-03-11,Crawley Town,Charlton,0,1,A,0
+2025-03-11,Birmingham,Stevenage,2,1,H,0
+2025-03-11,Blackpool,Cambridge,2,1,H,0
+2025-03-11,Bristol Rvs,Luton,3,2,H,0
+2025-03-11,Exeter,Mansfield,2,0,H,0
+2025-03-11,Reading,Wrexham,2,0,H,0
+2025-03-15,Huddersfield,Crawley Town,5,1,H,0
+2025-03-15,Lincoln,Bristol Rvs,5,0,H,0
+2025-03-15,Mansfield,Barnsley,2,1,H,0
+2025-03-15,Wycombe,Wrexham,0,1,A,0
+2025-03-15,Shrewsbury,Luton,0,2,A,0
+2025-03-15,Rotherham,Exeter,1,1,D,1
+2025-03-15,Reading,Stevenage,1,1,D,1
+2025-03-15,Luton,Stockport,0,1,A,0
+2025-03-15,Cambridge,Peterboro,0,1,A,0
+2025-03-15,Blackpool,Leyton Orient,1,2,A,0
+2025-03-15,Charlton,Wigan,2,1,H,0
+2025-03-15,Northampton,Birmingham,1,1,D,1
+2025-03-18,Rotherham,Wycombe,2,3,A,0
+2025-03-22,Northampton,Blackpool,0,2,A,0
+2025-03-22,Lincoln,Exeter,0,0,D,1
+2025-03-22,Peterboro,Charlton,3,0,H,0
+2025-03-22,Barnsley,Cambridge,1,1,D,1
+2025-03-22,Crawley Town,Bristol Rvs,1,0,H,0
+2025-03-22,Wrexham,Stockport,1,0,H,0
+2025-03-27,Leyton Orient,Stevenage,1,0,H,0
+2025-03-29,Reading,Peterboro,3,1,H,0
+2025-03-29,Rotherham,Crawley Town,0,4,A,0
+2025-03-29,Exeter,Wrexham,0,2,A,0
+2025-03-29,Cambridge,Northampton,1,1,D,1
+2025-03-29,Bristol Rvs,Mansfield,1,2,A,0
+2025-03-29,Blackpool,Luton,2,1,H,0
+2025-03-29,Birmingham,Shrewsbury,4,1,H,0
+2025-03-29,Wigan,Barnsley,1,1,D,1
+2025-03-29,Wycombe,Lincoln,1,0,H,0
+2025-03-29,Stockport,Luton,2,1,H,0
+2025-03-29,Charlton,Huddersfield,4,0,H,0
+2025-04-01,Mansfield,Charlton,1,2,A,0
+2025-04-01,Barnsley,Exeter,1,2,A,0
+2025-04-01,Blackpool,Reading,3,0,H,0
+2025-04-01,Luton,Leyton Orient,2,1,H,0
+2025-04-01,Cambridge,Wrexham,2,2,D,1
+2025-04-01,Crawley Town,Peterboro,3,4,A,0
+2025-04-01,Lincoln,Huddersfield,1,0,H,0
+2025-04-01,Northampton,Rotherham,0,2,A,0
+2025-04-01,Stockport,Stevenage,3,0,H,0
+2025-04-01,Wigan,Luton,0,1,A,0
+2025-04-01,Wycombe,Shrewsbury,0,0,D,1
+2025-04-01,Bristol Rvs,Birmingham,1,2,A,0
+2025-04-05,Leyton Orient,Wigan,0,0,D,1
+2025-04-05,Peterboro,Northampton,0,4,A,0
+2025-04-05,Rotherham,Blackpool,2,1,H,0
+2025-04-05,Shrewsbury,Cambridge,0,1,A,0
+2025-04-05,Stevenage,Crawley Town,3,1,H,0
+2025-04-05,Exeter,Stockport,0,2,A,0
+2025-04-05,Charlton,Lincoln,2,2,D,1
+2025-04-05,Luton,Bristol Rvs,1,0,H,0
+2025-04-05,Birmingham,Barnsley,6,2,H,0
+2025-04-05,Wrexham,Luton,3,0,H,0
+2025-04-05,Reading,Wycombe,1,0,H,0
+2025-04-05,Huddersfield,Mansfield,2,1,H,0
+2025-04-08,Luton,Rotherham,0,1,A,0
+2025-04-08,Exeter,Wigan,1,1,D,1
+2025-04-08,Huddersfield,Wycombe,0,1,A,0
+2025-04-08,Mansfield,Leyton Orient,2,3,A,0
+2025-04-08,Peterboro,Birmingham,1,2,A,0
+2025-04-08,Shrewsbury,Reading,1,3,A,0
+2025-04-12,Lincoln,Shrewsbury,1,1,D,1
+2025-04-12,Wigan,Wrexham,0,0,D,1
+2025-04-12,Wycombe,Stevenage,1,0,H,0
+2025-04-12,Barnsley,Luton,4,1,H,0
+2025-04-12,Bristol Rvs,Exeter,1,2,A,0
+2025-04-12,Luton,Huddersfield,3,0,H,0
+2025-04-12,Cambridge,Charlton,0,1,A,0
+2025-04-12,Crawley Town,Leyton Orient,1,3,A,0
+2025-04-12,Northampton,Reading,0,0,D,1
+2025-04-12,Stockport,Rotherham,3,1,H,0
+2025-04-18,Reading,Lincoln,0,1,A,0
+2025-04-18,Wrexham,Bristol Rvs,1,1,D,1
+2025-04-18,Rotherham,Mansfield,3,3,D,1
+2025-04-18,Shrewsbury,Wigan,0,1,A,0
+2025-04-18,Stevenage,Blackpool,1,3,A,0
+2025-04-18,Exeter,Luton,0,0,D,1
+2025-04-18,Birmingham,Crawley Town,0,0,D,1
+2025-04-18,Luton,Wycombe,0,2,A,0
+2025-04-18,Charlton,Northampton,2,1,H,0
+2025-04-18,Huddersfield,Cambridge,1,2,A,0
+2025-04-18,Leyton Orient,Barnsley,4,3,H,0
+2025-04-18,Peterboro,Stockport,1,1,D,1
+2025-04-21,Mansfield,Reading,1,5,A,0
+2025-04-21,Barnsley,Peterboro,1,1,D,1
+2025-04-21,Blackpool,Wrexham,1,2,A,0
+2025-04-21,Bristol Rvs,Stevenage,0,1,A,0
+2025-04-21,Luton,Birmingham,1,2,A,0
+2025-04-21,Cambridge,Leyton Orient,1,2,A,0
+2025-04-21,Crawley Town,Exeter,3,1,H,0
+2025-04-21,Lincoln,Luton,4,2,H,0
+2025-04-21,Northampton,Shrewsbury,4,1,H,0
+2025-04-21,Stockport,Huddersfield,2,1,H,0
+2025-04-21,Wigan,Rotherham,1,0,H,0
+2025-04-21,Wycombe,Charlton,0,4,A,0
+2025-04-24,Stevenage,Birmingham,0,1,A,0
+2025-04-26,Stockport,Lincoln,3,2,H,0
+2025-04-26,Wigan,Blackpool,1,1,D,1
+2025-04-26,Wrexham,Charlton,3,0,H,0
+2025-04-26,Peterboro,Luton,1,1,D,1
+2025-04-26,Exeter,Huddersfield,3,1,H,0
+2025-04-26,Crawley Town,Northampton,3,0,H,0
+2025-04-26,Luton,Cambridge,2,1,H,0
+2025-04-26,Barnsley,Shrewsbury,1,2,A,0
+2025-04-26,Leyton Orient,Wycombe,1,0,H,0
+2025-04-26,Bristol Rvs,Reading,0,2,A,0
+2025-04-27,Stevenage,Rotherham,1,1,D,1
+2025-04-27,Birmingham,Mansfield,4,0,H,0
+2025-04-29,Luton,Wigan,1,1,D,1
+2025-04-30,Blackpool,Birmingham,0,2,A,0
+2025-04-30,Mansfield,Peterboro,4,2,H,0
+2025-05-03,Northampton,Wigan,1,1,D,1
+2025-05-03,Reading,Barnsley,2,4,A,0
+2025-05-03,Rotherham,Peterboro,2,1,H,0
+2025-05-03,Shrewsbury,Crawley Town,1,2,A,0
+2025-05-03,Wycombe,Stockport,1,3,A,0
+2025-05-03,Blackpool,Bristol Rvs,4,1,H,0
+2025-05-03,Cambridge,Birmingham,1,2,A,0
+2025-05-03,Luton,Stevenage,1,1,D,1
+2025-05-03,Charlton,Luton,3,1,H,0
+2025-05-03,Huddersfield,Leyton Orient,1,4,A,0
+2025-05-03,Lincoln,Wrexham,0,2,A,0
+2025-05-03,Mansfield,Exeter,3,0,H,0

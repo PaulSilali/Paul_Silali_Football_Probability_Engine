@@ -1,0 +1,94 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+462,Gent,464,Charleroi,2324,4,1,0.25,2.5
+451,Antwerp,467,Eupen,2324,2,0,0.0,3.0
+456,Oud-Heverlee Leuven,462,Gent,2324,6,1,0.16666666666666666,2.8333333333333335
+461,Standard,467,Eupen,2324,2,0,0.0,4.0
+461,Standard,463,St. Gilloise,2324,2,0,0.0,2.0
+458,St Truiden,463,St. Gilloise,2324,2,0,0.0,3.5
+460,Westerlo,461,Standard,2324,3,2,0.6666666666666666,3.0
+461,Standard,466,Kortrijk,2324,2,1,0.5,1.5
+455,Anderlecht,457,Club Brugge,2324,8,2,0.25,2.5
+451,Antwerp,459,Mechelen,2324,2,1,0.5,0.5
+456,Oud-Heverlee Leuven,463,St. Gilloise,2324,2,0,0.0,4.0
+457,Club Brugge,466,Kortrijk,2324,4,1,0.25,3.25
+457,Club Brugge,458,St Truiden,2324,4,1,0.25,3.0
+456,Oud-Heverlee Leuven,460,Westerlo,2324,4,1,0.25,2.5
+460,Westerlo,462,Gent,2324,6,3,0.5,4.0
+459,Mechelen,461,Standard,2324,4,2,0.5,2.5
+461,Standard,468,RWD Molenbeek,2324,2,2,1.0,3.0
+455,Anderlecht,459,Mechelen,2324,2,1,0.5,4.0
+451,Antwerp,462,Gent,2324,6,2,0.3333333333333333,2.3333333333333335
+455,Anderlecht,466,Kortrijk,2324,2,1,0.5,2.5
+459,Mechelen,468,RWD Molenbeek,2324,2,0,0.0,2.5
+457,Club Brugge,460,Westerlo,2324,4,0,0.0,3.25
+456,Oud-Heverlee Leuven,467,Eupen,2324,2,0,0.0,3.5
+459,Mechelen,467,Eupen,2324,2,0,0.0,1.0
+451,Antwerp,460,Westerlo,2324,2,1,0.5,3.5
+455,Anderlecht,460,Westerlo,2324,2,0,0.0,3.5
+464,Charleroi,467,Eupen,2324,4,0,0.0,1.75
+456,Oud-Heverlee Leuven,464,Charleroi,2324,2,2,1.0,1.0
+458,St Truiden,462,Gent,2324,6,3,0.5,3.5
+463,St. Gilloise,468,RWD Molenbeek,2324,2,0,0.0,5.0
+462,Gent,468,RWD Molenbeek,2324,4,1,0.25,3.5
+460,Westerlo,463,St. Gilloise,2324,2,1,0.5,4.0
+467,Eupen,468,RWD Molenbeek,2324,4,0,0.0,2.75
+458,St Truiden,467,Eupen,2324,2,1,0.5,1.5
+459,Mechelen,464,Charleroi,2324,2,0,0.0,2.5
+463,St. Gilloise,464,Charleroi,2324,2,0,0.0,4.0
+455,Anderlecht,464,Charleroi,2324,2,0,0.0,3.5
+456,Oud-Heverlee Leuven,461,Standard,2324,4,1,0.25,2.0
+451,Antwerp,468,RWD Molenbeek,2324,2,1,0.5,2.0
+466,Kortrijk,468,RWD Molenbeek,2324,4,1,0.25,3.5
+459,Mechelen,460,Westerlo,2324,4,0,0.0,4.0
+459,Mechelen,462,Gent,2324,6,1,0.16666666666666666,3.3333333333333335
+460,Westerlo,467,Eupen,2324,2,1,0.5,3.0
+455,Anderlecht,461,Standard,2324,2,1,0.5,4.5
+460,Westerlo,466,Kortrijk,2324,2,0,0.0,2.0
+451,Antwerp,457,Club Brugge,2324,8,0,0.0,2.625
+457,Club Brugge,461,Standard,2324,4,1,0.25,2.0
+462,Gent,466,Kortrijk,2324,4,0,0.0,3.5
+464,Charleroi,468,RWD Molenbeek,2324,4,2,0.5,1.75
+462,Gent,463,St. Gilloise,2324,6,2,0.3333333333333333,1.6666666666666667
+457,Club Brugge,464,Charleroi,2324,4,1,0.25,3.25
+456,Oud-Heverlee Leuven,459,Mechelen,2324,4,0,0.0,3.0
+457,Club Brugge,459,Mechelen,2324,4,2,0.5,2.25
+458,St Truiden,464,Charleroi,2324,2,1,0.5,1.5
+457,Club Brugge,467,Eupen,2324,4,0,0.0,3.25
+458,St Truiden,460,Westerlo,2324,4,2,0.5,3.25
+458,St Truiden,459,Mechelen,2324,4,0,0.0,3.0
+461,Standard,464,Charleroi,2324,2,2,1.0,1.0
+458,St Truiden,468,RWD Molenbeek,2324,2,0,0.0,3.0
+460,Westerlo,468,RWD Molenbeek,2324,2,1,0.5,2.5
+463,St. Gilloise,466,Kortrijk,2324,2,0,0.0,3.5
+457,Club Brugge,463,St. Gilloise,2324,8,2,0.25,3.125
+456,Oud-Heverlee Leuven,457,Club Brugge,2324,4,0,0.0,3.25
+455,Anderlecht,458,St Truiden,2324,2,0,0.0,3.0
+451,Antwerp,463,St. Gilloise,2324,4,2,0.5,3.5
+457,Club Brugge,457,Club Brugge,2324,4,4,1.0,1.0
+455,Anderlecht,468,RWD Molenbeek,2324,2,0,0.0,3.0
+459,Mechelen,466,Kortrijk,2324,2,0,0.0,3.0
+462,Gent,462,Gent,2324,3,2,0.6666666666666666,2.3333333333333335
+458,St Truiden,461,Standard,2324,4,3,0.75,2.75
+451,Antwerp,466,Kortrijk,2324,2,0,0.0,3.5
+462,Gent,467,Eupen,2324,4,0,0.0,2.5
+458,St Truiden,466,Kortrijk,2324,2,0,0.0,1.0
+451,Antwerp,461,Standard,2324,2,0,0.0,3.5
+451,Antwerp,456,Oud-Heverlee Leuven,2324,2,1,0.5,1.5
+455,Anderlecht,467,Eupen,2324,2,0,0.0,2.5
+457,Club Brugge,468,RWD Molenbeek,2324,4,0,0.0,5.5
+466,Kortrijk,467,Eupen,2324,4,2,0.5,2.25
+451,Antwerp,455,Anderlecht,2324,4,1,0.25,2.0
+460,Westerlo,464,Charleroi,2324,2,0,0.0,3.0
+455,Anderlecht,456,Oud-Heverlee Leuven,2324,2,1,0.5,4.0
+457,Club Brugge,462,Gent,2324,12,3,0.25,2.6666666666666665
+451,Antwerp,458,St Truiden,2324,2,1,0.5,2.5
+456,Oud-Heverlee Leuven,466,Kortrijk,2324,2,1,0.5,1.5
+464,Charleroi,466,Kortrijk,2324,4,0,0.0,2.25
+463,St. Gilloise,467,Eupen,2324,2,0,0.0,4.0
+459,Mechelen,463,St. Gilloise,2324,2,0,0.0,2.5
+451,Antwerp,464,Charleroi,2324,2,0,0.0,5.0
+455,Anderlecht,463,St. Gilloise,2324,4,2,0.5,2.25
+461,Standard,462,Gent,2324,6,0,0.0,3.8333333333333335
+456,Oud-Heverlee Leuven,458,St Truiden,2324,4,2,0.5,2.25
+455,Anderlecht,462,Gent,2324,6,2,0.3333333333333333,2.3333333333333335
+456,Oud-Heverlee Leuven,468,RWD Molenbeek,2324,2,1,0.5,2.5

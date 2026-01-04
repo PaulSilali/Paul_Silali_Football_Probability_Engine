@@ -1,0 +1,153 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+N1,2526,2025-08-08,For Sittard,Go Ahead Eagles,82,82,False
+N1,2526,2025-08-09,PSV Eindhoven,Sparta Rotterdam,83,83,False
+N1,2526,2025-08-09,Heerenveen,Volendam,83,447,False
+N1,2526,2025-08-09,Feyenoord,NAC Breda,83,83,False
+N1,2526,2025-08-09,Nijmegen,Excelsior,83,447,False
+N1,2526,2025-08-10,AZ Alkmaar,Groningen,84,84,False
+N1,2526,2025-08-10,Utrecht,Heracles,84,84,False
+N1,2526,2025-08-10,Zwolle,Twente,84,84,False
+N1,2526,2025-08-10,Ajax,Telstar,84,7,False
+N1,2526,2025-08-15,Telstar,Zwolle,5,5,False
+N1,2526,2025-08-16,Excelsior,Feyenoord,7,7,False
+N1,2526,2025-08-16,Heracles,Nijmegen,6,7,False
+N1,2526,2025-08-16,Groningen,Heerenveen,6,7,False
+N1,2526,2025-08-17,NAC Breda,For Sittard,8,9,False
+N1,2526,2025-08-17,Go Ahead Eagles,Ajax,9,7,False
+N1,2526,2025-08-17,Sparta Rotterdam,Utrecht,8,7,False
+N1,2526,2025-08-17,Twente,PSV Eindhoven,7,8,False
+N1,2526,2025-08-17,Volendam,AZ Alkmaar,8,7,False
+N1,2526,2025-08-23,PSV Eindhoven,Groningen,6,7,False
+N1,2526,2025-08-23,Telstar,Volendam,8,6,False
+N1,2526,2025-08-23,Go Ahead Eagles,Sparta Rotterdam,6,6,False
+N1,2526,2025-08-24,Utrecht,Excelsior,7,8,False
+N1,2526,2025-08-24,Nijmegen,NAC Breda,8,7,False
+N1,2526,2025-08-24,Heerenveen,Twente,8,7,False
+N1,2526,2025-08-24,Ajax,Heracles,7,8,False
+N1,2526,2025-08-29,Groningen,Heracles,6,5,False
+N1,2526,2025-08-30,Excelsior,Twente,6,6,False
+N1,2526,2025-08-30,Volendam,Ajax,7,6,False
+N1,2526,2025-08-30,Heerenveen,Go Ahead Eagles,6,7,False
+N1,2526,2025-08-30,PSV Eindhoven,Telstar,7,7,False
+N1,2526,2025-08-31,Zwolle,Utrecht,16,7,False
+N1,2526,2025-08-31,NAC Breda,AZ Alkmaar,7,14,False
+N1,2526,2025-08-31,For Sittard,Nijmegen,14,7,False
+N1,2526,2025-08-31,Sparta Rotterdam,Feyenoord,8,15,False
+N1,2526,2025-09-13,Ajax,Zwolle,14,13,False
+N1,2526,2025-09-13,Twente,NAC Breda,14,13,False
+N1,2526,2025-09-13,Feyenoord,Heerenveen,13,14,False
+N1,2526,2025-09-13,Nijmegen,PSV Eindhoven,13,14,False
+N1,2526,2025-09-13,Go Ahead Eagles,Volendam,14,14,False
+N1,2526,2025-09-14,Heracles,AZ Alkmaar,16,14,False
+N1,2526,2025-09-14,Telstar,For Sittard,15,14,False
+N1,2526,2025-09-14,Utrecht,Groningen,14,16,False
+N1,2526,2025-09-14,Excelsior,Sparta Rotterdam,15,14,False
+N1,2526,2025-09-17,Feyenoord,For Sittard,4,3,True
+N1,2526,2025-09-19,Sparta Rotterdam,Twente,5,6,False
+N1,2526,2025-09-20,Volendam,Excelsior,7,6,False
+N1,2526,2025-09-20,NAC Breda,Heracles,7,6,False
+N1,2526,2025-09-20,For Sittard,Utrecht,3,6,False
+N1,2526,2025-09-20,Groningen,Telstar,6,6,False
+N1,2526,2025-09-21,PSV Eindhoven,Ajax,8,8,False
+N1,2526,2025-09-21,Heerenveen,Nijmegen,8,8,False
+N1,2526,2025-09-21,Zwolle,Go Ahead Eagles,8,8,False
+N1,2526,2025-09-21,AZ Alkmaar,Feyenoord,7,4,False
+N1,2526,2025-09-24,AZ Alkmaar,Zwolle,3,3,True
+N1,2526,2025-09-26,Twente,For Sittard,7,6,False
+N1,2526,2025-09-27,Ajax,NAC Breda,6,7,False
+N1,2526,2025-09-27,Volendam,Zwolle,7,3,False
+N1,2526,2025-09-27,Excelsior,PSV Eindhoven,7,6,False
+N1,2526,2025-09-27,Heracles,Sparta Rotterdam,7,8,False
+N1,2526,2025-09-28,Nijmegen,AZ Alkmaar,7,4,False
+N1,2526,2025-09-28,Groningen,Feyenoord,8,7,False
+N1,2526,2025-09-28,Utrecht,Heerenveen,8,7,False
+N1,2526,2025-09-28,Telstar,Go Ahead Eagles,8,7,False
+N1,2526,2025-10-03,NAC Breda,Groningen,6,5,False
+N1,2526,2025-10-04,Zwolle,PSV Eindhoven,7,7,False
+N1,2526,2025-10-04,Sparta Rotterdam,Ajax,7,7,False
+N1,2526,2025-10-04,For Sittard,Volendam,8,7,False
+N1,2526,2025-10-04,Heerenveen,Excelsior,6,7,False
+N1,2526,2025-10-05,AZ Alkmaar,Telstar,7,7,False
+N1,2526,2025-10-05,Twente,Heracles,9,8,False
+N1,2526,2025-10-05,Feyenoord,Utrecht,7,7,False
+N1,2526,2025-10-05,Go Ahead Eagles,Nijmegen,7,7,False
+N1,2526,2025-10-18,Utrecht,Volendam,13,14,False
+N1,2526,2025-10-18,NAC Breda,Zwolle,15,14,False
+N1,2526,2025-10-18,Ajax,AZ Alkmaar,14,13,False
+N1,2526,2025-10-18,PSV Eindhoven,Go Ahead Eagles,14,13,False
+N1,2526,2025-10-18,Nijmegen,Twente,13,13,False
+N1,2526,2025-10-19,Excelsior,For Sittard,15,15,False
+N1,2526,2025-10-19,Heracles,Feyenoord,14,14,False
+N1,2526,2025-10-19,Telstar,Heerenveen,14,15,False
+N1,2526,2025-10-19,Groningen,Sparta Rotterdam,16,15,False
+N1,2526,2025-10-24,Heerenveen,NAC Breda,5,6,False
+N1,2526,2025-10-25,For Sittard,Groningen,6,6,False
+N1,2526,2025-10-25,Zwolle,Nijmegen,7,7,False
+N1,2526,2025-10-25,Volendam,Heracles,7,6,False
+N1,2526,2025-10-25,Sparta Rotterdam,Telstar,6,6,False
+N1,2526,2025-10-26,AZ Alkmaar,Utrecht,8,8,False
+N1,2526,2025-10-26,Twente,Ajax,8,8,False
+N1,2526,2025-10-26,Feyenoord,PSV Eindhoven,7,8,False
+N1,2526,2025-10-26,Go Ahead Eagles,Excelsior,8,7,False
+N1,2526,2025-10-31,PSV Eindhoven,For Sittard,5,6,False
+N1,2526,2025-11-01,Telstar,Excelsior,7,6,False
+N1,2526,2025-11-01,Ajax,Heerenveen,6,8,False
+N1,2526,2025-11-01,NAC Breda,Go Ahead Eagles,8,6,False
+N1,2526,2025-11-01,Feyenoord,Volendam,6,7,False
+N1,2526,2025-11-02,Sparta Rotterdam,AZ Alkmaar,8,7,False
+N1,2526,2025-11-02,Groningen,Twente,8,7,False
+N1,2526,2025-11-02,Heracles,Zwolle,8,8,False
+N1,2526,2025-11-02,Utrecht,Nijmegen,7,8,False
+N1,2526,2025-11-07,Twente,Telstar,5,6,False
+N1,2526,2025-11-08,Excelsior,Heracles,7,6,False
+N1,2526,2025-11-08,Volendam,NAC Breda,7,7,False
+N1,2526,2025-11-08,For Sittard,Heerenveen,8,7,False
+N1,2526,2025-11-08,Zwolle,Sparta Rotterdam,6,6,False
+N1,2526,2025-11-09,Utrecht,Ajax,7,8,False
+N1,2526,2025-11-09,Nijmegen,Groningen,7,7,False
+N1,2526,2025-11-09,AZ Alkmaar,PSV Eindhoven,7,9,False
+N1,2526,2025-11-09,Go Ahead Eagles,Feyenoord,8,8,False
+N1,2526,2025-11-22,Ajax,Excelsior,13,14,False
+N1,2526,2025-11-22,Heracles,Go Ahead Eagles,14,13,False
+N1,2526,2025-11-22,Sparta Rotterdam,For Sittard,14,14,False
+N1,2526,2025-11-22,NAC Breda,PSV Eindhoven,14,13,False
+N1,2526,2025-11-22,Volendam,Twente,14,15,False
+N1,2526,2025-11-23,Feyenoord,Nijmegen,14,14,False
+N1,2526,2025-11-23,Groningen,Zwolle,14,15,False
+N1,2526,2025-11-23,Heerenveen,AZ Alkmaar,15,14,False
+N1,2526,2025-11-23,Telstar,Utrecht,16,14,False
+N1,2526,2025-11-28,Zwolle,Heerenveen,5,5,False
+N1,2526,2025-11-29,Nijmegen,Sparta Rotterdam,6,7,False
+N1,2526,2025-11-29,Excelsior,NAC Breda,7,7,False
+N1,2526,2025-11-29,For Sittard,Heracles,7,7,False
+N1,2526,2025-11-30,Go Ahead Eagles,Utrecht,8,7,False
+N1,2526,2025-11-30,Telstar,Feyenoord,7,7,False
+N1,2526,2025-11-30,Twente,AZ Alkmaar,8,7,False
+N1,2526,2025-11-30,PSV Eindhoven,Volendam,8,8,False
+N1,2526,2025-12-02,Ajax,Groningen,10,9,True
+N1,2526,2025-12-05,Excelsior,Groningen,6,3,False
+N1,2526,2025-12-06,Feyenoord,Zwolle,6,8,False
+N1,2526,2025-12-06,Heerenveen,PSV Eindhoven,8,6,False
+N1,2526,2025-12-06,For Sittard,Ajax,7,4,False
+N1,2526,2025-12-06,Heracles,Telstar,7,6,False
+N1,2526,2025-12-07,Sparta Rotterdam,NAC Breda,8,8,False
+N1,2526,2025-12-07,Volendam,Nijmegen,7,8,False
+N1,2526,2025-12-07,Utrecht,Twente,7,7,False
+N1,2526,2025-12-07,AZ Alkmaar,Go Ahead Eagles,7,7,False
+N1,2526,2025-12-13,Groningen,Volendam,8,6,False
+N1,2526,2025-12-13,Zwolle,For Sittard,7,7,False
+N1,2526,2025-12-13,PSV Eindhoven,Heracles,7,7,False
+N1,2526,2025-12-13,Telstar,Nijmegen,7,6,False
+N1,2526,2025-12-14,Sparta Rotterdam,Heerenveen,7,8,False
+N1,2526,2025-12-14,NAC Breda,Utrecht,7,7,False
+N1,2526,2025-12-14,Twente,Go Ahead Eagles,7,7,False
+N1,2526,2025-12-14,Ajax,Feyenoord,8,8,False
+N1,2526,2025-12-20,Heracles,Heerenveen,7,6,False
+N1,2526,2025-12-20,NAC Breda,Telstar,6,7,False
+N1,2526,2025-12-20,Nijmegen,Ajax,7,6,False
+N1,2526,2025-12-20,Excelsior,Zwolle,15,7,False
+N1,2526,2025-12-21,Feyenoord,Twente,7,7,False
+N1,2526,2025-12-21,Go Ahead Eagles,Groningen,7,8,False
+N1,2526,2025-12-21,Utrecht,PSV Eindhoven,7,8,False
+N1,2526,2025-12-21,Volendam,Sparta Rotterdam,8,7,False
+N1,2526,2025-12-21,For Sittard,AZ Alkmaar,8,14,False

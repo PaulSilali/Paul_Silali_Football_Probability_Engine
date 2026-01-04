@@ -1,0 +1,181 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2023-08-05,Spartans,Clyde,1,1,D,1
+2023-08-05,Stenhousemuir,Forfar,0,0,D,1
+2023-08-05,Bonnyrigg Rose,Dumbarton,1,1,D,1
+2023-08-05,East Fife,Peterhead,0,3,A,0
+2023-08-05,Elgin,Stranraer,0,1,A,0
+2023-08-12,Peterhead,Stenhousemuir,0,0,D,1
+2023-08-12,Stranraer,East Fife,1,1,D,1
+2023-08-12,Dumbarton,Spartans,1,1,D,1
+2023-08-12,Forfar,Elgin,0,0,D,1
+2023-08-12,Clyde,Bonnyrigg Rose,0,2,A,0
+2023-08-19,East Fife,Stenhousemuir,0,2,A,0
+2023-08-19,Bonnyrigg Rose,Stranraer,1,1,D,1
+2023-08-19,Clyde,Peterhead,1,2,A,0
+2023-08-19,Dumbarton,Forfar,3,1,H,0
+2023-08-19,Spartans,Elgin,2,1,H,0
+2023-08-26,Forfar,Bonnyrigg Rose,1,2,A,0
+2023-08-26,Elgin,East Fife,1,1,D,1
+2023-08-26,Peterhead,Spartans,0,1,A,0
+2023-08-26,Stenhousemuir,Dumbarton,2,4,A,0
+2023-08-26,Stranraer,Clyde,1,0,H,0
+2023-09-02,Stranraer,Peterhead,2,1,H,0
+2023-09-02,Bonnyrigg Rose,Elgin,5,1,H,0
+2023-09-02,Clyde,Forfar,0,0,D,1
+2023-09-02,Dumbarton,East Fife,1,0,H,0
+2023-09-02,Spartans,Stenhousemuir,0,1,A,0
+2023-09-16,Elgin,Dumbarton,2,0,H,0
+2023-09-16,Forfar,Spartans,2,2,D,1
+2023-09-16,Peterhead,Bonnyrigg Rose,2,1,H,0
+2023-09-16,Stenhousemuir,Stranraer,5,0,H,0
+2023-09-16,East Fife,Clyde,2,0,H,0
+2023-09-23,Clyde,Elgin,2,1,H,0
+2023-09-23,Dumbarton,Peterhead,0,1,A,0
+2023-09-23,Spartans,East Fife,2,2,D,1
+2023-09-23,Stranraer,Forfar,0,2,A,0
+2023-09-23,Bonnyrigg Rose,Stenhousemuir,0,1,A,0
+2023-09-30,East Fife,Forfar,1,1,D,1
+2023-09-30,Peterhead,Elgin,6,0,H,0
+2023-09-30,Spartans,Bonnyrigg Rose,2,2,D,1
+2023-09-30,Stenhousemuir,Clyde,2,2,D,1
+2023-09-30,Dumbarton,Stranraer,3,1,H,0
+2023-10-07,Forfar,Peterhead,1,3,A,0
+2023-10-07,Stranraer,Spartans,3,4,A,0
+2023-10-07,Clyde,Dumbarton,0,4,A,0
+2023-10-21,Bonnyrigg Rose,Clyde,3,2,H,0
+2023-10-21,East Fife,Stranraer,4,0,H,0
+2023-10-21,Spartans,Dumbarton,2,0,H,0
+2023-10-24,Elgin,Stenhousemuir,1,1,D,1
+2023-11-04,Peterhead,East Fife,2,0,H,0
+2023-11-04,Stranraer,Elgin,3,1,H,0
+2023-11-04,Dumbarton,Bonnyrigg Rose,4,0,H,0
+2023-11-04,Clyde,Spartans,1,2,A,0
+2023-11-04,Forfar,Stenhousemuir,1,3,A,0
+2023-11-11,Peterhead,Stranraer,3,2,H,0
+2023-11-11,Elgin,Bonnyrigg Rose,2,0,H,0
+2023-11-11,Stenhousemuir,Spartans,3,2,H,0
+2023-11-11,East Fife,Dumbarton,0,1,A,0
+2023-11-11,Forfar,Clyde,1,1,D,1
+2023-11-14,Stenhousemuir,Peterhead,2,0,H,0
+2023-11-18,Dumbarton,Elgin,1,0,H,0
+2023-11-18,Bonnyrigg Rose,Forfar,0,2,A,0
+2023-11-18,Clyde,East Fife,0,4,A,0
+2023-11-18,Spartans,Peterhead,1,2,A,0
+2023-11-18,Stranraer,Stenhousemuir,0,3,A,0
+2023-11-21,Elgin,Forfar,1,0,H,0
+2023-11-21,Bonnyrigg Rose,East Fife,4,2,H,0
+2023-12-02,Forfar,Stranraer,1,1,D,1
+2023-12-02,Stenhousemuir,Bonnyrigg Rose,1,0,H,0
+2023-12-09,East Fife,Elgin,4,0,H,0
+2023-12-09,Bonnyrigg Rose,Peterhead,1,1,D,1
+2023-12-09,Clyde,Stranraer,2,2,D,1
+2023-12-09,Dumbarton,Stenhousemuir,0,1,A,0
+2023-12-09,Spartans,Forfar,1,0,H,0
+2023-12-16,Forfar,Dumbarton,2,4,A,0
+2023-12-16,Peterhead,Clyde,2,1,H,0
+2023-12-16,Stenhousemuir,East Fife,2,1,H,0
+2023-12-16,Stranraer,Bonnyrigg Rose,3,1,H,0
+2023-12-16,Elgin,Spartans,0,4,A,0
+2023-12-22,East Fife,Bonnyrigg Rose,0,3,A,0
+2023-12-23,Peterhead,Forfar,1,2,A,0
+2023-12-23,Spartans,Stranraer,3,0,H,0
+2023-12-23,Stenhousemuir,Elgin,2,0,H,0
+2023-12-23,Dumbarton,Clyde,4,4,D,1
+2023-12-30,Elgin,Peterhead,2,1,H,0
+2023-12-30,Forfar,East Fife,0,0,D,1
+2023-12-30,Clyde,Stenhousemuir,1,2,A,0
+2024-01-06,Dumbarton,East Fife,1,2,A,0
+2024-01-06,Elgin,Stranraer,2,1,H,0
+2024-01-06,Peterhead,Spartans,0,1,A,0
+2024-01-06,Stenhousemuir,Forfar,2,1,H,0
+2024-01-06,Clyde,Bonnyrigg Rose,3,2,H,0
+2024-01-09,Peterhead,Dumbarton,3,1,H,0
+2024-01-13,Bonnyrigg Rose,Dumbarton,1,1,D,1
+2024-01-13,East Fife,Clyde,1,1,D,1
+2024-01-13,Forfar,Elgin,2,1,H,0
+2024-01-13,Spartans,Stenhousemuir,0,2,A,0
+2024-01-13,Stranraer,Peterhead,2,0,H,0
+2024-01-20,East Fife,Peterhead,2,2,D,1
+2024-01-20,Stenhousemuir,Stranraer,1,0,H,0
+2024-01-27,Spartans,Clyde,1,1,D,1
+2024-01-27,Stranraer,East Fife,0,1,A,0
+2024-01-27,Forfar,Bonnyrigg Rose,0,0,D,1
+2024-01-27,Peterhead,Stenhousemuir,2,1,H,0
+2024-01-27,Elgin,Dumbarton,0,1,A,0
+2024-01-30,Elgin,Clyde,2,1,H,0
+2024-01-30,East Fife,Spartans,0,3,A,0
+2024-02-03,Clyde,Peterhead,1,1,D,1
+2024-02-03,Elgin,East Fife,1,0,H,0
+2024-02-03,Forfar,Spartans,1,0,H,0
+2024-02-03,Stenhousemuir,Dumbarton,1,0,H,0
+2024-02-03,Bonnyrigg Rose,Stranraer,0,0,D,1
+2024-02-06,Bonnyrigg Rose,Elgin,2,0,H,0
+2024-02-10,East Fife,Stenhousemuir,1,1,D,1
+2024-02-10,Spartans,Elgin,1,2,A,0
+2024-02-10,Stranraer,Clyde,2,0,H,0
+2024-02-10,Dumbarton,Forfar,2,2,D,1
+2024-02-13,Dumbarton,Spartans,0,0,D,1
+2024-02-17,Clyde,Dumbarton,2,0,H,0
+2024-02-17,Elgin,Stenhousemuir,2,2,D,1
+2024-02-17,Forfar,Peterhead,3,3,D,1
+2024-02-17,Stranraer,Spartans,1,2,A,0
+2024-02-17,Bonnyrigg Rose,East Fife,0,2,A,0
+2024-02-20,Peterhead,Bonnyrigg Rose,0,0,D,1
+2024-02-20,Clyde,Forfar,0,2,A,0
+2024-02-24,East Fife,Forfar,1,1,D,1
+2024-02-24,Peterhead,Elgin,1,1,D,1
+2024-02-24,Spartans,Bonnyrigg Rose,2,1,H,0
+2024-02-24,Stenhousemuir,Clyde,1,6,A,0
+2024-02-24,Dumbarton,Stranraer,2,1,H,0
+2024-03-02,Stranraer,Forfar,0,0,D,1
+2024-03-02,Dumbarton,Peterhead,1,0,H,0
+2024-03-02,Spartans,East Fife,1,3,A,0
+2024-03-02,Clyde,Elgin,2,1,H,0
+2024-03-02,Bonnyrigg Rose,Stenhousemuir,0,1,A,0
+2024-03-05,Stranraer,Dumbarton,5,0,H,0
+2024-03-05,Bonnyrigg Rose,Spartans,2,2,D,1
+2024-03-09,Stenhousemuir,Spartans,0,0,D,1
+2024-03-09,East Fife,Dumbarton,3,2,H,0
+2024-03-09,Elgin,Bonnyrigg Rose,1,0,H,0
+2024-03-09,Forfar,Clyde,2,1,H,0
+2024-03-09,Peterhead,Stranraer,2,0,H,0
+2024-03-16,Forfar,Stenhousemuir,1,1,D,1
+2024-03-16,Peterhead,East Fife,1,1,D,1
+2024-03-16,Spartans,Dumbarton,2,6,A,0
+2024-03-16,Stranraer,Elgin,1,2,A,0
+2024-03-16,Bonnyrigg Rose,Clyde,1,2,A,0
+2024-03-23,Dumbarton,Bonnyrigg Rose,2,0,H,0
+2024-03-23,East Fife,Stranraer,2,1,H,0
+2024-03-23,Elgin,Forfar,1,1,D,1
+2024-03-23,Stenhousemuir,Peterhead,0,0,D,1
+2024-03-23,Clyde,Spartans,0,0,D,1
+2024-03-30,East Fife,Elgin,2,0,H,0
+2024-03-30,Peterhead,Clyde,4,1,H,0
+2024-03-30,Spartans,Forfar,1,0,H,0
+2024-03-30,Stranraer,Bonnyrigg Rose,1,1,D,1
+2024-03-30,Dumbarton,Stenhousemuir,0,0,D,1
+2024-04-06,Clyde,Stranraer,1,0,H,0
+2024-04-06,Elgin,Spartans,2,2,D,1
+2024-04-06,Forfar,Dumbarton,0,2,A,0
+2024-04-06,Stenhousemuir,East Fife,0,0,D,1
+2024-04-06,Bonnyrigg Rose,Peterhead,2,2,D,1
+2024-04-13,East Fife,Bonnyrigg Rose,1,4,A,0
+2024-04-13,Peterhead,Forfar,2,1,H,0
+2024-04-13,Spartans,Stranraer,0,0,D,1
+2024-04-13,Stenhousemuir,Elgin,1,1,D,1
+2024-04-13,Dumbarton,Clyde,1,0,H,0
+2024-04-20,Clyde,Stenhousemuir,2,2,D,1
+2024-04-20,Elgin,Peterhead,1,1,D,1
+2024-04-20,Forfar,East Fife,2,1,H,0
+2024-04-20,Stranraer,Dumbarton,0,0,D,1
+2024-04-20,Bonnyrigg Rose,Spartans,0,1,A,0
+2024-04-27,Dumbarton,Elgin,2,2,D,1
+2024-04-27,Forfar,Stranraer,2,0,H,0
+2024-04-27,Spartans,Peterhead,2,2,D,1
+2024-04-27,Stenhousemuir,Bonnyrigg Rose,1,1,D,1
+2024-04-27,Clyde,East Fife,1,0,H,0
+2024-05-04,East Fife,Spartans,1,2,A,0
+2024-05-04,Elgin,Clyde,0,3,A,0
+2024-05-04,Peterhead,Dumbarton,2,1,H,0
+2024-05-04,Stranraer,Stenhousemuir,2,0,H,0
+2024-05-04,Bonnyrigg Rose,Forfar,4,0,H,0

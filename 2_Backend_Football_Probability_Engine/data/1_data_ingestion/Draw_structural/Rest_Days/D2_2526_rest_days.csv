@@ -1,0 +1,154 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D2,2526,2025-08-01,Schalke 04,Hertha,75,75,False
+D2,2526,2025-08-02,Paderborn,Holstein Kiel,76,440,False
+D2,2526,2025-08-02,Bielefeld,Fortuna Dusseldorf,797,76,False
+D2,2526,2025-08-02,Karlsruhe,PreuÃen MÃ¼nster,76,76,False
+D2,2526,2025-08-02,Elversberg,Nurnberg,76,76,False
+D2,2526,2025-08-02,Darmstadt,Bochum,76,1532,False
+D2,2526,2025-08-03,Greuther Furth,Dresden,77,1176,False
+D2,2526,2025-08-03,Magdeburg,Braunschweig,77,77,False
+D2,2526,2025-08-03,Hannover,Kaiserslautern,77,77,False
+D2,2526,2025-08-08,Nurnberg,Darmstadt,6,6,False
+D2,2526,2025-08-08,PreuÃen MÃ¼nster,Paderborn,6,6,False
+D2,2526,2025-08-09,Fortuna Dusseldorf,Hannover,7,6,False
+D2,2526,2025-08-09,Dresden,Magdeburg,6,6,False
+D2,2526,2025-08-09,Braunschweig,Greuther Furth,6,6,False
+D2,2526,2025-08-09,Kaiserslautern,Schalke 04,6,8,False
+D2,2526,2025-08-10,Holstein Kiel,Bielefeld,8,8,False
+D2,2526,2025-08-10,Bochum,Elversberg,8,8,False
+D2,2526,2025-08-10,Hertha,Karlsruhe,9,8,False
+D2,2526,2025-08-22,Elversberg,Kaiserslautern,12,13,False
+D2,2526,2025-08-22,PreuÃen MÃ¼nster,Nurnberg,14,14,False
+D2,2526,2025-08-23,Hannover,Magdeburg,14,14,False
+D2,2526,2025-08-23,Karlsruhe,Braunschweig,13,14,False
+D2,2526,2025-08-23,Schalke 04,Bochum,14,13,False
+D2,2526,2025-08-23,Paderborn,Fortuna Dusseldorf,15,14,False
+D2,2526,2025-08-24,Greuther Furth,Holstein Kiel,15,14,False
+D2,2526,2025-08-24,Darmstadt,Hertha,16,14,False
+D2,2526,2025-08-24,Bielefeld,Dresden,14,15,False
+D2,2526,2025-08-29,Nurnberg,Paderborn,7,6,False
+D2,2526,2025-08-29,Hertha,Elversberg,5,7,False
+D2,2526,2025-08-30,Bochum,PreuÃen MÃ¼nster,7,8,False
+D2,2526,2025-08-30,Braunschweig,Bielefeld,7,6,False
+D2,2526,2025-08-30,Holstein Kiel,Hannover,6,7,False
+D2,2526,2025-08-30,Fortuna Dusseldorf,Karlsruhe,7,7,False
+D2,2526,2025-08-31,Dresden,Schalke 04,7,8,False
+D2,2526,2025-08-31,Magdeburg,Greuther Furth,8,7,False
+D2,2526,2025-08-31,Kaiserslautern,Darmstadt,9,7,False
+D2,2526,2025-09-12,Bielefeld,Magdeburg,13,12,False
+D2,2526,2025-09-12,Paderborn,Bochum,14,13,False
+D2,2526,2025-09-13,Karlsruhe,Nurnberg,14,15,False
+D2,2526,2025-09-13,Darmstadt,Braunschweig,13,14,False
+D2,2526,2025-09-13,Hannover,Hertha,14,15,False
+D2,2526,2025-09-13,Schalke 04,Holstein Kiel,13,14,False
+D2,2526,2025-09-14,PreuÃen MÃ¼nster,Fortuna Dusseldorf,15,15,False
+D2,2526,2025-09-14,Elversberg,Dresden,16,14,False
+D2,2526,2025-09-14,Greuther Furth,Kaiserslautern,14,14,False
+D2,2526,2025-09-19,Kaiserslautern,PreuÃen MÃ¼nster,5,5,False
+D2,2526,2025-09-19,Bielefeld,Greuther Furth,7,5,False
+D2,2526,2025-09-20,Nurnberg,Bochum,7,8,False
+D2,2526,2025-09-20,Magdeburg,Schalke 04,8,7,False
+D2,2526,2025-09-20,Hertha,Paderborn,7,8,False
+D2,2526,2025-09-20,Braunschweig,Elversberg,7,6,False
+D2,2526,2025-09-21,Dresden,Hannover,7,8,False
+D2,2526,2025-09-21,Holstein Kiel,Karlsruhe,8,8,False
+D2,2526,2025-09-21,Fortuna Dusseldorf,Darmstadt,7,8,False
+D2,2526,2025-09-26,Schalke 04,Greuther Furth,6,7,False
+D2,2526,2025-09-26,Darmstadt,Dresden,5,5,False
+D2,2526,2025-09-27,Paderborn,Kaiserslautern,7,8,False
+D2,2526,2025-09-27,Elversberg,Holstein Kiel,7,6,False
+D2,2526,2025-09-27,Karlsruhe,Magdeburg,6,7,False
+D2,2526,2025-09-27,Bochum,Fortuna Dusseldorf,7,6,False
+D2,2526,2025-09-28,Nurnberg,Hertha,8,8,False
+D2,2526,2025-09-28,Hannover,Bielefeld,7,9,False
+D2,2526,2025-09-28,PreuÃen MÃ¼nster,Braunschweig,9,8,False
+D2,2526,2025-10-03,Fortuna Dusseldorf,Nurnberg,6,5,False
+D2,2526,2025-10-03,Braunschweig,Paderborn,5,6,False
+D2,2526,2025-10-04,Holstein Kiel,Darmstadt,7,8,False
+D2,2526,2025-10-04,Hertha,PreuÃen MÃ¼nster,6,6,False
+D2,2526,2025-10-04,Kaiserslautern,Bochum,7,7,False
+D2,2526,2025-10-04,Dresden,Karlsruhe,8,7,False
+D2,2526,2025-10-05,Bielefeld,Schalke 04,7,9,False
+D2,2526,2025-10-05,Greuther Furth,Hannover,9,7,False
+D2,2526,2025-10-05,Magdeburg,Elversberg,8,8,False
+D2,2526,2025-10-17,Fortuna Dusseldorf,Braunschweig,14,14,False
+D2,2526,2025-10-17,Hannover,Schalke 04,12,12,False
+D2,2526,2025-10-18,Paderborn,Bielefeld,15,13,False
+D2,2526,2025-10-18,Bochum,Hertha,14,14,False
+D2,2526,2025-10-18,PreuÃen MÃ¼nster,Dresden,14,14,False
+D2,2526,2025-10-18,Karlsruhe,Kaiserslautern,14,14,False
+D2,2526,2025-10-19,Darmstadt,Magdeburg,15,14,False
+D2,2526,2025-10-19,Nurnberg,Holstein Kiel,16,15,False
+D2,2526,2025-10-19,Elversberg,Greuther Furth,14,14,False
+D2,2526,2025-10-24,Schalke 04,Darmstadt,7,5,False
+D2,2526,2025-10-24,Greuther Furth,Karlsruhe,5,6,False
+D2,2526,2025-10-25,Bielefeld,Elversberg,7,6,False
+D2,2526,2025-10-25,Hertha,Fortuna Dusseldorf,7,8,False
+D2,2526,2025-10-25,Holstein Kiel,Bochum,6,7,False
+D2,2526,2025-10-25,Dresden,Paderborn,7,7,False
+D2,2526,2025-10-26,Magdeburg,PreuÃen MÃ¼nster,7,8,False
+D2,2526,2025-10-26,Kaiserslautern,Nurnberg,8,7,False
+D2,2526,2025-10-26,Braunschweig,Hannover,9,9,False
+D2,2526,2025-10-31,PreuÃen MÃ¼nster,Holstein Kiel,5,6,False
+D2,2526,2025-10-31,Elversberg,Hannover,6,5,False
+D2,2526,2025-11-01,Nurnberg,Braunschweig,6,6,False
+D2,2526,2025-11-01,Hertha,Dresden,7,7,False
+D2,2526,2025-11-01,Karlsruhe,Schalke 04,8,8,False
+D2,2526,2025-11-01,Darmstadt,Bielefeld,8,7,False
+D2,2526,2025-11-02,Bochum,Magdeburg,8,7,False
+D2,2526,2025-11-02,Paderborn,Greuther Furth,8,9,False
+D2,2526,2025-11-02,Fortuna Dusseldorf,Kaiserslautern,8,7,False
+D2,2526,2025-11-07,Dresden,Nurnberg,6,6,False
+D2,2526,2025-11-07,Greuther Furth,PreuÃen MÃ¼nster,5,7,False
+D2,2526,2025-11-08,Hannover,Darmstadt,8,7,False
+D2,2526,2025-11-08,Bielefeld,Karlsruhe,7,7,False
+D2,2526,2025-11-08,Kaiserslautern,Hertha,6,7,False
+D2,2526,2025-11-08,Schalke 04,Elversberg,7,8,False
+D2,2526,2025-11-09,Magdeburg,Paderborn,7,7,False
+D2,2526,2025-11-09,Braunschweig,Bochum,8,7,False
+D2,2526,2025-11-09,Holstein Kiel,Fortuna Dusseldorf,9,7,False
+D2,2526,2025-11-21,Hertha,Braunschweig,13,12,False
+D2,2526,2025-11-21,Bochum,Dresden,12,14,False
+D2,2526,2025-11-22,Darmstadt,Greuther Furth,14,15,False
+D2,2526,2025-11-22,PreuÃen MÃ¼nster,Schalke 04,15,14,False
+D2,2526,2025-11-22,Paderborn,Hannover,13,14,False
+D2,2526,2025-11-22,Fortuna Dusseldorf,Magdeburg,13,13,False
+D2,2526,2025-11-23,Kaiserslautern,Holstein Kiel,15,14,False
+D2,2526,2025-11-23,Nurnberg,Bielefeld,16,15,False
+D2,2526,2025-11-23,Karlsruhe,Elversberg,15,15,False
+D2,2526,2025-11-28,Schalke 04,Paderborn,6,6,False
+D2,2526,2025-11-28,Hannover,Karlsruhe,6,5,False
+D2,2526,2025-11-29,Holstein Kiel,Hertha,6,8,False
+D2,2526,2025-11-29,Braunschweig,Kaiserslautern,8,6,False
+D2,2526,2025-11-29,Greuther Furth,Bochum,7,8,False
+D2,2526,2025-11-29,Magdeburg,Nurnberg,7,6,False
+D2,2526,2025-11-30,Elversberg,Darmstadt,7,8,False
+D2,2526,2025-11-30,Bielefeld,PreuÃen MÃ¼nster,7,8,False
+D2,2526,2025-11-30,Dresden,Fortuna Dusseldorf,9,8,False
+D2,2526,2025-12-05,Fortuna Dusseldorf,Schalke 04,5,7,False
+D2,2526,2025-12-05,PreuÃen MÃ¼nster,Hannover,5,7,False
+D2,2526,2025-12-06,Darmstadt,Karlsruhe,6,8,False
+D2,2526,2025-12-06,Bochum,Bielefeld,7,6,False
+D2,2526,2025-12-06,Kaiserslautern,Dresden,7,6,False
+D2,2526,2025-12-06,Paderborn,Elversberg,8,6,False
+D2,2526,2025-12-07,Hertha,Magdeburg,8,8,False
+D2,2526,2025-12-07,Braunschweig,Holstein Kiel,8,8,False
+D2,2526,2025-12-07,Nurnberg,Greuther Furth,8,8,False
+D2,2526,2025-12-12,Greuther Furth,Hertha,5,5,False
+D2,2526,2025-12-12,Dresden,Braunschweig,6,5,False
+D2,2526,2025-12-13,Bielefeld,Kaiserslautern,7,7,False
+D2,2526,2025-12-13,Hannover,Bochum,8,7,False
+D2,2526,2025-12-13,Magdeburg,Holstein Kiel,6,6,False
+D2,2526,2025-12-13,Karlsruhe,Paderborn,7,7,False
+D2,2526,2025-12-14,Darmstadt,PreuÃen MÃ¼nster,8,9,False
+D2,2526,2025-12-14,Schalke 04,Nurnberg,9,7,False
+D2,2526,2025-12-14,Elversberg,Fortuna Dusseldorf,8,9,False
+D2,2526,2025-12-19,Hertha,Bielefeld,7,6,False
+D2,2526,2025-12-19,Paderborn,Darmstadt,6,5,False
+D2,2526,2025-12-20,Holstein Kiel,Dresden,7,8,False
+D2,2526,2025-12-20,Kaiserslautern,Magdeburg,7,7,False
+D2,2526,2025-12-20,Fortuna Dusseldorf,Greuther Furth,6,8,False
+D2,2526,2025-12-20,Bochum,Karlsruhe,7,7,False
+D2,2526,2025-12-21,Nurnberg,Hannover,7,8,False
+D2,2526,2025-12-21,PreuÃen MÃ¼nster,Elversberg,7,7,False
+D2,2526,2025-12-21,Braunschweig,Schalke 04,9,7,False

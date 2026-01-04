@@ -1,0 +1,123 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+465,Beerschot VA,466,Kortrijk,2122,2,1,0.5,2.5
+465,Beerschot VA,469,Seraing,2122,2,0,0.0,3.0
+462,Gent,464,Charleroi,2122,4,1,0.25,3.25
+466,Kortrijk,470,Oostende,2122,2,0,0.0,1.5
+469,Seraing,470,Oostende,2122,2,1,0.5,4.5
+451,Antwerp,467,Eupen,2122,2,0,0.0,3.5
+457,Club Brugge,470,Oostende,2122,4,0,0.0,2.75
+464,Charleroi,470,Oostende,2122,2,0,0.0,2.0
+456,Oud-Heverlee Leuven,462,Gent,2122,4,0,0.0,3.25
+461,Standard,467,Eupen,2122,2,0,0.0,1.5
+461,Standard,463,St. Gilloise,2122,2,0,0.0,4.0
+457,Club Brugge,465,Beerschot VA,2122,4,0,0.0,3.0
+461,Standard,465,Beerschot VA,2122,2,0,0.0,1.0
+458,St Truiden,463,St. Gilloise,2122,2,0,0.0,2.0
+459,Mechelen,465,Beerschot VA,2122,2,0,0.0,3.0
+461,Standard,466,Kortrijk,2122,2,1,0.5,1.5
+455,Anderlecht,457,Club Brugge,2122,4,2,0.5,2.75
+465,Beerschot VA,467,Eupen,2122,2,0,0.0,2.0
+451,Antwerp,459,Mechelen,2122,2,0,0.0,4.0
+456,Oud-Heverlee Leuven,463,St. Gilloise,2122,2,0,0.0,4.5
+457,Club Brugge,466,Kortrijk,2122,4,0,0.0,1.75
+457,Club Brugge,458,St Truiden,2122,4,0,0.0,2.25
+455,Anderlecht,470,Oostende,2122,2,1,0.5,3.5
+458,St Truiden,470,Oostende,2122,2,2,1.0,1.0
+459,Mechelen,470,Oostende,2122,2,0,0.0,4.5
+462,Gent,470,Oostende,2122,4,1,0.25,3.5
+459,Mechelen,461,Standard,2122,2,0,0.0,3.5
+466,Kortrijk,469,Seraing,2122,2,0,0.0,2.0
+453,Waregem,457,Club Brugge,2122,4,0,0.0,4.25
+455,Anderlecht,459,Mechelen,2122,2,0,0.0,5.0
+451,Antwerp,462,Gent,2122,4,1,0.25,2.5
+458,St Truiden,469,Seraing,2122,2,0,0.0,3.0
+455,Anderlecht,466,Kortrijk,2122,2,1,0.5,3.5
+456,Oud-Heverlee Leuven,470,Oostende,2122,2,0,0.0,2.5
+451,Antwerp,470,Oostende,2122,2,0,0.0,3.0
+453,Waregem,455,Anderlecht,2122,2,0,0.0,4.0
+456,Oud-Heverlee Leuven,467,Eupen,2122,2,0,0.0,4.5
+459,Mechelen,467,Eupen,2122,2,1,0.5,3.0
+455,Anderlecht,465,Beerschot VA,2122,2,0,0.0,6.5
+464,Charleroi,467,Eupen,2122,2,0,0.0,3.5
+453,Waregem,469,Seraing,2122,2,0,0.0,3.5
+456,Oud-Heverlee Leuven,464,Charleroi,2122,2,1,0.5,2.5
+453,Waregem,467,Eupen,2122,2,1,0.5,2.5
+458,St Truiden,462,Gent,2122,4,0,0.0,2.5
+453,Waregem,458,St Truiden,2122,2,0,0.0,3.0
+458,St Truiden,467,Eupen,2122,2,0,0.0,2.5
+451,Antwerp,465,Beerschot VA,2122,2,0,0.0,2.0
+463,St. Gilloise,465,Beerschot VA,2122,2,0,0.0,4.0
+459,Mechelen,464,Charleroi,2122,2,1,0.5,3.0
+461,Standard,469,Seraing,2122,2,0,0.0,1.0
+463,St. Gilloise,464,Charleroi,2122,2,0,0.0,3.5
+453,Waregem,462,Gent,2122,4,0,0.0,4.0
+455,Anderlecht,464,Charleroi,2122,2,0,0.0,4.0
+451,Antwerp,453,Waregem,2122,2,0,0.0,2.0
+456,Oud-Heverlee Leuven,461,Standard,2122,2,1,0.5,3.5
+462,Gent,469,Seraing,2122,4,1,0.25,2.25
+453,Waregem,465,Beerschot VA,2122,2,1,0.5,4.0
+451,Antwerp,469,Seraing,2122,2,0,0.0,2.0
+459,Mechelen,462,Gent,2122,4,1,0.25,4.0
+455,Anderlecht,461,Standard,2122,2,1,0.5,1.5
+451,Antwerp,457,Club Brugge,2122,4,2,0.5,2.5
+457,Club Brugge,461,Standard,2122,4,4,1.0,3.0
+462,Gent,466,Kortrijk,2122,4,1,0.25,2.5
+459,Mechelen,469,Seraing,2122,2,0,0.0,1.5
+462,Gent,463,St. Gilloise,2122,4,2,0.5,1.75
+457,Club Brugge,464,Charleroi,2122,4,0,0.0,2.75
+453,Waregem,456,Oud-Heverlee Leuven,2122,2,2,1.0,2.0
+456,Oud-Heverlee Leuven,459,Mechelen,2122,2,0,0.0,3.5
+456,Oud-Heverlee Leuven,465,Beerschot VA,2122,2,1,0.5,2.0
+457,Club Brugge,459,Mechelen,2122,4,1,0.25,3.25
+463,St. Gilloise,470,Oostende,2122,2,1,0.5,5.0
+461,Standard,470,Oostende,2122,2,0,0.0,1.0
+458,St Truiden,465,Beerschot VA,2122,2,0,0.0,3.0
+458,St Truiden,464,Charleroi,2122,2,1,0.5,0.5
+457,Club Brugge,467,Eupen,2122,4,1,0.25,3.25
+458,St Truiden,459,Mechelen,2122,2,1,0.5,1.5
+461,Standard,464,Charleroi,2122,2,1,0.5,1.5
+453,Waregem,470,Oostende,2122,2,1,0.5,1.0
+463,St. Gilloise,466,Kortrijk,2122,2,0,0.0,3.5
+457,Club Brugge,469,Seraing,2122,4,0,0.0,3.75
+457,Club Brugge,463,St. Gilloise,2122,4,1,0.25,2.25
+456,Oud-Heverlee Leuven,457,Club Brugge,2122,4,2,0.5,3.5
+455,Anderlecht,458,St Truiden,2122,2,1,0.5,3.0
+462,Gent,465,Beerschot VA,2122,4,1,0.25,3.25
+451,Antwerp,463,St. Gilloise,2122,2,0,0.0,2.5
+463,St. Gilloise,469,Seraing,2122,2,0,0.0,5.0
+453,Waregem,459,Mechelen,2122,2,1,0.5,4.5
+457,Club Brugge,457,Club Brugge,2122,2,1,0.5,2.0
+459,Mechelen,466,Kortrijk,2122,2,1,0.5,4.5
+462,Gent,462,Gent,2122,2,0,0.0,2.0
+458,St Truiden,461,Standard,2122,2,0,0.0,3.0
+451,Antwerp,466,Kortrijk,2122,2,0,0.0,1.5
+462,Gent,467,Eupen,2122,4,0,0.0,3.25
+458,St Truiden,466,Kortrijk,2122,2,0,0.0,3.0
+451,Antwerp,456,Oud-Heverlee Leuven,2122,2,1,0.5,2.5
+451,Antwerp,461,Standard,2122,2,0,0.0,6.0
+455,Anderlecht,467,Eupen,2122,2,1,0.5,3.5
+467,Eupen,469,Seraing,2122,2,1,0.5,1.5
+464,Charleroi,469,Seraing,2122,2,0,0.0,3.0
+466,Kortrijk,467,Eupen,2122,2,2,1.0,3.0
+453,Waregem,463,St. Gilloise,2122,2,0,0.0,2.5
+451,Antwerp,455,Anderlecht,2122,2,0,0.0,2.5
+455,Anderlecht,456,Oud-Heverlee Leuven,2122,2,2,1.0,2.0
+457,Club Brugge,462,Gent,2122,8,3,0.375,4.0
+465,Beerschot VA,470,Oostende,2122,2,0,0.0,3.0
+453,Waregem,464,Charleroi,2122,2,1,0.5,3.5
+451,Antwerp,458,St Truiden,2122,2,1,0.5,2.5
+456,Oud-Heverlee Leuven,466,Kortrijk,2122,2,0,0.0,3.0
+464,Charleroi,466,Kortrijk,2122,2,2,1.0,3.0
+463,St. Gilloise,467,Eupen,2122,2,1,0.5,2.5
+459,Mechelen,463,St. Gilloise,2122,2,0,0.0,3.0
+451,Antwerp,464,Charleroi,2122,2,1,0.5,2.5
+453,Waregem,461,Standard,2122,2,0,0.0,2.0
+464,Charleroi,465,Beerschot VA,2122,2,0,0.0,6.0
+455,Anderlecht,469,Seraing,2122,2,0,0.0,4.0
+456,Oud-Heverlee Leuven,469,Seraing,2122,2,1,0.5,3.0
+455,Anderlecht,463,St. Gilloise,2122,2,0,0.0,2.5
+467,Eupen,470,Oostende,2122,2,0,0.0,2.5
+461,Standard,462,Gent,2122,4,1,0.25,2.25
+456,Oud-Heverlee Leuven,458,St Truiden,2122,2,0,0.0,3.5
+453,Waregem,466,Kortrijk,2122,2,1,0.5,4.5
+455,Anderlecht,462,Gent,2122,4,1,0.25,1.5

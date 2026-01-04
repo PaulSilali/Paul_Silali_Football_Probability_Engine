@@ -383,3 +383,5 @@ Draw percentage is **not a simple calculation**—it's the result of a **sophist
 
 The final percentage you see is **statistically sound** and **calibrated** to match historical draw frequencies.
 
+
+

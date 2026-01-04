@@ -241,3 +241,5 @@ It's a **useful signal** for:
 
 The lower the spread, the more balanced the match, and the higher the structural draw likelihood.
 
+
+

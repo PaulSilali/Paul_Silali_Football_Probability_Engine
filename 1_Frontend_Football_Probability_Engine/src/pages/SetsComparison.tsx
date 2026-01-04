@@ -2,6 +2,8 @@ import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Info, Calculator, TrendingUp, Target, Zap, Scale, Users, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
@@ -422,14 +424,11 @@ export default function SetsComparison() {
   };
 
   return (
-    <div className="p-6 space-y-6 animate-fade-in">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div className="flex-1">
-          <h1 className="text-2xl font-bold text-foreground text-glow">Probability Sets Comparison</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Compare 7 different probability estimation approaches (A-G)
-          </p>
-        </div>
+    <PageLayout
+      title="Probability Sets Comparison"
+      description="Compare 7 different probability estimation approaches (A-G)"
+      icon={<Scale className="h-6 w-6" />}
+    >
         <div className="flex items-center gap-4">
           {/* Jackpot Selector */}
           <div className="flex items-center gap-2">
@@ -478,7 +477,6 @@ export default function SetsComparison() {
             </Label>
           </div>
         </div>
-      </div>
 
       {/* Set Selection & Explanations */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -982,6 +980,6 @@ export default function SetsComparison() {
           <span className="ml-2 text-muted-foreground">Loading probabilities...</span>
         </div>
       )}
-    </div>
+    </PageLayout>
   );
 }

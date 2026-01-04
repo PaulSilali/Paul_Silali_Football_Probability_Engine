@@ -1,0 +1,111 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,2021,2020-10-17,Forfar,Dumbarton,224,224,False
+SC2,2021,2020-10-17,Montrose,Falkirk,221,224,False
+SC2,2021,2020-10-17,Airdrie Utd,Peterhead,224,224,False
+SC2,2021,2020-10-17,Cove Rangers,East Fife,7,224,False
+SC2,2021,2020-10-17,Clyde,Partick,224,7,False
+SC2,2021,2020-10-24,Falkirk,Forfar,7,7,False
+SC2,2021,2020-10-24,Partick,Airdrie Utd,7,7,False
+SC2,2021,2020-10-24,Peterhead,Cove Rangers,7,7,False
+SC2,2021,2020-10-24,East Fife,Montrose,7,7,False
+SC2,2021,2020-10-31,Cove Rangers,Partick,7,7,False
+SC2,2021,2020-10-31,Falkirk,East Fife,7,7,False
+SC2,2021,2020-10-31,Forfar,Montrose,7,7,False
+SC2,2021,2020-10-31,Airdrie Utd,Dumbarton,7,14,False
+SC2,2021,2020-10-31,Clyde,Peterhead,14,7,False
+SC2,2021,2020-11-03,Dumbarton,Clyde,3,3,True
+SC2,2021,2020-11-07,East Fife,Dumbarton,7,4,False
+SC2,2021,2020-11-07,Montrose,Peterhead,7,7,False
+SC2,2021,2020-11-07,Partick,Falkirk,7,7,False
+SC2,2021,2020-11-07,Cove Rangers,Forfar,7,7,False
+SC2,2021,2020-11-07,Airdrie Utd,Clyde,7,4,False
+SC2,2021,2020-11-21,Forfar,Airdrie Utd,14,14,False
+SC2,2021,2020-11-21,Partick,East Fife,14,14,False
+SC2,2021,2020-11-21,Peterhead,Dumbarton,14,14,False
+SC2,2021,2020-11-21,Clyde,Montrose,14,14,False
+SC2,2021,2020-11-21,Falkirk,Cove Rangers,14,14,False
+SC2,2021,2020-11-24,Dumbarton,Falkirk,3,3,True
+SC2,2021,2020-11-28,Montrose,Partick,7,7,False
+SC2,2021,2020-11-28,Peterhead,Forfar,7,7,False
+SC2,2021,2020-11-28,Airdrie Utd,Cove Rangers,7,7,False
+SC2,2021,2020-12-05,Cove Rangers,Montrose,7,7,False
+SC2,2021,2020-12-05,East Fife,Airdrie Utd,14,7,False
+SC2,2021,2020-12-05,Falkirk,Peterhead,11,7,False
+SC2,2021,2020-12-05,Partick,Dumbarton,7,11,False
+SC2,2021,2020-12-12,Dumbarton,Cove Rangers,7,7,False
+SC2,2021,2020-12-12,Forfar,Partick,14,7,False
+SC2,2021,2020-12-12,Peterhead,East Fife,7,7,False
+SC2,2021,2020-12-12,Clyde,Falkirk,21,7,False
+SC2,2021,2020-12-12,Airdrie Utd,Montrose,7,7,False
+SC2,2021,2020-12-19,Montrose,Dumbarton,7,7,False
+SC2,2021,2020-12-19,Partick,Peterhead,7,7,False
+SC2,2021,2020-12-19,Cove Rangers,Clyde,7,7,False
+SC2,2021,2020-12-19,East Fife,Forfar,7,7,False
+SC2,2021,2020-12-20,Falkirk,Airdrie Utd,8,8,False
+SC2,2021,2020-12-22,Peterhead,Montrose,3,3,True
+SC2,2021,2020-12-26,Forfar,Cove Rangers,7,7,False
+SC2,2021,2020-12-26,Falkirk,Partick,6,7,False
+SC2,2021,2020-12-26,Clyde,Airdrie Utd,7,6,False
+SC2,2021,2021-01-02,Montrose,Forfar,11,7,False
+SC2,2021,2021-01-02,East Fife,Falkirk,14,7,False
+SC2,2021,2021-01-02,Cove Rangers,Peterhead,7,11,False
+SC2,2021,2021-03-20,Falkirk,Montrose,77,77,False
+SC2,2021,2021-03-20,Partick,Cove Rangers,84,77,False
+SC2,2021,2021-03-20,Peterhead,Airdrie Utd,77,84,False
+SC2,2021,2021-03-20,Clyde,East Fife,84,77,False
+SC2,2021,2021-03-20,Dumbarton,Forfar,91,77,False
+SC2,2021,2021-03-27,East Fife,Cove Rangers,7,7,False
+SC2,2021,2021-03-27,Airdrie Utd,Partick,7,7,False
+SC2,2021,2021-03-27,Dumbarton,Peterhead,7,7,False
+SC2,2021,2021-03-27,Forfar,Falkirk,7,7,False
+SC2,2021,2021-03-27,Montrose,Clyde,7,7,False
+SC2,2021,2021-03-30,Montrose,East Fife,3,3,True
+SC2,2021,2021-03-30,Cove Rangers,Airdrie Utd,3,3,True
+SC2,2021,2021-03-30,Falkirk,Dumbarton,3,3,True
+SC2,2021,2021-03-30,Partick,Forfar,3,3,True
+SC2,2021,2021-03-30,Peterhead,Clyde,3,3,True
+SC2,2021,2021-04-01,East Fife,Clyde,2,2,True
+SC2,2021,2021-04-01,Dumbarton,Airdrie Utd,2,2,True
+SC2,2021,2021-04-06,Forfar,Peterhead,7,7,True
+SC2,2021,2021-04-06,Dumbarton,Montrose,5,7,True
+SC2,2021,2021-04-06,Airdrie Utd,Falkirk,5,7,True
+SC2,2021,2021-04-06,Clyde,Cove Rangers,5,7,True
+SC2,2021,2021-04-06,East Fife,Partick,5,7,True
+SC2,2021,2021-04-08,Clyde,Forfar,2,2,True
+SC2,2021,2021-04-08,Dumbarton,East Fife,2,2,True
+SC2,2021,2021-04-10,Montrose,Airdrie Utd,4,4,False
+SC2,2021,2021-04-10,Cove Rangers,Dumbarton,4,2,False
+SC2,2021,2021-04-10,Falkirk,Clyde,4,2,False
+SC2,2021,2021-04-10,Forfar,East Fife,2,2,False
+SC2,2021,2021-04-10,Peterhead,Partick,4,4,False
+SC2,2021,2021-04-13,Partick,Clyde,3,3,True
+SC2,2021,2021-04-13,Airdrie Utd,Forfar,3,3,True
+SC2,2021,2021-04-15,Clyde,Dumbarton,2,5,True
+SC2,2021,2021-04-15,Partick,Montrose,2,5,True
+SC2,2021,2021-04-17,Cove Rangers,Falkirk,7,7,False
+SC2,2021,2021-04-17,East Fife,Peterhead,7,7,False
+SC2,2021,2021-04-20,Forfar,Clyde,7,5,True
+SC2,2021,2021-04-20,Airdrie Utd,East Fife,7,3,True
+SC2,2021,2021-04-20,Dumbarton,Partick,5,5,True
+SC2,2021,2021-04-20,Montrose,Cove Rangers,5,3,True
+SC2,2021,2021-04-20,Peterhead,Falkirk,3,3,True
+SC2,2021,2021-04-24,Partick,Airdrie Utd,4,4,False
+SC2,2021,2021-04-24,Peterhead,Clyde,4,4,False
+SC2,2021,2021-04-24,Falkirk,Cove Rangers,4,4,False
+SC2,2021,2021-04-24,East Fife,Dumbarton,4,4,False
+SC2,2021,2021-04-27,Dumbarton,Forfar,3,7,True
+SC2,2021,2021-04-27,Airdrie Utd,Montrose,3,7,True
+SC2,2021,2021-04-27,Cove Rangers,Partick,3,3,True
+SC2,2021,2021-04-29,Montrose,Cove Rangers,2,2,True
+SC2,2021,2021-04-29,Partick,Falkirk,2,5,True
+SC2,2021,2021-04-29,East Fife,Peterhead,5,5,True
+SC2,2021,2021-04-29,Forfar,Clyde,2,5,True
+SC2,2021,2021-05-01,Falkirk,Montrose,2,2,False
+SC2,2021,2021-05-01,Peterhead,Forfar,2,2,False
+SC2,2021,2021-05-01,Clyde,Dumbarton,2,4,False
+SC2,2021,2021-05-01,Cove Rangers,Airdrie Utd,2,4,False
+SC2,2021,2021-05-04,Forfar,East Fife,3,5,True
+SC2,2021,2021-05-04,Montrose,Partick,3,5,True
+SC2,2021,2021-05-04,Airdrie Utd,Falkirk,3,3,True
+SC2,2021,2021-05-04,Dumbarton,Peterhead,3,3,True
+SC2,2021,2021-05-06,Clyde,East Fife,5,2,True

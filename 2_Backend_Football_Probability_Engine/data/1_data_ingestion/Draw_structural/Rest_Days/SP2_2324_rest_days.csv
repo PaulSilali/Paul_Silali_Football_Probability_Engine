@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,2324,2023-08-11,Amorebieta,Leganes,440,76,False
+SP2,2324,2023-08-11,Valladolid,Sp Gijon,439,75,False
+SP2,2324,2023-08-12,Santander,Eibar,76,77,False
+SP2,2324,2023-08-12,Elche,Ferrol,1118,7,False
+SP2,2324,2023-08-12,Zaragoza,Villarreal B,78,77,False
+SP2,2324,2023-08-13,Burgos,Huesca,78,78,False
+SP2,2324,2023-08-13,Leganes,Andorra,2,78,False
+SP2,2324,2023-08-13,Albacete,Espanol,78,805,False
+SP2,2324,2023-08-13,Cartagena,Eldense,77,7,False
+SP2,2324,2023-08-14,Mirandes,Alcorcon,79,442,False
+SP2,2324,2023-08-14,Tenerife,Oviedo,80,79,False
+SP2,2324,2023-08-18,Andorra,Cartagena,5,5,False
+SP2,2324,2023-08-18,Zaragoza,Valladolid,6,7,False
+SP2,2324,2023-08-19,Leganes,Burgos,6,6,False
+SP2,2324,2023-08-19,Alcorcon,Leganes,5,6,False
+SP2,2324,2023-08-19,Espanol,Santander,6,7,False
+SP2,2324,2023-08-19,Eibar,Elche,7,7,False
+SP2,2324,2023-08-20,Sp Gijon,Mirandes,9,6,False
+SP2,2324,2023-08-20,Albacete,Amorebieta,7,9,False
+SP2,2324,2023-08-20,Oviedo,Ferrol,6,8,False
+SP2,2324,2023-08-21,Huesca,Tenerife,8,7,False
+SP2,2324,2023-08-21,Villarreal B,Eldense,9,8,False
+SP2,2324,2023-08-25,Cartagena,Leganes,7,6,False
+SP2,2324,2023-08-26,Valladolid,Alcorcon,8,7,False
+SP2,2324,2023-08-26,Tenerife,Zaragoza,5,8,False
+SP2,2324,2023-08-26,Burgos,Oviedo,7,6,False
+SP2,2324,2023-08-26,Elche,Villarreal B,7,5,False
+SP2,2324,2023-08-27,Ferrol,Sp Gijon,7,7,False
+SP2,2324,2023-08-27,Amorebieta,Andorra,7,9,False
+SP2,2324,2023-08-27,Mirandes,Espanol,7,8,False
+SP2,2324,2023-08-27,Leganes,Albacete,2,7,False
+SP2,2324,2023-08-28,Eldense,Eibar,7,9,False
+SP2,2324,2023-08-28,Santander,Huesca,9,7,False
+SP2,2324,2023-09-01,Albacete,Valladolid,5,6,False
+SP2,2324,2023-09-01,Alcorcon,Ferrol,6,5,False
+SP2,2324,2023-09-02,Sp Gijon,Burgos,6,7,False
+SP2,2324,2023-09-02,Leganes,Oviedo,6,7,False
+SP2,2324,2023-09-02,Elche,Santander,7,5,False
+SP2,2324,2023-09-02,Villarreal B,Cartagena,7,8,False
+SP2,2324,2023-09-03,Huesca,Mirandes,6,7,False
+SP2,2324,2023-09-03,Andorra,Tenerife,7,8,False
+SP2,2324,2023-09-03,Eibar,Leganes,6,1,False
+SP2,2324,2023-09-03,Espanol,Amorebieta,7,7,False
+SP2,2324,2023-09-03,Zaragoza,Eldense,8,6,False
+SP2,2324,2023-09-08,Leganes,Espanol,5,5,False
+SP2,2324,2023-09-09,Tenerife,Albacete,6,8,False
+SP2,2324,2023-09-09,Leganes,Huesca,1,6,False
+SP2,2324,2023-09-09,Oviedo,Sp Gijon,7,7,False
+SP2,2324,2023-09-09,Burgos,Eibar,7,6,False
+SP2,2324,2023-09-10,Valladolid,Elche,9,8,False
+SP2,2324,2023-09-10,Ferrol,Villarreal B,9,8,False
+SP2,2324,2023-09-10,Santander,Amorebieta,8,7,False
+SP2,2324,2023-09-10,Cartagena,Zaragoza,8,7,False
+SP2,2324,2023-09-10,Mirandes,Andorra,7,7,False
+SP2,2324,2023-09-11,Eldense,Alcorcon,8,10,False
+SP2,2324,2023-09-15,Zaragoza,Santander,5,5,False
+SP2,2324,2023-09-16,Valladolid,Cartagena,6,6,False
+SP2,2324,2023-09-16,Albacete,Burgos,7,7,False
+SP2,2324,2023-09-16,Huesca,Villarreal B,7,6,False
+SP2,2324,2023-09-16,Alcorcon,Leganes,5,7,False
+SP2,2324,2023-09-17,Sp Gijon,Tenerife,8,8,False
+SP2,2324,2023-09-17,Amorebieta,Mirandes,7,7,False
+SP2,2324,2023-09-17,Eibar,Ferrol,8,7,False
+SP2,2324,2023-09-17,Elche,Leganes,7,1,False
+SP2,2324,2023-09-17,Espanol,Eldense,9,6,False
+SP2,2324,2023-09-18,Andorra,Oviedo,8,9,False
+SP2,2324,2023-09-22,Cartagena,Eibar,6,5,False
+SP2,2324,2023-09-23,Alcorcon,Huesca,7,7,False
+SP2,2324,2023-09-23,Santander,Albacete,8,7,False
+SP2,2324,2023-09-23,Andorra,Sp Gijon,5,6,False
+SP2,2324,2023-09-23,Leganes,Eldense,6,6,False
+SP2,2324,2023-09-23,Burgos,Elche,7,6,False
+SP2,2324,2023-09-24,Villarreal B,Amorebieta,8,7,False
+SP2,2324,2023-09-24,Oviedo,Valladolid,6,8,False
+SP2,2324,2023-09-24,Mirandes,Leganes,7,1,False
+SP2,2324,2023-09-25,Ferrol,Zaragoza,8,10,False
+SP2,2324,2023-09-25,Tenerife,Espanol,8,8,False
+SP2,2324,2023-09-29,Leganes,Santander,5,6,False
+SP2,2324,2023-09-30,Elche,Leganes,7,1,False
+SP2,2324,2023-09-30,Albacete,Andorra,7,7,False
+SP2,2324,2023-09-30,Villarreal B,Alcorcon,6,7,False
+SP2,2324,2023-09-30,Eibar,Tenerife,8,5,False
+SP2,2324,2023-10-01,Huesca,Sp Gijon,8,8,False
+SP2,2324,2023-10-01,Eldense,Oviedo,8,7,False
+SP2,2324,2023-10-01,Valladolid,Burgos,7,8,False
+SP2,2324,2023-10-01,Amorebieta,Cartagena,7,9,False
+SP2,2324,2023-10-01,Zaragoza,Mirandes,6,7,False
+SP2,2324,2023-10-02,Espanol,Ferrol,7,7,False
+SP2,2324,2023-10-03,Tenerife,Santander,3,4,True
+SP2,2324,2023-10-03,Alcorcon,Albacete,3,3,True
+SP2,2324,2023-10-03,Leganes,Villarreal B,3,3,True
+SP2,2324,2023-10-04,Oviedo,Huesca,3,3,True
+SP2,2324,2023-10-04,Eldense,Valladolid,3,3,True
+SP2,2324,2023-10-04,Burgos,Leganes,3,1,True
+SP2,2324,2023-10-04,Sp Gijon,Elche,3,4,True
+SP2,2324,2023-10-05,Mirandes,Eibar,4,5,True
+SP2,2324,2023-10-05,Andorra,Zaragoza,5,4,True
+SP2,2324,2023-10-05,Cartagena,Espanol,4,3,True
+SP2,2324,2023-10-05,Ferrol,Amorebieta,3,4,True
+SP2,2324,2023-10-06,Albacete,Leganes,3,2,False
+SP2,2324,2023-10-07,Huesca,Eldense,3,3,False
+SP2,2324,2023-10-07,Santander,Sp Gijon,4,3,False
+SP2,2324,2023-10-07,Leganes,Oviedo,1,3,False
+SP2,2324,2023-10-08,Zaragoza,Alcorcon,3,5,False
+SP2,2324,2023-10-08,Amorebieta,Eibar,3,3,False
+SP2,2324,2023-10-08,Valladolid,Mirandes,4,3,False
+SP2,2324,2023-10-08,Ferrol,Cartagena,3,3,False
+SP2,2324,2023-10-08,Tenerife,Burgos,5,4,False
+SP2,2324,2023-10-09,Elche,Andorra,5,4,False
+SP2,2324,2023-10-09,Villarreal B,Espanol,6,4,False
+SP2,2324,2023-10-13,Oviedo,Albacete,6,7,False
+SP2,2324,2023-10-14,Cartagena,Santander,6,7,False
+SP2,2324,2023-10-14,Sp Gijon,Zaragoza,7,6,False
+SP2,2324,2023-10-14,Espanol,Valladolid,5,6,False
+SP2,2324,2023-10-14,Mirandes,Tenerife,6,6,False
+SP2,2324,2023-10-15,Leganes,Amorebieta,8,7,False
+SP2,2324,2023-10-15,Burgos,Villarreal B,7,6,False
+SP2,2324,2023-10-15,Eldense,Elche,8,6,False
+SP2,2324,2023-10-15,Andorra,Alcorcon,6,7,False
+SP2,2324,2023-10-15,Eibar,Huesca,7,8,False
+SP2,2324,2023-10-16,Leganes,Ferrol,1,8,False
+SP2,2324,2023-10-20,Espanol,Leganes,6,4,False
+SP2,2324,2023-10-21,Villarreal B,Mirandes,6,7,False
+SP2,2324,2023-10-21,Zaragoza,Eibar,7,6,False
+SP2,2324,2023-10-21,Tenerife,Leganes,7,1,False
+SP2,2324,2023-10-21,Amorebieta,Oviedo,6,8,False
+SP2,2324,2023-10-22,Ferrol,Eldense,6,7,False
+SP2,2324,2023-10-22,Santander,Burgos,8,7,False
+SP2,2324,2023-10-22,Valladolid,Andorra,8,7,False
+SP2,2324,2023-10-22,Albacete,Sp Gijon,9,8,False
+SP2,2324,2023-10-22,Huesca,Elche,7,7,False
+SP2,2324,2023-10-23,Alcorcon,Cartagena,8,9,False
+SP2,2324,2023-10-27,Eibar,Valladolid,6,5,False
+SP2,2324,2023-10-28,Sp Gijon,Espanol,6,8,False
+SP2,2324,2023-10-28,Elche,Tenerife,6,7,False
+SP2,2324,2023-10-28,Eldense,Amorebieta,6,7,False
+SP2,2324,2023-10-28,Andorra,Leganes,6,7,False
+SP2,2324,2023-10-29,Santander,Ferrol,7,7,False
+SP2,2324,2023-10-29,Huesca,Albacete,7,7,False
+SP2,2324,2023-10-29,Mirandes,Cartagena,8,6,False
+SP2,2324,2023-10-29,Leganes,Villarreal B,1,8,False
+SP2,2324,2023-10-29,Oviedo,Alcorcon,8,6,False
+SP2,2324,2023-10-30,Burgos,Zaragoza,8,9,False
+SP2,2324,2023-11-03,Espanol,Eibar,6,7,False
+SP2,2324,2023-11-04,Valladolid,Tenerife,8,7,False
+SP2,2324,2023-11-04,Albacete,Elche,6,7,False
+SP2,2324,2023-11-04,Villarreal B,Sp Gijon,6,7,False
+SP2,2324,2023-11-04,Leganes,Mirandes,6,6,False
+SP2,2324,2023-11-05,Eldense,Burgos,8,6,False
+SP2,2324,2023-11-05,Amorebieta,Huesca,8,7,False
+SP2,2324,2023-11-05,Ferrol,Andorra,7,8,False
+SP2,2324,2023-11-05,Alcorcon,Santander,7,7,False
+SP2,2324,2023-11-05,Cartagena,Leganes,7,1,False
+SP2,2324,2023-11-06,Zaragoza,Oviedo,7,8,False
+SP2,2324,2023-11-10,Leganes,Leganes,5,5,False
+SP2,2324,2023-11-11,Sp Gijon,Amorebieta,7,6,False
+SP2,2324,2023-11-11,Mirandes,Ferrol,7,6,False
+SP2,2324,2023-11-11,Elche,Zaragoza,7,5,False
+SP2,2324,2023-11-11,Santander,Valladolid,6,7,False
+SP2,2324,2023-11-12,Eibar,Albacete,9,8,False
+SP2,2324,2023-11-12,Burgos,Alcorcon,7,7,False
+SP2,2324,2023-11-12,Andorra,Eldense,7,7,False
+SP2,2324,2023-11-12,Huesca,Espanol,7,9,False
+SP2,2324,2023-11-12,Tenerife,Villarreal B,8,8,False
+SP2,2324,2023-11-13,Oviedo,Cartagena,7,8,False
+SP2,2324,2023-11-17,Valladolid,Leganes,6,7,False
+SP2,2324,2023-11-18,Zaragoza,Huesca,7,6,False
+SP2,2324,2023-11-18,Espanol,Elche,6,7,False
+SP2,2324,2023-11-18,Alcorcon,Sp Gijon,6,7,False
+SP2,2324,2023-11-18,Amorebieta,Tenerife,7,6,False
+SP2,2324,2023-11-19,Eldense,Mirandes,7,8,False
+SP2,2324,2023-11-19,Oviedo,Eibar,6,7,False
+SP2,2324,2023-11-19,Cartagena,Albacete,6,7,False
+SP2,2324,2023-11-19,Villarreal B,Andorra,7,7,False
+SP2,2324,2023-11-19,Ferrol,Burgos,8,7,False
+SP2,2324,2023-11-20,Leganes,Santander,3,9,False
+SP2,2324,2023-11-24,Huesca,Valladolid,6,7,False
+SP2,2324,2023-11-25,Eibar,Leganes,6,5,False
+SP2,2324,2023-11-25,Burgos,Andorra,6,6,False
+SP2,2324,2023-11-25,Santander,Villarreal B,5,6,False
+SP2,2324,2023-11-25,Albacete,Zaragoza,6,7,False
+SP2,2324,2023-11-26,Mirandes,Oviedo,7,7,False
+SP2,2324,2023-11-26,Leganes,Ferrol,1,7,False
+SP2,2324,2023-11-26,Elche,Amorebieta,8,8,False
+SP2,2324,2023-11-26,Espanol,Alcorcon,8,8,False
+SP2,2324,2023-11-26,Tenerife,Cartagena,8,7,False
+SP2,2324,2023-11-27,Sp Gijon,Eldense,9,8,False
+SP2,2324,2023-12-01,Oviedo,Espanol,5,5,False
+SP2,2324,2023-12-02,Eldense,Tenerife,5,6,False
+SP2,2324,2023-12-02,Zaragoza,Leganes,7,6,False
+SP2,2324,2023-12-02,Leganes,Valladolid,6,8,False
+SP2,2324,2023-12-02,Cartagena,Sp Gijon,6,5,False
+SP2,2324,2023-12-03,Amorebieta,Burgos,7,8,False
+SP2,2324,2023-12-03,Ferrol,Albacete,7,8,False
+SP2,2324,2023-12-03,Alcorcon,Elche,7,7,False
+SP2,2324,2023-12-03,Andorra,Huesca,8,9,False
+SP2,2324,2023-12-03,Mirandes,Santander,7,8,False
+SP2,2324,2023-12-04,Villarreal B,Eibar,9,9,False
+SP2,2324,2023-12-08,Albacete,Villarreal B,5,4,False
+SP2,2324,2023-12-08,Espanol,Zaragoza,7,6,False
+SP2,2324,2023-12-09,Sp Gijon,Leganes,7,7,False
+SP2,2324,2023-12-09,Burgos,Mirandes,6,6,False
+SP2,2324,2023-12-09,Valladolid,Amorebieta,7,6,False
+SP2,2324,2023-12-10,Eibar,Andorra,6,7,False
+SP2,2324,2023-12-10,Elche,Cartagena,7,8,False
+SP2,2324,2023-12-10,Leganes,Eldense,1,8,False
+SP2,2324,2023-12-10,Huesca,Ferrol,7,7,False
+SP2,2324,2023-12-10,Santander,Oviedo,7,9,False
+SP2,2324,2023-12-11,Tenerife,Alcorcon,9,8,False
+SP2,2324,2023-12-15,Oviedo,Elche,5,5,False
+SP2,2324,2023-12-16,Eldense,Santander,6,6,False
+SP2,2324,2023-12-16,Andorra,Espanol,6,8,False
+SP2,2324,2023-12-16,Cartagena,Burgos,6,7,False
+SP2,2324,2023-12-16,Sp Gijon,Leganes,7,6,False
+SP2,2324,2023-12-16,Mirandes,Albacete,7,8,False
+SP2,2324,2023-12-17,Ferrol,Tenerife,7,6,False
+SP2,2324,2023-12-17,Alcorcon,Eibar,6,7,False
+SP2,2324,2023-12-17,Leganes,Huesca,1,7,False
+SP2,2324,2023-12-17,Amorebieta,Zaragoza,8,9,False
+SP2,2324,2023-12-18,Villarreal B,Valladolid,10,9,False
+SP2,2324,2023-12-19,Santander,Andorra,3,3,True
+SP2,2324,2023-12-19,Elche,Mirandes,4,3,True
+SP2,2324,2023-12-19,Espanol,Burgos,3,3,True
+SP2,2324,2023-12-19,Albacete,Eldense,3,3,True
+SP2,2324,2023-12-20,Zaragoza,Leganes,3,3,True
+SP2,2324,2023-12-20,Eibar,Sp Gijon,3,4,True
+SP2,2324,2023-12-20,Leganes,Tenerife,3,3,True
+SP2,2324,2023-12-21,Valladolid,Ferrol,3,4,True
+SP2,2324,2023-12-21,Amorebieta,Alcorcon,4,4,True
+SP2,2324,2023-12-21,Villarreal B,Oviedo,3,6,True
+SP2,2324,2023-12-21,Huesca,Cartagena,4,5,True
+SP2,2324,2024-01-12,Eibar,Santander,23,24,False
+SP2,2324,2024-01-13,Tenerife,Elche,24,25,False
+SP2,2324,2024-01-13,Alcorcon,Mirandes,23,25,False
+SP2,2324,2024-01-13,Leganes,Albacete,24,25,False
+SP2,2324,2024-01-13,Oviedo,Amorebieta,23,23,False
+SP2,2324,2024-01-13,Burgos,Valladolid,25,23,False
+SP2,2324,2024-01-13,Ferrol,Espanol,23,25,False
+SP2,2324,2024-01-14,Sp Gijon,Huesca,25,24,False
+SP2,2324,2024-01-14,Cartagena,Villarreal B,24,24,False
+SP2,2324,2024-01-14,Andorra,Leganes,26,1,False
+SP2,2324,2024-01-15,Eldense,Zaragoza,27,26,False
+SP2,2324,2024-01-20,Espanol,Villarreal B,7,6,False
+SP2,2324,2024-01-20,Tenerife,Sp Gijon,7,6,False
+SP2,2324,2024-01-20,Ferrol,Oviedo,7,7,False
+SP2,2324,2024-01-20,Albacete,Alcorcon,7,7,False
+SP2,2324,2024-01-20,Amorebieta,Eldense,7,5,False
+SP2,2324,2024-01-20,Zaragoza,Andorra,5,6,False
+SP2,2324,2024-01-21,Santander,Cartagena,9,7,False
+SP2,2324,2024-01-21,Elche,Valladolid,8,8,False
+SP2,2324,2024-01-21,Huesca,Eibar,7,9,False
+SP2,2324,2024-01-21,Mirandes,Leganes,8,7,False
+SP2,2324,2024-01-22,Leganes,Burgos,1,9,False
+SP2,2324,2024-01-26,Eibar,Mirandes,5,5,False
+SP2,2324,2024-01-27,Leganes,Tenerife,5,7,False
+SP2,2324,2024-01-27,Oviedo,Leganes,7,5,False
+SP2,2324,2024-01-27,Cartagena,Amorebieta,6,7,False
+SP2,2324,2024-01-27,Alcorcon,Zaragoza,7,7,False
+SP2,2324,2024-01-28,Sp Gijon,Ferrol,8,8,False
+SP2,2324,2024-01-28,Eldense,Espanol,8,8,False
+SP2,2324,2024-01-28,Andorra,Elche,8,7,False
+SP2,2324,2024-01-28,Villarreal B,Huesca,8,7,False
+SP2,2324,2024-01-28,Burgos,Albacete,6,8,False
+SP2,2324,2024-01-29,Valladolid,Santander,8,8,False
+SP2,2324,2024-02-02,Elche,Burgos,5,5,False
+SP2,2324,2024-02-03,Leganes,Valladolid,7,5,False
+SP2,2324,2024-02-03,Tenerife,Andorra,7,6,False
+SP2,2324,2024-02-03,Mirandes,Villarreal B,8,6,False
+SP2,2324,2024-02-03,Albacete,Cartagena,6,7,False
+SP2,2324,2024-02-03,Huesca,Alcorcon,6,7,False
+SP2,2324,2024-02-04,Oviedo,Eldense,8,7,False
+SP2,2324,2024-02-04,Ferrol,Eibar,7,9,False
+SP2,2324,2024-02-04,Amorebieta,Santander,8,6,False
+SP2,2324,2024-02-04,Espanol,Leganes,7,1,False
+SP2,2324,2024-02-05,Zaragoza,Sp Gijon,9,8,False
+SP2,2324,2024-02-09,Leganes,Leganes,5,5,False
+SP2,2324,2024-02-10,Sp Gijon,Oviedo,5,6,False
+SP2,2324,2024-02-10,Santander,Espanol,6,6,False
+SP2,2324,2024-02-10,Eldense,Huesca,6,7,False
+SP2,2324,2024-02-10,Amorebieta,Elche,6,8,False
+SP2,2324,2024-02-11,Burgos,Ferrol,9,7,False
+SP2,2324,2024-02-11,Alcorcon,Andorra,8,8,False
+SP2,2324,2024-02-11,Villarreal B,Tenerife,8,8,False
+SP2,2324,2024-02-11,Cartagena,Mirandes,8,8,False
+SP2,2324,2024-02-11,Eibar,Zaragoza,7,6,False
+SP2,2324,2024-02-12,Valladolid,Albacete,9,9,False
+SP2,2324,2024-02-16,Zaragoza,Cartagena,5,5,False
+SP2,2324,2024-02-17,Sp Gijon,Valladolid,7,5,False
+SP2,2324,2024-02-17,Espanol,Mirandes,7,6,False
+SP2,2324,2024-02-17,Andorra,Villarreal B,6,6,False
+SP2,2324,2024-02-17,Oviedo,Burgos,7,6,False
+SP2,2324,2024-02-18,Ferrol,Leganes,7,9,False
+SP2,2324,2024-02-18,Leganes,Alcorcon,9,7,False
+SP2,2324,2024-02-18,Huesca,Amorebieta,8,8,False
+SP2,2324,2024-02-18,Elche,Eibar,8,7,False
+SP2,2324,2024-02-18,Albacete,Santander,6,8,False
+SP2,2324,2024-02-19,Tenerife,Eldense,8,9,False
+SP2,2324,2024-02-23,Valladolid,Oviedo,6,6,False
+SP2,2324,2024-02-24,Eibar,Espanol,6,7,False
+SP2,2324,2024-02-24,Santander,Leganes,6,6,False
+SP2,2324,2024-02-24,Villarreal B,Zaragoza,7,8,False
+SP2,2324,2024-02-25,Amorebieta,Albacete,7,7,False
+SP2,2324,2024-02-25,Eldense,Ferrol,6,7,False
+SP2,2324,2024-02-25,Alcorcon,Tenerife,7,6,False
+SP2,2324,2024-02-25,Burgos,Sp Gijon,8,8,False
+SP2,2324,2024-02-25,Cartagena,Elche,9,7,False
+SP2,2324,2024-02-26,Mirandes,Huesca,9,8,False
+SP2,2324,2024-03-01,Sp Gijon,Albacete,5,5,False
+SP2,2324,2024-03-02,Espanol,Huesca,7,5,False
+SP2,2324,2024-03-02,Ferrol,Santander,6,7,False
+SP2,2324,2024-03-02,Oviedo,Leganes,8,7,False
+SP2,2324,2024-03-02,Burgos,Cartagena,6,6,False
+SP2,2324,2024-03-02,Eldense,Villarreal B,6,7,False
+SP2,2324,2024-03-03,Zaragoza,Amorebieta,8,7,False
+SP2,2324,2024-03-03,Leganes,Eibar,1,8,False
+SP2,2324,2024-03-03,Andorra,Valladolid,15,9,False
+SP2,2324,2024-03-03,Tenerife,Mirandes,7,6,False
+SP2,2324,2024-03-04,Elche,Alcorcon,8,8,False
+SP2,2324,2024-03-08,Huesca,Andorra,6,5,False
+SP2,2324,2024-03-09,Cartagena,Ferrol,7,7,False
+SP2,2324,2024-03-09,Valladolid,Zaragoza,6,6,False
+SP2,2324,2024-03-09,Mirandes,Eldense,6,7,False
+SP2,2324,2024-03-09,Albacete,Oviedo,8,7,False
+SP2,2324,2024-03-10,Eibar,Burgos,7,8,False
+SP2,2324,2024-03-10,Leganes,Sp Gijon,7,9,False
+SP2,2324,2024-03-10,Villarreal B,Elche,8,6,False
+SP2,2324,2024-03-10,Alcorcon,Espanol,6,8,False
+SP2,2324,2024-03-10,Santander,Tenerife,8,7,False
+SP2,2324,2024-03-11,Amorebieta,Leganes,8,1,False
+SP2,2324,2024-03-13,Leganes,Andorra,2,5,True
+SP2,2324,2024-03-15,Eldense,Cartagena,6,6,False
+SP2,2324,2024-03-16,Burgos,Leganes,6,3,False
+SP2,2324,2024-03-16,Eibar,Villarreal B,6,6,False
+SP2,2324,2024-03-16,Oviedo,Santander,7,6,False
+SP2,2324,2024-03-16,Tenerife,Huesca,6,8,False
+SP2,2324,2024-03-16,Sp Gijon,Alcorcon,6,6,False
+SP2,2324,2024-03-17,Zaragoza,Espanol,8,7,False
+SP2,2324,2024-03-17,Leganes,Mirandes,1,8,False
+SP2,2324,2024-03-17,Ferrol,Valladolid,8,8,False
+SP2,2324,2024-03-17,Elche,Albacete,7,8,False
+SP2,2324,2024-03-18,Andorra,Amorebieta,5,7,False
+SP2,2324,2024-03-23,Alcorcon,Oviedo,7,7,False
+SP2,2324,2024-03-23,Cartagena,Andorra,8,5,False
+SP2,2324,2024-03-23,Espanol,Tenerife,6,7,False
+SP2,2324,2024-03-23,Villarreal B,Leganes,7,6,False
+SP2,2324,2024-03-24,Mirandes,Zaragoza,7,7,False
+SP2,2324,2024-03-24,Santander,Eldense,8,9,False
+SP2,2324,2024-03-24,Amorebieta,Sp Gijon,6,8,False
+SP2,2324,2024-03-24,Huesca,Burgos,8,8,False
+SP2,2324,2024-03-24,Valladolid,Eibar,7,8,False
+SP2,2324,2024-03-24,Leganes,Elche,1,7,False
+SP2,2324,2024-03-25,Albacete,Ferrol,8,8,False
+SP2,2324,2024-03-29,Burgos,Espanol,5,6,False
+SP2,2324,2024-03-30,Andorra,Mirandes,7,6,False
+SP2,2324,2024-03-30,Valladolid,Leganes,6,6,False
+SP2,2324,2024-03-30,Eibar,Eldense,6,6,False
+SP2,2324,2024-03-30,Leganes,Cartagena,6,7,False
+SP2,2324,2024-03-30,Albacete,Huesca,5,6,False
+SP2,2324,2024-03-30,Sp Gijon,Santander,6,6,False
+SP2,2324,2024-03-31,Alcorcon,Amorebieta,8,7,False
+SP2,2324,2024-03-31,Oviedo,Villarreal B,8,8,False
+SP2,2324,2024-03-31,Zaragoza,Tenerife,7,8,False
+SP2,2324,2024-03-31,Ferrol,Elche,6,7,False
+SP2,2324,2024-04-05,Amorebieta,Ferrol,5,5,False
+SP2,2324,2024-04-05,Elche,Oviedo,5,5,False
+SP2,2324,2024-04-06,Leganes,Zaragoza,7,6,False
+SP2,2324,2024-04-06,Eldense,Andorra,7,7,False
+SP2,2324,2024-04-07,Huesca,Leganes,8,1,False
+SP2,2324,2024-04-07,Villarreal B,Burgos,7,9,False
+SP2,2324,2024-04-07,Espanol,Albacete,9,8,False
+SP2,2324,2024-04-07,Tenerife,Eibar,7,8,False
+SP2,2324,2024-04-07,Cartagena,Valladolid,8,8,False
+SP2,2324,2024-04-07,Mirandes,Sp Gijon,8,8,False
+SP2,2324,2024-04-08,Santander,Alcorcon,9,8,False
+SP2,2324,2024-04-12,Leganes,Espanol,5,5,False
+SP2,2324,2024-04-13,Leganes,Amorebieta,1,8,False
+SP2,2324,2024-04-13,Sp Gijon,Cartagena,6,6,False
+SP2,2324,2024-04-13,Valladolid,Eldense,6,7,False
+SP2,2324,2024-04-14,Burgos,Santander,7,6,False
+SP2,2324,2024-04-14,Ferrol,Huesca,9,7,False
+SP2,2324,2024-04-14,Andorra,Eibar,8,7,False
+SP2,2324,2024-04-14,Zaragoza,Elche,8,9,False
+SP2,2324,2024-04-14,Albacete,Tenerife,7,7,False
+SP2,2324,2024-04-14,Oviedo,Mirandes,9,7,False
+SP2,2324,2024-04-15,Alcorcon,Villarreal B,7,8,False
+SP2,2324,2024-04-19,Tenerife,Leganes,5,6,False
+SP2,2324,2024-04-20,Elche,Sp Gijon,6,7,False
+SP2,2324,2024-04-20,Amorebieta,Valladolid,7,7,False
+SP2,2324,2024-04-20,Santander,Leganes,6,1,False
+SP2,2324,2024-04-20,Villarreal B,Ferrol,5,6,False
+SP2,2324,2024-04-20,Huesca,Zaragoza,6,6,False
+SP2,2324,2024-04-21,Mirandes,Burgos,7,7,False
+SP2,2324,2024-04-21,Espanol,Andorra,9,7,False
+SP2,2324,2024-04-21,Eibar,Alcorcon,7,6,False
+SP2,2324,2024-04-21,Eldense,Albacete,8,7,False
+SP2,2324,2024-04-22,Cartagena,Oviedo,9,8,False
+SP2,2324,2024-04-26,Andorra,Santander,5,6,False
+SP2,2324,2024-04-27,Burgos,Amorebieta,6,7,False
+SP2,2324,2024-04-27,Leganes,Zaragoza,7,7,False
+SP2,2324,2024-04-27,Elche,Espanol,7,6,False
+SP2,2324,2024-04-28,Valladolid,Huesca,8,8,False
+SP2,2324,2024-04-28,Albacete,Eibar,7,7,False
+SP2,2324,2024-04-28,Sp Gijon,Villarreal B,8,8,False
+SP2,2324,2024-04-28,Alcorcon,Eldense,7,7,False
+SP2,2324,2024-04-28,Oviedo,Tenerife,6,9,False
+SP2,2324,2024-04-28,Leganes,Cartagena,1,6,False
+SP2,2324,2024-04-29,Ferrol,Mirandes,9,8,False
+SP2,2324,2024-05-03,Villarreal B,Leganes,5,5,False
+SP2,2324,2024-05-04,Santander,Elche,8,7,False
+SP2,2324,2024-05-04,Cartagena,Alcorcon,6,6,False
+SP2,2324,2024-05-04,Huesca,Oviedo,6,6,False
+SP2,2324,2024-05-04,Mirandes,Valladolid,5,6,False
+SP2,2324,2024-05-05,Espanol,Sp Gijon,8,7,False
+SP2,2324,2024-05-05,Eibar,Amorebieta,7,8,False
+SP2,2324,2024-05-05,Andorra,Albacete,9,7,False
+SP2,2324,2024-05-05,Eldense,Leganes,7,2,False
+SP2,2324,2024-05-05,Zaragoza,Burgos,8,8,False
+SP2,2324,2024-05-05,Tenerife,Ferrol,7,6,False
+SP2,2324,2024-05-10,Burgos,Eldense,5,5,False
+SP2,2324,2024-05-11,Santander,Mirandes,7,7,False
+SP2,2324,2024-05-11,Leganes,Eibar,6,6,False
+SP2,2324,2024-05-11,Sp Gijon,Andorra,6,6,False
+SP2,2324,2024-05-11,Ferrol,Alcorcon,6,7,False
+SP2,2324,2024-05-11,Valladolid,Espanol,7,6,False
+SP2,2324,2024-05-12,Cartagena,Tenerife,8,7,False
+SP2,2324,2024-05-12,Elche,Huesca,8,8,False
+SP2,2324,2024-05-12,Amorebieta,Villarreal B,7,9,False
+SP2,2324,2024-05-12,Oviedo,Zaragoza,8,7,False
+SP2,2324,2024-05-12,Albacete,Leganes,7,1,False
+SP2,2324,2024-05-17,Mirandes,Elche,6,5,False
+SP2,2324,2024-05-18,Tenerife,Amorebieta,6,6,False
+SP2,2324,2024-05-18,Eldense,Leganes,8,6,False
+SP2,2324,2024-05-18,Leganes,Sp Gijon,6,7,False
+SP2,2324,2024-05-18,Huesca,Santander,6,7,False
+SP2,2324,2024-05-18,Andorra,Burgos,7,8,False
+SP2,2324,2024-05-19,Eibar,Cartagena,8,7,False
+SP2,2324,2024-05-19,Alcorcon,Valladolid,8,8,False
+SP2,2324,2024-05-19,Zaragoza,Ferrol,7,8,False
+SP2,2324,2024-05-20,Villarreal B,Albacete,8,8,False
+SP2,2324,2024-05-20,Espanol,Oviedo,9,8,False
+SP2,2324,2024-05-26,Sp Gijon,Eibar,8,7,False
+SP2,2324,2024-05-26,Albacete,Mirandes,6,9,False
+SP2,2324,2024-05-26,Amorebieta,Espanol,8,6,False
+SP2,2324,2024-05-26,Burgos,Tenerife,8,8,False
+SP2,2324,2024-05-26,Cartagena,Huesca,7,8,False
+SP2,2324,2024-05-26,Elche,Eldense,9,8,False
+SP2,2324,2024-05-26,Ferrol,Leganes,7,8,False
+SP2,2324,2024-05-26,Leganes,Alcorcon,8,7,False
+SP2,2324,2024-05-26,Oviedo,Andorra,6,8,False
+SP2,2324,2024-05-26,Santander,Zaragoza,8,7,False
+SP2,2324,2024-05-26,Valladolid,Villarreal B,7,6,False
+SP2,2324,2024-06-02,Eldense,Sp Gijon,7,7,False
+SP2,2324,2024-06-02,Espanol,Cartagena,7,7,False
+SP2,2324,2024-06-02,Leganes,Elche,7,7,False
+SP2,2324,2024-06-02,Mirandes,Amorebieta,7,7,False
+SP2,2324,2024-06-02,Tenerife,Valladolid,7,7,False
+SP2,2324,2024-06-02,Villarreal B,Santander,7,7,False
+SP2,2324,2024-06-02,Zaragoza,Albacete,7,7,False
+SP2,2324,2024-06-02,Eibar,Oviedo,7,7,False
+SP2,2324,2024-06-02,Huesca,Leganes,7,7,False
+SP2,2324,2024-06-02,Andorra,Ferrol,7,7,False
+SP2,2324,2024-06-02,Alcorcon,Burgos,7,7,False

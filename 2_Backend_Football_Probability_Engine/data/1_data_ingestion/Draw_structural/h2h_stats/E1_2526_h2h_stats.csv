@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+39,Derby,42,Blackburn,2526,1,0,0.0,3.0
+31,Middlesbrough,49,Hull,2526,2,0,0.0,3.0
+37,Sheffield United,48,Ipswich,2526,2,0,0.0,4.5
+41,Wrexham,49,Hull,2526,1,0,0.0,2.0
+27,Birmingham,32,Norwich,2526,1,0,0.0,5.0
+33,Oxford,36,West Brom,2526,1,0,0.0,3.0
+40,Portsmouth,46,Swansea,2526,1,0,0.0,1.0
+36,West Brom,46,Swansea,2526,2,0,0.0,3.0
+41,Wrexham,47,Watford,2526,1,1,1.0,4.0
+36,West Brom,39,Derby,2526,1,0,0.0,1.0
+40,Portsmouth,42,Blackburn,2526,1,0,0.0,3.0
+45,Preston,47,Watford,2526,1,1,1.0,2.0
+37,Sheffield United,49,Hull,2526,2,1,0.5,2.5
+37,Sheffield United,47,Watford,2526,2,1,0.5,1.5
+31,Middlesbrough,40,Portsmouth,2526,1,0,0.0,1.0
+32,Norwich,38,Leicester,2526,1,0,0.0,3.0
+38,Leicester,46,Swansea,2526,1,0,0.0,4.0
+33,Oxford,44,Millwall,2526,1,1,1.0,4.0
+33,Oxford,40,Portsmouth,2526,1,0,0.0,1.0
+28,Charlton,41,Wrexham,2526,1,0,0.0,1.0
+31,Middlesbrough,36,West Brom,2526,1,0,0.0,3.0
+31,Middlesbrough,33,Oxford,2526,1,1,1.0,2.0
+39,Derby,41,Wrexham,2526,1,1,1.0,2.0
+30,Southampton,45,Preston,2526,1,0,0.0,2.0
+47,Watford,48,Ipswich,2526,1,1,1.0,2.0
+44,Millwall,46,Swansea,2526,1,1,1.0,2.0
+31,Middlesbrough,32,Norwich,2526,1,0,0.0,3.0
+28,Charlton,38,Leicester,2526,1,0,0.0,1.0
+38,Leicester,48,Ipswich,2526,1,0,0.0,4.0
+48,Ipswich,49,Hull,2526,1,0,0.0,2.0
+29,Coventry,42,Blackburn,2526,1,0,0.0,2.0
+40,Portsmouth,47,Watford,2526,1,1,1.0,4.0
+36,West Brom,38,Leicester,2526,1,1,1.0,2.0
+41,Wrexham,46,Swansea,2526,1,0,0.0,3.0
+43,Bristol City,44,Millwall,2526,2,0,0.0,2.0
+29,Coventry,36,West Brom,2526,1,0,0.0,5.0
+46,Swansea,47,Watford,2526,1,1,1.0,2.0
+38,Leicester,45,Preston,2526,1,0,0.0,3.0
+32,Norwich,36,West Brom,2526,1,0,0.0,1.0
+31,Middlesbrough,34,QPR,2526,1,0,0.0,4.0
+32,Norwich,47,Watford,2526,2,0,0.0,3.0
+32,Norwich,43,Bristol City,2526,1,0,0.0,1.0
+31,Middlesbrough,38,Leicester,2526,1,1,1.0,2.0
+27,Birmingham,31,Middlesbrough,2526,1,0,0.0,3.0
+35,Stoke,45,Preston,2526,1,1,1.0,
+28,Charlton,44,Millwall,2526,1,1,1.0,2.0
+39,Derby,46,Swansea,2526,1,0,0.0,3.0
+27,Birmingham,40,Portsmouth,2526,1,0,0.0,4.0
+30,Southampton,32,Norwich,2526,1,0,0.0,3.0
+36,West Brom,41,Wrexham,2526,1,0,0.0,5.0
+31,Middlesbrough,37,Sheffield United,2526,2,0,0.0,1.0
+27,Birmingham,45,Preston,2526,1,0,0.0,1.0
+30,Southampton,42,Blackburn,2526,1,0,0.0,3.0
+39,Derby,40,Portsmouth,2526,1,1,1.0,2.0
+29,Coventry,39,Derby,2526,1,0,0.0,8.0
+34,QPR,43,Bristol City,2526,1,0,0.0,3.0
+28,Charlton,47,Watford,2526,1,0,0.0,1.0
+36,West Brom,47,Watford,2526,1,0,0.0,3.0
+37,Sheffield United,42,Blackburn,2526,2,1,0.5,2.0
+29,Coventry,34,QPR,2526,1,0,0.0,8.0
+38,Leicester,39,Derby,2526,2,0,0.0,3.5
+29,Coventry,38,Leicester,2526,1,1,1.0,
+35,Stoke,49,Hull,2526,2,0,0.0,2.0
+37,Sheffield United,44,Millwall,2526,2,0,0.0,1.0
+28,Charlton,48,Ipswich,2526,1,0,0.0,3.0
+34,QPR,44,Millwall,2526,1,0,0.0,3.0
+38,Leicester,47,Watford,2526,1,0,0.0,3.0
+29,Coventry,43,Bristol City,2526,1,0,0.0,1.0
+33,Oxford,38,Leicester,2526,1,1,1.0,4.0
+27,Birmingham,35,Stoke,2526,1,0,0.0,1.0
+33,Oxford,42,Blackburn,2526,1,1,1.0,2.0
+38,Leicester,41,Wrexham,2526,1,1,1.0,2.0
+28,Charlton,30,Southampton,2526,1,0,0.0,6.0
+32,Norwich,39,Derby,2526,1,0,0.0,1.0
+31,Middlesbrough,44,Millwall,2526,1,0,0.0,3.0
+31,Middlesbrough,43,Bristol City,2526,1,0,0.0,2.0
+36,West Brom,48,Ipswich,2526,1,0,0.0,1.0
+41,Wrexham,44,Millwall,2526,1,0,0.0,2.0
+28,Charlton,40,Portsmouth,2526,1,0,0.0,3.0
+31,Middlesbrough,42,Blackburn,2526,1,1,1.0,
+34,QPR,35,Stoke,2526,1,0,0.0,1.0
+28,Charlton,37,Sheffield United,2526,2,0,0.0,2.0
+27,Birmingham,47,Watford,2526,2,0,0.0,3.0
+29,Coventry,35,Stoke,2526,1,0,0.0,1.0
+27,Birmingham,28,Charlton,2526,1,1,1.0,2.0
+30,Southampton,39,Derby,2526,1,1,1.0,2.0
+32,Norwich,37,Sheffield United,2526,2,2,1.0,2.0
+29,Coventry,37,Sheffield United,2526,2,0,0.0,4.5
+27,Birmingham,30,Southampton,2526,2,1,0.5,3.0
+37,Sheffield United,41,Wrexham,2526,2,1,0.5,6.0
+44,Millwall,49,Hull,2526,1,0,0.0,4.0
+29,Coventry,45,Preston,2526,1,1,1.0,2.0
+31,Middlesbrough,41,Wrexham,2526,1,1,1.0,2.0
+30,Southampton,41,Wrexham,2526,1,0,0.0,3.0
+27,Birmingham,38,Leicester,2526,1,0,0.0,2.0
+35,Stoke,36,West Brom,2526,1,0,0.0,1.0
+27,Birmingham,46,Swansea,2526,1,0,0.0,1.0
+39,Derby,48,Ipswich,2526,1,1,1.0,4.0
+34,QPR,41,Wrexham,2526,1,0,0.0,4.0
+42,Blackburn,49,Hull,2526,1,0,0.0,3.0
+42,Blackburn,45,Preston,2526,1,0,0.0,3.0
+28,Charlton,32,Norwich,2526,1,0,0.0,1.0
+39,Derby,49,Hull,2526,1,0,0.0,3.0
+32,Norwich,41,Wrexham,2526,1,0,0.0,5.0
+38,Leicester,43,Bristol City,2526,1,1,1.0,4.0
+27,Birmingham,42,Blackburn,2526,1,0,0.0,3.0
+27,Birmingham,44,Millwall,2526,1,0,0.0,4.0
+34,QPR,42,Blackburn,2526,1,0,0.0,1.0
+42,Blackburn,43,Bristol City,2526,1,0,0.0,1.0
+27,Birmingham,29,Coventry,2526,1,0,0.0,3.0
+27,Birmingham,37,Sheffield United,2526,2,1,0.5,3.5
+34,QPR,49,Hull,2526,1,0,0.0,5.0
+36,West Brom,49,Hull,2526,1,0,0.0,1.0
+37,Sheffield United,37,Sheffield United,2526,1,0,0.0,3.0
+36,West Brom,40,Portsmouth,2526,1,1,1.0,2.0
+35,Stoke,41,Wrexham,2526,1,0,0.0,1.0
+36,West Brom,45,Preston,2526,1,0,0.0,3.0
+44,Millwall,45,Preston,2526,1,1,1.0,2.0
+37,Sheffield United,46,Swansea,2526,2,0,0.0,1.5
+30,Southampton,33,Oxford,2526,1,0,0.0,3.0
+28,Charlton,42,Blackburn,2526,1,0,0.0,3.0
+43,Bristol City,46,Swansea,2526,1,0,0.0,3.0
+34,QPR,38,Leicester,2526,1,0,0.0,5.0
+33,Oxford,34,QPR,2526,1,1,1.0,
+30,Southampton,34,QPR,2526,1,0,0.0,3.0
+37,Sheffield United,39,Derby,2526,2,0,0.0,3.5
+32,Norwich,46,Swansea,2526,1,0,0.0,3.0
+33,Oxford,35,Stoke,2526,1,0,0.0,3.0
+37,Sheffield United,43,Bristol City,2526,2,0,0.0,4.0
+36,West Brom,42,Blackburn,2526,1,0,0.0,1.0
+43,Bristol City,45,Preston,2526,1,1,1.0,
+46,Swansea,48,Ipswich,2526,1,0,0.0,5.0
+37,Sheffield United,40,Portsmouth,2526,2,0,0.0,2.5
+30,Southampton,47,Watford,2526,1,1,1.0,4.0
+34,QPR,39,Derby,2526,1,0,0.0,1.0
+27,Birmingham,43,Bristol City,2526,1,0,0.0,1.0
+27,Birmingham,49,Hull,2526,1,0,0.0,5.0
+45,Preston,46,Swansea,2526,1,0,0.0,3.0
+28,Charlton,36,West Brom,2526,1,0,0.0,1.0
+32,Norwich,49,Hull,2526,1,0,0.0,2.0
+30,Southampton,49,Hull,2526,1,0,0.0,4.0
+27,Birmingham,33,Oxford,2526,1,0,0.0,1.0
+30,Southampton,44,Millwall,2526,2,1,0.5,2.5
+36,West Brom,44,Millwall,2526,1,0,0.0,3.0
+40,Portsmouth,44,Millwall,2526,1,0,0.0,4.0
+29,Coventry,40,Portsmouth,2526,1,0,0.0,3.0
+28,Charlton,35,Stoke,2526,1,0,0.0,3.0
+28,Charlton,46,Swansea,2526,1,1,1.0,2.0
+31,Middlesbrough,46,Swansea,2526,1,0,0.0,1.0
+30,Southampton,48,Ipswich,2526,1,1,1.0,2.0
+30,Southampton,40,Portsmouth,2526,1,1,1.0,
+40,Portsmouth,45,Preston,2526,1,0,0.0,1.0
+35,Stoke,47,Watford,2526,1,0,0.0,1.0
+29,Coventry,44,Millwall,2526,1,0,0.0,4.0
+33,Oxford,46,Swansea,2526,2,0,0.0,1.5
+34,QPR,36,West Brom,2526,2,0,0.0,3.5
+33,Oxford,45,Preston,2526,1,0,0.0,3.0
+33,Oxford,47,Watford,2526,1,0,0.0,3.0
+29,Coventry,49,Hull,2526,1,1,1.0,
+40,Portsmouth,48,Ipswich,2526,1,0,0.0,3.0
+28,Charlton,34,QPR,2526,1,0,0.0,4.0
+35,Stoke,40,Portsmouth,2526,1,0,0.0,1.0
+30,Southampton,46,Swansea,2526,1,1,1.0,
+38,Leicester,44,Millwall,2526,1,0,0.0,1.0
+45,Preston,48,Ipswich,2526,1,0,0.0,1.0
+36,West Brom,37,Sheffield United,2526,2,1,0.5,1.0
+41,Wrexham,43,Bristol City,2526,1,0,0.0,2.0
+41,Wrexham,48,Ipswich,2526,1,1,1.0,
+33,Oxford,37,Sheffield United,2526,2,0,0.0,2.0
+30,Southampton,35,Stoke,2526,1,0,0.0,3.0
+28,Charlton,29,Coventry,2526,2,1,0.5,3.0
+32,Norwich,40,Portsmouth,2526,1,0,0.0,3.0
+28,Charlton,33,Oxford,2526,1,0,0.0,1.0
+29,Coventry,41,Wrexham,2526,1,0,0.0,5.0
+38,Leicester,40,Portsmouth,2526,1,1,1.0,2.0
+39,Derby,44,Millwall,2526,1,1,1.0,2.0
+40,Portsmouth,41,Wrexham,2526,1,1,1.0,
+43,Bristol City,47,Watford,2526,1,1,1.0,2.0
+32,Norwich,48,Ipswich,2526,1,0,0.0,4.0
+27,Birmingham,39,Derby,2526,1,1,1.0,2.0
+37,Sheffield United,45,Preston,2526,3,0,0.0,4.333333333333333
+35,Stoke,39,Derby,2526,1,0,0.0,4.0
+31,Middlesbrough,48,Ipswich,2526,1,0,0.0,3.0
+32,Norwich,35,Stoke,2526,1,1,1.0,2.0
+29,Coventry,32,Norwich,2526,1,1,1.0,2.0
+27,Birmingham,41,Wrexham,2526,1,1,1.0,2.0
+30,Southampton,31,Middlesbrough,2526,1,1,1.0,2.0
+43,Bristol City,49,Hull,2526,1,0,0.0,6.0
+42,Blackburn,44,Millwall,2526,1,0,0.0,2.0
+32,Norwich,45,Preston,2526,1,1,1.0,2.0
+29,Coventry,46,Swansea,2526,1,0,0.0,1.0
+28,Charlton,39,Derby,2526,1,1,1.0,2.0
+31,Middlesbrough,45,Preston,2526,1,1,1.0,4.0
+30,Southampton,36,West Brom,2526,1,0,0.0,5.0
+33,Oxford,41,Wrexham,2526,1,0,0.0,1.0
+28,Charlton,43,Bristol City,2526,1,1,1.0,
+42,Blackburn,48,Ipswich,2526,1,1,1.0,2.0
+34,QPR,37,Sheffield United,2526,2,2,1.0,1.0
+35,Stoke,48,Ipswich,2526,1,0,0.0,1.0
+42,Blackburn,46,Swansea,2526,1,0,0.0,3.0
+35,Stoke,43,Bristol City,2526,1,0,0.0,6.0
+35,Stoke,37,Sheffield United,2526,3,0,0.0,3.3333333333333335
+30,Southampton,43,Bristol City,2526,1,0,0.0,4.0
+32,Norwich,42,Blackburn,2526,1,0,0.0,2.0
+34,QPR,48,Ipswich,2526,1,0,0.0,5.0
+34,QPR,45,Preston,2526,1,1,1.0,2.0
+30,Southampton,38,Leicester,2526,1,0,0.0,3.0
+34,QPR,40,Portsmouth,2526,1,1,1.0,2.0
+41,Wrexham,45,Preston,2526,2,1,0.5,2.5
+29,Coventry,48,Ipswich,2526,2,0,0.0,2.5
+36,West Brom,43,Bristol City,2526,1,0,0.0,3.0
+31,Middlesbrough,47,Watford,2526,1,0,0.0,3.0
+34,QPR,46,Swansea,2526,1,0,0.0,1.0
+27,Birmingham,34,QPR,2526,1,0,0.0,3.0
+46,Swansea,49,Hull,2526,1,1,1.0,4.0
+27,Birmingham,48,Ipswich,2526,1,1,1.0,2.0
+39,Derby,47,Watford,2526,1,0,0.0,5.0
+35,Stoke,44,Millwall,2526,1,0,0.0,2.0
+47,Watford,49,Hull,2526,1,0,0.0,3.0
+44,Millwall,48,Ipswich,2526,1,1,1.0,
+35,Stoke,46,Swansea,2526,1,0,0.0,3.0
+35,Stoke,38,Leicester,2526,1,0,0.0,3.0
+29,Coventry,31,Middlesbrough,2526,1,0,0.0,6.0
+34,QPR,47,Watford,2526,1,0,0.0,3.0
+30,Southampton,37,Sheffield United,2526,2,0,0.0,3.5
+32,Norwich,34,QPR,2526,2,0,0.0,3.5
+28,Charlton,31,Middlesbrough,2526,1,0,0.0,3.0
+44,Millwall,47,Watford,2526,1,0,0.0,1.0
+32,Norwich,33,Oxford,2526,1,1,1.0,2.0
+45,Preston,49,Hull,2526,1,1,1.0,4.0
+42,Blackburn,47,Watford,2526,1,0,0.0,1.0
+31,Middlesbrough,35,Stoke,2526,1,1,1.0,
+39,Derby,45,Preston,2526,1,0,0.0,1.0
+40,Portsmouth,49,Hull,2526,1,0,0.0,5.0
+29,Coventry,30,Southampton,2526,1,1,1.0,2.0
+38,Leicester,42,Blackburn,2526,1,0,0.0,2.0
+33,Oxford,49,Hull,2526,1,0,0.0,5.0
+29,Coventry,33,Oxford,2526,1,1,1.0,4.0
+40,Portsmouth,43,Bristol City,2526,2,0,0.0,3.0
+27,Birmingham,36,West Brom,2526,1,1,1.0,2.0
+29,Coventry,47,Watford,2526,1,0,0.0,4.0
+35,Stoke,42,Blackburn,2526,1,1,1.0,2.0
+33,Oxford,43,Bristol City,2526,1,0,0.0,4.0
+28,Charlton,49,Hull,2526,1,1,1.0,2.0
+41,Wrexham,42,Blackburn,2526,2,1,0.5,2.0
+43,Bristol City,48,Ipswich,2526,1,1,1.0,2.0
+39,Derby,43,Bristol City,2526,1,1,1.0,2.0
+32,Norwich,44,Millwall,2526,1,0,0.0,3.0
+33,Oxford,48,Ipswich,2526,2,0,0.0,3.0
+37,Sheffield United,38,Leicester,2526,3,0,0.0,4.0
+33,Oxford,39,Derby,2526,1,0,0.0,1.0
+38,Leicester,49,Hull,2526,1,0,0.0,3.0
+31,Middlesbrough,39,Derby,2526,2,0,0.0,2.0
+28,Charlton,45,Preston,2526,1,0,0.0,2.0

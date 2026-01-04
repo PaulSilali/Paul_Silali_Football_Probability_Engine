@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+431,Ajax,446,Vitesse,2223,2,1,0.5,3.5
+425,For Sittard,441,Volendam,2223,2,0,0.0,2.5
+431,Ajax,438,Go Ahead Eagles,2223,2,2,1.0,1.0
+426,Nijmegen,439,Sparta Rotterdam,2223,2,1,0.5,2.0
+435,Excelsior,448,FC Emmen,2223,2,0,0.0,2.5
+429,PSV Eindhoven,447,Cambuur,2223,2,0,0.0,5.0
+446,Vitesse,447,Cambuur,2223,2,0,0.0,2.5
+435,Excelsior,440,Twente,2223,2,1,0.5,2.0
+440,Twente,447,Cambuur,2223,2,0,0.0,2.5
+425,For Sittard,429,PSV Eindhoven,2223,2,1,0.5,3.5
+439,Sparta Rotterdam,446,Vitesse,2223,2,0,0.0,4.0
+445,Waalwijk,447,Cambuur,2223,2,0,0.0,5.0
+439,Sparta Rotterdam,445,Waalwijk,2223,2,2,1.0,2.0
+435,Excelsior,437,Groningen,2223,2,0,0.0,2.0
+427,Feyenoord,440,Twente,2223,2,1,0.5,2.0
+435,Excelsior,438,Go Ahead Eagles,2223,2,0,0.0,3.5
+427,Feyenoord,446,Vitesse,2223,2,0,0.0,4.0
+438,Go Ahead Eagles,445,Waalwijk,2223,2,0,0.0,4.5
+428,Heerenveen,441,Volendam,2223,2,0,0.0,3.5
+439,Sparta Rotterdam,448,FC Emmen,2223,2,0,0.0,3.0
+427,Feyenoord,433,Utrecht,2223,2,1,0.5,3.0
+431,Ajax,440,Twente,2223,2,1,0.5,2.0
+432,AZ Alkmaar,437,Groningen,2223,2,0,0.0,3.0
+429,PSV Eindhoven,437,Groningen,2223,2,0,0.0,6.0
+433,Utrecht,440,Twente,2223,2,0,0.0,1.5
+431,Ajax,439,Sparta Rotterdam,2223,2,0,0.0,2.5
+445,Waalwijk,448,FC Emmen,2223,2,1,0.5,2.0
+432,AZ Alkmaar,441,Volendam,2223,2,1,0.5,2.5
+440,Twente,441,Volendam,2223,2,0,0.0,2.0
+428,Heerenveen,448,FC Emmen,2223,2,1,0.5,2.5
+439,Sparta Rotterdam,440,Twente,2223,2,2,1.0,4.0
+426,Nijmegen,438,Go Ahead Eagles,2223,2,1,0.5,3.5
+428,Heerenveen,438,Go Ahead Eagles,2223,2,1,0.5,2.0
+427,Feyenoord,448,FC Emmen,2223,2,0,0.0,4.0
+425,For Sittard,428,Heerenveen,2223,2,0,0.0,2.5
+440,Twente,446,Vitesse,2223,2,1,0.5,3.5
+431,Ajax,447,Cambuur,2223,2,0,0.0,4.5
+425,For Sittard,427,Feyenoord,2223,2,1,0.5,4.0
+438,Go Ahead Eagles,448,FC Emmen,2223,2,1,0.5,3.0
+433,Utrecht,438,Go Ahead Eagles,2223,2,1,0.5,3.5
+437,Groningen,439,Sparta Rotterdam,2223,2,0,0.0,4.0
+437,Groningen,438,Go Ahead Eagles,2223,2,1,0.5,1.5
+427,Feyenoord,429,PSV Eindhoven,2223,2,1,0.5,5.5
+438,Go Ahead Eagles,439,Sparta Rotterdam,2223,2,0,0.0,2.0
+431,Ajax,437,Groningen,2223,2,0,0.0,6.0
+429,PSV Eindhoven,445,Waalwijk,2223,2,0,0.0,1.0
+432,AZ Alkmaar,446,Vitesse,2223,2,1,0.5,1.5
+433,Utrecht,437,Groningen,2223,2,0,0.0,3.0
+426,Nijmegen,429,PSV Eindhoven,2223,2,0,0.0,4.5
+427,Feyenoord,437,Groningen,2223,2,0,0.0,2.0
+433,Utrecht,448,FC Emmen,2223,2,0,0.0,5.0
+433,Utrecht,445,Waalwijk,2223,2,1,0.5,3.0
+429,PSV Eindhoven,433,Utrecht,2223,2,1,0.5,5.5
+428,Heerenveen,435,Excelsior,2223,2,1,0.5,0.5
+441,Volendam,446,Vitesse,2223,2,1,0.5,2.0
+426,Nijmegen,427,Feyenoord,2223,2,1,0.5,2.0
+437,Groningen,446,Vitesse,2223,2,0,0.0,3.5
+426,Nijmegen,448,FC Emmen,2223,2,1,0.5,2.0
+431,Ajax,433,Utrecht,2223,2,0,0.0,3.0
+425,For Sittard,440,Twente,2223,2,0,0.0,3.0
+426,Nijmegen,431,Ajax,2223,2,1,0.5,1.5
+432,AZ Alkmaar,448,FC Emmen,2223,2,0,0.0,4.5
+426,Nijmegen,445,Waalwijk,2223,2,0,0.0,5.5
+432,AZ Alkmaar,447,Cambuur,2223,2,0,0.0,2.0
+425,For Sittard,445,Waalwijk,2223,2,1,0.5,2.0
+425,For Sittard,447,Cambuur,2223,2,0,0.0,4.0
+435,Excelsior,439,Sparta Rotterdam,2223,2,0,0.0,3.0
+439,Sparta Rotterdam,447,Cambuur,2223,2,0,0.0,4.0
+426,Nijmegen,440,Twente,2223,2,0,0.0,2.5
+429,PSV Eindhoven,440,Twente,2223,2,0,0.0,3.5
+437,Groningen,448,FC Emmen,2223,2,2,1.0,1.0
+432,AZ Alkmaar,440,Twente,2223,2,1,0.5,2.5
+432,AZ Alkmaar,435,Excelsior,2223,2,0,0.0,4.0
+427,Feyenoord,431,Ajax,2223,2,1,0.5,3.5
+433,Utrecht,435,Excelsior,2223,2,0,0.0,1.0
+427,Feyenoord,428,Heerenveen,2223,2,1,0.5,1.5
+429,PSV Eindhoven,431,Ajax,2223,2,0,0.0,3.0
+428,Heerenveen,432,AZ Alkmaar,2223,2,1,0.5,2.0
+428,Heerenveen,429,PSV Eindhoven,2223,2,1,0.5,3.5
+427,Feyenoord,432,AZ Alkmaar,2223,2,0,0.0,3.5
+439,Sparta Rotterdam,441,Volendam,2223,2,0,0.0,3.5
+431,Ajax,441,Volendam,2223,2,1,0.5,4.0
+432,AZ Alkmaar,438,Go Ahead Eagles,2223,2,0,0.0,3.5
+428,Heerenveen,447,Cambuur,2223,2,0,0.0,3.0
+441,Volendam,448,FC Emmen,2223,2,1,0.5,3.0
+431,Ajax,448,FC Emmen,2223,2,1,0.5,5.0
+429,PSV Eindhoven,435,Excelsior,2223,2,0,0.0,5.5
+429,PSV Eindhoven,441,Volendam,2223,2,0,0.0,6.5
+429,PSV Eindhoven,439,Sparta Rotterdam,2223,2,1,0.5,0.5
+425,For Sittard,437,Groningen,2223,2,0,0.0,4.5
+440,Twente,448,FC Emmen,2223,2,0,0.0,2.5
+437,Groningen,441,Volendam,2223,2,1,0.5,4.5
+435,Excelsior,441,Volendam,2223,2,0,0.0,3.5
+435,Excelsior,446,Vitesse,2223,2,1,0.5,2.0
+425,For Sittard,435,Excelsior,2223,2,0,0.0,2.0
+433,Utrecht,441,Volendam,2223,2,1,0.5,2.0
+435,Excelsior,445,Waalwijk,2223,2,1,0.5,3.5
+427,Feyenoord,445,Waalwijk,2223,2,0,0.0,3.5
+428,Heerenveen,445,Waalwijk,2223,2,1,0.5,2.5
+427,Feyenoord,439,Sparta Rotterdam,2223,2,0,0.0,3.5
+427,Feyenoord,447,Cambuur,2223,2,0,0.0,2.0
+437,Groningen,445,Waalwijk,2223,2,0,0.0,4.0
+433,Utrecht,447,Cambuur,2223,2,1,0.5,1.5
+433,Utrecht,446,Vitesse,2223,2,0,0.0,1.5
+428,Heerenveen,440,Twente,2223,2,1,0.5,4.5
+432,AZ Alkmaar,439,Sparta Rotterdam,2223,2,0,0.0,3.0
+429,PSV Eindhoven,448,FC Emmen,2223,2,0,0.0,3.0
+432,AZ Alkmaar,433,Utrecht,2223,2,1,0.5,6.5
+438,Go Ahead Eagles,447,Cambuur,2223,2,1,0.5,2.5
+427,Feyenoord,441,Volendam,2223,2,0,0.0,2.5
+431,Ajax,445,Waalwijk,2223,2,0,0.0,4.5
+437,Groningen,440,Twente,2223,2,1,0.5,2.5
+433,Utrecht,439,Sparta Rotterdam,2223,2,0,0.0,3.5
+425,For Sittard,439,Sparta Rotterdam,2223,2,1,0.5,2.0
+438,Go Ahead Eagles,440,Twente,2223,2,1,0.5,2.0
+426,Nijmegen,433,Utrecht,2223,2,2,1.0,2.0
+429,PSV Eindhoven,438,Go Ahead Eagles,2223,2,0,0.0,4.5
+429,PSV Eindhoven,432,AZ Alkmaar,2223,2,0,0.0,2.0
+431,Ajax,435,Excelsior,2223,2,0,0.0,6.5
+425,For Sittard,431,Ajax,2223,2,0,0.0,4.5
+426,Nijmegen,447,Cambuur,2223,2,1,0.5,0.5
+440,Twente,445,Waalwijk,2223,2,0,0.0,4.0
+428,Heerenveen,437,Groningen,2223,2,0,0.0,3.0
+428,Heerenveen,433,Utrecht,2223,2,0,0.0,2.0
+438,Go Ahead Eagles,446,Vitesse,2223,2,1,0.5,3.0
+427,Feyenoord,435,Excelsior,2223,2,0,0.0,4.0
+426,Nijmegen,432,AZ Alkmaar,2223,2,1,0.5,2.5
+447,Cambuur,448,FC Emmen,2223,2,1,0.5,1.5
+441,Volendam,447,Cambuur,2223,2,0,0.0,2.5
+425,For Sittard,446,Vitesse,2223,2,0,0.0,2.5
+425,For Sittard,438,Go Ahead Eagles,2223,2,0,0.0,2.0
+425,For Sittard,432,AZ Alkmaar,2223,2,0,0.0,3.5
+429,PSV Eindhoven,446,Vitesse,2223,2,1,0.5,1.5
+426,Nijmegen,441,Volendam,2223,2,0,0.0,4.0
+446,Vitesse,448,FC Emmen,2223,2,1,0.5,3.5
+428,Heerenveen,439,Sparta Rotterdam,2223,2,1,0.5,2.0
+431,Ajax,432,AZ Alkmaar,2223,2,1,0.5,1.5
+427,Feyenoord,438,Go Ahead Eagles,2223,2,0,0.0,5.0
+426,Nijmegen,437,Groningen,2223,2,1,0.5,1.5
+437,Groningen,447,Cambuur,2223,2,0,0.0,1.0
+428,Heerenveen,431,Ajax,2223,2,0,0.0,5.5
+432,AZ Alkmaar,445,Waalwijk,2223,2,0,0.0,3.5
+426,Nijmegen,435,Excelsior,2223,2,1,0.5,2.5
+438,Go Ahead Eagles,441,Volendam,2223,2,0,0.0,4.0
+425,For Sittard,426,Nijmegen,2223,2,2,1.0,2.0
+426,Nijmegen,428,Heerenveen,2223,2,1,0.5,2.5
+426,Nijmegen,446,Vitesse,2223,2,1,0.5,2.5
+425,For Sittard,433,Utrecht,2223,2,0,0.0,5.0
+435,Excelsior,447,Cambuur,2223,2,0,0.0,3.5
+425,For Sittard,448,FC Emmen,2223,2,0,0.0,1.0
+445,Waalwijk,446,Vitesse,2223,2,1,0.5,2.5
+441,Volendam,445,Waalwijk,2223,2,0,0.0,4.0
+428,Heerenveen,446,Vitesse,2223,2,0,0.0,4.0

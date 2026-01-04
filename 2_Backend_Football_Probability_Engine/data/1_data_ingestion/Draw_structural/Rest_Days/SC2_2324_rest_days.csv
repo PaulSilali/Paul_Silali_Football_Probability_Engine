@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,2324,2023-08-05,Montrose,Kelty Hearts,91,91,False
+SC2,2324,2023-08-05,Falkirk,Annan Athletic,91,7,False
+SC2,2324,2023-08-05,Stirling,Edinburgh City,7,91,False
+SC2,2324,2023-08-05,Hamilton,Cove Rangers,7,462,False
+SC2,2324,2023-08-05,Queen of Sth,Alloa,91,91,False
+SC2,2324,2023-08-12,Cove Rangers,Falkirk,7,7,False
+SC2,2324,2023-08-12,Kelty Hearts,Hamilton,7,7,False
+SC2,2324,2023-08-12,Annan Athletic,Montrose,7,7,False
+SC2,2324,2023-08-12,Alloa,Stirling,7,7,False
+SC2,2324,2023-08-12,Edinburgh City,Queen of Sth,7,7,False
+SC2,2324,2023-08-19,Queen of Sth,Annan Athletic,7,7,False
+SC2,2324,2023-08-19,Edinburgh City,Hamilton,7,7,False
+SC2,2324,2023-08-19,Kelty Hearts,Alloa,7,7,False
+SC2,2324,2023-08-19,Montrose,Cove Rangers,7,7,False
+SC2,2324,2023-08-22,Falkirk,Stirling,10,10,True
+SC2,2324,2023-08-26,Stirling,Kelty Hearts,4,7,False
+SC2,2324,2023-08-26,Alloa,Falkirk,7,4,False
+SC2,2324,2023-08-26,Hamilton,Montrose,7,7,False
+SC2,2324,2023-08-26,Annan Athletic,Edinburgh City,7,7,False
+SC2,2324,2023-08-26,Cove Rangers,Queen of Sth,7,7,False
+SC2,2324,2023-09-02,Queen of Sth,Montrose,7,7,False
+SC2,2324,2023-09-02,Stirling,Hamilton,7,7,False
+SC2,2324,2023-09-02,Alloa,Cove Rangers,7,7,False
+SC2,2324,2023-09-02,Edinburgh City,Falkirk,7,7,False
+SC2,2324,2023-09-02,Kelty Hearts,Annan Athletic,7,7,False
+SC2,2324,2023-09-16,Annan Athletic,Stirling,14,14,False
+SC2,2324,2023-09-16,Cove Rangers,Kelty Hearts,14,14,False
+SC2,2324,2023-09-16,Falkirk,Queen of Sth,14,14,False
+SC2,2324,2023-09-16,Hamilton,Alloa,14,14,False
+SC2,2324,2023-09-16,Montrose,Edinburgh City,14,14,False
+SC2,2324,2023-09-23,Queen of Sth,Hamilton,7,7,False
+SC2,2324,2023-09-23,Kelty Hearts,Falkirk,7,7,False
+SC2,2324,2023-09-23,Montrose,Stirling,7,7,False
+SC2,2324,2023-09-23,Edinburgh City,Cove Rangers,7,7,False
+SC2,2324,2023-09-23,Annan Athletic,Alloa,7,7,False
+SC2,2324,2023-09-29,Hamilton,Annan Athletic,6,6,False
+SC2,2324,2023-09-30,Stirling,Cove Rangers,7,7,False
+SC2,2324,2023-09-30,Kelty Hearts,Queen of Sth,7,7,False
+SC2,2324,2023-09-30,Alloa,Edinburgh City,7,7,False
+SC2,2324,2023-09-30,Falkirk,Montrose,7,7,False
+SC2,2324,2023-10-07,Queen of Sth,Stirling,7,7,False
+SC2,2324,2023-10-07,Falkirk,Hamilton,7,8,False
+SC2,2324,2023-10-07,Cove Rangers,Annan Athletic,7,8,False
+SC2,2324,2023-10-07,Edinburgh City,Kelty Hearts,7,7,False
+SC2,2324,2023-10-07,Montrose,Alloa,7,7,False
+SC2,2324,2023-10-21,Stirling,Falkirk,14,14,False
+SC2,2324,2023-10-21,Alloa,Kelty Hearts,14,14,False
+SC2,2324,2023-10-21,Annan Athletic,Queen of Sth,14,14,False
+SC2,2324,2023-10-21,Hamilton,Edinburgh City,14,14,False
+SC2,2324,2023-10-28,Edinburgh City,Annan Athletic,7,7,False
+SC2,2324,2023-10-28,Falkirk,Alloa,7,7,False
+SC2,2324,2023-10-28,Queen of Sth,Cove Rangers,7,21,False
+SC2,2324,2023-10-28,Montrose,Hamilton,21,7,False
+SC2,2324,2023-10-28,Kelty Hearts,Stirling,7,7,False
+SC2,2324,2023-11-04,Cove Rangers,Hamilton,7,7,False
+SC2,2324,2023-11-04,Edinburgh City,Montrose,7,7,False
+SC2,2324,2023-11-04,Queen of Sth,Falkirk,7,7,False
+SC2,2324,2023-11-04,Stirling,Alloa,7,7,False
+SC2,2324,2023-11-04,Annan Athletic,Kelty Hearts,7,7,False
+SC2,2324,2023-11-11,Kelty Hearts,Cove Rangers,7,7,False
+SC2,2324,2023-11-11,Montrose,Annan Athletic,7,7,False
+SC2,2324,2023-11-11,Falkirk,Edinburgh City,7,7,False
+SC2,2324,2023-11-11,Alloa,Queen of Sth,7,7,False
+SC2,2324,2023-11-11,Hamilton,Stirling,7,7,False
+SC2,2324,2023-11-14,Cove Rangers,Montrose,3,3,True
+SC2,2324,2023-11-18,Edinburgh City,Alloa,7,7,False
+SC2,2324,2023-11-18,Queen of Sth,Kelty Hearts,7,7,False
+SC2,2324,2023-11-18,Cove Rangers,Stirling,4,7,False
+SC2,2324,2023-11-28,Annan Athletic,Hamilton,17,17,True
+SC2,2324,2023-11-28,Montrose,Falkirk,14,17,True
+SC2,2324,2023-12-02,Hamilton,Queen of Sth,4,14,False
+SC2,2324,2023-12-09,Annan Athletic,Cove Rangers,11,21,False
+SC2,2324,2023-12-09,Alloa,Hamilton,21,7,False
+SC2,2324,2023-12-09,Edinburgh City,Stirling,21,21,False
+SC2,2324,2023-12-09,Falkirk,Kelty Hearts,11,21,False
+SC2,2324,2023-12-09,Montrose,Queen of Sth,11,7,False
+SC2,2324,2023-12-16,Queen of Sth,Edinburgh City,7,7,False
+SC2,2324,2023-12-16,Stirling,Annan Athletic,7,7,False
+SC2,2324,2023-12-16,Kelty Hearts,Montrose,7,7,False
+SC2,2324,2023-12-16,Hamilton,Falkirk,7,7,False
+SC2,2324,2023-12-16,Cove Rangers,Alloa,7,7,False
+SC2,2324,2023-12-23,Stirling,Queen of Sth,7,7,False
+SC2,2324,2023-12-23,Cove Rangers,Edinburgh City,7,7,False
+SC2,2324,2023-12-23,Alloa,Montrose,7,7,False
+SC2,2324,2023-12-23,Annan Athletic,Falkirk,7,7,False
+SC2,2324,2023-12-23,Hamilton,Kelty Hearts,7,7,False
+SC2,2324,2023-12-30,Queen of Sth,Annan Athletic,7,7,False
+SC2,2324,2023-12-30,Edinburgh City,Hamilton,7,7,False
+SC2,2324,2023-12-30,Falkirk,Stirling,7,7,False
+SC2,2324,2023-12-30,Montrose,Cove Rangers,7,7,False
+SC2,2324,2024-01-06,Falkirk,Queen of Sth,7,7,False
+SC2,2324,2024-01-06,Alloa,Edinburgh City,14,7,False
+SC2,2324,2024-01-06,Annan Athletic,Montrose,7,7,False
+SC2,2324,2024-01-06,Cove Rangers,Kelty Hearts,7,14,False
+SC2,2324,2024-01-09,Falkirk,Cove Rangers,3,3,True
+SC2,2324,2024-01-13,Edinburgh City,Falkirk,7,4,False
+SC2,2324,2024-01-13,Montrose,Stirling,7,14,False
+SC2,2324,2024-01-13,Hamilton,Cove Rangers,14,4,False
+SC2,2324,2024-01-13,Queen of Sth,Alloa,7,7,False
+SC2,2324,2024-01-13,Kelty Hearts,Annan Athletic,7,7,False
+SC2,2324,2024-01-27,Alloa,Falkirk,14,14,False
+SC2,2324,2024-01-27,Cove Rangers,Queen of Sth,14,14,False
+SC2,2324,2024-01-27,Hamilton,Montrose,14,14,False
+SC2,2324,2024-01-27,Stirling,Kelty Hearts,14,14,False
+SC2,2324,2024-01-27,Annan Athletic,Edinburgh City,14,14,False
+SC2,2324,2024-02-03,Stirling,Cove Rangers,7,7,False
+SC2,2324,2024-02-03,Annan Athletic,Alloa,7,7,False
+SC2,2324,2024-02-03,Edinburgh City,Kelty Hearts,7,7,False
+SC2,2324,2024-02-03,Queen of Sth,Hamilton,7,7,False
+SC2,2324,2024-02-06,Stirling,Montrose,3,10,True
+SC2,2324,2024-02-10,Alloa,Stirling,7,4,False
+SC2,2324,2024-02-10,Hamilton,Annan Athletic,7,7,False
+SC2,2324,2024-02-10,Montrose,Edinburgh City,4,7,False
+SC2,2324,2024-02-10,Kelty Hearts,Queen of Sth,7,7,False
+SC2,2324,2024-02-13,Kelty Hearts,Edinburgh City,3,3,True
+SC2,2324,2024-02-13,Alloa,Annan Athletic,3,3,True
+SC2,2324,2024-02-17,Falkirk,Hamilton,21,7,False
+SC2,2324,2024-02-17,Alloa,Cove Rangers,4,14,False
+SC2,2324,2024-02-17,Annan Athletic,Stirling,4,7,False
+SC2,2324,2024-02-17,Edinburgh City,Queen of Sth,4,7,False
+SC2,2324,2024-02-17,Montrose,Kelty Hearts,7,4,False
+SC2,2324,2024-02-20,Falkirk,Montrose,3,3,True
+SC2,2324,2024-02-24,Stirling,Edinburgh City,7,7,False
+SC2,2324,2024-02-24,Queen of Sth,Montrose,7,4,False
+SC2,2324,2024-02-24,Kelty Hearts,Falkirk,7,4,False
+SC2,2324,2024-02-24,Hamilton,Alloa,7,7,False
+SC2,2324,2024-02-24,Cove Rangers,Annan Athletic,7,7,False
+SC2,2324,2024-02-27,Stirling,Hamilton,3,3,True
+SC2,2324,2024-03-02,Montrose,Alloa,7,7,False
+SC2,2324,2024-03-02,Queen of Sth,Stirling,7,4,False
+SC2,2324,2024-03-02,Kelty Hearts,Hamilton,7,4,False
+SC2,2324,2024-03-02,Edinburgh City,Cove Rangers,7,7,False
+SC2,2324,2024-03-02,Falkirk,Annan Athletic,7,7,False
+SC2,2324,2024-03-05,Cove Rangers,Falkirk,3,3,True
+SC2,2324,2024-03-09,Cove Rangers,Montrose,4,7,False
+SC2,2324,2024-03-09,Hamilton,Edinburgh City,7,7,False
+SC2,2324,2024-03-09,Stirling,Falkirk,7,4,False
+SC2,2324,2024-03-09,Alloa,Kelty Hearts,7,7,False
+SC2,2324,2024-03-09,Annan Athletic,Queen of Sth,7,7,False
+SC2,2324,2024-03-16,Hamilton,Stirling,7,7,False
+SC2,2324,2024-03-16,Edinburgh City,Alloa,7,7,False
+SC2,2324,2024-03-16,Kelty Hearts,Cove Rangers,7,7,False
+SC2,2324,2024-03-16,Montrose,Annan Athletic,7,7,False
+SC2,2324,2024-03-16,Queen of Sth,Falkirk,7,7,False
+SC2,2324,2024-03-19,Kelty Hearts,Alloa,3,3,True
+SC2,2324,2024-03-23,Falkirk,Edinburgh City,7,7,False
+SC2,2324,2024-03-23,Stirling,Montrose,7,7,False
+SC2,2324,2024-03-23,Cove Rangers,Hamilton,7,7,False
+SC2,2324,2024-03-23,Annan Athletic,Kelty Hearts,7,4,False
+SC2,2324,2024-03-23,Alloa,Queen of Sth,4,7,False
+SC2,2324,2024-03-30,Kelty Hearts,Edinburgh City,7,7,False
+SC2,2324,2024-03-30,Montrose,Falkirk,7,7,False
+SC2,2324,2024-03-30,Alloa,Annan Athletic,7,7,False
+SC2,2324,2024-03-30,Cove Rangers,Stirling,7,7,False
+SC2,2324,2024-03-30,Hamilton,Queen of Sth,7,7,False
+SC2,2324,2024-04-06,Falkirk,Cove Rangers,7,7,False
+SC2,2324,2024-04-06,Annan Athletic,Hamilton,7,7,False
+SC2,2324,2024-04-06,Queen of Sth,Kelty Hearts,7,7,False
+SC2,2324,2024-04-06,Stirling,Alloa,7,7,False
+SC2,2324,2024-04-13,Queen of Sth,Edinburgh City,7,14,False
+SC2,2324,2024-04-13,Hamilton,Falkirk,7,7,False
+SC2,2324,2024-04-13,Alloa,Montrose,7,14,False
+SC2,2324,2024-04-13,Annan Athletic,Cove Rangers,7,7,False
+SC2,2324,2024-04-13,Kelty Hearts,Stirling,7,7,False
+SC2,2324,2024-04-16,Edinburgh City,Montrose,3,3,True
+SC2,2324,2024-04-20,Stirling,Queen of Sth,7,7,False
+SC2,2324,2024-04-20,Cove Rangers,Alloa,7,7,False
+SC2,2324,2024-04-20,Montrose,Hamilton,4,7,False
+SC2,2324,2024-04-20,Edinburgh City,Annan Athletic,4,7,False
+SC2,2324,2024-04-20,Falkirk,Kelty Hearts,7,7,False
+SC2,2324,2024-04-27,Kelty Hearts,Montrose,7,7,False
+SC2,2324,2024-04-27,Queen of Sth,Cove Rangers,7,7,False
+SC2,2324,2024-04-27,Alloa,Hamilton,7,7,False
+SC2,2324,2024-04-27,Annan Athletic,Falkirk,7,7,False
+SC2,2324,2024-04-27,Edinburgh City,Stirling,7,7,False
+SC2,2324,2024-05-04,Montrose,Queen of Sth,7,7,False
+SC2,2324,2024-05-04,Stirling,Annan Athletic,7,7,False
+SC2,2324,2024-05-04,Cove Rangers,Edinburgh City,7,7,False
+SC2,2324,2024-05-04,Falkirk,Alloa,7,7,False
+SC2,2324,2024-05-04,Hamilton,Kelty Hearts,7,7,False

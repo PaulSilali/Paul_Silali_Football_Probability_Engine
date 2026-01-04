@@ -11,6 +11,8 @@ import {
   RefreshCw
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -93,19 +95,17 @@ export default function FeatureStore() {
   const uniqueLeagues = [...new Set(teamFeatures.map(t => t.league))];
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">Feature Store</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Team strength features, league statistics, and data quality monitoring
-          </p>
-        </div>
-        <Button variant="outline" size="sm">
+    <PageLayout
+      title="Feature Store"
+      description="Team strength features, league statistics, and data quality monitoring"
+      icon={<Database className="h-6 w-6" />}
+      action={
+        <Button variant="outline" size="sm" className="btn-glow">
           <RefreshCw className="h-4 w-4 mr-2" />
           Recompute Features
         </Button>
-      </div>
+      }
+    >
 
       {/* Data Alerts */}
       {dataAlerts.length > 0 && (
@@ -356,6 +356,6 @@ export default function FeatureStore() {
           </Card>
         </TabsContent>
       </Tabs>
-    </div>
+    </PageLayout>
   );
 }

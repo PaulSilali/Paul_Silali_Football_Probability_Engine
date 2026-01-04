@@ -1,0 +1,277 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+152,Rochdale,154,Hartlepool,2122,2,0,0.0,3.0
+126,Walsall,143,Port Vale,2122,2,0,0.0,1.5
+137,Oldham,141,Carlisle,2122,2,1,0.5,1.5
+126,Walsall,151,Northampton,2122,2,1,0.5,1.5
+141,Carlisle,150,Leyton Orient,2122,2,1,0.5,1.5
+121,Colchester,127,Newport County,2122,2,1,0.5,2.5
+118,Bristol Rvs,145,Mansfield,2122,2,1,0.5,1.5
+127,Newport County,146,Forest Green,2122,2,1,0.5,2.0
+129,Barrow,153,Stevenage,2122,2,1,0.5,0.5
+126,Walsall,150,Leyton Orient,2122,2,1,0.5,1.0
+118,Bristol Rvs,151,Northampton,2122,2,0,0.0,2.0
+128,Tranmere,132,Crawley Town,2122,2,0,0.0,2.0
+124,Salford,127,Newport County,2122,2,0,0.0,2.5
+138,Swindon,143,Port Vale,2122,2,0,0.0,3.5
+132,Crawley Town,152,Rochdale,2122,2,0,0.0,1.0
+150,Leyton Orient,152,Rochdale,2122,2,1,0.5,4.0
+118,Bristol Rvs,154,Hartlepool,2122,2,0,0.0,1.5
+128,Tranmere,155,Exeter,2122,2,0,0.0,1.5
+146,Forest Green,151,Northampton,2122,2,1,0.5,1.5
+145,Mansfield,152,Rochdale,2122,2,1,0.5,1.5
+128,Tranmere,138,Swindon,2122,2,1,0.5,1.5
+132,Crawley Town,141,Carlisle,2122,2,1,0.5,2.5
+145,Mansfield,153,Stevenage,2122,2,0,0.0,2.5
+141,Carlisle,145,Mansfield,2122,2,0,0.0,1.0
+128,Tranmere,145,Mansfield,2122,2,0,0.0,3.5
+118,Bristol Rvs,155,Exeter,2122,2,1,0.5,3.5
+121,Colchester,132,Crawley Town,2122,2,0,0.0,2.5
+142,Bradford,153,Stevenage,2122,2,0,0.0,3.0
+118,Bristol Rvs,132,Crawley Town,2122,2,0,0.0,2.0
+121,Colchester,154,Hartlepool,2122,2,0,0.0,2.5
+128,Tranmere,150,Leyton Orient,2122,2,0,0.0,1.0
+124,Salford,126,Walsall,2122,2,0,0.0,3.0
+127,Newport County,141,Carlisle,2122,2,1,0.5,3.5
+118,Bristol Rvs,153,Stevenage,2122,2,0,0.0,3.0
+127,Newport County,154,Hartlepool,2122,2,0,0.0,4.0
+142,Bradford,152,Rochdale,2122,2,1,0.5,1.0
+129,Barrow,141,Carlisle,2122,2,1,0.5,1.5
+126,Walsall,146,Forest Green,2122,2,0,0.0,2.5
+146,Forest Green,156,Scunthorpe,2122,2,0,0.0,1.5
+137,Oldham,154,Hartlepool,2122,2,2,1.0,
+145,Mansfield,151,Northampton,2122,2,0,0.0,1.5
+121,Colchester,156,Scunthorpe,2122,2,0,0.0,3.5
+152,Rochdale,153,Stevenage,2122,2,1,0.5,2.5
+121,Colchester,126,Walsall,2122,2,1,0.5,3.5
+128,Tranmere,146,Forest Green,2122,2,1,0.5,2.0
+128,Tranmere,143,Port Vale,2122,2,2,1.0,1.0
+142,Bradford,148,Sutton,2122,2,1,0.5,4.5
+138,Swindon,142,Bradford,2122,2,0,0.0,3.5
+132,Crawley Town,146,Forest Green,2122,2,0,0.0,6.0
+137,Oldham,143,Port Vale,2122,2,0,0.0,5.0
+121,Colchester,150,Leyton Orient,2122,2,1,0.5,2.5
+143,Port Vale,153,Stevenage,2122,2,1,0.5,2.0
+141,Carlisle,143,Port Vale,2122,2,1,0.5,2.0
+141,Carlisle,153,Stevenage,2122,2,0,0.0,2.5
+121,Colchester,142,Bradford,2122,2,1,0.5,1.5
+136,Harrogate,153,Stevenage,2122,2,1,0.5,1.5
+129,Barrow,146,Forest Green,2122,2,0,0.0,3.0
+121,Colchester,136,Harrogate,2122,2,0,0.0,2.0
+118,Bristol Rvs,128,Tranmere,2122,2,2,1.0,3.0
+121,Colchester,129,Barrow,2122,2,0,0.0,3.5
+121,Colchester,143,Port Vale,2122,2,0,0.0,2.0
+150,Leyton Orient,156,Scunthorpe,2122,2,1,0.5,2.5
+137,Oldham,155,Exeter,2122,2,0,0.0,2.5
+145,Mansfield,150,Leyton Orient,2122,2,1,0.5,1.0
+132,Crawley Town,150,Leyton Orient,2122,2,0,0.0,2.5
+126,Walsall,136,Harrogate,2122,2,1,0.5,3.0
+142,Bradford,155,Exeter,2122,2,1,0.5,0.5
+126,Walsall,132,Crawley Town,2122,2,1,0.5,1.5
+143,Port Vale,156,Scunthorpe,2122,2,0,0.0,1.0
+150,Leyton Orient,154,Hartlepool,2122,2,1,0.5,2.5
+127,Newport County,142,Bradford,2122,2,2,1.0,
+138,Swindon,153,Stevenage,2122,2,2,1.0,1.0
+132,Crawley Town,136,Harrogate,2122,2,1,0.5,4.0
+138,Swindon,155,Exeter,2122,2,0,0.0,3.5
+153,Stevenage,154,Hartlepool,2122,2,1,0.5,2.0
+127,Newport County,152,Rochdale,2122,2,0,0.0,2.5
+128,Tranmere,152,Rochdale,2122,2,0,0.0,1.5
+124,Salford,150,Leyton Orient,2122,2,1,0.5,2.0
+136,Harrogate,152,Rochdale,2122,2,1,0.5,5.5
+143,Port Vale,145,Mansfield,2122,2,1,0.5,3.0
+142,Bradford,146,Forest Green,2122,2,1,0.5,2.0
+124,Salford,154,Hartlepool,2122,2,0,0.0,2.0
+127,Newport County,129,Barrow,2122,2,0,0.0,3.0
+129,Barrow,143,Port Vale,2122,2,0,0.0,3.5
+145,Mansfield,148,Sutton,2122,2,0,0.0,3.5
+138,Swindon,150,Leyton Orient,2122,2,0,0.0,4.0
+138,Swindon,152,Rochdale,2122,2,2,1.0,2.0
+141,Carlisle,148,Sutton,2122,2,0,0.0,3.0
+138,Swindon,145,Mansfield,2122,2,0,0.0,3.0
+136,Harrogate,138,Swindon,2122,2,1,0.5,3.5
+127,Newport County,150,Leyton Orient,2122,2,1,0.5,2.5
+121,Colchester,128,Tranmere,2122,2,0,0.0,1.5
+128,Tranmere,154,Hartlepool,2122,2,0,0.0,1.0
+142,Bradford,151,Northampton,2122,2,2,1.0,1.0
+124,Salford,142,Bradford,2122,2,0,0.0,2.0
+136,Harrogate,143,Port Vale,2122,2,1,0.5,2.0
+151,Northampton,152,Rochdale,2122,2,0,0.0,2.5
+126,Walsall,141,Carlisle,2122,2,0,0.0,1.0
+127,Newport County,148,Sutton,2122,2,0,0.0,3.0
+118,Bristol Rvs,126,Walsall,2122,2,0,0.0,2.0
+124,Salford,146,Forest Green,2122,2,1,0.5,3.0
+138,Swindon,151,Northampton,2122,2,1,0.5,4.5
+132,Crawley Town,156,Scunthorpe,2122,2,1,0.5,1.5
+118,Bristol Rvs,127,Newport County,2122,2,0,0.0,2.5
+127,Newport County,136,Harrogate,2122,2,1,0.5,4.0
+127,Newport County,138,Swindon,2122,2,0,0.0,2.0
+137,Oldham,152,Rochdale,2122,2,1,0.5,0.5
+132,Crawley Town,142,Bradford,2122,2,0,0.0,3.0
+142,Bradford,156,Scunthorpe,2122,2,1,0.5,2.5
+132,Crawley Town,153,Stevenage,2122,2,1,0.5,3.5
+137,Oldham,153,Stevenage,2122,2,0,0.0,2.0
+146,Forest Green,153,Stevenage,2122,2,0,0.0,3.0
+154,Hartlepool,156,Scunthorpe,2122,2,2,1.0,1.0
+137,Oldham,138,Swindon,2122,2,0,0.0,2.5
+128,Tranmere,153,Stevenage,2122,2,0,0.0,1.5
+129,Barrow,155,Exeter,2122,2,1,0.5,1.5
+126,Walsall,148,Sutton,2122,2,0,0.0,1.0
+150,Leyton Orient,151,Northampton,2122,2,0,0.0,3.5
+126,Walsall,156,Scunthorpe,2122,2,1,0.5,1.5
+138,Swindon,154,Hartlepool,2122,2,0,0.0,3.5
+138,Swindon,156,Scunthorpe,2122,2,0,0.0,3.5
+126,Walsall,145,Mansfield,2122,2,0,0.0,3.0
+121,Colchester,155,Exeter,2122,2,0,0.0,3.0
+118,Bristol Rvs,129,Barrow,2122,2,1,0.5,1.5
+143,Port Vale,148,Sutton,2122,2,0,0.0,4.5
+126,Walsall,137,Oldham,2122,2,0,0.0,3.5
+148,Sutton,155,Exeter,2122,2,0,0.0,2.5
+118,Bristol Rvs,142,Bradford,2122,2,1,0.5,3.5
+121,Colchester,146,Forest Green,2122,2,0,0.0,1.5
+124,Salford,156,Scunthorpe,2122,2,1,0.5,4.0
+145,Mansfield,156,Scunthorpe,2122,2,0,0.0,4.0
+155,Exeter,156,Scunthorpe,2122,2,0,0.0,3.0
+136,Harrogate,141,Carlisle,2122,2,0,0.0,2.5
+153,Stevenage,155,Exeter,2122,2,1,0.5,3.5
+118,Bristol Rvs,150,Leyton Orient,2122,2,0,0.0,3.0
+118,Bristol Rvs,146,Forest Green,2122,2,1,0.5,1.0
+136,Harrogate,142,Bradford,2122,2,0,0.0,3.0
+145,Mansfield,154,Hartlepool,2122,2,1,0.5,4.5
+137,Oldham,145,Mansfield,2122,2,1,0.5,1.5
+128,Tranmere,136,Harrogate,2122,2,1,0.5,3.0
+126,Walsall,128,Tranmere,2122,2,0,0.0,1.0
+126,Walsall,152,Rochdale,2122,2,1,0.5,0.5
+118,Bristol Rvs,124,Salford,2122,2,1,0.5,1.5
+127,Newport County,156,Scunthorpe,2122,2,0,0.0,2.0
+141,Carlisle,155,Exeter,2122,2,0,0.0,2.0
+127,Newport County,145,Mansfield,2122,2,1,0.5,2.5
+126,Walsall,153,Stevenage,2122,2,0,0.0,2.5
+127,Newport County,143,Port Vale,2122,2,0,0.0,3.0
+124,Salford,138,Swindon,2122,2,0,0.0,2.0
+145,Mansfield,155,Exeter,2122,2,0,0.0,3.0
+127,Newport County,128,Tranmere,2122,2,0,0.0,3.5
+124,Salford,129,Barrow,2122,2,1,0.5,3.0
+118,Bristol Rvs,156,Scunthorpe,2122,2,0,0.0,6.0
+136,Harrogate,145,Mansfield,2122,2,1,0.5,2.0
+121,Colchester,141,Carlisle,2122,2,2,1.0,2.0
+146,Forest Green,154,Hartlepool,2122,2,1,0.5,3.0
+126,Walsall,138,Swindon,2122,2,0,0.0,4.0
+142,Bradford,143,Port Vale,2122,2,1,0.5,2.5
+129,Barrow,132,Crawley Town,2122,2,0,0.0,1.0
+128,Tranmere,137,Oldham,2122,2,0,0.0,1.5
+142,Bradford,154,Hartlepool,2122,2,0,0.0,3.0
+127,Newport County,155,Exeter,2122,2,1,0.5,2.5
+124,Salford,137,Oldham,2122,2,0,0.0,2.5
+136,Harrogate,137,Oldham,2122,2,0,0.0,3.0
+124,Salford,132,Crawley Town,2122,2,0,0.0,3.0
+118,Bristol Rvs,121,Colchester,2122,2,1,0.5,1.5
+136,Harrogate,146,Forest Green,2122,2,0,0.0,4.5
+121,Colchester,124,Salford,2122,2,0,0.0,2.5
+118,Bristol Rvs,136,Harrogate,2122,2,0,0.0,2.0
+129,Barrow,151,Northampton,2122,2,0,0.0,2.5
+128,Tranmere,156,Scunthorpe,2122,2,0,0.0,2.5
+121,Colchester,151,Northampton,2122,2,0,0.0,2.0
+132,Crawley Town,154,Hartlepool,2122,2,0,0.0,1.0
+129,Barrow,145,Mansfield,2122,2,0,0.0,2.5
+146,Forest Green,152,Rochdale,2122,2,0,0.0,3.0
+132,Crawley Town,143,Port Vale,2122,2,0,0.0,5.0
+137,Oldham,148,Sutton,2122,2,0,0.0,3.5
+121,Colchester,152,Rochdale,2122,2,2,1.0,2.0
+118,Bristol Rvs,137,Oldham,2122,2,0,0.0,2.0
+128,Tranmere,141,Carlisle,2122,2,1,0.5,2.5
+143,Port Vale,151,Northampton,2122,2,1,0.5,0.5
+129,Barrow,150,Leyton Orient,2122,2,1,0.5,2.0
+142,Bradford,150,Leyton Orient,2122,2,1,0.5,2.0
+124,Salford,152,Rochdale,2122,2,2,1.0,1.0
+127,Newport County,132,Crawley Town,2122,2,1,0.5,2.5
+126,Walsall,155,Exeter,2122,2,1,0.5,3.0
+132,Crawley Town,148,Sutton,2122,2,0,0.0,2.0
+141,Carlisle,151,Northampton,2122,2,0,0.0,3.0
+121,Colchester,148,Sutton,2122,2,0,0.0,4.5
+152,Rochdale,156,Scunthorpe,2122,2,1,0.5,1.5
+151,Northampton,153,Stevenage,2122,2,0,0.0,3.0
+150,Leyton Orient,155,Exeter,2122,2,0,0.0,2.0
+148,Sutton,154,Hartlepool,2122,2,1,0.5,1.5
+124,Salford,136,Harrogate,2122,2,0,0.0,2.0
+126,Walsall,127,Newport County,2122,2,1,0.5,4.5
+143,Port Vale,152,Rochdale,2122,2,1,0.5,3.5
+136,Harrogate,151,Northampton,2122,2,0,0.0,3.0
+148,Sutton,151,Northampton,2122,2,1,0.5,1.0
+150,Leyton Orient,153,Stevenage,2122,2,2,1.0,2.0
+146,Forest Green,150,Leyton Orient,2122,2,2,1.0,2.0
+128,Tranmere,142,Bradford,2122,2,1,0.5,2.5
+148,Sutton,152,Rochdale,2122,2,0,0.0,4.0
+118,Bristol Rvs,141,Carlisle,2122,2,0,0.0,2.0
+151,Northampton,154,Hartlepool,2122,2,0,0.0,2.5
+129,Barrow,142,Bradford,2122,2,1,0.5,2.5
+118,Bristol Rvs,148,Sutton,2122,2,1,0.5,2.0
+151,Northampton,156,Scunthorpe,2122,2,1,0.5,1.0
+142,Bradford,145,Mansfield,2122,2,0,0.0,3.5
+138,Swindon,148,Sutton,2122,2,0,0.0,3.0
+151,Northampton,155,Exeter,2122,2,1,0.5,2.5
+143,Port Vale,150,Leyton Orient,2122,2,1,0.5,2.5
+129,Barrow,136,Harrogate,2122,2,1,0.5,1.5
+127,Newport County,151,Northampton,2122,2,0,0.0,1.0
+126,Walsall,154,Hartlepool,2122,2,0,0.0,3.0
+121,Colchester,153,Stevenage,2122,2,0,0.0,1.5
+129,Barrow,154,Hartlepool,2122,2,0,0.0,4.5
+141,Carlisle,154,Hartlepool,2122,2,1,0.5,1.5
+148,Sutton,153,Stevenage,2122,2,1,0.5,4.5
+138,Swindon,146,Forest Green,2122,2,0,0.0,2.5
+124,Salford,143,Port Vale,2122,2,0,0.0,1.0
+129,Barrow,156,Scunthorpe,2122,2,1,0.5,1.5
+146,Forest Green,148,Sutton,2122,2,1,0.5,2.5
+132,Crawley Town,138,Swindon,2122,2,1,0.5,3.0
+143,Port Vale,154,Hartlepool,2122,2,0,0.0,1.5
+129,Barrow,138,Swindon,2122,2,0,0.0,2.5
+136,Harrogate,154,Hartlepool,2122,2,0,0.0,4.0
+132,Crawley Town,151,Northampton,2122,2,1,0.5,0.5
+148,Sutton,156,Scunthorpe,2122,2,1,0.5,3.5
+141,Carlisle,152,Rochdale,2122,2,0,0.0,2.0
+141,Carlisle,146,Forest Green,2122,2,0,0.0,2.5
+121,Colchester,145,Mansfield,2122,2,1,0.5,2.5
+143,Port Vale,155,Exeter,2122,2,1,0.5,0.5
+124,Salford,153,Stevenage,2122,2,0,0.0,3.5
+124,Salford,141,Carlisle,2122,2,0,0.0,3.0
+121,Colchester,138,Swindon,2122,2,2,1.0,1.0
+143,Port Vale,146,Forest Green,2122,2,1,0.5,2.0
+129,Barrow,148,Sutton,2122,2,0,0.0,1.0
+118,Bristol Rvs,143,Port Vale,2122,2,0,0.0,3.5
+124,Salford,155,Exeter,2122,2,1,0.5,1.5
+124,Salford,145,Mansfield,2122,2,1,0.5,3.5
+127,Newport County,137,Oldham,2122,2,1,0.5,3.5
+124,Salford,151,Northampton,2122,2,1,0.5,2.5
+129,Barrow,137,Oldham,2122,2,1,0.5,1.5
+148,Sutton,150,Leyton Orient,2122,2,0,0.0,3.0
+146,Forest Green,155,Exeter,2122,2,2,1.0,
+145,Mansfield,146,Forest Green,2122,2,1,0.5,2.5
+124,Salford,148,Sutton,2122,2,2,1.0,
+126,Walsall,129,Barrow,2122,2,2,1.0,3.0
+126,Walsall,142,Bradford,2122,2,1,0.5,2.5
+132,Crawley Town,137,Oldham,2122,2,2,1.0,5.0
+141,Carlisle,142,Bradford,2122,2,0,0.0,2.0
+136,Harrogate,148,Sutton,2122,2,0,0.0,1.5
+153,Stevenage,156,Scunthorpe,2122,2,2,1.0,2.0
+118,Bristol Rvs,152,Rochdale,2122,2,0,0.0,6.5
+128,Tranmere,148,Sutton,2122,2,1,0.5,1.5
+154,Hartlepool,155,Exeter,2122,2,2,1.0,1.0
+136,Harrogate,156,Scunthorpe,2122,2,0,0.0,5.0
+124,Salford,128,Tranmere,2122,2,1,0.5,2.0
+152,Rochdale,155,Exeter,2122,2,1,0.5,2.0
+121,Colchester,137,Oldham,2122,2,1,0.5,2.5
+118,Bristol Rvs,138,Swindon,2122,2,1,0.5,3.0
+137,Oldham,150,Leyton Orient,2122,2,0,0.0,3.0
+136,Harrogate,155,Exeter,2122,2,1,0.5,4.5
+132,Crawley Town,145,Mansfield,2122,2,0,0.0,2.5
+138,Swindon,141,Carlisle,2122,2,0,0.0,3.0
+128,Tranmere,151,Northampton,2122,2,0,0.0,3.5
+129,Barrow,152,Rochdale,2122,2,1,0.5,1.5
+137,Oldham,156,Scunthorpe,2122,2,0,0.0,2.5
+128,Tranmere,129,Barrow,2122,2,1,0.5,2.0
+127,Newport County,153,Stevenage,2122,2,0,0.0,3.5
+137,Oldham,151,Northampton,2122,2,0,0.0,2.5
+137,Oldham,142,Bradford,2122,2,0,0.0,2.5
+137,Oldham,146,Forest Green,2122,2,1,0.5,6.0
+132,Crawley Town,155,Exeter,2122,2,0,0.0,3.5
+141,Carlisle,156,Scunthorpe,2122,2,1,0.5,2.5
+136,Harrogate,150,Leyton Orient,2122,2,0,0.0,2.5

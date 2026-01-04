@@ -16,6 +16,8 @@ import {
   RefreshCw
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -292,21 +294,11 @@ export default function Backtesting() {
   }, [savedResults, selectedSavedResult]);
 
   return (
-    <div className="p-6 space-y-6">
-      {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 animate-fade-in">
-        <div>
-          <div className="flex items-center gap-3 mb-1">
-            <div className="p-2 rounded-lg bg-primary/10">
-              <History className="h-5 w-5 text-primary" />
-            </div>
-            <h1 className="text-2xl font-semibold gradient-text">Backtesting</h1>
-          </div>
-          <p className="text-sm text-muted-foreground">
-            Test model probabilities against historical jackpot results
-          </p>
-        </div>
-        
+    <PageLayout
+      title="Backtesting"
+      description="Test probability sets against historical results"
+      icon={<History className="h-6 w-6" />}
+    >
         <div className="flex items-center gap-3">
           {results.length > 0 && (
             <Badge variant="outline" className="gap-1">
@@ -334,7 +326,6 @@ export default function Backtesting() {
             </Button>
           )}
         </div>
-      </div>
 
       {/* Workflow Info */}
       <Alert className="glass-card border-primary/20">
@@ -564,6 +555,6 @@ export default function Backtesting() {
           <BacktestComparison results={results} probabilities={probabilities} />
         </div>
       )}
-    </div>
+    </PageLayout>
   );
 }

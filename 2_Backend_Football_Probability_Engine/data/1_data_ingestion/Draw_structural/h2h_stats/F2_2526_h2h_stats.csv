@@ -1,0 +1,137 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+334,Rodez,344,Le Mans,2526,1,0,0.0,1.0
+342,Reims,344,Le Mans,2526,1,0,0.0,1.0
+335,Troyes,342,Reims,2526,1,1,1.0,
+340,Nancy,342,Reims,2526,2,1,0.5,1.5
+333,Pau FC,340,Nancy,2526,2,1,0.5,3.0
+330,Dunkerque,341,Red Star,2526,1,0,0.0,3.0
+337,Bastia,345,Boulogne,2526,1,0,0.0,1.0
+344,Le Mans,345,Boulogne,2526,1,0,0.0,1.0
+332,Montpellier,333,Pau FC,2526,1,0,0.0,1.0
+329,Guingamp,335,Troyes,2526,1,0,0.0,7.0
+330,Dunkerque,345,Boulogne,2526,1,1,1.0,2.0
+330,Dunkerque,335,Troyes,2526,1,0,0.0,2.0
+329,Guingamp,331,Laval,2526,1,0,0.0,2.0
+330,Dunkerque,337,Bastia,2526,1,1,1.0,
+338,Clermont,339,Grenoble,2526,1,0,0.0,3.0
+334,Rodez,341,Red Star,2526,1,1,1.0,2.0
+330,Dunkerque,343,St Etienne,2526,1,0,0.0,1.0
+332,Montpellier,339,Grenoble,2526,1,1,1.0,2.0
+338,Clermont,345,Boulogne,2526,1,1,1.0,2.0
+331,Laval,339,Grenoble,2526,1,1,1.0,2.0
+336,Amiens,344,Le Mans,2526,1,0,0.0,1.0
+331,Laval,337,Bastia,2526,1,0,0.0,2.0
+341,Red Star,343,St Etienne,2526,1,0,0.0,3.0
+334,Rodez,338,Clermont,2526,1,0,0.0,1.0
+332,Montpellier,342,Reims,2526,1,0,0.0,2.0
+333,Pau FC,344,Le Mans,2526,1,0,0.0,3.0
+339,Grenoble,344,Le Mans,2526,1,0,0.0,1.0
+329,Guingamp,336,Amiens,2526,1,0,0.0,3.0
+341,Red Star,345,Boulogne,2526,1,0,0.0,3.0
+333,Pau FC,338,Clermont,2526,1,0,0.0,4.0
+332,Montpellier,341,Red Star,2526,1,1,1.0,2.0
+342,Reims,345,Boulogne,2526,1,0,0.0,8.0
+329,Guingamp,341,Red Star,2526,1,0,0.0,4.0
+335,Troyes,343,St Etienne,2526,1,0,0.0,5.0
+334,Rodez,342,Reims,2526,1,1,1.0,4.0
+331,Laval,343,St Etienne,2526,1,1,1.0,6.0
+336,Amiens,339,Grenoble,2526,1,0,0.0,5.0
+334,Rodez,345,Boulogne,2526,1,0,0.0,1.0
+331,Laval,334,Rodez,2526,1,1,1.0,2.0
+336,Amiens,342,Reims,2526,1,1,1.0,4.0
+333,Pau FC,341,Red Star,2526,1,0,0.0,3.0
+330,Dunkerque,331,Laval,2526,1,0,0.0,3.0
+335,Troyes,340,Nancy,2526,2,0,0.0,3.5
+334,Rodez,343,St Etienne,2526,1,0,0.0,4.0
+335,Troyes,337,Bastia,2526,1,0,0.0,1.0
+329,Guingamp,345,Boulogne,2526,1,1,1.0,4.0
+331,Laval,340,Nancy,2526,2,1,0.5,1.0
+329,Guingamp,342,Reims,2526,1,0,0.0,1.0
+329,Guingamp,337,Bastia,2526,1,0,0.0,4.0
+330,Dunkerque,333,Pau FC,2526,1,0,0.0,3.0
+343,St Etienne,344,Le Mans,2526,1,0,0.0,5.0
+340,Nancy,345,Boulogne,2526,2,1,0.5,1.5
+329,Guingamp,344,Le Mans,2526,1,1,1.0,6.0
+334,Rodez,335,Troyes,2526,1,1,1.0,2.0
+331,Laval,333,Pau FC,2526,1,0,0.0,1.0
+330,Dunkerque,336,Amiens,2526,1,0,0.0,8.0
+334,Rodez,340,Nancy,2526,2,1,0.5,1.5
+333,Pau FC,334,Rodez,2526,1,0,0.0,3.0
+329,Guingamp,334,Rodez,2526,1,0,0.0,3.0
+334,Rodez,337,Bastia,2526,1,0,0.0,5.0
+332,Montpellier,338,Clermont,2526,1,1,1.0,2.0
+336,Amiens,340,Nancy,2526,2,0,0.0,1.0
+335,Troyes,341,Red Star,2526,1,0,0.0,4.0
+332,Montpellier,335,Troyes,2526,1,0,0.0,1.0
+332,Montpellier,343,St Etienne,2526,1,0,0.0,2.0
+339,Grenoble,341,Red Star,2526,1,0,0.0,1.0
+332,Montpellier,344,Le Mans,2526,1,0,0.0,3.0
+338,Clermont,343,St Etienne,2526,1,0,0.0,3.0
+331,Laval,344,Le Mans,2526,1,1,1.0,2.0
+339,Grenoble,343,St Etienne,2526,1,1,1.0,2.0
+342,Reims,343,St Etienne,2526,1,0,0.0,5.0
+335,Troyes,339,Grenoble,2526,1,0,0.0,3.0
+338,Clermont,344,Le Mans,2526,1,1,1.0,2.0
+333,Pau FC,345,Boulogne,2526,1,0,0.0,3.0
+337,Bastia,344,Le Mans,2526,1,0,0.0,1.0
+334,Rodez,336,Amiens,2526,1,0,0.0,3.0
+330,Dunkerque,344,Le Mans,2526,1,1,1.0,4.0
+333,Pau FC,337,Bastia,2526,1,1,1.0,2.0
+340,Nancy,340,Nancy,2526,1,0,0.0,3.0
+332,Montpellier,334,Rodez,2526,1,0,0.0,2.0
+331,Laval,338,Clermont,2526,1,1,1.0,
+335,Troyes,336,Amiens,2526,1,0,0.0,4.0
+334,Rodez,339,Grenoble,2526,1,0,0.0,3.0
+332,Montpellier,340,Nancy,2526,2,0,0.0,3.0
+338,Clermont,341,Red Star,2526,1,1,1.0,4.0
+331,Laval,335,Troyes,2526,1,0,0.0,1.0
+336,Amiens,341,Red Star,2526,1,0,0.0,4.0
+339,Grenoble,340,Nancy,2526,2,0,0.0,2.5
+329,Guingamp,333,Pau FC,2526,1,1,1.0,4.0
+329,Guingamp,338,Clermont,2526,1,0,0.0,1.0
+330,Dunkerque,340,Nancy,2526,2,1,0.5,4.0
+332,Montpellier,336,Amiens,2526,1,1,1.0,2.0
+333,Pau FC,339,Grenoble,2526,1,1,1.0,2.0
+338,Clermont,340,Nancy,2526,2,0,0.0,1.0
+340,Nancy,341,Red Star,2526,2,0,0.0,1.0
+337,Bastia,340,Nancy,2526,2,0,0.0,1.5
+336,Amiens,338,Clermont,2526,1,0,0.0,3.0
+331,Laval,332,Montpellier,2526,1,0,0.0,1.0
+330,Dunkerque,332,Montpellier,2526,1,0,0.0,1.0
+333,Pau FC,336,Amiens,2526,1,0,0.0,3.0
+335,Troyes,345,Boulogne,2526,1,0,0.0,3.0
+337,Bastia,342,Reims,2526,1,0,0.0,4.0
+339,Grenoble,345,Boulogne,2526,1,0,0.0,4.0
+329,Guingamp,332,Montpellier,2526,1,0,0.0,1.0
+329,Guingamp,330,Dunkerque,2526,1,0,0.0,3.0
+341,Red Star,342,Reims,2526,1,1,1.0,
+331,Laval,341,Red Star,2526,1,0,0.0,1.0
+331,Laval,342,Reims,2526,1,0,0.0,4.0
+329,Guingamp,343,St Etienne,2526,1,0,0.0,5.0
+343,St Etienne,345,Boulogne,2526,1,0,0.0,1.0
+340,Nancy,344,Le Mans,2526,2,0,0.0,2.0
+330,Dunkerque,339,Grenoble,2526,1,0,0.0,1.0
+332,Montpellier,337,Bastia,2526,1,0,0.0,2.0
+338,Clermont,342,Reims,2526,1,0,0.0,5.0
+337,Bastia,338,Clermont,2526,1,0,0.0,1.0
+330,Dunkerque,334,Rodez,2526,1,1,1.0,2.0
+336,Amiens,343,St Etienne,2526,1,0,0.0,1.0
+330,Dunkerque,338,Clermont,2526,1,1,1.0,4.0
+337,Bastia,343,St Etienne,2526,1,1,1.0,4.0
+341,Red Star,344,Le Mans,2526,1,1,1.0,
+337,Bastia,339,Grenoble,2526,1,1,1.0,
+333,Pau FC,342,Reims,2526,1,0,0.0,2.0
+340,Nancy,343,St Etienne,2526,2,0,0.0,3.5
+339,Grenoble,342,Reims,2526,1,0,0.0,6.0
+330,Dunkerque,342,Reims,2526,1,0,0.0,3.0
+335,Troyes,344,Le Mans,2526,1,1,1.0,4.0
+329,Guingamp,339,Grenoble,2526,1,1,1.0,
+333,Pau FC,335,Troyes,2526,1,1,1.0,2.0
+331,Laval,336,Amiens,2526,1,0,0.0,3.0
+331,Laval,345,Boulogne,2526,1,0,0.0,3.0
+336,Amiens,345,Boulogne,2526,1,0,0.0,1.0
+336,Amiens,337,Bastia,2526,1,1,1.0,
+335,Troyes,338,Clermont,2526,1,1,1.0,
+333,Pau FC,343,St Etienne,2526,1,0,0.0,6.0
+329,Guingamp,340,Nancy,2526,2,1,0.5,3.5
+332,Montpellier,345,Boulogne,2526,1,0,0.0,4.0

@@ -2,6 +2,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Info, Download, FileText, Calculator, TrendingUp, Target, Zap, Scale, Users, AlertTriangle, CheckCircle, HelpCircle, Loader2, Save, FolderOpen, X, Trophy } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import {
   Table,
@@ -945,19 +947,29 @@ export default function ProbabilityOutput() {
   // Show loading state
   if (loading) {
     return (
-      <div className="p-6 flex items-center justify-center min-h-[400px]">
-        <div className="text-center space-y-4">
-          <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto" />
-          <p className="text-muted-foreground">Loading probabilities...</p>
+      <PageLayout
+        title="Probability Output"
+        description="View calculated probabilities for all sets"
+        icon={<Calculator className="h-6 w-6" />}
+      >
+        <div className="flex items-center justify-center min-h-[400px]">
+          <div className="text-center space-y-4">
+            <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto" />
+            <p className="text-muted-foreground">Loading probabilities...</p>
+          </div>
         </div>
-      </div>
+      </PageLayout>
     );
   }
 
   // Show error state
   if (error && Object.keys(loadedSets).length === 0) {
     return (
-      <div className="p-6">
+      <PageLayout
+        title="Probability Output"
+        description="View calculated probabilities for all sets"
+        icon={<Calculator className="h-6 w-6" />}
+      >
         <Alert variant="destructive">
           <AlertTriangle className="h-4 w-4" />
           <AlertTitle>Error Loading Probabilities</AlertTitle>
@@ -969,24 +981,16 @@ export default function ProbabilityOutput() {
         >
           Go Back to Input
         </Button>
-      </div>
+      </PageLayout>
     );
   }
 
   return (
-    <div className="p-6 space-y-6 animate-fade-in">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-2xl font-bold text-foreground text-glow">Probability Output</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Calculated probabilities for the current jackpot — 7 probability sets (A-G)
-            {modelVersion && (
-              <span className="ml-2 text-xs bg-primary/10 text-primary px-2 py-0.5 rounded">
-                Model: {modelVersion}
-              </span>
-            )}
-          </p>
-        </div>
+    <PageLayout
+      title="Probability Output"
+      description={`Calculated probabilities for the current jackpot — 7 probability sets (A-G)${modelVersion ? ` • Model: ${modelVersion}` : ''}`}
+      icon={<Calculator className="h-6 w-6" />}
+    >
         <div className="flex items-center gap-2">
           <Dialog 
             open={isSaveDialogOpen} 
@@ -1104,7 +1108,6 @@ export default function ProbabilityOutput() {
           </DropdownMenuContent>
         </DropdownMenu>
         </div>
-      </div>
 
       {/* User Guidance Alert */}
       <Alert className="glass-card border-primary/20">
@@ -1630,6 +1633,6 @@ export default function ProbabilityOutput() {
           </p>
         </CardContent>
       </Card>
-    </div>
+    </PageLayout>
   );
 }

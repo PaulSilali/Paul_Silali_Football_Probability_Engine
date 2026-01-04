@@ -1,8 +1,13 @@
 import { useState } from 'react';
-import { Info } from 'lucide-react';
+import { Info, Target, BarChart3 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { DrawDiagnostics } from '@/components/DrawDiagnostics';
+import { DrawComponentsDisplay } from '@/components/DrawComponentsDisplay';
 import {
   LineChart,
   Line,
@@ -60,14 +65,11 @@ export default function Calibration() {
   const [selectedTimeWindow, setSelectedTimeWindow] = useState('Last 12 months');
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">Calibration & Validation</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Model performance and reliability metrics
-          </p>
-        </div>
+    <PageLayout
+      title="Calibration & Validation"
+      description="Model performance and reliability metrics"
+      icon={<Target className="h-6 w-6" />}
+      action={
         <div className="flex items-center gap-3">
           <Select value={selectedLeague} onValueChange={setSelectedLeague}>
             <SelectTrigger className="w-[180px]">
@@ -90,8 +92,26 @@ export default function Calibration() {
             </SelectContent>
           </Select>
         </div>
-      </div>
+      }
+    >
+      <Tabs defaultValue="overall" className="space-y-6">
+        <TabsList>
+          <TabsTrigger value="overall">
+            <Target className="h-4 w-4 mr-2" />
+            Overall Calibration
+          </TabsTrigger>
+          <TabsTrigger value="draw">
+            <BarChart3 className="h-4 w-4 mr-2" />
+            Draw Diagnostics
+          </TabsTrigger>
+          <TabsTrigger value="components">
+            <BarChart3 className="h-4 w-4 mr-2" />
+            Draw Components
+          </TabsTrigger>
+        </TabsList>
 
+        {/* Overall Calibration Tab */}
+        <TabsContent value="overall" className="space-y-6">
       <Alert>
         <Info className="h-4 w-4" />
         <AlertDescription>
@@ -218,6 +238,18 @@ export default function Calibration() {
           </div>
         </CardContent>
       </Card>
-    </div>
+        </TabsContent>
+
+        {/* Draw Diagnostics Tab */}
+        <TabsContent value="draw" className="space-y-6">
+          <DrawDiagnostics />
+        </TabsContent>
+
+        {/* Draw Components Tab */}
+        <TabsContent value="components" className="space-y-6">
+          <DrawComponentsDisplay />
+        </TabsContent>
+      </Tabs>
+    </PageLayout>
   );
 }

@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E1,2122,2021-08-06,Bournemouth,West Brom,90,380,False
+E1,2122,2021-08-07,Blackburn,Swansea,91,91,False
+E1,2122,2021-08-07,Cardiff,Burnley,91,91,False
+E1,2122,2021-08-07,Sheffield United,Birmingham,91,91,False
+E1,2122,2021-08-07,Stoke,Reading,91,91,False
+E1,2122,2021-08-07,QPR,Millwall,91,91,False
+E1,2122,2021-08-07,Preston,Hull,91,381,False
+E1,2122,2021-08-07,Luton,Peterboro,91,7,False
+E1,2122,2021-08-07,Derby,Huddersfield,91,91,False
+E1,2122,2021-08-07,Bristol City,Blackpool,91,7,False
+E1,2122,2021-08-08,Coventry,Nott'm Forest,92,92,False
+E1,2122,2021-08-08,Fulham,Middlesbrough,382,92,False
+E1,2122,2021-08-14,Huddersfield,Fulham,7,6,False
+E1,2122,2021-08-14,Hull,QPR,7,7,False
+E1,2122,2021-08-14,Middlesbrough,Bristol City,6,7,False
+E1,2122,2021-08-14,Millwall,Blackburn,7,7,False
+E1,2122,2021-08-14,Nott'm Forest,Bournemouth,6,8,False
+E1,2122,2021-08-14,Reading,Preston,7,7,False
+E1,2122,2021-08-14,West Brom,Luton,8,7,False
+E1,2122,2021-08-14,Swansea,Sheffield United,7,7,False
+E1,2122,2021-08-14,Blackpool,Cardiff,7,7,False
+E1,2122,2021-08-14,Birmingham,Stoke,7,7,False
+E1,2122,2021-08-14,Peterboro,Derby,7,7,False
+E1,2122,2021-08-14,Burnley,Coventry,7,6,False
+E1,2122,2021-08-17,Peterboro,Cardiff,3,3,True
+E1,2122,2021-08-17,Swansea,Stoke,3,3,True
+E1,2122,2021-08-17,Reading,Bristol City,3,3,True
+E1,2122,2021-08-17,Burnley,Luton,3,3,True
+E1,2122,2021-08-17,Blackpool,Coventry,3,3,True
+E1,2122,2021-08-17,Huddersfield,Preston,3,3,True
+E1,2122,2021-08-17,Millwall,Fulham,3,3,True
+E1,2122,2021-08-18,Nott'm Forest,Blackburn,4,4,True
+E1,2122,2021-08-18,Birmingham,Bournemouth,4,4,True
+E1,2122,2021-08-18,Hull,Derby,4,4,True
+E1,2122,2021-08-18,Middlesbrough,QPR,4,4,True
+E1,2122,2021-08-18,West Brom,Sheffield United,4,4,True
+E1,2122,2021-08-20,Bristol City,Swansea,3,3,False
+E1,2122,2021-08-21,Coventry,Reading,4,4,False
+E1,2122,2021-08-21,Derby,Middlesbrough,3,3,False
+E1,2122,2021-08-21,Fulham,Hull,4,3,False
+E1,2122,2021-08-21,Luton,Birmingham,4,3,False
+E1,2122,2021-08-21,Preston,Peterboro,4,4,False
+E1,2122,2021-08-21,Sheffield United,Huddersfield,3,4,False
+E1,2122,2021-08-21,Stoke,Nott'm Forest,4,3,False
+E1,2122,2021-08-21,Cardiff,Millwall,4,4,False
+E1,2122,2021-08-21,Bournemouth,Blackpool,3,4,False
+E1,2122,2021-08-21,Blackburn,West Brom,3,3,False
+E1,2122,2021-08-21,QPR,Burnley,3,4,False
+E1,2122,2021-08-28,Fulham,Stoke,7,7,False
+E1,2122,2021-08-28,Hull,Bournemouth,7,7,False
+E1,2122,2021-08-28,Luton,Sheffield United,7,7,False
+E1,2122,2021-08-28,Middlesbrough,Blackburn,7,7,False
+E1,2122,2021-08-28,Millwall,Blackpool,7,7,False
+E1,2122,2021-08-28,Preston,Swansea,7,8,False
+E1,2122,2021-08-28,QPR,Coventry,7,7,False
+E1,2122,2021-08-28,Peterboro,West Brom,7,7,False
+E1,2122,2021-08-28,Huddersfield,Reading,7,7,False
+E1,2122,2021-08-28,Cardiff,Bristol City,7,8,False
+E1,2122,2021-08-28,Derby,Nott'm Forest,7,7,False
+E1,2122,2021-08-28,Burnley,Birmingham,7,7,False
+E1,2122,2021-09-10,Birmingham,Derby,13,13,False
+E1,2122,2021-09-11,West Brom,Millwall,14,14,False
+E1,2122,2021-09-11,Blackburn,Luton,14,14,False
+E1,2122,2021-09-11,Blackpool,Fulham,14,14,False
+E1,2122,2021-09-11,Bournemouth,Burnley,14,14,False
+E1,2122,2021-09-11,Bristol City,Preston,14,14,False
+E1,2122,2021-09-11,Coventry,Middlesbrough,14,14,False
+E1,2122,2021-09-11,Reading,QPR,14,14,False
+E1,2122,2021-09-11,Sheffield United,Peterboro,14,14,False
+E1,2122,2021-09-11,Stoke,Huddersfield,14,14,False
+E1,2122,2021-09-11,Swansea,Hull,14,14,False
+E1,2122,2021-09-12,Nott'm Forest,Cardiff,15,15,False
+E1,2122,2021-09-14,Blackpool,Huddersfield,3,3,True
+E1,2122,2021-09-14,Bournemouth,QPR,3,3,True
+E1,2122,2021-09-14,Blackburn,Hull,3,3,True
+E1,2122,2021-09-14,Reading,Peterboro,3,3,True
+E1,2122,2021-09-14,West Brom,Derby,3,4,True
+E1,2122,2021-09-14,Sheffield United,Preston,3,3,True
+E1,2122,2021-09-15,Bristol City,Luton,4,4,True
+E1,2122,2021-09-15,Coventry,Cardiff,4,3,True
+E1,2122,2021-09-15,Nott'm Forest,Middlesbrough,3,4,True
+E1,2122,2021-09-15,Stoke,Burnley,4,4,True
+E1,2122,2021-09-15,Swansea,Millwall,4,4,True
+E1,2122,2021-09-15,Birmingham,Fulham,5,4,True
+E1,2122,2021-09-18,Derby,Stoke,4,3,False
+E1,2122,2021-09-18,Huddersfield,Nott'm Forest,4,3,False
+E1,2122,2021-09-18,Luton,Swansea,3,3,False
+E1,2122,2021-09-18,Middlesbrough,Blackpool,3,4,False
+E1,2122,2021-09-18,Millwall,Coventry,3,3,False
+E1,2122,2021-09-18,Peterboro,Birmingham,4,3,False
+E1,2122,2021-09-18,Preston,West Brom,4,4,False
+E1,2122,2021-09-18,QPR,Bristol City,4,3,False
+E1,2122,2021-09-18,Hull,Sheffield United,4,4,False
+E1,2122,2021-09-18,Fulham,Reading,3,4,False
+E1,2122,2021-09-18,Cardiff,Bournemouth,3,4,False
+E1,2122,2021-09-18,Burnley,Blackburn,3,4,False
+E1,2122,2021-09-24,Coventry,Peterboro,6,6,False
+E1,2122,2021-09-24,West Brom,QPR,6,6,False
+E1,2122,2021-09-25,Birmingham,Preston,7,7,False
+E1,2122,2021-09-25,Reading,Middlesbrough,7,7,False
+E1,2122,2021-09-25,Blackburn,Cardiff,7,7,False
+E1,2122,2021-09-25,Blackpool,Burnley,7,7,False
+E1,2122,2021-09-25,Bournemouth,Luton,7,7,False
+E1,2122,2021-09-25,Bristol City,Fulham,7,7,False
+E1,2122,2021-09-25,Nott'm Forest,Millwall,7,7,False
+E1,2122,2021-09-25,Sheffield United,Derby,7,7,False
+E1,2122,2021-09-25,Stoke,Hull,7,7,False
+E1,2122,2021-09-25,Swansea,Huddersfield,7,7,False
+E1,2122,2021-09-28,Preston,Stoke,3,3,True
+E1,2122,2021-09-28,QPR,Birmingham,4,3,True
+E1,2122,2021-09-28,Middlesbrough,Sheffield United,3,3,True
+E1,2122,2021-09-28,Hull,Blackpool,3,3,True
+E1,2122,2021-09-28,Huddersfield,Blackburn,3,3,True
+E1,2122,2021-09-28,Cardiff,West Brom,3,4,True
+E1,2122,2021-09-29,Millwall,Bristol City,4,4,True
+E1,2122,2021-09-29,Peterboro,Bournemouth,5,4,True
+E1,2122,2021-09-29,Burnley,Nott'm Forest,4,4,True
+E1,2122,2021-09-29,Derby,Reading,4,4,True
+E1,2122,2021-09-29,Fulham,Swansea,4,4,True
+E1,2122,2021-09-29,Luton,Coventry,4,5,True
+E1,2122,2021-10-01,Stoke,West Brom,3,3,False
+E1,2122,2021-10-02,Bournemouth,Sheffield United,3,4,False
+E1,2122,2021-10-02,Cardiff,Reading,4,3,False
+E1,2122,2021-10-02,Derby,Swansea,3,3,False
+E1,2122,2021-10-02,Hull,Middlesbrough,4,4,False
+E1,2122,2021-10-02,Luton,Huddersfield,3,4,False
+E1,2122,2021-10-02,Peterboro,Bristol City,3,3,False
+E1,2122,2021-10-02,QPR,Preston,4,4,False
+E1,2122,2021-10-02,Birmingham,Nott'm Forest,4,3,False
+E1,2122,2021-10-02,Blackpool,Blackburn,4,4,False
+E1,2122,2021-10-02,Coventry,Fulham,3,3,False
+E1,2122,2021-10-02,Burnley,Millwall,3,3,False
+E1,2122,2021-10-15,West Brom,Birmingham,14,13,False
+E1,2122,2021-10-16,Sheffield United,Stoke,14,15,False
+E1,2122,2021-10-16,Fulham,QPR,14,14,False
+E1,2122,2021-10-16,Blackburn,Coventry,14,14,False
+E1,2122,2021-10-16,Bristol City,Bournemouth,14,14,False
+E1,2122,2021-10-16,Huddersfield,Hull,14,14,False
+E1,2122,2021-10-16,Middlesbrough,Peterboro,14,14,False
+E1,2122,2021-10-16,Millwall,Luton,14,14,False
+E1,2122,2021-10-16,Nott'm Forest,Blackpool,14,14,False
+E1,2122,2021-10-16,Preston,Derby,14,14,False
+E1,2122,2021-10-16,Reading,Burnley,14,14,False
+E1,2122,2021-10-17,Swansea,Cardiff,15,15,False
+E1,2122,2021-10-19,QPR,Blackburn,3,3,True
+E1,2122,2021-10-19,Sheffield United,Millwall,3,3,True
+E1,2122,2021-10-19,Derby,Luton,3,3,True
+E1,2122,2021-10-19,Stoke,Bournemouth,3,3,True
+E1,2122,2021-10-19,Bristol City,Nott'm Forest,3,3,True
+E1,2122,2021-10-20,Reading,Blackpool,4,4,True
+E1,2122,2021-10-20,Middlesbrough,Burnley,4,4,True
+E1,2122,2021-10-20,Swansea,West Brom,3,5,True
+E1,2122,2021-10-20,Preston,Coventry,4,4,True
+E1,2122,2021-10-20,Hull,Peterboro,4,4,True
+E1,2122,2021-10-20,Huddersfield,Birmingham,4,5,True
+E1,2122,2021-10-20,Fulham,Cardiff,4,3,True
+E1,2122,2021-10-23,Bournemouth,Huddersfield,4,3,False
+E1,2122,2021-10-23,Birmingham,Swansea,3,3,False
+E1,2122,2021-10-23,Blackburn,Reading,4,3,False
+E1,2122,2021-10-23,Blackpool,Preston,3,3,False
+E1,2122,2021-10-23,Cardiff,Middlesbrough,3,3,False
+E1,2122,2021-10-23,Coventry,Derby,3,4,False
+E1,2122,2021-10-23,Luton,Hull,4,3,False
+E1,2122,2021-10-23,Millwall,Stoke,4,4,False
+E1,2122,2021-10-23,Peterboro,QPR,3,4,False
+E1,2122,2021-10-23,West Brom,Bristol City,3,4,False
+E1,2122,2021-10-24,Nott'm Forest,Fulham,5,4,False
+E1,2122,2021-10-24,Burnley,Sheffield United,4,5,False
+E1,2122,2021-10-29,QPR,Nott'm Forest,6,5,False
+E1,2122,2021-10-30,Derby,Blackburn,7,7,False
+E1,2122,2021-10-30,Fulham,West Brom,6,7,False
+E1,2122,2021-10-30,Bristol City,Burnley,7,6,False
+E1,2122,2021-10-30,Huddersfield,Millwall,7,7,False
+E1,2122,2021-10-30,Hull,Coventry,7,7,False
+E1,2122,2021-10-30,Middlesbrough,Birmingham,7,7,False
+E1,2122,2021-10-30,Preston,Luton,7,7,False
+E1,2122,2021-10-30,Sheffield United,Blackpool,6,7,False
+E1,2122,2021-10-30,Stoke,Cardiff,7,7,False
+E1,2122,2021-10-30,Swansea,Peterboro,7,7,False
+E1,2122,2021-10-30,Reading,Bournemouth,7,7,False
+E1,2122,2021-11-02,Nott'm Forest,Sheffield United,4,3,True
+E1,2122,2021-11-02,Peterboro,Huddersfield,3,3,True
+E1,2122,2021-11-02,Millwall,Reading,3,3,True
+E1,2122,2021-11-02,Luton,Middlesbrough,3,3,True
+E1,2122,2021-11-02,Coventry,Swansea,3,3,True
+E1,2122,2021-11-02,Birmingham,Bristol City,3,3,True
+E1,2122,2021-11-03,Cardiff,QPR,4,5,True
+E1,2122,2021-11-03,West Brom,Hull,4,4,True
+E1,2122,2021-11-03,Burnley,Derby,4,4,True
+E1,2122,2021-11-03,Blackburn,Fulham,4,4,True
+E1,2122,2021-11-03,Blackpool,Stoke,4,4,True
+E1,2122,2021-11-03,Bournemouth,Preston,4,4,True
+E1,2122,2021-11-06,Cardiff,Huddersfield,3,4,False
+E1,2122,2021-11-06,Luton,Stoke,4,3,False
+E1,2122,2021-11-06,Millwall,Derby,4,3,False
+E1,2122,2021-11-06,Nott'm Forest,Preston,4,3,False
+E1,2122,2021-11-06,Peterboro,Fulham,4,3,False
+E1,2122,2021-11-06,West Brom,Middlesbrough,3,4,False
+E1,2122,2021-11-06,Birmingham,Reading,4,4,False
+E1,2122,2021-11-06,Blackpool,QPR,3,3,False
+E1,2122,2021-11-06,Coventry,Bristol City,4,4,False
+E1,2122,2021-11-06,Burnley,Hull,3,3,False
+E1,2122,2021-11-06,Blackburn,Sheffield United,3,4,False
+E1,2122,2021-11-06,Bournemouth,Swansea,3,4,False
+E1,2122,2021-11-19,QPR,Luton,13,13,False
+E1,2122,2021-11-20,Swansea,Blackpool,14,14,False
+E1,2122,2021-11-20,Sheffield United,Coventry,14,14,False
+E1,2122,2021-11-20,Bristol City,Blackburn,14,14,False
+E1,2122,2021-11-20,Fulham,Burnley,14,14,False
+E1,2122,2021-11-20,Huddersfield,West Brom,14,14,False
+E1,2122,2021-11-20,Hull,Birmingham,14,14,False
+E1,2122,2021-11-20,Middlesbrough,Millwall,14,14,False
+E1,2122,2021-11-20,Preston,Cardiff,14,14,False
+E1,2122,2021-11-20,Reading,Nott'm Forest,14,14,False
+E1,2122,2021-11-20,Stoke,Peterboro,14,14,False
+E1,2122,2021-11-21,Derby,Bournemouth,15,15,False
+E1,2122,2021-11-23,Blackpool,West Brom,3,3,True
+E1,2122,2021-11-23,Coventry,Birmingham,3,3,True
+E1,2122,2021-11-23,Middlesbrough,Preston,3,3,True
+E1,2122,2021-11-23,Reading,Sheffield United,3,3,True
+E1,2122,2021-11-23,Nott'm Forest,Luton,3,4,True
+E1,2122,2021-11-24,Bristol City,Stoke,4,4,True
+E1,2122,2021-11-24,Cardiff,Hull,4,4,True
+E1,2122,2021-11-24,Fulham,Derby,4,3,True
+E1,2122,2021-11-24,Millwall,Bournemouth,4,3,True
+E1,2122,2021-11-24,QPR,Huddersfield,5,4,True
+E1,2122,2021-11-24,Burnley,Swansea,4,4,True
+E1,2122,2021-11-24,Blackburn,Peterboro,4,4,True
+E1,2122,2021-11-26,West Brom,Nott'm Forest,3,3,False
+E1,2122,2021-11-27,Hull,Millwall,3,3,False
+E1,2122,2021-11-27,Luton,Cardiff,4,3,False
+E1,2122,2021-11-27,Peterboro,Burnley,3,3,False
+E1,2122,2021-11-27,Stoke,Blackburn,3,3,False
+E1,2122,2021-11-27,Swansea,Reading,3,4,False
+E1,2122,2021-11-27,Huddersfield,Middlesbrough,3,4,False
+E1,2122,2021-11-27,Preston,Fulham,4,3,False
+E1,2122,2021-11-27,Birmingham,Blackpool,4,4,False
+E1,2122,2021-11-27,Bournemouth,Coventry,3,4,False
+E1,2122,2021-11-28,Sheffield United,Bristol City,5,4,False
+E1,2122,2021-11-29,Derby,QPR,5,5,False
+E1,2122,2021-12-03,Fulham,Bournemouth,6,6,False
+E1,2122,2021-12-04,Blackburn,Preston,7,7,False
+E1,2122,2021-12-04,Coventry,West Brom,7,8,False
+E1,2122,2021-12-04,Burnley,Huddersfield,7,7,False
+E1,2122,2021-12-04,Blackpool,Luton,7,7,False
+E1,2122,2021-12-04,Bristol City,Derby,6,5,False
+E1,2122,2021-12-04,Cardiff,Sheffield United,7,6,False
+E1,2122,2021-12-04,Middlesbrough,Swansea,7,7,False
+E1,2122,2021-12-04,Millwall,Birmingham,7,7,False
+E1,2122,2021-12-04,Nott'm Forest,Peterboro,8,7,False
+E1,2122,2021-12-04,Reading,Hull,7,7,False
+E1,2122,2021-12-05,QPR,Stoke,6,8,False
+E1,2122,2021-12-11,Hull,Bristol City,7,7,False
+E1,2122,2021-12-11,Luton,Fulham,7,8,False
+E1,2122,2021-12-11,Peterboro,Millwall,7,7,False
+E1,2122,2021-12-11,Preston,Burnley,7,7,False
+E1,2122,2021-12-11,Stoke,Middlesbrough,6,7,False
+E1,2122,2021-12-11,Swansea,Nott'm Forest,7,7,False
+E1,2122,2021-12-11,West Brom,Reading,7,7,False
+E1,2122,2021-12-11,Derby,Blackpool,7,7,False
+E1,2122,2021-12-11,Bournemouth,Blackburn,8,7,False
+E1,2122,2021-12-11,Birmingham,Cardiff,7,7,False
+E1,2122,2021-12-11,Huddersfield,Coventry,7,7,False
+E1,2122,2021-12-17,Burnley,West Brom,6,6,False
+E1,2122,2021-12-18,Nott'm Forest,Hull,7,7,False
+E1,2122,2021-12-18,Bristol City,Huddersfield,7,7,False
+E1,2122,2021-12-18,Middlesbrough,Bournemouth,7,7,False
+E1,2122,2021-12-18,Blackburn,Birmingham,7,7,False
+E1,2122,2021-12-18,Blackpool,Peterboro,7,7,False
+E1,2122,2021-12-20,Fulham,Sheffield United,9,16,False
+E1,2122,2021-12-26,Middlesbrough,Nott'm Forest,8,8,False
+E1,2122,2021-12-26,Huddersfield,Blackpool,8,8,False
+E1,2122,2021-12-27,Derby,West Brom,16,10,False
+E1,2122,2021-12-27,QPR,Bournemouth,22,9,False
+E1,2122,2021-12-29,Blackpool,Middlesbrough,3,3,True
+E1,2122,2021-12-29,Blackburn,Burnley,11,12,True
+E1,2122,2021-12-29,Coventry,Millwall,18,18,True
+E1,2122,2021-12-30,Stoke,Derby,19,3,True
+E1,2122,2021-12-30,Bournemouth,Cardiff,3,19,True
+E1,2122,2021-12-30,Bristol City,QPR,12,3,True
+E1,2122,2021-12-30,Nott'm Forest,Huddersfield,4,4,True
+E1,2122,2022-01-01,Blackpool,Hull,3,14,False
+E1,2122,2022-01-02,West Brom,Cardiff,6,3,False
+E1,2122,2022-01-02,Bristol City,Millwall,3,4,False
+E1,2122,2022-01-02,Blackburn,Huddersfield,4,3,False
+E1,2122,2022-01-02,Birmingham,QPR,15,3,False
+E1,2122,2022-01-03,Reading,Derby,23,4,False
+E1,2122,2022-01-03,Stoke,Preston,4,23,False
+E1,2122,2022-01-11,Reading,Fulham,8,22,True
+E1,2122,2022-01-15,QPR,West Brom,13,13,False
+E1,2122,2022-01-15,Cardiff,Blackburn,13,13,False
+E1,2122,2022-01-15,Luton,Bournemouth,35,16,False
+E1,2122,2022-01-15,Fulham,Bristol City,4,13,False
+E1,2122,2022-01-15,Huddersfield,Swansea,13,35,False
+E1,2122,2022-01-15,Middlesbrough,Reading,17,4,False
+E1,2122,2022-01-15,Millwall,Nott'm Forest,13,16,False
+E1,2122,2022-01-15,Peterboro,Coventry,28,17,False
+E1,2122,2022-01-15,Preston,Birmingham,12,13,False
+E1,2122,2022-01-15,Derby,Sheffield United,12,26,False
+E1,2122,2022-01-16,Hull,Stoke,15,13,False
+E1,2122,2022-01-18,Preston,Sheffield United,3,3,True
+E1,2122,2022-01-18,Fulham,Birmingham,3,3,True
+E1,2122,2022-01-19,Reading,Luton,4,4,True
+E1,2122,2022-01-19,Hull,Blackburn,3,4,True
+E1,2122,2022-01-22,Blackpool,Millwall,21,7,False
+E1,2122,2022-01-22,Coventry,QPR,7,7,False
+E1,2122,2022-01-22,Reading,Huddersfield,3,7,False
+E1,2122,2022-01-22,Sheffield United,Luton,4,3,False
+E1,2122,2022-01-22,Stoke,Fulham,6,4,False
+E1,2122,2022-01-22,Swansea,Preston,7,4,False
+E1,2122,2022-01-22,West Brom,Peterboro,7,7,False
+E1,2122,2022-01-22,Bournemouth,Hull,7,3,False
+E1,2122,2022-01-22,Birmingham,Burnley,4,24,False
+E1,2122,2022-01-22,Nott'm Forest,Derby,7,7,False
+E1,2122,2022-01-22,Bristol City,Cardiff,7,7,False
+E1,2122,2022-01-24,Blackburn,Middlesbrough,5,9,False
+E1,2122,2022-01-25,Luton,Bristol City,3,3,True
+E1,2122,2022-01-25,Birmingham,Peterboro,3,3,True
+E1,2122,2022-01-25,Coventry,Stoke,3,3,True
+E1,2122,2022-01-25,Nott'm Forest,Burnley,3,3,True
+E1,2122,2022-01-25,QPR,Swansea,3,3,True
+E1,2122,2022-01-26,West Brom,Preston,4,4,True
+E1,2122,2022-01-28,Huddersfield,Stoke,6,3,False
+E1,2122,2022-01-29,Middlesbrough,Coventry,5,4,False
+E1,2122,2022-01-29,Millwall,West Brom,7,3,False
+E1,2122,2022-01-29,Preston,Bristol City,3,4,False
+E1,2122,2022-01-29,QPR,Reading,4,7,False
+E1,2122,2022-01-29,Peterboro,Sheffield United,4,7,False
+E1,2122,2022-01-29,Hull,Swansea,7,4,False
+E1,2122,2022-01-29,Luton,Blackburn,4,5,False
+E1,2122,2022-01-29,Fulham,Blackpool,7,7,False
+E1,2122,2022-01-29,Burnley,Bournemouth,4,7,False
+E1,2122,2022-01-30,Derby,Birmingham,8,5,False
+E1,2122,2022-01-30,Cardiff,Nott'm Forest,8,5,False
+E1,2122,2022-02-01,Swansea,Luton,3,3,True
+E1,2122,2022-02-01,Millwall,Preston,3,3,True
+E1,2122,2022-02-02,Burnley,Cardiff,4,3,True
+E1,2122,2022-02-02,Huddersfield,Derby,5,3,True
+E1,2122,2022-02-04,Birmingham,Sheffield United,5,6,False
+E1,2122,2022-02-05,Swansea,Blackburn,4,7,False
+E1,2122,2022-02-05,Hull,Preston,7,4,False
+E1,2122,2022-02-05,Blackpool,Bristol City,7,7,False
+E1,2122,2022-02-08,Coventry,Blackpool,10,3,True
+E1,2122,2022-02-08,Stoke,Swansea,11,3,True
+E1,2122,2022-02-08,Derby,Hull,6,3,True
+E1,2122,2022-02-08,Fulham,Millwall,10,7,True
+E1,2122,2022-02-08,Luton,Burnley,7,6,True
+E1,2122,2022-02-09,QPR,Middlesbrough,11,11,True
+E1,2122,2022-02-09,Blackburn,Nott'm Forest,4,10,True
+E1,2122,2022-02-09,Bournemouth,Birmingham,11,5,True
+E1,2122,2022-02-09,Bristol City,Reading,4,11,True
+E1,2122,2022-02-09,Cardiff,Peterboro,7,11,True
+E1,2122,2022-02-09,Preston,Huddersfield,4,7,True
+E1,2122,2022-02-09,Sheffield United,West Brom,5,11,True
+E1,2122,2022-02-12,Hull,Fulham,4,4,False
+E1,2122,2022-02-12,Reading,Coventry,3,4,False
+E1,2122,2022-02-12,Huddersfield,Sheffield United,3,3,False
+E1,2122,2022-02-12,Burnley,QPR,4,3,False
+E1,2122,2022-02-12,Birmingham,Luton,3,4,False
+E1,2122,2022-02-12,Blackpool,Bournemouth,4,3,False
+E1,2122,2022-02-12,Middlesbrough,Derby,3,4,False
+E1,2122,2022-02-12,Millwall,Cardiff,4,3,False
+E1,2122,2022-02-12,Nott'm Forest,Stoke,3,4,False
+E1,2122,2022-02-12,Peterboro,Preston,3,3,False
+E1,2122,2022-02-13,Swansea,Bristol City,5,4,False
+E1,2122,2022-02-14,West Brom,Blackburn,5,5,False
+E1,2122,2022-02-15,Sheffield United,Hull,3,3,True
+E1,2122,2022-02-15,Cardiff,Coventry,3,3,True
+E1,2122,2022-02-15,Millwall,QPR,3,3,True
+E1,2122,2022-02-16,Peterboro,Reading,4,4,True
+E1,2122,2022-02-19,Derby,Peterboro,7,3,False
+E1,2122,2022-02-19,Luton,West Brom,7,5,False
+E1,2122,2022-02-19,Preston,Reading,7,3,False
+E1,2122,2022-02-19,QPR,Hull,4,4,False
+E1,2122,2022-02-19,Sheffield United,Swansea,4,6,False
+E1,2122,2022-02-19,Stoke,Birmingham,7,7,False
+E1,2122,2022-02-19,Coventry,Burnley,4,7,False
+E1,2122,2022-02-19,Fulham,Huddersfield,7,7,False
+E1,2122,2022-02-19,Bristol City,Middlesbrough,6,7,False
+E1,2122,2022-02-19,Cardiff,Blackpool,4,7,False
+E1,2122,2022-02-22,Reading,Birmingham,3,3,True
+E1,2122,2022-02-22,Bristol City,Coventry,3,3,True
+E1,2122,2022-02-22,Hull,Burnley,3,3,True
+E1,2122,2022-02-22,Middlesbrough,West Brom,3,3,True
+E1,2122,2022-02-22,Preston,Nott'm Forest,3,10,True
+E1,2122,2022-02-23,Sheffield United,Blackburn,4,9,True
+E1,2122,2022-02-23,Derby,Millwall,4,8,True
+E1,2122,2022-02-23,Fulham,Peterboro,4,4,True
+E1,2122,2022-02-23,Huddersfield,Cardiff,4,4,True
+E1,2122,2022-02-23,QPR,Blackpool,4,4,True
+E1,2122,2022-02-23,Stoke,Luton,4,4,True
+E1,2122,2022-02-26,Bournemouth,Stoke,14,3,False
+E1,2122,2022-02-26,Cardiff,Fulham,3,3,False
+E1,2122,2022-02-26,Coventry,Preston,4,4,False
+E1,2122,2022-02-26,Luton,Derby,3,3,False
+E1,2122,2022-02-26,Millwall,Sheffield United,3,3,False
+E1,2122,2022-02-26,Nott'm Forest,Bristol City,4,4,False
+E1,2122,2022-02-26,Peterboro,Hull,3,4,False
+E1,2122,2022-02-26,Blackpool,Reading,3,4,False
+E1,2122,2022-02-26,Birmingham,Huddersfield,4,3,False
+E1,2122,2022-02-26,Burnley,Middlesbrough,4,4,False
+E1,2122,2022-02-26,Blackburn,QPR,3,3,False
+E1,2122,2022-02-28,West Brom,Swansea,6,9,False
+E1,2122,2022-03-01,Cardiff,Derby,3,3,True
+E1,2122,2022-03-04,Huddersfield,Peterboro,6,6,False
+E1,2122,2022-03-04,Sheffield United,Nott'm Forest,6,6,False
+E1,2122,2022-03-05,Middlesbrough,Luton,7,7,False
+E1,2122,2022-03-05,Preston,Bournemouth,7,7,False
+E1,2122,2022-03-05,QPR,Cardiff,7,4,False
+E1,2122,2022-03-05,Fulham,Blackburn,7,7,False
+E1,2122,2022-03-05,Stoke,Blackpool,7,7,False
+E1,2122,2022-03-05,Swansea,Coventry,5,7,False
+E1,2122,2022-03-05,Reading,Millwall,7,7,False
+E1,2122,2022-03-05,Bristol City,Birmingham,7,7,False
+E1,2122,2022-03-05,Derby,Burnley,4,7,False
+E1,2122,2022-03-05,Hull,West Brom,7,5,False
+E1,2122,2022-03-08,Sheffield United,Middlesbrough,4,3,True
+E1,2122,2022-03-08,Burnley,Stoke,3,3,True
+E1,2122,2022-03-08,Blackburn,Millwall,3,3,True
+E1,2122,2022-03-08,Bournemouth,Peterboro,3,4,True
+E1,2122,2022-03-08,Coventry,Luton,3,3,True
+E1,2122,2022-03-08,Swansea,Fulham,3,3,True
+E1,2122,2022-03-11,West Brom,Huddersfield,6,7,False
+E1,2122,2022-03-12,Blackpool,Swansea,7,4,False
+E1,2122,2022-03-12,Peterboro,Stoke,4,4,False
+E1,2122,2022-03-12,Nott'm Forest,Reading,8,7,False
+E1,2122,2022-03-12,Burnley,Fulham,4,4,False
+E1,2122,2022-03-12,Millwall,Middlesbrough,4,4,False
+E1,2122,2022-03-12,Coventry,Sheffield United,4,4,False
+E1,2122,2022-03-12,Cardiff,Preston,7,7,False
+E1,2122,2022-03-12,Bournemouth,Derby,4,7,False
+E1,2122,2022-03-12,Birmingham,Hull,7,7,False
+E1,2122,2022-03-12,Blackburn,Bristol City,4,7,False
+E1,2122,2022-03-13,Luton,QPR,5,8,False
+E1,2122,2022-03-15,Burnley,Bristol City,3,3,True
+E1,2122,2022-03-15,Birmingham,Middlesbrough,3,3,True
+E1,2122,2022-03-15,Blackburn,Derby,3,3,True
+E1,2122,2022-03-15,Bournemouth,Reading,3,3,True
+E1,2122,2022-03-15,West Brom,Fulham,4,3,True
+E1,2122,2022-03-16,Millwall,Huddersfield,4,5,True
+E1,2122,2022-03-16,Nott'm Forest,QPR,4,3,True
+E1,2122,2022-03-16,Peterboro,Swansea,4,4,True
+E1,2122,2022-03-16,Luton,Preston,3,4,True
+E1,2122,2022-03-16,Coventry,Hull,4,4,True
+E1,2122,2022-03-16,Cardiff,Stoke,4,4,True
+E1,2122,2022-03-16,Blackpool,Sheffield United,4,4,True
+E1,2122,2022-03-19,Hull,Luton,3,3,False
+E1,2122,2022-03-19,Reading,Blackburn,4,4,False
+E1,2122,2022-03-19,Stoke,Millwall,3,3,False
+E1,2122,2022-03-19,Swansea,Birmingham,3,4,False
+E1,2122,2022-03-19,Bristol City,West Brom,4,4,False
+E1,2122,2022-03-19,Huddersfield,Bournemouth,3,4,False
+E1,2122,2022-03-19,Derby,Coventry,4,3,False
+E1,2122,2022-03-19,Sheffield United,Burnley,3,4,False
+E1,2122,2022-03-20,QPR,Peterboro,4,4,False
+E1,2122,2022-04-01,Hull,Huddersfield,13,13,False
+E1,2122,2022-04-02,Bournemouth,Bristol City,14,14,False
+E1,2122,2022-04-02,Blackpool,Nott'm Forest,17,17,False
+E1,2122,2022-04-02,Burnley,Reading,14,14,False
+E1,2122,2022-04-02,Cardiff,Swansea,17,14,False
+E1,2122,2022-04-02,Coventry,Blackburn,14,14,False
+E1,2122,2022-04-02,Derby,Preston,14,17,False
+E1,2122,2022-04-02,Luton,Millwall,14,14,False
+E1,2122,2022-04-02,Peterboro,Middlesbrough,13,18,False
+E1,2122,2022-04-02,QPR,Fulham,13,18,False
+E1,2122,2022-04-02,Stoke,Sheffield United,14,14,False
+E1,2122,2022-04-03,Birmingham,West Brom,15,15,False
+E1,2122,2022-04-05,Reading,Stoke,3,3,True
+E1,2122,2022-04-05,Sheffield United,QPR,3,3,True
+E1,2122,2022-04-05,Preston,Blackpool,3,3,True
+E1,2122,2022-04-05,Peterboro,Luton,3,3,True
+E1,2122,2022-04-05,Millwall,Swansea,3,3,True
+E1,2122,2022-04-06,West Brom,Bournemouth,3,4,True
+E1,2122,2022-04-06,Nott'm Forest,Coventry,4,4,True
+E1,2122,2022-04-06,Middlesbrough,Fulham,4,4,True
+E1,2122,2022-04-09,Millwall,Burnley,4,7,False
+E1,2122,2022-04-09,Nott'm Forest,Birmingham,3,6,False
+E1,2122,2022-04-09,Preston,QPR,4,4,False
+E1,2122,2022-04-09,Reading,Cardiff,4,7,False
+E1,2122,2022-04-09,Swansea,Derby,4,7,False
+E1,2122,2022-04-09,West Brom,Stoke,3,4,False
+E1,2122,2022-04-09,Sheffield United,Bournemouth,4,3,False
+E1,2122,2022-04-09,Bristol City,Peterboro,7,4,False
+E1,2122,2022-04-09,Middlesbrough,Hull,3,8,False
+E1,2122,2022-04-09,Blackburn,Blackpool,7,4,False
+E1,2122,2022-04-10,Fulham,Coventry,4,4,False
+E1,2122,2022-04-11,Huddersfield,Luton,10,6,False
+E1,2122,2022-04-15,Peterboro,Blackburn,6,6,False
+E1,2122,2022-04-15,Luton,Nott'm Forest,4,6,False
+E1,2122,2022-04-15,Birmingham,Coventry,6,5,False
+E1,2122,2022-04-15,Bournemouth,Middlesbrough,6,6,False
+E1,2122,2022-04-15,Hull,Cardiff,6,6,False
+E1,2122,2022-04-15,Preston,Millwall,6,6,False
+E1,2122,2022-04-15,Sheffield United,Reading,6,6,False
+E1,2122,2022-04-15,Stoke,Bristol City,6,6,False
+E1,2122,2022-04-15,Swansea,Burnley,6,6,False
+E1,2122,2022-04-15,West Brom,Blackpool,6,6,False
+E1,2122,2022-04-15,Huddersfield,QPR,4,6,False
+E1,2122,2022-04-15,Derby,Fulham,6,5,False
+E1,2122,2022-04-18,Bristol City,Sheffield United,3,3,False
+E1,2122,2022-04-18,Nott'm Forest,West Brom,3,3,False
+E1,2122,2022-04-18,Cardiff,Luton,3,3,False
+E1,2122,2022-04-18,Middlesbrough,Huddersfield,3,3,False
+E1,2122,2022-04-18,Burnley,Peterboro,3,3,False
+E1,2122,2022-04-18,Blackburn,Stoke,3,3,False
+E1,2122,2022-04-18,Blackpool,Birmingham,3,3,False
+E1,2122,2022-04-18,Coventry,Bournemouth,3,3,False
+E1,2122,2022-04-18,Millwall,Hull,3,3,False
+E1,2122,2022-04-18,QPR,Derby,3,3,False
+E1,2122,2022-04-18,Reading,Swansea,3,3,False
+E1,2122,2022-04-19,Fulham,Preston,4,4,True
+E1,2122,2022-04-22,Huddersfield,Burnley,4,4,False
+E1,2122,2022-04-23,Hull,Reading,5,5,False
+E1,2122,2022-04-23,Peterboro,Nott'm Forest,5,5,False
+E1,2122,2022-04-23,Sheffield United,Cardiff,5,5,False
+E1,2122,2022-04-23,Stoke,QPR,5,5,False
+E1,2122,2022-04-23,Swansea,Middlesbrough,5,5,False
+E1,2122,2022-04-23,West Brom,Coventry,5,5,False
+E1,2122,2022-04-23,Birmingham,Millwall,5,5,False
+E1,2122,2022-04-23,Derby,Bristol City,5,5,False
+E1,2122,2022-04-23,Luton,Blackpool,5,5,False
+E1,2122,2022-04-23,Bournemouth,Fulham,5,4,False
+E1,2122,2022-04-25,Preston,Blackburn,6,7,False
+E1,2122,2022-04-26,Fulham,Nott'm Forest,3,3,True
+E1,2122,2022-04-26,Swansea,Bournemouth,3,3,True
+E1,2122,2022-04-26,Burnley,Blackpool,4,3,True
+E1,2122,2022-04-27,Middlesbrough,Cardiff,4,4,True
+E1,2122,2022-04-29,QPR,Sheffield United,6,6,False
+E1,2122,2022-04-30,Millwall,Peterboro,7,7,False
+E1,2122,2022-04-30,Burnley,Preston,4,5,False
+E1,2122,2022-04-30,Blackburn,Bournemouth,5,4,False
+E1,2122,2022-04-30,Blackpool,Derby,4,7,False
+E1,2122,2022-04-30,Bristol City,Hull,7,7,False
+E1,2122,2022-04-30,Cardiff,Birmingham,3,7,False
+E1,2122,2022-04-30,Coventry,Huddersfield,7,8,False
+E1,2122,2022-04-30,Middlesbrough,Stoke,3,7,False
+E1,2122,2022-04-30,Nott'm Forest,Swansea,4,4,False
+E1,2122,2022-04-30,Reading,West Brom,7,7,False
+E1,2122,2022-05-02,Fulham,Luton,6,9,False
+E1,2122,2022-05-03,Bournemouth,Nott'm Forest,3,3,True
+E1,2122,2022-05-07,Hull,Nott'm Forest,7,4,False
+E1,2122,2022-05-07,Luton,Reading,5,7,False
+E1,2122,2022-05-07,Peterboro,Blackpool,7,7,False
+E1,2122,2022-05-07,Preston,Middlesbrough,7,7,False
+E1,2122,2022-05-07,Sheffield United,Fulham,8,5,False
+E1,2122,2022-05-07,Derby,Cardiff,7,7,False
+E1,2122,2022-05-07,Swansea,QPR,7,8,False
+E1,2122,2022-05-07,West Brom,Burnley,7,7,False
+E1,2122,2022-05-07,Bournemouth,Millwall,4,7,False
+E1,2122,2022-05-07,Birmingham,Blackburn,7,7,False
+E1,2122,2022-05-07,Stoke,Coventry,7,7,False
+E1,2122,2022-05-07,Huddersfield,Bristol City,7,7,False

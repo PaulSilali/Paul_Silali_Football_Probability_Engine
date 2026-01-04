@@ -1,0 +1,241 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2022-08-19,Volos NFC,Asteras Tripolis,3,3,D,1
+2022-08-20,PAOK,Panetolikos,1,0,H,0
+2022-08-20,Atromitos,OFI Crete,3,1,H,0
+2022-08-20,Lamia,AEK,0,3,A,0
+2022-08-21,Aris,Levadeiakos,3,0,H,0
+2022-08-21,Olympiakos,Giannina,2,0,H,0
+2022-08-21,Panathinaikos,Ionikos,1,0,H,0
+2022-08-26,Ionikos,Levadeiakos,0,0,D,1
+2022-08-27,AEK,Volos NFC,0,1,A,0
+2022-08-27,Giannina,Lamia,1,1,D,1
+2022-08-28,OFI Crete,Panathinaikos,0,2,A,0
+2022-08-28,PAOK,Atromitos,2,1,H,0
+2022-08-28,Panetolikos,Aris,3,1,H,0
+2022-08-29,Asteras Tripolis,Olympiakos,0,0,D,1
+2022-09-03,Olympiakos,Ionikos,3,1,H,0
+2022-09-03,Panathinaikos,Levadeiakos,1,0,H,0
+2022-09-03,Lamia,Asteras Tripolis,0,0,D,1
+2022-09-04,Volos NFC,OFI Crete,0,1,A,0
+2022-09-04,AEK,Giannina,2,0,H,0
+2022-09-04,Aris,PAOK,0,0,D,1
+2022-09-04,Atromitos,Panetolikos,1,1,D,1
+2022-09-10,Giannina,Levadeiakos,2,1,H,0
+2022-09-10,Ionikos,Atromitos,1,4,A,0
+2022-09-10,OFI Crete,Panetolikos,1,2,A,0
+2022-09-11,Panathinaikos,AEK,2,1,H,0
+2022-09-11,Olympiakos,Volos NFC,1,1,D,1
+2022-09-11,Asteras Tripolis,Aris,0,2,A,0
+2022-09-12,PAOK,Lamia,1,0,H,0
+2022-09-17,Atromitos,Lamia,0,0,D,1
+2022-09-17,Panetolikos,AEK,0,2,A,0
+2022-09-17,Panathinaikos,Giannina,3,0,H,0
+2022-09-18,Levadeiakos,Asteras Tripolis,1,1,D,1
+2022-09-18,OFI Crete,PAOK,1,1,D,1
+2022-09-18,Aris,Olympiakos,2,1,H,0
+2022-09-18,Volos NFC,Ionikos,2,0,H,0
+2022-10-01,Lamia,Levadeiakos,1,0,H,0
+2022-10-02,Olympiakos,Atromitos,2,0,H,0
+2022-10-02,Volos NFC,Aris,2,0,H,0
+2022-10-02,PAOK,Panathinaikos,1,2,A,0
+2022-10-02,Asteras Tripolis,OFI Crete,2,0,H,0
+2022-10-03,AEK,Ionikos,4,1,H,0
+2022-10-03,Giannina,Panetolikos,1,4,A,0
+2022-10-08,Ionikos,Lamia,1,1,D,1
+2022-10-08,Panetolikos,Volos NFC,2,3,A,0
+2022-10-09,Levadeiakos,PAOK,1,1,D,1
+2022-10-09,Panathinaikos,Asteras Tripolis,1,0,H,0
+2022-10-09,Aris,AEK,0,2,A,0
+2022-10-09,OFI Crete,Olympiakos,1,2,A,0
+2022-10-10,Atromitos,Giannina,2,1,H,0
+2022-10-15,Aris,Ionikos,2,1,H,0
+2022-10-15,Volos NFC,Levadeiakos,2,1,H,0
+2022-10-16,Giannina,OFI Crete,2,2,D,1
+2022-10-16,Lamia,Panathinaikos,0,2,A,0
+2022-10-16,Asteras Tripolis,Panetolikos,0,0,D,1
+2022-10-16,AEK,Atromitos,1,0,H,0
+2022-10-17,Olympiakos,PAOK,1,2,A,0
+2022-10-22,Atromitos,Volos NFC,0,2,A,0
+2022-10-22,Panetolikos,Olympiakos,0,2,A,0
+2022-10-23,Ionikos,Giannina,2,2,D,1
+2022-10-23,Panathinaikos,Aris,1,0,H,0
+2022-10-23,PAOK,Asteras Tripolis,2,2,D,1
+2022-10-24,Levadeiakos,AEK,0,2,A,0
+2022-10-24,OFI Crete,Lamia,0,0,D,1
+2022-10-29,Volos NFC,Panathinaikos,1,5,A,0
+2022-10-29,Ionikos,Panetolikos,1,1,D,1
+2022-10-30,Aris,OFI Crete,1,1,D,1
+2022-10-30,Levadeiakos,Atromitos,2,1,H,0
+2022-10-30,AEK,PAOK,2,0,H,0
+2022-10-30,Olympiakos,Lamia,2,0,H,0
+2022-10-31,Giannina,Asteras Tripolis,2,1,H,0
+2022-11-05,OFI Crete,Ionikos,0,2,A,0
+2022-11-05,Atromitos,Aris,0,0,D,1
+2022-11-05,PAOK,Giannina,2,0,H,0
+2022-11-05,Lamia,Volos NFC,2,2,D,1
+2022-11-06,Panathinaikos,Olympiakos,1,1,D,1
+2022-11-06,Asteras Tripolis,AEK,1,1,D,1
+2022-11-06,Panetolikos,Levadeiakos,0,0,D,1
+2022-11-08,Aris,Lamia,5,0,H,0
+2022-11-09,Atromitos,Asteras Tripolis,2,0,H,0
+2022-11-09,AEK,OFI Crete,3,0,H,0
+2022-11-09,Levadeiakos,Olympiakos,0,1,A,0
+2022-11-09,Panetolikos,Panathinaikos,0,1,A,0
+2022-11-10,Ionikos,PAOK,0,3,A,0
+2022-11-10,Volos NFC,Giannina,2,1,H,0
+2022-11-13,PAOK,Volos NFC,3,0,H,0
+2022-11-13,Lamia,Panetolikos,1,3,A,0
+2022-11-13,Olympiakos,AEK,0,0,D,1
+2022-11-13,Panathinaikos,Atromitos,2,0,H,0
+2022-11-13,Giannina,Aris,0,4,A,0
+2022-11-14,OFI Crete,Levadeiakos,2,1,H,0
+2022-11-14,Asteras Tripolis,Ionikos,1,0,H,0
+2022-12-21,Asteras Tripolis,Volos NFC,0,0,D,1
+2022-12-21,Levadeiakos,Aris,1,1,D,1
+2022-12-21,AEK,Lamia,3,0,H,0
+2022-12-21,Giannina,Olympiakos,2,2,D,1
+2022-12-21,Ionikos,Panathinaikos,1,1,D,1
+2022-12-22,Panetolikos,PAOK,0,2,A,0
+2022-12-22,OFI Crete,Atromitos,0,1,A,0
+2022-12-28,Olympiakos,Asteras Tripolis,5,0,H,0
+2022-12-28,Volos NFC,AEK,0,4,A,0
+2022-12-28,Atromitos,PAOK,1,1,D,1
+2022-12-28,Panathinaikos,OFI Crete,1,1,D,1
+2022-12-28,Levadeiakos,Ionikos,1,0,H,0
+2022-12-29,Lamia,Giannina,1,1,D,1
+2022-12-29,Aris,Panetolikos,1,0,H,0
+2023-01-03,Levadeiakos,Panathinaikos,0,1,A,0
+2023-01-03,Giannina,AEK,2,1,H,0
+2023-01-03,Ionikos,Olympiakos,0,2,A,0
+2023-01-03,OFI Crete,Volos NFC,0,0,D,1
+2023-01-04,Panetolikos,Atromitos,2,0,H,0
+2023-01-04,PAOK,Aris,1,0,H,0
+2023-01-04,Asteras Tripolis,Lamia,3,0,H,0
+2023-01-07,Lamia,PAOK,0,3,A,0
+2023-01-07,Levadeiakos,Giannina,1,3,A,0
+2023-01-08,Volos NFC,Olympiakos,0,4,A,0
+2023-01-08,Aris,Asteras Tripolis,3,0,H,0
+2023-01-08,AEK,Panathinaikos,1,0,H,0
+2023-01-08,Atromitos,Ionikos,2,0,H,0
+2023-01-09,Panetolikos,OFI Crete,0,4,A,0
+2023-01-14,PAOK,OFI Crete,0,0,D,1
+2023-01-14,Lamia,Atromitos,1,1,D,1
+2023-01-15,AEK,Panetolikos,4,1,H,0
+2023-01-15,Asteras Tripolis,Levadeiakos,0,0,D,1
+2023-01-15,Olympiakos,Aris,1,0,H,0
+2023-01-15,Giannina,Panathinaikos,0,1,A,0
+2023-01-16,Ionikos,Volos NFC,0,1,A,0
+2023-01-20,Panetolikos,Giannina,1,1,D,1
+2023-01-21,Aris,Volos NFC,3,0,H,0
+2023-01-21,OFI Crete,Asteras Tripolis,1,0,H,0
+2023-01-22,Levadeiakos,Lamia,0,0,D,1
+2023-01-22,Panathinaikos,PAOK,0,3,A,0
+2023-01-22,Atromitos,Olympiakos,1,1,D,1
+2023-01-22,Ionikos,AEK,1,2,A,0
+2023-01-28,Giannina,Atromitos,1,1,D,1
+2023-01-28,Volos NFC,Panetolikos,2,3,A,0
+2023-01-29,AEK,Aris,3,0,H,0
+2023-01-29,Olympiakos,OFI Crete,2,1,H,0
+2023-01-30,Lamia,Ionikos,0,2,A,0
+2023-01-30,Asteras Tripolis,Panathinaikos,1,0,H,0
+2023-01-30,PAOK,Levadeiakos,3,2,H,0
+2023-02-04,Ionikos,Aris,1,0,H,0
+2023-02-04,OFI Crete,Giannina,0,0,D,1
+2023-02-05,Panetolikos,Asteras Tripolis,0,0,D,1
+2023-02-05,PAOK,Olympiakos,0,0,D,1
+2023-02-05,Panathinaikos,Lamia,2,0,H,0
+2023-02-06,Levadeiakos,Volos NFC,0,3,A,0
+2023-02-11,Giannina,Ionikos,0,0,D,1
+2023-02-12,Aris,Panathinaikos,1,2,A,0
+2023-02-12,Volos NFC,Atromitos,2,1,H,0
+2023-02-13,Lamia,OFI Crete,1,4,A,0
+2023-02-13,Asteras Tripolis,PAOK,2,2,D,1
+2023-02-13,AEK,Levadeiakos,3,0,H,0
+2023-02-13,Olympiakos,Panetolikos,6,1,H,0
+2023-02-18,Asteras Tripolis,Giannina,1,1,D,1
+2023-02-18,Panathinaikos,Volos NFC,2,0,H,0
+2023-02-19,Panetolikos,Ionikos,1,0,H,0
+2023-02-19,PAOK,AEK,2,0,H,0
+2023-02-19,Lamia,Olympiakos,0,3,A,0
+2023-02-20,OFI Crete,Aris,0,3,A,0
+2023-02-20,Atromitos,Levadeiakos,1,0,H,0
+2023-02-24,Volos NFC,Lamia,1,1,D,1
+2023-02-25,Giannina,PAOK,0,0,D,1
+2023-02-25,Olympiakos,Panathinaikos,0,0,D,1
+2023-02-25,AEK,Asteras Tripolis,2,0,H,0
+2023-02-26,Levadeiakos,Panetolikos,0,0,D,1
+2023-02-26,Aris,Atromitos,2,1,H,0
+2023-02-26,Ionikos,OFI Crete,0,2,A,0
+2023-03-04,Asteras Tripolis,Atromitos,1,1,D,1
+2023-03-05,Giannina,Volos NFC,0,1,A,0
+2023-03-05,Lamia,Aris,2,1,H,0
+2023-03-05,OFI Crete,AEK,0,3,A,0
+2023-03-05,PAOK,Ionikos,6,0,H,0
+2023-03-05,Olympiakos,Levadeiakos,6,0,H,0
+2023-03-06,Panathinaikos,Panetolikos,2,0,H,0
+2023-03-08,Atromitos,AEK,0,1,A,0
+2023-03-12,Aris,Giannina,3,1,H,0
+2023-03-12,Atromitos,Panathinaikos,0,2,A,0
+2023-03-12,Ionikos,Asteras Tripolis,1,0,H,0
+2023-03-12,Levadeiakos,OFI Crete,2,0,H,0
+2023-03-12,Panetolikos,Lamia,1,1,D,1
+2023-03-12,Volos NFC,PAOK,0,1,A,0
+2023-03-12,AEK,Olympiakos,1,3,A,0
+2023-03-18,OFI Crete,Levadeiakos,1,1,D,1
+2023-03-18,Asteras Tripolis,Panetolikos,2,1,H,0
+2023-03-18,Atromitos,Ionikos,2,0,H,0
+2023-03-18,Lamia,Giannina,2,0,H,0
+2023-03-19,Aris,PAOK,1,2,A,0
+2023-03-19,Volos NFC,Olympiakos,0,3,A,0
+2023-03-19,AEK,Panathinaikos,0,0,D,1
+2023-04-01,Ionikos,Asteras Tripolis,1,0,H,0
+2023-04-01,Panetolikos,Lamia,1,3,A,0
+2023-04-01,Levadeiakos,Atromitos,1,1,D,1
+2023-04-01,Giannina,OFI Crete,0,1,A,0
+2023-04-02,PAOK,AEK,0,1,A,0
+2023-04-02,Olympiakos,Aris,2,2,D,1
+2023-04-02,Panathinaikos,Volos NFC,0,0,D,1
+2023-04-05,Volos NFC,AEK,0,1,A,0
+2023-04-05,Aris,Panathinaikos,0,1,A,0
+2023-04-05,Olympiakos,PAOK,3,1,H,0
+2023-04-08,Panetolikos,Ionikos,0,1,A,0
+2023-04-08,Atromitos,Giannina,1,1,D,1
+2023-04-08,OFI Crete,Lamia,4,1,H,0
+2023-04-08,Asteras Tripolis,Levadeiakos,0,1,A,0
+2023-04-09,Panathinaikos,Olympiakos,2,0,H,0
+2023-04-09,PAOK,Volos NFC,4,2,H,0
+2023-04-09,AEK,Aris,3,1,H,0
+2023-04-22,Levadeiakos,Ionikos,2,2,D,1
+2023-04-22,OFI Crete,Asteras Tripolis,1,1,D,1
+2023-04-22,Giannina,Panetolikos,3,2,H,0
+2023-04-22,Lamia,Atromitos,1,0,H,0
+2023-04-23,PAOK,Panathinaikos,1,2,A,0
+2023-04-23,Volos NFC,Aris,0,3,A,0
+2023-04-23,Olympiakos,AEK,1,3,A,0
+2023-04-26,Aris,Olympiakos,2,1,H,0
+2023-04-26,Volos NFC,Panathinaikos,0,2,A,0
+2023-04-26,AEK,PAOK,4,0,H,0
+2023-04-29,Atromitos,OFI Crete,2,3,A,0
+2023-04-29,Ionikos,Giannina,0,1,A,0
+2023-04-29,Panetolikos,Levadeiakos,2,2,D,1
+2023-04-29,Asteras Tripolis,Lamia,0,0,D,1
+2023-04-30,Panathinaikos,AEK,0,0,D,1
+2023-04-30,PAOK,Aris,3,2,H,0
+2023-04-30,Olympiakos,Volos NFC,5,0,H,0
+2023-05-03,Aris,Volos NFC,4,2,H,0
+2023-05-03,Panathinaikos,PAOK,1,1,D,1
+2023-05-03,AEK,Olympiakos,0,0,D,1
+2023-05-06,Giannina,Asteras Tripolis,1,0,H,0
+2023-05-06,Lamia,Levadeiakos,1,1,D,1
+2023-05-06,OFI Crete,Ionikos,2,2,D,1
+2023-05-06,Atromitos,Panetolikos,2,0,H,0
+2023-05-08,Olympiakos,Panathinaikos,1,0,H,0
+2023-05-08,Volos NFC,PAOK,0,2,A,0
+2023-05-08,Aris,AEK,1,2,A,0
+2023-05-13,Ionikos,Lamia,2,2,D,1
+2023-05-13,Levadeiakos,Giannina,3,3,D,1
+2023-05-13,Panetolikos,OFI Crete,0,2,A,0
+2023-05-13,Asteras Tripolis,Atromitos,1,1,D,1
+2023-05-14,AEK,Volos NFC,4,0,H,0
+2023-05-14,Panathinaikos,Aris,1,1,D,1
+2023-05-14,PAOK,Olympiakos,0,1,A,0

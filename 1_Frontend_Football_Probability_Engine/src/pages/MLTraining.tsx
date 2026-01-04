@@ -18,6 +18,8 @@ import {
   Minus
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
@@ -346,11 +348,21 @@ export default function MLTraining() {
 
   // Poll task status for training progress
   const pollTaskStatus = useCallback(async (taskId: string, modelId: string) => {
+    let isCompleted = false;
+    
     const pollInterval = setInterval(async () => {
+      // Stop polling if already completed
+      if (isCompleted) {
+        clearInterval(pollInterval);
+        return;
+      }
+      
       try {
         const response = await apiClient.getTaskStatus(taskId);
         if (response.success && response.data) {
           const task: TaskStatus = response.data;
+          
+          console.log(`[MLTraining] Polling task ${taskId}: status=${task.status}, progress=${task.progress}, phase=${task.phase}`);
           
           // Update model progress
       setModels(prev => prev.map(m =>
@@ -366,8 +378,10 @@ export default function MLTraining() {
           : m
       ));
 
-          // Handle completion
-          if (task.status === 'completed' && task.result) {
+          // Handle completion - check status first, result is optional
+          if (task.status === 'completed') {
+            console.log(`[MLTraining] Task ${taskId} completed, stopping polling`);
+            isCompleted = true;
             clearInterval(pollInterval);
             setTrainingTasks(prev => {
               const next = new Map(prev);
@@ -388,14 +402,14 @@ export default function MLTraining() {
                       ...m,
                       status: 'completed' as const,
                       progress: 100,
-                      phase: 'Complete',
+                      phase: task.phase || 'Complete',
                       // Only set metrics if they exist in result
                       metrics: task.result?.metrics ? {
                         brierScore: task.result.metrics.brierScore,
                         logLoss: task.result.metrics.logLoss,
                         drawAccuracy: task.result.metrics.drawAccuracy,
                         rmse: task.result.metrics.rmse,
-                      } : undefined,
+                      } : m.metrics, // Keep existing metrics if new ones aren't available
                     }
                   : m
               );
@@ -416,6 +430,8 @@ export default function MLTraining() {
 
           // Handle failure
           if (task.status === 'failed') {
+            console.log(`[MLTraining] Task ${taskId} failed, stopping polling`);
+            isCompleted = true;
             clearInterval(pollInterval);
             setTrainingTasks(prev => {
               const next = new Map(prev);
@@ -438,7 +454,29 @@ export default function MLTraining() {
         }
       } catch (error: any) {
         console.error('Error polling task status:', error);
-        // Continue polling on error (might be temporary)
+        
+        // If 404, task doesn't exist - stop polling
+        const statusCode = error?.response?.status || error?.status || (error?.message?.includes('404') ? 404 : null);
+        if (statusCode === 404) {
+          console.log(`[MLTraining] Task ${taskId} not found (404), stopping polling`);
+          isCompleted = true;
+          clearInterval(pollInterval);
+          setTrainingTasks(prev => {
+            const next = new Map(prev);
+            next.delete(taskId);
+            return next;
+          });
+          
+          // Reset model status
+          setModels(prev => prev.map(m =>
+            m.id === modelId
+              ? { ...m, status: 'idle' as const, progress: 0, phase: 'Task not found' }
+              : m
+          ));
+          return;
+        }
+        
+        // For other errors, continue polling (might be temporary network issue)
       }
     }, 2000); // Poll every 2 seconds
 
@@ -636,18 +674,16 @@ export default function MLTraining() {
   const isAnyTraining = models.some(m => m.status === 'training');
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold text-foreground">ML Training</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Train and configure prediction models
-          </p>
-        </div>
+    <PageLayout
+      title="ML Training"
+      description="Train and configure prediction models with advanced parameters"
+      icon={<Layers className="h-6 w-6" />}
+      action={
         <div className="flex items-center gap-2">
           <Button
             variant="outline"
             onClick={() => setShowConfig(!showConfig)}
+            className="btn-glow"
           >
             <Settings className="h-4 w-4 mr-2" />
             {showConfig ? 'Hide' : 'Show'} Configuration
@@ -655,6 +691,7 @@ export default function MLTraining() {
           <Button
             onClick={trainFullPipeline}
             disabled={isTrainingPipeline || isAnyTraining}
+            className="btn-glow"
           >
             {isTrainingPipeline ? (
               <>
@@ -669,11 +706,18 @@ export default function MLTraining() {
             )}
           </Button>
         </div>
-      </div>
+      }
+    >
+      <div className="space-y-6">
 
       {/* Training Configuration */}
       {showConfig && (
-        <Card className="border-primary/20 bg-gradient-to-br from-background to-background/50">
+        <ModernCard
+          title="Training Configuration"
+          description="Configure which leagues, seasons, and date range to use for training"
+          icon={<Settings className="h-5 w-5" />}
+          variant="elevated"
+        >
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Settings className="h-5 w-5 text-primary" />
@@ -800,7 +844,7 @@ export default function MLTraining() {
               </ul>
             </div>
           </CardContent>
-        </Card>
+        </ModernCard>
       )}
 
       {isTrainingPipeline && (
@@ -1073,6 +1117,7 @@ export default function MLTraining() {
           </Alert>
         </TabsContent>
       </Tabs>
-    </div>
+      </div>
+    </PageLayout>
   );
 }

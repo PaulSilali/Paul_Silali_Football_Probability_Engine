@@ -1,0 +1,371 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-02_Seasons_7_Leagues_43
+Download Date: 2026-01-02 19:45:13
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 43
+Successful Downloads (with data): 26
+Failed Downloads (errors): 0
+No Data Available (all 404s): 17
+Total Records Processed: 52,134
+Total Records Inserted: 0
+Total Records Updated: 0
+Total Records Skipped: 52,134
+Total Errors: 0
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ E0 - Season: last7 (Batch #479)
+  Records: 2,470 processed, 0 inserted, 0 updated, 2,470 skipped
+
+✓ E1 - Season: last7 (Batch #480)
+  Records: 3,610 processed, 0 inserted, 0 updated, 3,610 skipped
+
+✓ E2 - Season: last7 (Batch #481)
+  Records: 3,439 processed, 0 inserted, 0 updated, 3,439 skipped
+
+✓ E3 - Season: last7 (Batch #482)
+  Records: 3,488 processed, 0 inserted, 0 updated, 3,488 skipped
+
+✓ SP1 - Season: last7 (Batch #483)
+  Records: 2,451 processed, 0 inserted, 0 updated, 2,451 skipped
+
+✓ SP2 - Season: last7 (Batch #484)
+  Records: 2,981 processed, 0 inserted, 0 updated, 2,981 skipped
+
+✓ D1 - Season: last7 (Batch #485)
+  Records: 1,971 processed, 0 inserted, 0 updated, 1,971 skipped
+
+✓ D2 - Season: last7 (Batch #486)
+  Records: 1,989 processed, 0 inserted, 0 updated, 1,989 skipped
+
+✓ I1 - Season: last7 (Batch #487)
+  Records: 2,446 processed, 0 inserted, 0 updated, 2,446 skipped
+
+✓ I2 - Season: last7 (Batch #488)
+  Records: 2,460 processed, 0 inserted, 0 updated, 2,460 skipped
+
+✓ F1 - Season: last7 (Batch #489)
+  Records: 2,175 processed, 0 inserted, 0 updated, 2,175 skipped
+
+✓ F2 - Season: last7 (Batch #490)
+  Records: 2,256 processed, 0 inserted, 0 updated, 2,256 skipped
+
+✓ N1 - Season: last7 (Batch #491)
+  Records: 1,914 processed, 0 inserted, 0 updated, 1,914 skipped
+
+✓ P1 - Season: last7 (Batch #492)
+  Records: 1,978 processed, 0 inserted, 0 updated, 1,978 skipped
+
+✓ SC0 - Season: last7 (Batch #493)
+  Records: 1,435 processed, 0 inserted, 0 updated, 1,435 skipped
+
+✓ SC1 - Season: last7 (Batch #494)
+  Records: 1,091 processed, 0 inserted, 0 updated, 1,091 skipped
+
+✓ SC2 - Season: last7 (Batch #495)
+  Records: 1,063 processed, 0 inserted, 0 updated, 1,063 skipped
+
+✓ SC3 - Season: last7 (Batch #496)
+  Records: 1,057 processed, 0 inserted, 0 updated, 1,057 skipped
+
+✓ B1 - Season: last7 (Batch #497)
+  Records: 1,934 processed, 0 inserted, 0 updated, 1,934 skipped
+
+✓ T1 - Season: last7 (Batch #498)
+  Records: 2,323 processed, 0 inserted, 0 updated, 2,323 skipped
+
+✓ G1 - Season: last7 (Batch #499)
+  Records: 1,537 processed, 0 inserted, 0 updated, 1,537 skipped
+
+✓ A1 - Season: last7 (Batch #500)
+  Records: 126 processed, 0 inserted, 0 updated, 126 skipped
+
+✓ SW1 - Season: last7 (Batch #501)
+  Records: 77 processed, 0 inserted, 0 updated, 77 skipped
+
+✓ DK1 - Season: last7 (Batch #502)
+  Records: 1,971 processed, 0 inserted, 0 updated, 1,971 skipped
+
+✓ NO1 - Season: last7 (Batch #504)
+  Records: 1,914 processed, 0 inserted, 0 updated, 1,914 skipped
+
+✓ PL1 - Season: last7 (Batch #506)
+  Records: 1,978 processed, 0 inserted, 0 updated, 1,978 skipped
+
+NO DATA AVAILABLE (All seasons returned 404)
+--------------------------------------------------------------------------------
+⊘ SWE1 - Season: last7 (Batch #503)
+  Reason: No data available (all seasons returned 404)
+
+⊘ FIN1 - Season: last7 (Batch #505)
+  Reason: No data available (all seasons returned 404)
+
+⊘ RO1 - Season: last7 (Batch #507)
+  Reason: No data available (all seasons returned 404)
+
+⊘ RUS1 - Season: last7 (Batch #508)
+  Reason: No data available (all seasons returned 404)
+
+⊘ CZE1 - Season: last7 (Batch #509)
+  Reason: No data available (all seasons returned 404)
+
+⊘ CRO1 - Season: last7 (Batch #510)
+  Reason: No data available (all seasons returned 404)
+
+⊘ SRB1 - Season: last7 (Batch #511)
+  Reason: No data available (all seasons returned 404)
+
+⊘ UKR1 - Season: last7 (Batch #512)
+  Reason: No data available (all seasons returned 404)
+
+⊘ IRL1 - Season: last7 (Batch #513)
+  Reason: No data available (all seasons returned 404)
+
+⊘ ARG1 - Season: last7 (Batch #514)
+  Reason: No data available (all seasons returned 404)
+
+⊘ BRA1 - Season: last7 (Batch #515)
+  Reason: No data available (all seasons returned 404)
+
+⊘ MEX1 - Season: last7 (Batch #516)
+  Reason: No data available (all seasons returned 404)
+
+⊘ USA1 - Season: last7 (Batch #517)
+  Reason: No data available (all seasons returned 404)
+
+⊘ CHN1 - Season: last7 (Batch #518)
+  Reason: No data available (all seasons returned 404)
+
+⊘ JPN1 - Season: last7 (Batch #519)
+  Reason: No data available (all seasons returned 404)
+
+⊘ KOR1 - Season: last7 (Batch #520)
+  Reason: No data available (all seasons returned 404)
+
+⊘ AUS1 - Season: last7 (Batch #521)
+  Reason: No data available (all seasons returned 404)
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: data\1_data_ingestion\Historical Match_Odds_Data\2026-01-02_Seasons_7_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+Downloaded Files:
+  A1/ (7 files)
+    - A1_1920.csv
+    - A1_2021.csv
+    - A1_2122.csv
+    - A1_2223.csv
+    - A1_2324.csv
+    - A1_2425.csv
+    - A1_2526.csv
+  B1/ (7 files)
+    - B1_1920.csv
+    - B1_2021.csv
+    - B1_2122.csv
+    - B1_2223.csv
+    - B1_2324.csv
+    - B1_2425.csv
+    - B1_2526.csv
+  D1/ (7 files)
+    - D1_1920.csv
+    - D1_2021.csv
+    - D1_2122.csv
+    - D1_2223.csv
+    - D1_2324.csv
+    - D1_2425.csv
+    - D1_2526.csv
+  D2/ (7 files)
+    - D2_1920.csv
+    - D2_2021.csv
+    - D2_2122.csv
+    - D2_2223.csv
+    - D2_2324.csv
+    - D2_2425.csv
+    - D2_2526.csv
+  DK1/ (7 files)
+    - DK1_1920.csv
+    - DK1_2021.csv
+    - DK1_2122.csv
+    - DK1_2223.csv
+    - DK1_2324.csv
+    - DK1_2425.csv
+    - DK1_2526.csv
+  E0/ (7 files)
+    - E0_1920.csv
+    - E0_2021.csv
+    - E0_2122.csv
+    - E0_2223.csv
+    - E0_2324.csv
+    - E0_2425.csv
+    - E0_2526.csv
+  E1/ (7 files)
+    - E1_1920.csv
+    - E1_2021.csv
+    - E1_2122.csv
+    - E1_2223.csv
+    - E1_2324.csv
+    - E1_2425.csv
+    - E1_2526.csv
+  E2/ (7 files)
+    - E2_1920.csv
+    - E2_2021.csv
+    - E2_2122.csv
+    - E2_2223.csv
+    - E2_2324.csv
+    - E2_2425.csv
+    - E2_2526.csv
+  E3/ (7 files)
+    - E3_1920.csv
+    - E3_2021.csv
+    - E3_2122.csv
+    - E3_2223.csv
+    - E3_2324.csv
+    - E3_2425.csv
+    - E3_2526.csv
+  F1/ (7 files)
+    - F1_1920.csv
+    - F1_2021.csv
+    - F1_2122.csv
+    - F1_2223.csv
+    - F1_2324.csv
+    - F1_2425.csv
+    - F1_2526.csv
+  F2/ (7 files)
+    - F2_1920.csv
+    - F2_2021.csv
+    - F2_2122.csv
+    - F2_2223.csv
+    - F2_2324.csv
+    - F2_2425.csv
+    - F2_2526.csv
+  G1/ (7 files)
+    - G1_1920.csv
+    - G1_2021.csv
+    - G1_2122.csv
+    - G1_2223.csv
+    - G1_2324.csv
+    - G1_2425.csv
+    - G1_2526.csv
+  I1/ (7 files)
+    - I1_1920.csv
+    - I1_2021.csv
+    - I1_2122.csv
+    - I1_2223.csv
+    - I1_2324.csv
+    - I1_2425.csv
+    - I1_2526.csv
+  I2/ (7 files)
+    - I2_1920.csv
+    - I2_2021.csv
+    - I2_2122.csv
+    - I2_2223.csv
+    - I2_2324.csv
+    - I2_2425.csv
+    - I2_2526.csv
+  N1/ (7 files)
+    - N1_1920.csv
+    - N1_2021.csv
+    - N1_2122.csv
+    - N1_2223.csv
+    - N1_2324.csv
+    - N1_2425.csv
+    - N1_2526.csv
+  NO1/ (7 files)
+    - NO1_1920.csv
+    - NO1_2021.csv
+    - NO1_2122.csv
+    - NO1_2223.csv
+    - NO1_2324.csv
+    - NO1_2425.csv
+    - NO1_2526.csv
+  P1/ (7 files)
+    - P1_1920.csv
+    - P1_2021.csv
+    - P1_2122.csv
+    - P1_2223.csv
+    - P1_2324.csv
+    - P1_2425.csv
+    - P1_2526.csv
+  PL1/ (7 files)
+    - PL1_1920.csv
+    - PL1_2021.csv
+    - PL1_2122.csv
+    - PL1_2223.csv
+    - PL1_2324.csv
+    - PL1_2425.csv
+    - PL1_2526.csv
+  SC0/ (7 files)
+    - SC0_1920.csv
+    - SC0_2021.csv
+    - SC0_2122.csv
+    - SC0_2223.csv
+    - SC0_2324.csv
+    - SC0_2425.csv
+    - SC0_2526.csv
+  SC1/ (7 files)
+    - SC1_1920.csv
+    - SC1_2021.csv
+    - SC1_2122.csv
+    - SC1_2223.csv
+    - SC1_2324.csv
+    - SC1_2425.csv
+    - SC1_2526.csv
+  SC2/ (7 files)
+    - SC2_1920.csv
+    - SC2_2021.csv
+    - SC2_2122.csv
+    - SC2_2223.csv
+    - SC2_2324.csv
+    - SC2_2425.csv
+    - SC2_2526.csv
+  SC3/ (7 files)
+    - SC3_1920.csv
+    - SC3_2021.csv
+    - SC3_2122.csv
+    - SC3_2223.csv
+    - SC3_2324.csv
+    - SC3_2425.csv
+    - SC3_2526.csv
+  SP1/ (7 files)
+    - SP1_1920.csv
+    - SP1_2021.csv
+    - SP1_2122.csv
+    - SP1_2223.csv
+    - SP1_2324.csv
+    - SP1_2425.csv
+    - SP1_2526.csv
+  SP2/ (7 files)
+    - SP2_1920.csv
+    - SP2_2021.csv
+    - SP2_2122.csv
+    - SP2_2223.csv
+    - SP2_2324.csv
+    - SP2_2425.csv
+    - SP2_2526.csv
+  SW1/ (7 files)
+    - SW1_1920.csv
+    - SW1_2021.csv
+    - SW1_2122.csv
+    - SW1_2223.csv
+    - SW1_2324.csv
+    - SW1_2425.csv
+    - SW1_2526.csv
+  T1/ (7 files)
+    - T1_1920.csv
+    - T1_2021.csv
+    - T1_2122.csv
+    - T1_2223.csv
+    - T1_2324.csv
+    - T1_2425.csv
+    - T1_2526.csv
+
+================================================================================
+END OF LOG
+================================================================================

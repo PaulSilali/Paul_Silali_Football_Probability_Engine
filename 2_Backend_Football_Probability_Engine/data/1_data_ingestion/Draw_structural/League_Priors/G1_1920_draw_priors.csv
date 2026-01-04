@@ -1,0 +1,241 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2019-08-24,Lamia,Panathinaikos,1,1,D,1
+2019-08-24,Aris,OFI Crete,1,1,D,1
+2019-08-24,Olympiakos,Asteras Tripolis,1,0,H,0
+2019-08-25,PAOK,Panetolikos,2,1,H,0
+2019-08-25,Atromitos,Aris,1,1,D,1
+2019-08-25,AEK,Xanthi,1,2,A,0
+2019-08-25,Ionikos,Volos NFC,1,2,A,0
+2019-08-31,Panathinaikos,OFI Crete,1,3,A,0
+2019-08-31,Volos NFC,Aris,1,0,H,0
+2019-08-31,Panetolikos,Xanthi,1,2,A,0
+2019-09-01,Aris,Olympiakos,0,1,A,0
+2019-09-01,Lamia,Atromitos,2,2,D,1
+2019-09-01,Asteras Tripolis,AEK,2,3,A,0
+2019-09-01,PAOK,Ionikos,2,1,H,0
+2019-09-14,OFI Crete,Panetolikos,3,1,H,0
+2019-09-14,Olympiakos,Volos NFC,5,0,H,0
+2019-09-14,Atromitos,PAOK,2,3,A,0
+2019-09-15,AEK,Lamia,2,0,H,0
+2019-09-15,Ionikos,Aris,1,0,H,0
+2019-09-15,Aris,Panathinaikos,4,0,H,0
+2019-09-15,Xanthi,Asteras Tripolis,2,1,H,0
+2019-09-21,Panetolikos,AEK,0,1,A,0
+2019-09-21,Asteras Tripolis,Atromitos,2,1,H,0
+2019-09-21,Volos NFC,OFI Crete,1,0,H,0
+2019-09-22,Panathinaikos,Olympiakos,1,1,D,1
+2019-09-22,PAOK,Aris,2,2,D,1
+2019-09-22,Aris,Xanthi,3,0,H,0
+2019-09-22,Lamia,Ionikos,1,1,D,1
+2019-09-28,Olympiakos,Lamia,2,0,H,0
+2019-09-28,Aris,Aris,2,3,A,0
+2019-09-28,Atromitos,Panetolikos,2,0,H,0
+2019-09-29,Xanthi,Volos NFC,3,1,H,0
+2019-09-29,Ionikos,Panathinaikos,0,1,A,0
+2019-09-29,AEK,PAOK,2,2,D,1
+2019-09-29,OFI Crete,Asteras Tripolis,3,1,H,0
+2019-10-05,Aris,AEK,0,0,D,1
+2019-10-05,Panathinaikos,Xanthi,0,1,A,0
+2019-10-06,Asteras Tripolis,PAOK,1,2,A,0
+2019-10-06,OFI Crete,Ionikos,4,1,H,0
+2019-10-06,Aris,Olympiakos,1,2,A,0
+2019-10-06,Volos NFC,Atromitos,2,3,A,0
+2019-10-07,Lamia,Panetolikos,0,0,D,1
+2019-10-19,Panetolikos,Aris,2,2,D,1
+2019-10-19,Olympiakos,OFI Crete,2,1,H,0
+2019-10-20,Ionikos,Asteras Tripolis,0,1,A,0
+2019-10-20,PAOK,Lamia,3,0,H,0
+2019-10-20,AEK,Volos NFC,3,2,H,0
+2019-10-20,Atromitos,Panathinaikos,0,1,A,0
+2019-10-20,Xanthi,Aris,0,1,A,0
+2019-10-26,Volos NFC,PAOK,0,2,A,0
+2019-10-26,OFI Crete,Xanthi,2,0,H,0
+2019-10-27,Panathinaikos,Aris,1,2,A,0
+2019-10-27,Aris,Panetolikos,2,0,H,0
+2019-10-27,Olympiakos,AEK,2,0,H,0
+2019-10-27,Atromitos,Ionikos,4,0,H,0
+2019-10-28,Asteras Tripolis,Lamia,4,1,H,0
+2019-11-02,Xanthi,Olympiakos,0,0,D,1
+2019-11-02,Ionikos,Aris,1,1,D,1
+2019-11-03,AEK,Atromitos,3,2,H,0
+2019-11-03,Aris,OFI Crete,3,2,H,0
+2019-11-03,Panetolikos,Asteras Tripolis,1,1,D,1
+2019-11-03,PAOK,Panathinaikos,2,2,D,1
+2019-11-04,Lamia,Volos NFC,1,0,H,0
+2019-11-09,OFI Crete,PAOK,0,1,A,0
+2019-11-09,Volos NFC,Panetolikos,3,2,H,0
+2019-11-10,Xanthi,Ionikos,1,2,A,0
+2019-11-10,Olympiakos,Atromitos,2,0,H,0
+2019-11-10,Panathinaikos,AEK,3,2,H,0
+2019-11-10,Aris,Asteras Tripolis,2,1,H,0
+2019-11-11,Aris,Lamia,0,3,A,0
+2019-11-23,Lamia,Xanthi,1,0,H,0
+2019-11-23,Ionikos,Olympiakos,1,1,D,1
+2019-11-24,Asteras Tripolis,Volos NFC,0,0,D,1
+2019-11-24,PAOK,Aris,1,0,H,0
+2019-11-24,AEK,Aris,1,1,D,1
+2019-11-24,Panetolikos,Panathinaikos,0,0,D,1
+2019-11-24,Atromitos,OFI Crete,2,1,H,0
+2019-11-30,Ionikos,Panetolikos,3,0,H,0
+2019-11-30,OFI Crete,AEK,1,0,H,0
+2019-11-30,Aris,Volos NFC,2,1,H,0
+2019-12-01,Aris,Lamia,1,1,D,1
+2019-12-01,Xanthi,Atromitos,1,0,H,0
+2019-12-01,Olympiakos,PAOK,1,1,D,1
+2019-12-01,Panathinaikos,Asteras Tripolis,1,0,H,0
+2019-12-07,Panetolikos,Olympiakos,0,3,A,0
+2019-12-07,AEK,Ionikos,5,0,H,0
+2019-12-07,PAOK,Xanthi,2,0,H,0
+2019-12-08,Volos NFC,Panathinaikos,1,1,D,1
+2019-12-08,Asteras Tripolis,Aris,1,1,D,1
+2019-12-08,Lamia,OFI Crete,2,1,H,0
+2019-12-08,Atromitos,Aris,2,2,D,1
+2019-12-14,OFI Crete,Aris,3,1,H,0
+2019-12-14,Panathinaikos,Lamia,2,0,H,0
+2019-12-14,Xanthi,AEK,0,1,A,0
+2019-12-15,Volos NFC,Ionikos,2,1,H,0
+2019-12-15,Asteras Tripolis,Olympiakos,0,5,A,0
+2019-12-15,Panetolikos,PAOK,0,3,A,0
+2019-12-15,Aris,Atromitos,1,2,A,0
+2019-12-18,OFI Crete,Panathinaikos,1,1,D,1
+2019-12-18,Olympiakos,Aris,4,1,H,0
+2019-12-18,AEK,Asteras Tripolis,2,1,H,0
+2019-12-18,Atromitos,Lamia,1,1,D,1
+2019-12-18,Xanthi,Panetolikos,0,0,D,1
+2019-12-19,Ionikos,PAOK,0,2,A,0
+2019-12-19,Aris,Volos NFC,4,0,H,0
+2019-12-21,Lamia,AEK,0,0,D,1
+2019-12-21,Asteras Tripolis,Xanthi,5,0,H,0
+2019-12-22,Panetolikos,OFI Crete,2,0,H,0
+2019-12-22,Volos NFC,Olympiakos,0,0,D,1
+2019-12-22,Panathinaikos,Aris,0,0,D,1
+2019-12-22,Aris,Ionikos,2,0,H,0
+2019-12-23,PAOK,Atromitos,5,1,H,0
+2020-01-04,Aris,PAOK,4,2,H,0
+2020-01-04,Atromitos,Asteras Tripolis,2,1,H,0
+2020-01-04,OFI Crete,Volos NFC,1,2,A,0
+2020-01-05,Ionikos,Lamia,0,1,A,0
+2020-01-05,Xanthi,Aris,2,1,H,0
+2020-01-05,Olympiakos,Panathinaikos,1,0,H,0
+2020-01-05,AEK,Panetolikos,3,1,H,0
+2020-01-11,Panetolikos,Atromitos,0,1,A,0
+2020-01-11,Volos NFC,Xanthi,1,3,A,0
+2020-01-11,Aris,Aris,0,0,D,1
+2020-01-12,PAOK,AEK,1,0,H,0
+2020-01-12,Panathinaikos,Ionikos,3,0,H,0
+2020-01-12,Lamia,Olympiakos,0,4,A,0
+2020-01-12,Asteras Tripolis,OFI Crete,2,0,H,0
+2020-01-18,Ionikos,OFI Crete,1,2,A,0
+2020-01-18,Panetolikos,Lamia,1,1,D,1
+2020-01-19,PAOK,Asteras Tripolis,3,1,H,0
+2020-01-19,Olympiakos,Aris,4,2,H,0
+2020-01-19,Xanthi,Panathinaikos,0,1,A,0
+2020-01-19,Atromitos,Volos NFC,0,0,D,1
+2020-01-19,AEK,Aris,3,0,H,0
+2020-01-22,OFI Crete,Olympiakos,0,1,A,0
+2020-01-22,Volos NFC,AEK,1,3,A,0
+2020-01-22,Panathinaikos,Atromitos,3,0,H,0
+2020-01-22,Aris,Panetolikos,2,2,D,1
+2020-01-23,Aris,Xanthi,1,0,H,0
+2020-01-23,Asteras Tripolis,Ionikos,2,0,H,0
+2020-01-23,Lamia,PAOK,0,1,A,0
+2020-01-25,Aris,Panathinaikos,0,2,A,0
+2020-01-26,Ionikos,Atromitos,1,0,H,0
+2020-01-26,Panetolikos,Aris,2,0,H,0
+2020-01-26,AEK,Olympiakos,0,0,D,1
+2020-01-26,Xanthi,OFI Crete,2,2,D,1
+2020-01-27,Lamia,Asteras Tripolis,1,1,D,1
+2020-01-27,PAOK,Volos NFC,1,0,H,0
+2020-02-01,OFI Crete,Aris,0,0,D,1
+2020-02-01,Volos NFC,Lamia,1,0,H,0
+2020-02-01,Olympiakos,Xanthi,3,1,H,0
+2020-02-02,Panathinaikos,PAOK,2,0,H,0
+2020-02-02,Aris,Ionikos,2,0,H,0
+2020-02-02,Asteras Tripolis,Panetolikos,2,1,H,0
+2020-02-02,Atromitos,AEK,0,1,A,0
+2020-02-08,Lamia,Aris,0,0,D,1
+2020-02-08,Ionikos,Xanthi,0,0,D,1
+2020-02-09,Atromitos,Olympiakos,0,1,A,0
+2020-02-09,PAOK,OFI Crete,4,0,H,0
+2020-02-09,AEK,Panathinaikos,1,0,H,0
+2020-02-09,Asteras Tripolis,Aris,1,1,D,1
+2020-02-10,Panetolikos,Volos NFC,1,1,D,1
+2020-02-15,Olympiakos,Ionikos,4,0,H,0
+2020-02-15,Aris,PAOK,1,2,A,0
+2020-02-16,Volos NFC,Asteras Tripolis,0,1,A,0
+2020-02-16,Xanthi,Lamia,0,0,D,1
+2020-02-16,Aris,AEK,0,1,A,0
+2020-02-16,Panathinaikos,Panetolikos,3,1,H,0
+2020-02-17,OFI Crete,Atromitos,1,0,H,0
+2020-02-22,Lamia,Aris,2,2,D,1
+2020-02-22,Asteras Tripolis,Panathinaikos,1,1,D,1
+2020-02-23,Atromitos,Xanthi,1,0,H,0
+2020-02-23,Volos NFC,Aris,0,0,D,1
+2020-02-23,AEK,OFI Crete,3,0,H,0
+2020-02-23,PAOK,Olympiakos,0,1,A,0
+2020-02-23,Panetolikos,Ionikos,1,0,H,0
+2020-03-01,Aris,Asteras Tripolis,3,0,H,0
+2020-03-01,OFI Crete,Lamia,3,0,H,0
+2020-03-01,Olympiakos,Panetolikos,2,0,H,0
+2020-03-01,Panathinaikos,Volos NFC,4,1,H,0
+2020-03-01,Ionikos,AEK,1,1,D,1
+2020-03-01,Xanthi,PAOK,1,1,D,1
+2020-03-01,Aris,Atromitos,1,2,A,0
+2020-06-06,Ionikos,Volos NFC,1,0,H,0
+2020-06-06,Aris,OFI Crete,3,1,H,0
+2020-06-07,AEK,Panathinaikos,1,1,D,1
+2020-06-07,Aris,Asteras Tripolis,1,2,A,0
+2020-06-07,PAOK,Olympiakos,0,1,A,0
+2020-06-08,Lamia,Panetolikos,2,0,H,0
+2020-06-13,Atromitos,Lamia,1,1,D,1
+2020-06-13,Panathinaikos,PAOK,0,0,D,1
+2020-06-13,Volos NFC,Xanthi,1,0,H,0
+2020-06-14,Olympiakos,Aris,3,1,H,0
+2020-06-14,OFI Crete,AEK,0,2,A,0
+2020-06-15,Panetolikos,Aris,3,0,H,0
+2020-06-15,Asteras Tripolis,Ionikos,0,0,D,1
+2020-06-20,AEK,Aris,2,2,D,1
+2020-06-20,PAOK,OFI Crete,3,1,H,0
+2020-06-21,Xanthi,Panetolikos,1,1,D,1
+2020-06-21,Olympiakos,Panathinaikos,3,0,H,0
+2020-06-21,Asteras Tripolis,Atromitos,1,1,D,1
+2020-06-22,Lamia,Ionikos,0,1,A,0
+2020-06-22,Aris,Volos NFC,3,1,H,0
+2020-06-24,Xanthi,Atromitos,1,0,H,0
+2020-06-27,OFI Crete,Panathinaikos,0,0,D,1
+2020-06-27,Ionikos,Xanthi,2,1,H,0
+2020-06-28,Panetolikos,Asteras Tripolis,1,1,D,1
+2020-06-28,AEK,Olympiakos,1,2,A,0
+2020-06-28,Aris,PAOK,0,2,A,0
+2020-06-29,Atromitos,Aris,3,0,H,0
+2020-06-29,Volos NFC,Lamia,0,0,D,1
+2020-07-01,Panathinaikos,Aris,2,0,H,0
+2020-07-01,PAOK,AEK,0,2,A,0
+2020-07-01,Olympiakos,OFI Crete,2,1,H,0
+2020-07-04,Asteras Tripolis,Volos NFC,4,0,H,0
+2020-07-04,OFI Crete,PAOK,2,2,D,1
+2020-07-05,Panathinaikos,Olympiakos,0,0,D,1
+2020-07-05,Aris,AEK,1,4,A,0
+2020-07-06,Aris,Ionikos,0,0,D,1
+2020-07-06,Atromitos,Panetolikos,2,2,D,1
+2020-07-06,Lamia,Xanthi,0,0,D,1
+2020-07-08,PAOK,Panathinaikos,0,0,D,1
+2020-07-08,AEK,OFI Crete,2,0,H,0
+2020-07-08,Aris,Olympiakos,2,4,A,0
+2020-07-11,Ionikos,Panetolikos,0,2,A,0
+2020-07-11,Volos NFC,Atromitos,2,3,A,0
+2020-07-11,Xanthi,Asteras Tripolis,1,2,A,0
+2020-07-11,OFI Crete,Aris,0,1,A,0
+2020-07-11,Lamia,Aris,0,0,D,1
+2020-07-12,Olympiakos,PAOK,0,1,A,0
+2020-07-12,Panathinaikos,AEK,1,3,A,0
+2020-07-15,OFI Crete,Olympiakos,1,3,A,0
+2020-07-15,AEK,PAOK,0,0,D,1
+2020-07-15,Aris,Panathinaikos,0,1,A,0
+2020-07-18,Aris,Xanthi,0,0,D,1
+2020-07-18,Panetolikos,Volos NFC,1,0,H,0
+2020-07-18,Asteras Tripolis,Lamia,1,1,D,1
+2020-07-18,Atromitos,Ionikos,0,0,D,1
+2020-07-19,Olympiakos,AEK,3,0,H,0
+2020-07-19,Panathinaikos,OFI Crete,3,2,H,0
+2020-07-19,PAOK,Aris,0,0,D,1

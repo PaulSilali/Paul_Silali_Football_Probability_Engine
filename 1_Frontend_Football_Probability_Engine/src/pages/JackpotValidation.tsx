@@ -16,6 +16,8 @@ import {
   Loader2
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PageLayout } from '@/components/layouts/PageLayout';
+import { ModernCard } from '@/components/ui/modern-card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -91,7 +93,7 @@ const calculateAnalytics = (
   // If aggregating all, use all validations; otherwise use selected jackpot
   const validationsToUse = aggregateAll ? allValidations : 
     (jackpot ? allValidations.filter(v => 
-      v.jackpotId.replace(/ \(Set [A-G]\)/g, '') === jackpot.jackpotId.replace(/ \(Set [A-G]\)/g, '')
+      v.jackpotId.replace(/ \(Set [A-J]\)/g, '') === jackpot.jackpotId.replace(/ \(Set [A-J]\)/g, '')
     ) : []);
   
   if (validationsToUse.length === 0) {
@@ -249,6 +251,8 @@ export default function JackpotValidation() {
   const jackpotId = searchParams.get('jackpotId');
   const [validations, setValidations] = useState<JackpotValidation[]>([]);
   const [selectedJackpot, setSelectedJackpot] = useState<JackpotValidation | null>(null);
+  const [selectedJackpotId, setSelectedJackpotId] = useState<string>('');
+  const [selectedSet, setSelectedSet] = useState<string>('');
   const [viewMode, setViewMode] = useState<'table' | 'visual'>('table');
   const [isExporting, setIsExporting] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -256,42 +260,168 @@ export default function JackpotValidation() {
   const [aggregateMode, setAggregateMode] = useState<'all' | 'selected'>('all');
   const { toast } = useToast();
 
-  // Load ALL saved results with actual results across all jackpots
+  // Get unique jackpot IDs and sets from validations
+  const uniqueJackpotIds = useMemo(() => {
+    const ids = new Set<string>();
+    validations.forEach(v => {
+      // Remove " (Set X)" pattern where X can be A-J
+      const baseId = v.jackpotId.replace(/ \(Set [A-J]\)/g, '');
+      ids.add(baseId);
+    });
+    return Array.from(ids).sort();
+  }, [validations]);
+
+  const availableSets = useMemo(() => {
+    const sets = new Set<string>();
+    validations.forEach(v => {
+      sets.add(v.setUsed);
+    });
+    return Array.from(sets).sort();
+  }, [validations]);
+
+  // Filter validations based on selected jackpot and set
+  const filteredValidations = useMemo(() => {
+    return validations.filter(v => {
+      // Remove " (Set X)" pattern where X can be A-J
+      const baseId = v.jackpotId.replace(/ \(Set [A-J]\)/g, '');
+      const matchesJackpot = !selectedJackpotId || baseId === selectedJackpotId;
+      const matchesSet = !selectedSet || v.setUsed === selectedSet;
+      return matchesJackpot && matchesSet;
+    });
+  }, [validations, selectedJackpotId, selectedSet]);
+
+  // Update selectedJackpot when filters change
+  useEffect(() => {
+    if (filteredValidations.length > 0) {
+      // Prefer Set B if available, otherwise use first
+      const setBValidation = filteredValidations.find(v => v.setUsed === 'Set B');
+      setSelectedJackpot(setBValidation || filteredValidations[0]);
+    } else {
+      setSelectedJackpot(null);
+    }
+  }, [filteredValidations]);
+
+  /**
+   * Load validation data from saved_probability_results table
+   * 
+   * Data Flow:
+   * 1. Fetches all saved_probability_results with actualResults from database
+   * 2. For each saved result, loads probability predictions for the jackpot
+   * 3. Compares predictions (from selections or highest probability) with actual results
+   * 4. Calculates accuracy, Brier score, and creates validation objects
+   * 5. Each validation represents one jackpot + one set (A-J) combination
+   * 
+   * Note: The validation_results table is populated when exporting to training,
+   * but the validation page displays data computed from saved_probability_results
+   */
   useEffect(() => {
     const loadValidations = async () => {
       try {
         setLoading(true);
+        console.log('=== VALIDATION PAGE: Starting to load validations ===');
+        console.log('Jackpot ID from URL:', jackpotId);
+        
         const validationList: JackpotValidation[] = [];
         const processedJackpots = new Set<string>();
         
         // Load ALL saved results across all jackpots
+        console.log('Step 1: Fetching all saved results...');
         const allSavedResponse = await apiClient.getAllSavedResults(500);
+        console.log('Step 1 Response:', {
+          success: allSavedResponse.success,
+          hasData: !!allSavedResponse.data,
+          resultsCount: allSavedResponse.data?.results?.length || 0,
+          rawResponse: allSavedResponse
+        });
+        
         const allSavedResults = allSavedResponse.success && allSavedResponse.data?.results 
           ? allSavedResponse.data.results.filter((r: any) => r.actualResults && Object.keys(r.actualResults).length > 0)
           : [];
         
-        console.log(`Loaded ${allSavedResults.length} saved results with actual outcomes`);
+        console.log(`Step 2: Filtered to ${allSavedResults.length} saved results with actual outcomes`);
+        console.log('Step 2 Details:', allSavedResults.map((r: any) => ({
+          id: r.id,
+          jackpotId: r.jackpotId,
+          hasActualResults: !!r.actualResults,
+          actualResultsCount: r.actualResults ? Object.keys(r.actualResults).length : 0,
+          hasSelections: !!r.selections,
+          selectionsKeys: r.selections ? Object.keys(r.selections) : [],
+          totalFixtures: r.totalFixtures
+        })));
         
         // Process each saved result
-        for (const savedResult of allSavedResults) {
+        console.log(`Step 3: Processing ${allSavedResults.length} saved results...`);
+        for (let i = 0; i < allSavedResults.length; i++) {
+          const savedResult = allSavedResults[i];
           const resultJackpotId = savedResult.jackpotId;
-          if (!resultJackpotId) continue;
+          
+          console.log(`\n--- Processing saved result ${i + 1}/${allSavedResults.length} ---`);
+          console.log('Saved Result:', {
+            id: savedResult.id,
+            jackpotId: resultJackpotId,
+            hasActualResults: !!savedResult.actualResults,
+            actualResultsKeys: savedResult.actualResults ? Object.keys(savedResult.actualResults) : [],
+            actualResultsSample: savedResult.actualResults ? Object.entries(savedResult.actualResults).slice(0, 5) : [],
+            actualResultsType: savedResult.actualResults ? typeof savedResult.actualResults : 'none',
+            hasSelections: !!savedResult.selections,
+            selectionsKeys: savedResult.selections ? Object.keys(savedResult.selections) : [],
+            totalFixtures: savedResult.totalFixtures
+          });
+          
+          if (!resultJackpotId) {
+            console.warn(`⚠️ Skipping saved result ${savedResult.id}: No jackpotId`);
+            continue;
+          }
           
           // Load probabilities for this jackpot (cache to avoid duplicate loads)
           let probData: any = null;
           if (!processedJackpots.has(resultJackpotId)) {
+            console.log(`  Loading probabilities for jackpot ${resultJackpotId}...`);
             try {
               const probResponse = await apiClient.getProbabilities(resultJackpotId);
-              probData = (probResponse as any).success ? (probResponse as any).data : probResponse;
+              console.log(`  Probability response:`, {
+                success: (probResponse as any).success,
+                hasData: !!(probResponse as any).data,
+                dataKeys: (probResponse as any).data ? Object.keys((probResponse as any).data) : [],
+                fullResponse: probResponse
+              });
+              
+              // Handle ApiResponse format (wrapped in {success, data, message})
+              if ((probResponse as any).success && (probResponse as any).data) {
+                probData = (probResponse as any).data;
+                console.log(`  Extracted data from ApiResponse:`, {
+                  hasProbabilitySets: !!probData.probabilitySets,
+                  setsKeys: probData.probabilitySets ? Object.keys(probData.probabilitySets) : [],
+                  hasFixtures: !!probData.fixtures,
+                  fixturesCount: probData.fixtures?.length || 0
+                });
+              } else {
+                // Fallback: assume response is direct data (backward compatibility)
+                probData = probResponse as any;
+                console.log(`  Using response as direct data (backward compatibility)`);
+              }
+              
               if (probData && probData.probabilitySets && probData.fixtures) {
+                console.log(`  ✓ Loaded probabilities for ${resultJackpotId}:`, {
+                  setsCount: Object.keys(probData.probabilitySets).length,
+                  setsKeys: Object.keys(probData.probabilitySets),
+                  fixturesCount: probData.fixtures?.length || 0
+                });
                 processedJackpots.add(resultJackpotId);
                 setLoadedProbabilities(prev => ({ ...prev, [resultJackpotId]: probData.probabilitySets }));
+              } else {
+                console.warn(`  ⚠️ Missing data in probability response:`, {
+                  hasProbData: !!probData,
+                  hasProbabilitySets: !!probData?.probabilitySets,
+                  hasFixtures: !!probData?.fixtures
+                });
               }
             } catch (err) {
-              console.warn(`Failed to load probabilities for jackpot ${resultJackpotId}:`, err);
+              console.error(`  ❌ Failed to load probabilities for jackpot ${resultJackpotId}:`, err);
               continue;
             }
           } else {
+            console.log(`  Using cached probabilities for ${resultJackpotId}`);
             // Use cached probabilities
             probData = {
               probabilitySets: loadedProbabilities[resultJackpotId],
@@ -299,24 +429,56 @@ export default function JackpotValidation() {
             };
           }
           
-          if (!probData || !probData.probabilitySets) continue;
+          if (!probData || !probData.probabilitySets) {
+            console.warn(`  ⚠️ Skipping: No probability data for jackpot ${resultJackpotId}`);
+            continue;
+          }
+          
+          console.log(`  Processing probability sets:`, {
+            setsAvailable: Object.keys(probData.probabilitySets).length,
+            setsKeys: Object.keys(probData.probabilitySets)
+          });
           
           // Get fixtures - try to load if not cached
           let fixtures = probData.fixtures || [];
+          console.log(`  Fixtures:`, {
+            fromProbData: probData.fixtures?.length || 0,
+            totalFixtures: savedResult.totalFixtures,
+            actualResultsKeys: savedResult.actualResults ? Object.keys(savedResult.actualResults).length : 0
+          });
+          
           if (fixtures.length === 0 && savedResult.totalFixtures) {
             // Try to reconstruct fixture list from saved result
             const fixtureIds = Object.keys(savedResult.actualResults || {});
             fixtures = fixtureIds.map((id, idx) => ({ id, homeTeam: '', awayTeam: '' }));
+            console.log(`  Reconstructed ${fixtures.length} fixtures from actualResults`);
           }
           
-          // Validate EACH set separately (A-G)
-          const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+          // Validate EACH set separately (A-J)
+          // Get all available sets from probabilitySets and selections
+          const availableSets = new Set<string>();
+          if (probData.probabilitySets) {
+            Object.keys(probData.probabilitySets).forEach(key => availableSets.add(key));
+          }
+          if (savedResult.selections) {
+            Object.keys(savedResult.selections).forEach(key => availableSets.add(key));
+          }
+          const setKeys = Array.from(availableSets).sort();
+          console.log(`  Processing ${setKeys.length} sets:`, setKeys);
           
           setKeys.forEach(setId => {
             const hasSelections = savedResult.selections && savedResult.selections[setId];
             const hasProbabilities = probData.probabilitySets[setId];
             
+            console.log(`    Set ${setId}:`, {
+              hasSelections,
+              hasProbabilities,
+              selectionsCount: hasSelections ? Object.keys(savedResult.selections[setId]).length : 0,
+              probabilitiesCount: hasProbabilities ? probData.probabilitySets[setId].length : 0
+            });
+            
             if (!hasSelections && !hasProbabilities) {
+              console.log(`    ⚠️ Skipping Set ${setId}: No selections or probabilities`);
               return; // Skip sets with no data
             }
             
@@ -324,16 +486,49 @@ export default function JackpotValidation() {
             let correctCount = 0;
             let totalBrier = 0;
             
+            console.log(`    Processing ${fixtures.length} fixtures for Set ${setId}...`);
+            
             fixtures.forEach((fixture: any, idx: number) => {
               const fixtureId = fixture.id || String(idx + 1);
-              const actualResultStr = savedResult.actualResults[fixtureId];
-              if (!actualResultStr) return;
+              // actualResults uses match numbers (1-indexed) as keys from CSV import, not fixture IDs
+              // Priority: match number (1-indexed) > fixture ID > index (0-indexed) > by position
+              const matchNumber = String(idx + 1); // 1-indexed match number (from CSV: "1", "2", "3", ...)
+              
+              // Debug: Log first match to see structure
+              if (idx === 0) {
+                console.log(`      DEBUG First match:`, {
+                  fixtureId,
+                  matchNumber,
+                  actualResultsKeys: savedResult.actualResults ? Object.keys(savedResult.actualResults) : 'none',
+                  actualResultsSample: savedResult.actualResults ? Object.entries(savedResult.actualResults).slice(0, 5) : 'none',
+                  lookupMatchNumber: savedResult.actualResults?.[matchNumber],
+                  lookupFixtureId: savedResult.actualResults?.[fixtureId]
+                });
+              }
+              
+              const actualResultStr = savedResult.actualResults[matchNumber] || 
+                                     savedResult.actualResults[fixtureId] ||
+                                     savedResult.actualResults[String(idx)] ||
+                                     (savedResult.actualResults && Object.values(savedResult.actualResults)[idx] as string);
+              
+              if (!actualResultStr) {
+                console.log(`      Match ${idx + 1} (fixtureId: ${fixtureId}, matchNumber: ${matchNumber}): ⚠️ No actual result found.`, {
+                  availableKeys: savedResult.actualResults ? Object.keys(savedResult.actualResults) : 'none',
+                  actualResultsSample: savedResult.actualResults ? Object.entries(savedResult.actualResults).slice(0, 3) : 'none'
+                });
+                return;
+              }
+              
+              console.log(`      Match ${idx + 1} (fixtureId: ${fixtureId}, matchNumber: ${matchNumber}): ✓ Found actual result: ${actualResultStr}`);
               
               const actualResult = convertResult(actualResultStr as '1' | 'X' | '2');
               
               // Get probabilities for this set
               const setProbs = probData.probabilitySets[setId];
-              if (!setProbs || !setProbs[idx]) return;
+              if (!setProbs || !setProbs[idx]) {
+                console.log(`      Match ${idx + 1} (${fixtureId}): ⚠️ No probability data at index ${idx}, skipping`);
+                return;
+              }
               
               const prob = setProbs[idx];
               const predictedH = prob.homeWinProbability / 100;
@@ -383,9 +578,16 @@ export default function JackpotValidation() {
               });
             });
             
+            console.log(`    Set ${setId} Summary:`, {
+              matchesProcessed: matches.length,
+              correctCount,
+              totalBrier,
+              brierScore: matches.length > 0 ? totalBrier / matches.length : 0
+            });
+            
             if (matches.length > 0) {
               const brierScore = totalBrier / matches.length;
-              validationList.push({
+              const validation = {
                 id: `${savedResult.id}-${setId}`,
                 jackpotId: `${resultJackpotId} (Set ${setId})`,
                 date: savedResult.createdAt || new Date().toISOString(),
@@ -394,31 +596,83 @@ export default function JackpotValidation() {
                 correctPredictions: correctCount,
                 totalMatches: matches.length,
                 brierScore,
+              };
+              validationList.push(validation);
+              console.log(`    ✓ Created validation for Set ${setId}:`, {
+                id: validation.id,
+                matches: validation.totalMatches,
+                correct: validation.correctPredictions,
+                brierScore: validation.brierScore
               });
+            } else {
+              console.log(`    ⚠️ Set ${setId}: No matches processed, skipping validation`);
             }
           });
         }
         
-        console.log(`Created ${validationList.length} validations from ${allSavedResults.length} saved results`);
+        console.log(`\n=== VALIDATION PAGE: Summary ===`);
+        console.log(`Total saved results processed: ${allSavedResults.length}`);
+        console.log(`Total validations created: ${validationList.length}`);
+        console.log(`Validations by jackpot:`, validationList.reduce((acc: any, v) => {
+          const baseId = v.jackpotId.replace(/ \(Set [A-J]\)/g, '');
+          if (!acc[baseId]) acc[baseId] = [];
+          acc[baseId].push(v.setUsed);
+          return acc;
+        }, {}));
+        
+        if (validationList.length === 0) {
+          console.warn('⚠️ NO VALIDATIONS CREATED! Possible reasons:');
+          console.warn('  1. Saved results have no actualResults');
+          console.warn('  2. Probabilities not loaded successfully');
+          console.warn('  3. Fixtures count mismatch');
+          console.warn('  4. Sets have no selections or probabilities');
+        }
         
         setValidations(validationList);
         if (validationList.length > 0) {
-          // If jackpotId specified, filter to that jackpot, otherwise default to Set B
+          // Set initial dropdown selections
           if (jackpotId) {
+            // If jackpotId specified in URL, select it
+            setSelectedJackpotId(jackpotId);
             const jackpotValidations = validationList.filter(v => 
-              v.jackpotId.replace(/ \(Set [A-G]\)/g, '') === jackpotId
+              v.jackpotId.replace(/ \(Set [A-J]\)/g, '') === jackpotId
             );
             if (jackpotValidations.length > 0) {
               const setBValidation = jackpotValidations.find(v => v.setUsed === 'Set B');
-              setSelectedJackpot(setBValidation || jackpotValidations[0]);
+              if (setBValidation) {
+                setSelectedSet('Set B');
+                setSelectedJackpot(setBValidation);
             } else {
+                setSelectedSet(jackpotValidations[0].setUsed);
+                setSelectedJackpot(jackpotValidations[0]);
+              }
+            } else {
+              // Fallback: use first validation
               const setBValidation = validationList.find(v => v.setUsed === 'Set B');
-              setSelectedJackpot(setBValidation || validationList[0]);
+              if (setBValidation) {
+                setSelectedJackpotId(setBValidation.jackpotId.replace(/ \(Set [A-J]\)/g, ''));
+                setSelectedSet('Set B');
+                setSelectedJackpot(setBValidation);
+              } else {
+                const first = validationList[0];
+                setSelectedJackpotId(first.jackpotId.replace(/ \(Set [A-J]\)/g, ''));
+                setSelectedSet(first.setUsed);
+                setSelectedJackpot(first);
+              }
             }
           } else {
             // Default to Set B (recommended) if available, otherwise use first validation
             const setBValidation = validationList.find(v => v.setUsed === 'Set B');
-            setSelectedJackpot(setBValidation || validationList[0]);
+            if (setBValidation) {
+              setSelectedJackpotId(setBValidation.jackpotId.replace(/ \(Set [A-J]\)/g, ''));
+              setSelectedSet('Set B');
+              setSelectedJackpot(setBValidation);
+            } else {
+              const first = validationList[0];
+              setSelectedJackpotId(first.jackpotId.replace(/ \(Set [A-J]\)/g, ''));
+              setSelectedSet(first.setUsed);
+              setSelectedJackpot(first);
+            }
           }
         }
       } catch (err: any) {
@@ -444,6 +698,24 @@ export default function JackpotValidation() {
     calculateAnalytics(selectedJackpot, validations, aggregateMode === 'all'), 
     [selectedJackpot, validations, aggregateMode]
   );
+
+  // Debug: Log when selectedJackpot changes
+  useEffect(() => {
+    if (selectedJackpot) {
+      console.log('Selected jackpot changed:', {
+        id: selectedJackpot.id,
+        jackpotId: selectedJackpot.jackpotId,
+        setUsed: selectedJackpot.setUsed,
+        matchesCount: selectedJackpot.matches.length,
+        matches: selectedJackpot.matches.slice(0, 3).map(m => ({
+          homeTeam: m.homeTeam,
+          awayTeam: m.awayTeam,
+          prediction: m.prediction,
+          actual: m.actualResult
+        }))
+      });
+    }
+  }, [selectedJackpot]);
 
   const handleExportToTraining = async () => {
     if (!selectedJackpot) return;
@@ -502,55 +774,186 @@ export default function JackpotValidation() {
   };
 
   return (
-    <div className="p-6 space-y-6">
-      {/* Header with glassmorphism */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="animate-fade-in">
-          <div className="flex items-center gap-3 mb-1">
-            <div className="p-2 rounded-lg bg-primary/10">
-              <Trophy className="h-5 w-5 text-primary" />
-            </div>
-            <h1 className="text-2xl font-semibold gradient-text">Jackpot Validation</h1>
-          </div>
-          <p className="text-sm text-muted-foreground">
-            Compare predictions vs actual outcomes — export to calibration training
+    <PageLayout
+      title="Jackpot Validation"
+      description="Validate predictions against actual results"
+      icon={<Trophy className="h-6 w-6" />}
+    >
+      {/* Data Source Info & Workflow Guide */}
+      <div className="mb-4 space-y-3">
+        <div className="p-3 rounded-lg bg-muted/50 border border-muted">
+          <p className="text-xs text-muted-foreground">
+            <strong>Data Source:</strong> Validation data is loaded from <code className="px-1 py-0.5 bg-background rounded">saved_probability_results</code> table. 
+            Each validation combines actual results with probability predictions to calculate accuracy and Brier scores.
+            {validations.length > 0 && (
+              <span className="ml-2 text-primary font-medium">
+                {validations.length} validation{validations.length !== 1 ? 's' : ''} loaded
+              </span>
+            )}
           </p>
         </div>
-        <div className="flex items-center gap-3 animate-slide-in-right">
+        
+        {/* Workflow Guide */}
+        <div className="p-4 rounded-lg bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20">
+          <h4 className="text-sm font-semibold mb-2 flex items-center gap-2">
+            <ArrowRight className="h-4 w-4" />
+            Next Steps After Validation
+          </h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+            <div className="p-2 rounded bg-background/50">
+              <div className="font-medium text-primary mb-1">1. Export to Training</div>
+              <p className="text-muted-foreground">
+                Click "Export All to Training" to send validated predictions to the calibration model. 
+                This populates the <code className="px-1 py-0.5 bg-background rounded text-xs">validation_results</code> table.
+              </p>
+            </div>
+            <div className="p-2 rounded bg-background/50">
+              <div className="font-medium text-accent mb-1">2. Recalibration</div>
+              <p className="text-muted-foreground">
+                Go to <strong>ML Training</strong> → <strong>Calibration</strong> tab. 
+                Train calibration model using exported validation data to improve probability accuracy.
+              </p>
+            </div>
+            <div className="p-2 rounded bg-background/50">
+              <div className="font-medium text-chart-1 mb-1">3. Backtesting</div>
+              <p className="text-muted-foreground">
+                After recalibration, use backtesting to evaluate model performance on historical data. 
+                Compare metrics before/after calibration.
+              </p>
+            </div>
+            <div className="p-2 rounded bg-background/50">
+              <div className="font-medium text-chart-2 mb-1">4. Production</div>
+              <p className="text-muted-foreground">
+                Once validated and recalibrated, deploy the improved model for live predictions. 
+                Monitor performance in the Dashboard.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* Two Separate Dropdowns: Jackpot and Set */}
+        <div className="flex items-center gap-3 animate-slide-in-right flex-wrap">
           {loading ? (
             <div className="flex items-center gap-2">
               <Loader2 className="h-4 w-4 animate-spin" />
               <span className="text-sm text-muted-foreground">Loading...</span>
             </div>
           ) : (
+            <>
+              {/* Jackpot Dropdown */}
+              <div className="flex items-center gap-2">
+                <label className="text-sm font-medium text-muted-foreground whitespace-nowrap">
+                  Jackpot:
+                </label>
             <Select
-              value={selectedJackpot?.id || ''}
+                  value={selectedJackpotId || '__all__'}
               onValueChange={(v) => {
-                const jackpot = validations.find(j => j.id === v);
-                if (jackpot) setSelectedJackpot(jackpot);
+                    setSelectedJackpotId(v === '__all__' ? '' : v);
+                    // Reset set selection when jackpot changes
+                    setSelectedSet('');
               }}
               disabled={validations.length === 0}
             >
-              <SelectTrigger className="w-[180px] glass-card">
-                <SelectValue placeholder={validations.length === 0 ? "No validations" : "Select jackpot"} />
+                  <SelectTrigger className="w-[280px] glass-card min-w-[280px]">
+                    <SelectValue placeholder={validations.length === 0 ? "No jackpots" : "All Jackpots"} />
               </SelectTrigger>
-              <SelectContent>
-                {validations.map((j) => (
-                  <SelectItem key={j.id} value={j.id}>
+                  <SelectContent className="max-h-[300px]">
+                    <SelectItem value="__all__" className="font-semibold">
+                      <div className="flex items-center gap-2 py-1">
+                        <Trophy className="h-4 w-4 text-primary" />
+                        <span>All Jackpots ({uniqueJackpotIds.length})</span>
+                      </div>
+                    </SelectItem>
+                    <div className="border-t my-1" />
+                    {uniqueJackpotIds.map((id) => {
+                      const jackpotValidations = validations.filter(v => 
+                        v.jackpotId.replace(/ \(Set [A-J]\)/g, '') === id
+                      );
+                      const totalMatches = jackpotValidations.reduce((sum, v) => sum + v.totalMatches, 0);
+                      const totalCorrect = jackpotValidations.reduce((sum, v) => sum + v.correctPredictions, 0);
+                      const avgAccuracy = totalMatches > 0 ? ((totalCorrect / totalMatches) * 100).toFixed(1) : '0';
+                      
+                      return (
+                        <SelectItem key={id} value={id}>
+                          <div className="flex items-center gap-2 py-1 w-full">
+                            <div className="flex-1 min-w-0">
+                              <div className="text-sm font-medium truncate">{id}</div>
+                              <div className="text-xs text-muted-foreground">
+                                {jackpotValidations.length} set{jackpotValidations.length !== 1 ? 's' : ''} • {totalCorrect}/{totalMatches} correct ({avgAccuracy}%)
+                              </div>
+                            </div>
+                          </div>
+                        </SelectItem>
+                      );
+                    })}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Set Dropdown */}
                     <div className="flex items-center gap-2">
-                      <Badge variant="outline" className="text-xs">{j.setUsed}</Badge>
-                      <span>{j.jackpotId.replace(/ \(Set [A-G]\)/g, '')}</span>
-                      <span className="text-muted-foreground">
-                        ({j.correctPredictions}/{j.totalMatches} - {((j.correctPredictions / j.totalMatches) * 100).toFixed(0)}%)
-                      </span>
+                <label className="text-sm font-medium text-muted-foreground whitespace-nowrap">
+                  Set:
+                </label>
+                <Select
+                  value={selectedSet || '__all__'}
+                  onValueChange={(v) => {
+                    setSelectedSet(v === '__all__' ? '' : v);
+                  }}
+                  disabled={validations.length === 0}
+                >
+                  <SelectTrigger className="w-[200px] glass-card min-w-[200px]">
+                    <SelectValue placeholder={validations.length === 0 ? "No sets" : "All Sets"} />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="__all__" className="font-semibold">
+                      <div className="flex items-center gap-2 py-1">
+                        <span>All Sets ({availableSets.length})</span>
                     </div>
                   </SelectItem>
-                ))}
+                    <div className="border-t my-1" />
+                    {availableSets.map((set) => {
+                      const setValidations = validations.filter(v => v.setUsed === set);
+                      const totalMatches = setValidations.reduce((sum, v) => sum + v.totalMatches, 0);
+                      const totalCorrect = setValidations.reduce((sum, v) => sum + v.correctPredictions, 0);
+                      const avgAccuracy = totalMatches > 0 ? ((totalCorrect / totalMatches) * 100).toFixed(1) : '0';
+                      const isRecommended = set === 'Set B';
+                      
+                      return (
+                        <SelectItem key={set} value={set}>
+                          <div className="flex items-center gap-2 py-1 w-full">
+                            <Badge 
+                              variant={isRecommended ? 'default' : 'outline'} 
+                              className="text-xs min-w-[60px] justify-center"
+                            >
+                              {set}
+                            </Badge>
+                            <div className="flex-1 min-w-0">
+                              <div className="text-sm font-medium">
+                                {set} {isRecommended && <span className="text-xs text-muted-foreground">(Recommended)</span>}
+                              </div>
+                              <div className="text-xs text-muted-foreground">
+                                {totalCorrect}/{totalMatches} ({avgAccuracy}%)
+                              </div>
+                            </div>
+                          </div>
+                        </SelectItem>
+                      );
+                    })}
               </SelectContent>
             </Select>
+              </div>
+
+              {/* Show filtered count */}
+              {filteredValidations.length > 0 && (
+                <div className="text-sm text-muted-foreground">
+                  Showing {filteredValidations.length} validation{filteredValidations.length !== 1 ? 's' : ''}
+                </div>
+              )}
+            </>
           )}
         </div>
-      </div>
 
       {/* Export to Training Card */}
       <Card className="glass-card-elevated border-primary/20 animate-fade-in-up">
@@ -611,8 +1014,134 @@ export default function JackpotValidation() {
         </CardContent>
       </Card>
 
+      {/* Overall Summary Cards - All Jackpots */}
+      {validations.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+          {(() => {
+            const totalMatches = validations.reduce((sum, v) => sum + v.totalMatches, 0);
+            const totalCorrect = validations.reduce((sum, v) => sum + v.correctPredictions, 0);
+            const avgAccuracy = totalMatches > 0 ? (totalCorrect / totalMatches) * 100 : 0;
+            const avgBrier = validations.reduce((sum, v) => sum + v.brierScore, 0) / validations.length;
+            
+            // Find best set across all jackpots
+            const setStats = validations.reduce((acc: any, v) => {
+              const set = v.setUsed;
+              if (!acc[set]) {
+                acc[set] = { matches: 0, correct: 0, brier: 0, count: 0 };
+              }
+              acc[set].matches += v.totalMatches;
+              acc[set].correct += v.correctPredictions;
+              acc[set].brier += v.brierScore;
+              acc[set].count += 1;
+              return acc;
+            }, {});
+            
+            const bestSet = Object.entries(setStats).reduce((best: any, [set, stats]: [string, any]) => {
+              const accuracy = stats.matches > 0 ? (stats.correct / stats.matches) * 100 : 0;
+              const avgBrier = stats.count > 0 ? stats.brier / stats.count : Infinity;
+              if (!best || accuracy > best.accuracy || (accuracy === best.accuracy && avgBrier < best.brier)) {
+                return { set, accuracy, brier: avgBrier, correct: stats.correct, matches: stats.matches };
+              }
+              return best;
+            }, null);
+            
+            // Find best jackpot performance
+            const jackpotStats = validations.reduce((acc: any, v) => {
+              const baseId = v.jackpotId.replace(/ \(Set [A-J]\)/g, '');
+              if (!acc[baseId]) {
+                acc[baseId] = { matches: 0, correct: 0, sets: new Set() };
+              }
+              acc[baseId].matches += v.totalMatches;
+              acc[baseId].correct += v.correctPredictions;
+              acc[baseId].sets.add(v.setUsed);
+              return acc;
+            }, {});
+            
+            const bestJackpot = Object.entries(jackpotStats).reduce((best: any, [id, stats]: [string, any]) => {
+              const accuracy = stats.matches > 0 ? (stats.correct / stats.matches) * 100 : 0;
+              if (!best || accuracy > best.accuracy || (accuracy === best.accuracy && stats.correct > best.correct)) {
+                return { id, accuracy, correct: stats.correct, matches: stats.matches, sets: Array.from(stats.sets) };
+              }
+              return best;
+            }, null);
+            
+            return (
+              <>
+                <Card className="glass-card-elevated border-primary/20">
+                  <CardContent className="pt-6">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm text-muted-foreground">Overall Accuracy</p>
+                        <p className="text-2xl font-bold tabular-nums">{avgAccuracy.toFixed(1)}%</p>
+                      </div>
+                      <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                        <Target className="h-6 w-6 text-primary" />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      {totalCorrect}/{totalMatches} correct across {validations.length} validation{validations.length !== 1 ? 's' : ''}
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="glass-card-elevated border-chart-2/20">
+                  <CardContent className="pt-6">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm text-muted-foreground">Average Brier Score</p>
+                        <p className="text-2xl font-bold tabular-nums">{avgBrier.toFixed(3)}</p>
+                      </div>
+                      <div className="h-12 w-12 rounded-full bg-chart-2/10 flex items-center justify-center">
+                        <BarChart3 className="h-6 w-6 text-chart-2" />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      Lower is better (0.20 typical)
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="glass-card-elevated border-accent/20">
+                  <CardContent className="pt-6">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm text-muted-foreground">Best Set</p>
+                        <p className="text-2xl font-bold tabular-nums">{bestSet?.set || 'N/A'}</p>
+                      </div>
+                      <div className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center">
+                        <Trophy className="h-6 w-6 text-accent" />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      {bestSet ? `${bestSet.correct}/${bestSet.matches} (${bestSet.accuracy.toFixed(1)}%)` : 'No data'}
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="glass-card-elevated border-chart-1/20">
+                  <CardContent className="pt-6">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm text-muted-foreground">Best Jackpot</p>
+                        <p className="text-lg font-bold tabular-nums truncate">{bestJackpot?.id || 'N/A'}</p>
+                      </div>
+                      <div className="h-12 w-12 rounded-full bg-chart-1/10 flex items-center justify-center">
+                        <TrendingUp className="h-6 w-6 text-chart-1" />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      {bestJackpot ? `${bestJackpot.correct}/${bestJackpot.matches} (${bestJackpot.accuracy.toFixed(1)}%) • ${bestJackpot.sets.join(', ')}` : 'No data'}
+                    </p>
+                  </CardContent>
+                </Card>
+              </>
+            );
+          })()}
+        </div>
+      )}
+
       {/* Summary Cards */}
-      {selectedJackpot ? (
+      {selectedJackpot && selectedJackpot.matches ? (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <Card>
             <CardContent className="pt-6">
@@ -765,9 +1294,9 @@ export default function JackpotValidation() {
                           <TableHead className="text-center">Result</TableHead>
                         </TableRow>
                       </TableHeader>
-                      <TableBody>
+                      <TableBody key={`table-${selectedJackpot.id}`}>
                         {selectedJackpot.matches.map((match, idx) => (
-                          <TableRow key={match.id}>
+                          <TableRow key={`${selectedJackpot.id}-${match.id}-${idx}`}>
                             <TableCell className="font-medium">{idx + 1}</TableCell>
                             <TableCell>
                               <span className="font-medium">{match.homeTeam}</span>
@@ -1140,7 +1669,7 @@ export default function JackpotValidation() {
                               className={isSelected ? 'bg-primary/10' : ''}
                             >
                               <TableCell className="font-mono text-sm">
-                                {v.jackpotId.replace(/ \(Set [A-G]\)/g, '')}
+                                {v.jackpotId.replace(/ \(Set [A-J]\)/g, '')}
                               </TableCell>
                               <TableCell>{formatDate(v.date)}</TableCell>
                               <TableCell>
@@ -1196,6 +1725,6 @@ export default function JackpotValidation() {
           </Card>
         </TabsContent>
       </Tabs>
-    </div>
+    </PageLayout>
   );
 }

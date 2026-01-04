@@ -7,10 +7,12 @@ from contextlib import contextmanager
 from app.config import settings
 
 # Create engine
+# pool_pre_ping=True ensures connections are validated before use, helping recover from stale connections
 engine = create_engine(
     settings.get_database_url(),
     pool_size=settings.DATABASE_POOL_SIZE,
     max_overflow=settings.DATABASE_MAX_OVERFLOW,
+    pool_pre_ping=True,  # Validate connections before use
     echo=settings.DATABASE_ECHO,
     future=True
 )

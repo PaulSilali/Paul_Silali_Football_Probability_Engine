@@ -34,7 +34,7 @@ def league_draw_stats(
         }
     
     total = len(matches)
-    draws = sum(1 for m in matches if m.result == MatchResult.DRAW)
+    draws = sum(1 for m in matches if m.result == MatchResult.D)
     draw_rate = draws / total if total > 0 else 0.0
     
     return {

@@ -1,0 +1,463 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,1920,2019-08-17,Elche,Fuenlabrada,7,7,False
+SP2,1920,2019-08-17,Almeria,Albacete,7,7,False
+SP2,1920,2019-08-17,Lugo,Extremadura UD,7,7,False
+SP2,1920,2019-08-17,Santander,Malaga,7,7,False
+SP2,1920,2019-08-17,Zaragoza,Tenerife,7,7,False
+SP2,1920,2019-08-17,Vallecano,Mirandes,7,7,False
+SP2,1920,2019-08-18,Las Palmas,Huesca,7,7,False
+SP2,1920,2019-08-18,La Coruna,Oviedo,7,7,False
+SP2,1920,2019-08-18,Numancia,Alcorcon,7,7,False
+SP2,1920,2019-08-18,Cadiz,Ponferradina,7,7,False
+SP2,1920,2019-08-18,Girona,Sp Gijon,7,7,False
+SP2,1920,2019-08-23,Albacete,Girona,6,5,False
+SP2,1920,2019-08-24,Santander,Almeria,7,7,False
+SP2,1920,2019-08-24,Mirandes,Cadiz,7,6,False
+SP2,1920,2019-08-24,Oviedo,Lugo,6,7,False
+SP2,1920,2019-08-24,Alcorcon,Elche,6,7,False
+SP2,1920,2019-08-24,Malaga,Las Palmas,7,6,False
+SP2,1920,2019-08-25,Sp Gijon,Vallecano,7,8,False
+SP2,1920,2019-08-25,Ponferradina,Zaragoza,7,8,False
+SP2,1920,2019-08-25,Huesca,La Coruna,7,7,False
+SP2,1920,2019-08-25,Tenerife,Numancia,8,7,False
+SP2,1920,2019-08-25,Extremadura UD,Fuenlabrada,8,8,False
+SP2,1920,2019-08-30,Zaragoza,Elche,5,6,False
+SP2,1920,2019-08-31,Numancia,Mirandes,6,7,False
+SP2,1920,2019-08-31,Fuenlabrada,Oviedo,6,7,False
+SP2,1920,2019-08-31,Almeria,Huesca,7,6,False
+SP2,1920,2019-08-31,Las Palmas,Santander,7,7,False
+SP2,1920,2019-09-01,Ponferradina,Tenerife,7,7,False
+SP2,1920,2019-09-01,Lugo,Alcorcon,8,8,False
+SP2,1920,2019-09-01,Sp Gijon,Albacete,7,9,False
+SP2,1920,2019-09-01,Vallecano,La Coruna,7,7,False
+SP2,1920,2019-09-01,Girona,Malaga,9,8,False
+SP2,1920,2019-09-01,Cadiz,Extremadura UD,8,7,False
+SP2,1920,2019-09-06,Santander,Cadiz,6,5,False
+SP2,1920,2019-09-07,Extremadura UD,Numancia,6,7,False
+SP2,1920,2019-09-07,Fuenlabrada,Ponferradina,7,6,False
+SP2,1920,2019-09-07,Tenerife,Las Palmas,6,7,False
+SP2,1920,2019-09-07,Malaga,Almeria,6,7,False
+SP2,1920,2019-09-07,La Coruna,Albacete,6,6,False
+SP2,1920,2019-09-08,Elche,Lugo,9,7,False
+SP2,1920,2019-09-08,Mirandes,Oviedo,8,8,False
+SP2,1920,2019-09-08,Alcorcon,Zaragoza,7,9,False
+SP2,1920,2019-09-08,Huesca,Sp Gijon,8,7,False
+SP2,1920,2019-09-08,Girona,Vallecano,7,7,False
+SP2,1920,2019-09-13,Vallecano,Santander,5,7,False
+SP2,1920,2019-09-14,Las Palmas,Almeria,7,7,False
+SP2,1920,2019-09-14,Cadiz,Girona,8,6,False
+SP2,1920,2019-09-14,Ponferradina,Alcorcon,7,6,False
+SP2,1920,2019-09-14,Numancia,Huesca,7,6,False
+SP2,1920,2019-09-14,Mirandes,Malaga,6,7,False
+SP2,1920,2019-09-15,Zaragoza,Extremadura UD,7,8,False
+SP2,1920,2019-09-15,Lugo,Fuenlabrada,7,8,False
+SP2,1920,2019-09-15,Sp Gijon,La Coruna,7,8,False
+SP2,1920,2019-09-15,Albacete,Tenerife,8,8,False
+SP2,1920,2019-09-15,Oviedo,Elche,7,7,False
+SP2,1920,2019-09-17,Santander,Mirandes,4,3,True
+SP2,1920,2019-09-17,Alcorcon,Cadiz,3,3,True
+SP2,1920,2019-09-17,Almeria,Girona,3,3,True
+SP2,1920,2019-09-17,Malaga,Vallecano,3,4,True
+SP2,1920,2019-09-18,Huesca,Albacete,4,3,True
+SP2,1920,2019-09-18,Lugo,Ponferradina,3,4,True
+SP2,1920,2019-09-18,La Coruna,Numancia,3,4,True
+SP2,1920,2019-09-19,Las Palmas,Sp Gijon,5,4,True
+SP2,1920,2019-09-19,Elche,Tenerife,4,4,True
+SP2,1920,2019-09-19,Oviedo,Extremadura UD,4,4,True
+SP2,1920,2019-09-20,Mirandes,Alcorcon,3,3,False
+SP2,1920,2019-09-21,Zaragoza,Lugo,6,3,False
+SP2,1920,2019-09-21,Vallecano,Almeria,4,4,False
+SP2,1920,2019-09-21,Albacete,Malaga,3,4,False
+SP2,1920,2019-09-21,Cadiz,La Coruna,4,3,False
+SP2,1920,2019-09-22,Numancia,Elche,4,3,False
+SP2,1920,2019-09-22,Sp Gijon,Santander,3,5,False
+SP2,1920,2019-09-22,Extremadura UD,Huesca,3,4,False
+SP2,1920,2019-09-22,Tenerife,Fuenlabrada,3,7,False
+SP2,1920,2019-09-22,Ponferradina,Oviedo,4,3,False
+SP2,1920,2019-09-22,Girona,Las Palmas,5,3,False
+SP2,1920,2019-09-27,Las Palmas,Albacete,5,6,False
+SP2,1920,2019-09-28,Huesca,Girona,6,6,False
+SP2,1920,2019-09-28,Elche,Ponferradina,6,6,False
+SP2,1920,2019-09-28,Santander,Numancia,6,6,False
+SP2,1920,2019-09-28,Alcorcon,Extremadura UD,8,6,False
+SP2,1920,2019-09-28,Fuenlabrada,Vallecano,6,7,False
+SP2,1920,2019-09-29,Oviedo,Zaragoza,7,8,False
+SP2,1920,2019-09-29,La Coruna,Mirandes,8,9,False
+SP2,1920,2019-09-29,Lugo,Tenerife,8,7,False
+SP2,1920,2019-09-29,Malaga,Sp Gijon,8,7,False
+SP2,1920,2019-09-29,Almeria,Cadiz,8,8,False
+SP2,1920,2019-10-01,Vallecano,Alcorcon,3,3,True
+SP2,1920,2019-10-01,Albacete,Santander,4,3,True
+SP2,1920,2019-10-01,Extremadura UD,Elche,3,3,True
+SP2,1920,2019-10-01,Numancia,Fuenlabrada,3,3,True
+SP2,1920,2019-10-02,Ponferradina,Las Palmas,4,5,True
+SP2,1920,2019-10-02,Tenerife,Oviedo,3,3,True
+SP2,1920,2019-10-02,Mirandes,Lugo,3,3,True
+SP2,1920,2019-10-02,Cadiz,Huesca,3,4,True
+SP2,1920,2019-10-03,Girona,La Coruna,5,4,True
+SP2,1920,2019-10-03,Sp Gijon,Almeria,4,4,True
+SP2,1920,2019-10-03,Zaragoza,Malaga,4,4,True
+SP2,1920,2019-10-04,Alcorcon,Albacete,3,3,False
+SP2,1920,2019-10-05,Ponferradina,Mirandes,3,3,False
+SP2,1920,2019-10-05,Tenerife,Extremadura UD,3,4,False
+SP2,1920,2019-10-05,Elche,Vallecano,4,4,False
+SP2,1920,2019-10-05,Lugo,Las Palmas,3,3,False
+SP2,1920,2019-10-06,Zaragoza,Cadiz,3,4,False
+SP2,1920,2019-10-06,La Coruna,Almeria,3,3,False
+SP2,1920,2019-10-06,Huesca,Malaga,4,3,False
+SP2,1920,2019-10-06,Santander,Girona,5,3,False
+SP2,1920,2019-10-06,Fuenlabrada,Sp Gijon,5,3,False
+SP2,1920,2019-10-06,Oviedo,Numancia,4,5,False
+SP2,1920,2019-10-11,Vallecano,Tenerife,6,6,False
+SP2,1920,2019-10-12,Almeria,Lugo,6,7,False
+SP2,1920,2019-10-12,Sp Gijon,Alcorcon,6,8,False
+SP2,1920,2019-10-12,Extremadura UD,Ponferradina,7,7,False
+SP2,1920,2019-10-12,Malaga,Cadiz,6,6,False
+SP2,1920,2019-10-12,Girona,Elche,6,7,False
+SP2,1920,2019-10-13,Albacete,Oviedo,9,7,False
+SP2,1920,2019-10-13,Mirandes,Fuenlabrada,8,7,False
+SP2,1920,2019-10-13,Numancia,Zaragoza,7,7,False
+SP2,1920,2019-10-13,Huesca,Santander,7,7,False
+SP2,1920,2019-10-13,Las Palmas,La Coruna,8,7,False
+SP2,1920,2019-10-16,Fuenlabrada,Zaragoza,3,3,True
+SP2,1920,2019-10-18,Cadiz,Las Palmas,6,5,False
+SP2,1920,2019-10-19,Alcorcon,Almeria,7,7,False
+SP2,1920,2019-10-19,Extremadura UD,Vallecano,7,8,False
+SP2,1920,2019-10-19,Lugo,Huesca,7,6,False
+SP2,1920,2019-10-19,Ponferradina,Numancia,7,6,False
+SP2,1920,2019-10-19,Elche,Sp Gijon,7,7,False
+SP2,1920,2019-10-20,Oviedo,Girona,7,8,False
+SP2,1920,2019-10-20,Tenerife,Santander,9,7,False
+SP2,1920,2019-10-20,Zaragoza,Mirandes,4,7,False
+SP2,1920,2019-10-20,Fuenlabrada,Albacete,4,7,False
+SP2,1920,2019-10-20,La Coruna,Malaga,7,8,False
+SP2,1920,2019-10-25,Albacete,Cadiz,5,7,False
+SP2,1920,2019-10-26,Santander,La Coruna,6,6,False
+SP2,1920,2019-10-26,Malaga,Oviedo,6,6,False
+SP2,1920,2019-10-26,Numancia,Lugo,7,7,False
+SP2,1920,2019-10-26,Mirandes,Tenerife,6,6,False
+SP2,1920,2019-10-26,Vallecano,Ponferradina,7,7,False
+SP2,1920,2019-10-27,Huesca,Elche,8,8,False
+SP2,1920,2019-10-27,Las Palmas,Fuenlabrada,9,7,False
+SP2,1920,2019-10-27,Almeria,Extremadura UD,8,8,False
+SP2,1920,2019-10-27,Girona,Alcorcon,7,8,False
+SP2,1920,2019-10-27,Sp Gijon,Zaragoza,8,7,False
+SP2,1920,2019-11-01,Oviedo,Almeria,6,5,False
+SP2,1920,2019-11-01,Numancia,Albacete,6,7,False
+SP2,1920,2019-11-01,Cadiz,Sp Gijon,7,5,False
+SP2,1920,2019-11-01,Ponferradina,Malaga,6,6,False
+SP2,1920,2019-11-02,Alcorcon,Santander,6,7,False
+SP2,1920,2019-11-02,Fuenlabrada,La Coruna,6,7,False
+SP2,1920,2019-11-02,Tenerife,Huesca,7,6,False
+SP2,1920,2019-11-03,Extremadura UD,Girona,7,7,False
+SP2,1920,2019-11-03,Lugo,Vallecano,8,8,False
+SP2,1920,2019-11-03,Zaragoza,Las Palmas,7,7,False
+SP2,1920,2019-11-03,Elche,Mirandes,7,8,False
+SP2,1920,2019-11-08,Girona,Tenerife,5,6,False
+SP2,1920,2019-11-09,Albacete,Lugo,8,6,False
+SP2,1920,2019-11-09,Sp Gijon,Numancia,8,8,False
+SP2,1920,2019-11-09,Las Palmas,Alcorcon,6,7,False
+SP2,1920,2019-11-09,Mirandes,Extremadura UD,6,6,False
+SP2,1920,2019-11-09,Huesca,Oviedo,7,8,False
+SP2,1920,2019-11-10,Malaga,Fuenlabrada,9,8,False
+SP2,1920,2019-11-10,Santander,Ponferradina,8,9,False
+SP2,1920,2019-11-10,Vallecano,Cadiz,7,9,False
+SP2,1920,2019-11-10,La Coruna,Elche,8,7,False
+SP2,1920,2019-11-10,Almeria,Zaragoza,9,7,False
+SP2,1920,2019-11-16,Elche,Almeria,6,6,False
+SP2,1920,2019-11-16,Numancia,Vallecano,7,6,False
+SP2,1920,2019-11-16,Zaragoza,Albacete,6,7,False
+SP2,1920,2019-11-16,Fuenlabrada,Huesca,6,7,False
+SP2,1920,2019-11-16,Extremadura UD,La Coruna,7,6,False
+SP2,1920,2019-11-17,Tenerife,Cadiz,9,7,False
+SP2,1920,2019-11-17,Lugo,Santander,8,7,False
+SP2,1920,2019-11-17,Mirandes,Las Palmas,8,8,False
+SP2,1920,2019-11-17,Oviedo,Sp Gijon,8,8,False
+SP2,1920,2019-11-17,Alcorcon,Malaga,8,7,False
+SP2,1920,2019-11-17,Ponferradina,Girona,7,9,False
+SP2,1920,2019-11-22,Sp Gijon,Tenerife,5,5,False
+SP2,1920,2019-11-23,Vallecano,Zaragoza,7,7,False
+SP2,1920,2019-11-23,La Coruna,Alcorcon,7,6,False
+SP2,1920,2019-11-23,Santander,Extremadura UD,6,7,False
+SP2,1920,2019-11-23,Huesca,Ponferradina,7,6,False
+SP2,1920,2019-11-24,Cadiz,Lugo,7,7,False
+SP2,1920,2019-11-24,Malaga,Elche,7,8,False
+SP2,1920,2019-11-24,Almeria,Numancia,8,8,False
+SP2,1920,2019-11-24,Albacete,Mirandes,8,7,False
+SP2,1920,2019-11-24,Girona,Fuenlabrada,7,8,False
+SP2,1920,2019-11-24,Las Palmas,Oviedo,7,7,False
+SP2,1920,2019-11-29,Numancia,Malaga,5,5,False
+SP2,1920,2019-11-30,Ponferradina,Albacete,7,6,False
+SP2,1920,2019-11-30,Tenerife,Almeria,8,6,False
+SP2,1920,2019-11-30,Zaragoza,Girona,7,6,False
+SP2,1920,2019-11-30,Mirandes,Sp Gijon,6,8,False
+SP2,1920,2019-11-30,Alcorcon,Huesca,7,7,False
+SP2,1920,2019-12-01,Elche,Santander,7,8,False
+SP2,1920,2019-12-01,Lugo,La Coruna,7,8,False
+SP2,1920,2019-12-01,Extremadura UD,Las Palmas,8,7,False
+SP2,1920,2019-12-01,Fuenlabrada,Cadiz,7,7,False
+SP2,1920,2019-12-01,Oviedo,Vallecano,7,8,False
+SP2,1920,2019-12-06,Malaga,Tenerife,7,6,False
+SP2,1920,2019-12-06,Albacete,Extremadura UD,6,5,False
+SP2,1920,2019-12-06,Santander,Fuenlabrada,5,5,False
+SP2,1920,2019-12-06,Alcorcon,Oviedo,6,5,False
+SP2,1920,2019-12-07,Sp Gijon,Ponferradina,7,7,False
+SP2,1920,2019-12-07,Huesca,Vallecano,7,6,False
+SP2,1920,2019-12-07,Almeria,Mirandes,7,7,False
+SP2,1920,2019-12-08,Cadiz,Elche,7,7,False
+SP2,1920,2019-12-08,Girona,Lugo,8,7,False
+SP2,1920,2019-12-08,La Coruna,Zaragoza,7,8,False
+SP2,1920,2019-12-08,Las Palmas,Numancia,7,9,False
+SP2,1920,2019-12-13,Numancia,Girona,5,5,False
+SP2,1920,2019-12-14,Tenerife,Alcorcon,8,8,False
+SP2,1920,2019-12-14,Zaragoza,Santander,6,8,False
+SP2,1920,2019-12-14,Ponferradina,La Coruna,7,6,False
+SP2,1920,2019-12-14,Mirandes,Huesca,7,7,False
+SP2,1920,2019-12-15,Elche,Las Palmas,7,7,False
+SP2,1920,2019-12-15,Lugo,Sp Gijon,7,8,False
+SP2,1920,2019-12-15,Fuenlabrada,Almeria,9,8,False
+SP2,1920,2019-12-15,Extremadura UD,Malaga,9,9,False
+SP2,1920,2019-12-15,Oviedo,Cadiz,9,7,False
+SP2,1920,2019-12-20,La Coruna,Tenerife,6,6,False
+SP2,1920,2019-12-21,Las Palmas,Vallecano,6,14,False
+SP2,1920,2019-12-21,Sp Gijon,Extremadura UD,6,6,False
+SP2,1920,2019-12-21,Santander,Oviedo,7,6,False
+SP2,1920,2019-12-21,Cadiz,Numancia,6,8,False
+SP2,1920,2019-12-21,Malaga,Lugo,6,6,False
+SP2,1920,2019-12-21,Albacete,Elche,15,6,False
+SP2,1920,2019-12-22,Alcorcon,Fuenlabrada,8,7,False
+SP2,1920,2019-12-22,Girona,Mirandes,9,8,False
+SP2,1920,2019-12-22,Almeria,Ponferradina,7,8,False
+SP2,1920,2019-12-22,Huesca,Zaragoza,8,8,False
+SP2,1920,2020-01-03,Extremadura UD,Alcorcon,13,12,False
+SP2,1920,2020-01-04,Lugo,Almeria,14,13,False
+SP2,1920,2020-01-04,Fuenlabrada,Las Palmas,13,14,False
+SP2,1920,2020-01-04,Ponferradina,Cadiz,13,14,False
+SP2,1920,2020-01-04,Tenerife,Albacete,15,14,False
+SP2,1920,2020-01-04,Elche,Huesca,14,13,False
+SP2,1920,2020-01-04,Mirandes,Santander,13,14,False
+SP2,1920,2020-01-05,Numancia,La Coruna,15,16,False
+SP2,1920,2020-01-05,Vallecano,Girona,15,14,False
+SP2,1920,2020-01-05,Oviedo,Malaga,15,15,False
+SP2,1920,2020-01-07,Zaragoza,Sp Gijon,16,17,True
+SP2,1920,2020-01-14,Las Palmas,Zaragoza,10,7,True
+SP2,1920,2020-01-14,Sp Gijon,Elche,7,10,True
+SP2,1920,2020-01-14,Albacete,Fuenlabrada,10,10,True
+SP2,1920,2020-01-14,Malaga,Ponferradina,9,10,True
+SP2,1920,2020-01-15,Vallecano,Lugo,10,11,True
+SP2,1920,2020-01-15,Cadiz,Mirandes,11,11,True
+SP2,1920,2020-01-15,Alcorcon,Numancia,12,10,True
+SP2,1920,2020-01-15,Huesca,Tenerife,11,11,True
+SP2,1920,2020-01-16,Almeria,Oviedo,12,11,True
+SP2,1920,2020-01-16,La Coruna,Santander,11,12,True
+SP2,1920,2020-01-16,Girona,Extremadura UD,11,13,True
+SP2,1920,2020-01-17,Fuenlabrada,Malaga,3,3,False
+SP2,1920,2020-01-18,Ponferradina,Vallecano,4,3,False
+SP2,1920,2020-01-18,Lugo,Albacete,3,4,False
+SP2,1920,2020-01-18,Numancia,Sp Gijon,3,4,False
+SP2,1920,2020-01-19,Tenerife,Girona,4,3,False
+SP2,1920,2020-01-19,Santander,Las Palmas,3,5,False
+SP2,1920,2020-01-19,Extremadura UD,Almeria,3,3,False
+SP2,1920,2020-01-19,Oviedo,Huesca,3,4,False
+SP2,1920,2020-01-19,La Coruna,Cadiz,3,4,False
+SP2,1920,2020-01-19,Elche,Alcorcon,5,4,False
+SP2,1920,2020-01-24,Cadiz,Santander,5,5,False
+SP2,1920,2020-01-25,Las Palmas,Tenerife,6,6,False
+SP2,1920,2020-01-25,Huesca,Lugo,6,7,False
+SP2,1920,2020-01-25,Sp Gijon,Fuenlabrada,7,8,False
+SP2,1920,2020-01-25,Zaragoza,Numancia,11,7,False
+SP2,1920,2020-01-26,Almeria,Elche,7,7,False
+SP2,1920,2020-01-26,Alcorcon,Ponferradina,7,8,False
+SP2,1920,2020-01-26,Vallecano,Extremadura UD,8,7,False
+SP2,1920,2020-01-26,Girona,Oviedo,7,7,False
+SP2,1920,2020-01-26,Albacete,La Coruna,8,7,False
+SP2,1920,2020-01-26,Malaga,Mirandes,9,11,False
+SP2,1920,2020-01-31,Tenerife,Sp Gijon,6,6,False
+SP2,1920,2020-02-01,Ponferradina,Huesca,6,7,False
+SP2,1920,2020-02-01,Elche,Malaga,6,6,False
+SP2,1920,2020-02-01,La Coruna,Las Palmas,6,7,False
+SP2,1920,2020-02-01,Extremadura UD,Lugo,6,7,False
+SP2,1920,2020-02-02,Mirandes,Vallecano,7,7,False
+SP2,1920,2020-02-02,Numancia,Almeria,8,7,False
+SP2,1920,2020-02-02,Oviedo,Albacete,7,7,False
+SP2,1920,2020-02-02,Santander,Alcorcon,9,7,False
+SP2,1920,2020-02-02,Fuenlabrada,Girona,8,7,False
+SP2,1920,2020-02-02,Cadiz,Zaragoza,9,8,False
+SP2,1920,2020-02-07,Almeria,Santander,5,5,False
+SP2,1920,2020-02-08,Girona,Huesca,6,7,False
+SP2,1920,2020-02-08,Las Palmas,Cadiz,7,6,False
+SP2,1920,2020-02-08,Zaragoza,Fuenlabrada,6,6,False
+SP2,1920,2020-02-08,Extremadura UD,Tenerife,7,8,False
+SP2,1920,2020-02-09,Malaga,Numancia,8,7,False
+SP2,1920,2020-02-09,Albacete,Ponferradina,7,8,False
+SP2,1920,2020-02-09,Alcorcon,La Coruna,7,8,False
+SP2,1920,2020-02-09,Sp Gijon,Mirandes,9,7,False
+SP2,1920,2020-02-09,Lugo,Elche,8,8,False
+SP2,1920,2020-02-09,Vallecano,Oviedo,7,7,False
+SP2,1920,2020-02-14,La Coruna,Girona,5,6,False
+SP2,1920,2020-02-15,Huesca,Almeria,7,8,False
+SP2,1920,2020-02-15,Numancia,Las Palmas,6,7,False
+SP2,1920,2020-02-15,Elche,Zaragoza,6,7,False
+SP2,1920,2020-02-15,Oviedo,Alcorcon,6,6,False
+SP2,1920,2020-02-16,Tenerife,Vallecano,8,7,False
+SP2,1920,2020-02-16,Fuenlabrada,Lugo,8,7,False
+SP2,1920,2020-02-16,Mirandes,Albacete,7,7,False
+SP2,1920,2020-02-16,Cadiz,Malaga,8,7,False
+SP2,1920,2020-02-16,Ponferradina,Extremadura UD,7,8,False
+SP2,1920,2020-02-16,Santander,Sp Gijon,9,7,False
+SP2,1920,2020-02-19,Mirandes,Zaragoza,3,4,True
+SP2,1920,2020-02-21,Sp Gijon,Cadiz,5,5,False
+SP2,1920,2020-02-22,Girona,Ponferradina,8,6,False
+SP2,1920,2020-02-22,Tenerife,Elche,6,7,False
+SP2,1920,2020-02-22,Albacete,Numancia,6,7,False
+SP2,1920,2020-02-22,Alcorcon,Las Palmas,7,7,False
+SP2,1920,2020-02-22,Almeria,Fuenlabrada,7,6,False
+SP2,1920,2020-02-23,Extremadura UD,Mirandes,7,4,False
+SP2,1920,2020-02-23,Malaga,Santander,7,7,False
+SP2,1920,2020-02-23,Vallecano,Huesca,7,8,False
+SP2,1920,2020-02-23,Zaragoza,La Coruna,4,9,False
+SP2,1920,2020-02-23,Lugo,Oviedo,7,8,False
+SP2,1920,2020-02-28,Las Palmas,Malaga,6,5,False
+SP2,1920,2020-02-29,Santander,Zaragoza,6,6,False
+SP2,1920,2020-02-29,Huesca,Extremadura UD,6,6,False
+SP2,1920,2020-02-29,Ponferradina,Sp Gijon,7,8,False
+SP2,1920,2020-02-29,Cadiz,Almeria,8,7,False
+SP2,1920,2020-02-29,Albacete,Vallecano,7,6,False
+SP2,1920,2020-03-01,La Coruna,Lugo,7,7,False
+SP2,1920,2020-03-01,Fuenlabrada,Alcorcon,8,8,False
+SP2,1920,2020-03-01,Oviedo,Tenerife,7,8,False
+SP2,1920,2020-03-01,Elche,Numancia,8,8,False
+SP2,1920,2020-03-01,Mirandes,Girona,7,8,False
+SP2,1920,2020-03-06,Lugo,Cadiz,5,6,False
+SP2,1920,2020-03-07,Huesca,Fuenlabrada,7,6,False
+SP2,1920,2020-03-07,Numancia,Santander,6,7,False
+SP2,1920,2020-03-07,Almeria,La Coruna,7,6,False
+SP2,1920,2020-03-07,Girona,Albacete,6,7,False
+SP2,1920,2020-03-07,Extremadura UD,Oviedo,7,6,False
+SP2,1920,2020-03-08,Alcorcon,Mirandes,7,7,False
+SP2,1920,2020-03-08,Sp Gijon,Las Palmas,8,9,False
+SP2,1920,2020-03-08,Tenerife,Ponferradina,7,8,False
+SP2,1920,2020-03-08,Vallecano,Elche,8,7,False
+SP2,1920,2020-03-08,Malaga,Zaragoza,9,8,False
+SP2,1920,2020-06-10,Vallecano,Albacete,94,95,True
+SP2,1920,2020-06-12,Malaga,Huesca,96,97,False
+SP2,1920,2020-06-12,Oviedo,Ponferradina,97,96,False
+SP2,1920,2020-06-12,Fuenlabrada,Tenerife,97,96,False
+SP2,1920,2020-06-12,Elche,Extremadura UD,96,97,False
+SP2,1920,2020-06-13,Zaragoza,Alcorcon,97,97,False
+SP2,1920,2020-06-13,Santander,Lugo,98,99,False
+SP2,1920,2020-06-13,Las Palmas,Girona,97,98,False
+SP2,1920,2020-06-14,Cadiz,Vallecano,100,4,False
+SP2,1920,2020-06-14,La Coruna,Sp Gijon,99,98,False
+SP2,1920,2020-06-14,Mirandes,Numancia,98,99,False
+SP2,1920,2020-06-14,Albacete,Almeria,4,99,False
+SP2,1920,2020-06-15,Ponferradina,Elche,3,3,False
+SP2,1920,2020-06-15,Tenerife,Malaga,3,3,False
+SP2,1920,2020-06-16,Girona,Santander,3,3,True
+SP2,1920,2020-06-16,Lugo,Zaragoza,3,3,True
+SP2,1920,2020-06-17,Oviedo,La Coruna,5,3,True
+SP2,1920,2020-06-17,Almeria,Las Palmas,3,4,True
+SP2,1920,2020-06-17,Vallecano,Fuenlabrada,3,5,True
+SP2,1920,2020-06-17,Extremadura UD,Albacete,5,3,True
+SP2,1920,2020-06-18,Alcorcon,Sp Gijon,5,4,True
+SP2,1920,2020-06-18,Huesca,Mirandes,6,4,True
+SP2,1920,2020-06-18,Numancia,Cadiz,4,4,True
+SP2,1920,2020-06-19,Elche,Girona,4,3,False
+SP2,1920,2020-06-20,Zaragoza,Almeria,4,3,False
+SP2,1920,2020-06-20,Malaga,Extremadura UD,5,3,False
+SP2,1920,2020-06-20,Las Palmas,Lugo,3,4,False
+SP2,1920,2020-06-20,La Coruna,Vallecano,3,3,False
+SP2,1920,2020-06-21,Albacete,Huesca,4,3,False
+SP2,1920,2020-06-21,Cadiz,Alcorcon,3,3,False
+SP2,1920,2020-06-21,Fuenlabrada,Numancia,4,3,False
+SP2,1920,2020-06-21,Mirandes,Ponferradina,3,6,False
+SP2,1920,2020-06-21,Santander,Tenerife,5,6,False
+SP2,1920,2020-06-22,Sp Gijon,Oviedo,4,5,False
+SP2,1920,2020-06-23,Lugo,Malaga,3,3,True
+SP2,1920,2020-06-23,Extremadura UD,Zaragoza,3,3,True
+SP2,1920,2020-06-23,Elche,La Coruna,4,3,True
+SP2,1920,2020-06-24,Ponferradina,Santander,3,3,True
+SP2,1920,2020-06-24,Girona,Numancia,5,3,True
+SP2,1920,2020-06-24,Huesca,Cadiz,3,3,True
+SP2,1920,2020-06-24,Tenerife,Mirandes,3,3,True
+SP2,1920,2020-06-24,Albacete,Las Palmas,3,4,True
+SP2,1920,2020-06-25,Oviedo,Fuenlabrada,3,4,True
+SP2,1920,2020-06-25,Vallecano,Sp Gijon,5,3,True
+SP2,1920,2020-06-25,Almeria,Alcorcon,5,4,True
+SP2,1920,2020-06-27,Las Palmas,Elche,3,4,False
+SP2,1920,2020-06-27,Santander,Albacete,3,3,False
+SP2,1920,2020-06-27,La Coruna,Ponferradina,4,3,False
+SP2,1920,2020-06-27,Cadiz,Tenerife,3,3,False
+SP2,1920,2020-06-28,Malaga,Girona,5,4,False
+SP2,1920,2020-06-28,Numancia,Oviedo,4,3,False
+SP2,1920,2020-06-28,Fuenlabrada,Extremadura UD,3,5,False
+SP2,1920,2020-06-28,Mirandes,Almeria,4,3,False
+SP2,1920,2020-06-28,Sp Gijon,Lugo,3,5,False
+SP2,1920,2020-06-29,Zaragoza,Huesca,6,5,False
+SP2,1920,2020-06-29,Alcorcon,Vallecano,4,4,False
+SP2,1920,2020-06-30,Tenerife,La Coruna,3,3,True
+SP2,1920,2020-06-30,Elche,Cadiz,3,3,True
+SP2,1920,2020-07-01,Oviedo,Mirandes,3,3,True
+SP2,1920,2020-07-01,Extremadura UD,Santander,3,4,True
+SP2,1920,2020-07-01,Ponferradina,Fuenlabrada,4,3,True
+SP2,1920,2020-07-01,Lugo,Numancia,3,3,True
+SP2,1920,2020-07-01,Almeria,Sp Gijon,3,3,True
+SP2,1920,2020-07-02,Vallecano,Malaga,3,4,True
+SP2,1920,2020-07-02,Albacete,Alcorcon,5,3,True
+SP2,1920,2020-07-02,Huesca,Las Palmas,3,5,True
+SP2,1920,2020-07-03,Girona,Zaragoza,5,4,False
+SP2,1920,2020-07-04,Almeria,Tenerife,3,4,False
+SP2,1920,2020-07-04,Numancia,Extremadura UD,3,3,False
+SP2,1920,2020-07-04,Santander,Elche,3,4,False
+SP2,1920,2020-07-04,Cadiz,Oviedo,4,3,False
+SP2,1920,2020-07-04,Fuenlabrada,Mirandes,3,3,False
+SP2,1920,2020-07-05,Alcorcon,Lugo,3,4,False
+SP2,1920,2020-07-05,Malaga,Albacete,3,3,False
+SP2,1920,2020-07-05,La Coruna,Huesca,5,3,False
+SP2,1920,2020-07-05,Las Palmas,Ponferradina,3,4,False
+SP2,1920,2020-07-06,Zaragoza,Vallecano,3,4,False
+SP2,1920,2020-07-06,Sp Gijon,Girona,5,3,False
+SP2,1920,2020-07-07,Extremadura UD,Cadiz,3,3,True
+SP2,1920,2020-07-07,Mirandes,Elche,3,3,True
+SP2,1920,2020-07-07,Fuenlabrada,Santander,3,3,True
+SP2,1920,2020-07-08,Huesca,Alcorcon,3,3,True
+SP2,1920,2020-07-08,Ponferradina,Lugo,3,3,True
+SP2,1920,2020-07-08,Malaga,La Coruna,3,3,True
+SP2,1920,2020-07-08,Oviedo,Las Palmas,4,3,True
+SP2,1920,2020-07-09,Girona,Almeria,3,5,True
+SP2,1920,2020-07-09,Tenerife,Zaragoza,5,3,True
+SP2,1920,2020-07-09,Albacete,Sp Gijon,4,3,True
+SP2,1920,2020-07-09,Vallecano,Numancia,3,5,True
+SP2,1920,2020-07-11,Cadiz,Fuenlabrada,4,4,False
+SP2,1920,2020-07-11,Santander,Huesca,4,3,False
+SP2,1920,2020-07-11,Las Palmas,Mirandes,3,4,False
+SP2,1920,2020-07-12,Zaragoza,Oviedo,3,4,False
+SP2,1920,2020-07-12,Numancia,Ponferradina,3,4,False
+SP2,1920,2020-07-12,La Coruna,Extremadura UD,4,5,False
+SP2,1920,2020-07-12,Lugo,Girona,4,3,False
+SP2,1920,2020-07-13,Elche,Albacete,6,4,False
+SP2,1920,2020-07-13,Almeria,Vallecano,4,4,False
+SP2,1920,2020-07-13,Sp Gijon,Malaga,4,5,False
+SP2,1920,2020-07-13,Alcorcon,Tenerife,5,4,False
+SP2,1920,2020-07-17,Fuenlabrada,Elche,6,4,False
+SP2,1920,2020-07-17,Girona,Cadiz,5,6,False
+SP2,1920,2020-07-17,Huesca,Numancia,6,5,False
+SP2,1920,2020-07-17,Malaga,Alcorcon,4,4,False
+SP2,1920,2020-07-17,Mirandes,La Coruna,6,5,False
+SP2,1920,2020-07-17,Oviedo,Santander,5,6,False
+SP2,1920,2020-07-17,Ponferradina,Almeria,5,4,False
+SP2,1920,2020-07-17,Tenerife,Lugo,4,5,False
+SP2,1920,2020-07-17,Vallecano,Las Palmas,4,6,False
+SP2,1920,2020-07-17,Extremadura UD,Sp Gijon,5,4,False
+SP2,1920,2020-07-17,Albacete,Zaragoza,4,5,False
+SP2,1920,2020-07-20,Alcorcon,Girona,3,3,False
+SP2,1920,2020-07-20,Cadiz,Albacete,3,3,False
+SP2,1920,2020-07-20,Elche,Oviedo,3,3,False
+SP2,1920,2020-07-20,Lugo,Mirandes,3,3,False
+SP2,1920,2020-07-20,Numancia,Tenerife,3,3,False
+SP2,1920,2020-07-20,Santander,Vallecano,3,3,False
+SP2,1920,2020-07-20,Sp Gijon,Huesca,3,3,False
+SP2,1920,2020-07-20,Zaragoza,Ponferradina,3,3,False
+SP2,1920,2020-07-20,Almeria,Malaga,3,3,False
+SP2,1920,2020-07-20,Las Palmas,Extremadura UD,3,3,False
+SP2,1920,2020-08-07,La Coruna,Fuenlabrada,21,21,False

@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+G1,1920,2019-08-24,Lamia,Panathinaikos,7,7,False
+G1,1920,2019-08-24,Aris,OFI Crete,7,7,False
+G1,1920,2019-08-24,Olympiakos,Asteras Tripolis,7,7,False
+G1,1920,2019-08-25,PAOK,Panetolikos,7,7,False
+G1,1920,2019-08-25,Atromitos,Aris,7,1,False
+G1,1920,2019-08-25,AEK,Xanthi,7,7,False
+G1,1920,2019-08-25,Ionikos,Volos NFC,7,7,False
+G1,1920,2019-08-31,Panathinaikos,OFI Crete,7,7,False
+G1,1920,2019-08-31,Volos NFC,Aris,6,6,False
+G1,1920,2019-08-31,Panetolikos,Xanthi,6,6,False
+G1,1920,2019-09-01,Aris,Olympiakos,1,8,False
+G1,1920,2019-09-01,Lamia,Atromitos,8,7,False
+G1,1920,2019-09-01,Asteras Tripolis,AEK,8,7,False
+G1,1920,2019-09-01,PAOK,Ionikos,7,7,False
+G1,1920,2019-09-14,OFI Crete,Panetolikos,14,14,False
+G1,1920,2019-09-14,Olympiakos,Volos NFC,13,14,False
+G1,1920,2019-09-14,Atromitos,PAOK,13,13,False
+G1,1920,2019-09-15,AEK,Lamia,14,14,False
+G1,1920,2019-09-15,Ionikos,Aris,14,14,False
+G1,1920,2019-09-15,Aris,Panathinaikos,14,15,False
+G1,1920,2019-09-15,Xanthi,Asteras Tripolis,15,14,False
+G1,1920,2019-09-21,Panetolikos,AEK,7,6,False
+G1,1920,2019-09-21,Asteras Tripolis,Atromitos,6,7,False
+G1,1920,2019-09-21,Volos NFC,OFI Crete,7,7,False
+G1,1920,2019-09-22,Panathinaikos,Olympiakos,7,8,False
+G1,1920,2019-09-22,PAOK,Aris,8,7,False
+G1,1920,2019-09-22,Aris,Xanthi,7,7,False
+G1,1920,2019-09-22,Lamia,Ionikos,7,7,False
+G1,1920,2019-09-28,Olympiakos,Lamia,6,6,False
+G1,1920,2019-09-28,Aris,Aris,6,6,False
+G1,1920,2019-09-28,Atromitos,Panetolikos,7,7,False
+G1,1920,2019-09-29,Xanthi,Volos NFC,7,8,False
+G1,1920,2019-09-29,Ionikos,Panathinaikos,7,7,False
+G1,1920,2019-09-29,AEK,PAOK,8,7,False
+G1,1920,2019-09-29,OFI Crete,Asteras Tripolis,8,8,False
+G1,1920,2019-10-05,Aris,AEK,7,6,False
+G1,1920,2019-10-05,Panathinaikos,Xanthi,6,6,False
+G1,1920,2019-10-06,Asteras Tripolis,PAOK,7,7,False
+G1,1920,2019-10-06,OFI Crete,Ionikos,7,7,False
+G1,1920,2019-10-06,Aris,Olympiakos,1,8,False
+G1,1920,2019-10-06,Volos NFC,Atromitos,7,8,False
+G1,1920,2019-10-07,Lamia,Panetolikos,9,9,False
+G1,1920,2019-10-19,Panetolikos,Aris,12,13,False
+G1,1920,2019-10-19,Olympiakos,OFI Crete,13,13,False
+G1,1920,2019-10-20,Ionikos,Asteras Tripolis,14,14,False
+G1,1920,2019-10-20,PAOK,Lamia,14,13,False
+G1,1920,2019-10-20,AEK,Volos NFC,15,14,False
+G1,1920,2019-10-20,Atromitos,Panathinaikos,14,15,False
+G1,1920,2019-10-20,Xanthi,Aris,15,1,False
+G1,1920,2019-10-26,Volos NFC,PAOK,6,6,False
+G1,1920,2019-10-26,OFI Crete,Xanthi,7,6,False
+G1,1920,2019-10-27,Panathinaikos,Aris,7,7,False
+G1,1920,2019-10-27,Aris,Panetolikos,7,8,False
+G1,1920,2019-10-27,Olympiakos,AEK,8,7,False
+G1,1920,2019-10-27,Atromitos,Ionikos,7,7,False
+G1,1920,2019-10-28,Asteras Tripolis,Lamia,8,8,False
+G1,1920,2019-11-02,Xanthi,Olympiakos,7,6,False
+G1,1920,2019-11-02,Ionikos,Aris,6,6,False
+G1,1920,2019-11-03,AEK,Atromitos,7,7,False
+G1,1920,2019-11-03,Aris,OFI Crete,1,8,False
+G1,1920,2019-11-03,Panetolikos,Asteras Tripolis,7,6,False
+G1,1920,2019-11-03,PAOK,Panathinaikos,8,7,False
+G1,1920,2019-11-04,Lamia,Volos NFC,7,9,False
+G1,1920,2019-11-09,OFI Crete,PAOK,6,6,False
+G1,1920,2019-11-09,Volos NFC,Panetolikos,5,6,False
+G1,1920,2019-11-10,Xanthi,Ionikos,8,8,False
+G1,1920,2019-11-10,Olympiakos,Atromitos,8,7,False
+G1,1920,2019-11-10,Panathinaikos,AEK,7,7,False
+G1,1920,2019-11-10,Aris,Asteras Tripolis,7,7,False
+G1,1920,2019-11-11,Aris,Lamia,1,7,False
+G1,1920,2019-11-23,Lamia,Xanthi,12,13,False
+G1,1920,2019-11-23,Ionikos,Olympiakos,13,13,False
+G1,1920,2019-11-24,Asteras Tripolis,Volos NFC,14,15,False
+G1,1920,2019-11-24,PAOK,Aris,15,13,False
+G1,1920,2019-11-24,AEK,Aris,14,13,False
+G1,1920,2019-11-24,Panetolikos,Panathinaikos,15,14,False
+G1,1920,2019-11-24,Atromitos,OFI Crete,14,15,False
+G1,1920,2019-11-30,Ionikos,Panetolikos,7,6,False
+G1,1920,2019-11-30,OFI Crete,AEK,6,6,False
+G1,1920,2019-11-30,Aris,Volos NFC,6,6,False
+G1,1920,2019-12-01,Aris,Lamia,1,8,False
+G1,1920,2019-12-01,Xanthi,Atromitos,8,7,False
+G1,1920,2019-12-01,Olympiakos,PAOK,8,7,False
+G1,1920,2019-12-01,Panathinaikos,Asteras Tripolis,7,7,False
+G1,1920,2019-12-07,Panetolikos,Olympiakos,7,6,False
+G1,1920,2019-12-07,AEK,Ionikos,7,7,False
+G1,1920,2019-12-07,PAOK,Xanthi,6,6,False
+G1,1920,2019-12-08,Volos NFC,Panathinaikos,8,7,False
+G1,1920,2019-12-08,Asteras Tripolis,Aris,7,7,False
+G1,1920,2019-12-08,Lamia,OFI Crete,7,8,False
+G1,1920,2019-12-08,Atromitos,Aris,7,7,False
+G1,1920,2019-12-14,OFI Crete,Aris,6,6,False
+G1,1920,2019-12-14,Panathinaikos,Lamia,6,6,False
+G1,1920,2019-12-14,Xanthi,AEK,7,7,False
+G1,1920,2019-12-15,Volos NFC,Ionikos,7,8,False
+G1,1920,2019-12-15,Asteras Tripolis,Olympiakos,7,8,False
+G1,1920,2019-12-15,Panetolikos,PAOK,8,8,False
+G1,1920,2019-12-15,Aris,Atromitos,1,7,False
+G1,1920,2019-12-18,OFI Crete,Panathinaikos,4,4,True
+G1,1920,2019-12-18,Olympiakos,Aris,3,3,True
+G1,1920,2019-12-18,AEK,Asteras Tripolis,4,3,True
+G1,1920,2019-12-18,Atromitos,Lamia,3,4,True
+G1,1920,2019-12-18,Xanthi,Panetolikos,4,3,True
+G1,1920,2019-12-19,Ionikos,PAOK,4,4,True
+G1,1920,2019-12-19,Aris,Volos NFC,1,4,True
+G1,1920,2019-12-21,Lamia,AEK,3,3,False
+G1,1920,2019-12-21,Asteras Tripolis,Xanthi,3,3,False
+G1,1920,2019-12-22,Panetolikos,OFI Crete,4,4,False
+G1,1920,2019-12-22,Volos NFC,Olympiakos,3,4,False
+G1,1920,2019-12-22,Panathinaikos,Aris,4,3,False
+G1,1920,2019-12-22,Aris,Ionikos,3,3,False
+G1,1920,2019-12-23,PAOK,Atromitos,4,5,False
+G1,1920,2020-01-04,Aris,PAOK,13,12,False
+G1,1920,2020-01-04,Atromitos,Asteras Tripolis,12,14,False
+G1,1920,2020-01-04,OFI Crete,Volos NFC,13,13,False
+G1,1920,2020-01-05,Ionikos,Lamia,14,15,False
+G1,1920,2020-01-05,Xanthi,Aris,15,1,False
+G1,1920,2020-01-05,Olympiakos,Panathinaikos,14,14,False
+G1,1920,2020-01-05,AEK,Panetolikos,15,14,False
+G1,1920,2020-01-11,Panetolikos,Atromitos,6,7,False
+G1,1920,2020-01-11,Volos NFC,Xanthi,7,6,False
+G1,1920,2020-01-11,Aris,Aris,6,6,False
+G1,1920,2020-01-12,PAOK,AEK,8,7,False
+G1,1920,2020-01-12,Panathinaikos,Ionikos,7,7,False
+G1,1920,2020-01-12,Lamia,Olympiakos,7,7,False
+G1,1920,2020-01-12,Asteras Tripolis,OFI Crete,8,8,False
+G1,1920,2020-01-18,Ionikos,OFI Crete,6,6,False
+G1,1920,2020-01-18,Panetolikos,Lamia,7,6,False
+G1,1920,2020-01-19,PAOK,Asteras Tripolis,7,7,False
+G1,1920,2020-01-19,Olympiakos,Aris,7,8,False
+G1,1920,2020-01-19,Xanthi,Panathinaikos,8,7,False
+G1,1920,2020-01-19,Atromitos,Volos NFC,8,8,False
+G1,1920,2020-01-19,AEK,Aris,7,8,False
+G1,1920,2020-01-22,OFI Crete,Olympiakos,4,3,True
+G1,1920,2020-01-22,Volos NFC,AEK,3,3,True
+G1,1920,2020-01-22,Panathinaikos,Atromitos,3,3,True
+G1,1920,2020-01-22,Aris,Panetolikos,3,4,True
+G1,1920,2020-01-23,Aris,Xanthi,1,4,True
+G1,1920,2020-01-23,Asteras Tripolis,Ionikos,4,5,True
+G1,1920,2020-01-23,Lamia,PAOK,5,4,True
+G1,1920,2020-01-25,Aris,Panathinaikos,2,3,False
+G1,1920,2020-01-26,Ionikos,Atromitos,3,4,False
+G1,1920,2020-01-26,Panetolikos,Aris,4,1,False
+G1,1920,2020-01-26,AEK,Olympiakos,4,4,False
+G1,1920,2020-01-26,Xanthi,OFI Crete,3,4,False
+G1,1920,2020-01-27,Lamia,Asteras Tripolis,4,4,False
+G1,1920,2020-01-27,PAOK,Volos NFC,4,5,False
+G1,1920,2020-02-01,OFI Crete,Aris,6,6,False
+G1,1920,2020-02-01,Volos NFC,Lamia,5,5,False
+G1,1920,2020-02-01,Olympiakos,Xanthi,6,6,False
+G1,1920,2020-02-02,Panathinaikos,PAOK,8,6,False
+G1,1920,2020-02-02,Aris,Ionikos,1,7,False
+G1,1920,2020-02-02,Asteras Tripolis,Panetolikos,6,7,False
+G1,1920,2020-02-02,Atromitos,AEK,7,7,False
+G1,1920,2020-02-08,Lamia,Aris,7,6,False
+G1,1920,2020-02-08,Ionikos,Xanthi,6,7,False
+G1,1920,2020-02-09,Atromitos,Olympiakos,7,8,False
+G1,1920,2020-02-09,PAOK,OFI Crete,7,8,False
+G1,1920,2020-02-09,AEK,Panathinaikos,7,7,False
+G1,1920,2020-02-09,Asteras Tripolis,Aris,7,1,False
+G1,1920,2020-02-10,Panetolikos,Volos NFC,8,9,False
+G1,1920,2020-02-15,Olympiakos,Ionikos,6,7,False
+G1,1920,2020-02-15,Aris,PAOK,6,6,False
+G1,1920,2020-02-16,Volos NFC,Asteras Tripolis,6,7,False
+G1,1920,2020-02-16,Xanthi,Lamia,8,8,False
+G1,1920,2020-02-16,Aris,AEK,1,7,False
+G1,1920,2020-02-16,Panathinaikos,Panetolikos,7,6,False
+G1,1920,2020-02-17,OFI Crete,Atromitos,8,8,False
+G1,1920,2020-02-22,Lamia,Aris,6,6,False
+G1,1920,2020-02-22,Asteras Tripolis,Panathinaikos,6,6,False
+G1,1920,2020-02-23,Atromitos,Xanthi,6,7,False
+G1,1920,2020-02-23,Volos NFC,Aris,7,1,False
+G1,1920,2020-02-23,AEK,OFI Crete,7,6,False
+G1,1920,2020-02-23,PAOK,Olympiakos,8,8,False
+G1,1920,2020-02-23,Panetolikos,Ionikos,7,8,False
+G1,1920,2020-03-01,Aris,Asteras Tripolis,7,8,False
+G1,1920,2020-03-01,OFI Crete,Lamia,7,8,False
+G1,1920,2020-03-01,Olympiakos,Panetolikos,7,7,False
+G1,1920,2020-03-01,Panathinaikos,Volos NFC,8,7,False
+G1,1920,2020-03-01,Ionikos,AEK,7,7,False
+G1,1920,2020-03-01,Xanthi,PAOK,7,7,False
+G1,1920,2020-03-01,Aris,Atromitos,7,7,False
+G1,1920,2020-06-06,Ionikos,Volos NFC,97,97,False
+G1,1920,2020-06-06,Aris,OFI Crete,97,97,False
+G1,1920,2020-06-07,AEK,Panathinaikos,98,98,False
+G1,1920,2020-06-07,Aris,Asteras Tripolis,1,98,False
+G1,1920,2020-06-07,PAOK,Olympiakos,98,98,False
+G1,1920,2020-06-08,Lamia,Panetolikos,99,99,False
+G1,1920,2020-06-13,Atromitos,Lamia,104,5,False
+G1,1920,2020-06-13,Panathinaikos,PAOK,6,6,False
+G1,1920,2020-06-13,Volos NFC,Xanthi,7,104,False
+G1,1920,2020-06-14,Olympiakos,Aris,7,7,False
+G1,1920,2020-06-14,OFI Crete,AEK,8,7,False
+G1,1920,2020-06-15,Panetolikos,Aris,7,1,False
+G1,1920,2020-06-15,Asteras Tripolis,Ionikos,8,9,False
+G1,1920,2020-06-20,AEK,Aris,6,5,False
+G1,1920,2020-06-20,PAOK,OFI Crete,7,6,False
+G1,1920,2020-06-21,Xanthi,Panetolikos,8,6,False
+G1,1920,2020-06-21,Olympiakos,Panathinaikos,7,8,False
+G1,1920,2020-06-21,Asteras Tripolis,Atromitos,6,8,False
+G1,1920,2020-06-22,Lamia,Ionikos,9,7,False
+G1,1920,2020-06-22,Aris,Volos NFC,2,9,False
+G1,1920,2020-06-24,Xanthi,Atromitos,3,3,True
+G1,1920,2020-06-27,OFI Crete,Panathinaikos,7,6,False
+G1,1920,2020-06-27,Ionikos,Xanthi,5,3,False
+G1,1920,2020-06-28,Panetolikos,Asteras Tripolis,7,7,False
+G1,1920,2020-06-28,AEK,Olympiakos,8,7,False
+G1,1920,2020-06-28,Aris,PAOK,6,8,False
+G1,1920,2020-06-29,Atromitos,Aris,5,1,False
+G1,1920,2020-06-29,Volos NFC,Lamia,7,7,False
+G1,1920,2020-07-01,Panathinaikos,Aris,4,2,True
+G1,1920,2020-07-01,PAOK,AEK,3,3,True
+G1,1920,2020-07-01,Olympiakos,OFI Crete,3,4,True
+G1,1920,2020-07-04,Asteras Tripolis,Volos NFC,6,5,False
+G1,1920,2020-07-04,OFI Crete,PAOK,3,3,False
+G1,1920,2020-07-05,Panathinaikos,Olympiakos,4,4,False
+G1,1920,2020-07-05,Aris,AEK,4,4,False
+G1,1920,2020-07-06,Aris,Ionikos,1,9,False
+G1,1920,2020-07-06,Atromitos,Panetolikos,7,8,False
+G1,1920,2020-07-06,Lamia,Xanthi,7,9,False
+G1,1920,2020-07-08,PAOK,Panathinaikos,4,3,True
+G1,1920,2020-07-08,AEK,OFI Crete,3,4,True
+G1,1920,2020-07-08,Aris,Olympiakos,2,3,True
+G1,1920,2020-07-11,Ionikos,Panetolikos,5,5,False
+G1,1920,2020-07-11,Volos NFC,Atromitos,7,5,False
+G1,1920,2020-07-11,Xanthi,Asteras Tripolis,5,7,False
+G1,1920,2020-07-11,OFI Crete,Aris,3,3,False
+G1,1920,2020-07-11,Lamia,Aris,5,3,False
+G1,1920,2020-07-12,Olympiakos,PAOK,4,4,False
+G1,1920,2020-07-12,Panathinaikos,AEK,4,4,False
+G1,1920,2020-07-15,OFI Crete,Olympiakos,4,3,True
+G1,1920,2020-07-15,AEK,PAOK,3,3,True
+G1,1920,2020-07-15,Aris,Panathinaikos,4,3,True
+G1,1920,2020-07-18,Aris,Xanthi,3,7,False
+G1,1920,2020-07-18,Panetolikos,Volos NFC,7,7,False
+G1,1920,2020-07-18,Asteras Tripolis,Lamia,7,7,False
+G1,1920,2020-07-18,Atromitos,Ionikos,7,7,False
+G1,1920,2020-07-19,Olympiakos,AEK,4,4,False
+G1,1920,2020-07-19,Panathinaikos,OFI Crete,4,4,False
+G1,1920,2020-07-19,PAOK,Aris,4,1,False

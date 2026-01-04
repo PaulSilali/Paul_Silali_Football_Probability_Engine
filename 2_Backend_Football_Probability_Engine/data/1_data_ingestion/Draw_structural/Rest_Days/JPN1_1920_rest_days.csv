@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+JPN1,1920,2019-02-22,Júbilo Iwata,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,FC Tokyo,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Cerezo Osaka,Shimizu S-Pulse,7,7,False
+JPN1,1920,2019-02-22,FC Tokyo,Urawa Red Diamonds,7,7,False
+JPN1,1920,2019-02-22,Gamba Osaka,Matsumoto Yamaga,7,7,False
+JPN1,1920,2019-02-22,Júbilo Iwata,Nagoya Grampus,7,7,False
+JPN1,1920,2019-02-22,Kashima Antlers,Vissel Kobe,7,7,False
+JPN1,1920,2019-02-22,Kawasaki Frontale,Yokohama F. Marinos,7,7,False
+JPN1,1920,2019-02-22,Sagan Tosu,Hokkaido Consadole Sapporo,7,7,False
+JPN1,1920,2019-02-22,Shonan Bellmare,Sanfrecce Hiroshima,7,7,False
+JPN1,1920,2019-02-22,Vegalta Sendai,Oita Trinita,7,7,False
+JPN1,1920,2019-02-22,Hokkaido Consadole Sapporo,Kawasaki Frontale,7,7,False
+JPN1,1920,2019-02-22,Matsumoto Yamaga,Shonan Bellmare,7,7,False
+JPN1,1920,2019-02-22,Nagoya Grampus,Kashima Antlers,7,7,False
+JPN1,1920,2019-02-22,Oita Trinita,Cerezo Osaka,7,7,False
+JPN1,1920,2019-02-22,Sanfrecce Hiroshima,Vegalta Sendai,7,7,False
+JPN1,1920,2019-02-22,Shimizu S-Pulse,Sagan Tosu,7,7,False
+JPN1,1920,2019-02-22,Urawa Red Diamonds,Gamba Osaka,7,7,False
+JPN1,1920,2019-02-22,Vissel Kobe,Júbilo Iwata,7,7,False
+JPN1,1920,2019-02-22,Yokohama F. Marinos,FC Tokyo,7,7,False

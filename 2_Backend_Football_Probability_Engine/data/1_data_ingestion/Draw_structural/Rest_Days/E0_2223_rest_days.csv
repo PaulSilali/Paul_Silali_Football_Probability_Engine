@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E0,2223,2022-08-05,Crystal Palace,Arsenal,75,75,False
+E0,2223,2022-08-06,Fulham,Liverpool,440,76,False
+E0,2223,2022-08-06,Bournemouth,Aston Villa,741,76,False
+E0,2223,2022-08-06,Leeds,Wolves,76,76,False
+E0,2223,2022-08-06,Newcastle,Nott'm Forest,76,7,False
+E0,2223,2022-08-06,Tottenham,Southampton,76,76,False
+E0,2223,2022-08-06,Everton,Chelsea,76,76,False
+E0,2223,2022-08-07,Leicester,Brentford,77,77,False
+E0,2223,2022-08-07,Man United,Brighton,77,77,False
+E0,2223,2022-08-07,West Ham,Man United,77,77,False
+E0,2223,2022-08-13,Aston Villa,Everton,7,7,False
+E0,2223,2022-08-13,Arsenal,Leicester,8,6,False
+E0,2223,2022-08-13,Brighton,Newcastle,6,7,False
+E0,2223,2022-08-13,Man United,Bournemouth,6,7,False
+E0,2223,2022-08-13,Southampton,Leeds,7,7,False
+E0,2223,2022-08-13,Wolves,Fulham,7,7,False
+E0,2223,2022-08-13,Brentford,Man United,6,6,False
+E0,2223,2022-08-14,Nott'm Forest,West Ham,8,7,False
+E0,2223,2022-08-14,Chelsea,Tottenham,8,8,False
+E0,2223,2022-08-15,Liverpool,Crystal Palace,9,10,False
+E0,2223,2022-08-20,Tottenham,Wolves,6,7,False
+E0,2223,2022-08-20,Crystal Palace,Aston Villa,5,7,False
+E0,2223,2022-08-20,Everton,Nott'm Forest,7,6,False
+E0,2223,2022-08-20,Fulham,Brentford,7,7,False
+E0,2223,2022-08-20,Leicester,Southampton,7,7,False
+E0,2223,2022-08-20,Bournemouth,Arsenal,7,7,False
+E0,2223,2022-08-21,Leeds,Chelsea,8,7,False
+E0,2223,2022-08-21,West Ham,Brighton,7,8,False
+E0,2223,2022-08-21,Newcastle,Man United,8,8,False
+E0,2223,2022-08-22,Man United,Liverpool,1,7,False
+E0,2223,2022-08-27,Southampton,Man United,7,5,False
+E0,2223,2022-08-27,Brentford,Everton,7,7,False
+E0,2223,2022-08-27,Brighton,Leeds,6,6,False
+E0,2223,2022-08-27,Chelsea,Leicester,6,7,False
+E0,2223,2022-08-27,Liverpool,Bournemouth,5,7,False
+E0,2223,2022-08-27,Man United,Crystal Palace,5,7,False
+E0,2223,2022-08-27,Arsenal,Fulham,7,7,False
+E0,2223,2022-08-28,Aston Villa,West Ham,8,7,False
+E0,2223,2022-08-28,Wolves,Newcastle,8,7,False
+E0,2223,2022-08-28,Nott'm Forest,Tottenham,8,8,False
+E0,2223,2022-08-30,Crystal Palace,Brentford,3,3,True
+E0,2223,2022-08-30,Fulham,Brighton,3,3,True
+E0,2223,2022-08-30,Southampton,Chelsea,3,3,True
+E0,2223,2022-08-30,Leeds,Everton,3,3,True
+E0,2223,2022-08-31,Arsenal,Aston Villa,4,3,True
+E0,2223,2022-08-31,Bournemouth,Wolves,4,3,True
+E0,2223,2022-08-31,Man United,Nott'm Forest,4,3,True
+E0,2223,2022-08-31,West Ham,Tottenham,3,3,True
+E0,2223,2022-08-31,Liverpool,Newcastle,4,3,True
+E0,2223,2022-09-01,Leicester,Man United,5,1,True
+E0,2223,2022-09-03,Everton,Liverpool,4,3,False
+E0,2223,2022-09-03,Brentford,Leeds,4,4,False
+E0,2223,2022-09-03,Chelsea,West Ham,4,3,False
+E0,2223,2022-09-03,Newcastle,Crystal Palace,3,4,False
+E0,2223,2022-09-03,Nott'm Forest,Bournemouth,3,3,False
+E0,2223,2022-09-03,Tottenham,Fulham,3,4,False
+E0,2223,2022-09-03,Wolves,Southampton,3,4,False
+E0,2223,2022-09-03,Aston Villa,Man United,3,2,False
+E0,2223,2022-09-04,Brighton,Leicester,5,3,False
+E0,2223,2022-09-04,Man United,Arsenal,1,4,False
+E0,2223,2022-09-16,Aston Villa,Southampton,13,13,False
+E0,2223,2022-09-16,Nott'm Forest,Fulham,13,13,False
+E0,2223,2022-09-17,Wolves,Man United,14,13,False
+E0,2223,2022-09-17,Newcastle,Bournemouth,14,14,False
+E0,2223,2022-09-17,Tottenham,Leicester,14,13,False
+E0,2223,2022-09-18,Brentford,Arsenal,15,14,False
+E0,2223,2022-09-18,Everton,West Ham,15,15,False
+E0,2223,2022-10-01,Arsenal,Tottenham,13,14,False
+E0,2223,2022-10-01,Bournemouth,Brentford,14,13,False
+E0,2223,2022-10-01,Crystal Palace,Chelsea,28,28,False
+E0,2223,2022-10-01,Fulham,Newcastle,15,14,False
+E0,2223,2022-10-01,Liverpool,Brighton,28,27,False
+E0,2223,2022-10-01,Southampton,Everton,15,13,False
+E0,2223,2022-10-01,West Ham,Wolves,13,14,False
+E0,2223,2022-10-02,Man United,Man United,15,15,False
+E0,2223,2022-10-02,Leeds,Aston Villa,29,16,False
+E0,2223,2022-10-03,Leicester,Nott'm Forest,16,17,False
+E0,2223,2022-10-08,Bournemouth,Leicester,7,5,False
+E0,2223,2022-10-08,Chelsea,Wolves,7,7,False
+E0,2223,2022-10-08,Man United,Southampton,6,7,False
+E0,2223,2022-10-08,Newcastle,Brentford,7,7,False
+E0,2223,2022-10-08,Brighton,Tottenham,7,7,False
+E0,2223,2022-10-09,Crystal Palace,Leeds,8,7,False
+E0,2223,2022-10-09,West Ham,Fulham,8,8,False
+E0,2223,2022-10-09,Arsenal,Liverpool,8,8,False
+E0,2223,2022-10-09,Everton,Man United,8,1,False
+E0,2223,2022-10-10,Nott'm Forest,Aston Villa,7,8,False
+E0,2223,2022-10-14,Brentford,Brighton,6,6,False
+E0,2223,2022-10-15,Leicester,Crystal Palace,7,6,False
+E0,2223,2022-10-15,Fulham,Bournemouth,6,7,False
+E0,2223,2022-10-15,Wolves,Nott'm Forest,7,5,False
+E0,2223,2022-10-15,Tottenham,Everton,7,6,False
+E0,2223,2022-10-16,Aston Villa,Chelsea,6,8,False
+E0,2223,2022-10-16,Leeds,Arsenal,7,7,False
+E0,2223,2022-10-16,Man United,Newcastle,7,8,False
+E0,2223,2022-10-16,Southampton,West Ham,8,7,False
+E0,2223,2022-10-16,Liverpool,Man United,7,7,False
+E0,2223,2022-10-18,Brighton,Nott'm Forest,4,3,True
+E0,2223,2022-10-18,Crystal Palace,Wolves,3,3,True
+E0,2223,2022-10-19,Bournemouth,Southampton,4,3,True
+E0,2223,2022-10-19,Brentford,Chelsea,5,3,True
+E0,2223,2022-10-19,Liverpool,West Ham,3,3,True
+E0,2223,2022-10-19,Newcastle,Everton,3,4,True
+E0,2223,2022-10-19,Man United,Tottenham,3,4,True
+E0,2223,2022-10-20,Fulham,Aston Villa,5,4,True
+E0,2223,2022-10-20,Leicester,Leeds,5,4,True
+E0,2223,2022-10-22,Nott'm Forest,Liverpool,4,3,False
+E0,2223,2022-10-22,Everton,Crystal Palace,3,4,False
+E0,2223,2022-10-22,Man United,Brighton,3,4,False
+E0,2223,2022-10-22,Chelsea,Man United,3,3,False
+E0,2223,2022-10-23,Aston Villa,Brentford,3,4,False
+E0,2223,2022-10-23,Leeds,Fulham,3,3,False
+E0,2223,2022-10-23,Southampton,Arsenal,4,7,False
+E0,2223,2022-10-23,Wolves,Leicester,5,3,False
+E0,2223,2022-10-23,Tottenham,Newcastle,4,4,False
+E0,2223,2022-10-24,West Ham,Bournemouth,5,5,False
+E0,2223,2022-10-29,Leicester,Man United,6,7,False
+E0,2223,2022-10-29,Bournemouth,Tottenham,5,6,False
+E0,2223,2022-10-29,Brentford,Wolves,6,6,False
+E0,2223,2022-10-29,Brighton,Chelsea,7,7,False
+E0,2223,2022-10-29,Crystal Palace,Southampton,7,6,False
+E0,2223,2022-10-29,Newcastle,Aston Villa,6,6,False
+E0,2223,2022-10-29,Fulham,Everton,6,7,False
+E0,2223,2022-10-29,Liverpool,Leeds,7,6,False
+E0,2223,2022-10-30,Arsenal,Nott'm Forest,7,8,False
+E0,2223,2022-10-30,Man United,West Ham,1,6,False
+E0,2223,2022-11-05,Leeds,Bournemouth,7,7,False
+E0,2223,2022-11-05,Man United,Fulham,6,7,False
+E0,2223,2022-11-05,Nott'm Forest,Brentford,6,7,False
+E0,2223,2022-11-05,Wolves,Brighton,7,7,False
+E0,2223,2022-11-05,Everton,Leicester,7,7,False
+E0,2223,2022-11-06,Chelsea,Arsenal,8,7,False
+E0,2223,2022-11-06,Aston Villa,Man United,8,1,False
+E0,2223,2022-11-06,Southampton,Newcastle,8,8,False
+E0,2223,2022-11-06,West Ham,Crystal Palace,7,8,False
+E0,2223,2022-11-06,Tottenham,Liverpool,8,8,False
+E0,2223,2022-11-12,Man United,Brentford,6,7,False
+E0,2223,2022-11-12,Bournemouth,Everton,7,7,False
+E0,2223,2022-11-12,Liverpool,Southampton,6,6,False
+E0,2223,2022-11-12,Nott'm Forest,Crystal Palace,7,6,False
+E0,2223,2022-11-12,Tottenham,Leeds,6,7,False
+E0,2223,2022-11-12,West Ham,Leicester,6,7,False
+E0,2223,2022-11-12,Newcastle,Chelsea,6,6,False
+E0,2223,2022-11-12,Wolves,Arsenal,7,6,False
+E0,2223,2022-11-13,Brighton,Aston Villa,8,7,False
+E0,2223,2022-11-13,Fulham,Man United,8,1,False
+E0,2223,2022-12-26,Brentford,Tottenham,44,44,False
+E0,2223,2022-12-26,Crystal Palace,Fulham,44,43,False
+E0,2223,2022-12-26,Everton,Wolves,44,44,False
+E0,2223,2022-12-26,Leicester,Newcastle,44,44,False
+E0,2223,2022-12-26,Southampton,Brighton,44,43,False
+E0,2223,2022-12-26,Aston Villa,Liverpool,43,44,False
+E0,2223,2022-12-26,Arsenal,West Ham,44,44,False
+E0,2223,2022-12-27,Chelsea,Bournemouth,45,45,True
+E0,2223,2022-12-27,Man United,Nott'm Forest,44,45,True
+E0,2223,2022-12-28,Leeds,Man United,46,1,True
+E0,2223,2022-12-30,West Ham,Brentford,4,4,False
+E0,2223,2022-12-30,Liverpool,Leicester,4,4,False
+E0,2223,2022-12-31,Wolves,Man United,5,3,False
+E0,2223,2022-12-31,Bournemouth,Crystal Palace,4,5,False
+E0,2223,2022-12-31,Fulham,Southampton,5,5,False
+E0,2223,2022-12-31,Man United,Everton,3,5,False
+E0,2223,2022-12-31,Newcastle,Leeds,5,3,False
+E0,2223,2022-12-31,Brighton,Arsenal,5,5,False
+E0,2223,2023-01-01,Tottenham,Aston Villa,6,6,False
+E0,2223,2023-01-01,Nott'm Forest,Chelsea,5,5,False
+E0,2223,2023-01-02,Brentford,Liverpool,3,3,False
+E0,2223,2023-01-03,Arsenal,Newcastle,3,3,True
+E0,2223,2023-01-03,Everton,Brighton,3,3,True
+E0,2223,2023-01-03,Leicester,Fulham,4,3,True
+E0,2223,2023-01-03,Man United,Bournemouth,3,3,True
+E0,2223,2023-01-04,Southampton,Nott'm Forest,4,3,True
+E0,2223,2023-01-04,Leeds,West Ham,4,5,True
+E0,2223,2023-01-04,Aston Villa,Wolves,3,4,True
+E0,2223,2023-01-04,Crystal Palace,Tottenham,4,3,True
+E0,2223,2023-01-05,Chelsea,Man United,4,2,True
+E0,2223,2023-01-12,Fulham,Chelsea,9,7,True
+E0,2223,2023-01-13,Aston Villa,Leeds,9,9,False
+E0,2223,2023-01-14,Man United,Man United,9,9,False
+E0,2223,2023-01-14,Brighton,Liverpool,11,12,False
+E0,2223,2023-01-14,Everton,Southampton,11,10,False
+E0,2223,2023-01-14,Nott'm Forest,Leicester,10,11,False
+E0,2223,2023-01-14,Wolves,West Ham,10,10,False
+E0,2223,2023-01-14,Brentford,Bournemouth,12,11,False
+E0,2223,2023-01-15,Chelsea,Crystal Palace,3,11,False
+E0,2223,2023-01-15,Newcastle,Fulham,12,3,False
+E0,2223,2023-01-15,Tottenham,Arsenal,11,12,False
+E0,2223,2023-01-18,Crystal Palace,Man United,3,4,True
+E0,2223,2023-01-19,Man United,Tottenham,1,4,True
+E0,2223,2023-01-21,Liverpool,Chelsea,7,6,False
+E0,2223,2023-01-21,Bournemouth,Nott'm Forest,7,7,False
+E0,2223,2023-01-21,Leicester,Brighton,7,7,False
+E0,2223,2023-01-21,Southampton,Aston Villa,7,8,False
+E0,2223,2023-01-21,West Ham,Everton,7,7,False
+E0,2223,2023-01-21,Crystal Palace,Newcastle,3,6,False
+E0,2223,2023-01-22,Leeds,Brentford,9,8,False
+E0,2223,2023-01-22,Man United,Wolves,3,8,False
+E0,2223,2023-01-22,Arsenal,Man United,7,3,False
+E0,2223,2023-01-23,Fulham,Tottenham,8,4,False
+E0,2223,2023-02-03,Chelsea,Fulham,13,11,False
+E0,2223,2023-02-04,Everton,Arsenal,14,13,False
+E0,2223,2023-02-04,Aston Villa,Leicester,14,14,False
+E0,2223,2023-02-04,Brentford,Southampton,13,14,False
+E0,2223,2023-02-04,Brighton,Bournemouth,14,14,False
+E0,2223,2023-02-04,Man United,Crystal Palace,13,14,False
+E0,2223,2023-02-04,Wolves,Liverpool,13,14,False
+E0,2223,2023-02-04,Newcastle,West Ham,14,14,False
+E0,2223,2023-02-05,Nott'm Forest,Leeds,15,14,False
+E0,2223,2023-02-05,Tottenham,Man United,13,1,False
+E0,2223,2023-02-08,Man United,Leeds,3,3,True
+E0,2223,2023-02-11,West Ham,Chelsea,7,8,False
+E0,2223,2023-02-11,Arsenal,Brentford,7,7,False
+E0,2223,2023-02-11,Crystal Palace,Brighton,7,7,False
+E0,2223,2023-02-11,Fulham,Nott'm Forest,8,6,False
+E0,2223,2023-02-11,Leicester,Tottenham,7,6,False
+E0,2223,2023-02-11,Southampton,Wolves,7,7,False
+E0,2223,2023-02-11,Bournemouth,Newcastle,7,7,False
+E0,2223,2023-02-12,Leeds,Man United,4,4,False
+E0,2223,2023-02-12,Man United,Aston Villa,4,8,False
+E0,2223,2023-02-13,Liverpool,Everton,9,9,False
+E0,2223,2023-02-15,Arsenal,Man United,4,3,True
+E0,2223,2023-02-18,Aston Villa,Arsenal,6,3,False
+E0,2223,2023-02-18,Brentford,Crystal Palace,7,7,False
+E0,2223,2023-02-18,Brighton,Fulham,7,7,False
+E0,2223,2023-02-18,Chelsea,Southampton,7,7,False
+E0,2223,2023-02-18,Everton,Leeds,5,6,False
+E0,2223,2023-02-18,Nott'm Forest,Man United,7,3,False
+E0,2223,2023-02-18,Wolves,Bournemouth,7,7,False
+E0,2223,2023-02-18,Newcastle,Liverpool,7,5,False
+E0,2223,2023-02-19,Man United,Leicester,1,8,False
+E0,2223,2023-02-19,Tottenham,West Ham,8,8,False
+E0,2223,2023-02-24,Fulham,Wolves,6,6,False
+E0,2223,2023-02-25,Everton,Aston Villa,7,7,False
+E0,2223,2023-02-25,Leeds,Southampton,7,7,False
+E0,2223,2023-02-25,Leicester,Arsenal,6,7,False
+E0,2223,2023-02-25,West Ham,Nott'm Forest,6,7,False
+E0,2223,2023-02-25,Bournemouth,Man United,7,6,False
+E0,2223,2023-02-25,Crystal Palace,Liverpool,7,7,False
+E0,2223,2023-02-26,Tottenham,Chelsea,7,8,False
+E0,2223,2023-03-01,Arsenal,Everton,4,4,True
+E0,2223,2023-03-01,Liverpool,Wolves,4,5,True
+E0,2223,2023-03-04,Man United,Newcastle,7,14,False
+E0,2223,2023-03-04,Arsenal,Bournemouth,3,7,False
+E0,2223,2023-03-04,Aston Villa,Crystal Palace,7,7,False
+E0,2223,2023-03-04,Brighton,West Ham,14,7,False
+E0,2223,2023-03-04,Chelsea,Leeds,6,7,False
+E0,2223,2023-03-04,Wolves,Tottenham,3,6,False
+E0,2223,2023-03-04,Southampton,Leicester,7,7,False
+E0,2223,2023-03-05,Nott'm Forest,Everton,8,4,False
+E0,2223,2023-03-05,Liverpool,Man United,4,1,False
+E0,2223,2023-03-06,Brentford,Fulham,16,10,False
+E0,2223,2023-03-11,Bournemouth,Liverpool,7,6,False
+E0,2223,2023-03-11,Everton,Brentford,6,5,False
+E0,2223,2023-03-11,Leeds,Brighton,7,7,False
+E0,2223,2023-03-11,Leicester,Chelsea,7,7,False
+E0,2223,2023-03-11,Tottenham,Nott'm Forest,7,6,False
+E0,2223,2023-03-11,Crystal Palace,Man United,7,6,False
+E0,2223,2023-03-12,Fulham,Arsenal,6,8,False
+E0,2223,2023-03-12,Man United,Southampton,1,8,False
+E0,2223,2023-03-12,West Ham,Aston Villa,8,8,False
+E0,2223,2023-03-12,Newcastle,Wolves,8,8,False
+E0,2223,2023-03-15,Brighton,Crystal Palace,4,4,True
+E0,2223,2023-03-15,Southampton,Brentford,3,4,True
+E0,2223,2023-03-17,Nott'm Forest,Newcastle,6,5,False
+E0,2223,2023-03-18,Aston Villa,Bournemouth,6,7,False
+E0,2223,2023-03-18,Brentford,Leicester,3,7,False
+E0,2223,2023-03-18,Southampton,Tottenham,3,7,False
+E0,2223,2023-03-18,Wolves,Leeds,6,7,False
+E0,2223,2023-03-18,Chelsea,Everton,7,7,False
+E0,2223,2023-03-19,Arsenal,Crystal Palace,7,4,False
+E0,2223,2023-04-01,Man United,Liverpool,20,21,False
+E0,2223,2023-04-01,Arsenal,Leeds,13,14,False
+E0,2223,2023-04-01,Bournemouth,Fulham,14,20,False
+E0,2223,2023-04-01,Brighton,Brentford,17,14,False
+E0,2223,2023-04-01,Crystal Palace,Leicester,13,14,False
+E0,2223,2023-04-01,Nott'm Forest,Wolves,15,14,False
+E0,2223,2023-04-01,Chelsea,Aston Villa,14,14,False
+E0,2223,2023-04-02,West Ham,Southampton,21,15,False
+E0,2223,2023-04-02,Newcastle,Man United,16,1,False
+E0,2223,2023-04-03,Everton,Tottenham,16,16,False
+E0,2223,2023-04-04,Bournemouth,Brighton,3,3,True
+E0,2223,2023-04-04,Leeds,Nott'm Forest,3,3,True
+E0,2223,2023-04-04,Leicester,Aston Villa,3,3,True
+E0,2223,2023-04-04,Chelsea,Liverpool,3,3,True
+E0,2223,2023-04-05,Man United,Brentford,3,4,True
+E0,2223,2023-04-05,West Ham,Newcastle,3,3,True
+E0,2223,2023-04-08,Man United,Everton,3,5,False
+E0,2223,2023-04-08,Aston Villa,Nott'm Forest,4,4,False
+E0,2223,2023-04-08,Brentford,Newcastle,3,3,False
+E0,2223,2023-04-08,Fulham,West Ham,7,3,False
+E0,2223,2023-04-08,Leicester,Bournemouth,4,4,False
+E0,2223,2023-04-08,Tottenham,Brighton,5,4,False
+E0,2223,2023-04-08,Wolves,Chelsea,7,4,False
+E0,2223,2023-04-08,Southampton,Man United,6,3,False
+E0,2223,2023-04-09,Leeds,Crystal Palace,5,8,False
+E0,2223,2023-04-09,Liverpool,Arsenal,5,8,False
+E0,2223,2023-04-15,Aston Villa,Newcastle,7,7,False
+E0,2223,2023-04-15,Chelsea,Brighton,7,7,False
+E0,2223,2023-04-15,Everton,Fulham,7,7,False
+E0,2223,2023-04-15,Southampton,Crystal Palace,7,6,False
+E0,2223,2023-04-15,Tottenham,Bournemouth,7,7,False
+E0,2223,2023-04-15,Wolves,Brentford,7,7,False
+E0,2223,2023-04-15,Man United,Leicester,7,7,False
+E0,2223,2023-04-16,West Ham,Arsenal,8,7,False
+E0,2223,2023-04-16,Nott'm Forest,Man United,8,1,False
+E0,2223,2023-04-17,Leeds,Liverpool,8,8,False
+E0,2223,2023-04-21,Arsenal,Southampton,5,6,False
+E0,2223,2023-04-22,Fulham,Leeds,7,5,False
+E0,2223,2023-04-22,Brentford,Aston Villa,7,7,False
+E0,2223,2023-04-22,Crystal Palace,Everton,7,7,False
+E0,2223,2023-04-22,Leicester,Wolves,7,7,False
+E0,2223,2023-04-22,Liverpool,Nott'm Forest,5,6,False
+E0,2223,2023-04-23,Bournemouth,West Ham,8,7,False
+E0,2223,2023-04-23,Newcastle,Tottenham,8,8,False
+E0,2223,2023-04-25,Wolves,Crystal Palace,3,3,True
+E0,2223,2023-04-25,Aston Villa,Fulham,3,3,True
+E0,2223,2023-04-25,Leeds,Leicester,3,3,True
+E0,2223,2023-04-26,Nott'm Forest,Brighton,4,11,True
+E0,2223,2023-04-26,Chelsea,Brentford,11,4,True
+E0,2223,2023-04-26,West Ham,Liverpool,3,4,True
+E0,2223,2023-04-26,Man United,Arsenal,10,5,True
+E0,2223,2023-04-27,Everton,Newcastle,5,4,True
+E0,2223,2023-04-27,Southampton,Bournemouth,6,4,True
+E0,2223,2023-04-27,Tottenham,Man United,4,1,True
+E0,2223,2023-04-29,Crystal Palace,West Ham,4,3,False
+E0,2223,2023-04-29,Brentford,Nott'm Forest,3,3,False
+E0,2223,2023-04-29,Brighton,Wolves,3,4,False
+E0,2223,2023-04-30,Bournemouth,Leeds,3,5,False
+E0,2223,2023-04-30,Fulham,Man United,5,3,False
+E0,2223,2023-04-30,Man United,Aston Villa,3,5,False
+E0,2223,2023-04-30,Newcastle,Southampton,3,3,False
+E0,2223,2023-04-30,Liverpool,Tottenham,4,3,False
+E0,2223,2023-05-01,Leicester,Everton,6,4,False
+E0,2223,2023-05-02,Arsenal,Chelsea,6,6,True
+E0,2223,2023-05-03,Liverpool,Fulham,3,3,True
+E0,2223,2023-05-03,Man United,West Ham,3,4,True
+E0,2223,2023-05-04,Brighton,Man United,5,1,True
+E0,2223,2023-05-06,Bournemouth,Chelsea,6,4,False
+E0,2223,2023-05-06,Man United,Leeds,2,6,False
+E0,2223,2023-05-06,Tottenham,Crystal Palace,6,7,False
+E0,2223,2023-05-06,Wolves,Aston Villa,7,6,False
+E0,2223,2023-05-06,Liverpool,Brentford,3,7,False
+E0,2223,2023-05-07,Newcastle,Arsenal,7,5,False
+E0,2223,2023-05-07,West Ham,Man United,4,1,False
+E0,2223,2023-05-08,Fulham,Leicester,5,7,False
+E0,2223,2023-05-08,Brighton,Everton,4,7,False
+E0,2223,2023-05-08,Nott'm Forest,Southampton,9,8,False
+E0,2223,2023-05-13,Leeds,Newcastle,7,6,False
+E0,2223,2023-05-13,Aston Villa,Tottenham,7,7,False
+E0,2223,2023-05-13,Chelsea,Nott'm Forest,7,5,False
+E0,2223,2023-05-13,Crystal Palace,Bournemouth,7,7,False
+E0,2223,2023-05-13,Man United,Wolves,6,7,False
+E0,2223,2023-05-13,Southampton,Fulham,5,5,False
+E0,2223,2023-05-14,Brentford,West Ham,8,7,False
+E0,2223,2023-05-14,Everton,Man United,6,1,False
+E0,2223,2023-05-14,Arsenal,Brighton,7,6,False
+E0,2223,2023-05-15,Leicester,Liverpool,7,9,False
+E0,2223,2023-05-18,Newcastle,Brighton,5,4,True
+E0,2223,2023-05-20,Tottenham,Brentford,7,6,False
+E0,2223,2023-05-20,Bournemouth,Man United,7,6,False
+E0,2223,2023-05-20,Fulham,Crystal Palace,7,7,False
+E0,2223,2023-05-20,Liverpool,Aston Villa,5,7,False
+E0,2223,2023-05-20,Wolves,Everton,7,6,False
+E0,2223,2023-05-20,Nott'm Forest,Arsenal,7,6,False
+E0,2223,2023-05-21,West Ham,Leeds,7,8,False
+E0,2223,2023-05-21,Brighton,Southampton,3,8,False
+E0,2223,2023-05-21,Man United,Chelsea,1,8,False
+E0,2223,2023-05-22,Newcastle,Leicester,4,7,False
+E0,2223,2023-05-24,Brighton,Man United,3,3,True
+E0,2223,2023-05-25,Man United,Chelsea,1,4,True
+E0,2223,2023-05-28,Arsenal,Wolves,8,8,False
+E0,2223,2023-05-28,Aston Villa,Brighton,8,4,False
+E0,2223,2023-05-28,Brentford,Man United,8,3,False
+E0,2223,2023-05-28,Chelsea,Newcastle,3,6,False
+E0,2223,2023-05-28,Crystal Palace,Nott'm Forest,8,8,False
+E0,2223,2023-05-28,Everton,Bournemouth,8,8,False
+E0,2223,2023-05-28,Leeds,Tottenham,7,8,False
+E0,2223,2023-05-28,Leicester,West Ham,6,7,False
+E0,2223,2023-05-28,Man United,Fulham,3,8,False
+E0,2223,2023-05-28,Southampton,Liverpool,7,8,False

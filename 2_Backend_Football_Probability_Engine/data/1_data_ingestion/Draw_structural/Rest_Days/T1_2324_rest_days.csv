@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+T1,2324,2023-08-11,Trabzonspor,Antalyaspor,66,65,False
+T1,2324,2023-08-12,Pendikspor,Antalyaspor,7,1,False
+T1,2324,2023-08-12,Kasimpasa,Karagumruk,67,66,False
+T1,2324,2023-08-12,Kocaelispor,Galatasaray,67,66,False
+T1,2324,2023-08-12,Antalyaspor,Istanbulspor,1,66,False
+T1,2324,2023-08-13,Ad. Demirspor,Rizespor,67,67,False
+T1,2324,2023-08-13,Samsunspor,Samsunspor,68,68,False
+T1,2324,2023-08-13,Fenerbahce,Gaziantep,67,67,False
+T1,2324,2023-08-14,Antalyaspor,Buyuksehyr,2,69,False
+T1,2324,2023-08-14,Karagumruk,Besiktas,2,68,False
+T1,2324,2023-08-18,Antalyaspor,Antalyaspor,4,4,False
+T1,2324,2023-08-18,Istanbulspor,Kocaelispor,6,6,False
+T1,2324,2023-08-19,Antalyaspor,Kasimpasa,1,7,False
+T1,2324,2023-08-19,Galatasaray,Trabzonspor,7,8,False
+T1,2324,2023-08-19,Rizespor,Antalyaspor,6,1,False
+T1,2324,2023-08-20,Gaziantep,Samsunspor,7,7,False
+T1,2324,2023-08-20,Buyuksehyr,Karagumruk,6,6,False
+T1,2324,2023-08-20,Besiktas,Pendikspor,6,8,False
+T1,2324,2023-08-21,Karagumruk,Ad. Demirspor,1,8,False
+T1,2324,2023-08-21,Samsunspor,Fenerbahce,1,8,False
+T1,2324,2023-08-25,Antalyaspor,Gaziantep,6,5,False
+T1,2324,2023-08-26,Kasimpasa,Pendikspor,7,6,False
+T1,2324,2023-08-26,Trabzonspor,Rizespor,7,7,False
+T1,2324,2023-08-26,Samsunspor,Antalyaspor,5,1,False
+T1,2324,2023-08-27,Kocaelispor,Samsunspor,9,1,False
+T1,2324,2023-08-27,Karagumruk,Karagumruk,6,6,False
+T1,2324,2023-08-27,Antalyaspor,Antalyaspor,1,1,False
+T1,2324,2023-09-01,Kasimpasa,Trabzonspor,6,6,False
+T1,2324,2023-09-01,Rizespor,Karagumruk,6,5,False
+T1,2324,2023-09-02,Antalyaspor,Kocaelispor,6,6,False
+T1,2324,2023-09-02,Gaziantep,Galatasaray,8,14,False
+T1,2324,2023-09-02,Buyuksehyr,Antalyaspor,13,6,False
+T1,2324,2023-09-02,Pendikspor,Antalyaspor,7,6,False
+T1,2324,2023-09-03,Antalyaspor,Ad. Demirspor,1,13,False
+T1,2324,2023-09-03,Karagumruk,Fenerbahce,2,13,False
+T1,2324,2023-09-03,Besiktas,Samsunspor,14,7,False
+T1,2324,2023-09-16,Ad. Demirspor,Pendikspor,13,14,False
+T1,2324,2023-09-16,Galatasaray,Samsunspor,14,13,False
+T1,2324,2023-09-16,Kocaelispor,Gaziantep,14,14,False
+T1,2324,2023-09-16,Antalyaspor,Rizespor,13,15,False
+T1,2324,2023-09-17,Istanbulspor,Buyuksehyr,30,15,False
+T1,2324,2023-09-17,Fenerbahce,Antalyaspor,14,1,False
+T1,2324,2023-09-17,Trabzonspor,Besiktas,16,14,False
+T1,2324,2023-09-17,Antalyaspor,Kasimpasa,1,16,False
+T1,2324,2023-09-18,Samsunspor,Karagumruk,2,15,False
+T1,2324,2023-09-18,Karagumruk,Antalyaspor,15,1,False
+T1,2324,2023-09-22,Gaziantep,Istanbulspor,6,5,False
+T1,2324,2023-09-23,Antalyaspor,Samsunspor,5,5,False
+T1,2324,2023-09-23,Pendikspor,Karagumruk,7,5,False
+T1,2324,2023-09-23,Rizespor,Samsunspor,7,5,False
+T1,2324,2023-09-23,Buyuksehyr,Galatasaray,6,7,False
+T1,2324,2023-09-24,Kasimpasa,Ad. Demirspor,7,8,False
+T1,2324,2023-09-24,Antalyaspor,Fenerbahce,1,7,False
+T1,2324,2023-09-24,Karagumruk,Antalyaspor,1,1,False
+T1,2324,2023-09-24,Besiktas,Kocaelispor,7,8,False
+T1,2324,2023-09-25,Antalyaspor,Trabzonspor,1,8,False
+T1,2324,2023-09-26,Istanbulspor,Galatasaray,4,3,True
+T1,2324,2023-09-27,Ad. Demirspor,Besiktas,3,3,True
+T1,2324,2023-09-28,Fenerbahce,Buyuksehyr,4,5,True
+T1,2324,2023-09-29,Samsunspor,Gaziantep,6,7,False
+T1,2324,2023-09-30,Trabzonspor,Pendikspor,5,7,False
+T1,2324,2023-09-30,Galatasaray,Karagumruk,4,6,False
+T1,2324,2023-09-30,Istanbulspor,Antalyaspor,4,5,False
+T1,2324,2023-09-30,Samsunspor,Antalyaspor,1,5,False
+T1,2324,2023-10-01,Karagumruk,Kasimpasa,1,7,False
+T1,2324,2023-10-01,Fenerbahce,Rizespor,3,8,False
+T1,2324,2023-10-01,Ad. Demirspor,Antalyaspor,4,1,False
+T1,2324,2023-10-01,Antalyaspor,Besiktas,1,4,False
+T1,2324,2023-10-02,Kocaelispor,Buyuksehyr,8,4,False
+T1,2324,2023-10-06,Ad. Demirspor,Trabzonspor,5,6,False
+T1,2324,2023-10-06,Antalyaspor,Karagumruk,5,5,False
+T1,2324,2023-10-07,Buyuksehyr,Gaziantep,5,8,False
+T1,2324,2023-10-07,Pendikspor,Samsunspor,7,7,False
+T1,2324,2023-10-07,Karagumruk,Kocaelispor,1,5,False
+T1,2324,2023-10-07,Antalyaspor,Galatasaray,1,7,False
+T1,2324,2023-10-08,Antalyaspor,Antalyaspor,1,1,False
+T1,2324,2023-10-08,Kasimpasa,Fenerbahce,7,7,False
+T1,2324,2023-10-08,Besiktas,Istanbulspor,7,8,False
+T1,2324,2023-10-08,Rizespor,Samsunspor,7,1,False
+T1,2324,2023-10-21,Antalyaspor,Pendikspor,13,14,False
+T1,2324,2023-10-21,Galatasaray,Besiktas,14,13,False
+T1,2324,2023-10-21,Kocaelispor,Rizespor,14,13,False
+T1,2324,2023-10-21,Gaziantep,Antalyaspor,14,13,False
+T1,2324,2023-10-22,Fenerbahce,Antalyaspor,14,1,False
+T1,2324,2023-10-22,Samsunspor,Buyuksehyr,14,15,False
+T1,2324,2023-10-22,Samsunspor,Kasimpasa,14,14,False
+T1,2324,2023-10-22,Istanbulspor,Karagumruk,14,15,False
+T1,2324,2023-10-23,Karagumruk,Ad. Demirspor,1,17,False
+T1,2324,2023-10-23,Trabzonspor,Antalyaspor,17,1,False
+T1,2324,2023-10-27,Kasimpasa,Istanbulspor,5,5,False
+T1,2324,2023-10-27,Antalyaspor,Kocaelispor,4,6,False
+T1,2324,2023-10-28,Ad. Demirspor,Antalyaspor,5,1,False
+T1,2324,2023-10-28,Antalyaspor,Samsunspor,1,6,False
+T1,2324,2023-10-28,Rizespor,Galatasaray,7,7,False
+T1,2324,2023-10-29,Pendikspor,Fenerbahce,8,7,False
+T1,2324,2023-10-29,Karagumruk,Trabzonspor,6,6,False
+T1,2324,2023-10-29,Karagumruk,Samsunspor,6,1,False
+T1,2324,2023-10-29,Antalyaspor,Buyuksehyr,1,7,False
+T1,2324,2023-10-30,Besiktas,Gaziantep,9,9,False
+T1,2324,2023-11-03,Galatasaray,Kasimpasa,6,7,False
+T1,2324,2023-11-04,Fenerbahce,Trabzonspor,6,6,False
+T1,2324,2023-11-04,Samsunspor,Antalyaspor,6,6,False
+T1,2324,2023-11-04,Istanbulspor,Pendikspor,8,6,False
+T1,2324,2023-11-05,Antalyaspor,Karagumruk,1,7,False
+T1,2324,2023-11-05,Antalyaspor,Besiktas,1,6,False
+T1,2324,2023-11-05,Samsunspor,Ad. Demirspor,1,8,False
+T1,2324,2023-11-05,Buyuksehyr,Karagumruk,7,7,False
+T1,2324,2023-11-06,Gaziantep,Rizespor,7,9,False
+T1,2324,2023-11-06,Kocaelispor,Antalyaspor,10,1,False
+T1,2324,2023-11-08,Samsunspor,Istanbulspor,3,4,True
+T1,2324,2023-11-10,Karagumruk,Antalyaspor,5,4,False
+T1,2324,2023-11-10,Trabzonspor,Antalyaspor,6,4,False
+T1,2324,2023-11-11,Karagumruk,Samsunspor,1,3,False
+T1,2324,2023-11-11,Antalyaspor,Galatasaray,1,8,False
+T1,2324,2023-11-11,Kasimpasa,Kocaelispor,8,5,False
+T1,2324,2023-11-11,Antalyaspor,Gaziantep,1,5,False
+T1,2324,2023-11-12,Rizespor,Istanbulspor,6,4,False
+T1,2324,2023-11-12,Ad. Demirspor,Fenerbahce,7,8,False
+T1,2324,2023-11-12,Besiktas,Buyuksehyr,7,7,False
+T1,2324,2023-11-12,Pendikspor,Samsunspor,8,1,False
+T1,2324,2023-11-25,Galatasaray,Antalyaspor,14,14,False
+T1,2324,2023-11-25,Istanbulspor,Antalyaspor,13,14,False
+T1,2324,2023-11-25,Gaziantep,Karagumruk,14,14,False
+T1,2324,2023-11-25,Antalyaspor,Kasimpasa,14,14,False
+T1,2324,2023-11-26,Samsunspor,Besiktas,14,14,False
+T1,2324,2023-11-26,Fenerbahce,Karagumruk,14,1,False
+T1,2324,2023-11-26,Antalyaspor,Rizespor,1,14,False
+T1,2324,2023-11-26,Kocaelispor,Ad. Demirspor,15,14,False
+T1,2324,2023-11-27,Samsunspor,Trabzonspor,1,17,False
+T1,2324,2023-11-27,Buyuksehyr,Pendikspor,15,15,False
+T1,2324,2023-12-01,Antalyaspor,Antalyaspor,5,5,False
+T1,2324,2023-12-01,Karagumruk,Istanbulspor,5,6,False
+T1,2324,2023-12-02,Ad. Demirspor,Samsunspor,6,5,False
+T1,2324,2023-12-02,Pendikspor,Galatasaray,5,7,False
+T1,2324,2023-12-02,Rizespor,Buyuksehyr,6,5,False
+T1,2324,2023-12-02,Antalyaspor,Antalyaspor,1,1,False
+T1,2324,2023-12-03,Karagumruk,Besiktas,2,7,False
+T1,2324,2023-12-03,Kasimpasa,Gaziantep,8,8,False
+T1,2324,2023-12-03,Trabzonspor,Kocaelispor,6,7,False
+T1,2324,2023-12-04,Fenerbahce,Samsunspor,8,2,False
+T1,2324,2023-12-08,Galatasaray,Ad. Demirspor,6,6,False
+T1,2324,2023-12-09,Antalyaspor,Karagumruk,7,6,False
+T1,2324,2023-12-09,Samsunspor,Kasimpasa,5,6,False
+T1,2324,2023-12-09,Besiktas,Fenerbahce,6,5,False
+T1,2324,2023-12-10,Kocaelispor,Pendikspor,7,8,False
+T1,2324,2023-12-10,Istanbulspor,Antalyaspor,9,1,False
+T1,2324,2023-12-10,Buyuksehyr,Antalyaspor,8,1,False
+T1,2324,2023-12-10,Gaziantep,Trabzonspor,7,7,False
+T1,2324,2023-12-11,Antalyaspor,Samsunspor,1,2,False
+T1,2324,2023-12-11,Karagumruk,Rizespor,2,9,False
+T1,2324,2023-12-19,Istanbulspor,Trabzonspor,9,9,True
+T1,2324,2023-12-19,Gaziantep,Ad. Demirspor,9,11,True
+T1,2324,2023-12-19,Buyuksehyr,Samsunspor,9,8,True
+T1,2324,2023-12-20,Galatasaray,Karagumruk,12,9,True
+T1,2324,2023-12-20,Kocaelispor,Fenerbahce,10,11,True
+T1,2324,2023-12-20,Antalyaspor,Kasimpasa,9,11,True
+T1,2324,2023-12-21,Karagumruk,Antalyaspor,1,1,True
+T1,2324,2023-12-21,Besiktas,Antalyaspor,12,1,True
+T1,2324,2023-12-21,Rizespor,Pendikspor,10,11,True
+T1,2324,2023-12-21,Samsunspor,Antalyaspor,2,1,True
+T1,2324,2023-12-23,Trabzonspor,Buyuksehyr,4,4,False
+T1,2324,2023-12-23,Samsunspor,Istanbulspor,2,4,False
+T1,2324,2023-12-23,Karagumruk,Gaziantep,2,4,False
+T1,2324,2023-12-24,Fenerbahce,Galatasaray,4,4,False
+T1,2324,2023-12-24,Antalyaspor,Kocaelispor,3,4,False
+T1,2324,2023-12-24,Ad. Demirspor,Antalyaspor,5,3,False
+T1,2324,2023-12-25,Pendikspor,Karagumruk,4,2,False
+T1,2324,2023-12-25,Antalyaspor,Besiktas,1,4,False
+T1,2324,2023-12-25,Antalyaspor,Samsunspor,1,2,False
+T1,2324,2023-12-25,Kasimpasa,Rizespor,5,4,False
+T1,2324,2024-01-05,Antalyaspor,Antalyaspor,11,11,False
+T1,2324,2024-01-05,Gaziantep,Pendikspor,13,11,False
+T1,2324,2024-01-05,Besiktas,Kasimpasa,11,11,False
+T1,2324,2024-01-06,Karagumruk,Trabzonspor,12,14,False
+T1,2324,2024-01-06,Samsunspor,Karagumruk,12,12,False
+T1,2324,2024-01-06,Buyuksehyr,Ad. Demirspor,14,13,False
+T1,2324,2024-01-06,Rizespor,Antalyaspor,12,1,False
+T1,2324,2024-01-07,Galatasaray,Antalyaspor,14,1,False
+T1,2324,2024-01-07,Kocaelispor,Samsunspor,14,1,False
+T1,2324,2024-01-07,Istanbulspor,Fenerbahce,15,14,False
+T1,2324,2024-01-09,Kasimpasa,Buyuksehyr,4,3,True
+T1,2324,2024-01-09,Rizespor,Besiktas,3,4,True
+T1,2324,2024-01-09,Antalyaspor,Karagumruk,2,3,True
+T1,2324,2024-01-09,Pendikspor,Antalyaspor,4,2,True
+T1,2324,2024-01-10,Ad. Demirspor,Istanbulspor,4,3,True
+T1,2324,2024-01-10,Fenerbahce,Antalyaspor,3,1,True
+T1,2324,2024-01-10,Antalyaspor,Gaziantep,1,5,True
+T1,2324,2024-01-10,Karagumruk,Kocaelispor,1,3,True
+T1,2324,2024-01-11,Samsunspor,Galatasaray,4,4,True
+T1,2324,2024-01-11,Trabzonspor,Samsunspor,5,4,True
+T1,2324,2024-01-13,Buyuksehyr,Antalyaspor,4,3,False
+T1,2324,2024-01-13,Karagumruk,Kasimpasa,3,4,False
+T1,2324,2024-01-13,Antalyaspor,Pendikspor,3,4,False
+T1,2324,2024-01-13,Besiktas,Karagumruk,4,3,False
+T1,2324,2024-01-13,Rizespor,Ad. Demirspor,4,3,False
+T1,2324,2024-01-14,Antalyaspor,Trabzonspor,1,3,False
+T1,2324,2024-01-14,Gaziantep,Fenerbahce,4,4,False
+T1,2324,2024-01-14,Istanbulspor,Antalyaspor,4,1,False
+T1,2324,2024-01-14,Samsunspor,Samsunspor,3,3,False
+T1,2324,2024-01-15,Galatasaray,Kocaelispor,4,5,False
+T1,2324,2024-01-20,Karagumruk,Buyuksehyr,7,7,False
+T1,2324,2024-01-20,Ad. Demirspor,Karagumruk,7,7,False
+T1,2324,2024-01-20,Pendikspor,Besiktas,7,7,False
+T1,2324,2024-01-20,Kasimpasa,Antalyaspor,7,6,False
+T1,2324,2024-01-20,Antalyaspor,Rizespor,6,7,False
+T1,2324,2024-01-21,Antalyaspor,Antalyaspor,1,1,False
+T1,2324,2024-01-21,Trabzonspor,Galatasaray,7,6,False
+T1,2324,2024-01-21,Samsunspor,Gaziantep,7,7,False
+T1,2324,2024-01-21,Fenerbahce,Samsunspor,7,7,False
+T1,2324,2024-01-22,Kocaelispor,Istanbulspor,7,8,False
+T1,2324,2024-01-23,Pendikspor,Kasimpasa,3,3,True
+T1,2324,2024-01-23,Besiktas,Ad. Demirspor,3,3,True
+T1,2324,2024-01-23,Antalyaspor,Antalyaspor,2,2,True
+T1,2324,2024-01-24,Buyuksehyr,Fenerbahce,4,3,True
+T1,2324,2024-01-24,Karagumruk,Karagumruk,4,4,True
+T1,2324,2024-01-24,Gaziantep,Antalyaspor,3,1,True
+T1,2324,2024-01-24,Antalyaspor,Samsunspor,1,3,True
+T1,2324,2024-01-25,Galatasaray,Istanbulspor,4,3,True
+T1,2324,2024-01-25,Samsunspor,Kocaelispor,1,3,True
+T1,2324,2024-01-25,Rizespor,Trabzonspor,5,4,True
+T1,2324,2024-01-27,Ad. Demirspor,Antalyaspor,4,3,False
+T1,2324,2024-01-27,Antalyaspor,Pendikspor,3,4,False
+T1,2324,2024-01-28,Samsunspor,Besiktas,3,5,False
+T1,2324,2024-01-28,Fenerbahce,Karagumruk,4,4,False
+T1,2324,2024-01-28,Karagumruk,Rizespor,4,3,False
+T1,2324,2024-01-28,Antalyaspor,Buyuksehyr,1,4,False
+T1,2324,2024-01-29,Galatasaray,Gaziantep,4,5,False
+T1,2324,2024-01-29,Trabzonspor,Kasimpasa,4,6,False
+T1,2324,2024-01-29,Istanbulspor,Samsunspor,4,1,False
+T1,2324,2024-01-29,Kocaelispor,Antalyaspor,4,1,False
+T1,2324,2024-02-02,Samsunspor,Galatasaray,4,4,False
+T1,2324,2024-02-02,Karagumruk,Samsunspor,5,4,False
+T1,2324,2024-02-02,Antalyaspor,Karagumruk,4,5,False
+T1,2324,2024-02-03,Antalyaspor,Fenerbahce,1,6,False
+T1,2324,2024-02-03,Gaziantep,Kocaelispor,5,5,False
+T1,2324,2024-02-03,Rizespor,Antalyaspor,6,1,False
+T1,2324,2024-02-03,Buyuksehyr,Istanbulspor,6,5,False
+T1,2324,2024-02-04,Besiktas,Trabzonspor,7,6,False
+T1,2324,2024-02-04,Pendikspor,Ad. Demirspor,8,8,False
+T1,2324,2024-02-04,Kasimpasa,Antalyaspor,6,1,False
+T1,2324,2024-02-09,Ad. Demirspor,Kasimpasa,5,5,False
+T1,2324,2024-02-10,Karagumruk,Pendikspor,8,6,False
+T1,2324,2024-02-10,Galatasaray,Buyuksehyr,8,7,False
+T1,2324,2024-02-11,Istanbulspor,Gaziantep,8,8,False
+T1,2324,2024-02-11,Samsunspor,Rizespor,9,8,False
+T1,2324,2024-02-11,Antalyaspor,Karagumruk,7,1,False
+T1,2324,2024-02-11,Fenerbahce,Antalyaspor,8,7,False
+T1,2324,2024-02-12,Kocaelispor,Besiktas,9,8,False
+T1,2324,2024-02-12,Samsunspor,Antalyaspor,1,1,False
+T1,2324,2024-02-12,Trabzonspor,Antalyaspor,8,1,False
+T1,2324,2024-02-16,Kasimpasa,Karagumruk,7,5,False
+T1,2324,2024-02-17,Rizespor,Fenerbahce,6,6,False
+T1,2324,2024-02-17,Antalyaspor,Samsunspor,5,5,False
+T1,2324,2024-02-17,Antalyaspor,Istanbulspor,5,6,False
+T1,2324,2024-02-18,Pendikspor,Trabzonspor,8,6,False
+T1,2324,2024-02-18,Karagumruk,Galatasaray,2,8,False
+T1,2324,2024-02-18,Antalyaspor,Ad. Demirspor,1,9,False
+T1,2324,2024-02-18,Gaziantep,Samsunspor,7,1,False
+T1,2324,2024-02-19,Besiktas,Antalyaspor,7,1,False
+T1,2324,2024-02-19,Buyuksehyr,Kocaelispor,9,7,False
+T1,2324,2024-02-23,Samsunspor,Rizespor,5,6,False
+T1,2324,2024-02-24,Fenerbahce,Kasimpasa,7,8,False
+T1,2324,2024-02-24,Antalyaspor,Antalyaspor,5,5,False
+T1,2324,2024-02-24,Gaziantep,Buyuksehyr,6,5,False
+T1,2324,2024-02-24,Kocaelispor,Karagumruk,5,6,False
+T1,2324,2024-02-25,Trabzonspor,Ad. Demirspor,7,7,False
+T1,2324,2024-02-25,Istanbulspor,Besiktas,8,6,False
+T1,2324,2024-02-25,Samsunspor,Pendikspor,2,7,False
+T1,2324,2024-02-25,Karagumruk,Antalyaspor,1,1,False
+T1,2324,2024-02-26,Galatasaray,Antalyaspor,8,1,False
+T1,2324,2024-03-01,Kasimpasa,Samsunspor,6,5,False
+T1,2324,2024-03-02,Antalyaspor,Fenerbahce,5,7,False
+T1,2324,2024-03-02,Rizespor,Kocaelispor,8,7,False
+T1,2324,2024-03-02,Karagumruk,Istanbulspor,6,6,False
+T1,2324,2024-03-03,Besiktas,Galatasaray,7,6,False
+T1,2324,2024-03-03,Buyuksehyr,Samsunspor,8,2,False
+T1,2324,2024-03-03,Pendikspor,Antalyaspor,7,1,False
+T1,2324,2024-03-04,Antalyaspor,Gaziantep,1,9,False
+T1,2324,2024-03-04,Ad. Demirspor,Karagumruk,8,2,False
+T1,2324,2024-03-04,Antalyaspor,Trabzonspor,1,8,False
+T1,2324,2024-03-08,Galatasaray,Rizespor,5,6,False
+T1,2324,2024-03-09,Buyuksehyr,Antalyaspor,6,5,False
+T1,2324,2024-03-09,Trabzonspor,Karagumruk,5,5,False
+T1,2324,2024-03-09,Antalyaspor,Ad. Demirspor,5,5,False
+T1,2324,2024-03-09,Samsunspor,Antalyaspor,6,5,False
+T1,2324,2024-03-10,Samsunspor,Karagumruk,1,1,False
+T1,2324,2024-03-10,Fenerbahce,Pendikspor,8,7,False
+T1,2324,2024-03-10,Kocaelispor,Antalyaspor,8,1,False
+T1,2324,2024-03-10,Istanbulspor,Kasimpasa,8,9,False
+T1,2324,2024-03-11,Gaziantep,Besiktas,7,8,False
+T1,2324,2024-03-15,Pendikspor,Istanbulspor,5,5,False
+T1,2324,2024-03-15,Karagumruk,Antalyaspor,5,5,False
+T1,2324,2024-03-16,Ad. Demirspor,Samsunspor,7,6,False
+T1,2324,2024-03-16,Karagumruk,Buyuksehyr,1,7,False
+T1,2324,2024-03-16,Besiktas,Antalyaspor,5,1,False
+T1,2324,2024-03-16,Antalyaspor,Kocaelispor,1,6,False
+T1,2324,2024-03-17,Kasimpasa,Galatasaray,7,9,False
+T1,2324,2024-03-17,Trabzonspor,Fenerbahce,8,7,False
+T1,2324,2024-03-17,Rizespor,Gaziantep,9,6,False
+T1,2324,2024-03-17,Antalyaspor,Samsunspor,1,1,False
+T1,2324,2024-04-02,Galatasaray,Antalyaspor,16,16,True
+T1,2324,2024-04-02,Gaziantep,Antalyaspor,16,16,True
+T1,2324,2024-04-02,Istanbulspor,Rizespor,18,16,True
+T1,2324,2024-04-02,Antalyaspor,Karagumruk,16,17,True
+T1,2324,2024-04-03,Fenerbahce,Ad. Demirspor,17,18,True
+T1,2324,2024-04-03,Samsunspor,Karagumruk,17,1,True
+T1,2324,2024-04-03,Antalyaspor,Trabzonspor,1,17,True
+T1,2324,2024-04-03,Kocaelispor,Kasimpasa,18,17,True
+T1,2324,2024-04-04,Samsunspor,Pendikspor,1,20,True
+T1,2324,2024-04-04,Buyuksehyr,Besiktas,19,19,True
+T1,2324,2024-04-12,Trabzonspor,Samsunspor,9,8,False
+T1,2324,2024-04-13,Besiktas,Samsunspor,9,1,False
+T1,2324,2024-04-13,Kasimpasa,Antalyaspor,10,10,False
+T1,2324,2024-04-13,Karagumruk,Gaziantep,10,11,False
+T1,2324,2024-04-13,Ad. Demirspor,Kocaelispor,10,10,False
+T1,2324,2024-04-14,Rizespor,Antalyaspor,12,1,False
+T1,2324,2024-04-14,Karagumruk,Fenerbahce,1,11,False
+T1,2324,2024-04-14,Antalyaspor,Istanbulspor,1,12,False
+T1,2324,2024-04-14,Pendikspor,Buyuksehyr,10,10,False
+T1,2324,2024-04-15,Antalyaspor,Galatasaray,1,13,False
+T1,2324,2024-04-19,Besiktas,Karagumruk,6,5,False
+T1,2324,2024-04-20,Kocaelispor,Trabzonspor,7,8,False
+T1,2324,2024-04-20,Samsunspor,Ad. Demirspor,7,7,False
+T1,2324,2024-04-20,Istanbulspor,Karagumruk,6,1,False
+T1,2324,2024-04-20,Antalyaspor,Antalyaspor,5,5,False
+T1,2324,2024-04-21,Galatasaray,Pendikspor,6,7,False
+T1,2324,2024-04-21,Gaziantep,Kasimpasa,8,8,False
+T1,2324,2024-04-21,Antalyaspor,Antalyaspor,1,1,False
+T1,2324,2024-04-21,Buyuksehyr,Rizespor,7,7,False
+T1,2324,2024-04-22,Samsunspor,Fenerbahce,2,8,False
+T1,2324,2024-04-26,Ad. Demirspor,Galatasaray,6,5,False
+T1,2324,2024-04-27,Kasimpasa,Samsunspor,6,5,False
+T1,2324,2024-04-27,Samsunspor,Antalyaspor,5,6,False
+T1,2324,2024-04-27,Fenerbahce,Besiktas,5,8,False
+T1,2324,2024-04-27,Antalyaspor,Buyuksehyr,6,6,False
+T1,2324,2024-04-28,Rizespor,Karagumruk,7,8,False
+T1,2324,2024-04-28,Antalyaspor,Istanbulspor,1,8,False
+T1,2324,2024-04-28,Pendikspor,Kocaelispor,7,8,False
+T1,2324,2024-04-28,Trabzonspor,Gaziantep,8,7,False
+T1,2324,2024-04-29,Karagumruk,Antalyaspor,1,1,False
+T1,2324,2024-05-03,Karagumruk,Antalyaspor,4,4,False
+T1,2324,2024-05-03,Besiktas,Rizespor,6,5,False
+T1,2324,2024-05-04,Samsunspor,Trabzonspor,7,6,False
+T1,2324,2024-05-04,Istanbulspor,Ad. Demirspor,6,8,False
+T1,2324,2024-05-04,Kocaelispor,Karagumruk,6,1,False
+T1,2324,2024-05-05,Gaziantep,Antalyaspor,7,2,False
+T1,2324,2024-05-05,Buyuksehyr,Kasimpasa,8,8,False
+T1,2324,2024-05-05,Galatasaray,Samsunspor,9,1,False
+T1,2324,2024-05-06,Antalyaspor,Pendikspor,1,8,False
+T1,2324,2024-05-06,Antalyaspor,Fenerbahce,1,9,False
+T1,2324,2024-05-12,Fenerbahce,Kocaelispor,6,8,False
+T1,2324,2024-05-12,Antalyaspor,Karagumruk,6,8,False
+T1,2324,2024-05-12,Karagumruk,Galatasaray,8,7,False
+T1,2324,2024-05-12,Kasimpasa,Antalyaspor,7,6,False
+T1,2324,2024-05-12,Ad. Demirspor,Gaziantep,8,7,False
+T1,2324,2024-05-12,Pendikspor,Rizespor,6,9,False
+T1,2324,2024-05-12,Samsunspor,Buyuksehyr,7,7,False
+T1,2324,2024-05-12,Trabzonspor,Istanbulspor,8,8,False
+T1,2324,2024-05-12,Antalyaspor,Samsunspor,6,7,False
+T1,2324,2024-05-12,Antalyaspor,Besiktas,6,9,False
+T1,2324,2024-05-17,Antalyaspor,Ad. Demirspor,5,5,False
+T1,2324,2024-05-17,Istanbulspor,Samsunspor,5,5,False
+T1,2324,2024-05-18,Buyuksehyr,Trabzonspor,6,6,False
+T1,2324,2024-05-18,Gaziantep,Karagumruk,6,6,False
+T1,2324,2024-05-18,Kocaelispor,Antalyaspor,6,1,False
+T1,2324,2024-05-18,Rizespor,Kasimpasa,6,6,False
+T1,2324,2024-05-18,Samsunspor,Antalyaspor,1,1,False
+T1,2324,2024-05-18,Besiktas,Antalyaspor,6,1,False
+T1,2324,2024-05-18,Karagumruk,Pendikspor,6,6,False
+T1,2324,2024-05-19,Galatasaray,Fenerbahce,7,7,False
+T1,2324,2024-05-24,Antalyaspor,Antalyaspor,6,6,False
+T1,2324,2024-05-25,Karagumruk,Samsunspor,7,7,False
+T1,2324,2024-05-25,Samsunspor,Kocaelispor,7,7,False
+T1,2324,2024-05-26,Antalyaspor,Rizespor,2,8,False
+T1,2324,2024-05-26,Kasimpasa,Besiktas,8,8,False
+T1,2324,2024-05-26,Antalyaspor,Galatasaray,2,7,False
+T1,2324,2024-05-26,Pendikspor,Gaziantep,8,8,False
+T1,2324,2024-05-26,Trabzonspor,Karagumruk,8,1,False
+T1,2324,2024-05-26,Fenerbahce,Istanbulspor,7,9,False
+T1,2324,2024-05-26,Ad. Demirspor,Buyuksehyr,9,8,False

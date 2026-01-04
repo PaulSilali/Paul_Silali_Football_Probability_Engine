@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2021-08-13,M'gladbach,Bayern Munich,1,1,D,1
+2021-08-14,Dortmund,Ein Frankfurt,5,2,H,0
+2021-08-14,Augsburg,Heidenheim,0,4,A,0
+2021-08-14,Wolfsburg,Bochum,1,0,H,0
+2021-08-14,Bielefeld,Freiburg,0,0,D,1
+2021-08-14,Stuttgart,Greuther Furth,5,1,H,0
+2021-08-14,Union Berlin,Leverkusen,1,1,D,1
+2021-08-15,Mainz,RB Leipzig,1,0,H,0
+2021-08-15,FC Koln,Hertha,3,1,H,0
+2021-08-20,RB Leipzig,Stuttgart,4,0,H,0
+2021-08-21,Freiburg,Dortmund,2,1,H,0
+2021-08-21,Greuther Furth,Bielefeld,1,1,D,1
+2021-08-21,Hertha,Wolfsburg,1,2,A,0
+2021-08-21,Leverkusen,M'gladbach,4,0,H,0
+2021-08-21,Ein Frankfurt,Augsburg,0,0,D,1
+2021-08-21,Bochum,Mainz,2,0,H,0
+2021-08-22,Heidenheim,Union Berlin,2,2,D,1
+2021-08-22,Bayern Munich,FC Koln,3,2,H,0
+2021-08-27,Dortmund,Heidenheim,3,2,H,0
+2021-08-28,FC Koln,Bochum,2,1,H,0
+2021-08-28,Mainz,Greuther Furth,3,0,H,0
+2021-08-28,Stuttgart,Freiburg,2,3,A,0
+2021-08-28,Bayern Munich,Hertha,5,0,H,0
+2021-08-28,Bielefeld,Ein Frankfurt,1,1,D,1
+2021-08-28,Augsburg,Leverkusen,1,4,A,0
+2021-08-29,Wolfsburg,RB Leipzig,1,0,H,0
+2021-08-29,Union Berlin,M'gladbach,2,1,H,0
+2021-09-11,Heidenheim,Mainz,0,2,A,0
+2021-09-11,Leverkusen,Dortmund,3,4,A,0
+2021-09-11,Union Berlin,Augsburg,0,0,D,1
+2021-09-11,RB Leipzig,Bayern Munich,1,4,A,0
+2021-09-11,Freiburg,FC Koln,1,1,D,1
+2021-09-11,Greuther Furth,Wolfsburg,0,2,A,0
+2021-09-12,M'gladbach,Bielefeld,3,1,H,0
+2021-09-12,Bochum,Hertha,1,3,A,0
+2021-09-12,Ein Frankfurt,Stuttgart,1,1,D,1
+2021-09-17,Hertha,Greuther Furth,2,1,H,0
+2021-09-18,FC Koln,RB Leipzig,1,1,D,1
+2021-09-18,Augsburg,M'gladbach,1,0,H,0
+2021-09-18,Bayern Munich,Bochum,7,0,H,0
+2021-09-18,Bielefeld,Heidenheim,0,0,D,1
+2021-09-18,Mainz,Freiburg,0,0,D,1
+2021-09-19,Wolfsburg,Ein Frankfurt,1,1,D,1
+2021-09-19,Dortmund,Union Berlin,4,2,H,0
+2021-09-19,Stuttgart,Leverkusen,1,3,A,0
+2021-09-24,Greuther Furth,Bayern Munich,1,3,A,0
+2021-09-25,Leverkusen,Mainz,1,0,H,0
+2021-09-25,RB Leipzig,Hertha,6,0,H,0
+2021-09-25,Union Berlin,Bielefeld,1,0,H,0
+2021-09-25,M'gladbach,Dortmund,1,0,H,0
+2021-09-25,Heidenheim,Wolfsburg,3,1,H,0
+2021-09-25,Ein Frankfurt,FC Koln,1,1,D,1
+2021-09-26,Bochum,Stuttgart,0,0,D,1
+2021-09-26,Freiburg,Augsburg,3,0,H,0
+2021-10-01,FC Koln,Greuther Furth,3,1,H,0
+2021-10-02,Stuttgart,Heidenheim,3,1,H,0
+2021-10-02,Wolfsburg,M'gladbach,1,3,A,0
+2021-10-02,RB Leipzig,Bochum,3,0,H,0
+2021-10-02,Hertha,Freiburg,1,2,A,0
+2021-10-02,Dortmund,Augsburg,2,1,H,0
+2021-10-03,Bielefeld,Leverkusen,0,4,A,0
+2021-10-03,Mainz,Union Berlin,1,2,A,0
+2021-10-03,Bayern Munich,Ein Frankfurt,1,2,A,0
+2021-10-15,Heidenheim,FC Koln,5,0,H,0
+2021-10-16,Freiburg,RB Leipzig,1,1,D,1
+2021-10-16,Greuther Furth,Bochum,0,1,A,0
+2021-10-16,Union Berlin,Wolfsburg,2,0,H,0
+2021-10-16,M'gladbach,Stuttgart,1,1,D,1
+2021-10-16,Ein Frankfurt,Hertha,1,2,A,0
+2021-10-16,Dortmund,Mainz,3,1,H,0
+2021-10-17,Leverkusen,Bayern Munich,1,5,A,0
+2021-10-17,Augsburg,Bielefeld,1,1,D,1
+2021-10-22,Mainz,Augsburg,4,1,H,0
+2021-10-23,RB Leipzig,Greuther Furth,4,1,H,0
+2021-10-23,Wolfsburg,Freiburg,0,2,A,0
+2021-10-23,Hertha,M'gladbach,1,0,H,0
+2021-10-23,Bielefeld,Dortmund,1,3,A,0
+2021-10-23,Bayern Munich,Heidenheim,4,0,H,0
+2021-10-24,Stuttgart,Union Berlin,1,1,D,1
+2021-10-24,FC Koln,Leverkusen,2,2,D,1
+2021-10-24,Bochum,Ein Frankfurt,2,0,H,0
+2021-10-29,Heidenheim,Hertha,2,0,H,0
+2021-10-30,Union Berlin,Bayern Munich,2,5,A,0
+2021-10-30,Ein Frankfurt,RB Leipzig,1,1,D,1
+2021-10-30,Leverkusen,Wolfsburg,0,2,A,0
+2021-10-30,Bielefeld,Mainz,1,2,A,0
+2021-10-30,Freiburg,Greuther Furth,3,1,H,0
+2021-10-30,Dortmund,FC Koln,2,0,H,0
+2021-10-31,Augsburg,Stuttgart,4,1,H,0
+2021-10-31,M'gladbach,Bochum,2,1,H,0
+2021-11-05,Mainz,M'gladbach,1,1,D,1
+2021-11-06,Stuttgart,Bielefeld,0,1,A,0
+2021-11-06,Wolfsburg,Augsburg,1,0,H,0
+2021-11-06,RB Leipzig,Dortmund,2,1,H,0
+2021-11-06,Bochum,Heidenheim,2,0,H,0
+2021-11-06,Bayern Munich,Freiburg,2,1,H,0
+2021-11-07,Greuther Furth,Ein Frankfurt,1,2,A,0
+2021-11-07,Hertha,Leverkusen,1,1,D,1
+2021-11-07,FC Koln,Union Berlin,2,2,D,1
+2021-11-19,Augsburg,Bayern Munich,2,1,H,0
+2021-11-20,Heidenheim,RB Leipzig,2,0,H,0
+2021-11-20,Leverkusen,Bochum,1,0,H,0
+2021-11-20,M'gladbach,Greuther Furth,4,0,H,0
+2021-11-20,Union Berlin,Hertha,2,0,H,0
+2021-11-20,Dortmund,Stuttgart,2,1,H,0
+2021-11-20,Bielefeld,Wolfsburg,2,2,D,1
+2021-11-21,Freiburg,Ein Frankfurt,0,2,A,0
+2021-11-21,Mainz,FC Koln,1,1,D,1
+2021-11-26,Stuttgart,Mainz,2,1,H,0
+2021-11-27,Greuther Furth,Heidenheim,3,6,A,0
+2021-11-27,Hertha,Augsburg,1,1,D,1
+2021-11-27,Wolfsburg,Dortmund,1,3,A,0
+2021-11-27,Bayern Munich,Bielefeld,1,0,H,0
+2021-11-27,FC Koln,M'gladbach,4,1,H,0
+2021-11-27,Bochum,Freiburg,2,1,H,0
+2021-11-28,Ein Frankfurt,Union Berlin,2,1,H,0
+2021-11-28,RB Leipzig,Leverkusen,1,3,A,0
+2021-12-03,Union Berlin,RB Leipzig,2,1,H,0
+2021-12-04,Bielefeld,FC Koln,1,1,D,1
+2021-12-04,Augsburg,Bochum,2,3,A,0
+2021-12-04,Heidenheim,Ein Frankfurt,3,2,H,0
+2021-12-04,Leverkusen,Greuther Furth,7,1,H,0
+2021-12-04,Mainz,Wolfsburg,3,0,H,0
+2021-12-04,Dortmund,Bayern Munich,2,3,A,0
+2021-12-05,M'gladbach,Freiburg,0,6,A,0
+2021-12-05,Stuttgart,Hertha,2,2,D,1
+2021-12-10,FC Koln,Augsburg,0,2,A,0
+2021-12-11,Freiburg,Heidenheim,1,2,A,0
+2021-12-11,Hertha,Bielefeld,2,0,H,0
+2021-12-11,RB Leipzig,M'gladbach,4,1,H,0
+2021-12-11,Wolfsburg,Stuttgart,0,2,A,0
+2021-12-11,Bochum,Dortmund,1,1,D,1
+2021-12-11,Bayern Munich,Mainz,2,1,H,0
+2021-12-12,Ein Frankfurt,Leverkusen,5,2,H,0
+2021-12-12,Greuther Furth,Union Berlin,1,0,H,0
+2021-12-14,Mainz,Hertha,4,0,H,0
+2021-12-14,Wolfsburg,FC Koln,2,3,A,0
+2021-12-14,Stuttgart,Bayern Munich,0,5,A,0
+2021-12-14,Bielefeld,Bochum,2,0,H,0
+2021-12-15,Dortmund,Greuther Furth,3,0,H,0
+2021-12-15,Leverkusen,Heidenheim,2,2,D,1
+2021-12-15,Union Berlin,Freiburg,0,0,D,1
+2021-12-15,Augsburg,RB Leipzig,1,1,D,1
+2021-12-15,M'gladbach,Ein Frankfurt,2,3,A,0
+2021-12-17,Bayern Munich,Wolfsburg,4,0,H,0
+2021-12-18,Greuther Furth,Augsburg,0,0,D,1
+2021-12-18,Heidenheim,M'gladbach,1,1,D,1
+2021-12-18,RB Leipzig,Bielefeld,0,2,A,0
+2021-12-18,Hertha,Dortmund,3,2,H,0
+2021-12-18,Ein Frankfurt,Mainz,1,0,H,0
+2021-12-18,Bochum,Union Berlin,0,1,A,0
+2021-12-19,Freiburg,Leverkusen,2,1,H,0
+2021-12-19,FC Koln,Stuttgart,1,0,H,0
+2022-01-07,Bayern Munich,M'gladbach,1,2,A,0
+2022-01-08,Greuther Furth,Stuttgart,0,0,D,1
+2022-01-08,Freiburg,Bielefeld,2,2,D,1
+2022-01-08,Heidenheim,Augsburg,3,1,H,0
+2022-01-08,Leverkusen,Union Berlin,2,2,D,1
+2022-01-08,RB Leipzig,Mainz,4,1,H,0
+2022-01-08,Ein Frankfurt,Dortmund,2,3,A,0
+2022-01-09,Hertha,FC Koln,1,3,A,0
+2022-01-09,Bochum,Wolfsburg,1,0,H,0
+2022-01-14,Dortmund,Freiburg,5,1,H,0
+2022-01-15,M'gladbach,Leverkusen,1,2,A,0
+2022-01-15,Union Berlin,Heidenheim,2,1,H,0
+2022-01-15,FC Koln,Bayern Munich,0,4,A,0
+2022-01-15,Wolfsburg,Hertha,0,0,D,1
+2022-01-15,Mainz,Bochum,1,0,H,0
+2022-01-15,Stuttgart,RB Leipzig,0,2,A,0
+2022-01-16,Augsburg,Ein Frankfurt,1,1,D,1
+2022-01-16,Bielefeld,Greuther Furth,2,2,D,1
+2022-01-21,Ein Frankfurt,Bielefeld,0,2,A,0
+2022-01-22,Heidenheim,Dortmund,2,3,A,0
+2022-01-22,Leverkusen,Augsburg,5,1,H,0
+2022-01-22,M'gladbach,Union Berlin,1,2,A,0
+2022-01-22,Bochum,FC Koln,2,2,D,1
+2022-01-22,Greuther Furth,Mainz,2,1,H,0
+2022-01-22,Freiburg,Stuttgart,2,0,H,0
+2022-01-23,RB Leipzig,Wolfsburg,2,0,H,0
+2022-01-23,Hertha,Bayern Munich,1,4,A,0
+2022-02-04,Hertha,Bochum,1,1,D,1
+2022-02-05,FC Koln,Freiburg,1,0,H,0
+2022-02-05,Mainz,Heidenheim,2,0,H,0
+2022-02-05,Stuttgart,Ein Frankfurt,2,3,A,0
+2022-02-05,Bayern Munich,RB Leipzig,3,2,H,0
+2022-02-05,Bielefeld,M'gladbach,1,1,D,1
+2022-02-05,Augsburg,Union Berlin,2,0,H,0
+2022-02-06,Dortmund,Leverkusen,2,5,A,0
+2022-02-06,Wolfsburg,Greuther Furth,4,1,H,0
+2022-02-11,RB Leipzig,FC Koln,3,1,H,0
+2022-02-12,Freiburg,Mainz,1,1,D,1
+2022-02-12,Greuther Furth,Hertha,2,1,H,0
+2022-02-12,M'gladbach,Augsburg,3,2,H,0
+2022-02-12,Leverkusen,Stuttgart,4,2,H,0
+2022-02-12,Ein Frankfurt,Wolfsburg,0,2,A,0
+2022-02-12,Bochum,Bayern Munich,4,2,H,0
+2022-02-13,Union Berlin,Dortmund,0,3,A,0
+2022-02-13,Heidenheim,Bielefeld,2,0,H,0
+2022-02-18,Mainz,Leverkusen,3,2,H,0
+2022-02-19,Augsburg,Freiburg,1,2,A,0
+2022-02-19,Bielefeld,Union Berlin,1,0,H,0
+2022-02-19,Stuttgart,Bochum,1,1,D,1
+2022-02-19,Wolfsburg,Heidenheim,1,2,A,0
+2022-02-19,FC Koln,Ein Frankfurt,1,0,H,0
+2022-02-20,Hertha,RB Leipzig,1,6,A,0
+2022-02-20,Dortmund,M'gladbach,6,0,H,0
+2022-02-20,Bayern Munich,Greuther Furth,4,1,H,0
+2022-02-25,Heidenheim,Stuttgart,2,1,H,0
+2022-02-26,Leverkusen,Bielefeld,3,0,H,0
+2022-02-26,M'gladbach,Wolfsburg,2,2,D,1
+2022-02-26,Union Berlin,Mainz,3,1,H,0
+2022-02-26,Ein Frankfurt,Bayern Munich,0,1,A,0
+2022-02-26,Greuther Furth,FC Koln,1,1,D,1
+2022-02-26,Freiburg,Hertha,3,0,H,0
+2022-02-27,Bochum,RB Leipzig,0,1,A,0
+2022-02-27,Augsburg,Dortmund,1,1,D,1
+2022-03-04,Bielefeld,Augsburg,0,1,A,0
+2022-03-05,Hertha,Ein Frankfurt,1,4,A,0
+2022-03-05,RB Leipzig,Freiburg,1,1,D,1
+2022-03-05,Wolfsburg,Union Berlin,1,0,H,0
+2022-03-05,Stuttgart,M'gladbach,3,2,H,0
+2022-03-05,Bochum,Greuther Furth,2,1,H,0
+2022-03-05,Bayern Munich,Leverkusen,1,1,D,1
+2022-03-06,FC Koln,Heidenheim,0,1,A,0
+2022-03-12,Union Berlin,Stuttgart,1,1,D,1
+2022-03-12,M'gladbach,Hertha,2,0,H,0
+2022-03-12,Heidenheim,Bayern Munich,1,1,D,1
+2022-03-12,Freiburg,Wolfsburg,3,2,H,0
+2022-03-13,Ein Frankfurt,Bochum,2,1,H,0
+2022-03-13,Greuther Furth,RB Leipzig,1,6,A,0
+2022-03-13,Leverkusen,FC Koln,0,1,A,0
+2022-03-13,Dortmund,Bielefeld,1,0,H,0
+2022-03-16,Mainz,Dortmund,0,1,A,0
+2022-03-18,Bochum,M'gladbach,0,2,A,0
+2022-03-19,Hertha,Heidenheim,3,0,H,0
+2022-03-19,Greuther Furth,Freiburg,0,0,D,1
+2022-03-19,Mainz,Bielefeld,4,0,H,0
+2022-03-19,Stuttgart,Augsburg,3,2,H,0
+2022-03-19,Bayern Munich,Union Berlin,4,0,H,0
+2022-03-20,Wolfsburg,Leverkusen,0,2,A,0
+2022-03-20,FC Koln,Dortmund,1,1,D,1
+2022-03-20,RB Leipzig,Ein Frankfurt,0,0,D,1
+2022-04-01,Union Berlin,FC Koln,1,0,H,0
+2022-04-02,Dortmund,RB Leipzig,1,4,A,0
+2022-04-02,Ein Frankfurt,Greuther Furth,0,0,D,1
+2022-04-02,Freiburg,Bayern Munich,1,4,A,0
+2022-04-02,Heidenheim,Bochum,1,2,A,0
+2022-04-02,Leverkusen,Hertha,2,1,H,0
+2022-04-02,Bielefeld,Stuttgart,1,1,D,1
+2022-04-03,Augsburg,Wolfsburg,3,0,H,0
+2022-04-03,M'gladbach,Mainz,1,1,D,1
+2022-04-06,Augsburg,Mainz,2,1,H,0
+2022-04-08,Stuttgart,Dortmund,0,2,A,0
+2022-04-09,Greuther Furth,M'gladbach,0,2,A,0
+2022-04-09,Wolfsburg,Bielefeld,4,0,H,0
+2022-04-09,Hertha,Union Berlin,1,4,A,0
+2022-04-09,FC Koln,Mainz,3,2,H,0
+2022-04-09,Bayern Munich,Augsburg,1,0,H,0
+2022-04-10,RB Leipzig,Heidenheim,3,0,H,0
+2022-04-10,Bochum,Leverkusen,0,0,D,1
+2022-04-10,Ein Frankfurt,Freiburg,1,2,A,0
+2022-04-16,Freiburg,Bochum,3,0,H,0
+2022-04-16,Mainz,Stuttgart,0,0,D,1
+2022-04-16,M'gladbach,FC Koln,1,3,A,0
+2022-04-16,Augsburg,Hertha,0,1,A,0
+2022-04-16,Dortmund,Wolfsburg,6,1,H,0
+2022-04-17,Union Berlin,Ein Frankfurt,2,0,H,0
+2022-04-17,Leverkusen,RB Leipzig,0,1,A,0
+2022-04-17,Bielefeld,Bayern Munich,0,3,A,0
+2022-04-17,Heidenheim,Greuther Furth,0,0,D,1
+2022-04-22,Wolfsburg,Mainz,5,0,H,0
+2022-04-23,Greuther Furth,Leverkusen,1,4,A,0
+2022-04-23,Ein Frankfurt,Heidenheim,2,2,D,1
+2022-04-23,FC Koln,Bielefeld,3,1,H,0
+2022-04-23,Freiburg,M'gladbach,3,3,D,1
+2022-04-23,RB Leipzig,Union Berlin,1,2,A,0
+2022-04-23,Bayern Munich,Dortmund,3,1,H,0
+2022-04-24,Hertha,Stuttgart,2,0,H,0
+2022-04-24,Bochum,Augsburg,0,2,A,0
+2022-04-29,Union Berlin,Greuther Furth,1,1,D,1
+2022-04-30,Dortmund,Bochum,3,4,A,0
+2022-04-30,Mainz,Bayern Munich,3,1,H,0
+2022-04-30,Stuttgart,Wolfsburg,1,1,D,1
+2022-04-30,Heidenheim,Freiburg,3,4,A,0
+2022-04-30,Bielefeld,Hertha,1,1,D,1
+2022-04-30,Augsburg,FC Koln,1,4,A,0
+2022-05-02,Leverkusen,Ein Frankfurt,2,0,H,0
+2022-05-02,M'gladbach,RB Leipzig,3,1,H,0
+2022-05-06,Bochum,Bielefeld,2,1,H,0
+2022-05-07,Greuther Furth,Dortmund,1,3,A,0
+2022-05-07,Heidenheim,Leverkusen,2,4,A,0
+2022-05-07,Hertha,Mainz,1,2,A,0
+2022-05-07,Freiburg,Union Berlin,1,4,A,0
+2022-05-07,FC Koln,Wolfsburg,0,1,A,0
+2022-05-08,RB Leipzig,Augsburg,4,0,H,0
+2022-05-08,Ein Frankfurt,M'gladbach,1,1,D,1
+2022-05-08,Bayern Munich,Stuttgart,2,2,D,1
+2022-05-14,Dortmund,Hertha,2,1,H,0
+2022-05-14,Leverkusen,Freiburg,2,1,H,0
+2022-05-14,Mainz,Ein Frankfurt,2,2,D,1
+2022-05-14,M'gladbach,Heidenheim,5,1,H,0
+2022-05-14,Stuttgart,FC Koln,2,1,H,0
+2022-05-14,Union Berlin,Bochum,3,2,H,0
+2022-05-14,Wolfsburg,Bayern Munich,2,2,D,1
+2022-05-14,Augsburg,Greuther Furth,2,1,H,0
+2022-05-14,Bielefeld,RB Leipzig,1,1,D,1

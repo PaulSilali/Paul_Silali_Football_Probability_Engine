@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+E2,2425,2024-08-09,Barnsley,Mansfield,3.55,3.55,0.0
+E2,2425,2024-08-10,Exeter,Rotherham,3.36,3.36,0.0
+E2,2425,2024-08-10,Luton,Lincoln,3.28,3.28,0.0
+E2,2425,2024-08-10,Birmingham,Reading,4.13,4.13,0.0
+E2,2425,2024-08-10,Leyton Orient,Luton,3.43,3.43,0.0
+E2,2425,2024-08-10,Wrexham,Wycombe,3.54,3.54,0.0
+E2,2425,2024-08-10,Wigan,Charlton,3.28,3.28,0.0
+E2,2425,2024-08-10,Stockport,Cambridge,3.79,3.79,0.0
+E2,2425,2024-08-10,Crawley Town,Blackpool,3.44,3.44,0.0
+E2,2425,2024-08-10,Stevenage,Shrewsbury,3.44,3.44,0.0
+E2,2425,2024-08-10,Bristol Rvs,Northampton,3.47,3.47,0.0
+E2,2425,2024-08-10,Peterboro,Huddersfield,3.53,3.53,0.0
+E2,2425,2024-08-17,Northampton,Exeter,3.23,3.23,0.0
+E2,2425,2024-08-17,Reading,Wigan,3.47,3.47,0.0
+E2,2425,2024-08-17,Rotherham,Bristol Rvs,3.49,3.49,0.0
+E2,2425,2024-08-17,Wycombe,Birmingham,3.47,3.47,0.0
+E2,2425,2024-08-17,Mansfield,Luton,3.7,3.7,0.0
+E2,2425,2024-08-17,Cambridge,Crawley Town,3.36,3.36,0.0
+E2,2425,2024-08-17,Lincoln,Barnsley,3.44,3.44,0.0
+E2,2425,2024-08-17,Huddersfield,Stevenage,3.64,3.64,0.0
+E2,2425,2024-08-17,Charlton,Leyton Orient,3.39,3.39,0.0
+E2,2425,2024-08-17,Blackpool,Stockport,3.44,3.44,0.0
+E2,2425,2024-08-17,Shrewsbury,Peterboro,3.41,3.41,0.0
+E2,2425,2024-08-18,Luton,Wrexham,3.63,3.63,0.0
+E2,2425,2024-08-24,Leyton Orient,Birmingham,3.56,3.56,0.0
+E2,2425,2024-08-24,Lincoln,Mansfield,3.47,3.47,0.0
+E2,2425,2024-08-24,Wigan,Crawley Town,3.59,3.59,0.0
+E2,2425,2024-08-24,Wrexham,Reading,3.61,3.61,0.0
+E2,2425,2024-08-24,Wycombe,Rotherham,3.25,3.25,0.0
+E2,2425,2024-08-24,Luton,Stevenage,3.38,3.38,0.0
+E2,2425,2024-08-24,Stockport,Bristol Rvs,3.78,3.78,0.0
+E2,2425,2024-08-24,Barnsley,Northampton,3.93,3.93,0.0
+E2,2425,2024-08-24,Cambridge,Blackpool,3.4,3.4,0.0
+E2,2425,2024-08-24,Charlton,Luton,3.3,3.3,0.0
+E2,2425,2024-08-24,Huddersfield,Shrewsbury,4.7,4.7,0.0
+E2,2425,2024-08-24,Exeter,Peterboro,3.51,3.51,0.0
+E2,2425,2024-08-31,Peterboro,Wrexham,3.69,3.69,0.0
+E2,2425,2024-08-31,Blackpool,Wycombe,3.61,3.61,0.0
+E2,2425,2024-08-31,Rotherham,Huddersfield,3.32,3.32,0.0
+E2,2425,2024-08-31,Birmingham,Wigan,4.63,4.63,0.0
+E2,2425,2024-08-31,Luton,Exeter,4.39,4.39,0.0
+E2,2425,2024-08-31,Bristol Rvs,Cambridge,3.37,3.37,0.0
+E2,2425,2024-08-31,Crawley Town,Barnsley,3.65,3.65,0.0
+E2,2425,2024-08-31,Mansfield,Stockport,3.57,3.57,0.0
+E2,2425,2024-08-31,Northampton,Luton,3.44,3.44,0.0
+E2,2425,2024-08-31,Reading,Charlton,3.35,3.35,0.0
+E2,2425,2024-08-31,Shrewsbury,Leyton Orient,3.31,3.31,0.0
+E2,2425,2024-08-31,Stevenage,Lincoln,3.16,3.16,0.0
+E2,2425,2024-09-07,Barnsley,Bristol Rvs,3.94,3.94,0.0
+E2,2425,2024-09-07,Charlton,Rotherham,3.24,3.24,0.0
+E2,2425,2024-09-07,Wrexham,Shrewsbury,4.38,4.38,0.0
+E2,2425,2024-09-14,Reading,Leyton Orient,3.66,3.66,0.0
+E2,2425,2024-09-14,Rotherham,Luton,4.12,4.12,0.0
+E2,2425,2024-09-14,Shrewsbury,Charlton,3.47,3.47,0.0
+E2,2425,2024-09-14,Stevenage,Barnsley,3.34,3.34,0.0
+E2,2425,2024-09-14,Bristol Rvs,Wigan,3.34,3.34,0.0
+E2,2425,2024-09-14,Crawley Town,Stockport,3.85,3.85,0.0
+E2,2425,2024-09-14,Peterboro,Lincoln,3.54,3.54,0.0
+E2,2425,2024-09-14,Luton,Huddersfield,3.47,3.47,0.0
+E2,2425,2024-09-14,Blackpool,Exeter,3.92,3.92,0.0
+E2,2425,2024-09-14,Northampton,Wycombe,3.32,3.32,0.0
+E2,2425,2024-09-14,Mansfield,Cambridge,3.79,3.79,0.0
+E2,2425,2024-09-16,Birmingham,Wrexham,3.6,3.6,0.0
+E2,2425,2024-09-21,Peterboro,Bristol Rvs,4.09,4.09,0.0
+E2,2425,2024-09-21,Rotherham,Birmingham,3.6,3.6,0.0
+E2,2425,2024-09-21,Stockport,Leyton Orient,3.99,3.99,0.0
+E2,2425,2024-09-21,Wrexham,Crawley Town,4.48,4.48,0.0
+E2,2425,2024-09-21,Wycombe,Cambridge,3.76,3.76,0.0
+E2,2425,2024-09-21,Lincoln,Wigan,3.33,3.33,0.0
+E2,2425,2024-09-21,Exeter,Stevenage,3.18,3.18,0.0
+E2,2425,2024-09-21,Luton,Reading,3.74,3.74,0.0
+E2,2425,2024-09-21,Luton,Barnsley,3.7,3.7,0.0
+E2,2425,2024-09-21,Charlton,Blackpool,3.28,3.28,0.0
+E2,2425,2024-09-21,Mansfield,Shrewsbury,3.78,3.78,0.0
+E2,2425,2024-09-21,Huddersfield,Northampton,4.6,4.6,0.0
+E2,2425,2024-09-24,Wigan,Stevenage,3.18,3.18,0.0
+E2,2425,2024-09-24,Huddersfield,Blackpool,3.71,3.71,0.0
+E2,2425,2024-09-24,Leyton Orient,Peterboro,3.47,3.47,0.0
+E2,2425,2024-09-28,Leyton Orient,Wrexham,3.29,3.29,0.0
+E2,2425,2024-09-28,Shrewsbury,Rotherham,3.36,3.36,0.0
+E2,2425,2024-09-28,Stevenage,Charlton,3.07,3.07,0.0
+E2,2425,2024-09-28,Wigan,Exeter,3.22,3.22,0.0
+E2,2425,2024-09-28,Barnsley,Stockport,3.48,3.48,0.0
+E2,2425,2024-09-28,Northampton,Mansfield,3.45,3.45,0.0
+E2,2425,2024-09-28,Crawley Town,Luton,3.72,3.72,0.0
+E2,2425,2024-09-28,Reading,Huddersfield,3.44,3.44,0.0
+E2,2425,2024-09-28,Birmingham,Peterboro,4.28,4.28,0.0
+E2,2425,2024-09-28,Blackpool,Luton,4.33,4.33,0.0
+E2,2425,2024-09-28,Bristol Rvs,Wycombe,3.3,3.3,0.0
+E2,2425,2024-09-28,Cambridge,Lincoln,3.36,3.36,0.0
+E2,2425,2024-10-01,Northampton,Luton,3.61,3.61,0.0
+E2,2425,2024-10-01,Shrewsbury,Stockport,3.68,3.68,0.0
+E2,2425,2024-10-01,Stevenage,Wrexham,3.11,3.11,0.0
+E2,2425,2024-10-01,Wigan,Peterboro,3.39,3.39,0.0
+E2,2425,2024-10-01,Reading,Luton,4.0,4.0,0.0
+E2,2425,2024-10-01,Barnsley,Wycombe,3.43,3.43,0.0
+E2,2425,2024-10-01,Birmingham,Huddersfield,3.91,3.91,0.0
+E2,2425,2024-10-01,Blackpool,Lincoln,3.53,3.53,0.0
+E2,2425,2024-10-01,Bristol Rvs,Charlton,3.29,3.29,0.0
+E2,2425,2024-10-01,Cambridge,Rotherham,3.45,3.45,0.0
+E2,2425,2024-10-01,Crawley Town,Mansfield,3.52,3.52,0.0
+E2,2425,2024-10-01,Leyton Orient,Exeter,3.59,3.59,0.0
+E2,2425,2024-10-05,Lincoln,Leyton Orient,3.26,3.26,0.0
+E2,2425,2024-10-05,Rotherham,Reading,3.42,3.42,0.0
+E2,2425,2024-10-05,Stockport,Wigan,3.51,3.51,0.0
+E2,2425,2024-10-05,Wrexham,Northampton,4.08,4.08,0.0
+E2,2425,2024-10-05,Wycombe,Crawley Town,4.16,4.16,0.0
+E2,2425,2024-10-05,Exeter,Cambridge,3.69,3.69,0.0
+E2,2425,2024-10-05,Mansfield,Blackpool,3.61,3.61,0.0
+E2,2425,2024-10-05,Huddersfield,Barnsley,3.54,3.54,0.0
+E2,2425,2024-10-05,Peterboro,Stevenage,3.37,3.37,0.0
+E2,2425,2024-10-05,Luton,Shrewsbury,4.77,4.77,0.0
+E2,2425,2024-10-05,Luton,Bristol Rvs,3.43,3.43,0.0
+E2,2425,2024-10-05,Charlton,Birmingham,3.65,3.65,0.0
+E2,2425,2024-10-12,Crawley Town,Shrewsbury,3.46,3.46,0.0
+E2,2425,2024-10-12,Peterboro,Rotherham,3.55,3.55,0.0
+E2,2425,2024-10-17,Shrewsbury,Exeter,3.32,3.32,0.0
+E2,2425,2024-10-19,Lincoln,Birmingham,3.41,3.41,0.0
+E2,2425,2024-10-19,Mansfield,Stevenage,3.31,3.31,0.0
+E2,2425,2024-10-19,Northampton,Leyton Orient,3.23,3.23,0.0
+E2,2425,2024-10-19,Rotherham,Wrexham,3.29,3.29,0.0
+E2,2425,2024-10-19,Huddersfield,Bristol Rvs,4.35,4.35,0.0
+E2,2425,2024-10-19,Charlton,Stockport,3.28,3.28,0.0
+E2,2425,2024-10-19,Cambridge,Wigan,3.19,3.19,0.0
+E2,2425,2024-10-19,Luton,Luton,4.9,4.9,0.0
+E2,2425,2024-10-19,Blackpool,Barnsley,3.62,3.62,0.0
+E2,2425,2024-10-19,Wycombe,Peterboro,3.73,3.73,0.0
+E2,2425,2024-10-19,Reading,Crawley Town,4.01,4.01,0.0
+E2,2425,2024-10-22,Peterboro,Blackpool,3.54,3.54,0.0
+E2,2425,2024-10-22,Stevenage,Cambridge,3.63,3.63,0.0
+E2,2425,2024-10-22,Stockport,Northampton,4.35,4.35,0.0
+E2,2425,2024-10-22,Wigan,Mansfield,3.27,3.27,0.0
+E2,2425,2024-10-22,Wrexham,Huddersfield,3.34,3.34,0.0
+E2,2425,2024-10-22,Barnsley,Charlton,3.47,3.47,0.0
+E2,2425,2024-10-22,Birmingham,Luton,3.71,3.71,0.0
+E2,2425,2024-10-22,Bristol Rvs,Shrewsbury,3.38,3.38,0.0
+E2,2425,2024-10-22,Luton,Wycombe,3.66,3.66,0.0
+E2,2425,2024-10-22,Crawley Town,Lincoln,3.41,3.41,0.0
+E2,2425,2024-10-22,Exeter,Reading,3.36,3.36,0.0
+E2,2425,2024-10-22,Leyton Orient,Rotherham,3.26,3.26,0.0
+E2,2425,2024-10-26,Charlton,Wrexham,3.15,3.15,0.0
+E2,2425,2024-10-26,Mansfield,Birmingham,3.74,3.74,0.0
+E2,2425,2024-10-26,Reading,Bristol Rvs,3.82,3.82,0.0
+E2,2425,2024-10-26,Luton,Peterboro,4.02,4.02,0.0
+E2,2425,2024-10-26,Cambridge,Luton,3.54,3.54,0.0
+E2,2425,2024-10-26,Huddersfield,Exeter,3.76,3.76,0.0
+E2,2425,2024-10-26,Lincoln,Stockport,3.19,3.19,0.0
+E2,2425,2024-10-26,Northampton,Crawley Town,3.42,3.42,0.0
+E2,2425,2024-10-26,Rotherham,Stevenage,3.29,3.29,0.0
+E2,2425,2024-10-26,Shrewsbury,Barnsley,3.56,3.56,0.0
+E2,2425,2024-10-26,Wycombe,Leyton Orient,3.44,3.44,0.0
+E2,2425,2024-10-28,Blackpool,Wigan,3.66,3.66,0.0
+E2,2425,2024-10-29,Stockport,Reading,3.62,3.62,0.0
+E2,2425,2024-10-29,Stevenage,Luton,3.26,3.26,0.0
+E2,2425,2024-10-29,Lincoln,Northampton,3.65,3.65,0.0
+E2,2425,2024-11-05,Luton,Crawley Town,3.5,3.5,0.0
+E2,2425,2024-11-05,Stockport,Wycombe,3.37,3.37,0.0
+E2,2425,2024-11-08,Barnsley,Rotherham,3.4,3.4,0.0
+E2,2425,2024-11-09,Birmingham,Northampton,5.81,5.81,0.0
+E2,2425,2024-11-09,Wrexham,Mansfield,3.77,3.77,0.0
+E2,2425,2024-11-09,Crawley Town,Huddersfield,3.74,3.74,0.0
+E2,2425,2024-11-09,Luton,Shrewsbury,3.33,3.33,0.0
+E2,2425,2024-11-09,Bristol Rvs,Lincoln,3.34,3.34,0.0
+E2,2425,2024-11-09,Stevenage,Reading,3.37,3.37,0.0
+E2,2425,2024-11-09,Stockport,Luton,3.32,3.32,0.0
+E2,2425,2024-11-09,Wigan,Wycombe,3.34,3.34,0.0
+E2,2425,2024-11-09,Peterboro,Cambridge,3.95,3.95,0.0
+E2,2425,2024-11-09,Leyton Orient,Blackpool,3.35,3.35,0.0
+E2,2425,2024-11-09,Exeter,Charlton,3.32,3.32,0.0
+E2,2425,2024-11-16,Bristol Rvs,Crawley Town,3.64,3.64,0.0
+E2,2425,2024-11-16,Cambridge,Barnsley,3.82,3.82,0.0
+E2,2425,2024-11-16,Stockport,Wrexham,3.42,3.42,0.0
+E2,2425,2024-11-16,Exeter,Lincoln,3.15,3.15,0.0
+E2,2425,2024-11-16,Blackpool,Northampton,4.08,4.08,0.0
+E2,2425,2024-11-23,Lincoln,Wycombe,3.2,3.2,0.0
+E2,2425,2024-11-23,Mansfield,Bristol Rvs,3.74,3.74,0.0
+E2,2425,2024-11-23,Northampton,Cambridge,3.34,3.34,0.0
+E2,2425,2024-11-23,Peterboro,Reading,3.84,3.84,0.0
+E2,2425,2024-11-23,Wrexham,Exeter,3.63,3.63,0.0
+E2,2425,2024-11-23,Luton,Blackpool,3.76,3.76,0.0
+E2,2425,2024-11-23,Stevenage,Leyton Orient,3.05,3.05,0.0
+E2,2425,2024-11-23,Shrewsbury,Birmingham,4.79,4.79,0.0
+E2,2425,2024-11-23,Barnsley,Wigan,3.62,3.62,0.0
+E2,2425,2024-11-23,Luton,Stockport,3.53,3.53,0.0
+E2,2425,2024-11-23,Crawley Town,Rotherham,3.57,3.57,0.0
+E2,2425,2024-11-23,Huddersfield,Charlton,3.54,3.54,0.0
+E2,2425,2024-11-26,Exeter,Birmingham,3.96,3.96,0.0
+E2,2425,2024-11-26,Barnsley,Reading,4.02,4.02,0.0
+E2,2425,2024-11-26,Bristol Rvs,Blackpool,3.5,3.5,0.0
+E2,2425,2024-11-26,Luton,Charlton,3.42,3.42,0.0
+E2,2425,2024-11-26,Cambridge,Luton,3.56,3.56,0.0
+E2,2425,2024-11-26,Leyton Orient,Huddersfield,3.08,3.08,0.0
+E2,2425,2024-11-26,Wigan,Northampton,3.61,3.61,0.0
+E2,2425,2024-11-26,Wrexham,Lincoln,3.23,3.23,0.0
+E2,2425,2024-11-26,Wycombe,Mansfield,4.2,4.2,0.0
+E2,2425,2024-12-03,Huddersfield,Wigan,3.54,3.54,0.0
+E2,2425,2024-12-03,Reading,Cambridge,3.82,3.82,0.0
+E2,2425,2024-12-03,Wrexham,Barnsley,3.41,3.41,0.0
+E2,2425,2024-12-03,Stevenage,Northampton,3.35,3.35,0.0
+E2,2425,2024-12-03,Rotherham,Lincoln,3.07,3.07,0.0
+E2,2425,2024-12-03,Leyton Orient,Bristol Rvs,3.46,3.46,0.0
+E2,2425,2024-12-03,Exeter,Wycombe,3.53,3.53,0.0
+E2,2425,2024-12-03,Charlton,Crawley Town,4.34,4.34,0.0
+E2,2425,2024-12-03,Luton,Mansfield,3.82,3.82,0.0
+E2,2425,2024-12-04,Shrewsbury,Blackpool,3.56,3.56,0.0
+E2,2425,2024-12-04,Birmingham,Stockport,3.98,3.98,0.0
+E2,2425,2024-12-04,Peterboro,Luton,4.93,4.93,0.0
+E2,2425,2024-12-07,Wycombe,Reading,4.11,4.11,0.0
+E2,2425,2024-12-07,Luton,Wrexham,3.49,3.49,0.0
+E2,2425,2024-12-07,Mansfield,Huddersfield,3.44,3.44,0.0
+E2,2425,2024-12-07,Stockport,Exeter,3.96,3.96,0.0
+E2,2425,2024-12-07,Cambridge,Shrewsbury,3.26,3.26,0.0
+E2,2425,2024-12-07,Lincoln,Charlton,3.22,3.22,0.0
+E2,2425,2024-12-07,Wigan,Leyton Orient,3.21,3.21,0.0
+E2,2425,2024-12-07,Barnsley,Birmingham,3.53,3.53,0.0
+E2,2425,2024-12-09,Northampton,Peterboro,3.66,3.66,0.0
+E2,2425,2024-12-14,Charlton,Mansfield,3.47,3.47,0.0
+E2,2425,2024-12-14,Luton,Wigan,3.77,3.77,0.0
+E2,2425,2024-12-14,Leyton Orient,Luton,3.99,3.99,0.0
+E2,2425,2024-12-14,Birmingham,Bristol Rvs,6.07,6.07,0.0
+E2,2425,2024-12-14,Exeter,Barnsley,3.47,3.47,0.0
+E2,2425,2024-12-14,Huddersfield,Lincoln,3.49,3.49,0.0
+E2,2425,2024-12-14,Peterboro,Crawley Town,4.22,4.22,0.0
+E2,2425,2024-12-14,Reading,Blackpool,3.57,3.57,0.0
+E2,2425,2024-12-14,Rotherham,Northampton,3.84,3.84,0.0
+E2,2425,2024-12-14,Shrewsbury,Wycombe,3.72,3.72,0.0
+E2,2425,2024-12-14,Stevenage,Stockport,3.13,3.13,0.0
+E2,2425,2024-12-14,Wrexham,Cambridge,3.98,3.98,0.0
+E2,2425,2024-12-20,Wycombe,Luton,3.58,3.58,0.0
+E2,2425,2024-12-20,Cambridge,Huddersfield,3.49,3.49,0.0
+E2,2425,2024-12-20,Stockport,Peterboro,4.17,4.17,0.0
+E2,2425,2024-12-21,Northampton,Charlton,3.42,3.42,0.0
+E2,2425,2024-12-21,Blackpool,Stevenage,3.27,3.27,0.0
+E2,2425,2024-12-21,Mansfield,Rotherham,3.42,3.42,0.0
+E2,2425,2024-12-21,Luton,Exeter,3.35,3.35,0.0
+E2,2425,2024-12-21,Wigan,Shrewsbury,3.56,3.56,0.0
+E2,2425,2024-12-21,Bristol Rvs,Wrexham,3.52,3.52,0.0
+E2,2425,2024-12-21,Lincoln,Reading,3.62,3.62,0.0
+E2,2425,2024-12-21,Barnsley,Leyton Orient,3.45,3.45,0.0
+E2,2425,2024-12-23,Crawley Town,Birmingham,4.79,4.79,0.0
+E2,2425,2024-12-26,Huddersfield,Stockport,3.34,3.34,0.0
+E2,2425,2024-12-26,Leyton Orient,Crawley Town,4.06,4.06,0.0
+E2,2425,2024-12-26,Birmingham,Luton,6.27,6.27,0.0
+E2,2425,2024-12-26,Luton,Barnsley,3.68,3.68,0.0
+E2,2425,2024-12-26,Charlton,Cambridge,3.88,3.88,0.0
+E2,2425,2024-12-26,Exeter,Bristol Rvs,3.56,3.56,0.0
+E2,2425,2024-12-26,Peterboro,Mansfield,3.68,3.68,0.0
+E2,2425,2024-12-26,Reading,Northampton,3.83,3.83,0.0
+E2,2425,2024-12-26,Rotherham,Wigan,3.23,3.23,0.0
+E2,2425,2024-12-26,Shrewsbury,Lincoln,3.55,3.55,0.0
+E2,2425,2024-12-26,Stevenage,Wycombe,3.16,3.16,0.0
+E2,2425,2024-12-26,Wrexham,Blackpool,3.53,3.53,0.0
+E2,2425,2024-12-29,Peterboro,Barnsley,3.68,3.68,0.0
+E2,2425,2024-12-29,Reading,Mansfield,3.51,3.51,0.0
+E2,2425,2024-12-29,Shrewsbury,Northampton,3.38,3.38,0.0
+E2,2425,2024-12-29,Stevenage,Bristol Rvs,3.52,3.52,0.0
+E2,2425,2024-12-29,Wrexham,Wigan,3.52,3.52,0.0
+E2,2425,2024-12-29,Leyton Orient,Cambridge,3.77,3.77,0.0
+E2,2425,2024-12-29,Huddersfield,Luton,4.6,4.6,0.0
+E2,2425,2024-12-29,Exeter,Crawley Town,3.82,3.82,0.0
+E2,2425,2024-12-29,Luton,Lincoln,3.38,3.38,0.0
+E2,2425,2024-12-29,Birmingham,Blackpool,4.38,4.38,0.0
+E2,2425,2024-12-29,Rotherham,Stockport,3.33,3.33,0.0
+E2,2425,2024-12-29,Charlton,Wycombe,3.27,3.27,0.0
+E2,2425,2025-01-01,Northampton,Stevenage,3.24,3.24,0.0
+E2,2425,2025-01-01,Stockport,Birmingham,3.39,3.39,0.0
+E2,2425,2025-01-01,Wycombe,Exeter,3.99,3.99,0.0
+E2,2425,2025-01-01,Barnsley,Wrexham,3.36,3.36,0.0
+E2,2425,2025-01-01,Blackpool,Shrewsbury,4.18,4.18,0.0
+E2,2425,2025-01-01,Bristol Rvs,Leyton Orient,3.31,3.31,0.0
+E2,2425,2025-01-01,Luton,Peterboro,3.46,3.46,0.0
+E2,2425,2025-01-01,Cambridge,Reading,3.48,3.48,0.0
+E2,2425,2025-01-01,Lincoln,Rotherham,3.4,3.4,0.0
+E2,2425,2025-01-01,Mansfield,Luton,3.38,3.38,0.0
+E2,2425,2025-01-04,Wigan,Birmingham,3.51,3.51,0.0
+E2,2425,2025-01-04,Luton,Northampton,3.25,3.25,0.0
+E2,2425,2025-01-04,Cambridge,Bristol Rvs,3.43,3.43,0.0
+E2,2425,2025-01-04,Barnsley,Crawley Town,4.33,4.33,0.0
+E2,2425,2025-01-04,Charlton,Reading,3.74,3.74,0.0
+E2,2425,2025-01-04,Exeter,Luton,3.44,3.44,0.0
+E2,2425,2025-01-04,Huddersfield,Rotherham,3.58,3.58,0.0
+E2,2425,2025-01-04,Leyton Orient,Shrewsbury,3.94,3.94,0.0
+E2,2425,2025-01-04,Lincoln,Stevenage,3.14,3.14,0.0
+E2,2425,2025-01-04,Stockport,Mansfield,3.46,3.46,0.0
+E2,2425,2025-01-04,Wrexham,Peterboro,4.0,4.0,0.0
+E2,2425,2025-01-04,Wycombe,Blackpool,3.61,3.61,0.0
+E2,2425,2025-01-07,Wycombe,Huddersfield,3.28,3.28,0.0
+E2,2425,2025-01-11,Rotherham,Luton,3.3,3.3,0.0
+E2,2425,2025-01-16,Shrewsbury,Wrexham,3.33,3.33,0.0
+E2,2425,2025-01-18,Crawley Town,Luton,3.5,3.5,0.0
+E2,2425,2025-01-18,Stevenage,Wigan,3.08,3.08,0.0
+E2,2425,2025-01-18,Birmingham,Exeter,5.13,5.13,0.0
+E2,2425,2025-01-18,Northampton,Lincoln,3.35,3.35,0.0
+E2,2425,2025-01-18,Peterboro,Leyton Orient,3.57,3.57,0.0
+E2,2425,2025-01-18,Blackpool,Huddersfield,3.31,3.31,0.0
+E2,2425,2025-01-18,Bristol Rvs,Barnsley,3.73,3.73,0.0
+E2,2425,2025-01-18,Reading,Stockport,3.37,3.37,0.0
+E2,2425,2025-01-18,Rotherham,Charlton,3.19,3.19,0.0
+E2,2425,2025-01-18,Luton,Cambridge,4.22,4.22,0.0
+E2,2425,2025-01-18,Mansfield,Wycombe,3.3,3.3,0.0
+E2,2425,2025-01-21,Wigan,Luton,3.66,3.66,0.0
+E2,2425,2025-01-21,Luton,Charlton,3.4,3.4,0.0
+E2,2425,2025-01-21,Peterboro,Exeter,3.68,3.68,0.0
+E2,2425,2025-01-23,Wrexham,Birmingham,3.26,3.26,0.0
+E2,2425,2025-01-25,Lincoln,Peterboro,3.53,3.53,0.0
+E2,2425,2025-01-25,Stockport,Crawley Town,4.38,4.38,0.0
+E2,2425,2025-01-25,Wigan,Bristol Rvs,3.56,3.56,0.0
+E2,2425,2025-01-25,Wycombe,Northampton,4.81,4.81,0.0
+E2,2425,2025-01-25,Leyton Orient,Reading,3.88,3.88,0.0
+E2,2425,2025-01-25,Huddersfield,Luton,3.57,3.57,0.0
+E2,2425,2025-01-25,Charlton,Shrewsbury,3.88,3.88,0.0
+E2,2425,2025-01-25,Cambridge,Mansfield,3.47,3.47,0.0
+E2,2425,2025-01-25,Luton,Rotherham,3.41,3.41,0.0
+E2,2425,2025-01-25,Barnsley,Stevenage,3.57,3.57,0.0
+E2,2425,2025-01-25,Exeter,Blackpool,3.33,3.33,0.0
+E2,2425,2025-01-28,Rotherham,Cambridge,3.66,3.66,0.0
+E2,2425,2025-01-28,Stockport,Shrewsbury,4.25,4.25,0.0
+E2,2425,2025-01-28,Wrexham,Stevenage,3.13,3.13,0.0
+E2,2425,2025-01-28,Wycombe,Barnsley,3.41,3.41,0.0
+E2,2425,2025-01-28,Huddersfield,Birmingham,3.18,3.18,0.0
+E2,2425,2025-01-28,Luton,Northampton,4.6,4.6,0.0
+E2,2425,2025-01-28,Luton,Reading,3.37,3.37,0.0
+E2,2425,2025-01-28,Charlton,Bristol Rvs,4.12,4.12,0.0
+E2,2425,2025-01-28,Exeter,Leyton Orient,3.23,3.23,0.0
+E2,2425,2025-01-28,Lincoln,Blackpool,3.23,3.23,0.0
+E2,2425,2025-01-28,Mansfield,Crawley Town,4.34,4.34,0.0
+E2,2425,2025-01-28,Peterboro,Wigan,3.3,3.3,0.0
+E2,2425,2025-02-01,Reading,Luton,3.65,3.65,0.0
+E2,2425,2025-02-01,Barnsley,Luton,4.1,4.1,0.0
+E2,2425,2025-02-01,Stevenage,Exeter,3.66,3.66,0.0
+E2,2425,2025-02-01,Birmingham,Rotherham,4.04,4.04,0.0
+E2,2425,2025-02-01,Blackpool,Charlton,3.14,3.14,0.0
+E2,2425,2025-02-01,Cambridge,Wycombe,3.53,3.53,0.0
+E2,2425,2025-02-01,Crawley Town,Wrexham,3.55,3.55,0.0
+E2,2425,2025-02-01,Leyton Orient,Stockport,3.11,3.11,0.0
+E2,2425,2025-02-01,Northampton,Huddersfield,3.67,3.67,0.0
+E2,2425,2025-02-01,Shrewsbury,Mansfield,3.25,3.25,0.0
+E2,2425,2025-02-01,Wigan,Lincoln,2.91,2.91,0.0
+E2,2425,2025-02-02,Bristol Rvs,Peterboro,3.4,3.4,0.0
+E2,2425,2025-02-07,Mansfield,Northampton,3.55,3.55,0.0
+E2,2425,2025-02-08,Lincoln,Cambridge,3.51,3.51,0.0
+E2,2425,2025-02-08,Rotherham,Shrewsbury,3.66,3.66,0.0
+E2,2425,2025-02-08,Huddersfield,Reading,4.35,4.35,0.0
+E2,2425,2025-02-08,Luton,Blackpool,3.39,3.39,0.0
+E2,2425,2025-02-08,Luton,Crawley Town,4.9,4.9,0.0
+E2,2425,2025-02-08,Stockport,Barnsley,3.58,3.58,0.0
+E2,2425,2025-02-08,Charlton,Stevenage,3.1,3.1,0.0
+E2,2425,2025-02-11,Birmingham,Cambridge,5.43,5.43,0.0
+E2,2425,2025-02-11,Blackpool,Rotherham,3.33,3.33,0.0
+E2,2425,2025-02-11,Bristol Rvs,Stockport,3.81,3.81,0.0
+E2,2425,2025-02-11,Charlton,Peterboro,4.14,4.14,0.0
+E2,2425,2025-02-11,Crawley Town,Stevenage,3.28,3.28,0.0
+E2,2425,2025-02-11,Leyton Orient,Mansfield,3.56,3.56,0.0
+E2,2425,2025-02-11,Reading,Shrewsbury,3.24,3.24,0.0
+E2,2425,2025-02-15,Leyton Orient,Lincoln,3.35,3.35,0.0
+E2,2425,2025-02-15,Cambridge,Exeter,3.31,3.31,0.0
+E2,2425,2025-02-15,Northampton,Wrexham,3.36,3.36,0.0
+E2,2425,2025-02-15,Barnsley,Huddersfield,3.38,3.38,0.0
+E2,2425,2025-02-15,Birmingham,Charlton,3.8,3.8,0.0
+E2,2425,2025-02-15,Blackpool,Mansfield,3.42,3.42,0.0
+E2,2425,2025-02-15,Bristol Rvs,Luton,3.26,3.26,0.0
+E2,2425,2025-02-15,Crawley Town,Wycombe,3.64,3.64,0.0
+E2,2425,2025-02-15,Reading,Rotherham,3.36,3.36,0.0
+E2,2425,2025-02-15,Shrewsbury,Luton,3.5,3.5,0.0
+E2,2425,2025-02-15,Stevenage,Peterboro,3.49,3.49,0.0
+E2,2425,2025-02-15,Wigan,Stockport,3.24,3.24,0.0
+E2,2425,2025-02-18,Mansfield,Lincoln,3.14,3.14,0.0
+E2,2425,2025-02-18,Shrewsbury,Huddersfield,3.16,3.16,0.0
+E2,2425,2025-02-18,Stevenage,Luton,3.32,3.32,0.0
+E2,2425,2025-02-18,Wycombe,Bristol Rvs,4.58,4.58,0.0
+E2,2425,2025-02-18,Wrexham,Leyton Orient,3.11,3.11,0.0
+E2,2425,2025-02-18,Crawley Town,Wigan,3.21,3.21,0.0
+E2,2425,2025-02-22,Shrewsbury,Stevenage,2.95,2.95,0.0
+E2,2425,2025-02-22,Wycombe,Wigan,3.5,3.5,0.0
+E2,2425,2025-02-22,Rotherham,Barnsley,3.33,3.33,0.0
+E2,2425,2025-02-22,Reading,Birmingham,4.49,4.49,0.0
+E2,2425,2025-02-22,Blackpool,Crawley Town,4.12,4.12,0.0
+E2,2425,2025-02-22,Luton,Leyton Orient,3.4,3.4,0.0
+E2,2425,2025-02-22,Cambridge,Stockport,3.5,3.5,0.0
+E2,2425,2025-02-22,Charlton,Exeter,4.19,4.19,0.0
+E2,2425,2025-02-22,Huddersfield,Peterboro,4.07,4.07,0.0
+E2,2425,2025-02-22,Lincoln,Luton,3.45,3.45,0.0
+E2,2425,2025-02-22,Northampton,Bristol Rvs,3.26,3.26,0.0
+E2,2425,2025-02-23,Mansfield,Wrexham,3.26,3.26,0.0
+E2,2425,2025-02-25,Wigan,Huddersfield,2.99,2.99,0.0
+E2,2425,2025-02-25,Birmingham,Leyton Orient,3.7,3.7,0.0
+E2,2425,2025-02-25,Northampton,Barnsley,3.43,3.43,0.0
+E2,2425,2025-03-01,Leyton Orient,Charlton,3.13,3.13,0.0
+E2,2425,2025-03-01,Peterboro,Shrewsbury,3.56,3.56,0.0
+E2,2425,2025-03-01,Stevenage,Huddersfield,3.22,3.22,0.0
+E2,2425,2025-03-01,Stockport,Blackpool,3.57,3.57,0.0
+E2,2425,2025-03-01,Wigan,Reading,3.46,3.46,0.0
+E2,2425,2025-03-01,Birmingham,Wycombe,3.49,3.49,0.0
+E2,2425,2025-03-01,Wrexham,Luton,3.37,3.37,0.0
+E2,2425,2025-03-01,Bristol Rvs,Rotherham,3.37,3.37,0.0
+E2,2425,2025-03-01,Barnsley,Lincoln,3.39,3.39,0.0
+E2,2425,2025-03-01,Luton,Mansfield,3.4,3.4,0.0
+E2,2425,2025-03-01,Crawley Town,Cambridge,3.42,3.42,0.0
+E2,2425,2025-03-01,Exeter,Northampton,3.27,3.27,0.0
+E2,2425,2025-03-04,Shrewsbury,Bristol Rvs,3.27,3.27,0.0
+E2,2425,2025-03-04,Blackpool,Peterboro,3.63,3.63,0.0
+E2,2425,2025-03-04,Luton,Birmingham,3.35,3.35,0.0
+E2,2425,2025-03-04,Cambridge,Stevenage,3.07,3.07,0.0
+E2,2425,2025-03-04,Charlton,Barnsley,3.59,3.59,0.0
+E2,2425,2025-03-04,Huddersfield,Wrexham,3.15,3.15,0.0
+E2,2425,2025-03-04,Lincoln,Crawley Town,3.49,3.49,0.0
+E2,2425,2025-03-04,Mansfield,Wigan,3.18,3.18,0.0
+E2,2425,2025-03-04,Northampton,Stockport,3.17,3.17,0.0
+E2,2425,2025-03-04,Rotherham,Leyton Orient,3.37,3.37,0.0
+E2,2425,2025-03-04,Reading,Exeter,3.69,3.69,0.0
+E2,2425,2025-03-04,Wycombe,Luton,3.9,3.9,0.0
+E2,2425,2025-03-08,Leyton Orient,Northampton,3.62,3.62,0.0
+E2,2425,2025-03-08,Peterboro,Wycombe,3.45,3.45,0.0
+E2,2425,2025-03-08,Stevenage,Mansfield,3.16,3.16,0.0
+E2,2425,2025-03-08,Wigan,Cambridge,3.2,3.2,0.0
+E2,2425,2025-03-08,Wrexham,Rotherham,3.22,3.22,0.0
+E2,2425,2025-03-08,Exeter,Shrewsbury,3.1,3.1,0.0
+E2,2425,2025-03-08,Luton,Luton,3.49,3.49,0.0
+E2,2425,2025-03-08,Bristol Rvs,Huddersfield,3.64,3.64,0.0
+E2,2425,2025-03-08,Birmingham,Lincoln,3.87,3.87,0.0
+E2,2425,2025-03-08,Barnsley,Blackpool,3.46,3.46,0.0
+E2,2425,2025-03-08,Stockport,Charlton,3.15,3.15,0.0
+E2,2425,2025-03-08,Crawley Town,Reading,3.52,3.52,0.0
+E2,2425,2025-03-11,Crawley Town,Charlton,3.65,3.65,0.0
+E2,2425,2025-03-11,Birmingham,Stevenage,3.81,3.81,0.0
+E2,2425,2025-03-11,Blackpool,Cambridge,3.84,3.84,0.0
+E2,2425,2025-03-11,Bristol Rvs,Luton,3.72,3.72,0.0
+E2,2425,2025-03-11,Exeter,Mansfield,3.35,3.35,0.0
+E2,2425,2025-03-11,Reading,Wrexham,3.37,3.37,0.0
+E2,2425,2025-03-15,Huddersfield,Crawley Town,4.31,4.31,0.0
+E2,2425,2025-03-15,Lincoln,Bristol Rvs,3.97,3.97,0.0
+E2,2425,2025-03-15,Mansfield,Barnsley,3.37,3.37,0.0
+E2,2425,2025-03-15,Wycombe,Wrexham,3.28,3.28,0.0
+E2,2425,2025-03-15,Shrewsbury,Luton,3.08,3.08,0.0
+E2,2425,2025-03-15,Rotherham,Exeter,3.59,3.59,0.0
+E2,2425,2025-03-15,Reading,Stevenage,3.22,3.22,0.0
+E2,2425,2025-03-15,Luton,Stockport,3.26,3.26,0.0
+E2,2425,2025-03-15,Cambridge,Peterboro,3.47,3.47,0.0
+E2,2425,2025-03-15,Blackpool,Leyton Orient,3.32,3.32,0.0
+E2,2425,2025-03-15,Charlton,Wigan,3.68,3.68,0.0
+E2,2425,2025-03-15,Northampton,Birmingham,3.62,3.62,0.0
+E2,2425,2025-03-18,Rotherham,Wycombe,3.18,3.18,0.0
+E2,2425,2025-03-22,Northampton,Blackpool,3.22,3.22,0.0
+E2,2425,2025-03-22,Lincoln,Exeter,3.47,3.47,0.0
+E2,2425,2025-03-22,Peterboro,Charlton,3.3,3.3,0.0
+E2,2425,2025-03-22,Barnsley,Cambridge,3.94,3.94,0.0
+E2,2425,2025-03-22,Crawley Town,Bristol Rvs,3.5,3.5,0.0
+E2,2425,2025-03-22,Wrexham,Stockport,2.98,2.98,0.0
+E2,2425,2025-03-27,Leyton Orient,Stevenage,3.18,3.18,0.0
+E2,2425,2025-03-29,Reading,Peterboro,3.49,3.49,0.0
+E2,2425,2025-03-29,Rotherham,Crawley Town,4.01,4.01,0.0
+E2,2425,2025-03-29,Exeter,Wrexham,3.37,3.37,0.0
+E2,2425,2025-03-29,Cambridge,Northampton,3.17,3.17,0.0
+E2,2425,2025-03-29,Bristol Rvs,Mansfield,3.32,3.32,0.0
+E2,2425,2025-03-29,Blackpool,Luton,3.42,3.42,0.0
+E2,2425,2025-03-29,Birmingham,Shrewsbury,6.13,6.13,0.0
+E2,2425,2025-03-29,Wigan,Barnsley,3.25,3.25,0.0
+E2,2425,2025-03-29,Wycombe,Lincoln,3.28,3.28,0.0
+E2,2425,2025-03-29,Stockport,Luton,3.88,3.88,0.0
+E2,2425,2025-03-29,Charlton,Huddersfield,3.27,3.27,0.0
+E2,2425,2025-04-01,Mansfield,Charlton,3.32,3.32,0.0
+E2,2425,2025-04-01,Barnsley,Exeter,3.67,3.67,0.0
+E2,2425,2025-04-01,Blackpool,Reading,3.63,3.63,0.0
+E2,2425,2025-04-01,Luton,Leyton Orient,3.2,3.2,0.0
+E2,2425,2025-04-01,Cambridge,Wrexham,3.59,3.59,0.0
+E2,2425,2025-04-01,Crawley Town,Peterboro,3.58,3.58,0.0
+E2,2425,2025-04-01,Lincoln,Huddersfield,3.17,3.17,0.0
+E2,2425,2025-04-01,Northampton,Rotherham,3.31,3.31,0.0
+E2,2425,2025-04-01,Stockport,Stevenage,3.34,3.34,0.0
+E2,2425,2025-04-01,Wigan,Luton,3.16,3.16,0.0
+E2,2425,2025-04-01,Wycombe,Shrewsbury,4.8,4.8,0.0
+E2,2425,2025-04-01,Bristol Rvs,Birmingham,4.69,4.69,0.0
+E2,2425,2025-04-05,Leyton Orient,Wigan,3.33,3.33,0.0
+E2,2425,2025-04-05,Peterboro,Northampton,3.71,3.71,0.0
+E2,2425,2025-04-05,Rotherham,Blackpool,3.47,3.47,0.0
+E2,2425,2025-04-05,Shrewsbury,Cambridge,3.0,3.0,0.0
+E2,2425,2025-04-05,Stevenage,Crawley Town,3.67,3.67,0.0
+E2,2425,2025-04-05,Exeter,Stockport,3.31,3.31,0.0
+E2,2425,2025-04-05,Charlton,Lincoln,3.45,3.45,0.0
+E2,2425,2025-04-05,Luton,Bristol Rvs,4.82,4.82,0.0
+E2,2425,2025-04-05,Birmingham,Barnsley,4.83,4.83,0.0
+E2,2425,2025-04-05,Wrexham,Luton,3.88,3.88,0.0
+E2,2425,2025-04-05,Reading,Wycombe,3.56,3.56,0.0
+E2,2425,2025-04-05,Huddersfield,Mansfield,3.65,3.65,0.0
+E2,2425,2025-04-08,Luton,Rotherham,3.78,3.78,0.0
+E2,2425,2025-04-08,Exeter,Wigan,2.99,2.99,0.0
+E2,2425,2025-04-08,Huddersfield,Wycombe,3.21,3.21,0.0
+E2,2425,2025-04-08,Mansfield,Leyton Orient,3.35,3.35,0.0
+E2,2425,2025-04-08,Peterboro,Birmingham,3.98,3.98,0.0
+E2,2425,2025-04-08,Shrewsbury,Reading,3.4,3.4,0.0
+E2,2425,2025-04-12,Lincoln,Shrewsbury,3.95,3.95,0.0
+E2,2425,2025-04-12,Wigan,Wrexham,3.17,3.17,0.0
+E2,2425,2025-04-12,Wycombe,Stevenage,3.71,3.71,0.0
+E2,2425,2025-04-12,Barnsley,Luton,3.62,3.62,0.0
+E2,2425,2025-04-12,Bristol Rvs,Exeter,3.17,3.17,0.0
+E2,2425,2025-04-12,Luton,Huddersfield,3.37,3.37,0.0
+E2,2425,2025-04-12,Cambridge,Charlton,3.65,3.65,0.0
+E2,2425,2025-04-12,Crawley Town,Leyton Orient,3.45,3.45,0.0
+E2,2425,2025-04-12,Northampton,Reading,3.44,3.44,0.0
+E2,2425,2025-04-12,Stockport,Rotherham,3.68,3.68,0.0
+E2,2425,2025-04-18,Reading,Lincoln,3.4,3.4,0.0
+E2,2425,2025-04-18,Wrexham,Bristol Rvs,4.43,4.43,0.0
+E2,2425,2025-04-18,Rotherham,Mansfield,3.36,3.36,0.0
+E2,2425,2025-04-18,Shrewsbury,Wigan,3.15,3.15,0.0
+E2,2425,2025-04-18,Stevenage,Blackpool,3.19,3.19,0.0
+E2,2425,2025-04-18,Exeter,Luton,3.28,3.28,0.0
+E2,2425,2025-04-18,Birmingham,Crawley Town,5.25,5.25,0.0
+E2,2425,2025-04-18,Luton,Wycombe,3.33,3.33,0.0
+E2,2425,2025-04-18,Charlton,Northampton,3.83,3.83,0.0
+E2,2425,2025-04-18,Huddersfield,Cambridge,3.92,3.92,0.0
+E2,2425,2025-04-18,Leyton Orient,Barnsley,3.94,3.94,0.0
+E2,2425,2025-04-18,Peterboro,Stockport,3.55,3.55,0.0
+E2,2425,2025-04-21,Mansfield,Reading,3.62,3.62,0.0
+E2,2425,2025-04-21,Barnsley,Peterboro,3.76,3.76,0.0
+E2,2425,2025-04-21,Blackpool,Wrexham,3.38,3.38,0.0
+E2,2425,2025-04-21,Bristol Rvs,Stevenage,3.3,3.3,0.0
+E2,2425,2025-04-21,Luton,Birmingham,3.87,3.87,0.0
+E2,2425,2025-04-21,Cambridge,Leyton Orient,3.35,3.35,0.0
+E2,2425,2025-04-21,Crawley Town,Exeter,3.53,3.53,0.0
+E2,2425,2025-04-21,Lincoln,Luton,3.35,3.35,0.0
+E2,2425,2025-04-21,Northampton,Shrewsbury,3.85,3.85,0.0
+E2,2425,2025-04-21,Stockport,Huddersfield,3.54,3.54,0.0
+E2,2425,2025-04-21,Wigan,Rotherham,3.12,3.12,0.0
+E2,2425,2025-04-21,Wycombe,Charlton,3.33,3.33,0.0
+E2,2425,2025-04-24,Stevenage,Birmingham,3.49,3.49,0.0
+E2,2425,2025-04-26,Stockport,Lincoln,3.44,3.44,0.0
+E2,2425,2025-04-26,Wigan,Blackpool,3.25,3.25,0.0
+E2,2425,2025-04-26,Wrexham,Charlton,3.14,3.14,0.0
+E2,2425,2025-04-26,Peterboro,Luton,3.82,3.82,0.0
+E2,2425,2025-04-26,Exeter,Huddersfield,3.44,3.44,0.0
+E2,2425,2025-04-26,Crawley Town,Northampton,3.59,3.59,0.0
+E2,2425,2025-04-26,Luton,Cambridge,3.52,3.52,0.0
+E2,2425,2025-04-26,Barnsley,Shrewsbury,4.29,4.29,0.0
+E2,2425,2025-04-26,Leyton Orient,Wycombe,3.29,3.29,0.0
+E2,2425,2025-04-26,Bristol Rvs,Reading,3.44,3.44,0.0
+E2,2425,2025-04-27,Stevenage,Rotherham,3.27,3.27,0.0
+E2,2425,2025-04-27,Birmingham,Mansfield,4.26,4.26,0.0
+E2,2425,2025-04-29,Luton,Wigan,3.01,3.01,0.0
+E2,2425,2025-04-30,Blackpool,Birmingham,3.6,3.6,0.0
+E2,2425,2025-04-30,Mansfield,Peterboro,3.67,3.67,0.0
+E2,2425,2025-05-03,Northampton,Wigan,3.14,3.14,0.0
+E2,2425,2025-05-03,Reading,Barnsley,3.98,3.98,0.0
+E2,2425,2025-05-03,Rotherham,Peterboro,3.73,3.73,0.0
+E2,2425,2025-05-03,Shrewsbury,Crawley Town,3.63,3.63,0.0
+E2,2425,2025-05-03,Wycombe,Stockport,3.2,3.2,0.0
+E2,2425,2025-05-03,Blackpool,Bristol Rvs,4.0,4.0,0.0
+E2,2425,2025-05-03,Cambridge,Birmingham,4.49,4.49,0.0
+E2,2425,2025-05-03,Luton,Stevenage,3.5,3.5,0.0
+E2,2425,2025-05-03,Charlton,Luton,3.91,3.91,0.0
+E2,2425,2025-05-03,Huddersfield,Leyton Orient,3.73,3.73,0.0
+E2,2425,2025-05-03,Lincoln,Wrexham,3.37,3.37,0.0
+E2,2425,2025-05-03,Mansfield,Exeter,3.64,3.64,0.0

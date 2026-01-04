@@ -12,6 +12,8 @@ export interface League {
   country: string;
   tier: number;
   url: string;
+  dataSource?: 'football-data.co.uk' | 'football-data.org' | 'api-football'; // Which source provides data
+  available?: boolean; // Whether data is actually available
 }
 
 export const allLeagues: League[] = [
@@ -98,7 +100,7 @@ export const allLeagues: League[] = [
   // ==========================================================================
   // SWEDEN
   // ==========================================================================
-  { id: '25', name: 'Allsvenskan', code: 'SWE1', country: 'Sweden', tier: 1, url: 'football-data.co.uk/swedenm.php' },
+  { id: '25', name: 'Allsvenskan', code: 'SWE1', country: 'Sweden', tier: 1, url: 'football-data.co.uk/swedenm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
   // NORWAY
@@ -106,9 +108,9 @@ export const allLeagues: League[] = [
   { id: '26', name: 'Eliteserien', code: 'NO1', country: 'Norway', tier: 1, url: 'football-data.co.uk/norwaym.php' },
   
   // ==========================================================================
-  // FINLAND
+  // FINLAND (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '27', name: 'Veikkausliiga', code: 'FIN1', country: 'Finland', tier: 1, url: 'football-data.co.uk/finlandm.php' },
+  { id: '27', name: 'Veikkausliiga', code: 'FIN1', country: 'Finland', tier: 1, url: 'football-data.co.uk/finlandm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
   // POLAND
@@ -118,77 +120,77 @@ export const allLeagues: League[] = [
   // ==========================================================================
   // ROMANIA
   // ==========================================================================
-  { id: '29', name: 'Liga 1', code: 'RO1', country: 'Romania', tier: 1, url: 'football-data.co.uk/romaniam.php' },
+  { id: '29', name: 'Liga 1', code: 'RO1', country: 'Romania', tier: 1, url: 'football-data.co.uk/romaniam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // RUSSIA
+  // RUSSIA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '30', name: 'Premier League', code: 'RUS1', country: 'Russia', tier: 1, url: 'football-data.co.uk/russiam.php' },
+  { id: '30', name: 'Premier League', code: 'RUS1', country: 'Russia', tier: 1, url: 'football-data.co.uk/russiam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // CZECH REPUBLIC
+  // CZECH REPUBLIC (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '31', name: 'First League', code: 'CZE1', country: 'Czech Republic', tier: 1, url: 'football-data.co.uk/czechm.php' },
+  { id: '31', name: 'First League', code: 'CZE1', country: 'Czech Republic', tier: 1, url: 'football-data.co.uk/czechm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // CROATIA
+  // CROATIA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '32', name: 'Prva HNL', code: 'CRO1', country: 'Croatia', tier: 1, url: 'football-data.co.uk/croatiam.php' },
+  { id: '32', name: 'Prva HNL', code: 'CRO1', country: 'Croatia', tier: 1, url: 'football-data.co.uk/croatiam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // SERBIA
+  // SERBIA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '33', name: 'SuperLiga', code: 'SRB1', country: 'Serbia', tier: 1, url: 'football-data.co.uk/serbiam.php' },
+  { id: '33', name: 'SuperLiga', code: 'SRB1', country: 'Serbia', tier: 1, url: 'football-data.co.uk/serbiam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // UKRAINE
+  // UKRAINE (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '34', name: 'Premier League', code: 'UKR1', country: 'Ukraine', tier: 1, url: 'football-data.co.uk/ukrainem.php' },
+  { id: '34', name: 'Premier League', code: 'UKR1', country: 'Ukraine', tier: 1, url: 'football-data.co.uk/ukrainem.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // IRELAND
+  // IRELAND (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '35', name: 'Premier Division', code: 'IRL1', country: 'Ireland', tier: 1, url: 'football-data.co.uk/irelandm.php' },
+  { id: '35', name: 'Premier Division', code: 'IRL1', country: 'Ireland', tier: 1, url: 'football-data.co.uk/irelandm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // ARGENTINA
+  // ARGENTINA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '36', name: 'Primera Division', code: 'ARG1', country: 'Argentina', tier: 1, url: 'football-data.co.uk/argentinam.php' },
+  { id: '36', name: 'Primera Division', code: 'ARG1', country: 'Argentina', tier: 1, url: 'football-data.co.uk/argentinam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // BRAZIL
+  // BRAZIL (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '37', name: 'Serie A', code: 'BRA1', country: 'Brazil', tier: 1, url: 'football-data.co.uk/brazilm.php' },
+  { id: '37', name: 'Serie A', code: 'BRA1', country: 'Brazil', tier: 1, url: 'football-data.co.uk/brazilm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // MEXICO
+  // MEXICO (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '38', name: 'Liga MX', code: 'MEX1', country: 'Mexico', tier: 1, url: 'football-data.co.uk/mexicom.php' },
+  { id: '38', name: 'Liga MX', code: 'MEX1', country: 'Mexico', tier: 1, url: 'football-data.co.uk/mexicom.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // USA
+  // USA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '39', name: 'Major League Soccer', code: 'USA1', country: 'USA', tier: 1, url: 'football-data.co.uk/usam.php' },
+  { id: '39', name: 'Major League Soccer', code: 'USA1', country: 'USA', tier: 1, url: 'football-data.co.uk/usam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // CHINA
+  // CHINA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '40', name: 'Super League', code: 'CHN1', country: 'China', tier: 1, url: 'football-data.co.uk/chinam.php' },
+  { id: '40', name: 'Super League', code: 'CHN1', country: 'China', tier: 1, url: 'football-data.co.uk/chinam.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // JAPAN
+  // JAPAN (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '41', name: 'J-League', code: 'JPN1', country: 'Japan', tier: 1, url: 'football-data.co.uk/japanm.php' },
+  { id: '41', name: 'J-League', code: 'JPN1', country: 'Japan', tier: 1, url: 'football-data.co.uk/japanm.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // SOUTH KOREA
+  // SOUTH KOREA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '42', name: 'K League 1', code: 'KOR1', country: 'South Korea', tier: 1, url: 'football-data.co.uk/koream.php' },
+  { id: '42', name: 'K League 1', code: 'KOR1', country: 'South Korea', tier: 1, url: 'football-data.co.uk/koream.php', dataSource: 'football-data.org', available: true },
   
   // ==========================================================================
-  // AUSTRALIA
+  // AUSTRALIA (Uses Football-Data.org API)
   // ==========================================================================
-  { id: '43', name: 'A-League', code: 'AUS1', country: 'Australia', tier: 1, url: 'football-data.co.uk/australiam.php' },
+  { id: '43', name: 'A-League', code: 'AUS1', country: 'Australia', tier: 1, url: 'football-data.co.uk/australiam.php', dataSource: 'football-data.org', available: true },
 ];
 
 /**

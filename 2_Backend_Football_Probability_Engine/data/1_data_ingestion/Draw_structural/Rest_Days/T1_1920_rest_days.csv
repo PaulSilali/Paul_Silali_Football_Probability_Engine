@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+T1,1920,2019-08-16,Denizlispor,Galatasaray,7,7,False
+T1,1920,2019-08-17,Genclerbirligi,Rizespor,7,7,False
+T1,1920,2019-08-17,Kocaelispor,Antalyaspor,7,7,False
+T1,1920,2019-08-17,Samsunspor,Besiktas,7,7,False
+T1,1920,2019-08-18,Antalyaspor,Karagumruk,1,7,False
+T1,1920,2019-08-18,Goztep,Antalyaspor,7,1,False
+T1,1920,2019-08-18,Kasimpasa,Trabzonspor,7,7,False
+T1,1920,2019-08-18,Yeni Malatyaspor,Buyuksehyr,7,7,False
+T1,1920,2019-08-19,Fenerbahce,Gaziantep,7,7,False
+T1,1920,2019-08-23,Besiktas,Goztep,6,5,False
+T1,1920,2019-08-24,Karagumruk,Kocaelispor,6,7,False
+T1,1920,2019-08-24,Antalyaspor,Kasimpasa,6,6,False
+T1,1920,2019-08-24,Buyuksehyr,Fenerbahce,6,5,False
+T1,1920,2019-08-25,Rizespor,Samsunspor,8,8,False
+T1,1920,2019-08-25,Trabzonspor,Yeni Malatyaspor,7,7,False
+T1,1920,2019-08-25,Antalyaspor,Denizlispor,1,9,False
+T1,1920,2019-08-25,Galatasaray,Antalyaspor,9,1,False
+T1,1920,2019-08-26,Gaziantep,Genclerbirligi,7,9,False
+T1,1920,2019-08-30,Kasimpasa,Karagumruk,6,6,False
+T1,1920,2019-08-30,Kocaelispor,Galatasaray,6,5,False
+T1,1920,2019-08-31,Antalyaspor,Antalyaspor,6,6,False
+T1,1920,2019-08-31,Besiktas,Rizespor,8,6,False
+T1,1920,2019-08-31,Goztep,Denizlispor,8,6,False
+T1,1920,2019-09-01,Genclerbirligi,Buyuksehyr,6,8,False
+T1,1920,2019-09-01,Samsunspor,Gaziantep,7,6,False
+T1,1920,2019-09-01,Fenerbahce,Trabzonspor,8,7,False
+T1,1920,2019-09-01,Yeni Malatyaspor,Antalyaspor,7,1,False
+T1,1920,2019-09-13,Galatasaray,Kasimpasa,14,14,False
+T1,1920,2019-09-14,Buyuksehyr,Samsunspor,13,13,False
+T1,1920,2019-09-14,Antalyaspor,Kocaelispor,13,15,False
+T1,1920,2019-09-14,Gaziantep,Besiktas,13,14,False
+T1,1920,2019-09-15,Karagumruk,Yeni Malatyaspor,16,14,False
+T1,1920,2019-09-15,Rizespor,Goztep,15,15,False
+T1,1920,2019-09-15,Denizlispor,Antalyaspor,15,1,False
+T1,1920,2019-09-15,Trabzonspor,Genclerbirligi,14,14,False
+T1,1920,2019-09-16,Antalyaspor,Fenerbahce,1,15,False
+T1,1920,2019-09-20,Goztep,Antalyaspor,5,4,False
+T1,1920,2019-09-21,Kasimpasa,Antalyaspor,8,1,False
+T1,1920,2019-09-21,Kocaelispor,Denizlispor,7,6,False
+T1,1920,2019-09-21,Fenerbahce,Karagumruk,5,6,False
+T1,1920,2019-09-22,Rizespor,Gaziantep,7,8,False
+T1,1920,2019-09-22,Genclerbirligi,Antalyaspor,7,1,False
+T1,1920,2019-09-22,Yeni Malatyaspor,Galatasaray,7,9,False
+T1,1920,2019-09-23,Besiktas,Buyuksehyr,9,9,False
+T1,1920,2019-09-23,Samsunspor,Trabzonspor,9,8,False
+T1,1920,2019-09-27,Buyuksehyr,Rizespor,4,5,False
+T1,1920,2019-09-28,Denizlispor,Kasimpasa,7,7,False
+T1,1920,2019-09-28,Antalyaspor,Samsunspor,6,5,False
+T1,1920,2019-09-28,Galatasaray,Fenerbahce,6,7,False
+T1,1920,2019-09-29,Antalyaspor,Kocaelispor,1,8,False
+T1,1920,2019-09-29,Karagumruk,Genclerbirligi,8,7,False
+T1,1920,2019-09-29,Antalyaspor,Yeni Malatyaspor,1,7,False
+T1,1920,2019-09-29,Trabzonspor,Besiktas,6,6,False
+T1,1920,2019-09-30,Gaziantep,Goztep,8,10,False
+T1,1920,2019-10-04,Fenerbahce,Antalyaspor,6,5,False
+T1,1920,2019-10-04,Yeni Malatyaspor,Denizlispor,5,6,False
+T1,1920,2019-10-05,Kasimpasa,Antalyaspor,7,1,False
+T1,1920,2019-10-05,Goztep,Kocaelispor,5,6,False
+T1,1920,2019-10-05,Genclerbirligi,Galatasaray,6,7,False
+T1,1920,2019-10-06,Samsunspor,Karagumruk,8,7,False
+T1,1920,2019-10-06,Besiktas,Antalyaspor,7,1,False
+T1,1920,2019-10-06,Gaziantep,Buyuksehyr,6,9,False
+T1,1920,2019-10-06,Rizespor,Trabzonspor,9,7,False
+T1,1920,2019-10-18,Galatasaray,Samsunspor,13,12,False
+T1,1920,2019-10-19,Antalyaspor,Genclerbirligi,13,14,False
+T1,1920,2019-10-19,Buyuksehyr,Goztep,13,14,False
+T1,1920,2019-10-19,Trabzonspor,Gaziantep,13,13,False
+T1,1920,2019-10-19,Karagumruk,Besiktas,13,13,False
+T1,1920,2019-10-20,Kocaelispor,Kasimpasa,15,15,False
+T1,1920,2019-10-20,Antalyaspor,Rizespor,1,14,False
+T1,1920,2019-10-20,Denizlispor,Fenerbahce,16,16,False
+T1,1920,2019-10-21,Antalyaspor,Yeni Malatyaspor,1,17,False
+T1,1920,2019-10-25,Rizespor,Karagumruk,5,6,False
+T1,1920,2019-10-26,Samsunspor,Antalyaspor,8,5,False
+T1,1920,2019-10-26,Gaziantep,Antalyaspor,7,5,False
+T1,1920,2019-10-26,Fenerbahce,Antalyaspor,6,5,False
+T1,1920,2019-10-27,Yeni Malatyaspor,Kocaelispor,6,7,False
+T1,1920,2019-10-27,Genclerbirligi,Denizlispor,8,7,False
+T1,1920,2019-10-27,Goztep,Kasimpasa,8,7,False
+T1,1920,2019-10-27,Besiktas,Galatasaray,8,9,False
+T1,1920,2019-10-28,Buyuksehyr,Trabzonspor,9,9,False
+T1,1920,2019-11-01,Galatasaray,Rizespor,5,7,False
+T1,1920,2019-11-02,Antalyaspor,Genclerbirligi,7,6,False
+T1,1920,2019-11-02,Antalyaspor,Buyuksehyr,7,5,False
+T1,1920,2019-11-02,Trabzonspor,Goztep,5,6,False
+T1,1920,2019-11-02,Antalyaspor,Besiktas,7,6,False
+T1,1920,2019-11-03,Denizlispor,Samsunspor,7,8,False
+T1,1920,2019-11-03,Kasimpasa,Yeni Malatyaspor,7,7,False
+T1,1920,2019-11-03,Kocaelispor,Fenerbahce,7,8,False
+T1,1920,2019-11-04,Karagumruk,Gaziantep,10,9,False
+T1,1920,2019-11-08,Fenerbahce,Kasimpasa,5,5,False
+T1,1920,2019-11-09,Genclerbirligi,Kocaelispor,7,6,False
+T1,1920,2019-11-09,Rizespor,Antalyaspor,8,7,False
+T1,1920,2019-11-09,Samsunspor,Antalyaspor,6,7,False
+T1,1920,2019-11-09,Gaziantep,Galatasaray,5,8,False
+T1,1920,2019-11-10,Goztep,Yeni Malatyaspor,8,7,False
+T1,1920,2019-11-10,Trabzonspor,Antalyaspor,8,1,False
+T1,1920,2019-11-10,Besiktas,Denizlispor,8,7,False
+T1,1920,2019-11-10,Buyuksehyr,Karagumruk,8,6,False
+T1,1920,2019-11-22,Galatasaray,Buyuksehyr,13,12,False
+T1,1920,2019-11-23,Denizlispor,Rizespor,13,14,False
+T1,1920,2019-11-23,Karagumruk,Trabzonspor,13,13,False
+T1,1920,2019-11-23,Antalyaspor,Besiktas,13,13,False
+T1,1920,2019-11-24,Kocaelispor,Samsunspor,15,15,False
+T1,1920,2019-11-24,Antalyaspor,Goztep,1,14,False
+T1,1920,2019-11-24,Kasimpasa,Genclerbirligi,16,15,False
+T1,1920,2019-11-24,Yeni Malatyaspor,Fenerbahce,14,16,False
+T1,1920,2019-11-25,Antalyaspor,Gaziantep,1,16,False
+T1,1920,2019-11-29,Genclerbirligi,Yeni Malatyaspor,5,5,False
+T1,1920,2019-11-30,Rizespor,Antalyaspor,7,5,False
+T1,1920,2019-11-30,Samsunspor,Kasimpasa,6,6,False
+T1,1920,2019-11-30,Antalyaspor,Karagumruk,5,7,False
+T1,1920,2019-11-30,Goztep,Fenerbahce,6,6,False
+T1,1920,2019-12-01,Gaziantep,Denizlispor,6,8,False
+T1,1920,2019-12-01,Buyuksehyr,Antalyaspor,9,1,False
+T1,1920,2019-12-01,Trabzonspor,Galatasaray,8,9,False
+T1,1920,2019-12-02,Besiktas,Kocaelispor,9,8,False
+T1,1920,2019-12-06,Fenerbahce,Genclerbirligi,6,7,False
+T1,1920,2019-12-07,Yeni Malatyaspor,Samsunspor,8,7,False
+T1,1920,2019-12-07,Karagumruk,Goztep,7,7,False
+T1,1920,2019-12-07,Galatasaray,Antalyaspor,6,6,False
+T1,1920,2019-12-08,Antalyaspor,Gaziantep,1,7,False
+T1,1920,2019-12-08,Antalyaspor,Trabzonspor,1,7,False
+T1,1920,2019-12-08,Denizlispor,Buyuksehyr,7,7,False
+T1,1920,2019-12-08,Kasimpasa,Besiktas,8,6,False
+T1,1920,2019-12-09,Kocaelispor,Rizespor,7,9,False
+T1,1920,2019-12-13,Antalyaspor,Antalyaspor,5,5,False
+T1,1920,2019-12-14,Rizespor,Kasimpasa,5,6,False
+T1,1920,2019-12-14,Genclerbirligi,Goztep,8,7,False
+T1,1920,2019-12-14,Galatasaray,Karagumruk,7,7,False
+T1,1920,2019-12-15,Gaziantep,Kocaelispor,7,6,False
+T1,1920,2019-12-15,Samsunspor,Fenerbahce,8,9,False
+T1,1920,2019-12-15,Besiktas,Yeni Malatyaspor,7,8,False
+T1,1920,2019-12-16,Buyuksehyr,Antalyaspor,8,3,False
+T1,1920,2019-12-16,Trabzonspor,Denizlispor,8,8,False
+T1,1920,2019-12-20,Antalyaspor,Karagumruk,4,6,False
+T1,1920,2019-12-21,Yeni Malatyaspor,Rizespor,6,7,False
+T1,1920,2019-12-21,Kasimpasa,Gaziantep,7,6,False
+T1,1920,2019-12-21,Goztep,Galatasaray,7,7,False
+T1,1920,2019-12-22,Genclerbirligi,Samsunspor,8,7,False
+T1,1920,2019-12-22,Kocaelispor,Buyuksehyr,7,6,False
+T1,1920,2019-12-22,Fenerbahce,Besiktas,7,7,False
+T1,1920,2019-12-23,Denizlispor,Antalyaspor,7,3,False
+T1,1920,2019-12-23,Antalyaspor,Trabzonspor,3,7,False
+T1,1920,2019-12-27,Besiktas,Genclerbirligi,5,5,False
+T1,1920,2019-12-28,Karagumruk,Denizlispor,8,5,False
+T1,1920,2019-12-28,Buyuksehyr,Kasimpasa,6,7,False
+T1,1920,2019-12-28,Trabzonspor,Kocaelispor,5,6,False
+T1,1920,2019-12-28,Galatasaray,Antalyaspor,7,5,False
+T1,1920,2019-12-29,Samsunspor,Goztep,7,8,False
+T1,1920,2019-12-29,Antalyaspor,Antalyaspor,1,1,False
+T1,1920,2019-12-29,Gaziantep,Yeni Malatyaspor,8,8,False
+T1,1920,2019-12-29,Rizespor,Fenerbahce,8,7,False
+T1,1920,2020-01-17,Karagumruk,Antalyaspor,20,19,False
+T1,1920,2020-01-18,Antalyaspor,Kocaelispor,1,21,False
+T1,1920,2020-01-18,Buyuksehyr,Yeni Malatyaspor,21,20,False
+T1,1920,2020-01-18,Gaziantep,Fenerbahce,20,20,False
+T1,1920,2020-01-19,Antalyaspor,Goztep,1,21,False
+T1,1920,2020-01-19,Galatasaray,Denizlispor,22,22,False
+T1,1920,2020-01-19,Trabzonspor,Kasimpasa,22,22,False
+T1,1920,2020-01-19,Besiktas,Samsunspor,23,21,False
+T1,1920,2020-01-20,Rizespor,Genclerbirligi,22,24,False
+T1,1920,2020-01-24,Genclerbirligi,Gaziantep,4,6,False
+T1,1920,2020-01-25,Kocaelispor,Karagumruk,7,8,False
+T1,1920,2020-01-25,Kasimpasa,Antalyaspor,6,6,False
+T1,1920,2020-01-25,Fenerbahce,Buyuksehyr,7,7,False
+T1,1920,2020-01-26,Denizlispor,Antalyaspor,7,1,False
+T1,1920,2020-01-26,Goztep,Besiktas,7,7,False
+T1,1920,2020-01-26,Antalyaspor,Galatasaray,1,7,False
+T1,1920,2020-01-27,Samsunspor,Rizespor,8,7,False
+T1,1920,2020-01-31,Buyuksehyr,Genclerbirligi,6,7,False
+T1,1920,2020-02-01,Antalyaspor,Antalyaspor,6,6,False
+T1,1920,2020-02-01,Rizespor,Besiktas,5,6,False
+T1,1920,2020-02-01,Trabzonspor,Fenerbahce,13,7,False
+T1,1920,2020-02-02,Karagumruk,Kasimpasa,8,8,False
+T1,1920,2020-02-02,Antalyaspor,Yeni Malatyaspor,1,15,False
+T1,1920,2020-02-02,Gaziantep,Samsunspor,9,6,False
+T1,1920,2020-02-02,Galatasaray,Kocaelispor,7,8,False
+T1,1920,2020-02-03,Denizlispor,Goztep,8,8,False
+T1,1920,2020-02-07,Yeni Malatyaspor,Karagumruk,5,5,False
+T1,1920,2020-02-08,Antalyaspor,Denizlispor,6,5,False
+T1,1920,2020-02-08,Besiktas,Gaziantep,7,6,False
+T1,1920,2020-02-08,Genclerbirligi,Trabzonspor,8,7,False
+T1,1920,2020-02-08,Fenerbahce,Antalyaspor,7,6,False
+T1,1920,2020-02-09,Kocaelispor,Antalyaspor,7,1,False
+T1,1920,2020-02-09,Samsunspor,Buyuksehyr,7,9,False
+T1,1920,2020-02-09,Kasimpasa,Galatasaray,7,7,False
+T1,1920,2020-02-14,Buyuksehyr,Besiktas,5,6,False
+T1,1920,2020-02-15,Denizlispor,Kocaelispor,7,6,False
+T1,1920,2020-02-15,Antalyaspor,Goztep,6,12,False
+T1,1920,2020-02-15,Karagumruk,Fenerbahce,8,7,False
+T1,1920,2020-02-16,Antalyaspor,Genclerbirligi,1,8,False
+T1,1920,2020-02-16,Trabzonspor,Samsunspor,8,7,False
+T1,1920,2020-02-16,Galatasaray,Yeni Malatyaspor,7,9,False
+T1,1920,2020-02-17,Antalyaspor,Kasimpasa,1,8,False
+T1,1920,2020-02-17,Gaziantep,Rizespor,9,16,False
+T1,1920,2020-02-21,Samsunspor,Antalyaspor,5,4,False
+T1,1920,2020-02-22,Kocaelispor,Antalyaspor,7,1,False
+T1,1920,2020-02-22,Goztep,Gaziantep,7,5,False
+T1,1920,2020-02-22,Besiktas,Trabzonspor,8,6,False
+T1,1920,2020-02-23,Yeni Malatyaspor,Antalyaspor,7,1,False
+T1,1920,2020-02-23,Genclerbirligi,Karagumruk,7,8,False
+T1,1920,2020-02-23,Fenerbahce,Galatasaray,8,7,False
+T1,1920,2020-02-24,Kasimpasa,Denizlispor,7,9,False
+T1,1920,2020-02-24,Rizespor,Buyuksehyr,7,10,False
+T1,1920,2020-02-28,Antalyaspor,Besiktas,5,6,False
+T1,1920,2020-02-29,Antalyaspor,Kasimpasa,1,5,False
+T1,1920,2020-02-29,Trabzonspor,Rizespor,7,5,False
+T1,1920,2020-02-29,Antalyaspor,Fenerbahce,1,6,False
+T1,1920,2020-03-01,Denizlispor,Yeni Malatyaspor,6,7,False
+T1,1920,2020-03-01,Karagumruk,Samsunspor,7,9,False
+T1,1920,2020-03-01,Galatasaray,Genclerbirligi,7,7,False
+T1,1920,2020-03-02,Buyuksehyr,Gaziantep,7,9,False
+T1,1920,2020-03-02,Kocaelispor,Goztep,9,9,False
+T1,1920,2020-03-06,Besiktas,Karagumruk,7,5,False
+T1,1920,2020-03-07,Yeni Malatyaspor,Antalyaspor,6,7,False
+T1,1920,2020-03-07,Gaziantep,Trabzonspor,5,7,False
+T1,1920,2020-03-07,Goztep,Buyuksehyr,5,5,False
+T1,1920,2020-03-07,Fenerbahce,Denizlispor,7,6,False
+T1,1920,2020-03-08,Kasimpasa,Kocaelispor,8,6,False
+T1,1920,2020-03-08,Rizespor,Antalyaspor,8,1,False
+T1,1920,2020-03-08,Samsunspor,Galatasaray,7,7,False
+T1,1920,2020-03-09,Genclerbirligi,Antalyaspor,8,1,False
+T1,1920,2020-03-11,Yeni Malatyaspor,Trabzonspor,4,4,True
+T1,1920,2020-03-13,Karagumruk,Rizespor,7,5,False
+T1,1920,2020-03-13,Kasimpasa,Goztep,5,6,False
+T1,1920,2020-03-14,Denizlispor,Genclerbirligi,7,5,False
+T1,1920,2020-03-14,Antalyaspor,Gaziantep,5,7,False
+T1,1920,2020-03-14,Antalyaspor,Fenerbahce,5,7,False
+T1,1920,2020-03-15,Kocaelispor,Yeni Malatyaspor,7,4,False
+T1,1920,2020-03-15,Trabzonspor,Buyuksehyr,4,8,False
+T1,1920,2020-03-15,Galatasaray,Besiktas,7,9,False
+T1,1920,2020-03-16,Antalyaspor,Samsunspor,2,8,False
+T1,1920,2020-03-17,Goztep,Rizespor,4,4,True
+T1,1920,2020-06-12,Fenerbahce,Kocaelispor,90,89,False
+T1,1920,2020-06-12,Goztep,Trabzonspor,87,89,False
+T1,1920,2020-06-13,Buyuksehyr,Antalyaspor,90,89,False
+T1,1920,2020-06-13,Besiktas,Antalyaspor,90,89,False
+T1,1920,2020-06-13,Yeni Malatyaspor,Kasimpasa,90,92,False
+T1,1920,2020-06-14,Genclerbirligi,Antalyaspor,92,1,False
+T1,1920,2020-06-14,Gaziantep,Karagumruk,92,93,False
+T1,1920,2020-06-14,Rizespor,Galatasaray,89,91,False
+T1,1920,2020-06-15,Samsunspor,Denizlispor,91,93,False
+T1,1920,2020-06-19,Karagumruk,Buyuksehyr,5,6,False
+T1,1920,2020-06-20,Kocaelispor,Genclerbirligi,8,6,False
+T1,1920,2020-06-20,Denizlispor,Besiktas,5,7,False
+T1,1920,2020-06-20,Yeni Malatyaspor,Goztep,7,8,False
+T1,1920,2020-06-21,Kasimpasa,Fenerbahce,8,9,False
+T1,1920,2020-06-21,Galatasaray,Gaziantep,7,7,False
+T1,1920,2020-06-21,Antalyaspor,Samsunspor,7,6,False
+T1,1920,2020-06-22,Antalyaspor,Trabzonspor,1,10,False
+T1,1920,2020-06-22,Antalyaspor,Rizespor,1,8,False
+T1,1920,2020-06-26,Besiktas,Antalyaspor,6,4,False
+T1,1920,2020-06-27,Fenerbahce,Yeni Malatyaspor,6,7,False
+T1,1920,2020-06-27,Goztep,Antalyaspor,7,1,False
+T1,1920,2020-06-27,Trabzonspor,Karagumruk,5,8,False
+T1,1920,2020-06-28,Rizespor,Denizlispor,6,8,False
+T1,1920,2020-06-28,Samsunspor,Kocaelispor,7,8,False
+T1,1920,2020-06-28,Buyuksehyr,Galatasaray,9,7,False
+T1,1920,2020-06-28,Gaziantep,Antalyaspor,7,1,False
+T1,1920,2020-06-29,Genclerbirligi,Kasimpasa,9,8,False
+T1,1920,2020-07-03,Denizlispor,Gaziantep,5,5,False
+T1,1920,2020-07-04,Karagumruk,Antalyaspor,7,6,False
+T1,1920,2020-07-04,Yeni Malatyaspor,Genclerbirligi,7,5,False
+T1,1920,2020-07-04,Antalyaspor,Buyuksehyr,6,6,False
+T1,1920,2020-07-04,Fenerbahce,Goztep,7,7,False
+T1,1920,2020-07-05,Kasimpasa,Samsunspor,6,7,False
+T1,1920,2020-07-05,Galatasaray,Trabzonspor,7,8,False
+T1,1920,2020-07-05,Antalyaspor,Rizespor,1,7,False
+T1,1920,2020-07-06,Kocaelispor,Besiktas,8,10,False
+T1,1920,2020-07-07,Genclerbirligi,Fenerbahce,3,3,True
+T1,1920,2020-07-07,Buyuksehyr,Denizlispor,3,4,True
+T1,1920,2020-07-08,Samsunspor,Yeni Malatyaspor,3,4,True
+T1,1920,2020-07-08,Trabzonspor,Antalyaspor,3,3,True
+T1,1920,2020-07-08,Antalyaspor,Galatasaray,3,3,True
+T1,1920,2020-07-08,Goztep,Karagumruk,4,4,True
+T1,1920,2020-07-09,Rizespor,Kocaelispor,4,3,True
+T1,1920,2020-07-09,Besiktas,Kasimpasa,3,4,True
+T1,1920,2020-07-09,Gaziantep,Antalyaspor,6,1,True
+T1,1920,2020-07-11,Goztep,Genclerbirligi,3,4,False
+T1,1920,2020-07-12,Karagumruk,Galatasaray,4,4,False
+T1,1920,2020-07-12,Antalyaspor,Antalyaspor,3,3,False
+T1,1920,2020-07-12,Fenerbahce,Samsunspor,5,4,False
+T1,1920,2020-07-13,Kasimpasa,Rizespor,4,4,False
+T1,1920,2020-07-13,Kocaelispor,Gaziantep,4,4,False
+T1,1920,2020-07-13,Denizlispor,Trabzonspor,6,5,False
+T1,1920,2020-07-13,Antalyaspor,Buyuksehyr,1,6,False
+T1,1920,2020-07-13,Yeni Malatyaspor,Besiktas,5,4,False
+T1,1920,2020-07-18,Galatasaray,Goztep,6,7,False
+T1,1920,2020-07-18,Gaziantep,Kasimpasa,5,5,False
+T1,1920,2020-07-19,Antalyaspor,Denizlispor,6,6,False
+T1,1920,2020-07-19,Karagumruk,Antalyaspor,7,6,False
+T1,1920,2020-07-19,Besiktas,Fenerbahce,6,7,False
+T1,1920,2020-07-19,Buyuksehyr,Kocaelispor,6,6,False
+T1,1920,2020-07-19,Rizespor,Yeni Malatyaspor,6,6,False
+T1,1920,2020-07-19,Samsunspor,Genclerbirligi,7,8,False
+T1,1920,2020-07-19,Trabzonspor,Antalyaspor,6,6,False
+T1,1920,2020-07-24,Antalyaspor,Galatasaray,5,6,False
+T1,1920,2020-07-25,Denizlispor,Karagumruk,6,6,False
+T1,1920,2020-07-25,Fenerbahce,Rizespor,6,6,False
+T1,1920,2020-07-25,Genclerbirligi,Besiktas,6,6,False
+T1,1920,2020-07-25,Goztep,Samsunspor,7,6,False
+T1,1920,2020-07-25,Kocaelispor,Trabzonspor,6,6,False
+T1,1920,2020-07-25,Antalyaspor,Antalyaspor,1,1,False
+T1,1920,2020-07-25,Yeni Malatyaspor,Gaziantep,6,7,False
+T1,1920,2020-07-26,Kasimpasa,Buyuksehyr,8,7,False

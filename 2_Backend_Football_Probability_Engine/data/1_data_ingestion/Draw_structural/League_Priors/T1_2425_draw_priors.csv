@@ -1,0 +1,343 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2024-08-09,Galatasaray,Antalyaspor,2,1,H,0
+2024-08-10,Kasimpasa,Antalyaspor,2,3,A,0
+2024-08-10,Fenerbahce,Ad. Demirspor,1,0,H,0
+2024-08-10,Antalyaspor,Goztep,0,0,D,1
+2024-08-11,Antalyaspor,Eyupspor,1,1,D,1
+2024-08-11,Samsunspor,Besiktas,0,2,A,0
+2024-08-11,Samsunspor,Trabzonspor,0,0,D,1
+2024-08-12,Bodrumspor,Gaziantep,0,1,A,0
+2024-08-12,Rizespor,Buyuksehyr,1,1,D,1
+2024-08-16,Antalyaspor,Galatasaray,1,2,A,0
+2024-08-17,Goztep,Fenerbahce,2,2,D,1
+2024-08-17,Ad. Demirspor,Rizespor,1,2,A,0
+2024-08-17,Kocaelispor,Samsunspor,1,2,A,0
+2024-08-18,Gaziantep,Samsunspor,0,1,A,0
+2024-08-18,Buyuksehyr,Antalyaspor,4,2,H,0
+2024-08-18,Besiktas,Antalyaspor,4,2,H,0
+2024-08-19,Eyupspor,Bodrumspor,4,1,H,0
+2024-08-19,Antalyaspor,Kasimpasa,1,1,D,1
+2024-08-23,Antalyaspor,Goztep,1,1,D,1
+2024-08-24,Bodrumspor,Antalyaspor,3,1,H,0
+2024-08-24,Samsunspor,Eyupspor,0,1,A,0
+2024-08-25,Kasimpasa,Ad. Demirspor,2,2,D,1
+2024-08-25,Antalyaspor,Antalyaspor,3,2,H,0
+2024-08-25,Rizespor,Fenerbahce,0,5,A,0
+2024-08-30,Fenerbahce,Antalyaspor,3,0,H,0
+2024-08-31,Antalyaspor,Kocaelispor,0,0,D,1
+2024-08-31,Rizespor,Kasimpasa,0,1,A,0
+2024-08-31,Ad. Demirspor,Galatasaray,1,5,A,0
+2024-08-31,Goztep,Bodrumspor,2,0,H,0
+2024-09-01,Besiktas,Samsunspor,2,0,H,0
+2024-09-01,Antalyaspor,Samsunspor,0,3,A,0
+2024-09-01,Eyupspor,Trabzonspor,0,0,D,1
+2024-09-01,Buyuksehyr,Antalyaspor,5,2,H,0
+2024-09-14,Bodrumspor,Buyuksehyr,0,1,A,0
+2024-09-14,Galatasaray,Rizespor,5,0,H,0
+2024-09-14,Samsunspor,Antalyaspor,0,1,A,0
+2024-09-14,Samsunspor,Gaziantep,3,2,H,0
+2024-09-15,Antalyaspor,Antalyaspor,0,0,D,1
+2024-09-15,Trabzonspor,Besiktas,1,1,D,1
+2024-09-15,Kasimpasa,Fenerbahce,0,2,A,0
+2024-09-15,Kocaelispor,Eyupspor,2,2,D,1
+2024-09-16,Antalyaspor,Ad. Demirspor,2,1,H,0
+2024-09-17,Galatasaray,Gaziantep,3,1,H,0
+2024-09-18,Samsunspor,Buyuksehyr,2,0,H,0
+2024-09-19,Trabzonspor,Kocaelispor,2,2,D,1
+2024-09-20,Antalyaspor,Bodrumspor,0,1,A,0
+2024-09-21,Antalyaspor,Samsunspor,0,0,D,1
+2024-09-21,Fenerbahce,Galatasaray,1,3,A,0
+2024-09-22,Ad. Demirspor,Antalyaspor,0,2,A,0
+2024-09-22,Besiktas,Eyupspor,2,1,H,0
+2024-09-22,Rizespor,Samsunspor,0,1,A,0
+2024-09-22,Kasimpasa,Antalyaspor,0,0,D,1
+2024-09-23,Gaziantep,Trabzonspor,0,0,D,1
+2024-09-23,Goztep,Kocaelispor,3,0,H,0
+2024-09-27,Samsunspor,Buyuksehyr,1,2,A,0
+2024-09-28,Galatasaray,Kasimpasa,3,3,D,1
+2024-09-28,Antalyaspor,Rizespor,1,0,H,0
+2024-09-28,Samsunspor,Goztep,4,3,H,0
+2024-09-29,Antalyaspor,Fenerbahce,0,2,A,0
+2024-09-29,Bodrumspor,Ad. Demirspor,3,1,H,0
+2024-09-29,Eyupspor,Gaziantep,3,2,H,0
+2024-09-29,Trabzonspor,Antalyaspor,3,2,H,0
+2024-09-30,Kocaelispor,Besiktas,0,3,A,0
+2024-10-04,Rizespor,Antalyaspor,2,1,H,0
+2024-10-05,Buyuksehyr,Kocaelispor,1,1,D,1
+2024-10-05,Antalyaspor,Trabzonspor,1,1,D,1
+2024-10-05,Kasimpasa,Bodrumspor,0,0,D,1
+2024-10-05,Goztep,Samsunspor,3,2,H,0
+2024-10-06,Galatasaray,Antalyaspor,1,0,H,0
+2024-10-06,Gaziantep,Besiktas,1,1,D,1
+2024-10-06,Ad. Demirspor,Samsunspor,1,3,A,0
+2024-10-06,Antalyaspor,Eyupspor,2,1,H,0
+2024-10-19,Antalyaspor,Galatasaray,0,3,A,0
+2024-10-19,Eyupspor,Goztep,1,0,H,0
+2024-10-19,Kocaelispor,Gaziantep,2,2,D,1
+2024-10-19,Trabzonspor,Buyuksehyr,1,0,H,0
+2024-10-20,Antalyaspor,Kasimpasa,1,2,A,0
+2024-10-20,Samsunspor,Fenerbahce,2,2,D,1
+2024-10-20,Samsunspor,Antalyaspor,3,2,H,0
+2024-10-20,Besiktas,Antalyaspor,2,0,H,0
+2024-10-21,Bodrumspor,Rizespor,0,1,A,0
+2024-10-25,Ad. Demirspor,Samsunspor,2,4,A,0
+2024-10-26,Goztep,Trabzonspor,2,1,H,0
+2024-10-26,Antalyaspor,Kocaelispor,0,1,A,0
+2024-10-26,Kasimpasa,Samsunspor,1,4,A,0
+2024-10-27,Fenerbahce,Bodrumspor,2,0,H,0
+2024-10-27,Antalyaspor,Antalyaspor,1,2,A,0
+2024-10-27,Gaziantep,Antalyaspor,3,1,H,0
+2024-10-28,Buyuksehyr,Eyupspor,1,1,D,1
+2024-10-28,Galatasaray,Besiktas,2,1,H,0
+2024-11-01,Gaziantep,Goztep,2,1,H,0
+2024-11-02,Kocaelispor,Ad. Demirspor,0,0,D,1
+2024-11-02,Besiktas,Kasimpasa,1,3,A,0
+2024-11-02,Samsunspor,Rizespor,2,1,H,0
+2024-11-03,Bodrumspor,Antalyaspor,0,0,D,1
+2024-11-03,Eyupspor,Antalyaspor,2,0,H,0
+2024-11-03,Trabzonspor,Fenerbahce,2,3,A,0
+2024-11-03,Antalyaspor,Buyuksehyr,3,2,H,0
+2024-11-04,Samsunspor,Antalyaspor,2,0,H,0
+2024-11-08,Kasimpasa,Kocaelispor,1,2,A,0
+2024-11-09,Ad. Demirspor,Eyupspor,0,1,A,0
+2024-11-09,Rizespor,Trabzonspor,3,1,H,0
+2024-11-09,Antalyaspor,Bodrumspor,3,2,H,0
+2024-11-09,Antalyaspor,Gaziantep,3,1,H,0
+2024-11-10,Buyuksehyr,Besiktas,0,0,D,1
+2024-11-10,Fenerbahce,Samsunspor,4,0,H,0
+2024-11-10,Galatasaray,Samsunspor,3,2,H,0
+2024-11-10,Goztep,Antalyaspor,2,0,H,0
+2024-11-23,Kocaelispor,Fenerbahce,2,6,A,0
+2024-11-23,Bodrumspor,Galatasaray,0,1,A,0
+2024-11-23,Eyupspor,Rizespor,1,2,A,0
+2024-11-23,Gaziantep,Buyuksehyr,3,0,H,0
+2024-11-24,Samsunspor,Antalyaspor,1,1,D,1
+2024-11-24,Besiktas,Goztep,2,4,A,0
+2024-11-24,Samsunspor,Kasimpasa,0,0,D,1
+2024-11-24,Antalyaspor,Antalyaspor,1,1,D,1
+2024-11-25,Trabzonspor,Ad. Demirspor,5,0,H,0
+2024-11-29,Antalyaspor,Samsunspor,2,1,H,0
+2024-11-30,Antalyaspor,Trabzonspor,2,1,H,0
+2024-11-30,Buyuksehyr,Goztep,4,1,H,0
+2024-11-30,Samsunspor,Bodrumspor,4,0,H,0
+2024-11-30,Ad. Demirspor,Antalyaspor,0,1,A,0
+2024-12-01,Rizespor,Kocaelispor,3,0,H,0
+2024-12-01,Galatasaray,Eyupspor,2,2,D,1
+2024-12-02,Fenerbahce,Gaziantep,3,1,H,0
+2024-12-02,Antalyaspor,Besiktas,1,1,D,1
+2024-12-06,Trabzonspor,Kasimpasa,2,2,D,1
+2024-12-07,Goztep,Ad. Demirspor,3,1,H,0
+2024-12-07,Besiktas,Fenerbahce,1,0,H,0
+2024-12-07,Antalyaspor,Antalyaspor,1,1,D,1
+2024-12-08,Buyuksehyr,Antalyaspor,3,0,H,0
+2024-12-08,Eyupspor,Samsunspor,3,0,H,0
+2024-12-08,Kocaelispor,Antalyaspor,2,0,H,0
+2024-12-08,Samsunspor,Galatasaray,2,3,A,0
+2024-12-09,Gaziantep,Rizespor,1,0,H,0
+2024-12-13,Kasimpasa,Eyupspor,2,0,H,0
+2024-12-13,Bodrumspor,Samsunspor,2,0,H,0
+2024-12-14,Antalyaspor,Gaziantep,3,0,H,0
+2024-12-14,Rizespor,Antalyaspor,1,1,D,1
+2024-12-15,Fenerbahce,Buyuksehyr,3,1,H,0
+2024-12-15,Antalyaspor,Goztep,1,1,D,1
+2024-12-15,Antalyaspor,Kocaelispor,2,0,H,0
+2024-12-16,Galatasaray,Trabzonspor,4,3,H,0
+2024-12-16,Ad. Demirspor,Besiktas,2,1,H,0
+2024-12-20,Eyupspor,Fenerbahce,1,1,D,1
+2024-12-21,Samsunspor,Samsunspor,0,0,D,1
+2024-12-21,Besiktas,Antalyaspor,1,1,D,1
+2024-12-22,Kocaelispor,Galatasaray,1,5,A,0
+2024-12-22,Trabzonspor,Bodrumspor,1,0,H,0
+2024-12-22,Gaziantep,Antalyaspor,2,0,H,0
+2024-12-22,Goztep,Rizespor,3,0,H,0
+2024-12-23,Buyuksehyr,Kasimpasa,2,2,D,1
+2024-12-23,Antalyaspor,Ad. Demirspor,1,3,A,0
+2025-01-03,Antalyaspor,Antalyaspor,2,1,H,0
+2025-01-03,Rizespor,Besiktas,1,1,D,1
+2025-01-04,Galatasaray,Goztep,2,1,H,0
+2025-01-04,Samsunspor,Trabzonspor,2,1,H,0
+2025-01-04,Antalyaspor,Eyupspor,1,4,A,0
+2025-01-04,Ad. Demirspor,Buyuksehyr,0,1,A,0
+2025-01-05,Fenerbahce,Antalyaspor,2,1,H,0
+2025-01-05,Kasimpasa,Gaziantep,2,2,D,1
+2025-01-05,Bodrumspor,Kocaelispor,1,1,D,1
+2025-01-11,Besiktas,Bodrumspor,2,1,H,0
+2025-01-11,Kocaelispor,Samsunspor,0,1,A,0
+2025-01-11,Antalyaspor,Rizespor,1,2,A,0
+2025-01-12,Trabzonspor,Antalyaspor,5,0,H,0
+2025-01-12,Samsunspor,Antalyaspor,1,1,D,1
+2025-01-12,Gaziantep,Ad. Demirspor,1,0,H,0
+2025-01-12,Buyuksehyr,Galatasaray,1,2,A,0
+2025-01-13,Antalyaspor,Fenerbahce,2,3,A,0
+2025-01-13,Goztep,Kasimpasa,5,0,H,0
+2025-01-17,Antalyaspor,Galatasaray,1,1,D,1
+2025-01-18,Gaziantep,Bodrumspor,0,0,D,1
+2025-01-18,Buyuksehyr,Rizespor,2,0,H,0
+2025-01-18,Besiktas,Samsunspor,0,0,D,1
+2025-01-19,Eyupspor,Antalyaspor,3,0,H,0
+2025-01-19,Goztep,Antalyaspor,1,0,H,0
+2025-01-19,Ad. Demirspor,Fenerbahce,0,4,A,0
+2025-01-19,Antalyaspor,Kasimpasa,3,3,D,1
+2025-01-20,Trabzonspor,Samsunspor,4,0,H,0
+2025-01-24,Samsunspor,Gaziantep,2,1,H,0
+2025-01-25,Galatasaray,Antalyaspor,1,0,H,0
+2025-01-25,Samsunspor,Kocaelispor,5,2,H,0
+2025-01-25,Antalyaspor,Buyuksehyr,5,4,H,0
+2025-01-26,Bodrumspor,Eyupspor,0,1,A,0
+2025-01-26,Fenerbahce,Goztep,3,2,H,0
+2025-01-26,Antalyaspor,Besiktas,1,1,D,1
+2025-01-26,Rizespor,Ad. Demirspor,3,2,H,0
+2025-01-27,Kasimpasa,Antalyaspor,5,4,H,0
+2025-01-31,Antalyaspor,Bodrumspor,3,1,H,0
+2025-01-31,Eyupspor,Samsunspor,1,0,H,0
+2025-02-01,Buyuksehyr,Samsunspor,4,0,H,0
+2025-02-01,Kocaelispor,Trabzonspor,0,0,D,1
+2025-02-01,Antalyaspor,Antalyaspor,2,3,A,0
+2025-02-02,Fenerbahce,Rizespor,3,2,H,0
+2025-02-02,Ad. Demirspor,Kasimpasa,3,5,A,0
+2025-02-02,Goztep,Antalyaspor,0,1,A,0
+2025-02-03,Gaziantep,Galatasaray,0,1,A,0
+2025-02-07,Samsunspor,Antalyaspor,2,0,H,0
+2025-02-08,Kocaelispor,Antalyaspor,3,2,H,0
+2025-02-08,Samsunspor,Besiktas,0,2,A,0
+2025-02-09,Antalyaspor,Buyuksehyr,0,0,D,1
+2025-02-09,Galatasaray,Ad. Demirspor,3,0,H,0
+2025-02-09,Kasimpasa,Rizespor,3,2,H,0
+2025-02-09,Antalyaspor,Fenerbahce,0,2,A,0
+2025-02-10,Trabzonspor,Eyupspor,1,0,H,0
+2025-02-10,Bodrumspor,Goztep,0,0,D,1
+2025-02-14,Ad. Demirspor,Antalyaspor,1,1,D,1
+2025-02-15,Besiktas,Trabzonspor,2,1,H,0
+2025-02-15,Buyuksehyr,Bodrumspor,0,1,A,0
+2025-02-15,Gaziantep,Samsunspor,2,1,H,0
+2025-02-16,Antalyaspor,Antalyaspor,1,0,H,0
+2025-02-16,Eyupspor,Kocaelispor,1,1,D,1
+2025-02-16,Antalyaspor,Samsunspor,0,1,A,0
+2025-02-16,Fenerbahce,Kasimpasa,3,1,H,0
+2025-02-17,Rizespor,Galatasaray,1,2,A,0
+2025-02-21,Bodrumspor,Antalyaspor,1,0,H,0
+2025-02-21,Eyupspor,Besiktas,1,3,A,0
+2025-02-22,Antalyaspor,Kasimpasa,2,1,H,0
+2025-02-22,Samsunspor,Antalyaspor,1,1,D,1
+2025-02-22,Samsunspor,Rizespor,2,3,A,0
+2025-02-23,Trabzonspor,Gaziantep,3,2,H,0
+2025-02-23,Antalyaspor,Ad. Demirspor,3,2,H,0
+2025-02-23,Kocaelispor,Goztep,1,0,H,0
+2025-02-24,Galatasaray,Fenerbahce,0,0,D,1
+2025-03-01,Besiktas,Kocaelispor,2,0,H,0
+2025-03-01,Ad. Demirspor,Bodrumspor,0,0,D,1
+2025-03-02,Fenerbahce,Antalyaspor,3,0,H,0
+2025-03-02,Rizespor,Antalyaspor,3,1,H,0
+2025-03-02,Kasimpasa,Galatasaray,3,3,D,1
+2025-03-03,Buyuksehyr,Samsunspor,1,0,H,0
+2025-03-03,Goztep,Samsunspor,2,2,D,1
+2025-03-03,Gaziantep,Eyupspor,3,1,H,0
+2025-03-03,Antalyaspor,Trabzonspor,1,0,H,0
+2025-03-07,Bodrumspor,Kasimpasa,1,0,H,0
+2025-03-08,Trabzonspor,Antalyaspor,1,2,A,0
+2025-03-08,Antalyaspor,Rizespor,2,1,H,0
+2025-03-08,Kocaelispor,Buyuksehyr,3,1,H,0
+2025-03-09,Samsunspor,Ad. Demirspor,3,2,H,0
+2025-03-09,Antalyaspor,Galatasaray,1,2,A,0
+2025-03-09,Samsunspor,Goztep,3,1,H,0
+2025-03-09,Eyupspor,Antalyaspor,2,1,H,0
+2025-03-10,Besiktas,Gaziantep,1,2,A,0
+2025-03-14,Galatasaray,Antalyaspor,4,0,H,0
+2025-03-15,Buyuksehyr,Trabzonspor,0,3,A,0
+2025-03-15,Antalyaspor,Besiktas,1,0,H,0
+2025-03-15,Gaziantep,Kocaelispor,1,0,H,0
+2025-03-15,Kasimpasa,Antalyaspor,2,1,H,0
+2025-03-16,Antalyaspor,Samsunspor,3,2,H,0
+2025-03-16,Fenerbahce,Samsunspor,0,0,D,1
+2025-03-16,Goztep,Eyupspor,1,1,D,1
+2025-03-16,Rizespor,Bodrumspor,0,2,A,0
+2025-03-28,Bodrumspor,Fenerbahce,2,4,A,0
+2025-03-28,Antalyaspor,Gaziantep,1,0,H,0
+2025-03-28,Antalyaspor,Antalyaspor,2,1,H,0
+2025-03-28,Kocaelispor,Antalyaspor,5,0,H,0
+2025-03-29,Trabzonspor,Goztep,1,1,D,1
+2025-03-29,Besiktas,Galatasaray,2,1,H,0
+2025-03-29,Samsunspor,Ad. Demirspor,5,1,H,0
+2025-03-29,Samsunspor,Kasimpasa,0,2,A,0
+2025-03-31,Eyupspor,Buyuksehyr,1,3,A,0
+2025-04-04,Ad. Demirspor,Kocaelispor,0,2,A,0
+2025-04-05,Antalyaspor,Samsunspor,2,1,H,0
+2025-04-05,Rizespor,Samsunspor,1,1,D,1
+2025-04-05,Buyuksehyr,Antalyaspor,1,0,H,0
+2025-04-06,Antalyaspor,Bodrumspor,0,1,A,0
+2025-04-06,Antalyaspor,Eyupspor,0,1,A,0
+2025-04-06,Fenerbahce,Trabzonspor,4,1,H,0
+2025-04-07,Kasimpasa,Besiktas,1,1,D,1
+2025-04-07,Goztep,Gaziantep,1,1,D,1
+2025-04-11,Samsunspor,Galatasaray,0,2,A,0
+2025-04-12,Bodrumspor,Antalyaspor,0,0,D,1
+2025-04-12,Besiktas,Buyuksehyr,0,2,A,0
+2025-04-12,Antalyaspor,Goztep,1,0,H,0
+2025-04-13,Gaziantep,Antalyaspor,2,1,H,0
+2025-04-13,Kocaelispor,Kasimpasa,1,0,H,0
+2025-04-13,Samsunspor,Fenerbahce,1,3,A,0
+2025-04-13,Trabzonspor,Rizespor,2,0,H,0
+2025-04-14,Eyupspor,Ad. Demirspor,6,0,H,0
+2025-04-18,Galatasaray,Bodrumspor,2,0,H,0
+2025-04-18,Antalyaspor,Antalyaspor,2,3,A,0
+2025-04-19,Goztep,Besiktas,1,1,D,1
+2025-04-19,Kasimpasa,Samsunspor,3,1,H,0
+2025-04-19,Ad. Demirspor,Trabzonspor,0,1,A,0
+2025-04-20,Fenerbahce,Kocaelispor,3,3,D,1
+2025-04-20,Rizespor,Eyupspor,1,0,H,0
+2025-04-20,Buyuksehyr,Gaziantep,2,1,H,0
+2025-04-21,Antalyaspor,Samsunspor,1,0,H,0
+2025-04-25,Besiktas,Antalyaspor,5,1,H,0
+2025-04-26,Gaziantep,Fenerbahce,1,3,A,0
+2025-04-26,Samsunspor,Antalyaspor,2,0,H,0
+2025-04-26,Bodrumspor,Samsunspor,1,2,A,0
+2025-04-27,Eyupspor,Galatasaray,1,5,A,0
+2025-04-27,Kocaelispor,Rizespor,1,0,H,0
+2025-04-27,Trabzonspor,Antalyaspor,4,3,H,0
+2025-04-27,Antalyaspor,Ad. Demirspor,3,1,H,0
+2025-04-28,Goztep,Buyuksehyr,4,1,H,0
+2025-05-02,Antalyaspor,Antalyaspor,1,0,H,0
+2025-05-03,Antalyaspor,Kocaelispor,1,1,D,1
+2025-05-03,Rizespor,Gaziantep,2,0,H,0
+2025-05-03,Galatasaray,Samsunspor,4,1,H,0
+2025-05-03,Antalyaspor,Buyuksehyr,2,4,A,0
+2025-05-04,Ad. Demirspor,Goztep,1,2,A,0
+2025-05-04,Samsunspor,Eyupspor,3,0,H,0
+2025-05-04,Fenerbahce,Besiktas,0,1,A,0
+2025-05-05,Kasimpasa,Trabzonspor,1,1,D,1
+2025-05-09,Gaziantep,Antalyaspor,0,1,A,0
+2025-05-09,Buyuksehyr,Fenerbahce,1,4,A,0
+2025-05-10,Trabzonspor,Galatasaray,0,2,A,0
+2025-05-10,Eyupspor,Kasimpasa,0,3,A,0
+2025-05-10,Antalyaspor,Rizespor,2,1,H,0
+2025-05-11,Goztep,Antalyaspor,1,1,D,1
+2025-05-11,Samsunspor,Bodrumspor,0,0,D,1
+2025-05-11,Besiktas,Ad. Demirspor,4,1,H,0
+2025-05-12,Kocaelispor,Antalyaspor,3,1,H,0
+2025-05-17,Ad. Demirspor,Antalyaspor,0,5,A,0
+2025-05-18,Bodrumspor,Trabzonspor,1,1,D,1
+2025-05-18,Fenerbahce,Eyupspor,2,1,H,0
+2025-05-18,Galatasaray,Kocaelispor,3,0,H,0
+2025-05-18,Kasimpasa,Buyuksehyr,2,3,A,0
+2025-05-18,Rizespor,Goztep,6,3,H,0
+2025-05-18,Samsunspor,Samsunspor,1,0,H,0
+2025-05-18,Antalyaspor,Besiktas,1,1,D,1
+2025-05-18,Antalyaspor,Gaziantep,0,0,D,1
+2025-05-24,Goztep,Galatasaray,0,2,A,0
+2025-05-24,Gaziantep,Kasimpasa,2,2,D,1
+2025-05-24,Eyupspor,Antalyaspor,2,1,H,0
+2025-05-25,Kocaelispor,Bodrumspor,1,1,D,1
+2025-05-25,Antalyaspor,Antalyaspor,1,2,A,0
+2025-05-25,Trabzonspor,Samsunspor,2,2,D,1
+2025-05-25,Besiktas,Rizespor,1,2,A,0
+2025-05-25,Buyuksehyr,Ad. Demirspor,2,3,A,0
+2025-05-26,Antalyaspor,Fenerbahce,4,2,H,0
+2025-05-30,Kasimpasa,Goztep,1,2,A,0
+2025-05-30,Galatasaray,Buyuksehyr,2,0,H,0
+2025-05-30,Antalyaspor,Trabzonspor,0,2,A,0
+2025-05-31,Ad. Demirspor,Gaziantep,2,2,D,1
+2025-05-31,Antalyaspor,Samsunspor,2,0,H,0
+2025-05-31,Fenerbahce,Antalyaspor,2,1,H,0
+2025-05-31,Rizespor,Antalyaspor,5,2,H,0
+2025-06-01,Bodrumspor,Besiktas,0,4,A,0
+2025-06-01,Samsunspor,Kocaelispor,2,1,H,0

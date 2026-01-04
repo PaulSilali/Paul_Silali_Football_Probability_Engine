@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+138,Swindon,147,Stockport,2324,2,1,0.5,3.0
+145,Mansfield,147,Stockport,2324,2,0,0.0,3.5
+121,Colchester,127,Newport County,2324,4,0,0.0,4.0
+127,Newport County,146,Forest Green,2324,4,0,0.0,4.25
+132,Crawley Town,147,Stockport,2324,2,2,1.0,4.0
+122,Grimsby,123,Milton Keynes Dons,2324,2,1,0.5,1.5
+128,Tranmere,132,Crawley Town,2324,2,0,0.0,4.5
+140,Doncaster,149,Wrexham,2324,2,0,0.0,2.0
+129,Barrow,149,Wrexham,2324,2,1,0.5,3.5
+124,Salford,127,Newport County,2324,4,0,0.0,2.25
+123,Milton Keynes Dons,129,Barrow,2324,2,1,0.5,2.5
+133,Crewe,149,Wrexham,2324,2,1,0.5,4.5
+140,Doncaster,142,Bradford,2324,2,1,0.5,3.0
+128,Tranmere,138,Swindon,2324,2,0,0.0,3.5
+122,Grimsby,142,Bradford,2324,2,2,1.0,2.0
+124,Salford,144,Morecambe,2324,2,0,0.0,2.5
+128,Tranmere,145,Mansfield,2324,2,1,0.5,3.5
+133,Crewe,147,Stockport,2324,2,0,0.0,3.0
+121,Colchester,135,Gillingham,2324,2,0,0.0,2.0
+121,Colchester,132,Crawley Town,2324,2,0,0.0,4.0
+128,Tranmere,139,AFC Wimbledon,2324,2,0,0.0,5.0
+127,Newport County,147,Stockport,2324,4,0,0.0,3.5
+122,Grimsby,140,Doncaster,2324,2,0,0.0,3.5
+124,Salford,126,Walsall,2324,2,0,0.0,3.0
+123,Milton Keynes Dons,128,Tranmere,2324,2,0,0.0,2.0
+133,Crewe,144,Morecambe,2324,2,0,0.0,3.0
+133,Crewe,145,Mansfield,2324,2,1,0.5,2.5
+127,Newport County,149,Wrexham,2324,4,0,0.0,1.5
+126,Walsall,146,Forest Green,2324,2,1,0.5,1.0
+121,Colchester,144,Morecambe,2324,2,0,0.0,2.5
+116,Accrington,144,Morecambe,2324,2,1,0.5,2.5
+116,Accrington,147,Stockport,2324,2,0,0.0,5.0
+126,Walsall,147,Stockport,2324,2,0,0.0,3.5
+135,Gillingham,147,Stockport,2324,2,1,0.5,0.5
+139,AFC Wimbledon,146,Forest Green,2324,2,2,1.0,2.0
+121,Colchester,126,Walsall,2324,2,1,0.5,1.5
+128,Tranmere,146,Forest Green,2324,2,0,0.0,2.0
+124,Salford,149,Wrexham,2324,2,0,0.0,4.5
+129,Barrow,147,Stockport,2324,2,1,0.5,2.5
+148,Sutton,149,Wrexham,2324,2,0,0.0,3.0
+140,Doncaster,147,Stockport,2324,2,0,0.0,3.5
+116,Accrington,127,Newport County,2324,4,1,0.25,3.75
+142,Bradford,148,Sutton,2324,2,0,0.0,2.0
+132,Crawley Town,146,Forest Green,2324,2,0,0.0,2.5
+138,Swindon,142,Bradford,2324,2,0,0.0,1.5
+144,Morecambe,145,Mansfield,2324,2,1,0.5,2.5
+123,Milton Keynes Dons,135,Gillingham,2324,2,0,0.0,3.0
+116,Accrington,139,AFC Wimbledon,2324,2,0,0.0,4.0
+136,Harrogate,140,Doncaster,2324,2,0,0.0,2.5
+126,Walsall,133,Crewe,2324,2,1,0.5,3.0
+122,Grimsby,128,Tranmere,2324,2,1,0.5,3.5
+121,Colchester,142,Bradford,2324,2,1,0.5,2.5
+129,Barrow,146,Forest Green,2324,2,0,0.0,2.5
+121,Colchester,136,Harrogate,2324,2,0,0.0,2.0
+121,Colchester,129,Barrow,2324,2,0,0.0,3.5
+116,Accrington,138,Swindon,2324,2,0,0.0,5.0
+135,Gillingham,139,AFC Wimbledon,2324,2,0,0.0,1.5
+127,Newport County,144,Morecambe,2324,4,1,0.25,4.0
+121,Colchester,122,Grimsby,2324,2,0,0.0,3.5
+116,Accrington,136,Harrogate,2324,2,0,0.0,3.0
+132,Crawley Town,133,Crewe,2324,2,0,0.0,3.5
+139,AFC Wimbledon,147,Stockport,2324,2,0,0.0,2.0
+123,Milton Keynes Dons,148,Sutton,2324,2,2,1.0,5.0
+123,Milton Keynes Dons,138,Swindon,2324,2,0,0.0,4.0
+128,Tranmere,149,Wrexham,2324,2,0,0.0,1.0
+126,Walsall,136,Harrogate,2324,2,0,0.0,1.5
+126,Walsall,132,Crawley Town,2324,2,2,1.0,2.0
+132,Crawley Town,139,AFC Wimbledon,2324,2,0,0.0,2.0
+116,Accrington,149,Wrexham,2324,2,0,0.0,3.0
+127,Newport County,142,Bradford,2324,4,0,0.0,4.75
+132,Crawley Town,136,Harrogate,2324,2,0,0.0,3.0
+121,Colchester,140,Doncaster,2324,2,0,0.0,4.5
+121,Colchester,139,AFC Wimbledon,2324,2,0,0.0,5.0
+133,Crewe,135,Gillingham,2324,2,1,0.5,1.0
+133,Crewe,142,Bradford,2324,2,0,0.0,1.0
+142,Bradford,147,Stockport,2324,2,2,1.0,1.0
+132,Crawley Town,140,Doncaster,2324,2,0,0.0,2.0
+123,Milton Keynes Dons,133,Crewe,2324,2,0,0.0,4.0
+142,Bradford,146,Forest Green,2324,2,0,0.0,2.5
+116,Accrington,148,Sutton,2324,2,0,0.0,4.5
+135,Gillingham,145,Mansfield,2324,2,1,0.5,2.5
+127,Newport County,129,Barrow,2324,4,3,0.75,1.75
+145,Mansfield,148,Sutton,2324,2,1,0.5,2.0
+138,Swindon,145,Mansfield,2324,2,0,0.0,4.0
+136,Harrogate,138,Swindon,2324,2,2,1.0,2.0
+121,Colchester,128,Tranmere,2324,2,1,0.5,2.0
+124,Salford,142,Bradford,2324,2,1,0.5,2.5
+122,Grimsby,129,Barrow,2324,2,0,0.0,3.5
+140,Doncaster,146,Forest Green,2324,2,0,0.0,2.5
+121,Colchester,149,Wrexham,2324,2,0,0.0,3.0
+127,Newport County,148,Sutton,2324,4,1,0.25,4.75
+136,Harrogate,149,Wrexham,2324,2,2,1.0,2.0
+123,Milton Keynes Dons,127,Newport County,2324,4,3,0.75,2.75
+124,Salford,146,Forest Green,2324,2,1,0.5,3.0
+116,Accrington,129,Barrow,2324,2,2,1.0,2.0
+122,Grimsby,133,Crewe,2324,2,0,0.0,3.0
+127,Newport County,136,Harrogate,2324,4,0,0.0,3.75
+127,Newport County,138,Swindon,2324,4,0,0.0,3.0
+132,Crawley Town,142,Bradford,2324,2,0,0.0,3.5
+132,Crawley Town,144,Morecambe,2324,2,0,0.0,2.0
+133,Crewe,138,Swindon,2324,2,1,0.5,3.5
+144,Morecambe,147,Stockport,2324,2,1,0.5,2.0
+127,Newport County,135,Gillingham,2324,4,0,0.0,2.5
+122,Grimsby,124,Salford,2324,2,0,0.0,2.5
+122,Grimsby,144,Morecambe,2324,2,1,0.5,3.5
+139,AFC Wimbledon,149,Wrexham,2324,2,1,0.5,2.0
+126,Walsall,148,Sutton,2324,2,1,0.5,3.0
+116,Accrington,122,Grimsby,2324,2,1,0.5,1.0
+139,AFC Wimbledon,142,Bradford,2324,2,1,0.5,0.5
+144,Morecambe,148,Sutton,2324,2,0,0.0,3.0
+122,Grimsby,138,Swindon,2324,2,0,0.0,2.5
+123,Milton Keynes Dons,142,Bradford,2324,2,0,0.0,4.5
+122,Grimsby,126,Walsall,2324,2,1,0.5,4.5
+136,Harrogate,144,Morecambe,2324,2,1,0.5,3.0
+139,AFC Wimbledon,148,Sutton,2324,2,0,0.0,2.0
+126,Walsall,140,Doncaster,2324,2,0,0.0,3.5
+126,Walsall,145,Mansfield,2324,2,0,0.0,3.0
+135,Gillingham,148,Sutton,2324,2,0,0.0,1.0
+116,Accrington,140,Doncaster,2324,2,1,0.5,2.0
+144,Morecambe,149,Wrexham,2324,2,0,0.0,5.0
+121,Colchester,123,Milton Keynes Dons,2324,2,0,0.0,3.0
+121,Colchester,146,Forest Green,2324,2,1,0.5,5.5
+128,Tranmere,147,Stockport,2324,2,0,0.0,3.0
+124,Salford,140,Doncaster,2324,2,1,0.5,3.5
+116,Accrington,145,Mansfield,2324,2,0,0.0,3.0
+129,Barrow,144,Morecambe,2324,2,0,0.0,2.0
+116,Accrington,126,Walsall,2324,2,0,0.0,3.0
+140,Doncaster,148,Sutton,2324,2,1,0.5,3.5
+127,Newport County,127,Newport County,2324,2,0,0.0,3.5
+122,Grimsby,149,Wrexham,2324,2,0,0.0,3.5
+136,Harrogate,142,Bradford,2324,2,1,0.5,2.5
+138,Swindon,149,Wrexham,2324,2,1,0.5,5.5
+128,Tranmere,136,Harrogate,2324,2,0,0.0,2.5
+116,Accrington,142,Bradford,2324,2,0,0.0,2.0
+126,Walsall,128,Tranmere,2324,2,0,0.0,2.5
+126,Walsall,135,Gillingham,2324,2,1,0.5,3.5
+135,Gillingham,149,Wrexham,2324,2,0,0.0,1.5
+127,Newport County,145,Mansfield,2324,4,0,0.0,2.25
+116,Accrington,146,Forest Green,2324,2,0,0.0,2.0
+128,Tranmere,144,Morecambe,2324,2,0,0.0,3.0
+123,Milton Keynes Dons,136,Harrogate,2324,2,0,0.0,4.5
+124,Salford,138,Swindon,2324,2,2,1.0,3.0
+127,Newport County,128,Tranmere,2324,4,0,0.0,3.75
+139,AFC Wimbledon,140,Doncaster,2324,2,0,0.0,1.5
+124,Salford,129,Barrow,2324,2,1,0.5,4.0
+136,Harrogate,145,Mansfield,2324,2,0,0.0,8.0
+132,Crawley Town,135,Gillingham,2324,2,0,0.0,1.5
+129,Barrow,133,Crewe,2324,2,0,0.0,4.0
+146,Forest Green,149,Wrexham,2324,2,1,0.5,4.0
+127,Newport County,139,AFC Wimbledon,2324,4,1,0.25,3.5
+127,Newport County,140,Doncaster,2324,4,0,0.0,3.0
+123,Milton Keynes Dons,147,Stockport,2324,2,0,0.0,4.0
+142,Bradford,149,Wrexham,2324,2,1,0.5,1.5
+126,Walsall,138,Swindon,2324,2,0,0.0,2.5
+123,Milton Keynes Dons,149,Wrexham,2324,2,1,0.5,5.0
+128,Tranmere,140,Doncaster,2324,2,0,0.0,3.0
+129,Barrow,132,Crawley Town,2324,2,1,0.5,1.5
+140,Doncaster,145,Mansfield,2324,2,2,1.0,3.0
+123,Milton Keynes Dons,124,Salford,2324,2,0,0.0,5.0
+147,Stockport,149,Wrexham,2324,2,0,0.0,4.0
+122,Grimsby,146,Forest Green,2324,2,1,0.5,2.5
+133,Crewe,136,Harrogate,2324,2,1,0.5,0.5
+133,Crewe,139,AFC Wimbledon,2324,2,2,1.0,3.0
+122,Grimsby,139,AFC Wimbledon,2324,2,2,1.0,
+129,Barrow,139,AFC Wimbledon,2324,2,1,0.5,1.0
+122,Grimsby,145,Mansfield,2324,2,1,0.5,2.0
+136,Harrogate,139,AFC Wimbledon,2324,2,1,0.5,1.5
+124,Salford,132,Crawley Town,2324,2,1,0.5,1.5
+128,Tranmere,135,Gillingham,2324,2,1,0.5,3.0
+127,Newport County,133,Crewe,2324,4,1,0.25,3.25
+121,Colchester,124,Salford,2324,2,1,0.5,2.5
+136,Harrogate,146,Forest Green,2324,2,0,0.0,1.5
+128,Tranmere,133,Crewe,2324,2,1,0.5,1.0
+147,Stockport,148,Sutton,2324,2,0,0.0,6.0
+129,Barrow,145,Mansfield,2324,2,1,0.5,1.5
+126,Walsall,149,Wrexham,2324,2,0,0.0,5.0
+124,Salford,135,Gillingham,2324,2,0,0.0,3.0
+129,Barrow,140,Doncaster,2324,2,0,0.0,5.5
+124,Salford,147,Stockport,2324,2,2,1.0,2.0
+145,Mansfield,149,Wrexham,2324,2,1,0.5,1.0
+127,Newport County,132,Crawley Town,2324,4,0,0.0,4.0
+122,Grimsby,132,Crawley Town,2324,2,0,0.0,3.5
+133,Crewe,148,Sutton,2324,2,1,0.5,1.5
+132,Crawley Town,148,Sutton,2324,2,1,0.5,3.5
+121,Colchester,148,Sutton,2324,2,2,1.0,2.0
+146,Forest Green,147,Stockport,2324,2,0,0.0,2.5
+124,Salford,136,Harrogate,2324,2,1,0.5,4.5
+126,Walsall,127,Newport County,2324,4,1,0.25,4.0
+135,Gillingham,136,Harrogate,2324,2,0,0.0,3.5
+122,Grimsby,136,Harrogate,2324,2,0,0.0,2.0
+124,Salford,133,Crewe,2324,2,0,0.0,5.5
+136,Harrogate,147,Stockport,2324,2,1,0.5,3.0
+133,Crewe,140,Doncaster,2324,2,0,0.0,3.5
+128,Tranmere,142,Bradford,2324,2,0,0.0,2.5
+129,Barrow,142,Bradford,2324,2,0,0.0,3.0
+142,Bradford,145,Mansfield,2324,2,1,0.5,3.0
+138,Swindon,148,Sutton,2324,2,0,0.0,6.0
+135,Gillingham,138,Swindon,2324,2,1,0.5,2.5
+121,Colchester,133,Crewe,2324,2,1,0.5,2.5
+116,Accrington,124,Salford,2324,2,0,0.0,3.0
+135,Gillingham,146,Forest Green,2324,2,2,1.0,1.0
+116,Accrington,128,Tranmere,2324,2,0,0.0,3.5
+129,Barrow,136,Harrogate,2324,2,1,0.5,0.5
+142,Bradford,144,Morecambe,2324,2,1,0.5,3.5
+123,Milton Keynes Dons,126,Walsall,2324,2,1,0.5,2.5
+122,Grimsby,135,Gillingham,2324,2,1,0.5,2.0
+138,Swindon,146,Forest Green,2324,2,0,0.0,3.0
+116,Accrington,121,Colchester,2324,2,1,0.5,1.5
+146,Forest Green,148,Sutton,2324,2,0,0.0,1.0
+132,Crawley Town,138,Swindon,2324,2,0,0.0,5.0
+129,Barrow,138,Swindon,2324,2,0,0.0,2.5
+126,Walsall,139,AFC Wimbledon,2324,2,0,0.0,5.0
+116,Accrington,135,Gillingham,2324,2,0,0.0,2.0
+122,Grimsby,148,Sutton,2324,2,2,1.0,2.0
+121,Colchester,145,Mansfield,2324,2,2,1.0,2.0
+122,Grimsby,147,Stockport,2324,2,0,0.0,4.5
+123,Milton Keynes Dons,139,AFC Wimbledon,2324,2,0,0.0,2.5
+124,Salford,139,AFC Wimbledon,2324,2,1,0.5,0.5
+121,Colchester,138,Swindon,2324,2,1,0.5,4.0
+123,Milton Keynes Dons,132,Crawley Town,2324,2,0,0.0,2.5
+129,Barrow,148,Sutton,2324,2,1,0.5,3.5
+140,Doncaster,144,Morecambe,2324,2,0,0.0,4.0
+124,Salford,145,Mansfield,2324,2,0,0.0,4.5
+132,Crawley Town,149,Wrexham,2324,2,0,0.0,3.0
+129,Barrow,135,Gillingham,2324,2,0,0.0,2.5
+116,Accrington,133,Crewe,2324,2,2,1.0,3.0
+135,Gillingham,144,Morecambe,2324,2,0,0.0,4.0
+123,Milton Keynes Dons,144,Morecambe,2324,2,0,0.0,3.5
+145,Mansfield,146,Forest Green,2324,2,0,0.0,2.5
+124,Salford,148,Sutton,2324,2,0,0.0,2.5
+116,Accrington,132,Crawley Town,2324,2,0,0.0,2.5
+133,Crewe,146,Forest Green,2324,2,0,0.0,4.0
+126,Walsall,129,Barrow,2324,2,1,0.5,2.0
+126,Walsall,142,Bradford,2324,2,0,0.0,4.5
+136,Harrogate,148,Sutton,2324,2,1,0.5,3.5
+138,Swindon,139,AFC Wimbledon,2324,2,0,0.0,4.5
+128,Tranmere,148,Sutton,2324,2,1,0.5,1.5
+135,Gillingham,140,Doncaster,2324,2,1,0.5,3.5
+124,Salford,128,Tranmere,2324,2,0,0.0,6.5
+138,Swindon,140,Doncaster,2324,2,1,0.5,1.5
+121,Colchester,147,Stockport,2324,2,0,0.0,2.5
+122,Grimsby,127,Newport County,2324,4,2,0.5,4.5
+144,Morecambe,146,Forest Green,2324,2,0,0.0,3.0
+126,Walsall,144,Morecambe,2324,2,0,0.0,3.0
+132,Crawley Town,145,Mansfield,2324,2,0,0.0,4.5
+139,AFC Wimbledon,144,Morecambe,2324,2,1,0.5,3.5
+123,Milton Keynes Dons,146,Forest Green,2324,2,0,0.0,2.0
+138,Swindon,144,Morecambe,2324,2,2,1.0,5.0
+139,AFC Wimbledon,145,Mansfield,2324,2,1,0.5,1.5
+123,Milton Keynes Dons,145,Mansfield,2324,2,0,0.0,4.0
+128,Tranmere,129,Barrow,2324,2,0,0.0,2.0
+123,Milton Keynes Dons,140,Doncaster,2324,2,0,0.0,3.0
+116,Accrington,123,Milton Keynes Dons,2324,2,0,0.0,2.0
+135,Gillingham,142,Bradford,2324,2,0,0.0,1.5

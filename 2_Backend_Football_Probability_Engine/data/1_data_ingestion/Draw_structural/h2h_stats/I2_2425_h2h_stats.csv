@@ -1,0 +1,173 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+268,Frosinone,276,Bari,2425,2,0,0.0,3.0
+268,Frosinone,271,Juve Stabia,2425,2,2,1.0,1.0
+270,Reggiana,283,Cremonese,2425,2,0,0.0,2.5
+270,Reggiana,273,Cesena,2425,4,1,0.25,1.25
+265,Spezia,276,Bari,2425,2,1,0.5,1.0
+268,Frosinone,282,Sassuolo,2425,2,0,0.0,2.0
+275,Sudtirol,283,Cremonese,2425,2,0,0.0,4.0
+272,Mantova,280,Pisa,2425,2,0,0.0,4.5
+269,Sampdoria,274,Carrarese,2425,2,1,0.5,1.5
+279,Brescia,280,Pisa,2425,2,0,0.0,3.0
+271,Juve Stabia,280,Pisa,2425,2,0,0.0,3.0
+264,Palermo,273,Cesena,2425,4,2,0.5,2.0
+264,Palermo,268,Frosinone,2425,2,1,0.5,2.0
+270,Reggiana,276,Bari,2425,2,2,1.0,2.0
+280,Pisa,284,Cittadella,2425,2,1,0.5,1.5
+264,Palermo,275,Sudtirol,2425,2,0,0.0,3.5
+267,Catanzaro,276,Bari,2425,2,2,1.0,4.0
+280,Pisa,282,Sassuolo,2425,2,0,0.0,2.5
+279,Brescia,284,Cittadella,2425,2,0,0.0,1.0
+264,Palermo,274,Carrarese,2425,2,1,0.5,1.5
+268,Frosinone,274,Carrarese,2425,2,0,0.0,1.0
+263,Monza,264,Palermo,2425,2,1,0.5,3.0
+275,Sudtirol,284,Cittadella,2425,2,0,0.0,4.5
+264,Palermo,269,Sampdoria,2425,2,2,1.0,2.0
+276,Bari,284,Cittadella,2425,2,0,0.0,4.5
+264,Palermo,271,Juve Stabia,2425,2,0,0.0,2.5
+267,Catanzaro,284,Cittadella,2425,2,1,0.5,0.5
+265,Spezia,284,Cittadella,2425,2,0,0.0,3.5
+271,Juve Stabia,279,Brescia,2425,2,2,1.0,
+265,Spezia,271,Juve Stabia,2425,2,1,0.5,2.5
+270,Reggiana,282,Sassuolo,2425,2,0,0.0,4.0
+274,Carrarese,284,Cittadella,2425,2,1,0.5,1.5
+267,Catanzaro,269,Sampdoria,2425,2,2,1.0,5.0
+276,Bari,280,Pisa,2425,2,0,0.0,1.5
+264,Palermo,267,Catanzaro,2425,2,0,0.0,3.5
+274,Carrarese,279,Brescia,2425,2,1,0.5,1.5
+268,Frosinone,273,Cesena,2425,4,2,0.5,3.0
+276,Bari,281,Salernitana,2425,2,1,0.5,1.0
+275,Sudtirol,280,Pisa,2425,2,1,0.5,4.5
+265,Spezia,283,Cremonese,2425,2,1,0.5,3.5
+273,Cesena,274,Carrarese,2425,4,0,0.0,1.75
+269,Sampdoria,270,Reggiana,2425,2,1,0.5,2.5
+263,Monza,268,Frosinone,2425,2,2,1.0,2.0
+274,Carrarese,281,Salernitana,2425,2,0,0.0,5.0
+272,Mantova,274,Carrarese,2425,2,1,0.5,2.5
+276,Bari,283,Cremonese,2425,2,2,1.0,2.0
+273,Cesena,284,Cittadella,2425,4,2,0.5,0.75
+268,Frosinone,284,Cittadella,2425,2,1,0.5,2.5
+269,Sampdoria,280,Pisa,2425,2,0,0.0,2.0
+274,Carrarese,280,Pisa,2425,2,0,0.0,2.0
+263,Monza,271,Juve Stabia,2425,2,0,0.0,3.0
+267,Catanzaro,268,Frosinone,2425,2,2,1.0,1.0
+270,Reggiana,284,Cittadella,2425,2,0,0.0,3.5
+271,Juve Stabia,284,Cittadella,2425,2,1,0.5,2.5
+271,Juve Stabia,273,Cesena,2425,4,1,0.25,2.25
+265,Spezia,269,Sampdoria,2425,2,1,0.5,1.0
+272,Mantova,275,Sudtirol,2425,2,1,0.5,3.0
+274,Carrarese,283,Cremonese,2425,2,1,0.5,2.5
+281,Salernitana,282,Sassuolo,2425,2,0,0.0,3.5
+263,Monza,280,Pisa,2425,2,0,0.0,2.0
+263,Monza,274,Carrarese,2425,2,0,0.0,2.5
+273,Cesena,282,Sassuolo,2425,4,0,0.0,2.25
+263,Monza,281,Salernitana,2425,2,1,0.5,1.5
+264,Palermo,280,Pisa,2425,2,0,0.0,2.5
+269,Sampdoria,275,Sudtirol,2425,2,0,0.0,2.0
+263,Monza,283,Cremonese,2425,2,2,1.0,4.0
+275,Sudtirol,276,Bari,2425,2,1,0.5,0.5
+273,Cesena,273,Cesena,2425,2,0,0.0,2.0
+273,Cesena,276,Bari,2425,4,2,0.5,1.5
+265,Spezia,280,Pisa,2425,2,1,0.5,4.5
+275,Sudtirol,279,Brescia,2425,2,1,0.5,1.5
+274,Carrarese,276,Bari,2425,2,1,0.5,1.5
+269,Sampdoria,272,Mantova,2425,2,1,0.5,2.5
+271,Juve Stabia,275,Sudtirol,2425,2,0,0.0,2.5
+279,Brescia,282,Sassuolo,2425,2,0,0.0,4.5
+263,Monza,282,Sassuolo,2425,2,0,0.0,3.0
+267,Catanzaro,274,Carrarese,2425,2,1,0.5,4.0
+268,Frosinone,275,Sudtirol,2425,2,1,0.5,2.5
+264,Palermo,276,Bari,2425,2,0,0.0,2.0
+271,Juve Stabia,272,Mantova,2425,2,1,0.5,1.5
+272,Mantova,276,Bari,2425,2,0,0.0,1.5
+270,Reggiana,281,Salernitana,2425,2,1,0.5,1.5
+280,Pisa,283,Cremonese,2425,2,0,0.0,3.5
+272,Mantova,279,Brescia,2425,2,1,0.5,2.5
+270,Reggiana,274,Carrarese,2425,2,2,1.0,2.0
+267,Catanzaro,280,Pisa,2425,2,2,1.0,
+263,Monza,284,Cittadella,2425,2,0,0.0,1.5
+263,Monza,272,Mantova,2425,2,1,0.5,2.0
+269,Sampdoria,282,Sassuolo,2425,2,1,0.5,3.0
+273,Cesena,279,Brescia,2425,4,2,0.5,2.75
+275,Sudtirol,281,Salernitana,2425,2,0,0.0,4.0
+265,Spezia,268,Frosinone,2425,2,1,0.5,3.5
+268,Frosinone,270,Reggiana,2425,2,1,0.5,2.0
+263,Monza,270,Reggiana,2425,2,0,0.0,3.0
+276,Bari,282,Sassuolo,2425,2,2,1.0,2.0
+271,Juve Stabia,281,Salernitana,2425,2,0,0.0,2.0
+270,Reggiana,272,Mantova,2425,2,1,0.5,3.0
+265,Spezia,279,Brescia,2425,2,1,0.5,1.5
+263,Monza,267,Catanzaro,2425,2,1,0.5,3.5
+264,Palermo,272,Mantova,2425,2,2,1.0,2.0
+268,Frosinone,269,Sampdoria,2425,2,1,0.5,3.5
+279,Brescia,281,Salernitana,2425,2,2,1.0,
+265,Spezia,274,Carrarese,2425,2,0,0.0,5.0
+267,Catanzaro,270,Reggiana,2425,2,2,1.0,3.0
+270,Reggiana,280,Pisa,2425,2,0,0.0,2.5
+267,Catanzaro,281,Salernitana,2425,2,1,0.5,0.5
+264,Palermo,281,Salernitana,2425,2,0,0.0,2.0
+282,Sassuolo,284,Cittadella,2425,2,0,0.0,5.0
+282,Sassuolo,283,Cremonese,2425,2,1,0.5,3.5
+267,Catanzaro,275,Sudtirol,2425,2,1,0.5,2.5
+264,Palermo,284,Cittadella,2425,2,0,0.0,2.0
+273,Cesena,280,Pisa,2425,4,2,0.5,3.25
+279,Brescia,283,Cremonese,2425,2,1,0.5,3.5
+264,Palermo,283,Cremonese,2425,2,0,0.0,3.0
+269,Sampdoria,279,Brescia,2425,2,1,0.5,1.5
+273,Cesena,275,Sudtirol,2425,4,1,0.25,2.0
+270,Reggiana,271,Juve Stabia,2425,2,0,0.0,3.0
+271,Juve Stabia,283,Cremonese,2425,2,1,0.5,2.5
+263,Monza,269,Sampdoria,2425,2,0,0.0,2.5
+263,Monza,276,Bari,2425,2,0,0.0,3.0
+268,Frosinone,279,Brescia,2425,2,0,0.0,3.5
+265,Spezia,273,Cesena,2425,4,2,0.5,1.75
+264,Palermo,270,Reggiana,2425,2,0,0.0,2.5
+267,Catanzaro,273,Cesena,2425,4,1,0.25,3.5
+265,Spezia,282,Sassuolo,2425,2,1,0.5,1.5
+263,Monza,265,Spezia,2425,2,1,0.5,1.5
+267,Catanzaro,279,Brescia,2425,2,0,0.0,4.0
+272,Mantova,273,Cesena,2425,4,1,0.25,4.5
+265,Spezia,270,Reggiana,2425,2,0,0.0,2.0
+267,Catanzaro,272,Mantova,2425,2,2,1.0,2.0
+265,Spezia,281,Salernitana,2425,2,0,0.0,2.0
+271,Juve Stabia,274,Carrarese,2425,2,1,0.5,1.5
+281,Salernitana,283,Cremonese,2425,2,0,0.0,2.0
+272,Mantova,283,Cremonese,2425,2,0,0.0,3.5
+268,Frosinone,283,Cremonese,2425,2,0,0.0,2.0
+264,Palermo,282,Sassuolo,2425,2,0,0.0,5.5
+264,Palermo,265,Spezia,2425,2,1,0.5,3.0
+274,Carrarese,282,Sassuolo,2425,2,0,0.0,2.0
+269,Sampdoria,276,Bari,2425,2,2,1.0,1.0
+268,Frosinone,272,Mantova,2425,2,0,0.0,3.5
+274,Carrarese,275,Sudtirol,2425,2,1,0.5,3.0
+272,Mantova,282,Sassuolo,2425,2,0,0.0,2.0
+269,Sampdoria,281,Salernitana,2425,2,0,0.0,3.0
+270,Reggiana,275,Sudtirol,2425,2,0,0.0,3.0
+272,Mantova,284,Cittadella,2425,2,0,0.0,2.0
+283,Cremonese,284,Cittadella,2425,2,2,1.0,2.0
+264,Palermo,279,Brescia,2425,2,0,0.0,1.0
+269,Sampdoria,283,Cremonese,2425,2,2,1.0,1.0
+268,Frosinone,280,Pisa,2425,2,1,0.5,0.5
+263,Monza,275,Sudtirol,2425,2,1,0.5,1.5
+271,Juve Stabia,282,Sassuolo,2425,2,1,0.5,3.0
+281,Salernitana,284,Cittadella,2425,2,0,0.0,2.5
+273,Cesena,281,Salernitana,2425,4,2,0.5,2.5
+267,Catanzaro,271,Juve Stabia,2425,2,1,0.5,1.0
+280,Pisa,281,Salernitana,2425,2,0,0.0,3.0
+267,Catanzaro,282,Sassuolo,2425,2,1,0.5,2.0
+263,Monza,273,Cesena,2425,4,3,0.75,2.25
+269,Sampdoria,271,Juve Stabia,2425,2,1,0.5,1.5
+270,Reggiana,279,Brescia,2425,2,0,0.0,2.5
+272,Mantova,281,Salernitana,2425,2,0,0.0,1.5
+265,Spezia,267,Catanzaro,2425,2,0,0.0,1.0
+265,Spezia,272,Mantova,2425,2,2,1.0,3.0
+265,Spezia,275,Sudtirol,2425,2,1,0.5,2.5
+267,Catanzaro,283,Cremonese,2425,2,0,0.0,3.5
+269,Sampdoria,273,Cesena,2425,4,0,0.0,3.75
+276,Bari,279,Brescia,2425,2,2,1.0,3.0
+271,Juve Stabia,276,Bari,2425,2,0,0.0,4.0
+273,Cesena,283,Cremonese,2425,4,0,0.0,2.25
+263,Monza,279,Brescia,2425,2,2,1.0,5.0
+269,Sampdoria,284,Cittadella,2425,2,1,0.5,0.5
+275,Sudtirol,282,Sassuolo,2425,2,0,0.0,4.5
+268,Frosinone,281,Salernitana,2425,2,1,0.5,2.0

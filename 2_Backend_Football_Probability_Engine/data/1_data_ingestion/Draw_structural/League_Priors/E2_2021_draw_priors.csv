@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2020-09-12,Accrington,Peterboro,2,0,H,0
+2020-09-12,Doncaster,Milton Keynes Dons,1,1,D,1
+2020-09-12,Crewe,Charlton,0,2,A,0
+2020-09-12,Plymouth,Blackpool,1,0,H,0
+2020-09-12,Swindon,Rochdale,3,1,H,0
+2020-09-12,Northampton,AFC Wimbledon,2,2,D,1
+2020-09-12,Lincoln,Oxford,2,0,H,0
+2020-09-12,Sunderland,Bristol Rvs,1,1,D,1
+2020-09-12,Portsmouth,Shrewsbury,0,0,D,1
+2020-09-12,Fleetwood Town,Luton,2,1,H,0
+2020-09-12,Birmingham,Hull,0,2,A,0
+2020-09-13,Ipswich,Wigan,2,0,H,0
+2020-09-19,Peterboro,Fleetwood Town,2,1,H,0
+2020-09-19,Blackpool,Swindon,2,0,H,0
+2020-09-19,Bristol Rvs,Ipswich,0,2,A,0
+2020-09-19,Luton,Accrington,2,1,H,0
+2020-09-19,Charlton,Doncaster,1,3,A,0
+2020-09-19,Hull,Crewe,1,0,H,0
+2020-09-19,Milton Keynes Dons,Lincoln,1,2,A,0
+2020-09-19,Oxford,Sunderland,0,2,A,0
+2020-09-19,AFC Wimbledon,Plymouth,4,4,D,1
+2020-09-19,Shrewsbury,Northampton,1,2,A,0
+2020-09-19,Wigan,Birmingham,2,3,A,0
+2020-09-20,Rochdale,Portsmouth,0,0,D,1
+2020-09-26,Fleetwood Town,AFC Wimbledon,0,1,A,0
+2020-09-26,Birmingham,Blackpool,2,0,H,0
+2020-09-26,Ipswich,Rochdale,2,0,H,0
+2020-09-26,Northampton,Hull,0,2,A,0
+2020-09-26,Plymouth,Shrewsbury,1,1,D,1
+2020-09-26,Doncaster,Bristol Rvs,4,1,H,0
+2020-09-26,Sunderland,Peterboro,1,0,H,0
+2020-09-26,Swindon,Luton,4,2,H,0
+2020-09-26,Crewe,Milton Keynes Dons,2,0,H,0
+2020-09-26,Accrington,Oxford,1,4,A,0
+2020-09-26,Portsmouth,Wigan,1,2,A,0
+2020-09-27,Lincoln,Charlton,2,0,H,0
+2020-10-03,Shrewsbury,Birmingham,1,1,D,1
+2020-10-03,AFC Wimbledon,Accrington,1,2,A,0
+2020-10-03,Blackpool,Lincoln,2,3,A,0
+2020-10-03,Bristol Rvs,Northampton,2,0,H,0
+2020-10-03,Luton,Portsmouth,2,4,A,0
+2020-10-03,Charlton,Sunderland,0,0,D,1
+2020-10-03,Hull,Plymouth,1,0,H,0
+2020-10-03,Milton Keynes Dons,Ipswich,1,1,D,1
+2020-10-03,Peterboro,Swindon,3,1,H,0
+2020-10-03,Rochdale,Fleetwood Town,2,1,H,0
+2020-10-03,Wigan,Doncaster,1,0,H,0
+2020-10-09,Fleetwood Town,Hull,4,1,H,0
+2020-10-10,Crewe,Wigan,3,0,H,0
+2020-10-10,Lincoln,Bristol Rvs,1,2,A,0
+2020-10-10,Northampton,Peterboro,0,2,A,0
+2020-10-10,Plymouth,Luton,2,0,H,0
+2020-10-10,Portsmouth,Milton Keynes Dons,2,1,H,0
+2020-10-10,Swindon,AFC Wimbledon,0,1,A,0
+2020-10-10,Blackpool,Ipswich,1,4,A,0
+2020-10-10,Accrington,Rochdale,2,1,H,0
+2020-10-10,Birmingham,Oxford,3,1,H,0
+2020-10-17,Charlton,Wigan,1,0,H,0
+2020-10-17,Crewe,Blackpool,1,1,D,1
+2020-10-17,Fleetwood Town,Lincoln,0,0,D,1
+2020-10-17,Ipswich,Accrington,2,0,H,0
+2020-10-17,Peterboro,Oxford,2,0,H,0
+2020-10-17,Plymouth,Northampton,2,1,H,0
+2020-10-17,Portsmouth,Doncaster,0,1,A,0
+2020-10-17,Rochdale,Hull,0,3,A,0
+2020-10-17,Swindon,Sunderland,0,2,A,0
+2020-10-17,Milton Keynes Dons,Birmingham,2,0,H,0
+2020-10-17,AFC Wimbledon,Shrewsbury,0,1,A,0
+2020-10-17,Bristol Rvs,Luton,1,1,D,1
+2020-10-20,Shrewsbury,Bristol Rvs,0,1,A,0
+2020-10-20,Birmingham,Portsmouth,0,2,A,0
+2020-10-20,Accrington,Fleetwood Town,1,0,H,0
+2020-10-20,Blackpool,Charlton,0,1,A,0
+2020-10-20,Doncaster,Ipswich,4,1,H,0
+2020-10-20,Hull,AFC Wimbledon,1,0,H,0
+2020-10-20,Lincoln,Plymouth,2,0,H,0
+2020-10-20,Oxford,Milton Keynes Dons,3,2,H,0
+2020-10-20,Sunderland,Crewe,1,0,H,0
+2020-10-20,Wigan,Peterboro,0,1,A,0
+2020-10-20,Luton,Rochdale,0,1,A,0
+2020-10-20,Northampton,Swindon,2,1,H,0
+2020-10-24,Doncaster,Crewe,1,2,A,0
+2020-10-24,Shrewsbury,Rochdale,1,2,A,0
+2020-10-24,Sunderland,Portsmouth,1,3,A,0
+2020-10-24,Wigan,Plymouth,1,1,D,1
+2020-10-24,Birmingham,Fleetwood Town,0,2,A,0
+2020-10-24,Blackpool,Milton Keynes Dons,1,0,H,0
+2020-10-24,Luton,AFC Wimbledon,1,1,D,1
+2020-10-24,Hull,Peterboro,1,2,A,0
+2020-10-24,Lincoln,Ipswich,1,0,H,0
+2020-10-24,Northampton,Charlton,0,2,A,0
+2020-10-27,Rochdale,Sunderland,2,2,D,1
+2020-10-27,Ipswich,Birmingham,1,0,H,0
+2020-10-27,Milton Keynes Dons,Wigan,2,0,H,0
+2020-10-27,Peterboro,Luton,2,2,D,1
+2020-10-27,Fleetwood Town,Shrewsbury,1,0,H,0
+2020-10-27,AFC Wimbledon,Blackpool,1,0,H,0
+2020-10-27,Bristol Rvs,Hull,1,3,A,0
+2020-10-27,Charlton,Oxford,2,0,H,0
+2020-10-27,Crewe,Lincoln,0,1,A,0
+2020-10-27,Plymouth,Doncaster,2,1,H,0
+2020-10-27,Portsmouth,Northampton,4,0,H,0
+2020-10-31,Doncaster,Lincoln,1,0,H,0
+2020-10-31,Birmingham,Sunderland,0,2,A,0
+2020-10-31,Luton,Blackpool,1,2,A,0
+2020-10-31,Fleetwood Town,Oxford,2,0,H,0
+2020-10-31,Ipswich,Crewe,1,0,H,0
+2020-10-31,Milton Keynes Dons,AFC Wimbledon,1,1,D,1
+2020-10-31,Peterboro,Shrewsbury,5,1,H,0
+2020-10-31,Portsmouth,Charlton,0,2,A,0
+2020-10-31,Rochdale,Bristol Rvs,1,1,D,1
+2020-10-31,Swindon,Hull,2,1,H,0
+2020-10-31,Wigan,Northampton,2,3,A,0
+2020-11-03,Charlton,Fleetwood Town,3,2,H,0
+2020-11-03,Crewe,Birmingham,0,1,A,0
+2020-11-03,Lincoln,Portsmouth,1,3,A,0
+2020-11-03,Oxford,Rochdale,3,1,H,0
+2020-11-03,Plymouth,Swindon,4,2,H,0
+2020-11-03,Sunderland,Ipswich,2,1,H,0
+2020-11-03,AFC Wimbledon,Doncaster,2,2,D,1
+2020-11-03,Northampton,Milton Keynes Dons,0,0,D,1
+2020-11-03,Bristol Rvs,Peterboro,0,2,A,0
+2020-11-03,Blackpool,Wigan,1,0,H,0
+2020-11-03,Shrewsbury,Luton,1,1,D,1
+2020-11-14,Northampton,Accrington,0,1,A,0
+2020-11-14,Shrewsbury,Swindon,3,3,D,1
+2020-11-14,Sunderland,Milton Keynes Dons,1,2,A,0
+2020-11-14,Bristol Rvs,Fleetwood Town,1,4,A,0
+2020-11-14,Crewe,Peterboro,2,0,H,0
+2020-11-14,Hull,Luton,2,0,H,0
+2020-11-16,Plymouth,Portsmouth,2,2,D,1
+2020-11-17,Oxford,Crewe,0,2,A,0
+2020-11-17,Swindon,Accrington,0,3,A,0
+2020-11-21,Portsmouth,Crewe,4,1,H,0
+2020-11-21,Birmingham,Charlton,1,1,D,1
+2020-11-21,Accrington,Lincoln,0,0,D,1
+2020-11-21,Luton,Northampton,1,3,A,0
+2020-11-21,Doncaster,Sunderland,1,1,D,1
+2020-11-21,Fleetwood Town,Plymouth,5,1,H,0
+2020-11-21,Ipswich,Shrewsbury,2,1,H,0
+2020-11-21,Milton Keynes Dons,Hull,1,3,A,0
+2020-11-21,Peterboro,Blackpool,1,2,A,0
+2020-11-21,Rochdale,AFC Wimbledon,0,1,A,0
+2020-11-21,Swindon,Bristol Rvs,1,0,H,0
+2020-11-21,Wigan,Oxford,1,2,A,0
+2020-11-24,Wigan,Bristol Rvs,0,0,D,1
+2020-11-24,Doncaster,Blackpool,3,2,H,0
+2020-11-24,Birmingham,AFC Wimbledon,2,1,H,0
+2020-11-24,Accrington,Crewe,1,0,H,0
+2020-11-24,Luton,Charlton,4,2,H,0
+2020-11-24,Peterboro,Plymouth,1,0,H,0
+2020-11-24,Milton Keynes Dons,Shrewsbury,2,2,D,1
+2020-11-24,Ipswich,Hull,0,3,A,0
+2020-11-24,Rochdale,Northampton,1,1,D,1
+2020-11-24,Portsmouth,Oxford,1,1,D,1
+2020-11-24,Swindon,Lincoln,0,1,A,0
+2020-11-27,Fleetwood Town,Sunderland,1,1,D,1
+2020-11-28,Oxford,Swindon,1,2,A,0
+2020-11-28,Ipswich,Charlton,0,2,A,0
+2020-12-01,Oxford,Ipswich,0,0,D,1
+2020-12-01,Sunderland,Luton,1,1,D,1
+2020-12-01,Northampton,Fleetwood Town,1,0,H,0
+2020-12-01,Plymouth,Rochdale,0,4,A,0
+2020-12-01,Crewe,Swindon,4,2,H,0
+2020-12-01,Lincoln,Wigan,2,1,H,0
+2020-12-01,Blackpool,Portsmouth,1,0,H,0
+2020-12-02,Charlton,Milton Keynes Dons,0,1,A,0
+2020-12-02,AFC Wimbledon,Peterboro,2,1,H,0
+2020-12-02,Bristol Rvs,Birmingham,0,2,A,0
+2020-12-02,Hull,Doncaster,2,1,H,0
+2020-12-02,Shrewsbury,Accrington,2,2,D,1
+2020-12-05,Accrington,Milton Keynes Dons,2,1,H,0
+2020-12-05,Birmingham,Swindon,2,0,H,0
+2020-12-05,AFC Wimbledon,Bristol Rvs,2,4,A,0
+2020-12-05,Luton,Crewe,1,1,D,1
+2020-12-05,Fleetwood Town,Blackpool,0,1,A,0
+2020-12-05,Northampton,Doncaster,0,2,A,0
+2020-12-05,Oxford,Hull,1,1,D,1
+2020-12-05,Plymouth,Ipswich,1,2,A,0
+2020-12-05,Portsmouth,Peterboro,2,0,H,0
+2020-12-05,Rochdale,Lincoln,0,2,A,0
+2020-12-05,Shrewsbury,Charlton,1,1,D,1
+2020-12-05,Sunderland,Wigan,0,1,A,0
+2020-12-12,Crewe,Northampton,2,1,H,0
+2020-12-12,Doncaster,Birmingham,2,1,H,0
+2020-12-12,Hull,Shrewsbury,0,1,A,0
+2020-12-12,Ipswich,Portsmouth,0,2,A,0
+2020-12-12,Lincoln,Sunderland,0,4,A,0
+2020-12-12,Milton Keynes Dons,Luton,1,1,D,1
+2020-12-12,Peterboro,Rochdale,4,1,H,0
+2020-12-12,Swindon,Fleetwood Town,0,1,A,0
+2020-12-12,Wigan,Accrington,4,3,H,0
+2020-12-12,Charlton,AFC Wimbledon,5,2,H,0
+2020-12-12,Bristol Rvs,Plymouth,3,0,H,0
+2020-12-12,Blackpool,Oxford,0,0,D,1
+2020-12-15,Crewe,Plymouth,2,1,H,0
+2020-12-15,Lincoln,Shrewsbury,0,1,A,0
+2020-12-15,Sunderland,AFC Wimbledon,1,1,D,1
+2020-12-15,Wigan,Rochdale,0,5,A,0
+2020-12-15,Ipswich,Luton,2,1,H,0
+2020-12-15,Milton Keynes Dons,Peterboro,1,1,D,1
+2020-12-15,Oxford,Northampton,4,0,H,0
+2020-12-15,Portsmouth,Fleetwood Town,0,0,D,1
+2020-12-15,Doncaster,Swindon,2,1,H,0
+2020-12-15,Birmingham,Accrington,0,2,A,0
+2020-12-15,Blackpool,Hull,3,2,H,0
+2020-12-18,Hull,Portsmouth,0,2,A,0
+2020-12-19,Swindon,Charlton,2,2,D,1
+2020-12-19,Rochdale,Birmingham,1,4,A,0
+2020-12-19,Accrington,Blackpool,0,0,D,1
+2020-12-19,AFC Wimbledon,Crewe,1,2,A,0
+2020-12-19,Luton,Doncaster,1,3,A,0
+2020-12-19,Fleetwood Town,Wigan,1,1,D,1
+2020-12-19,Northampton,Lincoln,0,4,A,0
+2020-12-19,Plymouth,Milton Keynes Dons,1,0,H,0
+2020-12-22,Doncaster,Shrewsbury,0,1,A,0
+2020-12-26,Wigan,Shrewsbury,1,1,D,1
+2020-12-26,Charlton,Plymouth,2,2,D,1
+2020-12-26,Crewe,Fleetwood Town,1,1,D,1
+2020-12-26,Milton Keynes Dons,Bristol Rvs,2,0,H,0
+2020-12-26,Oxford,AFC Wimbledon,2,0,H,0
+2020-12-26,Lincoln,Luton,5,1,H,0
+2020-12-29,Shrewsbury,Blackpool,1,0,H,0
+2020-12-29,Luton,Wigan,3,4,A,0
+2020-12-29,Plymouth,Oxford,2,3,A,0
+2020-12-29,Northampton,Birmingham,3,1,H,0
+2020-12-29,Swindon,Milton Keynes Dons,1,4,A,0
+2021-01-02,Plymouth,Birmingham,1,0,H,0
+2021-01-02,AFC Wimbledon,Lincoln,1,2,A,0
+2021-01-02,Bristol Rvs,Blackpool,2,1,H,0
+2021-01-02,Luton,Oxford,1,5,A,0
+2021-01-02,Hull,Charlton,2,0,H,0
+2021-01-02,Northampton,Sunderland,0,0,D,1
+2021-01-08,Charlton,Accrington,0,2,A,0
+2021-01-09,Ipswich,Swindon,2,3,A,0
+2021-01-09,Birmingham,Luton,0,1,A,0
+2021-01-09,Rochdale,Crewe,3,3,D,1
+2021-01-09,Lincoln,Peterboro,1,1,D,1
+2021-01-09,Sunderland,Hull,1,1,D,1
+2021-01-12,Charlton,Rochdale,4,4,D,1
+2021-01-16,Bristol Rvs,Charlton,0,1,A,0
+2021-01-16,AFC Wimbledon,Sunderland,0,3,A,0
+2021-01-16,Accrington,Birmingham,0,1,A,0
+2021-01-16,Luton,Ipswich,0,1,A,0
+2021-01-16,Fleetwood Town,Portsmouth,0,1,A,0
+2021-01-16,Hull,Blackpool,1,1,D,1
+2021-01-16,Peterboro,Milton Keynes Dons,3,0,H,0
+2021-01-16,Plymouth,Crewe,1,1,D,1
+2021-01-16,Rochdale,Wigan,3,3,D,1
+2021-01-16,Swindon,Doncaster,1,2,A,0
+2021-01-19,Doncaster,Rochdale,1,0,H,0
+2021-01-19,Milton Keynes Dons,Fleetwood Town,3,1,H,0
+2021-01-19,Portsmouth,AFC Wimbledon,4,0,H,0
+2021-01-19,Sunderland,Plymouth,1,2,A,0
+2021-01-19,Crewe,Bristol Rvs,3,2,H,0
+2021-01-19,Peterboro,Charlton,2,1,H,0
+2021-01-19,Hull,Accrington,3,0,H,0
+2021-01-23,Ipswich,Peterboro,0,1,A,0
+2021-01-23,Lincoln,Northampton,2,1,H,0
+2021-01-23,Oxford,Bristol Rvs,2,0,H,0
+2021-01-23,Portsmouth,Hull,0,4,A,0
+2021-01-23,Sunderland,Shrewsbury,1,0,H,0
+2021-01-23,Wigan,Fleetwood Town,0,0,D,1
+2021-01-23,Charlton,Swindon,2,2,D,1
+2021-01-23,Crewe,AFC Wimbledon,1,1,D,1
+2021-01-23,Birmingham,Rochdale,2,2,D,1
+2021-01-26,Milton Keynes Dons,Charlton,0,1,A,0
+2021-01-26,Peterboro,Bristol Rvs,0,0,D,1
+2021-01-26,Portsmouth,Lincoln,0,1,A,0
+2021-01-26,Rochdale,Oxford,3,4,A,0
+2021-01-26,Swindon,Plymouth,0,2,A,0
+2021-01-26,Wigan,Blackpool,0,5,A,0
+2021-01-26,Fleetwood Town,Northampton,0,0,D,1
+2021-01-26,Ipswich,Sunderland,0,1,A,0
+2021-01-26,Accrington,Hull,2,0,H,0
+2021-01-26,Birmingham,Crewe,4,1,H,0
+2021-01-26,Doncaster,AFC Wimbledon,2,0,H,0
+2021-01-30,Bristol Rvs,Rochdale,1,2,A,0
+2021-01-30,Sunderland,Birmingham,2,2,D,1
+2021-01-30,AFC Wimbledon,Milton Keynes Dons,0,2,A,0
+2021-01-30,Crewe,Ipswich,1,1,D,1
+2021-01-30,Hull,Swindon,1,0,H,0
+2021-01-30,Lincoln,Doncaster,0,1,A,0
+2021-01-30,Oxford,Fleetwood Town,1,0,H,0
+2021-01-30,Plymouth,Accrington,2,2,D,1
+2021-01-30,Shrewsbury,Peterboro,2,0,H,0
+2021-02-02,Swindon,Wigan,1,0,H,0
+2021-02-02,Shrewsbury,Crewe,0,1,A,0
+2021-02-02,Accrington,Bristol Rvs,6,1,H,0
+2021-02-02,Blackpool,Northampton,2,0,H,0
+2021-02-02,Charlton,Portsmouth,1,3,A,0
+2021-02-05,Birmingham,Lincoln,0,3,A,0
+2021-02-06,Accrington,Northampton,0,0,D,1
+2021-02-06,Swindon,Shrewsbury,0,1,A,0
+2021-02-06,Wigan,AFC Wimbledon,2,3,A,0
+2021-02-06,Peterboro,Crewe,2,0,H,0
+2021-02-06,Ipswich,Blackpool,2,0,H,0
+2021-02-06,Fleetwood Town,Bristol Rvs,0,0,D,1
+2021-02-06,Doncaster,Oxford,3,2,H,0
+2021-02-06,Portsmouth,Plymouth,2,2,D,1
+2021-02-06,Rochdale,Charlton,0,2,A,0
+2021-02-06,Milton Keynes Dons,Sunderland,2,2,D,1
+2021-02-06,Luton,Hull,1,0,H,0
+2021-02-09,Northampton,Wigan,0,1,A,0
+2021-02-09,Peterboro,Ipswich,2,1,H,0
+2021-02-09,Portsmouth,Swindon,2,0,H,0
+2021-02-09,Rochdale,Milton Keynes Dons,1,4,A,0
+2021-02-09,Shrewsbury,Sunderland,2,1,H,0
+2021-02-09,Fleetwood Town,Doncaster,3,1,H,0
+2021-02-09,Accrington,Plymouth,0,1,A,0
+2021-02-09,Bristol Rvs,Oxford,0,2,A,0
+2021-02-09,Hull,Lincoln,0,0,D,1
+2021-02-13,Hull,Milton Keynes Dons,0,1,A,0
+2021-02-13,Northampton,Luton,0,2,A,0
+2021-02-13,Sunderland,Doncaster,4,1,H,0
+2021-02-13,Plymouth,Fleetwood Town,1,0,H,0
+2021-02-13,Charlton,Birmingham,2,3,A,0
+2021-02-14,Lincoln,Accrington,2,2,D,1
+2021-02-14,Oxford,Wigan,2,1,H,0
+2021-02-16,Blackpool,Rochdale,1,0,H,0
+2021-02-16,Birmingham,Peterboro,1,3,A,0
+2021-02-16,Bristol Rvs,Portsmouth,3,1,H,0
+2021-02-16,Ipswich,Northampton,0,0,D,1
+2021-02-17,Wigan,Hull,0,5,A,0
+2021-02-17,Doncaster,Accrington,0,1,A,0
+2021-02-20,Doncaster,Hull,3,3,D,1
+2021-02-20,Fleetwood Town,Charlton,1,1,D,1
+2021-02-20,Ipswich,Oxford,0,0,D,1
+2021-02-20,Milton Keynes Dons,Northampton,4,3,H,0
+2021-02-20,Peterboro,AFC Wimbledon,3,0,H,0
+2021-02-20,Portsmouth,Blackpool,0,1,A,0
+2021-02-20,Rochdale,Plymouth,0,0,D,1
+2021-02-20,Swindon,Crewe,2,1,H,0
+2021-02-20,Wigan,Lincoln,1,2,A,0
+2021-02-20,Accrington,Shrewsbury,1,1,D,1
+2021-02-20,Luton,Sunderland,0,3,A,0
+2021-02-20,Birmingham,Bristol Rvs,2,0,H,0
+2021-02-23,Crewe,Accrington,2,0,H,0
+2021-02-23,Hull,Ipswich,0,1,A,0
+2021-02-23,Lincoln,Swindon,2,2,D,1
+2021-02-23,Northampton,Rochdale,0,0,D,1
+2021-02-23,Oxford,Portsmouth,0,1,A,0
+2021-02-23,Shrewsbury,Milton Keynes Dons,4,2,H,0
+2021-02-23,Sunderland,Fleetwood Town,2,0,H,0
+2021-02-23,Plymouth,Peterboro,0,3,A,0
+2021-02-23,AFC Wimbledon,Birmingham,1,0,H,0
+2021-02-23,Bristol Rvs,Wigan,1,2,A,0
+2021-02-23,Charlton,Luton,1,2,A,0
+2021-02-27,Ipswich,Doncaster,2,1,H,0
+2021-02-27,AFC Wimbledon,Hull,0,3,A,0
+2021-02-27,Bristol Rvs,Shrewsbury,2,1,H,0
+2021-02-27,Charlton,Blackpool,0,3,A,0
+2021-02-27,Crewe,Sunderland,2,2,D,1
+2021-02-27,Fleetwood Town,Accrington,1,1,D,1
+2021-02-27,Milton Keynes Dons,Oxford,1,1,D,1
+2021-02-27,Peterboro,Wigan,2,1,H,0
+2021-02-27,Plymouth,Lincoln,4,3,H,0
+2021-02-27,Portsmouth,Birmingham,1,1,D,1
+2021-02-27,Rochdale,Luton,0,2,A,0
+2021-02-27,Swindon,Northampton,2,1,H,0
+2021-03-02,Hull,Rochdale,2,0,H,0
+2021-03-02,Lincoln,Fleetwood Town,1,2,A,0
+2021-03-02,Northampton,Plymouth,2,0,H,0
+2021-03-02,Oxford,Peterboro,0,0,D,1
+2021-03-02,Shrewsbury,AFC Wimbledon,1,1,D,1
+2021-03-02,Sunderland,Swindon,1,0,H,0
+2021-03-02,Birmingham,Milton Keynes Dons,3,2,H,0
+2021-03-02,Wigan,Charlton,0,1,A,0
+2021-03-02,Accrington,Ipswich,1,2,A,0
+2021-03-02,Blackpool,Crewe,1,1,D,1
+2021-03-02,Luton,Bristol Rvs,1,0,H,0
+2021-03-02,Doncaster,Portsmouth,2,1,H,0
+2021-03-06,Luton,Peterboro,2,1,H,0
+2021-03-06,Doncaster,Plymouth,2,1,H,0
+2021-03-06,Hull,Bristol Rvs,2,0,H,0
+2021-03-06,Lincoln,Crewe,3,0,H,0
+2021-03-06,Northampton,Portsmouth,4,1,H,0
+2021-03-06,Oxford,Charlton,0,0,D,1
+2021-03-06,Birmingham,Ipswich,3,1,H,0
+2021-03-06,Accrington,Swindon,2,1,H,0
+2021-03-06,Blackpool,AFC Wimbledon,1,1,D,1
+2021-03-06,Shrewsbury,Fleetwood Town,0,2,A,0
+2021-03-06,Sunderland,Rochdale,2,0,H,0
+2021-03-06,Wigan,Milton Keynes Dons,3,0,H,0
+2021-03-09,AFC Wimbledon,Luton,0,1,A,0
+2021-03-09,Bristol Rvs,Accrington,4,1,H,0
+2021-03-09,Charlton,Northampton,2,1,H,0
+2021-03-09,Crewe,Doncaster,1,0,H,0
+2021-03-09,Ipswich,Lincoln,1,1,D,1
+2021-03-09,Milton Keynes Dons,Blackpool,0,1,A,0
+2021-03-09,Peterboro,Hull,1,3,A,0
+2021-03-09,Plymouth,Wigan,0,2,A,0
+2021-03-09,Rochdale,Shrewsbury,0,2,A,0
+2021-03-09,Swindon,Oxford,1,2,A,0
+2021-03-09,Fleetwood Town,Birmingham,1,0,H,0
+2021-03-09,Portsmouth,Sunderland,0,2,A,0
+2021-03-13,Charlton,Shrewsbury,1,1,D,1
+2021-03-13,Crewe,Luton,0,3,A,0
+2021-03-13,Doncaster,Northampton,0,0,D,1
+2021-03-13,Hull,Oxford,2,0,H,0
+2021-03-13,Ipswich,Plymouth,1,0,H,0
+2021-03-13,Lincoln,Rochdale,1,2,A,0
+2021-03-13,Milton Keynes Dons,Accrington,3,2,H,0
+2021-03-13,Bristol Rvs,AFC Wimbledon,0,0,D,1
+2021-03-13,Blackpool,Fleetwood Town,0,0,D,1
+2021-03-13,Swindon,Birmingham,1,3,A,0
+2021-03-16,Charlton,Bristol Rvs,3,2,H,0
+2021-03-16,Milton Keynes Dons,Plymouth,2,1,H,0
+2021-03-16,Oxford,Doncaster,3,0,H,0
+2021-03-16,Peterboro,Portsmouth,1,0,H,0
+2021-03-16,Fleetwood Town,Ipswich,2,0,H,0
+2021-03-16,Lincoln,Birmingham,0,3,A,0
+2021-03-16,AFC Wimbledon,Wigan,1,1,D,1
+2021-03-16,Blackpool,Luton,1,1,D,1
+2021-03-17,Accrington,Sunderland,0,2,A,0
+2021-03-20,Oxford,Blackpool,0,2,A,0
+2021-03-20,Portsmouth,Ipswich,2,1,H,0
+2021-03-20,Accrington,Wigan,3,1,H,0
+2021-03-20,AFC Wimbledon,Charlton,2,2,D,1
+2021-03-20,Luton,Milton Keynes Dons,1,2,A,0
+2021-03-20,Fleetwood Town,Swindon,0,2,A,0
+2021-03-20,Birmingham,Doncaster,2,2,D,1
+2021-03-20,Northampton,Crewe,0,1,A,0
+2021-03-20,Plymouth,Bristol Rvs,2,0,H,0
+2021-03-20,Rochdale,Peterboro,3,3,D,1
+2021-03-20,Shrewsbury,Hull,1,1,D,1
+2021-03-20,Sunderland,Lincoln,1,1,D,1
+2021-03-23,Blackpool,Peterboro,3,1,H,0
+2021-03-23,Bristol Rvs,Swindon,0,1,A,0
+2021-03-23,Luton,Shrewsbury,1,2,A,0
+2021-03-23,Northampton,Oxford,1,0,H,0
+2021-03-26,Oxford,Lincoln,2,1,H,0
+2021-03-27,Peterboro,Accrington,7,0,H,0
+2021-03-27,Shrewsbury,Portsmouth,1,2,A,0
+2021-03-27,Wigan,Ipswich,0,0,D,1
+2021-03-27,Blackpool,Plymouth,2,2,D,1
+2021-03-27,AFC Wimbledon,Northampton,1,0,H,0
+2021-03-27,Bristol Rvs,Sunderland,0,1,A,0
+2021-03-27,Hull,Birmingham,1,1,D,1
+2021-03-27,Milton Keynes Dons,Doncaster,1,0,H,0
+2021-03-31,Birmingham,Wigan,1,0,H,0
+2021-04-02,Fleetwood Town,Peterboro,0,1,A,0
+2021-04-02,Ipswich,Bristol Rvs,2,1,H,0
+2021-04-02,Northampton,Shrewsbury,1,0,H,0
+2021-04-02,Plymouth,AFC Wimbledon,1,0,H,0
+2021-04-02,Portsmouth,Rochdale,2,1,H,0
+2021-04-02,Sunderland,Oxford,3,1,H,0
+2021-04-02,Swindon,Blackpool,0,2,A,0
+2021-04-02,Doncaster,Charlton,0,1,A,0
+2021-04-02,Crewe,Hull,1,2,A,0
+2021-04-02,Accrington,Luton,0,0,D,1
+2021-04-05,AFC Wimbledon,Fleetwood Town,0,1,A,0
+2021-04-05,Blackpool,Birmingham,4,1,H,0
+2021-04-05,Bristol Rvs,Doncaster,2,1,H,0
+2021-04-05,Luton,Swindon,2,1,H,0
+2021-04-05,Hull,Northampton,3,0,H,0
+2021-04-05,Milton Keynes Dons,Crewe,0,2,A,0
+2021-04-05,Oxford,Accrington,1,2,A,0
+2021-04-05,Peterboro,Sunderland,1,1,D,1
+2021-04-05,Rochdale,Ipswich,0,0,D,1
+2021-04-05,Shrewsbury,Plymouth,3,0,H,0
+2021-04-05,Wigan,Portsmouth,0,1,A,0
+2021-04-10,Fleetwood Town,Rochdale,1,0,H,0
+2021-04-10,Birmingham,Shrewsbury,0,0,D,1
+2021-04-10,Ipswich,Milton Keynes Dons,0,0,D,1
+2021-04-10,Lincoln,Blackpool,2,2,D,1
+2021-04-10,Northampton,Bristol Rvs,1,1,D,1
+2021-04-10,Plymouth,Hull,0,3,A,0
+2021-04-10,Portsmouth,Luton,1,2,A,0
+2021-04-10,Sunderland,Charlton,1,2,A,0
+2021-04-10,Swindon,Peterboro,0,3,A,0
+2021-04-10,Doncaster,Wigan,1,4,A,0
+2021-04-10,Crewe,Oxford,0,6,A,0
+2021-04-10,Accrington,AFC Wimbledon,1,5,A,0
+2021-04-13,AFC Wimbledon,Ipswich,3,0,H,0
+2021-04-13,Doncaster,Luton,0,3,A,0
+2021-04-13,Lincoln,Milton Keynes Dons,4,0,H,0
+2021-04-13,Oxford,Shrewsbury,4,1,H,0
+2021-04-13,Rochdale,Swindon,2,1,H,0
+2021-04-13,Blackpool,Accrington,0,0,D,1
+2021-04-13,Crewe,Portsmouth,0,0,D,1
+2021-04-13,Wigan,Sunderland,2,1,H,0
+2021-04-16,Peterboro,Northampton,3,1,H,0
+2021-04-17,AFC Wimbledon,Swindon,4,1,H,0
+2021-04-17,Blackpool,Sunderland,1,0,H,0
+2021-04-17,Bristol Rvs,Lincoln,0,1,A,0
+2021-04-17,Luton,Plymouth,1,1,D,1
+2021-04-17,Charlton,Ipswich,0,0,D,1
+2021-04-17,Hull,Fleetwood Town,2,1,H,0
+2021-04-17,Milton Keynes Dons,Portsmouth,1,0,H,0
+2021-04-17,Rochdale,Accrington,3,1,H,0
+2021-04-17,Shrewsbury,Doncaster,0,2,A,0
+2021-04-17,Wigan,Crewe,2,0,H,0
+2021-04-17,Oxford,Birmingham,3,2,H,0
+2021-04-20,Shrewsbury,Wigan,1,2,A,0
+2021-04-20,Fleetwood Town,Crewe,0,2,A,0
+2021-04-20,Hull,Sunderland,2,2,D,1
+2021-04-20,Peterboro,Birmingham,0,1,A,0
+2021-04-20,Plymouth,Charlton,0,6,A,0
+2021-04-20,Bristol Rvs,Milton Keynes Dons,0,2,A,0
+2021-04-20,Swindon,Portsmouth,3,1,H,0
+2021-04-20,Accrington,Doncaster,2,1,H,0
+2021-04-20,AFC Wimbledon,Oxford,2,1,H,0
+2021-04-20,Luton,Lincoln,0,1,A,0
+2021-04-20,Northampton,Ipswich,3,0,H,0
+2021-04-20,Rochdale,Blackpool,1,0,H,0
+2021-04-24,Lincoln,Hull,1,2,A,0
+2021-04-24,Portsmouth,Bristol Rvs,1,0,H,0
+2021-04-24,Blackpool,Shrewsbury,0,1,A,0
+2021-04-24,Charlton,Peterboro,0,1,A,0
+2021-04-24,Milton Keynes Dons,Swindon,5,0,H,0
+2021-04-24,Oxford,Plymouth,3,1,H,0
+2021-04-24,Crewe,Rochdale,1,1,D,1
+2021-04-24,Sunderland,Accrington,3,3,D,1
+2021-04-24,Wigan,Luton,1,1,D,1
+2021-04-24,Doncaster,Fleetwood Town,0,1,A,0
+2021-04-24,Birmingham,Northampton,2,2,D,1
+2021-04-24,Ipswich,AFC Wimbledon,0,0,D,1
+2021-04-27,Peterboro,Doncaster,2,2,D,1
+2021-04-27,Accrington,Portsmouth,3,3,D,1
+2021-04-27,AFC Wimbledon,Rochdale,3,3,D,1
+2021-04-27,Luton,Fleetwood Town,5,2,H,0
+2021-04-27,Charlton,Crewe,2,2,D,1
+2021-04-27,Shrewsbury,Lincoln,0,1,A,0
+2021-04-27,Sunderland,Blackpool,0,1,A,0
+2021-05-01,Plymouth,Sunderland,1,3,A,0
+2021-05-01,Accrington,Charlton,1,1,D,1
+2021-05-01,AFC Wimbledon,Portsmouth,1,3,A,0
+2021-05-01,Bristol Rvs,Crewe,0,1,A,0
+2021-05-01,Luton,Birmingham,1,1,D,1
+2021-05-01,Fleetwood Town,Milton Keynes Dons,1,1,D,1
+2021-05-01,Hull,Wigan,3,1,H,0
+2021-05-01,Northampton,Blackpool,0,3,A,0
+2021-05-01,Peterboro,Lincoln,3,3,D,1
+2021-05-01,Rochdale,Doncaster,1,2,A,0
+2021-05-01,Shrewsbury,Oxford,2,3,A,0
+2021-05-01,Swindon,Ipswich,1,2,A,0
+2021-05-04,Shrewsbury,Ipswich,0,0,D,1
+2021-05-04,Charlton,Lincoln,3,1,H,0
+2021-05-04,Blackpool,Doncaster,2,0,H,0
+2021-05-09,Doncaster,Peterboro,1,4,A,0
+2021-05-09,Birmingham,Plymouth,1,0,H,0
+2021-05-09,Ipswich,Fleetwood Town,3,1,H,0
+2021-05-09,Lincoln,AFC Wimbledon,0,0,D,1
+2021-05-09,Blackpool,Bristol Rvs,1,0,H,0
+2021-05-09,Oxford,Luton,4,0,H,0
+2021-05-09,Portsmouth,Accrington,0,1,A,0
+2021-05-09,Sunderland,Northampton,1,1,D,1
+2021-05-09,Wigan,Swindon,3,4,A,0
+2021-05-09,Milton Keynes Dons,Rochdale,0,3,A,0
+2021-05-09,Charlton,Hull,1,0,H,0
+2021-05-09,Crewe,Shrewsbury,3,2,H,0

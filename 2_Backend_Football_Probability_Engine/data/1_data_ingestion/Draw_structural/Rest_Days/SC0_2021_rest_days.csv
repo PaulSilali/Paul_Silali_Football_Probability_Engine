@@ -1,0 +1,229 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC0,2021,2020-08-01,St Mirren,Livingston,143,147,False
+SC0,2021,2020-08-01,Aberdeen,Rangers,147,146,False
+SC0,2021,2020-08-01,Hibernian,Kilmarnock,147,147,False
+SC0,2021,2020-08-01,Dundee,St Johnstone,7,147,False
+SC0,2021,2020-08-02,Celtic,Hamilton,148,148,False
+SC0,2021,2020-08-03,Ross County,Motherwell,148,149,False
+SC0,2021,2020-08-08,Livingston,Hibernian,7,7,False
+SC0,2021,2020-08-08,Motherwell,Dundee,5,7,False
+SC0,2021,2020-08-08,Hamilton,Ross County,6,5,False
+SC0,2021,2020-08-09,Kilmarnock,Celtic,8,7,False
+SC0,2021,2020-08-09,Rangers,St Mirren,8,8,False
+SC0,2021,2020-08-11,Dundee,Hibernian,3,3,True
+SC0,2021,2020-08-12,Rangers,St Johnstone,3,11,True
+SC0,2021,2020-08-12,Ross County,Kilmarnock,4,3,True
+SC0,2021,2020-08-12,Motherwell,Livingston,4,4,True
+SC0,2021,2020-08-15,Kilmarnock,St Johnstone,3,3,False
+SC0,2021,2020-08-15,Ross County,Dundee,3,4,False
+SC0,2021,2020-08-15,Hibernian,Motherwell,4,3,False
+SC0,2021,2020-08-15,Hamilton,St Mirren,7,6,False
+SC0,2021,2020-08-16,Livingston,Rangers,4,4,False
+SC0,2021,2020-08-20,St Johnstone,Aberdeen,5,19,True
+SC0,2021,2020-08-22,Rangers,Kilmarnock,6,7,False
+SC0,2021,2020-08-22,St Mirren,Ross County,7,7,False
+SC0,2021,2020-08-22,Dundee,Celtic,7,13,False
+SC0,2021,2020-08-22,Motherwell,Hamilton,7,7,False
+SC0,2021,2020-08-23,Aberdeen,Livingston,3,7,False
+SC0,2021,2020-08-23,St Johnstone,Hibernian,3,8,False
+SC0,2021,2020-08-29,St Johnstone,St Mirren,6,7,False
+SC0,2021,2020-08-29,Kilmarnock,Dundee,7,7,False
+SC0,2021,2020-08-29,Livingston,Ross County,6,7,False
+SC0,2021,2020-08-29,Hamilton,Rangers,7,7,False
+SC0,2021,2020-08-30,Hibernian,Aberdeen,7,7,False
+SC0,2021,2020-08-30,Celtic,Motherwell,8,8,False
+SC0,2021,2020-09-12,Livingston,Hamilton,14,14,False
+SC0,2021,2020-09-12,Motherwell,St Johnstone,13,14,False
+SC0,2021,2020-09-12,Rangers,Dundee,14,14,False
+SC0,2021,2020-09-12,Ross County,Celtic,14,13,False
+SC0,2021,2020-09-12,St Mirren,Hibernian,14,13,False
+SC0,2021,2020-09-12,Aberdeen,Kilmarnock,13,14,False
+SC0,2021,2020-09-16,St Mirren,Celtic,4,4,True
+SC0,2021,2020-09-19,Dundee,St Mirren,7,3,False
+SC0,2021,2020-09-19,Kilmarnock,Hamilton,7,7,False
+SC0,2021,2020-09-19,St Johnstone,Ross County,7,7,False
+SC0,2021,2020-09-19,Celtic,Livingston,3,7,False
+SC0,2021,2020-09-20,Aberdeen,Motherwell,8,8,False
+SC0,2021,2020-09-20,Hibernian,Rangers,8,8,False
+SC0,2021,2020-09-26,Livingston,St Johnstone,7,7,False
+SC0,2021,2020-09-26,St Mirren,Kilmarnock,7,7,False
+SC0,2021,2020-09-26,Hamilton,Dundee,7,7,False
+SC0,2021,2020-09-27,Celtic,Hibernian,8,7,False
+SC0,2021,2020-09-27,Ross County,Aberdeen,8,7,False
+SC0,2021,2020-09-27,Motherwell,Rangers,7,7,False
+SC0,2021,2020-10-02,Dundee,Livingston,6,6,False
+SC0,2021,2020-10-02,Hibernian,Hamilton,5,6,False
+SC0,2021,2020-10-02,Aberdeen,St Mirren,5,6,False
+SC0,2021,2020-10-04,St Johnstone,Celtic,8,7,False
+SC0,2021,2020-10-04,Rangers,Ross County,7,7,False
+SC0,2021,2020-10-17,Dundee,Aberdeen,15,15,False
+SC0,2021,2020-10-17,Celtic,Rangers,13,13,False
+SC0,2021,2020-10-17,Hamilton,St Johnstone,15,13,False
+SC0,2021,2020-10-17,Livingston,Kilmarnock,15,21,False
+SC0,2021,2020-10-17,Ross County,Hibernian,13,15,False
+SC0,2021,2020-10-20,Aberdeen,Hamilton,3,3,True
+SC0,2021,2020-10-24,St Johnstone,Dundee,7,7,False
+SC0,2021,2020-10-24,Motherwell,Ross County,27,7,False
+SC0,2021,2020-10-24,Kilmarnock,Hibernian,7,7,False
+SC0,2021,2020-10-25,Rangers,Livingston,8,8,False
+SC0,2021,2020-10-25,Aberdeen,Celtic,5,8,False
+SC0,2021,2020-10-31,Livingston,Motherwell,6,7,False
+SC0,2021,2020-10-31,Dundee,Ross County,7,7,False
+SC0,2021,2020-11-01,Kilmarnock,Rangers,8,7,False
+SC0,2021,2020-11-06,Ross County,Livingston,6,6,False
+SC0,2021,2020-11-06,St Johnstone,Kilmarnock,13,5,False
+SC0,2021,2020-11-06,St Mirren,Dundee,35,6,False
+SC0,2021,2020-11-06,Aberdeen,Hibernian,12,13,False
+SC0,2021,2020-11-08,Rangers,Hamilton,7,19,False
+SC0,2021,2020-11-08,Motherwell,Celtic,8,14,False
+SC0,2021,2020-11-21,Hibernian,Celtic,15,13,False
+SC0,2021,2020-11-21,Kilmarnock,Ross County,15,15,False
+SC0,2021,2020-11-21,Livingston,St Mirren,15,15,False
+SC0,2021,2020-11-21,St Johnstone,Motherwell,15,13,False
+SC0,2021,2020-11-21,Dundee,Hamilton,15,13,False
+SC0,2021,2020-11-22,Rangers,Aberdeen,14,16,False
+SC0,2021,2020-11-24,Hibernian,St Johnstone,3,3,True
+SC0,2021,2020-11-25,Hamilton,Aberdeen,4,3,True
+SC0,2021,2020-12-05,St Mirren,Aberdeen,14,10,False
+SC0,2021,2020-12-05,Livingston,Dundee,14,14,False
+SC0,2021,2020-12-05,Hamilton,Kilmarnock,10,14,False
+SC0,2021,2020-12-05,Motherwell,Hibernian,14,11,False
+SC0,2021,2020-12-06,Ross County,Rangers,15,14,False
+SC0,2021,2020-12-06,Celtic,St Johnstone,15,12,False
+SC0,2021,2020-12-12,Hamilton,Hibernian,7,7,False
+SC0,2021,2020-12-12,Motherwell,St Mirren,7,7,False
+SC0,2021,2020-12-12,St Johnstone,Livingston,6,7,False
+SC0,2021,2020-12-12,Aberdeen,Ross County,7,6,False
+SC0,2021,2020-12-13,Celtic,Kilmarnock,7,8,False
+SC0,2021,2020-12-13,Dundee,Rangers,8,7,False
+SC0,2021,2020-12-19,Rangers,Motherwell,6,7,False
+SC0,2021,2020-12-19,Ross County,Hamilton,7,7,False
+SC0,2021,2020-12-19,St Mirren,St Johnstone,7,7,False
+SC0,2021,2020-12-19,Hibernian,Dundee,7,6,False
+SC0,2021,2020-12-20,Kilmarnock,Aberdeen,7,8,False
+SC0,2021,2020-12-23,Hamilton,Livingston,4,11,True
+SC0,2021,2020-12-23,Hibernian,St Mirren,4,4,True
+SC0,2021,2020-12-23,St Johnstone,Rangers,4,4,True
+SC0,2021,2020-12-23,Motherwell,Aberdeen,4,3,True
+SC0,2021,2020-12-23,Dundee,Kilmarnock,4,3,True
+SC0,2021,2020-12-23,Celtic,Ross County,10,4,True
+SC0,2021,2020-12-26,Aberdeen,St Johnstone,3,3,False
+SC0,2021,2020-12-26,Dundee,Motherwell,3,3,False
+SC0,2021,2020-12-26,Hamilton,Celtic,3,3,False
+SC0,2021,2020-12-26,Kilmarnock,Livingston,3,3,False
+SC0,2021,2020-12-26,Ross County,St Mirren,3,3,False
+SC0,2021,2020-12-26,Rangers,Hibernian,3,3,False
+SC0,2021,2020-12-30,St Johnstone,Hamilton,4,4,True
+SC0,2021,2020-12-30,Celtic,Dundee,4,4,True
+SC0,2021,2020-12-30,St Mirren,Rangers,4,4,True
+SC0,2021,2020-12-30,Hibernian,Ross County,4,4,True
+SC0,2021,2020-12-30,Motherwell,Kilmarnock,4,4,True
+SC0,2021,2021-01-02,Kilmarnock,St Mirren,3,3,False
+SC0,2021,2021-01-02,Aberdeen,Dundee,7,3,False
+SC0,2021,2021-01-02,Rangers,Celtic,3,3,False
+SC0,2021,2021-01-02,Hamilton,Motherwell,3,3,False
+SC0,2021,2021-01-02,Ross County,St Johnstone,3,3,False
+SC0,2021,2021-01-02,Hibernian,Livingston,3,7,False
+SC0,2021,2021-01-09,St Mirren,Motherwell,7,7,False
+SC0,2021,2021-01-09,Kilmarnock,Hamilton,7,7,False
+SC0,2021,2021-01-10,Livingston,Ross County,8,8,False
+SC0,2021,2021-01-10,Aberdeen,Rangers,8,8,False
+SC0,2021,2021-01-11,Celtic,Hibernian,9,9,False
+SC0,2021,2021-01-12,Dundee,St Johnstone,10,10,True
+SC0,2021,2021-01-16,Hamilton,Dundee,7,4,False
+SC0,2021,2021-01-16,Hibernian,Kilmarnock,5,7,False
+SC0,2021,2021-01-16,Ross County,Aberdeen,6,6,False
+SC0,2021,2021-01-16,St Johnstone,St Mirren,4,7,False
+SC0,2021,2021-01-16,Celtic,Livingston,5,6,False
+SC0,2021,2021-01-17,Motherwell,Rangers,8,7,False
+SC0,2021,2021-01-20,Livingston,Celtic,4,4,True
+SC0,2021,2021-01-23,Rangers,Ross County,6,7,False
+SC0,2021,2021-01-23,Aberdeen,Motherwell,7,6,False
+SC0,2021,2021-01-27,Ross County,Motherwell,4,4,True
+SC0,2021,2021-01-27,St Johnstone,Aberdeen,11,4,True
+SC0,2021,2021-01-27,Celtic,Hamilton,7,11,True
+SC0,2021,2021-01-27,Hibernian,Rangers,11,4,True
+SC0,2021,2021-01-27,Livingston,Kilmarnock,7,11,True
+SC0,2021,2021-01-27,Dundee,St Mirren,11,11,True
+SC0,2021,2021-01-30,Celtic,St Mirren,3,3,False
+SC0,2021,2021-01-30,Dundee,Hibernian,3,3,False
+SC0,2021,2021-01-30,Kilmarnock,St Johnstone,3,3,False
+SC0,2021,2021-01-30,Livingston,Aberdeen,3,3,False
+SC0,2021,2021-02-02,St Mirren,Hibernian,3,3,True
+SC0,2021,2021-02-02,Kilmarnock,Celtic,3,3,True
+SC0,2021,2021-02-02,Aberdeen,Livingston,3,3,True
+SC0,2021,2021-02-03,Motherwell,Dundee,7,4,True
+SC0,2021,2021-02-03,Rangers,St Johnstone,7,4,True
+SC0,2021,2021-02-03,Hamilton,Ross County,7,7,True
+SC0,2021,2021-02-06,Hibernian,Aberdeen,4,4,False
+SC0,2021,2021-02-06,Livingston,St Johnstone,4,3,False
+SC0,2021,2021-02-06,Ross County,Dundee,3,3,False
+SC0,2021,2021-02-06,St Mirren,Kilmarnock,4,4,False
+SC0,2021,2021-02-06,Celtic,Motherwell,4,3,False
+SC0,2021,2021-02-07,Hamilton,Rangers,4,4,False
+SC0,2021,2021-02-10,St Mirren,Celtic,4,4,True
+SC0,2021,2021-02-10,Kilmarnock,Motherwell,4,4,True
+SC0,2021,2021-02-13,Aberdeen,St Mirren,7,3,False
+SC0,2021,2021-02-13,Motherwell,Hamilton,3,6,False
+SC0,2021,2021-02-13,Rangers,Kilmarnock,6,3,False
+SC0,2021,2021-02-13,Dundee,Livingston,7,7,False
+SC0,2021,2021-02-14,St Johnstone,Celtic,8,4,False
+SC0,2021,2021-02-17,St Mirren,Hamilton,4,4,True
+SC0,2021,2021-02-17,Celtic,Aberdeen,3,4,True
+SC0,2021,2021-02-20,St Mirren,Livingston,3,7,False
+SC0,2021,2021-02-20,Aberdeen,Kilmarnock,3,7,False
+SC0,2021,2021-02-20,Hibernian,Hamilton,14,3,False
+SC0,2021,2021-02-20,Motherwell,St Johnstone,7,6,False
+SC0,2021,2021-02-21,Rangers,Dundee,8,8,False
+SC0,2021,2021-02-21,Ross County,Celtic,15,4,False
+SC0,2021,2021-02-24,St Mirren,Motherwell,4,4,True
+SC0,2021,2021-02-27,St Mirren,Ross County,3,6,False
+SC0,2021,2021-02-27,Celtic,Aberdeen,6,7,False
+SC0,2021,2021-02-27,Hibernian,Motherwell,7,3,False
+SC0,2021,2021-02-27,Kilmarnock,Dundee,7,6,False
+SC0,2021,2021-03-03,Livingston,Rangers,11,10,True
+SC0,2021,2021-03-03,Hamilton,St Johnstone,11,11,True
+SC0,2021,2021-03-06,Motherwell,Livingston,7,3,False
+SC0,2021,2021-03-06,Rangers,St Mirren,3,7,False
+SC0,2021,2021-03-06,Ross County,Kilmarnock,7,7,False
+SC0,2021,2021-03-06,St Johnstone,Hibernian,3,7,False
+SC0,2021,2021-03-06,Aberdeen,Hamilton,7,3,False
+SC0,2021,2021-03-07,Dundee,Celtic,8,8,False
+SC0,2021,2021-03-13,Ross County,Hibernian,7,7,False
+SC0,2021,2021-03-13,Livingston,Hamilton,7,7,False
+SC0,2021,2021-03-20,Hamilton,St Mirren,7,14,False
+SC0,2021,2021-03-20,Kilmarnock,Motherwell,14,14,False
+SC0,2021,2021-03-20,Livingston,Hibernian,7,7,False
+SC0,2021,2021-03-20,St Johnstone,Ross County,14,7,False
+SC0,2021,2021-03-20,Dundee,Aberdeen,13,14,False
+SC0,2021,2021-03-21,Celtic,Rangers,14,15,False
+SC0,2021,2021-04-10,St Johnstone,Aberdeen,21,21,False
+SC0,2021,2021-04-10,Celtic,Livingston,20,21,False
+SC0,2021,2021-04-10,Hamilton,Dundee,21,21,False
+SC0,2021,2021-04-10,Kilmarnock,Ross County,21,21,False
+SC0,2021,2021-04-10,Motherwell,St Mirren,21,21,False
+SC0,2021,2021-04-11,Rangers,Hibernian,21,22,False
+SC0,2021,2021-04-21,Hibernian,Livingston,10,11,True
+SC0,2021,2021-04-21,St Johnstone,Rangers,11,10,True
+SC0,2021,2021-04-21,Aberdeen,Celtic,11,11,True
+SC0,2021,2021-04-21,Kilmarnock,Dundee,11,11,True
+SC0,2021,2021-04-21,Ross County,St Mirren,11,11,True
+SC0,2021,2021-04-21,Hamilton,Motherwell,11,11,True
+SC0,2021,2021-05-01,Hibernian,St Johnstone,10,10,False
+SC0,2021,2021-05-01,Livingston,Aberdeen,10,10,False
+SC0,2021,2021-05-01,Motherwell,Kilmarnock,10,10,False
+SC0,2021,2021-05-01,St Mirren,Hamilton,10,10,False
+SC0,2021,2021-05-01,Dundee,Ross County,10,10,False
+SC0,2021,2021-05-02,Rangers,Celtic,11,11,False
+SC0,2021,2021-05-12,Livingston,Rangers,11,10,True
+SC0,2021,2021-05-12,Celtic,St Johnstone,10,11,True
+SC0,2021,2021-05-12,Aberdeen,Hibernian,11,11,True
+SC0,2021,2021-05-12,Kilmarnock,St Mirren,11,11,True
+SC0,2021,2021-05-12,Ross County,Hamilton,11,11,True
+SC0,2021,2021-05-12,Dundee,Motherwell,11,11,True
+SC0,2021,2021-05-15,Rangers,Aberdeen,3,3,False
+SC0,2021,2021-05-15,St Johnstone,Livingston,3,3,False
+SC0,2021,2021-05-15,Hibernian,Celtic,3,3,False
+SC0,2021,2021-05-16,Hamilton,Kilmarnock,4,4,False
+SC0,2021,2021-05-16,Motherwell,Ross County,4,4,False
+SC0,2021,2021-05-16,St Mirren,Dundee,4,4,False

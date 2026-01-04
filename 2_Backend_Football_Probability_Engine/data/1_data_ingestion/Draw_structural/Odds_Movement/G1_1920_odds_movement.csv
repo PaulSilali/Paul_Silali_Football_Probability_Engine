@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+G1,1920,2019-08-24,Lamia,Panathinaikos,3.19,3.19,0.0
+G1,1920,2019-08-24,Aris,OFI Crete,3.81,3.81,0.0
+G1,1920,2019-08-24,Olympiakos,Asteras Tripolis,5.75,5.75,0.0
+G1,1920,2019-08-25,PAOK,Panetolikos,6.32,6.32,0.0
+G1,1920,2019-08-25,Atromitos,Aris,3.4,3.4,0.0
+G1,1920,2019-08-25,AEK,Xanthi,4.34,4.34,0.0
+G1,1920,2019-08-25,Ionikos,Volos NFC,3.0,3.0,0.0
+G1,1920,2019-08-31,Panathinaikos,OFI Crete,3.81,3.81,0.0
+G1,1920,2019-08-31,Volos NFC,Aris,3.0,3.0,0.0
+G1,1920,2019-08-31,Panetolikos,Xanthi,3.0,3.0,0.0
+G1,1920,2019-09-01,Aris,Olympiakos,4.43,4.43,0.0
+G1,1920,2019-09-01,Lamia,Atromitos,2.97,2.97,0.0
+G1,1920,2019-09-01,Asteras Tripolis,AEK,2.99,2.99,0.0
+G1,1920,2019-09-01,PAOK,Ionikos,6.85,6.85,0.0
+G1,1920,2019-09-14,OFI Crete,Panetolikos,3.3,3.3,0.0
+G1,1920,2019-09-14,Olympiakos,Volos NFC,7.98,7.98,0.0
+G1,1920,2019-09-14,Atromitos,PAOK,3.56,3.56,0.0
+G1,1920,2019-09-15,AEK,Lamia,5.67,5.67,0.0
+G1,1920,2019-09-15,Ionikos,Aris,3.02,3.02,0.0
+G1,1920,2019-09-15,Aris,Panathinaikos,3.2,3.2,0.0
+G1,1920,2019-09-15,Xanthi,Asteras Tripolis,2.96,2.96,0.0
+G1,1920,2019-09-21,Panetolikos,AEK,3.59,3.59,0.0
+G1,1920,2019-09-21,Asteras Tripolis,Atromitos,3.05,3.05,0.0
+G1,1920,2019-09-21,Volos NFC,OFI Crete,3.19,3.19,0.0
+G1,1920,2019-09-22,Panathinaikos,Olympiakos,4.05,4.05,0.0
+G1,1920,2019-09-22,PAOK,Aris,4.01,4.01,0.0
+G1,1920,2019-09-22,Aris,Xanthi,2.97,2.97,0.0
+G1,1920,2019-09-22,Lamia,Ionikos,3.06,3.06,0.0
+G1,1920,2019-09-28,Olympiakos,Lamia,6.92,6.92,0.0
+G1,1920,2019-09-28,Aris,Aris,3.64,3.64,0.0
+G1,1920,2019-09-28,Atromitos,Panetolikos,3.49,3.49,0.0
+G1,1920,2019-09-29,Xanthi,Volos NFC,3.28,3.28,0.0
+G1,1920,2019-09-29,Ionikos,Panathinaikos,3.06,3.06,0.0
+G1,1920,2019-09-29,AEK,PAOK,3.12,3.12,0.0
+G1,1920,2019-09-29,OFI Crete,Asteras Tripolis,3.2,3.2,0.0
+G1,1920,2019-10-05,Aris,AEK,3.22,3.22,0.0
+G1,1920,2019-10-05,Panathinaikos,Xanthi,3.33,3.33,0.0
+G1,1920,2019-10-06,Asteras Tripolis,PAOK,3.65,3.65,0.0
+G1,1920,2019-10-06,OFI Crete,Ionikos,3.7,3.7,0.0
+G1,1920,2019-10-06,Aris,Olympiakos,4.07,4.07,0.0
+G1,1920,2019-10-06,Volos NFC,Atromitos,2.98,2.98,0.0
+G1,1920,2019-10-07,Lamia,Panetolikos,3.12,3.12,0.0
+G1,1920,2019-10-19,Panetolikos,Aris,3.02,3.02,0.0
+G1,1920,2019-10-19,Olympiakos,OFI Crete,6.57,6.57,0.0
+G1,1920,2019-10-20,Ionikos,Asteras Tripolis,3.09,3.09,0.0
+G1,1920,2019-10-20,PAOK,Lamia,6.74,6.74,0.0
+G1,1920,2019-10-20,AEK,Volos NFC,5.77,5.77,0.0
+G1,1920,2019-10-20,Atromitos,Panathinaikos,3.0,3.0,0.0
+G1,1920,2019-10-20,Xanthi,Aris,2.86,2.86,0.0
+G1,1920,2019-10-26,Volos NFC,PAOK,6.0,6.0,0.0
+G1,1920,2019-10-26,OFI Crete,Xanthi,3.66,3.66,0.0
+G1,1920,2019-10-27,Panathinaikos,Aris,3.37,3.37,0.0
+G1,1920,2019-10-27,Aris,Panetolikos,4.12,4.12,0.0
+G1,1920,2019-10-27,Olympiakos,AEK,3.9,3.9,0.0
+G1,1920,2019-10-27,Atromitos,Ionikos,3.61,3.61,0.0
+G1,1920,2019-10-28,Asteras Tripolis,Lamia,3.24,3.24,0.0
+G1,1920,2019-11-02,Xanthi,Olympiakos,4.1,4.1,0.0
+G1,1920,2019-11-02,Ionikos,Aris,3.34,3.34,0.0
+G1,1920,2019-11-03,AEK,Atromitos,4.15,4.15,0.0
+G1,1920,2019-11-03,Aris,OFI Crete,3.05,3.05,0.0
+G1,1920,2019-11-03,Panetolikos,Asteras Tripolis,3.05,3.05,0.0
+G1,1920,2019-11-03,PAOK,Panathinaikos,4.79,4.79,0.0
+G1,1920,2019-11-04,Lamia,Volos NFC,3.08,3.08,0.0
+G1,1920,2019-11-09,OFI Crete,PAOK,3.68,3.68,0.0
+G1,1920,2019-11-09,Volos NFC,Panetolikos,3.34,3.34,0.0
+G1,1920,2019-11-10,Xanthi,Ionikos,3.22,3.22,0.0
+G1,1920,2019-11-10,Olympiakos,Atromitos,6.91,6.91,0.0
+G1,1920,2019-11-10,Panathinaikos,AEK,3.08,3.08,0.0
+G1,1920,2019-11-10,Aris,Asteras Tripolis,3.87,3.87,0.0
+G1,1920,2019-11-11,Aris,Lamia,3.47,3.47,0.0
+G1,1920,2019-11-23,Lamia,Xanthi,2.95,2.95,0.0
+G1,1920,2019-11-23,Ionikos,Olympiakos,7.47,7.47,0.0
+G1,1920,2019-11-24,Asteras Tripolis,Volos NFC,3.51,3.51,0.0
+G1,1920,2019-11-24,PAOK,Aris,5.82,5.82,0.0
+G1,1920,2019-11-24,AEK,Aris,3.78,3.78,0.0
+G1,1920,2019-11-24,Panetolikos,Panathinaikos,3.08,3.08,0.0
+G1,1920,2019-11-24,Atromitos,OFI Crete,3.26,3.26,0.0
+G1,1920,2019-11-30,Ionikos,Panetolikos,3.26,3.26,0.0
+G1,1920,2019-11-30,OFI Crete,AEK,3.04,3.04,0.0
+G1,1920,2019-11-30,Aris,Volos NFC,3.27,3.27,0.0
+G1,1920,2019-12-01,Aris,Lamia,4.47,4.47,0.0
+G1,1920,2019-12-01,Xanthi,Atromitos,2.92,2.92,0.0
+G1,1920,2019-12-01,Olympiakos,PAOK,3.37,3.37,0.0
+G1,1920,2019-12-01,Panathinaikos,Asteras Tripolis,3.57,3.57,0.0
+G1,1920,2019-12-07,Panetolikos,Olympiakos,5.0,5.0,0.0
+G1,1920,2019-12-07,AEK,Ionikos,5.51,5.51,0.0
+G1,1920,2019-12-07,PAOK,Xanthi,6.92,6.92,0.0
+G1,1920,2019-12-08,Volos NFC,Panathinaikos,3.14,3.14,0.0
+G1,1920,2019-12-08,Asteras Tripolis,Aris,3.04,3.04,0.0
+G1,1920,2019-12-08,Lamia,OFI Crete,2.91,2.91,0.0
+G1,1920,2019-12-08,Atromitos,Aris,3.01,3.01,0.0
+G1,1920,2019-12-14,OFI Crete,Aris,3.07,3.07,0.0
+G1,1920,2019-12-14,Panathinaikos,Lamia,3.6,3.6,0.0
+G1,1920,2019-12-14,Xanthi,AEK,3.3,3.3,0.0
+G1,1920,2019-12-15,Volos NFC,Ionikos,3.26,3.26,0.0
+G1,1920,2019-12-15,Asteras Tripolis,Olympiakos,3.93,3.93,0.0
+G1,1920,2019-12-15,Panetolikos,PAOK,4.83,4.83,0.0
+G1,1920,2019-12-15,Aris,Atromitos,3.02,3.02,0.0
+G1,1920,2019-12-18,OFI Crete,Panathinaikos,3.09,3.09,0.0
+G1,1920,2019-12-18,Olympiakos,Aris,6.63,6.63,0.0
+G1,1920,2019-12-18,AEK,Asteras Tripolis,4.59,4.59,0.0
+G1,1920,2019-12-18,Atromitos,Lamia,3.34,3.34,0.0
+G1,1920,2019-12-18,Xanthi,Panetolikos,3.09,3.09,0.0
+G1,1920,2019-12-19,Ionikos,PAOK,4.74,4.74,0.0
+G1,1920,2019-12-19,Aris,Volos NFC,4.81,4.81,0.0
+G1,1920,2019-12-21,Lamia,AEK,3.62,3.62,0.0
+G1,1920,2019-12-21,Asteras Tripolis,Xanthi,3.48,3.48,0.0
+G1,1920,2019-12-22,Panetolikos,OFI Crete,3.12,3.12,0.0
+G1,1920,2019-12-22,Volos NFC,Olympiakos,5.11,5.11,0.0
+G1,1920,2019-12-22,Panathinaikos,Aris,3.1,3.1,0.0
+G1,1920,2019-12-22,Aris,Ionikos,3.3,3.3,0.0
+G1,1920,2019-12-23,PAOK,Atromitos,5.43,5.43,0.0
+G1,1920,2020-01-04,Aris,PAOK,3.12,3.12,0.0
+G1,1920,2020-01-04,Atromitos,Asteras Tripolis,3.36,3.36,0.0
+G1,1920,2020-01-04,OFI Crete,Volos NFC,4.41,4.41,0.0
+G1,1920,2020-01-05,Ionikos,Lamia,2.92,2.92,0.0
+G1,1920,2020-01-05,Xanthi,Aris,2.95,2.95,0.0
+G1,1920,2020-01-05,Olympiakos,Panathinaikos,4.76,4.76,0.0
+G1,1920,2020-01-05,AEK,Panetolikos,5.38,5.38,0.0
+G1,1920,2020-01-11,Panetolikos,Atromitos,3.1,3.1,0.0
+G1,1920,2020-01-11,Volos NFC,Xanthi,3.28,3.28,0.0
+G1,1920,2020-01-11,Aris,Aris,3.1,3.1,0.0
+G1,1920,2020-01-12,PAOK,AEK,4.08,4.08,0.0
+G1,1920,2020-01-12,Panathinaikos,Ionikos,4.31,4.31,0.0
+G1,1920,2020-01-12,Lamia,Olympiakos,4.3,4.3,0.0
+G1,1920,2020-01-12,Asteras Tripolis,OFI Crete,3.0,3.0,0.0
+G1,1920,2020-01-18,Ionikos,OFI Crete,3.02,3.02,0.0
+G1,1920,2020-01-18,Panetolikos,Lamia,3.1,3.1,0.0
+G1,1920,2020-01-19,PAOK,Asteras Tripolis,6.61,6.61,0.0
+G1,1920,2020-01-19,Olympiakos,Aris,6.23,6.23,0.0
+G1,1920,2020-01-19,Xanthi,Panathinaikos,3.0,3.0,0.0
+G1,1920,2020-01-19,Atromitos,Volos NFC,4.02,4.02,0.0
+G1,1920,2020-01-19,AEK,Aris,4.18,4.18,0.0
+G1,1920,2020-01-22,OFI Crete,Olympiakos,3.62,3.62,0.0
+G1,1920,2020-01-22,Volos NFC,AEK,3.6,3.6,0.0
+G1,1920,2020-01-22,Panathinaikos,Atromitos,3.29,3.29,0.0
+G1,1920,2020-01-22,Aris,Panetolikos,3.36,3.36,0.0
+G1,1920,2020-01-23,Aris,Xanthi,4.05,4.05,0.0
+G1,1920,2020-01-23,Asteras Tripolis,Ionikos,3.66,3.66,0.0
+G1,1920,2020-01-23,Lamia,PAOK,4.28,4.28,0.0
+G1,1920,2020-01-25,Aris,Panathinaikos,3.0,3.0,0.0
+G1,1920,2020-01-26,Ionikos,Atromitos,3.29,3.29,0.0
+G1,1920,2020-01-26,Panetolikos,Aris,3.4,3.4,0.0
+G1,1920,2020-01-26,AEK,Olympiakos,3.19,3.19,0.0
+G1,1920,2020-01-26,Xanthi,OFI Crete,3.09,3.09,0.0
+G1,1920,2020-01-27,Lamia,Asteras Tripolis,3.08,3.08,0.0
+G1,1920,2020-01-27,PAOK,Volos NFC,9.99,9.99,0.0
+G1,1920,2020-02-01,OFI Crete,Aris,3.25,3.25,0.0
+G1,1920,2020-02-01,Volos NFC,Lamia,3.05,3.05,0.0
+G1,1920,2020-02-01,Olympiakos,Xanthi,8.38,8.38,0.0
+G1,1920,2020-02-02,Panathinaikos,PAOK,3.08,3.08,0.0
+G1,1920,2020-02-02,Aris,Ionikos,4.62,4.62,0.0
+G1,1920,2020-02-02,Asteras Tripolis,Panetolikos,3.42,3.42,0.0
+G1,1920,2020-02-02,Atromitos,AEK,3.13,3.13,0.0
+G1,1920,2020-02-08,Lamia,Aris,2.98,2.98,0.0
+G1,1920,2020-02-08,Ionikos,Xanthi,3.18,3.18,0.0
+G1,1920,2020-02-09,Atromitos,Olympiakos,4.43,4.43,0.0
+G1,1920,2020-02-09,PAOK,OFI Crete,6.97,6.97,0.0
+G1,1920,2020-02-09,AEK,Panathinaikos,3.26,3.26,0.0
+G1,1920,2020-02-09,Asteras Tripolis,Aris,3.08,3.08,0.0
+G1,1920,2020-02-10,Panetolikos,Volos NFC,3.36,3.36,0.0
+G1,1920,2020-02-15,Olympiakos,Ionikos,11.39,11.39,0.0
+G1,1920,2020-02-15,Aris,PAOK,4.18,4.18,0.0
+G1,1920,2020-02-16,Volos NFC,Asteras Tripolis,3.09,3.09,0.0
+G1,1920,2020-02-16,Xanthi,Lamia,3.05,3.05,0.0
+G1,1920,2020-02-16,Aris,AEK,3.19,3.19,0.0
+G1,1920,2020-02-16,Panathinaikos,Panetolikos,4.49,4.49,0.0
+G1,1920,2020-02-17,OFI Crete,Atromitos,3.49,3.49,0.0
+G1,1920,2020-02-22,Lamia,Aris,3.02,3.02,0.0
+G1,1920,2020-02-22,Asteras Tripolis,Panathinaikos,3.0,3.0,0.0
+G1,1920,2020-02-23,Atromitos,Xanthi,3.24,3.24,0.0
+G1,1920,2020-02-23,Volos NFC,Aris,3.18,3.18,0.0
+G1,1920,2020-02-23,AEK,OFI Crete,4.19,4.19,0.0
+G1,1920,2020-02-23,PAOK,Olympiakos,3.2,3.2,0.0
+G1,1920,2020-02-23,Panetolikos,Ionikos,3.32,3.32,0.0
+G1,1920,2020-03-01,Aris,Asteras Tripolis,3.49,3.49,0.0
+G1,1920,2020-03-01,OFI Crete,Lamia,6.03,6.03,0.0
+G1,1920,2020-03-01,Olympiakos,Panetolikos,10.01,10.01,0.0
+G1,1920,2020-03-01,Panathinaikos,Volos NFC,4.56,4.56,0.0
+G1,1920,2020-03-01,Ionikos,AEK,3.88,3.88,0.0
+G1,1920,2020-03-01,Xanthi,PAOK,7.7,7.7,0.0
+G1,1920,2020-03-01,Aris,Atromitos,3.33,3.33,0.0
+G1,1920,2020-06-06,Ionikos,Volos NFC,3.36,3.36,0.0
+G1,1920,2020-06-06,Aris,OFI Crete,3.62,3.62,0.0
+G1,1920,2020-06-07,AEK,Panathinaikos,3.68,3.68,0.0
+G1,1920,2020-06-07,Aris,Asteras Tripolis,3.03,3.03,0.0
+G1,1920,2020-06-07,PAOK,Olympiakos,3.15,3.15,0.0
+G1,1920,2020-06-08,Lamia,Panetolikos,3.11,3.11,0.0
+G1,1920,2020-06-13,Atromitos,Lamia,3.32,3.32,0.0
+G1,1920,2020-06-13,Panathinaikos,PAOK,3.35,3.35,0.0
+G1,1920,2020-06-13,Volos NFC,Xanthi,3.42,3.42,0.0
+G1,1920,2020-06-14,Olympiakos,Aris,6.07,6.07,0.0
+G1,1920,2020-06-14,OFI Crete,AEK,3.25,3.25,0.0
+G1,1920,2020-06-15,Panetolikos,Aris,3.29,3.29,0.0
+G1,1920,2020-06-15,Asteras Tripolis,Ionikos,3.32,3.32,0.0
+G1,1920,2020-06-20,AEK,Aris,4.56,4.56,0.0
+G1,1920,2020-06-20,PAOK,OFI Crete,7.76,7.76,0.0
+G1,1920,2020-06-21,Xanthi,Panetolikos,3.2,3.2,0.0
+G1,1920,2020-06-21,Olympiakos,Panathinaikos,3.86,3.86,0.0
+G1,1920,2020-06-21,Asteras Tripolis,Atromitos,3.09,3.09,0.0
+G1,1920,2020-06-22,Lamia,Ionikos,3.23,3.23,0.0
+G1,1920,2020-06-22,Aris,Volos NFC,3.3,3.3,0.0
+G1,1920,2020-06-24,Xanthi,Atromitos,3.36,3.36,0.0
+G1,1920,2020-06-27,OFI Crete,Panathinaikos,3.32,3.32,0.0
+G1,1920,2020-06-27,Ionikos,Xanthi,3.12,3.12,0.0
+G1,1920,2020-06-28,Panetolikos,Asteras Tripolis,3.58,3.58,0.0
+G1,1920,2020-06-28,AEK,Olympiakos,3.35,3.35,0.0
+G1,1920,2020-06-28,Aris,PAOK,3.35,3.35,0.0
+G1,1920,2020-06-29,Atromitos,Aris,3.45,3.45,0.0
+G1,1920,2020-06-29,Volos NFC,Lamia,2.77,2.77,0.0
+G1,1920,2020-07-01,Panathinaikos,Aris,3.74,3.74,0.0
+G1,1920,2020-07-01,PAOK,AEK,3.33,3.33,0.0
+G1,1920,2020-07-01,Olympiakos,OFI Crete,6.9,6.9,0.0
+G1,1920,2020-07-04,Asteras Tripolis,Volos NFC,3.47,3.47,0.0
+G1,1920,2020-07-04,OFI Crete,PAOK,4.43,4.43,0.0
+G1,1920,2020-07-05,Panathinaikos,Olympiakos,4.16,4.16,0.0
+G1,1920,2020-07-05,Aris,AEK,4.14,4.14,0.0
+G1,1920,2020-07-06,Aris,Ionikos,3.72,3.72,0.0
+G1,1920,2020-07-06,Atromitos,Panetolikos,3.0,3.0,0.0
+G1,1920,2020-07-06,Lamia,Xanthi,3.13,3.13,0.0
+G1,1920,2020-07-08,PAOK,Panathinaikos,4.65,4.65,0.0
+G1,1920,2020-07-08,AEK,OFI Crete,6.26,6.26,0.0
+G1,1920,2020-07-08,Aris,Olympiakos,5.49,5.49,0.0
+G1,1920,2020-07-11,Ionikos,Panetolikos,3.14,3.14,0.0
+G1,1920,2020-07-11,Volos NFC,Atromitos,3.41,3.41,0.0
+G1,1920,2020-07-11,Xanthi,Asteras Tripolis,3.54,3.54,0.0
+G1,1920,2020-07-11,OFI Crete,Aris,3.9,3.9,0.0
+G1,1920,2020-07-11,Lamia,Aris,3.11,3.11,0.0
+G1,1920,2020-07-12,Olympiakos,PAOK,4.1,4.1,0.0
+G1,1920,2020-07-12,Panathinaikos,AEK,3.41,3.41,0.0
+G1,1920,2020-07-15,OFI Crete,Olympiakos,4.41,4.41,0.0
+G1,1920,2020-07-15,AEK,PAOK,3.24,3.24,0.0
+G1,1920,2020-07-15,Aris,Panathinaikos,3.33,3.33,0.0
+G1,1920,2020-07-18,Aris,Xanthi,3.15,3.15,0.0
+G1,1920,2020-07-18,Panetolikos,Volos NFC,2.87,2.87,0.0
+G1,1920,2020-07-18,Asteras Tripolis,Lamia,3.89,3.89,0.0
+G1,1920,2020-07-18,Atromitos,Ionikos,3.33,3.33,0.0
+G1,1920,2020-07-19,Olympiakos,AEK,3.71,3.71,0.0
+G1,1920,2020-07-19,Panathinaikos,OFI Crete,4.15,4.15,0.0
+G1,1920,2020-07-19,PAOK,Aris,6.32,6.32,0.0

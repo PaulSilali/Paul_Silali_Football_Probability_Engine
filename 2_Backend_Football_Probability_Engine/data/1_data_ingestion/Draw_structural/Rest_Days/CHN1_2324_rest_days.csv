@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+CHN1,2324,2023-04-15,Wuhan Three Towns,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Chengdu Rongcheng,7,7,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Shandong Taishan,994,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Qingdao Hainiu,994,994,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Henan FC,Qingdao Hainiu,7,994,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Cangzhou Mighty Lions,7,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Changchun Yatai,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Beijing Guoan,994,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Changchun Yatai,994,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Chengdu Rongcheng,994,7,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Tianjin Jinmen Tiger,994,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Henan FC,7,7,False
+CHN1,2324,2023-04-15,Beijing Guoan,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Wuhan Three Towns,994,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Changchun Yatai,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Henan FC,994,7,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Dalian Pro,Meizhou Hakka,994,316,False
+CHN1,2324,2023-04-15,Henan FC,Beijing Guoan,7,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Dalian Pro,994,994,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Cangzhou Mighty Lions,994,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Qingdao Hainiu,7,994,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Changchun Yatai,7,316,False
+CHN1,2324,2023-04-15,Henan FC,Wuhan Three Towns,7,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Cangzhou Mighty Lions,994,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Shanghai Shenhua,994,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Changchun Yatai,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Zhejiang Professional,7,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Wuhan Three Towns,994,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Dalian Pro,994,994,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Meizhou Hakka,994,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Changchun Yatai,7,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Beijing Guoan,994,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Zhejiang Professional,994,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Shenzhen Peng City,7,994,False
+CHN1,2324,2023-04-15,Henan FC,Dalian Pro,7,994,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Shanghai Shenhua,7,994,False
+CHN1,2324,2023-04-15,Beijing Guoan,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Wuhan Three Towns,7,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Zhejiang Professional,994,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Nantong Zhiyun,7,7,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Shandong Taishan,994,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Henan FC,994,7,False
+CHN1,2324,2023-04-15,Dalian Pro,Tianjin Jinmen Tiger,994,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Meizhou Hakka,994,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Beijing Guoan,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Shandong Taishan,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Henan FC,Meizhou Hakka,7,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Qingdao Hainiu,7,994,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Tianjin Jinmen Tiger,7,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Shanghai Shenhua,994,994,False
+CHN1,2324,2023-04-15,Henan FC,Zhejiang Professional,7,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Beijing Guoan,994,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Nantong Zhiyun,994,7,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Shandong Taishan,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Chengdu Rongcheng,994,7,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Tianjin Jinmen Tiger,994,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Qingdao Hainiu,994,994,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Meizhou Hakka,7,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Wuhan Three Towns,994,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Shanghai Port FC,316,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Beijing Guoan,7,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Cangzhou Mighty Lions,994,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Henan FC,Shandong Taishan,7,316,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Beijing Guoan,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Henan FC,7,7,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Shenzhen Peng City,994,994,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Dalian Pro,7,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Changchun Yatai,994,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Shanghai Port FC,994,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Shandong Taishan,7,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Meizhou Hakka,994,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Henan FC,994,7,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Nantong Zhiyun,7,7,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Dalian Pro,7,994,False
+CHN1,2324,2023-04-15,Changchun Yatai,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Shenzhen Peng City,7,994,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Cangzhou Mighty Lions,7,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Shanghai Port FC,994,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Zhejiang Professional,7,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Changchun Yatai,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Chengdu Rongcheng,994,7,False
+CHN1,2324,2023-04-15,Dalian Pro,Shanghai Shenhua,994,994,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Shandong Taishan,7,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Shanghai Port FC,994,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Shenzhen Peng City,994,994,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Changchun Yatai,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Tianjin Jinmen Tiger,7,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Shenzhen Peng City,994,994,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Beijing Guoan,7,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Wuhan Three Towns,7,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Dalian Pro,Henan FC,994,7,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Nantong Zhiyun,994,7,False
+CHN1,2324,2023-04-15,Changchun Yatai,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Shanghai Port FC,7,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Shandong Taishan,994,316,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Chengdu Rongcheng,994,7,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Changchun Yatai,994,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Beijing Guoan,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Changchun Yatai,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Shanghai Shenhua,7,994,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Chengdu Rongcheng,7,7,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Cangzhou Mighty Lions,994,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Shandong Taishan,994,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Shanghai Port FC,7,316,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Tianjin Jinmen Tiger,316,316,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Nantong Zhiyun,994,7,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Zhejiang Professional,994,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Meizhou Hakka,316,316,False
+CHN1,2324,2023-04-15,Shandong Taishan,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Changchun Yatai,994,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Shanghai Port FC,7,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Dalian Pro,316,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Qingdao Hainiu,994,994,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Zhejiang Professional,316,316,False
+CHN1,2324,2023-04-15,Changchun Yatai,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Wuhan Three Towns,994,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Beijing Guoan,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Cangzhou Mighty Lions,7,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Shanghai Shenhua,7,994,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Tianjin Jinmen Tiger,994,316,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Shenzhen Peng City,7,994,False
+CHN1,2324,2023-04-15,Wuhan Three Towns,Shenzhen Peng City,316,994,False
+CHN1,2324,2023-04-15,Zhejiang Professional,Cangzhou Mighty Lions,316,316,False
+CHN1,2324,2023-04-15,Shanghai Port FC,Shandong Taishan,316,316,False
+CHN1,2324,2023-04-15,Henan FC,Changchun Yatai,7,316,False
+CHN1,2324,2023-04-15,Beijing Guoan,Chengdu Rongcheng,316,7,False
+CHN1,2324,2023-04-15,Tianjin Jinmen Tiger,Shanghai Shenhua,316,994,False
+CHN1,2324,2023-04-15,Meizhou Hakka,Nantong Zhiyun,316,7,False
+CHN1,2324,2023-04-15,Qingdao Hainiu,Dalian Pro,994,994,False
+CHN1,2324,2023-04-15,Shandong Taishan,Henan FC,316,7,False
+CHN1,2324,2023-04-15,Chengdu Rongcheng,Meizhou Hakka,7,316,False
+CHN1,2324,2023-04-15,Shanghai Shenhua,Zhejiang Professional,994,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Shanghai Port FC,994,316,False
+CHN1,2324,2023-04-15,Cangzhou Mighty Lions,Qingdao Hainiu,316,994,False
+CHN1,2324,2023-04-15,Changchun Yatai,Wuhan Three Towns,316,316,False
+CHN1,2324,2023-04-15,Shenzhen Peng City,Beijing Guoan,994,316,False
+CHN1,2324,2023-04-15,Nantong Zhiyun,Tianjin Jinmen Tiger,7,316,False
+CHN1,2324,2023-04-15,Dalian Pro,Nantong Zhiyun,994,7,False

@@ -1,0 +1,94 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+465,Beerschot VA,466,Kortrijk,2425,4,1,0.25,3.0
+462,Gent,464,Charleroi,2425,4,2,0.5,2.0
+452,Dender,460,Westerlo,2425,4,0,0.0,2.5
+451,Antwerp,452,Dender,2425,2,1,0.5,3.0
+452,Dender,464,Charleroi,2425,4,0,0.0,3.5
+456,Oud-Heverlee Leuven,462,Gent,2425,4,1,0.25,2.25
+461,Standard,463,St. Gilloise,2425,2,1,0.5,1.5
+457,Club Brugge,465,Beerschot VA,2425,6,1,0.16666666666666666,4.833333333333333
+461,Standard,465,Beerschot VA,2425,2,1,0.5,0.5
+458,St Truiden,463,St. Gilloise,2425,2,1,0.5,1.5
+459,Mechelen,465,Beerschot VA,2425,2,0,0.0,2.0
+460,Westerlo,461,Standard,2425,4,2,0.5,2.75
+461,Standard,466,Kortrijk,2425,2,0,0.0,1.0
+455,Anderlecht,457,Club Brugge,2425,6,0,0.0,3.3333333333333335
+451,Antwerp,459,Mechelen,2425,2,1,0.5,1.5
+456,Oud-Heverlee Leuven,463,St. Gilloise,2425,2,1,0.5,1.5
+457,Club Brugge,466,Kortrijk,2425,6,3,0.5,2.6666666666666665
+457,Club Brugge,458,St Truiden,2425,6,3,0.5,3.8333333333333335
+456,Oud-Heverlee Leuven,460,Westerlo,2425,4,3,0.75,2.0
+460,Westerlo,465,Beerschot VA,2425,2,1,0.5,3.5
+460,Westerlo,462,Gent,2425,4,1,0.25,3.25
+459,Mechelen,461,Standard,2425,4,4,1.0,1.0
+455,Anderlecht,459,Mechelen,2425,2,0,0.0,4.5
+451,Antwerp,462,Gent,2425,8,3,0.375,2.0
+455,Anderlecht,466,Kortrijk,2425,2,0,0.0,3.0
+452,Dender,459,Mechelen,2425,4,1,0.25,5.25
+457,Club Brugge,460,Westerlo,2425,4,1,0.25,3.75
+455,Anderlecht,465,Beerschot VA,2425,2,0,0.0,3.0
+451,Antwerp,460,Westerlo,2425,2,0,0.0,4.0
+455,Anderlecht,460,Westerlo,2425,2,1,0.5,3.0
+456,Oud-Heverlee Leuven,464,Charleroi,2425,4,1,0.25,1.5
+458,St Truiden,462,Gent,2425,4,2,0.5,3.25
+452,Dender,465,Beerschot VA,2425,2,1,0.5,1.5
+452,Dender,461,Standard,2425,4,2,0.5,1.25
+460,Westerlo,463,St. Gilloise,2425,2,0,0.0,5.5
+452,Dender,455,Anderlecht,2425,2,1,0.5,3.5
+451,Antwerp,465,Beerschot VA,2425,2,1,0.5,3.5
+463,St. Gilloise,465,Beerschot VA,2425,2,0,0.0,4.0
+459,Mechelen,464,Charleroi,2425,4,1,0.25,3.25
+463,St. Gilloise,464,Charleroi,2425,2,0,0.0,2.0
+455,Anderlecht,464,Charleroi,2425,2,1,0.5,0.5
+456,Oud-Heverlee Leuven,461,Standard,2425,4,2,0.5,1.75
+459,Mechelen,460,Westerlo,2425,4,2,0.5,4.25
+459,Mechelen,462,Gent,2425,4,1,0.25,3.5
+460,Westerlo,466,Kortrijk,2425,2,0,0.0,3.5
+455,Anderlecht,461,Standard,2425,2,0,0.0,2.5
+451,Antwerp,457,Club Brugge,2425,6,2,0.3333333333333333,2.3333333333333335
+452,Dender,458,St Truiden,2425,2,1,0.5,4.5
+457,Club Brugge,461,Standard,2425,4,1,0.25,1.75
+462,Gent,466,Kortrijk,2425,4,0,0.0,3.0
+462,Gent,463,St. Gilloise,2425,8,1,0.125,2.75
+452,Dender,463,St. Gilloise,2425,2,1,0.5,2.5
+457,Club Brugge,464,Charleroi,2425,4,2,0.5,3.0
+456,Oud-Heverlee Leuven,459,Mechelen,2425,4,1,0.25,2.75
+456,Oud-Heverlee Leuven,465,Beerschot VA,2425,2,1,0.5,1.0
+457,Club Brugge,459,Mechelen,2425,4,1,0.25,2.0
+458,St Truiden,465,Beerschot VA,2425,4,0,0.0,2.25
+458,St Truiden,464,Charleroi,2425,2,0,0.0,4.0
+458,St Truiden,459,Mechelen,2425,2,1,0.5,2.5
+458,St Truiden,460,Westerlo,2425,2,0,0.0,2.5
+461,Standard,464,Charleroi,2425,4,1,0.25,1.75
+463,St. Gilloise,466,Kortrijk,2425,2,0,0.0,3.0
+457,Club Brugge,463,St. Gilloise,2425,6,4,0.6666666666666666,1.8333333333333333
+456,Oud-Heverlee Leuven,457,Club Brugge,2425,4,1,0.25,1.25
+455,Anderlecht,458,St Truiden,2425,2,0,0.0,1.5
+452,Dender,456,Oud-Heverlee Leuven,2425,4,2,0.5,5.0
+452,Dender,457,Club Brugge,2425,4,1,0.25,2.25
+462,Gent,465,Beerschot VA,2425,4,1,0.25,3.25
+451,Antwerp,463,St. Gilloise,2425,4,0,0.0,3.75
+457,Club Brugge,457,Club Brugge,2425,2,0,0.0,3.5
+459,Mechelen,466,Kortrijk,2425,2,0,0.0,3.5
+452,Dender,462,Gent,2425,4,1,0.25,2.0
+462,Gent,462,Gent,2425,4,1,0.25,2.75
+458,St Truiden,461,Standard,2425,2,0,0.0,3.0
+451,Antwerp,466,Kortrijk,2425,2,0,0.0,3.0
+458,St Truiden,466,Kortrijk,2425,4,2,0.5,3.75
+451,Antwerp,461,Standard,2425,2,1,0.5,1.5
+451,Antwerp,456,Oud-Heverlee Leuven,2425,2,2,1.0,3.0
+451,Antwerp,455,Anderlecht,2425,4,1,0.25,2.25
+460,Westerlo,464,Charleroi,2425,4,1,0.25,4.0
+457,Club Brugge,462,Gent,2425,12,2,0.16666666666666666,3.4166666666666665
+455,Anderlecht,456,Oud-Heverlee Leuven,2425,2,2,1.0,1.0
+451,Antwerp,458,St Truiden,2425,2,1,0.5,4.5
+456,Oud-Heverlee Leuven,466,Kortrijk,2425,2,1,0.5,2.0
+464,Charleroi,466,Kortrijk,2425,2,0,0.0,1.0
+459,Mechelen,463,St. Gilloise,2425,2,1,0.5,1.5
+451,Antwerp,464,Charleroi,2425,2,0,0.0,2.5
+464,Charleroi,465,Beerschot VA,2425,2,1,0.5,2.5
+452,Dender,466,Kortrijk,2425,2,0,0.0,4.0
+455,Anderlecht,463,St. Gilloise,2425,4,1,0.25,1.25
+461,Standard,462,Gent,2425,4,1,0.25,2.25
+456,Oud-Heverlee Leuven,458,St Truiden,2425,2,0,0.0,4.0
+455,Anderlecht,462,Gent,2425,8,0,0.0,2.875

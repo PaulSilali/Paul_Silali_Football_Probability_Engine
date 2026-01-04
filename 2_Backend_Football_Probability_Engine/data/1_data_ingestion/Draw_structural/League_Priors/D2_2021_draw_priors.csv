@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2020-09-18,Hamburg,Fortuna Dusseldorf,2,1,H,0
+2020-09-18,Regensburg,Nurnberg,1,1,D,1
+2020-09-19,Wurzburger Kickers,Erzgebirge Aue,0,3,A,0
+2020-09-19,Sandhausen,Darmstadt,3,2,H,0
+2020-09-19,Hannover,Karlsruhe,2,0,H,0
+2020-09-20,Heidenheim,Braunschweig,2,0,H,0
+2020-09-20,Holstein Kiel,Paderborn,1,0,H,0
+2020-09-20,Greuther Furth,Osnabruck,1,1,D,1
+2020-09-21,Bochum,St Pauli,2,2,D,1
+2020-09-25,Osnabruck,Hannover,2,1,H,0
+2020-09-25,Erzgebirge Aue,Greuther Furth,1,1,D,1
+2020-09-26,Darmstadt,Regensburg,0,0,D,1
+2020-09-26,Fortuna Dusseldorf,Wurzburger Kickers,1,0,H,0
+2020-09-26,Braunschweig,Holstein Kiel,0,0,D,1
+2020-09-27,Nurnberg,Sandhausen,1,0,H,0
+2020-09-27,St Pauli,Heidenheim,4,2,H,0
+2020-09-27,Karlsruhe,Bochum,0,1,A,0
+2020-09-28,Paderborn,Hamburg,3,4,A,0
+2020-10-02,Sandhausen,St Pauli,1,0,H,0
+2020-10-02,Bochum,Osnabruck,0,0,D,1
+2020-10-03,Heidenheim,Paderborn,0,0,D,1
+2020-10-03,Regensburg,Karlsruhe,1,0,H,0
+2020-10-03,Hannover,Braunschweig,4,1,H,0
+2020-10-04,Wurzburger Kickers,Greuther Furth,2,2,D,1
+2020-10-04,Holstein Kiel,Fortuna Dusseldorf,2,1,H,0
+2020-10-05,Nurnberg,Darmstadt,2,3,A,0
+2020-10-17,Greuther Furth,Hamburg,0,1,A,0
+2020-10-17,Karlsruhe,Sandhausen,3,0,H,0
+2020-10-17,Braunschweig,Bochum,2,1,H,0
+2020-10-18,Fortuna Dusseldorf,Regensburg,2,2,D,1
+2020-10-18,Paderborn,Hannover,1,0,H,0
+2020-10-18,Wurzburger Kickers,Holstein Kiel,0,2,A,0
+2020-10-18,Erzgebirge Aue,Heidenheim,2,1,H,0
+2020-10-19,St Pauli,Nurnberg,2,2,D,1
+2020-10-21,Hamburg,Erzgebirge Aue,3,0,H,0
+2020-10-23,Nurnberg,Karlsruhe,1,1,D,1
+2020-10-23,Regensburg,Braunschweig,3,0,H,0
+2020-10-24,Hannover,Fortuna Dusseldorf,3,0,H,0
+2020-10-24,Darmstadt,St Pauli,2,2,D,1
+2020-10-24,Hamburg,Wurzburger Kickers,3,1,H,0
+2020-10-24,Holstein Kiel,Greuther Furth,1,3,A,0
+2020-10-25,Heidenheim,Osnabruck,1,1,D,1
+2020-10-25,Sandhausen,Paderborn,1,1,D,1
+2020-10-25,Bochum,Erzgebirge Aue,2,0,H,0
+2020-10-28,Osnabruck,Darmstadt,1,1,D,1
+2020-10-30,Hamburg,St Pauli,2,2,D,1
+2020-10-30,Fortuna Dusseldorf,Heidenheim,1,0,H,0
+2020-10-31,Erzgebirge Aue,Holstein Kiel,1,1,D,1
+2020-10-31,Osnabruck,Sandhausen,2,1,H,0
+2020-10-31,Paderborn,Regensburg,3,1,H,0
+2020-10-31,Braunschweig,Nurnberg,3,2,H,0
+2020-11-01,Karlsruhe,Darmstadt,3,4,A,0
+2020-11-01,Wurzburger Kickers,Bochum,2,3,A,0
+2020-11-01,Greuther Furth,Hannover,4,1,H,0
+2020-11-06,Sandhausen,Braunschweig,2,2,D,1
+2020-11-06,Heidenheim,Wurzburger Kickers,4,1,H,0
+2020-11-07,Hannover,Erzgebirge Aue,0,0,D,1
+2020-11-07,Nurnberg,Fortuna Dusseldorf,1,1,D,1
+2020-11-07,Bochum,Greuther Furth,0,2,A,0
+2020-11-08,Regensburg,Osnabruck,2,4,A,0
+2020-11-08,St Pauli,Karlsruhe,0,3,A,0
+2020-11-08,Darmstadt,Paderborn,0,4,A,0
+2020-11-09,Holstein Kiel,Hamburg,1,1,D,1
+2020-11-21,Fortuna Dusseldorf,Sandhausen,1,0,H,0
+2020-11-21,Holstein Kiel,Heidenheim,2,2,D,1
+2020-11-21,Paderborn,St Pauli,2,0,H,0
+2020-11-21,Braunschweig,Karlsruhe,1,3,A,0
+2020-11-22,Greuther Furth,Regensburg,3,1,H,0
+2020-11-22,Hamburg,Bochum,1,3,A,0
+2020-11-22,Wurzburger Kickers,Hannover,2,1,H,0
+2020-11-22,Erzgebirge Aue,Darmstadt,3,0,H,0
+2020-11-23,Osnabruck,Nurnberg,1,4,A,0
+2020-11-27,Darmstadt,Braunschweig,4,0,H,0
+2020-11-27,St Pauli,Osnabruck,0,1,A,0
+2020-11-28,Karlsruhe,Paderborn,1,0,H,0
+2020-11-28,Regensburg,Wurzburger Kickers,2,1,H,0
+2020-11-28,Sandhausen,Erzgebirge Aue,1,4,A,0
+2020-11-29,Hannover,Holstein Kiel,0,3,A,0
+2020-11-29,Heidenheim,Hamburg,3,2,H,0
+2020-11-29,Nurnberg,Greuther Furth,2,3,A,0
+2020-11-30,Bochum,Fortuna Dusseldorf,5,0,H,0
+2020-12-04,Fortuna Dusseldorf,Darmstadt,3,2,H,0
+2020-12-04,Holstein Kiel,Bochum,3,1,H,0
+2020-12-05,Greuther Furth,Heidenheim,0,1,A,0
+2020-12-05,Hamburg,Hannover,0,1,A,0
+2020-12-05,Osnabruck,Karlsruhe,1,2,A,0
+2020-12-05,Braunschweig,St Pauli,2,1,H,0
+2020-12-06,Paderborn,Nurnberg,0,2,A,0
+2020-12-06,Wurzburger Kickers,Sandhausen,2,3,A,0
+2020-12-06,Erzgebirge Aue,Regensburg,0,2,A,0
+2020-12-11,Sandhausen,Greuther Furth,0,3,A,0
+2020-12-11,Bochum,Paderborn,3,0,H,0
+2020-12-12,Heidenheim,Hannover,1,0,H,0
+2020-12-12,Regensburg,Holstein Kiel,2,3,A,0
+2020-12-12,Darmstadt,Hamburg,1,2,A,0
+2020-12-13,Karlsruhe,Fortuna Dusseldorf,1,2,A,0
+2020-12-13,Nurnberg,Wurzburger Kickers,2,1,H,0
+2020-12-13,St Pauli,Erzgebirge Aue,2,2,D,1
+2020-12-13,Braunschweig,Osnabruck,0,2,A,0
+2020-12-15,Hamburg,Sandhausen,4,0,H,0
+2020-12-15,Hannover,Bochum,2,0,H,0
+2020-12-15,Heidenheim,Regensburg,0,0,D,1
+2020-12-15,Greuther Furth,Darmstadt,0,4,A,0
+2020-12-16,Holstein Kiel,Nurnberg,1,0,H,0
+2020-12-16,Paderborn,Braunschweig,2,2,D,1
+2020-12-16,Fortuna Dusseldorf,Osnabruck,3,0,H,0
+2020-12-17,Erzgebirge Aue,Karlsruhe,4,1,H,0
+2020-12-18,Regensburg,Hannover,0,0,D,1
+2020-12-18,Bochum,Heidenheim,3,0,H,0
+2020-12-19,Darmstadt,Wurzburger Kickers,2,0,H,0
+2020-12-19,Osnabruck,Paderborn,0,1,A,0
+2020-12-19,Braunschweig,Greuther Furth,0,3,A,0
+2020-12-20,Sandhausen,Holstein Kiel,0,2,A,0
+2020-12-20,Nurnberg,Erzgebirge Aue,1,0,H,0
+2020-12-20,St Pauli,Fortuna Dusseldorf,0,3,A,0
+2020-12-21,Karlsruhe,Hamburg,1,2,A,0
+2021-01-02,Heidenheim,Nurnberg,2,0,H,0
+2021-01-02,Bochum,Darmstadt,2,1,H,0
+2021-01-02,Wurzburger Kickers,Karlsruhe,2,4,A,0
+2021-01-03,Greuther Furth,St Pauli,2,1,H,0
+2021-01-03,Hamburg,Regensburg,3,1,H,0
+2021-01-03,Hannover,Sandhausen,4,0,H,0
+2021-01-03,Holstein Kiel,Osnabruck,1,2,A,0
+2021-01-03,Erzgebirge Aue,Braunschweig,3,1,H,0
+2021-01-04,Fortuna Dusseldorf,Paderborn,2,1,H,0
+2021-01-06,Wurzburger Kickers,St Pauli,1,1,D,1
+2021-01-08,Sandhausen,Heidenheim,4,0,H,0
+2021-01-08,Karlsruhe,Greuther Furth,3,2,H,0
+2021-01-09,Osnabruck,Wurzburger Kickers,2,3,A,0
+2021-01-09,St Pauli,Holstein Kiel,1,1,D,1
+2021-01-09,Nurnberg,Hamburg,1,1,D,1
+2021-01-10,Paderborn,Erzgebirge Aue,2,1,H,0
+2021-01-10,Regensburg,Bochum,0,2,A,0
+2021-01-10,Darmstadt,Hannover,1,2,A,0
+2021-01-11,Braunschweig,Fortuna Dusseldorf,0,0,D,1
+2021-01-15,Wurzburger Kickers,Braunschweig,0,0,D,1
+2021-01-15,Greuther Furth,Paderborn,1,1,D,1
+2021-01-16,Erzgebirge Aue,Fortuna Dusseldorf,0,3,A,0
+2021-01-16,Hannover,St Pauli,2,3,A,0
+2021-01-16,Bochum,Nurnberg,3,1,H,0
+2021-01-17,Holstein Kiel,Karlsruhe,2,3,A,0
+2021-01-17,Regensburg,Sandhausen,3,1,H,0
+2021-01-17,Heidenheim,Darmstadt,3,0,H,0
+2021-01-18,Hamburg,Osnabruck,5,0,H,0
+2021-01-22,Osnabruck,Erzgebirge Aue,0,1,A,0
+2021-01-22,Fortuna Dusseldorf,Greuther Furth,3,3,D,1
+2021-01-23,Paderborn,Wurzburger Kickers,1,0,H,0
+2021-01-23,Karlsruhe,Heidenheim,1,1,D,1
+2021-01-23,Braunschweig,Hamburg,2,4,A,0
+2021-01-24,St Pauli,Regensburg,2,0,H,0
+2021-01-24,Nurnberg,Hannover,2,5,A,0
+2021-01-24,Darmstadt,Holstein Kiel,0,2,A,0
+2021-01-24,Sandhausen,Bochum,1,1,D,1
+2021-01-26,Braunschweig,Heidenheim,1,0,H,0
+2021-01-26,Erzgebirge Aue,Wurzburger Kickers,2,1,H,0
+2021-01-26,Fortuna Dusseldorf,Hamburg,0,0,D,1
+2021-01-26,Osnabruck,Greuther Furth,0,1,A,0
+2021-01-27,Paderborn,Holstein Kiel,1,1,D,1
+2021-01-27,Darmstadt,Sandhausen,2,1,H,0
+2021-01-27,Nurnberg,Regensburg,0,1,A,0
+2021-01-27,Karlsruhe,Hannover,1,0,H,0
+2021-01-28,St Pauli,Bochum,2,3,A,0
+2021-01-29,Wurzburger Kickers,Fortuna Dusseldorf,2,1,H,0
+2021-01-29,Greuther Furth,Erzgebirge Aue,3,0,H,0
+2021-01-30,Holstein Kiel,Braunschweig,3,1,H,0
+2021-01-30,Regensburg,Darmstadt,1,1,D,1
+2021-01-30,Hamburg,Paderborn,3,1,H,0
+2021-01-31,Heidenheim,St Pauli,3,4,A,0
+2021-01-31,Sandhausen,Nurnberg,2,0,H,0
+2021-01-31,Bochum,Karlsruhe,1,2,A,0
+2021-02-01,Hannover,Osnabruck,1,0,H,0
+2021-02-05,St Pauli,Sandhausen,2,1,H,0
+2021-02-05,Erzgebirge Aue,Hamburg,3,3,D,1
+2021-02-06,Darmstadt,Nurnberg,1,2,A,0
+2021-02-06,Osnabruck,Bochum,1,2,A,0
+2021-02-06,Braunschweig,Hannover,1,2,A,0
+2021-02-07,Karlsruhe,Regensburg,0,0,D,1
+2021-02-07,Greuther Furth,Wurzburger Kickers,4,1,H,0
+2021-02-08,Fortuna Dusseldorf,Holstein Kiel,0,2,A,0
+2021-02-12,Holstein Kiel,Wurzburger Kickers,1,0,H,0
+2021-02-12,Hannover,Paderborn,0,0,D,1
+2021-02-13,Heidenheim,Erzgebirge Aue,2,0,H,0
+2021-02-13,Regensburg,Fortuna Dusseldorf,1,1,D,1
+2021-02-13,Sandhausen,Karlsruhe,2,3,A,0
+2021-02-13,Hamburg,Greuther Furth,0,0,D,1
+2021-02-14,Darmstadt,Osnabruck,1,0,H,0
+2021-02-14,Nurnberg,St Pauli,1,2,A,0
+2021-02-14,Bochum,Braunschweig,2,0,H,0
+2021-02-19,Erzgebirge Aue,Bochum,1,0,H,0
+2021-02-19,Braunschweig,Regensburg,2,0,H,0
+2021-02-20,Osnabruck,Heidenheim,1,2,A,0
+2021-02-20,Paderborn,Sandhausen,2,1,H,0
+2021-02-20,St Pauli,Darmstadt,3,2,H,0
+2021-02-21,Karlsruhe,Nurnberg,0,1,A,0
+2021-02-21,Fortuna Dusseldorf,Hannover,3,2,H,0
+2021-02-21,Wurzburger Kickers,Hamburg,3,2,H,0
+2021-02-22,Greuther Furth,Holstein Kiel,2,1,H,0
+2021-02-23,Paderborn,Heidenheim,2,2,D,1
+2021-02-26,Regensburg,Paderborn,1,0,H,0
+2021-02-26,Darmstadt,Karlsruhe,0,1,A,0
+2021-02-27,Hannover,Greuther Furth,2,2,D,1
+2021-02-27,Holstein Kiel,Erzgebirge Aue,1,0,H,0
+2021-02-27,Bochum,Wurzburger Kickers,3,0,H,0
+2021-02-28,Nurnberg,Braunschweig,0,0,D,1
+2021-02-28,Sandhausen,Osnabruck,3,0,H,0
+2021-02-28,Heidenheim,Fortuna Dusseldorf,3,2,H,0
+2021-03-01,St Pauli,Hamburg,1,0,H,0
+2021-03-05,Wurzburger Kickers,Heidenheim,1,2,A,0
+2021-03-05,Paderborn,Darmstadt,2,3,A,0
+2021-03-06,Greuther Furth,Bochum,1,2,A,0
+2021-03-06,Karlsruhe,St Pauli,0,0,D,1
+2021-03-06,Erzgebirge Aue,Hannover,1,1,D,1
+2021-03-07,Fortuna Dusseldorf,Nurnberg,3,1,H,0
+2021-03-07,Braunschweig,Sandhausen,1,0,H,0
+2021-03-08,Hamburg,Holstein Kiel,1,1,D,1
+2021-03-12,Bochum,Hamburg,0,2,A,0
+2021-03-13,Sandhausen,Fortuna Dusseldorf,0,0,D,1
+2021-03-13,Darmstadt,Erzgebirge Aue,4,1,H,0
+2021-03-14,Nurnberg,Osnabruck,1,1,D,1
+2021-03-14,Karlsruhe,Braunschweig,0,0,D,1
+2021-03-15,St Pauli,Paderborn,0,2,A,0
+2021-03-17,Regensburg,Greuther Furth,1,2,A,0
+2021-03-19,Paderborn,Karlsruhe,2,2,D,1
+2021-03-20,Erzgebirge Aue,Sandhausen,2,0,H,0
+2021-03-20,Hamburg,Heidenheim,2,0,H,0
+2021-03-20,Braunschweig,Darmstadt,1,1,D,1
+2021-03-21,Osnabruck,St Pauli,1,2,A,0
+2021-03-21,Wurzburger Kickers,Regensburg,1,1,D,1
+2021-03-21,Greuther Furth,Nurnberg,2,2,D,1
+2021-03-22,Fortuna Dusseldorf,Bochum,0,3,A,0
+2021-04-03,Karlsruhe,Osnabruck,0,1,A,0
+2021-04-03,Bochum,Holstein Kiel,2,1,H,0
+2021-04-03,Heidenheim,Greuther Furth,0,1,A,0
+2021-04-04,Nurnberg,Paderborn,2,1,H,0
+2021-04-04,Darmstadt,Fortuna Dusseldorf,1,2,A,0
+2021-04-04,Regensburg,Erzgebirge Aue,1,1,D,1
+2021-04-04,Sandhausen,Wurzburger Kickers,1,0,H,0
+2021-04-04,Hannover,Hamburg,3,3,D,1
+2021-04-05,St Pauli,Braunschweig,2,0,H,0
+2021-04-06,Heidenheim,Holstein Kiel,1,0,H,0
+2021-04-08,Hannover,Wurzburger Kickers,1,2,A,0
+2021-04-09,Hamburg,Darmstadt,1,2,A,0
+2021-04-10,Paderborn,Bochum,3,0,H,0
+2021-04-10,Erzgebirge Aue,St Pauli,1,3,A,0
+2021-04-11,Osnabruck,Braunschweig,0,4,A,0
+2021-04-11,Wurzburger Kickers,Nurnberg,1,1,D,1
+2021-04-11,Hannover,Heidenheim,1,3,A,0
+2021-04-14,Osnabruck,Regensburg,0,1,A,0
+2021-04-16,Darmstadt,Greuther Furth,2,2,D,1
+2021-04-16,Braunschweig,Paderborn,0,0,D,1
+2021-04-17,St Pauli,Wurzburger Kickers,4,0,H,0
+2021-04-18,Osnabruck,Fortuna Dusseldorf,0,3,A,0
+2021-04-18,Regensburg,Heidenheim,0,3,A,0
+2021-04-18,Bochum,Hannover,4,3,H,0
+2021-04-20,Greuther Furth,Braunschweig,3,0,H,0
+2021-04-20,Wurzburger Kickers,Darmstadt,1,3,A,0
+2021-04-20,Erzgebirge Aue,Nurnberg,0,1,A,0
+2021-04-21,Hannover,Regensburg,3,1,H,0
+2021-04-21,Heidenheim,Bochum,0,2,A,0
+2021-04-21,Paderborn,Osnabruck,2,2,D,1
+2021-04-21,Fortuna Dusseldorf,St Pauli,2,0,H,0
+2021-04-22,Sandhausen,Hamburg,2,1,H,0
+2021-04-23,Karlsruhe,Wurzburger Kickers,2,2,D,1
+2021-04-23,Braunschweig,Erzgebirge Aue,0,2,A,0
+2021-04-24,Osnabruck,Holstein Kiel,1,3,A,0
+2021-04-24,Paderborn,Fortuna Dusseldorf,2,1,H,0
+2021-04-24,Nurnberg,Heidenheim,3,1,H,0
+2021-04-25,Regensburg,Hamburg,1,1,D,1
+2021-04-25,Sandhausen,Hannover,4,2,H,0
+2021-04-25,St Pauli,Greuther Furth,2,1,H,0
+2021-04-26,Karlsruhe,Erzgebirge Aue,0,0,D,1
+2021-04-26,Darmstadt,Bochum,3,1,H,0
+2021-04-27,Nurnberg,Holstein Kiel,1,1,D,1
+2021-04-28,Greuther Furth,Sandhausen,3,2,H,0
+2021-04-29,Hamburg,Karlsruhe,1,1,D,1
+2021-05-03,Fortuna Dusseldorf,Karlsruhe,3,2,H,0
+2021-05-04,Holstein Kiel,Sandhausen,2,0,H,0
+2021-05-07,Holstein Kiel,St Pauli,4,0,H,0
+2021-05-07,Hannover,Darmstadt,1,2,A,0
+2021-05-08,Greuther Furth,Karlsruhe,2,2,D,1
+2021-05-08,Wurzburger Kickers,Osnabruck,1,3,A,0
+2021-05-08,Fortuna Dusseldorf,Braunschweig,2,2,D,1
+2021-05-09,Erzgebirge Aue,Paderborn,3,8,A,0
+2021-05-09,Heidenheim,Sandhausen,2,1,H,0
+2021-05-09,Bochum,Regensburg,5,1,H,0
+2021-05-10,Hamburg,Nurnberg,5,2,H,0
+2021-05-10,Holstein Kiel,Hannover,1,0,H,0
+2021-05-13,Holstein Kiel,Regensburg,3,2,H,0
+2021-05-16,Darmstadt,Heidenheim,5,1,H,0
+2021-05-16,Fortuna Dusseldorf,Erzgebirge Aue,3,0,H,0
+2021-05-16,Karlsruhe,Holstein Kiel,3,2,H,0
+2021-05-16,Nurnberg,Bochum,1,1,D,1
+2021-05-16,Osnabruck,Hamburg,3,2,H,0
+2021-05-16,Paderborn,Greuther Furth,2,4,A,0
+2021-05-16,Sandhausen,Regensburg,2,0,H,0
+2021-05-16,St Pauli,Hannover,1,2,A,0
+2021-05-16,Braunschweig,Wurzburger Kickers,1,2,A,0
+2021-05-23,Erzgebirge Aue,Osnabruck,2,1,H,0
+2021-05-23,Greuther Furth,Fortuna Dusseldorf,3,2,H,0
+2021-05-23,Hamburg,Braunschweig,4,0,H,0
+2021-05-23,Hannover,Nurnberg,1,2,A,0
+2021-05-23,Heidenheim,Karlsruhe,1,2,A,0
+2021-05-23,Holstein Kiel,Darmstadt,2,3,A,0
+2021-05-23,Regensburg,St Pauli,3,0,H,0
+2021-05-23,Wurzburger Kickers,Paderborn,1,1,D,1
+2021-05-23,Bochum,Sandhausen,3,1,H,0

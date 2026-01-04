@@ -1,0 +1,280 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2019-08-09,Monaco,Lyon,0,3,A,0
+2019-08-10,Dijon,St Etienne,1,2,A,0
+2019-08-10,Montpellier,Rennes,0,1,A,0
+2019-08-10,Angers,Bordeaux,3,1,H,0
+2019-08-10,Nice,Amiens,2,1,H,0
+2019-08-10,Brest,Toulouse,1,1,D,1
+2019-08-10,Marseille,Reims,0,2,A,0
+2019-08-11,Strasbourg,Metz,1,1,D,1
+2019-08-11,Paris SG,Nimes,3,0,H,0
+2019-08-11,Lille,Nantes,2,1,H,0
+2019-08-16,Lyon,Angers,6,0,H,0
+2019-08-17,Amiens,Lille,1,0,H,0
+2019-08-17,Bordeaux,Montpellier,1,1,D,1
+2019-08-17,Metz,Monaco,3,0,H,0
+2019-08-17,Nimes,Nice,1,2,A,0
+2019-08-17,Toulouse,Dijon,1,0,H,0
+2019-08-17,Nantes,Marseille,0,0,D,1
+2019-08-18,Reims,Strasbourg,0,0,D,1
+2019-08-18,Rennes,Paris SG,2,1,H,0
+2019-08-18,St Etienne,Brest,1,1,D,1
+2019-08-24,Angers,Metz,3,0,H,0
+2019-08-24,Brest,Reims,1,0,H,0
+2019-08-24,Dijon,Bordeaux,0,2,A,0
+2019-08-24,Amiens,Nantes,1,2,A,0
+2019-08-25,Strasbourg,Rennes,0,2,A,0
+2019-08-25,Paris SG,Toulouse,4,0,H,0
+2019-08-25,Monaco,Nimes,2,2,D,1
+2019-08-27,Montpellier,Lyon,1,0,H,0
+2019-08-28,Nice,Marseille,1,2,A,0
+2019-08-28,Lille,St Etienne,3,0,H,0
+2019-08-30,Metz,Paris SG,0,2,A,0
+2019-08-31,Lyon,Bordeaux,1,1,D,1
+2019-08-31,Angers,Dijon,2,0,H,0
+2019-08-31,Nantes,Montpellier,1,0,H,0
+2019-08-31,Nimes,Brest,3,0,H,0
+2019-08-31,Toulouse,Amiens,2,0,H,0
+2019-09-01,Reims,Lille,2,0,H,0
+2019-09-01,Rennes,Nice,1,2,A,0
+2019-09-01,Strasbourg,Monaco,2,2,D,1
+2019-09-01,Marseille,St Etienne,1,0,H,0
+2019-09-13,Amiens,Lyon,2,2,D,1
+2019-09-13,Lille,Angers,2,1,H,0
+2019-09-14,Bordeaux,Metz,2,0,H,0
+2019-09-14,Brest,Rennes,0,0,D,1
+2019-09-14,Dijon,Nimes,0,0,D,1
+2019-09-14,Montpellier,Nice,2,1,H,0
+2019-09-14,Paris SG,Strasbourg,1,0,H,0
+2019-09-15,St Etienne,Toulouse,2,2,D,1
+2019-09-15,Monaco,Marseille,3,4,A,0
+2019-09-15,Nantes,Reims,1,0,H,0
+2019-09-20,Strasbourg,Nantes,2,1,H,0
+2019-09-21,Bordeaux,Brest,2,2,D,1
+2019-09-21,Metz,Amiens,1,2,A,0
+2019-09-21,Nice,Dijon,2,1,H,0
+2019-09-21,Nimes,Toulouse,1,0,H,0
+2019-09-21,Reims,Monaco,0,0,D,1
+2019-09-21,Marseille,Montpellier,1,1,D,1
+2019-09-22,Angers,St Etienne,4,1,H,0
+2019-09-22,Lyon,Paris SG,0,1,A,0
+2019-09-22,Rennes,Lille,1,1,D,1
+2019-09-24,Monaco,Nice,3,1,H,0
+2019-09-24,Dijon,Marseille,0,0,D,1
+2019-09-25,Brest,Lyon,2,2,D,1
+2019-09-25,Lille,Strasbourg,2,0,H,0
+2019-09-25,Montpellier,Nimes,1,0,H,0
+2019-09-25,Nantes,Rennes,1,0,H,0
+2019-09-25,St Etienne,Metz,0,1,A,0
+2019-09-25,Toulouse,Angers,0,2,A,0
+2019-09-25,Paris SG,Reims,0,2,A,0
+2019-09-25,Amiens,Bordeaux,1,3,A,0
+2019-09-28,Bordeaux,Paris SG,0,1,A,0
+2019-09-28,Lyon,Nantes,0,1,A,0
+2019-09-28,Angers,Amiens,1,1,D,1
+2019-09-28,Metz,Toulouse,2,2,D,1
+2019-09-28,Monaco,Brest,4,1,H,0
+2019-09-28,Nice,Lille,1,1,D,1
+2019-09-28,Reims,Dijon,1,2,A,0
+2019-09-29,Marseille,Rennes,1,1,D,1
+2019-09-29,Nimes,St Etienne,0,1,A,0
+2019-09-29,Strasbourg,Montpellier,1,0,H,0
+2019-10-04,Amiens,Marseille,3,1,H,0
+2019-10-05,Brest,Metz,2,0,H,0
+2019-10-05,Dijon,Strasbourg,1,0,H,0
+2019-10-05,Montpellier,Monaco,3,1,H,0
+2019-10-05,Nantes,Nice,1,0,H,0
+2019-10-05,Toulouse,Bordeaux,1,3,A,0
+2019-10-05,Paris SG,Angers,4,0,H,0
+2019-10-06,Rennes,Reims,0,1,A,0
+2019-10-06,St Etienne,Lyon,1,0,H,0
+2019-10-06,Lille,Nimes,2,2,D,1
+2019-10-18,Nice,Paris SG,1,4,A,0
+2019-10-19,Angers,Brest,0,1,A,0
+2019-10-19,Metz,Nantes,1,0,H,0
+2019-10-19,Nimes,Amiens,1,1,D,1
+2019-10-19,Reims,Montpellier,1,0,H,0
+2019-10-19,Toulouse,Lille,2,1,H,0
+2019-10-19,Lyon,Dijon,0,0,D,1
+2019-10-20,Monaco,Rennes,3,2,H,0
+2019-10-20,Marseille,Strasbourg,2,0,H,0
+2019-10-20,Bordeaux,St Etienne,0,1,A,0
+2019-10-25,Nantes,Monaco,0,1,A,0
+2019-10-26,Brest,Dijon,2,0,H,0
+2019-10-26,Lyon,Metz,2,0,H,0
+2019-10-26,Lille,Bordeaux,3,0,H,0
+2019-10-26,Reims,Nimes,0,0,D,1
+2019-10-26,Strasbourg,Nice,1,0,H,0
+2019-10-26,Montpellier,Angers,0,0,D,1
+2019-10-27,Paris SG,Marseille,4,0,H,0
+2019-10-27,Rennes,Toulouse,3,2,H,0
+2019-10-27,St Etienne,Amiens,2,2,D,1
+2019-11-01,Dijon,Paris SG,2,1,H,0
+2019-11-02,Amiens,Brest,1,0,H,0
+2019-11-02,Angers,Strasbourg,1,0,H,0
+2019-11-02,Metz,Montpellier,2,2,D,1
+2019-11-02,Toulouse,Lyon,2,3,A,0
+2019-11-02,Marseille,Lille,2,1,H,0
+2019-11-03,Nice,Reims,2,0,H,0
+2019-11-03,St Etienne,Monaco,1,0,H,0
+2019-11-03,Bordeaux,Nantes,2,0,H,0
+2019-11-08,Nice,Bordeaux,1,1,D,1
+2019-11-09,Lille,Metz,0,0,D,1
+2019-11-09,Monaco,Dijon,1,0,H,0
+2019-11-09,Reims,Angers,0,0,D,1
+2019-11-09,Strasbourg,Nimes,4,1,H,0
+2019-11-09,Brest,Paris SG,1,2,A,0
+2019-11-10,Montpellier,Toulouse,3,0,H,0
+2019-11-10,Nantes,St Etienne,2,3,A,0
+2019-11-10,Marseille,Lyon,2,1,H,0
+2019-11-10,Rennes,Amiens,3,1,H,0
+2019-11-22,Paris SG,Lille,2,0,H,0
+2019-11-23,Amiens,Strasbourg,0,4,A,0
+2019-11-23,Angers,Nimes,1,0,H,0
+2019-11-23,Brest,Nantes,1,1,D,1
+2019-11-23,Dijon,Rennes,2,1,H,0
+2019-11-23,Lyon,Nice,2,1,H,0
+2019-11-23,Metz,Reims,1,1,D,1
+2019-11-24,St Etienne,Montpellier,0,0,D,1
+2019-11-24,Toulouse,Marseille,0,2,A,0
+2019-11-24,Bordeaux,Monaco,2,1,H,0
+2019-11-29,Marseille,Brest,2,1,H,0
+2019-11-30,Strasbourg,Lyon,1,2,A,0
+2019-11-30,Lille,Dijon,1,0,H,0
+2019-11-30,Montpellier,Amiens,4,2,H,0
+2019-11-30,Nice,Angers,3,1,H,0
+2019-11-30,Nimes,Metz,1,1,D,1
+2019-11-30,Reims,Bordeaux,1,1,D,1
+2019-12-01,Rennes,St Etienne,2,1,H,0
+2019-12-01,Nantes,Toulouse,2,1,H,0
+2019-12-03,Lyon,Lille,0,1,A,0
+2019-12-03,Brest,Strasbourg,5,0,H,0
+2019-12-03,Bordeaux,Nimes,6,0,H,0
+2019-12-03,Angers,Marseille,0,2,A,0
+2019-12-04,St Etienne,Nice,4,1,H,0
+2019-12-04,Toulouse,Monaco,1,2,A,0
+2019-12-04,Paris SG,Nantes,2,0,H,0
+2019-12-04,Dijon,Montpellier,2,2,D,1
+2019-12-04,Metz,Rennes,0,1,A,0
+2019-12-06,Nimes,Lyon,0,4,A,0
+2019-12-06,Lille,Brest,1,0,H,0
+2019-12-07,Monaco,Amiens,3,0,H,0
+2019-12-07,Nice,Metz,4,1,H,0
+2019-12-07,Rennes,Angers,2,1,H,0
+2019-12-07,Strasbourg,Toulouse,4,2,H,0
+2019-12-07,Montpellier,Paris SG,1,3,A,0
+2019-12-08,Nantes,Dijon,1,0,H,0
+2019-12-08,Marseille,Bordeaux,3,1,H,0
+2019-12-08,Reims,St Etienne,3,1,H,0
+2019-12-13,Lille,Montpellier,2,1,H,0
+2019-12-14,Amiens,Dijon,1,1,D,1
+2019-12-14,Angers,Monaco,0,0,D,1
+2019-12-14,Brest,Nice,0,0,D,1
+2019-12-14,Nimes,Nantes,0,1,A,0
+2019-12-14,Metz,Marseille,1,1,D,1
+2019-12-14,Toulouse,Reims,0,1,A,0
+2019-12-15,Lyon,Rennes,0,1,A,0
+2019-12-15,St Etienne,Paris SG,0,4,A,0
+2019-12-15,Bordeaux,Strasbourg,0,1,A,0
+2019-12-21,Monaco,Lille,5,1,H,0
+2019-12-21,Dijon,Metz,2,2,D,1
+2019-12-21,Marseille,Nimes,3,1,H,0
+2019-12-21,Montpellier,Brest,4,0,H,0
+2019-12-21,Nantes,Angers,1,2,A,0
+2019-12-21,Nice,Toulouse,3,0,H,0
+2019-12-21,Paris SG,Amiens,4,1,H,0
+2019-12-21,Reims,Lyon,1,1,D,1
+2019-12-21,Rennes,Bordeaux,1,0,H,0
+2019-12-21,Strasbourg,St Etienne,2,1,H,0
+2020-01-10,Rennes,Marseille,0,1,A,0
+2020-01-11,Amiens,Montpellier,1,2,A,0
+2020-01-11,Angers,Nice,1,1,D,1
+2020-01-11,Metz,Strasbourg,1,0,H,0
+2020-01-11,Nimes,Reims,2,0,H,0
+2020-01-11,Toulouse,Brest,2,5,A,0
+2020-01-11,Bordeaux,Lyon,1,2,A,0
+2020-01-12,Dijon,Lille,1,0,H,0
+2020-01-12,Paris SG,Monaco,3,3,D,1
+2020-01-12,St Etienne,Nantes,0,2,A,0
+2020-01-15,Nimes,Rennes,0,1,A,0
+2020-01-15,Monaco,Paris SG,1,4,A,0
+2020-01-15,Amiens,Reims,1,1,D,1
+2020-01-24,Nice,Rennes,1,1,D,1
+2020-01-25,Brest,Amiens,2,1,H,0
+2020-01-25,Monaco,Strasbourg,1,3,A,0
+2020-01-25,Montpellier,Dijon,2,1,H,0
+2020-01-25,Reims,Metz,0,1,A,0
+2020-01-25,Marseille,Angers,0,0,D,1
+2020-01-25,St Etienne,Nimes,2,1,H,0
+2020-01-26,Nantes,Bordeaux,0,1,A,0
+2020-01-26,Lille,Paris SG,0,2,A,0
+2020-01-26,Lyon,Toulouse,3,0,H,0
+2020-01-31,Rennes,Nantes,3,2,H,0
+2020-02-01,Angers,Reims,1,4,A,0
+2020-02-01,Paris SG,Montpellier,5,0,H,0
+2020-02-01,Amiens,Toulouse,0,0,D,1
+2020-02-01,Dijon,Brest,3,0,H,0
+2020-02-01,Nimes,Monaco,3,1,H,0
+2020-02-01,Strasbourg,Lille,1,2,A,0
+2020-02-02,Nice,Lyon,2,1,H,0
+2020-02-02,Metz,St Etienne,3,1,H,0
+2020-02-02,Bordeaux,Marseille,0,0,D,1
+2020-02-04,Lille,Rennes,1,0,H,0
+2020-02-04,Monaco,Angers,1,0,H,0
+2020-02-04,Nantes,Paris SG,1,2,A,0
+2020-02-05,Lyon,Amiens,0,0,D,1
+2020-02-05,Montpellier,Metz,1,1,D,1
+2020-02-05,Nimes,Dijon,2,0,H,0
+2020-02-05,Reims,Nice,1,1,D,1
+2020-02-05,Toulouse,Strasbourg,0,1,A,0
+2020-02-05,St Etienne,Marseille,0,2,A,0
+2020-02-05,Brest,Bordeaux,1,1,D,1
+2020-02-07,Angers,Lille,0,2,A,0
+2020-02-08,Amiens,Monaco,1,2,A,0
+2020-02-08,Dijon,Nantes,3,3,D,1
+2020-02-08,Metz,Bordeaux,1,2,A,0
+2020-02-08,Nice,Nimes,1,3,A,0
+2020-02-08,Rennes,Brest,0,0,D,1
+2020-02-08,Marseille,Toulouse,1,0,H,0
+2020-02-09,Strasbourg,Reims,3,0,H,0
+2020-02-09,Paris SG,Lyon,4,2,H,0
+2020-02-09,Montpellier,St Etienne,1,0,H,0
+2020-02-14,Monaco,Montpellier,1,0,H,0
+2020-02-15,Amiens,Paris SG,4,4,D,1
+2020-02-15,Bordeaux,Dijon,2,2,D,1
+2020-02-15,Nantes,Metz,0,0,D,1
+2020-02-15,Nimes,Angers,1,0,H,0
+2020-02-15,Toulouse,Nice,0,2,A,0
+2020-02-16,Lille,Marseille,1,2,A,0
+2020-02-16,Lyon,Strasbourg,1,1,D,1
+2020-02-16,Brest,St Etienne,3,2,H,0
+2020-02-16,Reims,Rennes,1,0,H,0
+2020-02-21,Metz,Lyon,0,2,A,0
+2020-02-21,Nice,Brest,2,2,D,1
+2020-02-22,Angers,Montpellier,1,0,H,0
+2020-02-22,Dijon,Monaco,1,1,D,1
+2020-02-22,Lille,Toulouse,3,0,H,0
+2020-02-22,Strasbourg,Amiens,0,0,D,1
+2020-02-22,Marseille,Nantes,1,3,A,0
+2020-02-23,Rennes,Nimes,2,1,H,0
+2020-02-23,Paris SG,Bordeaux,4,3,H,0
+2020-02-23,St Etienne,Reims,1,1,D,1
+2020-02-28,Nimes,Marseille,2,3,A,0
+2020-02-29,Amiens,Metz,0,1,A,0
+2020-02-29,Brest,Angers,0,1,A,0
+2020-02-29,Monaco,Reims,1,1,D,1
+2020-02-29,Montpellier,Strasbourg,3,0,H,0
+2020-02-29,Toulouse,Rennes,0,2,A,0
+2020-02-29,Paris SG,Dijon,4,0,H,0
+2020-03-01,Bordeaux,Nice,1,1,D,1
+2020-03-01,Lyon,St Etienne,2,0,H,0
+2020-03-01,Nantes,Lille,0,1,A,0
+2020-03-06,Marseille,Amiens,2,2,D,1
+2020-03-07,Dijon,Toulouse,2,1,H,0
+2020-03-07,Metz,Nimes,2,1,H,0
+2020-03-07,Nice,Monaco,2,1,H,0
+2020-03-07,Angers,Nantes,2,0,H,0
+2020-03-07,Reims,Brest,1,0,H,0
+2020-03-08,Rennes,Montpellier,5,0,H,0
+2020-03-08,Lille,Lyon,1,0,H,0
+2020-03-08,St Etienne,Bordeaux,1,1,D,1
