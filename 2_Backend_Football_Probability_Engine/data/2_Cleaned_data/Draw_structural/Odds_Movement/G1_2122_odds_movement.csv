@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+G1,2122,2021-09-11,Panathinaikos,Apollon,4.39,4.39,0.0
+G1,2122,2021-09-11,Panetolikos,Asteras Tripolis,3.06,3.06,0.0
+G1,2122,2021-09-12,PAOK,Giannina,6.14,6.14,0.0
+G1,2122,2021-09-12,Volos NFC,Lamia,3.15,3.15,0.0
+G1,2122,2021-09-12,Olympiakos,Atromitos,6.95,6.95,0.0
+G1,2122,2021-09-12,AEK,Ionikos,6.05,6.05,0.0
+G1,2122,2021-09-13,Aris,OFI Crete,4.29,4.29,0.0
+G1,2122,2021-09-17,Ionikos,Aris,3.38,3.38,0.0
+G1,2122,2021-09-18,Giannina,Panathinaikos,3.24,3.24,0.0
+G1,2122,2021-09-19,Atromitos,Panetolikos,3.58,3.58,0.0
+G1,2122,2021-09-19,OFI Crete,AEK,3.69,3.69,0.0
+G1,2122,2021-09-19,Asteras Tripolis,PAOK,3.32,3.32,0.0
+G1,2122,2021-09-19,Lamia,Olympiakos,5.69,5.69,0.0
+G1,2122,2021-09-19,Apollon,Volos NFC,3.18,3.18,0.0
+G1,2122,2021-09-22,Olympiakos,Apollon,7.95,7.95,0.0
+G1,2122,2021-09-22,Panetolikos,PAOK,4.09,4.09,0.0
+G1,2122,2021-09-22,AEK,Lamia,5.81,5.81,0.0
+G1,2122,2021-09-22,Aris,Panathinaikos,3.32,3.32,0.0
+G1,2122,2021-09-22,OFI Crete,Asteras Tripolis,3.16,3.16,0.0
+G1,2122,2021-09-23,Volos NFC,Atromitos,3.23,3.23,0.0
+G1,2122,2021-09-23,Ionikos,Giannina,2.96,2.96,0.0
+G1,2122,2021-09-26,Panathinaikos,Volos NFC,3.93,3.93,0.0
+G1,2122,2021-09-26,Lamia,Panetolikos,2.95,2.95,0.0
+G1,2122,2021-09-26,PAOK,AEK,3.22,3.22,0.0
+G1,2122,2021-09-26,Asteras Tripolis,Olympiakos,3.76,3.76,0.0
+G1,2122,2021-09-27,Apollon,Ionikos,3.06,3.06,0.0
+G1,2122,2021-09-27,Atromitos,Aris,3.15,3.15,0.0
+G1,2122,2021-09-27,Giannina,OFI Crete,3.03,3.03,0.0
+G1,2122,2021-10-02,Volos NFC,Asteras Tripolis,2.91,2.91,0.0
+G1,2122,2021-10-02,Aris,Apollon,4.62,4.62,0.0
+G1,2122,2021-10-03,Atromitos,Giannina,3.08,3.08,0.0
+G1,2122,2021-10-03,Panetolikos,AEK,3.75,3.75,0.0
+G1,2122,2021-10-03,OFI Crete,PAOK,3.38,3.38,0.0
+G1,2122,2021-10-03,Ionikos,Lamia,2.95,2.95,0.0
+G1,2122,2021-10-03,Olympiakos,Panathinaikos,4.23,4.23,0.0
+G1,2122,2021-10-16,Panathinaikos,Ionikos,4.24,4.24,0.0
+G1,2122,2021-10-16,Apollon,Asteras Tripolis,3.07,3.07,0.0
+G1,2122,2021-10-17,PAOK,Volos NFC,4.88,4.88,0.0
+G1,2122,2021-10-17,AEK,Atromitos,4.98,4.98,0.0
+G1,2122,2021-10-17,Giannina,Olympiakos,4.19,4.19,0.0
+G1,2122,2021-10-17,Panetolikos,OFI Crete,3.1,3.1,0.0
+G1,2122,2021-10-18,Lamia,Aris,3.12,3.12,0.0
+G1,2122,2021-10-23,Apollon,Giannina,2.87,2.87,0.0
+G1,2122,2021-10-23,Asteras Tripolis,Panathinaikos,3.18,3.18,0.0
+G1,2122,2021-10-23,Atromitos,Ionikos,3.45,3.45,0.0
+G1,2122,2021-10-24,Volos NFC,AEK,3.87,3.87,0.0
+G1,2122,2021-10-24,OFI Crete,Lamia,3.04,3.04,0.0
+G1,2122,2021-10-24,Olympiakos,PAOK,3.64,3.64,0.0
+G1,2122,2021-10-24,Aris,Panetolikos,4.1,4.1,0.0
+G1,2122,2021-10-30,PAOK,Apollon,6.56,6.56,0.0
+G1,2122,2021-10-30,Panetolikos,Olympiakos,4.33,4.33,0.0
+G1,2122,2021-10-31,Panathinaikos,OFI Crete,3.69,3.69,0.0
+G1,2122,2021-10-31,AEK,Aris,3.4,3.4,0.0
+G1,2122,2021-10-31,Giannina,Asteras Tripolis,2.95,2.95,0.0
+G1,2122,2021-10-31,Lamia,Atromitos,2.98,2.98,0.0
+G1,2122,2021-11-01,Ionikos,Volos NFC,3.15,3.15,0.0
+G1,2122,2021-11-06,Giannina,Panetolikos,3.41,3.41,0.0
+G1,2122,2021-11-06,OFI Crete,Atromitos,3.21,3.21,0.0
+G1,2122,2021-11-06,Apollon,AEK,4.2,4.2,0.0
+G1,2122,2021-11-07,Olympiakos,Ionikos,7.68,7.68,0.0
+G1,2122,2021-11-07,Asteras Tripolis,Lamia,3.35,3.35,0.0
+G1,2122,2021-11-07,Volos NFC,Aris,3.21,3.21,0.0
+G1,2122,2021-11-07,Panathinaikos,PAOK,3.26,3.26,0.0
+G1,2122,2021-11-20,Aris,Giannina,3.62,3.62,0.0
+G1,2122,2021-11-20,Volos NFC,OFI Crete,3.18,3.18,0.0
+G1,2122,2021-11-20,Ionikos,Asteras Tripolis,3.02,3.02,0.0
+G1,2122,2021-11-21,Panetolikos,Apollon,2.89,2.89,0.0
+G1,2122,2021-11-21,AEK,Olympiakos,3.27,3.27,0.0
+G1,2122,2021-11-21,Atromitos,PAOK,3.89,3.89,0.0
+G1,2122,2021-11-22,Lamia,Panathinaikos,3.19,3.19,0.0
+G1,2122,2021-11-27,Apollon,Lamia,3.01,3.01,0.0
+G1,2122,2021-11-27,Giannina,AEK,3.4,3.4,0.0
+G1,2122,2021-11-27,Asteras Tripolis,Atromitos,3.26,3.26,0.0
+G1,2122,2021-11-28,Olympiakos,Volos NFC,6.69,6.69,0.0
+G1,2122,2021-11-28,Panathinaikos,Panetolikos,4.35,4.35,0.0
+G1,2122,2021-11-28,PAOK,Aris,3.55,3.55,0.0
+G1,2122,2021-11-28,OFI Crete,Ionikos,3.43,3.43,0.0
+G1,2122,2021-12-04,Volos NFC,Panetolikos,3.37,3.37,0.0
+G1,2122,2021-12-04,OFI Crete,Olympiakos,4.23,4.23,0.0
+G1,2122,2021-12-04,Atromitos,Apollon,3.21,3.21,0.0
+G1,2122,2021-12-05,AEK,Panathinaikos,3.38,3.38,0.0
+G1,2122,2021-12-05,Aris,Asteras Tripolis,3.46,3.46,0.0
+G1,2122,2021-12-05,Ionikos,PAOK,4.0,4.0,0.0
+G1,2122,2021-12-06,Lamia,Giannina,3.0,3.0,0.0
+G1,2122,2021-12-11,Panathinaikos,Atromitos,4.29,4.29,0.0
+G1,2122,2021-12-11,Asteras Tripolis,AEK,3.34,3.34,0.0
+G1,2122,2021-12-11,Panetolikos,Ionikos,3.18,3.18,0.0
+G1,2122,2021-12-11,Giannina,Volos NFC,3.11,3.11,0.0
+G1,2122,2021-12-12,Olympiakos,Aris,4.51,4.51,0.0
+G1,2122,2021-12-12,PAOK,Lamia,6.52,6.52,0.0
+G1,2122,2021-12-14,Asteras Tripolis,Panetolikos,3.73,3.73,0.0
+G1,2122,2021-12-15,Atromitos,Olympiakos,4.49,4.49,0.0
+G1,2122,2021-12-15,Giannina,PAOK,3.43,3.43,0.0
+G1,2122,2021-12-15,Lamia,Volos NFC,3.12,3.12,0.0
+G1,2122,2021-12-16,Ionikos,AEK,3.98,3.98,0.0
+G1,2122,2021-12-16,OFI Crete,Aris,3.25,3.25,0.0
+G1,2122,2021-12-18,Panetolikos,Atromitos,3.07,3.07,0.0
+G1,2122,2021-12-19,Panathinaikos,Giannina,3.63,3.63,0.0
+G1,2122,2021-12-19,PAOK,Asteras Tripolis,4.14,4.14,0.0
+G1,2122,2021-12-19,Olympiakos,Lamia,7.09,7.09,0.0
+G1,2122,2021-12-20,Aris,Ionikos,4.28,4.28,0.0
+G1,2122,2021-12-20,AEK,OFI Crete,4.84,4.84,0.0
+G1,2122,2022-01-04,Asteras Tripolis,OFI Crete,3.18,3.18,0.0
+G1,2122,2022-01-04,Giannina,Ionikos,3.32,3.32,0.0
+G1,2122,2022-01-05,Apollon,Olympiakos,5.04,5.04,0.0
+G1,2122,2022-01-05,Panathinaikos,Aris,3.08,3.08,0.0
+G1,2122,2022-01-05,Lamia,AEK,3.77,3.77,0.0
+G1,2122,2022-01-08,OFI Crete,Giannina,3.05,3.05,0.0
+G1,2122,2022-01-09,Volos NFC,Panathinaikos,3.27,3.27,0.0
+G1,2122,2022-01-12,PAOK,Panetolikos,5.57,5.57,0.0
+G1,2122,2022-01-12,Apollon,OFI Crete,3.11,3.11,0.0
+G1,2122,2022-01-15,Lamia,Ionikos,3.17,3.17,0.0
+G1,2122,2022-01-15,Apollon,Aris,3.26,3.26,0.0
+G1,2122,2022-01-15,PAOK,OFI Crete,4.63,4.63,0.0
+G1,2122,2022-01-15,Asteras Tripolis,Volos NFC,3.37,3.37,0.0
+G1,2122,2022-01-16,Giannina,Atromitos,3.27,3.27,0.0
+G1,2122,2022-01-16,Panathinaikos,Olympiakos,3.29,3.29,0.0
+G1,2122,2022-01-16,AEK,Panetolikos,5.18,5.18,0.0
+G1,2122,2022-01-19,Volos NFC,Apollon,3.64,3.64,0.0
+G1,2122,2022-01-22,OFI Crete,Panetolikos,3.36,3.36,0.0
+G1,2122,2022-01-22,Ionikos,Panathinaikos,3.38,3.38,0.0
+G1,2122,2022-01-23,Aris,Lamia,3.5,3.5,0.0
+G1,2122,2022-01-23,Atromitos,AEK,3.6,3.6,0.0
+G1,2122,2022-01-23,Volos NFC,PAOK,3.6,3.6,0.0
+G1,2122,2022-01-23,Olympiakos,Giannina,4.88,4.88,0.0
+G1,2122,2022-01-24,Asteras Tripolis,Apollon,3.83,3.83,0.0
+G1,2122,2022-01-29,Lamia,OFI Crete,2.97,2.97,0.0
+G1,2122,2022-01-29,Panathinaikos,Asteras Tripolis,3.38,3.38,0.0
+G1,2122,2022-01-29,Ionikos,Atromitos,2.99,2.99,0.0
+G1,2122,2022-01-30,Panetolikos,Aris,3.05,3.05,0.0
+G1,2122,2022-01-30,AEK,Volos NFC,5.02,5.02,0.0
+G1,2122,2022-01-30,PAOK,Olympiakos,3.15,3.15,0.0
+G1,2122,2022-01-30,Giannina,Apollon,3.36,3.36,0.0
+G1,2122,2022-02-02,OFI Crete,Panathinaikos,3.01,3.01,0.0
+G1,2122,2022-02-02,Olympiakos,Panetolikos,5.87,5.87,0.0
+G1,2122,2022-02-02,Aris,AEK,2.96,2.96,0.0
+G1,2122,2022-02-02,Volos NFC,Ionikos,3.37,3.37,0.0
+G1,2122,2022-02-02,Apollon,PAOK,4.06,4.06,0.0
+G1,2122,2022-02-02,Asteras Tripolis,Giannina,3.33,3.33,0.0
+G1,2122,2022-02-05,Panetolikos,Giannina,3.06,3.06,0.0
+G1,2122,2022-02-05,Aris,Volos NFC,4.1,4.1,0.0
+G1,2122,2022-02-06,Ionikos,Olympiakos,4.4,4.4,0.0
+G1,2122,2022-02-06,PAOK,Panathinaikos,3.38,3.38,0.0
+G1,2122,2022-02-06,AEK,Apollon,5.53,5.53,0.0
+G1,2122,2022-02-10,Atromitos,Lamia,2.99,2.99,0.0
+G1,2122,2022-02-12,Asteras Tripolis,Ionikos,3.53,3.53,0.0
+G1,2122,2022-02-12,Apollon,Panetolikos,3.0,3.0,0.0
+G1,2122,2022-02-13,Panathinaikos,Lamia,4.33,4.33,0.0
+G1,2122,2022-02-13,PAOK,Atromitos,5.05,5.05,0.0
+G1,2122,2022-02-13,Olympiakos,AEK,3.58,3.58,0.0
+G1,2122,2022-02-13,OFI Crete,Volos NFC,3.47,3.47,0.0
+G1,2122,2022-02-14,Giannina,Aris,2.95,2.95,0.0
+G1,2122,2022-02-16,Apollon,Panathinaikos,3.75,3.75,0.0
+G1,2122,2022-02-16,Panetolikos,Lamia,3.06,3.06,0.0
+G1,2122,2022-02-16,Atromitos,OFI Crete,3.13,3.13,0.0
+G1,2122,2022-02-19,Atromitos,Asteras Tripolis,3.05,3.05,0.0
+G1,2122,2022-02-19,Panetolikos,Panathinaikos,3.28,3.28,0.0
+G1,2122,2022-02-19,Ionikos,OFI Crete,3.0,3.0,0.0
+G1,2122,2022-02-20,Volos NFC,Olympiakos,4.11,4.11,0.0
+G1,2122,2022-02-20,AEK,Giannina,3.84,3.84,0.0
+G1,2122,2022-02-20,Aris,PAOK,3.04,3.04,0.0
+G1,2122,2022-02-20,Lamia,Apollon,3.12,3.12,0.0
+G1,2122,2022-02-23,Aris,Atromitos,4.03,4.03,0.0
+G1,2122,2022-02-23,Ionikos,Apollon,3.17,3.17,0.0
+G1,2122,2022-02-23,Lamia,Asteras Tripolis,2.95,2.95,0.0
+G1,2122,2022-02-26,Panetolikos,Volos NFC,3.17,3.17,0.0
+G1,2122,2022-02-26,Asteras Tripolis,Aris,2.94,2.94,0.0
+G1,2122,2022-02-27,Olympiakos,OFI Crete,4.94,4.94,0.0
+G1,2122,2022-02-27,Panathinaikos,AEK,3.14,3.14,0.0
+G1,2122,2022-02-27,PAOK,Ionikos,5.2,5.2,0.0
+G1,2122,2022-02-28,Giannina,Lamia,3.34,3.34,0.0
+G1,2122,2022-02-28,Apollon,Atromitos,3.03,3.03,0.0
+G1,2122,2022-03-02,AEK,PAOK,3.23,3.23,0.0
+G1,2122,2022-03-02,Olympiakos,Asteras Tripolis,4.77,4.77,0.0
+G1,2122,2022-03-03,Atromitos,Volos NFC,3.59,3.59,0.0
+G1,2122,2022-03-06,Aris,Olympiakos,2.84,2.84,0.0
+G1,2122,2022-03-06,Atromitos,Panathinaikos,3.08,3.08,0.0
+G1,2122,2022-03-06,Ionikos,Panetolikos,3.0,3.0,0.0
+G1,2122,2022-03-06,AEK,Asteras Tripolis,3.57,3.57,0.0
+G1,2122,2022-03-06,OFI Crete,Apollon,3.98,3.98,0.0
+G1,2122,2022-03-06,Volos NFC,Giannina,3.31,3.31,0.0
+G1,2122,2022-03-06,Lamia,PAOK,3.6,3.6,0.0
+G1,2122,2022-03-13,Panathinaikos,AEK,3.25,3.25,0.0
+G1,2122,2022-03-13,Olympiakos,Aris,3.74,3.74,0.0
+G1,2122,2022-03-13,PAOK,Giannina,4.53,4.53,0.0
+G1,2122,2022-03-19,Atromitos,Apollon,3.6,3.6,0.0
+G1,2122,2022-03-19,OFI Crete,Ionikos,3.21,3.21,0.0
+G1,2122,2022-03-19,Panetolikos,Lamia,3.11,3.11,0.0
+G1,2122,2022-03-19,Volos NFC,Asteras Tripolis,3.11,3.11,0.0
+G1,2122,2022-03-20,Aris,Panathinaikos,2.97,2.97,0.0
+G1,2122,2022-03-20,AEK,PAOK,3.28,3.28,0.0
+G1,2122,2022-03-20,Giannina,Olympiakos,3.44,3.44,0.0
+G1,2122,2022-04-02,Asteras Tripolis,Atromitos,3.28,3.28,0.0
+G1,2122,2022-04-02,Ionikos,Volos NFC,3.11,3.11,0.0
+G1,2122,2022-04-02,Apollon,Panetolikos,3.01,3.01,0.0
+G1,2122,2022-04-02,Lamia,OFI Crete,3.15,3.15,0.0
+G1,2122,2022-04-03,Panathinaikos,PAOK,3.05,3.05,0.0
+G1,2122,2022-04-03,Olympiakos,AEK,3.75,3.75,0.0
+G1,2122,2022-04-03,Aris,Giannina,3.71,3.71,0.0
+G1,2122,2022-04-09,OFI Crete,Apollon,3.47,3.47,0.0
+G1,2122,2022-04-09,Asteras Tripolis,Ionikos,3.35,3.35,0.0
+G1,2122,2022-04-09,Panetolikos,Atromitos,3.05,3.05,0.0
+G1,2122,2022-04-09,Volos NFC,Lamia,3.23,3.23,0.0
+G1,2122,2022-04-10,AEK,Aris,3.16,3.16,0.0
+G1,2122,2022-04-10,Giannina,Panathinaikos,3.12,3.12,0.0
+G1,2122,2022-04-16,Panetolikos,Asteras Tripolis,3.06,3.06,0.0
+G1,2122,2022-04-16,Apollon,Volos NFC,3.16,3.16,0.0
+G1,2122,2022-04-17,Lamia,Ionikos,3.31,3.31,0.0
+G1,2122,2022-04-17,Panathinaikos,Olympiakos,3.08,3.08,0.0
+G1,2122,2022-04-17,Aris,PAOK,2.91,2.91,0.0
+G1,2122,2022-04-17,Atromitos,OFI Crete,3.34,3.34,0.0
+G1,2122,2022-04-18,Giannina,AEK,3.35,3.35,0.0
+G1,2122,2022-04-30,Volos NFC,Atromitos,3.28,3.28,0.0
+G1,2122,2022-04-30,OFI Crete,Panetolikos,3.33,3.33,0.0
+G1,2122,2022-05-01,Panathinaikos,Aris,2.9,2.9,0.0
+G1,2122,2022-05-01,PAOK,AEK,3.12,3.12,0.0
+G1,2122,2022-05-01,Olympiakos,Giannina,4.81,4.81,0.0
+G1,2122,2022-05-02,Ionikos,Apollon,3.31,3.31,0.0
+G1,2122,2022-05-02,Asteras Tripolis,Lamia,3.15,3.15,0.0
+G1,2122,2022-05-04,PAOK,Olympiakos,3.11,3.11,0.0
+G1,2122,2022-05-07,Atromitos,Ionikos,3.19,3.19,0.0
+G1,2122,2022-05-07,Panetolikos,Volos NFC,3.49,3.49,0.0
+G1,2122,2022-05-07,Apollon,Lamia,2.86,2.86,0.0
+G1,2122,2022-05-08,Giannina,PAOK,3.14,3.14,0.0
+G1,2122,2022-05-08,AEK,Panathinaikos,3.09,3.09,0.0
+G1,2122,2022-05-08,Aris,Olympiakos,3.37,3.37,0.0
+G1,2122,2022-05-08,OFI Crete,Asteras Tripolis,3.24,3.24,0.0
+G1,2122,2022-05-11,AEK,Giannina,4.57,4.57,0.0
+G1,2122,2022-05-11,Olympiakos,Panathinaikos,3.07,3.07,0.0
+G1,2122,2022-05-11,PAOK,Aris,3.12,3.12,0.0
+G1,2122,2022-05-14,Aris,AEK,3.01,3.01,0.0
+G1,2122,2022-05-14,Olympiakos,PAOK,3.3,3.3,0.0
+G1,2122,2022-05-14,Panathinaikos,Giannina,4.55,4.55,0.0
+G1,2122,2022-05-14,Volos NFC,OFI Crete,3.43,3.43,0.0
+G1,2122,2022-05-15,Ionikos,Panetolikos,3.3,3.3,0.0
+G1,2122,2022-05-15,Lamia,Atromitos,3.12,3.12,0.0
+G1,2122,2022-05-15,Asteras Tripolis,Apollon,3.98,3.98,0.0
+G1,2122,2022-05-17,AEK,Olympiakos,3.29,3.29,0.0
+G1,2122,2022-05-17,Giannina,Aris,3.18,3.18,0.0
+G1,2122,2022-05-17,PAOK,Panathinaikos,3.05,3.05,0.0

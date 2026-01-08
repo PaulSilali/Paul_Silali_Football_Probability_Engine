@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC2,1718,2017-02-12,Raith Rvs,Alloa,7,15,False
+SC2,1718,2017-02-12,Airdrie Utd,Forfar,11,7,False
+SC2,1718,2017-02-12,Arbroath,Stranraer,7,15,False
+SC2,1718,2017-02-12,Queens Park,East Fife,15,15,False
+SC2,1718,2017-02-12,Ayr,Albion Rvs,7,11,False
+SC2,1718,2017-04-11,Albion Rvs,Forfar,7,58,True
+SC2,1718,2017-04-11,Alloa,Airdrie Utd,9,8,True
+SC2,1718,2017-04-11,Arbroath,Ayr,58,58,True
+SC2,1718,2017-04-11,Raith Rvs,East Fife,58,8,True
+SC2,1718,2017-04-11,Stranraer,Queens Park,8,7,True
+SC2,1718,2017-05-08,Forfar,Airdrie Utd,27,9,False
+SC2,1718,2017-05-08,Stranraer,East Fife,9,9,False
+SC2,1718,2017-05-08,Albion Rvs,Ayr,9,27,False
+SC2,1718,2017-05-08,Arbroath,Queens Park,27,9,False
+SC2,1718,2017-05-08,Alloa,Raith Rvs,9,27,False
+SC2,1718,2017-08-19,Alloa,Queens Park,15,15,False
+SC2,1718,2017-08-19,Arbroath,East Fife,103,15,False
+SC2,1718,2017-08-19,Raith Rvs,Forfar,103,103,False
+SC2,1718,2017-08-19,Stranraer,Ayr,15,103,False
+SC2,1718,2017-08-19,Albion Rvs,Airdrie Utd,15,15,False
+SC2,1718,2017-08-26,Ayr,Arbroath,7,7,False
+SC2,1718,2017-08-26,East Fife,Raith Rvs,7,7,False
+SC2,1718,2017-08-26,Forfar,Albion Rvs,7,7,False
+SC2,1718,2017-08-26,Queens Park,Stranraer,7,7,False
+SC2,1718,2017-08-26,Airdrie Utd,Alloa,7,7,False
+SC2,1718,2017-09-09,Raith Rvs,Ayr,14,14,False
+SC2,1718,2017-09-09,East Fife,Queens Park,14,14,False
+SC2,1718,2017-09-09,Arbroath,Albion Rvs,14,14,False
+SC2,1718,2017-09-09,Alloa,Forfar,14,14,False
+SC2,1718,2017-09-09,Stranraer,Airdrie Utd,14,14,False
+SC2,1718,2017-09-12,Ayr,Queens Park,3,3,True
+SC2,1718,2017-09-12,Forfar,Alloa,3,3,True
+SC2,1718,2017-09-12,East Fife,Stranraer,3,3,True
+SC2,1718,2017-09-16,Airdrie Utd,East Fife,7,4,False
+SC2,1718,2017-09-16,Queens Park,Raith Rvs,4,7,False
+SC2,1718,2017-09-16,Forfar,Arbroath,4,7,False
+SC2,1718,2017-09-16,Ayr,Alloa,4,4,False
+SC2,1718,2017-09-16,Albion Rvs,Stranraer,7,4,False
+SC2,1718,2017-09-23,Queens Park,Ayr,7,7,False
+SC2,1718,2017-09-23,Stranraer,Arbroath,7,7,False
+SC2,1718,2017-09-23,Alloa,Albion Rvs,7,7,False
+SC2,1718,2017-09-23,East Fife,Forfar,7,7,False
+SC2,1718,2017-09-23,Raith Rvs,Airdrie Utd,7,7,False
+SC2,1718,2017-09-30,Albion Rvs,Raith Rvs,7,7,False
+SC2,1718,2017-09-30,Airdrie Utd,Queens Park,7,7,False
+SC2,1718,2017-09-30,Forfar,Stranraer,7,7,False
+SC2,1718,2017-09-30,Ayr,East Fife,7,7,False
+SC2,1718,2017-09-30,Arbroath,Alloa,7,7,False
+SC2,1718,2017-10-12,Airdrie Utd,Raith Rvs,12,12,True
+SC2,1718,2017-10-14,Ayr,Airdrie Utd,14,2,False
+SC2,1718,2017-10-14,Stranraer,Alloa,14,14,False
+SC2,1718,2017-10-14,Raith Rvs,Arbroath,2,14,False
+SC2,1718,2017-10-14,Queens Park,Forfar,14,14,False
+SC2,1718,2017-10-14,East Fife,Albion Rvs,14,14,False
+SC2,1718,2017-10-21,Arbroath,Airdrie Utd,7,7,False
+SC2,1718,2017-10-21,Alloa,East Fife,7,7,False
+SC2,1718,2017-10-21,Albion Rvs,Queens Park,7,7,False
+SC2,1718,2017-10-21,Forfar,Ayr,7,7,False
+SC2,1718,2017-10-28,East Fife,Arbroath,7,7,False
+SC2,1718,2017-10-28,Airdrie Utd,Albion Rvs,7,7,False
+SC2,1718,2017-10-28,Ayr,Stranraer,7,14,False
+SC2,1718,2017-10-28,Forfar,Raith Rvs,7,14,False
+SC2,1718,2017-10-28,Queens Park,Alloa,7,7,False
+SC2,1718,2017-11-11,Queens Park,Arbroath,8,14,False
+SC2,1718,2017-11-11,Forfar,East Fife,14,8,False
+SC2,1718,2017-11-11,Albion Rvs,Alloa,8,8,False
+SC2,1718,2017-11-11,Airdrie Utd,Stranraer,8,8,False
+SC2,1718,2017-11-14,Ayr,Raith Rvs,17,17,True
+SC2,1718,2017-11-25,East Fife,Airdrie Utd,14,14,False
+SC2,1718,2017-11-25,Alloa,Ayr,14,11,False
+SC2,1718,2017-11-25,Raith Rvs,Queens Park,11,14,False
+SC2,1718,2017-11-25,Arbroath,Forfar,14,14,False
+SC2,1718,2017-12-08,Airdrie Utd,Arbroath,13,13,False
+SC2,1718,2017-12-08,Raith Rvs,Stranraer,13,27,False
+SC2,1718,2017-12-08,Queens Park,Albion Rvs,13,27,False
+SC2,1718,2017-12-08,East Fife,Alloa,13,13,False
+SC2,1718,2017-12-08,Ayr,Forfar,13,13,False
+SC2,1718,2017-12-16,Queens Park,Airdrie Utd,8,8,False
+SC2,1718,2017-12-16,Stranraer,Forfar,8,8,False
+SC2,1718,2017-12-16,East Fife,Ayr,8,8,False
+SC2,1718,2017-12-19,Stranraer,Albion Rvs,3,11,True
+SC2,1718,2017-12-23,Alloa,Stranraer,15,4,False
+SC2,1718,2017-12-23,Airdrie Utd,Ayr,7,7,False
+SC2,1718,2017-12-23,Albion Rvs,East Fife,4,7,False
+SC2,1718,2017-12-23,Arbroath,Raith Rvs,15,15,False
+SC2,1718,2017-12-23,Forfar,Queens Park,7,7,False
+SC2,1718,2017-12-30,Ayr,Forfar,7,7,False
+SC2,1718,2017-12-30,Queens Park,Albion Rvs,7,7,False
+SC2,1718,2017-12-30,Raith Rvs,Stranraer,7,7,False
+SC2,1718,2017-12-30,Arbroath,East Fife,7,7,False
+SC2,1718,2018-01-13,East Fife,Alloa,14,21,False
+SC2,1718,2018-01-13,Stranraer,Airdrie Utd,14,21,False
+SC2,1718,2018-01-13,Forfar,Albion Rvs,14,14,False
+SC2,1718,2018-01-13,Raith Rvs,Ayr,14,14,False
+SC2,1718,2018-01-13,Arbroath,Queens Park,14,14,False
+SC2,1718,2018-01-20,Stranraer,Raith Rvs,7,7,False
+SC2,1718,2018-01-27,Queens Park,Ayr,14,14,False
+SC2,1718,2018-01-27,East Fife,Forfar,14,14,False
+SC2,1718,2018-01-27,Alloa,Raith Rvs,14,7,False
+SC2,1718,2018-01-27,Albion Rvs,Stranraer,14,7,False
+SC2,1718,2018-01-27,Airdrie Utd,Arbroath,14,14,False
+SC2,1718,2018-02-01,Alloa,Queens Park,5,5,True
+SC2,1718,2018-02-01,Albion Rvs,Airdrie Utd,5,5,True
+SC2,1718,2018-02-01,East Fife,Raith Rvs,5,5,True
+SC2,1718,2018-02-01,Forfar,Arbroath,5,5,True
+SC2,1718,2018-02-01,Stranraer,Ayr,5,5,True
+SC2,1718,2018-02-17,Ayr,East Fife,16,16,False
+SC2,1718,2018-02-17,Forfar,Stranraer,16,16,False
+SC2,1718,2018-02-17,Airdrie Utd,Queens Park,16,16,False
+SC2,1718,2018-02-17,Albion Rvs,Raith Rvs,16,16,False
+SC2,1718,2018-02-17,Arbroath,Alloa,16,16,False
+SC2,1718,2018-02-20,Stranraer,Arbroath,3,3,True
+SC2,1718,2018-02-24,Stranraer,Alloa,4,7,False
+SC2,1718,2018-02-24,Raith Rvs,Arbroath,7,4,False
+SC2,1718,2018-02-24,Queens Park,Forfar,7,7,False
+SC2,1718,2018-02-24,East Fife,Albion Rvs,7,7,False
+SC2,1718,2018-02-24,Ayr,Airdrie Utd,7,7,False
+SC2,1718,2018-03-02,Arbroath,Albion Rvs,6,6,False
+SC2,1718,2018-03-02,Forfar,Airdrie Utd,6,6,False
+SC2,1718,2018-03-02,Queens Park,Raith Rvs,6,6,False
+SC2,1718,2018-03-02,Stranraer,East Fife,6,6,False
+SC2,1718,2018-03-02,Ayr,Alloa,6,6,False
+SC2,1718,2018-03-13,Albion Rvs,Queens Park,11,11,True
+SC2,1718,2018-03-13,Forfar,Raith Rvs,11,11,True
+SC2,1718,2018-03-13,Airdrie Utd,Stranraer,11,11,True
+SC2,1718,2018-03-13,Alloa,East Fife,11,11,True
+SC2,1718,2018-03-14,Arbroath,Ayr,12,12,True
+SC2,1718,2018-03-17,Forfar,Ayr,4,3,False
+SC2,1718,2018-03-17,Alloa,Airdrie Utd,4,4,False
+SC2,1718,2018-03-17,Albion Rvs,Arbroath,4,3,False
+SC2,1718,2018-03-17,Stranraer,Queens Park,4,4,False
+SC2,1718,2018-03-20,Albion Rvs,Ayr,3,3,True
+SC2,1718,2018-03-20,Airdrie Utd,Alloa,3,3,True
+SC2,1718,2018-03-24,Airdrie Utd,Raith Rvs,4,11,False
+SC2,1718,2018-03-24,Arbroath,Stranraer,7,7,False
+SC2,1718,2018-03-24,Ayr,Queens Park,4,7,False
+SC2,1718,2018-03-24,Forfar,East Fife,7,11,False
+SC2,1718,2018-03-24,Albion Rvs,Alloa,4,4,False
+SC2,1718,2018-03-27,Raith Rvs,East Fife,3,3,True
+SC2,1718,2018-03-27,Albion Rvs,Arbroath,3,3,True
+SC2,1718,2018-03-31,Queens Park,Airdrie Utd,7,7,False
+SC2,1718,2018-03-31,East Fife,Ayr,4,7,False
+SC2,1718,2018-03-31,Alloa,Arbroath,7,4,False
+SC2,1718,2018-03-31,Stranraer,Forfar,7,7,False
+SC2,1718,2018-03-31,Raith Rvs,Albion Rvs,4,4,False
+SC2,1718,2018-04-14,Airdrie Utd,Albion Rvs,14,14,False
+SC2,1718,2018-04-14,East Fife,Arbroath,14,14,False
+SC2,1718,2018-04-14,Raith Rvs,Queens Park,14,14,False
+SC2,1718,2018-04-14,Forfar,Alloa,14,14,False
+SC2,1718,2018-04-14,Ayr,Stranraer,14,14,False
+SC2,1718,2018-04-21,Albion Rvs,East Fife,7,7,False
+SC2,1718,2018-04-21,Forfar,Queens Park,7,7,False
+SC2,1718,2018-04-21,Stranraer,Raith Rvs,7,7,False
+SC2,1718,2018-04-21,Arbroath,Airdrie Utd,7,7,False
+SC2,1718,2018-04-22,Alloa,Ayr,8,8,False
+SC2,1718,2018-04-28,Queens Park,Arbroath,7,7,False
+SC2,1718,2018-04-28,East Fife,Stranraer,7,7,False
+SC2,1718,2018-04-28,Ayr,Albion Rvs,6,7,False
+SC2,1718,2018-04-28,Airdrie Utd,Forfar,7,7,False
+SC2,1718,2018-04-28,Raith Rvs,Alloa,7,6,False
+SC2,1718,2018-06-01,Airdrie Utd,East Fife,34,34,False
+SC2,1718,2018-06-01,Queens Park,Stranraer,34,34,False
+SC2,1718,2018-06-01,Ayr,Arbroath,34,34,False
+SC2,1718,2018-06-01,Alloa,Albion Rvs,34,34,False
+SC2,1718,2018-06-01,Raith Rvs,Forfar,34,34,False
+SC2,1718,2018-06-02,Raith Rvs,Albion Rvs,1,1,False
+SC2,1718,2018-06-03,Alloa,Arbroath,2,2,False
+SC2,1718,2018-07-04,Albion Rvs,Forfar,32,33,True
+SC2,1718,2018-07-04,Airdrie Utd,Ayr,33,33,True
+SC2,1718,2018-07-04,Arbroath,Raith Rvs,31,32,True
+SC2,1718,2018-07-04,Alloa,Stranraer,31,33,True
+SC2,1718,2018-07-04,Queens Park,East Fife,33,33,True
+SC2,1718,2018-10-02,Alloa,Forfar,90,3,True
+SC2,1718,2018-10-02,Raith Rvs,Airdrie Utd,3,3,True
+SC2,1718,2018-10-02,East Fife,Queens Park,3,90,True
+SC2,1718,2018-10-03,Stranraer,Albion Rvs,4,91,True
+SC2,1718,2018-10-03,Ayr,Raith Rvs,91,1,True
+SC2,1718,2018-10-03,East Fife,Airdrie Utd,1,1,True
+SC2,1718,2018-10-03,Arbroath,Forfar,4,1,True
+SC2,1718,2018-10-03,Queens Park,Alloa,1,1,True

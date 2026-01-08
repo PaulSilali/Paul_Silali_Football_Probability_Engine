@@ -1,0 +1,46 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8887,Stranraer,8888,Brechin,1617,4,1,0.25,1.25
+8871,East Fife,8889,Albion Rvs,1617,4,1,0.25,2.0
+8888,Brechin,8891,Livingston,1617,4,0,0.0,2.75
+8873,Alloa,8881,Airdrie Utd,1617,4,0,0.0,2.5
+8872,Stenhousemuir,8888,Brechin,1617,4,2,0.5,3.25
+8870,Peterhead,8887,Stranraer,1617,4,2,0.5,3.25
+8881,Airdrie Utd,8887,Stranraer,1617,4,0,0.0,2.5
+8881,Airdrie Utd,8891,Livingston,1617,4,0,0.0,4.5
+8870,Peterhead,8889,Albion Rvs,1617,4,3,0.75,1.75
+8870,Peterhead,8888,Brechin,1617,4,0,0.0,2.25
+8883,Queens Park,8891,Livingston,1617,4,1,0.25,2.5
+8871,East Fife,8891,Livingston,1617,4,0,0.0,3.0
+8872,Stenhousemuir,8881,Airdrie Utd,1617,4,1,0.25,4.0
+8871,East Fife,8872,Stenhousemuir,1617,4,0,0.0,1.75
+8871,East Fife,8883,Queens Park,1617,4,2,0.5,2.0
+8883,Queens Park,8887,Stranraer,1617,4,1,0.25,1.75
+8872,Stenhousemuir,8887,Stranraer,1617,4,0,0.0,3.25
+8871,East Fife,8881,Airdrie Utd,1617,4,2,0.5,2.75
+8870,Peterhead,8873,Alloa,1617,4,1,0.25,3.0
+8870,Peterhead,8881,Airdrie Utd,1617,4,1,0.25,4.25
+8887,Stranraer,8891,Livingston,1617,4,1,0.25,2.5
+8881,Airdrie Utd,8883,Queens Park,1617,4,0,0.0,4.25
+8887,Stranraer,8889,Albion Rvs,1617,4,0,0.0,4.0
+8871,East Fife,8887,Stranraer,1617,4,2,0.5,1.75
+8889,Albion Rvs,8891,Livingston,1617,4,0,0.0,2.25
+8873,Alloa,8883,Queens Park,1617,4,2,0.5,2.75
+8870,Peterhead,8891,Livingston,1617,4,0,0.0,4.0
+8871,East Fife,8888,Brechin,1617,4,0,0.0,3.0
+8873,Alloa,8891,Livingston,1617,4,1,0.25,3.75
+8871,East Fife,8873,Alloa,1617,4,2,0.5,2.5
+8883,Queens Park,8889,Albion Rvs,1617,4,1,0.25,2.25
+8881,Airdrie Utd,8888,Brechin,1617,4,0,0.0,3.25
+8870,Peterhead,8871,East Fife,1617,4,1,0.25,2.5
+8881,Airdrie Utd,8889,Albion Rvs,1617,4,0,0.0,3.75
+8873,Alloa,8889,Albion Rvs,1617,4,3,0.75,2.0
+8872,Stenhousemuir,8873,Alloa,1617,4,1,0.25,4.5
+8870,Peterhead,8883,Queens Park,1617,4,1,0.25,2.0
+8873,Alloa,8888,Brechin,1617,4,0,0.0,3.5
+8872,Stenhousemuir,8883,Queens Park,1617,4,0,0.0,2.5
+8870,Peterhead,8872,Stenhousemuir,1617,4,1,0.25,2.75
+8872,Stenhousemuir,8891,Livingston,1617,4,0,0.0,2.75
+8888,Brechin,8889,Albion Rvs,1617,4,0,0.0,1.75
+8872,Stenhousemuir,8889,Albion Rvs,1617,4,1,0.25,2.5
+8873,Alloa,8887,Stranraer,1617,4,1,0.25,3.75
+8883,Queens Park,8888,Brechin,1617,4,2,0.5,2.0

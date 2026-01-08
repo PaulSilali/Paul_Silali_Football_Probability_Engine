@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9420,NAC Breda,9432,Heracles,1718,2,0,0.0,5.0
+9418,Excelsior,9421,Heerenveen,1718,2,0,0.0,2.0
+9419,Feyenoord,9432,Heracles,1718,2,0,0.0,3.5
+9418,Excelsior,9429,AZ Alkmaar,1718,2,0,0.0,2.5
+9421,Heerenveen,9436,Vitesse,1718,2,1,0.5,3.0
+9418,Excelsior,9426,Twente,1718,2,1,0.5,2.0
+9425,Zwolle,9430,Groningen,1718,2,0,0.0,3.5
+9421,Heerenveen,9429,AZ Alkmaar,1718,2,0,0.0,3.5
+9439,VVV Venlo,9440,Den Haag,1718,2,1,0.5,2.0
+9418,Excelsior,9442,Roda,1718,2,0,0.0,2.0
+9418,Excelsior,9440,Den Haag,1718,2,0,0.0,3.0
+9433,Willem II,9436,Vitesse,1718,2,2,1.0,4.0
+9423,PSV Eindhoven,9432,Heracles,1718,2,0,0.0,3.0
+9420,NAC Breda,9429,AZ Alkmaar,1718,2,0,0.0,3.5
+9419,Feyenoord,9429,AZ Alkmaar,1718,2,0,0.0,3.5
+9427,Ajax,9440,Den Haag,1718,2,2,1.0,1.0
+9436,Vitesse,9439,VVV Venlo,1718,2,2,1.0,3.0
+9424,Sparta Rotterdam,9436,Vitesse,1718,2,0,0.0,4.0
+9426,Twente,9429,AZ Alkmaar,1718,2,0,0.0,3.0
+9418,Excelsior,9423,PSV Eindhoven,1718,2,0,0.0,2.0
+9419,Feyenoord,9423,PSV Eindhoven,1718,2,0,0.0,2.5
+9423,PSV Eindhoven,9427,Ajax,1718,2,0,0.0,3.0
+9425,Zwolle,9427,Ajax,1718,2,0,0.0,2.0
+9420,NAC Breda,9424,Sparta Rotterdam,1718,2,1,0.5,3.5
+9424,Sparta Rotterdam,9426,Twente,1718,2,1,0.5,1.5
+9421,Heerenveen,9432,Heracles,1718,2,1,0.5,2.5
+9427,Ajax,9432,Heracles,1718,2,0,0.0,2.0
+9432,Heracles,9439,VVV Venlo,1718,2,0,0.0,3.5
+9427,Ajax,9431,Utrecht,1718,2,1,0.5,1.5
+9426,Twente,9440,Den Haag,1718,2,0,0.0,4.0
+9419,Feyenoord,9439,VVV Venlo,1718,2,1,0.5,1.5
+9419,Feyenoord,9425,Zwolle,1718,2,1,0.5,3.5
+9432,Heracles,9436,Vitesse,1718,2,2,1.0,1.0
+9419,Feyenoord,9427,Ajax,1718,2,0,0.0,3.5
+9419,Feyenoord,9426,Twente,1718,2,0,0.0,3.5
+9420,NAC Breda,9440,Den Haag,1718,2,0,0.0,1.5
+9420,NAC Breda,9426,Twente,1718,2,1,0.5,2.5
+9420,NAC Breda,9436,Vitesse,1718,2,0,0.0,3.0
+9423,PSV Eindhoven,9439,VVV Venlo,1718,2,0,0.0,5.0
+9430,Groningen,9433,Willem II,1718,2,1,0.5,1.5
+9421,Heerenveen,9433,Willem II,1718,2,0,0.0,2.5
+9418,Excelsior,9431,Utrecht,1718,2,1,0.5,4.0
+9431,Utrecht,9439,VVV Venlo,1718,2,0,0.0,1.0
+9430,Groningen,9436,Vitesse,1718,2,0,0.0,4.0
+9418,Excelsior,9420,NAC Breda,1718,2,1,0.5,2.0
+9421,Heerenveen,9426,Twente,1718,2,0,0.0,2.5
+9419,Feyenoord,9421,Heerenveen,1718,2,1,0.5,3.5
+9429,AZ Alkmaar,9430,Groningen,1718,2,1,0.5,3.5
+9419,Feyenoord,9420,NAC Breda,1718,2,0,0.0,2.5
+9427,Ajax,9436,Vitesse,1718,2,0,0.0,4.0
+9420,NAC Breda,9430,Groningen,1718,2,1,0.5,2.5
+9421,Heerenveen,9424,Sparta Rotterdam,1718,2,1,0.5,1.5
+9425,Zwolle,9432,Heracles,1718,2,0,0.0,3.0
+9432,Heracles,9440,Den Haag,1718,2,1,0.5,3.5
+9421,Heerenveen,9442,Roda,1718,2,1,0.5,2.5
+9427,Ajax,9433,Willem II,1718,2,0,0.0,4.0
+9420,NAC Breda,9431,Utrecht,1718,2,1,0.5,4.0
+9431,Utrecht,9442,Roda,1718,2,0,0.0,3.5
+9427,Ajax,9442,Roda,1718,2,0,0.0,6.0
+9424,Sparta Rotterdam,9430,Groningen,1718,2,0,0.0,3.5
+9423,PSV Eindhoven,9431,Utrecht,1718,2,0,0.0,5.5
+9419,Feyenoord,9433,Willem II,1718,2,0,0.0,5.5
+9425,Zwolle,9440,Den Haag,1718,2,0,0.0,3.0
+9423,PSV Eindhoven,9440,Den Haag,1718,2,1,0.5,4.5
+9418,Excelsior,9427,Ajax,1718,2,0,0.0,3.5
+9429,AZ Alkmaar,9433,Willem II,1718,2,0,0.0,3.5
+9429,AZ Alkmaar,9440,Den Haag,1718,2,0,0.0,2.5
+9427,Ajax,9429,AZ Alkmaar,1718,2,0,0.0,3.0
+9418,Excelsior,9430,Groningen,1718,2,0,0.0,3.0
+9424,Sparta Rotterdam,9431,Utrecht,1718,2,0,0.0,2.5
+9429,AZ Alkmaar,9442,Roda,1718,2,1,0.5,2.5
+9419,Feyenoord,9442,Roda,1718,2,1,0.5,4.0
+9418,Excelsior,9419,Feyenoord,1718,2,0,0.0,3.0
+9421,Heerenveen,9430,Groningen,1718,2,2,1.0,4.0
+9425,Zwolle,9439,VVV Venlo,1718,2,2,1.0,2.0
+9426,Twente,9439,VVV Venlo,1718,2,1,0.5,1.5
+9432,Heracles,9433,Willem II,1718,2,0,0.0,2.5
+9426,Twente,9431,Utrecht,1718,2,0,0.0,4.0
+9424,Sparta Rotterdam,9425,Zwolle,1718,2,1,0.5,2.0
+9423,PSV Eindhoven,9429,AZ Alkmaar,1718,2,0,0.0,5.0
+9423,PSV Eindhoven,9436,Vitesse,1718,2,0,0.0,4.5
+9433,Willem II,9439,VVV Venlo,1718,2,1,0.5,4.5
+9425,Zwolle,9433,Willem II,1718,2,0,0.0,3.0
+9430,Groningen,9442,Roda,1718,2,1,0.5,3.5
+9426,Twente,9436,Vitesse,1718,2,1,0.5,3.5
+9425,Zwolle,9429,AZ Alkmaar,1718,2,1,0.5,4.0
+9431,Utrecht,9440,Den Haag,1718,2,1,0.5,4.5
+9431,Utrecht,9433,Willem II,1718,2,0,0.0,3.5
+9429,AZ Alkmaar,9431,Utrecht,1718,2,1,0.5,2.5
+9418,Excelsior,9439,VVV Venlo,1718,2,0,0.0,3.5
+9418,Excelsior,9432,Heracles,1718,2,2,1.0,4.0
+9424,Sparta Rotterdam,9433,Willem II,1718,2,1,0.5,2.5
+9420,NAC Breda,9442,Roda,1718,2,0,0.0,1.0
+9426,Twente,9442,Roda,1718,2,1,0.5,2.5
+9427,Ajax,9430,Groningen,1718,2,0,0.0,3.5
+9421,Heerenveen,9439,VVV Venlo,1718,2,1,0.5,3.0
+9425,Zwolle,9442,Roda,1718,1,0,0.0,5.0
+9425,Zwolle,9431,Utrecht,1718,2,1,0.5,2.5
+9419,Feyenoord,9436,Vitesse,1718,2,0,0.0,2.5
+9424,Sparta Rotterdam,9432,Heracles,1718,2,0,0.0,6.0
+9425,Zwolle,9426,Twente,1718,2,0,0.0,2.0
+9421,Heerenveen,9423,PSV Eindhoven,1718,2,1,0.5,3.0
+9420,NAC Breda,9439,VVV Venlo,1718,2,1,0.5,0.5
+9424,Sparta Rotterdam,9442,Roda,1718,2,0,0.0,2.5
+9426,Twente,9430,Groningen,1718,2,1,0.5,1.5
+9423,PSV Eindhoven,9424,Sparta Rotterdam,1718,2,0,0.0,2.0
+9429,AZ Alkmaar,9439,VVV Venlo,1718,2,1,0.5,1.0
+9421,Heerenveen,9440,Den Haag,1718,2,0,0.0,2.5
+9420,NAC Breda,9423,PSV Eindhoven,1718,2,0,0.0,5.5
+9419,Feyenoord,9430,Groningen,1718,2,0,0.0,2.5
+9429,AZ Alkmaar,9436,Vitesse,1718,2,0,0.0,5.0
+9431,Utrecht,9436,Vitesse,1718,2,1,0.5,4.0
+9431,Utrecht,9432,Heracles,1718,2,2,1.0,3.0
+9420,NAC Breda,9425,Zwolle,1718,2,0,0.0,1.5
+9423,PSV Eindhoven,9425,Zwolle,1718,2,0,0.0,2.5
+9423,PSV Eindhoven,9442,Roda,1718,2,1,0.5,3.0
+9420,NAC Breda,9421,Heerenveen,1718,2,0,0.0,2.0
+9432,Heracles,9442,Roda,1718,2,0,0.0,3.0
+9430,Groningen,9440,Den Haag,1718,2,1,0.5,1.5
+9430,Groningen,9439,VVV Venlo,1718,2,2,1.0,2.0
+9425,Zwolle,9436,Vitesse,1718,2,1,0.5,1.5
+9436,Vitesse,9440,Den Haag,1718,2,0,0.0,1.5
+9418,Excelsior,9425,Zwolle,1718,2,1,0.5,2.5
+9418,Excelsior,9436,Vitesse,1718,2,0,0.0,3.0
+9439,VVV Venlo,9442,Roda,1718,2,0,0.0,3.0
+9424,Sparta Rotterdam,9439,VVV Venlo,1718,2,0,0.0,4.0
+9419,Feyenoord,9431,Utrecht,1718,2,1,0.5,3.0
+9426,Twente,9433,Willem II,1718,2,1,0.5,4.0
+9421,Heerenveen,9427,Ajax,1718,2,0,0.0,4.5
+9423,PSV Eindhoven,9433,Willem II,1718,2,0,0.0,4.5
+9426,Twente,9432,Heracles,1718,2,0,0.0,3.0
+9426,Twente,9427,Ajax,1718,2,1,0.5,4.5
+9424,Sparta Rotterdam,9440,Den Haag,1718,2,0,0.0,2.0
+9419,Feyenoord,9440,Den Haag,1718,2,1,0.5,4.0
+9421,Heerenveen,9431,Utrecht,1718,2,1,0.5,4.0
+9418,Excelsior,9433,Willem II,1718,2,0,0.0,3.0
+9429,AZ Alkmaar,9432,Heracles,1718,2,0,0.0,4.0
+9430,Groningen,9431,Utrecht,1718,2,1,0.5,2.5
+9430,Groningen,9432,Heracles,1718,2,1,0.5,4.5
+9440,Den Haag,9442,Roda,1718,2,0,0.0,5.0
+9420,NAC Breda,9433,Willem II,1718,2,1,0.5,2.5
+9436,Vitesse,9442,Roda,1718,2,0,0.0,3.5
+9424,Sparta Rotterdam,9429,AZ Alkmaar,1718,2,0,0.0,2.5
+9418,Excelsior,9424,Sparta Rotterdam,1718,2,1,0.5,3.5
+9424,Sparta Rotterdam,9427,Ajax,1718,2,0,0.0,5.5
+9423,PSV Eindhoven,9430,Groningen,1718,2,2,1.0,3.0
+9419,Feyenoord,9424,Sparta Rotterdam,1718,2,0,0.0,5.5
+9420,NAC Breda,9427,Ajax,1718,2,0,0.0,6.0
+9421,Heerenveen,9425,Zwolle,1718,2,0,0.0,4.0
+9433,Willem II,9442,Roda,1718,2,0,0.0,2.5
+9423,PSV Eindhoven,9426,Twente,1718,2,0,0.0,4.5
+9427,Ajax,9439,VVV Venlo,1718,2,0,0.0,3.5
+9433,Willem II,9440,Den Haag,1718,2,0,0.0,3.0

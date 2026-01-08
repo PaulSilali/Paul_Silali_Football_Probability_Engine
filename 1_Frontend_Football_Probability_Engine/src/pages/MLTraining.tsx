@@ -229,6 +229,11 @@ export default function MLTraining() {
   const [showConfig, setShowConfig] = useState(false);
   const [dateFrom, setDateFrom] = useState<string>('');
   const [dateTo, setDateTo] = useState<string>('');
+  // Window configuration (SP-FX Recommended)
+  const [baseModelWindowYears, setBaseModelWindowYears] = useState<number>(4.0);
+  const [drawModelWindowYears, setDrawModelWindowYears] = useState<number>(2.0);
+  const [oddsCalibrationWindowYears, setOddsCalibrationWindowYears] = useState<number>(1.5);
+  const [excludePreCovid, setExcludePreCovid] = useState<boolean>(false);
   const { toast } = useToast();
 
   const toggleParams = (modelId: string) => {
@@ -522,6 +527,10 @@ export default function MLTraining() {
         seasons: selectedSeasons.length > 0 ? selectedSeasons : undefined,
         dateFrom: dateFrom || undefined,
         dateTo: dateTo || undefined,
+        baseModelWindowYears: baseModelWindowYears,
+        drawModelWindowYears: drawModelWindowYears,
+        oddsCalibrationWindowYears: oddsCalibrationWindowYears,
+        excludePreCovid: excludePreCovid,
       });
 
       if (response.success && response.data) {
@@ -547,7 +556,7 @@ export default function MLTraining() {
         variant: 'destructive',
       });
     }
-  }, [pollTaskStatus, toast, selectedLeagues, selectedSeasons, dateFrom, dateTo]);
+  }, [pollTaskStatus, toast, selectedLeagues, selectedSeasons, dateFrom, dateTo, baseModelWindowYears, drawModelWindowYears, oddsCalibrationWindowYears, excludePreCovid]);
 
   const trainFullPipeline = useCallback(async () => {
     setIsTrainingPipeline(true);
@@ -563,6 +572,10 @@ export default function MLTraining() {
         seasons: selectedSeasons.length > 0 ? selectedSeasons : undefined,
         dateFrom: dateFrom || undefined,
         dateTo: dateTo || undefined,
+        baseModelWindowYears: baseModelWindowYears,
+        drawModelWindowYears: drawModelWindowYears,
+        oddsCalibrationWindowYears: oddsCalibrationWindowYears,
+        excludePreCovid: excludePreCovid,
       });
 
       if (response.success && response.data) {
@@ -834,6 +847,90 @@ export default function MLTraining() {
               </div>
             </div>
 
+            {/* Look-Back Window Configuration (SP-FX Recommended) */}
+            <div className="space-y-4 p-4 bg-primary/5 rounded-lg border border-primary/20">
+              <div className="flex items-center gap-2">
+                <Info className="h-4 w-4 text-primary" />
+                <Label className="text-base font-semibold">Look-Back Window Configuration</Label>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Component-specific windows for optimal jackpot prediction (SP-FX Recommended)
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="baseModelWindow" className="text-sm">
+                    Base Model Window (Years)
+                    <span className="text-xs text-muted-foreground ml-1">(3-4 seasons recommended)</span>
+                  </Label>
+                  <Input
+                    id="baseModelWindow"
+                    type="number"
+                    step="0.5"
+                    min="1"
+                    max="10"
+                    value={baseModelWindowYears}
+                    onChange={(e) => setBaseModelWindowYears(parseFloat(e.target.value) || 4.0)}
+                    className="w-full"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="drawModelWindow" className="text-sm">
+                    Draw Model Window (Years)
+                    <span className="text-xs text-muted-foreground ml-1">(1.5-2.5 seasons recommended)</span>
+                  </Label>
+                  <Input
+                    id="drawModelWindow"
+                    type="number"
+                    step="0.5"
+                    min="1"
+                    max="5"
+                    value={drawModelWindowYears}
+                    onChange={(e) => setDrawModelWindowYears(parseFloat(e.target.value) || 2.0)}
+                    className="w-full"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="oddsCalibrationWindow" className="text-sm">
+                    Odds Calibration Window (Years)
+                    <span className="text-xs text-muted-foreground ml-1">(1-2 seasons recommended)</span>
+                  </Label>
+                  <Input
+                    id="oddsCalibrationWindow"
+                    type="number"
+                    step="0.5"
+                    min="0.5"
+                    max="5"
+                    value={oddsCalibrationWindowYears}
+                    onChange={(e) => setOddsCalibrationWindowYears(parseFloat(e.target.value) || 1.5)}
+                    className="w-full"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="excludePreCovid" className="text-sm flex items-center gap-2">
+                    <input
+                      type="checkbox"
+                      id="excludePreCovid"
+                      checked={excludePreCovid}
+                      onChange={(e) => setExcludePreCovid(e.target.checked)}
+                      className="h-4 w-4 rounded border-gray-300"
+                    />
+                    Exclude Pre-COVID Data
+                    <span className="text-xs text-muted-foreground">(Before Aug 2020)</span>
+                  </Label>
+                </div>
+              </div>
+              
+              <div className="mt-2 p-2 bg-muted/50 rounded text-xs text-muted-foreground">
+                <p className="font-medium mb-1">Why Different Windows?</p>
+                <ul className="list-disc list-inside space-y-0.5">
+                  <li>Base models: 3-4 seasons for team strength stability</li>
+                  <li>Draw models: 1.5-2.5 seasons (draw rates change faster)</li>
+                  <li>Odds calibration: 1-2 seasons (market evolution)</li>
+                </ul>
+              </div>
+            </div>
+
             {/* Summary */}
             <div className="p-4 bg-muted/50 rounded-lg">
               <p className="text-sm font-medium mb-2">Training Configuration Summary:</p>
@@ -841,6 +938,10 @@ export default function MLTraining() {
                 <li>• Leagues: {selectedLeagues.length > 0 ? selectedLeagues.join(', ') : 'All leagues'}</li>
                 <li>• Seasons: {selectedSeasons.length > 0 ? selectedSeasons.join(', ') : 'All seasons'}</li>
                 <li>• Date Range: {dateFrom && dateTo ? `${dateFrom} to ${dateTo}` : dateFrom ? `From ${dateFrom}` : dateTo ? `Until ${dateTo}` : 'No date filter'}</li>
+                <li>• Base Model Window: {baseModelWindowYears} years</li>
+                <li>• Draw Model Window: {drawModelWindowYears} years</li>
+                <li>• Odds Calibration Window: {oddsCalibrationWindowYears} years</li>
+                <li>• Exclude Pre-COVID: {excludePreCovid ? 'Yes' : 'No'}</li>
               </ul>
             </div>
           </CardContent>

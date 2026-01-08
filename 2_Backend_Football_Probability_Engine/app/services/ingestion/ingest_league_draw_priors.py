@@ -52,6 +52,15 @@ def ingest_league_draw_priors_from_csv(
             logger.error(f"League {league_code} not found")
             return {"success": False, "error": f"League {league_code} not found"}
         
+        # Validate data before insert
+        context = f" (league_code={league_code}, season={season})"
+        is_valid, error = DrawStructuralValidator.validate_league_prior_consistency(
+            float(draw_rate), sample_size, context
+        )
+        if not is_valid:
+            logger.error(f"Invalid league draw prior data: {error}")
+            return {"success": False, "error": error}
+        
         # Insert or update
         existing = db.query(LeagueDrawPrior).filter(
             LeagueDrawPrior.league_id == league.id,
@@ -109,24 +118,17 @@ def _save_priors_csv(
         Path to saved CSV file
     """
     try:
-        # Create directory structure: data/1_data_ingestion/Draw_structural/League_Priors
-        base_dir = Path("data/1_data_ingestion/Draw_structural/League_Priors")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
-        # Create safe filename
-        safe_league_name = league_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
-        safe_league_name = ''.join(c for c in safe_league_name if c.isalnum() or c in ('_', '-'))
-        
         # Filename format: {league_code}_{season}_draw_priors.csv
-        # Example: E0_2324_draw_priors.csv
         filename = f"{league_code}_{season}_draw_priors.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        matches_df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            matches_df, "League_Priors", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved draw priors CSV: {csv_path}")
-        return csv_path
+        logger.info(f"Saved draw priors CSV: {filename}")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving draw priors CSV: {e}", exc_info=True)

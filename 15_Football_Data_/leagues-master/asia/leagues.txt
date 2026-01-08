@@ -1,0 +1,139 @@
+
+= International =
+
+asia.cl   AFC Champions League     # afc = asian football confederation ?
+           | afc.cl
+asia.cup  AFC Cup
+           | afc.c
+
+
+
+= Japan =
+
+1      J. League
+         | Japanese J League
+         | Japan J. League
+         | J1 League | Japan J1 League
+2      J. League 2
+         | Japan J. League 2
+
+cup    Emperor's Cup                       # note: national cup (as a rule use cup key for national cup and NOT league cup if both exists)
+          | Japan Emperor Cup
+          | Japan FA Cup
+
+cup.l    J. League Cup                    # note: league cup (incl. all teams from J. League and 0-2 teams from J2 League)
+          | Japan Nabisco Cup    # check - $$$ Nabisco is a sponsor?
+          | jpn.lc
+
+= South Korea =
+
+1      K-League
+        | Südkorea K-League [de]
+
+2      K-League 2
+        | Südkorea K-League 2 [de]
+        | kor.2
+
+cup    Cup
+        | FA Cup
+        | Südkorea FA Cup [de]
+        | kor.cup
+
+
+
+= Singapore =
+
+1     Premier League
+        | SPL
+        | Singapore Premier League
+        | Singaporean Premier League
+        | S. League                  # note: was previously known as the S.League
+        | Singapur S. League [de]
+
+
+= Thailand =
+1     Premier League
+       | Thai Premier League
+
+= Malaysia =
+1     Super League
+       | Malaysian Super League
+
+= Myanmar =
+1     National League
+        | Myanmar National League
+        | mmr.1
+
+
+= Indonesia =
+1     Super League
+       | Indonesian Super League
+
+= India =
+
+1.i      I-League
+          | Indian I-League
+1.ii     Super League
+          | Indian Super League
+          | ind.sl
+
+# note:  Indian Super League is a football league in India. It is one of the TWO co-existing premier football leagues in India
+#         along with I-League
+# todo/check: how to handle two top football leagues? check auto-add keys and more?
+
+
+= Taiwan =
+1      Premier League
+        | Taiwan Football Premier League
+        | twn.1
+
+
+= China =
+1      Super League
+         | Chinese Super League
+         | China Chinese Super League
+         | chn.sl
+
+
+= Kazakhstan =
+1      Premier League A
+         | Kazakh Premier League A
+         | Premier Liga
+2       Pervaya Liga
+
+cup     Kubok
+super   Superkubok
+
+
+
+= Turkmenistan =
+1       1. Liga
+         | Turkmenistan 1. Liga
+         | turk.1
+
+
+= Uzbekistan =
+1       Super League
+         | Usbekistan PFL [de]
+         | uzb.1
+
+
+= Tajikistan =
+1       Higher League
+         | Tadschikistan 1. Liga  [de]
+         | taj.1
+
+super   Super Cup
+         | Tadschikistan Super Cup [de]
+         | taj.sc
+
+
+= Vietnam =
+1      V. League 1
+        | V. League
+        | Vietnam V-League
+        | vie.1
+
+cup     Cup
+         | Vietnam Cup
+         | vie.cup

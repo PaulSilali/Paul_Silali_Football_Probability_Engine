@@ -1,0 +1,1126 @@
+Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team_id,TotalGoals,GoalDifference,Year,Month,DayOfWeek,is_high_scoring_match,is_very_high_scoring
+2018-03-03,USA1,Atlanta United FC,New York RB,3,0,H,1819,44,650,4201,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Real Salt Lake,4,2,H,1819,44,656,662,6,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Columbus Crew,3,0,H,1819,44,4201,641,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Atlanta United FC,1,0,H,1819,44,4201,650,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Columbus Crew,0,2,A,1819,44,655,641,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,Atlanta United FC,4,0,H,1819,44,652,650,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,New England Revolution,2,0,H,1819,44,640,654,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,D.C. United,1,1,D,1819,44,649,645,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Real Salt Lake,1,1,D,1819,44,643,662,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,Minnesota United FC,3,2,H,1819,44,647,661,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Los Angeles FC,0,1,A,1819,44,653,642,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Impact de Montréal,2,1,H,1819,44,663,35320,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,New York City FC,0,2,A,1819,44,656,651,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,Portland Timbers,2,1,H,1819,44,1950,648,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Impact de Montréal,3,2,H,1819,44,641,35320,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Colorado Rapids,2,1,H,1819,44,654,659,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Los Angeles FC,1,5,A,1819,44,662,642,6,-4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Sporting Kansas City,3,4,A,1819,44,658,656,7,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,Vancouver Whitecaps,1,2,A,1819,44,652,663,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Portland Timbers,4,0,H,1819,44,4201,648,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Minnesota United FC,1,2,A,1819,44,649,661,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,D.C. United,3,1,H,1819,44,650,645,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Los Angeles Galaxy,2,1,H,1819,44,651,1950,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,D.C. United,Houston Dynamo,2,2,D,1819,44,645,652,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Chicago Fire,2,1,H,1819,44,661,658,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Columbus Crew,0,0,D,1819,44,640,641,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Toronto FC,1,0,H,1819,44,35320,655,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Vancouver Whitecaps,4,1,H,1819,44,650,663,5,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,San Jose Earthquakes,3,2,H,1819,44,656,647,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,New York RB,1,0,H,1819,44,662,4201,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Seattle Sounders,3,0,H,1819,44,643,653,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,New York City FC,2,2,D,1819,44,654,651,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Portland Timbers,1,1,D,1819,44,643,648,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,D.C. United,3,1,H,1819,44,641,645,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Minnesota United FC,3,0,H,1819,44,4201,661,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Sporting Kansas City,2,2,D,1819,44,659,656,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Los Angeles Galaxy,0,0,D,1819,44,663,1950,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Real Salt Lake,3,1,H,1819,44,655,662,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,New York RB,4,3,H,1819,44,649,4201,7,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Vancouver Whitecaps,1,2,A,1819,44,641,663,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,Los Angeles FC,4,3,H,1819,44,1950,642,7,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Portland Timbers,2,2,D,1819,44,658,648,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,New York City FC,1,2,A,1819,44,647,651,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Atlanta United FC,0,1,A,1819,44,661,650,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,New England Revolution,0,2,A,1819,44,652,654,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,D.C. United,1,0,H,1819,44,656,645,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Philadelphia Union,3,0,H,1819,44,659,640,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Orlando City,3,0,H,1819,44,651,649,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Seattle Sounders,1,2,A,1819,44,655,653,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Impact de Montréal,1,0,H,1819,44,658,35320,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,Minnesota United FC,2,0,H,1819,44,642,661,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Houston Dynamo,2,2,D,1819,44,663,652,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,San Jose Earthquakes,1,3,A,1819,44,661,647,4,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Philadelphia Union,0,2,A,1819,44,35320,640,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Los Angeles Galaxy,3,2,H,1819,44,643,1950,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Chicago Fire,3,0,H,1819,44,641,658,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Toronto FC,3,2,H,1819,44,654,655,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,New York RB,1,2,A,1819,44,659,4201,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,D.C. United,3,2,H,1819,44,662,645,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,Seattle Sounders,1,0,H,1819,44,648,653,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Atlanta United FC,1,2,A,1819,44,649,650,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,New York City FC,2,2,D,1819,44,642,651,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,San Jose Earthquakes,2,2,D,1819,44,663,647,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Orlando City,2,1,H,1819,44,655,649,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Colorado Rapids,4,0,H,1819,44,651,659,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,Los Angeles FC,2,1,H,1819,44,648,642,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Vancouver Whitecaps,2,2,D,1819,44,643,663,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Real Salt Lake,4,1,H,1819,44,640,662,5,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Columbus Crew,0,1,A,1819,44,654,641,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,D.C. United,1,3,A,1819,44,647,645,4,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Sporting Kansas City,1,1,D,1819,44,661,656,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Houston Dynamo,2,3,A,1819,44,658,652,5,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Los Angeles Galaxy,0,1,A,1819,44,35320,1950,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,FC Dallas,0,1,A,1819,44,655,643,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,New York City FC,3,1,H,1819,44,652,651,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,San Jose Earthquakes,1,0,H,1819,44,1950,647,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Real Salt Lake,0,1,A,1819,44,653,662,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,New England Revolution,3,3,D,1819,44,663,654,6,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Philadelphia Union,0,0,D,1819,44,4201,640,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Chicago Fire,1,2,A,1819,44,649,658,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Impact de Montréal,2,0,H,1819,44,661,35320,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Portland Timbers,2,3,A,1819,44,659,648,5,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,D.C. United,1,1,D,1819,44,642,645,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Columbus Crew,0,0,D,1819,44,656,641,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Chicago Fire,3,1,H,1819,44,640,658,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Atlanta United FC,1,1,D,1819,44,654,650,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Houston Dynamo,2,1,H,1819,44,662,652,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,FC Dallas,2,3,A,1819,44,1950,643,5,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Vancouver Whitecaps,1,2,A,1819,44,659,663,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,Los Angeles Galaxy,1,1,D,1819,44,648,1950,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Philadelphia Union,3,1,H,1819,44,650,640,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Toronto FC,3,3,D,1819,44,641,655,6,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Houston Dynamo,1,0,H,1819,44,35320,652,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,New York RB,2,1,H,1819,44,654,4201,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Los Angeles FC,2,1,H,1819,44,643,642,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,San Jose Earthquakes,2,1,H,1819,44,658,647,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Seattle Sounders,2,0,H,1819,44,662,653,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Minnesota United FC,4,1,H,1819,44,656,661,5,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Toronto FC,0,2,A,1819,44,640,655,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Atlanta United FC,1,1,D,1819,44,651,650,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,New York RB,1,1,D,1819,44,641,4201,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Orlando City,5,2,H,1819,44,663,649,7,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Impact de Montréal,0,1,A,1819,44,653,35320,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Impact de Montréal,4,0,H,1819,44,654,35320,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Los Angeles FC,5,0,H,1819,44,650,642,5,5,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,San Jose Earthquakes,1,1,D,1819,44,640,647,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Colorado Rapids,1,1,D,1819,44,643,659,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Columbus Crew,1,0,H,1819,44,658,641,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Vancouver Whitecaps,2,1,H,1819,44,662,663,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Portland Timbers,3,2,H,1819,44,649,648,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,Sporting Kansas City,0,2,A,1819,44,1950,656,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Real Salt Lake,4,0,H,1819,44,651,662,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Orlando City,0,2,A,1819,44,640,649,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Los Angeles FC,0,2,A,1819,44,663,642,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Impact de Montréal,3,1,H,1819,44,4201,35320,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Toronto FC,2,0,H,1819,44,659,655,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Los Angeles Galaxy,0,1,A,1819,44,658,1950,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,D.C. United,Columbus Crew,1,0,H,1819,44,645,641,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,FC Dallas,0,1,A,1819,44,654,643,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,Minnesota United FC,3,2,H,1819,44,648,661,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,Houston Dynamo,2,2,D,1819,44,647,652,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Seattle Sounders,2,2,D,1819,44,656,653,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Vancouver Whitecaps,6,0,H,1819,44,656,663,6,6,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Los Angeles FC,3,5,A,1819,44,35320,642,8,-2,2018.0,3.0,5.0,1,0
+2018-03-03,USA1,Houston Dynamo,Toronto FC,5,1,H,1819,44,652,655,6,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,Chicago Fire,1,2,A,1819,44,4201,658,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,New England Revolution,2,2,D,1819,44,641,654,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,San Jose Earthquakes,3,2,H,1819,44,649,647,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Philadelphia Union,2,0,H,1819,44,643,640,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Colorado Rapids,3,0,H,1819,44,662,659,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,Atlanta United FC,0,2,A,1819,44,1950,650,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Minnesota United FC,3,1,H,1819,44,653,661,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,New York City FC,3,0,H,1819,44,648,651,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Real Salt Lake,2,0,H,1819,44,663,662,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Impact de Montréal,4,1,H,1819,44,650,35320,5,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Chicago Fire,2,2,D,1819,44,655,658,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,D.C. United,3,2,H,1819,44,640,645,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,San Jose Earthquakes,2,1,H,1819,44,641,647,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Sporting Kansas City,1,0,H,1819,44,654,656,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Houston Dynamo,2,1,H,1819,44,661,652,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,New York RB,2,3,A,1819,44,1950,4201,5,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Orlando City,1,2,A,1819,44,659,649,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,FC Dallas,3,1,H,1819,44,651,643,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,Seattle Sounders,1,0,H,1819,44,642,653,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,Philadelphia Union,3,0,H,1819,44,655,640,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,New England Revolution,4,2,H,1819,44,35320,654,6,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,New York City FC,4,0,H,1819,44,4201,651,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Vancouver Whitecaps,1,0,H,1819,44,661,663,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,FC Dallas,1,1,D,1819,44,642,643,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Columbus Crew,0,0,D,1819,44,653,641,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,Atlanta United FC,1,2,A,1819,44,658,650,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,Los Angeles Galaxy,3,2,H,1819,44,652,1950,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Colorado Rapids,1,0,H,1819,44,656,659,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,Portland Timbers,0,1,A,1819,44,647,648,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Real Salt Lake,3,1,H,1819,44,649,662,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Sporting Kansas City,0,2,A,1819,44,650,656,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Philadelphia Union,1,0,H,1819,44,641,640,1,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,New York City FC,3,1,H,1819,44,650,651,4,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Impact de Montréal,2,0,H,1819,44,643,35320,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,New England Revolution,1,1,D,1819,44,658,654,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,Colorado Rapids,2,0,H,1819,44,652,659,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,D.C. United,2,1,H,1819,44,653,645,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,Real Salt Lake,3,0,H,1819,44,1950,662,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Portland Timbers,Sporting Kansas City,0,0,D,1819,44,648,656,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,Los Angeles FC,3,4,A,1819,44,647,642,7,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Atlanta United FC,0,2,A,1819,44,641,650,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Orlando City,3,0,H,1819,44,35320,649,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,D.C. United,4,4,D,1819,44,655,645,8,0,2018.0,3.0,5.0,1,0
+2018-03-03,USA1,New York RB,Seattle Sounders,2,1,H,1819,44,4201,653,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Chicago Fire,2,2,D,1819,44,659,658,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,New England Revolution,2,2,D,1819,44,647,654,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Vancouver Whitecaps,4,0,H,1819,44,640,663,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York RB,FC Dallas,3,0,H,1819,44,4201,643,3,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Orlando City,Impact de Montréal,0,2,A,1819,44,649,35320,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Houston Dynamo,3,2,H,1819,44,656,652,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Minnesota United FC,3,2,H,1819,44,659,661,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,San Jose Earthquakes,1,1,D,1819,44,662,647,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Chicago Fire,1,1,D,1819,44,653,658,2,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,Columbus Crew,2,0,H,1819,44,642,641,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New York City FC,Toronto FC,2,1,H,1819,44,651,655,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,FC Dallas,0,1,A,1819,44,661,643,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Seattle Sounders,Portland Timbers,2,3,A,1819,44,653,648,5,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Orlando City,4,0,H,1819,44,650,649,4,4,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Sporting Kansas City,2,0,H,1819,44,35320,656,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Columbus Crew,Real Salt Lake,2,1,H,1819,44,641,662,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,D.C. United,3,2,H,1819,44,654,645,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Chicago Fire,New York City FC,3,2,H,1819,44,658,651,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles FC,Philadelphia Union,4,1,H,1819,44,642,640,5,3,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,San Jose Earthquakes,Los Angeles Galaxy,3,3,D,1819,44,647,1950,6,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Toronto FC,New York RB,0,1,A,1819,44,655,4201,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Vancouver Whitecaps,Colorado Rapids,0,1,A,1819,44,663,659,1,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Houston Dynamo,Los Angeles FC,2,2,D,1819,44,652,642,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Minnesota United FC,Toronto FC,4,3,H,1819,44,661,655,7,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,FC Dallas,Atlanta United FC,3,2,H,1819,44,643,650,5,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Colorado Rapids,Seattle Sounders,1,2,A,1819,44,659,653,3,-1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Real Salt Lake,Sporting Kansas City,4,2,H,1819,44,662,656,6,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Los Angeles Galaxy,D.C. United,2,2,D,1819,44,1950,645,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Philadelphia Union,Atlanta United FC,0,2,A,1819,44,640,650,2,-2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Impact de Montréal,Colorado Rapids,2,1,H,1819,44,35320,659,3,1,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,New England Revolution,Seattle Sounders,0,0,D,1819,44,654,653,0,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Toronto FC,2,2,D,1819,44,656,655,4,0,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Atlanta United FC,Portland Timbers,2,0,H,1819,44,650,648,2,2,2018.0,3.0,5.0,0,0
+2018-03-03,USA1,Sporting Kansas City,Portland Timbers,2,3,A,1819,44,656,648,5,-1,2018.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Philadelphia Union,2,0,H,1920,44,650,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Toronto FC,3,1,H,1920,44,653,655,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Seattle Sounders,1,3,A,1920,44,642,653,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Los Angeles Galaxy,1,2,A,1920,44,661,1950,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Portland Timbers,2,1,H,1920,44,662,648,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Toronto FC,1,2,A,1920,44,650,655,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,D.C. United,5,1,H,1920,44,655,645,6,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Los Angeles Galaxy,5,3,H,1920,44,642,1950,8,2,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,New York City FC,Toronto FC,1,2,A,1920,44,651,655,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Colorado Rapids,3,1,H,1920,44,642,659,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,New York RB,3,0,H,1920,44,35320,4201,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Chicago Fire,2,5,A,1920,44,649,658,7,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,New York City FC,1,2,A,1920,44,640,651,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,San Jose Earthquakes,3,1,H,1920,44,648,647,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Minnesota United FC,1,0,H,1920,44,653,661,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Columbus Crew,1,0,H,1920,44,655,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Real Salt Lake,0,1,A,1920,44,663,662,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Toronto FC,1,3,A,1920,44,640,655,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,New York City FC,2,2,D,1920,44,649,651,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,New York RB,1,1,D,1920,44,641,4201,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,New England Revolution,1,1,D,1920,44,643,654,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Portland Timbers,3,3,D,1920,44,659,648,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Real Salt Lake,1,1,D,1920,44,652,662,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Minnesota United FC,2,3,A,1920,44,663,661,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Chicago Fire,2,1,H,1920,44,1950,658,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Impact de Montréal,1,2,A,1920,44,647,35320,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,FC Cincinnati,4,1,H,1920,44,653,660,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Atlanta United FC,2,0,H,1920,44,645,650,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Sporting Kansas City,2,1,H,1920,44,642,656,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Orlando City,1,1,D,1920,44,658,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Columbus Crew,0,2,A,1920,44,654,641,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Los Angeles Galaxy,2,0,H,1920,44,643,1950,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Impact de Montréal,2,1,H,1920,44,652,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Vancouver Whitecaps,1,0,H,1920,44,662,663,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Minnesota United FC,0,3,A,1920,44,647,661,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Colorado Rapids,2,0,H,1920,44,653,659,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,D.C. United,0,0,D,1920,44,651,645,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Philadelphia Union,2,0,H,1920,44,656,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,FC Cincinnati,1,1,D,1920,44,650,660,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Portland Timbers,4,1,H,1920,44,642,648,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Seattle Sounders,2,4,A,1920,44,658,653,6,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,FC Dallas,1,0,H,1920,44,641,643,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Vancouver Whitecaps,3,2,H,1920,44,652,663,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,San Jose Earthquakes,4,1,H,1920,44,4201,647,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Impact de Montréal,1,3,A,1920,44,649,35320,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Real Salt Lake,5,0,H,1920,44,645,662,5,5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Minnesota United FC,3,2,H,1920,44,1950,661,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Los Angeles FC,2,2,D,1920,44,651,642,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Portland Timbers,3,0,H,1920,44,660,648,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,New England Revolution,3,2,H,1920,44,655,654,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Sporting Kansas City,1,1,D,1920,44,659,656,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Colorado Rapids,2,1,H,1920,44,643,659,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,FC Dallas,2,0,H,1920,44,1950,643,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Chicago Fire,3,2,H,1920,44,648,658,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,New England Revolution,1,1,D,1920,44,4201,654,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,New York City FC,1,4,A,1920,44,660,651,5,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Toronto FC,2,2,D,1920,44,641,655,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,FC Dallas,3,3,D,1920,44,35320,643,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Philadelphia Union,2,0,H,1920,44,658,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Orlando City,1,1,D,1920,44,661,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,San Jose Earthquakes,2,1,H,1920,44,656,647,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Colorado Rapids,2,2,D,1920,44,652,659,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Seattle Sounders,2,2,D,1920,44,1950,653,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Los Angeles FC,0,2,A,1920,44,662,642,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,D.C. United,1,0,H,1920,44,663,645,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Atlanta United FC,0,2,A,1920,44,648,650,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Columbus Crew,1,0,H,1920,44,651,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,New York RB,1,2,A,1920,44,645,4201,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,San Jose Earthquakes,4,0,H,1920,44,642,647,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Minnesota United FC,1,0,H,1920,44,656,661,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Atlanta United FC,0,1,A,1920,44,649,650,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Seattle Sounders,1,2,A,1920,44,648,653,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,New York RB,2,1,H,1920,44,651,4201,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Chicago Fire,2,1,H,1920,44,654,658,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,D.C. United,3,1,H,1920,44,640,645,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Impact de Montréal,2,1,H,1920,44,655,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Colorado Rapids,2,0,H,1920,44,662,659,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Vancouver Whitecaps,3,1,H,1920,44,647,663,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Columbus Crew,1,3,A,1920,44,660,641,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Houston Dynamo,5,1,H,1920,44,643,652,6,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Vancouver Whitecaps,2,1,H,1920,44,35320,663,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Colorado Rapids,0,2,A,1920,44,4201,659,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Chicago Fire,1,1,D,1920,44,641,658,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,D.C. United,0,3,A,1920,44,35320,645,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Toronto FC,1,1,D,1920,44,654,655,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Atlanta United FC,3,1,H,1920,44,640,650,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,FC Cincinnati,3,1,H,1920,44,643,660,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Houston Dynamo,1,0,H,1920,44,656,652,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,New York City FC,1,3,A,1920,44,663,651,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Real Salt Lake,1,0,H,1920,44,648,662,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Orlando City,3,0,H,1920,44,647,649,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Los Angeles Galaxy,4,3,H,1920,44,653,1950,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Minnesota United FC,0,2,A,1920,44,642,661,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,New England Revolution,2,1,H,1920,44,651,654,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Toronto FC,1,5,A,1920,44,660,655,6,-4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Los Angeles FC,2,2,D,1920,44,649,642,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Seattle Sounders,2,0,H,1920,44,659,653,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Sporting Kansas City,2,1,H,1920,44,648,656,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Minnesota United FC,2,0,H,1920,44,652,661,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Los Angeles Galaxy,2,1,H,1920,44,659,1950,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,San Jose Earthquakes,1,0,H,1920,44,662,647,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,San Jose Earthquakes,2,1,H,1920,44,651,647,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,FC Dallas,4,0,H,1920,44,658,643,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Columbus Crew,1,3,A,1920,44,650,641,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,FC Cincinnati,0,1,A,1920,44,35320,660,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,New England Revolution,3,3,D,1920,44,649,654,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Los Angeles FC,1,1,D,1920,44,640,642,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Houston Dynamo,2,1,H,1920,44,663,652,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,D.C. United,0,1,A,1920,44,648,645,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Colorado Rapids,3,2,H,1920,44,655,659,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Real Salt Lake,3,1,H,1920,44,661,662,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,New York RB,4,2,H,1920,44,653,4201,6,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Sporting Kansas City,7,2,H,1920,44,1950,656,9,5,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,FC Cincinnati,Atlanta United FC,0,2,A,1920,44,660,650,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Columbus Crew,2,0,H,1920,44,652,641,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,New England Revolution,4,4,D,1920,44,656,654,8,0,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,Impact de Montréal,Chicago Fire,1,0,H,1920,44,35320,658,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,D.C. United,1,0,H,1920,44,661,645,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Los Angeles FC,1,1,D,1920,44,653,642,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Real Salt Lake,2,1,H,1920,44,1950,662,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,FC Cincinnati,2,0,H,1920,44,640,660,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Vancouver Whitecaps,2,3,A,1920,44,659,663,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Los Angeles Galaxy,3,2,H,1920,44,4201,1950,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,FC Dallas,2,1,H,1920,44,652,643,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Toronto FC,0,2,A,1920,44,649,655,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,New York City FC,0,2,A,1920,44,35320,651,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,New England Revolution,6,1,H,1920,44,640,654,7,5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Columbus Crew,3,1,H,1920,44,645,641,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Seattle Sounders,1,1,D,1920,44,661,653,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Los Angeles FC,1,0,H,1920,44,659,642,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,FC Cincinnati,7,1,H,1920,44,661,660,8,6,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,Atlanta United FC,Impact de Montréal,2,1,H,1920,44,650,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Philadelphia Union,4,2,H,1920,44,651,640,6,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Orlando City,0,2,A,1920,44,641,649,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Houston Dynamo,2,1,H,1920,44,654,652,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Toronto FC,1,1,D,1920,44,645,655,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Vancouver Whitecaps,1,0,H,1920,44,653,663,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Los Angeles Galaxy,3,0,H,1920,44,647,1950,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Sporting Kansas City,2,0,H,1920,44,662,656,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,FC Dallas,1,0,H,1920,44,648,643,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Seattle Sounders,3,0,H,1920,44,651,653,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Philadelphia Union,1,3,A,1920,44,649,640,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Atlanta United FC,5,1,H,1920,44,658,650,6,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,San Jose Earthquakes,3,1,H,1920,44,661,647,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Los Angeles FC,1,5,A,1920,44,656,642,6,-4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,New York RB,4,0,H,1920,44,652,4201,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Columbus Crew,1,0,H,1920,44,662,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,New England Revolution,1,2,A,1920,44,659,654,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,D.C. United,2,0,H,1920,44,643,645,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Toronto FC,2,0,H,1920,44,1950,655,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Houston Dynamo,3,2,H,1920,44,660,652,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Seattle Sounders,1,2,A,1920,44,641,653,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Minnesota United FC,2,3,A,1920,44,35320,661,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Chicago Fire,1,0,H,1920,44,656,658,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Columbus Crew,3,0,H,1920,44,640,641,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Orlando City,0,1,A,1920,44,4201,649,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Real Salt Lake,2,1,H,1920,44,642,662,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,FC Cincinnati,0,2,A,1920,44,654,660,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,New York City FC,4,0,H,1920,44,655,651,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,New York RB,1,0,H,1920,44,658,4201,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Minnesota United FC,2,1,H,1920,44,654,661,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Impact de Montréal,7,1,H,1920,44,656,35320,8,6,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,San Jose Earthquakes,Los Angeles FC,0,5,A,1920,44,647,642,5,-5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Philadelphia Union,0,2,A,1920,44,660,640,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Atlanta United FC,2,0,H,1920,44,641,650,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Houston Dynamo,1,4,A,1920,44,659,652,5,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,FC Dallas,2,4,A,1920,44,662,643,6,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Seattle Sounders,0,0,D,1920,44,663,653,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,D.C. United,1,2,A,1920,44,649,645,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Portland Timbers,2,1,H,1920,44,1950,648,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Los Angeles Galaxy,0,2,A,1920,44,663,1950,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Impact de Montréal,0,0,D,1920,44,651,35320,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Los Angeles FC,0,4,A,1920,44,645,642,4,-4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Chicago Fire,2,2,D,1920,44,655,658,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Minnesota United FC,1,2,A,1920,44,4201,661,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,New England Revolution,1,0,H,1920,44,641,654,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Colorado Rapids,4,3,H,1920,44,649,659,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,FC Dallas,2,1,H,1920,44,640,643,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Portland Timbers,3,0,H,1920,44,647,648,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Sporting Kansas City,1,1,D,1920,44,660,656,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Impact de Montréal,0,0,D,1920,44,645,35320,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Vancouver Whitecaps,1,1,D,1920,44,658,663,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Columbus Crew,1,0,H,1920,44,35320,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,San Jose Earthquakes,2,1,H,1920,44,652,647,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,New York City FC,3,3,D,1920,44,661,651,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Atlanta United FC,0,2,A,1920,44,654,650,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Portland Timbers,2,1,H,1920,44,643,648,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,D.C. United,2,3,A,1920,44,659,645,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Orlando City,2,1,H,1920,44,662,649,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,FC Cincinnati,2,0,H,1920,44,642,660,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Philadelphia Union,2,0,H,1920,44,1950,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,New York RB,2,2,D,1920,44,656,4201,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Los Angeles FC,1,0,H,1920,44,663,642,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Real Salt Lake,0,3,A,1920,44,660,662,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Minnesota United FC,4,3,H,1920,44,655,661,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Houston Dynamo,2,1,H,1920,44,1950,652,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Colorado Rapids,4,1,H,1920,44,658,659,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Impact de Montréal,3,0,H,1920,44,640,35320,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Vancouver Whitecaps,1,0,H,1920,44,649,663,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,FC Dallas,1,2,A,1920,44,650,643,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Portland Timbers,1,3,A,1920,44,641,648,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,New York RB,1,0,H,1920,44,654,4201,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Sporting Kansas City,4,1,H,1920,44,647,656,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,New York City FC,0,2,A,1920,44,645,651,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Chicago Fire,1,0,H,1920,44,651,658,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,D.C. United,0,1,A,1920,44,641,645,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Impact de Montréal,0,3,A,1920,44,654,35320,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,San Jose Earthquakes,2,2,D,1920,44,653,647,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Orlando City,1,1,D,1920,44,651,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Portland Timbers,1,2,A,1920,44,655,648,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,San Jose Earthquakes,0,0,D,1920,44,643,647,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Philadelphia Union,1,1,D,1920,44,663,640,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Colorado Rapids,1,0,H,1920,44,650,659,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,FC Cincinnati,1,0,H,1920,44,4201,660,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Real Salt Lake,2,0,H,1920,44,653,662,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,FC Cincinnati,1,0,H,1920,44,647,660,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Chicago Fire,0,0,D,1920,44,642,658,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Atlanta United FC,0,3,A,1920,44,656,650,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Los Angeles Galaxy,3,1,H,1920,44,641,1950,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,New England Revolution,5,0,H,1920,44,658,654,5,5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Impact de Montréal,1,2,A,1920,44,4201,35320,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Portland Timbers,1,0,H,1920,44,663,648,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Impact de Montréal,2,1,H,1920,44,660,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,New York RB,1,3,A,1920,44,643,4201,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Philadelphia Union,1,2,A,1920,44,655,640,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,New York City FC,0,2,A,1920,44,1950,651,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Los Angeles FC,0,3,A,1920,44,641,642,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,San Jose Earthquakes,3,1,H,1920,44,654,647,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Minnesota United FC,2,0,H,1920,44,658,661,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Real Salt Lake,2,3,A,1920,44,659,662,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Houston Dynamo,1,0,H,1920,44,653,652,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Orlando City,1,0,H,1920,44,650,649,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Sporting Kansas City,1,0,H,1920,44,645,656,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Portland Timbers,1,1,D,1920,44,652,648,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Atlanta United FC,0,1,A,1920,44,663,650,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Orlando City,2,1,H,1920,44,653,649,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,FC Dallas,2,0,H,1920,44,642,643,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,New England Revolution,0,0,D,1920,44,35320,654,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Toronto FC,3,0,H,1920,44,662,655,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Chicago Fire,4,1,H,1920,44,647,658,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Seattle Sounders,0,0,D,1920,44,640,653,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Columbus Crew,1,0,H,1920,44,661,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,D.C. United,2,1,H,1920,44,652,645,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Vancouver Whitecaps,1,1,D,1920,44,656,663,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,FC Cincinnati,5,1,H,1920,44,649,660,6,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Atlanta United FC,1,0,H,1920,44,4201,650,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Los Angeles FC,1,1,D,1920,44,643,642,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Colorado Rapids,0,1,A,1920,44,1950,659,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Vancouver Whitecaps,2,2,D,1920,44,4201,663,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Los Angeles Galaxy,0,1,A,1920,44,649,1950,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Atlanta United FC,2,1,H,1920,44,662,650,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Impact de Montréal,4,2,H,1920,44,642,35320,6,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,New York City FC,1,1,D,1920,44,658,651,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,FC Dallas,2,1,H,1920,44,663,643,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,New York RB,0,2,A,1920,44,660,4201,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,D.C. United,1,1,D,1920,44,654,645,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Portland Timbers,1,3,A,1920,44,640,648,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Houston Dynamo,1,0,H,1920,44,661,652,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Columbus Crew,3,2,H,1920,44,659,641,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Seattle Sounders,3,2,H,1920,44,656,653,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,San Jose Earthquakes,1,2,A,1920,44,655,647,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Minnesota United FC,3,0,H,1920,44,650,661,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Real Salt Lake,2,1,H,1920,44,35320,662,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Chicago Fire,3,3,D,1920,44,645,658,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Colorado Rapids,1,1,D,1920,44,640,659,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Los Angeles Galaxy,0,2,A,1920,44,656,1950,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Toronto FC,1,1,D,1920,44,663,655,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Orlando City,0,3,A,1920,44,35320,649,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Chicago Fire,2,0,H,1920,44,650,658,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Real Salt Lake,4,0,H,1920,44,4201,662,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,New York City FC,2,2,D,1920,44,641,651,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,San Jose Earthquakes,1,1,D,1920,44,645,647,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Seattle Sounders,2,1,H,1920,44,643,653,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Sporting Kansas City,1,1,D,1920,44,652,656,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,FC Cincinnati,3,1,H,1920,44,659,660,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Los Angeles FC,2,3,A,1920,44,648,642,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Philadelphia Union,2,3,A,1920,44,661,640,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,New England Revolution,1,2,A,1920,44,1950,654,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Seattle Sounders,2,1,H,1920,44,35320,653,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,FC Cincinnati,5,2,H,1920,44,651,660,7,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Sporting Kansas City,2,2,D,1920,44,655,656,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,FC Dallas,2,2,D,1920,44,647,643,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Minnesota United FC,1,0,H,1920,44,659,661,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Los Angeles Galaxy,0,2,A,1920,44,660,1950,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Toronto FC,3,0,H,1920,44,643,655,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Real Salt Lake,1,1,D,1920,44,658,662,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Colorado Rapids,2,2,D,1920,44,663,659,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Houston Dynamo,4,0,H,1920,44,648,652,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Sporting Kansas City,0,1,A,1920,44,641,656,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Philadelphia Union,1,1,D,1920,44,654,640,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Portland Timbers,2,1,H,1920,44,35320,648,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Orlando City,1,0,H,1920,44,645,649,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Atlanta United FC,3,2,H,1920,44,655,650,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Vancouver Whitecaps,2,2,D,1920,44,643,663,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Houston Dynamo,2,0,H,1920,44,647,652,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Chicago Fire,3,1,H,1920,44,4201,658,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,New York RB,4,3,H,1920,44,640,4201,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Vancouver Whitecaps,6,1,H,1920,44,642,663,7,5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Real Salt Lake,1,0,H,1920,44,647,662,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,New York RB,3,3,D,1920,44,650,4201,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Orlando City,2,2,D,1920,44,640,649,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Portland Timbers,0,1,A,1920,44,651,648,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,New England Revolution,2,2,D,1920,44,645,654,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Los Angeles FC,1,3,A,1920,44,652,642,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,San Jose Earthquakes,1,3,A,1920,44,1950,647,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Toronto FC,0,2,A,1920,44,35320,655,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Columbus Crew,1,0,H,1920,44,649,641,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,FC Cincinnati,1,2,A,1920,44,658,660,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,FC Dallas,1,0,H,1920,44,661,643,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Philadelphia Union,4,0,H,1920,44,662,640,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Sporting Kansas City,0,3,A,1920,44,663,656,3,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Colorado Rapids,2,2,D,1920,44,648,659,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Atlanta United FC,2,1,H,1920,44,653,650,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,New York City FC,2,1,H,1920,44,4201,651,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Houston Dynamo,5,0,H,1920,44,650,652,5,5,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Vancouver Whitecaps,4,0,H,1920,44,654,663,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,New York RB,3,1,H,1920,44,655,4201,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Columbus Crew,2,2,D,1920,44,658,641,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,D.C. United,1,4,A,1920,44,660,645,5,-3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Orlando City,1,1,D,1920,44,648,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Los Angeles FC,3,2,H,1920,44,1950,642,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Impact de Montréal,2,1,H,1920,44,641,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Chicago Fire,2,0,H,1920,44,640,658,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Houston Dynamo,1,3,A,1920,44,655,652,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,FC Dallas,0,2,A,1920,44,656,643,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,New York City FC,1,2,A,1920,44,659,651,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Minnesota United FC,1,1,D,1920,44,662,661,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,San Jose Earthquakes,1,3,A,1920,44,663,647,4,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,D.C. United,2,0,H,1920,44,650,645,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,New England Revolution,0,2,A,1920,44,660,654,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,New York RB,0,1,A,1920,44,649,4201,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Portland Timbers,1,2,A,1920,44,653,648,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Sporting Kansas City,3,1,H,1920,44,651,656,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Atlanta United FC,4,3,H,1920,44,642,650,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Orlando City,4,1,H,1920,44,654,649,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Columbus Crew,2,3,A,1920,44,4201,641,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,D.C. United,0,0,D,1920,44,658,645,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Real Salt Lake,0,0,D,1920,44,643,662,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Seattle Sounders,0,1,A,1920,44,652,653,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Vancouver Whitecaps,0,0,D,1920,44,661,663,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Philadelphia Union,4,0,H,1920,44,35320,640,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,FC Cincinnati,2,1,H,1920,44,655,660,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Colorado Rapids,3,1,H,1920,44,647,659,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Los Angeles Galaxy,4,0,H,1920,44,648,1950,4,4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,Los Angeles Galaxy,3,0,H,1920,44,650,1950,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Toronto FC,2,0,H,1920,44,4201,655,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Los Angeles FC,0,2,A,1920,44,654,642,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,FC Dallas,2,0,H,1920,44,649,643,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Vancouver Whitecaps,1,2,A,1920,44,660,663,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,Impact de Montréal,6,3,H,1920,44,659,35320,9,3,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,Houston Dynamo,Chicago Fire,0,1,A,1920,44,652,658,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,New York City FC,3,1,H,1920,44,662,651,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Columbus Crew,1,1,D,1920,44,647,641,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Portland Timbers,1,0,H,1920,44,661,648,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Philadelphia Union,1,5,A,1920,44,645,640,6,-4,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,Sporting Kansas City,2,3,A,1920,44,653,656,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Houston Dynamo,3,2,H,1920,44,651,652,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,New England Revolution,3,3,D,1920,44,653,654,6,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,FC Cincinnati,2,2,D,1920,44,641,660,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Toronto FC,Orlando City,1,1,D,1920,44,655,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Minnesota United FC,5,3,H,1920,44,643,661,8,2,2019.0,3.0,5.0,1,0
+2019-03-02,USA1,Sporting Kansas City,Real Salt Lake,1,2,A,1920,44,656,662,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Impact de Montréal,3,2,H,1920,44,658,35320,5,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,San Jose Earthquakes,2,1,H,1920,44,659,647,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Vancouver Whitecaps,3,1,H,1920,44,648,663,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,New York City FC,2,1,H,1920,44,650,651,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Philadelphia Union,Houston Dynamo,2,1,H,1920,44,640,652,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Los Angeles Galaxy,2,1,H,1920,44,645,1950,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,New York RB,4,2,H,1920,44,642,4201,6,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Orlando City,Sporting Kansas City,1,0,H,1920,44,649,656,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Colorado Rapids,1,0,H,1920,44,661,659,1,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Seattle Sounders,3,0,H,1920,44,662,653,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,New York RB,0,2,A,1920,44,648,4201,2,-2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,San Jose Earthquakes,3,1,H,1920,44,650,647,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Vancouver Whitecaps,Columbus Crew,1,1,D,1920,44,663,641,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Chicago Fire,0,0,D,1920,44,660,658,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,Real Salt Lake,0,0,D,1920,44,654,662,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Orlando City,2,1,H,1920,44,652,649,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Colorado Rapids,2,3,A,1920,44,656,659,5,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Impact de Montréal,2,1,H,1920,44,1950,35320,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Toronto FC,1,1,D,1920,44,642,655,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,Minnesota United FC,0,0,D,1920,44,648,661,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,New York City FC,1,1,D,1920,44,643,651,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,Philadelphia Union,2,0,H,1920,44,4201,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,Seattle Sounders,2,0,H,1920,44,645,653,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York City FC,Atlanta United FC,4,1,H,1920,44,651,650,5,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Sporting Kansas City,2,1,H,1920,44,661,656,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Los Angeles Galaxy,1,2,A,1920,44,662,1950,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles FC,Houston Dynamo,3,1,H,1920,44,642,652,4,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Portland Timbers,New England Revolution,2,2,D,1920,44,648,654,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Philadelphia Union,1,2,A,1920,44,647,640,3,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Chicago Fire,Toronto FC,2,2,D,1920,44,658,655,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Cincinnati,Orlando City,1,1,D,1920,44,660,649,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Columbus Crew,Philadelphia Union,2,0,H,1920,44,641,640,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Impact de Montréal,Atlanta United FC,1,1,D,1920,44,35320,650,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New England Revolution,New York City FC,2,0,H,1920,44,654,651,2,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,New York RB,D.C. United,0,0,D,1920,44,4201,645,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Colorado Rapids,FC Dallas,3,0,H,1920,44,659,643,3,3,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Los Angeles Galaxy,Vancouver Whitecaps,3,4,A,1920,44,1950,663,7,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Minnesota United FC,Los Angeles FC,1,1,D,1920,44,661,642,2,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Real Salt Lake,Houston Dynamo,2,1,H,1920,44,662,652,3,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,San Jose Earthquakes,Seattle Sounders,0,1,A,1920,44,647,653,1,-1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Sporting Kansas City,Portland Timbers,2,2,D,1920,44,656,648,4,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,D.C. United,FC Cincinnati,0,0,D,1920,44,645,660,0,0,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,FC Dallas,Sporting Kansas City,6,0,H,1920,44,643,656,6,6,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Houston Dynamo,Los Angeles Galaxy,4,2,H,1920,44,652,1950,6,2,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Seattle Sounders,FC Dallas,4,3,H,1920,44,653,643,7,1,2019.0,3.0,5.0,0,0
+2019-03-02,USA1,Atlanta United FC,New England Revolution,1,0,H,1920,44,650,654,1,1,2019.0,3.0,5.0,0,0
+2020-02-29,USA1,Orlando City,New England Revolution,1,3,A,2021,44,649,654,4,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Nashville SC,2,0,H,2021,44,641,665,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,FC Dallas,1,0,H,2021,44,653,643,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,Minnesota United FC,0,3,A,2021,44,656,661,3,-3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,New England Revolution,1,0,H,2021,44,641,654,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Minnesota United FC,3,2,H,2021,44,653,661,5,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Seattle Sounders,3,0,H,2021,44,641,653,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Los Angeles FC,3,1,H,2021,44,653,642,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles FC,Portland Timbers,4,2,H,2021,44,642,648,6,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Dallas,Colorado Rapids,4,1,H,2021,44,643,659,5,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,San Jose Earthquakes,Los Angeles Galaxy,2,1,H,2021,44,647,1950,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,FC Dallas,2,3,A,2021,44,656,643,5,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New England Revolution,New York City FC,0,0,D,2021,44,654,651,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Atlanta United FC,Inter Miami CF,1,2,A,2021,44,650,646,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York RB,FC Cincinnati,0,1,A,2021,44,4201,660,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Orlando City,Chicago Fire,4,1,H,2021,44,649,658,5,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,D.C. United,Toronto FC,2,2,D,2021,44,645,655,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Houston Dynamo,Minnesota United FC,2,2,D,2021,44,652,661,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Real Salt Lake,Vancouver Whitecaps,1,2,A,2021,44,662,663,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,San Jose Earthquakes,Portland Timbers,1,6,A,2021,44,647,648,7,-5,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles Galaxy,Colorado Rapids,0,2,A,2021,44,1950,659,2,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Impact de Montréal,Philadelphia Union,1,4,A,2021,44,35320,640,5,-3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New England Revolution,Impact de Montréal,3,1,H,2021,44,654,35320,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York City FC,Toronto FC,0,1,A,2021,44,651,655,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Atlanta United FC,FC Dallas,1,0,H,2021,44,650,643,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Chicago Fire,Houston Dynamo,4,0,H,2021,44,658,652,4,4,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Cincinnati,Philadelphia Union,0,0,D,2021,44,660,640,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Minnesota United FC,2,1,H,2021,44,641,661,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,Orlando City,1,2,A,2021,44,656,649,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Inter Miami CF,New York RB,1,4,A,2021,44,646,4201,5,-3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Nashville SC,D.C. United,1,0,H,2021,44,665,645,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Colorado Rapids,San Jose Earthquakes,5,0,H,2021,44,659,647,5,5,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Real Salt Lake,Los Angeles Galaxy,2,0,H,2021,44,662,1950,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Portland Timbers,Seattle Sounders,1,0,H,2021,44,648,653,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles FC,Vancouver Whitecaps,6,0,H,2021,44,642,663,6,6,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Nashville SC,Houston Dynamo,1,1,D,2021,44,665,652,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York City FC,FC Cincinnati,4,0,H,2021,44,651,660,4,4,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,D.C. United,New England Revolution,0,2,A,2021,44,645,654,2,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York RB,Impact de Montréal,4,1,H,2021,44,4201,35320,5,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Philadelphia Union,Inter Miami CF,3,0,H,2021,44,640,646,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Chicago Fire,Atlanta United FC,2,0,H,2021,44,658,650,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Toronto FC,Columbus Crew,3,1,H,2021,44,655,641,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Minnesota United FC,Real Salt Lake,0,0,D,2021,44,661,662,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Dallas,Orlando City,0,0,D,2021,44,643,649,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Vancouver Whitecaps,Portland Timbers,0,1,A,2021,44,663,648,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles Galaxy,Seattle Sounders,1,3,A,2021,44,1950,653,4,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles FC,San Jose Earthquakes,1,2,A,2021,44,642,647,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Orlando City,New York RB,3,1,H,2021,44,649,4201,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,D.C. United,Atlanta United FC,0,4,A,2021,44,645,650,4,-4,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Impact de Montréal,Chicago Fire,2,2,D,2021,44,35320,658,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New England Revolution,Nashville SC,0,0,D,2021,44,654,665,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Toronto FC,Philadelphia Union,2,1,H,2021,44,655,640,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Houston Dynamo,Sporting Kansas City,1,2,A,2021,44,652,656,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Inter Miami CF,New York City FC,2,3,A,2021,44,646,651,5,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Minnesota United FC,FC Cincinnati,2,0,H,2021,44,661,660,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Dallas,Columbus Crew,2,2,D,2021,44,643,641,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Vancouver Whitecaps,3,1,H,2021,44,653,663,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Real Salt Lake,Los Angeles FC,1,3,A,2021,44,662,642,4,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Nashville SC,Minnesota United FC,0,0,D,2021,44,665,661,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Atlanta United FC,Orlando City,0,0,D,2021,44,650,649,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York RB,Inter Miami CF,1,2,A,2021,44,4201,646,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New England Revolution,Toronto FC,0,1,A,2021,44,654,655,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Philadelphia Union,FC Cincinnati,3,0,H,2021,44,640,660,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Impact de Montréal,1,2,A,2021,44,641,35320,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York City FC,D.C. United,4,1,H,2021,44,651,645,5,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Houston Dynamo,FC Dallas,2,0,H,2021,44,652,643,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,Chicago Fire,1,0,H,2021,44,656,658,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Real Salt Lake,2,1,H,2021,44,653,662,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles Galaxy,Portland Timbers,3,6,A,2021,44,1950,648,9,-3,2020.0,2.0,5.0,1,0
+2020-02-29,USA1,San Jose Earthquakes,Vancouver Whitecaps,3,0,H,2021,44,647,663,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Inter Miami CF,Houston Dynamo,1,0,H,2021,44,646,652,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Atlanta United FC,New York RB,0,1,A,2021,44,650,4201,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Vancouver Whitecaps,Real Salt Lake,2,1,H,2021,44,663,662,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York City FC,New England Revolution,1,2,A,2021,44,651,654,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles FC,Seattle Sounders,3,1,H,2021,44,642,653,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Chicago Fire,D.C. United,2,1,H,2021,44,658,645,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Cincinnati,Toronto FC,0,1,A,2021,44,660,655,1,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Philadelphia Union,Impact de Montréal,2,1,H,2021,44,640,35320,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,Nashville SC,2,1,H,2021,44,656,665,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Portland Timbers,San Jose Earthquakes,3,0,H,2021,44,648,647,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Impact de Montréal,New England Revolution,2,3,A,2021,44,35320,654,5,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Cincinnati,Columbus Crew,2,1,H,2021,44,660,641,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Orlando City,New York City FC,1,1,D,2021,44,649,651,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Toronto FC,New York RB,1,1,D,2021,44,655,4201,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,D.C. United,Philadelphia Union,2,2,D,2021,44,645,640,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Houston Dynamo,Nashville SC,1,3,A,2021,44,652,665,4,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Inter Miami CF,Atlanta United FC,1,1,D,2021,44,646,650,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Dallas,Sporting Kansas City,1,0,H,2021,44,643,656,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Real Salt Lake,Portland Timbers,2,1,H,2021,44,662,648,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Vancouver Whitecaps,Los Angeles FC,2,1,H,2021,44,663,642,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles Galaxy,San Jose Earthquakes,0,4,A,2021,44,1950,647,4,-4,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Chicago Fire,Sporting Kansas City,2,2,D,2021,44,658,656,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Impact de Montréal,Inter Miami CF,2,1,H,2021,44,35320,646,3,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,New York City FC,3,1,H,2021,44,641,651,4,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New York RB,Orlando City,1,1,D,2021,44,4201,649,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,FC Cincinnati,D.C. United,1,2,A,2021,44,660,645,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Toronto FC,Atlanta United FC,1,0,H,2021,44,655,650,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Minnesota United FC,Houston Dynamo,2,2,D,2021,44,661,652,4,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Portland Timbers,Los Angeles FC,1,1,D,2021,44,648,642,2,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Los Angeles Galaxy,Vancouver Whitecaps,1,0,H,2021,44,1950,663,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,San Jose Earthquakes,Seattle Sounders,0,0,D,2021,44,647,653,0,0,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,New England Revolution,Philadelphia Union,1,2,A,2021,44,654,640,3,-1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Nashville SC,FC Dallas,3,0,H,2021,44,665,643,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Portland Timbers,1,1,D,2021,44,653,648,2,0,2020.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Columbus Crew,3,3,D,2223,44,647,641,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Inter Miami CF,5,1,H,2223,44,644,646,6,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Portland Timbers,1,1,D,2223,44,642,648,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Toronto FC,2,1,H,2223,44,641,655,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Los Angeles FC,0,2,A,2223,44,646,642,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Vancouver Whitecaps,2,1,H,2223,44,652,663,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Chicago Fire,0,2,A,2223,44,645,658,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Real Salt Lake,2,3,A,2223,44,654,662,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,FC Cincinnati,1,2,A,2223,44,649,660,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,San Jose Earthquakes,2,0,H,2223,44,640,647,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Sporting Kansas City,2,0,H,2223,44,659,656,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Austin FC,1,0,H,2223,44,648,644,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Charlotte FC,2,1,H,2223,44,650,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Minnesota United FC,0,1,A,2223,44,651,661,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Inter Miami CF,3,1,H,2223,44,660,646,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Philadelphia Union,0,2,A,2223,44,651,640,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,D.C. United,2,1,H,2223,44,655,645,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Orlando City,0,1,A,2223,44,642,649,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,CF Montréal,3,3,D,2223,44,650,657,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Sporting Kansas City,3,1,H,2223,44,658,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,New England Revolution,3,1,H,2223,44,664,654,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,San Jose Earthquakes,1,0,H,2223,44,661,647,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Portland Timbers,4,1,H,2223,44,643,648,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Colorado Rapids,1,1,D,2223,44,652,659,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Nashville SC,2,1,H,2223,44,662,665,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Los Angeles FC,1,1,D,2223,44,653,642,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Seattle Sounders,1,1,D,2223,44,644,653,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Vancouver Whitecaps,3,1,H,2223,44,642,663,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,FC Cincinnati,2,0,H,2223,44,664,660,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Real Salt Lake,1,0,H,2223,44,656,662,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Orlando City,1,1,D,2223,44,648,649,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,FC Dallas,0,0,D,2223,44,658,643,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,CF Montréal,3,4,A,2223,44,660,657,7,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,New York City FC,2,1,H,2223,44,655,651,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Nashville SC,0,1,A,2223,44,641,665,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Atlanta United FC,0,1,A,2223,44,645,650,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,New York City FC,0,1,A,2223,44,654,651,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Los Angeles FC,2,4,A,2223,44,649,642,6,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Charlotte FC,2,0,H,2223,44,640,664,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Austin FC,2,2,D,2223,44,647,644,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Houston Dynamo,1,3,A,2223,44,646,652,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Seattle Sounders,1,2,A,2223,44,661,653,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Sporting Kansas City,1,0,H,2223,44,663,656,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Real Salt Lake,1,1,D,2223,44,659,662,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Los Angeles FC,1,3,A,2223,44,648,642,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Chicago Fire,1,0,H,2223,44,649,658,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,New England Revolution,3,2,H,2223,44,646,654,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Columbus Crew,1,0,H,2223,44,640,641,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Los Angeles FC,2,1,H,2223,44,642,642,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Toronto FC,2,2,D,2223,44,662,655,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Colorado Rapids,3,1,H,2223,44,643,659,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,San Jose Earthquakes,4,3,H,2223,44,652,647,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Nashville SC,1,2,A,2223,44,656,665,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Portland Timbers,2,3,A,2223,44,663,648,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Atlanta United FC,1,0,H,2223,44,664,650,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Minnesota United FC,1,0,H,2223,44,644,661,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Vancouver Whitecaps,2,1,H,2223,44,657,663,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Nashville SC,2,2,D,2223,44,647,665,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,FC Cincinnati,0,0,D,2223,44,650,660,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Portland Timbers,0,0,D,2223,44,652,648,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,FC Dallas,0,0,D,2223,44,651,643,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Orlando City,0,2,A,2223,44,641,649,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Austin FC,2,3,A,2223,44,645,644,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Charlotte FC,2,1,H,2223,44,654,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Philadelphia Union,2,1,H,2223,44,655,640,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Los Angeles FC,0,0,D,2223,44,658,642,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Colorado Rapids,3,1,H,2223,44,661,659,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Inter Miami CF,0,1,A,2223,44,653,646,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Real Salt Lake,6,0,H,2223,44,651,662,6,6,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Sporting Kansas City,3,1,H,2223,44,642,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Houston Dynamo,2,1,H,2223,44,643,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Minnesota United FC,1,1,D,2223,44,640,661,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Vancouver Whitecaps,4,0,H,2223,44,641,663,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Colorado Rapids,3,0,H,2223,44,642,659,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Toronto FC,1,1,D,2223,44,643,655,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,FC Cincinnati,5,0,H,2223,44,644,660,5,5,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Charlotte FC,3,0,H,2223,44,645,664,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Chicago Fire,0,0,D,2223,44,646,658,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,New York City FC,1,3,A,2223,44,647,651,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,New England Revolution,2,2,D,2223,44,648,654,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,CF Montréal,2,0,H,2223,44,649,657,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Sporting Kansas City,3,1,H,2223,44,650,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,New York City FC,1,0,H,2223,44,642,651,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Real Salt Lake,0,0,D,2223,44,652,662,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Nashville SC,0,1,A,2223,44,653,665,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,FC Dallas,1,0,H,2223,44,654,643,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Houston Dynamo,1,0,H,2223,44,656,652,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Philadelphia Union,1,2,A,2223,44,657,640,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Orlando City,0,0,D,2223,44,658,649,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Atlanta United FC,3,0,H,2223,44,659,650,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,D.C. United,0,1,A,2223,44,660,645,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Nashville SC,1,1,D,2223,44,661,665,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Seattle Sounders,1,0,H,2223,44,662,653,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,New York City FC,0,0,D,2223,44,663,651,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Los Angeles FC,0,1,A,2223,44,664,642,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Nashville SC,2,0,H,2223,44,643,665,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,CF Montréal,4,1,H,2223,44,651,657,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,New York RB,1,3,A,2223,44,647,4201,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,New York City FC,1,0,H,2223,44,1950,651,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,New York RB,1,4,A,2223,44,655,4201,5,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Los Angeles Galaxy,0,1,A,2223,44,664,1950,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Los Angeles Galaxy,3,2,H,2223,44,653,1950,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Minnesota United FC,0,1,A,2223,44,4201,661,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Orlando City,0,1,A,2223,44,1950,649,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Columbus Crew,1,1,D,2223,44,4201,641,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,New York RB,0,1,A,2223,44,654,4201,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Los Angeles Galaxy,1,3,A,2223,44,648,1950,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,CF Montréal,1,2,A,2223,44,4201,657,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Los Angeles FC,2,1,H,2223,44,1950,642,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,FC Dallas,0,0,D,2223,44,4201,643,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Los Angeles Galaxy,0,0,D,2223,44,658,1950,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Portland Timbers,1,1,D,2223,44,1950,648,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Toronto FC,2,0,H,2223,44,4201,655,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Austin FC,0,1,A,2223,44,657,644,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Charlotte FC,1,1,D,2223,44,641,664,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Houston Dynamo,2,1,H,2223,44,649,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,FC Cincinnati,1,1,D,2223,44,640,660,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,D.C. United,1,0,H,2223,44,658,645,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Vancouver Whitecaps,0,2,A,2223,44,643,663,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,San Jose Earthquakes,2,0,H,2223,44,662,647,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Inter Miami CF,2,0,H,2223,44,650,646,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Minnesota United FC,2,1,H,2223,44,654,661,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Colorado Rapids,1,1,D,2223,44,651,659,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Sporting Kansas City,1,2,A,2223,44,665,656,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Orlando City,1,0,H,2223,44,660,649,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Columbus Crew,2,0,H,2223,44,651,641,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,CF Montréal,1,1,D,2223,44,640,657,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Chicago Fire,3,0,H,2223,44,661,658,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,New England Revolution,3,2,H,2223,44,645,654,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Vancouver Whitecaps,3,0,H,2223,44,644,663,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Columbus Crew,0,0,D,2223,44,656,641,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Charlotte FC,0,0,D,2223,44,659,664,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Real Salt Lake,0,0,D,2223,44,648,662,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Seattle Sounders,4,3,H,2223,44,647,653,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Nashville SC,1,0,H,2223,44,1950,665,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Atlanta United FC,2,1,H,2223,44,646,650,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,New York RB,0,3,A,2223,44,649,4201,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Los Angeles FC,1,2,A,2223,44,660,642,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Toronto FC,5,4,H,2223,44,651,655,9,1,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Houston Dynamo,Austin FC,1,2,A,2223,44,652,644,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,FC Cincinnati,1,2,A,2223,44,655,660,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Los Angeles Galaxy,1,0,H,2223,44,662,1950,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Atlanta United FC,2,1,H,2223,44,657,650,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Inter Miami CF,2,0,H,2223,44,654,646,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,D.C. United,3,0,H,2223,44,641,645,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Charlotte FC,2,1,H,2223,44,649,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,New York RB,1,2,A,2223,44,658,4201,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,FC Dallas,2,2,D,2223,44,656,643,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Portland Timbers,2,0,H,2223,44,659,648,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,San Jose Earthquakes,3,0,H,2223,44,651,647,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Philadelphia Union,1,1,D,2223,44,665,640,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Minnesota United FC,2,0,H,2223,44,642,661,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Toronto FC,2,0,H,2223,44,660,655,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Inter Miami CF,1,0,H,2223,44,664,646,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Orlando City,4,1,H,2223,44,657,649,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Chicago Fire,4,1,H,2223,44,650,658,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Sporting Kansas City,0,0,D,2223,44,651,656,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Portland Timbers,1,1,D,2223,44,4201,648,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Houston Dynamo,2,0,H,2223,44,645,652,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Columbus Crew,2,2,D,2223,44,654,641,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,FC Cincinnati,0,1,A,2223,44,661,660,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Seattle Sounders,2,0,H,2223,44,643,653,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Colorado Rapids,1,0,H,2223,44,647,659,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Philadelphia Union,2,2,D,2223,44,642,640,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Toronto FC,1,0,H,2223,44,663,655,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Real Salt Lake,2,0,H,2223,44,665,662,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Los Angeles Galaxy,0,1,A,2223,44,644,1950,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Orlando City,0,1,A,2223,44,655,649,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Los Angeles FC,2,0,H,2223,44,659,642,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,CF Montréal,0,2,A,2223,44,664,657,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,San Jose Earthquakes,3,3,D,2223,44,663,647,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,New York RB,1,1,D,2223,44,640,4201,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,FC Cincinnati,1,2,A,2223,44,658,660,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,D.C. United,2,2,D,2223,44,646,645,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Nashville SC,2,0,H,2223,44,652,665,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Austin FC,2,1,H,2223,44,662,644,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Sporting Kansas City,7,2,H,2223,44,648,656,9,5,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Los Angeles Galaxy,FC Dallas,1,3,A,2223,44,1950,643,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,New England Revolution,2,2,D,2223,44,650,654,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Minnesota United FC,3,1,H,2223,44,653,661,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,New York City FC,0,2,A,2223,44,645,651,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Chicago Fire,3,3,D,2223,44,4201,658,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Inter Miami CF,0,0,D,2223,44,640,646,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Los Angeles Galaxy,1,1,D,2223,44,661,1950,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Seattle Sounders,0,1,A,2223,44,652,653,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,CF Montréal,2,1,H,2223,44,665,657,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Colorado Rapids,2,1,H,2223,44,656,659,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,FC Dallas,2,1,H,2223,44,663,643,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Austin FC,1,2,A,2223,44,642,644,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Portland Timbers,3,2,H,2223,44,647,648,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Los Angeles FC,0,2,A,2223,44,641,642,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,New England Revolution,2,3,A,2223,44,660,654,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Toronto FC,2,2,D,2223,44,645,655,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Atlanta United FC,2,2,D,2223,44,665,650,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Real Salt Lake,1,2,A,2223,44,657,662,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Vancouver Whitecaps,2,1,H,2223,44,664,663,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Chicago Fire,1,0,H,2223,44,651,658,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,New York RB,2,0,H,2223,44,646,4201,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Minnesota United FC,1,2,A,2223,44,643,661,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Sporting Kansas City,1,1,D,2223,44,647,656,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Orlando City,2,2,D,2223,44,644,649,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Seattle Sounders,1,0,H,2223,44,659,653,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Houston Dynamo,0,3,A,2223,44,1950,652,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Philadelphia Union,0,2,A,2223,44,648,640,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,San Jose Earthquakes,3,2,H,2223,44,642,647,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Columbus Crew,1,2,A,2223,44,650,641,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,D.C. United,4,1,H,2223,44,4201,645,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Chicago Fire,3,2,H,2223,44,655,658,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,FC Cincinnati,4,3,H,2223,44,657,660,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Philadelphia Union,1,1,D,2223,44,654,640,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,FC Dallas,1,3,A,2223,44,649,643,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Portland Timbers,2,1,H,2223,44,646,648,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,New York City FC,0,1,A,2223,44,661,651,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Nashville SC,1,3,A,2223,44,659,665,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Vancouver Whitecaps,0,1,A,2223,44,656,663,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Houston Dynamo,3,0,H,2223,44,662,652,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Austin FC,4,1,H,2223,44,1950,644,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Charlotte FC,2,1,H,2223,44,653,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Real Salt Lake,2,1,H,2223,44,663,662,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,New York RB,2,0,H,2223,44,664,4201,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,San Jose Earthquakes,0,0,D,2223,44,665,647,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,New England Revolution,1,2,A,2223,44,656,654,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Vancouver Whitecaps,4,0,H,2223,44,653,663,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Orlando City,1,1,D,2223,44,654,649,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Sporting Kansas City,3,0,H,2223,44,653,656,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Nashville SC,1,3,A,2223,44,645,665,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Charlotte FC,2,1,H,2223,44,657,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Atlanta United FC,2,1,H,2223,44,655,650,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Chicago Fire,2,0,H,2223,44,652,658,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Minnesota United FC,2,1,H,2223,44,646,661,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,FC Dallas,2,2,D,2223,44,644,643,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Columbus Crew,0,0,D,2223,44,662,641,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Colorado Rapids,3,0,H,2223,44,648,659,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,New York RB,2,0,H,2223,44,642,4201,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,New York City FC,2,1,H,2223,44,640,651,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,New England Revolution,0,0,D,2223,44,663,654,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,New York City FC,4,4,D,2223,44,660,651,8,0,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Toronto FC,Columbus Crew,1,2,A,2223,44,655,641,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Philadelphia Union,1,0,H,2223,44,658,640,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,CF Montréal,1,2,A,2223,44,653,657,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,FC Dallas,3,1,H,2223,44,642,643,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Houston Dynamo,2,1,H,2223,44,648,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Minnesota United FC,2,3,A,2223,44,1950,661,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Austin FC,0,1,A,2223,44,664,644,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Atlanta United FC,2,1,H,2223,44,4201,650,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Seattle Sounders,0,2,A,2223,44,655,653,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Los Angeles FC,1,0,H,2223,44,663,642,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Atlanta United FC,2,2,D,2223,44,651,650,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Philadelphia Union,0,0,D,2223,44,641,640,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,FC Cincinnati,2,2,D,2223,44,654,660,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Real Salt Lake,3,2,H,2223,44,661,662,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,New York RB,0,1,A,2223,44,656,4201,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Charlotte FC,1,2,A,2223,44,652,664,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Portland Timbers,2,2,D,2223,44,665,648,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Chicago Fire,2,1,H,2223,44,647,658,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,D.C. United,3,5,A,2223,44,649,645,8,-2,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Colorado Rapids,Austin FC,2,3,A,2223,44,659,644,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Inter Miami CF,1,1,D,2223,44,643,646,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,CF Montréal,4,0,H,2223,44,1950,657,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,D.C. United,7,0,H,2223,44,640,645,7,7,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Los Angeles FC,Los Angeles Galaxy,3,2,H,2223,44,642,1950,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Minnesota United FC,1,3,A,2223,44,663,661,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,New England Revolution,4,2,H,2223,44,651,654,6,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Portland Timbers,0,3,A,2223,44,653,648,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Austin FC,0,3,A,2223,44,650,644,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Nashville SC,4,1,H,2223,44,664,665,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Sporting Kansas City,1,2,A,2223,44,657,656,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,New York RB,1,1,D,2223,44,660,4201,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,San Jose Earthquakes,2,2,D,2223,44,655,647,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Inter Miami CF,1,0,H,2223,44,649,646,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Columbus Crew,2,3,A,2223,44,658,641,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,FC Dallas,2,2,D,2223,44,652,643,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Colorado Rapids,2,2,D,2223,44,662,659,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Houston Dynamo,3,1,H,2223,44,644,652,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Real Salt Lake,2,1,H,2223,44,650,662,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Toronto FC,2,0,H,2223,44,658,655,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Columbus Crew,2,2,D,2223,44,645,641,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Vancouver Whitecaps,2,2,D,2223,44,660,663,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Philadelphia Union,1,2,A,2223,44,646,640,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Sporting Kansas City,1,1,D,2223,44,661,656,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Seattle Sounders,1,0,H,2223,44,665,653,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Orlando City,1,1,D,2223,44,659,649,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,New York City FC,0,1,A,2223,44,643,651,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,San Jose Earthquakes,2,3,A,2223,44,1950,647,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Toronto FC,1,0,H,2223,44,657,655,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,New England Revolution,2,1,H,2223,44,640,654,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Seattle Sounders,1,0,H,2223,44,658,653,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Charlotte FC,3,2,H,2223,44,646,664,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,D.C. United,2,0,H,2223,44,661,645,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Los Angeles Galaxy,2,0,H,2223,44,659,1950,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Austin FC,1,1,D,2223,44,643,644,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Orlando City,1,1,D,2223,44,650,649,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,New York City FC,0,1,A,2223,44,4201,651,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,FC Cincinnati,2,0,H,2223,44,641,660,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Los Angeles FC,1,2,A,2223,44,665,642,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Sporting Kansas City,3,0,H,2223,44,662,656,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Houston Dynamo,1,2,A,2223,44,647,652,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Vancouver Whitecaps,1,1,D,2223,44,648,663,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Inter Miami CF,2,0,H,2223,44,651,646,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,New England Revolution,0,0,D,2223,44,641,654,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Nashville SC,1,1,D,2223,44,660,665,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Philadelphia Union,0,1,A,2223,44,649,640,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Charlotte FC,4,0,H,2223,44,655,664,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,CF Montréal,1,2,A,2223,44,645,657,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Minnesota United FC,1,2,A,2223,44,652,661,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Los Angeles FC,0,2,A,2223,44,656,642,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,FC Dallas,0,1,A,2223,44,662,643,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Colorado Rapids,2,1,H,2223,44,653,659,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Chicago Fire,1,3,A,2223,44,663,658,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,San Jose Earthquakes,2,1,H,2223,44,648,647,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,New York RB,3,4,A,2223,44,644,4201,7,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Atlanta United FC,2,0,H,2223,44,1950,650,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Seattle Sounders,2,1,H,2223,44,642,653,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Portland Timbers,4,4,D,2223,44,661,648,8,0,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Chicago Fire,Atlanta United FC,0,0,D,2223,44,658,650,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,New York City FC,0,0,D,2223,44,657,651,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Houston Dynamo,6,0,H,2223,44,640,652,6,6,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,FC Cincinnati,4,4,D,2223,44,646,660,8,0,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Nashville SC,Vancouver Whitecaps,1,1,D,2223,44,665,663,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Toronto FC,0,0,D,2223,44,654,655,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Austin FC,0,2,A,2223,44,656,644,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Los Angeles Galaxy,1,0,H,2223,44,643,1950,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Real Salt Lake,2,2,D,2223,44,647,662,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Orlando City,2,1,H,2223,44,645,649,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Colorado Rapids,4,5,A,2223,44,4201,659,9,-1,2022.0,2.0,5.0,1,0
+2022-02-26,USA1,Seattle Sounders,FC Dallas,1,0,H,2223,44,653,643,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,D.C. United,3,0,H,2223,44,664,645,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,CF Montréal,1,2,A,2223,44,641,657,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Nashville SC,1,1,D,2223,44,648,665,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Inter Miami CF,0,1,A,2223,44,647,646,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Houston Dynamo,2,1,H,2223,44,663,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Seattle Sounders,2,1,H,2223,44,650,653,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Chicago Fire,2,3,A,2223,44,664,658,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Inter Miami CF,2,2,D,2223,44,657,646,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,New York City FC,3,2,H,2223,44,641,651,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,New York RB,0,0,D,2223,44,645,4201,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Philadelphia Union,3,1,H,2223,44,660,640,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,New England Revolution,0,3,A,2223,44,649,654,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Toronto FC,3,4,A,2223,44,665,655,7,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Los Angeles Galaxy,4,2,H,2223,44,656,1950,6,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,San Jose Earthquakes,3,3,D,2223,44,644,647,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Minnesota United FC,4,3,H,2223,44,659,661,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Los Angeles FC,1,4,A,2223,44,662,642,5,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,FC Dallas,1,1,D,2223,44,648,643,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Orlando City,0,1,A,2223,44,4201,649,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Atlanta United FC,2,2,D,2223,44,660,650,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,D.C. United,1,0,H,2223,44,654,645,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Chicago Fire,4,1,H,2223,44,640,658,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Portland Timbers,3,1,H,2223,44,655,648,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,New York City FC,3,2,H,2223,44,646,651,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Sporting Kansas City,4,3,H,2223,44,644,656,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Columbus Crew,1,1,D,2223,44,659,641,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,San Jose Earthquakes,4,1,H,2223,44,643,647,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,CF Montréal,2,3,A,2223,44,652,657,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Vancouver Whitecaps,5,2,H,2223,44,1950,663,7,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Charlotte FC,5,0,H,2223,44,642,664,5,5,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Minnesota United FC,1,2,A,2223,44,665,661,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Real Salt Lake,1,2,A,2223,44,653,662,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,D.C. United,1,0,H,2223,44,642,645,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,New York RB,1,2,A,2223,44,650,4201,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,New England Revolution,2,2,D,2223,44,655,654,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Charlotte FC,1,3,A,2223,44,651,664,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Philadelphia Union,1,0,H,2223,44,643,640,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Colorado Rapids,2,1,H,2223,44,663,659,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles Galaxy,Seattle Sounders,3,3,D,2223,44,1950,653,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,FC Cincinnati,1,1,D,2223,44,4201,660,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,New England Revolution,4,0,H,2223,44,657,654,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Philadelphia Union,0,6,A,2223,44,645,640,6,-6,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Toronto FC,2,1,H,2223,44,646,655,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Austin FC,2,1,H,2223,44,661,644,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Houston Dynamo,1,1,D,2223,44,659,652,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Vancouver Whitecaps,1,1,D,2223,44,662,663,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Los Angeles FC,2,1,H,2223,44,647,642,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,New York City FC,0,2,A,2223,44,658,651,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Atlanta United FC,2,2,D,2223,44,641,650,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Orlando City,1,2,A,2223,44,664,649,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Portland Timbers,4,1,H,2223,44,656,648,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,FC Dallas,4,0,H,2223,44,665,643,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Los Angeles FC,4,1,H,2223,44,644,642,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Seattle Sounders,2,1,H,2223,44,648,653,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Houston Dynamo,2,1,H,2223,44,661,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Inter Miami CF,3,1,H,2223,44,4201,646,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Columbus Crew,2,2,D,2223,44,660,641,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Colorado Rapids,6,0,H,2223,44,640,659,6,6,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,CF Montréal,0,2,A,2223,44,658,657,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Toronto FC,0,2,A,2223,44,664,655,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,San Jose Earthquakes,1,0,H,2223,44,656,647,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Real Salt Lake,1,1,D,2223,44,643,662,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Nashville SC,0,3,A,2223,44,663,665,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,D.C. United,3,2,H,2223,44,650,645,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,New York City FC,2,1,H,2223,44,649,651,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Los Angeles Galaxy,1,2,A,2223,44,654,1950,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Atlanta United FC,4,1,H,2223,44,640,650,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,New York RB,0,1,A,2223,44,657,4201,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Inter Miami CF,1,0,H,2223,44,641,646,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Chicago Fire,0,0,D,2223,44,654,658,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Los Angeles Galaxy,2,2,D,2223,44,655,1950,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Los Angeles FC,2,1,H,2223,44,652,642,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Colorado Rapids,4,1,H,2223,44,665,659,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Seattle Sounders,3,2,H,2223,44,649,653,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Minnesota United FC,3,0,H,2223,44,662,661,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Portland Timbers,1,2,A,2223,44,644,648,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,D.C. United,1,2,A,2223,44,651,645,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,FC Dallas,0,3,A,2223,44,661,643,3,-3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Chicago Fire,0,0,D,2223,44,641,658,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York RB,Philadelphia Union,0,2,A,2223,44,4201,640,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Charlotte FC,2,0,H,2223,44,660,664,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Nashville SC,Austin FC,3,0,H,2223,44,665,644,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Atlanta United FC,2,1,H,2223,44,648,650,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Colorado Rapids,0,0,D,2223,44,645,659,0,0,2022.0,2.0,5.0,0,0

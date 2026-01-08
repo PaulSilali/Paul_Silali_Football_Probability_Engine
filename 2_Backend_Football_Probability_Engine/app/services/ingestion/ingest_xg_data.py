@@ -13,6 +13,10 @@ from pathlib import Path
 import pandas as pd
 import logging
 import numpy as np
+from app.services.ingestion.draw_structural_validation import (
+    DrawStructuralValidator,
+    validate_before_insert
+)
 
 logger = logging.getLogger(__name__)
 
@@ -122,6 +126,121 @@ def ingest_xg_for_fixture(
             "fixture_id": fixture_id,
             "error": str(e)
         }
+
+
+def ingest_xg_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest xG data from CSV file in our format.
+    
+    CSV Format: match_id,xg_home,xg_away,xg_total,xg_draw_index
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['match_id', 'xg_home', 'xg_away']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                match_id = int(row['match_id'])
+                xg_home = float(row['xg_home']) if pd.notna(row['xg_home']) else 0.0
+                xg_away = float(row['xg_away']) if pd.notna(row['xg_away']) else 0.0
+                
+                # Use xg_total and xg_draw_index from CSV if available, otherwise calculate
+                xg_total = float(row.get('xg_total', xg_home + xg_away)) if pd.notna(row.get('xg_total')) else (xg_home + xg_away)
+                xg_draw_index = float(row.get('xg_draw_index', calculate_xg_draw_index(xg_total))) if pd.notna(row.get('xg_draw_index')) else calculate_xg_draw_index(xg_total)
+                
+                # Verify match exists
+                from app.db.models import Match
+                match = db.query(Match).filter(Match.id == match_id).first()
+                if not match:
+                    logger.warning(f"Match ID {match_id} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update in match_xg_historical
+                from sqlalchemy import text
+                existing = db.execute(
+                    text("""
+                        SELECT id FROM match_xg_historical 
+                        WHERE match_id = :match_id
+                    """),
+                    {"match_id": match_id}
+                ).fetchone()
+                
+                if existing:
+                    db.execute(
+                        text("""
+                            UPDATE match_xg_historical 
+                            SET xg_home = :xg_home,
+                                xg_away = :xg_away,
+                                xg_total = :xg_total,
+                                xg_draw_index = :xg_draw_index
+                            WHERE match_id = :match_id
+                        """),
+                        {
+                            "match_id": match_id,
+                            "xg_home": xg_home,
+                            "xg_away": xg_away,
+                            "xg_total": xg_total,
+                            "xg_draw_index": xg_draw_index
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO match_xg_historical 
+                            (match_id, xg_home, xg_away, xg_total, xg_draw_index)
+                            VALUES (:match_id, :xg_home, :xg_away, :xg_total, :xg_draw_index)
+                        """),
+                        {
+                            "match_id": match_id,
+                            "xg_home": xg_home,
+                            "xg_away": xg_away,
+                            "xg_total": xg_total,
+                            "xg_draw_index": xg_draw_index
+                        }
+                    )
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing xG row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested xG data from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting xG data from CSV: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
 
 
 def ingest_xg_for_match(
@@ -369,17 +488,17 @@ def _save_xg_csv_batch(
         return None
     
     try:
-        backend_root = Path(__file__).parent.parent.parent
-        csv_dir = backend_root / "data" / "1_data_ingestion" / "Draw_structural" / "xG_Data"
-        csv_dir.mkdir(parents=True, exist_ok=True)
-        
         df = pd.DataFrame(xg_records)
         filename = f"{league_code}_{season}_xg_data.csv"
-        filepath = csv_dir / filename
         
-        df.to_csv(filepath, index=False)
-        logger.info(f"Saved xG CSV to: {filepath.absolute()}")
-        return filepath
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "xG_Data", filename, save_to_cleaned=True
+        )
+        
+        logger.info(f"Saved xG CSV: {filename}")
+        return ingestion_path
     except Exception as e:
         logger.error(f"Failed to save xG CSV: {e}")
         return None

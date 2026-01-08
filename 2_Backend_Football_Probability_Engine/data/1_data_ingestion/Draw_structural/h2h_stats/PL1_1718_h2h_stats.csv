@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9064,Portimonense,9067,Maritimo,1718,2,0,0.0,3.0
+9059,Guimaraes,9060,Benfica,1718,2,0,0.0,3.0
+9060,Benfica,9062,Boavista,1718,2,0,0.0,3.5
+9062,Boavista,9068,Pacos Ferreira,1718,2,0,0.0,2.0
+9066,Chaves,9068,Pacos Ferreira,1718,2,0,0.0,4.0
+9053,Moreirense,9067,Maritimo,1718,2,2,1.0,2.0
+9055,Sp Braga,9062,Boavista,1718,2,1,0.5,3.0
+9050,AVS,9058,Porto,1718,2,1,0.5,2.0
+9046,Sp Lisbon,9070,Setubal,1718,2,1,0.5,1.5
+9053,Moreirense,9059,Guimaraes,1718,2,0,0.0,2.0
+9055,Sp Braga,9070,Setubal,1718,2,0,0.0,3.0
+9060,Benfica,9067,Maritimo,1718,2,1,0.5,3.5
+9063,Farense,9066,Chaves,1718,2,0,0.0,2.5
+9056,Tondela,9060,Benfica,1718,2,0,0.0,5.5
+9061,Rio Ave,9063,Farense,1718,2,0,0.0,2.0
+9058,Porto,9068,Pacos Ferreira,1718,2,0,0.0,4.0
+9053,Moreirense,9056,Tondela,1718,2,0,0.0,3.0
+9046,Sp Lisbon,9062,Boavista,1718,2,0,0.0,2.5
+9046,Sp Lisbon,9061,Rio Ave,1718,2,0,0.0,1.5
+9053,Moreirense,9058,Porto,1718,2,1,0.5,1.5
+9053,Moreirense,9064,Portimonense,1718,2,1,0.5,4.5
+9055,Sp Braga,9060,Benfica,1718,2,0,0.0,4.0
+9066,Chaves,9067,Maritimo,1718,2,0,0.0,4.0
+9053,Moreirense,9055,Sp Braga,1718,2,0,0.0,2.0
+9059,Guimaraes,9066,Chaves,1718,2,0,0.0,6.0
+9062,Boavista,9070,Setubal,1718,2,1,0.5,3.0
+9058,Porto,9062,Boavista,1718,2,0,0.0,2.5
+9059,Guimaraes,9064,Portimonense,1718,2,1,0.5,4.5
+9057,Estoril,9058,Porto,1718,2,0,0.0,4.0
+9046,Sp Lisbon,9060,Benfica,1718,2,2,1.0,1.0
+9046,Sp Lisbon,9068,Pacos Ferreira,1718,2,0,0.0,2.5
+9056,Tondela,9059,Guimaraes,1718,2,0,0.0,3.0
+9053,Moreirense,9063,Farense,1718,2,1,0.5,0.5
+9046,Sp Lisbon,9058,Porto,1718,2,1,0.5,1.5
+9057,Estoril,9070,Setubal,1718,2,1,0.5,3.5
+9053,Moreirense,9061,Rio Ave,1718,2,0,0.0,3.0
+9059,Guimaraes,9069,Belenenses,1718,2,1,0.5,0.5
+9061,Rio Ave,9064,Portimonense,1718,2,0,0.0,3.5
+9057,Estoril,9061,Rio Ave,1718,2,0,0.0,2.0
+9060,Benfica,9070,Setubal,1718,2,0,0.0,4.5
+9050,AVS,9069,Belenenses,1718,2,0,0.0,5.0
+9058,Porto,9061,Rio Ave,1718,2,0,0.0,4.0
+9062,Boavista,9066,Chaves,1718,2,2,1.0,3.0
+9046,Sp Lisbon,9055,Sp Braga,1718,2,1,0.5,2.5
+9056,Tondela,9070,Setubal,1718,2,1,0.5,1.5
+9050,AVS,9056,Tondela,1718,2,0,0.0,2.0
+9050,AVS,9061,Rio Ave,1718,2,2,1.0,
+9046,Sp Lisbon,9064,Portimonense,1718,2,0,0.0,2.5
+9063,Farense,9067,Maritimo,1718,2,0,0.0,3.0
+9066,Chaves,9069,Belenenses,1718,2,1,0.5,1.5
+9050,AVS,9053,Moreirense,1718,2,0,0.0,3.0
+9057,Estoril,9060,Benfica,1718,2,0,0.0,3.5
+9063,Farense,9070,Setubal,1718,2,0,0.0,1.5
+9058,Porto,9066,Chaves,1718,2,0,0.0,3.5
+9055,Sp Braga,9069,Belenenses,1718,2,0,0.0,2.5
+9055,Sp Braga,9068,Pacos Ferreira,1718,2,0,0.0,4.5
+9058,Porto,9060,Benfica,1718,2,1,0.5,0.5
+9050,AVS,9055,Sp Braga,1718,2,0,0.0,2.0
+9058,Porto,9063,Farense,1718,2,0,0.0,3.0
+9059,Guimaraes,9063,Farense,1718,2,0,0.0,2.0
+9055,Sp Braga,9059,Guimaraes,1718,2,0,0.0,4.0
+9060,Benfica,9068,Pacos Ferreira,1718,2,0,0.0,3.0
+9062,Boavista,9067,Maritimo,1718,2,0,0.0,2.0
+9050,AVS,9068,Pacos Ferreira,1718,2,1,0.5,3.0
+9060,Benfica,9064,Portimonense,1718,2,0,0.0,3.5
+9056,Tondela,9064,Portimonense,1718,2,1,0.5,3.0
+9062,Boavista,9064,Portimonense,1718,2,0,0.0,2.5
+9056,Tondela,9066,Chaves,1718,2,1,0.5,2.0
+9053,Moreirense,9070,Setubal,1718,2,2,1.0,3.0
+9057,Estoril,9064,Portimonense,1718,2,1,0.5,0.5
+9064,Portimonense,9070,Setubal,1718,2,1,0.5,4.5
+9056,Tondela,9067,Maritimo,1718,2,0,0.0,2.5
+9053,Moreirense,9068,Pacos Ferreira,1718,2,0,0.0,3.5
+9050,AVS,9064,Portimonense,1718,2,1,0.5,3.5
+9046,Sp Lisbon,9059,Guimaraes,1718,2,0,0.0,3.0
+9057,Estoril,9063,Farense,1718,2,1,0.5,1.0
+9050,AVS,9063,Farense,1718,2,0,0.0,1.0
+9053,Moreirense,9062,Boavista,1718,2,0,0.0,1.0
+9058,Porto,9064,Portimonense,1718,2,0,0.0,6.5
+9046,Sp Lisbon,9057,Estoril,1718,2,0,0.0,2.5
+9055,Sp Braga,9061,Rio Ave,1718,2,0,0.0,2.0
+9060,Benfica,9061,Rio Ave,1718,2,1,0.5,4.0
+9046,Sp Lisbon,9050,AVS,1718,2,0,0.0,2.5
+9056,Tondela,9069,Belenenses,1718,2,1,0.5,1.0
+9060,Benfica,9066,Chaves,1718,2,0,0.0,2.0
+9059,Guimaraes,9068,Pacos Ferreira,1718,2,1,0.5,2.5
+9057,Estoril,9069,Belenenses,1718,2,0,0.0,2.5
+9046,Sp Lisbon,9067,Maritimo,1718,2,0,0.0,4.0
+9063,Farense,9068,Pacos Ferreira,1718,2,0,0.0,3.0
+9063,Farense,9069,Belenenses,1718,2,0,0.0,3.0
+9061,Rio Ave,9069,Belenenses,1718,2,0,0.0,2.0
+9067,Maritimo,9070,Setubal,1718,2,0,0.0,5.0
+9069,Belenenses,9070,Setubal,1718,2,1,0.5,2.5
+9055,Sp Braga,9058,Porto,1718,2,0,0.0,2.5
+9050,AVS,9067,Maritimo,1718,2,1,0.5,1.5
+9053,Moreirense,9066,Chaves,1718,2,0,0.0,2.0
+9046,Sp Lisbon,9063,Farense,1718,2,0,0.0,3.5
+9046,Sp Lisbon,9053,Moreirense,1718,2,1,0.5,1.5
+9059,Guimaraes,9070,Setubal,1718,2,1,0.5,2.5
+9055,Sp Braga,9057,Estoril,1718,2,0,0.0,6.0
+9064,Portimonense,9069,Belenenses,1718,2,1,0.5,2.5
+9058,Porto,9059,Guimaraes,1718,2,0,0.0,3.5
+9055,Sp Braga,9066,Chaves,1718,2,0,0.0,3.0
+9055,Sp Braga,9063,Farense,1718,2,1,0.5,4.0
+9050,AVS,9066,Chaves,1718,2,1,0.5,3.5
+9060,Benfica,9069,Belenenses,1718,2,1,0.5,3.5
+9057,Estoril,9068,Pacos Ferreira,1718,2,1,0.5,1.5
+9055,Sp Braga,9064,Portimonense,1718,2,0,0.0,3.0
+9060,Benfica,9063,Farense,1718,2,0,0.0,1.5
+9046,Sp Lisbon,9069,Belenenses,1718,2,0,0.0,4.0
+9056,Tondela,9068,Pacos Ferreira,1718,2,1,0.5,3.0
+9061,Rio Ave,9070,Setubal,1718,2,0,0.0,2.0
+9050,AVS,9060,Benfica,1718,2,0,0.0,3.0
+9050,AVS,9062,Boavista,1718,2,0,0.0,2.0
+9068,Pacos Ferreira,9070,Setubal,1718,2,0,0.0,1.0
+9062,Boavista,9069,Belenenses,1718,2,1,0.5,1.5
+9057,Estoril,9059,Guimaraes,1718,2,0,0.0,3.5
+9055,Sp Braga,9067,Maritimo,1718,2,0,0.0,1.5
+9050,AVS,9057,Estoril,1718,2,0,0.0,3.0
+9056,Tondela,9062,Boavista,1718,2,1,0.5,3.5
+9056,Tondela,9063,Farense,1718,2,1,0.5,3.0
+9058,Porto,9069,Belenenses,1718,2,0,0.0,2.0
+9061,Rio Ave,9067,Maritimo,1718,2,0,0.0,2.0
+9053,Moreirense,9060,Benfica,1718,2,0,0.0,1.5
+9055,Sp Braga,9056,Tondela,1718,2,0,0.0,2.0
+9053,Moreirense,9057,Estoril,1718,2,0,0.0,2.5
+9061,Rio Ave,9066,Chaves,1718,2,1,0.5,2.5
+9064,Portimonense,9066,Chaves,1718,2,0,0.0,2.0
+9067,Maritimo,9069,Belenenses,1718,2,1,0.5,0.5
+9059,Guimaraes,9067,Maritimo,1718,2,0,0.0,4.0
+9064,Portimonense,9068,Pacos Ferreira,1718,2,1,0.5,3.0
+9058,Porto,9070,Setubal,1718,2,0,0.0,5.5
+9050,AVS,9059,Guimaraes,1718,2,0,0.0,3.5
+9056,Tondela,9058,Porto,1718,2,0,0.0,1.0
+9061,Rio Ave,9062,Boavista,1718,2,0,0.0,2.5
+9056,Tondela,9061,Rio Ave,1718,2,1,0.5,3.0
+9068,Pacos Ferreira,9069,Belenenses,1718,2,2,1.0,2.0
+9059,Guimaraes,9061,Rio Ave,1718,2,0,0.0,2.0
+9062,Boavista,9063,Farense,1718,2,0,0.0,2.0
+9057,Estoril,9067,Maritimo,1718,2,2,1.0,1.0
+9057,Estoril,9062,Boavista,1718,2,0,0.0,2.0
+9067,Maritimo,9068,Pacos Ferreira,1718,2,1,0.5,0.5
+9063,Farense,9064,Portimonense,1718,2,0,0.0,3.5
+9046,Sp Lisbon,9066,Chaves,1718,2,0,0.0,4.5
+9046,Sp Lisbon,9056,Tondela,1718,2,0,0.0,2.5
+9061,Rio Ave,9068,Pacos Ferreira,1718,2,1,0.5,3.0
+9058,Porto,9067,Maritimo,1718,2,0,0.0,2.5
+9059,Guimaraes,9062,Boavista,1718,2,0,0.0,1.0
+9053,Moreirense,9069,Belenenses,1718,2,0,0.0,3.0
+9057,Estoril,9066,Chaves,1718,2,0,0.0,2.0
+9056,Tondela,9057,Estoril,1718,2,0,0.0,4.0
+9066,Chaves,9070,Setubal,1718,2,2,1.0,3.0
+9050,AVS,9070,Setubal,1718,2,0,0.0,3.0

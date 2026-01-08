@@ -7,9 +7,9 @@ from fastapi.responses import JSONResponse
 from app.config import settings
 from app.api import (
     probabilities, jackpots, validation, data, validation_team,
-    auth, model, tasks, export, teams, explainability, audit, tickets, dashboard
+    auth, model, tasks, export, teams, explainability, audit, tickets, dashboard, admin
 )
-from app.api import model_health, automated_training, feature_store, draw_ingestion, draw_diagnostics
+from app.api import model_health, automated_training, feature_store, draw_ingestion, draw_diagnostics, automated_pipeline
 from app.db.session import engine
 from sqlalchemy import text
 import logging
@@ -96,6 +96,8 @@ app.include_router(automated_training.router, prefix=settings.API_PREFIX)
 app.include_router(feature_store.router, prefix=settings.API_PREFIX)
 app.include_router(draw_ingestion.router, prefix=settings.API_PREFIX)
 app.include_router(draw_diagnostics.router, prefix=settings.API_PREFIX)
+app.include_router(admin.router, prefix=settings.API_PREFIX)
+app.include_router(automated_pipeline.router, prefix=settings.API_PREFIX)
 
 
 @app.on_event("startup")

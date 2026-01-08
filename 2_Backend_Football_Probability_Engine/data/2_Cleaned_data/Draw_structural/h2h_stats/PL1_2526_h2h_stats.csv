@@ -1,0 +1,136 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9059,Guimaraes,9060,Benfica,2526,1,0,0.0,3.0
+9045,Casa Pia,9061,Rio Ave,2526,1,0,0.0,4.0
+9052,Santa Clara,9059,Guimaraes,2526,1,0,0.0,3.0
+9046,Sp Lisbon,9051,Famalicao,2526,1,0,0.0,3.0
+9048,Gil Vicente,9050,AVS,2526,1,1,1.0,2.0
+9050,AVS,9058,Porto,2526,1,0,0.0,2.0
+9047,Nacional,9059,Guimaraes,2526,1,0,0.0,3.0
+9053,Moreirense,9054,Alverca,2526,1,0,0.0,3.0
+9045,Casa Pia,9057,Estoril,2526,2,1,0.5,6.0
+9053,Moreirense,9059,Guimaraes,2526,1,0,0.0,2.0
+9056,Tondela,9060,Benfica,2526,1,0,0.0,3.0
+9049,Arouca,9053,Moreirense,2526,1,0,0.0,2.0
+9048,Gil Vicente,9059,Guimaraes,2526,1,1,1.0,
+9046,Sp Lisbon,9048,Gil Vicente,2526,1,1,1.0,2.0
+9046,Sp Lisbon,9061,Rio Ave,2526,1,0,0.0,4.0
+9051,Famalicao,9058,Porto,2526,1,0,0.0,1.0
+9053,Moreirense,9058,Porto,2526,1,0,0.0,3.0
+9045,Casa Pia,9047,Nacional,2526,1,0,0.0,2.0
+9052,Santa Clara,9054,Alverca,2526,1,0,0.0,3.0
+9047,Nacional,9057,Estoril,2526,2,2,1.0,2.0
+9055,Sp Braga,9060,Benfica,2526,1,1,1.0,4.0
+9047,Nacional,9053,Moreirense,2526,1,0,0.0,5.0
+9053,Moreirense,9055,Sp Braga,2526,1,0,0.0,3.0
+9052,Santa Clara,9056,Tondela,2526,1,0,0.0,3.0
+9047,Nacional,9048,Gil Vicente,2526,1,0,0.0,2.0
+9049,Arouca,9058,Porto,2526,1,0,0.0,4.0
+9046,Sp Lisbon,9054,Alverca,2526,1,0,0.0,2.0
+9057,Estoril,9058,Porto,2526,2,0,0.0,2.5
+9046,Sp Lisbon,9060,Benfica,2526,1,1,1.0,2.0
+9056,Tondela,9059,Guimaraes,2526,1,0,0.0,1.0
+9046,Sp Lisbon,9058,Porto,2526,1,0,0.0,3.0
+9053,Moreirense,9061,Rio Ave,2526,1,0,0.0,4.0
+9049,Arouca,9059,Guimaraes,2526,1,1,1.0,2.0
+9049,Arouca,9051,Famalicao,2526,1,1,1.0,2.0
+9057,Estoril,9061,Rio Ave,2526,2,0,0.0,3.5
+9045,Casa Pia,9053,Moreirense,2526,1,0,0.0,3.0
+9058,Porto,9061,Rio Ave,2526,1,0,0.0,3.0
+9046,Sp Lisbon,9049,Arouca,2526,1,0,0.0,6.0
+9046,Sp Lisbon,9055,Sp Braga,2526,1,1,1.0,2.0
+9045,Casa Pia,9054,Alverca,2526,1,0,0.0,2.0
+9048,Gil Vicente,9051,Famalicao,2526,1,1,1.0,
+9049,Arouca,9055,Sp Braga,2526,1,0,0.0,4.0
+9050,AVS,9056,Tondela,2526,1,1,1.0,4.0
+9045,Casa Pia,9048,Gil Vicente,2526,1,1,1.0,2.0
+9050,AVS,9061,Rio Ave,2526,1,0,0.0,3.0
+9050,AVS,9054,Alverca,2526,1,0,0.0,4.0
+9050,AVS,9052,Santa Clara,2526,1,0,0.0,2.0
+9050,AVS,9053,Moreirense,2526,1,0,0.0,2.0
+9050,AVS,9051,Famalicao,2526,1,0,0.0,1.0
+9057,Estoril,9060,Benfica,2526,2,0,0.0,2.5
+9048,Gil Vicente,9056,Tondela,2526,1,0,0.0,1.0
+9045,Casa Pia,9058,Porto,2526,1,0,0.0,4.0
+9048,Gil Vicente,9055,Sp Braga,2526,1,0,0.0,1.0
+9051,Famalicao,9056,Tondela,2526,1,0,0.0,1.0
+9045,Casa Pia,9056,Tondela,2526,1,0,0.0,3.0
+9051,Famalicao,9053,Moreirense,2526,1,1,1.0,4.0
+9046,Sp Lisbon,9047,Nacional,2526,1,0,0.0,5.0
+9058,Porto,9060,Benfica,2526,1,1,1.0,
+9052,Santa Clara,9060,Benfica,2526,1,1,1.0,2.0
+9045,Casa Pia,9050,AVS,2526,1,0,0.0,2.0
+9054,Alverca,9060,Benfica,2526,1,0,0.0,3.0
+9050,AVS,9055,Sp Braga,2526,1,1,1.0,4.0
+9051,Famalicao,9060,Benfica,2526,1,0,0.0,1.0
+9055,Sp Braga,9059,Guimaraes,2526,1,1,1.0,2.0
+9047,Nacional,9051,Famalicao,2526,1,0,0.0,1.0
+9052,Santa Clara,9057,Estoril,2526,2,1,0.5,0.5
+9052,Santa Clara,9061,Rio Ave,2526,1,1,1.0,2.0
+9045,Casa Pia,9055,Sp Braga,2526,1,0,0.0,4.0
+9052,Santa Clara,9053,Moreirense,2526,1,0,0.0,1.0
+9051,Famalicao,9055,Sp Braga,2526,1,0,0.0,3.0
+9047,Nacional,9049,Arouca,2526,1,0,0.0,3.0
+9048,Gil Vicente,9057,Estoril,2526,2,0,0.0,2.0
+9045,Casa Pia,9046,Sp Lisbon,2526,1,0,0.0,2.0
+9051,Famalicao,9052,Santa Clara,2526,1,0,0.0,3.0
+9045,Casa Pia,9060,Benfica,2526,1,1,1.0,4.0
+9045,Casa Pia,9049,Arouca,2526,1,0,0.0,2.0
+9046,Sp Lisbon,9059,Guimaraes,2526,1,0,0.0,5.0
+9054,Alverca,9056,Tondela,2526,1,0,0.0,1.0
+9054,Alverca,9061,Rio Ave,2526,1,1,1.0,2.0
+9049,Arouca,9050,AVS,2526,1,0,0.0,4.0
+9046,Sp Lisbon,9057,Estoril,2526,2,0,0.0,2.5
+9045,Casa Pia,9059,Guimaraes,2526,1,1,1.0,
+9055,Sp Braga,9061,Rio Ave,2526,1,1,1.0,4.0
+9048,Gil Vicente,9054,Alverca,2526,1,0,0.0,4.0
+9060,Benfica,9061,Rio Ave,2526,1,1,1.0,2.0
+9046,Sp Lisbon,9050,AVS,2526,1,0,0.0,6.0
+9054,Alverca,9058,Porto,2526,1,0,0.0,3.0
+9047,Nacional,9054,Alverca,2526,1,0,0.0,1.0
+9054,Alverca,9055,Sp Braga,2526,1,0,0.0,3.0
+9051,Famalicao,9057,Estoril,2526,2,0,0.0,4.5
+9045,Casa Pia,9052,Santa Clara,2526,1,0,0.0,1.0
+9055,Sp Braga,9058,Porto,2526,1,0,0.0,3.0
+9048,Gil Vicente,9060,Benfica,2526,1,0,0.0,3.0
+9049,Arouca,9061,Rio Ave,2526,1,1,1.0,6.0
+9047,Nacional,9050,AVS,2526,1,1,1.0,4.0
+9046,Sp Lisbon,9053,Moreirense,2526,1,0,0.0,3.0
+9055,Sp Braga,9057,Estoril,2526,2,1,0.5,3.5
+9058,Porto,9059,Guimaraes,2526,1,0,0.0,3.0
+9048,Gil Vicente,9061,Rio Ave,2526,1,1,1.0,4.0
+9049,Arouca,9052,Santa Clara,2526,1,1,1.0,
+9050,AVS,9060,Benfica,2526,1,0,0.0,3.0
+9046,Sp Lisbon,9052,Santa Clara,2526,1,0,0.0,3.0
+9054,Alverca,9059,Guimaraes,2526,1,0,0.0,2.0
+9047,Nacional,9058,Porto,2526,1,0,0.0,1.0
+9057,Estoril,9059,Guimaraes,2526,2,0,0.0,3.5
+9048,Gil Vicente,9049,Arouca,2526,1,1,1.0,4.0
+9047,Nacional,9061,Rio Ave,2526,1,1,1.0,2.0
+9050,AVS,9057,Estoril,2526,2,0,0.0,3.5
+9054,Alverca,9057,Estoril,2526,2,1,0.5,4.5
+9049,Arouca,9056,Tondela,2526,1,0,0.0,4.0
+9051,Famalicao,9059,Guimaraes,2526,1,0,0.0,2.0
+9052,Santa Clara,9058,Porto,2526,1,0,0.0,1.0
+9049,Arouca,9057,Estoril,2526,2,0,0.0,5.5
+9055,Sp Braga,9056,Tondela,2526,1,0,0.0,3.0
+9053,Moreirense,9060,Benfica,2526,1,0,0.0,4.0
+9051,Famalicao,9061,Rio Ave,2526,1,1,1.0,
+9053,Moreirense,9057,Estoril,2526,2,2,1.0,3.0
+9045,Casa Pia,9051,Famalicao,2526,1,1,1.0,2.0
+9049,Arouca,9054,Alverca,2526,1,0,0.0,1.0
+9057,Estoril,9057,Estoril,2526,1,1,1.0,2.0
+9048,Gil Vicente,9058,Porto,2526,1,0,0.0,2.0
+9050,AVS,9059,Guimaraes,2526,1,0,0.0,4.0
+9056,Tondela,9058,Porto,2526,1,0,0.0,2.0
+9056,Tondela,9061,Rio Ave,2526,1,0,0.0,3.0
+9059,Guimaraes,9061,Rio Ave,2526,1,0,0.0,1.0
+9046,Sp Lisbon,9056,Tondela,2526,1,0,0.0,3.0
+9048,Gil Vicente,9052,Santa Clara,2526,1,0,0.0,1.0
+9048,Gil Vicente,9053,Moreirense,2526,1,0,0.0,2.0
+9047,Nacional,9060,Benfica,2526,1,0,0.0,3.0
+9049,Arouca,9060,Benfica,2526,1,0,0.0,5.0
+9047,Nacional,9055,Sp Braga,2526,1,0,0.0,1.0
+9047,Nacional,9056,Tondela,2526,1,0,0.0,4.0
+9056,Tondela,9057,Estoril,2526,2,2,1.0,2.0
+9051,Famalicao,9054,Alverca,2526,1,0,0.0,1.0
+9052,Santa Clara,9055,Sp Braga,2526,1,0,0.0,1.0

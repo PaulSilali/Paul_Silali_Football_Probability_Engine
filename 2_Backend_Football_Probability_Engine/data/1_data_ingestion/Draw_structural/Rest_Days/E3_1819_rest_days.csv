@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E3,1819,2018-08-04,Cheltenham,Crawley Town,91,91,False
+E3,1819,2018-08-04,Bury,Yeovil,7,91,False
+E3,1819,2018-08-04,Oldham,Milton Keynes Dons,7,7,False
+E3,1819,2018-08-04,Northampton,Lincoln,7,91,False
+E3,1819,2018-08-04,Swindon,Mansfield,91,91,False
+E3,1819,2018-08-04,Stevenage,Tranmere,91,7,False
+E3,1819,2018-08-04,Port Vale,Cambridge,91,91,False
+E3,1819,2018-08-04,Newport County,Colchester,91,91,False
+E3,1819,2018-08-04,Mansfield,Newport County,91,91,False
+E3,1819,2018-08-04,Grimsby,Forest Green,91,91,False
+E3,1819,2018-08-04,Exeter,Carlisle,91,91,False
+E3,1819,2018-08-04,Crewe,Morecambe,91,91,False
+E3,1819,2018-08-11,Morecambe,Exeter,7,7,False
+E3,1819,2018-08-11,Newport County,Crewe,7,7,False
+E3,1819,2018-08-11,Tranmere,Cheltenham,7,7,False
+E3,1819,2018-08-11,Yeovil,Mansfield,7,7,False
+E3,1819,2018-08-11,Cambridge,Newport County,7,7,False
+E3,1819,2018-08-11,Carlisle,Northampton,7,7,False
+E3,1819,2018-08-11,Colchester,Port Vale,7,7,False
+E3,1819,2018-08-11,Crawley Town,Stevenage,7,7,False
+E3,1819,2018-08-11,Forest Green,Oldham,7,7,False
+E3,1819,2018-08-11,Lincoln,Swindon,7,7,False
+E3,1819,2018-08-11,Mansfield,Grimsby,7,7,False
+E3,1819,2018-08-11,Milton Keynes Dons,Bury,7,7,False
+E3,1819,2018-08-17,Newport County,Yeovil,6,6,False
+E3,1819,2018-08-18,Port Vale,Crawley Town,7,7,False
+E3,1819,2018-08-18,Stevenage,Morecambe,7,7,False
+E3,1819,2018-08-18,Swindon,Tranmere,7,7,False
+E3,1819,2018-08-18,Cheltenham,Carlisle,7,7,False
+E3,1819,2018-08-18,Bury,Forest Green,7,7,False
+E3,1819,2018-08-18,Crewe,Milton Keynes Dons,7,7,False
+E3,1819,2018-08-18,Exeter,Newport County,7,1,False
+E3,1819,2018-08-18,Grimsby,Lincoln,7,7,False
+E3,1819,2018-08-18,Mansfield,Colchester,7,7,False
+E3,1819,2018-08-18,Oldham,Mansfield,7,7,False
+E3,1819,2018-08-18,Northampton,Cambridge,7,7,False
+E3,1819,2018-08-21,Milton Keynes Dons,Grimsby,3,3,True
+E3,1819,2018-08-21,Newport County,Newport County,3,3,True
+E3,1819,2018-08-21,Tranmere,Mansfield,3,3,True
+E3,1819,2018-08-21,Yeovil,Oldham,4,3,True
+E3,1819,2018-08-21,Cambridge,Exeter,3,3,True
+E3,1819,2018-08-21,Carlisle,Port Vale,3,3,True
+E3,1819,2018-08-21,Colchester,Crewe,3,3,True
+E3,1819,2018-08-21,Crawley Town,Swindon,3,3,True
+E3,1819,2018-08-21,Forest Green,Stevenage,3,3,True
+E3,1819,2018-08-21,Lincoln,Bury,3,3,True
+E3,1819,2018-08-21,Mansfield,Cheltenham,3,3,True
+E3,1819,2018-08-21,Morecambe,Northampton,3,3,True
+E3,1819,2018-08-25,Crawley Town,Bury,4,4,False
+E3,1819,2018-08-25,Colchester,Northampton,4,4,False
+E3,1819,2018-08-25,Carlisle,Crewe,4,4,False
+E3,1819,2018-08-25,Cambridge,Cheltenham,4,4,False
+E3,1819,2018-08-25,Milton Keynes Dons,Exeter,4,4,False
+E3,1819,2018-08-25,Morecambe,Oldham,4,4,False
+E3,1819,2018-08-25,Lincoln,Newport County,4,4,False
+E3,1819,2018-08-25,Newport County,Grimsby,4,4,False
+E3,1819,2018-08-25,Mansfield,Mansfield,4,4,False
+E3,1819,2018-08-25,Tranmere,Port Vale,4,4,False
+E3,1819,2018-08-25,Yeovil,Stevenage,4,4,False
+E3,1819,2018-08-25,Forest Green,Swindon,4,4,False
+E3,1819,2018-09-01,Port Vale,Newport County,7,7,False
+E3,1819,2018-09-01,Crewe,Mansfield,7,7,False
+E3,1819,2018-09-01,Exeter,Lincoln,7,7,False
+E3,1819,2018-09-01,Grimsby,Yeovil,7,7,False
+E3,1819,2018-09-01,Mansfield,Carlisle,7,7,False
+E3,1819,2018-09-01,Northampton,Tranmere,7,7,False
+E3,1819,2018-09-01,Newport County,Forest Green,7,7,False
+E3,1819,2018-09-01,Oldham,Crawley Town,7,7,False
+E3,1819,2018-09-01,Cheltenham,Colchester,7,7,False
+E3,1819,2018-09-01,Stevenage,Cambridge,7,7,False
+E3,1819,2018-09-01,Swindon,Milton Keynes Dons,7,7,False
+E3,1819,2018-09-01,Bury,Morecambe,7,7,False
+E3,1819,2018-09-08,Northampton,Cheltenham,7,7,False
+E3,1819,2018-09-08,Oldham,Newport County,7,7,False
+E3,1819,2018-09-08,Stevenage,Mansfield,7,7,False
+E3,1819,2018-09-08,Tranmere,Colchester,7,7,False
+E3,1819,2018-09-08,Exeter,Newport County,7,7,False
+E3,1819,2018-09-08,Bury,Grimsby,7,7,False
+E3,1819,2018-09-08,Cambridge,Carlisle,7,7,False
+E3,1819,2018-09-08,Lincoln,Crawley Town,7,7,False
+E3,1819,2018-09-08,Morecambe,Swindon,7,7,False
+E3,1819,2018-09-08,Forest Green,Port Vale,7,7,False
+E3,1819,2018-09-15,Port Vale,Northampton,7,7,False
+E3,1819,2018-09-15,Swindon,Bury,7,7,False
+E3,1819,2018-09-15,Mansfield,Lincoln,7,7,False
+E3,1819,2018-09-15,Mansfield,Exeter,7,7,False
+E3,1819,2018-09-15,Milton Keynes Dons,Forest Green,14,7,False
+E3,1819,2018-09-15,Newport County,Yeovil,7,14,False
+E3,1819,2018-09-15,Carlisle,Tranmere,7,7,False
+E3,1819,2018-09-15,Cheltenham,Crewe,7,14,False
+E3,1819,2018-09-15,Colchester,Cambridge,7,7,False
+E3,1819,2018-09-15,Crawley Town,Morecambe,7,7,False
+E3,1819,2018-09-15,Grimsby,Oldham,7,7,False
+E3,1819,2018-09-15,Newport County,Stevenage,7,7,False
+E3,1819,2018-09-22,Exeter,Cheltenham,7,7,False
+E3,1819,2018-09-22,Bury,Carlisle,7,7,False
+E3,1819,2018-09-22,Cambridge,Mansfield,7,7,False
+E3,1819,2018-09-22,Crewe,Port Vale,7,7,False
+E3,1819,2018-09-22,Forest Green,Crawley Town,7,7,False
+E3,1819,2018-09-22,Lincoln,Milton Keynes Dons,7,7,False
+E3,1819,2018-09-22,Morecambe,Mansfield,7,7,False
+E3,1819,2018-09-22,Northampton,Newport County,7,7,False
+E3,1819,2018-09-22,Oldham,Colchester,7,7,False
+E3,1819,2018-09-22,Stevenage,Grimsby,7,7,False
+E3,1819,2018-09-22,Tranmere,Newport County,7,7,False
+E3,1819,2018-09-22,Yeovil,Swindon,7,7,False
+E3,1819,2018-09-25,Yeovil,Milton Keynes Dons,3,3,True
+E3,1819,2018-09-29,Crawley Town,Yeovil,7,4,False
+E3,1819,2018-09-29,Grimsby,Morecambe,7,7,False
+E3,1819,2018-09-29,Mansfield,Forest Green,7,7,False
+E3,1819,2018-09-29,Mansfield,Northampton,7,7,False
+E3,1819,2018-09-29,Milton Keynes Dons,Tranmere,4,7,False
+E3,1819,2018-09-29,Newport County,Cambridge,7,7,False
+E3,1819,2018-09-29,Newport County,Crewe,7,7,False
+E3,1819,2018-09-29,Port Vale,Exeter,7,7,False
+E3,1819,2018-09-29,Swindon,Oldham,7,7,False
+E3,1819,2018-09-29,Colchester,Bury,7,7,False
+E3,1819,2018-09-29,Cheltenham,Lincoln,7,7,False
+E3,1819,2018-09-29,Carlisle,Stevenage,7,7,False
+E3,1819,2018-10-02,Colchester,Yeovil,3,3,True
+E3,1819,2018-10-02,Crewe,Swindon,3,3,True
+E3,1819,2018-10-02,Exeter,Stevenage,3,3,True
+E3,1819,2018-10-02,Mansfield,Oldham,3,3,True
+E3,1819,2018-10-02,Newport County,Mansfield,3,3,True
+E3,1819,2018-10-02,Northampton,Bury,3,3,True
+E3,1819,2018-10-02,Newport County,Crawley Town,3,3,True
+E3,1819,2018-10-02,Port Vale,Milton Keynes Dons,3,3,True
+E3,1819,2018-10-02,Tranmere,Lincoln,3,3,True
+E3,1819,2018-10-02,Cambridge,Forest Green,3,3,True
+E3,1819,2018-10-02,Carlisle,Grimsby,3,3,True
+E3,1819,2018-10-02,Cheltenham,Morecambe,3,3,True
+E3,1819,2018-10-06,Morecambe,Tranmere,4,4,False
+E3,1819,2018-10-06,Bury,Mansfield,4,4,False
+E3,1819,2018-10-06,Crawley Town,Cambridge,4,4,False
+E3,1819,2018-10-06,Forest Green,Newport County,4,4,False
+E3,1819,2018-10-06,Grimsby,Port Vale,4,4,False
+E3,1819,2018-10-06,Lincoln,Crewe,4,4,False
+E3,1819,2018-10-06,Mansfield,Newport County,4,4,False
+E3,1819,2018-10-06,Milton Keynes Dons,Cheltenham,4,4,False
+E3,1819,2018-10-06,Oldham,Carlisle,4,4,False
+E3,1819,2018-10-06,Stevenage,Colchester,4,4,False
+E3,1819,2018-10-06,Swindon,Northampton,4,4,False
+E3,1819,2018-10-06,Yeovil,Exeter,4,4,False
+E3,1819,2018-10-12,Tranmere,Mansfield,6,6,False
+E3,1819,2018-10-13,Cambridge,Milton Keynes Dons,7,7,False
+E3,1819,2018-10-13,Carlisle,Morecambe,7,7,False
+E3,1819,2018-10-13,Northampton,Forest Green,7,7,False
+E3,1819,2018-10-13,Newport County,Stevenage,7,7,False
+E3,1819,2018-10-13,Exeter,Swindon,7,7,False
+E3,1819,2018-10-13,Colchester,Crawley Town,7,7,False
+E3,1819,2018-10-13,Crewe,Bury,7,7,False
+E3,1819,2018-10-13,Port Vale,Lincoln,7,7,False
+E3,1819,2018-10-20,Swindon,Mansfield,7,8,False
+E3,1819,2018-10-20,Yeovil,Tranmere,14,8,False
+E3,1819,2018-10-20,Crawley Town,Newport County,7,7,False
+E3,1819,2018-10-20,Forest Green,Cheltenham,7,14,False
+E3,1819,2018-10-20,Grimsby,Exeter,14,7,False
+E3,1819,2018-10-20,Lincoln,Cambridge,7,7,False
+E3,1819,2018-10-20,Mansfield,Carlisle,8,7,False
+E3,1819,2018-10-20,Milton Keynes Dons,Northampton,7,7,False
+E3,1819,2018-10-20,Morecambe,Colchester,7,7,False
+E3,1819,2018-10-20,Oldham,Port Vale,14,7,False
+E3,1819,2018-10-20,Stevenage,Crewe,7,7,False
+E3,1819,2018-10-20,Bury,Newport County,7,7,False
+E3,1819,2018-10-23,Grimsby,Colchester,3,3,True
+E3,1819,2018-10-23,Lincoln,Carlisle,3,3,True
+E3,1819,2018-10-23,Mansfield,Northampton,3,3,True
+E3,1819,2018-10-23,Milton Keynes Dons,Newport County,3,3,True
+E3,1819,2018-10-23,Morecambe,Mansfield,3,3,True
+E3,1819,2018-10-23,Oldham,Cheltenham,3,3,True
+E3,1819,2018-10-23,Stevenage,Port Vale,3,3,True
+E3,1819,2018-10-23,Swindon,Cambridge,3,3,True
+E3,1819,2018-10-23,Yeovil,Crewe,3,3,True
+E3,1819,2018-10-23,Crawley Town,Exeter,3,3,True
+E3,1819,2018-10-23,Bury,Newport County,3,3,True
+E3,1819,2018-10-23,Forest Green,Tranmere,3,3,True
+E3,1819,2018-10-27,Newport County,Morecambe,4,4,False
+E3,1819,2018-10-27,Cambridge,Mansfield,4,4,False
+E3,1819,2018-10-27,Carlisle,Yeovil,4,4,False
+E3,1819,2018-10-27,Cheltenham,Stevenage,4,4,False
+E3,1819,2018-10-27,Colchester,Lincoln,4,4,False
+E3,1819,2018-10-27,Crewe,Grimsby,4,4,False
+E3,1819,2018-10-27,Exeter,Forest Green,4,4,False
+E3,1819,2018-10-27,Mansfield,Milton Keynes Dons,4,4,False
+E3,1819,2018-10-27,Northampton,Oldham,4,4,False
+E3,1819,2018-10-27,Newport County,Swindon,4,4,False
+E3,1819,2018-10-27,Port Vale,Bury,4,4,False
+E3,1819,2018-10-27,Tranmere,Crawley Town,4,4,False
+E3,1819,2018-10-30,Crewe,Mansfield,3,3,True
+E3,1819,2018-11-03,Colchester,Swindon,7,7,False
+E3,1819,2018-11-03,Crawley Town,Milton Keynes Dons,7,7,False
+E3,1819,2018-11-03,Lincoln,Forest Green,7,7,False
+E3,1819,2018-11-03,Mansfield,Bury,4,7,False
+E3,1819,2018-11-03,Morecambe,Yeovil,7,7,False
+E3,1819,2018-11-03,Northampton,Crewe,7,4,False
+E3,1819,2018-11-03,Cheltenham,Mansfield,7,4,False
+E3,1819,2018-11-03,Stevenage,Oldham,7,7,False
+E3,1819,2018-11-03,Tranmere,Exeter,7,7,False
+E3,1819,2018-11-03,Port Vale,Newport County,7,7,False
+E3,1819,2018-11-03,Carlisle,Newport County,7,7,False
+E3,1819,2018-11-03,Cambridge,Grimsby,7,7,False
+E3,1819,2018-11-06,Newport County,Oldham,3,3,True
+E3,1819,2018-11-06,Mansfield,Grimsby,3,3,True
+E3,1819,2018-11-17,Newport County,Colchester,11,14,False
+E3,1819,2018-11-17,Bury,Stevenage,14,14,False
+E3,1819,2018-11-17,Crewe,Tranmere,14,14,False
+E3,1819,2018-11-17,Exeter,Northampton,14,14,False
+E3,1819,2018-11-17,Forest Green,Morecambe,14,14,False
+E3,1819,2018-11-17,Grimsby,Crawley Town,11,14,False
+E3,1819,2018-11-17,Mansfield,Port Vale,11,14,False
+E3,1819,2018-11-17,Milton Keynes Dons,Mansfield,14,11,False
+E3,1819,2018-11-17,Newport County,Cheltenham,11,14,False
+E3,1819,2018-11-17,Oldham,Cambridge,11,14,False
+E3,1819,2018-11-17,Swindon,Carlisle,14,14,False
+E3,1819,2018-11-24,Lincoln,Mansfield,21,7,False
+E3,1819,2018-11-24,Morecambe,Newport County,7,7,False
+E3,1819,2018-11-24,Northampton,Grimsby,7,7,False
+E3,1819,2018-11-24,Port Vale,Swindon,7,7,False
+E3,1819,2018-11-24,Stevenage,Milton Keynes Dons,7,7,False
+E3,1819,2018-11-24,Tranmere,Oldham,7,7,False
+E3,1819,2018-11-24,Cambridge,Bury,7,7,False
+E3,1819,2018-11-24,Carlisle,Forest Green,7,7,False
+E3,1819,2018-11-24,Cheltenham,Newport County,7,7,False
+E3,1819,2018-11-24,Crawley Town,Crewe,7,7,False
+E3,1819,2018-11-24,Colchester,Exeter,7,7,False
+E3,1819,2018-11-24,Mansfield,Yeovil,7,21,False
+E3,1819,2018-11-27,Forest Green,Colchester,3,3,True
+E3,1819,2018-11-27,Grimsby,Tranmere,3,3,True
+E3,1819,2018-11-27,Milton Keynes Dons,Morecambe,3,3,True
+E3,1819,2018-11-27,Newport County,Northampton,3,3,True
+E3,1819,2018-11-27,Newport County,Carlisle,3,3,True
+E3,1819,2018-11-27,Bury,Cheltenham,3,3,True
+E3,1819,2018-11-27,Crewe,Cambridge,3,3,True
+E3,1819,2018-11-27,Exeter,Mansfield,3,3,True
+E3,1819,2018-11-27,Oldham,Lincoln,3,3,True
+E3,1819,2018-11-27,Swindon,Stevenage,3,3,True
+E3,1819,2018-11-27,Yeovil,Port Vale,3,3,True
+E3,1819,2018-12-08,Cheltenham,Grimsby,11,11,False
+E3,1819,2018-12-08,Bury,Exeter,11,11,False
+E3,1819,2018-12-08,Colchester,Mansfield,11,11,False
+E3,1819,2018-12-08,Crawley Town,Northampton,14,11,False
+E3,1819,2018-12-08,Crewe,Oldham,11,11,False
+E3,1819,2018-12-08,Mansfield,Newport County,11,11,False
+E3,1819,2018-12-08,Milton Keynes Dons,Carlisle,11,11,False
+E3,1819,2018-12-08,Morecambe,Port Vale,11,11,False
+E3,1819,2018-12-08,Stevenage,Lincoln,11,11,False
+E3,1819,2018-12-08,Swindon,Newport County,11,11,False
+E3,1819,2018-12-08,Tranmere,Cambridge,11,11,False
+E3,1819,2018-12-08,Yeovil,Forest Green,11,11,False
+E3,1819,2018-12-15,Grimsby,Swindon,7,7,False
+E3,1819,2018-12-15,Lincoln,Morecambe,7,7,False
+E3,1819,2018-12-15,Mansfield,Crawley Town,7,7,False
+E3,1819,2018-12-15,Northampton,Stevenage,7,7,False
+E3,1819,2018-12-15,Newport County,Tranmere,7,7,False
+E3,1819,2018-12-15,Oldham,Bury,7,7,False
+E3,1819,2018-12-15,Port Vale,Cheltenham,7,7,False
+E3,1819,2018-12-15,Exeter,Crewe,7,7,False
+E3,1819,2018-12-15,Carlisle,Colchester,7,7,False
+E3,1819,2018-12-15,Cambridge,Yeovil,7,7,False
+E3,1819,2018-12-22,Grimsby,Newport County,7,7,False
+E3,1819,2018-12-22,Lincoln,Newport County,7,7,False
+E3,1819,2018-12-22,Mansfield,Port Vale,7,7,False
+E3,1819,2018-12-22,Milton Keynes Dons,Colchester,14,7,False
+E3,1819,2018-12-22,Morecambe,Cambridge,7,7,False
+E3,1819,2018-12-22,Oldham,Exeter,7,7,False
+E3,1819,2018-12-22,Stevenage,Mansfield,7,7,False
+E3,1819,2018-12-22,Swindon,Cheltenham,7,7,False
+E3,1819,2018-12-22,Yeovil,Northampton,7,7,False
+E3,1819,2018-12-22,Bury,Tranmere,7,7,False
+E3,1819,2018-12-22,Crawley Town,Carlisle,7,7,False
+E3,1819,2018-12-22,Forest Green,Crewe,14,7,False
+E3,1819,2018-12-26,Northampton,Swindon,4,4,True
+E3,1819,2018-12-26,Cambridge,Crawley Town,4,4,True
+E3,1819,2018-12-26,Carlisle,Oldham,4,4,True
+E3,1819,2018-12-26,Cheltenham,Milton Keynes Dons,4,4,True
+E3,1819,2018-12-26,Colchester,Stevenage,4,4,True
+E3,1819,2018-12-26,Crewe,Lincoln,4,4,True
+E3,1819,2018-12-26,Exeter,Yeovil,4,4,True
+E3,1819,2018-12-26,Mansfield,Bury,4,4,True
+E3,1819,2018-12-26,Newport County,Forest Green,4,4,True
+E3,1819,2018-12-26,Newport County,Mansfield,4,4,True
+E3,1819,2018-12-26,Port Vale,Grimsby,4,4,True
+E3,1819,2018-12-26,Tranmere,Morecambe,4,4,True
+E3,1819,2018-12-29,Cambridge,Lincoln,3,3,False
+E3,1819,2018-12-29,Crewe,Stevenage,3,3,False
+E3,1819,2018-12-29,Colchester,Morecambe,3,3,False
+E3,1819,2018-12-29,Port Vale,Oldham,3,3,False
+E3,1819,2018-12-29,Mansfield,Swindon,3,3,False
+E3,1819,2018-12-29,Tranmere,Yeovil,3,3,False
+E3,1819,2018-12-29,Exeter,Grimsby,3,3,False
+E3,1819,2018-12-29,Cheltenham,Forest Green,3,3,False
+E3,1819,2018-12-29,Carlisle,Mansfield,3,3,False
+E3,1819,2018-12-29,Newport County,Crawley Town,3,3,False
+E3,1819,2018-12-29,Northampton,Milton Keynes Dons,3,3,False
+E3,1819,2018-12-29,Newport County,Bury,3,3,False
+E3,1819,2019-01-01,Morecambe,Carlisle,3,3,True
+E3,1819,2019-01-01,Bury,Crewe,3,3,True
+E3,1819,2019-01-01,Crawley Town,Colchester,3,3,True
+E3,1819,2019-01-01,Forest Green,Northampton,3,3,True
+E3,1819,2019-01-01,Oldham,Newport County,3,3,True
+E3,1819,2019-01-01,Stevenage,Newport County,3,3,True
+E3,1819,2019-01-01,Grimsby,Mansfield,3,3,True
+E3,1819,2019-01-01,Swindon,Exeter,3,3,True
+E3,1819,2019-01-01,Yeovil,Cheltenham,3,3,True
+E3,1819,2019-01-01,Lincoln,Port Vale,3,3,True
+E3,1819,2019-01-01,Mansfield,Tranmere,3,3,True
+E3,1819,2019-01-01,Milton Keynes Dons,Cambridge,3,3,True
+E3,1819,2019-01-05,Yeovil,Bury,4,4,False
+E3,1819,2019-01-05,Cambridge,Stevenage,4,4,False
+E3,1819,2019-01-05,Carlisle,Mansfield,4,4,False
+E3,1819,2019-01-05,Colchester,Newport County,4,4,False
+E3,1819,2019-01-05,Crawley Town,Cheltenham,4,4,False
+E3,1819,2019-01-05,Mansfield,Swindon,4,4,False
+E3,1819,2019-01-05,Morecambe,Crewe,4,4,False
+E3,1819,2019-01-12,Newport County,Cambridge,7,7,False
+E3,1819,2019-01-12,Bury,Milton Keynes Dons,7,11,False
+E3,1819,2019-01-12,Cheltenham,Tranmere,7,11,False
+E3,1819,2019-01-12,Crewe,Newport County,7,7,False
+E3,1819,2019-01-12,Exeter,Morecambe,11,7,False
+E3,1819,2019-01-12,Grimsby,Mansfield,11,7,False
+E3,1819,2019-01-12,Mansfield,Yeovil,7,7,False
+E3,1819,2019-01-12,Northampton,Carlisle,11,7,False
+E3,1819,2019-01-12,Oldham,Forest Green,11,11,False
+E3,1819,2019-01-12,Port Vale,Colchester,11,7,False
+E3,1819,2019-01-12,Stevenage,Crawley Town,7,7,False
+E3,1819,2019-01-12,Swindon,Lincoln,7,11,False
+E3,1819,2019-01-15,Mansfield,Crawley Town,3,3,True
+E3,1819,2019-01-19,Crawley Town,Port Vale,4,7,False
+E3,1819,2019-01-19,Forest Green,Bury,7,7,False
+E3,1819,2019-01-19,Lincoln,Grimsby,7,7,False
+E3,1819,2019-01-19,Mansfield,Oldham,4,7,False
+E3,1819,2019-01-19,Milton Keynes Dons,Crewe,7,7,False
+E3,1819,2019-01-19,Morecambe,Stevenage,7,7,False
+E3,1819,2019-01-19,Newport County,Exeter,7,7,False
+E3,1819,2019-01-19,Tranmere,Swindon,7,7,False
+E3,1819,2019-01-19,Yeovil,Newport County,7,7,False
+E3,1819,2019-01-19,Colchester,Mansfield,7,4,False
+E3,1819,2019-01-19,Carlisle,Cheltenham,7,7,False
+E3,1819,2019-01-19,Cambridge,Northampton,7,7,False
+E3,1819,2019-01-22,Yeovil,Lincoln,3,3,True
+E3,1819,2019-01-22,Forest Green,Grimsby,3,3,True
+E3,1819,2019-01-26,Exeter,Cambridge,7,7,False
+E3,1819,2019-01-26,Grimsby,Milton Keynes Dons,4,7,False
+E3,1819,2019-01-26,Mansfield,Tranmere,7,7,False
+E3,1819,2019-01-26,Northampton,Morecambe,7,7,False
+E3,1819,2019-01-26,Port Vale,Carlisle,7,7,False
+E3,1819,2019-01-26,Stevenage,Forest Green,7,4,False
+E3,1819,2019-01-26,Swindon,Crawley Town,7,7,False
+E3,1819,2019-01-26,Bury,Lincoln,7,4,False
+E3,1819,2019-01-26,Crewe,Colchester,7,7,False
+E3,1819,2019-01-26,Cheltenham,Mansfield,7,7,False
+E3,1819,2019-01-29,Milton Keynes Dons,Oldham,3,10,True
+E3,1819,2019-01-29,Forest Green,Mansfield,3,3,True
+E3,1819,2019-01-29,Newport County,Port Vale,10,3,True
+E3,1819,2019-02-02,Bury,Crawley Town,7,7,False
+E3,1819,2019-02-02,Exeter,Milton Keynes Dons,7,4,False
+E3,1819,2019-02-02,Grimsby,Newport County,7,4,False
+E3,1819,2019-02-02,Mansfield,Mansfield,4,4,False
+E3,1819,2019-02-02,Northampton,Colchester,7,7,False
+E3,1819,2019-02-02,Newport County,Lincoln,4,7,False
+E3,1819,2019-02-02,Stevenage,Yeovil,7,11,False
+E3,1819,2019-02-05,Cheltenham,Yeovil,10,3,True
+E3,1819,2019-02-05,Tranmere,Northampton,10,3,True
+E3,1819,2019-02-09,Lincoln,Northampton,7,4,False
+E3,1819,2019-02-09,Mansfield,Crewe,7,14,False
+E3,1819,2019-02-09,Milton Keynes Dons,Swindon,7,14,False
+E3,1819,2019-02-09,Morecambe,Bury,14,7,False
+E3,1819,2019-02-09,Newport County,Mansfield,7,7,False
+E3,1819,2019-02-09,Tranmere,Stevenage,4,7,False
+E3,1819,2019-02-09,Yeovil,Grimsby,4,7,False
+E3,1819,2019-02-09,Carlisle,Exeter,14,7,False
+E3,1819,2019-02-09,Cambridge,Port Vale,14,11,False
+E3,1819,2019-02-09,Colchester,Cheltenham,7,4,False
+E3,1819,2019-02-09,Crawley Town,Oldham,7,11,False
+E3,1819,2019-02-09,Forest Green,Newport County,11,7,False
+E3,1819,2019-02-12,Swindon,Forest Green,3,3,True
+E3,1819,2019-02-12,Crewe,Carlisle,3,3,True
+E3,1819,2019-02-12,Newport County,Milton Keynes Dons,3,3,True
+E3,1819,2019-02-12,Oldham,Yeovil,3,3,True
+E3,1819,2019-02-16,Forest Green,Yeovil,4,4,False
+E3,1819,2019-02-16,Grimsby,Cheltenham,7,7,False
+E3,1819,2019-02-16,Lincoln,Stevenage,7,7,False
+E3,1819,2019-02-16,Mansfield,Colchester,7,7,False
+E3,1819,2019-02-16,Northampton,Crawley Town,7,7,False
+E3,1819,2019-02-16,Newport County,Mansfield,4,7,False
+E3,1819,2019-02-16,Oldham,Crewe,4,4,False
+E3,1819,2019-02-16,Port Vale,Morecambe,7,7,False
+E3,1819,2019-02-16,Cambridge,Tranmere,7,7,False
+E3,1819,2019-02-16,Carlisle,Milton Keynes Dons,4,4,False
+E3,1819,2019-02-16,Exeter,Bury,7,7,False
+E3,1819,2019-02-19,Port Vale,Tranmere,3,3,True
+E3,1819,2019-02-19,Cheltenham,Cambridge,3,3,True
+E3,1819,2019-02-19,Newport County,Newport County,3,3,True
+E3,1819,2019-02-19,Oldham,Morecambe,3,3,True
+E3,1819,2019-02-23,Crawley Town,Mansfield,7,7,False
+E3,1819,2019-02-23,Crewe,Exeter,7,7,False
+E3,1819,2019-02-23,Mansfield,Forest Green,7,7,False
+E3,1819,2019-02-23,Milton Keynes Dons,Newport County,7,4,False
+E3,1819,2019-02-23,Morecambe,Lincoln,4,7,False
+E3,1819,2019-02-23,Stevenage,Northampton,7,7,False
+E3,1819,2019-02-23,Swindon,Grimsby,11,7,False
+E3,1819,2019-02-23,Tranmere,Newport County,4,4,False
+E3,1819,2019-02-23,Yeovil,Cambridge,7,4,False
+E3,1819,2019-02-23,Colchester,Carlisle,7,7,False
+E3,1819,2019-02-23,Cheltenham,Port Vale,4,4,False
+E3,1819,2019-02-23,Bury,Oldham,7,4,False
+E3,1819,2019-02-26,Lincoln,Exeter,3,3,True
+E3,1819,2019-03-02,Forest Green,Lincoln,7,4,False
+E3,1819,2019-03-02,Grimsby,Cambridge,7,7,False
+E3,1819,2019-03-02,Mansfield,Cheltenham,7,7,False
+E3,1819,2019-03-02,Milton Keynes Dons,Crawley Town,7,7,False
+E3,1819,2019-03-02,Newport County,Carlisle,7,7,False
+E3,1819,2019-03-02,Newport County,Port Vale,7,7,False
+E3,1819,2019-03-02,Oldham,Stevenage,7,7,False
+E3,1819,2019-03-02,Swindon,Colchester,7,7,False
+E3,1819,2019-03-02,Yeovil,Morecambe,7,7,False
+E3,1819,2019-03-02,Crewe,Northampton,7,7,False
+E3,1819,2019-03-02,Exeter,Tranmere,4,7,False
+E3,1819,2019-03-02,Bury,Mansfield,7,7,False
+E3,1819,2019-03-05,Cheltenham,Bury,3,3,True
+E3,1819,2019-03-08,Lincoln,Yeovil,6,6,False
+E3,1819,2019-03-08,Tranmere,Crewe,6,6,False
+E3,1819,2019-03-09,Northampton,Exeter,7,7,False
+E3,1819,2019-03-09,Port Vale,Mansfield,7,7,False
+E3,1819,2019-03-09,Stevenage,Bury,7,4,False
+E3,1819,2019-03-09,Carlisle,Swindon,7,7,False
+E3,1819,2019-03-09,Cambridge,Oldham,7,7,False
+E3,1819,2019-03-09,Colchester,Newport County,7,7,False
+E3,1819,2019-03-09,Crawley Town,Grimsby,7,7,False
+E3,1819,2019-03-09,Cheltenham,Newport County,4,7,False
+E3,1819,2019-03-09,Mansfield,Milton Keynes Dons,7,7,False
+E3,1819,2019-03-09,Morecambe,Forest Green,7,7,False
+E3,1819,2019-03-12,Northampton,Newport County,3,3,True
+E3,1819,2019-03-12,Stevenage,Swindon,3,3,True
+E3,1819,2019-03-12,Tranmere,Grimsby,4,3,True
+E3,1819,2019-03-12,Cambridge,Crewe,3,4,True
+E3,1819,2019-03-12,Carlisle,Newport County,3,3,True
+E3,1819,2019-03-12,Colchester,Forest Green,3,3,True
+E3,1819,2019-03-12,Crawley Town,Mansfield,3,3,True
+E3,1819,2019-03-12,Port Vale,Yeovil,3,4,True
+E3,1819,2019-03-12,Lincoln,Oldham,4,3,True
+E3,1819,2019-03-12,Morecambe,Milton Keynes Dons,3,3,True
+E3,1819,2019-03-15,Newport County,Cheltenham,3,6,False
+E3,1819,2019-03-16,Yeovil,Mansfield,4,4,False
+E3,1819,2019-03-16,Crewe,Crawley Town,4,4,False
+E3,1819,2019-03-16,Exeter,Colchester,7,4,False
+E3,1819,2019-03-16,Forest Green,Carlisle,4,4,False
+E3,1819,2019-03-16,Grimsby,Northampton,4,4,False
+E3,1819,2019-03-16,Milton Keynes Dons,Stevenage,4,4,False
+E3,1819,2019-03-16,Newport County,Morecambe,1,4,False
+E3,1819,2019-03-16,Swindon,Port Vale,4,4,False
+E3,1819,2019-03-18,Mansfield,Lincoln,2,6,False
+E3,1819,2019-03-23,Mansfield,Crewe,5,7,False
+E3,1819,2019-03-23,Carlisle,Cambridge,7,11,False
+E3,1819,2019-03-23,Cheltenham,Northampton,8,7,False
+E3,1819,2019-03-23,Colchester,Tranmere,7,11,False
+E3,1819,2019-03-23,Crawley Town,Lincoln,7,5,False
+E3,1819,2019-03-23,Grimsby,Bury,7,14,False
+E3,1819,2019-03-23,Mansfield,Stevenage,5,7,False
+E3,1819,2019-03-23,Milton Keynes Dons,Yeovil,7,7,False
+E3,1819,2019-03-23,Newport County,Exeter,7,7,False
+E3,1819,2019-03-23,Port Vale,Forest Green,7,7,False
+E3,1819,2019-03-23,Swindon,Morecambe,7,7,False
+E3,1819,2019-03-30,Exeter,Mansfield,7,7,False
+E3,1819,2019-03-30,Forest Green,Milton Keynes Dons,7,7,False
+E3,1819,2019-03-30,Lincoln,Mansfield,7,7,False
+E3,1819,2019-03-30,Morecambe,Crawley Town,7,7,False
+E3,1819,2019-03-30,Northampton,Port Vale,7,7,False
+E3,1819,2019-03-30,Oldham,Grimsby,18,7,False
+E3,1819,2019-03-30,Stevenage,Newport County,7,7,False
+E3,1819,2019-03-30,Tranmere,Carlisle,7,7,False
+E3,1819,2019-03-30,Yeovil,Newport County,7,7,False
+E3,1819,2019-03-30,Crewe,Cheltenham,7,7,False
+E3,1819,2019-03-30,Cambridge,Colchester,7,7,False
+E3,1819,2019-03-30,Bury,Swindon,7,7,False
+E3,1819,2019-04-02,Oldham,Tranmere,3,3,True
+E3,1819,2019-04-02,Bury,Cambridge,3,3,True
+E3,1819,2019-04-06,Crawley Town,Forest Green,7,7,False
+E3,1819,2019-04-06,Grimsby,Stevenage,7,7,False
+E3,1819,2019-04-06,Mansfield,Morecambe,7,7,False
+E3,1819,2019-04-06,Mansfield,Cambridge,7,4,False
+E3,1819,2019-04-06,Milton Keynes Dons,Lincoln,7,7,False
+E3,1819,2019-04-06,Newport County,Tranmere,7,4,False
+E3,1819,2019-04-06,Newport County,Northampton,7,7,False
+E3,1819,2019-04-06,Port Vale,Crewe,7,7,False
+E3,1819,2019-04-06,Swindon,Yeovil,7,7,False
+E3,1819,2019-04-06,Cheltenham,Exeter,7,7,False
+E3,1819,2019-04-06,Carlisle,Bury,7,4,False
+E3,1819,2019-04-06,Colchester,Oldham,7,4,False
+E3,1819,2019-04-09,Newport County,Swindon,3,3,True
+E3,1819,2019-04-09,Mansfield,Exeter,3,3,True
+E3,1819,2019-04-13,Morecambe,Grimsby,7,7,False
+E3,1819,2019-04-13,Northampton,Mansfield,7,4,False
+E3,1819,2019-04-13,Oldham,Swindon,7,4,False
+E3,1819,2019-04-13,Stevenage,Carlisle,7,7,False
+E3,1819,2019-04-13,Tranmere,Milton Keynes Dons,7,7,False
+E3,1819,2019-04-13,Yeovil,Crawley Town,7,7,False
+E3,1819,2019-04-13,Bury,Colchester,7,7,False
+E3,1819,2019-04-13,Cambridge,Newport County,7,4,False
+E3,1819,2019-04-13,Crewe,Newport County,7,4,False
+E3,1819,2019-04-13,Forest Green,Mansfield,7,4,False
+E3,1819,2019-04-13,Lincoln,Cheltenham,7,7,False
+E3,1819,2019-04-13,Exeter,Port Vale,4,7,False
+E3,1819,2019-04-19,Colchester,Grimsby,6,6,False
+E3,1819,2019-04-19,Crewe,Yeovil,6,6,False
+E3,1819,2019-04-19,Exeter,Crawley Town,6,6,False
+E3,1819,2019-04-19,Mansfield,Morecambe,6,6,False
+E3,1819,2019-04-19,Newport County,Bury,6,6,False
+E3,1819,2019-04-19,Northampton,Mansfield,6,6,False
+E3,1819,2019-04-19,Cambridge,Swindon,6,6,False
+E3,1819,2019-04-19,Carlisle,Lincoln,6,6,False
+E3,1819,2019-04-19,Cheltenham,Oldham,6,6,False
+E3,1819,2019-04-19,Newport County,Milton Keynes Dons,6,6,False
+E3,1819,2019-04-19,Port Vale,Stevenage,6,6,False
+E3,1819,2019-04-19,Tranmere,Forest Green,6,6,False
+E3,1819,2019-04-22,Forest Green,Cambridge,3,3,False
+E3,1819,2019-04-22,Bury,Northampton,3,3,False
+E3,1819,2019-04-22,Crawley Town,Newport County,3,3,False
+E3,1819,2019-04-22,Grimsby,Carlisle,3,3,False
+E3,1819,2019-04-22,Lincoln,Tranmere,3,3,False
+E3,1819,2019-04-22,Mansfield,Newport County,3,3,False
+E3,1819,2019-04-22,Milton Keynes Dons,Port Vale,3,3,False
+E3,1819,2019-04-22,Morecambe,Cheltenham,3,3,False
+E3,1819,2019-04-22,Oldham,Mansfield,3,3,False
+E3,1819,2019-04-22,Stevenage,Exeter,3,3,False
+E3,1819,2019-04-22,Swindon,Crewe,3,3,False
+E3,1819,2019-04-22,Yeovil,Colchester,3,3,False
+E3,1819,2019-04-27,Colchester,Milton Keynes Dons,5,5,False
+E3,1819,2019-04-27,Crewe,Forest Green,5,5,False
+E3,1819,2019-04-27,Exeter,Oldham,5,5,False
+E3,1819,2019-04-27,Mansfield,Stevenage,5,5,False
+E3,1819,2019-04-27,Newport County,Lincoln,5,5,False
+E3,1819,2019-04-27,Northampton,Yeovil,5,5,False
+E3,1819,2019-04-27,Newport County,Grimsby,5,5,False
+E3,1819,2019-04-27,Port Vale,Mansfield,5,5,False
+E3,1819,2019-04-27,Cheltenham,Swindon,5,5,False
+E3,1819,2019-04-27,Carlisle,Crawley Town,5,5,False
+E3,1819,2019-04-27,Cambridge,Morecambe,5,5,False
+E3,1819,2019-04-30,Tranmere,Bury,8,8,True
+E3,1819,2019-04-30,Newport County,Oldham,3,3,True
+E3,1819,2019-05-04,Grimsby,Crewe,7,7,False
+E3,1819,2019-05-04,Lincoln,Colchester,7,7,False
+E3,1819,2019-05-04,Mansfield,Cambridge,7,7,False
+E3,1819,2019-05-04,Milton Keynes Dons,Mansfield,7,7,False
+E3,1819,2019-05-04,Morecambe,Newport County,7,4,False
+E3,1819,2019-05-04,Oldham,Northampton,4,7,False
+E3,1819,2019-05-04,Stevenage,Cheltenham,7,7,False
+E3,1819,2019-05-04,Swindon,Newport County,7,4,False
+E3,1819,2019-05-04,Yeovil,Carlisle,7,7,False
+E3,1819,2019-05-04,Crawley Town,Tranmere,7,4,False
+E3,1819,2019-05-04,Bury,Port Vale,4,7,False
+E3,1819,2019-05-04,Forest Green,Exeter,7,7,False

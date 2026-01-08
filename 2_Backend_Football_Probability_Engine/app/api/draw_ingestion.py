@@ -99,6 +99,31 @@ class IngestOddsMovementRequest(BaseModel):
     draw_odds: Optional[float] = None
 
 
+class IngestInjuriesRequest(BaseModel):
+    team_id: int
+    fixture_id: int
+    key_players_missing: Optional[int] = None
+    injury_severity: Optional[float] = None  # 0.0-1.0
+    attackers_missing: Optional[int] = None
+    midfielders_missing: Optional[int] = None
+    defenders_missing: Optional[int] = None
+    goalkeepers_missing: Optional[int] = None
+    notes: Optional[str] = None
+
+
+class BatchIngestInjuriesRequest(BaseModel):
+    injuries: List[IngestInjuriesRequest]
+
+
+class BatchIngestRequest(BaseModel):
+    """Request model for batch import all draw structural data"""
+    use_all_leagues: bool = True
+    use_all_seasons: bool = True
+    max_years: Optional[int] = 10
+    league_codes: Optional[List[str]] = None
+    use_hybrid_import: bool = True
+
+
 class BatchIngestOddsMovementRequest(BaseModel):
     league_codes: Optional[List[str]] = None
     season: Optional[str] = "ALL"
@@ -1423,6 +1448,147 @@ async def batch_ingest_xg_data(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/injuries", response_model=ApiResponse)
+async def record_injuries(
+    request: IngestInjuriesRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """Record injury data for a team in a fixture"""
+    try:
+        from app.services.injury_tracking import record_team_injuries
+        
+        result = record_team_injuries(
+            db=db,
+            team_id=request.team_id,
+            fixture_id=request.fixture_id,
+            key_players_missing=request.key_players_missing,
+            injury_severity=request.injury_severity,
+            attackers_missing=request.attackers_missing,
+            midfielders_missing=request.midfielders_missing,
+            defenders_missing=request.defenders_missing,
+            goalkeepers_missing=request.goalkeepers_missing,
+            notes=request.notes
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(status_code=400, detail=result.get("error", "Failed to record injuries"))
+        
+        return ApiResponse(
+            data=result,
+            success=True,
+            message=f"Injuries recorded successfully ({result.get('action', 'created')})"
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error recording injuries: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/injuries/{fixture_id}/{team_id}", response_model=ApiResponse)
+async def get_injuries(
+    fixture_id: int,
+    team_id: int,
+    db: Session = Depends(get_db)
+):
+    """Get injury data for a team in a fixture"""
+    try:
+        from app.services.injury_tracking import get_team_injuries_for_fixture
+        
+        injuries = get_team_injuries_for_fixture(db, team_id, fixture_id)
+        
+        if not injuries:
+            return ApiResponse(
+                data=None,
+                success=True,
+                message="No injury data found for this team/fixture"
+            )
+        
+        return ApiResponse(
+            data={
+                "id": injuries.id,
+                "team_id": injuries.team_id,
+                "fixture_id": injuries.fixture_id,
+                "key_players_missing": injuries.key_players_missing,
+                "injury_severity": injuries.injury_severity,
+                "attackers_missing": injuries.attackers_missing,
+                "midfielders_missing": injuries.midfielders_missing,
+                "defenders_missing": injuries.defenders_missing,
+                "goalkeepers_missing": injuries.goalkeepers_missing,
+                "notes": injuries.notes,
+                "recorded_at": injuries.recorded_at.isoformat() if injuries.recorded_at else None
+            },
+            success=True,
+            message="Injury data retrieved successfully"
+        )
+    except Exception as e:
+        logger.error(f"Error getting injuries: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/injuries/batch", response_model=ApiResponse)
+async def batch_record_injuries(
+    request: BatchIngestInjuriesRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """Batch record injuries for multiple teams/fixtures"""
+    try:
+        from app.services.injury_tracking import record_team_injuries
+        
+        results = []
+        successful = 0
+        failed = 0
+        
+        for injury_request in request.injuries:
+            try:
+                result = record_team_injuries(
+                    db=db,
+                    team_id=injury_request.team_id,
+                    fixture_id=injury_request.fixture_id,
+                    key_players_missing=injury_request.key_players_missing,
+                    injury_severity=injury_request.injury_severity,
+                    attackers_missing=injury_request.attackers_missing,
+                    midfielders_missing=injury_request.midfielders_missing,
+                    defenders_missing=injury_request.defenders_missing,
+                    goalkeepers_missing=injury_request.goalkeepers_missing,
+                    notes=injury_request.notes
+                )
+                
+                if result.get("success"):
+                    successful += 1
+                else:
+                    failed += 1
+                
+                results.append({
+                    "team_id": injury_request.team_id,
+                    "fixture_id": injury_request.fixture_id,
+                    "success": result.get("success"),
+                    "error": result.get("error")
+                })
+            except Exception as e:
+                failed += 1
+                results.append({
+                    "team_id": injury_request.team_id,
+                    "fixture_id": injury_request.fixture_id,
+                    "success": False,
+                    "error": str(e)
+                })
+        
+        return ApiResponse(
+            data={
+                "successful": successful,
+                "failed": failed,
+                "total": len(request.injuries),
+                "results": results
+            },
+            success=True,
+            message=f"Injuries recorded: {successful} successful, {failed} failed"
+        )
+    except Exception as e:
+        logger.error(f"Error in batch injury recording: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.get("/xg-data/summary", response_model=ApiResponse)
 async def get_xg_data_summary(
     db: Session = Depends(get_db)
@@ -1538,5 +1704,273 @@ async def get_xg_data_summary(
         )
     except Exception as e:
         logger.error(f"Error getting xG data summary: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/import-all", response_model=ApiResponse)
+async def import_all_draw_structural_data(
+    request: BatchIngestRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """
+    Import all draw structural data in one click.
+    
+    Order of import:
+    1. League Draw Priors
+    2. League Structure
+    3. Elo Ratings
+    4. H2H Stats
+    5. Odds Movement
+    6. Referee Stats
+    7. Rest Days
+    8. XG Data
+    9. Weather (LAST)
+    
+    Args:
+        use_all_leagues: Import for all leagues
+        use_all_seasons: Import for all seasons
+        max_years: Maximum years to look back (if use_all_seasons=True)
+        league_codes: Optional list of league codes to import (if use_all_leagues=False)
+    
+    Returns:
+        Dict with import statistics for each data type
+    """
+    try:
+        results = {
+            "league_priors": {"success": False, "message": "Not started"},
+            "league_structure": {"success": False, "message": "Not started"},
+            "elo_ratings": {"success": False, "message": "Not started"},
+            "h2h_stats": {"success": False, "message": "Not started"},
+            "odds_movement": {"success": False, "message": "Not started"},
+            "referee_stats": {"success": False, "message": "Not started"},
+            "rest_days": {"success": False, "message": "Not started"},
+            "xg_data": {"success": False, "message": "Not started"},
+            "weather": {"success": False, "message": "Not started"}
+        }
+        
+        # Extract parameters from request
+        use_all_leagues = request.use_all_leagues
+        use_all_seasons = request.use_all_seasons
+        max_years = request.max_years
+        league_codes = request.league_codes
+        use_hybrid_import = request.use_hybrid_import
+        
+        # 1. League Draw Priors
+        try:
+            if use_hybrid_import:
+                # Use hybrid CSV-first approach
+                from app.services.ingestion.hybrid_import import hybrid_import_league_priors
+                result = hybrid_import_league_priors(
+                    db,
+                    league_codes=league_codes,
+                    seasons=None,  # Will be determined from CSV files
+                    use_all_leagues=use_all_leagues,
+                    use_all_seasons=use_all_seasons,
+                    max_years=max_years,
+                    save_csv=True
+                )
+                logger.info(f"✓ League Draw Priors (Hybrid): {result.get('csv_imported', 0)} from CSV, {result.get('calculated', 0)} calculated")
+            else:
+                # Use traditional calculate-from-matches approach
+                from app.services.ingestion.ingest_league_draw_priors import batch_ingest_league_priors
+                result = batch_ingest_league_priors(
+                    db,
+                    league_codes=league_codes,
+                    use_all_leagues=use_all_leagues,
+                    use_all_seasons=use_all_seasons,
+                    max_years=max_years,
+                    save_csv=True
+                )
+                logger.info(f"✓ League Draw Priors: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+            results["league_priors"] = result
+        except Exception as e:
+            logger.error(f"Error importing league priors: {e}", exc_info=True)
+            results["league_priors"] = {"success": False, "error": str(e)}
+        
+        # 2. League Structure
+        try:
+            from app.services.ingestion.ingest_league_structure import batch_ingest_league_structure
+            result = batch_ingest_league_structure(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["league_structure"] = result
+            logger.info(f"✓ League Structure: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing league structure: {e}", exc_info=True)
+            results["league_structure"] = {"success": False, "error": str(e)}
+        
+        # 3. Elo Ratings
+        try:
+            from app.services.ingestion.ingest_elo_ratings import batch_calculate_elo_from_matches
+            result = batch_calculate_elo_from_matches(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["elo_ratings"] = result
+            logger.info(f"✓ Elo Ratings: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing Elo ratings: {e}", exc_info=True)
+            results["elo_ratings"] = {"success": False, "error": str(e)}
+        
+        # 4. H2H Stats
+        try:
+            from app.services.ingestion.ingest_h2h_stats import batch_ingest_h2h_stats
+            result = batch_ingest_h2h_stats(
+                db,
+                league_codes=league_codes,
+                season="ALL",
+                use_all_leagues=use_all_leagues,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["h2h_stats"] = result
+            logger.info(f"✓ H2H Stats: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing H2H stats: {e}", exc_info=True)
+            results["h2h_stats"] = {"success": False, "error": str(e)}
+        
+        # 5. Odds Movement
+        try:
+            from app.services.ingestion.ingest_odds_movement import batch_ingest_odds_movement_from_matches
+            result = batch_ingest_odds_movement_from_matches(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["odds_movement"] = result
+            logger.info(f"✓ Odds Movement: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing odds movement: {e}", exc_info=True)
+            results["odds_movement"] = {"success": False, "error": str(e)}
+        
+        # 6. Referee Stats
+        try:
+            from app.services.ingestion.ingest_referee_stats import batch_ingest_referee_stats
+            result = batch_ingest_referee_stats(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["referee_stats"] = result
+            logger.info(f"✓ Referee Stats: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing referee stats: {e}", exc_info=True)
+            results["referee_stats"] = {"success": False, "error": str(e)}
+        
+        # 7. Rest Days
+        try:
+            from app.services.ingestion.ingest_rest_days import batch_ingest_rest_days_from_matches
+            result = batch_ingest_rest_days_from_matches(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["rest_days"] = result
+            logger.info(f"✓ Rest Days: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing rest days: {e}", exc_info=True)
+            results["rest_days"] = {"success": False, "error": str(e)}
+        
+        # 8. XG Data
+        try:
+            from app.services.ingestion.ingest_xg_data import batch_ingest_xg_from_matches
+            from app.db.models import League
+            # Convert league_codes to league_ids if needed
+            league_ids = None
+            if league_codes:
+                leagues = db.query(League).filter(League.code.in_(league_codes)).all()
+                league_ids = [l.id for l in leagues]
+            elif use_all_leagues:
+                leagues = db.query(League).all()
+                league_ids = [l.id for l in leagues]
+            
+            # Get seasons list
+            seasons = None
+            if use_all_seasons:
+                from app.services.data_ingestion import get_seasons_list
+                seasons = get_seasons_list(max_years)
+            
+            result = batch_ingest_xg_from_matches(
+                db,
+                league_ids=league_ids,
+                seasons=seasons,
+                max_years=max_years
+            )
+            results["xg_data"] = result
+            logger.info(f"✓ XG Data: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing xG data: {e}", exc_info=True)
+            results["xg_data"] = {"success": False, "error": str(e)}
+        
+        # 9. Weather (LAST)
+        try:
+            from app.services.ingestion.ingest_weather import batch_ingest_weather_from_matches
+            result = batch_ingest_weather_from_matches(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True
+            )
+            results["weather"] = result
+            logger.info(f"✓ Weather: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing weather: {e}", exc_info=True)
+            results["weather"] = {"success": False, "error": str(e)}
+        
+        # Calculate summary
+        total_successful = sum(
+            r.get("successful", 0) if isinstance(r, dict) and "successful" in r else 0
+            for r in results.values()
+        )
+        total_failed = sum(
+            r.get("failed", 0) if isinstance(r, dict) and "failed" in r else 0
+            for r in results.values()
+        )
+        
+        all_success = all(
+            r.get("success", False) if isinstance(r, dict) else False
+            for r in results.values()
+        )
+        
+        return ApiResponse(
+            data={
+                "results": results,
+                "summary": {
+                    "total_successful": total_successful,
+                    "total_failed": total_failed,
+                    "all_completed": all_success
+                }
+            },
+            success=all_success,
+            message=f"Import completed: {total_successful} successful, {total_failed} failed"
+        )
+    except Exception as e:
+        logger.error(f"Error in batch import: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 

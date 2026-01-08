@@ -1,0 +1,234 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+G1,2425,2024-08-17,PAOK,Panserraikos,90,98,False
+G1,2425,2024-08-17,Volos NFC,Olympiakos,98,90,False
+G1,2425,2024-08-18,Levadeiakos,Athens Kallithea,463,7,False
+G1,2425,2024-08-18,Panathinaikos,Asteras Tripolis,91,99,False
+G1,2425,2024-08-18,AEK,OFI Crete,91,99,False
+G1,2425,2024-08-18,Atromitos,Aris,99,91,False
+G1,2425,2024-08-19,Panetolikos,Lamia,100,92,False
+G1,2425,2024-08-24,AEK,Lamia,6,5,False
+G1,2425,2024-08-24,Panserraikos,Aris,7,6,False
+G1,2425,2024-08-24,OFI Crete,Atromitos,6,6,False
+G1,2425,2024-08-25,Panathinaikos,Levadeiakos,7,7,False
+G1,2425,2024-08-25,Asteras Tripolis,Volos NFC,7,8,False
+G1,2425,2024-08-25,PAOK,Panetolikos,8,6,False
+G1,2425,2024-08-26,Olympiakos,Athens Kallithea,9,8,False
+G1,2425,2024-08-31,Panetolikos,Panserraikos,6,7,False
+G1,2425,2024-08-31,Aris,Asteras Tripolis,7,6,False
+G1,2425,2024-08-31,Lamia,Olympiakos,7,5,False
+G1,2425,2024-09-01,Atromitos,PAOK,8,7,False
+G1,2425,2024-09-01,Athens Kallithea,Panathinaikos,6,7,False
+G1,2425,2024-09-01,Levadeiakos,AEK,7,8,False
+G1,2425,2024-09-01,Volos NFC,OFI Crete,7,8,False
+G1,2425,2024-09-14,Asteras Tripolis,Atromitos,14,13,False
+G1,2425,2024-09-14,Lamia,Athens Kallithea,14,13,False
+G1,2425,2024-09-15,OFI Crete,Aris,14,15,False
+G1,2425,2024-09-15,PAOK,Panathinaikos,14,14,False
+G1,2425,2024-09-15,Panserraikos,Levadeiakos,15,14,False
+G1,2425,2024-09-15,Olympiakos,Panetolikos,15,15,False
+G1,2425,2024-09-16,AEK,Volos NFC,15,15,False
+G1,2425,2024-09-21,Aris,Olympiakos,6,6,False
+G1,2425,2024-09-21,Panetolikos,Asteras Tripolis,6,7,False
+G1,2425,2024-09-21,Volos NFC,PAOK,5,6,False
+G1,2425,2024-09-22,Levadeiakos,OFI Crete,7,7,False
+G1,2425,2024-09-22,Panathinaikos,Panserraikos,7,7,False
+G1,2425,2024-09-22,Atromitos,Lamia,8,8,False
+G1,2425,2024-09-22,Athens Kallithea,AEK,8,6,False
+G1,2425,2024-09-28,Volos NFC,Athens Kallithea,7,6,False
+G1,2425,2024-09-28,Asteras Tripolis,Levadeiakos,7,6,False
+G1,2425,2024-09-29,PAOK,Aris,8,8,False
+G1,2425,2024-09-29,AEK,Panathinaikos,7,7,False
+G1,2425,2024-09-29,OFI Crete,Panetolikos,7,8,False
+G1,2425,2024-09-29,Olympiakos,Atromitos,8,7,False
+G1,2425,2024-09-30,Lamia,Panserraikos,8,8,False
+G1,2425,2024-10-05,Aris,Lamia,6,5,False
+G1,2425,2024-10-05,Panetolikos,AEK,6,6,False
+G1,2425,2024-10-05,Atromitos,Volos NFC,6,7,False
+G1,2425,2024-10-06,Levadeiakos,PAOK,8,7,False
+G1,2425,2024-10-06,Panathinaikos,Olympiakos,7,7,False
+G1,2425,2024-10-06,Panserraikos,OFI Crete,6,7,False
+G1,2425,2024-10-06,Athens Kallithea,Asteras Tripolis,8,8,False
+G1,2425,2024-10-19,Lamia,Asteras Tripolis,14,13,False
+G1,2425,2024-10-19,Volos NFC,Panserraikos,14,13,False
+G1,2425,2024-10-19,Atromitos,Panetolikos,14,14,False
+G1,2425,2024-10-20,AEK,PAOK,15,14,False
+G1,2425,2024-10-20,Olympiakos,Levadeiakos,14,14,False
+G1,2425,2024-10-20,OFI Crete,Panathinaikos,14,14,False
+G1,2425,2024-10-20,Aris,Athens Kallithea,15,14,False
+G1,2425,2024-10-26,Levadeiakos,Lamia,6,7,False
+G1,2425,2024-10-26,Panetolikos,Volos NFC,7,7,False
+G1,2425,2024-10-26,Panserraikos,AEK,7,6,False
+G1,2425,2024-10-27,PAOK,OFI Crete,7,7,False
+G1,2425,2024-10-27,Asteras Tripolis,Olympiakos,8,7,False
+G1,2425,2024-10-27,Panathinaikos,Aris,7,7,False
+G1,2425,2024-10-27,Athens Kallithea,Atromitos,7,8,False
+G1,2425,2024-11-02,Athens Kallithea,Panetolikos,6,7,False
+G1,2425,2024-11-02,Olympiakos,Panserraikos,6,7,False
+G1,2425,2024-11-03,Lamia,PAOK,8,7,False
+G1,2425,2024-11-03,Aris,Levadeiakos,7,8,False
+G1,2425,2024-11-03,Atromitos,AEK,7,8,False
+G1,2425,2024-11-03,Volos NFC,Panathinaikos,8,7,False
+G1,2425,2024-11-04,Asteras Tripolis,OFI Crete,8,8,False
+G1,2425,2024-11-09,AEK,Asteras Tripolis,6,5,False
+G1,2425,2024-11-09,Panserraikos,Atromitos,7,6,False
+G1,2425,2024-11-09,Panetolikos,Aris,7,6,False
+G1,2425,2024-11-10,Panathinaikos,Lamia,7,7,False
+G1,2425,2024-11-10,PAOK,Olympiakos,7,8,False
+G1,2425,2024-11-10,OFI Crete,Athens Kallithea,6,8,False
+G1,2425,2024-11-10,Levadeiakos,Volos NFC,7,7,False
+G1,2425,2024-11-22,Athens Kallithea,Panserraikos,12,13,False
+G1,2425,2024-11-23,Aris,Volos NFC,14,13,False
+G1,2425,2024-11-23,Lamia,OFI Crete,13,13,False
+G1,2425,2024-11-24,Olympiakos,AEK,14,15,False
+G1,2425,2024-11-24,Panetolikos,Panathinaikos,15,14,False
+G1,2425,2024-11-24,Asteras Tripolis,PAOK,15,14,False
+G1,2425,2024-11-25,Atromitos,Levadeiakos,16,15,False
+G1,2425,2024-11-30,AEK,Aris,6,7,False
+G1,2425,2024-11-30,Levadeiakos,Panetolikos,5,6,False
+G1,2425,2024-11-30,Volos NFC,Lamia,7,7,False
+G1,2425,2024-12-01,PAOK,Athens Kallithea,7,9,False
+G1,2425,2024-12-01,Panathinaikos,Atromitos,7,6,False
+G1,2425,2024-12-01,Panserraikos,Asteras Tripolis,9,7,False
+G1,2425,2024-12-01,OFI Crete,Olympiakos,8,7,False
+G1,2425,2024-12-07,Aris,Atromitos,7,6,False
+G1,2425,2024-12-07,Olympiakos,Volos NFC,6,7,False
+G1,2425,2024-12-08,Asteras Tripolis,Panathinaikos,7,7,False
+G1,2425,2024-12-08,Lamia,Panetolikos,8,8,False
+G1,2425,2024-12-08,OFI Crete,AEK,7,8,False
+G1,2425,2024-12-08,Panserraikos,PAOK,7,7,False
+G1,2425,2024-12-09,Athens Kallithea,Levadeiakos,8,9,False
+G1,2425,2024-12-14,Volos NFC,Asteras Tripolis,7,6,False
+G1,2425,2024-12-14,Atromitos,OFI Crete,7,6,False
+G1,2425,2024-12-14,Lamia,AEK,6,6,False
+G1,2425,2024-12-15,Panetolikos,PAOK,7,7,False
+G1,2425,2024-12-15,Aris,Panserraikos,8,7,False
+G1,2425,2024-12-15,Levadeiakos,Panathinaikos,6,7,False
+G1,2425,2024-12-16,Athens Kallithea,Olympiakos,7,9,False
+G1,2425,2024-12-21,Olympiakos,Lamia,5,7,False
+G1,2425,2024-12-22,PAOK,Atromitos,7,8,False
+G1,2425,2024-12-22,AEK,Levadeiakos,8,7,False
+G1,2425,2024-12-22,Panserraikos,Panetolikos,7,7,False
+G1,2425,2024-12-22,Panathinaikos,Athens Kallithea,7,6,False
+G1,2425,2024-12-23,OFI Crete,Volos NFC,9,9,False
+G1,2425,2024-12-23,Asteras Tripolis,Aris,9,8,False
+G1,2425,2025-01-04,Athens Kallithea,Lamia,13,14,False
+G1,2425,2025-01-05,Volos NFC,AEK,13,14,False
+G1,2425,2025-01-05,Atromitos,Asteras Tripolis,14,13,False
+G1,2425,2025-01-05,Panathinaikos,PAOK,14,14,False
+G1,2425,2025-01-05,Aris,OFI Crete,13,13,False
+G1,2425,2025-01-05,Levadeiakos,Panserraikos,14,14,False
+G1,2425,2025-01-06,Panetolikos,Olympiakos,15,16,False
+G1,2425,2025-01-11,Olympiakos,Aris,5,6,False
+G1,2425,2025-01-12,AEK,Athens Kallithea,7,8,False
+G1,2425,2025-01-12,PAOK,Volos NFC,7,7,False
+G1,2425,2025-01-12,Lamia,Atromitos,8,7,False
+G1,2425,2025-01-12,Panserraikos,Panathinaikos,7,7,False
+G1,2425,2025-01-13,OFI Crete,Levadeiakos,8,8,False
+G1,2425,2025-01-13,Asteras Tripolis,Panetolikos,8,7,False
+G1,2425,2025-01-18,Athens Kallithea,Volos NFC,6,6,False
+G1,2425,2025-01-19,Panetolikos,OFI Crete,6,6,False
+G1,2425,2025-01-19,Aris,PAOK,8,7,False
+G1,2425,2025-01-19,Panathinaikos,AEK,7,7,False
+G1,2425,2025-01-19,Levadeiakos,Asteras Tripolis,6,6,False
+G1,2425,2025-01-19,Atromitos,Olympiakos,7,8,False
+G1,2425,2025-01-20,Panserraikos,Lamia,8,8,False
+G1,2425,2025-01-24,Volos NFC,Atromitos,6,5,False
+G1,2425,2025-01-25,AEK,Panetolikos,6,6,False
+G1,2425,2025-01-25,Asteras Tripolis,Athens Kallithea,6,7,False
+G1,2425,2025-01-25,OFI Crete,Panserraikos,6,5,False
+G1,2425,2025-01-26,Olympiakos,Panathinaikos,7,7,False
+G1,2425,2025-01-26,PAOK,Levadeiakos,7,7,False
+G1,2425,2025-01-26,Lamia,Aris,6,7,False
+G1,2425,2025-02-01,Panserraikos,Volos NFC,7,8,False
+G1,2425,2025-02-01,Panathinaikos,OFI Crete,6,7,False
+G1,2425,2025-02-02,PAOK,AEK,7,8,False
+G1,2425,2025-02-02,Panetolikos,Atromitos,8,9,False
+G1,2425,2025-02-02,Levadeiakos,Olympiakos,7,7,False
+G1,2425,2025-02-02,Athens Kallithea,Aris,8,7,False
+G1,2425,2025-02-03,Asteras Tripolis,Lamia,9,8,False
+G1,2425,2025-02-08,OFI Crete,PAOK,7,6,False
+G1,2425,2025-02-08,Volos NFC,Panetolikos,7,6,False
+G1,2425,2025-02-09,Olympiakos,Asteras Tripolis,7,6,False
+G1,2425,2025-02-09,Aris,Panathinaikos,7,8,False
+G1,2425,2025-02-09,AEK,Panserraikos,7,8,False
+G1,2425,2025-02-10,Atromitos,Athens Kallithea,8,8,False
+G1,2425,2025-02-10,Lamia,Levadeiakos,7,8,False
+G1,2425,2025-02-15,OFI Crete,Asteras Tripolis,7,6,False
+G1,2425,2025-02-15,AEK,Atromitos,6,5,False
+G1,2425,2025-02-16,Panserraikos,Olympiakos,7,7,False
+G1,2425,2025-02-16,PAOK,Lamia,8,6,False
+G1,2425,2025-02-16,Panetolikos,Athens Kallithea,8,6,False
+G1,2425,2025-02-16,Panathinaikos,Volos NFC,7,8,False
+G1,2425,2025-02-16,Levadeiakos,Aris,6,7,False
+G1,2425,2025-02-22,Volos NFC,Levadeiakos,6,6,False
+G1,2425,2025-02-22,Athens Kallithea,OFI Crete,6,7,False
+G1,2425,2025-02-22,Atromitos,Panserraikos,7,6,False
+G1,2425,2025-02-23,Asteras Tripolis,AEK,8,8,False
+G1,2425,2025-02-23,Olympiakos,PAOK,7,7,False
+G1,2425,2025-02-23,Aris,Panetolikos,7,7,False
+G1,2425,2025-02-23,Lamia,Panathinaikos,7,7,False
+G1,2425,2025-03-01,Panathinaikos,Panetolikos,6,6,False
+G1,2425,2025-03-01,Panserraikos,Athens Kallithea,7,7,False
+G1,2425,2025-03-01,Volos NFC,Aris,7,6,False
+G1,2425,2025-03-02,AEK,Olympiakos,7,7,False
+G1,2425,2025-03-02,PAOK,Asteras Tripolis,7,7,False
+G1,2425,2025-03-02,Levadeiakos,Atromitos,8,8,False
+G1,2425,2025-03-02,OFI Crete,Lamia,8,7,False
+G1,2425,2025-03-09,Atromitos,Panathinaikos,7,8,False
+G1,2425,2025-03-09,Aris,AEK,8,7,False
+G1,2425,2025-03-09,Asteras Tripolis,Panserraikos,7,8,False
+G1,2425,2025-03-09,Athens Kallithea,PAOK,8,7,False
+G1,2425,2025-03-09,Lamia,Volos NFC,7,8,False
+G1,2425,2025-03-09,Olympiakos,OFI Crete,7,7,False
+G1,2425,2025-03-09,Panetolikos,Levadeiakos,8,7,False
+G1,2425,2025-03-29,OFI Crete,Atromitos,20,20,False
+G1,2425,2025-03-29,Athens Kallithea,Volos NFC,20,20,False
+G1,2425,2025-03-29,Panetolikos,Levadeiakos,20,20,False
+G1,2425,2025-03-29,Asteras Tripolis,Aris,20,20,False
+G1,2425,2025-03-30,Olympiakos,Panathinaikos,21,21,False
+G1,2425,2025-03-30,Panserraikos,Lamia,21,21,False
+G1,2425,2025-03-30,AEK,PAOK,21,21,False
+G1,2425,2025-04-05,Lamia,Athens Kallithea,6,7,False
+G1,2425,2025-04-05,Levadeiakos,Panserraikos,7,6,False
+G1,2425,2025-04-05,Aris,OFI Crete,7,7,False
+G1,2425,2025-04-06,Panathinaikos,AEK,7,7,False
+G1,2425,2025-04-06,Volos NFC,Panetolikos,8,8,False
+G1,2425,2025-04-06,PAOK,Olympiakos,7,7,False
+G1,2425,2025-04-07,Atromitos,Asteras Tripolis,9,9,False
+G1,2425,2025-04-12,Volos NFC,Levadeiakos,6,7,False
+G1,2425,2025-04-12,Panserraikos,Athens Kallithea,7,7,False
+G1,2425,2025-04-12,Panetolikos,Lamia,6,7,False
+G1,2425,2025-04-13,Aris,Atromitos,8,6,False
+G1,2425,2025-04-13,Olympiakos,AEK,7,7,False
+G1,2425,2025-04-13,Asteras Tripolis,OFI Crete,6,8,False
+G1,2425,2025-04-13,Panathinaikos,PAOK,7,7,False
+G1,2425,2025-04-23,Athens Kallithea,Levadeiakos,11,11,True
+G1,2425,2025-04-23,Lamia,Volos NFC,11,11,True
+G1,2425,2025-04-23,Panserraikos,Panetolikos,11,11,True
+G1,2425,2025-04-26,Atromitos,Aris,13,13,False
+G1,2425,2025-04-26,OFI Crete,Asteras Tripolis,13,13,False
+G1,2425,2025-04-27,PAOK,Panathinaikos,14,14,False
+G1,2425,2025-04-27,AEK,Olympiakos,14,14,False
+G1,2425,2025-04-28,Volos NFC,Panserraikos,5,5,False
+G1,2425,2025-04-28,Panetolikos,Athens Kallithea,5,5,False
+G1,2425,2025-04-28,Levadeiakos,Lamia,5,5,False
+G1,2425,2025-05-03,OFI Crete,Aris,7,7,False
+G1,2425,2025-05-03,Asteras Tripolis,Atromitos,7,7,False
+G1,2425,2025-05-04,AEK,Panathinaikos,7,7,False
+G1,2425,2025-05-04,Olympiakos,PAOK,7,7,False
+G1,2425,2025-05-05,Lamia,Levadeiakos,7,7,False
+G1,2425,2025-05-05,Panserraikos,Volos NFC,7,7,False
+G1,2425,2025-05-05,Athens Kallithea,Panetolikos,7,7,False
+G1,2425,2025-05-10,Aris,Asteras Tripolis,7,7,False
+G1,2425,2025-05-10,Atromitos,OFI Crete,7,7,False
+G1,2425,2025-05-10,Panetolikos,Volos NFC,5,5,False
+G1,2425,2025-05-10,Lamia,Panserraikos,5,5,False
+G1,2425,2025-05-10,Levadeiakos,Athens Kallithea,5,5,False
+G1,2425,2025-05-11,PAOK,AEK,7,7,False
+G1,2425,2025-05-11,Panathinaikos,Olympiakos,7,7,False
+G1,2425,2025-05-14,Volos NFC,Lamia,4,4,True
+G1,2425,2025-05-14,Levadeiakos,Panetolikos,4,4,True
+G1,2425,2025-05-14,Athens Kallithea,Panserraikos,4,4,True
+G1,2425,2025-05-18,Volos NFC,Athens Kallithea,4,4,False
+G1,2425,2025-05-18,Lamia,Panetolikos,4,4,False
+G1,2425,2025-05-18,Panserraikos,Levadeiakos,4,4,False

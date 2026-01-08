@@ -80,6 +80,7 @@ interface GeneratedTicket {
   picks: Pick[];
   probability: number;
   combinedOdds: number;
+  ranking?: number; // Ranking from 1-10 (1 = highest probability)
 }
 
 export default function TicketConstruction() {
@@ -120,15 +121,24 @@ export default function TicketConstruction() {
     const loadJackpots = async () => {
       try {
         setLoadingJackpots(true);
-        const response = await apiClient.getJackpots();
+        // Request a large page size to get all jackpots (or at least 100)
+        const response = await apiClient.getJackpots(1, 1000);
         const jackpotsData = response.data || [];
         
         if (jackpotsData.length > 0) {
-          const jackpots = jackpotsData.map((j: any) => ({
-            id: j.id,
-            name: j.name || `Jackpot ${j.id}`,
-            createdAt: j.createdAt
-          })).sort((a: any, b: any) => 
+          // Deduplicate by id (in case API returns duplicates)
+          const jackpotMap = new Map<string, {id: string; name: string; createdAt: string}>();
+          jackpotsData.forEach((j: any) => {
+            if (!jackpotMap.has(j.id)) {
+              jackpotMap.set(j.id, {
+                id: j.id,
+                name: j.name || `Jackpot ${j.id}`,
+                createdAt: j.createdAt
+              });
+            }
+          });
+          
+          const jackpots = Array.from(jackpotMap.values()).sort((a: any, b: any) => 
             new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
           );
           setAllJackpots(jackpots);
@@ -155,50 +165,58 @@ export default function TicketConstruction() {
     loadJackpots();
   }, [toast, searchParams, setSearchParams, jackpotId]);
 
+  // Function to load saved tickets (reusable)
+  const loadSavedTickets = useCallback(async (targetJackpotId?: string) => {
+    const idToLoad = targetJackpotId || jackpotId;
+    if (!idToLoad) {
+      setSavedTicketsList([]);
+      return;
+    }
+
+    try {
+      setLoadingSavedTickets(true);
+      const response = await apiClient.getSavedResults(idToLoad);
+      if (response.success && response.data?.results) {
+        // Filter for ticket-like saved results (those with selections that look like tickets)
+        const ticketResults = response.data.results.filter((result: any) => {
+          const selections = result.selections || {};
+          const setKeys = Object.keys(selections);
+          if (setKeys.length === 0) return false;
+          
+          // Check for new format: {"ticket-0": {"setKey": "B", "1": "1", "2": "X"}, ...}
+          const isNewFormat = setKeys.some(key => key.startsWith('ticket-'));
+          if (isNewFormat) {
+            const firstTicket = selections[setKeys[0]] || {};
+            const firstTicketKeys = Object.keys(firstTicket).filter(k => k !== 'setKey');
+            return firstTicketKeys.length > 0 && firstTicketKeys.every(k => /^\d+$/.test(k));
+          }
+          
+          // Check for old format: {"A": {"1": "1", "2": "X"}, "B": {...}}
+          const firstSet = selections[setKeys[0]] || {};
+          const firstSetKeys = Object.keys(firstSet);
+          return firstSetKeys.length > 0 && firstSetKeys.every(k => /^\d+$/.test(k));
+        });
+        
+        setSavedTicketsList(ticketResults.map((r: any) => ({
+          id: r.id,
+          name: r.name,
+          description: r.description,
+          createdAt: r.createdAt,
+          selections: r.selections
+        })));
+      }
+    } catch (err: any) {
+      console.error('Error loading saved tickets:', err);
+      setSavedTicketsList([]);
+    } finally {
+      setLoadingSavedTickets(false);
+    }
+  }, [jackpotId]);
+
   // Load saved tickets for the current jackpot
   useEffect(() => {
-    const loadSavedTickets = async () => {
-      if (!jackpotId) {
-        setSavedTicketsList([]);
-        return;
-      }
-
-      try {
-        setLoadingSavedTickets(true);
-        const response = await apiClient.getSavedResults(jackpotId);
-        if (response.success && response.data?.results) {
-          // Filter for ticket-like saved results (those with selections that look like tickets)
-          const ticketResults = response.data.results.filter((result: any) => {
-            const selections = result.selections || {};
-            // Tickets have selections in format {"A": {"1": "1", "2": "X"}, "B": {...}}
-            // Check if it looks like ticket format (multiple sets, each with numeric keys)
-            const setKeys = Object.keys(selections);
-            if (setKeys.length === 0) return false;
-            
-            // Check if first set has numeric keys (fixture indices)
-            const firstSet = selections[setKeys[0]] || {};
-            const firstSetKeys = Object.keys(firstSet);
-            return firstSetKeys.length > 0 && firstSetKeys.every(k => /^\d+$/.test(k));
-          });
-          
-          setSavedTicketsList(ticketResults.map((r: any) => ({
-            id: r.id,
-            name: r.name,
-            description: r.description,
-            createdAt: r.createdAt,
-            selections: r.selections
-          })));
-        }
-      } catch (err: any) {
-        console.error('Error loading saved tickets:', err);
-        setSavedTicketsList([]);
-      } finally {
-        setLoadingSavedTickets(false);
-      }
-    };
-
     loadSavedTickets();
-  }, [jackpotId]);
+  }, [loadSavedTickets]);
 
   // Load saved ticket when selected
   useEffect(() => {
@@ -211,63 +229,157 @@ export default function TicketConstruction() {
     const loadedTickets: GeneratedTicket[] = [];
     const selections = savedTicket.selections || {};
 
-    Object.keys(selections).forEach(setKey => {
-      const setSelections = selections[setKey] || {};
-      const picks: Pick[] = [];
-      
-      // Sort by fixture number (keys are "1", "2", "3", etc.)
-      const sortedKeys = Object.keys(setSelections).sort((a, b) => parseInt(a) - parseInt(b));
-      
-      sortedKeys.forEach(fixtureKey => {
-        const pick = setSelections[fixtureKey] as Pick;
-        if (pick === '1' || pick === 'X' || pick === '2') {
-          picks.push(pick);
+    // Check if using new format (ticket-0, ticket-1, ...) or old format (A, B, ...)
+    const isNewFormat = Object.keys(selections).some(key => key.startsWith('ticket-'));
+    
+    if (isNewFormat) {
+      // New format: {"ticket-0": {"setKey": "B", "1": "1", "2": "X"}, ...}
+      Object.keys(selections).sort((a, b) => {
+        const aIdx = parseInt(a.replace('ticket-', ''));
+        const bIdx = parseInt(b.replace('ticket-', ''));
+        return aIdx - bIdx;
+      }).forEach(ticketKey => {
+        const ticketData = selections[ticketKey] || {};
+        const setKey = ticketData.setKey || 'B';
+        const picks: Pick[] = [];
+        
+        // Extract picks (keys that are numeric fixture indices)
+        const sortedKeys = Object.keys(ticketData)
+          .filter(k => k !== 'setKey' && /^\d+$/.test(k))
+          .sort((a, b) => parseInt(a) - parseInt(b));
+        
+        sortedKeys.forEach(fixtureKey => {
+          const pick = ticketData[fixtureKey] as Pick;
+          if (pick === '1' || pick === 'X' || pick === '2') {
+            picks.push(pick);
+          }
+        });
+
+        if (picks.length > 0) {
+          // Pad picks to match current fixtureData length
+          while (picks.length < fixtureData.length) {
+            picks.push('1' as Pick); // Default to '1' for missing fixtures
+          }
+          // Trim if picks exceed fixtureData length
+          if (picks.length > fixtureData.length) {
+            picks.splice(fixtureData.length);
+          }
+
+          // Calculate probability and odds from picks
+          let probability = 1;
+          let combinedOdds = 1;
+
+          picks.forEach((pick, idx) => {
+            const fixture = fixtureData[idx];
+            if (!fixture) return;
+
+            // Get probability from loaded sets (if available)
+            const setKeyTyped = setKey as SetKey;
+            if (loadedSets[setKeyTyped]?.probabilities?.[idx]) {
+              const prob = loadedSets[setKeyTyped].probabilities[idx];
+              const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
+                              pick === 'X' ? prob.drawProbability / 100 :
+                              prob.awayWinProbability / 100;
+              probability *= pickProb;
+            } else {
+              // Fallback: use default probability if not loaded
+              probability *= 0.33;
+            }
+
+            // Get odds from fixture data
+            if (fixture.odds) {
+              const pickOdds = pick === '1' ? fixture.odds.home :
+                              pick === 'X' ? fixture.odds.draw :
+                              pick === '2' ? fixture.odds.away : 1;
+              combinedOdds *= pickOdds;
+            }
+          });
+
+          loadedTickets.push({
+            id: `saved-${savedTicket.id}-${ticketKey}`,
+            setKey: setKey as SetKey,
+            picks,
+            probability: probability * 100,
+            combinedOdds,
+          });
         }
       });
-
-      if (picks.length > 0) {
-        // Calculate probability and odds from picks
-        let probability = 1;
-        let combinedOdds = 1;
-
-        picks.forEach((pick, idx) => {
-          const fixture = fixtureData[idx];
-          if (!fixture) return;
-
-          // Get probability from loaded sets (if available)
-          const setKeyTyped = setKey as SetKey;
-          if (loadedSets[setKeyTyped]?.probabilities?.[idx]) {
-            const prob = loadedSets[setKeyTyped].probabilities[idx];
-            const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
-                            pick === 'X' ? prob.drawProbability / 100 :
-                            prob.awayWinProbability / 100;
-            probability *= pickProb;
-          } else {
-            // Fallback: use default probability if not loaded
-            probability *= 0.33;
-          }
-
-          // Get odds from fixture data
-          if (fixture.odds) {
-            const pickOdds = pick === '1' ? fixture.odds.home :
-                            pick === 'X' ? fixture.odds.draw :
-                            pick === '2' ? fixture.odds.away : 1;
-            combinedOdds *= pickOdds;
+    } else {
+      // Old format: {"A": {"1": "1", "2": "X"}, "B": {...}}
+      Object.keys(selections).forEach(setKey => {
+        const setSelections = selections[setKey] || {};
+        const picks: Pick[] = [];
+        
+        // Sort by fixture number (keys are "1", "2", "3", etc.)
+        const sortedKeys = Object.keys(setSelections).sort((a, b) => parseInt(a) - parseInt(b));
+        
+        sortedKeys.forEach(fixtureKey => {
+          const pick = setSelections[fixtureKey] as Pick;
+          if (pick === '1' || pick === 'X' || pick === '2') {
+            picks.push(pick);
           }
         });
 
-        loadedTickets.push({
-          id: `saved-${savedTicket.id}-${setKey}`,
-          setKey: setKey as SetKey,
-          picks,
-          probability: probability * 100,
-          combinedOdds,
-        });
-      }
-    });
+        if (picks.length > 0) {
+          // Pad picks to match current fixtureData length
+          while (picks.length < fixtureData.length) {
+            picks.push('1' as Pick); // Default to '1' for missing fixtures
+          }
+          // Trim if picks exceed fixtureData length
+          if (picks.length > fixtureData.length) {
+            picks.splice(fixtureData.length);
+          }
+
+          // Calculate probability and odds from picks
+          let probability = 1;
+          let combinedOdds = 1;
+
+          picks.forEach((pick, idx) => {
+            const fixture = fixtureData[idx];
+            if (!fixture) return;
+
+            // Get probability from loaded sets (if available)
+            const setKeyTyped = setKey as SetKey;
+            if (loadedSets[setKeyTyped]?.probabilities?.[idx]) {
+              const prob = loadedSets[setKeyTyped].probabilities[idx];
+              const pickProb = pick === '1' ? prob.homeWinProbability / 100 :
+                              pick === 'X' ? prob.drawProbability / 100 :
+                              prob.awayWinProbability / 100;
+              probability *= pickProb;
+            } else {
+              // Fallback: use default probability if not loaded
+              probability *= 0.33;
+            }
+
+            // Get odds from fixture data
+            if (fixture.odds) {
+              const pickOdds = pick === '1' ? fixture.odds.home :
+                              pick === 'X' ? fixture.odds.draw :
+                              pick === '2' ? fixture.odds.away : 1;
+              combinedOdds *= pickOdds;
+            }
+          });
+
+          loadedTickets.push({
+            id: `saved-${savedTicket.id}-${setKey}`,
+            setKey: setKey as SetKey,
+            picks,
+            probability: probability * 100,
+            combinedOdds,
+          });
+        }
+      });
+    }
 
     if (loadedTickets.length > 0) {
-      setTickets(loadedTickets);
+      // Sort tickets by probability (highest first) and assign rankings
+      const sortedTickets = [...loadedTickets].sort((a, b) => b.probability - a.probability);
+      const ticketsWithRanking = sortedTickets.map((ticket, index) => ({
+        ...ticket,
+        ranking: index + 1, // Rank 1 = highest probability
+      }));
+      
+      setTickets(ticketsWithRanking);
       toast({
         title: 'Tickets Loaded',
         description: `Loaded ${loadedTickets.length} ticket(s) from "${savedTicket.name}"`,
@@ -481,6 +593,10 @@ export default function TicketConstruction() {
                               pick === 'X' ? prob.drawProbability / 100 :
                               prob.awayWinProbability / 100;
               probability *= pickProb;
+            } else {
+              // Fallback: if probabilities not loaded, use a default (but this shouldn't happen)
+              // This ensures we don't get 0% if data is missing
+              probability *= 0.33; // Default to ~33% per match if data missing
             }
             
             // Get odds from fixture data
@@ -491,17 +607,29 @@ export default function TicketConstruction() {
               combinedOdds *= pickOdds;
             }
           });
+          
+          // Ensure probability is valid (not NaN or 0)
+          if (!probability || isNaN(probability) || probability <= 0) {
+            probability = 0.0001; // Very small default if calculation failed
+          }
 
           return {
             id: ticket.id || `ticket-${ticket.setKey}-${Date.now()}`,
             setKey: ticket.setKey || selectedSets[0],
             picks: ticket.picks as Pick[],
-            probability: probability * 100,
+            probability: probability * 100, // Already in percentage (0-100)
             combinedOdds,
           };
         });
 
-        setTickets(newTickets);
+        // Sort tickets by probability (highest first) and assign rankings
+        const sortedTickets = [...newTickets].sort((a, b) => b.probability - a.probability);
+        const ticketsWithRanking = sortedTickets.map((ticket, index) => ({
+          ...ticket,
+          ranking: index + 1, // Rank 1 = highest probability
+        }));
+
+        setTickets(ticketsWithRanking);
         
         toast({
           title: 'Tickets Generated',
@@ -637,6 +765,9 @@ export default function TicketConstruction() {
         setShowSaveDialog(false);
         setSaveTicketName('');
         setSaveTicketDescription('');
+        
+        // Refresh saved tickets list to show the newly saved ticket
+        await loadSavedTickets(jackpotId);
       } else {
         throw new Error(response.message || 'Failed to save tickets');
       }
@@ -650,7 +781,7 @@ export default function TicketConstruction() {
     } finally {
       setSavingTickets(false);
     }
-  }, [tickets, saveTicketName, saveTicketDescription, jackpotId, toast]);
+  }, [tickets, saveTicketName, saveTicketDescription, jackpotId, toast, loadSavedTickets]);
 
   return (
     <PageLayout
@@ -748,17 +879,17 @@ export default function TicketConstruction() {
 
       <div className="space-y-6">
         {/* Select Probability Sets Section */}
-        <Card className="glass-card">
-          <CardHeader>
+          <Card className="glass-card">
+            <CardHeader>
             <div className="flex items-center justify-between">
               <div>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Layers className="h-5 w-5 text-primary" />
-                  Select Probability Sets
-                </CardTitle>
-                <CardDescription>
-                  Choose which sets to generate tickets from
-                </CardDescription>
+              <CardTitle className="text-lg flex items-center gap-2">
+                <Layers className="h-5 w-5 text-primary" />
+                Select Probability Sets
+              </CardTitle>
+              <CardDescription>
+                Choose which sets to generate tickets from
+              </CardDescription>
               </div>
               {/* Select All Checkbox */}
               <div className="flex items-center gap-2">
@@ -780,38 +911,38 @@ export default function TicketConstruction() {
                 </Label>
               </div>
             </div>
-          </CardHeader>
+            </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-3">
-              {(Object.entries(probabilitySets) as [SetKey, typeof probabilitySets['A']][]).map(([key, set]) => {
-                const Icon = set.icon;
-                const isSelected = selectedSets.includes(key);
-                
-                return (
-                  <button
-                    key={key}
-                    onClick={() => isSelected ? removeSet(key) : addSet(key)}
+                {(Object.entries(probabilitySets) as [SetKey, typeof probabilitySets['A']][]).map(([key, set]) => {
+                  const Icon = set.icon;
+                  const isSelected = selectedSets.includes(key);
+                  
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => isSelected ? removeSet(key) : addSet(key)}
                     className={`relative flex flex-col items-center gap-2 p-4 rounded-lg border transition-all ${
-                      isSelected 
+                        isSelected 
                         ? 'bg-primary/10 border-primary/50 shadow-md' 
                         : 'bg-muted/20 border-border/50 hover:border-primary/30 hover:shadow-sm'
-                    }`}
-                  >
+                      }`}
+                    >
                     <div className={`p-2.5 rounded-md ${isSelected ? 'bg-primary/20' : 'bg-muted/30'}`}>
                       <Icon className={`h-5 w-5 ${set.color}`} />
-                    </div>
+                      </div>
                     <div className="flex-1 text-center w-full">
                       <div className="font-semibold text-sm">Set {key}</div>
                       <div className="text-xs text-muted-foreground mt-0.5 leading-tight">{set.name}</div>
                       <div className="text-[10px] text-muted-foreground/80 mt-1">Risk: {set.risk}</div>
-                    </div>
+                      </div>
                     {isSelected && <CheckCircle className="h-4 w-4 text-primary absolute top-2 right-2" />}
-                  </button>
-                );
-              })}
-            </div>
-          </CardContent>
-        </Card>
+                    </button>
+                  );
+                })}
+              </div>
+            </CardContent>
+          </Card>
 
         {/* Budget Allocation Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -857,9 +988,9 @@ export default function TicketConstruction() {
             </CardContent>
           </Card>
         </div>
-      </div>
+        </div>
 
-      {/* Generated Tickets */}
+        {/* Generated Tickets */}
       <div className="space-y-4">
           {/* Coverage Diagnostics */}
           {coverageDiagnostics && (
@@ -929,15 +1060,74 @@ export default function TicketConstruction() {
                 Generated Tickets ({tickets.length})
               </CardTitle>
                 {tickets.length > 0 && (
-                  <Button
-                    onClick={() => setShowSaveDialog(true)}
-                    variant="outline"
-                    size="sm"
-                    className="gap-2"
-                  >
-                    <Save className="h-4 w-4" />
-                    Save Tickets
-                  </Button>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      onClick={() => {
+                        // Export tickets to CSV
+                        const matchHeaders = fixtureData.map((f, idx) => `Match ${idx + 1} (${f.home} vs ${f.away})`);
+                        const headers = ['Ticket ID', 'Set', 'Picks', 'Probability (%)', 'Ranking', ...matchHeaders];
+                        
+                        const rows = tickets.map(ticket => [
+                          ticket.id,
+                          ticket.setKey,
+                          ticket.picks.join(''),
+                          ticket.probability.toFixed(2) + '%',
+                          ticket.ranking || '-',
+                          ...ticket.picks.map((pick, idx) => {
+                            const fixture = fixtureData[idx];
+                            return fixture ? `${pick}` : '';
+                          })
+                        ]);
+                        
+                        // Create CSV content with proper escaping
+                        const escapeCSV = (value: any): string => {
+                          if (value === null || value === undefined) return '';
+                          const str = String(value);
+                          // Escape quotes and wrap in quotes if contains comma, quote, or newline
+                          if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+                            return `"${str.replace(/"/g, '""')}"`;
+                          }
+                          return str;
+                        };
+                        
+                        const csvContent = [
+                          headers.map(escapeCSV).join(','),
+                          ...rows.map(row => row.map(escapeCSV).join(','))
+                        ].join('\n');
+                        
+                        // Create blob and download
+                        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                        const link = document.createElement('a');
+                        const url = URL.createObjectURL(blob);
+                        link.setAttribute('href', url);
+                        link.setAttribute('download', `tickets_${jackpotId || 'export'}_${new Date().toISOString().split('T')[0]}.csv`);
+                        link.style.visibility = 'hidden';
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                        
+                        toast({
+                          title: 'Export Successful',
+                          description: `Exported ${tickets.length} tickets to CSV`,
+                        });
+                      }}
+                      variant="outline"
+                      size="sm"
+                      className="gap-2"
+                    >
+                      <Download className="h-4 w-4" />
+                      Export CSV
+                    </Button>
+                    <Button
+                      onClick={() => setShowSaveDialog(true)}
+                      variant="outline"
+                      size="sm"
+                      className="gap-2"
+                    >
+                      <Save className="h-4 w-4" />
+                      Save Tickets
+                    </Button>
+                  </div>
                 )}
               </div>
             </CardHeader>
@@ -960,15 +1150,15 @@ export default function TicketConstruction() {
                           {fixtureData.map((fixture, idx) => (
                             <TableHead 
                               key={fixture.id} 
-                              className="p-0.5 text-center border-l border-border/50 min-w-[80px] py-1"
+                              className="p-0.5 text-center border-l border-border/50 min-w-[70px] py-1"
                             >
                               <div className="flex flex-col items-center gap-0">
-                                <div className="text-[8px] font-medium text-muted-foreground leading-[1.1] px-0.5">
-                                  {fixture.home.length > 7 ? fixture.home.substring(0, 7) + '..' : fixture.home}
+                                <div className="text-[10px] font-medium text-muted-foreground leading-[1.1] px-0.5">
+                                  {fixture.home.length > 6 ? fixture.home.substring(0, 6) + '..' : fixture.home}
                                 </div>
-                                <div className="text-[7px] text-muted-foreground/70">vs</div>
-                                <div className="text-[8px] font-medium text-muted-foreground leading-[1.1] px-0.5">
-                                  {fixture.away.length > 7 ? fixture.away.substring(0, 7) + '..' : fixture.away}
+                                <div className="text-[8px] text-muted-foreground/70">vs</div>
+                                <div className="text-[10px] font-medium text-muted-foreground leading-[1.1] px-0.5">
+                                  {fixture.away.length > 6 ? fixture.away.substring(0, 6) + '..' : fixture.away}
                                 </div>
                               </div>
                             </TableHead>
@@ -976,8 +1166,8 @@ export default function TicketConstruction() {
                           <TableHead className="text-right w-[100px] border-l-2 border-primary/20 py-1">
                             <div className="text-xs font-semibold text-muted-foreground">Probability</div>
                           </TableHead>
-                          <TableHead className="text-right w-[100px] py-1">
-                            <div className="text-xs font-semibold text-muted-foreground">Combined Odds</div>
+                          <TableHead className="text-center w-[100px] py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Ranking</div>
                           </TableHead>
                           <TableHead className="w-[100px] py-1">
                             <div className="text-xs font-semibold text-muted-foreground">Actions</div>
@@ -989,9 +1179,9 @@ export default function TicketConstruction() {
                           {fixtureData.map((fixture, idx) => (
                             <TableHead 
                               key={`pick-header-${fixture.id}`}
-                              className="p-0.5 text-center border-l border-border/50 min-w-[80px] py-0.5"
+                              className="p-0.5 text-center border-l border-border/50 min-w-[70px] py-0.5"
                             >
-                              <div className="text-[9px] font-semibold text-muted-foreground">#{idx + 1}</div>
+                              <div className="text-[10px] font-semibold text-muted-foreground">#{idx + 1}</div>
                             </TableHead>
                           ))}
                           <TableHead className="text-right w-[100px] border-l-2 border-primary/20 border-t-0 py-0.5"></TableHead>
@@ -1012,31 +1202,81 @@ export default function TicketConstruction() {
                                 {ticket.setKey}
                               </Badge>
                             </TableCell>
-                              {ticket.picks.map((pick, idx) => {
-                                const fixture = fixtureData[idx];
+                              {fixtureData.map((fixture, idx) => {
+                                const pick = ticket.picks[idx]; // Get pick for this fixture index
+                                // Get probability for this pick from loaded sets
+                                const setKey = ticket.setKey;
+                                const prob = loadedSets[setKey]?.probabilities?.[idx];
+                                const pickProbability = pick === '1' ? prob?.homeWinProbability :
+                                                       pick === 'X' ? prob?.drawProbability :
+                                                       pick === '2' ? prob?.awayWinProbability : null;
+                                
                                 return (
                                   <TableCell 
                                     key={`${ticket.id}-${idx}`}
-                                    className="p-1 text-center border-l border-border/50"
+                                    className="p-0.5 text-center border-l border-border/50"
                                   >
-                                  <Badge 
-                                    variant="outline"
-                                      className={`w-7 h-7 p-0 justify-center text-xs font-bold transition-all hover:scale-110 ${
-                                        pick === '1' ? 'bg-chart-1/20 text-chart-1 border-chart-1/50 hover:bg-chart-1/30' :
-                                        pick === 'X' ? 'bg-chart-3/20 text-chart-3 border-chart-3/50 hover:bg-chart-3/30' :
-                                        'bg-chart-2/20 text-chart-2 border-chart-2/50 hover:bg-chart-2/30'
-                                    }`}
-                                  >
-                                    {pick}
-                                  </Badge>
+                                    {pick ? (
+                                      <div className="flex flex-col items-center gap-0.5">
+                                        <Badge 
+                                          variant="outline"
+                                          className={`w-5 h-5 p-0 justify-center text-[11px] font-bold transition-all hover:scale-110 ${
+                                            pick === '1' ? 'bg-chart-1/20 text-chart-1 border-chart-1/50 hover:bg-chart-1/30' :
+                                            pick === 'X' ? 'bg-chart-3/20 text-chart-3 border-chart-3/50 hover:bg-chart-3/30' :
+                                            'bg-chart-2/20 text-chart-2 border-chart-2/50 hover:bg-chart-2/30'
+                                          }`}
+                                        >
+                                          {pick}
+                                        </Badge>
+                                        {pickProbability !== null && pickProbability !== undefined && (
+                                          <span className={`text-[10px] font-semibold leading-none ${
+                                            pick === '1' ? 'text-chart-1' :
+                                            pick === 'X' ? 'text-chart-3' :
+                                            'text-chart-2'
+                                          }`}>
+                                            {pickProbability.toFixed(0)}%
+                                          </span>
+                                        )}
+                                      </div>
+                                    ) : (
+                                      <span className="text-muted-foreground/30 text-xs">—</span>
+                                    )}
                             </TableCell>
                                 );
                               })}
                               <TableCell className="text-right tabular-nums text-sm border-l-2 border-primary/20 font-medium">
-                              {ticket.probability.toExponential(2)}
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <span className="cursor-help">
+                                      {ticket.probability > 0.01 
+                                        ? ticket.probability.toFixed(2) + '%'
+                                        : ticket.probability > 0.001
+                                        ? ticket.probability.toFixed(3) + '%'
+                                        : ticket.probability > 0
+                                        ? ticket.probability.toFixed(4) + '%'
+                                        : '0.00%'}
+                                    </span>
+                                  </TooltipTrigger>
+                                  <TooltipContent className="max-w-xs">
+                                    <p className="font-semibold mb-1">Ticket Probability</p>
+                                    <p className="text-xs mb-2">
+                                      Chance that <strong>all {fixtureData.length} picks</strong> are correct.
+                                    </p>
+                                    <p className="text-xs text-muted-foreground">
+                                      {ticket.probability > 0 
+                                        ? `1 in ${Math.round(100 / ticket.probability).toLocaleString()} chance`
+                                        : 'Cannot calculate'}
+                                    </p>
+                                    <p className="text-xs text-muted-foreground mt-2">
+                                      Low probabilities are normal for accumulator bets.
+                                    </p>
+                                  </TooltipContent>
+                                </Tooltip>
                             </TableCell>
-                              <TableCell className="text-right tabular-nums font-semibold text-primary">
-                                {ticket.combinedOdds.toFixed(0)}x
+                              <TableCell className="text-center tabular-nums font-semibold">
+                                <Badge variant={ticket.ranking && ticket.ranking <= 3 ? "default" : "outline"} className="text-xs">
+                                  {ticket.ranking || '-'}
+                                </Badge>
                             </TableCell>
                             <TableCell>
                                 <div className="flex gap-1 justify-center">
@@ -1068,12 +1308,12 @@ export default function TicketConstruction() {
                                         className="h-7 w-7 hover:bg-primary/10"
                                       onClick={() => {
                                         const csv = [
-                                          ['Set', 'Picks', 'Probability', 'Combined Odds'],
+                                          ['Set', 'Picks', 'Probability (%)', 'Ranking'],
                                           [
                                             ticket.setKey,
                                             ticket.picks.join(''),
-                                            ticket.probability.toExponential(2),
-                                            ticket.combinedOdds.toFixed(2)
+                                            ticket.probability.toFixed(2) + '%',
+                                            ticket.ranking?.toString() || '-'
                                           ]
                                         ].map(row => row.join(',')).join('\n');
                                         
@@ -1189,7 +1429,7 @@ export default function TicketConstruction() {
               </div>
             </CardContent>
           </Card>
-        </div>
+      </div>
     </PageLayout>
   );
 }

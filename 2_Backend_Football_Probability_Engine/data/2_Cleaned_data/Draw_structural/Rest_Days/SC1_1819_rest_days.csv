@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC1,1819,2018-08-04,Falkirk,Inverness C,98,98,False
+SC1,1819,2018-08-04,Morton,Queen of Sth,98,98,False
+SC1,1819,2018-08-04,Ayr,Partick,274,7,False
+SC1,1819,2018-08-04,Ross County,Alloa,7,7,False
+SC1,1819,2018-08-04,Dundee United,Dunfermline,98,98,False
+SC1,1819,2018-08-11,Partick,Falkirk,7,7,False
+SC1,1819,2018-08-11,Dunfermline,Ross County,7,7,False
+SC1,1819,2018-08-11,Alloa,Morton,7,7,False
+SC1,1819,2018-08-11,Queen of Sth,Dundee United,7,7,False
+SC1,1819,2018-08-11,Inverness C,Ayr,7,7,False
+SC1,1819,2018-08-25,Inverness C,Alloa,14,14,False
+SC1,1819,2018-08-25,Falkirk,Queen of Sth,14,14,False
+SC1,1819,2018-08-25,Dundee United,Partick,14,14,False
+SC1,1819,2018-08-25,Ayr,Dunfermline,14,14,False
+SC1,1819,2018-08-25,Morton,Ross County,14,14,False
+SC1,1819,2018-09-01,Ross County,Falkirk,7,7,False
+SC1,1819,2018-09-01,Partick,Morton,7,7,False
+SC1,1819,2018-09-01,Alloa,Dundee United,7,7,False
+SC1,1819,2018-09-01,Dunfermline,Inverness C,7,7,False
+SC1,1819,2018-09-01,Queen of Sth,Ayr,7,7,False
+SC1,1819,2018-09-15,Dundee United,Morton,14,14,False
+SC1,1819,2018-09-15,Queen of Sth,Ross County,14,14,False
+SC1,1819,2018-09-15,Inverness C,Partick,14,14,False
+SC1,1819,2018-09-15,Dunfermline,Alloa,14,14,False
+SC1,1819,2018-09-15,Ayr,Falkirk,14,14,False
+SC1,1819,2018-09-22,Alloa,Ayr,7,7,False
+SC1,1819,2018-09-22,Ross County,Inverness C,7,7,False
+SC1,1819,2018-09-22,Partick,Queen of Sth,7,7,False
+SC1,1819,2018-09-22,Morton,Dunfermline,7,7,False
+SC1,1819,2018-09-22,Falkirk,Dundee United,7,7,False
+SC1,1819,2018-09-28,Dunfermline,Partick,6,6,False
+SC1,1819,2018-09-29,Alloa,Falkirk,7,7,False
+SC1,1819,2018-09-29,Morton,Ayr,7,7,False
+SC1,1819,2018-09-29,Inverness C,Queen of Sth,7,7,False
+SC1,1819,2018-09-29,Dundee United,Ross County,7,7,False
+SC1,1819,2018-10-06,Falkirk,Dunfermline,7,8,False
+SC1,1819,2018-10-06,Inverness C,Morton,7,7,False
+SC1,1819,2018-10-06,Queen of Sth,Alloa,7,7,False
+SC1,1819,2018-10-06,Ayr,Dundee United,7,7,False
+SC1,1819,2018-10-06,Partick,Ross County,8,7,False
+SC1,1819,2018-10-13,Partick,Dundee United,7,7,False
+SC1,1819,2018-10-20,Dunfermline,Queen of Sth,14,14,False
+SC1,1819,2018-10-20,Alloa,Partick,14,7,False
+SC1,1819,2018-10-20,Dundee United,Inverness C,7,14,False
+SC1,1819,2018-10-20,Morton,Falkirk,14,14,False
+SC1,1819,2018-10-20,Ross County,Ayr,14,14,False
+SC1,1819,2018-10-27,Ross County,Morton,7,7,False
+SC1,1819,2018-10-27,Queen of Sth,Falkirk,7,7,False
+SC1,1819,2018-10-27,Partick,Ayr,7,7,False
+SC1,1819,2018-10-27,Dunfermline,Dundee United,7,7,False
+SC1,1819,2018-10-27,Alloa,Inverness C,7,7,False
+SC1,1819,2018-10-30,Queen of Sth,Morton,3,3,True
+SC1,1819,2018-10-30,Inverness C,Dunfermline,3,3,True
+SC1,1819,2018-10-30,Falkirk,Ross County,3,3,True
+SC1,1819,2018-10-30,Ayr,Alloa,3,3,True
+SC1,1819,2018-11-03,Inverness C,Ross County,4,4,False
+SC1,1819,2018-11-03,Falkirk,Ayr,4,4,False
+SC1,1819,2018-11-03,Morton,Partick,4,7,False
+SC1,1819,2018-11-03,Dundee United,Queen of Sth,7,4,False
+SC1,1819,2018-11-03,Alloa,Dunfermline,4,4,False
+SC1,1819,2018-11-10,Ayr,Queen of Sth,7,7,False
+SC1,1819,2018-11-10,Dunfermline,Falkirk,7,7,False
+SC1,1819,2018-11-10,Morton,Alloa,7,7,False
+SC1,1819,2018-11-10,Partick,Inverness C,7,7,False
+SC1,1819,2018-11-10,Ross County,Dundee United,7,7,False
+SC1,1819,2018-11-17,Queen of Sth,Inverness C,7,7,False
+SC1,1819,2018-11-17,Ayr,Morton,7,7,False
+SC1,1819,2018-11-17,Falkirk,Partick,7,7,False
+SC1,1819,2018-11-20,Dundee United,Alloa,10,10,True
+SC1,1819,2018-11-24,Ross County,Dunfermline,14,14,False
+SC1,1819,2018-11-30,Dundee United,Ayr,10,13,False
+SC1,1819,2018-12-01,Alloa,Ross County,11,7,False
+SC1,1819,2018-12-01,Dunfermline,Morton,7,14,False
+SC1,1819,2018-12-01,Inverness C,Falkirk,14,14,False
+SC1,1819,2018-12-01,Queen of Sth,Partick,14,14,False
+SC1,1819,2018-12-08,Falkirk,Alloa,7,7,False
+SC1,1819,2018-12-08,Morton,Dundee United,7,8,False
+SC1,1819,2018-12-08,Partick,Dunfermline,7,7,False
+SC1,1819,2018-12-08,Ross County,Queen of Sth,7,7,False
+SC1,1819,2018-12-15,Ayr,Ross County,15,7,False
+SC1,1819,2018-12-15,Falkirk,Morton,7,7,False
+SC1,1819,2018-12-15,Inverness C,Dundee United,14,7,False
+SC1,1819,2018-12-15,Partick,Alloa,7,7,False
+SC1,1819,2018-12-15,Queen of Sth,Dunfermline,7,7,False
+SC1,1819,2018-12-22,Alloa,Queen of Sth,7,7,False
+SC1,1819,2018-12-22,Dundee United,Falkirk,7,7,False
+SC1,1819,2018-12-22,Dunfermline,Ayr,7,7,False
+SC1,1819,2018-12-22,Morton,Inverness C,7,7,False
+SC1,1819,2018-12-22,Ross County,Partick,7,7,False
+SC1,1819,2018-12-29,Falkirk,Dunfermline,7,7,False
+SC1,1819,2018-12-29,Alloa,Dundee United,7,7,False
+SC1,1819,2018-12-29,Partick,Morton,7,7,False
+SC1,1819,2018-12-29,Queen of Sth,Ayr,7,7,False
+SC1,1819,2018-12-29,Ross County,Inverness C,7,7,False
+SC1,1819,2019-01-04,Morton,Ross County,6,6,False
+SC1,1819,2019-01-05,Ayr,Falkirk,7,7,False
+SC1,1819,2019-01-05,Dundee United,Partick,7,7,False
+SC1,1819,2019-01-05,Dunfermline,Alloa,7,7,False
+SC1,1819,2019-01-05,Inverness C,Queen of Sth,7,7,False
+SC1,1819,2019-01-12,Alloa,Morton,7,8,False
+SC1,1819,2019-01-12,Dundee United,Dunfermline,7,7,False
+SC1,1819,2019-01-12,Inverness C,Ayr,7,7,False
+SC1,1819,2019-01-12,Partick,Falkirk,7,7,False
+SC1,1819,2019-01-12,Queen of Sth,Ross County,7,8,False
+SC1,1819,2019-01-25,Ayr,Dundee United,13,13,False
+SC1,1819,2019-01-26,Falkirk,Inverness C,14,14,False
+SC1,1819,2019-01-26,Morton,Dunfermline,14,14,False
+SC1,1819,2019-01-26,Partick,Queen of Sth,14,14,False
+SC1,1819,2019-01-26,Ross County,Alloa,14,14,False
+SC1,1819,2019-01-29,Ayr,Inverness C,4,3,True
+SC1,1819,2019-02-02,Alloa,Ayr,7,4,False
+SC1,1819,2019-02-02,Dundee United,Morton,8,7,False
+SC1,1819,2019-02-02,Dunfermline,Ross County,7,7,False
+SC1,1819,2019-02-02,Falkirk,Queen of Sth,7,7,False
+SC1,1819,2019-02-02,Inverness C,Partick,4,7,False
+SC1,1819,2019-02-09,Alloa,Falkirk,7,7,False
+SC1,1819,2019-02-16,Alloa,Partick,7,14,False
+SC1,1819,2019-02-16,Dunfermline,Inverness C,14,14,False
+SC1,1819,2019-02-16,Morton,Ayr,14,14,False
+SC1,1819,2019-02-16,Queen of Sth,Dundee United,14,14,False
+SC1,1819,2019-02-23,Ayr,Dunfermline,7,7,False
+SC1,1819,2019-02-23,Falkirk,Dundee United,14,7,False
+SC1,1819,2019-02-23,Inverness C,Morton,7,7,False
+SC1,1819,2019-02-23,Partick,Ross County,7,21,False
+SC1,1819,2019-02-23,Queen of Sth,Alloa,7,7,False
+SC1,1819,2019-02-26,Dundee United,Inverness C,3,3,True
+SC1,1819,2019-02-26,Dunfermline,Partick,3,3,True
+SC1,1819,2019-02-26,Morton,Queen of Sth,3,3,True
+SC1,1819,2019-02-26,Ross County,Ayr,3,3,True
+SC1,1819,2019-03-01,Morton,Falkirk,3,6,False
+SC1,1819,2019-03-02,Dunfermline,Queen of Sth,4,4,False
+SC1,1819,2019-03-08,Falkirk,Ayr,7,10,False
+SC1,1819,2019-03-09,Alloa,Dunfermline,14,7,False
+SC1,1819,2019-03-09,Partick,Dundee United,11,11,False
+SC1,1819,2019-03-09,Queen of Sth,Inverness C,7,11,False
+SC1,1819,2019-03-09,Ross County,Morton,11,8,False
+SC1,1819,2019-03-12,Ross County,Falkirk,3,4,True
+SC1,1819,2019-03-16,Falkirk,Partick,4,7,False
+SC1,1819,2019-03-19,Dundee United,Ross County,10,7,True
+SC1,1819,2019-03-22,Partick,Inverness C,6,13,False
+SC1,1819,2019-03-23,Dundee United,Alloa,4,14,False
+SC1,1819,2019-03-26,Dunfermline,Dundee United,17,3,True
+SC1,1819,2019-03-26,Inverness C,Alloa,4,3,True
+SC1,1819,2019-03-29,Dunfermline,Ayr,3,21,False
+SC1,1819,2019-03-30,Alloa,Ross County,4,11,False
+SC1,1819,2019-03-30,Dundee United,Queen of Sth,4,21,False
+SC1,1819,2019-03-30,Inverness C,Falkirk,4,14,False
+SC1,1819,2019-03-30,Morton,Partick,21,8,False
+SC1,1819,2019-04-02,Ayr,Morton,4,3,True
+SC1,1819,2019-04-02,Inverness C,Ross County,3,3,True
+SC1,1819,2019-04-02,Queen of Sth,Falkirk,3,3,True
+SC1,1819,2019-04-05,Ross County,Dundee United,3,6,False
+SC1,1819,2019-04-06,Ayr,Inverness C,4,4,False
+SC1,1819,2019-04-06,Falkirk,Alloa,4,7,False
+SC1,1819,2019-04-06,Partick,Dunfermline,7,8,False
+SC1,1819,2019-04-06,Queen of Sth,Morton,4,4,False
+SC1,1819,2019-04-09,Ayr,Queen of Sth,3,3,True
+SC1,1819,2019-04-09,Morton,Alloa,3,3,True
+SC1,1819,2019-04-09,Ross County,Dunfermline,4,3,True
+SC1,1819,2019-04-12,Dundee United,Ayr,7,3,False
+SC1,1819,2019-04-13,Alloa,Queen of Sth,4,4,False
+SC1,1819,2019-04-13,Dunfermline,Falkirk,4,7,False
+SC1,1819,2019-04-13,Ross County,Partick,4,7,False
+SC1,1819,2019-04-16,Morton,Inverness C,7,10,True
+SC1,1819,2019-04-19,Ayr,Ross County,7,6,False
+SC1,1819,2019-04-20,Falkirk,Morton,7,4,False
+SC1,1819,2019-04-20,Inverness C,Dundee United,4,8,False
+SC1,1819,2019-04-20,Partick,Alloa,7,7,False
+SC1,1819,2019-04-20,Queen of Sth,Dunfermline,7,7,False
+SC1,1819,2019-04-23,Ayr,Partick,4,3,True
+SC1,1819,2019-04-26,Ross County,Queen of Sth,7,6,False
+SC1,1819,2019-04-27,Alloa,Inverness C,7,7,False
+SC1,1819,2019-04-27,Dundee United,Falkirk,7,7,False
+SC1,1819,2019-04-27,Dunfermline,Morton,7,7,False
+SC1,1819,2019-04-27,Partick,Ayr,4,4,False
+SC1,1819,2019-05-04,Ayr,Alloa,7,7,False
+SC1,1819,2019-05-04,Falkirk,Ross County,7,8,False
+SC1,1819,2019-05-04,Inverness C,Dunfermline,7,7,False
+SC1,1819,2019-05-04,Morton,Dundee United,7,7,False
+SC1,1819,2019-05-04,Queen of Sth,Partick,8,7,False

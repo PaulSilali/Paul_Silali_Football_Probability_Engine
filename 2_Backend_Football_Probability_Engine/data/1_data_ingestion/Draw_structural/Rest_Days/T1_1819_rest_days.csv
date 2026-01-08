@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+T1,1819,2018-08-10,Karagumruk,Galatasaray,7,66,False
+T1,1819,2018-08-11,Rizespor,Kasimpasa,249,7,False
+T1,1819,2018-08-11,Fenerbahce,Bursaspor,7,7,False
+T1,1819,2018-08-11,Samsunspor,Antalyaspor,7,7,False
+T1,1819,2018-08-12,Buyuksehyr,Trabzonspor,69,39,False
+T1,1819,2018-08-12,Besiktas,Akhisar Belediyespor,38,8,False
+T1,1819,2018-08-12,Goztep,Yeni Malatyaspor,38,38,False
+T1,1819,2018-08-12,Antalyaspor,Erzurum BB,1,7,False
+T1,1819,2018-08-13,Kocaelispor,Antalyaspor,9,1,False
+T1,1819,2018-08-17,Trabzonspor,Samsunspor,5,6,False
+T1,1819,2018-08-18,Antalyaspor,Antalyaspor,5,5,False
+T1,1819,2018-08-18,Yeni Malatyaspor,Fenerbahce,6,7,False
+T1,1819,2018-08-18,Bursaspor,Kocaelispor,7,5,False
+T1,1819,2018-08-19,Akhisar Belediyespor,Rizespor,7,8,False
+T1,1819,2018-08-19,Galatasaray,Goztep,9,7,False
+T1,1819,2018-08-19,Erzurum BB,Besiktas,7,7,False
+T1,1819,2018-08-19,Antalyaspor,Karagumruk,1,9,False
+T1,1819,2018-08-20,Kasimpasa,Buyuksehyr,9,8,False
+T1,1819,2018-08-24,Rizespor,Erzurum BB,5,5,False
+T1,1819,2018-08-25,Kocaelispor,Yeni Malatyaspor,7,7,False
+T1,1819,2018-08-25,Goztep,Fenerbahce,6,7,False
+T1,1819,2018-08-25,Karagumruk,Trabzonspor,6,8,False
+T1,1819,2018-08-26,Samsunspor,Kasimpasa,9,6,False
+T1,1819,2018-08-26,Antalyaspor,Bursaspor,7,8,False
+T1,1819,2018-08-26,Besiktas,Antalyaspor,7,7,False
+T1,1819,2018-08-27,Buyuksehyr,Akhisar Belediyespor,7,8,False
+T1,1819,2018-08-27,Galatasaray,Antalyaspor,8,1,False
+T1,1819,2018-08-31,Yeni Malatyaspor,Antalyaspor,6,4,False
+T1,1819,2018-09-01,Trabzonspor,Galatasaray,7,5,False
+T1,1819,2018-09-01,Fenerbahce,Kocaelispor,7,7,False
+T1,1819,2018-09-01,Antalyaspor,Goztep,1,7,False
+T1,1819,2018-09-01,Akhisar Belediyespor,Samsunspor,5,6,False
+T1,1819,2018-09-02,Bursaspor,Besiktas,7,7,False
+T1,1819,2018-09-02,Antalyaspor,Rizespor,1,9,False
+T1,1819,2018-09-02,Erzurum BB,Buyuksehyr,9,6,False
+T1,1819,2018-09-02,Kasimpasa,Karagumruk,7,8,False
+T1,1819,2018-09-14,Galatasaray,Kasimpasa,10,12,False
+T1,1819,2018-09-15,Karagumruk,Akhisar Belediyespor,13,14,False
+T1,1819,2018-09-15,Besiktas,Yeni Malatyaspor,13,13,False
+T1,1819,2018-09-15,Goztep,Kocaelispor,14,14,False
+T1,1819,2018-09-16,Rizespor,Bursaspor,14,14,False
+T1,1819,2018-09-16,Buyuksehyr,Antalyaspor,13,13,False
+T1,1819,2018-09-16,Antalyaspor,Fenerbahce,13,15,False
+T1,1819,2018-09-16,Samsunspor,Erzurum BB,15,14,False
+T1,1819,2018-09-17,Antalyaspor,Trabzonspor,1,16,False
+T1,1819,2018-09-21,Bursaspor,Buyuksehyr,5,5,False
+T1,1819,2018-09-21,Erzurum BB,Karagumruk,5,6,False
+T1,1819,2018-09-22,Trabzonspor,Goztep,5,7,False
+T1,1819,2018-09-22,Kocaelispor,Antalyaspor,7,5,False
+T1,1819,2018-09-22,Yeni Malatyaspor,Rizespor,7,6,False
+T1,1819,2018-09-23,Kasimpasa,Antalyaspor,9,1,False
+T1,1819,2018-09-23,Akhisar Belediyespor,Galatasaray,8,9,False
+T1,1819,2018-09-23,Antalyaspor,Samsunspor,1,7,False
+T1,1819,2018-09-24,Fenerbahce,Besiktas,8,9,False
+T1,1819,2018-09-28,Galatasaray,Erzurum BB,5,7,False
+T1,1819,2018-09-29,Antalyaspor,Akhisar Belediyespor,6,6,False
+T1,1819,2018-09-29,Trabzonspor,Kasimpasa,7,6,False
+T1,1819,2018-09-29,Besiktas,Kocaelispor,5,7,False
+T1,1819,2018-09-30,Samsunspor,Bursaspor,7,9,False
+T1,1819,2018-09-30,Goztep,Antalyaspor,8,1,False
+T1,1819,2018-09-30,Rizespor,Fenerbahce,8,6,False
+T1,1819,2018-10-01,Karagumruk,Antalyaspor,10,1,False
+T1,1819,2018-10-01,Buyuksehyr,Yeni Malatyaspor,10,9,False
+T1,1819,2018-10-05,Kasimpasa,Goztep,2,3,False
+T1,1819,2018-10-06,Antalyaspor,Galatasaray,5,8,False
+T1,1819,2018-10-06,Kocaelispor,Rizespor,3,6,False
+T1,1819,2018-10-06,Erzurum BB,Antalyaspor,8,5,False
+T1,1819,2018-10-06,Bursaspor,Karagumruk,3,5,False
+T1,1819,2018-10-07,Akhisar Belediyespor,Trabzonspor,8,5,False
+T1,1819,2018-10-07,Yeni Malatyaspor,Samsunspor,6,4,False
+T1,1819,2018-10-07,Antalyaspor,Besiktas,1,4,False
+T1,1819,2018-10-07,Fenerbahce,Buyuksehyr,7,6,False
+T1,1819,2018-10-19,Galatasaray,Bursaspor,13,13,False
+T1,1819,2018-10-20,Kasimpasa,Akhisar Belediyespor,15,13,False
+T1,1819,2018-10-20,Samsunspor,Fenerbahce,13,13,False
+T1,1819,2018-10-20,Buyuksehyr,Kocaelispor,13,14,False
+T1,1819,2018-10-21,Rizespor,Antalyaspor,15,14,False
+T1,1819,2018-10-21,Antalyaspor,Antalyaspor,14,14,False
+T1,1819,2018-10-21,Karagumruk,Yeni Malatyaspor,15,14,False
+T1,1819,2018-10-21,Goztep,Besiktas,16,14,False
+T1,1819,2018-10-22,Trabzonspor,Erzurum BB,15,16,False
+T1,1819,2018-10-26,Bursaspor,Antalyaspor,7,5,False
+T1,1819,2018-10-27,Antalyaspor,Buyuksehyr,1,7,False
+T1,1819,2018-10-27,Antalyaspor,Trabzonspor,1,5,False
+T1,1819,2018-10-27,Erzurum BB,Kasimpasa,5,7,False
+T1,1819,2018-10-28,Yeni Malatyaspor,Galatasaray,7,9,False
+T1,1819,2018-10-28,Fenerbahce,Karagumruk,8,7,False
+T1,1819,2018-10-28,Kocaelispor,Samsunspor,8,8,False
+T1,1819,2018-10-29,Akhisar Belediyespor,Goztep,9,8,False
+T1,1819,2018-10-29,Besiktas,Rizespor,8,8,False
+T1,1819,2018-11-02,Galatasaray,Fenerbahce,5,5,False
+T1,1819,2018-11-03,Kasimpasa,Antalyaspor,7,1,False
+T1,1819,2018-11-03,Buyuksehyr,Besiktas,1,5,False
+T1,1819,2018-11-03,Akhisar Belediyespor,Erzurum BB,1,7,False
+T1,1819,2018-11-04,Trabzonspor,Bursaspor,8,2,False
+T1,1819,2018-11-04,Antalyaspor,Yeni Malatyaspor,1,1,False
+T1,1819,2018-11-04,Karagumruk,Kocaelispor,7,1,False
+T1,1819,2018-11-05,Goztep,Rizespor,2,7,False
+T1,1819,2018-11-05,Samsunspor,Antalyaspor,3,1,False
+T1,1819,2018-11-09,Yeni Malatyaspor,Trabzonspor,5,5,False
+T1,1819,2018-11-10,Antalyaspor,Karagumruk,5,6,False
+T1,1819,2018-11-10,Rizespor,Buyuksehyr,5,5,False
+T1,1819,2018-11-10,Kocaelispor,Galatasaray,6,7,False
+T1,1819,2018-11-10,Erzurum BB,Goztep,7,5,False
+T1,1819,2018-11-11,Bursaspor,Kasimpasa,7,8,False
+T1,1819,2018-11-11,Fenerbahce,Antalyaspor,8,1,False
+T1,1819,2018-11-11,Antalyaspor,Akhisar Belediyespor,1,8,False
+T1,1819,2018-11-11,Besiktas,Samsunspor,8,6,False
+T1,1819,2018-11-23,Galatasaray,Antalyaspor,13,12,False
+T1,1819,2018-11-24,Erzurum BB,Antalyaspor,14,1,False
+T1,1819,2018-11-24,Karagumruk,Besiktas,14,13,False
+T1,1819,2018-11-24,Antalyaspor,Kocaelispor,1,14,False
+T1,1819,2018-11-25,Akhisar Belediyespor,Bursaspor,14,14,False
+T1,1819,2018-11-25,Kasimpasa,Yeni Malatyaspor,14,16,False
+T1,1819,2018-11-25,Samsunspor,Rizespor,14,15,False
+T1,1819,2018-11-25,Trabzonspor,Fenerbahce,16,14,False
+T1,1819,2018-11-26,Goztep,Buyuksehyr,16,16,False
+T1,1819,2018-11-30,Antalyaspor,Antalyaspor,6,6,False
+T1,1819,2018-11-30,Rizespor,Karagumruk,5,6,False
+T1,1819,2018-12-01,Antalyaspor,Goztep,1,5,False
+T1,1819,2018-12-01,Buyuksehyr,Samsunspor,5,6,False
+T1,1819,2018-12-01,Kocaelispor,Trabzonspor,7,6,False
+T1,1819,2018-12-02,Besiktas,Galatasaray,8,9,False
+T1,1819,2018-12-02,Bursaspor,Erzurum BB,7,8,False
+T1,1819,2018-12-03,Fenerbahce,Kasimpasa,8,8,False
+T1,1819,2018-12-03,Yeni Malatyaspor,Akhisar Belediyespor,8,8,False
+T1,1819,2018-12-07,Antalyaspor,Besiktas,2,5,False
+T1,1819,2018-12-08,Trabzonspor,Antalyaspor,5,1,False
+T1,1819,2018-12-08,Samsunspor,Goztep,7,3,False
+T1,1819,2018-12-08,Galatasaray,Rizespor,3,8,False
+T1,1819,2018-12-09,Erzurum BB,Yeni Malatyaspor,7,4,False
+T1,1819,2018-12-09,Akhisar Belediyespor,Fenerbahce,6,6,False
+T1,1819,2018-12-09,Bursaspor,Antalyaspor,7,1,False
+T1,1819,2018-12-10,Karagumruk,Buyuksehyr,10,9,False
+T1,1819,2018-12-10,Kasimpasa,Kocaelispor,5,9,False
+T1,1819,2018-12-14,Goztep,Bursaspor,6,5,False
+T1,1819,2018-12-15,Rizespor,Antalyaspor,7,6,False
+T1,1819,2018-12-15,Samsunspor,Karagumruk,7,5,False
+T1,1819,2018-12-15,Antalyaspor,Kasimpasa,6,5,False
+T1,1819,2018-12-15,Buyuksehyr,Galatasaray,5,7,False
+T1,1819,2018-12-16,Yeni Malatyaspor,Antalyaspor,7,1,False
+T1,1819,2018-12-16,Besiktas,Trabzonspor,9,8,False
+T1,1819,2018-12-16,Kocaelispor,Akhisar Belediyespor,6,7,False
+T1,1819,2018-12-17,Fenerbahce,Erzurum BB,8,8,False
+T1,1819,2018-12-22,Kasimpasa,Besiktas,7,6,False
+T1,1819,2018-12-22,Karagumruk,Goztep,7,8,False
+T1,1819,2018-12-22,Antalyaspor,Buyuksehyr,6,7,False
+T1,1819,2018-12-23,Erzurum BB,Kocaelispor,6,7,False
+T1,1819,2018-12-23,Bursaspor,Yeni Malatyaspor,9,7,False
+T1,1819,2018-12-23,Trabzonspor,Rizespor,7,8,False
+T1,1819,2018-12-23,Galatasaray,Samsunspor,8,8,False
+T1,1819,2018-12-24,Antalyaspor,Fenerbahce,2,7,False
+T1,1819,2018-12-24,Akhisar Belediyespor,Antalyaspor,8,2,False
+T1,1819,2019-01-18,Akhisar Belediyespor,Besiktas,25,27,False
+T1,1819,2019-01-19,Erzurum BB,Antalyaspor,27,26,False
+T1,1819,2019-01-19,Antalyaspor,Kocaelispor,26,27,False
+T1,1819,2019-01-19,Galatasaray,Karagumruk,27,28,False
+T1,1819,2019-01-19,Yeni Malatyaspor,Goztep,27,28,False
+T1,1819,2019-01-20,Antalyaspor,Samsunspor,1,28,False
+T1,1819,2019-01-20,Trabzonspor,Buyuksehyr,28,29,False
+T1,1819,2019-01-21,Kasimpasa,Rizespor,30,29,False
+T1,1819,2019-01-21,Bursaspor,Fenerbahce,29,28,False
+T1,1819,2019-01-25,Besiktas,Erzurum BB,7,6,False
+T1,1819,2019-01-26,Kocaelispor,Bursaspor,7,5,False
+T1,1819,2019-01-26,Goztep,Galatasaray,7,7,False
+T1,1819,2019-01-27,Samsunspor,Trabzonspor,7,7,False
+T1,1819,2019-01-27,Antalyaspor,Antalyaspor,7,7,False
+T1,1819,2019-01-27,Rizespor,Akhisar Belediyespor,6,9,False
+T1,1819,2019-01-28,Fenerbahce,Yeni Malatyaspor,7,9,False
+T1,1819,2019-01-28,Karagumruk,Antalyaspor,9,1,False
+T1,1819,2019-01-28,Buyuksehyr,Kasimpasa,8,7,False
+T1,1819,2019-02-01,Fenerbahce,Goztep,4,6,False
+T1,1819,2019-02-02,Trabzonspor,Karagumruk,6,5,False
+T1,1819,2019-02-02,Yeni Malatyaspor,Kocaelispor,5,7,False
+T1,1819,2019-02-02,Kasimpasa,Samsunspor,5,6,False
+T1,1819,2019-02-02,Antalyaspor,Galatasaray,5,7,False
+T1,1819,2019-02-03,Erzurum BB,Rizespor,9,7,False
+T1,1819,2019-02-03,Akhisar Belediyespor,Buyuksehyr,7,6,False
+T1,1819,2019-02-03,Antalyaspor,Besiktas,1,9,False
+T1,1819,2019-02-04,Bursaspor,Antalyaspor,9,1,False
+T1,1819,2019-02-08,Kocaelispor,Fenerbahce,6,7,False
+T1,1819,2019-02-09,Rizespor,Antalyaspor,6,5,False
+T1,1819,2019-02-09,Besiktas,Bursaspor,6,5,False
+T1,1819,2019-02-09,Buyuksehyr,Erzurum BB,6,6,False
+T1,1819,2019-02-10,Antalyaspor,Yeni Malatyaspor,1,8,False
+T1,1819,2019-02-10,Goztep,Antalyaspor,9,1,False
+T1,1819,2019-02-10,Galatasaray,Trabzonspor,8,8,False
+T1,1819,2019-02-11,Karagumruk,Kasimpasa,9,9,False
+T1,1819,2019-02-11,Samsunspor,Akhisar Belediyespor,9,8,False
+T1,1819,2019-02-15,Yeni Malatyaspor,Besiktas,5,6,False
+T1,1819,2019-02-16,Fenerbahce,Antalyaspor,8,6,False
+T1,1819,2019-02-16,Bursaspor,Rizespor,7,7,False
+T1,1819,2019-02-16,Akhisar Belediyespor,Karagumruk,5,5,False
+T1,1819,2019-02-17,Kocaelispor,Goztep,9,7,False
+T1,1819,2019-02-17,Trabzonspor,Antalyaspor,7,1,False
+T1,1819,2019-02-17,Erzurum BB,Samsunspor,8,6,False
+T1,1819,2019-02-17,Kasimpasa,Galatasaray,6,7,False
+T1,1819,2019-02-18,Antalyaspor,Buyuksehyr,1,9,False
+T1,1819,2019-02-22,Goztep,Trabzonspor,5,5,False
+T1,1819,2019-02-22,Rizespor,Yeni Malatyaspor,6,7,False
+T1,1819,2019-02-23,Samsunspor,Antalyaspor,6,5,False
+T1,1819,2019-02-23,Buyuksehyr,Bursaspor,5,7,False
+T1,1819,2019-02-23,Antalyaspor,Kasimpasa,5,6,False
+T1,1819,2019-02-24,Antalyaspor,Kocaelispor,1,7,False
+T1,1819,2019-02-24,Karagumruk,Erzurum BB,8,7,False
+T1,1819,2019-02-24,Galatasaray,Akhisar Belediyespor,7,8,False
+T1,1819,2019-02-25,Besiktas,Fenerbahce,10,9,False
+T1,1819,2019-03-01,Antalyaspor,Karagumruk,5,5,False
+T1,1819,2019-03-02,Kocaelispor,Besiktas,6,5,False
+T1,1819,2019-03-02,Bursaspor,Samsunspor,7,7,False
+T1,1819,2019-03-02,Fenerbahce,Rizespor,5,8,False
+T1,1819,2019-03-03,Yeni Malatyaspor,Buyuksehyr,9,8,False
+T1,1819,2019-03-03,Antalyaspor,Goztep,2,9,False
+T1,1819,2019-03-03,Erzurum BB,Galatasaray,7,7,False
+T1,1819,2019-03-04,Akhisar Belediyespor,Antalyaspor,8,1,False
+T1,1819,2019-03-04,Kasimpasa,Trabzonspor,9,10,False
+T1,1819,2019-03-08,Samsunspor,Yeni Malatyaspor,6,5,False
+T1,1819,2019-03-09,Trabzonspor,Akhisar Belediyespor,5,5,False
+T1,1819,2019-03-09,Buyuksehyr,Fenerbahce,6,7,False
+T1,1819,2019-03-09,Karagumruk,Bursaspor,8,7,False
+T1,1819,2019-03-10,Goztep,Kasimpasa,7,6,False
+T1,1819,2019-03-10,Rizespor,Kocaelispor,8,8,False
+T1,1819,2019-03-10,Antalyaspor,Erzurum BB,6,7,False
+T1,1819,2019-03-10,Besiktas,Antalyaspor,8,6,False
+T1,1819,2019-03-11,Galatasaray,Antalyaspor,8,1,False
+T1,1819,2019-03-15,Fenerbahce,Samsunspor,6,7,False
+T1,1819,2019-03-16,Besiktas,Goztep,6,6,False
+T1,1819,2019-03-16,Erzurum BB,Trabzonspor,6,7,False
+T1,1819,2019-03-16,Antalyaspor,Rizespor,5,6,False
+T1,1819,2019-03-16,Akhisar Belediyespor,Kasimpasa,7,6,False
+T1,1819,2019-03-16,Antalyaspor,Antalyaspor,5,5,False
+T1,1819,2019-03-17,Yeni Malatyaspor,Karagumruk,9,8,False
+T1,1819,2019-03-17,Kocaelispor,Buyuksehyr,7,8,False
+T1,1819,2019-03-17,Bursaspor,Galatasaray,8,6,False
+T1,1819,2019-04-05,Trabzonspor,Antalyaspor,20,20,False
+T1,1819,2019-04-06,Antalyaspor,Bursaspor,1,20,False
+T1,1819,2019-04-06,Galatasaray,Yeni Malatyaspor,20,20,False
+T1,1819,2019-04-06,Samsunspor,Kocaelispor,22,20,False
+T1,1819,2019-04-07,Buyuksehyr,Antalyaspor,21,1,False
+T1,1819,2019-04-07,Goztep,Akhisar Belediyespor,22,22,False
+T1,1819,2019-04-07,Kasimpasa,Erzurum BB,22,22,False
+T1,1819,2019-04-07,Karagumruk,Fenerbahce,21,23,False
+T1,1819,2019-04-08,Rizespor,Besiktas,23,23,False
+T1,1819,2019-04-12,Bursaspor,Trabzonspor,6,7,False
+T1,1819,2019-04-13,Rizespor,Goztep,5,6,False
+T1,1819,2019-04-13,Besiktas,Buyuksehyr,5,6,False
+T1,1819,2019-04-13,Antalyaspor,Samsunspor,6,7,False
+T1,1819,2019-04-14,Kocaelispor,Karagumruk,8,7,False
+T1,1819,2019-04-14,Yeni Malatyaspor,Antalyaspor,8,1,False
+T1,1819,2019-04-14,Fenerbahce,Galatasaray,7,8,False
+T1,1819,2019-04-14,Antalyaspor,Kasimpasa,1,7,False
+T1,1819,2019-04-15,Erzurum BB,Akhisar Belediyespor,8,8,False
+T1,1819,2019-04-19,Kasimpasa,Bursaspor,5,7,False
+T1,1819,2019-04-20,Goztep,Erzurum BB,7,5,False
+T1,1819,2019-04-20,Trabzonspor,Yeni Malatyaspor,8,6,False
+T1,1819,2019-04-20,Akhisar Belediyespor,Antalyaspor,5,6,False
+T1,1819,2019-04-20,Galatasaray,Kocaelispor,6,6,False
+T1,1819,2019-04-21,Buyuksehyr,Rizespor,8,8,False
+T1,1819,2019-04-21,Karagumruk,Antalyaspor,7,1,False
+T1,1819,2019-04-21,Antalyaspor,Fenerbahce,1,7,False
+T1,1819,2019-04-22,Samsunspor,Besiktas,9,9,False
+T1,1819,2019-04-26,Buyuksehyr,Goztep,5,6,False
+T1,1819,2019-04-27,Rizespor,Samsunspor,6,5,False
+T1,1819,2019-04-27,Antalyaspor,Erzurum BB,6,7,False
+T1,1819,2019-04-27,Fenerbahce,Trabzonspor,6,7,False
+T1,1819,2019-04-28,Kocaelispor,Antalyaspor,8,1,False
+T1,1819,2019-04-28,Bursaspor,Akhisar Belediyespor,9,8,False
+T1,1819,2019-04-28,Besiktas,Karagumruk,6,7,False
+T1,1819,2019-04-29,Antalyaspor,Galatasaray,1,9,False
+T1,1819,2019-04-29,Yeni Malatyaspor,Kasimpasa,9,10,False
+T1,1819,2019-05-03,Samsunspor,Buyuksehyr,6,7,False
+T1,1819,2019-05-04,Erzurum BB,Bursaspor,7,6,False
+T1,1819,2019-05-04,Karagumruk,Rizespor,6,7,False
+T1,1819,2019-05-04,Kasimpasa,Fenerbahce,5,7,False
+T1,1819,2019-05-05,Goztep,Antalyaspor,9,6,False
+T1,1819,2019-05-05,Galatasaray,Besiktas,6,7,False
+T1,1819,2019-05-05,Akhisar Belediyespor,Yeni Malatyaspor,7,6,False
+T1,1819,2019-05-06,Antalyaspor,Antalyaspor,1,1,False
+T1,1819,2019-05-06,Trabzonspor,Kocaelispor,9,8,False
+T1,1819,2019-05-10,Antalyaspor,Bursaspor,4,6,False
+T1,1819,2019-05-11,Rizespor,Galatasaray,7,6,False
+T1,1819,2019-05-11,Goztep,Samsunspor,6,8,False
+T1,1819,2019-05-11,Fenerbahce,Akhisar Belediyespor,7,6,False
+T1,1819,2019-05-12,Antalyaspor,Trabzonspor,2,6,False
+T1,1819,2019-05-12,Yeni Malatyaspor,Erzurum BB,7,8,False
+T1,1819,2019-05-12,Buyuksehyr,Karagumruk,9,8,False
+T1,1819,2019-05-12,Kocaelispor,Kasimpasa,6,8,False
+T1,1819,2019-05-13,Besiktas,Antalyaspor,8,1,False
+T1,1819,2019-05-17,Kasimpasa,Antalyaspor,5,4,False
+T1,1819,2019-05-18,Antalyaspor,Yeni Malatyaspor,1,6,False
+T1,1819,2019-05-18,Trabzonspor,Besiktas,6,5,False
+T1,1819,2019-05-19,Bursaspor,Goztep,9,8,False
+T1,1819,2019-05-19,Galatasaray,Buyuksehyr,8,7,False
+T1,1819,2019-05-19,Antalyaspor,Rizespor,1,8,False
+T1,1819,2019-05-19,Akhisar Belediyespor,Kocaelispor,8,7,False
+T1,1819,2019-05-20,Erzurum BB,Fenerbahce,8,9,False
+T1,1819,2019-05-20,Karagumruk,Samsunspor,8,9,False
+T1,1819,2019-05-24,Rizespor,Trabzonspor,5,6,False
+T1,1819,2019-05-24,Samsunspor,Galatasaray,4,5,False
+T1,1819,2019-05-24,Besiktas,Kasimpasa,6,7,False
+T1,1819,2019-05-24,Buyuksehyr,Antalyaspor,5,5,False
+T1,1819,2019-05-25,Antalyaspor,Akhisar Belediyespor,1,6,False
+T1,1819,2019-05-26,Goztep,Karagumruk,7,6,False
+T1,1819,2019-05-26,Kocaelispor,Erzurum BB,7,6,False
+T1,1819,2019-05-26,Yeni Malatyaspor,Bursaspor,8,7,False
+T1,1819,2019-05-26,Fenerbahce,Antalyaspor,6,1,False

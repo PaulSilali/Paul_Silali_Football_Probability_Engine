@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,1718,2017-02-12,Berwick,Stirling,15,15,False
+SC3,1718,2017-02-12,Annan Athletic,Elgin,15,11,False
+SC3,1718,2017-02-12,Peterhead,Edinburgh City,7,15,False
+SC3,1718,2017-02-12,Clyde,Montrose,15,11,False
+SC3,1718,2017-04-11,Annan Athletic,Berwick,8,9,True
+SC3,1718,2017-04-11,Elgin,Peterhead,8,58,True
+SC3,1718,2017-04-11,Edinburgh City,Stirling,9,8,True
+SC3,1718,2017-04-11,Cowdenbeath,Montrose,8,8,True
+SC3,1718,2017-04-11,Stenhousemuir,Clyde,7,8,True
+SC3,1718,2017-05-08,Elgin,Cowdenbeath,9,9,False
+SC3,1718,2017-05-08,Edinburgh City,Montrose,9,9,False
+SC3,1718,2017-05-08,Annan Athletic,Peterhead,9,27,False
+SC3,1718,2017-05-08,Stenhousemuir,Stirling,27,9,False
+SC3,1718,2017-05-08,Berwick,Clyde,9,9,False
+SC3,1718,2017-05-12,Stirling,Peterhead,4,4,False
+SC3,1718,2017-08-19,Stenhousemuir,Peterhead,103,99,False
+SC3,1718,2017-08-19,Montrose,Cowdenbeath,15,15,False
+SC3,1718,2017-08-19,Elgin,Clyde,15,15,False
+SC3,1718,2017-08-19,Berwick,Annan Athletic,15,15,False
+SC3,1718,2017-08-19,Stirling,Edinburgh City,15,15,False
+SC3,1718,2017-08-26,Annan Athletic,Montrose,7,7,False
+SC3,1718,2017-08-26,Cowdenbeath,Berwick,7,7,False
+SC3,1718,2017-08-26,Edinburgh City,Elgin,7,7,False
+SC3,1718,2017-08-26,Peterhead,Stirling,7,7,False
+SC3,1718,2017-08-26,Clyde,Stenhousemuir,7,7,False
+SC3,1718,2017-09-09,Stirling,Clyde,14,14,False
+SC3,1718,2017-09-09,Stenhousemuir,Cowdenbeath,14,14,False
+SC3,1718,2017-09-09,Peterhead,Montrose,14,14,False
+SC3,1718,2017-09-09,Elgin,Annan Athletic,14,14,False
+SC3,1718,2017-09-09,Edinburgh City,Berwick,14,14,False
+SC3,1718,2017-09-12,Stenhousemuir,Annan Athletic,3,3,True
+SC3,1718,2017-09-12,Elgin,Edinburgh City,3,3,True
+SC3,1718,2017-09-12,Montrose,Berwick,3,3,True
+SC3,1718,2017-09-16,Clyde,Edinburgh City,7,4,False
+SC3,1718,2017-09-16,Berwick,Elgin,4,4,False
+SC3,1718,2017-09-16,Annan Athletic,Stenhousemuir,4,4,False
+SC3,1718,2017-09-16,Montrose,Stirling,4,7,False
+SC3,1718,2017-09-16,Cowdenbeath,Peterhead,7,7,False
+SC3,1718,2017-09-23,Elgin,Montrose,7,7,False
+SC3,1718,2017-09-23,Clyde,Cowdenbeath,7,7,False
+SC3,1718,2017-09-23,Edinburgh City,Peterhead,7,7,False
+SC3,1718,2017-09-23,Stenhousemuir,Berwick,7,7,False
+SC3,1718,2017-09-23,Stirling,Annan Athletic,7,7,False
+SC3,1718,2017-09-30,Annan Athletic,Cowdenbeath,7,7,False
+SC3,1718,2017-09-30,Stirling,Elgin,7,7,False
+SC3,1718,2017-09-30,Stenhousemuir,Edinburgh City,7,7,False
+SC3,1718,2017-09-30,Peterhead,Berwick,7,7,False
+SC3,1718,2017-09-30,Montrose,Clyde,7,7,False
+SC3,1718,2017-10-21,Elgin,Stenhousemuir,21,21,False
+SC3,1718,2017-10-21,Edinburgh City,Annan Athletic,21,21,False
+SC3,1718,2017-10-21,Cowdenbeath,Stirling,21,21,False
+SC3,1718,2017-10-21,Clyde,Peterhead,21,21,False
+SC3,1718,2017-10-21,Berwick,Montrose,21,21,False
+SC3,1718,2017-10-28,Stirling,Stenhousemuir,7,7,False
+SC3,1718,2017-10-28,Berwick,Cowdenbeath,7,7,False
+SC3,1718,2017-10-28,Clyde,Elgin,7,7,False
+SC3,1718,2017-10-28,Montrose,Edinburgh City,7,7,False
+SC3,1718,2017-10-28,Peterhead,Annan Athletic,7,7,False
+SC3,1718,2017-11-11,Peterhead,Stenhousemuir,14,14,False
+SC3,1718,2017-11-11,Berwick,Edinburgh City,8,8,False
+SC3,1718,2017-11-11,Clyde,Stirling,8,8,False
+SC3,1718,2017-11-11,Cowdenbeath,Elgin,8,8,False
+SC3,1718,2017-11-11,Montrose,Annan Athletic,8,8,False
+SC3,1718,2017-11-18,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1718,2017-11-25,Edinburgh City,Cowdenbeath,14,7,False
+SC3,1718,2017-11-25,Stenhousemuir,Montrose,14,14,False
+SC3,1718,2017-11-25,Annan Athletic,Clyde,7,14,False
+SC3,1718,2017-11-25,Elgin,Berwick,14,14,False
+SC3,1718,2017-12-08,Stirling,Berwick,27,13,False
+SC3,1718,2017-12-08,Montrose,Stenhousemuir,13,13,False
+SC3,1718,2017-12-08,Clyde,Annan Athletic,13,13,False
+SC3,1718,2017-12-08,Cowdenbeath,Edinburgh City,13,13,False
+SC3,1718,2017-12-08,Peterhead,Elgin,27,13,False
+SC3,1718,2017-12-16,Edinburgh City,Stenhousemuir,8,8,False
+SC3,1718,2017-12-16,Annan Athletic,Stirling,8,8,False
+SC3,1718,2017-12-16,Montrose,Elgin,8,8,False
+SC3,1718,2017-12-19,Cowdenbeath,Stenhousemuir,11,3,True
+SC3,1718,2017-12-23,Stirling,Montrose,7,7,False
+SC3,1718,2017-12-23,Annan Athletic,Edinburgh City,7,7,False
+SC3,1718,2017-12-23,Clyde,Berwick,15,15,False
+SC3,1718,2017-12-23,Peterhead,Cowdenbeath,15,4,False
+SC3,1718,2017-12-23,Stenhousemuir,Elgin,4,7,False
+SC3,1718,2017-12-30,Montrose,Peterhead,7,7,False
+SC3,1718,2018-01-13,Elgin,Cowdenbeath,21,21,False
+SC3,1718,2018-01-13,Berwick,Annan Athletic,21,21,False
+SC3,1718,2018-01-13,Clyde,Stenhousemuir,21,21,False
+SC3,1718,2018-01-13,Edinburgh City,Montrose,21,14,False
+SC3,1718,2018-01-13,Peterhead,Stirling,14,21,False
+SC3,1718,2018-01-20,Montrose,Clyde,7,7,False
+SC3,1718,2018-01-27,Montrose,Stirling,7,14,False
+SC3,1718,2018-01-27,Elgin,Stenhousemuir,14,14,False
+SC3,1718,2018-01-27,Edinburgh City,Annan Athletic,14,14,False
+SC3,1718,2018-01-27,Cowdenbeath,Berwick,14,14,False
+SC3,1718,2018-01-27,Clyde,Peterhead,7,14,False
+SC3,1718,2018-01-30,Berwick,Peterhead,3,3,True
+SC3,1718,2018-01-31,Stirling,Cowdenbeath,4,4,True
+SC3,1718,2018-02-01,Peterhead,Elgin,2,5,True
+SC3,1718,2018-02-01,Clyde,Annan Athletic,5,5,True
+SC3,1718,2018-02-01,Edinburgh City,Berwick,5,2,True
+SC3,1718,2018-02-01,Montrose,Cowdenbeath,5,1,True
+SC3,1718,2018-02-01,Stenhousemuir,Stirling,5,1,True
+SC3,1718,2018-02-17,Stirling,Annan Athletic,16,16,False
+SC3,1718,2018-02-17,Peterhead,Berwick,16,16,False
+SC3,1718,2018-02-17,Stenhousemuir,Edinburgh City,16,16,False
+SC3,1718,2018-02-17,Elgin,Montrose,16,16,False
+SC3,1718,2018-02-17,Clyde,Cowdenbeath,16,16,False
+SC3,1718,2018-02-20,Annan Athletic,Peterhead,3,3,True
+SC3,1718,2018-02-24,Edinburgh City,Elgin,7,7,False
+SC3,1718,2018-02-24,Stirling,Clyde,7,7,False
+SC3,1718,2018-02-24,Cowdenbeath,Peterhead,7,4,False
+SC3,1718,2018-02-24,Berwick,Montrose,7,7,False
+SC3,1718,2018-02-24,Annan Athletic,Stenhousemuir,4,7,False
+SC3,1718,2018-02-27,Peterhead,Clyde,3,3,True
+SC3,1718,2018-03-02,Stenhousemuir,Berwick,6,6,False
+SC3,1718,2018-03-02,Peterhead,Montrose,3,6,False
+SC3,1718,2018-03-02,Stirling,Elgin,6,6,False
+SC3,1718,2018-03-02,Clyde,Edinburgh City,3,6,False
+SC3,1718,2018-03-02,Annan Athletic,Cowdenbeath,6,6,False
+SC3,1718,2018-03-13,Peterhead,Stenhousemuir,11,11,True
+SC3,1718,2018-03-13,Berwick,Stirling,11,11,True
+SC3,1718,2018-03-13,Clyde,Elgin,11,11,True
+SC3,1718,2018-03-13,Edinburgh City,Cowdenbeath,11,11,True
+SC3,1718,2018-03-13,Montrose,Annan Athletic,11,11,True
+SC3,1718,2018-03-17,Montrose,Peterhead,4,4,False
+SC3,1718,2018-03-17,Annan Athletic,Clyde,4,4,False
+SC3,1718,2018-03-17,Cowdenbeath,Elgin,4,4,False
+SC3,1718,2018-03-17,Edinburgh City,Stirling,4,4,False
+SC3,1718,2018-03-20,Stenhousemuir,Cowdenbeath,7,3,True
+SC3,1718,2018-03-20,Elgin,Stirling,3,3,True
+SC3,1718,2018-03-20,Edinburgh City,Clyde,3,3,True
+SC3,1718,2018-03-24,Peterhead,Annan Athletic,7,7,False
+SC3,1718,2018-03-24,Stenhousemuir,Elgin,4,4,False
+SC3,1718,2018-03-24,Clyde,Montrose,4,7,False
+SC3,1718,2018-03-24,Berwick,Edinburgh City,11,4,False
+SC3,1718,2018-03-24,Stirling,Cowdenbeath,4,4,False
+SC3,1718,2018-03-27,Berwick,Elgin,3,3,True
+SC3,1718,2018-03-27,Stirling,Edinburgh City,3,3,True
+SC3,1718,2018-03-27,Cowdenbeath,Clyde,3,3,True
+SC3,1718,2018-03-31,Cowdenbeath,Stenhousemuir,4,7,False
+SC3,1718,2018-03-31,Elgin,Stirling,4,4,False
+SC3,1718,2018-03-31,Montrose,Edinburgh City,7,4,False
+SC3,1718,2018-03-31,Peterhead,Clyde,7,4,False
+SC3,1718,2018-03-31,Annan Athletic,Berwick,7,4,False
+SC3,1718,2018-04-14,Elgin,Edinburgh City,14,14,False
+SC3,1718,2018-04-14,Montrose,Berwick,14,14,False
+SC3,1718,2018-04-14,Peterhead,Cowdenbeath,14,14,False
+SC3,1718,2018-04-14,Stenhousemuir,Annan Athletic,14,14,False
+SC3,1718,2018-04-14,Clyde,Stirling,14,14,False
+SC3,1718,2018-04-17,Berwick,Stenhousemuir,3,3,True
+SC3,1718,2018-04-21,Stenhousemuir,Montrose,4,7,False
+SC3,1718,2018-04-21,Annan Athletic,Stirling,7,7,False
+SC3,1718,2018-04-21,Berwick,Cowdenbeath,4,7,False
+SC3,1718,2018-04-21,Edinburgh City,Clyde,7,7,False
+SC3,1718,2018-04-21,Elgin,Peterhead,7,7,False
+SC3,1718,2018-04-24,Berwick,Stenhousemuir,3,3,True
+SC3,1718,2018-04-28,Montrose,Elgin,7,7,False
+SC3,1718,2018-04-28,Clyde,Berwick,7,4,False
+SC3,1718,2018-04-28,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1718,2018-04-28,Stirling,Stenhousemuir,7,4,False
+SC3,1718,2018-04-28,Peterhead,Edinburgh City,7,7,False
+SC3,1718,2018-06-01,Elgin,Clyde,34,34,False
+SC3,1718,2018-06-01,Annan Athletic,Montrose,34,34,False
+SC3,1718,2018-06-01,Cowdenbeath,Edinburgh City,34,34,False
+SC3,1718,2018-06-01,Stirling,Berwick,34,34,False
+SC3,1718,2018-06-01,Stenhousemuir,Peterhead,34,34,False
+SC3,1718,2018-07-04,Stirling,Montrose,33,33,True
+SC3,1718,2018-07-04,Annan Athletic,Elgin,33,33,True
+SC3,1718,2018-07-04,Berwick,Peterhead,33,33,True
+SC3,1718,2018-07-04,Cowdenbeath,Clyde,33,33,True
+SC3,1718,2018-07-04,Edinburgh City,Stenhousemuir,33,33,True
+SC3,1718,2018-10-02,Edinburgh City,Peterhead,3,3,True
+SC3,1718,2018-10-02,Cowdenbeath,Stirling,3,3,True
+SC3,1718,2018-10-02,Berwick,Clyde,3,3,True
+SC3,1718,2018-10-02,Montrose,Stenhousemuir,90,90,True
+SC3,1718,2018-10-02,Elgin,Annan Athletic,3,3,True
+SC3,1718,2018-10-03,Annan Athletic,Edinburgh City,1,1,True
+SC3,1718,2018-10-03,Elgin,Berwick,1,1,True
+SC3,1718,2018-10-03,Stirling,Peterhead,1,1,True
+SC3,1718,2018-10-03,Stenhousemuir,Clyde,1,1,True
+SC3,1718,2018-10-04,Cowdenbeath,Montrose,2,2,True

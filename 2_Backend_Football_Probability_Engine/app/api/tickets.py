@@ -64,10 +64,35 @@ async def generate_tickets(
         
         prob_data = prob_response.data
         fixtures_data = prob_data.get("fixtures", [])
-        probability_sets = prob_data.get("probabilitySets", {})
+        probability_sets_raw = prob_data.get("probabilitySets", {})
         
         if not fixtures_data:
             raise HTTPException(status_code=400, detail="No fixtures found for jackpot")
+        
+        # Validate set_keys - A-J are valid
+        valid_set_keys = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"}
+        set_keys = [key.upper() for key in request.set_keys if key.upper() in valid_set_keys]
+        
+        # Log if invalid keys were filtered out
+        invalid_keys = [key for key in request.set_keys if key.upper() not in valid_set_keys]
+        if invalid_keys:
+            logger.warning(f"Filtered out invalid set_keys: {invalid_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J")
+        
+        if not set_keys:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Invalid set_keys: {request.set_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J"
+            )
+        
+        # Filter probability_sets to only include valid set keys
+        invalid_prob_keys = [key for key in probability_sets_raw.keys() if key.upper() not in valid_set_keys]
+        if invalid_prob_keys:
+            logger.warning(f"Filtered out invalid probability set keys: {invalid_prob_keys}")
+        
+        probability_sets = {
+            key: value for key, value in probability_sets_raw.items() 
+            if key.upper() in valid_set_keys
+        }
         
         # Rollback to ensure clean transaction state after calculate_probabilities
         # calculate_probabilities may have aborted the transaction
@@ -92,11 +117,68 @@ async def generate_tickets(
                 'league_id': db_fixture.league_id,
             })
         
+        # Fetch opening odds from odds_movement table for late-shock detection
+        from app.db.models import OddsMovement, League
+        fixture_ids = [f.id for f in jackpot_fixtures]
+        odds_movements = db.query(OddsMovement).filter(
+            OddsMovement.fixture_id.in_(fixture_ids)
+        ).all()
+        odds_movement_map = {om.fixture_id: om for om in odds_movements}
+        
+        # Get league code from request or first fixture
+        league_code = request.league_code
+        if not league_code or league_code == "DEFAULT":
+            if fixtures_data and fixtures_data[0].get("league_id"):
+                league = db.query(League).filter(League.id == fixtures_data[0]["league_id"]).first()
+                if league:
+                    league_code = league.code
+            else:
+                league_code = "DEFAULT"  # Ensure it has a value
+        
         # Prepare fixtures (without probabilities - will be set per set)
         fixtures = []
         for idx, fixture_data in enumerate(fixtures_data):
             # Match with database fixture to get team IDs
             db_fixture_data = fixture_cache[idx] if idx < len(fixture_cache) else {}
+            db_fixture = jackpot_fixtures[idx] if idx < len(jackpot_fixtures) else None
+            
+            # Get opening odds from odds_movement table
+            odds_open = None
+            if db_fixture:
+                odds_movement = odds_movement_map.get(db_fixture.id)
+                if odds_movement and odds_movement.draw_open:
+                    # Reconstruct opening odds (we only have draw_open, estimate home/away)
+                    current_odds = fixture_data.get("odds", {})
+                    if current_odds.get("draw"):
+                        # Estimate opening odds based on draw movement
+                        draw_ratio = odds_movement.draw_open / current_odds.get("draw", odds_movement.draw_open)
+                        odds_open = {
+                            "home": current_odds.get("home", 2.0) * draw_ratio if current_odds.get("home") else None,
+                            "draw": odds_movement.draw_open,
+                            "away": current_odds.get("away", 2.0) * draw_ratio if current_odds.get("away") else None
+                        }
+            
+            # Get kickoff timestamp (combine match_date from jackpot with match_time if available)
+            kickoff_ts = None
+            if db_fixture:
+                from datetime import datetime, time, date
+                # Try to get kickoff_date from jackpot
+                kickoff_date = getattr(jackpot, 'kickoff_date', None)
+                if not kickoff_date:
+                    # Fallback to created_at date
+                    kickoff_date = jackpot.created_at.date() if hasattr(jackpot, 'created_at') and jackpot.created_at else date.today()
+                
+                # If match_time available, combine; otherwise use default time
+                match_time = getattr(db_fixture, 'match_time', None) if hasattr(db_fixture, 'match_time') else None
+                if match_time:
+                    kickoff_datetime = datetime.combine(kickoff_date, match_time)
+                else:
+                    kickoff_datetime = datetime.combine(kickoff_date, time(15, 0))  # Default 3 PM
+                kickoff_ts = int(kickoff_datetime.timestamp())
+            
+            # Get draw structural components for correlation scoring
+            draw_signal = fixture_data.get("drawStructuralComponents", {}).get("draw_signal", 0.5)
+            lambda_total = fixture_data.get("drawStructuralComponents", {}).get("lambda_total", 2.5)
             
             fixtures.append({
                 "id": fixture_data.get("id", str(idx)),
@@ -106,7 +188,11 @@ async def generate_tickets(
                 "away_team_id": db_fixture_data.get('away_team_id'),
                 "league_id": db_fixture_data.get('league_id'),
                 "probabilities": {"home": 0.33, "draw": 0.33, "away": 0.33},  # Placeholder
-                "odds": fixture_data.get("odds", {})
+                "odds": fixture_data.get("odds", {}),
+                "odds_open": odds_open,  # NEW: Opening odds for late-shock detection
+                "kickoff_ts": kickoff_ts,  # NEW: Kickoff timestamp for correlation
+                "draw_signal": draw_signal,  # NEW: Draw signal for correlation
+                "lambda_total": lambda_total  # NEW: Total expected goals for correlation
             })
         
         # Determine league code from fixtures if not provided
@@ -122,7 +208,7 @@ async def generate_tickets(
         bundle = service.generate_bundle(
             fixtures=fixtures,
             league_code=league_code,
-            set_keys=request.set_keys,
+            set_keys=set_keys,  # Use validated set_keys
             n_tickets=request.n_tickets,
             probability_sets=probability_sets
         )
@@ -167,20 +253,20 @@ async def save_tickets(
         model_version = model.version if model else None
         
         # Convert tickets to selections format (compatible with SavedProbabilityResult)
-        # Format: {"A": {"1": "1", "2": "X", ...}, "B": {...}}
+        # Format: {"ticket-0": {"setKey": "B", "1": "1", "2": "X", ...}, "ticket-1": {...}}
+        # This preserves all tickets even if they share the same setKey
         selections = {}
         
-        for ticket in request.tickets:
+        for ticket_idx, ticket in enumerate(request.tickets):
             set_key = ticket.get("setKey", "B")
             picks = ticket.get("picks", [])
+            ticket_key = f"ticket-{ticket_idx}"
             
-            if set_key not in selections:
-                selections[set_key] = {}
-            
-            # Convert picks array to fixture selections
-            for idx, pick in enumerate(picks):
-                fixture_id = str(idx + 1)  # Use 1-indexed fixture numbers
-                selections[set_key][fixture_id] = pick
+            # Store ticket metadata and picks
+            selections[ticket_key] = {
+                "setKey": set_key,
+                **{str(idx + 1): pick for idx, pick in enumerate(picks)}  # Convert picks array to fixture selections
+            }
         
         # Count total fixtures from first ticket
         total_fixtures = len(request.tickets[0].get("picks", [])) if request.tickets else 0

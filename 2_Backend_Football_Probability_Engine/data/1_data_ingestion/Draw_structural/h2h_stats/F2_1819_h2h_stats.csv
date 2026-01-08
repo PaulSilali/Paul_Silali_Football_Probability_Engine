@@ -1,0 +1,156 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9380,Red Star,9410,Beziers,1819,2,0,0.0,3.5
+9374,Le Mans,9390,Ajaccio,1819,8,1,0.125,2.75
+9399,Valenciennes,9400,Auxerre,1819,2,1,0.5,3.0
+9380,Red Star,9392,Paris FC,1819,2,1,0.5,1.5
+9380,Red Star,9408,Chateauroux,1819,2,1,0.5,3.0
+9392,Paris FC,9411,Brest,1819,2,1,0.5,1.5
+9390,Ajaccio,9395,Metz,1819,4,1,0.25,1.75
+9374,Le Mans,9403,Niort,1819,4,1,0.25,2.75
+9404,Le Havre,9411,Brest,1819,2,1,0.5,1.5
+9385,Grenoble,9395,Metz,1819,2,2,1.0,2.0
+9390,Ajaccio,9408,Chateauroux,1819,4,2,0.5,2.5
+9380,Red Star,9384,Troyes,1819,2,0,0.0,2.5
+9406,Sochaux,9411,Brest,1819,2,0,0.0,1.5
+9392,Paris FC,9404,Le Havre,1819,2,0,0.0,2.0
+9382,Annecy,9385,Grenoble,1819,2,0,0.0,2.0
+9404,Le Havre,9408,Chateauroux,1819,2,0,0.0,2.0
+9384,Troyes,9406,Sochaux,1819,2,1,0.5,1.5
+9382,Annecy,9400,Auxerre,1819,2,0,0.0,1.0
+9380,Red Star,9400,Auxerre,1819,2,1,0.5,0.5
+9380,Red Star,9399,Valenciennes,1819,2,0,0.0,3.0
+9376,Clermont,9408,Chateauroux,1819,2,2,1.0,2.0
+9408,Chateauroux,9411,Brest,1819,2,1,0.5,5.0
+9382,Annecy,9390,Ajaccio,1819,4,1,0.25,2.0
+9400,Auxerre,9406,Sochaux,1819,2,0,0.0,3.0
+9374,Le Mans,9385,Grenoble,1819,4,1,0.25,2.25
+9394,Lorient,9408,Chateauroux,1819,2,0,0.0,3.0
+9376,Clermont,9392,Paris FC,1819,2,1,0.5,2.5
+9392,Paris FC,9399,Valenciennes,1819,2,2,1.0,
+9380,Red Star,9382,Annecy,1819,2,1,0.5,1.5
+9374,Le Mans,9392,Paris FC,1819,4,2,0.5,1.5
+9395,Metz,9406,Sochaux,1819,2,1,0.5,2.5
+9385,Grenoble,9399,Valenciennes,1819,2,0,0.0,5.5
+9403,Niort,9408,Chateauroux,1819,2,0,0.0,2.0
+9374,Le Mans,9394,Lorient,1819,4,1,0.25,2.75
+9374,Le Mans,9376,Clermont,1819,4,1,0.25,1.75
+9390,Ajaccio,9404,Le Havre,1819,4,2,0.5,3.75
+9403,Niort,9406,Sochaux,1819,2,0,0.0,2.0
+9399,Valenciennes,9410,Beziers,1819,2,1,0.5,6.5
+9395,Metz,9400,Auxerre,1819,2,1,0.5,0.5
+9410,Beziers,9411,Brest,1819,2,0,0.0,2.0
+9374,Le Mans,9404,Le Havre,1819,4,2,0.5,2.25
+9374,Le Mans,9395,Metz,1819,4,1,0.25,2.25
+9390,Ajaccio,9400,Auxerre,1819,4,1,0.25,3.0
+9380,Red Star,9394,Lorient,1819,2,0,0.0,3.0
+9400,Auxerre,9410,Beziers,1819,2,0,0.0,1.5
+9380,Red Star,9403,Niort,1819,2,0,0.0,2.0
+9394,Lorient,9404,Le Havre,1819,2,1,0.5,2.5
+9403,Niort,9404,Le Havre,1819,2,1,0.5,0.5
+9382,Annecy,9392,Paris FC,1819,2,0,0.0,2.5
+9399,Valenciennes,9411,Brest,1819,2,0,0.0,5.5
+9390,Ajaccio,9406,Sochaux,1819,4,1,0.25,2.25
+9403,Niort,9410,Beziers,1819,2,2,1.0,1.0
+9385,Grenoble,9411,Brest,1819,2,0,0.0,3.5
+9382,Annecy,9411,Brest,1819,2,0,0.0,4.0
+9385,Grenoble,9392,Paris FC,1819,2,0,0.0,1.0
+9395,Metz,9408,Chateauroux,1819,2,0,0.0,3.0
+9384,Troyes,9411,Brest,1819,2,1,0.5,2.5
+9392,Paris FC,9406,Sochaux,1819,2,1,0.5,0.5
+9390,Ajaccio,9410,Beziers,1819,4,1,0.25,1.25
+9399,Valenciennes,9406,Sochaux,1819,2,0,0.0,1.0
+9376,Clermont,9382,Annecy,1819,2,0,0.0,3.0
+9395,Metz,9411,Brest,1819,2,0,0.0,1.0
+9394,Lorient,9400,Auxerre,1819,2,2,1.0,2.0
+9400,Auxerre,9403,Niort,1819,2,2,1.0,
+9392,Paris FC,9403,Niort,1819,2,1,0.5,0.5
+9374,Le Mans,9384,Troyes,1819,4,0,0.0,2.25
+9385,Grenoble,9404,Le Havre,1819,2,2,1.0,1.0
+9374,Le Mans,9408,Chateauroux,1819,4,1,0.25,1.5
+9406,Sochaux,9408,Chateauroux,1819,2,1,0.5,0.5
+9374,Le Mans,9380,Red Star,1819,4,1,0.25,2.5
+9404,Le Havre,9406,Sochaux,1819,2,0,0.0,4.5
+9384,Troyes,9403,Niort,1819,2,1,0.5,2.0
+9376,Clermont,9411,Brest,1819,2,2,1.0,2.0
+9392,Paris FC,9408,Chateauroux,1819,2,1,0.5,0.5
+9382,Annecy,9395,Metz,1819,2,0,0.0,2.0
+9403,Niort,9411,Brest,1819,2,1,0.5,2.5
+9374,Le Mans,9410,Beziers,1819,4,2,0.5,1.5
+9376,Clermont,9399,Valenciennes,1819,2,0,0.0,2.5
+9394,Lorient,9399,Valenciennes,1819,2,0,0.0,3.5
+9376,Clermont,9385,Grenoble,1819,2,1,0.5,1.5
+9390,Ajaccio,9394,Lorient,1819,4,1,0.25,1.5
+9380,Red Star,9385,Grenoble,1819,2,0,0.0,3.5
+9384,Troyes,9385,Grenoble,1819,2,0,0.0,2.5
+9376,Clermont,9380,Red Star,1819,2,1,0.5,2.0
+9384,Troyes,9408,Chateauroux,1819,2,0,0.0,2.0
+9385,Grenoble,9390,Ajaccio,1819,4,1,0.25,2.25
+9382,Annecy,9394,Lorient,1819,2,0,0.0,5.0
+9390,Ajaccio,9390,Ajaccio,1819,2,0,0.0,2.0
+9399,Valenciennes,9403,Niort,1819,2,0,0.0,2.0
+9376,Clermont,9384,Troyes,1819,2,0,0.0,3.5
+9382,Annecy,9399,Valenciennes,1819,2,1,0.5,2.0
+9384,Troyes,9394,Lorient,1819,2,0,0.0,2.5
+9384,Troyes,9395,Metz,1819,2,1,0.5,1.5
+9376,Clermont,9404,Le Havre,1819,2,2,1.0,
+9406,Sochaux,9410,Beziers,1819,2,1,0.5,0.5
+9374,Le Mans,9411,Brest,1819,4,1,0.25,2.25
+9385,Grenoble,9394,Lorient,1819,2,0,0.0,1.0
+9380,Red Star,9390,Ajaccio,1819,4,2,0.5,1.75
+9395,Metz,9403,Niort,1819,2,0,0.0,3.0
+9385,Grenoble,9400,Auxerre,1819,2,1,0.5,2.0
+9394,Lorient,9406,Sochaux,1819,2,1,0.5,0.5
+9382,Annecy,9408,Chateauroux,1819,2,0,0.0,1.0
+9408,Chateauroux,9410,Beziers,1819,2,1,0.5,2.0
+9399,Valenciennes,9404,Le Havre,1819,2,0,0.0,4.0
+9394,Lorient,9395,Metz,1819,2,1,0.5,1.5
+9394,Lorient,9410,Beziers,1819,2,0,0.0,2.5
+9376,Clermont,9406,Sochaux,1819,2,0,0.0,2.0
+9392,Paris FC,9400,Auxerre,1819,2,0,0.0,2.5
+9384,Troyes,9390,Ajaccio,1819,4,1,0.25,1.25
+9382,Annecy,9410,Beziers,1819,1,0,0.0,3.0
+9392,Paris FC,9395,Metz,1819,2,0,0.0,2.5
+9376,Clermont,9390,Ajaccio,1819,4,3,0.75,1.25
+9394,Lorient,9403,Niort,1819,2,2,1.0,3.0
+9376,Clermont,9410,Beziers,1819,2,1,0.5,2.0
+9384,Troyes,9392,Paris FC,1819,2,0,0.0,1.5
+9385,Grenoble,9403,Niort,1819,2,1,0.5,1.5
+9395,Metz,9399,Valenciennes,1819,2,0,0.0,2.5
+9382,Annecy,9384,Troyes,1819,2,1,0.5,2.5
+9376,Clermont,9403,Niort,1819,2,0,0.0,5.5
+9384,Troyes,9400,Auxerre,1819,2,0,0.0,1.5
+9384,Troyes,9399,Valenciennes,1819,2,0,0.0,3.5
+9384,Troyes,9410,Beziers,1819,2,1,0.5,0.5
+9374,Le Mans,9400,Auxerre,1819,4,0,0.0,2.75
+9394,Lorient,9411,Brest,1819,2,1,0.5,3.5
+9382,Annecy,9406,Sochaux,1819,2,1,0.5,2.0
+9400,Auxerre,9404,Le Havre,1819,2,1,0.5,1.5
+9385,Grenoble,9406,Sochaux,1819,2,0,0.0,2.5
+9390,Ajaccio,9411,Brest,1819,4,1,0.25,2.75
+9390,Ajaccio,9392,Paris FC,1819,4,3,0.75,1.25
+9380,Red Star,9411,Brest,1819,2,1,0.5,2.0
+9380,Red Star,9404,Le Havre,1819,2,0,0.0,1.0
+9390,Ajaccio,9403,Niort,1819,4,1,0.25,1.5
+9395,Metz,9410,Beziers,1819,2,0,0.0,2.5
+9376,Clermont,9400,Auxerre,1819,2,0,0.0,1.5
+9395,Metz,9404,Le Havre,1819,2,1,0.5,2.5
+9374,Le Mans,9399,Valenciennes,1819,4,1,0.25,3.0
+9385,Grenoble,9408,Chateauroux,1819,2,2,1.0,2.0
+9404,Le Havre,9410,Beziers,1819,2,1,0.5,3.5
+9392,Paris FC,9410,Beziers,1819,2,0,0.0,1.0
+9374,Le Mans,9382,Annecy,1819,4,0,0.0,2.5
+9374,Le Mans,9406,Sochaux,1819,4,0,0.0,1.5
+9392,Paris FC,9394,Lorient,1819,2,1,0.5,3.5
+9374,Le Mans,9374,Le Mans,1819,2,0,0.0,4.5
+9384,Troyes,9404,Le Havre,1819,2,1,0.5,2.5
+9382,Annecy,9404,Le Havre,1819,2,0,0.0,1.5
+9382,Annecy,9403,Niort,1819,2,1,0.5,1.5
+9380,Red Star,9406,Sochaux,1819,2,0,0.0,3.0
+9385,Grenoble,9410,Beziers,1819,2,0,0.0,4.5
+9400,Auxerre,9411,Brest,1819,2,0,0.0,1.5
+9400,Auxerre,9408,Chateauroux,1819,2,1,0.5,1.5
+9380,Red Star,9395,Metz,1819,2,0,0.0,2.5
+9390,Ajaccio,9399,Valenciennes,1819,4,2,0.5,2.0
+9399,Valenciennes,9408,Chateauroux,1819,2,2,1.0,2.0
+9376,Clermont,9395,Metz,1819,2,0,0.0,4.0
+9376,Clermont,9394,Lorient,1819,2,1,0.5,0.5

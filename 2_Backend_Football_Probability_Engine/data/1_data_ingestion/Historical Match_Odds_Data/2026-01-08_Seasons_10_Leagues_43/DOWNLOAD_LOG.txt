@@ -1,0 +1,178 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-08_Seasons_10_Leagues_43
+Download Date: 2026-01-08 19:10:55
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 43
+Successful Downloads (with data): 34
+Failed Downloads (errors): 0
+No Data Available (all 404s): 9
+Total Records Processed: 69,870
+Total Records Inserted: 3,321
+Total Records Updated: 54,183
+Total Records Skipped: 12,331
+Total Errors: 131
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ E0 - Season: last10 (Batch #195)
+  Records: 3,629 processed, 15 inserted, 3,614 updated, 0 skipped
+
+✓ E1 - Season: last10 (Batch #196)
+  Records: 5,275 processed, 23 inserted, 5,252 updated, 0 skipped
+
+✓ E2 - Season: last10 (Batch #197)
+  Records: 5,103 processed, 25 inserted, 5,078 updated, 0 skipped
+
+✓ E3 - Season: last10 (Batch #198)
+  Records: 5,146 processed, 3 inserted, 5,143 updated, 0 skipped
+
+✓ SP1 - Season: last10 (Batch #199)
+  Records: 3,601 processed, 0 inserted, 3,601 updated, 0 skipped
+
+✓ SP2 - Season: last10 (Batch #200)
+  Records: 4,378 processed, 30 inserted, 4,348 updated, 0 skipped
+
+✓ D1 - Season: last10 (Batch #201)
+  Records: 2,889 processed, 19 inserted, 2,870 updated, 0 skipped
+
+✓ D2 - Season: last10 (Batch #202)
+  Records: 2,907 processed, 17 inserted, 2,890 updated, 0 skipped
+
+✓ I1 - Season: last10 (Batch #203)
+  Records: 3,604 processed, 7 inserted, 3,597 updated, 0 skipped
+
+✓ I2 - Season: last10 (Batch #204)
+  Records: 2,080 processed, 0 inserted, 2,080 updated, 0 skipped
+
+✓ P1 - Season: last10 (Batch #208)
+  Records: 2,754 processed, 0 inserted, 2,754 updated, 0 skipped
+
+✓ SC0 - Season: last10 (Batch #218)
+  Records: 2,126 processed, 0 inserted, 2,126 updated, 0 skipped
+
+✓ SC1 - Season: last10 (Batch #219)
+  Records: 1,634 processed, 0 inserted, 1,634 updated, 0 skipped
+
+✓ SC2 - Season: last10 (Batch #220)
+  Records: 276 processed, 0 inserted, 276 updated, 0 skipped
+
+✓ T1 - Season: last10 (Batch #223)
+  Records: 918 processed, 0 inserted, 918 updated, 0 skipped
+
+✓ G1 - Season: last10 (Batch #227)
+  Records: 2,256 processed, 0 inserted, 2,256 updated, 0 skipped
+
+✓ SWE1 - Season: last10 (Batch #231)
+  Records: 918 processed, 0 inserted, 0 updated, 918 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ NO1 - Season: last10 (Batch #232)
+  Records: 2,832 processed, 0 inserted, 2,832 updated, 0 skipped
+
+✓ PL1 - Season: last10 (Batch #234)
+  Records: 2,905 processed, 0 inserted, 2,905 updated, 0 skipped
+
+✓ RO1 - Season: last10 (Batch #235)
+  Records: 1,140 processed, 0 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ RUS1 - Season: last10 (Batch #236)
+  Records: 51 processed, 0 inserted, 0 updated, 51 skipped
+  ⚠ Warnings: 9 errors encountered
+
+✓ CZE1 - Season: last10 (Batch #237)
+  Records: 918 processed, 0 inserted, 0 updated, 918 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ CRO1 - Season: last10 (Batch #238)
+  Records: 1,140 processed, 0 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ SRB1 - Season: last10 (Batch #239)
+  Records: 1,666 processed, 0 inserted, 0 updated, 1,666 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ UKR1 - Season: last10 (Batch #240)
+  Records: 918 processed, 0 inserted, 0 updated, 918 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ IRL1 - Season: last10 (Batch #241)
+  Records: 1,140 processed, 0 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ ARG1 - Season: last10 (Batch #242)
+  Records: 1,140 processed, 0 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ BRA1 - Season: last10 (Batch #243)
+  Records: 1,140 processed, 0 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 7 errors encountered
+
+✓ MEX1 - Season: last10 (Batch #244)
+  Records: 275 processed, 268 inserted, 6 updated, 0 skipped
+  ⚠ Warnings: 10 errors encountered
+
+✓ USA1 - Season: last10 (Batch #245)
+  Records: 1,226 processed, 304 inserted, 2 updated, 918 skipped
+  ⚠ Warnings: 9 errors encountered
+
+✓ CHN1 - Season: last10 (Batch #246)
+  Records: 1,345 processed, 1,325 inserted, 1 updated, 0 skipped
+  ⚠ Warnings: 9 errors encountered
+
+✓ JPN1 - Season: last10 (Batch #247)
+  Records: 2,438 processed, 1,285 inserted, 0 updated, 1,140 skipped
+  ⚠ Warnings: 3 errors encountered
+
+✓ KOR1 - Season: last10 (Batch #248)
+  Records: 51 processed, 0 inserted, 0 updated, 51 skipped
+  ⚠ Warnings: 9 errors encountered
+
+✓ AUS1 - Season: last10 (Batch #249)
+  Records: 51 processed, 0 inserted, 0 updated, 51 skipped
+  ⚠ Warnings: 9 errors encountered
+
+NO DATA AVAILABLE (All seasons returned 404)
+--------------------------------------------------------------------------------
+⊘ F1 - Season: last10 (Batch #205)
+  Reason: No data available (all seasons returned 404)
+
+⊘ F2 - Season: last10 (Batch #206)
+  Reason: No data available (all seasons returned 404)
+
+⊘ N1 - Season: last10 (Batch #207)
+  Reason: No data available (all seasons returned 404)
+
+⊘ SC3 - Season: last10 (Batch #221)
+  Reason: No data available (all seasons returned 404)
+
+⊘ B1 - Season: last10 (Batch #222)
+  Reason: No data available (all seasons returned 404)
+
+⊘ A1 - Season: last10 (Batch #228)
+  Reason: No data available (all seasons returned 404)
+
+⊘ SW1 - Season: last10 (Batch #229)
+  Reason: No data available (all seasons returned 404)
+
+⊘ DK1 - Season: last10 (Batch #230)
+  Reason: No data available (all seasons returned 404)
+
+⊘ FIN1 - Season: last10 (Batch #233)
+  Reason: No data available (all seasons returned 404)
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: data\1_data_ingestion\Historical Match_Odds_Data\2026-01-08_Seasons_10_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+
+================================================================================
+END OF LOG
+================================================================================

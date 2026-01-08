@@ -1,705 +1,932 @@
 Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team_id,TotalGoals,GoalDifference,Year,Month,DayOfWeek,is_high_scoring_match,is_very_high_scoring
-2019-03-01,CHN1,Shenzhen Peng City,Wuhan Zall FC,4,4,D,1920,45,684,718,8,0,2019.0,3.0,4.0,1,0
-2019-03-01,CHN1,Beijing Guoan,Tianjin Teda,3,1,H,1920,45,686,722,4,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Hebei China Fortune,Guangzhou City,2,1,H,1920,45,719,705,3,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Chongqing Lifan,Shanghai Shenhua,1,0,H,1920,45,721,675,1,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shanghai Shenhua,Dalian Yingbo,2,1,H,1920,45,675,682,3,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Jiāngsū Sūníng,Hebei China Fortune,4,1,H,1920,45,723,719,5,3,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Henan Jianye,Chongqing Lifan,1,0,H,1920,45,720,721,1,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Beijing Guoan,Shanghai Port FC,0,2,A,1920,45,686,681,2,-2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Guangzhou City,Shandong Taishan,1,3,A,1920,45,705,679,4,-2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shenzhen Peng City,Guangzhou Evergrande,2,3,A,1920,45,684,717,5,-1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Tianjin Teda,Wuhan Zall FC,3,1,H,1920,45,722,718,4,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Wuhan Zall FC,Hebei China Fortune,1,2,A,1920,45,718,719,3,-1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Tianjin Teda,Chongqing Lifan,2,0,H,1920,45,722,721,2,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shanghai Port FC,Shenzhen Peng City,6,0,H,1920,45,681,684,6,6,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Jiāngsū Sūníng,Tianjin Teda,2,0,H,1920,45,723,722,2,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Henan Jianye,Guangzhou City,1,0,H,1920,45,720,705,1,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Guangzhou Evergrande,Shanghai Shenhua,3,0,H,1920,45,717,675,3,3,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Dalian Yingbo,Beijing Renhe FC,2,0,H,1920,45,682,727,2,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Beijing Guoan,Shandong Taishan,3,2,H,1920,45,686,679,5,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Tianjin Teda,Dalian Yingbo,5,1,H,1920,45,722,682,6,4,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shenzhen Peng City,Henan Jianye,3,3,D,1920,45,684,720,6,0,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shanghai Shenhua,Jiāngsū Sūníng,1,3,A,1920,45,675,723,4,-2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shandong Taishan,Tianjin Teda,3,1,H,1920,45,679,722,4,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Hebei China Fortune,Guangzhou Evergrande,1,3,A,1920,45,719,717,4,-2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Guangzhou City,Beijing Guoan,1,4,A,1920,45,705,686,5,-3,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Chongqing Lifan,Wuhan Zall FC,0,1,A,1920,45,721,718,1,-1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Beijing Renhe FC,Shanghai Port FC,1,1,D,1920,45,727,681,2,0,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Guangzhou Evergrande,Shanghai Port FC,2,0,H,1920,45,717,681,2,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Tianjin Teda,Shenzhen Peng City,3,0,H,1920,45,722,684,3,3,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Dalian Yingbo,Hebei China Fortune,3,3,D,1920,45,682,719,6,0,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Beijing Renhe FC,Jiāngsū Sūníng,2,3,A,1920,45,727,723,5,-1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Wuhan Zall FC,Guangzhou City,2,1,H,1920,45,718,705,3,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shanghai Shenhua,Beijing Guoan,1,2,A,1920,45,675,686,3,-1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shandong Taishan,Chongqing Lifan,2,0,H,1920,45,679,721,2,2,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Henan Jianye,Tianjin Teda,2,1,H,1920,45,720,722,3,1,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Shanghai Port FC,Dalian Yingbo,3,0,H,1920,45,681,682,3,3,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Jiāngsū Sūníng,Shandong Taishan,1,1,D,1920,45,723,679,2,0,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Guangzhou Evergrande,Henan Jianye,2,2,D,1920,45,717,720,4,0,2019.0,3.0,4.0,0,0
-2019-03-01,CHN1,Tianjin Teda,Beijing Renhe FC,2,2,D,1920,45,722,727,4,0,2019.0,3.0,4.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Guangzhou City,2,3,A,2021,45,675,705,5,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Qingdao Hainiu,2,2,D,2021,45,724,677,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Shandong Taishan,0,0,D,2021,45,723,679,0,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Shanghai Port FC,1,3,A,2021,45,722,681,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Beijing Guoan,1,2,A,2021,45,721,686,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Jiāngsū Sūníng,3,4,A,2021,45,720,723,7,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Shijiazhuang Ever Bright,2,2,D,2021,45,719,724,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Qingdao Hainiu,2,0,H,2021,45,718,677,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Shanghai Shenhua,2,0,H,2021,45,717,675,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Wuhan Zall FC,1,0,H,2021,45,686,718,1,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Henan Jianye,1,1,D,2021,45,692,720,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Guangzhou Evergrande,0,5,A,2021,45,705,717,5,-5,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Shenzhen Peng City,3,2,H,2021,45,675,684,5,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Guangzhou City,3,0,H,2021,45,684,705,3,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Shandong Taishan,2,3,A,2021,45,692,679,5,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Shenzhen Peng City,1,3,A,2021,45,692,684,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Shanghai Shenhua,0,2,A,2021,45,705,675,2,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Guangzhou Evergrande,2,1,H,2021,45,723,717,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Shandong Taishan,0,2,A,2021,45,720,679,2,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Shanghai Port FC,0,1,A,2021,45,724,681,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Wuhan Zall FC,1,0,H,2021,45,721,718,1,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Hebei China Fortune,0,1,A,2021,45,722,719,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Qingdao Hainiu,5,1,H,2021,45,686,677,6,4,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Dalian Pro,1,0,H,2021,45,705,692,1,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Jiāngsū Sūníng,0,0,D,2021,45,675,723,0,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Shandong Taishan,1,2,A,2021,45,684,679,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Henan Jianye,2,1,H,2021,45,717,720,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Shijiazhuang Ever Bright,1,1,D,2021,45,722,724,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Chongqing Lifan,0,3,A,2021,45,677,721,3,-3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Beijing Guoan,3,3,D,2021,45,719,686,6,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Shanghai Port FC,1,2,A,2021,45,718,681,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Shanghai Shenhua,1,1,D,2021,45,692,675,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Shenzhen Peng City,1,3,A,2021,45,720,684,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Guangzhou Evergrande,1,2,A,2021,45,679,717,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Guangzhou City,3,3,D,2021,45,723,705,6,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Wuhan Zall FC,1,0,H,2021,45,724,718,1,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Hebei China Fortune,3,1,H,2021,45,721,719,4,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Qingdao Hainiu,2,1,H,2021,45,681,677,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Tianjin Teda,2,0,H,2021,45,686,722,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Shandong Taishan,1,1,D,2021,45,675,679,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Shenzhen Peng City,2,0,H,2021,45,717,684,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Jiāngsū Sūníng,1,1,D,2021,45,692,723,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Henan Jianye,3,1,H,2021,45,705,720,4,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Beijing Guoan,2,2,D,2021,45,718,686,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Chongqing Lifan,1,2,A,2021,45,722,721,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Shijiazhuang Ever Bright,0,1,A,2021,45,677,724,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Shanghai Port FC,2,0,H,2021,45,719,681,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Guangzhou City,2,1,H,2021,45,717,705,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Shanghai Shenhua,0,0,D,2021,45,684,675,0,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Jiāngsū Sūníng,0,1,A,2021,45,679,723,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Dalian Pro,0,4,A,2021,45,720,692,4,-4,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Chongqing Lifan,5,2,H,2021,45,686,721,7,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Wuhan Zall FC,0,3,A,2021,45,677,718,3,-3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Tianjin Teda,4,1,H,2021,45,681,722,5,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Hebei China Fortune,3,1,H,2021,45,724,719,4,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Guangzhou Evergrande,1,4,A,2021,45,675,717,5,-3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Henan Jianye,5,2,H,2021,45,723,720,7,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Dalian Pro,0,1,A,2021,45,679,692,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Shenzhen Peng City,0,2,A,2021,45,705,684,2,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Hebei China Fortune,1,2,A,2021,45,677,719,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Beijing Guoan,2,2,D,2021,45,724,686,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Tianjin Teda,2,1,H,2021,45,718,722,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Chongqing Lifan,3,0,H,2021,45,681,721,3,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Shanghai Shenhua,0,0,D,2021,45,720,675,0,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Guangzhou Evergrande,2,2,D,2021,45,692,717,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Shandong Taishan,1,5,A,2021,45,705,679,6,-4,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Shenzhen Peng City,1,1,D,2021,45,723,684,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Shanghai Port FC,1,2,A,2021,45,686,681,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Qingdao Hainiu,0,2,A,2021,45,722,677,2,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Shijiazhuang Ever Bright,1,0,H,2021,45,721,724,1,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Wuhan Zall FC,3,1,H,2021,45,719,718,4,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Dalian Pro,3,2,H,2021,45,684,692,5,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Jiāngsū Sūníng,2,1,H,2021,45,717,723,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Henan Jianye,2,1,H,2021,45,679,720,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Tianjin Teda,2,0,H,2021,45,719,722,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Chongqing Lifan,2,0,H,2021,45,718,721,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Shijiazhuang Ever Bright,1,1,D,2021,45,681,724,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Beijing Guoan,3,3,D,2021,45,677,686,6,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Dalian Pro,Guangzhou City,0,1,A,2021,45,692,705,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Shenzhen Peng City,2,0,H,2021,45,679,684,2,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Shanghai Shenhua,0,1,A,2021,45,723,675,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Guangzhou Evergrande,1,3,A,2021,45,720,717,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Beijing Guoan,Hebei China Fortune,3,1,H,2021,45,686,719,4,2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Wuhan Zall FC,2,1,H,2021,45,681,718,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Qingdao Hainiu,0,0,D,2021,45,721,677,0,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shijiazhuang Ever Bright,Tianjin Teda,3,0,H,2021,45,724,722,3,3,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Henan Jianye,1,2,A,2021,45,684,720,3,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Shenhua,Dalian Pro,2,2,D,2021,45,675,692,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou City,Jiāngsū Sūníng,0,2,A,2021,45,705,723,2,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Guangzhou Evergrande,Shandong Taishan,0,1,A,2021,45,717,679,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Hebei China Fortune,Chongqing Lifan,2,2,D,2021,45,719,721,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Wuhan Zall FC,Shijiazhuang Ever Bright,2,1,H,2021,45,718,724,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Qingdao Hainiu,Shanghai Port FC,1,1,D,2021,45,677,681,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Tianjin Teda,Beijing Guoan,1,3,A,2021,45,722,686,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Henan Jianye,Guangzhou City,1,1,D,2021,45,720,705,2,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shandong Taishan,Shanghai Shenhua,0,1,A,2021,45,679,675,1,-1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Jiāngsū Sūníng,Dalian Pro,2,1,H,2021,45,723,692,3,1,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shenzhen Peng City,Guangzhou Evergrande,1,3,A,2021,45,684,717,4,-2,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Chongqing Lifan,Tianjin Teda,2,2,D,2021,45,721,722,4,0,2020.0,7.0,5.0,0,0
-2020-07-25,CHN1,Shanghai Port FC,Hebei China Fortune,4,0,H,2021,45,681,719,4,4,2020.0,7.0,5.0,0,0
-2022-06-03,CHN1,Guangzhou City,Cangzhou Mighty Lions,1,4,A,2223,45,705,690,5,-3,2022.0,6.0,4.0,0,0
-2022-06-03,CHN1,Zhejiang Professional,Wuhan Yangtze River,4,0,H,2223,45,678,706,4,4,2022.0,6.0,4.0,0,0
-2022-06-03,CHN1,Shanghai Port FC,Changchun Yatai,4,0,H,2223,45,681,683,4,4,2022.0,6.0,4.0,0,0
-2022-06-03,CHN1,Shandong Taishan,Beijing Guoan,3,0,H,2223,45,679,686,3,3,2022.0,6.0,4.0,0,0
-2022-06-03,CHN1,Meizhou Hakka,Guangzhou City,1,0,H,2223,45,685,705,1,1,2022.0,6.0,4.0,0,0
-2022-06-03,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,3,0,H,2223,45,688,680,3,3,2022.0,6.0,4.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Shanghai Shenhua,1,1,D,2324,45,683,675,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Shanghai Port FC,0,2,A,2324,45,688,681,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Changchun Yatai,0,2,A,2324,45,678,683,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Meizhou Hakka,1,1,D,2324,45,686,685,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Chengdu Rongcheng,1,1,D,2324,45,689,674,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Cangzhou Mighty Lions,1,1,D,2324,45,680,690,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Shandong Taishan,1,0,H,2324,45,675,679,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Qingdao Hainiu,2,1,H,2324,45,684,677,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Beijing Guoan,1,1,D,2324,45,688,686,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,2,1,H,2324,45,680,678,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Shanghai Shenhua,0,1,A,2324,45,685,675,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Nantong Zhiyun,1,1,D,2324,45,679,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Qingdao Hainiu,0,0,D,2324,45,689,677,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Cangzhou Mighty Lions,2,1,H,2324,45,674,690,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Shenzhen Peng City,3,2,H,2324,45,681,684,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Dalian Pro,3,2,H,2324,45,683,692,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Zhejiang Professional,2,1,H,2324,45,679,678,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Wuhan Three Towns,1,2,A,2324,45,685,688,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Beijing Guoan,3,1,H,2324,45,677,686,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Shanghai Port FC,0,1,A,2324,45,690,681,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Changchun Yatai,1,0,H,2324,45,675,683,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Chengdu Rongcheng,0,0,D,2324,45,692,674,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,0,2,A,2324,45,684,680,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Henan FC,1,0,H,2324,45,691,689,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Shandong Taishan,0,0,D,2324,45,686,679,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Wuhan Three Towns,0,3,A,2324,45,677,688,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Chengdu Rongcheng,0,2,A,2324,45,678,674,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Tianjin Jinmen Tiger,1,1,D,2324,45,683,680,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Henan FC,1,1,D,2324,45,684,689,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2324,45,681,675,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Nantong Zhiyun,1,1,D,2324,45,690,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Meizhou Hakka,1,1,D,2324,45,692,685,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Beijing Guoan,0,1,A,2324,45,689,686,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Dalian Pro,1,0,H,2324,45,675,692,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Cangzhou Mighty Lions,0,1,A,2324,45,684,690,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Zhejiang Professional,0,0,D,2324,45,688,678,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Shandong Taishan,2,1,H,2324,45,685,679,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Qingdao Hainiu,3,2,H,2324,45,674,677,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,0,0,D,2324,45,680,681,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Changchun Yatai,0,1,A,2324,45,691,683,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Wuhan Three Towns,1,1,D,2324,45,689,688,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Cangzhou Mighty Lions,1,1,D,2324,45,692,690,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Shanghai Shenhua,1,3,A,2324,45,684,675,4,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Chengdu Rongcheng,2,2,D,2324,45,679,674,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Qingdao Hainiu,2,1,H,2324,45,681,677,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Meizhou Hakka,2,4,A,2324,45,683,685,6,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Zhejiang Professional,1,2,A,2324,45,691,678,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Tianjin Jinmen Tiger,1,1,D,2324,45,686,680,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Wuhan Three Towns,1,1,D,2324,45,675,688,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Dalian Pro,2,1,H,2324,45,684,692,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Meizhou Hakka,2,0,H,2324,45,677,685,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Changchun Yatai,2,2,D,2324,45,674,683,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Shanghai Port FC,1,2,A,2324,45,678,681,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Henan FC,1,0,H,2324,45,680,689,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Shandong Taishan,1,1,D,2324,45,690,679,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Nantong Zhiyun,1,0,H,2324,45,686,691,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Chengdu Rongcheng,3,3,D,2324,45,688,674,6,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Beijing Guoan,1,1,D,2324,45,675,686,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Changchun Yatai,2,4,A,2324,45,690,683,6,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Zhejiang Professional,2,2,D,2324,45,677,678,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Shenzhen Peng City,1,1,D,2324,45,691,684,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Dalian Pro,1,0,H,2324,45,689,692,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Shandong Taishan,3,3,D,2324,45,680,679,6,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Shanghai Port FC,0,2,A,2324,45,685,681,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Shanghai Shenhua,2,1,H,2324,45,674,675,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Cangzhou Mighty Lions,6,2,H,2324,45,686,690,8,4,2023.0,4.0,5.0,1,0
-2023-04-15,CHN1,Changchun Yatai,Qingdao Hainiu,1,0,H,2324,45,683,677,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Wuhan Three Towns,0,5,A,2324,45,691,688,5,-5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Shenzhen Peng City,3,0,H,2324,45,679,684,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Henan FC,3,2,H,2324,45,681,689,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Tianjin Jinmen Tiger,1,1,D,2324,45,685,680,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Zhejiang Professional,1,2,A,2324,45,692,678,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Nantong Zhiyun,1,0,H,2324,45,674,691,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Wuhan Three Towns,2,1,H,2324,45,690,688,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Shandong Taishan,0,1,A,2324,45,677,679,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Beijing Guoan,3,2,H,2324,45,678,686,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Henan FC,1,1,D,2324,45,675,689,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Tianjin Jinmen Tiger,0,1,A,2324,45,692,680,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Meizhou Hakka,3,2,H,2324,45,684,685,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Shanghai Port FC,0,3,A,2324,45,683,681,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Shenzhen Peng City,3,0,H,2324,45,678,684,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Changchun Yatai,4,3,H,2324,45,686,683,7,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Chengdu Rongcheng,0,1,A,2324,45,681,674,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Dalian Pro,2,0,H,2324,45,679,692,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Meizhou Hakka,2,1,H,2324,45,689,685,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Shanghai Shenhua,0,1,A,2324,45,690,675,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Qingdao Hainiu,1,0,H,2324,45,691,677,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Wuhan Three Towns,1,1,D,2324,45,680,688,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Shenzhen Peng City,4,1,H,2324,45,683,684,5,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,0,0,D,2324,45,674,680,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Shanghai Shenhua,0,1,A,2324,45,677,675,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Zhejiang Professional,2,2,D,2324,45,689,678,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Nantong Zhiyun,2,1,H,2324,45,681,691,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Shandong Taishan,1,1,D,2324,45,688,679,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Cangzhou Mighty Lions,2,3,A,2324,45,685,690,5,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Beijing Guoan,2,2,D,2324,45,692,686,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Dalian Pro,0,0,D,2324,45,688,692,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Meizhou Hakka,3,0,H,2324,45,678,685,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,3,2,H,2324,45,680,677,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Nantong Zhiyun,1,0,H,2324,45,675,691,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Henan FC,0,1,A,2324,45,690,689,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Changchun Yatai,4,1,H,2324,45,679,683,5,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Shanghai Port FC,1,2,A,2324,45,686,681,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Chengdu Rongcheng,0,3,A,2324,45,684,674,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Tianjin Jinmen Tiger,1,2,A,2324,45,675,680,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Qingdao Hainiu,1,1,D,2324,45,692,677,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Zhejiang Professional,2,1,H,2324,45,690,678,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Meizhou Hakka,2,2,D,2324,45,691,685,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Wuhan Three Towns,1,3,A,2324,45,684,688,4,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Shanghai Port FC,1,1,D,2324,45,679,681,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Beijing Guoan,0,1,A,2324,45,674,686,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Henan FC,3,1,H,2324,45,683,689,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Cangzhou Mighty Lions,1,1,D,2324,45,677,690,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Shanghai Shenhua,0,1,A,2324,45,678,675,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Shandong Taishan,0,1,A,2324,45,689,679,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Nantong Zhiyun,1,1,D,2324,45,680,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Chengdu Rongcheng,3,1,H,2324,45,685,674,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Shenzhen Peng City,5,0,H,2324,45,686,684,5,5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Changchun Yatai,2,1,H,2324,45,688,683,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Dalian Pro,1,1,D,2324,45,681,692,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Shanghai Shenhua,3,0,H,2324,45,679,675,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Henan FC,2,0,H,2324,45,674,689,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,1,1,D,2324,45,690,680,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Shenzhen Peng City,5,0,H,2324,45,677,684,5,5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Wuhan Three Towns,3,1,H,2324,45,681,688,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Beijing Guoan,3,1,H,2324,45,685,686,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Zhejiang Professional,2,2,D,2324,45,683,678,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Dalian Pro,1,1,D,2324,45,691,692,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Tianjin Jinmen Tiger,2,1,H,2324,45,678,680,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Wuhan Three Towns,1,1,D,2324,45,686,688,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Changchun Yatai,0,0,D,2324,45,692,683,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Shanghai Port FC,1,4,A,2324,45,684,681,5,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Shandong Taishan,1,1,D,2324,45,691,679,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Chengdu Rongcheng,2,1,H,2324,45,690,674,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Meizhou Hakka,2,1,H,2324,45,675,685,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Henan FC,2,0,H,2324,45,677,689,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Cangzhou Mighty Lions,3,0,H,2324,45,681,690,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Nantong Zhiyun,1,1,D,2324,45,689,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Shenzhen Peng City,3,3,D,2324,45,680,684,6,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Dalian Pro,4,1,H,2324,45,674,692,5,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Shandong Taishan,2,1,H,2324,45,678,679,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Qingdao Hainiu,2,0,H,2324,45,686,677,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Meizhou Hakka,2,1,H,2324,45,688,685,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Shenzhen Peng City,3,1,H,2324,45,689,684,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Changchun Yatai,0,0,D,2324,45,680,683,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Cangzhou Mighty Lions,1,2,A,2324,45,691,690,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Shanghai Port FC,0,5,A,2324,45,675,681,5,-5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Zhejiang Professional,1,2,A,2324,45,674,678,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Dalian Pro,2,1,H,2324,45,685,692,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Beijing Guoan,3,0,H,2324,45,679,686,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Qingdao Hainiu,1,0,H,2324,45,688,677,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Tianjin Jinmen Tiger,2,1,H,2324,45,681,680,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Wuhan Three Towns,2,1,H,2324,45,678,688,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Meizhou Hakka,6,1,H,2324,45,679,685,7,5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Henan FC,3,1,H,2324,45,686,689,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Nantong Zhiyun,1,1,D,2324,45,683,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Chengdu Rongcheng,3,2,H,2324,45,677,674,5,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Shanghai Shenhua,2,1,H,2324,45,692,675,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Shenzhen Peng City,1,0,H,2324,45,690,684,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Nantong Zhiyun,1,1,D,2324,45,678,691,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Shandong Taishan,1,0,H,2324,45,674,679,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Changchun Yatai,4,2,H,2324,45,685,683,6,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Shanghai Port FC,0,5,A,2324,45,677,681,5,-5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Henan FC,4,2,H,2324,45,688,689,6,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,0,0,D,2324,45,680,686,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Shenzhen Peng City,3,0,H,2324,45,675,684,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Dalian Pro,2,1,H,2324,45,690,692,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Zhejiang Professional,3,4,A,2324,45,681,678,7,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Qingdao Hainiu,1,0,H,2324,45,685,677,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Chengdu Rongcheng,1,0,H,2324,45,683,674,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Shanghai Shenhua,1,2,A,2324,45,688,675,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Cangzhou Mighty Lions,4,0,H,2324,45,679,690,4,4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Tianjin Jinmen Tiger,1,0,H,2324,45,689,680,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Shenzhen Peng City,2,1,H,2324,45,692,684,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Beijing Guoan,0,1,A,2324,45,691,686,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Tianjin Jinmen Tiger,1,0,H,2324,45,679,680,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Qingdao Hainiu,0,0,D,2324,45,678,677,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Meizhou Hakka,1,1,D,2324,45,681,685,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Wuhan Three Towns,0,1,A,2324,45,674,688,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Shanghai Shenhua,2,1,H,2324,45,686,675,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Henan FC,0,3,A,2324,45,692,689,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Nantong Zhiyun,0,1,A,2324,45,684,691,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Cangzhou Mighty Lions,3,1,H,2324,45,683,690,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Shanghai Port FC,3,1,H,2324,45,689,681,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Shandong Taishan,1,2,A,2324,45,684,679,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Dalian Pro,3,0,H,2324,45,678,692,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Meizhou Hakka,3,1,H,2324,45,680,685,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Chengdu Rongcheng,1,1,D,2324,45,675,674,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Changchun Yatai,1,0,H,2324,45,677,683,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Beijing Guoan,1,5,A,2324,45,690,686,6,-4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Nantong Zhiyun,4,2,H,2324,45,688,691,6,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Cangzhou Mighty Lions,2,0,H,2324,45,688,690,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Qingdao Hainiu,4,2,H,2324,45,679,677,6,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Zhejiang Professional,0,1,A,2324,45,686,678,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Changchun Yatai,2,0,H,2324,45,681,683,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Shanghai Shenhua,3,0,H,2324,45,689,675,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Shenzhen Peng City,5,1,H,2324,45,685,684,6,4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Chengdu Rongcheng,0,2,A,2324,45,691,674,2,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Dalian Pro,1,0,H,2324,45,680,692,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Cangzhou Mighty Lions,2,0,H,2324,45,675,690,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Beijing Guoan,1,1,D,2324,45,683,686,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Shandong Taishan,0,0,D,2324,45,692,679,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Shanghai Port FC,2,1,H,2324,45,674,681,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,0,1,A,2324,45,688,680,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Henan FC,0,0,D,2324,45,685,689,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Nantong Zhiyun,3,1,H,2324,45,677,691,4,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Zhejiang Professional,0,5,A,2324,45,684,678,5,-5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Meizhou Hakka,0,1,A,2324,45,690,685,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Wuhan Three Towns,2,1,H,2324,45,679,688,3,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Chengdu Rongcheng,2,2,D,2324,45,680,674,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Changchun Yatai,0,1,A,2324,45,684,683,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Shanghai Port FC,0,1,A,2324,45,691,681,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Dalian Pro,2,0,H,2324,45,686,692,2,2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Henan FC,3,0,H,2324,45,678,689,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Qingdao Hainiu,1,0,H,2324,45,675,677,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Zhejiang Professional,1,1,D,2324,45,685,678,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Shandong Taishan,0,3,A,2324,45,683,679,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Wuhan Three Towns,1,3,A,2324,45,692,688,4,-2,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Beijing Guoan,1,2,A,2324,45,681,686,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Cangzhou Mighty Lions,6,0,H,2324,45,689,690,6,6,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Shanghai Shenhua,0,1,A,2324,45,691,675,1,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Tianjin Jinmen Tiger,1,4,A,2324,45,677,680,5,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Shenzhen Peng City,4,0,H,2324,45,674,684,4,4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Wuhan Three Towns,Shenzhen Peng City,1,0,H,2324,45,688,684,1,1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Zhejiang Professional,Cangzhou Mighty Lions,6,1,H,2324,45,678,690,7,5,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Port FC,Shandong Taishan,1,1,D,2324,45,681,679,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Henan FC,Changchun Yatai,1,1,D,2324,45,689,683,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Beijing Guoan,Chengdu Rongcheng,2,3,A,2324,45,686,674,5,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Tianjin Jinmen Tiger,Shanghai Shenhua,1,1,D,2324,45,680,675,2,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Meizhou Hakka,Nantong Zhiyun,0,4,A,2324,45,685,691,4,-4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Qingdao Hainiu,Dalian Pro,2,2,D,2324,45,677,692,4,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shandong Taishan,Henan FC,5,1,H,2324,45,679,689,6,4,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Chengdu Rongcheng,Meizhou Hakka,3,0,H,2324,45,674,685,3,3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shanghai Shenhua,Zhejiang Professional,1,2,A,2324,45,675,678,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Shanghai Port FC,2,3,A,2324,45,692,681,5,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Cangzhou Mighty Lions,Qingdao Hainiu,0,0,D,2324,45,690,677,0,0,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Changchun Yatai,Wuhan Three Towns,3,4,A,2324,45,683,688,7,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Shenzhen Peng City,Beijing Guoan,0,3,A,2324,45,684,686,3,-3,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Nantong Zhiyun,Tianjin Jinmen Tiger,1,2,A,2324,45,691,680,3,-1,2023.0,4.0,5.0,0,0
-2023-04-15,CHN1,Dalian Pro,Nantong Zhiyun,2,1,H,2324,45,692,691,3,1,2023.0,4.0,5.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Zhejiang Professional,4,0,H,2425,45,675,678,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Changchun Yatai,2,3,A,2425,45,691,683,5,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Tianjin Jinmen Tiger,1,2,A,2425,45,689,680,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Shandong Taishan,0,0,D,2425,45,687,679,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Cangzhou Mighty Lions,4,0,H,2425,45,675,690,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Wuhan Three Towns,2,2,D,2425,45,674,688,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Shanghai Port FC,0,5,A,2425,45,677,681,5,-5,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Shenzhen Peng City,1,1,D,2425,45,683,684,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Henan FC,4,1,H,2425,45,678,689,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Qingdao West Coast,1,1,D,2425,45,685,687,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,0,1,A,2425,45,680,686,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Nantong Zhiyun,3,1,H,2425,45,679,691,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2425,45,681,675,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Shandong Taishan,0,1,A,2425,45,674,679,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Beijing Guoan,1,2,A,2425,45,678,686,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,2,1,H,2425,45,688,680,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Meizhou Hakka,0,1,A,2425,45,683,685,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Henan FC,2,3,A,2425,45,690,689,5,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Qingdao Hainiu,1,3,A,2425,45,684,677,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Nantong Zhiyun,0,2,A,2425,45,687,691,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Shanghai Port FC,1,2,A,2425,45,685,681,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Qingdao West Coast,4,1,H,2425,45,686,687,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Qingdao Hainiu,1,0,H,2425,45,689,677,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Shanghai Shenhua,0,2,A,2425,45,691,675,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Changchun Yatai,0,0,D,2425,45,688,683,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Shenzhen Peng City,3,1,H,2425,45,674,684,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Cangzhou Mighty Lions,4,1,H,2425,45,679,690,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Tianjin Jinmen Tiger,3,2,H,2425,45,678,680,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Wuhan Three Towns,1,1,D,2425,45,684,688,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Shandong Taishan,4,3,H,2425,45,681,679,7,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Zhejiang Professional,2,0,H,2425,45,677,678,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Qingdao West Coast,3,2,H,2425,45,690,687,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Meizhou Hakka,0,0,D,2425,45,680,685,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Chengdu Rongcheng,1,2,A,2425,45,683,674,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Beijing Guoan,1,1,D,2425,45,675,686,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Nantong Zhiyun,1,1,D,2425,45,689,691,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Qingdao Hainiu,0,0,D,2425,45,685,677,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Zhejiang Professional,3,0,H,2425,45,674,678,3,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Changchun Yatai,2,0,H,2425,45,690,683,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Tianjin Jinmen Tiger,1,3,A,2425,45,687,680,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Wuhan Three Towns,4,1,H,2425,45,675,688,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Henan FC,2,2,D,2425,45,679,689,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Shenzhen Peng City,1,2,A,2425,45,686,684,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Shanghai Port FC,0,3,A,2425,45,691,681,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Qingdao West Coast,1,2,A,2425,45,678,687,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Chengdu Rongcheng,2,3,A,2425,45,680,674,5,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Meizhou Hakka,1,0,H,2425,45,691,685,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Shandong Taishan,0,1,A,2425,45,677,679,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Shanghai Port FC,2,2,D,2425,45,686,681,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Shenzhen Peng City,0,2,A,2425,45,689,684,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Shanghai Shenhua,1,2,A,2425,45,683,675,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Cangzhou Mighty Lions,2,3,A,2425,45,688,690,5,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Zhejiang Professional,1,2,A,2425,45,685,678,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Shanghai Shenhua,0,3,A,2425,45,679,675,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Tianjin Jinmen Tiger,0,1,A,2425,45,683,680,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Wuhan Three Towns,2,0,H,2425,45,683,688,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Nantong Zhiyun,5,1,H,2425,45,675,691,6,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Beijing Guoan,2,2,D,2425,45,687,686,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,3,2,H,2425,45,680,678,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Cangzhou Mighty Lions,0,2,A,2425,45,689,690,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Wuhan Three Towns,1,0,H,2425,45,680,688,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Zhejiang Professional,0,0,D,2425,45,686,678,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Qingdao West Coast,0,3,A,2425,45,691,687,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Shenzhen Peng City,1,0,H,2425,45,677,684,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Changchun Yatai,2,1,H,2425,45,685,683,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Shanghai Port FC,3,1,H,2425,45,675,681,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Chengdu Rongcheng,3,0,H,2425,45,679,674,3,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Chengdu Rongcheng,1,1,D,2425,45,688,674,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Meizhou Hakka,3,3,D,2425,45,687,685,6,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Shandong Taishan,0,2,A,2425,45,691,679,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Zhejiang Professional,2,1,H,2425,45,689,678,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Changchun Yatai,2,1,H,2425,45,684,683,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Tianjin Jinmen Tiger,2,0,H,2425,45,686,680,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Qingdao Hainiu,5,0,H,2425,45,681,677,5,5,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Shanghai Shenhua,0,5,A,2425,45,690,675,5,-5,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Shenzhen Peng City,2,0,H,2425,45,681,684,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Shanghai Shenhua,3,4,A,2425,45,678,675,7,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Qingdao West Coast,0,1,A,2425,45,679,687,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Beijing Guoan,2,2,D,2425,45,674,686,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Henan FC,1,0,H,2425,45,680,689,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Nantong Zhiyun,3,2,H,2425,45,683,691,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Meizhou Hakka,2,1,H,2425,45,690,685,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Wuhan Three Towns,1,1,D,2425,45,677,688,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Beijing Guoan,1,3,A,2425,45,685,686,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Shanghai Port FC,3,4,A,2425,45,683,681,7,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Chengdu Rongcheng,2,0,H,2425,45,689,674,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Wuhan Three Towns,0,0,D,2425,45,679,688,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Tianjin Jinmen Tiger,2,1,H,2425,45,675,680,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Shenzhen Peng City,3,2,H,2425,45,687,684,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Qingdao Hainiu,2,1,H,2425,45,691,677,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Cangzhou Mighty Lions,2,2,D,2425,45,678,690,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Shanghai Shenhua,0,1,A,2425,45,677,675,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Qingdao West Coast,2,1,H,2425,45,681,687,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Changchun Yatai,8,1,H,2425,45,686,683,9,7,2024.0,3.0,4.0,1,0
-2024-03-01,CHN1,Nantong Zhiyun,Zhejiang Professional,3,2,H,2425,45,691,678,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Shandong Taishan,1,4,A,2425,45,684,679,5,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Meizhou Hakka,2,0,H,2425,45,674,685,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Cangzhou Mighty Lions,3,2,H,2425,45,680,690,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Henan FC,1,0,H,2425,45,688,689,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Tianjin Jinmen Tiger,4,1,H,2425,45,679,680,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Henan FC,2,1,H,2425,45,675,689,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Zhejiang Professional,0,2,A,2425,45,688,678,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Shanghai Port FC,3,1,H,2425,45,674,681,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Qingdao West Coast,4,0,H,2425,45,683,687,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Qingdao Hainiu,6,0,H,2425,45,686,677,6,6,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Nantong Zhiyun,0,0,D,2425,45,690,691,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Meizhou Hakka,0,0,D,2425,45,684,685,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Shanghai Port FC,0,1,A,2425,45,690,681,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Changchun Yatai,0,0,D,2425,45,689,683,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Wuhan Three Towns,1,0,H,2425,45,685,688,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Beijing Guoan,1,3,A,2425,45,691,686,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Chengdu Rongcheng,1,1,D,2425,45,687,674,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Shenzhen Peng City,2,2,D,2425,45,675,684,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,1,0,H,2425,45,680,677,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Shandong Taishan,3,3,D,2425,45,678,679,6,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Henan FC,1,1,D,2425,45,686,689,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Zhejiang Professional,2,2,D,2425,45,683,678,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Shanghai Shenhua,1,2,A,2425,45,674,675,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Cangzhou Mighty Lions,1,0,H,2425,45,677,690,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Meizhou Hakka,2,1,H,2425,45,679,685,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Tianjin Jinmen Tiger,5,0,H,2425,45,681,680,5,5,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Nantong Zhiyun,2,1,H,2425,45,684,691,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Qingdao West Coast,1,3,A,2425,45,688,687,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Beijing Guoan,0,2,A,2425,45,690,686,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Nantong Zhiyun,1,1,D,2425,45,680,691,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Shandong Taishan,1,2,A,2425,45,688,679,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Shanghai Shenhua,0,0,D,2425,45,680,675,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Changchun Yatai,5,2,H,2425,45,681,683,7,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Henan FC,4,2,H,2425,45,674,689,6,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Nantong Zhiyun,2,2,D,2425,45,677,691,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Shanghai Port FC,0,6,A,2425,45,684,681,6,-6,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Qingdao Hainiu,1,0,H,2425,45,688,677,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Chengdu Rongcheng,2,1,H,2425,45,686,674,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Cangzhou Mighty Lions,1,1,D,2425,45,685,690,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Henan FC,3,1,H,2425,45,681,689,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Qingdao Hainiu,1,0,H,2425,45,687,677,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Nantong Zhiyun,1,0,H,2425,45,674,691,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Beijing Guoan,0,1,A,2425,45,688,686,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Cangzhou Mighty Lions,2,2,D,2425,45,684,690,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,0,4,A,2425,45,684,680,4,-4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Chengdu Rongcheng,1,0,H,2425,45,690,674,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Wuhan Three Towns,1,3,A,2425,45,691,688,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Shanghai Port FC,0,0,D,2425,45,678,681,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Beijing Guoan,0,0,D,2425,45,679,686,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Meizhou Hakka,2,2,D,2425,45,689,685,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Qingdao West Coast,2,0,H,2425,45,675,687,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Changchun Yatai,0,1,A,2425,45,677,683,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Shanghai Shenhua,0,2,A,2425,45,685,675,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Shenzhen Peng City,1,0,H,2425,45,678,684,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Qingdao Hainiu,2,0,H,2425,45,674,677,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Wuhan Three Towns,3,1,H,2425,45,681,688,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Henan FC,1,1,D,2425,45,687,689,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Changchun Yatai,4,2,H,2425,45,679,683,6,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Meizhou Hakka,3,2,H,2425,45,686,685,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Zhejiang Professional,0,1,A,2425,45,690,678,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Qingdao West Coast,1,2,A,2425,45,684,687,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Qingdao Hainiu,2,0,H,2425,45,675,677,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Shenzhen Peng City,3,2,H,2425,45,679,684,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Nantong Zhiyun,5,2,H,2425,45,678,691,7,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,2,4,A,2425,45,690,680,6,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Wuhan Three Towns,2,3,A,2425,45,689,688,5,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Chengdu Rongcheng,1,4,A,2425,45,685,674,5,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Beijing Guoan,3,2,H,2425,45,683,686,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Shanghai Port FC,3,5,A,2425,45,687,681,8,-2,2024.0,3.0,4.0,1,0
-2024-03-01,CHN1,Meizhou Hakka,Shenzhen Peng City,0,0,D,2425,45,685,684,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Shanghai Shenhua,1,2,A,2425,45,689,675,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Beijing Guoan,1,1,D,2425,45,677,686,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Wuhan Three Towns,3,1,H,2425,45,678,688,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Cangzhou Mighty Lions,1,1,D,2425,45,691,690,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Shandong Taishan,1,1,D,2425,45,680,679,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Changchun Yatai,2,2,D,2425,45,687,683,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Chengdu Rongcheng,2,0,H,2425,45,681,674,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Zhejiang Professional,3,0,H,2425,45,679,678,3,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Meizhou Hakka,0,1,A,2425,45,688,685,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Shanghai Shenhua,0,1,A,2425,45,684,675,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Nantong Zhiyun,5,2,H,2425,45,686,691,7,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Tianjin Jinmen Tiger,3,1,H,2425,45,677,680,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Henan FC,0,0,D,2425,45,683,689,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Qingdao West Coast,7,0,H,2425,45,674,687,7,7,2024.0,3.0,4.0,1,0
-2024-03-01,CHN1,Shanghai Port FC,Cangzhou Mighty Lions,4,1,H,2425,45,681,690,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Shandong Taishan,0,0,D,2425,45,685,679,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Shenzhen Peng City,0,1,A,2425,45,691,684,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,0,3,A,2425,45,680,681,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Changchun Yatai,3,1,H,2425,45,678,683,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Beijing Guoan,2,1,H,2425,45,689,686,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Qingdao Hainiu,0,1,A,2425,45,690,677,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Chengdu Rongcheng,1,1,D,2425,45,675,674,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Wuhan Three Towns,0,1,A,2425,45,687,688,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Qingdao West Coast,1,0,H,2425,45,689,687,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Tianjin Jinmen Tiger,1,1,D,2425,45,691,680,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Zhejiang Professional,3,2,H,2425,45,684,678,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Shanghai Port FC,0,2,A,2425,45,688,681,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Meizhou Hakka,3,0,H,2425,45,675,685,3,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Shandong Taishan,2,2,D,2425,45,683,679,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Chengdu Rongcheng,1,5,A,2425,45,677,674,6,-4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Cangzhou Mighty Lions,4,0,H,2425,45,686,690,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Nantong Zhiyun,1,2,A,2425,45,688,691,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Zhejiang Professional,3,1,H,2425,45,681,678,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Shenzhen Peng City,3,0,H,2425,45,680,684,3,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Shanghai Shenhua,0,1,A,2425,45,687,675,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Qingdao Hainiu,5,0,H,2425,45,683,677,5,5,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Cangzhou Mighty Lions,4,0,H,2425,45,674,690,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Henan FC,0,3,A,2425,45,685,689,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Shandong Taishan,2,0,H,2425,45,686,679,2,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Shanghai Port FC,0,1,A,2425,45,689,681,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Changchun Yatai,2,2,D,2425,45,680,683,4,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Shandong Taishan,6,0,H,2425,45,675,679,6,6,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Shenzhen Peng City,1,1,D,2425,45,690,684,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Chengdu Rongcheng,0,1,A,2425,45,691,674,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Wuhan Three Towns,1,2,A,2425,45,686,688,3,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Qingdao West Coast,3,1,H,2425,45,677,687,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Meizhou Hakka,4,0,H,2425,45,678,685,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Wuhan Three Towns,1,1,D,2425,45,690,688,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Beijing Guoan,5,1,H,2425,45,681,686,6,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,2,1,H,2425,45,674,680,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Zhejiang Professional,5,2,H,2425,45,687,678,7,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Nantong Zhiyun,2,1,H,2425,45,685,691,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Qingdao Hainiu,1,1,D,2425,45,679,677,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Shenhua,Changchun Yatai,3,2,H,2425,45,675,683,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Henan FC,0,0,D,2425,45,684,689,0,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Nantong Zhiyun,8,1,H,2425,45,681,691,9,7,2024.0,3.0,4.0,1,0
-2024-03-01,CHN1,Shenzhen Peng City,Beijing Guoan,1,0,H,2425,45,684,686,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Changchun Yatai,Cangzhou Mighty Lions,1,0,H,2425,45,683,690,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Tianjin Jinmen Tiger,Qingdao West Coast,2,1,H,2425,45,680,687,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao Hainiu,Meizhou Hakka,4,2,H,2425,45,677,685,6,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Chengdu Rongcheng,1,3,A,2425,45,678,674,4,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Henan FC,Shandong Taishan,1,0,H,2425,45,689,679,1,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Shanghai Shenhua,0,2,A,2425,45,688,675,2,-2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Qingdao West Coast,Cangzhou Mighty Lions,1,1,D,2425,45,687,690,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Zhejiang Professional,Qingdao Hainiu,4,3,H,2425,45,678,677,7,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Meizhou Hakka,Tianjin Jinmen Tiger,3,2,H,2425,45,685,680,5,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shandong Taishan,Shanghai Port FC,0,1,A,2425,45,679,681,1,-1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Chengdu Rongcheng,Changchun Yatai,4,0,H,2425,45,674,683,4,4,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Wuhan Three Towns,Shenzhen Peng City,4,1,H,2425,45,688,684,5,3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Beijing Guoan,Shanghai Shenhua,2,1,H,2425,45,686,675,3,1,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Nantong Zhiyun,Henan FC,1,1,D,2425,45,691,689,2,0,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Cangzhou Mighty Lions,Shandong Taishan,3,1,H,2425,45,690,679,4,2,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shenzhen Peng City,Chengdu Rongcheng,0,3,A,2425,45,684,674,3,-3,2024.0,3.0,4.0,0,0
-2024-03-01,CHN1,Shanghai Port FC,Meizhou Hakka,7,2,H,2425,45,681,685,9,5,2024.0,3.0,4.0,1,0
-2024-03-01,CHN1,Qingdao Hainiu,Henan FC,0,2,A,2425,45,677,689,2,-2,2024.0,3.0,4.0,0,0
-2025-02-22,CHN1,Yunnan Yukun,Zhejiang Professional,1,1,D,2526,45,676,678,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao Hainiu,Dalian Yingbo,1,1,D,2526,45,677,682,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Yunnan Yukun,3,1,H,2526,45,675,676,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Chengdu Rongcheng,Wuhan Three Towns,1,0,H,2526,45,674,688,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Changchun Yatai,2,1,H,2526,45,675,683,3,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Yunnan Yukun,Beijing Guoan,0,2,A,2526,45,676,686,2,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao Hainiu,Qingdao West Coast,2,2,D,2526,45,677,687,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Zhejiang Professional,Dalian Yingbo,1,1,D,2526,45,678,682,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Henan FC,0,0,D,2526,45,679,689,0,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Tianjin Jinmen Tiger,Meizhou Hakka,2,2,D,2526,45,680,685,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Shenzhen Peng City,3,1,H,2526,45,681,684,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Dalian Yingbo,4,1,H,2526,45,679,682,5,3,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Changchun Yatai,2,0,H,2526,45,681,683,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao Hainiu,Shenzhen Peng City,0,1,A,2526,45,677,684,1,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Meizhou Hakka,Henan FC,2,1,H,2526,45,685,689,3,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Beijing Guoan,2,2,D,2526,45,675,686,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao West Coast,Wuhan Three Towns,2,0,H,2526,45,687,688,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Wuhan Three Towns,Zhejiang Professional,0,4,A,2526,45,688,678,4,-4,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Henan FC,Shanghai Shenhua,1,3,A,2526,45,689,675,4,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shenzhen Peng City,Yunnan Yukun,3,4,A,2526,45,684,676,7,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Dalian Yingbo,Beijing Guoan,0,2,A,2526,45,682,686,2,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Chengdu Rongcheng,Shanghai Shenhua,1,0,H,2526,45,674,675,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao West Coast,Meizhou Hakka,3,1,H,2526,45,687,685,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Beijing Guoan,1,2,A,2526,45,681,686,3,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Qingdao Hainiu,1,1,D,2526,45,679,677,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao West Coast,Shanghai Port FC,3,3,D,2526,45,687,681,6,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,1,2,A,2526,45,674,680,3,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Changchun Yatai,Wuhan Three Towns,1,1,D,2526,45,683,688,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Zhejiang Professional,Shenzhen Peng City,3,0,H,2526,45,678,684,3,3,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Henan FC,Qingdao West Coast,2,3,A,2526,45,689,687,5,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Beijing Guoan,Chengdu Rongcheng,1,1,D,2526,45,686,674,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Meizhou Hakka,Shandong Taishan,3,4,A,2526,45,685,679,7,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,1,0,H,2526,45,680,677,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Dalian Yingbo,Changchun Yatai,2,0,H,2526,45,682,683,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Henan FC,Wuhan Three Towns,1,2,A,2526,45,689,688,3,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Zhejiang Professional,Changchun Yatai,4,2,H,2526,45,678,683,6,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,1,0,H,2526,45,684,680,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Dalian Yingbo,Yunnan Yukun,3,2,H,2526,45,682,676,5,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Zhejiang Professional,Qingdao West Coast,2,1,H,2526,45,678,687,3,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao Hainiu,Meizhou Hakka,1,1,D,2526,45,677,685,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,2,1,H,2526,45,688,680,3,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Shanghai Shenhua,0,1,A,2526,45,679,675,1,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shenzhen Peng City,Dalian Yingbo,1,1,D,2526,45,684,682,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Changchun Yatai,Chengdu Rongcheng,1,2,A,2526,45,683,674,3,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Yunnan Yukun,Shanghai Port FC,2,3,A,2526,45,676,681,5,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Beijing Guoan,Henan FC,1,0,H,2526,45,686,689,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Chengdu Rongcheng,1,3,A,2526,45,681,674,4,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,2,0,H,2526,45,680,678,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Meizhou Hakka,Shenzhen Peng City,3,0,H,2526,45,685,684,3,3,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao West Coast,Dalian Yingbo,2,0,H,2526,45,687,682,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Henan FC,Qingdao Hainiu,3,1,H,2526,45,689,677,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Changchun Yatai,Yunnan Yukun,0,0,D,2526,45,683,676,0,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Beijing Guoan,Shandong Taishan,6,1,H,2526,45,686,679,7,5,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Wuhan Three Towns,2,0,H,2526,45,675,688,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Qingdao Hainiu,3,2,H,2526,45,675,677,5,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Chengdu Rongcheng,Yunnan Yukun,1,1,D,2526,45,674,676,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Zhejiang Professional,Meizhou Hakka,2,2,D,2526,45,678,685,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Dalian Yingbo,Henan FC,1,0,H,2526,45,682,689,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,1,4,A,2526,45,680,681,5,-3,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shenzhen Peng City,Changchun Yatai,3,1,H,2526,45,684,683,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Wuhan Three Towns,Beijing Guoan,4,4,D,2526,45,688,686,8,0,2025.0,2.0,5.0,1,0
-2025-02-22,CHN1,Qingdao West Coast,Shandong Taishan,1,5,A,2526,45,687,679,6,-4,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Shenhua,Zhejiang Professional,3,2,H,2526,45,675,678,5,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Wuhan Three Towns,Yunnan Yukun,3,1,H,2526,45,688,676,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao Hainiu,Chengdu Rongcheng,0,1,A,2526,45,677,674,1,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Dalian Yingbo,Tianjin Jinmen Tiger,1,1,D,2526,45,682,680,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Meizhou Hakka,Changchun Yatai,1,3,A,2526,45,685,683,4,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Shenzhen Peng City,4,0,H,2526,45,679,684,4,4,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Yunnan Yukun,Qingdao Hainiu,1,0,H,2526,45,676,677,1,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Beijing Guoan,Zhejiang Professional,2,0,H,2526,45,686,678,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2526,45,681,675,2,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Chengdu Rongcheng,Dalian Yingbo,2,0,H,2526,45,674,682,2,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Meizhou Hakka,Wuhan Three Towns,3,1,H,2526,45,685,688,4,2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Qingdao West Coast,Tianjin Jinmen Tiger,2,2,D,2526,45,687,680,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Changchun Yatai,Shandong Taishan,1,2,A,2526,45,683,679,3,-1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shenzhen Peng City,Henan FC,1,3,A,2526,45,684,689,4,-2,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shanghai Port FC,Meizhou Hakka,2,1,H,2526,45,681,685,3,1,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,2,2,D,2526,45,680,686,4,0,2025.0,2.0,5.0,0,0
-2025-02-22,CHN1,Shandong Taishan,Chengdu Rongcheng,0,3,A,2526,45,679,674,3,-3,2025.0,2.0,5.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Chongqing Lifan,2,1,H,1819,45,9593,9640,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Changchun Yatai,1,1,D,1819,45,9638,9594,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Tianjin Quanjian FC,1,1,D,1819,45,9639,9645,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Shanghai Shenhua,2,1,H,1819,45,9634,9593,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Beijing Renhe FC,1,1,D,1819,45,9646,9644,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Shanghai Port FC,1,1,D,1819,45,9636,9605,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Tianjin Teda,2,0,H,1819,45,9622,9641,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Shandong Taishan,4,3,H,1819,45,9600,9601,7,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Chongqing Lifan,2,1,H,1819,45,9596,9640,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Guangzhou City,2,0,H,1819,45,9639,9622,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Beijing Renhe FC,1,3,A,1819,45,9593,9644,4,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Hebei China Fortune,2,2,D,1819,45,9594,9636,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Beijing Guoan,2,5,A,1819,45,9641,9596,7,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Guangzhou Evergrande,1,4,A,1819,45,9601,9634,5,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Henan Jianye,2,1,H,1819,45,9605,9638,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Dalian Yingbo,1,1,D,1819,45,9640,9600,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Guizhou Hengfeng,1,0,H,1819,45,9645,9646,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Tianjin Quanjian FC,5,0,H,1819,45,9634,9645,5,5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Shanghai Shenhua,4,1,H,1819,45,9636,9593,5,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Beijing Guoan,3,0,H,1819,45,9644,9596,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Changchun Yatai,5,2,H,1819,45,9622,9594,7,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Shanghai Port FC,2,3,A,1819,45,9640,9605,5,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Shandong Taishan,3,1,H,1819,45,9646,9601,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Jiāngsū Sūníng,1,1,D,1819,45,9641,9639,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Henan Jianye,2,1,H,1819,45,9600,9638,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Guizhou Hengfeng,3,1,H,1819,45,9593,9646,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Guangzhou Evergrande,0,5,A,1819,45,9638,9634,5,-5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Tianjin Teda,0,0,D,1819,45,9645,9641,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Chongqing Lifan,0,0,D,1819,45,9639,9640,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Changchun Yatai,1,3,A,1819,45,9644,9594,4,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Hebei China Fortune,3,1,H,1819,45,9601,9636,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Guangzhou City,3,1,H,1819,45,9605,9622,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Dalian Yingbo,5,2,H,1819,45,9596,9600,7,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Tianjin Quanjian FC,3,3,D,1819,45,9644,9645,6,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Shanghai Shenhua,2,0,H,1819,45,9605,9593,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Shandong Taishan,0,2,A,1819,45,9640,9601,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Guizhou Hengfeng,1,0,H,1819,45,9636,9646,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Guangzhou Evergrande,3,2,H,1819,45,9594,9634,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Jiāngsū Sūníng,3,1,H,1819,45,9596,9639,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Henan Jianye,2,0,H,1819,45,9641,9638,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Guangzhou City,3,0,H,1819,45,9600,9622,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Shandong Taishan,1,1,D,1819,45,9596,9601,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Guangzhou Evergrande,2,4,A,1819,45,9622,9634,6,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Tianjin Teda,1,2,A,1819,45,9636,9641,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Shanghai Port FC,1,0,H,1819,45,9600,9605,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Guizhou Hengfeng,3,1,H,1819,45,9639,9646,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Chongqing Lifan,1,1,D,1819,45,9644,9640,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Henan Jianye,1,2,A,1819,45,9645,9638,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Shanghai Shenhua,1,1,D,1819,45,9594,9593,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Hebei China Fortune,6,3,H,1819,45,9596,9636,9,3,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Tianjin Teda,Guangzhou Evergrande,0,3,A,1819,45,9641,9634,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Tianjin Quanjian FC,4,1,H,1819,45,9605,9645,5,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Guizhou Hengfeng,3,4,A,1819,45,9640,9646,7,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Jiāngsū Sūníng,0,1,A,1819,45,9638,9639,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Beijing Renhe FC,4,1,H,1819,45,9622,9644,5,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Shanghai Shenhua,3,1,H,1819,45,9601,9593,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Dalian Yingbo,3,0,H,1819,45,9594,9600,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Changchun Yatai,2,0,H,1819,45,9645,9594,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Chongqing Lifan,5,0,H,1819,45,9634,9640,5,5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Beijing Guoan,2,2,D,1819,45,9593,9596,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Shandong Taishan,1,1,D,1819,45,9639,9601,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Guangzhou City,2,2,D,1819,45,9636,9622,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Henan Jianye,1,2,A,1819,45,9646,9638,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Tianjin Teda,2,3,A,1819,45,9600,9641,5,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Shanghai Port FC,1,5,A,1819,45,9644,9605,6,-4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Guangzhou Evergrande,2,1,H,1819,45,9605,9634,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Tianjin Quanjian FC,3,2,H,1819,45,9596,9645,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Shanghai Shenhua,2,2,D,1819,45,9638,9593,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Jiāngsū Sūníng,0,0,D,1819,45,9636,9639,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Guizhou Hengfeng,1,1,D,1819,45,9622,9646,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Dalian Yingbo,3,1,H,1819,45,9644,9600,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Chongqing Lifan,1,2,A,1819,45,9641,9640,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Shandong Taishan,1,2,A,1819,45,9594,9601,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Henan Jianye,2,1,H,1819,45,9596,9638,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Tianjin Teda,1,0,H,1819,45,9593,9641,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Guizhou Hengfeng,4,0,H,1819,45,9634,9646,4,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Hebei China Fortune,0,0,D,1819,45,9600,9636,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Shanghai Port FC,1,1,D,1819,45,9601,9605,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Changchun Yatai,1,2,A,1819,45,9640,9594,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Guangzhou City,2,1,H,1819,45,9645,9622,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Beijing Renhe FC,0,0,D,1819,45,9639,9644,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Jiāngsū Sūníng,2,0,H,1819,45,9605,9639,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Guizhou Hengfeng,2,1,H,1819,45,9600,9646,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Shanghai Shenhua,2,1,H,1819,45,9645,9593,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Changchun Yatai,2,0,H,1819,45,9639,9594,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Guizhou Hengfeng,5,1,H,1819,45,9641,9646,6,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Shandong Taishan,0,0,D,1819,45,9644,9601,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Beijing Guoan,1,2,A,1819,45,9605,9596,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Tianjin Quanjian FC,0,1,A,1819,45,9640,9645,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Henan Jianye,0,1,A,1819,45,9636,9638,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Shanghai Shenhua,4,2,H,1819,45,9622,9593,6,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Guangzhou Evergrande,3,0,H,1819,45,9600,9634,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Guangzhou City,0,1,A,1819,45,9640,9622,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Guizhou Hengfeng,4,3,H,1819,45,9596,9646,7,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Dalian Yingbo,1,0,H,1819,45,9593,9600,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Henan Jianye,2,1,H,1819,45,9601,9638,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Shanghai Port FC,2,1,H,1819,45,9594,9605,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Hebei China Fortune,0,3,A,1819,45,9645,9636,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Jiāngsū Sūníng,1,0,H,1819,45,9634,9639,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Tianjin Teda,1,0,H,1819,45,9644,9641,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Tianjin Teda,1,1,D,1819,45,9605,9641,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Guangzhou Evergrande,2,2,D,1819,45,9596,9634,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Shanghai Shenhua,5,1,H,1819,45,9639,9593,6,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Tianjin Quanjian FC,1,1,D,1819,45,9600,9645,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Changchun Yatai,2,5,A,1819,45,9646,9594,7,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Shandong Taishan,2,4,A,1819,45,9622,9601,6,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Beijing Renhe FC,0,0,D,1819,45,9636,9644,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Chongqing Lifan,0,2,A,1819,45,9638,9640,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Beijing Guoan,3,3,D,1819,45,9640,9596,6,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Henan Jianye,3,0,H,1819,45,9594,9638,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Dalian Yingbo,2,0,H,1819,45,9601,9600,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Guizhou Hengfeng,2,1,H,1819,45,9644,9646,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Guangzhou City,2,1,H,1819,45,9641,9622,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Hebei China Fortune,2,0,H,1819,45,9605,9636,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Jiāngsū Sūníng,1,1,D,1819,45,9645,9639,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Guangzhou Evergrande,2,2,D,1819,45,9593,9634,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Shandong Taishan,1,0,H,1819,45,9634,9601,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Shanghai Port FC,1,2,A,1819,45,9638,9605,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Tianjin Quanjian FC,0,1,A,1819,45,9646,9645,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Shanghai Shenhua,0,2,A,1819,45,9644,9593,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Changchun Yatai,2,1,H,1819,45,9636,9594,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Chongqing Lifan,2,2,D,1819,45,9600,9640,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Tianjin Teda,1,1,D,1819,45,9596,9641,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Jiāngsū Sūníng,0,2,A,1819,45,9622,9639,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Tianjin Teda,2,1,H,1819,45,9639,9641,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Guizhou Hengfeng,0,2,A,1819,45,9601,9646,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Beijing Renhe FC,4,0,H,1819,45,9596,9644,4,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Hebei China Fortune,4,2,H,1819,45,9593,9636,6,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Dalian Yingbo,1,1,D,1819,45,9638,9600,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Guangzhou City,1,2,A,1819,45,9594,9622,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Guangzhou Evergrande,0,1,A,1819,45,9645,9634,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Chongqing Lifan,2,1,H,1819,45,9605,9640,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Tianjin Quanjian FC,3,2,H,1819,45,9641,9645,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Shanghai Shenhua,0,1,A,1819,45,9646,9593,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Henan Jianye,1,0,H,1819,45,9634,9638,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Beijing Renhe FC,1,1,D,1819,45,9594,9644,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Shanghai Port FC,2,5,A,1819,45,9622,9605,7,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Jiāngsū Sūníng,4,1,H,1819,45,9640,9639,5,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Shandong Taishan,1,2,A,1819,45,9636,9601,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Beijing Guoan,0,3,A,1819,45,9600,9596,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Beijing Guoan,1,2,A,1819,45,9639,9596,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Tianjin Teda,1,0,H,1819,45,9638,9641,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Hebei China Fortune,2,3,A,1819,45,9646,9636,5,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Shanghai Port FC,0,2,A,1819,45,9593,9605,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Chongqing Lifan,2,0,H,1819,45,9601,9640,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Dalian Yingbo,2,0,H,1819,45,9622,9600,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Beijing Renhe FC,1,2,A,1819,45,9645,9644,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Changchun Yatai,5,0,H,1819,45,9634,9594,5,5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Beijing Guoan,3,0,H,1819,45,9601,9596,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Jiāngsū Sūníng,1,3,A,1819,45,9646,9639,4,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Hebei China Fortune,1,1,D,1819,45,9641,9636,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Dalian Yingbo,8,0,H,1819,45,9605,9600,8,8,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Chongqing Lifan,Beijing Renhe FC,1,0,H,1819,45,9640,9644,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Guangzhou City,4,5,A,1819,45,9634,9622,9,-1,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Shanghai Shenhua,Changchun Yatai,1,1,D,1819,45,9593,9594,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Beijing Guoan,2,1,H,1819,45,9636,9596,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Shanghai Port FC,3,2,H,1819,45,9645,9605,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Shandong Taishan,2,2,D,1819,45,9593,9601,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Chongqing Lifan,1,0,H,1819,45,9646,9640,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Changchun Yatai,2,0,H,1819,45,9600,9594,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Tianjin Teda,5,1,H,1819,45,9634,9641,6,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Henan Jianye,4,0,H,1819,45,9639,9638,4,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Guangzhou City,0,0,D,1819,45,9644,9622,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Shanghai Shenhua,3,1,H,1819,45,9596,9593,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Tianjin Quanjian FC,2,2,D,1819,45,9594,9645,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Jiāngsū Sūníng,3,2,H,1819,45,9601,9639,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Hebei China Fortune,2,1,H,1819,45,9622,9636,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Guizhou Hengfeng,4,0,H,1819,45,9638,9646,4,4,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Guangzhou Evergrande,2,0,H,1819,45,9640,9634,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Dalian Yingbo,3,1,H,1819,45,9641,9600,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Beijing Renhe FC,2,1,H,1819,45,9605,9644,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Shanghai Port FC,4,5,A,1819,45,9634,9605,9,-1,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Chongqing Lifan,Tianjin Teda,1,1,D,1819,45,9640,9641,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Hebei China Fortune,3,1,H,1819,45,9639,9636,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Beijing Renhe FC,1,2,A,1819,45,9600,9644,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Beijing Guoan,0,0,D,1819,45,9645,9596,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Changchun Yatai,2,0,H,1819,45,9601,9594,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Henan Jianye,0,2,A,1819,45,9593,9638,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Guangzhou City,0,2,A,1819,45,9646,9622,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Shandong Taishan,4,2,H,1819,45,9605,9601,6,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Beijing Guoan,2,0,H,1819,45,9638,9596,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Shanghai Shenhua,2,4,A,1819,45,9641,9593,6,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Guangzhou Evergrande,0,3,A,1819,45,9646,9634,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Tianjin Quanjian FC,2,6,A,1819,45,9622,9645,8,-4,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Hebei China Fortune,Dalian Yingbo,3,2,H,1819,45,9636,9600,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Chongqing Lifan,1,2,A,1819,45,9594,9640,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Jiāngsū Sūníng,0,2,A,1819,45,9644,9639,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Shanghai Port FC,0,0,D,1819,45,9639,9605,0,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Guangzhou City,2,0,H,1819,45,9638,9622,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Changchun Yatai,1,1,D,1819,45,9596,9594,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Tianjin Teda,2,0,H,1819,45,9601,9641,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Tianjin Quanjian FC,1,1,D,1819,45,9593,9645,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Hebei China Fortune,4,4,D,1819,45,9640,9636,8,0,2018.0,3.0,4.0,1,0
+2018-03-02,CHN1,Guizhou Hengfeng,Dalian Yingbo,3,0,H,1819,45,9646,9600,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Beijing Renhe FC,6,1,H,1819,45,9634,9644,7,5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Beijing Guoan,0,3,A,1819,45,9622,9596,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Guizhou Hengfeng,5,0,H,1819,45,9605,9646,5,5,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Guangzhou Evergrande,0,3,A,1819,45,9636,9634,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Changchun Yatai,3,3,D,1819,45,9641,9594,6,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Shanghai Shenhua,0,1,A,1819,45,9640,9593,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Jiāngsū Sūníng,3,1,H,1819,45,9600,9639,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Tianjin Quanjian FC,3,2,H,1819,45,9601,9645,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Henan Jianye,1,0,H,1819,45,9644,9638,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Tianjin Teda,1,0,H,1819,45,9646,9641,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Guangzhou City,3,1,H,1819,45,9593,9622,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Beijing Renhe FC,1,1,D,1819,45,9601,9644,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Chongqing Lifan,0,3,A,1819,45,9645,9640,3,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Shanghai Port FC,0,1,A,1819,45,9596,9605,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Hebei China Fortune,2,0,H,1819,45,9638,9636,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Dalian Yingbo,3,0,H,1819,45,9634,9600,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Jiāngsū Sūníng,2,5,A,1819,45,9594,9639,7,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Chongqing Lifan,1,1,D,1819,45,9622,9640,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Beijing Renhe FC,2,2,D,1819,45,9641,9644,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Port FC,Changchun Yatai,3,1,H,1819,45,9605,9594,4,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Tianjin Quanjian FC,2,0,H,1819,45,9636,9645,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Guangzhou Evergrande,2,3,A,1819,45,9639,9634,5,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Beijing Guoan,3,2,H,1819,45,9646,9596,5,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Shandong Taishan,1,4,A,1819,45,9638,9601,5,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Dalian Yingbo,Shanghai Shenhua,2,1,H,1819,45,9600,9593,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Hebei China Fortune,0,2,A,1819,45,9644,9636,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shandong Taishan,Guangzhou City,2,1,H,1819,45,9601,9622,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Shanghai Shenhua,Jiāngsū Sūníng,1,1,D,1819,45,9593,9639,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Chongqing Lifan,Henan Jianye,1,0,H,1819,45,9640,9638,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Guizhou Hengfeng,3,0,H,1819,45,9594,9646,3,3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Beijing Guoan,1,0,H,1819,45,9634,9596,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Shanghai Port FC,2,5,A,1819,45,9641,9605,7,-3,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Renhe FC,Guangzhou Evergrande,2,0,H,1819,45,9644,9634,2,2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Hebei China Fortune,Chongqing Lifan,2,1,H,1819,45,9636,9640,3,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou City,Henan Jianye,1,1,D,1819,45,9622,9638,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Beijing Guoan,0,2,A,1819,45,9594,9596,2,-2,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Teda,Shandong Taishan,1,2,A,1819,45,9641,9601,3,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Jiāngsū Sūníng,Dalian Yingbo,1,0,H,1819,45,9639,9600,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Henan Jianye,Beijing Renhe FC,1,0,H,1819,45,9638,9644,1,1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guangzhou Evergrande,Hebei China Fortune,2,2,D,1819,45,9634,9636,4,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Shandong Taishan,1,1,D,1819,45,9645,9601,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Tianjin Quanjian FC,Dalian Yingbo,0,1,A,1819,45,9645,9600,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Changchun Yatai,Tianjin Teda,0,1,A,1819,45,9594,9641,1,-1,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Guizhou Hengfeng,Shanghai Port FC,1,1,D,1819,45,9646,9605,2,0,2018.0,3.0,4.0,0,0
+2018-03-02,CHN1,Beijing Guoan,Guangzhou City,2,2,D,1819,45,9596,9622,4,0,2018.0,3.0,4.0,0,0
+2019-03-01,CHN1,Chongqing Lifan,Shanghai Shenhua,1,0,H,1920,45,9640,9593,1,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shanghai Shenhua,Dalian Yingbo,2,1,H,1920,45,9593,9600,3,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Jiāngsū Sūníng,Hebei China Fortune,4,1,H,1920,45,9639,9636,5,3,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Henan Jianye,Chongqing Lifan,1,0,H,1920,45,9638,9640,1,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Beijing Guoan,Shanghai Port FC,0,2,A,1920,45,9596,9605,2,-2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Guangzhou City,Shandong Taishan,1,3,A,1920,45,9622,9601,4,-2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Tianjin Teda,Wuhan Zall FC,3,1,H,1920,45,9641,9635,4,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shenzhen Peng City,Guangzhou Evergrande,2,3,A,1920,45,9606,9634,5,-1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Wuhan Zall FC,Hebei China Fortune,1,2,A,1920,45,9635,9636,3,-1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Tianjin Teda,Chongqing Lifan,2,0,H,1920,45,9641,9640,2,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shanghai Port FC,Shenzhen Peng City,6,0,H,1920,45,9605,9606,6,6,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Jiāngsū Sūníng,Tianjin Teda,2,0,H,1920,45,9639,9641,2,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Henan Jianye,Guangzhou City,1,0,H,1920,45,9638,9622,1,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Guangzhou Evergrande,Shanghai Shenhua,3,0,H,1920,45,9634,9593,3,3,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Dalian Yingbo,Beijing Renhe FC,2,0,H,1920,45,9600,9644,2,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Beijing Guoan,Shandong Taishan,3,2,H,1920,45,9596,9601,5,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Tianjin Teda,Dalian Yingbo,5,1,H,1920,45,9641,9600,6,4,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shenzhen Peng City,Henan Jianye,3,3,D,1920,45,9606,9638,6,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shanghai Shenhua,Jiāngsū Sūníng,1,3,A,1920,45,9593,9639,4,-2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shandong Taishan,Tianjin Teda,3,1,H,1920,45,9601,9641,4,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Hebei China Fortune,Guangzhou Evergrande,1,3,A,1920,45,9636,9634,4,-2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Guangzhou City,Beijing Guoan,1,4,A,1920,45,9622,9596,5,-3,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Chongqing Lifan,Wuhan Zall FC,0,1,A,1920,45,9640,9635,1,-1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Beijing Renhe FC,Shanghai Port FC,1,1,D,1920,45,9644,9605,2,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Guangzhou Evergrande,Shanghai Port FC,2,0,H,1920,45,9634,9605,2,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Tianjin Teda,Shenzhen Peng City,3,0,H,1920,45,9641,9606,3,3,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Dalian Yingbo,Hebei China Fortune,3,3,D,1920,45,9600,9636,6,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Beijing Renhe FC,Jiāngsū Sūníng,2,3,A,1920,45,9644,9639,5,-1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Wuhan Zall FC,Guangzhou City,2,1,H,1920,45,9635,9622,3,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shanghai Shenhua,Beijing Guoan,1,2,A,1920,45,9593,9596,3,-1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shandong Taishan,Chongqing Lifan,2,0,H,1920,45,9601,9640,2,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Henan Jianye,Tianjin Teda,2,1,H,1920,45,9638,9641,3,1,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shanghai Port FC,Dalian Yingbo,3,0,H,1920,45,9605,9600,3,3,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Jiāngsū Sūníng,Shandong Taishan,1,1,D,1920,45,9639,9601,2,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Guangzhou Evergrande,Henan Jianye,2,2,D,1920,45,9634,9638,4,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Tianjin Teda,Beijing Renhe FC,2,2,D,1920,45,9641,9644,4,0,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Shenzhen Peng City,Wuhan Zall FC,4,4,D,1920,45,9606,9635,8,0,2019.0,3.0,4.0,1,0
+2019-03-01,CHN1,Beijing Guoan,Tianjin Teda,3,1,H,1920,45,9596,9641,4,2,2019.0,3.0,4.0,0,0
+2019-03-01,CHN1,Hebei China Fortune,Guangzhou City,2,1,H,1920,45,9636,9622,3,1,2019.0,3.0,4.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Shandong Taishan,1,1,D,2021,45,9593,9601,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Shenzhen Peng City,2,0,H,2021,45,9634,9606,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Jiāngsū Sūníng,1,1,D,2021,45,9609,9639,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Henan Jianye,3,1,H,2021,45,9622,9638,4,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Beijing Guoan,2,2,D,2021,45,9635,9596,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Chongqing Lifan,1,2,A,2021,45,9641,9640,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Shijiazhuang Ever Bright,0,1,A,2021,45,9597,9637,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Tianjin Teda,2,1,H,2021,45,9635,9641,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Beijing Guoan,2,2,D,2021,45,9637,9596,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Hebei China Fortune,1,2,A,2021,45,9597,9636,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Shenzhen Peng City,0,2,A,2021,45,9622,9606,2,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Dalian Pro,0,1,A,2021,45,9601,9609,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Henan Jianye,5,2,H,2021,45,9639,9638,7,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Guangzhou Evergrande,1,4,A,2021,45,9593,9634,5,-3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Hebei China Fortune,3,1,H,2021,45,9637,9636,4,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Tianjin Teda,4,1,H,2021,45,9605,9641,5,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Wuhan Zall FC,0,3,A,2021,45,9597,9635,3,-3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Chongqing Lifan,5,2,H,2021,45,9596,9640,7,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Dalian Pro,0,4,A,2021,45,9638,9609,4,-4,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Jiāngsū Sūníng,0,1,A,2021,45,9601,9639,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Shanghai Shenhua,0,0,D,2021,45,9606,9593,0,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Guangzhou City,2,1,H,2021,45,9634,9622,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Shenzhen Peng City,1,3,A,2021,45,9609,9606,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Shanghai Shenhua,0,2,A,2021,45,9622,9593,2,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Guangzhou Evergrande,2,1,H,2021,45,9639,9634,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Shandong Taishan,0,2,A,2021,45,9638,9601,2,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Shanghai Port FC,0,1,A,2021,45,9637,9605,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Wuhan Zall FC,1,0,H,2021,45,9640,9635,1,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Hebei China Fortune,0,1,A,2021,45,9641,9636,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Qingdao Hainiu,5,1,H,2021,45,9596,9597,6,4,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Dalian Pro,1,0,H,2021,45,9622,9609,1,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Jiāngsū Sūníng,0,0,D,2021,45,9593,9639,0,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Shandong Taishan,1,2,A,2021,45,9606,9601,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Henan Jianye,2,1,H,2021,45,9634,9638,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Shijiazhuang Ever Bright,1,1,D,2021,45,9641,9637,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Chongqing Lifan,0,3,A,2021,45,9597,9640,3,-3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Hebei China Fortune,Beijing Guoan,3,3,D,2021,45,9636,9596,6,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Shanghai Port FC,1,2,A,2021,45,9635,9605,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Shanghai Shenhua,1,1,D,2021,45,9609,9593,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Shenzhen Peng City,1,3,A,2021,45,9638,9606,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Guangzhou Evergrande,1,2,A,2021,45,9601,9634,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Guangzhou City,3,3,D,2021,45,9639,9622,6,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Wuhan Zall FC,1,0,H,2021,45,9637,9635,1,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Hebei China Fortune,3,1,H,2021,45,9640,9636,4,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Qingdao Hainiu,2,1,H,2021,45,9605,9597,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Tianjin Teda,2,0,H,2021,45,9596,9641,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Shandong Taishan,1,5,A,2021,45,9622,9601,6,-4,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Guangzhou Evergrande,2,2,D,2021,45,9609,9634,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Shanghai Shenhua,0,0,D,2021,45,9638,9593,0,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Chongqing Lifan,3,0,H,2021,45,9605,9640,3,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Hebei China Fortune,Shanghai Port FC,2,0,H,2021,45,9636,9605,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Shanghai Shenhua,2,0,H,2021,45,9634,9593,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Qingdao Hainiu,2,0,H,2021,45,9635,9597,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Shandong Taishan,2,3,A,2021,45,9609,9601,5,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Guangzhou City,3,0,H,2021,45,9606,9622,3,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Beijing Guoan,1,2,A,2021,45,9640,9596,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Shanghai Port FC,1,3,A,2021,45,9641,9605,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Shenzhen Peng City,3,2,H,2021,45,9593,9606,5,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Guangzhou Evergrande,0,5,A,2021,45,9622,9634,5,-5,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Shandong Taishan,0,0,D,2021,45,9639,9601,0,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Henan Jianye,1,1,D,2021,45,9609,9638,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Wuhan Zall FC,1,0,H,2021,45,9596,9635,1,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Qingdao Hainiu,2,2,D,2021,45,9637,9597,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Hebei China Fortune,4,0,H,2021,45,9605,9636,4,4,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Tianjin Teda,2,2,D,2021,45,9640,9641,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Guangzhou Evergrande,1,3,A,2021,45,9606,9634,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Dalian Pro,2,1,H,2021,45,9639,9609,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Shanghai Shenhua,0,1,A,2021,45,9601,9593,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Guangzhou City,1,1,D,2021,45,9638,9622,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Beijing Guoan,1,3,A,2021,45,9641,9596,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Shanghai Port FC,1,1,D,2021,45,9597,9605,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Shijiazhuang Ever Bright,2,1,H,2021,45,9635,9637,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Hebei China Fortune,Chongqing Lifan,2,2,D,2021,45,9636,9640,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Shandong Taishan,0,1,A,2021,45,9634,9601,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou City,Jiāngsū Sūníng,0,2,A,2021,45,9622,9639,2,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Dalian Pro,2,2,D,2021,45,9593,9609,4,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Henan Jianye,1,2,A,2021,45,9606,9638,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shijiazhuang Ever Bright,Tianjin Teda,3,0,H,2021,45,9637,9641,3,3,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Qingdao Hainiu,0,0,D,2021,45,9640,9597,0,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Wuhan Zall FC,2,1,H,2021,45,9605,9635,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Hebei China Fortune,3,1,H,2021,45,9596,9636,4,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Henan Jianye,Guangzhou Evergrande,1,3,A,2021,45,9638,9634,4,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Shanghai Shenhua,0,1,A,2021,45,9639,9593,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Shenzhen Peng City,2,0,H,2021,45,9601,9606,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Dalian Pro,Guangzhou City,0,1,A,2021,45,9609,9622,1,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Qingdao Hainiu,Beijing Guoan,3,3,D,2021,45,9597,9596,6,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Port FC,Shijiazhuang Ever Bright,1,1,D,2021,45,9605,9637,2,0,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Wuhan Zall FC,Chongqing Lifan,2,0,H,2021,45,9635,9640,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Hebei China Fortune,Tianjin Teda,2,0,H,2021,45,9636,9641,2,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shandong Taishan,Henan Jianye,2,1,H,2021,45,9601,9638,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shanghai Shenhua,Guangzhou City,2,3,A,2021,45,9593,9622,5,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Guangzhou Evergrande,Jiāngsū Sūníng,2,1,H,2021,45,9634,9639,3,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Shenzhen Peng City,Dalian Pro,3,2,H,2021,45,9606,9609,5,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Hebei China Fortune,Wuhan Zall FC,3,1,H,2021,45,9636,9635,4,2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Chongqing Lifan,Shijiazhuang Ever Bright,1,0,H,2021,45,9640,9637,1,1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Tianjin Teda,Qingdao Hainiu,0,2,A,2021,45,9641,9597,2,-2,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Beijing Guoan,Shanghai Port FC,1,2,A,2021,45,9596,9605,3,-1,2020.0,7.0,5.0,0,0
+2020-07-25,CHN1,Jiāngsū Sūníng,Shenzhen Peng City,1,1,D,2021,45,9639,9606,2,0,2020.0,7.0,5.0,0,0
+2022-06-03,CHN1,Guangzhou City,Cangzhou Mighty Lions,1,4,A,2223,45,9622,9607,5,-3,2022.0,6.0,4.0,0,0
+2022-06-03,CHN1,Meizhou Hakka,Guangzhou City,1,0,H,2223,45,9604,9622,1,1,2022.0,6.0,4.0,0,0
+2022-06-03,CHN1,Shandong Taishan,Beijing Guoan,3,0,H,2223,45,9601,9596,3,3,2022.0,6.0,4.0,0,0
+2022-06-03,CHN1,Shanghai Port FC,Changchun Yatai,4,0,H,2223,45,9605,9594,4,4,2022.0,6.0,4.0,0,0
+2022-06-03,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,3,0,H,2223,45,9592,9603,3,3,2022.0,6.0,4.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Henan FC,3,1,H,2324,45,9596,9602,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Nantong Zhiyun,2,1,H,2324,45,9609,9608,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Shanghai Port FC,0,2,A,2324,45,9592,9605,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Changchun Yatai,0,2,A,2324,45,9599,9594,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Meizhou Hakka,1,1,D,2324,45,9596,9604,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Chengdu Rongcheng,1,1,D,2324,45,9602,9591,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Cangzhou Mighty Lions,1,1,D,2324,45,9603,9607,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Shandong Taishan,1,0,H,2324,45,9593,9601,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Qingdao Hainiu,2,1,H,2324,45,9606,9597,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Beijing Guoan,1,1,D,2324,45,9592,9596,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,2,1,H,2324,45,9603,9599,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Shanghai Shenhua,0,1,A,2324,45,9604,9593,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Nantong Zhiyun,1,1,D,2324,45,9601,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Qingdao Hainiu,0,0,D,2324,45,9602,9597,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Cangzhou Mighty Lions,2,1,H,2324,45,9591,9607,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Shenzhen Peng City,3,2,H,2324,45,9605,9606,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Dalian Pro,3,2,H,2324,45,9594,9609,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Zhejiang Professional,2,1,H,2324,45,9601,9599,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Wuhan Three Towns,1,2,A,2324,45,9604,9592,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Beijing Guoan,3,1,H,2324,45,9597,9596,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Shanghai Port FC,0,1,A,2324,45,9607,9605,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Changchun Yatai,1,0,H,2324,45,9593,9594,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Chengdu Rongcheng,0,0,D,2324,45,9609,9591,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,0,2,A,2324,45,9606,9603,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Henan FC,1,0,H,2324,45,9608,9602,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Shandong Taishan,0,0,D,2324,45,9596,9601,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Wuhan Three Towns,0,3,A,2324,45,9597,9592,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Chengdu Rongcheng,0,2,A,2324,45,9599,9591,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Tianjin Jinmen Tiger,1,1,D,2324,45,9594,9603,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Henan FC,1,1,D,2324,45,9606,9602,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2324,45,9605,9593,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Nantong Zhiyun,1,1,D,2324,45,9607,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Meizhou Hakka,1,1,D,2324,45,9609,9604,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Beijing Guoan,0,1,A,2324,45,9602,9596,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Dalian Pro,1,0,H,2324,45,9593,9609,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Cangzhou Mighty Lions,0,1,A,2324,45,9606,9607,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Zhejiang Professional,0,0,D,2324,45,9592,9599,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Shandong Taishan,2,1,H,2324,45,9604,9601,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Qingdao Hainiu,3,2,H,2324,45,9591,9597,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,0,0,D,2324,45,9603,9605,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Changchun Yatai,0,1,A,2324,45,9608,9594,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Wuhan Three Towns,1,1,D,2324,45,9602,9592,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Cangzhou Mighty Lions,1,1,D,2324,45,9609,9607,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Shanghai Shenhua,1,3,A,2324,45,9606,9593,4,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Chengdu Rongcheng,2,2,D,2324,45,9601,9591,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Qingdao Hainiu,2,1,H,2324,45,9605,9597,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Meizhou Hakka,2,4,A,2324,45,9594,9604,6,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Zhejiang Professional,1,2,A,2324,45,9608,9599,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Tianjin Jinmen Tiger,1,1,D,2324,45,9596,9603,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Wuhan Three Towns,1,1,D,2324,45,9593,9592,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Dalian Pro,2,1,H,2324,45,9606,9609,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Meizhou Hakka,2,0,H,2324,45,9597,9604,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Changchun Yatai,2,2,D,2324,45,9591,9594,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Shanghai Port FC,1,2,A,2324,45,9599,9605,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Henan FC,1,0,H,2324,45,9603,9602,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Shandong Taishan,1,1,D,2324,45,9607,9601,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Nantong Zhiyun,1,0,H,2324,45,9596,9608,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Chengdu Rongcheng,3,3,D,2324,45,9592,9591,6,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Beijing Guoan,1,1,D,2324,45,9593,9596,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Changchun Yatai,2,4,A,2324,45,9607,9594,6,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Zhejiang Professional,2,2,D,2324,45,9597,9599,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Shenzhen Peng City,1,1,D,2324,45,9608,9606,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Dalian Pro,1,0,H,2324,45,9602,9609,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Shandong Taishan,3,3,D,2324,45,9603,9601,6,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Shanghai Port FC,0,2,A,2324,45,9604,9605,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Shanghai Shenhua,2,1,H,2324,45,9591,9593,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Cangzhou Mighty Lions,6,2,H,2324,45,9596,9607,8,4,2023.0,4.0,5.0,1,0
+2023-04-15,CHN1,Changchun Yatai,Qingdao Hainiu,1,0,H,2324,45,9594,9597,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Wuhan Three Towns,0,5,A,2324,45,9608,9592,5,-5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Shenzhen Peng City,3,0,H,2324,45,9601,9606,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Henan FC,3,2,H,2324,45,9605,9602,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Tianjin Jinmen Tiger,1,1,D,2324,45,9604,9603,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Zhejiang Professional,1,2,A,2324,45,9609,9599,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Nantong Zhiyun,1,0,H,2324,45,9591,9608,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Wuhan Three Towns,2,1,H,2324,45,9607,9592,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Shandong Taishan,0,1,A,2324,45,9597,9601,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Beijing Guoan,3,2,H,2324,45,9599,9596,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Henan FC,1,1,D,2324,45,9593,9602,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Tianjin Jinmen Tiger,0,1,A,2324,45,9609,9603,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Meizhou Hakka,3,2,H,2324,45,9606,9604,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Shanghai Port FC,0,3,A,2324,45,9594,9605,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Shenzhen Peng City,3,0,H,2324,45,9599,9606,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Changchun Yatai,4,3,H,2324,45,9596,9594,7,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Chengdu Rongcheng,0,1,A,2324,45,9605,9591,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Dalian Pro,2,0,H,2324,45,9601,9609,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Meizhou Hakka,2,1,H,2324,45,9602,9604,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Shanghai Shenhua,0,1,A,2324,45,9607,9593,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Qingdao Hainiu,1,0,H,2324,45,9608,9597,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Wuhan Three Towns,1,1,D,2324,45,9603,9592,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Shenzhen Peng City,4,1,H,2324,45,9594,9606,5,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,0,0,D,2324,45,9591,9603,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Shanghai Shenhua,0,1,A,2324,45,9597,9593,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Zhejiang Professional,2,2,D,2324,45,9602,9599,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Nantong Zhiyun,2,1,H,2324,45,9605,9608,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Shandong Taishan,1,1,D,2324,45,9592,9601,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Cangzhou Mighty Lions,2,3,A,2324,45,9604,9607,5,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Beijing Guoan,2,2,D,2324,45,9609,9596,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Dalian Pro,0,0,D,2324,45,9592,9609,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Meizhou Hakka,3,0,H,2324,45,9599,9604,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,3,2,H,2324,45,9603,9597,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Nantong Zhiyun,1,0,H,2324,45,9593,9608,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Henan FC,0,1,A,2324,45,9607,9602,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Changchun Yatai,4,1,H,2324,45,9601,9594,5,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Shanghai Port FC,1,2,A,2324,45,9596,9605,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Chengdu Rongcheng,0,3,A,2324,45,9606,9591,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Tianjin Jinmen Tiger,1,2,A,2324,45,9593,9603,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Qingdao Hainiu,1,1,D,2324,45,9609,9597,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Zhejiang Professional,2,1,H,2324,45,9607,9599,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Meizhou Hakka,2,2,D,2324,45,9608,9604,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Wuhan Three Towns,1,3,A,2324,45,9606,9592,4,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Shanghai Port FC,1,1,D,2324,45,9601,9605,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Beijing Guoan,0,1,A,2324,45,9591,9596,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Henan FC,3,1,H,2324,45,9594,9602,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Cangzhou Mighty Lions,1,1,D,2324,45,9597,9607,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Shanghai Shenhua,0,1,A,2324,45,9599,9593,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Shandong Taishan,0,1,A,2324,45,9602,9601,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Nantong Zhiyun,1,1,D,2324,45,9603,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Chengdu Rongcheng,3,1,H,2324,45,9604,9591,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Shenzhen Peng City,5,0,H,2324,45,9596,9606,5,5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Changchun Yatai,2,1,H,2324,45,9592,9594,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Dalian Pro,1,1,D,2324,45,9605,9609,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Shanghai Shenhua,3,0,H,2324,45,9601,9593,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Henan FC,2,0,H,2324,45,9591,9602,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,1,1,D,2324,45,9607,9603,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Shenzhen Peng City,5,0,H,2324,45,9597,9606,5,5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Wuhan Three Towns,3,1,H,2324,45,9605,9592,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Beijing Guoan,3,1,H,2324,45,9604,9596,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Zhejiang Professional,2,2,D,2324,45,9594,9599,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Dalian Pro,1,1,D,2324,45,9608,9609,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Tianjin Jinmen Tiger,2,1,H,2324,45,9599,9603,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Wuhan Three Towns,1,1,D,2324,45,9596,9592,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Changchun Yatai,0,0,D,2324,45,9609,9594,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Shanghai Port FC,1,4,A,2324,45,9606,9605,5,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Shandong Taishan,1,1,D,2324,45,9608,9601,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Chengdu Rongcheng,2,1,H,2324,45,9607,9591,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Meizhou Hakka,2,1,H,2324,45,9593,9604,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Henan FC,2,0,H,2324,45,9597,9602,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Cangzhou Mighty Lions,3,0,H,2324,45,9605,9607,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Nantong Zhiyun,1,1,D,2324,45,9602,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Shenzhen Peng City,3,3,D,2324,45,9603,9606,6,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Dalian Pro,4,1,H,2324,45,9591,9609,5,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Shanghai Shenhua,1,1,D,2324,45,9594,9593,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Shandong Taishan,2,1,H,2324,45,9599,9601,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Qingdao Hainiu,2,0,H,2324,45,9596,9597,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Meizhou Hakka,2,1,H,2324,45,9592,9604,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Shenzhen Peng City,3,1,H,2324,45,9602,9606,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Changchun Yatai,0,0,D,2324,45,9603,9594,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Cangzhou Mighty Lions,1,2,A,2324,45,9608,9607,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Shanghai Port FC,0,5,A,2324,45,9593,9605,5,-5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Zhejiang Professional,1,2,A,2324,45,9591,9599,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Dalian Pro,2,1,H,2324,45,9604,9609,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Beijing Guoan,3,0,H,2324,45,9601,9596,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Qingdao Hainiu,1,0,H,2324,45,9592,9597,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Tianjin Jinmen Tiger,2,1,H,2324,45,9605,9603,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Wuhan Three Towns,2,1,H,2324,45,9599,9592,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Meizhou Hakka,6,1,H,2324,45,9601,9604,7,5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Nantong Zhiyun,1,1,D,2324,45,9594,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Chengdu Rongcheng,3,2,H,2324,45,9597,9591,5,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Shanghai Shenhua,2,1,H,2324,45,9609,9593,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Shenzhen Peng City,1,0,H,2324,45,9607,9606,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Nantong Zhiyun,1,1,D,2324,45,9599,9608,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Shandong Taishan,1,0,H,2324,45,9591,9601,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Changchun Yatai,4,2,H,2324,45,9604,9594,6,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Shanghai Port FC,0,5,A,2324,45,9597,9605,5,-5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Henan FC,4,2,H,2324,45,9592,9602,6,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,0,0,D,2324,45,9603,9596,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Shenzhen Peng City,3,0,H,2324,45,9593,9606,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Dalian Pro,2,1,H,2324,45,9607,9609,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Zhejiang Professional,3,4,A,2324,45,9605,9599,7,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Qingdao Hainiu,1,0,H,2324,45,9604,9597,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Chengdu Rongcheng,1,0,H,2324,45,9594,9591,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Shanghai Shenhua,1,2,A,2324,45,9592,9593,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Cangzhou Mighty Lions,4,0,H,2324,45,9601,9607,4,4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Tianjin Jinmen Tiger,1,0,H,2324,45,9602,9603,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Shenzhen Peng City,2,1,H,2324,45,9609,9606,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Beijing Guoan,0,1,A,2324,45,9608,9596,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Tianjin Jinmen Tiger,1,0,H,2324,45,9601,9603,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Qingdao Hainiu,0,0,D,2324,45,9599,9597,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Meizhou Hakka,1,1,D,2324,45,9605,9604,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Wuhan Three Towns,0,1,A,2324,45,9591,9592,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Shanghai Shenhua,2,1,H,2324,45,9596,9593,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Henan FC,0,3,A,2324,45,9609,9602,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Nantong Zhiyun,0,1,A,2324,45,9606,9608,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Cangzhou Mighty Lions,3,1,H,2324,45,9594,9607,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Shanghai Port FC,3,1,H,2324,45,9602,9605,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Shandong Taishan,1,2,A,2324,45,9606,9601,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Dalian Pro,3,0,H,2324,45,9599,9609,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Meizhou Hakka,3,1,H,2324,45,9603,9604,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Chengdu Rongcheng,1,1,D,2324,45,9593,9591,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Changchun Yatai,1,0,H,2324,45,9597,9594,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Beijing Guoan,1,5,A,2324,45,9607,9596,6,-4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Nantong Zhiyun,4,2,H,2324,45,9592,9608,6,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Cangzhou Mighty Lions,2,0,H,2324,45,9592,9607,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Qingdao Hainiu,4,2,H,2324,45,9601,9597,6,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Zhejiang Professional,0,1,A,2324,45,9596,9599,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Changchun Yatai,2,0,H,2324,45,9605,9594,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Shanghai Shenhua,3,0,H,2324,45,9602,9593,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Shenzhen Peng City,5,1,H,2324,45,9604,9606,6,4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Chengdu Rongcheng,0,2,A,2324,45,9608,9591,2,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Dalian Pro,1,0,H,2324,45,9603,9609,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Cangzhou Mighty Lions,2,0,H,2324,45,9593,9607,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Beijing Guoan,1,1,D,2324,45,9594,9596,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Shandong Taishan,0,0,D,2324,45,9609,9601,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Shanghai Port FC,2,1,H,2324,45,9591,9605,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,0,1,A,2324,45,9592,9603,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Henan FC,0,0,D,2324,45,9604,9602,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Nantong Zhiyun,3,1,H,2324,45,9597,9608,4,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Zhejiang Professional,0,5,A,2324,45,9606,9599,5,-5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Meizhou Hakka,0,1,A,2324,45,9607,9604,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Wuhan Three Towns,2,1,H,2324,45,9601,9592,3,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Chengdu Rongcheng,2,2,D,2324,45,9603,9591,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Changchun Yatai,0,1,A,2324,45,9606,9594,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Shanghai Port FC,0,1,A,2324,45,9608,9605,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Dalian Pro,2,0,H,2324,45,9596,9609,2,2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Henan FC,3,0,H,2324,45,9599,9602,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Qingdao Hainiu,1,0,H,2324,45,9593,9597,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Zhejiang Professional,1,1,D,2324,45,9604,9599,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Shandong Taishan,0,3,A,2324,45,9594,9601,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Wuhan Three Towns,1,3,A,2324,45,9609,9592,4,-2,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Beijing Guoan,1,2,A,2324,45,9605,9596,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Cangzhou Mighty Lions,6,0,H,2324,45,9602,9607,6,6,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Shanghai Shenhua,0,1,A,2324,45,9608,9593,1,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Tianjin Jinmen Tiger,1,4,A,2324,45,9597,9603,5,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Shenzhen Peng City,4,0,H,2324,45,9591,9606,4,4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Wuhan Three Towns,Shenzhen Peng City,1,0,H,2324,45,9592,9606,1,1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Zhejiang Professional,Cangzhou Mighty Lions,6,1,H,2324,45,9599,9607,7,5,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Port FC,Shandong Taishan,1,1,D,2324,45,9605,9601,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Henan FC,Changchun Yatai,1,1,D,2324,45,9602,9594,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Beijing Guoan,Chengdu Rongcheng,2,3,A,2324,45,9596,9591,5,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Tianjin Jinmen Tiger,Shanghai Shenhua,1,1,D,2324,45,9603,9593,2,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Meizhou Hakka,Nantong Zhiyun,0,4,A,2324,45,9604,9608,4,-4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Qingdao Hainiu,Dalian Pro,2,2,D,2324,45,9597,9609,4,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shandong Taishan,Henan FC,5,1,H,2324,45,9601,9602,6,4,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Chengdu Rongcheng,Meizhou Hakka,3,0,H,2324,45,9591,9604,3,3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shanghai Shenhua,Zhejiang Professional,1,2,A,2324,45,9593,9599,3,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Dalian Pro,Shanghai Port FC,2,3,A,2324,45,9609,9605,5,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Cangzhou Mighty Lions,Qingdao Hainiu,0,0,D,2324,45,9607,9597,0,0,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Changchun Yatai,Wuhan Three Towns,3,4,A,2324,45,9594,9592,7,-1,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Shenzhen Peng City,Beijing Guoan,0,3,A,2324,45,9606,9596,3,-3,2023.0,4.0,5.0,0,0
+2023-04-15,CHN1,Nantong Zhiyun,Tianjin Jinmen Tiger,1,2,A,2324,45,9608,9603,3,-1,2023.0,4.0,5.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Changchun Yatai,4,0,H,2425,45,9591,9594,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Qingdao West Coast,1,3,A,2425,45,9592,9598,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Nantong Zhiyun,2,1,H,2425,45,9606,9608,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Tianjin Jinmen Tiger,5,0,H,2425,45,9605,9603,5,5,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Meizhou Hakka,2,1,H,2425,45,9601,9604,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Cangzhou Mighty Lions,1,0,H,2425,45,9597,9607,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Shanghai Shenhua,1,2,A,2425,45,9591,9593,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Zhejiang Professional,2,2,D,2425,45,9594,9599,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Henan FC,1,1,D,2425,45,9596,9602,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Shandong Taishan,3,3,D,2425,45,9599,9601,6,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,1,0,H,2425,45,9603,9597,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Shenzhen Peng City,2,2,D,2425,45,9593,9606,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Chengdu Rongcheng,1,1,D,2425,45,9598,9591,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Beijing Guoan,1,3,A,2425,45,9608,9596,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Wuhan Three Towns,1,0,H,2425,45,9604,9592,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Changchun Yatai,0,0,D,2425,45,9602,9594,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Shanghai Port FC,0,1,A,2425,45,9607,9605,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Meizhou Hakka,0,0,D,2425,45,9606,9604,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Nantong Zhiyun,0,0,D,2425,45,9607,9608,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Qingdao Hainiu,6,0,H,2425,45,9596,9597,6,6,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Qingdao West Coast,4,0,H,2425,45,9594,9598,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Shanghai Port FC,3,1,H,2425,45,9591,9605,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Zhejiang Professional,0,2,A,2425,45,9592,9599,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Henan FC,2,1,H,2425,45,9593,9602,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Tianjin Jinmen Tiger,4,1,H,2425,45,9601,9603,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Henan FC,1,0,H,2425,45,9592,9602,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Cangzhou Mighty Lions,3,2,H,2425,45,9603,9607,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Meizhou Hakka,2,0,H,2425,45,9591,9604,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Shandong Taishan,1,4,A,2425,45,9606,9601,5,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Zhejiang Professional,3,2,H,2425,45,9608,9599,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Changchun Yatai,8,1,H,2425,45,9596,9594,9,7,2024.0,3.0,4.0,1,0
+2024-03-01,CHN1,Shanghai Port FC,Qingdao West Coast,2,1,H,2425,45,9605,9598,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Shanghai Shenhua,0,1,A,2425,45,9597,9593,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Cangzhou Mighty Lions,2,2,D,2425,45,9599,9607,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Qingdao Hainiu,2,1,H,2425,45,9608,9597,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Shenzhen Peng City,3,2,H,2425,45,9598,9606,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Tianjin Jinmen Tiger,2,1,H,2425,45,9593,9603,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Wuhan Three Towns,0,0,D,2425,45,9601,9592,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Chengdu Rongcheng,2,0,H,2425,45,9602,9591,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Shanghai Port FC,3,4,A,2425,45,9594,9605,7,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Beijing Guoan,1,3,A,2425,45,9604,9596,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Wuhan Three Towns,1,1,D,2425,45,9597,9592,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Meizhou Hakka,2,1,H,2425,45,9607,9604,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Nantong Zhiyun,3,2,H,2425,45,9594,9608,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Henan FC,1,0,H,2425,45,9603,9602,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Beijing Guoan,2,2,D,2425,45,9591,9596,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Qingdao West Coast,0,1,A,2425,45,9601,9598,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Shanghai Shenhua,3,4,A,2425,45,9599,9593,7,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Shenzhen Peng City,2,0,H,2425,45,9605,9606,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Shanghai Shenhua,0,5,A,2425,45,9607,9593,5,-5,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Qingdao Hainiu,5,0,H,2425,45,9605,9597,5,5,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Tianjin Jinmen Tiger,2,0,H,2425,45,9596,9603,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Changchun Yatai,2,1,H,2425,45,9606,9594,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Zhejiang Professional,2,1,H,2425,45,9602,9599,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Shandong Taishan,0,2,A,2425,45,9608,9601,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Meizhou Hakka,3,3,D,2425,45,9598,9604,6,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Chengdu Rongcheng,1,1,D,2425,45,9592,9591,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Chengdu Rongcheng,3,0,H,2425,45,9601,9591,3,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Shanghai Port FC,3,1,H,2425,45,9593,9605,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Changchun Yatai,2,1,H,2425,45,9604,9594,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Shenzhen Peng City,1,0,H,2425,45,9597,9606,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Qingdao West Coast,0,3,A,2425,45,9608,9598,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Zhejiang Professional,0,0,D,2425,45,9596,9599,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Wuhan Three Towns,1,0,H,2425,45,9603,9592,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Cangzhou Mighty Lions,0,2,A,2425,45,9602,9607,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,3,2,H,2425,45,9603,9599,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Beijing Guoan,2,2,D,2425,45,9598,9596,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Nantong Zhiyun,5,1,H,2425,45,9593,9608,6,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Wuhan Three Towns,2,0,H,2425,45,9594,9592,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Henan FC,0,2,A,2425,45,9597,9602,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Meizhou Hakka,7,2,H,2425,45,9605,9604,9,5,2024.0,3.0,4.0,1,0
+2024-03-01,CHN1,Shenzhen Peng City,Chengdu Rongcheng,0,3,A,2425,45,9606,9591,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Shandong Taishan,3,1,H,2425,45,9607,9601,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Henan FC,1,1,D,2425,45,9608,9602,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Shanghai Shenhua,2,1,H,2425,45,9596,9593,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Shenzhen Peng City,4,1,H,2425,45,9592,9606,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Cangzhou Mighty Lions,4,0,H,2425,45,9593,9607,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Wuhan Three Towns,2,2,D,2425,45,9591,9592,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Shanghai Port FC,0,5,A,2425,45,9597,9605,5,-5,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Shenzhen Peng City,1,1,D,2425,45,9594,9606,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Henan FC,4,1,H,2425,45,9599,9602,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Qingdao West Coast,1,1,D,2425,45,9604,9598,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,0,1,A,2425,45,9603,9596,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Nantong Zhiyun,3,1,H,2425,45,9601,9608,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2425,45,9605,9593,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Shandong Taishan,0,1,A,2425,45,9591,9601,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Beijing Guoan,1,2,A,2425,45,9599,9596,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,2,1,H,2425,45,9592,9603,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Meizhou Hakka,0,1,A,2425,45,9594,9604,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Henan FC,2,3,A,2425,45,9607,9602,5,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Qingdao Hainiu,1,3,A,2425,45,9606,9597,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Nantong Zhiyun,0,2,A,2425,45,9598,9608,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Shanghai Port FC,1,2,A,2425,45,9604,9605,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Qingdao West Coast,4,1,H,2425,45,9596,9598,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Qingdao Hainiu,1,0,H,2425,45,9602,9597,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Shanghai Shenhua,0,2,A,2425,45,9608,9593,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Changchun Yatai,0,0,D,2425,45,9592,9594,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Shenzhen Peng City,3,1,H,2425,45,9591,9606,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Cangzhou Mighty Lions,4,1,H,2425,45,9601,9607,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Tianjin Jinmen Tiger,3,2,H,2425,45,9599,9603,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Wuhan Three Towns,1,1,D,2425,45,9606,9592,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Shandong Taishan,4,3,H,2425,45,9605,9601,7,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Zhejiang Professional,2,0,H,2425,45,9597,9599,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Qingdao West Coast,3,2,H,2425,45,9607,9598,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Meizhou Hakka,0,0,D,2425,45,9603,9604,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Chengdu Rongcheng,1,2,A,2425,45,9594,9591,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Beijing Guoan,1,1,D,2425,45,9593,9596,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Nantong Zhiyun,1,1,D,2425,45,9602,9608,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Qingdao Hainiu,0,0,D,2425,45,9604,9597,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Zhejiang Professional,3,0,H,2425,45,9591,9599,3,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Changchun Yatai,2,0,H,2425,45,9607,9594,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Tianjin Jinmen Tiger,1,3,A,2425,45,9598,9603,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Wuhan Three Towns,4,1,H,2425,45,9593,9592,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Henan FC,2,2,D,2425,45,9601,9602,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Shenzhen Peng City,1,2,A,2425,45,9596,9606,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Shanghai Port FC,0,3,A,2425,45,9608,9605,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Qingdao West Coast,1,2,A,2425,45,9599,9598,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Chengdu Rongcheng,2,3,A,2425,45,9603,9591,5,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Meizhou Hakka,1,0,H,2425,45,9608,9604,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Shandong Taishan,0,1,A,2425,45,9597,9601,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Shanghai Port FC,2,2,D,2425,45,9596,9605,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Shenzhen Peng City,0,2,A,2425,45,9602,9606,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Shanghai Shenhua,1,2,A,2425,45,9594,9593,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Cangzhou Mighty Lions,2,3,A,2425,45,9592,9607,5,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Zhejiang Professional,1,2,A,2425,45,9604,9599,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Shanghai Shenhua,0,3,A,2425,45,9601,9593,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Tianjin Jinmen Tiger,0,1,A,2425,45,9594,9603,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Henan FC,3,1,H,2425,45,9605,9602,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Qingdao Hainiu,1,0,H,2425,45,9598,9597,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Nantong Zhiyun,1,0,H,2425,45,9591,9608,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Beijing Guoan,0,1,A,2425,45,9592,9596,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Cangzhou Mighty Lions,2,2,D,2425,45,9606,9607,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,0,4,A,2425,45,9606,9603,4,-4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Chengdu Rongcheng,1,0,H,2425,45,9607,9591,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Wuhan Three Towns,1,3,A,2425,45,9608,9592,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Shanghai Port FC,0,0,D,2425,45,9599,9605,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Beijing Guoan,0,0,D,2425,45,9601,9596,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Meizhou Hakka,2,2,D,2425,45,9602,9604,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Qingdao West Coast,2,0,H,2425,45,9593,9598,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Changchun Yatai,0,1,A,2425,45,9597,9594,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Shanghai Shenhua,0,2,A,2425,45,9604,9593,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Shenzhen Peng City,1,0,H,2425,45,9599,9606,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Qingdao Hainiu,2,0,H,2425,45,9591,9597,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Beijing Guoan,0,2,A,2425,45,9607,9596,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Wuhan Three Towns,3,1,H,2425,45,9605,9592,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Henan FC,1,1,D,2425,45,9598,9602,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Changchun Yatai,4,2,H,2425,45,9601,9594,6,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Shanghai Port FC,0,1,A,2425,45,9601,9605,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Tianjin Jinmen Tiger,3,2,H,2425,45,9604,9603,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Qingdao Hainiu,4,3,H,2425,45,9599,9597,7,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Cangzhou Mighty Lions,1,1,D,2425,45,9598,9607,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Shanghai Shenhua,0,2,A,2425,45,9592,9593,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Shandong Taishan,1,0,H,2425,45,9602,9601,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Chengdu Rongcheng,1,3,A,2425,45,9599,9591,4,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Meizhou Hakka,4,2,H,2425,45,9597,9604,6,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Qingdao West Coast,2,1,H,2425,45,9603,9598,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Cangzhou Mighty Lions,1,0,H,2425,45,9594,9607,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Beijing Guoan,1,0,H,2425,45,9606,9596,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Nantong Zhiyun,8,1,H,2425,45,9605,9608,9,7,2024.0,3.0,4.0,1,0
+2024-03-01,CHN1,Shenzhen Peng City,Henan FC,0,0,D,2425,45,9606,9602,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Changchun Yatai,3,2,H,2425,45,9593,9594,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Qingdao Hainiu,1,1,D,2425,45,9601,9597,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Nantong Zhiyun,2,1,H,2425,45,9604,9608,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Zhejiang Professional,5,2,H,2425,45,9598,9599,7,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,2,1,H,2425,45,9591,9603,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Beijing Guoan,5,1,H,2425,45,9605,9596,6,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Wuhan Three Towns,1,1,D,2425,45,9607,9592,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Meizhou Hakka,4,0,H,2425,45,9599,9604,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Qingdao West Coast,3,1,H,2425,45,9597,9598,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Wuhan Three Towns,1,2,A,2425,45,9596,9592,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Chengdu Rongcheng,0,1,A,2425,45,9608,9591,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Shenzhen Peng City,1,1,D,2425,45,9607,9606,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Shandong Taishan,6,0,H,2425,45,9593,9601,6,6,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Changchun Yatai,2,2,D,2425,45,9603,9594,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Shanghai Port FC,0,1,A,2425,45,9602,9605,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Shandong Taishan,2,0,H,2425,45,9596,9601,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Henan FC,0,3,A,2425,45,9604,9602,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Cangzhou Mighty Lions,4,0,H,2425,45,9591,9607,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Qingdao Hainiu,5,0,H,2425,45,9594,9597,5,5,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Shanghai Shenhua,0,1,A,2425,45,9598,9593,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Shenzhen Peng City,3,0,H,2425,45,9603,9606,3,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Zhejiang Professional,3,1,H,2425,45,9605,9599,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Nantong Zhiyun,1,2,A,2425,45,9592,9608,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Cangzhou Mighty Lions,4,0,H,2425,45,9596,9607,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Chengdu Rongcheng,1,5,A,2425,45,9597,9591,6,-4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Changchun Yatai,Shandong Taishan,2,2,D,2425,45,9594,9601,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Meizhou Hakka,3,0,H,2425,45,9593,9604,3,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Shanghai Port FC,0,2,A,2425,45,9592,9605,2,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Zhejiang Professional,3,2,H,2425,45,9606,9599,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Tianjin Jinmen Tiger,1,1,D,2425,45,9608,9603,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Qingdao West Coast,1,0,H,2425,45,9602,9598,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Wuhan Three Towns,0,1,A,2425,45,9598,9592,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Chengdu Rongcheng,1,1,D,2425,45,9593,9591,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Qingdao Hainiu,0,1,A,2425,45,9607,9597,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Beijing Guoan,2,1,H,2425,45,9602,9596,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Changchun Yatai,3,1,H,2425,45,9599,9594,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,0,3,A,2425,45,9603,9605,3,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Shenzhen Peng City,0,1,A,2425,45,9608,9606,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Shandong Taishan,0,0,D,2425,45,9604,9601,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Cangzhou Mighty Lions,4,1,H,2425,45,9605,9607,5,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Qingdao West Coast,7,0,H,2425,45,9591,9598,7,7,2024.0,3.0,4.0,1,0
+2024-03-01,CHN1,Changchun Yatai,Henan FC,0,0,D,2425,45,9594,9602,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Tianjin Jinmen Tiger,3,1,H,2425,45,9597,9603,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Nantong Zhiyun,5,2,H,2425,45,9596,9608,7,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Shanghai Shenhua,0,1,A,2425,45,9606,9593,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Meizhou Hakka,0,1,A,2425,45,9592,9604,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Zhejiang Professional,3,0,H,2425,45,9601,9599,3,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Chengdu Rongcheng,2,0,H,2425,45,9605,9591,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Changchun Yatai,2,2,D,2425,45,9598,9594,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Shandong Taishan,1,1,D,2425,45,9603,9601,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Cangzhou Mighty Lions,1,1,D,2425,45,9608,9607,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Wuhan Three Towns,3,1,H,2425,45,9599,9592,4,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Beijing Guoan,1,1,D,2425,45,9597,9596,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Shanghai Shenhua,1,2,A,2425,45,9602,9593,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Shenzhen Peng City,0,0,D,2425,45,9604,9606,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Shanghai Port FC,3,5,A,2425,45,9598,9605,8,-2,2024.0,3.0,4.0,1,0
+2024-03-01,CHN1,Changchun Yatai,Beijing Guoan,3,2,H,2425,45,9594,9596,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Chengdu Rongcheng,1,4,A,2425,45,9604,9591,5,-3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Wuhan Three Towns,2,3,A,2425,45,9602,9592,5,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,2,4,A,2425,45,9607,9603,6,-2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Zhejiang Professional,Nantong Zhiyun,5,2,H,2425,45,9599,9608,7,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shandong Taishan,Shenzhen Peng City,3,2,H,2425,45,9601,9606,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Qingdao Hainiu,2,0,H,2425,45,9593,9597,2,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Qingdao West Coast,1,2,A,2425,45,9606,9598,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Cangzhou Mighty Lions,Zhejiang Professional,0,1,A,2425,45,9607,9599,1,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Meizhou Hakka,3,2,H,2425,45,9596,9604,5,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Shandong Taishan,1,2,A,2425,45,9592,9601,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Tianjin Jinmen Tiger,Shanghai Shenhua,0,0,D,2425,45,9603,9593,0,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Port FC,Changchun Yatai,5,2,H,2425,45,9605,9594,7,3,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Chengdu Rongcheng,Henan FC,4,2,H,2425,45,9591,9602,6,2,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao Hainiu,Nantong Zhiyun,2,2,D,2425,45,9597,9608,4,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shenzhen Peng City,Shanghai Port FC,0,6,A,2425,45,9606,9605,6,-6,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Wuhan Three Towns,Qingdao Hainiu,1,0,H,2425,45,9592,9597,1,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Beijing Guoan,Chengdu Rongcheng,2,1,H,2425,45,9596,9591,3,1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Meizhou Hakka,Cangzhou Mighty Lions,1,1,D,2425,45,9604,9607,2,0,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Shanghai Shenhua,Zhejiang Professional,4,0,H,2425,45,9593,9599,4,4,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Nantong Zhiyun,Changchun Yatai,2,3,A,2425,45,9608,9594,5,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Henan FC,Tianjin Jinmen Tiger,1,2,A,2425,45,9602,9603,3,-1,2024.0,3.0,4.0,0,0
+2024-03-01,CHN1,Qingdao West Coast,Shandong Taishan,0,0,D,2425,45,9598,9601,0,0,2024.0,3.0,4.0,0,0
+2025-02-22,CHN1,Shandong Taishan,Dalian Yingbo,4,1,H,2526,45,9601,9600,5,3,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Port FC,Meizhou Hakka,2,1,H,2526,45,9605,9604,3,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Tianjin Jinmen Tiger,Beijing Guoan,2,2,D,2526,45,9603,9596,4,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shandong Taishan,Chengdu Rongcheng,0,3,A,2526,45,9601,9591,3,-3,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao Hainiu,Dalian Yingbo,1,1,D,2526,45,9597,9600,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Shenhua,Yunnan Yukun,3,1,H,2526,45,9593,9595,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Changchun Yatai,Wuhan Three Towns,1,1,D,2526,45,9594,9592,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Zhejiang Professional,Shenzhen Peng City,3,0,H,2526,45,9599,9606,3,3,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Henan FC,Qingdao West Coast,2,3,A,2526,45,9602,9598,5,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Beijing Guoan,Chengdu Rongcheng,1,1,D,2526,45,9596,9591,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Meizhou Hakka,Shandong Taishan,3,4,A,2526,45,9604,9601,7,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Henan FC,Shanghai Shenhua,1,3,A,2526,45,9602,9593,4,-2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Tianjin Jinmen Tiger,Qingdao Hainiu,1,0,H,2526,45,9603,9597,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Dalian Yingbo,Changchun Yatai,2,0,H,2526,45,9600,9594,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shenzhen Peng City,Yunnan Yukun,3,4,A,2526,45,9606,9595,7,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Wuhan Three Towns,Zhejiang Professional,0,4,A,2526,45,9592,9599,4,-4,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao West Coast,Shanghai Port FC,3,3,D,2526,45,9598,9605,6,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao West Coast,Wuhan Three Towns,2,0,H,2526,45,9598,9592,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Chengdu Rongcheng,Tianjin Jinmen Tiger,1,2,A,2526,45,9591,9603,3,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Yunnan Yukun,Zhejiang Professional,1,1,D,2526,45,9595,9599,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Shenhua,Beijing Guoan,2,2,D,2526,45,9593,9596,4,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Meizhou Hakka,Henan FC,2,1,H,2526,45,9604,9602,3,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao Hainiu,Shenzhen Peng City,0,1,A,2526,45,9597,9606,1,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Port FC,Changchun Yatai,2,0,H,2526,45,9605,9594,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Dalian Yingbo,Beijing Guoan,0,2,A,2526,45,9600,9596,2,-2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Chengdu Rongcheng,Shanghai Shenhua,1,0,H,2526,45,9591,9593,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao West Coast,Meizhou Hakka,3,1,H,2526,45,9598,9604,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Port FC,Beijing Guoan,1,2,A,2526,45,9605,9596,3,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shandong Taishan,Qingdao Hainiu,1,1,D,2526,45,9601,9597,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Henan FC,Wuhan Three Towns,1,2,A,2526,45,9602,9592,3,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Zhejiang Professional,Changchun Yatai,4,2,H,2526,45,9599,9594,6,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shenzhen Peng City,Tianjin Jinmen Tiger,1,0,H,2526,45,9606,9603,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Dalian Yingbo,Yunnan Yukun,3,2,H,2526,45,9600,9595,5,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Zhejiang Professional,Qingdao West Coast,2,1,H,2526,45,9599,9598,3,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao Hainiu,Meizhou Hakka,1,1,D,2526,45,9597,9604,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Wuhan Three Towns,Tianjin Jinmen Tiger,2,1,H,2526,45,9592,9603,3,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shandong Taishan,Shanghai Shenhua,0,1,A,2526,45,9601,9593,1,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shenzhen Peng City,Dalian Yingbo,1,1,D,2526,45,9606,9600,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Changchun Yatai,Chengdu Rongcheng,1,2,A,2526,45,9594,9591,3,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Yunnan Yukun,Shanghai Port FC,2,3,A,2526,45,9595,9605,5,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Beijing Guoan,Henan FC,1,0,H,2526,45,9596,9602,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Port FC,Chengdu Rongcheng,1,3,A,2526,45,9605,9591,4,-2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Tianjin Jinmen Tiger,Zhejiang Professional,2,0,H,2526,45,9603,9599,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Meizhou Hakka,Shenzhen Peng City,3,0,H,2526,45,9604,9606,3,3,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao West Coast,Dalian Yingbo,2,0,H,2526,45,9598,9600,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Henan FC,Qingdao Hainiu,3,1,H,2526,45,9602,9597,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Changchun Yatai,Yunnan Yukun,0,0,D,2526,45,9594,9595,0,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Beijing Guoan,Shandong Taishan,6,1,H,2526,45,9596,9601,7,5,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Shenhua,Wuhan Three Towns,2,0,H,2526,45,9593,9592,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Shenhua,Qingdao Hainiu,3,2,H,2526,45,9593,9597,5,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Chengdu Rongcheng,Yunnan Yukun,1,1,D,2526,45,9591,9595,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Zhejiang Professional,Meizhou Hakka,2,2,D,2526,45,9599,9604,4,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Dalian Yingbo,Henan FC,1,0,H,2526,45,9600,9602,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Tianjin Jinmen Tiger,Shanghai Port FC,1,4,A,2526,45,9603,9605,5,-3,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shenzhen Peng City,Changchun Yatai,3,1,H,2526,45,9606,9594,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Wuhan Three Towns,Beijing Guoan,4,4,D,2526,45,9592,9596,8,0,2025.0,2.0,5.0,1,0
+2025-02-22,CHN1,Qingdao West Coast,Shandong Taishan,1,5,A,2526,45,9598,9601,6,-4,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Shenhua,Zhejiang Professional,3,2,H,2526,45,9593,9599,5,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Wuhan Three Towns,Yunnan Yukun,3,1,H,2526,45,9592,9595,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao Hainiu,Chengdu Rongcheng,0,1,A,2526,45,9597,9591,1,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Dalian Yingbo,Tianjin Jinmen Tiger,1,1,D,2526,45,9600,9603,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Meizhou Hakka,Changchun Yatai,1,3,A,2526,45,9604,9594,4,-2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shandong Taishan,Shenzhen Peng City,4,0,H,2526,45,9601,9606,4,4,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Yunnan Yukun,Qingdao Hainiu,1,0,H,2526,45,9595,9597,1,1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Beijing Guoan,Zhejiang Professional,2,0,H,2526,45,9596,9599,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shanghai Port FC,Shanghai Shenhua,1,1,D,2526,45,9605,9593,2,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Chengdu Rongcheng,Dalian Yingbo,2,0,H,2526,45,9591,9600,2,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Meizhou Hakka,Wuhan Three Towns,3,1,H,2526,45,9604,9592,4,2,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Qingdao West Coast,Tianjin Jinmen Tiger,2,2,D,2526,45,9598,9603,4,0,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Changchun Yatai,Shandong Taishan,1,2,A,2526,45,9594,9601,3,-1,2025.0,2.0,5.0,0,0
+2025-02-22,CHN1,Shenzhen Peng City,Henan FC,1,3,A,2526,45,9606,9602,4,-2,2025.0,2.0,5.0,0,0

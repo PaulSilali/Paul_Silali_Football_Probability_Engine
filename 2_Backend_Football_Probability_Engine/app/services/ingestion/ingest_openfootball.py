@@ -19,12 +19,18 @@ from datetime import datetime, date
 import logging
 import csv
 import io
+import urllib3
 
 from app.db.models import League, Team, Match, DataSource, IngestionLog
 from app.services.team_resolver import resolve_team_safe
 from app.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Disable SSL warnings if verification is disabled
+# Use getattr with default True to handle cases where attribute might not exist yet
+if not getattr(settings, 'VERIFY_SSL', True):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Mapping of league codes to OpenFootball repository and path structure
 # Format: (repository, country_folder, file_pattern, season_format, file_extension)
@@ -191,7 +197,8 @@ class OpenFootballService:
         
         try:
             logger.debug(f"Trying OpenFootball URL: {url}")
-            response = requests.get(url, timeout=30)
+            verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+            response = requests.get(url, timeout=30, verify=verify_ssl)
             if response.status_code == 200:
                 content = response.text.strip()
                 # Validate it's not HTML error page

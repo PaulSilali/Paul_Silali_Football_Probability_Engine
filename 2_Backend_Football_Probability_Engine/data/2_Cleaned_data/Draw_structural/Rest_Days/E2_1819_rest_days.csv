@@ -1,0 +1,553 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E2,1819,2018-08-04,Walsall,Plymouth,31,31,False
+E2,1819,2018-08-04,Fleetwood Town,AFC Wimbledon,31,31,False
+E2,1819,2018-08-04,Wycombe,Blackpool,7,31,False
+E2,1819,2018-08-04,Portsmouth,Luton,31,274,False
+E2,1819,2018-08-04,Coventry,Scunthorpe,274,31,False
+E2,1819,2018-08-04,Luton,Rochdale,274,31,False
+E2,1819,2018-08-04,Peterboro,Bristol Rvs,31,31,False
+E2,1819,2018-08-04,Shrewsbury,Bradford,91,31,False
+E2,1819,2018-08-04,Barnsley,Oxford,7,31,False
+E2,1819,2018-08-04,Accrington,Birmingham,7,31,False
+E2,1819,2018-08-04,Sunderland,Charlton,7,31,False
+E2,1819,2018-08-04,Southend,Doncaster,31,31,False
+E2,1819,2018-08-11,Bradford,Barnsley,7,7,False
+E2,1819,2018-08-11,Bristol Rvs,Accrington,7,7,False
+E2,1819,2018-08-11,Charlton,Shrewsbury,7,7,False
+E2,1819,2018-08-11,Doncaster,Wycombe,7,7,False
+E2,1819,2018-08-11,AFC Wimbledon,Coventry,7,7,False
+E2,1819,2018-08-11,Blackpool,Portsmouth,7,7,False
+E2,1819,2018-08-11,Birmingham,Luton,7,7,False
+E2,1819,2018-08-11,Luton,Sunderland,7,7,False
+E2,1819,2018-08-11,Oxford,Fleetwood Town,7,7,False
+E2,1819,2018-08-11,Plymouth,Southend,7,7,False
+E2,1819,2018-08-11,Rochdale,Peterboro,7,7,False
+E2,1819,2018-08-11,Scunthorpe,Walsall,7,7,False
+E2,1819,2018-08-18,Barnsley,AFC Wimbledon,7,7,False
+E2,1819,2018-08-18,Accrington,Charlton,7,7,False
+E2,1819,2018-08-18,Luton,Doncaster,7,7,False
+E2,1819,2018-08-18,Coventry,Plymouth,7,7,False
+E2,1819,2018-08-18,Fleetwood Town,Rochdale,7,7,False
+E2,1819,2018-08-18,Peterboro,Luton,7,7,False
+E2,1819,2018-08-18,Portsmouth,Oxford,7,7,False
+E2,1819,2018-08-18,Shrewsbury,Blackpool,7,7,False
+E2,1819,2018-08-18,Southend,Bradford,7,7,False
+E2,1819,2018-08-18,Walsall,Birmingham,7,7,False
+E2,1819,2018-08-18,Wycombe,Bristol Rvs,7,7,False
+E2,1819,2018-08-19,Sunderland,Scunthorpe,8,8,False
+E2,1819,2018-08-21,Bradford,Luton,3,3,True
+E2,1819,2018-08-21,Bristol Rvs,Portsmouth,3,3,True
+E2,1819,2018-08-21,Charlton,Peterboro,3,3,True
+E2,1819,2018-08-21,Doncaster,Shrewsbury,3,3,True
+E2,1819,2018-08-21,Luton,Southend,3,3,True
+E2,1819,2018-08-21,Oxford,Accrington,3,3,True
+E2,1819,2018-08-21,Plymouth,Wycombe,3,3,True
+E2,1819,2018-08-21,Rochdale,Barnsley,3,3,True
+E2,1819,2018-08-21,Blackpool,Coventry,3,3,True
+E2,1819,2018-08-21,AFC Wimbledon,Walsall,3,3,True
+E2,1819,2018-08-22,Birmingham,Sunderland,4,3,True
+E2,1819,2018-08-22,Scunthorpe,Fleetwood Town,3,4,True
+E2,1819,2018-08-25,Bradford,Wycombe,4,4,False
+E2,1819,2018-08-25,Bristol Rvs,Southend,4,4,False
+E2,1819,2018-08-25,Charlton,Fleetwood Town,4,3,False
+E2,1819,2018-08-25,Doncaster,Portsmouth,4,4,False
+E2,1819,2018-08-25,Birmingham,Coventry,3,4,False
+E2,1819,2018-08-25,AFC Wimbledon,Sunderland,4,3,False
+E2,1819,2018-08-25,Oxford,Luton,4,4,False
+E2,1819,2018-08-25,Plymouth,Peterboro,4,4,False
+E2,1819,2018-08-25,Rochdale,Walsall,4,4,False
+E2,1819,2018-08-25,Scunthorpe,Barnsley,3,4,False
+E2,1819,2018-08-25,Luton,Shrewsbury,4,4,False
+E2,1819,2018-08-25,Blackpool,Accrington,4,4,False
+E2,1819,2018-09-01,Shrewsbury,Bristol Rvs,7,7,False
+E2,1819,2018-09-01,Accrington,Scunthorpe,7,7,False
+E2,1819,2018-09-01,Barnsley,Birmingham,7,7,False
+E2,1819,2018-09-01,Luton,AFC Wimbledon,7,7,False
+E2,1819,2018-09-01,Coventry,Rochdale,7,7,False
+E2,1819,2018-09-01,Fleetwood Town,Bradford,7,7,False
+E2,1819,2018-09-01,Peterboro,Doncaster,7,7,False
+E2,1819,2018-09-01,Portsmouth,Plymouth,7,7,False
+E2,1819,2018-09-01,Southend,Charlton,7,7,False
+E2,1819,2018-09-01,Sunderland,Oxford,7,7,False
+E2,1819,2018-09-01,Walsall,Blackpool,7,7,False
+E2,1819,2018-09-01,Wycombe,Luton,7,7,False
+E2,1819,2018-09-08,Charlton,Wycombe,7,7,False
+E2,1819,2018-09-08,Doncaster,Luton,7,7,False
+E2,1819,2018-09-08,Birmingham,AFC Wimbledon,7,7,False
+E2,1819,2018-09-08,Portsmouth,Shrewsbury,7,7,False
+E2,1819,2018-09-08,Scunthorpe,Rochdale,7,7,False
+E2,1819,2018-09-08,Blackpool,Bradford,7,7,False
+E2,1819,2018-09-08,Barnsley,Walsall,7,7,False
+E2,1819,2018-09-08,Southend,Peterboro,7,7,False
+E2,1819,2018-09-08,Sunderland,Fleetwood Town,7,7,False
+E2,1819,2018-09-08,Accrington,Luton,7,7,False
+E2,1819,2018-09-08,Bristol Rvs,Plymouth,7,7,False
+E2,1819,2018-09-09,Oxford,Coventry,8,8,False
+E2,1819,2018-09-15,Bradford,Charlton,7,7,False
+E2,1819,2018-09-15,Luton,Sunderland,7,7,False
+E2,1819,2018-09-15,Coventry,Barnsley,6,7,False
+E2,1819,2018-09-15,Fleetwood Town,Accrington,7,7,False
+E2,1819,2018-09-15,Luton,Bristol Rvs,7,7,False
+E2,1819,2018-09-15,Peterboro,Portsmouth,7,7,False
+E2,1819,2018-09-15,Plymouth,Blackpool,7,7,False
+E2,1819,2018-09-15,Rochdale,Birmingham,7,7,False
+E2,1819,2018-09-15,Shrewsbury,Southend,7,7,False
+E2,1819,2018-09-15,Walsall,Doncaster,7,7,False
+E2,1819,2018-09-15,AFC Wimbledon,Scunthorpe,7,7,False
+E2,1819,2018-09-15,Wycombe,Oxford,7,6,False
+E2,1819,2018-09-22,Oxford,Walsall,7,7,False
+E2,1819,2018-09-22,Accrington,AFC Wimbledon,7,7,False
+E2,1819,2018-09-22,Blackpool,Luton,7,7,False
+E2,1819,2018-09-22,Bristol Rvs,Coventry,7,7,False
+E2,1819,2018-09-22,Charlton,Plymouth,7,7,False
+E2,1819,2018-09-22,Doncaster,Bradford,7,7,False
+E2,1819,2018-09-22,Birmingham,Peterboro,7,7,False
+E2,1819,2018-09-22,Portsmouth,Wycombe,7,7,False
+E2,1819,2018-09-22,Scunthorpe,Shrewsbury,7,7,False
+E2,1819,2018-09-22,Southend,Fleetwood Town,7,7,False
+E2,1819,2018-09-22,Sunderland,Rochdale,7,7,False
+E2,1819,2018-09-29,Bradford,Bristol Rvs,7,7,False
+E2,1819,2018-09-29,Luton,Scunthorpe,7,7,False
+E2,1819,2018-09-29,Coventry,Sunderland,7,7,False
+E2,1819,2018-09-29,Fleetwood Town,Barnsley,7,14,False
+E2,1819,2018-09-29,Luton,Charlton,7,7,False
+E2,1819,2018-09-29,Peterboro,Blackpool,7,7,False
+E2,1819,2018-09-29,Plymouth,Doncaster,7,7,False
+E2,1819,2018-09-29,Rochdale,Portsmouth,7,7,False
+E2,1819,2018-09-29,Shrewsbury,Birmingham,7,7,False
+E2,1819,2018-09-29,Walsall,Accrington,7,7,False
+E2,1819,2018-09-29,Wycombe,Southend,7,7,False
+E2,1819,2018-09-29,AFC Wimbledon,Oxford,7,7,False
+E2,1819,2018-10-02,AFC Wimbledon,Bradford,3,3,True
+E2,1819,2018-10-02,Barnsley,Plymouth,3,3,True
+E2,1819,2018-10-02,Luton,Southend,3,3,True
+E2,1819,2018-10-02,Coventry,Portsmouth,3,3,True
+E2,1819,2018-10-02,Fleetwood Town,Wycombe,3,3,True
+E2,1819,2018-10-02,Oxford,Luton,3,3,True
+E2,1819,2018-10-02,Rochdale,Bristol Rvs,3,3,True
+E2,1819,2018-10-02,Scunthorpe,Charlton,3,3,True
+E2,1819,2018-10-02,Sunderland,Peterboro,3,3,True
+E2,1819,2018-10-02,Walsall,Shrewsbury,3,3,True
+E2,1819,2018-10-02,Accrington,Doncaster,3,3,True
+E2,1819,2018-10-06,Plymouth,AFC Wimbledon,3,2,False
+E2,1819,2018-10-06,Blackpool,Rochdale,2,2,False
+E2,1819,2018-10-06,Bradford,Sunderland,4,4,False
+E2,1819,2018-10-06,Bristol Rvs,Walsall,3,3,False
+E2,1819,2018-10-06,Charlton,Coventry,2,4,False
+E2,1819,2018-10-06,Doncaster,Fleetwood Town,3,2,False
+E2,1819,2018-10-06,Luton,Scunthorpe,4,3,False
+E2,1819,2018-10-06,Peterboro,Barnsley,3,4,False
+E2,1819,2018-10-06,Portsmouth,Birmingham,3,2,False
+E2,1819,2018-10-06,Shrewsbury,Accrington,3,4,False
+E2,1819,2018-10-06,Southend,Oxford,3,2,False
+E2,1819,2018-10-06,Wycombe,Luton,4,4,False
+E2,1819,2018-10-13,Coventry,Wycombe,7,7,False
+E2,1819,2018-10-13,Luton,Bristol Rvs,7,7,False
+E2,1819,2018-10-13,Birmingham,Southend,7,7,False
+E2,1819,2018-10-13,Oxford,Plymouth,7,7,False
+E2,1819,2018-10-13,AFC Wimbledon,Portsmouth,7,7,False
+E2,1819,2018-10-13,Rochdale,Doncaster,7,7,False
+E2,1819,2018-10-13,Scunthorpe,Peterboro,7,7,False
+E2,1819,2018-10-13,Accrington,Bradford,7,7,False
+E2,1819,2018-10-13,Barnsley,Luton,7,7,False
+E2,1819,2018-10-13,Fleetwood Town,Shrewsbury,7,7,False
+E2,1819,2018-10-20,Bristol Rvs,Oxford,7,7,False
+E2,1819,2018-10-20,Wycombe,Scunthorpe,7,7,False
+E2,1819,2018-10-20,Charlton,Barnsley,14,7,False
+E2,1819,2018-10-20,Doncaster,Birmingham,7,7,False
+E2,1819,2018-10-20,Luton,Walsall,7,14,False
+E2,1819,2018-10-20,Peterboro,Accrington,7,7,False
+E2,1819,2018-10-20,Plymouth,Luton,7,7,False
+E2,1819,2018-10-20,Portsmouth,Fleetwood Town,7,7,False
+E2,1819,2018-10-20,Shrewsbury,Sunderland,7,14,False
+E2,1819,2018-10-20,Blackpool,AFC Wimbledon,14,7,False
+E2,1819,2018-10-20,Bradford,Rochdale,7,7,False
+E2,1819,2018-10-20,Southend,Coventry,7,7,False
+E2,1819,2018-10-23,Bristol Rvs,AFC Wimbledon,3,3,True
+E2,1819,2018-10-23,Blackpool,Scunthorpe,3,3,True
+E2,1819,2018-10-23,Bradford,Coventry,3,3,True
+E2,1819,2018-10-23,Charlton,Oxford,3,3,True
+E2,1819,2018-10-23,Doncaster,Sunderland,3,3,True
+E2,1819,2018-10-23,Luton,Accrington,3,3,True
+E2,1819,2018-10-23,Peterboro,Fleetwood Town,3,3,True
+E2,1819,2018-10-23,Plymouth,Birmingham,3,3,True
+E2,1819,2018-10-23,Portsmouth,Luton,3,3,True
+E2,1819,2018-10-23,Shrewsbury,Barnsley,3,3,True
+E2,1819,2018-10-23,Southend,Walsall,3,3,True
+E2,1819,2018-10-23,Wycombe,Rochdale,3,3,True
+E2,1819,2018-10-27,AFC Wimbledon,Luton,4,4,False
+E2,1819,2018-10-27,Barnsley,Bristol Rvs,4,4,False
+E2,1819,2018-10-27,Luton,Peterboro,4,4,False
+E2,1819,2018-10-27,Coventry,Doncaster,4,4,False
+E2,1819,2018-10-27,Fleetwood Town,Blackpool,4,4,False
+E2,1819,2018-10-27,Birmingham,Bradford,4,4,False
+E2,1819,2018-10-27,Oxford,Shrewsbury,4,4,False
+E2,1819,2018-10-27,Rochdale,Charlton,4,4,False
+E2,1819,2018-10-27,Scunthorpe,Plymouth,4,4,False
+E2,1819,2018-10-27,Sunderland,Southend,4,4,False
+E2,1819,2018-10-27,Walsall,Wycombe,4,4,False
+E2,1819,2018-10-27,Accrington,Portsmouth,4,4,False
+E2,1819,2018-11-03,AFC Wimbledon,Shrewsbury,7,7,False
+E2,1819,2018-11-03,Blackpool,Bristol Rvs,7,7,False
+E2,1819,2018-11-03,Bradford,Portsmouth,7,7,False
+E2,1819,2018-11-03,Charlton,Doncaster,7,7,False
+E2,1819,2018-11-03,Coventry,Accrington,7,7,False
+E2,1819,2018-11-03,Birmingham,Fleetwood Town,7,7,False
+E2,1819,2018-11-03,Plymouth,Sunderland,7,7,False
+E2,1819,2018-11-03,Rochdale,Luton,7,7,False
+E2,1819,2018-11-03,Scunthorpe,Oxford,7,7,False
+E2,1819,2018-11-03,Walsall,Luton,7,7,False
+E2,1819,2018-11-03,Wycombe,Peterboro,7,7,False
+E2,1819,2018-11-03,Barnsley,Southend,7,7,False
+E2,1819,2018-11-06,Walsall,Charlton,2,3,True
+E2,1819,2018-11-06,Birmingham,Blackpool,3,3,True
+E2,1819,2018-11-17,Oxford,Birmingham,14,11,False
+E2,1819,2018-11-17,Accrington,Barnsley,14,14,False
+E2,1819,2018-11-17,Bristol Rvs,Scunthorpe,14,14,False
+E2,1819,2018-11-17,Luton,Coventry,14,14,False
+E2,1819,2018-11-17,Doncaster,AFC Wimbledon,14,14,False
+E2,1819,2018-11-17,Fleetwood Town,Walsall,14,11,False
+E2,1819,2018-11-17,Luton,Plymouth,14,14,False
+E2,1819,2018-11-17,Peterboro,Bradford,14,14,False
+E2,1819,2018-11-17,Shrewsbury,Rochdale,14,14,False
+E2,1819,2018-11-17,Southend,Blackpool,14,11,False
+E2,1819,2018-11-17,Sunderland,Wycombe,14,14,False
+E2,1819,2018-11-23,Coventry,Peterboro,6,6,False
+E2,1819,2018-11-24,Blackpool,Luton,7,7,False
+E2,1819,2018-11-24,Bradford,Oxford,7,7,False
+E2,1819,2018-11-24,Charlton,Bristol Rvs,18,7,False
+E2,1819,2018-11-24,Birmingham,Luton,7,7,False
+E2,1819,2018-11-24,Plymouth,Fleetwood Town,7,7,False
+E2,1819,2018-11-24,Rochdale,Accrington,7,7,False
+E2,1819,2018-11-24,Scunthorpe,Portsmouth,7,21,False
+E2,1819,2018-11-24,Walsall,Sunderland,7,7,False
+E2,1819,2018-11-24,Wycombe,Shrewsbury,7,7,False
+E2,1819,2018-11-24,Barnsley,Doncaster,7,7,False
+E2,1819,2018-11-24,AFC Wimbledon,Southend,7,7,False
+E2,1819,2018-11-27,Bristol Rvs,Birmingham,3,3,True
+E2,1819,2018-11-27,Luton,Charlton,3,3,True
+E2,1819,2018-11-27,Doncaster,Blackpool,3,3,True
+E2,1819,2018-11-27,Fleetwood Town,Coventry,3,4,True
+E2,1819,2018-11-27,Luton,Bradford,3,3,True
+E2,1819,2018-11-27,Oxford,Rochdale,3,3,True
+E2,1819,2018-11-27,Peterboro,AFC Wimbledon,4,3,True
+E2,1819,2018-11-27,Portsmouth,Walsall,3,3,True
+E2,1819,2018-11-27,Shrewsbury,Plymouth,3,3,True
+E2,1819,2018-11-27,Southend,Scunthorpe,3,3,True
+E2,1819,2018-11-27,Sunderland,Barnsley,3,3,True
+E2,1819,2018-11-27,Accrington,Wycombe,3,3,True
+E2,1819,2018-12-08,AFC Wimbledon,Rochdale,11,11,False
+E2,1819,2018-12-08,Blackpool,Charlton,11,11,False
+E2,1819,2018-12-08,Bristol Rvs,Doncaster,11,11,False
+E2,1819,2018-12-08,Luton,Shrewsbury,11,4,False
+E2,1819,2018-12-08,Luton,Fleetwood Town,11,11,False
+E2,1819,2018-12-08,Peterboro,Oxford,11,11,False
+E2,1819,2018-12-08,Plymouth,Bradford,11,4,False
+E2,1819,2018-12-08,Portsmouth,Southend,11,11,False
+E2,1819,2018-12-08,Scunthorpe,Birmingham,11,11,False
+E2,1819,2018-12-08,Walsall,Coventry,11,11,False
+E2,1819,2018-12-08,Wycombe,Barnsley,11,11,False
+E2,1819,2018-12-11,Portsmouth,Charlton,3,3,True
+E2,1819,2018-12-15,Bradford,Walsall,7,7,False
+E2,1819,2018-12-15,Charlton,AFC Wimbledon,4,7,False
+E2,1819,2018-12-15,Coventry,Luton,7,7,False
+E2,1819,2018-12-15,Doncaster,Scunthorpe,7,7,False
+E2,1819,2018-12-15,Fleetwood Town,Luton,7,7,False
+E2,1819,2018-12-15,Birmingham,Wycombe,7,7,False
+E2,1819,2018-12-15,Oxford,Blackpool,7,7,False
+E2,1819,2018-12-15,Rochdale,Plymouth,7,7,False
+E2,1819,2018-12-15,Shrewsbury,Peterboro,7,7,False
+E2,1819,2018-12-15,Southend,Accrington,7,18,False
+E2,1819,2018-12-15,Sunderland,Bristol Rvs,18,7,False
+E2,1819,2018-12-15,Barnsley,Portsmouth,7,4,False
+E2,1819,2018-12-22,Bradford,Scunthorpe,7,7,False
+E2,1819,2018-12-22,Bristol Rvs,Fleetwood Town,7,7,False
+E2,1819,2018-12-22,Charlton,Birmingham,7,7,False
+E2,1819,2018-12-22,Doncaster,Oxford,7,7,False
+E2,1819,2018-12-22,Luton,Luton,7,7,False
+E2,1819,2018-12-22,Peterboro,Walsall,7,7,False
+E2,1819,2018-12-22,Plymouth,Accrington,7,7,False
+E2,1819,2018-12-22,Portsmouth,Sunderland,7,7,False
+E2,1819,2018-12-22,Shrewsbury,Coventry,7,7,False
+E2,1819,2018-12-22,Southend,Rochdale,7,7,False
+E2,1819,2018-12-22,Wycombe,AFC Wimbledon,7,7,False
+E2,1819,2018-12-22,Blackpool,Barnsley,7,7,False
+E2,1819,2018-12-26,Coventry,Charlton,4,4,True
+E2,1819,2018-12-26,Accrington,Shrewsbury,4,4,True
+E2,1819,2018-12-26,AFC Wimbledon,Plymouth,4,4,True
+E2,1819,2018-12-26,Barnsley,Peterboro,4,4,True
+E2,1819,2018-12-26,Luton,Wycombe,4,4,True
+E2,1819,2018-12-26,Fleetwood Town,Doncaster,4,4,True
+E2,1819,2018-12-26,Birmingham,Portsmouth,4,4,True
+E2,1819,2018-12-26,Oxford,Southend,4,4,True
+E2,1819,2018-12-26,Rochdale,Blackpool,4,4,True
+E2,1819,2018-12-26,Scunthorpe,Luton,4,4,True
+E2,1819,2018-12-26,Sunderland,Bradford,4,4,True
+E2,1819,2018-12-26,Walsall,Bristol Rvs,4,4,True
+E2,1819,2018-12-29,Fleetwood Town,Portsmouth,3,3,False
+E2,1819,2018-12-29,Birmingham,Doncaster,3,3,False
+E2,1819,2018-12-29,Oxford,Bristol Rvs,3,3,False
+E2,1819,2018-12-29,Rochdale,Bradford,3,3,False
+E2,1819,2018-12-29,Scunthorpe,Wycombe,3,3,False
+E2,1819,2018-12-29,Sunderland,Shrewsbury,3,3,False
+E2,1819,2018-12-29,Coventry,Southend,3,3,False
+E2,1819,2018-12-29,Walsall,Luton,3,3,False
+E2,1819,2018-12-29,Accrington,Peterboro,3,3,False
+E2,1819,2018-12-29,AFC Wimbledon,Blackpool,3,3,False
+E2,1819,2018-12-29,Luton,Plymouth,3,3,False
+E2,1819,2018-12-29,Barnsley,Charlton,3,3,False
+E2,1819,2019-01-01,Bradford,Accrington,3,3,True
+E2,1819,2019-01-01,Bristol Rvs,Luton,3,3,True
+E2,1819,2019-01-01,Charlton,Walsall,3,3,True
+E2,1819,2019-01-01,Doncaster,Rochdale,3,3,True
+E2,1819,2019-01-01,Luton,Barnsley,3,3,True
+E2,1819,2019-01-01,Peterboro,Scunthorpe,3,3,True
+E2,1819,2019-01-01,Plymouth,Oxford,3,3,True
+E2,1819,2019-01-01,Portsmouth,AFC Wimbledon,3,3,True
+E2,1819,2019-01-01,Shrewsbury,Fleetwood Town,3,3,True
+E2,1819,2019-01-01,Southend,Birmingham,3,3,True
+E2,1819,2019-01-01,Wycombe,Coventry,3,3,True
+E2,1819,2019-01-01,Blackpool,Sunderland,3,3,True
+E2,1819,2019-01-05,Rochdale,Luton,4,4,False
+E2,1819,2019-01-05,Scunthorpe,Coventry,4,4,False
+E2,1819,2019-01-05,Charlton,Sunderland,4,4,False
+E2,1819,2019-01-12,Shrewsbury,Charlton,11,7,False
+E2,1819,2019-01-12,Accrington,Bristol Rvs,11,11,False
+E2,1819,2019-01-12,Barnsley,Bradford,11,11,False
+E2,1819,2019-01-12,Luton,Birmingham,7,11,False
+E2,1819,2019-01-12,Coventry,AFC Wimbledon,7,11,False
+E2,1819,2019-01-12,Fleetwood Town,Oxford,11,11,False
+E2,1819,2019-01-12,Peterboro,Rochdale,11,7,False
+E2,1819,2019-01-12,Portsmouth,Blackpool,11,11,False
+E2,1819,2019-01-12,Southend,Plymouth,11,11,False
+E2,1819,2019-01-12,Sunderland,Luton,7,7,False
+E2,1819,2019-01-12,Walsall,Scunthorpe,11,7,False
+E2,1819,2019-01-12,Wycombe,Doncaster,11,11,False
+E2,1819,2019-01-19,Blackpool,Shrewsbury,7,7,False
+E2,1819,2019-01-19,Bradford,Southend,7,7,False
+E2,1819,2019-01-19,Bristol Rvs,Wycombe,7,7,False
+E2,1819,2019-01-19,Charlton,Accrington,7,7,False
+E2,1819,2019-01-19,Doncaster,Luton,7,7,False
+E2,1819,2019-01-19,Birmingham,Walsall,7,7,False
+E2,1819,2019-01-19,Luton,Peterboro,7,7,False
+E2,1819,2019-01-19,Oxford,Portsmouth,7,7,False
+E2,1819,2019-01-19,Plymouth,Coventry,7,7,False
+E2,1819,2019-01-19,Rochdale,Fleetwood Town,7,7,False
+E2,1819,2019-01-19,Scunthorpe,Sunderland,7,7,False
+E2,1819,2019-01-19,AFC Wimbledon,Barnsley,7,7,False
+E2,1819,2019-01-22,Plymouth,Walsall,3,3,True
+E2,1819,2019-01-22,AFC Wimbledon,Fleetwood Town,3,3,True
+E2,1819,2019-01-26,Luton,Bradford,7,7,False
+E2,1819,2019-01-26,Coventry,Blackpool,7,7,False
+E2,1819,2019-01-26,Fleetwood Town,Scunthorpe,4,7,False
+E2,1819,2019-01-26,Peterboro,Charlton,7,7,False
+E2,1819,2019-01-26,Southend,Luton,7,7,False
+E2,1819,2019-01-26,Wycombe,Plymouth,7,4,False
+E2,1819,2019-01-26,Barnsley,Rochdale,7,7,False
+E2,1819,2019-01-29,Bradford,Shrewsbury,3,10,True
+E2,1819,2019-01-29,Bristol Rvs,Peterboro,10,3,True
+E2,1819,2019-01-29,Birmingham,Accrington,10,10,True
+E2,1819,2019-01-29,Luton,Portsmouth,3,10,True
+E2,1819,2019-01-29,Oxford,Barnsley,10,3,True
+E2,1819,2019-01-29,Blackpool,Wycombe,3,3,True
+E2,1819,2019-02-02,Coventry,Birmingham,7,4,False
+E2,1819,2019-02-02,Barnsley,Scunthorpe,4,7,False
+E2,1819,2019-02-02,Luton,Oxford,4,4,False
+E2,1819,2019-02-02,Fleetwood Town,Charlton,7,7,False
+E2,1819,2019-02-02,Peterboro,Plymouth,4,7,False
+E2,1819,2019-02-02,Portsmouth,Doncaster,4,14,False
+E2,1819,2019-02-02,Shrewsbury,Luton,4,4,False
+E2,1819,2019-02-02,Southend,Bristol Rvs,7,4,False
+E2,1819,2019-02-02,Sunderland,AFC Wimbledon,14,11,False
+E2,1819,2019-02-02,Walsall,Rochdale,11,7,False
+E2,1819,2019-02-02,Wycombe,Bradford,4,4,False
+E2,1819,2019-02-09,Bristol Rvs,Shrewsbury,7,7,False
+E2,1819,2019-02-09,Charlton,Southend,7,7,False
+E2,1819,2019-02-09,Doncaster,Peterboro,7,7,False
+E2,1819,2019-02-09,Blackpool,Walsall,11,7,False
+E2,1819,2019-02-09,AFC Wimbledon,Luton,7,7,False
+E2,1819,2019-02-09,Birmingham,Barnsley,7,7,False
+E2,1819,2019-02-09,Luton,Wycombe,7,7,False
+E2,1819,2019-02-09,Oxford,Sunderland,7,7,False
+E2,1819,2019-02-09,Plymouth,Portsmouth,7,7,False
+E2,1819,2019-02-09,Rochdale,Coventry,7,7,False
+E2,1819,2019-02-09,Scunthorpe,Accrington,7,11,False
+E2,1819,2019-02-09,Bradford,Fleetwood Town,7,7,False
+E2,1819,2019-02-12,Sunderland,Blackpool,3,3,True
+E2,1819,2019-02-12,Walsall,AFC Wimbledon,3,3,True
+E2,1819,2019-02-12,Doncaster,Southend,3,3,True
+E2,1819,2019-02-15,Sunderland,Accrington,3,6,False
+E2,1819,2019-02-16,Bradford,Plymouth,7,7,False
+E2,1819,2019-02-16,Charlton,Blackpool,7,4,False
+E2,1819,2019-02-16,Coventry,Walsall,7,4,False
+E2,1819,2019-02-16,Fleetwood Town,Luton,7,7,False
+E2,1819,2019-02-16,Barnsley,Wycombe,7,7,False
+E2,1819,2019-02-16,Oxford,Peterboro,7,7,False
+E2,1819,2019-02-16,Shrewsbury,Luton,7,7,False
+E2,1819,2019-02-16,Southend,Portsmouth,4,7,False
+E2,1819,2019-02-16,Birmingham,Scunthorpe,7,7,False
+E2,1819,2019-02-19,Sunderland,Birmingham,4,3,True
+E2,1819,2019-02-19,Accrington,Oxford,4,3,True
+E2,1819,2019-02-19,Barnsley,Luton,3,3,True
+E2,1819,2019-02-19,Portsmouth,Bristol Rvs,3,10,True
+E2,1819,2019-02-19,Rochdale,AFC Wimbledon,10,7,True
+E2,1819,2019-02-23,AFC Wimbledon,Charlton,4,7,False
+E2,1819,2019-02-23,Blackpool,Oxford,7,4,False
+E2,1819,2019-02-23,Bristol Rvs,Sunderland,4,4,False
+E2,1819,2019-02-23,Luton,Fleetwood Town,4,7,False
+E2,1819,2019-02-23,Peterboro,Shrewsbury,7,7,False
+E2,1819,2019-02-23,Plymouth,Rochdale,7,4,False
+E2,1819,2019-02-23,Portsmouth,Barnsley,4,4,False
+E2,1819,2019-02-23,Scunthorpe,Doncaster,7,11,False
+E2,1819,2019-02-23,Walsall,Bradford,7,7,False
+E2,1819,2019-02-23,Wycombe,Birmingham,7,4,False
+E2,1819,2019-02-23,Accrington,Southend,4,7,False
+E2,1819,2019-02-24,Luton,Coventry,1,8,False
+E2,1819,2019-02-26,Shrewsbury,Doncaster,3,3,True
+E2,1819,2019-03-02,Accrington,Coventry,7,6,False
+E2,1819,2019-03-02,Luton,Walsall,6,7,False
+E2,1819,2019-03-02,Doncaster,Charlton,4,7,False
+E2,1819,2019-03-02,Fleetwood Town,Birmingham,7,7,False
+E2,1819,2019-03-02,Luton,Rochdale,6,7,False
+E2,1819,2019-03-02,Oxford,Scunthorpe,7,7,False
+E2,1819,2019-03-02,Peterboro,Wycombe,7,7,False
+E2,1819,2019-03-02,Portsmouth,Bradford,7,7,False
+E2,1819,2019-03-02,Shrewsbury,AFC Wimbledon,4,7,False
+E2,1819,2019-03-02,Southend,Barnsley,7,7,False
+E2,1819,2019-03-02,Sunderland,Plymouth,7,7,False
+E2,1819,2019-03-02,Bristol Rvs,Blackpool,7,7,False
+E2,1819,2019-03-05,Accrington,Blackpool,3,3,True
+E2,1819,2019-03-08,Coventry,Luton,6,6,False
+E2,1819,2019-03-09,AFC Wimbledon,Doncaster,7,7,False
+E2,1819,2019-03-09,Barnsley,Accrington,7,4,False
+E2,1819,2019-03-09,Blackpool,Southend,4,7,False
+E2,1819,2019-03-09,Bradford,Peterboro,7,7,False
+E2,1819,2019-03-09,Charlton,Portsmouth,7,7,False
+E2,1819,2019-03-09,Birmingham,Oxford,7,7,False
+E2,1819,2019-03-09,Plymouth,Luton,7,1,False
+E2,1819,2019-03-09,Rochdale,Shrewsbury,7,7,False
+E2,1819,2019-03-09,Scunthorpe,Bristol Rvs,7,7,False
+E2,1819,2019-03-09,Walsall,Fleetwood Town,7,7,False
+E2,1819,2019-03-09,Wycombe,Sunderland,7,7,False
+E2,1819,2019-03-12,Barnsley,Sunderland,3,3,True
+E2,1819,2019-03-12,Charlton,Luton,3,3,True
+E2,1819,2019-03-12,Coventry,Fleetwood Town,4,3,True
+E2,1819,2019-03-12,Birmingham,Bristol Rvs,3,3,True
+E2,1819,2019-03-12,Plymouth,Shrewsbury,3,3,True
+E2,1819,2019-03-12,Rochdale,Oxford,3,3,True
+E2,1819,2019-03-12,Scunthorpe,Southend,3,3,True
+E2,1819,2019-03-12,Walsall,Portsmouth,3,3,True
+E2,1819,2019-03-12,Wycombe,Accrington,3,3,True
+E2,1819,2019-03-12,Blackpool,Doncaster,3,3,True
+E2,1819,2019-03-12,AFC Wimbledon,Peterboro,3,3,True
+E2,1819,2019-03-12,Bradford,Luton,3,3,True
+E2,1819,2019-03-15,Doncaster,Barnsley,3,3,False
+E2,1819,2019-03-16,Luton,Blackpool,4,4,False
+E2,1819,2019-03-16,Fleetwood Town,Plymouth,4,4,False
+E2,1819,2019-03-16,Luton,Birmingham,4,4,False
+E2,1819,2019-03-16,Oxford,Bradford,4,4,False
+E2,1819,2019-03-16,Peterboro,Coventry,4,4,False
+E2,1819,2019-03-16,Portsmouth,Scunthorpe,4,4,False
+E2,1819,2019-03-16,Shrewsbury,Wycombe,4,4,False
+E2,1819,2019-03-16,Southend,AFC Wimbledon,4,4,False
+E2,1819,2019-03-16,Bristol Rvs,Charlton,4,4,False
+E2,1819,2019-03-16,Sunderland,Walsall,4,4,False
+E2,1819,2019-03-23,Bradford,Blackpool,7,7,False
+E2,1819,2019-03-23,AFC Wimbledon,Birmingham,7,7,False
+E2,1819,2019-03-23,Luton,Accrington,7,11,False
+E2,1819,2019-03-23,Coventry,Oxford,7,7,False
+E2,1819,2019-03-23,Luton,Doncaster,7,8,False
+E2,1819,2019-03-23,Peterboro,Southend,7,7,False
+E2,1819,2019-03-23,Plymouth,Bristol Rvs,7,7,False
+E2,1819,2019-03-23,Rochdale,Scunthorpe,11,7,False
+E2,1819,2019-03-23,Shrewsbury,Portsmouth,7,7,False
+E2,1819,2019-03-23,Walsall,Barnsley,7,8,False
+E2,1819,2019-03-26,Doncaster,Bristol Rvs,3,3,True
+E2,1819,2019-03-30,Barnsley,Coventry,7,7,False
+E2,1819,2019-03-30,Blackpool,Plymouth,7,7,False
+E2,1819,2019-03-30,Bristol Rvs,Luton,4,7,False
+E2,1819,2019-03-30,Charlton,Bradford,14,7,False
+E2,1819,2019-03-30,Doncaster,Walsall,4,7,False
+E2,1819,2019-03-30,Birmingham,Rochdale,7,7,False
+E2,1819,2019-03-30,Oxford,Wycombe,7,14,False
+E2,1819,2019-03-30,Scunthorpe,AFC Wimbledon,7,7,False
+E2,1819,2019-03-30,Southend,Shrewsbury,7,7,False
+E2,1819,2019-03-30,Accrington,Fleetwood Town,7,14,False
+E2,1819,2019-04-03,Accrington,Sunderland,4,18,True
+E2,1819,2019-04-06,Bradford,Doncaster,7,7,False
+E2,1819,2019-04-06,Luton,Barnsley,7,7,False
+E2,1819,2019-04-06,Fleetwood Town,Southend,7,7,False
+E2,1819,2019-04-06,Luton,Blackpool,7,7,False
+E2,1819,2019-04-06,Peterboro,Birmingham,14,7,False
+E2,1819,2019-04-06,Plymouth,Charlton,7,7,False
+E2,1819,2019-04-06,Rochdale,Sunderland,7,3,False
+E2,1819,2019-04-06,AFC Wimbledon,Accrington,7,3,False
+E2,1819,2019-04-06,Walsall,Oxford,7,7,False
+E2,1819,2019-04-06,Wycombe,Portsmouth,7,14,False
+E2,1819,2019-04-06,Shrewsbury,Scunthorpe,7,7,False
+E2,1819,2019-04-07,Coventry,Bristol Rvs,8,8,False
+E2,1819,2019-04-09,Accrington,Rochdale,3,3,True
+E2,1819,2019-04-09,Sunderland,Luton,3,3,True
+E2,1819,2019-04-09,Wycombe,Charlton,3,3,True
+E2,1819,2019-04-13,Blackpool,Peterboro,7,7,False
+E2,1819,2019-04-13,Accrington,Walsall,4,7,False
+E2,1819,2019-04-13,Barnsley,Fleetwood Town,7,7,False
+E2,1819,2019-04-13,Bristol Rvs,Bradford,6,7,False
+E2,1819,2019-04-13,Charlton,Luton,4,4,False
+E2,1819,2019-04-13,Doncaster,Plymouth,7,7,False
+E2,1819,2019-04-13,Birmingham,Shrewsbury,7,7,False
+E2,1819,2019-04-13,Oxford,AFC Wimbledon,7,7,False
+E2,1819,2019-04-13,Portsmouth,Rochdale,7,4,False
+E2,1819,2019-04-13,Scunthorpe,Luton,7,4,False
+E2,1819,2019-04-13,Southend,Wycombe,7,4,False
+E2,1819,2019-04-13,Sunderland,Coventry,4,6,False
+E2,1819,2019-04-19,Coventry,Bradford,6,6,False
+E2,1819,2019-04-19,Fleetwood Town,Peterboro,6,6,False
+E2,1819,2019-04-19,Birmingham,Plymouth,6,6,False
+E2,1819,2019-04-19,Oxford,Charlton,6,6,False
+E2,1819,2019-04-19,Rochdale,Wycombe,6,6,False
+E2,1819,2019-04-19,Scunthorpe,Blackpool,6,6,False
+E2,1819,2019-04-19,Sunderland,Doncaster,6,6,False
+E2,1819,2019-04-19,Barnsley,Shrewsbury,6,6,False
+E2,1819,2019-04-19,Walsall,Southend,6,6,False
+E2,1819,2019-04-19,AFC Wimbledon,Bristol Rvs,6,6,False
+E2,1819,2019-04-19,Luton,Portsmouth,6,6,False
+E2,1819,2019-04-20,Accrington,Luton,7,1,False
+E2,1819,2019-04-22,Bradford,Birmingham,3,3,False
+E2,1819,2019-04-22,Bristol Rvs,Rochdale,3,3,False
+E2,1819,2019-04-22,Charlton,Scunthorpe,3,3,False
+E2,1819,2019-04-22,Peterboro,Sunderland,3,3,False
+E2,1819,2019-04-22,Plymouth,Barnsley,3,3,False
+E2,1819,2019-04-22,Portsmouth,Coventry,3,3,False
+E2,1819,2019-04-22,Shrewsbury,Oxford,3,3,False
+E2,1819,2019-04-22,Southend,Luton,3,2,False
+E2,1819,2019-04-22,Wycombe,Walsall,3,3,False
+E2,1819,2019-04-22,Blackpool,Fleetwood Town,3,3,False
+E2,1819,2019-04-23,Doncaster,Accrington,4,3,True
+E2,1819,2019-04-23,Luton,AFC Wimbledon,1,4,True
+E2,1819,2019-04-27,Scunthorpe,Bradford,5,5,False
+E2,1819,2019-04-27,Accrington,Plymouth,4,5,False
+E2,1819,2019-04-27,AFC Wimbledon,Wycombe,4,5,False
+E2,1819,2019-04-27,Barnsley,Blackpool,5,5,False
+E2,1819,2019-04-27,Luton,Luton,4,4,False
+E2,1819,2019-04-27,Fleetwood Town,Bristol Rvs,5,5,False
+E2,1819,2019-04-27,Birmingham,Charlton,5,5,False
+E2,1819,2019-04-27,Oxford,Doncaster,5,4,False
+E2,1819,2019-04-27,Rochdale,Southend,5,5,False
+E2,1819,2019-04-27,Sunderland,Portsmouth,5,5,False
+E2,1819,2019-04-27,Walsall,Peterboro,5,5,False
+E2,1819,2019-04-28,Coventry,Shrewsbury,6,6,False
+E2,1819,2019-04-30,Portsmouth,Peterboro,3,3,True
+E2,1819,2019-04-30,Fleetwood Town,Sunderland,3,3,True
+E2,1819,2019-05-04,Bradford,AFC Wimbledon,7,7,False
+E2,1819,2019-05-04,Bristol Rvs,Barnsley,7,7,False
+E2,1819,2019-05-04,Charlton,Rochdale,7,7,False
+E2,1819,2019-05-04,Doncaster,Coventry,7,6,False
+E2,1819,2019-05-04,Luton,Oxford,7,7,False
+E2,1819,2019-05-04,Peterboro,Luton,4,7,False
+E2,1819,2019-05-04,Plymouth,Scunthorpe,7,7,False
+E2,1819,2019-05-04,Portsmouth,Accrington,4,7,False
+E2,1819,2019-05-04,Shrewsbury,Walsall,6,7,False
+E2,1819,2019-05-04,Southend,Sunderland,7,4,False
+E2,1819,2019-05-04,Wycombe,Fleetwood Town,7,4,False
+E2,1819,2019-05-04,Blackpool,Birmingham,7,7,False

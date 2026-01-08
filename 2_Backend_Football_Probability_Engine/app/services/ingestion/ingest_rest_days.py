@@ -4,6 +4,7 @@ Calculate and ingest team rest days from fixture schedule
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from app.db.models import TeamRestDays, JackpotFixture, Match, League, Team
+from app.services.ingestion.draw_structural_validation import DrawStructuralValidator
 from typing import Dict, List, Optional
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -134,6 +135,19 @@ def ingest_rest_days_for_fixture(
         away_rest = calculate_rest_days_for_fixture(db, fixture_id, away_team_id)
         logger.debug(f"Calculated rest days: home={home_rest}, away={away_rest}")
         
+        # Validate rest days
+        context_home = f" (home_team_id={home_team_id}, fixture_id={fixture_id})"
+        is_valid, error = DrawStructuralValidator.validate_rest_days(home_rest, context_home)
+        if not is_valid:
+            logger.warning(f"Invalid home rest days: {error}, using default")
+            home_rest = 7  # Default
+        
+        context_away = f" (away_team_id={away_team_id}, fixture_id={fixture_id})"
+        is_valid, error = DrawStructuralValidator.validate_rest_days(away_rest, context_away)
+        if not is_valid:
+            logger.warning(f"Invalid away rest days: {error}, using default")
+            away_rest = 7  # Default
+        
         # Insert or update for home team
         existing_home = db.query(TeamRestDays).filter(
             TeamRestDays.team_id == home_team_id,
@@ -187,6 +201,179 @@ def ingest_rest_days_for_fixture(
     except Exception as e:
         db.rollback()
         logger.error(f"Error ingesting rest days: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
+
+
+def ingest_rest_days_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest rest days from CSV file in our format.
+    
+    CSV Format: league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['league_code', 'season', 'match_date', 'home_team', 'away_team', 'home_rest_days', 'away_rest_days', 'is_midweek']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                league_code = str(row['league_code']).strip()
+                season = str(row['season']).strip()
+                match_date = pd.to_datetime(row['match_date']).date()
+                home_team_name = str(row['home_team']).strip()
+                away_team_name = str(row['away_team']).strip()
+                home_rest_days = int(row['home_rest_days'])
+                away_rest_days = int(row['away_rest_days'])
+                is_midweek = bool(row['is_midweek']) if pd.notna(row['is_midweek']) else False
+                
+                # Find league
+                league = db.query(League).filter(League.code == league_code).first()
+                if not league:
+                    logger.warning(f"League {league_code} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find teams
+                from app.services.team_resolver import resolve_team_safe
+                home_team = resolve_team_safe(db, home_team_name, league.id)
+                away_team = resolve_team_safe(db, away_team_name, league.id)
+                if not home_team or not away_team:
+                    logger.warning(f"Teams {home_team_name} or {away_team_name} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find match
+                match = db.query(Match).filter(
+                    Match.league_id == league.id,
+                    Match.season == season,
+                    Match.match_date == match_date,
+                    Match.home_team_id == home_team.id,
+                    Match.away_team_id == away_team.id
+                ).first()
+                
+                if not match:
+                    logger.warning(f"Match not found: {league_code} {season} {match_date} {home_team_name} vs {away_team_name}, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update in team_rest_days_historical (for home team)
+                from sqlalchemy import text
+                existing_home = db.execute(
+                    text("""
+                        SELECT id FROM team_rest_days_historical 
+                        WHERE match_id = :match_id AND team_id = :team_id
+                    """),
+                    {"match_id": match.id, "team_id": home_team.id}
+                ).fetchone()
+                
+                if existing_home:
+                    db.execute(
+                        text("""
+                            UPDATE team_rest_days_historical 
+                            SET rest_days = :rest_days, is_midweek = :is_midweek
+                            WHERE match_id = :match_id AND team_id = :team_id
+                        """),
+                        {
+                            "match_id": match.id,
+                            "team_id": home_team.id,
+                            "rest_days": home_rest_days,
+                            "is_midweek": is_midweek
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO team_rest_days_historical 
+                            (match_id, team_id, rest_days, is_midweek)
+                            VALUES (:match_id, :team_id, :rest_days, :is_midweek)
+                        """),
+                        {
+                            "match_id": match.id,
+                            "team_id": home_team.id,
+                            "rest_days": home_rest_days,
+                            "is_midweek": is_midweek
+                        }
+                    )
+                    inserted += 1
+                
+                # Insert or update (for away team)
+                existing_away = db.execute(
+                    text("""
+                        SELECT id FROM team_rest_days_historical 
+                        WHERE match_id = :match_id AND team_id = :team_id
+                    """),
+                    {"match_id": match.id, "team_id": away_team.id}
+                ).fetchone()
+                
+                if existing_away:
+                    db.execute(
+                        text("""
+                            UPDATE team_rest_days_historical 
+                            SET rest_days = :rest_days, is_midweek = :is_midweek
+                            WHERE match_id = :match_id AND team_id = :team_id
+                        """),
+                        {
+                            "match_id": match.id,
+                            "team_id": away_team.id,
+                            "rest_days": away_rest_days,
+                            "is_midweek": is_midweek
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO team_rest_days_historical 
+                            (match_id, team_id, rest_days, is_midweek)
+                            VALUES (:match_id, :team_id, :rest_days, :is_midweek)
+                        """),
+                        {
+                            "match_id": match.id,
+                            "team_id": away_team.id,
+                            "rest_days": away_rest_days,
+                            "is_midweek": is_midweek
+                        }
+                    )
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing rest days row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested rest days from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting rest days from CSV: {e}", exc_info=True)
         return {"success": False, "error": str(e)}
 
 
@@ -245,10 +432,6 @@ def _save_rest_days_csv_batch(
         if not rest_days_records:
             raise ValueError("No rest days records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Rest_Days")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(rest_days_records)
         
@@ -259,13 +442,15 @@ def _save_rest_days_csv_batch(
         
         # Filename format: {league_code}_{season}_rest_days.csv
         filename = f"{league_code}_{season}_rest_days.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Rest_Days", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch rest days CSV for {league_code} ({season}): {len(rest_days_records)} records -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch rest days CSV for {league_code} ({season}): {len(rest_days_records)} records")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch rest days CSV: {e}", exc_info=True)

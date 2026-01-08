@@ -10,6 +10,10 @@ from typing import Optional, Dict, List
 from datetime import date, datetime
 from pathlib import Path
 import logging
+from app.services.ingestion.draw_structural_validation import (
+    DrawStructuralValidator,
+    validate_before_insert
+)
 
 logger = logging.getLogger(__name__)
 
@@ -64,6 +68,27 @@ def ingest_elo_from_clubelo_csv(
                 from_date = pd.to_datetime(row.get('From', row.get('Date', date.today())))
                 elo_rating = float(row.get('Elo', row.get('Rating', 1500)))
                 
+                # Validate Elo rating and detect outliers
+                context = f" (team_id={team.id}, date={from_date.date()})"
+                is_valid, error = DrawStructuralValidator.validate_elo_rating(elo_rating, context)
+                if not is_valid:
+                    logger.warning(f"Skipping invalid Elo rating: {error}")
+                    errors += 1
+                    continue
+                
+                # Detect outliers
+                is_outlier, outlier_error, suggested_value = DrawStructuralValidator.detect_elo_outlier(
+                    db, team.id, elo_rating, from_date.date()
+                )
+                if is_outlier:
+                    if suggested_value is not None:
+                        logger.warning(f"Elo outlier detected, using suggested value: {outlier_error}")
+                        elo_rating = suggested_value
+                    else:
+                        logger.warning(f"Skipping Elo outlier: {outlier_error}")
+                        errors += 1
+                        continue
+                
                 # Check if exists
                 existing = db.query(TeamElo).filter(
                     TeamElo.team_id == team.id,
@@ -101,6 +126,93 @@ def ingest_elo_from_clubelo_csv(
     except Exception as e:
         db.rollback()
         logger.error(f"Error ingesting Elo ratings: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
+
+
+def ingest_elo_from_csv(
+    db: Session,
+    csv_path: str,
+    league_code: Optional[str] = None
+) -> Dict:
+    """
+    Ingest Elo ratings from CSV file in our format.
+    
+    CSV Format: league_code,season,team_id,team_name,date,elo_rating
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+        league_code: Optional league code to filter (if None, uses CSV league_code)
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['league_code', 'season', 'team_id', 'date', 'elo_rating']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                team_id = int(row['team_id'])
+                elo_rating = float(row['elo_rating'])
+                date_str = str(row['date'])
+                
+                # Parse date
+                elo_date = pd.to_datetime(date_str).date()
+                
+                # Verify team exists
+                team = db.query(Team).filter(Team.id == team_id).first()
+                if not team:
+                    logger.warning(f"Team ID {team_id} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Check if exists
+                existing = db.query(TeamElo).filter(
+                    TeamElo.team_id == team_id,
+                    TeamElo.date == elo_date
+                ).first()
+                
+                if existing:
+                    existing.elo_rating = elo_rating
+                    updated += 1
+                else:
+                    elo = TeamElo(
+                        team_id=team_id,
+                        date=elo_date,
+                        elo_rating=elo_rating
+                    )
+                    db.add(elo)
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing Elo row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested Elo ratings from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting Elo ratings from CSV: {e}", exc_info=True)
         return {"success": False, "error": str(e)}
 
 
@@ -212,10 +324,6 @@ def _save_elo_csv_batch(
         if not elo_records:
             raise ValueError("No Elo records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Elo_Rating")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(elo_records)
         
@@ -231,13 +339,15 @@ def _save_elo_csv_batch(
         
         # Filename format: {league_code}_{season}_elo_ratings.csv
         filename = f"{league_code}_{season}_elo_ratings.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Elo_Rating", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch Elo ratings CSV for {league_code} ({season}): {len(elo_records)} records -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch Elo ratings CSV for {league_code} ({season}): {len(elo_records)} records")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch Elo ratings CSV: {e}", exc_info=True)

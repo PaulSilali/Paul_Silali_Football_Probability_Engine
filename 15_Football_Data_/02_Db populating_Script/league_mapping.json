@@ -1,0 +1,120 @@
+{
+  "league_mappings": {
+    "england-master": {
+      "1-premierleague.txt": {"code": "E0", "name": "Premier League", "country": "England", "tier": 1},
+      "2-championship.txt": {"code": "E1", "name": "Championship", "country": "England", "tier": 2},
+      "3-league1.txt": {"code": "E2", "name": "League One", "country": "England", "tier": 3},
+      "4-league2.txt": {"code": "E3", "name": "League Two", "country": "England", "tier": 4},
+      "5-nationalleague.txt": {"code": "E4", "name": "National League", "country": "England", "tier": 5},
+      "facup.txt": {"code": "FA", "name": "FA Cup", "country": "England", "tier": 0},
+      "eflcup.txt": {"code": "EFL", "name": "EFL Cup", "country": "England", "tier": 0}
+    },
+    "deutschland-master": {
+      "1-bundesliga.txt": {"code": "D1", "name": "Bundesliga", "country": "Germany", "tier": 1},
+      "2-bundesliga2.txt": {"code": "D2", "name": "2. Bundesliga", "country": "Germany", "tier": 2},
+      "3-liga3.txt": {"code": "D3", "name": "3. Liga", "country": "Germany", "tier": 3},
+      "cup.txt": {"code": "DFB", "name": "DFB Pokal", "country": "Germany", "tier": 0}
+    },
+    "italy-master": {
+      "1-seriea.txt": {"code": "I1", "name": "Serie A", "country": "Italy", "tier": 1},
+      "2-serieb.txt": {"code": "I2", "name": "Serie B", "country": "Italy", "tier": 2},
+      "3-seriec_a.txt": {"code": "I3A", "name": "Serie C - Girone A", "country": "Italy", "tier": 3},
+      "3-seriec_b.txt": {"code": "I3B", "name": "Serie C - Girone B", "country": "Italy", "tier": 3},
+      "3-seriec_c.txt": {"code": "I3C", "name": "Serie C - Girone C", "country": "Italy", "tier": 3},
+      "cup.txt": {"code": "COI", "name": "Coppa Italia", "country": "Italy", "tier": 0}
+    },
+    "belgium-master": {
+      "be1.txt": {"code": "B1", "name": "Pro League", "country": "Belgium", "tier": 1},
+      "becup.txt": {"code": "BC", "name": "Belgian Cup", "country": "Belgium", "tier": 0}
+    },
+    "champions-league-master": {
+      "cl.txt": {"code": "CL", "name": "UEFA Champions League", "country": "Europe", "tier": 0},
+      "el.txt": {"code": "EL", "name": "UEFA Europa League", "country": "Europe", "tier": 0},
+      "conf.txt": {"code": "CONF", "name": "UEFA Conference League", "country": "Europe", "tier": 0},
+      "clq.txt": {"code": "CLQ", "name": "UEFA Champions League Qualifying", "country": "Europe", "tier": 0},
+      "elq.txt": {"code": "ELQ", "name": "UEFA Europa League Qualifying", "country": "Europe", "tier": 0},
+      "confq.txt": {"code": "CONFQ", "name": "UEFA Conference League Qualifying", "country": "Europe", "tier": 0}
+    },
+    "europe-master": {
+      "france": {
+        "fr1": {"code": "F1", "name": "Ligue 1", "country": "France", "tier": 1},
+        "fr2": {"code": "F2", "name": "Ligue 2", "country": "France", "tier": 2},
+        "frcup": {"code": "FC", "name": "Coupe de France", "country": "France", "tier": 0}
+      },
+      "netherlands": {
+        "nl1": {"code": "N1", "name": "Eredivisie", "country": "Netherlands", "tier": 1},
+        "nl2": {"code": "N2", "name": "Eerste Divisie", "country": "Netherlands", "tier": 2},
+        "nlcup": {"code": "NC", "name": "KNVB Cup", "country": "Netherlands", "tier": 0}
+      },
+      "portugal": {
+        "pt1": {"code": "P1", "name": "Primeira Liga", "country": "Portugal", "tier": 1},
+        "pt2": {"code": "P2", "name": "Segunda Liga", "country": "Portugal", "tier": 2}
+      },
+      "spain": {
+        "sp1": {"code": "SP1", "name": "La Liga", "country": "Spain", "tier": 1},
+        "sp2": {"code": "SP2", "name": "La Liga 2", "country": "Spain", "tier": 2}
+      }
+    },
+    "south-america-master": {
+      "argentina": {
+        "ar1": {"code": "ARG1", "name": "Primera División", "country": "Argentina", "tier": 1}
+      },
+      "brazil": {
+        "br1": {"code": "BRA1", "name": "Brasileiro Série A", "country": "Brazil", "tier": 1},
+        "br2": {"code": "BRA2", "name": "Brasileiro Série B", "country": "Brazil", "tier": 2},
+        "brcup": {"code": "BRC", "name": "Copa do Brasil", "country": "Brazil", "tier": 0}
+      },
+      "copa-libertadores": {
+        "copal": {"code": "CLIB", "name": "Copa Libertadores", "country": "South America", "tier": 0},
+        "copas": {"code": "CSUD", "name": "Copa Sudamericana", "country": "South America", "tier": 0}
+      }
+    },
+    "world-master": {
+      "north-america": {
+        "major-league-soccer": {
+          "mls": {"code": "USA1", "name": "Major League Soccer", "country": "USA", "tier": 1}
+        },
+        "mexico": {
+          "mx1": {"code": "MEX1", "name": "Liga MX", "country": "Mexico", "tier": 1},
+          "mx2": {"code": "MEX2", "name": "Liga de Expansión MX", "country": "Mexico", "tier": 2}
+        }
+      },
+      "asia": {
+        "china": {
+          "cn1": {"code": "CHN1", "name": "Super League", "country": "China", "tier": 1}
+        },
+        "japan": {
+          "jp1": {"code": "JPN1", "name": "J. League", "country": "Japan", "tier": 1}
+        }
+      },
+      "pacific": {
+        "australia": {
+          "au1": {"code": "AUS1", "name": "A-League", "country": "Australia", "tier": 1}
+        }
+      }
+    }
+  },
+  "team_name_variations": {
+    "manchester united": ["man utd", "manchester utd", "manchester united fc", "manchester united"],
+    "manchester city": ["man city", "manchester city fc", "manchester city"],
+    "tottenham hotspur": ["tottenham", "spurs", "tottenham hotspur fc", "tottenham hotspur"],
+    "arsenal": ["arsenal fc", "arsenal"],
+    "liverpool": ["liverpool fc", "liverpool"],
+    "chelsea": ["chelsea fc", "chelsea"],
+    "newcastle united": ["newcastle", "newcastle utd", "newcastle united fc", "newcastle united"],
+    "brighton & hove albion": ["brighton", "brighton & hove", "brighton & hove albion fc"],
+    "wolverhampton wanderers": ["wolves", "wolverhampton", "wolverhampton wanderers fc"],
+    "west ham united": ["west ham", "west ham utd", "west ham united fc"],
+    "crystal palace": ["crystal palace fc", "crystal palace"],
+    "everton": ["everton fc", "everton"],
+    "leicester city": ["leicester", "leicester city fc", "leicester city"],
+    "aston villa": ["aston villa fc", "aston villa", "villa"],
+    "southampton": ["southampton fc", "southampton"],
+    "fulham": ["fulham fc", "fulham"],
+    "brentford": ["brentford fc", "brentford"],
+    "nottingham forest": ["nottingham forest fc", "nottingham forest", "forest"],
+    "afc bournemouth": ["bournemouth", "afc bournemouth", "bournemouth fc"],
+    "ipswich town": ["ipswich", "ipswich town fc", "ipswich town"]
+  }
+}
+

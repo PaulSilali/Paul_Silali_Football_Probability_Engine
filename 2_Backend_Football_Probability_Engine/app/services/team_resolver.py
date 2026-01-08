@@ -7,7 +7,10 @@ from sqlalchemy.orm import Session
 from typing import Optional, List, Tuple
 from difflib import SequenceMatcher
 import re
+import logging
 from app.db.models import Team
+
+logger = logging.getLogger(__name__)
 
 
 # Common team name aliases and variations

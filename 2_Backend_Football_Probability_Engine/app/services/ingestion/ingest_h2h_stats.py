@@ -16,8 +16,19 @@ from typing import Optional, Dict, List
 from pathlib import Path
 import pandas as pd
 import logging
+import urllib3
+from app.services.ingestion.draw_structural_validation import (
+    DrawStructuralValidator,
+    validate_before_insert
+)
+from app.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Disable SSL warnings if verification is disabled
+# Use getattr with default True to handle cases where attribute might not exist yet
+if not getattr(settings, 'VERIFY_SSL', True):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def ingest_h2h_from_api_football(
@@ -64,7 +75,8 @@ def ingest_h2h_from_api_football(
             "h2h": f"{home_team_id}-{away_team_id}"
         }
         
-        response = requests.get(url, headers=headers, params=params, timeout=30)
+        verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+        response = requests.get(url, headers=headers, params=params, timeout=30, verify=verify_ssl)
         response.raise_for_status()
         
         data = response.json()
@@ -89,6 +101,16 @@ def ingest_h2h_from_api_football(
             total_goals += home_goals + away_goals
         
         avg_goals = total_goals / matches_played if matches_played > 0 else 0
+        draw_rate = draws / matches_played if matches_played > 0 else 0.0
+        
+        # Validate H2H consistency
+        context = f" (home_team_id={home_team_id}, away_team_id={away_team_id})"
+        is_valid, error = DrawStructuralValidator.validate_h2h_consistency(
+            matches_played, draws, draw_rate, context
+        )
+        if not is_valid:
+            logger.error(f"Invalid H2H stats: {error}")
+            return {"success": False, "error": error}
         
         # Insert or update
         existing = db.query(H2HDrawStats).filter(
@@ -215,23 +237,20 @@ def _save_h2h_csv_batch(
         if not h2h_records:
             raise ValueError("No H2H records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/h2h_stats")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(h2h_records)
         
         # Filename format: {league_code}_{season}_h2h_stats.csv
-        # Example: E0_2324_h2h_stats.csv
         filename = f"{league_code}_{season}_h2h_stats.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "h2h_stats", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved H2H stats CSV for {league_code} ({season}): {len(h2h_records)} team pairs -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved H2H stats CSV for {league_code} ({season}): {len(h2h_records)} team pairs")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving H2H stats CSV: {e}", exc_info=True)
@@ -289,6 +308,18 @@ def ingest_h2h_from_matches_table(
         if not result or result.matches_played == 0:
             return {"success": False, "error": "No matches found"}
         
+        # Calculate draw_rate for validation
+        draw_rate = (result.draws or 0) / result.matches_played if result.matches_played > 0 else 0.0
+        
+        # Validate H2H consistency
+        context = f" (home_team_id={home_team_id}, away_team_id={away_team_id}, season={season or 'ALL'})"
+        is_valid, error = DrawStructuralValidator.validate_h2h_consistency(
+            result.matches_played, result.draws or 0, draw_rate, context
+        )
+        if not is_valid:
+            logger.error(f"Invalid H2H stats: {error}")
+            return {"success": False, "error": error}
+        
         # Insert or update
         existing = db.query(H2HDrawStats).filter(
             H2HDrawStats.team_home_id == home_team_id,
@@ -333,6 +364,96 @@ def ingest_h2h_from_matches_table(
     except Exception as e:
         db.rollback()
         logger.error(f"Error calculating H2H stats: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
+
+
+def ingest_h2h_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest H2H statistics from CSV file in our format.
+    
+    CSV Format: home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['home_team_id', 'away_team_id', 'matches_played', 'draw_count', 'draw_rate']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                home_team_id = int(row['home_team_id'])
+                away_team_id = int(row['away_team_id'])
+                matches_played = int(row['matches_played'])
+                draw_count = int(row['draw_count'])
+                draw_rate = float(row.get('draw_rate', 0.0))
+                avg_goals = float(row.get('avg_goals', 0.0)) if pd.notna(row.get('avg_goals')) else None
+                
+                # Verify teams exist
+                home_team = db.query(Team).filter(Team.id == home_team_id).first()
+                away_team = db.query(Team).filter(Team.id == away_team_id).first()
+                if not home_team or not away_team:
+                    logger.warning(f"Team IDs {home_team_id} or {away_team_id} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update
+                existing = db.query(H2HDrawStats).filter(
+                    H2HDrawStats.team_home_id == home_team_id,
+                    H2HDrawStats.team_away_id == away_team_id
+                ).first()
+                
+                if existing:
+                    existing.matches_played = matches_played
+                    existing.draw_count = draw_count
+                    existing.avg_goals = avg_goals
+                    updated += 1
+                else:
+                    h2h = H2HDrawStats(
+                        team_home_id=home_team_id,
+                        team_away_id=away_team_id,
+                        matches_played=matches_played,
+                        draw_count=draw_count,
+                        avg_goals=avg_goals
+                    )
+                    db.add(h2h)
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing H2H row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested H2H stats from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting H2H stats from CSV: {e}", exc_info=True)
         return {"success": False, "error": str(e)}
 
 

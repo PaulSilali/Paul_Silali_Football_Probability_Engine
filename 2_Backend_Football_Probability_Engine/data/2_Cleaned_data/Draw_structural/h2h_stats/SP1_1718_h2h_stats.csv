@@ -1,0 +1,156 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8704,Villarreal,8715,Sevilla,1718,2,1,0.5,4.5
+8709,Levante,8726,Eibar,1718,4,1,0.25,2.25
+8707,Barcelona,8719,Betis,1718,2,0,0.0,3.5
+8710,Valencia,8712,Celta,1718,2,1,0.5,2.5
+8716,Espanol,8719,Betis,1718,2,0,0.0,2.0
+8704,Villarreal,8708,Alaves,1718,2,0,0.0,3.0
+8708,Alaves,8716,Espanol,1718,2,1,0.5,0.5
+8708,Alaves,8719,Betis,1718,2,0,0.0,3.0
+8711,Sociedad,8721,Las Palmas,1718,2,1,0.5,2.5
+8717,Ath Madrid,8728,La Coruna,1718,4,0,0.0,3.25
+8714,Ath Bilbao,8726,Eibar,1718,2,1,0.5,1.5
+8716,Espanol,8729,Malaga,1718,2,0,0.0,3.0
+8711,Sociedad,8716,Espanol,1718,2,1,0.5,2.5
+8711,Sociedad,8719,Betis,1718,2,2,1.0,4.0
+8702,Girona,8716,Espanol,1718,2,0,0.0,1.5
+8708,Alaves,8729,Malaga,1718,2,0,0.0,2.0
+8707,Barcelona,8710,Valencia,1718,2,1,0.5,2.5
+8704,Villarreal,8717,Ath Madrid,1718,4,2,0.5,2.5
+8717,Ath Madrid,8721,Las Palmas,1718,4,0,0.0,3.75
+8712,Celta,8726,Eibar,1718,2,0,0.0,3.0
+8702,Girona,8710,Valencia,1718,2,0,0.0,2.0
+8709,Levante,8715,Sevilla,1718,4,1,0.25,2.25
+8713,Getafe,8726,Eibar,1718,2,1,0.5,0.5
+8713,Getafe,8728,La Coruna,1718,2,0,0.0,3.0
+8702,Girona,8714,Ath Bilbao,1718,2,0,0.0,2.0
+8711,Sociedad,8717,Ath Madrid,1718,4,0,0.0,4.25
+8704,Villarreal,8729,Malaga,1718,2,0,0.0,1.5
+8711,Sociedad,8715,Sevilla,1718,2,0,0.0,2.5
+8712,Celta,8713,Getafe,1718,2,1,0.5,2.5
+8712,Celta,8715,Sevilla,1718,2,0,0.0,3.5
+8704,Villarreal,8709,Levante,1718,4,0,0.0,2.75
+8719,Betis,8726,Eibar,1718,2,0,0.0,3.5
+8704,Villarreal,8710,Valencia,1718,2,0,0.0,1.0
+8710,Valencia,8717,Ath Madrid,1718,4,2,0.5,2.5
+8715,Sevilla,8717,Ath Madrid,1718,4,0,0.0,4.75
+8707,Barcelona,8728,La Coruna,1718,2,0,0.0,5.0
+8712,Celta,8717,Ath Madrid,1718,4,1,0.25,3.5
+8702,Girona,8721,Las Palmas,1718,2,0,0.0,4.5
+8721,Las Palmas,8726,Eibar,1718,2,0,0.0,2.0
+8726,Eibar,8729,Malaga,1718,2,1,0.5,1.5
+8702,Girona,8726,Eibar,1718,2,0,0.0,5.0
+8704,Villarreal,8712,Celta,1718,2,0,0.0,3.0
+8708,Alaves,8712,Celta,1718,2,0,0.0,2.0
+8704,Villarreal,8728,La Coruna,1718,2,1,0.5,4.0
+8715,Sevilla,8728,La Coruna,1718,2,1,0.5,1.0
+8715,Sevilla,8729,Malaga,1718,2,0,0.0,1.5
+8702,Girona,8707,Barcelona,1718,2,0,0.0,5.0
+8717,Ath Madrid,8719,Betis,1718,4,1,0.25,2.5
+8709,Levante,8721,Las Palmas,1718,4,1,0.25,1.75
+8702,Girona,8728,La Coruna,1718,2,0,0.0,2.5
+8708,Alaves,8728,La Coruna,1718,2,0,0.0,1.0
+8702,Girona,8709,Levante,1718,4,2,0.5,2.0
+8702,Girona,8729,Malaga,1718,2,1,0.5,0.5
+8707,Barcelona,8729,Malaga,1718,2,0,0.0,2.0
+8713,Getafe,8714,Ath Bilbao,1718,2,2,1.0,2.0
+8710,Valencia,8719,Betis,1718,2,0,0.0,5.5
+8704,Villarreal,8714,Ath Bilbao,1718,2,1,0.5,3.0
+8713,Getafe,8719,Betis,1718,2,1,0.5,2.5
+8702,Girona,8719,Betis,1718,2,1,0.5,2.5
+8710,Valencia,8728,La Coruna,1718,2,0,0.0,3.0
+8714,Ath Bilbao,8716,Espanol,1718,2,1,0.5,1.5
+8709,Levante,8716,Espanol,1718,4,2,0.5,2.0
+8704,Villarreal,8707,Barcelona,1718,2,0,0.0,4.0
+8715,Sevilla,8719,Betis,1718,2,1,0.5,6.0
+8713,Getafe,8721,Las Palmas,1718,2,0,0.0,1.5
+8707,Barcelona,8713,Getafe,1718,2,1,0.5,1.5
+8708,Alaves,8726,Eibar,1718,2,0,0.0,2.0
+8709,Levante,8709,Levante,1718,2,1,0.5,1.5
+8719,Betis,8728,La Coruna,1718,2,0,0.0,2.0
+8719,Betis,8729,Malaga,1718,2,0,0.0,2.5
+8708,Alaves,8713,Getafe,1718,2,0,0.0,3.5
+8707,Barcelona,8726,Eibar,1718,2,0,0.0,4.5
+8709,Levante,8714,Ath Bilbao,1718,4,0,0.0,2.5
+8713,Getafe,8715,Sevilla,1718,2,1,0.5,1.5
+8709,Levante,8711,Sociedad,1718,4,0,0.0,3.0
+8712,Celta,8716,Espanol,1718,2,1,0.5,3.5
+8713,Getafe,8717,Ath Madrid,1718,4,0,0.0,2.5
+8709,Levante,8713,Getafe,1718,4,2,0.5,1.5
+8711,Sociedad,8728,La Coruna,1718,2,0,0.0,5.5
+8702,Girona,8715,Sevilla,1718,2,0,0.0,1.0
+8711,Sociedad,8713,Getafe,1718,2,0,0.0,3.0
+8702,Girona,8712,Celta,1718,2,1,0.5,3.5
+8716,Espanol,8726,Eibar,1718,2,0,0.0,2.5
+8708,Alaves,8710,Valencia,1718,2,0,0.0,3.5
+8712,Celta,8729,Malaga,1718,2,1,0.5,1.5
+8714,Ath Bilbao,8728,La Coruna,1718,2,1,0.5,4.5
+8707,Barcelona,8712,Celta,1718,2,2,1.0,4.0
+8709,Levante,8728,La Coruna,1718,4,3,0.75,2.25
+8711,Sociedad,8726,Eibar,1718,2,1,0.5,2.0
+8707,Barcelona,8714,Ath Bilbao,1718,2,0,0.0,2.0
+8709,Levante,8719,Betis,1718,4,0,0.0,4.0
+8710,Valencia,8714,Ath Bilbao,1718,2,1,0.5,3.5
+8708,Alaves,8717,Ath Madrid,1718,4,0,0.0,2.25
+8702,Girona,8713,Getafe,1718,2,1,0.5,1.5
+8711,Sociedad,8712,Celta,1718,2,0,0.0,4.0
+8715,Sevilla,8721,Las Palmas,1718,2,0,0.0,2.0
+8715,Sevilla,8726,Eibar,1718,2,0,0.0,4.5
+8711,Sociedad,8729,Malaga,1718,2,0,0.0,2.0
+8716,Espanol,8728,La Coruna,1718,2,1,0.5,2.5
+8707,Barcelona,8721,Las Palmas,1718,2,1,0.5,2.5
+8717,Ath Madrid,8717,Ath Madrid,1718,2,2,1.0,1.0
+8704,Villarreal,8721,Las Palmas,1718,2,0,0.0,3.0
+8709,Levante,8729,Malaga,1718,4,1,0.25,1.25
+8714,Ath Bilbao,8729,Malaga,1718,2,1,0.5,4.5
+8707,Barcelona,8709,Levante,1718,4,0,0.0,4.75
+8721,Las Palmas,8729,Malaga,1718,2,0,0.0,2.5
+8707,Barcelona,8708,Alaves,1718,2,0,0.0,2.5
+8702,Girona,8711,Sociedad,1718,2,1,0.5,3.5
+8707,Barcelona,8711,Sociedad,1718,2,0,0.0,3.5
+8702,Girona,8708,Alaves,1718,2,0,0.0,4.0
+8726,Eibar,8728,La Coruna,1718,2,2,1.0,1.0
+8704,Villarreal,8711,Sociedad,1718,2,0,0.0,4.5
+8717,Ath Madrid,8726,Eibar,1718,4,1,0.25,2.75
+8715,Sevilla,8716,Espanol,1718,2,1,0.5,2.5
+8728,La Coruna,8729,Malaga,1718,2,0,0.0,5.0
+8704,Villarreal,8726,Eibar,1718,2,0,0.0,2.0
+8702,Girona,8717,Ath Madrid,1718,4,2,0.5,4.5
+8704,Villarreal,8719,Betis,1718,2,0,0.0,3.5
+8716,Espanol,8721,Las Palmas,1718,2,2,1.0,3.0
+8708,Alaves,8714,Ath Bilbao,1718,2,0,0.0,3.0
+8712,Celta,8728,La Coruna,1718,2,1,0.5,3.0
+8712,Celta,8721,Las Palmas,1718,2,0,0.0,5.0
+8702,Girona,8704,Villarreal,1718,2,0,0.0,2.5
+8710,Valencia,8721,Las Palmas,1718,2,0,0.0,2.0
+8710,Valencia,8716,Espanol,1718,2,0,0.0,1.5
+8707,Barcelona,8717,Ath Madrid,1718,4,2,0.5,2.5
+8710,Valencia,8729,Malaga,1718,2,0,0.0,4.0
+8709,Levante,8710,Valencia,1718,4,1,0.25,2.5
+8709,Levante,8712,Celta,1718,4,0,0.0,2.25
+8719,Betis,8721,Las Palmas,1718,2,0,0.0,1.0
+8713,Getafe,8716,Espanol,1718,2,0,0.0,1.0
+8710,Valencia,8711,Sociedad,1718,2,0,0.0,4.0
+8707,Barcelona,8715,Sevilla,1718,2,1,0.5,3.5
+8721,Las Palmas,8728,La Coruna,1718,2,1,0.5,3.0
+8713,Getafe,8729,Malaga,1718,2,0,0.0,1.0
+8710,Valencia,8726,Eibar,1718,2,1,0.5,1.5
+8712,Celta,8714,Ath Bilbao,1718,2,1,0.5,3.0
+8714,Ath Bilbao,8721,Las Palmas,1718,2,1,0.5,0.5
+8714,Ath Bilbao,8715,Sevilla,1718,2,0,0.0,1.5
+8717,Ath Madrid,8729,Malaga,1718,4,0,0.0,2.5
+8704,Villarreal,8716,Espanol,1718,2,2,1.0,1.0
+8708,Alaves,8721,Las Palmas,1718,2,0,0.0,3.0
+8708,Alaves,8711,Sociedad,1718,2,0,0.0,2.5
+8712,Celta,8719,Betis,1718,2,0,0.0,4.0
+8710,Valencia,8713,Getafe,1718,2,0,0.0,2.0
+8708,Alaves,8709,Levante,1718,4,1,0.25,2.0
+8710,Valencia,8715,Sevilla,1718,2,0,0.0,3.0
+8704,Villarreal,8713,Getafe,1718,2,0,0.0,2.5
+8711,Sociedad,8714,Ath Bilbao,1718,2,1,0.5,2.0
+8708,Alaves,8715,Sevilla,1718,2,0,0.0,1.0
+8709,Levante,8717,Ath Madrid,1718,8,3,0.375,3.125
+8716,Espanol,8717,Ath Madrid,1718,4,0,0.0,1.5
+8714,Ath Bilbao,8719,Betis,1718,2,0,0.0,2.0
+8707,Barcelona,8716,Espanol,1718,2,1,0.5,3.5
+8714,Ath Bilbao,8717,Ath Madrid,1718,4,2,0.5,1.75

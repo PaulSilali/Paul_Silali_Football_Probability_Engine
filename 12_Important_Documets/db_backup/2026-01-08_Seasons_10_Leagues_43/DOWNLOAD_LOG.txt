@@ -1,0 +1,77 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-08_Seasons_10_Leagues_43
+Download Date: 2026-01-08 16:56:42
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 1
+Successful Downloads (with data): 8
+Failed Downloads (errors): 2
+No Data Available (all 404s): 0
+Total Records Processed: 2,448
+Total Records Inserted: 815
+Total Records Updated: 0
+Total Records Skipped: 1,241
+Total Errors: 399
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ N1 - Season: 2425 (Batch #N/A)
+  Records: 306 processed, 103 inserted, 0 updated, 191 skipped
+  ⚠ Warnings: 13 errors encountered
+
+✓ N1 - Season: 2324 (Batch #N/A)
+  Records: 306 processed, 61 inserted, 0 updated, 201 skipped
+  ⚠ Warnings: 45 errors encountered
+
+✓ N1 - Season: 2223 (Batch #N/A)
+  Records: 306 processed, 146 inserted, 0 updated, 124 skipped
+  ⚠ Warnings: 37 errors encountered
+
+✓ N1 - Season: 2122 (Batch #N/A)
+  Records: 306 processed, 87 inserted, 0 updated, 166 skipped
+  ⚠ Warnings: 54 errors encountered
+
+✓ N1 - Season: 2021 (Batch #N/A)
+  Records: 306 processed, 117 inserted, 0 updated, 128 skipped
+  ⚠ Warnings: 61 errors encountered
+
+✓ N1 - Season: 1819 (Batch #N/A)
+  Records: 306 processed, 104 inserted, 0 updated, 140 skipped
+  ⚠ Warnings: 64 errors encountered
+
+✓ N1 - Season: 1718 (Batch #N/A)
+  Records: 306 processed, 102 inserted, 0 updated, 138 skipped
+  ⚠ Warnings: 66 errors encountered
+
+✓ N1 - Season: 1617 (Batch #N/A)
+  Records: 306 processed, 95 inserted, 0 updated, 153 skipped
+  ⚠ Warnings: 59 errors encountered
+
+FAILED DOWNLOADS (Errors)
+--------------------------------------------------------------------------------
+✗ ERROR N1 - Season: 2526
+  Error: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/2526/N1.csv (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)')))
+
+✗ ERROR N1 - Season: 1920
+  Error: (psycopg.errors.DatatypeMismatch) column "match_time" is of type time without time zone but expression is of type character varying
+LINE 1: ...EGER, p7::match_result, p8::INTEGER, p9::INTEGER, p10::VARCH...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+[SQL: INSERT INTO matches (league_id, season, match_date, home_team_id, away_team_id, home_goals, away_goals, result, ht_home_goals, ht_away_goals, match_time, venue, matchday, round_name, odds_home, odds_draw, odds_away, prob_home_market, prob_draw_market ... 2224 characters truncated ... p29, sen_counter) ORDER BY sen_counter RETURNING matches.id, matches.created_at, matches.id AS id__1]
+[parameters: {'odds_home__0': 1.49, 'ar__0': 0, 'hr__0': 0, 'odds_draw__0': 4.48, 'match_time__0': '13:30', 'home_penalties__0': None, 'ay__0': 3, 'matchday__0': None, 'ht_away_goals__0': 2, 'prob_away_market__0': 0.15730225872206052, 'round_name__0': None, 'prob_draw_market__0': 0.2103215468181122, 'home_goals__0': 4, 'away_penalties__0': None, 'ingestion_batch_id__0': '86', 'away_goals__0': 2, 'result__0': 'H', 'odds_away__0': 5.99, 'match_date__0': datetime.date(2020, 3, 8), 'source_file__0': None, 'venue__0': None, 'home_team_id__0': 6572, 'source__0': 'football-data.co.uk', 'ht_home_goals__0': 2, 'hy__0': 2, 'prob_home_market__0': 0.6323761944598273, 'referee_id__0': None, 'away_team_id__0': 6575, 'season__0': '1920', 'league_id__0': 18, 'odds_home__1': 3.26, 'ar__1': 0, 'hr__1': 0, 'odds_draw__1': 3.3, 'match_time__1': '15:45', 'home_penalties__1': None, 'ay__1': 0, 'matchday__1': None, 'ht_away_goals__1': None, 'prob_away_market__1': 0.4259649345095742, 'round_name__1': None, 'prob_draw_market__1': 0.28526742583822995, 'home_goals__1': 0, 'away_penalties__1': None, 'ingestion_batch_id__1': '86', 'away_goals__1': 1, 'result__1': 'A', 'odds_away__1': 2.21, 'match_date__1': datetime.date(2020, 3, 8), 'source_file__1': None, 'venue__1': None, 'home_team_id__1': 7195, 'source__1': 'football-data.co.uk', 'ht_home_goals__1': None, 'hy__1': 1, 'prob_home_market__1': 0.288767639652196, 'referee_id__1': None, 'away_team_id__1': 7067, 'season__1': '1920', 'league_id__1': 18}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: data\1_data_ingestion\Historical Match_Odds_Data\2026-01-08_Seasons_10_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+
+================================================================================
+END OF LOG
+================================================================================

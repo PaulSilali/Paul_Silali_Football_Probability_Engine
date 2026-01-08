@@ -18,7 +18,9 @@ import {
   FileSpreadsheet,
   CheckSquare,
   Square,
-  RefreshCw
+  RefreshCw,
+  Download,
+  Zap
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -149,6 +151,19 @@ export function DrawStructuralIngestion() {
   } | null>(null);
   
   const [loadingSummary, setLoadingSummary] = useState<Record<string, boolean>>({});
+  const [importingAll, setImportingAll] = useState(false);
+  const [importAllResult, setImportAllResult] = useState<{
+    success: boolean;
+    message: string;
+    data?: {
+      results: Record<string, any>;
+      summary: {
+        total_successful: number;
+        total_failed: number;
+        all_completed: boolean;
+      };
+    };
+  } | null>(null);
 
   const setLoadingState = (key: string, value: boolean) => {
     setLoading(prev => ({ ...prev, [key]: value }));
@@ -1016,9 +1031,161 @@ export function DrawStructuralIngestion() {
     }
   };
 
+  // Import all draw structural data
+  const handleImportAll = async () => {
+    setImportAllResult(null);
+    setImportingAll(true);
+    try {
+      const response = await apiClient.importAllDrawStructuralData({
+        useAllLeagues: true,
+        useAllSeasons: true,
+        maxYears: 10,
+        useHybridImport: true,  // Use CSV-first hybrid approach
+      });
+      
+      if (response.success) {
+        setImportAllResult({
+          success: true,
+          message: response.message || 'Import completed successfully',
+          data: response.data,
+        });
+        toast({
+          title: 'Import Successful',
+          description: response.message || 'All draw structural data imported successfully',
+          variant: 'default',
+        });
+        
+        // Refresh all summaries after import
+        fetchPriorsSummary();
+        fetchH2HSummary();
+        fetchEloSummary();
+        fetchWeatherSummary();
+        fetchRefereeSummary();
+        fetchRestDaysSummary();
+        fetchLeagueStructureSummary();
+        fetchOddsMovementSummary();
+        fetchXGDataSummary();
+      } else {
+        setImportAllResult({
+          success: false,
+          message: response.message || 'Import failed',
+          data: response.data,
+        });
+        toast({
+          title: 'Import Failed',
+          description: response.message || 'Failed to import draw structural data',
+          variant: 'destructive',
+        });
+      }
+    } catch (error: any) {
+      const errorMessage = error?.message || 'An error occurred during import';
+      setImportAllResult({
+        success: false,
+        message: errorMessage,
+      });
+      toast({
+        title: 'Import Error',
+        description: errorMessage,
+        variant: 'destructive',
+      });
+    } finally {
+      setImportingAll(false);
+    }
+  };
+
   return (
-    <Tabs defaultValue="match-odds" className="space-y-4">
-      <div className="w-full border-b border-border/40">
+    <div className="space-y-4">
+      {/* Import All Button Card */}
+      <Card className="border-2 border-primary/20 bg-gradient-to-r from-primary/5 to-primary/10">
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <div>
+              <CardTitle className="flex items-center gap-2">
+                <Zap className="h-5 w-5 text-primary" />
+                One-Click Import All Draw Structural Data
+              </CardTitle>
+              <CardDescription className="mt-2">
+                Import all 9 data types in the correct order (Weather last). 
+                Data will be saved to both <code className="text-xs">data/1_data_ingestion/Draw_structural/</code> and <code className="text-xs">data/2_Cleaned_data/Draw_structural/</code>
+              </CardDescription>
+            </div>
+            <Button
+              onClick={handleImportAll}
+              disabled={importingAll}
+              size="lg"
+              className="gap-2"
+            >
+              {importingAll ? (
+                <>
+                  <Loader2 className="h-5 w-5 animate-spin" />
+                  Importing...
+                </>
+              ) : (
+                <>
+                  <Download className="h-5 w-5" />
+                  Import All
+                </>
+              )}
+            </Button>
+          </div>
+        </CardHeader>
+        {importAllResult && (
+          <CardContent>
+            <Alert variant={importAllResult.success ? 'default' : 'destructive'}>
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription>
+                <div className="space-y-2">
+                  <p className="font-semibold">{importAllResult.message}</p>
+                  {importAllResult.data && (
+                    <div className="space-y-2 text-sm">
+                      <div className="grid grid-cols-3 gap-4 mt-2">
+                        <div>
+                          <p className="text-muted-foreground">Total Successful</p>
+                          <p className="text-lg font-bold text-green-600">
+                            {importAllResult.data.summary.total_successful}
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-muted-foreground">Total Failed</p>
+                          <p className="text-lg font-bold text-red-600">
+                            {importAllResult.data.summary.total_failed}
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-muted-foreground">All Completed</p>
+                          <p className="text-lg font-bold">
+                            {importAllResult.data.summary.all_completed ? (
+                              <CheckCircle className="h-5 w-5 text-green-600 inline" />
+                            ) : (
+                              <AlertCircle className="h-5 w-5 text-yellow-600 inline" />
+                            )}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="mt-4 space-y-1">
+                        <p className="font-medium text-xs">Import Results by Data Type:</p>
+                        <div className="grid grid-cols-3 gap-2 text-xs">
+                          {Object.entries(importAllResult.data.results).map(([key, result]: [string, any]) => (
+                            <div key={key} className="flex items-center justify-between p-2 border rounded">
+                              <span className="capitalize">{key.replace('_', ' ')}</span>
+                              <Badge variant={result.success ? 'default' : 'destructive'}>
+                                {result.success ? '✓' : '✗'}
+                              </Badge>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        )}
+      </Card>
+
+      <Tabs defaultValue="match-odds" className="space-y-4">
+        <div className="w-full border-b border-border/40">
         <TabsList className="w-full h-auto justify-start gap-1 bg-transparent p-0 flex-wrap">
           <TabsTrigger value="match-odds" className="h-10 px-4 text-sm">
             <Globe className="h-4 w-4 mr-2" />
@@ -4069,6 +4236,7 @@ export function DrawStructuralIngestion() {
         </Card>
       </TabsContent>
     </Tabs>
+    </div>
   );
 }
 

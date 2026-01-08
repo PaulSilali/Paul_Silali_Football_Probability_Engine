@@ -1,0 +1,121 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8971,AEK,8984,Kerkyra,1617,2,1,0.5,3.5
+8970,Atromitos,8980,Giannina,1617,2,1,0.5,2.5
+8980,Giannina,8981,Ionikos,1617,2,1,0.5,1.5
+8973,PAOK,8983,Xanthi,1617,2,2,1.0,
+8968,Asteras Tripolis,8973,PAOK,1617,2,0,0.0,4.0
+8967,Olympiakos,8971,AEK,1617,2,0,0.0,2.0
+8974,Levadeiakos,8987,Iraklis,1617,2,0,0.0,2.0
+8968,Asteras Tripolis,8980,Giannina,1617,2,1,0.5,2.5
+8974,Levadeiakos,8983,Xanthi,1617,2,2,1.0,3.0
+8967,Olympiakos,8977,Panathinaikos,1617,2,0,0.0,2.0
+8968,Asteras Tripolis,8983,Xanthi,1617,2,1,0.5,2.0
+8981,Ionikos,8986,Veria,1617,2,0,0.0,2.0
+8965,Aris,8970,Atromitos,1617,2,1,0.5,1.5
+8968,Asteras Tripolis,8969,Panetolikos,1617,2,1,0.5,3.5
+8969,Panetolikos,8977,Panathinaikos,1617,2,1,0.5,2.0
+8971,AEK,8987,Iraklis,1617,2,2,1.0,2.0
+8974,Levadeiakos,8981,Ionikos,1617,2,0,0.0,4.5
+8981,Ionikos,8983,Xanthi,1617,2,0,0.0,2.0
+8971,AEK,8981,Ionikos,1617,2,2,1.0,1.0
+8968,Asteras Tripolis,8974,Levadeiakos,1617,2,1,0.5,1.5
+8970,Atromitos,8974,Levadeiakos,1617,2,1,0.5,2.0
+8974,Levadeiakos,8980,Giannina,1617,2,1,0.5,1.5
+8968,Asteras Tripolis,8977,Panathinaikos,1617,2,0,0.0,4.5
+8965,Aris,8980,Giannina,1617,2,1,0.5,3.0
+8965,Aris,8987,Iraklis,1617,2,2,1.0,3.0
+8977,Panathinaikos,8987,Iraklis,1617,2,1,0.5,2.0
+8983,Xanthi,8984,Kerkyra,1617,2,1,0.5,0.5
+8971,AEK,8985,Platanias,1617,2,0,0.0,2.5
+8977,Panathinaikos,8981,Ionikos,1617,2,1,0.5,1.5
+8971,AEK,8974,Levadeiakos,1617,2,0,0.0,3.0
+8973,PAOK,8986,Veria,1617,2,1,0.5,2.0
+8965,Aris,8977,Panathinaikos,1617,2,1,0.5,1.0
+8968,Asteras Tripolis,8987,Iraklis,1617,2,2,1.0,3.0
+8973,PAOK,8987,Iraklis,1617,2,1,0.5,1.5
+8977,Panathinaikos,8980,Giannina,1617,2,1,0.5,3.0
+8970,Atromitos,8986,Veria,1617,2,0,0.0,1.0
+8967,Olympiakos,8981,Ionikos,1617,2,0,0.0,1.5
+8973,PAOK,8984,Kerkyra,1617,2,0,0.0,5.5
+8967,Olympiakos,8969,Panetolikos,1617,2,0,0.0,3.0
+8970,Atromitos,8977,Panathinaikos,1617,2,0,0.0,1.0
+8970,Atromitos,8985,Platanias,1617,2,0,0.0,4.0
+8973,PAOK,8980,Giannina,1617,2,0,0.0,1.0
+8970,Atromitos,8983,Xanthi,1617,2,1,0.5,1.5
+8967,Olympiakos,8968,Asteras Tripolis,1617,2,1,0.5,1.5
+8965,Aris,8971,AEK,1617,2,0,0.0,3.0
+8984,Kerkyra,8987,Iraklis,1617,2,1,0.5,1.5
+8981,Ionikos,8985,Platanias,1617,2,2,1.0,2.0
+8965,Aris,8968,Asteras Tripolis,1617,2,1,0.5,3.5
+8970,Atromitos,8971,AEK,1617,2,1,0.5,2.5
+8965,Aris,8969,Panetolikos,1617,2,0,0.0,2.0
+8967,Olympiakos,8980,Giannina,1617,2,0,0.0,3.5
+8965,Aris,8967,Olympiakos,1617,2,0,0.0,1.5
+8969,Panetolikos,8973,PAOK,1617,2,0,0.0,2.0
+8977,Panathinaikos,8986,Veria,1617,2,1,0.5,3.5
+8973,PAOK,8977,Panathinaikos,1617,2,0,0.0,2.0
+8973,PAOK,8981,Ionikos,1617,2,0,0.0,1.0
+8971,AEK,8986,Veria,1617,2,0,0.0,4.0
+8984,Kerkyra,8986,Veria,1617,2,0,0.0,3.0
+8980,Giannina,8987,Iraklis,1617,2,0,0.0,3.0
+8969,Panetolikos,8983,Xanthi,1617,2,0,0.0,4.0
+8968,Asteras Tripolis,8981,Ionikos,1617,2,1,0.5,2.5
+8967,Olympiakos,8973,PAOK,1617,2,0,0.0,2.5
+8971,AEK,8973,PAOK,1617,2,0,0.0,2.0
+8983,Xanthi,8986,Veria,1617,2,0,0.0,3.5
+8965,Aris,8986,Veria,1617,2,1,0.5,2.5
+8974,Levadeiakos,8977,Panathinaikos,1617,2,1,0.5,1.5
+8973,PAOK,8974,Levadeiakos,1617,2,0,0.0,2.0
+8967,Olympiakos,8986,Veria,1617,2,0,0.0,5.0
+8974,Levadeiakos,8985,Platanias,1617,2,0,0.0,4.0
+8965,Aris,8974,Levadeiakos,1617,2,1,0.5,2.5
+8977,Panathinaikos,8983,Xanthi,1617,2,0,0.0,2.0
+8969,Panetolikos,8974,Levadeiakos,1617,2,0,0.0,2.5
+8981,Ionikos,8984,Kerkyra,1617,2,0,0.0,1.0
+8965,Aris,8985,Platanias,1617,2,1,0.5,2.5
+8974,Levadeiakos,8986,Veria,1617,2,0,0.0,3.0
+8968,Asteras Tripolis,8985,Platanias,1617,2,0,0.0,2.5
+8971,AEK,8983,Xanthi,1617,2,1,0.5,2.5
+8969,Panetolikos,8971,AEK,1617,2,1,0.5,2.5
+8967,Olympiakos,8984,Kerkyra,1617,2,1,0.5,1.0
+8968,Asteras Tripolis,8984,Kerkyra,1617,2,0,0.0,2.5
+8984,Kerkyra,8985,Platanias,1617,2,0,0.0,2.0
+8977,Panathinaikos,8984,Kerkyra,1617,2,1,0.5,1.5
+8980,Giannina,8985,Platanias,1617,2,2,1.0,3.0
+8986,Veria,8987,Iraklis,1617,2,1,0.5,2.0
+8983,Xanthi,8987,Iraklis,1617,2,0,0.0,2.5
+8967,Olympiakos,8985,Platanias,1617,2,1,0.5,3.5
+8965,Aris,8981,Ionikos,1617,2,0,0.0,1.5
+8967,Olympiakos,8970,Atromitos,1617,2,0,0.0,1.5
+8985,Platanias,8986,Veria,1617,2,1,0.5,0.5
+8967,Olympiakos,8974,Levadeiakos,1617,2,1,0.5,3.0
+8969,Panetolikos,8981,Ionikos,1617,2,0,0.0,2.0
+8969,Panetolikos,8984,Kerkyra,1617,2,1,0.5,2.0
+8980,Giannina,8986,Veria,1617,2,0,0.0,2.5
+8980,Giannina,8983,Xanthi,1617,2,1,0.5,2.0
+8968,Asteras Tripolis,8970,Atromitos,1617,2,0,0.0,1.0
+8970,Atromitos,8981,Ionikos,1617,2,0,0.0,3.0
+8973,PAOK,8985,Platanias,1617,2,0,0.0,3.5
+8968,Asteras Tripolis,8971,AEK,1617,2,0,0.0,3.5
+8968,Asteras Tripolis,8986,Veria,1617,2,1,0.5,3.5
+8980,Giannina,8984,Kerkyra,1617,2,0,0.0,1.0
+8965,Aris,8984,Kerkyra,1617,2,1,0.5,2.0
+8965,Aris,8983,Xanthi,1617,2,0,0.0,1.0
+8967,Olympiakos,8983,Xanthi,1617,2,0,0.0,2.0
+8974,Levadeiakos,8984,Kerkyra,1617,2,0,0.0,2.0
+8969,Panetolikos,8986,Veria,1617,2,1,0.5,1.5
+8970,Atromitos,8973,PAOK,1617,2,0,0.0,4.5
+8969,Panetolikos,8987,Iraklis,1617,2,0,0.0,2.5
+8967,Olympiakos,8987,Iraklis,1617,2,0,0.0,3.0
+8970,Atromitos,8984,Kerkyra,1617,2,1,0.5,3.5
+8977,Panathinaikos,8985,Platanias,1617,2,0,0.0,2.0
+8969,Panetolikos,8980,Giannina,1617,2,1,0.5,1.5
+8970,Atromitos,8987,Iraklis,1617,2,0,0.0,2.0
+8965,Aris,8973,PAOK,1617,2,0,0.0,2.0
+8985,Platanias,8987,Iraklis,1617,2,1,0.5,1.5
+8969,Panetolikos,8970,Atromitos,1617,2,0,0.0,2.0
+8971,AEK,8977,Panathinaikos,1617,2,1,0.5,2.5
+8983,Xanthi,8985,Platanias,1617,2,0,0.0,1.0
+8971,AEK,8980,Giannina,1617,2,2,1.0,2.0
+8981,Ionikos,8987,Iraklis,1617,2,0,0.0,2.0
+8969,Panetolikos,8985,Platanias,1617,2,1,0.5,1.5

@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+DK1,2425,2024-08-23,M'gladbach,Leverkusen,97,97,False
+DK1,2425,2024-08-24,Augsburg,Werder Bremen,98,98,False
+DK1,2425,2024-08-24,Dortmund,Ein Frankfurt,98,98,False
+DK1,2425,2024-08-24,Mainz,Union Berlin,98,98,False
+DK1,2425,2024-08-24,Freiburg,Stuttgart,98,98,False
+DK1,2425,2024-08-24,RB Leipzig,Bochum,98,98,False
+DK1,2425,2024-08-24,Heidenheim,Holstein Kiel,98,7,False
+DK1,2425,2024-08-25,Wolfsburg,Bayern Munich,99,99,False
+DK1,2425,2024-08-25,St Pauli,Heidenheim,7,1,False
+DK1,2425,2024-08-30,Union Berlin,St Pauli,6,5,False
+DK1,2425,2024-08-31,Holstein Kiel,Wolfsburg,7,6,False
+DK1,2425,2024-08-31,Stuttgart,Mainz,7,7,False
+DK1,2425,2024-08-31,Werder Bremen,Dortmund,7,7,False
+DK1,2425,2024-08-31,Leverkusen,RB Leipzig,8,7,False
+DK1,2425,2024-08-31,Ein Frankfurt,Heidenheim,7,6,False
+DK1,2425,2024-08-31,Bochum,M'gladbach,7,8,False
+DK1,2425,2024-09-01,Heidenheim,Augsburg,1,8,False
+DK1,2425,2024-09-01,Bayern Munich,Freiburg,7,8,False
+DK1,2425,2024-09-13,Dortmund,Heidenheim,13,12,False
+DK1,2425,2024-09-14,M'gladbach,Stuttgart,14,14,False
+DK1,2425,2024-09-14,RB Leipzig,Union Berlin,14,15,False
+DK1,2425,2024-09-14,Wolfsburg,Ein Frankfurt,14,14,False
+DK1,2425,2024-09-14,Holstein Kiel,Bayern Munich,14,13,False
+DK1,2425,2024-09-14,Heidenheim,Leverkusen,1,14,False
+DK1,2425,2024-09-14,Freiburg,Bochum,13,14,False
+DK1,2425,2024-09-15,Augsburg,St Pauli,14,16,False
+DK1,2425,2024-09-15,Mainz,Werder Bremen,15,15,False
+DK1,2425,2024-09-20,Augsburg,Mainz,5,5,False
+DK1,2425,2024-09-21,Union Berlin,Heidenheim,7,7,False
+DK1,2425,2024-09-21,Werder Bremen,Bayern Munich,6,7,False
+DK1,2425,2024-09-21,Ein Frankfurt,M'gladbach,7,7,False
+DK1,2425,2024-09-21,Heidenheim,Freiburg,7,7,False
+DK1,2425,2024-09-21,Bochum,Holstein Kiel,7,7,False
+DK1,2425,2024-09-22,St Pauli,RB Leipzig,7,8,False
+DK1,2425,2024-09-22,Leverkusen,Wolfsburg,8,8,False
+DK1,2425,2024-09-22,Stuttgart,Dortmund,8,9,False
+DK1,2425,2024-09-27,Dortmund,Bochum,5,6,False
+DK1,2425,2024-09-28,Wolfsburg,Stuttgart,6,6,False
+DK1,2425,2024-09-28,Freiburg,St Pauli,7,6,False
+DK1,2425,2024-09-28,Mainz,Heidenheim,8,7,False
+DK1,2425,2024-09-28,M'gladbach,Union Berlin,7,7,False
+DK1,2425,2024-09-28,RB Leipzig,Augsburg,6,8,False
+DK1,2425,2024-09-28,Bayern Munich,Leverkusen,7,6,False
+DK1,2425,2024-09-29,Heidenheim,Werder Bremen,1,8,False
+DK1,2425,2024-09-29,Holstein Kiel,Ein Frankfurt,8,8,False
+DK1,2425,2024-10-04,Augsburg,M'gladbach,6,6,False
+DK1,2425,2024-10-05,Union Berlin,Dortmund,7,8,False
+DK1,2425,2024-10-05,Werder Bremen,Freiburg,6,7,False
+DK1,2425,2024-10-05,St Pauli,Mainz,7,7,False
+DK1,2425,2024-10-05,Leverkusen,Holstein Kiel,7,6,False
+DK1,2425,2024-10-05,Bochum,Wolfsburg,8,7,False
+DK1,2425,2024-10-06,Stuttgart,Heidenheim,8,7,False
+DK1,2425,2024-10-06,Heidenheim,RB Leipzig,7,8,False
+DK1,2425,2024-10-06,Ein Frankfurt,Bayern Munich,7,8,False
+DK1,2425,2024-10-18,Dortmund,St Pauli,13,13,False
+DK1,2425,2024-10-19,Leverkusen,Ein Frankfurt,14,13,False
+DK1,2425,2024-10-19,Mainz,RB Leipzig,14,13,False
+DK1,2425,2024-10-19,M'gladbach,Heidenheim,15,13,False
+DK1,2425,2024-10-19,Bayern Munich,Stuttgart,13,13,False
+DK1,2425,2024-10-19,Heidenheim,Bochum,13,14,False
+DK1,2425,2024-10-19,Freiburg,Augsburg,14,15,False
+DK1,2425,2024-10-20,Holstein Kiel,Union Berlin,15,15,False
+DK1,2425,2024-10-20,Wolfsburg,Werder Bremen,15,15,False
+DK1,2425,2024-10-25,Mainz,M'gladbach,6,6,False
+DK1,2425,2024-10-26,St Pauli,Wolfsburg,8,6,False
+DK1,2425,2024-10-26,Stuttgart,Holstein Kiel,7,6,False
+DK1,2425,2024-10-26,Werder Bremen,Leverkusen,6,7,False
+DK1,2425,2024-10-26,RB Leipzig,Freiburg,7,7,False
+DK1,2425,2024-10-26,Augsburg,Dortmund,7,8,False
+DK1,2425,2024-10-27,Heidenheim,Heidenheim,8,8,False
+DK1,2425,2024-10-27,Bochum,Bayern Munich,8,8,False
+DK1,2425,2024-10-27,Union Berlin,Ein Frankfurt,7,8,False
+DK1,2425,2024-11-01,Leverkusen,Stuttgart,6,6,False
+DK1,2425,2024-11-02,Heidenheim,St Pauli,6,7,False
+DK1,2425,2024-11-02,Holstein Kiel,Heidenheim,7,6,False
+DK1,2425,2024-11-02,Ein Frankfurt,Bochum,6,6,False
+DK1,2425,2024-11-02,Dortmund,RB Leipzig,7,7,False
+DK1,2425,2024-11-02,Bayern Munich,Union Berlin,6,6,False
+DK1,2425,2024-11-02,Wolfsburg,Augsburg,7,7,False
+DK1,2425,2024-11-03,Freiburg,Mainz,8,9,False
+DK1,2425,2024-11-03,M'gladbach,Werder Bremen,9,8,False
+DK1,2425,2024-11-08,Union Berlin,Freiburg,6,5,False
+DK1,2425,2024-11-09,RB Leipzig,M'gladbach,7,6,False
+DK1,2425,2024-11-09,Werder Bremen,Holstein Kiel,6,7,False
+DK1,2425,2024-11-09,Bochum,Leverkusen,7,8,False
+DK1,2425,2024-11-09,St Pauli,Bayern Munich,7,7,False
+DK1,2425,2024-11-09,Mainz,Dortmund,6,7,False
+DK1,2425,2024-11-10,Heidenheim,Wolfsburg,8,8,False
+DK1,2425,2024-11-10,Augsburg,Heidenheim,8,8,False
+DK1,2425,2024-11-10,Stuttgart,Ein Frankfurt,9,8,False
+DK1,2425,2024-11-22,Bayern Munich,Augsburg,13,12,False
+DK1,2425,2024-11-23,Leverkusen,Heidenheim,14,13,False
+DK1,2425,2024-11-23,Stuttgart,Bochum,13,14,False
+DK1,2425,2024-11-23,Wolfsburg,Union Berlin,13,15,False
+DK1,2425,2024-11-23,Ein Frankfurt,Werder Bremen,13,14,False
+DK1,2425,2024-11-23,Heidenheim,RB Leipzig,13,14,False
+DK1,2425,2024-11-23,Dortmund,Freiburg,14,15,False
+DK1,2425,2024-11-24,Holstein Kiel,Mainz,15,15,False
+DK1,2425,2024-11-24,M'gladbach,St Pauli,15,15,False
+DK1,2425,2024-11-29,St Pauli,Holstein Kiel,5,5,False
+DK1,2425,2024-11-30,RB Leipzig,Wolfsburg,7,7,False
+DK1,2425,2024-11-30,Union Berlin,Leverkusen,7,7,False
+DK1,2425,2024-11-30,Werder Bremen,Stuttgart,7,7,False
+DK1,2425,2024-11-30,Dortmund,Bayern Munich,7,8,False
+DK1,2425,2024-11-30,Freiburg,M'gladbach,7,6,False
+DK1,2425,2024-11-30,Augsburg,Bochum,8,7,False
+DK1,2425,2024-12-01,Mainz,Heidenheim,7,8,False
+DK1,2425,2024-12-01,Heidenheim,Ein Frankfurt,8,8,False
+DK1,2425,2024-12-06,Stuttgart,Union Berlin,6,6,False
+DK1,2425,2024-12-07,Ein Frankfurt,Augsburg,6,7,False
+DK1,2425,2024-12-07,Holstein Kiel,RB Leipzig,8,7,False
+DK1,2425,2024-12-07,Leverkusen,St Pauli,7,8,False
+DK1,2425,2024-12-07,M'gladbach,Dortmund,7,7,False
+DK1,2425,2024-12-07,Bochum,Werder Bremen,7,7,False
+DK1,2425,2024-12-07,Bayern Munich,Heidenheim,7,6,False
+DK1,2425,2024-12-08,Wolfsburg,Mainz,8,7,False
+DK1,2425,2024-12-08,Heidenheim,Freiburg,1,8,False
+DK1,2425,2024-12-13,Freiburg,Wolfsburg,5,5,False
+DK1,2425,2024-12-14,Mainz,Bayern Munich,6,7,False
+DK1,2425,2024-12-14,Augsburg,Leverkusen,7,7,False
+DK1,2425,2024-12-14,M'gladbach,Holstein Kiel,7,7,False
+DK1,2425,2024-12-14,Union Berlin,Bochum,8,7,False
+DK1,2425,2024-12-14,St Pauli,Werder Bremen,7,7,False
+DK1,2425,2024-12-15,RB Leipzig,Ein Frankfurt,8,8,False
+DK1,2425,2024-12-15,Dortmund,Heidenheim,8,7,False
+DK1,2425,2024-12-15,Heidenheim,Stuttgart,7,9,False
+DK1,2425,2024-12-20,Bayern Munich,RB Leipzig,6,5,False
+DK1,2425,2024-12-21,Holstein Kiel,Augsburg,7,7,False
+DK1,2425,2024-12-21,Stuttgart,St Pauli,6,7,False
+DK1,2425,2024-12-21,Werder Bremen,Union Berlin,7,7,False
+DK1,2425,2024-12-21,Leverkusen,Freiburg,7,8,False
+DK1,2425,2024-12-21,Heidenheim,M'gladbach,6,7,False
+DK1,2425,2024-12-21,Ein Frankfurt,Mainz,6,7,False
+DK1,2425,2024-12-22,Bochum,Heidenheim,8,1,False
+DK1,2425,2024-12-22,Wolfsburg,Dortmund,9,7,False
+DK1,2425,2025-01-10,Dortmund,Leverkusen,19,20,False
+DK1,2425,2025-01-11,Heidenheim,Wolfsburg,20,20,False
+DK1,2425,2025-01-11,Mainz,Bochum,21,20,False
+DK1,2425,2025-01-11,St Pauli,Ein Frankfurt,21,21,False
+DK1,2425,2025-01-11,M'gladbach,Bayern Munich,21,22,False
+DK1,2425,2025-01-11,Heidenheim,Union Berlin,20,21,False
+DK1,2425,2025-01-11,Freiburg,Holstein Kiel,21,21,False
+DK1,2425,2025-01-12,Augsburg,Stuttgart,22,22,False
+DK1,2425,2025-01-12,RB Leipzig,Werder Bremen,23,22,False
+DK1,2425,2025-01-14,Leverkusen,Mainz,4,3,True
+DK1,2425,2025-01-14,Wolfsburg,M'gladbach,3,3,True
+DK1,2425,2025-01-14,Holstein Kiel,Dortmund,3,4,True
+DK1,2425,2025-01-14,Ein Frankfurt,Freiburg,3,3,True
+DK1,2425,2025-01-15,Stuttgart,RB Leipzig,3,3,True
+DK1,2425,2025-01-15,Union Berlin,Augsburg,4,3,True
+DK1,2425,2025-01-15,Werder Bremen,Heidenheim,3,4,True
+DK1,2425,2025-01-15,Bayern Munich,Heidenheim,4,4,True
+DK1,2425,2025-01-15,Bochum,St Pauli,4,4,True
+DK1,2425,2025-01-17,Ein Frankfurt,Dortmund,3,3,False
+DK1,2425,2025-01-18,Bochum,RB Leipzig,3,3,False
+DK1,2425,2025-01-18,Bayern Munich,Wolfsburg,3,4,False
+DK1,2425,2025-01-18,Heidenheim,St Pauli,3,3,False
+DK1,2425,2025-01-18,Holstein Kiel,Heidenheim,4,3,False
+DK1,2425,2025-01-18,Stuttgart,Freiburg,3,4,False
+DK1,2425,2025-01-18,Leverkusen,M'gladbach,4,4,False
+DK1,2425,2025-01-19,Werder Bremen,Augsburg,4,4,False
+DK1,2425,2025-01-19,Union Berlin,Mainz,4,5,False
+DK1,2425,2025-01-24,Wolfsburg,Holstein Kiel,6,6,False
+DK1,2425,2025-01-25,M'gladbach,Bochum,7,7,False
+DK1,2425,2025-01-25,Mainz,Stuttgart,6,7,False
+DK1,2425,2025-01-25,RB Leipzig,Leverkusen,7,7,False
+DK1,2425,2025-01-25,Augsburg,Heidenheim,6,7,False
+DK1,2425,2025-01-25,Dortmund,Werder Bremen,8,6,False
+DK1,2425,2025-01-25,Freiburg,Bayern Munich,7,7,False
+DK1,2425,2025-01-26,Heidenheim,Ein Frankfurt,1,9,False
+DK1,2425,2025-01-26,St Pauli,Union Berlin,8,7,False
+DK1,2425,2025-01-31,Werder Bremen,Mainz,6,6,False
+DK1,2425,2025-02-01,Heidenheim,Dortmund,6,7,False
+DK1,2425,2025-02-01,St Pauli,Augsburg,6,7,False
+DK1,2425,2025-02-01,Stuttgart,M'gladbach,7,7,False
+DK1,2425,2025-02-01,Union Berlin,RB Leipzig,6,7,False
+DK1,2425,2025-02-01,Bochum,Freiburg,7,7,False
+DK1,2425,2025-02-01,Bayern Munich,Holstein Kiel,7,8,False
+DK1,2425,2025-02-02,Ein Frankfurt,Wolfsburg,7,9,False
+DK1,2425,2025-02-02,Leverkusen,Heidenheim,8,1,False
+DK1,2425,2025-02-07,Bayern Munich,Werder Bremen,6,7,False
+DK1,2425,2025-02-08,Heidenheim,Union Berlin,6,7,False
+DK1,2425,2025-02-08,Mainz,Augsburg,8,7,False
+DK1,2425,2025-02-08,Wolfsburg,Leverkusen,6,6,False
+DK1,2425,2025-02-08,M'gladbach,Ein Frankfurt,7,6,False
+DK1,2425,2025-02-08,Freiburg,Heidenheim,7,6,False
+DK1,2425,2025-02-08,Dortmund,Stuttgart,7,7,False
+DK1,2425,2025-02-09,Holstein Kiel,Bochum,8,8,False
+DK1,2425,2025-02-09,RB Leipzig,St Pauli,8,8,False
+DK1,2425,2025-02-14,Augsburg,RB Leipzig,6,5,False
+DK1,2425,2025-02-15,Stuttgart,Wolfsburg,7,7,False
+DK1,2425,2025-02-15,Union Berlin,M'gladbach,7,7,False
+DK1,2425,2025-02-15,Leverkusen,Bayern Munich,7,8,False
+DK1,2425,2025-02-15,St Pauli,Freiburg,6,7,False
+DK1,2425,2025-02-15,Bochum,Dortmund,6,7,False
+DK1,2425,2025-02-16,Heidenheim,Mainz,8,8,False
+DK1,2425,2025-02-16,Werder Bremen,Heidenheim,9,8,False
+DK1,2425,2025-02-16,Ein Frankfurt,Holstein Kiel,8,7,False
+DK1,2425,2025-02-21,Freiburg,Werder Bremen,6,5,False
+DK1,2425,2025-02-22,Holstein Kiel,Leverkusen,6,7,False
+DK1,2425,2025-02-22,Mainz,St Pauli,6,7,False
+DK1,2425,2025-02-22,M'gladbach,Augsburg,7,8,False
+DK1,2425,2025-02-22,Wolfsburg,Bochum,7,7,False
+DK1,2425,2025-02-22,Dortmund,Union Berlin,7,7,False
+DK1,2425,2025-02-23,Heidenheim,Stuttgart,7,8,False
+DK1,2425,2025-02-23,Bayern Munich,Ein Frankfurt,8,7,False
+DK1,2425,2025-02-23,RB Leipzig,Heidenheim,9,7,False
+DK1,2425,2025-02-28,Stuttgart,Bayern Munich,5,5,False
+DK1,2425,2025-03-01,RB Leipzig,Mainz,6,7,False
+DK1,2425,2025-03-01,St Pauli,Dortmund,7,7,False
+DK1,2425,2025-03-01,Werder Bremen,Wolfsburg,8,7,False
+DK1,2425,2025-03-01,Ein Frankfurt,Leverkusen,6,7,False
+DK1,2425,2025-03-01,Heidenheim,M'gladbach,6,7,False
+DK1,2425,2025-03-01,Bochum,Heidenheim,7,6,False
+DK1,2425,2025-03-02,Union Berlin,Holstein Kiel,8,8,False
+DK1,2425,2025-03-02,Augsburg,Freiburg,8,9,False
+DK1,2425,2025-03-07,M'gladbach,Mainz,6,6,False
+DK1,2425,2025-03-08,Holstein Kiel,Stuttgart,6,8,False
+DK1,2425,2025-03-08,Leverkusen,Werder Bremen,7,7,False
+DK1,2425,2025-03-08,Wolfsburg,St Pauli,7,7,False
+DK1,2425,2025-03-08,Freiburg,RB Leipzig,6,7,False
+DK1,2425,2025-03-08,Dortmund,Augsburg,7,6,False
+DK1,2425,2025-03-08,Bayern Munich,Bochum,8,7,False
+DK1,2425,2025-03-09,Ein Frankfurt,Union Berlin,8,7,False
+DK1,2425,2025-03-09,Heidenheim,Heidenheim,8,8,False
+DK1,2425,2025-03-14,St Pauli,Heidenheim,6,5,False
+DK1,2425,2025-03-15,Union Berlin,Bayern Munich,6,7,False
+DK1,2425,2025-03-15,Werder Bremen,M'gladbach,7,8,False
+DK1,2425,2025-03-15,RB Leipzig,Dortmund,7,7,False
+DK1,2425,2025-03-15,Mainz,Freiburg,8,7,False
+DK1,2425,2025-03-15,Augsburg,Wolfsburg,7,7,False
+DK1,2425,2025-03-16,Stuttgart,Leverkusen,8,8,False
+DK1,2425,2025-03-16,Bochum,Ein Frankfurt,8,7,False
+DK1,2425,2025-03-16,Heidenheim,Holstein Kiel,2,8,False
+DK1,2425,2025-03-28,Leverkusen,Bochum,12,12,False
+DK1,2425,2025-03-29,Bayern Munich,St Pauli,14,15,False
+DK1,2425,2025-03-29,Heidenheim,Augsburg,13,14,False
+DK1,2425,2025-03-29,Holstein Kiel,Werder Bremen,13,14,False
+DK1,2425,2025-03-29,M'gladbach,RB Leipzig,14,14,False
+DK1,2425,2025-03-29,Wolfsburg,Heidenheim,14,13,False
+DK1,2425,2025-03-29,Ein Frankfurt,Stuttgart,13,13,False
+DK1,2425,2025-03-30,Freiburg,Union Berlin,15,15,False
+DK1,2425,2025-03-30,Dortmund,Mainz,15,15,False
+DK1,2425,2025-04-04,Augsburg,Bayern Munich,6,6,False
+DK1,2425,2025-04-05,Werder Bremen,Ein Frankfurt,7,7,False
+DK1,2425,2025-04-05,Heidenheim,Leverkusen,7,8,False
+DK1,2425,2025-04-05,Mainz,Holstein Kiel,6,7,False
+DK1,2425,2025-04-05,RB Leipzig,Heidenheim,7,7,False
+DK1,2425,2025-04-05,Bochum,Stuttgart,8,7,False
+DK1,2425,2025-04-05,Freiburg,Dortmund,6,6,False
+DK1,2425,2025-04-06,St Pauli,M'gladbach,8,8,False
+DK1,2425,2025-04-06,Union Berlin,Wolfsburg,7,8,False
+DK1,2425,2025-04-11,Wolfsburg,RB Leipzig,5,6,False
+DK1,2425,2025-04-12,Holstein Kiel,St Pauli,7,6,False
+DK1,2425,2025-04-12,Leverkusen,Union Berlin,7,6,False
+DK1,2425,2025-04-12,M'gladbach,Freiburg,6,7,False
+DK1,2425,2025-04-12,Bayern Munich,Dortmund,8,7,False
+DK1,2425,2025-04-12,Heidenheim,Mainz,7,7,False
+DK1,2425,2025-04-12,Bochum,Augsburg,7,8,False
+DK1,2425,2025-04-13,Ein Frankfurt,Heidenheim,8,1,False
+DK1,2425,2025-04-13,Stuttgart,Werder Bremen,8,8,False
+DK1,2425,2025-04-19,Mainz,Wolfsburg,7,8,False
+DK1,2425,2025-04-19,RB Leipzig,Holstein Kiel,8,7,False
+DK1,2425,2025-04-19,Werder Bremen,Bochum,6,7,False
+DK1,2425,2025-04-19,Union Berlin,Stuttgart,7,6,False
+DK1,2425,2025-04-19,Freiburg,Heidenheim,7,6,False
+DK1,2425,2025-04-19,Heidenheim,Bayern Munich,6,7,False
+DK1,2425,2025-04-20,St Pauli,Leverkusen,8,8,False
+DK1,2425,2025-04-20,Dortmund,M'gladbach,8,8,False
+DK1,2425,2025-04-20,Augsburg,Ein Frankfurt,8,7,False
+DK1,2425,2025-04-25,Stuttgart,Heidenheim,6,6,False
+DK1,2425,2025-04-26,Wolfsburg,Freiburg,7,7,False
+DK1,2425,2025-04-26,Bayern Munich,Mainz,7,7,False
+DK1,2425,2025-04-26,Heidenheim,Dortmund,1,6,False
+DK1,2425,2025-04-26,Holstein Kiel,M'gladbach,7,6,False
+DK1,2425,2025-04-26,Leverkusen,Augsburg,6,6,False
+DK1,2425,2025-04-26,Ein Frankfurt,RB Leipzig,6,7,False
+DK1,2425,2025-04-27,Werder Bremen,St Pauli,8,7,False
+DK1,2425,2025-04-27,Bochum,Union Berlin,8,8,False
+DK1,2425,2025-05-02,Heidenheim,Bochum,6,5,False
+DK1,2425,2025-05-03,St Pauli,Stuttgart,6,8,False
+DK1,2425,2025-05-03,Union Berlin,Werder Bremen,6,6,False
+DK1,2425,2025-05-03,Dortmund,Wolfsburg,7,7,False
+DK1,2425,2025-05-03,RB Leipzig,Bayern Munich,7,7,False
+DK1,2425,2025-05-03,M'gladbach,Heidenheim,7,1,False
+DK1,2425,2025-05-04,Mainz,Ein Frankfurt,8,8,False
+DK1,2425,2025-05-04,Augsburg,Holstein Kiel,8,8,False
+DK1,2425,2025-05-04,Freiburg,Leverkusen,8,8,False
+DK1,2425,2025-05-09,Wolfsburg,Heidenheim,6,6,False
+DK1,2425,2025-05-10,Union Berlin,Heidenheim,7,1,False
+DK1,2425,2025-05-10,Werder Bremen,RB Leipzig,7,7,False
+DK1,2425,2025-05-10,Bayern Munich,M'gladbach,7,7,False
+DK1,2425,2025-05-10,Holstein Kiel,Freiburg,6,6,False
+DK1,2425,2025-05-10,Bochum,Mainz,8,6,False
+DK1,2425,2025-05-11,Stuttgart,Augsburg,8,7,False
+DK1,2425,2025-05-11,Leverkusen,Dortmund,7,8,False
+DK1,2425,2025-05-11,Ein Frankfurt,St Pauli,7,8,False
+DK1,2425,2025-05-17,Freiburg,Ein Frankfurt,7,6,False
+DK1,2425,2025-05-17,Heidenheim,Werder Bremen,7,7,False
+DK1,2425,2025-05-17,Heidenheim,Bayern Munich,7,7,False
+DK1,2425,2025-05-17,Mainz,Leverkusen,7,6,False
+DK1,2425,2025-05-17,M'gladbach,Wolfsburg,7,8,False
+DK1,2425,2025-05-17,RB Leipzig,Stuttgart,7,6,False
+DK1,2425,2025-05-17,St Pauli,Bochum,6,7,False
+DK1,2425,2025-05-17,Augsburg,Union Berlin,6,7,False
+DK1,2425,2025-05-17,Dortmund,Holstein Kiel,6,7,False

@@ -11,7 +11,7 @@ from app.db.models import (
     DataSource, ValidationResult, JackpotFixture, Prediction,
     MatchResult, Jackpot
 )
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional
 import logging
 
@@ -98,7 +98,13 @@ async def get_dashboard_summary(
             # Determine status based on last_sync_at
             status = "fresh"
             if source.last_sync_at:
-                hours_since_sync = (datetime.utcnow() - source.last_sync_at).total_seconds() / 3600
+                # Ensure both datetimes are timezone-aware
+                now = datetime.now(timezone.utc)
+                last_sync = source.last_sync_at
+                if last_sync.tzinfo is None:
+                    # If last_sync_at is naive, assume UTC
+                    last_sync = last_sync.replace(tzinfo=timezone.utc)
+                hours_since_sync = (now - last_sync).total_seconds() / 3600
                 if hours_since_sync > 48:
                     status = "stale"
                 elif hours_since_sync > 24:
@@ -117,7 +123,8 @@ async def get_dashboard_summary(
         calibration_trend = []
         if active_model:
             # Get training runs for this model in last 5 weeks
-            five_weeks_ago = datetime.utcnow() - timedelta(weeks=5)
+            now = datetime.now(timezone.utc)
+            five_weeks_ago = now - timedelta(weeks=5)
             recent_runs = db.query(TrainingRun).filter(
                 TrainingRun.model_id == active_model.id,
                 TrainingRun.completed_at >= five_weeks_ago,
@@ -126,12 +133,16 @@ async def get_dashboard_summary(
             
             # Group by week
             for i, run in enumerate(recent_runs[-5:]):  # Last 5 runs
-                week_num = (datetime.utcnow() - run.completed_at).days // 7
-                week_label = f"W{52 - week_num}" if week_num < 52 else f"W{week_num % 52}"
-                calibration_trend.append({
-                    "week": week_label,
-                    "brier": float(run.brier_score) if run.brier_score else 0.15
-                })
+                if run.completed_at:
+                    completed = run.completed_at
+                    if completed.tzinfo is None:
+                        completed = completed.replace(tzinfo=timezone.utc)
+                    week_num = (now - completed).days // 7
+                    week_label = f"W{52 - week_num}" if week_num < 52 else f"W{week_num % 52}"
+                    calibration_trend.append({
+                        "week": week_label,
+                        "brier": float(run.brier_score) if run.brier_score else 0.15
+                    })
         
         # 5. Get outcome distribution (from recent predictions with actual results)
         outcome_distribution = []

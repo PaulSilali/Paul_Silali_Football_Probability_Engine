@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+PL1,1617,2016-01-10,Guimaraes,Sp Lisbon,7,7,False
+PL1,1617,2016-01-10,Nacional,Porto,7,7,False
+PL1,1617,2016-01-10,Chaves,Belenenses,7,7,False
+PL1,1617,2016-01-10,Rio Ave,Estoril,7,7,False
+PL1,1617,2016-02-10,Setubal,Maritimo,7,7,True
+PL1,1617,2016-02-10,Arouca,Sp Braga,7,7,True
+PL1,1617,2016-02-10,Benfica,Farense,7,7,True
+PL1,1617,2016-02-10,Boavista,Moreirense,7,7,True
+PL1,1617,2016-02-12,Maritimo,Benfica,2,2,False
+PL1,1617,2016-03-12,Rio Ave,Tondela,62,7,False
+PL1,1617,2016-03-12,Porto,Sp Braga,62,31,False
+PL1,1617,2016-03-12,Sp Lisbon,Setubal,62,31,False
+PL1,1617,2016-04-09,Nacional,Chaves,90,90,False
+PL1,1617,2016-04-11,Guimaraes,Nacional,92,2,False
+PL1,1617,2016-04-12,Farense,Arouca,62,62,True
+PL1,1617,2016-04-12,Estoril,Belenenses,93,93,True
+PL1,1617,2016-04-12,Guimaraes,Chaves,1,3,True
+PL1,1617,2016-04-12,Moreirense,Nacional,62,1,True
+PL1,1617,2016-05-11,Farense,Belenenses,29,29,True
+PL1,1617,2016-05-11,Rio Ave,Boavista,60,91,True
+PL1,1617,2016-05-11,Pacos Ferreira,Chaves,7,29,True
+PL1,1617,2016-05-11,Estoril,Tondela,29,60,True
+PL1,1617,2016-05-12,Pacos Ferreira,Boavista,1,1,True
+PL1,1617,2016-06-11,Maritimo,Sp Braga,120,91,False
+PL1,1617,2016-06-11,Moreirense,Setubal,60,91,False
+PL1,1617,2016-06-11,Porto,Benfica,91,120,False
+PL1,1617,2016-06-11,Sp Lisbon,Arouca,91,60,False
+PL1,1617,2016-08-13,Sp Lisbon,Maritimo,63,63,False
+PL1,1617,2016-08-13,Tondela,Benfica,94,63,False
+PL1,1617,2016-08-13,Moreirense,Pacos Ferreira,63,93,False
+PL1,1617,2016-08-14,Boavista,Arouca,94,64,False
+PL1,1617,2016-08-14,Setubal,Belenenses,64,95,False
+PL1,1617,2016-08-14,Guimaraes,Sp Braga,124,64,False
+PL1,1617,2016-08-15,Estoril,Farense,96,96,False
+PL1,1617,2016-08-19,Belenenses,Boavista,5,5,False
+PL1,1617,2016-08-20,Pacos Ferreira,Sp Lisbon,7,7,False
+PL1,1617,2016-08-20,Chaves,Tondela,101,7,False
+PL1,1617,2016-08-20,Maritimo,Guimaraes,7,6,False
+PL1,1617,2016-08-20,Porto,Estoril,70,5,False
+PL1,1617,2016-08-21,Arouca,Nacional,7,131,False
+PL1,1617,2016-08-21,Farense,Moreirense,6,8,False
+PL1,1617,2016-08-21,Benfica,Setubal,8,7,False
+PL1,1617,2016-08-22,Sp Braga,Rio Ave,8,103,False
+PL1,1617,2016-08-26,Guimaraes,Pacos Ferreira,6,6,False
+PL1,1617,2016-08-27,Estoril,Sp Braga,7,5,False
+PL1,1617,2016-08-27,Tondela,Belenenses,7,8,False
+PL1,1617,2016-08-27,Nacional,Benfica,6,6,False
+PL1,1617,2016-08-28,Setubal,Arouca,7,7,False
+PL1,1617,2016-08-28,Boavista,Chaves,9,8,False
+PL1,1617,2016-08-28,Moreirense,Maritimo,7,8,False
+PL1,1617,2016-08-28,Rio Ave,Farense,6,7,False
+PL1,1617,2016-08-28,Sp Lisbon,Porto,8,8,False
+PL1,1617,2016-09-09,Arouca,Benfica,12,13,False
+PL1,1617,2016-09-12,Setubal,Estoril,15,16,False
+PL1,1617,2016-09-16,Nacional,Maritimo,20,19,False
+PL1,1617,2016-09-17,Setubal,Pacos Ferreira,5,22,False
+PL1,1617,2016-09-17,Guimaraes,Belenenses,22,21,False
+PL1,1617,2016-09-17,Estoril,Moreirense,5,20,False
+PL1,1617,2016-09-18,Tondela,Porto,22,21,False
+PL1,1617,2016-09-18,Boavista,Farense,21,21,False
+PL1,1617,2016-09-18,Arouca,Chaves,9,21,False
+PL1,1617,2016-09-18,Rio Ave,Sp Lisbon,21,21,False
+PL1,1617,2016-09-19,Benfica,Sp Braga,10,23,False
+PL1,1617,2016-09-23,Porto,Boavista,5,5,False
+PL1,1617,2016-09-23,Sp Lisbon,Estoril,5,6,False
+PL1,1617,2016-09-24,Farense,Nacional,6,8,False
+PL1,1617,2016-09-24,Sp Braga,Setubal,5,7,False
+PL1,1617,2016-09-24,Chaves,Benfica,6,5,False
+PL1,1617,2016-09-25,Pacos Ferreira,Rio Ave,8,7,False
+PL1,1617,2016-09-25,Maritimo,Tondela,9,7,False
+PL1,1617,2016-09-25,Moreirense,Guimaraes,8,8,False
+PL1,1617,2016-09-26,Belenenses,Arouca,9,8,False
+PL1,1617,2016-09-30,Tondela,Pacos Ferreira,5,5,False
+PL1,1617,2016-10-09,Sp Lisbon,Moreirense,16,14,False
+PL1,1617,2016-10-09,Porto,Guimaraes,16,14,False
+PL1,1617,2016-10-09,Belenenses,Nacional,13,15,False
+PL1,1617,2016-10-12,Chaves,Moreirense,18,3,True
+PL1,1617,2016-10-12,Boavista,Guimaraes,19,3,True
+PL1,1617,2016-10-12,Belenenses,Maritimo,3,17,True
+PL1,1617,2016-10-21,Pacos Ferreira,Nacional,21,12,False
+PL1,1617,2016-10-21,Maritimo,Boavista,9,9,False
+PL1,1617,2016-10-22,Farense,Setubal,28,28,False
+PL1,1617,2016-10-22,Sp Lisbon,Tondela,13,22,False
+PL1,1617,2016-10-22,Porto,Arouca,13,26,False
+PL1,1617,2016-10-23,Estoril,Guimaraes,30,11,False
+PL1,1617,2016-10-23,Belenenses,Benfica,11,29,False
+PL1,1617,2016-10-23,Moreirense,Rio Ave,11,28,False
+PL1,1617,2016-10-24,Sp Braga,Chaves,30,12,False
+PL1,1617,2016-10-28,Nacional,Sp Lisbon,7,6,False
+PL1,1617,2016-10-28,Benfica,Pacos Ferreira,5,7,False
+PL1,1617,2016-10-29,Boavista,Estoril,8,6,False
+PL1,1617,2016-10-29,Tondela,Moreirense,7,6,False
+PL1,1617,2016-10-29,Setubal,Porto,7,7,False
+PL1,1617,2016-10-30,Rio Ave,Guimaraes,7,7,False
+PL1,1617,2016-10-30,Arouca,Maritimo,8,9,False
+PL1,1617,2016-10-30,Sp Braga,Belenenses,6,7,False
+PL1,1617,2016-10-31,Chaves,Farense,7,9,False
+PL1,1617,2016-11-09,Maritimo,Rio Ave,10,10,True
+PL1,1617,2016-11-09,Pacos Ferreira,Estoril,12,11,True
+PL1,1617,2016-11-09,Sp Braga,Boavista,10,11,True
+PL1,1617,2016-11-09,Chaves,Setubal,9,11,True
+PL1,1617,2016-11-12,Nacional,Tondela,15,14,False
+PL1,1617,2016-11-12,Benfica,Sp Lisbon,15,15,False
+PL1,1617,2016-11-12,Sp Braga,Pacos Ferreira,3,3,False
+PL1,1617,2016-11-12,Farense,Porto,12,14,False
+PL1,1617,2016-11-25,Setubal,Rio Ave,16,16,False
+PL1,1617,2016-11-26,Boavista,Sp Lisbon,17,14,False
+PL1,1617,2016-11-26,Belenenses,Porto,27,14,False
+PL1,1617,2016-11-26,Nacional,Estoril,14,17,False
+PL1,1617,2016-11-26,Chaves,Maritimo,17,17,False
+PL1,1617,2016-11-27,Benfica,Moreirense,15,29,False
+PL1,1617,2016-11-27,Arouca,Pacos Ferreira,28,15,False
+PL1,1617,2016-11-27,Tondela,Guimaraes,15,28,False
+PL1,1617,2016-11-28,Sp Braga,Farense,16,16,False
+PL1,1617,2016-12-08,Rio Ave,Porto,13,12,True
+PL1,1617,2016-12-09,Farense,Tondela,11,12,False
+PL1,1617,2016-12-12,Arouca,Rio Ave,15,4,False
+PL1,1617,2016-12-15,Porto,Maritimo,7,19,True
+PL1,1617,2016-12-16,Pacos Ferreira,Belenenses,19,20,False
+PL1,1617,2016-12-17,Estoril,Benfica,21,20,False
+PL1,1617,2016-12-17,Moreirense,Arouca,20,5,False
+PL1,1617,2016-12-18,Guimaraes,Setubal,21,23,False
+PL1,1617,2016-12-18,Rio Ave,Nacional,6,22,False
+PL1,1617,2016-12-18,Sp Lisbon,Sp Braga,22,20,False
+PL1,1617,2016-12-18,Tondela,Boavista,9,22,False
+PL1,1617,2016-12-19,Maritimo,Farense,4,10,False
+PL1,1617,2016-12-19,Porto,Chaves,4,23,False
+PL1,1617,2016-12-21,Benfica,Rio Ave,4,3,True
+PL1,1617,2016-12-22,Belenenses,Sp Lisbon,6,4,True
+PL1,1617,2016-12-22,Chaves,Estoril,3,5,True
+PL1,1617,2016-12-22,Farense,Pacos Ferreira,3,6,True
+PL1,1617,2016-12-22,Nacional,Boavista,4,4,True
+PL1,1617,2016-12-22,Sp Braga,Moreirense,4,5,True
+PL1,1617,2016-12-23,Arouca,Guimaraes,6,5,False
+PL1,1617,2016-12-23,Setubal,Tondela,5,5,False
+PL1,1617,2017-01-04,Tondela,Estoril,12,13,True
+PL1,1617,2017-01-04,Benfica,Porto,14,16,True
+PL1,1617,2017-01-04,Boavista,Rio Ave,13,14,True
+PL1,1617,2017-01-13,Arouca,Estoril,21,3,False
+PL1,1617,2017-01-14,Chaves,Sp Lisbon,23,2,False
+PL1,1617,2017-01-14,Farense,Guimaraes,23,4,False
+PL1,1617,2017-01-14,Setubal,Nacional,22,23,False
+PL1,1617,2017-01-14,Benfica,Boavista,2,10,False
+PL1,1617,2017-01-15,Porto,Moreirense,3,24,False
+PL1,1617,2017-01-15,Maritimo,Pacos Ferreira,5,24,False
+PL1,1617,2017-01-15,Belenenses,Rio Ave,3,11,False
+PL1,1617,2017-01-16,Sp Braga,Tondela,6,12,False
+PL1,1617,2017-01-20,Pacos Ferreira,Moreirense,5,5,False
+PL1,1617,2017-01-21,Porto,Rio Ave,6,6,False
+PL1,1617,2017-01-21,Arouca,Boavista,8,7,False
+PL1,1617,2017-01-21,Maritimo,Sp Lisbon,6,7,False
+PL1,1617,2017-01-22,Farense,Estoril,8,9,False
+PL1,1617,2017-01-22,Benfica,Tondela,8,6,False
+PL1,1617,2017-01-22,Belenenses,Setubal,7,8,False
+PL1,1617,2017-01-22,Sp Braga,Guimaraes,6,8,False
+PL1,1617,2017-01-23,Chaves,Nacional,9,9,False
+PL1,1617,2017-01-27,Boavista,Belenenses,6,5,False
+PL1,1617,2017-01-28,Guimaraes,Maritimo,6,7,False
+PL1,1617,2017-01-28,Nacional,Arouca,5,7,False
+PL1,1617,2017-01-28,Sp Lisbon,Pacos Ferreira,7,8,False
+PL1,1617,2017-01-28,Tondela,Chaves,6,5,False
+PL1,1617,2017-01-28,Estoril,Porto,6,7,False
+PL1,1617,2017-01-30,Setubal,Benfica,8,8,False
+PL1,1617,2017-02-02,Rio Ave,Sp Braga,12,11,True
+PL1,1617,2017-02-02,Moreirense,Farense,13,11,True
+PL1,1617,2017-02-04,Arouca,Sp Lisbon,7,7,False
+PL1,1617,2017-02-04,Belenenses,Farense,8,2,False
+PL1,1617,2017-02-04,Setubal,Moreirense,5,2,False
+PL1,1617,2017-02-04,Sp Braga,Maritimo,2,7,False
+PL1,1617,2017-02-13,Rio Ave,Maritimo,1,1,False
+PL1,1617,2017-02-17,Porto,Tondela,20,5,False
+PL1,1617,2017-02-18,Sp Lisbon,Rio Ave,14,5,False
+PL1,1617,2017-02-18,Chaves,Arouca,6,14,False
+PL1,1617,2017-02-18,Farense,Boavista,14,6,False
+PL1,1617,2017-02-18,Moreirense,Estoril,6,21,False
+PL1,1617,2017-02-19,Belenenses,Guimaraes,15,22,False
+PL1,1617,2017-02-19,Sp Braga,Benfica,15,20,False
+PL1,1617,2017-02-19,Pacos Ferreira,Setubal,22,15,False
+PL1,1617,2017-02-20,Maritimo,Nacional,7,23,False
+PL1,1617,2017-02-24,Guimaraes,Moreirense,5,6,False
+PL1,1617,2017-02-24,Benfica,Chaves,5,6,False
+PL1,1617,2017-02-25,Tondela,Maritimo,8,5,False
+PL1,1617,2017-02-25,Rio Ave,Pacos Ferreira,7,6,False
+PL1,1617,2017-02-25,Estoril,Sp Lisbon,7,7,False
+PL1,1617,2017-02-26,Nacional,Farense,6,8,False
+PL1,1617,2017-02-26,Setubal,Sp Braga,7,7,False
+PL1,1617,2017-02-26,Boavista,Porto,8,9,False
+PL1,1617,2017-02-27,Arouca,Belenenses,9,8,False
+PL1,1617,2017-03-02,Pacos Ferreira,Guimaraes,5,6,True
+PL1,1617,2017-03-03,Moreirense,Boavista,7,5,False
+PL1,1617,2017-03-13,Benfica,Belenenses,17,14,False
+PL1,1617,2017-03-13,Nacional,Pacos Ferreira,15,1,False
+PL1,1617,2017-03-17,Estoril,Boavista,20,14,False
+PL1,1617,2017-03-18,Sp Lisbon,Nacional,21,5,False
+PL1,1617,2017-03-18,Belenenses,Sp Braga,5,6,False
+PL1,1617,2017-03-18,Moreirense,Tondela,15,21,False
+PL1,1617,2017-03-18,Pacos Ferreira,Benfica,5,5,False
+PL1,1617,2017-03-19,Porto,Setubal,21,7,False
+PL1,1617,2017-03-19,Farense,Chaves,7,23,False
+PL1,1617,2017-03-19,Guimaraes,Rio Ave,7,22,False
+PL1,1617,2017-03-19,Maritimo,Arouca,22,20,False
+PL1,1617,2017-03-31,Nacional,Guimaraes,13,12,False
+PL1,1617,2017-03-31,Chaves,Pacos Ferreira,12,13,False
+PL1,1617,2017-04-02,Chaves,Boavista,2,16,False
+PL1,1617,2017-04-02,Porto,Sp Lisbon,14,15,False
+PL1,1617,2017-04-03,Porto,Nacional,1,3,False
+PL1,1617,2017-04-03,Sp Braga,Arouca,16,15,False
+PL1,1617,2017-04-03,Farense,Benfica,15,16,False
+PL1,1617,2017-04-14,Belenenses,Estoril,3,2,False
+PL1,1617,2017-04-14,Benfica,Maritimo,11,26,False
+PL1,1617,2017-04-14,Setubal,Sp Lisbon,26,12,False
+PL1,1617,2017-04-14,Boavista,Pacos Ferreira,3,14,False
+PL1,1617,2017-04-15,Tondela,Rio Ave,4,4,False
+PL1,1617,2017-04-15,Sp Braga,Porto,12,4,False
+PL1,1617,2017-04-15,Chaves,Guimaraes,13,15,False
+PL1,1617,2017-04-15,Arouca,Farense,12,12,False
+PL1,1617,2017-04-17,Nacional,Moreirense,14,6,False
+PL1,1617,2017-04-21,Rio Ave,Arouca,6,6,False
+PL1,1617,2017-04-22,Tondela,Nacional,7,5,False
+PL1,1617,2017-04-22,Estoril,Setubal,8,8,False
+PL1,1617,2017-04-22,Maritimo,Belenenses,8,8,False
+PL1,1617,2017-04-22,Sp Lisbon,Benfica,8,8,False
+PL1,1617,2017-04-23,Porto,Farense,8,8,False
+PL1,1617,2017-04-23,Guimaraes,Boavista,8,9,False
+PL1,1617,2017-04-23,Pacos Ferreira,Sp Braga,9,8,False
+PL1,1617,2017-04-24,Moreirense,Chaves,7,9,False
+PL1,1617,2017-04-28,Setubal,Guimaraes,6,5,False
+PL1,1617,2017-04-29,Nacional,Rio Ave,7,8,False
+PL1,1617,2017-04-29,Chaves,Porto,5,6,False
+PL1,1617,2017-04-29,Benfica,Estoril,7,7,False
+PL1,1617,2017-04-29,Boavista,Tondela,6,7,False
+PL1,1617,2017-04-30,Farense,Maritimo,7,8,False
+PL1,1617,2017-04-30,Sp Braga,Sp Lisbon,7,8,False
+PL1,1617,2017-04-30,Belenenses,Pacos Ferreira,8,7,False
+PL1,1617,2017-04-30,Arouca,Moreirense,9,6,False
+PL1,1617,2017-05-02,Arouca,Setubal,2,4,True
+PL1,1617,2017-05-02,Belenenses,Tondela,2,3,True
+PL1,1617,2017-05-02,Benfica,Nacional,3,3,True
+PL1,1617,2017-05-03,Belenenses,Chaves,1,4,True
+PL1,1617,2017-05-03,Sp Lisbon,Guimaraes,3,5,True
+PL1,1617,2017-05-03,Maritimo,Setubal,3,1,True
+PL1,1617,2017-05-03,Pacos Ferreira,Tondela,3,1,True
+PL1,1617,2017-05-05,Moreirense,Sp Braga,5,5,False
+PL1,1617,2017-05-13,Farense,Sp Lisbon,2,2,False
+PL1,1617,2017-05-13,Arouca,Tondela,11,10,False
+PL1,1617,2017-05-13,Benfica,Guimaraes,2,2,False
+PL1,1617,2017-05-14,Sp Braga,Nacional,3,12,False
+PL1,1617,2017-05-14,Porto,Pacos Ferreira,15,3,False
+PL1,1617,2017-05-14,Maritimo,Estoril,3,15,False
+PL1,1617,2017-05-14,Chaves,Rio Ave,3,15,False
+PL1,1617,2017-05-15,Setubal,Boavista,12,16,False
+PL1,1617,2017-05-20,Guimaraes,Farense,7,7,False
+PL1,1617,2017-05-20,Nacional,Setubal,6,5,False
+PL1,1617,2017-05-20,Pacos Ferreira,Maritimo,6,6,False
+PL1,1617,2017-05-20,Boavista,Benfica,5,7,False
+PL1,1617,2017-05-20,Rio Ave,Belenenses,6,17,False
+PL1,1617,2017-05-21,Tondela,Sp Braga,8,7,False
+PL1,1617,2017-05-21,Estoril,Arouca,7,8,False
+PL1,1617,2017-05-21,Moreirense,Porto,16,7,False
+PL1,1617,2017-05-21,Sp Lisbon,Chaves,8,7,False
+PL1,1617,2017-06-02,Sp Braga,Estoril,12,12,False
+PL1,1617,2017-06-02,Farense,Rio Ave,13,13,False
+PL1,1617,2017-06-02,Maritimo,Moreirense,13,12,False
+PL1,1617,2017-06-03,Estoril,Rio Ave,1,1,False
+PL1,1617,2017-06-05,Boavista,Nacional,16,16,False
+PL1,1617,2017-06-05,Maritimo,Porto,3,15,False
+PL1,1617,2017-06-05,Pacos Ferreira,Farense,16,3,False
+PL1,1617,2017-07-01,Nacional,Sp Braga,26,29,False
+PL1,1617,2017-07-01,Pacos Ferreira,Porto,26,26,False
+PL1,1617,2017-07-01,Estoril,Maritimo,28,26,False
+PL1,1617,2017-07-01,Guimaraes,Benfica,42,42,False
+PL1,1617,2017-07-04,Farense,Sp Braga,29,3,True
+PL1,1617,2017-07-05,Sp Lisbon,Belenenses,27,46,True
+PL1,1617,2017-07-05,Tondela,Setubal,45,27,True
+PL1,1617,2017-07-05,Guimaraes,Arouca,4,45,True
+PL1,1617,2017-07-05,Rio Ave,Benfica,32,4,True
+PL1,1617,2017-08-01,Sp Lisbon,Farense,27,24,True
+PL1,1617,2017-08-01,Tondela,Arouca,24,27,True
+PL1,1617,2017-08-01,Boavista,Setubal,24,27,True
+PL1,1617,2017-08-01,Rio Ave,Chaves,24,72,True
+PL1,1617,2017-08-04,Pacos Ferreira,Arouca,34,3,False
+PL1,1617,2017-08-04,Porto,Belenenses,34,27,False
+PL1,1617,2017-08-04,Sp Lisbon,Boavista,3,3,False
+PL1,1617,2017-08-05,Estoril,Chaves,35,4,False
+PL1,1617,2017-09-01,Moreirense,Belenenses,6,7,False
+PL1,1617,2017-09-04,Guimaraes,Tondela,9,9,False
+PL1,1617,2017-09-04,Estoril,Nacional,8,65,False
+PL1,1617,2017-09-04,Rio Ave,Setubal,9,10,False
+PL1,1617,2017-09-04,Moreirense,Benfica,3,9,False
+PL1,1617,2017-10-02,Benfica,Arouca,9,59,False
+PL1,1617,2017-10-03,Arouca,Porto,1,11,True
+PL1,1617,2017-10-04,Maritimo,Chaves,10,5,True
+PL1,1617,2017-11-02,Tondela,Farense,5,6,True
+PL1,1617,2017-11-02,Estoril,Pacos Ferreira,4,4,True
+PL1,1617,2017-11-02,Setubal,Chaves,3,4,True
+PL1,1617,2017-11-02,Guimaraes,Porto,4,5,True
+PL1,1617,2017-11-03,Chaves,Sp Braga,1,5,False
+PL1,1617,2017-11-03,Setubal,Farense,1,1,False
+PL1,1617,2017-11-03,Tondela,Sp Lisbon,1,7,False
+PL1,1617,2017-12-02,Boavista,Sp Braga,7,5,False
+PL1,1617,2017-12-02,Moreirense,Sp Lisbon,7,6,False
+PL1,1617,2017-12-02,Nacional,Belenenses,89,8,False
+PL1,1617,2017-12-03,Rio Ave,Moreirense,6,1,False
+PL1,1617,2017-12-03,Boavista,Maritimo,1,7,False
+PL1,1617,2017-12-03,Guimaraes,Estoril,6,7,False
+PL1,1617,2017-12-05,Belenenses,Moreirense,3,2,True

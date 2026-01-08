@@ -1,0 +1,234 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8667,Cambridge,8688,Swindon,1819,2,1,0.5,1.0
+8666,Colchester,8676,Crawley Town,1819,2,0,0.0,3.0
+8671,Mansfield,8692,Milton Keynes Dons,1819,4,1,0.25,2.25
+8668,Carlisle,8673,Oldham,1819,2,0,0.0,5.0
+8673,Oldham,8692,Milton Keynes Dons,1819,2,0,0.0,3.0
+8676,Crawley Town,8680,Newport County,1819,4,2,0.5,2.75
+8668,Carlisle,8689,Bury,1819,2,0,0.0,3.0
+8668,Carlisle,8675,Port Vale,1819,2,0,0.0,2.0
+8668,Carlisle,8672,Tranmere,1819,2,0,0.0,2.5
+8678,Exeter,8680,Newport County,1819,4,1,0.25,2.5
+8666,Colchester,8689,Bury,1819,2,0,0.0,2.5
+8671,Mansfield,8672,Tranmere,1819,4,2,0.5,1.5
+8671,Mansfield,8685,Crewe,1819,4,1,0.25,3.75
+8664,Forest Green,8689,Bury,1819,2,1,0.5,2.5
+8675,Port Vale,8676,Crawley Town,1819,2,0,0.0,1.0
+8675,Port Vale,8687,Northampton,1819,2,0,0.0,2.5
+8676,Crawley Town,8678,Exeter,1819,2,1,0.5,3.0
+8662,Stevenage,8666,Colchester,1819,2,0,0.0,3.5
+8662,Stevenage,8684,Grimsby,1819,2,0,0.0,1.5
+8680,Newport County,8688,Swindon,1819,4,1,0.25,2.5
+8667,Cambridge,8669,Cheltenham,1819,2,0,0.0,1.5
+8668,Carlisle,8692,Milton Keynes Dons,1819,2,0,0.0,3.5
+8662,Stevenage,8685,Crewe,1819,2,0,0.0,1.0
+8664,Forest Green,8671,Mansfield,1819,4,2,0.5,1.75
+8666,Colchester,8690,Yeovil,1819,2,1,0.5,3.0
+8662,Stevenage,8671,Mansfield,1819,4,1,0.25,3.0
+8689,Bury,8691,Lincoln,1819,2,1,0.5,4.5
+8671,Mansfield,8687,Northampton,1819,4,1,0.25,3.75
+8666,Colchester,8684,Grimsby,1819,2,0,0.0,1.0
+8670,Morecambe,8688,Swindon,1819,2,0,0.0,2.5
+8678,Exeter,8687,Northampton,1819,2,1,0.5,3.5
+8675,Port Vale,8692,Milton Keynes Dons,1819,2,1,0.5,2.0
+8668,Carlisle,8669,Cheltenham,1819,2,0,0.0,1.5
+8664,Forest Green,8667,Cambridge,1819,2,0,0.0,3.5
+8667,Cambridge,8675,Port Vale,1819,2,0,0.0,2.0
+8670,Morecambe,8690,Yeovil,1819,2,0,0.0,4.0
+8691,Lincoln,8692,Milton Keynes Dons,1819,2,0,0.0,2.5
+8680,Newport County,8691,Lincoln,1819,4,1,0.25,3.0
+8684,Grimsby,8690,Yeovil,1819,2,0,0.0,2.5
+8664,Forest Green,8672,Tranmere,1819,2,0,0.0,2.5
+8670,Morecambe,8692,Milton Keynes Dons,1819,2,0,0.0,4.0
+8669,Cheltenham,8670,Morecambe,1819,2,1,0.5,4.0
+8662,Stevenage,8664,Forest Green,1819,2,1,0.5,1.0
+8662,Stevenage,8687,Northampton,1819,2,1,0.5,2.5
+8690,Yeovil,8691,Lincoln,1819,2,0,0.0,1.5
+8667,Cambridge,8684,Grimsby,1819,2,0,0.0,1.5
+8672,Tranmere,8678,Exeter,1819,2,0,0.0,1.5
+8671,Mansfield,8671,Mansfield,1819,2,1,0.5,3.0
+8669,Cheltenham,8688,Swindon,1819,2,1,0.5,2.5
+8664,Forest Green,8675,Port Vale,1819,2,1,0.5,2.0
+8667,Cambridge,8668,Carlisle,1819,2,1,0.5,3.5
+8668,Carlisle,8678,Exeter,1819,2,1,0.5,3.0
+8670,Morecambe,8673,Oldham,1819,2,0,0.0,2.5
+8664,Forest Green,8684,Grimsby,1819,2,0,0.0,4.0
+8662,Stevenage,8670,Morecambe,1819,2,0,0.0,2.0
+8669,Cheltenham,8673,Oldham,1819,2,1,0.5,1.0
+8666,Colchester,8671,Mansfield,1819,4,2,0.5,2.5
+8664,Forest Green,8673,Oldham,1819,2,2,1.0,1.0
+8666,Colchester,8670,Morecambe,1819,2,1,0.5,0.5
+8669,Cheltenham,8671,Mansfield,1819,4,2,0.5,4.25
+8673,Oldham,8684,Grimsby,1819,2,0,0.0,2.5
+8668,Carlisle,8671,Mansfield,1819,4,0,0.0,3.0
+8662,Stevenage,8691,Lincoln,1819,2,1,0.5,2.5
+8678,Exeter,8690,Yeovil,1819,2,1,0.5,3.5
+8672,Tranmere,8680,Newport County,1819,4,1,0.25,1.75
+8667,Cambridge,8680,Newport County,1819,4,0,0.0,3.75
+8669,Cheltenham,8678,Exeter,1819,2,1,0.5,3.0
+8670,Morecambe,8680,Newport County,1819,4,4,1.0,1.5
+8670,Morecambe,8685,Crewe,1819,2,1,0.5,5.0
+8671,Mansfield,8675,Port Vale,1819,4,1,0.25,1.25
+8676,Crawley Town,8691,Lincoln,1819,2,0,0.0,2.0
+8668,Carlisle,8670,Morecambe,1819,2,0,0.0,2.0
+8675,Port Vale,8689,Bury,1819,2,1,0.5,1.5
+8670,Morecambe,8687,Northampton,1819,2,1,0.5,1.5
+8669,Cheltenham,8691,Lincoln,1819,2,1,0.5,2.0
+8671,Mansfield,8688,Swindon,1819,4,2,0.5,2.0
+8680,Newport County,8685,Crewe,1819,4,0,0.0,3.0
+8688,Swindon,8692,Milton Keynes Dons,1819,2,1,0.5,3.5
+8668,Carlisle,8676,Crawley Town,1819,2,0,0.0,5.5
+8684,Grimsby,8687,Northampton,1819,2,2,1.0,2.0
+8673,Oldham,8687,Northampton,1819,2,0,0.0,5.0
+8671,Mansfield,8689,Bury,1819,4,1,0.25,3.75
+8672,Tranmere,8675,Port Vale,1819,2,0,0.0,2.0
+8668,Carlisle,8691,Lincoln,1819,2,1,0.5,2.5
+8668,Carlisle,8687,Northampton,1819,2,1,0.5,3.5
+8664,Forest Green,8680,Newport County,1819,4,1,0.25,3.5
+8685,Crewe,8690,Yeovil,1819,2,1,0.5,2.0
+8680,Newport County,8692,Milton Keynes Dons,1819,4,0,0.0,2.25
+8675,Port Vale,8685,Crewe,1819,2,0,0.0,1.0
+8678,Exeter,8688,Swindon,1819,2,0,0.0,2.0
+8678,Exeter,8685,Crewe,1819,2,0,0.0,2.0
+8688,Swindon,8690,Yeovil,1819,2,1,0.5,2.5
+8671,Mansfield,8680,Newport County,1819,8,2,0.25,2.125
+8666,Colchester,8685,Crewe,1819,2,0,0.0,4.5
+8662,Stevenage,8669,Cheltenham,1819,2,0,0.0,2.0
+8685,Crewe,8688,Swindon,1819,2,0,0.0,2.0
+8669,Cheltenham,8676,Crawley Town,1819,2,0,0.0,1.0
+8667,Cambridge,8678,Exeter,1819,2,0,0.0,1.5
+8662,Stevenage,8690,Yeovil,1819,2,0,0.0,1.5
+8667,Cambridge,8685,Crewe,1819,2,1,0.5,1.0
+8676,Crawley Town,8684,Grimsby,1819,2,0,0.0,2.0
+8687,Northampton,8690,Yeovil,1819,2,2,1.0,3.0
+8664,Forest Green,8669,Cheltenham,1819,2,2,1.0,3.0
+8667,Cambridge,8689,Bury,1819,2,1,0.5,3.5
+8688,Swindon,8691,Lincoln,1819,2,1,0.5,4.5
+8675,Port Vale,8678,Exeter,1819,2,1,0.5,2.0
+8684,Grimsby,8688,Swindon,1819,2,1,0.5,2.5
+8668,Carlisle,8688,Swindon,1819,2,0,0.0,3.5
+8687,Northampton,8691,Lincoln,1819,2,1,0.5,1.5
+8669,Cheltenham,8684,Grimsby,1819,2,0,0.0,2.0
+8676,Crawley Town,8688,Swindon,1819,2,1,0.5,2.5
+8669,Cheltenham,8690,Yeovil,1819,2,0,0.0,3.0
+8672,Tranmere,8685,Crewe,1819,2,0,0.0,3.0
+8666,Colchester,8672,Tranmere,1819,2,1,0.5,2.0
+8667,Cambridge,8687,Northampton,1819,2,1,0.5,4.5
+8664,Forest Green,8690,Yeovil,1819,2,0,0.0,3.0
+8664,Forest Green,8687,Northampton,1819,2,0,0.0,3.0
+8675,Port Vale,8684,Grimsby,1819,2,0,0.0,1.5
+8662,Stevenage,8678,Exeter,1819,2,1,0.5,1.5
+8680,Newport County,8687,Northampton,1819,4,2,0.5,2.25
+8667,Cambridge,8690,Yeovil,1819,2,1,0.5,0.5
+8666,Colchester,8668,Carlisle,1819,2,1,0.5,3.0
+8685,Crewe,8692,Milton Keynes Dons,1819,2,1,0.5,0.5
+8672,Tranmere,8692,Milton Keynes Dons,1819,2,1,0.5,2.5
+8688,Swindon,8689,Bury,1819,2,0,0.0,3.5
+8670,Morecambe,8678,Exeter,1819,2,1,0.5,1.0
+8673,Oldham,8678,Exeter,1819,2,0,0.0,3.0
+8671,Mansfield,8691,Lincoln,1819,4,3,0.75,2.25
+8666,Colchester,8675,Port Vale,1819,2,0,0.0,2.5
+8662,Stevenage,8688,Swindon,1819,2,0,0.0,3.5
+8666,Colchester,8667,Cambridge,1819,2,0,0.0,2.0
+8675,Port Vale,8680,Newport County,1819,4,3,0.75,1.75
+8680,Newport County,8689,Bury,1819,4,2,0.5,2.5
+8676,Crawley Town,8690,Yeovil,1819,2,0,0.0,2.5
+8684,Grimsby,8691,Lincoln,1819,2,1,0.5,1.5
+8673,Oldham,8689,Bury,1819,2,0,0.0,5.0
+8680,Newport County,8680,Newport County,1819,2,0,0.0,5.0
+8662,Stevenage,8689,Bury,1819,2,0,0.0,2.5
+8689,Bury,8690,Yeovil,1819,2,0,0.0,1.0
+8675,Port Vale,8691,Lincoln,1819,2,1,0.5,5.0
+8662,Stevenage,8667,Cambridge,1819,2,0,0.0,1.5
+8670,Morecambe,8672,Tranmere,1819,2,0,0.0,5.5
+8670,Morecambe,8689,Bury,1819,2,0,0.0,5.0
+8676,Crawley Town,8685,Crewe,1819,2,0,0.0,5.0
+8671,Mansfield,8690,Yeovil,1819,4,1,0.25,2.0
+8667,Cambridge,8673,Oldham,1819,2,1,0.5,3.0
+8669,Cheltenham,8692,Milton Keynes Dons,1819,2,0,0.0,3.5
+8672,Tranmere,8691,Lincoln,1819,2,1,0.5,0.5
+8672,Tranmere,8676,Crawley Town,1819,2,0,0.0,5.0
+8664,Forest Green,8688,Swindon,1819,2,1,0.5,2.0
+8668,Carlisle,8690,Yeovil,1819,2,1,0.5,0.5
+8675,Port Vale,8688,Swindon,1819,2,1,0.5,0.5
+8667,Cambridge,8670,Morecambe,1819,2,0,0.0,3.0
+8666,Colchester,8678,Exeter,1819,2,1,0.5,2.5
+8664,Forest Green,8692,Milton Keynes Dons,1819,2,1,0.5,2.5
+8664,Forest Green,8685,Crewe,1819,2,0,0.0,4.0
+8680,Newport County,8684,Grimsby,1819,4,0,0.0,2.75
+8662,Stevenage,8680,Newport County,1819,4,1,0.25,3.25
+8678,Exeter,8684,Grimsby,1819,2,1,0.5,1.5
+8666,Colchester,8673,Oldham,1819,2,1,0.5,4.0
+8662,Stevenage,8692,Milton Keynes Dons,1819,2,1,0.5,3.5
+8673,Oldham,8680,Newport County,1819,4,1,0.25,1.25
+8664,Forest Green,8676,Crawley Town,1819,2,0,0.0,2.0
+8670,Morecambe,8671,Mansfield,1819,4,1,0.25,2.5
+8667,Cambridge,8691,Lincoln,1819,2,1,0.5,2.5
+8673,Oldham,8685,Crewe,1819,2,1,0.5,2.0
+8687,Northampton,8688,Swindon,1819,2,2,1.0,2.0
+8670,Morecambe,8675,Port Vale,1819,2,1,0.5,2.5
+8672,Tranmere,8684,Grimsby,1819,2,0,0.0,6.0
+8668,Carlisle,8684,Grimsby,1819,2,0,0.0,1.0
+8664,Forest Green,8666,Colchester,1819,2,0,0.0,2.0
+8678,Exeter,8691,Lincoln,1819,2,1,0.5,2.5
+8669,Cheltenham,8685,Crewe,1819,2,1,0.5,2.0
+8685,Crewe,8691,Lincoln,1819,2,0,0.0,2.0
+8676,Crawley Town,8689,Bury,1819,2,1,0.5,3.5
+8662,Stevenage,8672,Tranmere,1819,2,1,0.5,3.0
+8680,Newport County,8690,Yeovil,1819,4,0,0.0,4.0
+8664,Forest Green,8678,Exeter,1819,2,1,0.5,1.5
+8684,Grimsby,8689,Bury,1819,2,1,0.5,2.0
+8685,Crewe,8687,Northampton,1819,2,0,0.0,2.0
+8673,Oldham,8688,Swindon,1819,2,2,1.0,2.0
+8670,Morecambe,8691,Lincoln,1819,2,0,0.0,3.0
+8676,Crawley Town,8687,Northampton,1819,2,1,0.5,0.5
+8662,Stevenage,8675,Port Vale,1819,2,1,0.5,2.5
+8670,Morecambe,8684,Grimsby,1819,2,1,0.5,2.5
+8685,Crewe,8689,Bury,1819,2,1,0.5,3.0
+8673,Oldham,8690,Yeovil,1819,2,1,0.5,2.5
+8671,Mansfield,8684,Grimsby,1819,4,0,0.0,2.0
+8667,Cambridge,8676,Crawley Town,1819,2,0,0.0,2.5
+8672,Tranmere,8690,Yeovil,1819,2,2,1.0,
+8667,Cambridge,8692,Milton Keynes Dons,1819,2,0,0.0,3.5
+8664,Forest Green,8670,Morecambe,1819,2,0,0.0,2.0
+8673,Oldham,8676,Crawley Town,1819,2,0,0.0,3.0
+8669,Cheltenham,8672,Tranmere,1819,2,0,0.0,2.5
+8678,Exeter,8689,Bury,1819,2,0,0.0,1.5
+8662,Stevenage,8673,Oldham,1819,2,1,0.5,3.5
+8666,Colchester,8692,Milton Keynes Dons,1819,2,0,0.0,1.5
+8667,Cambridge,8672,Tranmere,1819,2,1,0.5,0.5
+8664,Forest Green,8668,Carlisle,1819,2,1,0.5,2.5
+8669,Cheltenham,8689,Bury,1819,2,1,0.5,3.5
+8671,Mansfield,8676,Crawley Town,1819,4,2,0.5,1.25
+8671,Mansfield,8678,Exeter,1819,4,0,0.0,3.5
+8669,Cheltenham,8687,Northampton,1819,2,0,0.0,4.0
+8664,Forest Green,8691,Lincoln,1819,2,0,0.0,3.0
+8678,Exeter,8692,Milton Keynes Dons,1819,2,0,0.0,2.5
+8672,Tranmere,8689,Bury,1819,2,1,0.5,2.5
+8687,Northampton,8692,Milton Keynes Dons,1819,2,1,0.5,2.5
+8668,Carlisle,8680,Newport County,1819,4,1,0.25,3.25
+8666,Colchester,8688,Swindon,1819,2,0,0.0,2.0
+8666,Colchester,8680,Newport County,1819,4,2,0.5,2.75
+8672,Tranmere,8673,Oldham,1819,2,1,0.5,2.0
+8662,Stevenage,8676,Crawley Town,1819,2,0,0.0,3.5
+8684,Grimsby,8692,Milton Keynes Dons,1819,2,1,0.5,1.5
+8675,Port Vale,8690,Yeovil,1819,2,0,0.0,3.0
+8671,Mansfield,8673,Oldham,1819,4,1,0.25,3.0
+8670,Morecambe,8676,Crawley Town,1819,2,0,0.0,1.5
+8666,Colchester,8669,Cheltenham,1819,2,0,0.0,3.5
+8673,Oldham,8691,Lincoln,1819,2,1,0.5,2.0
+8668,Carlisle,8685,Crewe,1819,2,0,0.0,2.0
+8669,Cheltenham,8675,Port Vale,1819,2,1,0.5,2.5
+8689,Bury,8692,Milton Keynes Dons,1819,2,0,0.0,4.0
+8662,Stevenage,8668,Carlisle,1819,2,0,0.0,2.0
+8672,Tranmere,8688,Swindon,1819,2,0,0.0,4.0
+8684,Grimsby,8685,Crewe,1819,2,0,0.0,2.0
+8669,Cheltenham,8680,Newport County,1819,4,0,0.0,3.0
+8666,Colchester,8691,Lincoln,1819,2,0,0.0,2.0
+8676,Crawley Town,8692,Milton Keynes Dons,1819,2,0,0.0,2.5
+8673,Oldham,8675,Port Vale,1819,2,0,0.0,3.0
+8672,Tranmere,8687,Northampton,1819,2,1,0.5,2.5
+8687,Northampton,8689,Bury,1819,2,1,0.5,2.0
+8666,Colchester,8687,Northampton,1819,2,0,0.0,3.5
+8667,Cambridge,8671,Mansfield,1819,4,2,0.5,1.5
+8690,Yeovil,8692,Milton Keynes Dons,1819,2,1,0.5,2.0

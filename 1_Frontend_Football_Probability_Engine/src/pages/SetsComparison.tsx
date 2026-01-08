@@ -108,6 +108,42 @@ const sets: (ProbabilitySet & { icon: React.ElementType; useCase: string })[] = 
       { fixtureId: '3', homeTeam: 'Man United', awayTeam: 'Tottenham', homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51 },
     ],
   },
+  {
+    id: 'H',
+    name: 'Set H: Market Consensus Draw',
+    description: 'Set B + Draw adjusted by average market odds (70% base + 30% market). Uses market consensus to fine-tune draw probabilities.',
+    icon: Calculator,
+    useCase: 'Market-informed draw coverage',
+    probabilities: [
+      { fixtureId: '1', homeTeam: 'Arsenal', awayTeam: 'Chelsea', homeWinProbability: 51.00, drawProbability: 27.75, awayWinProbability: 21.25 },
+      { fixtureId: '2', homeTeam: 'Liverpool', awayTeam: 'Man City', homeWinProbability: 33.46, drawProbability: 28.49, awayWinProbability: 38.05 },
+      { fixtureId: '3', homeTeam: 'Man United', awayTeam: 'Tottenham', homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51 },
+    ],
+  },
+  {
+    id: 'I',
+    name: 'Set I: Formula-Based Draw',
+    description: 'Set A + Draw adjusted by formula considering entropy, spread, and market divergence. Intelligently adjusts draw probabilities based on match characteristics.',
+    icon: Calculator,
+    useCase: 'Balanced optimization',
+    probabilities: [
+      { fixtureId: '1', homeTeam: 'Arsenal', awayTeam: 'Chelsea', homeWinProbability: 48.00, drawProbability: 31.86, awayWinProbability: 20.14 },
+      { fixtureId: '2', homeTeam: 'Liverpool', awayTeam: 'Man City', homeWinProbability: 32.15, drawProbability: 28.45, awayWinProbability: 39.40 },
+      { fixtureId: '3', homeTeam: 'Man United', awayTeam: 'Tottenham', homeWinProbability: 41.67, drawProbability: 29.33, awayWinProbability: 29.00 },
+    ],
+  },
+  {
+    id: 'J',
+    name: 'Set J: System-Selected Draw Strategy',
+    description: 'Set G + Draw adjusted by system-selected optimal strategy (adaptive 1.05x to 1.25x). Automatically selects best draw adjustment based on match context.',
+    icon: Calculator,
+    useCase: 'Adaptive intelligent coverage',
+    probabilities: [
+      { fixtureId: '1', homeTeam: 'Arsenal', awayTeam: 'Chelsea', homeWinProbability: 51.00, drawProbability: 28.50, awayWinProbability: 20.50 },
+      { fixtureId: '2', homeTeam: 'Liverpool', awayTeam: 'Man City', homeWinProbability: 33.46, drawProbability: 29.20, awayWinProbability: 37.34 },
+      { fixtureId: '3', homeTeam: 'Man United', awayTeam: 'Tottenham', homeWinProbability: 40.45, drawProbability: 30.50, awayWinProbability: 29.05 },
+    ],
+  },
 ];
 
 type Selection = '1' | 'X' | '2' | null;
@@ -118,7 +154,7 @@ export default function SetsComparison() {
   const jackpotId = searchParams.get('jackpotId');
   
   const [showDelta, setShowDelta] = useState(false);
-  const [selectedSets, setSelectedSets] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G']);
+  const [selectedSets, setSelectedSets] = useState(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']);
   const [loadedSets, setLoadedSets] = useState<Record<string, any>>({});
   const [loading, setLoading] = useState(false);
   const [actualResults, setActualResults] = useState<Record<string, Selection>>({});
@@ -426,7 +462,7 @@ export default function SetsComparison() {
   return (
     <PageLayout
       title="Probability Sets Comparison"
-      description="Compare 7 different probability estimation approaches (A-G)"
+      description="Compare 10 different probability estimation approaches (A-J)"
       icon={<Scale className="h-6 w-6" />}
     >
         <div className="flex items-center gap-4">
@@ -558,9 +594,114 @@ export default function SetsComparison() {
               <span className="text-primary font-bold">Set G:</span>
               <span className="text-muted-foreground ml-2">P = Σw_i×P_i where w_i ∝ 1/BS_i</span>
             </div>
+            <div className="p-3 rounded-lg bg-background/50">
+              <span className="text-primary font-bold">Set H:</span>
+              <span className="text-muted-foreground ml-2">P_X' = 0.7×P_X(B) + 0.3×O_X</span>
+            </div>
+            <div className="p-3 rounded-lg bg-background/50">
+              <span className="text-primary font-bold">Set I:</span>
+              <span className="text-muted-foreground ml-2">P_X' = P_X(A)×f(entropy,spread)</span>
+            </div>
+            <div className="p-3 rounded-lg bg-background/50 md:col-span-2">
+              <span className="text-primary font-bold">Set J:</span>
+              <span className="text-muted-foreground ml-2">P_X' = P_X(G)×strategy(λ_h,λ_a) [1.05x-1.25x]</span>
+            </div>
           </div>
         </CardContent>
       </Card>
+
+      {/* Outcome Type Summary */}
+      {!showDelta && (
+        <Card className="glass-card bg-primary/5 border-primary/20">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base flex items-center gap-2">
+              <TrendingUp className="h-4 w-4 text-primary" />
+              Overall Outcome Dominance
+            </CardTitle>
+            <CardDescription>
+              Which outcome type has the highest probabilities across all sets and fixtures
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            {useMemo(() => {
+              // Calculate average probabilities for each outcome type across all fixtures and sets
+              let totalHome = 0;
+              let totalDraw = 0;
+              let totalAway = 0;
+              let count = 0;
+
+              baseSet.probabilities.forEach((baseProbability) => {
+                visibleSets.forEach(set => {
+                  const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                  if (prob) {
+                    totalHome += prob.homeWinProbability || 0;
+                    totalDraw += prob.drawProbability || 0;
+                    totalAway += prob.awayWinProbability || 0;
+                    count++;
+                  }
+                });
+              });
+
+              const avgHome = count > 0 ? totalHome / count : 0;
+              const avgDraw = count > 0 ? totalDraw / count : 0;
+              const avgAway = count > 0 ? totalAway / count : 0;
+
+              const maxAvg = Math.max(avgHome, avgDraw, avgAway);
+              const winner = maxAvg === avgHome ? 'Home' : maxAvg === avgDraw ? 'Draw' : 'Away';
+
+              return (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className={`p-4 rounded-lg border-2 ${
+                    winner === 'Home' 
+                      ? 'bg-blue-500/20 border-blue-500/50' 
+                      : 'bg-background/50 border-border'
+                  }`}>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-medium text-muted-foreground">Home Win</span>
+                      {winner === 'Home' && <span className="text-blue-600 dark:text-blue-400 text-xs">★ Highest</span>}
+                    </div>
+                    <div className={`text-2xl font-bold ${
+                      winner === 'Home' ? 'text-blue-600 dark:text-blue-400' : 'text-foreground'
+                    }`}>
+                      {formatProbability(avgHome)}%
+                    </div>
+                  </div>
+                  <div className={`p-4 rounded-lg border-2 ${
+                    winner === 'Draw' 
+                      ? 'bg-purple-500/20 border-purple-500/50' 
+                      : 'bg-background/50 border-border'
+                  }`}>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-medium text-muted-foreground">Draw</span>
+                      {winner === 'Draw' && <span className="text-purple-600 dark:text-purple-400 text-xs">★ Highest</span>}
+                    </div>
+                    <div className={`text-2xl font-bold ${
+                      winner === 'Draw' ? 'text-purple-600 dark:text-purple-400' : 'text-foreground'
+                    }`}>
+                      {formatProbability(avgDraw)}%
+                    </div>
+                  </div>
+                  <div className={`p-4 rounded-lg border-2 ${
+                    winner === 'Away' 
+                      ? 'bg-green-500/20 border-green-500/50' 
+                      : 'bg-background/50 border-border'
+                  }`}>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-medium text-muted-foreground">Away Win</span>
+                      {winner === 'Away' && <span className="text-green-600 dark:text-green-400 text-xs">★ Highest</span>}
+                    </div>
+                    <div className={`text-2xl font-bold ${
+                      winner === 'Away' ? 'text-green-600 dark:text-green-400' : 'text-foreground'
+                    }`}>
+                      {formatProbability(avgAway)}%
+                    </div>
+                  </div>
+                </div>
+              );
+            }, [baseSet, visibleSets, showDelta, formatProbability])}
+          </CardContent>
+        </Card>
+      )}
 
       {/* Comparison Table */}
       <Card className="glass-card">
@@ -569,7 +710,7 @@ export default function SetsComparison() {
           <CardDescription>
             {showDelta 
               ? 'Showing differences relative to Set A (Pure Model)'
-              : 'Showing absolute probabilities for each selected set'
+              : 'Showing absolute probabilities for each selected set. ★ indicates highest probability in row.'
             }
           </CardDescription>
         </CardHeader>
@@ -617,6 +758,13 @@ export default function SetsComparison() {
                       const entropyLevel = getEntropyLevel(entropy);
                       const dominance = getDominanceIndicator(baseProbability);
                       
+                      // Find max value across all sets for this fixture (for highlighting)
+                      const homeValues = visibleSets.map(set => {
+                        const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                        return prob?.homeWinProbability || 0;
+                      });
+                      const maxHomeValue = Math.max(...homeValues);
+                      
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
@@ -643,16 +791,21 @@ export default function SetsComparison() {
                             const baseValue = baseProbability.homeWinProbability;
                             const predicted = prob ? getHighestProbOutcome(prob) : null;
                             const isCorrect = actualResult && predicted === actualResult;
+                            const isMax = !showDelta && Math.abs(value - maxHomeValue) < 0.01;
                             
                             return (
-                              <TableCell key={set.id} className="text-right tabular-nums">
+                              <TableCell 
+                                key={set.id} 
+                                className={`text-right tabular-nums ${isMax ? 'bg-primary/20 font-semibold' : ''}`}
+                              >
                                 {showDelta && set.id !== 'A' ? (
                                   <span className={getDeltaColor(value, baseValue)}>
                                     {formatDelta(value, baseValue)}
                                   </span>
                                 ) : (
                                   <div className="flex items-center justify-end gap-1">
-                                    <span>{formatProbability(value)}%</span>
+                                    <span className={isMax ? 'text-primary font-bold' : ''}>{formatProbability(value)}%</span>
+                                    {isMax && <span className="text-primary text-xs">★</span>}
                                     {actualResult && predicted === '1' && (
                                       <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
                                         {isCorrect ? '✓' : '✗'}
@@ -710,6 +863,14 @@ export default function SetsComparison() {
                   <TableBody>
                     {baseSet.probabilities.map((baseProbability) => {
                       const actualResult = actualResults[baseProbability.fixtureId];
+                      
+                      // Find max value across all sets for this fixture (for highlighting)
+                      const drawValues = visibleSets.map(set => {
+                        const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                        return prob?.drawProbability || 0;
+                      });
+                      const maxDrawValue = Math.max(...drawValues);
+                      
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
@@ -721,16 +882,21 @@ export default function SetsComparison() {
                             const baseValue = baseProbability.drawProbability;
                             const predicted = prob ? getHighestProbOutcome(prob) : null;
                             const isCorrect = actualResult && predicted === actualResult;
+                            const isMax = !showDelta && Math.abs(value - maxDrawValue) < 0.01;
                             
                             return (
-                              <TableCell key={set.id} className="text-right tabular-nums">
+                              <TableCell 
+                                key={set.id} 
+                                className={`text-right tabular-nums ${isMax ? 'bg-purple-500/20 font-semibold' : ''}`}
+                              >
                                 {showDelta && set.id !== 'A' ? (
                                   <span className={getDeltaColor(value, baseValue)}>
                                     {formatDelta(value, baseValue)}
                                   </span>
                                 ) : (
                                   <div className="flex items-center justify-end gap-1">
-                                    <span>{formatProbability(value)}%</span>
+                                    <span className={isMax ? 'text-purple-600 dark:text-purple-400 font-bold' : ''}>{formatProbability(value)}%</span>
+                                    {isMax && <span className="text-purple-600 dark:text-purple-400 text-xs">★</span>}
                                     {actualResult && predicted === 'X' && (
                                       <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
                                         {isCorrect ? '✓' : '✗'}
@@ -788,6 +954,14 @@ export default function SetsComparison() {
                   <TableBody>
                     {baseSet.probabilities.map((baseProbability) => {
                       const actualResult = actualResults[baseProbability.fixtureId];
+                      
+                      // Find max value across all sets for this fixture (for highlighting)
+                      const awayValues = visibleSets.map(set => {
+                        const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
+                        return prob?.awayWinProbability || 0;
+                      });
+                      const maxAwayValue = Math.max(...awayValues);
+                      
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
@@ -799,16 +973,21 @@ export default function SetsComparison() {
                             const baseValue = baseProbability.awayWinProbability;
                             const predicted = prob ? getHighestProbOutcome(prob) : null;
                             const isCorrect = actualResult && predicted === actualResult;
+                            const isMax = !showDelta && Math.abs(value - maxAwayValue) < 0.01;
                             
                             return (
-                              <TableCell key={set.id} className="text-right tabular-nums">
+                              <TableCell 
+                                key={set.id} 
+                                className={`text-right tabular-nums ${isMax ? 'bg-green-500/20 font-semibold' : ''}`}
+                              >
                                 {showDelta && set.id !== 'A' ? (
                                   <span className={getDeltaColor(value, baseValue)}>
                                     {formatDelta(value, baseValue)}
                                   </span>
                                 ) : (
                                   <div className="flex items-center justify-end gap-1">
-                                    <span>{formatProbability(value)}%</span>
+                                    <span className={isMax ? 'text-green-600 dark:text-green-400 font-bold' : ''}>{formatProbability(value)}%</span>
+                                    {isMax && <span className="text-green-600 dark:text-green-400 text-xs">★</span>}
                                     {actualResult && predicted === '2' && (
                                       <span className={isCorrect ? 'text-green-600' : 'text-red-600'}>
                                         {isCorrect ? '✓' : '✗'}

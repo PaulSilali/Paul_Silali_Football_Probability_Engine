@@ -1,0 +1,228 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC0,1718,2017-02-12,Ross County,Dundee United,12,16,False
+SC0,1718,2017-02-12,Celtic,Motherwell,8,12,False
+SC0,1718,2017-02-12,Hearts,Hamilton,8,12,False
+SC0,1718,2017-02-12,Partick,Hibernian,15,7,False
+SC0,1718,2017-02-12,St Johnstone,Kilmarnock,15,15,False
+SC0,1718,2017-03-12,Aberdeen,Rangers,12,16,False
+SC0,1718,2017-04-11,Hibernian,Dundee United,58,7,True
+SC0,1718,2017-04-11,St Johnstone,Celtic,24,23,True
+SC0,1718,2017-04-11,Rangers,Partick,9,9,True
+SC0,1718,2017-04-11,Hamilton,Aberdeen,9,7,True
+SC0,1718,2017-04-11,Ross County,Motherwell,7,8,True
+SC0,1718,2017-05-08,Dundee United,Ross County,9,10,False
+SC0,1718,2017-05-08,Kilmarnock,St Johnstone,4,4,False
+SC0,1718,2017-05-08,Celtic,Hearts,4,4,False
+SC0,1718,2017-05-08,Hibernian,Partick,27,4,False
+SC0,1718,2017-05-11,Hearts,Kilmarnock,3,3,True
+SC0,1718,2017-06-08,Motherwell,Rangers,3,18,True
+SC0,1718,2017-06-08,Aberdeen,Hamilton,18,3,True
+SC0,1718,2017-08-09,Hamilton,Celtic,5,5,True
+SC0,1718,2017-08-12,Dundee United,Aberdeen,8,38,False
+SC0,1718,2017-08-19,Hibernian,Hamilton,103,10,False
+SC0,1718,2017-08-19,Aberdeen,Dundee United,7,7,False
+SC0,1718,2017-08-19,Kilmarnock,Celtic,15,10,False
+SC0,1718,2017-08-19,Motherwell,Ross County,15,15,False
+SC0,1718,2017-08-19,Rangers,Hearts,45,15,False
+SC0,1718,2017-08-19,St Johnstone,Partick,15,15,False
+SC0,1718,2017-08-26,Motherwell,Hearts,7,7,False
+SC0,1718,2017-08-26,Partick,Aberdeen,7,7,False
+SC0,1718,2017-08-26,Celtic,St Johnstone,7,7,False
+SC0,1718,2017-08-26,Kilmarnock,Hamilton,7,7,False
+SC0,1718,2017-08-27,Dundee United,Hibernian,8,8,False
+SC0,1718,2017-08-27,Ross County,Rangers,8,8,False
+SC0,1718,2017-09-09,Hearts,Aberdeen,14,5,False
+SC0,1718,2017-09-09,Ross County,Partick,13,14,False
+SC0,1718,2017-09-09,St Johnstone,Hibernian,14,13,False
+SC0,1718,2017-09-09,Rangers,Dundee United,5,13,False
+SC0,1718,2017-09-09,Motherwell,Kilmarnock,14,14,False
+SC0,1718,2017-09-12,Rangers,Ross County,3,3,True
+SC0,1718,2017-09-12,Hamilton,St Johnstone,17,3,True
+SC0,1718,2017-09-12,Hearts,Motherwell,3,3,True
+SC0,1718,2017-09-12,Kilmarnock,Partick,3,3,True
+SC0,1718,2017-09-15,Partick,Rangers,3,3,False
+SC0,1718,2017-09-16,Dundee United,St Johnstone,7,4,False
+SC0,1718,2017-09-16,Celtic,Ross County,21,4,False
+SC0,1718,2017-09-16,Aberdeen,Kilmarnock,7,4,False
+SC0,1718,2017-09-16,Hibernian,Motherwell,7,4,False
+SC0,1718,2017-09-16,Hamilton,Hearts,4,4,False
+SC0,1718,2017-09-23,Ross County,Hibernian,7,7,False
+SC0,1718,2017-09-23,Rangers,Celtic,8,7,False
+SC0,1718,2017-09-23,Partick,Hearts,8,7,False
+SC0,1718,2017-09-23,Kilmarnock,Dundee United,7,7,False
+SC0,1718,2017-09-23,St Johnstone,Hamilton,7,7,False
+SC0,1718,2017-09-24,Motherwell,Aberdeen,8,8,False
+SC0,1718,2017-09-29,Hamilton,Rangers,6,6,False
+SC0,1718,2017-09-30,Aberdeen,St Johnstone,6,7,False
+SC0,1718,2017-09-30,Celtic,Hibernian,7,7,False
+SC0,1718,2017-09-30,Dundee United,Hearts,7,7,False
+SC0,1718,2017-09-30,Kilmarnock,Ross County,7,7,False
+SC0,1718,2017-09-30,Motherwell,Partick,6,7,False
+SC0,1718,2017-10-12,Hibernian,Celtic,12,12,True
+SC0,1718,2017-10-13,St Johnstone,Rangers,13,14,False
+SC0,1718,2017-10-14,Partick,Kilmarnock,14,14,False
+SC0,1718,2017-10-14,Celtic,Dundee United,2,14,False
+SC0,1718,2017-10-14,Hamilton,Motherwell,15,14,False
+SC0,1718,2017-10-14,Hibernian,Aberdeen,2,14,False
+SC0,1718,2017-10-14,Ross County,Hearts,14,14,False
+SC0,1718,2017-10-21,Hearts,St Johnstone,7,8,False
+SC0,1718,2017-10-21,Ross County,Hamilton,7,7,False
+SC0,1718,2017-10-21,Partick,Dundee United,7,7,False
+SC0,1718,2017-10-24,Hibernian,Hearts,10,3,True
+SC0,1718,2017-10-24,St Johnstone,Ross County,3,3,True
+SC0,1718,2017-10-24,Hamilton,Partick,3,3,True
+SC0,1718,2017-10-25,Rangers,Kilmarnock,12,11,True
+SC0,1718,2017-10-25,Dundee United,Motherwell,4,11,True
+SC0,1718,2017-10-25,Aberdeen,Celtic,11,11,True
+SC0,1718,2017-10-28,Motherwell,Hibernian,3,4,False
+SC0,1718,2017-10-28,Partick,St Johnstone,4,4,False
+SC0,1718,2017-10-28,Aberdeen,Ross County,3,4,False
+SC0,1718,2017-10-28,Celtic,Kilmarnock,3,3,False
+SC0,1718,2017-10-28,Dundee United,Hamilton,3,4,False
+SC0,1718,2017-10-28,Hearts,Rangers,4,3,False
+SC0,1718,2017-10-31,Kilmarnock,Hibernian,3,3,True
+SC0,1718,2017-11-08,Partick,Celtic,5,11,True
+SC0,1718,2017-11-18,Rangers,Hamilton,21,15,False
+SC0,1718,2017-11-18,Ross County,Celtic,15,10,False
+SC0,1718,2017-11-18,Dundee United,Kilmarnock,15,15,False
+SC0,1718,2017-11-18,Hibernian,St Johnstone,18,15,False
+SC0,1718,2017-11-18,Aberdeen,Motherwell,15,15,False
+SC0,1718,2017-11-19,Hearts,Partick,16,11,False
+SC0,1718,2017-11-24,Dundee United,Rangers,6,6,False
+SC0,1718,2017-11-25,Hamilton,Hibernian,7,7,False
+SC0,1718,2017-11-25,Hearts,Ross County,6,7,False
+SC0,1718,2017-11-26,Kilmarnock,Aberdeen,8,8,False
+SC0,1718,2017-11-29,Rangers,Aberdeen,5,3,True
+SC0,1718,2017-11-29,Motherwell,Celtic,11,11,True
+SC0,1718,2017-12-08,Rangers,Hibernian,5,13,False
+SC0,1718,2017-12-08,Kilmarnock,Hearts,12,13,False
+SC0,1718,2017-12-08,Hamilton,Dundee United,13,14,False
+SC0,1718,2017-12-08,Ross County,Aberdeen,13,3,False
+SC0,1718,2017-12-08,St Johnstone,Motherwell,20,9,False
+SC0,1718,2017-12-12,Ross County,Kilmarnock,4,4,True
+SC0,1718,2017-12-12,Hearts,Dundee United,4,4,True
+SC0,1718,2017-12-13,Hibernian,Rangers,5,5,True
+SC0,1718,2017-12-13,Partick,Motherwell,24,5,True
+SC0,1718,2017-12-13,St Johnstone,Aberdeen,5,5,True
+SC0,1718,2017-12-13,Celtic,Hamilton,8,5,True
+SC0,1718,2017-12-16,Rangers,St Johnstone,3,3,False
+SC0,1718,2017-12-16,Hamilton,Ross County,3,4,False
+SC0,1718,2017-12-16,Kilmarnock,Motherwell,4,3,False
+SC0,1718,2017-12-16,Dundee United,Partick,4,3,False
+SC0,1718,2017-12-16,Aberdeen,Hibernian,3,3,False
+SC0,1718,2017-12-17,Hearts,Celtic,5,4,False
+SC0,1718,2017-12-20,Celtic,Partick,3,4,True
+SC0,1718,2017-12-23,Hibernian,Ross County,7,7,False
+SC0,1718,2017-12-23,Celtic,Aberdeen,3,7,False
+SC0,1718,2017-12-23,Kilmarnock,Rangers,7,7,False
+SC0,1718,2017-12-23,Motherwell,Dundee United,7,7,False
+SC0,1718,2017-12-23,Partick,Hamilton,3,7,False
+SC0,1718,2017-12-23,St Johnstone,Hearts,7,6,False
+SC0,1718,2017-12-26,Dundee United,Celtic,3,3,True
+SC0,1718,2017-12-27,Rangers,Motherwell,4,4,True
+SC0,1718,2017-12-27,Ross County,St Johnstone,4,4,True
+SC0,1718,2017-12-27,Hearts,Hibernian,4,4,True
+SC0,1718,2017-12-27,Aberdeen,Partick,4,4,True
+SC0,1718,2017-12-30,Celtic,Rangers,4,3,False
+SC0,1718,2017-12-30,Hibernian,Kilmarnock,3,7,False
+SC0,1718,2017-12-30,Motherwell,Hamilton,3,7,False
+SC0,1718,2017-12-30,Partick,Ross County,3,3,False
+SC0,1718,2017-12-30,St Johnstone,Dundee United,3,4,False
+SC0,1718,2017-12-30,Aberdeen,Hearts,3,3,False
+SC0,1718,2018-01-04,Dundee United,Hearts,5,5,True
+SC0,1718,2018-01-23,Partick,Celtic,24,24,True
+SC0,1718,2018-01-24,Motherwell,Ross County,25,25,True
+SC0,1718,2018-01-24,Rangers,Aberdeen,25,25,True
+SC0,1718,2018-01-24,Hamilton,Hearts,25,20,True
+SC0,1718,2018-01-24,Dundee United,Hibernian,20,25,True
+SC0,1718,2018-01-27,Aberdeen,Kilmarnock,3,28,False
+SC0,1718,2018-01-27,Hearts,Motherwell,3,3,False
+SC0,1718,2018-01-27,St Johnstone,Partick,28,4,False
+SC0,1718,2018-01-27,Hamilton,Dundee United,3,3,False
+SC0,1718,2018-01-27,Celtic,Hibernian,4,3,False
+SC0,1718,2018-01-28,Ross County,Rangers,4,4,False
+SC0,1718,2018-01-30,Celtic,Hearts,3,3,True
+SC0,1718,2018-01-31,Ross County,Aberdeen,3,4,True
+SC0,1718,2018-01-31,Hibernian,Motherwell,4,4,True
+SC0,1718,2018-02-13,Kilmarnock,Dundee United,17,17,True
+SC0,1718,2018-02-17,Ross County,Hearts,17,18,False
+SC0,1718,2018-02-17,Partick,Dundee United,21,4,False
+SC0,1718,2018-02-17,Motherwell,Kilmarnock,17,4,False
+SC0,1718,2018-02-17,Hibernian,Aberdeen,17,17,False
+SC0,1718,2018-02-18,Hamilton,Rangers,22,21,False
+SC0,1718,2018-02-18,Celtic,St Johnstone,19,22,False
+SC0,1718,2018-02-24,Kilmarnock,Hibernian,7,7,False
+SC0,1718,2018-02-24,Rangers,Hearts,6,7,False
+SC0,1718,2018-02-24,St Johnstone,Ross County,6,7,False
+SC0,1718,2018-02-24,Dundee United,Motherwell,7,7,False
+SC0,1718,2018-02-24,Hamilton,Partick,6,7,False
+SC0,1718,2018-02-25,Aberdeen,Celtic,8,7,False
+SC0,1718,2018-02-27,St Johnstone,Rangers,3,3,True
+SC0,1718,2018-02-27,Hearts,Kilmarnock,3,3,True
+SC0,1718,2018-03-02,Dundee United,Ross County,6,6,False
+SC0,1718,2018-03-02,Rangers,Hibernian,3,6,False
+SC0,1718,2018-03-02,Motherwell,Partick,6,6,False
+SC0,1718,2018-03-02,Kilmarnock,Celtic,3,5,False
+SC0,1718,2018-03-02,Hearts,St Johnstone,3,3,False
+SC0,1718,2018-03-02,Aberdeen,Hamilton,5,6,False
+SC0,1718,2018-03-04,Hibernian,Hamilton,2,2,False
+SC0,1718,2018-03-04,Motherwell,Aberdeen,2,2,False
+SC0,1718,2018-03-04,Ross County,Partick,2,2,False
+SC0,1718,2018-03-16,St Johnstone,Hibernian,14,12,False
+SC0,1718,2018-03-17,Hearts,Partick,15,13,False
+SC0,1718,2018-03-17,Ross County,Hamilton,13,13,False
+SC0,1718,2018-03-17,Rangers,Kilmarnock,15,15,False
+SC0,1718,2018-03-17,Aberdeen,Dundee United,13,15,False
+SC0,1718,2018-03-18,Motherwell,Celtic,14,16,False
+SC0,1718,2018-03-28,St Johnstone,Hamilton,12,11,True
+SC0,1718,2018-03-31,Hibernian,Partick,15,14,False
+SC0,1718,2018-03-31,Motherwell,Rangers,13,14,False
+SC0,1718,2018-03-31,Celtic,Ross County,13,14,False
+SC0,1718,2018-03-31,Kilmarnock,Hamilton,14,3,False
+SC0,1718,2018-03-31,Aberdeen,St Johnstone,14,3,False
+SC0,1718,2018-04-04,Celtic,Dundee United,4,18,True
+SC0,1718,2018-04-05,Partick,Ross County,5,5,True
+SC0,1718,2018-04-14,Hamilton,Kilmarnock,14,14,False
+SC0,1718,2018-04-21,Kilmarnock,Aberdeen,7,21,False
+SC0,1718,2018-04-21,Ross County,Motherwell,16,21,False
+SC0,1718,2018-04-21,Partick,Hamilton,16,7,False
+SC0,1718,2018-04-21,Hibernian,Celtic,21,17,False
+SC0,1718,2018-04-21,Dundee United,St Johnstone,17,21,False
+SC0,1718,2018-04-22,Rangers,Hearts,22,36,False
+SC0,1718,2018-04-27,Aberdeen,Hearts,6,5,False
+SC0,1718,2018-04-28,Hibernian,Kilmarnock,7,7,False
+SC0,1718,2018-04-28,Hamilton,Ross County,7,7,False
+SC0,1718,2018-04-28,Motherwell,Dundee United,7,7,False
+SC0,1718,2018-04-28,St Johnstone,Partick,7,7,False
+SC0,1718,2018-04-29,Celtic,Rangers,8,7,False
+SC0,1718,2018-05-05,Aberdeen,Hibernian,8,7,False
+SC0,1718,2018-05-05,Dundee United,Hamilton,7,7,False
+SC0,1718,2018-05-05,Rangers,Kilmarnock,6,7,False
+SC0,1718,2018-05-05,Motherwell,St Johnstone,7,7,False
+SC0,1718,2018-05-13,Kilmarnock,Hearts,8,16,False
+SC0,1718,2018-05-13,Celtic,Aberdeen,14,8,False
+SC0,1718,2018-05-13,Hibernian,Rangers,8,8,False
+SC0,1718,2018-06-02,Motherwell,St Johnstone,28,28,False
+SC0,1718,2018-06-02,Partick,Rangers,35,20,False
+SC0,1718,2018-06-05,Hearts,Celtic,23,23,True
+SC0,1718,2018-07-03,Kilmarnock,St Johnstone,51,31,True
+SC0,1718,2018-07-04,St Johnstone,Motherwell,1,32,True
+SC0,1718,2018-07-04,Partick,Kilmarnock,32,1,True
+SC0,1718,2018-07-04,Hearts,Aberdeen,29,52,True
+SC0,1718,2018-07-04,Rangers,Dundee United,32,60,True
+SC0,1718,2018-07-04,Ross County,Hibernian,67,52,True
+SC0,1718,2018-08-04,Hamilton,Celtic,91,60,False
+SC0,1718,2018-08-05,Ross County,Dundee United,32,1,False
+SC0,1718,2018-08-05,Hamilton,St Johnstone,1,1,False
+SC0,1718,2018-08-05,Partick,Motherwell,32,32,False
+SC0,1718,2018-09-03,Hibernian,Hearts,2,2,False
+SC0,1718,2018-09-05,Hearts,Hibernian,2,2,True
+SC0,1718,2018-09-05,Celtic,Kilmarnock,3,4,True
+SC0,1718,2018-10-03,Partick,Aberdeen,59,4,True
+SC0,1718,2018-10-03,Hamilton,Motherwell,4,4,True
+SC0,1718,2018-10-03,Kilmarnock,Ross County,4,59,True
+SC0,1718,2018-10-03,Dundee United,St Johnstone,4,4,True
+SC0,1718,2018-11-03,Rangers,Celtic,3,3,False
+SC0,1718,2018-12-05,Dundee United,Partick,11,63,True
+SC0,1718,2018-12-05,Motherwell,Hamilton,4,4,True
+SC0,1718,2018-12-05,St Johnstone,Ross County,11,63,True

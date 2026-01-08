@@ -1,0 +1,124 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8989,RB Leipzig,8995,Wolfsburg,2526,1,0,0.0,1.0
+8996,Leverkusen,9003,M'gladbach,2526,1,1,1.0,2.0
+8992,Freiburg,8997,Union Berlin,2526,1,1,1.0,
+8988,Bayern Munich,8989,RB Leipzig,2526,1,0,0.0,6.0
+9002,FC Koln,9004,Hamburg,2526,1,0,0.0,5.0
+8989,RB Leipzig,8993,Augsburg,2526,1,0,0.0,6.0
+8989,RB Leipzig,8994,Heidenheim,2526,2,0,0.0,3.0
+8988,Bayern Munich,9001,Mainz,2526,1,1,1.0,4.0
+8993,Augsburg,8995,Wolfsburg,2526,1,0,0.0,4.0
+8990,Ein Frankfurt,8997,Union Berlin,2526,1,0,0.0,7.0
+8995,Wolfsburg,9001,Mainz,2526,1,1,1.0,2.0
+8992,Freiburg,9002,FC Koln,2526,1,0,0.0,5.0
+8998,Stuttgart,9003,M'gladbach,2526,1,0,0.0,1.0
+8994,Heidenheim,9003,M'gladbach,2526,1,0,0.0,3.0
+8989,RB Leipzig,9002,FC Koln,2526,1,0,0.0,4.0
+8993,Augsburg,8999,St Pauli,2526,1,0,0.0,3.0
+9000,Dortmund,9003,M'gladbach,2526,1,0,0.0,2.0
+8990,Ein Frankfurt,9004,Hamburg,2526,1,1,1.0,2.0
+8995,Wolfsburg,9004,Hamburg,2526,1,0,0.0,1.0
+8990,Ein Frankfurt,8993,Augsburg,2526,1,0,0.0,1.0
+8991,Werder Bremen,9002,FC Koln,2526,1,1,1.0,2.0
+8989,RB Leipzig,8996,Leverkusen,2526,1,0,0.0,4.0
+8991,Werder Bremen,8997,Union Berlin,2526,1,0,0.0,1.0
+8989,RB Leipzig,9004,Hamburg,2526,1,0,0.0,3.0
+9000,Dortmund,9002,FC Koln,2526,1,0,0.0,1.0
+8995,Wolfsburg,8996,Leverkusen,2526,1,0,0.0,4.0
+9003,M'gladbach,9004,Hamburg,2526,1,1,1.0,
+8991,Werder Bremen,9003,M'gladbach,2526,1,0,0.0,4.0
+9001,Mainz,9002,FC Koln,2526,1,0,0.0,1.0
+8988,Bayern Munich,8994,Heidenheim,2526,2,0,0.0,4.5
+8990,Ein Frankfurt,8999,St Pauli,2526,1,0,0.0,2.0
+8991,Werder Bremen,9004,Hamburg,2526,1,0,0.0,5.0
+8992,Freiburg,8996,Leverkusen,2526,1,0,0.0,2.0
+8997,Union Berlin,9000,Dortmund,2526,1,0,0.0,3.0
+8994,Heidenheim,9000,Dortmund,2526,2,0,0.0,2.0
+8988,Bayern Munich,8996,Leverkusen,2526,1,0,0.0,3.0
+8997,Union Berlin,8999,St Pauli,2526,1,0,0.0,1.0
+8999,St Pauli,9004,Hamburg,2526,1,0,0.0,2.0
+8995,Wolfsburg,8998,Stuttgart,2526,1,0,0.0,3.0
+8988,Bayern Munich,9003,M'gladbach,2526,1,0,0.0,3.0
+8994,Heidenheim,8998,Stuttgart,2526,2,1,0.5,0.5
+8999,St Pauli,9000,Dortmund,2526,1,1,1.0,6.0
+8988,Bayern Munich,8999,St Pauli,2526,1,0,0.0,4.0
+8994,Heidenheim,8999,St Pauli,2526,2,0,0.0,3.0
+9002,FC Koln,9003,M'gladbach,2526,1,0,0.0,4.0
+8993,Augsburg,8994,Heidenheim,2526,2,0,0.0,3.0
+8993,Augsburg,8996,Leverkusen,2526,1,0,0.0,2.0
+8989,RB Leipzig,9001,Mainz,2526,1,0,0.0,1.0
+9001,Mainz,9004,Hamburg,2526,1,0,0.0,4.0
+8988,Bayern Munich,9004,Hamburg,2526,1,0,0.0,5.0
+8989,RB Leipzig,8997,Union Berlin,2526,1,0,0.0,4.0
+8997,Union Berlin,8998,Stuttgart,2526,1,0,0.0,3.0
+8988,Bayern Munich,8990,Ein Frankfurt,2526,1,0,0.0,3.0
+8995,Wolfsburg,9003,M'gladbach,2526,1,0,0.0,4.0
+8989,RB Leipzig,9003,M'gladbach,2526,1,1,1.0,
+9000,Dortmund,9004,Hamburg,2526,1,1,1.0,2.0
+8998,Stuttgart,9001,Mainz,2526,1,0,0.0,3.0
+8994,Heidenheim,9004,Hamburg,2526,2,0,0.0,4.0
+8990,Ein Frankfurt,9001,Mainz,2526,1,0,0.0,1.0
+8998,Stuttgart,8999,St Pauli,2526,1,0,0.0,2.0
+8991,Werder Bremen,9001,Mainz,2526,1,1,1.0,2.0
+8994,Heidenheim,9002,FC Koln,2526,1,0,0.0,1.0
+8996,Leverkusen,9000,Dortmund,2526,1,0,0.0,3.0
+8990,Ein Frankfurt,8996,Leverkusen,2526,1,0,0.0,4.0
+8988,Bayern Munich,8991,Werder Bremen,2526,1,0,0.0,4.0
+8993,Augsburg,9000,Dortmund,2526,1,0,0.0,1.0
+8990,Ein Frankfurt,8991,Werder Bremen,2526,1,0,0.0,5.0
+8993,Augsburg,9001,Mainz,2526,1,0,0.0,5.0
+8992,Freiburg,9001,Mainz,2526,1,0,0.0,4.0
+8994,Heidenheim,8994,Heidenheim,2526,1,0,0.0,4.0
+8997,Union Berlin,9002,FC Koln,2526,1,0,0.0,1.0
+8989,RB Leipzig,8990,Ein Frankfurt,2526,1,0,0.0,6.0
+8988,Bayern Munich,8997,Union Berlin,2526,1,1,1.0,4.0
+8993,Augsburg,8998,Stuttgart,2526,1,0,0.0,5.0
+8999,St Pauli,9002,FC Koln,2526,1,1,1.0,2.0
+8990,Ein Frankfurt,9002,FC Koln,2526,1,0,0.0,7.0
+8988,Bayern Munich,8998,Stuttgart,2526,1,0,0.0,5.0
+8993,Augsburg,9002,FC Koln,2526,1,1,1.0,2.0
+8990,Ein Frankfurt,9003,M'gladbach,2526,1,0,0.0,10.0
+8992,Freiburg,9000,Dortmund,2526,1,1,1.0,2.0
+8991,Werder Bremen,8999,St Pauli,2526,1,0,0.0,1.0
+8992,Freiburg,8995,Wolfsburg,2526,1,0,0.0,7.0
+9001,Mainz,9003,M'gladbach,2526,1,0,0.0,1.0
+8996,Leverkusen,8997,Union Berlin,2526,1,0,0.0,2.0
+8989,RB Leipzig,8998,Stuttgart,2526,1,0,0.0,4.0
+8988,Bayern Munich,8992,Freiburg,2526,1,0,0.0,8.0
+8992,Freiburg,8994,Heidenheim,2526,2,1,0.5,2.5
+8988,Bayern Munich,8993,Augsburg,2526,1,0,0.0,5.0
+8994,Heidenheim,8996,Leverkusen,2526,2,0,0.0,4.5
+8991,Werder Bremen,8994,Heidenheim,2526,1,1,1.0,4.0
+8995,Wolfsburg,9002,FC Koln,2526,1,1,1.0,6.0
+8989,RB Leipzig,9000,Dortmund,2526,1,1,1.0,2.0
+8988,Bayern Munich,9000,Dortmund,2526,1,0,0.0,3.0
+8992,Freiburg,9003,M'gladbach,2526,1,1,1.0,
+8993,Augsburg,9004,Hamburg,2526,1,0,0.0,1.0
+8995,Wolfsburg,9000,Dortmund,2526,1,0,0.0,1.0
+8990,Ein Frankfurt,8995,Wolfsburg,2526,1,1,1.0,2.0
+8996,Leverkusen,8999,St Pauli,2526,1,0,0.0,3.0
+8994,Heidenheim,9001,Mainz,2526,1,1,1.0,2.0
+8998,Stuttgart,9004,Hamburg,2526,1,0,0.0,3.0
+8990,Ein Frankfurt,8994,Heidenheim,2526,2,1,0.5,3.0
+8992,Freiburg,8998,Stuttgart,2526,1,0,0.0,4.0
+8992,Freiburg,8993,Augsburg,2526,1,0,0.0,4.0
+8997,Union Berlin,9004,Hamburg,2526,1,1,1.0,
+8996,Leverkusen,9002,FC Koln,2526,1,0,0.0,2.0
+8998,Stuttgart,9000,Dortmund,2526,1,1,1.0,6.0
+8999,St Pauli,9003,M'gladbach,2526,1,0,0.0,4.0
+8991,Werder Bremen,8996,Leverkusen,2526,1,1,1.0,6.0
+8991,Werder Bremen,8995,Wolfsburg,2526,1,0,0.0,3.0
+8991,Werder Bremen,8992,Freiburg,2526,1,0,0.0,3.0
+8990,Ein Frankfurt,8992,Freiburg,2526,1,1,1.0,4.0
+8992,Freiburg,8999,St Pauli,2526,1,0,0.0,3.0
+8994,Heidenheim,8997,Union Berlin,2526,2,0,0.0,4.5
+8989,RB Leipzig,8991,Werder Bremen,2526,1,0,0.0,2.0
+8998,Stuttgart,9002,FC Koln,2526,1,0,0.0,3.0
+9000,Dortmund,9001,Mainz,2526,1,0,0.0,2.0
+8999,St Pauli,9001,Mainz,2526,1,1,1.0,
+8991,Werder Bremen,8993,Augsburg,2526,1,1,1.0,
+8991,Werder Bremen,8998,Stuttgart,2526,1,0,0.0,4.0
+8997,Union Berlin,9003,M'gladbach,2526,1,0,0.0,4.0
+8996,Leverkusen,9001,Mainz,2526,1,0,0.0,7.0
+8995,Wolfsburg,8997,Union Berlin,2526,1,0,0.0,4.0
+8994,Heidenheim,8995,Wolfsburg,2526,2,0,0.0,4.5

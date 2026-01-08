@@ -1,0 +1,462 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SP2,1718,2017-01-09,Granada,Barcelona B,7,7,False
+SP2,1718,2017-01-10,Huesca,Vallecano,5,5,True
+SP2,1718,2017-01-10,Sevilla B,Reus Deportiu,23,5,True
+SP2,1718,2017-01-10,Osasuna,Sp Gijon,7,7,True
+SP2,1718,2017-01-10,Lugo,Tenerife,24,24,True
+SP2,1718,2017-01-10,Alcorcon,Granada,24,1,True
+SP2,1718,2017-01-11,Gimnastic,Barcelona B,6,2,True
+SP2,1718,2017-02-09,Numancia,Almeria,11,5,True
+SP2,1718,2017-02-09,Lugo,Cadiz,3,11,True
+SP2,1718,2017-02-09,Osasuna,Huesca,30,12,True
+SP2,1718,2017-02-09,Gimnastic,Sp Gijon,5,30,True
+SP2,1718,2017-02-09,Mallorca,Vallecano,11,12,True
+SP2,1718,2017-02-10,Oviedo,Zaragoza,6,6,False
+SP2,1718,2017-02-12,Vallecano,Granada,3,33,False
+SP2,1718,2017-02-12,Huesca,Cordoba,3,8,False
+SP2,1718,2017-02-12,Mallorca,Oviedo,3,2,False
+SP2,1718,2017-02-12,Reus Deportiu,Barcelona B,8,32,False
+SP2,1718,2017-03-09,Valladolid,Tenerife,11,6,True
+SP2,1718,2017-03-09,Oviedo,Reus Deportiu,13,13,True
+SP2,1718,2017-03-09,Cordoba,Zaragoza,12,11,True
+SP2,1718,2017-03-09,Sevilla B,Leganes,5,11,True
+SP2,1718,2017-03-11,Numancia,Alcorcon,7,14,False
+SP2,1718,2017-03-12,Almeria,Tenerife,14,3,False
+SP2,1718,2017-03-12,Valladolid,Numancia,3,1,False
+SP2,1718,2017-03-12,Sp Gijon,Zaragoza,31,3,False
+SP2,1718,2017-03-12,Sevilla B,Lugo,3,14,False
+SP2,1718,2017-03-12,Leganes,Alcorcon,3,1,False
+SP2,1718,2017-03-12,Cadiz,Albacete,14,7,False
+SP2,1718,2017-04-09,Alcorcon,Albacete,3,28,False
+SP2,1718,2017-04-11,Reus Deportiu,Sp Gijon,5,30,True
+SP2,1718,2017-04-11,Sevilla B,Tenerife,5,5,True
+SP2,1718,2017-04-11,Mallorca,Cordoba,5,5,True
+SP2,1718,2017-04-11,Vallecano,Albacete,5,2,True
+SP2,1718,2017-05-11,Oviedo,Lugo,6,8,True
+SP2,1718,2017-05-11,Almeria,Cadiz,8,11,True
+SP2,1718,2017-05-11,Leganes,Barcelona B,8,88,True
+SP2,1718,2017-05-11,Osasuna,Granada,91,88,True
+SP2,1718,2017-05-11,Valladolid,Gimnastic,8,8,True
+SP2,1718,2017-06-11,Huesca,Zaragoza,6,14,False
+SP2,1718,2017-07-10,Tenerife,Gimnastic,5,5,False
+SP2,1718,2017-07-10,Almeria,Huesca,5,29,False
+SP2,1718,2017-07-10,Cadiz,Osasuna,5,60,False
+SP2,1718,2017-07-10,Sp Gijon,Sevilla B,90,5,False
+SP2,1718,2017-07-10,Reus Deportiu,Leganes,5,9,False
+SP2,1718,2017-08-09,Cadiz,Gimnastic,5,5,True
+SP2,1718,2017-08-10,Albacete,Mallorca,121,6,True
+SP2,1718,2017-08-10,Zaragoza,Numancia,9,66,True
+SP2,1718,2017-08-10,Vallecano,Valladolid,6,36,True
+SP2,1718,2017-08-10,Granada,Lugo,91,6,True
+SP2,1718,2017-08-10,Cordoba,Alcorcon,36,9,True
+SP2,1718,2017-08-10,Barcelona B,Oviedo,91,9,True
+SP2,1718,2017-08-12,Barcelona B,Sp Gijon,2,33,False
+SP2,1718,2017-08-12,Granada,Almeria,2,33,False
+SP2,1718,2017-08-18,Tenerife,Zaragoza,14,8,False
+SP2,1718,2017-08-18,Mallorca,Leganes,8,14,False
+SP2,1718,2017-08-19,Alcorcon,Sp Gijon,9,7,False
+SP2,1718,2017-08-19,Valladolid,Barcelona B,9,7,False
+SP2,1718,2017-08-19,Numancia,Huesca,9,40,False
+SP2,1718,2017-08-19,Cordoba,Cadiz,9,10,False
+SP2,1718,2017-08-19,Osasuna,Sevilla B,40,18,False
+SP2,1718,2017-08-20,Gimnastic,Almeria,11,8,False
+SP2,1718,2017-08-20,Oviedo,Vallecano,10,10,False
+SP2,1718,2017-08-20,Granada,Albacete,8,10,False
+SP2,1718,2017-08-21,Lugo,Reus Deportiu,11,42,False
+SP2,1718,2017-08-25,Albacete,Cordoba,5,6,False
+SP2,1718,2017-08-26,Almeria,Oviedo,6,6,False
+SP2,1718,2017-08-26,Vallecano,Numancia,6,7,False
+SP2,1718,2017-08-26,Sevilla B,Valladolid,7,7,False
+SP2,1718,2017-08-26,Leganes,Osasuna,8,7,False
+SP2,1718,2017-08-26,Huesca,Mallorca,7,8,False
+SP2,1718,2017-08-27,Cadiz,Alcorcon,8,8,False
+SP2,1718,2017-08-27,Zaragoza,Granada,9,7,False
+SP2,1718,2017-08-27,Sp Gijon,Lugo,8,6,False
+SP2,1718,2017-08-27,Reus Deportiu,Gimnastic,6,7,False
+SP2,1718,2017-08-28,Barcelona B,Tenerife,9,10,False
+SP2,1718,2017-09-09,Almeria,Mallorca,5,14,False
+SP2,1718,2017-09-09,Barcelona B,Cordoba,12,5,False
+SP2,1718,2017-09-09,Huesca,Sevilla B,5,3,False
+SP2,1718,2017-09-09,Sp Gijon,Oviedo,13,5,False
+SP2,1718,2017-09-12,Numancia,Mallorca,8,3,True
+SP2,1718,2017-09-12,Zaragoza,Cadiz,8,16,True
+SP2,1718,2017-09-12,Albacete,Valladolid,18,8,True
+SP2,1718,2017-09-12,Alcorcon,Huesca,16,3,True
+SP2,1718,2017-09-15,Lugo,Zaragoza,19,3,False
+SP2,1718,2017-09-16,Sevilla B,Vallecano,7,10,False
+SP2,1718,2017-09-16,Valladolid,Granada,4,20,False
+SP2,1718,2017-09-16,Osasuna,Almeria,21,7,False
+SP2,1718,2017-09-16,Numancia,Sp Gijon,4,7,False
+SP2,1718,2017-09-16,Mallorca,Reus Deportiu,4,12,False
+SP2,1718,2017-09-17,Cordoba,Tenerife,8,20,False
+SP2,1718,2017-09-17,Alcorcon,Barcelona B,5,8,False
+SP2,1718,2017-09-17,Oviedo,Cadiz,8,5,False
+SP2,1718,2017-09-17,Leganes,Huesca,22,5,False
+SP2,1718,2017-09-17,Gimnastic,Albacete,21,5,False
+SP2,1718,2017-09-22,Almeria,Sevilla B,6,6,False
+SP2,1718,2017-09-23,Reus Deportiu,Osasuna,7,7,False
+SP2,1718,2017-09-23,Sp Gijon,Mallorca,7,7,False
+SP2,1718,2017-09-23,Tenerife,Alcorcon,6,6,False
+SP2,1718,2017-09-23,Granada,Cordoba,7,6,False
+SP2,1718,2017-09-24,Cadiz,Numancia,7,8,False
+SP2,1718,2017-09-24,Vallecano,Leganes,8,7,False
+SP2,1718,2017-09-24,Huesca,Valladolid,7,8,False
+SP2,1718,2017-09-24,Zaragoza,Gimnastic,9,7,False
+SP2,1718,2017-09-24,Albacete,Oviedo,7,7,False
+SP2,1718,2017-09-25,Barcelona B,Lugo,8,10,False
+SP2,1718,2017-09-29,Leganes,Almeria,5,7,False
+SP2,1718,2017-09-30,Mallorca,Cadiz,7,6,False
+SP2,1718,2017-09-30,Numancia,Albacete,6,6,False
+SP2,1718,2017-09-30,Valladolid,Cordoba,6,7,False
+SP2,1718,2017-10-09,Vallecano,Osasuna,15,16,False
+SP2,1718,2017-10-09,Zaragoza,Alcorcon,3,3,False
+SP2,1718,2017-10-09,Tenerife,Granada,3,16,False
+SP2,1718,2017-10-09,Albacete,Lugo,9,3,False
+SP2,1718,2017-10-09,Leganes,Valladolid,3,3,False
+SP2,1718,2017-10-10,Huesca,Reus Deportiu,4,4,True
+SP2,1718,2017-10-10,Leganes,Sp Gijon,1,17,True
+SP2,1718,2017-10-11,Cordoba,Osasuna,5,2,True
+SP2,1718,2017-10-12,Lugo,Leganes,3,2,True
+SP2,1718,2017-10-12,Gimnastic,Sevilla B,6,10,True
+SP2,1718,2017-10-12,Oviedo,Osasuna,6,1,True
+SP2,1718,2017-10-12,Tenerife,Reus Deportiu,3,2,True
+SP2,1718,2017-10-12,Cordoba,Vallecano,1,3,True
+SP2,1718,2017-10-13,Sp Gijon,Huesca,3,3,False
+SP2,1718,2017-10-14,Barcelona B,Mallorca,19,8,False
+SP2,1718,2017-10-14,Cadiz,Leganes,8,2,False
+SP2,1718,2017-10-14,Granada,Oviedo,5,2,False
+SP2,1718,2017-10-14,Tenerife,Numancia,2,14,False
+SP2,1718,2017-10-15,Cordoba,Gimnastic,3,3,False
+SP2,1718,2017-10-15,Almeria,Valladolid,9,6,False
+SP2,1718,2017-10-15,Albacete,Sevilla B,6,3,False
+SP2,1718,2017-10-15,Reus Deportiu,Vallecano,3,3,False
+SP2,1718,2017-10-15,Zaragoza,Osasuna,6,3,False
+SP2,1718,2017-10-16,Alcorcon,Lugo,7,4,False
+SP2,1718,2017-10-20,Osasuna,Barcelona B,5,6,False
+SP2,1718,2017-10-21,Sevilla B,Zaragoza,6,6,False
+SP2,1718,2017-10-21,Numancia,Granada,7,7,False
+SP2,1718,2017-10-21,Mallorca,Tenerife,7,7,False
+SP2,1718,2017-10-21,Huesca,Cadiz,8,7,False
+SP2,1718,2017-10-22,Almeria,Reus Deportiu,7,7,False
+SP2,1718,2017-10-22,Vallecano,Sp Gijon,7,9,False
+SP2,1718,2017-10-22,Valladolid,Lugo,7,6,False
+SP2,1718,2017-10-22,Oviedo,Cordoba,8,7,False
+SP2,1718,2017-10-22,Gimnastic,Alcorcon,7,6,False
+SP2,1718,2017-10-23,Leganes,Albacete,9,8,False
+SP2,1718,2017-10-27,Zaragoza,Leganes,6,4,False
+SP2,1718,2017-10-28,Sp Gijon,Almeria,6,6,False
+SP2,1718,2017-10-28,Cadiz,Vallecano,7,6,False
+SP2,1718,2017-10-28,Albacete,Huesca,5,7,False
+SP2,1718,2017-10-28,Lugo,Gimnastic,6,6,False
+SP2,1718,2017-10-29,Tenerife,Osasuna,8,9,False
+SP2,1718,2017-10-29,Alcorcon,Oviedo,7,7,False
+SP2,1718,2017-10-29,Barcelona B,Sevilla B,9,8,False
+SP2,1718,2017-10-29,Cordoba,Numancia,7,8,False
+SP2,1718,2017-10-29,Reus Deportiu,Valladolid,7,7,False
+SP2,1718,2017-10-30,Granada,Mallorca,9,9,False
+SP2,1718,2017-11-09,Reus Deportiu,Numancia,11,3,True
+SP2,1718,2017-11-10,Gimnastic,Granada,8,11,False
+SP2,1718,2017-11-10,Numancia,Barcelona B,1,12,False
+SP2,1718,2017-11-10,Mallorca,Zaragoza,7,7,False
+SP2,1718,2017-11-10,Sevilla B,Cadiz,12,8,False
+SP2,1718,2017-11-10,Oviedo,Tenerife,7,12,False
+SP2,1718,2017-11-11,Alcorcon,Mallorca,9,1,False
+SP2,1718,2017-11-11,Barcelona B,Huesca,1,14,False
+SP2,1718,2017-11-11,Tenerife,Leganes,1,8,False
+SP2,1718,2017-11-11,Zaragoza,Vallecano,1,14,False
+SP2,1718,2017-11-11,Albacete,Almeria,14,9,False
+SP2,1718,2017-11-13,Cadiz,Reus Deportiu,3,4,False
+SP2,1718,2017-11-17,Almeria,Zaragoza,6,6,False
+SP2,1718,2017-11-18,Huesca,Tenerife,7,7,False
+SP2,1718,2017-11-18,Valladolid,Oviedo,15,8,False
+SP2,1718,2017-11-18,Mallorca,Lugo,7,15,False
+SP2,1718,2017-11-18,Reus Deportiu,Albacete,5,7,False
+SP2,1718,2017-11-19,Osasuna,Alcorcon,21,8,False
+SP2,1718,2017-11-19,Vallecano,Barcelona B,8,8,False
+SP2,1718,2017-11-19,Sp Gijon,Cadiz,22,6,False
+SP2,1718,2017-11-19,Sevilla B,Cordoba,9,16,False
+SP2,1718,2017-11-19,Numancia,Gimnastic,9,9,False
+SP2,1718,2017-11-19,Leganes,Granada,8,9,False
+SP2,1718,2017-11-24,Tenerife,Vallecano,6,5,False
+SP2,1718,2017-11-25,Gimnastic,Mallorca,6,7,False
+SP2,1718,2017-11-25,Alcorcon,Sevilla B,6,6,False
+SP2,1718,2017-11-25,Cadiz,Valladolid,6,7,False
+SP2,1718,2017-11-25,Zaragoza,Reus Deportiu,8,7,False
+SP2,1718,2017-11-25,Oviedo,Numancia,7,6,False
+SP2,1718,2017-11-26,Cordoba,Leganes,7,7,False
+SP2,1718,2017-11-26,Albacete,Sp Gijon,8,7,False
+SP2,1718,2017-11-26,Barcelona B,Almeria,7,9,False
+SP2,1718,2017-11-26,Granada,Huesca,7,8,False
+SP2,1718,2017-11-26,Lugo,Osasuna,8,7,False
+SP2,1718,2017-12-10,Valladolid,Alcorcon,8,15,False
+SP2,1718,2017-12-10,Vallecano,Almeria,7,7,False
+SP2,1718,2017-12-10,Lugo,Cordoba,14,8,False
+SP2,1718,2017-12-10,Osasuna,Albacete,14,14,False
+SP2,1718,2017-12-11,Gimnastic,Oviedo,8,9,False
+SP2,1718,2017-12-11,Granada,Sevilla B,15,6,False
+SP2,1718,2017-12-11,Sp Gijon,Valladolid,15,1,False
+SP2,1718,2017-12-11,Lugo,Numancia,1,9,False
+SP2,1718,2017-12-15,Cadiz,Barcelona B,10,19,False
+SP2,1718,2017-12-16,Osasuna,Numancia,6,5,False
+SP2,1718,2017-12-16,Reus Deportiu,Granada,13,5,False
+SP2,1718,2017-12-16,Valladolid,Mallorca,5,14,False
+SP2,1718,2017-12-16,Almeria,Cordoba,6,6,False
+SP2,1718,2017-12-16,Albacete,Zaragoza,6,11,False
+SP2,1718,2017-12-17,Sevilla B,Oviedo,6,6,False
+SP2,1718,2017-12-17,Sp Gijon,Tenerife,6,14,False
+SP2,1718,2017-12-17,Vallecano,Alcorcon,7,7,False
+SP2,1718,2017-12-17,Huesca,Lugo,14,6,False
+SP2,1718,2017-12-17,Leganes,Gimnastic,21,6,False
+SP2,1718,2017-12-19,Valladolid,Zaragoza,3,3,True
+SP2,1718,2017-12-19,Barcelona B,Albacete,4,3,True
+SP2,1718,2017-12-20,Mallorca,Osasuna,4,4,True
+SP2,1718,2017-12-20,Granada,Sp Gijon,4,3,True
+SP2,1718,2017-12-20,Cordoba,Reus Deportiu,4,4,True
+SP2,1718,2017-12-21,Tenerife,Cadiz,4,6,True
+SP2,1718,2017-12-21,Numancia,Sevilla B,5,4,True
+SP2,1718,2017-12-22,Alcorcon,Almeria,5,6,False
+SP2,1718,2017-12-22,Lugo,Vallecano,5,5,False
+SP2,1718,2017-12-23,Gimnastic,Huesca,6,6,False
+SP2,1718,2017-12-23,Oviedo,Leganes,6,6,False
+SP2,1718,2018-01-04,Vallecano,Cadiz,13,14,True
+SP2,1718,2018-01-04,Gimnastic,Lugo,12,13,True
+SP2,1718,2018-01-04,Osasuna,Tenerife,15,14,True
+SP2,1718,2018-01-04,Mallorca,Granada,15,15,True
+SP2,1718,2018-01-04,Sevilla B,Barcelona B,14,16,True
+SP2,1718,2018-01-04,Almeria,Sp Gijon,13,15,True
+SP2,1718,2018-01-06,Mallorca,Sevilla B,2,2,False
+SP2,1718,2018-01-13,Barcelona B,Valladolid,9,25,False
+SP2,1718,2018-01-13,Almeria,Gimnastic,9,9,False
+SP2,1718,2018-01-13,Reus Deportiu,Lugo,24,9,False
+SP2,1718,2018-01-13,Sp Gijon,Alcorcon,9,22,False
+SP2,1718,2018-01-13,Zaragoza,Tenerife,25,9,False
+SP2,1718,2018-01-14,Albacete,Granada,26,10,False
+SP2,1718,2018-01-14,Huesca,Numancia,22,24,False
+SP2,1718,2018-01-14,Leganes,Mallorca,22,8,False
+SP2,1718,2018-01-14,Sevilla B,Osasuna,8,10,False
+SP2,1718,2018-01-14,Cadiz,Cordoba,10,25,False
+SP2,1718,2018-01-18,Osasuna,Gimnastic,4,5,True
+SP2,1718,2018-01-19,Granada,Zaragoza,5,6,False
+SP2,1718,2018-01-20,Mallorca,Huesca,6,6,False
+SP2,1718,2018-01-20,Oviedo,Almeria,28,7,False
+SP2,1718,2018-01-20,Valladolid,Sevilla B,7,6,False
+SP2,1718,2018-01-20,Cordoba,Albacete,6,6,False
+SP2,1718,2018-01-20,Lugo,Sp Gijon,7,7,False
+SP2,1718,2018-01-21,Numancia,Vallecano,7,17,False
+SP2,1718,2018-01-21,Tenerife,Barcelona B,8,8,False
+SP2,1718,2018-01-21,Osasuna,Leganes,3,7,False
+SP2,1718,2018-01-21,Alcorcon,Cadiz,8,7,False
+SP2,1718,2018-01-21,Gimnastic,Reus Deportiu,3,8,False
+SP2,1718,2018-01-26,Zaragoza,Cordoba,7,6,False
+SP2,1718,2018-01-27,Barcelona B,Granada,6,8,False
+SP2,1718,2018-01-27,Vallecano,Mallorca,6,7,False
+SP2,1718,2018-01-27,Reus Deportiu,Oviedo,6,7,False
+SP2,1718,2018-01-27,Albacete,Alcorcon,7,6,False
+SP2,1718,2018-01-27,Cadiz,Lugo,6,7,False
+SP2,1718,2018-01-28,Almeria,Numancia,8,7,False
+SP2,1718,2018-01-28,Huesca,Osasuna,8,7,False
+SP2,1718,2018-01-28,Leganes,Sevilla B,7,8,False
+SP2,1718,2018-01-28,Sp Gijon,Gimnastic,8,7,False
+SP2,1718,2018-01-28,Tenerife,Valladolid,7,8,False
+SP2,1718,2018-02-02,Osasuna,Vallecano,5,6,False
+SP2,1718,2018-02-03,Oviedo,Barcelona B,7,7,False
+SP2,1718,2018-02-06,Numancia,Leganes,9,9,True
+SP2,1718,2018-02-06,Granada,Cadiz,10,10,True
+SP2,1718,2018-02-06,Gimnastic,Vallecano,9,4,True
+SP2,1718,2018-02-06,Alcorcon,Reus Deportiu,10,10,True
+SP2,1718,2018-02-06,Lugo,Almeria,10,9,True
+SP2,1718,2018-02-06,Tenerife,Albacete,9,10,True
+SP2,1718,2018-02-06,Oviedo,Huesca,3,9,True
+SP2,1718,2018-02-06,Barcelona B,Zaragoza,3,11,True
+SP2,1718,2018-02-06,Cordoba,Sp Gijon,11,9,True
+SP2,1718,2018-02-06,Valladolid,Osasuna,9,4,True
+SP2,1718,2018-02-16,Valladolid,Huesca,10,10,False
+SP2,1718,2018-02-17,Osasuna,Reus Deportiu,11,11,False
+SP2,1718,2018-02-17,Alcorcon,Tenerife,11,11,False
+SP2,1718,2018-02-17,Oviedo,Albacete,11,11,False
+SP2,1718,2018-02-17,Gimnastic,Zaragoza,11,11,False
+SP2,1718,2018-02-17,Mallorca,Sp Gijon,21,11,False
+SP2,1718,2018-02-18,Cordoba,Granada,12,12,False
+SP2,1718,2018-02-18,Leganes,Vallecano,12,12,False
+SP2,1718,2018-02-18,Lugo,Barcelona B,12,12,False
+SP2,1718,2018-02-18,Numancia,Cadiz,12,12,False
+SP2,1718,2018-02-18,Sevilla B,Almeria,21,12,False
+SP2,1718,2018-02-23,Sp Gijon,Osasuna,6,6,False
+SP2,1718,2018-02-24,Vallecano,Huesca,6,8,False
+SP2,1718,2018-02-24,Almeria,Leganes,6,6,False
+SP2,1718,2018-02-24,Barcelona B,Gimnastic,6,7,False
+SP2,1718,2018-02-24,Cadiz,Mallorca,6,7,False
+SP2,1718,2018-02-25,Zaragoza,Oviedo,8,8,False
+SP2,1718,2018-02-25,Albacete,Numancia,8,7,False
+SP2,1718,2018-02-25,Reus Deportiu,Sevilla B,8,7,False
+SP2,1718,2018-02-25,Granada,Alcorcon,7,8,False
+SP2,1718,2018-02-25,Cordoba,Valladolid,7,9,False
+SP2,1718,2018-02-26,Tenerife,Lugo,9,8,False
+SP2,1718,2018-03-02,Alcorcon,Zaragoza,5,5,False
+SP2,1718,2018-03-02,Valladolid,Leganes,5,6,False
+SP2,1718,2018-03-02,Mallorca,Almeria,6,6,False
+SP2,1718,2018-03-02,Granada,Tenerife,5,4,False
+SP2,1718,2018-03-02,Gimnastic,Cadiz,6,6,False
+SP2,1718,2018-03-03,Leganes,Reus Deportiu,1,6,False
+SP2,1718,2018-03-03,Osasuna,Cadiz,8,1,False
+SP2,1718,2018-03-03,Numancia,Zaragoza,6,1,False
+SP2,1718,2018-03-03,Lugo,Granada,5,1,False
+SP2,1718,2018-03-16,Sevilla B,Albacete,19,19,False
+SP2,1718,2018-03-17,Leganes,Cadiz,14,14,False
+SP2,1718,2018-03-17,Mallorca,Barcelona B,15,21,False
+SP2,1718,2018-03-17,Lugo,Alcorcon,14,15,False
+SP2,1718,2018-03-17,Osasuna,Zaragoza,14,14,False
+SP2,1718,2018-03-18,Numancia,Tenerife,15,16,False
+SP2,1718,2018-03-18,Gimnastic,Cordoba,16,21,False
+SP2,1718,2018-03-18,Oviedo,Granada,21,15,False
+SP2,1718,2018-03-18,Valladolid,Almeria,16,16,False
+SP2,1718,2018-03-18,Vallecano,Reus Deportiu,22,15,False
+SP2,1718,2018-03-19,Huesca,Sp Gijon,23,24,False
+SP2,1718,2018-03-24,Cordoba,Oviedo,6,6,False
+SP2,1718,2018-03-24,Lugo,Valladolid,7,6,False
+SP2,1718,2018-03-24,Albacete,Leganes,8,7,False
+SP2,1718,2018-03-24,Sp Gijon,Vallecano,5,6,False
+SP2,1718,2018-03-24,Reus Deportiu,Almeria,6,6,False
+SP2,1718,2018-03-25,Alcorcon,Gimnastic,8,7,False
+SP2,1718,2018-03-25,Zaragoza,Sevilla B,8,9,False
+SP2,1718,2018-03-25,Tenerife,Mallorca,7,8,False
+SP2,1718,2018-03-25,Granada,Numancia,7,7,False
+SP2,1718,2018-03-25,Barcelona B,Osasuna,8,8,False
+SP2,1718,2018-03-26,Cadiz,Huesca,9,7,False
+SP2,1718,2018-03-31,Numancia,Cordoba,6,7,False
+SP2,1718,2018-03-31,Valladolid,Reus Deportiu,7,7,False
+SP2,1718,2018-03-31,Oviedo,Alcorcon,7,6,False
+SP2,1718,2018-03-31,Leganes,Zaragoza,7,6,False
+SP2,1718,2018-04-02,Sevilla B,Huesca,8,7,False
+SP2,1718,2018-04-02,Cordoba,Barcelona B,2,8,False
+SP2,1718,2018-04-02,Lugo,Albacete,9,9,False
+SP2,1718,2018-04-02,Numancia,Reus Deportiu,2,2,False
+SP2,1718,2018-04-02,Oviedo,Sp Gijon,2,9,False
+SP2,1718,2018-04-03,Gimnastic,Tenerife,9,9,True
+SP2,1718,2018-04-03,Mallorca,Albacete,9,1,True
+SP2,1718,2018-04-03,Sevilla B,Sp Gijon,1,1,True
+SP2,1718,2018-04-03,Valladolid,Vallecano,3,10,True
+SP2,1718,2018-04-03,Huesca,Almeria,1,10,True
+SP2,1718,2018-04-03,Alcorcon,Cordoba,3,1,True
+SP2,1718,2018-04-05,Alcorcon,Leganes,2,5,True
+SP2,1718,2018-04-14,Reus Deportiu,Cadiz,12,19,False
+SP2,1718,2018-04-14,Leganes,Tenerife,9,11,False
+SP2,1718,2018-04-14,Mallorca,Alcorcon,11,9,False
+SP2,1718,2018-04-14,Numancia,Lugo,12,12,False
+SP2,1718,2018-04-15,Oviedo,Gimnastic,13,12,False
+SP2,1718,2018-04-15,Almeria,Albacete,12,12,False
+SP2,1718,2018-04-15,Osasuna,Cordoba,21,12,False
+SP2,1718,2018-04-15,Vallecano,Zaragoza,12,15,False
+SP2,1718,2018-04-15,Valladolid,Sp Gijon,12,12,False
+SP2,1718,2018-04-15,Sevilla B,Granada,12,21,False
+SP2,1718,2018-04-16,Huesca,Barcelona B,13,14,False
+SP2,1718,2018-04-20,Cordoba,Sevilla B,5,5,False
+SP2,1718,2018-04-20,Oviedo,Valladolid,5,5,False
+SP2,1718,2018-04-21,Zaragoza,Almeria,6,6,False
+SP2,1718,2018-04-21,Tenerife,Huesca,7,5,False
+SP2,1718,2018-04-21,Gimnastic,Numancia,6,7,False
+SP2,1718,2018-04-21,Albacete,Reus Deportiu,6,7,False
+SP2,1718,2018-04-22,Cadiz,Sp Gijon,8,7,False
+SP2,1718,2018-04-22,Alcorcon,Osasuna,8,7,False
+SP2,1718,2018-04-22,Lugo,Mallorca,8,8,False
+SP2,1718,2018-04-22,Granada,Leganes,7,8,False
+SP2,1718,2018-04-22,Barcelona B,Vallecano,6,7,False
+SP2,1718,2018-04-27,Reus Deportiu,Zaragoza,6,6,False
+SP2,1718,2018-04-28,Valladolid,Cadiz,8,6,False
+SP2,1718,2018-04-28,Huesca,Granada,7,6,False
+SP2,1718,2018-04-28,Osasuna,Lugo,6,6,False
+SP2,1718,2018-04-28,Sevilla B,Alcorcon,8,6,False
+SP2,1718,2018-04-28,Almeria,Barcelona B,7,6,False
+SP2,1718,2018-04-29,Numancia,Oviedo,8,9,False
+SP2,1718,2018-04-29,Vallecano,Tenerife,7,8,False
+SP2,1718,2018-04-29,Sp Gijon,Albacete,7,8,False
+SP2,1718,2018-04-29,Mallorca,Gimnastic,7,8,False
+SP2,1718,2018-04-29,Leganes,Cordoba,7,9,False
+SP2,1718,2018-05-05,Barcelona B,Reus Deportiu,7,8,False
+SP2,1718,2018-05-05,Cordoba,Huesca,6,7,False
+SP2,1718,2018-05-05,Numancia,Valladolid,6,7,False
+SP2,1718,2018-05-05,Tenerife,Almeria,6,7,False
+SP2,1718,2018-05-05,Zaragoza,Sp Gijon,8,6,False
+SP2,1718,2018-05-13,Almeria,Granada,8,15,False
+SP2,1718,2018-05-13,Huesca,Alcorcon,8,15,False
+SP2,1718,2018-05-13,Leganes,Lugo,14,15,False
+SP2,1718,2018-05-13,Sevilla B,Gimnastic,15,14,False
+SP2,1718,2018-05-13,Vallecano,Cordoba,14,8,False
+SP2,1718,2018-05-14,Cadiz,Zaragoza,16,9,False
+SP2,1718,2018-05-18,Tenerife,Sp Gijon,13,13,False
+SP2,1718,2018-05-19,Gimnastic,Leganes,6,6,False
+SP2,1718,2018-05-19,Granada,Reus Deportiu,6,14,False
+SP2,1718,2018-05-19,Mallorca,Valladolid,20,14,False
+SP2,1718,2018-05-19,Oviedo,Sevilla B,20,6,False
+SP2,1718,2018-05-20,Alcorcon,Vallecano,7,7,False
+SP2,1718,2018-05-20,Barcelona B,Cadiz,15,6,False
+SP2,1718,2018-05-20,Cordoba,Almeria,7,7,False
+SP2,1718,2018-05-20,Numancia,Osasuna,15,22,False
+SP2,1718,2018-05-20,Zaragoza,Albacete,6,21,False
+SP2,1718,2018-05-21,Lugo,Huesca,8,8,False
+SP2,1718,2018-05-27,Vallecano,Lugo,7,6,False
+SP2,1718,2018-05-27,Albacete,Barcelona B,7,7,False
+SP2,1718,2018-05-27,Almeria,Alcorcon,7,7,False
+SP2,1718,2018-05-27,Cadiz,Tenerife,7,9,False
+SP2,1718,2018-05-27,Huesca,Gimnastic,6,8,False
+SP2,1718,2018-05-27,Leganes,Oviedo,8,8,False
+SP2,1718,2018-05-27,Osasuna,Mallorca,7,8,False
+SP2,1718,2018-05-27,Reus Deportiu,Cordoba,8,7,False
+SP2,1718,2018-05-27,Sevilla B,Numancia,8,7,False
+SP2,1718,2018-05-27,Sp Gijon,Granada,9,8,False
+SP2,1718,2018-05-27,Zaragoza,Valladolid,7,8,False
+SP2,1718,2018-06-01,Reus Deportiu,Alcorcon,5,5,False
+SP2,1718,2018-06-01,Vallecano,Gimnastic,5,5,False
+SP2,1718,2018-06-01,Cadiz,Granada,5,5,False
+SP2,1718,2018-06-01,Sp Gijon,Cordoba,5,5,False
+SP2,1718,2018-06-01,Osasuna,Valladolid,5,5,False
+SP2,1718,2018-06-01,Zaragoza,Barcelona B,5,5,False
+SP2,1718,2018-06-04,Cadiz,Almeria,3,8,False
+SP2,1718,2018-06-05,Lugo,Sevilla B,9,9,True
+SP2,1718,2018-06-05,Oviedo,Mallorca,9,9,True
+SP2,1718,2018-06-05,Albacete,Cadiz,9,1,True
+SP2,1718,2018-06-05,Gimnastic,Osasuna,4,4,True
+SP2,1718,2018-07-01,Almeria,Lugo,27,26,False
+SP2,1718,2018-07-01,Leganes,Numancia,35,35,False
+SP2,1718,2018-07-01,Sevilla B,Mallorca,26,26,False
+SP2,1718,2018-07-01,Albacete,Tenerife,26,35,False
+SP2,1718,2018-07-01,Huesca,Oviedo,35,26,False
+SP2,1718,2018-07-04,Barcelona B,Leganes,33,3,True
+SP2,1718,2018-07-04,Granada,Osasuna,33,29,True
+SP2,1718,2018-07-04,Zaragoza,Huesca,33,3,True
+SP2,1718,2018-07-04,Alcorcon,Numancia,33,3,True
+SP2,1718,2018-07-04,Albacete,Vallecano,3,33,True
+SP2,1718,2018-07-05,Granada,Vallecano,1,1,True
+SP2,1718,2018-08-04,Cordoba,Mallorca,64,34,False
+SP2,1718,2018-08-04,Tenerife,Sevilla B,34,34,False
+SP2,1718,2018-08-04,Sp Gijon,Reus Deportiu,64,64,False
+SP2,1718,2018-08-04,Lugo,Oviedo,34,34,False
+SP2,1718,2018-08-04,Gimnastic,Valladolid,60,64,False
+SP2,1718,2018-09-02,Granada,Valladolid,7,29,False
+SP2,1718,2018-09-03,Tenerife,Oviedo,2,2,False
+SP2,1718,2018-10-02,Barcelona B,Alcorcon,90,2,True
+SP2,1718,2018-10-02,Almeria,Osasuna,2,2,True
+SP2,1718,2018-10-02,Sp Gijon,Numancia,3,2,True
+SP2,1718,2018-10-02,Cadiz,Oviedo,3,2,True
+SP2,1718,2018-10-03,Cadiz,Sevilla B,1,60,True
+SP2,1718,2018-10-03,Granada,Gimnastic,4,3,True
+SP2,1718,2018-10-03,Alcorcon,Valladolid,1,31,True
+SP2,1718,2018-10-03,Almeria,Vallecano,1,90,True
+SP2,1718,2018-11-02,Tenerife,Cordoba,6,7,False
+SP2,1718,2018-11-02,Reus Deportiu,Mallorca,6,6,False
+SP2,1718,2018-11-02,Huesca,Leganes,121,121,False
+SP2,1718,2018-11-02,Vallecano,Sevilla B,30,30,False
+SP2,1718,2018-11-02,Zaragoza,Lugo,5,6,False
+SP2,1718,2018-11-03,Reus Deportiu,Huesca,1,1,False
+SP2,1718,2018-11-03,Barcelona B,Numancia,32,5,False
+SP2,1718,2018-11-03,Cordoba,Lugo,1,1,False
+SP2,1718,2018-11-03,Zaragoza,Mallorca,1,1,False
+SP2,1718,2018-11-03,Sp Gijon,Leganes,8,1,False
+SP2,1718,2018-11-03,Albacete,Osasuna,1,6,False
+SP2,1718,2018-11-05,Mallorca,Numancia,1,2,False
+SP2,1718,2018-12-01,Vallecano,Oviedo,29,6,False
+SP2,1718,2018-12-04,Huesca,Albacete,31,2,True
+SP2,1718,2018-12-05,Valladolid,Albacete,63,1,True
+SP2,1718,2018-12-05,Reus Deportiu,Tenerife,4,4,True
+SP2,1718,2018-12-05,Osasuna,Oviedo,3,3,True
+SP2,1718,2018-12-05,Sp Gijon,Barcelona B,4,32,True

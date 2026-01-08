@@ -1,0 +1,89 @@
+= National Teams =
+
+##############
+# FIFA
+
+world                       World Cup
+                             | FIFA World Cup
+
+world.quali.europe          World Cup Quali Europe
+world.quali.northamerica    World Cup Quali North/Central America and Caribbean
+world.quali.southamerica    World Cup Quali South America
+world.quali.africa          World Cup Quali Africa
+world.quali.asia            World Cup Quali Asia (w/ Australia)
+world.quali.pacific         World Cup Quali South Pacific
+world.quali.playoffs        World Cup Quali Intercontinental Playoffs
+
+world.confed                Confederations Cup
+
+
+#######################################################
+# UEFA (Union of European Football Associations)
+
+##   euro starting in 1960 (every four years)
+#      2020 in 2021 (!!)
+## naming history
+##   1960, 1964 -  European Nations' Cup
+##   1968 -        European Championship
+euro    1960-     Euro
+            | European Championship
+            | UEFA Euro
+            | UEFA European Championship
+            | UEFA European Football Championship
+
+euro.quali   Euro Quali
+              | euro.q
+
+
+### note - nations league starting in 2018/19
+uefa.nl    2018/19-    UEFA Nations League
+
+## add entries per league for now
+##   add use uefa.nl.1/2/3/4  codes too - why? why not?
+uefa.nl.a    2018/19-    UEFA Nations League A
+uefa.nl.b    2018/19-    UEFA Nations League B
+uefa.nl.c    2018/19-    UEFA Nations League C
+uefa.nl.d    2018/19-    UEFA Nations League D
+
+
+
+#######################################################
+# CONMEBOL (Confederación Sudamericana de Fútbol)
+
+southamerica     Copa América
+
+######################################################
+# CONCACAF (Confederation of North, Central American and Caribbean Association Football)
+
+northamerica     Gold Cup
+                  | Copa de Oro
+
+
+##########################################
+# AFC (Asian Football Confederation)
+
+asia              Asian Cup
+
+
+################################################
+# CAF (Confédération Africaine de Football)
+
+africa            Africa Cup of Nations
+                   | Coupe d'Afrique des Nations
+
+
+#############################################
+# OFC (Oceania Football Confederation)
+
+paficic     South Pacific Nations Cup
+# note: gets merged (group stage is the same as world.quali.pacific - stage 2 qualifiers)
+
+
+
+
+= International =
+
+world.club   Club World Cup
+                 | FIFA Club World Cup
+                 | Klub WM [de]
+                 | FIFA Klub WM [de]

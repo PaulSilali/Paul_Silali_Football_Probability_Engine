@@ -27,6 +27,14 @@ import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { Badge } from '@/components/ui/badge';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import { Label } from '@/components/ui/label';
 import { PDFJackpotImport, ParsedFixture } from '@/components/PDFJackpotImport';
 import { useToast } from '@/hooks/use-toast';
 import apiClient from '@/services/api';
@@ -38,6 +46,9 @@ interface TeamValidation {
   normalizedName?: string;
   suggestions?: string[];
   confidence?: number;
+  teamId?: number;
+  isTrained?: boolean;
+  strengthSource?: 'model' | 'database' | 'default';
 }
 
 interface EditableFixture extends Omit<Fixture, 'id'> {
@@ -77,6 +88,15 @@ export default function JackpotInput() {
   const [saveName, setSaveName] = useState('');
   const [saveDescription, setSaveDescription] = useState('');
   const validationTimersRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
+  
+  // Pipeline state
+  const [pipelineDialogOpen, setPipelineDialogOpen] = useState(false);
+  const [pipelineStatus, setPipelineStatus] = useState<'idle' | 'checking' | 'running' | 'completed' | 'failed'>('idle');
+  const [pipelineProgress, setPipelineProgress] = useState(0);
+  const [pipelinePhase, setPipelinePhase] = useState('');
+  const [pipelineSteps, setPipelineSteps] = useState<Record<string, any>>({});
+  const [pipelineTaskId, setPipelineTaskId] = useState<string | null>(null);
+  const [baseModelWindowYears, setBaseModelWindowYears] = useState<number>(4);  // Recent data focus: 2, 3, or 4 years
 
   // Debounced team validation
   const validateTeam = useCallback(async (tempId: string, teamType: 'home' | 'away', teamName: string) => {
@@ -115,7 +135,7 @@ export default function JackpotInput() {
       }
 
       try {
-        const response = await apiClient.validateTeamName(teamName.trim());
+        const response = await apiClient.validateTeamName(teamName.trim(), undefined, true); // Check training status
         if (response.success && response.data) {
           setFixtures(prev => prev.map(f => 
             f.tempId === tempId 
@@ -126,7 +146,10 @@ export default function JackpotInput() {
                     isValidating: false,
                     normalizedName: response.data.normalizedName,
                     suggestions: response.data.suggestions,
-                    confidence: response.data.confidence
+                    confidence: response.data.confidence,
+                    teamId: response.data.teamId,
+                    isTrained: response.data.isTrained,
+                    strengthSource: response.data.strengthSource
                   }
                 }
               : f
@@ -293,6 +316,77 @@ export default function JackpotInput() {
     }
   }, [bulkInput, validateTeam]);
 
+  // Poll pipeline status
+  const pollPipelineStatus = useCallback((taskId: string): Promise<void> => {
+    return new Promise((resolve) => {
+      let pollInterval: NodeJS.Timeout | null = null;
+      
+      const poll = async () => {
+        try {
+          const response = await apiClient.getPipelineStatus(taskId);
+          if (response.success && response.data) {
+            const status = response.data.status;
+            const progress = response.data.progress || 0;
+            const phase = response.data.phase || '';
+            const steps = response.data.steps || {};
+            
+            // Update state - React will re-render
+            setPipelineStatus(status as 'idle' | 'checking' | 'running' | 'completed' | 'failed');
+            setPipelineProgress(progress);
+            setPipelinePhase(phase);
+            setPipelineSteps(steps);
+            
+            if (status === 'completed' || status === 'failed') {
+              if (pollInterval) {
+                clearInterval(pollInterval);
+                pollInterval = null;
+              }
+              
+              // Ensure final state is set
+              if (status === 'completed') {
+                setPipelineStatus('completed');
+                setPipelineProgress(100);
+                setPipelinePhase('Pipeline completed successfully!');
+              } else {
+                setPipelineStatus('failed');
+                toast({
+                  title: 'Pipeline Failed',
+                  description: response.data.error || 'Pipeline execution failed',
+                  variant: 'destructive',
+                });
+              }
+              
+              // Wait a bit to show final state before resolving
+              setTimeout(() => {
+                resolve();
+              }, 500);
+            }
+          }
+        } catch (error) {
+          console.error('Error polling pipeline status:', error);
+          if (pollInterval) {
+            clearInterval(pollInterval);
+            pollInterval = null;
+          }
+          resolve();
+        }
+      };
+      
+      // Start polling immediately, then every 2 seconds
+      poll();
+      pollInterval = setInterval(poll, 2000);
+      
+      // Timeout after 5 minutes
+      setTimeout(() => {
+        if (pollInterval) {
+          clearInterval(pollInterval);
+          pollInterval = null;
+        }
+        resolve();
+      }, 300000);
+    });
+  }, [toast]);
+
   const handleSubmit = useCallback(async () => {
     if (!validateFixtures()) {
       return;
@@ -301,7 +395,21 @@ export default function JackpotInput() {
     setIsSubmitting(true);
     
     try {
-      // Convert fixtures to API format
+      // Step 1: Check team status
+      const allTeamNames = fixtures.flatMap(f => [
+        f.homeTeam.trim(),
+        f.awayTeam.trim()
+      ]).filter(name => name.length >= 2);
+      
+      setPipelineDialogOpen(true);
+      setPipelineStatus('checking');
+      setPipelineProgress(0);
+      setPipelinePhase('Checking team validation and training status...');
+      
+      const statusResponse = await apiClient.checkTeamsStatus(allTeamNames);
+      
+      // Step 2: Create jackpot FIRST (so we have jackpot_id for pipeline metadata)
+      setPipelinePhase('Creating jackpot...');
       const apiFixtures = fixtures.map(f => ({
         id: f.tempId,
         homeTeam: f.homeTeam.trim(),
@@ -315,24 +423,93 @@ export default function JackpotInput() {
         league: null,
       }));
       
-      // Create jackpot
       const response = await apiClient.createJackpot(apiFixtures);
       
-      if (response.success && response.data) {
-        const jackpotId = response.data.id;
-        
-        toast({
-          title: "Jackpot created",
-          description: "Calculating probabilities...",
-        });
-        
-        // Navigate to probability output page with jackpot ID
-        navigate(`/probability-output?jackpotId=${jackpotId}`);
-      } else {
+      if (!response.success || !response.data) {
         throw new Error(response.message || "Failed to create jackpot");
       }
+      
+      const jackpotId = response.data.id;
+      
+      if (statusResponse.success && statusResponse.data) {
+        const status = statusResponse.data;
+        const needsPipeline = status.missing_teams.length > 0 || status.untrained_teams.length > 0;
+        
+        if (needsPipeline) {
+          // Step 3: Run pipeline WITH jackpot_id (so metadata can be saved)
+          setPipelineStatus('running');
+          setPipelineProgress(20);
+          setPipelinePhase('Running automated pipeline...');
+          
+          const pipelineResponse = await apiClient.runPipeline({
+            team_names: allTeamNames,
+            league_id: status.team_details[Object.keys(status.team_details)[0]]?.league_id,
+            auto_download: true,
+            auto_train: true,
+            auto_recompute: false,
+            jackpot_id: jackpotId, // Pass jackpot_id so metadata can be saved
+            max_seasons: 7,
+            base_model_window_years: baseModelWindowYears  // Recent data focus configuration
+          });
+          
+          if (pipelineResponse.success && pipelineResponse.data) {
+            const taskId = pipelineResponse.data.taskId;
+            setPipelineTaskId(taskId);
+            
+            // Poll for status and wait for completion
+            await pollPipelineStatus(taskId);
+            
+            // Get final status and steps after polling completes
+            const finalStatusResponse = await apiClient.getPipelineStatus(taskId);
+            if (finalStatusResponse.success && finalStatusResponse.data) {
+              const finalStatus = finalStatusResponse.data.status;
+              const finalProgress = finalStatusResponse.data.progress || 100;
+              const finalPhase = finalStatusResponse.data.phase || 'Complete';
+              const finalSteps = finalStatusResponse.data.steps || {};
+              
+              // Update to final state
+              setPipelineStatus(finalStatus as 'idle' | 'checking' | 'running' | 'completed' | 'failed');
+              setPipelineProgress(finalProgress);
+              setPipelinePhase(finalPhase);
+              setPipelineSteps(finalSteps);
+              
+              if (finalStatus === 'failed') {
+                const continueAnyway = confirm(
+                  'Pipeline encountered errors. Do you want to continue with probability calculation anyway?'
+                );
+                if (!continueAnyway) {
+                  setIsSubmitting(false);
+                  return;
+                }
+              }
+            }
+          }
+        } else {
+          setPipelineProgress(100);
+          setPipelinePhase('All teams validated and trained!');
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      }
+      
+      // Update final state
+      setPipelineStatus('completed');
+      setPipelineProgress(100);
+      setPipelinePhase('Jackpot created successfully!');
+      
+      // Wait a moment to show completed state before navigating
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      toast({
+        title: "Jackpot created",
+        description: "Calculating probabilities...",
+      });
+      
+      // Close dialog and navigate
+      setPipelineDialogOpen(false);
+      navigate(`/probability-output?jackpotId=${jackpotId}`);
     } catch (error: any) {
       console.error("Error creating jackpot:", error);
+      setPipelineStatus('failed');
       toast({
         title: "Error",
         description: error.message || "Failed to create jackpot. Please try again.",
@@ -341,7 +518,7 @@ export default function JackpotInput() {
     } finally {
       setIsSubmitting(false);
     }
-  }, [fixtures, validateFixtures, navigate, toast]);
+  }, [fixtures, validateFixtures, navigate, toast, pollPipelineStatus, pipelineStatus]);
 
   // Load saved templates
   const loadTemplates = useCallback(async () => {
@@ -515,6 +692,8 @@ export default function JackpotInput() {
     let invalidTeams = 0;
     let validatingTeams = 0;
     let unvalidatedTeams = 0;
+    let trainedTeams = 0;
+    let untrainedTeams = 0;
 
     fixtures.forEach(f => {
       if (f.homeTeam.trim().length >= 2) {
@@ -522,6 +701,11 @@ export default function JackpotInput() {
           validatingTeams++;
         } else if (f.homeTeamValidation?.isValid === true) {
           validTeams++;
+          if (f.homeTeamValidation.isTrained === true) {
+            trainedTeams++;
+          } else if (f.homeTeamValidation.isTrained === false) {
+            untrainedTeams++;
+          }
         } else if (f.homeTeamValidation?.isValid === false) {
           invalidTeams++;
         } else {
@@ -533,6 +717,11 @@ export default function JackpotInput() {
           validatingTeams++;
         } else if (f.awayTeamValidation?.isValid === true) {
           validTeams++;
+          if (f.awayTeamValidation.isTrained === true) {
+            trainedTeams++;
+          } else if (f.awayTeamValidation.isTrained === false) {
+            untrainedTeams++;
+          }
         } else if (f.awayTeamValidation?.isValid === false) {
           invalidTeams++;
         } else {
@@ -541,7 +730,7 @@ export default function JackpotInput() {
       }
     });
 
-    return { validTeams, invalidTeams, validatingTeams, unvalidatedTeams };
+    return { validTeams, invalidTeams, validatingTeams, unvalidatedTeams, trainedTeams, untrainedTeams };
   }, [fixtures]);
 
   const isValid = fixtures.length > 0 && 
@@ -622,7 +811,7 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
       )}
 
       {/* Team Validation Summary */}
-      {(validationSummary.validTeams > 0 || validationSummary.invalidTeams > 0 || validationSummary.validatingTeams > 0) && (
+      {(validationSummary.validTeams > 0 || validationSummary.invalidTeams > 0 || validationSummary.validatingTeams > 0 || validationSummary.untrainedTeams > 0) && (
         <Alert className="animate-fade-in border-primary/20 bg-primary/5">
           <Target className="h-4 w-4 text-primary" />
           <AlertDescription className="flex items-center justify-between flex-wrap gap-2">
@@ -630,35 +819,183 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
               {validationSummary.validTeams > 0 && (
                 <div className="flex items-center gap-1">
                   <CheckCircle2 className="h-4 w-4 text-green-500" />
-                  <span className="text-sm">{validationSummary.validTeams} team{validationSummary.validTeams !== 1 ? 's' : ''} validated</span>
+                  <span className="text-sm font-medium">{validationSummary.validTeams} validated</span>
+                </div>
+              )}
+              {validationSummary.trainedTeams > 0 && (
+                <div className="flex items-center gap-1">
+                  <Sparkles className="h-4 w-4 text-blue-500" />
+                  <span className="text-sm font-medium">{validationSummary.trainedTeams} trained</span>
+                </div>
+              )}
+              {validationSummary.untrainedTeams > 0 && (
+                <div className="flex items-center gap-1">
+                  <AlertTriangle className="h-4 w-4 text-yellow-500" />
+                  <span className="text-sm font-medium">{validationSummary.untrainedTeams} need training</span>
                 </div>
               )}
               {validationSummary.invalidTeams > 0 && (
                 <div className="flex items-center gap-1">
                   <AlertTriangle className="h-4 w-4 text-red-500" />
-                  <span className="text-sm">{validationSummary.invalidTeams} team{validationSummary.invalidTeams !== 1 ? 's' : ''} not found</span>
+                  <span className="text-sm font-medium">{validationSummary.invalidTeams} not found</span>
                 </div>
               )}
               {validationSummary.validatingTeams > 0 && (
                 <div className="flex items-center gap-1">
-                  <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
-                  <span className="text-sm">Validating {validationSummary.validatingTeams} team{validationSummary.validatingTeams !== 1 ? 's' : ''}...</span>
+                  <Loader2 className="h-4 w-4 animate-spin text-primary" />
+                  <span className="text-sm font-medium">{validationSummary.validatingTeams} validating...</span>
                 </div>
               )}
             </div>
-            {(validationSummary.invalidTeams > 0 || validationSummary.unvalidatedTeams > 0) && (
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={validateAllTeams}
-                className="ml-auto"
-              >
-                <Target className="h-4 w-4 mr-2" />
-                Validate All Teams
-              </Button>
-            )}
           </AlertDescription>
         </Alert>
+      )}
+
+      {/* Pipeline Status Dialog */}
+      {pipelineDialogOpen && (
+        <Dialog open={pipelineDialogOpen} onOpenChange={setPipelineDialogOpen}>
+          <DialogContent className="max-w-2xl glass-card-elevated">
+            <DialogHeader>
+              <DialogTitle className="gradient-text">Preparing Data Pipeline</DialogTitle>
+              <DialogDescription>
+                {pipelineStatus === 'running' 
+                  ? 'Downloading missing data and retraining model...'
+                  : pipelineStatus === 'completed'
+                  ? 'Pipeline completed successfully!'
+                  : 'Checking team status...'}
+              </DialogDescription>
+            </DialogHeader>
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between text-sm">
+                  <span>Progress</span>
+                  <span className="font-medium">{pipelineProgress}%</span>
+                </div>
+                <div className="h-2 bg-background/50 rounded-full overflow-hidden">
+                  <div 
+                    className="h-full bg-primary transition-all duration-300"
+                    style={{ width: `${pipelineProgress}%` }}
+                  />
+                </div>
+              </div>
+              <div className="text-sm text-muted-foreground">
+                <p className="font-medium mb-2">Current Step:</p>
+                <p>{pipelinePhase}</p>
+              </div>
+              {pipelineSteps && Object.keys(pipelineSteps).length > 0 && (
+                <div className="space-y-2">
+                  <p className="text-sm font-medium">Pipeline Steps:</p>
+                  <div className="space-y-1 text-xs">
+                    {Object.entries(pipelineSteps).map(([step, data]: [string, any]) => (
+                      <div key={step} className="flex items-center gap-2">
+                        {data.success !== undefined ? (
+                          data.success ? (
+                            <CheckCircle2 className="h-3 w-3 text-green-500" />
+                          ) : (
+                            <AlertTriangle className="h-3 w-3 text-red-500" />
+                          )
+                        ) : data.skipped ? (
+                          <X className="h-3 w-3 text-gray-500" />
+                        ) : (
+                          <Loader2 className="h-3 w-3 animate-spin text-primary" />
+                        )}
+                        <span className="capitalize">{step.replace(/_/g, ' ')}</span>
+                        {data.error && (
+                          <span className="text-red-500 text-xs">({data.error})</span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            {pipelineStatus === 'completed' && pipelineSteps && (
+              <div className="space-y-3 border-t pt-4">
+                <p className="text-sm font-semibold">Pipeline Summary:</p>
+                <div className="space-y-2 text-xs">
+                  {pipelineSteps.create_teams?.created?.length > 0 && (
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-3 w-3 text-green-500" />
+                      <span><strong>{pipelineSteps.create_teams.created.length}</strong> teams created</span>
+                    </div>
+                  )}
+                  {pipelineSteps.download_data && !pipelineSteps.download_data.skipped && (
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-3 w-3 text-green-500" />
+                      <span>
+                        <strong>Data downloaded:</strong> {pipelineSteps.download_data.total_matches || 0} matches
+                        {pipelineSteps.download_data.leagues_downloaded?.length > 0 && (
+                          <span className="text-muted-foreground ml-1">
+                            ({pipelineSteps.download_data.leagues_downloaded.map((l: any) => l.league_code).join(', ')})
+                          </span>
+                        )}
+                      </span>
+                    </div>
+                  )}
+                  {pipelineSteps.train_model?.success && (
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-3 w-3 text-green-500" />
+                      <span>
+                        <strong>Model trained:</strong> Version {pipelineSteps.train_model.version || 'N/A'}
+                      </span>
+                    </div>
+                  )}
+                  {pipelineSteps.train_model?.success && (
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="h-3 w-3 text-blue-500" />
+                      <span className="text-green-600 font-medium">
+                        ✓ Probabilities calculated using newly trained model data
+                      </span>
+                    </div>
+                  )}
+                  {pipelineSteps.download_data?.errors?.length > 0 && (
+                    <div className="flex items-start gap-2">
+                      <AlertTriangle className="h-3 w-3 text-yellow-500 mt-0.5" />
+                      <div>
+                        <span className="text-yellow-600 font-medium">Download warnings:</span>
+                        <ul className="list-disc list-inside ml-2 text-muted-foreground">
+                          {pipelineSteps.download_data.errors.slice(0, 3).map((err: string, idx: number) => (
+                            <li key={idx}>{err}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+            <DialogFooter>
+              {pipelineStatus === 'completed' && (
+                <Button 
+                  onClick={() => {
+                    setPipelineDialogOpen(false);
+                    // Navigation will happen automatically after delay
+                  }} 
+                  className="btn-glow"
+                  disabled={isSubmitting}
+                >
+                  Continue
+                </Button>
+              )}
+              {pipelineStatus === 'failed' && (
+                <Button 
+                  onClick={() => {
+                    setPipelineDialogOpen(false);
+                    setIsSubmitting(false);
+                  }} 
+                  variant="destructive"
+                >
+                  Close
+                </Button>
+              )}
+              {(pipelineStatus === 'checking' || pipelineStatus === 'running') && (
+                <div className="text-sm text-muted-foreground">
+                  Please wait...
+                </div>
+              )}
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       )}
 
       <Card className="glass-card animate-fade-in-up">
@@ -846,7 +1183,70 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
         </CardContent>
       </Card>
 
-      <div className="flex justify-between items-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+      {/* Model Training Configuration */}
+      <Card className="glass-card border-primary/20 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2 text-lg">
+            <Target className="h-5 w-5 text-primary" />
+            Model Training Configuration
+          </CardTitle>
+          <CardDescription>
+            Configure how the model uses historical data for training
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex items-center gap-4 flex-wrap">
+            <div className="flex-1 min-w-[250px]">
+              <Label htmlFor="recent-data-window" className="text-sm font-medium mb-2 block">
+                Recent Data Focus
+              </Label>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <div className="flex items-center gap-2">
+                    <Select
+                      value={baseModelWindowYears.toString()}
+                      onValueChange={(value) => setBaseModelWindowYears(parseFloat(value))}
+                    >
+                      <SelectTrigger id="recent-data-window" className="w-full bg-background/50">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="2">
+                          2 Years (Most Recent)
+                        </SelectItem>
+                        <SelectItem value="3">
+                          3 Years (Recent Focus)
+                        </SelectItem>
+                        <SelectItem value="4">
+                          4 Years (Default - Balanced)
+                        </SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent className="max-w-xs">
+                  <p className="font-semibold mb-1">Recent Data Focus</p>
+                  <p className="text-xs">
+                    Controls how many years of historical data the model uses for training.
+                    <br /><br />
+                    <strong>2 Years:</strong> Most recent data only (+3-5% accuracy, faster training)
+                    <br />
+                    <strong>3 Years:</strong> Recent focus (+2-4% accuracy)
+                    <br />
+                    <strong>4 Years:</strong> Default balanced approach (most stable)
+                  </p>
+                </TooltipContent>
+              </Tooltip>
+              <p className="text-xs text-muted-foreground mt-2">
+                Model will train on last {baseModelWindowYears} {baseModelWindowYears === 1 ? 'year' : 'years'} of data
+                {baseModelWindowYears < 4 && ' (recent data focus enabled)'}
+              </p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="flex justify-between items-center animate-fade-in-up" style={{ animationDelay: '0.35s' }}>
         <Button
           onClick={() => setIsSaveDialogOpen(true)}
           disabled={!isValid}

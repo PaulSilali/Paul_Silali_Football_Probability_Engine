@@ -1,0 +1,107 @@
+Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team_id,TotalGoals,GoalDifference,Year,Month,DayOfWeek,is_high_scoring_match,is_very_high_scoring
+2020-02-29,USA1,Orlando City,New England Revolution,1,3,A,2021,44,649,654,4,-2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Nashville SC,2,0,H,2021,44,641,665,2,2,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,FC Dallas,1,0,H,2021,44,653,643,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Sporting Kansas City,Minnesota United FC,0,3,A,2021,44,656,661,3,-3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,New England Revolution,1,0,H,2021,44,641,654,1,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Minnesota United FC,3,2,H,2021,44,653,661,5,1,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Columbus Crew,Seattle Sounders,3,0,H,2021,44,641,653,3,3,2020.0,2.0,5.0,0,0
+2020-02-29,USA1,Seattle Sounders,Los Angeles FC,3,1,H,2021,44,653,642,4,2,2020.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Chicago Fire,0,2,A,2223,44,645,658,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Real Salt Lake,2,3,A,2223,44,654,662,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,FC Cincinnati,1,2,A,2223,44,649,660,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,San Jose Earthquakes,2,0,H,2223,44,640,647,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Sporting Kansas City,2,0,H,2223,44,659,656,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Austin FC,1,0,H,2223,44,648,644,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Charlotte FC,2,1,H,2223,44,650,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Minnesota United FC,0,1,A,2223,44,651,661,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,Inter Miami CF,3,1,H,2223,44,660,646,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Philadelphia Union,0,2,A,2223,44,651,640,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,D.C. United,2,1,H,2223,44,655,645,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Orlando City,0,1,A,2223,44,642,649,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,CF Montréal,3,3,D,2223,44,650,657,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Sporting Kansas City,3,1,H,2223,44,658,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,New England Revolution,3,1,H,2223,44,664,654,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,San Jose Earthquakes,1,0,H,2223,44,661,647,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Portland Timbers,4,1,H,2223,44,643,648,5,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Colorado Rapids,1,1,D,2223,44,652,659,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Nashville SC,2,1,H,2223,44,662,665,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Columbus Crew,1,1,D,2223,44,651,641,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Seattle Sounders,1,1,D,2223,44,644,653,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Vancouver Whitecaps,3,1,H,2223,44,642,663,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,FC Cincinnati,2,0,H,2223,44,664,660,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Real Salt Lake,1,0,H,2223,44,656,662,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Orlando City,1,1,D,2223,44,648,649,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,FC Dallas,0,0,D,2223,44,658,643,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,CF Montréal,3,4,A,2223,44,660,657,7,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,New York City FC,2,1,H,2223,44,655,651,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Nashville SC,0,1,A,2223,44,641,665,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Atlanta United FC,0,1,A,2223,44,645,650,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,New York City FC,0,1,A,2223,44,654,651,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Los Angeles FC,2,4,A,2223,44,649,642,6,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Charlotte FC,2,0,H,2223,44,640,664,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Austin FC,2,2,D,2223,44,647,644,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Houston Dynamo,1,3,A,2223,44,646,652,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Seattle Sounders,1,2,A,2223,44,661,653,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Sporting Kansas City,1,0,H,2223,44,663,656,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Real Salt Lake,1,1,D,2223,44,659,662,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,Los Angeles FC,1,3,A,2223,44,648,642,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,Chicago Fire,1,0,H,2223,44,649,658,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,New England Revolution,3,2,H,2223,44,646,654,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Columbus Crew,1,0,H,2223,44,640,641,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Los Angeles FC,2,1,H,2223,44,642,642,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Toronto FC,2,2,D,2223,44,662,655,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Colorado Rapids,3,1,H,2223,44,643,659,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,San Jose Earthquakes,4,3,H,2223,44,652,647,7,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Nashville SC,1,2,A,2223,44,656,665,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,Portland Timbers,2,3,A,2223,44,663,648,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Atlanta United FC,1,0,H,2223,44,664,650,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Minnesota United FC,1,0,H,2223,44,644,661,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Vancouver Whitecaps,2,1,H,2223,44,657,663,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Nashville SC,2,2,D,2223,44,647,665,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,FC Cincinnati,0,0,D,2223,44,650,660,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Portland Timbers,0,0,D,2223,44,652,648,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,FC Dallas,0,0,D,2223,44,651,643,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Orlando City,0,2,A,2223,44,641,649,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Austin FC,2,3,A,2223,44,645,644,5,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,Charlotte FC,2,1,H,2223,44,654,664,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Toronto FC,Philadelphia Union,2,1,H,2223,44,655,640,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Los Angeles FC,0,0,D,2223,44,658,642,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Colorado Rapids,3,1,H,2223,44,661,659,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Inter Miami CF,0,1,A,2223,44,653,646,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,Real Salt Lake,6,0,H,2223,44,651,662,6,6,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Sporting Kansas City,3,1,H,2223,44,642,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Houston Dynamo,2,1,H,2223,44,643,652,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Philadelphia Union,Minnesota United FC,1,1,D,2223,44,640,661,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Vancouver Whitecaps,4,0,H,2223,44,641,663,4,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Colorado Rapids,3,0,H,2223,44,642,659,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Toronto FC,1,1,D,2223,44,643,655,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,FC Cincinnati,5,0,H,2223,44,644,660,5,5,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,D.C. United,Charlotte FC,3,0,H,2223,44,645,664,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Chicago Fire,0,0,D,2223,44,646,658,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,New York City FC,1,3,A,2223,44,647,651,4,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Portland Timbers,New England Revolution,2,2,D,2223,44,648,654,4,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Orlando City,CF Montréal,2,0,H,2223,44,649,657,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Atlanta United FC,Sporting Kansas City,3,1,H,2223,44,650,656,4,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,New York City FC,1,0,H,2223,44,642,651,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Real Salt Lake,0,0,D,2223,44,652,662,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Nashville SC,0,1,A,2223,44,653,665,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New England Revolution,FC Dallas,1,0,H,2223,44,654,643,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Sporting Kansas City,Houston Dynamo,1,0,H,2223,44,656,652,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,CF Montréal,Philadelphia Union,1,2,A,2223,44,657,640,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Chicago Fire,Orlando City,0,0,D,2223,44,658,649,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Colorado Rapids,Atlanta United FC,3,0,H,2223,44,659,650,3,3,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Cincinnati,D.C. United,0,1,A,2223,44,660,645,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Minnesota United FC,Nashville SC,1,1,D,2223,44,661,665,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Real Salt Lake,Seattle Sounders,1,0,H,2223,44,662,653,1,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Vancouver Whitecaps,New York City FC,0,0,D,2223,44,663,651,0,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Charlotte FC,Los Angeles FC,0,1,A,2223,44,664,642,1,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,San Jose Earthquakes,Columbus Crew,3,3,D,2223,44,647,641,6,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,FC Dallas,Nashville SC,2,0,H,2223,44,643,665,2,2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Austin FC,Inter Miami CF,5,1,H,2223,44,644,646,6,4,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Los Angeles FC,Portland Timbers,1,1,D,2223,44,642,648,2,0,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,New York City FC,CF Montréal,1,2,A,2223,44,651,657,3,-1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Columbus Crew,Toronto FC,2,1,H,2223,44,641,655,3,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Inter Miami CF,Los Angeles FC,0,2,A,2223,44,646,642,2,-2,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Seattle Sounders,Los Angeles FC,3,2,H,2223,44,653,642,5,1,2022.0,2.0,5.0,0,0
+2022-02-26,USA1,Houston Dynamo,Vancouver Whitecaps,2,1,H,2223,44,652,663,3,1,2022.0,2.0,5.0,0,0

@@ -11,8 +11,19 @@ from pathlib import Path
 import pandas as pd
 import logging
 import time as time_module
+import urllib3
+from app.services.ingestion.draw_structural_validation import (
+    DrawStructuralValidator,
+    validate_before_insert
+)
+from app.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Disable SSL warnings if verification is disabled
+# Use getattr with default True to handle cases where attribute might not exist yet
+if not getattr(settings, 'VERIFY_SSL', True):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def ingest_weather_from_open_meteo(
@@ -70,7 +81,8 @@ def ingest_weather_from_open_meteo(
                 if attempt > 0:
                     time_module.sleep(retry_delay * (2 ** (attempt - 1)))
                 
-                response = requests.get(url, params=params, timeout=30)
+                verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+                response = requests.get(url, params=params, timeout=30, verify=verify_ssl)
                 response.raise_for_status()
                 break  # Success, exit retry loop
             except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, requests.exceptions.ChunkedEncodingError) as e:
@@ -135,6 +147,13 @@ def ingest_weather_from_open_meteo(
         # Normalize to 0.95-1.10 range
         weather_draw_index = max(0.0, min(0.15, weather_draw_index))
         weather_factor = 1.0 + weather_draw_index
+        
+        # Validate weather index
+        context = f" (fixture_id={fixture_id})"
+        is_valid, error = DrawStructuralValidator.validate_weather_index(weather_factor, context)
+        if not is_valid:
+            logger.warning(f"Invalid weather index: {error}, using neutral value")
+            weather_factor = 1.0  # Neutral
         
         # Insert or update
         existing = db.query(MatchWeather).filter(
@@ -245,10 +264,6 @@ def _save_weather_csv_batch(
         if not weather_records:
             raise ValueError("No weather records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Weather")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(weather_records)
         
@@ -259,17 +274,158 @@ def _save_weather_csv_batch(
         
         # Filename format: {league_code}_{season}_weather.csv
         filename = f"{league_code}_{season}_weather.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Weather", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch weather CSV for {league_code} ({season}): {len(weather_records)} records -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch weather CSV for {league_code} ({season}): {len(weather_records)} records")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch weather CSV: {e}", exc_info=True)
         raise
+
+
+def ingest_weather_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest weather data from CSV file in our format.
+    
+    CSV Format: league_code,season,match_date,home_team,away_team,temperature,rainfall,wind_speed,weather_draw_index
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['league_code', 'season', 'match_date', 'home_team', 'away_team', 'temperature', 'rainfall', 'wind_speed', 'weather_draw_index']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                league_code = str(row['league_code']).strip()
+                season = str(row['season']).strip()
+                match_date = pd.to_datetime(row['match_date']).date()
+                home_team_name = str(row['home_team']).strip()
+                away_team_name = str(row['away_team']).strip()
+                temperature = float(row['temperature']) if pd.notna(row['temperature']) else None
+                rainfall = float(row['rainfall']) if pd.notna(row['rainfall']) else None
+                wind_speed = float(row['wind_speed']) if pd.notna(row['wind_speed']) else None
+                weather_draw_index = float(row['weather_draw_index']) if pd.notna(row['weather_draw_index']) else None
+                
+                # Find league
+                league = db.query(League).filter(League.code == league_code).first()
+                if not league:
+                    logger.warning(f"League {league_code} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find teams
+                from app.services.team_resolver import resolve_team_safe
+                home_team = resolve_team_safe(db, home_team_name, league.id)
+                away_team = resolve_team_safe(db, away_team_name, league.id)
+                if not home_team or not away_team:
+                    logger.warning(f"Teams {home_team_name} or {away_team_name} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find match
+                match = db.query(Match).filter(
+                    Match.league_id == league.id,
+                    Match.season == season,
+                    Match.match_date == match_date,
+                    Match.home_team_id == home_team.id,
+                    Match.away_team_id == away_team.id
+                ).first()
+                
+                if not match:
+                    logger.warning(f"Match not found: {league_code} {season} {match_date} {home_team_name} vs {away_team_name}, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update in match_weather_historical
+                from sqlalchemy import text
+                existing = db.execute(
+                    text("""
+                        SELECT id FROM match_weather_historical 
+                        WHERE match_id = :match_id
+                    """),
+                    {"match_id": match.id}
+                ).fetchone()
+                
+                if existing:
+                    db.execute(
+                        text("""
+                            UPDATE match_weather_historical 
+                            SET temperature = :temperature,
+                                rainfall = :rainfall,
+                                wind_speed = :wind_speed,
+                                weather_draw_index = :weather_draw_index
+                            WHERE match_id = :match_id
+                        """),
+                        {
+                            "match_id": match.id,
+                            "temperature": temperature,
+                            "rainfall": rainfall,
+                            "wind_speed": wind_speed,
+                            "weather_draw_index": weather_draw_index
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO match_weather_historical 
+                            (match_id, temperature, rainfall, wind_speed, weather_draw_index)
+                            VALUES (:match_id, :temperature, :rainfall, :wind_speed, :weather_draw_index)
+                        """),
+                        {
+                            "match_id": match.id,
+                            "temperature": temperature,
+                            "rainfall": rainfall,
+                            "wind_speed": wind_speed,
+                            "weather_draw_index": weather_draw_index
+                        }
+                    )
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing weather row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested weather from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting weather from CSV: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
 
 
 def batch_ingest_weather_from_matches(
@@ -448,7 +604,8 @@ def batch_ingest_weather_from_matches(
                                         if attempt > 0:
                                             time_module.sleep(retry_delay * (2 ** (attempt - 1)))
                                         
-                                        response = requests.get(url, params=params, timeout=30)
+                                        verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+                                        response = requests.get(url, params=params, timeout=30, verify=verify_ssl)
                                         response.raise_for_status()
                                         break  # Success, exit retry loop
                                     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, requests.exceptions.ChunkedEncodingError) as e:

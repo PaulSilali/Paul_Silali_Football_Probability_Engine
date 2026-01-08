@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+B1,1718,2017-01-10,Cercle Brugge,Genk,15,14,True
+B1,1718,2017-01-10,Waregem,Lokeren,15,15,True
+B1,1718,2017-01-10,Anderlecht,Standard,15,14,True
+B1,1718,2017-01-12,Charleroi,Oostende,17,17,True
+B1,1718,2017-02-12,Lokeren,Anderlecht,15,14,False
+B1,1718,2017-02-12,Kortrijk,Waasland-Beveren,15,15,False
+B1,1718,2017-02-12,Mouscron,St Truiden,14,15,False
+B1,1718,2017-02-12,Mechelen,Genk,15,14,False
+B1,1718,2017-03-11,Genk,Standard,13,13,False
+B1,1718,2017-03-12,Eupen,Cercle Brugge,15,16,False
+B1,1718,2017-03-12,Standard,Antwerp,1,7,False
+B1,1718,2017-03-12,Waregem,Genk,16,1,False
+B1,1718,2017-04-08,Standard,Genk,5,5,False
+B1,1718,2017-04-11,Mechelen,Kortrijk,8,8,True
+B1,1718,2017-04-11,Waasland-Beveren,Mouscron,8,8,True
+B1,1718,2017-04-11,St Truiden,Eupen,8,8,True
+B1,1718,2017-04-11,Genk,Lokeren,3,8,True
+B1,1718,2017-05-08,Mouscron,Charleroi,27,6,False
+B1,1718,2017-05-08,Kortrijk,Lokeren,27,27,False
+B1,1718,2017-05-08,Waasland-Beveren,Mechelen,27,27,False
+B1,1718,2017-05-08,Waregem,St Truiden,6,6,False
+B1,1718,2017-05-11,Oostende,Waregem,38,3,True
+B1,1718,2017-05-11,Antwerp,Charleroi,60,3,True
+B1,1718,2017-05-11,Anderlecht,Cercle Brugge,38,9,True
+B1,1718,2017-06-08,Anderlecht,Oostende,28,28,True
+B1,1718,2017-06-08,Cercle Brugge,Eupen,28,58,True
+B1,1718,2017-06-08,Genk,Antwerp,37,28,True
+B1,1718,2017-07-28,Antwerp,Anderlecht,50,50,False
+B1,1718,2017-07-29,Charleroi,Kortrijk,79,82,False
+B1,1718,2017-07-29,Lokeren,Cercle Brugge,82,51,False
+B1,1718,2017-07-29,Eupen,Waregem,51,79,False
+B1,1718,2017-07-29,Genk,Waasland-Beveren,27,27,False
+B1,1718,2017-07-30,Mechelen,Standard,83,113,False
+B1,1718,2017-07-30,Oostende,Mouscron,52,83,False
+B1,1718,2017-07-30,St Truiden,Genk,83,1,False
+B1,1718,2017-08-09,Anderlecht,Lokeren,12,11,True
+B1,1718,2017-08-12,Waasland-Beveren,Standard,14,13,False
+B1,1718,2017-08-13,Charleroi,Anderlecht,15,4,False
+B1,1718,2017-08-13,St Truiden,Standard,14,1,False
+B1,1718,2017-08-13,Antwerp,Genk,16,14,False
+B1,1718,2017-08-18,Standard,Waregem,5,20,False
+B1,1718,2017-08-19,Waasland-Beveren,Lokeren,7,10,False
+B1,1718,2017-08-19,Eupen,Oostende,21,20,False
+B1,1718,2017-08-19,Genk,Charleroi,6,6,False
+B1,1718,2017-08-19,Mechelen,Antwerp,20,6,False
+B1,1718,2017-08-20,Kortrijk,Cercle Brugge,22,22,False
+B1,1718,2017-08-20,Mouscron,Genk,21,1,False
+B1,1718,2017-08-20,Anderlecht,St Truiden,7,7,False
+B1,1718,2017-08-25,Kortrijk,Mouscron,5,5,False
+B1,1718,2017-08-26,St Truiden,Waasland-Beveren,6,7,False
+B1,1718,2017-08-26,Charleroi,Waregem,7,8,False
+B1,1718,2017-08-26,Genk,Mechelen,6,7,False
+B1,1718,2017-08-26,Lokeren,Eupen,7,7,False
+B1,1718,2017-08-27,Oostende,Antwerp,8,8,False
+B1,1718,2017-08-27,Genk,Anderlecht,1,7,False
+B1,1718,2017-08-27,Cercle Brugge,Standard,7,9,False
+B1,1718,2017-09-09,Antwerp,St Truiden,13,14,False
+B1,1718,2017-09-09,Waregem,Kortrijk,14,15,False
+B1,1718,2017-09-09,Waasland-Beveren,Eupen,14,14,False
+B1,1718,2017-09-09,Mouscron,Cercle Brugge,15,13,False
+B1,1718,2017-09-12,Oostende,Mechelen,16,17,True
+B1,1718,2017-09-12,Antwerp,Mouscron,3,3,True
+B1,1718,2017-09-12,Genk,Eupen,16,3,True
+B1,1718,2017-09-12,Genk,Kortrijk,16,3,True
+B1,1718,2017-09-15,Cercle Brugge,Mechelen,6,3,False
+B1,1718,2017-09-16,Lokeren,Antwerp,21,4,False
+B1,1718,2017-09-16,Kortrijk,Anderlecht,4,20,False
+B1,1718,2017-09-16,Charleroi,Waasland-Beveren,21,7,False
+B1,1718,2017-09-16,St Truiden,Genk,7,4,False
+B1,1718,2017-09-17,Waregem,Mouscron,8,5,False
+B1,1718,2017-09-17,Oostende,Genk,5,1,False
+B1,1718,2017-09-17,Eupen,Standard,5,21,False
+B1,1718,2017-09-22,Antwerp,Kortrijk,6,6,False
+B1,1718,2017-09-23,Genk,Oostende,6,6,False
+B1,1718,2017-09-23,Waasland-Beveren,Anderlecht,7,7,False
+B1,1718,2017-09-23,Mouscron,Eupen,6,6,False
+B1,1718,2017-09-23,Mechelen,St Truiden,8,7,False
+B1,1718,2017-09-24,Standard,Lokeren,7,8,False
+B1,1718,2017-09-24,Charleroi,Cercle Brugge,8,9,False
+B1,1718,2017-09-24,Genk,Waregem,1,7,False
+B1,1718,2017-09-29,St Truiden,Charleroi,6,5,False
+B1,1718,2017-09-30,Kortrijk,Oostende,8,7,False
+B1,1718,2017-09-30,Eupen,Genk,7,6,False
+B1,1718,2017-09-30,Mouscron,Mechelen,7,7,False
+B1,1718,2017-09-30,Waasland-Beveren,Antwerp,7,8,False
+B1,1718,2017-10-09,Mechelen,Oostende,9,9,False
+B1,1718,2017-10-09,Standard,Charleroi,15,10,False
+B1,1718,2017-10-09,Genk,Genk,7,7,False
+B1,1718,2017-10-12,Cercle Brugge,Lokeren,18,18,True
+B1,1718,2017-10-12,St Truiden,Waregem,10,18,True
+B1,1718,2017-10-12,Anderlecht,Charleroi,19,3,True
+B1,1718,2017-10-13,Mechelen,Anderlecht,4,1,False
+B1,1718,2017-10-14,Genk,Mouscron,5,14,False
+B1,1718,2017-10-14,Lokeren,St Truiden,2,2,False
+B1,1718,2017-10-14,Charleroi,Eupen,2,14,False
+B1,1718,2017-10-14,Genk,Waasland-Beveren,5,14,False
+B1,1718,2017-10-15,Standard,Kortrijk,6,15,False
+B1,1718,2017-10-15,Antwerp,Waregem,15,3,False
+B1,1718,2017-10-15,Oostende,Cercle Brugge,6,3,False
+B1,1718,2017-10-20,Mouscron,Standard,6,5,False
+B1,1718,2017-10-21,Kortrijk,Genk,6,7,False
+B1,1718,2017-10-21,St Truiden,Oostende,7,6,False
+B1,1718,2017-10-21,Lokeren,Charleroi,7,7,False
+B1,1718,2017-10-21,Eupen,Mechelen,7,8,False
+B1,1718,2017-10-22,Anderlecht,Genk,9,1,False
+B1,1718,2017-10-22,Waregem,Waasland-Beveren,7,8,False
+B1,1718,2017-10-22,Cercle Brugge,Antwerp,7,7,False
+B1,1718,2017-10-24,Oostende,Charleroi,3,3,True
+B1,1718,2017-10-24,Genk,Eupen,2,3,True
+B1,1718,2017-10-24,Mechelen,Lokeren,3,3,True
+B1,1718,2017-10-25,Genk,Cercle Brugge,1,3,True
+B1,1718,2017-10-25,Anderlecht,Waregem,3,3,True
+B1,1718,2017-10-25,Waasland-Beveren,Kortrijk,3,4,True
+B1,1718,2017-10-26,Antwerp,Standard,4,6,True
+B1,1718,2017-10-26,St Truiden,Mouscron,5,6,True
+B1,1718,2017-10-27,Charleroi,Genk,3,2,False
+B1,1718,2017-10-28,Waregem,Mechelen,3,4,False
+B1,1718,2017-10-28,Kortrijk,Genk,3,1,False
+B1,1718,2017-10-28,Eupen,Anderlecht,4,3,False
+B1,1718,2017-10-28,Lokeren,Oostende,4,4,False
+B1,1718,2017-10-29,Standard,Waasland-Beveren,3,4,False
+B1,1718,2017-10-29,Mouscron,Antwerp,3,3,False
+B1,1718,2017-10-29,Cercle Brugge,St Truiden,4,3,False
+B1,1718,2017-11-08,Waregem,Cercle Brugge,11,10,True
+B1,1718,2017-11-17,Charleroi,Mechelen,15,15,False
+B1,1718,2017-11-18,Mouscron,Anderlecht,16,21,False
+B1,1718,2017-11-18,Standard,Oostende,20,16,False
+B1,1718,2017-11-18,Kortrijk,St Truiden,16,20,False
+B1,1718,2017-11-18,Eupen,Antwerp,16,20,False
+B1,1718,2017-11-19,Lokeren,Genk,22,17,False
+B1,1718,2017-11-19,Waregem,Genk,11,17,False
+B1,1718,2017-11-19,Cercle Brugge,Waasland-Beveren,11,21,False
+B1,1718,2017-11-24,Genk,Mouscron,5,6,False
+B1,1718,2017-11-25,St Truiden,Lokeren,7,6,False
+B1,1718,2017-11-25,Oostende,Eupen,7,7,False
+B1,1718,2017-11-25,Antwerp,Mechelen,7,8,False
+B1,1718,2017-11-25,Waasland-Beveren,Charleroi,6,8,False
+B1,1718,2017-11-26,Genk,Standard,2,8,False
+B1,1718,2017-11-26,Anderlecht,Kortrijk,8,8,False
+B1,1718,2017-11-26,Cercle Brugge,Waregem,7,7,False
+B1,1718,2017-12-08,Oostende,Waasland-Beveren,5,5,False
+B1,1718,2017-12-08,Mechelen,Genk,5,5,False
+B1,1718,2017-12-08,Lokeren,Mouscron,5,5,False
+B1,1718,2017-12-08,Eupen,Kortrijk,5,5,False
+B1,1718,2017-12-15,Mouscron,Oostende,7,7,False
+B1,1718,2017-12-16,Eupen,St Truiden,8,13,False
+B1,1718,2017-12-16,Kortrijk,Mechelen,8,8,False
+B1,1718,2017-12-16,Lokeren,Waasland-Beveren,8,8,False
+B1,1718,2017-12-16,Standard,Genk,13,8,False
+B1,1718,2017-12-17,Charleroi,Genk,14,1,False
+B1,1718,2017-12-17,Cercle Brugge,Anderlecht,14,14,False
+B1,1718,2017-12-17,Waregem,Antwerp,14,22,False
+B1,1718,2017-12-20,Mechelen,Cercle Brugge,4,3,True
+B1,1718,2017-12-21,Antwerp,Lokeren,4,5,True
+B1,1718,2017-12-21,Genk,Charleroi,4,4,True
+B1,1718,2017-12-22,Anderlecht,Eupen,5,6,False
+B1,1718,2017-12-22,Waasland-Beveren,Oostende,6,7,False
+B1,1718,2017-12-23,Standard,St Truiden,7,7,False
+B1,1718,2017-12-23,Genk,Kortrijk,2,7,False
+B1,1718,2017-12-23,Mouscron,Waregem,8,6,False
+B1,1718,2017-12-26,Anderlecht,Genk,4,3,True
+B1,1718,2017-12-26,Cercle Brugge,Mouscron,6,3,True
+B1,1718,2017-12-26,Eupen,Waasland-Beveren,4,4,True
+B1,1718,2017-12-26,Lokeren,Mechelen,5,6,True
+B1,1718,2017-12-26,Waregem,Charleroi,3,5,True
+B1,1718,2017-12-27,Kortrijk,Standard,4,4,True
+B1,1718,2017-12-27,St Truiden,Antwerp,4,6,True
+B1,1718,2018-01-16,Oostende,Genk,25,21,True
+B1,1718,2018-01-19,Charleroi,Mouscron,24,24,False
+B1,1718,2018-01-20,Mechelen,Waregem,25,25,False
+B1,1718,2018-01-20,Oostende,Kortrijk,4,24,False
+B1,1718,2018-01-20,Standard,Eupen,24,25,False
+B1,1718,2018-01-20,Waasland-Beveren,St Truiden,25,24,False
+B1,1718,2018-01-21,Antwerp,Cercle Brugge,25,26,False
+B1,1718,2018-01-21,Genk,Anderlecht,5,26,False
+B1,1718,2018-01-21,Genk,Lokeren,5,26,False
+B1,1718,2018-01-23,Mouscron,Kortrijk,4,3,True
+B1,1718,2018-01-23,St Truiden,Mechelen,3,3,True
+B1,1718,2018-01-23,Waregem,Standard,3,3,True
+B1,1718,2018-01-24,Anderlecht,Waasland-Beveren,3,4,True
+B1,1718,2018-01-24,Antwerp,Genk,3,3,True
+B1,1718,2018-01-24,Eupen,Charleroi,4,5,True
+B1,1718,2018-01-24,Lokeren,Genk,3,3,True
+B1,1718,2018-01-25,Cercle Brugge,Oostende,4,5,True
+B1,1718,2018-01-26,Mechelen,Mouscron,3,3,False
+B1,1718,2018-01-27,Genk,St Truiden,3,4,False
+B1,1718,2018-01-27,Charleroi,Antwerp,3,3,False
+B1,1718,2018-01-27,Kortrijk,Eupen,4,3,False
+B1,1718,2018-01-27,Waasland-Beveren,Waregem,3,4,False
+B1,1718,2018-01-28,Standard,Anderlecht,5,4,False
+B1,1718,2018-01-28,Genk,Cercle Brugge,1,3,False
+B1,1718,2018-01-28,Oostende,Lokeren,3,4,False
+B1,1718,2018-02-02,Antwerp,Waasland-Beveren,6,6,False
+B1,1718,2018-02-16,St Truiden,Anderlecht,20,19,False
+B1,1718,2018-02-17,Antwerp,Oostende,15,20,False
+B1,1718,2018-02-17,Cercle Brugge,Genk,20,20,False
+B1,1718,2018-02-17,Lokeren,Kortrijk,20,21,False
+B1,1718,2018-02-17,Waregem,Eupen,21,21,False
+B1,1718,2018-02-18,Genk,Mechelen,1,23,False
+B1,1718,2018-02-18,Charleroi,Standard,22,21,False
+B1,1718,2018-02-18,Mouscron,Waasland-Beveren,23,16,False
+B1,1718,2018-02-23,Genk,Antwerp,5,6,False
+B1,1718,2018-02-24,Oostende,St Truiden,7,8,False
+B1,1718,2018-02-24,Mechelen,Charleroi,6,6,False
+B1,1718,2018-02-24,Eupen,Lokeren,7,7,False
+B1,1718,2018-02-24,Waasland-Beveren,Genk,6,1,False
+B1,1718,2018-02-25,Standard,Cercle Brugge,7,8,False
+B1,1718,2018-02-25,Anderlecht,Mouscron,9,7,False
+B1,1718,2018-02-25,Kortrijk,Waregem,8,8,False
+B1,1718,2018-03-02,Mouscron,Genk,5,6,False
+B1,1718,2018-03-02,Eupen,Genk,6,6,False
+B1,1718,2018-03-02,Lokeren,Standard,6,5,False
+B1,1718,2018-03-02,St Truiden,Kortrijk,6,5,False
+B1,1718,2018-03-03,Standard,Mechelen,1,7,False
+B1,1718,2018-03-03,Waasland-Beveren,Genk,7,1,False
+B1,1718,2018-03-03,Waregem,Anderlecht,6,6,False
+B1,1718,2018-03-03,Antwerp,Eupen,8,1,False
+B1,1718,2018-03-03,Charleroi,St Truiden,7,1,False
+B1,1718,2018-03-03,Cercle Brugge,Kortrijk,6,1,False
+B1,1718,2018-03-03,Genk,Oostende,1,7,False
+B1,1718,2018-03-03,Mouscron,Lokeren,1,1,False
+B1,1718,2018-04-02,Waregem,Oostende,30,30,False
+B1,1718,2018-04-02,Cercle Brugge,Charleroi,30,30,False
+B1,1718,2018-04-02,Anderlecht,Mechelen,30,30,False
+B1,1718,2018-09-02,Genk,Waregem,7,2,False
+B1,1718,2018-10-02,Mechelen,Eupen,183,4,True
+B1,1718,2018-10-02,Kortrijk,Antwerp,4,2,True
+B1,1718,2018-10-02,Genk,St Truiden,2,2,True
+B1,1718,2018-10-02,Oostende,Anderlecht,2,2,True
+B1,1718,2018-11-02,Waasland-Beveren,Cercle Brugge,2,2,False
+B1,1718,2018-11-02,Standard,Mouscron,1,3,False
+B1,1718,2018-11-02,Charleroi,Lokeren,3,1,False
+B1,1718,2018-11-03,Anderlecht,Antwerp,2,3,False
+B1,1718,2018-11-03,Eupen,Mouscron,3,1,False
+B1,1718,2018-11-03,Genk,Genk,3,3,False
+B1,1718,2018-11-03,Kortrijk,Charleroi,3,1,False
+B1,1718,2018-11-03,Lokeren,Waregem,1,2,False
+B1,1718,2018-11-03,Mechelen,Waasland-Beveren,32,1,False
+B1,1718,2018-11-03,Oostende,Standard,1,1,False
+B1,1718,2018-11-03,St Truiden,Cercle Brugge,4,1,False

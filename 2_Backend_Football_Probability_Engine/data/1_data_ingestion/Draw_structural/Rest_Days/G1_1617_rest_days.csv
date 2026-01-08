@@ -1,0 +1,241 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+G1,1617,2016-01-10,Levadeiakos,Aris,7,7,False
+G1,1617,2016-01-10,Iraklis,Ionikos,7,7,False
+G1,1617,2016-01-10,Kerkyra,Giannina,7,7,False
+G1,1617,2016-02-10,Panathinaikos,Asteras Tripolis,7,7,True
+G1,1617,2016-02-10,Olympiakos,AEK,7,7,True
+G1,1617,2016-02-10,Platanias,Panetolikos,7,7,True
+G1,1617,2016-02-10,Veria,PAOK,7,7,True
+G1,1617,2016-03-10,Xanthi,Atromitos,7,7,True
+G1,1617,2016-03-12,Veria,Panetolikos,31,31,False
+G1,1617,2016-03-12,Kerkyra,AEK,62,31,False
+G1,1617,2016-03-12,Platanias,Ionikos,31,62,False
+G1,1617,2016-04-12,Olympiakos,Levadeiakos,62,93,True
+G1,1617,2016-04-12,Panathinaikos,PAOK,62,62,True
+G1,1617,2016-04-12,Xanthi,Asteras Tripolis,33,62,True
+G1,1617,2016-04-12,Aris,Atromitos,93,33,True
+G1,1617,2016-05-11,Giannina,Asteras Tripolis,122,29,True
+G1,1617,2016-05-11,Levadeiakos,Xanthi,29,29,True
+G1,1617,2016-05-11,AEK,Atromitos,60,29,True
+G1,1617,2016-05-12,Iraklis,Giannina,123,1,True
+G1,1617,2016-06-11,Panetolikos,Aris,91,60,False
+G1,1617,2016-06-11,Kerkyra,Veria,91,91,False
+G1,1617,2016-06-11,Olympiakos,Panathinaikos,60,60,False
+G1,1617,2016-06-11,Ionikos,PAOK,91,60,False
+G1,1617,2016-07-11,Iraklis,Platanias,60,121,False
+G1,1617,2016-09-17,Veria,AEK,98,129,False
+G1,1617,2016-09-17,Platanias,Levadeiakos,68,129,False
+G1,1617,2016-09-17,Xanthi,Ionikos,129,98,False
+G1,1617,2016-09-18,Iraklis,Olympiakos,69,99,False
+G1,1617,2016-09-18,Panathinaikos,Giannina,99,129,False
+G1,1617,2016-09-18,Kerkyra,Aris,99,99,False
+G1,1617,2016-09-18,Atromitos,Panetolikos,130,99,False
+G1,1617,2016-09-19,Asteras Tripolis,PAOK,131,100,False
+G1,1617,2016-09-24,Ionikos,Veria,7,7,False
+G1,1617,2016-09-24,Panetolikos,Panathinaikos,6,6,False
+G1,1617,2016-09-24,Giannina,Platanias,6,7,False
+G1,1617,2016-09-25,Aris,Olympiakos,7,7,False
+G1,1617,2016-09-25,PAOK,Xanthi,6,8,False
+G1,1617,2016-09-25,Levadeiakos,Kerkyra,8,7,False
+G1,1617,2016-09-25,Atromitos,Asteras Tripolis,7,6,False
+G1,1617,2016-09-26,AEK,Iraklis,9,8,False
+G1,1617,2016-10-09,Levadeiakos,Panathinaikos,14,15,False
+G1,1617,2016-10-09,Ionikos,Asteras Tripolis,15,14,False
+G1,1617,2016-10-09,Kerkyra,Platanias,14,15,False
+G1,1617,2016-10-12,Xanthi,Aris,17,17,True
+G1,1617,2016-10-12,AEK,Levadeiakos,16,3,True
+G1,1617,2016-10-12,Asteras Tripolis,Veria,3,18,True
+G1,1617,2016-10-15,Asteras Tripolis,Platanias,3,6,False
+G1,1617,2016-10-15,Panetolikos,Kerkyra,21,6,False
+G1,1617,2016-10-15,Ionikos,Olympiakos,6,20,False
+G1,1617,2016-10-16,Panathinaikos,Xanthi,7,4,False
+G1,1617,2016-10-16,PAOK,Iraklis,21,20,False
+G1,1617,2016-10-16,Atromitos,Veria,21,4,False
+G1,1617,2016-10-17,Aris,AEK,5,5,False
+G1,1617,2016-10-22,Kerkyra,Asteras Tripolis,7,7,False
+G1,1617,2016-10-22,Platanias,Xanthi,7,6,False
+G1,1617,2016-10-22,AEK,Ionikos,5,7,False
+G1,1617,2016-10-23,Giannina,Aris,29,6,False
+G1,1617,2016-10-23,Iraklis,Atromitos,7,7,False
+G1,1617,2016-10-23,Levadeiakos,Panetolikos,11,8,False
+G1,1617,2016-10-23,Olympiakos,PAOK,8,7,False
+G1,1617,2016-10-24,Veria,Panathinaikos,8,8,False
+G1,1617,2016-10-29,Xanthi,Kerkyra,7,7,False
+G1,1617,2016-10-29,Atromitos,Olympiakos,6,6,False
+G1,1617,2016-10-29,Aris,Ionikos,6,7,False
+G1,1617,2016-10-30,PAOK,AEK,7,8,False
+G1,1617,2016-10-30,Asteras Tripolis,Levadeiakos,8,7,False
+G1,1617,2016-10-30,Panathinaikos,Iraklis,6,7,False
+G1,1617,2016-10-30,Veria,Platanias,6,8,False
+G1,1617,2016-10-31,Panetolikos,Giannina,8,8,False
+G1,1617,2016-11-09,AEK,Xanthi,10,11,True
+G1,1617,2016-11-09,PAOK,Panetolikos,10,9,True
+G1,1617,2016-11-09,Giannina,Atromitos,9,11,True
+G1,1617,2016-11-09,Olympiakos,Veria,11,10,True
+G1,1617,2016-11-12,Panetolikos,Iraklis,3,13,False
+G1,1617,2016-11-12,PAOK,Platanias,3,13,False
+G1,1617,2016-11-12,Atromitos,Panathinaikos,3,13,False
+G1,1617,2016-11-12,Ionikos,Kerkyra,14,14,False
+G1,1617,2016-11-23,Giannina,Levadeiakos,14,24,True
+G1,1617,2016-11-26,AEK,Platanias,17,14,False
+G1,1617,2016-11-26,Giannina,Veria,3,17,False
+G1,1617,2016-11-26,Asteras Tripolis,Aris,27,28,False
+G1,1617,2016-11-27,Panetolikos,Xanthi,15,18,False
+G1,1617,2016-11-27,Levadeiakos,Iraklis,4,15,False
+G1,1617,2016-11-27,Olympiakos,Kerkyra,18,15,False
+G1,1617,2016-11-27,Ionikos,Panathinaikos,15,15,False
+G1,1617,2016-11-28,PAOK,Atromitos,16,16,False
+G1,1617,2016-12-09,Aris,Iraklis,13,12,False
+G1,1617,2016-12-12,Giannina,Olympiakos,16,15,False
+G1,1617,2016-12-17,Veria,Xanthi,21,20,False
+G1,1617,2016-12-17,Kerkyra,PAOK,20,19,False
+G1,1617,2016-12-17,Platanias,Atromitos,21,19,False
+G1,1617,2016-12-18,Levadeiakos,Ionikos,21,21,False
+G1,1617,2016-12-18,Olympiakos,Panetolikos,6,21,False
+G1,1617,2016-12-18,Aris,Panathinaikos,9,21,False
+G1,1617,2016-12-18,Iraklis,Asteras Tripolis,9,22,False
+G1,1617,2016-12-19,AEK,Giannina,23,7,False
+G1,1617,2017-01-02,Aris,PAOK,15,16,False
+G1,1617,2017-01-02,Iraklis,Kerkyra,15,16,False
+G1,1617,2017-01-04,Giannina,Xanthi,16,18,True
+G1,1617,2017-01-04,Olympiakos,Platanias,17,18,True
+G1,1617,2017-01-04,Levadeiakos,Veria,17,18,True
+G1,1617,2017-01-14,Platanias,Olympiakos,10,4,False
+G1,1617,2017-01-14,Veria,Levadeiakos,10,4,False
+G1,1617,2017-01-15,Xanthi,Giannina,5,11,False
+G1,1617,2017-01-15,Panathinaikos,AEK,28,5,False
+G1,1617,2017-01-15,Atromitos,Ionikos,5,28,False
+G1,1617,2017-01-15,Asteras Tripolis,Panetolikos,5,28,False
+G1,1617,2017-01-18,Xanthi,Iraklis,3,16,True
+G1,1617,2017-01-18,Asteras Tripolis,Olympiakos,3,4,True
+G1,1617,2017-01-18,Atromitos,Kerkyra,3,8,True
+G1,1617,2017-01-18,Giannina,Ionikos,3,3,True
+G1,1617,2017-01-18,Panetolikos,AEK,3,3,True
+G1,1617,2017-01-18,Veria,Aris,4,16,True
+G1,1617,2017-01-19,PAOK,Levadeiakos,17,5,True
+G1,1617,2017-01-19,Panathinaikos,Platanias,4,5,True
+G1,1617,2017-01-21,Iraklis,Veria,3,3,False
+G1,1617,2017-01-21,Ionikos,Panetolikos,3,3,False
+G1,1617,2017-01-21,Olympiakos,Xanthi,3,3,False
+G1,1617,2017-01-22,Kerkyra,Panathinaikos,4,3,False
+G1,1617,2017-01-22,Aris,Platanias,4,3,False
+G1,1617,2017-01-22,Levadeiakos,Atromitos,3,4,False
+G1,1617,2017-01-22,AEK,Asteras Tripolis,4,4,False
+G1,1617,2017-01-23,Giannina,PAOK,5,4,False
+G1,1617,2017-01-25,Veria,Iraklis,4,4,True
+G1,1617,2017-01-28,Iraklis,Aris,3,6,False
+G1,1617,2017-01-28,Xanthi,AEK,7,6,False
+G1,1617,2017-01-28,Asteras Tripolis,Ionikos,6,7,False
+G1,1617,2017-01-29,Panathinaikos,Levadeiakos,7,7,False
+G1,1617,2017-01-29,Veria,Olympiakos,4,8,False
+G1,1617,2017-01-29,Platanias,Kerkyra,7,7,False
+G1,1617,2017-01-29,Atromitos,Giannina,7,6,False
+G1,1617,2017-01-29,Panetolikos,PAOK,8,6,False
+G1,1617,2017-02-04,Panetolikos,Asteras Tripolis,6,7,False
+G1,1617,2017-02-04,PAOK,Aris,6,7,False
+G1,1617,2017-02-04,Ionikos,Atromitos,7,6,False
+G1,1617,2017-02-04,AEK,Panathinaikos,7,6,False
+G1,1617,2017-02-04,Kerkyra,Iraklis,6,7,False
+G1,1617,2017-02-13,Iraklis,AEK,9,9,False
+G1,1617,2017-02-18,Giannina,Kerkyra,20,6,False
+G1,1617,2017-02-18,Atromitos,Xanthi,14,6,False
+G1,1617,2017-02-18,Asteras Tripolis,Panathinaikos,6,14,False
+G1,1617,2017-02-19,Panetolikos,Platanias,15,21,False
+G1,1617,2017-02-19,PAOK,Veria,7,21,False
+G1,1617,2017-02-19,Ionikos,Iraklis,9,6,False
+G1,1617,2017-02-19,AEK,Olympiakos,6,7,False
+G1,1617,2017-02-20,Aris,Levadeiakos,16,22,False
+G1,1617,2017-02-25,Xanthi,Panathinaikos,7,7,False
+G1,1617,2017-02-25,Kerkyra,Panetolikos,7,6,False
+G1,1617,2017-02-25,Platanias,Asteras Tripolis,6,7,False
+G1,1617,2017-02-26,Olympiakos,Ionikos,7,7,False
+G1,1617,2017-02-26,Levadeiakos,Giannina,6,8,False
+G1,1617,2017-02-26,Iraklis,PAOK,7,7,False
+G1,1617,2017-02-26,AEK,Aris,7,6,False
+G1,1617,2017-02-27,Veria,Atromitos,8,9,False
+G1,1617,2017-03-01,Levadeiakos,PAOK,3,3,True
+G1,1617,2017-03-01,Iraklis,Xanthi,3,4,True
+G1,1617,2017-03-13,Levadeiakos,Asteras Tripolis,1,16,False
+G1,1617,2017-03-18,Atromitos,AEK,19,6,False
+G1,1617,2017-03-18,Aris,Panetolikos,6,6,False
+G1,1617,2017-03-18,Veria,Kerkyra,19,21,False
+G1,1617,2017-03-19,Panathinaikos,Olympiakos,7,21,False
+G1,1617,2017-03-19,Asteras Tripolis,Giannina,6,7,False
+G1,1617,2017-03-19,Xanthi,Levadeiakos,18,6,False
+G1,1617,2017-03-19,PAOK,Ionikos,18,7,False
+G1,1617,2017-03-20,Platanias,Iraklis,23,19,False
+G1,1617,2017-04-01,Kerkyra,Atromitos,14,14,False
+G1,1617,2017-04-01,Aris,Veria,14,14,False
+G1,1617,2017-04-01,AEK,Panetolikos,14,14,False
+G1,1617,2017-04-01,Olympiakos,Asteras Tripolis,13,13,False
+G1,1617,2017-04-02,Aris,Kerkyra,1,1,False
+G1,1617,2017-04-02,Giannina,Panathinaikos,14,14,False
+G1,1617,2017-04-02,Panetolikos,Atromitos,1,1,False
+G1,1617,2017-04-03,Panathinaikos,Veria,1,2,False
+G1,1617,2017-04-03,Panetolikos,Levadeiakos,1,15,False
+G1,1617,2017-04-03,Aris,Giannina,1,1,False
+G1,1617,2017-04-23,Kerkyra,Ionikos,21,12,False
+G1,1617,2017-04-23,Iraklis,Panetolikos,34,12,False
+G1,1617,2017-04-23,Veria,Asteras Tripolis,20,12,False
+G1,1617,2017-04-23,Platanias,PAOK,11,35,False
+G1,1617,2017-04-23,Panathinaikos,Atromitos,12,11,False
+G1,1617,2017-04-23,Olympiakos,Giannina,22,20,False
+G1,1617,2017-04-23,Levadeiakos,AEK,20,22,False
+G1,1617,2017-04-23,Aris,Xanthi,20,12,False
+G1,1617,2017-04-30,Atromitos,Platanias,7,7,False
+G1,1617,2017-04-30,Panetolikos,Olympiakos,7,7,False
+G1,1617,2017-04-30,Xanthi,Veria,7,7,False
+G1,1617,2017-04-30,PAOK,Kerkyra,7,7,False
+G1,1617,2017-04-30,Ionikos,Levadeiakos,7,7,False
+G1,1617,2017-04-30,Asteras Tripolis,Iraklis,7,7,False
+G1,1617,2017-04-30,Panathinaikos,Aris,7,7,False
+G1,1617,2017-04-30,Giannina,AEK,7,7,False
+G1,1617,2017-05-01,Ionikos,Giannina,1,1,False
+G1,1617,2017-05-01,Platanias,Panathinaikos,1,1,False
+G1,1617,2017-05-02,Olympiakos,Iraklis,2,2,True
+G1,1617,2017-05-02,AEK,Veria,2,2,True
+G1,1617,2017-05-02,PAOK,Asteras Tripolis,2,2,True
+G1,1617,2017-05-02,Ionikos,Xanthi,1,2,True
+G1,1617,2017-05-03,Xanthi,Platanias,1,2,True
+G1,1617,2017-05-03,Atromitos,Iraklis,3,1,True
+G1,1617,2017-05-03,Asteras Tripolis,Kerkyra,1,3,True
+G1,1617,2017-05-03,PAOK,Olympiakos,1,1,True
+G1,1617,2017-05-04,Atromitos,PAOK,1,1,True
+G1,1617,2017-05-04,Iraklis,Levadeiakos,1,4,True
+G1,1617,2017-05-04,Kerkyra,Olympiakos,1,1,True
+G1,1617,2017-05-04,Aris,Asteras Tripolis,4,1,True
+G1,1617,2017-05-04,Veria,Giannina,2,3,True
+G1,1617,2017-05-04,Xanthi,Panetolikos,1,4,True
+G1,1617,2017-06-02,Levadeiakos,Platanias,29,22,False
+G1,1617,2017-06-03,Ionikos,AEK,32,23,False
+G1,1617,2017-06-04,Panathinaikos,Ionikos,34,1,False
+G1,1617,2017-06-04,Platanias,AEK,2,1,False
+G1,1617,2017-07-01,Atromitos,Levadeiakos,58,20,False
+G1,1617,2017-07-01,Asteras Tripolis,AEK,58,27,False
+G1,1617,2017-08-01,PAOK,Giannina,82,82,True
+G1,1617,2017-08-01,Xanthi,Olympiakos,89,82,True
+G1,1617,2017-08-01,Platanias,Aris,58,82,True
+G1,1617,2017-08-01,Panetolikos,Ionikos,89,58,True
+G1,1617,2017-09-01,Panathinaikos,Kerkyra,5,5,False
+G1,1617,2017-09-04,Levadeiakos,Olympiakos,8,9,False
+G1,1617,2017-09-04,Panetolikos,Veria,9,123,False
+G1,1617,2017-09-04,Ionikos,Platanias,8,9,False
+G1,1617,2017-09-04,PAOK,Panathinaikos,8,3,False
+G1,1617,2017-09-04,AEK,Kerkyra,8,3,False
+G1,1617,2017-09-04,Asteras Tripolis,Xanthi,7,9,False
+G1,1617,2017-09-04,Giannina,Iraklis,8,123,False
+G1,1617,2017-09-04,Atromitos,Aris,9,7,False
+G1,1617,2017-11-02,Veria,Ionikos,59,4,True
+G1,1617,2017-11-02,Olympiakos,Aris,5,5,True
+G1,1617,2017-11-02,Asteras Tripolis,Atromitos,3,4,True
+G1,1617,2017-11-03,Giannina,Panetolikos,6,5,False
+G1,1617,2017-11-03,Ionikos,Aris,1,1,False
+G1,1617,2017-11-03,Iraklis,Panathinaikos,60,6,False
+G1,1617,2017-12-02,Panathinaikos,Panetolikos,7,6,False
+G1,1617,2017-12-02,Platanias,Giannina,5,7,False
+G1,1617,2017-12-02,Xanthi,PAOK,7,6,False
+G1,1617,2017-12-02,Kerkyra,Levadeiakos,6,6,False
+G1,1617,2017-12-03,Kerkyra,Xanthi,1,1,False
+G1,1617,2017-12-03,Olympiakos,Atromitos,7,8,False
+G1,1617,2017-12-03,Platanias,Veria,1,31,False
+G1,1617,2017-12-03,AEK,PAOK,6,1,False

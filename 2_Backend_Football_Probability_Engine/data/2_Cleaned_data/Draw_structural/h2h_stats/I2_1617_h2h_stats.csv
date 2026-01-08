@@ -1,0 +1,232 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8773,Avellino,9339,Novara,1617,2,1,0.5,1.5
+8772,Frosinone,8775,Brescia,1617,2,0,0.0,1.5
+8776,Pisa,9340,Pro Vercelli,1617,2,2,1.0,1.0
+8766,Spezia,8796,Trapani,1617,2,2,1.0,2.0
+8757,Cesena,8789,Benevento,1617,2,0,0.0,4.0
+8788,Perugia,8800,Verona,1617,2,2,1.0,3.0
+8768,Venezia,8773,Avellino,1617,2,1,0.5,2.0
+8766,Spezia,8768,Venezia,1617,2,1,0.5,0.5
+8775,Brescia,8782,Ternana,1617,2,0,0.0,2.0
+8769,Bari,8782,Ternana,1617,2,1,0.5,2.0
+8757,Cesena,8777,Salernitana,1617,2,2,1.0,1.0
+8800,Verona,9340,Pro Vercelli,1617,2,1,0.5,2.5
+8773,Avellino,8796,Trapani,1617,2,2,1.0,
+8769,Bari,8789,Benevento,1617,2,0,0.0,5.5
+8781,Ascoli,9340,Pro Vercelli,1617,2,1,0.5,3.0
+8775,Brescia,9341,Latina,1617,2,2,1.0,2.0
+8773,Avellino,9340,Pro Vercelli,1617,2,1,0.5,3.5
+8796,Trapani,9339,Novara,1617,2,1,0.5,3.5
+8773,Avellino,8788,Perugia,1617,2,0,0.0,4.0
+8769,Bari,8778,Cittadella,1617,2,0,0.0,2.5
+8781,Ascoli,8782,Ternana,1617,2,0,0.0,2.0
+8766,Spezia,8777,Salernitana,1617,2,1,0.5,1.5
+8777,Salernitana,9339,Novara,1617,2,1,0.5,0.5
+8766,Spezia,8776,Pisa,1617,2,2,1.0,
+8769,Bari,8800,Verona,1617,2,0,0.0,1.5
+8768,Venezia,8769,Bari,1617,2,1,0.5,1.5
+8796,Trapani,9340,Pro Vercelli,1617,2,1,0.5,3.0
+8760,Virtus Entella,9341,Latina,1617,2,1,0.5,1.5
+9339,Novara,9341,Latina,1617,2,1,0.5,2.5
+8769,Bari,9339,Novara,1617,2,1,0.5,0.5
+9339,Novara,9340,Pro Vercelli,1617,2,1,0.5,1.5
+8778,Cittadella,9340,Pro Vercelli,1617,2,1,0.5,3.0
+8760,Virtus Entella,8782,Ternana,1617,2,1,0.5,2.5
+8778,Cittadella,8788,Perugia,1617,2,1,0.5,2.0
+8776,Pisa,8782,Ternana,1617,2,0,0.0,1.0
+8772,Frosinone,8781,Ascoli,1617,2,1,0.5,3.0
+8768,Venezia,8776,Pisa,1617,2,0,0.0,2.0
+8757,Cesena,8800,Verona,1617,2,1,0.5,1.5
+8766,Spezia,8781,Ascoli,1617,2,0,0.0,2.5
+8788,Perugia,8790,Spal,1617,2,0,0.0,1.5
+8788,Perugia,9341,Latina,1617,2,2,1.0,3.0
+8766,Spezia,8773,Avellino,1617,2,0,0.0,2.0
+8757,Cesena,8768,Venezia,1617,2,2,1.0,1.0
+8782,Ternana,8790,Spal,1617,2,0,0.0,3.5
+8769,Bari,8781,Ascoli,1617,2,1,0.5,1.5
+8775,Brescia,8799,Carpi,1617,2,1,0.5,3.5
+8757,Cesena,9339,Novara,1617,2,0,0.0,2.5
+8782,Ternana,9339,Novara,1617,2,0,0.0,5.0
+8760,Virtus Entella,8799,Carpi,1617,2,0,0.0,2.5
+8768,Venezia,9341,Latina,1617,2,0,0.0,1.0
+8766,Spezia,8800,Verona,1617,2,0,0.0,3.0
+8769,Bari,8788,Perugia,1617,2,1,0.5,0.5
+8788,Perugia,9340,Pro Vercelli,1617,2,0,0.0,1.0
+8781,Ascoli,8796,Trapani,1617,2,2,1.0,3.0
+8790,Spal,9339,Novara,1617,2,0,0.0,1.5
+8778,Cittadella,8782,Ternana,1617,2,0,0.0,1.5
+8773,Avellino,8782,Ternana,1617,2,0,0.0,3.0
+8760,Virtus Entella,9340,Pro Vercelli,1617,2,1,0.5,0.5
+8766,Spezia,8789,Benevento,1617,2,0,0.0,2.5
+8776,Pisa,9341,Latina,1617,2,2,1.0,2.0
+8781,Ascoli,8790,Spal,1617,2,2,1.0,2.0
+8777,Salernitana,8789,Benevento,1617,2,1,0.5,2.5
+8760,Virtus Entella,8800,Verona,1617,2,0,0.0,2.0
+8777,Salernitana,9341,Latina,1617,2,1,0.5,2.5
+8769,Bari,9341,Latina,1617,2,0,0.0,2.5
+8768,Venezia,9339,Novara,1617,2,0,0.0,3.5
+8775,Brescia,9339,Novara,1617,2,1,0.5,2.5
+8768,Venezia,8778,Cittadella,1617,2,0,0.0,2.0
+8799,Carpi,9340,Pro Vercelli,1617,2,2,1.0,
+8760,Virtus Entella,8773,Avellino,1617,2,1,0.5,3.0
+8757,Cesena,8760,Virtus Entella,1617,2,0,0.0,2.0
+8766,Spezia,9340,Pro Vercelli,1617,2,0,0.0,2.5
+8789,Benevento,8796,Trapani,1617,2,0,0.0,2.5
+8768,Venezia,8799,Carpi,1617,2,1,0.5,1.0
+8772,Frosinone,8778,Cittadella,1617,2,1,0.5,3.5
+8799,Carpi,8800,Verona,1617,2,2,1.0,2.0
+8757,Cesena,8775,Brescia,1617,2,1,0.5,3.5
+8790,Spal,8799,Carpi,1617,2,0,0.0,4.5
+8781,Ascoli,9339,Novara,1617,2,0,0.0,2.0
+8799,Carpi,9339,Novara,1617,2,0,0.0,2.5
+8788,Perugia,9339,Novara,1617,2,1,0.5,0.5
+8782,Ternana,8788,Perugia,1617,2,1,0.5,1.5
+8768,Venezia,8789,Benevento,1617,2,2,1.0,
+8769,Bari,8776,Pisa,1617,2,2,1.0,
+8778,Cittadella,8796,Trapani,1617,2,0,0.0,3.5
+8766,Spezia,8769,Bari,1617,2,1,0.5,1.5
+8773,Avellino,8775,Brescia,1617,2,1,0.5,2.0
+8760,Virtus Entella,8776,Pisa,1617,2,2,1.0,1.0
+8775,Brescia,8796,Trapani,1617,2,1,0.5,1.5
+8766,Spezia,8775,Brescia,1617,2,1,0.5,2.0
+8769,Bari,8799,Carpi,1617,2,0,0.0,2.0
+8766,Spezia,8778,Cittadella,1617,2,1,0.5,1.5
+8788,Perugia,8799,Carpi,1617,2,1,0.5,1.0
+8781,Ascoli,8789,Benevento,1617,2,2,1.0,1.0
+8760,Virtus Entella,8772,Frosinone,1617,2,0,0.0,2.5
+8773,Avellino,8776,Pisa,1617,2,0,0.0,1.0
+8777,Salernitana,8778,Cittadella,1617,2,1,0.5,1.0
+8789,Benevento,9340,Pro Vercelli,1617,2,1,0.5,1.5
+8760,Virtus Entella,8769,Bari,1617,2,1,0.5,2.0
+8766,Spezia,8790,Spal,1617,2,1,0.5,1.5
+8769,Bari,8777,Salernitana,1617,2,1,0.5,1.0
+8768,Venezia,8800,Verona,1617,2,0,0.0,3.0
+8766,Spezia,8772,Frosinone,1617,2,1,0.5,1.0
+8782,Ternana,8789,Benevento,1617,2,0,0.0,2.0
+8777,Salernitana,8782,Ternana,1617,2,0,0.0,3.5
+8788,Perugia,8789,Benevento,1617,2,1,0.5,2.0
+8757,Cesena,8766,Spezia,1617,2,0,0.0,1.0
+8796,Trapani,8800,Verona,1617,2,0,0.0,2.0
+8769,Bari,8772,Frosinone,1617,2,0,0.0,2.5
+8777,Salernitana,9340,Pro Vercelli,1617,2,2,1.0,1.0
+8790,Spal,8800,Verona,1617,2,1,0.5,2.0
+8760,Virtus Entella,8778,Cittadella,1617,2,0,0.0,4.0
+8757,Cesena,9340,Pro Vercelli,1617,2,0,0.0,2.0
+8769,Bari,8775,Brescia,1617,2,1,0.5,2.0
+8757,Cesena,8769,Bari,1617,2,1,0.5,2.5
+8768,Venezia,8796,Trapani,1617,2,0,0.0,1.0
+8768,Venezia,8781,Ascoli,1617,2,1,0.5,2.0
+8790,Spal,9341,Latina,1617,2,1,0.5,1.5
+8775,Brescia,9340,Pro Vercelli,1617,2,1,0.5,3.5
+8768,Venezia,8782,Ternana,1617,2,0,0.0,2.0
+8768,Venezia,8790,Spal,1617,2,1,0.5,2.5
+8782,Ternana,9341,Latina,1617,2,1,0.5,1.5
+8778,Cittadella,8790,Spal,1617,2,0,0.0,3.0
+8773,Avellino,8789,Benevento,1617,2,1,0.5,2.5
+8782,Ternana,8800,Verona,1617,2,0,0.0,2.5
+8766,Spezia,8788,Perugia,1617,2,1,0.5,1.5
+8777,Salernitana,8790,Spal,1617,2,0,0.0,4.0
+8775,Brescia,8790,Spal,1617,2,0,0.0,4.5
+8772,Frosinone,8800,Verona,1617,2,0,0.0,1.5
+8760,Virtus Entella,8766,Spezia,1617,2,1,0.5,2.0
+8789,Benevento,8790,Spal,1617,2,0,0.0,2.0
+8773,Avellino,8778,Cittadella,1617,2,0,0.0,2.5
+8760,Virtus Entella,8768,Venezia,1617,2,1,0.5,4.5
+8772,Frosinone,8782,Ternana,1617,2,1,0.5,2.0
+8777,Salernitana,8781,Ascoli,1617,2,1,0.5,1.0
+8773,Avellino,9341,Latina,1617,2,1,0.5,1.5
+8772,Frosinone,9340,Pro Vercelli,1617,2,0,0.0,2.5
+8777,Salernitana,8796,Trapani,1617,2,0,0.0,1.5
+8777,Salernitana,8800,Verona,1617,2,1,0.5,2.0
+8772,Frosinone,8790,Spal,1617,2,0,0.0,2.5
+8773,Avellino,8781,Ascoli,1617,2,0,0.0,2.5
+8768,Venezia,8777,Salernitana,1617,2,0,0.0,3.0
+8781,Ascoli,9341,Latina,1617,2,2,1.0,2.0
+8777,Salernitana,8799,Carpi,1617,2,0,0.0,2.5
+8757,Cesena,8788,Perugia,1617,2,2,1.0,4.0
+8789,Benevento,8800,Verona,1617,2,1,0.5,3.0
+8790,Spal,9340,Pro Vercelli,1617,2,1,0.5,2.0
+8775,Brescia,8789,Benevento,1617,2,0,0.0,2.5
+8773,Avellino,8799,Carpi,1617,2,1,0.5,1.5
+8776,Pisa,8788,Perugia,1617,2,1,0.5,2.5
+8778,Cittadella,8781,Ascoli,1617,2,0,0.0,2.0
+8772,Frosinone,9339,Novara,1617,2,0,0.0,4.0
+8789,Benevento,9341,Latina,1617,2,1,0.5,2.5
+8757,Cesena,8772,Frosinone,1617,2,1,0.5,2.5
+8776,Pisa,9339,Novara,1617,2,1,0.5,1.5
+8768,Venezia,8788,Perugia,1617,2,0,0.0,3.0
+8766,Spezia,8799,Carpi,1617,2,0,0.0,1.0
+8778,Cittadella,8789,Benevento,1617,2,0,0.0,1.0
+8768,Venezia,8775,Brescia,1617,2,1,0.5,2.5
+8772,Frosinone,8788,Perugia,1617,2,1,0.5,2.5
+8757,Cesena,8781,Ascoli,1617,2,2,1.0,2.0
+8775,Brescia,8777,Salernitana,1617,2,1,0.5,2.0
+8769,Bari,9340,Pro Vercelli,1617,2,0,0.0,1.5
+8789,Benevento,8799,Carpi,1617,2,1,0.5,2.5
+8757,Cesena,8776,Pisa,1617,2,0,0.0,1.5
+8775,Brescia,8778,Cittadella,1617,2,0,0.0,4.0
+8760,Virtus Entella,8788,Perugia,1617,2,1,0.5,1.5
+8773,Avellino,8800,Verona,1617,2,0,0.0,3.0
+8757,Cesena,9341,Latina,1617,2,2,1.0,3.0
+8776,Pisa,8781,Ascoli,1617,2,0,0.0,4.5
+8768,Venezia,8772,Frosinone,1617,2,1,0.5,3.0
+8760,Virtus Entella,8781,Ascoli,1617,2,0,0.0,3.0
+8760,Virtus Entella,8796,Trapani,1617,2,1,0.5,3.0
+8776,Pisa,8796,Trapani,1617,2,0,0.0,1.0
+8772,Frosinone,8799,Carpi,1617,2,1,0.5,0.5
+8772,Frosinone,8796,Trapani,1617,2,0,0.0,3.0
+8777,Salernitana,8788,Perugia,1617,2,0,0.0,4.0
+8781,Ascoli,8788,Perugia,1617,2,2,1.0,2.0
+8766,Spezia,8782,Ternana,1617,2,1,0.5,2.0
+8778,Cittadella,8799,Carpi,1617,2,0,0.0,3.5
+9340,Pro Vercelli,9341,Latina,1617,2,2,1.0,1.0
+8782,Ternana,8799,Carpi,1617,2,2,1.0,1.0
+8757,Cesena,8778,Cittadella,1617,2,0,0.0,4.0
+8782,Ternana,9340,Pro Vercelli,1617,2,0,0.0,2.0
+8790,Spal,8796,Trapani,1617,2,1,0.5,2.5
+8772,Frosinone,8773,Avellino,1617,2,1,0.5,1.5
+8796,Trapani,9341,Latina,1617,2,1,0.5,2.0
+8760,Virtus Entella,9339,Novara,1617,2,0,0.0,3.5
+8776,Pisa,8799,Carpi,1617,2,2,1.0,1.0
+8757,Cesena,8790,Spal,1617,2,1,0.5,2.0
+8769,Bari,8790,Spal,1617,2,1,0.5,2.5
+8781,Ascoli,8799,Carpi,1617,2,0,0.0,2.5
+8772,Frosinone,8776,Pisa,1617,2,2,1.0,
+8772,Frosinone,9341,Latina,1617,2,0,0.0,2.0
+8769,Bari,8773,Avellino,1617,2,1,0.5,2.5
+8757,Cesena,8773,Avellino,1617,2,1,0.5,2.5
+8757,Cesena,8799,Carpi,1617,2,0,0.0,2.0
+8773,Avellino,8777,Salernitana,1617,2,0,0.0,3.5
+8796,Trapani,8799,Carpi,1617,2,0,0.0,2.0
+8776,Pisa,8777,Salernitana,1617,2,1,0.5,0.5
+8776,Pisa,8789,Benevento,1617,2,0,0.0,2.0
+8769,Bari,8796,Trapani,1617,2,0,0.0,3.5
+8800,Verona,9341,Latina,1617,1,0,0.0,2.0
+8788,Perugia,8796,Trapani,1617,2,1,0.5,2.5
+8757,Cesena,8796,Trapani,1617,2,0,0.0,3.5
+8781,Ascoli,8800,Verona,1617,2,1,0.5,2.5
+8776,Pisa,8790,Spal,1617,2,1,0.5,1.5
+8778,Cittadella,8800,Verona,1617,2,0,0.0,4.0
+8799,Carpi,9341,Latina,1617,2,0,0.0,1.5
+8782,Ternana,8796,Trapani,1617,2,1,0.5,3.5
+8775,Brescia,8781,Ascoli,1617,2,1,0.5,0.5
+8776,Pisa,8778,Cittadella,1617,2,0,0.0,3.0
+8775,Brescia,8776,Pisa,1617,2,1,0.5,1.5
+8760,Virtus Entella,8789,Benevento,1617,2,1,0.5,2.5
+8766,Spezia,9339,Novara,1617,2,0,0.0,2.0
+8760,Virtus Entella,8775,Brescia,1617,2,1,0.5,4.0
+8776,Pisa,8800,Verona,1617,2,2,1.0,1.0
+8757,Cesena,8782,Ternana,1617,2,1,0.5,1.5
+8772,Frosinone,8777,Salernitana,1617,2,0,0.0,4.0
+8773,Avellino,8790,Spal,1617,2,0,0.0,2.0
+8789,Benevento,9339,Novara,1617,2,0,0.0,1.0
+8760,Virtus Entella,8790,Spal,1617,2,1,0.5,3.5
+8760,Virtus Entella,8777,Salernitana,1617,2,1,0.5,1.5
+8778,Cittadella,9339,Novara,1617,2,1,0.5,3.0
+8772,Frosinone,8789,Benevento,1617,2,0,0.0,4.0
+8775,Brescia,8788,Perugia,1617,2,1,0.5,3.5
+8778,Cittadella,9341,Latina,1617,2,0,0.0,2.5
+8768,Venezia,9340,Pro Vercelli,1617,2,1,0.5,1.5
+8800,Verona,9339,Novara,1617,2,1,0.5,4.0
+8766,Spezia,9341,Latina,1617,2,1,0.5,2.5
+8775,Brescia,8800,Verona,1617,2,1,0.5,2.5

@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,2223,2022-07-30,Bonnyrigg Rose,Forfar,7,91,False
+SC3,2223,2022-07-30,Stranraer,Annan Athletic,91,91,False
+SC3,2223,2022-07-30,Dumbarton,Stirling,7,91,False
+SC3,2223,2022-07-30,Elgin,East Fife,91,7,False
+SC3,2223,2022-07-30,Stenhousemuir,Albion Rvs,91,91,False
+SC3,2223,2022-08-06,Forfar,Stranraer,7,7,False
+SC3,2223,2022-08-06,Stirling,Elgin,7,7,False
+SC3,2223,2022-08-06,Annan Athletic,Stenhousemuir,7,7,False
+SC3,2223,2022-08-06,East Fife,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-08-06,Albion Rvs,Dumbarton,7,7,False
+SC3,2223,2022-08-13,Stirling,Stenhousemuir,7,7,False
+SC3,2223,2022-08-13,Albion Rvs,East Fife,7,7,False
+SC3,2223,2022-08-13,Dumbarton,Annan Athletic,7,7,False
+SC3,2223,2022-08-13,Forfar,Elgin,7,7,False
+SC3,2223,2022-08-13,Stranraer,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-08-20,Bonnyrigg Rose,Albion Rvs,7,7,False
+SC3,2223,2022-08-20,East Fife,Forfar,7,7,False
+SC3,2223,2022-08-20,Annan Athletic,Stirling,7,7,False
+SC3,2223,2022-08-20,Elgin,Stranraer,7,7,False
+SC3,2223,2022-08-20,Stenhousemuir,Dumbarton,7,7,False
+SC3,2223,2022-08-27,Dumbarton,Elgin,7,7,False
+SC3,2223,2022-08-27,Albion Rvs,Annan Athletic,7,7,False
+SC3,2223,2022-08-27,Bonnyrigg Rose,Stirling,7,7,False
+SC3,2223,2022-08-27,Forfar,Stenhousemuir,7,7,False
+SC3,2223,2022-08-27,Stranraer,East Fife,7,7,False
+SC3,2223,2022-09-03,East Fife,Dumbarton,7,7,False
+SC3,2223,2022-09-03,Elgin,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-09-03,Stenhousemuir,Stranraer,7,7,False
+SC3,2223,2022-09-03,Stirling,Albion Rvs,7,7,False
+SC3,2223,2022-09-03,Annan Athletic,Forfar,7,7,False
+SC3,2223,2022-09-17,Annan Athletic,East Fife,14,14,False
+SC3,2223,2022-09-17,Dumbarton,Bonnyrigg Rose,14,14,False
+SC3,2223,2022-09-17,Stenhousemuir,Elgin,14,14,False
+SC3,2223,2022-09-17,Stirling,Stranraer,14,14,False
+SC3,2223,2022-09-17,Albion Rvs,Forfar,14,14,False
+SC3,2223,2022-09-20,Stranraer,Dumbarton,3,3,True
+SC3,2223,2022-09-20,East Fife,Stenhousemuir,3,3,True
+SC3,2223,2022-09-24,Forfar,Stirling,7,7,False
+SC3,2223,2022-10-01,Bonnyrigg Rose,Stenhousemuir,14,11,False
+SC3,2223,2022-10-01,East Fife,Stirling,11,7,False
+SC3,2223,2022-10-01,Elgin,Annan Athletic,14,14,False
+SC3,2223,2022-10-01,Forfar,Dumbarton,7,11,False
+SC3,2223,2022-10-01,Stranraer,Albion Rvs,11,14,False
+SC3,2223,2022-10-08,Stirling,Dumbarton,7,7,False
+SC3,2223,2022-10-08,Albion Rvs,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-10-08,Forfar,East Fife,7,7,False
+SC3,2223,2022-10-08,Stenhousemuir,Annan Athletic,7,7,False
+SC3,2223,2022-10-08,Stranraer,Elgin,7,7,False
+SC3,2223,2022-10-11,Bonnyrigg Rose,Annan Athletic,3,3,True
+SC3,2223,2022-10-11,Elgin,Albion Rvs,3,3,True
+SC3,2223,2022-10-15,Dumbarton,Albion Rvs,7,4,False
+SC3,2223,2022-10-15,Elgin,Forfar,4,7,False
+SC3,2223,2022-10-15,Stenhousemuir,Stirling,7,7,False
+SC3,2223,2022-10-15,Annan Athletic,Stranraer,4,7,False
+SC3,2223,2022-10-15,Bonnyrigg Rose,East Fife,4,7,False
+SC3,2223,2022-10-29,Annan Athletic,Dumbarton,14,14,False
+SC3,2223,2022-10-29,East Fife,Elgin,14,14,False
+SC3,2223,2022-10-29,Stirling,Bonnyrigg Rose,14,14,False
+SC3,2223,2022-10-29,Stranraer,Forfar,14,14,False
+SC3,2223,2022-10-29,Albion Rvs,Stenhousemuir,14,14,False
+SC3,2223,2022-11-05,Bonnyrigg Rose,Elgin,7,7,False
+SC3,2223,2022-11-05,Dumbarton,Stranraer,7,7,False
+SC3,2223,2022-11-05,Forfar,Annan Athletic,7,7,False
+SC3,2223,2022-11-05,Stenhousemuir,East Fife,7,7,False
+SC3,2223,2022-11-05,Albion Rvs,Stirling,7,7,False
+SC3,2223,2022-11-12,Elgin,Dumbarton,7,7,False
+SC3,2223,2022-11-12,Forfar,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-11-12,Stirling,Annan Athletic,7,7,False
+SC3,2223,2022-11-12,Stranraer,Stenhousemuir,7,7,False
+SC3,2223,2022-11-12,East Fife,Albion Rvs,7,7,False
+SC3,2223,2022-11-19,Albion Rvs,Stranraer,7,7,False
+SC3,2223,2022-11-19,Annan Athletic,Elgin,7,7,False
+SC3,2223,2022-11-19,Dumbarton,Forfar,7,7,False
+SC3,2223,2022-11-19,Stenhousemuir,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-11-19,Stirling,East Fife,7,7,False
+SC3,2223,2022-11-26,Stranraer,Annan Athletic,7,7,False
+SC3,2223,2022-12-03,East Fife,Annan Athletic,14,7,False
+SC3,2223,2022-12-03,Elgin,Stenhousemuir,14,14,False
+SC3,2223,2022-12-03,Forfar,Albion Rvs,14,14,False
+SC3,2223,2022-12-03,Stranraer,Stirling,7,14,False
+SC3,2223,2022-12-03,Bonnyrigg Rose,Dumbarton,14,14,False
+SC3,2223,2022-12-10,Stenhousemuir,Forfar,7,7,False
+SC3,2223,2022-12-10,East Fife,Bonnyrigg Rose,7,7,False
+SC3,2223,2022-12-23,Elgin,Stirling,20,20,False
+SC3,2223,2022-12-23,Annan Athletic,Albion Rvs,20,20,False
+SC3,2223,2022-12-23,Bonnyrigg Rose,Stranraer,13,20,False
+SC3,2223,2022-12-24,Dumbarton,East Fife,21,14,False
+SC3,2223,2022-12-31,Albion Rvs,Dumbarton,8,7,False
+SC3,2223,2022-12-31,Stirling,Stenhousemuir,8,21,False
+SC3,2223,2023-01-02,Forfar,Elgin,23,10,False
+SC3,2223,2023-01-07,Bonnyrigg Rose,Albion Rvs,15,7,False
+SC3,2223,2023-01-07,Annan Athletic,Forfar,15,5,False
+SC3,2223,2023-01-07,Elgin,East Fife,5,14,False
+SC3,2223,2023-01-07,Stenhousemuir,Stranraer,7,15,False
+SC3,2223,2023-01-14,Elgin,Annan Athletic,7,7,False
+SC3,2223,2023-01-14,Stranraer,Albion Rvs,7,7,False
+SC3,2223,2023-01-14,East Fife,Stenhousemuir,7,7,False
+SC3,2223,2023-01-14,Forfar,Dumbarton,7,14,False
+SC3,2223,2023-01-21,Annan Athletic,Bonnyrigg Rose,7,14,False
+SC3,2223,2023-01-21,East Fife,Stranraer,7,7,False
+SC3,2223,2023-01-28,Annan Athletic,East Fife,7,7,False
+SC3,2223,2023-01-28,Dumbarton,Bonnyrigg Rose,14,7,False
+SC3,2223,2023-01-28,Stenhousemuir,Elgin,14,14,False
+SC3,2223,2023-01-28,Stirling,Stranraer,28,7,False
+SC3,2223,2023-01-28,Albion Rvs,Forfar,14,14,False
+SC3,2223,2023-02-04,East Fife,Stirling,7,7,False
+SC3,2223,2023-02-04,Elgin,Albion Rvs,7,7,False
+SC3,2223,2023-02-04,Forfar,Stranraer,7,7,False
+SC3,2223,2023-02-04,Stenhousemuir,Dumbarton,7,7,False
+SC3,2223,2023-02-04,Bonnyrigg Rose,Annan Athletic,7,7,False
+SC3,2223,2023-02-11,Dumbarton,Annan Athletic,7,7,False
+SC3,2223,2023-02-11,Forfar,Stenhousemuir,7,7,False
+SC3,2223,2023-02-11,Stranraer,Bonnyrigg Rose,7,7,False
+SC3,2223,2023-02-11,Albion Rvs,East Fife,7,7,False
+SC3,2223,2023-02-14,Bonnyrigg Rose,Stirling,3,10,True
+SC3,2223,2023-02-18,Annan Athletic,Stirling,7,4,False
+SC3,2223,2023-02-18,East Fife,Dumbarton,7,7,False
+SC3,2223,2023-02-18,Elgin,Stranraer,14,7,False
+SC3,2223,2023-02-18,Stenhousemuir,Albion Rvs,7,7,False
+SC3,2223,2023-02-21,Albion Rvs,Elgin,3,3,True
+SC3,2223,2023-02-25,Bonnyrigg Rose,Stenhousemuir,11,7,False
+SC3,2223,2023-02-25,Dumbarton,Elgin,7,4,False
+SC3,2223,2023-02-25,Forfar,Stirling,14,7,False
+SC3,2223,2023-02-25,Stranraer,East Fife,7,7,False
+SC3,2223,2023-02-25,Albion Rvs,Annan Athletic,4,7,False
+SC3,2223,2023-02-28,Dumbarton,Stenhousemuir,3,3,True
+SC3,2223,2023-02-28,Bonnyrigg Rose,Forfar,3,3,True
+SC3,2223,2023-03-04,East Fife,Forfar,7,4,False
+SC3,2223,2023-03-04,Elgin,Bonnyrigg Rose,7,4,False
+SC3,2223,2023-03-04,Stirling,Albion Rvs,7,7,False
+SC3,2223,2023-03-04,Stranraer,Dumbarton,7,4,False
+SC3,2223,2023-03-04,Annan Athletic,Stenhousemuir,7,4,False
+SC3,2223,2023-03-11,Stenhousemuir,East Fife,7,7,False
+SC3,2223,2023-03-11,Stirling,Bonnyrigg Rose,7,7,False
+SC3,2223,2023-03-11,Annan Athletic,Elgin,7,7,False
+SC3,2223,2023-03-18,Stranraer,Stirling,14,7,False
+SC3,2223,2023-03-18,Bonnyrigg Rose,East Fife,7,7,False
+SC3,2223,2023-03-18,Dumbarton,Albion Rvs,14,14,False
+SC3,2223,2023-03-18,Forfar,Annan Athletic,14,7,False
+SC3,2223,2023-03-21,Albion Rvs,Stranraer,3,3,True
+SC3,2223,2023-03-21,Stirling,Forfar,3,3,True
+SC3,2223,2023-03-24,East Fife,Elgin,6,13,False
+SC3,2223,2023-03-25,Stenhousemuir,Forfar,14,4,False
+SC3,2223,2023-03-25,Annan Athletic,Stranraer,7,4,False
+SC3,2223,2023-03-25,Stirling,Dumbarton,4,7,False
+SC3,2223,2023-03-25,Albion Rvs,Bonnyrigg Rose,4,7,False
+SC3,2223,2023-03-29,Dumbarton,Forfar,4,4,True
+SC3,2223,2023-04-01,Dumbarton,Stenhousemuir,3,7,False
+SC3,2223,2023-04-01,East Fife,Annan Athletic,8,7,False
+SC3,2223,2023-04-01,Elgin,Stirling,8,7,False
+SC3,2223,2023-04-01,Forfar,Albion Rvs,3,7,False
+SC3,2223,2023-04-01,Bonnyrigg Rose,Stranraer,7,7,False
+SC3,2223,2023-04-04,Stirling,Elgin,3,3,True
+SC3,2223,2023-04-08,Annan Athletic,Dumbarton,7,7,False
+SC3,2223,2023-04-08,Stenhousemuir,Bonnyrigg Rose,7,7,False
+SC3,2223,2023-04-08,Albion Rvs,Elgin,7,4,False
+SC3,2223,2023-04-08,Stranraer,Forfar,7,7,False
+SC3,2223,2023-04-08,Stirling,East Fife,4,7,False
+SC3,2223,2023-04-11,Elgin,Stenhousemuir,3,3,True
+SC3,2223,2023-04-15,Bonnyrigg Rose,Dumbarton,7,7,False
+SC3,2223,2023-04-15,Annan Athletic,Albion Rvs,7,7,False
+SC3,2223,2023-04-15,East Fife,Stranraer,7,7,False
+SC3,2223,2023-04-15,Elgin,Forfar,4,7,False
+SC3,2223,2023-04-15,Stenhousemuir,Stirling,4,7,False
+SC3,2223,2023-04-18,Dumbarton,Stirling,3,3,True
+SC3,2223,2023-04-22,Dumbarton,East Fife,4,7,False
+SC3,2223,2023-04-22,Forfar,Bonnyrigg Rose,7,7,False
+SC3,2223,2023-04-22,Stirling,Annan Athletic,4,7,False
+SC3,2223,2023-04-22,Stranraer,Elgin,7,7,False
+SC3,2223,2023-04-22,Albion Rvs,Stenhousemuir,7,7,False
+SC3,2223,2023-04-29,East Fife,Albion Rvs,7,7,False
+SC3,2223,2023-04-29,Elgin,Dumbarton,7,7,False
+SC3,2223,2023-04-29,Stirling,Forfar,7,7,False
+SC3,2223,2023-04-29,Stranraer,Stenhousemuir,7,7,False
+SC3,2223,2023-04-29,Annan Athletic,Bonnyrigg Rose,7,7,False
+SC3,2223,2023-05-06,Bonnyrigg Rose,Elgin,7,7,False
+SC3,2223,2023-05-06,Dumbarton,Stranraer,7,7,False
+SC3,2223,2023-05-06,Forfar,East Fife,7,7,False
+SC3,2223,2023-05-06,Stenhousemuir,Annan Athletic,7,7,False
+SC3,2223,2023-05-06,Albion Rvs,Stirling,7,7,False

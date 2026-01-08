@@ -10,6 +10,10 @@ from datetime import datetime
 from pathlib import Path
 import pandas as pd
 import logging
+from app.services.ingestion.draw_structural_validation import (
+    DrawStructuralValidator,
+    validate_before_insert
+)
 
 logger = logging.getLogger(__name__)
 
@@ -61,6 +65,15 @@ def ingest_odds_movement_from_football_data_org(
             
             draw_delta = draw_close - draw_open
             
+            # Validate odds movement
+            context = f" (fixture_id={fixture_id})"
+            is_valid, error = DrawStructuralValidator.validate_odds_movement(
+                draw_open, draw_close, draw_delta, context
+            )
+            if not is_valid:
+                logger.error(f"Invalid odds movement: {error}")
+                return {"success": False, "error": error}
+            
             # Insert or update
             existing = db.query(OddsMovement).filter(
                 OddsMovement.fixture_id == fixture_id
@@ -94,6 +107,141 @@ def ingest_odds_movement_from_football_data_org(
     except Exception as e:
         db.rollback()
         logger.error(f"Error ingesting odds movement: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
+
+
+def ingest_odds_movement_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest odds movement from CSV file in our format.
+    
+    CSV Format: league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['league_code', 'season', 'match_date', 'home_team', 'away_team', 'draw_open', 'draw_close', 'draw_delta']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                league_code = str(row['league_code']).strip()
+                season = str(row['season']).strip()
+                match_date = pd.to_datetime(row['match_date']).date()
+                home_team_name = str(row['home_team']).strip()
+                away_team_name = str(row['away_team']).strip()
+                draw_open = float(row['draw_open'])
+                draw_close = float(row['draw_close'])
+                draw_delta = float(row.get('draw_delta', draw_close - draw_open))
+                
+                # Find league
+                league = db.query(League).filter(League.code == league_code).first()
+                if not league:
+                    logger.warning(f"League {league_code} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find teams
+                from app.services.team_resolver import resolve_team_safe
+                home_team = resolve_team_safe(db, home_team_name, league.id)
+                away_team = resolve_team_safe(db, away_team_name, league.id)
+                if not home_team or not away_team:
+                    logger.warning(f"Teams {home_team_name} or {away_team_name} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Find match
+                match = db.query(Match).filter(
+                    Match.league_id == league.id,
+                    Match.season == season,
+                    Match.match_date == match_date,
+                    Match.home_team_id == home_team.id,
+                    Match.away_team_id == away_team.id
+                ).first()
+                
+                if not match:
+                    logger.warning(f"Match not found: {league_code} {season} {match_date} {home_team_name} vs {away_team_name}, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update in odds_movement_historical
+                from sqlalchemy import text
+                existing = db.execute(
+                    text("""
+                        SELECT id FROM odds_movement_historical 
+                        WHERE match_id = :match_id
+                    """),
+                    {"match_id": match.id}
+                ).fetchone()
+                
+                if existing:
+                    db.execute(
+                        text("""
+                            UPDATE odds_movement_historical 
+                            SET draw_open = :draw_open,
+                                draw_close = :draw_close,
+                                draw_delta = :draw_delta
+                            WHERE match_id = :match_id
+                        """),
+                        {
+                            "match_id": match.id,
+                            "draw_open": draw_open,
+                            "draw_close": draw_close,
+                            "draw_delta": draw_delta
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO odds_movement_historical 
+                            (match_id, draw_open, draw_close, draw_delta)
+                            VALUES (:match_id, :draw_open, :draw_close, :draw_delta)
+                        """),
+                        {
+                            "match_id": match.id,
+                            "draw_open": draw_open,
+                            "draw_close": draw_close,
+                            "draw_delta": draw_delta
+                        }
+                    )
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing odds movement row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested odds movement from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting odds movement from CSV: {e}", exc_info=True)
         return {"success": False, "error": str(e)}
 
 
@@ -170,10 +318,6 @@ def _save_odds_movement_csv_batch(
         if not odds_records:
             raise ValueError("No odds movement records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Odds_Movement")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(odds_records)
         
@@ -184,13 +328,15 @@ def _save_odds_movement_csv_batch(
         
         # Filename format: {league_code}_{season}_odds_movement.csv
         filename = f"{league_code}_{season}_odds_movement.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Odds_Movement", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch odds movement CSV for {league_code} ({season}): {len(odds_records)} records -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch odds movement CSV for {league_code} ({season}): {len(odds_records)} records")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch odds movement CSV: {e}", exc_info=True)

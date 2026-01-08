@@ -1,0 +1,181 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+SC3,1819,2018-08-04,Edinburgh City,Albion Rvs,31,7,False
+SC3,1819,2018-08-04,Peterhead,Queens Park,31,7,False
+SC3,1819,2018-08-04,Clyde,Cowdenbeath,31,31,False
+SC3,1819,2018-08-04,Berwick,Stirling,31,31,False
+SC3,1819,2018-08-04,Annan Athletic,Elgin,31,31,False
+SC3,1819,2018-08-11,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1819,2018-08-11,Stirling,Clyde,7,7,False
+SC3,1819,2018-08-11,Elgin,Edinburgh City,7,7,False
+SC3,1819,2018-08-11,Queens Park,Berwick,7,7,False
+SC3,1819,2018-08-11,Albion Rvs,Peterhead,7,7,False
+SC3,1819,2018-08-18,Peterhead,Clyde,7,7,False
+SC3,1819,2018-08-18,Albion Rvs,Elgin,7,7,False
+SC3,1819,2018-08-18,Annan Athletic,Queens Park,7,7,False
+SC3,1819,2018-08-18,Cowdenbeath,Berwick,7,7,False
+SC3,1819,2018-08-18,Edinburgh City,Stirling,7,7,False
+SC3,1819,2018-08-25,Berwick,Annan Athletic,7,7,False
+SC3,1819,2018-08-25,Clyde,Edinburgh City,7,7,False
+SC3,1819,2018-08-25,Queens Park,Albion Rvs,7,7,False
+SC3,1819,2018-08-25,Stirling,Peterhead,7,7,False
+SC3,1819,2018-09-01,Queens Park,Cowdenbeath,7,14,False
+SC3,1819,2018-09-01,Albion Rvs,Berwick,7,7,False
+SC3,1819,2018-09-01,Annan Athletic,Clyde,7,7,False
+SC3,1819,2018-09-01,Elgin,Stirling,14,7,False
+SC3,1819,2018-09-01,Peterhead,Edinburgh City,7,7,False
+SC3,1819,2018-09-15,Edinburgh City,Annan Athletic,14,14,False
+SC3,1819,2018-09-15,Cowdenbeath,Peterhead,14,14,False
+SC3,1819,2018-09-15,Clyde,Albion Rvs,14,14,False
+SC3,1819,2018-09-15,Berwick,Elgin,14,14,False
+SC3,1819,2018-09-15,Stirling,Queens Park,14,14,False
+SC3,1819,2018-09-22,Clyde,Elgin,7,7,False
+SC3,1819,2018-09-22,Cowdenbeath,Albion Rvs,7,7,False
+SC3,1819,2018-09-22,Peterhead,Berwick,7,7,False
+SC3,1819,2018-09-22,Queens Park,Edinburgh City,7,7,False
+SC3,1819,2018-09-22,Stirling,Annan Athletic,7,7,False
+SC3,1819,2018-09-29,Albion Rvs,Stirling,7,7,False
+SC3,1819,2018-09-29,Annan Athletic,Peterhead,7,7,False
+SC3,1819,2018-09-29,Berwick,Clyde,7,7,False
+SC3,1819,2018-09-29,Edinburgh City,Cowdenbeath,7,7,False
+SC3,1819,2018-09-29,Elgin,Queens Park,7,7,False
+SC3,1819,2018-10-06,Queens Park,Clyde,7,3,False
+SC3,1819,2018-10-06,Annan Athletic,Albion Rvs,3,7,False
+SC3,1819,2018-10-06,Cowdenbeath,Stirling,2,3,False
+SC3,1819,2018-10-06,Edinburgh City,Berwick,3,3,False
+SC3,1819,2018-10-06,Peterhead,Elgin,3,3,False
+SC3,1819,2018-10-13,Elgin,Cowdenbeath,7,7,False
+SC3,1819,2018-10-27,Albion Rvs,Queens Park,21,21,False
+SC3,1819,2018-10-27,Berwick,Cowdenbeath,21,14,False
+SC3,1819,2018-10-27,Clyde,Peterhead,21,21,False
+SC3,1819,2018-10-27,Elgin,Annan Athletic,14,21,False
+SC3,1819,2018-10-27,Stirling,Edinburgh City,21,21,False
+SC3,1819,2018-11-03,Cowdenbeath,Elgin,7,7,False
+SC3,1819,2018-11-03,Edinburgh City,Clyde,7,7,False
+SC3,1819,2018-11-03,Peterhead,Albion Rvs,7,7,False
+SC3,1819,2018-11-03,Queens Park,Annan Athletic,7,7,False
+SC3,1819,2018-11-03,Stirling,Berwick,7,7,False
+SC3,1819,2018-11-10,Albion Rvs,Edinburgh City,7,7,False
+SC3,1819,2018-11-10,Annan Athletic,Cowdenbeath,7,7,False
+SC3,1819,2018-11-10,Clyde,Stirling,7,7,False
+SC3,1819,2018-11-10,Elgin,Berwick,7,7,False
+SC3,1819,2018-11-10,Queens Park,Peterhead,7,7,False
+SC3,1819,2018-11-17,Annan Athletic,Stirling,7,7,False
+SC3,1819,2018-11-17,Berwick,Albion Rvs,7,7,False
+SC3,1819,2018-11-17,Elgin,Clyde,7,7,False
+SC3,1819,2018-11-27,Cowdenbeath,Queens Park,17,17,True
+SC3,1819,2018-12-01,Albion Rvs,Cowdenbeath,14,4,False
+SC3,1819,2018-12-01,Clyde,Berwick,14,14,False
+SC3,1819,2018-12-01,Edinburgh City,Queens Park,21,4,False
+SC3,1819,2018-12-01,Peterhead,Annan Athletic,21,14,False
+SC3,1819,2018-12-01,Stirling,Elgin,14,14,False
+SC3,1819,2018-12-08,Annan Athletic,Edinburgh City,7,7,False
+SC3,1819,2018-12-08,Berwick,Peterhead,7,7,False
+SC3,1819,2018-12-08,Cowdenbeath,Clyde,7,7,False
+SC3,1819,2018-12-08,Elgin,Albion Rvs,7,7,False
+SC3,1819,2018-12-08,Queens Park,Stirling,7,7,False
+SC3,1819,2018-12-11,Edinburgh City,Peterhead,3,3,True
+SC3,1819,2018-12-15,Clyde,Annan Athletic,7,7,False
+SC3,1819,2018-12-15,Edinburgh City,Elgin,4,7,False
+SC3,1819,2018-12-22,Albion Rvs,Clyde,14,7,False
+SC3,1819,2018-12-22,Annan Athletic,Berwick,7,14,False
+SC3,1819,2018-12-22,Cowdenbeath,Edinburgh City,14,7,False
+SC3,1819,2018-12-22,Peterhead,Stirling,11,14,False
+SC3,1819,2018-12-22,Queens Park,Elgin,14,7,False
+SC3,1819,2018-12-29,Albion Rvs,Annan Athletic,7,7,False
+SC3,1819,2018-12-29,Berwick,Edinburgh City,7,7,False
+SC3,1819,2018-12-29,Clyde,Queens Park,7,7,False
+SC3,1819,2018-12-29,Elgin,Peterhead,7,7,False
+SC3,1819,2018-12-29,Stirling,Cowdenbeath,7,7,False
+SC3,1819,2019-01-05,Peterhead,Clyde,7,7,False
+SC3,1819,2019-01-05,Annan Athletic,Elgin,7,7,False
+SC3,1819,2019-01-05,Cowdenbeath,Berwick,7,7,False
+SC3,1819,2019-01-05,Edinburgh City,Stirling,7,7,False
+SC3,1819,2019-01-05,Queens Park,Albion Rvs,7,7,False
+SC3,1819,2019-01-12,Albion Rvs,Peterhead,7,7,False
+SC3,1819,2019-01-12,Berwick,Clyde,7,7,False
+SC3,1819,2019-01-12,Elgin,Cowdenbeath,7,7,False
+SC3,1819,2019-01-12,Queens Park,Edinburgh City,7,7,False
+SC3,1819,2019-01-12,Stirling,Annan Athletic,7,7,False
+SC3,1819,2019-01-19,Edinburgh City,Annan Athletic,7,7,False
+SC3,1819,2019-01-19,Peterhead,Berwick,7,7,False
+SC3,1819,2019-01-19,Stirling,Queens Park,7,7,False
+SC3,1819,2019-01-26,Albion Rvs,Stirling,14,7,False
+SC3,1819,2019-01-26,Annan Athletic,Peterhead,7,7,False
+SC3,1819,2019-01-26,Clyde,Cowdenbeath,14,14,False
+SC3,1819,2019-01-26,Elgin,Edinburgh City,14,7,False
+SC3,1819,2019-01-26,Queens Park,Berwick,7,7,False
+SC3,1819,2019-02-02,Edinburgh City,Albion Rvs,7,7,False
+SC3,1819,2019-02-09,Albion Rvs,Elgin,7,14,False
+SC3,1819,2019-02-09,Annan Athletic,Clyde,14,14,False
+SC3,1819,2019-02-09,Berwick,Stirling,14,14,False
+SC3,1819,2019-02-09,Peterhead,Edinburgh City,14,7,False
+SC3,1819,2019-02-09,Queens Park,Cowdenbeath,14,14,False
+SC3,1819,2019-02-12,Stirling,Albion Rvs,3,3,True
+SC3,1819,2019-02-16,Clyde,Albion Rvs,7,4,False
+SC3,1819,2019-02-16,Cowdenbeath,Annan Athletic,7,7,False
+SC3,1819,2019-02-16,Elgin,Stirling,7,4,False
+SC3,1819,2019-02-16,Peterhead,Queens Park,7,7,False
+SC3,1819,2019-02-19,Cowdenbeath,Albion Rvs,3,3,True
+SC3,1819,2019-02-23,Annan Athletic,Albion Rvs,7,4,False
+SC3,1819,2019-02-23,Berwick,Elgin,14,7,False
+SC3,1819,2019-02-23,Edinburgh City,Cowdenbeath,14,4,False
+SC3,1819,2019-02-23,Queens Park,Clyde,7,7,False
+SC3,1819,2019-02-23,Stirling,Peterhead,7,7,False
+SC3,1819,2019-02-26,Berwick,Annan Athletic,3,3,True
+SC3,1819,2019-02-26,Elgin,Queens Park,3,3,True
+SC3,1819,2019-02-26,Peterhead,Cowdenbeath,3,3,True
+SC3,1819,2019-02-26,Stirling,Clyde,3,3,True
+SC3,1819,2019-03-02,Albion Rvs,Berwick,7,4,False
+SC3,1819,2019-03-02,Annan Athletic,Queens Park,4,4,False
+SC3,1819,2019-03-02,Clyde,Edinburgh City,4,7,False
+SC3,1819,2019-03-02,Cowdenbeath,Stirling,4,4,False
+SC3,1819,2019-03-02,Peterhead,Elgin,4,4,False
+SC3,1819,2019-03-05,Cowdenbeath,Peterhead,3,3,True
+SC3,1819,2019-03-05,Edinburgh City,Berwick,3,3,True
+SC3,1819,2019-03-09,Berwick,Cowdenbeath,4,4,False
+SC3,1819,2019-03-09,Edinburgh City,Queens Park,4,7,False
+SC3,1819,2019-03-09,Elgin,Clyde,7,7,False
+SC3,1819,2019-03-09,Peterhead,Annan Athletic,4,7,False
+SC3,1819,2019-03-09,Stirling,Albion Rvs,7,7,False
+SC3,1819,2019-03-12,Berwick,Queens Park,3,3,True
+SC3,1819,2019-03-16,Annan Athletic,Edinburgh City,7,7,False
+SC3,1819,2019-03-16,Clyde,Stirling,7,7,False
+SC3,1819,2019-03-16,Queens Park,Elgin,4,7,False
+SC3,1819,2019-03-19,Berwick,Peterhead,7,10,True
+SC3,1819,2019-03-19,Clyde,Elgin,3,3,True
+SC3,1819,2019-03-23,Clyde,Annan Athletic,4,7,False
+SC3,1819,2019-03-23,Cowdenbeath,Queens Park,14,7,False
+SC3,1819,2019-03-23,Edinburgh City,Peterhead,7,4,False
+SC3,1819,2019-03-23,Elgin,Albion Rvs,4,14,False
+SC3,1819,2019-03-23,Stirling,Berwick,7,4,False
+SC3,1819,2019-03-26,Albion Rvs,Cowdenbeath,3,3,True
+SC3,1819,2019-03-30,Albion Rvs,Clyde,4,7,False
+SC3,1819,2019-03-30,Berwick,Edinburgh City,7,7,False
+SC3,1819,2019-03-30,Elgin,Annan Athletic,7,7,False
+SC3,1819,2019-03-30,Peterhead,Cowdenbeath,7,4,False
+SC3,1819,2019-03-30,Queens Park,Stirling,7,7,False
+SC3,1819,2019-04-06,Albion Rvs,Queens Park,7,7,False
+SC3,1819,2019-04-06,Annan Athletic,Berwick,7,7,False
+SC3,1819,2019-04-06,Clyde,Peterhead,7,7,False
+SC3,1819,2019-04-06,Cowdenbeath,Edinburgh City,7,7,False
+SC3,1819,2019-04-06,Stirling,Elgin,7,7,False
+SC3,1819,2019-04-13,Annan Athletic,Stirling,7,7,False
+SC3,1819,2019-04-13,Berwick,Queens Park,7,7,False
+SC3,1819,2019-04-13,Cowdenbeath,Elgin,7,7,False
+SC3,1819,2019-04-13,Edinburgh City,Clyde,7,7,False
+SC3,1819,2019-04-13,Peterhead,Albion Rvs,7,7,False
+SC3,1819,2019-04-20,Albion Rvs,Edinburgh City,7,7,False
+SC3,1819,2019-04-20,Clyde,Berwick,7,7,False
+SC3,1819,2019-04-20,Elgin,Peterhead,7,7,False
+SC3,1819,2019-04-20,Queens Park,Annan Athletic,7,7,False
+SC3,1819,2019-04-20,Stirling,Cowdenbeath,7,7,False
+SC3,1819,2019-04-27,Annan Athletic,Cowdenbeath,7,7,False
+SC3,1819,2019-04-27,Berwick,Albion Rvs,7,7,False
+SC3,1819,2019-04-27,Clyde,Queens Park,7,7,False
+SC3,1819,2019-04-27,Edinburgh City,Elgin,7,7,False
+SC3,1819,2019-04-27,Peterhead,Stirling,7,7,False
+SC3,1819,2019-05-04,Albion Rvs,Annan Athletic,7,7,False
+SC3,1819,2019-05-04,Cowdenbeath,Clyde,7,7,False
+SC3,1819,2019-05-04,Elgin,Berwick,7,7,False
+SC3,1819,2019-05-04,Queens Park,Peterhead,7,7,False
+SC3,1819,2019-05-04,Stirling,Edinburgh City,7,7,False

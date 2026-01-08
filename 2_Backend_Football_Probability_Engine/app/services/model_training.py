@@ -6,10 +6,10 @@ import logging
 import hashlib
 import json
 import math
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple, Any
 from sqlalchemy.orm import Session
-from app.db.models import Model, ModelStatus, TrainingRun, Match, League
+from app.db.models import Model, ModelStatus, TrainingRun, Match, League, Team
 from app.db.session import SessionLocal
 import uuid
 import numpy as np
@@ -74,6 +74,51 @@ class ModelTrainingService:
                 logger.warning(f"Could not initialize MLflow: {e}. Training will continue without MLflow tracking.")
                 self.mlflow_registry = None
     
+    def _calculate_team_home_bias(
+        self, 
+        team_id: int, 
+        match_data: List[Dict],
+        global_home_advantage: float
+    ) -> float:
+        """
+        Calculate team-specific home bias by comparing home vs away performance.
+        
+        Args:
+            team_id: Team ID to calculate bias for
+            match_data: List of match dictionaries from training data
+            global_home_advantage: Global home advantage from model (baseline)
+            
+        Returns:
+            Team-specific home bias (deviation from global home advantage)
+            Range: typically -0.2 to +0.2 (relative to global 0.35)
+        """
+        home_matches = []
+        away_matches = []
+        
+        for match in match_data:
+            if match['home_team_id'] == team_id:
+                home_matches.append(match)
+            elif match['away_team_id'] == team_id:
+                away_matches.append(match)
+        
+        # Need at least 10 home and 10 away matches for reliable calculation
+        if len(home_matches) < 10 or len(away_matches) < 10:
+            return 0.0  # Return 0.0 (no bias) if insufficient data
+        
+        # Calculate average goal differential
+        home_gd = sum(m['home_goals'] - m['away_goals'] for m in home_matches) / len(home_matches)
+        away_gd = sum(m['away_goals'] - m['home_goals'] for m in away_matches) / len(away_matches)
+        
+        # Home bias = difference in performance (positive = stronger at home)
+        # Divide by 2 to convert goal differential to home advantage scale
+        performance_diff = (home_gd - away_gd) / 2.0
+        
+        # Clip to reasonable range: -0.2 to +0.2 relative to global
+        # This means team-specific home advantage will be between (global - 0.2) and (global + 0.2)
+        home_bias = max(-0.2, min(0.2, performance_diff))
+        
+        return float(home_bias)
+    
     def _update_task_status(
         self,
         task_id: str,
@@ -108,6 +153,12 @@ class ModelTrainingService:
         seasons: Optional[List[str]] = None,
         date_from: Optional[datetime] = None,
         date_to: Optional[datetime] = None,
+        # Component-specific windows (SP-FX Recommended)
+        base_model_window_years: Optional[float] = None,  # 3-4 seasons default
+        draw_model_window_years: Optional[float] = None,  # 1.5-2.5 seasons default
+        odds_calibration_window_years: Optional[float] = None,  # 1-2 seasons default
+        recency_half_life_years: Optional[float] = None,  # ~1 season default
+        exclude_pre_covid: Optional[bool] = None,  # Filter pre-COVID data
         task_id: Optional[str] = None
     ) -> Dict:
         """
@@ -142,6 +193,15 @@ class ModelTrainingService:
         logger.info(f"Training run created: ID={training_run.id}, type=poisson, started_at={training_run.started_at.isoformat()}")
         
         try:
+            # Import settings for window defaults
+            from app.config import settings
+            
+            # Apply component-specific windows if not explicitly set
+            if base_model_window_years is None:
+                base_model_window_years = getattr(settings, 'BASE_MODEL_WINDOW_YEARS', 4.0)
+            if exclude_pre_covid is None:
+                exclude_pre_covid = getattr(settings, 'EXCLUDE_PRE_COVID_DATA', False)
+            
             # Query matches for training (time-ordered)
             query = self.db.query(Match).join(League)
             
@@ -153,6 +213,21 @@ class ModelTrainingService:
                 query = query.filter(Match.match_date >= date_from)
             if date_to:
                 query = query.filter(Match.match_date <= date_to)
+            
+            # Apply base model window (look back N years from date_to or today)
+            if base_model_window_years and base_model_window_years > 0:
+                cutoff_date = (date_to or datetime.utcnow()).date() - timedelta(days=int(base_model_window_years * 365.25))
+                query = query.filter(Match.match_date >= cutoff_date)
+                logger.info(f"Applied base model window: {base_model_window_years} years (cutoff: {cutoff_date})")
+            
+            # Exclude pre-COVID data if requested
+            if exclude_pre_covid:
+                pre_covid_cutoff = datetime.strptime(
+                    getattr(settings, 'PRE_COVID_CUTOFF_DATE', '2020-08-01'), 
+                    '%Y-%m-%d'
+                ).date()
+                query = query.filter(Match.match_date >= pre_covid_cutoff)
+                logger.info(f"Excluded pre-COVID data (cutoff: {pre_covid_cutoff})")
             
             # CRITICAL: Order by date to ensure deterministic ordering
             matches = query.order_by(Match.match_date.asc()).all()
@@ -356,6 +431,55 @@ class ModelTrainingService:
             }
             
             self.db.commit()
+            
+            # Update teams table with calculated ratings
+            logger.info("Updating teams table with calculated ratings...")
+            updated_count = 0
+            skipped_count = 0
+            error_count = 0
+            
+            for team_id, strengths in team_strengths.items():
+                try:
+                    # Convert team_id to int if it's a string (from JSON keys)
+                    team_id_int = int(team_id) if isinstance(team_id, str) else team_id
+                    
+                    team = self.db.query(Team).filter(Team.id == team_id_int).first()
+                    if team:
+                        attack_value = float(strengths.get('attack', 1.0))
+                        defense_value = float(strengths.get('defense', 1.0))
+                        
+                        # Handle extremely small defense values (check if they're effectively zero)
+                        # If defense is less than 1e-10, it's likely a numerical precision issue
+                        # Set a minimum threshold to prevent division by zero in probability calculations
+                        if defense_value < 1e-10:
+                            logger.warning(f"Team {team_id_int} ({team.name}) has extremely small defense value ({defense_value}), setting to minimum 0.01")
+                            defense_value = 0.01
+                        
+                        # Calculate team-specific home bias
+                        home_bias_value = self._calculate_team_home_bias(
+                            team_id_int, 
+                            match_data, 
+                            home_advantage
+                        )
+                        
+                        team.attack_rating = attack_value
+                        team.defense_rating = defense_value
+                        team.home_bias = home_bias_value
+                        team.last_calculated = training_completed_utc
+                        updated_count += 1
+                    else:
+                        skipped_count += 1
+                        logger.debug(f"Team ID {team_id_int} not found in database, skipping update")
+                except Exception as e:
+                    error_count += 1
+                    logger.warning(f"Could not update team {team_id}: {e}")
+            
+            # Commit team updates
+            if updated_count > 0:
+                self.db.commit()
+                logger.info(f"Updated {updated_count} teams with calculated ratings (skipped: {skipped_count}, errors: {error_count})")
+            else:
+                logger.warning(f"No teams were updated (skipped: {skipped_count}, errors: {error_count})")
             
             # Log to MLflow if available
             mlflow_run_id = None

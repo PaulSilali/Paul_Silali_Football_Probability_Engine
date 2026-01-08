@@ -82,10 +82,6 @@ def _save_league_structure_csv_batch(
         if not structure_records:
             raise ValueError("No structure records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/League_structure")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(structure_records)
         
@@ -96,17 +92,134 @@ def _save_league_structure_csv_batch(
         
         # Filename format: {league_code}_{season}_league_structure.csv
         filename = f"{league_code}_{season}_league_structure.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "League_structure", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch league structure CSV for {league_code} ({season}): {len(structure_records)} records -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch league structure CSV for {league_code} ({season}): {len(structure_records)} records")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch league structure CSV: {e}", exc_info=True)
         raise
+
+
+def ingest_league_structure_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest league structure from CSV file in our format.
+    
+    CSV Format: league_code,season,total_teams,relegation_zones,promotion_zones,playoff_zones
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['league_code', 'season', 'total_teams', 'relegation_zones', 'promotion_zones', 'playoff_zones']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                league_code = str(row['league_code']).strip()
+                season = str(row['season']).strip()
+                total_teams = int(row['total_teams'])
+                relegation_zones = int(row['relegation_zones'])
+                promotion_zones = int(row['promotion_zones'])
+                playoff_zones = int(row.get('playoff_zones', 0))
+                
+                # Get league
+                league = db.query(League).filter(League.code == league_code).first()
+                if not league:
+                    logger.warning(f"League {league_code} not found, skipping")
+                    errors += 1
+                    continue
+                
+                # Insert or update using raw SQL (LeagueStructure model may not exist)
+                from sqlalchemy import text
+                existing = db.execute(
+                    text("""
+                        SELECT id FROM league_structure 
+                        WHERE league_id = :league_id AND season = :season
+                    """),
+                    {"league_id": league.id, "season": season}
+                ).fetchone()
+                
+                if existing:
+                    db.execute(
+                        text("""
+                            UPDATE league_structure 
+                            SET total_teams = :total_teams,
+                                relegation_zones = :relegation_zones,
+                                promotion_zones = :promotion_zones,
+                                playoff_zones = :playoff_zones
+                            WHERE league_id = :league_id AND season = :season
+                        """),
+                        {
+                            "league_id": league.id,
+                            "season": season,
+                            "total_teams": total_teams,
+                            "relegation_zones": relegation_zones,
+                            "promotion_zones": promotion_zones,
+                            "playoff_zones": playoff_zones
+                        }
+                    )
+                    updated += 1
+                else:
+                    db.execute(
+                        text("""
+                            INSERT INTO league_structure 
+                            (league_id, season, total_teams, relegation_zones, promotion_zones, playoff_zones)
+                            VALUES (:league_id, :season, :total_teams, :relegation_zones, :promotion_zones, :playoff_zones)
+                        """),
+                        {
+                            "league_id": league.id,
+                            "season": season,
+                            "total_teams": total_teams,
+                            "relegation_zones": relegation_zones,
+                            "promotion_zones": promotion_zones,
+                            "playoff_zones": playoff_zones
+                        }
+                    )
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing league structure row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested league structure from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting league structure from CSV: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
 
 
 def ingest_league_structure(

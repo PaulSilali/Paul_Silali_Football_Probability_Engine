@@ -7,18 +7,26 @@ import csv
 import io
 import requests
 from typing import List, Dict, Optional
-from datetime import datetime, date
+from datetime import datetime, date, time
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 from pathlib import Path
 import logging
+import urllib3
 from app.db.models import (
     League, Team, Match, DataSource, IngestionLog, MatchResult
 )
 from app.services.team_resolver import resolve_team_safe, normalize_team_name
 from app.services.data_cleaning import DataCleaningService
+from app.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Disable SSL warnings if verification is disabled
+# Use getattr with default True to handle cases where attribute might not exist yet
+if not getattr(settings, 'VERIFY_SSL', True):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    logger.warning("SSL certificate verification is DISABLED. This is insecure and should only be used in development!")
 
 # Maximum years back for data ingestion (7 years)
 MAX_YEARS_BACK = 7
@@ -344,6 +352,51 @@ class DataIngestionService:
                         stats["skipped"] += 1
                         continue
                     
+                    # Parse half-time scores (if available)
+                    ht_home_goals = self._parse_int(row.get('HTHG', ''))
+                    ht_away_goals = self._parse_int(row.get('HTAG', ''))
+                    # Ensure both are NULL together (constraint requirement)
+                    if ht_home_goals is None or ht_away_goals is None or ht_home_goals == 0 or ht_away_goals == 0:
+                        ht_home_goals = None
+                        ht_away_goals = None
+                    
+                    # Parse match metadata (if available)
+                    match_time_str = row.get('Time', '').strip() or None
+                    match_time = None
+                    if match_time_str:
+                        # Convert string to time object (e.g., '15:00' -> time(15, 0))
+                        try:
+                            # Try HH:MM format
+                            if ':' in match_time_str:
+                                parts = match_time_str.split(':')
+                                if len(parts) >= 2:
+                                    hour = int(parts[0])
+                                    minute = int(parts[1])
+                                    match_time = time(hour, minute)
+                            # Try HH.MM format (e.g., '15.00')
+                            elif '.' in match_time_str:
+                                parts = match_time_str.split('.')
+                                if len(parts) >= 2:
+                                    hour = int(parts[0])
+                                    minute = int(parts[1])
+                                    match_time = time(hour, minute)
+                        except (ValueError, IndexError):
+                            # If parsing fails, leave as None
+                            match_time = None
+                    
+                    venue = row.get('Venue', '').strip() or None
+                    matchday = self._parse_int(row.get('Matchday', ''))
+                    round_name = row.get('Round', '').strip() or None
+                    
+                    # Parse cards and penalties (if available)
+                    hy = self._parse_int(row.get('HY', ''))
+                    ay = self._parse_int(row.get('AY', ''))
+                    hr = self._parse_int(row.get('HR', ''))
+                    ar = self._parse_int(row.get('AR', ''))
+                    home_penalties = self._parse_int(row.get('HP', '')) or self._parse_int(row.get('HomePenalties', ''))
+                    away_penalties = self._parse_int(row.get('AP', '')) or self._parse_int(row.get('AwayPenalties', ''))
+                    referee_id = self._parse_int(row.get('RefereeID', '')) or self._parse_int(row.get('Referee', ''))
+                    
                     # Determine result
                     if home_goals > away_goals:
                         result = MatchResult.H
@@ -386,6 +439,34 @@ class DataIngestionService:
                         existing_match.prob_home_market = prob_home_market
                         existing_match.prob_draw_market = prob_draw_market
                         existing_match.prob_away_market = prob_away_market
+                        
+                        # Update new columns if provided
+                        if ht_home_goals is not None and ht_away_goals is not None:
+                            existing_match.ht_home_goals = ht_home_goals
+                            existing_match.ht_away_goals = ht_away_goals
+                        if match_time:
+                            existing_match.match_time = match_time
+                        if venue:
+                            existing_match.venue = venue
+                        if matchday:
+                            existing_match.matchday = matchday
+                        if round_name:
+                            existing_match.round_name = round_name
+                        if hy is not None:
+                            existing_match.hy = hy
+                        if ay is not None:
+                            existing_match.ay = ay
+                        if hr is not None:
+                            existing_match.hr = hr
+                        if ar is not None:
+                            existing_match.ar = ar
+                        if home_penalties is not None:
+                            existing_match.home_penalties = home_penalties
+                        if away_penalties is not None:
+                            existing_match.away_penalties = away_penalties
+                        if referee_id is not None:
+                            existing_match.referee_id = referee_id
+                        
                         stats["updated"] += 1
                     else:
                         # Create new match
@@ -404,7 +485,23 @@ class DataIngestionService:
                             prob_home_market=prob_home_market,
                             prob_draw_market=prob_draw_market,
                             prob_away_market=prob_away_market,
-                            source=source_name
+                            source=source_name,
+                            ingestion_batch_id=str(batch_number) if batch_number else None,
+                            # New columns
+                            ht_home_goals=ht_home_goals,
+                            ht_away_goals=ht_away_goals,
+                            match_time=match_time,
+                            venue=venue,
+                            matchday=matchday,
+                            round_name=round_name,
+                            # Cards and penalties
+                            hy=hy,
+                            ay=ay,
+                            hr=hr,
+                            ar=ar,
+                            home_penalties=home_penalties,
+                            away_penalties=away_penalties,
+                            referee_id=referee_id
                         )
                         self.db.add(match)
                         stats["inserted"] += 1
@@ -525,7 +622,9 @@ class DataIngestionService:
         url = f"https://www.football-data.co.uk/mmz4281/{season}/{league_code}.csv"
         
         try:
-            response = requests.get(url, timeout=30)
+            # Use SSL verification setting from config (default to True if not set)
+            verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+            response = requests.get(url, timeout=30, verify=verify_ssl)
             response.raise_for_status()
             
             # Validate that the response is actually CSV, not HTML error page
@@ -561,7 +660,8 @@ class DataIngestionService:
                 
                 for alt_url in alt_urls:
                     try:
-                        alt_response = requests.get(alt_url, timeout=30)
+                        verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+                        alt_response = requests.get(alt_url, timeout=30, verify=verify_ssl)
                         if alt_response.status_code == 200:
                             content = alt_response.text.strip()
                             # Validate it's CSV, not HTML

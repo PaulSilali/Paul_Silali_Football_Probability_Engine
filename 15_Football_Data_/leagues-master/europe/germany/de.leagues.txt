@@ -1,0 +1,89 @@
+= Germany =
+
+
+##   todo/check:
+###  define qualifier e.g.
+##      German [en], Germany [en]
+##      Deutsche [de], Deutschland [de]
+##    to auto-add up front or if marker present
+##     eg  $Country$ or ??
+##
+##   define extra codes
+##    use fifa plus d (vehicles/car plates) plus others if uniquie
+##       de, ger, d, deu ??
+##   why? why not?
+
+
+1       Bundesliga
+         | ger.bl | d.bl | d.1 | d
+2       2. Bundesliga
+         | 2. Liga
+         | d.2
+3       3. Liga
+         | d.3
+
+
+cup     DFB Pokal
+
+super   Supercup
+             | DFL-Supercup
+             | Franz Beckenbauer Supercup
+             | ger.sc
+
+
+4.nord        Regionalliga Nord
+                | de.4.n
+4.nordost     Regionalliga Nordost
+                | de.4.no
+4.west        Regionalliga West
+                | de.4.w
+4.suedwest    Regionalliga Südwest
+                | de.4.sw
+4.bayern      Regionalliga Bayern
+                | de.4.by
+
+# add .nord .nordost .west, .suedwest, .by to key ?? why? why not??
+
+##  Regionalliga Nord
+5.nord.sh     Schleswig-Holstein-Liga
+5.nord.hh     Oberliga Hamburg
+5.nord.hb     Bremen-Liga
+5.nord.ni     Oberliga Niedersachsen
+
+## Regionalliga Nordost
+5.nordost.n   Oberliga Nordost (Nord)    ## todo/check: use – (geviertstrich) to avoid () e.g. Oberliga Nordost – Nord
+5.nordost.s   Oberliga Nordost (Süd)     ## todo/check: use – (geviertstrich) to avoid () e.g. Oberliga Nordost – Süd
+
+## Regionalliga West
+5.west.niederrhein   Oberliga Niederrhein
+5.west.mittelrhein   Mittelrheinliga
+5.west.westfalen     Oberliga Westfalen
+
+## Regionalliga Südwest
+5.suedwest.rp.sl   Oberliga Rheinland-Pfalz/Saar        ## change key rp.sl to rp_sl or rp+sl ??
+5.suedwest.he      Hessenliga
+5.suedwest.bw      Oberliga Baden-Württemberg
+
+## Regionalliga Bayern
+5.by.n    Bayernliga (Nord)    ## todo/check: use – (geviertstrich) to avoid () e.g. Bayernliga – Nord
+5.by.s    Bayernliga (Süd)     ## todo/check: use – (geviertstrich) to avoid () e.g. Bayernliga – Süd
+
+
+
+
+## todo/check: change key to playoffs.1/2 or rel.1/2  - why? why not?
+# rel.1   Bundesliga - Relegation
+#         | Deutsche Bundesliga - Relegation
+#         | Deutsche Bundesliga - Relegationsspiele
+#         | Deutsche Bundesliga - Aufstieg
+#         | Play-offs 1/2
+# rel.2   2. Bundesliga - Relegation
+#         | Deutsche 2. Bundesliga - Relegation
+#         | Deutsche 2. Bundesliga - Relegationsspiele
+#         | Deutsche 2. Bundesliga - Aufstieg
+#         | Play-offs 2/3
+# rel.3   3. Liga - Relegation
+#         | Deutsche 3. Liga - Relegation
+#         | Deutsche 3. Liga - Relegationsspiele
+#         | Deutsche 3. Liga - Aufstieg
+#         | Play-offs 3/4

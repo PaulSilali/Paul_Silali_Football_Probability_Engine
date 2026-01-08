@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9304,Bielefeld,9313,Hamburg,1819,2,0,0.0,2.5
+9302,Paderborn,9328,Duisburg,1819,2,0,0.0,3.0
+9304,Bielefeld,9328,Duisburg,1819,2,1,0.5,2.5
+9307,Dresden,9327,Union Berlin,1819,2,2,1.0,
+9304,Bielefeld,9314,Regensburg,1819,2,0,0.0,5.5
+9303,Holstein Kiel,9312,FC Koln,1819,2,1,0.5,3.0
+9313,Hamburg,9322,Ingolstadt,1819,2,0,0.0,3.0
+9297,Bochum,9310,Magdeburg,1819,2,1,0.5,3.0
+9297,Bochum,9314,Regensburg,1819,2,1,0.5,4.5
+9304,Bielefeld,9306,Greuther Furth,1819,2,1,0.5,4.5
+9320,Sandhausen,9328,Duisburg,1819,2,2,1.0,2.0
+9316,St Pauli,9328,Duisburg,1819,2,1,0.5,0.5
+9307,Dresden,9321,Heidenheim,1819,2,0,0.0,2.5
+9297,Bochum,9321,Heidenheim,1819,2,0,0.0,3.0
+9302,Paderborn,9322,Ingolstadt,1819,2,0,0.0,3.5
+9303,Holstein Kiel,9306,Greuther Furth,1819,2,1,0.5,4.5
+9306,Greuther Furth,9310,Magdeburg,1819,2,0,0.0,4.0
+9307,Dresden,9324,Erzgebirge Aue,1819,2,1,0.5,3.0
+9304,Bielefeld,9324,Erzgebirge Aue,1819,2,0,0.0,2.0
+9302,Paderborn,9320,Sandhausen,1819,2,2,1.0,4.0
+9312,FC Koln,9314,Regensburg,1819,2,0,0.0,6.0
+9303,Holstein Kiel,9313,Hamburg,1819,2,0,0.0,3.5
+9307,Dresden,9310,Magdeburg,1819,2,2,1.0,3.0
+9304,Bielefeld,9312,FC Koln,1819,2,0,0.0,5.0
+9302,Paderborn,9324,Erzgebirge Aue,1819,2,0,0.0,2.0
+9297,Bochum,9320,Sandhausen,1819,2,0,0.0,2.0
+9296,Darmstadt,9307,Dresden,1819,2,0,0.0,3.5
+9296,Darmstadt,9310,Magdeburg,1819,2,0,0.0,2.5
+9296,Darmstadt,9316,St Pauli,1819,2,0,0.0,2.5
+9321,Heidenheim,9322,Ingolstadt,1819,2,1,0.5,4.0
+9304,Bielefeld,9321,Heidenheim,1819,2,1,0.5,2.5
+9296,Darmstadt,9297,Bochum,1819,2,1,0.5,0.5
+9303,Holstein Kiel,9310,Magdeburg,1819,2,1,0.5,2.5
+9306,Greuther Furth,9313,Hamburg,1819,2,1,0.5,0.5
+9306,Greuther Furth,9328,Duisburg,1819,2,0,0.0,1.0
+9297,Bochum,9327,Union Berlin,1819,2,1,0.5,3.0
+9307,Dresden,9328,Duisburg,1819,2,0,0.0,2.5
+9302,Paderborn,9312,FC Koln,1819,2,0,0.0,6.5
+9310,Magdeburg,9322,Ingolstadt,1819,2,1,0.5,1.5
+9306,Greuther Furth,9321,Heidenheim,1819,2,1,0.5,1.0
+9313,Hamburg,9327,Union Berlin,1819,2,1,0.5,3.0
+9302,Paderborn,9316,St Pauli,1819,2,0,0.0,2.0
+9304,Bielefeld,9327,Union Berlin,1819,2,2,1.0,2.0
+9324,Erzgebirge Aue,9327,Union Berlin,1819,2,0,0.0,2.0
+9306,Greuther Furth,9322,Ingolstadt,1819,2,1,0.5,1.5
+9312,FC Koln,9322,Ingolstadt,1819,2,0,0.0,3.0
+9297,Bochum,9304,Bielefeld,1819,2,0,0.0,2.5
+9296,Darmstadt,9306,Greuther Furth,1819,2,0,0.0,2.5
+9303,Holstein Kiel,9327,Union Berlin,1819,2,0,0.0,2.0
+9321,Heidenheim,9324,Erzgebirge Aue,1819,2,0,0.0,1.0
+9307,Dresden,9314,Regensburg,1819,2,1,0.5,1.0
+9303,Holstein Kiel,9321,Heidenheim,1819,2,2,1.0,3.0
+9316,St Pauli,9322,Ingolstadt,1819,2,0,0.0,1.0
+9303,Holstein Kiel,9322,Ingolstadt,1819,2,2,1.0,3.0
+9322,Ingolstadt,9328,Duisburg,1819,2,1,0.5,4.0
+9310,Magdeburg,9313,Hamburg,1819,2,0,0.0,2.0
+9303,Holstein Kiel,9307,Dresden,1819,2,0,0.0,2.5
+9307,Dresden,9316,St Pauli,1819,2,1,0.5,2.5
+9327,Union Berlin,9328,Duisburg,1819,2,1,0.5,4.5
+9320,Sandhausen,9321,Heidenheim,1819,2,0,0.0,4.0
+9302,Paderborn,9307,Dresden,1819,2,0,0.0,3.5
+9306,Greuther Furth,9324,Erzgebirge Aue,1819,2,1,0.5,3.5
+9316,St Pauli,9324,Erzgebirge Aue,1819,2,0,0.0,3.5
+9296,Darmstadt,9324,Erzgebirge Aue,1819,2,1,0.5,2.5
+9316,St Pauli,9321,Heidenheim,1819,2,1,0.5,2.5
+9312,FC Koln,9327,Union Berlin,1819,2,1,0.5,2.0
+9296,Darmstadt,9327,Union Berlin,1819,2,0,0.0,3.5
+9312,FC Koln,9316,St Pauli,1819,2,0,0.0,6.5
+9313,Hamburg,9321,Heidenheim,1819,2,1,0.5,4.5
+9320,Sandhausen,9322,Ingolstadt,1819,2,0,0.0,3.5
+9303,Holstein Kiel,9304,Bielefeld,1819,2,0,0.0,2.0
+9314,Regensburg,9327,Union Berlin,1819,2,2,1.0,3.0
+9302,Paderborn,9314,Regensburg,1819,2,0,0.0,2.0
+9304,Bielefeld,9316,St Pauli,1819,2,1,0.5,2.5
+9297,Bochum,9313,Hamburg,1819,2,2,1.0,
+9310,Magdeburg,9324,Erzgebirge Aue,1819,2,1,0.5,0.5
+9297,Bochum,9312,FC Koln,1819,2,0,0.0,3.5
+9320,Sandhausen,9324,Erzgebirge Aue,1819,2,0,0.0,2.5
+9306,Greuther Furth,9316,St Pauli,1819,2,0,0.0,2.5
+9310,Magdeburg,9314,Regensburg,1819,2,0,0.0,3.0
+9302,Paderborn,9306,Greuther Furth,1819,2,1,0.5,5.0
+9304,Bielefeld,9322,Ingolstadt,1819,2,1,0.5,3.0
+9296,Darmstadt,9320,Sandhausen,1819,2,2,1.0,2.0
+9306,Greuther Furth,9320,Sandhausen,1819,2,1,0.5,2.0
+9314,Regensburg,9322,Ingolstadt,1819,2,0,0.0,3.0
+9313,Hamburg,9328,Duisburg,1819,2,0,0.0,3.0
+9296,Darmstadt,9328,Duisburg,1819,2,0,0.0,4.0
+9297,Bochum,9303,Holstein Kiel,1819,2,1,0.5,4.0
+9297,Bochum,9316,St Pauli,1819,2,1,0.5,2.0
+9312,FC Koln,9313,Hamburg,1819,2,1,0.5,1.5
+9296,Darmstadt,9314,Regensburg,1819,2,2,1.0,2.0
+9296,Darmstadt,9303,Holstein Kiel,1819,2,0,0.0,5.5
+9307,Dresden,9313,Hamburg,1819,2,0,0.0,1.0
+9297,Bochum,9328,Duisburg,1819,2,0,0.0,2.5
+9321,Heidenheim,9328,Duisburg,1819,2,0,0.0,6.0
+9314,Regensburg,9316,St Pauli,1819,2,1,0.5,4.5
+9307,Dresden,9312,FC Koln,1819,2,0,0.0,6.0
+9310,Magdeburg,9327,Union Berlin,1819,2,1,0.5,2.5
+9302,Paderborn,9313,Hamburg,1819,2,0,0.0,3.0
+9314,Regensburg,9320,Sandhausen,1819,2,2,1.0,4.0
+9312,FC Koln,9321,Heidenheim,1819,2,1,0.5,2.0
+9312,FC Koln,9320,Sandhausen,1819,2,0,0.0,3.0
+9307,Dresden,9320,Sandhausen,1819,2,0,0.0,4.0
+9297,Bochum,9324,Erzgebirge Aue,1819,2,0,0.0,4.0
+9310,Magdeburg,9328,Duisburg,1819,2,1,0.5,3.5
+9313,Hamburg,9320,Sandhausen,1819,2,0,0.0,3.0
+9313,Hamburg,9324,Erzgebirge Aue,1819,2,1,0.5,3.0
+9303,Holstein Kiel,9324,Erzgebirge Aue,1819,2,0,0.0,4.5
+9310,Magdeburg,9312,FC Koln,1819,2,1,0.5,2.5
+9304,Bielefeld,9320,Sandhausen,1819,2,1,0.5,2.5
+9306,Greuther Furth,9312,FC Koln,1819,2,0,0.0,4.0
+9313,Hamburg,9314,Regensburg,1819,2,0,0.0,4.0
+9320,Sandhausen,9327,Union Berlin,1819,2,1,0.5,1.0
+9310,Magdeburg,9316,St Pauli,1819,2,0,0.0,4.0
+9312,FC Koln,9328,Duisburg,1819,2,1,0.5,5.5
+9322,Ingolstadt,9324,Erzgebirge Aue,1819,2,0,0.0,4.0
+9307,Dresden,9322,Ingolstadt,1819,2,0,0.0,1.5
+9303,Holstein Kiel,9320,Sandhausen,1819,2,0,0.0,4.0
+9302,Paderborn,9310,Magdeburg,1819,2,2,1.0,5.0
+9310,Magdeburg,9321,Heidenheim,1819,2,1,0.5,1.5
+9322,Ingolstadt,9327,Union Berlin,1819,2,0,0.0,2.5
+9296,Darmstadt,9321,Heidenheim,1819,2,0,0.0,2.0
+9302,Paderborn,9327,Union Berlin,1819,2,1,0.5,2.0
+9296,Darmstadt,9313,Hamburg,1819,2,0,0.0,4.0
+9324,Erzgebirge Aue,9328,Duisburg,1819,2,1,0.5,1.5
+9306,Greuther Furth,9327,Union Berlin,1819,2,1,0.5,3.0
+9302,Paderborn,9321,Heidenheim,1819,2,0,0.0,5.0
+9296,Darmstadt,9304,Bielefeld,1819,2,0,0.0,2.0
+9306,Greuther Furth,9307,Dresden,1819,2,1,0.5,0.5
+9306,Greuther Furth,9314,Regensburg,1819,2,1,0.5,2.0
+9314,Regensburg,9328,Duisburg,1819,2,1,0.5,3.0
+9303,Holstein Kiel,9316,St Pauli,1819,2,0,0.0,2.0
+9302,Paderborn,9304,Bielefeld,1819,2,1,0.5,3.0
+9312,FC Koln,9324,Erzgebirge Aue,1819,2,0,0.0,2.5
+9297,Bochum,9306,Greuther Furth,1819,2,1,0.5,4.5
+9303,Holstein Kiel,9314,Regensburg,1819,2,1,0.5,1.0
+9304,Bielefeld,9310,Magdeburg,1819,2,1,0.5,2.0
+9321,Heidenheim,9327,Union Berlin,1819,2,1,0.5,2.5
+9297,Bochum,9322,Ingolstadt,1819,2,0,0.0,4.5
+9297,Bochum,9307,Dresden,1819,2,1,0.5,2.5
+9303,Holstein Kiel,9328,Duisburg,1819,2,0,0.0,3.0
+9316,St Pauli,9327,Union Berlin,1819,2,0,0.0,5.0
+9310,Magdeburg,9320,Sandhausen,1819,2,0,0.0,1.0
+9296,Darmstadt,9322,Ingolstadt,1819,2,1,0.5,2.5
+9313,Hamburg,9316,St Pauli,1819,2,1,0.5,2.0
+9314,Regensburg,9324,Erzgebirge Aue,1819,2,1,0.5,3.0
+9302,Paderborn,9303,Holstein Kiel,1819,2,1,0.5,5.5
+9296,Darmstadt,9302,Paderborn,1819,2,0,0.0,4.5
+9314,Regensburg,9321,Heidenheim,1819,2,0,0.0,3.0
+9297,Bochum,9302,Paderborn,1819,2,1,0.5,3.5
+9296,Darmstadt,9312,FC Koln,1819,2,0,0.0,3.0
+9304,Bielefeld,9307,Dresden,1819,2,0,0.0,5.0
+9316,St Pauli,9320,Sandhausen,1819,2,0,0.0,4.0

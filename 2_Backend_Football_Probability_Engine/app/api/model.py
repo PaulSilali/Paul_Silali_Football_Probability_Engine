@@ -165,6 +165,11 @@ async def train_model(
     seasons = request.get("seasons")
     date_from = request.get("dateFrom")
     date_to = request.get("dateTo")
+    # Window configuration (SP-FX Recommended)
+    base_model_window_years = request.get("baseModelWindowYears")
+    draw_model_window_years = request.get("drawModelWindowYears")
+    odds_calibration_window_years = request.get("oddsCalibrationWindowYears")
+    exclude_pre_covid = request.get("excludePreCovid")
     
     # Generate task ID
     task_id = f"train-{int(datetime.now().timestamp())}-{uuid.uuid4().hex[:8]}"
@@ -197,6 +202,8 @@ async def train_model(
             
             if model_type == "poisson":
                 result = service.train_poisson_model(
+                    base_model_window_years=base_model_window_years,
+                    exclude_pre_covid=exclude_pre_covid,
                     leagues=leagues,
                     seasons=seasons,
                     date_from=date_from_obj,

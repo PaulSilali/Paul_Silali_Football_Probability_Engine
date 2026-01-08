@@ -1,0 +1,156 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9072,Bournemouth,9098,Huddersfield,1718,2,0,0.0,4.5
+9074,Newcastle,9079,Tottenham,1718,2,0,0.0,1.5
+9089,Everton,9099,Stoke,1718,2,0,0.0,2.0
+9072,Bournemouth,9091,Southampton,1718,2,1,0.5,2.5
+9075,Brighton,9092,Leicester,1718,2,0,0.0,2.0
+9087,Arsenal,9098,Huddersfield,1718,2,0,0.0,3.0
+9092,Leicester,9095,Watford,1718,2,0,0.0,2.5
+9078,West Ham,9079,Tottenham,1718,4,2,0.5,2.5
+9079,Tottenham,9092,Leicester,1718,2,0,0.0,6.0
+9082,Man City,9099,Stoke,1718,4,1,0.25,4.5
+9074,Newcastle,9078,West Ham,1718,4,1,0.25,3.25
+9080,Burnley,9091,Southampton,1718,2,1,0.5,1.5
+9082,Man City,9082,Man City,1718,2,0,0.0,4.0
+9089,Everton,9095,Watford,1718,2,0,0.0,3.0
+9074,Newcastle,9084,Crystal Palace,1718,2,1,0.5,1.5
+9071,Liverpool,9084,Crystal Palace,1718,2,0,0.0,2.0
+9078,West Ham,9099,Stoke,1718,4,2,0.5,2.75
+9095,Watford,9099,Stoke,1718,2,1,0.5,0.5
+9075,Brighton,9079,Tottenham,1718,2,1,0.5,2.0
+9078,West Ham,9080,Burnley,1718,4,1,0.25,2.25
+9080,Burnley,9083,Chelsea,1718,2,0,0.0,4.0
+9079,Tottenham,9080,Burnley,1718,2,1,0.5,2.5
+9071,Liverpool,9080,Burnley,1718,2,1,0.5,2.5
+9079,Tottenham,9091,Southampton,1718,2,1,0.5,4.5
+9082,Man City,9091,Southampton,1718,4,1,0.25,1.25
+9080,Burnley,9082,Man City,1718,4,2,0.5,2.5
+9079,Tottenham,9084,Crystal Palace,1718,2,0,0.0,1.0
+9095,Watford,9098,Huddersfield,1718,2,0,0.0,3.0
+9083,Chelsea,9098,Huddersfield,1718,2,1,0.5,3.0
+9092,Leicester,9100,Swansea,1718,2,1,0.5,2.5
+9083,Chelsea,9091,Southampton,1718,2,0,0.0,3.0
+9074,Newcastle,9089,Everton,1718,2,0,0.0,1.0
+9075,Brighton,9099,Stoke,1718,2,2,1.0,3.0
+9082,Man City,9084,Crystal Palace,1718,4,1,0.25,3.5
+9074,Newcastle,9099,Stoke,1718,2,0,0.0,2.0
+9083,Chelsea,9087,Arsenal,1718,2,2,1.0,2.0
+9074,Newcastle,9098,Huddersfield,1718,2,0,0.0,1.0
+9075,Brighton,9080,Burnley,1718,2,2,1.0,
+9089,Everton,9092,Leicester,1718,2,0,0.0,2.5
+9080,Burnley,9092,Leicester,1718,2,0,0.0,2.0
+9087,Arsenal,9091,Southampton,1718,2,1,0.5,3.5
+9072,Bournemouth,9075,Brighton,1718,2,1,0.5,3.5
+9071,Liverpool,9092,Leicester,1718,2,0,0.0,4.0
+9084,Crystal Palace,9099,Stoke,1718,2,0,0.0,3.0
+9071,Liverpool,9100,Swansea,1718,2,0,0.0,3.0
+9095,Watford,9100,Swansea,1718,2,0,0.0,3.0
+9091,Southampton,9095,Watford,1718,2,1,0.5,3.0
+9087,Arsenal,9092,Leicester,1718,2,0,0.0,5.5
+9084,Crystal Palace,9092,Leicester,1718,2,0,0.0,4.0
+9089,Everton,9098,Huddersfield,1718,2,0,0.0,2.0
+9092,Leicester,9098,Huddersfield,1718,2,1,0.5,2.5
+9075,Brighton,9087,Arsenal,1718,2,0,0.0,2.5
+9074,Newcastle,9095,Watford,1718,2,0,0.0,3.0
+9080,Burnley,9095,Watford,1718,2,0,0.0,2.0
+9083,Chelsea,9089,Everton,1718,2,1,0.5,1.0
+9079,Tottenham,9100,Swansea,1718,2,1,0.5,1.0
+9082,Man City,9087,Arsenal,1718,4,0,0.0,3.5
+9075,Brighton,9091,Southampton,1718,2,2,1.0,2.0
+9072,Bournemouth,9083,Chelsea,1718,2,0,0.0,2.0
+9078,West Ham,9098,Huddersfield,1718,4,0,0.0,2.75
+9082,Man City,9100,Swansea,1718,4,0,0.0,3.75
+9099,Stoke,9100,Swansea,1718,2,0,0.0,3.0
+9075,Brighton,9098,Huddersfield,1718,2,1,0.5,2.0
+9075,Brighton,9078,West Ham,1718,4,0,0.0,3.25
+9091,Southampton,9100,Swansea,1718,2,1,0.5,0.5
+9084,Crystal Palace,9100,Swansea,1718,2,1,0.5,2.0
+9072,Bournemouth,9099,Stoke,1718,2,0,0.0,3.0
+9071,Liverpool,9079,Tottenham,1718,2,1,0.5,4.5
+9078,West Ham,9091,Southampton,1718,4,0,0.0,3.5
+9071,Liverpool,9075,Brighton,1718,2,0,0.0,5.0
+9072,Bournemouth,9089,Everton,1718,2,0,0.0,3.0
+9071,Liverpool,9098,Huddersfield,1718,2,0,0.0,3.0
+9091,Southampton,9099,Stoke,1718,2,1,0.5,1.5
+9079,Tottenham,9089,Everton,1718,2,0,0.0,3.5
+9083,Chelsea,9092,Leicester,1718,2,1,0.5,1.5
+9075,Brighton,9100,Swansea,1718,2,0,0.0,3.0
+9087,Arsenal,9089,Everton,1718,2,0,0.0,6.5
+9079,Tottenham,9098,Huddersfield,1718,2,0,0.0,3.0
+9072,Bournemouth,9100,Swansea,1718,2,1,0.5,0.5
+9091,Southampton,9092,Leicester,1718,2,1,0.5,2.5
+9074,Newcastle,9075,Brighton,1718,2,1,0.5,0.5
+9089,Everton,9091,Southampton,1718,2,1,0.5,3.5
+9084,Crystal Palace,9089,Everton,1718,2,1,0.5,4.0
+9078,West Ham,9092,Leicester,1718,4,2,0.5,2.75
+9083,Chelsea,9099,Stoke,1718,2,0,0.0,4.5
+9080,Burnley,9089,Everton,1718,2,0,0.0,2.0
+9080,Burnley,9100,Swansea,1718,2,0,0.0,1.5
+9078,West Ham,9078,West Ham,1718,2,1,0.5,1.5
+9078,West Ham,9095,Watford,1718,4,1,0.25,2.25
+9075,Brighton,9082,Man City,1718,4,0,0.0,2.0
+9079,Tottenham,9099,Stoke,1718,2,0,0.0,4.5
+9074,Newcastle,9092,Leicester,1718,2,0,0.0,4.0
+9074,Newcastle,9087,Arsenal,1718,2,0,0.0,2.0
+9072,Bournemouth,9092,Leicester,1718,2,2,1.0,1.0
+9083,Chelsea,9084,Crystal Palace,1718,2,0,0.0,3.0
+9084,Crystal Palace,9091,Southampton,1718,2,0,0.0,2.0
+9082,Man City,9089,Everton,1718,4,1,0.25,3.0
+9082,Man City,9095,Watford,1718,4,0,0.0,4.25
+9074,Newcastle,9080,Burnley,1718,2,1,0.5,1.5
+9091,Southampton,9098,Huddersfield,1718,2,2,1.0,1.0
+9078,West Ham,9084,Crystal Palace,1718,4,3,0.75,2.0
+9072,Bournemouth,9095,Watford,1718,2,1,0.5,3.0
+9071,Liverpool,9078,West Ham,1718,4,2,0.5,3.5
+9079,Tottenham,9095,Watford,1718,2,1,0.5,2.0
+9078,West Ham,9100,Swansea,1718,4,1,0.25,2.25
+9071,Liverpool,9099,Stoke,1718,2,1,0.5,1.5
+9071,Liverpool,9074,Newcastle,1718,2,1,0.5,2.0
+9071,Liverpool,9083,Chelsea,1718,2,1,0.5,1.5
+9071,Liverpool,9089,Everton,1718,2,2,1.0,1.0
+9080,Burnley,9084,Crystal Palace,1718,2,0,0.0,1.0
+9071,Liverpool,9091,Southampton,1718,2,0,0.0,2.5
+9078,West Ham,9083,Chelsea,1718,4,1,0.25,2.5
+9075,Brighton,9095,Watford,1718,2,1,0.5,0.5
+9071,Liverpool,9072,Bournemouth,1718,2,0,0.0,3.5
+9071,Liverpool,9095,Watford,1718,2,1,0.5,5.5
+9072,Bournemouth,9087,Arsenal,1718,2,0,0.0,3.0
+9087,Arsenal,9100,Swansea,1718,2,0,0.0,3.5
+9079,Tottenham,9082,Man City,1718,4,0,0.0,3.0
+9079,Tottenham,9083,Chelsea,1718,2,0,0.0,3.5
+9071,Liverpool,9087,Arsenal,1718,2,1,0.5,5.0
+9092,Leicester,9099,Stoke,1718,2,2,1.0,3.0
+9082,Man City,9092,Leicester,1718,4,1,0.25,3.5
+9074,Newcastle,9100,Swansea,1718,2,1,0.5,1.5
+9089,Everton,9100,Swansea,1718,2,1,0.5,3.0
+9084,Crystal Palace,9087,Arsenal,1718,2,0,0.0,5.0
+9078,West Ham,9082,Man City,1718,8,1,0.125,3.0
+9072,Bournemouth,9080,Burnley,1718,2,0,0.0,3.0
+9082,Man City,9098,Huddersfield,1718,4,1,0.25,2.0
+9074,Newcastle,9091,Southampton,1718,2,1,0.5,3.5
+9072,Bournemouth,9084,Crystal Palace,1718,2,2,1.0,4.0
+9079,Tottenham,9087,Arsenal,1718,2,0,0.0,1.5
+9083,Chelsea,9095,Watford,1718,2,0,0.0,5.5
+9075,Brighton,9084,Crystal Palace,1718,2,1,0.5,2.5
+9072,Bournemouth,9074,Newcastle,1718,2,1,0.5,2.5
+9078,West Ham,9087,Arsenal,1718,4,2,0.5,2.25
+9075,Brighton,9083,Chelsea,1718,2,0,0.0,3.0
+9083,Chelsea,9100,Swansea,1718,2,0,0.0,1.0
+9087,Arsenal,9095,Watford,1718,2,0,0.0,3.0
+9098,Huddersfield,9100,Swansea,1718,2,1,0.5,1.0
+9087,Arsenal,9099,Stoke,1718,2,0,0.0,2.0
+9075,Brighton,9089,Everton,1718,2,1,0.5,2.0
+9078,West Ham,9089,Everton,1718,4,2,0.5,2.5
+9072,Bournemouth,9082,Man City,1718,4,0,0.0,2.5
+9080,Burnley,9099,Stoke,1718,2,1,0.5,1.5
+9071,Liverpool,9082,Man City,1718,4,1,0.25,3.75
+9074,Newcastle,9083,Chelsea,1718,2,0,0.0,3.5
+9084,Crystal Palace,9095,Watford,1718,2,1,0.5,1.5
+9082,Man City,9083,Chelsea,1718,4,0,0.0,1.5
+9072,Bournemouth,9079,Tottenham,1718,2,0,0.0,3.0
+9074,Newcastle,9082,Man City,1718,4,0,0.0,2.75
+9080,Burnley,9098,Huddersfield,1718,2,2,1.0,
+9072,Bournemouth,9078,West Ham,1718,4,2,0.5,3.0
+9098,Huddersfield,9099,Stoke,1718,2,1,0.5,2.0
+9084,Crystal Palace,9098,Huddersfield,1718,2,0,0.0,2.5
+9080,Burnley,9087,Arsenal,1718,2,0,0.0,3.0

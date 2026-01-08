@@ -82,10 +82,6 @@ def _save_referee_csv_batch(
         if not referee_records:
             raise ValueError("No referee records to save")
         
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Referee")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame from all records
         df = pd.DataFrame(referee_records)
         
@@ -96,17 +92,103 @@ def _save_referee_csv_batch(
         
         # Filename format: {league_code}_{season}_referee_stats.csv
         filename = f"{league_code}_{season}_referee_stats.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Save to both locations
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Referee", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved batch referee stats CSV for {league_code} ({season}): {len(referee_records)} referees -> {csv_path}")
-        return csv_path
+        logger.info(f"Saved batch referee stats CSV for {league_code} ({season}): {len(referee_records)} referees")
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving batch referee stats CSV: {e}", exc_info=True)
         raise
+
+
+def ingest_referee_stats_from_csv(
+    db: Session,
+    csv_path: str
+) -> Dict:
+    """
+    Ingest referee statistics from CSV file in our format.
+    
+    CSV Format: league_code,season,referee_id,referee_name,matches,avg_cards,avg_penalties,draw_rate
+    
+    Args:
+        db: Database session
+        csv_path: Path to CSV file
+    
+    Returns:
+        Dict with ingestion statistics
+    """
+    try:
+        df = pd.read_csv(csv_path)
+        
+        # Validate required columns
+        required_cols = ['referee_id', 'referee_name', 'matches', 'avg_cards', 'avg_penalties', 'draw_rate']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            return {"success": False, "error": f"Missing required columns: {missing_cols}"}
+        
+        inserted = 0
+        updated = 0
+        errors = 0
+        
+        for _, row in df.iterrows():
+            try:
+                referee_id = int(row['referee_id'])
+                referee_name = str(row['referee_name']).strip()
+                matches = int(row['matches'])
+                avg_cards = float(row.get('avg_cards', 0.0)) if pd.notna(row.get('avg_cards')) else 0.0
+                avg_penalties = float(row.get('avg_penalties', 0.0)) if pd.notna(row.get('avg_penalties')) else 0.0
+                draw_rate = float(row.get('draw_rate', 0.0)) if pd.notna(row.get('draw_rate')) else 0.0
+                
+                # Insert or update
+                existing = db.query(RefereeStats).filter(
+                    RefereeStats.referee_id == referee_id
+                ).first()
+                
+                if existing:
+                    existing.referee_name = referee_name
+                    existing.matches = matches
+                    existing.avg_cards = avg_cards
+                    existing.avg_penalties = avg_penalties
+                    existing.draw_rate = draw_rate
+                    updated += 1
+                else:
+                    referee = RefereeStats(
+                        referee_id=referee_id,
+                        referee_name=referee_name,
+                        matches=matches,
+                        avg_cards=avg_cards,
+                        avg_penalties=avg_penalties,
+                        draw_rate=draw_rate
+                    )
+                    db.add(referee)
+                    inserted += 1
+                
+            except Exception as e:
+                logger.warning(f"Error processing referee stats row: {e}")
+                errors += 1
+                continue
+        
+        db.commit()
+        
+        logger.info(f"Ingested referee stats from CSV: {inserted} inserted, {updated} updated, {errors} errors")
+        
+        return {
+            "success": True,
+            "inserted": inserted,
+            "updated": updated,
+            "errors": errors
+        }
+    
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error ingesting referee stats from CSV: {e}", exc_info=True)
+        return {"success": False, "error": str(e)}
 
 
 def ingest_referee_stats_from_matches(
@@ -498,6 +580,8 @@ def batch_ingest_referee_stats(
                     referees = db.execute(referees_query, referees_params).fetchall()
                     
                     if not referees:
+                        logger.debug(f"No referees found for {league.code} ({season_filter or 'all'}) - skipping")
+                        results["skipped"] += 1
                         continue
                     
                     # Collect referee records for this league/season
@@ -585,11 +669,20 @@ def batch_ingest_referee_stats(
                     logger.error(f"Error processing league {league.code} season {season_filter}: {e}")
                     continue
         
-        logger.info(f"Batch referee stats ingestion complete: {results['successful']} successful, {results['failed']} failed out of {results['total']} processed")
+        total_processed = results['successful'] + results['failed'] + results['skipped']
+        logger.info(f"Batch referee stats ingestion complete: {results['successful']} successful, {results['failed']} failed, {results['skipped']} skipped out of {total_processed} processed")
+        
+        # If no referees were found at all, add a helpful message
+        if total_processed == 0:
+            logger.warning("No referee data found. This could mean:")
+            logger.warning("  1. Matches table doesn't have referee_id column (should use placeholders)")
+            logger.warning("  2. Matches table has referee_id column but all values are NULL")
+            logger.warning("  3. No matches exist for the specified leagues/seasons")
         
         return {
             "success": True,
-            **results
+            **results,
+            "total_processed": total_processed
         }
     
     except Exception as e:

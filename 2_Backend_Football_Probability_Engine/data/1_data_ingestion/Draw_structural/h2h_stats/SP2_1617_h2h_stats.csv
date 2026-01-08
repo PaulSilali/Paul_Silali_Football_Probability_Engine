@@ -1,0 +1,232 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9228,Leganes,9263,Getafe,1617,2,1,0.5,2.0
+9252,Mallorca,9264,UCAM Murcia,1617,2,2,1.0,1.0
+9224,Zaragoza,9249,Girona,1617,2,1,0.5,1.0
+9228,Leganes,9261,Sevilla B,1617,2,1,0.5,1.5
+9247,Lugo,9257,Reus Deportiu,1617,2,0,0.0,2.0
+9215,Valladolid,9236,Oviedo,1617,2,0,0.0,1.0
+9226,Mirandes,9253,Vallecano,1617,2,0,0.0,3.0
+9240,Tenerife,9256,Numancia,1617,2,2,1.0,2.0
+9227,Huesca,9257,Reus Deportiu,1617,2,0,0.0,2.0
+9244,Alcorcon,9261,Sevilla B,1617,2,2,1.0,1.0
+9215,Valladolid,9260,Gimnastic,1617,2,0,0.0,3.0
+9225,Cadiz,9232,Cordoba,1617,2,1,0.5,3.0
+9247,Lugo,9249,Girona,1617,2,0,0.0,3.5
+9253,Vallecano,9256,Numancia,1617,2,2,1.0,3.0
+9225,Cadiz,9240,Tenerife,1617,2,1,0.5,1.5
+9253,Vallecano,9260,Gimnastic,1617,2,0,0.0,1.5
+9240,Tenerife,9260,Gimnastic,1617,2,1,0.5,1.5
+9226,Mirandes,9244,Alcorcon,1617,2,0,0.0,1.5
+9224,Zaragoza,9228,Leganes,1617,2,0,0.0,3.5
+9236,Oviedo,9260,Gimnastic,1617,2,1,0.5,2.5
+9224,Zaragoza,9257,Reus Deportiu,1617,2,1,0.5,2.5
+9256,Numancia,9264,UCAM Murcia,1617,2,0,0.0,3.0
+9227,Huesca,9233,Almeria,1617,2,1,0.5,1.0
+9252,Mallorca,9263,Getafe,1617,2,2,1.0,4.0
+9249,Girona,9256,Numancia,1617,2,0,0.0,2.5
+9244,Alcorcon,9256,Numancia,1617,2,1,0.5,3.5
+9232,Cordoba,9249,Girona,1617,2,0,0.0,2.5
+9228,Leganes,9240,Tenerife,1617,2,1,0.5,0.5
+9232,Cordoba,9253,Vallecano,1617,2,1,0.5,1.5
+9247,Lugo,9263,Getafe,1617,2,0,0.0,1.5
+9233,Almeria,9240,Tenerife,1617,2,0,0.0,1.0
+9232,Cordoba,9247,Lugo,1617,2,1,0.5,3.5
+9236,Oviedo,9238,Elche,1617,2,0,0.0,2.5
+9233,Almeria,9247,Lugo,1617,2,1,0.5,1.5
+9215,Valladolid,9224,Zaragoza,1617,2,2,1.0,1.0
+9227,Huesca,9252,Mallorca,1617,2,0,0.0,3.0
+9227,Huesca,9236,Oviedo,1617,2,1,0.5,3.0
+9226,Mirandes,9238,Elche,1617,2,0,0.0,1.0
+9225,Cadiz,9238,Elche,1617,2,0,0.0,4.0
+9215,Valladolid,9233,Almeria,1617,2,1,0.5,1.5
+9226,Mirandes,9227,Huesca,1617,2,0,0.0,3.5
+9236,Oviedo,9249,Girona,1617,2,1,0.5,1.0
+9225,Cadiz,9263,Getafe,1617,2,0,0.0,4.0
+9236,Oviedo,9256,Numancia,1617,2,2,1.0,2.0
+9227,Huesca,9260,Gimnastic,1617,2,2,1.0,1.0
+9227,Huesca,9238,Elche,1617,2,1,0.5,2.5
+9228,Leganes,9238,Elche,1617,2,0,0.0,2.0
+9215,Valladolid,9226,Mirandes,1617,2,1,0.5,4.5
+9257,Reus Deportiu,9263,Getafe,1617,2,2,1.0,2.0
+9225,Cadiz,9247,Lugo,1617,2,1,0.5,1.5
+9238,Elche,9253,Vallecano,1617,2,1,0.5,2.5
+9226,Mirandes,9228,Leganes,1617,2,0,0.0,3.0
+9227,Huesca,9232,Cordoba,1617,2,0,0.0,2.5
+9228,Leganes,9244,Alcorcon,1617,2,0,0.0,2.0
+9240,Tenerife,9247,Lugo,1617,2,0,0.0,3.5
+9244,Alcorcon,9249,Girona,1617,2,1,0.5,1.5
+9228,Leganes,9247,Lugo,1617,2,0,0.0,1.0
+9226,Mirandes,9232,Cordoba,1617,2,2,1.0,2.0
+9233,Almeria,9261,Sevilla B,1617,2,0,0.0,2.0
+9232,Cordoba,9252,Mallorca,1617,2,1,0.5,2.0
+9247,Lugo,9264,UCAM Murcia,1617,2,1,0.5,1.5
+9240,Tenerife,9263,Getafe,1617,2,2,1.0,2.0
+9224,Zaragoza,9225,Cadiz,1617,2,1,0.5,2.5
+9257,Reus Deportiu,9261,Sevilla B,1617,2,0,0.0,2.0
+9253,Vallecano,9263,Getafe,1617,2,0,0.0,1.5
+9232,Cordoba,9263,Getafe,1617,2,0,0.0,3.0
+9236,Oviedo,9247,Lugo,1617,2,1,0.5,2.5
+9257,Reus Deportiu,9264,UCAM Murcia,1617,2,1,0.5,1.0
+9252,Mallorca,9253,Vallecano,1617,2,0,0.0,2.0
+9260,Gimnastic,9263,Getafe,1617,2,1,0.5,1.5
+9238,Elche,9260,Gimnastic,1617,2,1,0.5,6.0
+9253,Vallecano,9257,Reus Deportiu,1617,2,2,1.0,1.0
+9236,Oviedo,9261,Sevilla B,1617,2,0,0.0,4.5
+9238,Elche,9263,Getafe,1617,2,1,0.5,3.0
+9256,Numancia,9263,Getafe,1617,2,1,0.5,1.0
+9226,Mirandes,9236,Oviedo,1617,2,1,0.5,1.0
+9249,Girona,9264,UCAM Murcia,1617,2,0,0.0,2.0
+9238,Elche,9264,UCAM Murcia,1617,2,2,1.0,2.0
+9233,Almeria,9264,UCAM Murcia,1617,2,0,0.0,4.5
+9233,Almeria,9236,Oviedo,1617,2,0,0.0,2.5
+9224,Zaragoza,9238,Elche,1617,2,0,0.0,3.5
+9215,Valladolid,9253,Vallecano,1617,2,1,0.5,1.5
+9228,Leganes,9232,Cordoba,1617,2,0,0.0,2.5
+9232,Cordoba,9261,Sevilla B,1617,2,0,0.0,1.0
+9249,Girona,9257,Reus Deportiu,1617,2,0,0.0,2.0
+9225,Cadiz,9257,Reus Deportiu,1617,2,1,0.5,0.5
+9249,Girona,9263,Getafe,1617,2,0,0.0,4.0
+9236,Oviedo,9240,Tenerife,1617,2,0,0.0,1.5
+9238,Elche,9249,Girona,1617,2,0,0.0,2.5
+9247,Lugo,9253,Vallecano,1617,2,0,0.0,1.5
+9226,Mirandes,9263,Getafe,1617,2,2,1.0,2.0
+9240,Tenerife,9257,Reus Deportiu,1617,2,1,0.5,0.5
+9249,Girona,9260,Gimnastic,1617,2,0,0.0,5.0
+9224,Zaragoza,9240,Tenerife,1617,2,0,0.0,2.0
+9225,Cadiz,9260,Gimnastic,1617,2,1,0.5,0.5
+9215,Valladolid,9232,Cordoba,1617,2,1,0.5,2.5
+9224,Zaragoza,9233,Almeria,1617,2,1,0.5,3.5
+9236,Oviedo,9252,Mallorca,1617,2,1,0.5,1.5
+9249,Girona,9261,Sevilla B,1617,2,1,0.5,4.0
+9225,Cadiz,9253,Vallecano,1617,2,0,0.0,2.0
+9236,Oviedo,9244,Alcorcon,1617,2,0,0.0,3.5
+9215,Valladolid,9256,Numancia,1617,2,1,0.5,2.5
+9226,Mirandes,9249,Girona,1617,2,1,0.5,2.0
+9233,Almeria,9252,Mallorca,1617,2,0,0.0,2.0
+9247,Lugo,9260,Gimnastic,1617,2,1,0.5,4.5
+9224,Zaragoza,9253,Vallecano,1617,2,1,0.5,2.5
+9224,Zaragoza,9256,Numancia,1617,2,0,0.0,3.0
+9263,Getafe,9264,UCAM Murcia,1617,2,0,0.0,2.0
+9244,Alcorcon,9260,Gimnastic,1617,2,1,0.5,1.5
+9224,Zaragoza,9226,Mirandes,1617,2,0,0.0,1.5
+9215,Valladolid,9261,Sevilla B,1617,2,0,0.0,5.0
+9247,Lugo,9252,Mallorca,1617,2,1,0.5,3.0
+9227,Huesca,9244,Alcorcon,1617,2,1,0.5,0.5
+9226,Mirandes,9247,Lugo,1617,2,1,0.5,3.5
+9247,Lugo,9261,Sevilla B,1617,2,1,0.5,1.5
+9240,Tenerife,9252,Mallorca,1617,2,1,0.5,2.5
+9233,Almeria,9249,Girona,1617,2,2,1.0,3.0
+9232,Cordoba,9256,Numancia,1617,2,2,1.0,1.0
+9215,Valladolid,9227,Huesca,1617,2,0,0.0,2.0
+9232,Cordoba,9264,UCAM Murcia,1617,2,2,1.0,2.0
+9225,Cadiz,9244,Alcorcon,1617,2,0,0.0,3.5
+9226,Mirandes,9240,Tenerife,1617,2,1,0.5,3.5
+9225,Cadiz,9227,Huesca,1617,2,1,0.5,1.5
+9215,Valladolid,9252,Mallorca,1617,2,0,0.0,3.0
+9238,Elche,9256,Numancia,1617,2,1,0.5,4.0
+9215,Valladolid,9225,Cadiz,1617,2,0,0.0,1.0
+9240,Tenerife,9244,Alcorcon,1617,2,0,0.0,3.0
+9224,Zaragoza,9247,Lugo,1617,2,2,1.0,4.0
+9215,Valladolid,9247,Lugo,1617,2,1,0.5,1.5
+9226,Mirandes,9233,Almeria,1617,2,0,0.0,2.5
+9238,Elche,9252,Mallorca,1617,2,0,0.0,1.0
+9260,Gimnastic,9261,Sevilla B,1617,2,2,1.0,3.0
+9236,Oviedo,9264,UCAM Murcia,1617,2,0,0.0,1.5
+9224,Zaragoza,9264,UCAM Murcia,1617,2,0,0.0,2.5
+9236,Oviedo,9257,Reus Deportiu,1617,2,1,0.5,1.5
+9256,Numancia,9260,Gimnastic,1617,2,0,0.0,1.5
+9228,Leganes,9236,Oviedo,1617,2,0,0.0,1.5
+9225,Cadiz,9249,Girona,1617,2,1,0.5,1.5
+9257,Reus Deportiu,9260,Gimnastic,1617,2,0,0.0,1.0
+9240,Tenerife,9261,Sevilla B,1617,2,2,1.0,1.0
+9232,Cordoba,9233,Almeria,1617,2,0,0.0,2.5
+9225,Cadiz,9264,UCAM Murcia,1617,2,2,1.0,3.0
+9225,Cadiz,9256,Numancia,1617,2,0,0.0,2.0
+9232,Cordoba,9244,Alcorcon,1617,2,0,0.0,1.0
+9256,Numancia,9261,Sevilla B,1617,2,1,0.5,2.5
+9215,Valladolid,9244,Alcorcon,1617,2,0,0.0,2.5
+9249,Girona,9253,Vallecano,1617,2,0,0.0,2.5
+9226,Mirandes,9264,UCAM Murcia,1617,2,2,1.0,3.0
+9228,Leganes,9260,Gimnastic,1617,2,1,0.5,2.5
+9244,Alcorcon,9264,UCAM Murcia,1617,2,1,0.5,0.5
+9252,Mallorca,9257,Reus Deportiu,1617,2,1,0.5,1.5
+9238,Elche,9247,Lugo,1617,2,0,0.0,3.0
+9215,Valladolid,9257,Reus Deportiu,1617,2,0,0.0,1.5
+9236,Oviedo,9263,Getafe,1617,2,0,0.0,3.0
+9244,Alcorcon,9247,Lugo,1617,2,0,0.0,2.0
+9226,Mirandes,9256,Numancia,1617,2,0,0.0,2.5
+9249,Girona,9252,Mallorca,1617,2,0,0.0,1.0
+9225,Cadiz,9236,Oviedo,1617,2,0,0.0,2.5
+9227,Huesca,9253,Vallecano,1617,2,1,0.5,3.0
+9244,Alcorcon,9263,Getafe,1617,2,0,0.0,2.0
+9244,Alcorcon,9253,Vallecano,1617,2,0,0.0,2.0
+9224,Zaragoza,9252,Mallorca,1617,2,1,0.5,2.5
+9224,Zaragoza,9261,Sevilla B,1617,2,0,0.0,3.0
+9215,Valladolid,9228,Leganes,1617,2,0,0.0,4.5
+9240,Tenerife,9264,UCAM Murcia,1617,2,0,0.0,2.0
+9232,Cordoba,9257,Reus Deportiu,1617,2,0,0.0,2.0
+9228,Leganes,9256,Numancia,1617,2,0,0.0,1.0
+9256,Numancia,9257,Reus Deportiu,1617,2,1,0.5,1.5
+9252,Mallorca,9256,Numancia,1617,2,1,0.5,2.0
+9261,Sevilla B,9263,Getafe,1617,2,0,0.0,2.5
+9225,Cadiz,9226,Mirandes,1617,2,0,0.0,4.0
+9227,Huesca,9240,Tenerife,1617,2,2,1.0,3.0
+9233,Almeria,9257,Reus Deportiu,1617,2,0,0.0,1.0
+9260,Gimnastic,9264,UCAM Murcia,1617,2,1,0.5,1.5
+9227,Huesca,9261,Sevilla B,1617,2,0,0.0,2.5
+9244,Alcorcon,9252,Mallorca,1617,2,0,0.0,1.0
+9228,Leganes,9249,Girona,1617,2,0,0.0,3.0
+9227,Huesca,9249,Girona,1617,2,0,0.0,3.5
+9224,Zaragoza,9263,Getafe,1617,2,0,0.0,2.0
+9227,Huesca,9247,Lugo,1617,2,1,0.5,1.5
+9228,Leganes,9264,UCAM Murcia,1617,2,0,0.0,3.0
+9238,Elche,9257,Reus Deportiu,1617,2,1,0.5,1.5
+9238,Elche,9244,Alcorcon,1617,2,1,0.5,0.5
+9226,Mirandes,9257,Reus Deportiu,1617,2,2,1.0,2.0
+9232,Cordoba,9260,Gimnastic,1617,2,0,0.0,2.5
+9238,Elche,9240,Tenerife,1617,2,0,0.0,3.0
+9227,Huesca,9228,Leganes,1617,2,0,0.0,2.5
+9240,Tenerife,9253,Vallecano,1617,2,1,0.5,3.5
+9228,Leganes,9233,Almeria,1617,2,1,0.5,2.5
+9215,Valladolid,9240,Tenerife,1617,2,1,0.5,0.5
+9228,Leganes,9252,Mallorca,1617,2,1,0.5,2.5
+9225,Cadiz,9228,Leganes,1617,2,2,1.0,1.0
+9253,Vallecano,9261,Sevilla B,1617,2,1,0.5,2.5
+9224,Zaragoza,9232,Cordoba,1617,2,1,0.5,2.5
+9233,Almeria,9256,Numancia,1617,2,0,0.0,1.5
+9236,Oviedo,9253,Vallecano,1617,2,0,0.0,2.0
+9224,Zaragoza,9227,Huesca,1617,2,0,0.0,3.0
+9225,Cadiz,9261,Sevilla B,1617,2,1,0.5,5.5
+9225,Cadiz,9252,Mallorca,1617,2,2,1.0,1.0
+9233,Almeria,9260,Gimnastic,1617,2,0,0.0,2.0
+9228,Leganes,9257,Reus Deportiu,1617,2,1,0.5,0.5
+9224,Zaragoza,9260,Gimnastic,1617,2,1,0.5,1.5
+9226,Mirandes,9261,Sevilla B,1617,2,0,0.0,1.0
+9215,Valladolid,9264,UCAM Murcia,1617,2,0,0.0,2.5
+9226,Mirandes,9260,Gimnastic,1617,2,0,0.0,3.0
+9232,Cordoba,9240,Tenerife,1617,2,0,0.0,1.5
+9228,Leganes,9253,Vallecano,1617,2,0,0.0,2.0
+9225,Cadiz,9233,Almeria,1617,2,1,0.5,1.5
+9226,Mirandes,9252,Mallorca,1617,2,1,0.5,3.0
+9233,Almeria,9253,Vallecano,1617,2,0,0.0,2.0
+9261,Sevilla B,9264,UCAM Murcia,1617,2,1,0.5,1.5
+9253,Vallecano,9264,UCAM Murcia,1617,2,0,0.0,1.0
+9227,Huesca,9264,UCAM Murcia,1617,2,0,0.0,5.5
+9244,Alcorcon,9257,Reus Deportiu,1617,2,1,0.5,0.5
+9247,Lugo,9256,Numancia,1617,2,0,0.0,2.5
+9252,Mallorca,9261,Sevilla B,1617,2,1,0.5,4.5
+9227,Huesca,9256,Numancia,1617,2,2,1.0,
+9227,Huesca,9263,Getafe,1617,2,2,1.0,1.0
+9224,Zaragoza,9236,Oviedo,1617,2,1,0.5,1.5
+9215,Valladolid,9249,Girona,1617,2,0,0.0,3.0
+9232,Cordoba,9236,Oviedo,1617,2,0,0.0,4.5
+9224,Zaragoza,9244,Alcorcon,1617,2,1,0.5,2.0
+9232,Cordoba,9238,Elche,1617,2,1,0.5,1.5
+9252,Mallorca,9260,Gimnastic,1617,2,2,1.0,2.0
+9233,Almeria,9263,Getafe,1617,2,0,0.0,2.5
+9240,Tenerife,9249,Girona,1617,2,2,1.0,4.0
+9238,Elche,9261,Sevilla B,1617,2,0,0.0,3.5
+9215,Valladolid,9263,Getafe,1617,2,0,0.0,2.5
+9233,Almeria,9238,Elche,1617,2,0,0.0,4.0
+9233,Almeria,9244,Alcorcon,1617,2,1,0.5,2.0
+9215,Valladolid,9238,Elche,1617,2,0,0.0,2.5

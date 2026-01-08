@@ -97,6 +97,11 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
+    # SSL/TLS Configuration
+    # Set to False to disable SSL certificate verification (for development/testing only)
+    # WARNING: Disabling SSL verification is insecure and should only be used in development
+    VERIFY_SSL: bool = True
+    
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
     CELERY_BROKER_URL: str = "redis://localhost:6379/0"
@@ -124,6 +129,19 @@ class Settings(BaseSettings):
     DEFAULT_DECAY_RATE: float = 0.0065
     DEFAULT_HOME_ADVANTAGE: float = 0.35
     DEFAULT_RHO: float = -0.13
+    
+    # Model Training Windows (SP-FX Recommended)
+    # Component-specific look-back windows for optimal jackpot prediction
+    BASE_MODEL_WINDOW_YEARS: float = 4.0  # Team strength, home advantage (3-4 seasons)
+    DRAW_MODEL_WINDOW_YEARS: float = 2.0  # Draw-specific models (1.5-2.5 seasons)
+    ODDS_CALIBRATION_WINDOW_YEARS: float = 1.5  # Market calibration (1-2 seasons)
+    RECENCY_HALF_LIFE_YEARS: float = 1.0  # Exponential decay half-life (~1 season)
+    LEAGUE_PRIORS_WINDOW_YEARS: float = 5.0  # League-level aggregates (5-6 seasons)
+    H2H_WINDOW_YEARS: float = 2.0  # Head-to-head stats (≤ 2 seasons, capped at 24 months)
+    
+    # Pre-COVID data filter (optional)
+    EXCLUDE_PRE_COVID_DATA: bool = False  # Set to True to exclude data before 2020-08-01
+    PRE_COVID_CUTOFF_DATE: str = "2020-08-01"  # Date after which data is considered post-COVID
     
     # Constants
     MIN_VALID_ODDS: float = 1.01

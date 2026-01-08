@@ -1,0 +1,255 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9176,Oxford,9182,Accrington,1819,2,0,0.0,5.5
+9150,Peterboro,9178,Fleetwood Town,1819,2,1,0.5,1.5
+9169,Birmingham,9182,Accrington,1819,2,1,0.5,1.0
+9148,AFC Wimbledon,9156,Doncaster,1819,2,0,0.0,2.5
+9170,Bristol Rvs,9172,Shrewsbury,1819,2,2,1.0,2.0
+9163,Barnsley,9169,Birmingham,1819,2,0,0.0,4.0
+9182,Accrington,9189,Sunderland,1819,2,1,0.5,3.5
+9182,Accrington,9196,Scunthorpe,1819,2,1,0.5,2.0
+9163,Barnsley,9182,Accrington,1819,2,0,0.0,2.0
+9153,Bradford,9176,Oxford,1819,2,0,0.0,1.5
+9176,Oxford,9196,Scunthorpe,1819,2,1,0.5,4.5
+9176,Oxford,9189,Sunderland,1819,2,2,1.0,2.0
+9169,Birmingham,9197,Walsall,1819,2,0,0.0,3.0
+9180,Portsmouth,9193,Coventry,1819,2,0,0.0,2.0
+9180,Portsmouth,9182,Accrington,1819,2,2,1.0,2.0
+9169,Birmingham,9194,Southend,1819,2,0,0.0,2.0
+9153,Bradford,9170,Bristol Rvs,1819,2,1,0.5,2.5
+9153,Bradford,9194,Southend,1819,2,0,0.0,3.0
+9147,Luton,9192,Rochdale,1819,4,1,0.25,2.25
+9176,Oxford,9193,Coventry,1819,2,0,0.0,2.0
+9170,Bristol Rvs,9180,Portsmouth,1819,2,1,0.5,2.5
+9169,Birmingham,9192,Rochdale,1819,2,1,0.5,2.5
+9194,Southend,9197,Walsall,1819,2,1,0.5,2.5
+9147,Luton,9162,Plymouth,1819,4,2,0.5,3.25
+9189,Sunderland,9192,Rochdale,1819,2,0,0.0,4.0
+9151,Blackpool,9178,Fleetwood Town,1819,2,0,0.0,4.0
+9147,Luton,9154,Wycombe,1819,4,1,0.25,3.0
+9178,Fleetwood Town,9193,Coventry,1819,2,0,0.0,3.0
+9150,Peterboro,9189,Sunderland,1819,2,2,1.0,3.0
+9169,Birmingham,9172,Shrewsbury,1819,2,1,0.5,3.0
+9148,AFC Wimbledon,9180,Portsmouth,1819,2,0,0.0,3.0
+9147,Luton,9176,Oxford,1819,4,1,0.25,2.75
+9153,Bradford,9180,Portsmouth,1819,2,0,0.0,3.5
+9153,Bradford,9154,Wycombe,1819,2,1,0.5,1.5
+9163,Barnsley,9194,Southend,1819,2,0,0.0,2.0
+9148,AFC Wimbledon,9169,Birmingham,1819,2,0,0.0,3.5
+9176,Oxford,9192,Rochdale,1819,2,1,0.5,3.0
+9176,Oxford,9197,Walsall,1819,2,0,0.0,3.5
+9154,Wycombe,9174,Charlton,1819,2,0,0.0,3.0
+9170,Bristol Rvs,9192,Rochdale,1819,2,1,0.5,0.5
+9163,Barnsley,9192,Rochdale,1819,2,0,0.0,3.5
+9174,Charlton,9189,Sunderland,1819,2,1,0.5,2.5
+9147,Luton,9150,Peterboro,1819,4,0,0.0,3.75
+9153,Bradford,9162,Plymouth,1819,2,2,1.0,3.0
+9151,Blackpool,9169,Birmingham,1819,2,0,0.0,2.0
+9169,Birmingham,9193,Coventry,1819,2,2,1.0,2.0
+9174,Charlton,9182,Accrington,1819,2,1,0.5,1.5
+9147,Luton,9178,Fleetwood Town,1819,4,0,0.0,1.75
+9148,AFC Wimbledon,9151,Blackpool,1819,2,1,0.5,1.0
+9148,AFC Wimbledon,9176,Oxford,1819,2,1,0.5,1.5
+9154,Wycombe,9193,Coventry,1819,2,0,0.0,1.5
+9170,Bristol Rvs,9197,Walsall,1819,2,0,0.0,2.5
+9193,Coventry,9194,Southend,1819,2,0,0.0,2.0
+9169,Birmingham,9189,Sunderland,1819,2,0,0.0,5.5
+9156,Doncaster,9163,Barnsley,1819,2,2,1.0,1.0
+9154,Wycombe,9156,Doncaster,1819,2,0,0.0,4.0
+9154,Wycombe,9176,Oxford,1819,2,1,0.5,1.5
+9148,AFC Wimbledon,9150,Peterboro,1819,2,0,0.0,1.0
+9180,Portsmouth,9197,Walsall,1819,2,0,0.0,3.5
+9172,Shrewsbury,9194,Southend,1819,2,0,0.0,2.0
+9148,AFC Wimbledon,9182,Accrington,1819,2,1,0.5,2.5
+9150,Peterboro,9154,Wycombe,1819,2,0,0.0,3.5
+9150,Peterboro,9176,Oxford,1819,2,1,0.5,2.5
+9162,Plymouth,9170,Bristol Rvs,1819,2,2,1.0,2.0
+9162,Plymouth,9174,Charlton,1819,2,0,0.0,2.5
+9148,AFC Wimbledon,9189,Sunderland,1819,2,0,0.0,2.0
+9147,Luton,9147,Luton,1819,2,0,0.0,2.5
+9172,Shrewsbury,9174,Charlton,1819,2,0,0.0,3.0
+9150,Peterboro,9151,Blackpool,1819,2,1,0.5,2.5
+9172,Shrewsbury,9178,Fleetwood Town,1819,2,1,0.5,1.5
+9169,Birmingham,9196,Scunthorpe,1819,2,0,0.0,1.5
+9174,Charlton,9194,Southend,1819,2,1,0.5,2.5
+9193,Coventry,9197,Walsall,1819,2,0,0.0,3.0
+9154,Wycombe,9196,Scunthorpe,1819,2,0,0.0,3.0
+9178,Fleetwood Town,9182,Accrington,1819,2,1,0.5,1.5
+9174,Charlton,9176,Oxford,1819,2,1,0.5,2.5
+9150,Peterboro,9162,Plymouth,1819,2,0,0.0,3.5
+9150,Peterboro,9197,Walsall,1819,2,1,0.5,2.5
+9169,Birmingham,9176,Oxford,1819,2,0,0.0,1.0
+9151,Blackpool,9196,Scunthorpe,1819,2,1,0.5,0.5
+9147,Luton,9197,Walsall,1819,4,2,0.5,2.5
+9156,Doncaster,9196,Scunthorpe,1819,2,1,0.5,2.5
+9153,Bradford,9169,Birmingham,1819,2,1,0.5,3.0
+9154,Wycombe,9170,Bristol Rvs,1819,2,0,0.0,2.0
+9156,Doncaster,9192,Rochdale,1819,2,0,0.0,5.0
+9192,Rochdale,9194,Southend,1819,2,0,0.0,2.0
+9178,Fleetwood Town,9197,Walsall,1819,2,1,0.5,1.0
+9147,Luton,9196,Scunthorpe,1819,4,1,0.25,2.5
+9148,AFC Wimbledon,9197,Walsall,1819,2,0,0.0,2.5
+9150,Peterboro,9156,Doncaster,1819,2,1,0.5,3.0
+9147,Luton,9172,Shrewsbury,1819,4,1,0.25,3.25
+9148,AFC Wimbledon,9154,Wycombe,1819,2,0,0.0,3.0
+9162,Plymouth,9196,Scunthorpe,1819,2,0,0.0,5.0
+9151,Blackpool,9197,Walsall,1819,2,1,0.5,1.0
+9156,Doncaster,9162,Plymouth,1819,2,0,0.0,3.5
+9162,Plymouth,9180,Portsmouth,1819,2,1,0.5,2.5
+9174,Charlton,9178,Fleetwood Town,1819,2,1,0.5,0.5
+9150,Peterboro,9182,Accrington,1819,2,0,0.0,2.5
+9163,Barnsley,9176,Oxford,1819,2,1,0.5,4.0
+9154,Wycombe,9178,Fleetwood Town,1819,2,1,0.5,1.5
+9189,Sunderland,9194,Southend,1819,2,0,0.0,3.0
+9153,Bradford,9174,Charlton,1819,2,0,0.0,1.5
+9182,Accrington,9197,Walsall,1819,2,0,0.0,2.0
+9162,Plymouth,9182,Accrington,1819,2,0,0.0,4.5
+9180,Portsmouth,9194,Southend,1819,2,1,0.5,4.0
+9154,Wycombe,9189,Sunderland,1819,2,2,1.0,2.0
+9154,Wycombe,9163,Barnsley,1819,2,0,0.0,2.0
+9147,Luton,9193,Coventry,1819,4,1,0.25,2.25
+9156,Doncaster,9194,Southend,1819,2,0,0.0,4.0
+9162,Plymouth,9172,Shrewsbury,1819,2,0,0.0,2.5
+9156,Doncaster,9172,Shrewsbury,1819,2,1,0.5,1.0
+9163,Barnsley,9180,Portsmouth,1819,2,2,1.0,1.0
+9178,Fleetwood Town,9189,Sunderland,1819,2,1,0.5,2.5
+9156,Doncaster,9174,Charlton,1819,2,1,0.5,2.0
+9148,AFC Wimbledon,9178,Fleetwood Town,1819,2,0,0.0,2.0
+9196,Scunthorpe,9197,Walsall,1819,2,1,0.5,2.5
+9147,Luton,9151,Blackpool,1819,4,2,0.5,2.5
+9176,Oxford,9178,Fleetwood Town,1819,2,1,0.5,3.0
+9174,Charlton,9197,Walsall,1819,2,0,0.0,2.5
+9180,Portsmouth,9189,Sunderland,1819,2,1,0.5,3.0
+9148,AFC Wimbledon,9170,Bristol Rvs,1819,2,1,0.5,2.0
+9151,Blackpool,9182,Accrington,1819,2,1,0.5,2.5
+9170,Bristol Rvs,9174,Charlton,1819,2,1,0.5,2.0
+9172,Shrewsbury,9196,Scunthorpe,1819,2,1,0.5,1.5
+9163,Barnsley,9174,Charlton,1819,2,0,0.0,2.5
+9178,Fleetwood Town,9192,Rochdale,1819,2,2,1.0,3.0
+9180,Portsmouth,9192,Rochdale,1819,2,0,0.0,4.5
+9192,Rochdale,9197,Walsall,1819,2,0,0.0,3.0
+9154,Wycombe,9180,Portsmouth,1819,2,1,0.5,4.5
+9162,Plymouth,9189,Sunderland,1819,2,0,0.0,2.0
+9163,Barnsley,9178,Fleetwood Town,1819,2,0,0.0,5.0
+9172,Shrewsbury,9180,Portsmouth,1819,2,1,0.5,2.0
+9169,Birmingham,9174,Charlton,1819,2,0,0.0,2.0
+9178,Fleetwood Town,9180,Portsmouth,1819,2,0,0.0,4.0
+9153,Bradford,9182,Accrington,1819,2,0,0.0,3.5
+9156,Doncaster,9182,Accrington,1819,2,0,0.0,2.0
+9147,Luton,9170,Bristol Rvs,1819,4,1,0.25,1.25
+9169,Birmingham,9180,Portsmouth,1819,2,0,0.0,2.0
+9162,Plymouth,9169,Birmingham,1819,2,0,0.0,4.0
+9151,Blackpool,9163,Barnsley,1819,2,0,0.0,2.0
+9147,Luton,9153,Bradford,1819,4,1,0.25,2.0
+9169,Birmingham,9178,Fleetwood Town,1819,2,1,0.5,2.5
+9172,Shrewsbury,9176,Oxford,1819,2,0,0.0,4.0
+9192,Rochdale,9196,Scunthorpe,1819,2,1,0.5,5.0
+9151,Blackpool,9172,Shrewsbury,1819,2,2,1.0,
+9180,Portsmouth,9196,Scunthorpe,1819,2,0,0.0,2.5
+9151,Blackpool,9193,Coventry,1819,2,0,0.0,2.0
+9170,Bristol Rvs,9182,Accrington,1819,2,1,0.5,1.5
+9154,Wycombe,9162,Plymouth,1819,2,1,0.5,1.5
+9189,Sunderland,9196,Scunthorpe,1819,2,1,0.5,2.5
+9163,Barnsley,9189,Sunderland,1819,2,1,0.5,3.0
+9163,Barnsley,9170,Bristol Rvs,1819,2,0,0.0,2.0
+9172,Shrewsbury,9197,Walsall,1819,2,2,1.0,
+9163,Barnsley,9197,Walsall,1819,2,1,0.5,1.5
+9163,Barnsley,9196,Scunthorpe,1819,2,1,0.5,3.0
+9172,Shrewsbury,9193,Coventry,1819,2,1,0.5,1.5
+9189,Sunderland,9193,Coventry,1819,2,1,0.5,5.5
+9154,Wycombe,9172,Shrewsbury,1819,2,0,0.0,4.0
+9148,AFC Wimbledon,9194,Southend,1819,2,0,0.0,2.0
+9154,Wycombe,9169,Birmingham,1819,2,1,0.5,2.5
+9153,Bradford,9197,Walsall,1819,2,0,0.0,4.5
+9162,Plymouth,9178,Fleetwood Town,1819,2,0,0.0,2.5
+9150,Peterboro,9180,Portsmouth,1819,2,0,0.0,4.0
+9151,Blackpool,9153,Bradford,1819,2,0,0.0,5.0
+9169,Birmingham,9170,Bristol Rvs,1819,2,0,0.0,2.0
+9148,AFC Wimbledon,9153,Bradford,1819,2,1,0.5,0.5
+9154,Wycombe,9194,Southend,1819,2,0,0.0,3.5
+9182,Accrington,9194,Southend,1819,2,1,0.5,2.5
+9172,Shrewsbury,9192,Rochdale,1819,2,0,0.0,4.0
+9150,Peterboro,9194,Southend,1819,2,0,0.0,3.5
+9153,Bradford,9189,Sunderland,1819,2,0,0.0,2.0
+9156,Doncaster,9189,Sunderland,1819,2,0,0.0,1.5
+9163,Barnsley,9193,Coventry,1819,2,1,0.5,2.5
+9150,Peterboro,9153,Bradford,1819,2,1,0.5,3.0
+9153,Bradford,9163,Barnsley,1819,2,0,0.0,2.5
+9193,Coventry,9196,Scunthorpe,1819,2,0,0.0,3.0
+9163,Barnsley,9172,Shrewsbury,1819,2,0,0.0,3.5
+9148,AFC Wimbledon,9163,Barnsley,1819,2,1,0.5,2.5
+9151,Blackpool,9162,Plymouth,1819,2,1,0.5,2.5
+9148,AFC Wimbledon,9192,Rochdale,1819,2,1,0.5,4.5
+9156,Doncaster,9180,Portsmouth,1819,2,2,1.0,1.0
+9154,Wycombe,9192,Rochdale,1819,2,0,0.0,2.0
+9147,Luton,9174,Charlton,1819,4,1,0.25,3.5
+9170,Bristol Rvs,9189,Sunderland,1819,2,0,0.0,2.5
+9151,Blackpool,9192,Rochdale,1819,2,1,0.5,3.5
+9150,Peterboro,9192,Rochdale,1819,2,0,0.0,4.0
+9178,Fleetwood Town,9194,Southend,1819,2,1,0.5,2.5
+9192,Rochdale,9193,Coventry,1819,2,0,0.0,1.0
+9194,Southend,9196,Scunthorpe,1819,2,0,0.0,3.5
+9156,Doncaster,9178,Fleetwood Town,1819,2,0,0.0,3.5
+9176,Oxford,9194,Southend,1819,2,1,0.5,0.5
+9154,Wycombe,9182,Accrington,1819,2,0,0.0,3.5
+9170,Bristol Rvs,9196,Scunthorpe,1819,2,0,0.0,2.0
+9172,Shrewsbury,9189,Sunderland,1819,2,1,0.5,2.0
+9176,Oxford,9180,Portsmouth,1819,2,0,0.0,4.0
+9147,Luton,9180,Portsmouth,1819,4,1,0.25,3.25
+9151,Blackpool,9174,Charlton,1819,2,1,0.5,1.5
+9156,Doncaster,9193,Coventry,1819,2,0,0.0,2.5
+9151,Blackpool,9176,Oxford,1819,2,0,0.0,1.5
+9189,Sunderland,9197,Walsall,1819,2,1,0.5,3.5
+9148,AFC Wimbledon,9196,Scunthorpe,1819,2,0,0.0,4.0
+9156,Doncaster,9169,Birmingham,1819,2,1,0.5,5.0
+9156,Doncaster,9197,Walsall,1819,2,0,0.0,4.5
+9148,AFC Wimbledon,9172,Shrewsbury,1819,2,1,0.5,1.5
+9153,Bradford,9178,Fleetwood Town,1819,2,0,0.0,2.0
+9170,Bristol Rvs,9194,Southend,1819,2,0,0.0,2.0
+9147,Luton,9169,Birmingham,1819,4,1,0.25,4.25
+9172,Shrewsbury,9182,Accrington,1819,2,0,0.0,2.0
+9162,Plymouth,9163,Barnsley,1819,2,1,0.5,2.5
+9150,Peterboro,9174,Charlton,1819,2,1,0.5,0.5
+9150,Peterboro,9163,Barnsley,1819,2,0,0.0,3.0
+9150,Peterboro,9170,Bristol Rvs,1819,2,1,0.5,3.5
+9151,Blackpool,9154,Wycombe,1819,2,2,1.0,2.0
+9174,Charlton,9196,Scunthorpe,1819,2,0,0.0,6.0
+9151,Blackpool,9180,Portsmouth,1819,2,0,0.0,2.0
+9170,Bristol Rvs,9176,Oxford,1819,2,1,0.5,1.0
+9182,Accrington,9193,Coventry,1819,2,1,0.5,1.5
+9170,Bristol Rvs,9178,Fleetwood Town,1819,2,1,0.5,1.5
+9148,AFC Wimbledon,9174,Charlton,1819,2,0,0.0,2.5
+9174,Charlton,9180,Portsmouth,1819,2,0,0.0,3.0
+9150,Peterboro,9172,Shrewsbury,1819,2,1,0.5,3.5
+9151,Blackpool,9156,Doncaster,1819,2,1,0.5,2.0
+9153,Bradford,9192,Rochdale,1819,2,0,0.0,3.0
+9182,Accrington,9192,Rochdale,1819,2,0,0.0,1.0
+9153,Bradford,9196,Scunthorpe,1819,2,0,0.0,3.5
+9150,Peterboro,9193,Coventry,1819,2,1,0.5,2.5
+9162,Plymouth,9194,Southend,1819,2,1,0.5,3.5
+9162,Plymouth,9197,Walsall,1819,2,0,0.0,3.0
+9156,Doncaster,9176,Oxford,1819,2,2,1.0,4.0
+9170,Bristol Rvs,9193,Coventry,1819,2,1,0.5,2.0
+9162,Plymouth,9193,Coventry,1819,2,0,0.0,2.0
+9147,Luton,9194,Southend,1819,4,0,0.0,2.75
+9153,Bradford,9172,Shrewsbury,1819,2,0,0.0,4.0
+9147,Luton,9189,Sunderland,1819,4,3,0.75,2.25
+9148,AFC Wimbledon,9193,Coventry,1819,2,2,1.0,1.0
+9151,Blackpool,9189,Sunderland,1819,2,1,0.5,1.5
+9151,Blackpool,9170,Bristol Rvs,1819,2,0,0.0,3.5
+9154,Wycombe,9197,Walsall,1819,2,0,0.0,3.0
+9150,Peterboro,9169,Birmingham,1819,2,0,0.0,4.0
+9147,Luton,9182,Accrington,1819,4,1,0.25,4.25
+9162,Plymouth,9176,Oxford,1819,2,0,0.0,2.5
+9153,Bradford,9156,Doncaster,1819,2,0,0.0,2.0
+9147,Luton,9148,AFC Wimbledon,1819,4,1,0.25,2.75
+9148,AFC Wimbledon,9162,Plymouth,1819,2,0,0.0,2.0
+9162,Plymouth,9192,Rochdale,1819,2,0,0.0,4.5
+9147,Luton,9156,Doncaster,1819,4,1,0.25,3.0
+9178,Fleetwood Town,9196,Scunthorpe,1819,2,0,0.0,3.0
+9150,Peterboro,9196,Scunthorpe,1819,2,0,0.0,2.0
+9153,Bradford,9193,Coventry,1819,2,0,0.0,4.0
+9156,Doncaster,9170,Bristol Rvs,1819,2,0,0.0,4.5
+9174,Charlton,9192,Rochdale,1819,2,0,0.0,2.5
+9151,Blackpool,9194,Southend,1819,2,1,0.5,3.5
+9147,Luton,9163,Barnsley,1819,4,2,0.5,2.25
+9174,Charlton,9193,Coventry,1819,2,0,0.0,3.0

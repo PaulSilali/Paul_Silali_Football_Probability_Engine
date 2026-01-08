@@ -1,0 +1,107 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8971,AEK,8982,Apollon,1819,2,0,0.0,2.5
+8973,PAOK,8979,Lamia,1819,2,0,0.0,2.0
+8970,Atromitos,8980,Giannina,1819,2,0,0.0,1.5
+8980,Giannina,8981,Ionikos,1819,2,0,0.0,3.5
+8973,PAOK,8983,Xanthi,1819,2,0,0.0,2.5
+8968,Asteras Tripolis,8973,PAOK,1819,2,0,0.0,2.0
+8967,Olympiakos,8971,AEK,1819,2,1,0.5,3.5
+8968,Asteras Tripolis,8976,OFI Crete,1819,2,1,0.5,2.5
+8973,PAOK,8976,OFI Crete,1819,2,0,0.0,4.0
+8968,Asteras Tripolis,8980,Giannina,1819,2,1,0.5,0.5
+8974,Levadeiakos,8983,Xanthi,1819,2,0,0.0,2.0
+8967,Olympiakos,8977,Panathinaikos,1819,1,1,1.0,2.0
+8971,AEK,8976,OFI Crete,1819,2,0,0.0,2.0
+8969,Panetolikos,8979,Lamia,1819,2,1,0.5,3.0
+8968,Asteras Tripolis,8983,Xanthi,1819,2,1,0.5,0.5
+8965,Aris,8970,Atromitos,1819,4,0,0.0,2.75
+8968,Asteras Tripolis,8969,Panetolikos,1819,2,1,0.5,2.5
+8969,Panetolikos,8977,Panathinaikos,1819,2,0,0.0,2.5
+8974,Levadeiakos,8981,Ionikos,1819,2,1,0.5,2.5
+8981,Ionikos,8983,Xanthi,1819,2,0,0.0,1.0
+8971,AEK,8981,Ionikos,1819,2,0,0.0,3.0
+8968,Asteras Tripolis,8974,Levadeiakos,1819,2,1,0.5,1.0
+8970,Atromitos,8974,Levadeiakos,1819,2,0,0.0,1.5
+8974,Levadeiakos,8980,Giannina,1819,2,0,0.0,2.0
+8968,Asteras Tripolis,8977,Panathinaikos,1819,2,1,0.5,1.5
+8965,Aris,8980,Giannina,1819,4,1,0.25,1.0
+8976,OFI Crete,8977,Panathinaikos,1819,2,0,0.0,4.0
+8976,OFI Crete,8982,Apollon,1819,2,2,1.0,
+8979,Lamia,8981,Ionikos,1819,2,0,0.0,1.0
+8969,Panetolikos,8976,OFI Crete,1819,2,0,0.0,3.0
+8970,Atromitos,8979,Lamia,1819,2,0,0.0,2.0
+8977,Panathinaikos,8981,Ionikos,1819,2,0,0.0,1.5
+8971,AEK,8974,Levadeiakos,1819,2,0,0.0,2.0
+8965,Aris,8977,Panathinaikos,1819,4,2,0.5,2.5
+8979,Lamia,8980,Giannina,1819,2,2,1.0,1.0
+8977,Panathinaikos,8980,Giannina,1819,2,0,0.0,2.0
+8967,Olympiakos,8981,Ionikos,1819,2,0,0.0,2.5
+8967,Olympiakos,8969,Panetolikos,1819,2,0,0.0,4.0
+8976,OFI Crete,8980,Giannina,1819,2,1,0.5,1.5
+8970,Atromitos,8977,Panathinaikos,1819,2,0,0.0,1.5
+8976,OFI Crete,8983,Xanthi,1819,2,1,0.5,1.5
+8973,PAOK,8980,Giannina,1819,2,0,0.0,2.5
+8970,Atromitos,8983,Xanthi,1819,2,1,0.5,1.5
+8977,Panathinaikos,8982,Apollon,1819,2,0,0.0,5.0
+8967,Olympiakos,8968,Asteras Tripolis,1819,2,0,0.0,2.5
+8965,Aris,8971,AEK,1819,4,1,0.25,1.75
+8981,Ionikos,8982,Apollon,1819,2,0,0.0,1.5
+8965,Aris,8968,Asteras Tripolis,1819,4,0,0.0,2.5
+8970,Atromitos,8971,AEK,1819,2,0,0.0,1.5
+8965,Aris,8969,Panetolikos,1819,4,1,0.25,2.75
+8979,Lamia,8982,Apollon,1819,2,0,0.0,3.0
+8971,AEK,8979,Lamia,1819,2,1,0.5,3.0
+8967,Olympiakos,8980,Giannina,1819,2,0,0.0,4.0
+8969,Panetolikos,8973,PAOK,1819,2,0,0.0,3.0
+8965,Aris,8967,Olympiakos,1819,4,0,0.0,3.25
+8982,Apollon,8983,Xanthi,1819,2,0,0.0,1.5
+8973,PAOK,8977,Panathinaikos,1819,2,0,0.0,2.0
+8973,PAOK,8981,Ionikos,1819,2,0,0.0,2.0
+8967,Olympiakos,8976,OFI Crete,1819,2,0,0.0,3.5
+8979,Lamia,8983,Xanthi,1819,2,2,1.0,
+8969,Panetolikos,8983,Xanthi,1819,2,2,1.0,1.0
+8967,Olympiakos,8979,Lamia,1819,2,0,0.0,3.5
+8968,Asteras Tripolis,8981,Ionikos,1819,2,0,0.0,2.0
+8968,Asteras Tripolis,8982,Apollon,1819,2,0,0.0,2.0
+8967,Olympiakos,8973,PAOK,1819,2,0,0.0,2.5
+8971,AEK,8973,PAOK,1819,2,1,0.5,2.0
+8974,Levadeiakos,8982,Apollon,1819,2,1,0.5,0.5
+8965,Aris,8976,OFI Crete,1819,4,2,0.5,1.75
+8965,Aris,8982,Apollon,1819,4,0,0.0,3.0
+8974,Levadeiakos,8976,OFI Crete,1819,2,0,0.0,2.5
+8965,Aris,8965,Aris,1819,2,1,0.5,1.0
+8970,Atromitos,8982,Apollon,1819,2,1,0.5,1.5
+8974,Levadeiakos,8977,Panathinaikos,1819,2,1,0.5,1.5
+8973,PAOK,8974,Levadeiakos,1819,2,0,0.0,4.0
+8965,Aris,8974,Levadeiakos,1819,4,1,0.25,1.75
+8977,Panathinaikos,8983,Xanthi,1819,2,1,0.5,2.5
+8969,Panetolikos,8982,Apollon,1819,2,0,0.0,2.0
+8969,Panetolikos,8974,Levadeiakos,1819,2,0,0.0,2.0
+8967,Olympiakos,8982,Apollon,1819,2,0,0.0,1.5
+8971,AEK,8983,Xanthi,1819,2,0,0.0,3.0
+8969,Panetolikos,8971,AEK,1819,2,0,0.0,3.5
+8980,Giannina,8982,Apollon,1819,2,0,0.0,2.0
+8965,Aris,8981,Ionikos,1819,4,1,0.25,2.5
+8967,Olympiakos,8970,Atromitos,1819,2,0,0.0,3.0
+8976,OFI Crete,8981,Ionikos,1819,2,2,1.0,3.0
+8977,Panathinaikos,8979,Lamia,1819,2,0,0.0,2.5
+8967,Olympiakos,8974,Levadeiakos,1819,2,0,0.0,1.5
+8965,Aris,8979,Lamia,1819,4,0,0.0,2.5
+8969,Panetolikos,8981,Ionikos,1819,2,0,0.0,4.0
+8970,Atromitos,8976,OFI Crete,1819,2,1,0.5,2.0
+8980,Giannina,8983,Xanthi,1819,2,1,0.5,1.5
+8968,Asteras Tripolis,8970,Atromitos,1819,2,1,0.5,3.5
+8970,Atromitos,8981,Ionikos,1819,2,1,0.5,3.5
+8968,Asteras Tripolis,8971,AEK,1819,2,0,0.0,2.0
+8976,OFI Crete,8979,Lamia,1819,2,1,0.5,3.0
+8965,Aris,8983,Xanthi,1819,4,1,0.25,3.25
+8967,Olympiakos,8983,Xanthi,1819,2,1,0.5,3.0
+8970,Atromitos,8973,PAOK,1819,2,1,0.5,2.5
+8974,Levadeiakos,8979,Lamia,1819,2,1,0.5,3.5
+8968,Asteras Tripolis,8979,Lamia,1819,2,2,1.0,
+8969,Panetolikos,8980,Giannina,1819,2,0,0.0,1.5
+8973,PAOK,8982,Apollon,1819,2,0,0.0,4.0
+8965,Aris,8973,PAOK,1819,4,2,0.5,2.5
+8969,Panetolikos,8970,Atromitos,1819,2,1,0.5,3.5
+8971,AEK,8977,Panathinaikos,1819,2,2,1.0,
+8971,AEK,8980,Giannina,1819,2,0,0.0,3.0

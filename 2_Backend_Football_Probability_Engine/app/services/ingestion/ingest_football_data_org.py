@@ -7,15 +7,21 @@ This service handles leagues that are not available on football-data.co.uk.
 import requests
 from sqlalchemy.orm import Session
 from typing import Dict, List, Optional
-from datetime import datetime, date
+from datetime import datetime, date, time as dt_time
 import logging
 import time
+import urllib3
 
-from app.db.models import League, Team, Match, DataSource, IngestionLog
+from app.db.models import League, Team, Match, DataSource, IngestionLog, MatchResult
 from app.services.team_resolver import resolve_team_safe
 from app.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Disable SSL warnings if verification is disabled
+# Use getattr with default True to handle cases where attribute might not exist yet
+if not getattr(settings, 'VERIFY_SSL', True):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Mapping of our league codes to Football-Data.org competition IDs
 # Football-Data.org uses numeric competition IDs
@@ -124,7 +130,8 @@ class FootballDataOrgService:
         url = f"{self.base_url}{endpoint}"
         
         try:
-            response = requests.get(url, headers=self.headers, params=params, timeout=30)
+            verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+            response = requests.get(url, headers=self.headers, params=params, timeout=30, verify=verify_ssl)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.HTTPError as e:
@@ -132,7 +139,8 @@ class FootballDataOrgService:
                 logger.warning("Rate limit exceeded. Waiting 60 seconds...")
                 time.sleep(60)
                 # Retry once
-                response = requests.get(url, headers=self.headers, params=params, timeout=30)
+                verify_ssl = getattr(settings, 'VERIFY_SSL', True)
+                response = requests.get(url, headers=self.headers, params=params, timeout=30, verify=verify_ssl)
                 response.raise_for_status()
                 return response.json()
             elif response.status_code == 403:
@@ -330,21 +338,109 @@ class FootballDataOrgService:
                     Match.match_date == match_date
                 ).first()
                 
+                # Extract additional data if available
+                half_time = score.get('halfTime', {})
+                ht_home_goals = half_time.get('home')
+                ht_away_goals = half_time.get('away')
+                # Ensure both are NULL together (constraint requirement)
+                if ht_home_goals is None or ht_away_goals is None:
+                    ht_home_goals = None
+                    ht_away_goals = None
+                
+                # Extract match metadata
+                match_time = None
+                if 'utcDate' in match_data:
+                    try:
+                        dt = datetime.fromisoformat(match_data['utcDate'].replace('Z', '+00:00'))
+                        match_time = dt.time()  # Extract time object (datetime.time)
+                    except:
+                        pass
+                
+                venue = match_data.get('venue', {}).get('name') if isinstance(match_data.get('venue'), dict) else None
+                matchday = match_data.get('matchday')
+                round_name = match_data.get('stage', {}).get('name') if isinstance(match_data.get('stage'), dict) else None
+                
+                # Extract cards/penalties if available (Football-Data.org API may have this)
+                hy = None
+                ay = None
+                hr = None
+                ar = None
+                home_penalties = None
+                away_penalties = None
+                referee_id = None
+                
+                # Determine result
+                result = None
+                if home_goals is not None and away_goals is not None:
+                    if home_goals > away_goals:
+                        result = MatchResult.H
+                    elif home_goals < away_goals:
+                        result = MatchResult.A
+                    else:
+                        result = MatchResult.D
+                
+                # Determine season from match_date
+                season_str = None
+                if season:
+                    # Convert '2324' to '2023-24'
+                    if len(season) == 4:
+                        year_start = 2000 + int(season[:2])
+                        season_str = f"{year_start}-{season[2:]}"
+                elif match_date:
+                    # Fallback: extract from match_date
+                    year = match_date.year
+                    month = match_date.month
+                    if month >= 8:  # Season starts in August
+                        season_str = f"{year}-{str(year + 1)[2:]}"
+                    else:
+                        season_str = f"{year - 1}-{str(year)[2:]}"
+                
                 if existing_match:
                     # Update existing match
                     if home_goals is not None and away_goals is not None:
                         existing_match.home_goals = home_goals
                         existing_match.away_goals = away_goals
+                    if result:
+                        existing_match.result = result
+                    if ht_home_goals is not None and ht_away_goals is not None:
+                        existing_match.ht_home_goals = ht_home_goals
+                        existing_match.ht_away_goals = ht_away_goals
+                    if match_time:
+                        existing_match.match_time = match_time
+                    if venue:
+                        existing_match.venue = venue
+                    if matchday:
+                        existing_match.matchday = matchday
+                    if round_name:
+                        existing_match.round_name = round_name
+                    if season_str:
+                        existing_match.season = season_str
                     stats["updated"] += 1
                 else:
                     # Create new match
                     new_match = Match(
                         league_id=league.id,
+                        season=season_str or f"{match_date.year}-{str(match_date.year + 1)[2:]}",
+                        match_date=match_date,
                         home_team_id=home_team.id,
                         away_team_id=away_team.id,
-                        match_date=match_date,
                         home_goals=home_goals,
-                        away_goals=away_goals
+                        away_goals=away_goals,
+                        result=result or MatchResult.D,  # Default to draw if no result
+                        ht_home_goals=ht_home_goals,
+                        ht_away_goals=ht_away_goals,
+                        match_time=match_time,
+                        venue=venue,
+                        matchday=matchday,
+                        round_name=round_name,
+                        hy=hy,
+                        ay=ay,
+                        hr=hr,
+                        ar=ar,
+                        home_penalties=home_penalties,
+                        away_penalties=away_penalties,
+                        referee_id=referee_id,
+                        source='football-data.org'
                     )
                     self.db.add(new_match)
                     stats["inserted"] += 1

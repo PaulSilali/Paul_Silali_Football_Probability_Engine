@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { Info, Download, FileText, Calculator, TrendingUp, Target, Zap, Scale, Users, AlertTriangle, CheckCircle, HelpCircle, Loader2, Save, FolderOpen, X, Trophy } from 'lucide-react';
+import { Info, Download, FileText, Calculator, TrendingUp, Target, Zap, Scale, Users, AlertTriangle, CheckCircle, HelpCircle, Loader2, Save, FolderOpen, X, Trophy, Sparkles } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
 import { ModernCard } from '@/components/ui/modern-card';
@@ -38,6 +38,7 @@ import { Badge } from '@/components/ui/badge';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { exportProbabilities } from '@/lib/export';
 import { AccumulatorCalculator } from '@/components/AccumulatorCalculator';
+import { InjuryInput } from '@/components/InjuryInput';
 import { useToast } from '@/hooks/use-toast';
 import apiClient from '@/services/api';
 import type { FixtureProbability } from '@/types';
@@ -200,9 +201,60 @@ const probabilitySets: Record<string, {
       { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.14, awayWinProbability: 23.44, confidenceLow: 47.9, confidenceHigh: 54.1 },
     ],
   },
+  H: {
+    name: 'Set H - Market Consensus Draw',
+    description: 'Set B + Draw adjusted by average market odds (70% base + 30% market).',
+    icon: Calculator,
+    useCase: 'Market-informed draw coverage',
+    guidance: 'Uses market consensus to fine-tune draw probabilities. Best when you trust multiple market sources and want balanced draw coverage.',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 51.00, drawProbability: 27.75, awayWinProbability: 21.25, confidenceLow: 41.4, confidenceHigh: 47.6 },
+      { ...baseFixtures[1], homeWinProbability: 33.46, drawProbability: 28.49, awayWinProbability: 38.05, confidenceLow: 29.9, confidenceHigh: 36.1 },
+      { ...baseFixtures[2], homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51, confidenceLow: 36.9, confidenceHigh: 43.1 },
+      { ...baseFixtures[3], homeWinProbability: 47.16, drawProbability: 27.79, awayWinProbability: 25.05, confidenceLow: 43.9, confidenceHigh: 50.1 },
+      { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.14, awayWinProbability: 23.44, confidenceLow: 47.9, confidenceHigh: 54.1 },
+    ],
+  },
+  I: {
+    name: 'Set I - Formula-Based Draw',
+    description: 'Set A + Draw adjusted by formula considering entropy, spread, and market divergence.',
+    icon: Calculator,
+    useCase: 'Balanced optimization',
+    guidance: 'Intelligently adjusts draw probabilities based on match characteristics (entropy, home-away spread, market divergence). Higher entropy and lower spread boost draw probability.',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 48.00, drawProbability: 31.86, awayWinProbability: 20.14, confidenceLow: 42.1, confidenceHigh: 48.4 },
+      { ...baseFixtures[1], homeWinProbability: 32.15, drawProbability: 28.45, awayWinProbability: 39.40, confidenceLow: 29.2, confidenceHigh: 35.1 },
+      { ...baseFixtures[2], homeWinProbability: 41.67, drawProbability: 29.33, awayWinProbability: 29.00, confidenceLow: 38.5, confidenceHigh: 44.8 },
+      { ...baseFixtures[3], homeWinProbability: 48.92, drawProbability: 26.54, awayWinProbability: 24.54, confidenceLow: 45.8, confidenceHigh: 52.0 },
+      { ...baseFixtures[4], homeWinProbability: 52.18, drawProbability: 25.12, awayWinProbability: 22.70, confidenceLow: 49.1, confidenceHigh: 55.3 },
+    ],
+  },
+  J: {
+    name: 'Set J - System-Selected Draw Strategy',
+    description: 'Set G + Draw adjusted by system-selected optimal strategy (adaptive 1.05x to 1.25x).',
+    icon: Calculator,
+    useCase: 'Adaptive intelligent coverage',
+    guidance: 'The system automatically selects the best draw adjustment strategy based on match context. Combines ensemble approach (Set G) with intelligent draw optimization for maximum coverage.',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 51.00, drawProbability: 28.50, awayWinProbability: 20.50, confidenceLow: 41.4, confidenceHigh: 47.6 },
+      { ...baseFixtures[1], homeWinProbability: 33.46, drawProbability: 29.20, awayWinProbability: 37.34, confidenceLow: 29.9, confidenceHigh: 36.1 },
+      { ...baseFixtures[2], homeWinProbability: 40.45, drawProbability: 30.50, awayWinProbability: 29.05, confidenceLow: 36.9, confidenceHigh: 43.1 },
+      { ...baseFixtures[3], homeWinProbability: 47.16, drawProbability: 28.30, awayWinProbability: 24.54, confidenceLow: 43.9, confidenceHigh: 50.1 },
+      { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.80, awayWinProbability: 22.78, confidenceLow: 47.9, confidenceHigh: 54.1 },
+    ],
+  },
 };
 
-const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G'] as const;
+const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'] as const;
 
 type Selection = '1' | 'X' | '2' | null;
 
@@ -226,6 +278,76 @@ export default function ProbabilityOutput() {
   const [savedResults, setSavedResults] = useState<any[]>([]);
   const [loadingSavedResults, setLoadingSavedResults] = useState(false);
   const [scores, setScores] = useState<Record<string, { correct: number; total: number }>>({});
+
+  // State for pipeline metadata
+  const [pipelineMetadata, setPipelineMetadata] = useState<any>(null);
+  const [pipelineStatusChecked, setPipelineStatusChecked] = useState(false);
+
+  // State for injury input dialogs
+  const [injuryDialogOpen, setInjuryDialogOpen] = useState<{
+    open: boolean;
+    fixtureId: number | null;
+    teamId: number | null;
+    teamName: string;
+    isHome: boolean;
+  }>({
+    open: false,
+    fixtureId: null,
+    teamId: null,
+    teamName: '',
+    isHome: true,
+  });
+
+  // Check pipeline status when loading jackpot
+  useEffect(() => {
+    const checkPipelineStatus = async () => {
+      if (!jackpotId) return;
+      
+      try {
+        const jackpotResponse = await apiClient.getJackpot(jackpotId);
+        if (jackpotResponse.success && jackpotResponse.data?.pipelineMetadata) {
+          setPipelineMetadata(jackpotResponse.data.pipelineMetadata);
+          
+          // Check if data is still missing (only if pipeline was run)
+          if (jackpotResponse.data.pipelineMetadata.pipeline_run) {
+            try {
+              const allTeamNames = jackpotResponse.data.fixtures?.flatMap((f: any) => [
+                f.homeTeam, f.awayTeam
+              ]).filter((name: string) => name && name.trim().length >= 2) || [];
+              
+              if (allTeamNames.length > 0) {
+                const statusResponse = await apiClient.checkTeamsStatus(allTeamNames, undefined);
+                
+                if (statusResponse.success && statusResponse.data) {
+                  const stillMissing = statusResponse.data.missing_teams.length > 0;
+                  const stillUntrained = statusResponse.data.untrained_teams.length > 0;
+                  
+                  if (stillMissing || stillUntrained) {
+                    toast({
+                      title: 'Pipeline Status Warning',
+                      description: stillMissing 
+                        ? `${statusResponse.data.missing_teams.length} teams still missing. Download may not have been successful.`
+                        : `${statusResponse.data.untrained_teams.length} teams still untrained. Model training may not have been successful.`,
+                      variant: 'destructive',
+                      duration: 10000,
+                    });
+                  }
+                }
+              }
+            } catch (error) {
+              console.error('Error checking pipeline status:', error);
+            }
+          }
+        }
+        setPipelineStatusChecked(true);
+      } catch (error) {
+        console.error('Error checking pipeline status:', error);
+        setPipelineStatusChecked(true);
+      }
+    };
+    
+    checkPipelineStatus();
+  }, [jackpotId, toast]);
 
   // Fetch probabilities from API
   useEffect(() => {
@@ -267,8 +389,11 @@ export default function ProbabilityOutput() {
               allowedForDecisionSupport: setProbs[0]?.allowedForDecisionSupport ?? probabilitySets[setId]?.allowedForDecisionSupport ?? true,
               probabilities: setProbs.map((prob: any, idx: number) => ({
                 fixtureId: fixtures[idx]?.id || String(idx + 1),
+                fixtureIdNum: fixtures[idx]?.id ? parseInt(fixtures[idx].id) : null,  // Numeric ID for API
                 homeTeam: fixtures[idx]?.homeTeam || '',
                 awayTeam: fixtures[idx]?.awayTeam || '',
+                homeTeamId: fixtures[idx]?.homeTeamId || fixtures[idx]?.home_team_id || null,
+                awayTeamId: fixtures[idx]?.awayTeamId || fixtures[idx]?.away_team_id || null,
                 odds: fixtures[idx]?.odds || { home: 2.0, draw: 3.0, away: 2.5 },
                 homeWinProbability: prob.homeWinProbability || 0,
                 drawProbability: prob.drawProbability || 0,
@@ -366,8 +491,11 @@ export default function ProbabilityOutput() {
                     allowedForDecisionSupport: setProbs[0]?.allowedForDecisionSupport ?? probabilitySets[setId]?.allowedForDecisionSupport ?? true,
                     probabilities: setProbs.map((prob: any, idx: number) => ({
                       fixtureId: fixtures[idx]?.id || String(idx + 1),
+                      fixtureIdNum: fixtures[idx]?.id ? parseInt(fixtures[idx].id) : null,  // Numeric ID for API
                       homeTeam: fixtures[idx]?.homeTeam || '',
                       awayTeam: fixtures[idx]?.awayTeam || '',
+                      homeTeamId: fixtures[idx]?.homeTeamId || fixtures[idx]?.home_team_id || null,
+                      awayTeamId: fixtures[idx]?.awayTeamId || fixtures[idx]?.away_team_id || null,
                       odds: fixtures[idx]?.odds || { home: 2.0, draw: 3.0, away: 2.5 },
                       homeWinProbability: prob.homeWinProbability || 0,
                       drawProbability: prob.drawProbability || 0,
@@ -452,7 +580,7 @@ export default function ProbabilityOutput() {
       const currentFixtureIds = currentProbs.map((p: any) => p.fixtureId);
       
       // Try to get selections from active set first, then Set B, then any set
-      const setPriority = [activeSet, 'B', 'A', 'C', 'D', 'E', 'F', 'G'];
+      const setPriority = [activeSet, 'B', 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
       
       for (const setId of setPriority) {
         if (lastSavedResult.selections[setId]) {
@@ -576,7 +704,7 @@ export default function ProbabilityOutput() {
     if (Object.keys(setsToUse).length === 0) return;
     
     const newScores: Record<string, { correct: number; total: number }> = {};
-    const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+    const setKeysForScoring = Object.keys(setsToUse).length > 0 ? Object.keys(setsToUse) : Array.from(setKeys);
     
     // Get saved selections per set from latest saved result
     const savedSelectionsPerSet: Record<string, Record<string, Selection>> = {};
@@ -590,7 +718,7 @@ export default function ProbabilityOutput() {
       });
     }
     
-    setKeys.forEach(setId => {
+    setKeysForScoring.forEach(setId => {
       const set = setsToUse[setId];
       if (!set) return;
       
@@ -743,10 +871,10 @@ export default function ProbabilityOutput() {
     try {
       // Build selections object per set
       const selectionsPerSet: Record<string, Record<string, string>> = {};
-      const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+      const setKeysForSaving = Object.keys(setsToUse).length > 0 ? Object.keys(setsToUse) : Array.from(setKeys);
       
       console.log('Building selections per set...');
-      setKeys.forEach(setId => {
+      setKeysForSaving.forEach(setId => {
         const setSelections: Record<string, string> = {};
         const setProbs = setsToUse[setId]?.probabilities || [];
         console.log(`Set ${setId}: ${setProbs.length} probabilities`);
@@ -991,7 +1119,90 @@ export default function ProbabilityOutput() {
       description={`Calculated probabilities for the current jackpot — 7 probability sets (A-G)${modelVersion ? ` • Model: ${modelVersion}` : ''}`}
       icon={<Calculator className="h-6 w-6" />}
     >
-        <div className="flex items-center gap-2">
+      {/* Pipeline Status Banner */}
+      {pipelineMetadata && pipelineMetadata.pipeline_run && (
+        <Alert className={`mb-4 ${
+          pipelineMetadata.status === 'completed' && pipelineMetadata.model_trained
+            ? 'border-green-500/50 bg-green-500/10'
+            : pipelineMetadata.status === 'failed' || pipelineMetadata.errors?.length > 0
+            ? 'border-red-500/50 bg-red-500/10'
+            : 'border-blue-500/50 bg-blue-500/10'
+        }`}>
+          <div className="flex items-start gap-3">
+            {pipelineMetadata.status === 'completed' && pipelineMetadata.model_trained ? (
+              <CheckCircle className="h-5 w-5 text-green-500 mt-0.5" />
+            ) : pipelineMetadata.status === 'failed' ? (
+              <AlertTriangle className="h-5 w-5 text-red-500 mt-0.5" />
+            ) : (
+              <Info className="h-5 w-5 text-blue-500 mt-0.5" />
+            )}
+            <div className="flex-1 space-y-2">
+              <AlertTitle className="font-semibold">
+                Pipeline Execution Summary
+              </AlertTitle>
+              <AlertDescription className="space-y-1 text-sm">
+                <div className="flex items-center gap-4 flex-wrap">
+                  {pipelineMetadata.teams_created?.length > 0 && (
+                    <div className="flex items-center gap-1">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      <span><strong>{pipelineMetadata.teams_created.length}</strong> teams created</span>
+                    </div>
+                  )}
+                  {pipelineMetadata.data_downloaded && (
+                    <div className="flex items-center gap-1">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      <span>
+                        <strong>Data downloaded:</strong> {pipelineMetadata.download_stats?.total_matches || 0} matches
+                        {pipelineMetadata.download_stats?.leagues_downloaded?.length > 0 && (
+                          <span className="text-muted-foreground ml-1">
+                            ({pipelineMetadata.download_stats.leagues_downloaded.map((l: any) => l.league_code).join(', ')})
+                          </span>
+                        )}
+                      </span>
+                    </div>
+                  )}
+                  {pipelineMetadata.model_trained && (
+                    <div className="flex items-center gap-1">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      <span>
+                        <strong>Model trained:</strong> {pipelineMetadata.training_stats?.model_version || 'N/A'}
+                      </span>
+                    </div>
+                  )}
+                  {pipelineMetadata.probabilities_calculated_with_new_data && (
+                    <div className="flex items-center gap-1">
+                      <Sparkles className="h-4 w-4 text-blue-500" />
+                      <span className="text-green-600 font-medium">
+                        ✓ Probabilities calculated using newly trained model data
+                      </span>
+                    </div>
+                  )}
+                  {pipelineMetadata.errors?.length > 0 && (
+                    <div className="flex items-start gap-1">
+                      <AlertTriangle className="h-4 w-4 text-yellow-500 mt-0.5" />
+                      <div>
+                        <span className="text-yellow-600 font-medium">Warnings:</span>
+                        <ul className="list-disc list-inside ml-2 text-muted-foreground">
+                          {pipelineMetadata.errors.slice(0, 3).map((err: string, idx: number) => (
+                            <li key={idx}>{err}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                </div>
+                {pipelineMetadata.execution_timestamp && (
+                  <p className="text-xs text-muted-foreground mt-2">
+                    Executed: {new Date(pipelineMetadata.execution_timestamp).toLocaleString()}
+                  </p>
+                )}
+              </AlertDescription>
+            </div>
+          </div>
+        </Alert>
+      )}
+
+      <div className="flex items-center gap-2">
           <Dialog 
             open={isSaveDialogOpen} 
             onOpenChange={(open) => {
@@ -1633,6 +1844,36 @@ export default function ProbabilityOutput() {
           </p>
         </CardContent>
       </Card>
+
+      {/* Injury Input Dialog */}
+      {injuryDialogOpen.open && injuryDialogOpen.fixtureId && injuryDialogOpen.teamId && (
+        <InjuryInput
+          open={injuryDialogOpen.open}
+          onOpenChange={(open) => setInjuryDialogOpen(prev => ({ ...prev, open }))}
+          fixtureId={injuryDialogOpen.fixtureId}
+          teamId={injuryDialogOpen.teamId}
+          teamName={injuryDialogOpen.teamName}
+          isHome={injuryDialogOpen.isHome}
+          onSuccess={() => {
+            // Refresh probabilities after injury update
+            if (jackpotId) {
+              const fetchProbabilities = async () => {
+                try {
+                  const response = await apiClient.getProbabilities(jackpotId);
+                  const data = (response as any).success ? (response as any).data : response;
+                  if (data && data.probabilitySets) {
+                    // Reload probabilities with updated injury data
+                    window.location.reload(); // Simple refresh for now
+                  }
+                } catch (error) {
+                  console.error('Error refreshing probabilities:', error);
+                }
+              };
+              fetchProbabilities();
+            }
+          }}
+        />
+      )}
     </PageLayout>
   );
 }

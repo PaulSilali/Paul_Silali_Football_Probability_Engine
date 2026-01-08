@@ -1,0 +1,82 @@
+
+= Israel =
+1    Premier League
+      | Winner League
+      | Israeli Premier League
+      | Israel Winner League
+      | Ligat ha'Al
+2    National League
+      | Israel National League
+      | Liga Leumit
+
+cup    State Cup 
+         | League Cup National
+         | Israel League Cup National
+         | isr.lcn
+
+# note - Israel's League Cup, split into two versions:
+#  - Toto Cup Al – for teams in the Premier League (Ligat Ha'Al)
+#  - Toto Cup Leumit – for teams in the second tier (Liga Leumit)
+cup.l1  Toto Cup Al
+         | League Cup Premier
+         | Israel League Cup Premier
+         | isr.lcp
+cup.l2  Toto Cup Leumit
+
+super   Supercup
+         | Israel Supercup
+         | isr.sc
+
+
+= Palestine =
+
+1.i   West Bank Premier League
+       | Palästina West Bank League [de]
+       | ple.1
+
+1.ii  Gaza Strip Premier League
+
+# West Bank Premier League is one of the two top divisions
+# of the Palestinian Football Federation (PFA).
+# The other is the Gaza Strip Premier League.
+
+cup.gaza  Gaza Strip Cup
+           | Palästina Gaza-Streifen Cup [de]
+           | gaz.c
+
+
+
+= Saudi Arabia =
+1   Saudi Professional League
+       | Saudi Pro League
+       | saud.1
+
+cup   King Cup
+        | King's Cup
+        | saud.kc
+
+super  Super Cup
+        | saud.sc
+
+
+= Qatar =
+1   Stars League
+     | Qatar Stars League
+     | Katar Stars League [de]
+
+= Iran =
+1    Pro League
+      | Iran Pro League
+      | iri.1        # note: FIFA code is IRN
+
+= Bahrain =
+1    Premier League
+      | Bahraini Premier League
+      | Bahrain Premier League
+      | bah
+
+= Oman =
+cup   Sultan Cup
+       | Oman Sultan Cup
+       | oma.sc
+

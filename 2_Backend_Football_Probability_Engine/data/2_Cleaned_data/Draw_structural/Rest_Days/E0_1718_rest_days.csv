@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+E0,1718,2017-08-11,Arsenal,Leicester,37,67,False
+E0,1718,2017-08-12,West Ham,Bournemouth,8,8,False
+E0,1718,2017-08-12,Brighton,Man City,7,8,False
+E0,1718,2017-08-12,Chelsea,Burnley,7,8,False
+E0,1718,2017-08-12,Watford,Liverpool,8,8,False
+E0,1718,2017-08-12,Everton,Stoke,68,8,False
+E0,1718,2017-08-12,Crystal Palace,Huddersfield,68,7,False
+E0,1718,2017-08-12,Southampton,Swansea,8,8,False
+E0,1718,2017-08-13,Man City,West Ham,1,1,False
+E0,1718,2017-08-13,Newcastle,Tottenham,7,9,False
+E0,1718,2017-08-19,Leicester,Brighton,8,7,False
+E0,1718,2017-08-19,Liverpool,Crystal Palace,7,7,False
+E0,1718,2017-08-19,Southampton,West Ham,7,6,False
+E0,1718,2017-08-19,Stoke,Arsenal,7,8,False
+E0,1718,2017-08-19,Swansea,Man City,7,6,False
+E0,1718,2017-08-19,Burnley,West Ham,7,6,False
+E0,1718,2017-08-19,Bournemouth,Watford,7,7,False
+E0,1718,2017-08-20,Huddersfield,Newcastle,8,7,False
+E0,1718,2017-08-20,Tottenham,Chelsea,7,8,False
+E0,1718,2017-08-21,Man City,Everton,2,9,False
+E0,1718,2017-08-26,Huddersfield,Southampton,6,7,False
+E0,1718,2017-08-26,Man City,Leicester,5,7,False
+E0,1718,2017-08-26,Newcastle,West Ham,6,7,False
+E0,1718,2017-08-26,Watford,Brighton,7,7,False
+E0,1718,2017-08-26,Crystal Palace,Swansea,7,7,False
+E0,1718,2017-08-26,Bournemouth,Man City,7,5,False
+E0,1718,2017-08-27,Liverpool,Arsenal,8,8,False
+E0,1718,2017-08-27,Chelsea,Everton,7,6,False
+E0,1718,2017-08-27,Tottenham,Burnley,7,8,False
+E0,1718,2017-08-27,West Ham,Stoke,1,8,False
+E0,1718,2017-09-09,Everton,Tottenham,5,13,False
+E0,1718,2017-09-09,Leicester,Chelsea,5,13,False
+E0,1718,2017-09-09,Man City,Liverpool,5,13,False
+E0,1718,2017-09-09,Southampton,Watford,14,14,False
+E0,1718,2017-09-09,Stoke,Man City,13,5,False
+E0,1718,2017-09-09,Brighton,West Ham,14,13,False
+E0,1718,2017-09-09,Arsenal,Bournemouth,13,14,False
+E0,1718,2017-09-10,Burnley,Crystal Palace,14,15,False
+E0,1718,2017-09-10,Swansea,Newcastle,15,15,False
+E0,1718,2017-09-11,West Ham,Huddersfield,2,16,False
+E0,1718,2017-09-15,Bournemouth,Brighton,6,6,False
+E0,1718,2017-09-16,Liverpool,Burnley,7,6,False
+E0,1718,2017-09-16,Newcastle,Stoke,6,7,False
+E0,1718,2017-09-16,Tottenham,Swansea,7,6,False
+E0,1718,2017-09-16,Watford,Man City,7,7,False
+E0,1718,2017-09-16,Huddersfield,Leicester,5,7,False
+E0,1718,2017-09-16,West Ham,West Ham,5,5,False
+E0,1718,2017-09-16,Crystal Palace,Southampton,6,7,False
+E0,1718,2017-09-17,Chelsea,Arsenal,8,8,False
+E0,1718,2017-09-17,Man City,Everton,1,8,False
+E0,1718,2017-09-23,Burnley,Huddersfield,7,7,False
+E0,1718,2017-09-23,Everton,Bournemouth,6,8,False
+E0,1718,2017-09-23,Leicester,Liverpool,7,7,False
+E0,1718,2017-09-23,Man City,Crystal Palace,6,7,False
+E0,1718,2017-09-23,Southampton,Man City,7,6,False
+E0,1718,2017-09-23,Stoke,Chelsea,7,6,False
+E0,1718,2017-09-23,Swansea,Watford,7,7,False
+E0,1718,2017-09-23,West Ham,Tottenham,7,7,False
+E0,1718,2017-09-24,Brighton,Newcastle,9,8,False
+E0,1718,2017-09-25,Arsenal,West Ham,8,2,False
+E0,1718,2017-09-30,Huddersfield,Tottenham,7,7,False
+E0,1718,2017-09-30,Man City,Crystal Palace,7,7,False
+E0,1718,2017-09-30,Stoke,Southampton,7,7,False
+E0,1718,2017-09-30,West Ham,Watford,5,7,False
+E0,1718,2017-09-30,West Ham,Swansea,5,7,False
+E0,1718,2017-09-30,Bournemouth,Leicester,7,7,False
+E0,1718,2017-09-30,Chelsea,Man City,7,7,False
+E0,1718,2017-10-01,Newcastle,Liverpool,7,8,False
+E0,1718,2017-10-01,Everton,Burnley,8,8,False
+E0,1718,2017-10-01,Arsenal,Brighton,6,7,False
+E0,1718,2017-10-14,Liverpool,Man City,13,14,False
+E0,1718,2017-10-14,Man City,Stoke,14,14,False
+E0,1718,2017-10-14,Swansea,Huddersfield,14,14,False
+E0,1718,2017-10-14,Tottenham,Bournemouth,14,14,False
+E0,1718,2017-10-14,Watford,Arsenal,14,9,False
+E0,1718,2017-10-14,Burnley,West Ham,13,14,False
+E0,1718,2017-10-14,Crystal Palace,Chelsea,10,14,False
+E0,1718,2017-10-15,Brighton,Everton,14,14,False
+E0,1718,2017-10-15,Southampton,Newcastle,10,14,False
+E0,1718,2017-10-16,Leicester,West Ham,16,2,False
+E0,1718,2017-10-20,West Ham,Brighton,4,5,False
+E0,1718,2017-10-21,Man City,Burnley,7,7,False
+E0,1718,2017-10-21,Newcastle,Crystal Palace,6,7,False
+E0,1718,2017-10-21,Southampton,West Ham,6,1,False
+E0,1718,2017-10-21,Stoke,Bournemouth,7,7,False
+E0,1718,2017-10-21,Swansea,Leicester,7,5,False
+E0,1718,2017-10-21,Huddersfield,Man City,7,7,False
+E0,1718,2017-10-21,Chelsea,Watford,7,7,False
+E0,1718,2017-10-22,Everton,Arsenal,7,8,False
+E0,1718,2017-10-22,Tottenham,Liverpool,8,8,False
+E0,1718,2017-10-28,Crystal Palace,West Ham,7,7,False
+E0,1718,2017-10-28,Liverpool,Huddersfield,6,7,False
+E0,1718,2017-10-28,Arsenal,Swansea,6,7,False
+E0,1718,2017-10-28,Watford,Stoke,7,7,False
+E0,1718,2017-10-28,West Ham,Man City,7,7,False
+E0,1718,2017-10-28,Man City,Tottenham,7,6,False
+E0,1718,2017-10-28,Bournemouth,Chelsea,7,7,False
+E0,1718,2017-10-29,Brighton,Southampton,9,8,False
+E0,1718,2017-10-29,Leicester,Everton,8,7,False
+E0,1718,2017-10-30,Burnley,Newcastle,9,9,False
+E0,1718,2017-11-04,Newcastle,Bournemouth,5,1,False
+E0,1718,2017-11-04,West Ham,Liverpool,1,2,False
+E0,1718,2017-11-04,Huddersfield,West Ham,7,1,False
+E0,1718,2017-11-04,Stoke,Leicester,2,6,False
+E0,1718,2017-11-04,Southampton,Burnley,2,5,False
+E0,1718,2017-11-04,Swansea,Brighton,1,6,False
+E0,1718,2017-11-05,Everton,Watford,2,3,False
+E0,1718,2017-11-05,Man City,Arsenal,3,3,False
+E0,1718,2017-11-05,Tottenham,Crystal Palace,3,3,False
+E0,1718,2017-11-05,Chelsea,Man City,8,3,False
+E0,1718,2017-11-18,Bournemouth,Huddersfield,14,14,False
+E0,1718,2017-11-18,Crystal Palace,Everton,13,13,False
+E0,1718,2017-11-18,Leicester,Man City,14,13,False
+E0,1718,2017-11-18,Liverpool,Southampton,14,14,False
+E0,1718,2017-11-18,Man City,Newcastle,13,14,False
+E0,1718,2017-11-18,West Ham,Chelsea,14,13,False
+E0,1718,2017-11-18,Arsenal,Tottenham,13,13,False
+E0,1718,2017-11-18,Burnley,Swansea,14,14,False
+E0,1718,2017-11-19,Watford,West Ham,14,1,False
+E0,1718,2017-11-20,Brighton,Stoke,16,16,False
+E0,1718,2017-11-24,West Ham,Leicester,5,6,False
+E0,1718,2017-11-25,Tottenham,West Ham,7,1,False
+E0,1718,2017-11-25,Crystal Palace,Stoke,7,5,False
+E0,1718,2017-11-25,Liverpool,Chelsea,7,7,False
+E0,1718,2017-11-25,Man City,Brighton,7,5,False
+E0,1718,2017-11-25,Newcastle,Watford,7,6,False
+E0,1718,2017-11-25,Swansea,Bournemouth,7,7,False
+E0,1718,2017-11-26,Southampton,Everton,8,8,False
+E0,1718,2017-11-26,Huddersfield,Man City,8,1,False
+E0,1718,2017-11-26,Burnley,Arsenal,8,8,False
+E0,1718,2017-11-28,Watford,Man City,3,2,True
+E0,1718,2017-11-28,West Ham,Newcastle,3,3,True
+E0,1718,2017-11-28,Brighton,Crystal Palace,3,3,True
+E0,1718,2017-11-28,Leicester,Tottenham,4,3,True
+E0,1718,2017-11-29,Chelsea,Swansea,4,4,True
+E0,1718,2017-11-29,Everton,West Ham,3,1,True
+E0,1718,2017-11-29,Man City,Southampton,1,3,True
+E0,1718,2017-11-29,Stoke,Liverpool,4,4,True
+E0,1718,2017-11-29,Arsenal,Huddersfield,3,3,True
+E0,1718,2017-11-29,Bournemouth,Burnley,4,3,True
+E0,1718,2017-12-02,Watford,Tottenham,4,4,False
+E0,1718,2017-12-02,Arsenal,Man City,3,3,False
+E0,1718,2017-12-02,Brighton,Liverpool,4,3,False
+E0,1718,2017-12-02,Chelsea,Newcastle,3,4,False
+E0,1718,2017-12-02,Everton,Huddersfield,3,3,False
+E0,1718,2017-12-02,Leicester,Burnley,4,3,False
+E0,1718,2017-12-02,Stoke,Swansea,3,3,False
+E0,1718,2017-12-02,West Ham,Crystal Palace,3,4,False
+E0,1718,2017-12-03,Bournemouth,Southampton,4,4,False
+E0,1718,2017-12-03,Man City,West Ham,1,1,False
+E0,1718,2017-12-09,Tottenham,Stoke,7,7,False
+E0,1718,2017-12-09,West Ham,Chelsea,4,4,False
+E0,1718,2017-12-09,Burnley,Watford,6,4,False
+E0,1718,2017-12-09,Newcastle,Leicester,7,7,False
+E0,1718,2017-12-09,Swansea,West Ham,7,4,False
+E0,1718,2017-12-09,Crystal Palace,Bournemouth,7,6,False
+E0,1718,2017-12-09,Huddersfield,Brighton,7,7,False
+E0,1718,2017-12-10,Southampton,Arsenal,7,8,False
+E0,1718,2017-12-10,Liverpool,Everton,7,5,False
+E0,1718,2017-12-10,Man City,Man City,7,7,False
+E0,1718,2017-12-12,Huddersfield,Chelsea,3,3,True
+E0,1718,2017-12-12,Burnley,Stoke,3,3,True
+E0,1718,2017-12-12,Crystal Palace,Watford,3,3,True
+E0,1718,2017-12-13,Newcastle,Everton,4,3,True
+E0,1718,2017-12-13,Southampton,Leicester,3,4,True
+E0,1718,2017-12-13,Swansea,Man City,4,3,True
+E0,1718,2017-12-13,Tottenham,Brighton,4,4,True
+E0,1718,2017-12-13,West Ham,Arsenal,4,3,True
+E0,1718,2017-12-13,Liverpool,West Ham,3,4,True
+E0,1718,2017-12-13,Man City,Bournemouth,3,4,True
+E0,1718,2017-12-16,Watford,Huddersfield,4,4,False
+E0,1718,2017-12-16,Arsenal,Newcastle,3,3,False
+E0,1718,2017-12-16,Brighton,Burnley,3,4,False
+E0,1718,2017-12-16,Chelsea,Southampton,4,3,False
+E0,1718,2017-12-16,Leicester,Crystal Palace,3,4,False
+E0,1718,2017-12-16,Man City,Tottenham,3,3,False
+E0,1718,2017-12-16,Stoke,West Ham,4,3,False
+E0,1718,2017-12-17,West Ham,Man City,1,1,False
+E0,1718,2017-12-17,Bournemouth,Liverpool,4,4,False
+E0,1718,2017-12-18,Everton,Swansea,5,5,False
+E0,1718,2017-12-22,Arsenal,Liverpool,6,5,False
+E0,1718,2017-12-23,Everton,Chelsea,5,7,False
+E0,1718,2017-12-23,Leicester,Man City,7,6,False
+E0,1718,2017-12-23,Man City,Bournemouth,6,6,False
+E0,1718,2017-12-23,Southampton,Huddersfield,7,7,False
+E0,1718,2017-12-23,Burnley,Tottenham,7,7,False
+E0,1718,2017-12-23,Swansea,Crystal Palace,5,7,False
+E0,1718,2017-12-23,West Ham,Newcastle,6,7,False
+E0,1718,2017-12-23,Brighton,Watford,7,7,False
+E0,1718,2017-12-23,Stoke,West Ham,7,6,False
+E0,1718,2017-12-26,Huddersfield,Stoke,3,3,True
+E0,1718,2017-12-26,Bournemouth,West Ham,3,3,True
+E0,1718,2017-12-26,Chelsea,Brighton,3,3,True
+E0,1718,2017-12-26,Liverpool,Swansea,4,3,True
+E0,1718,2017-12-26,Man City,Burnley,3,3,True
+E0,1718,2017-12-26,Tottenham,Southampton,3,3,True
+E0,1718,2017-12-26,Watford,Leicester,3,3,True
+E0,1718,2017-12-26,West Ham,Everton,3,3,True
+E0,1718,2017-12-27,Newcastle,Man City,4,1,True
+E0,1718,2017-12-28,Crystal Palace,Arsenal,5,6,True
+E0,1718,2017-12-30,Chelsea,Stoke,4,4,False
+E0,1718,2017-12-30,Man City,Southampton,3,4,False
+E0,1718,2017-12-30,Liverpool,Leicester,4,4,False
+E0,1718,2017-12-30,Newcastle,Brighton,3,4,False
+E0,1718,2017-12-30,Bournemouth,Everton,4,4,False
+E0,1718,2017-12-30,Huddersfield,Burnley,4,4,False
+E0,1718,2017-12-30,Watford,Swansea,4,4,False
+E0,1718,2017-12-31,West Ham,Arsenal,5,3,False
+E0,1718,2017-12-31,Crystal Palace,Man City,3,1,False
+E0,1718,2018-01-01,Everton,Man City,2,1,False
+E0,1718,2018-01-01,Leicester,Huddersfield,2,2,False
+E0,1718,2018-01-01,Stoke,Newcastle,2,2,False
+E0,1718,2018-01-01,Brighton,Bournemouth,2,2,False
+E0,1718,2018-01-01,Burnley,Liverpool,2,2,False
+E0,1718,2018-01-02,Swansea,Tottenham,3,7,True
+E0,1718,2018-01-02,West Ham,West Ham,2,2,True
+E0,1718,2018-01-02,Southampton,Crystal Palace,3,2,True
+E0,1718,2018-01-02,Man City,Watford,1,3,True
+E0,1718,2018-01-03,Arsenal,Chelsea,3,4,True
+E0,1718,2018-01-04,Tottenham,West Ham,2,2,True
+E0,1718,2018-01-13,Huddersfield,West Ham,12,9,False
+E0,1718,2018-01-13,Chelsea,Leicester,10,12,False
+E0,1718,2018-01-13,Crystal Palace,Burnley,11,12,False
+E0,1718,2018-01-13,Newcastle,Swansea,12,11,False
+E0,1718,2018-01-13,Tottenham,Everton,9,12,False
+E0,1718,2018-01-13,Watford,Southampton,11,11,False
+E0,1718,2018-01-13,West Ham,Brighton,9,12,False
+E0,1718,2018-01-14,Liverpool,Man City,13,12,False
+E0,1718,2018-01-14,Bournemouth,Arsenal,13,11,False
+E0,1718,2018-01-15,Man City,Stoke,1,14,False
+E0,1718,2018-01-20,Burnley,Man City,7,5,False
+E0,1718,2018-01-20,Everton,West Ham,7,7,False
+E0,1718,2018-01-20,Leicester,Watford,7,7,False
+E0,1718,2018-01-20,Man City,Newcastle,5,7,False
+E0,1718,2018-01-20,Stoke,Huddersfield,5,7,False
+E0,1718,2018-01-20,West Ham,Bournemouth,7,6,False
+E0,1718,2018-01-20,Brighton,Chelsea,7,7,False
+E0,1718,2018-01-20,Arsenal,Crystal Palace,6,7,False
+E0,1718,2018-01-21,Southampton,Tottenham,8,8,False
+E0,1718,2018-01-22,Swansea,Liverpool,9,8,False
+E0,1718,2018-01-30,Huddersfield,Liverpool,10,8,True
+E0,1718,2018-01-30,Swansea,Arsenal,8,10,True
+E0,1718,2018-01-30,West Ham,Crystal Palace,10,10,True
+E0,1718,2018-01-31,Newcastle,Burnley,11,11,True
+E0,1718,2018-01-31,Chelsea,Bournemouth,11,11,True
+E0,1718,2018-01-31,Everton,Leicester,11,11,True
+E0,1718,2018-01-31,Man City,West Ham,11,1,True
+E0,1718,2018-01-31,Southampton,Brighton,10,11,True
+E0,1718,2018-01-31,Stoke,Watford,11,11,True
+E0,1718,2018-01-31,Tottenham,Man City,10,11,True
+E0,1718,2018-02-03,Brighton,West Ham,3,3,False
+E0,1718,2018-02-03,Burnley,Man City,3,3,False
+E0,1718,2018-02-03,Leicester,Swansea,3,4,False
+E0,1718,2018-02-03,Man City,Huddersfield,3,4,False
+E0,1718,2018-02-03,West Ham,Southampton,3,3,False
+E0,1718,2018-02-03,Bournemouth,Stoke,3,3,False
+E0,1718,2018-02-03,Arsenal,Everton,4,3,False
+E0,1718,2018-02-04,Crystal Palace,Newcastle,5,4,False
+E0,1718,2018-02-04,Liverpool,Tottenham,5,4,False
+E0,1718,2018-02-05,Watford,Chelsea,5,5,False
+E0,1718,2018-02-10,Stoke,Brighton,7,7,False
+E0,1718,2018-02-10,Swansea,Burnley,7,7,False
+E0,1718,2018-02-10,Tottenham,Arsenal,6,7,False
+E0,1718,2018-02-10,West Ham,Watford,7,5,False
+E0,1718,2018-02-10,Man City,Leicester,7,7,False
+E0,1718,2018-02-10,Everton,Crystal Palace,7,6,False
+E0,1718,2018-02-11,Southampton,Liverpool,8,7,False
+E0,1718,2018-02-11,Huddersfield,Bournemouth,8,8,False
+E0,1718,2018-02-11,Newcastle,Man City,7,1,False
+E0,1718,2018-02-12,Chelsea,West Ham,7,2,False
+E0,1718,2018-02-24,Burnley,Southampton,14,13,False
+E0,1718,2018-02-24,Leicester,Stoke,14,14,False
+E0,1718,2018-02-24,Liverpool,West Ham,13,12,False
+E0,1718,2018-02-24,Watford,Everton,14,14,False
+E0,1718,2018-02-24,West Ham,Huddersfield,12,13,False
+E0,1718,2018-02-24,Brighton,Swansea,14,14,False
+E0,1718,2018-02-24,Bournemouth,Newcastle,13,13,False
+E0,1718,2018-02-25,Crystal Palace,Tottenham,15,15,False
+E0,1718,2018-02-25,Man City,Chelsea,14,13,False
+E0,1718,2018-03-01,Arsenal,Man City,19,4,True
+E0,1718,2018-03-03,Liverpool,Newcastle,7,7,False
+E0,1718,2018-03-03,Southampton,Stoke,7,7,False
+E0,1718,2018-03-03,Swansea,West Ham,7,7,False
+E0,1718,2018-03-03,Tottenham,Huddersfield,6,7,False
+E0,1718,2018-03-03,Watford,West Ham,7,7,False
+E0,1718,2018-03-03,Leicester,Bournemouth,7,7,False
+E0,1718,2018-03-03,Burnley,Everton,7,7,False
+E0,1718,2018-03-04,Brighton,Arsenal,8,3,False
+E0,1718,2018-03-04,Man City,Chelsea,3,7,False
+E0,1718,2018-03-05,Crystal Palace,Man City,8,1,False
+E0,1718,2018-03-10,Everton,Brighton,7,6,False
+E0,1718,2018-03-10,Chelsea,Crystal Palace,6,5,False
+E0,1718,2018-03-10,Huddersfield,Swansea,7,7,False
+E0,1718,2018-03-10,Man City,Liverpool,5,7,False
+E0,1718,2018-03-10,Newcastle,Southampton,7,7,False
+E0,1718,2018-03-10,West Ham,Leicester,7,7,False
+E0,1718,2018-03-10,West Ham,Burnley,7,7,False
+E0,1718,2018-03-11,Arsenal,Watford,7,8,False
+E0,1718,2018-03-11,Bournemouth,Tottenham,8,8,False
+E0,1718,2018-03-12,Stoke,Man City,9,2,False
+E0,1718,2018-03-17,Bournemouth,West Ham,6,7,False
+E0,1718,2018-03-17,Huddersfield,Crystal Palace,7,7,False
+E0,1718,2018-03-17,Liverpool,Watford,7,6,False
+E0,1718,2018-03-17,Stoke,Everton,5,7,False
+E0,1718,2018-03-31,Brighton,Leicester,21,21,False
+E0,1718,2018-03-31,Man City,Swansea,19,21,False
+E0,1718,2018-03-31,Newcastle,Huddersfield,21,14,False
+E0,1718,2018-03-31,Watford,Bournemouth,14,14,False
+E0,1718,2018-03-31,West Ham,Burnley,14,21,False
+E0,1718,2018-03-31,West Ham,Southampton,14,21,False
+E0,1718,2018-03-31,Crystal Palace,Liverpool,14,14,False
+E0,1718,2018-03-31,Everton,Man City,14,19,False
+E0,1718,2018-04-01,Arsenal,Stoke,21,15,False
+E0,1718,2018-04-01,Chelsea,Tottenham,22,21,False
+E0,1718,2018-04-07,Brighton,Huddersfield,7,7,False
+E0,1718,2018-04-07,Bournemouth,Crystal Palace,7,7,False
+E0,1718,2018-04-07,Everton,Liverpool,7,7,False
+E0,1718,2018-04-07,Leicester,Newcastle,7,7,False
+E0,1718,2018-04-07,Man City,Man City,7,7,False
+E0,1718,2018-04-07,Stoke,Tottenham,6,6,False
+E0,1718,2018-04-07,Watford,Burnley,7,7,False
+E0,1718,2018-04-07,West Ham,Swansea,7,7,False
+E0,1718,2018-04-08,Arsenal,Southampton,7,8,False
+E0,1718,2018-04-08,Chelsea,West Ham,7,1,False
+E0,1718,2018-04-14,Huddersfield,Watford,7,7,False
+E0,1718,2018-04-14,Liverpool,Bournemouth,7,7,False
+E0,1718,2018-04-14,Southampton,Chelsea,6,6,False
+E0,1718,2018-04-14,Swansea,Everton,7,7,False
+E0,1718,2018-04-14,Tottenham,Man City,7,7,False
+E0,1718,2018-04-14,Burnley,Leicester,7,7,False
+E0,1718,2018-04-14,Crystal Palace,Brighton,7,7,False
+E0,1718,2018-04-15,Newcastle,Arsenal,8,7,False
+E0,1718,2018-04-15,Man City,West Ham,1,7,False
+E0,1718,2018-04-16,West Ham,Stoke,1,9,False
+E0,1718,2018-04-17,Brighton,Tottenham,3,3,True
+E0,1718,2018-04-18,Bournemouth,Man City,4,3,True
+E0,1718,2018-04-19,Burnley,Chelsea,5,5,True
+E0,1718,2018-04-19,Leicester,Southampton,5,5,True
+E0,1718,2018-04-21,Watford,Crystal Palace,7,7,False
+E0,1718,2018-04-21,West Ham,Liverpool,5,7,False
+E0,1718,2018-04-22,Arsenal,West Ham,7,1,False
+E0,1718,2018-04-22,Man City,Swansea,4,8,False
+E0,1718,2018-04-22,Stoke,Burnley,6,3,False
+E0,1718,2018-04-23,Everton,Newcastle,9,8,False
+E0,1718,2018-04-28,Huddersfield,Everton,14,5,False
+E0,1718,2018-04-28,Liverpool,Stoke,7,6,False
+E0,1718,2018-04-28,Newcastle,West Ham,5,6,False
+E0,1718,2018-04-28,Southampton,Bournemouth,9,10,False
+E0,1718,2018-04-28,Swansea,Chelsea,6,9,False
+E0,1718,2018-04-28,Crystal Palace,Leicester,7,9,False
+E0,1718,2018-04-28,Burnley,Brighton,6,11,False
+E0,1718,2018-04-29,Man City,Arsenal,7,7,False
+E0,1718,2018-04-29,West Ham,Man City,1,7,False
+E0,1718,2018-04-30,Tottenham,Watford,13,9,False
+E0,1718,2018-05-04,Brighton,Man City,6,5,False
+E0,1718,2018-05-05,Leicester,West Ham,7,6,False
+E0,1718,2018-05-05,Stoke,Crystal Palace,7,7,False
+E0,1718,2018-05-05,Watford,Newcastle,5,7,False
+E0,1718,2018-05-05,West Ham,Tottenham,6,5,False
+E0,1718,2018-05-05,Everton,Southampton,7,7,False
+E0,1718,2018-05-05,Bournemouth,Swansea,7,7,False
+E0,1718,2018-05-06,Man City,Huddersfield,2,8,False
+E0,1718,2018-05-06,Arsenal,Burnley,7,8,False
+E0,1718,2018-05-06,Chelsea,Liverpool,8,8,False
+E0,1718,2018-05-08,Swansea,Southampton,3,3,True
+E0,1718,2018-05-09,Man City,Brighton,3,5,True
+E0,1718,2018-05-09,Tottenham,Newcastle,4,4,True
+E0,1718,2018-05-09,Leicester,Arsenal,4,3,True
+E0,1718,2018-05-09,Chelsea,Huddersfield,3,3,True
+E0,1718,2018-05-10,West Ham,Man City,5,1,True
+E0,1718,2018-05-13,Huddersfield,Arsenal,4,4,False
+E0,1718,2018-05-13,Liverpool,Brighton,7,4,False
+E0,1718,2018-05-13,Man City,Watford,3,8,False
+E0,1718,2018-05-13,Newcastle,Chelsea,4,4,False
+E0,1718,2018-05-13,Southampton,Man City,5,3,False
+E0,1718,2018-05-13,Swansea,Stoke,5,8,False
+E0,1718,2018-05-13,Tottenham,Leicester,4,4,False
+E0,1718,2018-05-13,West Ham,Everton,3,8,False
+E0,1718,2018-05-13,Crystal Palace,West Ham,8,3,False
+E0,1718,2018-05-13,Burnley,Bournemouth,7,8,False

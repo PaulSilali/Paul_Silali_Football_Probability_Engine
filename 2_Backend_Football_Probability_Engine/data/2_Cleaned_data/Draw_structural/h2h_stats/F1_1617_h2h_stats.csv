@@ -1,0 +1,191 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9342,Rennes,9352,Angers,1617,2,2,1.0,1.0
+9346,Monaco,9352,Angers,1617,2,0,0.0,2.0
+9366,Dijon,9371,Bastia,1617,2,1,0.5,1.5
+9355,Lorient,9366,Dijon,1617,2,0,0.0,3.0
+9365,Bordeaux,9371,Bastia,1617,2,1,0.5,2.0
+9352,Angers,9355,Lorient,1617,2,2,1.0,3.0
+9342,Rennes,9365,Bordeaux,1617,2,2,1.0,2.0
+9352,Angers,9369,Guingamp,1617,2,0,0.0,2.0
+9355,Lorient,9369,Guingamp,1617,2,0,0.0,2.5
+9351,Lille,9366,Dijon,1617,2,1,0.5,0.5
+9349,Toulouse,9356,Metz,1617,2,1,0.5,2.5
+9352,Angers,9356,Metz,1617,2,0,0.0,2.5
+9345,Lyon,9360,St Etienne,1617,2,0,0.0,2.0
+9348,Nice,9351,Lille,1617,2,1,0.5,2.5
+9343,Marseille,9355,Lorient,1617,2,0,0.0,3.5
+9346,Monaco,9371,Bastia,1617,2,1,0.5,3.5
+9342,Rennes,9372,Nancy,1617,2,0,0.0,2.5
+9349,Toulouse,9353,Paris FC,1617,2,1,0.5,1.0
+9348,Nice,9369,Guingamp,1617,2,0,0.0,2.5
+9348,Nice,9352,Angers,1617,2,0,0.0,1.5
+9366,Dijon,9369,Guingamp,1617,2,1,0.5,5.0
+9360,St Etienne,9361,Montpellier,1617,2,0,0.0,3.5
+9358,Nantes,9365,Bordeaux,1617,2,0,0.0,1.0
+9353,Paris FC,9370,Caen,1617,2,1,0.5,4.0
+9361,Montpellier,9372,Nancy,1617,2,1,0.5,1.5
+9346,Monaco,9349,Toulouse,1617,2,0,0.0,4.0
+9346,Monaco,9358,Nantes,1617,2,0,0.0,2.5
+9342,Rennes,9346,Monaco,1617,2,0,0.0,4.0
+9345,Lyon,9348,Nice,1617,2,1,0.5,4.0
+9349,Toulouse,9366,Dijon,1617,2,1,0.5,1.0
+9353,Paris FC,9371,Bastia,1617,2,0,0.0,3.0
+9349,Toulouse,9365,Bordeaux,1617,2,0,0.0,3.0
+9351,Lille,9370,Caen,1617,2,0,0.0,3.5
+9346,Monaco,9366,Dijon,1617,2,1,0.5,2.5
+9343,Marseille,9352,Angers,1617,2,1,0.5,2.5
+9348,Nice,9366,Dijon,1617,2,0,0.0,2.0
+9353,Paris FC,9361,Montpellier,1617,2,0,0.0,2.5
+9355,Lorient,9361,Montpellier,1617,2,1,0.5,3.0
+9348,Nice,9358,Nantes,1617,2,1,0.5,3.5
+9353,Paris FC,9369,Guingamp,1617,2,0,0.0,3.5
+9361,Montpellier,9365,Bordeaux,1617,2,0,0.0,5.0
+9348,Nice,9360,St Etienne,1617,2,0,0.0,1.0
+9345,Lyon,9361,Montpellier,1617,2,0,0.0,5.0
+9352,Angers,9353,Paris FC,1617,2,0,0.0,2.0
+9356,Metz,9370,Caen,1617,2,1,0.5,3.5
+9343,Marseille,9369,Guingamp,1617,2,0,0.0,2.5
+9343,Marseille,9353,Paris FC,1617,2,1,0.5,3.0
+9342,Rennes,9370,Caen,1617,2,0,0.0,1.5
+9352,Angers,9361,Montpellier,1617,2,0,0.0,1.5
+9356,Metz,9369,Guingamp,1617,2,1,0.5,2.5
+9349,Toulouse,9371,Bastia,1617,2,0,0.0,4.0
+9346,Monaco,9370,Caen,1617,2,0,0.0,3.0
+9345,Lyon,9370,Caen,1617,2,0,0.0,3.5
+9358,Nantes,9361,Montpellier,1617,2,0,0.0,3.0
+9343,Marseille,9371,Bastia,1617,2,0,0.0,2.0
+9343,Marseille,9351,Lille,1617,2,1,0.5,1.0
+9343,Marseille,9370,Caen,1617,2,0,0.0,3.5
+9345,Lyon,9349,Toulouse,1617,2,0,0.0,3.5
+9360,St Etienne,9365,Bordeaux,1617,2,1,0.5,4.5
+9365,Bordeaux,9369,Guingamp,1617,2,1,0.5,2.5
+9351,Lille,9361,Montpellier,1617,2,0,0.0,3.0
+9358,Nantes,9360,St Etienne,1617,2,2,1.0,1.0
+9343,Marseille,9361,Montpellier,1617,2,0,0.0,5.0
+9353,Paris FC,9365,Bordeaux,1617,2,0,0.0,2.5
+9358,Nantes,9372,Nancy,1617,2,1,0.5,2.0
+9345,Lyon,9358,Nantes,1617,2,0,0.0,5.5
+9346,Monaco,9348,Nice,1617,2,0,0.0,3.5
+9352,Angers,9366,Dijon,1617,2,0,0.0,4.5
+9349,Toulouse,9358,Nantes,1617,2,1,0.5,1.5
+9360,St Etienne,9369,Guingamp,1617,2,0,0.0,1.5
+9358,Nantes,9366,Dijon,1617,2,0,0.0,2.5
+9352,Angers,9371,Bastia,1617,2,0,0.0,3.0
+9351,Lille,9372,Nancy,1617,2,0,0.0,2.0
+9342,Rennes,9345,Lyon,1617,2,1,0.5,1.5
+9355,Lorient,9358,Nantes,1617,2,0,0.0,2.0
+9355,Lorient,9372,Nancy,1617,2,0,0.0,3.5
+9366,Dijon,9372,Nancy,1617,2,0,0.0,1.5
+9348,Nice,9371,Bastia,1617,2,2,1.0,2.0
+9345,Lyon,9371,Bastia,1617,2,0,0.0,3.0
+9343,Marseille,9366,Dijon,1617,2,1,0.5,2.5
+9346,Monaco,9353,Paris FC,1617,2,1,0.5,3.0
+9352,Angers,9358,Nantes,1617,2,0,0.0,2.5
+9355,Lorient,9360,St Etienne,1617,2,0,0.0,3.5
+9349,Toulouse,9361,Montpellier,1617,2,0,0.0,1.0
+9353,Paris FC,9372,Nancy,1617,2,0,0.0,2.0
+9345,Lyon,9372,Nancy,1617,2,0,0.0,3.5
+9355,Lorient,9371,Bastia,1617,2,0,0.0,2.5
+9343,Marseille,9372,Nancy,1617,2,1,0.5,1.5
+9358,Nantes,9371,Bastia,1617,2,1,0.5,2.5
+9349,Toulouse,9372,Nancy,1617,2,2,1.0,1.0
+9342,Rennes,9343,Marseille,1617,2,0,0.0,3.5
+9353,Paris FC,9358,Nantes,1617,2,0,0.0,2.0
+9349,Toulouse,9369,Guingamp,1617,2,0,0.0,3.0
+9366,Dijon,9370,Caen,1617,2,1,0.5,4.0
+9342,Rennes,9355,Lorient,1617,2,0,0.0,2.0
+9343,Marseille,9365,Bordeaux,1617,2,2,1.0,1.0
+9353,Paris FC,9355,Lorient,1617,2,0,0.0,4.0
+9353,Paris FC,9366,Dijon,1617,2,0,0.0,3.5
+9369,Guingamp,9372,Nancy,1617,2,0,0.0,1.5
+9348,Nice,9365,Bordeaux,1617,2,1,0.5,1.5
+9345,Lyon,9366,Dijon,1617,2,0,0.0,6.0
+9343,Marseille,9349,Toulouse,1617,2,2,1.0,
+9349,Toulouse,9360,St Etienne,1617,2,1,0.5,1.5
+9355,Lorient,9370,Caen,1617,2,0,0.0,3.0
+9342,Rennes,9356,Metz,1617,2,1,0.5,1.5
+9348,Nice,9361,Montpellier,1617,2,1,0.5,2.5
+9345,Lyon,9353,Paris FC,1617,2,0,0.0,3.0
+9349,Toulouse,9355,Lorient,1617,2,1,0.5,3.5
+9369,Guingamp,9370,Caen,1617,2,1,0.5,1.5
+9349,Toulouse,9352,Angers,1617,2,1,0.5,2.0
+9370,Caen,9372,Nancy,1617,2,0,0.0,1.5
+9345,Lyon,9356,Metz,1617,2,0,0.0,4.0
+9349,Toulouse,9351,Lille,1617,2,1,0.5,2.5
+9346,Monaco,9355,Lorient,1617,2,0,0.0,3.5
+9353,Paris FC,9360,St Etienne,1617,2,1,0.5,3.5
+9342,Rennes,9366,Dijon,1617,2,1,0.5,2.5
+9365,Bordeaux,9372,Nancy,1617,2,1,0.5,2.0
+9355,Lorient,9365,Bordeaux,1617,2,1,0.5,2.5
+9361,Montpellier,9370,Caen,1617,2,0,0.0,3.5
+9351,Lille,9369,Guingamp,1617,2,0,0.0,2.0
+9346,Monaco,9356,Metz,1617,2,0,0.0,6.0
+9342,Rennes,9353,Paris FC,1617,2,0,0.0,2.5
+9342,Rennes,9361,Montpellier,1617,2,1,0.5,1.5
+9346,Monaco,9360,St Etienne,1617,2,1,0.5,2.0
+9360,St Etienne,9371,Bastia,1617,2,1,0.5,0.5
+9358,Nantes,9370,Caen,1617,2,0,0.0,1.5
+9348,Nice,9372,Nancy,1617,2,0,0.0,2.5
+9360,St Etienne,9370,Caen,1617,2,0,0.0,1.5
+9360,St Etienne,9366,Dijon,1617,2,1,0.5,1.5
+9361,Montpellier,9366,Dijon,1617,2,2,1.0,4.0
+9361,Montpellier,9369,Guingamp,1617,2,2,1.0,2.0
+9348,Nice,9356,Metz,1617,2,1,0.5,3.0
+9342,Rennes,9360,St Etienne,1617,2,1,0.5,2.0
+9345,Lyon,9351,Lille,1617,2,0,0.0,2.0
+9349,Toulouse,9370,Caen,1617,2,0,0.0,1.0
+9369,Guingamp,9371,Bastia,1617,2,0,0.0,3.0
+9346,Monaco,9372,Nancy,1617,2,0,0.0,4.5
+9353,Paris FC,9356,Metz,1617,2,0,0.0,4.0
+9348,Nice,9349,Toulouse,1617,2,1,0.5,2.5
+9346,Monaco,9361,Montpellier,1617,2,0,0.0,5.5
+9345,Lyon,9355,Lorient,1617,2,0,0.0,3.0
+9356,Metz,9361,Montpellier,1617,2,0,0.0,1.5
+9371,Bastia,9372,Nancy,1617,2,1,0.5,0.5
+9343,Marseille,9358,Nantes,1617,2,0,0.0,4.0
+9346,Monaco,9365,Bordeaux,1617,2,0,0.0,3.5
+9356,Metz,9360,St Etienne,1617,2,2,1.0,2.0
+9345,Lyon,9352,Angers,1617,2,0,0.0,2.5
+9343,Marseille,9346,Monaco,1617,2,0,0.0,4.5
+9348,Nice,9370,Caen,1617,2,1,0.5,2.5
+9342,Rennes,9351,Lille,1617,2,1,0.5,2.0
+9342,Rennes,9371,Bastia,1617,2,0,0.0,2.0
+9352,Angers,9360,St Etienne,1617,2,0,0.0,3.0
+9343,Marseille,9356,Metz,1617,2,0,0.0,1.0
+9365,Bordeaux,9366,Dijon,1617,2,1,0.5,2.5
+9342,Rennes,9349,Toulouse,1617,2,1,0.5,0.5
+9351,Lille,9358,Nantes,1617,2,1,0.5,1.5
+9351,Lille,9355,Lorient,1617,2,0,0.0,1.0
+9343,Marseille,9348,Nice,1617,2,0,0.0,4.0
+9351,Lille,9371,Bastia,1617,2,0,0.0,2.0
+9351,Lille,9365,Bordeaux,1617,2,0,0.0,3.0
+9352,Angers,9370,Caen,1617,2,0,0.0,4.0
+9346,Monaco,9369,Guingamp,1617,2,1,0.5,3.5
+9356,Metz,9365,Bordeaux,1617,2,0,0.0,3.0
+9352,Angers,9372,Nancy,1617,2,0,0.0,1.5
+9370,Caen,9371,Bastia,1617,2,1,0.5,2.0
+9348,Nice,9353,Paris FC,1617,2,1,0.5,4.0
+9358,Nantes,9369,Guingamp,1617,2,0,0.0,3.5
+9348,Nice,9355,Lorient,1617,2,0,0.0,2.0
+9343,Marseille,9360,St Etienne,1617,2,1,0.5,2.0
+9351,Lille,9352,Angers,1617,2,0,0.0,2.0
+9356,Metz,9358,Nantes,1617,2,1,0.5,2.5
+9345,Lyon,9365,Bordeaux,1617,2,1,0.5,3.0
+9345,Lyon,9369,Guingamp,1617,2,0,0.0,3.5
+9360,St Etienne,9372,Nancy,1617,2,1,0.5,2.0
+9343,Marseille,9345,Lyon,1617,2,1,0.5,2.0
+9351,Lille,9353,Paris FC,1617,2,0,0.0,2.0
+9351,Lille,9360,St Etienne,1617,2,1,0.5,3.0
+9342,Rennes,9369,Guingamp,1617,2,1,0.5,1.5
+9355,Lorient,9356,Metz,1617,2,1,0.5,6.0
+9345,Lyon,9346,Monaco,1617,2,0,0.0,3.5
+9346,Monaco,9351,Lille,1617,2,0,0.0,4.5
+9342,Rennes,9348,Nice,1617,2,1,0.5,2.5
+9356,Metz,9372,Nancy,1617,2,0,0.0,3.5
+9352,Angers,9365,Bordeaux,1617,2,1,0.5,1.5
+9361,Montpellier,9371,Bastia,1617,2,1,0.5,2.5
+9342,Rennes,9358,Nantes,1617,2,1,0.5,2.5
+9356,Metz,9371,Bastia,1617,2,0,0.0,1.5
+9356,Metz,9366,Dijon,1617,2,1,0.5,1.5
+9365,Bordeaux,9370,Caen,1617,2,1,0.5,2.0
+9351,Lille,9356,Metz,1617,2,0,0.0,3.5

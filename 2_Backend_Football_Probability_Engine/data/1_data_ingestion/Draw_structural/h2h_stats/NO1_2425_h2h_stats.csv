@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9025,PSV Eindhoven,9035,Willem II,2425,2,1,0.5,2.0
+9018,Go Ahead Eagles,9022,NAC Breda,2425,2,1,0.5,2.5
+9026,Sparta Rotterdam,9029,Ajax,2425,2,1,0.5,2.0
+9027,Zwolle,9036,Almere City,2425,2,1,0.5,2.5
+9022,NAC Breda,9034,Heracles,2425,2,1,0.5,2.0
+9027,Zwolle,9033,Utrecht,2425,2,1,0.5,3.5
+9022,NAC Breda,9037,Waalwijk,2425,2,0,0.0,5.0
+9018,Go Ahead Eagles,9032,Groningen,2425,2,0,0.0,2.0
+9026,Sparta Rotterdam,9034,Heracles,2425,2,2,1.0,1.0
+9023,Heerenveen,9037,Waalwijk,2425,2,1,0.5,3.0
+9026,Sparta Rotterdam,9028,Twente,2425,2,1,0.5,2.0
+9027,Zwolle,9032,Groningen,2425,2,1,0.5,1.0
+9027,Zwolle,9029,Ajax,2425,2,0,0.0,1.5
+9017,For Sittard,9031,AZ Alkmaar,2425,2,0,0.0,1.0
+9032,Groningen,9037,Waalwijk,2425,2,0,0.0,5.0
+9021,Feyenoord,9026,Sparta Rotterdam,2425,2,1,0.5,2.5
+9019,Nijmegen,9035,Willem II,2425,2,1,0.5,3.5
+9017,For Sittard,9036,Almere City,2425,2,1,0.5,2.5
+9031,AZ Alkmaar,9032,Groningen,2425,2,1,0.5,1.5
+9026,Sparta Rotterdam,9035,Willem II,2425,2,0,0.0,3.5
+9019,Nijmegen,9029,Ajax,2425,2,0,0.0,3.0
+9025,PSV Eindhoven,9036,Almere City,2425,2,0,0.0,6.5
+9031,AZ Alkmaar,9036,Almere City,2425,2,1,0.5,1.5
+9029,Ajax,9035,Willem II,2425,2,0,0.0,2.0
+9017,For Sittard,9022,NAC Breda,2425,2,0,0.0,1.0
+9032,Groningen,9034,Heracles,2425,2,1,0.5,3.5
+9021,Feyenoord,9028,Twente,2425,2,0,0.0,5.5
+9025,PSV Eindhoven,9027,Zwolle,2425,2,0,0.0,5.0
+9019,Nijmegen,9022,NAC Breda,2425,2,0,0.0,2.0
+9017,For Sittard,9035,Willem II,2425,2,1,0.5,0.5
+9021,Feyenoord,9025,PSV Eindhoven,2425,2,0,0.0,4.0
+9017,For Sittard,9021,Feyenoord,2425,2,1,0.5,2.0
+9026,Sparta Rotterdam,9037,Waalwijk,2425,2,1,0.5,2.5
+9022,NAC Breda,9032,Groningen,2425,2,1,0.5,3.5
+9026,Sparta Rotterdam,9032,Groningen,2425,2,0,0.0,1.0
+9022,NAC Breda,9031,AZ Alkmaar,2425,2,1,0.5,2.5
+9033,Utrecht,9036,Almere City,2425,2,0,0.0,2.5
+9019,Nijmegen,9036,Almere City,2425,2,1,0.5,2.5
+9022,NAC Breda,9023,Heerenveen,2425,2,0,0.0,5.0
+9022,NAC Breda,9027,Zwolle,2425,2,0,0.0,3.5
+9018,Go Ahead Eagles,9027,Zwolle,2425,2,2,1.0,3.0
+9025,PSV Eindhoven,9031,AZ Alkmaar,2425,2,1,0.5,3.5
+9032,Groningen,9035,Willem II,2425,2,0,0.0,3.0
+9019,Nijmegen,9032,Groningen,2425,2,0,0.0,4.5
+9019,Nijmegen,9037,Waalwijk,2425,2,0,0.0,3.0
+9018,Go Ahead Eagles,9029,Ajax,2425,2,1,0.5,2.0
+9019,Nijmegen,9034,Heracles,2425,2,0,0.0,3.0
+9025,PSV Eindhoven,9029,Ajax,2425,2,0,0.0,3.5
+9017,For Sittard,9033,Utrecht,2425,2,1,0.5,3.5
+9031,AZ Alkmaar,9033,Utrecht,2425,2,1,0.5,1.5
+9034,Heracles,9037,Waalwijk,2425,2,2,1.0,2.0
+9023,Heerenveen,9025,PSV Eindhoven,2425,2,0,0.0,2.0
+9029,Ajax,9033,Utrecht,2425,2,1,0.5,4.0
+9021,Feyenoord,9023,Heerenveen,2425,2,0,0.0,2.5
+9019,Nijmegen,9026,Sparta Rotterdam,2425,2,1,0.5,2.0
+9023,Heerenveen,9034,Heracles,2425,2,1,0.5,2.5
+9027,Zwolle,9037,Waalwijk,2425,2,1,0.5,2.0
+9022,NAC Breda,9033,Utrecht,2425,2,0,0.0,2.0
+9018,Go Ahead Eagles,9037,Waalwijk,2425,2,0,0.0,5.0
+9021,Feyenoord,9032,Groningen,2425,2,1,0.5,4.5
+9025,PSV Eindhoven,9034,Heracles,2425,2,0,0.0,4.5
+9018,Go Ahead Eagles,9035,Willem II,2425,2,0,0.0,1.5
+9022,NAC Breda,9028,Twente,2425,2,0,0.0,2.0
+9021,Feyenoord,9022,NAC Breda,2425,2,1,0.5,1.0
+9019,Nijmegen,9031,AZ Alkmaar,2425,2,1,0.5,3.5
+9031,AZ Alkmaar,9034,Heracles,2425,2,0,0.0,1.0
+9017,For Sittard,9037,Waalwijk,2425,2,0,0.0,4.0
+9028,Twente,9034,Heracles,2425,2,0,0.0,4.0
+9029,Ajax,9034,Heracles,2425,2,0,0.0,5.5
+9017,For Sittard,9019,Nijmegen,2425,2,0,0.0,4.0
+9021,Feyenoord,9029,Ajax,2425,2,0,0.0,2.5
+9023,Heerenveen,9035,Willem II,2425,2,0,0.0,3.5
+9023,Heerenveen,9031,AZ Alkmaar,2425,2,0,0.0,7.0
+9027,Zwolle,9035,Willem II,2425,2,0,0.0,2.0
+9033,Utrecht,9034,Heracles,2425,2,1,0.5,1.5
+9033,Utrecht,9037,Waalwijk,2425,2,0,0.0,4.5
+9031,AZ Alkmaar,9037,Waalwijk,2425,2,1,0.5,3.5
+9028,Twente,9033,Utrecht,2425,2,0,0.0,2.5
+9023,Heerenveen,9027,Zwolle,2425,2,2,1.0,2.0
+9022,NAC Breda,9026,Sparta Rotterdam,2425,2,1,0.5,2.0
+9018,Go Ahead Eagles,9025,PSV Eindhoven,2425,2,0,0.0,4.0
+9028,Twente,9035,Willem II,2425,2,0,0.0,4.5
+9022,NAC Breda,9035,Willem II,2425,2,2,1.0,3.0
+9023,Heerenveen,9032,Groningen,2425,2,0,0.0,2.0
+9028,Twente,9032,Groningen,2425,2,1,0.5,2.0
+9017,For Sittard,9025,PSV Eindhoven,2425,2,0,0.0,4.5
+9025,PSV Eindhoven,9028,Twente,2425,2,0,0.0,5.5
+9021,Feyenoord,9033,Utrecht,2425,2,0,0.0,2.5
+9028,Twente,9037,Waalwijk,2425,2,1,0.5,3.0
+9025,PSV Eindhoven,9037,Waalwijk,2425,2,0,0.0,4.5
+9021,Feyenoord,9034,Heracles,2425,2,0,0.0,6.0
+9021,Feyenoord,9035,Willem II,2425,2,2,1.0,2.0
+9021,Feyenoord,9031,AZ Alkmaar,2425,2,0,0.0,3.0
+9036,Almere City,9037,Waalwijk,2425,2,0,0.0,3.5
+9019,Nijmegen,9033,Utrecht,2425,2,0,0.0,2.0
+9027,Zwolle,9028,Twente,2425,2,2,1.0,2.0
+9026,Sparta Rotterdam,9036,Almere City,2425,2,1,0.5,3.5
+9025,PSV Eindhoven,9033,Utrecht,2425,2,1,0.5,5.5
+9022,NAC Breda,9029,Ajax,2425,2,0,0.0,3.5
+9017,For Sittard,9029,Ajax,2425,2,0,0.0,3.5
+9035,Willem II,9037,Waalwijk,2425,2,0,0.0,2.5
+9027,Zwolle,9034,Heracles,2425,2,0,0.0,4.5
+9017,For Sittard,9018,Go Ahead Eagles,2425,2,0,0.0,2.5
+9029,Ajax,9031,AZ Alkmaar,2425,2,1,0.5,3.5
+9018,Go Ahead Eagles,9021,Feyenoord,2425,2,0,0.0,5.5
+9026,Sparta Rotterdam,9033,Utrecht,2425,2,1,0.5,3.5
+9021,Feyenoord,9027,Zwolle,2425,2,0,0.0,5.0
+9017,For Sittard,9028,Twente,2425,2,1,0.5,2.5
+9023,Heerenveen,9026,Sparta Rotterdam,2425,2,0,0.0,3.0
+9032,Groningen,9033,Utrecht,2425,2,0,0.0,2.5
+9023,Heerenveen,9029,Ajax,2425,2,0,0.0,1.5
+9034,Heracles,9036,Almere City,2425,2,1,0.5,1.0
+9023,Heerenveen,9036,Almere City,2425,2,0,0.0,3.0
+9025,PSV Eindhoven,9032,Groningen,2425,2,0,0.0,4.5
+9028,Twente,9031,AZ Alkmaar,2425,2,0,0.0,3.0
+9018,Go Ahead Eagles,9028,Twente,2425,2,1,0.5,4.5
+9017,For Sittard,9023,Heerenveen,2425,2,1,0.5,3.5
+9026,Sparta Rotterdam,9027,Zwolle,2425,2,1,0.5,1.5
+9028,Twente,9029,Ajax,2425,2,1,0.5,3.0
+9029,Ajax,9037,Waalwijk,2425,2,0,0.0,2.5
+9021,Feyenoord,9036,Almere City,2425,2,0,0.0,4.0
+9026,Sparta Rotterdam,9031,AZ Alkmaar,2425,2,0,0.0,3.0
+9019,Nijmegen,9025,PSV Eindhoven,2425,2,1,0.5,4.0
+9035,Willem II,9036,Almere City,2425,2,0,0.0,1.5
+9023,Heerenveen,9028,Twente,2425,2,1,0.5,4.0
+9018,Go Ahead Eagles,9033,Utrecht,2425,2,2,1.0,5.0
+9018,Go Ahead Eagles,9023,Heerenveen,2425,2,0,0.0,1.0
+9031,AZ Alkmaar,9035,Willem II,2425,2,0,0.0,2.5
+9019,Nijmegen,9028,Twente,2425,2,0,0.0,2.5
+9032,Groningen,9036,Almere City,2425,2,2,1.0,1.0
+9022,NAC Breda,9025,PSV Eindhoven,2425,2,0,0.0,4.0
+9027,Zwolle,9031,AZ Alkmaar,2425,2,0,0.0,2.5
+9028,Twente,9036,Almere City,2425,2,0,0.0,3.0
+9021,Feyenoord,9037,Waalwijk,2425,2,0,0.0,3.5
+9018,Go Ahead Eagles,9026,Sparta Rotterdam,2425,2,0,0.0,2.0
+9023,Heerenveen,9033,Utrecht,2425,2,1,0.5,2.0
+9017,For Sittard,9032,Groningen,2425,2,0,0.0,1.0
+9033,Utrecht,9035,Willem II,2425,2,0,0.0,5.0
+9018,Go Ahead Eagles,9031,AZ Alkmaar,2425,2,1,0.5,3.5
+9017,For Sittard,9027,Zwolle,2425,2,0,0.0,4.5
+9018,Go Ahead Eagles,9034,Heracles,2425,2,0,0.0,5.5
+9018,Go Ahead Eagles,9036,Almere City,2425,2,1,0.5,1.5
+9034,Heracles,9035,Willem II,2425,2,1,0.5,2.5
+9029,Ajax,9036,Almere City,2425,2,0,0.0,2.0
+9022,NAC Breda,9036,Almere City,2425,2,1,0.5,1.5
+9019,Nijmegen,9021,Feyenoord,2425,2,2,1.0,1.0
+9017,For Sittard,9034,Heracles,2425,2,1,0.5,2.5
+9029,Ajax,9032,Groningen,2425,2,1,0.5,4.0
+9017,For Sittard,9026,Sparta Rotterdam,2425,2,1,0.5,2.5
+9019,Nijmegen,9023,Heerenveen,2425,2,0,0.0,2.0
+9025,PSV Eindhoven,9026,Sparta Rotterdam,2425,2,0,0.0,3.5
+9018,Go Ahead Eagles,9019,Nijmegen,2425,2,0,0.0,5.0
+9019,Nijmegen,9027,Zwolle,2425,2,0,0.0,1.0

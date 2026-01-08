@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+NO1,1718,2017-01-10,Sparta Rotterdam,Roda,6,24,True
+NO1,1718,2017-01-10,AZ Alkmaar,Feyenoord,6,24,True
+NO1,1718,2017-01-10,Vitesse,Utrecht,24,6,True
+NO1,1718,2017-01-10,Heerenveen,Ajax,6,23,True
+NO1,1718,2017-01-12,Zwolle,Utrecht,8,2,True
+NO1,1718,2017-02-12,Feyenoord,Vitesse,8,8,False
+NO1,1718,2017-02-12,Den Haag,Groningen,8,14,False
+NO1,1718,2017-02-12,Willem II,Heracles,16,15,False
+NO1,1718,2017-02-12,Twente,Ajax,8,8,False
+NO1,1718,2017-03-11,Sparta Rotterdam,Heerenveen,14,8,False
+NO1,1718,2017-03-12,Roda,Heerenveen,15,1,False
+NO1,1718,2017-03-12,VVV Venlo,AZ Alkmaar,7,14,False
+NO1,1718,2017-03-12,NAC Breda,Excelsior,7,15,False
+NO1,1718,2017-03-12,PSV Eindhoven,Sparta Rotterdam,14,1,False
+NO1,1718,2017-04-11,Heracles,Groningen,9,9,True
+NO1,1718,2017-04-11,VVV Venlo,NAC Breda,30,30,True
+NO1,1718,2017-04-11,AZ Alkmaar,Willem II,9,8,True
+NO1,1718,2017-04-11,Excelsior,Roda,7,8,True
+NO1,1718,2017-05-11,PSV Eindhoven,Twente,18,9,True
+NO1,1718,2017-05-11,Vitesse,Zwolle,7,9,True
+NO1,1718,2017-05-11,Ajax,Utrecht,7,8,True
+NO1,1718,2017-05-11,Den Haag,Feyenoord,7,7,True
+NO1,1718,2017-08-12,Willem II,NAC Breda,38,123,False
+NO1,1718,2017-08-13,Feyenoord,Twente,39,39,False
+NO1,1718,2017-08-13,Zwolle,Roda,39,39,False
+NO1,1718,2017-08-13,Willem II,Excelsior,1,39,False
+NO1,1718,2017-08-13,Groningen,Heerenveen,9,9,False
+NO1,1718,2017-08-18,Roda,Vitesse,5,14,False
+NO1,1718,2017-08-19,AZ Alkmaar,Den Haag,45,15,False
+NO1,1718,2017-08-19,Heerenveen,Heracles,6,15,False
+NO1,1718,2017-08-19,Twente,VVV Venlo,6,130,False
+NO1,1718,2017-08-20,Ajax,Groningen,16,7,False
+NO1,1718,2017-08-20,Excelsior,Feyenoord,7,7,False
+NO1,1718,2017-08-20,Utrecht,Willem II,46,7,False
+NO1,1718,2017-08-20,Sparta Rotterdam,Zwolle,46,7,False
+NO1,1718,2017-08-20,NAC Breda,PSV Eindhoven,8,46,False
+NO1,1718,2017-08-25,NAC Breda,Sparta Rotterdam,5,5,False
+NO1,1718,2017-08-26,Den Haag,Heerenveen,7,7,False
+NO1,1718,2017-08-26,Vitesse,AZ Alkmaar,8,7,False
+NO1,1718,2017-08-26,Zwolle,Twente,6,7,False
+NO1,1718,2017-08-26,Heracles,Excelsior,7,6,False
+NO1,1718,2017-08-27,PSV Eindhoven,Roda,7,9,False
+NO1,1718,2017-08-27,VVV Venlo,Ajax,8,7,False
+NO1,1718,2017-08-27,Feyenoord,Willem II,7,7,False
+NO1,1718,2017-08-27,Groningen,Utrecht,7,7,False
+NO1,1718,2017-09-09,Excelsior,Vitesse,14,14,False
+NO1,1718,2017-09-09,Willem II,Den Haag,5,14,False
+NO1,1718,2017-09-09,Ajax,Zwolle,13,5,False
+NO1,1718,2017-09-09,Heracles,Feyenoord,14,5,False
+NO1,1718,2017-09-12,Excelsior,Zwolle,3,3,True
+NO1,1718,2017-09-12,Heerenveen,VVV Venlo,17,16,True
+NO1,1718,2017-09-12,Twente,Den Haag,8,3,True
+NO1,1718,2017-09-12,AZ Alkmaar,Heracles,8,3,True
+NO1,1718,2017-09-15,Sparta Rotterdam,AZ Alkmaar,21,3,False
+NO1,1718,2017-09-16,Excelsior,Heerenveen,4,4,False
+NO1,1718,2017-09-16,NAC Breda,Groningen,22,20,False
+NO1,1718,2017-09-16,Roda,Willem II,12,7,False
+NO1,1718,2017-09-16,Zwolle,Heracles,4,4,False
+NO1,1718,2017-09-17,Vitesse,VVV Venlo,8,5,False
+NO1,1718,2017-09-17,Den Haag,Ajax,5,8,False
+NO1,1718,2017-09-17,PSV Eindhoven,Feyenoord,13,8,False
+NO1,1718,2017-09-17,Twente,Utrecht,5,13,False
+NO1,1718,2017-09-23,Heracles,Roda,7,7,False
+NO1,1718,2017-09-23,Willem II,Heerenveen,7,7,False
+NO1,1718,2017-09-23,Feyenoord,NAC Breda,6,7,False
+NO1,1718,2017-09-23,Den Haag,Sparta Rotterdam,6,8,False
+NO1,1718,2017-09-24,Utrecht,PSV Eindhoven,7,7,False
+NO1,1718,2017-09-24,VVV Venlo,Zwolle,7,8,False
+NO1,1718,2017-09-24,AZ Alkmaar,Excelsior,9,8,False
+NO1,1718,2017-09-24,Ajax,Vitesse,7,7,False
+NO1,1718,2017-09-24,Groningen,Twente,8,7,False
+NO1,1718,2017-09-29,Twente,Heracles,5,6,False
+NO1,1718,2017-09-30,Zwolle,Groningen,6,6,False
+NO1,1718,2017-09-30,Excelsior,VVV Venlo,6,6,False
+NO1,1718,2017-09-30,NAC Breda,Den Haag,7,7,False
+NO1,1718,2017-09-30,PSV Eindhoven,Willem II,6,7,False
+NO1,1718,2017-10-09,Sparta Rotterdam,Twente,6,10,False
+NO1,1718,2017-10-09,Heerenveen,PSV Eindhoven,16,9,False
+NO1,1718,2017-10-09,AZ Alkmaar,NAC Breda,15,9,False
+NO1,1718,2017-10-09,Groningen,VVV Venlo,9,9,False
+NO1,1718,2017-10-09,Utrecht,Roda,15,16,False
+NO1,1718,2017-10-12,Roda,Groningen,3,3,True
+NO1,1718,2017-10-12,Ajax,PSV Eindhoven,18,3,True
+NO1,1718,2017-10-14,Ajax,Sparta Rotterdam,2,5,False
+NO1,1718,2017-10-14,Utrecht,Heerenveen,5,5,False
+NO1,1718,2017-10-14,Roda,NAC Breda,2,5,False
+NO1,1718,2017-10-14,Feyenoord,Zwolle,21,12,False
+NO1,1718,2017-10-15,Groningen,AZ Alkmaar,3,6,False
+NO1,1718,2017-10-15,Den Haag,Excelsior,15,15,False
+NO1,1718,2017-10-15,Willem II,Twente,15,6,False
+NO1,1718,2017-10-15,VVV Venlo,PSV Eindhoven,6,3,False
+NO1,1718,2017-10-15,Heracles,Vitesse,16,12,False
+NO1,1718,2017-10-20,Groningen,Willem II,5,5,False
+NO1,1718,2017-10-21,Excelsior,Sparta Rotterdam,6,7,False
+NO1,1718,2017-10-21,VVV Venlo,Den Haag,6,6,False
+NO1,1718,2017-10-21,Twente,Roda,6,7,False
+NO1,1718,2017-10-21,NAC Breda,Zwolle,7,7,False
+NO1,1718,2017-10-22,AZ Alkmaar,Utrecht,7,8,False
+NO1,1718,2017-10-22,Feyenoord,Ajax,8,8,False
+NO1,1718,2017-10-22,Heerenveen,Vitesse,8,7,False
+NO1,1718,2017-10-22,PSV Eindhoven,Heracles,7,7,False
+NO1,1718,2017-10-27,Twente,Excelsior,6,6,False
+NO1,1718,2017-10-28,Willem II,Ajax,8,6,False
+NO1,1718,2017-10-28,Zwolle,Den Haag,7,7,False
+NO1,1718,2017-10-28,Heracles,VVV Venlo,6,7,False
+NO1,1718,2017-10-28,Roda,Feyenoord,7,6,False
+NO1,1718,2017-10-29,Utrecht,NAC Breda,7,8,False
+NO1,1718,2017-10-29,Vitesse,PSV Eindhoven,7,7,False
+NO1,1718,2017-10-29,Sparta Rotterdam,Groningen,8,9,False
+NO1,1718,2017-10-29,Heerenveen,AZ Alkmaar,7,7,False
+NO1,1718,2017-11-08,Den Haag,Utrecht,5,5,True
+NO1,1718,2017-11-18,Willem II,Sparta Rotterdam,16,20,False
+NO1,1718,2017-11-18,Twente,Heerenveen,22,15,False
+NO1,1718,2017-11-18,NAC Breda,Ajax,20,21,False
+NO1,1718,2017-11-18,Feyenoord,VVV Venlo,16,21,False
+NO1,1718,2017-11-19,Utrecht,Excelsior,11,16,False
+NO1,1718,2017-11-19,Den Haag,Heracles,11,16,False
+NO1,1718,2017-11-19,Groningen,Vitesse,17,17,False
+NO1,1718,2017-11-19,Roda,AZ Alkmaar,17,21,False
+NO1,1718,2017-11-19,Zwolle,PSV Eindhoven,22,16,False
+NO1,1718,2017-11-24,AZ Alkmaar,Twente,5,6,False
+NO1,1718,2017-11-25,VVV Venlo,Willem II,7,7,False
+NO1,1718,2017-11-25,Heracles,NAC Breda,6,7,False
+NO1,1718,2017-11-25,Groningen,Feyenoord,6,7,False
+NO1,1718,2017-11-25,Heerenveen,Zwolle,7,6,False
+NO1,1718,2017-11-26,Excelsior,PSV Eindhoven,7,7,False
+NO1,1718,2017-11-26,Vitesse,Den Haag,7,7,False
+NO1,1718,2017-11-26,Ajax,Roda,8,7,False
+NO1,1718,2017-11-26,Sparta Rotterdam,Utrecht,8,7,False
+NO1,1718,2017-12-08,Heracles,Ajax,13,5,False
+NO1,1718,2017-12-08,PSV Eindhoven,AZ Alkmaar,6,5,False
+NO1,1718,2017-12-08,VVV Venlo,Sparta Rotterdam,13,6,False
+NO1,1718,2017-12-08,Vitesse,NAC Breda,12,13,False
+NO1,1718,2017-12-12,Zwolle,AZ Alkmaar,9,4,True
+NO1,1718,2017-12-12,NAC Breda,Twente,4,9,True
+NO1,1718,2017-12-13,Feyenoord,Heerenveen,10,11,True
+NO1,1718,2017-12-13,Groningen,PSV Eindhoven,10,5,True
+NO1,1718,2017-12-13,Vitesse,Willem II,5,10,True
+NO1,1718,2017-12-13,VVV Venlo,Utrecht,5,11,True
+NO1,1718,2017-12-13,Den Haag,Roda,17,10,True
+NO1,1718,2017-12-14,Heracles,Sparta Rotterdam,6,6,True
+NO1,1718,2017-12-14,Ajax,Excelsior,6,12,True
+NO1,1718,2017-12-16,PSV Eindhoven,Den Haag,3,3,False
+NO1,1718,2017-12-16,Roda,VVV Venlo,3,3,False
+NO1,1718,2017-12-16,Twente,Vitesse,4,3,False
+NO1,1718,2017-12-16,Willem II,Zwolle,3,4,False
+NO1,1718,2017-12-16,Heerenveen,NAC Breda,3,4,False
+NO1,1718,2017-12-17,Excelsior,Groningen,3,4,False
+NO1,1718,2017-12-17,Sparta Rotterdam,Feyenoord,3,4,False
+NO1,1718,2017-12-17,Utrecht,Heracles,4,3,False
+NO1,1718,2017-12-17,AZ Alkmaar,Ajax,5,3,False
+NO1,1718,2017-12-22,Den Haag,Zwolle,6,6,False
+NO1,1718,2017-12-23,NAC Breda,Utrecht,7,6,False
+NO1,1718,2017-12-23,AZ Alkmaar,Heerenveen,6,7,False
+NO1,1718,2017-12-23,Excelsior,Twente,6,7,False
+NO1,1718,2017-12-23,PSV Eindhoven,Vitesse,7,7,False
+NO1,1718,2017-12-24,Feyenoord,Roda,7,8,False
+NO1,1718,2017-12-24,Groningen,Sparta Rotterdam,7,7,False
+NO1,1718,2017-12-24,VVV Venlo,Heracles,8,7,False
+NO1,1718,2017-12-24,Ajax,Willem II,7,8,False
+NO1,1718,2018-01-04,VVV Venlo,Twente,11,12,True
+NO1,1718,2018-01-04,Feyenoord,Excelsior,11,12,True
+NO1,1718,2018-01-04,Groningen,Ajax,11,11,True
+NO1,1718,2018-01-04,Heracles,Heerenveen,11,12,True
+NO1,1718,2018-01-16,Sparta Rotterdam,Vitesse,23,24,True
+NO1,1718,2018-01-19,Utrecht,AZ Alkmaar,27,27,False
+NO1,1718,2018-01-20,Zwolle,NAC Breda,29,28,False
+NO1,1718,2018-01-20,Den Haag,VVV Venlo,29,16,False
+NO1,1718,2018-01-20,Roda,Twente,27,16,False
+NO1,1718,2018-01-20,Vitesse,Heerenveen,4,16,False
+NO1,1718,2018-01-21,Heracles,PSV Eindhoven,17,29,False
+NO1,1718,2018-01-21,Willem II,Groningen,28,17,False
+NO1,1718,2018-01-21,Sparta Rotterdam,Excelsior,5,17,False
+NO1,1718,2018-01-21,Ajax,Feyenoord,17,17,False
+NO1,1718,2018-01-24,Utrecht,Feyenoord,5,3,True
+NO1,1718,2018-01-26,Heerenveen,Sparta Rotterdam,6,5,False
+NO1,1718,2018-01-27,Groningen,Heracles,6,6,False
+NO1,1718,2018-01-27,Zwolle,Vitesse,7,7,False
+NO1,1718,2018-01-27,Twente,PSV Eindhoven,7,6,False
+NO1,1718,2018-01-27,NAC Breda,VVV Venlo,7,7,False
+NO1,1718,2018-01-28,Roda,Excelsior,8,7,False
+NO1,1718,2018-01-28,Utrecht,Ajax,4,7,False
+NO1,1718,2018-01-28,Willem II,AZ Alkmaar,7,9,False
+NO1,1718,2018-01-28,Feyenoord,Den Haag,4,8,False
+NO1,1718,2018-02-02,Vitesse,Groningen,6,6,False
+NO1,1718,2018-02-03,Roda,Heracles,6,7,False
+NO1,1718,2018-02-16,VVV Venlo,Groningen,20,14,False
+NO1,1718,2018-02-17,Den Haag,Willem II,20,20,False
+NO1,1718,2018-02-17,Vitesse,Excelsior,15,20,False
+NO1,1718,2018-02-17,PSV Eindhoven,Heerenveen,21,22,False
+NO1,1718,2018-02-17,NAC Breda,AZ Alkmaar,21,20,False
+NO1,1718,2018-02-18,Feyenoord,Heracles,21,15,False
+NO1,1718,2018-02-18,Zwolle,Ajax,22,21,False
+NO1,1718,2018-02-18,Twente,Sparta Rotterdam,22,23,False
+NO1,1718,2018-02-18,Roda,Utrecht,15,21,False
+NO1,1718,2018-02-23,Groningen,NAC Breda,7,6,False
+NO1,1718,2018-02-24,VVV Venlo,Vitesse,8,7,False
+NO1,1718,2018-02-24,Heerenveen,Excelsior,7,7,False
+NO1,1718,2018-02-24,AZ Alkmaar,Sparta Rotterdam,7,6,False
+NO1,1718,2018-02-24,Heracles,Zwolle,6,6,False
+NO1,1718,2018-02-25,Utrecht,Twente,7,7,False
+NO1,1718,2018-02-25,Willem II,Roda,8,7,False
+NO1,1718,2018-02-25,Feyenoord,PSV Eindhoven,7,8,False
+NO1,1718,2018-02-25,Ajax,Den Haag,7,8,False
+NO1,1718,2018-03-02,PSV Eindhoven,Zwolle,5,6,False
+NO1,1718,2018-03-02,Heerenveen,Twente,6,5,False
+NO1,1718,2018-03-02,Heracles,Den Haag,6,5,False
+NO1,1718,2018-03-03,NAC Breda,Feyenoord,8,6,False
+NO1,1718,2018-03-03,PSV Eindhoven,Utrecht,1,6,False
+NO1,1718,2018-03-03,Excelsior,AZ Alkmaar,7,7,False
+NO1,1718,2018-03-03,Heerenveen,Willem II,1,6,False
+NO1,1718,2018-03-16,Excelsior,Den Haag,13,14,False
+NO1,1718,2018-03-17,PSV Eindhoven,VVV Venlo,14,21,False
+NO1,1718,2018-03-17,Twente,Willem II,15,14,False
+NO1,1718,2018-03-17,Vitesse,Heracles,21,15,False
+NO1,1718,2018-03-17,Heerenveen,Utrecht,14,14,False
+NO1,1718,2018-03-18,Sparta Rotterdam,Ajax,22,21,False
+NO1,1718,2018-03-18,AZ Alkmaar,Groningen,15,23,False
+NO1,1718,2018-03-18,NAC Breda,Roda,15,21,False
+NO1,1718,2018-03-18,Zwolle,Feyenoord,16,15,False
+NO1,1718,2018-03-31,PSV Eindhoven,NAC Breda,14,13,False
+NO1,1718,2018-03-31,Zwolle,Sparta Rotterdam,13,13,False
+NO1,1718,2018-03-31,Willem II,Utrecht,14,14,False
+NO1,1718,2018-03-31,Vitesse,Roda,14,13,False
+NO1,1718,2018-03-31,Den Haag,AZ Alkmaar,15,13,False
+NO1,1718,2018-04-02,Sparta Rotterdam,Willem II,2,2,False
+NO1,1718,2018-04-02,VVV Venlo,Feyenoord,16,15,False
+NO1,1718,2018-04-02,Ajax,NAC Breda,15,2,False
+NO1,1718,2018-04-02,AZ Alkmaar,Roda,2,2,False
+NO1,1718,2018-04-02,Excelsior,Utrecht,17,2,False
+NO1,1718,2018-04-03,Twente,Groningen,17,16,True
+NO1,1718,2018-04-03,Vitesse,Ajax,3,1,True
+NO1,1718,2018-04-03,Zwolle,VVV Venlo,3,1,True
+NO1,1718,2018-04-03,Sparta Rotterdam,Den Haag,1,3,True
+NO1,1718,2018-04-13,Heracles,AZ Alkmaar,27,11,False
+NO1,1718,2018-04-14,VVV Venlo,Heerenveen,11,28,False
+NO1,1718,2018-04-14,Vitesse,Sparta Rotterdam,11,11,False
+NO1,1718,2018-04-14,Den Haag,Twente,11,11,False
+NO1,1718,2018-04-14,Zwolle,Excelsior,11,12,False
+NO1,1718,2018-04-15,PSV Eindhoven,Ajax,15,12,False
+NO1,1718,2018-04-15,NAC Breda,Willem II,13,13,False
+NO1,1718,2018-04-15,Groningen,Roda,12,13,False
+NO1,1718,2018-04-15,Feyenoord,Utrecht,13,13,False
+NO1,1718,2018-04-17,Twente,Zwolle,3,3,True
+NO1,1718,2018-04-17,Heerenveen,Den Haag,3,3,True
+NO1,1718,2018-04-18,Sparta Rotterdam,NAC Breda,4,3,True
+NO1,1718,2018-04-18,Excelsior,Heracles,4,5,True
+NO1,1718,2018-04-18,AZ Alkmaar,Vitesse,5,4,True
+NO1,1718,2018-04-18,Willem II,Feyenoord,3,3,True
+NO1,1718,2018-04-18,Roda,PSV Eindhoven,3,3,True
+NO1,1718,2018-04-19,Utrecht,Groningen,4,4,True
+NO1,1718,2018-04-19,Ajax,VVV Venlo,4,5,True
+NO1,1718,2018-04-29,Zwolle,Willem II,12,11,False
+NO1,1718,2018-04-29,Ajax,AZ Alkmaar,10,11,False
+NO1,1718,2018-04-29,Den Haag,PSV Eindhoven,12,11,False
+NO1,1718,2018-04-29,Feyenoord,Sparta Rotterdam,11,11,False
+NO1,1718,2018-04-29,Groningen,Excelsior,10,11,False
+NO1,1718,2018-04-29,Heracles,Utrecht,11,10,False
+NO1,1718,2018-04-29,NAC Breda,Heerenveen,11,12,False
+NO1,1718,2018-04-29,Vitesse,Twente,11,12,False
+NO1,1718,2018-04-29,VVV Venlo,Roda,10,11,False
+NO1,1718,2018-06-02,Zwolle,Heerenveen,34,34,False
+NO1,1718,2018-06-04,Excelsior,Willem II,36,36,False
+NO1,1718,2018-06-05,PSV Eindhoven,Groningen,37,37,True
+NO1,1718,2018-06-05,Heerenveen,Feyenoord,3,37,True
+NO1,1718,2018-06-05,Sparta Rotterdam,Heracles,37,37,True
+NO1,1718,2018-06-05,Roda,Den Haag,37,37,True
+NO1,1718,2018-06-05,Utrecht,VVV Venlo,37,37,True
+NO1,1718,2018-06-05,Willem II,Vitesse,1,37,True
+NO1,1718,2018-06-05,Excelsior,Ajax,1,37,True
+NO1,1718,2018-06-05,AZ Alkmaar,Zwolle,37,3,True
+NO1,1718,2018-06-05,Twente,NAC Breda,37,37,True
+NO1,1718,2018-07-02,Roda,Ajax,27,27,False
+NO1,1718,2018-07-02,PSV Eindhoven,Excelsior,27,27,False
+NO1,1718,2018-07-02,NAC Breda,Heracles,27,27,False
+NO1,1718,2018-07-02,Willem II,VVV Venlo,27,27,False
+NO1,1718,2018-07-02,Utrecht,Sparta Rotterdam,27,27,False
+NO1,1718,2018-07-02,Twente,AZ Alkmaar,27,27,False
+NO1,1718,2018-07-04,Roda,Zwolle,2,29,True
+NO1,1718,2018-07-04,Sparta Rotterdam,VVV Venlo,2,2,True
+NO1,1718,2018-07-04,AZ Alkmaar,PSV Eindhoven,2,2,True
+NO1,1718,2018-07-04,NAC Breda,Vitesse,2,29,True
+NO1,1718,2018-08-02,Feyenoord,Groningen,58,58,True
+NO1,1718,2018-08-02,Den Haag,Vitesse,58,29,True
+NO1,1718,2018-08-04,Heerenveen,Groningen,60,2,False
+NO1,1718,2018-08-04,Ajax,Heracles,33,33,False
+NO1,1718,2018-08-04,Twente,Feyenoord,33,2,False
+NO1,1718,2018-08-04,Utrecht,Den Haag,33,2,False
+NO1,1718,2018-09-03,Heracles,Twente,1,30,False
+NO1,1718,2018-10-02,Sparta Rotterdam,PSV Eindhoven,90,3,True
+NO1,1718,2018-10-02,Heracles,Willem II,2,2,True
+NO1,1718,2018-10-02,Heerenveen,Roda,3,90,True
+NO1,1718,2018-10-02,Utrecht,Zwolle,2,2,True
+NO1,1718,2018-10-02,AZ Alkmaar,VVV Venlo,2,3,True
+NO1,1718,2018-10-03,Den Haag,NAC Breda,4,4,True
+NO1,1718,2018-10-03,Roda,Sparta Rotterdam,1,1,True
+NO1,1718,2018-10-03,VVV Venlo,Excelsior,1,4,True
+NO1,1718,2018-10-03,Willem II,PSV Eindhoven,1,1,True
+NO1,1718,2018-11-02,Groningen,Den Haag,6,6,False
+NO1,1718,2018-11-02,Ajax,Twente,5,60,False
+NO1,1718,2018-11-02,Vitesse,Feyenoord,5,5,False
+NO1,1718,2018-11-02,Excelsior,NAC Breda,6,6,False
+NO1,1718,2018-11-03,Ajax,Heerenveen,1,6,False
+NO1,1718,2018-11-03,Feyenoord,AZ Alkmaar,1,6,False
+NO1,1718,2018-11-03,Groningen,Zwolle,1,7,False
+NO1,1718,2018-11-03,Utrecht,Vitesse,6,1,False

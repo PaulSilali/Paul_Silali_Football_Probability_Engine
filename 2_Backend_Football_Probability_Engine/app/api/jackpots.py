@@ -346,7 +346,8 @@ async def get_jackpot(
             ],
             "createdAt": jackpot.created_at.isoformat(),
             "modelVersion": jackpot.model_version or "unknown",
-            "status": jackpot.status
+            "status": jackpot.status,
+            "pipelineMetadata": jackpot.pipeline_metadata  # Include pipeline metadata
         },
         success=True
     )

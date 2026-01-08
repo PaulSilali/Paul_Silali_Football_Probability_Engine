@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+PL1,2223,2022-08-05,Benfica,Arouca,84,83,False
+PL1,2223,2022-08-06,Rio Ave,Vizela,444,84,False
+PL1,2223,2022-08-06,Porto,Maritimo,84,84,False
+PL1,2223,2022-08-06,Estoril,Famalicao,84,83,False
+PL1,2223,2022-08-07,Santa Clara,Casa Pia,85,7,False
+PL1,2223,2022-08-07,Chaves,Guimaraes,1176,84,False
+PL1,2223,2022-08-07,Portimonense,Boavista,85,85,False
+PL1,2223,2022-08-07,Sp Braga,Sp Lisbon,84,85,False
+PL1,2223,2022-08-08,Gil Vicente,Pacos Ferreira,85,87,False
+PL1,2223,2022-08-12,Famalicao,Sp Braga,6,5,False
+PL1,2223,2022-08-13,Sp Lisbon,Rio Ave,6,7,False
+PL1,2223,2022-08-13,Casa Pia,Benfica,6,8,False
+PL1,2223,2022-08-14,Guimaraes,Estoril,7,8,False
+PL1,2223,2022-08-14,Boavista,Santa Clara,7,7,False
+PL1,2223,2022-08-14,Vizela,Porto,8,8,False
+PL1,2223,2022-08-15,Pacos Ferreira,Portimonense,7,8,False
+PL1,2223,2022-08-15,Maritimo,Chaves,9,8,False
+PL1,2223,2022-08-15,Arouca,Gil Vicente,10,7,False
+PL1,2223,2022-08-19,Estoril,Rio Ave,5,6,False
+PL1,2223,2022-08-20,Porto,Sp Lisbon,6,7,False
+PL1,2223,2022-08-20,Chaves,Vizela,5,6,False
+PL1,2223,2022-08-20,Santa Clara,Arouca,6,5,False
+PL1,2223,2022-08-21,Portimonense,Guimaraes,6,7,False
+PL1,2223,2022-08-21,Casa Pia,Boavista,8,7,False
+PL1,2223,2022-08-21,Sp Braga,Maritimo,9,6,False
+PL1,2223,2022-08-22,Gil Vicente,Famalicao,7,10,False
+PL1,2223,2022-08-26,Pacos Ferreira,Estoril,11,7,False
+PL1,2223,2022-08-27,Sp Lisbon,Chaves,7,7,False
+PL1,2223,2022-08-27,Maritimo,Portimonense,6,6,False
+PL1,2223,2022-08-27,Boavista,Benfica,6,14,False
+PL1,2223,2022-08-28,Rio Ave,Porto,9,8,False
+PL1,2223,2022-08-28,Arouca,Sp Braga,8,7,False
+PL1,2223,2022-08-28,Famalicao,Santa Clara,6,8,False
+PL1,2223,2022-08-29,Guimaraes,Casa Pia,8,8,False
+PL1,2223,2022-08-29,Vizela,Gil Vicente,9,7,False
+PL1,2223,2022-08-30,Benfica,Pacos Ferreira,3,4,True
+PL1,2223,2022-09-02,Estoril,Sp Lisbon,7,6,False
+PL1,2223,2022-09-02,Benfica,Vizela,3,4,False
+PL1,2223,2022-09-03,Sp Braga,Guimaraes,6,5,False
+PL1,2223,2022-09-03,Gil Vicente,Porto,5,6,False
+PL1,2223,2022-09-04,Casa Pia,Arouca,6,7,False
+PL1,2223,2022-09-04,Santa Clara,Maritimo,7,8,False
+PL1,2223,2022-09-04,Portimonense,Famalicao,8,7,False
+PL1,2223,2022-09-05,Chaves,Rio Ave,9,8,False
+PL1,2223,2022-09-05,Boavista,Pacos Ferreira,9,6,False
+PL1,2223,2022-09-09,Guimaraes,Santa Clara,6,5,False
+PL1,2223,2022-09-10,Porto,Chaves,7,5,False
+PL1,2223,2022-09-10,Sp Lisbon,Portimonense,8,6,False
+PL1,2223,2022-09-10,Famalicao,Benfica,6,8,False
+PL1,2223,2022-09-11,Maritimo,Gil Vicente,7,8,False
+PL1,2223,2022-09-11,Rio Ave,Sp Braga,6,8,False
+PL1,2223,2022-09-11,Pacos Ferreira,Casa Pia,6,7,False
+PL1,2223,2022-09-11,Arouca,Boavista,7,6,False
+PL1,2223,2022-09-12,Vizela,Estoril,10,10,False
+PL1,2223,2022-09-16,Portimonense,Chaves,6,6,False
+PL1,2223,2022-09-17,Estoril,Porto,5,7,False
+PL1,2223,2022-09-17,Boavista,Sp Lisbon,6,7,False
+PL1,2223,2022-09-17,Gil Vicente,Rio Ave,6,6,False
+PL1,2223,2022-09-17,Santa Clara,Pacos Ferreira,8,6,False
+PL1,2223,2022-09-18,Casa Pia,Famalicao,7,8,False
+PL1,2223,2022-09-18,Sp Braga,Vizela,7,6,False
+PL1,2223,2022-09-18,Benfica,Maritimo,8,7,False
+PL1,2223,2022-09-18,Arouca,Guimaraes,7,9,False
+PL1,2223,2022-09-30,Porto,Sp Braga,13,12,False
+PL1,2223,2022-09-30,Sp Lisbon,Gil Vicente,13,13,False
+PL1,2223,2022-10-01,Guimaraes,Benfica,13,13,False
+PL1,2223,2022-10-01,Vizela,Portimonense,13,15,False
+PL1,2223,2022-10-01,Chaves,Estoril,15,14,False
+PL1,2223,2022-10-02,Famalicao,Boavista,14,15,False
+PL1,2223,2022-10-02,Pacos Ferreira,Arouca,15,14,False
+PL1,2223,2022-10-02,Rio Ave,Santa Clara,15,15,False
+PL1,2223,2022-10-03,Maritimo,Casa Pia,15,15,False
+PL1,2223,2022-10-07,Gil Vicente,Estoril,7,6,False
+PL1,2223,2022-10-08,Santa Clara,Sp Lisbon,6,8,False
+PL1,2223,2022-10-08,Benfica,Rio Ave,7,6,False
+PL1,2223,2022-10-08,Portimonense,Porto,7,8,False
+PL1,2223,2022-10-08,Pacos Ferreira,Guimaraes,6,7,False
+PL1,2223,2022-10-09,Casa Pia,Vizela,6,8,False
+PL1,2223,2022-10-09,Boavista,Maritimo,7,6,False
+PL1,2223,2022-10-09,Sp Braga,Chaves,9,8,False
+PL1,2223,2022-10-10,Arouca,Famalicao,8,8,False
+PL1,2223,2022-10-21,Porto,Benfica,13,13,False
+PL1,2223,2022-10-22,Estoril,Sp Braga,15,13,False
+PL1,2223,2022-10-22,Sp Lisbon,Casa Pia,14,13,False
+PL1,2223,2022-10-22,Famalicao,Pacos Ferreira,12,14,False
+PL1,2223,2022-10-23,Chaves,Gil Vicente,14,16,False
+PL1,2223,2022-10-23,Guimaraes,Boavista,15,14,False
+PL1,2223,2022-10-23,Maritimo,Arouca,14,13,False
+PL1,2223,2022-10-23,Vizela,Santa Clara,14,15,False
+PL1,2223,2022-10-24,Rio Ave,Portimonense,16,16,False
+PL1,2223,2022-10-28,Pacos Ferreira,Maritimo,6,5,False
+PL1,2223,2022-10-29,Arouca,Sp Lisbon,6,7,False
+PL1,2223,2022-10-29,Santa Clara,Porto,6,8,False
+PL1,2223,2022-10-29,Benfica,Chaves,8,6,False
+PL1,2223,2022-10-30,Casa Pia,Rio Ave,8,6,False
+PL1,2223,2022-10-30,Gil Vicente,Sp Braga,7,8,False
+PL1,2223,2022-10-30,Portimonense,Estoril,6,8,False
+PL1,2223,2022-10-30,Boavista,Vizela,7,7,False
+PL1,2223,2022-10-31,Guimaraes,Famalicao,8,9,False
+PL1,2223,2022-11-04,Gil Vicente,Portimonense,5,5,False
+PL1,2223,2022-11-05,Sp Lisbon,Guimaraes,7,5,False
+PL1,2223,2022-11-05,Vizela,Arouca,6,7,False
+PL1,2223,2022-11-05,Porto,Pacos Ferreira,7,8,False
+PL1,2223,2022-11-06,Sp Braga,Casa Pia,7,7,False
+PL1,2223,2022-11-06,Estoril,Benfica,7,8,False
+PL1,2223,2022-11-06,Maritimo,Famalicao,9,6,False
+PL1,2223,2022-11-06,Rio Ave,Boavista,7,7,False
+PL1,2223,2022-11-07,Chaves,Santa Clara,9,9,False
+PL1,2223,2022-11-12,Boavista,Porto,6,7,False
+PL1,2223,2022-11-12,Arouca,Rio Ave,7,6,False
+PL1,2223,2022-11-13,Benfica,Gil Vicente,7,9,False
+PL1,2223,2022-11-13,Casa Pia,Chaves,7,6,False
+PL1,2223,2022-11-13,Portimonense,Sp Braga,9,7,False
+PL1,2223,2022-11-13,Famalicao,Sp Lisbon,7,8,False
+PL1,2223,2022-11-13,Guimaraes,Maritimo,8,7,False
+PL1,2223,2022-11-13,Pacos Ferreira,Vizela,8,8,False
+PL1,2223,2022-11-14,Santa Clara,Estoril,7,8,False
+PL1,2223,2022-12-23,Rio Ave,Maritimo,41,40,False
+PL1,2223,2022-12-28,Portimonense,Casa Pia,45,45,True
+PL1,2223,2022-12-28,Porto,Arouca,46,46,True
+PL1,2223,2022-12-29,Gil Vicente,Santa Clara,46,45,True
+PL1,2223,2022-12-29,Sp Lisbon,Pacos Ferreira,46,46,True
+PL1,2223,2022-12-30,Sp Braga,Benfica,47,47,False
+PL1,2223,2022-12-30,Chaves,Famalicao,47,47,False
+PL1,2223,2022-12-30,Vizela,Guimaraes,47,47,False
+PL1,2223,2023-01-05,Santa Clara,Sp Braga,7,6,True
+PL1,2223,2023-01-06,Famalicao,Vizela,7,7,False
+PL1,2223,2023-01-06,Benfica,Portimonense,7,9,False
+PL1,2223,2023-01-07,Casa Pia,Porto,10,10,False
+PL1,2223,2023-01-07,Arouca,Estoril,10,54,False
+PL1,2223,2023-01-07,Guimaraes,Rio Ave,8,15,False
+PL1,2223,2023-01-08,Boavista,Gil Vicente,57,10,False
+PL1,2223,2023-01-08,Pacos Ferreira,Chaves,10,9,False
+PL1,2223,2023-01-08,Maritimo,Sp Lisbon,16,10,False
+PL1,2223,2023-01-13,Portimonense,Santa Clara,7,8,False
+PL1,2223,2023-01-14,Sp Braga,Boavista,9,6,False
+PL1,2223,2023-01-14,Rio Ave,Pacos Ferreira,7,6,False
+PL1,2223,2023-01-14,Vizela,Maritimo,8,6,False
+PL1,2223,2023-01-15,Porto,Famalicao,8,9,False
+PL1,2223,2023-01-15,Chaves,Arouca,7,8,False
+PL1,2223,2023-01-15,Benfica,Sp Lisbon,9,7,False
+PL1,2223,2023-01-16,Gil Vicente,Guimaraes,8,9,False
+PL1,2223,2023-01-16,Estoril,Casa Pia,9,9,False
+PL1,2223,2023-01-20,Arouca,Portimonense,5,7,False
+PL1,2223,2023-01-20,Sp Lisbon,Vizela,5,6,False
+PL1,2223,2023-01-21,Guimaraes,Porto,5,6,False
+PL1,2223,2023-01-21,Santa Clara,Benfica,8,6,False
+PL1,2223,2023-01-21,Pacos Ferreira,Sp Braga,7,7,False
+PL1,2223,2023-01-22,Famalicao,Rio Ave,7,8,False
+PL1,2223,2023-01-22,Maritimo,Estoril,8,6,False
+PL1,2223,2023-01-22,Casa Pia,Gil Vicente,6,6,False
+PL1,2223,2023-01-23,Boavista,Chaves,9,8,False
+PL1,2223,2023-01-26,Pacos Ferreira,Benfica,5,5,True
+PL1,2223,2023-01-29,Boavista,Portimonense,6,9,False
+PL1,2223,2023-01-29,Casa Pia,Santa Clara,7,8,False
+PL1,2223,2023-01-29,Vizela,Rio Ave,9,7,False
+PL1,2223,2023-01-29,Famalicao,Estoril,7,7,False
+PL1,2223,2023-01-30,Guimaraes,Chaves,9,7,False
+PL1,2223,2023-01-31,Arouca,Benfica,11,5,True
+PL1,2223,2023-01-31,Pacos Ferreira,Gil Vicente,5,9,True
+PL1,2223,2023-02-01,Sp Lisbon,Sp Braga,12,11,True
+PL1,2223,2023-02-01,Maritimo,Porto,10,11,True
+PL1,2223,2023-02-04,Estoril,Guimaraes,6,5,False
+PL1,2223,2023-02-04,Santa Clara,Boavista,6,6,False
+PL1,2223,2023-02-04,Benfica,Casa Pia,4,6,False
+PL1,2223,2023-02-05,Porto,Vizela,4,7,False
+PL1,2223,2023-02-05,Gil Vicente,Arouca,5,5,False
+PL1,2223,2023-02-05,Sp Braga,Famalicao,4,7,False
+PL1,2223,2023-02-05,Chaves,Maritimo,6,4,False
+PL1,2223,2023-02-06,Portimonense,Pacos Ferreira,8,6,False
+PL1,2223,2023-02-06,Rio Ave,Sp Lisbon,8,5,False
+PL1,2223,2023-02-09,Estoril,Boavista,5,5,True
+PL1,2223,2023-02-10,Vizela,Chaves,5,5,False
+PL1,2223,2023-02-11,Guimaraes,Portimonense,7,5,False
+PL1,2223,2023-02-11,Arouca,Santa Clara,6,7,False
+PL1,2223,2023-02-12,Maritimo,Sp Braga,7,7,False
+PL1,2223,2023-02-12,Famalicao,Gil Vicente,7,7,False
+PL1,2223,2023-02-12,Sp Lisbon,Porto,6,7,False
+PL1,2223,2023-02-13,Rio Ave,Estoril,7,4,False
+PL1,2223,2023-02-13,Boavista,Casa Pia,4,9,False
+PL1,2223,2023-02-17,Gil Vicente,Vizela,5,7,False
+PL1,2223,2023-02-18,Porto,Rio Ave,6,5,False
+PL1,2223,2023-02-18,Portimonense,Maritimo,7,6,False
+PL1,2223,2023-02-18,Estoril,Pacos Ferreira,5,12,False
+PL1,2223,2023-02-19,Casa Pia,Guimaraes,6,8,False
+PL1,2223,2023-02-19,Santa Clara,Famalicao,8,7,False
+PL1,2223,2023-02-19,Sp Braga,Arouca,7,8,False
+PL1,2223,2023-02-20,Chaves,Sp Lisbon,10,8,False
+PL1,2223,2023-02-20,Benfica,Boavista,16,7,False
+PL1,2223,2023-02-24,Famalicao,Portimonense,5,6,False
+PL1,2223,2023-02-25,Vizela,Benfica,8,5,False
+PL1,2223,2023-02-25,Maritimo,Santa Clara,7,6,False
+PL1,2223,2023-02-25,Arouca,Casa Pia,6,6,False
+PL1,2223,2023-02-26,Rio Ave,Chaves,8,6,False
+PL1,2223,2023-02-26,Pacos Ferreira,Boavista,8,6,False
+PL1,2223,2023-02-26,Porto,Gil Vicente,8,9,False
+PL1,2223,2023-02-27,Guimaraes,Sp Braga,8,8,False
+PL1,2223,2023-02-27,Sp Lisbon,Estoril,7,9,False
+PL1,2223,2023-03-03,Boavista,Arouca,5,6,False
+PL1,2223,2023-03-03,Benfica,Famalicao,6,7,False
+PL1,2223,2023-03-04,Chaves,Porto,6,6,False
+PL1,2223,2023-03-04,Estoril,Vizela,5,7,False
+PL1,2223,2023-03-04,Portimonense,Sp Lisbon,8,5,False
+PL1,2223,2023-03-05,Sp Braga,Rio Ave,6,7,False
+PL1,2223,2023-03-05,Santa Clara,Guimaraes,8,6,False
+PL1,2223,2023-03-05,Gil Vicente,Maritimo,7,8,False
+PL1,2223,2023-03-06,Casa Pia,Pacos Ferreira,9,8,False
+PL1,2223,2023-03-10,Porto,Estoril,6,6,False
+PL1,2223,2023-03-11,Guimaraes,Arouca,6,8,False
+PL1,2223,2023-03-11,Vizela,Sp Braga,7,6,False
+PL1,2223,2023-03-11,Chaves,Portimonense,7,7,False
+PL1,2223,2023-03-11,Pacos Ferreira,Santa Clara,5,6,False
+PL1,2223,2023-03-12,Sp Lisbon,Boavista,8,9,False
+PL1,2223,2023-03-12,Maritimo,Benfica,7,9,False
+PL1,2223,2023-03-12,Rio Ave,Gil Vicente,7,7,False
+PL1,2223,2023-03-13,Famalicao,Casa Pia,10,7,False
+PL1,2223,2023-03-17,Santa Clara,Rio Ave,6,5,False
+PL1,2223,2023-03-18,Benfica,Guimaraes,6,7,False
+PL1,2223,2023-03-18,Estoril,Chaves,8,7,False
+PL1,2223,2023-03-18,Portimonense,Vizela,7,7,False
+PL1,2223,2023-03-18,Arouca,Pacos Ferreira,7,7,False
+PL1,2223,2023-03-19,Boavista,Famalicao,7,6,False
+PL1,2223,2023-03-19,Sp Braga,Porto,8,9,False
+PL1,2223,2023-03-19,Casa Pia,Maritimo,6,7,False
+PL1,2223,2023-03-31,Estoril,Gil Vicente,13,19,False
+PL1,2223,2023-04-01,Sp Lisbon,Santa Clara,20,15,False
+PL1,2223,2023-04-01,Guimaraes,Pacos Ferreira,14,14,False
+PL1,2223,2023-04-01,Vizela,Casa Pia,14,13,False
+PL1,2223,2023-04-02,Rio Ave,Benfica,16,15,False
+PL1,2223,2023-04-02,Porto,Portimonense,14,15,False
+PL1,2223,2023-04-02,Chaves,Sp Braga,15,14,False
+PL1,2223,2023-04-02,Maritimo,Boavista,14,14,False
+PL1,2223,2023-04-03,Famalicao,Arouca,15,16,False
+PL1,2223,2023-04-05,Gil Vicente,Sp Lisbon,5,4,True
+PL1,2223,2023-04-07,Santa Clara,Vizela,6,6,False
+PL1,2223,2023-04-07,Benfica,Porto,5,5,False
+PL1,2223,2023-04-07,Boavista,Guimaraes,5,6,False
+PL1,2223,2023-04-08,Pacos Ferreira,Famalicao,7,5,False
+PL1,2223,2023-04-08,Portimonense,Rio Ave,6,6,False
+PL1,2223,2023-04-08,Sp Braga,Estoril,6,8,False
+PL1,2223,2023-04-08,Arouca,Maritimo,5,6,False
+PL1,2223,2023-04-09,Casa Pia,Sp Lisbon,8,4,False
+PL1,2223,2023-04-10,Gil Vicente,Chaves,5,8,False
+PL1,2223,2023-04-14,Famalicao,Guimaraes,6,7,False
+PL1,2223,2023-04-15,Chaves,Benfica,5,8,False
+PL1,2223,2023-04-15,Porto,Santa Clara,8,8,False
+PL1,2223,2023-04-15,Maritimo,Pacos Ferreira,7,7,False
+PL1,2223,2023-04-15,Estoril,Portimonense,7,7,False
+PL1,2223,2023-04-16,Sp Lisbon,Arouca,7,8,False
+PL1,2223,2023-04-16,Rio Ave,Casa Pia,8,7,False
+PL1,2223,2023-04-16,Sp Braga,Gil Vicente,8,6,False
+PL1,2223,2023-04-17,Vizela,Boavista,10,10,False
+PL1,2223,2023-04-21,Casa Pia,Sp Braga,5,5,False
+PL1,2223,2023-04-22,Pacos Ferreira,Porto,7,7,False
+PL1,2223,2023-04-22,Famalicao,Maritimo,8,7,False
+PL1,2223,2023-04-22,Boavista,Rio Ave,5,6,False
+PL1,2223,2023-04-23,Santa Clara,Chaves,8,8,False
+PL1,2223,2023-04-23,Arouca,Vizela,7,6,False
+PL1,2223,2023-04-23,Benfica,Estoril,8,8,False
+PL1,2223,2023-04-23,Portimonense,Gil Vicente,8,7,False
+PL1,2223,2023-04-24,Guimaraes,Sp Lisbon,10,8,False
+PL1,2223,2023-04-28,Rio Ave,Arouca,6,5,False
+PL1,2223,2023-04-29,Chaves,Casa Pia,6,8,False
+PL1,2223,2023-04-29,Vizela,Pacos Ferreira,6,7,False
+PL1,2223,2023-04-29,Gil Vicente,Benfica,6,6,False
+PL1,2223,2023-04-29,Maritimo,Guimaraes,7,5,False
+PL1,2223,2023-04-29,Sp Braga,Portimonense,8,6,False
+PL1,2223,2023-04-30,Sp Lisbon,Famalicao,6,8,False
+PL1,2223,2023-04-30,Porto,Boavista,8,8,False
+PL1,2223,2023-04-30,Estoril,Santa Clara,7,7,False
+PL1,2223,2023-05-05,Casa Pia,Portimonense,6,6,False
+PL1,2223,2023-05-06,Boavista,Estoril,6,6,False
+PL1,2223,2023-05-06,Santa Clara,Gil Vicente,6,7,False
+PL1,2223,2023-05-06,Benfica,Sp Braga,7,7,False
+PL1,2223,2023-05-07,Pacos Ferreira,Sp Lisbon,8,7,False
+PL1,2223,2023-05-07,Guimaraes,Vizela,8,8,False
+PL1,2223,2023-05-07,Maritimo,Rio Ave,8,9,False
+PL1,2223,2023-05-08,Famalicao,Chaves,8,9,False
+PL1,2223,2023-05-08,Arouca,Porto,10,8,False
+PL1,2223,2023-05-12,Gil Vicente,Boavista,6,6,False
+PL1,2223,2023-05-13,Portimonense,Benfica,8,7,False
+PL1,2223,2023-05-13,Sp Lisbon,Maritimo,6,6,False
+PL1,2223,2023-05-13,Vizela,Famalicao,6,5,False
+PL1,2223,2023-05-13,Chaves,Pacos Ferreira,5,6,False
+PL1,2223,2023-05-14,Porto,Casa Pia,6,9,False
+PL1,2223,2023-05-14,Rio Ave,Guimaraes,7,7,False
+PL1,2223,2023-05-14,Sp Braga,Santa Clara,8,8,False
+PL1,2223,2023-05-15,Estoril,Arouca,9,7,False
+PL1,2223,2023-05-19,Maritimo,Vizela,6,6,False
+PL1,2223,2023-05-20,Boavista,Sp Braga,8,6,False
+PL1,2223,2023-05-20,Famalicao,Porto,7,6,False
+PL1,2223,2023-05-20,Arouca,Chaves,5,7,False
+PL1,2223,2023-05-20,Santa Clara,Portimonense,6,7,False
+PL1,2223,2023-05-21,Pacos Ferreira,Rio Ave,8,7,False
+PL1,2223,2023-05-21,Sp Lisbon,Benfica,8,8,False
+PL1,2223,2023-05-21,Casa Pia,Estoril,7,6,False
+PL1,2223,2023-05-21,Guimaraes,Gil Vicente,7,9,False
+PL1,2223,2023-05-26,Rio Ave,Famalicao,5,6,False
+PL1,2223,2023-05-26,Vizela,Sp Lisbon,7,5,False
+PL1,2223,2023-05-27,Estoril,Maritimo,6,8,False
+PL1,2223,2023-05-27,Benfica,Santa Clara,6,7,False
+PL1,2223,2023-05-27,Gil Vicente,Casa Pia,6,6,False
+PL1,2223,2023-05-27,Porto,Guimaraes,7,6,False
+PL1,2223,2023-05-27,Sp Braga,Pacos Ferreira,7,6,False
+PL1,2223,2023-05-27,Portimonense,Arouca,7,7,False
+PL1,2223,2023-05-27,Chaves,Boavista,7,7,False

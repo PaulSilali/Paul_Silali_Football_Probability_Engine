@@ -21,7 +21,7 @@ from app.models.calibration import Calibrator
 from app.db.models import (
     Model, ModelStatus, Jackpot as JackpotModel, JackpotFixture, Prediction, Team, 
     SavedProbabilityResult, ValidationResult, PredictionSet, CalibrationData, MatchResult,
-    MatchWeather, TeamRestDays, OddsMovement, League
+    MatchWeather, TeamRestDays, OddsMovement, League, TeamForm, TeamInjuries
 )
 from app.models.calibration import calculate_brier_score, calculate_log_loss
 from app.services.team_resolver import resolve_team_safe
@@ -404,6 +404,8 @@ async def calculate_probabilities(
                 "id": str(fixture.id),
                 "homeTeam": fixture.home_team or "",
                 "awayTeam": fixture.away_team or "",
+                "homeTeamId": fixture.home_team_id,  # Include team IDs for injury tracking
+                "awayTeamId": fixture.away_team_id,  # Include team IDs for injury tracking
                 "odds": odds_data
             }
             fixtures_data.append(fixture_dict)
@@ -516,26 +518,133 @@ async def calculate_probabilities(
             away_team_id = fixture_data.get('away_team_id')
             
             # Get team strengths from model or database
-            home_team_strength = get_team_strength_for_fixture(
+            home_team_strength_base = get_team_strength_for_fixture(
                 fixture_data['home_team'] or "",
                 home_team_id
             )
-            away_team_strength = get_team_strength_for_fixture(
+            away_team_strength_base = get_team_strength_for_fixture(
                 fixture_data['away_team'] or "",
                 away_team_id
             )
             
-            # Track statistics
-            if home_team_strength.attack == 1.0 and home_team_strength.defense == 1.0:
+            # Apply team-specific adjustments (rest days, form, injuries)
+            from app.services.team_adjustments import apply_all_adjustments
+            from app.services.team_form_calculator import get_team_form_for_fixture, adjust_team_strength_with_form
+            
+            # Get rest days for both teams
+            home_rest_days = None
+            away_rest_days = None
+            if fixture_data.get('id'):
+                home_rest = db.query(TeamRestDays).filter(
+                    TeamRestDays.fixture_id == fixture_data['id'],
+                    TeamRestDays.team_id == home_team_id
+                ).first()
+                if home_rest:
+                    home_rest_days = home_rest.rest_days
+                
+                away_rest = db.query(TeamRestDays).filter(
+                    TeamRestDays.fixture_id == fixture_data['id'],
+                    TeamRestDays.team_id == away_team_id
+                ).first()
+                if away_rest:
+                    away_rest_days = away_rest.rest_days
+            
+            # Get team form for both teams
+            fixture_date = fixture_data.get('match_date') or (jackpot.kickoff_date if jackpot else None)
+            home_form = get_team_form_for_fixture(db, home_team_id, fixture_date) if home_team_id else None
+            away_form = get_team_form_for_fixture(db, away_team_id, fixture_date) if away_team_id else None
+            
+            # Calculate form adjustments
+            home_attack_adj, home_defense_adj = adjust_team_strength_with_form(
+                home_team_strength_base.attack,
+                home_team_strength_base.defense,
+                home_form,
+                form_weight=0.15
+            )
+            home_form_attack_mult = home_attack_adj / home_team_strength_base.attack if home_team_strength_base.attack > 0 else 1.0
+            home_form_defense_mult = home_defense_adj / home_team_strength_base.defense if home_team_strength_base.defense > 0 else 1.0
+            
+            away_attack_adj, away_defense_adj = adjust_team_strength_with_form(
+                away_team_strength_base.attack,
+                away_team_strength_base.defense,
+                away_form,
+                form_weight=0.15
+            )
+            away_form_attack_mult = away_attack_adj / away_team_strength_base.attack if away_team_strength_base.attack > 0 else 1.0
+            away_form_defense_mult = away_defense_adj / away_team_strength_base.defense if away_team_strength_base.defense > 0 else 1.0
+            
+            # Get injury data for both teams
+            home_injuries = None
+            away_injuries = None
+            if fixture_data.get('id'):
+                home_inj = db.query(TeamInjuries).filter(
+                    TeamInjuries.fixture_id == fixture_data['id'],
+                    TeamInjuries.team_id == home_team_id
+                ).first()
+                if home_inj:
+                    home_injuries = {
+                        'key_players_missing': home_inj.key_players_missing,
+                        'injury_severity': home_inj.injury_severity
+                    }
+                
+                away_inj = db.query(TeamInjuries).filter(
+                    TeamInjuries.fixture_id == fixture_data['id'],
+                    TeamInjuries.team_id == away_team_id
+                ).first()
+                if away_inj:
+                    away_injuries = {
+                        'key_players_missing': away_inj.key_players_missing,
+                        'injury_severity': away_inj.injury_severity
+                    }
+            
+            # Apply all adjustments
+            home_attack_final, home_defense_final = apply_all_adjustments(
+                home_team_strength_base.attack,
+                home_team_strength_base.defense,
+                rest_days=home_rest_days,
+                is_home=True,
+                form_attack_adjustment=home_form_attack_mult,
+                form_defense_adjustment=home_form_defense_mult,
+                key_players_missing=home_injuries['key_players_missing'] if home_injuries else None,
+                injury_severity=home_injuries['injury_severity'] if home_injuries else None
+            )
+            
+            away_attack_final, away_defense_final = apply_all_adjustments(
+                away_team_strength_base.attack,
+                away_team_strength_base.defense,
+                rest_days=away_rest_days,
+                is_home=False,
+                form_attack_adjustment=away_form_attack_mult,
+                form_defense_adjustment=away_form_defense_mult,
+                key_players_missing=away_injuries['key_players_missing'] if away_injuries else None,
+                injury_severity=away_injuries['injury_severity'] if away_injuries else None
+            )
+            
+            # Create adjusted team strengths
+            home_team_strength = TeamStrength(
+                team_id=home_team_strength_base.team_id,
+                attack=home_attack_final,
+                defense=home_defense_final,
+                league_id=home_team_strength_base.league_id
+            )
+            away_team_strength = TeamStrength(
+                team_id=away_team_strength_base.team_id,
+                attack=away_attack_final,
+                defense=away_defense_final,
+                league_id=away_team_strength_base.league_id
+            )
+            
+            # Track statistics (using base strengths before adjustments)
+            if home_team_strength_base.attack == 1.0 and home_team_strength_base.defense == 1.0:
                 team_match_stats["default_strengths"] += 1
-            elif home_team_strength.team_id in team_strengths_dict or str(home_team_strength.team_id) in team_strengths_dict:
+            elif home_team_strength_base.team_id in team_strengths_dict or str(home_team_strength_base.team_id) in team_strengths_dict:
                 team_match_stats["model_strengths"] += 1
             else:
                 team_match_stats["db_strengths"] += 1
             
-            if away_team_strength.attack == 1.0 and away_team_strength.defense == 1.0:
+            if away_team_strength_base.attack == 1.0 and away_team_strength_base.defense == 1.0:
                 team_match_stats["default_strengths"] += 1
-            elif away_team_strength.team_id in team_strengths_dict or str(away_team_strength.team_id) in team_strengths_dict:
+            elif away_team_strength_base.team_id in team_strengths_dict or str(away_team_strength_base.team_id) in team_strengths_dict:
                 team_match_stats["model_strengths"] += 1
             else:
                 team_match_stats["db_strengths"] += 1
@@ -701,6 +810,50 @@ async def calculate_probabilities(
                         else:
                             logger.debug(f"⚠ Skipping rest days calculation for fixture {fixture_data['id']}: home_team_id={home_team_id_val}, away_team_id={away_team_id_val}")
                     
+                    # 2b. Auto-calculate team form if missing
+                    if home_team_id_val and away_team_id_val:
+                        try:
+                            from app.services.team_form_service import calculate_and_store_team_form
+                            
+                            fixture_date = fixture_data.get('match_date') or (jackpot.kickoff_date if jackpot else None)
+                            
+                            # Calculate form for home team
+                            home_form_exist = db.query(TeamForm).filter(
+                                TeamForm.fixture_id == fixture_data['id'],
+                                TeamForm.team_id == home_team_id_val
+                            ).first()
+                            
+                            if not home_form_exist:
+                                home_form_result = calculate_and_store_team_form(
+                                    db=db,
+                                    team_id=home_team_id_val,
+                                    fixture_id=fixture_data['id'],
+                                    fixture_date=fixture_date,
+                                    matches_count=5
+                                )
+                                if home_form_result.get("success"):
+                                    logger.debug(f"✓ Auto-calculated form for home team {home_team_id_val} in fixture {fixture_data['id']}")
+                            
+                            # Calculate form for away team
+                            away_form_exist = db.query(TeamForm).filter(
+                                TeamForm.fixture_id == fixture_data['id'],
+                                TeamForm.team_id == away_team_id_val
+                            ).first()
+                            
+                            if not away_form_exist:
+                                away_form_result = calculate_and_store_team_form(
+                                    db=db,
+                                    team_id=away_team_id_val,
+                                    fixture_id=fixture_data['id'],
+                                    fixture_date=fixture_date,
+                                    matches_count=5
+                                )
+                                if away_form_result.get("success"):
+                                    logger.debug(f"✓ Auto-calculated form for away team {away_team_id_val} in fixture {fixture_data['id']}")
+                        except Exception as e:
+                            logger.debug(f"⚠ Team form auto-calculation error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                            # Don't fail the whole request if form calculation fails
+                    
                     # 3. Auto-track odds movement if missing and odds available
                     odds_movement_exists = db.query(OddsMovement).filter(
                         OddsMovement.fixture_id == fixture_obj.id
@@ -758,50 +911,87 @@ async def calculate_probabilities(
                     pass
             
             # ============================================================
-            # DRAW STRUCTURAL ADJUSTMENT (New: League priors, Elo, H2H, etc.)
+            # DRAW STRUCTURAL ADJUSTMENT (CRITICAL: Home-Away Compression)
             # ============================================================
-            # Apply structural draw adjustment using league priors, Elo symmetry,
-            # H2H, weather, fatigue, referee, and odds movement
+            # Apply draw-aware structural adjustments that compress H/A when draw signal is high
+            # This prevents false favorites and jackpot busts
             try:
-                from app.features.draw_features import compute_draw_components, adjust_draw_probability
+                from app.services.draw_structural_adjustment import apply_draw_structural_adjustments
+                from app.services.draw_signal_calculator import fetch_draw_structural_data_for_fixture
                 
-                # Get fixture context for draw components
-                draw_components = compute_draw_components(
+                # Get lambda values for draw signal calculation
+                lambda_home_val = base_probs.lambda_home if hasattr(base_probs, 'lambda_home') and base_probs.lambda_home is not None else None
+                lambda_away_val = base_probs.lambda_away if hasattr(base_probs, 'lambda_away') and base_probs.lambda_away is not None else None
+                
+                # If lambda values not available, calculate from expected goals
+                if lambda_home_val is None or lambda_away_val is None:
+                    from app.models.dixon_coles import calculate_expected_goals
+                    expectations = calculate_expected_goals(home_team_strength, away_team_strength, params)
+                    lambda_home_val = expectations.lambda_home
+                    lambda_away_val = expectations.lambda_away
+                
+                # Get market odds for draw signal calculation
+                market_odds_for_signal = None
+                if fixture_data.get('odds_home'):
+                    market_odds_for_signal = {
+                        "home": float(fixture_data['odds_home']),
+                        "draw": float(fixture_data['odds_draw']),
+                        "away": float(fixture_data['odds_away'])
+                    }
+                
+                # Fetch draw structural data and compute draw signal
+                draw_data = fetch_draw_structural_data_for_fixture(
                     db=db,
                     fixture_id=fixture_data['id'],
-                    league_id=fixture_data.get('league_id'),
                     home_team_id=fixture_data.get('home_team_id'),
                     away_team_id=fixture_data.get('away_team_id'),
-                    match_date=None  # Will default to today if not available
+                    league_id=fixture_data.get('league_id'),
+                    lambda_home=lambda_home_val,
+                    lambda_away=lambda_away_val,
+                    market_odds=market_odds_for_signal,
                 )
                 
-                # Adjust draw probability (only draw is modified, home/away renormalized)
-                p_home_adj, p_draw_adj, p_away_adj = adjust_draw_probability(
-                    p_home_base=base_probs.home,
-                    p_draw_base=base_probs.draw,
-                    p_away_base=base_probs.away,
-                    draw_multiplier=draw_components.total()
+                # Apply draw structural adjustments (includes H/A compression)
+                adjustment_result = apply_draw_structural_adjustments(
+                    base_home=base_probs.home,
+                    base_draw=base_probs.draw,
+                    base_away=base_probs.away,
+                    lambda_home=lambda_home_val,
+                    lambda_away=lambda_away_val,
+                    draw_signal=draw_data["draw_signal"],
+                    compression_strength=0.5,  # Default compression strength
+                    draw_floor=0.18,
+                    draw_cap=0.38,
                 )
                 
                 # Update base_probs with draw-structurally-adjusted values
                 base_probs = MatchProbabilities(
-                    home=p_home_adj,
-                    draw=p_draw_adj,
-                    away=p_away_adj,
+                    home=adjustment_result["home"],
+                    draw=adjustment_result["draw"],
+                    away=adjustment_result["away"],
                     entropy=-sum(
                         p * math.log2(p) if p > 0 else 0
-                        for p in [p_home_adj, p_draw_adj, p_away_adj]
+                        for p in [adjustment_result["home"], adjustment_result["draw"], adjustment_result["away"]]
                     ),
-                    lambda_home=base_probs.lambda_home,
-                    lambda_away=base_probs.lambda_away
+                    lambda_home=lambda_home_val,
+                    lambda_away=lambda_away_val
                 )
                 
-                # Store draw components for later use in output
-                draw_structural_components = draw_components.to_dict()
-                logger.debug(f"Draw structural adjustment applied: multiplier={draw_components.total():.4f}, components={draw_structural_components}")
+                # Store draw structural metadata for later use in output
+                draw_structural_components = {
+                    "draw_signal": round(draw_data["draw_signal"], 4),
+                    "compression": round(adjustment_result["meta"]["compression"], 4),
+                    "lambda_gap": round(adjustment_result["meta"]["lambda_gap"], 4),
+                    "lambda_total": round(draw_data["lambda_total"], 4),
+                    "market_draw_prob": round(draw_data["market_draw_prob"], 4) if draw_data["market_draw_prob"] else None,
+                    "weather_factor": round(draw_data["weather_factor"], 4) if draw_data["weather_factor"] else None,
+                    "h2h_draw_rate": round(draw_data["h2h_draw_rate"], 4) if draw_data["h2h_draw_rate"] else None,
+                    "league_draw_rate": round(draw_data["league_draw_rate"], 4) if draw_data["league_draw_rate"] else None,
+                }
+                logger.debug(f"Draw structural adjustment applied: draw_signal={draw_data['draw_signal']:.4f}, compression={adjustment_result['meta']['compression']:.4f}, components={draw_structural_components}")
             except Exception as e:
                 # If draw structural adjustment fails, continue with base probabilities
-                logger.warning(f"Draw structural adjustment failed: {e}, continuing with base probabilities")
+                logger.warning(f"Draw structural adjustment failed: {e}, continuing with base probabilities", exc_info=True)
                 draw_structural_components = None
             
             # ============================================================

@@ -1,0 +1,46 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8841,Ayr,8846,Raith Rvs,1617,4,1,0.25,2.0
+8845,Dunfermline,8850,Falkirk,1617,4,1,0.25,2.5
+8856,Queen of Sth,8862,St Mirren,1617,4,0,0.0,3.5
+8845,Dunfermline,8853,Dundee United,1617,4,1,0.25,2.0
+8841,Ayr,8850,Falkirk,1617,4,1,0.25,2.5
+8850,Falkirk,8862,St Mirren,1617,4,2,0.5,3.25
+8841,Ayr,8856,Queen of Sth,1617,4,1,0.25,2.0
+8853,Dundee United,8862,St Mirren,1617,4,0,0.0,3.75
+8862,St Mirren,8863,Hibernian,1617,4,1,0.25,2.0
+8850,Falkirk,8853,Dundee United,1617,4,1,0.25,2.5
+8856,Queen of Sth,8863,Hibernian,1617,4,1,0.25,2.0
+8853,Dundee United,8856,Queen of Sth,1617,4,2,0.5,4.75
+8853,Dundee United,8860,Dumbarton,1617,4,1,0.25,2.25
+8845,Dunfermline,8863,Hibernian,1617,4,2,0.5,3.25
+8850,Falkirk,8863,Hibernian,1617,4,1,0.25,2.75
+8856,Queen of Sth,8860,Dumbarton,1617,4,1,0.25,2.25
+8844,Morton,8856,Queen of Sth,1617,4,0,0.0,2.5
+8850,Falkirk,8860,Dumbarton,1617,4,1,0.25,2.25
+8844,Morton,8850,Falkirk,1617,4,3,0.75,2.25
+8845,Dunfermline,8860,Dumbarton,1617,4,1,0.25,4.75
+8846,Raith Rvs,8860,Dumbarton,1617,4,1,0.25,3.25
+8845,Dunfermline,8856,Queen of Sth,1617,4,2,0.5,2.0
+8846,Raith Rvs,8853,Dundee United,1617,4,2,0.5,2.5
+8860,Dumbarton,8862,St Mirren,1617,4,3,0.75,2.25
+8850,Falkirk,8856,Queen of Sth,1617,4,2,0.5,3.0
+8841,Ayr,8863,Hibernian,1617,4,1,0.25,3.0
+8846,Raith Rvs,8863,Hibernian,1617,4,3,0.75,2.25
+8844,Morton,8845,Dunfermline,1617,4,0,0.0,2.75
+8841,Ayr,8844,Morton,1617,4,1,0.25,3.25
+8844,Morton,8860,Dumbarton,1617,4,1,0.25,2.0
+8844,Morton,8846,Raith Rvs,1617,4,0,0.0,1.5
+8844,Morton,8862,St Mirren,1617,4,2,0.5,3.25
+8844,Morton,8853,Dundee United,1617,4,3,0.75,1.75
+8841,Ayr,8853,Dundee United,1617,4,1,0.25,1.75
+8853,Dundee United,8863,Hibernian,1617,4,1,0.25,1.75
+8844,Morton,8863,Hibernian,1617,4,3,0.75,2.0
+8846,Raith Rvs,8856,Queen of Sth,1617,4,1,0.25,2.5
+8846,Raith Rvs,8862,St Mirren,1617,4,0,0.0,3.0
+8841,Ayr,8862,St Mirren,1617,4,2,0.5,3.5
+8860,Dumbarton,8863,Hibernian,1617,4,1,0.25,2.0
+8841,Ayr,8845,Dunfermline,1617,4,2,0.5,1.25
+8845,Dunfermline,8846,Raith Rvs,1617,4,1,0.25,1.25
+8841,Ayr,8860,Dumbarton,1617,4,2,0.5,4.5
+8845,Dunfermline,8862,St Mirren,1617,4,2,0.5,2.5
+8846,Raith Rvs,8850,Falkirk,1617,4,0,0.0,3.5

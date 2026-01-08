@@ -36,6 +36,10 @@ except ImportError:
 class PoissonTrainer:
     """Trainer for Poisson/Dixon-Coles model"""
     
+    # Safe exponent limits to prevent overflow
+    MAX_EXP = 700.0  # math.exp(700) is near float64 max
+    MIN_EXP = -700.0  # math.exp(-700) is near float64 min
+    
     def __init__(
         self,
         decay_rate: float = 0.0065,
@@ -53,6 +57,29 @@ class PoissonTrainer:
         self.decay_rate = decay_rate
         self.initial_home_advantage = initial_home_advantage
         self.initial_rho = initial_rho
+    
+    @staticmethod
+    def safe_exp(x: float) -> float:
+        """
+        Safely compute exp(x) with overflow protection.
+        
+        Clamps x to [-700, 700] before calling math.exp() to prevent overflow.
+        Handles both Python floats and numpy scalars.
+        """
+        # Convert to Python float if numpy scalar
+        if HAS_NUMPY and isinstance(x, np.number):
+            x = float(x)
+        
+        # Check for NaN or inf
+        if not math.isfinite(x):
+            return 1.0  # Return neutral value for invalid inputs
+        
+        if x > PoissonTrainer.MAX_EXP:
+            return math.exp(PoissonTrainer.MAX_EXP)
+        elif x < PoissonTrainer.MIN_EXP:
+            return math.exp(PoissonTrainer.MIN_EXP)
+        else:
+            return math.exp(x)
         
     def calculate_time_weight(self, match_date: datetime, reference_date: datetime) -> float:
         """
@@ -61,7 +88,8 @@ class PoissonTrainer:
         Weight = exp(-ξ * days_since_match)
         """
         days_diff = (reference_date - match_date).days
-        return math.exp(-self.decay_rate * days_diff)
+        exp_val = -self.decay_rate * days_diff
+        return self.safe_exp(exp_val)
     
     def estimate_team_strengths(
         self,
@@ -142,9 +170,11 @@ class PoissonTrainer:
                 else:
                     weights[i] = 1.0
                 
-                # Expected goals
-                lambda_home[i] = math.exp(attack[home_idx] - defense[away_idx] + home_advantage)
-                lambda_away[i] = math.exp(attack[away_idx] - defense[home_idx])
+                # Expected goals (with overflow protection)
+                exp_home = attack[home_idx] - defense[away_idx] + home_advantage
+                exp_away = attack[away_idx] - defense[home_idx]
+                lambda_home[i] = self.safe_exp(exp_home)
+                lambda_away[i] = self.safe_exp(exp_away)
             
             # Update attack strengths
             new_attack = np.zeros(n_teams)
@@ -180,20 +210,48 @@ class PoissonTrainer:
                 new_defense[away_idx] += match['home_goals'] * weight
                 defense_denom[away_idx] += lambda_home[i] * weight
             
-            # Normalize and update
+            # Normalize and update (with overflow protection)
             for idx in range(n_teams):
-                if attack_denom[idx] > 0:
+                if attack_denom[idx] > 1e-10:  # Use small epsilon instead of > 0
                     attack[idx] = new_attack[idx] / attack_denom[idx]
-                if defense_denom[idx] > 0:
+                    # Clamp attack values to prevent extreme values
+                    if not np.isfinite(attack[idx]) or attack[idx] < 0:
+                        attack[idx] = 1.0
+                    elif attack[idx] > 100.0:  # Clamp very high values
+                        attack[idx] = 100.0
+                else:
+                    attack[idx] = 1.0  # Default if denominator is too small
+                    
+                if defense_denom[idx] > 1e-10:
                     defense[idx] = new_defense[idx] / defense_denom[idx]
+                    # Clamp defense values to prevent extreme values
+                    if not np.isfinite(defense[idx]) or defense[idx] < 0:
+                        defense[idx] = 1.0
+                    elif defense[idx] > 100.0:  # Clamp very high values
+                        defense[idx] = 100.0
+                else:
+                    defense[idx] = 1.0  # Default if denominator is too small
             
             # Normalize strengths (mean attack = 1.0, mean defense = 1.0)
-            attack_mean = np.mean(attack)
-            defense_mean = np.mean(defense)
-            if attack_mean > 0:
-                attack /= attack_mean
-            if defense_mean > 0:
-                defense /= defense_mean
+            # Filter out invalid values before computing mean
+            valid_attack = attack[np.isfinite(attack) & (attack > 0)]
+            valid_defense = defense[np.isfinite(defense) & (defense > 0)]
+            
+            if len(valid_attack) > 0:
+                attack_mean = np.mean(valid_attack)
+                if attack_mean > 1e-10:
+                    attack /= attack_mean
+            else:
+                # If all values are invalid, reset to 1.0
+                attack.fill(1.0)
+                
+            if len(valid_defense) > 0:
+                defense_mean = np.mean(valid_defense)
+                if defense_mean > 1e-10:
+                    defense /= defense_mean
+            else:
+                # If all values are invalid, reset to 1.0
+                defense.fill(1.0)
             
             # Estimate home advantage from decay-weighted residuals
             residuals = []
@@ -201,7 +259,9 @@ class PoissonTrainer:
             for i, match in enumerate(matches):
                 home_idx = team_index[match['home_team_id']]
                 away_idx = team_index[match['away_team_id']]
-                expected = math.exp(attack[home_idx] - defense[away_idx])
+                # Use safe_exp to prevent overflow
+                exp_val = attack[home_idx] - defense[away_idx]
+                expected = self.safe_exp(exp_val)
                 if expected > 0:
                     # Handle zero goals: use small epsilon to avoid log(0)
                     home_goals = match['home_goals']
@@ -228,11 +288,21 @@ class PoissonTrainer:
                     logger.warning(f"Home advantage calculated as very high ({home_advantage:.4f}), clamping to 0.6")
                     home_advantage = 0.6
             
-            # Check convergence
-            delta = max(
-                np.max(np.abs(attack - prev_attack)),
-                np.max(np.abs(defense - prev_defense))
-            )
+            # Check convergence (handle NaN/inf values)
+            attack_diff = np.abs(attack - prev_attack)
+            defense_diff = np.abs(defense - prev_defense)
+            # Filter out invalid values
+            attack_diff = attack_diff[np.isfinite(attack_diff)]
+            defense_diff = defense_diff[np.isfinite(defense_diff)]
+            
+            if len(attack_diff) > 0 and len(defense_diff) > 0:
+                delta = max(np.max(attack_diff), np.max(defense_diff))
+            elif len(attack_diff) > 0:
+                delta = np.max(attack_diff)
+            elif len(defense_diff) > 0:
+                delta = np.max(defense_diff)
+            else:
+                delta = tolerance * 10  # Force continuation if all values invalid
             
             if delta < tolerance:
                 logger.info(f"Converged at iteration {iteration + 1}")
@@ -294,8 +364,11 @@ class PoissonTrainer:
                 hi = team_index[match['home_team_id']]
                 ai = team_index[match['away_team_id']]
                 
-                lh = math.exp(attack[hi] - defense[ai] + home_advantage)
-                la = math.exp(attack[ai] - defense[hi])
+                # Use safe_exp to prevent overflow
+                exp_home = attack[hi] - defense[ai] + home_advantage
+                exp_away = attack[ai] - defense[hi]
+                lh = self.safe_exp(exp_home)
+                la = self.safe_exp(exp_away)
                 
                 tau_val = self._tau(match['home_goals'], match['away_goals'], lh, la, r)
                 # Ensure tau is positive for log calculation

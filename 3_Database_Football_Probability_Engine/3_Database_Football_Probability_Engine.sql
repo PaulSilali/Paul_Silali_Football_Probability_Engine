@@ -1502,3 +1502,611 @@ COMMIT;
 -- END OF MIGRATION
 -- ============================================================================
 
+-- ============================================================================
+-- SCHEMA ENHANCEMENTS FOR FOOTBALL.TXT DATA INGESTION
+-- ============================================================================
+-- 
+-- This migration adds columns to support additional data from Football.TXT files:
+-- - Half-time scores (ht_home_goals, ht_away_goals)
+-- - Match time/venue information
+-- - Enhanced source tracking
+-- 
+-- NON-DESTRUCTIVE: Only adds columns, does not modify existing structure
+-- Safe to run in production
+-- 
+-- ============================================================================
+
+BEGIN;
+
+-- ============================================================================
+-- 1. ADD HALF-TIME SCORES TO MATCHES TABLE
+-- ============================================================================
+
+ALTER TABLE matches 
+ADD COLUMN IF NOT EXISTS ht_home_goals INTEGER,
+ADD COLUMN IF NOT EXISTS ht_away_goals INTEGER;
+
+COMMENT ON COLUMN matches.ht_home_goals IS 'Half-time goals for home team';
+COMMENT ON COLUMN matches.ht_away_goals IS 'Half-time goals for away team';
+
+-- Add constraint to ensure half-time scores are valid (drop first if exists)
+DO $$
+BEGIN
+    IF EXISTS (
+        SELECT 1 FROM pg_constraint 
+        WHERE conname = 'chk_ht_goals_valid' 
+        AND conrelid = 'matches'::regclass
+    ) THEN
+        ALTER TABLE matches DROP CONSTRAINT chk_ht_goals_valid;
+    END IF;
+END $$;
+
+ALTER TABLE matches
+ADD CONSTRAINT chk_ht_goals_valid 
+CHECK (
+    (ht_home_goals IS NULL AND ht_away_goals IS NULL) OR
+    (ht_home_goals IS NOT NULL AND ht_away_goals IS NOT NULL AND 
+     ht_home_goals >= 0 AND ht_away_goals >= 0)
+);
+
+-- ============================================================================
+-- 2. ADD MATCH TIME/VENUE INFORMATION (OPTIONAL)
+-- ============================================================================
+
+ALTER TABLE matches
+ADD COLUMN IF NOT EXISTS match_time TIME,
+ADD COLUMN IF NOT EXISTS venue VARCHAR(200);
+
+COMMENT ON COLUMN matches.match_time IS 'Match kickoff time';
+COMMENT ON COLUMN matches.venue IS 'Match venue/stadium name';
+
+-- ============================================================================
+-- 3. ENHANCE SOURCE TRACKING
+-- ============================================================================
+
+ALTER TABLE matches
+ADD COLUMN IF NOT EXISTS source_file TEXT,
+ADD COLUMN IF NOT EXISTS ingestion_batch_id VARCHAR(50);
+
+COMMENT ON COLUMN matches.source_file IS 'Original source file path';
+COMMENT ON COLUMN matches.ingestion_batch_id IS 'Batch identifier for ingestion tracking';
+
+-- Create index on source_file for traceability
+CREATE INDEX IF NOT EXISTS idx_matches_source_file ON matches(source_file);
+
+-- ============================================================================
+-- 4. ADD MATCHDAY/ROUND INFORMATION (FOR LEAGUE STRUCTURE)
+-- ============================================================================
+
+ALTER TABLE matches
+ADD COLUMN IF NOT EXISTS matchday INTEGER,
+ADD COLUMN IF NOT EXISTS round_name VARCHAR(50);
+
+COMMENT ON COLUMN matches.matchday IS 'Matchday/round number in season';
+COMMENT ON COLUMN matches.round_name IS 'Round name (e.g., "Matchday 1", "Quarter-finals")';
+
+-- Create index for matchday queries
+CREATE INDEX IF NOT EXISTS idx_matches_matchday ON matches(league_id, season, matchday);
+
+-- ============================================================================
+-- 5. ENHANCE TEAM NAME MATCHING SUPPORT
+-- ============================================================================
+
+-- Add alternative names column to teams table for better matching
+ALTER TABLE teams
+ADD COLUMN IF NOT EXISTS alternative_names TEXT[];
+
+COMMENT ON COLUMN teams.alternative_names IS 'Array of alternative team names for matching';
+
+-- Create index for alternative names search
+CREATE INDEX IF NOT EXISTS idx_teams_alternative_names ON teams USING GIN(alternative_names);
+
+-- ============================================================================
+-- 6. ADD MATCH QUALITY METRICS (FOR PROBABILITY MODELING)
+-- ============================================================================
+
+ALTER TABLE matches
+ADD COLUMN IF NOT EXISTS total_goals INTEGER GENERATED ALWAYS AS (home_goals + away_goals) STORED,
+ADD COLUMN IF NOT EXISTS goal_difference INTEGER GENERATED ALWAYS AS (home_goals - away_goals) STORED,
+ADD COLUMN IF NOT EXISTS is_draw BOOLEAN GENERATED ALWAYS AS (home_goals = away_goals) STORED;
+
+COMMENT ON COLUMN matches.total_goals IS 'Total goals in match (computed)';
+COMMENT ON COLUMN matches.goal_difference IS 'Goal difference (home - away, computed)';
+COMMENT ON COLUMN matches.is_draw IS 'Whether match was a draw (computed)';
+
+-- Create indexes for common queries
+CREATE INDEX IF NOT EXISTS idx_matches_total_goals ON matches(total_goals);
+CREATE INDEX IF NOT EXISTS idx_matches_is_draw ON matches(is_draw) WHERE is_draw = TRUE;
+
+-- ============================================================================
+-- 7. ADD SEASON STATISTICS VIEW (FOR QUICK ACCESS)
+-- ============================================================================
+
+CREATE OR REPLACE VIEW v_season_statistics AS
+SELECT
+    l.code as league_code,
+    l.name as league_name,
+    m.season,
+    COUNT(*) as total_matches,
+    SUM(CASE WHEN m.result = 'H' THEN 1 ELSE 0 END) as home_wins,
+    SUM(CASE WHEN m.result = 'D' THEN 1 ELSE 0 END) as draws,
+    SUM(CASE WHEN m.result = 'A' THEN 1 ELSE 0 END) as away_wins,
+    AVG(CASE WHEN m.result = 'D' THEN 1.0 ELSE 0.0 END) as draw_rate,
+    AVG(m.home_goals + m.away_goals) as avg_goals_per_match,
+    AVG(m.home_goals) as avg_home_goals,
+    AVG(m.away_goals) as avg_away_goals,
+    MIN(m.match_date) as season_start,
+    MAX(m.match_date) as season_end
+FROM matches m
+JOIN leagues l ON l.id = m.league_id
+GROUP BY l.code, l.name, m.season
+ORDER BY l.code, m.season DESC;
+
+COMMENT ON VIEW v_season_statistics IS 'Season-level statistics for all leagues';
+
+-- ============================================================================
+-- 8. ADD TEAM SEASON STATISTICS VIEW
+-- ============================================================================
+
+CREATE OR REPLACE VIEW v_team_season_stats AS
+SELECT
+    t.id as team_id,
+    t.name as team_name,
+    l.code as league_code,
+    m.season,
+    COUNT(*) as matches_played,
+    SUM(CASE WHEN m.home_team_id = t.id AND m.result = 'H' THEN 1
+             WHEN m.away_team_id = t.id AND m.result = 'A' THEN 1 ELSE 0 END) as wins,
+    SUM(CASE WHEN m.result = 'D' THEN 1 ELSE 0 END) as draws,
+    SUM(CASE WHEN m.home_team_id = t.id AND m.result = 'A' THEN 1
+             WHEN m.away_team_id = t.id AND m.result = 'H' THEN 1 ELSE 0 END) as losses,
+    SUM(CASE WHEN m.home_team_id = t.id THEN m.home_goals ELSE m.away_goals END) as goals_for,
+    SUM(CASE WHEN m.home_team_id = t.id THEN m.away_goals ELSE m.home_goals END) as goals_against,
+    SUM(CASE WHEN m.home_team_id = t.id THEN m.home_goals ELSE m.away_goals END) -
+    SUM(CASE WHEN m.home_team_id = t.id THEN m.away_goals ELSE m.home_goals END) as goal_difference,
+    SUM(CASE WHEN m.home_team_id = t.id AND m.result = 'H' THEN 3
+             WHEN m.away_team_id = t.id AND m.result = 'A' THEN 3
+             WHEN m.result = 'D' THEN 1 ELSE 0 END) as points
+FROM teams t
+JOIN matches m ON (m.home_team_id = t.id OR m.away_team_id = t.id)
+JOIN leagues l ON l.id = t.league_id
+GROUP BY t.id, t.name, l.code, m.season
+ORDER BY l.code, m.season DESC, points DESC;
+
+COMMENT ON VIEW v_team_season_stats IS 'Team statistics per season';
+
+-- ============================================================================
+-- 9. VERIFICATION
+-- ============================================================================
+
+-- Verify columns were added
+DO $$
+DECLARE
+    missing_columns TEXT[];
+BEGIN
+    SELECT ARRAY_AGG(column_name)
+    INTO missing_columns
+    FROM (
+        SELECT 'ht_home_goals' as column_name
+        UNION SELECT 'ht_away_goals'
+        UNION SELECT 'match_time'
+        UNION SELECT 'venue'
+        UNION SELECT 'source_file'
+        UNION SELECT 'matchday'
+    ) expected
+    WHERE column_name NOT IN (
+        SELECT column_name 
+        FROM information_schema.columns 
+        WHERE table_name = 'matches' AND table_schema = 'public'
+    );
+    
+    IF array_length(missing_columns, 1) > 0 THEN
+        RAISE EXCEPTION 'Missing columns: %', array_to_string(missing_columns, ', ');
+    ELSE
+        RAISE NOTICE 'All schema enhancements applied successfully ✓';
+    END IF;
+END $$;
+
+COMMIT;
+
+-- ============================================================================
+-- END OF SCHEMA ENHANCEMENTS
+-- ============================================================================
+
+-- ============================================================================
+-- ADDITIONAL MIGRATIONS - ENSURE ALL FEATURES ARE INCLUDED
+-- ============================================================================
+-- These migrations ensure all features from migration files are included
+-- Safe to run multiple times (idempotent)
+
+BEGIN;
+
+-- ============================================================================
+-- 1. ADD ENTROPY AND TEMPERATURE METRICS TO TRAINING_RUNS
+-- ============================================================================
+-- From: migrations/add_entropy_metrics.sql
+
+ALTER TABLE training_runs
+ADD COLUMN IF NOT EXISTS avg_entropy DOUBLE PRECISION,
+ADD COLUMN IF NOT EXISTS p10_entropy DOUBLE PRECISION,
+ADD COLUMN IF NOT EXISTS p90_entropy DOUBLE PRECISION,
+ADD COLUMN IF NOT EXISTS temperature DOUBLE PRECISION,
+ADD COLUMN IF NOT EXISTS alpha_mean DOUBLE PRECISION;
+
+-- Create indexes for entropy monitoring queries
+CREATE INDEX IF NOT EXISTS idx_training_runs_entropy 
+ON training_runs (avg_entropy);
+
+CREATE INDEX IF NOT EXISTS idx_training_runs_temperature 
+ON training_runs (temperature);
+
+-- Add comments for documentation
+COMMENT ON COLUMN training_runs.avg_entropy IS 'Average normalized entropy (0-1) of model predictions during training';
+COMMENT ON COLUMN training_runs.p10_entropy IS '10th percentile of entropy distribution';
+COMMENT ON COLUMN training_runs.p90_entropy IS '90th percentile of entropy distribution';
+COMMENT ON COLUMN training_runs.temperature IS 'Learned temperature parameter for probability softening (typically 1.0-1.5)';
+COMMENT ON COLUMN training_runs.alpha_mean IS 'Mean effective alpha used in entropy-weighted blending';
+
+-- ============================================================================
+-- 2. ADD UNIQUE PARTIAL INDEX FOR MODELS
+-- ============================================================================
+-- From: migrations/add_unique_partial_index_models.sql
+-- Ensures only one active model per model_type exists
+
+DROP INDEX IF EXISTS idx_models_active_per_type;
+
+CREATE UNIQUE INDEX idx_models_active_per_type 
+ON models (model_type) 
+WHERE status = 'active';
+
+COMMENT ON INDEX idx_models_active_per_type IS 
+'Ensures only one active model per model_type exists. Prevents multiple active models of the same type.';
+
+-- ============================================================================
+-- 3. ADD DRAW MODEL SUPPORT
+-- ============================================================================
+-- From: migrations/add_draw_model_support.sql
+-- Enable model_type='draw' for dedicated draw probability models
+
+DO $$
+BEGIN
+    -- Check if model_type column exists and is an enum
+    IF EXISTS (
+        SELECT 1
+        FROM information_schema.columns
+        WHERE table_name = 'models'
+        AND column_name = 'model_type'
+        AND data_type = 'USER-DEFINED'
+    ) THEN
+        -- It's an enum, add 'draw' value if it doesn't exist
+        IF NOT EXISTS (
+            SELECT 1
+            FROM pg_type t
+            JOIN pg_enum e ON t.oid = e.enumtypid
+            WHERE t.typname = (SELECT udt_name FROM information_schema.columns 
+                              WHERE table_name = 'models' AND column_name = 'model_type')
+            AND e.enumlabel = 'draw'
+        ) THEN
+            -- Get the enum type name
+            DECLARE
+                enum_type_name TEXT;
+            BEGIN
+                SELECT udt_name INTO enum_type_name
+                FROM information_schema.columns
+                WHERE table_name = 'models' AND column_name = 'model_type';
+                
+                EXECUTE format('ALTER TYPE %I ADD VALUE IF NOT EXISTS ''draw''', enum_type_name);
+            END;
+        END IF;
+    END IF;
+END
+$$;
+
+-- Create index for faster draw-model lookup
+CREATE INDEX IF NOT EXISTS idx_models_draw_active
+ON models (model_type, status)
+WHERE model_type = 'draw' AND status = 'active';
+
+-- Add comment explaining draw model type
+COMMENT ON COLUMN models.model_type IS 
+'Model type: poisson, blending, calibration, or draw. Draw models estimate P(Draw) only.';
+
+-- ============================================================================
+-- 4. ENSURE ALL LEAGUES ARE INCLUDED
+-- ============================================================================
+-- From: migrations/4_ALL_LEAGUES_FOOTBALL_DATA.sql
+-- This ensures all leagues from football-data.co.uk are in the database
+
+INSERT INTO leagues (code, name, country, tier, avg_draw_rate, home_advantage, is_active) VALUES
+    -- ENGLAND (E0-E3)
+    ('E0', 'Premier League', 'England', 1, 0.26, 0.35, TRUE),
+    ('E1', 'Championship', 'England', 2, 0.27, 0.33, TRUE),
+    ('E2', 'League One', 'England', 3, 0.28, 0.32, TRUE),
+    ('E3', 'League Two', 'England', 4, 0.29, 0.31, TRUE),
+    
+    -- SPAIN (SP1-SP2)
+    ('SP1', 'La Liga', 'Spain', 1, 0.25, 0.30, TRUE),
+    ('SP2', 'La Liga 2', 'Spain', 2, 0.26, 0.29, TRUE),
+    
+    -- GERMANY (D1-D2)
+    ('D1', 'Bundesliga', 'Germany', 1, 0.24, 0.32, TRUE),
+    ('D2', '2. Bundesliga', 'Germany', 2, 0.25, 0.31, TRUE),
+    
+    -- ITALY (I1-I2)
+    ('I1', 'Serie A', 'Italy', 1, 0.27, 0.28, TRUE),
+    ('I2', 'Serie B', 'Italy', 2, 0.28, 0.27, TRUE),
+    
+    -- FRANCE (F1-F2)
+    ('F1', 'Ligue 1', 'France', 1, 0.26, 0.33, TRUE),
+    ('F2', 'Ligue 2', 'France', 2, 0.27, 0.32, TRUE),
+    
+    -- NETHERLANDS (N1)
+    ('N1', 'Eredivisie', 'Netherlands', 1, 0.25, 0.31, TRUE),
+    
+    -- PORTUGAL (P1)
+    ('P1', 'Primeira Liga', 'Portugal', 1, 0.26, 0.34, TRUE),
+    
+    -- SCOTLAND (SC0-SC3)
+    ('SC0', 'Scottish Premiership', 'Scotland', 1, 0.24, 0.36, TRUE),
+    ('SC1', 'Scottish Championship', 'Scotland', 2, 0.25, 0.35, TRUE),
+    ('SC2', 'Scottish League One', 'Scotland', 3, 0.26, 0.34, TRUE),
+    ('SC3', 'Scottish League Two', 'Scotland', 4, 0.27, 0.33, TRUE),
+    
+    -- BELGIUM (B1)
+    ('B1', 'Pro League', 'Belgium', 1, 0.25, 0.32, TRUE),
+    
+    -- TURKEY (T1)
+    ('T1', 'Super Lig', 'Turkey', 1, 0.27, 0.37, TRUE),
+    
+    -- GREECE (G1)
+    ('G1', 'Super League 1', 'Greece', 1, 0.28, 0.38, TRUE),
+    
+    -- AUSTRIA (A1)
+    ('A1', 'Bundesliga', 'Austria', 1, 0.25, 0.33, TRUE),
+    
+    -- SWITZERLAND (SW1)
+    ('SW1', 'Super League', 'Switzerland', 1, 0.26, 0.34, TRUE),
+    
+    -- DENMARK (DK1)
+    ('DK1', 'Superliga', 'Denmark', 1, 0.25, 0.32, TRUE),
+    
+    -- SWEDEN (SWE1)
+    ('SWE1', 'Allsvenskan', 'Sweden', 1, 0.24, 0.31, TRUE),
+    
+    -- NORWAY (NO1)
+    ('NO1', 'Eliteserien', 'Norway', 1, 0.24, 0.30, TRUE),
+    
+    -- FINLAND (FIN1)
+    ('FIN1', 'Veikkausliiga', 'Finland', 1, 0.25, 0.29, TRUE),
+    
+    -- POLAND (PL1)
+    ('PL1', 'Ekstraklasa', 'Poland', 1, 0.26, 0.33, TRUE),
+    
+    -- ROMANIA (RO1)
+    ('RO1', 'Liga 1', 'Romania', 1, 0.27, 0.35, TRUE),
+    
+    -- RUSSIA (RUS1)
+    ('RUS1', 'Premier League', 'Russia', 1, 0.26, 0.34, TRUE),
+    
+    -- CZECH REPUBLIC (CZE1)
+    ('CZE1', 'First League', 'Czech Republic', 1, 0.25, 0.32, TRUE),
+    
+    -- CROATIA (CRO1)
+    ('CRO1', 'Prva HNL', 'Croatia', 1, 0.26, 0.33, TRUE),
+    
+    -- SERBIA (SRB1)
+    ('SRB1', 'SuperLiga', 'Serbia', 1, 0.27, 0.36, TRUE),
+    
+    -- UKRAINE (UKR1)
+    ('UKR1', 'Premier League', 'Ukraine', 1, 0.25, 0.33, TRUE),
+    
+    -- IRELAND (IRL1)
+    ('IRL1', 'Premier Division', 'Ireland', 1, 0.26, 0.32, TRUE),
+    
+    -- ARGENTINA (ARG1)
+    ('ARG1', 'Primera Division', 'Argentina', 1, 0.23, 0.28, TRUE),
+    
+    -- BRAZIL (BRA1)
+    ('BRA1', 'Serie A', 'Brazil', 1, 0.24, 0.27, TRUE),
+    
+    -- MEXICO (MEX1)
+    ('MEX1', 'Liga MX', 'Mexico', 1, 0.25, 0.29, TRUE),
+    
+    -- USA (USA1)
+    ('USA1', 'Major League Soccer', 'USA', 1, 0.22, 0.26, TRUE),
+    
+    -- CHINA (CHN1)
+    ('CHN1', 'Super League', 'China', 1, 0.24, 0.28, TRUE),
+    
+    -- JAPAN (JPN1)
+    ('JPN1', 'J-League', 'Japan', 1, 0.23, 0.27, TRUE),
+    
+    -- SOUTH KOREA (KOR1)
+    ('KOR1', 'K League 1', 'South Korea', 1, 0.24, 0.28, TRUE),
+    
+    -- AUSTRALIA (AUS1)
+    ('AUS1', 'A-League', 'Australia', 1, 0.23, 0.26, TRUE)
+
+ON CONFLICT (code) DO UPDATE SET
+    name = EXCLUDED.name,
+    country = EXCLUDED.country,
+    tier = EXCLUDED.tier,
+    avg_draw_rate = EXCLUDED.avg_draw_rate,
+    home_advantage = EXCLUDED.home_advantage,
+    is_active = EXCLUDED.is_active,
+    updated_at = now();
+
+-- ============================================================================
+-- 5. VERIFY ALL INDEXES EXIST
+-- ============================================================================
+-- Ensure all critical indexes are created
+
+-- GIN index for alternative_names (if not exists)
+DO $$
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM pg_indexes 
+        WHERE indexname = 'idx_teams_alternative_names'
+        AND schemaname = 'public'
+    ) THEN
+        CREATE INDEX idx_teams_alternative_names ON teams USING GIN(alternative_names);
+        RAISE NOTICE 'Created GIN index idx_teams_alternative_names ✓';
+    END IF;
+END $$;
+
+-- ============================================================================
+-- 6. FINAL VERIFICATION
+-- ============================================================================
+
+-- Verify all critical tables exist
+DO $$
+DECLARE
+    expected_tables TEXT[] := ARRAY[
+        'leagues', 'teams', 'matches', 'jackpots', 'jackpot_fixtures',
+        'predictions', 'models', 'training_runs', 'league_draw_priors',
+        'h2h_draw_stats', 'team_elo', 'match_weather', 'match_weather_historical',
+        'referee_stats', 'team_rest_days', 'team_rest_days_historical',
+        'odds_movement', 'odds_movement_historical', 'league_structure',
+        'match_xg', 'match_xg_historical', 'team_h2h_stats',
+        'saved_jackpot_templates', 'saved_probability_results'
+    ];
+    missing_tables TEXT[];
+BEGIN
+    SELECT ARRAY_AGG(table_name)
+    INTO missing_tables
+    FROM unnest(expected_tables) AS table_name
+    WHERE table_name NOT IN (
+        SELECT tablename FROM pg_tables WHERE schemaname = 'public'
+    );
+    
+    IF array_length(missing_tables, 1) > 0 THEN
+        RAISE WARNING 'Missing tables: %', array_to_string(missing_tables, ', ');
+    ELSE
+        RAISE NOTICE 'All expected tables exist ✓';
+    END IF;
+END $$;
+
+-- Verify entropy columns exist
+DO $$
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1 
+        FROM information_schema.columns 
+        WHERE table_name = 'training_runs' 
+        AND column_name = 'avg_entropy'
+        AND table_schema = 'public'
+    ) THEN
+        RAISE WARNING 'Missing column: training_runs.avg_entropy';
+    ELSE
+        RAISE NOTICE 'Entropy columns in training_runs exist ✓';
+    END IF;
+END $$;
+
+COMMIT;
+
+-- ============================================================================
+-- END OF COMPLETE SCHEMA
+-- ============================================================================
+-- 
+-- This schema file now includes:
+-- - All base tables
+-- - All draw structural extensions
+-- - All historical tables
+-- - All xG tables
+-- - All migrations integrated
+-- - All indexes and constraints
+-- 
+-- You can run this file directly on your existing database.
+-- All statements are idempotent (safe to run multiple times).
+-- 
+-- ============================================================================
+
+-- Add pipeline_metadata column to jackpots table
+-- Stores pipeline execution results: data downloaded, model trained, etc.
+
+ALTER TABLE jackpots 
+ADD COLUMN IF NOT EXISTS pipeline_metadata JSONB DEFAULT NULL;
+
+COMMENT ON COLUMN jackpots.pipeline_metadata IS 'Stores pipeline execution results including: data_downloaded, model_trained, teams_created, download_stats, training_stats, execution_timestamp';
+
+-- Example structure:
+-- {
+--   "execution_timestamp": "2024-01-01T10:00:00Z",
+--   "pipeline_run": true,
+--   "teams_created": ["New Team"],
+--   "data_downloaded": true,
+--   "download_stats": {
+--     "leagues_downloaded": ["E0"],
+--     "total_matches": 1520,
+--     "seasons": ["2324", "2223"]
+--   },
+--   "model_trained": true,
+--   "training_stats": {
+--     "model_id": 42,
+--     "model_version": "poisson-20240101-100500",
+--     "teams_trained": 580
+--   },
+--   "probabilities_calculated_with_new_data": true,
+--   "status": "completed",
+--   "errors": []
+-- }
+
+-- Migration: Add Team Form and Injuries Tables
+-- Date: 2025-01-08
+-- Description: Adds tables for tracking team form and injuries to improve probability calculations
+
+-- Team Form Table
+CREATE TABLE IF NOT EXISTS team_form (
+    id SERIAL PRIMARY KEY,
+    team_id INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    fixture_id INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    matches_played INTEGER NOT NULL DEFAULT 0,
+    wins INTEGER NOT NULL DEFAULT 0,
+    draws INTEGER NOT NULL DEFAULT 0,
+    losses INTEGER NOT NULL DEFAULT 0,
+    goals_scored DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    goals_conceded DOUBLE PRECISION NOT NULL DEFAULT 0.0,
+    points INTEGER NOT NULL DEFAULT 0,
+    form_rating DOUBLE PRECISION,  -- Normalized form rating (0.0-1.0)
+    attack_form DOUBLE PRECISION,   -- Goals scored per match (normalized)
+    defense_form DOUBLE PRECISION,  -- Goals conceded per match (normalized, inverted)
+    last_match_date DATE,
+    calculated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    CONSTRAINT uix_team_form_fixture UNIQUE (team_id, fixture_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_team_form_team ON team_form(team_id);
+CREATE INDEX IF NOT EXISTS idx_team_form_fixture ON team_form(fixture_id);
+CREATE INDEX IF NOT EXISTS idx_team_form_rating ON team_form(form_rating);
+
+-- Team Injuries Table
+CREATE TABLE IF NOT EXISTS team_injuries (
+    id SERIAL PRIMARY KEY,
+    team_id INTEGER NOT NULL REFERENCES teams(id) ON DELETE CASCADE,
+    fixture_id INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    key_players_missing INTEGER DEFAULT 0,
+    injury_severity DOUBLE PRECISION,  -- Overall injury severity (0.0-1.0)
+    attackers_missing INTEGER DEFAULT 0,
+    midfielders_missing INTEGER DEFAULT 0,
+    defenders_missing INTEGER DEFAULT 0,
+    goalkeepers_missing INTEGER DEFAULT 0,
+    notes TEXT,
+    recorded_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    CONSTRAINT uix_team_injuries_fixture UNIQUE (team_id, fixture_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_team_injuries_team ON team_injuries(team_id);
+CREATE INDEX IF NOT EXISTS idx_team_injuries_fixture ON team_injuries(fixture_id);
+CREATE INDEX IF NOT EXISTS idx_team_injuries_severity ON team_injuries(injury_severity);
+
+-- Comments
+COMMENT ON TABLE team_form IS 'Team form metrics calculated from recent matches (last 5 matches)';
+COMMENT ON TABLE team_injuries IS 'Team injury data for fixtures, used to adjust team strengths';
+
+COMMENT ON COLUMN team_form.form_rating IS 'Normalized form rating (0.0-1.0), where 1.0 = perfect form (3 points per match)';
+COMMENT ON COLUMN team_form.attack_form IS 'Goals scored per match, normalized (0.0-1.0)';
+COMMENT ON COLUMN team_form.defense_form IS 'Goals conceded per match, normalized and inverted (lower is better)';
+
+COMMENT ON COLUMN team_injuries.injury_severity IS 'Overall injury severity (0.0-1.0), where 1.0 = critical players missing';
+COMMENT ON COLUMN team_injuries.key_players_missing IS 'Number of key players missing due to injury';
+

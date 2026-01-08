@@ -1,0 +1,46 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8845,Dunfermline,8850,Falkirk,1819,4,0,0.0,2.5
+8845,Dunfermline,8853,Dundee United,1819,4,0,0.0,2.25
+8844,Morton,8854,Inverness C,1819,4,2,0.5,2.5
+8841,Ayr,8850,Falkirk,1819,4,0,0.0,2.25
+8841,Ayr,8856,Queen of Sth,1819,4,2,0.5,2.5
+8845,Dunfermline,8859,Alloa,1819,4,2,0.5,1.5
+8853,Dundee United,8854,Inverness C,1819,4,2,0.5,1.75
+8844,Morton,8849,Partick,1819,4,0,0.0,3.25
+8850,Falkirk,8853,Dundee United,1819,4,1,0.25,2.25
+8843,Ross County,8845,Dunfermline,1819,4,0,0.0,2.75
+8850,Falkirk,8859,Alloa,1819,4,1,0.25,3.0
+8853,Dundee United,8856,Queen of Sth,1819,4,0,0.0,2.25
+8854,Inverness C,8856,Queen of Sth,1819,4,2,0.5,2.75
+8841,Ayr,8859,Alloa,1819,4,1,0.25,2.75
+8849,Partick,8853,Dundee United,1819,4,1,0.25,3.0
+8843,Ross County,8859,Alloa,1819,4,0,0.0,1.25
+8844,Morton,8856,Queen of Sth,1819,4,2,0.5,2.5
+8844,Morton,8850,Falkirk,1819,4,2,0.5,1.25
+8856,Queen of Sth,8859,Alloa,1819,4,1,0.25,3.0
+8845,Dunfermline,8856,Queen of Sth,1819,4,1,0.25,1.25
+8841,Ayr,8854,Inverness C,1819,4,1,0.25,1.75
+8843,Ross County,8856,Queen of Sth,1819,4,2,0.5,2.5
+8844,Morton,8859,Alloa,1819,4,0,0.0,2.5
+8854,Inverness C,8859,Alloa,1819,4,2,0.5,3.0
+8843,Ross County,8853,Dundee United,1819,4,1,0.25,2.5
+8850,Falkirk,8856,Queen of Sth,1819,4,1,0.25,2.5
+8849,Partick,8856,Queen of Sth,1819,4,0,0.0,3.0
+8841,Ayr,8849,Partick,1819,4,0,0.0,1.75
+8844,Morton,8845,Dunfermline,1819,4,2,0.5,1.5
+8850,Falkirk,8854,Inverness C,1819,4,2,0.5,2.5
+8845,Dunfermline,8849,Partick,1819,4,1,0.25,2.5
+8841,Ayr,8844,Morton,1819,4,3,0.75,2.0
+8849,Partick,8850,Falkirk,1819,4,3,0.75,2.25
+8849,Partick,8859,Alloa,1819,4,1,0.25,2.5
+8844,Morton,8853,Dundee United,1819,4,2,0.5,2.0
+8841,Ayr,8853,Dundee United,1819,4,0,0.0,2.75
+8841,Ayr,8843,Ross County,1819,4,1,0.25,4.5
+8843,Ross County,8849,Partick,1819,4,1,0.25,2.5
+8843,Ross County,8854,Inverness C,1819,4,2,0.5,2.5
+8843,Ross County,8844,Morton,1819,4,0,0.0,2.75
+8853,Dundee United,8859,Alloa,1819,4,1,0.25,3.5
+8843,Ross County,8850,Falkirk,1819,4,1,0.25,3.0
+8849,Partick,8854,Inverness C,1819,4,0,0.0,3.0
+8845,Dunfermline,8854,Inverness C,1819,4,1,0.25,2.25
+8841,Ayr,8845,Dunfermline,1819,4,1,0.25,1.75

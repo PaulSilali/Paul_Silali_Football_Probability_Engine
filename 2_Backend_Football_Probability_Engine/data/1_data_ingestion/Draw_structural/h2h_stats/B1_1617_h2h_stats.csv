@@ -1,0 +1,107 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+8924,Westerlo,8931,Eupen,1617,2,1,0.5,4.5
+8919,Waregem,8931,Eupen,1617,2,0,0.0,3.5
+8928,St Truiden,8931,Eupen,1617,2,0,0.0,4.5
+8924,Westerlo,8930,Kortrijk,1617,2,0,0.0,5.0
+8928,St Truiden,8937,Lokeren,1617,2,0,0.0,1.0
+8918,Cercle Brugge,8922,Standard,1617,2,1,0.5,3.5
+8922,Standard,8937,Lokeren,1617,2,1,0.5,1.5
+8918,Cercle Brugge,8935,Mouscron,1617,2,0,0.0,3.0
+8926,Charleroi,8931,Eupen,1617,2,1,0.5,4.5
+8928,St Truiden,8930,Kortrijk,1617,2,0,0.0,2.0
+8935,Mouscron,8937,Lokeren,1617,2,0,0.0,3.0
+8918,Cercle Brugge,8927,Genk,1617,4,1,0.25,2.0
+8922,Standard,8926,Charleroi,1617,2,1,0.5,2.0
+8919,Waregem,8927,Genk,1617,4,1,0.25,1.75
+8923,Anderlecht,8930,Kortrijk,1617,2,0,0.0,5.0
+8923,Anderlecht,8927,Genk,1617,4,1,0.25,3.25
+8935,Mouscron,8936,Waasland-Beveren,1617,2,1,0.5,1.5
+8927,Genk,8928,St Truiden,1617,4,0,0.0,2.75
+8919,Waregem,8930,Kortrijk,1617,2,0,0.0,4.0
+8934,Oostende,8937,Lokeren,1617,2,1,0.5,1.5
+8920,Mechelen,8924,Westerlo,1617,2,0,0.0,3.0
+8918,Cercle Brugge,8930,Kortrijk,1617,2,0,0.0,4.5
+8918,Cercle Brugge,8934,Oostende,1617,2,0,0.0,1.5
+8918,Cercle Brugge,8923,Anderlecht,1617,2,1,0.5,1.5
+8922,Standard,8928,St Truiden,1617,2,1,0.5,3.0
+8923,Anderlecht,8928,St Truiden,1617,2,1,0.5,2.0
+8923,Anderlecht,8924,Westerlo,1617,2,0,0.0,4.5
+8927,Genk,8930,Kortrijk,1617,4,1,0.25,3.25
+8930,Kortrijk,8937,Lokeren,1617,2,0,0.0,3.0
+8927,Genk,8935,Mouscron,1617,4,1,0.25,2.75
+8926,Charleroi,8927,Genk,1617,4,2,0.5,2.0
+8926,Charleroi,8928,St Truiden,1617,2,1,0.5,2.5
+8926,Charleroi,8936,Waasland-Beveren,1617,2,0,0.0,1.0
+8930,Kortrijk,8931,Eupen,1617,2,1,0.5,1.5
+8928,St Truiden,8935,Mouscron,1617,2,0,0.0,2.0
+8931,Eupen,8937,Lokeren,1617,2,1,0.5,3.5
+8926,Charleroi,8934,Oostende,1617,2,0,0.0,3.0
+8927,Genk,8937,Lokeren,1617,4,1,0.25,2.25
+8919,Waregem,8926,Charleroi,1617,2,1,0.5,2.5
+8934,Oostende,8935,Mouscron,1617,2,0,0.0,3.0
+8919,Waregem,8922,Standard,1617,2,0,0.0,3.0
+8920,Mechelen,8931,Eupen,1617,2,0,0.0,1.5
+8931,Eupen,8936,Waasland-Beveren,1617,2,0,0.0,4.0
+8930,Kortrijk,8935,Mouscron,1617,2,0,0.0,1.5
+8919,Waregem,8920,Mechelen,1617,2,1,0.5,2.5
+8924,Westerlo,8934,Oostende,1617,2,0,0.0,4.5
+8927,Genk,8934,Oostende,1617,4,1,0.25,3.0
+8920,Mechelen,8937,Lokeren,1617,2,1,0.5,1.5
+8927,Genk,8936,Waasland-Beveren,1617,4,2,0.5,2.75
+8918,Cercle Brugge,8928,St Truiden,1617,2,1,0.5,2.5
+8919,Waregem,8924,Westerlo,1617,2,1,0.5,3.5
+8936,Waasland-Beveren,8937,Lokeren,1617,2,2,1.0,1.0
+8919,Waregem,8937,Lokeren,1617,2,1,0.5,2.0
+8923,Anderlecht,8931,Eupen,1617,2,1,0.5,4.0
+8924,Westerlo,8927,Genk,1617,4,1,0.25,3.25
+8924,Westerlo,8935,Mouscron,1617,2,1,0.5,2.0
+8919,Waregem,8923,Anderlecht,1617,2,0,0.0,5.5
+8926,Charleroi,8935,Mouscron,1617,2,0,0.0,1.5
+8918,Cercle Brugge,8924,Westerlo,1617,2,0,0.0,3.5
+8920,Mechelen,8936,Waasland-Beveren,1617,2,1,0.5,3.0
+8922,Standard,8931,Eupen,1617,2,1,0.5,3.5
+8920,Mechelen,8927,Genk,1617,4,0,0.0,2.25
+8919,Waregem,8936,Waasland-Beveren,1617,2,1,0.5,2.0
+8922,Standard,8934,Oostende,1617,2,1,0.5,4.0
+8919,Waregem,8934,Oostende,1617,2,2,1.0,2.0
+8920,Mechelen,8926,Charleroi,1617,2,1,0.5,0.5
+8926,Charleroi,8930,Kortrijk,1617,2,1,0.5,2.5
+8923,Anderlecht,8926,Charleroi,1617,2,0,0.0,3.5
+8918,Cercle Brugge,8937,Lokeren,1617,2,0,0.0,1.0
+8920,Mechelen,8934,Oostende,1617,2,0,0.0,3.5
+8927,Genk,8927,Genk,1617,2,0,0.0,1.5
+8928,St Truiden,8936,Waasland-Beveren,1617,2,0,0.0,4.5
+8920,Mechelen,8923,Anderlecht,1617,2,0,0.0,3.5
+8927,Genk,8931,Eupen,1617,4,0,0.0,2.25
+8920,Mechelen,8935,Mouscron,1617,2,0,0.0,3.5
+8923,Anderlecht,8935,Mouscron,1617,2,0,0.0,5.0
+8922,Standard,8935,Mouscron,1617,2,0,0.0,2.0
+8918,Cercle Brugge,8931,Eupen,1617,2,0,0.0,5.0
+8924,Westerlo,8928,St Truiden,1617,2,1,0.5,2.5
+8924,Westerlo,8936,Waasland-Beveren,1617,2,1,0.5,0.5
+8923,Anderlecht,8934,Oostende,1617,2,1,0.5,3.5
+8931,Eupen,8935,Mouscron,1617,2,0,0.0,4.0
+8922,Standard,8936,Waasland-Beveren,1617,2,0,0.0,3.0
+8923,Anderlecht,8937,Lokeren,1617,2,1,0.5,0.5
+8919,Waregem,8935,Mouscron,1617,2,0,0.0,3.5
+8918,Cercle Brugge,8919,Waregem,1617,2,1,0.5,2.5
+8928,St Truiden,8934,Oostende,1617,2,1,0.5,3.5
+8918,Cercle Brugge,8926,Charleroi,1617,2,0,0.0,1.0
+8931,Eupen,8934,Oostende,1617,2,0,0.0,3.5
+8926,Charleroi,8937,Lokeren,1617,2,1,0.5,1.5
+8930,Kortrijk,8934,Oostende,1617,2,1,0.5,3.0
+8918,Cercle Brugge,8920,Mechelen,1617,2,0,0.0,4.5
+8922,Standard,8924,Westerlo,1617,2,1,0.5,4.0
+8920,Mechelen,8928,St Truiden,1617,2,0,0.0,2.5
+8922,Standard,8923,Anderlecht,1617,2,1,0.5,0.5
+8924,Westerlo,8926,Charleroi,1617,2,1,0.5,1.5
+8930,Kortrijk,8936,Waasland-Beveren,1617,2,1,0.5,2.5
+8922,Standard,8930,Kortrijk,1617,2,1,0.5,4.5
+8923,Anderlecht,8936,Waasland-Beveren,1617,2,0,0.0,3.0
+8924,Westerlo,8937,Lokeren,1617,2,0,0.0,3.5
+8922,Standard,8927,Genk,1617,4,2,0.5,2.25
+8920,Mechelen,8930,Kortrijk,1617,2,1,0.5,1.0
+8919,Waregem,8928,St Truiden,1617,2,0,0.0,3.5
+8918,Cercle Brugge,8936,Waasland-Beveren,1617,2,0,0.0,2.0
+8934,Oostende,8936,Waasland-Beveren,1617,2,0,0.0,2.0
+8920,Mechelen,8922,Standard,1617,2,1,0.5,3.5

@@ -744,7 +744,7 @@ async def batch_download(
             enable_cleaning=settings.ENABLE_DATA_CLEANING
         )
         
-        # Get or create data source
+        # Get or create data source (ensure it exists and is committed before using)
         from app.db.models import DataSource, IngestionLog
         data_source = db.query(DataSource).filter(
             DataSource.name == source
@@ -757,7 +757,18 @@ async def batch_download(
                 status="running"
             )
             db.add(data_source)
-            db.flush()
+            db.flush()  # Flush to get the ID
+            # Commit the data_source to ensure it exists in the database before foreign key reference
+            db.commit()
+            # Refresh the object to ensure it's properly loaded
+            db.refresh(data_source)
+        
+        # Verify data_source has a valid ID
+        if not data_source or not data_source.id:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Failed to get or create data source: {source}"
+            )
         
         results = []
         total_stats = {
@@ -805,6 +816,7 @@ async def batch_download(
             
             try:
                 # Create one batch per league
+                # data_source is already committed, so its ID is valid
                 league_batch_log = IngestionLog(
                     source_id=data_source.id,
                     status="running"

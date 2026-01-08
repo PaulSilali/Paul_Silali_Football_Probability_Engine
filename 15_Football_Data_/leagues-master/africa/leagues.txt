@@ -1,0 +1,117 @@
+= International =
+
+caf.cl     CAF Champions League
+             | caf.champs
+caf.conf   CAF Confederations Cup
+
+afl        African Football League
+
+
+
+= Egypt =
+1   Premiership
+       | Premier League
+       | Ägypten Premier League [de]
+       | Egypt Premiership
+       | egy.1
+
+cup  Cup
+      | egt.cup
+
+super   Supercup
+            | Ägypten Supercup [de]
+            | eg.sc
+
+
+= Tunisia =
+1    Ligue 1
+      | Tunesien Ligue 1 [de]
+
+= Morocco =
+1    Botola
+      | Botola Pro 1
+      | Morocco Botola Pro 1
+      | Marokko 1. Liga [de]
+      | mar.1
+
+= Algeria =
+1    Ligue 1
+      | Algeria Ligue 1
+      | alg.1
+
+
+
+= South Africa =
+1    Premier League
+      | Premier Soccer League
+      | South African Premiership
+      | Südafrika Premier League [de]
+      | psl  | rsa.pl
+
+2    National First Division
+      | South African First Division
+
+cup    Cup                                      # national cup - find a better "official" name than Cup
+        | South African $$Nedbank$$ Cup
+
+cup.l  Knockout                                # league cup  - find a better "official" name than Knockout
+        | South African $$Telkom$$ Knockout
+
+
+= Nigeria =
+1   Professional League
+     | Nigerian Professional League
+
+= Kenya =
+1  Premier League
+    | Kenyan Premier League
+
+= Zambia =
+1  Super League
+    | Zambian Super League
+
+= Ghana =
+1  Premier League
+     | Ghanaian Premier League
+
+= Uganda =
+1  Super League
+     | Ugandan Super League
+
+= Zimbabwe =
+1  Premier Soccer League
+    | Zimbabwean Premier Soccer League
+
+= Burundi =
+1   1. Liga
+    | Burundi 1. Liga
+    | bur.1
+
+= Angola =
+1   Girabola
+     | Angola Girabola
+     | ang.1
+
+= Tanzania =
+1   Premier League
+      | Tansania Premier League [de]
+      | tza.pl
+
+
+= Mauritius =
+1   Premier League
+       | Mauritius Premier League
+       | Mauritian Premier League
+
+cup   Cup
+       | Mauritius Cup
+       | Mauritian Cup
+       | MFA Cup         # Mauritius Football Association
+
+cup.rep  Republic Cup
+           | Mauritius Republic Cup
+           | Mauritian Republic Cup
+# use cup.republic for key - long(er) form - why? why not?
+
+
+

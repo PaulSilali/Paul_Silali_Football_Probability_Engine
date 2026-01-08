@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9052,Santa Clara,9055,Sp Braga,2223,2,0,0.0,6.0
+9052,Santa Clara,9065,Vizela,2223,2,0,0.0,1.0
+9064,Portimonense,9067,Maritimo,2223,2,0,0.0,2.0
+9049,Arouca,9068,Pacos Ferreira,2223,2,2,1.0,2.0
+9059,Guimaraes,9060,Benfica,2223,2,1,0.5,3.0
+9045,Casa Pia,9061,Rio Ave,2223,2,1,0.5,1.5
+9046,Sp Lisbon,9051,Famalicao,2223,2,0,0.0,3.0
+9052,Santa Clara,9059,Guimaraes,2223,2,0,0.0,2.5
+9058,Porto,9065,Vizela,2223,2,0,0.0,1.5
+9060,Benfica,9062,Boavista,2223,2,0,0.0,3.5
+9066,Chaves,9068,Pacos Ferreira,2223,2,1,0.5,2.0
+9062,Boavista,9068,Pacos Ferreira,2223,2,0,0.0,2.5
+9055,Sp Braga,9062,Boavista,2223,2,1,0.5,1.5
+9048,Gil Vicente,9064,Portimonense,2223,2,0,0.0,2.0
+9045,Casa Pia,9057,Estoril,2223,2,1,0.5,3.0
+9060,Benfica,9067,Maritimo,2223,2,0,0.0,4.0
+9052,Santa Clara,9062,Boavista,2223,2,1,0.5,3.5
+9055,Sp Braga,9065,Vizela,2223,2,0,0.0,3.0
+9058,Porto,9068,Pacos Ferreira,2223,2,0,0.0,3.0
+9051,Famalicao,9062,Boavista,2223,2,0,0.0,3.5
+9048,Gil Vicente,9062,Boavista,2223,2,0,0.0,2.5
+9045,Casa Pia,9067,Maritimo,2223,2,0,0.0,2.5
+9051,Famalicao,9064,Portimonense,2223,2,0,0.0,1.0
+9048,Gil Vicente,9059,Guimaraes,2223,2,0,0.0,2.0
+9046,Sp Lisbon,9062,Boavista,2223,2,0,0.0,3.0
+9046,Sp Lisbon,9048,Gil Vicente,2223,2,1,0.5,2.0
+9051,Famalicao,9067,Maritimo,2223,2,1,0.5,2.5
+9046,Sp Lisbon,9061,Rio Ave,2223,2,0,0.0,2.0
+9051,Famalicao,9058,Porto,2223,2,0,0.0,5.5
+9045,Casa Pia,9066,Chaves,2223,2,0,0.0,2.0
+9059,Guimaraes,9065,Vizela,2223,2,0,0.0,3.0
+9055,Sp Braga,9060,Benfica,2223,2,0,0.0,2.0
+9066,Chaves,9067,Maritimo,2223,2,0,0.0,3.0
+9051,Famalicao,9065,Vizela,2223,2,1,0.5,1.5
+9059,Guimaraes,9066,Chaves,2223,2,0,0.0,2.0
+9049,Arouca,9067,Maritimo,2223,2,1,0.5,1.5
+9058,Porto,9062,Boavista,2223,2,0,0.0,3.0
+9059,Guimaraes,9064,Portimonense,2223,2,0,0.0,2.0
+9049,Arouca,9058,Porto,2223,2,0,0.0,3.5
+9057,Estoril,9058,Porto,2223,2,1,0.5,3.5
+9046,Sp Lisbon,9060,Benfica,2223,2,2,1.0,4.0
+9046,Sp Lisbon,9068,Pacos Ferreira,2223,2,0,0.0,3.5
+9046,Sp Lisbon,9058,Porto,2223,2,0,0.0,3.0
+9061,Rio Ave,9064,Portimonense,2223,2,1,0.5,2.5
+9049,Arouca,9059,Guimaraes,2223,2,1,0.5,3.0
+9049,Arouca,9051,Famalicao,2223,2,0,0.0,3.0
+9057,Estoril,9061,Rio Ave,2223,2,1,0.5,3.0
+9046,Sp Lisbon,9049,Arouca,2223,2,1,0.5,1.5
+9058,Porto,9061,Rio Ave,2223,2,0,0.0,2.5
+9062,Boavista,9066,Chaves,2223,2,1,0.5,3.5
+9046,Sp Lisbon,9055,Sp Braga,2223,2,1,0.5,5.5
+9048,Gil Vicente,9051,Famalicao,2223,2,1,0.5,0.5
+9049,Arouca,9055,Sp Braga,2223,2,0,0.0,4.0
+9045,Casa Pia,9048,Gil Vicente,2223,2,0,0.0,2.5
+9046,Sp Lisbon,9065,Vizela,2223,2,0,0.0,3.0
+9046,Sp Lisbon,9064,Portimonense,2223,2,0,0.0,2.5
+9045,Casa Pia,9062,Boavista,2223,2,1,0.5,1.0
+9045,Casa Pia,9058,Porto,2223,2,1,0.5,1.5
+9057,Estoril,9060,Benfica,2223,2,0,0.0,3.5
+9051,Famalicao,9068,Pacos Ferreira,2223,2,0,0.0,3.5
+9058,Porto,9066,Chaves,2223,2,0,0.0,3.5
+9048,Gil Vicente,9055,Sp Braga,2223,2,0,0.0,1.0
+9057,Estoril,9065,Vizela,2223,2,0,0.0,2.0
+9055,Sp Braga,9068,Pacos Ferreira,2223,2,0,0.0,3.0
+9052,Santa Clara,9066,Chaves,2223,2,2,1.0,1.0
+9058,Porto,9060,Benfica,2223,2,0,0.0,2.0
+9052,Santa Clara,9060,Benfica,2223,2,0,0.0,3.0
+9049,Arouca,9064,Portimonense,2223,2,0,0.0,3.0
+9051,Famalicao,9060,Benfica,2223,2,0,0.0,1.5
+9049,Arouca,9066,Chaves,2223,2,1,0.5,1.5
+9055,Sp Braga,9059,Guimaraes,2223,2,0,0.0,2.0
+9060,Benfica,9068,Pacos Ferreira,2223,2,0,0.0,3.5
+9062,Boavista,9065,Vizela,2223,2,2,1.0,3.0
+9052,Santa Clara,9057,Estoril,2223,2,0,0.0,3.5
+9062,Boavista,9067,Maritimo,2223,2,1,0.5,4.0
+9060,Benfica,9064,Portimonense,2223,2,0,0.0,3.5
+9052,Santa Clara,9061,Rio Ave,2223,2,0,0.0,1.5
+9045,Casa Pia,9055,Sp Braga,2223,2,0,0.0,1.0
+9051,Famalicao,9055,Sp Braga,2223,2,0,0.0,4.0
+9062,Boavista,9064,Portimonense,2223,2,0,0.0,3.5
+9052,Santa Clara,9067,Maritimo,2223,2,0,0.0,3.5
+9049,Arouca,9065,Vizela,2223,2,0,0.0,1.0
+9060,Benfica,9065,Vizela,2223,2,0,0.0,2.5
+9045,Casa Pia,9064,Portimonense,2223,2,1,0.5,2.5
+9057,Estoril,9064,Portimonense,2223,2,1,0.5,1.5
+9048,Gil Vicente,9057,Estoril,2223,2,0,0.0,1.0
+9045,Casa Pia,9046,Sp Lisbon,2223,2,0,0.0,5.5
+9051,Famalicao,9052,Santa Clara,2223,2,0,0.0,2.5
+9045,Casa Pia,9060,Benfica,2223,2,0,0.0,2.0
+9045,Casa Pia,9049,Arouca,2223,2,1,0.5,1.0
+9048,Gil Vicente,9068,Pacos Ferreira,2223,2,0,0.0,2.0
+9046,Sp Lisbon,9059,Guimaraes,2223,2,0,0.0,2.5
+9058,Porto,9064,Portimonense,2223,2,0,0.0,1.5
+9046,Sp Lisbon,9057,Estoril,2223,2,0,0.0,2.0
+9045,Casa Pia,9059,Guimaraes,2223,2,1,0.5,0.5
+9055,Sp Braga,9061,Rio Ave,2223,2,0,0.0,3.5
+9060,Benfica,9061,Rio Ave,2223,2,0,0.0,3.5
+9060,Benfica,9066,Chaves,2223,2,0,0.0,3.0
+9059,Guimaraes,9068,Pacos Ferreira,2223,2,1,0.5,0.5
+9064,Portimonense,9065,Vizela,2223,2,0,0.0,1.0
+9046,Sp Lisbon,9067,Maritimo,2223,2,0,0.0,2.0
+9051,Famalicao,9057,Estoril,2223,2,0,0.0,1.5
+9045,Casa Pia,9052,Santa Clara,2223,2,1,0.5,1.5
+9055,Sp Braga,9058,Porto,2223,2,1,0.5,2.5
+9048,Gil Vicente,9060,Benfica,2223,2,0,0.0,3.0
+9049,Arouca,9061,Rio Ave,2223,2,0,0.0,1.0
+9051,Famalicao,9066,Chaves,2223,2,0,0.0,2.5
+9048,Gil Vicente,9067,Maritimo,2223,2,0,0.0,2.5
+9048,Gil Vicente,9066,Chaves,2223,2,1,0.5,2.0
+9055,Sp Braga,9057,Estoril,2223,2,0,0.0,3.5
+9058,Porto,9059,Guimaraes,2223,2,0,0.0,2.0
+9055,Sp Braga,9066,Chaves,2223,2,0,0.0,2.0
+9048,Gil Vicente,9061,Rio Ave,2223,2,1,0.5,3.5
+9049,Arouca,9052,Santa Clara,2223,2,0,0.0,2.0
+9055,Sp Braga,9064,Portimonense,2223,2,0,0.0,4.0
+9045,Casa Pia,9065,Vizela,2223,2,0,0.0,2.5
+9057,Estoril,9068,Pacos Ferreira,2223,2,0,0.0,3.5
+9045,Casa Pia,9068,Pacos Ferreira,2223,2,0,0.0,4.0
+9046,Sp Lisbon,9052,Santa Clara,2223,2,0,0.0,3.0
+9057,Estoril,9059,Guimaraes,2223,2,0,0.0,1.0
+9048,Gil Vicente,9049,Arouca,2223,2,1,0.5,1.5
+9055,Sp Braga,9067,Maritimo,2223,2,0,0.0,4.0
+9048,Gil Vicente,9065,Vizela,2223,2,2,1.0,3.0
+9051,Famalicao,9059,Guimaraes,2223,2,0,0.0,4.0
+9061,Rio Ave,9065,Vizela,2223,2,0,0.0,2.5
+9061,Rio Ave,9067,Maritimo,2223,2,2,1.0,3.0
+9052,Santa Clara,9058,Porto,2223,2,1,0.5,2.5
+9049,Arouca,9057,Estoril,2223,2,0,0.0,2.0
+9051,Famalicao,9061,Rio Ave,2223,2,2,1.0,2.0
+9045,Casa Pia,9051,Famalicao,2223,2,0,0.0,1.0
+9061,Rio Ave,9066,Chaves,2223,2,1,0.5,1.5
+9064,Portimonense,9066,Chaves,2223,2,0,0.0,1.5
+9065,Vizela,9068,Pacos Ferreira,2223,2,0,0.0,2.5
+9059,Guimaraes,9067,Maritimo,2223,2,0,0.0,2.0
+9048,Gil Vicente,9058,Porto,2223,2,0,0.0,2.5
+9064,Portimonense,9068,Pacos Ferreira,2223,2,0,0.0,2.0
+9049,Arouca,9062,Boavista,2223,2,1,0.5,1.5
+9065,Vizela,9067,Maritimo,2223,2,0,0.0,2.0
+9052,Santa Clara,9064,Portimonense,2223,2,1,0.5,0.5
+9061,Rio Ave,9062,Boavista,2223,2,0,0.0,3.0
+9059,Guimaraes,9061,Rio Ave,2223,2,1,0.5,0.5
+9057,Estoril,9062,Boavista,2223,2,0,0.0,2.0
+9057,Estoril,9067,Maritimo,2223,2,0,0.0,2.5
+9067,Maritimo,9068,Pacos Ferreira,2223,2,0,0.0,2.5
+9046,Sp Lisbon,9066,Chaves,2223,2,0,0.0,3.5
+9048,Gil Vicente,9052,Santa Clara,2223,2,0,0.0,3.0
+9065,Vizela,9066,Chaves,2223,2,2,1.0,1.0
+9061,Rio Ave,9068,Pacos Ferreira,2223,2,0,0.0,2.5
+9058,Porto,9067,Maritimo,2223,2,0,0.0,4.0
+9059,Guimaraes,9062,Boavista,2223,2,0,0.0,4.0
+9049,Arouca,9060,Benfica,2223,2,0,0.0,3.5
+9052,Santa Clara,9068,Pacos Ferreira,2223,2,1,0.5,1.5
+9057,Estoril,9066,Chaves,2223,2,1,0.5,2.0

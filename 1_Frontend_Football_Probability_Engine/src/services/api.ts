@@ -103,8 +103,12 @@ class ApiClient {
   }
 
   // Jackpot endpoints
-  async getJackpots(): Promise<PaginatedResponse<Jackpot>> {
-    return this.request('/jackpots');
+  async getJackpots(page?: number, pageSize?: number): Promise<PaginatedResponse<Jackpot>> {
+    const params = new URLSearchParams();
+    if (page) params.set('page', page.toString());
+    if (pageSize) params.set('page_size', pageSize.toString());
+    const queryString = params.toString();
+    return this.request(`/jackpots${queryString ? `?${queryString}` : ''}`);
   }
 
   async getJackpot(id: string): Promise<ApiResponse<Jackpot>> {
@@ -307,6 +311,10 @@ class ApiClient {
     seasons?: string[];
     dateFrom?: string;
     dateTo?: string;
+    baseModelWindowYears?: number;
+    drawModelWindowYears?: number;
+    oddsCalibrationWindowYears?: number;
+    excludePreCovid?: boolean;
   }): Promise<ApiResponse<{ taskId: string; status: string; message: string }>> {
     return this.request('/model/train', {
       method: 'POST',
@@ -481,15 +489,72 @@ class ApiClient {
   }
 
   // Validation endpoints
-  async validateTeamName(teamName: string): Promise<ApiResponse<{
+  async validateTeamName(teamName: string, leagueId?: number, checkTraining?: boolean): Promise<ApiResponse<{
     isValid: boolean;
     suggestions?: string[];
     normalizedName?: string;
+    teamId?: number;
+    isTrained?: boolean;
+    strengthSource?: 'model' | 'database' | 'default';
   }>> {
     return this.request('/validation/team', {
       method: 'POST',
-      body: JSON.stringify({ teamName }),
+      body: JSON.stringify({ teamName, leagueId, checkTraining }),
     });
+  }
+
+  // Pipeline endpoints
+  async checkTeamsStatus(teamNames: string[], leagueId?: number): Promise<ApiResponse<{
+    validated_teams: string[];
+    missing_teams: string[];
+    trained_teams: number[];
+    untrained_teams: number[];
+    team_details: Record<string, {
+      team_id: number | null;
+      isValid: boolean;
+      isTrained: boolean;
+      league_code: string | null;
+      league_id: number | null;
+    }>;
+  }>> {
+    return this.request('/pipeline/check-status', {
+      method: 'POST',
+      body: JSON.stringify({ team_names: teamNames, league_id: leagueId }),
+    });
+  }
+
+  async runPipeline(params: {
+    team_names: string[];
+    league_id?: number;
+    auto_download?: boolean;
+    auto_train?: boolean;
+    auto_recompute?: boolean;
+    jackpot_id?: string;
+    seasons?: string[];
+    max_seasons?: number;
+    base_model_window_years?: number;  // Recent data focus: 2, 3, or 4 years (default: 4)
+  }): Promise<ApiResponse<{
+    taskId: string;
+    status: string;
+    message: string;
+  }>> {
+    return this.request('/pipeline/run', {
+      method: 'POST',
+      body: JSON.stringify(params),
+    });
+  }
+
+  async getPipelineStatus(taskId: string): Promise<ApiResponse<{
+    taskId: string;
+    status: 'queued' | 'running' | 'completed' | 'failed';
+    progress: number;
+    phase: string;
+    startedAt: string;
+    completedAt?: string;
+    steps?: Record<string, any>;
+    error?: string;
+  }>> {
+    return this.request(`/pipeline/status/${taskId}`);
   }
 
   // Teams endpoints
@@ -1122,6 +1187,38 @@ class ApiClient {
     return this.request('/draw-ingestion/xg-data/summary');
   }
 
+  async importAllDrawStructuralData(options: {
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    leagueCodes?: string[];
+    useHybridImport?: boolean;
+  }): Promise<ApiResponse<{
+    results: Record<string, any>;
+    summary: {
+      total_successful: number;
+      total_failed: number;
+      all_completed: boolean;
+    };
+  }>> {
+    const body: any = {
+      use_all_leagues: options.useAllLeagues !== false,
+      use_all_seasons: options.useAllSeasons !== false,
+      max_years: options.maxYears || 10,
+      use_hybrid_import: options.useHybridImport !== false,
+    };
+    
+    // Only include league_codes if it's provided and not empty
+    if (options.leagueCodes && options.leagueCodes.length > 0) {
+      body.league_codes = options.leagueCodes;
+    }
+    
+    return this.request('/draw-ingestion/import-all', {
+      method: 'POST',
+      body: JSON.stringify(body),
+    });
+  }
+
   // Draw Diagnostics endpoints
   async getDrawDiagnostics(modelId?: number): Promise<ApiResponse<{
     brier_score: number | null;
@@ -1208,6 +1305,45 @@ class ApiClient {
     }>;
   }>> {
     return this.request('/dashboard/summary');
+  }
+
+  // Injury Tracking Endpoints
+  async recordInjuries(params: {
+    team_id: number;
+    fixture_id: number;
+    key_players_missing?: number;
+    injury_severity?: number;  // 0.0-1.0
+    attackers_missing?: number;
+    midfielders_missing?: number;
+    defenders_missing?: number;
+    goalkeepers_missing?: number;
+    notes?: string;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/injuries', {
+      method: 'POST',
+      body: JSON.stringify(params),
+    });
+  }
+
+  async getInjuries(fixtureId: number, teamId: number): Promise<ApiResponse<any>> {
+    return this.request(`/draw-ingestion/injuries/${fixtureId}/${teamId}`);
+  }
+
+  async batchRecordInjuries(injuries: Array<{
+    team_id: number;
+    fixture_id: number;
+    key_players_missing?: number;
+    injury_severity?: number;
+    attackers_missing?: number;
+    midfielders_missing?: number;
+    defenders_missing?: number;
+    goalkeepers_missing?: number;
+    notes?: string;
+  }>): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/injuries/batch', {
+      method: 'POST',
+      body: JSON.stringify({ injuries }),
+    });
   }
 }
 

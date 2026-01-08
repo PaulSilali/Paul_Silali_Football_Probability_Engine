@@ -1,0 +1,307 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+D1,1718,2017-01-10,Freiburg,Heidenheim,6,20,True
+D1,1718,2017-01-10,FC Koln,RB Leipzig,6,6,True
+D1,1718,2017-01-10,Hertha,Bayern Munich,20,6,True
+D1,1718,2017-01-12,Freiburg,Hamburg,2,8,True
+D1,1718,2017-02-12,Mainz,Augsburg,8,15,False
+D1,1718,2017-02-12,Schalke 04,FC Koln,16,15,False
+D1,1718,2017-02-12,Werder Bremen,Stuttgart,15,7,False
+D1,1718,2017-02-12,Bayern Munich,Hannover,15,7,False
+D1,1718,2017-02-12,Heidenheim,RB Leipzig,15,15,False
+D1,1718,2017-02-12,Leverkusen,Dortmund,8,14,False
+D1,1718,2017-03-11,Ein Frankfurt,Werder Bremen,14,15,False
+D1,1718,2017-03-12,Wolfsburg,M'gladbach,16,14,False
+D1,1718,2017-03-12,Hertha,Ein Frankfurt,15,1,False
+D1,1718,2017-04-11,Hamburg,Stuttgart,7,58,True
+D1,1718,2017-04-11,M'gladbach,Mainz,8,8,True
+D1,1718,2017-04-11,RB Leipzig,Hannover,9,58,True
+D1,1718,2017-04-11,Dortmund,Bayern Munich,7,7,True
+D1,1718,2017-04-11,Augsburg,Leverkusen,24,8,True
+D1,1718,2017-04-11,Freiburg,Schalke 04,9,7,True
+D1,1718,2017-05-11,Wolfsburg,Hertha,7,7,True
+D1,1718,2017-05-11,FC Koln,Heidenheim,6,11,True
+D1,1718,2017-08-09,Hamburg,RB Leipzig,5,5,True
+D1,1718,2017-08-12,Stuttgart,Leverkusen,123,8,False
+D1,1718,2017-08-18,Bayern Munich,Leverkusen,14,6,False
+D1,1718,2017-08-19,Hertha,Stuttgart,75,7,False
+D1,1718,2017-08-19,Mainz,Hannover,15,130,False
+D1,1718,2017-08-19,Hamburg,Augsburg,10,75,False
+D1,1718,2017-08-19,Wolfsburg,Dortmund,15,15,False
+D1,1718,2017-08-19,Schalke 04,RB Leipzig,15,10,False
+D1,1718,2017-08-19,Heidenheim,Werder Bremen,15,46,False
+D1,1718,2017-08-20,Freiburg,Ein Frankfurt,16,47,False
+D1,1718,2017-08-20,M'gladbach,FC Koln,16,16,False
+D1,1718,2017-08-25,FC Koln,Hamburg,5,6,False
+D1,1718,2017-08-26,Dortmund,Hertha,7,7,False
+D1,1718,2017-08-26,Augsburg,M'gladbach,7,6,False
+D1,1718,2017-08-26,Ein Frankfurt,Wolfsburg,6,7,False
+D1,1718,2017-08-26,Leverkusen,Heidenheim,8,7,False
+D1,1718,2017-08-26,Stuttgart,Mainz,7,7,False
+D1,1718,2017-08-26,Werder Bremen,Bayern Munich,7,8,False
+D1,1718,2017-08-27,Hannover,Schalke 04,8,8,False
+D1,1718,2017-08-27,RB Leipzig,Freiburg,8,7,False
+D1,1718,2017-09-09,Mainz,Leverkusen,14,14,False
+D1,1718,2017-09-09,Wolfsburg,Hannover,14,13,False
+D1,1718,2017-09-09,Augsburg,FC Koln,5,15,False
+D1,1718,2017-09-09,Freiburg,Dortmund,13,14,False
+D1,1718,2017-09-09,Heidenheim,Bayern Munich,14,14,False
+D1,1718,2017-09-09,M'gladbach,Ein Frankfurt,14,14,False
+D1,1718,2017-09-12,Ein Frankfurt,Bayern Munich,3,3,True
+D1,1718,2017-09-12,Dortmund,Werder Bremen,3,17,True
+D1,1718,2017-09-12,RB Leipzig,Mainz,16,3,True
+D1,1718,2017-09-12,M'gladbach,Schalke 04,3,16,True
+D1,1718,2017-09-12,Hamburg,Wolfsburg,18,3,True
+D1,1718,2017-09-15,Hannover,Hamburg,6,3,False
+D1,1718,2017-09-16,RB Leipzig,M'gladbach,4,4,False
+D1,1718,2017-09-16,Ein Frankfurt,Augsburg,4,7,False
+D1,1718,2017-09-16,Stuttgart,Wolfsburg,21,4,False
+D1,1718,2017-09-16,Werder Bremen,Schalke 04,4,4,False
+D1,1718,2017-09-16,Bayern Munich,Mainz,4,4,False
+D1,1718,2017-09-17,Heidenheim,Hertha,8,13,False
+D1,1718,2017-09-17,Leverkusen,Freiburg,8,8,False
+D1,1718,2017-09-17,Dortmund,FC Koln,5,8,False
+D1,1718,2017-09-19,M'gladbach,Stuttgart,3,3,True
+D1,1718,2017-09-19,Schalke 04,Bayern Munich,3,3,True
+D1,1718,2017-09-19,Wolfsburg,Werder Bremen,3,3,True
+D1,1718,2017-09-19,Augsburg,RB Leipzig,3,3,True
+D1,1718,2017-09-20,FC Koln,Ein Frankfurt,3,4,True
+D1,1718,2017-09-20,Freiburg,Hannover,3,5,True
+D1,1718,2017-09-20,Hamburg,Dortmund,5,3,True
+D1,1718,2017-09-20,Hertha,Leverkusen,3,3,True
+D1,1718,2017-09-20,Mainz,Heidenheim,4,3,True
+D1,1718,2017-09-22,Bayern Munich,Wolfsburg,3,3,False
+D1,1718,2017-09-23,RB Leipzig,Ein Frankfurt,4,3,False
+D1,1718,2017-09-23,Stuttgart,Augsburg,4,4,False
+D1,1718,2017-09-23,Heidenheim,Schalke 04,3,4,False
+D1,1718,2017-09-23,Mainz,Hertha,3,3,False
+D1,1718,2017-09-23,Werder Bremen,Freiburg,4,3,False
+D1,1718,2017-09-23,Dortmund,M'gladbach,3,4,False
+D1,1718,2017-09-24,Hannover,FC Koln,4,4,False
+D1,1718,2017-09-24,Leverkusen,Hamburg,4,4,False
+D1,1718,2017-09-29,Schalke 04,Leverkusen,6,5,False
+D1,1718,2017-09-30,Augsburg,Dortmund,7,7,False
+D1,1718,2017-09-30,Hamburg,Werder Bremen,6,7,False
+D1,1718,2017-09-30,M'gladbach,Hannover,7,6,False
+D1,1718,2017-09-30,Wolfsburg,Mainz,8,7,False
+D1,1718,2017-09-30,Ein Frankfurt,Stuttgart,7,7,False
+D1,1718,2017-10-09,Schalke 04,Stuttgart,10,9,False
+D1,1718,2017-10-09,Hertha,Werder Bremen,16,6,False
+D1,1718,2017-10-12,FC Koln,Freiburg,18,19,True
+D1,1718,2017-10-12,Hannover,Heidenheim,12,19,True
+D1,1718,2017-10-12,Augsburg,Hertha,10,3,True
+D1,1718,2017-10-13,Stuttgart,FC Koln,4,1,False
+D1,1718,2017-10-14,Mainz,Hamburg,12,14,False
+D1,1718,2017-10-14,Bayern Munich,Freiburg,22,2,False
+D1,1718,2017-10-14,Dortmund,RB Leipzig,14,21,False
+D1,1718,2017-10-14,Hannover,Ein Frankfurt,2,14,False
+D1,1718,2017-10-14,Hertha,Schalke 04,2,5,False
+D1,1718,2017-10-14,Heidenheim,Augsburg,2,2,False
+D1,1718,2017-10-15,Werder Bremen,M'gladbach,6,15,False
+D1,1718,2017-10-15,Leverkusen,Wolfsburg,12,15,False
+D1,1718,2017-10-20,Schalke 04,Mainz,6,6,False
+D1,1718,2017-10-21,Hamburg,Bayern Munich,7,7,False
+D1,1718,2017-10-21,RB Leipzig,Stuttgart,7,8,False
+D1,1718,2017-10-21,M'gladbach,Leverkusen,6,6,False
+D1,1718,2017-10-21,Augsburg,Hannover,7,7,False
+D1,1718,2017-10-21,Ein Frankfurt,Dortmund,7,7,False
+D1,1718,2017-10-22,Wolfsburg,Heidenheim,7,8,False
+D1,1718,2017-10-22,FC Koln,Werder Bremen,9,7,False
+D1,1718,2017-10-22,Freiburg,Hertha,8,8,False
+D1,1718,2017-10-27,Mainz,Ein Frankfurt,7,6,False
+D1,1718,2017-10-28,Leverkusen,FC Koln,7,6,False
+D1,1718,2017-10-28,Schalke 04,Wolfsburg,8,6,False
+D1,1718,2017-10-28,Heidenheim,M'gladbach,6,7,False
+D1,1718,2017-10-28,Hertha,Hamburg,6,7,False
+D1,1718,2017-10-28,Hannover,Dortmund,7,7,False
+D1,1718,2017-10-28,Bayern Munich,RB Leipzig,7,7,False
+D1,1718,2017-10-29,Stuttgart,Freiburg,8,7,False
+D1,1718,2017-10-29,Werder Bremen,Augsburg,7,8,False
+D1,1718,2017-11-17,Stuttgart,Dortmund,19,14,False
+D1,1718,2017-11-18,Hertha,M'gladbach,15,16,False
+D1,1718,2017-11-18,Heidenheim,Ein Frankfurt,15,15,False
+D1,1718,2017-11-18,Leverkusen,RB Leipzig,16,15,False
+D1,1718,2017-11-18,Wolfsburg,Freiburg,15,15,False
+D1,1718,2017-11-18,Mainz,FC Koln,15,15,False
+D1,1718,2017-11-18,Bayern Munich,Augsburg,15,20,False
+D1,1718,2017-11-19,Werder Bremen,Hannover,17,22,False
+D1,1718,2017-11-19,Schalke 04,Hamburg,17,17,False
+D1,1718,2017-11-24,Hannover,Stuttgart,5,7,False
+D1,1718,2017-11-25,RB Leipzig,Werder Bremen,7,6,False
+D1,1718,2017-11-25,Augsburg,Wolfsburg,7,7,False
+D1,1718,2017-11-25,Dortmund,Schalke 04,8,6,False
+D1,1718,2017-11-25,Ein Frankfurt,Leverkusen,7,7,False
+D1,1718,2017-11-25,Freiburg,Mainz,7,7,False
+D1,1718,2017-11-25,M'gladbach,Bayern Munich,7,7,False
+D1,1718,2017-11-26,Hamburg,Heidenheim,7,8,False
+D1,1718,2017-11-26,FC Koln,Hertha,8,8,False
+D1,1718,2017-12-12,Wolfsburg,RB Leipzig,10,17,True
+D1,1718,2017-12-12,Mainz,Dortmund,17,17,True
+D1,1718,2017-12-12,Hamburg,Ein Frankfurt,9,17,True
+D1,1718,2017-12-12,Freiburg,M'gladbach,10,9,True
+D1,1718,2017-12-13,Hertha,Hannover,17,19,True
+D1,1718,2017-12-13,Bayern Munich,FC Koln,18,11,True
+D1,1718,2017-12-13,Heidenheim,Stuttgart,11,19,True
+D1,1718,2017-12-13,Leverkusen,Werder Bremen,18,18,True
+D1,1718,2017-12-13,Schalke 04,Augsburg,10,10,True
+D1,1718,2017-12-15,M'gladbach,Hamburg,3,3,False
+D1,1718,2017-12-16,Augsburg,Freiburg,3,4,False
+D1,1718,2017-12-16,Dortmund,Heidenheim,4,3,False
+D1,1718,2017-12-16,Ein Frankfurt,Schalke 04,4,3,False
+D1,1718,2017-12-16,FC Koln,Wolfsburg,3,4,False
+D1,1718,2017-12-16,Stuttgart,Bayern Munich,3,3,False
+D1,1718,2017-12-16,Werder Bremen,Mainz,3,4,False
+D1,1718,2017-12-17,Hannover,Leverkusen,4,4,False
+D1,1718,2017-12-17,RB Leipzig,Hertha,5,4,False
+D1,1718,2018-01-04,Werder Bremen,Ein Frankfurt,19,19,True
+D1,1718,2018-01-04,Mainz,M'gladbach,19,20,True
+D1,1718,2018-01-13,Ein Frankfurt,Freiburg,9,28,False
+D1,1718,2018-01-13,Hannover,Mainz,27,9,False
+D1,1718,2018-01-13,RB Leipzig,Schalke 04,27,28,False
+D1,1718,2018-01-13,Stuttgart,Hertha,28,27,False
+D1,1718,2018-01-13,Werder Bremen,Heidenheim,9,28,False
+D1,1718,2018-01-13,Augsburg,Hamburg,28,29,False
+D1,1718,2018-01-14,FC Koln,M'gladbach,29,10,False
+D1,1718,2018-01-14,Dortmund,Wolfsburg,29,29,False
+D1,1718,2018-01-19,Hertha,Dortmund,6,5,False
+D1,1718,2018-01-20,Hamburg,FC Koln,7,6,False
+D1,1718,2018-01-20,Heidenheim,Leverkusen,7,34,False
+D1,1718,2018-01-20,Mainz,Stuttgart,7,7,False
+D1,1718,2018-01-20,M'gladbach,Augsburg,6,7,False
+D1,1718,2018-01-20,Wolfsburg,Ein Frankfurt,6,7,False
+D1,1718,2018-01-20,Freiburg,RB Leipzig,7,7,False
+D1,1718,2018-01-21,Schalke 04,Hannover,8,8,False
+D1,1718,2018-01-21,Bayern Munich,Werder Bremen,36,8,False
+D1,1718,2018-01-26,Ein Frankfurt,M'gladbach,6,6,False
+D1,1718,2018-01-27,Dortmund,Freiburg,8,7,False
+D1,1718,2018-01-27,FC Koln,Augsburg,7,7,False
+D1,1718,2018-01-27,RB Leipzig,Hamburg,7,7,False
+D1,1718,2018-01-27,Stuttgart,Schalke 04,7,6,False
+D1,1718,2018-01-27,Werder Bremen,Hertha,6,8,False
+D1,1718,2018-01-27,Bayern Munich,Heidenheim,6,7,False
+D1,1718,2018-01-28,Leverkusen,Mainz,8,8,False
+D1,1718,2018-01-28,Hannover,Wolfsburg,7,8,False
+D1,1718,2018-02-02,FC Koln,Dortmund,6,6,False
+D1,1718,2018-02-03,M'gladbach,Werder Bremen,8,7,False
+D1,1718,2018-02-16,Hertha,Mainz,20,19,False
+D1,1718,2018-02-17,Freiburg,Werder Bremen,21,14,False
+D1,1718,2018-02-17,FC Koln,Hannover,15,20,False
+D1,1718,2018-02-17,Hamburg,Leverkusen,21,20,False
+D1,1718,2018-02-17,Schalke 04,Heidenheim,21,21,False
+D1,1718,2018-02-17,Wolfsburg,Bayern Munich,20,21,False
+D1,1718,2018-02-18,Augsburg,Stuttgart,22,22,False
+D1,1718,2018-02-18,M'gladbach,Dortmund,15,16,False
+D1,1718,2018-02-19,Ein Frankfurt,RB Leipzig,24,23,False
+D1,1718,2018-02-23,Mainz,Wolfsburg,7,6,False
+D1,1718,2018-02-24,Bayern Munich,Hertha,7,8,False
+D1,1718,2018-02-24,Heidenheim,Freiburg,7,7,False
+D1,1718,2018-02-24,Werder Bremen,Hamburg,7,7,False
+D1,1718,2018-02-24,Stuttgart,Ein Frankfurt,6,5,False
+D1,1718,2018-02-24,Hannover,M'gladbach,7,6,False
+D1,1718,2018-02-25,RB Leipzig,FC Koln,6,8,False
+D1,1718,2018-02-25,Leverkusen,Schalke 04,8,8,False
+D1,1718,2018-02-26,Dortmund,Augsburg,8,8,False
+D1,1718,2018-03-02,Hertha,Heidenheim,6,6,False
+D1,1718,2018-03-02,Wolfsburg,Stuttgart,7,6,False
+D1,1718,2018-03-02,Mainz,Bayern Munich,7,6,False
+D1,1718,2018-03-02,M'gladbach,RB Leipzig,6,5,False
+D1,1718,2018-03-02,Freiburg,Leverkusen,6,5,False
+D1,1718,2018-03-02,Schalke 04,Werder Bremen,5,6,False
+D1,1718,2018-03-03,Schalke 04,Hertha,1,1,False
+D1,1718,2018-03-03,Augsburg,Heidenheim,5,1,False
+D1,1718,2018-03-03,Ein Frankfurt,Hannover,7,7,False
+D1,1718,2018-03-03,Hamburg,Mainz,7,1,False
+D1,1718,2018-03-03,RB Leipzig,Dortmund,1,5,False
+D1,1718,2018-03-03,Wolfsburg,Leverkusen,1,1,False
+D1,1718,2018-03-16,Freiburg,Stuttgart,14,14,False
+D1,1718,2018-03-17,M'gladbach,Heidenheim,15,14,False
+D1,1718,2018-03-17,Augsburg,Werder Bremen,14,15,False
+D1,1718,2018-03-17,Ein Frankfurt,Mainz,14,14,False
+D1,1718,2018-03-17,Hamburg,Hertha,14,14,False
+D1,1718,2018-03-17,Wolfsburg,Schalke 04,14,14,False
+D1,1718,2018-03-18,RB Leipzig,Bayern Munich,15,16,False
+D1,1718,2018-03-18,FC Koln,Leverkusen,21,15,False
+D1,1718,2018-03-18,Dortmund,Hannover,15,15,False
+D1,1718,2018-03-31,Leverkusen,Augsburg,13,14,False
+D1,1718,2018-03-31,Stuttgart,Hamburg,15,14,False
+D1,1718,2018-03-31,Schalke 04,Freiburg,14,15,False
+D1,1718,2018-03-31,Heidenheim,FC Koln,14,13,False
+D1,1718,2018-03-31,Hertha,Wolfsburg,14,14,False
+D1,1718,2018-03-31,Hannover,RB Leipzig,13,13,False
+D1,1718,2018-03-31,Bayern Munich,Dortmund,13,13,False
+D1,1718,2018-04-02,Augsburg,Ein Frankfurt,2,16,False
+D1,1718,2018-04-02,Hamburg,Hannover,2,2,False
+D1,1718,2018-04-03,Freiburg,Bayern Munich,3,3,True
+D1,1718,2018-04-03,FC Koln,Stuttgart,3,3,True
+D1,1718,2018-04-13,Wolfsburg,Augsburg,13,11,False
+D1,1718,2018-04-14,Bayern Munich,M'gladbach,11,28,False
+D1,1718,2018-04-14,Hertha,FC Koln,14,11,False
+D1,1718,2018-04-14,Heidenheim,Hamburg,14,12,False
+D1,1718,2018-04-14,Leverkusen,Ein Frankfurt,14,12,False
+D1,1718,2018-04-14,Stuttgart,Hannover,11,12,False
+D1,1718,2018-04-15,Werder Bremen,RB Leipzig,29,15,False
+D1,1718,2018-04-15,Schalke 04,Dortmund,15,15,False
+D1,1718,2018-04-16,Mainz,Freiburg,30,13,False
+D1,1718,2018-04-20,M'gladbach,Wolfsburg,6,7,False
+D1,1718,2018-04-21,RB Leipzig,Heidenheim,6,7,False
+D1,1718,2018-04-21,Hannover,Bayern Munich,7,7,False
+D1,1718,2018-04-21,Hamburg,Freiburg,7,5,False
+D1,1718,2018-04-21,Ein Frankfurt,Hertha,7,7,False
+D1,1718,2018-04-21,Dortmund,Leverkusen,6,7,False
+D1,1718,2018-04-21,Stuttgart,Werder Bremen,7,6,False
+D1,1718,2018-04-22,Augsburg,Mainz,9,6,False
+D1,1718,2018-04-22,FC Koln,Schalke 04,8,7,False
+D1,1718,2018-04-27,Heidenheim,Hannover,6,6,False
+D1,1718,2018-04-28,Bayern Munich,Ein Frankfurt,7,7,False
+D1,1718,2018-04-28,Freiburg,FC Koln,7,6,False
+D1,1718,2018-04-28,Hertha,Augsburg,7,6,False
+D1,1718,2018-04-28,Leverkusen,Stuttgart,7,7,False
+D1,1718,2018-04-28,Schalke 04,M'gladbach,6,8,False
+D1,1718,2018-04-28,Wolfsburg,Hamburg,8,7,False
+D1,1718,2018-04-29,Mainz,RB Leipzig,7,8,False
+D1,1718,2018-04-29,Werder Bremen,Dortmund,8,8,False
+D1,1718,2018-05-05,RB Leipzig,Wolfsburg,6,7,False
+D1,1718,2018-05-05,FC Koln,Bayern Munich,7,7,False
+D1,1718,2018-05-05,Hannover,Hertha,8,7,False
+D1,1718,2018-05-05,M'gladbach,Freiburg,7,7,False
+D1,1718,2018-05-05,Ein Frankfurt,Hamburg,7,7,False
+D1,1718,2018-05-05,Stuttgart,Heidenheim,7,8,False
+D1,1718,2018-05-05,Werder Bremen,Leverkusen,6,7,False
+D1,1718,2018-05-05,Augsburg,Schalke 04,7,7,False
+D1,1718,2018-05-05,Dortmund,Mainz,6,6,False
+D1,1718,2018-06-04,Hannover,Werder Bremen,30,30,False
+D1,1718,2018-07-04,Augsburg,Bayern Munich,60,60,True
+D1,1718,2018-07-04,M'gladbach,Hertha,60,60,True
+D1,1718,2018-07-04,Hamburg,Schalke 04,60,60,True
+D1,1718,2018-07-04,Freiburg,Wolfsburg,60,60,True
+D1,1718,2018-07-04,FC Koln,Mainz,60,60,True
+D1,1718,2018-08-04,Ein Frankfurt,Heidenheim,91,91,False
+D1,1718,2018-08-04,Dortmund,Stuttgart,91,91,False
+D1,1718,2018-09-02,RB Leipzig,Augsburg,7,1,False
+D1,1718,2018-09-03,Mainz,Schalke 04,2,1,False
+D1,1718,2018-09-04,RB Leipzig,Leverkusen,2,3,True
+D1,1718,2018-10-02,Dortmund,Hamburg,3,90,True
+D1,1718,2018-10-02,Bayern Munich,Schalke 04,4,3,True
+D1,1718,2018-10-02,Ein Frankfurt,FC Koln,2,90,True
+D1,1718,2018-10-02,Hannover,Freiburg,2,2,True
+D1,1718,2018-10-02,Heidenheim,Mainz,3,3,True
+D1,1718,2018-10-02,Leverkusen,Hertha,3,4,True
+D1,1718,2018-10-03,Hertha,Freiburg,1,1,True
+D1,1718,2018-10-03,Bayern Munich,Hamburg,1,1,True
+D1,1718,2018-10-03,Hannover,Augsburg,1,3,True
+D1,1718,2018-10-03,Leverkusen,M'gladbach,1,4,True
+D1,1718,2018-10-03,Heidenheim,Wolfsburg,1,4,True
+D1,1718,2018-11-02,Stuttgart,M'gladbach,6,7,False
+D1,1718,2018-11-02,Werder Bremen,Wolfsburg,5,6,False
+D1,1718,2018-11-03,Stuttgart,RB Leipzig,1,6,False
+D1,1718,2018-11-03,Dortmund,Ein Frankfurt,7,1,False
+D1,1718,2018-12-01,Leverkusen,Bayern Munich,8,7,False
+D1,1718,2018-12-03,Werder Bremen,FC Koln,2,62,False
+D1,1718,2018-12-05,Bayern Munich,Stuttgart,4,4,True
+D1,1718,2018-12-05,Freiburg,Augsburg,4,4,True
+D1,1718,2018-12-05,Hamburg,M'gladbach,63,3,True
+D1,1718,2018-12-05,Hertha,RB Leipzig,4,3,True
+D1,1718,2018-12-05,Heidenheim,Dortmund,4,4,True
+D1,1718,2018-12-05,Leverkusen,Hannover,2,4,True
+D1,1718,2018-12-05,Mainz,Werder Bremen,5,2,True
+D1,1718,2018-12-05,Schalke 04,Ein Frankfurt,4,3,True
+D1,1718,2018-12-05,Wolfsburg,FC Koln,3,2,True

@@ -1,0 +1,154 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9266,RB Leipzig,9286,Schalke 04,1617,2,1,0.5,2.5
+9268,Werder Bremen,9273,Leverkusen,1617,2,1,0.5,2.5
+9267,Ein Frankfurt,9285,Hertha,1617,2,1,0.5,4.0
+9266,RB Leipzig,9280,M'gladbach,1617,2,1,0.5,2.5
+9268,Werder Bremen,9277,Dortmund,1617,2,0,0.0,5.0
+9267,Ein Frankfurt,9271,Heidenheim,1617,2,1,0.5,0.5
+9278,Mainz,9284,Darmstadt,1617,2,0,0.0,3.0
+9265,Bayern Munich,9277,Dortmund,1617,2,0,0.0,3.0
+9277,Dortmund,9281,Hamburg,1617,2,0,0.0,5.0
+9277,Dortmund,9280,M'gladbach,1617,2,0,0.0,5.0
+9267,Ein Frankfurt,9286,Schalke 04,1617,2,0,0.0,1.0
+9267,Ein Frankfurt,9269,Freiburg,1617,2,0,0.0,2.0
+9265,Bayern Munich,9271,Heidenheim,1617,2,1,0.5,1.5
+9266,RB Leipzig,9277,Dortmund,1617,2,0,0.0,1.0
+9268,Werder Bremen,9284,Darmstadt,1617,2,1,0.5,3.0
+9280,M'gladbach,9286,Schalke 04,1617,2,0,0.0,5.0
+9265,Bayern Munich,9270,Augsburg,1617,2,0,0.0,5.0
+9270,Augsburg,9280,M'gladbach,1617,2,1,0.5,1.5
+9280,M'gladbach,9281,Hamburg,1617,2,1,0.5,1.5
+9272,Wolfsburg,9278,Mainz,1617,2,2,1.0,1.0
+9269,Freiburg,9277,Dortmund,1617,2,0,0.0,3.5
+9281,Hamburg,9284,Darmstadt,1617,2,0,0.0,2.5
+9273,Leverkusen,9277,Dortmund,1617,2,0,0.0,5.0
+9266,RB Leipzig,9268,Werder Bremen,1617,2,0,0.0,3.5
+9270,Augsburg,9293,Ingolstadt,1617,2,0,0.0,3.5
+9271,Heidenheim,9272,Wolfsburg,1617,2,1,0.5,1.5
+9277,Dortmund,9278,Mainz,1617,2,1,0.5,2.5
+9268,Werder Bremen,9269,Freiburg,1617,2,0,0.0,5.5
+9279,FC Koln,9285,Hertha,1617,2,0,0.0,4.5
+9278,Mainz,9293,Ingolstadt,1617,2,0,0.0,2.5
+9267,Ein Frankfurt,9277,Dortmund,1617,2,0,0.0,3.5
+9271,Heidenheim,9281,Hamburg,1617,2,1,0.5,3.5
+9269,Freiburg,9285,Hertha,1617,2,0,0.0,3.0
+9271,Heidenheim,9284,Darmstadt,1617,2,1,0.5,2.0
+9277,Dortmund,9284,Darmstadt,1617,2,0,0.0,4.5
+9265,Bayern Munich,9266,RB Leipzig,1617,2,0,0.0,6.0
+9272,Wolfsburg,9286,Schalke 04,1617,2,0,0.0,3.0
+9265,Bayern Munich,9293,Ingolstadt,1617,2,0,0.0,3.0
+9265,Bayern Munich,9285,Hertha,1617,2,1,0.5,2.5
+9266,RB Leipzig,9278,Mainz,1617,2,0,0.0,4.5
+9266,RB Leipzig,9285,Hertha,1617,2,0,0.0,3.5
+9270,Augsburg,9272,Wolfsburg,1617,2,0,0.0,2.5
+9265,Bayern Munich,9273,Leverkusen,1617,2,1,0.5,1.5
+9272,Wolfsburg,9281,Hamburg,1617,2,0,0.0,2.0
+9270,Augsburg,9279,FC Koln,1617,2,1,0.5,1.5
+9273,Leverkusen,9284,Darmstadt,1617,2,0,0.0,3.5
+9271,Heidenheim,9285,Hertha,1617,2,0,0.0,2.5
+9270,Augsburg,9271,Heidenheim,1617,2,1,0.5,1.0
+9271,Heidenheim,9277,Dortmund,1617,2,1,0.5,3.5
+9272,Wolfsburg,9279,FC Koln,1617,2,1,0.5,0.5
+9270,Augsburg,9284,Darmstadt,1617,2,0,0.0,2.0
+9273,Leverkusen,9278,Mainz,1617,2,0,0.0,3.5
+9273,Leverkusen,9281,Hamburg,1617,2,0,0.0,2.5
+9271,Heidenheim,9293,Ingolstadt,1617,2,0,0.0,5.0
+9279,FC Koln,9284,Darmstadt,1617,2,0,0.0,4.5
+9278,Mainz,9280,M'gladbach,1617,2,0,0.0,2.0
+9272,Wolfsburg,9293,Ingolstadt,1617,2,1,0.5,2.5
+9268,Werder Bremen,9286,Schalke 04,1617,2,0,0.0,3.5
+9268,Werder Bremen,9271,Heidenheim,1617,2,1,0.5,5.0
+9273,Leverkusen,9293,Ingolstadt,1617,2,1,0.5,2.5
+9267,Ein Frankfurt,9279,FC Koln,1617,2,0,0.0,1.0
+9265,Bayern Munich,9268,Werder Bremen,1617,2,0,0.0,4.5
+9269,Freiburg,9293,Ingolstadt,1617,2,1,0.5,2.5
+9277,Dortmund,9285,Hertha,1617,2,1,0.5,2.5
+9266,RB Leipzig,9267,Ein Frankfurt,1617,2,1,0.5,3.5
+9273,Leverkusen,9286,Schalke 04,1617,2,0,0.0,3.0
+9265,Bayern Munich,9278,Mainz,1617,2,1,0.5,4.0
+9271,Heidenheim,9278,Mainz,1617,2,1,0.5,6.0
+9281,Hamburg,9285,Hertha,1617,2,0,0.0,1.5
+9267,Ein Frankfurt,9268,Werder Bremen,1617,2,1,0.5,3.5
+9278,Mainz,9286,Schalke 04,1617,2,0,0.0,2.0
+9273,Leverkusen,9279,FC Koln,1617,2,2,1.0,3.0
+9269,Freiburg,9279,FC Koln,1617,2,0,0.0,3.0
+9266,RB Leipzig,9270,Augsburg,1617,2,1,0.5,3.5
+9279,FC Koln,9281,Hamburg,1617,2,0,0.0,3.0
+9266,RB Leipzig,9271,Heidenheim,1617,2,1,0.5,3.5
+9273,Leverkusen,9280,M'gladbach,1617,2,0,0.0,4.0
+9266,RB Leipzig,9293,Ingolstadt,1617,2,1,0.5,0.5
+9270,Augsburg,9277,Dortmund,1617,2,2,1.0,2.0
+9271,Heidenheim,9280,M'gladbach,1617,2,1,0.5,5.0
+9272,Wolfsburg,9284,Darmstadt,1617,2,0,0.0,2.5
+9278,Mainz,9279,FC Koln,1617,2,1,0.5,1.0
+9269,Freiburg,9278,Mainz,1617,2,0,0.0,3.5
+9266,RB Leipzig,9272,Wolfsburg,1617,2,0,0.0,1.0
+9265,Bayern Munich,9269,Freiburg,1617,2,0,0.0,4.0
+9268,Werder Bremen,9279,FC Koln,1617,2,1,0.5,4.5
+9267,Ein Frankfurt,9280,M'gladbach,1617,2,2,1.0,
+9279,FC Koln,9293,Ingolstadt,1617,2,1,0.5,3.5
+9269,Freiburg,9281,Hamburg,1617,2,1,0.5,2.5
+9268,Werder Bremen,9278,Mainz,1617,2,0,0.0,2.5
+9266,RB Leipzig,9284,Darmstadt,1617,2,0,0.0,3.0
+9267,Ein Frankfurt,9278,Mainz,1617,2,0,0.0,4.5
+9268,Werder Bremen,9293,Ingolstadt,1617,2,0,0.0,4.5
+9284,Darmstadt,9286,Schalke 04,1617,2,0,0.0,3.5
+9270,Augsburg,9281,Hamburg,1617,2,0,0.0,2.5
+9270,Augsburg,9286,Schalke 04,1617,2,1,0.5,2.5
+9270,Augsburg,9278,Mainz,1617,2,0,0.0,3.0
+9271,Heidenheim,9279,FC Koln,1617,2,1,0.5,3.0
+9265,Bayern Munich,9280,M'gladbach,1617,2,0,0.0,1.5
+9265,Bayern Munich,9272,Wolfsburg,1617,2,0,0.0,5.5
+9268,Werder Bremen,9285,Hertha,1617,2,0,0.0,1.5
+9272,Wolfsburg,9285,Hertha,1617,2,0,0.0,3.0
+9284,Darmstadt,9285,Hertha,1617,2,0,0.0,2.0
+9265,Bayern Munich,9279,FC Koln,1617,2,1,0.5,2.5
+9269,Freiburg,9273,Leverkusen,1617,2,1,0.5,2.5
+9277,Dortmund,9286,Schalke 04,1617,2,2,1.0,1.0
+9278,Mainz,9285,Hertha,1617,2,0,0.0,2.0
+9267,Ein Frankfurt,9281,Hamburg,1617,2,1,0.5,1.5
+9266,RB Leipzig,9281,Hamburg,1617,2,0,0.0,3.5
+9271,Heidenheim,9273,Leverkusen,1617,2,0,0.0,2.0
+9280,M'gladbach,9284,Darmstadt,1617,2,2,1.0,2.0
+9269,Freiburg,9280,M'gladbach,1617,2,0,0.0,3.5
+9269,Freiburg,9286,Schalke 04,1617,2,1,0.5,2.0
+9284,Darmstadt,9293,Ingolstadt,1617,2,0,0.0,3.0
+9280,M'gladbach,9293,Ingolstadt,1617,2,0,0.0,2.0
+9270,Augsburg,9273,Leverkusen,1617,2,1,0.5,2.0
+9277,Dortmund,9293,Ingolstadt,1617,2,1,0.5,3.5
+9266,RB Leipzig,9269,Freiburg,1617,2,0,0.0,4.5
+9267,Ein Frankfurt,9272,Wolfsburg,1617,2,0,0.0,1.5
+9281,Hamburg,9293,Ingolstadt,1617,2,1,0.5,3.0
+9279,FC Koln,9280,M'gladbach,1617,2,0,0.0,4.0
+9268,Werder Bremen,9280,M'gladbach,1617,2,0,0.0,3.0
+9267,Ein Frankfurt,9284,Darmstadt,1617,2,0,0.0,1.5
+9273,Leverkusen,9285,Hertha,1617,2,0,0.0,6.0
+9269,Freiburg,9270,Augsburg,1617,2,1,0.5,2.5
+9270,Augsburg,9285,Hertha,1617,2,1,0.5,1.0
+9286,Schalke 04,9293,Ingolstadt,1617,2,1,0.5,1.5
+9269,Freiburg,9272,Wolfsburg,1617,2,0,0.0,2.0
+9280,M'gladbach,9285,Hertha,1617,2,0,0.0,2.0
+9267,Ein Frankfurt,9293,Ingolstadt,1617,2,0,0.0,2.0
+9272,Wolfsburg,9277,Dortmund,1617,2,0,0.0,4.5
+9268,Werder Bremen,9281,Hamburg,1617,2,1,0.5,3.5
+9285,Hertha,9286,Schalke 04,1617,2,0,0.0,2.0
+9265,Bayern Munich,9281,Hamburg,1617,2,0,0.0,4.5
+9272,Wolfsburg,9280,M'gladbach,1617,2,1,0.5,2.5
+9271,Heidenheim,9286,Schalke 04,1617,2,1,0.5,2.5
+9269,Freiburg,9284,Darmstadt,1617,2,0,0.0,2.0
+9269,Freiburg,9271,Heidenheim,1617,2,1,0.5,2.5
+9281,Hamburg,9286,Schalke 04,1617,2,1,0.5,2.5
+9268,Werder Bremen,9272,Wolfsburg,1617,2,0,0.0,3.0
+9279,FC Koln,9286,Schalke 04,1617,2,1,0.5,3.0
+9265,Bayern Munich,9284,Darmstadt,1617,2,0,0.0,1.0
+9265,Bayern Munich,9286,Schalke 04,1617,2,1,0.5,2.0
+9278,Mainz,9281,Hamburg,1617,2,1,0.5,2.0
+9267,Ein Frankfurt,9270,Augsburg,1617,2,1,0.5,3.0
+9272,Wolfsburg,9273,Leverkusen,1617,2,1,0.5,4.5
+9277,Dortmund,9279,FC Koln,1617,2,2,1.0,1.0
+9265,Bayern Munich,9267,Ein Frankfurt,1617,2,1,0.5,3.5
+9267,Ein Frankfurt,9273,Leverkusen,1617,2,0,0.0,3.0
+9285,Hertha,9293,Ingolstadt,1617,2,0,0.0,1.5
+9266,RB Leipzig,9279,FC Koln,1617,2,1,0.5,3.0
+9266,RB Leipzig,9273,Leverkusen,1617,2,0,0.0,3.0
+9268,Werder Bremen,9270,Augsburg,1617,2,0,0.0,4.0
