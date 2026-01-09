@@ -1,0 +1,84 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-09_Seasons_10_Leagues_43
+Download Date: 2026-01-09 10:12:22
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 1
+Successful Downloads (with data): 10
+Failed Downloads (errors): 0
+No Data Available (all 404s): 0
+Total Records Processed: 5,275
+Total Records Inserted: 0
+Total Records Updated: 5,275
+Total Records Skipped: 0
+Total Errors: 0
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ E1 - Season: 2526 (Batch #N/A)
+  Records: 307 processed, 0 inserted, 307 updated, 0 skipped
+
+✓ E1 - Season: 2425 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 2324 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 2223 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 2122 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 2021 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 1920 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 1819 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 1718 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+✓ E1 - Season: 1617 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 552 updated, 0 skipped
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: data\1_data_ingestion\Historical Match_Odds_Data\2026-01-09_Seasons_10_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+Downloaded Files:
+  E0/ (10 files)
+    - E0_1617.csv
+    - E0_1718.csv
+    - E0_1819.csv
+    - E0_1920.csv
+    - E0_2021.csv
+    - E0_2122.csv
+    - E0_2223.csv
+    - E0_2324.csv
+    - E0_2425.csv
+    - E0_2526.csv
+  E1/ (10 files)
+    - E1_1617.csv
+    - E1_1718.csv
+    - E1_1819.csv
+    - E1_1920.csv
+    - E1_2021.csv
+    - E1_2122.csv
+    - E1_2223.csv
+    - E1_2324.csv
+    - E1_2425.csv
+    - E1_2526.csv
+
+================================================================================
+END OF LOG
+================================================================================

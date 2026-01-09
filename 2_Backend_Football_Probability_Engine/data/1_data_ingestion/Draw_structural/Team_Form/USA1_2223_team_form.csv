@@ -1,0 +1,14 @@
+league_code,season,match_date,team_id,team_name,is_home,matches_played,wins,draws,losses,goals_scored,goals_conceded,points,form_rating,attack_form,defense_form,last_match_date
+USA1,2223,2022-02-26,9549,Seattle Sounders,True,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,True,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9549,Seattle Sounders,False,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,True,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,False,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9549,Seattle Sounders,True,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9549,Seattle Sounders,False,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,True,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9549,Seattle Sounders,False,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,False,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,True,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29
+USA1,2223,2022-02-26,9549,Seattle Sounders,False,4,3,0,1,7,6,9,0.75,0.7,0.4,2020-02-29
+USA1,2223,2022-02-26,9570,Columbus Crew,True,3,3,0,0,6,0,9,1.0,0.8,1.0,2020-02-29

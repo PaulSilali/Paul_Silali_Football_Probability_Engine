@@ -4,7 +4,7 @@ SQLAlchemy 2.0 Database Models
 All tables follow the architecture specification exactly.
 """
 from sqlalchemy import (
-    Column, Integer, String, Float, Date, DateTime, Time,
+    Column, Integer, BigInteger, String, Float, Date, DateTime, Time,
     ForeignKey, Enum, JSON, Boolean, Text, ARRAY,
     UniqueConstraint, CheckConstraint, Index
 )
@@ -842,6 +842,38 @@ class TeamForm(Base):
         Index('idx_team_form_team', 'team_id'),
         Index('idx_team_form_fixture', 'fixture_id'),
         Index('idx_team_form_rating', 'form_rating'),
+    )
+
+
+class TeamFormHistorical(Base):
+    """Team form metrics for historical matches (from matches table)"""
+    __tablename__ = "team_form_historical"
+    
+    id = Column(Integer, primary_key=True)
+    match_id = Column(BigInteger, ForeignKey("matches.id", ondelete="CASCADE"), nullable=False)
+    team_id = Column(Integer, ForeignKey("teams.id", ondelete="CASCADE"), nullable=False)
+    matches_played = Column(Integer, nullable=False, default=0)
+    wins = Column(Integer, nullable=False, default=0)
+    draws = Column(Integer, nullable=False, default=0)
+    losses = Column(Integer, nullable=False, default=0)
+    goals_scored = Column(Float, nullable=False, default=0.0)
+    goals_conceded = Column(Float, nullable=False, default=0.0)
+    points = Column(Integer, nullable=False, default=0)
+    form_rating = Column(Float)  # Normalized form rating (0.0-1.0)
+    attack_form = Column(Float)  # Goals scored per match (normalized)
+    defense_form = Column(Float)  # Goals conceded per match (normalized, inverted)
+    last_match_date = Column(Date)
+    calculated_at = Column(DateTime, server_default=func.now())
+    
+    team = relationship("Team")
+    match = relationship("Match")
+    
+    __table_args__ = (
+        UniqueConstraint('match_id', 'team_id', name='uix_team_form_historical_match_team'),
+        Index('idx_team_form_historical_match', 'match_id'),
+        Index('idx_team_form_historical_team', 'team_id'),
+        Index('idx_team_form_historical_rating', 'form_rating'),
+        Index('idx_team_form_historical_date', 'last_match_date'),
     )
 
 

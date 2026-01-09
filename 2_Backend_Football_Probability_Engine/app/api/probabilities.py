@@ -708,8 +708,8 @@ async def calculate_probabilities(
             # ============================================================
             # Automatically ingest missing draw structural features before calculating probabilities
             # Use a savepoint to isolate ingestion errors from main transaction
+            # Note: MatchWeather, TeamRestDays, OddsMovement are already imported at top of file
             try:
-                from app.db.models import MatchWeather, TeamRestDays, OddsMovement
                 from app.services.ingestion.ingest_weather import ingest_weather_from_open_meteo
                 from app.services.ingestion.ingest_rest_days import ingest_rest_days_for_fixture
                 from app.services.ingestion.ingest_odds_movement import track_odds_movement
@@ -776,8 +776,12 @@ async def calculate_probabilities(
                                 logger.debug(f"⚠ Weather auto-ingestion failed for fixture {fixture_data['id']}: {weather_result.get('error', 'Unknown error')}")
                         except Exception as e:
                             logger.debug(f"⚠ Weather auto-ingestion error for fixture {fixture_data['id']}: {e}")
-                            savepoint.rollback()
-                            savepoint = db.begin_nested()  # Start new savepoint
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
                     
                     # 2. Auto-calculate rest days if missing
                     rest_days_exist = db.query(TeamRestDays).filter(
@@ -801,12 +805,20 @@ async def calculate_probabilities(
                                     logger.info(f"✓ Auto-calculated rest days for fixture {fixture_data['id']}: home={rest_days_result.get('home_rest_days', 'N/A')}, away={rest_days_result.get('away_rest_days', 'N/A')}")
                                 else:
                                     logger.warning(f"⚠ Rest days auto-calculation failed for fixture {fixture_data['id']}: {rest_days_result.get('error', 'Unknown error')}")
-                                    savepoint.rollback()
-                                    savepoint = db.begin_nested()  # Start new savepoint
+                                    try:
+                                        savepoint.rollback()
+                                        savepoint = db.begin_nested()  # Start new savepoint
+                                    except Exception:
+                                        # Savepoint may already be closed, create a new one
+                                        savepoint = db.begin_nested()
                             except Exception as e:
                                 logger.warning(f"⚠ Rest days auto-calculation error for fixture {fixture_data['id']}: {e}", exc_info=True)
-                                savepoint.rollback()
-                                savepoint = db.begin_nested()  # Start new savepoint
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
                         else:
                             logger.debug(f"⚠ Skipping rest days calculation for fixture {fixture_data['id']}: home_team_id={home_team_id_val}, away_team_id={away_team_id_val}")
                     
@@ -876,8 +888,12 @@ async def calculate_probabilities(
                                 savepoint = db.begin_nested()  # Start new savepoint
                         except Exception as e:
                             logger.debug(f"⚠ Odds movement auto-tracking error for fixture {fixture_data['id']}: {e}")
-                            savepoint.rollback()
-                            savepoint = db.begin_nested()  # Start new savepoint
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
                     
                     # Note: ingestion functions call db.commit() themselves, which commits the outer transaction
                     # So we can't commit the savepoint - it's already committed

@@ -177,6 +177,23 @@ class BatchIngestXGDataRequest(BaseModel):
     save_csv: bool = True
 
 
+class BatchIngestTeamFormRequest(BaseModel):
+    league_codes: Optional[List[str]] = None
+    season: Optional[str] = "ALL"
+    use_all_leagues: bool = False
+    use_all_seasons: bool = False
+    max_years: Optional[int] = None
+    save_csv: bool = True
+    matches_count: int = 5  # Number of recent matches to consider
+
+
+class BatchIngestTeamInjuriesRequest(BaseModel):
+    league_codes: Optional[List[str]] = None
+    use_all_leagues: bool = False
+    save_csv: bool = True
+    fixture_ids: Optional[List[int]] = None  # Optional: specific fixtures to export
+
+
 @router.post("/league-priors", response_model=ApiResponse)
 async def ingest_league_priors(
     request: IngestLeaguePriorsRequest = Body(...),
@@ -1707,6 +1724,72 @@ async def get_xg_data_summary(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/team-form/batch", response_model=ApiResponse)
+async def batch_ingest_team_form(
+    request: BatchIngestTeamFormRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """Batch ingest team form for matches in specified leagues and seasons"""
+    try:
+        from app.services.ingestion.ingest_team_form import batch_ingest_team_form_from_matches
+        
+        # Convert season "ALL" to None
+        season = None if request.season == "ALL" else request.season
+        
+        result = batch_ingest_team_form_from_matches(
+            db=db,
+            league_codes=request.league_codes,
+            use_all_leagues=request.use_all_leagues,
+            season=season,
+            use_all_seasons=request.use_all_seasons,
+            max_years=request.max_years or 10,
+            save_csv=request.save_csv,
+            matches_count=request.matches_count
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(status_code=400, detail=result.get("error", "Batch ingestion failed"))
+        
+        return ApiResponse(
+            data=result,
+            success=True,
+            message=f"Team form batch ingestion complete: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed"
+        )
+    except Exception as e:
+        logger.error(f"Error in batch team form ingestion: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/team-injuries/batch", response_model=ApiResponse)
+async def batch_ingest_team_injuries(
+    request: BatchIngestTeamInjuriesRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """Batch export/ingest team injuries for fixtures"""
+    try:
+        from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_for_fixtures
+        
+        result = batch_ingest_team_injuries_for_fixtures(
+            db=db,
+            fixture_ids=request.fixture_ids,
+            league_codes=request.league_codes,
+            use_all_leagues=request.use_all_leagues,
+            save_csv=request.save_csv
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(status_code=400, detail=result.get("error", "Batch ingestion failed"))
+        
+        return ApiResponse(
+            data=result,
+            success=True,
+            message=f"Team injuries batch export complete: {result.get('successful', 0)} exported, {result.get('skipped', 0)} skipped"
+        )
+    except Exception as e:
+        logger.error(f"Error in batch team injuries export: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/import-all", response_model=ApiResponse)
 async def import_all_draw_structural_data(
     request: BatchIngestRequest = Body(...),
@@ -1724,7 +1807,9 @@ async def import_all_draw_structural_data(
     6. Referee Stats
     7. Rest Days
     8. XG Data
-    9. Weather (LAST)
+    9. Team Form
+    10. Team Injuries (Export existing data)
+    11. Weather (LAST)
     
     Args:
         use_all_leagues: Import for all leagues
@@ -1745,6 +1830,8 @@ async def import_all_draw_structural_data(
             "referee_stats": {"success": False, "message": "Not started"},
             "rest_days": {"success": False, "message": "Not started"},
             "xg_data": {"success": False, "message": "Not started"},
+            "team_form": {"success": False, "message": "Not started"},
+            "team_injuries": {"success": False, "message": "Not started"},
             "weather": {"success": False, "message": "Not started"}
         }
         
@@ -1925,7 +2012,42 @@ async def import_all_draw_structural_data(
             logger.error(f"Error importing xG data: {e}", exc_info=True)
             results["xg_data"] = {"success": False, "error": str(e)}
         
-        # 9. Weather (LAST)
+        # 9. Team Form
+        try:
+            from app.services.ingestion.ingest_team_form import batch_ingest_team_form_from_matches
+            result = batch_ingest_team_form_from_matches(
+                db,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                season=None,
+                use_all_seasons=use_all_seasons,
+                max_years=max_years,
+                save_csv=True,
+                matches_count=5
+            )
+            results["team_form"] = result
+            logger.info(f"✓ Team Form: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+        except Exception as e:
+            logger.error(f"Error importing team form: {e}", exc_info=True)
+            results["team_form"] = {"success": False, "error": str(e)}
+        
+        # 10. Team Injuries (Export existing data)
+        try:
+            from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_for_fixtures
+            result = batch_ingest_team_injuries_for_fixtures(
+                db,
+                fixture_ids=None,
+                league_codes=league_codes,
+                use_all_leagues=use_all_leagues,
+                save_csv=True
+            )
+            results["team_injuries"] = result
+            logger.info(f"✓ Team Injuries: {result.get('successful', 0)} exported, {result.get('skipped', 0)} skipped")
+        except Exception as e:
+            logger.error(f"Error exporting team injuries: {e}", exc_info=True)
+            results["team_injuries"] = {"success": False, "error": str(e)}
+        
+        # 11. Weather (LAST)
         try:
             from app.services.ingestion.ingest_weather import batch_ingest_weather_from_matches
             result = batch_ingest_weather_from_matches(

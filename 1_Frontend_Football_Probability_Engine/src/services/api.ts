@@ -1144,6 +1144,46 @@ class ApiClient {
     });
   }
 
+  async batchIngestTeamForm(options: {
+    leagueCodes?: string[];
+    season?: string;
+    useAllLeagues?: boolean;
+    useAllSeasons?: boolean;
+    maxYears?: number;
+    saveCsv?: boolean;
+    matchesCount?: number;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/team-form/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        season: options.season || (options.useAllSeasons ? 'ALL' : undefined),
+        use_all_leagues: options.useAllLeagues || false,
+        use_all_seasons: options.useAllSeasons || false,
+        max_years: options.maxYears || 10,
+        save_csv: options.saveCsv !== false,
+        matches_count: options.matchesCount || 5,
+      }),
+    });
+  }
+
+  async batchIngestTeamInjuries(options: {
+    leagueCodes?: string[];
+    useAllLeagues?: boolean;
+    saveCsv?: boolean;
+    fixtureIds?: number[];
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/team-injuries/batch', {
+      method: 'POST',
+      body: JSON.stringify({
+        league_codes: options.leagueCodes,
+        use_all_leagues: options.useAllLeagues || false,
+        save_csv: options.saveCsv !== false,
+        fixture_ids: options.fixtureIds,
+      }),
+    });
+  }
+
   async ingestXGData(fixtureId?: number, matchId?: number, xgHome: number, xgAway: number): Promise<ApiResponse<any>> {
     return this.request('/draw-ingestion/xg-data', {
       method: 'POST',

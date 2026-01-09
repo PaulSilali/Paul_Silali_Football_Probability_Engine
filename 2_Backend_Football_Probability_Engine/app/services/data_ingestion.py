@@ -1155,16 +1155,18 @@ class DataIngestionService:
         
         # Always use Historical Match_Odds_Data folder structure
         # If download_session_folder is not provided, create a default one
+        backend_root = Path(__file__).parent.parent.parent  # Go up from app/services/data_ingestion.py to backend root
+        
         if not download_session_folder:
             from datetime import datetime
             download_date = datetime.now().strftime("%Y-%m-%d")
             # Create a default session folder name
             download_session_folder = f"{download_date}_Seasons_1_Leagues_1"
         
-            base_dir = Path("data/1_data_ingestion/Historical Match_Odds_Data") / download_session_folder
-            # Organize by league code (simple and clean)
-            # Format: {league_code}
-            league_dir = base_dir / league_code
+        base_dir = backend_root / "data" / "1_data_ingestion" / "Historical Match_Odds_Data" / download_session_folder
+        # Organize by league code (simple and clean)
+        # Format: {league_code}
+        league_dir = base_dir / league_code
         
         league_dir.mkdir(parents=True, exist_ok=True)
         

@@ -409,9 +409,46 @@ class AutomatedPipelineService:
         else:
             results["steps"]["download_data"] = {"skipped": True, "reason": "auto_download=False"}
         
-        # Step 4: Retrain model
+        # Step 4: Retrain model (only if actually needed)
+        # Re-check team status AFTER data download to see if teams are now trained
         if auto_train:
-            logger.info("Step 4: Retraining model...")
+            # Re-check training status after potential data download
+            updated_status_check = self.check_teams_status(team_names, league_id)
+            updated_untrained_teams = updated_status_check.get("untrained_teams", [])
+            
+            # Check if new data was downloaded
+            download_step = results.get("steps", {}).get("download_data", {})
+            new_data_downloaded = download_step.get("success", False) and not download_step.get("skipped", False)
+            
+            # Check if active model exists
+            poisson_model = self.db.query(Model).filter(
+                Model.model_type == "poisson",
+                Model.status == ModelStatus.active
+            ).order_by(Model.training_completed_at.desc()).first()
+            
+            # Only retrain if:
+            # 1. There are still untrained teams AFTER data download, AND
+            # 2. Either new data was downloaded OR no active model exists
+            # 3. OR if explicitly requested via auto_recompute
+            has_untrained_teams = len(updated_untrained_teams) > 0
+            needs_retraining = (
+                (has_untrained_teams and (new_data_downloaded or not poisson_model)) or
+                auto_recompute
+            )
+            
+            if not needs_retraining:
+                logger.info("Step 4: Skipping retraining - all teams are already trained and no new data downloaded")
+                results["steps"]["retrain_model"] = {
+                    "skipped": True,
+                    "reason": "All teams already trained in active model",
+                    "trained_teams": len(updated_status_check.get("trained_teams", [])),
+                    "untrained_teams": len(updated_untrained_teams)
+                }
+                if progress_callback:
+                    progress_callback(75, "All teams already trained - skipping retraining", results["steps"])
+        
+        if auto_train and needs_retraining:
+            logger.info("Step 4: Retraining model (teams need training or new data downloaded)...")
             if progress_callback:
                 progress_callback(75, "Retraining model...", results["steps"])
             try:

@@ -10,6 +10,7 @@ import {
   Loader2,
   CheckCircle,
   AlertCircle,
+  AlertTriangle,
   Play,
   Info,
   Globe,
@@ -943,6 +944,102 @@ export function DrawStructuralIngestion() {
     }
   };
 
+  // Team Form Batch
+  const [matchesCount, setMatchesCount] = useState<number>(5);
+
+  const handleBatchIngestTeamForm = async () => {
+    if (selectedLeagues.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'Please select at least one league',
+        variant: 'destructive'
+      });
+      return;
+    }
+
+    const useAllSeasons = selectedSeason === 'ALL' || selectedSeason === 'last7' || selectedSeason === 'last10';
+    const maxYears = selectedSeason === 'last7' ? 7 : selectedSeason === 'last10' ? 10 : 10;
+    const useAllLeagues = selectedLeagues.length === allLeagues.length;
+    
+    setLoadingState('team-form-batch', true);
+    setResult('team-form-batch', null);
+    try {
+      const response = await apiClient.batchIngestTeamForm({
+        leagueCodes: useAllLeagues ? undefined : selectedLeagues,
+        season: useAllSeasons ? 'ALL' : selectedSeason,
+        useAllLeagues: useAllLeagues,
+        useAllSeasons: useAllSeasons,
+        maxYears: useAllSeasons ? maxYears : undefined,
+        saveCsv: true,
+        matchesCount: matchesCount
+      });
+      
+      if (response.success) {
+        setResult('team-form-batch', { success: true, data: response.data });
+        toast({
+          title: 'Success',
+          description: response.message || `Team form batch ingestion complete: ${response.data?.successful || 0} successful, ${response.data?.failed || 0} failed`
+        });
+      } else {
+        throw new Error(response.message || 'Batch ingestion failed');
+      }
+    } catch (error: any) {
+      const errorMessage = error.message || error.response?.data?.detail || 'Failed to batch ingest team form';
+      setResult('team-form-batch', { success: false, error: errorMessage });
+      toast({
+        title: 'Error',
+        description: errorMessage,
+        variant: 'destructive'
+      });
+    } finally {
+      setLoadingState('team-form-batch', false);
+    }
+  };
+
+  // Team Injuries Batch
+  const handleBatchIngestTeamInjuries = async () => {
+    if (selectedLeagues.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'Please select at least one league',
+        variant: 'destructive'
+      });
+      return;
+    }
+
+    const useAllLeagues = selectedLeagues.length === allLeagues.length;
+    
+    setLoadingState('team-injuries-batch', true);
+    setResult('team-injuries-batch', null);
+    try {
+      const response = await apiClient.batchIngestTeamInjuries({
+        leagueCodes: useAllLeagues ? undefined : selectedLeagues,
+        useAllLeagues: useAllLeagues,
+        saveCsv: true
+      });
+      
+      if (response.success) {
+        setResult('team-injuries-batch', { success: true, data: response.data });
+        toast({
+          title: 'Success',
+          description: response.message || `Team injuries batch export complete: ${response.data?.successful || 0} exported, ${response.data?.skipped || 0} skipped`
+        });
+      } else {
+        throw new Error(response.message || 'Batch export failed');
+      }
+    } catch (error: any) {
+      const errorMessage = error.message || error.response?.data?.detail || 'Failed to batch export team injuries';
+      setResult('team-injuries-batch', { success: false, error: errorMessage });
+      toast({
+        title: 'Error',
+        description: errorMessage,
+        variant: 'destructive'
+      });
+    } finally {
+      setLoadingState('team-injuries-batch', false);
+    }
+  };
+
   // League Structure Individual
   const handleIngestLeagueStructure = async () => {
     if (!selectedLeagueCode || !selectedLeagueSeason) {
@@ -1105,7 +1202,7 @@ export function DrawStructuralIngestion() {
                 One-Click Import All Draw Structural Data
               </CardTitle>
               <CardDescription className="mt-2">
-                Import all 9 data types in the correct order (Weather last). 
+                Import all 11 data types in the correct order (Weather last). Includes: League Priors, League Structure, Elo Ratings, H2H Stats, Odds Movement, Referee Stats, Rest Days, xG Data, Team Form, Team Injuries, and Weather. 
                 Data will be saved to both <code className="text-xs">data/1_data_ingestion/Draw_structural/</code> and <code className="text-xs">data/2_Cleaned_data/Draw_structural/</code>
               </CardDescription>
             </div>
@@ -1226,6 +1323,14 @@ export function DrawStructuralIngestion() {
           <TabsTrigger value="odds-movement" className="h-10 px-4 text-sm">
             <DollarSign className="h-4 w-4 mr-2" />
             Odds Movement
+          </TabsTrigger>
+          <TabsTrigger value="team-form" className="h-10 px-4 text-sm">
+            <TrendingUp className="h-4 w-4 mr-2" />
+            Team Form
+          </TabsTrigger>
+          <TabsTrigger value="team-injuries" className="h-10 px-4 text-sm">
+            <AlertTriangle className="h-4 w-4 mr-2" />
+            Team Injuries
           </TabsTrigger>
         </TabsList>
       </div>
@@ -4232,6 +4337,325 @@ export function DrawStructuralIngestion() {
                 <p>No summary data available</p>
               </div>
             )}
+          </CardContent>
+        </Card>
+      </TabsContent>
+
+      {/* Team Form */}
+      <TabsContent value="team-form" className="space-y-4">
+        <Alert>
+          <Info className="h-4 w-4" />
+          <AlertDescription>
+            Calculate and ingest team form metrics (last N matches) for fixtures. Form is calculated from historical match results.
+          </AlertDescription>
+        </Alert>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Batch Ingest Team Form</CardTitle>
+            <CardDescription>
+              Calculate team form for matches in selected leagues and seasons
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <Label>Select Season</Label>
+              <Select value={selectedSeason} onValueChange={setSelectedSeason}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select season" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="ALL">All Seasons</SelectItem>
+                  <SelectItem value="last7">Last 7 Seasons</SelectItem>
+                  <SelectItem value="last10">Last 10 Seasons</SelectItem>
+                  {seasonsList.map((season) => (
+                    <SelectItem key={season} value={season}>
+                      {season}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              <p className="text-xs text-muted-foreground mt-1">
+                {selectedSeason === 'ALL' && 'Will process all historical matches'}
+                {selectedSeason === 'last7' && 'Will process matches from the last 7 seasons'}
+                {selectedSeason === 'last10' && 'Will process matches from the last 10 seasons'}
+                {selectedSeason !== 'ALL' && selectedSeason !== 'last7' && selectedSeason !== 'last10' && `Will process matches from ${selectedSeason} season`}
+              </p>
+            </div>
+
+            <div>
+              <Label>Select Leagues</Label>
+              <div className="mt-2 space-y-2 max-h-48 overflow-y-auto border rounded-md p-3">
+                <div className="flex items-center space-x-2 mb-2">
+                  <input
+                    type="checkbox"
+                    id="select-all-team-form"
+                    checked={selectedLeagues.length === allLeagues.length}
+                    onChange={(e) => {
+                      if (e.target.checked) {
+                        setSelectedLeagues(allLeagues.map(l => l.code));
+                      } else {
+                        setSelectedLeagues([]);
+                      }
+                    }}
+                    className="rounded"
+                  />
+                  <Label htmlFor="select-all-team-form" className="font-semibold cursor-pointer">
+                    Select All ({allLeagues.length} leagues)
+                  </Label>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {allLeagues.map((league) => (
+                    <div key={league.code} className="flex items-center space-x-2">
+                      <input
+                        type="checkbox"
+                        id={`league-team-form-${league.code}`}
+                        checked={selectedLeagues.includes(league.code)}
+                        onChange={() => toggleLeague(league.code)}
+                        className="rounded"
+                      />
+                      <Label htmlFor={`league-team-form-${league.code}`} className="text-sm cursor-pointer">
+                        {league.code} - {league.name}
+                      </Label>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <p className="text-xs text-muted-foreground mt-2">
+                Selected: {selectedLeagues.length} league{selectedLeagues.length !== 1 ? 's' : ''}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <Label>Matches Count</Label>
+                <Input
+                  type="number"
+                  min="3"
+                  max="10"
+                  value={matchesCount}
+                  onChange={(e) => setMatchesCount(parseInt(e.target.value) || 5)}
+                  placeholder="5"
+                />
+                <p className="text-xs text-muted-foreground mt-1">
+                  Number of recent matches to consider for form calculation (default: 5)
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="save-csv-team-form"
+                checked={true}
+                disabled
+              />
+              <Label htmlFor="save-csv-team-form" className="text-sm text-muted-foreground">
+                Save CSV files (always enabled)
+              </Label>
+            </div>
+
+            <Button
+              onClick={handleBatchIngestTeamForm}
+              disabled={loading['team-form-batch'] || selectedLeagues.length === 0}
+              className="w-full"
+            >
+              {loading['team-form-batch'] ? (
+                <>
+                  <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  Ingesting Team Form...
+                </>
+              ) : (
+                <>
+                  <TrendingUp className="h-4 w-4 mr-2" />
+                  Batch Ingest Team Form ({selectedLeagues.length === allLeagues.length ? 'All Leagues' : `${selectedLeagues.length} Leagues`})
+                </>
+              )}
+            </Button>
+
+            {results['team-form-batch'] && (
+              <Alert>
+                {results['team-form-batch'].success ? (
+                  <>
+                    <CheckCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-form-batch'].data?.message || 
+                       `Processed ${results['team-form-batch'].data?.total || 0} matches. ${results['team-form-batch'].data?.successful || 0} form records calculated.`}
+                    </AlertDescription>
+                  </>
+                ) : (
+                  <>
+                    <AlertCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-form-batch'].error || 'Failed to ingest team form'}
+                    </AlertDescription>
+                  </>
+                )}
+              </Alert>
+            )}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Information</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2 text-sm text-muted-foreground">
+            <p>
+              <strong>What is Team Form?</strong> Team form metrics calculated from recent match results including:
+            </p>
+            <ul className="list-disc list-inside space-y-1 ml-4">
+              <li>Matches played, wins, draws, losses</li>
+              <li>Goals scored and conceded</li>
+              <li>Points earned (3*wins + draws)</li>
+              <li>Form rating (normalized 0.0-1.0)</li>
+              <li>Attack form (goals scored per match)</li>
+              <li>Defense form (goals conceded per match, inverted)</li>
+            </ul>
+            <p className="mt-2">
+              <strong>Note:</strong> Team form is automatically calculated during prediction if missing. This batch ingestion is useful for pre-populating form data for historical analysis.
+            </p>
+          </CardContent>
+        </Card>
+      </TabsContent>
+
+      {/* Team Injuries */}
+      <TabsContent value="team-injuries" className="space-y-4">
+        <Alert>
+          <Info className="h-4 w-4" />
+          <AlertDescription>
+            Export existing team injury data to CSV format. To import injuries, use the manual entry feature in the Probability Output page or import from CSV.
+          </AlertDescription>
+        </Alert>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Batch Export Team Injuries</CardTitle>
+            <CardDescription>
+              Export existing injury data for fixtures in selected leagues
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <Label>Select Leagues</Label>
+              <div className="mt-2 space-y-2 max-h-48 overflow-y-auto border rounded-md p-3">
+                <div className="flex items-center space-x-2 mb-2">
+                  <input
+                    type="checkbox"
+                    id="select-all-team-injuries"
+                    checked={selectedLeagues.length === allLeagues.length}
+                    onChange={(e) => {
+                      if (e.target.checked) {
+                        setSelectedLeagues(allLeagues.map(l => l.code));
+                      } else {
+                        setSelectedLeagues([]);
+                      }
+                    }}
+                    className="rounded"
+                  />
+                  <Label htmlFor="select-all-team-injuries" className="font-semibold cursor-pointer">
+                    Select All ({allLeagues.length} leagues)
+                  </Label>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {allLeagues.map((league) => (
+                    <div key={league.code} className="flex items-center space-x-2">
+                      <input
+                        type="checkbox"
+                        id={`league-team-injuries-${league.code}`}
+                        checked={selectedLeagues.includes(league.code)}
+                        onChange={() => toggleLeague(league.code)}
+                        className="rounded"
+                      />
+                      <Label htmlFor={`league-team-injuries-${league.code}`} className="text-sm cursor-pointer">
+                        {league.code} - {league.name}
+                      </Label>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <p className="text-xs text-muted-foreground mt-2">
+                Selected: {selectedLeagues.length} league{selectedLeagues.length !== 1 ? 's' : ''}
+              </p>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="save-csv-team-injuries"
+                checked={true}
+                disabled
+              />
+              <Label htmlFor="save-csv-team-injuries" className="text-sm text-muted-foreground">
+                Save CSV files (always enabled)
+              </Label>
+            </div>
+
+            <Button
+              onClick={handleBatchIngestTeamInjuries}
+              disabled={loading['team-injuries-batch'] || selectedLeagues.length === 0}
+              className="w-full"
+            >
+              {loading['team-injuries-batch'] ? (
+                <>
+                  <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  Exporting Team Injuries...
+                </>
+              ) : (
+                <>
+                  <Download className="h-4 w-4 mr-2" />
+                  Batch Export Team Injuries ({selectedLeagues.length === allLeagues.length ? 'All Leagues' : `${selectedLeagues.length} Leagues`})
+                </>
+              )}
+            </Button>
+
+            {results['team-injuries-batch'] && (
+              <Alert>
+                {results['team-injuries-batch'].success ? (
+                  <>
+                    <CheckCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-injuries-batch'].data?.message || 
+                       `Exported ${results['team-injuries-batch'].data?.successful || 0} injury records. ${results['team-injuries-batch'].data?.skipped || 0} fixtures skipped (no injuries).`}
+                    </AlertDescription>
+                  </>
+                ) : (
+                  <>
+                    <AlertCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-injuries-batch'].error || 'Failed to export team injuries'}
+                    </AlertDescription>
+                  </>
+                )}
+              </Alert>
+            )}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Information</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2 text-sm text-muted-foreground">
+            <p>
+              <strong>What is Team Injuries?</strong> Injury data for teams including:
+            </p>
+            <ul className="list-disc list-inside space-y-1 ml-4">
+              <li>Key players missing</li>
+              <li>Injury severity (0.0-1.0)</li>
+              <li>Players missing by position (attackers, midfielders, defenders, goalkeepers)</li>
+              <li>Injury notes</li>
+            </ul>
+            <p className="mt-2">
+              <strong>How to Add Injuries:</strong>
+            </p>
+            <ul className="list-disc list-inside space-y-1 ml-4">
+              <li>Go to Probability Output page</li>
+              <li>Click the injury icon next to a team name</li>
+              <li>Enter injury details manually</li>
+              <li>Or import from CSV using the batch import endpoint</li>
+            </ul>
+            <p className="mt-2">
+              <strong>Note:</strong> This export function helps you backup existing injury data or prepare CSV files for external analysis. To populate injuries from external sources, consider integrating with API-Football or Transfermarkt scrapers.
+            </p>
           </CardContent>
         </Card>
       </TabsContent>

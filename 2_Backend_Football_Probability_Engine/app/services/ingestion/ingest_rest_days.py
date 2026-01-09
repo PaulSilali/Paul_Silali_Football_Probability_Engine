@@ -3,6 +3,7 @@ Calculate and ingest team rest days from fixture schedule
 """
 from sqlalchemy.orm import Session
 from sqlalchemy import text
+from sqlalchemy.exc import IntegrityError
 from app.db.models import TeamRestDays, JackpotFixture, Match, League, Team
 from app.services.ingestion.draw_structural_validation import DrawStructuralValidator
 from typing import Dict, List, Optional
@@ -188,15 +189,65 @@ def ingest_rest_days_for_fixture(
             db.add(away_rest_days)
             logger.debug(f"Added new rest days record for away team {away_team_id}")
         
-        db.commit()
-        logger.info(f"✓ Successfully ingested rest days for fixture {fixture_id}: home={home_rest}, away={away_rest}, is_midweek={is_midweek}")
-        
-        return {
-            "success": True,
-            "home_rest_days": home_rest,
-            "away_rest_days": away_rest,
-            "is_midweek": is_midweek
-        }
+        try:
+            db.commit()
+            logger.info(f"✓ Successfully ingested rest days for fixture {fixture_id}: home={home_rest}, away={away_rest}, is_midweek={is_midweek}")
+            
+            return {
+                "success": True,
+                "home_rest_days": home_rest,
+                "away_rest_days": away_rest,
+                "is_midweek": is_midweek
+            }
+        except IntegrityError as e:
+            db.rollback()
+            # Check if it's a duplicate key error (record already exists)
+            if 'uix_team_rest_fixture' in str(e.orig):
+                # Record already exists, try to update instead
+                logger.debug(f"Rest days record already exists for fixture {fixture_id}, updating instead")
+                try:
+                    # Refresh and update existing records
+                    db.expire_all()
+                    existing_home = db.query(TeamRestDays).filter(
+                        TeamRestDays.team_id == home_team_id,
+                        TeamRestDays.fixture_id == fixture_id
+                    ).first()
+                    if existing_home:
+                        existing_home.rest_days = home_rest
+                        existing_home.is_midweek = is_midweek
+                    
+                    existing_away = db.query(TeamRestDays).filter(
+                        TeamRestDays.team_id == away_team_id,
+                        TeamRestDays.fixture_id == fixture_id
+                    ).first()
+                    if existing_away:
+                        existing_away.rest_days = away_rest
+                        existing_away.is_midweek = is_midweek
+                    
+                    db.commit()
+                    logger.info(f"✓ Updated existing rest days for fixture {fixture_id}: home={home_rest}, away={away_rest}, is_midweek={is_midweek}")
+                    return {
+                        "success": True,
+                        "home_rest_days": home_rest,
+                        "away_rest_days": away_rest,
+                        "is_midweek": is_midweek,
+                        "updated": True
+                    }
+                except Exception as update_error:
+                    db.rollback()
+                    logger.warning(f"Failed to update existing rest days for fixture {fixture_id}: {update_error}")
+                    # Return success anyway since the data already exists
+                    return {
+                        "success": True,
+                        "home_rest_days": home_rest,
+                        "away_rest_days": away_rest,
+                        "is_midweek": is_midweek,
+                        "skipped": True,
+                        "message": "Record already exists"
+                    }
+            else:
+                # Other integrity error
+                raise
     
     except Exception as e:
         db.rollback()

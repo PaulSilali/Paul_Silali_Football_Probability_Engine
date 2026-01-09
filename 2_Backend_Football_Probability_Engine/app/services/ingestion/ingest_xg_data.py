@@ -412,12 +412,10 @@ def batch_ingest_xg_from_matches(
                 logger.error(f"Error processing match {match.id}: {e}")
                 db.rollback()
         
-        # Save CSV file
+        # Save CSV file using utility function (saves to both ingestion and cleaned folders)
         if xg_records:
             try:
-                backend_root = Path(__file__).parent.parent.parent
-                csv_dir = backend_root / "data" / "1_data_ingestion" / "Draw_structural" / "xG_Data"
-                csv_dir.mkdir(parents=True, exist_ok=True)
+                from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
                 
                 # Group by league and season for CSV files
                 league_season_data = {}
@@ -449,13 +447,17 @@ def batch_ingest_xg_from_matches(
                     
                     league_code = league_info.code if league_info else f"L{league_id}"
                     filename = f"{league_code}_{season}_xg_data.csv"
-                    filepath = csv_dir / filename
                     
-                    df.to_csv(filepath, index=False)
-                    logger.info(f"Saved xG CSV to: {filepath.absolute()}")
+                    # Use utility function to save to both ingestion and cleaned folders
+                    ingestion_path, cleaned_path = save_draw_structural_csv(
+                        df, "XG Data", filename, save_to_cleaned=True
+                    )
+                    logger.info(f"Saved xG CSV to: {ingestion_path.absolute()}")
+                    if cleaned_path:
+                        logger.info(f"Saved cleaned xG CSV to: {cleaned_path.absolute()}")
                 
             except Exception as e:
-                logger.error(f"Failed to save xG CSV files: {e}")
+                logger.error(f"Failed to save xG CSV files: {e}", exc_info=True)
         
         logger.info(f"xG batch ingestion complete: {results['successful']} successful, {results['failed']} failed")
         return results
@@ -494,7 +496,7 @@ def _save_xg_csv_batch(
         # Save to both locations
         from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
         ingestion_path, cleaned_path = save_draw_structural_csv(
-            df, "xG_Data", filename, save_to_cleaned=True
+            df, "XG Data", filename, save_to_cleaned=True
         )
         
         logger.info(f"Saved xG CSV: {filename}")
