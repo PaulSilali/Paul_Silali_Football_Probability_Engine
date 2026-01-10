@@ -1,163 +1,163 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-D2,1617,2016-01-10,Fortuna Dusseldorf,Karlsruhe,7,7,False
 D2,1617,2016-01-10,Hannover,St Pauli,7,7,False
+D2,1617,2016-01-10,Fortuna Dusseldorf,Karlsruhe,7,7,False
 D2,1617,2016-02-10,Heidenheim,Braunschweig,7,7,True
 D2,1617,2016-02-10,Wurzburger Kickers,Munich 1860,7,7,True
 D2,1617,2016-02-10,Kaiserslautern,Bielefeld,7,7,True
 D2,1617,2016-02-12,Hannover,Heidenheim,33,2,False
-D2,1617,2016-02-12,Karlsruhe,Greuther Furth,33,7,False
 D2,1617,2016-02-12,St Pauli,Kaiserslautern,33,2,False
+D2,1617,2016-02-12,Karlsruhe,Greuther Furth,33,7,False
 D2,1617,2016-03-10,Stuttgart,Greuther Furth,7,27,True
-D2,1617,2016-03-12,Munich 1860,Dresden,31,7,False
 D2,1617,2016-03-12,Nurnberg,Sandhausen,7,7,False
-D2,1617,2016-04-11,Fortuna Dusseldorf,Dresden,92,30,False
-D2,1617,2016-04-11,Erzgebirge Aue,Nurnberg,7,30,False
+D2,1617,2016-03-12,Munich 1860,Dresden,31,7,False
 D2,1617,2016-04-11,Heidenheim,Karlsruhe,59,59,False
+D2,1617,2016-04-11,Erzgebirge Aue,Nurnberg,7,30,False
+D2,1617,2016-04-11,Fortuna Dusseldorf,Dresden,92,30,False
 D2,1617,2016-04-12,Bielefeld,Bochum,62,7,True
-D2,1617,2016-04-12,Wurzburger Kickers,Fortuna Dusseldorf,62,1,True
 D2,1617,2016-04-12,Erzgebirge Aue,Stuttgart,1,33,True
+D2,1617,2016-04-12,Wurzburger Kickers,Fortuna Dusseldorf,62,1,True
 D2,1617,2016-05-08,Kaiserslautern,Hannover,86,86,False
 D2,1617,2016-05-11,Kaiserslautern,Union Berlin,3,7,True
 D2,1617,2016-05-11,Greuther Furth,Bochum,62,29,True
 D2,1617,2016-05-12,Union Berlin,Braunschweig,1,92,True
-D2,1617,2016-06-08,Bochum,Union Berlin,28,27,True
-D2,1617,2016-06-08,Dresden,Nurnberg,58,58,True
 D2,1617,2016-06-08,Sandhausen,Fortuna Dusseldorf,88,57,True
-D2,1617,2016-06-11,Braunschweig,Hannover,30,34,False
-D2,1617,2016-06-11,Sandhausen,Munich 1860,3,91,False
+D2,1617,2016-06-08,Dresden,Nurnberg,58,58,True
+D2,1617,2016-06-08,Bochum,Union Berlin,28,27,True
 D2,1617,2016-06-11,Stuttgart,Bielefeld,60,60,False
+D2,1617,2016-06-11,Sandhausen,Munich 1860,3,91,False
+D2,1617,2016-06-11,Braunschweig,Hannover,30,34,False
 D2,1617,2016-07-08,Bielefeld,Karlsruhe,27,88,False
 D2,1617,2016-07-08,Heidenheim,Erzgebirge Aue,88,87,False
-D2,1617,2016-07-08,Greuther Furth,Munich 1860,58,27,False
 D2,1617,2016-07-08,Braunschweig,Wurzburger Kickers,27,87,False
+D2,1617,2016-07-08,Greuther Furth,Munich 1860,58,27,False
 D2,1617,2016-07-11,Wurzburger Kickers,St Pauli,3,150,False
 D2,1617,2016-08-08,Stuttgart,St Pauli,58,28,False
 D2,1617,2016-08-13,St Pauli,Braunschweig,5,36,False
 D2,1617,2016-08-13,Karlsruhe,Bochum,36,66,False
-D2,1617,2016-08-14,Wurzburger Kickers,Kaiserslautern,34,95,False
 D2,1617,2016-08-14,Munich 1860,Bielefeld,37,37,False
+D2,1617,2016-08-14,Wurzburger Kickers,Kaiserslautern,34,95,False
 D2,1617,2016-08-14,Hannover,Greuther Furth,64,37,False
 D2,1617,2016-08-15,Union Berlin,Dresden,68,68,False
 D2,1617,2016-08-26,Sandhausen,Stuttgart,76,18,False
-D2,1617,2016-08-26,Bochum,Hannover,13,12,False
 D2,1617,2016-08-26,Heidenheim,Wurzburger Kickers,49,12,False
+D2,1617,2016-08-26,Bochum,Hannover,13,12,False
 D2,1617,2016-08-27,Greuther Furth,Erzgebirge Aue,13,50,False
 D2,1617,2016-08-27,Karlsruhe,Munich 1860,14,13,False
-D2,1617,2016-08-28,Dresden,St Pauli,13,15,False
 D2,1617,2016-08-28,Braunschweig,Nurnberg,15,81,False
+D2,1617,2016-08-28,Dresden,St Pauli,13,15,False
 D2,1617,2016-08-28,Bielefeld,Union Berlin,14,13,False
 D2,1617,2016-08-29,Kaiserslautern,Fortuna Dusseldorf,15,82,False
+D2,1617,2016-09-09,Wurzburger Kickers,Bochum,14,14,False
 D2,1617,2016-09-09,Stuttgart,Heidenheim,14,14,False
 D2,1617,2016-09-09,Erzgebirge Aue,Braunschweig,13,12,False
-D2,1617,2016-09-09,Wurzburger Kickers,Bochum,14,14,False
 D2,1617,2016-09-12,Dresden,Karlsruhe,15,16,False
 D2,1617,2016-09-12,Heidenheim,Union Berlin,3,15,False
 D2,1617,2016-09-12,Fortuna Dusseldorf,Nurnberg,14,15,False
+D2,1617,2016-09-16,Greuther Furth,Wurzburger Kickers,20,7,False
 D2,1617,2016-09-16,Munich 1860,Union Berlin,20,4,False
 D2,1617,2016-09-16,Bochum,Nurnberg,7,4,False
-D2,1617,2016-09-16,Greuther Furth,Wurzburger Kickers,20,7,False
+D2,1617,2016-09-17,Braunschweig,Sandhausen,8,22,False
 D2,1617,2016-09-17,Kaiserslautern,Stuttgart,19,8,False
 D2,1617,2016-09-17,Heidenheim,Fortuna Dusseldorf,5,5,False
-D2,1617,2016-09-17,Braunschweig,Sandhausen,8,22,False
-D2,1617,2016-09-18,Karlsruhe,St Pauli,6,21,False
 D2,1617,2016-09-18,Bielefeld,Hannover,21,23,False
+D2,1617,2016-09-18,Karlsruhe,St Pauli,6,21,False
 D2,1617,2016-09-18,Dresden,Erzgebirge Aue,6,9,False
-D2,1617,2016-09-20,Stuttgart,Braunschweig,3,3,True
 D2,1617,2016-09-20,Fortuna Dusseldorf,Bochum,3,4,True
+D2,1617,2016-09-20,Stuttgart,Braunschweig,3,3,True
 D2,1617,2016-09-20,Nurnberg,Greuther Furth,4,4,True
 D2,1617,2016-09-20,Sandhausen,Heidenheim,3,3,True
+D2,1617,2016-09-21,Kaiserslautern,Dresden,4,3,True
 D2,1617,2016-09-21,Erzgebirge Aue,Bielefeld,3,3,True
 D2,1617,2016-09-21,Hannover,Karlsruhe,3,3,True
-D2,1617,2016-09-21,Kaiserslautern,Dresden,4,3,True
 D2,1617,2016-09-21,Wurzburger Kickers,Union Berlin,5,5,True
 D2,1617,2016-09-22,St Pauli,Munich 1860,4,6,True
+D2,1617,2016-09-23,Bochum,Stuttgart,3,3,False
 D2,1617,2016-09-23,Braunschweig,Fortuna Dusseldorf,3,3,False
 D2,1617,2016-09-23,Greuther Furth,Sandhausen,3,3,False
-D2,1617,2016-09-23,Bochum,Stuttgart,3,3,False
-D2,1617,2016-09-24,Heidenheim,Kaiserslautern,4,3,False
 D2,1617,2016-09-24,Karlsruhe,Erzgebirge Aue,3,3,False
+D2,1617,2016-09-24,Heidenheim,Kaiserslautern,4,3,False
 D2,1617,2016-09-25,Munich 1860,Hannover,3,4,False
 D2,1617,2016-09-25,Bielefeld,Nurnberg,4,5,False
 D2,1617,2016-09-25,Dresden,Wurzburger Kickers,4,4,False
 D2,1617,2016-09-26,Union Berlin,St Pauli,5,4,False
-D2,1617,2016-09-30,Sandhausen,Dresden,7,5,False
 D2,1617,2016-09-30,Erzgebirge Aue,Bochum,6,7,False
 D2,1617,2016-09-30,Nurnberg,Union Berlin,5,4,False
+D2,1617,2016-09-30,Sandhausen,Dresden,7,5,False
 D2,1617,2016-10-09,St Pauli,Bielefeld,13,14,False
 D2,1617,2016-10-09,Union Berlin,Karlsruhe,9,15,False
-D2,1617,2016-10-12,Kaiserslautern,Erzgebirge Aue,18,12,True
 D2,1617,2016-10-12,Bochum,Munich 1860,12,17,True
+D2,1617,2016-10-12,Kaiserslautern,Erzgebirge Aue,18,12,True
 D2,1617,2016-10-14,St Pauli,Erzgebirge Aue,5,2,False
-D2,1617,2016-10-14,Bielefeld,Wurzburger Kickers,5,19,False
 D2,1617,2016-10-14,Bochum,Sandhausen,2,14,False
-D2,1617,2016-10-15,Greuther Furth,Heidenheim,22,21,False
+D2,1617,2016-10-14,Bielefeld,Wurzburger Kickers,5,19,False
 D2,1617,2016-10-15,Dresden,Stuttgart,15,22,False
-D2,1617,2016-10-16,Karlsruhe,Nurnberg,7,16,False
+D2,1617,2016-10-15,Greuther Furth,Heidenheim,22,21,False
 D2,1617,2016-10-16,Munich 1860,Fortuna Dusseldorf,4,23,False
 D2,1617,2016-10-16,Union Berlin,Hannover,7,21,False
+D2,1617,2016-10-16,Karlsruhe,Nurnberg,7,16,False
 D2,1617,2016-10-17,Braunschweig,Kaiserslautern,24,5,False
-D2,1617,2016-10-21,Wurzburger Kickers,Karlsruhe,7,5,False
-D2,1617,2016-10-21,Fortuna Dusseldorf,Bielefeld,5,7,False
 D2,1617,2016-10-21,Stuttgart,Munich 1860,6,5,False
+D2,1617,2016-10-21,Fortuna Dusseldorf,Bielefeld,5,7,False
+D2,1617,2016-10-21,Wurzburger Kickers,Karlsruhe,7,5,False
 D2,1617,2016-10-22,Sandhausen,St Pauli,8,8,False
 D2,1617,2016-10-22,Heidenheim,Dresden,7,7,False
-D2,1617,2016-10-23,Braunschweig,Greuther Furth,6,8,False
 D2,1617,2016-10-23,Nurnberg,Hannover,7,7,False
 D2,1617,2016-10-23,Erzgebirge Aue,Union Berlin,9,7,False
+D2,1617,2016-10-23,Braunschweig,Greuther Furth,6,8,False
 D2,1617,2016-10-24,Kaiserslautern,Bochum,7,10,False
-D2,1617,2016-10-28,Bielefeld,Sandhausen,7,6,False
 D2,1617,2016-10-28,Munich 1860,Erzgebirge Aue,7,5,False
+D2,1617,2016-10-28,Bielefeld,Sandhausen,7,6,False
 D2,1617,2016-10-28,Dresden,Braunschweig,6,5,False
 D2,1617,2016-10-29,Union Berlin,Fortuna Dusseldorf,6,8,False
 D2,1617,2016-10-29,Greuther Furth,Kaiserslautern,6,5,False
 D2,1617,2016-10-30,Karlsruhe,Stuttgart,9,9,False
-D2,1617,2016-10-30,Bochum,Heidenheim,6,8,False
 D2,1617,2016-10-30,Hannover,Wurzburger Kickers,7,9,False
+D2,1617,2016-10-30,Bochum,Heidenheim,6,8,False
 D2,1617,2016-10-31,St Pauli,Nurnberg,9,8,False
 D2,1617,2016-11-09,Fortuna Dusseldorf,Greuther Furth,11,11,True
-D2,1617,2016-11-09,Sandhausen,Kaiserslautern,12,11,True
 D2,1617,2016-11-09,Hannover,Dresden,10,12,True
+D2,1617,2016-11-09,Sandhausen,Kaiserslautern,12,11,True
 D2,1617,2016-11-12,Sandhausen,Wurzburger Kickers,3,13,False
-D2,1617,2016-11-12,Greuther Furth,St Pauli,3,12,False
 D2,1617,2016-11-12,Braunschweig,Bielefeld,15,15,False
-D2,1617,2016-11-18,Bochum,Braunschweig,19,6,False
-D2,1617,2016-11-18,Bielefeld,Heidenheim,6,19,False
+D2,1617,2016-11-12,Greuther Furth,St Pauli,3,12,False
 D2,1617,2016-11-18,Nurnberg,Wurzburger Kickers,18,6,False
+D2,1617,2016-11-18,Bielefeld,Heidenheim,6,19,False
+D2,1617,2016-11-18,Bochum,Braunschweig,19,6,False
 D2,1617,2016-11-19,Karlsruhe,Sandhausen,20,7,False
 D2,1617,2016-11-19,Hannover,Erzgebirge Aue,10,22,False
+D2,1617,2016-11-20,Union Berlin,Stuttgart,22,21,False
 D2,1617,2016-11-20,St Pauli,Fortuna Dusseldorf,8,11,False
 D2,1617,2016-11-20,Dresden,Greuther Furth,11,8,False
-D2,1617,2016-11-20,Union Berlin,Stuttgart,22,21,False
 D2,1617,2016-11-21,Munich 1860,Kaiserslautern,24,12,False
+D2,1617,2016-11-25,Fortuna Dusseldorf,Hannover,5,6,False
 D2,1617,2016-11-25,Greuther Furth,Bielefeld,5,7,False
 D2,1617,2016-11-25,Wurzburger Kickers,Erzgebirge Aue,7,6,False
-D2,1617,2016-11-25,Fortuna Dusseldorf,Hannover,5,6,False
 D2,1617,2016-11-26,Dresden,Bochum,6,8,False
 D2,1617,2016-11-26,Heidenheim,St Pauli,8,6,False
-D2,1617,2016-11-27,Braunschweig,Munich 1860,9,6,False
 D2,1617,2016-11-27,Sandhausen,Union Berlin,8,7,False
+D2,1617,2016-11-27,Braunschweig,Munich 1860,9,6,False
 D2,1617,2016-11-27,Kaiserslautern,Karlsruhe,6,8,False
 D2,1617,2016-11-28,Stuttgart,Nurnberg,8,10,False
-D2,1617,2016-12-08,Erzgebirge Aue,Sandhausen,13,11,True
 D2,1617,2016-12-08,Fortuna Dusseldorf,Stuttgart,13,10,True
+D2,1617,2016-12-08,Erzgebirge Aue,Sandhausen,13,11,True
 D2,1617,2016-12-08,Nurnberg,Heidenheim,10,12,True
 D2,1617,2016-12-09,Nurnberg,Munich 1860,1,12,False
 D2,1617,2016-12-12,Stuttgart,Hannover,4,17,False
+D2,1617,2016-12-16,Erzgebirge Aue,Fortuna Dusseldorf,8,8,False
 D2,1617,2016-12-16,Munich 1860,Heidenheim,7,8,False
 D2,1617,2016-12-16,Union Berlin,Greuther Furth,19,21,False
-D2,1617,2016-12-16,Erzgebirge Aue,Fortuna Dusseldorf,8,8,False
 D2,1617,2016-12-17,St Pauli,Bochum,21,21,False
 D2,1617,2016-12-17,Karlsruhe,Braunschweig,20,20,False
-D2,1617,2016-12-18,Bielefeld,Dresden,23,22,False
 D2,1617,2016-12-18,Hannover,Sandhausen,6,10,False
 D2,1617,2016-12-18,Wurzburger Kickers,Stuttgart,23,6,False
+D2,1617,2016-12-18,Bielefeld,Dresden,23,22,False
 D2,1617,2016-12-19,Nurnberg,Kaiserslautern,10,22,False
 D2,1617,2017-01-04,Wurzburger Kickers,Bielefeld,17,17,True
 D2,1617,2017-01-04,Hannover,Union Berlin,17,19,True
 D2,1617,2017-01-04,Sandhausen,Bochum,17,18,True
+D2,1617,2017-01-27,Fortuna Dusseldorf,Sandhausen,42,17,False
 D2,1617,2017-01-27,Munich 1860,Greuther Furth,42,42,False
 D2,1617,2017-01-27,Union Berlin,Bochum,23,23,False
-D2,1617,2017-01-27,Fortuna Dusseldorf,Sandhausen,42,17,False
 D2,1617,2017-01-28,Wurzburger Kickers,Braunschweig,24,18,False
 D2,1617,2017-01-28,Erzgebirge Aue,Heidenheim,43,16,False
 D2,1617,2017-01-29,Karlsruhe,Bielefeld,43,17,False
@@ -168,140 +168,140 @@ D2,1617,2017-02-04,Kaiserslautern,Braunschweig,5,7,False
 D2,1617,2017-02-04,Heidenheim,Greuther Furth,7,8,False
 D2,1617,2017-02-04,Stuttgart,Dresden,6,6,False
 D2,1617,2017-02-13,Hannover,Bochum,14,17,False
-D2,1617,2017-02-17,Kaiserslautern,Sandhausen,13,5,False
 D2,1617,2017-02-17,Heidenheim,Stuttgart,13,13,False
 D2,1617,2017-02-17,Braunschweig,Erzgebirge Aue,13,20,False
+D2,1617,2017-02-17,Kaiserslautern,Sandhausen,13,5,False
 D2,1617,2017-02-18,Bochum,Wurzburger Kickers,5,21,False
 D2,1617,2017-02-18,Greuther Furth,Fortuna Dusseldorf,6,6,False
-D2,1617,2017-02-19,Karlsruhe,Union Berlin,21,23,False
-D2,1617,2017-02-19,Bielefeld,St Pauli,21,21,False
 D2,1617,2017-02-19,Dresden,Hannover,15,6,False
+D2,1617,2017-02-19,Bielefeld,St Pauli,21,21,False
+D2,1617,2017-02-19,Karlsruhe,Union Berlin,21,23,False
 D2,1617,2017-02-20,Munich 1860,Nurnberg,24,8,False
-D2,1617,2017-02-24,Wurzburger Kickers,Greuther Furth,6,6,False
 D2,1617,2017-02-24,Union Berlin,Munich 1860,5,4,False
+D2,1617,2017-02-24,Wurzburger Kickers,Greuther Furth,6,6,False
 D2,1617,2017-02-24,Sandhausen,Braunschweig,7,7,False
 D2,1617,2017-02-25,Hannover,Bielefeld,6,6,False
 D2,1617,2017-02-25,Fortuna Dusseldorf,Heidenheim,7,8,False
+D2,1617,2017-02-26,Stuttgart,Kaiserslautern,9,9,False
 D2,1617,2017-02-26,Erzgebirge Aue,Dresden,9,7,False
 D2,1617,2017-02-26,Nurnberg,Bochum,6,8,False
-D2,1617,2017-02-26,Stuttgart,Kaiserslautern,9,9,False
 D2,1617,2017-02-27,St Pauli,Karlsruhe,8,8,False
 D2,1617,2017-03-02,Bielefeld,Munich 1860,5,6,True
-D2,1617,2017-03-02,Greuther Furth,Hannover,6,5,True
 D2,1617,2017-03-02,Kaiserslautern,Wurzburger Kickers,4,6,True
-D2,1617,2017-03-03,Union Berlin,Wurzburger Kickers,7,1,False
+D2,1617,2017-03-02,Greuther Furth,Hannover,6,5,True
 D2,1617,2017-03-03,Dresden,Kaiserslautern,5,1,False
+D2,1617,2017-03-03,Union Berlin,Wurzburger Kickers,7,1,False
 D2,1617,2017-03-03,Bochum,Fortuna Dusseldorf,5,6,False
 D2,1617,2017-03-13,Fortuna Dusseldorf,Braunschweig,10,17,False
-D2,1617,2017-03-17,Munich 1860,Wurzburger Kickers,15,14,False
 D2,1617,2017-03-17,Braunschweig,Heidenheim,4,20,False
 D2,1617,2017-03-17,Bielefeld,Kaiserslautern,15,6,False
-D2,1617,2017-03-18,Greuther Furth,Stuttgart,16,20,False
+D2,1617,2017-03-17,Munich 1860,Wurzburger Kickers,15,14,False
 D2,1617,2017-03-18,St Pauli,Hannover,19,16,False
-D2,1617,2017-03-19,Karlsruhe,Fortuna Dusseldorf,20,6,False
+D2,1617,2017-03-18,Greuther Furth,Stuttgart,16,20,False
 D2,1617,2017-03-19,Bochum,Erzgebirge Aue,7,7,False
 D2,1617,2017-03-19,Dresden,Sandhausen,7,8,False
+D2,1617,2017-03-19,Karlsruhe,Fortuna Dusseldorf,20,6,False
 D2,1617,2017-03-20,Union Berlin,Nurnberg,8,22,False
-D2,1617,2017-03-31,Nurnberg,Karlsruhe,11,12,False
 D2,1617,2017-03-31,Erzgebirge Aue,St Pauli,12,13,False
+D2,1617,2017-03-31,Nurnberg,Karlsruhe,11,12,False
 D2,1617,2017-03-31,Fortuna Dusseldorf,Munich 1860,12,14,False
 D2,1617,2017-04-02,Heidenheim,Nurnberg,16,2,False
 D2,1617,2017-04-02,Sandhausen,Erzgebirge Aue,14,2,False
-D2,1617,2017-04-03,Munich 1860,St Pauli,3,3,False
 D2,1617,2017-04-03,Karlsruhe,Hannover,3,16,False
+D2,1617,2017-04-03,Munich 1860,St Pauli,3,3,False
 D2,1617,2017-04-04,Bielefeld,Fortuna Dusseldorf,18,4,True
 D2,1617,2017-04-04,Hannover,Nurnberg,1,2,True
-D2,1617,2017-04-04,Karlsruhe,Wurzburger Kickers,1,18,True
 D2,1617,2017-04-04,St Pauli,Sandhausen,1,2,True
-D2,1617,2017-04-15,Hannover,Braunschweig,11,3,False
+D2,1617,2017-04-04,Karlsruhe,Wurzburger Kickers,1,18,True
 D2,1617,2017-04-15,Nurnberg,Erzgebirge Aue,11,13,False
-D2,1617,2017-04-16,Dresden,Fortuna Dusseldorf,28,12,False
-D2,1617,2017-04-16,Karlsruhe,Heidenheim,12,14,False
-D2,1617,2017-04-16,Munich 1860,Sandhausen,13,8,False
-D2,1617,2017-04-16,St Pauli,Wurzburger Kickers,5,12,False
+D2,1617,2017-04-15,Hannover,Braunschweig,11,3,False
 D2,1617,2017-04-16,Union Berlin,Kaiserslautern,5,8,False
+D2,1617,2017-04-16,St Pauli,Wurzburger Kickers,5,12,False
+D2,1617,2017-04-16,Karlsruhe,Heidenheim,12,14,False
 D2,1617,2017-04-16,Bochum,Greuther Furth,28,5,False
+D2,1617,2017-04-16,Dresden,Fortuna Dusseldorf,28,12,False
+D2,1617,2017-04-16,Munich 1860,Sandhausen,13,8,False
 D2,1617,2017-04-17,Bielefeld,Stuttgart,13,30,False
 D2,1617,2017-04-21,Fortuna Dusseldorf,St Pauli,5,5,False
-D2,1617,2017-04-21,Kaiserslautern,Munich 1860,5,5,False
 D2,1617,2017-04-21,Greuther Furth,Dresden,5,5,False
+D2,1617,2017-04-21,Kaiserslautern,Munich 1860,5,5,False
 D2,1617,2017-04-22,Erzgebirge Aue,Hannover,7,7,False
 D2,1617,2017-04-22,Heidenheim,Bielefeld,6,5,False
-D2,1617,2017-04-23,Sandhausen,Karlsruhe,7,7,False
-D2,1617,2017-04-23,Wurzburger Kickers,Nurnberg,7,8,False
 D2,1617,2017-04-23,Braunschweig,Bochum,8,7,False
+D2,1617,2017-04-23,Wurzburger Kickers,Nurnberg,7,8,False
+D2,1617,2017-04-23,Sandhausen,Karlsruhe,7,7,False
 D2,1617,2017-04-24,Stuttgart,Union Berlin,7,8,False
-D2,1617,2017-04-28,Bochum,Dresden,5,7,False
-D2,1617,2017-04-28,St Pauli,Heidenheim,7,6,False
 D2,1617,2017-04-28,Union Berlin,Sandhausen,4,5,False
+D2,1617,2017-04-28,St Pauli,Heidenheim,7,6,False
+D2,1617,2017-04-28,Bochum,Dresden,5,7,False
+D2,1617,2017-04-29,Nurnberg,Stuttgart,6,5,False
 D2,1617,2017-04-29,Bielefeld,Greuther Furth,7,8,False
 D2,1617,2017-04-29,Karlsruhe,Kaiserslautern,6,8,False
-D2,1617,2017-04-29,Nurnberg,Stuttgart,6,5,False
-D2,1617,2017-04-30,Munich 1860,Braunschweig,9,7,False
 D2,1617,2017-04-30,Erzgebirge Aue,Wurzburger Kickers,8,7,False
+D2,1617,2017-04-30,Munich 1860,Braunschweig,9,7,False
 D2,1617,2017-04-30,Hannover,Fortuna Dusseldorf,8,9,False
-D2,1617,2017-05-02,Dresden,Union Berlin,4,4,True
-D2,1617,2017-05-02,Bochum,Karlsruhe,4,3,True
 D2,1617,2017-05-02,Braunschweig,St Pauli,2,4,True
+D2,1617,2017-05-02,Bochum,Karlsruhe,4,3,True
+D2,1617,2017-05-02,Dresden,Union Berlin,4,4,True
 D2,1617,2017-05-03,Greuther Furth,Nurnberg,4,4,True
 D2,1617,2017-05-03,Bielefeld,Erzgebirge Aue,4,3,True
 D2,1617,2017-05-03,Heidenheim,Sandhausen,5,5,True
-D2,1617,2017-05-04,Munich 1860,Stuttgart,4,5,True
-D2,1617,2017-05-04,Dresden,Heidenheim,2,1,True
 D2,1617,2017-05-04,Bochum,Kaiserslautern,2,5,True
+D2,1617,2017-05-04,Dresden,Heidenheim,2,1,True
 D2,1617,2017-05-04,Union Berlin,Erzgebirge Aue,2,1,True
 D2,1617,2017-05-04,Greuther Furth,Braunschweig,1,2,True
+D2,1617,2017-05-04,Munich 1860,Stuttgart,4,5,True
+D2,1617,2017-05-05,Heidenheim,Hannover,1,5,False
 D2,1617,2017-05-05,Dresden,Munich 1860,1,1,False
 D2,1617,2017-05-05,Kaiserslautern,St Pauli,1,3,False
-D2,1617,2017-05-05,Heidenheim,Hannover,1,5,False
-D2,1617,2017-05-14,St Pauli,Greuther Furth,9,10,False
+D2,1617,2017-05-14,Union Berlin,Heidenheim,10,3,False
+D2,1617,2017-05-14,Wurzburger Kickers,Sandhausen,14,11,False
 D2,1617,2017-05-14,Munich 1860,Bochum,9,6,False
 D2,1617,2017-05-14,Karlsruhe,Dresden,12,3,False
-D2,1617,2017-05-14,Hannover,Stuttgart,9,10,False
-D2,1617,2017-05-14,Erzgebirge Aue,Kaiserslautern,3,9,False
-D2,1617,2017-05-14,Bielefeld,Braunschweig,3,6,False
-D2,1617,2017-05-14,Wurzburger Kickers,Sandhausen,14,11,False
-D2,1617,2017-05-14,Union Berlin,Heidenheim,10,3,False
+D2,1617,2017-05-14,St Pauli,Greuther Furth,9,10,False
 D2,1617,2017-05-14,Nurnberg,Fortuna Dusseldorf,11,3,False
-D2,1617,2017-05-21,Braunschweig,Karlsruhe,7,7,False
+D2,1617,2017-05-14,Bielefeld,Braunschweig,3,6,False
+D2,1617,2017-05-14,Erzgebirge Aue,Kaiserslautern,3,9,False
+D2,1617,2017-05-14,Hannover,Stuttgart,9,10,False
+D2,1617,2017-05-21,Sandhausen,Hannover,7,7,False
 D2,1617,2017-05-21,Bochum,St Pauli,7,7,False
+D2,1617,2017-05-21,Stuttgart,Wurzburger Kickers,7,7,False
+D2,1617,2017-05-21,Braunschweig,Karlsruhe,7,7,False
 D2,1617,2017-05-21,Dresden,Bielefeld,7,7,False
 D2,1617,2017-05-21,Fortuna Dusseldorf,Erzgebirge Aue,7,7,False
 D2,1617,2017-05-21,Greuther Furth,Union Berlin,7,7,False
 D2,1617,2017-05-21,Heidenheim,Munich 1860,7,7,False
 D2,1617,2017-05-21,Kaiserslautern,Nurnberg,7,7,False
-D2,1617,2017-05-21,Sandhausen,Hannover,7,7,False
-D2,1617,2017-05-21,Stuttgart,Wurzburger Kickers,7,7,False
 D2,1617,2017-06-02,Stuttgart,Fortuna Dusseldorf,12,12,False
 D2,1617,2017-06-03,Braunschweig,Stuttgart,13,1,False
-D2,1617,2017-06-05,Fortuna Dusseldorf,Wurzburger Kickers,3,15,False
 D2,1617,2017-06-05,Sandhausen,Nurnberg,15,15,False
-D2,1617,2017-07-04,Wurzburger Kickers,Hannover,29,44,True
+D2,1617,2017-06-05,Fortuna Dusseldorf,Wurzburger Kickers,3,15,False
 D2,1617,2017-07-04,Nurnberg,St Pauli,23,44,True
 D2,1617,2017-07-04,Sandhausen,Bielefeld,29,26,True
-D2,1617,2017-07-05,Stuttgart,Erzgebirge Aue,32,27,True
-D2,1617,2017-07-05,Bochum,Bielefeld,45,1,True
+D2,1617,2017-07-04,Wurzburger Kickers,Hannover,29,44,True
 D2,1617,2017-07-05,Greuther Furth,Karlsruhe,27,45,True
-D2,1617,2017-08-04,Heidenheim,Bochum,75,7,False
+D2,1617,2017-07-05,Bochum,Bielefeld,45,1,True
+D2,1617,2017-07-05,Stuttgart,Erzgebirge Aue,32,27,True
 D2,1617,2017-08-04,Kaiserslautern,Greuther Furth,5,6,False
+D2,1617,2017-08-04,Heidenheim,Bochum,75,7,False
 D2,1617,2017-08-05,Braunschweig,Union Berlin,5,7,False
 D2,1617,2017-09-04,Fortuna Dusseldorf,Union Berlin,8,8,False
 D2,1617,2017-09-04,Stuttgart,Karlsruhe,61,61,False
 D2,1617,2017-09-04,Erzgebirge Aue,Munich 1860,9,106,False
-D2,1617,2017-10-02,Fortuna Dusseldorf,Kaiserslautern,9,3,False
-D2,1617,2017-10-02,Nurnberg,Braunschweig,2,9,False
 D2,1617,2017-10-02,Erzgebirge Aue,Greuther Furth,2,3,False
+D2,1617,2017-10-02,Nurnberg,Braunschweig,2,9,False
+D2,1617,2017-10-02,Fortuna Dusseldorf,Kaiserslautern,9,3,False
 D2,1617,2017-10-03,Stuttgart,Bochum,29,3,True
-D2,1617,2017-10-03,St Pauli,Union Berlin,10,3,True
 D2,1617,2017-10-03,Erzgebirge Aue,Karlsruhe,1,29,True
+D2,1617,2017-10-03,St Pauli,Union Berlin,10,3,True
 D2,1617,2017-10-04,Braunschweig,Dresden,2,10,True
 D2,1617,2017-11-02,Wurzburger Kickers,Heidenheim,121,4,True
 D2,1617,2017-11-02,Munich 1860,Karlsruhe,59,30,True
-D2,1617,2017-11-03,Wurzburger Kickers,Dresden,1,5,False
 D2,1617,2017-11-03,Hannover,Munich 1860,122,1,False
-D2,1617,2017-12-02,Stuttgart,Sandhausen,60,8,False
+D2,1617,2017-11-03,Wurzburger Kickers,Dresden,1,5,False
 D2,1617,2017-12-02,St Pauli,Dresden,6,5,False
 D2,1617,2017-12-02,Union Berlin,Bielefeld,8,6,False
-D2,1617,2017-12-03,Kaiserslautern,Heidenheim,7,9,False
+D2,1617,2017-12-02,Stuttgart,Sandhausen,60,8,False
 D2,1617,2017-12-03,Nurnberg,Bielefeld,8,1,False
 D2,1617,2017-12-03,Sandhausen,Greuther Furth,1,7,False
+D2,1617,2017-12-03,Kaiserslautern,Heidenheim,7,9,False

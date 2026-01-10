@@ -13,7 +13,9 @@ import {
   Download,
   Database,
   Sparkles,
-  Loader2
+  Loader2,
+  RefreshCw,
+  Zap
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
@@ -255,6 +257,7 @@ export default function JackpotValidation() {
   const [selectedSet, setSelectedSet] = useState<string>('');
   const [viewMode, setViewMode] = useState<'table' | 'visual'>('table');
   const [isExporting, setIsExporting] = useState(false);
+  const [isRetraining, setIsRetraining] = useState(false);
   const [loading, setLoading] = useState(true);
   const [loadedProbabilities, setLoadedProbabilities] = useState<Record<string, any>>({});
   const [aggregateMode, setAggregateMode] = useState<'all' | 'selected'>('all');
@@ -754,10 +757,22 @@ export default function JackpotValidation() {
       
       if (response.success) {
         const totalMatches = validations.reduce((acc, v) => acc + v.matches.length, 0);
+        const autoRetrained = response.data?.auto_retrained;
+        const totalValidationMatches = response.data?.total_validation_matches || 0;
+        
         toast({
           title: 'Success',
-          description: `All validation data exported. ${response.data?.exported_count || validations.length} validations with ${totalMatches} matches added to training.`,
+          description: `All validation data exported. ${response.data?.exported_count || validations.length} validations with ${totalMatches} matches added to training.${autoRetrained ? ` Calibration model auto-retrained using ${response.data?.auto_retrain_result?.matchCount || 0} validation matches!` : ''}`,
         });
+        
+        // Show info about retraining if not auto-retrained
+        if (!autoRetrained && totalValidationMatches < 50) {
+          toast({
+            title: 'Info',
+            description: `Retrain calibration model manually when you have 50+ validation matches (currently: ${totalValidationMatches})`,
+            variant: 'default',
+          });
+        }
       } else {
         throw new Error(response.message || 'Export failed');
       }
@@ -770,6 +785,58 @@ export default function JackpotValidation() {
       });
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  const handleRetrainCalibration = async () => {
+    setIsRetraining(true);
+    try {
+      // First, check how many validation matches are available
+      // We'll use a lower threshold if needed, but warn the user
+      const response = await apiClient.retrainCalibrationFromValidation({
+        use_all_validation: true,
+        min_validation_matches: 10  // Lower threshold to allow training with available data
+      });
+      
+      if (response.success) {
+        const matchCount = response.data?.matchCount || 0;
+        const warning = matchCount < 50 
+          ? ` Warning: Training with only ${matchCount} matches (recommended: 50+). Results may be less reliable.`
+          : '';
+        
+        toast({
+          title: 'Success',
+          description: `Calibration model retrained successfully! Using ${matchCount} validation matches. New model version: ${response.data?.version || 'N/A'}.${warning}`,
+        });
+        
+        // Refresh page data after retraining
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
+      } else {
+        throw new Error(response.message || 'Retraining failed');
+      }
+    } catch (err: any) {
+      console.error('Retraining error:', err);
+      const errorMsg = err.message || 'Unknown error';
+      
+      // Provide helpful error message
+      let userFriendlyMsg = errorMsg;
+      if (errorMsg.includes('Insufficient validation matches')) {
+        const matchCount = errorMsg.match(/(\d+)\s+\(minimum:/)?.[1];
+        const minRequired = errorMsg.match(/minimum:\s+(\d+)/)?.[1];
+        if (matchCount && minRequired) {
+          userFriendlyMsg = `You have ${matchCount} validation matches, but ${minRequired} are required. Export more validation results or the system will use available data with a lower threshold.`;
+        }
+      }
+      
+      toast({
+        title: 'Error',
+        description: 'Failed to retrain: ' + userFriendlyMsg,
+        variant: 'destructive',
+      });
+    } finally {
+      setIsRetraining(false);
     }
   };
 
@@ -808,10 +875,10 @@ export default function JackpotValidation() {
               </p>
             </div>
             <div className="p-2 rounded bg-background/50">
-              <div className="font-medium text-accent mb-1">2. Recalibration</div>
+              <div className="font-medium text-accent mb-1">2. Retrain Calibration</div>
               <p className="text-muted-foreground">
-                Go to <strong>ML Training</strong> → <strong>Calibration</strong> tab. 
-                Train calibration model using exported validation data to improve probability accuracy.
+                Click <strong>"Retrain Calibration Model"</strong> button above to automatically improve model accuracy using your validation results. 
+                System auto-retrains when 50+ matches are exported, or retrain manually anytime.
               </p>
             </div>
             <div className="p-2 rounded bg-background/50">
@@ -973,7 +1040,7 @@ export default function JackpotValidation() {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <Button
                 variant="outline"
                 onClick={handleExportToTraining}
@@ -1006,6 +1073,24 @@ export default function JackpotValidation() {
                   <>
                     <Database className="h-4 w-4 mr-2" />
                     Export All to Training
+                  </>
+                )}
+              </Button>
+              <Button
+                onClick={handleRetrainCalibration}
+                disabled={isRetraining || isExporting}
+                variant="outline"
+                className="glass-card border-accent/30 hover:bg-accent/10 text-accent"
+              >
+                {isRetraining ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Retraining...
+                  </>
+                ) : (
+                  <>
+                    <RefreshCw className="h-4 w-4 mr-2" />
+                    Retrain Calibration Model
                   </>
                 )}
               </Button>

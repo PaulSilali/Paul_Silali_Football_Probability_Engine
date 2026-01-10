@@ -1,7 +1,7 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 8745,Atalanta,8749,Genoa,1718,2,0,0.0,3.5
-8732,Juventus,8742,Inter,1718,2,1,0.5,2.5
 8731,Chievo,8736,Spal,1718,2,1,0.5,1.5
+8732,Juventus,8742,Inter,1718,2,1,0.5,2.5
 8735,Bologna,8744,Roma,1718,2,1,0.5,1.5
 8731,Chievo,8750,Sampdoria,1718,2,0,0.0,4.0
 8732,Juventus,8753,Benevento,1718,2,0,0.0,4.5
@@ -15,8 +15,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8736,Spal,8748,Fiorentina,1718,2,2,1.0,1.0
 8744,Roma,8748,Fiorentina,1718,2,0,0.0,4.0
 8734,Napoli,8740,Udinese,1718,2,0,0.0,3.5
-8749,Genoa,8751,Verona,1718,2,0,0.0,2.5
 8732,Juventus,8741,Sassuolo,1718,2,0,0.0,5.5
+8749,Genoa,8751,Verona,1718,2,0,0.0,2.5
 8738,Cagliari,8749,Genoa,1718,2,0,0.0,4.0
 8741,Sassuolo,8745,Atalanta,1718,2,0,0.0,3.0
 8731,Chievo,8732,Juventus,1718,2,0,0.0,2.5
@@ -26,8 +26,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8741,Sassuolo,8753,Benevento,1718,2,1,0.5,3.5
 8740,Udinese,8752,Crotone,1718,2,0,0.0,3.0
 8738,Cagliari,8741,Sassuolo,1718,2,1,0.5,0.5
-8744,Roma,8752,Crotone,1718,2,0,0.0,1.5
 8733,Lazio,8735,Bologna,1718,2,1,0.5,2.5
+8744,Roma,8752,Crotone,1718,2,0,0.0,1.5
 8732,Juventus,8734,Napoli,1718,2,0,0.0,1.0
 8731,Chievo,8753,Benevento,1718,2,0,0.0,1.0
 8738,Cagliari,8753,Benevento,1718,2,0,0.0,3.0
@@ -65,8 +65,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8735,Bologna,8747,Milan,1718,2,0,0.0,3.0
 8747,Milan,8752,Crotone,1718,2,0,0.0,2.0
 8750,Sampdoria,8751,Verona,1718,2,1,0.5,1.0
-8741,Sassuolo,8742,Inter,1718,2,0,0.0,2.0
 8736,Spal,8744,Roma,1718,2,0,0.0,3.5
+8741,Sassuolo,8742,Inter,1718,2,0,0.0,2.0
 8741,Sassuolo,8749,Genoa,1718,2,1,0.5,0.5
 8740,Udinese,8745,Atalanta,1718,2,0,0.0,2.5
 8744,Roma,8751,Verona,1718,2,0,0.0,2.0
@@ -74,9 +74,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8733,Lazio,8752,Crotone,1718,2,1,0.5,4.0
 8734,Napoli,8743,Torino,1718,2,1,0.5,4.0
 8735,Bologna,8752,Crotone,1718,2,0,0.0,3.0
+8742,Inter,8744,Roma,1718,2,1,0.5,3.0
 8734,Napoli,8752,Crotone,1718,2,0,0.0,2.0
 8733,Lazio,8751,Verona,1718,2,0,0.0,2.5
-8742,Inter,8744,Roma,1718,2,1,0.5,3.0
 8736,Spal,8747,Milan,1718,2,0,0.0,3.0
 8745,Atalanta,8747,Milan,1718,2,1,0.5,2.0
 8735,Bologna,8749,Genoa,1718,2,0,0.0,1.5
@@ -127,9 +127,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8743,Torino,8751,Verona,1718,2,1,0.5,3.5
 8742,Inter,8747,Milan,1718,2,1,0.5,2.5
 8733,Lazio,8747,Milan,1718,2,0,0.0,4.0
-8731,Chievo,8734,Napoli,1718,2,1,0.5,1.5
-8732,Juventus,8740,Udinese,1718,2,0,0.0,5.0
 8738,Cagliari,8747,Milan,1718,2,0,0.0,3.0
+8732,Juventus,8740,Udinese,1718,2,0,0.0,5.0
+8731,Chievo,8734,Napoli,1718,2,1,0.5,1.5
 8743,Torino,8749,Genoa,1718,2,1,0.5,1.5
 8741,Sassuolo,8752,Crotone,1718,2,0,0.0,4.0
 8733,Lazio,8753,Benevento,1718,2,0,0.0,7.0
@@ -146,11 +146,11 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8735,Bologna,8741,Sassuolo,1718,2,0,0.0,2.0
 8732,Juventus,8747,Milan,1718,2,0,0.0,3.0
 8741,Sassuolo,8747,Milan,1718,2,1,0.5,2.0
-8735,Bologna,8745,Atalanta,1718,2,0,0.0,1.0
 8735,Bologna,8742,Inter,1718,2,1,0.5,2.5
+8735,Bologna,8745,Atalanta,1718,2,0,0.0,1.0
 8735,Bologna,8743,Torino,1718,2,1,0.5,2.5
-8751,Verona,8752,Crotone,1718,2,1,0.5,1.5
 8731,Chievo,8740,Udinese,1718,2,1,0.5,2.5
+8751,Verona,8752,Crotone,1718,2,1,0.5,1.5
 8741,Sassuolo,8743,Torino,1718,2,1,0.5,2.5
 8750,Sampdoria,8752,Crotone,1718,2,0,0.0,5.0
 8744,Roma,8749,Genoa,1718,2,1,0.5,2.5
@@ -159,8 +159,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8747,Milan,8753,Benevento,1718,2,1,0.5,2.5
 8743,Torino,8753,Benevento,1718,2,0,0.0,2.0
 8742,Inter,8750,Sampdoria,1718,2,0,0.0,5.0
-8738,Cagliari,8742,Inter,1718,2,0,0.0,4.0
 8731,Chievo,8747,Milan,1718,2,0,0.0,5.0
+8738,Cagliari,8742,Inter,1718,2,0,0.0,4.0
 8745,Atalanta,8753,Benevento,1718,2,0,0.0,2.0
 8738,Cagliari,8744,Roma,1718,2,0,0.0,1.0
 8731,Chievo,8741,Sassuolo,1718,2,2,1.0,1.0

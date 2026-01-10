@@ -1,0 +1,88 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SC1,1718,2017-08-05,Queen of Sth,Brechin,4.0,4.0,0.0
+SC1,1718,2017-08-05,Livingston,Dunfermline,3.25,3.25,0.0
+SC1,1718,2017-08-05,St Mirren,Falkirk,3.25,3.25,0.0
+SC1,1718,2017-08-12,Dunfermline,Inverness C,3.5,3.5,0.0
+SC1,1718,2017-08-12,Falkirk,Dumbarton,3.6,3.6,0.0
+SC1,1718,2017-08-12,Morton,St Mirren,3.4,3.4,0.0
+SC1,1718,2017-08-12,Brechin,Livingston,3.8,3.8,0.0
+SC1,1718,2017-08-12,Dundee United,Queen of Sth,3.8,3.8,0.0
+SC1,1718,2017-08-19,Dunfermline,Falkirk,3.6,3.6,0.0
+SC1,1718,2017-08-19,Livingston,St Mirren,3.5,3.5,0.0
+SC1,1718,2017-08-19,Inverness C,Morton,3.4,3.4,0.0
+SC1,1718,2017-08-26,Falkirk,Queen of Sth,3.5,3.5,0.0
+SC1,1718,2017-09-09,Dundee United,Dumbarton,4.75,4.75,0.0
+SC1,1718,2017-09-09,St Mirren,Inverness C,3.5,3.5,0.0
+SC1,1718,2017-09-09,Morton,Dunfermline,3.5,3.5,0.0
+SC1,1718,2017-09-09,Brechin,Falkirk,4.5,4.5,0.0
+SC1,1718,2017-09-09,Livingston,Queen of Sth,3.6,3.6,0.0
+SC1,1718,2017-09-16,Queen of Sth,Morton,3.5,3.5,0.0
+SC1,1718,2017-09-16,Dumbarton,Brechin,3.75,3.75,0.0
+SC1,1718,2017-09-16,Inverness C,Livingston,3.5,3.5,0.0
+SC1,1718,2017-09-23,Dundee United,Morton,3.6,3.6,0.0
+SC1,1718,2017-09-23,Dumbarton,Inverness C,3.7,3.7,0.0
+SC1,1718,2017-09-24,St Mirren,Queen of Sth,3.5,3.5,0.0
+SC1,1718,2017-09-30,Livingston,Dumbarton,4.33,4.33,0.0
+SC1,1718,2017-09-30,St Mirren,Brechin,5.0,5.0,0.0
+SC1,1718,2017-09-30,Dunfermline,Dundee United,3.4,3.4,0.0
+SC1,1718,2017-10-21,Dunfermline,Livingston,3.39,3.39,0.0
+SC1,1718,2017-10-21,Morton,Dumbarton,3.75,3.75,0.0
+SC1,1718,2017-10-28,St Mirren,Morton,3.39,3.39,0.0
+SC1,1718,2017-10-28,Livingston,Brechin,5.25,5.25,0.0
+SC1,1718,2017-10-28,Queen of Sth,Falkirk,3.29,3.29,0.0
+SC1,1718,2017-11-04,Dundee United,St Mirren,3.5,3.5,0.0
+SC1,1718,2017-11-04,Falkirk,Dunfermline,3.25,3.25,0.0
+SC1,1718,2017-11-04,Morton,Queen of Sth,3.2,3.2,0.0
+SC1,1718,2017-11-21,Dunfermline,Morton,3.39,3.39,0.0
+SC1,1718,2017-11-25,Brechin,Dundee United,4.75,4.75,0.0
+SC1,1718,2017-11-25,Dunfermline,Dumbarton,4.75,4.75,0.0
+SC1,1718,2017-11-28,Dumbarton,Queen of Sth,3.75,3.75,0.0
+SC1,1718,2017-11-28,St Mirren,Livingston,3.39,3.39,0.0
+SC1,1718,2017-12-02,Dundee United,Dunfermline,3.6,3.6,0.0
+SC1,1718,2017-12-02,Morton,Brechin,4.59,4.59,0.0
+SC1,1718,2017-12-09,Dunfermline,Queen of Sth,3.39,3.39,0.0
+SC1,1718,2017-12-09,Brechin,St Mirren,4.75,4.75,0.0
+SC1,1718,2017-12-23,Queen of Sth,St Mirren,3.5,3.5,0.0
+SC1,1718,2017-12-23,Dunfermline,Brechin,5.0,5.0,0.0
+SC1,1718,2017-12-26,Dumbarton,Livingston,3.5,3.5,0.0
+SC1,1718,2017-12-30,Falkirk,Queen of Sth,3.25,3.25,0.0
+SC1,1718,2017-12-30,Brechin,Inverness C,4.75,4.75,0.0
+SC1,1718,2018-01-02,Dundee United,Brechin,6.5,6.5,0.0
+SC1,1718,2018-01-02,Inverness C,Livingston,3.39,3.39,0.0
+SC1,1718,2018-01-02,Morton,St Mirren,3.39,3.39,0.0
+SC1,1718,2018-01-06,Brechin,Morton,4.75,4.75,0.0
+SC1,1718,2018-01-06,Falkirk,Dundee United,3.6,3.6,0.0
+SC1,1718,2018-01-09,Inverness C,Falkirk,3.25,3.25,0.0
+SC1,1718,2018-01-13,Inverness C,Queen of Sth,3.39,3.39,0.0
+SC1,1718,2018-01-26,Dunfermline,St Mirren,3.39,3.39,0.0
+SC1,1718,2018-01-27,Falkirk,Inverness C,3.5,3.5,0.0
+SC1,1718,2018-01-27,Queen of Sth,Brechin,5.0,5.0,0.0
+SC1,1718,2018-02-03,Falkirk,Livingston,3.6,3.6,0.0
+SC1,1718,2018-02-03,Morton,Dunfermline,3.39,3.39,0.0
+SC1,1718,2018-02-06,Falkirk,Brechin,5.0,5.0,0.0
+SC1,1718,2018-02-17,Livingston,St Mirren,3.5,3.5,0.0
+SC1,1718,2018-02-17,Queen of Sth,Morton,3.5,3.5,0.0
+SC1,1718,2018-02-23,Livingston,Dundee United,3.39,3.39,0.0
+SC1,1718,2018-03-10,Falkirk,Morton,3.39,3.39,0.0
+SC1,1718,2018-03-13,Livingston,Morton,3.25,3.25,0.0
+SC1,1718,2018-03-13,Queen of Sth,Dundee United,3.39,3.39,0.0
+SC1,1718,2018-03-17,Brechin,Dumbarton,3.5,3.5,0.0
+SC1,1718,2018-03-17,Dundee United,Inverness C,4.0,4.0,0.0
+SC1,1718,2018-03-17,Queen of Sth,St Mirren,3.39,3.39,0.0
+SC1,1718,2018-03-20,Dundee United,Queen of Sth,3.6,3.6,0.0
+SC1,1718,2018-03-24,Dundee United,Dunfermline,3.25,3.25,0.0
+SC1,1718,2018-03-24,Queen of Sth,Livingston,3.29,3.29,0.0
+SC1,1718,2018-03-31,Dunfermline,Queen of Sth,3.39,3.39,0.0
+SC1,1718,2018-03-31,Inverness C,St Mirren,3.39,3.39,0.0
+SC1,1718,2018-03-31,Morton,Dundee United,3.29,3.29,0.0
+SC1,1718,2018-04-03,Queen of Sth,Falkirk,3.39,3.39,0.0
+SC1,1718,2018-04-07,Dumbarton,Dundee United,3.7,3.7,0.0
+SC1,1718,2018-04-07,Falkirk,Dunfermline,3.39,3.39,0.0
+SC1,1718,2018-04-07,Livingston,Morton,3.5,3.5,0.0
+SC1,1718,2018-04-10,Morton,Dumbarton,4.75,4.75,0.0
+SC1,1718,2018-04-14,Inverness C,Dumbarton,4.0,4.0,0.0
+SC1,1718,2018-04-17,St Mirren,Falkirk,3.5,3.5,0.0
+SC1,1718,2018-04-21,Dumbarton,Falkirk,3.29,3.29,0.0
+SC1,1718,2018-04-21,Inverness C,Dunfermline,3.25,3.25,0.0
+SC1,1718,2018-04-21,St Mirren,Morton,3.29,3.29,0.0
+SC1,1718,2018-04-28,Brechin,Queen of Sth,5.5,5.5,0.0

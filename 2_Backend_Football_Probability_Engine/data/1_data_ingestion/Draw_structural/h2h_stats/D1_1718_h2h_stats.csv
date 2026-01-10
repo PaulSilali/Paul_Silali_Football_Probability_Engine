@@ -28,20 +28,20 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9269,Freiburg,9277,Dortmund,1718,2,2,1.0,2.0
 9273,Leverkusen,9277,Dortmund,1718,2,1,0.5,3.0
 9266,RB Leipzig,9268,Werder Bremen,1718,2,1,0.5,2.0
-9277,Dortmund,9278,Mainz,1718,2,0,0.0,2.5
 9271,Heidenheim,9272,Wolfsburg,1718,2,1,0.5,2.5
+9277,Dortmund,9278,Mainz,1718,2,0,0.0,2.5
 9268,Werder Bremen,9269,Freiburg,1718,2,1,0.5,0.5
 9275,Stuttgart,9280,M'gladbach,1718,2,0,0.0,1.5
 9279,FC Koln,9285,Hertha,1718,2,0,0.0,2.5
-9271,Heidenheim,9281,Hamburg,1718,2,0,0.0,2.5
 9267,Ein Frankfurt,9277,Dortmund,1718,2,1,0.5,4.5
+9271,Heidenheim,9281,Hamburg,1718,2,0,0.0,2.5
 9269,Freiburg,9285,Hertha,1718,2,2,1.0,1.0
 9286,Schalke 04,9292,Hannover,1718,2,1,0.5,1.5
 9273,Leverkusen,9292,Hannover,1718,2,1,0.5,6.5
 9265,Bayern Munich,9266,RB Leipzig,1718,2,0,0.0,2.5
 9272,Wolfsburg,9286,Schalke 04,1718,2,1,0.5,1.5
-9265,Bayern Munich,9275,Stuttgart,1718,2,0,0.0,3.0
 9265,Bayern Munich,9285,Hertha,1718,2,2,1.0,2.0
+9265,Bayern Munich,9275,Stuttgart,1718,2,0,0.0,3.0
 9266,RB Leipzig,9278,Mainz,1718,2,1,0.5,3.5
 9266,RB Leipzig,9285,Hertha,1718,2,0,0.0,6.5
 9270,Augsburg,9272,Wolfsburg,1718,2,1,0.5,1.5
@@ -76,21 +76,21 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9273,Leverkusen,9279,FC Koln,1718,2,0,0.0,2.5
 9266,RB Leipzig,9270,Augsburg,1718,2,0,0.0,1.5
 9279,FC Koln,9281,Hamburg,1718,2,0,0.0,3.0
-9266,RB Leipzig,9271,Heidenheim,1718,2,0,0.0,5.5
 9273,Leverkusen,9280,M'gladbach,1718,2,0,0.0,4.0
+9266,RB Leipzig,9271,Heidenheim,1718,2,0,0.0,5.5
 9270,Augsburg,9277,Dortmund,1718,2,1,0.5,2.5
 9271,Heidenheim,9292,Hannover,1718,2,0,0.0,3.0
 9271,Heidenheim,9280,M'gladbach,1718,2,1,0.5,5.0
-9278,Mainz,9279,FC Koln,1718,2,1,0.5,1.5
 9266,RB Leipzig,9292,Hannover,1718,2,0,0.0,4.0
+9278,Mainz,9279,FC Koln,1718,2,1,0.5,1.5
 9266,RB Leipzig,9272,Wolfsburg,1718,2,1,0.5,3.5
 9269,Freiburg,9278,Mainz,1718,2,0,0.0,2.5
 9265,Bayern Munich,9269,Freiburg,1718,2,0,0.0,4.5
 9268,Werder Bremen,9279,FC Koln,1718,2,1,0.5,2.0
 9267,Ein Frankfurt,9280,M'gladbach,1718,2,0,0.0,1.5
 9269,Freiburg,9281,Hamburg,1718,2,1,0.5,0.5
-9268,Werder Bremen,9278,Mainz,1718,2,1,0.5,3.5
 9270,Augsburg,9292,Hannover,1718,2,0,0.0,3.5
+9268,Werder Bremen,9278,Mainz,1718,2,1,0.5,3.5
 9267,Ein Frankfurt,9278,Mainz,1718,2,1,0.5,2.5
 9270,Augsburg,9281,Hamburg,1718,2,0,0.0,1.0
 9278,Mainz,9292,Hannover,1718,2,0,0.0,3.0

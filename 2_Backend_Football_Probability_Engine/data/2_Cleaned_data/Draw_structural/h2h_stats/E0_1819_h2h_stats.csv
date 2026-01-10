@@ -19,8 +19,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9074,Newcastle,9084,Crystal Palace,1819,2,1,0.5,0.5
 9071,Liverpool,9084,Crystal Palace,1819,2,0,0.0,4.5
 9081,Wolves,9089,Everton,1819,2,1,0.5,4.0
-9076,Fulham,9095,Watford,1819,2,1,0.5,3.5
 9075,Brighton,9079,Tottenham,1819,2,0,0.0,2.0
+9076,Fulham,9095,Watford,1819,2,1,0.5,3.5
 9078,West Ham,9080,Burnley,1819,2,0,0.0,4.0
 9080,Burnley,9083,Chelsea,1819,2,1,0.5,4.0
 9076,Fulham,9083,Chelsea,1819,2,0,0.0,2.5
@@ -38,13 +38,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9083,Chelsea,9091,Southampton,1819,2,1,0.5,1.5
 9074,Newcastle,9089,Everton,1819,2,1,0.5,3.5
 9082,Man City,9084,Crystal Palace,1819,4,1,0.25,3.25
-9074,Newcastle,9098,Huddersfield,1819,2,0,0.0,1.5
 9083,Chelsea,9087,Arsenal,1819,2,0,0.0,3.5
+9074,Newcastle,9098,Huddersfield,1819,2,0,0.0,1.5
 9075,Brighton,9080,Burnley,1819,2,0,0.0,2.5
 9089,Everton,9092,Leicester,1819,2,0,0.0,2.0
 9080,Burnley,9092,Leicester,1819,2,1,0.5,1.5
-9072,Bournemouth,9075,Brighton,1819,2,0,0.0,3.5
 9087,Arsenal,9091,Southampton,1819,2,0,0.0,3.5
+9072,Bournemouth,9075,Brighton,1819,2,0,0.0,3.5
 9071,Liverpool,9092,Leicester,1819,2,1,0.5,2.5
 9091,Southampton,9095,Watford,1819,2,2,1.0,2.0
 9087,Arsenal,9092,Leicester,1819,2,0,0.0,3.5
@@ -71,8 +71,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9071,Liverpool,9079,Tottenham,1819,2,0,0.0,3.0
 9081,Wolves,9084,Crystal Palace,1819,2,0,0.0,1.5
 9078,West Ham,9091,Southampton,1819,2,0,0.0,3.0
-9071,Liverpool,9075,Brighton,1819,2,0,0.0,1.0
 9072,Bournemouth,9089,Everton,1819,2,1,0.5,3.0
+9071,Liverpool,9075,Brighton,1819,2,0,0.0,1.0
 9081,Wolves,9082,Man City,1819,4,2,0.5,2.5
 9071,Liverpool,9098,Huddersfield,1819,2,0,0.0,3.0
 9092,Leicester,9097,Cardiff,1819,2,0,0.0,1.0
@@ -80,8 +80,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9083,Chelsea,9092,Leicester,1819,2,1,0.5,0.5
 9079,Tottenham,9098,Huddersfield,1819,2,0,0.0,3.0
 9087,Arsenal,9089,Everton,1819,2,0,0.0,1.5
-9074,Newcastle,9075,Brighton,1819,2,1,0.5,1.5
 9091,Southampton,9092,Leicester,1819,2,0,0.0,3.0
+9074,Newcastle,9075,Brighton,1819,2,1,0.5,1.5
 9078,West Ham,9081,Wolves,1819,2,0,0.0,2.0
 9089,Everton,9091,Southampton,1819,2,0,0.0,3.0
 9084,Crystal Palace,9089,Everton,1819,2,1,0.5,1.0
@@ -93,8 +93,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9076,Fulham,9082,Man City,1819,4,0,0.0,3.25
 9076,Fulham,9078,West Ham,1819,2,0,0.0,3.0
 9078,West Ham,9097,Cardiff,1819,2,0,0.0,3.0
-9078,West Ham,9095,Watford,1819,2,0,0.0,3.5
 9083,Chelsea,9097,Cardiff,1819,2,0,0.0,4.0
+9078,West Ham,9095,Watford,1819,2,0,0.0,3.5
 9075,Brighton,9082,Man City,1819,4,0,0.0,3.75
 9091,Southampton,9097,Cardiff,1819,2,0,0.0,2.0
 9074,Newcastle,9092,Leicester,1819,2,0,0.0,1.5
@@ -153,9 +153,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9078,West Ham,9087,Arsenal,1819,2,0,0.0,2.5
 9075,Brighton,9083,Chelsea,1819,2,0,0.0,3.0
 9087,Arsenal,9095,Watford,1819,2,0,0.0,1.5
-9071,Liverpool,9081,Wolves,1819,2,0,0.0,2.0
 9076,Fulham,9091,Southampton,1819,2,0,0.0,3.5
 9075,Brighton,9089,Everton,1819,2,0,0.0,2.5
+9071,Liverpool,9081,Wolves,1819,2,0,0.0,2.0
 9078,West Ham,9089,Everton,1819,2,0,0.0,3.0
 9072,Bournemouth,9082,Man City,1819,4,0,0.0,3.25
 9071,Liverpool,9082,Man City,1819,4,2,0.5,1.75
@@ -167,7 +167,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9087,Arsenal,9097,Cardiff,1819,2,0,0.0,4.0
 9074,Newcastle,9082,Man City,1819,4,0,0.0,3.25
 9076,Fulham,9080,Burnley,1819,2,0,0.0,4.5
-9080,Burnley,9098,Huddersfield,1819,2,1,0.5,2.5
 9072,Bournemouth,9078,West Ham,1819,2,0,0.0,2.5
+9080,Burnley,9098,Huddersfield,1819,2,1,0.5,2.5
 9084,Crystal Palace,9098,Huddersfield,1819,2,0,0.0,1.5
 9080,Burnley,9087,Arsenal,1819,2,0,0.0,4.0

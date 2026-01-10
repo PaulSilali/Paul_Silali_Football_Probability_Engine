@@ -1,0 +1,339 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-09_Seasons_10_Leagues_43
+Download Date: 2026-01-09 13:18:08
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 1
+Successful Downloads (with data): 10
+Failed Downloads (errors): 0
+No Data Available (all 404s): 0
+Total Records Processed: 1,600
+Total Records Inserted: 0
+Total Records Updated: 838
+Total Records Skipped: 762
+Total Errors: 0
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ SC3 - Season: 2526 (Batch #N/A)
+  Records: 93 processed, 0 inserted, 64 updated, 29 skipped
+
+✓ SC3 - Season: 2425 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 82 updated, 98 skipped
+
+✓ SC3 - Season: 2324 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 95 updated, 85 skipped
+
+✓ SC3 - Season: 2223 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 99 updated, 81 skipped
+
+✓ SC3 - Season: 2122 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 89 updated, 91 skipped
+
+✓ SC3 - Season: 2021 (Batch #N/A)
+  Records: 110 processed, 0 inserted, 49 updated, 61 skipped
+
+✓ SC3 - Season: 1920 (Batch #N/A)
+  Records: 137 processed, 0 inserted, 76 updated, 61 skipped
+
+✓ SC3 - Season: 1819 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 83 updated, 97 skipped
+
+✓ SC3 - Season: 1718 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 93 updated, 87 skipped
+
+✓ SC3 - Season: 1617 (Batch #N/A)
+  Records: 180 processed, 0 inserted, 108 updated, 72 skipped
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: F:\[ 11 ] Football Probability Engine  [SP Soccer]\2_Backend_Football_Probability_Engine\data\1_data_ingestion\Historical Match_Odds_Data\2026-01-09_Seasons_10_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+CSV FILES SAVED
+--------------------------------------------------------------------------------
+  ✓ SC3_1617.csv
+  ✓ SC3_1718.csv
+  ✓ SC3_1819.csv
+  ✓ SC3_1920.csv
+  ✓ SC3_2021.csv
+  ✓ SC3_2122.csv
+  ✓ SC3_2223.csv
+  ✓ SC3_2324.csv
+  ✓ SC3_2425.csv
+  ✓ SC3_2526.csv
+
+Downloaded Files:
+  B1/ (10 files)
+    - B1_1617.csv
+    - B1_1718.csv
+    - B1_1819.csv
+    - B1_1920.csv
+    - B1_2021.csv
+    - B1_2122.csv
+    - B1_2223.csv
+    - B1_2324.csv
+    - B1_2425.csv
+    - B1_2526.csv
+  D1/ (10 files)
+    - D1_1617.csv
+    - D1_1718.csv
+    - D1_1819.csv
+    - D1_1920.csv
+    - D1_2021.csv
+    - D1_2122.csv
+    - D1_2223.csv
+    - D1_2324.csv
+    - D1_2425.csv
+    - D1_2526.csv
+  D2/ (10 files)
+    - D2_1617.csv
+    - D2_1718.csv
+    - D2_1819.csv
+    - D2_1920.csv
+    - D2_2021.csv
+    - D2_2122.csv
+    - D2_2223.csv
+    - D2_2324.csv
+    - D2_2425.csv
+    - D2_2526.csv
+  DK1/ (10 files)
+    - DK1_1617.csv
+    - DK1_1718.csv
+    - DK1_1819.csv
+    - DK1_1920.csv
+    - DK1_2021.csv
+    - DK1_2122.csv
+    - DK1_2223.csv
+    - DK1_2324.csv
+    - DK1_2425.csv
+    - DK1_2526.csv
+  E0/ (10 files)
+    - E0_1617.csv
+    - E0_1718.csv
+    - E0_1819.csv
+    - E0_1920.csv
+    - E0_2021.csv
+    - E0_2122.csv
+    - E0_2223.csv
+    - E0_2324.csv
+    - E0_2425.csv
+    - E0_2526.csv
+  E1/ (10 files)
+    - E1_1617.csv
+    - E1_1718.csv
+    - E1_1819.csv
+    - E1_1920.csv
+    - E1_2021.csv
+    - E1_2122.csv
+    - E1_2223.csv
+    - E1_2324.csv
+    - E1_2425.csv
+    - E1_2526.csv
+  E2/ (10 files)
+    - E2_1617.csv
+    - E2_1718.csv
+    - E2_1819.csv
+    - E2_1920.csv
+    - E2_2021.csv
+    - E2_2122.csv
+    - E2_2223.csv
+    - E2_2324.csv
+    - E2_2425.csv
+    - E2_2526.csv
+  E3/ (10 files)
+    - E3_1617.csv
+    - E3_1718.csv
+    - E3_1819.csv
+    - E3_1920.csv
+    - E3_2021.csv
+    - E3_2122.csv
+    - E3_2223.csv
+    - E3_2324.csv
+    - E3_2425.csv
+    - E3_2526.csv
+  F1/ (10 files)
+    - F1_1617.csv
+    - F1_1718.csv
+    - F1_1819.csv
+    - F1_1920.csv
+    - F1_2021.csv
+    - F1_2122.csv
+    - F1_2223.csv
+    - F1_2324.csv
+    - F1_2425.csv
+    - F1_2526.csv
+  F2/ (10 files)
+    - F2_1617.csv
+    - F2_1718.csv
+    - F2_1819.csv
+    - F2_1920.csv
+    - F2_2021.csv
+    - F2_2122.csv
+    - F2_2223.csv
+    - F2_2324.csv
+    - F2_2425.csv
+    - F2_2526.csv
+  G1/ (10 files)
+    - G1_1617.csv
+    - G1_1718.csv
+    - G1_1819.csv
+    - G1_1920.csv
+    - G1_2021.csv
+    - G1_2122.csv
+    - G1_2223.csv
+    - G1_2324.csv
+    - G1_2425.csv
+    - G1_2526.csv
+  I1/ (10 files)
+    - I1_1617.csv
+    - I1_1718.csv
+    - I1_1819.csv
+    - I1_1920.csv
+    - I1_2021.csv
+    - I1_2122.csv
+    - I1_2223.csv
+    - I1_2324.csv
+    - I1_2425.csv
+    - I1_2526.csv
+  I2/ (10 files)
+    - I2_1617.csv
+    - I2_1718.csv
+    - I2_1819.csv
+    - I2_1920.csv
+    - I2_2021.csv
+    - I2_2122.csv
+    - I2_2223.csv
+    - I2_2324.csv
+    - I2_2425.csv
+    - I2_2526.csv
+  N1/ (10 files)
+    - N1_1617.csv
+    - N1_1718.csv
+    - N1_1819.csv
+    - N1_1920.csv
+    - N1_2021.csv
+    - N1_2122.csv
+    - N1_2223.csv
+    - N1_2324.csv
+    - N1_2425.csv
+    - N1_2526.csv
+  NO1/ (10 files)
+    - NO1_1617.csv
+    - NO1_1718.csv
+    - NO1_1819.csv
+    - NO1_1920.csv
+    - NO1_2021.csv
+    - NO1_2122.csv
+    - NO1_2223.csv
+    - NO1_2324.csv
+    - NO1_2425.csv
+    - NO1_2526.csv
+  P1/ (10 files)
+    - P1_1617.csv
+    - P1_1718.csv
+    - P1_1819.csv
+    - P1_1920.csv
+    - P1_2021.csv
+    - P1_2122.csv
+    - P1_2223.csv
+    - P1_2324.csv
+    - P1_2425.csv
+    - P1_2526.csv
+  PL1/ (10 files)
+    - PL1_1617.csv
+    - PL1_1718.csv
+    - PL1_1819.csv
+    - PL1_1920.csv
+    - PL1_2021.csv
+    - PL1_2122.csv
+    - PL1_2223.csv
+    - PL1_2324.csv
+    - PL1_2425.csv
+    - PL1_2526.csv
+  SC0/ (10 files)
+    - SC0_1617.csv
+    - SC0_1718.csv
+    - SC0_1819.csv
+    - SC0_1920.csv
+    - SC0_2021.csv
+    - SC0_2122.csv
+    - SC0_2223.csv
+    - SC0_2324.csv
+    - SC0_2425.csv
+    - SC0_2526.csv
+  SC1/ (10 files)
+    - SC1_1617.csv
+    - SC1_1718.csv
+    - SC1_1819.csv
+    - SC1_1920.csv
+    - SC1_2021.csv
+    - SC1_2122.csv
+    - SC1_2223.csv
+    - SC1_2324.csv
+    - SC1_2425.csv
+    - SC1_2526.csv
+  SC2/ (10 files)
+    - SC2_1617.csv
+    - SC2_1718.csv
+    - SC2_1819.csv
+    - SC2_1920.csv
+    - SC2_2021.csv
+    - SC2_2122.csv
+    - SC2_2223.csv
+    - SC2_2324.csv
+    - SC2_2425.csv
+    - SC2_2526.csv
+  SC3/ (10 files)
+    - SC3_1617.csv
+    - SC3_1718.csv
+    - SC3_1819.csv
+    - SC3_1920.csv
+    - SC3_2021.csv
+    - SC3_2122.csv
+    - SC3_2223.csv
+    - SC3_2324.csv
+    - SC3_2425.csv
+    - SC3_2526.csv
+  SP1/ (10 files)
+    - SP1_1617.csv
+    - SP1_1718.csv
+    - SP1_1819.csv
+    - SP1_1920.csv
+    - SP1_2021.csv
+    - SP1_2122.csv
+    - SP1_2223.csv
+    - SP1_2324.csv
+    - SP1_2425.csv
+    - SP1_2526.csv
+  SP2/ (10 files)
+    - SP2_1617.csv
+    - SP2_1718.csv
+    - SP2_1819.csv
+    - SP2_1920.csv
+    - SP2_2021.csv
+    - SP2_2122.csv
+    - SP2_2223.csv
+    - SP2_2324.csv
+    - SP2_2425.csv
+    - SP2_2526.csv
+  T1/ (10 files)
+    - T1_1617.csv
+    - T1_1718.csv
+    - T1_1819.csv
+    - T1_1920.csv
+    - T1_2021.csv
+    - T1_2122.csv
+    - T1_2223.csv
+    - T1_2324.csv
+    - T1_2425.csv
+    - T1_2526.csv
+
+================================================================================
+END OF LOG
+================================================================================

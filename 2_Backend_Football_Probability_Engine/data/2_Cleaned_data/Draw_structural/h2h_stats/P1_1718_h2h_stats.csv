@@ -2,8 +2,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8806,Benfica,8809,Guimaraes,1718,2,0,0.0,3.0
 8813,Porto,8814,Belenenses,1718,2,0,0.0,2.0
 8801,Sp Lisbon,8805,Moreirense,1718,2,1,0.5,1.5
-8820,Farense,8821,Rio Ave,1718,2,0,0.0,2.0
 8801,Sp Lisbon,8804,Estoril,1718,2,0,0.0,2.5
+8820,Farense,8821,Rio Ave,1718,2,0,0.0,2.0
 8815,Pacos Ferreira,8818,Boavista,1718,2,0,0.0,2.0
 8801,Sp Lisbon,8815,Pacos Ferreira,1718,2,0,0.0,2.5
 8809,Guimaraes,8822,Aves,1718,4,0,0.0,4.75
@@ -12,8 +12,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8804,Estoril,8822,Aves,1718,4,0,0.0,2.5
 8805,Moreirense,8823,Setubal,1718,2,2,1.0,3.0
 8808,Sp Braga,8813,Porto,1718,2,0,0.0,2.5
-8805,Moreirense,8822,Aves,1718,4,0,0.0,2.5
 8807,Maritimo,8810,Portimonense,1718,2,0,0.0,3.0
+8805,Moreirense,8822,Aves,1718,4,0,0.0,2.5
 8807,Maritimo,8821,Rio Ave,1718,2,0,0.0,2.0
 8809,Guimaraes,8813,Porto,1718,2,0,0.0,3.5
 8804,Estoril,8823,Setubal,1718,2,1,0.5,3.5
@@ -31,9 +31,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8808,Sp Braga,8815,Pacos Ferreira,1718,2,0,0.0,4.5
 8808,Sp Braga,8818,Boavista,1718,2,1,0.5,3.0
 8811,Tondela,8814,Belenenses,1718,2,1,0.5,1.0
+8804,Estoril,8806,Benfica,1718,2,0,0.0,3.5
 8811,Tondela,8823,Setubal,1718,2,1,0.5,1.5
 8820,Farense,8823,Setubal,1718,2,0,0.0,1.5
-8804,Estoril,8806,Benfica,1718,2,0,0.0,3.5
 8806,Benfica,8822,Aves,1718,4,0,0.0,2.5
 8801,Sp Lisbon,8814,Belenenses,1718,2,0,0.0,4.0
 8804,Estoril,8805,Moreirense,1718,2,0,0.0,2.5
@@ -133,6 +133,6 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8806,Benfica,8823,Setubal,1718,2,0,0.0,4.5
 8805,Moreirense,8809,Guimaraes,1718,2,0,0.0,2.0
 8806,Benfica,8807,Maritimo,1718,2,1,0.5,3.5
-8807,Maritimo,8808,Sp Braga,1718,2,0,0.0,1.5
 8805,Moreirense,8815,Pacos Ferreira,1718,2,0,0.0,3.5
+8807,Maritimo,8808,Sp Braga,1718,2,0,0.0,1.5
 8810,Portimonense,8823,Setubal,1718,2,1,0.5,4.5

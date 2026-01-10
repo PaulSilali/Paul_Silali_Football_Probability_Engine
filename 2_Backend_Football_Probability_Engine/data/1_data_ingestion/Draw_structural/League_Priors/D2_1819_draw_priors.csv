@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2018-08-03,Hamburg,Holstein Kiel,0,3,A,0
+2018-08-04,Greuther Furth,Sandhausen,3,1,H,0
+2018-08-04,Regensburg,Ingolstadt,2,1,H,0
+2018-08-04,Bochum,FC Koln,0,2,A,0
+2018-08-05,Magdeburg,St Pauli,1,2,A,0
+2018-08-05,Union Berlin,Erzgebirge Aue,1,0,H,0
+2018-08-05,Darmstadt,Paderborn,1,0,H,0
+2018-08-05,Heidenheim,Bielefeld,1,1,D,1
+2018-08-06,Dresden,Duisburg,1,0,H,0
+2018-08-10,St Pauli,Darmstadt,2,0,H,0
+2018-08-10,Ingolstadt,Greuther Furth,1,1,D,1
+2018-08-10,Paderborn,Regensburg,2,0,H,0
+2018-08-11,Bielefeld,Dresden,2,1,H,0
+2018-08-11,Duisburg,Bochum,0,2,A,0
+2018-08-12,Erzgebirge Aue,Magdeburg,0,0,D,1
+2018-08-12,Holstein Kiel,Heidenheim,1,1,D,1
+2018-08-12,Sandhausen,Hamburg,0,3,A,0
+2018-08-13,FC Koln,Union Berlin,1,1,D,1
+2018-08-24,Bochum,Sandhausen,1,0,H,0
+2018-08-24,Darmstadt,Duisburg,3,0,H,0
+2018-08-25,Magdeburg,Ingolstadt,1,1,D,1
+2018-08-25,FC Koln,Erzgebirge Aue,3,1,H,0
+2018-08-25,Greuther Furth,Paderborn,2,2,D,1
+2018-08-26,Union Berlin,St Pauli,4,1,H,0
+2018-08-26,Regensburg,Holstein Kiel,0,0,D,1
+2018-08-26,Dresden,Heidenheim,1,3,A,0
+2018-08-27,Hamburg,Bielefeld,3,0,H,0
+2018-08-31,Ingolstadt,Erzgebirge Aue,3,2,H,0
+2018-08-31,Paderborn,Bochum,2,2,D,1
+2018-09-01,Bielefeld,Regensburg,5,3,H,0
+2018-09-01,Duisburg,Greuther Furth,0,1,A,0
+2018-09-02,St Pauli,FC Koln,3,5,A,0
+2018-09-02,Heidenheim,Darmstadt,0,1,A,0
+2018-09-02,Sandhausen,Union Berlin,0,0,D,1
+2018-09-03,Holstein Kiel,Magdeburg,2,1,H,0
+2018-09-14,Union Berlin,Duisburg,2,2,D,1
+2018-09-14,Regensburg,Dresden,0,2,A,0
+2018-09-15,Darmstadt,Sandhausen,1,1,D,1
+2018-09-15,Hamburg,Heidenheim,3,2,H,0
+2018-09-15,Greuther Furth,Holstein Kiel,4,1,H,0
+2018-09-16,FC Koln,Paderborn,3,5,A,0
+2018-09-16,Bochum,Ingolstadt,6,0,H,0
+2018-09-16,Erzgebirge Aue,St Pauli,3,1,H,0
+2018-09-17,Magdeburg,Bielefeld,0,0,D,1
+2018-09-18,Dresden,Hamburg,0,1,A,0
+2018-09-21,Sandhausen,FC Koln,0,2,A,0
+2018-09-21,Ingolstadt,St Pauli,0,1,A,0
+2018-09-22,Dresden,Darmstadt,4,1,H,0
+2018-09-22,Bielefeld,Union Berlin,1,1,D,1
+2018-09-22,Holstein Kiel,Bochum,2,2,D,1
+2018-09-23,Paderborn,Magdeburg,4,4,D,1
+2018-09-23,Duisburg,Erzgebirge Aue,1,2,A,0
+2018-09-23,Heidenheim,Greuther Furth,2,0,H,0
+2018-09-23,Hamburg,Regensburg,0,5,A,0
+2018-09-25,Darmstadt,Bielefeld,1,2,A,0
+2018-09-25,Bochum,Dresden,0,1,A,0
+2018-09-25,Union Berlin,Holstein Kiel,2,0,H,0
+2018-09-25,FC Koln,Ingolstadt,2,1,H,0
+2018-09-26,Erzgebirge Aue,Sandhausen,0,2,A,0
+2018-09-26,St Pauli,Paderborn,2,1,H,0
+2018-09-26,Regensburg,Heidenheim,2,1,H,0
+2018-09-26,Magdeburg,Duisburg,3,3,D,1
+2018-09-27,Greuther Furth,Hamburg,0,0,D,1
+2018-09-28,Holstein Kiel,Darmstadt,4,2,H,0
+2018-09-28,Bielefeld,FC Koln,1,3,A,0
+2018-09-29,Duisburg,Regensburg,1,3,A,0
+2018-09-29,Heidenheim,Bochum,3,2,H,0
+2018-09-29,Paderborn,Erzgebirge Aue,1,0,H,0
+2018-09-30,Sandhausen,Magdeburg,0,1,A,0
+2018-09-30,Hamburg,St Pauli,0,0,D,1
+2018-09-30,Dresden,Greuther Furth,0,1,A,0
+2018-10-01,Ingolstadt,Union Berlin,1,2,A,0
+2018-10-05,Bochum,Bielefeld,1,0,H,0
+2018-10-05,Darmstadt,Hamburg,1,2,A,0
+2018-10-06,Magdeburg,Dresden,2,2,D,1
+2018-10-06,Erzgebirge Aue,Holstein Kiel,2,1,H,0
+2018-10-06,Greuther Furth,Regensburg,1,1,D,1
+2018-10-07,Union Berlin,Heidenheim,1,1,D,1
+2018-10-07,St Pauli,Sandhausen,3,1,H,0
+2018-10-07,Ingolstadt,Paderborn,1,2,A,0
+2018-10-08,FC Koln,Duisburg,1,2,A,0
+2018-10-19,Sandhausen,Ingolstadt,4,0,H,0
+2018-10-19,Dresden,Erzgebirge Aue,1,1,D,1
+2018-10-20,Bielefeld,Greuther Furth,2,3,A,0
+2018-10-20,Heidenheim,Magdeburg,3,0,H,0
+2018-10-20,Holstein Kiel,FC Koln,1,1,D,1
+2018-10-21,Hamburg,Bochum,0,0,D,1
+2018-10-21,Regensburg,Darmstadt,1,1,D,1
+2018-10-21,Paderborn,Union Berlin,0,0,D,1
+2018-10-22,Duisburg,St Pauli,0,1,A,0
+2018-10-26,Darmstadt,Greuther Furth,2,0,H,0
+2018-10-26,Magdeburg,Hamburg,0,1,A,0
+2018-10-27,FC Koln,Heidenheim,1,1,D,1
+2018-10-27,Erzgebirge Aue,Bielefeld,1,0,H,0
+2018-10-27,Paderborn,Sandhausen,3,3,D,1
+2018-10-28,Union Berlin,Dresden,0,0,D,1
+2018-10-28,St Pauli,Holstein Kiel,0,1,A,0
+2018-10-28,Ingolstadt,Duisburg,1,1,D,1
+2018-10-29,Bochum,Regensburg,3,3,D,1
+2018-11-02,Dresden,Sandhausen,3,1,H,0
+2018-11-02,Greuther Furth,Bochum,2,2,D,1
+2018-11-03,Holstein Kiel,Ingolstadt,2,2,D,1
+2018-11-03,Darmstadt,Magdeburg,3,1,H,0
+2018-11-03,Duisburg,Paderborn,2,0,H,0
+2018-11-04,Regensburg,Union Berlin,1,1,D,1
+2018-11-04,Heidenheim,Erzgebirge Aue,1,0,H,0
+2018-11-04,Bielefeld,St Pauli,1,2,A,0
+2018-11-05,Hamburg,FC Koln,1,0,H,0
+2018-11-09,Sandhausen,Duisburg,0,0,D,1
+2018-11-09,Paderborn,Holstein Kiel,4,4,D,1
+2018-11-10,St Pauli,Heidenheim,1,1,D,1
+2018-11-10,FC Koln,Dresden,8,1,H,0
+2018-11-10,Erzgebirge Aue,Hamburg,1,3,A,0
+2018-11-11,Magdeburg,Regensburg,2,3,A,0
+2018-11-11,Union Berlin,Greuther Furth,4,0,H,0
+2018-11-11,Ingolstadt,Bielefeld,1,1,D,1
+2018-11-12,Bochum,Darmstadt,1,0,H,0
+2018-11-23,Greuther Furth,Magdeburg,3,2,H,0
+2018-11-23,Bielefeld,Duisburg,0,1,A,0
+2018-11-24,Bochum,Erzgebirge Aue,2,1,H,0
+2018-11-24,Holstein Kiel,Sandhausen,2,1,H,0
+2018-11-24,Darmstadt,FC Koln,0,3,A,0
+2018-11-25,Dresden,Ingolstadt,2,0,H,0
+2018-11-25,Heidenheim,Paderborn,1,5,A,0
+2018-11-25,Regensburg,St Pauli,1,1,D,1
+2018-11-26,Hamburg,Union Berlin,2,2,D,1
+2018-11-30,Paderborn,Bielefeld,2,2,D,1
+2018-11-30,Erzgebirge Aue,Regensburg,1,1,D,1
+2018-12-01,Ingolstadt,Hamburg,1,2,A,0
+2018-12-01,Union Berlin,Darmstadt,3,1,H,0
+2018-12-01,St Pauli,Dresden,1,1,D,1
+2018-12-01,FC Koln,Greuther Furth,4,0,H,0
+2018-12-02,Magdeburg,Bochum,0,0,D,1
+2018-12-02,Sandhausen,Heidenheim,1,2,A,0
+2018-12-02,Duisburg,Holstein Kiel,0,4,A,0
+2018-12-07,Hamburg,Paderborn,1,0,H,0
+2018-12-07,Regensburg,FC Koln,1,3,A,0
+2018-12-08,Darmstadt,Ingolstadt,1,1,D,1
+2018-12-08,Greuther Furth,Erzgebirge Aue,0,5,A,0
+2018-12-08,Heidenheim,Duisburg,4,1,H,0
+2018-12-09,Bielefeld,Sandhausen,1,1,D,1
+2018-12-09,Magdeburg,Union Berlin,1,1,D,1
+2018-12-09,Dresden,Holstein Kiel,0,2,A,0
+2018-12-10,Bochum,St Pauli,1,3,A,0
+2018-12-14,Duisburg,Hamburg,1,2,A,0
+2018-12-14,Holstein Kiel,Bielefeld,1,2,A,0
+2018-12-15,St Pauli,Greuther Furth,2,0,H,0
+2018-12-15,Paderborn,Dresden,3,0,H,0
+2018-12-15,Union Berlin,Bochum,2,0,H,0
+2018-12-16,Erzgebirge Aue,Darmstadt,2,2,D,1
+2018-12-16,Ingolstadt,Heidenheim,1,1,D,1
+2018-12-16,Sandhausen,Regensburg,2,2,D,1
+2018-12-17,FC Koln,Magdeburg,3,0,H,0
+2018-12-21,Sandhausen,Greuther Furth,0,0,D,1
+2018-12-21,FC Koln,Bochum,2,3,A,0
+2018-12-22,Ingolstadt,Regensburg,1,2,A,0
+2018-12-22,St Pauli,Magdeburg,4,1,H,0
+2018-12-22,Bielefeld,Heidenheim,1,2,A,0
+2018-12-23,Paderborn,Darmstadt,6,2,H,0
+2018-12-23,Holstein Kiel,Hamburg,3,1,H,0
+2018-12-23,Erzgebirge Aue,Union Berlin,3,0,H,0
+2018-12-23,Duisburg,Dresden,1,3,A,0
+2019-01-29,Greuther Furth,Ingolstadt,0,1,A,0
+2019-01-29,Darmstadt,St Pauli,2,1,H,0
+2019-01-29,Bochum,Duisburg,2,1,H,0
+2019-01-29,Magdeburg,Erzgebirge Aue,1,0,H,0
+2019-01-30,Heidenheim,Holstein Kiel,2,2,D,1
+2019-01-30,Hamburg,Sandhausen,2,1,H,0
+2019-01-30,Dresden,Bielefeld,3,4,A,0
+2019-01-30,Regensburg,Paderborn,2,0,H,0
+2019-01-31,Union Berlin,FC Koln,2,0,H,0
+2019-02-01,Ingolstadt,Magdeburg,0,1,A,0
+2019-02-01,Duisburg,Darmstadt,3,2,H,0
+2019-02-02,Paderborn,Greuther Furth,6,0,H,0
+2019-02-02,Heidenheim,Dresden,1,0,H,0
+2019-02-02,Bielefeld,Hamburg,2,0,H,0
+2019-02-03,Sandhausen,Bochum,3,0,H,0
+2019-02-03,Holstein Kiel,Regensburg,2,0,H,0
+2019-02-04,St Pauli,Union Berlin,3,2,H,0
+2019-02-08,FC Koln,St Pauli,4,1,H,0
+2019-02-08,Regensburg,Bielefeld,0,3,A,0
+2019-02-09,Greuther Furth,Duisburg,1,0,H,0
+2019-02-09,Union Berlin,Sandhausen,2,0,H,0
+2019-02-09,Bochum,Paderborn,1,2,A,0
+2019-02-10,Darmstadt,Heidenheim,1,2,A,0
+2019-02-10,Magdeburg,Holstein Kiel,1,1,D,1
+2019-02-10,Erzgebirge Aue,Ingolstadt,0,3,A,0
+2019-02-11,Hamburg,Dresden,1,0,H,0
+2019-02-15,Paderborn,FC Koln,3,2,H,0
+2019-02-15,Sandhausen,Darmstadt,1,1,D,1
+2019-02-16,Ingolstadt,Bochum,2,1,H,0
+2019-02-16,Duisburg,Union Berlin,2,3,A,0
+2019-02-16,Heidenheim,Hamburg,2,2,D,1
+2019-02-16,St Pauli,Erzgebirge Aue,1,2,A,0
+2019-02-17,Bielefeld,Magdeburg,1,3,A,0
+2019-02-17,Dresden,Regensburg,0,0,D,1
+2019-02-17,Holstein Kiel,Greuther Furth,2,2,D,1
+2019-02-22,Union Berlin,Bielefeld,1,1,D,1
+2019-02-22,Greuther Furth,Heidenheim,0,0,D,1
+2019-02-23,Darmstadt,Dresden,2,0,H,0
+2019-02-23,FC Koln,Sandhausen,3,1,H,0
+2019-02-23,St Pauli,Ingolstadt,1,0,H,0
+2019-02-23,Bochum,Holstein Kiel,1,3,A,0
+2019-02-24,Regensburg,Hamburg,2,1,H,0
+2019-02-24,Magdeburg,Paderborn,1,1,D,1
+2019-02-24,Erzgebirge Aue,Duisburg,0,0,D,1
+2019-02-27,Erzgebirge Aue,FC Koln,0,1,A,0
+2019-03-01,Duisburg,Magdeburg,1,0,H,0
+2019-03-01,Holstein Kiel,Union Berlin,0,2,A,0
+2019-03-02,Paderborn,St Pauli,0,1,A,0
+2019-03-02,Heidenheim,Regensburg,1,2,A,0
+2019-03-02,Sandhausen,Erzgebirge Aue,0,3,A,0
+2019-03-03,Dresden,Bochum,2,2,D,1
+2019-03-03,Ingolstadt,FC Koln,1,2,A,0
+2019-03-03,Bielefeld,Darmstadt,1,0,H,0
+2019-03-04,Hamburg,Greuther Furth,1,0,H,0
+2019-03-08,Union Berlin,Ingolstadt,2,0,H,0
+2019-03-08,Bochum,Heidenheim,1,0,H,0
+2019-03-09,FC Koln,Bielefeld,5,1,H,0
+2019-03-09,Erzgebirge Aue,Paderborn,2,1,H,0
+2019-03-09,Darmstadt,Holstein Kiel,3,2,H,0
+2019-03-09,Regensburg,Duisburg,1,1,D,1
+2019-03-10,Magdeburg,Sandhausen,0,1,A,0
+2019-03-10,St Pauli,Hamburg,0,4,A,0
+2019-03-15,Heidenheim,Union Berlin,2,1,H,0
+2019-03-15,Holstein Kiel,Erzgebirge Aue,5,1,H,0
+2019-03-16,Sandhausen,St Pauli,4,0,H,0
+2019-03-16,Hamburg,Darmstadt,2,3,A,0
+2019-03-16,Dresden,Magdeburg,1,1,D,1
+2019-03-17,Bielefeld,Bochum,3,1,H,0
+2019-03-17,Paderborn,Ingolstadt,3,1,H,0
+2019-03-18,Regensburg,Greuther Furth,0,2,A,0
+2019-03-29,Magdeburg,Heidenheim,0,0,D,1
+2019-03-29,St Pauli,Duisburg,0,0,D,1
+2019-03-30,Bochum,Hamburg,0,0,D,1
+2019-03-30,Union Berlin,Paderborn,1,3,A,0
+2019-03-30,Darmstadt,Regensburg,1,1,D,1
+2019-03-31,Greuther Furth,Bielefeld,2,2,D,1
+2019-03-31,FC Koln,Holstein Kiel,4,0,H,0
+2019-03-31,Ingolstadt,Sandhausen,1,2,A,0
+2019-04-01,Erzgebirge Aue,Dresden,1,3,A,0
+2019-04-04,Greuther Furth,Dresden,0,0,D,1
+2019-04-05,Regensburg,Bochum,2,1,H,0
+2019-04-05,Bielefeld,Erzgebirge Aue,2,1,H,0
+2019-04-06,Duisburg,Ingolstadt,2,4,A,0
+2019-04-06,Holstein Kiel,St Pauli,2,1,H,0
+2019-04-06,Sandhausen,Paderborn,1,1,D,1
+2019-04-07,Dresden,Union Berlin,0,0,D,1
+2019-04-07,Heidenheim,FC Koln,0,2,A,0
+2019-04-07,Greuther Furth,Darmstadt,2,1,H,0
+2019-04-08,Hamburg,Magdeburg,1,2,A,0
+2019-04-10,Duisburg,FC Koln,4,4,D,1
+2019-04-12,Union Berlin,Regensburg,2,2,D,1
+2019-04-12,Erzgebirge Aue,Heidenheim,0,1,A,0
+2019-04-13,Sandhausen,Dresden,3,1,H,0
+2019-04-13,Paderborn,Duisburg,4,0,H,0
+2019-04-13,Magdeburg,Darmstadt,0,1,A,0
+2019-04-14,Ingolstadt,Holstein Kiel,1,1,D,1
+2019-04-14,St Pauli,Bielefeld,1,1,D,1
+2019-04-14,Bochum,Greuther Furth,3,2,H,0
+2019-04-15,FC Koln,Hamburg,1,1,D,1
+2019-04-20,Hamburg,Erzgebirge Aue,1,1,D,1
+2019-04-20,Duisburg,Sandhausen,2,2,D,1
+2019-04-20,Greuther Furth,Union Berlin,1,1,D,1
+2019-04-20,Holstein Kiel,Paderborn,1,2,A,0
+2019-04-21,Bielefeld,Ingolstadt,1,3,A,0
+2019-04-21,Heidenheim,St Pauli,3,0,H,0
+2019-04-21,Dresden,FC Koln,3,0,H,0
+2019-04-21,Darmstadt,Bochum,0,0,D,1
+2019-04-21,Regensburg,Magdeburg,1,0,H,0
+2019-04-26,Ingolstadt,Dresden,1,0,H,0
+2019-04-26,FC Koln,Darmstadt,1,2,A,0
+2019-04-27,St Pauli,Regensburg,4,3,H,0
+2019-04-27,Magdeburg,Greuther Furth,2,1,H,0
+2019-04-27,Sandhausen,Holstein Kiel,3,2,H,0
+2019-04-28,Paderborn,Heidenheim,3,1,H,0
+2019-04-28,Erzgebirge Aue,Bochum,3,2,H,0
+2019-04-28,Union Berlin,Hamburg,2,0,H,0
+2019-04-29,Duisburg,Bielefeld,2,2,D,1
+2019-05-03,Dresden,St Pauli,2,1,H,0
+2019-05-03,Bielefeld,Paderborn,2,0,H,0
+2019-05-04,Heidenheim,Sandhausen,2,3,A,0
+2019-05-04,Hamburg,Ingolstadt,0,3,A,0
+2019-05-04,Bochum,Magdeburg,4,2,H,0
+2019-05-05,Regensburg,Erzgebirge Aue,1,3,A,0
+2019-05-05,Holstein Kiel,Duisburg,0,2,A,0
+2019-05-05,Darmstadt,Union Berlin,2,1,H,0
+2019-05-06,Greuther Furth,FC Koln,0,4,A,0
+2019-05-12,FC Koln,Regensburg,3,5,A,0
+2019-05-12,Paderborn,Hamburg,4,1,H,0
+2019-05-12,Union Berlin,Magdeburg,3,0,H,0
+2019-05-12,St Pauli,Bochum,0,0,D,1
+2019-05-12,Ingolstadt,Darmstadt,3,0,H,0
+2019-05-12,Holstein Kiel,Dresden,3,0,H,0
+2019-05-12,Sandhausen,Bielefeld,0,3,A,0
+2019-05-12,Erzgebirge Aue,Greuther Furth,1,1,D,1
+2019-05-12,Duisburg,Heidenheim,3,4,A,0
+2019-05-19,Hamburg,Duisburg,3,0,H,0
+2019-05-19,Magdeburg,FC Koln,1,1,D,1
+2019-05-19,Heidenheim,Ingolstadt,4,2,H,0
+2019-05-19,Darmstadt,Erzgebirge Aue,1,0,H,0
+2019-05-19,Bielefeld,Holstein Kiel,1,0,H,0
+2019-05-19,Bochum,Union Berlin,2,2,D,1
+2019-05-19,Dresden,Paderborn,3,1,H,0
+2019-05-19,Greuther Furth,St Pauli,2,1,H,0
+2019-05-19,Regensburg,Sandhausen,2,2,D,1

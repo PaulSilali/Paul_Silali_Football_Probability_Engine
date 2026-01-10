@@ -41,6 +41,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9418,Excelsior,9431,Utrecht,2526,1,0,0.0,5.0
 9418,Excelsior,9420,NAC Breda,2526,1,0,0.0,1.0
 9421,Heerenveen,9426,Twente,2526,1,0,0.0,3.0
+9429,AZ Alkmaar,9430,Groningen,2526,1,0,0.0,5.0
+9419,Feyenoord,9420,NAC Breda,2526,1,0,0.0,2.0
 9419,Feyenoord,9421,Heerenveen,2526,1,0,0.0,1.0
 9423,PSV Eindhoven,9428,Telstar,2526,1,0,0.0,2.0
 9416,Go Ahead Eagles,9427,Ajax,2526,1,1,1.0,4.0
@@ -60,6 +62,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9416,Go Ahead Eagles,9428,Telstar,2526,1,0,0.0,6.0
 9428,Telstar,9429,AZ Alkmaar,2526,1,0,0.0,3.0
 9418,Excelsior,9430,Groningen,2526,1,0,0.0,2.0
+9415,For Sittard,9416,Go Ahead Eagles,2526,1,1,1.0,4.0
 9424,Sparta Rotterdam,9431,Utrecht,2526,1,0,0.0,3.0
 9415,For Sittard,9423,PSV Eindhoven,2526,1,0,0.0,7.0
 9418,Excelsior,9419,Feyenoord,2526,1,0,0.0,3.0
@@ -94,13 +97,18 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9417,Nijmegen,9432,Heracles,2526,1,0,0.0,5.0
 9425,Zwolle,9431,Utrecht,2526,1,0,0.0,2.0
 9424,Sparta Rotterdam,9432,Heracles,2526,1,0,0.0,3.0
+9425,Zwolle,9426,Twente,2526,1,0,0.0,1.0
 9421,Heerenveen,9423,PSV Eindhoven,2526,1,0,0.0,2.0
 9426,Twente,9430,Groningen,2526,1,1,1.0,2.0
 9416,Go Ahead Eagles,9423,PSV Eindhoven,2526,1,0,0.0,3.0
+9423,PSV Eindhoven,9424,Sparta Rotterdam,2526,1,0,0.0,7.0
+9427,Ajax,9428,Telstar,2526,1,0,0.0,2.0
 9417,Nijmegen,9420,NAC Breda,2526,1,0,0.0,3.0
 9420,NAC Breda,9423,PSV Eindhoven,2526,1,0,0.0,1.0
 9419,Feyenoord,9430,Groningen,2526,1,0,0.0,1.0
+9421,Heerenveen,9422,Volendam,2526,1,1,1.0,2.0
 9426,Twente,9428,Telstar,2526,1,1,1.0,
+9431,Utrecht,9432,Heracles,2526,1,0,0.0,4.0
 9420,NAC Breda,9425,Zwolle,2526,1,1,1.0,4.0
 9416,Go Ahead Eagles,9426,Twente,2526,1,0,0.0,2.0
 9416,Go Ahead Eagles,9419,Feyenoord,2526,1,0,0.0,3.0
@@ -109,6 +117,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9420,NAC Breda,9421,Heerenveen,2526,1,1,1.0,6.0
 9419,Feyenoord,9428,Telstar,2526,1,0,0.0,3.0
 9418,Excelsior,9425,Zwolle,2526,1,0,0.0,3.0
+9417,Nijmegen,9418,Excelsior,2526,1,0,0.0,5.0
 9415,For Sittard,9420,NAC Breda,2526,1,0,0.0,3.0
 9415,For Sittard,9417,Nijmegen,2526,1,0,0.0,5.0
 9417,Nijmegen,9423,PSV Eindhoven,2526,1,0,0.0,8.0

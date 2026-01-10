@@ -56,7 +56,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9433,Willem II,9435,Waalwijk,2425,2,0,0.0,2.5
 9423,PSV Eindhoven,9431,Utrecht,2425,2,1,0.5,5.5
 9424,Sparta Rotterdam,9430,Groningen,2425,2,0,0.0,1.0
-9419,Feyenoord,9433,Willem II,2425,1,1,1.0,2.0
+9419,Feyenoord,9433,Willem II,2425,2,2,1.0,2.0
 9419,Feyenoord,9435,Waalwijk,2425,2,0,0.0,3.5
 9429,AZ Alkmaar,9433,Willem II,2425,2,0,0.0,2.5
 9415,For Sittard,9429,AZ Alkmaar,2425,2,0,0.0,1.0
@@ -77,7 +77,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9425,Zwolle,9433,Willem II,2425,2,0,0.0,2.0
 9426,Twente,9434,Almere City,2425,2,0,0.0,3.0
 9416,Go Ahead Eagles,9433,Willem II,2425,2,0,0.0,1.5
-9423,PSV Eindhoven,9435,Waalwijk,2425,1,0,0.0,3.0
+9423,PSV Eindhoven,9435,Waalwijk,2425,2,0,0.0,4.5
 9425,Zwolle,9429,AZ Alkmaar,2425,2,0,0.0,2.5
 9416,Go Ahead Eagles,9421,Heerenveen,2425,2,0,0.0,1.0
 9433,Willem II,9434,Almere City,2425,2,0,0.0,1.5

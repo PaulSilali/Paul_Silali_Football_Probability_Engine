@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Ingolstadt,Heidenheim,1,2,A,0
+2016-01-10,Leverkusen,Dortmund,2,0,H,0
+2016-01-10,Hertha,Hamburg,2,0,H,0
+2016-01-10,Freiburg,Ein Frankfurt,1,0,H,0
+2016-01-10,Bayern Munich,FC Koln,1,1,D,1
+2016-01-10,Darmstadt,Werder Bremen,2,2,D,1
+2016-02-10,Wolfsburg,Mainz,0,0,D,1
+2016-02-10,Schalke 04,M'gladbach,4,0,H,0
+2016-02-12,Mainz,Bayern Munich,1,3,A,0
+2016-03-12,Dortmund,M'gladbach,4,1,H,0
+2016-03-12,RB Leipzig,Schalke 04,2,1,H,0
+2016-03-12,Werder Bremen,Ingolstadt,2,1,H,0
+2016-03-12,Wolfsburg,Hertha,2,3,A,0
+2016-03-12,Heidenheim,FC Koln,4,0,H,0
+2016-03-12,Leverkusen,Freiburg,1,1,D,1
+2016-04-11,Hertha,M'gladbach,3,0,H,0
+2016-04-12,Darmstadt,Hamburg,0,2,A,0
+2016-04-12,Augsburg,Ein Frankfurt,1,1,D,1
+2016-05-11,Ein Frankfurt,FC Koln,1,0,H,0
+2016-05-11,Hamburg,Dortmund,2,5,A,0
+2016-05-11,Ingolstadt,Augsburg,0,2,A,0
+2016-05-11,Freiburg,Wolfsburg,0,3,A,0
+2016-05-11,Leverkusen,Darmstadt,3,2,H,0
+2016-05-11,Bayern Munich,Heidenheim,1,1,D,1
+2016-06-11,RB Leipzig,Mainz,3,1,H,0
+2016-06-11,Schalke 04,Werder Bremen,3,1,H,0
+2016-08-26,Bayern Munich,Werder Bremen,6,0,H,0
+2016-08-27,Ein Frankfurt,Schalke 04,1,0,H,0
+2016-08-27,FC Koln,Darmstadt,2,0,H,0
+2016-08-27,M'gladbach,Leverkusen,2,1,H,0
+2016-08-27,Hamburg,Ingolstadt,1,1,D,1
+2016-08-27,Augsburg,Wolfsburg,0,2,A,0
+2016-08-27,Dortmund,Mainz,2,1,H,0
+2016-08-28,Heidenheim,RB Leipzig,2,2,D,1
+2016-08-28,Hertha,Freiburg,2,1,H,0
+2016-09-09,Schalke 04,Bayern Munich,0,2,A,0
+2016-09-12,Ein Frankfurt,Heidenheim,0,0,D,1
+2016-09-16,FC Koln,Freiburg,3,0,H,0
+2016-09-17,Heidenheim,Wolfsburg,0,0,D,1
+2016-09-17,Hamburg,RB Leipzig,0,4,A,0
+2016-09-17,Dortmund,Darmstadt,6,0,H,0
+2016-09-17,M'gladbach,Werder Bremen,4,1,H,0
+2016-09-17,Ein Frankfurt,Leverkusen,2,1,H,0
+2016-09-17,Bayern Munich,Ingolstadt,3,1,H,0
+2016-09-18,Hertha,Schalke 04,2,0,H,0
+2016-09-18,Augsburg,Mainz,1,3,A,0
+2016-09-20,Wolfsburg,Dortmund,1,5,A,0
+2016-09-20,Ingolstadt,Ein Frankfurt,0,2,A,0
+2016-09-20,Freiburg,Hamburg,1,0,H,0
+2016-09-20,Darmstadt,Heidenheim,1,1,D,1
+2016-09-21,Leverkusen,Augsburg,0,0,D,1
+2016-09-21,Schalke 04,FC Koln,1,3,A,0
+2016-09-21,RB Leipzig,M'gladbach,1,1,D,1
+2016-09-21,Werder Bremen,Mainz,1,2,A,0
+2016-09-21,Bayern Munich,Hertha,3,0,H,0
+2016-09-23,Dortmund,Freiburg,3,1,H,0
+2016-09-24,Augsburg,Darmstadt,1,0,H,0
+2016-09-24,Ein Frankfurt,Hertha,3,3,D,1
+2016-09-24,Mainz,Leverkusen,2,3,A,0
+2016-09-24,M'gladbach,Ingolstadt,2,0,H,0
+2016-09-24,Hamburg,Bayern Munich,0,1,A,0
+2016-09-24,Werder Bremen,Wolfsburg,2,1,H,0
+2016-09-25,Heidenheim,Schalke 04,2,1,H,0
+2016-09-25,FC Koln,RB Leipzig,1,1,D,1
+2016-09-30,RB Leipzig,Augsburg,2,1,H,0
+2016-10-09,Freiburg,M'gladbach,3,1,H,0
+2016-10-09,Ingolstadt,Hertha,0,2,A,0
+2016-10-09,Darmstadt,Ein Frankfurt,1,0,H,0
+2016-10-09,Leverkusen,Hamburg,3,1,H,0
+2016-10-09,RB Leipzig,Dortmund,1,0,H,0
+2016-10-09,Wolfsburg,FC Koln,0,0,D,1
+2016-10-12,Bayern Munich,Wolfsburg,5,0,H,0
+2016-10-12,FC Koln,Dortmund,1,1,D,1
+2016-10-12,Hertha,Werder Bremen,0,1,A,0
+2016-10-12,Ingolstadt,RB Leipzig,1,0,H,0
+2016-10-12,Freiburg,Darmstadt,1,0,H,0
+2016-10-12,Hamburg,Augsburg,1,0,H,0
+2016-10-14,Dortmund,Hertha,1,1,D,1
+2016-10-15,M'gladbach,Hamburg,0,0,D,1
+2016-10-15,FC Koln,Ingolstadt,2,1,H,0
+2016-10-15,Heidenheim,Freiburg,2,1,H,0
+2016-10-15,Werder Bremen,Leverkusen,2,1,H,0
+2016-10-15,Augsburg,Schalke 04,1,1,D,1
+2016-10-15,Ein Frankfurt,Bayern Munich,2,2,D,1
+2016-10-16,Wolfsburg,RB Leipzig,0,1,A,0
+2016-10-16,Mainz,Darmstadt,2,1,H,0
+2016-10-21,Hamburg,Ein Frankfurt,0,3,A,0
+2016-10-22,Darmstadt,Wolfsburg,3,1,H,0
+2016-10-22,Ingolstadt,Dortmund,3,3,D,1
+2016-10-22,Hertha,FC Koln,2,1,H,0
+2016-10-22,Freiburg,Augsburg,2,1,H,0
+2016-10-22,Leverkusen,Heidenheim,0,3,A,0
+2016-10-22,Bayern Munich,M'gladbach,2,0,H,0
+2016-10-23,RB Leipzig,Werder Bremen,3,1,H,0
+2016-10-23,Schalke 04,Mainz,3,0,H,0
+2016-10-28,M'gladbach,Ein Frankfurt,0,0,D,1
+2016-10-29,Dortmund,Schalke 04,0,0,D,1
+2016-10-29,Darmstadt,RB Leipzig,0,2,A,0
+2016-10-29,Werder Bremen,Freiburg,1,3,A,0
+2016-10-29,Wolfsburg,Leverkusen,1,2,A,0
+2016-10-29,Mainz,Ingolstadt,2,0,H,0
+2016-10-29,Augsburg,Bayern Munich,1,3,A,0
+2016-10-30,FC Koln,Hamburg,3,0,H,0
+2016-10-30,Heidenheim,Hertha,1,0,H,0
+2016-11-09,Mainz,Heidenheim,4,4,D,1
+2016-11-09,Werder Bremen,Augsburg,1,2,A,0
+2016-11-12,Schalke 04,Leverkusen,0,1,A,0
+2016-11-12,M'gladbach,Mainz,1,0,H,0
+2016-11-18,Leverkusen,RB Leipzig,2,3,A,0
+2016-11-19,Augsburg,Hertha,0,0,D,1
+2016-11-19,Wolfsburg,Schalke 04,0,1,A,0
+2016-11-19,Mainz,Freiburg,4,2,H,0
+2016-11-19,M'gladbach,FC Koln,1,2,A,0
+2016-11-19,Dortmund,Bayern Munich,1,0,H,0
+2016-11-19,Darmstadt,Ingolstadt,0,1,A,0
+2016-11-20,Werder Bremen,Ein Frankfurt,1,2,A,0
+2016-11-20,Heidenheim,Hamburg,2,2,D,1
+2016-11-25,Freiburg,RB Leipzig,1,4,A,0
+2016-11-26,Ingolstadt,Wolfsburg,1,1,D,1
+2016-11-26,Bayern Munich,Leverkusen,2,1,H,0
+2016-11-26,Ein Frankfurt,Dortmund,2,1,H,0
+2016-11-26,FC Koln,Augsburg,0,0,D,1
+2016-11-26,Hamburg,Werder Bremen,2,2,D,1
+2016-11-26,M'gladbach,Heidenheim,1,1,D,1
+2016-11-27,Hertha,Mainz,2,1,H,0
+2016-11-27,Schalke 04,Darmstadt,3,1,H,0
+2016-12-16,Heidenheim,Dortmund,2,2,D,1
+2016-12-17,Mainz,Hamburg,3,1,H,0
+2016-12-17,Wolfsburg,Ein Frankfurt,1,0,H,0
+2016-12-17,RB Leipzig,Hertha,2,0,H,0
+2016-12-17,Augsburg,M'gladbach,1,0,H,0
+2016-12-17,Schalke 04,Freiburg,1,1,D,1
+2016-12-17,Werder Bremen,FC Koln,1,1,D,1
+2016-12-18,Darmstadt,Bayern Munich,0,1,A,0
+2016-12-18,Leverkusen,Ingolstadt,1,2,A,0
+2016-12-20,Hamburg,Schalke 04,2,1,H,0
+2016-12-20,Ein Frankfurt,Mainz,3,0,H,0
+2016-12-20,M'gladbach,Wolfsburg,1,2,A,0
+2016-12-20,Dortmund,Augsburg,1,1,D,1
+2016-12-21,Ingolstadt,Freiburg,1,2,A,0
+2016-12-21,Bayern Munich,RB Leipzig,3,0,H,0
+2016-12-21,Heidenheim,Werder Bremen,1,1,D,1
+2016-12-21,FC Koln,Leverkusen,1,1,D,1
+2016-12-21,Hertha,Darmstadt,2,0,H,0
+2017-01-04,Schalke 04,Dortmund,1,1,D,1
+2017-01-04,Bayern Munich,Augsburg,6,0,H,0
+2017-01-04,Ein Frankfurt,M'gladbach,0,0,D,1
+2017-01-04,RB Leipzig,Darmstadt,4,0,H,0
+2017-01-04,Hamburg,FC Koln,2,1,H,0
+2017-01-04,Freiburg,Werder Bremen,2,5,A,0
+2017-01-20,Freiburg,Bayern Munich,1,2,A,0
+2017-01-21,Augsburg,Heidenheim,0,2,A,0
+2017-01-21,Darmstadt,M'gladbach,0,0,D,1
+2017-01-21,RB Leipzig,Ein Frankfurt,3,0,H,0
+2017-01-21,Schalke 04,Ingolstadt,1,0,H,0
+2017-01-21,Wolfsburg,Hamburg,1,0,H,0
+2017-01-21,Werder Bremen,Dortmund,1,2,A,0
+2017-01-22,Leverkusen,Hertha,3,1,H,0
+2017-01-22,Mainz,FC Koln,0,0,D,1
+2017-01-27,Schalke 04,Ein Frankfurt,0,1,A,0
+2017-01-28,Ingolstadt,Hamburg,3,1,H,0
+2017-01-28,Darmstadt,FC Koln,1,6,A,0
+2017-01-28,Werder Bremen,Bayern Munich,1,2,A,0
+2017-01-28,RB Leipzig,Heidenheim,2,1,H,0
+2017-01-28,Leverkusen,M'gladbach,2,3,A,0
+2017-01-28,Wolfsburg,Augsburg,1,2,A,0
+2017-01-29,Mainz,Dortmund,1,1,D,1
+2017-01-29,Freiburg,Hertha,2,1,H,0
+2017-02-04,Leverkusen,Wolfsburg,3,3,D,1
+2017-02-04,Ingolstadt,Mainz,2,1,H,0
+2017-02-17,Augsburg,Leverkusen,1,3,A,0
+2017-02-18,Heidenheim,Darmstadt,2,0,H,0
+2017-02-18,Mainz,Werder Bremen,0,2,A,0
+2017-02-18,Ein Frankfurt,Ingolstadt,0,2,A,0
+2017-02-18,Dortmund,Wolfsburg,3,0,H,0
+2017-02-18,Hertha,Bayern Munich,1,1,D,1
+2017-02-18,Hamburg,Freiburg,2,2,D,1
+2017-02-19,FC Koln,Schalke 04,1,1,D,1
+2017-02-19,M'gladbach,RB Leipzig,1,2,A,0
+2017-02-24,Wolfsburg,Werder Bremen,1,2,A,0
+2017-02-25,Freiburg,Dortmund,0,3,A,0
+2017-02-25,RB Leipzig,FC Koln,3,1,H,0
+2017-02-25,Darmstadt,Augsburg,1,2,A,0
+2017-02-25,Leverkusen,Mainz,0,2,A,0
+2017-02-25,Hertha,Ein Frankfurt,2,0,H,0
+2017-02-25,Bayern Munich,Hamburg,8,0,H,0
+2017-02-26,Schalke 04,Heidenheim,1,1,D,1
+2017-02-26,Ingolstadt,M'gladbach,0,2,A,0
+2017-03-02,Hamburg,Leverkusen,1,0,H,0
+2017-03-03,Augsburg,RB Leipzig,2,2,D,1
+2017-03-17,Dortmund,Ingolstadt,1,0,H,0
+2017-03-18,FC Koln,Hertha,4,2,H,0
+2017-03-18,Augsburg,Freiburg,1,1,D,1
+2017-03-18,Ein Frankfurt,Hamburg,0,0,D,1
+2017-03-18,Heidenheim,Leverkusen,1,0,H,0
+2017-03-18,Werder Bremen,RB Leipzig,3,0,H,0
+2017-03-18,Wolfsburg,Darmstadt,1,0,H,0
+2017-03-19,M'gladbach,Bayern Munich,0,1,A,0
+2017-03-19,Mainz,Schalke 04,0,1,A,0
+2017-03-31,Hertha,Heidenheim,1,3,A,0
+2017-04-02,Hertha,Ingolstadt,1,0,H,0
+2017-04-02,FC Koln,Wolfsburg,1,0,H,0
+2017-04-02,M'gladbach,Freiburg,3,0,H,0
+2017-04-02,Dortmund,RB Leipzig,1,0,H,0
+2017-04-02,Bayern Munich,Schalke 04,1,1,D,1
+2017-04-02,Heidenheim,Mainz,4,0,H,0
+2017-04-03,M'gladbach,Schalke 04,4,2,H,0
+2017-04-03,FC Koln,Bayern Munich,0,3,A,0
+2017-04-03,Heidenheim,Ingolstadt,5,2,H,0
+2017-04-03,Mainz,Wolfsburg,1,1,D,1
+2017-04-03,Werder Bremen,Darmstadt,2,0,H,0
+2017-04-03,Dortmund,Leverkusen,6,2,H,0
+2017-04-04,Heidenheim,Bayern Munich,1,0,H,0
+2017-04-04,Dortmund,Hamburg,3,0,H,0
+2017-04-04,FC Koln,Ein Frankfurt,1,0,H,0
+2017-04-04,Werder Bremen,Schalke 04,3,0,H,0
+2017-04-15,Augsburg,FC Koln,2,1,H,0
+2017-04-15,Leverkusen,Bayern Munich,0,0,D,1
+2017-04-15,Wolfsburg,Ingolstadt,3,0,H,0
+2017-04-15,RB Leipzig,Freiburg,4,0,H,0
+2017-04-15,Mainz,Hertha,1,0,H,0
+2017-04-15,Heidenheim,M'gladbach,5,3,H,0
+2017-04-15,Dortmund,Ein Frankfurt,3,1,H,0
+2017-04-16,Werder Bremen,Hamburg,2,1,H,0
+2017-04-16,Darmstadt,Schalke 04,2,1,H,0
+2017-04-21,FC Koln,Heidenheim,1,1,D,1
+2017-04-22,Hertha,Wolfsburg,1,0,H,0
+2017-04-22,Ingolstadt,Werder Bremen,2,4,A,0
+2017-04-22,Ein Frankfurt,Augsburg,3,1,H,0
+2017-04-22,Bayern Munich,Mainz,2,2,D,1
+2017-04-22,M'gladbach,Dortmund,2,3,A,0
+2017-04-22,Hamburg,Darmstadt,1,2,A,0
+2017-04-23,Freiburg,Leverkusen,2,1,H,0
+2017-04-23,Schalke 04,RB Leipzig,1,1,D,1
+2017-04-28,Leverkusen,Schalke 04,1,4,A,0
+2017-04-29,Wolfsburg,Bayern Munich,0,6,A,0
+2017-04-29,Darmstadt,Freiburg,3,0,H,0
+2017-04-29,Dortmund,FC Koln,0,0,D,1
+2017-04-29,RB Leipzig,Ingolstadt,0,0,D,1
+2017-04-29,Werder Bremen,Hertha,2,0,H,0
+2017-04-29,Mainz,M'gladbach,1,2,A,0
+2017-04-30,Augsburg,Hamburg,4,0,H,0
+2017-04-30,Heidenheim,Ein Frankfurt,1,0,H,0
+2017-05-02,Ein Frankfurt,Darmstadt,2,0,H,0
+2017-05-02,Augsburg,Werder Bremen,3,2,H,0
+2017-05-03,Hamburg,Hertha,1,0,H,0
+2017-05-03,Ein Frankfurt,Freiburg,1,2,A,0
+2017-05-04,Wolfsburg,Freiburg,0,1,A,0
+2017-05-04,M'gladbach,Hertha,1,0,H,0
+2017-05-04,Darmstadt,Leverkusen,0,2,A,0
+2017-05-04,Mainz,RB Leipzig,2,3,A,0
+2017-05-04,Augsburg,Ingolstadt,2,3,A,0
+2017-05-05,FC Koln,Werder Bremen,4,3,H,0
+2017-05-13,Leverkusen,FC Koln,2,2,D,1
+2017-05-13,Freiburg,Ingolstadt,1,1,D,1
+2017-05-13,RB Leipzig,Bayern Munich,4,5,A,0
+2017-05-13,Darmstadt,Hertha,0,2,A,0
+2017-05-13,Augsburg,Dortmund,1,1,D,1
+2017-05-13,Schalke 04,Hamburg,1,1,D,1
+2017-05-13,Werder Bremen,Heidenheim,3,5,A,0
+2017-05-13,Mainz,Ein Frankfurt,4,2,H,0
+2017-05-13,Wolfsburg,M'gladbach,1,1,D,1
+2017-05-20,Ingolstadt,Schalke 04,1,1,D,1
+2017-05-20,Heidenheim,Augsburg,0,0,D,1
+2017-05-20,Hertha,Leverkusen,2,6,A,0
+2017-05-20,Hamburg,Wolfsburg,2,1,H,0
+2017-05-20,FC Koln,Mainz,2,0,H,0
+2017-05-20,Ein Frankfurt,RB Leipzig,2,2,D,1
+2017-05-20,Bayern Munich,Freiburg,4,1,H,0
+2017-05-20,Dortmund,Werder Bremen,4,3,H,0
+2017-05-20,M'gladbach,Darmstadt,2,2,D,1
+2017-06-05,M'gladbach,Augsburg,1,1,D,1
+2017-06-05,Dortmund,Heidenheim,2,1,H,0
+2017-06-05,Ein Frankfurt,Wolfsburg,0,2,A,0
+2017-06-05,Bayern Munich,Darmstadt,1,0,H,0
+2017-06-05,Ingolstadt,Leverkusen,1,1,D,1
+2017-06-05,Hertha,RB Leipzig,1,4,A,0
+2017-07-04,Ein Frankfurt,Werder Bremen,2,2,D,1
+2017-07-05,Hamburg,Mainz,0,0,D,1
+2017-07-05,Freiburg,Schalke 04,2,0,H,0
+2017-08-04,FC Koln,M'gladbach,2,3,A,0
+2017-08-04,Hamburg,Heidenheim,2,1,H,0
+2017-08-04,Schalke 04,Wolfsburg,4,1,H,0
+2017-08-04,Freiburg,Mainz,1,0,H,0
+2017-08-04,RB Leipzig,Leverkusen,1,0,H,0
+2017-08-04,Bayern Munich,Dortmund,4,1,H,0
+2017-09-04,Hertha,Augsburg,2,0,H,0
+2017-09-04,Ingolstadt,Darmstadt,3,2,H,0
+2017-10-02,Mainz,Augsburg,2,0,H,0
+2017-10-03,Leverkusen,Werder Bremen,1,1,D,1
+2017-11-02,Werder Bremen,M'gladbach,0,1,A,0
+2017-11-02,Ingolstadt,Bayern Munich,0,2,A,0
+2017-11-02,Darmstadt,Dortmund,2,1,H,0
+2017-11-02,RB Leipzig,Hamburg,0,3,A,0
+2017-11-02,Schalke 04,Hertha,2,0,H,0
+2017-11-02,Leverkusen,Ein Frankfurt,3,0,H,0
+2017-11-03,Bayern Munich,Ein Frankfurt,3,0,H,0
+2017-11-03,Darmstadt,Mainz,2,1,H,0
+2017-11-03,Freiburg,Heidenheim,1,1,D,1
+2017-11-03,Hertha,Dortmund,2,1,H,0
+2017-11-03,RB Leipzig,Wolfsburg,0,1,A,0
+2017-11-03,Ingolstadt,FC Koln,2,2,D,1
+2017-12-02,Wolfsburg,Heidenheim,2,1,H,0
+2017-12-02,Freiburg,FC Koln,2,1,H,0
+2017-12-03,Hamburg,M'gladbach,2,1,H,0
+2017-12-03,Schalke 04,Augsburg,3,0,H,0

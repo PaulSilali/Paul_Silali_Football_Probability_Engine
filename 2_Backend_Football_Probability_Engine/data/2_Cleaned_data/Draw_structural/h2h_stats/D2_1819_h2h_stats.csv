@@ -11,8 +11,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9304,Bielefeld,9306,Greuther Furth,1819,2,1,0.5,4.5
 9320,Sandhausen,9328,Duisburg,1819,2,2,1.0,2.0
 9316,St Pauli,9328,Duisburg,1819,2,1,0.5,0.5
-9307,Dresden,9321,Heidenheim,1819,2,0,0.0,2.5
 9297,Bochum,9321,Heidenheim,1819,2,0,0.0,3.0
+9307,Dresden,9321,Heidenheim,1819,2,0,0.0,2.5
 9302,Paderborn,9322,Ingolstadt,1819,2,0,0.0,3.5
 9303,Holstein Kiel,9306,Greuther Furth,1819,2,1,0.5,4.5
 9306,Greuther Furth,9310,Magdeburg,1819,2,0,0.0,4.0
@@ -20,9 +20,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9304,Bielefeld,9324,Erzgebirge Aue,1819,2,0,0.0,2.0
 9302,Paderborn,9320,Sandhausen,1819,2,2,1.0,4.0
 9312,FC Koln,9314,Regensburg,1819,2,0,0.0,6.0
-9303,Holstein Kiel,9313,Hamburg,1819,2,0,0.0,3.5
 9307,Dresden,9310,Magdeburg,1819,2,2,1.0,3.0
 9304,Bielefeld,9312,FC Koln,1819,2,0,0.0,5.0
+9303,Holstein Kiel,9313,Hamburg,1819,2,0,0.0,3.5
 9302,Paderborn,9324,Erzgebirge Aue,1819,2,0,0.0,2.0
 9297,Bochum,9320,Sandhausen,1819,2,0,0.0,2.0
 9296,Darmstadt,9307,Dresden,1819,2,0,0.0,3.5
@@ -40,8 +40,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9310,Magdeburg,9322,Ingolstadt,1819,2,1,0.5,1.5
 9306,Greuther Furth,9321,Heidenheim,1819,2,1,0.5,1.0
 9313,Hamburg,9327,Union Berlin,1819,2,1,0.5,3.0
-9302,Paderborn,9316,St Pauli,1819,2,0,0.0,2.0
 9304,Bielefeld,9327,Union Berlin,1819,2,2,1.0,2.0
+9302,Paderborn,9316,St Pauli,1819,2,0,0.0,2.0
 9324,Erzgebirge Aue,9327,Union Berlin,1819,2,0,0.0,2.0
 9306,Greuther Furth,9322,Ingolstadt,1819,2,1,0.5,1.5
 9312,FC Koln,9322,Ingolstadt,1819,2,0,0.0,3.0
@@ -55,13 +55,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9303,Holstein Kiel,9322,Ingolstadt,1819,2,2,1.0,3.0
 9322,Ingolstadt,9328,Duisburg,1819,2,1,0.5,4.0
 9310,Magdeburg,9313,Hamburg,1819,2,0,0.0,2.0
-9303,Holstein Kiel,9307,Dresden,1819,2,0,0.0,2.5
 9307,Dresden,9316,St Pauli,1819,2,1,0.5,2.5
+9303,Holstein Kiel,9307,Dresden,1819,2,0,0.0,2.5
 9327,Union Berlin,9328,Duisburg,1819,2,1,0.5,4.5
 9320,Sandhausen,9321,Heidenheim,1819,2,0,0.0,4.0
 9302,Paderborn,9307,Dresden,1819,2,0,0.0,3.5
-9306,Greuther Furth,9324,Erzgebirge Aue,1819,2,1,0.5,3.5
 9316,St Pauli,9324,Erzgebirge Aue,1819,2,0,0.0,3.5
+9306,Greuther Furth,9324,Erzgebirge Aue,1819,2,1,0.5,3.5
 9296,Darmstadt,9324,Erzgebirge Aue,1819,2,1,0.5,2.5
 9316,St Pauli,9321,Heidenheim,1819,2,1,0.5,2.5
 9312,FC Koln,9327,Union Berlin,1819,2,1,0.5,2.0
@@ -88,8 +88,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9296,Darmstadt,9328,Duisburg,1819,2,0,0.0,4.0
 9297,Bochum,9303,Holstein Kiel,1819,2,1,0.5,4.0
 9297,Bochum,9316,St Pauli,1819,2,1,0.5,2.0
-9312,FC Koln,9313,Hamburg,1819,2,1,0.5,1.5
 9296,Darmstadt,9314,Regensburg,1819,2,2,1.0,2.0
+9312,FC Koln,9313,Hamburg,1819,2,1,0.5,1.5
 9296,Darmstadt,9303,Holstein Kiel,1819,2,0,0.0,5.5
 9307,Dresden,9313,Hamburg,1819,2,0,0.0,1.0
 9297,Bochum,9328,Duisburg,1819,2,0,0.0,2.5

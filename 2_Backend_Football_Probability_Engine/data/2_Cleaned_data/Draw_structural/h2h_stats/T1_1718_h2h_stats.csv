@@ -40,8 +40,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8945,Goztep,8950,Fenerbahce,1718,2,1,0.5,3.5
 8940,Samsunspor,8942,Antalyaspor,1718,6,2,0.3333333333333333,3.8333333333333335
 8963,Akhisar Belediyespor,8964,Karabukspor,1718,2,0,0.0,3.0
-8939,Galatasaray,8951,Besiktas,1718,2,0,0.0,2.5
 8939,Galatasaray,8947,Trabzonspor,1718,2,0,0.0,3.0
+8939,Galatasaray,8951,Besiktas,1718,2,0,0.0,2.5
 8941,Genclerbirligi,8951,Besiktas,1718,2,0,0.0,2.0
 8940,Samsunspor,8964,Karabukspor,1718,2,0,0.0,1.0
 8941,Genclerbirligi,8962,Bursaspor,1718,2,1,0.5,1.5
@@ -79,8 +79,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8940,Samsunspor,8948,Kocaelispor,1718,4,1,0.25,3.75
 8939,Galatasaray,8941,Genclerbirligi,1718,2,0,0.0,3.5
 8939,Galatasaray,8948,Kocaelispor,1718,4,0,0.0,3.75
-8947,Trabzonspor,8951,Besiktas,1718,2,1,0.5,3.0
 8951,Besiktas,8962,Bursaspor,1718,2,1,0.5,3.5
+8947,Trabzonspor,8951,Besiktas,1718,2,1,0.5,3.0
 8940,Samsunspor,8945,Goztep,1718,2,0,0.0,3.0
 8948,Kocaelispor,8962,Bursaspor,1718,4,0,0.0,3.0
 8948,Kocaelispor,8948,Kocaelispor,1718,2,1,0.5,2.5

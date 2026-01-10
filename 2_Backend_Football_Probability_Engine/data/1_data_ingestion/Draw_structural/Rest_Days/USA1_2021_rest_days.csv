@@ -1,9 +1,9 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-USA1,2021,2020-02-29,Seattle Sounders,Los Angeles Galaxy,7,7,False
-USA1,2021,2020-02-29,Orlando City,New England Revolution,7,7,False
-USA1,2021,2020-02-29,Columbus Crew,Nashville SC,7,7,False
-USA1,2021,2020-02-29,Seattle Sounders,FC Dallas,7,7,False
-USA1,2021,2020-02-29,Sporting Kansas City,Minnesota United FC,7,7,False
-USA1,2021,2020-02-29,Columbus Crew,New England Revolution,7,7,False
-USA1,2021,2020-02-29,Seattle Sounders,Minnesota United FC,7,7,False
-USA1,2021,2020-02-29,Columbus Crew,Seattle Sounders,7,7,False
+USA1,2021,2020-02-29,Seattle Sounders,Los Angeles Galaxy,1093,1093,False
+USA1,2021,2020-02-29,Orlando City,New England Revolution,1093,1093,False
+USA1,2021,2020-02-29,Columbus Crew,Nashville SC,1093,7,False
+USA1,2021,2020-02-29,Seattle Sounders,FC Dallas,1093,1093,False
+USA1,2021,2020-02-29,Sporting Kansas City,Minnesota United FC,728,1093,False
+USA1,2021,2020-02-29,Columbus Crew,New England Revolution,1093,1093,False
+USA1,2021,2020-02-29,Seattle Sounders,Minnesota United FC,1093,1093,False
+USA1,2021,2020-02-29,Columbus Crew,Seattle Sounders,1093,1093,False

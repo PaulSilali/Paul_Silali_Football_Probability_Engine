@@ -1,0 +1,190 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+F1,1819,2018-08-11,Angers,Nimes,3.2,3.2,0.0
+F1,1819,2018-08-11,Montpellier,Dijon,3.5,3.5,0.0
+F1,1819,2018-08-11,Nantes,Monaco,3.25,3.25,0.0
+F1,1819,2018-08-11,St Etienne,Guingamp,3.5,3.5,0.0
+F1,1819,2018-08-11,Lille,Rennes,3.1,3.1,0.0
+F1,1819,2018-08-18,Guingamp,Paris FC,7.0,7.0,0.0
+F1,1819,2018-08-18,Caen,Nice,3.1,3.1,0.0
+F1,1819,2018-08-18,Amiens,Montpellier,3.0,3.0,0.0
+F1,1819,2018-08-19,Nimes,Marseille,3.8,3.8,0.0
+F1,1819,2018-08-19,Toulouse,Bordeaux,3.1,3.1,0.0
+F1,1819,2018-08-19,Strasbourg,St Etienne,3.2,3.2,0.0
+F1,1819,2018-08-25,Amiens,Reims,3.25,3.25,0.0
+F1,1819,2018-08-25,Nantes,Caen,3.25,3.25,0.0
+F1,1819,2018-08-25,Paris FC,Angers,13.0,13.0,0.0
+F1,1819,2018-08-26,Marseille,Rennes,4.33,4.33,0.0
+F1,1819,2018-08-26,Bordeaux,Monaco,3.3,3.3,0.0
+F1,1819,2018-09-01,Guingamp,Toulouse,3.4,3.4,0.0
+F1,1819,2018-09-01,Strasbourg,Nantes,3.1,3.1,0.0
+F1,1819,2018-09-01,Nimes,Paris FC,7.0,7.0,0.0
+F1,1819,2018-09-02,Monaco,Marseille,3.3,3.3,0.0
+F1,1819,2018-09-14,Nice,Rennes,3.25,3.25,0.0
+F1,1819,2018-09-15,Caen,Lyon,3.75,3.75,0.0
+F1,1819,2018-09-15,Dijon,Angers,3.4,3.4,0.0
+F1,1819,2018-09-15,Montpellier,Strasbourg,3.4,3.4,0.0
+F1,1819,2018-09-15,Toulouse,Monaco,3.3,3.3,0.0
+F1,1819,2018-09-15,Amiens,Lille,3.1,3.1,0.0
+F1,1819,2018-09-16,Bordeaux,Nimes,3.4,3.4,0.0
+F1,1819,2018-09-21,Monaco,Nimes,4.0,4.0,0.0
+F1,1819,2018-09-22,St Etienne,Caen,3.5,3.5,0.0
+F1,1819,2018-09-22,Strasbourg,Amiens,3.3,3.3,0.0
+F1,1819,2018-09-22,Lille,Nantes,3.5,3.5,0.0
+F1,1819,2018-09-23,Guingamp,Bordeaux,3.1,3.1,0.0
+F1,1819,2018-09-23,Lyon,Marseille,3.5,3.5,0.0
+F1,1819,2018-09-23,Rennes,Paris FC,4.5,4.5,0.0
+F1,1819,2018-09-25,Toulouse,St Etienne,3.0,3.0,0.0
+F1,1819,2018-09-25,Nantes,Nice,3.2,3.2,0.0
+F1,1819,2018-09-26,Paris FC,Reims,9.0,9.0,0.0
+F1,1819,2018-09-26,Marseille,Strasbourg,4.5,4.5,0.0
+F1,1819,2018-09-26,Caen,Montpellier,3.0,3.0,0.0
+F1,1819,2018-09-26,Amiens,Rennes,3.1,3.1,0.0
+F1,1819,2018-09-29,Lyon,Nantes,5.75,5.75,0.0
+F1,1819,2018-09-30,Rennes,Toulouse,3.5,3.5,0.0
+F1,1819,2018-10-05,Toulouse,Nice,3.3,3.3,0.0
+F1,1819,2018-10-06,Lille,St Etienne,3.4,3.4,0.0
+F1,1819,2018-10-06,Angers,Strasbourg,3.1,3.1,0.0
+F1,1819,2018-10-06,Guingamp,Montpellier,3.1,3.1,0.0
+F1,1819,2018-10-07,Monaco,Rennes,3.5,3.5,0.0
+F1,1819,2018-10-20,Reims,Angers,3.1,3.1,0.0
+F1,1819,2018-10-20,Dijon,Lille,3.5,3.5,0.0
+F1,1819,2018-10-20,Strasbourg,Monaco,3.25,3.25,0.0
+F1,1819,2018-10-21,St Etienne,Rennes,3.2,3.2,0.0
+F1,1819,2018-10-26,Nimes,St Etienne,3.3,3.3,0.0
+F1,1819,2018-10-27,Amiens,Nantes,3.2,3.2,0.0
+F1,1819,2018-10-27,Monaco,Dijon,4.0,4.0,0.0
+F1,1819,2018-10-27,Guingamp,Strasbourg,3.2,3.2,0.0
+F1,1819,2018-10-27,Angers,Lyon,3.6,3.6,0.0
+F1,1819,2018-11-02,Paris FC,Lille,8.0,8.0,0.0
+F1,1819,2018-11-03,Caen,Rennes,3.25,3.25,0.0
+F1,1819,2018-11-03,Strasbourg,Toulouse,3.6,3.6,0.0
+F1,1819,2018-11-03,Lyon,Bordeaux,4.75,4.75,0.0
+F1,1819,2018-11-04,St Etienne,Angers,3.3,3.3,0.0
+F1,1819,2018-11-10,Guingamp,Lyon,4.0,4.0,0.0
+F1,1819,2018-11-11,Rennes,Nantes,3.3,3.3,0.0
+F1,1819,2018-11-24,Nantes,Angers,3.2,3.2,0.0
+F1,1819,2018-11-24,Reims,Guingamp,3.2,3.2,0.0
+F1,1819,2018-11-25,Amiens,Marseille,3.75,3.75,0.0
+F1,1819,2018-11-25,Montpellier,Rennes,3.0,3.0,0.0
+F1,1819,2018-12-01,Lille,Lyon,3.3,3.3,0.0
+F1,1819,2018-12-01,Angers,Caen,3.75,3.75,0.0
+F1,1819,2018-12-01,Monaco,Montpellier,3.3,3.3,0.0
+F1,1819,2018-12-02,Bordeaux,Paris FC,5.5,5.5,0.0
+F1,1819,2018-12-02,Rennes,Strasbourg,3.75,3.75,0.0
+F1,1819,2018-12-02,Toulouse,Dijon,3.4,3.4,0.0
+F1,1819,2018-12-05,Caen,Nimes,3.1,3.1,0.0
+F1,1819,2018-12-05,Bordeaux,St Etienne,3.1,3.1,0.0
+F1,1819,2018-12-05,Strasbourg,Paris FC,5.75,5.75,0.0
+F1,1819,2018-12-05,Nantes,Marseille,3.3,3.3,0.0
+F1,1819,2018-12-05,Dijon,Guingamp,3.25,3.25,0.0
+F1,1819,2018-12-08,Guingamp,Amiens,3.2,3.2,0.0
+F1,1819,2018-12-09,Strasbourg,Caen,3.5,3.5,0.0
+F1,1819,2018-12-09,Lille,Reims,3.4,3.4,0.0
+F1,1819,2018-12-15,Reims,Strasbourg,3.1,3.1,0.0
+F1,1819,2018-12-16,Nimes,Lille,3.0,3.0,0.0
+F1,1819,2018-12-16,Nice,St Etienne,3.1,3.1,0.0
+F1,1819,2018-12-18,Caen,Toulouse,3.1,3.1,0.0
+F1,1819,2018-12-22,Lille,Toulouse,3.5,3.5,0.0
+F1,1819,2018-12-22,Montpellier,Lyon,3.3,3.3,0.0
+F1,1819,2018-12-22,Angers,Marseille,3.4,3.4,0.0
+F1,1819,2018-12-22,Reims,Caen,3.5,3.5,0.0
+F1,1819,2018-12-23,Bordeaux,Amiens,3.75,3.75,0.0
+F1,1819,2019-01-11,Lyon,Reims,4.5,4.5,0.0
+F1,1819,2019-01-11,Caen,Lille,3.25,3.25,0.0
+F1,1819,2019-01-13,Marseille,Monaco,4.0,4.0,0.0
+F1,1819,2019-01-13,Dijon,Montpellier,3.3,3.3,0.0
+F1,1819,2019-01-13,Toulouse,Strasbourg,3.2,3.2,0.0
+F1,1819,2019-01-15,Angers,Bordeaux,3.0,3.0,0.0
+F1,1819,2019-01-16,Guingamp,Rennes,3.2,3.2,0.0
+F1,1819,2019-01-16,Toulouse,Lyon,3.75,3.75,0.0
+F1,1819,2019-01-16,St Etienne,Marseille,3.5,3.5,0.0
+F1,1819,2019-01-16,Monaco,Nice,3.2,3.2,0.0
+F1,1819,2019-01-18,Lille,Amiens,3.6,3.6,0.0
+F1,1819,2019-01-19,Reims,Nice,3.0,3.0,0.0
+F1,1819,2019-01-19,Monaco,Strasbourg,3.5,3.5,0.0
+F1,1819,2019-01-20,St Etienne,Lyon,3.5,3.5,0.0
+F1,1819,2019-01-23,Nimes,Angers,3.4,3.4,0.0
+F1,1819,2019-01-25,Marseille,Lille,3.25,3.25,0.0
+F1,1819,2019-01-27,Paris FC,Rennes,6.5,6.5,0.0
+F1,1819,2019-01-30,Nantes,St Etienne,3.1,3.1,0.0
+F1,1819,2019-02-02,Monaco,Toulouse,3.6,3.6,0.0
+F1,1819,2019-02-02,Reims,Marseille,3.25,3.25,0.0
+F1,1819,2019-02-03,Nimes,Montpellier,3.1,3.1,0.0
+F1,1819,2019-02-03,Lyon,Paris FC,3.8,3.8,0.0
+F1,1819,2019-02-08,Dijon,Marseille,3.5,3.5,0.0
+F1,1819,2019-02-09,Strasbourg,Angers,3.2,3.2,0.0
+F1,1819,2019-02-10,Toulouse,Reims,3.0,3.0,0.0
+F1,1819,2019-02-10,Montpellier,Monaco,3.1,3.1,0.0
+F1,1819,2019-02-10,Nantes,Nimes,3.3,3.3,0.0
+F1,1819,2019-02-13,St Etienne,Strasbourg,3.3,3.3,0.0
+F1,1819,2019-02-15,Lyon,Guingamp,5.25,5.25,0.0
+F1,1819,2019-02-17,Bordeaux,Toulouse,3.5,3.5,0.0
+F1,1819,2019-02-20,Paris FC,Montpellier,6.0,6.0,0.0
+F1,1819,2019-02-22,Strasbourg,Lille,3.1,3.1,0.0
+F1,1819,2019-02-24,Montpellier,Reims,3.2,3.2,0.0
+F1,1819,2019-02-24,Toulouse,Caen,3.5,3.5,0.0
+F1,1819,2019-02-24,Rennes,Marseille,3.3,3.3,0.0
+F1,1819,2019-03-02,Angers,Monaco,3.3,3.3,0.0
+F1,1819,2019-03-02,Caen,Paris FC,6.0,6.0,0.0
+F1,1819,2019-03-02,Reims,Amiens,3.4,3.4,0.0
+F1,1819,2019-03-03,Lyon,Toulouse,5.5,5.5,0.0
+F1,1819,2019-03-05,Bordeaux,Montpellier,2.9,2.9,0.0
+F1,1819,2019-03-09,Strasbourg,Lyon,3.8,3.8,0.0
+F1,1819,2019-03-09,Amiens,Nimes,3.2,3.2,0.0
+F1,1819,2019-03-09,Dijon,Reims,3.1,3.1,0.0
+F1,1819,2019-03-09,Monaco,Bordeaux,4.0,4.0,0.0
+F1,1819,2019-03-10,Rennes,Caen,3.6,3.6,0.0
+F1,1819,2019-03-10,Montpellier,Angers,3.1,3.1,0.0
+F1,1819,2019-03-15,Nice,Toulouse,3.1,3.1,0.0
+F1,1819,2019-03-16,Nimes,Strasbourg,3.2,3.2,0.0
+F1,1819,2019-03-17,Paris FC,Marseille,6.0,6.0,0.0
+F1,1819,2019-03-17,Bordeaux,Rennes,3.0,3.0,0.0
+F1,1819,2019-03-17,Lyon,Montpellier,4.33,4.33,0.0
+F1,1819,2019-03-30,Marseille,Angers,3.75,3.75,0.0
+F1,1819,2019-03-31,Nantes,Lille,3.1,3.1,0.0
+F1,1819,2019-04-01,St Etienne,Nimes,3.75,3.75,0.0
+F1,1819,2019-04-06,Lyon,Dijon,7.0,7.0,0.0
+F1,1819,2019-04-06,Guingamp,Monaco,3.4,3.4,0.0
+F1,1819,2019-04-06,Angers,Rennes,3.2,3.2,0.0
+F1,1819,2019-04-06,Amiens,St Etienne,3.1,3.1,0.0
+F1,1819,2019-04-07,Paris FC,Strasbourg,11.0,11.0,0.0
+F1,1819,2019-04-07,Reims,Lille,3.1,3.1,0.0
+F1,1819,2019-04-09,Nimes,Rennes,3.25,3.25,0.0
+F1,1819,2019-04-12,Nantes,Lyon,4.0,4.0,0.0
+F1,1819,2019-04-13,Strasbourg,Guingamp,3.25,3.25,0.0
+F1,1819,2019-04-13,Marseille,Nimes,4.33,4.33,0.0
+F1,1819,2019-04-14,Montpellier,Toulouse,3.4,3.4,0.0
+F1,1819,2019-04-14,Lille,Paris FC,4.0,4.0,0.0
+F1,1819,2019-04-17,Nantes,Paris FC,4.2,4.2,0.0
+F1,1819,2019-04-19,Lyon,Angers,5.5,5.5,0.0
+F1,1819,2019-04-19,Dijon,Rennes,3.3,3.3,0.0
+F1,1819,2019-04-20,Guingamp,Marseille,3.6,3.6,0.0
+F1,1819,2019-04-20,Nimes,Bordeaux,3.4,3.4,0.0
+F1,1819,2019-04-20,Strasbourg,Montpellier,3.1,3.1,0.0
+F1,1819,2019-04-21,Nantes,Amiens,3.25,3.25,0.0
+F1,1819,2019-04-21,Paris FC,Monaco,4.5,4.5,0.0
+F1,1819,2019-04-26,Bordeaux,Lyon,3.75,3.75,0.0
+F1,1819,2019-04-28,Angers,Reims,3.1,3.1,0.0
+F1,1819,2019-04-28,Marseille,Nantes,3.8,3.8,0.0
+F1,1819,2019-04-30,Montpellier,Paris FC,3.6,3.6,0.0
+F1,1819,2019-05-01,Rennes,Monaco,3.3,3.3,0.0
+F1,1819,2019-05-03,Strasbourg,Marseille,3.5,3.5,0.0
+F1,1819,2019-05-04,Paris FC,Nice,6.0,6.0,0.0
+F1,1819,2019-05-05,Lyon,Lille,4.0,4.0,0.0
+F1,1819,2019-05-05,Monaco,St Etienne,3.5,3.5,0.0
+F1,1819,2019-05-05,Montpellier,Amiens,3.75,3.75,0.0
+F1,1819,2019-05-05,Toulouse,Rennes,3.3,3.3,0.0
+F1,1819,2019-05-11,Angers,Paris FC,4.33,4.33,0.0
+F1,1819,2019-05-11,Caen,Reims,3.1,3.1,0.0
+F1,1819,2019-05-11,Dijon,Strasbourg,3.5,3.5,0.0
+F1,1819,2019-05-11,Nice,Nantes,3.1,3.1,0.0
+F1,1819,2019-05-12,Rennes,Guingamp,3.5,3.5,0.0
+F1,1819,2019-05-18,Guingamp,Nimes,3.4,3.4,0.0
+F1,1819,2019-05-18,Montpellier,Nantes,3.8,3.8,0.0
+F1,1819,2019-05-18,Toulouse,Marseille,3.3,3.3,0.0
+F1,1819,2019-05-24,Amiens,Guingamp,4.0,4.0,0.0
+F1,1819,2019-05-24,Angers,St Etienne,3.4,3.4,0.0
+F1,1819,2019-05-24,Dijon,Toulouse,4.5,4.5,0.0
+F1,1819,2019-05-24,Nimes,Lyon,3.8,3.8,0.0
+F1,1819,2019-05-24,Reims,Paris FC,5.0,5.0,0.0
+F1,1819,2019-05-24,Rennes,Lille,3.6,3.6,0.0

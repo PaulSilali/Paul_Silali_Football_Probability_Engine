@@ -1,0 +1,463 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Zaragoza,Cordoba,1,1,D,1
+2016-01-10,Lugo,Mallorca,3,1,H,0
+2016-01-10,Huesca,Almeria,2,0,H,0
+2016-01-10,Gimnastic,Sevilla B,1,1,D,1
+2016-01-10,Alcorcon,Elche,1,0,H,0
+2016-02-09,Sevilla B,UCAM Murcia,1,1,D,1
+2016-02-09,Cordoba,Lugo,3,3,D,1
+2016-02-10,Leganes,Valladolid,3,2,H,0
+2016-02-10,UCAM Murcia,Mirandes,2,2,D,1
+2016-02-10,Vallecano,Cadiz,3,0,H,0
+2016-02-10,Tenerife,Getafe,0,0,D,1
+2016-02-10,Girona,Reus Deportiu,1,0,H,0
+2016-02-10,Oviedo,Numancia,2,2,D,1
+2016-02-12,Getafe,Sevilla B,2,0,H,0
+2016-03-09,Valladolid,Girona,2,1,H,0
+2016-03-09,Elche,Tenerife,3,1,H,0
+2016-03-09,Getafe,Reus Deportiu,1,1,D,1
+2016-03-09,Mirandes,Cadiz,3,2,H,0
+2016-03-09,Almeria,Vallecano,3,0,H,0
+2016-03-12,Numancia,Almeria,1,0,H,0
+2016-03-12,UCAM Murcia,Lugo,1,2,A,0
+2016-03-12,Mirandes,Elche,1,0,H,0
+2016-03-12,Cadiz,Zaragoza,3,0,H,0
+2016-04-09,Numancia,Alcorcon,1,1,D,1
+2016-04-09,Mallorca,Oviedo,0,0,D,1
+2016-04-09,Zaragoza,Huesca,1,0,H,0
+2016-04-09,Gimnastic,Leganes,1,1,D,1
+2016-04-12,Reus Deportiu,Cordoba,1,2,A,0
+2016-04-12,Girona,Leganes,2,1,H,0
+2016-04-12,Vallecano,Alcorcon,2,0,H,0
+2016-04-12,Oviedo,Gimnastic,1,0,H,0
+2016-04-12,Mallorca,Valladolid,0,3,A,0
+2016-04-12,Tenerife,Huesca,1,1,D,1
+2016-05-11,Girona,Tenerife,1,1,D,1
+2016-05-11,Mallorca,Zaragoza,2,2,D,1
+2016-05-11,Vallecano,UCAM Murcia,0,1,A,0
+2016-05-11,Cadiz,Huesca,1,0,H,0
+2016-05-11,Valladolid,Sevilla B,2,0,H,0
+2016-06-11,Mirandes,Gimnastic,0,1,A,0
+2016-06-11,Getafe,Alcorcon,1,0,H,0
+2016-06-11,Oviedo,Lugo,1,1,D,1
+2016-06-11,Almeria,Cordoba,3,1,H,0
+2016-06-11,Numancia,Elche,2,2,D,1
+2016-06-11,Reus Deportiu,Leganes,0,1,A,0
+2016-08-10,Elche,Gimnastic,4,4,D,1
+2016-08-10,Sevilla B,Zaragoza,2,1,H,0
+2016-08-10,Getafe,UCAM Murcia,2,0,H,0
+2016-08-10,Reus Deportiu,Tenerife,0,0,D,1
+2016-08-10,Valladolid,Alcorcon,2,0,H,0
+2016-08-10,Numancia,Cordoba,1,1,D,1
+2016-08-19,Almeria,Cadiz,1,1,D,1
+2016-08-19,Mirandes,Getafe,1,1,D,1
+2016-08-20,Alcorcon,Huesca,0,0,D,1
+2016-08-20,Cordoba,Tenerife,1,0,H,0
+2016-08-20,Elche,Vallecano,2,1,H,0
+2016-08-20,Mallorca,Reus Deportiu,0,1,A,0
+2016-08-21,Gimnastic,Lugo,2,2,D,1
+2016-08-21,Numancia,Leganes,0,1,A,0
+2016-08-21,Valladolid,Oviedo,1,0,H,0
+2016-08-21,Sevilla B,Girona,3,3,D,1
+2016-08-22,Zaragoza,UCAM Murcia,3,1,H,0
+2016-08-26,Tenerife,Sevilla B,1,1,D,1
+2016-08-26,Getafe,Numancia,0,0,D,1
+2016-08-27,Girona,Elche,3,1,H,0
+2016-08-27,Oviedo,Almeria,2,0,H,0
+2016-08-27,Reus Deportiu,Mirandes,1,1,D,1
+2016-08-27,Lugo,Zaragoza,3,3,D,1
+2016-08-28,Huesca,Gimnastic,1,1,D,1
+2016-08-28,Vallecano,Valladolid,0,0,D,1
+2016-08-28,Cadiz,Mallorca,1,1,D,1
+2016-08-28,UCAM Murcia,Cordoba,1,1,D,1
+2016-08-28,Leganes,Alcorcon,2,0,H,0
+2016-09-10,Almeria,Leganes,2,2,D,1
+2016-09-10,Mirandes,Lugo,2,2,D,1
+2016-09-10,Cadiz,Girona,0,0,D,1
+2016-09-10,Mallorca,Huesca,3,0,H,0
+2016-09-10,Oviedo,Vallecano,2,0,H,0
+2016-09-12,Sevilla B,Reus Deportiu,0,1,A,0
+2016-09-17,Cordoba,Leganes,1,0,H,0
+2016-09-17,Numancia,Gimnastic,1,0,H,0
+2016-09-17,Reus Deportiu,Cadiz,1,0,H,0
+2016-09-17,Valladolid,UCAM Murcia,0,1,A,0
+2016-09-17,Zaragoza,Alcorcon,2,0,H,0
+2016-09-17,Elche,Lugo,0,3,A,0
+2016-09-18,Mirandes,Vallecano,2,1,H,0
+2016-09-18,Mallorca,Girona,1,0,H,0
+2016-09-18,Almeria,Tenerife,0,1,A,0
+2016-09-18,Getafe,Oviedo,2,1,H,0
+2016-09-18,Sevilla B,Huesca,2,0,H,0
+2016-09-20,Gimnastic,Zaragoza,0,0,D,1
+2016-09-20,Alcorcon,Cordoba,0,1,A,0
+2016-09-20,Cadiz,Numancia,1,0,H,0
+2016-09-20,Lugo,Valladolid,1,0,H,0
+2016-09-21,UCAM Murcia,Almeria,4,0,H,0
+2016-09-21,Leganes,Sevilla B,1,0,H,0
+2016-09-21,Huesca,Elche,0,3,A,0
+2016-09-22,Girona,Mirandes,1,1,D,1
+2016-09-22,Vallecano,Getafe,2,0,H,0
+2016-09-22,Tenerife,Mallorca,0,0,D,1
+2016-09-22,Oviedo,Reus Deportiu,0,1,A,0
+2016-09-24,Sevilla B,Alcorcon,1,1,D,1
+2016-09-24,Valladolid,Huesca,1,2,A,0
+2016-09-24,Cordoba,Gimnastic,2,0,H,0
+2016-09-24,Almeria,Lugo,0,0,D,1
+2016-09-24,Elche,Leganes,0,1,A,0
+2016-09-25,Cadiz,Oviedo,0,2,A,0
+2016-09-25,Mallorca,UCAM Murcia,0,0,D,1
+2016-09-25,Getafe,Girona,0,2,A,0
+2016-09-25,Numancia,Zaragoza,2,1,H,0
+2016-09-25,Mirandes,Tenerife,3,2,H,0
+2016-09-25,Reus Deportiu,Vallecano,1,1,D,1
+2016-10-09,Reus Deportiu,Numancia,1,1,D,1
+2016-10-09,Lugo,Sevilla B,1,0,H,0
+2016-10-09,Tenerife,Valladolid,1,0,H,0
+2016-10-09,Leganes,Zaragoza,4,2,H,0
+2016-10-12,Elche,Getafe,2,2,D,1
+2016-10-12,Huesca,UCAM Murcia,5,2,H,0
+2016-10-12,Leganes,Tenerife,1,0,H,0
+2016-10-12,Gimnastic,Vallecano,0,1,A,0
+2016-10-15,Huesca,Mirandes,3,0,H,0
+2016-10-15,Alcorcon,Almeria,0,0,D,1
+2016-10-15,Girona,Oviedo,0,0,D,1
+2016-10-15,Leganes,Mallorca,2,1,H,0
+2016-10-15,Lugo,Getafe,0,1,A,0
+2016-10-16,Cordoba,Sevilla B,0,1,A,0
+2016-10-16,UCAM Murcia,Reus Deportiu,0,2,A,0
+2016-10-16,Gimnastic,Valladolid,1,2,A,0
+2016-10-16,Tenerife,Cadiz,1,1,D,1
+2016-10-16,Vallecano,Numancia,3,3,D,1
+2016-10-16,Zaragoza,Elche,1,3,A,0
+2016-10-22,Numancia,Sevilla B,1,2,A,0
+2016-10-22,Reus Deportiu,Lugo,2,1,H,0
+2016-10-22,Getafe,Huesca,1,1,D,1
+2016-10-22,Elche,Cordoba,1,1,D,1
+2016-10-22,Vallecano,Girona,1,0,H,0
+2016-10-23,Mallorca,Alcorcon,1,0,H,0
+2016-10-23,Valladolid,Zaragoza,0,0,D,1
+2016-10-23,Almeria,Gimnastic,3,0,H,0
+2016-10-23,Cadiz,UCAM Murcia,2,2,D,1
+2016-10-23,Mirandes,Leganes,0,3,A,0
+2016-10-23,Oviedo,Tenerife,2,0,H,0
+2016-10-29,Zaragoza,Almeria,2,1,H,0
+2016-10-29,Cordoba,Valladolid,1,1,D,1
+2016-10-29,Huesca,Reus Deportiu,2,1,H,0
+2016-10-29,Tenerife,Vallecano,3,2,H,0
+2016-10-30,Girona,Numancia,3,0,H,0
+2016-10-30,Gimnastic,Mallorca,2,2,D,1
+2016-10-30,Leganes,Getafe,1,1,D,1
+2016-10-30,UCAM Murcia,Oviedo,0,1,A,0
+2016-10-30,Sevilla B,Elche,2,0,H,0
+2016-10-30,Lugo,Cadiz,0,1,A,0
+2016-10-30,Alcorcon,Mirandes,1,0,H,0
+2016-11-09,UCAM Murcia,Elche,1,1,D,1
+2016-11-09,Alcorcon,Gimnastic,1,0,H,0
+2016-11-09,Cadiz,Getafe,3,0,H,0
+2016-11-09,Huesca,Cordoba,3,0,H,0
+2016-11-09,Oviedo,Mirandes,0,0,D,1
+2016-11-09,Vallecano,Mallorca,1,0,H,0
+2016-11-09,Girona,Almeria,3,3,D,1
+2016-11-11,Cordoba,Mallorca,0,2,A,0
+2016-11-12,Cordoba,Cadiz,1,3,A,0
+2016-11-12,Valladolid,Mirandes,5,0,H,0
+2016-11-12,Almeria,Mallorca,2,1,H,0
+2016-11-12,Lugo,Numancia,3,1,H,0
+2016-11-12,Zaragoza,Oviedo,2,1,H,0
+2016-11-12,Alcorcon,Girona,2,1,H,0
+2016-11-13,Sevilla B,Almeria,1,0,H,0
+2016-11-13,Lugo,Vallecano,1,0,H,0
+2016-11-13,UCAM Murcia,Girona,0,1,A,0
+2016-11-13,Zaragoza,Mirandes,2,0,H,0
+2016-11-18,Almeria,Elche,2,1,H,0
+2016-11-19,Oviedo,Leganes,2,0,H,0
+2016-11-19,Mallorca,Sevilla B,2,2,D,1
+2016-11-19,Numancia,Valladolid,2,1,H,0
+2016-11-19,Girona,Lugo,3,1,H,0
+2016-11-20,Mirandes,Cordoba,1,1,D,1
+2016-11-20,Vallecano,Huesca,2,2,D,1
+2016-11-20,Getafe,Zaragoza,1,0,H,0
+2016-11-20,Reus Deportiu,Gimnastic,1,0,H,0
+2016-11-20,Cadiz,Alcorcon,4,1,H,0
+2016-11-20,Tenerife,UCAM Murcia,2,1,H,0
+2016-11-25,Gimnastic,Cadiz,1,0,H,0
+2016-11-26,Zaragoza,Reus Deportiu,2,2,D,1
+2016-11-26,Valladolid,Almeria,0,0,D,1
+2016-11-26,UCAM Murcia,Numancia,3,2,H,0
+2016-11-26,Lugo,Tenerife,1,3,A,0
+2016-11-26,Alcorcon,Oviedo,5,1,H,0
+2016-11-27,Cordoba,Getafe,1,3,A,0
+2016-11-27,Elche,Mallorca,1,0,H,0
+2016-11-27,Sevilla B,Mirandes,1,0,H,0
+2016-11-27,Huesca,Girona,1,2,A,0
+2016-12-11,Gimnastic,Getafe,1,0,H,0
+2016-12-11,Leganes,Cadiz,0,0,D,1
+2016-12-11,Tenerife,Numancia,1,1,D,1
+2016-12-11,Huesca,Oviedo,4,0,H,0
+2016-12-11,Alcorcon,Reus Deportiu,1,0,H,0
+2016-12-11,Elche,Valladolid,2,0,H,0
+2016-12-14,Leganes,Vallecano,1,0,H,0
+2016-12-16,Reus Deportiu,Elche,0,1,A,0
+2016-12-17,Girona,Gimnastic,4,2,H,0
+2016-12-17,Oviedo,Cordoba,1,2,A,0
+2016-12-17,Getafe,Valladolid,3,1,H,0
+2016-12-17,Tenerife,Alcorcon,2,0,H,0
+2016-12-17,Lugo,Huesca,1,1,D,1
+2016-12-18,Vallecano,Zaragoza,1,2,A,0
+2016-12-18,Mirandes,Almeria,2,1,H,0
+2016-12-18,Cadiz,Sevilla B,4,1,H,0
+2016-12-18,Numancia,Mallorca,3,1,H,0
+2017-01-04,UCAM Murcia,Cadiz,1,1,D,1
+2017-01-04,Leganes,Mirandes,2,1,H,0
+2017-01-04,Huesca,Getafe,0,0,D,1
+2017-01-04,Girona,Vallecano,1,3,A,0
+2017-01-05,Gimnastic,Reus Deportiu,0,1,A,0
+2017-01-05,Huesca,Vallecano,2,0,H,0
+2017-01-13,Cadiz,Valladolid,0,1,A,0
+2017-01-14,Tenerife,Zaragoza,1,0,H,0
+2017-01-14,Oviedo,Elche,2,1,H,0
+2017-01-14,Mirandes,Numancia,0,3,A,0
+2017-01-14,UCAM Murcia,Gimnastic,1,1,D,1
+2017-01-14,Vallecano,Sevilla B,1,1,D,1
+2017-01-15,Lugo,Alcorcon,1,0,H,0
+2017-01-15,Getafe,Mallorca,1,1,D,1
+2017-01-15,Reus Deportiu,Almeria,1,0,H,0
+2017-01-15,Huesca,Leganes,0,2,A,0
+2017-01-15,Girona,Cordoba,2,0,H,0
+2017-01-21,Lugo,Gimnastic,2,3,A,0
+2017-01-21,UCAM Murcia,Zaragoza,1,0,H,0
+2017-01-21,Tenerife,Cordoba,2,0,H,0
+2017-01-21,Oviedo,Valladolid,1,0,H,0
+2017-01-21,Huesca,Alcorcon,0,1,A,0
+2017-01-21,Vallecano,Elche,1,1,D,1
+2017-01-22,Getafe,Mirandes,1,1,D,1
+2017-01-22,Leganes,Numancia,1,0,H,0
+2017-01-22,Girona,Sevilla B,2,0,H,0
+2017-01-22,Cadiz,Almeria,1,0,H,0
+2017-01-22,Reus Deportiu,Mallorca,1,1,D,1
+2017-01-27,Elche,Girona,1,0,H,0
+2017-01-28,Alcorcon,Leganes,2,0,H,0
+2017-01-28,Valladolid,Vallecano,2,1,H,0
+2017-01-28,Mirandes,Reus Deportiu,1,1,D,1
+2017-01-28,Sevilla B,Tenerife,0,0,D,1
+2017-01-28,Gimnastic,Huesca,0,0,D,1
+2017-01-29,Numancia,Getafe,2,0,H,0
+2017-01-29,Mallorca,Cadiz,0,0,D,1
+2017-01-29,Almeria,Oviedo,3,0,H,0
+2017-01-29,Zaragoza,Lugo,1,1,D,1
+2017-01-29,Cordoba,UCAM Murcia,1,1,D,1
+2017-02-04,Cordoba,Elche,1,0,H,0
+2017-02-04,Zaragoza,Valladolid,1,1,D,1
+2017-02-04,Lugo,Reus Deportiu,1,0,H,0
+2017-02-04,Gimnastic,Almeria,0,1,A,0
+2017-02-04,Tenerife,Oviedo,1,0,H,0
+2017-02-06,Lugo,Leganes,1,0,H,0
+2017-02-17,Lugo,Elche,1,2,A,0
+2017-02-18,Girona,Mallorca,1,0,H,0
+2017-02-18,UCAM Murcia,Valladolid,1,3,A,0
+2017-02-18,Leganes,Cordoba,3,1,H,0
+2017-02-18,Gimnastic,Numancia,2,0,H,0
+2017-02-18,Tenerife,Almeria,1,0,H,0
+2017-02-19,Vallecano,Mirandes,1,2,A,0
+2017-02-19,Alcorcon,Zaragoza,1,1,D,1
+2017-02-19,Huesca,Sevilla B,2,1,H,0
+2017-02-19,Oviedo,Getafe,2,1,H,0
+2017-02-19,Cadiz,Reus Deportiu,0,0,D,1
+2017-02-24,Reus Deportiu,Oviedo,1,1,D,1
+2017-02-25,Mallorca,Tenerife,1,4,A,0
+2017-02-25,Getafe,Vallecano,1,0,H,0
+2017-02-25,Cordoba,Alcorcon,1,0,H,0
+2017-02-25,Mirandes,Girona,0,2,A,0
+2017-02-25,Elche,Huesca,1,1,D,1
+2017-02-26,Zaragoza,Gimnastic,1,2,A,0
+2017-02-26,Sevilla B,Leganes,1,1,D,1
+2017-02-26,Almeria,UCAM Murcia,2,3,A,0
+2017-02-26,Valladolid,Lugo,1,1,D,1
+2017-02-26,Numancia,Cadiz,0,3,A,0
+2017-03-02,UCAM Murcia,Sevilla B,1,0,H,0
+2017-03-03,Tenerife,Mirandes,1,1,D,1
+2017-03-04,Sevilla B,Numancia,1,1,D,1
+2017-03-17,Gimnastic,Elche,1,3,A,0
+2017-03-18,UCAM Murcia,Getafe,2,0,H,0
+2017-03-18,Zaragoza,Sevilla B,1,2,A,0
+2017-03-18,Lugo,Mirandes,2,1,H,0
+2017-03-18,Huesca,Mallorca,2,1,H,0
+2017-03-18,Cordoba,Numancia,0,0,D,1
+2017-03-19,Girona,Cadiz,1,2,A,0
+2017-03-19,Vallecano,Oviedo,2,0,H,0
+2017-03-19,Tenerife,Reus Deportiu,0,1,A,0
+2017-03-19,Leganes,Almeria,1,0,H,0
+2017-03-19,Alcorcon,Valladolid,1,2,A,0
+2017-03-25,Valladolid,Gimnastic,1,2,A,0
+2017-03-25,Numancia,Vallecano,0,0,D,1
+2017-03-25,Oviedo,Girona,2,0,H,0
+2017-03-25,Almeria,Alcorcon,3,1,H,0
+2017-03-25,Mallorca,Leganes,1,1,D,1
+2017-03-26,Mirandes,Huesca,1,3,A,0
+2017-03-26,Cadiz,Tenerife,0,1,A,0
+2017-03-26,Elche,Zaragoza,0,3,A,0
+2017-03-26,Getafe,Lugo,2,0,H,0
+2017-03-26,Reus Deportiu,UCAM Murcia,0,0,D,1
+2017-03-26,Sevilla B,Cordoba,1,0,H,0
+2017-03-31,Alcorcon,Mallorca,1,0,H,0
+2017-04-02,Lugo,Cordoba,1,0,H,0
+2017-04-02,Cadiz,Mirandes,2,1,H,0
+2017-04-02,Alcorcon,Numancia,2,3,A,0
+2017-04-02,Huesca,Zaragoza,2,3,A,0
+2017-04-02,Tenerife,Elche,2,0,H,0
+2017-04-03,Oviedo,Cadiz,2,1,H,0
+2017-04-03,Girona,Getafe,5,1,H,0
+2017-04-03,Alcorcon,Sevilla B,0,0,D,1
+2017-04-03,Vallecano,Reus Deportiu,0,0,D,1
+2017-04-06,Girona,Zaragoza,0,0,D,1
+2017-04-06,Vallecano,Cordoba,1,2,A,0
+2017-04-06,Mirandes,Mallorca,2,2,D,1
+2017-04-06,UCAM Murcia,Alcorcon,0,1,A,0
+2017-04-06,Tenerife,Gimnastic,0,1,A,0
+2017-04-06,Reus Deportiu,Valladolid,2,0,H,0
+2017-04-06,Oviedo,Sevilla B,1,0,H,0
+2017-04-06,Huesca,Numancia,0,0,D,1
+2017-04-06,Getafe,Almeria,4,0,H,0
+2017-04-06,Cadiz,Elche,2,1,H,0
+2017-04-15,Gimnastic,Mirandes,4,1,H,0
+2017-04-15,Huesca,Cadiz,1,1,D,1
+2017-04-15,Tenerife,Girona,3,3,D,1
+2017-04-15,Elche,Numancia,1,3,A,0
+2017-04-16,Zaragoza,Mallorca,1,0,H,0
+2017-04-16,UCAM Murcia,Vallecano,0,1,A,0
+2017-04-16,Sevilla B,Valladolid,6,2,H,0
+2017-04-16,Cordoba,Almeria,1,0,H,0
+2017-04-16,Lugo,Oviedo,2,1,H,0
+2017-04-16,Alcorcon,Getafe,0,3,A,0
+2017-04-17,Leganes,Reus Deportiu,0,0,D,1
+2017-04-21,Oviedo,Huesca,1,1,D,1
+2017-04-22,Vallecano,Lugo,2,0,H,0
+2017-04-22,Cadiz,Leganes,1,1,D,1
+2017-04-22,Getafe,Gimnastic,1,1,D,1
+2017-04-22,Girona,UCAM Murcia,1,2,A,0
+2017-04-22,Valladolid,Elche,2,1,H,0
+2017-04-23,Numancia,Tenerife,1,1,D,1
+2017-04-23,Reus Deportiu,Alcorcon,0,0,D,1
+2017-04-23,Mirandes,Zaragoza,0,1,A,0
+2017-04-23,Almeria,Sevilla B,2,1,H,0
+2017-04-23,Mallorca,Cordoba,1,1,D,1
+2017-04-28,Elche,Almeria,2,3,A,0
+2017-04-29,UCAM Murcia,Tenerife,1,0,H,0
+2017-04-29,Zaragoza,Getafe,1,2,A,0
+2017-04-29,Valladolid,Numancia,1,1,D,1
+2017-04-29,Leganes,Oviedo,1,0,H,0
+2017-04-30,Alcorcon,Cadiz,0,2,A,0
+2017-04-30,Lugo,Girona,1,2,A,0
+2017-04-30,Cordoba,Mirandes,1,1,D,1
+2017-04-30,Sevilla B,Mallorca,2,3,A,0
+2017-05-02,Reus Deportiu,Getafe,1,1,D,1
+2017-05-02,Girona,Valladolid,2,1,H,0
+2017-05-02,Leganes,Gimnastic,2,1,H,0
+2017-05-02,Oviedo,Mallorca,2,1,H,0
+2017-05-02,Vallecano,Almeria,1,0,H,0
+2017-05-03,Huesca,Valladolid,1,0,H,0
+2017-05-03,UCAM Murcia,Mallorca,1,1,D,1
+2017-05-03,Gimnastic,Cordoba,2,1,H,0
+2017-05-03,Lugo,Almeria,1,2,A,0
+2017-05-03,Zaragoza,Numancia,3,0,H,0
+2017-05-03,Leganes,Elche,2,1,H,0
+2017-05-05,Oviedo,Alcorcon,0,1,A,0
+2017-05-13,Cordoba,Reus Deportiu,1,0,H,0
+2017-05-13,Valladolid,Mallorca,2,1,H,0
+2017-05-13,Elche,Mirandes,0,1,A,0
+2017-05-13,Gimnastic,Oviedo,2,2,D,1
+2017-05-13,Huesca,Tenerife,2,2,D,1
+2017-05-13,Leganes,Girona,2,1,H,0
+2017-05-13,Alcorcon,Vallecano,2,0,H,0
+2017-05-13,Almeria,Numancia,2,0,H,0
+2017-05-14,Lugo,UCAM Murcia,0,0,D,1
+2017-05-19,Vallecano,Gimnastic,2,0,H,0
+2017-05-19,Getafe,Elche,2,0,H,0
+2017-05-20,Girona,Alcorcon,0,0,D,1
+2017-05-20,Mallorca,Almeria,1,0,H,0
+2017-05-20,Reus Deportiu,Sevilla B,2,1,H,0
+2017-05-20,UCAM Murcia,Huesca,3,1,H,0
+2017-05-20,Oviedo,Zaragoza,0,0,D,1
+2017-05-20,Tenerife,Leganes,0,0,D,1
+2017-05-20,Cadiz,Cordoba,1,1,D,1
+2017-05-21,Mirandes,Valladolid,2,2,D,1
+2017-05-21,Numancia,Lugo,0,1,A,0
+2017-05-26,Leganes,UCAM Murcia,3,1,H,0
+2017-05-27,Almeria,Mirandes,2,0,H,0
+2017-05-27,Sevilla B,Cadiz,3,3,D,1
+2017-05-27,Huesca,Lugo,1,0,H,0
+2017-05-27,Valladolid,Getafe,1,0,H,0
+2017-05-28,Zaragoza,Vallecano,1,1,D,1
+2017-05-28,Mallorca,Numancia,0,0,D,1
+2017-05-28,Alcorcon,Tenerife,1,3,A,0
+2017-05-28,Cordoba,Oviedo,4,2,H,0
+2017-05-28,Elche,Reus Deportiu,1,1,D,1
+2017-05-28,Gimnastic,Girona,3,1,H,0
+2017-06-01,Valladolid,Reus Deportiu,1,0,H,0
+2017-06-01,Numancia,Huesca,0,0,D,1
+2017-06-01,Almeria,Getafe,0,1,A,0
+2017-06-01,Mallorca,Mirandes,2,0,H,0
+2017-06-05,Vallecano,Leganes,2,1,H,0
+2017-06-05,Girona,Huesca,3,1,H,0
+2017-06-05,Numancia,UCAM Murcia,1,0,H,0
+2017-06-05,Mallorca,Elche,1,0,H,0
+2017-07-01,Leganes,Lugo,1,0,H,0
+2017-07-01,Cordoba,Vallecano,0,0,D,1
+2017-07-04,Mirandes,Alcorcon,2,0,H,0
+2017-07-05,Getafe,Cordoba,2,0,H,0
+2017-07-05,Almeria,Valladolid,0,3,A,0
+2017-07-05,Mirandes,Sevilla B,0,1,A,0
+2017-07-05,Cadiz,Gimnastic,0,0,D,1
+2017-07-05,Reus Deportiu,Zaragoza,1,0,H,0
+2017-07-05,Tenerife,Lugo,2,1,H,0
+2017-08-01,Gimnastic,Tenerife,1,1,D,1
+2017-08-01,Zaragoza,Girona,0,2,A,0
+2017-08-01,Sevilla B,Oviedo,5,3,H,0
+2017-08-01,Alcorcon,UCAM Murcia,0,0,D,1
+2017-08-01,Elche,Cadiz,2,3,A,0
+2017-08-04,Mallorca,Gimnastic,0,0,D,1
+2017-08-04,Cadiz,Lugo,1,1,D,1
+2017-08-04,Vallecano,Tenerife,1,1,D,1
+2017-08-04,Getafe,Leganes,2,0,H,0
+2017-09-04,Valladolid,Cordoba,2,1,H,0
+2017-09-04,Elche,Sevilla B,3,2,H,0
+2017-09-04,Oviedo,UCAM Murcia,2,0,H,0
+2017-09-04,Numancia,Girona,0,2,A,0
+2017-09-04,Reus Deportiu,Huesca,0,1,A,0
+2017-09-04,Almeria,Zaragoza,2,2,D,1
+2017-09-06,Sevilla B,Vallecano,1,2,A,0
+2017-10-02,Sevilla B,Lugo,1,1,D,1
+2017-10-03,Elche,Alcorcon,0,0,D,1
+2017-10-06,Mallorca,Getafe,3,3,D,1
+2017-10-06,Zaragoza,Tenerife,1,2,A,0
+2017-10-06,Alcorcon,Lugo,3,0,H,0
+2017-10-06,Almeria,Reus Deportiu,1,0,H,0
+2017-10-06,Cordoba,Girona,2,1,H,0
+2017-10-06,Leganes,Huesca,1,2,A,0
+2017-10-06,Valladolid,Cadiz,1,0,H,0
+2017-10-06,Elche,Oviedo,0,2,A,0
+2017-10-06,Gimnastic,UCAM Murcia,1,0,H,0
+2017-11-01,UCAM Murcia,Leganes,0,2,A,0
+2017-11-02,Getafe,Cadiz,3,2,H,0
+2017-11-02,Zaragoza,Leganes,0,1,A,0
+2017-11-02,Gimnastic,Alcorcon,1,1,D,1
+2017-11-02,Almeria,Girona,0,0,D,1
+2017-11-03,Cordoba,Zaragoza,2,1,H,0
+2017-11-03,Valladolid,Leganes,0,4,A,0
+2017-11-03,Numancia,Oviedo,0,0,D,1
+2017-11-03,Mirandes,UCAM Murcia,1,1,D,1
+2017-11-03,Mallorca,Lugo,1,1,D,1
+2017-11-06,Numancia,Mirandes,0,2,A,0
+2017-12-02,Elche,UCAM Murcia,1,1,D,1
+2017-12-02,Mirandes,Oviedo,0,2,A,0
+2017-12-02,Cordoba,Huesca,0,2,A,0
+2017-12-02,Numancia,Reus Deportiu,1,0,H,0
+2017-12-02,Mallorca,Vallecano,2,1,H,0
+2017-12-02,Valladolid,Tenerife,0,0,D,1
+2017-12-03,Reus Deportiu,Girona,1,2,A,0
+2017-12-03,Getafe,Tenerife,2,2,D,1
+2017-12-03,Sevilla B,Gimnastic,2,2,D,1
+2017-12-03,Cadiz,Vallecano,1,0,H,0
+2017-12-03,Almeria,Huesca,0,0,D,1
+2017-12-05,Sevilla B,Getafe,2,1,H,0
+2017-12-05,Zaragoza,Cadiz,1,1,D,1

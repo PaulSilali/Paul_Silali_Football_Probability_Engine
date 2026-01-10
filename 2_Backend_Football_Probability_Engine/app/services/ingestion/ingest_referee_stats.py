@@ -20,6 +20,7 @@ def _save_referee_csv(
 ) -> Path:
     """
     Save CSV file with referee statistics for a single referee.
+    Now saves to both ingestion and cleaned_data folders.
     
     Args:
         db: Database session
@@ -27,13 +28,9 @@ def _save_referee_csv(
         referee_data: Dictionary with referee statistics
     
     Returns:
-        Path to saved CSV file
+        Path to saved CSV file (ingestion path)
     """
     try:
-        # Create directory structure
-        base_dir = Path("data/1_data_ingestion/Draw_structural/Referee")
-        base_dir.mkdir(parents=True, exist_ok=True)
-        
         # Create DataFrame
         df = pd.DataFrame([{
             "referee_id": referee_id,
@@ -46,13 +43,18 @@ def _save_referee_csv(
         
         # Filename format: {referee_id}_referee_stats.csv
         filename = f"{referee_id}_referee_stats.csv"
-        csv_path = base_dir / filename
         
-        # Save CSV
-        df.to_csv(csv_path, index=False)
+        # Use utility function to save to both ingestion and cleaned folders
+        from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+        ingestion_path, cleaned_path = save_draw_structural_csv(
+            df, "Referee", filename, save_to_cleaned=True
+        )
         
-        logger.info(f"Saved referee stats CSV: {csv_path}")
-        return csv_path
+        logger.info(f"Saved referee stats CSV: {ingestion_path}")
+        if cleaned_path:
+            logger.info(f"Saved cleaned referee stats CSV: {cleaned_path}")
+        
+        return ingestion_path
     
     except Exception as e:
         logger.error(f"Error saving referee stats CSV: {e}", exc_info=True)
@@ -436,14 +438,24 @@ def batch_ingest_referee_stats(
         logger.info(f"Batch processing referee stats for {len(leagues)} leagues...")
         logger.info(f"Processing {len(seasons)} seasons: {seasons}...")
         
-        # Check if matches table has referee_id column
+        # Check if matches table has referee_id column and if it has any non-NULL values
         from sqlalchemy import inspect
         inspector = inspect(db.bind)
         matches_columns = [col['name'] for col in inspector.get_columns('matches')]
         has_referee_id = 'referee_id' in matches_columns
         
+        # Check if referee_id column has any non-NULL values
+        has_referee_data = False
+        if has_referee_id:
+            referee_count_query = text("SELECT COUNT(*) FROM matches WHERE referee_id IS NOT NULL")
+            referee_count = db.execute(referee_count_query).scalar()
+            has_referee_data = referee_count > 0 if referee_count else False
+        
+        if not has_referee_id or not has_referee_data:
         if not has_referee_id:
             logger.warning("Matches table doesn't have referee_id column. Cannot calculate referee-specific stats.")
+            else:
+                logger.warning("Matches table has referee_id column but all values are NULL. Cannot calculate referee-specific stats.")
             logger.info("Referee stats will be calculated using league-wide averages as placeholders.")
             
             # Create placeholder referee stats based on league-wide draw rates
@@ -549,9 +561,10 @@ def batch_ingest_referee_stats(
             
             logger.info(f"Batch referee stats ingestion complete (placeholders): {results['successful']} successful, {results['failed']} failed out of {results['total']} processed")
             
+            note_msg = "Matches table doesn't have referee_id column." if not has_referee_id else "Matches table has referee_id column but all values are NULL."
             return {
                 "success": True,
-                "note": "Matches table doesn't have referee_id column. Created placeholder entries using league-wide draw rates.",
+                "note": f"{note_msg} Created placeholder entries using league-wide draw rates.",
                 **results
             }
         

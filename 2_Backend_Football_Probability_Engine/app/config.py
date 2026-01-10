@@ -6,6 +6,7 @@ from typing import List, Optional, Union
 from urllib.parse import quote_plus
 import os
 import json
+from pathlib import Path
 
 
 class Settings(BaseSettings):
@@ -109,6 +110,7 @@ class Settings(BaseSettings):
     
     # External APIs
     API_FOOTBALL_KEY: str = ""
+    OPENWEATHER_API_KEY: str = ""  # OpenWeather One Call API 3.0 key (free tier available)
     FOOTBALL_DATA_BASE_URL: str = "https://www.football-data.co.uk"
     FOOTBALL_DATA_ORG_KEY: str = ""  # Football-Data.org API key (free tier available)
     FOOTBALL_DATA_ORG_BASE_URL: str = "https://api.football-data.org/v4"
@@ -155,12 +157,34 @@ class Settings(BaseSettings):
     DATA_CLEANING_PHASE: str = "phase2"  # "phase1", "phase2", or "both" - Phase 2 includes Phase 1 + outlier-based features
     
     class Config:
-        env_file = ".env"
+        # Try to find .env file in the backend directory
+        env_file = str(Path(__file__).parent.parent / ".env")
         case_sensitive = True
         env_file_encoding = 'utf-8'
         # Ignore parsing errors for comment lines and empty lines
         env_ignore_empty = True
+        # Also load from environment variables (fallback if .env fails)
+        env_file_encoding = 'utf-8'
 
 
 settings = Settings()
+
+# Hardcoded API keys (for private/internal use)
+import os
+
+# API-Football API Key
+if not settings.API_FOOTBALL_KEY or settings.API_FOOTBALL_KEY.strip() == "":
+    env_api_key = os.getenv('API_FOOTBALL_KEY', '').strip()
+    if env_api_key:
+        settings.API_FOOTBALL_KEY = env_api_key
+    else:
+        settings.API_FOOTBALL_KEY = "b41227796150918ad901f64b9bdf3b76"
+
+# OpenWeather API Key
+if not settings.OPENWEATHER_API_KEY or settings.OPENWEATHER_API_KEY.strip() == "":
+    env_weather_key = os.getenv('OPENWEATHER_API_KEY', '').strip()
+    if env_weather_key:
+        settings.OPENWEATHER_API_KEY = env_weather_key
+    else:
+        settings.OPENWEATHER_API_KEY = "c94682cf8a1e35441b69db28377c400e"
 

@@ -1,4 +1,5 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+MEX1,2223,2022-07-01,Club Tijuana,CF América,176,176,False
 MEX1,2223,2022-07-01,Mazatlán FC,Puebla FC,176,176,False
 MEX1,2223,2022-07-01,Club Necaxa,Deportivo Toluca,176,176,False
 MEX1,2223,2022-07-01,Deportivo Guadalajara,FC Juárez,176,176,False
@@ -32,7 +33,6 @@ MEX1,2223,2022-07-01,Mazatlán FC,Atlético San Luis,176,176,False
 MEX1,2223,2022-07-01,Club Necaxa,FC Juárez,176,176,False
 MEX1,2223,2022-07-01,Deportivo Toluca,Santos Laguna,176,176,False
 MEX1,2223,2022-07-01,Cruz Azul,Puebla FC,176,176,False
-MEX1,2223,2022-07-01,Club Tijuana,CF América,176,176,False
 MEX1,2223,2022-07-01,UANL Tigres,Atlas Guadalajara,176,176,False
 MEX1,2223,2022-07-01,CF Pachuca,Pumas UNAM,176,176,False
 MEX1,2223,2022-07-01,Atlas Guadalajara,Club Tijuana,176,176,False
@@ -99,6 +99,47 @@ MEX1,2223,2022-07-01,Club León,Atlas Guadalajara,176,176,False
 MEX1,2223,2022-07-01,Santos Laguna,Atlético San Luis,176,176,False
 MEX1,2223,2022-07-01,Club Tijuana,CF Monterrey,176,176,False
 MEX1,2223,2022-07-01,Atlético San Luis,Club Tijuana,176,176,False
+MEX1,2223,2023-01-06,Club León,Santos Laguna,189,189,False
+MEX1,2223,2023-01-06,Club Necaxa,Santos Laguna,189,189,False
+MEX1,2223,2023-01-06,FC Juárez,Puebla FC,189,189,False
+MEX1,2223,2023-01-06,CF Pachuca,Cruz Azul,189,189,False
+MEX1,2223,2023-01-06,CF América,Club León,189,189,False
+MEX1,2223,2023-01-06,CF Monterrey,Club Tijuana,189,189,False
+MEX1,2223,2023-01-06,Atlas Guadalajara,Deportivo Guadalajara,189,189,False
+MEX1,2223,2023-01-06,Atlético San Luis,Mazatlán FC,189,189,False
+MEX1,2223,2023-01-06,Gallos Blancos,Pumas UNAM,189,189,False
+MEX1,2223,2023-01-06,Puebla FC,Deportivo Toluca,189,189,False
+MEX1,2223,2023-01-06,Club Tijuana,Gallos Blancos,189,189,False
+MEX1,2223,2023-01-06,Deportivo Guadalajara,Club Necaxa,189,189,False
+MEX1,2223,2023-01-06,Club León,Cruz Azul,189,189,False
+MEX1,2223,2023-01-06,UANL Tigres,Mazatlán FC,189,189,False
+MEX1,2223,2023-01-06,CF América,CF Monterrey,189,189,False
+MEX1,2223,2023-01-06,Pumas UNAM,Atlético San Luis,189,189,False
+MEX1,2223,2023-01-06,Santos Laguna,CF Pachuca,189,189,False
+MEX1,2223,2023-01-06,FC Juárez,Atlas Guadalajara,189,189,False
+MEX1,2223,2023-01-06,Atlético San Luis,FC Juárez,189,189,False
+MEX1,2223,2023-01-06,UANL Tigres,CF Monterrey,189,189,False
+MEX1,2223,2023-01-06,Deportivo Toluca,UANL Tigres,189,189,False
+MEX1,2223,2023-01-06,Atlas Guadalajara,CF Pachuca,189,189,False
+MEX1,2223,2023-01-06,Cruz Azul,CF América,189,189,False
+MEX1,2223,2023-01-06,Pumas UNAM,Deportivo Toluca,189,189,False
+MEX1,2223,2023-01-06,CF Monterrey,Santos Laguna,189,189,False
+MEX1,2223,2023-01-06,Club Necaxa,Atlas Guadalajara,189,189,False
+MEX1,2223,2023-01-06,CF Pachuca,Atlético San Luis,189,189,False
+MEX1,2223,2023-01-06,Deportivo Guadalajara,Cruz Azul,189,189,False
+MEX1,2223,2023-01-06,CF América,Pumas UNAM,189,189,False
+MEX1,2223,2023-01-06,Deportivo Toluca,FC Juárez,189,189,False
+MEX1,2223,2023-01-06,Puebla FC,Club Tijuana,189,189,False
+MEX1,2223,2023-01-06,CF Monterrey,Pumas UNAM,189,189,False
+MEX1,2223,2023-01-06,Deportivo Guadalajara,Mazatlán FC,189,189,False
+MEX1,2223,2023-01-06,Cruz Azul,Santos Laguna,189,189,False
+MEX1,2223,2023-01-06,CF Pachuca,Santos Laguna,189,189,False
+MEX1,2223,2023-01-06,UANL Tigres,Deportivo Toluca,189,189,False
+MEX1,2223,2023-01-06,CF América,Atlético San Luis,189,189,False
+MEX1,2223,2023-01-06,CF América,Deportivo Guadalajara,189,189,False
+MEX1,2223,2023-01-06,Deportivo Guadalajara,UANL Tigres,189,189,False
+MEX1,2223,2023-01-06,Club Necaxa,Puebla FC,189,189,False
+MEX1,2223,2023-01-06,Mazatlán FC,Club Tijuana,189,189,False
 MEX1,2223,2023-01-06,Club Tijuana,Pumas UNAM,189,189,False
 MEX1,2223,2023-01-06,UANL Tigres,Atlético San Luis,189,189,False
 MEX1,2223,2023-01-06,CF América,Mazatlán FC,189,189,False
@@ -130,6 +171,7 @@ MEX1,2223,2023-01-06,Atlético San Luis,CF América,189,189,False
 MEX1,2223,2023-01-06,CF Monterrey,Gallos Blancos,189,189,False
 MEX1,2223,2023-01-06,Deportivo Guadalajara,Club Tijuana,189,189,False
 MEX1,2223,2023-01-06,Club Necaxa,Pumas UNAM,189,189,False
+MEX1,2223,2023-01-06,Club León,Atlético San Luis,189,189,False
 MEX1,2223,2023-01-06,Mazatlán FC,CF Pachuca,189,189,False
 MEX1,2223,2023-01-06,Cruz Azul,Atlas Guadalajara,189,189,False
 MEX1,2223,2023-01-06,Santos Laguna,Deportivo Toluca,189,189,False
@@ -154,7 +196,6 @@ MEX1,2223,2023-01-06,Club León,CF Monterrey,189,189,False
 MEX1,2223,2023-01-06,Club Necaxa,UANL Tigres,189,189,False
 MEX1,2223,2023-01-06,Mazatlán FC,Cruz Azul,189,189,False
 MEX1,2223,2023-01-06,Club Tijuana,Atlas Guadalajara,189,189,False
-MEX1,2223,2023-01-06,Club León,Atlético San Luis,189,189,False
 MEX1,2223,2023-01-06,CF América,CF Pachuca,189,189,False
 MEX1,2223,2023-01-06,CF Monterrey,FC Juárez,189,189,False
 MEX1,2223,2023-01-06,Deportivo Guadalajara,Santos Laguna,189,189,False
@@ -173,29 +214,6 @@ MEX1,2223,2023-01-06,Puebla FC,Atlas Guadalajara,189,189,False
 MEX1,2223,2023-01-06,Club Tijuana,Deportivo Toluca,189,189,False
 MEX1,2223,2023-01-06,Mazatlán FC,Club Necaxa,189,189,False
 MEX1,2223,2023-01-06,Cruz Azul,Atlético San Luis,189,189,False
-MEX1,2223,2023-01-06,UANL Tigres,CF Monterrey,189,189,False
 MEX1,2223,2023-01-06,Deportivo Guadalajara,CF América,189,189,False
 MEX1,2223,2023-01-06,Pumas UNAM,CF Pachuca,189,189,False
 MEX1,2223,2023-01-06,Gallos Blancos,FC Juárez,189,189,False
-MEX1,2223,2023-01-06,Club León,Santos Laguna,189,189,False
-MEX1,2223,2023-01-06,Club Necaxa,Santos Laguna,189,189,False
-MEX1,2223,2023-01-06,FC Juárez,Puebla FC,189,189,False
-MEX1,2223,2023-01-06,CF Pachuca,Cruz Azul,189,189,False
-MEX1,2223,2023-01-06,CF América,Club León,189,189,False
-MEX1,2223,2023-01-06,CF Monterrey,Club Tijuana,189,189,False
-MEX1,2223,2023-01-06,Atlas Guadalajara,Deportivo Guadalajara,189,189,False
-MEX1,2223,2023-01-06,Deportivo Toluca,UANL Tigres,189,189,False
-MEX1,2223,2023-01-06,Atlético San Luis,Mazatlán FC,189,189,False
-MEX1,2223,2023-01-06,Gallos Blancos,Pumas UNAM,189,189,False
-MEX1,2223,2023-01-06,Puebla FC,Deportivo Toluca,189,189,False
-MEX1,2223,2023-01-06,Club Tijuana,Gallos Blancos,189,189,False
-MEX1,2223,2023-01-06,Deportivo Guadalajara,Club Necaxa,189,189,False
-MEX1,2223,2023-01-06,Club León,Cruz Azul,189,189,False
-MEX1,2223,2023-01-06,UANL Tigres,Mazatlán FC,189,189,False
-MEX1,2223,2023-01-06,CF América,CF Monterrey,189,189,False
-MEX1,2223,2023-01-06,Pumas UNAM,Atlético San Luis,189,189,False
-MEX1,2223,2023-01-06,Santos Laguna,CF Pachuca,189,189,False
-MEX1,2223,2023-01-06,FC Juárez,Atlas Guadalajara,189,189,False
-MEX1,2223,2023-01-06,Atlético San Luis,FC Juárez,189,189,False
-MEX1,2223,2023-01-06,Club Necaxa,Puebla FC,189,189,False
-MEX1,2223,2023-01-06,Mazatlán FC,Club Tijuana,189,189,False

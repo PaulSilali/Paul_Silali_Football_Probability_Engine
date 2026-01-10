@@ -1,224 +1,226 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 F1,1819,2018-08-10,Marseille,Toulouse,6,37,False
-F1,1819,2018-08-11,Angers,Nimes,38,7,False
-F1,1819,2018-08-11,Nice,Reims,7,7,False
 F1,1819,2018-08-11,Nantes,Monaco,38,38,False
 F1,1819,2018-08-11,Montpellier,Dijon,7,38,False
+F1,1819,2018-08-11,Nice,Reims,7,7,False
+F1,1819,2018-08-11,St Etienne,Guingamp,67,38,False
+F1,1819,2018-08-11,Angers,Nimes,38,7,False
 F1,1819,2018-08-11,Lille,Rennes,38,7,False
 F1,1819,2018-08-12,Lyon,Amiens,8,39,False
 F1,1819,2018-08-12,Bordeaux,Strasbourg,39,39,False
+F1,1819,2018-08-12,Paris FC,Caen,69,39,False
 F1,1819,2018-08-17,Reims,Lyon,6,5,False
 F1,1819,2018-08-18,Rennes,Angers,7,7,False
 F1,1819,2018-08-18,Dijon,Nantes,7,7,False
-F1,1819,2018-08-18,Guingamp,Paris FC,45,75,False
-F1,1819,2018-08-18,Monaco,Lille,7,7,False
+F1,1819,2018-08-18,Guingamp,Paris FC,7,6,False
 F1,1819,2018-08-18,Amiens,Montpellier,6,7,False
-F1,1819,2018-08-18,Caen,Nice,45,7,False
+F1,1819,2018-08-18,Caen,Nice,6,7,False
+F1,1819,2018-08-18,Monaco,Lille,7,7,False
 F1,1819,2018-08-19,Nimes,Marseille,8,9,False
-F1,1819,2018-08-19,Strasbourg,St Etienne,7,75,False
+F1,1819,2018-08-19,Strasbourg,St Etienne,7,8,False
 F1,1819,2018-08-19,Toulouse,Bordeaux,9,7,False
 F1,1819,2018-08-24,Lyon,Strasbourg,7,5,False
-F1,1819,2018-08-25,Toulouse,Nimes,6,6,False
-F1,1819,2018-08-25,Montpellier,St Etienne,7,6,False
-F1,1819,2018-08-25,Nantes,Caen,7,7,False
-F1,1819,2018-08-25,Nice,Dijon,7,7,False
-F1,1819,2018-08-25,Paris FC,Angers,7,7,False
 F1,1819,2018-08-25,Amiens,Reims,7,8,False
-F1,1819,2018-08-26,Bordeaux,Monaco,7,8,False
+F1,1819,2018-08-25,Paris FC,Angers,7,7,False
+F1,1819,2018-08-25,Montpellier,St Etienne,7,6,False
+F1,1819,2018-08-25,Nice,Dijon,7,7,False
+F1,1819,2018-08-25,Toulouse,Nimes,6,6,False
+F1,1819,2018-08-25,Nantes,Caen,7,7,False
 F1,1819,2018-08-26,Lille,Guingamp,8,8,False
 F1,1819,2018-08-26,Marseille,Rennes,7,8,False
+F1,1819,2018-08-26,Bordeaux,Monaco,7,8,False
 F1,1819,2018-08-31,Lyon,Nice,7,6,False
-F1,1819,2018-09-01,Strasbourg,Nantes,8,7,False
-F1,1819,2018-09-01,Dijon,Caen,7,7,False
-F1,1819,2018-09-01,Guingamp,Toulouse,6,7,False
 F1,1819,2018-09-01,Nimes,Paris FC,7,7,False
-F1,1819,2018-09-01,Reims,Montpellier,7,7,False
 F1,1819,2018-09-01,Angers,Lille,7,6,False
+F1,1819,2018-09-01,Dijon,Caen,7,7,False
+F1,1819,2018-09-01,Reims,Montpellier,7,7,False
+F1,1819,2018-09-01,Guingamp,Toulouse,6,7,False
+F1,1819,2018-09-01,Strasbourg,Nantes,8,7,False
+F1,1819,2018-09-02,St Etienne,Amiens,8,8,False
 F1,1819,2018-09-02,Rennes,Bordeaux,7,7,False
 F1,1819,2018-09-02,Monaco,Marseille,7,7,False
-F1,1819,2018-09-02,St Etienne,Amiens,8,8,False
-F1,1819,2018-09-14,Nice,Rennes,14,12,False
 F1,1819,2018-09-14,Paris FC,St Etienne,13,12,False
+F1,1819,2018-09-14,Nice,Rennes,14,12,False
 F1,1819,2018-09-15,Caen,Lyon,14,15,False
 F1,1819,2018-09-15,Amiens,Lille,13,14,False
 F1,1819,2018-09-15,Toulouse,Monaco,14,12,False
 F1,1819,2018-09-15,Montpellier,Strasbourg,14,12,False
 F1,1819,2018-09-15,Dijon,Angers,14,14,False
 F1,1819,2018-09-16,Nantes,Reims,15,15,False
-F1,1819,2018-09-16,Bordeaux,Nimes,14,15,False
 F1,1819,2018-09-16,Marseille,Guingamp,14,15,False
+F1,1819,2018-09-16,Bordeaux,Nimes,14,15,False
 F1,1819,2018-09-21,Monaco,Nimes,6,5,False
 F1,1819,2018-09-22,Strasbourg,Amiens,7,7,False
-F1,1819,2018-09-22,Lille,Nantes,7,6,False
 F1,1819,2018-09-22,Angers,Toulouse,7,7,False
 F1,1819,2018-09-22,Montpellier,Nice,7,8,False
 F1,1819,2018-09-22,Reims,Dijon,6,7,False
 F1,1819,2018-09-22,St Etienne,Caen,8,7,False
-F1,1819,2018-09-23,Guingamp,Bordeaux,7,7,False
+F1,1819,2018-09-22,Lille,Nantes,7,6,False
 F1,1819,2018-09-23,Lyon,Marseille,8,7,False
 F1,1819,2018-09-23,Rennes,Paris FC,9,9,False
+F1,1819,2018-09-23,Guingamp,Bordeaux,7,7,False
 F1,1819,2018-09-25,Monaco,Angers,4,3,True
 F1,1819,2018-09-25,Nantes,Nice,3,3,True
 F1,1819,2018-09-25,Toulouse,St Etienne,3,3,True
-F1,1819,2018-09-26,Dijon,Lyon,4,3,True
-F1,1819,2018-09-26,Amiens,Rennes,4,3,True
-F1,1819,2018-09-26,Bordeaux,Lille,3,4,True
 F1,1819,2018-09-26,Caen,Montpellier,4,4,True
-F1,1819,2018-09-26,Marseille,Strasbourg,3,4,True
+F1,1819,2018-09-26,Bordeaux,Lille,3,4,True
+F1,1819,2018-09-26,Dijon,Lyon,4,3,True
 F1,1819,2018-09-26,Nimes,Guingamp,5,3,True
+F1,1819,2018-09-26,Amiens,Rennes,4,3,True
+F1,1819,2018-09-26,Marseille,Strasbourg,3,4,True
 F1,1819,2018-09-26,Paris FC,Reims,3,4,True
 F1,1819,2018-09-28,St Etienne,Monaco,3,3,False
-F1,1819,2018-09-29,Angers,Guingamp,4,3,False
-F1,1819,2018-09-29,Caen,Amiens,3,3,False
-F1,1819,2018-09-29,Lyon,Nantes,3,4,False
-F1,1819,2018-09-29,Nice,Paris FC,4,3,False
 F1,1819,2018-09-29,Reims,Bordeaux,3,3,False
+F1,1819,2018-09-29,Nice,Paris FC,4,3,False
+F1,1819,2018-09-29,Lyon,Nantes,3,4,False
+F1,1819,2018-09-29,Angers,Guingamp,4,3,False
 F1,1819,2018-09-29,Strasbourg,Dijon,3,3,False
+F1,1819,2018-09-29,Caen,Amiens,3,3,False
 F1,1819,2018-09-30,Lille,Marseille,4,4,False
-F1,1819,2018-09-30,Montpellier,Nimes,4,4,False
 F1,1819,2018-09-30,Rennes,Toulouse,4,5,False
+F1,1819,2018-09-30,Montpellier,Nimes,4,4,False
 F1,1819,2018-10-05,Toulouse,Nice,3,3,False
-F1,1819,2018-10-06,Amiens,Dijon,3,3,False
 F1,1819,2018-10-06,Angers,Strasbourg,3,7,False
-F1,1819,2018-10-06,Guingamp,Montpellier,4,3,False
-F1,1819,2018-10-06,Lille,St Etienne,3,3,False
+F1,1819,2018-10-06,Amiens,Dijon,3,3,False
 F1,1819,2018-10-06,Nimes,Reims,6,7,False
+F1,1819,2018-10-06,Lille,St Etienne,3,3,False
+F1,1819,2018-10-06,Guingamp,Montpellier,4,3,False
 F1,1819,2018-10-07,Bordeaux,Nantes,4,4,False
 F1,1819,2018-10-07,Marseille,Caen,7,5,False
-F1,1819,2018-10-07,Monaco,Rennes,5,4,False
 F1,1819,2018-10-07,Paris FC,Lyon,4,8,False
+F1,1819,2018-10-07,Monaco,Rennes,5,4,False
 F1,1819,2018-10-19,Lyon,Nimes,12,13,False
-F1,1819,2018-10-20,Strasbourg,Monaco,14,13,False
+F1,1819,2018-10-20,Reims,Angers,14,14,False
 F1,1819,2018-10-20,Caen,Guingamp,13,14,False
-F1,1819,2018-10-20,Dijon,Lille,14,14,False
 F1,1819,2018-10-20,Nantes,Toulouse,13,15,False
 F1,1819,2018-10-20,Paris FC,Amiens,13,14,False
-F1,1819,2018-10-20,Reims,Angers,14,14,False
-F1,1819,2018-10-21,Montpellier,Bordeaux,15,14,False
-F1,1819,2018-10-21,Nice,Marseille,16,14,False
+F1,1819,2018-10-20,Strasbourg,Monaco,14,13,False
+F1,1819,2018-10-20,Dijon,Lille,14,14,False
 F1,1819,2018-10-21,St Etienne,Rennes,15,14,False
+F1,1819,2018-10-21,Nice,Marseille,16,14,False
+F1,1819,2018-10-21,Montpellier,Bordeaux,15,14,False
 F1,1819,2018-10-26,Nimes,St Etienne,7,5,False
 F1,1819,2018-10-27,Amiens,Nantes,7,7,False
-F1,1819,2018-10-27,Angers,Lyon,7,8,False
+F1,1819,2018-10-27,Toulouse,Montpellier,7,6,False
 F1,1819,2018-10-27,Guingamp,Strasbourg,7,7,False
 F1,1819,2018-10-27,Lille,Caen,7,7,False
 F1,1819,2018-10-27,Monaco,Dijon,7,7,False
-F1,1819,2018-10-27,Toulouse,Montpellier,7,6,False
+F1,1819,2018-10-27,Angers,Lyon,7,8,False
+F1,1819,2018-10-28,Rennes,Reims,7,8,False
 F1,1819,2018-10-28,Bordeaux,Nice,7,7,False
 F1,1819,2018-10-28,Marseille,Paris FC,7,8,False
-F1,1819,2018-10-28,Rennes,Reims,7,8,False
 F1,1819,2018-11-02,Paris FC,Lille,5,6,False
-F1,1819,2018-11-03,Caen,Rennes,7,1,False
-F1,1819,2018-11-03,Dijon,Nimes,7,8,False
-F1,1819,2018-11-03,Lyon,Bordeaux,1,6,False
-F1,1819,2018-11-03,Nice,Amiens,6,7,False
-F1,1819,2018-11-03,Reims,Monaco,6,7,False
 F1,1819,2018-11-03,Strasbourg,Toulouse,1,7,False
-F1,1819,2018-11-04,Montpellier,Marseille,8,1,False
-F1,1819,2018-11-04,Nantes,Guingamp,2,1,False
+F1,1819,2018-11-03,Reims,Monaco,6,7,False
+F1,1819,2018-11-03,Nice,Amiens,6,7,False
+F1,1819,2018-11-03,Dijon,Nimes,7,8,False
+F1,1819,2018-11-03,Caen,Rennes,7,1,False
+F1,1819,2018-11-03,Lyon,Bordeaux,1,6,False
 F1,1819,2018-11-04,St Etienne,Angers,9,8,False
+F1,1819,2018-11-04,Nantes,Guingamp,2,1,False
+F1,1819,2018-11-04,Montpellier,Marseille,8,1,False
 F1,1819,2018-11-09,Lille,Strasbourg,7,6,False
 F1,1819,2018-11-10,Angers,Montpellier,6,6,False
 F1,1819,2018-11-10,Guingamp,Lyon,5,7,False
-F1,1819,2018-11-10,Nimes,Nice,7,7,False
-F1,1819,2018-11-10,St Etienne,Reims,6,7,False
 F1,1819,2018-11-10,Toulouse,Amiens,7,7,False
-F1,1819,2018-11-11,Bordeaux,Caen,8,8,False
+F1,1819,2018-11-10,St Etienne,Reims,6,7,False
+F1,1819,2018-11-10,Nimes,Nice,7,7,False
 F1,1819,2018-11-11,Marseille,Dijon,6,8,False
-F1,1819,2018-11-11,Monaco,Paris FC,8,9,False
+F1,1819,2018-11-11,Bordeaux,Caen,8,8,False
 F1,1819,2018-11-11,Rennes,Nantes,8,7,False
+F1,1819,2018-11-11,Monaco,Paris FC,8,9,False
 F1,1819,2018-11-23,Lyon,St Etienne,13,13,False
 F1,1819,2018-11-24,Caen,Monaco,13,13,False
-F1,1819,2018-11-24,Dijon,Bordeaux,13,13,False
 F1,1819,2018-11-24,Nantes,Angers,13,14,False
+F1,1819,2018-11-24,Dijon,Bordeaux,13,13,False
 F1,1819,2018-11-24,Paris FC,Toulouse,13,14,False
-F1,1819,2018-11-24,Reims,Guingamp,14,14,False
 F1,1819,2018-11-24,Strasbourg,Nimes,15,14,False
+F1,1819,2018-11-24,Reims,Guingamp,14,14,False
 F1,1819,2018-11-25,Amiens,Marseille,15,14,False
-F1,1819,2018-11-25,Montpellier,Rennes,15,14,False
 F1,1819,2018-11-25,Nice,Lille,15,16,False
+F1,1819,2018-11-25,Montpellier,Rennes,15,14,False
 F1,1819,2018-11-30,St Etienne,Nantes,7,6,False
+F1,1819,2018-12-01,Nimes,Amiens,7,6,False
 F1,1819,2018-12-01,Angers,Caen,7,7,False
-F1,1819,2018-12-01,Guingamp,Nice,7,6,False
 F1,1819,2018-12-01,Lille,Lyon,6,8,False
 F1,1819,2018-12-01,Monaco,Montpellier,7,6,False
-F1,1819,2018-12-01,Nimes,Amiens,7,6,False
-F1,1819,2018-12-02,Bordeaux,Paris FC,8,8,False
-F1,1819,2018-12-02,Marseille,Reims,7,8,False
+F1,1819,2018-12-01,Guingamp,Nice,7,6,False
 F1,1819,2018-12-02,Rennes,Strasbourg,7,1,False
 F1,1819,2018-12-02,Toulouse,Dijon,8,8,False
+F1,1819,2018-12-02,Marseille,Reims,7,8,False
+F1,1819,2018-12-02,Bordeaux,Paris FC,8,8,False
 F1,1819,2018-12-04,Amiens,Monaco,3,3,True
-F1,1819,2018-12-04,Montpellier,Lille,3,3,True
 F1,1819,2018-12-04,Nice,Angers,3,3,True
-F1,1819,2018-12-05,Bordeaux,St Etienne,3,5,True
+F1,1819,2018-12-04,Montpellier,Lille,3,3,True
 F1,1819,2018-12-05,Caen,Nimes,4,4,True
+F1,1819,2018-12-05,Strasbourg,Paris FC,3,3,True
+F1,1819,2018-12-05,Nantes,Marseille,5,3,True
 F1,1819,2018-12-05,Dijon,Guingamp,3,4,True
 F1,1819,2018-12-05,Lyon,Rennes,4,3,True
-F1,1819,2018-12-05,Nantes,Marseille,5,3,True
 F1,1819,2018-12-05,Reims,Toulouse,3,3,True
-F1,1819,2018-12-05,Strasbourg,Paris FC,3,3,True
-F1,1819,2018-12-08,Guingamp,Amiens,3,3,False
+F1,1819,2018-12-05,Bordeaux,St Etienne,3,5,True
 F1,1819,2018-12-08,Rennes,Dijon,3,3,False
+F1,1819,2018-12-08,Guingamp,Amiens,3,3,False
 F1,1819,2018-12-09,Lille,Reims,4,4,False
 F1,1819,2018-12-09,Strasbourg,Caen,4,4,False
 F1,1819,2018-12-15,Reims,Strasbourg,6,6,False
-F1,1819,2018-12-16,Lyon,Monaco,11,11,False
-F1,1819,2018-12-16,Nice,St Etienne,11,11,False
 F1,1819,2018-12-16,Nimes,Lille,11,7,False
+F1,1819,2018-12-16,Nice,St Etienne,11,11,False
+F1,1819,2018-12-16,Lyon,Monaco,11,11,False
 F1,1819,2018-12-18,Caen,Toulouse,9,13,True
-F1,1819,2018-12-22,Angers,Marseille,17,17,False
-F1,1819,2018-12-22,Lille,Toulouse,6,4,False
+F1,1819,2018-12-22,Strasbourg,Nice,7,6,False
 F1,1819,2018-12-22,Monaco,Guingamp,6,14,False
-F1,1819,2018-12-22,Montpellier,Lyon,17,6,False
 F1,1819,2018-12-22,Paris FC,Nantes,17,17,False
-F1,1819,2018-12-22,Reims,Caen,7,4,False
 F1,1819,2018-12-22,Rennes,Nimes,14,6,False
 F1,1819,2018-12-22,St Etienne,Dijon,6,14,False
-F1,1819,2018-12-22,Strasbourg,Nice,7,6,False
+F1,1819,2018-12-22,Reims,Caen,7,4,False
+F1,1819,2018-12-22,Montpellier,Lyon,17,6,False
+F1,1819,2018-12-22,Lille,Toulouse,6,4,False
+F1,1819,2018-12-22,Angers,Marseille,17,17,False
 F1,1819,2018-12-23,Bordeaux,Amiens,18,15,False
 F1,1819,2019-01-08,Amiens,Angers,16,17,True
 F1,1819,2019-01-08,Nantes,Montpellier,17,17,True
 F1,1819,2019-01-11,Caen,Lille,20,20,False
 F1,1819,2019-01-11,Lyon,Reims,20,20,False
+F1,1819,2019-01-12,Nice,Bordeaux,21,20,False
 F1,1819,2019-01-12,Amiens,Paris FC,4,21,False
 F1,1819,2019-01-12,Guingamp,St Etienne,21,21,False
-F1,1819,2019-01-12,Nice,Bordeaux,21,20,False
+F1,1819,2019-01-13,Toulouse,Strasbourg,22,22,False
+F1,1819,2019-01-13,Nantes,Rennes,5,22,False
 F1,1819,2019-01-13,Dijon,Montpellier,22,5,False
 F1,1819,2019-01-13,Marseille,Monaco,22,22,False
-F1,1819,2019-01-13,Nantes,Rennes,5,22,False
-F1,1819,2019-01-13,Toulouse,Strasbourg,22,22,False
 F1,1819,2019-01-15,Angers,Bordeaux,7,3,True
 F1,1819,2019-01-16,Guingamp,Rennes,4,3,True
-F1,1819,2019-01-16,Monaco,Nice,3,4,True
 F1,1819,2019-01-16,Nimes,Nantes,25,3,True
-F1,1819,2019-01-16,St Etienne,Marseille,4,3,True
 F1,1819,2019-01-16,Toulouse,Lyon,3,5,True
+F1,1819,2019-01-16,St Etienne,Marseille,4,3,True
+F1,1819,2019-01-16,Monaco,Nice,3,4,True
 F1,1819,2019-01-18,Lille,Amiens,7,6,False
 F1,1819,2019-01-19,Monaco,Strasbourg,3,6,False
 F1,1819,2019-01-19,Nimes,Toulouse,3,3,False
 F1,1819,2019-01-19,Paris FC,Guingamp,7,3,False
 F1,1819,2019-01-19,Reims,Nice,8,3,False
-F1,1819,2019-01-20,Angers,Nantes,5,4,False
 F1,1819,2019-01-20,Bordeaux,Dijon,5,7,False
-F1,1819,2019-01-20,Caen,Marseille,9,4,False
 F1,1819,2019-01-20,Rennes,Montpellier,4,7,False
+F1,1819,2019-01-20,Caen,Marseille,9,4,False
 F1,1819,2019-01-20,St Etienne,Lyon,4,4,False
+F1,1819,2019-01-20,Angers,Nantes,5,4,False
 F1,1819,2019-01-23,Nimes,Angers,4,3,True
 F1,1819,2019-01-25,Marseille,Lille,5,7,False
-F1,1819,2019-01-26,Dijon,Monaco,6,7,False
-F1,1819,2019-01-26,Guingamp,Reims,7,7,False
 F1,1819,2019-01-26,Nice,Nimes,7,3,False
 F1,1819,2019-01-26,Strasbourg,Bordeaux,7,6,False
+F1,1819,2019-01-26,Guingamp,Reims,7,7,False
+F1,1819,2019-01-26,Dijon,Monaco,6,7,False
+F1,1819,2019-01-27,Paris FC,Rennes,8,7,False
 F1,1819,2019-01-27,Amiens,Lyon,9,7,False
 F1,1819,2019-01-27,Montpellier,Caen,7,7,False
-F1,1819,2019-01-27,Paris FC,Rennes,8,7,False
 F1,1819,2019-01-27,Toulouse,Angers,8,4,False
 F1,1819,2019-01-30,Nantes,St Etienne,10,10,True
 F1,1819,2019-02-01,Lille,Nice,7,6,False
-F1,1819,2019-02-02,Angers,Dijon,6,7,False
 F1,1819,2019-02-02,Monaco,Toulouse,7,6,False
-F1,1819,2019-02-02,Reims,Marseille,7,8,False
 F1,1819,2019-02-02,Rennes,Amiens,6,6,False
+F1,1819,2019-02-02,Angers,Dijon,6,7,False
+F1,1819,2019-02-02,Reims,Marseille,7,8,False
 F1,1819,2019-02-03,Lyon,Paris FC,7,7,False
 F1,1819,2019-02-03,Nimes,Montpellier,8,7,False
 F1,1819,2019-02-05,Marseille,Bordeaux,3,10,True
@@ -226,115 +228,115 @@ F1,1819,2019-02-08,Dijon,Marseille,6,3,False
 F1,1819,2019-02-09,Amiens,Caen,7,13,False
 F1,1819,2019-02-09,Paris FC,Bordeaux,6,4,False
 F1,1819,2019-02-09,Strasbourg,Angers,14,7,False
-F1,1819,2019-02-10,Guingamp,Lille,15,9,False
 F1,1819,2019-02-10,Montpellier,Monaco,7,8,False
-F1,1819,2019-02-10,Nantes,Nimes,11,7,False
 F1,1819,2019-02-10,Nice,Lyon,9,7,False
 F1,1819,2019-02-10,Rennes,St Etienne,8,11,False
+F1,1819,2019-02-10,Nantes,Nimes,11,7,False
 F1,1819,2019-02-10,Toulouse,Reims,8,8,False
+F1,1819,2019-02-10,Guingamp,Lille,15,9,False
 F1,1819,2019-02-13,Caen,Nantes,4,3,True
 F1,1819,2019-02-13,St Etienne,Strasbourg,3,4,True
-F1,1819,2019-02-15,Lyon,Guingamp,5,5,False
 F1,1819,2019-02-15,Nimes,Dijon,5,7,False
+F1,1819,2019-02-15,Lyon,Guingamp,5,5,False
 F1,1819,2019-02-16,Angers,Nice,7,6,False
-F1,1819,2019-02-16,Marseille,Amiens,8,7,False
 F1,1819,2019-02-16,Monaco,Nantes,6,3,False
+F1,1819,2019-02-16,Marseille,Amiens,8,7,False
+F1,1819,2019-02-17,St Etienne,Paris FC,4,8,False
+F1,1819,2019-02-17,Reims,Rennes,7,7,False
+F1,1819,2019-02-17,Lille,Montpellier,7,7,False
 F1,1819,2019-02-17,Bordeaux,Toulouse,8,7,False
 F1,1819,2019-02-17,Caen,Strasbourg,4,4,False
-F1,1819,2019-02-17,Lille,Montpellier,7,7,False
-F1,1819,2019-02-17,Reims,Rennes,7,7,False
-F1,1819,2019-02-17,St Etienne,Paris FC,4,8,False
-F1,1819,2019-02-20,Bordeaux,Guingamp,3,5,True
 F1,1819,2019-02-20,Paris FC,Montpellier,3,3,True
+F1,1819,2019-02-20,Bordeaux,Guingamp,3,5,True
 F1,1819,2019-02-22,Dijon,St Etienne,7,5,False
 F1,1819,2019-02-22,Strasbourg,Lille,5,5,False
-F1,1819,2019-02-23,Amiens,Nice,7,7,False
-F1,1819,2019-02-23,Guingamp,Angers,3,7,False
 F1,1819,2019-02-23,Paris FC,Nimes,3,8,False
-F1,1819,2019-02-24,Monaco,Lyon,8,9,False
-F1,1819,2019-02-24,Montpellier,Reims,4,7,False
-F1,1819,2019-02-24,Nantes,Bordeaux,8,4,False
+F1,1819,2019-02-23,Guingamp,Angers,3,7,False
+F1,1819,2019-02-23,Amiens,Nice,7,7,False
 F1,1819,2019-02-24,Rennes,Marseille,7,8,False
 F1,1819,2019-02-24,Toulouse,Caen,7,7,False
+F1,1819,2019-02-24,Montpellier,Reims,4,7,False
+F1,1819,2019-02-24,Nantes,Bordeaux,8,4,False
+F1,1819,2019-02-24,Monaco,Lyon,8,9,False
 F1,1819,2019-03-02,Angers,Monaco,7,6,False
 F1,1819,2019-03-02,Caen,Paris FC,6,7,False
 F1,1819,2019-03-02,Reims,Amiens,6,7,False
-F1,1819,2019-03-03,Guingamp,Nantes,8,7,False
-F1,1819,2019-03-03,Lille,Dijon,9,9,False
-F1,1819,2019-03-03,Lyon,Toulouse,7,7,False
-F1,1819,2019-03-03,Marseille,St Etienne,7,9,False
 F1,1819,2019-03-03,Nice,Strasbourg,8,9,False
+F1,1819,2019-03-03,Marseille,St Etienne,7,9,False
+F1,1819,2019-03-03,Guingamp,Nantes,8,7,False
+F1,1819,2019-03-03,Lyon,Toulouse,7,7,False
+F1,1819,2019-03-03,Lille,Dijon,9,9,False
 F1,1819,2019-03-05,Bordeaux,Montpellier,9,9,True
 F1,1819,2019-03-09,Amiens,Nimes,7,14,False
 F1,1819,2019-03-09,Dijon,Reims,6,7,False
 F1,1819,2019-03-09,Monaco,Bordeaux,7,4,False
 F1,1819,2019-03-09,Strasbourg,Lyon,6,6,False
-F1,1819,2019-03-10,Marseille,Nice,7,7,False
-F1,1819,2019-03-10,Montpellier,Angers,5,8,False
 F1,1819,2019-03-10,Rennes,Caen,14,8,False
-F1,1819,2019-03-10,St Etienne,Lille,7,7,False
+F1,1819,2019-03-10,Montpellier,Angers,5,8,False
 F1,1819,2019-03-10,Toulouse,Guingamp,7,7,False
+F1,1819,2019-03-10,St Etienne,Lille,7,7,False
+F1,1819,2019-03-10,Marseille,Nice,7,7,False
 F1,1819,2019-03-12,Dijon,Paris FC,3,10,True
-F1,1819,2019-03-15,Lille,Monaco,5,6,False
 F1,1819,2019-03-15,Nice,Toulouse,5,5,False
-F1,1819,2019-03-16,Angers,Amiens,6,7,False
+F1,1819,2019-03-15,Lille,Monaco,5,6,False
 F1,1819,2019-03-16,Caen,St Etienne,6,6,False
-F1,1819,2019-03-16,Guingamp,Dijon,6,4,False
 F1,1819,2019-03-16,Nimes,Strasbourg,7,7,False
-F1,1819,2019-03-17,Bordeaux,Rennes,8,7,False
+F1,1819,2019-03-16,Angers,Amiens,6,7,False
+F1,1819,2019-03-16,Guingamp,Dijon,6,4,False
 F1,1819,2019-03-17,Lyon,Montpellier,8,7,False
 F1,1819,2019-03-17,Paris FC,Marseille,5,7,False
 F1,1819,2019-03-17,Reims,Nantes,8,14,False
+F1,1819,2019-03-17,Bordeaux,Rennes,8,7,False
 F1,1819,2019-03-29,Rennes,Lyon,12,12,False
 F1,1819,2019-03-30,Marseille,Angers,13,14,False
-F1,1819,2019-03-31,Amiens,Bordeaux,15,14,False
 F1,1819,2019-03-31,Dijon,Nice,15,16,False
-F1,1819,2019-03-31,Monaco,Caen,16,15,False
 F1,1819,2019-03-31,Nantes,Lille,14,16,False
 F1,1819,2019-03-31,Toulouse,Paris FC,16,14,False
+F1,1819,2019-03-31,Amiens,Bordeaux,15,14,False
+F1,1819,2019-03-31,Monaco,Caen,16,15,False
 F1,1819,2019-04-01,St Etienne,Nimes,16,16,False
-F1,1819,2019-04-03,Montpellier,Guingamp,17,18,True
 F1,1819,2019-04-03,Strasbourg,Reims,18,17,True
+F1,1819,2019-04-03,Montpellier,Guingamp,17,18,True
 F1,1819,2019-04-05,Bordeaux,Marseille,5,6,False
+F1,1819,2019-04-06,Lyon,Dijon,8,6,False
 F1,1819,2019-04-06,Amiens,St Etienne,6,5,False
+F1,1819,2019-04-06,Nimes,Caen,5,6,False
 F1,1819,2019-04-06,Angers,Rennes,7,8,False
 F1,1819,2019-04-06,Guingamp,Monaco,3,6,False
-F1,1819,2019-04-06,Lyon,Dijon,8,6,False
-F1,1819,2019-04-06,Nimes,Caen,5,6,False
-F1,1819,2019-04-07,Nice,Montpellier,7,4,False
-F1,1819,2019-04-07,Paris FC,Strasbourg,7,4,False
-F1,1819,2019-04-07,Reims,Lille,4,7,False
 F1,1819,2019-04-07,Toulouse,Nantes,7,7,False
+F1,1819,2019-04-07,Reims,Lille,4,7,False
+F1,1819,2019-04-07,Paris FC,Strasbourg,7,4,False
+F1,1819,2019-04-07,Nice,Montpellier,7,4,False
 F1,1819,2019-04-09,Nimes,Rennes,3,3,True
 F1,1819,2019-04-12,Dijon,Amiens,6,6,False
 F1,1819,2019-04-12,Nantes,Lyon,5,6,False
+F1,1819,2019-04-13,Strasbourg,Guingamp,6,7,False
 F1,1819,2019-04-13,Caen,Angers,7,7,False
 F1,1819,2019-04-13,Marseille,Nimes,8,4,False
 F1,1819,2019-04-13,Monaco,Reims,7,6,False
-F1,1819,2019-04-13,Strasbourg,Guingamp,6,7,False
 F1,1819,2019-04-14,Lille,Paris FC,7,7,False
 F1,1819,2019-04-14,Montpellier,Toulouse,7,7,False
 F1,1819,2019-04-14,Rennes,Nice,5,7,False
 F1,1819,2019-04-14,St Etienne,Bordeaux,8,9,False
 F1,1819,2019-04-17,Nantes,Paris FC,5,3,True
-F1,1819,2019-04-19,Dijon,Rennes,7,5,False
 F1,1819,2019-04-19,Lyon,Angers,7,6,False
+F1,1819,2019-04-19,Dijon,Rennes,7,5,False
 F1,1819,2019-04-20,Guingamp,Marseille,7,7,False
-F1,1819,2019-04-20,Nice,Caen,6,7,False
 F1,1819,2019-04-20,Nimes,Bordeaux,7,6,False
+F1,1819,2019-04-20,Nice,Caen,6,7,False
 F1,1819,2019-04-20,Strasbourg,Montpellier,7,6,False
-F1,1819,2019-04-21,Nantes,Amiens,4,9,False
-F1,1819,2019-04-21,Paris FC,Monaco,4,8,False
 F1,1819,2019-04-21,Reims,St Etienne,8,7,False
 F1,1819,2019-04-21,Toulouse,Lille,7,7,False
+F1,1819,2019-04-21,Nantes,Amiens,4,9,False
+F1,1819,2019-04-21,Paris FC,Monaco,4,8,False
 F1,1819,2019-04-26,Bordeaux,Lyon,6,7,False
 F1,1819,2019-04-28,Amiens,Strasbourg,7,8,False
-F1,1819,2019-04-28,Angers,Reims,9,7,False
 F1,1819,2019-04-28,Caen,Dijon,8,9,False
 F1,1819,2019-04-28,Lille,Nimes,7,8,False
-F1,1819,2019-04-28,Marseille,Nantes,8,7,False
 F1,1819,2019-04-28,Nice,Guingamp,8,8,False
 F1,1819,2019-04-28,St Etienne,Toulouse,7,7,False
+F1,1819,2019-04-28,Angers,Reims,9,7,False
+F1,1819,2019-04-28,Marseille,Nantes,8,7,False
 F1,1819,2019-04-30,Montpellier,Paris FC,10,9,True
 F1,1819,2019-05-01,Rennes,Monaco,12,10,True
 F1,1819,2019-05-03,Strasbourg,Marseille,5,5,False
@@ -342,38 +344,38 @@ F1,1819,2019-05-04,Bordeaux,Angers,8,6,False
 F1,1819,2019-05-04,Guingamp,Caen,6,6,False
 F1,1819,2019-05-04,Paris FC,Nice,4,6,False
 F1,1819,2019-05-04,Reims,Nimes,6,6,False
+F1,1819,2019-05-05,Nantes,Dijon,7,7,False
 F1,1819,2019-05-05,Lyon,Lille,9,7,False
 F1,1819,2019-05-05,Monaco,St Etienne,4,7,False
 F1,1819,2019-05-05,Montpellier,Amiens,5,7,False
-F1,1819,2019-05-05,Nantes,Dijon,7,7,False
 F1,1819,2019-05-05,Toulouse,Rennes,7,4,False
 F1,1819,2019-05-10,St Etienne,Montpellier,5,5,False
-F1,1819,2019-05-11,Amiens,Toulouse,6,6,False
-F1,1819,2019-05-11,Angers,Paris FC,7,7,False
-F1,1819,2019-05-11,Caen,Reims,7,7,False
-F1,1819,2019-05-11,Dijon,Strasbourg,6,8,False
 F1,1819,2019-05-11,Nice,Nantes,7,6,False
+F1,1819,2019-05-11,Dijon,Strasbourg,6,8,False
+F1,1819,2019-05-11,Caen,Reims,7,7,False
+F1,1819,2019-05-11,Angers,Paris FC,7,7,False
 F1,1819,2019-05-11,Nimes,Monaco,7,6,False
+F1,1819,2019-05-11,Amiens,Toulouse,6,6,False
+F1,1819,2019-05-12,Rennes,Guingamp,7,8,False
 F1,1819,2019-05-12,Lille,Bordeaux,7,8,False
 F1,1819,2019-05-12,Marseille,Lyon,9,7,False
-F1,1819,2019-05-12,Rennes,Guingamp,7,8,False
-F1,1819,2019-05-18,Bordeaux,Reims,6,7,False
-F1,1819,2019-05-18,Guingamp,Nimes,6,7,False
-F1,1819,2019-05-18,Lille,Angers,6,7,False
-F1,1819,2019-05-18,Lyon,Caen,6,7,False
-F1,1819,2019-05-18,Monaco,Amiens,7,7,False
-F1,1819,2019-05-18,Montpellier,Nantes,8,7,False
-F1,1819,2019-05-18,Paris FC,Dijon,7,7,False
 F1,1819,2019-05-18,St Etienne,Nice,8,7,False
 F1,1819,2019-05-18,Strasbourg,Rennes,7,6,False
+F1,1819,2019-05-18,Lyon,Caen,6,7,False
+F1,1819,2019-05-18,Lille,Angers,6,7,False
+F1,1819,2019-05-18,Montpellier,Nantes,8,7,False
+F1,1819,2019-05-18,Guingamp,Nimes,6,7,False
+F1,1819,2019-05-18,Bordeaux,Reims,6,7,False
 F1,1819,2019-05-18,Toulouse,Marseille,7,6,False
-F1,1819,2019-05-24,Amiens,Guingamp,6,6,False
-F1,1819,2019-05-24,Angers,St Etienne,6,6,False
+F1,1819,2019-05-18,Paris FC,Dijon,7,7,False
+F1,1819,2019-05-18,Monaco,Amiens,7,7,False
 F1,1819,2019-05-24,Caen,Bordeaux,6,6,False
 F1,1819,2019-05-24,Dijon,Toulouse,6,6,False
-F1,1819,2019-05-24,Marseille,Montpellier,6,6,False
-F1,1819,2019-05-24,Nantes,Strasbourg,6,6,False
 F1,1819,2019-05-24,Nice,Monaco,6,6,False
-F1,1819,2019-05-24,Nimes,Lyon,6,6,False
-F1,1819,2019-05-24,Reims,Paris FC,6,6,False
+F1,1819,2019-05-24,Nantes,Strasbourg,6,6,False
+F1,1819,2019-05-24,Marseille,Montpellier,6,6,False
+F1,1819,2019-05-24,Amiens,Guingamp,6,6,False
+F1,1819,2019-05-24,Angers,St Etienne,6,6,False
 F1,1819,2019-05-24,Rennes,Lille,6,6,False
+F1,1819,2019-05-24,Reims,Paris FC,6,6,False
+F1,1819,2019-05-24,Nimes,Lyon,6,6,False

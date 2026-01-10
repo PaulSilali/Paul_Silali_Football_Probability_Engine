@@ -1,0 +1,241 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Levadeiakos,Aris,1,1,D,1
+2016-01-10,Kerkyra,Giannina,0,1,A,0
+2016-01-10,Iraklis,Ionikos,1,2,A,0
+2016-02-10,Olympiakos,AEK,3,0,H,0
+2016-02-10,Panathinaikos,Asteras Tripolis,3,1,H,0
+2016-02-10,Veria,PAOK,0,0,D,1
+2016-02-10,Platanias,Panetolikos,0,0,D,1
+2016-03-10,Xanthi,Atromitos,0,0,D,1
+2016-03-12,Kerkyra,AEK,1,1,D,1
+2016-03-12,Platanias,Ionikos,1,1,D,1
+2016-03-12,Veria,Panetolikos,1,1,D,1
+2016-04-12,Aris,Atromitos,1,2,A,0
+2016-04-12,Panathinaikos,PAOK,1,0,H,0
+2016-04-12,Olympiakos,Levadeiakos,4,0,H,0
+2016-04-12,Xanthi,Asteras Tripolis,3,1,H,0
+2016-05-11,Levadeiakos,Xanthi,1,1,D,1
+2016-05-11,AEK,Atromitos,2,2,D,1
+2016-05-11,Giannina,Asteras Tripolis,1,2,A,0
+2016-05-12,Iraklis,Giannina,2,1,H,0
+2016-06-11,Olympiakos,Panathinaikos,3,0,H,0
+2016-06-11,Panetolikos,Aris,2,1,H,0
+2016-06-11,Ionikos,PAOK,1,0,H,0
+2016-06-11,Kerkyra,Veria,2,0,H,0
+2016-07-11,Iraklis,Platanias,1,1,D,1
+2016-09-17,Platanias,Levadeiakos,3,2,H,0
+2016-09-17,Xanthi,Ionikos,0,2,A,0
+2016-09-17,Veria,AEK,0,2,A,0
+2016-09-18,Kerkyra,Aris,2,0,H,0
+2016-09-18,Atromitos,Panetolikos,0,2,A,0
+2016-09-18,Iraklis,Olympiakos,1,2,A,0
+2016-09-18,Panathinaikos,Giannina,4,0,H,0
+2016-09-19,Asteras Tripolis,PAOK,1,2,A,0
+2016-09-24,Panetolikos,Panathinaikos,0,0,D,1
+2016-09-24,Giannina,Platanias,0,0,D,1
+2016-09-24,Ionikos,Veria,1,2,A,0
+2016-09-25,Aris,Olympiakos,1,0,H,0
+2016-09-25,Levadeiakos,Kerkyra,2,1,H,0
+2016-09-25,PAOK,Xanthi,0,0,D,1
+2016-09-25,Atromitos,Asteras Tripolis,1,0,H,0
+2016-09-26,AEK,Iraklis,0,0,D,1
+2016-10-09,Kerkyra,Platanias,0,1,A,0
+2016-10-09,Levadeiakos,Panathinaikos,0,3,A,0
+2016-10-09,Ionikos,Asteras Tripolis,3,0,H,0
+2016-10-12,AEK,Levadeiakos,4,0,H,0
+2016-10-12,Xanthi,Aris,1,0,H,0
+2016-10-12,Asteras Tripolis,Veria,0,0,D,1
+2016-10-15,Panetolikos,Kerkyra,4,0,H,0
+2016-10-15,Ionikos,Olympiakos,0,2,A,0
+2016-10-15,Asteras Tripolis,Platanias,2,0,H,0
+2016-10-16,PAOK,Iraklis,1,0,H,0
+2016-10-16,Atromitos,Veria,1,0,H,0
+2016-10-16,Panathinaikos,Xanthi,1,2,A,0
+2016-10-17,Aris,AEK,1,2,A,0
+2016-10-22,Kerkyra,Asteras Tripolis,2,0,H,0
+2016-10-22,AEK,Ionikos,0,0,D,1
+2016-10-22,Platanias,Xanthi,0,1,A,0
+2016-10-23,Iraklis,Atromitos,1,2,A,0
+2016-10-23,Olympiakos,PAOK,2,1,H,0
+2016-10-23,Giannina,Aris,4,0,H,0
+2016-10-23,Levadeiakos,Panetolikos,2,1,H,0
+2016-10-24,Veria,Panathinaikos,1,1,D,1
+2016-10-29,Xanthi,Kerkyra,0,0,D,1
+2016-10-29,Atromitos,Olympiakos,0,1,A,0
+2016-10-29,Aris,Ionikos,2,0,H,0
+2016-10-30,PAOK,AEK,1,0,H,0
+2016-10-30,Panathinaikos,Iraklis,2,0,H,0
+2016-10-30,Asteras Tripolis,Levadeiakos,1,0,H,0
+2016-10-30,Veria,Platanias,0,0,D,1
+2016-10-31,Panetolikos,Giannina,1,2,A,0
+2016-11-09,PAOK,Panetolikos,2,1,H,0
+2016-11-09,Giannina,Atromitos,3,0,H,0
+2016-11-09,AEK,Xanthi,4,1,H,0
+2016-11-09,Olympiakos,Veria,6,1,H,0
+2016-11-12,Ionikos,Kerkyra,1,0,H,0
+2016-11-12,PAOK,Platanias,3,0,H,0
+2016-11-12,Panetolikos,Iraklis,2,0,H,0
+2016-11-12,Atromitos,Panathinaikos,0,1,A,0
+2016-11-23,Giannina,Levadeiakos,0,0,D,1
+2016-11-26,Giannina,Veria,2,0,H,0
+2016-11-26,AEK,Platanias,3,0,H,0
+2016-11-26,Asteras Tripolis,Aris,1,1,D,1
+2016-11-27,Olympiakos,Kerkyra,0,0,D,1
+2016-11-27,Ionikos,Panathinaikos,1,1,D,1
+2016-11-27,Panetolikos,Xanthi,2,3,A,0
+2016-11-27,Levadeiakos,Iraklis,3,0,H,0
+2016-11-28,PAOK,Atromitos,3,4,A,0
+2016-12-09,Aris,Iraklis,2,2,D,1
+2016-12-12,Giannina,Olympiakos,0,2,A,0
+2016-12-17,Kerkyra,PAOK,0,5,A,0
+2016-12-17,Veria,Xanthi,0,4,A,0
+2016-12-17,Platanias,Atromitos,3,0,H,0
+2016-12-18,Iraklis,Asteras Tripolis,1,1,D,1
+2016-12-18,Levadeiakos,Ionikos,1,4,A,0
+2016-12-18,Aris,Panathinaikos,0,0,D,1
+2016-12-18,Olympiakos,Panetolikos,3,1,H,0
+2016-12-19,AEK,Giannina,1,1,D,1
+2017-01-02,Aris,PAOK,0,2,A,0
+2017-01-02,Iraklis,Kerkyra,0,0,D,1
+2017-01-04,Giannina,Xanthi,1,1,D,1
+2017-01-04,Olympiakos,Platanias,2,1,H,0
+2017-01-04,Levadeiakos,Veria,3,1,H,0
+2017-01-14,Veria,Levadeiakos,2,0,H,0
+2017-01-14,Platanias,Olympiakos,2,2,D,1
+2017-01-15,Atromitos,Ionikos,1,2,A,0
+2017-01-15,Xanthi,Giannina,2,0,H,0
+2017-01-15,Panathinaikos,AEK,0,0,D,1
+2017-01-15,Asteras Tripolis,Panetolikos,4,1,H,0
+2017-01-18,Xanthi,Iraklis,3,1,H,0
+2017-01-18,Panetolikos,AEK,3,2,H,0
+2017-01-18,Atromitos,Kerkyra,1,4,A,0
+2017-01-18,Asteras Tripolis,Olympiakos,0,0,D,1
+2017-01-18,Giannina,Ionikos,1,0,H,0
+2017-01-18,Veria,Aris,1,1,D,1
+2017-01-19,PAOK,Levadeiakos,3,0,H,0
+2017-01-19,Panathinaikos,Platanias,2,1,H,0
+2017-01-21,Olympiakos,Xanthi,2,0,H,0
+2017-01-21,Iraklis,Veria,1,1,D,1
+2017-01-21,Ionikos,Panetolikos,2,0,H,0
+2017-01-22,Aris,Platanias,0,0,D,1
+2017-01-22,Levadeiakos,Atromitos,1,1,D,1
+2017-01-22,Kerkyra,Panathinaikos,1,1,D,1
+2017-01-22,AEK,Asteras Tripolis,2,0,H,0
+2017-01-23,Giannina,PAOK,0,1,A,0
+2017-01-25,Veria,Iraklis,0,2,A,0
+2017-01-28,Xanthi,AEK,0,0,D,1
+2017-01-28,Iraklis,Aris,1,1,D,1
+2017-01-28,Asteras Tripolis,Ionikos,1,1,D,1
+2017-01-29,Atromitos,Giannina,1,1,D,1
+2017-01-29,Platanias,Kerkyra,2,1,H,0
+2017-01-29,Panathinaikos,Levadeiakos,0,0,D,1
+2017-01-29,Veria,Olympiakos,1,2,A,0
+2017-01-29,Panetolikos,PAOK,0,1,A,0
+2017-02-04,AEK,Panathinaikos,2,3,A,0
+2017-02-04,Ionikos,Atromitos,2,1,H,0
+2017-02-04,Kerkyra,Iraklis,0,3,A,0
+2017-02-04,PAOK,Aris,2,0,H,0
+2017-02-04,Panetolikos,Asteras Tripolis,1,1,D,1
+2017-02-13,Iraklis,AEK,2,2,D,1
+2017-02-18,Giannina,Kerkyra,1,0,H,0
+2017-02-18,Atromitos,Xanthi,2,1,H,0
+2017-02-18,Asteras Tripolis,Panathinaikos,0,5,A,0
+2017-02-19,PAOK,Veria,4,0,H,0
+2017-02-19,Panetolikos,Platanias,1,2,A,0
+2017-02-19,AEK,Olympiakos,1,0,H,0
+2017-02-19,Ionikos,Iraklis,1,0,H,0
+2017-02-20,Aris,Levadeiakos,2,1,H,0
+2017-02-25,Kerkyra,Panetolikos,0,0,D,1
+2017-02-25,Xanthi,Panathinaikos,1,0,H,0
+2017-02-25,Platanias,Asteras Tripolis,3,0,H,0
+2017-02-26,AEK,Aris,3,0,H,0
+2017-02-26,Iraklis,PAOK,1,1,D,1
+2017-02-26,Olympiakos,Ionikos,0,1,A,0
+2017-02-26,Levadeiakos,Giannina,2,1,H,0
+2017-02-27,Veria,Atromitos,0,1,A,0
+2017-03-01,Iraklis,Xanthi,0,1,A,0
+2017-03-01,Levadeiakos,PAOK,0,1,A,0
+2017-03-13,Levadeiakos,Asteras Tripolis,1,1,D,1
+2017-03-18,Aris,Panetolikos,1,0,H,0
+2017-03-18,Veria,Kerkyra,4,0,H,0
+2017-03-18,Atromitos,AEK,0,1,A,0
+2017-03-19,Panathinaikos,Olympiakos,1,0,H,0
+2017-03-19,PAOK,Ionikos,1,0,H,0
+2017-03-19,Asteras Tripolis,Giannina,1,1,D,1
+2017-03-19,Xanthi,Levadeiakos,2,2,D,1
+2017-03-20,Platanias,Iraklis,1,0,H,0
+2017-04-01,AEK,Panetolikos,0,0,D,1
+2017-04-01,Aris,Veria,2,1,H,0
+2017-04-01,Kerkyra,Atromitos,1,1,D,1
+2017-04-01,Olympiakos,Asteras Tripolis,2,1,H,0
+2017-04-02,Giannina,Panathinaikos,1,1,D,1
+2017-04-02,Aris,Kerkyra,1,1,D,1
+2017-04-02,Panetolikos,Atromitos,2,0,H,0
+2017-04-03,Aris,Giannina,1,1,D,1
+2017-04-03,Panathinaikos,Veria,5,0,H,0
+2017-04-03,Panetolikos,Levadeiakos,2,0,H,0
+2017-04-23,Aris,Xanthi,1,0,H,0
+2017-04-23,Kerkyra,Ionikos,1,0,H,0
+2017-04-23,Levadeiakos,AEK,0,2,A,0
+2017-04-23,Olympiakos,Giannina,5,0,H,0
+2017-04-23,Panathinaikos,Atromitos,1,0,H,0
+2017-04-23,Iraklis,Panetolikos,2,1,H,0
+2017-04-23,Platanias,PAOK,1,3,A,0
+2017-04-23,Veria,Asteras Tripolis,4,3,H,0
+2017-04-30,Xanthi,Veria,3,0,H,0
+2017-04-30,Atromitos,Platanias,4,1,H,0
+2017-04-30,Asteras Tripolis,Iraklis,2,2,D,1
+2017-04-30,Giannina,AEK,1,1,D,1
+2017-04-30,Panathinaikos,Aris,2,0,H,0
+2017-04-30,Panetolikos,Olympiakos,0,2,A,0
+2017-04-30,PAOK,Kerkyra,5,1,H,0
+2017-04-30,Ionikos,Levadeiakos,1,3,A,0
+2017-05-01,Platanias,Panathinaikos,1,0,H,0
+2017-05-01,Ionikos,Giannina,1,1,D,1
+2017-05-02,AEK,Veria,6,0,H,0
+2017-05-02,Olympiakos,Iraklis,3,0,H,0
+2017-05-02,Ionikos,Xanthi,2,0,H,0
+2017-05-02,PAOK,Asteras Tripolis,3,2,H,0
+2017-05-03,Atromitos,Iraklis,1,0,H,0
+2017-05-03,PAOK,Olympiakos,2,0,H,0
+2017-05-03,Xanthi,Platanias,1,0,H,0
+2017-05-03,Asteras Tripolis,Kerkyra,1,2,A,0
+2017-05-04,Atromitos,PAOK,0,2,A,0
+2017-05-04,Xanthi,Panetolikos,3,0,H,0
+2017-05-04,Veria,Giannina,3,0,H,0
+2017-05-04,Kerkyra,Olympiakos,0,2,A,0
+2017-05-04,Iraklis,Levadeiakos,1,0,H,0
+2017-05-04,Aris,Asteras Tripolis,1,4,A,0
+2017-06-02,Levadeiakos,Platanias,1,2,A,0
+2017-06-03,Ionikos,AEK,1,1,D,1
+2017-06-04,Platanias,AEK,0,2,A,0
+2017-06-04,Panathinaikos,Ionikos,1,0,H,0
+2017-07-01,Asteras Tripolis,AEK,3,2,H,0
+2017-07-01,Atromitos,Levadeiakos,2,0,H,0
+2017-08-01,Xanthi,Olympiakos,0,2,A,0
+2017-08-01,Platanias,Aris,3,2,H,0
+2017-08-01,Panetolikos,Ionikos,0,2,A,0
+2017-08-01,PAOK,Giannina,0,1,A,0
+2017-09-01,Panathinaikos,Kerkyra,1,0,H,0
+2017-09-04,Panetolikos,Veria,1,0,H,0
+2017-09-04,PAOK,Panathinaikos,3,0,H,0
+2017-09-04,Giannina,Iraklis,1,2,A,0
+2017-09-04,Levadeiakos,Olympiakos,1,1,D,1
+2017-09-04,Ionikos,Platanias,1,1,D,1
+2017-09-04,AEK,Kerkyra,5,0,H,0
+2017-09-04,Asteras Tripolis,Xanthi,0,0,D,1
+2017-09-04,Atromitos,Aris,0,0,D,1
+2017-11-02,Asteras Tripolis,Atromitos,0,1,A,0
+2017-11-02,Veria,Ionikos,0,1,A,0
+2017-11-02,Olympiakos,Aris,2,0,H,0
+2017-11-03,Giannina,Panetolikos,0,0,D,1
+2017-11-03,Ionikos,Aris,1,0,H,0
+2017-11-03,Iraklis,Panathinaikos,1,1,D,1
+2017-12-02,Panathinaikos,Panetolikos,4,0,H,0
+2017-12-02,Kerkyra,Levadeiakos,1,0,H,0
+2017-12-02,Platanias,Giannina,3,3,D,1
+2017-12-02,Xanthi,PAOK,0,0,D,1
+2017-12-03,Platanias,Veria,1,0,H,0
+2017-12-03,Olympiakos,Atromitos,2,0,H,0
+2017-12-03,Kerkyra,Xanthi,1,0,H,0
+2017-12-03,AEK,PAOK,3,0,H,0

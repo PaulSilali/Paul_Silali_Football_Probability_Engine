@@ -412,18 +412,61 @@ async def create_jackpot(
         db.add(jackpot)
         db.flush()
         
-        # Create fixtures
+        # Create fixtures with league inference
+        from app.services.fixture_league_resolver import infer_league_from_fixture, resolve_fixture_teams
+        
         for idx, fixture in enumerate(fixtures):
-            jackpot_fixture = JackpotFixture(
-                jackpot_id=jackpot.id,
-                match_order=idx + 1,
-                home_team=fixture.homeTeam,
-                away_team=fixture.awayTeam,
-                odds_home=fixture.odds.home if fixture.odds else 2.0,
-                odds_draw=fixture.odds.draw if fixture.odds else 3.0,
-                odds_away=fixture.odds.away if fixture.odds else 2.5
-            )
-            db.add(jackpot_fixture)
+            try:
+                # Infer league from fixture data
+                # If league field contains "International", treat as international
+                fixture_type = None
+                country = None
+                
+                if fixture.league and "international" in str(fixture.league).lower():
+                    fixture_type = "International"
+                else:
+                    # Use league field as country fallback
+                    country = fixture.league
+                
+                # Infer league
+                league = infer_league_from_fixture(
+                    db=db,
+                    fixture_type=fixture_type,
+                    country=country,
+                    home_team=fixture.homeTeam,
+                    away_team=fixture.awayTeam
+                )
+                
+                # Resolve or create teams
+                home_team_obj, away_team_obj = resolve_fixture_teams(
+                    db=db,
+                    home_team=fixture.homeTeam,
+                    away_team=fixture.awayTeam,
+                    league=league
+                )
+                
+                # Create fixture with league_id and team_ids
+                jackpot_fixture = JackpotFixture(
+                    jackpot_id=jackpot.id,
+                    match_order=idx + 1,
+                    home_team=fixture.homeTeam,
+                    away_team=fixture.awayTeam,
+                    league_id=league.id,
+                    home_team_id=home_team_obj.id,
+                    away_team_id=away_team_obj.id,
+                    odds_home=fixture.odds.home if fixture.odds else 2.0,
+                    odds_draw=fixture.odds.draw if fixture.odds else 3.0,
+                    odds_away=fixture.odds.away if fixture.odds else 2.5
+                )
+                db.add(jackpot_fixture)
+                logger.info(f"Created fixture {idx + 1}: {fixture.homeTeam} vs {fixture.awayTeam} in league {league.code}")
+                
+            except Exception as e:
+                logger.error(f"Error creating fixture {idx + 1}: {e}", exc_info=True)
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Fixture {idx + 1} ({fixture.homeTeam} vs {fixture.awayTeam}): {str(e)}"
+                )
         
         db.commit()
         
@@ -514,6 +557,112 @@ async def update_jackpot(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/{jackpot_id}/convert-to-training-data", response_model=ApiResponse)
+async def convert_jackpot_to_training_data(
+    jackpot_id: str,
+    season: Optional[str] = None,
+    match_date: Optional[str] = None,
+    skip_existing: bool = True,
+    db: Session = Depends(get_db)
+):
+    """
+    Convert jackpot fixtures with results to Match records for training
+    
+    This allows using historical jackpot predictions with actual results
+    as training data for the model.
+    
+    Args:
+        jackpot_id: Jackpot ID to convert
+        season: Season identifier (e.g., '2425'). If None, inferred from match_date
+        match_date: Match date (YYYY-MM-DD). If None, uses jackpot kickoff_date
+        skip_existing: Skip fixtures that already have corresponding matches
+    """
+    try:
+        from app.services.jackpot_to_training_data import convert_jackpot_to_matches
+        from datetime import datetime
+        
+        # Parse match_date if provided
+        parsed_date = None
+        if match_date:
+            try:
+                parsed_date = datetime.strptime(match_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Invalid date format: {match_date}. Use YYYY-MM-DD"
+                )
+        
+        result = convert_jackpot_to_matches(
+            db=db,
+            jackpot_id=jackpot_id,
+            season=season,
+            match_date=parsed_date,
+            skip_existing=skip_existing
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(
+                status_code=400,
+                detail=result.get("error", "Conversion failed")
+            )
+        
+        return ApiResponse(
+            success=True,
+            message=f"Converted {result['converted']} fixtures to matches",
+            data=result
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error converting jackpot to training data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/convert-multiple-to-training-data", response_model=ApiResponse)
+async def batch_convert_jackpots_to_training_data(
+    jackpot_ids: Optional[List[str]] = None,
+    use_all_jackpots: bool = False,
+    skip_existing: bool = True,
+    db: Session = Depends(get_db)
+):
+    """
+    Convert multiple jackpots with results to Match records for training
+    
+    Args:
+        jackpot_ids: List of jackpot IDs to convert (None = all)
+        use_all_jackpots: Convert all jackpots with results
+        skip_existing: Skip fixtures that already have matches
+    """
+    try:
+        from app.services.jackpot_to_training_data import batch_convert_jackpots_to_matches
+        
+        result = batch_convert_jackpots_to_matches(
+            db=db,
+            jackpot_ids=jackpot_ids,
+            use_all_jackpots=use_all_jackpots,
+            skip_existing=skip_existing
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(
+                status_code=400,
+                detail=result.get("error", "Batch conversion failed")
+            )
+        
+        return ApiResponse(
+            success=True,
+            message=f"Converted {result['converted_jackpots']} jackpots, {result['total_matches']} matches",
+            data=result
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error batch converting jackpots to training data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.delete("/{jackpot_id}")
 async def delete_jackpot(
     jackpot_id: str,
@@ -537,6 +686,112 @@ async def delete_jackpot(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/{jackpot_id}/convert-to-training-data", response_model=ApiResponse)
+async def convert_jackpot_to_training_data(
+    jackpot_id: str,
+    season: Optional[str] = None,
+    match_date: Optional[str] = None,
+    skip_existing: bool = True,
+    db: Session = Depends(get_db)
+):
+    """
+    Convert jackpot fixtures with results to Match records for training
+    
+    This allows using historical jackpot predictions with actual results
+    as training data for the model.
+    
+    Args:
+        jackpot_id: Jackpot ID to convert
+        season: Season identifier (e.g., '2425'). If None, inferred from match_date
+        match_date: Match date (YYYY-MM-DD). If None, uses jackpot kickoff_date
+        skip_existing: Skip fixtures that already have corresponding matches
+    """
+    try:
+        from app.services.jackpot_to_training_data import convert_jackpot_to_matches
+        from datetime import datetime
+        
+        # Parse match_date if provided
+        parsed_date = None
+        if match_date:
+            try:
+                parsed_date = datetime.strptime(match_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Invalid date format: {match_date}. Use YYYY-MM-DD"
+                )
+        
+        result = convert_jackpot_to_matches(
+            db=db,
+            jackpot_id=jackpot_id,
+            season=season,
+            match_date=parsed_date,
+            skip_existing=skip_existing
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(
+                status_code=400,
+                detail=result.get("error", "Conversion failed")
+            )
+        
+        return ApiResponse(
+            success=True,
+            message=f"Converted {result['converted']} fixtures to matches",
+            data=result
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error converting jackpot to training data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/convert-multiple-to-training-data", response_model=ApiResponse)
+async def batch_convert_jackpots_to_training_data(
+    jackpot_ids: Optional[List[str]] = Body(None, embed=True),
+    use_all_jackpots: bool = Body(False, embed=True),
+    skip_existing: bool = Body(True, embed=True),
+    db: Session = Depends(get_db)
+):
+    """
+    Convert multiple jackpots with results to Match records for training
+    
+    Args:
+        jackpot_ids: List of jackpot IDs to convert (None = all)
+        use_all_jackpots: Convert all jackpots with results
+        skip_existing: Skip fixtures that already have matches
+    """
+    try:
+        from app.services.jackpot_to_training_data import batch_convert_jackpots_to_matches
+        
+        result = batch_convert_jackpots_to_matches(
+            db=db,
+            jackpot_ids=jackpot_ids,
+            use_all_jackpots=use_all_jackpots,
+            skip_existing=skip_existing
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(
+                status_code=400,
+                detail=result.get("error", "Batch conversion failed")
+            )
+        
+        return ApiResponse(
+            success=True,
+            message=f"Converted {result['converted_jackpots']} jackpots, {result['total_matches']} matches",
+            data=result
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error batch converting jackpots to training data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/{jackpot_id}/submit", response_model=ApiResponse)
 async def submit_jackpot(
     jackpot_id: str,
@@ -555,15 +810,6 @@ async def submit_jackpot(
     
     return ApiResponse(
         data={"jackpot_id": jackpot.jackpot_id, "status": jackpot.status},
-        success=True,
-        message="Jackpot submitted successfully"
-    )
-    
-    return ApiResponse(
-        data={
-            "id": jackpot.jackpot_id,
-            "status": jackpot.status
-        },
         success=True,
         message="Jackpot submitted successfully"
     )

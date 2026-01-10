@@ -35,10 +35,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8808,Sp Braga,8815,Pacos Ferreira,1617,2,0,0.0,3.5
 8808,Sp Braga,8818,Boavista,1617,2,1,0.5,2.5
 8811,Tondela,8814,Belenenses,1617,2,1,0.5,0.5
+8820,Farense,8823,Setubal,1617,2,1,0.5,2.5
 8811,Tondela,8823,Setubal,1617,2,0,0.0,3.0
 8804,Estoril,8806,Benfica,1617,2,0,0.0,2.0
 8803,Arouca,8807,Maritimo,1617,2,0,0.0,2.5
-8820,Farense,8823,Setubal,1617,2,1,0.5,2.5
 8806,Benfica,8822,Aves,1617,2,0,0.0,3.0
 8801,Sp Lisbon,8814,Belenenses,1617,2,0,0.0,2.5
 8820,Farense,8822,Aves,1617,2,1,0.5,3.5
@@ -70,8 +70,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8801,Sp Lisbon,8813,Porto,1617,2,0,0.0,3.0
 8815,Pacos Ferreira,8820,Farense,1617,2,0,0.0,1.5
 8801,Sp Lisbon,8819,Nacional,1617,2,1,0.5,1.0
-8815,Pacos Ferreira,8822,Aves,1617,2,1,0.5,1.5
 8803,Arouca,8814,Belenenses,1617,2,1,0.5,2.5
+8815,Pacos Ferreira,8822,Aves,1617,2,1,0.5,1.5
 8808,Sp Braga,8820,Farense,1617,2,0,0.0,4.5
 8818,Boavista,8822,Aves,1617,2,2,1.0,2.0
 8805,Moreirense,8811,Tondela,1617,2,1,0.5,2.5
@@ -104,9 +104,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8808,Sp Braga,8822,Aves,1617,2,1,0.5,0.5
 8808,Sp Braga,8821,Rio Ave,1617,2,1,0.5,1.5
 8806,Benfica,8811,Tondela,1617,2,0,0.0,3.0
-8803,Arouca,8804,Estoril,1617,2,0,0.0,4.5
 8805,Moreirense,8808,Sp Braga,1617,2,0,0.0,3.0
 8809,Guimaraes,8819,Nacional,1617,2,0,0.0,3.0
+8803,Arouca,8804,Estoril,1617,2,0,0.0,4.5
 8821,Rio Ave,8822,Aves,1617,2,2,1.0,4.0
 8803,Arouca,8819,Nacional,1617,2,1,0.5,2.0
 8807,Maritimo,8813,Porto,1617,2,1,0.5,2.5
@@ -115,8 +115,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8806,Benfica,8814,Belenenses,1617,2,0,0.0,3.0
 8809,Guimaraes,8823,Setubal,1617,2,0,0.0,3.0
 8815,Pacos Ferreira,8821,Rio Ave,1617,2,1,0.5,1.5
-8821,Rio Ave,8823,Setubal,1617,2,1,0.5,0.5
 8807,Maritimo,8818,Boavista,1617,2,1,0.5,2.5
+8821,Rio Ave,8823,Setubal,1617,2,1,0.5,0.5
 8818,Boavista,8821,Rio Ave,1617,2,0,0.0,2.0
 8806,Benfica,8815,Pacos Ferreira,1617,2,1,0.5,1.5
 8804,Estoril,8808,Sp Braga,1617,2,1,0.5,3.0

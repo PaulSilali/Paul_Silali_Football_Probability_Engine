@@ -1,131 +1,131 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-SP1,1617,2016-01-10,Osasuna,Las Palmas,7,7,False
 SP1,1617,2016-01-10,Sevilla,Alaves,7,7,False
-SP1,1617,2016-01-10,La Coruna,Sp Gijon,7,7,False
 SP1,1617,2016-01-10,Granada,Levante,7,7,False
-SP1,1617,2016-02-10,Celta,Barcelona,7,7,True
+SP1,1617,2016-01-10,La Coruna,Sp Gijon,7,7,False
+SP1,1617,2016-01-10,Osasuna,Las Palmas,7,7,False
 SP1,1617,2016-02-10,Espanol,Villarreal,7,7,True
-SP1,1617,2016-02-10,Malaga,Ath Bilbao,7,7,True
 SP1,1617,2016-02-10,Ath Madrid,Eibar,7,7,True
+SP1,1617,2016-02-10,Celta,Barcelona,7,7,True
+SP1,1617,2016-02-10,Malaga,Ath Bilbao,7,7,True
 SP1,1617,2016-02-10,Valencia,Ath Madrid,7,7,True
 SP1,1617,2016-03-12,Barcelona,Ath Madrid,31,31,False
-SP1,1617,2016-03-12,Ath Madrid,Espanol,31,31,False
 SP1,1617,2016-03-12,Levante,Villarreal,62,31,False
+SP1,1617,2016-03-12,Ath Madrid,Espanol,31,31,False
 SP1,1617,2016-03-12,Granada,Sevilla,62,62,False
 SP1,1617,2016-04-11,Malaga,Sp Gijon,61,92,False
-SP1,1617,2016-04-12,Betis,Celta,7,62,True
-SP1,1617,2016-04-12,Valencia,Malaga,62,1,True
 SP1,1617,2016-04-12,Alaves,Las Palmas,93,93,True
-SP1,1617,2016-04-12,Ath Bilbao,Eibar,62,62,True
 SP1,1617,2016-04-12,Sp Gijon,Osasuna,1,93,True
-SP1,1617,2016-05-11,Granada,La Coruna,60,122,True
-SP1,1617,2016-05-11,Sociedad,Ath Madrid,7,60,True
+SP1,1617,2016-04-12,Betis,Celta,7,62,True
+SP1,1617,2016-04-12,Ath Bilbao,Eibar,62,62,True
+SP1,1617,2016-04-12,Valencia,Malaga,62,1,True
 SP1,1617,2016-05-11,Osasuna,Alaves,29,29,True
+SP1,1617,2016-05-11,Granada,La Coruna,60,122,True
 SP1,1617,2016-05-11,Las Palmas,Eibar,29,29,True
+SP1,1617,2016-05-11,Sociedad,Ath Madrid,7,60,True
 SP1,1617,2016-05-12,La Coruna,Sociedad,1,1,True
-SP1,1617,2016-06-11,Ath Madrid,Levante,31,91,False
-SP1,1617,2016-06-11,Espanol,Ath Bilbao,91,60,False
-SP1,1617,2016-06-11,Celta,Valencia,60,60,False
-SP1,1617,2016-06-11,Sevilla,Barcelona,91,91,False
 SP1,1617,2016-06-11,Villarreal,Betis,91,60,False
+SP1,1617,2016-06-11,Celta,Valencia,60,60,False
+SP1,1617,2016-06-11,Espanol,Ath Bilbao,91,60,False
+SP1,1617,2016-06-11,Ath Madrid,Levante,31,91,False
+SP1,1617,2016-06-11,Sevilla,Barcelona,91,91,False
 SP1,1617,2016-08-19,La Coruna,Eibar,99,100,False
 SP1,1617,2016-08-19,Malaga,Osasuna,129,100,False
-SP1,1617,2016-08-20,Barcelona,Betis,70,70,False
 SP1,1617,2016-08-20,Sevilla,Espanol,70,70,False
 SP1,1617,2016-08-20,Granada,Villarreal,101,70,False
+SP1,1617,2016-08-20,Barcelona,Betis,70,70,False
+SP1,1617,2016-08-21,Ath Madrid,Alaves,71,102,False
 SP1,1617,2016-08-21,Sp Gijon,Ath Bilbao,131,71,False
 SP1,1617,2016-08-21,Sociedad,Ath Madrid,101,71,False
-SP1,1617,2016-08-21,Ath Madrid,Alaves,71,102,False
-SP1,1617,2016-08-22,Valencia,Las Palmas,72,103,False
 SP1,1617,2016-08-22,Celta,Levante,72,72,False
-SP1,1617,2016-08-26,Espanol,Malaga,6,7,False
+SP1,1617,2016-08-22,Valencia,Las Palmas,72,103,False
 SP1,1617,2016-08-26,Betis,La Coruna,6,7,False
-SP1,1617,2016-08-27,Osasuna,Sociedad,8,6,False
+SP1,1617,2016-08-26,Espanol,Malaga,6,7,False
+SP1,1617,2016-08-27,Ath Madrid,Celta,6,5,False
 SP1,1617,2016-08-27,Eibar,Valencia,8,5,False
 SP1,1617,2016-08-27,Levante,Ath Madrid,5,6,False
-SP1,1617,2016-08-27,Ath Madrid,Celta,6,5,False
-SP1,1617,2016-08-28,Las Palmas,Granada,6,8,False
-SP1,1617,2016-08-28,Villarreal,Sevilla,8,8,False
+SP1,1617,2016-08-27,Osasuna,Sociedad,8,6,False
 SP1,1617,2016-08-28,Alaves,Sp Gijon,7,7,False
 SP1,1617,2016-08-28,Ath Bilbao,Barcelona,7,8,False
+SP1,1617,2016-08-28,Villarreal,Sevilla,8,8,False
+SP1,1617,2016-08-28,Las Palmas,Granada,6,8,False
 SP1,1617,2016-09-09,Sociedad,Espanol,13,14,False
 SP1,1617,2016-09-12,Malaga,Granada,17,15,False
 SP1,1617,2016-09-16,Betis,Granada,21,4,False
 SP1,1617,2016-09-17,Las Palmas,Malaga,20,5,False
-SP1,1617,2016-09-17,Ath Madrid,Sp Gijon,21,20,False
-SP1,1617,2016-09-17,Levante,Barcelona,21,20,False
 SP1,1617,2016-09-17,Eibar,Sevilla,21,20,False
-SP1,1617,2016-09-18,Villarreal,Sociedad,21,9,False
-SP1,1617,2016-09-18,Osasuna,Celta,22,22,False
+SP1,1617,2016-09-17,Levante,Barcelona,21,20,False
+SP1,1617,2016-09-17,Ath Madrid,Sp Gijon,21,20,False
 SP1,1617,2016-09-18,Ath Bilbao,Valencia,21,22,False
 SP1,1617,2016-09-18,Espanol,Ath Madrid,9,1,False
+SP1,1617,2016-09-18,Osasuna,Celta,22,22,False
+SP1,1617,2016-09-18,Villarreal,Sociedad,21,9,False
 SP1,1617,2016-09-19,Alaves,La Coruna,22,24,False
-SP1,1617,2016-09-20,Sevilla,Betis,3,4,True
 SP1,1617,2016-09-20,Malaga,Eibar,3,3,True
+SP1,1617,2016-09-20,Sevilla,Betis,3,4,True
+SP1,1617,2016-09-21,Granada,Ath Bilbao,5,3,True
 SP1,1617,2016-09-21,Ath Madrid,Villarreal,3,3,True
 SP1,1617,2016-09-21,Sociedad,Las Palmas,3,4,True
-SP1,1617,2016-09-21,Granada,Ath Bilbao,5,3,True
-SP1,1617,2016-09-21,Celta,Sp Gijon,3,4,True
 SP1,1617,2016-09-21,Barcelona,Ath Madrid,4,3,True
-SP1,1617,2016-09-22,Osasuna,Espanol,4,4,True
+SP1,1617,2016-09-21,Celta,Sp Gijon,3,4,True
 SP1,1617,2016-09-22,Valencia,Alaves,4,3,True
 SP1,1617,2016-09-22,La Coruna,Levante,3,5,True
+SP1,1617,2016-09-22,Osasuna,Espanol,4,4,True
 SP1,1617,2016-09-23,Betis,Malaga,3,3,False
-SP1,1617,2016-09-24,Ath Bilbao,Sevilla,3,4,False
+SP1,1617,2016-09-24,Eibar,Sociedad,4,3,False
 SP1,1617,2016-09-24,Sp Gijon,Barcelona,3,3,False
 SP1,1617,2016-09-24,Las Palmas,Ath Madrid,3,3,False
-SP1,1617,2016-09-24,Eibar,Sociedad,4,3,False
-SP1,1617,2016-09-25,Ath Madrid,La Coruna,1,3,False
+SP1,1617,2016-09-24,Ath Bilbao,Sevilla,3,4,False
 SP1,1617,2016-09-25,Espanol,Celta,3,4,False
+SP1,1617,2016-09-25,Ath Madrid,La Coruna,1,3,False
 SP1,1617,2016-09-25,Levante,Valencia,3,3,False
 SP1,1617,2016-09-25,Villarreal,Osasuna,4,3,False
 SP1,1617,2016-09-26,Alaves,Granada,4,5,False
 SP1,1617,2016-09-30,Sociedad,Betis,6,7,False
 SP1,1617,2016-10-09,Ath Madrid,Osasuna,14,14,False
-SP1,1617,2016-10-09,Malaga,Villarreal,16,14,False
-SP1,1617,2016-10-09,Sevilla,Las Palmas,15,15,False
-SP1,1617,2016-10-09,Celta,Ath Madrid,14,14,False
 SP1,1617,2016-10-09,Barcelona,Alaves,15,13,False
+SP1,1617,2016-10-09,Malaga,Villarreal,16,14,False
+SP1,1617,2016-10-09,Celta,Ath Madrid,14,14,False
+SP1,1617,2016-10-09,Sevilla,Las Palmas,15,15,False
 SP1,1617,2016-10-12,Ath Madrid,La Coruna,3,17,True
-SP1,1617,2016-10-12,Sociedad,Valencia,12,17,True
 SP1,1617,2016-10-12,Osasuna,Barcelona,3,3,True
+SP1,1617,2016-10-12,Sociedad,Valencia,12,17,True
 SP1,1617,2016-10-12,Las Palmas,Levante,3,17,True
 SP1,1617,2016-10-14,Las Palmas,Espanol,2,19,False
 SP1,1617,2016-10-15,Levante,Sevilla,3,6,False
+SP1,1617,2016-10-15,Betis,Ath Madrid,15,3,False
 SP1,1617,2016-10-15,Ath Madrid,Granada,3,19,False
 SP1,1617,2016-10-15,Barcelona,La Coruna,3,3,False
-SP1,1617,2016-10-15,Betis,Ath Madrid,15,3,False
-SP1,1617,2016-10-16,Alaves,Malaga,7,7,False
-SP1,1617,2016-10-16,Ath Bilbao,Sociedad,22,4,False
 SP1,1617,2016-10-16,Sp Gijon,Valencia,22,4,False
+SP1,1617,2016-10-16,Alaves,Malaga,7,7,False
 SP1,1617,2016-10-16,Villarreal,Celta,7,7,False
+SP1,1617,2016-10-16,Ath Bilbao,Sociedad,22,4,False
 SP1,1617,2016-10-17,Eibar,Osasuna,23,5,False
 SP1,1617,2016-10-21,Osasuna,Betis,4,6,False
-SP1,1617,2016-10-22,Valencia,Barcelona,6,7,False
-SP1,1617,2016-10-22,Sociedad,Alaves,6,6,False
-SP1,1617,2016-10-22,Granada,Sp Gijon,7,6,False
 SP1,1617,2016-10-22,Espanol,Eibar,8,5,False
-SP1,1617,2016-10-23,Celta,La Coruna,7,8,False
-SP1,1617,2016-10-23,Sevilla,Ath Madrid,8,8,False
+SP1,1617,2016-10-22,Granada,Sp Gijon,7,6,False
+SP1,1617,2016-10-22,Sociedad,Alaves,6,6,False
+SP1,1617,2016-10-22,Valencia,Barcelona,6,7,False
+SP1,1617,2016-10-23,Malaga,Levante,7,8,False
 SP1,1617,2016-10-23,Villarreal,Las Palmas,7,9,False
 SP1,1617,2016-10-23,Ath Madrid,Ath Bilbao,8,7,False
-SP1,1617,2016-10-23,Malaga,Levante,7,8,False
+SP1,1617,2016-10-23,Celta,La Coruna,7,8,False
+SP1,1617,2016-10-23,Sevilla,Ath Madrid,8,8,False
 SP1,1617,2016-10-28,Levante,Sociedad,5,6,False
 SP1,1617,2016-10-29,Sp Gijon,Sevilla,7,6,False
+SP1,1617,2016-10-29,Barcelona,Granada,7,7,False
 SP1,1617,2016-10-29,Alaves,Ath Madrid,7,6,False
 SP1,1617,2016-10-29,Ath Madrid,Malaga,6,6,False
-SP1,1617,2016-10-29,Barcelona,Granada,7,7,False
 SP1,1617,2016-10-30,Ath Bilbao,Osasuna,7,9,False
 SP1,1617,2016-10-30,Betis,Espanol,9,8,False
-SP1,1617,2016-10-30,Eibar,Villarreal,8,7,False
 SP1,1617,2016-10-30,Las Palmas,Celta,7,7,False
+SP1,1617,2016-10-30,Eibar,Villarreal,8,7,False
 SP1,1617,2016-10-31,La Coruna,Valencia,8,9,False
-SP1,1617,2016-11-09,Valencia,Betis,9,10,True
-SP1,1617,2016-11-09,Granada,Eibar,11,10,True
 SP1,1617,2016-11-09,La Coruna,Ath Bilbao,9,10,True
+SP1,1617,2016-11-09,Valencia,Betis,9,10,True
 SP1,1617,2016-11-09,Sp Gijon,Levante,11,12,True
-SP1,1617,2016-11-12,Espanol,Sp Gijon,13,3,False
+SP1,1617,2016-11-09,Granada,Eibar,11,10,True
 SP1,1617,2016-11-12,Eibar,Alaves,3,14,False
+SP1,1617,2016-11-12,Espanol,Sp Gijon,13,3,False
 SP1,1617,2016-11-12,Celta,Sevilla,13,14,False
 SP1,1617,2016-11-12,Betis,Ath Bilbao,3,3,False
 SP1,1617,2016-11-18,Betis,Las Palmas,6,19,False
@@ -133,249 +133,249 @@ SP1,1617,2016-11-19,Ath Madrid,Ath Madrid,21,21,False
 SP1,1617,2016-11-19,La Coruna,Sevilla,10,7,False
 SP1,1617,2016-11-19,Eibar,Celta,7,7,False
 SP1,1617,2016-11-19,Barcelona,Malaga,21,21,False
-SP1,1617,2016-11-20,Alaves,Espanol,8,8,False
-SP1,1617,2016-11-20,Valencia,Granada,11,11,False
 SP1,1617,2016-11-20,Sp Gijon,Sociedad,8,23,False
 SP1,1617,2016-11-20,Ath Bilbao,Villarreal,8,21,False
+SP1,1617,2016-11-20,Valencia,Granada,11,11,False
+SP1,1617,2016-11-20,Alaves,Espanol,8,8,False
 SP1,1617,2016-11-21,Levante,Osasuna,12,22,False
 SP1,1617,2016-11-25,Eibar,Betis,6,7,False
 SP1,1617,2016-11-26,Espanol,Levante,6,5,False
 SP1,1617,2016-11-26,Sevilla,Valencia,7,6,False
 SP1,1617,2016-11-26,Ath Madrid,Sp Gijon,7,6,False
 SP1,1617,2016-11-26,Malaga,La Coruna,7,7,False
-SP1,1617,2016-11-27,Celta,Granada,8,7,False
 SP1,1617,2016-11-27,Villarreal,Alaves,7,7,False
+SP1,1617,2016-11-27,Celta,Granada,8,7,False
 SP1,1617,2016-11-27,Sociedad,Barcelona,7,8,False
 SP1,1617,2016-11-27,Osasuna,Ath Madrid,6,1,False
 SP1,1617,2016-11-28,Las Palmas,Ath Bilbao,10,8,False
 SP1,1617,2016-12-12,Villarreal,Ath Madrid,15,15,False
 SP1,1617,2016-12-16,Alaves,Betis,19,21,False
-SP1,1617,2016-12-17,Ath Madrid,Las Palmas,5,19,False
 SP1,1617,2016-12-17,Granada,Sociedad,20,20,False
+SP1,1617,2016-12-17,Ath Madrid,Las Palmas,5,19,False
 SP1,1617,2016-12-17,Sevilla,Malaga,21,21,False
 SP1,1617,2016-12-17,Sp Gijon,Villarreal,21,5,False
+SP1,1617,2016-12-18,Levante,Eibar,22,23,False
 SP1,1617,2016-12-18,Barcelona,Espanol,21,22,False
 SP1,1617,2016-12-18,La Coruna,Osasuna,22,21,False
-SP1,1617,2016-12-18,Levante,Eibar,22,23,False
 SP1,1617,2016-12-19,Ath Bilbao,Celta,21,22,False
+SP1,1617,2017-01-03,Granada,Alaves,17,18,True
+SP1,1617,2017-01-03,Celta,Espanol,15,16,True
 SP1,1617,2017-01-03,Barcelona,Sp Gijon,16,17,True
 SP1,1617,2017-01-03,Ath Madrid,Las Palmas,17,17,True
 SP1,1617,2017-01-03,Osasuna,Villarreal,16,17,True
-SP1,1617,2017-01-03,Granada,Alaves,17,18,True
-SP1,1617,2017-01-03,Celta,Espanol,15,16,True
-SP1,1617,2017-01-04,Villarreal,Eibar,1,17,True
-SP1,1617,2017-01-04,Sociedad,Levante,18,17,True
-SP1,1617,2017-01-04,Osasuna,Ath Bilbao,1,16,True
 SP1,1617,2017-01-04,Malaga,Ath Madrid,18,1,True
+SP1,1617,2017-01-04,Osasuna,Ath Bilbao,1,16,True
+SP1,1617,2017-01-04,Sociedad,Levante,18,17,True
+SP1,1617,2017-01-04,Villarreal,Eibar,1,17,True
 SP1,1617,2017-01-05,Malaga,Sevilla,1,19,True
-SP1,1617,2017-01-14,Ath Madrid,Betis,4,4,False
-SP1,1617,2017-01-14,Barcelona,Las Palmas,4,4,False
-SP1,1617,2017-01-14,La Coruna,Villarreal,27,4,False
 SP1,1617,2017-01-14,Levante,Ath Bilbao,2,4,False
-SP1,1617,2017-01-15,Granada,Osasuna,12,11,False
+SP1,1617,2017-01-14,Barcelona,Las Palmas,4,4,False
+SP1,1617,2017-01-14,Ath Madrid,Betis,4,4,False
+SP1,1617,2017-01-14,La Coruna,Villarreal,27,4,False
 SP1,1617,2017-01-15,Celta,Alaves,12,12,False
-SP1,1617,2017-01-15,Sevilla,Ath Madrid,10,1,False
-SP1,1617,2017-01-15,Sp Gijon,Eibar,12,5,False
+SP1,1617,2017-01-15,Granada,Osasuna,12,11,False
 SP1,1617,2017-01-15,Valencia,Espanol,5,5,False
+SP1,1617,2017-01-15,Sp Gijon,Eibar,12,5,False
+SP1,1617,2017-01-15,Sevilla,Ath Madrid,10,1,False
 SP1,1617,2017-01-16,Malaga,Sociedad,4,6,False
 SP1,1617,2017-01-20,Las Palmas,La Coruna,6,6,False
-SP1,1617,2017-01-21,Alaves,Levante,6,7,False
-SP1,1617,2017-01-21,Espanol,Granada,6,6,False
 SP1,1617,2017-01-21,Ath Madrid,Malaga,6,5,False
+SP1,1617,2017-01-21,Espanol,Granada,6,6,False
+SP1,1617,2017-01-21,Alaves,Levante,6,7,False
 SP1,1617,2017-01-21,Villarreal,Valencia,7,6,False
-SP1,1617,2017-01-22,Ath Bilbao,Ath Madrid,8,1,False
 SP1,1617,2017-01-22,Betis,Sp Gijon,8,7,False
-SP1,1617,2017-01-22,Eibar,Barcelona,7,8,False
+SP1,1617,2017-01-22,Ath Bilbao,Ath Madrid,8,1,False
 SP1,1617,2017-01-22,Osasuna,Sevilla,7,7,False
 SP1,1617,2017-01-22,Sociedad,Celta,6,7,False
+SP1,1617,2017-01-22,Eibar,Barcelona,7,8,False
 SP1,1617,2017-01-27,Osasuna,Malaga,5,6,False
 SP1,1617,2017-01-28,Alaves,Ath Madrid,7,6,False
 SP1,1617,2017-01-28,Eibar,La Coruna,6,8,False
-SP1,1617,2017-01-28,Levante,Celta,7,6,False
 SP1,1617,2017-01-28,Villarreal,Granada,7,7,False
-SP1,1617,2017-01-29,Ath Madrid,Sociedad,1,7,False
-SP1,1617,2017-01-29,Betis,Barcelona,7,7,False
-SP1,1617,2017-01-29,Espanol,Sevilla,8,7,False
+SP1,1617,2017-01-28,Levante,Celta,7,6,False
 SP1,1617,2017-01-29,Ath Bilbao,Sp Gijon,7,7,False
+SP1,1617,2017-01-29,Espanol,Sevilla,8,7,False
+SP1,1617,2017-01-29,Betis,Barcelona,7,7,False
+SP1,1617,2017-01-29,Ath Madrid,Sociedad,1,7,False
 SP1,1617,2017-01-30,Las Palmas,Valencia,10,9,False
-SP1,1617,2017-02-03,Sevilla,Ath Bilbao,5,5,False
 SP1,1617,2017-02-03,La Coruna,Ath Madrid,6,5,False
+SP1,1617,2017-02-03,Sevilla,Ath Bilbao,5,5,False
 SP1,1617,2017-02-04,Sevilla,Sp Gijon,1,6,False
-SP1,1617,2017-02-04,Ath Madrid,Alaves,1,7,False
 SP1,1617,2017-02-04,Valencia,La Coruna,5,1,False
 SP1,1617,2017-02-04,Granada,Barcelona,7,6,False
+SP1,1617,2017-02-04,Ath Madrid,Alaves,1,7,False
 SP1,1617,2017-02-13,Eibar,Granada,16,9,False
 SP1,1617,2017-02-17,Granada,Betis,4,19,False
-SP1,1617,2017-02-18,La Coruna,Alaves,6,14,False
+SP1,1617,2017-02-18,Ath Madrid,Espanol,6,20,False
 SP1,1617,2017-02-18,Sp Gijon,Ath Madrid,14,6,False
 SP1,1617,2017-02-18,Sevilla,Eibar,6,5,False
-SP1,1617,2017-02-18,Ath Madrid,Espanol,6,20,False
-SP1,1617,2017-02-19,Celta,Osasuna,7,23,False
-SP1,1617,2017-02-19,Sociedad,Villarreal,7,22,False
+SP1,1617,2017-02-18,La Coruna,Alaves,6,14,False
 SP1,1617,2017-02-19,Valencia,Ath Bilbao,15,7,False
 SP1,1617,2017-02-19,Barcelona,Levante,7,22,False
+SP1,1617,2017-02-19,Celta,Osasuna,7,23,False
+SP1,1617,2017-02-19,Sociedad,Villarreal,7,22,False
 SP1,1617,2017-02-20,Malaga,Las Palmas,24,21,False
 SP1,1617,2017-02-22,Valencia,Ath Madrid,3,4,True
 SP1,1617,2017-02-24,Las Palmas,Sociedad,4,5,False
-SP1,1617,2017-02-25,Levante,La Coruna,6,7,False
 SP1,1617,2017-02-25,Alaves,Valencia,7,3,False
 SP1,1617,2017-02-25,Betis,Sevilla,8,7,False
+SP1,1617,2017-02-25,Levante,La Coruna,6,7,False
 SP1,1617,2017-02-25,Eibar,Malaga,7,5,False
-SP1,1617,2017-02-26,Espanol,Osasuna,8,7,False
 SP1,1617,2017-02-26,Ath Madrid,Barcelona,4,7,False
-SP1,1617,2017-02-26,Ath Bilbao,Granada,7,9,False
 SP1,1617,2017-02-26,Sp Gijon,Celta,8,7,False
 SP1,1617,2017-02-26,Villarreal,Ath Madrid,7,4,False
+SP1,1617,2017-02-26,Espanol,Osasuna,8,7,False
+SP1,1617,2017-02-26,Ath Bilbao,Granada,7,9,False
+SP1,1617,2017-02-28,Sociedad,Eibar,4,3,True
 SP1,1617,2017-02-28,Valencia,Levante,3,3,True
 SP1,1617,2017-02-28,Malaga,Betis,3,3,True
-SP1,1617,2017-02-28,Sociedad,Eibar,4,3,True
 SP1,1617,2017-03-03,Betis,Sociedad,3,3,False
 SP1,1617,2017-03-04,Celta,Las Palmas,6,8,False
 SP1,1617,2017-03-13,Osasuna,Eibar,15,1,False
 SP1,1617,2017-03-17,Las Palmas,Villarreal,5,5,False
 SP1,1617,2017-03-18,Eibar,Espanol,5,6,False
 SP1,1617,2017-03-18,Betis,Osasuna,6,5,False
-SP1,1617,2017-03-18,Ath Bilbao,Ath Madrid,20,20,False
 SP1,1617,2017-03-18,Alaves,Sociedad,21,15,False
-SP1,1617,2017-03-19,Levante,Malaga,7,19,False
+SP1,1617,2017-03-18,Ath Bilbao,Ath Madrid,20,20,False
+SP1,1617,2017-03-19,Ath Madrid,Sevilla,1,22,False
 SP1,1617,2017-03-19,Sp Gijon,Granada,21,21,False
+SP1,1617,2017-03-19,Levante,Malaga,7,19,False
 SP1,1617,2017-03-19,La Coruna,Celta,22,15,False
 SP1,1617,2017-03-19,Barcelona,Valencia,21,7,False
-SP1,1617,2017-03-19,Ath Madrid,Sevilla,1,22,False
 SP1,1617,2017-03-31,Espanol,Betis,13,13,False
+SP1,1617,2017-04-02,Ath Madrid,Levante,14,14,False
+SP1,1617,2017-04-02,Malaga,Espanol,14,2,False
 SP1,1617,2017-04-02,Barcelona,Ath Bilbao,14,15,False
 SP1,1617,2017-04-02,Valencia,Eibar,14,15,False
-SP1,1617,2017-04-02,Malaga,Espanol,14,2,False
-SP1,1617,2017-04-02,Ath Madrid,Levante,14,14,False
-SP1,1617,2017-04-03,Levante,Granada,1,15,False
-SP1,1617,2017-04-03,Barcelona,Celta,1,15,False
 SP1,1617,2017-04-03,Eibar,Ath Madrid,1,1,False
+SP1,1617,2017-04-03,Barcelona,Celta,1,15,False
+SP1,1617,2017-04-03,Levante,Granada,1,15,False
 SP1,1617,2017-04-03,Villarreal,Espanol,17,1,False
+SP1,1617,2017-04-04,Ath Bilbao,Espanol,2,1,True
 SP1,1617,2017-04-04,Ath Madrid,Sociedad,1,17,True
 SP1,1617,2017-04-04,Betis,Villarreal,4,1,True
-SP1,1617,2017-04-04,Ath Bilbao,Espanol,2,1,True
 SP1,1617,2017-04-14,Ath Bilbao,Las Palmas,10,28,False
-SP1,1617,2017-04-15,Ath Madrid,Osasuna,4,28,False
-SP1,1617,2017-04-15,Barcelona,Sociedad,4,11,False
-SP1,1617,2017-04-15,La Coruna,Malaga,4,13,False
 SP1,1617,2017-04-15,Sp Gijon,Ath Madrid,27,4,False
-SP1,1617,2017-04-16,Granada,Celta,13,13,False
+SP1,1617,2017-04-15,La Coruna,Malaga,4,13,False
+SP1,1617,2017-04-15,Barcelona,Sociedad,4,11,False
+SP1,1617,2017-04-15,Ath Madrid,Osasuna,4,28,False
 SP1,1617,2017-04-16,Levante,Espanol,5,5,False
+SP1,1617,2017-04-16,Granada,Celta,13,13,False
 SP1,1617,2017-04-16,Valencia,Sevilla,5,5,False
 SP1,1617,2017-04-16,Betis,Eibar,12,13,False
 SP1,1617,2017-04-17,Alaves,Villarreal,5,13,False
 SP1,1617,2017-04-21,Sevilla,Granada,5,5,False
 SP1,1617,2017-04-22,Osasuna,Sp Gijon,7,7,False
-SP1,1617,2017-04-22,Villarreal,Levante,5,6,False
 SP1,1617,2017-04-22,Malaga,Valencia,7,6,False
+SP1,1617,2017-04-22,Villarreal,Levante,5,6,False
 SP1,1617,2017-04-22,Espanol,Ath Madrid,6,7,False
 SP1,1617,2017-04-23,Las Palmas,Alaves,9,6,False
 SP1,1617,2017-04-23,Celta,Betis,7,7,False
 SP1,1617,2017-04-23,Sociedad,La Coruna,8,8,False
 SP1,1617,2017-04-23,Ath Madrid,Barcelona,1,8,False
 SP1,1617,2017-04-24,Eibar,Ath Bilbao,8,10,False
-SP1,1617,2017-04-25,Ath Madrid,Villarreal,2,3,True
 SP1,1617,2017-04-25,Sp Gijon,Espanol,3,3,True
+SP1,1617,2017-04-25,Ath Madrid,Villarreal,2,3,True
 SP1,1617,2017-04-25,Granada,Malaga,4,3,True
+SP1,1617,2017-04-26,Levante,Las Palmas,4,3,True
+SP1,1617,2017-04-26,Valencia,Sociedad,4,3,True
 SP1,1617,2017-04-26,La Coruna,Ath Madrid,3,1,True
 SP1,1617,2017-04-26,Barcelona,Osasuna,3,4,True
-SP1,1617,2017-04-26,Valencia,Sociedad,4,3,True
-SP1,1617,2017-04-26,Levante,Las Palmas,4,3,True
 SP1,1617,2017-04-27,Sevilla,Celta,6,4,True
-SP1,1617,2017-04-27,Alaves,Eibar,4,3,True
 SP1,1617,2017-04-27,Ath Bilbao,Betis,3,4,True
+SP1,1617,2017-04-27,Alaves,Eibar,4,3,True
 SP1,1617,2017-04-28,Villarreal,Sp Gijon,3,3,False
-SP1,1617,2017-04-29,Ath Madrid,Valencia,3,3,False
+SP1,1617,2017-04-29,Las Palmas,Ath Madrid,3,3,False
 SP1,1617,2017-04-29,Espanol,Barcelona,4,3,False
 SP1,1617,2017-04-29,Sociedad,Granada,3,4,False
-SP1,1617,2017-04-29,Las Palmas,Ath Madrid,3,3,False
-SP1,1617,2017-04-30,Celta,Ath Bilbao,3,3,False
-SP1,1617,2017-04-30,Osasuna,La Coruna,4,4,False
-SP1,1617,2017-04-30,Eibar,Levante,3,4,False
+SP1,1617,2017-04-29,Ath Madrid,Valencia,3,3,False
 SP1,1617,2017-04-30,Betis,Alaves,3,3,False
-SP1,1617,2017-05-02,Sp Gijon,Alaves,4,2,True
+SP1,1617,2017-04-30,Celta,Ath Bilbao,3,3,False
+SP1,1617,2017-04-30,Eibar,Levante,3,4,False
+SP1,1617,2017-04-30,Osasuna,La Coruna,4,4,False
 SP1,1617,2017-05-02,Sevilla,Villarreal,5,4,True
+SP1,1617,2017-05-02,Sp Gijon,Alaves,4,2,True
 SP1,1617,2017-05-02,Sociedad,Osasuna,3,2,True
-SP1,1617,2017-05-03,Ath Madrid,Valencia,4,4,True
-SP1,1617,2017-05-03,Ath Bilbao,Malaga,3,8,True
 SP1,1617,2017-05-03,Las Palmas,Osasuna,4,1,True
+SP1,1617,2017-05-03,Ath Madrid,Valencia,4,4,True
 SP1,1617,2017-05-03,Sp Gijon,La Coruna,1,3,True
+SP1,1617,2017-05-03,Ath Bilbao,Malaga,3,8,True
 SP1,1617,2017-05-04,Alaves,Osasuna,2,1,True
 SP1,1617,2017-05-04,Barcelona,Sevilla,5,2,True
-SP1,1617,2017-05-04,Levante,Ath Madrid,4,1,True
-SP1,1617,2017-05-04,Sp Gijon,Malaga,1,1,True
 SP1,1617,2017-05-04,La Coruna,Granada,1,5,True
+SP1,1617,2017-05-04,Sp Gijon,Malaga,1,1,True
+SP1,1617,2017-05-04,Levante,Ath Madrid,4,1,True
 SP1,1617,2017-05-05,Sevilla,Sociedad,1,3,False
-SP1,1617,2017-05-13,Osasuna,Granada,9,9,False
 SP1,1617,2017-05-13,Espanol,Valencia,14,10,False
-SP1,1617,2017-05-14,Eibar,Sp Gijon,3,10,False
-SP1,1617,2017-05-14,Alaves,Celta,10,3,False
+SP1,1617,2017-05-13,Osasuna,Granada,9,9,False
 SP1,1617,2017-05-14,Ath Bilbao,Levante,3,3,False
 SP1,1617,2017-05-14,Betis,Ath Madrid,14,3,False
 SP1,1617,2017-05-14,Las Palmas,Barcelona,3,10,False
 SP1,1617,2017-05-14,Ath Madrid,Sevilla,3,9,False
 SP1,1617,2017-05-14,Sociedad,Malaga,3,3,False
+SP1,1617,2017-05-14,Alaves,Celta,10,3,False
 SP1,1617,2017-05-14,Villarreal,La Coruna,3,10,False
+SP1,1617,2017-05-14,Eibar,Sp Gijon,3,10,False
 SP1,1617,2017-05-17,Celta,Ath Madrid,3,3,True
 SP1,1617,2017-05-19,Granada,Espanol,6,6,False
-SP1,1617,2017-05-20,Sp Gijon,Betis,6,6,False
 SP1,1617,2017-05-20,Levante,Alaves,6,6,False
-SP1,1617,2017-05-20,La Coruna,Las Palmas,6,6,False
 SP1,1617,2017-05-20,Sevilla,Osasuna,6,7,False
-SP1,1617,2017-05-21,Barcelona,Eibar,7,7,False
+SP1,1617,2017-05-20,Sp Gijon,Betis,6,6,False
+SP1,1617,2017-05-20,La Coruna,Las Palmas,6,6,False
 SP1,1617,2017-05-21,Valencia,Villarreal,8,7,False
-SP1,1617,2017-05-21,Malaga,Ath Madrid,7,4,False
 SP1,1617,2017-05-21,Celta,Sociedad,4,7,False
+SP1,1617,2017-05-21,Malaga,Ath Madrid,7,4,False
 SP1,1617,2017-05-21,Ath Madrid,Ath Bilbao,4,7,False
+SP1,1617,2017-05-21,Barcelona,Eibar,7,7,False
 SP1,1617,2017-06-01,Espanol,La Coruna,13,12,True
 SP1,1617,2017-06-02,Granada,Las Palmas,14,13,False
 SP1,1617,2017-06-03,Alaves,Sevilla,14,14,False
 SP1,1617,2017-06-04,Eibar,Las Palmas,14,2,False
 SP1,1617,2017-06-04,Valencia,Celta,14,14,False
-SP1,1617,2017-06-05,Barcelona,Villarreal,15,15,False
 SP1,1617,2017-06-05,Sp Gijon,Las Palmas,16,1,False
-SP1,1617,2017-06-05,Granada,Ath Madrid,3,15,False
+SP1,1617,2017-06-05,Barcelona,Villarreal,15,15,False
 SP1,1617,2017-06-05,Ath Madrid,Eibar,15,1,False
+SP1,1617,2017-06-05,Granada,Ath Madrid,3,15,False
 SP1,1617,2017-07-01,Las Palmas,Sp Gijon,26,26,False
-SP1,1617,2017-07-01,Ath Madrid,Granada,26,26,False
-SP1,1617,2017-07-01,Sociedad,Sevilla,41,28,False
 SP1,1617,2017-07-01,Eibar,Ath Madrid,26,26,False
+SP1,1617,2017-07-01,Sociedad,Sevilla,41,28,False
+SP1,1617,2017-07-01,Ath Madrid,Granada,26,26,False
 SP1,1617,2017-07-04,Villarreal,Ath Bilbao,29,44,True
-SP1,1617,2017-07-05,La Coruna,Espanol,34,34,True
-SP1,1617,2017-07-05,Alaves,Ath Bilbao,32,1,True
-SP1,1617,2017-07-05,Malaga,Celta,45,31,True
 SP1,1617,2017-07-05,Valencia,Osasuna,31,46,True
-SP1,1617,2017-08-01,Villarreal,Barcelona,28,57,True
+SP1,1617,2017-07-05,Malaga,Celta,45,31,True
+SP1,1617,2017-07-05,Alaves,Ath Bilbao,32,1,True
+SP1,1617,2017-07-05,La Coruna,Espanol,34,34,True
 SP1,1617,2017-08-01,Ath Bilbao,Alaves,27,27,True
-SP1,1617,2017-08-01,Betis,Levante,73,73,True
 SP1,1617,2017-08-01,Celta,Malaga,27,27,True
+SP1,1617,2017-08-01,Villarreal,Barcelona,28,57,True
+SP1,1617,2017-08-01,Betis,Levante,73,73,True
 SP1,1617,2017-08-03,La Coruna,Betis,29,2,True
-SP1,1617,2017-08-04,Sevilla,La Coruna,34,1,False
 SP1,1617,2017-08-04,Espanol,Alaves,30,3,False
 SP1,1617,2017-08-04,Malaga,Barcelona,3,3,False
+SP1,1617,2017-08-04,Sevilla,La Coruna,34,1,False
 SP1,1617,2017-08-04,Ath Madrid,Ath Madrid,34,34,False
 SP1,1617,2017-08-05,Levante,Betis,4,2,False
 SP1,1617,2017-09-01,Osasuna,Valencia,58,5,False
+SP1,1617,2017-09-04,Osasuna,Levante,3,8,False
+SP1,1617,2017-09-04,Las Palmas,Betis,9,10,False
 SP1,1617,2017-09-04,Granada,Valencia,65,3,False
 SP1,1617,2017-09-04,Celta,Eibar,10,8,False
-SP1,1617,2017-09-04,Las Palmas,Betis,9,10,False
-SP1,1617,2017-09-04,Osasuna,Levante,3,8,False
 SP1,1617,2017-10-02,Espanol,Sociedad,8,8,False
 SP1,1617,2017-10-03,Espanol,Las Palmas,1,9,True
 SP1,1617,2017-10-04,Sociedad,Sp Gijon,2,95,True
 SP1,1617,2017-11-02,Alaves,Barcelona,5,5,True
+SP1,1617,2017-11-02,Ath Bilbao,La Coruna,5,3,True
 SP1,1617,2017-11-02,Osasuna,Ath Madrid,59,4,True
 SP1,1617,2017-11-02,Betis,Valencia,3,5,True
-SP1,1617,2017-11-02,Ath Bilbao,La Coruna,5,3,True
+SP1,1617,2017-11-03,Valencia,Sp Gijon,1,30,False
 SP1,1617,2017-11-03,Malaga,Alaves,5,1,False
 SP1,1617,2017-11-03,Granada,Ath Madrid,60,1,False
-SP1,1617,2017-11-03,Valencia,Sp Gijon,1,30,False
 SP1,1617,2017-11-03,Sevilla,Levante,6,5,False
 SP1,1617,2017-12-02,Las Palmas,Sevilla,6,6,False
-SP1,1617,2017-12-02,Levante,Sp Gijon,7,29,False
-SP1,1617,2017-12-02,Villarreal,Malaga,6,7,False
 SP1,1617,2017-12-02,Ath Madrid,Celta,7,8,False
-SP1,1617,2017-12-03,Ath Madrid,Betis,1,8,False
-SP1,1617,2017-12-03,Celta,Villarreal,1,1,False
+SP1,1617,2017-12-02,Villarreal,Malaga,6,7,False
+SP1,1617,2017-12-02,Levante,Sp Gijon,7,29,False
 SP1,1617,2017-12-03,Sociedad,Ath Bilbao,7,7,False
+SP1,1617,2017-12-03,Celta,Villarreal,1,1,False
+SP1,1617,2017-12-03,Ath Madrid,Betis,1,8,False
 SP1,1617,2017-12-03,La Coruna,Barcelona,7,7,False

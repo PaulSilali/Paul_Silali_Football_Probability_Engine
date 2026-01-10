@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Bury,Scunthorpe,1,2,A,0
+2016-01-10,Port Vale,Coventry,0,2,A,0
+2016-01-10,Oldham,Milton Keynes Dons,0,2,A,0
+2016-01-10,Chesterfield,Bradford,0,1,A,0
+2016-01-10,Charlton,Rochdale,0,1,A,0
+2016-01-10,Luton,Oxford,0,2,A,0
+2016-01-10,AFC Wimbledon,Birmingham,2,0,H,0
+2016-01-10,Southend,Peterboro,1,1,D,1
+2016-01-10,Fleetwood Town,Sheffield Weds,1,1,D,1
+2016-01-10,Walsall,Millwall,2,1,H,0
+2016-01-10,Northampton,Bristol Rvs,2,3,A,0
+2016-01-10,Shrewsbury,Swindon,1,1,D,1
+2016-01-11,Bristol Rvs,Fleetwood Town,2,1,H,0
+2016-01-11,Coventry,Chesterfield,2,0,H,0
+2016-03-09,Peterboro,Swindon,2,2,D,1
+2016-03-09,Oxford,Rochdale,1,0,H,0
+2016-03-09,AFC Wimbledon,Chesterfield,2,1,H,0
+2016-03-09,Luton,Southend,1,1,D,1
+2016-03-09,Bury,Port Vale,4,1,H,0
+2016-03-09,Millwall,Bradford,1,1,D,1
+2016-03-09,Oldham,Shrewsbury,2,3,A,0
+2016-03-09,Fleetwood Town,Coventry,2,0,H,0
+2016-04-09,Northampton,Milton Keynes Dons,3,2,H,0
+2016-04-09,Birmingham,Sheffield Weds,1,2,A,0
+2016-06-08,Bradford,Port Vale,0,0,D,1
+2016-06-08,Luton,Sheffield Weds,1,0,H,0
+2016-06-08,Shrewsbury,Milton Keynes Dons,0,1,A,0
+2016-06-08,Swindon,Coventry,1,0,H,0
+2016-06-08,Walsall,AFC Wimbledon,3,1,H,0
+2016-06-08,Southend,Birmingham,1,3,A,0
+2016-06-08,Scunthorpe,Bristol Rvs,3,1,H,0
+2016-06-08,Rochdale,Peterboro,2,3,A,0
+2016-06-08,Northampton,Fleetwood Town,1,1,D,1
+2016-06-08,Oxford,Chesterfield,1,1,D,1
+2016-06-08,Millwall,Oldham,3,0,H,0
+2016-06-08,Bury,Charlton,2,0,H,0
+2016-08-10,Scunthorpe,Northampton,1,1,D,1
+2016-08-10,Peterboro,Bury,3,1,H,0
+2016-08-10,Swindon,Luton,0,1,A,0
+2016-08-10,Rochdale,Southend,3,0,H,0
+2016-08-10,Bradford,Shrewsbury,2,0,H,0
+2016-08-10,Birmingham,Oldham,1,2,A,0
+2016-08-13,Fleetwood Town,Scunthorpe,2,2,D,1
+2016-08-13,Coventry,Shrewsbury,0,0,D,1
+2016-08-13,AFC Wimbledon,Luton,1,2,A,0
+2016-08-13,Charlton,Northampton,1,1,D,1
+2016-08-13,Chesterfield,Swindon,3,1,H,0
+2016-08-13,Birmingham,Bury,2,1,H,0
+2016-08-13,Milton Keynes Dons,Millwall,2,2,D,1
+2016-08-13,Sheffield Weds,Rochdale,1,1,D,1
+2016-08-13,Port Vale,Southend,2,0,H,0
+2016-08-13,Peterboro,Bradford,0,1,A,0
+2016-08-13,Oldham,Walsall,0,0,D,1
+2016-08-14,Bristol Rvs,Oxford,2,1,H,0
+2016-08-16,Birmingham,Swindon,1,1,D,1
+2016-08-16,Port Vale,Rochdale,1,0,H,0
+2016-08-16,Oldham,Northampton,0,0,D,1
+2016-08-16,Coventry,Bury,0,0,D,1
+2016-08-16,Chesterfield,Walsall,2,0,H,0
+2016-08-16,AFC Wimbledon,Scunthorpe,1,2,A,0
+2016-08-16,Peterboro,Millwall,5,1,H,0
+2016-08-16,Milton Keynes Dons,Bradford,1,2,A,0
+2016-08-16,Sheffield Weds,Southend,0,3,A,0
+2016-08-16,Charlton,Shrewsbury,3,0,H,0
+2016-08-17,Fleetwood Town,Oxford,2,0,H,0
+2016-08-17,Bristol Rvs,Luton,1,2,A,0
+2016-08-20,Scunthorpe,Birmingham,5,0,H,0
+2016-08-20,Walsall,Charlton,1,2,A,0
+2016-08-20,Shrewsbury,Chesterfield,2,1,H,0
+2016-08-20,Swindon,Port Vale,1,0,H,0
+2016-08-20,Luton,Fleetwood Town,2,1,H,0
+2016-08-20,Bradford,Coventry,3,1,H,0
+2016-08-20,Millwall,Sheffield Weds,2,1,H,0
+2016-08-20,Oxford,Peterboro,2,1,H,0
+2016-08-20,Rochdale,Milton Keynes Dons,0,1,A,0
+2016-08-20,Northampton,AFC Wimbledon,0,0,D,1
+2016-08-20,Bury,Oldham,0,1,A,0
+2016-08-20,Southend,Bristol Rvs,1,1,D,1
+2016-08-27,Shrewsbury,Birmingham,2,3,A,0
+2016-08-27,Milton Keynes Dons,Peterboro,0,2,A,0
+2016-08-27,Walsall,Bury,3,3,D,1
+2016-08-27,Sheffield Weds,Oxford,2,1,H,0
+2016-08-27,Rochdale,AFC Wimbledon,1,1,D,1
+2016-08-27,Port Vale,Scunthorpe,3,1,H,0
+2016-08-27,Coventry,Northampton,1,1,D,1
+2016-08-27,Chesterfield,Millwall,1,3,A,0
+2016-08-27,Charlton,Luton,1,1,D,1
+2016-08-27,Bradford,Oldham,1,1,D,1
+2016-08-27,Southend,Fleetwood Town,0,2,A,0
+2016-09-10,Oxford,AFC Wimbledon,1,3,A,0
+2016-09-10,Milton Keynes Dons,Port Vale,0,1,A,0
+2016-09-13,Bristol Rvs,Walsall,1,1,D,1
+2016-09-17,Chesterfield,Northampton,3,1,H,0
+2016-09-17,Coventry,Oldham,0,0,D,1
+2016-09-17,Milton Keynes Dons,Oxford,0,0,D,1
+2016-09-17,Sheffield Weds,Peterboro,1,0,H,0
+2016-09-17,Shrewsbury,Scunthorpe,0,1,A,0
+2016-09-17,Walsall,Luton,1,0,H,0
+2016-09-17,Swindon,Bury,1,2,A,0
+2016-09-17,Bradford,Bristol Rvs,1,1,D,1
+2016-09-17,Charlton,AFC Wimbledon,1,2,A,0
+2016-09-17,Rochdale,Fleetwood Town,2,1,H,0
+2016-09-17,Southend,Millwall,3,1,H,0
+2016-09-17,Port Vale,Birmingham,2,1,H,0
+2016-09-20,Scunthorpe,Charlton,0,0,D,1
+2016-09-20,Swindon,Bristol Rvs,1,2,A,0
+2016-09-24,Luton,Bradford,0,0,D,1
+2016-09-24,AFC Wimbledon,Shrewsbury,1,1,D,1
+2016-09-24,Bristol Rvs,Port Vale,2,1,H,0
+2016-09-24,Bury,Chesterfield,2,1,H,0
+2016-09-24,Peterboro,Walsall,1,1,D,1
+2016-09-24,Oxford,Charlton,1,1,D,1
+2016-09-24,Oldham,Swindon,0,2,A,0
+2016-09-24,Northampton,Southend,4,0,H,0
+2016-09-24,Millwall,Rochdale,2,3,A,0
+2016-09-24,Birmingham,Coventry,2,1,H,0
+2016-09-24,Fleetwood Town,Milton Keynes Dons,1,4,A,0
+2016-09-24,Scunthorpe,Sheffield Weds,2,2,D,1
+2016-09-27,Rochdale,Luton,1,0,H,0
+2016-09-27,Sheffield Weds,Bristol Rvs,1,0,H,0
+2016-09-27,Bradford,Fleetwood Town,2,1,H,0
+2016-09-27,Charlton,Oldham,1,1,D,1
+2016-09-27,Chesterfield,Birmingham,3,3,D,1
+2016-09-27,Milton Keynes Dons,Bury,1,3,A,0
+2016-09-27,Port Vale,Millwall,3,1,H,0
+2016-09-27,Shrewsbury,Peterboro,1,1,D,1
+2016-09-27,Southend,Oxford,2,1,H,0
+2016-09-27,Swindon,Northampton,1,3,A,0
+2016-09-27,Walsall,Scunthorpe,1,4,A,0
+2016-09-28,Coventry,AFC Wimbledon,2,2,D,1
+2016-10-09,Birmingham,Bradford,1,1,D,1
+2016-10-09,Millwall,Coventry,1,1,D,1
+2016-10-09,Peterboro,Port Vale,2,2,D,1
+2016-10-09,Oxford,Swindon,2,0,H,0
+2016-10-09,Oldham,Chesterfield,0,0,D,1
+2016-10-09,AFC Wimbledon,Sheffield Weds,2,3,A,0
+2016-10-09,Scunthorpe,Southend,4,0,H,0
+2016-10-09,Luton,Milton Keynes Dons,1,1,D,1
+2016-10-09,Northampton,Walsall,2,0,H,0
+2016-10-09,Bristol Rvs,Rochdale,2,2,D,1
+2016-10-09,Fleetwood Town,Charlton,2,2,D,1
+2016-10-09,Bury,Shrewsbury,2,1,H,0
+2016-10-12,Port Vale,Northampton,2,3,A,0
+2016-10-12,Southend,Coventry,3,1,H,0
+2016-10-12,Fleetwood Town,Walsall,2,1,H,0
+2016-10-12,Bristol Rvs,Bury,4,2,H,0
+2016-10-12,Rochdale,Scunthorpe,3,2,H,0
+2016-10-12,Peterboro,Chesterfield,5,2,H,0
+2016-10-12,Oxford,Oldham,1,1,D,1
+2016-10-12,Bradford,Charlton,0,0,D,1
+2016-10-12,Millwall,Shrewsbury,0,1,A,0
+2016-10-12,Milton Keynes Dons,AFC Wimbledon,1,0,H,0
+2016-10-12,Sheffield Weds,Swindon,4,0,H,0
+2016-10-15,Rochdale,Bury,2,0,H,0
+2016-10-15,Fleetwood Town,Peterboro,2,0,H,0
+2016-10-15,Charlton,Coventry,3,0,H,0
+2016-10-15,Luton,Oldham,2,0,H,0
+2016-10-15,AFC Wimbledon,Swindon,0,0,D,1
+2016-10-15,Bristol Rvs,Birmingham,2,1,H,0
+2016-10-15,Northampton,Millwall,1,3,A,0
+2016-10-15,Scunthorpe,Milton Keynes Dons,2,1,H,0
+2016-10-15,Walsall,Shrewsbury,3,2,H,0
+2016-10-15,Southend,Chesterfield,1,0,H,0
+2016-10-15,Sheffield Weds,Port Vale,4,0,H,0
+2016-10-15,Oxford,Bradford,1,0,H,0
+2016-10-18,Peterboro,Northampton,3,0,H,0
+2016-10-18,Oldham,Scunthorpe,2,0,H,0
+2016-10-18,Shrewsbury,Sheffield Weds,0,3,A,0
+2016-10-18,Swindon,Rochdale,3,0,H,0
+2016-10-18,Millwall,Luton,0,2,A,0
+2016-10-18,Chesterfield,Fleetwood Town,0,1,A,0
+2016-10-18,Port Vale,Charlton,1,1,D,1
+2016-10-18,Milton Keynes Dons,Bristol Rvs,3,3,D,1
+2016-10-18,Birmingham,Walsall,1,1,D,1
+2016-10-18,Bradford,Southend,1,1,D,1
+2016-10-18,Bury,AFC Wimbledon,1,2,A,0
+2016-10-18,Coventry,Oxford,2,1,H,0
+2016-10-22,Port Vale,Oxford,2,2,D,1
+2016-10-22,Chesterfield,Scunthorpe,0,3,A,0
+2016-10-22,Coventry,Rochdale,2,0,H,0
+2016-10-22,Milton Keynes Dons,Southend,0,3,A,0
+2016-10-22,Oldham,Bristol Rvs,0,2,A,0
+2016-10-22,Peterboro,AFC Wimbledon,0,1,A,0
+2016-10-22,Swindon,Walsall,0,2,A,0
+2016-10-22,Bradford,Sheffield Weds,3,3,D,1
+2016-10-22,Birmingham,Charlton,1,1,D,1
+2016-10-22,Millwall,Fleetwood Town,2,1,H,0
+2016-10-22,Shrewsbury,Northampton,2,4,A,0
+2016-10-24,Bury,Luton,0,2,A,0
+2016-10-29,Fleetwood Town,Birmingham,2,1,H,0
+2016-10-29,Northampton,Bury,3,2,H,0
+2016-10-29,Oxford,Millwall,1,2,A,0
+2016-10-29,Scunthorpe,Swindon,4,1,H,0
+2016-10-29,Sheffield Weds,Milton Keynes Dons,2,1,H,0
+2016-10-29,Southend,Shrewsbury,1,1,D,1
+2016-10-29,Bristol Rvs,Peterboro,1,2,A,0
+2016-10-29,Luton,Port Vale,3,1,H,0
+2016-10-29,AFC Wimbledon,Bradford,2,3,A,0
+2016-10-29,Walsall,Coventry,1,1,D,1
+2016-10-29,Rochdale,Oldham,1,0,H,0
+2016-10-29,Charlton,Chesterfield,1,0,H,0
+2016-11-13,Peterboro,Luton,1,0,H,0
+2016-11-13,Chesterfield,Sheffield Weds,1,4,A,0
+2016-11-19,Rochdale,Swindon,4,0,H,0
+2016-11-19,Walsall,Birmingham,1,2,A,0
+2016-11-19,Sheffield Weds,Shrewsbury,2,1,H,0
+2016-11-19,Oxford,Coventry,4,1,H,0
+2016-11-19,Fleetwood Town,Chesterfield,2,1,H,0
+2016-11-19,AFC Wimbledon,Bury,5,1,H,0
+2016-11-19,Southend,Bradford,3,0,H,0
+2016-11-19,Scunthorpe,Oldham,1,0,H,0
+2016-11-19,Northampton,Peterboro,0,1,A,0
+2016-11-19,Charlton,Port Vale,2,0,H,0
+2016-11-19,Bristol Rvs,Milton Keynes Dons,0,0,D,1
+2016-11-19,Luton,Millwall,2,0,H,0
+2016-11-22,Rochdale,Walsall,4,0,H,0
+2016-11-22,Peterboro,Scunthorpe,0,2,A,0
+2016-11-22,Oxford,Birmingham,1,0,H,0
+2016-11-22,Millwall,AFC Wimbledon,0,0,D,1
+2016-11-22,Fleetwood Town,Shrewsbury,3,0,H,0
+2016-11-22,Bradford,Northampton,1,0,H,0
+2016-11-22,Luton,Coventry,1,0,H,0
+2016-11-22,Sheffield Weds,Bury,1,0,H,0
+2016-11-22,Southend,Swindon,1,1,D,1
+2016-11-22,Port Vale,Oldham,2,2,D,1
+2016-11-22,Milton Keynes Dons,Chesterfield,2,3,A,0
+2016-11-22,Bristol Rvs,Charlton,1,5,A,0
+2016-11-26,AFC Wimbledon,Fleetwood Town,2,2,D,1
+2016-11-26,Birmingham,Rochdale,3,0,H,0
+2016-11-26,Northampton,Luton,0,1,A,0
+2016-11-26,Shrewsbury,Port Vale,0,0,D,1
+2016-11-26,Swindon,Bradford,1,0,H,0
+2016-11-26,Walsall,Southend,0,0,D,1
+2016-11-26,Scunthorpe,Oxford,1,1,D,1
+2016-11-26,Coventry,Milton Keynes Dons,1,2,A,0
+2016-11-26,Chesterfield,Bristol Rvs,3,2,H,0
+2016-11-26,Charlton,Sheffield Weds,1,1,D,1
+2016-11-26,Bury,Millwall,2,3,A,0
+2016-11-29,Sheffield Weds,Walsall,0,1,A,0
+2016-12-11,Shrewsbury,Oxford,2,0,H,0
+2016-12-11,Port Vale,Fleetwood Town,2,1,H,0
+2016-12-11,Milton Keynes Dons,Walsall,1,1,D,1
+2016-12-11,Birmingham,Northampton,2,1,H,0
+2016-12-11,Bury,Southend,1,4,A,0
+2016-12-11,Bradford,Rochdale,4,0,H,0
+2016-12-11,Coventry,Scunthorpe,0,1,A,0
+2016-12-11,Millwall,Bristol Rvs,4,0,H,0
+2016-12-11,Oldham,AFC Wimbledon,0,0,D,1
+2016-12-11,Swindon,Charlton,3,0,H,0
+2016-12-12,Luton,Birmingham,4,0,H,0
+2016-12-15,Coventry,Sheffield Weds,1,2,A,0
+2016-12-17,Swindon,Fleetwood Town,1,1,D,1
+2016-12-17,Walsall,Bradford,1,1,D,1
+2016-12-17,Chesterfield,Luton,1,0,H,0
+2016-12-17,Northampton,Rochdale,2,3,A,0
+2016-12-17,Shrewsbury,Bristol Rvs,2,0,H,0
+2016-12-17,Birmingham,Milton Keynes Dons,1,0,H,0
+2016-12-17,Oldham,Southend,0,2,A,0
+2016-12-17,Scunthorpe,Millwall,3,0,H,0
+2016-12-17,Charlton,Peterboro,0,2,A,0
+2016-12-17,AFC Wimbledon,Port Vale,4,0,H,0
+2016-12-17,Bury,Oxford,2,3,A,0
+2016-12-21,Millwall,Charlton,3,1,H,0
+2016-12-26,Luton,Shrewsbury,2,1,H,0
+2016-12-26,Peterboro,Birmingham,1,1,D,1
+2016-12-26,Bristol Rvs,Coventry,4,1,H,0
+2016-12-26,Oxford,Northampton,0,1,A,0
+2016-12-26,Milton Keynes Dons,Charlton,0,1,A,0
+2016-12-26,Fleetwood Town,Bury,0,0,D,1
+2016-12-26,Bradford,Scunthorpe,0,0,D,1
+2016-12-26,Southend,AFC Wimbledon,3,0,H,0
+2016-12-26,Sheffield Weds,Oldham,2,0,H,0
+2016-12-26,Rochdale,Chesterfield,3,0,H,0
+2016-12-26,Millwall,Swindon,2,0,H,0
+2016-12-26,Port Vale,Walsall,0,1,A,0
+2016-12-30,Rochdale,Shrewsbury,2,1,H,0
+2016-12-30,Milton Keynes Dons,Swindon,3,2,H,0
+2016-12-30,Port Vale,Chesterfield,1,0,H,0
+2016-12-30,Millwall,Birmingham,2,1,H,0
+2016-12-31,Luton,Scunthorpe,2,1,H,0
+2016-12-31,Bristol Rvs,AFC Wimbledon,2,0,H,0
+2016-12-31,Bradford,Bury,1,1,D,1
+2016-12-31,Peterboro,Coventry,1,1,D,1
+2016-12-31,Southend,Charlton,1,1,D,1
+2016-12-31,Oxford,Walsall,0,0,D,1
+2016-12-31,Sheffield Weds,Northampton,1,0,H,0
+2016-12-31,Fleetwood Town,Oldham,1,0,H,0
+2017-01-02,Millwall,Walsall,0,0,D,1
+2017-01-04,Port Vale,AFC Wimbledon,2,0,H,0
+2017-01-04,Luton,Chesterfield,0,0,D,1
+2017-01-04,Bradford,Walsall,1,0,H,0
+2017-01-04,Bristol Rvs,Shrewsbury,2,0,H,0
+2017-01-04,Fleetwood Town,Swindon,0,1,A,0
+2017-01-04,Peterboro,Charlton,2,0,H,0
+2017-01-04,Southend,Oldham,3,0,H,0
+2017-01-04,Millwall,Scunthorpe,3,1,H,0
+2017-01-04,Milton Keynes Dons,Birmingham,3,2,H,0
+2017-01-04,Rochdale,Northampton,1,1,D,1
+2017-01-14,Shrewsbury,Bradford,1,0,H,0
+2017-01-14,Chesterfield,Coventry,1,0,H,0
+2017-01-14,AFC Wimbledon,Oxford,2,1,H,0
+2017-01-14,Luton,Swindon,1,2,A,0
+2017-01-14,Bury,Peterboro,5,1,H,0
+2017-01-14,Fleetwood Town,Bristol Rvs,3,1,H,0
+2017-01-14,Northampton,Scunthorpe,1,2,A,0
+2017-01-14,Southend,Rochdale,2,1,H,0
+2017-01-14,Walsall,Sheffield Weds,4,1,H,0
+2017-01-14,Charlton,Millwall,0,0,D,1
+2017-01-14,Oldham,Birmingham,1,0,H,0
+2017-01-20,Port Vale,Bury,2,2,D,1
+2017-01-21,Chesterfield,AFC Wimbledon,0,0,D,1
+2017-01-21,Bradford,Millwall,1,1,D,1
+2017-01-21,Rochdale,Oxford,0,4,A,0
+2017-01-21,Shrewsbury,Oldham,1,0,H,0
+2017-01-21,Coventry,Fleetwood Town,0,1,A,0
+2017-01-21,Swindon,Peterboro,0,1,A,0
+2017-01-21,Walsall,Bristol Rvs,3,1,H,0
+2017-01-21,Sheffield Weds,Birmingham,2,2,D,1
+2017-01-21,Milton Keynes Dons,Northampton,5,3,H,0
+2017-01-24,Oldham,Peterboro,2,0,H,0
+2017-01-24,Sheffield Weds,Fleetwood Town,0,2,A,0
+2017-01-28,Peterboro,Milton Keynes Dons,0,4,A,0
+2017-01-28,Scunthorpe,Port Vale,3,2,H,0
+2017-01-28,Bury,Walsall,3,3,D,1
+2017-01-28,Oldham,Bradford,1,2,A,0
+2017-01-28,Northampton,Coventry,3,0,H,0
+2017-01-28,Fleetwood Town,Southend,1,1,D,1
+2017-01-28,Bristol Rvs,Swindon,1,0,H,0
+2017-01-28,Birmingham,Shrewsbury,1,1,D,1
+2017-01-28,Luton,Charlton,1,2,A,0
+2017-02-01,Birmingham,Oxford,0,1,A,0
+2017-02-01,Charlton,Bristol Rvs,4,1,H,0
+2017-02-01,Bury,Sheffield Weds,1,3,A,0
+2017-02-01,AFC Wimbledon,Millwall,2,2,D,1
+2017-02-01,Walsall,Rochdale,0,2,A,0
+2017-02-01,Swindon,Southend,0,0,D,1
+2017-02-01,Shrewsbury,Fleetwood Town,0,1,A,0
+2017-02-01,Oldham,Port Vale,0,0,D,1
+2017-02-01,Chesterfield,Milton Keynes Dons,0,0,D,1
+2017-02-01,Scunthorpe,Peterboro,1,1,D,1
+2017-02-01,Northampton,Bradford,1,2,A,0
+2017-02-01,Coventry,Luton,2,2,D,1
+2017-02-14,Birmingham,Chesterfield,1,1,D,1
+2017-02-14,Fleetwood Town,Bradford,2,1,H,0
+2017-02-14,Peterboro,Shrewsbury,2,1,H,0
+2017-02-14,AFC Wimbledon,Coventry,1,1,D,1
+2017-02-14,Scunthorpe,Walsall,0,0,D,1
+2017-02-14,Oxford,Southend,0,2,A,0
+2017-02-14,Oldham,Charlton,1,0,H,0
+2017-02-14,Millwall,Port Vale,2,0,H,0
+2017-02-14,Bury,Milton Keynes Dons,0,0,D,1
+2017-02-14,Bristol Rvs,Sheffield Weds,0,0,D,1
+2017-02-14,Luton,Rochdale,1,0,H,0
+2017-02-14,Northampton,Swindon,2,1,H,0
+2017-02-18,Southend,Northampton,2,2,D,1
+2017-02-18,Milton Keynes Dons,Fleetwood Town,0,1,A,0
+2017-02-18,Swindon,Oldham,0,0,D,1
+2017-02-18,Walsall,Peterboro,2,0,H,0
+2017-02-18,Bradford,Luton,2,2,D,1
+2017-02-18,Chesterfield,Bury,1,2,A,0
+2017-02-18,Coventry,Birmingham,2,1,H,0
+2017-02-18,Port Vale,Bristol Rvs,1,1,D,1
+2017-02-18,Rochdale,Charlton,3,3,D,1
+2017-02-18,Sheffield Weds,Scunthorpe,1,1,D,1
+2017-02-18,Shrewsbury,AFC Wimbledon,2,1,H,0
+2017-02-21,Millwall,Chesterfield,0,0,D,1
+2017-02-21,Birmingham,AFC Wimbledon,2,2,D,1
+2017-02-21,Peterboro,Southend,1,4,A,0
+2017-02-21,Charlton,Oxford,0,1,A,0
+2017-02-25,Coventry,Swindon,1,3,A,0
+2017-02-25,Birmingham,Southend,2,1,H,0
+2017-02-25,Milton Keynes Dons,Shrewsbury,2,1,H,0
+2017-02-25,Peterboro,Rochdale,3,1,H,0
+2017-02-25,Sheffield Weds,Luton,2,0,H,0
+2017-02-25,AFC Wimbledon,Walsall,1,0,H,0
+2017-02-25,Charlton,Bury,0,1,A,0
+2017-02-25,Fleetwood Town,Northampton,3,0,H,0
+2017-02-25,Chesterfield,Oxford,0,4,A,0
+2017-02-25,Oldham,Millwall,0,0,D,1
+2017-02-25,Port Vale,Bradford,1,2,A,0
+2017-02-25,Bristol Rvs,Scunthorpe,1,1,D,1
+2017-02-28,Swindon,Birmingham,3,1,H,0
+2017-02-28,Luton,Bristol Rvs,1,1,D,1
+2017-02-28,Bradford,Milton Keynes Dons,2,2,D,1
+2017-02-28,Bury,Coventry,2,1,H,0
+2017-02-28,Millwall,Peterboro,1,0,H,0
+2017-02-28,Northampton,Oldham,1,2,A,0
+2017-02-28,Scunthorpe,AFC Wimbledon,1,2,A,0
+2017-02-28,Shrewsbury,Charlton,4,3,H,0
+2017-03-14,Chesterfield,Peterboro,3,3,D,1
+2017-03-14,Bury,Bristol Rvs,3,0,H,0
+2017-03-14,AFC Wimbledon,Milton Keynes Dons,2,0,H,0
+2017-03-14,Charlton,Bradford,1,1,D,1
+2017-03-14,Walsall,Fleetwood Town,0,1,A,0
+2017-03-14,Birmingham,Luton,0,4,A,0
+2017-03-14,Coventry,Southend,0,2,A,0
+2017-03-14,Swindon,Sheffield Weds,2,4,A,0
+2017-03-14,Scunthorpe,Rochdale,2,1,H,0
+2017-03-14,Oldham,Oxford,2,1,H,0
+2017-03-14,Northampton,Port Vale,2,1,H,0
+2017-03-17,Port Vale,Shrewsbury,2,1,H,0
+2017-03-18,Southend,Walsall,3,2,H,0
+2017-03-18,Sheffield Weds,Charlton,2,1,H,0
+2017-03-18,Rochdale,Birmingham,4,1,H,0
+2017-03-18,Peterboro,Oldham,1,1,D,1
+2017-03-18,Oxford,Scunthorpe,2,1,H,0
+2017-03-18,Bristol Rvs,Chesterfield,2,1,H,0
+2017-03-18,Bradford,Swindon,2,1,H,0
+2017-03-18,Luton,Northampton,2,1,H,0
+2017-03-18,Milton Keynes Dons,Coventry,1,0,H,0
+2017-03-18,Millwall,Bury,0,0,D,1
+2017-03-18,Fleetwood Town,AFC Wimbledon,0,0,D,1
+2017-03-21,Coventry,Port Vale,2,1,H,0
+2017-03-21,Rochdale,Millwall,3,3,D,1
+2017-03-21,Oxford,Luton,2,4,A,0
+2017-03-25,Oldham,Sheffield Weds,1,1,D,1
+2017-03-25,Northampton,Oxford,0,0,D,1
+2017-03-25,Port Vale,Milton Keynes Dons,0,0,D,1
+2017-03-25,Shrewsbury,Luton,0,2,A,0
+2017-03-25,Swindon,Millwall,1,0,H,0
+2017-03-25,Bury,Fleetwood Town,0,0,D,1
+2017-03-25,Coventry,Bristol Rvs,1,0,H,0
+2017-03-25,Birmingham,Peterboro,0,1,A,0
+2017-03-25,AFC Wimbledon,Southend,0,2,A,0
+2017-03-25,Chesterfield,Rochdale,1,3,A,0
+2017-03-26,Scunthorpe,Bradford,3,2,H,0
+2017-03-28,AFC Wimbledon,Rochdale,3,1,H,0
+2017-03-28,Oxford,Bury,5,1,H,0
+2017-03-28,Sheffield Weds,Millwall,2,0,H,0
+2017-04-02,Milton Keynes Dons,Luton,1,1,D,1
+2017-04-02,Coventry,Millwall,0,2,A,0
+2017-04-02,Port Vale,Peterboro,0,3,A,0
+2017-04-02,Rochdale,Bristol Rvs,0,0,D,1
+2017-04-02,Sheffield Weds,AFC Wimbledon,4,0,H,0
+2017-04-02,Walsall,Northampton,2,1,H,0
+2017-04-02,Southend,Scunthorpe,3,1,H,0
+2017-04-02,Chesterfield,Oldham,0,1,A,0
+2017-04-02,Shrewsbury,Bury,2,1,H,0
+2017-04-02,Bradford,Birmingham,2,2,D,1
+2017-04-02,Charlton,Fleetwood Town,1,1,D,1
+2017-04-03,Rochdale,Sheffield Weds,3,3,D,1
+2017-04-03,Southend,Port Vale,1,1,D,1
+2017-04-03,Walsall,Oldham,2,0,H,0
+2017-04-03,Millwall,Milton Keynes Dons,2,1,H,0
+2017-04-03,Northampton,Charlton,2,1,H,0
+2017-04-03,Luton,AFC Wimbledon,1,1,D,1
+2017-04-03,Bradford,Peterboro,1,0,H,0
+2017-04-03,Bury,Birmingham,1,2,A,0
+2017-04-03,Oxford,Bristol Rvs,0,2,A,0
+2017-04-03,Scunthorpe,Fleetwood Town,0,2,A,0
+2017-04-03,Shrewsbury,Coventry,0,0,D,1
+2017-04-03,Swindon,Chesterfield,0,1,A,0
+2017-04-04,Shrewsbury,Millwall,1,2,A,0
+2017-04-04,Southend,Luton,0,1,A,0
+2017-04-04,Rochdale,Port Vale,3,0,H,0
+2017-04-04,Charlton,Milton Keynes Dons,0,2,A,0
+2017-04-13,Bury,Rochdale,0,1,A,0
+2017-04-14,Milton Keynes Dons,Scunthorpe,0,1,A,0
+2017-04-14,Millwall,Northampton,3,0,H,0
+2017-04-14,Chesterfield,Southend,0,4,A,0
+2017-04-14,Bradford,Oxford,1,0,H,0
+2017-04-14,Port Vale,Sheffield Weds,0,3,A,0
+2017-04-14,Shrewsbury,Walsall,1,1,D,1
+2017-04-14,Peterboro,Fleetwood Town,1,2,A,0
+2017-04-14,Birmingham,Bristol Rvs,3,1,H,0
+2017-04-14,Coventry,Charlton,1,1,D,1
+2017-04-14,Swindon,AFC Wimbledon,0,0,D,1
+2017-04-15,Oldham,Luton,1,0,H,0
+2017-04-17,Southend,Milton Keynes Dons,1,2,A,0
+2017-04-17,Scunthorpe,Chesterfield,3,1,H,0
+2017-04-17,Walsall,Swindon,1,0,H,0
+2017-04-17,Sheffield Weds,Bradford,3,0,H,0
+2017-04-17,Rochdale,Coventry,2,0,H,0
+2017-04-17,Oxford,Port Vale,2,0,H,0
+2017-04-17,Fleetwood Town,Millwall,1,0,H,0
+2017-04-17,Northampton,Shrewsbury,1,1,D,1
+2017-04-17,Charlton,Birmingham,3,0,H,0
+2017-04-17,Bristol Rvs,Oldham,1,0,H,0
+2017-04-17,AFC Wimbledon,Peterboro,0,0,D,1
+2017-04-18,Luton,Bury,0,0,D,1
+2017-04-22,Shrewsbury,Southend,1,0,H,0
+2017-04-22,Birmingham,Fleetwood Town,2,3,A,0
+2017-04-22,Chesterfield,Charlton,1,2,A,0
+2017-04-22,Port Vale,Luton,0,2,A,0
+2017-04-22,Milton Keynes Dons,Sheffield Weds,0,3,A,0
+2017-04-22,Millwall,Oxford,0,3,A,0
+2017-04-22,Coventry,Walsall,1,0,H,0
+2017-04-22,Bury,Northampton,3,0,H,0
+2017-04-22,Bradford,AFC Wimbledon,3,0,H,0
+2017-04-22,Peterboro,Bristol Rvs,4,2,H,0
+2017-04-22,Swindon,Scunthorpe,1,2,A,0
+2017-04-22,Oldham,Rochdale,1,1,D,1
+2017-04-25,Walsall,Port Vale,0,1,A,0
+2017-04-30,AFC Wimbledon,Oldham,0,0,D,1
+2017-04-30,Bristol Rvs,Millwall,3,4,A,0
+2017-04-30,Rochdale,Bradford,1,1,D,1
+2017-04-30,Scunthorpe,Coventry,3,1,H,0
+2017-04-30,Sheffield Weds,Chesterfield,3,2,H,0
+2017-04-30,Walsall,Milton Keynes Dons,1,4,A,0
+2017-04-30,Southend,Bury,1,0,H,0
+2017-04-30,Oxford,Shrewsbury,2,0,H,0
+2017-04-30,Northampton,Birmingham,0,0,D,1
+2017-04-30,Fleetwood Town,Port Vale,0,0,D,1
+2017-04-30,Charlton,Swindon,3,0,H,0
+2017-04-30,Luton,Peterboro,3,0,H,0
+2017-05-02,Swindon,Oxford,1,2,A,0
+2017-05-04,Sheffield Weds,Coventry,2,0,H,0
+2017-05-04,Oxford,Fleetwood Town,1,3,A,0
+2017-07-01,Southend,Sheffield Weds,2,4,A,0
+2017-07-01,Swindon,Shrewsbury,1,1,D,1
+2017-07-01,Scunthorpe,Bury,3,2,H,0
+2017-07-01,Bristol Rvs,Northampton,5,0,H,0
+2017-07-01,Bradford,Chesterfield,2,0,H,0
+2017-07-02,Milton Keynes Dons,Oldham,1,0,H,0
+2017-07-03,Walsall,Chesterfield,1,0,H,0
+2017-07-03,Oxford,Sheffield Weds,2,3,A,0
+2017-07-03,Charlton,Scunthorpe,2,1,H,0
+2017-08-04,Birmingham,Millwall,1,1,D,1
+2017-08-04,Charlton,Southend,2,1,H,0
+2017-08-04,Walsall,Oxford,1,1,D,1
+2017-08-04,Swindon,Milton Keynes Dons,1,1,D,1
+2017-08-04,Scunthorpe,Luton,1,0,H,0
+2017-08-04,Oldham,Fleetwood Town,2,0,H,0
+2017-08-04,Coventry,Peterboro,1,0,H,0
+2017-08-04,Bury,Bradford,0,2,A,0
+2017-08-04,Chesterfield,Port Vale,1,0,H,0
+2017-08-04,AFC Wimbledon,Bristol Rvs,0,1,A,0
+2017-08-04,Northampton,Sheffield Weds,1,2,A,0
+2017-08-04,Shrewsbury,Rochdale,1,0,H,0
+2017-11-02,Birmingham,Port Vale,1,1,D,1
+2017-11-02,Bury,Swindon,1,0,H,0
+2017-11-02,Oldham,Coventry,3,2,H,0
+2017-11-02,Northampton,Chesterfield,3,1,H,0
+2017-11-02,Bristol Rvs,Bradford,1,1,D,1
+2017-11-02,Luton,Walsall,4,1,H,0
+2017-11-02,AFC Wimbledon,Charlton,1,1,D,1
+2017-11-02,Scunthorpe,Shrewsbury,0,1,A,0
+2017-11-02,Peterboro,Sheffield Weds,0,1,A,0
+2017-11-02,Oxford,Milton Keynes Dons,1,0,H,0
+2017-11-02,Millwall,Southend,1,0,H,0
+2017-11-02,Fleetwood Town,Rochdale,0,0,D,1
+2017-11-03,Peterboro,Oxford,1,2,A,0
+2017-11-03,Port Vale,Swindon,3,2,H,0
+2017-11-03,Birmingham,Scunthorpe,3,2,H,0
+2017-11-03,Charlton,Walsall,1,1,D,1
+2017-11-03,AFC Wimbledon,Northampton,0,1,A,0
+2017-11-03,Fleetwood Town,Luton,2,4,A,0
+2017-11-03,Chesterfield,Shrewsbury,1,1,D,1
+2017-11-03,Milton Keynes Dons,Rochdale,2,2,D,1
+2017-11-03,Bristol Rvs,Southend,2,0,H,0
+2017-11-03,Coventry,Bradford,0,2,A,0
+2017-11-03,Oldham,Bury,0,0,D,1

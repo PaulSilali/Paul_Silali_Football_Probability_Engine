@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2018-08-10,Benfica,Guimaraes,3,2,H,0
+2018-08-11,Porto,Aves,5,0,H,0
+2018-08-11,Tondela,Belenenses,0,1,A,0
+2018-08-11,Setubal,Aves,2,0,H,0
+2018-08-12,Maritimo,Santa Clara,1,0,H,0
+2018-08-12,Farense,Rio Ave,2,0,H,0
+2018-08-12,Sp Braga,Nacional,4,2,H,0
+2018-08-12,Moreirense,Sp Lisbon,1,3,A,0
+2018-08-13,Portimonense,Boavista,0,2,A,0
+2018-08-17,Aves,Tondela,2,2,D,1
+2018-08-18,Sp Lisbon,Setubal,2,1,H,0
+2018-08-18,Boavista,Benfica,0,2,A,0
+2018-08-18,Aves,Portimonense,2,0,H,0
+2018-08-19,Nacional,Moreirense,1,2,A,0
+2018-08-19,Belenenses,Porto,2,3,A,0
+2018-08-19,Santa Clara,Sp Braga,3,3,D,1
+2018-08-19,Rio Ave,Maritimo,3,1,H,0
+2018-08-20,Guimaraes,Farense,0,1,A,0
+2018-08-24,Maritimo,Aves,2,1,H,0
+2018-08-25,Porto,Guimaraes,2,3,A,0
+2018-08-25,Benfica,Sp Lisbon,1,1,D,1
+2018-08-25,Portimonense,Santa Clara,2,2,D,1
+2018-08-26,Farense,Boavista,1,1,D,1
+2018-08-26,Setubal,Nacional,1,2,A,0
+2018-08-26,Sp Braga,Aves,3,1,H,0
+2018-08-26,Tondela,Rio Ave,1,1,D,1
+2018-08-27,Moreirense,Belenenses,1,1,D,1
+2018-08-31,Aves,Sp Braga,0,1,A,0
+2018-08-31,Guimaraes,Tondela,1,0,H,0
+2018-09-01,Belenenses,Setubal,0,0,D,1
+2018-09-01,Sp Lisbon,Farense,1,0,H,0
+2018-09-01,Santa Clara,Boavista,4,2,H,0
+2018-09-02,Aves,Maritimo,0,1,A,0
+2018-09-02,Porto,Moreirense,3,0,H,0
+2018-09-02,Nacional,Benfica,0,4,A,0
+2018-09-02,Rio Ave,Portimonense,2,1,H,0
+2018-09-21,Boavista,Aves,1,2,A,0
+2018-09-22,Santa Clara,Rio Ave,1,3,A,0
+2018-09-22,Maritimo,Belenenses,0,0,D,1
+2018-09-22,Setubal,Porto,0,2,A,0
+2018-09-23,Benfica,Aves,2,0,H,0
+2018-09-23,Portimonense,Guimaraes,3,2,H,0
+2018-09-23,Tondela,Moreirense,2,0,H,0
+2018-09-23,Farense,Nacional,0,0,D,1
+2018-09-24,Sp Braga,Sp Lisbon,1,0,H,0
+2018-09-27,Aves,Benfica,2,2,D,1
+2018-09-28,Porto,Tondela,1,0,H,0
+2018-09-29,Rio Ave,Boavista,2,1,H,0
+2018-09-29,Sp Lisbon,Maritimo,2,0,H,0
+2018-09-29,Moreirense,Farense,1,0,H,0
+2018-09-30,Belenenses,Sp Braga,0,3,A,0
+2018-09-30,Guimaraes,Setubal,1,1,D,1
+2018-09-30,Nacional,Santa Clara,0,3,A,0
+2018-10-01,Aves,Portimonense,3,0,H,0
+2018-10-05,Tondela,Nacional,1,1,D,1
+2018-10-05,Santa Clara,Aves,1,0,H,0
+2018-10-05,Farense,Belenenses,0,0,D,1
+2018-10-06,Sp Braga,Rio Ave,1,1,D,1
+2018-10-06,Setubal,Moreirense,3,0,H,0
+2018-10-06,Maritimo,Guimaraes,1,3,A,0
+2018-10-07,Benfica,Porto,1,0,H,0
+2018-10-07,Boavista,Aves,1,0,H,0
+2018-10-07,Portimonense,Sp Lisbon,4,2,H,0
+2018-10-26,Nacional,Portimonense,0,1,A,0
+2018-10-26,Guimaraes,Sp Braga,1,1,D,1
+2018-10-27,Aves,Santa Clara,1,2,A,0
+2018-10-27,Belenenses,Benfica,2,0,H,0
+2018-10-27,Rio Ave,Aves,1,0,H,0
+2018-10-28,Sp Lisbon,Boavista,3,0,H,0
+2018-10-28,Moreirense,Maritimo,1,0,H,0
+2018-10-28,Tondela,Setubal,1,2,A,0
+2018-10-28,Porto,Farense,2,0,H,0
+2018-11-02,Benfica,Moreirense,1,3,A,0
+2018-11-03,Portimonense,Belenenses,1,1,D,1
+2018-11-03,Maritimo,Porto,0,2,A,0
+2018-11-03,Boavista,Guimaraes,0,0,D,1
+2018-11-04,Sp Braga,Setubal,2,1,H,0
+2018-11-04,Farense,Tondela,2,4,A,0
+2018-11-04,Santa Clara,Sp Lisbon,1,2,A,0
+2018-11-05,Aves,Aves,2,3,A,0
+2018-11-05,Rio Ave,Nacional,3,3,D,1
+2018-11-09,Setubal,Farense,2,1,H,0
+2018-11-09,Moreirense,Portimonense,2,0,H,0
+2018-11-10,Nacional,Maritimo,1,0,H,0
+2018-11-10,Belenenses,Boavista,0,0,D,1
+2018-11-10,Aves,Rio Ave,2,1,H,0
+2018-11-10,Porto,Sp Braga,1,0,H,0
+2018-11-11,Guimaraes,Santa Clara,2,0,H,0
+2018-11-11,Tondela,Benfica,1,3,A,0
+2018-11-11,Sp Lisbon,Aves,2,1,H,0
+2018-11-30,Santa Clara,Belenenses,2,3,A,0
+2018-12-01,Maritimo,Setubal,0,1,A,0
+2018-12-01,Benfica,Farense,4,0,H,0
+2018-12-01,Sp Braga,Moreirense,2,0,H,0
+2018-12-02,Aves,Nacional,2,3,A,0
+2018-12-02,Portimonense,Tondela,3,2,H,0
+2018-12-02,Aves,Guimaraes,0,1,A,0
+2018-12-02,Boavista,Porto,0,1,A,0
+2018-12-03,Rio Ave,Sp Lisbon,1,3,A,0
+2018-12-07,Porto,Portimonense,4,1,H,0
+2018-12-08,Tondela,Sp Braga,0,1,A,0
+2018-12-08,Belenenses,Aves,1,0,H,0
+2018-12-08,Setubal,Benfica,0,1,A,0
+2018-12-09,Guimaraes,Rio Ave,3,2,H,0
+2018-12-09,Moreirense,Santa Clara,0,1,A,0
+2018-12-09,Nacional,Boavista,0,0,D,1
+2018-12-09,Sp Lisbon,Aves,4,1,H,0
+2018-12-10,Farense,Maritimo,1,1,D,1
+2018-12-14,Sp Braga,Farense,4,0,H,0
+2018-12-14,Portimonense,Setubal,3,1,H,0
+2018-12-15,Boavista,Tondela,2,0,H,0
+2018-12-15,Santa Clara,Porto,1,2,A,0
+2018-12-15,Aves,Moreirense,1,2,A,0
+2018-12-15,Aves,Guimaraes,1,1,D,1
+2018-12-16,Maritimo,Benfica,0,1,A,0
+2018-12-16,Rio Ave,Belenenses,2,2,D,1
+2018-12-16,Sp Lisbon,Nacional,5,2,H,0
+2018-12-22,Setubal,Santa Clara,0,2,A,0
+2018-12-22,Tondela,Maritimo,2,1,H,0
+2018-12-22,Belenenses,Aves,5,2,H,0
+2018-12-22,Farense,Portimonense,0,1,A,0
+2018-12-22,Moreirense,Boavista,2,1,H,0
+2018-12-23,Nacional,Aves,2,0,H,0
+2018-12-23,Porto,Rio Ave,2,1,H,0
+2018-12-23,Benfica,Sp Braga,6,2,H,0
+2018-12-23,Guimaraes,Sp Lisbon,1,0,H,0
+2019-01-02,Rio Ave,Moreirense,1,2,A,0
+2019-01-02,Boavista,Setubal,1,0,H,0
+2019-01-02,Nacional,Guimaraes,1,0,H,0
+2019-01-02,Portimonense,Benfica,2,0,H,0
+2019-01-02,Sp Braga,Maritimo,2,0,H,0
+2019-01-02,Santa Clara,Tondela,1,2,A,0
+2019-01-03,Aves,Farense,0,0,D,1
+2019-01-03,Sp Lisbon,Belenenses,2,1,H,0
+2019-01-03,Aves,Porto,0,1,A,0
+2019-01-05,Maritimo,Portimonense,2,1,H,0
+2019-01-06,Sp Braga,Boavista,1,0,H,0
+2019-01-06,Benfica,Rio Ave,4,2,H,0
+2019-01-06,Farense,Santa Clara,2,2,D,1
+2019-01-06,Belenenses,Guimaraes,1,0,H,0
+2019-01-06,Setubal,Aves,0,0,D,1
+2019-01-07,Moreirense,Aves,1,0,H,0
+2019-01-07,Porto,Nacional,3,1,H,0
+2019-01-07,Tondela,Sp Lisbon,2,1,H,0
+2019-01-10,Portimonense,Sp Braga,1,1,D,1
+2019-01-11,Guimaraes,Moreirense,1,0,H,0
+2019-01-11,Santa Clara,Benfica,0,2,A,0
+2019-01-11,Aves,Farense,1,1,D,1
+2019-01-12,Boavista,Maritimo,0,1,A,0
+2019-01-12,Sp Lisbon,Porto,0,0,D,1
+2019-01-13,Nacional,Belenenses,0,1,A,0
+2019-01-13,Aves,Tondela,2,1,H,0
+2019-01-13,Rio Ave,Setubal,1,1,D,1
+2019-01-18,Nacional,Sp Braga,0,3,A,0
+2019-01-18,Aves,Porto,1,4,A,0
+2019-01-18,Guimaraes,Benfica,0,1,A,0
+2019-01-19,Sp Lisbon,Moreirense,2,1,H,0
+2019-01-19,Santa Clara,Maritimo,0,1,A,0
+2019-01-19,Belenenses,Tondela,2,2,D,1
+2019-01-20,Boavista,Portimonense,0,2,A,0
+2019-01-20,Rio Ave,Farense,0,0,D,1
+2019-01-20,Aves,Setubal,2,1,H,0
+2019-01-28,Farense,Guimaraes,1,2,A,0
+2019-01-28,Moreirense,Nacional,2,1,H,0
+2019-01-28,Tondela,Aves,0,2,A,0
+2019-01-28,Maritimo,Rio Ave,0,2,A,0
+2019-01-29,Portimonense,Aves,0,1,A,0
+2019-01-29,Benfica,Boavista,5,1,H,0
+2019-01-29,Sp Braga,Santa Clara,1,0,H,0
+2019-01-30,Porto,Belenenses,3,0,H,0
+2019-01-30,Setubal,Sp Lisbon,1,1,D,1
+2019-02-01,Rio Ave,Tondela,2,2,D,1
+2019-02-02,Boavista,Farense,2,0,H,0
+2019-02-02,Aves,Sp Braga,0,2,A,0
+2019-02-02,Aves,Maritimo,1,0,H,0
+2019-02-03,Guimaraes,Porto,0,0,D,1
+2019-02-03,Sp Lisbon,Benfica,2,4,A,0
+2019-02-03,Santa Clara,Portimonense,2,1,H,0
+2019-02-03,Nacional,Setubal,0,0,D,1
+2019-02-04,Belenenses,Moreirense,0,1,A,0
+2019-02-08,Moreirense,Porto,1,1,D,1
+2019-02-09,Maritimo,Aves,0,1,A,0
+2019-02-09,Tondela,Guimaraes,1,0,H,0
+2019-02-09,Portimonense,Rio Ave,0,1,A,0
+2019-02-10,Benfica,Nacional,10,0,H,0
+2019-02-10,Sp Braga,Aves,2,1,H,0
+2019-02-10,Farense,Sp Lisbon,1,3,A,0
+2019-02-10,Boavista,Santa Clara,1,0,H,0
+2019-02-11,Setubal,Belenenses,0,0,D,1
+2019-02-15,Rio Ave,Santa Clara,1,2,A,0
+2019-02-16,Guimaraes,Portimonense,2,0,H,0
+2019-02-16,Porto,Setubal,2,0,H,0
+2019-02-16,Nacional,Farense,4,0,H,0
+2019-02-17,Belenenses,Maritimo,0,1,A,0
+2019-02-17,Sp Lisbon,Sp Braga,3,0,H,0
+2019-02-17,Moreirense,Tondela,2,0,H,0
+2019-02-17,Aves,Boavista,1,1,D,1
+2019-02-18,Aves,Benfica,0,3,A,0
+2019-02-22,Sp Braga,Belenenses,0,2,A,0
+2019-02-22,Tondela,Porto,0,3,A,0
+2019-02-23,Setubal,Guimaraes,1,1,D,1
+2019-02-23,Farense,Moreirense,1,3,A,0
+2019-02-23,Portimonense,Aves,1,1,D,1
+2019-02-24,Santa Clara,Nacional,2,0,H,0
+2019-02-24,Boavista,Rio Ave,1,0,H,0
+2019-02-25,Benfica,Aves,4,0,H,0
+2019-02-25,Maritimo,Sp Lisbon,0,0,D,1
+2019-03-01,Aves,Boavista,2,0,H,0
+2019-03-02,Nacional,Tondela,3,2,H,0
+2019-03-02,Moreirense,Setubal,1,1,D,1
+2019-03-02,Porto,Benfica,1,2,A,0
+2019-03-03,Belenenses,Farense,4,0,H,0
+2019-03-03,Aves,Santa Clara,0,0,D,1
+2019-03-03,Rio Ave,Sp Braga,1,2,A,0
+2019-03-03,Sp Lisbon,Portimonense,3,1,H,0
+2019-03-04,Guimaraes,Maritimo,1,0,H,0
+2019-03-08,Aves,Rio Ave,1,1,D,1
+2019-03-09,Sp Braga,Guimaraes,1,0,H,0
+2019-03-09,Boavista,Sp Lisbon,1,2,A,0
+2019-03-09,Maritimo,Moreirense,3,2,H,0
+2019-03-10,Setubal,Tondela,0,0,D,1
+2019-03-10,Santa Clara,Aves,0,0,D,1
+2019-03-10,Farense,Porto,1,2,A,0
+2019-03-10,Portimonense,Nacional,5,1,H,0
+2019-03-11,Benfica,Belenenses,2,2,D,1
+2019-03-15,Sp Lisbon,Santa Clara,1,0,H,0
+2019-03-16,Setubal,Sp Braga,0,1,A,0
+2019-03-16,Porto,Maritimo,3,0,H,0
+2019-03-16,Guimaraes,Boavista,3,1,H,0
+2019-03-16,Belenenses,Portimonense,2,2,D,1
+2019-03-17,Aves,Aves,0,1,A,0
+2019-03-17,Tondela,Farense,1,1,D,1
+2019-03-17,Nacional,Rio Ave,0,1,A,0
+2019-03-17,Moreirense,Benfica,0,4,A,0
+2019-03-29,Portimonense,Moreirense,0,2,A,0
+2019-03-30,Santa Clara,Guimaraes,1,0,H,0
+2019-03-30,Benfica,Tondela,1,0,H,0
+2019-03-30,Sp Braga,Porto,2,3,A,0
+2019-03-30,Aves,Sp Lisbon,1,3,A,0
+2019-03-31,Rio Ave,Aves,0,2,A,0
+2019-03-31,Boavista,Belenenses,2,0,H,0
+2019-03-31,Maritimo,Nacional,3,2,H,0
+2019-04-01,Farense,Setubal,0,1,A,0
+2019-04-05,Porto,Boavista,2,0,H,0
+2019-04-06,Belenenses,Santa Clara,1,1,D,1
+2019-04-06,Nacional,Aves,0,0,D,1
+2019-04-06,Moreirense,Sp Braga,1,0,H,0
+2019-04-06,Guimaraes,Aves,4,0,H,0
+2019-04-07,Sp Lisbon,Rio Ave,3,0,H,0
+2019-04-07,Farense,Benfica,1,4,A,0
+2019-04-07,Setubal,Maritimo,1,0,H,0
+2019-04-08,Tondela,Portimonense,3,2,H,0
+2019-04-12,Aves,Belenenses,2,2,D,1
+2019-04-13,Aves,Sp Lisbon,1,3,A,0
+2019-04-13,Portimonense,Porto,0,3,A,0
+2019-04-13,Santa Clara,Moreirense,1,1,D,1
+2019-04-14,Maritimo,Farense,2,0,H,0
+2019-04-14,Sp Braga,Tondela,3,0,H,0
+2019-04-14,Benfica,Setubal,4,2,H,0
+2019-04-14,Rio Ave,Guimaraes,2,1,H,0
+2019-04-14,Boavista,Nacional,1,0,H,0
+2019-04-19,Setubal,Portimonense,1,1,D,1
+2019-04-19,Tondela,Boavista,1,0,H,0
+2019-04-19,Nacional,Sp Lisbon,0,1,A,0
+2019-04-19,Guimaraes,Aves,0,2,A,0
+2019-04-20,Moreirense,Aves,0,1,A,0
+2019-04-20,Farense,Sp Braga,0,2,A,0
+2019-04-20,Porto,Santa Clara,1,0,H,0
+2019-04-20,Belenenses,Rio Ave,1,3,A,0
+2019-04-22,Benfica,Maritimo,6,0,H,0
+2019-04-26,Rio Ave,Porto,2,2,D,1
+2019-04-27,Santa Clara,Setubal,0,0,D,1
+2019-04-27,Sp Lisbon,Guimaraes,2,0,H,0
+2019-04-27,Portimonense,Farense,1,0,H,0
+2019-04-27,Aves,Belenenses,3,0,H,0
+2019-04-28,Aves,Nacional,4,1,H,0
+2019-04-28,Maritimo,Tondela,2,0,H,0
+2019-04-28,Sp Braga,Benfica,1,4,A,0
+2019-04-28,Boavista,Moreirense,3,1,H,0
+2019-05-03,Moreirense,Rio Ave,1,2,A,0
+2019-05-04,Maritimo,Sp Braga,1,0,H,0
+2019-05-04,Porto,Aves,4,0,H,0
+2019-05-04,Farense,Aves,4,4,D,1
+2019-05-04,Benfica,Portimonense,5,1,H,0
+2019-05-05,Tondela,Santa Clara,1,3,A,0
+2019-05-05,Guimaraes,Nacional,2,2,D,1
+2019-05-05,Belenenses,Sp Lisbon,1,8,A,0
+2019-05-06,Setubal,Boavista,0,3,A,0
+2019-05-10,Aves,Moreirense,0,1,A,0
+2019-05-11,Sp Lisbon,Tondela,1,1,D,1
+2019-05-11,Boavista,Sp Braga,4,2,H,0
+2019-05-11,Portimonense,Maritimo,3,2,H,0
+2019-05-11,Santa Clara,Farense,4,4,D,1
+2019-05-12,Guimaraes,Belenenses,5,1,H,0
+2019-05-12,Nacional,Porto,0,4,A,0
+2019-05-12,Aves,Setubal,1,2,A,0
+2019-05-12,Rio Ave,Benfica,2,3,A,0
+2019-05-16,Belenenses,Nacional,3,0,H,0
+2019-05-17,Sp Braga,Portimonense,2,0,H,0
+2019-05-18,Maritimo,Boavista,0,1,A,0
+2019-05-18,Farense,Aves,2,1,H,0
+2019-05-18,Benfica,Santa Clara,4,1,H,0
+2019-05-18,Setubal,Rio Ave,1,3,A,0
+2019-05-18,Porto,Sp Lisbon,2,1,H,0
+2019-05-19,Moreirense,Guimaraes,1,3,A,0
+2019-05-19,Tondela,Aves,5,2,H,0

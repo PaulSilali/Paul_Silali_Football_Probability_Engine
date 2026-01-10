@@ -1,0 +1,229 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Hamilton,Inverness C,1,1,D,1
+2016-01-10,Ross County,St Johnstone,0,2,A,0
+2016-01-10,Rangers,Partick,2,0,H,0
+2016-01-10,Kilmarnock,Aberdeen,0,4,A,0
+2016-01-10,Dundee United,Celtic,0,1,A,0
+2016-03-12,Hamilton,Partick,1,1,D,1
+2016-03-12,St Johnstone,Inverness C,3,0,H,0
+2016-03-12,Kilmarnock,Dundee United,2,0,H,0
+2016-03-12,Ross County,Hearts,2,2,D,1
+2016-03-12,Rangers,Aberdeen,2,1,H,0
+2016-03-12,Motherwell,Celtic,3,4,A,0
+2016-04-11,Partick,Aberdeen,1,2,A,0
+2016-05-11,Hearts,St Johnstone,2,2,D,1
+2016-05-11,Kilmarnock,Hamilton,0,0,D,1
+2016-05-11,Dundee United,Motherwell,2,0,H,0
+2016-05-11,Celtic,Inverness C,3,0,H,0
+2016-06-08,Rangers,Hamilton,1,1,D,1
+2016-06-08,Partick,Inverness C,2,0,H,0
+2016-06-08,Ross County,Dundee United,1,3,A,0
+2016-06-08,Kilmarnock,Motherwell,1,2,A,0
+2016-06-11,Ross County,Rangers,1,1,D,1
+2016-06-12,Aberdeen,Kilmarnock,5,1,H,0
+2016-07-08,Hearts,Celtic,1,2,A,0
+2016-07-08,St Johnstone,Aberdeen,0,0,D,1
+2016-08-13,Dundee United,Rangers,1,2,A,0
+2016-08-13,Aberdeen,Hearts,0,0,D,1
+2016-08-13,Hamilton,Kilmarnock,1,2,A,0
+2016-08-13,Inverness C,Ross County,2,3,A,0
+2016-08-13,Motherwell,St Johnstone,1,2,A,0
+2016-08-19,Dundee United,Hamilton,1,1,D,1
+2016-08-20,Hearts,Inverness C,5,1,H,0
+2016-08-20,Rangers,Motherwell,2,1,H,0
+2016-08-20,Ross County,Kilmarnock,2,0,H,0
+2016-08-20,Aberdeen,Partick,2,1,H,0
+2016-08-20,St Johnstone,Celtic,2,4,A,0
+2016-08-26,Kilmarnock,Rangers,1,1,D,1
+2016-08-27,Hamilton,Ross County,1,0,H,0
+2016-08-27,Celtic,Aberdeen,4,1,H,0
+2016-08-27,Motherwell,Dundee United,0,0,D,1
+2016-08-27,Inverness C,St Johnstone,2,1,H,0
+2016-08-27,Partick,Hearts,1,2,A,0
+2016-09-12,Partick,Celtic,1,4,A,0
+2016-09-17,St Johnstone,Hearts,1,0,H,0
+2016-09-17,Kilmarnock,Partick,2,2,D,1
+2016-09-17,Motherwell,Hamilton,4,2,H,0
+2016-09-17,Rangers,Ross County,0,0,D,1
+2016-09-18,Dundee United,Aberdeen,1,3,A,0
+2016-09-18,Inverness C,Celtic,2,2,D,1
+2016-09-24,Inverness C,Dundee United,3,1,H,0
+2016-09-24,Partick,Motherwell,1,1,D,1
+2016-09-24,Hearts,Ross County,0,0,D,1
+2016-09-24,Celtic,Kilmarnock,6,1,H,0
+2016-09-25,Hamilton,St Johnstone,1,1,D,1
+2016-09-25,Aberdeen,Rangers,2,1,H,0
+2016-09-30,Motherwell,Hearts,1,3,A,0
+2016-10-09,Ross County,Motherwell,1,1,D,1
+2016-10-09,Hearts,Hamilton,3,1,H,0
+2016-10-09,Celtic,Rangers,5,1,H,0
+2016-10-09,Partick,St Johnstone,0,2,A,0
+2016-10-09,Dundee United,Kilmarnock,1,1,D,1
+2016-10-09,Aberdeen,Inverness C,1,1,D,1
+2016-10-12,Aberdeen,St Johnstone,0,0,D,1
+2016-10-12,Inverness C,Hamilton,1,1,D,1
+2016-10-12,Rangers,Hearts,2,0,H,0
+2016-10-12,Motherwell,Kilmarnock,0,0,D,1
+2016-10-12,Dundee United,Ross County,0,0,D,1
+2016-10-14,Inverness C,Rangers,0,1,A,0
+2016-10-15,Celtic,Motherwell,2,0,H,0
+2016-10-15,Aberdeen,Ross County,4,0,H,0
+2016-10-15,Hearts,Dundee United,2,0,H,0
+2016-10-15,Partick,Hamilton,2,2,D,1
+2016-10-15,St Johnstone,Kilmarnock,0,1,A,0
+2016-10-22,Inverness C,Kilmarnock,1,1,D,1
+2016-10-22,Partick,Ross County,1,1,D,1
+2016-10-23,St Johnstone,Dundee United,2,1,H,0
+2016-10-25,Hamilton,Aberdeen,1,0,H,0
+2016-10-26,Rangers,St Johnstone,1,1,D,1
+2016-10-26,Ross County,Celtic,0,4,A,0
+2016-10-26,Motherwell,Inverness C,0,3,A,0
+2016-10-26,Kilmarnock,Hearts,2,0,H,0
+2016-10-26,Dundee United,Partick,0,2,A,0
+2016-10-29,Hamilton,Dundee United,0,1,A,0
+2016-10-29,Inverness C,Hearts,3,3,D,1
+2016-10-29,Rangers,Kilmarnock,3,0,H,0
+2016-10-29,Motherwell,Ross County,4,1,H,0
+2016-10-29,Aberdeen,Celtic,0,1,A,0
+2016-10-29,St Johnstone,Partick,1,2,A,0
+2016-11-18,Kilmarnock,Celtic,0,1,A,0
+2016-11-19,St Johnstone,Ross County,2,4,A,0
+2016-11-19,Rangers,Dundee United,1,0,H,0
+2016-11-19,Inverness C,Aberdeen,1,3,A,0
+2016-11-19,Motherwell,Partick,2,0,H,0
+2016-11-21,Hamilton,Hearts,3,3,D,1
+2016-11-26,Hearts,Motherwell,3,0,H,0
+2016-11-26,Ross County,Hamilton,1,1,D,1
+2016-11-26,Dundee United,Inverness C,2,1,H,0
+2016-11-26,Partick,Rangers,1,2,A,0
+2016-11-30,Hearts,Rangers,2,0,H,0
+2016-12-13,Celtic,Hamilton,1,0,H,0
+2016-12-16,Hamilton,Rangers,1,2,A,0
+2016-12-17,St Johnstone,Motherwell,1,1,D,1
+2016-12-17,Kilmarnock,Inverness C,1,1,D,1
+2016-12-17,Ross County,Aberdeen,2,1,H,0
+2016-12-17,Celtic,Dundee United,2,1,H,0
+2016-12-17,Hearts,Partick,1,1,D,1
+2016-12-20,Celtic,Partick,1,0,H,0
+2016-12-23,Dundee United,Hearts,3,2,H,0
+2016-12-23,Ross County,Partick,1,3,A,0
+2016-12-23,Kilmarnock,St Johnstone,0,1,A,0
+2016-12-23,Motherwell,Aberdeen,1,3,A,0
+2016-12-24,Rangers,Inverness C,1,0,H,0
+2016-12-24,Hamilton,Celtic,0,3,A,0
+2016-12-27,Hearts,Kilmarnock,4,0,H,0
+2016-12-27,Aberdeen,Hamilton,2,1,H,0
+2016-12-28,Celtic,Ross County,2,0,H,0
+2016-12-28,Inverness C,Motherwell,1,2,A,0
+2016-12-28,Partick,Dundee United,2,0,H,0
+2016-12-28,St Johnstone,Rangers,1,1,D,1
+2016-12-30,Hearts,Aberdeen,0,1,A,0
+2016-12-31,Ross County,Inverness C,3,2,H,0
+2016-12-31,Partick,Kilmarnock,0,0,D,1
+2016-12-31,Rangers,Celtic,1,2,A,0
+2016-12-31,Hamilton,Motherwell,1,1,D,1
+2016-12-31,Dundee United,St Johnstone,3,0,H,0
+2017-01-02,Partick,St Johnstone,0,1,A,0
+2017-01-02,Hearts,Rangers,4,1,H,0
+2017-01-02,Celtic,Aberdeen,1,0,H,0
+2017-01-03,Hearts,Ross County,0,1,A,0
+2017-01-03,Inverness C,Celtic,0,4,A,0
+2017-01-03,Rangers,St Johnstone,3,2,H,0
+2017-01-03,Dundee United,Partick,0,1,A,0
+2017-01-04,Hamilton,St Johnstone,1,0,H,0
+2017-01-04,Rangers,Motherwell,1,1,D,1
+2017-01-04,Partick,Ross County,2,1,H,0
+2017-01-04,Inverness C,Kilmarnock,1,1,D,1
+2017-01-25,Celtic,St Johnstone,1,0,H,0
+2017-01-27,Aberdeen,Dundee United,3,0,H,0
+2017-01-28,Inverness C,Partick,0,0,D,1
+2017-01-28,Kilmarnock,Ross County,3,2,H,0
+2017-01-28,Motherwell,Rangers,0,2,A,0
+2017-01-28,St Johnstone,Hamilton,3,0,H,0
+2017-01-29,Celtic,Hearts,4,0,H,0
+2017-01-31,Ross County,Motherwell,1,2,A,0
+2017-01-31,Hamilton,Inverness C,3,0,H,0
+2017-02-04,Hearts,Celtic,0,5,A,0
+2017-02-15,Aberdeen,Motherwell,7,2,H,0
+2017-02-18,Celtic,Motherwell,2,0,H,0
+2017-02-18,Hearts,Inverness C,1,1,D,1
+2017-02-18,Partick,Hamilton,2,0,H,0
+2017-02-18,Ross County,St Johnstone,1,2,A,0
+2017-02-19,Dundee United,Rangers,2,1,H,0
+2017-02-19,Kilmarnock,Aberdeen,1,2,A,0
+2017-02-24,Inverness C,Rangers,2,1,H,0
+2017-02-25,Motherwell,Dundee United,1,5,A,0
+2017-02-25,St Johnstone,Kilmarnock,0,2,A,0
+2017-02-25,Partick,Hearts,2,0,H,0
+2017-02-25,Celtic,Hamilton,2,0,H,0
+2017-02-25,Aberdeen,Ross County,1,0,H,0
+2017-02-28,Hamilton,Aberdeen,1,0,H,0
+2017-03-18,Motherwell,St Johnstone,1,2,A,0
+2017-03-18,Aberdeen,Hearts,2,0,H,0
+2017-03-18,Rangers,Hamilton,4,0,H,0
+2017-03-18,Inverness C,Ross County,1,1,D,1
+2017-03-18,Kilmarnock,Partick,1,1,D,1
+2017-03-19,Dundee United,Celtic,1,2,A,0
+2017-03-31,Dundee United,Aberdeen,0,7,A,0
+2017-04-02,Motherwell,Hearts,0,3,A,0
+2017-04-02,Aberdeen,Partick,2,0,H,0
+2017-04-02,Rangers,Ross County,1,1,D,1
+2017-04-02,Inverness C,Dundee United,2,2,D,1
+2017-04-02,Hamilton,Kilmarnock,1,1,D,1
+2017-04-03,Kilmarnock,Motherwell,1,2,A,0
+2017-04-04,Ross County,Dundee United,2,1,H,0
+2017-04-04,Aberdeen,Inverness C,1,0,H,0
+2017-04-14,Kilmarnock,Hearts,0,0,D,1
+2017-04-15,Rangers,Partick,2,0,H,0
+2017-04-15,St Johnstone,Aberdeen,1,2,A,0
+2017-04-15,Motherwell,Inverness C,4,2,H,0
+2017-04-15,Dundee United,Hamilton,0,2,A,0
+2017-04-16,Ross County,Celtic,2,2,D,1
+2017-04-28,Ross County,Inverness C,4,0,H,0
+2017-04-29,Hamilton,Kilmarnock,0,2,A,0
+2017-04-29,Rangers,Celtic,1,5,A,0
+2017-04-29,Aberdeen,St Johnstone,0,2,A,0
+2017-04-29,Motherwell,Dundee United,2,3,A,0
+2017-04-29,Hearts,Partick,2,2,D,1
+2017-05-02,St Johnstone,Celtic,2,5,A,0
+2017-05-04,Motherwell,Hamilton,0,0,D,1
+2017-05-04,St Johnstone,Hearts,1,0,H,0
+2017-05-04,Kilmarnock,Rangers,0,0,D,1
+2017-05-04,Celtic,Partick,1,1,D,1
+2017-05-13,St Johnstone,Partick,1,0,H,0
+2017-05-13,Hamilton,Motherwell,0,1,A,0
+2017-05-13,Rangers,Hearts,2,1,H,0
+2017-05-13,Kilmarnock,Inverness C,2,1,H,0
+2017-05-13,Dundee United,Ross County,1,1,D,1
+2017-05-16,Ross County,Hamilton,3,2,H,0
+2017-05-16,Motherwell,Kilmarnock,3,1,H,0
+2017-05-17,St Johnstone,Hearts,1,0,H,0
+2017-05-17,Rangers,Aberdeen,1,2,A,0
+2017-05-17,Dundee United,Inverness C,0,2,A,0
+2017-05-18,Partick,Celtic,0,5,A,0
+2017-05-20,Hamilton,Dundee United,4,0,H,0
+2017-05-20,Kilmarnock,Ross County,1,2,A,0
+2017-05-20,Inverness C,Motherwell,3,2,H,0
+2017-05-21,Celtic,Hearts,2,0,H,0
+2017-05-21,St Johnstone,Rangers,1,2,A,0
+2017-05-21,Partick,Aberdeen,0,6,A,0
+2017-06-05,Kilmarnock,Dundee United,0,1,A,0
+2017-06-05,Motherwell,Ross County,0,1,A,0
+2017-06-05,Celtic,St Johnstone,4,1,H,0
+2017-06-05,Inverness C,Hamilton,2,1,H,0
+2017-07-05,Hearts,Aberdeen,1,2,A,0
+2017-07-05,Partick,Rangers,1,2,A,0
+2017-08-04,Inverness C,St Johnstone,0,3,A,0
+2017-08-04,Hearts,Dundee United,1,0,H,0
+2017-08-04,Partick,Motherwell,1,0,H,0
+2017-08-04,Celtic,Kilmarnock,3,1,H,0
+2017-08-04,Hamilton,Ross County,1,1,D,1
+2017-09-04,Aberdeen,Rangers,0,3,A,0
+2017-11-02,Dundee United,Kilmarnock,1,1,D,1
+2017-11-03,Aberdeen,Motherwell,1,0,H,0
+2017-11-03,Hearts,Hamilton,4,0,H,0
+2017-11-03,Ross County,Kilmarnock,1,2,A,0
+2017-11-03,Partick,Inverness C,1,1,D,1
+2017-11-03,St Johnstone,Dundee United,2,0,H,0
+2017-12-03,Celtic,Rangers,1,1,D,1
+2017-12-05,Aberdeen,Celtic,1,3,A,0

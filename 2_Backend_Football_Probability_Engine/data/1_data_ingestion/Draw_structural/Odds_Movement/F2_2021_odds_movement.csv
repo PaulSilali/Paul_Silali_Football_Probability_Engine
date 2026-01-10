@@ -1,32 +1,34 @@
 league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
-F2,2021,2020-08-22,Toulouse,Dunkerque,3.39,3.39,0.0
-F2,2021,2020-08-22,Amiens,Annecy,3.27,3.27,0.0
-F2,2021,2020-08-22,Auxerre,Sochaux,2.93,2.93,0.0
-F2,2021,2020-08-22,Chambly,Paris FC,2.8,2.8,0.0
-F2,2021,2020-08-22,Clermont,Caen,2.95,2.95,0.0
 F2,2021,2020-08-22,Guingamp,Niort,3.82,3.82,0.0
 F2,2021,2020-08-22,Rodez,Grenoble,2.97,2.97,0.0
 F2,2021,2020-08-22,Valenciennes,Pau FC,3.17,3.17,0.0
+F2,2021,2020-08-22,Ajaccio,Chateauroux,3.42,3.42,0.0
+F2,2021,2020-08-22,Chambly,Paris FC,2.8,2.8,0.0
+F2,2021,2020-08-22,Toulouse,Dunkerque,3.39,3.39,0.0
+F2,2021,2020-08-22,Auxerre,Sochaux,2.93,2.93,0.0
+F2,2021,2020-08-22,Amiens,Annecy,3.27,3.27,0.0
+F2,2021,2020-08-22,Clermont,Caen,2.95,2.95,0.0
 F2,2021,2020-08-24,Troyes,Le Havre,3.05,3.05,0.0
-F2,2021,2020-08-29,Caen,Ajaccio,2.83,2.83,0.0
-F2,2021,2020-08-29,Annecy,Guingamp,2.82,2.82,0.0
-F2,2021,2020-08-29,Chateauroux,Auxerre,3.0,3.0,0.0
 F2,2021,2020-08-29,Dunkerque,Clermont,2.86,2.86,0.0
 F2,2021,2020-08-29,Grenoble,Toulouse,2.98,2.98,0.0
 F2,2021,2020-08-29,Le Havre,Amiens,2.98,2.98,0.0
 F2,2021,2020-08-29,Niort,Chambly,2.87,2.87,0.0
 F2,2021,2020-08-29,Paris FC,Valenciennes,2.91,2.91,0.0
 F2,2021,2020-08-29,Pau FC,Rodez,2.9,2.9,0.0
+F2,2021,2020-08-29,Caen,Ajaccio,2.83,2.83,0.0
 F2,2021,2020-08-29,Sochaux,Troyes,2.81,2.81,0.0
+F2,2021,2020-08-29,Chateauroux,Auxerre,3.0,3.0,0.0
+F2,2021,2020-08-29,Annecy,Guingamp,2.82,2.82,0.0
 F2,2021,2020-09-12,Guingamp,Le Havre,2.98,2.98,0.0
-F2,2021,2020-09-12,Amiens,Paris FC,3.09,3.09,0.0
 F2,2021,2020-09-12,Auxerre,Clermont,2.98,2.98,0.0
 F2,2021,2020-09-12,Chambly,Grenoble,2.88,2.88,0.0
 F2,2021,2020-09-12,Niort,Annecy,2.96,2.96,0.0
 F2,2021,2020-09-12,Rodez,Caen,2.96,2.96,0.0
 F2,2021,2020-09-12,Troyes,Pau FC,3.28,3.28,0.0
 F2,2021,2020-09-12,Valenciennes,Chateauroux,3.09,3.09,0.0
+F2,2021,2020-09-12,Amiens,Paris FC,3.09,3.09,0.0
 F2,2021,2020-09-14,Toulouse,Sochaux,2.96,2.96,0.0
+F2,2021,2020-09-19,Sochaux,Rodez,2.96,2.96,0.0
 F2,2021,2020-09-19,Clermont,Toulouse,3.07,3.07,0.0
 F2,2021,2020-09-19,Caen,Chambly,3.25,3.25,0.0
 F2,2021,2020-09-19,Chateauroux,Amiens,3.02,3.02,0.0
@@ -35,20 +37,18 @@ F2,2021,2020-09-19,Grenoble,Ajaccio,2.99,2.99,0.0
 F2,2021,2020-09-19,Le Havre,Niort,3.14,3.14,0.0
 F2,2021,2020-09-19,Paris FC,Annecy,2.94,2.94,0.0
 F2,2021,2020-09-19,Pau FC,Guingamp,3.06,3.06,0.0
-F2,2021,2020-09-19,Sochaux,Rodez,2.96,2.96,0.0
 F2,2021,2020-09-21,Auxerre,Troyes,2.91,2.91,0.0
+F2,2021,2020-09-26,Niort,Paris FC,2.85,2.85,0.0
 F2,2021,2020-09-26,Toulouse,Auxerre,2.86,2.86,0.0
 F2,2021,2020-09-26,Ajaccio,Sochaux,2.81,2.81,0.0
 F2,2021,2020-09-26,Amiens,Pau FC,3.23,3.23,0.0
 F2,2021,2020-09-26,Chambly,Chateauroux,2.95,2.95,0.0
 F2,2021,2020-09-26,Guingamp,Grenoble,2.9,2.9,0.0
 F2,2021,2020-09-26,Annecy,Le Havre,2.89,2.89,0.0
-F2,2021,2020-09-26,Niort,Paris FC,2.85,2.85,0.0
 F2,2021,2020-09-26,Rodez,Dunkerque,2.9,2.9,0.0
 F2,2021,2020-09-26,Valenciennes,Caen,2.91,2.91,0.0
 F2,2021,2020-09-28,Troyes,Clermont,2.8,2.8,0.0
 F2,2021,2020-09-30,Ajaccio,Dunkerque,3.03,3.03,0.0
-F2,2021,2020-10-03,Toulouse,Troyes,2.96,2.96,0.0
 F2,2021,2020-10-03,Caen,Amiens,2.86,2.86,0.0
 F2,2021,2020-10-03,Auxerre,Ajaccio,2.9,2.9,0.0
 F2,2021,2020-10-03,Chateauroux,Niort,2.94,2.94,0.0
@@ -58,8 +58,8 @@ F2,2021,2020-10-03,Grenoble,Valenciennes,2.99,2.99,0.0
 F2,2021,2020-10-03,Paris FC,Le Havre,2.84,2.84,0.0
 F2,2021,2020-10-03,Pau FC,Annecy,2.83,2.83,0.0
 F2,2021,2020-10-03,Sochaux,Chambly,3.19,3.19,0.0
+F2,2021,2020-10-03,Toulouse,Troyes,2.96,2.96,0.0
 F2,2021,2020-10-16,Chambly,Clermont,3.09,3.09,0.0
-F2,2021,2020-10-17,Valenciennes,Sochaux,2.92,2.92,0.0
 F2,2021,2020-10-17,Ajaccio,Toulouse,3.08,3.08,0.0
 F2,2021,2020-10-17,Amiens,Grenoble,2.87,2.87,0.0
 F2,2021,2020-10-17,Le Havre,Chateauroux,3.02,3.02,0.0
@@ -67,8 +67,8 @@ F2,2021,2020-10-17,Annecy,Dunkerque,3.07,3.07,0.0
 F2,2021,2020-10-17,Niort,Caen,3.02,3.02,0.0
 F2,2021,2020-10-17,Paris FC,Pau FC,3.19,3.19,0.0
 F2,2021,2020-10-17,Rodez,Troyes,3.0,3.0,0.0
+F2,2021,2020-10-17,Valenciennes,Sochaux,2.92,2.92,0.0
 F2,2021,2020-10-19,Guingamp,Auxerre,2.99,2.99,0.0
-F2,2021,2020-10-24,Caen,Guingamp,2.96,2.96,0.0
 F2,2021,2020-10-24,Auxerre,Chambly,3.15,3.15,0.0
 F2,2021,2020-10-24,Chateauroux,Paris FC,2.92,2.92,0.0
 F2,2021,2020-10-24,Clermont,Ajaccio,3.28,3.28,0.0
@@ -76,16 +76,18 @@ F2,2021,2020-10-24,Dunkerque,Le Havre,2.87,2.87,0.0
 F2,2021,2020-10-24,Pau FC,Niort,2.89,2.89,0.0
 F2,2021,2020-10-24,Toulouse,Rodez,3.14,3.14,0.0
 F2,2021,2020-10-24,Troyes,Valenciennes,3.36,3.36,0.0
+F2,2021,2020-10-24,Caen,Guingamp,2.96,2.96,0.0
 F2,2021,2020-10-26,Sochaux,Amiens,2.88,2.88,0.0
-F2,2021,2020-10-31,Paris FC,Caen,2.96,2.96,0.0
 F2,2021,2020-10-31,Ajaccio,Troyes,2.93,2.93,0.0
 F2,2021,2020-10-31,Chambly,Dunkerque,2.92,2.92,0.0
 F2,2021,2020-10-31,Guingamp,Sochaux,3.06,3.06,0.0
 F2,2021,2020-10-31,Le Havre,Pau FC,3.07,3.07,0.0
-F2,2021,2020-10-31,Annecy,Chateauroux,3.07,3.07,0.0
+F2,2021,2020-10-31,Paris FC,Caen,2.96,2.96,0.0
 F2,2021,2020-10-31,Rodez,Auxerre,2.85,2.85,0.0
 F2,2021,2020-10-31,Valenciennes,Clermont,2.94,2.94,0.0
+F2,2021,2020-10-31,Annecy,Chateauroux,3.07,3.07,0.0
 F2,2021,2020-11-02,Amiens,Toulouse,2.94,2.94,0.0
+F2,2021,2020-11-07,Toulouse,Valenciennes,3.21,3.21,0.0
 F2,2021,2020-11-07,Clermont,Guingamp,3.16,3.16,0.0
 F2,2021,2020-11-07,Grenoble,Le Havre,2.81,2.81,0.0
 F2,2021,2020-11-07,Auxerre,Amiens,2.83,2.83,0.0
@@ -94,21 +96,17 @@ F2,2021,2020-11-07,Chateauroux,Pau FC,2.9,2.9,0.0
 F2,2021,2020-11-07,Dunkerque,Paris FC,2.88,2.88,0.0
 F2,2021,2020-11-07,Rodez,Ajaccio,2.91,2.91,0.0
 F2,2021,2020-11-07,Sochaux,Niort,3.16,3.16,0.0
-F2,2021,2020-11-07,Toulouse,Valenciennes,3.21,3.21,0.0
 F2,2021,2020-11-07,Troyes,Chambly,3.71,3.71,0.0
-F2,2021,2020-11-21,Le Havre,Caen,2.8,2.8,0.0
-F2,2021,2020-11-21,Amiens,Clermont,2.89,2.89,0.0
-F2,2021,2020-11-21,Chambly,Toulouse,3.3,3.3,0.0
 F2,2021,2020-11-21,Chateauroux,Sochaux,2.89,2.89,0.0
 F2,2021,2020-11-21,Niort,Dunkerque,3.01,3.01,0.0
 F2,2021,2020-11-21,Paris FC,Auxerre,3.04,3.04,0.0
 F2,2021,2020-11-21,Pau FC,Grenoble,2.75,2.75,0.0
 F2,2021,2020-11-21,Valenciennes,Rodez,3.26,3.26,0.0
+F2,2021,2020-11-21,Amiens,Clermont,2.89,2.89,0.0
+F2,2021,2020-11-21,Le Havre,Caen,2.8,2.8,0.0
+F2,2021,2020-11-21,Chambly,Toulouse,3.3,3.3,0.0
 F2,2021,2020-11-23,Guingamp,Ajaccio,3.0,3.0,0.0
 F2,2021,2020-11-24,Grenoble,Annecy,3.13,3.13,0.0
-F2,2021,2020-11-28,Grenoble,Paris FC,2.81,2.81,0.0
-F2,2021,2020-11-28,Toulouse,Niort,3.31,3.31,0.0
-F2,2021,2020-11-28,Ajaccio,Chambly,3.17,3.17,0.0
 F2,2021,2020-11-28,Auxerre,Valenciennes,3.39,3.39,0.0
 F2,2021,2020-11-28,Caen,Chateauroux,3.21,3.21,0.0
 F2,2021,2020-11-28,Clermont,Annecy,3.43,3.43,0.0
@@ -116,17 +114,19 @@ F2,2021,2020-11-28,Dunkerque,Pau FC,2.86,2.86,0.0
 F2,2021,2020-11-28,Rodez,Guingamp,2.96,2.96,0.0
 F2,2021,2020-11-28,Sochaux,Le Havre,2.89,2.89,0.0
 F2,2021,2020-11-28,Troyes,Amiens,3.18,3.18,0.0
+F2,2021,2020-11-28,Toulouse,Niort,3.31,3.31,0.0
+F2,2021,2020-11-28,Grenoble,Paris FC,2.81,2.81,0.0
+F2,2021,2020-11-28,Ajaccio,Chambly,3.17,3.17,0.0
+F2,2021,2020-12-01,Annecy,Toulouse,2.91,2.91,0.0
 F2,2021,2020-12-01,Amiens,Dunkerque,3.04,3.04,0.0
 F2,2021,2020-12-01,Chambly,Rodez,2.88,2.88,0.0
 F2,2021,2020-12-01,Chateauroux,Grenoble,3.14,3.14,0.0
 F2,2021,2020-12-01,Guingamp,Troyes,2.93,2.93,0.0
 F2,2021,2020-12-01,Le Havre,Auxerre,3.11,3.11,0.0
-F2,2021,2020-12-01,Annecy,Toulouse,2.91,2.91,0.0
 F2,2021,2020-12-01,Niort,Clermont,3.08,3.08,0.0
 F2,2021,2020-12-01,Paris FC,Sochaux,2.95,2.95,0.0
 F2,2021,2020-12-01,Pau FC,Caen,2.86,2.86,0.0
 F2,2021,2020-12-01,Valenciennes,Ajaccio,2.88,2.88,0.0
-F2,2021,2020-12-05,Troyes,Paris FC,3.2,3.2,0.0
 F2,2021,2020-12-05,Auxerre,Niort,3.34,3.34,0.0
 F2,2021,2020-12-05,Caen,Grenoble,2.89,2.89,0.0
 F2,2021,2020-12-05,Chambly,Valenciennes,2.87,2.87,0.0
@@ -134,8 +134,10 @@ F2,2021,2020-12-05,Clermont,Pau FC,3.44,3.44,0.0
 F2,2021,2020-12-05,Dunkerque,Chateauroux,2.89,2.89,0.0
 F2,2021,2020-12-05,Rodez,Amiens,2.84,2.84,0.0
 F2,2021,2020-12-05,Sochaux,Annecy,2.9,2.9,0.0
+F2,2021,2020-12-05,Troyes,Paris FC,3.2,3.2,0.0
 F2,2021,2020-12-05,Toulouse,Guingamp,3.18,3.18,0.0
 F2,2021,2020-12-07,Ajaccio,Le Havre,3.01,3.01,0.0
+F2,2021,2020-12-12,Paris FC,Rodez,3.22,3.22,0.0
 F2,2021,2020-12-12,Caen,Troyes,2.97,2.97,0.0
 F2,2021,2020-12-12,Amiens,Chambly,3.08,3.08,0.0
 F2,2021,2020-12-12,Chateauroux,Toulouse,3.23,3.23,0.0
@@ -143,32 +145,30 @@ F2,2021,2020-12-12,Grenoble,Dunkerque,3.13,3.13,0.0
 F2,2021,2020-12-12,Guingamp,Valenciennes,3.31,3.31,0.0
 F2,2021,2020-12-12,Annecy,Auxerre,2.85,2.85,0.0
 F2,2021,2020-12-12,Niort,Ajaccio,2.89,2.89,0.0
-F2,2021,2020-12-12,Paris FC,Rodez,3.22,3.22,0.0
 F2,2021,2020-12-14,Le Havre,Clermont,3.13,3.13,0.0
+F2,2021,2020-12-15,Pau FC,Sochaux,2.76,2.76,0.0
 F2,2021,2020-12-15,Annecy,Troyes,3.08,3.08,0.0
 F2,2021,2020-12-15,Niort,Grenoble,3.01,3.01,0.0
-F2,2021,2020-12-15,Pau FC,Sochaux,2.76,2.76,0.0
-F2,2021,2020-12-18,Ajaccio,Annecy,2.81,2.81,0.0
-F2,2021,2020-12-18,Auxerre,Pau FC,3.49,3.49,0.0
 F2,2021,2020-12-18,Chambly,Guingamp,3.1,3.1,0.0
 F2,2021,2020-12-18,Dunkerque,Caen,2.89,2.89,0.0
 F2,2021,2020-12-18,Rodez,Chateauroux,3.09,3.09,0.0
 F2,2021,2020-12-18,Sochaux,Grenoble,2.92,2.92,0.0
 F2,2021,2020-12-18,Troyes,Niort,3.87,3.87,0.0
+F2,2021,2020-12-18,Ajaccio,Annecy,2.81,2.81,0.0
 F2,2021,2020-12-18,Valenciennes,Amiens,2.99,2.99,0.0
-F2,2021,2020-12-19,Clermont,Paris FC,3.16,3.16,0.0
+F2,2021,2020-12-18,Auxerre,Pau FC,3.49,3.49,0.0
 F2,2021,2020-12-19,Toulouse,Le Havre,3.33,3.33,0.0
+F2,2021,2020-12-19,Clermont,Paris FC,3.16,3.16,0.0
+F2,2021,2020-12-22,Grenoble,Troyes,2.95,2.95,0.0
 F2,2021,2020-12-22,Amiens,Ajaccio,2.92,2.92,0.0
 F2,2021,2020-12-22,Caen,Sochaux,2.81,2.81,0.0
 F2,2021,2020-12-22,Chateauroux,Clermont,3.7,3.7,0.0
 F2,2021,2020-12-22,Dunkerque,Auxerre,3.22,3.22,0.0
-F2,2021,2020-12-22,Grenoble,Troyes,2.95,2.95,0.0
 F2,2021,2020-12-22,Le Havre,Rodez,2.97,2.97,0.0
 F2,2021,2020-12-22,Annecy,Chambly,3.01,3.01,0.0
 F2,2021,2020-12-22,Niort,Valenciennes,3.09,3.09,0.0
 F2,2021,2020-12-22,Paris FC,Guingamp,3.26,3.26,0.0
 F2,2021,2020-12-22,Pau FC,Toulouse,3.18,3.18,0.0
-F2,2021,2021-01-05,Ajaccio,Pau FC,3.06,3.06,0.0
 F2,2021,2021-01-05,Auxerre,Caen,3.25,3.25,0.0
 F2,2021,2021-01-05,Chambly,Le Havre,2.89,2.89,0.0
 F2,2021,2021-01-05,Clermont,Grenoble,2.96,2.96,0.0
@@ -178,114 +178,115 @@ F2,2021,2021-01-05,Sochaux,Dunkerque,3.08,3.08,0.0
 F2,2021,2021-01-05,Toulouse,Paris FC,3.19,3.19,0.0
 F2,2021,2021-01-05,Troyes,Chateauroux,4.57,4.57,0.0
 F2,2021,2021-01-05,Valenciennes,Annecy,2.93,2.93,0.0
+F2,2021,2021-01-05,Ajaccio,Pau FC,3.06,3.06,0.0
 F2,2021,2021-01-08,Chateauroux,Guingamp,3.06,3.06,0.0
-F2,2021,2021-01-08,Dunkerque,Troyes,3.7,3.7,0.0
 F2,2021,2021-01-08,Le Havre,Valenciennes,3.09,3.09,0.0
 F2,2021,2021-01-08,Annecy,Rodez,2.88,2.88,0.0
 F2,2021,2021-01-08,Niort,Amiens,3.03,3.03,0.0
 F2,2021,2021-01-08,Paris FC,Ajaccio,3.02,3.02,0.0
 F2,2021,2021-01-08,Pau FC,Chambly,2.85,2.85,0.0
 F2,2021,2021-01-08,Sochaux,Clermont,2.9,2.9,0.0
+F2,2021,2021-01-08,Dunkerque,Troyes,3.7,3.7,0.0
 F2,2021,2021-01-09,Grenoble,Auxerre,2.91,2.91,0.0
 F2,2021,2021-01-11,Caen,Toulouse,3.04,3.04,0.0
-F2,2021,2021-01-16,Toulouse,Grenoble,3.18,3.18,0.0
 F2,2021,2021-01-16,Troyes,Sochaux,3.12,3.12,0.0
+F2,2021,2021-01-16,Toulouse,Grenoble,3.18,3.18,0.0
 F2,2021,2021-01-16,Ajaccio,Caen,2.94,2.94,0.0
 F2,2021,2021-01-16,Amiens,Le Havre,2.93,2.93,0.0
 F2,2021,2021-01-16,Auxerre,Chateauroux,4.05,4.05,0.0
 F2,2021,2021-01-16,Clermont,Dunkerque,3.87,3.87,0.0
 F2,2021,2021-01-16,Guingamp,Annecy,2.97,2.97,0.0
 F2,2021,2021-01-16,Rodez,Pau FC,3.02,3.02,0.0
-F2,2021,2021-01-23,Clermont,Auxerre,3.07,3.07,0.0
-F2,2021,2021-01-23,Caen,Rodez,3.05,3.05,0.0
-F2,2021,2021-01-23,Chateauroux,Valenciennes,3.11,3.11,0.0
-F2,2021,2021-01-23,Dunkerque,Ajaccio,3.08,3.08,0.0
-F2,2021,2021-01-23,Grenoble,Chambly,3.21,3.21,0.0
-F2,2021,2021-01-23,Le Havre,Guingamp,2.94,2.94,0.0
 F2,2021,2021-01-23,Annecy,Niort,3.08,3.08,0.0
 F2,2021,2021-01-23,Paris FC,Amiens,2.85,2.85,0.0
+F2,2021,2021-01-23,Chateauroux,Valenciennes,3.11,3.11,0.0
 F2,2021,2021-01-23,Pau FC,Troyes,3.46,3.46,0.0
+F2,2021,2021-01-23,Grenoble,Chambly,3.21,3.21,0.0
+F2,2021,2021-01-23,Caen,Rodez,3.05,3.05,0.0
+F2,2021,2021-01-23,Clermont,Auxerre,3.07,3.07,0.0
+F2,2021,2021-01-23,Dunkerque,Ajaccio,3.08,3.08,0.0
+F2,2021,2021-01-23,Le Havre,Guingamp,2.94,2.94,0.0
 F2,2021,2021-01-25,Sochaux,Toulouse,2.94,2.94,0.0
 F2,2021,2021-01-26,Valenciennes,Paris FC,3.19,3.19,0.0
 F2,2021,2021-01-27,Chambly,Niort,3.0,3.0,0.0
-F2,2021,2021-01-30,Toulouse,Clermont,3.12,3.12,0.0
-F2,2021,2021-01-30,Troyes,Auxerre,3.14,3.14,0.0
 F2,2021,2021-01-30,Ajaccio,Grenoble,2.99,2.99,0.0
 F2,2021,2021-01-30,Amiens,Chateauroux,3.32,3.32,0.0
-F2,2021,2021-01-30,Chambly,Caen,2.92,2.92,0.0
+F2,2021,2021-01-30,Valenciennes,Dunkerque,3.06,3.06,0.0
 F2,2021,2021-01-30,Guingamp,Pau FC,3.19,3.19,0.0
 F2,2021,2021-01-30,Annecy,Paris FC,3.11,3.11,0.0
 F2,2021,2021-01-30,Niort,Le Havre,2.9,2.9,0.0
 F2,2021,2021-01-30,Rodez,Sochaux,2.98,2.98,0.0
-F2,2021,2021-01-30,Valenciennes,Dunkerque,3.06,3.06,0.0
+F2,2021,2021-01-30,Chambly,Caen,2.92,2.92,0.0
+F2,2021,2021-01-30,Toulouse,Clermont,3.12,3.12,0.0
+F2,2021,2021-01-30,Troyes,Auxerre,3.14,3.14,0.0
+F2,2021,2021-02-02,Grenoble,Guingamp,3.17,3.17,0.0
 F2,2021,2021-02-02,Auxerre,Toulouse,3.17,3.17,0.0
 F2,2021,2021-02-02,Caen,Valenciennes,2.99,2.99,0.0
 F2,2021,2021-02-02,Chateauroux,Chambly,2.98,2.98,0.0
 F2,2021,2021-02-02,Clermont,Troyes,3.17,3.17,0.0
 F2,2021,2021-02-02,Dunkerque,Rodez,2.96,2.96,0.0
-F2,2021,2021-02-02,Grenoble,Guingamp,3.17,3.17,0.0
 F2,2021,2021-02-02,Le Havre,Annecy,2.85,2.85,0.0
 F2,2021,2021-02-02,Paris FC,Niort,3.41,3.41,0.0
 F2,2021,2021-02-02,Pau FC,Amiens,3.03,3.03,0.0
 F2,2021,2021-02-02,Sochaux,Ajaccio,2.84,2.84,0.0
 F2,2021,2021-02-05,Ajaccio,Auxerre,3.04,3.04,0.0
-F2,2021,2021-02-05,Amiens,Caen,3.05,3.05,0.0
 F2,2021,2021-02-05,Chambly,Sochaux,2.94,2.94,0.0
 F2,2021,2021-02-05,Guingamp,Dunkerque,3.33,3.33,0.0
 F2,2021,2021-02-05,Annecy,Pau FC,3.12,3.12,0.0
 F2,2021,2021-02-05,Niort,Chateauroux,3.15,3.15,0.0
 F2,2021,2021-02-05,Rodez,Clermont,3.53,3.53,0.0
 F2,2021,2021-02-05,Valenciennes,Grenoble,3.14,3.14,0.0
-F2,2021,2021-02-06,Le Havre,Paris FC,3.24,3.24,0.0
+F2,2021,2021-02-05,Amiens,Caen,3.05,3.05,0.0
 F2,2021,2021-02-06,Troyes,Toulouse,3.15,3.15,0.0
+F2,2021,2021-02-06,Le Havre,Paris FC,3.24,3.24,0.0
+F2,2021,2021-02-13,Grenoble,Amiens,2.89,2.89,0.0
 F2,2021,2021-02-13,Auxerre,Guingamp,3.34,3.34,0.0
 F2,2021,2021-02-13,Caen,Niort,3.09,3.09,0.0
 F2,2021,2021-02-13,Chateauroux,Le Havre,2.87,2.87,0.0
 F2,2021,2021-02-13,Clermont,Chambly,5.81,5.81,0.0
 F2,2021,2021-02-13,Dunkerque,Annecy,2.87,2.87,0.0
-F2,2021,2021-02-13,Grenoble,Amiens,2.89,2.89,0.0
 F2,2021,2021-02-13,Pau FC,Paris FC,3.05,3.05,0.0
 F2,2021,2021-02-13,Troyes,Rodez,3.43,3.43,0.0
-F2,2021,2021-02-15,Sochaux,Valenciennes,3.14,3.14,0.0
 F2,2021,2021-02-15,Toulouse,Ajaccio,3.2,3.2,0.0
-F2,2021,2021-02-20,Valenciennes,Troyes,3.34,3.34,0.0
-F2,2021,2021-02-20,Ajaccio,Clermont,3.03,3.03,0.0
-F2,2021,2021-02-20,Amiens,Sochaux,2.81,2.81,0.0
+F2,2021,2021-02-15,Sochaux,Valenciennes,3.14,3.14,0.0
 F2,2021,2021-02-20,Chambly,Auxerre,3.99,3.99,0.0
 F2,2021,2021-02-20,Le Havre,Dunkerque,3.44,3.44,0.0
 F2,2021,2021-02-20,Annecy,Grenoble,3.0,3.0,0.0
 F2,2021,2021-02-20,Niort,Pau FC,2.84,2.84,0.0
 F2,2021,2021-02-20,Paris FC,Chateauroux,3.35,3.35,0.0
 F2,2021,2021-02-20,Rodez,Toulouse,3.24,3.24,0.0
+F2,2021,2021-02-20,Ajaccio,Clermont,3.03,3.03,0.0
+F2,2021,2021-02-20,Amiens,Sochaux,2.81,2.81,0.0
+F2,2021,2021-02-20,Valenciennes,Troyes,3.34,3.34,0.0
 F2,2021,2021-02-22,Guingamp,Caen,3.07,3.07,0.0
-F2,2021,2021-02-27,Toulouse,Amiens,3.35,3.35,0.0
 F2,2021,2021-02-27,Troyes,Ajaccio,3.38,3.38,0.0
 F2,2021,2021-02-27,Auxerre,Rodez,3.15,3.15,0.0
 F2,2021,2021-02-27,Caen,Paris FC,2.84,2.84,0.0
 F2,2021,2021-02-27,Chateauroux,Annecy,2.91,2.91,0.0
-F2,2021,2021-02-27,Clermont,Valenciennes,4.02,4.02,0.0
+F2,2021,2021-02-27,Toulouse,Amiens,3.35,3.35,0.0
 F2,2021,2021-02-27,Dunkerque,Chambly,3.02,3.02,0.0
 F2,2021,2021-02-27,Grenoble,Niort,3.41,3.41,0.0
 F2,2021,2021-02-27,Pau FC,Le Havre,2.78,2.78,0.0
 F2,2021,2021-02-27,Sochaux,Guingamp,3.11,3.11,0.0
+F2,2021,2021-02-27,Clermont,Valenciennes,4.02,4.02,0.0
+F2,2021,2021-03-02,Annecy,Caen,2.81,2.81,0.0
 F2,2021,2021-03-02,Ajaccio,Rodez,2.82,2.82,0.0
 F2,2021,2021-03-02,Amiens,Auxerre,3.01,3.01,0.0
 F2,2021,2021-03-02,Chambly,Troyes,4.05,4.05,0.0
 F2,2021,2021-03-02,Guingamp,Clermont,3.4,3.4,0.0
 F2,2021,2021-03-02,Le Havre,Grenoble,2.96,2.96,0.0
-F2,2021,2021-03-02,Annecy,Caen,2.81,2.81,0.0
 F2,2021,2021-03-02,Niort,Sochaux,3.01,3.01,0.0
 F2,2021,2021-03-02,Paris FC,Dunkerque,3.59,3.59,0.0
 F2,2021,2021-03-02,Pau FC,Chateauroux,3.14,3.14,0.0
 F2,2021,2021-03-02,Valenciennes,Toulouse,3.7,3.7,0.0
 F2,2021,2021-03-13,Auxerre,Paris FC,3.09,3.09,0.0
-F2,2021,2021-03-13,Ajaccio,Guingamp,3.08,3.08,0.0
 F2,2021,2021-03-13,Dunkerque,Niort,3.0,3.0,0.0
 F2,2021,2021-03-13,Grenoble,Pau FC,3.2,3.2,0.0
 F2,2021,2021-03-13,Rodez,Valenciennes,3.09,3.09,0.0
 F2,2021,2021-03-13,Sochaux,Chateauroux,3.7,3.7,0.0
 F2,2021,2021-03-13,Toulouse,Chambly,4.47,4.47,0.0
 F2,2021,2021-03-13,Troyes,Annecy,3.55,3.55,0.0
+F2,2021,2021-03-13,Ajaccio,Guingamp,3.08,3.08,0.0
 F2,2021,2021-03-15,Caen,Le Havre,2.9,2.9,0.0
 F2,2021,2021-03-19,Chambly,Ajaccio,3.12,3.12,0.0
 F2,2021,2021-03-20,Amiens,Troyes,3.27,3.27,0.0
@@ -297,37 +298,36 @@ F2,2021,2021-03-20,Niort,Toulouse,3.57,3.57,0.0
 F2,2021,2021-03-20,Paris FC,Grenoble,3.3,3.3,0.0
 F2,2021,2021-03-20,Pau FC,Dunkerque,2.97,2.97,0.0
 F2,2021,2021-03-20,Valenciennes,Auxerre,3.17,3.17,0.0
-F2,2021,2021-04-03,Toulouse,Annecy,3.49,3.49,0.0
-F2,2021,2021-04-03,Ajaccio,Valenciennes,3.26,3.26,0.0
-F2,2021,2021-04-03,Caen,Pau FC,2.96,2.96,0.0
 F2,2021,2021-04-03,Clermont,Niort,4.85,4.85,0.0
+F2,2021,2021-04-03,Ajaccio,Valenciennes,3.26,3.26,0.0
 F2,2021,2021-04-03,Grenoble,Chateauroux,3.13,3.13,0.0
 F2,2021,2021-04-03,Rodez,Chambly,3.28,3.28,0.0
 F2,2021,2021-04-03,Sochaux,Paris FC,3.06,3.06,0.0
 F2,2021,2021-04-03,Troyes,Guingamp,3.54,3.54,0.0
+F2,2021,2021-04-03,Toulouse,Annecy,3.49,3.49,0.0
+F2,2021,2021-04-03,Caen,Pau FC,2.96,2.96,0.0
 F2,2021,2021-04-05,Auxerre,Le Havre,2.93,2.93,0.0
-F2,2021,2021-04-10,Paris FC,Troyes,2.97,2.97,0.0
-F2,2021,2021-04-10,Chateauroux,Dunkerque,3.16,3.16,0.0
-F2,2021,2021-04-10,Grenoble,Caen,3.13,3.13,0.0
 F2,2021,2021-04-10,Le Havre,Ajaccio,2.8,2.8,0.0
 F2,2021,2021-04-10,Annecy,Sochaux,2.75,2.75,0.0
+F2,2021,2021-04-10,Paris FC,Troyes,2.97,2.97,0.0
 F2,2021,2021-04-10,Niort,Auxerre,3.34,3.34,0.0
 F2,2021,2021-04-10,Pau FC,Clermont,3.75,3.75,0.0
 F2,2021,2021-04-10,Valenciennes,Chambly,3.08,3.08,0.0
+F2,2021,2021-04-10,Chateauroux,Dunkerque,3.16,3.16,0.0
+F2,2021,2021-04-10,Grenoble,Caen,3.13,3.13,0.0
 F2,2021,2021-04-11,Amiens,Rodez,2.8,2.8,0.0
 F2,2021,2021-04-12,Guingamp,Toulouse,3.22,3.22,0.0
 F2,2021,2021-04-14,Clermont,Amiens,3.67,3.67,0.0
+F2,2021,2021-04-17,Chambly,Amiens,3.11,3.11,0.0
 F2,2021,2021-04-17,Clermont,Le Havre,3.7,3.7,0.0
 F2,2021,2021-04-17,Troyes,Caen,3.62,3.62,0.0
 F2,2021,2021-04-17,Ajaccio,Niort,3.39,3.39,0.0
 F2,2021,2021-04-17,Auxerre,Annecy,3.25,3.25,0.0
-F2,2021,2021-04-17,Chambly,Amiens,3.11,3.11,0.0
 F2,2021,2021-04-17,Dunkerque,Grenoble,3.02,3.02,0.0
 F2,2021,2021-04-17,Rodez,Paris FC,2.94,2.94,0.0
 F2,2021,2021-04-17,Sochaux,Pau FC,3.22,3.22,0.0
 F2,2021,2021-04-17,Toulouse,Chateauroux,4.31,4.31,0.0
 F2,2021,2021-04-17,Valenciennes,Guingamp,3.21,3.21,0.0
-F2,2021,2021-04-20,Amiens,Valenciennes,3.22,3.22,0.0
 F2,2021,2021-04-20,Caen,Dunkerque,3.08,3.08,0.0
 F2,2021,2021-04-20,Chateauroux,Rodez,2.94,2.94,0.0
 F2,2021,2021-04-20,Grenoble,Sochaux,2.96,2.96,0.0
@@ -335,10 +335,11 @@ F2,2021,2021-04-20,Guingamp,Chambly,3.43,3.43,0.0
 F2,2021,2021-04-20,Annecy,Ajaccio,2.84,2.84,0.0
 F2,2021,2021-04-20,Niort,Troyes,3.63,3.63,0.0
 F2,2021,2021-04-20,Paris FC,Clermont,3.18,3.18,0.0
+F2,2021,2021-04-20,Amiens,Valenciennes,3.22,3.22,0.0
 F2,2021,2021-04-20,Pau FC,Auxerre,3.36,3.36,0.0
+F2,2021,2021-04-24,Auxerre,Dunkerque,3.77,3.77,0.0
 F2,2021,2021-04-24,Troyes,Grenoble,3.46,3.46,0.0
 F2,2021,2021-04-24,Ajaccio,Amiens,3.1,3.1,0.0
-F2,2021,2021-04-24,Auxerre,Dunkerque,3.77,3.77,0.0
 F2,2021,2021-04-24,Chambly,Annecy,3.3,3.3,0.0
 F2,2021,2021-04-24,Guingamp,Paris FC,3.05,3.05,0.0
 F2,2021,2021-04-24,Rodez,Le Havre,2.81,2.81,0.0
@@ -346,7 +347,6 @@ F2,2021,2021-04-24,Sochaux,Caen,3.02,3.02,0.0
 F2,2021,2021-04-24,Valenciennes,Niort,3.07,3.07,0.0
 F2,2021,2021-04-26,Clermont,Chateauroux,5.03,5.03,0.0
 F2,2021,2021-04-28,Dunkerque,Amiens,2.97,2.97,0.0
-F2,2021,2021-05-01,Paris FC,Toulouse,3.17,3.17,0.0
 F2,2021,2021-05-01,Amiens,Guingamp,3.15,3.15,0.0
 F2,2021,2021-05-01,Caen,Auxerre,3.57,3.57,0.0
 F2,2021,2021-05-01,Chateauroux,Troyes,4.13,4.13,0.0
@@ -355,9 +355,9 @@ F2,2021,2021-05-01,Le Havre,Chambly,3.13,3.13,0.0
 F2,2021,2021-05-01,Annecy,Valenciennes,3.52,3.52,0.0
 F2,2021,2021-05-01,Niort,Rodez,2.96,2.96,0.0
 F2,2021,2021-05-01,Pau FC,Ajaccio,3.12,3.12,0.0
+F2,2021,2021-05-01,Paris FC,Toulouse,3.17,3.17,0.0
 F2,2021,2021-05-03,Grenoble,Clermont,3.24,3.24,0.0
 F2,2021,2021-05-04,Le Havre,Toulouse,3.28,3.28,0.0
-F2,2021,2021-05-08,Ajaccio,Paris FC,3.27,3.27,0.0
 F2,2021,2021-05-08,Amiens,Niort,3.1,3.1,0.0
 F2,2021,2021-05-08,Auxerre,Grenoble,3.18,3.18,0.0
 F2,2021,2021-05-08,Chambly,Pau FC,3.1,3.1,0.0
@@ -367,14 +367,15 @@ F2,2021,2021-05-08,Rodez,Annecy,2.91,2.91,0.0
 F2,2021,2021-05-08,Toulouse,Caen,3.77,3.77,0.0
 F2,2021,2021-05-08,Troyes,Dunkerque,3.71,3.71,0.0
 F2,2021,2021-05-08,Valenciennes,Le Havre,3.18,3.18,0.0
+F2,2021,2021-05-08,Ajaccio,Paris FC,3.27,3.27,0.0
 F2,2021,2021-05-12,Toulouse,Pau FC,3.94,3.94,0.0
-F2,2021,2021-05-15,Caen,Clermont,3.35,3.35,0.0
 F2,2021,2021-05-15,Chateauroux,Ajaccio,3.12,3.12,0.0
 F2,2021,2021-05-15,Dunkerque,Toulouse,3.06,3.06,0.0
 F2,2021,2021-05-15,Grenoble,Rodez,3.62,3.62,0.0
 F2,2021,2021-05-15,Le Havre,Troyes,3.13,3.13,0.0
-F2,2021,2021-05-15,Annecy,Amiens,3.27,3.27,0.0
+F2,2021,2021-05-15,Caen,Clermont,3.35,3.35,0.0
 F2,2021,2021-05-15,Niort,Guingamp,2.99,2.99,0.0
 F2,2021,2021-05-15,Paris FC,Chambly,3.99,3.99,0.0
 F2,2021,2021-05-15,Pau FC,Valenciennes,3.71,3.71,0.0
 F2,2021,2021-05-15,Sochaux,Auxerre,3.31,3.31,0.0
+F2,2021,2021-05-15,Annecy,Amiens,3.27,3.27,0.0

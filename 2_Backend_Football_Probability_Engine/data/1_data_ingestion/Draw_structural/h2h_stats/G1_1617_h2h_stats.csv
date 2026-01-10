@@ -5,8 +5,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8973,PAOK,8983,Xanthi,1617,2,2,1.0,
 8968,Asteras Tripolis,8973,PAOK,1617,2,0,0.0,4.0
 8967,Olympiakos,8971,AEK,1617,2,0,0.0,2.0
-8974,Levadeiakos,8987,Iraklis,1617,2,0,0.0,2.0
 8968,Asteras Tripolis,8980,Giannina,1617,2,1,0.5,2.5
+8974,Levadeiakos,8987,Iraklis,1617,2,0,0.0,2.0
 8974,Levadeiakos,8983,Xanthi,1617,2,2,1.0,3.0
 8967,Olympiakos,8977,Panathinaikos,1617,2,0,0.0,2.0
 8968,Asteras Tripolis,8983,Xanthi,1617,2,1,0.5,2.0
@@ -20,8 +20,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8971,AEK,8981,Ionikos,1617,2,2,1.0,1.0
 8968,Asteras Tripolis,8974,Levadeiakos,1617,2,1,0.5,1.5
 8970,Atromitos,8974,Levadeiakos,1617,2,1,0.5,2.0
-8974,Levadeiakos,8980,Giannina,1617,2,1,0.5,1.5
 8968,Asteras Tripolis,8977,Panathinaikos,1617,2,0,0.0,4.5
+8974,Levadeiakos,8980,Giannina,1617,2,1,0.5,1.5
 8965,Aris,8980,Giannina,1617,2,1,0.5,3.0
 8965,Aris,8987,Iraklis,1617,2,2,1.0,3.0
 8977,Panathinaikos,8987,Iraklis,1617,2,1,0.5,2.0
@@ -44,8 +44,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8970,Atromitos,8983,Xanthi,1617,2,1,0.5,1.5
 8967,Olympiakos,8968,Asteras Tripolis,1617,2,1,0.5,1.5
 8965,Aris,8971,AEK,1617,2,0,0.0,3.0
-8984,Kerkyra,8987,Iraklis,1617,2,1,0.5,1.5
 8981,Ionikos,8985,Platanias,1617,2,2,1.0,2.0
+8984,Kerkyra,8987,Iraklis,1617,2,1,0.5,1.5
 8965,Aris,8968,Asteras Tripolis,1617,2,1,0.5,3.5
 8970,Atromitos,8971,AEK,1617,2,1,0.5,2.5
 8965,Aris,8969,Panetolikos,1617,2,0,0.0,2.0
@@ -108,11 +108,11 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8969,Panetolikos,8987,Iraklis,1617,2,0,0.0,2.5
 8967,Olympiakos,8987,Iraklis,1617,2,0,0.0,3.0
 8970,Atromitos,8984,Kerkyra,1617,2,1,0.5,3.5
-8977,Panathinaikos,8985,Platanias,1617,2,0,0.0,2.0
 8969,Panetolikos,8980,Giannina,1617,2,1,0.5,1.5
+8977,Panathinaikos,8985,Platanias,1617,2,0,0.0,2.0
 8970,Atromitos,8987,Iraklis,1617,2,0,0.0,2.0
-8965,Aris,8973,PAOK,1617,2,0,0.0,2.0
 8985,Platanias,8987,Iraklis,1617,2,1,0.5,1.5
+8965,Aris,8973,PAOK,1617,2,0,0.0,2.0
 8969,Panetolikos,8970,Atromitos,1617,2,0,0.0,2.0
 8971,AEK,8977,Panathinaikos,1617,2,1,0.5,2.5
 8983,Xanthi,8985,Platanias,1617,2,0,0.0,1.0

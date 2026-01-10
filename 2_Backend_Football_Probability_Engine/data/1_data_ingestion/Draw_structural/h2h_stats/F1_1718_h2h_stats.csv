@@ -1,8 +1,8 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9342,Rennes,9365,Bordeaux,1718,2,0,0.0,1.5
 9352,Angers,9369,Guingamp,1718,2,1,0.5,2.5
-9351,Lille,9366,Dijon,1718,2,0,0.0,3.0
 9361,Montpellier,9368,Amiens,1718,2,2,1.0,2.0
+9351,Lille,9366,Dijon,1718,2,0,0.0,3.0
 9357,Strasbourg,9361,Montpellier,1718,2,2,1.0,1.0
 9349,Toulouse,9356,Metz,1718,2,2,1.0,1.0
 9352,Angers,9356,Metz,1718,2,0,0.0,2.0
@@ -66,16 +66,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9365,Bordeaux,9369,Guingamp,1718,2,0,0.0,3.5
 9351,Lille,9361,Montpellier,1718,2,1,0.5,2.5
 9358,Nantes,9360,St Etienne,1718,2,1,0.5,2.5
-9343,Marseille,9361,Montpellier,1718,2,2,1.0,1.0
 9353,Paris FC,9365,Bordeaux,1718,2,0,0.0,4.5
+9343,Marseille,9361,Montpellier,1718,2,2,1.0,1.0
 9345,Lyon,9358,Nantes,1718,2,1,0.5,1.0
 9352,Angers,9366,Dijon,1718,2,0,0.0,3.0
 9346,Monaco,9348,Nice,1718,2,1,0.5,4.0
 9349,Toulouse,9358,Nantes,1718,2,1,0.5,2.5
 9360,St Etienne,9369,Guingamp,1718,2,0,0.0,2.5
 9358,Nantes,9366,Dijon,1718,2,1,0.5,1.5
-9364,Troyes,9365,Bordeaux,1718,2,0,0.0,2.0
 9342,Rennes,9345,Lyon,1718,2,0,0.0,2.5
+9364,Troyes,9365,Bordeaux,1718,2,0,0.0,2.0
 9361,Montpellier,9364,Troyes,1718,2,1,0.5,1.5
 9349,Toulouse,9357,Strasbourg,1718,2,1,0.5,3.5
 9343,Marseille,9366,Dijon,1718,2,0,0.0,3.5
@@ -85,8 +85,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9349,Toulouse,9361,Montpellier,1718,2,0,0.0,2.0
 9364,Troyes,9368,Amiens,1718,2,1,0.5,1.5
 9342,Rennes,9343,Marseille,1718,2,0,0.0,3.5
-9353,Paris FC,9358,Nantes,1718,2,0,0.0,3.0
 9349,Toulouse,9369,Guingamp,1718,2,1,0.5,2.5
+9353,Paris FC,9358,Nantes,1718,2,0,0.0,3.0
 9366,Dijon,9370,Caen,1718,2,0,0.0,2.5
 9343,Marseille,9365,Bordeaux,1718,2,1,0.5,1.5
 9351,Lille,9357,Strasbourg,1718,2,0,0.0,3.0
@@ -141,8 +141,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9343,Marseille,9346,Monaco,1718,2,1,0.5,5.5
 9348,Nice,9370,Caen,1718,2,1,0.5,3.5
 9351,Lille,9364,Troyes,1718,2,1,0.5,2.5
-9342,Rennes,9351,Lille,1718,2,0,0.0,2.0
 9357,Strasbourg,9366,Dijon,1718,2,1,0.5,3.5
+9342,Rennes,9351,Lille,1718,2,0,0.0,2.0
 9345,Lyon,9357,Strasbourg,1718,2,0,0.0,4.5
 9348,Nice,9368,Amiens,1718,2,0,0.0,2.0
 9352,Angers,9360,St Etienne,1718,2,1,0.5,1.5
@@ -159,13 +159,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9346,Monaco,9369,Guingamp,1718,2,0,0.0,5.0
 9356,Metz,9365,Bordeaux,1718,2,0,0.0,3.0
 9353,Paris FC,9357,Strasbourg,1718,2,0,0.0,5.0
-9348,Nice,9353,Paris FC,1718,2,0,0.0,3.0
 9358,Nantes,9369,Guingamp,1718,2,0,0.0,3.0
+9348,Nice,9353,Paris FC,1718,2,0,0.0,3.0
 9348,Nice,9364,Troyes,1718,2,0,0.0,2.5
 9343,Marseille,9360,St Etienne,1718,2,1,0.5,3.5
 9351,Lille,9352,Angers,1718,2,1,0.5,2.5
-9356,Metz,9358,Nantes,1718,2,1,0.5,1.5
 9345,Lyon,9365,Bordeaux,1718,2,1,0.5,5.0
+9356,Metz,9358,Nantes,1718,2,1,0.5,1.5
 9356,Metz,9368,Amiens,1718,2,0,0.0,2.0
 9351,Lille,9368,Amiens,1718,2,0,0.0,2.0
 9352,Angers,9357,Strasbourg,1718,2,2,1.0,3.0
@@ -180,12 +180,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9342,Rennes,9348,Nice,1718,2,1,0.5,1.5
 9356,Metz,9364,Troyes,1718,2,0,0.0,1.0
 9352,Angers,9365,Bordeaux,1718,2,2,1.0,2.0
-9358,Nantes,9368,Amiens,1718,2,0,0.0,1.0
 9342,Rennes,9358,Nantes,1718,2,1,0.5,2.5
+9358,Nantes,9368,Amiens,1718,2,0,0.0,1.0
 9356,Metz,9366,Dijon,1718,2,1,0.5,2.5
 9365,Bordeaux,9370,Caen,1718,2,0,0.0,1.5
 9351,Lille,9356,Metz,1718,2,0,0.0,3.5
 9346,Monaco,9368,Amiens,1718,2,2,1.0,1.0
 9356,Metz,9357,Strasbourg,1718,2,1,0.5,3.5
-9346,Monaco,9352,Angers,1718,2,0,0.0,2.5
 9342,Rennes,9352,Angers,1718,2,0,0.0,2.0
+9346,Monaco,9352,Angers,1718,2,0,0.0,2.5

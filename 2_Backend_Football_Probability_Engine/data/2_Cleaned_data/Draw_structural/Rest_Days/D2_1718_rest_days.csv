@@ -2,28 +2,28 @@ league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,
 D2,1718,2017-01-10,Heidenheim,Dresden,25,23,True
 D2,1718,2017-01-10,Braunschweig,St Pauli,24,24,True
 D2,1718,2017-01-10,Sandhausen,Regensburg,6,7,True
-D2,1718,2017-01-12,Heidenheim,Kaiserslautern,2,24,True
 D2,1718,2017-01-12,Bielefeld,St Pauli,8,2,True
+D2,1718,2017-01-12,Heidenheim,Kaiserslautern,2,24,True
 D2,1718,2017-02-10,Fortuna Dusseldorf,Duisburg,14,7,False
-D2,1718,2017-02-12,Duisburg,Greuther Furth,2,8,False
-D2,1718,2017-02-12,Nurnberg,Sandhausen,14,16,False
 D2,1718,2017-02-12,Holstein Kiel,Fortuna Dusseldorf,7,2,False
+D2,1718,2017-02-12,Nurnberg,Sandhausen,14,16,False
+D2,1718,2017-02-12,Duisburg,Greuther Furth,2,8,False
 D2,1718,2017-03-11,Sandhausen,Duisburg,15,27,False
 D2,1718,2017-03-11,Kaiserslautern,Bochum,8,8,False
 D2,1718,2017-03-12,Dresden,Erzgebirge Aue,9,14,False
-D2,1718,2017-03-12,Bochum,Union Berlin,1,9,False
 D2,1718,2017-03-12,Darmstadt,Regensburg,7,61,False
+D2,1718,2017-03-12,Bochum,Union Berlin,1,9,False
 D2,1718,2017-04-08,Kaiserslautern,Darmstadt,22,27,False
 D2,1718,2017-04-08,Union Berlin,Holstein Kiel,19,55,False
 D2,1718,2017-04-08,Sandhausen,Ingolstadt,4,7,False
-D2,1718,2017-04-11,Braunschweig,Darmstadt,25,3,True
 D2,1718,2017-04-11,Union Berlin,St Pauli,3,7,True
 D2,1718,2017-04-11,Regensburg,Greuther Furth,30,24,True
+D2,1718,2017-04-11,Braunschweig,Darmstadt,25,3,True
 D2,1718,2017-04-12,Ingolstadt,Braunschweig,4,1,True
-D2,1718,2017-05-08,Duisburg,Bochum,58,4,False
 D2,1718,2017-05-08,Braunschweig,Heidenheim,4,3,False
-D2,1718,2017-05-11,Erzgebirge Aue,Bielefeld,7,8,True
+D2,1718,2017-05-08,Duisburg,Bochum,58,4,False
 D2,1718,2017-05-11,Holstein Kiel,Dresden,33,6,True
+D2,1718,2017-05-11,Erzgebirge Aue,Bielefeld,7,8,True
 D2,1718,2017-05-11,Fortuna Dusseldorf,Heidenheim,11,3,True
 D2,1718,2017-06-08,Greuther Furth,Bielefeld,18,18,True
 D2,1718,2017-06-08,Erzgebirge Aue,Fortuna Dusseldorf,18,3,True
@@ -31,12 +31,12 @@ D2,1718,2017-06-08,Regensburg,Nurnberg,58,3,True
 D2,1718,2017-06-11,Nurnberg,Ingolstadt,3,60,False
 D2,1718,2017-07-08,St Pauli,Dresden,4,48,False
 D2,1718,2017-07-28,Bochum,St Pauli,23,20,False
-D2,1718,2017-07-29,Ingolstadt,Union Berlin,48,69,False
 D2,1718,2017-07-29,Bielefeld,Regensburg,24,51,False
+D2,1718,2017-07-29,Ingolstadt,Union Berlin,48,69,False
 D2,1718,2017-07-29,Darmstadt,Greuther Furth,109,24,False
-D2,1718,2017-07-30,Nurnberg,Kaiserslautern,26,70,False
-D2,1718,2017-07-30,Dresden,Duisburg,22,83,False
 D2,1718,2017-07-30,Holstein Kiel,Sandhausen,80,26,False
+D2,1718,2017-07-30,Dresden,Duisburg,22,83,False
+D2,1718,2017-07-30,Nurnberg,Kaiserslautern,26,70,False
 D2,1718,2017-07-31,Fortuna Dusseldorf,Braunschweig,53,58,False
 D2,1718,2017-08-09,Dresden,Greuther Furth,10,5,True
 D2,1718,2017-08-09,Heidenheim,Regensburg,5,11,True
@@ -44,21 +44,21 @@ D2,1718,2017-08-12,Braunschweig,Holstein Kiel,7,13,False
 D2,1718,2017-08-12,Erzgebirge Aue,Darmstadt,38,14,False
 D2,1718,2017-08-18,Darmstadt,St Pauli,6,21,False
 D2,1718,2017-08-18,Braunschweig,Erzgebirge Aue,6,6,False
+D2,1718,2017-08-19,Fortuna Dusseldorf,Kaiserslautern,19,15,False
 D2,1718,2017-08-19,Heidenheim,Duisburg,10,20,False
 D2,1718,2017-08-19,Dresden,Sandhausen,10,20,False
-D2,1718,2017-08-19,Fortuna Dusseldorf,Kaiserslautern,19,15,False
+D2,1718,2017-08-20,Ingolstadt,Regensburg,22,11,False
 D2,1718,2017-08-20,Nurnberg,Union Berlin,21,15,False
 D2,1718,2017-08-20,Holstein Kiel,Greuther Furth,8,11,False
-D2,1718,2017-08-20,Ingolstadt,Regensburg,22,11,False
 D2,1718,2017-08-21,Bielefeld,Bochum,23,17,False
-D2,1718,2017-08-25,Greuther Furth,Ingolstadt,5,5,False
 D2,1718,2017-08-25,Duisburg,Darmstadt,6,7,False
+D2,1718,2017-08-25,Greuther Furth,Ingolstadt,5,5,False
 D2,1718,2017-08-26,St Pauli,Heidenheim,8,7,False
 D2,1718,2017-08-26,Regensburg,Holstein Kiel,6,6,False
 D2,1718,2017-08-26,Erzgebirge Aue,Nurnberg,8,6,False
+D2,1718,2017-08-27,Union Berlin,Bielefeld,7,6,False
 D2,1718,2017-08-27,Bochum,Dresden,6,8,False
 D2,1718,2017-08-27,Sandhausen,Fortuna Dusseldorf,8,8,False
-D2,1718,2017-08-27,Union Berlin,Bielefeld,7,6,False
 D2,1718,2017-08-28,Kaiserslautern,Braunschweig,9,10,False
 D2,1718,2017-09-08,Heidenheim,Erzgebirge Aue,13,4,False
 D2,1718,2017-09-09,Ingolstadt,Erzgebirge Aue,15,1,False
@@ -69,110 +69,110 @@ D2,1718,2017-09-12,Regensburg,Bochum,17,16,True
 D2,1718,2017-09-12,Greuther Furth,Heidenheim,18,4,True
 D2,1718,2017-09-15,Erzgebirge Aue,Holstein Kiel,6,6,False
 D2,1718,2017-09-15,Union Berlin,Braunschweig,3,18,False
+D2,1718,2017-09-16,St Pauli,Ingolstadt,21,7,False
 D2,1718,2017-09-16,Duisburg,Nurnberg,7,21,False
 D2,1718,2017-09-16,Sandhausen,Kaiserslautern,20,7,False
-D2,1718,2017-09-16,St Pauli,Ingolstadt,21,7,False
 D2,1718,2017-09-17,Bochum,Heidenheim,5,5,False
 D2,1718,2017-09-17,Regensburg,Dresden,5,5,False
-D2,1718,2017-09-17,Darmstadt,Bielefeld,23,8,False
 D2,1718,2017-09-17,Greuther Furth,Fortuna Dusseldorf,5,13,False
-D2,1718,2017-09-19,Ingolstadt,Duisburg,3,3,True
-D2,1718,2017-09-19,Sandhausen,Union Berlin,3,4,True
-D2,1718,2017-09-19,Kaiserslautern,Erzgebirge Aue,3,4,True
+D2,1718,2017-09-17,Darmstadt,Bielefeld,23,8,False
 D2,1718,2017-09-19,Holstein Kiel,St Pauli,4,3,True
-D2,1718,2017-09-20,Fortuna Dusseldorf,Regensburg,3,3,True
-D2,1718,2017-09-20,Braunschweig,Greuther Furth,5,3,True
+D2,1718,2017-09-19,Ingolstadt,Duisburg,3,3,True
+D2,1718,2017-09-19,Kaiserslautern,Erzgebirge Aue,3,4,True
+D2,1718,2017-09-19,Sandhausen,Union Berlin,3,4,True
 D2,1718,2017-09-20,Dresden,Bielefeld,3,3,True
+D2,1718,2017-09-20,Fortuna Dusseldorf,Regensburg,3,3,True
 D2,1718,2017-09-20,Heidenheim,Darmstadt,3,3,True
+D2,1718,2017-09-20,Braunschweig,Greuther Furth,5,3,True
 D2,1718,2017-09-21,Nurnberg,Bochum,5,4,True
 D2,1718,2017-09-22,Duisburg,Holstein Kiel,3,3,False
 D2,1718,2017-09-22,Erzgebirge Aue,Sandhausen,3,3,False
-D2,1718,2017-09-23,Regensburg,Braunschweig,3,3,False
-D2,1718,2017-09-23,St Pauli,Fortuna Dusseldorf,4,3,False
 D2,1718,2017-09-23,Bielefeld,Heidenheim,3,3,False
+D2,1718,2017-09-23,St Pauli,Fortuna Dusseldorf,4,3,False
+D2,1718,2017-09-23,Regensburg,Braunschweig,3,3,False
 D2,1718,2017-09-24,Darmstadt,Dresden,4,4,False
 D2,1718,2017-09-24,Greuther Furth,Nurnberg,4,3,False
 D2,1718,2017-09-24,Bochum,Ingolstadt,3,5,False
 D2,1718,2017-09-25,Union Berlin,Kaiserslautern,6,6,False
-D2,1718,2017-09-29,Kaiserslautern,Greuther Furth,4,5,False
 D2,1718,2017-09-29,Ingolstadt,Darmstadt,5,5,False
+D2,1718,2017-09-29,Kaiserslautern,Greuther Furth,4,5,False
 D2,1718,2017-09-30,Nurnberg,Bielefeld,6,7,False
-D2,1718,2017-09-30,Erzgebirge Aue,Union Berlin,8,5,False
 D2,1718,2017-09-30,Holstein Kiel,Bochum,8,6,False
+D2,1718,2017-09-30,Erzgebirge Aue,Union Berlin,8,5,False
+D2,1718,2017-10-09,Darmstadt,Bochum,10,6,False
 D2,1718,2017-10-09,Fortuna Dusseldorf,Union Berlin,7,6,False
 D2,1718,2017-10-09,Braunschweig,Sandhausen,5,17,False
-D2,1718,2017-10-09,Darmstadt,Bochum,10,6,False
 D2,1718,2017-10-12,St Pauli,Duisburg,9,20,True
-D2,1718,2017-10-12,Sandhausen,Bielefeld,3,12,True
 D2,1718,2017-10-12,Kaiserslautern,Ingolstadt,10,13,True
-D2,1718,2017-10-13,St Pauli,Kaiserslautern,1,1,False
+D2,1718,2017-10-12,Sandhausen,Bielefeld,3,12,True
 D2,1718,2017-10-13,Duisburg,Braunschweig,1,4,False
+D2,1718,2017-10-13,St Pauli,Kaiserslautern,1,1,False
 D2,1718,2017-10-14,Dresden,Ingolstadt,10,2,False
-D2,1718,2017-10-14,Bochum,Sandhausen,5,2,False
 D2,1718,2017-10-14,Bielefeld,Fortuna Dusseldorf,2,5,False
+D2,1718,2017-10-14,Bochum,Sandhausen,5,2,False
 D2,1718,2017-10-15,Regensburg,Union Berlin,22,6,False
-D2,1718,2017-10-15,Heidenheim,Holstein Kiel,22,15,False
 D2,1718,2017-10-15,Greuther Furth,Erzgebirge Aue,13,12,False
+D2,1718,2017-10-15,Heidenheim,Holstein Kiel,22,15,False
 D2,1718,2017-10-16,Darmstadt,Nurnberg,7,14,False
-D2,1718,2017-10-20,Ingolstadt,Heidenheim,6,5,False
 D2,1718,2017-10-20,Fortuna Dusseldorf,Darmstadt,6,4,False
-D2,1718,2017-10-21,Union Berlin,Greuther Furth,6,6,False
+D2,1718,2017-10-20,Ingolstadt,Heidenheim,6,5,False
 D2,1718,2017-10-21,Braunschweig,Bochum,8,7,False
+D2,1718,2017-10-21,Union Berlin,Greuther Furth,6,6,False
 D2,1718,2017-10-21,Holstein Kiel,Bielefeld,6,7,False
 D2,1718,2017-10-22,Kaiserslautern,Duisburg,9,9,False
-D2,1718,2017-10-22,Nurnberg,Dresden,6,8,False
 D2,1718,2017-10-22,Erzgebirge Aue,Regensburg,7,7,False
+D2,1718,2017-10-22,Nurnberg,Dresden,6,8,False
 D2,1718,2017-10-23,Sandhausen,St Pauli,9,10,False
-D2,1718,2017-10-27,St Pauli,Erzgebirge Aue,4,5,False
 D2,1718,2017-10-27,Bielefeld,Ingolstadt,6,7,False
+D2,1718,2017-10-27,St Pauli,Erzgebirge Aue,4,5,False
 D2,1718,2017-10-28,Darmstadt,Holstein Kiel,8,7,False
-D2,1718,2017-10-28,Greuther Furth,Sandhausen,7,5,False
 D2,1718,2017-10-28,Regensburg,Kaiserslautern,6,6,False
-D2,1718,2017-10-29,Duisburg,Union Berlin,7,8,False
+D2,1718,2017-10-28,Greuther Furth,Sandhausen,7,5,False
 D2,1718,2017-10-29,Heidenheim,Nurnberg,9,7,False
 D2,1718,2017-10-29,Dresden,Braunschweig,7,8,False
+D2,1718,2017-10-29,Duisburg,Union Berlin,7,8,False
 D2,1718,2017-10-30,Bochum,Fortuna Dusseldorf,9,10,False
 D2,1718,2017-11-09,Nurnberg,St Pauli,11,13,True
 D2,1718,2017-11-12,Fortuna Dusseldorf,Nurnberg,13,3,False
 D2,1718,2017-11-17,Bielefeld,Braunschweig,21,19,False
 D2,1718,2017-11-17,Darmstadt,Sandhausen,20,20,False
 D2,1718,2017-11-18,Nurnberg,Holstein Kiel,6,21,False
-D2,1718,2017-11-18,Heidenheim,Union Berlin,16,20,False
 D2,1718,2017-11-18,Bochum,Greuther Furth,19,21,False
-D2,1718,2017-11-19,Duisburg,Erzgebirge Aue,21,23,False
-D2,1718,2017-11-19,Ingolstadt,Fortuna Dusseldorf,23,7,False
+D2,1718,2017-11-18,Heidenheim,Union Berlin,16,20,False
 D2,1718,2017-11-19,St Pauli,Regensburg,10,22,False
+D2,1718,2017-11-19,Ingolstadt,Fortuna Dusseldorf,23,7,False
+D2,1718,2017-11-19,Duisburg,Erzgebirge Aue,21,23,False
 D2,1718,2017-11-20,Dresden,Kaiserslautern,17,23,False
 D2,1718,2017-11-24,Union Berlin,Darmstadt,6,7,False
 D2,1718,2017-11-24,Sandhausen,Heidenheim,7,6,False
-D2,1718,2017-11-25,Braunschweig,Nurnberg,8,7,False
 D2,1718,2017-11-25,Regensburg,Duisburg,6,6,False
 D2,1718,2017-11-25,Holstein Kiel,Ingolstadt,7,6,False
+D2,1718,2017-11-25,Braunschweig,Nurnberg,8,7,False
 D2,1718,2017-11-26,Kaiserslautern,Bielefeld,6,9,False
 D2,1718,2017-11-26,Greuther Furth,St Pauli,8,7,False
 D2,1718,2017-11-26,Erzgebirge Aue,Bochum,7,8,False
 D2,1718,2017-11-27,Fortuna Dusseldorf,Dresden,8,7,False
 D2,1718,2017-12-15,Braunschweig,Fortuna Dusseldorf,20,18,False
 D2,1718,2017-12-15,Union Berlin,Ingolstadt,13,20,False
-D2,1718,2017-12-16,Regensburg,Bielefeld,21,13,False
 D2,1718,2017-12-16,Erzgebirge Aue,Heidenheim,20,13,False
 D2,1718,2017-12-16,Kaiserslautern,Nurnberg,13,13,False
-D2,1718,2017-12-17,Duisburg,Dresden,22,15,False
-D2,1718,2017-12-17,Greuther Furth,Darmstadt,14,23,False
+D2,1718,2017-12-16,Regensburg,Bielefeld,21,13,False
 D2,1718,2017-12-17,Sandhausen,Holstein Kiel,14,22,False
+D2,1718,2017-12-17,Greuther Furth,Darmstadt,14,23,False
+D2,1718,2017-12-17,Duisburg,Dresden,22,15,False
 D2,1718,2017-12-18,St Pauli,Bochum,16,22,False
+D2,1718,2018-01-04,Bielefeld,Holstein Kiel,19,18,True
 D2,1718,2018-01-04,Greuther Furth,Union Berlin,18,20,True
 D2,1718,2018-01-04,Regensburg,Erzgebirge Aue,19,19,True
 D2,1718,2018-01-04,St Pauli,Sandhausen,17,18,True
-D2,1718,2018-01-04,Bielefeld,Holstein Kiel,19,18,True
 D2,1718,2018-01-04,Bochum,Braunschweig,17,20,True
-D2,1718,2018-01-23,Holstein Kiel,Union Berlin,19,19,True
-D2,1718,2018-01-23,Ingolstadt,Sandhausen,39,19,True
-D2,1718,2018-01-23,Nurnberg,Regensburg,38,19,True
 D2,1718,2018-01-23,Bochum,Duisburg,19,37,True
+D2,1718,2018-01-23,Holstein Kiel,Union Berlin,19,19,True
+D2,1718,2018-01-23,Nurnberg,Regensburg,38,19,True
+D2,1718,2018-01-23,Ingolstadt,Sandhausen,39,19,True
+D2,1718,2018-01-24,Fortuna Dusseldorf,Erzgebirge Aue,40,20,True
 D2,1718,2018-01-24,Bielefeld,Greuther Furth,20,20,True
 D2,1718,2018-01-24,Heidenheim,Braunschweig,39,20,True
-D2,1718,2018-01-24,Fortuna Dusseldorf,Erzgebirge Aue,40,20,True
 D2,1718,2018-01-25,Dresden,St Pauli,39,21,True
 D2,1718,2018-01-26,Regensburg,Ingolstadt,3,3,False
 D2,1718,2018-01-26,Union Berlin,Nurnberg,3,3,False
@@ -183,110 +183,110 @@ D2,1718,2018-01-28,St Pauli,Darmstadt,3,42,False
 D2,1718,2018-01-28,Sandhausen,Dresden,5,3,False
 D2,1718,2018-01-28,Erzgebirge Aue,Braunschweig,4,4,False
 D2,1718,2018-01-29,Bochum,Bielefeld,6,5,False
-D2,1718,2018-02-02,Nurnberg,Erzgebirge Aue,7,5,False
 D2,1718,2018-02-02,Fortuna Dusseldorf,Sandhausen,6,5,False
-D2,1718,2018-02-03,Kaiserslautern,Union Berlin,7,8,False
+D2,1718,2018-02-02,Nurnberg,Erzgebirge Aue,7,5,False
 D2,1718,2018-02-03,Dresden,Darmstadt,6,6,False
+D2,1718,2018-02-03,Kaiserslautern,Union Berlin,7,8,False
 D2,1718,2018-02-04,Darmstadt,Fortuna Dusseldorf,1,2,False
-D2,1718,2018-02-16,Heidenheim,Bochum,20,18,False
 D2,1718,2018-02-16,Kaiserslautern,Sandhausen,13,14,False
+D2,1718,2018-02-16,Heidenheim,Bochum,20,18,False
 D2,1718,2018-02-17,Fortuna Dusseldorf,Greuther Furth,13,21,False
-D2,1718,2018-02-17,Holstein Kiel,Erzgebirge Aue,21,15,False
-D2,1718,2018-02-17,Ingolstadt,St Pauli,22,20,False
 D2,1718,2018-02-17,Bielefeld,Darmstadt,19,13,False
-D2,1718,2018-02-18,Braunschweig,Union Berlin,21,15,False
-D2,1718,2018-02-18,Nurnberg,Duisburg,16,22,False
+D2,1718,2018-02-17,Ingolstadt,St Pauli,22,20,False
+D2,1718,2018-02-17,Holstein Kiel,Erzgebirge Aue,21,15,False
 D2,1718,2018-02-18,Dresden,Regensburg,15,23,False
+D2,1718,2018-02-18,Nurnberg,Duisburg,16,22,False
+D2,1718,2018-02-18,Braunschweig,Union Berlin,21,15,False
 D2,1718,2018-02-21,Darmstadt,Kaiserslautern,4,5,True
-D2,1718,2018-02-23,Regensburg,Fortuna Dusseldorf,5,6,False
 D2,1718,2018-02-23,Bielefeld,Dresden,6,5,False
+D2,1718,2018-02-23,Regensburg,Fortuna Dusseldorf,5,6,False
 D2,1718,2018-02-24,Union Berlin,Sandhausen,6,8,False
-D2,1718,2018-02-24,Duisburg,Ingolstadt,6,7,False
 D2,1718,2018-02-24,Erzgebirge Aue,Kaiserslautern,7,3,False
 D2,1718,2018-02-24,Greuther Furth,Braunschweig,7,6,False
-D2,1718,2018-02-25,St Pauli,Holstein Kiel,8,8,False
+D2,1718,2018-02-24,Duisburg,Ingolstadt,6,7,False
 D2,1718,2018-02-25,Darmstadt,Heidenheim,4,9,False
+D2,1718,2018-02-25,St Pauli,Holstein Kiel,8,8,False
 D2,1718,2018-02-25,Bochum,Nurnberg,9,7,False
 D2,1718,2018-03-02,Heidenheim,St Pauli,5,5,False
-D2,1718,2018-03-02,Ingolstadt,Greuther Furth,6,6,False
 D2,1718,2018-03-02,Holstein Kiel,Regensburg,5,7,False
+D2,1718,2018-03-02,Ingolstadt,Greuther Furth,6,6,False
+D2,1718,2018-03-03,Holstein Kiel,Duisburg,1,7,False
 D2,1718,2018-03-03,Sandhausen,Erzgebirge Aue,7,7,False
 D2,1718,2018-03-03,Nurnberg,Greuther Furth,6,1,False
-D2,1718,2018-03-03,Holstein Kiel,Duisburg,1,7,False
 D2,1718,2018-03-16,Fortuna Dusseldorf,Bielefeld,21,21,False
 D2,1718,2018-03-16,Holstein Kiel,Heidenheim,13,14,False
-D2,1718,2018-03-17,Kaiserslautern,St Pauli,21,15,False
 D2,1718,2018-03-17,Union Berlin,Regensburg,21,15,False
 D2,1718,2018-03-17,Sandhausen,Bochum,14,20,False
-D2,1718,2018-03-18,Nurnberg,Darmstadt,15,21,False
+D2,1718,2018-03-17,Kaiserslautern,St Pauli,21,15,False
 D2,1718,2018-03-18,Braunschweig,Duisburg,22,15,False
 D2,1718,2018-03-18,Ingolstadt,Dresden,16,23,False
+D2,1718,2018-03-18,Nurnberg,Darmstadt,15,21,False
 D2,1718,2018-03-19,Erzgebirge Aue,Greuther Furth,16,16,False
+D2,1718,2018-03-31,Heidenheim,Ingolstadt,15,13,False
 D2,1718,2018-03-31,Duisburg,Kaiserslautern,13,14,False
 D2,1718,2018-03-31,Dresden,Nurnberg,13,13,False
-D2,1718,2018-03-31,Heidenheim,Ingolstadt,15,13,False
-D2,1718,2018-04-02,Dresden,Bochum,2,16,False
 D2,1718,2018-04-02,Braunschweig,Kaiserslautern,15,2,False
 D2,1718,2018-04-02,Darmstadt,Duisburg,15,2,False
-D2,1718,2018-04-03,Braunschweig,Regensburg,1,17,True
-D2,1718,2018-04-03,Fortuna Dusseldorf,St Pauli,18,17,True
+D2,1718,2018-04-02,Dresden,Bochum,2,16,False
 D2,1718,2018-04-03,Heidenheim,Bielefeld,3,18,True
+D2,1718,2018-04-03,Fortuna Dusseldorf,St Pauli,18,17,True
+D2,1718,2018-04-03,Braunschweig,Regensburg,1,17,True
 D2,1718,2018-04-13,Bochum,Kaiserslautern,11,11,False
 D2,1718,2018-04-13,Greuther Furth,Regensburg,25,10,False
-D2,1718,2018-04-14,Bielefeld,Erzgebirge Aue,11,26,False
 D2,1718,2018-04-14,St Pauli,Union Berlin,11,28,False
+D2,1718,2018-04-14,Bielefeld,Erzgebirge Aue,11,26,False
 D2,1718,2018-04-14,Duisburg,Sandhausen,12,28,False
 D2,1718,2018-04-14,Dresden,Holstein Kiel,12,29,False
-D2,1718,2018-04-15,Ingolstadt,Nurnberg,15,15,False
-D2,1718,2018-04-15,Heidenheim,Fortuna Dusseldorf,12,12,False
 D2,1718,2018-04-15,Darmstadt,Braunschweig,13,12,False
+D2,1718,2018-04-15,Heidenheim,Fortuna Dusseldorf,12,12,False
+D2,1718,2018-04-15,Ingolstadt,Nurnberg,15,15,False
 D2,1718,2018-04-20,Braunschweig,Bielefeld,5,6,False
 D2,1718,2018-04-20,Greuther Furth,Bochum,7,7,False
 D2,1718,2018-04-21,Sandhausen,Darmstadt,7,6,False
-D2,1718,2018-04-21,Union Berlin,Heidenheim,7,6,False
 D2,1718,2018-04-21,Regensburg,St Pauli,8,7,False
-D2,1718,2018-04-22,Fortuna Dusseldorf,Ingolstadt,7,7,False
+D2,1718,2018-04-21,Union Berlin,Heidenheim,7,6,False
 D2,1718,2018-04-22,Erzgebirge Aue,Duisburg,8,8,False
+D2,1718,2018-04-22,Fortuna Dusseldorf,Ingolstadt,7,7,False
 D2,1718,2018-04-22,Kaiserslautern,Dresden,9,8,False
 D2,1718,2018-04-23,Holstein Kiel,Nurnberg,9,8,False
-D2,1718,2018-04-27,Bochum,Erzgebirge Aue,7,5,False
 D2,1718,2018-04-27,Bielefeld,Kaiserslautern,7,5,False
+D2,1718,2018-04-27,Bochum,Erzgebirge Aue,7,5,False
+D2,1718,2018-04-28,St Pauli,Greuther Furth,7,8,False
 D2,1718,2018-04-28,Darmstadt,Union Berlin,7,7,False
 D2,1718,2018-04-28,Dresden,Fortuna Dusseldorf,6,6,False
-D2,1718,2018-04-28,St Pauli,Greuther Furth,7,8,False
+D2,1718,2018-04-29,Ingolstadt,Holstein Kiel,7,6,False
 D2,1718,2018-04-29,Duisburg,Regensburg,7,8,False
 D2,1718,2018-04-29,Heidenheim,Sandhausen,8,8,False
-D2,1718,2018-04-29,Ingolstadt,Holstein Kiel,7,6,False
 D2,1718,2018-04-30,Nurnberg,Braunschweig,7,10,False
 D2,1718,2018-05-02,Bielefeld,Union Berlin,5,4,True
 D2,1718,2018-05-03,Ingolstadt,Bochum,4,6,True
 D2,1718,2018-05-13,Nurnberg,Fortuna Dusseldorf,13,15,False
-D2,1718,2018-05-13,Bochum,Regensburg,10,14,False
-D2,1718,2018-05-13,Bielefeld,Sandhausen,11,14,False
-D2,1718,2018-05-13,Darmstadt,Erzgebirge Aue,15,16,False
 D2,1718,2018-05-13,Heidenheim,Greuther Furth,14,15,False
-D2,1718,2018-05-13,Duisburg,St Pauli,14,15,False
-D2,1718,2018-05-13,Dresden,Union Berlin,15,11,False
-D2,1718,2018-05-13,Holstein Kiel,Braunschweig,14,13,False
+D2,1718,2018-05-13,Bielefeld,Sandhausen,11,14,False
+D2,1718,2018-05-13,Bochum,Regensburg,10,14,False
 D2,1718,2018-05-13,Ingolstadt,Kaiserslautern,10,16,False
-D2,1718,2018-06-04,Sandhausen,Greuther Furth,22,22,False
+D2,1718,2018-05-13,Dresden,Union Berlin,15,11,False
+D2,1718,2018-05-13,Darmstadt,Erzgebirge Aue,15,16,False
+D2,1718,2018-05-13,Duisburg,St Pauli,14,15,False
+D2,1718,2018-05-13,Holstein Kiel,Braunschweig,14,13,False
 D2,1718,2018-06-04,Fortuna Dusseldorf,Bochum,22,22,False
-D2,1718,2018-06-05,Regensburg,Darmstadt,23,23,True
+D2,1718,2018-06-04,Sandhausen,Greuther Furth,22,22,False
+D2,1718,2018-06-05,Fortuna Dusseldorf,Holstein Kiel,1,23,True
 D2,1718,2018-06-05,Braunschweig,Ingolstadt,23,23,True
 D2,1718,2018-06-05,Erzgebirge Aue,Dresden,23,23,True
-D2,1718,2018-06-05,Fortuna Dusseldorf,Holstein Kiel,1,23,True
-D2,1718,2018-06-05,Greuther Furth,Duisburg,1,23,True
 D2,1718,2018-06-05,Kaiserslautern,Heidenheim,23,23,True
+D2,1718,2018-06-05,Regensburg,Darmstadt,23,23,True
 D2,1718,2018-06-05,Sandhausen,Nurnberg,1,23,True
 D2,1718,2018-06-05,St Pauli,Bielefeld,23,23,True
+D2,1718,2018-06-05,Greuther Furth,Duisburg,1,23,True
 D2,1718,2018-06-05,Union Berlin,Bochum,23,1,True
+D2,1718,2018-07-04,Union Berlin,Duisburg,29,29,True
+D2,1718,2018-07-04,Erzgebirge Aue,St Pauli,29,29,True
 D2,1718,2018-07-04,Nurnberg,Heidenheim,29,29,True
 D2,1718,2018-07-04,Holstein Kiel,Darmstadt,29,29,True
-D2,1718,2018-07-04,Erzgebirge Aue,St Pauli,29,29,True
-D2,1718,2018-07-04,Union Berlin,Duisburg,29,29,True
-D2,1718,2018-08-04,Kaiserslautern,Regensburg,60,60,False
-D2,1718,2018-08-04,Ingolstadt,Bielefeld,60,60,False
 D2,1718,2018-08-04,Braunschweig,Dresden,60,60,False
+D2,1718,2018-08-04,Ingolstadt,Bielefeld,60,60,False
+D2,1718,2018-08-04,Kaiserslautern,Regensburg,60,60,False
 D2,1718,2018-09-02,Kaiserslautern,Holstein Kiel,29,7,False
 D2,1718,2018-09-02,Bochum,Darmstadt,2,9,False
 D2,1718,2018-09-03,Bielefeld,Nurnberg,2,61,False
@@ -294,12 +294,12 @@ D2,1718,2018-09-03,Dresden,Heidenheim,8,1,False
 D2,1718,2018-10-02,Regensburg,Heidenheim,3,3,True
 D2,1718,2018-10-02,Duisburg,Bielefeld,3,4,True
 D2,1718,2018-10-02,Union Berlin,Fortuna Dusseldorf,1,119,True
-D2,1718,2018-10-03,Darmstadt,Ingolstadt,5,2,True
-D2,1718,2018-10-03,Bochum,Holstein Kiel,4,5,True
 D2,1718,2018-10-03,St Pauli,Braunschweig,3,60,True
+D2,1718,2018-10-03,Bochum,Holstein Kiel,4,5,True
 D2,1718,2018-10-03,Greuther Furth,Kaiserslautern,3,31,True
-D2,1718,2018-11-02,Erzgebirge Aue,Ingolstadt,6,5,False
+D2,1718,2018-10-03,Darmstadt,Ingolstadt,5,2,True
 D2,1718,2018-11-02,Greuther Furth,Dresden,7,5,False
+D2,1718,2018-11-02,Erzgebirge Aue,Ingolstadt,6,5,False
 D2,1718,2018-11-02,Sandhausen,Braunschweig,6,30,False
 D2,1718,2018-11-03,Union Berlin,Erzgebirge Aue,6,1,False
 D2,1718,2018-11-03,Duisburg,Fortuna Dusseldorf,6,32,False

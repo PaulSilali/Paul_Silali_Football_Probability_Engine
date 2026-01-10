@@ -5,6 +5,7 @@ import pandas as pd
 import requests
 from sqlalchemy.orm import Session
 from sqlalchemy import text
+from sqlalchemy.exc import IntegrityError
 from app.db.models import Team, TeamElo, League
 from typing import Optional, Dict, List
 from datetime import date, datetime
@@ -434,15 +435,30 @@ def calculate_elo_from_matches(
             # Update Elo
             current_elo = current_elo + k_factor * (actual_score - expected_score)
             
-            # Store rating
+            # Store rating (will deduplicate by date later, keeping latest Elo)
             ratings.append({
                 "date": match.match_date,
                 "elo": current_elo
             })
         
+        # Deduplicate ratings by date - keep only the latest Elo for each date
+        # This handles cases where a team plays multiple matches on the same date
+        deduplicated_ratings = {}
+        for rating in ratings:
+            date_key = rating["date"]
+            # Keep the latest Elo value for each date (last one wins)
+            deduplicated_ratings[date_key] = rating["elo"]
+        
+        # Convert back to list format
+        unique_ratings = [
+            {"date": date, "elo": elo}
+            for date, elo in deduplicated_ratings.items()
+        ]
+        
         # Insert ratings
         inserted = 0
-        for rating in ratings:
+        skipped = 0
+        for rating in unique_ratings:
             existing = db.query(TeamElo).filter(
                 TeamElo.team_id == team_id,
                 TeamElo.date == rating["date"]
@@ -456,22 +472,55 @@ def calculate_elo_from_matches(
                 )
                 db.add(elo)
                 inserted += 1
+            else:
+                skipped += 1
         
-        db.commit()
+        try:
+            db.commit()
+        except IntegrityError as e:
+            db.rollback()
+            # Handle case where duplicate was inserted between check and commit
+            # Re-query and update existing records instead
+            logger.warning(f"IntegrityError during Elo insert for team {team_id}, retrying with upsert logic: {e}")
+            
+            inserted = 0
+            skipped = 0
+            for rating in unique_ratings:
+                existing = db.query(TeamElo).filter(
+                    TeamElo.team_id == team_id,
+                    TeamElo.date == rating["date"]
+                ).first()
+                
+                if not existing:
+                    elo = TeamElo(
+                        team_id=team_id,
+                        date=rating["date"],
+                        elo_rating=rating["elo"]
+                    )
+                    db.add(elo)
+                    inserted += 1
+                else:
+                    # Update existing record with latest Elo
+                    existing.elo_rating = rating["elo"]
+                    skipped += 1
+            
+            db.commit()
         
         result = {
             "success": True,
             "inserted": inserted,
+            "skipped": skipped,
             "final_elo": current_elo,
-            "ratings_count": len(ratings)
+            "ratings_count": len(unique_ratings),
+            "original_ratings_count": len(ratings)
         }
         
         # Save CSV if requested
-        if save_csv and ratings:
+        if save_csv and unique_ratings:
             try:
                 # Prepare data for CSV
                 elo_data = [{"date": r["date"].isoformat() if hasattr(r["date"], "isoformat") else str(r["date"]), 
-                            "elo_rating": r["elo"]} for r in ratings]
+                            "elo_rating": r["elo"]} for r in unique_ratings]
                 csv_path = _save_elo_csv(db, team_id, elo_data)
                 result["csv_path"] = str(csv_path)
             except Exception as e:

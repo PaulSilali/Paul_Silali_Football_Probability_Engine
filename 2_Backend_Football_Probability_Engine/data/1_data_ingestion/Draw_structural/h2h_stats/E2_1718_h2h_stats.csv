@@ -4,14 +4,14 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9148,AFC Wimbledon,9156,Doncaster,1718,2,1,0.5,1.0
 9170,Bristol Rvs,9172,Shrewsbury,1718,2,0,0.0,3.5
 9164,Rotherham,9167,Northampton,1718,2,0,0.0,2.0
-9169,Birmingham,9197,Walsall,1718,2,1,0.5,0.5
 9153,Bradford,9176,Oxford,1718,2,1,0.5,4.5
+9169,Birmingham,9197,Walsall,1718,2,1,0.5,0.5
 9176,Oxford,9196,Scunthorpe,1718,2,1,0.5,1.5
 9180,Portsmouth,9198,Bury,1718,2,0,0.0,1.0
 9151,Blackpool,9198,Bury,1718,2,1,0.5,2.5
 9196,Scunthorpe,9199,Oldham,1718,2,0,0.0,3.5
-9153,Bradford,9194,Southend,1718,2,0,0.0,2.5
 9153,Bradford,9170,Bristol Rvs,1718,2,0,0.0,4.0
+9153,Bradford,9194,Southend,1718,2,0,0.0,2.5
 9169,Birmingham,9194,Southend,1718,2,1,0.5,5.0
 9170,Bristol Rvs,9180,Portsmouth,1718,2,0,0.0,3.0
 9169,Birmingham,9192,Rochdale,1718,2,0,0.0,3.0
@@ -103,17 +103,17 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9150,Peterboro,9156,Doncaster,1718,2,2,1.0,1.0
 9166,Wigan,9200,Blackburn,1718,2,2,1.0,2.0
 9162,Plymouth,9196,Scunthorpe,1718,2,0,0.0,3.0
-9166,Wigan,9169,Birmingham,1718,2,1,0.5,2.0
 9151,Blackpool,9197,Walsall,1718,2,2,1.0,3.0
+9166,Wigan,9169,Birmingham,1718,2,1,0.5,2.0
 9167,Northampton,9180,Portsmouth,1718,2,0,0.0,4.0
 9162,Plymouth,9180,Portsmouth,1718,2,1,0.5,0.5
 9156,Doncaster,9162,Plymouth,1718,2,1,0.5,2.5
-9198,Bury,9200,Blackburn,1718,2,0,0.0,2.5
 9174,Charlton,9178,Fleetwood Town,1718,2,1,0.5,2.0
+9198,Bury,9200,Blackburn,1718,2,0,0.0,2.5
 9166,Wigan,9178,Fleetwood Town,1718,2,0,0.0,3.0
 9153,Bradford,9174,Charlton,1718,2,1,0.5,1.5
-9180,Portsmouth,9194,Southend,1718,2,0,0.0,2.5
 9178,Fleetwood Town,9198,Bury,1718,2,0,0.0,3.5
+9180,Portsmouth,9194,Southend,1718,2,0,0.0,2.5
 9170,Bristol Rvs,9200,Blackburn,1718,2,1,0.5,2.5
 9164,Rotherham,9172,Shrewsbury,1718,2,0,0.0,2.0
 9156,Doncaster,9194,Southend,1718,2,1,0.5,2.5
@@ -138,8 +138,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9170,Bristol Rvs,9174,Charlton,1718,2,1,0.5,1.5
 9197,Walsall,9198,Bury,1718,2,0,0.0,1.0
 9178,Fleetwood Town,9192,Rochdale,1718,2,1,0.5,3.0
-9192,Rochdale,9197,Walsall,1718,2,1,0.5,2.5
 9164,Rotherham,9176,Oxford,1718,2,1,0.5,5.0
+9192,Rochdale,9197,Walsall,1718,2,1,0.5,2.5
 9180,Portsmouth,9192,Rochdale,1718,2,1,0.5,4.0
 9184,Milton Keynes Dons,9200,Blackburn,1718,2,0,0.0,4.0
 9164,Rotherham,9166,Wigan,1718,2,1,0.5,2.0
@@ -172,8 +172,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9148,AFC Wimbledon,9194,Southend,1718,2,0,0.0,1.5
 9166,Wigan,9170,Bristol Rvs,1718,2,1,0.5,2.5
 9174,Charlton,9200,Blackburn,1718,2,0,0.0,1.5
-9196,Scunthorpe,9200,Blackburn,1718,2,1,0.5,2.5
 9153,Bradford,9197,Walsall,1718,2,2,1.0,4.0
+9196,Scunthorpe,9200,Blackburn,1718,2,1,0.5,2.5
 9162,Plymouth,9178,Fleetwood Town,1718,2,1,0.5,2.5
 9150,Peterboro,9180,Portsmouth,1718,2,0,0.0,2.5
 9151,Blackpool,9153,Bradford,1718,2,0,0.0,4.0
@@ -188,9 +188,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9167,Northampton,9184,Milton Keynes Dons,1718,2,1,0.5,1.5
 9194,Southend,9200,Blackburn,1718,2,0,0.0,2.0
 9169,Birmingham,9199,Oldham,1718,2,2,1.0,1.0
+9172,Shrewsbury,9192,Rochdale,1718,2,0,0.0,4.5
 9150,Peterboro,9194,Southend,1718,2,1,0.5,1.5
 9169,Birmingham,9200,Blackburn,1718,2,1,0.5,0.5
-9172,Shrewsbury,9192,Rochdale,1718,2,0,0.0,4.5
 9153,Bradford,9184,Milton Keynes Dons,1718,2,0,0.0,3.5
 9150,Peterboro,9153,Bradford,1718,2,0,0.0,4.0
 9151,Blackpool,9162,Plymouth,1718,2,1,0.5,4.0
@@ -199,9 +199,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9156,Doncaster,9180,Portsmouth,1718,2,1,0.5,3.5
 9164,Rotherham,9198,Bury,1718,2,0,0.0,4.0
 9151,Blackpool,9192,Rochdale,1718,2,1,0.5,1.5
+9197,Walsall,9199,Oldham,1718,2,1,0.5,2.5
 9150,Peterboro,9192,Rochdale,1718,2,0,0.0,1.5
 9170,Bristol Rvs,9184,Milton Keynes Dons,1718,2,0,0.0,1.5
-9197,Walsall,9199,Oldham,1718,2,1,0.5,2.5
 9178,Fleetwood Town,9194,Southend,1718,2,0,0.0,4.5
 9151,Blackpool,9167,Northampton,1718,2,0,0.0,2.0
 9194,Southend,9196,Scunthorpe,1718,2,0,0.0,4.5
@@ -211,8 +211,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9170,Bristol Rvs,9196,Scunthorpe,1718,2,1,0.5,1.5
 9164,Rotherham,9184,Milton Keynes Dons,1718,2,0,0.0,4.0
 9176,Oxford,9180,Portsmouth,1718,2,0,0.0,3.0
-9151,Blackpool,9174,Charlton,1718,2,1,0.5,1.5
 9164,Rotherham,9197,Walsall,1718,2,0,0.0,4.5
+9151,Blackpool,9174,Charlton,1718,2,1,0.5,1.5
 9151,Blackpool,9176,Oxford,1718,2,0,0.0,2.5
 9148,AFC Wimbledon,9196,Scunthorpe,1718,2,2,1.0,2.0
 9151,Blackpool,9200,Blackburn,1718,2,0,0.0,4.5
@@ -229,16 +229,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9167,Northampton,9199,Oldham,1718,2,1,0.5,5.0
 9164,Rotherham,9169,Birmingham,1718,2,0,0.0,2.5
 9150,Peterboro,9170,Bristol Rvs,1718,2,1,0.5,3.5
-9174,Charlton,9196,Scunthorpe,1718,2,0,0.0,1.5
 9151,Blackpool,9180,Portsmouth,1718,2,0,0.0,3.5
+9174,Charlton,9196,Scunthorpe,1718,2,0,0.0,1.5
 9170,Bristol Rvs,9176,Oxford,1718,2,0,0.0,2.0
-9148,AFC Wimbledon,9174,Charlton,1718,2,0,0.0,1.0
 9170,Bristol Rvs,9178,Fleetwood Town,1718,2,0,0.0,3.0
+9148,AFC Wimbledon,9174,Charlton,1718,2,0,0.0,1.0
 9153,Bradford,9166,Wigan,1718,2,0,0.0,2.0
-9174,Charlton,9180,Portsmouth,1718,2,0,0.0,1.0
 9166,Wigan,9198,Bury,1718,2,0,0.0,3.5
-9150,Peterboro,9172,Shrewsbury,1718,2,0,0.0,2.5
+9174,Charlton,9180,Portsmouth,1718,2,0,0.0,1.0
 9151,Blackpool,9156,Doncaster,1718,2,1,0.5,4.5
+9150,Peterboro,9172,Shrewsbury,1718,2,0,0.0,2.5
 9153,Bradford,9192,Rochdale,1718,2,1,0.5,4.5
 9174,Charlton,9199,Oldham,1718,2,0,0.0,4.0
 9156,Doncaster,9164,Rotherham,1718,2,1,0.5,2.5

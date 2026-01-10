@@ -5,15 +5,15 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9221,Granada,9224,Zaragoza,1819,2,0,0.0,1.5
 9247,Lugo,9257,Reus Deportiu,1819,2,1,0.5,0.5
 9240,Tenerife,9256,Numancia,1819,2,1,0.5,2.0
-9219,Malaga,9252,Mallorca,1819,2,0,0.0,2.0
 9225,Cadiz,9232,Cordoba,1819,2,1,0.5,3.0
+9219,Malaga,9252,Mallorca,1819,2,0,0.0,2.0
 9219,Malaga,9259,Rayo Majadahonda,1819,2,0,0.0,1.0
 9232,Cordoba,9259,Rayo Majadahonda,1819,2,2,1.0,1.0
 9225,Cadiz,9229,Las Palmas,1819,2,0,0.0,4.0
 9221,Granada,9258,Osasuna,1819,2,0,0.0,1.5
 9244,Alcorcon,9255,Extremadura UD,1819,2,0,0.0,2.0
-9225,Cadiz,9240,Tenerife,1819,2,0,0.0,1.5
 9255,Extremadura UD,9259,Rayo Majadahonda,1819,2,1,0.5,3.5
+9225,Cadiz,9240,Tenerife,1819,2,0,0.0,1.5
 9240,Tenerife,9260,Gimnastic,1819,2,1,0.5,2.0
 9236,Oviedo,9260,Gimnastic,1819,2,0,0.0,2.5
 9224,Zaragoza,9257,Reus Deportiu,1819,2,1,0.5,0.5
@@ -43,8 +43,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9258,Osasuna,9260,Gimnastic,1819,2,0,0.0,1.0
 9224,Zaragoza,9258,Osasuna,1819,2,1,0.5,1.5
 9244,Alcorcon,9258,Osasuna,1819,2,1,0.5,1.5
-9252,Mallorca,9258,Osasuna,1819,2,0,0.0,1.5
 9236,Oviedo,9256,Numancia,1819,2,0,0.0,3.0
+9252,Mallorca,9258,Osasuna,1819,2,0,0.0,1.5
 9221,Granada,9240,Tenerife,1819,2,1,0.5,2.5
 9225,Cadiz,9247,Lugo,1819,2,1,0.5,2.5
 9236,Oviedo,9258,Osasuna,1819,2,0,0.0,2.0
@@ -53,8 +53,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9222,La Coruna,9247,Lugo,1819,2,1,0.5,0.5
 9222,La Coruna,9224,Zaragoza,1819,2,0,0.0,2.5
 9222,La Coruna,9234,Albacete,1819,2,1,0.5,2.0
-9232,Cordoba,9252,Mallorca,1819,2,0,0.0,4.0
 9222,La Coruna,9260,Gimnastic,1819,2,1,0.5,3.0
+9232,Cordoba,9252,Mallorca,1819,2,0,0.0,4.0
 9229,Las Palmas,9255,Extremadura UD,1819,2,1,0.5,2.5
 9234,Albacete,9238,Elche,1819,2,1,0.5,1.5
 9224,Zaragoza,9259,Rayo Majadahonda,1819,2,1,0.5,3.5
@@ -63,8 +63,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9224,Zaragoza,9231,Sp Gijon,1819,2,0,0.0,4.5
 9221,Granada,9257,Reus Deportiu,1819,2,0,0.0,2.0
 9222,La Coruna,9225,Cadiz,1819,2,1,0.5,2.5
-9236,Oviedo,9247,Lugo,1819,2,1,0.5,2.0
 9234,Albacete,9257,Reus Deportiu,1819,2,0,0.0,2.0
+9236,Oviedo,9247,Lugo,1819,2,1,0.5,2.0
 9234,Albacete,9244,Alcorcon,1819,2,0,0.0,2.0
 9221,Granada,9233,Almeria,1819,2,1,0.5,0.5
 9238,Elche,9260,Gimnastic,1819,2,1,0.5,3.5
@@ -72,8 +72,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9222,La Coruna,9233,Almeria,1819,2,2,1.0,1.0
 9234,Albacete,9255,Extremadura UD,1819,2,0,0.0,2.0
 9232,Cordoba,9234,Albacete,1819,2,0,0.0,3.5
-9233,Almeria,9236,Oviedo,1819,2,0,0.0,2.0
 9233,Almeria,9234,Albacete,1819,2,1,0.5,2.5
+9233,Almeria,9236,Oviedo,1819,2,0,0.0,2.0
 9219,Malaga,9233,Almeria,1819,2,1,0.5,1.5
 9224,Zaragoza,9238,Elche,1819,2,0,0.0,1.5
 9222,La Coruna,9252,Mallorca,1819,2,0,0.0,1.0
@@ -126,25 +126,25 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9236,Oviedo,9255,Extremadura UD,1819,2,1,0.5,2.0
 9238,Elche,9252,Mallorca,1819,2,2,1.0,2.0
 9229,Las Palmas,9240,Tenerife,1819,2,1,0.5,2.5
-9225,Cadiz,9231,Sp Gijon,1819,2,1,0.5,0.5
 9233,Almeria,9258,Osasuna,1819,2,0,0.0,2.5
+9225,Cadiz,9231,Sp Gijon,1819,2,1,0.5,0.5
 9222,La Coruna,9244,Alcorcon,1819,2,1,0.5,2.5
 9229,Las Palmas,9234,Albacete,1819,2,1,0.5,4.0
+9221,Granada,9232,Cordoba,1819,2,0,0.0,4.5
 9236,Oviedo,9257,Reus Deportiu,1819,2,0,0.0,2.0
 9219,Malaga,9256,Numancia,1819,2,1,0.5,2.0
-9221,Granada,9232,Cordoba,1819,2,0,0.0,4.5
-9256,Numancia,9260,Gimnastic,1819,2,0,0.0,2.5
 9221,Granada,9255,Extremadura UD,1819,2,1,0.5,2.0
+9256,Numancia,9260,Gimnastic,1819,2,0,0.0,2.5
 9229,Las Palmas,9236,Oviedo,1819,2,2,1.0,1.0
 9255,Extremadura UD,9257,Reus Deportiu,1819,2,0,0.0,3.0
 9221,Granada,9236,Oviedo,1819,2,1,0.5,1.5
-9244,Alcorcon,9259,Rayo Majadahonda,1819,2,0,0.0,2.0
 9257,Reus Deportiu,9260,Gimnastic,1819,2,1,0.5,1.5
+9244,Alcorcon,9259,Rayo Majadahonda,1819,2,0,0.0,2.0
 9232,Cordoba,9233,Almeria,1819,2,0,0.0,2.5
 9231,Sp Gijon,9255,Extremadura UD,1819,2,0,0.0,2.5
 9231,Sp Gijon,9260,Gimnastic,1819,2,1,0.5,1.0
-9219,Malaga,9260,Gimnastic,1819,2,0,0.0,1.5
 9225,Cadiz,9256,Numancia,1819,2,1,0.5,2.5
+9219,Malaga,9260,Gimnastic,1819,2,0,0.0,1.5
 9222,La Coruna,9255,Extremadura UD,1819,2,0,0.0,2.0
 9231,Sp Gijon,9232,Cordoba,1819,2,1,0.5,1.5
 9232,Cordoba,9244,Alcorcon,1819,2,1,0.5,1.5
@@ -170,8 +170,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9224,Zaragoza,9252,Mallorca,1819,2,1,0.5,3.5
 9234,Albacete,9259,Rayo Majadahonda,1819,2,0,0.0,3.0
 9232,Cordoba,9257,Reus Deportiu,1819,2,1,0.5,1.5
-9256,Numancia,9257,Reus Deportiu,1819,2,1,0.5,1.5
 9231,Sp Gijon,9259,Rayo Majadahonda,1819,2,0,0.0,4.0
+9256,Numancia,9257,Reus Deportiu,1819,2,1,0.5,1.5
 9224,Zaragoza,9234,Albacete,1819,2,2,1.0,2.0
 9221,Granada,9238,Elche,1819,2,1,0.5,1.5
 9219,Malaga,9236,Oviedo,1819,2,1,0.5,1.5
@@ -182,8 +182,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9244,Alcorcon,9252,Mallorca,1819,2,0,0.0,1.5
 9256,Numancia,9259,Rayo Majadahonda,1819,2,0,0.0,3.5
 9229,Las Palmas,9232,Cordoba,1819,2,0,0.0,3.0
-9221,Granada,9225,Cadiz,1819,2,2,1.0,1.0
 9219,Malaga,9222,La Coruna,1819,2,2,1.0,1.0
+9221,Granada,9225,Cadiz,1819,2,2,1.0,1.0
 9224,Zaragoza,9255,Extremadura UD,1819,2,0,0.0,3.0
 9238,Elche,9244,Alcorcon,1819,2,0,0.0,2.5
 9238,Elche,9257,Reus Deportiu,1819,2,0,0.0,1.5
@@ -202,8 +202,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9219,Malaga,9224,Zaragoza,1819,2,0,0.0,3.0
 9225,Cadiz,9252,Mallorca,1819,2,1,0.5,1.5
 9233,Almeria,9260,Gimnastic,1819,2,1,0.5,3.5
-9225,Cadiz,9259,Rayo Majadahonda,1819,2,1,0.5,1.5
 9224,Zaragoza,9260,Gimnastic,1819,2,0,0.0,3.5
+9225,Cadiz,9259,Rayo Majadahonda,1819,2,1,0.5,1.5
 9252,Mallorca,9255,Extremadura UD,1819,2,2,1.0,1.0
 9232,Cordoba,9240,Tenerife,1819,2,1,0.5,2.0
 9225,Cadiz,9233,Almeria,1819,2,1,0.5,0.5
@@ -213,12 +213,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9240,Tenerife,9259,Rayo Majadahonda,1819,2,0,0.0,3.5
 9244,Alcorcon,9257,Reus Deportiu,1819,2,0,0.0,1.0
 9229,Las Palmas,9252,Mallorca,1819,2,1,0.5,3.5
-9231,Sp Gijon,9252,Mallorca,1819,2,0,0.0,2.0
 9247,Lugo,9256,Numancia,1819,2,0,0.0,4.0
+9231,Sp Gijon,9252,Mallorca,1819,2,0,0.0,2.0
 9231,Sp Gijon,9234,Albacete,1819,2,1,0.5,2.0
 9224,Zaragoza,9236,Oviedo,1819,2,0,0.0,3.0
-9224,Zaragoza,9244,Alcorcon,1819,2,0,0.0,2.0
 9232,Cordoba,9236,Oviedo,1819,2,1,0.5,6.0
+9224,Zaragoza,9244,Alcorcon,1819,2,0,0.0,2.0
 9232,Cordoba,9238,Elche,1819,2,1,0.5,1.5
 9222,La Coruna,9236,Oviedo,1819,2,1,0.5,3.0
 9252,Mallorca,9260,Gimnastic,1819,2,0,0.0,2.5
@@ -226,7 +226,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9231,Sp Gijon,9236,Oviedo,1819,2,0,0.0,2.0
 9231,Sp Gijon,9240,Tenerife,1819,2,0,0.0,2.0
 9232,Cordoba,9255,Extremadura UD,1819,2,0,0.0,4.5
-9255,Extremadura UD,9260,Gimnastic,1819,2,0,0.0,1.0
 9238,Elche,9255,Extremadura UD,1819,2,1,0.5,3.0
+9255,Extremadura UD,9260,Gimnastic,1819,2,0,0.0,1.0
 9233,Almeria,9244,Alcorcon,1819,2,2,1.0,
 9233,Almeria,9238,Elche,1819,2,1,0.5,6.0

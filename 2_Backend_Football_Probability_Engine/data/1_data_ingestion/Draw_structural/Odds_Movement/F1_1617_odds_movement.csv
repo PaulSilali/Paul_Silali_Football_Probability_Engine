@@ -1,0 +1,177 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+F1,1617,2016-01-10,Dijon,Montpellier,3.0,3.0,0.0
+F1,1617,2016-02-10,Angers,Marseille,3.0,3.0,0.0
+F1,1617,2016-02-10,Nice,Lorient,3.5,3.5,0.0
+F1,1617,2016-02-12,Caen,Dijon,3.3,3.3,0.0
+F1,1617,2016-03-12,Angers,Lorient,3.3,3.3,0.0
+F1,1617,2016-04-11,Montpellier,Marseille,3.2,3.2,0.0
+F1,1617,2016-05-11,Bordeaux,Lorient,3.5,3.5,0.0
+F1,1617,2016-05-11,Dijon,Guingamp,3.0,3.0,0.0
+F1,1617,2016-05-11,Nantes,Toulouse,3.0,3.0,0.0
+F1,1617,2016-05-11,Lyon,Bastia,4.2,4.2,0.0
+F1,1617,2016-08-13,Metz,Lille,3.2,3.2,0.0
+F1,1617,2016-08-13,Bordeaux,St Etienne,3.1,3.1,0.0
+F1,1617,2016-08-13,Caen,Lorient,3.25,3.25,0.0
+F1,1617,2016-08-20,Toulouse,Bordeaux,3.2,3.2,0.0
+F1,1617,2016-08-21,St Etienne,Montpellier,3.25,3.25,0.0
+F1,1617,2016-08-21,Guingamp,Marseille,3.1,3.1,0.0
+F1,1617,2016-08-27,Montpellier,Rennes,3.1,3.1,0.0
+F1,1617,2016-08-27,Dijon,Lyon,3.6,3.6,0.0
+F1,1617,2016-08-27,Nice,Lille,3.0,3.0,0.0
+F1,1617,2016-08-28,Monaco,Paris FC,3.5,3.5,0.0
+F1,1617,2016-09-09,Paris FC,St Etienne,5.25,5.25,0.0
+F1,1617,2016-09-17,Toulouse,Guingamp,3.25,3.25,0.0
+F1,1617,2016-09-17,Nancy,Nantes,2.9,2.9,0.0
+F1,1617,2016-09-18,Montpellier,Nice,3.2,3.2,0.0
+F1,1617,2016-09-20,Lille,Toulouse,3.1,3.1,0.0
+F1,1617,2016-09-21,Rennes,Marseille,3.3,3.3,0.0
+F1,1617,2016-09-21,Lyon,Montpellier,4.0,4.0,0.0
+F1,1617,2016-09-21,Angers,Caen,3.2,3.2,0.0
+F1,1617,2016-09-24,Monaco,Angers,3.75,3.75,0.0
+F1,1617,2016-09-25,Marseille,Nantes,3.1,3.1,0.0
+F1,1617,2016-09-25,St Etienne,Lille,3.0,3.0,0.0
+F1,1617,2016-10-09,Lille,Monaco,2.9,2.9,0.0
+F1,1617,2016-10-09,Angers,Dijon,3.1,3.1,0.0
+F1,1617,2016-10-09,Bastia,Toulouse,3.0,3.0,0.0
+F1,1617,2016-10-09,Guingamp,Montpellier,3.1,3.1,0.0
+F1,1617,2016-10-09,Lyon,Bordeaux,3.8,3.8,0.0
+F1,1617,2016-10-12,Toulouse,Lorient,3.3,3.3,0.0
+F1,1617,2016-10-12,Lille,Montpellier,3.1,3.1,0.0
+F1,1617,2016-10-12,Dijon,Marseille,3.25,3.25,0.0
+F1,1617,2016-10-14,Toulouse,Monaco,3.2,3.2,0.0
+F1,1617,2016-10-15,Montpellier,Caen,3.4,3.4,0.0
+F1,1617,2016-10-15,Bastia,Angers,2.8,2.8,0.0
+F1,1617,2016-10-15,Lorient,Nantes,3.2,3.2,0.0
+F1,1617,2016-10-15,Nancy,Paris FC,5.0,5.0,0.0
+F1,1617,2016-10-16,Rennes,Bordeaux,3.3,3.3,0.0
+F1,1617,2016-10-16,St Etienne,Dijon,3.6,3.6,0.0
+F1,1617,2016-10-21,Monaco,Montpellier,3.75,3.75,0.0
+F1,1617,2016-10-22,Lille,Bastia,3.4,3.4,0.0
+F1,1617,2016-10-22,Lyon,Guingamp,4.1,4.1,0.0
+F1,1617,2016-10-22,Nantes,Rennes,3.1,3.1,0.0
+F1,1617,2016-10-22,Bordeaux,Nancy,3.4,3.4,0.0
+F1,1617,2016-10-23,Metz,Nice,3.4,3.4,0.0
+F1,1617,2016-10-29,St Etienne,Monaco,3.0,3.0,0.0
+F1,1617,2016-10-29,Toulouse,Lyon,3.25,3.25,0.0
+F1,1617,2016-10-29,Lorient,Montpellier,3.1,3.1,0.0
+F1,1617,2016-10-30,Nice,Nantes,3.3,3.3,0.0
+F1,1617,2016-11-09,Nice,Marseille,3.2,3.2,0.0
+F1,1617,2016-11-12,Paris FC,Nice,5.0,5.0,0.0
+F1,1617,2016-11-19,Rennes,Angers,3.0,3.0,0.0
+F1,1617,2016-11-19,Toulouse,Metz,4.2,4.2,0.0
+F1,1617,2016-11-19,Bastia,Montpellier,3.0,3.0,0.0
+F1,1617,2016-11-20,Guingamp,Bordeaux,3.2,3.2,0.0
+F1,1617,2016-11-26,Caen,Guingamp,3.1,3.1,0.0
+F1,1617,2016-11-26,Metz,Lorient,3.25,3.25,0.0
+F1,1617,2016-11-26,Bordeaux,Dijon,3.6,3.6,0.0
+F1,1617,2016-11-27,Angers,St Etienne,3.0,3.0,0.0
+F1,1617,2016-11-27,Nice,Bastia,3.75,3.75,0.0
+F1,1617,2016-11-27,Lyon,Paris FC,3.4,3.4,0.0
+F1,1617,2016-11-29,Dijon,Monaco,4.0,4.0,0.0
+F1,1617,2016-11-29,Lille,Caen,3.4,3.4,0.0
+F1,1617,2016-11-29,Lorient,Rennes,3.25,3.25,0.0
+F1,1617,2016-11-30,Bastia,Bordeaux,3.0,3.0,0.0
+F1,1617,2016-12-08,Monaco,Guingamp,3.8,3.8,0.0
+F1,1617,2016-12-17,Toulouse,Nancy,3.2,3.2,0.0
+F1,1617,2016-12-17,Guingamp,Paris FC,4.33,4.33,0.0
+F1,1617,2016-12-17,Lorient,St Etienne,3.2,3.2,0.0
+F1,1617,2016-12-17,Rennes,Bastia,3.4,3.4,0.0
+F1,1617,2016-12-18,Monaco,Lyon,3.75,3.75,0.0
+F1,1617,2016-12-18,Nice,Dijon,4.2,4.2,0.0
+F1,1617,2016-12-21,Monaco,Caen,6.0,6.0,0.0
+F1,1617,2016-12-21,Metz,Guingamp,3.1,3.1,0.0
+F1,1617,2016-12-21,Lille,Rennes,3.2,3.2,0.0
+F1,1617,2016-12-21,Bastia,Marseille,3.1,3.1,0.0
+F1,1617,2017-01-03,Bastia,Nantes,2.9,2.9,0.0
+F1,1617,2017-01-04,Marseille,Dijon,4.75,4.75,0.0
+F1,1617,2017-01-13,Lille,St Etienne,3.1,3.1,0.0
+F1,1617,2017-01-14,Angers,Bordeaux,3.0,3.0,0.0
+F1,1617,2017-01-14,Montpellier,Dijon,3.5,3.5,0.0
+F1,1617,2017-01-14,Lorient,Guingamp,3.2,3.2,0.0
+F1,1617,2017-01-15,Caen,Lyon,3.75,3.75,0.0
+F1,1617,2017-01-15,Marseille,Monaco,3.3,3.3,0.0
+F1,1617,2017-01-20,Bastia,Nice,3.1,3.1,0.0
+F1,1617,2017-01-21,Guingamp,Rennes,3.1,3.1,0.0
+F1,1617,2017-01-22,Lyon,Marseille,3.75,3.75,0.0
+F1,1617,2017-01-22,St Etienne,Angers,3.4,3.4,0.0
+F1,1617,2017-01-27,Marseille,Montpellier,3.75,3.75,0.0
+F1,1617,2017-01-28,Lyon,Lille,4.33,4.33,0.0
+F1,1617,2017-01-28,Lorient,Dijon,3.5,3.5,0.0
+F1,1617,2017-01-28,Bastia,Caen,3.1,3.1,0.0
+F1,1617,2017-01-28,Angers,Metz,3.2,3.2,0.0
+F1,1617,2017-01-28,Rennes,Nantes,3.1,3.1,0.0
+F1,1617,2017-01-29,Paris FC,Monaco,4.0,4.0,0.0
+F1,1617,2017-01-29,Nice,Guingamp,3.4,3.4,0.0
+F1,1617,2017-02-04,Nantes,Angers,3.3,3.3,0.0
+F1,1617,2017-02-04,Rennes,Lyon,3.75,3.75,0.0
+F1,1617,2017-02-04,Nice,Bordeaux,3.3,3.3,0.0
+F1,1617,2017-02-17,Bastia,Monaco,4.2,4.2,0.0
+F1,1617,2017-02-18,Metz,Nantes,3.0,3.0,0.0
+F1,1617,2017-02-19,Lyon,Dijon,4.75,4.75,0.0
+F1,1617,2017-02-19,Montpellier,St Etienne,3.2,3.2,0.0
+F1,1617,2017-02-24,Nice,Montpellier,3.3,3.3,0.0
+F1,1617,2017-02-24,Nantes,Dijon,3.6,3.6,0.0
+F1,1617,2017-02-25,Guingamp,Monaco,3.75,3.75,0.0
+F1,1617,2017-02-25,Lille,Bordeaux,3.1,3.1,0.0
+F1,1617,2017-02-26,Marseille,Paris FC,3.75,3.75,0.0
+F1,1617,2017-03-03,Bordeaux,Lyon,3.4,3.4,0.0
+F1,1617,2017-03-18,Nantes,Nice,3.1,3.1,0.0
+F1,1617,2017-03-18,Bordeaux,Montpellier,3.5,3.5,0.0
+F1,1617,2017-03-18,Nancy,Lorient,3.3,3.3,0.0
+F1,1617,2017-03-19,Paris FC,Lyon,4.75,4.75,0.0
+F1,1617,2017-04-02,Bordeaux,Rennes,3.4,3.4,0.0
+F1,1617,2017-04-02,Dijon,Paris FC,5.5,5.5,0.0
+F1,1617,2017-04-02,Montpellier,Bastia,3.6,3.6,0.0
+F1,1617,2017-04-03,Montpellier,Guingamp,3.5,3.5,0.0
+F1,1617,2017-04-03,Caen,Angers,3.1,3.1,0.0
+F1,1617,2017-04-03,Metz,Rennes,3.0,3.0,0.0
+F1,1617,2017-04-15,Monaco,Dijon,6.5,6.5,0.0
+F1,1617,2017-04-15,Guingamp,Toulouse,3.3,3.3,0.0
+F1,1617,2017-04-15,Metz,Caen,3.25,3.25,0.0
+F1,1617,2017-04-15,Nice,Nancy,3.6,3.6,0.0
+F1,1617,2017-04-18,Metz,Paris FC,7.5,7.5,0.0
+F1,1617,2017-04-22,Lorient,Metz,4.0,4.0,0.0
+F1,1617,2017-04-22,Dijon,Angers,3.3,3.3,0.0
+F1,1617,2017-04-23,Lyon,Monaco,3.6,3.6,0.0
+F1,1617,2017-04-23,St Etienne,Rennes,3.1,3.1,0.0
+F1,1617,2017-04-23,Toulouse,Nice,3.2,3.2,0.0
+F1,1617,2017-04-28,Angers,Lyon,3.4,3.4,0.0
+F1,1617,2017-04-29,Monaco,Toulouse,6.5,6.5,0.0
+F1,1617,2017-04-29,Metz,Nancy,3.1,3.1,0.0
+F1,1617,2017-04-30,Caen,Marseille,3.4,3.4,0.0
+F1,1617,2017-04-30,Nice,Paris FC,4.33,4.33,0.0
+F1,1617,2017-05-03,Lorient,Marseille,3.4,3.4,0.0
+F1,1617,2017-05-03,Toulouse,Lille,3.3,3.3,0.0
+F1,1617,2017-05-05,St Etienne,Bordeaux,3.1,3.1,0.0
+F1,1617,2017-05-14,Bordeaux,Marseille,3.4,3.4,0.0
+F1,1617,2017-05-14,Montpellier,Lyon,3.6,3.6,0.0
+F1,1617,2017-05-14,Nantes,Guingamp,3.5,3.5,0.0
+F1,1617,2017-05-14,Metz,Toulouse,3.25,3.25,0.0
+F1,1617,2017-05-20,Rennes,Monaco,3.6,3.6,0.0
+F1,1617,2017-05-20,Paris FC,Caen,7.5,7.5,0.0
+F1,1617,2017-05-20,Nancy,St Etienne,3.5,3.5,0.0
+F1,1617,2017-05-20,Lorient,Bordeaux,3.5,3.5,0.0
+F1,1617,2017-05-20,Lyon,Nice,4.75,4.75,0.0
+F1,1617,2017-06-05,Lorient,Angers,3.4,3.4,0.0
+F1,1617,2017-07-02,Montpellier,Monaco,3.8,3.8,0.0
+F1,1617,2017-07-02,Paris FC,Lille,6.5,6.5,0.0
+F1,1617,2017-07-04,Lille,Nice,3.0,3.0,0.0
+F1,1617,2017-07-05,Lyon,Nantes,4.0,4.0,0.0
+F1,1617,2017-07-05,Marseille,Nice,3.5,3.5,0.0
+F1,1617,2017-08-02,Metz,Dijon,3.2,3.2,0.0
+F1,1617,2017-08-02,Lorient,Toulouse,3.2,3.2,0.0
+F1,1617,2017-08-04,Lyon,Lorient,6.0,6.0,0.0
+F1,1617,2017-08-04,Dijon,Bastia,3.3,3.3,0.0
+F1,1617,2017-09-04,St Etienne,Nantes,3.2,3.2,0.0
+F1,1617,2017-10-03,Nice,Caen,3.6,3.6,0.0
+F1,1617,2017-11-02,Guingamp,Lyon,3.6,3.6,0.0
+F1,1617,2017-11-02,Lille,Angers,3.2,3.2,0.0
+F1,1617,2017-11-02,Toulouse,Bastia,3.3,3.3,0.0
+F1,1617,2017-11-03,Monaco,Bordeaux,4.5,4.5,0.0
+F1,1617,2017-11-03,Rennes,Dijon,3.5,3.5,0.0
+F1,1617,2017-11-03,Nancy,Lille,3.1,3.1,0.0
+F1,1617,2017-11-03,Montpellier,Nantes,3.25,3.25,0.0
+F1,1617,2017-12-02,Nantes,Marseille,3.1,3.1,0.0
+F1,1617,2017-12-02,Rennes,Nice,3.1,3.1,0.0
+F1,1617,2017-12-03,Lorient,Paris FC,5.25,5.25,0.0
+F1,1617,2017-12-03,St Etienne,Metz,3.8,3.8,0.0

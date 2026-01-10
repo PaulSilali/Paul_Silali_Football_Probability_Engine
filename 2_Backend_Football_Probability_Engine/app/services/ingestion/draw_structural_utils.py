@@ -37,7 +37,7 @@ def save_draw_structural_csv(
     ingestion_dir.mkdir(parents=True, exist_ok=True)
     ingestion_path = ingestion_dir / filename
     df.to_csv(ingestion_path, index=False)
-    logger.info(f"Saved to ingestion folder: {ingestion_path}")
+    logger.info(f"Saved to ingestion folder: {ingestion_path.resolve()}")
     
     # Save to cleaned folder (if requested)
     cleaned_path = None
@@ -46,7 +46,7 @@ def save_draw_structural_csv(
         cleaned_dir.mkdir(parents=True, exist_ok=True)
         cleaned_path = cleaned_dir / filename
         df.to_csv(cleaned_path, index=False)
-        logger.info(f"Saved to cleaned folder: {cleaned_path}")
+        logger.info(f"Saved to cleaned folder: {cleaned_path.resolve()}")
     
     return ingestion_path, cleaned_path
 

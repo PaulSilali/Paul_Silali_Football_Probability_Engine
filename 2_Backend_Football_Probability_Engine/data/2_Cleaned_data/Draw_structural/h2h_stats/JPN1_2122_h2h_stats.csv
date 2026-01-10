@@ -15,7 +15,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9656,Kashima Antlers,9667,Oita Trinita,2122,2,2,1.0,
 9650,Cerezo Osaka,9666,Vegalta Sendai,2122,2,2,1.0,1.0
 9649,Yokohama F. Marinos,9666,Vegalta Sendai,2122,2,1,0.5,2.5
-9652,Hokkaido Consadole Sapporo,9665,Yokohama FC,2122,1,0,0.0,1.0
+9652,Hokkaido Consadole Sapporo,9665,Yokohama FC,2122,2,0,0.0,3.5
 9648,FC Tokyo,9658,Sagan Tosu,2122,2,0,0.0,2.0
 9655,Gamba Osaka,9657,Sanfrecce Hiroshima,2122,2,1,0.5,1.5
 9648,FC Tokyo,9657,Sanfrecce Hiroshima,2122,2,1,0.5,1.5
@@ -73,7 +73,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9647,Kawasaki Frontale,9662,Kashiwa Reysol,2122,2,1,0.5,0.5
 9664,Vissel Kobe,9665,Yokohama FC,2122,2,0,0.0,3.5
 9658,Sagan Tosu,9659,Avispa Fukuoka,2122,2,1,0.5,1.5
-9667,Oita Trinita,9668,Tokushima Vortis,2122,1,1,1.0,2.0
+9667,Oita Trinita,9668,Tokushima Vortis,2122,2,2,1.0,2.0
 9650,Cerezo Osaka,9664,Vissel Kobe,2122,2,2,1.0,2.0
 9654,Urawa Red Diamonds,9656,Kashima Antlers,2122,2,0,0.0,2.0
 9664,Vissel Kobe,9667,Oita Trinita,2122,2,0,0.0,2.5
@@ -178,7 +178,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9663,Nagoya Grampus,9666,Vegalta Sendai,2122,2,1,0.5,1.5
 9649,Yokohama F. Marinos,9652,Hokkaido Consadole Sapporo,2122,2,0,0.0,3.5
 9649,Yokohama F. Marinos,9656,Kashima Antlers,2122,2,0,0.0,5.0
-9657,Sanfrecce Hiroshima,9666,Vegalta Sendai,2122,1,0,0.0,2.0
+9657,Sanfrecce Hiroshima,9666,Vegalta Sendai,2122,2,1,0.5,2.0
 9659,Avispa Fukuoka,9666,Vegalta Sendai,2122,2,1,0.5,2.5
 9648,FC Tokyo,9652,Hokkaido Consadole Sapporo,2122,2,0,0.0,4.0
 9650,Cerezo Osaka,9654,Urawa Red Diamonds,2122,2,0,0.0,1.5

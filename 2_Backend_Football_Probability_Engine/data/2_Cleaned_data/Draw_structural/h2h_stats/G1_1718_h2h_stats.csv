@@ -22,8 +22,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8982,Apollon,8984,Kerkyra,1718,2,1,0.5,1.0
 8968,Asteras Tripolis,8974,Levadeiakos,1718,2,0,0.0,1.5
 8970,Atromitos,8974,Levadeiakos,1718,2,0,0.0,1.0
-8968,Asteras Tripolis,8977,Panathinaikos,1718,2,1,0.5,1.5
 8974,Levadeiakos,8980,Giannina,1718,2,2,1.0,1.0
+8968,Asteras Tripolis,8977,Panathinaikos,1718,2,1,0.5,1.5
 8965,Aris,8980,Giannina,1718,2,2,1.0,1.0
 8979,Lamia,8981,Ionikos,1718,2,0,0.0,1.0
 8983,Xanthi,8984,Kerkyra,1718,2,1,0.5,2.0
@@ -55,8 +55,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8969,Panetolikos,8973,PAOK,1718,2,0,0.0,1.0
 8965,Aris,8967,Olympiakos,1718,2,0,0.0,4.0
 8982,Apollon,8983,Xanthi,1718,2,0,0.0,2.0
-8973,PAOK,8977,Panathinaikos,1718,2,0,0.0,3.5
 8973,PAOK,8981,Ionikos,1718,2,1,0.5,4.0
+8973,PAOK,8977,Panathinaikos,1718,2,0,0.0,3.5
 8979,Lamia,8983,Xanthi,1718,2,1,0.5,0.5
 8969,Panetolikos,8983,Xanthi,1718,2,0,0.0,2.5
 8967,Olympiakos,8979,Lamia,1718,2,0,0.0,1.5
@@ -80,8 +80,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8968,Asteras Tripolis,8985,Platanias,1718,2,0,0.0,3.5
 8971,AEK,8983,Xanthi,1718,2,1,0.5,3.0
 8969,Panetolikos,8971,AEK,1718,2,0,0.0,3.5
-8968,Asteras Tripolis,8984,Kerkyra,1718,2,0,0.0,4.0
 8967,Olympiakos,8984,Kerkyra,1718,2,0,0.0,5.0
+8968,Asteras Tripolis,8984,Kerkyra,1718,2,0,0.0,4.0
 8984,Kerkyra,8985,Platanias,1718,2,1,0.5,1.0
 8980,Giannina,8982,Apollon,1718,2,0,0.0,4.0
 8979,Lamia,8984,Kerkyra,1718,2,2,1.0,1.0
@@ -91,8 +91,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8965,Aris,8981,Ionikos,1718,2,1,0.5,2.5
 8967,Olympiakos,8970,Atromitos,1718,2,1,0.5,2.5
 8977,Panathinaikos,8979,Lamia,1718,2,1,0.5,2.0
-8965,Aris,8979,Lamia,1718,2,1,0.5,2.0
 8967,Olympiakos,8974,Levadeiakos,1718,2,1,0.5,2.5
+8965,Aris,8979,Lamia,1718,2,1,0.5,2.0
 8969,Panetolikos,8981,Ionikos,1718,2,2,1.0,2.0
 8969,Panetolikos,8984,Kerkyra,1718,2,0,0.0,1.0
 8980,Giannina,8983,Xanthi,1718,2,1,0.5,2.5

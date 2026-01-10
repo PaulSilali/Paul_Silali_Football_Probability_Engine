@@ -1,85 +1,125 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9562,Sporting Kansas City,9563,FC Dallas,2223,1,0,0.0,3.0
 9557,FC Cincinnati,9569,Charlotte FC,2223,1,0,0.0,2.0
+9569,Charlotte FC,9570,Columbus Crew,2223,1,1,1.0,4.0
 9545,Austin FC,9550,Minnesota United FC,2223,1,0,0.0,3.0
+9554,Philadelphia Union,9555,Houston Dynamo,2223,1,0,0.0,6.0
 9552,Chicago Fire,9554,Philadelphia Union,2223,1,0,0.0,5.0
-9546,New York RB,9557,FC Cincinnati,2223,1,1,1.0,2.0
+9546,New York RB,9557,FC Cincinnati,2223,1,0,0.0,3.0
 9555,Houston Dynamo,9559,Vancouver Whitecaps,2223,1,0,0.0,3.0
-9550,Minnesota United FC,9563,FC Dallas,2223,1,0,0.0,3.0
+9557,FC Cincinnati,9566,D.C. United,2223,1,0,0.0,7.0
+9550,Minnesota United FC,9563,FC Dallas,2223,2,0,0.0,6.0
 9545,Austin FC,9551,Portland Timbers,2223,1,0,0.0,3.0
 9567,Orlando City,9569,Charlotte FC,2223,1,0,0.0,3.0
 9547,Los Angeles Galaxy,9569,Charlotte FC,2223,1,0,0.0,5.0
-9560,New England Revolution,9561,Toronto FC,2223,1,1,1.0,4.0
+9551,Portland Timbers,9570,Columbus Crew,2223,1,1,1.0,2.0
+9560,New England Revolution,9561,Toronto FC,2223,2,2,1.0,2.0
+9567,Orlando City,9570,Columbus Crew,2223,1,0,0.0,3.0
 9554,Philadelphia Union,9568,Colorado Rapids,2223,1,0,0.0,6.0
+9545,Austin FC,9563,FC Dallas,2223,1,0,0.0,3.0
 9562,Sporting Kansas City,9564,San Jose Earthquakes,2223,1,0,0.0,1.0
-9546,New York RB,9567,Orlando City,2223,2,0,0.0,2.0
+9546,New York RB,9567,Orlando City,2223,2,0,0.0,3.0
 9554,Philadelphia Union,9557,FC Cincinnati,2223,1,0,0.0,4.0
 9549,Seattle Sounders,9563,FC Dallas,2223,1,0,0.0,1.0
+9564,San Jose Earthquakes,9565,Real Salt Lake,2223,1,1,1.0,4.0
 9554,Philadelphia Union,9566,D.C. United,2223,1,0,0.0,6.0
+9550,Minnesota United FC,9562,Sporting Kansas City,2223,1,0,0.0,5.0
+9553,CF Montréal,9561,Toronto FC,2223,1,0,0.0,7.0
 9547,Los Angeles Galaxy,9566,D.C. United,2223,1,0,0.0,1.0
 9550,Minnesota United FC,9555,Houston Dynamo,2223,1,0,0.0,3.0
-9547,Los Angeles Galaxy,9563,FC Dallas,2223,1,0,0.0,1.0
+9547,Los Angeles Galaxy,9563,FC Dallas,2223,1,0,0.0,3.0
 9548,Atlanta United FC,9552,Chicago Fire,2223,1,1,1.0,
+9545,Austin FC,9565,Real Salt Lake,2223,1,0,0.0,4.0
+9552,Chicago Fire,9556,Inter Miami CF,2223,1,0,0.0,4.0
 9558,Nashville SC,9563,FC Dallas,2223,1,0,0.0,4.0
 9548,Atlanta United FC,9549,Seattle Sounders,2223,1,0,0.0,3.0
 9559,Vancouver Whitecaps,9565,Real Salt Lake,2223,1,1,1.0,2.0
 9561,Toronto FC,9569,Charlotte FC,2223,1,0,0.0,2.0
+9555,Houston Dynamo,9560,New England Revolution,2223,1,0,0.0,4.0
+9549,Seattle Sounders,9564,San Jose Earthquakes,2223,1,1,1.0,4.0
 9553,CF Montréal,9555,Houston Dynamo,2223,1,0,0.0,5.0
-9552,Chicago Fire,9553,CF Montréal,2223,1,0,0.0,2.0
-9546,New York RB,9553,CF Montréal,2223,1,0,0.0,1.0
+9547,Los Angeles Galaxy,9550,Minnesota United FC,2223,1,1,1.0,2.0
+9546,New York RB,9553,CF Montréal,2223,1,0,0.0,4.0
+9552,Chicago Fire,9553,CF Montréal,2223,2,0,0.0,3.5
+9550,Minnesota United FC,9551,Portland Timbers,2223,1,1,1.0,8.0
 9560,New England Revolution,9566,D.C. United,2223,1,0,0.0,1.0
 9560,New England Revolution,9567,Orlando City,2223,1,0,0.0,3.0
 9548,Atlanta United FC,9557,FC Cincinnati,2223,1,1,1.0,4.0
-9563,FC Dallas,9564,San Jose Earthquakes,2223,1,0,0.0,5.0
+9563,FC Dallas,9564,San Jose Earthquakes,2223,2,1,0.5,3.5
+9557,FC Cincinnati,9565,Real Salt Lake,2223,1,0,0.0,3.0
 9546,New York RB,9566,D.C. United,2223,2,1,0.5,1.5
 9556,Inter Miami CF,9564,San Jose Earthquakes,2223,1,0,0.0,1.0
 9558,Nashville SC,9568,Colorado Rapids,2223,1,0,0.0,5.0
+9547,Los Angeles Galaxy,9568,Colorado Rapids,2223,1,0,0.0,5.0
 9552,Chicago Fire,9570,Columbus Crew,2223,1,1,1.0,
+9549,Seattle Sounders,9559,Vancouver Whitecaps,2223,1,0,0.0,3.0
+9546,New York RB,9560,New England Revolution,2223,1,0,0.0,3.0
 9551,Portland Timbers,9558,Nashville SC,2223,1,1,1.0,2.0
-9553,CF Montréal,9570,Columbus Crew,2223,1,0,0.0,3.0
-9547,Los Angeles Galaxy,9565,Real Salt Lake,2223,1,0,0.0,5.0
+9553,CF Montréal,9570,Columbus Crew,2223,2,1,0.5,3.5
+9547,Los Angeles Galaxy,9565,Real Salt Lake,2223,2,1,0.5,3.5
 9549,Seattle Sounders,9567,Orlando City,2223,1,0,0.0,5.0
 9548,Atlanta United FC,9566,D.C. United,2223,1,0,0.0,5.0
 9568,Colorado Rapids,9570,Columbus Crew,2223,1,1,1.0,2.0
-9556,Inter Miami CF,9570,Columbus Crew,2223,1,0,0.0,1.0
+9556,Inter Miami CF,9570,Columbus Crew,2223,2,0,0.0,2.0
+9555,Houston Dynamo,9558,Nashville SC,2223,1,0,0.0,3.0
+9545,Austin FC,9546,New York RB,2223,1,0,0.0,7.0
 9546,New York RB,9569,Charlotte FC,2223,1,0,0.0,4.0
 9557,FC Cincinnati,9570,Columbus Crew,2223,1,1,1.0,4.0
+9566,D.C. United,9567,Orlando City,2223,1,0,0.0,3.0
+9547,Los Angeles Galaxy,9548,Atlanta United FC,2223,1,0,0.0,2.0
+9556,Inter Miami CF,9566,D.C. United,2223,1,0,0.0,5.0
 9549,Seattle Sounders,9551,Portland Timbers,2223,1,0,0.0,3.0
 9550,Minnesota United FC,9565,Real Salt Lake,2223,1,0,0.0,3.0
 9547,Los Angeles Galaxy,9560,New England Revolution,2223,1,0,0.0,3.0
 9545,Austin FC,9564,San Jose Earthquakes,2223,1,1,1.0,6.0
 9553,CF Montréal,9560,New England Revolution,2223,1,0,0.0,4.0
 9563,FC Dallas,9565,Real Salt Lake,2223,1,1,1.0,2.0
-9547,Los Angeles Galaxy,9555,Houston Dynamo,2223,1,0,0.0,3.0
-9558,Nashville SC,9559,Vancouver Whitecaps,2223,1,0,0.0,3.0
+9547,Los Angeles Galaxy,9555,Houston Dynamo,2223,2,0,0.0,4.0
+9558,Nashville SC,9559,Vancouver Whitecaps,2223,2,1,0.5,2.5
+9547,Los Angeles Galaxy,9547,Los Angeles Galaxy,2223,1,0,0.0,5.0
 9550,Minnesota United FC,9568,Colorado Rapids,2223,1,0,0.0,7.0
 9566,D.C. United,9568,Colorado Rapids,2223,1,1,1.0,
 9549,Seattle Sounders,9565,Real Salt Lake,2223,1,0,0.0,3.0
 9551,Portland Timbers,9561,Toronto FC,2223,1,0,0.0,4.0
-9559,Vancouver Whitecaps,9568,Colorado Rapids,2223,1,0,0.0,3.0
-9545,Austin FC,9558,Nashville SC,2223,1,0,0.0,3.0
+9559,Vancouver Whitecaps,9568,Colorado Rapids,2223,2,0,0.0,3.5
+9545,Austin FC,9558,Nashville SC,2223,2,1,0.5,2.5
 9546,New York RB,9552,Chicago Fire,2223,1,0,0.0,2.0
+9564,San Jose Earthquakes,9568,Colorado Rapids,2223,1,0,0.0,3.0
 9546,New York RB,9556,Inter Miami CF,2223,2,0,0.0,4.5
 9551,Portland Timbers,9563,FC Dallas,2223,1,1,1.0,2.0
 9546,New York RB,9548,Atlanta United FC,2223,1,0,0.0,3.0
 9548,Atlanta United FC,9554,Philadelphia Union,2223,1,0,0.0,5.0
+9547,Los Angeles Galaxy,9551,Portland Timbers,2223,1,0,0.0,3.0
 9551,Portland Timbers,9562,Sporting Kansas City,2223,1,0,0.0,5.0
+9554,Philadelphia Union,9567,Orlando City,2223,1,0,0.0,6.0
 9555,Houston Dynamo,9568,Colorado Rapids,2223,1,1,1.0,2.0
+9552,Chicago Fire,9557,FC Cincinnati,2223,1,0,0.0,5.0
 9547,Los Angeles Galaxy,9561,Toronto FC,2223,1,1,1.0,4.0
-9552,Chicago Fire,9560,New England Revolution,2223,1,1,1.0,
+9556,Inter Miami CF,9567,Orlando City,2223,1,0,0.0,5.0
+9545,Austin FC,9568,Colorado Rapids,2223,1,1,1.0,2.0
+9552,Chicago Fire,9560,New England Revolution,2223,2,2,1.0,1.0
 9558,Nashville SC,9561,Toronto FC,2223,1,0,0.0,7.0
 9545,Austin FC,9547,Los Angeles Galaxy,2223,1,0,0.0,5.0
+9546,New York RB,9568,Colorado Rapids,2223,1,0,0.0,9.0
 9548,Atlanta United FC,9570,Columbus Crew,2223,1,1,1.0,4.0
-9546,New York RB,9554,Philadelphia Union,2223,1,0,0.0,2.0
+9546,New York RB,9554,Philadelphia Union,2223,2,0,0.0,3.0
+9547,Los Angeles Galaxy,9558,Nashville SC,2223,1,1,1.0,2.0
 9550,Minnesota United FC,9558,Nashville SC,2223,1,0,0.0,3.0
 9556,Inter Miami CF,9561,Toronto FC,2223,1,0,0.0,3.0
 9554,Philadelphia Union,9563,FC Dallas,2223,1,0,0.0,1.0
 9545,Austin FC,9562,Sporting Kansas City,2223,2,0,0.0,4.5
+9548,Atlanta United FC,9561,Toronto FC,2223,1,0,0.0,6.0
 9547,Los Angeles Galaxy,9559,Vancouver Whitecaps,2223,1,0,0.0,7.0
-9553,CF Montréal,9556,Inter Miami CF,2223,1,1,1.0,4.0
+9549,Seattle Sounders,9555,Houston Dynamo,2223,1,0,0.0,3.0
+9549,Seattle Sounders,9557,FC Cincinnati,2223,1,1,1.0,2.0
+9553,CF Montréal,9556,Inter Miami CF,2223,2,1,0.5,4.0
 9547,Los Angeles Galaxy,9549,Seattle Sounders,2223,1,1,1.0,6.0
-9547,Los Angeles Galaxy,9564,San Jose Earthquakes,2223,1,0,0.0,3.0
-9547,Los Angeles Galaxy,9562,Sporting Kansas City,2223,1,0,0.0,6.0
+9547,Los Angeles Galaxy,9564,San Jose Earthquakes,2223,1,0,0.0,5.0
+9551,Portland Timbers,9565,Real Salt Lake,2223,1,0,0.0,4.0
+9548,Atlanta United FC,9560,New England Revolution,2223,1,0,0.0,3.0
+9556,Inter Miami CF,9557,FC Cincinnati,2223,1,1,1.0,8.0
+9547,Los Angeles Galaxy,9562,Sporting Kansas City,2223,2,1,0.5,5.0
 9566,D.C. United,9569,Charlotte FC,2223,1,0,0.0,3.0
-9552,Chicago Fire,9569,Charlotte FC,2223,1,0,0.0,5.0
+9552,Chicago Fire,9569,Charlotte FC,2223,2,0,0.0,5.0
 9548,Atlanta United FC,9551,Portland Timbers,2223,1,0,0.0,3.0
-9546,New York RB,9570,Columbus Crew,2223,1,0,0.0,5.0
+9546,New York RB,9570,Columbus Crew,2223,1,0,0.0,3.0

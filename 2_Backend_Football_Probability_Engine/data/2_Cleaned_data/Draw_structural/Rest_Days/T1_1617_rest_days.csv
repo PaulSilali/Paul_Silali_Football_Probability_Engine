@@ -1,307 +1,307 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-T1,1617,2016-01-10,Kasimpasa,Kocaelispor,7,7,False
 T1,1617,2016-01-10,Karabukspor,Trabzonspor,7,7,False
 T1,1617,2016-01-10,Gaziantep,Bursaspor,7,7,False
+T1,1617,2016-01-10,Kasimpasa,Kocaelispor,7,7,False
 T1,1617,2016-01-10,Rizespor,Besiktas,7,7,False
-T1,1617,2016-02-10,Antalyaspor,Antalyaspor,7,7,True
-T1,1617,2016-02-10,Antalyaspor,Buyuksehyr,7,7,True
-T1,1617,2016-02-10,Kocaelispor,Fenerbahce,31,7,True
 T1,1617,2016-02-10,Galatasaray,Antalyaspor,7,7,True
+T1,1617,2016-02-10,Antalyaspor,Buyuksehyr,7,7,True
+T1,1617,2016-02-10,Antalyaspor,Antalyaspor,7,7,True
+T1,1617,2016-02-10,Kocaelispor,Fenerbahce,31,7,True
 T1,1617,2016-03-12,Fenerbahce,Besiktas,31,62,False
 T1,1617,2016-03-12,Buyuksehyr,Antalyaspor,31,31,False
 T1,1617,2016-04-11,Galatasaray,Buyuksehyr,61,30,False
+T1,1617,2016-04-12,Gaziantep,Akhisar Belediyespor,93,7,True
+T1,1617,2016-04-12,Antalyaspor,Genclerbirligi,31,7,True
+T1,1617,2016-04-12,Kocaelispor,Karabukspor,62,93,True
 T1,1617,2016-04-12,Antalyaspor,Antalyaspor,31,31,True
 T1,1617,2016-04-12,Kasimpasa,Galatasaray,93,1,True
-T1,1617,2016-04-12,Kocaelispor,Karabukspor,62,93,True
-T1,1617,2016-04-12,Antalyaspor,Genclerbirligi,31,7,True
-T1,1617,2016-04-12,Gaziantep,Akhisar Belediyespor,93,7,True
+T1,1617,2016-05-11,Besiktas,Trabzonspor,60,122,True
 T1,1617,2016-05-11,Karabukspor,Bursaspor,29,122,True
 T1,1617,2016-05-11,Antalyaspor,Genclerbirligi,29,29,True
 T1,1617,2016-05-11,Antalyaspor,Gaziantep,29,29,True
-T1,1617,2016-05-11,Besiktas,Trabzonspor,60,122,True
-T1,1617,2016-05-12,Bursaspor,Rizespor,1,123,True
 T1,1617,2016-05-12,Kocaelispor,Trabzonspor,30,1,True
-T1,1617,2016-06-11,Rizespor,Antalyaspor,30,31,False
+T1,1617,2016-05-12,Bursaspor,Rizespor,1,123,True
 T1,1617,2016-06-11,Kocaelispor,Kocaelispor,30,30,False
 T1,1617,2016-06-11,Antalyaspor,Kasimpasa,31,60,False
 T1,1617,2016-06-11,Akhisar Belediyespor,Fenerbahce,60,91,False
+T1,1617,2016-06-11,Rizespor,Antalyaspor,30,31,False
 T1,1617,2016-08-19,Antalyaspor,Bursaspor,69,99,False
+T1,1617,2016-08-20,Trabzonspor,Kasimpasa,100,70,False
 T1,1617,2016-08-20,Besiktas,Antalyaspor,101,1,False
 T1,1617,2016-08-20,Rizespor,Antalyaspor,70,1,False
-T1,1617,2016-08-20,Trabzonspor,Kasimpasa,100,70,False
-T1,1617,2016-08-21,Kocaelispor,Akhisar Belediyespor,71,71,False
 T1,1617,2016-08-21,Antalyaspor,Kocaelispor,1,71,False
 T1,1617,2016-08-21,Genclerbirligi,Gaziantep,102,102,False
 T1,1617,2016-08-21,Buyuksehyr,Fenerbahce,132,71,False
+T1,1617,2016-08-21,Kocaelispor,Akhisar Belediyespor,71,71,False
 T1,1617,2016-08-22,Galatasaray,Karabukspor,132,103,False
 T1,1617,2016-08-26,Antalyaspor,Besiktas,5,6,False
 T1,1617,2016-08-26,Antalyaspor,Antalyaspor,5,5,False
-T1,1617,2016-08-27,Gaziantep,Trabzonspor,6,7,False
 T1,1617,2016-08-27,Akhisar Belediyespor,Galatasaray,6,5,False
 T1,1617,2016-08-27,Kasimpasa,Antalyaspor,7,1,False
-T1,1617,2016-08-28,Bursaspor,Buyuksehyr,9,7,False
+T1,1617,2016-08-27,Gaziantep,Trabzonspor,6,7,False
 T1,1617,2016-08-28,Karabukspor,Rizespor,6,8,False
-T1,1617,2016-08-28,Fenerbahce,Kocaelispor,7,7,False
 T1,1617,2016-08-28,Kocaelispor,Genclerbirligi,7,7,False
+T1,1617,2016-08-28,Fenerbahce,Kocaelispor,7,7,False
+T1,1617,2016-08-28,Bursaspor,Buyuksehyr,9,7,False
 T1,1617,2016-09-12,Trabzonspor,Antalyaspor,16,16,False
 T1,1617,2016-09-16,Karabukspor,Antalyaspor,19,4,False
 T1,1617,2016-09-16,Bursaspor,Kocaelispor,19,19,False
-T1,1617,2016-09-17,Antalyaspor,Trabzonspor,1,5,False
 T1,1617,2016-09-17,Galatasaray,Rizespor,21,20,False
-T1,1617,2016-09-18,Akhisar Belediyespor,Besiktas,22,23,False
+T1,1617,2016-09-17,Antalyaspor,Trabzonspor,1,5,False
 T1,1617,2016-09-18,Kocaelispor,Antalyaspor,2,1,False
-T1,1617,2016-09-18,Antalyaspor,Genclerbirligi,1,21,False
 T1,1617,2016-09-18,Gaziantep,Buyuksehyr,22,21,False
+T1,1617,2016-09-18,Akhisar Belediyespor,Besiktas,22,23,False
+T1,1617,2016-09-18,Antalyaspor,Genclerbirligi,1,21,False
 T1,1617,2016-09-19,Kasimpasa,Fenerbahce,23,22,False
 T1,1617,2016-09-23,Antalyaspor,Akhisar Belediyespor,5,5,False
 T1,1617,2016-09-24,Besiktas,Galatasaray,6,7,False
 T1,1617,2016-09-24,Buyuksehyr,Kocaelispor,6,6,False
 T1,1617,2016-09-24,Trabzonspor,Antalyaspor,7,1,False
-T1,1617,2016-09-25,Bursaspor,Kasimpasa,9,6,False
-T1,1617,2016-09-25,Fenerbahce,Gaziantep,6,7,False
-T1,1617,2016-09-25,Genclerbirligi,Karabukspor,7,9,False
 T1,1617,2016-09-25,Kocaelispor,Rizespor,1,8,False
+T1,1617,2016-09-25,Bursaspor,Kasimpasa,9,6,False
+T1,1617,2016-09-25,Genclerbirligi,Karabukspor,7,9,False
+T1,1617,2016-09-25,Fenerbahce,Gaziantep,6,7,False
 T1,1617,2016-09-26,Antalyaspor,Antalyaspor,2,2,False
 T1,1617,2016-09-30,Akhisar Belediyespor,Genclerbirligi,7,5,False
 T1,1617,2016-10-09,Kocaelispor,Galatasaray,14,15,False
-T1,1617,2016-10-09,Besiktas,Karabukspor,15,14,False
-T1,1617,2016-10-09,Buyuksehyr,Kasimpasa,15,14,False
-T1,1617,2016-10-09,Genclerbirligi,Antalyaspor,9,13,False
 T1,1617,2016-10-09,Antalyaspor,Gaziantep,13,14,False
+T1,1617,2016-10-09,Besiktas,Karabukspor,15,14,False
+T1,1617,2016-10-09,Genclerbirligi,Antalyaspor,9,13,False
+T1,1617,2016-10-09,Buyuksehyr,Kasimpasa,15,14,False
 T1,1617,2016-10-12,Besiktas,Bursaspor,3,17,True
 T1,1617,2016-10-12,Genclerbirligi,Buyuksehyr,3,3,True
 T1,1617,2016-10-12,Rizespor,Kasimpasa,17,3,True
-T1,1617,2016-10-15,Kasimpasa,Gaziantep,3,6,False
 T1,1617,2016-10-15,Antalyaspor,Karabukspor,6,6,False
-T1,1617,2016-10-15,Genclerbirligi,Galatasaray,3,6,False
 T1,1617,2016-10-15,Kocaelispor,Besiktas,6,3,False
+T1,1617,2016-10-15,Kasimpasa,Gaziantep,3,6,False
+T1,1617,2016-10-15,Genclerbirligi,Galatasaray,3,6,False
 T1,1617,2016-10-16,Trabzonspor,Akhisar Belediyespor,22,16,False
 T1,1617,2016-10-16,Fenerbahce,Antalyaspor,21,1,False
 T1,1617,2016-10-16,Buyuksehyr,Antalyaspor,4,1,False
 T1,1617,2016-10-16,Bursaspor,Kocaelispor,4,1,False
 T1,1617,2016-10-17,Antalyaspor,Rizespor,1,5,False
-T1,1617,2016-10-21,Rizespor,Genclerbirligi,4,6,False
 T1,1617,2016-10-21,Gaziantep,Kocaelispor,6,5,False
-T1,1617,2016-10-22,Akhisar Belediyespor,Antalyaspor,6,5,False
+T1,1617,2016-10-21,Rizespor,Genclerbirligi,4,6,False
 T1,1617,2016-10-22,Galatasaray,Trabzonspor,7,6,False
 T1,1617,2016-10-22,Antalyaspor,Bursaspor,5,6,False
-T1,1617,2016-10-23,Besiktas,Antalyaspor,8,1,False
+T1,1617,2016-10-22,Akhisar Belediyespor,Antalyaspor,6,5,False
 T1,1617,2016-10-23,Kocaelispor,Kasimpasa,2,8,False
 T1,1617,2016-10-23,Karabukspor,Buyuksehyr,8,7,False
+T1,1617,2016-10-23,Besiktas,Antalyaspor,8,1,False
 T1,1617,2016-10-24,Antalyaspor,Fenerbahce,1,8,False
 T1,1617,2016-10-28,Genclerbirligi,Besiktas,7,5,False
+T1,1617,2016-10-29,Antalyaspor,Galatasaray,5,7,False
 T1,1617,2016-10-29,Bursaspor,Antalyaspor,7,5,False
 T1,1617,2016-10-29,Gaziantep,Kocaelispor,8,6,False
-T1,1617,2016-10-29,Antalyaspor,Galatasaray,5,7,False
 T1,1617,2016-10-30,Fenerbahce,Karabukspor,6,7,False
-T1,1617,2016-10-30,Trabzonspor,Rizespor,8,9,False
 T1,1617,2016-10-30,Buyuksehyr,Akhisar Belediyespor,7,8,False
+T1,1617,2016-10-30,Trabzonspor,Rizespor,8,9,False
 T1,1617,2016-10-31,Kasimpasa,Antalyaspor,8,2,False
 T1,1617,2016-10-31,Kocaelispor,Antalyaspor,2,2,False
-T1,1617,2016-11-09,Trabzonspor,Kocaelispor,10,9,True
+T1,1617,2016-11-09,Rizespor,Akhisar Belediyespor,10,10,True
 T1,1617,2016-11-09,Antalyaspor,Antalyaspor,9,9,True
 T1,1617,2016-11-09,Fenerbahce,Bursaspor,10,11,True
-T1,1617,2016-11-09,Rizespor,Akhisar Belediyespor,10,10,True
+T1,1617,2016-11-09,Trabzonspor,Kocaelispor,10,9,True
+T1,1617,2016-11-12,Karabukspor,Antalyaspor,13,3,False
 T1,1617,2016-11-12,Galatasaray,Gaziantep,14,14,False
 T1,1617,2016-11-12,Akhisar Belediyespor,Kocaelispor,3,3,False
 T1,1617,2016-11-12,Antalyaspor,Kocaelispor,3,3,False
-T1,1617,2016-11-12,Karabukspor,Antalyaspor,13,3,False
-T1,1617,2016-11-19,Bursaspor,Akhisar Belediyespor,10,7,False
-T1,1617,2016-11-19,Kocaelispor,Antalyaspor,7,7,False
-T1,1617,2016-11-19,Gaziantep,Antalyaspor,7,7,False
 T1,1617,2016-11-19,Antalyaspor,Besiktas,7,22,False
+T1,1617,2016-11-19,Bursaspor,Akhisar Belediyespor,10,7,False
+T1,1617,2016-11-19,Gaziantep,Antalyaspor,7,7,False
+T1,1617,2016-11-19,Kocaelispor,Antalyaspor,7,7,False
+T1,1617,2016-11-20,Kocaelispor,Genclerbirligi,1,23,False
 T1,1617,2016-11-20,Kasimpasa,Karabukspor,20,8,False
 T1,1617,2016-11-20,Fenerbahce,Galatasaray,11,8,False
-T1,1617,2016-11-20,Kocaelispor,Genclerbirligi,1,23,False
 T1,1617,2016-11-21,Trabzonspor,Antalyaspor,12,2,False
 T1,1617,2016-11-21,Buyuksehyr,Rizespor,22,12,False
-T1,1617,2016-11-25,Galatasaray,Bursaspor,5,6,False
 T1,1617,2016-11-25,Antalyaspor,Kocaelispor,4,5,False
-T1,1617,2016-11-26,Akhisar Belediyespor,Kasimpasa,7,6,False
-T1,1617,2016-11-26,Karabukspor,Gaziantep,6,7,False
+T1,1617,2016-11-25,Galatasaray,Bursaspor,5,6,False
 T1,1617,2016-11-26,Besiktas,Buyuksehyr,7,5,False
+T1,1617,2016-11-26,Akhisar Belediyespor,Kasimpasa,7,6,False
 T1,1617,2016-11-26,Antalyaspor,Antalyaspor,1,1,False
-T1,1617,2016-11-27,Rizespor,Fenerbahce,6,7,False
+T1,1617,2016-11-26,Karabukspor,Gaziantep,6,7,False
 T1,1617,2016-11-27,Genclerbirligi,Trabzonspor,7,6,False
+T1,1617,2016-11-27,Rizespor,Fenerbahce,6,7,False
 T1,1617,2016-11-28,Antalyaspor,Kocaelispor,2,3,False
 T1,1617,2016-12-12,Antalyaspor,Fenerbahce,14,15,False
-T1,1617,2016-12-17,Buyuksehyr,Trabzonspor,21,20,False
 T1,1617,2016-12-17,Kasimpasa,Besiktas,21,21,False
-T1,1617,2016-12-18,Antalyaspor,Akhisar Belediyespor,6,22,False
-T1,1617,2016-12-18,Antalyaspor,Kocaelispor,6,20,False
-T1,1617,2016-12-18,Gaziantep,Rizespor,22,21,False
+T1,1617,2016-12-17,Buyuksehyr,Trabzonspor,21,20,False
 T1,1617,2016-12-18,Karabukspor,Antalyaspor,22,6,False
+T1,1617,2016-12-18,Antalyaspor,Kocaelispor,6,20,False
+T1,1617,2016-12-18,Antalyaspor,Akhisar Belediyespor,6,22,False
+T1,1617,2016-12-18,Gaziantep,Rizespor,22,21,False
 T1,1617,2016-12-18,Kocaelispor,Galatasaray,20,23,False
 T1,1617,2016-12-19,Bursaspor,Antalyaspor,24,1,False
 T1,1617,2016-12-19,Fenerbahce,Genclerbirligi,7,22,False
 T1,1617,2016-12-24,Antalyaspor,Buyuksehyr,5,7,False
 T1,1617,2016-12-24,Besiktas,Gaziantep,7,6,False
 T1,1617,2016-12-25,Akhisar Belediyespor,Antalyaspor,7,1,False
-T1,1617,2016-12-25,Antalyaspor,Kasimpasa,1,8,False
-T1,1617,2016-12-25,Galatasaray,Antalyaspor,7,1,False
 T1,1617,2016-12-25,Kocaelispor,Karabukspor,7,7,False
 T1,1617,2016-12-25,Rizespor,Kocaelispor,7,7,False
-T1,1617,2016-12-26,Genclerbirligi,Bursaspor,7,7,False
+T1,1617,2016-12-25,Galatasaray,Antalyaspor,7,1,False
+T1,1617,2016-12-25,Antalyaspor,Kasimpasa,1,8,False
 T1,1617,2016-12-26,Trabzonspor,Fenerbahce,9,7,False
-T1,1617,2017-01-04,Akhisar Belediyespor,Buyuksehyr,10,11,True
-T1,1617,2017-01-04,Antalyaspor,Kocaelispor,10,10,True
+T1,1617,2016-12-26,Genclerbirligi,Bursaspor,7,7,False
 T1,1617,2017-01-04,Antalyaspor,Kasimpasa,10,10,True
+T1,1617,2017-01-04,Antalyaspor,Kocaelispor,10,10,True
+T1,1617,2017-01-04,Akhisar Belediyespor,Buyuksehyr,10,11,True
 T1,1617,2017-01-04,Karabukspor,Fenerbahce,10,9,True
 T1,1617,2017-01-05,Bursaspor,Galatasaray,10,11,True
 T1,1617,2017-01-05,Kocaelispor,Antalyaspor,1,1,True
 T1,1617,2017-01-13,Bursaspor,Trabzonspor,8,3,False
-T1,1617,2017-01-14,Buyuksehyr,Kocaelispor,4,9,False
 T1,1617,2017-01-14,Antalyaspor,Rizespor,4,20,False
 T1,1617,2017-01-14,Antalyaspor,Galatasaray,4,9,False
 T1,1617,2017-01-14,Karabukspor,Akhisar Belediyespor,10,10,False
+T1,1617,2017-01-14,Buyuksehyr,Kocaelispor,4,9,False
+T1,1617,2017-01-15,Gaziantep,Antalyaspor,22,1,False
 T1,1617,2017-01-15,Fenerbahce,Antalyaspor,11,1,False
 T1,1617,2017-01-15,Kasimpasa,Genclerbirligi,11,5,False
-T1,1617,2017-01-15,Gaziantep,Antalyaspor,22,1,False
 T1,1617,2017-01-16,Kocaelispor,Besiktas,2,6,False
+T1,1617,2017-01-21,Karabukspor,Galatasaray,7,7,False
 T1,1617,2017-01-21,Akhisar Belediyespor,Kocaelispor,7,5,False
 T1,1617,2017-01-21,Bursaspor,Antalyaspor,8,6,False
-T1,1617,2017-01-21,Karabukspor,Galatasaray,7,7,False
 T1,1617,2017-01-21,Antalyaspor,Rizespor,6,7,False
-T1,1617,2017-01-22,Kocaelispor,Antalyaspor,1,1,False
 T1,1617,2017-01-22,Fenerbahce,Buyuksehyr,7,8,False
+T1,1617,2017-01-22,Kocaelispor,Antalyaspor,1,1,False
 T1,1617,2017-01-22,Kasimpasa,Trabzonspor,7,9,False
 T1,1617,2017-01-23,Antalyaspor,Besiktas,1,7,False
 T1,1617,2017-01-28,Antalyaspor,Antalyaspor,5,5,False
-T1,1617,2017-01-28,Rizespor,Karabukspor,7,7,False
 T1,1617,2017-01-28,Galatasaray,Akhisar Belediyespor,7,7,False
-T1,1617,2017-01-29,Buyuksehyr,Bursaspor,7,8,False
+T1,1617,2017-01-28,Rizespor,Karabukspor,7,7,False
+T1,1617,2017-01-29,Trabzonspor,Gaziantep,7,14,False
 T1,1617,2017-01-29,Kocaelispor,Fenerbahce,7,7,False
 T1,1617,2017-01-29,Genclerbirligi,Kocaelispor,14,7,False
-T1,1617,2017-01-29,Trabzonspor,Gaziantep,7,14,False
+T1,1617,2017-01-29,Buyuksehyr,Bursaspor,7,8,False
 T1,1617,2017-01-30,Antalyaspor,Kasimpasa,2,8,False
 T1,1617,2017-01-30,Besiktas,Antalyaspor,7,2,False
-T1,1617,2017-02-04,Antalyaspor,Bursaspor,5,6,False
-T1,1617,2017-02-04,Kocaelispor,Gaziantep,6,6,False
 T1,1617,2017-02-04,Rizespor,Trabzonspor,7,6,False
+T1,1617,2017-02-04,Kocaelispor,Gaziantep,6,6,False
+T1,1617,2017-02-04,Antalyaspor,Bursaspor,5,6,False
 T1,1617,2017-02-04,Besiktas,Genclerbirligi,5,6,False
-T1,1617,2017-02-06,Genclerbirligi,Kasimpasa,2,7,False
-T1,1617,2017-02-06,Antalyaspor,Gaziantep,2,2,False
 T1,1617,2017-02-06,Akhisar Belediyespor,Karabukspor,9,9,False
+T1,1617,2017-02-06,Antalyaspor,Gaziantep,2,2,False
+T1,1617,2017-02-06,Genclerbirligi,Kasimpasa,2,7,False
 T1,1617,2017-02-13,Gaziantep,Antalyaspor,7,7,False
 T1,1617,2017-02-17,Kocaelispor,Bursaspor,13,13,False
-T1,1617,2017-02-18,Buyuksehyr,Gaziantep,20,5,False
 T1,1617,2017-02-18,Antalyaspor,Karabukspor,5,6,False
 T1,1617,2017-02-18,Rizespor,Galatasaray,14,6,False
-T1,1617,2017-02-19,Fenerbahce,Kasimpasa,21,13,False
-T1,1617,2017-02-19,Antalyaspor,Kocaelispor,1,2,False
+T1,1617,2017-02-18,Buyuksehyr,Gaziantep,20,5,False
 T1,1617,2017-02-19,Genclerbirligi,Antalyaspor,13,1,False
+T1,1617,2017-02-19,Fenerbahce,Kasimpasa,21,13,False
 T1,1617,2017-02-19,Besiktas,Akhisar Belediyespor,7,7,False
+T1,1617,2017-02-19,Antalyaspor,Kocaelispor,1,2,False
 T1,1617,2017-02-20,Trabzonspor,Antalyaspor,16,1,False
-T1,1617,2017-02-24,Kasimpasa,Bursaspor,5,7,False
 T1,1617,2017-02-24,Rizespor,Kocaelispor,6,5,False
+T1,1617,2017-02-24,Kasimpasa,Bursaspor,5,7,False
 T1,1617,2017-02-25,Akhisar Belediyespor,Antalyaspor,6,5,False
 T1,1617,2017-02-25,Antalyaspor,Antalyaspor,5,5,False
 T1,1617,2017-02-25,Antalyaspor,Trabzonspor,5,5,False
-T1,1617,2017-02-26,Gaziantep,Fenerbahce,8,7,False
 T1,1617,2017-02-26,Karabukspor,Genclerbirligi,8,7,False
 T1,1617,2017-02-26,Kocaelispor,Buyuksehyr,2,8,False
+T1,1617,2017-02-26,Gaziantep,Fenerbahce,8,7,False
 T1,1617,2017-02-27,Galatasaray,Besiktas,9,8,False
 T1,1617,2017-03-03,Trabzonspor,Karabukspor,6,5,False
 T1,1617,2017-03-04,Galatasaray,Antalyaspor,5,7,False
-T1,1617,2017-03-06,Antalyaspor,Fenerbahce,2,8,False
 T1,1617,2017-03-06,Trabzonspor,Bursaspor,3,10,False
-T1,1617,2017-03-06,Rizespor,Antalyaspor,10,2,False
-T1,1617,2017-03-06,Kocaelispor,Buyuksehyr,8,8,False
-T1,1617,2017-03-06,Galatasaray,Antalyaspor,2,2,False
 T1,1617,2017-03-06,Besiktas,Kocaelispor,7,8,False
+T1,1617,2017-03-06,Kocaelispor,Buyuksehyr,8,8,False
+T1,1617,2017-03-06,Rizespor,Antalyaspor,10,2,False
+T1,1617,2017-03-06,Antalyaspor,Fenerbahce,2,8,False
+T1,1617,2017-03-06,Galatasaray,Antalyaspor,2,2,False
 T1,1617,2017-03-13,Akhisar Belediyespor,Trabzonspor,16,7,False
 T1,1617,2017-03-17,Fenerbahce,Antalyaspor,5,5,False
-T1,1617,2017-03-18,Kasimpasa,Kocaelispor,6,6,False
-T1,1617,2017-03-18,Antalyaspor,Akhisar Belediyespor,1,5,False
-T1,1617,2017-03-18,Kocaelispor,Gaziantep,6,20,False
 T1,1617,2017-03-18,Trabzonspor,Galatasaray,5,7,False
-T1,1617,2017-03-19,Buyuksehyr,Karabukspor,7,16,False
-T1,1617,2017-03-19,Genclerbirligi,Rizespor,7,13,False
+T1,1617,2017-03-18,Kocaelispor,Gaziantep,6,20,False
+T1,1617,2017-03-18,Antalyaspor,Akhisar Belediyespor,1,5,False
+T1,1617,2017-03-18,Kasimpasa,Kocaelispor,6,6,False
 T1,1617,2017-03-19,Antalyaspor,Besiktas,1,13,False
+T1,1617,2017-03-19,Buyuksehyr,Karabukspor,7,16,False
 T1,1617,2017-03-19,Bursaspor,Antalyaspor,7,1,False
-T1,1617,2017-04-03,Bursaspor,Gaziantep,15,16,False
+T1,1617,2017-03-19,Genclerbirligi,Rizespor,7,13,False
 T1,1617,2017-04-03,Besiktas,Rizespor,15,15,False
+T1,1617,2017-04-03,Bursaspor,Gaziantep,15,16,False
 T1,1617,2017-04-21,Karabukspor,Kasimpasa,10,10,False
 T1,1617,2017-04-21,Antalyaspor,Gaziantep,9,18,False
-T1,1617,2017-04-22,Genclerbirligi,Kocaelispor,34,10,False
-T1,1617,2017-04-22,Antalyaspor,Kocaelispor,1,10,False
 T1,1617,2017-04-22,Antalyaspor,Trabzonspor,1,10,False
 T1,1617,2017-04-22,Rizespor,Buyuksehyr,19,34,False
+T1,1617,2017-04-22,Genclerbirligi,Kocaelispor,34,10,False
+T1,1617,2017-04-22,Antalyaspor,Kocaelispor,1,10,False
 T1,1617,2017-04-23,Galatasaray,Fenerbahce,36,12,False
 T1,1617,2017-04-23,Akhisar Belediyespor,Bursaspor,36,12,False
 T1,1617,2017-04-24,Besiktas,Antalyaspor,21,2,False
 T1,1617,2017-04-28,Gaziantep,Karabukspor,7,7,False
-T1,1617,2017-04-29,Trabzonspor,Genclerbirligi,7,7,False
 T1,1617,2017-04-29,Kocaelispor,Antalyaspor,7,5,False
-T1,1617,2017-04-30,Fenerbahce,Rizespor,7,8,False
+T1,1617,2017-04-29,Trabzonspor,Genclerbirligi,7,7,False
 T1,1617,2017-04-30,Kasimpasa,Akhisar Belediyespor,9,7,False
+T1,1617,2017-04-30,Fenerbahce,Rizespor,7,8,False
 T1,1617,2017-04-30,Buyuksehyr,Besiktas,8,6,False
 T1,1617,2017-04-30,Antalyaspor,Antalyaspor,1,1,False
-T1,1617,2017-05-03,Antalyaspor,Antalyaspor,3,3,True
-T1,1617,2017-05-03,Fenerbahce,Kocaelispor,3,4,True
 T1,1617,2017-05-03,Buyuksehyr,Antalyaspor,3,3,True
+T1,1617,2017-05-03,Antalyaspor,Antalyaspor,3,3,True
 T1,1617,2017-05-03,Kocaelispor,Kasimpasa,4,3,True
+T1,1617,2017-05-03,Fenerbahce,Kocaelispor,3,4,True
 T1,1617,2017-05-05,Antalyaspor,Buyuksehyr,2,2,False
+T1,1617,2017-05-13,Buyuksehyr,Genclerbirligi,2,14,False
 T1,1617,2017-05-13,Antalyaspor,Trabzonspor,2,14,False
 T1,1617,2017-05-13,Fenerbahce,Antalyaspor,10,2,False
-T1,1617,2017-05-13,Buyuksehyr,Genclerbirligi,2,14,False
-T1,1617,2017-05-14,Antalyaspor,Karabukspor,1,16,False
 T1,1617,2017-05-14,Gaziantep,Galatasaray,16,21,False
+T1,1617,2017-05-14,Antalyaspor,Karabukspor,1,16,False
 T1,1617,2017-05-14,Kocaelispor,Akhisar Belediyespor,11,3,False
 T1,1617,2017-05-15,Bursaspor,Besiktas,22,4,False
 T1,1617,2017-05-19,Galatasaray,Kocaelispor,5,5,False
 T1,1617,2017-05-20,Kocaelispor,Antalyaspor,1,6,False
-T1,1617,2017-05-20,Besiktas,Kasimpasa,5,17,False
 T1,1617,2017-05-20,Antalyaspor,Bursaspor,6,5,False
 T1,1617,2017-05-20,Rizespor,Gaziantep,20,6,False
-T1,1617,2017-05-21,Trabzonspor,Buyuksehyr,8,8,False
+T1,1617,2017-05-20,Besiktas,Kasimpasa,5,17,False
 T1,1617,2017-05-21,Antalyaspor,Karabukspor,1,7,False
-T1,1617,2017-05-22,Akhisar Belediyespor,Antalyaspor,8,1,False
+T1,1617,2017-05-21,Trabzonspor,Buyuksehyr,8,8,False
 T1,1617,2017-05-22,Genclerbirligi,Fenerbahce,9,9,False
-T1,1617,2017-05-27,Fenerbahce,Trabzonspor,5,6,False
+T1,1617,2017-05-22,Akhisar Belediyespor,Antalyaspor,8,1,False
+T1,1617,2017-05-27,Buyuksehyr,Antalyaspor,6,5,False
 T1,1617,2017-05-27,Kasimpasa,Antalyaspor,7,5,False
 T1,1617,2017-05-27,Antalyaspor,Akhisar Belediyespor,5,5,False
-T1,1617,2017-05-27,Buyuksehyr,Antalyaspor,6,5,False
-T1,1617,2017-05-28,Karabukspor,Kocaelispor,7,8,False
-T1,1617,2017-05-28,Gaziantep,Besiktas,8,8,False
-T1,1617,2017-05-28,Bursaspor,Genclerbirligi,8,6,False
+T1,1617,2017-05-27,Fenerbahce,Trabzonspor,5,6,False
 T1,1617,2017-05-28,Kocaelispor,Rizespor,8,8,False
+T1,1617,2017-05-28,Karabukspor,Kocaelispor,7,8,False
+T1,1617,2017-05-28,Bursaspor,Genclerbirligi,8,6,False
+T1,1617,2017-05-28,Gaziantep,Besiktas,8,8,False
 T1,1617,2017-05-29,Antalyaspor,Galatasaray,2,10,False
 T1,1617,2017-06-03,Antalyaspor,Galatasaray,5,5,False
 T1,1617,2017-06-03,Genclerbirligi,Akhisar Belediyespor,6,7,False
-T1,1617,2017-06-05,Galatasaray,Kasimpasa,2,9,False
-T1,1617,2017-06-05,Trabzonspor,Kocaelispor,9,8,False
 T1,1617,2017-06-05,Antalyaspor,Antalyaspor,2,2,False
+T1,1617,2017-06-05,Trabzonspor,Kocaelispor,9,8,False
 T1,1617,2017-06-05,Genclerbirligi,Antalyaspor,2,2,False
+T1,1617,2017-06-05,Galatasaray,Kasimpasa,2,9,False
 T1,1617,2017-07-04,Bursaspor,Karabukspor,37,37,True
-T1,1617,2017-07-05,Rizespor,Bursaspor,38,1,True
 T1,1617,2017-07-05,Besiktas,Fenerbahce,38,39,True
+T1,1617,2017-07-05,Rizespor,Bursaspor,38,1,True
+T1,1617,2017-08-04,Trabzonspor,Besiktas,60,30,False
 T1,1617,2017-08-04,Genclerbirligi,Antalyaspor,60,60,False
 T1,1617,2017-08-04,Gaziantep,Antalyaspor,68,60,False
-T1,1617,2017-08-04,Trabzonspor,Besiktas,60,30,False
 T1,1617,2017-08-05,Akhisar Belediyespor,Gaziantep,63,1,False
 T1,1617,2017-08-05,Karabukspor,Kocaelispor,32,61,False
 T1,1617,2017-09-04,Fenerbahce,Akhisar Belediyespor,8,8,False
-T1,1617,2017-09-04,Antalyaspor,Rizespor,8,61,False
 T1,1617,2017-09-04,Kocaelispor,Kocaelispor,9,9,False
+T1,1617,2017-09-04,Antalyaspor,Rizespor,8,61,False
 T1,1617,2017-10-02,Karabukspor,Besiktas,2,9,False
 T1,1617,2017-10-03,Antalyaspor,Fenerbahce,3,4,True
-T1,1617,2017-10-04,Kasimpasa,Antalyaspor,4,1,True
 T1,1617,2017-10-04,Buyuksehyr,Galatasaray,11,4,True
+T1,1617,2017-10-04,Kasimpasa,Antalyaspor,4,1,True
+T1,1617,2017-11-02,Bursaspor,Fenerbahce,4,3,True
 T1,1617,2017-11-02,Kocaelispor,Trabzonspor,3,4,True
 T1,1617,2017-11-02,Antalyaspor,Genclerbirligi,4,5,True
-T1,1617,2017-11-02,Bursaspor,Fenerbahce,4,3,True
-T1,1617,2017-11-03,Gaziantep,Kasimpasa,90,7,False
 T1,1617,2017-11-03,Galatasaray,Genclerbirligi,5,1,False
-T1,1617,2017-11-03,Kocaelispor,Bursaspor,1,1,False
+T1,1617,2017-11-03,Gaziantep,Kasimpasa,90,7,False
 T1,1617,2017-11-03,Karabukspor,Antalyaspor,5,1,False
-T1,1617,2017-12-02,Kasimpasa,Buyuksehyr,6,5,False
-T1,1617,2017-12-02,Antalyaspor,Antalyaspor,6,6,False
-T1,1617,2017-12-02,Galatasaray,Kocaelispor,7,5,False
+T1,1617,2017-11-03,Kocaelispor,Bursaspor,1,1,False
 T1,1617,2017-12-02,Akhisar Belediyespor,Rizespor,7,89,False
+T1,1617,2017-12-02,Galatasaray,Kocaelispor,7,5,False
+T1,1617,2017-12-02,Antalyaspor,Antalyaspor,6,6,False
+T1,1617,2017-12-02,Kasimpasa,Buyuksehyr,6,5,False
 T1,1617,2017-12-03,Antalyaspor,Buyuksehyr,1,1,False
 T1,1617,2017-12-03,Besiktas,Kocaelispor,8,1,False
 T1,1617,2017-12-03,Rizespor,Antalyaspor,1,1,False
 T1,1617,2017-12-04,Gaziantep,Genclerbirligi,31,10,False
-T1,1617,2017-12-05,Kocaelispor,Antalyaspor,2,2,True
 T1,1617,2017-12-05,Kasimpasa,Rizespor,3,2,True
+T1,1617,2017-12-05,Kocaelispor,Antalyaspor,2,2,True

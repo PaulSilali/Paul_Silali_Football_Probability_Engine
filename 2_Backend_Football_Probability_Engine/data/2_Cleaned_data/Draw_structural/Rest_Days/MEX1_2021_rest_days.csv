@@ -1,4 +1,5 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+MEX1,2021,2020-07-24,CF América,Santos Laguna,196,196,False
 MEX1,2021,2020-07-24,Club Necaxa,UANL Tigres,196,196,False
 MEX1,2021,2020-07-24,Deportivo Guadalajara,Club León,196,196,False
 MEX1,2021,2020-07-24,Club Tijuana,Atlas Guadalajara,196,196,False
@@ -34,7 +35,6 @@ MEX1,2021,2020-07-24,FC Juárez,Deportivo Guadalajara,196,196,False
 MEX1,2021,2020-07-24,Pumas UNAM,CF Monterrey,196,196,False
 MEX1,2021,2020-07-24,Club Tijuana,Atlético San Luis,196,196,False
 MEX1,2021,2020-07-24,Atlas Guadalajara,Deportivo Toluca,196,196,False
-MEX1,2021,2020-07-24,CF América,Santos Laguna,196,196,False
 MEX1,2021,2020-07-24,Puebla FC,CF Pachuca,196,196,False
 MEX1,2021,2020-07-24,Deportivo Guadalajara,Atlético San Luis,196,196,False
 MEX1,2021,2020-07-24,Cruz Azul,FC Juárez,196,196,False
@@ -99,6 +99,40 @@ MEX1,2021,2020-07-24,Atlético San Luis,CF Monterrey,196,196,False
 MEX1,2021,2020-07-24,Club León,Pumas UNAM,196,196,False
 MEX1,2021,2020-07-24,Club Tijuana,FC Juárez,196,196,False
 MEX1,2021,2020-07-24,CF Pachuca,Deportivo Toluca,196,196,False
+MEX1,2021,2021-01-08,CF Monterrey,Atlético San Luis,168,168,False
+MEX1,2021,2021-01-08,Pumas UNAM,CF Pachuca,168,168,False
+MEX1,2021,2021-01-08,Deportivo Guadalajara,Santos Laguna,168,168,False
+MEX1,2021,2021-01-08,Gallos Blancos,UANL Tigres,168,168,False
+MEX1,2021,2021-01-08,Club Necaxa,Pumas UNAM,168,168,False
+MEX1,2021,2021-01-08,FC Juárez,Atlético San Luis,168,168,False
+MEX1,2021,2021-01-08,Atlas Guadalajara,Club León,168,168,False
+MEX1,2021,2021-01-08,Cruz Azul,Deportivo Guadalajara,168,168,False
+MEX1,2021,2021-01-08,UANL Tigres,CF América,168,168,False
+MEX1,2021,2021-01-08,Deportivo Toluca,CF Monterrey,168,168,False
+MEX1,2021,2021-01-08,Gallos Blancos,Santos Laguna,168,168,False
+MEX1,2021,2021-01-08,Club Tijuana,Mazatlán FC,168,168,False
+MEX1,2021,2021-01-08,CF Pachuca,Puebla FC,168,168,False
+MEX1,2021,2021-01-08,Club Necaxa,Gallos Blancos,168,168,False
+MEX1,2021,2021-01-08,Mazatlán FC,Atlas Guadalajara,168,168,False
+MEX1,2021,2021-01-08,CF Pachuca,Deportivo Guadalajara,168,168,False
+MEX1,2021,2021-01-08,CF América,CF Pachuca,168,168,False
+MEX1,2021,2021-01-08,CF América,Cruz Azul,168,168,False
+MEX1,2021,2021-01-08,Santos Laguna,Deportivo Toluca,168,168,False
+MEX1,2021,2021-01-08,Mazatlán FC,Club León,168,168,False
+MEX1,2021,2021-01-08,Cruz Azul,Atlético San Luis,168,168,False
+MEX1,2021,2021-01-08,UANL Tigres,CF Monterrey,168,168,False
+MEX1,2021,2021-01-08,Deportivo Toluca,CF América,168,168,False
+MEX1,2021,2021-01-08,Atlético San Luis,CF Pachuca,168,168,False
+MEX1,2021,2021-01-08,Club Necaxa,Atlas Guadalajara,168,168,False
+MEX1,2021,2021-01-08,Club León,Gallos Blancos,168,168,False
+MEX1,2021,2021-01-08,Cruz Azul,Club Tijuana,168,168,False
+MEX1,2021,2021-01-08,Deportivo Toluca,Cruz Azul,168,168,False
+MEX1,2021,2021-01-08,CF Pachuca,CF América,168,168,False
+MEX1,2021,2021-01-08,CF Monterrey,Santos Laguna,168,168,False
+MEX1,2021,2021-01-08,Cruz Azul,Santos Laguna,168,168,False
+MEX1,2021,2021-01-08,Atlético San Luis,Puebla FC,168,168,False
+MEX1,2021,2021-01-08,Club León,Deportivo Toluca,168,168,False
+MEX1,2021,2021-01-08,Santos Laguna,CF Monterrey,168,168,False
 MEX1,2021,2021-01-08,Deportivo Guadalajara,FC Juárez,168,168,False
 MEX1,2021,2021-01-08,Cruz Azul,Gallos Blancos,168,168,False
 MEX1,2021,2021-01-08,Club Tijuana,Deportivo Toluca,168,168,False
@@ -121,23 +155,20 @@ MEX1,2021,2021-01-08,Mazatlán FC,Atlético San Luis,168,168,False
 MEX1,2021,2021-01-08,Deportivo Guadalajara,Club Necaxa,168,168,False
 MEX1,2021,2021-01-08,CF América,Gallos Blancos,168,168,False
 MEX1,2021,2021-01-08,Deportivo Toluca,Pumas UNAM,168,168,False
-MEX1,2021,2021-01-08,Santos Laguna,CF Monterrey,168,168,False
 MEX1,2021,2021-01-08,CF Pachuca,Atlas Guadalajara,168,168,False
 MEX1,2021,2021-01-08,UANL Tigres,Cruz Azul,168,168,False
 MEX1,2021,2021-01-08,Atlético San Luis,Santos Laguna,168,168,False
 MEX1,2021,2021-01-08,Club Necaxa,CF Monterrey,168,168,False
 MEX1,2021,2021-01-08,FC Juárez,Mazatlán FC,168,168,False
-MEX1,2021,2021-01-08,Cruz Azul,Deportivo Toluca,168,168,False
 MEX1,2021,2021-01-08,Atlas Guadalajara,CF América,168,168,False
 MEX1,2021,2021-01-08,Pumas UNAM,Club León,168,168,False
 MEX1,2021,2021-01-08,Gallos Blancos,Puebla FC,168,168,False
 MEX1,2021,2021-01-08,UANL Tigres,Club Tijuana,168,168,False
-MEX1,2021,2021-01-08,CF Pachuca,Deportivo Guadalajara,168,168,False
 MEX1,2021,2021-01-08,Atlético San Luis,UANL Tigres,168,168,False
+MEX1,2021,2021-01-08,Cruz Azul,Deportivo Toluca,168,168,False
 MEX1,2021,2021-01-08,Puebla FC,Club Necaxa,168,168,False
 MEX1,2021,2021-01-08,Mazatlán FC,Gallos Blancos,168,168,False
 MEX1,2021,2021-01-08,Deportivo Toluca,Atlas Guadalajara,168,168,False
-MEX1,2021,2021-01-08,CF América,CF Pachuca,168,168,False
 MEX1,2021,2021-01-08,Club León,Cruz Azul,168,168,False
 MEX1,2021,2021-01-08,CF Monterrey,Club Tijuana,168,168,False
 MEX1,2021,2021-01-08,Santos Laguna,FC Juárez,168,168,False
@@ -182,20 +213,3 @@ MEX1,2021,2021-01-08,Puebla FC,Mazatlán FC,168,168,False
 MEX1,2021,2021-01-08,FC Juárez,Cruz Azul,168,168,False
 MEX1,2021,2021-01-08,Atlas Guadalajara,Club Tijuana,168,168,False
 MEX1,2021,2021-01-08,CF América,Club Necaxa,168,168,False
-MEX1,2021,2021-01-08,CF Monterrey,Atlético San Luis,168,168,False
-MEX1,2021,2021-01-08,Pumas UNAM,CF Pachuca,168,168,False
-MEX1,2021,2021-01-08,Deportivo Guadalajara,Santos Laguna,168,168,False
-MEX1,2021,2021-01-08,Gallos Blancos,UANL Tigres,168,168,False
-MEX1,2021,2021-01-08,Club León,Deportivo Toluca,168,168,False
-MEX1,2021,2021-01-08,Club Necaxa,Pumas UNAM,168,168,False
-MEX1,2021,2021-01-08,FC Juárez,Atlético San Luis,168,168,False
-MEX1,2021,2021-01-08,Atlas Guadalajara,Club León,168,168,False
-MEX1,2021,2021-01-08,Cruz Azul,Deportivo Guadalajara,168,168,False
-MEX1,2021,2021-01-08,UANL Tigres,CF América,168,168,False
-MEX1,2021,2021-01-08,Deportivo Toluca,CF Monterrey,168,168,False
-MEX1,2021,2021-01-08,Gallos Blancos,Santos Laguna,168,168,False
-MEX1,2021,2021-01-08,Club Tijuana,Mazatlán FC,168,168,False
-MEX1,2021,2021-01-08,CF Pachuca,Puebla FC,168,168,False
-MEX1,2021,2021-01-08,Club Necaxa,Gallos Blancos,168,168,False
-MEX1,2021,2021-01-08,Mazatlán FC,Atlas Guadalajara,168,168,False
-MEX1,2021,2021-01-08,Atlético San Luis,Puebla FC,168,168,False

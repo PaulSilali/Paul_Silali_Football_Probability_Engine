@@ -1,0 +1,87 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9562,Sporting Kansas City,9563,FC Dallas,2122,1,0,0.0,3.0
+9566,D.C. United,9570,Columbus Crew,2122,2,0,0.0,5.0
+9549,Seattle Sounders,9562,Sporting Kansas City,2122,1,0,0.0,3.0
+9552,Chicago Fire,9554,Philadelphia Union,2122,1,1,1.0,2.0
+9553,CF Montréal,9554,Philadelphia Union,2122,1,1,1.0,2.0
+9545,Austin FC,9551,Portland Timbers,2122,1,0,0.0,4.0
+9550,Minnesota United FC,9564,San Jose Earthquakes,2122,1,1,1.0,2.0
+9545,Austin FC,9555,Houston Dynamo,2122,1,0,0.0,3.0
+9551,Portland Timbers,9559,Vancouver Whitecaps,2122,1,0,0.0,5.0
+9560,New England Revolution,9561,Toronto FC,2122,1,0,0.0,3.0
+9567,Orlando City,9570,Columbus Crew,2122,2,0,0.0,5.0
+9545,Austin FC,9563,FC Dallas,2122,2,0,0.0,5.5
+9551,Portland Timbers,9564,San Jose Earthquakes,2122,1,1,1.0,2.0
+9549,Seattle Sounders,9563,FC Dallas,2122,1,1,1.0,2.0
+9564,San Jose Earthquakes,9565,Real Salt Lake,2122,1,0,0.0,7.0
+9555,Houston Dynamo,9565,Real Salt Lake,2122,1,0,0.0,3.0
+9554,Philadelphia Union,9566,D.C. United,2122,1,0,0.0,4.0
+9550,Minnesota United FC,9562,Sporting Kansas City,2122,1,0,0.0,3.0
+9553,CF Montréal,9561,Toronto FC,2122,2,1,0.5,3.0
+9548,Atlanta United FC,9553,CF Montréal,2122,1,1,1.0,4.0
+9562,Sporting Kansas City,9565,Real Salt Lake,2122,1,0,0.0,3.0
+9550,Minnesota United FC,9555,Houston Dynamo,2122,1,0,0.0,3.0
+9547,Los Angeles Galaxy,9563,FC Dallas,2122,1,1,1.0,4.0
+9550,Minnesota United FC,9559,Vancouver Whitecaps,2122,1,0,0.0,3.0
+9557,FC Cincinnati,9567,Orlando City,2122,1,1,1.0,2.0
+9558,Nashville SC,9567,Orlando City,2122,2,1,0.5,3.0
+9552,Chicago Fire,9556,Inter Miami CF,2122,1,0,0.0,5.0
+9553,CF Montréal,9566,D.C. United,2122,1,0,0.0,3.0
+9559,Vancouver Whitecaps,9565,Real Salt Lake,2122,1,0,0.0,5.0
+9554,Philadelphia Union,9561,Toronto FC,2122,1,1,1.0,4.0
+9547,Los Angeles Galaxy,9550,Minnesota United FC,2122,2,2,1.0,4.0
+9546,New York RB,9553,CF Montréal,2122,1,0,0.0,3.0
+9550,Minnesota United FC,9551,Portland Timbers,2122,1,0,0.0,4.0
+9560,New England Revolution,9566,D.C. United,2122,1,0,0.0,5.0
+9560,New England Revolution,9567,Orlando City,2122,1,1,1.0,4.0
+9548,Atlanta United FC,9557,FC Cincinnati,2122,1,0,0.0,3.0
+9563,FC Dallas,9564,San Jose Earthquakes,2122,1,1,1.0,2.0
+9558,Nashville SC,9570,Columbus Crew,2122,1,1,1.0,2.0
+9546,New York RB,9561,Toronto FC,2122,1,1,1.0,4.0
+9555,Houston Dynamo,9563,FC Dallas,2122,1,1,1.0,4.0
+9547,Los Angeles Galaxy,9568,Colorado Rapids,2122,2,0,0.0,5.0
+9549,Seattle Sounders,9559,Vancouver Whitecaps,2122,1,1,1.0,2.0
+9546,New York RB,9560,New England Revolution,2122,2,0,0.0,6.5
+9548,Atlanta United FC,9566,D.C. United,2122,1,0,0.0,3.0
+9557,FC Cincinnati,9570,Columbus Crew,2122,1,0,0.0,5.0
+9562,Sporting Kansas City,9568,Colorado Rapids,2122,1,1,1.0,2.0
+9549,Seattle Sounders,9551,Portland Timbers,2122,1,0,0.0,8.0
+9545,Austin FC,9559,Vancouver Whitecaps,2122,2,0,0.0,3.0
+9549,Seattle Sounders,9570,Columbus Crew,2122,1,0,0.0,3.0
+9559,Vancouver Whitecaps,9564,San Jose Earthquakes,2122,1,1,1.0,2.0
+9563,FC Dallas,9565,Real Salt Lake,2122,2,0,0.0,4.0
+9557,FC Cincinnati,9558,Nashville SC,2122,1,0,0.0,9.0
+9547,Los Angeles Galaxy,9547,Los Angeles Galaxy,2122,1,1,1.0,6.0
+9557,FC Cincinnati,9560,New England Revolution,2122,1,0,0.0,5.0
+9549,Seattle Sounders,9565,Real Salt Lake,2122,1,0,0.0,11.0
+9565,Real Salt Lake,9568,Colorado Rapids,2122,1,0,0.0,3.0
+9561,Toronto FC,9566,D.C. United,2122,1,0,0.0,4.0
+9546,New York RB,9552,Chicago Fire,2122,1,0,0.0,3.0
+9548,Atlanta United FC,9567,Orlando City,2122,1,0,0.0,5.0
+9554,Philadelphia Union,9560,New England Revolution,2122,1,0,0.0,3.0
+9546,New York RB,9556,Inter Miami CF,2122,1,0,0.0,4.0
+9547,Los Angeles Galaxy,9551,Portland Timbers,2122,1,0,0.0,5.0
+9546,New York RB,9551,Portland Timbers,2122,1,0,0.0,6.0
+9551,Portland Timbers,9562,Sporting Kansas City,2122,1,1,1.0,2.0
+9559,Vancouver Whitecaps,9562,Sporting Kansas City,2122,1,0,0.0,4.0
+9555,Houston Dynamo,9568,Colorado Rapids,2122,1,0,0.0,4.0
+9556,Inter Miami CF,9558,Nashville SC,2122,1,0,0.0,3.0
+9556,Inter Miami CF,9567,Orlando City,2122,1,1,1.0,2.0
+9558,Nashville SC,9561,Toronto FC,2122,1,1,1.0,2.0
+9549,Seattle Sounders,9568,Colorado Rapids,2122,1,1,1.0,2.0
+9548,Atlanta United FC,9556,Inter Miami CF,2122,1,0,0.0,3.0
+9548,Atlanta United FC,9570,Columbus Crew,2122,1,0,0.0,5.0
+9546,New York RB,9554,Philadelphia Union,2122,2,1,0.5,2.5
+9556,Inter Miami CF,9561,Toronto FC,2122,1,0,0.0,4.0
+9545,Austin FC,9562,Sporting Kansas City,2122,1,0,0.0,4.0
+9548,Atlanta United FC,9561,Toronto FC,2122,1,1,1.0,2.0
+9547,Los Angeles Galaxy,9559,Vancouver Whitecaps,2122,2,1,0.5,2.5
+9553,CF Montréal,9556,Inter Miami CF,2122,1,0,0.0,3.0
+9547,Los Angeles Galaxy,9549,Seattle Sounders,2122,1,1,1.0,2.0
+9558,Nashville SC,9566,D.C. United,2122,1,0,0.0,7.0
+9547,Los Angeles Galaxy,9564,San Jose Earthquakes,2122,2,0,0.0,3.0
+9551,Portland Timbers,9565,Real Salt Lake,2122,2,0,0.0,4.5
+9556,Inter Miami CF,9557,FC Cincinnati,2122,1,0,0.0,6.0
+9547,Los Angeles Galaxy,9562,Sporting Kansas City,2122,1,0,0.0,5.0
+9546,New York RB,9558,Nashville SC,2122,1,1,1.0,2.0
+9546,New York RB,9570,Columbus Crew,2122,2,0,0.0,4.0

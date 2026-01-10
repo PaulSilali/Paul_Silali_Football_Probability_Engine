@@ -1,0 +1,381 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2018-07-27,Clermont,Chateauroux,0,0,D,1
+2018-07-27,Ajaccio,Paris FC,1,1,D,1
+2018-07-27,Annecy,Beziers,0,2,A,0
+2018-07-27,Valenciennes,Auxerre,3,1,H,0
+2018-07-27,Red Star,Niort,1,2,A,0
+2018-07-27,Le Mans,Le Mans,0,2,A,0
+2018-07-27,Grenoble,Sochaux,1,0,H,0
+2018-07-27,Ajaccio,Troyes,0,1,A,0
+2018-07-28,Lorient,Le Havre,0,0,D,1
+2018-07-30,Brest,Metz,0,1,A,0
+2018-08-03,Auxerre,Ajaccio,2,3,A,0
+2018-08-03,Paris FC,Annecy,2,0,H,0
+2018-08-03,Metz,Le Mans,5,1,H,0
+2018-08-03,Le Havre,Grenoble,1,1,D,1
+2018-08-03,Sochaux,Valenciennes,0,1,A,0
+2018-08-03,Troyes,Brest,1,2,A,0
+2018-08-03,Niort,Clermont,4,2,H,0
+2018-08-04,Le Mans,Red Star,1,0,H,0
+2018-08-04,Beziers,Ajaccio,0,1,A,0
+2018-08-06,Chateauroux,Lorient,1,2,A,0
+2018-08-10,Brest,Paris FC,1,1,D,1
+2018-08-10,Grenoble,Niort,1,0,H,0
+2018-08-10,Annecy,Le Mans,0,3,A,0
+2018-08-10,Le Mans,Auxerre,0,3,A,0
+2018-08-10,Red Star,Le Havre,0,1,A,0
+2018-08-10,Troyes,Beziers,0,1,A,0
+2018-08-10,Ajaccio,Sochaux,2,3,A,0
+2018-08-10,Ajaccio,Lorient,1,3,A,0
+2018-08-10,Valenciennes,Chateauroux,1,1,D,1
+2018-08-11,Clermont,Metz,2,3,A,0
+2018-08-17,Sochaux,Brest,2,0,H,0
+2018-08-17,Le Havre,Clermont,0,0,D,1
+2018-08-17,Niort,Le Mans,1,1,D,1
+2018-08-17,Lorient,Valenciennes,3,1,H,0
+2018-08-17,Chateauroux,Red Star,1,1,D,1
+2018-08-17,Ajaccio,Grenoble,2,0,H,0
+2018-08-17,Auxerre,Annecy,1,0,H,0
+2018-08-17,Paris FC,Beziers,1,0,H,0
+2018-08-18,Le Mans,Troyes,2,0,H,0
+2018-08-20,Metz,Ajaccio,3,1,H,0
+2018-08-24,Brest,Le Havre,1,0,H,0
+2018-08-24,Annecy,Niort,0,1,A,0
+2018-08-24,Le Mans,Paris FC,4,0,H,0
+2018-08-24,Grenoble,Chateauroux,0,0,D,1
+2018-08-24,Red Star,Auxerre,1,0,H,0
+2018-08-24,Troyes,Metz,0,1,A,0
+2018-08-24,Ajaccio,Lorient,0,0,D,1
+2018-08-24,Clermont,Sochaux,1,0,H,0
+2018-08-27,Valenciennes,Ajaccio,0,0,D,1
+2018-08-31,Chateauroux,Annecy,1,0,H,0
+2018-08-31,Le Havre,Le Mans,3,1,H,0
+2018-08-31,Ajaccio,Red Star,2,1,H,0
+2018-08-31,Valenciennes,Clermont,0,4,A,0
+2018-08-31,Sochaux,Beziers,1,0,H,0
+2018-08-31,Paris FC,Troyes,2,0,H,0
+2018-08-31,Niort,Ajaccio,2,0,H,0
+2018-08-31,Auxerre,Brest,0,2,A,0
+2018-09-01,Metz,Le Mans,2,0,H,0
+2018-09-03,Lorient,Grenoble,1,0,H,0
+2018-09-14,Annecy,Le Havre,0,1,A,0
+2018-09-14,Troyes,Niort,2,0,H,0
+2018-09-14,Red Star,Lorient,0,3,A,0
+2018-09-14,Le Mans,Chateauroux,2,0,H,0
+2018-09-14,Grenoble,Valenciennes,4,2,H,0
+2018-09-14,Ajaccio,Paris FC,0,0,D,1
+2018-09-14,Clermont,Auxerre,2,0,H,0
+2018-09-14,Brest,Ajaccio,4,1,H,0
+2018-09-15,Le Mans,Sochaux,2,0,H,0
+2018-09-17,Beziers,Metz,1,3,A,0
+2018-09-21,Chateauroux,Beziers,2,0,H,0
+2018-09-21,Lorient,Clermont,0,0,D,1
+2018-09-21,Sochaux,Le Mans,0,1,A,0
+2018-09-21,Grenoble,Brest,1,2,A,0
+2018-09-21,Auxerre,Ajaccio,0,0,D,1
+2018-09-21,Ajaccio,Annecy,0,1,A,0
+2018-09-21,Valenciennes,Red Star,4,1,H,0
+2018-09-21,Le Havre,Troyes,1,1,D,1
+2018-09-22,Paris FC,Metz,2,1,H,0
+2018-09-24,Niort,Le Mans,1,2,A,0
+2018-09-28,Red Star,Grenoble,2,3,A,0
+2018-09-28,Annecy,Sochaux,0,0,D,1
+2018-09-28,Ajaccio,Valenciennes,3,1,H,0
+2018-09-28,Beziers,Niort,1,1,D,1
+2018-09-28,Brest,Chateauroux,5,1,H,0
+2018-09-28,Le Mans,Lorient,2,0,H,0
+2018-09-28,Clermont,Ajaccio,1,1,D,1
+2018-09-28,Le Mans,Paris FC,0,0,D,1
+2018-09-29,Metz,Le Havre,0,1,A,0
+2018-10-01,Troyes,Auxerre,1,0,H,0
+2018-10-02,Beziers,Le Mans,0,0,D,1
+2018-10-05,Le Havre,Beziers,2,3,A,0
+2018-10-05,Ajaccio,Le Mans,0,2,A,0
+2018-10-05,Chateauroux,Troyes,0,3,A,0
+2018-10-05,Grenoble,Clermont,1,0,H,0
+2018-10-05,Niort,Paris FC,1,0,H,0
+2018-10-05,Red Star,Ajaccio,2,0,H,0
+2018-10-05,Valenciennes,Brest,1,3,A,0
+2018-10-05,Lorient,Annecy,4,1,H,0
+2018-10-06,Auxerre,Le Mans,1,2,A,0
+2018-10-08,Sochaux,Metz,1,2,A,0
+2018-10-19,Ajaccio,Le Havre,3,2,H,0
+2018-10-19,Troyes,Sochaux,1,2,A,0
+2018-10-19,Auxerre,Beziers,2,0,H,0
+2018-10-19,Paris FC,Chateauroux,0,0,D,1
+2018-10-19,Clermont,Red Star,0,0,D,1
+2018-10-19,Metz,Niort,3,0,H,0
+2018-10-19,Annecy,Grenoble,1,2,A,0
+2018-10-19,Le Mans,Valenciennes,1,0,H,0
+2018-10-20,Brest,Lorient,3,2,H,0
+2018-10-22,Le Mans,Ajaccio,5,0,H,0
+2018-10-26,Valenciennes,Annecy,1,1,D,1
+2018-10-26,Auxerre,Paris FC,0,2,A,0
+2018-10-26,Chateauroux,Ajaccio,2,2,D,1
+2018-10-26,Grenoble,Troyes,0,2,A,0
+2018-10-26,Lorient,Metz,0,0,D,1
+2018-10-26,Red Star,Le Mans,0,4,A,0
+2018-10-26,Sochaux,Niort,0,3,A,0
+2018-10-26,Ajaccio,Beziers,0,1,A,0
+2018-10-27,Le Havre,Le Mans,2,1,H,0
+2018-10-29,Clermont,Brest,2,2,D,1
+2018-11-02,Ajaccio,Ajaccio,1,2,A,0
+2018-11-02,Annecy,Clermont,0,1,A,0
+2018-11-02,Paris FC,Sochaux,0,0,D,1
+2018-11-02,Brest,Red Star,1,1,D,1
+2018-11-03,Le Mans,Grenoble,0,3,A,0
+2018-11-03,Beziers,Lorient,0,1,A,0
+2018-11-03,Le Mans,Chateauroux,0,1,A,0
+2018-11-03,Niort,Le Havre,1,0,H,0
+2018-11-03,Troyes,Valenciennes,4,2,H,0
+2018-11-05,Metz,Auxerre,0,1,A,0
+2018-11-09,Clermont,Le Mans,3,0,H,0
+2018-11-09,Auxerre,Niort,0,0,D,1
+2018-11-09,Red Star,Beziers,0,3,A,0
+2018-11-09,Lorient,Paris FC,2,1,H,0
+2018-11-09,Le Havre,Sochaux,3,2,H,0
+2018-11-09,Ajaccio,Troyes,2,1,H,0
+2018-11-09,Chateauroux,Metz,1,2,A,0
+2018-11-09,Grenoble,Ajaccio,2,0,H,0
+2018-11-10,Valenciennes,Le Mans,4,2,H,0
+2018-11-12,Brest,Annecy,2,1,H,0
+2018-11-23,Niort,Chateauroux,0,1,A,0
+2018-11-23,Annecy,Red Star,1,0,H,0
+2018-11-23,Troyes,Lorient,2,0,H,0
+2018-11-23,Ajaccio,Clermont,0,0,D,1
+2018-11-23,Paris FC,Le Havre,1,0,H,0
+2018-11-23,Beziers,Valenciennes,1,1,D,1
+2018-11-23,Le Mans,Brest,0,0,D,1
+2018-11-23,Sochaux,Auxerre,1,4,A,0
+2018-11-24,Le Mans,Grenoble,0,0,D,1
+2018-11-26,Metz,Ajaccio,1,0,H,0
+2018-11-30,Le Mans,Annecy,1,2,A,0
+2018-11-30,Chateauroux,Sochaux,1,0,H,0
+2018-11-30,Clermont,Beziers,2,0,H,0
+2018-11-30,Red Star,Troyes,0,3,A,0
+2018-11-30,Valenciennes,Paris FC,0,0,D,1
+2018-11-30,Brest,Ajaccio,2,0,H,0
+2018-11-30,Lorient,Le Mans,2,2,D,1
+2018-11-30,Le Havre,Auxerre,1,1,D,1
+2018-11-30,Ajaccio,Niort,0,1,A,0
+2018-12-01,Grenoble,Metz,1,1,D,1
+2018-12-03,Auxerre,Lorient,0,0,D,1
+2018-12-04,Paris FC,Clermont,3,0,H,0
+2018-12-04,Beziers,Grenoble,0,3,A,0
+2018-12-04,Niort,Valenciennes,1,0,H,0
+2018-12-04,Metz,Red Star,2,0,H,0
+2018-12-04,Sochaux,Ajaccio,2,0,H,0
+2018-12-04,Troyes,Le Mans,3,2,H,0
+2018-12-04,Le Mans,Brest,2,1,H,0
+2018-12-04,Le Havre,Chateauroux,2,1,H,0
+2018-12-04,Ajaccio,Annecy,1,1,D,1
+2018-12-14,Ajaccio,Le Havre,1,1,D,1
+2018-12-14,Le Mans,Ajaccio,1,3,A,0
+2018-12-14,Annecy,Troyes,1,1,D,1
+2018-12-14,Brest,Beziers,3,0,H,0
+2018-12-14,Chateauroux,Auxerre,0,0,D,1
+2018-12-14,Grenoble,Paris FC,0,1,A,0
+2018-12-14,Red Star,Sochaux,3,0,H,0
+2018-12-14,Lorient,Niort,1,1,D,1
+2018-12-15,Clermont,Le Mans,0,0,D,1
+2018-12-17,Valenciennes,Metz,0,2,A,0
+2018-12-21,Chateauroux,Ajaccio,0,1,A,0
+2018-12-21,Paris FC,Red Star,1,1,D,1
+2018-12-21,Niort,Brest,1,1,D,1
+2018-12-21,Beziers,Le Mans,1,2,A,0
+2018-12-21,Auxerre,Grenoble,4,0,H,0
+2018-12-21,Troyes,Clermont,0,1,A,0
+2018-12-22,Le Mans,Ajaccio,1,2,A,0
+2018-12-22,Sochaux,Lorient,1,0,H,0
+2019-01-11,Ajaccio,Auxerre,0,4,A,0
+2019-01-11,Le Mans,Metz,0,1,A,0
+2019-01-11,Valenciennes,Sochaux,1,0,H,0
+2019-01-11,Annecy,Paris FC,1,2,A,0
+2019-01-11,Lorient,Chateauroux,2,1,H,0
+2019-01-11,Clermont,Niort,3,2,H,0
+2019-01-11,Ajaccio,Beziers,2,1,H,0
+2019-01-12,Grenoble,Le Havre,0,0,D,1
+2019-01-12,Brest,Troyes,1,1,D,1
+2019-01-14,Red Star,Le Mans,1,0,H,0
+2019-01-15,Le Havre,Valenciennes,4,3,H,0
+2019-01-18,Sochaux,Ajaccio,0,0,D,1
+2019-01-18,Lorient,Ajaccio,0,1,A,0
+2019-01-18,Beziers,Troyes,0,0,D,1
+2019-01-18,Auxerre,Le Mans,3,0,H,0
+2019-01-18,Metz,Clermont,1,2,A,0
+2019-01-18,Chateauroux,Valenciennes,1,1,D,1
+2019-01-19,Niort,Grenoble,1,1,D,1
+2019-01-19,Le Mans,Annecy,2,1,H,0
+2019-01-21,Paris FC,Brest,0,1,A,0
+2019-01-21,Le Havre,Red Star,1,0,H,0
+2019-01-25,Grenoble,Ajaccio,1,1,D,1
+2019-01-25,Valenciennes,Lorient,1,2,A,0
+2019-01-25,Annecy,Auxerre,1,0,H,0
+2019-01-25,Ajaccio,Metz,0,0,D,1
+2019-01-25,Red Star,Chateauroux,1,3,A,0
+2019-01-26,Brest,Sochaux,1,0,H,0
+2019-01-26,Le Mans,Niort,1,0,H,0
+2019-01-28,Troyes,Le Mans,1,0,H,0
+2019-01-28,Beziers,Paris FC,0,1,A,0
+2019-01-28,Clermont,Le Havre,0,0,D,1
+2019-01-29,Metz,Annecy,3,0,H,0
+2019-02-01,Sochaux,Clermont,2,1,H,0
+2019-02-01,Metz,Troyes,1,1,D,1
+2019-02-01,Le Havre,Brest,1,1,D,1
+2019-02-01,Chateauroux,Grenoble,2,2,D,1
+2019-02-01,Auxerre,Red Star,0,0,D,1
+2019-02-01,Lorient,Ajaccio,1,0,H,0
+2019-02-01,Paris FC,Le Mans,0,0,D,1
+2019-02-01,Niort,Annecy,1,1,D,1
+2019-02-04,Ajaccio,Valenciennes,0,0,D,1
+2019-02-04,Le Mans,Beziers,3,0,H,0
+2019-02-08,Ajaccio,Niort,1,0,H,0
+2019-02-08,Beziers,Sochaux,0,0,D,1
+2019-02-08,Clermont,Valenciennes,0,1,A,0
+2019-02-08,Grenoble,Lorient,0,1,A,0
+2019-02-08,Annecy,Chateauroux,0,1,A,0
+2019-02-08,Troyes,Paris FC,0,1,A,0
+2019-02-08,Le Mans,Le Havre,1,1,D,1
+2019-02-08,Red Star,Ajaccio,1,1,D,1
+2019-02-09,Le Mans,Metz,0,0,D,1
+2019-02-11,Brest,Auxerre,1,0,H,0
+2019-02-15,Auxerre,Clermont,1,0,H,0
+2019-02-15,Paris FC,Ajaccio,1,1,D,1
+2019-02-15,Le Havre,Annecy,0,2,A,0
+2019-02-15,Valenciennes,Grenoble,3,2,H,0
+2019-02-15,Ajaccio,Brest,1,1,D,1
+2019-02-15,Chateauroux,Le Mans,1,2,A,0
+2019-02-15,Lorient,Red Star,2,1,H,0
+2019-02-15,Niort,Troyes,1,1,D,1
+2019-02-17,Sochaux,Le Mans,0,1,A,0
+2019-02-18,Metz,Beziers,1,0,H,0
+2019-02-22,Beziers,Chateauroux,1,1,D,1
+2019-02-22,Ajaccio,Auxerre,2,1,H,0
+2019-02-22,Brest,Grenoble,3,1,H,0
+2019-02-22,Annecy,Ajaccio,3,1,H,0
+2019-02-22,Troyes,Le Havre,2,1,H,0
+2019-02-22,Red Star,Valenciennes,1,0,H,0
+2019-02-22,Le Mans,Sochaux,2,0,H,0
+2019-02-22,Metz,Paris FC,2,0,H,0
+2019-02-22,Clermont,Lorient,0,1,A,0
+2019-02-25,Le Mans,Niort,4,1,H,0
+2019-03-01,Chateauroux,Brest,2,2,D,1
+2019-03-01,Niort,Beziers,0,0,D,1
+2019-03-01,Ajaccio,Clermont,0,3,A,0
+2019-03-01,Valenciennes,Ajaccio,4,0,H,0
+2019-03-01,Auxerre,Troyes,0,2,A,0
+2019-03-01,Grenoble,Red Star,2,0,H,0
+2019-03-01,Sochaux,Annecy,0,4,A,0
+2019-03-02,Lorient,Le Mans,1,3,A,0
+2019-03-03,Paris FC,Le Mans,2,0,H,0
+2019-03-04,Le Havre,Metz,2,2,D,1
+2019-03-08,Troyes,Chateauroux,1,0,H,0
+2019-03-08,Paris FC,Niort,0,0,D,1
+2019-03-08,Beziers,Le Havre,1,1,D,1
+2019-03-08,Brest,Valenciennes,2,5,A,0
+2019-03-08,Ajaccio,Red Star,0,0,D,1
+2019-03-08,Clermont,Grenoble,1,1,D,1
+2019-03-08,Annecy,Lorient,3,2,H,0
+2019-03-08,Le Mans,Ajaccio,2,2,D,1
+2019-03-09,Le Mans,Auxerre,2,0,H,0
+2019-03-11,Metz,Sochaux,1,1,D,1
+2019-03-15,Chateauroux,Paris FC,0,1,A,0
+2019-03-15,Sochaux,Troyes,0,0,D,1
+2019-03-15,Niort,Metz,0,3,A,0
+2019-03-15,Grenoble,Annecy,1,0,H,0
+2019-03-15,Le Havre,Ajaccio,3,1,H,0
+2019-03-15,Red Star,Clermont,0,4,A,0
+2019-03-15,Beziers,Auxerre,1,0,H,0
+2019-03-15,Valenciennes,Le Mans,1,4,A,0
+2019-03-16,Lorient,Brest,1,1,D,1
+2019-03-18,Ajaccio,Le Mans,1,0,H,0
+2019-03-29,Niort,Sochaux,0,1,A,0
+2019-03-29,Troyes,Grenoble,2,1,H,0
+2019-03-29,Le Mans,Red Star,2,2,D,1
+2019-03-29,Ajaccio,Chateauroux,1,1,D,1
+2019-03-29,Paris FC,Auxerre,3,0,H,0
+2019-03-29,Annecy,Valenciennes,0,2,A,0
+2019-03-29,Brest,Clermont,0,0,D,1
+2019-03-29,Beziers,Ajaccio,0,0,D,1
+2019-03-31,Metz,Lorient,2,1,H,0
+2019-04-01,Le Mans,Le Havre,0,0,D,1
+2019-04-05,Clermont,Annecy,2,3,A,0
+2019-04-05,Red Star,Brest,0,2,A,0
+2019-04-05,Sochaux,Paris FC,1,0,H,0
+2019-04-05,Valenciennes,Troyes,0,1,A,0
+2019-04-05,Le Havre,Niort,0,0,D,1
+2019-04-05,Lorient,Beziers,3,1,H,0
+2019-04-05,Ajaccio,Ajaccio,1,0,H,0
+2019-04-05,Grenoble,Le Mans,0,4,A,0
+2019-04-06,Auxerre,Metz,0,0,D,1
+2019-04-08,Chateauroux,Le Mans,0,0,D,1
+2019-04-12,Sochaux,Le Havre,1,3,A,0
+2019-04-12,Le Mans,Valenciennes,0,0,D,1
+2019-04-12,Niort,Auxerre,0,0,D,1
+2019-04-12,Troyes,Ajaccio,1,0,H,0
+2019-04-12,Ajaccio,Grenoble,1,2,A,0
+2019-04-12,Beziers,Red Star,1,3,A,0
+2019-04-12,Metz,Chateauroux,2,1,H,0
+2019-04-12,Annecy,Brest,2,3,A,0
+2019-04-12,Le Mans,Clermont,2,1,H,0
+2019-04-15,Paris FC,Lorient,2,2,D,1
+2019-04-19,Red Star,Annecy,1,1,D,1
+2019-04-19,Valenciennes,Beziers,5,6,A,0
+2019-04-19,Lorient,Troyes,0,3,A,0
+2019-04-19,Clermont,Ajaccio,0,0,D,1
+2019-04-19,Auxerre,Sochaux,1,0,H,0
+2019-04-19,Ajaccio,Metz,0,2,A,0
+2019-04-19,Chateauroux,Niort,2,1,H,0
+2019-04-19,Brest,Le Mans,3,1,H,0
+2019-04-19,Le Havre,Paris FC,2,1,H,0
+2019-04-20,Grenoble,Le Mans,0,2,A,0
+2019-04-22,Paris FC,Valenciennes,0,0,D,1
+2019-04-23,Niort,Ajaccio,1,1,D,1
+2019-04-23,Troyes,Red Star,2,0,H,0
+2019-04-23,Sochaux,Chateauroux,0,0,D,1
+2019-04-23,Annecy,Le Mans,1,0,H,0
+2019-04-23,Le Mans,Lorient,0,1,A,0
+2019-04-23,Auxerre,Le Havre,0,1,A,0
+2019-04-23,Ajaccio,Brest,0,2,A,0
+2019-04-23,Beziers,Clermont,1,1,D,1
+2019-04-23,Metz,Grenoble,1,1,D,1
+2019-04-26,Clermont,Paris FC,1,1,D,1
+2019-04-26,Grenoble,Beziers,4,2,H,0
+2019-04-26,Ajaccio,Sochaux,0,2,A,0
+2019-04-26,Le Mans,Troyes,0,1,A,0
+2019-04-26,Annecy,Ajaccio,1,0,H,0
+2019-04-26,Chateauroux,Le Havre,1,0,H,0
+2019-04-26,Valenciennes,Niort,1,2,A,0
+2019-04-26,Red Star,Metz,1,2,A,0
+2019-04-27,Brest,Le Mans,2,0,H,0
+2019-04-29,Lorient,Auxerre,2,2,D,1
+2019-05-03,Sochaux,Red Star,1,2,A,0
+2019-05-03,Troyes,Annecy,2,1,H,0
+2019-05-03,Beziers,Brest,1,0,H,0
+2019-05-03,Metz,Valenciennes,3,0,H,0
+2019-05-03,Paris FC,Grenoble,1,0,H,0
+2019-05-03,Ajaccio,Le Mans,1,0,H,0
+2019-05-03,Auxerre,Chateauroux,1,2,A,0
+2019-05-03,Le Havre,Ajaccio,2,2,D,1
+2019-05-04,Le Mans,Clermont,1,0,H,0
+2019-05-06,Niort,Lorient,2,2,D,1
+2019-05-10,Grenoble,Auxerre,0,0,D,1
+2019-05-10,Brest,Niort,3,0,H,0
+2019-05-10,Ajaccio,Le Mans,0,2,A,0
+2019-05-10,Clermont,Troyes,2,4,A,0
+2019-05-10,Ajaccio,Chateauroux,1,2,A,0
+2019-05-10,Le Mans,Beziers,0,0,D,1
+2019-05-10,Red Star,Paris FC,0,1,A,0
+2019-05-10,Annecy,Metz,1,0,H,0
+2019-05-10,Valenciennes,Le Havre,1,0,H,0
+2019-05-10,Lorient,Sochaux,0,0,D,1
+2019-05-17,Le Mans,Le Mans,5,2,H,0
+2019-05-17,Beziers,Annecy,3,0,H,0
+2019-05-17,Metz,Brest,1,0,H,0
+2019-05-17,Troyes,Ajaccio,0,0,D,1
+2019-05-17,Paris FC,Ajaccio,1,0,H,0
+2019-05-17,Niort,Red Star,1,0,H,0
+2019-05-17,Auxerre,Valenciennes,1,1,D,1
+2019-05-17,Chateauroux,Clermont,2,2,D,1
+2019-05-17,Le Havre,Lorient,2,3,A,0
+2019-05-17,Sochaux,Grenoble,3,1,H,0

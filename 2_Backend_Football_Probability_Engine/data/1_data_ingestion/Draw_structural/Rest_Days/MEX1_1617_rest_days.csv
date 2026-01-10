@@ -1,6 +1,4 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-MEX1,1617,2016-07-15,Club Tijuana,Monarcas Morelia,7,7,False
-MEX1,1617,2016-07-15,Gallos Blancos,CD Veracruz,7,7,False
 MEX1,1617,2016-07-15,CF Monterrey,Puebla FC,7,7,False
 MEX1,1617,2016-07-15,Atlas Guadalajara,Deportivo Toluca,7,7,False
 MEX1,1617,2016-07-15,CF Pachuca,Club León,7,7,False
@@ -75,6 +73,7 @@ MEX1,1617,2016-07-15,Deportivo Toluca,Deportivo Guadalajara,7,7,False
 MEX1,1617,2016-07-15,Gallos Blancos,CF Monterrey,7,7,False
 MEX1,1617,2016-07-15,UANL Tigres,Puebla FC,7,7,False
 MEX1,1617,2016-07-15,Atlas Guadalajara,Club Necaxa,7,7,False
+MEX1,1617,2016-07-15,Club Tijuana,Monarcas Morelia,7,7,False
 MEX1,1617,2016-07-15,Chiapas FC,Cruz Azul,7,7,False
 MEX1,1617,2016-07-15,CF Pachuca,Club Tijuana,7,7,False
 MEX1,1617,2016-07-15,CF América,Club León,7,7,False
@@ -98,6 +97,9 @@ MEX1,1617,2016-07-15,CF América,Pumas UNAM,7,7,False
 MEX1,1617,2016-07-15,Deportivo Toluca,Club León,7,7,False
 MEX1,1617,2016-07-15,Santos Laguna,Club Tijuana,7,7,False
 MEX1,1617,2016-07-15,Club Tijuana,Atlas Guadalajara,7,7,False
+MEX1,1617,2016-07-15,Gallos Blancos,CD Veracruz,7,7,False
+MEX1,1617,2016-07-15,CF América,Chiapas FC,7,7,False
+MEX1,1617,2017-01-06,Club Tijuana,CF América,175,175,False
 MEX1,1617,2017-01-06,Pumas UNAM,Club Necaxa,175,175,False
 MEX1,1617,2017-01-06,Chiapas FC,UANL Tigres,175,175,False
 MEX1,1617,2017-01-06,Santos Laguna,Puebla FC,175,175,False
@@ -173,7 +175,6 @@ MEX1,1617,2017-01-06,CF Pachuca,Puebla FC,175,175,False
 MEX1,1617,2017-01-06,CF América,CF Monterrey,175,175,False
 MEX1,1617,2017-01-06,Deportivo Toluca,Club Necaxa,175,175,False
 MEX1,1617,2017-01-06,Santos Laguna,Gallos Blancos,175,175,False
-MEX1,1617,2017-01-06,Club Tijuana,CF América,175,175,False
 MEX1,1617,2017-01-06,Cruz Azul,Monarcas Morelia,175,175,False
 MEX1,1617,2017-01-06,Gallos Blancos,Atlas Guadalajara,175,175,False
 MEX1,1617,2017-01-06,CF Monterrey,Chiapas FC,175,175,False

@@ -1,0 +1,463 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2017-01-10,Foggia,Novara,2,2,D,1
+2017-02-09,Brescia,Palermo,0,0,D,1
+2017-02-10,Frosinone,Cremonese,0,0,D,1
+2017-02-12,Foggia,Cittadella,1,3,A,0
+2017-02-12,Brescia,Salernitana,2,0,H,0
+2017-02-12,Cremonese,Spezia,1,0,H,0
+2017-02-12,Palermo,Venezia,0,0,D,1
+2017-02-12,Pescara,Ternana,3,3,D,1
+2017-02-12,Parma,Pro Vercelli,3,0,H,0
+2017-02-12,Novara,Empoli,1,1,D,1
+2017-02-12,Frosinone,Cesena,3,3,D,1
+2017-03-09,Ascoli,Pro Vercelli,1,0,H,0
+2017-03-09,Spezia,Carpi,0,1,A,0
+2017-03-09,Perugia,Pescara,4,2,H,0
+2017-03-09,Frosinone,Cittadella,2,1,H,0
+2017-03-09,Foggia,Virtus Entella,1,1,D,1
+2017-03-09,Empoli,Bari,3,2,H,0
+2017-03-09,Cremonese,Avellino,3,1,H,0
+2017-03-09,Novara,Parma,0,1,A,0
+2017-03-09,Cesena,Venezia,0,0,D,1
+2017-03-10,Ternana,Brescia,1,1,D,1
+2017-03-11,Pescara,Palermo,2,2,D,1
+2017-03-12,Virtus Entella,Bari,3,1,H,0
+2017-03-12,Avellino,Carpi,1,1,D,1
+2017-04-09,Salernitana,Ternana,3,3,D,1
+2017-04-11,Frosinone,Parma,2,1,H,0
+2017-04-11,Brescia,Venezia,1,2,A,0
+2017-04-11,Salernitana,Bari,2,2,D,1
+2017-04-11,Foggia,Cremonese,2,3,A,0
+2017-04-11,Novara,Pro Vercelli,0,1,A,0
+2017-04-11,Carpi,Ascoli,4,2,H,0
+2017-04-11,Virtus Entella,Cesena,2,2,D,1
+2017-04-11,Cittadella,Ternana,1,1,D,1
+2017-04-12,Perugia,Ascoli,1,0,H,0
+2017-05-11,Empoli,Spezia,1,1,D,1
+2017-06-11,Perugia,Avellino,1,1,D,1
+2017-07-10,Cesena,Spezia,1,0,H,0
+2017-07-10,Salernitana,Ascoli,0,0,D,1
+2017-08-09,Pescara,Frosinone,3,3,D,1
+2017-08-10,Bari,Avellino,2,1,H,0
+2017-08-10,Venezia,Carpi,2,0,H,0
+2017-08-10,Virtus Entella,Brescia,3,0,H,0
+2017-08-10,Pescara,Cittadella,1,2,A,0
+2017-08-10,Palermo,Parma,1,1,D,1
+2017-08-10,Perugia,Pro Vercelli,1,5,A,0
+2017-08-10,Novara,Frosinone,2,1,H,0
+2017-08-10,Cremonese,Ternana,3,3,D,1
+2017-08-10,Empoli,Foggia,3,1,H,0
+2017-08-12,Novara,Cremonese,1,1,D,1
+2017-08-12,Ternana,Parma,1,1,D,1
+2017-08-12,Spezia,Foggia,1,0,H,0
+2017-08-12,Cesena,Pescara,4,2,H,0
+2017-08-25,Parma,Cremonese,1,0,H,0
+2017-08-26,Venezia,Salernitana,0,0,D,1
+2017-08-26,Pro Vercelli,Frosinone,0,2,A,0
+2017-08-26,Palermo,Spezia,2,0,H,0
+2017-08-26,Avellino,Brescia,2,1,H,0
+2017-08-26,Ternana,Empoli,1,1,D,1
+2017-08-26,Virtus Entella,Perugia,1,5,A,0
+2017-08-26,Cittadella,Ascoli,3,2,H,0
+2017-08-26,Carpi,Novara,1,0,H,0
+2017-08-27,Pescara,Foggia,5,1,H,0
+2017-08-28,Bari,Cesena,3,0,H,0
+2017-09-09,Pro Vercelli,Cremonese,1,4,A,0
+2017-09-09,Spezia,Virtus Entella,2,1,H,0
+2017-09-09,Bari,Venezia,0,2,A,0
+2017-09-09,Palermo,Empoli,3,3,D,1
+2017-09-09,Avellino,Foggia,5,1,H,0
+2017-09-09,Ascoli,Novara,1,2,A,0
+2017-09-09,Ternana,Cesena,1,0,H,0
+2017-09-09,Carpi,Salernitana,1,0,H,0
+2017-09-12,Empoli,Carpi,1,0,H,0
+2017-09-12,Venezia,Pro Vercelli,1,1,D,1
+2017-09-12,Salernitana,Perugia,1,1,D,1
+2017-09-12,Cittadella,Avellino,2,2,D,1
+2017-09-12,Ascoli,Virtus Entella,1,1,D,1
+2017-09-12,Frosinone,Brescia,2,0,H,0
+2017-09-15,Venezia,Spezia,0,0,D,1
+2017-09-15,Cesena,Avellino,3,1,H,0
+2017-09-16,Novara,Cittadella,1,0,H,0
+2017-09-16,Salernitana,Pescara,2,2,D,1
+2017-09-16,Perugia,Parma,3,0,H,0
+2017-09-16,Virtus Entella,Ternana,3,1,H,0
+2017-09-16,Frosinone,Bari,3,2,H,0
+2017-09-16,Foggia,Palermo,1,1,D,1
+2017-09-16,Cremonese,Carpi,1,1,D,1
+2017-09-16,Brescia,Pro Vercelli,0,0,D,1
+2017-09-16,Empoli,Ascoli,3,0,H,0
+2017-09-18,Avellino,Venezia,1,1,D,1
+2017-09-19,Pescara,Virtus Entella,2,2,D,1
+2017-09-19,Parma,Empoli,1,2,A,0
+2017-09-19,Carpi,Foggia,1,3,A,0
+2017-09-19,Spezia,Novara,1,0,H,0
+2017-09-19,Palermo,Perugia,1,0,H,0
+2017-09-19,Cittadella,Cesena,4,0,H,0
+2017-09-19,Bari,Cremonese,1,0,H,0
+2017-09-19,Ascoli,Frosinone,0,1,A,0
+2017-09-19,Pro Vercelli,Salernitana,1,1,D,1
+2017-09-23,Bari,Ternana,3,0,H,0
+2017-09-23,Empoli,Cittadella,0,1,A,0
+2017-09-23,Perugia,Frosinone,1,0,H,0
+2017-09-23,Salernitana,Spezia,2,0,H,0
+2017-09-23,Venezia,Parma,0,1,A,0
+2017-09-23,Virtus Entella,Carpi,0,0,D,1
+2017-09-23,Cremonese,Pescara,0,0,D,1
+2017-09-23,Novara,Avellino,1,2,A,0
+2017-09-23,Brescia,Foggia,2,2,D,1
+2017-09-24,Cesena,Ascoli,0,2,A,0
+2017-09-25,Palermo,Pro Vercelli,2,1,H,0
+2017-09-29,Parma,Salernitana,2,2,D,1
+2017-09-30,Avellino,Empoli,3,2,H,0
+2017-09-30,Brescia,Perugia,2,1,H,0
+2017-09-30,Ternana,Venezia,2,3,A,0
+2017-09-30,Cittadella,Virtus Entella,0,1,A,0
+2017-09-30,Spezia,Bari,1,0,H,0
+2017-09-30,Pro Vercelli,Cesena,5,2,H,0
+2017-09-30,Ascoli,Palermo,0,0,D,1
+2017-09-30,Carpi,Pescara,0,1,A,0
+2017-10-09,Parma,Brescia,0,1,A,0
+2017-10-12,Bari,Palermo,0,3,A,0
+2017-10-13,Foggia,Perugia,2,1,H,0
+2017-10-14,Carpi,Cesena,2,1,H,0
+2017-10-14,Brescia,Novara,0,1,A,0
+2017-10-14,Parma,Pescara,0,1,A,0
+2017-10-14,Frosinone,Palermo,0,0,D,1
+2017-10-14,Ternana,Spezia,4,2,H,0
+2017-10-14,Pro Vercelli,Bari,2,2,D,1
+2017-10-14,Cittadella,Cremonese,1,2,A,0
+2017-10-14,Ascoli,Venezia,3,3,D,1
+2017-10-15,Avellino,Salernitana,2,3,A,0
+2017-10-16,Virtus Entella,Empoli,2,3,A,0
+2017-10-20,Cremonese,Brescia,2,0,H,0
+2017-10-20,Bari,Cittadella,4,2,H,0
+2017-10-21,Pro Vercelli,Carpi,0,0,D,1
+2017-10-21,Cesena,Foggia,3,3,D,1
+2017-10-21,Palermo,Novara,0,2,A,0
+2017-10-21,Parma,Virtus Entella,3,1,H,0
+2017-10-21,Pescara,Avellino,2,1,H,0
+2017-10-21,Salernitana,Frosinone,1,1,D,1
+2017-10-21,Spezia,Perugia,4,2,H,0
+2017-10-21,Ternana,Ascoli,1,1,D,1
+2017-10-21,Venezia,Empoli,1,0,H,0
+2017-10-23,Brescia,Bari,2,1,H,0
+2017-10-24,Empoli,Pescara,3,1,H,0
+2017-10-24,Novara,Salernitana,2,3,A,0
+2017-10-24,Virtus Entella,Cremonese,1,1,D,1
+2017-10-24,Frosinone,Ternana,4,2,H,0
+2017-10-24,Perugia,Cesena,0,3,A,0
+2017-10-24,Foggia,Parma,0,3,A,0
+2017-10-24,Cittadella,Venezia,2,1,H,0
+2017-10-24,Carpi,Palermo,1,3,A,0
+2017-10-24,Ascoli,Spezia,3,1,H,0
+2017-10-24,Avellino,Pro Vercelli,1,0,H,0
+2017-10-28,Salernitana,Empoli,2,1,H,0
+2017-10-28,Venezia,Frosinone,1,1,D,1
+2017-10-28,Cremonese,Perugia,3,3,D,1
+2017-10-28,Cesena,Novara,2,2,D,1
+2017-10-28,Bari,Ascoli,3,0,H,0
+2017-10-28,Palermo,Virtus Entella,2,0,H,0
+2017-10-28,Pescara,Brescia,0,3,A,0
+2017-10-28,Spezia,Cittadella,0,0,D,1
+2017-10-29,Parma,Avellino,2,0,H,0
+2017-10-29,Pro Vercelli,Foggia,1,4,A,0
+2017-10-30,Ternana,Carpi,0,0,D,1
+2017-11-09,Cittadella,Perugia,1,1,D,1
+2017-11-11,Pro Vercelli,Empoli,2,1,H,0
+2017-11-11,Spezia,Frosinone,1,1,D,1
+2017-11-11,Avellino,Virtus Entella,0,0,D,1
+2017-11-17,Frosinone,Avellino,1,1,D,1
+2017-11-18,Novara,Bari,1,2,A,0
+2017-11-18,Parma,Ascoli,4,0,H,0
+2017-11-18,Perugia,Carpi,5,0,H,0
+2017-11-18,Virtus Entella,Venezia,0,0,D,1
+2017-11-18,Pescara,Pro Vercelli,3,1,H,0
+2017-11-18,Brescia,Spezia,1,1,D,1
+2017-11-18,Empoli,Cesena,5,3,H,0
+2017-11-18,Foggia,Ternana,1,1,D,1
+2017-11-19,Salernitana,Cremonese,1,1,D,1
+2017-11-20,Palermo,Cittadella,0,3,A,0
+2017-11-24,Empoli,Frosinone,3,3,D,1
+2017-11-25,Avellino,Palermo,1,3,A,0
+2017-11-25,Pro Vercelli,Virtus Entella,1,1,D,1
+2017-11-25,Cittadella,Salernitana,2,1,H,0
+2017-11-25,Ascoli,Cremonese,0,0,D,1
+2017-11-25,Carpi,Parma,2,1,H,0
+2017-11-25,Venezia,Novara,1,3,A,0
+2017-11-25,Spezia,Pescara,4,0,H,0
+2017-11-26,Bari,Foggia,1,0,H,0
+2017-11-26,Ternana,Perugia,1,1,D,1
+2017-11-27,Cesena,Brescia,1,0,H,0
+2017-12-11,Cesena,Salernitana,3,3,D,1
+2017-12-11,Cremonese,Palermo,1,2,A,0
+2017-12-11,Venezia,Perugia,1,0,H,0
+2017-12-11,Bari,Pescara,1,0,H,0
+2017-12-11,Cittadella,Parma,1,2,A,0
+2017-12-11,Ascoli,Foggia,0,2,A,0
+2017-12-11,Carpi,Brescia,1,1,D,1
+2017-12-11,Ternana,Novara,1,1,D,1
+2017-12-15,Foggia,Venezia,2,2,D,1
+2017-12-16,Pro Vercelli,Spezia,0,2,A,0
+2017-12-16,Perugia,Bari,1,3,A,0
+2017-12-16,Avellino,Ascoli,1,1,D,1
+2017-12-16,Carpi,Frosinone,1,1,D,1
+2017-12-16,Cremonese,Empoli,1,1,D,1
+2017-12-16,Palermo,Ternana,1,0,H,0
+2017-12-16,Parma,Cesena,0,0,D,1
+2017-12-16,Virtus Entella,Salernitana,0,2,A,0
+2017-12-17,Pescara,Novara,1,0,H,0
+2017-12-17,Brescia,Cittadella,1,1,D,1
+2017-12-20,Venezia,Cremonese,1,1,D,1
+2017-12-21,Bari,Parma,0,0,D,1
+2017-12-21,Ascoli,Pescara,1,1,D,1
+2017-12-21,Salernitana,Foggia,0,3,A,0
+2017-12-21,Spezia,Avellino,1,0,H,0
+2017-12-21,Frosinone,Virtus Entella,4,3,H,0
+2017-12-21,Empoli,Brescia,1,1,D,1
+2017-12-21,Cittadella,Carpi,0,1,A,0
+2017-12-21,Novara,Perugia,1,1,D,1
+2017-12-21,Cesena,Palermo,1,1,D,1
+2017-12-21,Ternana,Pro Vercelli,4,3,H,0
+2017-12-27,Parma,Spezia,0,0,D,1
+2017-12-28,Palermo,Salernitana,3,0,H,0
+2017-12-28,Avellino,Ternana,2,1,H,0
+2017-12-28,Foggia,Frosinone,1,2,A,0
+2017-12-28,Perugia,Empoli,2,4,A,0
+2017-12-28,Pro Vercelli,Cittadella,1,2,A,0
+2017-12-28,Virtus Entella,Novara,2,1,H,0
+2017-12-28,Brescia,Ascoli,0,1,A,0
+2017-12-28,Carpi,Bari,0,0,D,1
+2017-12-28,Cremonese,Cesena,1,0,H,0
+2017-12-28,Pescara,Venezia,1,0,H,0
+2018-01-05,Avellino,Cittadella,0,2,A,0
+2018-01-05,Carpi,Empoli,0,0,D,1
+2018-01-05,Parma,Ternana,2,0,H,0
+2018-01-05,Pescara,Cesena,0,0,D,1
+2018-01-05,Pro Vercelli,Venezia,0,2,A,0
+2018-01-05,Brescia,Frosinone,1,2,A,0
+2018-01-05,Cremonese,Novara,1,1,D,1
+2018-01-05,Foggia,Spezia,2,1,H,0
+2018-01-05,Perugia,Salernitana,1,1,D,1
+2018-01-05,Virtus Entella,Ascoli,1,1,D,1
+2018-01-20,Ascoli,Cittadella,1,2,A,0
+2018-01-20,Empoli,Ternana,2,1,H,0
+2018-01-20,Salernitana,Venezia,3,2,H,0
+2018-01-20,Cremonese,Parma,1,0,H,0
+2018-01-20,Foggia,Pescara,0,1,A,0
+2018-01-20,Frosinone,Pro Vercelli,4,0,H,0
+2018-01-20,Novara,Carpi,1,0,H,0
+2018-01-20,Perugia,Virtus Entella,2,0,H,0
+2018-01-20,Spezia,Palermo,0,0,D,1
+2018-01-20,Cesena,Bari,1,1,D,1
+2018-01-21,Brescia,Avellino,2,3,A,0
+2018-01-26,Pescara,Perugia,0,2,A,0
+2018-01-27,Parma,Novara,3,0,H,0
+2018-01-27,Pro Vercelli,Ascoli,2,0,H,0
+2018-01-27,Venezia,Cesena,1,0,H,0
+2018-01-27,Avellino,Cremonese,0,0,D,1
+2018-01-27,Bari,Empoli,0,4,A,0
+2018-01-27,Palermo,Brescia,2,0,H,0
+2018-01-27,Carpi,Spezia,2,1,H,0
+2018-01-27,Virtus Entella,Foggia,1,2,A,0
+2018-01-28,Cittadella,Frosinone,1,2,A,0
+2018-01-29,Ternana,Salernitana,2,2,D,1
+2018-02-02,Empoli,Palermo,4,0,H,0
+2018-02-04,Foggia,Empoli,0,3,A,0
+2018-02-04,Avellino,Bari,1,2,A,0
+2018-02-04,Parma,Palermo,3,2,H,0
+2018-02-04,Carpi,Venezia,0,0,D,1
+2018-02-16,Cremonese,Bari,0,1,A,0
+2018-02-17,Salernitana,Pro Vercelli,0,0,D,1
+2018-02-17,Virtus Entella,Pescara,0,0,D,1
+2018-02-17,Novara,Spezia,1,1,D,1
+2018-02-17,Venezia,Avellino,3,1,H,0
+2018-02-17,Foggia,Carpi,3,0,H,0
+2018-02-17,Perugia,Palermo,1,0,H,0
+2018-02-17,Cesena,Cittadella,0,1,A,0
+2018-02-17,Empoli,Parma,4,0,H,0
+2018-02-18,Brescia,Ternana,3,1,H,0
+2018-02-18,Frosinone,Ascoli,2,0,H,0
+2018-02-23,Spezia,Salernitana,3,0,H,0
+2018-02-23,Parma,Venezia,1,1,D,1
+2018-02-24,Ascoli,Cesena,2,1,H,0
+2018-02-24,Carpi,Virtus Entella,0,0,D,1
+2018-02-24,Cittadella,Empoli,1,1,D,1
+2018-02-24,Foggia,Brescia,1,2,A,0
+2018-02-24,Frosinone,Perugia,1,3,A,0
+2018-02-24,Ternana,Bari,1,2,A,0
+2018-02-24,Pro Vercelli,Palermo,0,0,D,1
+2018-02-24,Avellino,Novara,2,1,H,0
+2018-02-24,Pescara,Cremonese,0,0,D,1
+2018-02-26,Salernitana,Parma,0,1,A,0
+2018-02-27,Virtus Entella,Cittadella,0,1,A,0
+2018-02-27,Empoli,Avellino,1,1,D,1
+2018-02-27,Novara,Foggia,0,1,A,0
+2018-02-27,Palermo,Ascoli,4,1,H,0
+2018-02-27,Venezia,Ternana,2,0,H,0
+2018-02-27,Cremonese,Frosinone,2,2,D,1
+2018-03-02,Novara,Ascoli,1,2,A,0
+2018-03-02,Frosinone,Pescara,3,0,H,0
+2018-03-02,Brescia,Parma,2,1,H,0
+2018-03-02,Venezia,Bari,3,1,H,0
+2018-03-02,Salernitana,Carpi,1,2,A,0
+2018-03-02,Cremonese,Pro Vercelli,2,3,A,0
+2018-03-02,Foggia,Avellino,2,1,H,0
+2018-03-02,Perugia,Cittadella,1,3,A,0
+2018-03-03,Cittadella,Pescara,2,0,H,0
+2018-03-03,Frosinone,Novara,1,0,H,0
+2018-03-03,Ascoli,Salernitana,1,3,A,0
+2018-03-03,Ternana,Cremonese,2,1,H,0
+2018-03-03,Spezia,Cesena,1,2,A,0
+2018-03-04,Brescia,Virtus Entella,0,0,D,1
+2018-03-04,Pro Vercelli,Perugia,0,2,A,0
+2018-03-13,Pescara,Carpi,0,1,A,0
+2018-03-13,Bari,Spezia,1,1,D,1
+2018-03-16,Foggia,Cesena,2,1,H,0
+2018-03-17,Virtus Entella,Parma,2,0,H,0
+2018-03-17,Cittadella,Bari,0,0,D,1
+2018-03-17,Frosinone,Salernitana,0,0,D,1
+2018-03-17,Perugia,Spezia,3,0,H,0
+2018-03-17,Ascoli,Ternana,2,1,H,0
+2018-03-17,Brescia,Cremonese,1,1,D,1
+2018-03-17,Empoli,Venezia,3,2,H,0
+2018-03-17,Novara,Palermo,2,2,D,1
+2018-03-18,Avellino,Pescara,2,2,D,1
+2018-03-19,Carpi,Pro Vercelli,2,0,H,0
+2018-03-24,Bari,Brescia,3,0,H,0
+2018-03-24,Spezia,Ascoli,1,1,D,1
+2018-03-25,Pescara,Empoli,0,1,A,0
+2018-03-25,Venezia,Cittadella,2,1,H,0
+2018-03-25,Parma,Foggia,3,1,H,0
+2018-03-25,Cesena,Perugia,1,1,D,1
+2018-03-25,Ternana,Frosinone,0,0,D,1
+2018-03-25,Salernitana,Novara,1,0,H,0
+2018-03-25,Cremonese,Virtus Entella,0,1,A,0
+2018-03-25,Palermo,Carpi,4,0,H,0
+2018-03-25,Pro Vercelli,Avellino,0,0,D,1
+2018-03-28,Ascoli,Bari,1,0,H,0
+2018-03-29,Empoli,Salernitana,2,0,H,0
+2018-03-29,Foggia,Pro Vercelli,2,1,H,0
+2018-03-29,Frosinone,Venezia,2,1,H,0
+2018-03-29,Virtus Entella,Palermo,1,2,A,0
+2018-03-29,Brescia,Pescara,2,1,H,0
+2018-03-29,Carpi,Ternana,2,1,H,0
+2018-03-29,Avellino,Parma,1,2,A,0
+2018-03-29,Cittadella,Spezia,1,2,A,0
+2018-03-30,Perugia,Cremonese,1,0,H,0
+2018-03-30,Novara,Cesena,1,0,H,0
+2018-04-02,Cesena,Ternana,4,3,H,0
+2018-04-13,Foggia,Ascoli,3,0,H,0
+2018-04-13,Parma,Cittadella,0,0,D,1
+2018-04-14,Virtus Entella,Avellino,1,1,D,1
+2018-04-14,Pescara,Bari,2,2,D,1
+2018-04-14,Perugia,Venezia,1,1,D,1
+2018-04-14,Palermo,Cremonese,1,1,D,1
+2018-04-14,Frosinone,Spezia,1,1,D,1
+2018-04-14,Empoli,Pro Vercelli,3,2,H,0
+2018-04-14,Brescia,Carpi,1,1,D,1
+2018-04-14,Salernitana,Cesena,1,1,D,1
+2018-04-14,Novara,Ternana,0,3,A,0
+2018-04-16,Ascoli,Parma,0,1,A,0
+2018-04-17,Venezia,Virtus Entella,2,0,H,0
+2018-04-17,Spezia,Brescia,0,1,A,0
+2018-04-17,Cittadella,Palermo,0,0,D,1
+2018-04-17,Avellino,Frosinone,0,2,A,0
+2018-04-17,Ternana,Foggia,2,2,D,1
+2018-04-17,Pro Vercelli,Pescara,3,1,H,0
+2018-04-17,Cremonese,Salernitana,1,1,D,1
+2018-04-17,Cesena,Empoli,2,3,A,0
+2018-04-17,Carpi,Perugia,1,2,A,0
+2018-04-17,Bari,Novara,1,1,D,1
+2018-04-21,Virtus Entella,Pro Vercelli,3,2,H,0
+2018-04-21,Palermo,Avellino,3,0,H,0
+2018-04-21,Parma,Carpi,2,1,H,0
+2018-04-21,Salernitana,Cittadella,1,3,A,0
+2018-04-21,Cremonese,Ascoli,1,2,A,0
+2018-04-21,Foggia,Bari,1,1,D,1
+2018-04-21,Novara,Venezia,1,3,A,0
+2018-04-21,Brescia,Cesena,0,0,D,1
+2018-04-22,Pescara,Spezia,3,2,H,0
+2018-04-22,Perugia,Ternana,2,3,A,0
+2018-04-23,Frosinone,Empoli,2,4,A,0
+2018-04-27,Venezia,Palermo,3,0,H,0
+2018-04-27,Bari,Virtus Entella,1,0,H,0
+2018-04-28,Ternana,Pescara,0,3,A,0
+2018-04-28,Ascoli,Perugia,2,2,D,1
+2018-04-28,Carpi,Avellino,0,0,D,1
+2018-04-28,Empoli,Novara,1,1,D,1
+2018-04-28,Cesena,Frosinone,1,0,H,0
+2018-04-28,Cittadella,Foggia,3,1,H,0
+2018-04-28,Salernitana,Brescia,4,2,H,0
+2018-04-28,Pro Vercelli,Parma,1,0,H,0
+2018-04-28,Spezia,Cremonese,1,0,H,0
+2018-04-30,Palermo,Bari,1,1,D,1
+2018-05-02,Virtus Entella,Spezia,0,1,A,0
+2018-05-05,Novara,Pescara,1,1,D,1
+2018-05-05,Ternana,Palermo,2,3,A,0
+2018-05-05,Venezia,Foggia,2,1,H,0
+2018-05-05,Frosinone,Carpi,1,0,H,0
+2018-05-05,Salernitana,Virtus Entella,1,0,H,0
+2018-05-05,Ascoli,Avellino,1,1,D,1
+2018-05-05,Cittadella,Brescia,2,2,D,1
+2018-05-05,Bari,Perugia,3,1,H,0
+2018-05-05,Spezia,Pro Vercelli,5,1,H,0
+2018-05-18,Novara,Virtus Entella,0,1,A,0
+2018-05-18,Cesena,Cremonese,1,0,H,0
+2018-05-18,Bari,Carpi,2,0,H,0
+2018-05-18,Ascoli,Brescia,0,0,D,1
+2018-05-18,Empoli,Perugia,2,1,H,0
+2018-05-18,Frosinone,Foggia,2,2,D,1
+2018-05-18,Ternana,Avellino,1,2,A,0
+2018-05-18,Venezia,Pescara,0,0,D,1
+2018-05-18,Spezia,Parma,0,2,A,0
+2018-05-18,Salernitana,Palermo,0,2,A,0
+2018-05-18,Cittadella,Pro Vercelli,2,0,H,0
+2018-06-03,Cesena,Pro Vercelli,2,2,D,1
+2018-06-03,Perugia,Brescia,2,0,H,0
+2018-06-05,Cesena,Parma,2,1,H,0
+2018-07-04,Spezia,Empoli,1,1,D,1
+2018-07-04,Ternana,Cittadella,5,1,H,0
+2018-07-04,Ascoli,Carpi,2,0,H,0
+2018-07-04,Bari,Salernitana,1,1,D,1
+2018-07-04,Palermo,Pescara,1,1,D,1
+2018-07-04,Parma,Frosinone,2,0,H,0
+2018-07-04,Cremonese,Foggia,0,4,A,0
+2018-07-05,Empoli,Cremonese,1,1,D,1
+2018-08-04,Venezia,Brescia,1,2,A,0
+2018-08-04,Pro Vercelli,Novara,0,0,D,1
+2018-08-04,Cesena,Virtus Entella,3,0,H,0
+2018-09-04,Avellino,Perugia,2,0,H,0
+2018-10-02,Bari,Frosinone,1,0,H,0
+2018-10-02,Spezia,Venezia,1,1,D,1
+2018-10-02,Carpi,Cremonese,1,1,D,1
+2018-10-02,Avellino,Cesena,1,1,D,1
+2018-10-02,Ascoli,Empoli,1,2,A,0
+2018-10-02,Ternana,Virtus Entella,0,1,A,0
+2018-10-02,Pro Vercelli,Brescia,0,0,D,1
+2018-10-02,Pescara,Salernitana,1,0,H,0
+2018-10-03,Spezia,Ternana,1,1,D,1
+2018-10-03,Palermo,Frosinone,1,0,H,0
+2018-10-03,Cremonese,Cittadella,1,1,D,1
+2018-10-03,Pescara,Parma,1,4,A,0
+2018-10-03,Perugia,Foggia,2,0,H,0
+2018-10-03,Bari,Pro Vercelli,2,2,D,1
+2018-10-03,Cesena,Carpi,0,0,D,1
+2018-10-03,Venezia,Ascoli,1,0,H,0
+2018-11-02,Parma,Perugia,1,1,D,1
+2018-11-02,Cittadella,Novara,1,3,A,0
+2018-11-03,Empoli,Virtus Entella,2,1,H,0
+2018-11-03,Salernitana,Avellino,2,0,H,0
+2018-11-05,Avellino,Spezia,1,0,H,0
+2018-12-02,Palermo,Foggia,1,2,A,0
+2018-12-03,Novara,Brescia,2,1,H,0
+2018-12-05,Virtus Entella,Frosinone,0,1,A,0
+2018-12-05,Parma,Bari,1,0,H,0
+2018-12-05,Palermo,Cesena,0,0,D,1
+2018-12-05,Foggia,Salernitana,1,0,H,0
+2018-12-05,Pescara,Ascoli,0,1,A,0
+2018-12-05,Carpi,Cittadella,1,1,D,1
+2018-12-05,Cremonese,Venezia,5,1,H,0
+2018-12-05,Perugia,Novara,1,1,D,1
+2018-12-05,Pro Vercelli,Ternana,2,1,H,0
+2018-12-05,Brescia,Empoli,0,2,A,0

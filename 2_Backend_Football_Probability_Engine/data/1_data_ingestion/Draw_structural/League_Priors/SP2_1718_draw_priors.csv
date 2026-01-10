@@ -1,0 +1,462 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2017-01-09,Granada,Barcelona B,2,2,D,1
+2017-01-10,Osasuna,Sp Gijon,2,0,H,0
+2017-01-10,Lugo,Tenerife,1,0,H,0
+2017-01-10,Sevilla B,Reus Deportiu,0,1,A,0
+2017-01-10,Huesca,Vallecano,2,1,H,0
+2017-01-10,Alcorcon,Granada,1,2,A,0
+2017-01-11,Gimnastic,Barcelona B,0,0,D,1
+2017-02-09,Osasuna,Huesca,1,1,D,1
+2017-02-09,Mallorca,Vallecano,0,0,D,1
+2017-02-09,Lugo,Cadiz,0,1,A,0
+2017-02-09,Gimnastic,Sp Gijon,0,4,A,0
+2017-02-09,Numancia,Almeria,1,0,H,0
+2017-02-10,Oviedo,Zaragoza,2,2,D,1
+2017-02-12,Huesca,Cordoba,3,1,H,0
+2017-02-12,Vallecano,Granada,1,0,H,0
+2017-02-12,Reus Deportiu,Barcelona B,2,1,H,0
+2017-02-12,Mallorca,Oviedo,0,2,A,0
+2017-03-09,Sevilla B,Leganes,1,2,A,0
+2017-03-09,Oviedo,Reus Deportiu,3,0,H,0
+2017-03-09,Valladolid,Tenerife,2,0,H,0
+2017-03-09,Cordoba,Zaragoza,1,2,A,0
+2017-03-11,Numancia,Alcorcon,1,0,H,0
+2017-03-12,Leganes,Alcorcon,2,2,D,1
+2017-03-12,Sevilla B,Lugo,1,1,D,1
+2017-03-12,Valladolid,Numancia,2,3,A,0
+2017-03-12,Almeria,Tenerife,2,1,H,0
+2017-03-12,Cadiz,Albacete,2,0,H,0
+2017-03-12,Sp Gijon,Zaragoza,0,1,A,0
+2017-04-09,Alcorcon,Albacete,1,0,H,0
+2017-04-11,Sevilla B,Tenerife,1,1,D,1
+2017-04-11,Reus Deportiu,Sp Gijon,1,0,H,0
+2017-04-11,Vallecano,Albacete,1,1,D,1
+2017-04-11,Mallorca,Cordoba,1,0,H,0
+2017-05-11,Valladolid,Gimnastic,0,3,A,0
+2017-05-11,Osasuna,Granada,0,0,D,1
+2017-05-11,Almeria,Cadiz,0,2,A,0
+2017-05-11,Leganes,Barcelona B,1,1,D,1
+2017-05-11,Oviedo,Lugo,3,2,H,0
+2017-06-11,Huesca,Zaragoza,3,1,H,0
+2017-07-10,Reus Deportiu,Leganes,1,1,D,1
+2017-07-10,Cadiz,Osasuna,0,2,A,0
+2017-07-10,Sp Gijon,Sevilla B,3,0,H,0
+2017-07-10,Almeria,Huesca,0,3,A,0
+2017-07-10,Tenerife,Gimnastic,2,0,H,0
+2017-08-09,Cadiz,Gimnastic,2,0,H,0
+2017-08-10,Zaragoza,Numancia,3,0,H,0
+2017-08-10,Barcelona B,Oviedo,1,1,D,1
+2017-08-10,Vallecano,Valladolid,4,1,H,0
+2017-08-10,Cordoba,Alcorcon,3,0,H,0
+2017-08-10,Granada,Lugo,2,0,H,0
+2017-08-10,Albacete,Mallorca,2,1,H,0
+2017-08-12,Granada,Almeria,3,2,H,0
+2017-08-12,Barcelona B,Sp Gijon,2,1,H,0
+2017-08-18,Tenerife,Zaragoza,1,0,H,0
+2017-08-18,Mallorca,Leganes,2,0,H,0
+2017-08-19,Valladolid,Barcelona B,1,2,A,0
+2017-08-19,Numancia,Huesca,1,0,H,0
+2017-08-19,Cordoba,Cadiz,1,2,A,0
+2017-08-19,Alcorcon,Sp Gijon,0,0,D,1
+2017-08-19,Osasuna,Sevilla B,1,1,D,1
+2017-08-20,Gimnastic,Almeria,0,1,A,0
+2017-08-20,Granada,Albacete,0,0,D,1
+2017-08-20,Oviedo,Vallecano,2,3,A,0
+2017-08-21,Lugo,Reus Deportiu,0,0,D,1
+2017-08-25,Albacete,Cordoba,0,3,A,0
+2017-08-26,Vallecano,Numancia,2,2,D,1
+2017-08-26,Huesca,Mallorca,2,0,H,0
+2017-08-26,Sevilla B,Valladolid,1,2,A,0
+2017-08-26,Leganes,Osasuna,2,1,H,0
+2017-08-26,Almeria,Oviedo,1,1,D,1
+2017-08-27,Zaragoza,Granada,1,1,D,1
+2017-08-27,Cadiz,Alcorcon,0,0,D,1
+2017-08-27,Sp Gijon,Lugo,2,0,H,0
+2017-08-27,Reus Deportiu,Gimnastic,1,1,D,1
+2017-08-28,Barcelona B,Tenerife,0,3,A,0
+2017-09-09,Sp Gijon,Oviedo,1,1,D,1
+2017-09-09,Almeria,Mallorca,2,1,H,0
+2017-09-09,Huesca,Sevilla B,0,0,D,1
+2017-09-09,Barcelona B,Cordoba,4,0,H,0
+2017-09-12,Alcorcon,Huesca,1,1,D,1
+2017-09-12,Zaragoza,Cadiz,0,2,A,0
+2017-09-12,Numancia,Mallorca,1,0,H,0
+2017-09-12,Albacete,Valladolid,2,1,H,0
+2017-09-15,Lugo,Zaragoza,2,1,H,0
+2017-09-16,Numancia,Sp Gijon,3,0,H,0
+2017-09-16,Sevilla B,Vallecano,0,0,D,1
+2017-09-16,Valladolid,Granada,2,1,H,0
+2017-09-16,Osasuna,Almeria,2,1,H,0
+2017-09-16,Mallorca,Reus Deportiu,1,1,D,1
+2017-09-17,Alcorcon,Barcelona B,1,1,D,1
+2017-09-17,Gimnastic,Albacete,3,1,H,0
+2017-09-17,Leganes,Huesca,3,2,H,0
+2017-09-17,Cordoba,Tenerife,2,0,H,0
+2017-09-17,Oviedo,Cadiz,1,0,H,0
+2017-09-22,Almeria,Sevilla B,3,0,H,0
+2017-09-23,Reus Deportiu,Osasuna,0,0,D,1
+2017-09-23,Sp Gijon,Mallorca,1,0,H,0
+2017-09-23,Tenerife,Alcorcon,4,0,H,0
+2017-09-23,Granada,Cordoba,3,1,H,0
+2017-09-24,Zaragoza,Gimnastic,1,1,D,1
+2017-09-24,Cadiz,Numancia,0,0,D,1
+2017-09-24,Huesca,Valladolid,1,0,H,0
+2017-09-24,Albacete,Oviedo,2,1,H,0
+2017-09-24,Vallecano,Leganes,3,1,H,0
+2017-09-25,Barcelona B,Lugo,1,2,A,0
+2017-09-29,Leganes,Almeria,0,0,D,1
+2017-09-30,Valladolid,Cordoba,4,1,H,0
+2017-09-30,Mallorca,Cadiz,3,0,H,0
+2017-09-30,Numancia,Albacete,5,1,H,0
+2017-10-09,Albacete,Lugo,0,1,A,0
+2017-10-09,Zaragoza,Alcorcon,0,1,A,0
+2017-10-09,Vallecano,Osasuna,0,3,A,0
+2017-10-09,Leganes,Valladolid,4,4,D,1
+2017-10-09,Tenerife,Granada,2,2,D,1
+2017-10-10,Leganes,Sp Gijon,0,2,A,0
+2017-10-10,Huesca,Reus Deportiu,1,1,D,1
+2017-10-11,Cordoba,Osasuna,0,1,A,0
+2017-10-12,Lugo,Leganes,3,1,H,0
+2017-10-12,Tenerife,Reus Deportiu,3,0,H,0
+2017-10-12,Cordoba,Vallecano,2,2,D,1
+2017-10-12,Oviedo,Osasuna,1,0,H,0
+2017-10-12,Gimnastic,Sevilla B,2,1,H,0
+2017-10-13,Sp Gijon,Huesca,1,1,D,1
+2017-10-14,Granada,Oviedo,2,0,H,0
+2017-10-14,Barcelona B,Mallorca,1,0,H,0
+2017-10-14,Tenerife,Numancia,1,1,D,1
+2017-10-14,Cadiz,Leganes,2,2,D,1
+2017-10-15,Reus Deportiu,Vallecano,0,2,A,0
+2017-10-15,Almeria,Valladolid,1,1,D,1
+2017-10-15,Cordoba,Gimnastic,1,5,A,0
+2017-10-15,Zaragoza,Osasuna,1,1,D,1
+2017-10-15,Albacete,Sevilla B,2,1,H,0
+2017-10-16,Alcorcon,Lugo,0,1,A,0
+2017-10-20,Osasuna,Barcelona B,2,2,D,1
+2017-10-21,Mallorca,Tenerife,2,2,D,1
+2017-10-21,Numancia,Granada,1,3,A,0
+2017-10-21,Huesca,Cadiz,1,0,H,0
+2017-10-21,Sevilla B,Zaragoza,2,2,D,1
+2017-10-22,Valladolid,Lugo,2,2,D,1
+2017-10-22,Almeria,Reus Deportiu,0,1,A,0
+2017-10-22,Gimnastic,Alcorcon,0,3,A,0
+2017-10-22,Oviedo,Cordoba,2,0,H,0
+2017-10-22,Vallecano,Sp Gijon,1,1,D,1
+2017-10-23,Leganes,Albacete,0,0,D,1
+2017-10-27,Zaragoza,Leganes,0,0,D,1
+2017-10-28,Albacete,Huesca,0,0,D,1
+2017-10-28,Cadiz,Vallecano,0,0,D,1
+2017-10-28,Lugo,Gimnastic,1,0,H,0
+2017-10-28,Sp Gijon,Almeria,2,0,H,0
+2017-10-29,Cordoba,Numancia,1,1,D,1
+2017-10-29,Reus Deportiu,Valladolid,2,2,D,1
+2017-10-29,Alcorcon,Oviedo,2,0,H,0
+2017-10-29,Tenerife,Osasuna,0,0,D,1
+2017-10-29,Barcelona B,Sevilla B,1,1,D,1
+2017-10-30,Granada,Mallorca,4,1,H,0
+2017-11-09,Reus Deportiu,Numancia,1,0,H,0
+2017-11-10,Numancia,Barcelona B,1,0,H,0
+2017-11-10,Gimnastic,Granada,2,0,H,0
+2017-11-10,Oviedo,Tenerife,1,1,D,1
+2017-11-10,Sevilla B,Cadiz,0,0,D,1
+2017-11-10,Mallorca,Zaragoza,0,2,A,0
+2017-11-11,Alcorcon,Mallorca,1,1,D,1
+2017-11-11,Tenerife,Leganes,2,0,H,0
+2017-11-11,Barcelona B,Huesca,0,2,A,0
+2017-11-11,Albacete,Almeria,2,0,H,0
+2017-11-11,Zaragoza,Vallecano,3,2,H,0
+2017-11-13,Cadiz,Reus Deportiu,1,0,H,0
+2017-11-17,Almeria,Zaragoza,3,0,H,0
+2017-11-18,Reus Deportiu,Albacete,1,1,D,1
+2017-11-18,Valladolid,Oviedo,3,1,H,0
+2017-11-18,Huesca,Tenerife,3,0,H,0
+2017-11-18,Mallorca,Lugo,1,2,A,0
+2017-11-19,Osasuna,Alcorcon,2,3,A,0
+2017-11-19,Vallecano,Barcelona B,1,0,H,0
+2017-11-19,Sevilla B,Cordoba,1,1,D,1
+2017-11-19,Sp Gijon,Cadiz,0,3,A,0
+2017-11-19,Leganes,Granada,1,1,D,1
+2017-11-19,Numancia,Gimnastic,1,2,A,0
+2017-11-24,Tenerife,Vallecano,2,2,D,1
+2017-11-25,Alcorcon,Sevilla B,0,0,D,1
+2017-11-25,Cadiz,Valladolid,1,0,H,0
+2017-11-25,Gimnastic,Mallorca,0,2,A,0
+2017-11-25,Zaragoza,Reus Deportiu,0,0,D,1
+2017-11-25,Oviedo,Numancia,3,1,H,0
+2017-11-26,Albacete,Sp Gijon,2,2,D,1
+2017-11-26,Cordoba,Leganes,2,2,D,1
+2017-11-26,Lugo,Osasuna,1,0,H,0
+2017-11-26,Granada,Huesca,2,0,H,0
+2017-11-26,Barcelona B,Almeria,1,1,D,1
+2017-12-10,Vallecano,Almeria,1,0,H,0
+2017-12-10,Lugo,Cordoba,2,0,H,0
+2017-12-10,Osasuna,Albacete,1,0,H,0
+2017-12-10,Valladolid,Alcorcon,4,0,H,0
+2017-12-11,Lugo,Numancia,0,1,A,0
+2017-12-11,Sp Gijon,Valladolid,1,1,D,1
+2017-12-11,Granada,Sevilla B,1,2,A,0
+2017-12-11,Gimnastic,Oviedo,1,2,A,0
+2017-12-15,Cadiz,Barcelona B,3,1,H,0
+2017-12-16,Reus Deportiu,Granada,0,0,D,1
+2017-12-16,Valladolid,Mallorca,3,0,H,0
+2017-12-16,Osasuna,Numancia,2,2,D,1
+2017-12-16,Albacete,Zaragoza,0,0,D,1
+2017-12-16,Almeria,Cordoba,1,0,H,0
+2017-12-17,Sp Gijon,Tenerife,3,0,H,0
+2017-12-17,Vallecano,Alcorcon,2,1,H,0
+2017-12-17,Sevilla B,Oviedo,0,1,A,0
+2017-12-17,Leganes,Gimnastic,2,0,H,0
+2017-12-17,Huesca,Lugo,3,0,H,0
+2017-12-19,Barcelona B,Albacete,0,1,A,0
+2017-12-19,Valladolid,Zaragoza,3,2,H,0
+2017-12-20,Granada,Sp Gijon,2,1,H,0
+2017-12-20,Cordoba,Reus Deportiu,5,0,H,0
+2017-12-20,Mallorca,Osasuna,0,1,A,0
+2017-12-21,Numancia,Sevilla B,3,0,H,0
+2017-12-21,Tenerife,Cadiz,1,1,D,1
+2017-12-22,Alcorcon,Almeria,2,0,H,0
+2017-12-22,Lugo,Vallecano,1,2,A,0
+2017-12-23,Gimnastic,Huesca,1,2,A,0
+2017-12-23,Oviedo,Leganes,3,0,H,0
+2018-01-04,Vallecano,Cadiz,1,1,D,1
+2018-01-04,Almeria,Sp Gijon,1,3,A,0
+2018-01-04,Mallorca,Granada,3,2,H,0
+2018-01-04,Sevilla B,Barcelona B,3,1,H,0
+2018-01-04,Gimnastic,Lugo,3,0,H,0
+2018-01-04,Osasuna,Tenerife,0,1,A,0
+2018-01-06,Mallorca,Sevilla B,2,1,H,0
+2018-01-13,Almeria,Gimnastic,1,1,D,1
+2018-01-13,Zaragoza,Tenerife,1,0,H,0
+2018-01-13,Sp Gijon,Alcorcon,3,0,H,0
+2018-01-13,Reus Deportiu,Lugo,0,1,A,0
+2018-01-13,Barcelona B,Valladolid,0,1,A,0
+2018-01-14,Leganes,Mallorca,2,1,H,0
+2018-01-14,Cadiz,Cordoba,2,0,H,0
+2018-01-14,Sevilla B,Osasuna,0,1,A,0
+2018-01-14,Albacete,Granada,2,1,H,0
+2018-01-14,Huesca,Numancia,2,1,H,0
+2018-01-18,Osasuna,Gimnastic,0,2,A,0
+2018-01-19,Granada,Zaragoza,2,1,H,0
+2018-01-20,Lugo,Sp Gijon,3,1,H,0
+2018-01-20,Mallorca,Huesca,2,3,A,0
+2018-01-20,Oviedo,Almeria,2,1,H,0
+2018-01-20,Valladolid,Sevilla B,1,0,H,0
+2018-01-20,Cordoba,Albacete,1,0,H,0
+2018-01-21,Alcorcon,Cadiz,1,0,H,0
+2018-01-21,Osasuna,Leganes,2,1,H,0
+2018-01-21,Gimnastic,Reus Deportiu,1,2,A,0
+2018-01-21,Tenerife,Barcelona B,1,3,A,0
+2018-01-21,Numancia,Vallecano,0,0,D,1
+2018-01-26,Zaragoza,Cordoba,1,0,H,0
+2018-01-27,Reus Deportiu,Oviedo,0,0,D,1
+2018-01-27,Vallecano,Mallorca,5,1,H,0
+2018-01-27,Cadiz,Lugo,1,1,D,1
+2018-01-27,Albacete,Alcorcon,2,0,H,0
+2018-01-27,Barcelona B,Granada,3,0,H,0
+2018-01-28,Leganes,Sevilla B,2,1,H,0
+2018-01-28,Huesca,Osasuna,1,0,H,0
+2018-01-28,Almeria,Numancia,0,0,D,1
+2018-01-28,Sp Gijon,Gimnastic,2,0,H,0
+2018-01-28,Tenerife,Valladolid,0,0,D,1
+2018-02-02,Osasuna,Vallecano,1,1,D,1
+2018-02-03,Oviedo,Barcelona B,0,0,D,1
+2018-02-06,Tenerife,Albacete,1,1,D,1
+2018-02-06,Alcorcon,Reus Deportiu,3,0,H,0
+2018-02-06,Barcelona B,Zaragoza,0,2,A,0
+2018-02-06,Cordoba,Sp Gijon,3,0,H,0
+2018-02-06,Gimnastic,Vallecano,2,0,H,0
+2018-02-06,Valladolid,Osasuna,2,0,H,0
+2018-02-06,Granada,Cadiz,2,1,H,0
+2018-02-06,Lugo,Almeria,1,1,D,1
+2018-02-06,Numancia,Leganes,2,1,H,0
+2018-02-06,Oviedo,Huesca,2,1,H,0
+2018-02-16,Valladolid,Huesca,3,2,H,0
+2018-02-17,Osasuna,Reus Deportiu,0,0,D,1
+2018-02-17,Gimnastic,Zaragoza,0,2,A,0
+2018-02-17,Oviedo,Albacete,0,0,D,1
+2018-02-17,Alcorcon,Tenerife,1,1,D,1
+2018-02-17,Mallorca,Sp Gijon,0,0,D,1
+2018-02-18,Lugo,Barcelona B,1,2,A,0
+2018-02-18,Leganes,Vallecano,2,3,A,0
+2018-02-18,Sevilla B,Almeria,0,3,A,0
+2018-02-18,Numancia,Cadiz,1,0,H,0
+2018-02-18,Cordoba,Granada,1,2,A,0
+2018-02-23,Sp Gijon,Osasuna,2,0,H,0
+2018-02-24,Cadiz,Mallorca,0,0,D,1
+2018-02-24,Barcelona B,Gimnastic,1,1,D,1
+2018-02-24,Almeria,Leganes,2,1,H,0
+2018-02-24,Vallecano,Huesca,3,0,H,0
+2018-02-25,Albacete,Numancia,1,0,H,0
+2018-02-25,Cordoba,Valladolid,2,1,H,0
+2018-02-25,Reus Deportiu,Sevilla B,2,0,H,0
+2018-02-25,Zaragoza,Oviedo,2,1,H,0
+2018-02-25,Granada,Alcorcon,2,0,H,0
+2018-02-26,Tenerife,Lugo,3,1,H,0
+2018-03-02,Valladolid,Leganes,3,2,H,0
+2018-03-02,Alcorcon,Zaragoza,1,1,D,1
+2018-03-02,Granada,Tenerife,2,1,H,0
+2018-03-02,Mallorca,Almeria,1,2,A,0
+2018-03-02,Gimnastic,Cadiz,0,0,D,1
+2018-03-03,Lugo,Granada,2,1,H,0
+2018-03-03,Osasuna,Cadiz,1,0,H,0
+2018-03-03,Numancia,Zaragoza,1,2,A,0
+2018-03-03,Leganes,Reus Deportiu,2,0,H,0
+2018-03-16,Sevilla B,Albacete,1,2,A,0
+2018-03-17,Leganes,Cadiz,0,1,A,0
+2018-03-17,Osasuna,Zaragoza,1,2,A,0
+2018-03-17,Lugo,Alcorcon,2,1,H,0
+2018-03-17,Mallorca,Barcelona B,1,1,D,1
+2018-03-18,Numancia,Tenerife,2,0,H,0
+2018-03-18,Oviedo,Granada,2,1,H,0
+2018-03-18,Vallecano,Reus Deportiu,3,2,H,0
+2018-03-18,Valladolid,Almeria,2,1,H,0
+2018-03-18,Gimnastic,Cordoba,0,2,A,0
+2018-03-19,Huesca,Sp Gijon,0,2,A,0
+2018-03-24,Cordoba,Oviedo,1,1,D,1
+2018-03-24,Albacete,Leganes,0,0,D,1
+2018-03-24,Lugo,Valladolid,0,0,D,1
+2018-03-24,Reus Deportiu,Almeria,1,0,H,0
+2018-03-24,Sp Gijon,Vallecano,1,0,H,0
+2018-03-25,Alcorcon,Gimnastic,1,0,H,0
+2018-03-25,Tenerife,Mallorca,2,0,H,0
+2018-03-25,Barcelona B,Osasuna,0,2,A,0
+2018-03-25,Zaragoza,Sevilla B,0,1,A,0
+2018-03-25,Granada,Numancia,1,0,H,0
+2018-03-26,Cadiz,Huesca,1,1,D,1
+2018-03-31,Valladolid,Reus Deportiu,1,0,H,0
+2018-03-31,Numancia,Cordoba,2,1,H,0
+2018-03-31,Oviedo,Alcorcon,0,1,A,0
+2018-03-31,Leganes,Zaragoza,0,1,A,0
+2018-04-02,Oviedo,Sp Gijon,2,1,H,0
+2018-04-02,Lugo,Albacete,1,1,D,1
+2018-04-02,Cordoba,Barcelona B,1,2,A,0
+2018-04-02,Sevilla B,Huesca,0,1,A,0
+2018-04-02,Numancia,Reus Deportiu,1,0,H,0
+2018-04-03,Huesca,Almeria,2,2,D,1
+2018-04-03,Alcorcon,Cordoba,1,2,A,0
+2018-04-03,Valladolid,Vallecano,1,1,D,1
+2018-04-03,Sevilla B,Sp Gijon,0,1,A,0
+2018-04-03,Gimnastic,Tenerife,1,2,A,0
+2018-04-03,Mallorca,Albacete,1,2,A,0
+2018-04-05,Alcorcon,Leganes,0,0,D,1
+2018-04-14,Leganes,Tenerife,3,2,H,0
+2018-04-14,Mallorca,Alcorcon,1,1,D,1
+2018-04-14,Reus Deportiu,Cadiz,1,0,H,0
+2018-04-14,Numancia,Lugo,2,0,H,0
+2018-04-15,Vallecano,Zaragoza,2,1,H,0
+2018-04-15,Oviedo,Gimnastic,1,0,H,0
+2018-04-15,Sevilla B,Granada,0,0,D,1
+2018-04-15,Valladolid,Sp Gijon,0,1,A,0
+2018-04-15,Almeria,Albacete,1,1,D,1
+2018-04-15,Osasuna,Cordoba,1,1,D,1
+2018-04-16,Huesca,Barcelona B,2,1,H,0
+2018-04-20,Oviedo,Valladolid,1,2,A,0
+2018-04-20,Cordoba,Sevilla B,3,0,H,0
+2018-04-21,Albacete,Reus Deportiu,0,1,A,0
+2018-04-21,Zaragoza,Almeria,2,1,H,0
+2018-04-21,Gimnastic,Numancia,0,0,D,1
+2018-04-21,Tenerife,Huesca,2,4,A,0
+2018-04-22,Granada,Leganes,3,3,D,1
+2018-04-22,Alcorcon,Osasuna,0,0,D,1
+2018-04-22,Cadiz,Sp Gijon,0,0,D,1
+2018-04-22,Lugo,Mallorca,1,1,D,1
+2018-04-22,Barcelona B,Vallecano,2,3,A,0
+2018-04-27,Reus Deportiu,Zaragoza,1,1,D,1
+2018-04-28,Valladolid,Cadiz,1,1,D,1
+2018-04-28,Sevilla B,Alcorcon,1,0,H,0
+2018-04-28,Almeria,Barcelona B,1,0,H,0
+2018-04-28,Huesca,Granada,2,1,H,0
+2018-04-28,Osasuna,Lugo,1,1,D,1
+2018-04-29,Numancia,Oviedo,3,0,H,0
+2018-04-29,Mallorca,Gimnastic,1,0,H,0
+2018-04-29,Leganes,Cordoba,2,1,H,0
+2018-04-29,Vallecano,Tenerife,3,1,H,0
+2018-04-29,Sp Gijon,Albacete,2,1,H,0
+2018-05-05,Zaragoza,Sp Gijon,2,1,H,0
+2018-05-05,Cordoba,Huesca,2,4,A,0
+2018-05-05,Tenerife,Almeria,0,0,D,1
+2018-05-05,Barcelona B,Reus Deportiu,0,1,A,0
+2018-05-05,Numancia,Valladolid,0,1,A,0
+2018-05-13,Huesca,Alcorcon,1,1,D,1
+2018-05-13,Vallecano,Cordoba,1,2,A,0
+2018-05-13,Leganes,Lugo,1,1,D,1
+2018-05-13,Almeria,Granada,2,0,H,0
+2018-05-13,Sevilla B,Gimnastic,1,0,H,0
+2018-05-14,Cadiz,Zaragoza,2,0,H,0
+2018-05-18,Tenerife,Sp Gijon,1,0,H,0
+2018-05-19,Granada,Reus Deportiu,1,0,H,0
+2018-05-19,Mallorca,Valladolid,1,5,A,0
+2018-05-19,Oviedo,Sevilla B,2,1,H,0
+2018-05-19,Gimnastic,Leganes,5,3,H,0
+2018-05-20,Zaragoza,Albacete,4,1,H,0
+2018-05-20,Numancia,Osasuna,1,1,D,1
+2018-05-20,Alcorcon,Vallecano,4,0,H,0
+2018-05-20,Barcelona B,Cadiz,3,1,H,0
+2018-05-20,Cordoba,Almeria,2,0,H,0
+2018-05-21,Lugo,Huesca,0,2,A,0
+2018-05-27,Reus Deportiu,Cordoba,1,2,A,0
+2018-05-27,Osasuna,Mallorca,1,0,H,0
+2018-05-27,Vallecano,Lugo,1,0,H,0
+2018-05-27,Zaragoza,Valladolid,3,2,H,0
+2018-05-27,Sp Gijon,Granada,2,1,H,0
+2018-05-27,Sevilla B,Numancia,2,1,H,0
+2018-05-27,Almeria,Alcorcon,0,0,D,1
+2018-05-27,Albacete,Barcelona B,0,0,D,1
+2018-05-27,Leganes,Oviedo,2,0,H,0
+2018-05-27,Huesca,Gimnastic,0,1,A,0
+2018-05-27,Cadiz,Tenerife,1,1,D,1
+2018-06-01,Sp Gijon,Cordoba,3,2,H,0
+2018-06-01,Vallecano,Gimnastic,2,3,A,0
+2018-06-01,Zaragoza,Barcelona B,1,1,D,1
+2018-06-01,Cadiz,Granada,1,0,H,0
+2018-06-01,Reus Deportiu,Alcorcon,1,1,D,1
+2018-06-01,Osasuna,Valladolid,4,2,H,0
+2018-06-04,Cadiz,Almeria,0,0,D,1
+2018-06-05,Albacete,Cadiz,1,1,D,1
+2018-06-05,Gimnastic,Osasuna,0,2,A,0
+2018-06-05,Lugo,Sevilla B,1,0,H,0
+2018-06-05,Oviedo,Mallorca,2,0,H,0
+2018-07-01,Albacete,Tenerife,1,2,A,0
+2018-07-01,Sevilla B,Mallorca,3,2,H,0
+2018-07-01,Leganes,Numancia,2,2,D,1
+2018-07-01,Almeria,Lugo,1,0,H,0
+2018-07-01,Huesca,Oviedo,1,1,D,1
+2018-07-04,Alcorcon,Numancia,0,1,A,0
+2018-07-04,Zaragoza,Huesca,1,0,H,0
+2018-07-04,Granada,Osasuna,1,1,D,1
+2018-07-04,Barcelona B,Leganes,0,1,A,0
+2018-07-04,Albacete,Vallecano,0,1,A,0
+2018-07-05,Granada,Vallecano,0,2,A,0
+2018-08-04,Gimnastic,Valladolid,1,0,H,0
+2018-08-04,Cordoba,Mallorca,1,0,H,0
+2018-08-04,Tenerife,Sevilla B,2,0,H,0
+2018-08-04,Lugo,Oviedo,0,1,A,0
+2018-08-04,Sp Gijon,Reus Deportiu,2,1,H,0
+2018-09-02,Granada,Valladolid,1,0,H,0
+2018-09-03,Tenerife,Oviedo,3,1,H,0
+2018-10-02,Cadiz,Oviedo,2,1,H,0
+2018-10-02,Barcelona B,Alcorcon,0,1,A,0
+2018-10-02,Sp Gijon,Numancia,2,0,H,0
+2018-10-02,Almeria,Osasuna,0,1,A,0
+2018-10-03,Alcorcon,Valladolid,0,0,D,1
+2018-10-03,Cadiz,Sevilla B,4,1,H,0
+2018-10-03,Almeria,Vallecano,0,1,A,0
+2018-10-03,Granada,Gimnastic,0,1,A,0
+2018-11-02,Vallecano,Sevilla B,2,0,H,0
+2018-11-02,Huesca,Leganes,1,0,H,0
+2018-11-02,Tenerife,Cordoba,5,1,H,0
+2018-11-02,Zaragoza,Lugo,2,0,H,0
+2018-11-02,Reus Deportiu,Mallorca,3,0,H,0
+2018-11-03,Cordoba,Lugo,1,0,H,0
+2018-11-03,Sp Gijon,Leganes,4,0,H,0
+2018-11-03,Reus Deportiu,Huesca,0,0,D,1
+2018-11-03,Albacete,Osasuna,0,0,D,1
+2018-11-03,Zaragoza,Mallorca,3,1,H,0
+2018-11-03,Barcelona B,Numancia,2,2,D,1
+2018-11-05,Mallorca,Numancia,2,1,H,0
+2018-12-01,Vallecano,Oviedo,2,2,D,1
+2018-12-04,Huesca,Albacete,0,0,D,1
+2018-12-05,Sp Gijon,Barcelona B,2,3,A,0
+2018-12-05,Osasuna,Oviedo,2,1,H,0
+2018-12-05,Valladolid,Albacete,3,2,H,0
+2018-12-05,Reus Deportiu,Tenerife,1,1,D,1

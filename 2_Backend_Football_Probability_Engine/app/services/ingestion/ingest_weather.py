@@ -34,7 +34,12 @@ def ingest_weather_from_open_meteo(
     match_datetime: datetime
 ) -> Dict:
     """
-    Ingest weather data from Open-Meteo API.
+    Ingest weather data with automatic fallback to multiple providers.
+    
+    Tries providers in order:
+    1. Open-Meteo (current primary)
+    2. Meteostat (historical, free, reproducible)
+    3. OpenWeather (live forecasts)
     
     Args:
         db: Database session
@@ -47,94 +52,25 @@ def ingest_weather_from_open_meteo(
         Dict with ingestion statistics
     """
     try:
-        # Determine if we need historical API (for dates in the past) or forecast API (for future dates)
-        today = date.today()
-        match_date_only = match_datetime.date()
+        # Use fallback system to try multiple providers
+        from app.services.ingestion.weather_providers import fetch_weather_with_fallback
         
-        # Use historical API for dates more than 2 days in the past
-        # Forecast API works for dates up to ~16 days in the future
-        if match_date_only < today:
-            # Historical weather API for past dates
-            url = "https://archive-api.open-meteo.com/v1/archive"
-        else:
-            # Forecast API for future dates
-            url = "https://api.open-meteo.com/v1/forecast"
+        weather_data = fetch_weather_with_fallback(
+            latitude=latitude,
+            longitude=longitude,
+            match_datetime=match_datetime
+        )
         
-        params = {
-            "latitude": latitude,
-            "longitude": longitude,
-            "hourly": "temperature_2m,rain,wind_speed_10m",
-            "start_date": match_datetime.strftime("%Y-%m-%d"),
-            "end_date": match_datetime.strftime("%Y-%m-%d"),
-            "timezone": "auto"
-        }
+        if not weather_data:
+            return {"success": False, "error": "All weather providers failed"}
         
-        # Add retry logic with exponential backoff for connection errors
-        # Open-Meteo free tier: ~10,000 requests/day, but connection issues can occur
-        max_retries = 3
-        retry_delay = 2  # Start with 2 second delay
-        response = None
+        # Extract weather values
+        temperature = weather_data.get("temperature")
+        rainfall_value = weather_data.get("rainfall", 0.0)
+        wind_speed_value = weather_data.get("wind_speed", 0.0)
+        provider_used = weather_data.get("provider", "unknown")
         
-        for attempt in range(max_retries):
-            try:
-                # Add a small delay before each request to avoid overwhelming the API
-                if attempt > 0:
-                    time_module.sleep(retry_delay * (2 ** (attempt - 1)))
-                
-                verify_ssl = getattr(settings, 'VERIFY_SSL', True)
-                response = requests.get(url, params=params, timeout=30, verify=verify_ssl)
-                response.raise_for_status()
-                break  # Success, exit retry loop
-            except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, requests.exceptions.ChunkedEncodingError) as e:
-                if attempt < max_retries - 1:
-                    wait_time = retry_delay * (2 ** attempt)  # Exponential backoff: 2s, 4s, 8s
-                    logger.warning(f"Connection error for fixture {fixture_id} (attempt {attempt + 1}/{max_retries}), retrying in {wait_time}s...")
-                    time_module.sleep(wait_time)
-                else:
-                    logger.error(f"Failed to get weather data for fixture {fixture_id} after {max_retries} attempts: {e}")
-                    raise  # Re-raise on final attempt
-            except requests.exceptions.HTTPError as e:
-                # Handle HTTP errors (429 rate limit, 500 server error, etc.)
-                if e.response.status_code == 429:
-                    # Rate limit exceeded - wait longer
-                    wait_time = 60  # Wait 60 seconds for rate limit
-                    logger.warning(f"Rate limit exceeded for fixture {fixture_id}, waiting {wait_time}s...")
-                    time_module.sleep(wait_time)
-                    if attempt < max_retries - 1:
-                        continue  # Retry after waiting
-                    else:
-                        raise
-                else:
-                    # Other HTTP errors - don't retry
-                    logger.error(f"HTTP error {e.response.status_code} for fixture {fixture_id}: {e}")
-                    raise
-        
-        if response is None:
-            raise requests.exceptions.RequestException("Failed to get response after retries")
-        
-        data = response.json()
-        hourly = data.get("hourly", {})
-        
-        if not hourly or not hourly.get("time"):
-            return {"success": False, "error": "No weather data available"}
-        
-        # Find closest hour to match time
-        match_hour = match_datetime.hour
-        times = hourly.get("time", [])
-        temperatures = hourly.get("temperature_2m", [])
-        rains = hourly.get("rain", [])
-        wind_speeds = hourly.get("wind_speed_10m", [])
-        
-        # Get weather at match hour (or closest)
-        idx = min(match_hour, len(times) - 1) if times else 0
-        
-        temperature = temperatures[idx] if idx < len(temperatures) else None
-        rainfall = rains[idx] if idx < len(rains) else None
-        wind_speed = wind_speeds[idx] if idx < len(wind_speeds) else None
-        
-        # Handle None values - convert to 0.0 for calculations
-        rainfall_value = float(rainfall) if rainfall is not None else 0.0
-        wind_speed_value = float(wind_speed) if wind_speed is not None else 0.0
+        logger.debug(f"Using weather data from {provider_used} provider for fixture {fixture_id}")
         
         # Calculate weather draw index
         # Rain and wind increase draw probability, cold temperatures slightly
@@ -177,19 +113,17 @@ def ingest_weather_from_open_meteo(
         
         db.commit()
         
-        logger.info(f"Ingested weather for fixture {fixture_id}: temp={temperature}°C, rain={rainfall_value}mm, wind={wind_speed_value}km/h")
+        logger.info(f"Ingested weather for fixture {fixture_id} from {provider_used}: temp={temperature}°C, rain={rainfall_value}mm, wind={wind_speed_value}km/h")
         
         return {
             "success": True,
             "temperature": float(temperature) if temperature is not None else None,
             "rainfall": float(rainfall_value),
             "wind_speed": float(wind_speed_value),
-            "weather_draw_index": weather_factor
+            "weather_draw_index": weather_factor,
+            "provider": provider_used
         }
     
-    except requests.RequestException as e:
-        logger.error(f"Weather API request failed: {e}")
-        return {"success": False, "error": f"API request failed: {str(e)}"}
     except Exception as e:
         db.rollback()
         logger.error(f"Error ingesting weather: {e}", exc_info=True)
@@ -568,94 +502,29 @@ def batch_ingest_weather_from_matches(
                             # Create datetime for match (assume 3 PM local time)
                             match_datetime = datetime.combine(match_date, time(hour=15, minute=0))
                             
-                            # Fetch weather data directly from API (without DB write)
+                            # Fetch weather data using fallback system
                             try:
-                                # Determine if we need historical API (for dates in the past) or forecast API (for future dates)
-                                today = date.today()
-                                match_date_only = match_datetime.date()
+                                from app.services.ingestion.weather_providers import fetch_weather_with_fallback
                                 
-                                # Use historical API for dates in the past
-                                # Forecast API works for dates up to ~16 days in the future
-                                if match_date_only < today:
-                                    # Historical weather API for past dates
-                                    url = "https://archive-api.open-meteo.com/v1/archive"
+                                weather_data = fetch_weather_with_fallback(
+                                    latitude=latitude,
+                                    longitude=longitude,
+                                    match_datetime=match_datetime
+                                )
+                                
+                                if weather_data:
+                                    temperature = weather_data.get("temperature")
+                                    rainfall_value = weather_data.get("rainfall", 0.0)
+                                    wind_speed_value = weather_data.get("wind_speed", 0.0)
+                                    provider_used = weather_data.get("provider", "unknown")
                                 else:
-                                    # Forecast API for future dates
-                                    url = "https://api.open-meteo.com/v1/forecast"
+                                    # All providers failed
+                                    results["skipped"] += 1
+                                    logger.warning(f"No weather data available for match {match_id} on {match_date} (all providers failed)")
+                                    continue
                                 
-                                params = {
-                                    "latitude": latitude,
-                                    "longitude": longitude,
-                                    "hourly": "temperature_2m,rain,wind_speed_10m",
-                                    "start_date": match_datetime.strftime("%Y-%m-%d"),
-                                    "end_date": match_datetime.strftime("%Y-%m-%d"),
-                                    "timezone": "auto"
-                                }
-                                
-                                # Add retry logic with exponential backoff for connection errors
-                                # Open-Meteo free tier: ~10,000 requests/day, but connection issues can occur
-                                max_retries = 3
-                                retry_delay = 2  # Start with 2 second delay
-                                response = None
-                                
-                                for attempt in range(max_retries):
-                                    try:
-                                        # Add a small delay before each request attempt
-                                        if attempt > 0:
-                                            time_module.sleep(retry_delay * (2 ** (attempt - 1)))
-                                        
-                                        verify_ssl = getattr(settings, 'VERIFY_SSL', True)
-                                        response = requests.get(url, params=params, timeout=30, verify=verify_ssl)
-                                        response.raise_for_status()
-                                        break  # Success, exit retry loop
-                                    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, requests.exceptions.ChunkedEncodingError) as e:
-                                        if attempt < max_retries - 1:
-                                            wait_time = retry_delay * (2 ** attempt)  # Exponential backoff: 2s, 4s, 8s
-                                            logger.warning(f"Connection error for match {match_id} (attempt {attempt + 1}/{max_retries}), retrying in {wait_time}s...")
-                                            time_module.sleep(wait_time)
-                                        else:
-                                            logger.error(f"Failed to get weather data for match {match_id} after {max_retries} attempts: {e}")
-                                            raise  # Re-raise on final attempt
-                                    except requests.exceptions.HTTPError as e:
-                                        # Handle HTTP errors (429 rate limit, 500 server error, etc.)
-                                        if e.response.status_code == 429:
-                                            # Rate limit exceeded - wait longer
-                                            wait_time = 60  # Wait 60 seconds for rate limit
-                                            logger.warning(f"Rate limit exceeded for match {match_id}, waiting {wait_time}s...")
-                                            time_module.sleep(wait_time)
-                                            if attempt < max_retries - 1:
-                                                continue  # Retry after waiting
-                                            else:
-                                                raise
-                                        else:
-                                            # Other HTTP errors - don't retry
-                                            logger.error(f"HTTP error {e.response.status_code} for match {match_id}: {e}")
-                                            raise
-                                
-                                if response is None:
-                                    raise requests.exceptions.RequestException("Failed to get response after retries")
-                                
-                                data = response.json()
-                                hourly = data.get("hourly", {})
-                                
-                                if hourly and hourly.get("time"):
-                                    # Find closest hour to match time
-                                    match_hour = match_datetime.hour
-                                    times = hourly.get("time", [])
-                                    temperatures = hourly.get("temperature_2m", [])
-                                    rains = hourly.get("rain", [])
-                                    wind_speeds = hourly.get("wind_speed_10m", [])
-                                    
-                                    # Get weather at match hour (or closest)
-                                    idx = min(match_hour, len(times) - 1) if times else 0
-                                    
-                                    temperature = temperatures[idx] if idx < len(temperatures) else None
-                                    rainfall = rains[idx] if idx < len(rains) else None
-                                    wind_speed = wind_speeds[idx] if idx < len(wind_speeds) else None
-                                    
-                                    # Handle None values - convert to 0.0 for calculations
-                                    rainfall_value = float(rainfall) if rainfall is not None else 0.0
-                                    wind_speed_value = float(wind_speed) if wind_speed is not None else 0.0
+                                # Process weather data (same as before)
+                                if temperature is not None or rainfall_value > 0 or wind_speed_value > 0:
                                     
                                     # Calculate weather draw index
                                     weather_draw_index = (

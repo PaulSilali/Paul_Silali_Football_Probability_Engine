@@ -1,164 +1,164 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-SC1,1617,2016-01-10,Dumbarton,Queen of Sth,7,7,False
-SC1,1617,2016-01-10,Ayr,Dunfermline,7,7,False
-SC1,1617,2016-01-10,Morton,Raith Rvs,7,7,False
 SC1,1617,2016-01-10,St Mirren,Falkirk,7,7,False
+SC1,1617,2016-01-10,Ayr,Dunfermline,7,7,False
+SC1,1617,2016-01-10,Dumbarton,Queen of Sth,7,7,False
+SC1,1617,2016-01-10,Morton,Raith Rvs,7,7,False
 SC1,1617,2016-01-11,Morton,St Mirren,1,1,False
 SC1,1617,2016-02-10,Hibernian,Dundee United,7,7,True
 SC1,1617,2016-02-12,Dundee United,Hibernian,2,2,False
-SC1,1617,2016-03-12,Queen of Sth,Dumbarton,62,62,False
-SC1,1617,2016-03-12,Dunfermline,Ayr,62,62,False
 SC1,1617,2016-03-12,Falkirk,St Mirren,62,61,False
-SC1,1617,2016-05-11,Ayr,Hibernian,60,89,True
-SC1,1617,2016-05-11,St Mirren,Dumbarton,60,60,True
+SC1,1617,2016-03-12,Dunfermline,Ayr,62,62,False
+SC1,1617,2016-03-12,Queen of Sth,Dumbarton,62,62,False
 SC1,1617,2016-05-11,Dunfermline,Raith Rvs,60,122,True
-SC1,1617,2016-05-11,Falkirk,Morton,60,121,True
+SC1,1617,2016-05-11,St Mirren,Dumbarton,60,60,True
 SC1,1617,2016-05-11,Queen of Sth,Dundee United,60,89,True
+SC1,1617,2016-05-11,Falkirk,Morton,60,121,True
+SC1,1617,2016-05-11,Ayr,Hibernian,60,89,True
+SC1,1617,2016-06-08,Dundee United,Queen of Sth,28,28,True
 SC1,1617,2016-06-08,St Mirren,Morton,28,28,True
 SC1,1617,2016-06-08,Ayr,Raith Rvs,28,28,True
 SC1,1617,2016-06-08,Dunfermline,Dumbarton,28,28,True
 SC1,1617,2016-06-08,Falkirk,Hibernian,28,28,True
-SC1,1617,2016-06-08,Dundee United,Queen of Sth,28,28,True
 SC1,1617,2016-06-12,Queen of Sth,St Mirren,4,4,False
 SC1,1617,2016-08-11,Dundee United,Dunfermline,64,64,True
 SC1,1617,2016-08-13,Hibernian,Dunfermline,66,2,False
-SC1,1617,2016-08-13,Morton,Falkirk,66,66,False
-SC1,1617,2016-08-13,Queen of Sth,Ayr,62,66,False
 SC1,1617,2016-08-13,Raith Rvs,St Mirren,66,62,False
+SC1,1617,2016-08-13,Queen of Sth,Ayr,62,66,False
+SC1,1617,2016-08-13,Morton,Falkirk,66,66,False
 SC1,1617,2016-08-13,Dumbarton,Dundee United,66,2,False
-SC1,1617,2016-08-20,St Mirren,Hibernian,7,7,False
 SC1,1617,2016-08-20,Raith Rvs,Dunfermline,7,7,False
-SC1,1617,2016-08-20,Queen of Sth,Falkirk,7,7,False
 SC1,1617,2016-08-20,Morton,Dumbarton,7,7,False
+SC1,1617,2016-08-20,Queen of Sth,Falkirk,7,7,False
 SC1,1617,2016-08-20,Dundee United,Ayr,7,7,False
-SC1,1617,2016-08-27,Ayr,St Mirren,7,7,False
-SC1,1617,2016-08-27,Falkirk,Dumbarton,7,7,False
+SC1,1617,2016-08-20,St Mirren,Hibernian,7,7,False
+SC1,1617,2016-08-27,Hibernian,Morton,7,7,False
 SC1,1617,2016-08-27,Dunfermline,Queen of Sth,7,7,False
 SC1,1617,2016-08-27,Dundee United,Raith Rvs,7,7,False
-SC1,1617,2016-08-27,Hibernian,Morton,7,7,False
-SC1,1617,2016-09-17,Hibernian,Ayr,21,21,False
-SC1,1617,2016-09-17,Queen of Sth,Raith Rvs,21,21,False
-SC1,1617,2016-09-17,Falkirk,Dundee United,21,21,False
-SC1,1617,2016-09-17,Dumbarton,St Mirren,21,21,False
+SC1,1617,2016-08-27,Ayr,St Mirren,7,7,False
+SC1,1617,2016-08-27,Falkirk,Dumbarton,7,7,False
 SC1,1617,2016-09-17,Morton,Dunfermline,21,21,False
-SC1,1617,2016-09-24,Raith Rvs,Dumbarton,7,7,False
-SC1,1617,2016-09-24,Dundee United,Morton,7,7,False
-SC1,1617,2016-09-24,Dunfermline,St Mirren,7,7,False
+SC1,1617,2016-09-17,Queen of Sth,Raith Rvs,21,21,False
+SC1,1617,2016-09-17,Dumbarton,St Mirren,21,21,False
+SC1,1617,2016-09-17,Falkirk,Dundee United,21,21,False
+SC1,1617,2016-09-17,Hibernian,Ayr,21,21,False
 SC1,1617,2016-09-24,Falkirk,Ayr,7,7,False
+SC1,1617,2016-09-24,Dundee United,Morton,7,7,False
 SC1,1617,2016-09-24,Queen of Sth,Hibernian,7,7,False
+SC1,1617,2016-09-24,Dunfermline,St Mirren,7,7,False
+SC1,1617,2016-09-24,Raith Rvs,Dumbarton,7,7,False
+SC1,1617,2016-10-09,Ayr,Morton,15,15,False
+SC1,1617,2016-10-09,St Mirren,Queen of Sth,15,15,False
 SC1,1617,2016-10-09,Dunfermline,Dundee United,15,15,False
 SC1,1617,2016-10-09,Raith Rvs,Falkirk,15,15,False
-SC1,1617,2016-10-09,St Mirren,Queen of Sth,15,15,False
-SC1,1617,2016-10-09,Ayr,Morton,15,15,False
 SC1,1617,2016-10-09,Dumbarton,Hibernian,15,15,False
-SC1,1617,2016-10-12,Dunfermline,Morton,3,3,True
 SC1,1617,2016-10-12,Ayr,Dundee United,3,3,True
+SC1,1617,2016-10-12,Falkirk,Queen of Sth,3,3,True
 SC1,1617,2016-10-12,St Mirren,Raith Rvs,3,3,True
 SC1,1617,2016-10-12,Hibernian,Dumbarton,3,3,True
-SC1,1617,2016-10-12,Falkirk,Queen of Sth,3,3,True
-SC1,1617,2016-10-15,Raith Rvs,Hibernian,3,3,False
-SC1,1617,2016-10-15,Queen of Sth,Morton,3,3,False
+SC1,1617,2016-10-12,Dunfermline,Morton,3,3,True
 SC1,1617,2016-10-15,Falkirk,Dunfermline,3,3,False
 SC1,1617,2016-10-15,Dumbarton,Ayr,3,3,False
+SC1,1617,2016-10-15,Queen of Sth,Morton,3,3,False
+SC1,1617,2016-10-15,Raith Rvs,Hibernian,3,3,False
 SC1,1617,2016-10-15,St Mirren,Dundee United,3,3,False
-SC1,1617,2016-10-22,Falkirk,Raith Rvs,7,7,False
 SC1,1617,2016-10-22,Dunfermline,Hibernian,7,7,False
-SC1,1617,2016-10-22,Dundee United,Dumbarton,7,7,False
+SC1,1617,2016-10-22,Falkirk,Raith Rvs,7,7,False
 SC1,1617,2016-10-22,Ayr,Queen of Sth,7,7,False
-SC1,1617,2016-10-29,Dumbarton,Dunfermline,7,7,False
-SC1,1617,2016-10-29,Raith Rvs,Queen of Sth,7,7,False
-SC1,1617,2016-10-29,Morton,Ayr,14,7,False
-SC1,1617,2016-10-29,Hibernian,St Mirren,7,14,False
+SC1,1617,2016-10-22,Dundee United,Dumbarton,7,7,False
 SC1,1617,2016-10-29,Dundee United,Falkirk,7,7,False
-SC1,1617,2016-11-19,Ayr,Falkirk,21,21,False
-SC1,1617,2016-11-19,St Mirren,Dunfermline,21,21,False
-SC1,1617,2016-11-19,Morton,Dundee United,21,21,False
+SC1,1617,2016-10-29,Raith Rvs,Queen of Sth,7,7,False
+SC1,1617,2016-10-29,Hibernian,St Mirren,7,14,False
+SC1,1617,2016-10-29,Morton,Ayr,14,7,False
+SC1,1617,2016-10-29,Dumbarton,Dunfermline,7,7,False
 SC1,1617,2016-11-19,Hibernian,Queen of Sth,21,21,False
+SC1,1617,2016-11-19,St Mirren,Dunfermline,21,21,False
 SC1,1617,2016-11-19,Dumbarton,Raith Rvs,21,21,False
+SC1,1617,2016-11-19,Ayr,Falkirk,21,21,False
+SC1,1617,2016-11-19,Morton,Dundee United,21,21,False
 SC1,1617,2016-11-22,Raith Rvs,Ayr,3,3,True
 SC1,1617,2016-12-11,Hibernian,Falkirk,22,22,False
 SC1,1617,2016-12-11,Dumbarton,Morton,22,22,False
-SC1,1617,2016-12-17,Raith Rvs,Dundee United,25,28,False
-SC1,1617,2016-12-17,St Mirren,Ayr,28,25,False
 SC1,1617,2016-12-17,Queen of Sth,Dunfermline,28,28,False
-SC1,1617,2016-12-17,Morton,Hibernian,6,6,False
+SC1,1617,2016-12-17,St Mirren,Ayr,28,25,False
+SC1,1617,2016-12-17,Raith Rvs,Dundee United,25,28,False
 SC1,1617,2016-12-17,Dumbarton,Falkirk,6,6,False
+SC1,1617,2016-12-17,Morton,Hibernian,6,6,False
+SC1,1617,2016-12-24,Dundee United,St Mirren,7,7,False
 SC1,1617,2016-12-24,Morton,Queen of Sth,7,7,False
 SC1,1617,2016-12-24,Ayr,Dumbarton,7,7,False
-SC1,1617,2016-12-24,Dundee United,St Mirren,7,7,False
 SC1,1617,2016-12-24,Hibernian,Raith Rvs,7,7,False
 SC1,1617,2016-12-26,Dunfermline,Falkirk,9,9,False
-SC1,1617,2016-12-31,Queen of Sth,Ayr,7,7,False
-SC1,1617,2016-12-31,Dumbarton,Dundee United,7,7,False
 SC1,1617,2016-12-31,Falkirk,Hibernian,5,7,False
 SC1,1617,2016-12-31,St Mirren,Morton,7,7,False
+SC1,1617,2016-12-31,Queen of Sth,Ayr,7,7,False
+SC1,1617,2016-12-31,Dumbarton,Dundee United,7,7,False
 SC1,1617,2017-01-03,St Mirren,Hibernian,3,3,True
-SC1,1617,2017-01-04,Dumbarton,Morton,4,4,True
+SC1,1617,2017-01-04,Falkirk,Raith Rvs,4,11,True
 SC1,1617,2017-01-04,St Mirren,Ayr,1,4,True
 SC1,1617,2017-01-04,Queen of Sth,Dundee United,4,4,True
-SC1,1617,2017-01-04,Falkirk,Raith Rvs,4,11,True
+SC1,1617,2017-01-04,Dumbarton,Morton,4,4,True
 SC1,1617,2017-01-04,Dunfermline,Hibernian,9,1,True
-SC1,1617,2017-01-14,Dundee United,Queen of Sth,10,10,False
 SC1,1617,2017-01-14,Dunfermline,St Mirren,10,10,False
-SC1,1617,2017-01-14,Falkirk,Ayr,10,10,False
-SC1,1617,2017-01-14,Morton,Raith Rvs,10,10,False
 SC1,1617,2017-01-14,Dumbarton,Hibernian,10,10,False
+SC1,1617,2017-01-14,Morton,Raith Rvs,10,10,False
+SC1,1617,2017-01-14,Dundee United,Queen of Sth,10,10,False
+SC1,1617,2017-01-14,Falkirk,Ayr,10,10,False
 SC1,1617,2017-01-21,Dumbarton,Queen of Sth,7,7,False
-SC1,1617,2017-01-28,Dunfermline,Dundee United,14,14,False
-SC1,1617,2017-01-28,Queen of Sth,Hibernian,7,14,False
-SC1,1617,2017-01-28,Raith Rvs,Dumbarton,14,7,False
 SC1,1617,2017-01-28,St Mirren,Falkirk,14,14,False
+SC1,1617,2017-01-28,Queen of Sth,Hibernian,7,14,False
 SC1,1617,2017-01-28,Ayr,Morton,14,14,False
+SC1,1617,2017-01-28,Dunfermline,Dundee United,14,14,False
+SC1,1617,2017-01-28,Raith Rvs,Dumbarton,14,7,False
 SC1,1617,2017-02-01,Raith Rvs,Dunfermline,4,4,True
-SC1,1617,2017-02-18,Dumbarton,Ayr,21,21,False
 SC1,1617,2017-02-18,Raith Rvs,Hibernian,17,21,False
+SC1,1617,2017-02-18,Dumbarton,Ayr,21,21,False
 SC1,1617,2017-02-18,Morton,Falkirk,21,21,False
 SC1,1617,2017-02-25,Dundee United,Morton,28,7,False
-SC1,1617,2017-02-25,Hibernian,Dunfermline,7,24,False
 SC1,1617,2017-02-25,Queen of Sth,Raith Rvs,28,7,False
-SC1,1617,2017-02-25,Ayr,St Mirren,7,28,False
+SC1,1617,2017-02-25,Hibernian,Dunfermline,7,24,False
 SC1,1617,2017-02-25,Falkirk,Dumbarton,7,7,False
+SC1,1617,2017-02-25,Ayr,St Mirren,7,28,False
 SC1,1617,2017-02-28,Ayr,Raith Rvs,3,3,True
 SC1,1617,2017-03-15,St Mirren,Dundee United,18,18,True
-SC1,1617,2017-03-18,Raith Rvs,Dundee United,18,3,False
 SC1,1617,2017-03-18,Hibernian,Dumbarton,21,21,False
+SC1,1617,2017-03-18,Raith Rvs,Dundee United,18,3,False
 SC1,1617,2017-03-18,Falkirk,Morton,21,21,False
-SC1,1617,2017-03-18,Dunfermline,Ayr,21,18,False
 SC1,1617,2017-03-18,Queen of Sth,St Mirren,21,3,False
-SC1,1617,2017-03-25,Raith Rvs,Queen of Sth,7,7,False
+SC1,1617,2017-03-18,Dunfermline,Ayr,21,18,False
 SC1,1617,2017-03-25,Morton,Dunfermline,7,7,False
+SC1,1617,2017-03-25,Raith Rvs,Queen of Sth,7,7,False
 SC1,1617,2017-03-25,Hibernian,Falkirk,7,7,False
 SC1,1617,2017-03-25,Ayr,Dumbarton,7,7,False
 SC1,1617,2017-03-28,Dundee United,Ayr,10,3,True
 SC1,1617,2017-03-29,Hibernian,Morton,4,4,True
-SC1,1617,2017-04-02,Queen of Sth,Morton,8,4,False
-SC1,1617,2017-04-02,Dumbarton,St Mirren,8,15,False
 SC1,1617,2017-04-02,Dundee United,Raith Rvs,5,8,False
 SC1,1617,2017-04-02,Falkirk,Dunfermline,8,8,False
 SC1,1617,2017-04-02,Hibernian,Ayr,4,5,False
-SC1,1617,2017-04-03,Queen of Sth,Falkirk,1,1,False
+SC1,1617,2017-04-02,Dumbarton,St Mirren,8,15,False
+SC1,1617,2017-04-02,Queen of Sth,Morton,8,4,False
 SC1,1617,2017-04-03,Dunfermline,Dumbarton,1,1,False
+SC1,1617,2017-04-03,Queen of Sth,Falkirk,1,1,False
+SC1,1617,2017-04-15,Falkirk,St Mirren,12,13,False
+SC1,1617,2017-04-15,Ayr,Dundee United,13,13,False
+SC1,1617,2017-04-15,Raith Rvs,Morton,13,13,False
 SC1,1617,2017-04-15,Hibernian,Queen of Sth,13,12,False
 SC1,1617,2017-04-15,Dumbarton,Dunfermline,12,12,False
-SC1,1617,2017-04-15,Ayr,Dundee United,13,13,False
-SC1,1617,2017-04-15,Falkirk,St Mirren,12,13,False
-SC1,1617,2017-04-15,Raith Rvs,Morton,13,13,False
-SC1,1617,2017-04-22,Morton,Ayr,7,7,False
-SC1,1617,2017-04-22,Queen of Sth,Dumbarton,7,7,False
 SC1,1617,2017-04-22,Dundee United,St Mirren,7,7,False
+SC1,1617,2017-04-22,Queen of Sth,Dumbarton,7,7,False
+SC1,1617,2017-04-22,Morton,Ayr,7,7,False
 SC1,1617,2017-04-22,Dunfermline,Falkirk,7,7,False
 SC1,1617,2017-04-26,Hibernian,Raith Rvs,11,11,True
-SC1,1617,2017-04-29,Dunfermline,Morton,7,7,False
-SC1,1617,2017-04-29,Ayr,Hibernian,7,3,False
-SC1,1617,2017-04-29,Dundee United,Dumbarton,7,7,False
 SC1,1617,2017-04-29,St Mirren,Raith Rvs,7,3,False
+SC1,1617,2017-04-29,Dundee United,Dumbarton,7,7,False
+SC1,1617,2017-04-29,Dunfermline,Morton,7,7,False
 SC1,1617,2017-04-29,Falkirk,Queen of Sth,7,7,False
+SC1,1617,2017-04-29,Ayr,Hibernian,7,3,False
 SC1,1617,2017-06-01,Hibernian,Dundee United,33,33,True
 SC1,1617,2017-06-05,Morton,Dundee United,37,4,False
-SC1,1617,2017-06-05,Queen of Sth,Dunfermline,37,37,False
+SC1,1617,2017-06-05,Hibernian,St Mirren,4,37,False
 SC1,1617,2017-06-05,Raith Rvs,Ayr,37,37,False
 SC1,1617,2017-06-05,Dumbarton,Falkirk,37,37,False
-SC1,1617,2017-06-05,Hibernian,St Mirren,4,37,False
+SC1,1617,2017-06-05,Queen of Sth,Dunfermline,37,37,False
 SC1,1617,2017-07-01,Morton,Dumbarton,26,26,False
 SC1,1617,2017-07-01,Raith Rvs,Falkirk,26,26,False
 SC1,1617,2017-07-01,St Mirren,Queen of Sth,26,26,False
@@ -166,16 +166,16 @@ SC1,1617,2017-07-01,Ayr,Dunfermline,26,26,False
 SC1,1617,2017-07-02,Raith Rvs,Morton,1,1,False
 SC1,1617,2017-07-03,Dunfermline,Queen of Sth,2,2,False
 SC1,1617,2017-08-03,Raith Rvs,St Mirren,32,33,True
-SC1,1617,2017-08-04,Morton,Hibernian,33,60,False
 SC1,1617,2017-08-04,Dundee United,Falkirk,60,34,False
-SC1,1617,2017-08-04,Ayr,Queen of Sth,34,32,False
+SC1,1617,2017-08-04,Morton,Hibernian,33,60,False
 SC1,1617,2017-08-04,St Mirren,Dumbarton,1,34,False
+SC1,1617,2017-08-04,Ayr,Queen of Sth,34,32,False
 SC1,1617,2017-08-04,Dunfermline,Raith Rvs,32,1,False
 SC1,1617,2017-10-03,Dundee United,Hibernian,3,60,True
 SC1,1617,2017-11-02,Falkirk,Dundee United,5,5,True
 SC1,1617,2017-11-03,Morton,Queen of Sth,6,6,False
 SC1,1617,2017-11-03,St Mirren,Dunfermline,6,6,False
-SC1,1617,2017-11-03,Ayr,Falkirk,91,1,False
 SC1,1617,2017-11-03,Dumbarton,Raith Rvs,6,91,False
-SC1,1617,2017-11-04,Dundee United,Dunfermline,2,1,False
+SC1,1617,2017-11-03,Ayr,Falkirk,91,1,False
 SC1,1617,2017-11-04,Morton,St Mirren,1,1,False
+SC1,1617,2017-11-04,Dundee United,Dunfermline,2,1,False

@@ -1,6 +1,7 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9449,FC Juárez,9459,Pumas UNAM,2021,2,2,1.0,2.0
-9446,Santos Laguna,9457,Cruz Azul,2021,1,0,0.0,2.0
+9458,Mazatlán FC,9460,Club León,2021,1,0,0.0,7.0
+9446,Santos Laguna,9457,Cruz Azul,2021,2,1,0.5,2.0
 9449,FC Juárez,9462,CF Monterrey,2021,2,0,0.0,5.0
 9455,Deportivo Guadalajara,9462,CF Monterrey,2021,1,0,0.0,3.0
 9451,Atlético San Luis,9460,Club León,2021,1,0,0.0,4.0
@@ -22,11 +23,11 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9446,Santos Laguna,9450,Atlas Guadalajara,2021,2,2,1.0,1.0
 9455,Deportivo Guadalajara,9458,Mazatlán FC,2021,1,1,1.0,2.0
 9453,UANL Tigres,9457,Cruz Azul,2021,1,0,0.0,2.0
-9448,Club Tijuana,9457,Cruz Azul,2021,1,0,0.0,3.0
 9448,Club Tijuana,9458,Mazatlán FC,2021,2,0,0.0,3.0
+9448,Club Tijuana,9457,Cruz Azul,2021,2,1,0.5,2.5
 9453,UANL Tigres,9460,Club León,2021,1,1,1.0,2.0
 9451,Atlético San Luis,9458,Mazatlán FC,2021,1,0,0.0,3.0
-9455,Deportivo Guadalajara,9461,CF Pachuca,2021,2,2,1.0,1.0
+9455,Deportivo Guadalajara,9461,CF Pachuca,2021,2,1,0.5,3.0
 9445,Puebla FC,9453,UANL Tigres,2021,2,1,0.5,2.5
 9450,Atlas Guadalajara,9452,CF América,2021,1,0,0.0,3.0
 9449,FC Juárez,9458,Mazatlán FC,2021,1,0,0.0,1.0
@@ -35,6 +36,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9447,Gallos Blancos,9454,Club Necaxa,2021,1,1,1.0,
 9454,Club Necaxa,9459,Pumas UNAM,2021,1,0,0.0,1.0
 9460,Club León,9461,CF Pachuca,2021,1,0,0.0,1.0
+9450,Atlas Guadalajara,9454,Club Necaxa,2021,1,0,0.0,6.0
 9457,Cruz Azul,9460,Club León,2021,2,0,0.0,1.5
 9447,Gallos Blancos,9448,Club Tijuana,2021,1,0,0.0,4.0
 9446,Santos Laguna,9459,Pumas UNAM,2021,2,0,0.0,2.0
@@ -44,7 +46,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9445,Puebla FC,9447,Gallos Blancos,2021,1,1,1.0,2.0
 9448,Club Tijuana,9456,Deportivo Toluca,2021,1,0,0.0,5.0
 9455,Deportivo Guadalajara,9459,Pumas UNAM,2021,1,0,0.0,3.0
-9452,CF América,9456,Deportivo Toluca,2021,1,1,1.0,2.0
+9452,CF América,9456,Deportivo Toluca,2021,2,1,0.5,3.0
 9447,Gallos Blancos,9451,Atlético San Luis,2021,1,0,0.0,3.0
 9457,Cruz Azul,9459,Pumas UNAM,2021,1,0,0.0,1.0
 9446,Santos Laguna,9447,Gallos Blancos,2021,2,0,0.0,2.0
@@ -65,7 +67,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9445,Puebla FC,9459,Pumas UNAM,2021,1,0,0.0,5.0
 9449,FC Juárez,9460,Club León,2021,1,1,1.0,
 9450,Atlas Guadalajara,9460,Club León,2021,2,0,0.0,3.5
-9456,Deportivo Toluca,9460,Club León,2021,1,0,0.0,3.0
+9456,Deportivo Toluca,9460,Club León,2021,1,0,0.0,6.0
 9453,UANL Tigres,9455,Deportivo Guadalajara,2021,1,0,0.0,4.0
 9449,FC Juárez,9457,Cruz Azul,2021,2,0,0.0,3.0
 9445,Puebla FC,9454,Club Necaxa,2021,2,0,0.0,1.0
@@ -79,8 +81,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9455,Deportivo Guadalajara,9457,Cruz Azul,2021,1,0,0.0,1.0
 9446,Santos Laguna,9449,FC Juárez,2021,2,1,0.5,3.5
 9449,FC Juárez,9453,UANL Tigres,2021,1,0,0.0,5.0
-9451,Atlético San Luis,9461,CF Pachuca,2021,1,0,0.0,4.0
 9449,FC Juárez,9455,Deportivo Guadalajara,2021,2,0,0.0,2.5
+9451,Atlético San Luis,9461,CF Pachuca,2021,2,0,0.0,5.0
 9446,Santos Laguna,9448,Club Tijuana,2021,1,0,0.0,1.0
 9452,CF América,9453,UANL Tigres,2021,1,0,0.0,4.0
 9446,Santos Laguna,9454,Club Necaxa,2021,2,0,0.0,3.5
@@ -90,7 +92,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9445,Puebla FC,9462,CF Monterrey,2021,1,1,1.0,
 9448,Club Tijuana,9451,Atlético San Luis,2021,2,1,0.5,3.0
 9447,Gallos Blancos,9458,Mazatlán FC,2021,2,1,0.5,2.5
-9456,Deportivo Toluca,9457,Cruz Azul,2021,1,0,0.0,5.0
+9456,Deportivo Toluca,9457,Cruz Azul,2021,2,0,0.0,3.5
 9448,Club Tijuana,9462,CF Monterrey,2021,2,1,0.5,2.5
 9447,Gallos Blancos,9461,CF Pachuca,2021,2,0,0.0,2.5
 9447,Gallos Blancos,9450,Atlas Guadalajara,2021,1,0,0.0,1.0
@@ -111,27 +113,29 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9453,UANL Tigres,9454,Club Necaxa,2021,1,0,0.0,3.0
 9456,Deportivo Toluca,9459,Pumas UNAM,2021,1,0,0.0,1.0
 9451,Atlético San Luis,9454,Club Necaxa,2021,1,0,0.0,3.0
-9447,Gallos Blancos,9460,Club León,2021,1,0,0.0,5.0
+9447,Gallos Blancos,9460,Club León,2021,2,0,0.0,4.0
 9453,UANL Tigres,9456,Deportivo Toluca,2021,2,0,0.0,3.0
 9449,FC Juárez,9454,Club Necaxa,2021,2,0,0.0,1.0
 9450,Atlas Guadalajara,9458,Mazatlán FC,2021,2,2,1.0,1.0
-9446,Santos Laguna,9456,Deportivo Toluca,2021,1,0,0.0,3.0
+9446,Santos Laguna,9456,Deportivo Toluca,2021,2,0,0.0,3.5
 9446,Santos Laguna,9453,UANL Tigres,2021,1,0,0.0,2.0
 9449,FC Juárez,9456,Deportivo Toluca,2021,1,0,0.0,1.0
-9446,Santos Laguna,9462,CF Monterrey,2021,2,1,0.5,2.5
+9446,Santos Laguna,9462,CF Monterrey,2021,3,2,0.6666666666666666,3.0
 9445,Puebla FC,9451,Atlético San Luis,2021,1,0,0.0,5.0
 9452,CF América,9455,Deportivo Guadalajara,2021,2,0,0.0,2.0
 9451,Atlético San Luis,9452,CF América,2021,1,0,0.0,3.0
 9454,Club Necaxa,9461,CF Pachuca,2021,1,1,1.0,4.0
 9445,Puebla FC,9458,Mazatlán FC,2021,2,0,0.0,4.5
+9453,UANL Tigres,9462,CF Monterrey,2021,1,0,0.0,3.0
 9456,Deportivo Toluca,9458,Mazatlán FC,2021,2,0,0.0,4.0
 9452,CF América,9462,CF Monterrey,2021,1,0,0.0,4.0
 9455,Deportivo Guadalajara,9456,Deportivo Toluca,2021,1,0,0.0,1.0
 9450,Atlas Guadalajara,9462,CF Monterrey,2021,1,1,1.0,2.0
-9451,Atlético San Luis,9457,Cruz Azul,2021,1,0,0.0,4.0
+9451,Atlético San Luis,9457,Cruz Azul,2021,2,0,0.0,4.5
 9458,Mazatlán FC,9459,Pumas UNAM,2021,1,1,1.0,
-9452,CF América,9461,CF Pachuca,2021,2,0,0.0,2.5
+9452,CF América,9457,Cruz Azul,2021,1,1,1.0,2.0
 9455,Deportivo Guadalajara,9460,Club León,2021,2,1,0.5,2.0
+9452,CF América,9461,CF Pachuca,2021,3,0,0.0,4.333333333333333
 9448,Club Tijuana,9459,Pumas UNAM,2021,1,0,0.0,3.0
 9447,Gallos Blancos,9457,Cruz Azul,2021,2,0,0.0,3.0
 9459,Pumas UNAM,9461,CF Pachuca,2021,1,1,1.0,4.0

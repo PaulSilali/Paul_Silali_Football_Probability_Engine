@@ -1,181 +1,181 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-SC2,1819,2018-08-04,Stenhousemuir,Brechin,274,274,False
-SC2,1819,2018-08-04,Stranraer,Raith Rvs,31,31,False
-SC2,1819,2018-08-04,Montrose,Arbroath,7,31,False
-SC2,1819,2018-08-04,Forfar,Airdrie Utd,31,31,False
 SC2,1819,2018-08-04,East Fife,Dumbarton,31,7,False
-SC2,1819,2018-08-11,Airdrie Utd,Montrose,7,7,False
-SC2,1819,2018-08-11,Raith Rvs,Stenhousemuir,7,7,False
+SC2,1819,2018-08-04,Stranraer,Raith Rvs,31,31,False
+SC2,1819,2018-08-04,Stenhousemuir,Brechin,274,274,False
+SC2,1819,2018-08-04,Forfar,Airdrie Utd,31,31,False
+SC2,1819,2018-08-04,Montrose,Arbroath,7,31,False
 SC2,1819,2018-08-11,Dumbarton,Forfar,7,7,False
-SC2,1819,2018-08-11,Brechin,East Fife,7,7,False
 SC2,1819,2018-08-11,Arbroath,Stranraer,7,7,False
+SC2,1819,2018-08-11,Raith Rvs,Stenhousemuir,7,7,False
+SC2,1819,2018-08-11,Airdrie Utd,Montrose,7,7,False
+SC2,1819,2018-08-11,Brechin,East Fife,7,7,False
 SC2,1819,2018-08-18,Dumbarton,Arbroath,7,7,False
+SC2,1819,2018-08-18,Montrose,Brechin,7,7,False
 SC2,1819,2018-08-18,Stenhousemuir,Airdrie Utd,7,7,False
 SC2,1819,2018-08-18,Raith Rvs,East Fife,7,7,False
-SC2,1819,2018-08-18,Montrose,Brechin,7,7,False
 SC2,1819,2018-08-18,Forfar,Stranraer,7,7,False
 SC2,1819,2018-08-25,Brechin,Dumbarton,7,7,False
-SC2,1819,2018-08-25,Stranraer,Montrose,7,7,False
-SC2,1819,2018-08-25,Forfar,Stenhousemuir,7,7,False
 SC2,1819,2018-08-25,East Fife,Arbroath,7,7,False
+SC2,1819,2018-08-25,Forfar,Stenhousemuir,7,7,False
+SC2,1819,2018-08-25,Stranraer,Montrose,7,7,False
 SC2,1819,2018-08-25,Airdrie Utd,Raith Rvs,7,7,False
-SC2,1819,2018-09-01,Raith Rvs,Forfar,7,7,False
+SC2,1819,2018-09-01,Montrose,East Fife,7,7,False
 SC2,1819,2018-09-01,Airdrie Utd,Stranraer,7,7,False
 SC2,1819,2018-09-01,Arbroath,Brechin,7,7,False
-SC2,1819,2018-09-01,Montrose,East Fife,7,7,False
+SC2,1819,2018-09-01,Raith Rvs,Forfar,7,7,False
 SC2,1819,2018-09-01,Stenhousemuir,Dumbarton,7,7,False
 SC2,1819,2018-09-15,Arbroath,Forfar,14,14,False
-SC2,1819,2018-09-15,Brechin,Raith Rvs,14,14,False
-SC2,1819,2018-09-15,Dumbarton,Montrose,14,14,False
-SC2,1819,2018-09-15,East Fife,Airdrie Utd,14,14,False
 SC2,1819,2018-09-15,Stranraer,Stenhousemuir,14,14,False
-SC2,1819,2018-09-22,Stranraer,East Fife,7,7,False
-SC2,1819,2018-09-22,Airdrie Utd,Dumbarton,7,7,False
+SC2,1819,2018-09-15,East Fife,Airdrie Utd,14,14,False
+SC2,1819,2018-09-15,Dumbarton,Montrose,14,14,False
+SC2,1819,2018-09-15,Brechin,Raith Rvs,14,14,False
 SC2,1819,2018-09-22,Forfar,Brechin,7,7,False
-SC2,1819,2018-09-22,Raith Rvs,Montrose,7,7,False
+SC2,1819,2018-09-22,Airdrie Utd,Dumbarton,7,7,False
 SC2,1819,2018-09-22,Stenhousemuir,Arbroath,7,7,False
-SC2,1819,2018-09-29,East Fife,Stenhousemuir,7,7,False
-SC2,1819,2018-09-29,Arbroath,Airdrie Utd,7,7,False
-SC2,1819,2018-09-29,Brechin,Stranraer,7,7,False
-SC2,1819,2018-09-29,Dumbarton,Raith Rvs,7,7,False
+SC2,1819,2018-09-22,Stranraer,East Fife,7,7,False
+SC2,1819,2018-09-22,Raith Rvs,Montrose,7,7,False
 SC2,1819,2018-09-29,Montrose,Forfar,7,7,False
-SC2,1819,2018-10-06,Airdrie Utd,Brechin,3,7,False
+SC2,1819,2018-09-29,Brechin,Stranraer,7,7,False
+SC2,1819,2018-09-29,Arbroath,Airdrie Utd,7,7,False
+SC2,1819,2018-09-29,East Fife,Stenhousemuir,7,7,False
+SC2,1819,2018-09-29,Dumbarton,Raith Rvs,7,7,False
 SC2,1819,2018-10-06,Stranraer,Dumbarton,3,7,False
-SC2,1819,2018-10-06,Stenhousemuir,Montrose,7,7,False
-SC2,1819,2018-10-06,Raith Rvs,Arbroath,3,3,False
 SC2,1819,2018-10-06,Forfar,East Fife,3,3,False
-SC2,1819,2018-10-20,Raith Rvs,Stranraer,14,14,False
+SC2,1819,2018-10-06,Airdrie Utd,Brechin,3,7,False
+SC2,1819,2018-10-06,Raith Rvs,Arbroath,3,3,False
+SC2,1819,2018-10-06,Stenhousemuir,Montrose,7,7,False
 SC2,1819,2018-10-20,Arbroath,Dumbarton,14,14,False
-SC2,1819,2018-10-20,East Fife,Brechin,14,14,False
+SC2,1819,2018-10-20,Raith Rvs,Stranraer,14,14,False
 SC2,1819,2018-10-20,Stenhousemuir,Forfar,14,14,False
 SC2,1819,2018-10-20,Montrose,Airdrie Utd,14,14,False
+SC2,1819,2018-10-20,East Fife,Brechin,14,14,False
 SC2,1819,2018-10-27,Stranraer,Arbroath,7,7,False
-SC2,1819,2018-10-27,Forfar,Raith Rvs,7,7,False
 SC2,1819,2018-10-27,Airdrie Utd,Stenhousemuir,7,7,False
-SC2,1819,2018-10-27,Brechin,Montrose,7,7,False
 SC2,1819,2018-10-27,Dumbarton,East Fife,7,7,False
-SC2,1819,2018-11-03,Montrose,Dumbarton,7,7,False
+SC2,1819,2018-10-27,Brechin,Montrose,7,7,False
+SC2,1819,2018-10-27,Forfar,Raith Rvs,7,7,False
 SC2,1819,2018-11-03,Arbroath,East Fife,7,7,False
-SC2,1819,2018-11-03,Airdrie Utd,Forfar,7,7,False
+SC2,1819,2018-11-03,Montrose,Dumbarton,7,7,False
 SC2,1819,2018-11-03,Stenhousemuir,Stranraer,7,7,False
 SC2,1819,2018-11-03,Raith Rvs,Brechin,7,7,False
-SC2,1819,2018-11-10,Dumbarton,Stenhousemuir,7,7,False
+SC2,1819,2018-11-03,Airdrie Utd,Forfar,7,7,False
 SC2,1819,2018-11-10,Brechin,Forfar,7,7,False
-SC2,1819,2018-11-10,Stranraer,Airdrie Utd,7,7,False
 SC2,1819,2018-11-10,East Fife,Raith Rvs,7,7,False
+SC2,1819,2018-11-10,Stranraer,Airdrie Utd,7,7,False
 SC2,1819,2018-11-10,Arbroath,Montrose,7,7,False
-SC2,1819,2018-11-17,Forfar,Dumbarton,7,7,False
+SC2,1819,2018-11-10,Dumbarton,Stenhousemuir,7,7,False
 SC2,1819,2018-11-17,Brechin,Arbroath,7,7,False
 SC2,1819,2018-11-17,Airdrie Utd,East Fife,7,7,False
-SC2,1819,2018-11-17,Montrose,Stranraer,7,7,False
+SC2,1819,2018-11-17,Forfar,Dumbarton,7,7,False
 SC2,1819,2018-11-17,Stenhousemuir,Raith Rvs,7,7,False
-SC2,1819,2018-12-01,Dumbarton,Brechin,14,14,False
+SC2,1819,2018-11-17,Montrose,Stranraer,7,7,False
 SC2,1819,2018-12-01,East Fife,Montrose,14,14,False
-SC2,1819,2018-12-01,Raith Rvs,Airdrie Utd,14,14,False
 SC2,1819,2018-12-01,Stranraer,Forfar,14,14,False
+SC2,1819,2018-12-01,Dumbarton,Brechin,14,14,False
 SC2,1819,2018-12-01,Arbroath,Stenhousemuir,14,14,False
-SC2,1819,2018-12-08,Dumbarton,Airdrie Utd,7,7,False
-SC2,1819,2018-12-08,East Fife,Stranraer,7,7,False
-SC2,1819,2018-12-08,Forfar,Arbroath,7,7,False
+SC2,1819,2018-12-01,Raith Rvs,Airdrie Utd,14,14,False
 SC2,1819,2018-12-08,Montrose,Raith Rvs,7,7,False
+SC2,1819,2018-12-08,Forfar,Arbroath,7,7,False
+SC2,1819,2018-12-08,East Fife,Stranraer,7,7,False
+SC2,1819,2018-12-08,Dumbarton,Airdrie Utd,7,7,False
 SC2,1819,2018-12-08,Brechin,Stenhousemuir,7,7,False
 SC2,1819,2018-12-15,Forfar,Montrose,7,7,False
 SC2,1819,2018-12-15,Raith Rvs,Dumbarton,7,7,False
 SC2,1819,2018-12-15,Stenhousemuir,East Fife,7,7,False
 SC2,1819,2018-12-15,Airdrie Utd,Arbroath,7,7,False
-SC2,1819,2018-12-22,Brechin,Airdrie Utd,14,7,False
-SC2,1819,2018-12-22,Dumbarton,Stranraer,7,14,False
 SC2,1819,2018-12-22,East Fife,Forfar,7,7,False
 SC2,1819,2018-12-22,Montrose,Stenhousemuir,7,7,False
 SC2,1819,2018-12-22,Arbroath,Raith Rvs,7,7,False
+SC2,1819,2018-12-22,Brechin,Airdrie Utd,14,7,False
+SC2,1819,2018-12-22,Dumbarton,Stranraer,7,14,False
 SC2,1819,2018-12-29,Montrose,Arbroath,7,7,False
 SC2,1819,2018-12-29,Airdrie Utd,Stranraer,7,7,False
+SC2,1819,2018-12-29,Stenhousemuir,Dumbarton,7,7,False
 SC2,1819,2018-12-29,Forfar,Brechin,7,7,False
 SC2,1819,2018-12-29,Raith Rvs,East Fife,7,7,False
-SC2,1819,2018-12-29,Stenhousemuir,Dumbarton,7,7,False
-SC2,1819,2019-01-05,Raith Rvs,Stenhousemuir,7,7,False
 SC2,1819,2019-01-05,Arbroath,Brechin,7,7,False
-SC2,1819,2019-01-05,Stranraer,Montrose,7,7,False
-SC2,1819,2019-01-05,Dumbarton,Forfar,7,7,False
 SC2,1819,2019-01-05,East Fife,Airdrie Utd,7,7,False
-SC2,1819,2019-01-12,Brechin,Dumbarton,7,7,False
+SC2,1819,2019-01-05,Raith Rvs,Stenhousemuir,7,7,False
+SC2,1819,2019-01-05,Dumbarton,Forfar,7,7,False
+SC2,1819,2019-01-05,Stranraer,Montrose,7,7,False
 SC2,1819,2019-01-12,Forfar,Stranraer,7,7,False
 SC2,1819,2019-01-12,Montrose,East Fife,7,7,False
 SC2,1819,2019-01-12,Stenhousemuir,Arbroath,7,7,False
 SC2,1819,2019-01-12,Airdrie Utd,Raith Rvs,7,7,False
+SC2,1819,2019-01-12,Brechin,Dumbarton,7,7,False
+SC2,1819,2019-01-26,Stranraer,East Fife,14,14,False
 SC2,1819,2019-01-26,Brechin,Raith Rvs,14,14,False
 SC2,1819,2019-01-26,Dumbarton,Montrose,14,14,False
-SC2,1819,2019-01-26,Stenhousemuir,Airdrie Utd,14,14,False
-SC2,1819,2019-01-26,Stranraer,East Fife,14,14,False
 SC2,1819,2019-01-26,Arbroath,Forfar,14,14,False
-SC2,1819,2019-02-02,Montrose,Brechin,7,7,False
+SC2,1819,2019-01-26,Stenhousemuir,Airdrie Utd,14,14,False
 SC2,1819,2019-02-02,Raith Rvs,Forfar,7,7,False
+SC2,1819,2019-02-02,Montrose,Brechin,7,7,False
 SC2,1819,2019-02-02,Airdrie Utd,Dumbarton,7,7,False
-SC2,1819,2019-02-09,Forfar,Airdrie Utd,7,7,False
 SC2,1819,2019-02-09,Stenhousemuir,Montrose,14,7,False
+SC2,1819,2019-02-09,Forfar,Airdrie Utd,7,7,False
 SC2,1819,2019-02-12,Arbroath,Stranraer,17,17,True
-SC2,1819,2019-02-16,Raith Rvs,Arbroath,14,4,False
-SC2,1819,2019-02-16,Airdrie Utd,Brechin,7,14,False
 SC2,1819,2019-02-16,Montrose,Forfar,7,7,False
+SC2,1819,2019-02-16,Raith Rvs,Arbroath,14,4,False
 SC2,1819,2019-02-16,Stranraer,Dumbarton,4,14,False
-SC2,1819,2019-02-23,Brechin,Stranraer,7,7,False
-SC2,1819,2019-02-23,East Fife,Dumbarton,28,7,False
+SC2,1819,2019-02-16,Airdrie Utd,Brechin,7,14,False
 SC2,1819,2019-02-23,Forfar,Stenhousemuir,7,14,False
-SC2,1819,2019-02-23,Raith Rvs,Montrose,7,7,False
+SC2,1819,2019-02-23,East Fife,Dumbarton,28,7,False
+SC2,1819,2019-02-23,Brechin,Stranraer,7,7,False
 SC2,1819,2019-02-23,Arbroath,Airdrie Utd,7,7,False
-SC2,1819,2019-02-26,East Fife,Arbroath,3,3,True
-SC2,1819,2019-02-26,Stranraer,Stenhousemuir,3,3,True
+SC2,1819,2019-02-23,Raith Rvs,Montrose,7,7,False
 SC2,1819,2019-02-26,Dumbarton,Raith Rvs,3,3,True
-SC2,1819,2019-03-02,Dumbarton,Arbroath,4,4,False
+SC2,1819,2019-02-26,Stranraer,Stenhousemuir,3,3,True
+SC2,1819,2019-02-26,East Fife,Arbroath,3,3,True
 SC2,1819,2019-03-02,Forfar,East Fife,7,4,False
-SC2,1819,2019-03-02,Stenhousemuir,Brechin,4,7,False
 SC2,1819,2019-03-02,Stranraer,Raith Rvs,4,4,False
+SC2,1819,2019-03-02,Stenhousemuir,Brechin,4,7,False
 SC2,1819,2019-03-02,Airdrie Utd,Montrose,7,7,False
+SC2,1819,2019-03-02,Dumbarton,Arbroath,4,4,False
 SC2,1819,2019-03-05,Brechin,East Fife,3,3,True
+SC2,1819,2019-03-09,East Fife,Stranraer,4,7,False
+SC2,1819,2019-03-09,Raith Rvs,Airdrie Utd,7,7,False
 SC2,1819,2019-03-09,Arbroath,Stenhousemuir,7,7,False
 SC2,1819,2019-03-09,Brechin,Forfar,4,7,False
-SC2,1819,2019-03-09,East Fife,Stranraer,4,7,False
 SC2,1819,2019-03-09,Montrose,Dumbarton,7,7,False
-SC2,1819,2019-03-09,Raith Rvs,Airdrie Utd,7,7,False
 SC2,1819,2019-03-12,East Fife,Stenhousemuir,3,3,True
-SC2,1819,2019-03-16,Stenhousemuir,Stranraer,4,7,False
 SC2,1819,2019-03-16,Arbroath,East Fife,7,4,False
+SC2,1819,2019-03-16,Stenhousemuir,Stranraer,4,7,False
 SC2,1819,2019-03-16,Forfar,Raith Rvs,7,7,False
-SC2,1819,2019-03-23,Montrose,Stenhousemuir,14,7,False
 SC2,1819,2019-03-23,Raith Rvs,Dumbarton,7,14,False
 SC2,1819,2019-03-23,Stranraer,Arbroath,7,7,False
 SC2,1819,2019-03-23,Airdrie Utd,Forfar,14,7,False
 SC2,1819,2019-03-23,East Fife,Brechin,7,14,False
+SC2,1819,2019-03-23,Montrose,Stenhousemuir,14,7,False
 SC2,1819,2019-03-26,Stranraer,Brechin,3,3,True
-SC2,1819,2019-03-30,Dumbarton,Stenhousemuir,7,7,False
-SC2,1819,2019-03-30,East Fife,Raith Rvs,7,7,False
 SC2,1819,2019-03-30,Forfar,Arbroath,7,7,False
 SC2,1819,2019-03-30,Montrose,Stranraer,7,4,False
 SC2,1819,2019-03-30,Brechin,Airdrie Utd,4,7,False
-SC2,1819,2019-04-02,Dumbarton,Airdrie Utd,3,3,True
+SC2,1819,2019-03-30,East Fife,Raith Rvs,7,7,False
+SC2,1819,2019-03-30,Dumbarton,Stenhousemuir,7,7,False
 SC2,1819,2019-04-02,Brechin,Montrose,3,3,True
-SC2,1819,2019-04-06,Arbroath,Montrose,7,4,False
-SC2,1819,2019-04-06,Dumbarton,Brechin,4,4,False
+SC2,1819,2019-04-02,Dumbarton,Airdrie Utd,3,3,True
 SC2,1819,2019-04-06,Stenhousemuir,Raith Rvs,7,7,False
-SC2,1819,2019-04-06,Stranraer,Forfar,7,7,False
+SC2,1819,2019-04-06,Arbroath,Montrose,7,4,False
 SC2,1819,2019-04-06,Airdrie Utd,East Fife,4,7,False
-SC2,1819,2019-04-13,Airdrie Utd,Stenhousemuir,7,7,False
-SC2,1819,2019-04-13,Brechin,Arbroath,7,7,False
+SC2,1819,2019-04-06,Stranraer,Forfar,7,7,False
+SC2,1819,2019-04-06,Dumbarton,Brechin,4,4,False
 SC2,1819,2019-04-13,East Fife,Montrose,7,7,False
 SC2,1819,2019-04-13,Forfar,Dumbarton,7,7,False
+SC2,1819,2019-04-13,Airdrie Utd,Stenhousemuir,7,7,False
+SC2,1819,2019-04-13,Brechin,Arbroath,7,7,False
 SC2,1819,2019-04-13,Raith Rvs,Stranraer,7,7,False
-SC2,1819,2019-04-20,Montrose,Airdrie Utd,7,7,False
 SC2,1819,2019-04-20,Stenhousemuir,Forfar,7,7,False
 SC2,1819,2019-04-20,Stranraer,Brechin,7,7,False
+SC2,1819,2019-04-20,Montrose,Airdrie Utd,7,7,False
 SC2,1819,2019-04-20,Dumbarton,East Fife,7,7,False
 SC2,1819,2019-04-21,Arbroath,Raith Rvs,8,8,False
-SC2,1819,2019-04-27,Dumbarton,Stranraer,7,7,False
 SC2,1819,2019-04-27,Forfar,Montrose,7,7,False
+SC2,1819,2019-04-27,Dumbarton,Stranraer,7,7,False
 SC2,1819,2019-04-27,Raith Rvs,Brechin,6,7,False
 SC2,1819,2019-04-27,Stenhousemuir,East Fife,7,7,False
 SC2,1819,2019-04-27,Airdrie Utd,Arbroath,7,6,False
+SC2,1819,2019-05-04,Arbroath,Dumbarton,7,7,False
+SC2,1819,2019-05-04,Montrose,Raith Rvs,7,7,False
 SC2,1819,2019-05-04,Brechin,Stenhousemuir,7,7,False
 SC2,1819,2019-05-04,East Fife,Forfar,7,7,False
-SC2,1819,2019-05-04,Montrose,Raith Rvs,7,7,False
 SC2,1819,2019-05-04,Stranraer,Airdrie Utd,7,7,False
-SC2,1819,2019-05-04,Arbroath,Dumbarton,7,7,False

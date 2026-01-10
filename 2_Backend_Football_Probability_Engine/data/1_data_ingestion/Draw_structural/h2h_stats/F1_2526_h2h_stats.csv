@@ -2,6 +2,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9351,Lille,9356,Metz,2526,1,0,0.0,7.0
 9344,Lens,9348,Nice,2526,1,0,0.0,2.0
 9348,Nice,9350,Brest,2526,1,0,0.0,5.0
+9356,Metz,9357,Strasbourg,2526,1,0,0.0,1.0
 9346,Monaco,9352,Angers,2526,1,1,1.0,2.0
 9342,Rennes,9352,Angers,2526,1,1,1.0,2.0
 9350,Brest,9357,Strasbourg,2526,1,0,0.0,3.0
@@ -29,7 +30,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9343,Marseille,9357,Strasbourg,2526,1,0,0.0,3.0
 9346,Monaco,9354,Auxerre,2526,1,0,0.0,3.0
 9347,Le Havre,9356,Metz,2526,1,1,1.0,
-9352,Angers,9353,Paris FC,2526,1,0,0.0,1.0
+9352,Angers,9353,Paris FC,2526,2,0,0.0,1.0
 9352,Angers,9354,Auxerre,2526,1,0,0.0,2.0
 9343,Marseille,9353,Paris FC,2526,2,0,0.0,4.0
 9347,Le Havre,9351,Lille,2526,1,0,0.0,1.0
@@ -46,6 +47,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9349,Toulouse,9350,Brest,2526,1,0,0.0,2.0
 9345,Lyon,9358,Nantes,2526,1,0,0.0,3.0
 9346,Monaco,9348,Nice,2526,1,1,1.0,4.0
+9344,Lens,9345,Lyon,2526,1,0,0.0,1.0
 9350,Brest,9354,Auxerre,2526,1,0,0.0,2.0
 9349,Toulouse,9358,Nantes,2526,1,1,1.0,4.0
 9355,Lorient,9358,Nantes,2526,1,1,1.0,2.0
@@ -60,10 +62,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9350,Brest,9358,Nantes,2526,1,1,1.0,
 9347,Le Havre,9354,Auxerre,2526,1,0,0.0,1.0
 9347,Le Havre,9350,Brest,2526,1,0,0.0,1.0
+9342,Rennes,9343,Marseille,2526,1,0,0.0,1.0
 9353,Paris FC,9358,Nantes,2526,2,0,0.0,2.0
 9342,Rennes,9355,Lorient,2526,1,0,0.0,4.0
 9351,Lille,9357,Strasbourg,2526,1,0,0.0,2.0
 9353,Paris FC,9355,Lorient,2526,2,1,0.5,2.0
+9350,Brest,9351,Lille,2526,1,1,1.0,6.0
 9343,Marseille,9349,Toulouse,2526,1,1,1.0,4.0
 9342,Rennes,9356,Metz,2526,1,0,0.0,1.0
 9345,Lyon,9353,Paris FC,2526,2,1,0.5,5.5
@@ -71,6 +75,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9349,Toulouse,9352,Angers,2526,1,0,0.0,1.0
 9345,Lyon,9356,Metz,2526,1,0,0.0,3.0
 9349,Toulouse,9351,Lille,2526,1,0,0.0,3.0
+9354,Auxerre,9355,Lorient,2526,1,0,0.0,1.0
 9343,Marseille,9350,Brest,2526,1,0,0.0,3.0
 9346,Monaco,9355,Lorient,2526,1,0,0.0,4.0
 9344,Lens,9357,Strasbourg,2526,1,0,0.0,1.0
@@ -90,6 +95,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9345,Lyon,9351,Lille,2526,1,0,0.0,1.0
 9353,Paris FC,9356,Metz,2526,2,0,0.0,5.0
 9355,Lorient,9357,Strasbourg,2526,1,1,1.0,
+9348,Nice,9349,Toulouse,2526,1,0,0.0,1.0
 9342,Rennes,9354,Auxerre,2526,1,1,1.0,4.0
 9347,Le Havre,9357,Strasbourg,2526,1,0,0.0,1.0
 9347,Le Havre,9353,Paris FC,2526,2,1,0.5,1.5
@@ -127,5 +133,6 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9342,Rennes,9348,Nice,2526,1,0,0.0,3.0
 9346,Monaco,9351,Lille,2526,1,0,0.0,1.0
 9348,Nice,9354,Auxerre,2526,1,0,0.0,4.0
+9346,Monaco,9347,Le Havre,2526,1,0,0.0,4.0
 9342,Rennes,9358,Nantes,2526,1,1,1.0,4.0
 9344,Lens,9347,Le Havre,2526,1,0,0.0,3.0

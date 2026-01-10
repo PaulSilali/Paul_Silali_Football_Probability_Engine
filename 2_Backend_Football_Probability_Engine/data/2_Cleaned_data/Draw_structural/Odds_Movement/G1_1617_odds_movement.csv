@@ -1,0 +1,95 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+G1,1617,2016-01-10,Iraklis,Ionikos,3.2,3.2,0.0
+G1,1617,2016-01-10,Levadeiakos,Aris,3.1,3.1,0.0
+G1,1617,2016-02-10,Panathinaikos,Asteras Tripolis,4.6,4.6,0.0
+G1,1617,2016-03-12,Platanias,Ionikos,2.9,2.9,0.0
+G1,1617,2016-03-12,Veria,Panetolikos,3.0,3.0,0.0
+G1,1617,2016-03-12,Kerkyra,AEK,3.3,3.3,0.0
+G1,1617,2016-04-12,Xanthi,Asteras Tripolis,3.0,3.0,0.0
+G1,1617,2016-05-11,Giannina,Asteras Tripolis,2.9,2.9,0.0
+G1,1617,2016-05-11,AEK,Atromitos,4.0,4.0,0.0
+G1,1617,2016-05-11,Levadeiakos,Xanthi,3.0,3.0,0.0
+G1,1617,2016-05-12,Iraklis,Giannina,3.0,3.0,0.0
+G1,1617,2016-06-11,Panetolikos,Aris,3.2,3.2,0.0
+G1,1617,2016-07-11,Iraklis,Platanias,3.0,3.0,0.0
+G1,1617,2016-09-17,Platanias,Levadeiakos,3.3,3.3,0.0
+G1,1617,2016-09-18,Iraklis,Olympiakos,5.75,5.75,0.0
+G1,1617,2016-09-19,Asteras Tripolis,PAOK,3.3,3.3,0.0
+G1,1617,2016-09-24,Ionikos,Veria,3.75,3.75,0.0
+G1,1617,2016-09-25,Levadeiakos,Kerkyra,3.1,3.1,0.0
+G1,1617,2016-10-17,Aris,AEK,3.4,3.4,0.0
+G1,1617,2016-10-23,Olympiakos,PAOK,3.8,3.8,0.0
+G1,1617,2016-10-23,Levadeiakos,Panetolikos,3.0,3.0,0.0
+G1,1617,2016-10-23,Iraklis,Atromitos,3.0,3.0,0.0
+G1,1617,2016-10-24,Veria,Panathinaikos,6.0,6.0,0.0
+G1,1617,2016-10-31,Panetolikos,Giannina,3.1,3.1,0.0
+G1,1617,2016-11-09,AEK,Xanthi,4.33,4.33,0.0
+G1,1617,2016-11-09,PAOK,Panetolikos,5.0,5.0,0.0
+G1,1617,2016-11-09,Olympiakos,Veria,8.0,8.0,0.0
+G1,1617,2016-11-26,Asteras Tripolis,Aris,3.8,3.8,0.0
+G1,1617,2016-11-27,Ionikos,Panathinaikos,3.4,3.4,0.0
+G1,1617,2016-11-27,Panetolikos,Xanthi,3.2,3.2,0.0
+G1,1617,2016-11-28,PAOK,Atromitos,4.5,4.5,0.0
+G1,1617,2016-12-09,Aris,Iraklis,3.25,3.25,0.0
+G1,1617,2016-12-18,Levadeiakos,Ionikos,2.88,2.88,0.0
+G1,1617,2016-12-18,Iraklis,Asteras Tripolis,3.0,3.0,0.0
+G1,1617,2016-12-18,Olympiakos,Panetolikos,6.5,6.5,0.0
+G1,1617,2016-12-19,AEK,Giannina,4.0,4.0,0.0
+G1,1617,2017-01-04,Giannina,Xanthi,2.9,2.9,0.0
+G1,1617,2017-01-04,Levadeiakos,Veria,3.25,3.25,0.0
+G1,1617,2017-01-04,Olympiakos,Platanias,5.75,5.75,0.0
+G1,1617,2017-01-14,Platanias,Olympiakos,3.8,3.8,0.0
+G1,1617,2017-01-15,Asteras Tripolis,Panetolikos,3.4,3.4,0.0
+G1,1617,2017-01-15,Atromitos,Ionikos,3.2,3.2,0.0
+G1,1617,2017-01-18,Panetolikos,AEK,3.1,3.1,0.0
+G1,1617,2017-01-18,Atromitos,Kerkyra,3.8,3.8,0.0
+G1,1617,2017-01-18,Veria,Aris,2.75,2.75,0.0
+G1,1617,2017-01-18,Xanthi,Iraklis,4.0,4.0,0.0
+G1,1617,2017-01-19,Panathinaikos,Platanias,4.5,4.5,0.0
+G1,1617,2017-01-21,Iraklis,Veria,3.1,3.1,0.0
+G1,1617,2017-01-22,Kerkyra,Panathinaikos,3.8,3.8,0.0
+G1,1617,2017-01-22,Levadeiakos,Atromitos,3.0,3.0,0.0
+G1,1617,2017-01-28,Iraklis,Aris,3.0,3.0,0.0
+G1,1617,2017-01-28,Asteras Tripolis,Ionikos,3.2,3.2,0.0
+G1,1617,2017-01-29,Platanias,Kerkyra,3.3,3.3,0.0
+G1,1617,2017-01-29,Atromitos,Giannina,3.0,3.0,0.0
+G1,1617,2017-01-29,Veria,Olympiakos,6.5,6.5,0.0
+G1,1617,2017-02-04,Ionikos,Atromitos,3.4,3.4,0.0
+G1,1617,2017-02-04,AEK,Panathinaikos,2.9,2.9,0.0
+G1,1617,2017-02-04,Panetolikos,Asteras Tripolis,2.8,2.8,0.0
+G1,1617,2017-02-13,Iraklis,AEK,3.5,3.5,0.0
+G1,1617,2017-02-18,Atromitos,Xanthi,2.9,2.9,0.0
+G1,1617,2017-02-19,Panetolikos,Platanias,2.88,2.88,0.0
+G1,1617,2017-02-20,Aris,Levadeiakos,3.2,3.2,0.0
+G1,1617,2017-02-26,Levadeiakos,Giannina,2.88,2.88,0.0
+G1,1617,2017-02-26,Iraklis,PAOK,4.33,4.33,0.0
+G1,1617,2017-03-13,Levadeiakos,Asteras Tripolis,2.9,2.9,0.0
+G1,1617,2017-03-19,Xanthi,Levadeiakos,3.5,3.5,0.0
+G1,1617,2017-03-19,Asteras Tripolis,Giannina,3.1,3.1,0.0
+G1,1617,2017-04-01,Olympiakos,Asteras Tripolis,7.0,7.0,0.0
+G1,1617,2017-04-01,Kerkyra,Atromitos,3.0,3.0,0.0
+G1,1617,2017-04-01,Aris,Veria,3.3,3.3,0.0
+G1,1617,2017-04-02,Aris,Kerkyra,3.1,3.1,0.0
+G1,1617,2017-04-02,Giannina,Panathinaikos,3.1,3.1,0.0
+G1,1617,2017-04-03,Aris,Giannina,3.0,3.0,0.0
+G1,1617,2017-04-23,Platanias,PAOK,3.8,3.8,0.0
+G1,1617,2017-04-23,Iraklis,Panetolikos,4.75,4.75,0.0
+G1,1617,2017-04-23,Veria,Asteras Tripolis,4.75,4.75,0.0
+G1,1617,2017-04-30,Giannina,AEK,3.4,3.4,0.0
+G1,1617,2017-04-30,PAOK,Kerkyra,11.0,11.0,0.0
+G1,1617,2017-04-30,Ionikos,Levadeiakos,4.0,4.0,0.0
+G1,1617,2017-04-30,Asteras Tripolis,Iraklis,4.2,4.2,0.0
+G1,1617,2017-04-30,Atromitos,Platanias,3.6,3.6,0.0
+G1,1617,2017-05-01,Ionikos,Giannina,3.2,3.2,0.0
+G1,1617,2017-05-02,PAOK,Asteras Tripolis,4.5,4.5,0.0
+G1,1617,2017-05-03,Asteras Tripolis,Kerkyra,3.25,3.25,0.0
+G1,1617,2017-05-04,Aris,Asteras Tripolis,2.7,2.7,0.0
+G1,1617,2017-06-02,Levadeiakos,Platanias,2.9,2.9,0.0
+G1,1617,2017-06-03,Ionikos,AEK,2.9,2.9,0.0
+G1,1617,2017-07-01,Asteras Tripolis,AEK,3.25,3.25,0.0
+G1,1617,2017-08-01,Platanias,Aris,3.5,3.5,0.0
+G1,1617,2017-09-04,Ionikos,Platanias,3.6,3.6,0.0
+G1,1617,2017-09-04,Levadeiakos,Olympiakos,4.2,4.2,0.0
+G1,1617,2017-09-04,Giannina,Iraklis,3.0,3.0,0.0
+G1,1617,2017-11-03,Iraklis,Panathinaikos,3.8,3.8,0.0
+G1,1617,2017-12-02,Platanias,Giannina,2.9,2.9,0.0

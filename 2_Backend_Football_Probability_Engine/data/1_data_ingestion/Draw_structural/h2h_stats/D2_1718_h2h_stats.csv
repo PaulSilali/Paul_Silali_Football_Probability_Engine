@@ -12,8 +12,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9316,St Pauli,9328,Duisburg,1718,2,1,0.5,3.0
 9320,Sandhausen,9328,Duisburg,1718,2,0,0.0,1.5
 9309,Kaiserslautern,9314,Regensburg,1718,2,1,0.5,3.0
-9307,Dresden,9321,Heidenheim,1718,2,0,0.0,3.5
 9297,Bochum,9321,Heidenheim,1718,2,0,0.0,2.0
+9307,Dresden,9321,Heidenheim,1718,2,0,0.0,3.5
 9299,Nurnberg,9320,Sandhausen,1718,2,0,0.0,1.5
 9297,Bochum,9311,Braunschweig,1718,2,0,0.0,1.5
 9311,Braunschweig,9322,Ingolstadt,1718,2,0,0.0,2.0
@@ -51,8 +51,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9305,Fortuna Dusseldorf,9321,Heidenheim,1718,2,1,0.5,4.0
 9296,Darmstadt,9306,Greuther Furth,1718,2,1,0.5,1.5
 9303,Holstein Kiel,9327,Union Berlin,1718,2,1,0.5,5.5
-9307,Dresden,9314,Regensburg,1718,2,0,0.0,1.5
 9321,Heidenheim,9324,Erzgebirge Aue,1718,2,1,0.5,2.5
+9307,Dresden,9314,Regensburg,1718,2,0,0.0,1.5
 9303,Holstein Kiel,9321,Heidenheim,1718,2,0,0.0,5.5
 9316,St Pauli,9322,Ingolstadt,1718,2,0,0.0,2.5
 9303,Holstein Kiel,9322,Ingolstadt,1718,2,1,0.5,3.0
@@ -60,14 +60,14 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9299,Nurnberg,9311,Braunschweig,1718,2,0,0.0,3.5
 9322,Ingolstadt,9328,Duisburg,1718,2,1,0.5,3.5
 9304,Bielefeld,9309,Kaiserslautern,1718,2,0,0.0,3.5
-9303,Holstein Kiel,9307,Dresden,1718,2,0,0.0,3.5
 9307,Dresden,9316,St Pauli,1718,2,1,0.5,4.0
+9303,Holstein Kiel,9307,Dresden,1718,2,0,0.0,3.5
 9327,Union Berlin,9328,Duisburg,1718,2,2,1.0,1.0
 9320,Sandhausen,9321,Heidenheim,1718,2,0,0.0,2.5
 9296,Darmstadt,9305,Fortuna Dusseldorf,1718,2,0,0.0,1.0
 9297,Bochum,9299,Nurnberg,1718,2,1,0.5,2.0
-9316,St Pauli,9324,Erzgebirge Aue,1718,2,1,0.5,2.5
 9306,Greuther Furth,9324,Erzgebirge Aue,1718,2,0,0.0,3.0
+9316,St Pauli,9324,Erzgebirge Aue,1718,2,1,0.5,2.5
 9305,Fortuna Dusseldorf,9309,Kaiserslautern,1718,2,0,0.0,3.0
 9296,Darmstadt,9324,Erzgebirge Aue,1718,2,0,0.0,1.0
 9316,St Pauli,9321,Heidenheim,1718,2,0,0.0,2.5
@@ -111,8 +111,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9304,Bielefeld,9305,Fortuna Dusseldorf,1718,2,0,0.0,4.0
 9299,Nurnberg,9304,Bielefeld,1718,2,0,0.0,2.0
 9303,Holstein Kiel,9324,Erzgebirge Aue,1718,2,1,0.5,3.5
-9304,Bielefeld,9320,Sandhausen,1718,2,1,0.5,2.0
 9305,Fortuna Dusseldorf,9316,St Pauli,1718,2,0,0.0,3.0
+9304,Bielefeld,9320,Sandhausen,1718,2,1,0.5,2.0
 9299,Nurnberg,9314,Regensburg,1718,2,1,0.5,2.5
 9320,Sandhausen,9327,Union Berlin,1718,2,0,0.0,2.0
 9322,Ingolstadt,9324,Erzgebirge Aue,1718,2,1,0.5,1.5
@@ -144,8 +144,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9306,Greuther Furth,9311,Braunschweig,1718,2,0,0.0,3.0
 9316,St Pauli,9327,Union Berlin,1718,2,0,0.0,1.0
 9305,Fortuna Dusseldorf,9324,Erzgebirge Aue,1718,2,0,0.0,2.5
-9296,Darmstadt,9322,Ingolstadt,1718,2,1,0.5,2.5
 9299,Nurnberg,9327,Union Berlin,1718,2,1,0.5,2.5
+9296,Darmstadt,9322,Ingolstadt,1718,2,1,0.5,2.5
 9314,Regensburg,9324,Erzgebirge Aue,1718,2,0,0.0,2.5
 9299,Nurnberg,9305,Fortuna Dusseldorf,1718,2,0,0.0,3.5
 9314,Regensburg,9321,Heidenheim,1718,2,0,0.0,3.0

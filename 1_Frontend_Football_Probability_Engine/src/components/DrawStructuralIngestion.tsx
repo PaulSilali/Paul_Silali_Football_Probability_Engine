@@ -21,6 +21,7 @@ import {
   Square,
   RefreshCw,
   Download,
+  Upload,
   Zap
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,6 +147,22 @@ export function DrawStructuralIngestion() {
   const [xgDataSummary, setXgDataSummary] = useState<{
     total_records: number;
     leagues_with_xg: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  } | null>(null);
+  const [teamFormSummary, setTeamFormSummary] = useState<{
+    total_records: number;
+    fixture_records: number;
+    historical_records: number;
+    leagues_with_form: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  } | null>(null);
+  const [teamInjuriesSummary, setTeamInjuriesSummary] = useState<{
+    total_records: number;
+    leagues_with_injuries: number;
     total_leagues: number;
     last_updated: string | null;
     by_league: Array<{ code: string; name: string; count: number }>;
@@ -316,6 +333,34 @@ export function DrawStructuralIngestion() {
     }
   };
 
+  const fetchTeamFormSummary = async () => {
+    setLoadingSummary(prev => ({ ...prev, 'team-form': true }));
+    try {
+      const response = await apiClient.getTeamFormSummary();
+      if (response.success && response.data) {
+        setTeamFormSummary(response.data);
+      }
+    } catch (error: any) {
+      console.error('Failed to fetch team form summary:', error);
+    } finally {
+      setLoadingSummary(prev => ({ ...prev, 'team-form': false }));
+    }
+  };
+
+  const fetchTeamInjuriesSummary = async () => {
+    setLoadingSummary(prev => ({ ...prev, 'team-injuries': true }));
+    try {
+      const response = await apiClient.getTeamInjuriesSummary();
+      if (response.success && response.data) {
+        setTeamInjuriesSummary(response.data);
+      }
+    } catch (error: any) {
+      console.error('Failed to fetch team injuries summary:', error);
+    } finally {
+      setLoadingSummary(prev => ({ ...prev, 'team-injuries': false }));
+    }
+  };
+
   // Fetch all summaries on mount
   useEffect(() => {
     fetchPriorsSummary();
@@ -327,6 +372,8 @@ export function DrawStructuralIngestion() {
     fetchOddsMovementSummary();
     fetchLeagueStructureSummary();
     fetchXGDataSummary();
+    fetchTeamFormSummary();
+    fetchTeamInjuriesSummary();
   }, []);
 
   // Refresh summaries after successful ingestion
@@ -340,6 +387,8 @@ export function DrawStructuralIngestion() {
     if (results['odds-movement-batch']?.success) fetchOddsMovementSummary();
     if (results['league-structure-batch']?.success) fetchLeagueStructureSummary();
     if (results['xg-data-batch']?.success) fetchXGDataSummary();
+    if (results['team-form-batch']?.success) fetchTeamFormSummary();
+    if (results['team-injuries-batch']?.success) fetchTeamInjuriesSummary();
   }, [
     results['league-priors']?.success,
     results['h2h-batch']?.success,
@@ -349,6 +398,8 @@ export function DrawStructuralIngestion() {
     results['rest-days-batch']?.success,
     results['odds-movement-batch']?.success,
     results['league-structure-batch']?.success,
+    results['team-form-batch']?.success,
+    results['team-injuries-batch']?.success,
   ]);
 
   // League Draw Priors
@@ -993,6 +1044,83 @@ export function DrawStructuralIngestion() {
       });
     } finally {
       setLoadingState('team-form-batch', false);
+    }
+  };
+
+  // Team Injuries Download from API
+  const handleDownloadTeamInjuries = async () => {
+    if (selectedLeagues.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'Please select at least one league',
+        variant: 'destructive'
+      });
+      return;
+    }
+
+    const useAllLeagues = selectedLeagues.length === allLeagues.length;
+    
+    setLoadingState('team-injuries-download', true);
+    setResult('team-injuries-download', null);
+    try {
+      const response = await apiClient.downloadTeamInjuries({
+        leagueCodes: useAllLeagues ? undefined : selectedLeagues,
+        useAllLeagues: useAllLeagues,
+        source: 'api-football'
+      });
+      
+      if (response.success) {
+        setResult('team-injuries-download', { success: true, data: response.data });
+        toast({
+          title: 'Success',
+          description: response.message || `Injuries downloaded: ${response.data?.successful || 0} successful`
+        });
+        // Refresh summary after successful download
+        fetchTeamInjuriesSummary();
+      } else {
+        throw new Error(response.message || 'Download failed');
+      }
+    } catch (error: any) {
+      const errorMessage = error.message || error.response?.data?.detail || 'Failed to download team injuries';
+      setResult('team-injuries-download', { success: false, error: errorMessage });
+      toast({
+        title: 'Error',
+        description: errorMessage,
+        variant: 'destructive'
+      });
+    } finally {
+      setLoadingState('team-injuries-download', false);
+    }
+  };
+
+  // Team Injuries Import from CSV
+  const handleImportTeamInjuriesFromCsv = async (file: File) => {
+    setLoadingState('team-injuries-import', true);
+    setResult('team-injuries-import', null);
+    try {
+      const response = await apiClient.importTeamInjuriesFromCsv(file);
+      
+      if (response.success) {
+        setResult('team-injuries-import', { success: true, data: response.data });
+        toast({
+          title: 'Success',
+          description: response.message || `Team injuries imported successfully: ${response.data?.inserted || 0} inserted, ${response.data?.updated || 0} updated`
+        });
+        // Refresh summary after successful import
+        fetchTeamInjuriesSummary();
+      } else {
+        throw new Error(response.message || 'CSV import failed');
+      }
+    } catch (error: any) {
+      const errorMessage = error.message || error.response?.data?.detail || 'Failed to import team injuries from CSV';
+      setResult('team-injuries-import', { success: false, error: errorMessage });
+      toast({
+        title: 'Error',
+        description: errorMessage,
+        variant: 'destructive'
+      });
+    } finally {
+      setLoadingState('team-injuries-import', false);
     }
   };
 
@@ -4497,6 +4625,92 @@ export function DrawStructuralIngestion() {
 
         <Card>
           <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle>Ingestion Summary</CardTitle>
+                <CardDescription>
+                  Overview of team form data in the database
+                </CardDescription>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={fetchTeamFormSummary}
+                disabled={loadingSummary['team-form']}
+              >
+                {loadingSummary['team-form'] ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Loading...
+                  </>
+                ) : (
+                  <>
+                    <RefreshCw className="h-4 w-4 mr-2" />
+                    Refresh
+                  </>
+                )}
+              </Button>
+            </div>
+          </CardHeader>
+          <CardContent>
+            {loadingSummary['team-form'] ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+              </div>
+            ) : teamFormSummary ? (
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Total Records</p>
+                    <p className="text-2xl font-bold">{teamFormSummary.total_records.toLocaleString()}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Fixture Records</p>
+                    <p className="text-2xl font-bold">{teamFormSummary.fixture_records.toLocaleString()}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Historical Records</p>
+                    <p className="text-2xl font-bold">{teamFormSummary.historical_records.toLocaleString()}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Leagues with Form</p>
+                    <p className="text-2xl font-bold">
+                      {teamFormSummary.leagues_with_form}/{teamFormSummary.total_leagues}
+                    </p>
+                  </div>
+                </div>
+                {teamFormSummary.last_updated && (
+                  <div className="pt-2 border-t">
+                    <p className="text-sm text-muted-foreground">Last Updated</p>
+                    <p className="text-sm font-medium">
+                      {new Date(teamFormSummary.last_updated).toLocaleString()}
+                    </p>
+                  </div>
+                )}
+                {teamFormSummary.by_league.length > 0 && (
+                  <div className="pt-2 border-t">
+                    <p className="text-sm font-semibold mb-2">By League (Top 10)</p>
+                    <div className="space-y-1 max-h-48 overflow-y-auto">
+                      {teamFormSummary.by_league.slice(0, 10).map((league) => (
+                        <div key={league.code} className="flex justify-between text-sm">
+                          <span>{league.code} - {league.name}</span>
+                          <span className="font-medium">{league.count.toLocaleString()}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <p className="text-sm text-muted-foreground text-center py-4">
+                No team form data available. Click Refresh to load summary.
+              </p>
+            )}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
             <CardTitle>Information</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2 text-sm text-muted-foreground">
@@ -4523,15 +4737,81 @@ export function DrawStructuralIngestion() {
         <Alert>
           <Info className="h-4 w-4" />
           <AlertDescription>
-            Export existing team injury data to CSV format. To import injuries, use the manual entry feature in the Probability Output page or import from CSV.
+            Import team injuries from CSV, download from external APIs (API-Football), or export existing injury data to CSV format. You can also use the manual entry feature in the Probability Output page.
           </AlertDescription>
         </Alert>
 
         <Card>
           <CardHeader>
-            <CardTitle>Batch Export Team Injuries</CardTitle>
+            <CardTitle>Import Team Injuries from CSV</CardTitle>
             <CardDescription>
-              Export existing injury data for fixtures in selected leagues
+              Upload a CSV file to import team injury data. CSV format: league_code, season, match_date, home_team, away_team, home_key_players_missing, home_injury_severity, away_key_players_missing, away_injury_severity, etc.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="flex items-center space-x-4">
+              <input
+                type="file"
+                id="team-injuries-csv-upload"
+                accept=".csv"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    handleImportTeamInjuriesFromCsv(file);
+                  }
+                }}
+                className="hidden"
+                disabled={loading['team-injuries-import']}
+              />
+              <Label htmlFor="team-injuries-csv-upload" className="cursor-pointer">
+                <Button
+                  type="button"
+                  variant="outline"
+                  disabled={loading['team-injuries-import']}
+                  onClick={() => document.getElementById('team-injuries-csv-upload')?.click()}
+                >
+                  {loading['team-injuries-import'] ? (
+                    <>
+                      <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                      Importing...
+                    </>
+                  ) : (
+                    <>
+                      <Upload className="h-4 w-4 mr-2" />
+                      Choose CSV File
+                    </>
+                  )}
+                </Button>
+              </Label>
+              {results['team-injuries-import'] && (
+                <Alert className="flex-1">
+                  {results['team-injuries-import'].success ? (
+                    <>
+                      <CheckCircle className="h-4 w-4" />
+                      <AlertDescription>
+                        {results['team-injuries-import'].data?.message || 
+                         `Imported ${results['team-injuries-import'].data?.inserted || 0} records, updated ${results['team-injuries-import'].data?.updated || 0} records. ${results['team-injuries-import'].data?.errors || 0} errors.`}
+                      </AlertDescription>
+                    </>
+                  ) : (
+                    <>
+                      <AlertCircle className="h-4 w-4" />
+                      <AlertDescription>
+                        {results['team-injuries-import'].error || 'Failed to import team injuries'}
+                      </AlertDescription>
+                    </>
+                  )}
+                </Alert>
+              )}
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Team Injuries</CardTitle>
+            <CardDescription>
+              Download injury data from external APIs or export existing injury data to CSV files
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -4578,34 +4858,66 @@ export function DrawStructuralIngestion() {
               </p>
             </div>
 
-            <div className="flex items-center space-x-2">
-              <Checkbox
-                id="save-csv-team-injuries"
-                checked={true}
-                disabled
-              />
-              <Label htmlFor="save-csv-team-injuries" className="text-sm text-muted-foreground">
-                Save CSV files (always enabled)
-              </Label>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Button
+                onClick={handleDownloadTeamInjuries}
+                disabled={loading['team-injuries-download'] || selectedLeagues.length === 0}
+                variant="outline"
+                className="w-full"
+              >
+                {loading['team-injuries-download'] ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Downloading...
+                  </>
+                ) : (
+                  <>
+                    <Download className="h-4 w-4 mr-2" />
+                    Download from API
+                  </>
+                )}
+              </Button>
+
+              <Button
+                onClick={handleBatchIngestTeamInjuries}
+                disabled={loading['team-injuries-batch'] || selectedLeagues.length === 0}
+                variant="outline"
+                className="w-full"
+              >
+                {loading['team-injuries-batch'] ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Exporting...
+                  </>
+                ) : (
+                  <>
+                    <FileSpreadsheet className="h-4 w-4 mr-2" />
+                    Export to CSV
+                  </>
+                )}
+              </Button>
             </div>
 
-            <Button
-              onClick={handleBatchIngestTeamInjuries}
-              disabled={loading['team-injuries-batch'] || selectedLeagues.length === 0}
-              className="w-full"
-            >
-              {loading['team-injuries-batch'] ? (
-                <>
-                  <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                  Exporting Team Injuries...
-                </>
-              ) : (
-                <>
-                  <Download className="h-4 w-4 mr-2" />
-                  Batch Export Team Injuries ({selectedLeagues.length === allLeagues.length ? 'All Leagues' : `${selectedLeagues.length} Leagues`})
-                </>
-              )}
-            </Button>
+            {results['team-injuries-download'] && (
+              <Alert>
+                {results['team-injuries-download'].success ? (
+                  <>
+                    <CheckCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-injuries-download'].data?.message || 
+                       `Downloaded ${results['team-injuries-download'].data?.successful || 0} injuries. ${results['team-injuries-download'].data?.failed || 0} failed.`}
+                    </AlertDescription>
+                  </>
+                ) : (
+                  <>
+                    <AlertCircle className="h-4 w-4" />
+                    <AlertDescription>
+                      {results['team-injuries-download'].error || 'Failed to download injuries'}
+                    </AlertDescription>
+                  </>
+                )}
+              </Alert>
+            )}
 
             {results['team-injuries-batch'] && (
               <Alert>
@@ -4626,6 +4938,94 @@ export function DrawStructuralIngestion() {
                   </>
                 )}
               </Alert>
+            )}
+
+            <Alert variant="default">
+              <Info className="h-4 w-4" />
+              <AlertDescription className="text-sm">
+                <strong>Download from API:</strong> Requires API-Football API key configured in backend. The system automatically maps fixtures and downloads injuries. 
+                Rate limited to ~10 requests/minute (free tier). See <code className="text-xs bg-muted px-1 py-0.5 rounded">TEAM_INJURIES_DATA_SOURCES.md</code> for setup instructions.
+                <br /><br />
+                <strong>Export to CSV:</strong> Exports existing injury data from the database to CSV files for backup or analysis.
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle>Ingestion Summary</CardTitle>
+                <CardDescription>
+                  Overview of team injuries data in the database
+                </CardDescription>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={fetchTeamInjuriesSummary}
+                disabled={loadingSummary['team-injuries']}
+              >
+                {loadingSummary['team-injuries'] ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Loading...
+                  </>
+                ) : (
+                  <>
+                    <RefreshCw className="h-4 w-4 mr-2" />
+                    Refresh
+                  </>
+                )}
+              </Button>
+            </div>
+          </CardHeader>
+          <CardContent>
+            {loadingSummary['team-injuries'] ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+              </div>
+            ) : teamInjuriesSummary ? (
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Total Records</p>
+                    <p className="text-2xl font-bold">{teamInjuriesSummary.total_records.toLocaleString()}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Leagues with Injuries</p>
+                    <p className="text-2xl font-bold">
+                      {teamInjuriesSummary.leagues_with_injuries}/{teamInjuriesSummary.total_leagues}
+                    </p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-sm text-muted-foreground">Last Updated</p>
+                    <p className="text-sm font-medium">
+                      {teamInjuriesSummary.last_updated
+                        ? new Date(teamInjuriesSummary.last_updated).toLocaleString()
+                        : 'Never'}
+                    </p>
+                  </div>
+                </div>
+                {teamInjuriesSummary.by_league.length > 0 && (
+                  <div className="pt-2 border-t">
+                    <p className="text-sm font-semibold mb-2">By League (Top 10)</p>
+                    <div className="space-y-1 max-h-48 overflow-y-auto">
+                      {teamInjuriesSummary.by_league.slice(0, 10).map((league) => (
+                        <div key={league.code} className="flex justify-between text-sm">
+                          <span>{league.code} - {league.name}</span>
+                          <span className="font-medium">{league.count.toLocaleString()}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <p className="text-sm text-muted-foreground text-center py-4">
+                No team injuries data available. Click Refresh to load summary.
+              </p>
             )}
           </CardContent>
         </Card>

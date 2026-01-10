@@ -2,8 +2,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9380,Red Star,9410,Beziers,1819,2,0,0.0,3.5
 9374,Le Mans,9390,Ajaccio,1819,8,1,0.125,2.75
 9399,Valenciennes,9400,Auxerre,1819,2,1,0.5,3.0
-9380,Red Star,9392,Paris FC,1819,2,1,0.5,1.5
 9380,Red Star,9408,Chateauroux,1819,2,1,0.5,3.0
+9380,Red Star,9392,Paris FC,1819,2,1,0.5,1.5
 9392,Paris FC,9411,Brest,1819,2,1,0.5,1.5
 9390,Ajaccio,9395,Metz,1819,4,1,0.25,1.75
 9374,Le Mans,9403,Niort,1819,4,1,0.25,2.75
@@ -38,8 +38,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9403,Niort,9406,Sochaux,1819,2,0,0.0,2.0
 9399,Valenciennes,9410,Beziers,1819,2,1,0.5,6.5
 9395,Metz,9400,Auxerre,1819,2,1,0.5,0.5
-9410,Beziers,9411,Brest,1819,2,0,0.0,2.0
 9374,Le Mans,9404,Le Havre,1819,4,2,0.5,2.25
+9410,Beziers,9411,Brest,1819,2,0,0.0,2.0
 9374,Le Mans,9395,Metz,1819,4,1,0.25,2.25
 9390,Ajaccio,9400,Auxerre,1819,4,1,0.25,3.0
 9380,Red Star,9394,Lorient,1819,2,0,0.0,3.0
@@ -49,12 +49,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9403,Niort,9404,Le Havre,1819,2,1,0.5,0.5
 9382,Annecy,9392,Paris FC,1819,2,0,0.0,2.5
 9399,Valenciennes,9411,Brest,1819,2,0,0.0,5.5
-9390,Ajaccio,9406,Sochaux,1819,4,1,0.25,2.25
-9403,Niort,9410,Beziers,1819,2,2,1.0,1.0
 9385,Grenoble,9411,Brest,1819,2,0,0.0,3.5
+9403,Niort,9410,Beziers,1819,2,2,1.0,1.0
+9390,Ajaccio,9406,Sochaux,1819,4,1,0.25,2.25
 9382,Annecy,9411,Brest,1819,2,0,0.0,4.0
-9385,Grenoble,9392,Paris FC,1819,2,0,0.0,1.0
 9395,Metz,9408,Chateauroux,1819,2,0,0.0,3.0
+9385,Grenoble,9392,Paris FC,1819,2,0,0.0,1.0
 9384,Troyes,9411,Brest,1819,2,1,0.5,2.5
 9392,Paris FC,9406,Sochaux,1819,2,1,0.5,0.5
 9390,Ajaccio,9410,Beziers,1819,4,1,0.25,1.25
@@ -88,15 +88,15 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9382,Annecy,9394,Lorient,1819,2,0,0.0,5.0
 9390,Ajaccio,9390,Ajaccio,1819,2,0,0.0,2.0
 9399,Valenciennes,9403,Niort,1819,2,0,0.0,2.0
-9376,Clermont,9384,Troyes,1819,2,0,0.0,3.5
 9382,Annecy,9399,Valenciennes,1819,2,1,0.5,2.0
+9376,Clermont,9384,Troyes,1819,2,0,0.0,3.5
 9384,Troyes,9394,Lorient,1819,2,0,0.0,2.5
 9384,Troyes,9395,Metz,1819,2,1,0.5,1.5
 9376,Clermont,9404,Le Havre,1819,2,2,1.0,
 9406,Sochaux,9410,Beziers,1819,2,1,0.5,0.5
 9374,Le Mans,9411,Brest,1819,4,1,0.25,2.25
-9385,Grenoble,9394,Lorient,1819,2,0,0.0,1.0
 9380,Red Star,9390,Ajaccio,1819,4,2,0.5,1.75
+9385,Grenoble,9394,Lorient,1819,2,0,0.0,1.0
 9395,Metz,9403,Niort,1819,2,0,0.0,3.0
 9385,Grenoble,9400,Auxerre,1819,2,1,0.5,2.0
 9394,Lorient,9406,Sochaux,1819,2,1,0.5,0.5
@@ -108,16 +108,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9376,Clermont,9406,Sochaux,1819,2,0,0.0,2.0
 9392,Paris FC,9400,Auxerre,1819,2,0,0.0,2.5
 9384,Troyes,9390,Ajaccio,1819,4,1,0.25,1.25
-9382,Annecy,9410,Beziers,1819,1,0,0.0,3.0
+9382,Annecy,9410,Beziers,1819,2,0,0.0,2.5
 9392,Paris FC,9395,Metz,1819,2,0,0.0,2.5
 9376,Clermont,9390,Ajaccio,1819,4,3,0.75,1.25
 9394,Lorient,9403,Niort,1819,2,2,1.0,3.0
 9376,Clermont,9410,Beziers,1819,2,1,0.5,2.0
 9384,Troyes,9392,Paris FC,1819,2,0,0.0,1.5
 9385,Grenoble,9403,Niort,1819,2,1,0.5,1.5
-9395,Metz,9399,Valenciennes,1819,2,0,0.0,2.5
 9382,Annecy,9384,Troyes,1819,2,1,0.5,2.5
 9376,Clermont,9403,Niort,1819,2,0,0.0,5.5
+9395,Metz,9399,Valenciennes,1819,2,0,0.0,2.5
 9384,Troyes,9400,Auxerre,1819,2,0,0.0,1.5
 9384,Troyes,9399,Valenciennes,1819,2,0,0.0,3.5
 9384,Troyes,9410,Beziers,1819,2,1,0.5,0.5

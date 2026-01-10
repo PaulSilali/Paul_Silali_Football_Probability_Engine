@@ -118,6 +118,15 @@ async def startup_event():
         logger.info(f"  Allow Headers: {settings.get_cors_headers()}")
         
         # Test database connection
+        # Check API key status
+        api_key_preview = settings.API_FOOTBALL_KEY[:10] + '...' if settings.API_FOOTBALL_KEY and len(settings.API_FOOTBALL_KEY) > 10 else settings.API_FOOTBALL_KEY or 'EMPTY'
+        api_key_length = len(settings.API_FOOTBALL_KEY) if settings.API_FOOTBALL_KEY else 0
+        logger.info(f"API_FOOTBALL_KEY status: {api_key_preview} (length: {api_key_length})")
+        if not settings.API_FOOTBALL_KEY or api_key_length == 0:
+            logger.warning("⚠ API_FOOTBALL_KEY is not configured! Team injuries download will not work.")
+        else:
+            logger.info("✓ API_FOOTBALL_KEY is configured")
+        
         logger.info("Checking database connection...")
         with engine.connect() as conn:
             result = conn.execute(text("SELECT 1"))

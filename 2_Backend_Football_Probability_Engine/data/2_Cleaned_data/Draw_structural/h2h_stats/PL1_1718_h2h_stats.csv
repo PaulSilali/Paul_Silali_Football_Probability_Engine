@@ -8,8 +8,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9055,Sp Braga,9062,Boavista,1718,2,1,0.5,3.0
 9050,AVS,9058,Porto,1718,2,1,0.5,2.0
 9046,Sp Lisbon,9070,Setubal,1718,2,1,0.5,1.5
-9053,Moreirense,9059,Guimaraes,1718,2,0,0.0,2.0
 9055,Sp Braga,9070,Setubal,1718,2,0,0.0,3.0
+9053,Moreirense,9059,Guimaraes,1718,2,0,0.0,2.0
 9060,Benfica,9067,Maritimo,1718,2,1,0.5,3.5
 9063,Farense,9066,Chaves,1718,2,0,0.0,2.5
 9056,Tondela,9060,Benfica,1718,2,0,0.0,5.5
@@ -43,8 +43,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9058,Porto,9061,Rio Ave,1718,2,0,0.0,4.0
 9062,Boavista,9066,Chaves,1718,2,2,1.0,3.0
 9046,Sp Lisbon,9055,Sp Braga,1718,2,1,0.5,2.5
-9056,Tondela,9070,Setubal,1718,2,1,0.5,1.5
 9050,AVS,9056,Tondela,1718,2,0,0.0,2.0
+9056,Tondela,9070,Setubal,1718,2,1,0.5,1.5
 9050,AVS,9061,Rio Ave,1718,2,2,1.0,
 9046,Sp Lisbon,9064,Portimonense,1718,2,0,0.0,2.5
 9063,Farense,9067,Maritimo,1718,2,0,0.0,3.0
@@ -57,8 +57,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9055,Sp Braga,9068,Pacos Ferreira,1718,2,0,0.0,4.5
 9058,Porto,9060,Benfica,1718,2,1,0.5,0.5
 9050,AVS,9055,Sp Braga,1718,2,0,0.0,2.0
-9058,Porto,9063,Farense,1718,2,0,0.0,3.0
 9059,Guimaraes,9063,Farense,1718,2,0,0.0,2.0
+9058,Porto,9063,Farense,1718,2,0,0.0,3.0
 9055,Sp Braga,9059,Guimaraes,1718,2,0,0.0,4.0
 9060,Benfica,9068,Pacos Ferreira,1718,2,0,0.0,3.0
 9062,Boavista,9067,Maritimo,1718,2,0,0.0,2.0
@@ -138,12 +138,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9068,Pacos Ferreira,9069,Belenenses,1718,2,2,1.0,2.0
 9059,Guimaraes,9061,Rio Ave,1718,2,0,0.0,2.0
 9062,Boavista,9063,Farense,1718,2,0,0.0,2.0
-9057,Estoril,9067,Maritimo,1718,2,2,1.0,1.0
 9057,Estoril,9062,Boavista,1718,2,0,0.0,2.0
 9067,Maritimo,9068,Pacos Ferreira,1718,2,1,0.5,0.5
+9057,Estoril,9067,Maritimo,1718,2,2,1.0,1.0
 9063,Farense,9064,Portimonense,1718,2,0,0.0,3.5
-9046,Sp Lisbon,9066,Chaves,1718,2,0,0.0,4.5
 9046,Sp Lisbon,9056,Tondela,1718,2,0,0.0,2.5
+9046,Sp Lisbon,9066,Chaves,1718,2,0,0.0,4.5
 9061,Rio Ave,9068,Pacos Ferreira,1718,2,1,0.5,3.0
 9058,Porto,9067,Maritimo,1718,2,0,0.0,2.5
 9059,Guimaraes,9062,Boavista,1718,2,0,0.0,1.0

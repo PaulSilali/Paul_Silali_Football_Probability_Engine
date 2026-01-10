@@ -1,5 +1,5 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-MEX1,1920,2019-07-19,Puebla FC,Club Tijuana,196,196,False
+MEX1,1920,2019-07-19,Club Necaxa,Santos Laguna,196,196,False
 MEX1,1920,2019-07-19,Atlas Guadalajara,FC Juárez,196,7,False
 MEX1,1920,2019-07-19,Atlético San Luis,Pumas UNAM,7,196,False
 MEX1,1920,2019-07-19,CF Pachuca,Club León,196,196,False
@@ -41,7 +41,7 @@ MEX1,1920,2019-07-19,Club León,Deportivo Guadalajara,196,196,False
 MEX1,1920,2019-07-19,CF América,Monarcas Morelia,196,196,False
 MEX1,1920,2019-07-19,CF Monterrey,Deportivo Toluca,196,196,False
 MEX1,1920,2019-07-19,Pumas UNAM,CD Veracruz,196,196,False
-MEX1,1920,2019-07-19,Club Necaxa,Santos Laguna,196,196,False
+MEX1,1920,2019-07-19,Puebla FC,Club Tijuana,196,196,False
 MEX1,1920,2019-07-19,FC Juárez,Gallos Blancos,7,196,False
 MEX1,1920,2019-07-19,CD Veracruz,Atlético San Luis,196,7,False
 MEX1,1920,2019-07-19,Monarcas Morelia,Pumas UNAM,196,196,False
@@ -98,7 +98,7 @@ MEX1,1920,2019-07-19,Cruz Azul,CF Monterrey,196,196,False
 MEX1,1920,2019-07-19,Club Tijuana,Monarcas Morelia,196,196,False
 MEX1,1920,2019-07-19,Deportivo Toluca,Atlético San Luis,196,7,False
 MEX1,1920,2019-07-19,Puebla FC,Club León,196,196,False
-MEX1,1920,2020-01-10,Deportivo Toluca,Club Necaxa,175,175,False
+MEX1,1920,2019-07-19,UANL Tigres,Monarcas Morelia,196,196,False
 MEX1,1920,2020-01-10,Gallos Blancos,Club Tijuana,175,175,False
 MEX1,1920,2020-01-10,Santos Laguna,Club León,175,175,False
 MEX1,1920,2020-01-10,Puebla FC,Gallos Blancos,175,175,False
@@ -173,3 +173,4 @@ MEX1,1920,2020-01-10,Deportivo Guadalajara,CF Monterrey,175,175,False
 MEX1,1920,2020-01-10,Deportivo Toluca,Atlas Guadalajara,175,175,False
 MEX1,1920,2020-01-10,Santos Laguna,Club Necaxa,175,175,False
 MEX1,1920,2020-01-10,CF América,Cruz Azul,175,175,False
+MEX1,1920,2020-01-10,Deportivo Toluca,Club Necaxa,175,175,False

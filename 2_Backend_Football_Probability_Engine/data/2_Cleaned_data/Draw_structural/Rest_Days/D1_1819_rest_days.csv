@@ -2,10 +2,10 @@ league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,
 D1,1819,2018-08-24,Bayern Munich,Heidenheim,51,20,False
 D1,1819,2018-08-25,Fortuna Dusseldorf,Augsburg,7,52,False
 D1,1819,2018-08-25,Hertha,Nurnberg,52,7,False
-D1,1819,2018-08-25,Wolfsburg,Schalke 04,52,52,False
-D1,1819,2018-08-25,Werder Bremen,Hannover,82,82,False
 D1,1819,2018-08-25,Freiburg,Ein Frankfurt,52,21,False
 D1,1819,2018-08-25,M'gladbach,Leverkusen,52,112,False
+D1,1819,2018-08-25,Wolfsburg,Schalke 04,52,52,False
+D1,1819,2018-08-25,Werder Bremen,Hannover,82,82,False
 D1,1819,2018-08-26,Mainz,Stuttgart,53,22,False
 D1,1819,2018-08-26,Dortmund,RB Leipzig,22,113,False
 D1,1819,2018-08-31,Hannover,Dortmund,6,5,False
@@ -13,295 +13,295 @@ D1,1819,2018-09-01,Augsburg,M'gladbach,7,7,False
 D1,1819,2018-09-01,Ein Frankfurt,Werder Bremen,7,7,False
 D1,1819,2018-09-01,Heidenheim,Freiburg,8,7,False
 D1,1819,2018-09-01,Leverkusen,Wolfsburg,7,7,False
-D1,1819,2018-09-01,Nurnberg,Mainz,7,6,False
 D1,1819,2018-09-01,Stuttgart,Bayern Munich,6,8,False
-D1,1819,2018-09-02,RB Leipzig,Fortuna Dusseldorf,7,8,False
+D1,1819,2018-09-01,Nurnberg,Mainz,7,6,False
 D1,1819,2018-09-02,Schalke 04,Hertha,8,8,False
+D1,1819,2018-09-02,RB Leipzig,Fortuna Dusseldorf,7,8,False
 D1,1819,2018-09-14,Dortmund,Ein Frankfurt,14,13,False
+D1,1819,2018-09-15,Fortuna Dusseldorf,Heidenheim,13,14,False
 D1,1819,2018-09-15,M'gladbach,Schalke 04,14,12,False
 D1,1819,2018-09-15,RB Leipzig,Hannover,11,15,False
 D1,1819,2018-09-15,Wolfsburg,Hertha,14,13,False
-D1,1819,2018-09-15,Mainz,Augsburg,12,13,False
-D1,1819,2018-09-15,Fortuna Dusseldorf,Heidenheim,13,14,False
 D1,1819,2018-09-15,Bayern Munich,Leverkusen,14,11,False
+D1,1819,2018-09-15,Mainz,Augsburg,12,13,False
 D1,1819,2018-09-16,Freiburg,Stuttgart,15,15,False
 D1,1819,2018-09-16,Werder Bremen,Nurnberg,15,15,False
 D1,1819,2018-09-21,Stuttgart,Fortuna Dusseldorf,5,6,False
+D1,1819,2018-09-22,Augsburg,Werder Bremen,7,6,False
 D1,1819,2018-09-22,Nurnberg,Hannover,6,7,False
 D1,1819,2018-09-22,Schalke 04,Bayern Munich,7,7,False
-D1,1819,2018-09-22,Wolfsburg,Freiburg,7,6,False
-D1,1819,2018-09-22,Augsburg,Werder Bremen,7,6,False
 D1,1819,2018-09-22,Hertha,M'gladbach,7,7,False
 D1,1819,2018-09-22,Heidenheim,Dortmund,7,8,False
-D1,1819,2018-09-23,Leverkusen,Mainz,8,8,False
+D1,1819,2018-09-22,Wolfsburg,Freiburg,7,6,False
 D1,1819,2018-09-23,Ein Frankfurt,RB Leipzig,9,8,False
-D1,1819,2018-09-25,Werder Bremen,Hertha,3,3,True
+D1,1819,2018-09-23,Leverkusen,Mainz,8,8,False
 D1,1819,2018-09-25,Bayern Munich,Augsburg,3,3,True
-D1,1819,2018-09-25,Freiburg,Schalke 04,3,3,True
+D1,1819,2018-09-25,Werder Bremen,Hertha,3,3,True
 D1,1819,2018-09-25,Hannover,Heidenheim,3,3,True
-D1,1819,2018-09-26,Mainz,Wolfsburg,3,4,True
-D1,1819,2018-09-26,Fortuna Dusseldorf,Leverkusen,5,3,True
-D1,1819,2018-09-26,M'gladbach,Ein Frankfurt,4,3,True
-D1,1819,2018-09-26,RB Leipzig,Stuttgart,3,5,True
+D1,1819,2018-09-25,Freiburg,Schalke 04,3,3,True
 D1,1819,2018-09-26,Dortmund,Nurnberg,4,4,True
+D1,1819,2018-09-26,Fortuna Dusseldorf,Leverkusen,5,3,True
+D1,1819,2018-09-26,RB Leipzig,Stuttgart,3,5,True
+D1,1819,2018-09-26,Mainz,Wolfsburg,3,4,True
+D1,1819,2018-09-26,M'gladbach,Ein Frankfurt,4,3,True
 D1,1819,2018-09-28,Hertha,Bayern Munich,3,3,False
-D1,1819,2018-09-29,Nurnberg,Fortuna Dusseldorf,3,3,False
-D1,1819,2018-09-29,Schalke 04,Mainz,4,3,False
-D1,1819,2018-09-29,Stuttgart,Werder Bremen,3,4,False
-D1,1819,2018-09-29,Wolfsburg,M'gladbach,3,3,False
-D1,1819,2018-09-29,Leverkusen,Dortmund,3,3,False
 D1,1819,2018-09-29,Heidenheim,RB Leipzig,4,3,False
-D1,1819,2018-09-30,Augsburg,Freiburg,5,5,False
+D1,1819,2018-09-29,Schalke 04,Mainz,4,3,False
+D1,1819,2018-09-29,Nurnberg,Fortuna Dusseldorf,3,3,False
+D1,1819,2018-09-29,Wolfsburg,M'gladbach,3,3,False
+D1,1819,2018-09-29,Stuttgart,Werder Bremen,3,4,False
+D1,1819,2018-09-29,Leverkusen,Dortmund,3,3,False
 D1,1819,2018-09-30,Ein Frankfurt,Hannover,4,5,False
+D1,1819,2018-09-30,Augsburg,Freiburg,5,5,False
 D1,1819,2018-10-05,Werder Bremen,Wolfsburg,6,2,False
 D1,1819,2018-10-06,Fortuna Dusseldorf,Schalke 04,7,4,False
 D1,1819,2018-10-06,Hannover,Stuttgart,3,7,False
-D1,1819,2018-10-06,Mainz,Hertha,4,3,False
 D1,1819,2018-10-06,Dortmund,Augsburg,4,3,False
+D1,1819,2018-10-06,Mainz,Hertha,4,3,False
 D1,1819,2018-10-06,Bayern Munich,M'gladbach,3,3,False
-D1,1819,2018-10-07,RB Leipzig,Nurnberg,8,8,False
 D1,1819,2018-10-07,Freiburg,Leverkusen,4,4,False
+D1,1819,2018-10-07,RB Leipzig,Nurnberg,8,8,False
 D1,1819,2018-10-07,Heidenheim,Ein Frankfurt,4,5,False
 D1,1819,2018-10-19,Ein Frankfurt,Fortuna Dusseldorf,12,13,False
-D1,1819,2018-10-20,Nurnberg,Heidenheim,13,13,False
-D1,1819,2018-10-20,Schalke 04,Werder Bremen,14,15,False
-D1,1819,2018-10-20,Stuttgart,Dortmund,14,14,False
 D1,1819,2018-10-20,Wolfsburg,Bayern Munich,15,14,False
 D1,1819,2018-10-20,Leverkusen,Hannover,13,14,False
+D1,1819,2018-10-20,Nurnberg,Heidenheim,13,13,False
 D1,1819,2018-10-20,Augsburg,RB Leipzig,14,13,False
-D1,1819,2018-10-21,Hertha,Freiburg,15,14,False
+D1,1819,2018-10-20,Schalke 04,Werder Bremen,14,15,False
+D1,1819,2018-10-20,Stuttgart,Dortmund,14,14,False
 D1,1819,2018-10-21,M'gladbach,Mainz,15,15,False
+D1,1819,2018-10-21,Hertha,Freiburg,15,14,False
 D1,1819,2018-10-26,Freiburg,M'gladbach,5,5,False
-D1,1819,2018-10-27,Hannover,Augsburg,7,7,False
-D1,1819,2018-10-27,Heidenheim,Stuttgart,7,7,False
-D1,1819,2018-10-27,Mainz,Bayern Munich,6,7,False
-D1,1819,2018-10-27,Fortuna Dusseldorf,Wolfsburg,8,7,False
 D1,1819,2018-10-27,Dortmund,Hertha,7,6,False
-D1,1819,2018-10-28,RB Leipzig,Schalke 04,8,8,False
+D1,1819,2018-10-27,Hannover,Augsburg,7,7,False
+D1,1819,2018-10-27,Mainz,Bayern Munich,6,7,False
+D1,1819,2018-10-27,Heidenheim,Stuttgart,7,7,False
+D1,1819,2018-10-27,Fortuna Dusseldorf,Wolfsburg,8,7,False
 D1,1819,2018-10-28,Nurnberg,Ein Frankfurt,8,9,False
 D1,1819,2018-10-28,Werder Bremen,Leverkusen,8,8,False
+D1,1819,2018-10-28,RB Leipzig,Schalke 04,8,8,False
 D1,1819,2018-11-02,Stuttgart,Ein Frankfurt,6,5,False
 D1,1819,2018-11-03,Schalke 04,Hannover,6,7,False
-D1,1819,2018-11-03,Wolfsburg,Dortmund,1,7,False
-D1,1819,2018-11-03,Leverkusen,Heidenheim,6,7,False
-D1,1819,2018-11-03,Augsburg,Nurnberg,7,6,False
 D1,1819,2018-11-03,Hertha,RB Leipzig,7,6,False
+D1,1819,2018-11-03,Leverkusen,Heidenheim,6,7,False
 D1,1819,2018-11-03,Bayern Munich,Freiburg,7,8,False
+D1,1819,2018-11-03,Wolfsburg,Dortmund,1,7,False
+D1,1819,2018-11-03,Augsburg,Nurnberg,7,6,False
 D1,1819,2018-11-04,Mainz,Werder Bremen,8,2,False
 D1,1819,2018-11-04,M'gladbach,Fortuna Dusseldorf,2,8,False
 D1,1819,2018-11-09,Hannover,Wolfsburg,6,6,False
-D1,1819,2018-11-10,Freiburg,Mainz,7,6,False
-D1,1819,2018-11-10,Heidenheim,Augsburg,7,7,False
 D1,1819,2018-11-10,Nurnberg,Stuttgart,7,7,False
 D1,1819,2018-11-10,Werder Bremen,M'gladbach,6,6,False
+D1,1819,2018-11-10,Heidenheim,Augsburg,7,7,False
+D1,1819,2018-11-10,Freiburg,Mainz,7,6,False
 D1,1819,2018-11-10,Fortuna Dusseldorf,Hertha,6,7,False
 D1,1819,2018-11-10,Dortmund,Bayern Munich,7,7,False
-D1,1819,2018-11-11,Ein Frankfurt,Schalke 04,8,8,False
 D1,1819,2018-11-11,RB Leipzig,Leverkusen,8,8,False
+D1,1819,2018-11-11,Ein Frankfurt,Schalke 04,8,8,False
 D1,1819,2018-11-23,Leverkusen,Stuttgart,12,13,False
+D1,1819,2018-11-24,Wolfsburg,RB Leipzig,15,13,False
+D1,1819,2018-11-24,Augsburg,Ein Frankfurt,14,13,False
+D1,1819,2018-11-24,Bayern Munich,Fortuna Dusseldorf,14,14,False
 D1,1819,2018-11-24,Hertha,Heidenheim,14,14,False
 D1,1819,2018-11-24,Mainz,Dortmund,14,14,False
 D1,1819,2018-11-24,Schalke 04,Nurnberg,13,14,False
-D1,1819,2018-11-24,Wolfsburg,RB Leipzig,15,13,False
-D1,1819,2018-11-24,Bayern Munich,Fortuna Dusseldorf,14,14,False
-D1,1819,2018-11-24,Augsburg,Ein Frankfurt,14,13,False
 D1,1819,2018-11-25,Freiburg,Werder Bremen,15,15,False
 D1,1819,2018-11-25,M'gladbach,Hannover,15,16,False
 D1,1819,2018-11-30,Fortuna Dusseldorf,Mainz,6,6,False
-D1,1819,2018-12-01,Heidenheim,Schalke 04,7,7,False
 D1,1819,2018-12-01,Stuttgart,Augsburg,8,7,False
 D1,1819,2018-12-01,Werder Bremen,Bayern Munich,6,7,False
-D1,1819,2018-12-01,Hannover,Hertha,6,7,False
+D1,1819,2018-12-01,Heidenheim,Schalke 04,7,7,False
 D1,1819,2018-12-01,Dortmund,Freiburg,7,6,False
-D1,1819,2018-12-02,Ein Frankfurt,Wolfsburg,8,8,False
+D1,1819,2018-12-01,Hannover,Hertha,6,7,False
 D1,1819,2018-12-02,RB Leipzig,M'gladbach,8,7,False
+D1,1819,2018-12-02,Ein Frankfurt,Wolfsburg,8,8,False
 D1,1819,2018-12-03,Nurnberg,Leverkusen,9,2,False
 D1,1819,2018-12-07,Werder Bremen,Fortuna Dusseldorf,2,7,False
+D1,1819,2018-12-08,Hertha,Ein Frankfurt,3,3,False
 D1,1819,2018-12-08,Freiburg,RB Leipzig,3,3,False
 D1,1819,2018-12-08,Bayern Munich,Nurnberg,3,5,False
-D1,1819,2018-12-08,Hertha,Ein Frankfurt,3,3,False
 D1,1819,2018-12-08,Leverkusen,Augsburg,3,3,False
-D1,1819,2018-12-08,Schalke 04,Dortmund,3,3,False
 D1,1819,2018-12-08,Wolfsburg,Heidenheim,3,3,False
+D1,1819,2018-12-08,Schalke 04,Dortmund,3,3,False
 D1,1819,2018-12-09,M'gladbach,Stuttgart,4,4,False
 D1,1819,2018-12-09,Mainz,Hannover,4,4,False
 D1,1819,2018-12-14,Nurnberg,Wolfsburg,6,6,False
 D1,1819,2018-12-15,Fortuna Dusseldorf,Freiburg,8,7,False
-D1,1819,2018-12-15,Hannover,Bayern Munich,6,7,False
-D1,1819,2018-12-15,Heidenheim,M'gladbach,7,6,False
-D1,1819,2018-12-15,Stuttgart,Hertha,6,7,False
 D1,1819,2018-12-15,Dortmund,Werder Bremen,7,8,False
 D1,1819,2018-12-15,Augsburg,Schalke 04,7,7,False
+D1,1819,2018-12-15,Stuttgart,Hertha,6,7,False
+D1,1819,2018-12-15,Heidenheim,M'gladbach,7,6,False
+D1,1819,2018-12-15,Hannover,Bayern Munich,6,7,False
 D1,1819,2018-12-16,RB Leipzig,Mainz,8,7,False
 D1,1819,2018-12-16,Ein Frankfurt,Leverkusen,8,8,False
 D1,1819,2018-12-18,M'gladbach,Nurnberg,3,4,True
+D1,1819,2018-12-18,Hertha,Augsburg,3,3,True
 D1,1819,2018-12-18,Wolfsburg,Stuttgart,4,3,True
 D1,1819,2018-12-18,Fortuna Dusseldorf,Dortmund,3,3,True
-D1,1819,2018-12-18,Hertha,Augsburg,3,3,True
-D1,1819,2018-12-19,Mainz,Ein Frankfurt,3,3,True
 D1,1819,2018-12-19,Schalke 04,Leverkusen,4,3,True
-D1,1819,2018-12-19,Werder Bremen,Heidenheim,4,4,True
 D1,1819,2018-12-19,Freiburg,Hannover,4,4,True
 D1,1819,2018-12-19,Bayern Munich,RB Leipzig,4,3,True
+D1,1819,2018-12-19,Mainz,Ein Frankfurt,3,3,True
+D1,1819,2018-12-19,Werder Bremen,Heidenheim,4,4,True
 D1,1819,2018-12-21,Dortmund,M'gladbach,3,3,False
+D1,1819,2018-12-22,Ein Frankfurt,Bayern Munich,3,3,False
+D1,1819,2018-12-22,Stuttgart,Schalke 04,4,3,False
+D1,1819,2018-12-22,RB Leipzig,Werder Bremen,3,3,False
 D1,1819,2018-12-22,Leverkusen,Hertha,3,4,False
 D1,1819,2018-12-22,Nurnberg,Freiburg,4,3,False
-D1,1819,2018-12-22,RB Leipzig,Werder Bremen,3,3,False
-D1,1819,2018-12-22,Stuttgart,Schalke 04,4,3,False
 D1,1819,2018-12-22,Hannover,Fortuna Dusseldorf,3,4,False
-D1,1819,2018-12-22,Ein Frankfurt,Bayern Munich,3,3,False
 D1,1819,2018-12-23,Augsburg,Wolfsburg,5,5,False
 D1,1819,2018-12-23,Heidenheim,Mainz,4,4,False
 D1,1819,2019-01-18,Heidenheim,Bayern Munich,26,27,False
-D1,1819,2019-01-19,Ein Frankfurt,Freiburg,28,28,False
 D1,1819,2019-01-19,Augsburg,Fortuna Dusseldorf,27,28,False
-D1,1819,2019-01-19,Hannover,Werder Bremen,28,28,False
-D1,1819,2019-01-19,Leverkusen,M'gladbach,28,29,False
 D1,1819,2019-01-19,RB Leipzig,Dortmund,28,29,False
+D1,1819,2019-01-19,Leverkusen,M'gladbach,28,29,False
+D1,1819,2019-01-19,Hannover,Werder Bremen,28,28,False
+D1,1819,2019-01-19,Ein Frankfurt,Freiburg,28,28,False
 D1,1819,2019-01-19,Stuttgart,Mainz,28,27,False
-D1,1819,2019-01-20,Schalke 04,Wolfsburg,29,28,False
 D1,1819,2019-01-20,Nurnberg,Hertha,29,29,False
+D1,1819,2019-01-20,Schalke 04,Wolfsburg,29,28,False
 D1,1819,2019-01-25,Hertha,Schalke 04,5,5,False
-D1,1819,2019-01-26,Wolfsburg,Leverkusen,6,7,False
-D1,1819,2019-01-26,M'gladbach,Augsburg,7,7,False
 D1,1819,2019-01-26,Werder Bremen,Ein Frankfurt,7,7,False
 D1,1819,2019-01-26,Dortmund,Hannover,7,7,False
 D1,1819,2019-01-26,Freiburg,Heidenheim,7,8,False
 D1,1819,2019-01-26,Mainz,Nurnberg,7,6,False
+D1,1819,2019-01-26,Wolfsburg,Leverkusen,6,7,False
+D1,1819,2019-01-26,M'gladbach,Augsburg,7,7,False
 D1,1819,2019-01-27,Bayern Munich,Stuttgart,9,8,False
 D1,1819,2019-01-27,Fortuna Dusseldorf,RB Leipzig,8,8,False
 D1,1819,2019-02-01,Hannover,RB Leipzig,6,5,False
-D1,1819,2019-02-02,Heidenheim,Fortuna Dusseldorf,7,6,False
-D1,1819,2019-02-02,Leverkusen,Bayern Munich,7,6,False
-D1,1819,2019-02-02,Nurnberg,Werder Bremen,7,7,False
 D1,1819,2019-02-02,Schalke 04,M'gladbach,8,7,False
 D1,1819,2019-02-02,Hertha,Wolfsburg,8,7,False
 D1,1819,2019-02-02,Ein Frankfurt,Dortmund,7,7,False
-D1,1819,2019-02-03,Augsburg,Mainz,8,8,False
+D1,1819,2019-02-02,Heidenheim,Fortuna Dusseldorf,7,6,False
+D1,1819,2019-02-02,Leverkusen,Bayern Munich,7,6,False
+D1,1819,2019-02-02,Nurnberg,Werder Bremen,7,7,False
 D1,1819,2019-02-03,Stuttgart,Freiburg,7,8,False
+D1,1819,2019-02-03,Augsburg,Mainz,8,8,False
 D1,1819,2019-02-08,Mainz,Leverkusen,5,6,False
-D1,1819,2019-02-09,Freiburg,Wolfsburg,6,7,False
-D1,1819,2019-02-09,Hannover,Nurnberg,8,7,False
 D1,1819,2019-02-09,M'gladbach,Hertha,7,7,False
 D1,1819,2019-02-09,RB Leipzig,Ein Frankfurt,8,7,False
-D1,1819,2019-02-09,Dortmund,Heidenheim,7,7,False
+D1,1819,2019-02-09,Hannover,Nurnberg,8,7,False
 D1,1819,2019-02-09,Bayern Munich,Schalke 04,7,7,False
-D1,1819,2019-02-10,Fortuna Dusseldorf,Stuttgart,8,7,False
+D1,1819,2019-02-09,Dortmund,Heidenheim,7,7,False
+D1,1819,2019-02-09,Freiburg,Wolfsburg,6,7,False
 D1,1819,2019-02-10,Werder Bremen,Augsburg,8,7,False
+D1,1819,2019-02-10,Fortuna Dusseldorf,Stuttgart,8,7,False
 D1,1819,2019-02-15,Augsburg,Bayern Munich,5,6,False
-D1,1819,2019-02-16,Schalke 04,Freiburg,7,7,False
-D1,1819,2019-02-16,Stuttgart,RB Leipzig,6,7,False
-D1,1819,2019-02-16,Wolfsburg,Mainz,7,8,False
 D1,1819,2019-02-16,Heidenheim,Hannover,7,7,False
 D1,1819,2019-02-16,Hertha,Werder Bremen,7,6,False
+D1,1819,2019-02-16,Wolfsburg,Mainz,7,8,False
+D1,1819,2019-02-16,Stuttgart,RB Leipzig,6,7,False
+D1,1819,2019-02-16,Schalke 04,Freiburg,7,7,False
 D1,1819,2019-02-17,Ein Frankfurt,M'gladbach,8,8,False
 D1,1819,2019-02-17,Leverkusen,Fortuna Dusseldorf,9,7,False
 D1,1819,2019-02-18,Nurnberg,Dortmund,9,9,False
 D1,1819,2019-02-22,Werder Bremen,Stuttgart,6,6,False
-D1,1819,2019-02-23,Bayern Munich,Hertha,8,7,False
 D1,1819,2019-02-23,Fortuna Dusseldorf,Nurnberg,6,5,False
-D1,1819,2019-02-23,Freiburg,Augsburg,7,8,False
+D1,1819,2019-02-23,Bayern Munich,Hertha,8,7,False
 D1,1819,2019-02-23,Mainz,Schalke 04,7,7,False
 D1,1819,2019-02-23,M'gladbach,Wolfsburg,6,7,False
-D1,1819,2019-02-24,Hannover,Ein Frankfurt,8,7,False
+D1,1819,2019-02-23,Freiburg,Augsburg,7,8,False
 D1,1819,2019-02-24,Dortmund,Leverkusen,6,7,False
+D1,1819,2019-02-24,Hannover,Ein Frankfurt,8,7,False
 D1,1819,2019-02-25,RB Leipzig,Heidenheim,9,9,False
 D1,1819,2019-03-01,Augsburg,Dortmund,6,5,False
-D1,1819,2019-03-02,Leverkusen,Freiburg,6,7,False
-D1,1819,2019-03-02,M'gladbach,Bayern Munich,7,7,False
-D1,1819,2019-03-02,Nurnberg,RB Leipzig,7,5,False
 D1,1819,2019-03-02,Schalke 04,Fortuna Dusseldorf,7,7,False
 D1,1819,2019-03-02,Hertha,Mainz,7,7,False
+D1,1819,2019-03-02,Nurnberg,RB Leipzig,7,5,False
+D1,1819,2019-03-02,Leverkusen,Freiburg,6,7,False
 D1,1819,2019-03-02,Ein Frankfurt,Heidenheim,6,5,False
-D1,1819,2019-03-03,Stuttgart,Hannover,9,7,False
+D1,1819,2019-03-02,M'gladbach,Bayern Munich,7,7,False
 D1,1819,2019-03-03,Wolfsburg,Werder Bremen,8,9,False
+D1,1819,2019-03-03,Stuttgart,Hannover,9,7,False
 D1,1819,2019-03-08,Werder Bremen,Schalke 04,5,6,False
 D1,1819,2019-03-09,Freiburg,Hertha,7,7,False
+D1,1819,2019-03-09,Bayern Munich,Wolfsburg,7,6,False
 D1,1819,2019-03-09,Mainz,M'gladbach,7,7,False
 D1,1819,2019-03-09,RB Leipzig,Augsburg,7,8,False
 D1,1819,2019-03-09,Dortmund,Stuttgart,8,6,False
-D1,1819,2019-03-09,Bayern Munich,Wolfsburg,7,6,False
-D1,1819,2019-03-10,Hannover,Leverkusen,7,8,False
 D1,1819,2019-03-10,Heidenheim,Nurnberg,8,8,False
+D1,1819,2019-03-10,Hannover,Leverkusen,7,8,False
 D1,1819,2019-03-11,Fortuna Dusseldorf,Ein Frankfurt,9,9,False
 D1,1819,2019-03-15,M'gladbach,Freiburg,6,6,False
-D1,1819,2019-03-16,Schalke 04,RB Leipzig,8,7,False
 D1,1819,2019-03-16,Stuttgart,Heidenheim,7,6,False
+D1,1819,2019-03-16,Schalke 04,RB Leipzig,8,7,False
 D1,1819,2019-03-16,Wolfsburg,Fortuna Dusseldorf,7,5,False
-D1,1819,2019-03-16,Hertha,Dortmund,7,7,False
 D1,1819,2019-03-16,Augsburg,Hannover,7,6,False
+D1,1819,2019-03-16,Hertha,Dortmund,7,7,False
 D1,1819,2019-03-17,Leverkusen,Werder Bremen,7,9,False
-D1,1819,2019-03-17,Bayern Munich,Mainz,8,8,False
 D1,1819,2019-03-17,Ein Frankfurt,Nurnberg,6,7,False
+D1,1819,2019-03-17,Bayern Munich,Mainz,8,8,False
 D1,1819,2019-03-29,Heidenheim,Leverkusen,13,12,False
-D1,1819,2019-03-30,Dortmund,Wolfsburg,14,14,False
 D1,1819,2019-03-30,Fortuna Dusseldorf,M'gladbach,14,15,False
 D1,1819,2019-03-30,Freiburg,Bayern Munich,15,13,False
-D1,1819,2019-03-30,Nurnberg,Augsburg,13,14,False
+D1,1819,2019-03-30,Dortmund,Wolfsburg,14,14,False
 D1,1819,2019-03-30,RB Leipzig,Hertha,14,14,False
+D1,1819,2019-03-30,Nurnberg,Augsburg,13,14,False
 D1,1819,2019-03-30,Werder Bremen,Mainz,13,13,False
 D1,1819,2019-03-31,Ein Frankfurt,Stuttgart,14,15,False
 D1,1819,2019-03-31,Hannover,Schalke 04,15,15,False
 D1,1819,2019-04-05,Mainz,Freiburg,6,6,False
 D1,1819,2019-04-06,Wolfsburg,Hannover,7,6,False
-D1,1819,2019-04-06,Leverkusen,RB Leipzig,8,7,False
-D1,1819,2019-04-06,Schalke 04,Ein Frankfurt,6,6,False
 D1,1819,2019-04-06,Stuttgart,Nurnberg,6,7,False
+D1,1819,2019-04-06,Schalke 04,Ein Frankfurt,6,6,False
+D1,1819,2019-04-06,Leverkusen,RB Leipzig,8,7,False
 D1,1819,2019-04-06,Bayern Munich,Dortmund,7,7,False
 D1,1819,2019-04-06,Hertha,Fortuna Dusseldorf,7,7,False
-D1,1819,2019-04-07,Augsburg,Heidenheim,8,9,False
 D1,1819,2019-04-07,M'gladbach,Werder Bremen,8,8,False
+D1,1819,2019-04-07,Augsburg,Heidenheim,8,9,False
 D1,1819,2019-04-12,Nurnberg,Schalke 04,6,6,False
-D1,1819,2019-04-13,RB Leipzig,Wolfsburg,7,7,False
-D1,1819,2019-04-13,Stuttgart,Leverkusen,7,7,False
 D1,1819,2019-04-13,Werder Bremen,Freiburg,6,8,False
 D1,1819,2019-04-13,Hannover,M'gladbach,7,6,False
 D1,1819,2019-04-13,Dortmund,Mainz,7,8,False
-D1,1819,2019-04-14,Heidenheim,Hertha,7,8,False
+D1,1819,2019-04-13,Stuttgart,Leverkusen,7,7,False
+D1,1819,2019-04-13,RB Leipzig,Wolfsburg,7,7,False
 D1,1819,2019-04-14,Ein Frankfurt,Augsburg,8,7,False
+D1,1819,2019-04-14,Heidenheim,Hertha,7,8,False
 D1,1819,2019-04-14,Fortuna Dusseldorf,Bayern Munich,8,8,False
 D1,1819,2019-04-20,Leverkusen,Nurnberg,7,8,False
-D1,1819,2019-04-20,Mainz,Fortuna Dusseldorf,7,6,False
 D1,1819,2019-04-20,M'gladbach,RB Leipzig,7,7,False
-D1,1819,2019-04-20,Schalke 04,Heidenheim,8,6,False
 D1,1819,2019-04-20,Augsburg,Stuttgart,6,7,False
 D1,1819,2019-04-20,Bayern Munich,Werder Bremen,6,7,False
+D1,1819,2019-04-20,Schalke 04,Heidenheim,8,6,False
+D1,1819,2019-04-20,Mainz,Fortuna Dusseldorf,7,6,False
 D1,1819,2019-04-21,Freiburg,Dortmund,8,8,False
 D1,1819,2019-04-21,Hertha,Hannover,7,8,False
 D1,1819,2019-04-22,Wolfsburg,Ein Frankfurt,9,8,False
 D1,1819,2019-04-26,Augsburg,Leverkusen,6,6,False
-D1,1819,2019-04-27,RB Leipzig,Freiburg,7,6,False
-D1,1819,2019-04-27,Dortmund,Schalke 04,6,7,False
-D1,1819,2019-04-27,Ein Frankfurt,Hertha,5,6,False
-D1,1819,2019-04-27,Fortuna Dusseldorf,Werder Bremen,7,7,False
-D1,1819,2019-04-27,Hannover,Mainz,6,7,False
 D1,1819,2019-04-27,Stuttgart,M'gladbach,7,7,False
+D1,1819,2019-04-27,Fortuna Dusseldorf,Werder Bremen,7,7,False
+D1,1819,2019-04-27,Dortmund,Schalke 04,6,7,False
+D1,1819,2019-04-27,RB Leipzig,Freiburg,7,6,False
+D1,1819,2019-04-27,Hannover,Mainz,6,7,False
+D1,1819,2019-04-27,Ein Frankfurt,Hertha,5,6,False
 D1,1819,2019-04-28,Nurnberg,Bayern Munich,8,8,False
 D1,1819,2019-04-28,Heidenheim,Wolfsburg,8,6,False
 D1,1819,2019-05-03,Mainz,RB Leipzig,6,6,False
+D1,1819,2019-05-04,Wolfsburg,Nurnberg,6,6,False
+D1,1819,2019-05-04,Bayern Munich,Hannover,6,7,False
+D1,1819,2019-05-04,Hertha,Stuttgart,7,7,False
 D1,1819,2019-05-04,M'gladbach,Heidenheim,7,6,False
 D1,1819,2019-05-04,Werder Bremen,Dortmund,7,7,False
-D1,1819,2019-05-04,Wolfsburg,Nurnberg,6,6,False
-D1,1819,2019-05-04,Hertha,Stuttgart,7,7,False
-D1,1819,2019-05-04,Bayern Munich,Hannover,6,7,False
 D1,1819,2019-05-05,Schalke 04,Augsburg,8,9,False
-D1,1819,2019-05-05,Freiburg,Fortuna Dusseldorf,8,8,False
 D1,1819,2019-05-05,Leverkusen,Ein Frankfurt,9,8,False
-D1,1819,2019-05-11,Hannover,Freiburg,7,6,False
-D1,1819,2019-05-11,Heidenheim,Werder Bremen,7,7,False
-D1,1819,2019-05-11,Leverkusen,Schalke 04,6,6,False
+D1,1819,2019-05-05,Freiburg,Fortuna Dusseldorf,8,8,False
 D1,1819,2019-05-11,Nurnberg,M'gladbach,7,7,False
-D1,1819,2019-05-11,RB Leipzig,Bayern Munich,8,7,False
-D1,1819,2019-05-11,Stuttgart,Wolfsburg,7,7,False
-D1,1819,2019-05-11,Augsburg,Hertha,6,7,False
+D1,1819,2019-05-11,Heidenheim,Werder Bremen,7,7,False
 D1,1819,2019-05-11,Dortmund,Fortuna Dusseldorf,7,6,False
+D1,1819,2019-05-11,Augsburg,Hertha,6,7,False
+D1,1819,2019-05-11,Hannover,Freiburg,7,6,False
+D1,1819,2019-05-11,Leverkusen,Schalke 04,6,6,False
+D1,1819,2019-05-11,Stuttgart,Wolfsburg,7,7,False
+D1,1819,2019-05-11,RB Leipzig,Bayern Munich,8,7,False
 D1,1819,2019-05-12,Ein Frankfurt,Mainz,7,9,False
-D1,1819,2019-05-18,Freiburg,Nurnberg,7,7,False
-D1,1819,2019-05-18,Hertha,Leverkusen,7,7,False
-D1,1819,2019-05-18,Mainz,Heidenheim,6,7,False
-D1,1819,2019-05-18,M'gladbach,Dortmund,7,7,False
-D1,1819,2019-05-18,Schalke 04,Stuttgart,7,7,False
-D1,1819,2019-05-18,Werder Bremen,RB Leipzig,7,7,False
-D1,1819,2019-05-18,Wolfsburg,Augsburg,7,7,False
-D1,1819,2019-05-18,Fortuna Dusseldorf,Hannover,7,7,False
 D1,1819,2019-05-18,Bayern Munich,Ein Frankfurt,7,6,False
+D1,1819,2019-05-18,Wolfsburg,Augsburg,7,7,False
+D1,1819,2019-05-18,Freiburg,Nurnberg,7,7,False
+D1,1819,2019-05-18,Fortuna Dusseldorf,Hannover,7,7,False
+D1,1819,2019-05-18,Werder Bremen,RB Leipzig,7,7,False
+D1,1819,2019-05-18,Schalke 04,Stuttgart,7,7,False
+D1,1819,2019-05-18,M'gladbach,Dortmund,7,7,False
+D1,1819,2019-05-18,Mainz,Heidenheim,6,7,False
+D1,1819,2019-05-18,Hertha,Leverkusen,7,7,False

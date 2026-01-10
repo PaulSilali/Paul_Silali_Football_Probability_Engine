@@ -88,8 +88,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8950,Fenerbahce,8963,Akhisar Belediyespor,1819,2,0,0.0,3.0
 8940,Samsunspor,8944,Rizespor,1819,2,2,1.0,1.0
 8947,Trabzonspor,8950,Fenerbahce,1819,2,1,0.5,2.5
-8942,Antalyaspor,8948,Kocaelispor,1819,6,2,0.3333333333333333,2.0
 8943,Kasimpasa,8949,Karagumruk,1819,2,0,0.0,3.0
+8942,Antalyaspor,8948,Kocaelispor,1819,6,2,0.3333333333333333,2.0
 8945,Goztep,8959,Yeni Malatyaspor,1819,2,0,0.0,4.5
 8940,Samsunspor,8948,Kocaelispor,1819,2,0,0.0,3.0
 8939,Galatasaray,8948,Kocaelispor,1819,2,0,0.0,3.5
@@ -97,8 +97,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8951,Besiktas,8962,Bursaspor,1819,2,1,0.5,2.0
 8949,Karagumruk,8952,Buyuksehyr,1819,2,0,0.0,2.0
 8940,Samsunspor,8945,Goztep,1819,2,1,0.5,4.0
-8948,Kocaelispor,8962,Bursaspor,1819,2,2,1.0,1.0
 8944,Rizespor,8962,Bursaspor,1819,2,1,0.5,2.0
+8948,Kocaelispor,8962,Bursaspor,1819,2,2,1.0,1.0
 8940,Samsunspor,8963,Akhisar Belediyespor,1819,2,1,0.5,2.5
 8947,Trabzonspor,8961,Erzurum BB,1819,2,1,0.5,0.5
 8940,Samsunspor,8947,Trabzonspor,1819,2,1,0.5,3.0
@@ -113,8 +113,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8945,Goztep,8963,Akhisar Belediyespor,1819,2,0,0.0,1.0
 8942,Antalyaspor,8944,Rizespor,1819,6,4,0.6666666666666666,2.1666666666666665
 8959,Yeni Malatyaspor,8962,Bursaspor,1819,2,1,0.5,2.5
-8943,Kasimpasa,8952,Buyuksehyr,1819,2,0,0.0,2.5
 8951,Besiktas,8961,Erzurum BB,1819,2,1,0.5,3.0
+8943,Kasimpasa,8952,Buyuksehyr,1819,2,0,0.0,2.5
 8943,Kasimpasa,8947,Trabzonspor,1819,2,1,0.5,5.0
 8952,Buyuksehyr,8963,Akhisar Belediyespor,1819,2,0,0.0,3.5
 8944,Rizespor,8947,Trabzonspor,1819,2,0,0.0,5.0

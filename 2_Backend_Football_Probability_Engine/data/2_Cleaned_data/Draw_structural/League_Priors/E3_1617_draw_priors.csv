@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2016-01-10,Grimsby,Hartlepool,0,3,A,0
+2016-01-10,Wycombe,Exeter,1,0,H,0
+2016-01-10,Barnet,Leyton Orient,0,0,D,1
+2016-01-10,Carlisle,Colchester,2,0,H,0
+2016-01-10,Portsmouth,Doncaster,1,2,A,0
+2016-01-10,Plymouth,Yeovil,4,1,H,0
+2016-01-10,Crewe,Mansfield,1,1,D,1
+2016-01-10,Crawley Town,Blackpool,1,0,H,0
+2016-01-10,Cheltenham,Bolton,1,1,D,1
+2016-01-10,Cambridge,Accrington,2,1,H,0
+2016-03-09,Colchester,Exeter,2,3,A,0
+2016-03-09,Newport County,Grimsby,2,2,D,1
+2016-03-09,Carlisle,Accrington,1,1,D,1
+2016-03-09,Crewe,Doncaster,2,1,H,0
+2016-03-09,Bolton,Wycombe,4,1,H,0
+2016-03-09,Morecambe,Leyton Orient,1,2,A,0
+2016-03-09,Mansfield,Cambridge,0,0,D,1
+2016-03-09,Stevenage,Hartlepool,6,1,H,0
+2016-03-09,Yeovil,Blackpool,0,3,A,0
+2016-03-09,Portsmouth,Crawley Town,3,0,H,0
+2016-03-09,Plymouth,Cheltenham,1,0,H,0
+2016-03-12,Stevenage,Doncaster,3,4,A,0
+2016-03-12,Yeovil,Crawley Town,5,0,H,0
+2016-06-08,Stevenage,Crewe,1,2,A,0
+2016-06-08,Portsmouth,Carlisle,1,1,D,1
+2016-06-08,Newport County,Mansfield,2,3,A,0
+2016-06-08,Hartlepool,Colchester,1,1,D,1
+2016-06-08,Plymouth,Bolton,0,3,A,0
+2016-06-08,Accrington,Doncaster,3,2,H,0
+2016-06-08,Grimsby,Morecambe,2,0,H,0
+2016-06-08,Crawley Town,Wycombe,1,0,H,0
+2016-06-08,Cheltenham,Leyton Orient,1,1,D,1
+2016-06-08,Cambridge,Barnet,1,1,D,1
+2016-06-08,Blackpool,Exeter,2,0,H,0
+2016-06-08,Yeovil,Newport County,2,0,H,0
+2016-06-12,Newport County,Stevenage,0,2,A,0
+2016-08-10,Yeovil,Wycombe,1,0,H,0
+2016-08-10,Stevenage,Plymouth,1,2,A,0
+2016-08-10,Colchester,Newport County,0,0,D,1
+2016-08-10,Morecambe,Carlisle,0,3,A,0
+2016-08-10,Leyton Orient,Portsmouth,0,1,A,0
+2016-08-10,Exeter,Grimsby,0,0,D,1
+2016-08-10,Accrington,Cheltenham,1,1,D,1
+2016-08-10,Blackpool,Cambridge,1,1,D,1
+2016-08-10,Doncaster,Barnet,3,2,H,0
+2016-08-10,Hartlepool,Crawley Town,1,1,D,1
+2016-08-10,Bolton,Crewe,1,1,D,1
+2016-08-10,Mansfield,Newport County,3,1,H,0
+2016-08-13,Exeter,Hartlepool,1,2,A,0
+2016-08-13,Barnet,Accrington,2,0,H,0
+2016-08-13,Carlisle,Plymouth,1,0,H,0
+2016-08-13,Colchester,Cambridge,2,0,H,0
+2016-08-13,Crewe,Portsmouth,0,0,D,1
+2016-08-13,Leyton Orient,Newport County,0,1,A,0
+2016-08-13,Doncaster,Crawley Town,1,1,D,1
+2016-08-13,Bolton,Yeovil,1,1,D,1
+2016-08-13,Mansfield,Cheltenham,1,1,D,1
+2016-08-13,Morecambe,Blackpool,2,1,H,0
+2016-08-13,Newport County,Stevenage,1,1,D,1
+2016-08-13,Wycombe,Grimsby,2,1,H,0
+2016-08-16,Doncaster,Cambridge,1,0,H,0
+2016-08-16,Wycombe,Accrington,1,1,D,1
+2016-08-16,Newport County,Plymouth,1,2,A,0
+2016-08-16,Bolton,Newport County,2,1,H,0
+2016-08-16,Crewe,Hartlepool,3,3,D,1
+2016-08-16,Colchester,Grimsby,3,2,H,0
+2016-08-16,Carlisle,Cheltenham,1,1,D,1
+2016-08-16,Barnet,Blackpool,1,1,D,1
+2016-08-16,Morecambe,Portsmouth,2,0,H,0
+2016-08-16,Mansfield,Yeovil,1,0,H,0
+2016-08-16,Leyton Orient,Stevenage,3,0,H,0
+2016-08-16,Exeter,Crawley Town,0,1,A,0
+2016-08-20,Blackpool,Wycombe,0,0,D,1
+2016-08-20,Stevenage,Bolton,2,1,H,0
+2016-08-20,Hartlepool,Newport County,1,2,A,0
+2016-08-20,Grimsby,Leyton Orient,1,2,A,0
+2016-08-20,Crawley Town,Barnet,1,1,D,1
+2016-08-20,Cambridge,Carlisle,2,2,D,1
+2016-08-20,Accrington,Exeter,1,2,A,0
+2016-08-20,Newport County,Crewe,1,1,D,1
+2016-08-20,Yeovil,Morecambe,0,1,A,0
+2016-08-20,Portsmouth,Colchester,2,0,H,0
+2016-08-20,Plymouth,Mansfield,2,0,H,0
+2016-08-20,Cheltenham,Doncaster,0,1,A,0
+2016-08-27,Barnet,Carlisle,0,1,A,0
+2016-08-27,Blackpool,Plymouth,0,1,A,0
+2016-08-27,Cambridge,Bolton,0,3,A,0
+2016-08-27,Cheltenham,Crewe,2,0,H,0
+2016-08-27,Exeter,Portsmouth,0,1,A,0
+2016-08-27,Wycombe,Colchester,0,2,A,0
+2016-08-27,Leyton Orient,Mansfield,1,2,A,0
+2016-08-27,Hartlepool,Newport County,2,2,D,1
+2016-08-27,Grimsby,Stevenage,5,2,H,0
+2016-08-27,Doncaster,Yeovil,4,1,H,0
+2016-08-27,Crawley Town,Newport County,1,3,A,0
+2016-08-27,Accrington,Morecambe,2,3,A,0
+2016-09-17,Barnet,Colchester,1,1,D,1
+2016-09-17,Doncaster,Newport County,2,0,H,0
+2016-09-17,Accrington,Portsmouth,1,0,H,0
+2016-09-17,Crawley Town,Bolton,2,0,H,0
+2016-09-17,Leyton Orient,Yeovil,0,1,A,0
+2016-09-17,Wycombe,Stevenage,1,0,H,0
+2016-09-17,Exeter,Plymouth,0,2,A,0
+2016-09-17,Grimsby,Crewe,0,2,A,0
+2016-09-17,Hartlepool,Mansfield,0,0,D,1
+2016-09-17,Cheltenham,Newport County,2,3,A,0
+2016-09-17,Cambridge,Morecambe,1,2,A,0
+2016-09-17,Blackpool,Carlisle,2,2,D,1
+2016-09-24,Bolton,Doncaster,3,1,H,0
+2016-09-24,Carlisle,Wycombe,1,0,H,0
+2016-09-24,Mansfield,Grimsby,0,1,A,0
+2016-09-24,Stevenage,Exeter,0,2,A,0
+2016-09-24,Colchester,Accrington,1,2,A,0
+2016-09-24,Yeovil,Cheltenham,4,2,H,0
+2016-09-24,Portsmouth,Barnet,5,1,H,0
+2016-09-24,Plymouth,Hartlepool,1,1,D,1
+2016-09-24,Newport County,Leyton Orient,3,1,H,0
+2016-09-24,Newport County,Cambridge,1,2,A,0
+2016-09-24,Morecambe,Crawley Town,2,3,A,0
+2016-09-24,Crewe,Blackpool,1,1,D,1
+2016-09-27,Doncaster,Carlisle,2,2,D,1
+2016-09-27,Crawley Town,Colchester,1,1,D,1
+2016-09-27,Blackpool,Portsmouth,3,1,H,0
+2016-09-27,Barnet,Morecambe,2,2,D,1
+2016-09-27,Leyton Orient,Plymouth,0,2,A,0
+2016-09-27,Grimsby,Newport County,1,0,H,0
+2016-09-27,Exeter,Newport County,0,2,A,0
+2016-09-27,Cheltenham,Stevenage,0,0,D,1
+2016-09-27,Cambridge,Yeovil,1,0,H,0
+2016-09-27,Accrington,Mansfield,1,1,D,1
+2016-09-27,Wycombe,Crewe,5,1,H,0
+2016-09-27,Hartlepool,Bolton,1,1,D,1
+2016-10-09,Crewe,Exeter,2,0,H,0
+2016-10-09,Yeovil,Hartlepool,1,2,A,0
+2016-10-09,Stevenage,Crawley Town,2,1,H,0
+2016-10-09,Portsmouth,Wycombe,4,2,H,0
+2016-10-09,Plymouth,Cambridge,2,1,H,0
+2016-10-09,Newport County,Cheltenham,2,2,D,1
+2016-10-09,Morecambe,Doncaster,1,5,A,0
+2016-10-09,Bolton,Grimsby,1,2,A,0
+2016-10-09,Colchester,Blackpool,3,2,H,0
+2016-10-09,Carlisle,Leyton Orient,2,2,D,1
+2016-10-09,Newport County,Accrington,0,2,A,0
+2016-10-09,Mansfield,Barnet,0,1,A,0
+2016-10-12,Bolton,Carlisle,1,1,D,1
+2016-10-12,Mansfield,Colchester,0,0,D,1
+2016-10-12,Leyton Orient,Accrington,1,0,H,0
+2016-10-12,Crewe,Crawley Town,0,2,A,0
+2016-10-12,Grimsby,Portsmouth,0,1,A,0
+2016-10-12,Hartlepool,Cambridge,0,5,A,0
+2016-10-12,Newport County,Wycombe,0,2,A,0
+2016-10-12,Plymouth,Doncaster,2,0,H,0
+2016-10-12,Stevenage,Blackpool,0,2,A,0
+2016-10-12,Yeovil,Barnet,0,1,A,0
+2016-10-12,Cheltenham,Exeter,1,3,A,0
+2016-10-15,Cheltenham,Crawley Town,2,1,H,0
+2016-10-15,Carlisle,Hartlepool,3,2,H,0
+2016-10-15,Barnet,Exeter,1,4,A,0
+2016-10-15,Yeovil,Newport County,1,0,H,0
+2016-10-15,Morecambe,Stevenage,0,2,A,0
+2016-10-15,Doncaster,Colchester,1,0,H,0
+2016-10-15,Accrington,Blackpool,2,1,H,0
+2016-10-15,Mansfield,Wycombe,1,1,D,1
+2016-10-15,Newport County,Crewe,1,1,D,1
+2016-10-15,Cambridge,Grimsby,0,1,A,0
+2016-10-15,Plymouth,Portsmouth,2,2,D,1
+2016-10-15,Leyton Orient,Bolton,1,2,A,0
+2016-10-22,Colchester,Morecambe,2,2,D,1
+2016-10-22,Hartlepool,Leyton Orient,1,3,A,0
+2016-10-22,Bolton,Mansfield,1,1,D,1
+2016-10-22,Newport County,Plymouth,1,3,A,0
+2016-10-22,Exeter,Cambridge,1,2,A,0
+2016-10-22,Stevenage,Carlisle,1,2,A,0
+2016-10-22,Portsmouth,Newport County,1,2,A,0
+2016-10-22,Crawley Town,Accrington,0,0,D,1
+2016-10-22,Crewe,Yeovil,0,1,A,0
+2016-10-22,Grimsby,Cheltenham,0,1,A,0
+2016-10-22,Wycombe,Barnet,0,2,A,0
+2016-10-22,Blackpool,Doncaster,4,2,H,0
+2016-10-25,Newport County,Barnet,2,2,D,1
+2016-10-29,Cambridge,Portsmouth,0,1,A,0
+2016-10-29,Leyton Orient,Crewe,0,2,A,0
+2016-10-29,Morecambe,Exeter,0,3,A,0
+2016-10-29,Newport County,Bolton,0,0,D,1
+2016-10-29,Yeovil,Grimsby,0,0,D,1
+2016-10-29,Accrington,Newport County,1,3,A,0
+2016-10-29,Barnet,Hartlepool,3,2,H,0
+2016-10-29,Carlisle,Crawley Town,3,1,H,0
+2016-10-29,Cheltenham,Blackpool,2,2,D,1
+2016-10-29,Doncaster,Wycombe,2,2,D,1
+2016-10-29,Mansfield,Stevenage,1,2,A,0
+2016-10-29,Plymouth,Colchester,2,1,H,0
+2016-11-10,Newport County,Morecambe,1,2,A,0
+2016-11-19,Cheltenham,Portsmouth,1,1,D,1
+2016-11-19,Carlisle,Exeter,3,2,H,0
+2016-11-19,Cambridge,Wycombe,1,2,A,0
+2016-11-19,Newport County,Newport County,0,3,A,0
+2016-11-19,Plymouth,Grimsby,0,3,A,0
+2016-11-19,Accrington,Stevenage,0,1,A,0
+2016-11-19,Yeovil,Colchester,2,1,H,0
+2016-11-19,Mansfield,Crawley Town,3,1,H,0
+2016-11-19,Leyton Orient,Blackpool,1,2,A,0
+2016-11-19,Morecambe,Bolton,0,2,A,0
+2016-11-19,Barnet,Crewe,0,0,D,1
+2016-11-19,Doncaster,Hartlepool,2,1,H,0
+2016-11-22,Bolton,Portsmouth,1,3,A,0
+2016-11-22,Grimsby,Carlisle,2,2,D,1
+2016-11-22,Crewe,Morecambe,2,1,H,0
+2016-11-22,Cheltenham,Colchester,0,3,A,0
+2016-11-22,Newport County,Cambridge,0,1,A,0
+2016-11-22,Plymouth,Barnet,0,2,A,0
+2016-11-22,Newport County,Wycombe,0,1,A,0
+2016-11-22,Mansfield,Blackpool,1,0,H,0
+2016-11-22,Hartlepool,Accrington,2,0,H,0
+2016-11-22,Leyton Orient,Exeter,0,1,A,0
+2016-11-26,Blackpool,Newport County,4,1,H,0
+2016-11-26,Colchester,Crewe,4,0,H,0
+2016-11-26,Exeter,Bolton,0,0,D,1
+2016-11-26,Wycombe,Hartlepool,2,0,H,0
+2016-11-26,Accrington,Yeovil,1,1,D,1
+2016-11-26,Barnet,Newport County,3,2,H,0
+2016-11-26,Cambridge,Cheltenham,3,1,H,0
+2016-11-26,Carlisle,Mansfield,5,2,H,0
+2016-11-26,Crawley Town,Grimsby,3,2,H,0
+2016-11-26,Doncaster,Leyton Orient,3,1,H,0
+2016-11-26,Morecambe,Plymouth,2,1,H,0
+2016-11-26,Portsmouth,Stevenage,1,2,A,0
+2016-12-11,Hartlepool,Cheltenham,2,0,H,0
+2016-12-11,Blackpool,Newport County,4,0,H,0
+2016-12-11,Colchester,Leyton Orient,0,3,A,0
+2016-12-11,Bolton,Accrington,1,0,H,0
+2016-12-11,Crewe,Plymouth,1,2,A,0
+2016-12-11,Exeter,Doncaster,1,3,A,0
+2016-12-11,Grimsby,Barnet,2,2,D,1
+2016-12-11,Stevenage,Yeovil,2,2,D,1
+2016-12-11,Crawley Town,Cambridge,1,3,A,0
+2016-12-11,Newport County,Carlisle,2,0,H,0
+2016-12-11,Portsmouth,Mansfield,4,0,H,0
+2016-12-11,Wycombe,Morecambe,2,0,H,0
+2016-12-17,Cambridge,Crewe,2,1,H,0
+2016-12-17,Portsmouth,Hartlepool,0,0,D,1
+2016-12-17,Exeter,Mansfield,2,0,H,0
+2016-12-17,Doncaster,Grimsby,1,0,H,0
+2016-12-17,Blackpool,Bolton,0,2,A,0
+2016-12-17,Accrington,Plymouth,0,1,A,0
+2016-12-17,Colchester,Newport County,2,1,H,0
+2016-12-17,Barnet,Stevenage,1,2,A,0
+2016-12-17,Wycombe,Leyton Orient,1,0,H,0
+2016-12-17,Carlisle,Yeovil,2,1,H,0
+2016-12-17,Morecambe,Cheltenham,1,2,A,0
+2016-12-17,Crawley Town,Newport County,3,1,H,0
+2016-12-26,Mansfield,Morecambe,0,1,A,0
+2016-12-26,Stevenage,Cambridge,1,2,A,0
+2016-12-26,Plymouth,Wycombe,3,3,D,1
+2016-12-26,Newport County,Portsmouth,2,3,A,0
+2016-12-26,Leyton Orient,Crawley Town,3,2,H,0
+2016-12-26,Crewe,Carlisle,1,1,D,1
+2016-12-26,Cheltenham,Barnet,1,2,A,0
+2016-12-26,Yeovil,Exeter,0,0,D,1
+2016-12-26,Newport County,Doncaster,0,1,A,0
+2016-12-26,Bolton,Colchester,0,1,A,0
+2016-12-26,Hartlepool,Blackpool,0,1,A,0
+2016-12-26,Grimsby,Accrington,2,0,H,0
+2016-12-30,Yeovil,Portsmouth,0,0,D,1
+2016-12-30,Cheltenham,Wycombe,0,1,A,0
+2016-12-30,Hartlepool,Morecambe,3,2,H,0
+2016-12-31,Newport County,Carlisle,2,3,A,0
+2016-12-31,Newport County,Exeter,1,4,A,0
+2016-12-31,Stevenage,Colchester,2,4,A,0
+2016-12-31,Crewe,Accrington,0,1,A,0
+2016-12-31,Plymouth,Crawley Town,2,0,H,0
+2016-12-31,Bolton,Barnet,3,1,H,0
+2016-12-31,Mansfield,Doncaster,1,1,D,1
+2016-12-31,Leyton Orient,Cambridge,1,1,D,1
+2016-12-31,Grimsby,Blackpool,0,0,D,1
+2017-01-04,Newport County,Colchester,3,1,H,0
+2017-01-04,Grimsby,Doncaster,1,5,A,0
+2017-01-04,Crewe,Cambridge,1,2,A,0
+2017-01-04,Yeovil,Carlisle,0,2,A,0
+2017-01-04,Stevenage,Barnet,1,0,H,0
+2017-01-04,Plymouth,Accrington,0,1,A,0
+2017-01-04,Newport County,Crawley Town,1,0,H,0
+2017-01-04,Bolton,Blackpool,1,0,H,0
+2017-01-04,Leyton Orient,Wycombe,0,2,A,0
+2017-01-04,Hartlepool,Portsmouth,0,2,A,0
+2017-01-04,Mansfield,Exeter,1,2,A,0
+2017-01-04,Cheltenham,Morecambe,3,1,H,0
+2017-01-14,Portsmouth,Leyton Orient,2,1,H,0
+2017-01-14,Carlisle,Morecambe,1,1,D,1
+2017-01-14,Crewe,Bolton,1,2,A,0
+2017-01-14,Newport County,Colchester,1,1,D,1
+2017-01-14,Plymouth,Stevenage,4,2,H,0
+2017-01-14,Wycombe,Yeovil,1,1,D,1
+2017-01-14,Barnet,Doncaster,1,3,A,0
+2017-01-14,Newport County,Mansfield,0,0,D,1
+2017-01-14,Grimsby,Exeter,0,3,A,0
+2017-01-14,Crawley Town,Hartlepool,1,0,H,0
+2017-01-14,Cheltenham,Accrington,3,0,H,0
+2017-01-14,Cambridge,Blackpool,0,0,D,1
+2017-01-21,Grimsby,Newport County,2,0,H,0
+2017-01-21,Exeter,Colchester,3,0,H,0
+2017-01-21,Barnet,Newport County,0,0,D,1
+2017-01-21,Wycombe,Bolton,1,1,D,1
+2017-01-21,Cheltenham,Plymouth,1,2,A,0
+2017-01-21,Cambridge,Mansfield,1,3,A,0
+2017-01-21,Blackpool,Yeovil,2,2,D,1
+2017-01-21,Accrington,Carlisle,1,1,D,1
+2017-01-21,Doncaster,Crewe,3,1,H,0
+2017-01-21,Hartlepool,Stevenage,2,0,H,0
+2017-01-28,Portsmouth,Exeter,0,1,A,0
+2017-01-28,Yeovil,Doncaster,0,3,A,0
+2017-01-28,Stevenage,Grimsby,2,0,H,0
+2017-01-28,Mansfield,Leyton Orient,2,0,H,0
+2017-01-28,Bolton,Cambridge,2,0,H,0
+2017-01-28,Crewe,Cheltenham,0,0,D,1
+2017-01-28,Carlisle,Barnet,1,1,D,1
+2017-01-28,Newport County,Hartlepool,3,1,H,0
+2017-01-28,Newport County,Crawley Town,2,1,H,0
+2017-01-31,Yeovil,Plymouth,2,1,H,0
+2017-01-31,Bolton,Cheltenham,2,3,A,0
+2017-01-31,Exeter,Wycombe,4,2,H,0
+2017-02-01,Exeter,Leyton Orient,4,0,H,0
+2017-02-01,Morecambe,Crewe,0,0,D,1
+2017-02-01,Wycombe,Newport County,2,1,H,0
+2017-02-01,Portsmouth,Bolton,1,0,H,0
+2017-02-01,Barnet,Plymouth,1,0,H,0
+2017-02-01,Crawley Town,Yeovil,2,0,H,0
+2017-02-01,Doncaster,Stevenage,1,0,H,0
+2017-02-01,Carlisle,Grimsby,1,3,A,0
+2017-02-01,Accrington,Hartlepool,2,2,D,1
+2017-02-01,Cambridge,Newport County,4,0,H,0
+2017-02-01,Blackpool,Mansfield,0,1,A,0
+2017-02-01,Colchester,Cheltenham,2,0,H,0
+2017-02-14,Stevenage,Cheltenham,2,1,H,0
+2017-02-14,Carlisle,Doncaster,2,1,H,0
+2017-02-14,Colchester,Crawley Town,2,3,A,0
+2017-02-14,Crewe,Wycombe,2,1,H,0
+2017-02-14,Mansfield,Accrington,4,4,D,1
+2017-02-14,Newport County,Exeter,2,2,D,1
+2017-02-14,Plymouth,Leyton Orient,2,3,A,0
+2017-02-14,Morecambe,Barnet,0,1,A,0
+2017-02-14,Newport County,Grimsby,0,0,D,1
+2017-02-14,Portsmouth,Blackpool,2,0,H,0
+2017-02-14,Bolton,Hartlepool,3,0,H,0
+2017-02-14,Yeovil,Cambridge,1,1,D,1
+2017-02-18,Exeter,Stevenage,1,1,D,1
+2017-02-18,Grimsby,Mansfield,3,0,H,0
+2017-02-18,Cheltenham,Yeovil,2,0,H,0
+2017-02-18,Accrington,Colchester,2,1,H,0
+2017-02-18,Barnet,Portsmouth,1,1,D,1
+2017-02-18,Blackpool,Crewe,2,2,D,1
+2017-02-18,Cambridge,Newport County,3,2,H,0
+2017-02-18,Crawley Town,Morecambe,1,3,A,0
+2017-02-18,Doncaster,Bolton,1,1,D,1
+2017-02-18,Hartlepool,Plymouth,1,1,D,1
+2017-02-18,Leyton Orient,Newport County,2,3,A,0
+2017-02-18,Wycombe,Carlisle,1,2,A,0
+2017-02-21,Newport County,Morecambe,1,1,D,1
+2017-02-21,Colchester,Wycombe,1,0,H,0
+2017-02-25,Carlisle,Portsmouth,0,3,A,0
+2017-02-25,Leyton Orient,Cheltenham,0,1,A,0
+2017-02-25,Morecambe,Grimsby,1,0,H,0
+2017-02-25,Newport County,Yeovil,0,0,D,1
+2017-02-25,Colchester,Hartlepool,2,1,H,0
+2017-02-25,Crewe,Stevenage,1,2,A,0
+2017-02-25,Doncaster,Accrington,2,2,D,1
+2017-02-25,Exeter,Blackpool,2,2,D,1
+2017-02-25,Bolton,Plymouth,1,1,D,1
+2017-02-25,Mansfield,Newport County,2,1,H,0
+2017-02-25,Wycombe,Crawley Town,1,2,A,0
+2017-02-25,Barnet,Cambridge,0,1,A,0
+2017-02-28,Yeovil,Mansfield,0,0,D,1
+2017-02-28,Blackpool,Barnet,2,2,D,1
+2017-02-28,Cambridge,Doncaster,2,3,A,0
+2017-02-28,Crawley Town,Exeter,1,2,A,0
+2017-02-28,Portsmouth,Morecambe,1,1,D,1
+2017-02-28,Stevenage,Leyton Orient,4,1,H,0
+2017-02-28,Cheltenham,Carlisle,1,0,H,0
+2017-02-28,Grimsby,Colchester,1,0,H,0
+2017-02-28,Hartlepool,Crewe,4,0,H,0
+2017-02-28,Plymouth,Newport County,0,1,A,0
+2017-02-28,Accrington,Wycombe,2,2,D,1
+2017-03-14,Accrington,Leyton Orient,5,0,H,0
+2017-03-14,Cambridge,Hartlepool,0,1,A,0
+2017-03-14,Exeter,Cheltenham,3,0,H,0
+2017-03-14,Crawley Town,Crewe,0,3,A,0
+2017-03-14,Colchester,Mansfield,2,0,H,0
+2017-03-14,Carlisle,Bolton,0,0,D,1
+2017-03-14,Wycombe,Plymouth,1,1,D,1
+2017-03-14,Doncaster,Newport County,3,1,H,0
+2017-03-14,Portsmouth,Grimsby,4,0,H,0
+2017-03-14,Morecambe,Newport County,0,1,A,0
+2017-03-14,Blackpool,Stevenage,1,0,H,0
+2017-03-15,Barnet,Yeovil,2,2,D,1
+2017-03-18,Grimsby,Crawley Town,1,1,D,1
+2017-03-18,Leyton Orient,Doncaster,1,4,A,0
+2017-03-18,Bolton,Exeter,1,1,D,1
+2017-03-18,Newport County,Blackpool,1,3,A,0
+2017-03-18,Yeovil,Accrington,1,1,D,1
+2017-03-18,Plymouth,Morecambe,1,0,H,0
+2017-03-18,Stevenage,Portsmouth,3,0,H,0
+2017-03-18,Cheltenham,Cambridge,0,1,A,0
+2017-03-18,Crewe,Colchester,2,0,H,0
+2017-03-18,Hartlepool,Wycombe,0,2,A,0
+2017-03-18,Mansfield,Carlisle,2,0,H,0
+2017-03-19,Newport County,Barnet,1,0,H,0
+2017-03-21,Morecambe,Accrington,1,2,A,0
+2017-03-21,Newport County,Bolton,1,1,D,1
+2017-03-25,Blackpool,Hartlepool,2,1,H,0
+2017-03-25,Accrington,Grimsby,1,1,D,1
+2017-03-25,Barnet,Cheltenham,3,1,H,0
+2017-03-25,Colchester,Bolton,2,1,H,0
+2017-03-25,Exeter,Yeovil,3,3,D,1
+2017-03-25,Morecambe,Mansfield,1,3,A,0
+2017-03-25,Portsmouth,Newport County,2,1,H,0
+2017-03-25,Wycombe,Newport County,0,1,A,0
+2017-03-25,Crawley Town,Leyton Orient,3,0,H,0
+2017-03-25,Carlisle,Crewe,0,2,A,0
+2017-03-25,Cambridge,Stevenage,0,0,D,1
+2017-03-26,Doncaster,Plymouth,0,1,A,0
+2017-03-28,Accrington,Cambridge,2,0,H,0
+2017-04-02,Wycombe,Portsmouth,1,0,H,0
+2017-04-02,Blackpool,Colchester,1,1,D,1
+2017-04-02,Cheltenham,Newport County,1,1,D,1
+2017-04-02,Hartlepool,Yeovil,1,1,D,1
+2017-04-02,Crawley Town,Stevenage,1,2,A,0
+2017-04-02,Doncaster,Morecambe,1,1,D,1
+2017-04-02,Grimsby,Bolton,1,1,D,1
+2017-04-02,Exeter,Crewe,4,0,H,0
+2017-04-02,Leyton Orient,Carlisle,1,2,A,0
+2017-04-02,Cambridge,Plymouth,0,1,A,0
+2017-04-02,Barnet,Mansfield,0,2,A,0
+2017-04-02,Accrington,Newport County,2,0,H,0
+2017-04-03,Yeovil,Bolton,0,4,A,0
+2017-04-03,Cambridge,Colchester,1,1,D,1
+2017-04-03,Grimsby,Wycombe,1,2,A,0
+2017-04-03,Hartlepool,Exeter,3,1,H,0
+2017-04-03,Accrington,Barnet,1,0,H,0
+2017-04-03,Cheltenham,Mansfield,0,0,D,1
+2017-04-03,Crawley Town,Doncaster,0,0,D,1
+2017-04-03,Newport County,Leyton Orient,0,4,A,0
+2017-04-03,Portsmouth,Crewe,0,1,A,0
+2017-04-03,Plymouth,Carlisle,2,0,H,0
+2017-04-03,Blackpool,Morecambe,3,1,H,0
+2017-04-03,Stevenage,Newport County,3,0,H,0
+2017-04-14,Stevenage,Morecambe,0,1,A,0
+2017-04-14,Wycombe,Mansfield,0,1,A,0
+2017-04-14,Portsmouth,Plymouth,1,1,D,1
+2017-04-14,Newport County,Yeovil,1,0,H,0
+2017-04-14,Crawley Town,Cheltenham,0,0,D,1
+2017-04-14,Blackpool,Accrington,0,0,D,1
+2017-04-14,Colchester,Doncaster,1,1,D,1
+2017-04-14,Crewe,Newport County,2,2,D,1
+2017-04-14,Exeter,Barnet,2,1,H,0
+2017-04-14,Grimsby,Cambridge,2,1,H,0
+2017-04-14,Hartlepool,Carlisle,1,1,D,1
+2017-04-14,Bolton,Leyton Orient,2,2,D,1
+2017-04-17,Plymouth,Newport County,6,1,H,0
+2017-04-17,Newport County,Portsmouth,1,3,A,0
+2017-04-17,Morecambe,Colchester,1,1,D,1
+2017-04-17,Carlisle,Stevenage,1,1,D,1
+2017-04-17,Mansfield,Bolton,1,1,D,1
+2017-04-17,Accrington,Crawley Town,1,0,H,0
+2017-04-17,Barnet,Wycombe,0,2,A,0
+2017-04-17,Cambridge,Exeter,1,0,H,0
+2017-04-17,Doncaster,Blackpool,0,1,A,0
+2017-04-17,Yeovil,Crewe,3,0,H,0
+2017-04-17,Leyton Orient,Hartlepool,2,1,H,0
+2017-04-17,Cheltenham,Grimsby,2,1,H,0
+2017-04-22,Colchester,Plymouth,0,0,D,1
+2017-04-22,Hartlepool,Barnet,0,2,A,0
+2017-04-22,Portsmouth,Cambridge,2,1,H,0
+2017-04-22,Bolton,Newport County,2,1,H,0
+2017-04-22,Grimsby,Yeovil,4,2,H,0
+2017-04-22,Exeter,Morecambe,3,1,H,0
+2017-04-22,Newport County,Accrington,1,0,H,0
+2017-04-22,Crawley Town,Carlisle,3,3,D,1
+2017-04-22,Wycombe,Doncaster,2,1,H,0
+2017-04-22,Stevenage,Mansfield,0,1,A,0
+2017-04-22,Blackpool,Cheltenham,3,0,H,0
+2017-04-22,Crewe,Leyton Orient,3,0,H,0
+2017-04-29,Doncaster,Exeter,1,3,A,0
+2017-04-29,Barnet,Grimsby,3,1,H,0
+2017-04-29,Accrington,Bolton,1,4,A,0
+2017-04-29,Plymouth,Crewe,2,1,H,0
+2017-04-29,Morecambe,Wycombe,1,1,D,1
+2017-04-29,Yeovil,Stevenage,1,1,D,1
+2017-04-29,Leyton Orient,Colchester,1,3,A,0
+2017-04-29,Carlisle,Newport County,2,1,H,0
+2017-04-29,Cambridge,Crawley Town,2,0,H,0
+2017-04-29,Cheltenham,Hartlepool,1,0,H,0
+2017-04-29,Mansfield,Portsmouth,0,1,A,0
+2017-04-29,Newport County,Blackpool,1,0,H,0
+2017-05-01,Doncaster,Portsmouth,3,1,H,0
+2017-06-05,Exeter,Carlisle,2,3,A,0
+2017-06-05,Bolton,Morecambe,3,1,H,0
+2017-06-05,Newport County,Newport County,2,1,H,0
+2017-06-05,Portsmouth,Cheltenham,6,1,H,0
+2017-06-05,Crawley Town,Mansfield,2,2,D,1
+2017-06-05,Blackpool,Leyton Orient,3,1,H,0
+2017-06-05,Hartlepool,Doncaster,2,1,H,0
+2017-06-05,Colchester,Yeovil,2,0,H,0
+2017-06-05,Stevenage,Accrington,0,3,A,0
+2017-06-05,Wycombe,Cambridge,1,0,H,0
+2017-06-05,Grimsby,Plymouth,1,1,D,1
+2017-06-05,Crewe,Barnet,4,1,H,0
+2017-07-01,Stevenage,Newport County,3,1,H,0
+2017-07-01,Morecambe,Newport County,4,1,H,0
+2017-07-01,Leyton Orient,Barnet,1,3,A,0
+2017-07-01,Colchester,Carlisle,4,1,H,0
+2017-07-01,Hartlepool,Grimsby,0,1,A,0
+2017-07-01,Mansfield,Crewe,3,0,H,0
+2017-07-02,Blackpool,Crawley Town,0,0,D,1
+2017-07-02,Leyton Orient,Morecambe,0,1,A,0
+2017-07-03,Crawley Town,Portsmouth,0,2,A,0
+2017-07-03,Plymouth,Blackpool,0,3,A,0
+2017-08-04,Accrington,Crewe,3,2,H,0
+2017-08-04,Crawley Town,Plymouth,1,2,A,0
+2017-08-04,Morecambe,Hartlepool,1,1,D,1
+2017-08-04,Portsmouth,Yeovil,3,1,H,0
+2017-08-04,Wycombe,Cheltenham,3,3,D,1
+2017-08-04,Exeter,Newport County,0,1,A,0
+2017-08-04,Doncaster,Mansfield,1,0,H,0
+2017-08-04,Colchester,Stevenage,4,0,H,0
+2017-08-04,Cambridge,Leyton Orient,3,0,H,0
+2017-08-04,Barnet,Bolton,0,1,A,0
+2017-08-04,Blackpool,Grimsby,1,3,A,0
+2017-08-04,Carlisle,Newport County,1,2,A,0
+2017-10-02,Newport County,Doncaster,0,0,D,1
+2017-11-02,Stevenage,Wycombe,3,0,H,0
+2017-11-02,Portsmouth,Accrington,2,0,H,0
+2017-11-02,Colchester,Barnet,2,1,H,0
+2017-11-02,Yeovil,Leyton Orient,1,1,D,1
+2017-11-02,Newport County,Cheltenham,2,1,H,0
+2017-11-02,Bolton,Crawley Town,2,1,H,0
+2017-11-02,Carlisle,Blackpool,1,4,A,0
+2017-11-02,Crewe,Grimsby,5,0,H,0
+2017-11-02,Mansfield,Hartlepool,4,0,H,0
+2017-11-02,Morecambe,Cambridge,2,0,H,0
+2017-11-02,Plymouth,Exeter,3,0,H,0
+2017-11-03,Exeter,Accrington,0,2,A,0
+2017-11-03,Colchester,Portsmouth,0,4,A,0
+2017-11-03,Bolton,Stevenage,0,2,A,0
+2017-11-03,Morecambe,Yeovil,1,3,A,0
+2017-11-03,Crewe,Newport County,1,2,A,0
+2017-11-03,Barnet,Crawley Town,2,2,D,1
+2017-11-03,Wycombe,Blackpool,0,0,D,1
+2017-11-03,Doncaster,Cheltenham,2,0,H,0
+2017-11-03,Newport County,Hartlepool,2,1,H,0
+2017-11-03,Mansfield,Plymouth,0,2,A,0
+2017-11-03,Carlisle,Cambridge,0,3,A,0
+2017-11-03,Leyton Orient,Grimsby,0,3,A,0

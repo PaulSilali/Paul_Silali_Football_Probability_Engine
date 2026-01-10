@@ -1,0 +1,292 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+E1,1617,2016-01-10,Wolves,Norwich,3.4,3.4,0.0
+E1,1617,2016-01-10,Fulham,QPR,3.5,3.5,0.0
+E1,1617,2016-01-10,Reading,Derby,3.25,3.25,0.0
+E1,1617,2016-01-10,Leeds,Burnley,3.4,3.4,0.0
+E1,1617,2016-01-10,Sheffield United,Brighton,3.3,3.3,0.0
+E1,1617,2016-01-10,Bristol City,Nott'm Forest,3.8,3.8,0.0
+E1,1617,2016-01-12,QPR,Wolves,3.2,3.2,0.0
+E1,1617,2016-02-12,Nott'm Forest,Newcastle,3.75,3.75,0.0
+E1,1617,2016-03-12,Blackburn,Huddersfield,3.25,3.25,0.0
+E1,1617,2016-03-12,Sheffield United,Preston,3.6,3.6,0.0
+E1,1617,2016-03-12,Luton,Rotherham,3.75,3.75,0.0
+E1,1617,2016-05-11,Norwich,Leeds,3.8,3.8,0.0
+E1,1617,2016-05-11,Nott'm Forest,QPR,3.5,3.5,0.0
+E1,1617,2016-05-11,Rotherham,Preston,3.5,3.5,0.0
+E1,1617,2016-05-11,Aston Villa,Blackburn,3.8,3.8,0.0
+E1,1617,2016-05-11,Sheffield United,Ipswich,3.6,3.6,0.0
+E1,1617,2016-05-11,Wolves,Derby,3.25,3.25,0.0
+E1,1617,2016-05-11,Huddersfield,Birmingham,3.3,3.3,0.0
+E1,1617,2016-05-11,Newcastle,Cardiff,4.75,4.75,0.0
+E1,1617,2016-06-08,Nott'm Forest,Luton,3.4,3.4,0.0
+E1,1617,2016-06-08,Rotherham,Wolves,3.25,3.25,0.0
+E1,1617,2016-06-08,Bristol City,Wigan,3.3,3.3,0.0
+E1,1617,2016-06-08,Huddersfield,Brentford,3.6,3.6,0.0
+E1,1617,2016-06-08,Blackburn,Norwich,3.25,3.25,0.0
+E1,1617,2016-06-08,Ipswich,Burnley,3.4,3.4,0.0
+E1,1617,2016-08-13,Newcastle,Huddersfield,3.75,3.75,0.0
+E1,1617,2016-08-13,Luton,Bristol City,3.4,3.4,0.0
+E1,1617,2016-08-13,Preston,Fulham,3.3,3.3,0.0
+E1,1617,2016-08-13,Leeds,Birmingham,3.3,3.3,0.0
+E1,1617,2016-08-16,Luton,Sheffield United,3.3,3.3,0.0
+E1,1617,2016-08-16,Leeds,Fulham,3.4,3.4,0.0
+E1,1617,2016-08-16,Wigan,Birmingham,3.4,3.4,0.0
+E1,1617,2016-08-16,Aston Villa,Huddersfield,3.5,3.5,0.0
+E1,1617,2016-08-17,Newcastle,Reading,3.75,3.75,0.0
+E1,1617,2016-08-17,Cardiff,Blackburn,3.4,3.4,0.0
+E1,1617,2016-08-17,Burnley,QPR,3.4,3.4,0.0
+E1,1617,2016-08-20,Huddersfield,Burnley,3.6,3.6,0.0
+E1,1617,2016-08-20,Nott'm Forest,Wigan,3.4,3.4,0.0
+E1,1617,2016-08-20,Birmingham,Wolves,3.3,3.3,0.0
+E1,1617,2016-08-20,Reading,Brighton,3.4,3.4,0.0
+E1,1617,2016-08-20,Blackburn,Luton,3.3,3.3,0.0
+E1,1617,2016-08-20,Fulham,Cardiff,3.5,3.5,0.0
+E1,1617,2016-08-21,Ipswich,Norwich,3.4,3.4,0.0
+E1,1617,2016-08-27,Brentford,Sheffield United,3.25,3.25,0.0
+E1,1617,2016-08-27,Bristol City,Aston Villa,3.3,3.3,0.0
+E1,1617,2016-08-27,Nott'm Forest,Leeds,3.3,3.3,0.0
+E1,1617,2016-09-09,Reading,Ipswich,3.3,3.3,0.0
+E1,1617,2016-09-13,Fulham,Luton,3.8,3.8,0.0
+E1,1617,2016-09-13,Leeds,Blackburn,3.4,3.4,0.0
+E1,1617,2016-09-13,Sheffield United,Bristol City,3.6,3.6,0.0
+E1,1617,2016-09-13,Norwich,Wigan,4.2,4.2,0.0
+E1,1617,2016-09-14,Rotherham,Nott'm Forest,3.5,3.5,0.0
+E1,1617,2016-09-14,Aston Villa,Brentford,4.0,4.0,0.0
+E1,1617,2016-09-17,Birmingham,Sheffield United,3.25,3.25,0.0
+E1,1617,2016-09-17,Bristol City,Derby,3.3,3.3,0.0
+E1,1617,2016-09-17,Huddersfield,QPR,3.4,3.4,0.0
+E1,1617,2016-09-17,Nott'm Forest,Norwich,3.5,3.5,0.0
+E1,1617,2016-09-17,Burnley,Reading,3.3,3.3,0.0
+E1,1617,2016-09-17,Blackburn,Rotherham,3.5,3.5,0.0
+E1,1617,2016-09-24,Wolves,Brentford,3.5,3.5,0.0
+E1,1617,2016-09-24,Norwich,Luton,4.5,4.5,0.0
+E1,1617,2016-09-24,Rotherham,Cardiff,3.25,3.25,0.0
+E1,1617,2016-09-24,Sheffield United,Nott'm Forest,4.1,4.1,0.0
+E1,1617,2016-09-24,Aston Villa,Newcastle,3.3,3.3,0.0
+E1,1617,2016-09-24,Derby,Blackburn,4.0,4.0,0.0
+E1,1617,2016-09-24,QPR,Birmingham,3.3,3.3,0.0
+E1,1617,2016-09-27,Huddersfield,Rotherham,4.2,4.2,0.0
+E1,1617,2016-09-27,Burnley,Aston Villa,3.4,3.4,0.0
+E1,1617,2016-09-27,Birmingham,Preston,3.3,3.3,0.0
+E1,1617,2016-09-27,Brentford,Reading,3.4,3.4,0.0
+E1,1617,2016-09-27,Luton,QPR,3.3,3.3,0.0
+E1,1617,2016-09-27,Nott'm Forest,Fulham,3.6,3.6,0.0
+E1,1617,2016-09-27,Wigan,Wolves,3.4,3.4,0.0
+E1,1617,2016-09-28,Newcastle,Norwich,3.5,3.5,0.0
+E1,1617,2016-10-09,Sheffield United,Wigan,3.5,3.5,0.0
+E1,1617,2016-10-09,Wolves,Luton,3.6,3.6,0.0
+E1,1617,2016-10-09,QPR,Blackburn,3.5,3.5,0.0
+E1,1617,2016-10-09,Norwich,Cardiff,4.0,4.0,0.0
+E1,1617,2016-10-09,Preston,Burnley,3.3,3.3,0.0
+E1,1617,2016-10-09,Rotherham,Bristol City,3.4,3.4,0.0
+E1,1617,2016-10-12,Brentford,Luton,3.6,3.6,0.0
+E1,1617,2016-10-12,Ipswich,Cardiff,3.2,3.2,0.0
+E1,1617,2016-10-12,Preston,Blackburn,3.4,3.4,0.0
+E1,1617,2016-10-12,Reading,Sheffield United,3.3,3.3,0.0
+E1,1617,2016-10-12,Wolves,Fulham,3.4,3.4,0.0
+E1,1617,2016-10-12,Burnley,Norwich,3.6,3.6,0.0
+E1,1617,2016-10-12,Huddersfield,Bristol City,3.4,3.4,0.0
+E1,1617,2016-10-14,Nott'm Forest,Birmingham,3.4,3.4,0.0
+E1,1617,2016-10-14,Cardiff,Bristol City,3.25,3.25,0.0
+E1,1617,2016-10-15,QPR,Reading,3.2,3.2,0.0
+E1,1617,2016-10-15,Aston Villa,Wolves,3.5,3.5,0.0
+E1,1617,2016-10-15,Burnley,Fulham,3.4,3.4,0.0
+E1,1617,2016-10-15,Brighton,Preston,4.0,4.0,0.0
+E1,1617,2016-10-15,Newcastle,Brentford,4.33,4.33,0.0
+E1,1617,2016-10-15,Norwich,Rotherham,5.25,5.25,0.0
+E1,1617,2016-10-18,Reading,Aston Villa,3.2,3.2,0.0
+E1,1617,2016-10-18,Leeds,Wigan,3.3,3.3,0.0
+E1,1617,2016-10-18,Fulham,Norwich,3.5,3.5,0.0
+E1,1617,2016-10-18,Blackburn,Nott'm Forest,3.4,3.4,0.0
+E1,1617,2016-10-18,Birmingham,Rotherham,4.0,4.0,0.0
+E1,1617,2016-10-19,Cardiff,Sheffield United,3.3,3.3,0.0
+E1,1617,2016-10-19,Preston,Huddersfield,3.2,3.2,0.0
+E1,1617,2016-10-22,Nott'm Forest,Cardiff,3.6,3.6,0.0
+E1,1617,2016-10-29,Preston,Newcastle,3.8,3.8,0.0
+E1,1617,2016-10-29,Blackburn,Wolves,3.3,3.3,0.0
+E1,1617,2016-10-29,Burnley,Bristol City,3.4,3.4,0.0
+E1,1617,2016-10-29,Ipswich,Rotherham,3.7,3.7,0.0
+E1,1617,2016-10-30,Birmingham,Aston Villa,3.3,3.3,0.0
+E1,1617,2016-11-09,Aston Villa,Nott'm Forest,3.75,3.75,0.0
+E1,1617,2016-11-18,Brighton,Aston Villa,3.4,3.4,0.0
+E1,1617,2016-11-19,Fulham,Sheffield United,3.4,3.4,0.0
+E1,1617,2016-11-19,Cardiff,Huddersfield,3.25,3.25,0.0
+E1,1617,2016-11-19,Blackburn,Brentford,3.3,3.3,0.0
+E1,1617,2016-11-19,QPR,Norwich,3.4,3.4,0.0
+E1,1617,2016-11-25,Burnley,Nott'm Forest,3.5,3.5,0.0
+E1,1617,2016-11-26,Preston,Luton,3.4,3.4,0.0
+E1,1617,2016-11-26,Reading,Bristol City,3.4,3.4,0.0
+E1,1617,2016-11-26,Rotherham,Leeds,3.5,3.5,0.0
+E1,1617,2016-11-26,Brighton,Fulham,3.5,3.5,0.0
+E1,1617,2016-11-26,Brentford,Birmingham,3.4,3.4,0.0
+E1,1617,2016-11-26,Aston Villa,Cardiff,3.6,3.6,0.0
+E1,1617,2016-11-28,Huddersfield,Wigan,3.2,3.2,0.0
+E1,1617,2016-12-13,Birmingham,Ipswich,3.2,3.2,0.0
+E1,1617,2016-12-13,Fulham,Rotherham,5.0,5.0,0.0
+E1,1617,2016-12-13,Blackburn,Brighton,3.5,3.5,0.0
+E1,1617,2016-12-13,Cardiff,Wolves,3.4,3.4,0.0
+E1,1617,2016-12-14,Nott'm Forest,Preston,3.4,3.4,0.0
+E1,1617,2016-12-16,Norwich,Huddersfield,3.7,3.7,0.0
+E1,1617,2016-12-17,Luton,Newcastle,4.0,4.0,0.0
+E1,1617,2016-12-17,Fulham,Derby,3.5,3.5,0.0
+E1,1617,2016-12-17,Wigan,Ipswich,3.2,3.2,0.0
+E1,1617,2016-12-17,Blackburn,Reading,3.4,3.4,0.0
+E1,1617,2016-12-17,Birmingham,Brighton,3.3,3.3,0.0
+E1,1617,2016-12-17,Bristol City,Preston,3.5,3.5,0.0
+E1,1617,2016-12-17,Cardiff,Burnley,3.5,3.5,0.0
+E1,1617,2016-12-26,Brentford,Cardiff,3.4,3.4,0.0
+E1,1617,2016-12-26,Aston Villa,Luton,3.75,3.75,0.0
+E1,1617,2016-12-26,Huddersfield,Nott'm Forest,3.8,3.8,0.0
+E1,1617,2016-12-26,Preston,Leeds,3.2,3.2,0.0
+E1,1617,2016-12-26,Reading,Norwich,3.3,3.3,0.0
+E1,1617,2016-12-26,Rotherham,Wigan,3.4,3.4,0.0
+E1,1617,2016-12-26,Wolves,Bristol City,3.4,3.4,0.0
+E1,1617,2016-12-29,Rotherham,Luton,3.4,3.4,0.0
+E1,1617,2016-12-29,Aston Villa,Leeds,3.4,3.4,0.0
+E1,1617,2016-12-30,Newcastle,Nott'm Forest,5.5,5.5,0.0
+E1,1617,2016-12-30,Ipswich,Bristol City,3.3,3.3,0.0
+E1,1617,2016-12-31,Preston,Sheffield United,3.25,3.25,0.0
+E1,1617,2016-12-31,Wolves,QPR,3.9,3.9,0.0
+E1,1617,2016-12-31,Huddersfield,Blackburn,3.9,3.9,0.0
+E1,1617,2016-12-31,Burnley,Birmingham,3.5,3.5,0.0
+E1,1617,2017-01-02,Newcastle,QPR,5.0,5.0,0.0
+E1,1617,2017-01-02,Blackburn,Leeds,3.4,3.4,0.0
+E1,1617,2017-01-04,Wolves,Cardiff,3.4,3.4,0.0
+E1,1617,2017-01-04,Newcastle,Wigan,4.75,4.75,0.0
+E1,1617,2017-01-04,Ipswich,Birmingham,3.25,3.25,0.0
+E1,1617,2017-01-04,Burnley,Sheffield United,3.4,3.4,0.0
+E1,1617,2017-01-04,Preston,Nott'm Forest,3.6,3.6,0.0
+E1,1617,2017-01-14,Bristol City,Cardiff,3.4,3.4,0.0
+E1,1617,2017-01-14,Brentford,Newcastle,3.6,3.6,0.0
+E1,1617,2017-01-14,Rotherham,Norwich,4.0,4.0,0.0
+E1,1617,2017-01-14,Ipswich,Blackburn,3.3,3.3,0.0
+E1,1617,2017-01-20,Brighton,Sheffield United,3.4,3.4,0.0
+E1,1617,2017-01-21,Derby,Reading,3.5,3.5,0.0
+E1,1617,2017-01-21,Wigan,Brentford,3.3,3.3,0.0
+E1,1617,2017-01-21,QPR,Fulham,3.5,3.5,0.0
+E1,1617,2017-01-21,Burnley,Leeds,3.4,3.4,0.0
+E1,1617,2017-01-21,Blackburn,Birmingham,3.4,3.4,0.0
+E1,1617,2017-01-21,Norwich,Wolves,3.5,3.5,0.0
+E1,1617,2017-01-21,Aston Villa,Preston,3.3,3.3,0.0
+E1,1617,2017-01-28,Preston,Ipswich,3.5,3.5,0.0
+E1,1617,2017-01-28,QPR,Luton,3.4,3.4,0.0
+E1,1617,2017-01-28,Reading,Cardiff,3.4,3.4,0.0
+E1,1617,2017-01-31,Bristol City,Sheffield United,3.4,3.4,0.0
+E1,1617,2017-01-31,Burnley,Wolves,3.4,3.4,0.0
+E1,1617,2017-02-01,Fulham,Brighton,3.4,3.4,0.0
+E1,1617,2017-02-01,Bristol City,Reading,3.5,3.5,0.0
+E1,1617,2017-02-01,Birmingham,Brentford,3.4,3.4,0.0
+E1,1617,2017-02-01,QPR,Ipswich,3.3,3.3,0.0
+E1,1617,2017-02-02,Huddersfield,Brighton,3.2,3.2,0.0
+E1,1617,2017-02-14,Aston Villa,Burnley,3.75,3.75,0.0
+E1,1617,2017-02-14,Rotherham,Huddersfield,4.0,4.0,0.0
+E1,1617,2017-02-14,Reading,Brentford,3.75,3.75,0.0
+E1,1617,2017-02-14,Preston,Birmingham,3.5,3.5,0.0
+E1,1617,2017-02-14,Norwich,Newcastle,3.3,3.3,0.0
+E1,1617,2017-02-14,Leeds,Bristol City,3.5,3.5,0.0
+E1,1617,2017-02-14,Fulham,Nott'm Forest,4.4,4.4,0.0
+E1,1617,2017-02-14,Derby,Cardiff,3.3,3.3,0.0
+E1,1617,2017-02-14,Brighton,Ipswich,4.0,4.0,0.0
+E1,1617,2017-02-14,Sheffield United,Blackburn,3.8,3.8,0.0
+E1,1617,2017-02-18,Birmingham,QPR,3.2,3.2,0.0
+E1,1617,2017-02-18,Nott'm Forest,Sheffield United,3.3,3.3,0.0
+E1,1617,2017-02-18,Ipswich,Leeds,3.25,3.25,0.0
+E1,1617,2017-02-18,Luton,Norwich,3.4,3.4,0.0
+E1,1617,2017-02-21,Sheffield United,Brentford,3.75,3.75,0.0
+E1,1617,2017-02-21,QPR,Wigan,3.25,3.25,0.0
+E1,1617,2017-02-24,Luton,Blackburn,3.25,3.25,0.0
+E1,1617,2017-02-24,Wolves,Birmingham,3.5,3.5,0.0
+E1,1617,2017-02-25,Cardiff,Fulham,3.4,3.4,0.0
+E1,1617,2017-02-25,Burnley,Huddersfield,3.6,3.6,0.0
+E1,1617,2017-02-25,Brentford,Rotherham,4.5,4.5,0.0
+E1,1617,2017-02-25,Newcastle,Bristol City,4.33,4.33,0.0
+E1,1617,2017-02-25,Preston,QPR,3.4,3.4,0.0
+E1,1617,2017-02-26,Norwich,Ipswich,3.75,3.75,0.0
+E1,1617,2017-02-28,Brighton,Newcastle,3.2,3.2,0.0
+E1,1617,2017-03-03,Birmingham,Leeds,3.3,3.3,0.0
+E1,1617,2017-03-14,Brentford,Wolves,3.5,3.5,0.0
+E1,1617,2017-03-14,Fulham,Blackburn,4.33,4.33,0.0
+E1,1617,2017-03-18,Blackburn,Preston,3.3,3.3,0.0
+E1,1617,2017-03-18,Luton,Brentford,3.3,3.3,0.0
+E1,1617,2017-03-18,Nott'm Forest,Derby,3.4,3.4,0.0
+E1,1617,2017-03-18,Fulham,Wolves,3.8,3.8,0.0
+E1,1617,2017-03-18,Cardiff,Ipswich,3.6,3.6,0.0
+E1,1617,2017-03-18,QPR,Rotherham,4.75,4.75,0.0
+E1,1617,2017-04-02,Ipswich,Reading,3.25,3.25,0.0
+E1,1617,2017-04-02,Luton,Wolves,3.3,3.3,0.0
+E1,1617,2017-04-02,Nott'm Forest,Aston Villa,3.25,3.25,0.0
+E1,1617,2017-04-03,Reading,Wolves,3.4,3.4,0.0
+E1,1617,2017-04-03,Fulham,Preston,3.8,3.8,0.0
+E1,1617,2017-04-03,Derby,Burnley,3.7,3.7,0.0
+E1,1617,2017-04-03,Huddersfield,Newcastle,3.25,3.25,0.0
+E1,1617,2017-04-03,Ipswich,Brentford,3.4,3.4,0.0
+E1,1617,2017-04-03,QPR,Cardiff,3.3,3.3,0.0
+E1,1617,2017-04-03,Sheffield United,Norwich,3.4,3.4,0.0
+E1,1617,2017-04-04,Brighton,Birmingham,4.0,4.0,0.0
+E1,1617,2017-04-04,Reading,Blackburn,3.25,3.25,0.0
+E1,1617,2017-04-04,Derby,Fulham,3.5,3.5,0.0
+E1,1617,2017-04-13,Wigan,Burnley,3.5,3.5,0.0
+E1,1617,2017-04-14,Norwich,Fulham,3.75,3.75,0.0
+E1,1617,2017-04-14,Bristol City,QPR,3.6,3.6,0.0
+E1,1617,2017-04-14,Luton,Ipswich,3.4,3.4,0.0
+E1,1617,2017-04-14,Huddersfield,Preston,3.6,3.6,0.0
+E1,1617,2017-04-14,Newcastle,Leeds,4.0,4.0,0.0
+E1,1617,2017-04-14,Rotherham,Birmingham,3.6,3.6,0.0
+E1,1617,2017-04-15,Aston Villa,Reading,3.6,3.6,0.0
+E1,1617,2017-04-17,Fulham,Aston Villa,4.0,4.0,0.0
+E1,1617,2017-04-17,Burnley,Brentford,3.4,3.4,0.0
+E1,1617,2017-04-17,Brighton,Wigan,4.2,4.2,0.0
+E1,1617,2017-04-17,Blackburn,Bristol City,3.6,3.6,0.0
+E1,1617,2017-04-17,Derby,Huddersfield,3.4,3.4,0.0
+E1,1617,2017-04-17,QPR,Sheffield United,3.4,3.4,0.0
+E1,1617,2017-04-17,Preston,Norwich,3.75,3.75,0.0
+E1,1617,2017-04-17,Ipswich,Newcastle,3.6,3.6,0.0
+E1,1617,2017-04-17,Reading,Rotherham,4.75,4.75,0.0
+E1,1617,2017-04-22,Bristol City,Burnley,4.0,4.0,0.0
+E1,1617,2017-04-22,Nott'm Forest,Reading,3.6,3.6,0.0
+E1,1617,2017-04-22,Brentford,QPR,3.9,3.9,0.0
+E1,1617,2017-04-22,Luton,Leeds,3.4,3.4,0.0
+E1,1617,2017-04-22,Sheffield United,Derby,3.6,3.6,0.0
+E1,1617,2017-04-22,Huddersfield,Fulham,3.5,3.5,0.0
+E1,1617,2017-04-24,Newcastle,Preston,4.75,4.75,0.0
+E1,1617,2017-04-29,Leeds,Norwich,3.5,3.5,0.0
+E1,1617,2017-04-29,Derby,Wolves,3.6,3.6,0.0
+E1,1617,2017-04-29,Burnley,Luton,3.3,3.3,0.0
+E1,1617,2017-04-29,Preston,Rotherham,4.5,4.5,0.0
+E1,1617,2017-04-29,Fulham,Brentford,4.33,4.33,0.0
+E1,1617,2017-05-02,Huddersfield,Leeds,3.25,3.25,0.0
+E1,1617,2017-05-02,Brentford,Brighton,3.3,3.3,0.0
+E1,1617,2017-07-02,Wigan,Norwich,3.25,3.25,0.0
+E1,1617,2017-07-03,Bristol City,Norwich,3.5,3.5,0.0
+E1,1617,2017-07-03,Derby,Preston,3.5,3.5,0.0
+E1,1617,2017-07-03,Fulham,Leeds,3.9,3.9,0.0
+E1,1617,2017-07-03,Blackburn,Cardiff,3.25,3.25,0.0
+E1,1617,2017-07-03,QPR,Burnley,3.6,3.6,0.0
+E1,1617,2017-07-03,Sheffield United,Luton,3.6,3.6,0.0
+E1,1617,2017-07-03,Nott'm Forest,Brentford,3.5,3.5,0.0
+E1,1617,2017-07-04,QPR,Brighton,3.5,3.5,0.0
+E1,1617,2017-07-05,Aston Villa,Brighton,3.6,3.6,0.0
+E1,1617,2017-07-05,Wigan,Leeds,3.5,3.5,0.0
+E1,1617,2017-07-05,Sheffield United,Fulham,3.4,3.4,0.0
+E1,1617,2017-07-05,Rotherham,Derby,3.75,3.75,0.0
+E1,1617,2017-07-05,Luton,Reading,3.6,3.6,0.0
+E1,1617,2017-07-05,Brentford,Blackburn,3.9,3.9,0.0
+E1,1617,2017-08-04,Sheffield United,Newcastle,3.3,3.3,0.0
+E1,1617,2017-08-04,Wigan,Rotherham,4.33,4.33,0.0
+E1,1617,2017-08-04,Norwich,Reading,3.8,3.8,0.0
+E1,1617,2017-08-04,Fulham,Ipswich,4.2,4.2,0.0
+E1,1617,2017-08-04,Cardiff,Brentford,3.6,3.6,0.0
+E1,1617,2017-08-04,Luton,Aston Villa,3.3,3.3,0.0
+E1,1617,2017-08-04,Bristol City,Wolves,3.4,3.4,0.0
+E1,1617,2017-08-04,Birmingham,Derby,3.4,3.4,0.0
+E1,1617,2017-11-02,Norwich,Nott'm Forest,3.9,3.9,0.0
+E1,1617,2017-11-02,Fulham,Wigan,4.2,4.2,0.0
+E1,1617,2017-11-02,Derby,Bristol City,3.7,3.7,0.0
+E1,1617,2017-11-02,Rotherham,Blackburn,3.4,3.4,0.0
+E1,1617,2017-11-02,QPR,Huddersfield,3.4,3.4,0.0
+E1,1617,2017-11-02,Preston,Brentford,3.5,3.5,0.0
+E1,1617,2017-11-02,Brighton,Luton,4.33,4.33,0.0
+E1,1617,2017-11-03,Newcastle,Fulham,3.8,3.8,0.0
+E1,1617,2017-11-03,Cardiff,Birmingham,3.6,3.6,0.0
+E1,1617,2017-11-03,Burnley,Ipswich,3.4,3.4,0.0
+E1,1617,2017-11-03,Norwich,Blackburn,3.75,3.75,0.0

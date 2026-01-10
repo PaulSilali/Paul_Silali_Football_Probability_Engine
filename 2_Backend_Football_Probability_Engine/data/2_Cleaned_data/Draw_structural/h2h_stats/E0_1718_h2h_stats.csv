@@ -1,12 +1,12 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9072,Bournemouth,9098,Huddersfield,1718,2,0,0.0,4.5
 9074,Newcastle,9079,Tottenham,1718,2,0,0.0,1.5
-9089,Everton,9099,Stoke,1718,2,0,0.0,2.0
 9072,Bournemouth,9091,Southampton,1718,2,1,0.5,2.5
+9089,Everton,9099,Stoke,1718,2,0,0.0,2.0
 9075,Brighton,9092,Leicester,1718,2,0,0.0,2.0
 9087,Arsenal,9098,Huddersfield,1718,2,0,0.0,3.0
-9092,Leicester,9095,Watford,1718,2,0,0.0,2.5
 9078,West Ham,9079,Tottenham,1718,4,2,0.5,2.5
+9092,Leicester,9095,Watford,1718,2,0,0.0,2.5
 9079,Tottenham,9092,Leicester,1718,2,0,0.0,6.0
 9082,Man City,9099,Stoke,1718,4,1,0.25,4.5
 9074,Newcastle,9078,West Ham,1718,4,1,0.25,3.25
@@ -43,13 +43,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9072,Bournemouth,9075,Brighton,1718,2,1,0.5,3.5
 9071,Liverpool,9092,Leicester,1718,2,0,0.0,4.0
 9084,Crystal Palace,9099,Stoke,1718,2,0,0.0,3.0
-9071,Liverpool,9100,Swansea,1718,2,0,0.0,3.0
 9095,Watford,9100,Swansea,1718,2,0,0.0,3.0
+9071,Liverpool,9100,Swansea,1718,2,0,0.0,3.0
 9091,Southampton,9095,Watford,1718,2,1,0.5,3.0
 9087,Arsenal,9092,Leicester,1718,2,0,0.0,5.5
 9084,Crystal Palace,9092,Leicester,1718,2,0,0.0,4.0
-9089,Everton,9098,Huddersfield,1718,2,0,0.0,2.0
 9092,Leicester,9098,Huddersfield,1718,2,1,0.5,2.5
+9089,Everton,9098,Huddersfield,1718,2,0,0.0,2.0
 9075,Brighton,9087,Arsenal,1718,2,0,0.0,2.5
 9074,Newcastle,9095,Watford,1718,2,0,0.0,3.0
 9080,Burnley,9095,Watford,1718,2,0,0.0,2.0
@@ -74,8 +74,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9091,Southampton,9099,Stoke,1718,2,1,0.5,1.5
 9079,Tottenham,9089,Everton,1718,2,0,0.0,3.5
 9083,Chelsea,9092,Leicester,1718,2,1,0.5,1.5
-9075,Brighton,9100,Swansea,1718,2,0,0.0,3.0
 9087,Arsenal,9089,Everton,1718,2,0,0.0,6.5
+9075,Brighton,9100,Swansea,1718,2,0,0.0,3.0
 9079,Tottenham,9098,Huddersfield,1718,2,0,0.0,3.0
 9072,Bournemouth,9100,Swansea,1718,2,1,0.5,0.5
 9091,Southampton,9092,Leicester,1718,2,1,0.5,2.5
@@ -94,8 +94,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9074,Newcastle,9087,Arsenal,1718,2,0,0.0,2.0
 9072,Bournemouth,9092,Leicester,1718,2,2,1.0,1.0
 9083,Chelsea,9084,Crystal Palace,1718,2,0,0.0,3.0
-9084,Crystal Palace,9091,Southampton,1718,2,0,0.0,2.0
 9082,Man City,9089,Everton,1718,4,1,0.25,3.0
+9084,Crystal Palace,9091,Southampton,1718,2,0,0.0,2.0
 9082,Man City,9095,Watford,1718,4,0,0.0,4.25
 9074,Newcastle,9080,Burnley,1718,2,1,0.5,1.5
 9091,Southampton,9098,Huddersfield,1718,2,2,1.0,1.0

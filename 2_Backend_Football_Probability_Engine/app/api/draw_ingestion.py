@@ -1,7 +1,7 @@
 """
 API endpoints for draw structural data ingestion
 """
-from fastapi import APIRouter, Depends, HTTPException, Body, Query
+from fastapi import APIRouter, Depends, HTTPException, Body, Query, UploadFile, File
 from sqlalchemy.orm import Session
 from app.db.session import get_db
 from app.schemas.jackpot import ApiResponse
@@ -1724,6 +1724,175 @@ async def get_xg_data_summary(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.get("/team-form/summary", response_model=ApiResponse)
+async def get_team_form_summary(
+    db: Session = Depends(get_db)
+):
+    """Get summary statistics for team form data"""
+    try:
+        from sqlalchemy import text
+        from app.db.models import League
+        
+        # Get total count from both tables (fixtures and historical matches)
+        total_fixtures = db.execute(text('SELECT COUNT(*) FROM team_form')).scalar() or 0
+        
+        # Get historical count
+        historical_count = 0
+        try:
+            historical_count = db.execute(text('SELECT COUNT(*) FROM team_form_historical')).scalar() or 0
+        except:
+            pass  # Table doesn't exist yet
+        
+        total_count = total_fixtures + historical_count
+        
+        # Get count by league (through teams)
+        league_counts = db.execute(text("""
+            SELECT l.code, l.name, COUNT(DISTINCT tf.id) as count
+            FROM team_form tf
+            JOIN teams t ON tf.team_id = t.id
+            JOIN leagues l ON t.league_id = l.id
+            GROUP BY l.code, l.name
+            ORDER BY count DESC
+        """)).fetchall()
+        
+        # Get historical count by league
+        historical_league_counts = []
+        try:
+            historical_league_counts = db.execute(text("""
+                SELECT l.code, l.name, COUNT(DISTINCT tfh.id) as count
+                FROM team_form_historical tfh
+                JOIN teams t ON tfh.team_id = t.id
+                JOIN leagues l ON t.league_id = l.id
+                GROUP BY l.code, l.name
+                ORDER BY count DESC
+            """)).fetchall()
+        except:
+            pass
+        
+        # Combine league counts
+        league_dict = {}
+        for row in league_counts:
+            league_dict[row.code] = {
+                'code': row.code,
+                'name': row.name,
+                'count': row.count
+            }
+        
+        for row in historical_league_counts:
+            if row.code in league_dict:
+                league_dict[row.code]['count'] += row.count
+            else:
+                league_dict[row.code] = {
+                    'code': row.code,
+                    'name': row.name,
+                    'count': row.count
+                }
+        
+        by_league = list(league_dict.values())
+        by_league.sort(key=lambda x: x['count'], reverse=True)
+        
+        # Get most recent update
+        most_recent_fixtures = db.execute(text("""
+            SELECT MAX(calculated_at) as last_updated
+            FROM team_form
+        """)).fetchone()
+        
+        most_recent_historical = None
+        try:
+            most_recent_historical = db.execute(text("""
+                SELECT MAX(calculated_at) as last_updated
+                FROM team_form_historical
+            """)).fetchone()
+        except:
+            pass
+        
+        last_updated = None
+        if most_recent_fixtures and most_recent_fixtures.last_updated:
+            last_updated = most_recent_fixtures.last_updated.isoformat() if hasattr(most_recent_fixtures.last_updated, 'isoformat') else str(most_recent_fixtures.last_updated)
+        if most_recent_historical and most_recent_historical.last_updated:
+            historical_date = most_recent_historical.last_updated.isoformat() if hasattr(most_recent_historical.last_updated, 'isoformat') else str(most_recent_historical.last_updated)
+            if not last_updated or historical_date > last_updated:
+                last_updated = historical_date
+        
+        # Get total leagues
+        total_leagues = db.query(League).count()
+        leagues_with_form = len(by_league)
+        
+        return ApiResponse(
+            data={
+                "total_records": total_count,
+                "fixture_records": total_fixtures,
+                "historical_records": historical_count,
+                "leagues_with_form": leagues_with_form,
+                "total_leagues": total_leagues,
+                "last_updated": last_updated,
+                "by_league": by_league
+            },
+            success=True,
+            message="Team form summary retrieved successfully"
+        )
+    except Exception as e:
+        logger.error(f"Error getting team form summary: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/team-injuries/summary", response_model=ApiResponse)
+async def get_team_injuries_summary(
+    db: Session = Depends(get_db)
+):
+    """Get summary statistics for team injuries data"""
+    try:
+        from sqlalchemy import text
+        from app.db.models import League
+        
+        # Get total count
+        total_count = db.execute(text('SELECT COUNT(*) FROM team_injuries')).scalar() or 0
+        
+        # Get count by league (through teams and fixtures)
+        league_counts = db.execute(text("""
+            SELECT l.code, l.name, COUNT(DISTINCT ti.id) as count
+            FROM team_injuries ti
+            JOIN teams t ON ti.team_id = t.id
+            JOIN leagues l ON t.league_id = l.id
+            GROUP BY l.code, l.name
+            ORDER BY count DESC
+        """)).fetchall()
+        
+        by_league = [
+            {"code": row.code, "name": row.name, "count": row.count}
+            for row in league_counts
+        ]
+        
+        # Get most recent update
+        most_recent = db.execute(text("""
+            SELECT MAX(recorded_at) as last_updated
+            FROM team_injuries
+        """)).fetchone()
+        
+        last_updated = None
+        if most_recent and most_recent.last_updated:
+            last_updated = most_recent.last_updated.isoformat() if hasattr(most_recent.last_updated, 'isoformat') else str(most_recent.last_updated)
+        
+        # Get total leagues
+        total_leagues = db.query(League).count()
+        leagues_with_injuries = len(by_league)
+        
+        return ApiResponse(
+            data={
+                "total_records": total_count,
+                "leagues_with_injuries": leagues_with_injuries,
+                "total_leagues": total_leagues,
+                "last_updated": last_updated,
+                "by_league": by_league
+            },
+            success=True,
+            message="Team injuries summary retrieved successfully"
+        )
+    except Exception as e:
+        logger.error(f"Error getting team injuries summary: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/team-form/batch", response_model=ApiResponse)
 async def batch_ingest_team_form(
     request: BatchIngestTeamFormRequest = Body(...),
@@ -1787,6 +1956,88 @@ async def batch_ingest_team_injuries(
         )
     except Exception as e:
         logger.error(f"Error in batch team injuries export: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/team-injuries/import-csv", response_model=ApiResponse)
+async def import_team_injuries_from_csv(
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db)
+):
+    """Import team injuries from CSV file"""
+    try:
+        import tempfile
+        import os
+        from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_from_csv
+        
+        # Read CSV content
+        content = await file.read()
+        
+        # Create temporary file
+        with tempfile.NamedTemporaryFile(mode='wb', delete=False, suffix='.csv') as tmp_file:
+            tmp_file.write(content)
+            tmp_path = tmp_file.name
+        
+        try:
+            # Import injuries from CSV
+            result = batch_ingest_team_injuries_from_csv(db=db, csv_path=tmp_path)
+            
+            if not result.get("success"):
+                raise HTTPException(status_code=400, detail=result.get("error", "CSV import failed"))
+            
+            return ApiResponse(
+                data=result,
+                success=True,
+                message=f"Injuries imported successfully: {result.get('inserted', 0)} inserted, {result.get('updated', 0)} updated, {result.get('errors', 0)} errors"
+            )
+        finally:
+            # Clean up temporary file
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
+                
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error importing team injuries from CSV: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+class DownloadInjuriesRequest(BaseModel):
+    fixture_ids: Optional[List[int]] = None
+    league_codes: Optional[List[str]] = None
+    use_all_leagues: bool = False
+    source: str = "api-football"  # "api-football" or "transfermarkt"
+
+
+@router.post("/team-injuries/download", response_model=ApiResponse)
+async def download_team_injuries(
+    request: DownloadInjuriesRequest = Body(...),
+    db: Session = Depends(get_db)
+):
+    """Download team injuries from external APIs (API-Football, Transfermarkt, etc.)"""
+    try:
+        from app.services.ingestion.download_injuries_from_api import download_injuries_for_fixtures_batch
+        
+        result = download_injuries_for_fixtures_batch(
+            db=db,
+            fixture_ids=request.fixture_ids,
+            league_codes=request.league_codes,
+            use_all_leagues=request.use_all_leagues,
+            source=request.source
+        )
+        
+        if not result.get("success"):
+            raise HTTPException(status_code=400, detail=result.get("error", "Download failed"))
+        
+        return ApiResponse(
+            data=result,
+            success=True,
+            message=f"Injuries downloaded: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed, {result.get('skipped', 0)} skipped"
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error downloading team injuries: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 

@@ -2,379 +2,380 @@ league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,
 F2,1617,2016-01-08,Amiens,Reims,7,7,False
 F2,1617,2016-01-10,Strasbourg,Valenciennes,7,7,False
 F2,1617,2016-03-10,Le Havre,Sochaux,7,7,True
-F2,1617,2016-04-11,Laval,Le Havre,7,32,False
 F2,1617,2016-04-11,Niort,Sochaux,7,32,False
-F2,1617,2016-04-11,Tours,Brest,7,7,False
-F2,1617,2016-04-11,Troyes,Valenciennes,7,92,False
-F2,1617,2016-04-11,Amiens,Auxerre,94,7,False
-F2,1617,2016-04-11,Bourg Peronnas,Le Mans,7,7,False
+F2,1617,2016-04-11,Laval,Le Havre,7,32,False
 F2,1617,2016-04-11,Ajaccio,Red Star,7,7,False
+F2,1617,2016-04-11,Troyes,Valenciennes,7,92,False
+F2,1617,2016-04-11,Tours,Brest,7,7,False
+F2,1617,2016-04-11,Amiens,Auxerre,94,7,False
 F2,1617,2016-04-11,Nimes,Clermont,7,7,False
-F2,1617,2016-05-08,Brest,Le Mans,27,27,False
-F2,1617,2016-05-08,Clermont,Red Star,27,27,False
-F2,1617,2016-05-08,Laval,Niort,27,27,False
+F2,1617,2016-04-11,Bourg Peronnas,Le Mans,7,7,False
 F2,1617,2016-05-08,Le Havre,Nimes,27,27,False
-F2,1617,2016-05-08,Le Mans,Tours,27,27,False
+F2,1617,2016-05-08,Ajaccio,Troyes,27,27,False
+F2,1617,2016-05-08,Clermont,Red Star,27,27,False
 F2,1617,2016-05-08,Reims,Bourg Peronnas,121,27,False
 F2,1617,2016-05-08,Sochaux,Valenciennes,27,27,False
-F2,1617,2016-05-08,Ajaccio,Troyes,27,27,False
 F2,1617,2016-05-08,Auxerre,Ajaccio,27,27,False
+F2,1617,2016-05-08,Brest,Le Mans,27,27,False
+F2,1617,2016-05-08,Laval,Niort,27,27,False
+F2,1617,2016-05-08,Le Mans,Tours,27,27,False
 F2,1617,2016-05-11,Strasbourg,Reims,122,3,True
 F2,1617,2016-06-08,Strasbourg,Amiens,28,58,True
 F2,1617,2016-07-11,Le Mans,Ajaccio,64,64,False
-F2,1617,2016-07-29,Troyes,Sochaux,82,82,False
-F2,1617,2016-07-29,Tours,Ajaccio,82,18,False
-F2,1617,2016-07-29,Le Mans,Le Havre,18,82,False
-F2,1617,2016-07-29,Ajaccio,Brest,18,82,False
-F2,1617,2016-07-29,Niort,Le Mans,82,18,False
-F2,1617,2016-07-29,Nimes,Laval,82,82,False
 F2,1617,2016-07-29,Valenciennes,Clermont,82,82,False
+F2,1617,2016-07-29,Bourg Peronnas,Strasbourg,82,51,False
+F2,1617,2016-07-29,Ajaccio,Brest,18,82,False
+F2,1617,2016-07-29,Nimes,Laval,82,82,False
+F2,1617,2016-07-29,Niort,Le Mans,82,18,False
+F2,1617,2016-07-29,Le Mans,Le Havre,18,82,False
+F2,1617,2016-07-29,Tours,Ajaccio,82,18,False
+F2,1617,2016-07-29,Troyes,Sochaux,82,82,False
 F2,1617,2016-07-30,Red Star,Auxerre,83,83,False
 F2,1617,2016-08-13,Valenciennes,Reims,15,94,False
 F2,1617,2016-08-15,Nimes,Le Mans,17,17,False
-F2,1617,2016-08-19,Le Havre,Troyes,21,21,False
-F2,1617,2016-08-19,Niort,Tours,21,21,False
-F2,1617,2016-08-19,Sochaux,Le Mans,21,4,False
-F2,1617,2016-08-19,Strasbourg,Nimes,72,4,False
 F2,1617,2016-08-19,Auxerre,Clermont,20,21,False
+F2,1617,2016-08-19,Sochaux,Le Mans,21,4,False
 F2,1617,2016-08-19,Brest,Valenciennes,21,6,False
+F2,1617,2016-08-19,Ajaccio,Bourg Peronnas,21,21,False
 F2,1617,2016-08-19,Laval,Ajaccio,21,21,False
-F2,1617,2016-08-19,Ajaccio,Bourg Peronnas,21,103,False
+F2,1617,2016-08-19,Niort,Tours,21,21,False
+F2,1617,2016-08-19,Le Havre,Troyes,21,21,False
+F2,1617,2016-08-19,Strasbourg,Nimes,21,4,False
 F2,1617,2016-08-20,Le Mans,Amiens,1,73,False
 F2,1617,2016-08-22,Reims,Red Star,9,23,False
-F2,1617,2016-08-26,Le Mans,Auxerre,6,7,False
+F2,1617,2016-08-26,Nimes,Amiens,7,6,False
 F2,1617,2016-08-26,Tours,Reims,7,4,False
 F2,1617,2016-08-26,Troyes,Le Mans,7,6,False
-F2,1617,2016-08-26,Valenciennes,Laval,7,7,False
-F2,1617,2016-08-26,Clermont,Ajaccio,7,7,False
-F2,1617,2016-08-26,Nimes,Amiens,7,6,False
 F2,1617,2016-08-26,Ajaccio,Strasbourg,7,7,False
+F2,1617,2016-08-26,Clermont,Ajaccio,7,7,False
+F2,1617,2016-08-26,Le Mans,Auxerre,6,7,False
+F2,1617,2016-08-26,Valenciennes,Laval,7,7,False
 F2,1617,2016-08-26,Bourg Peronnas,Niort,7,7,False
 F2,1617,2016-08-27,Red Star,Le Havre,5,8,False
 F2,1617,2016-08-29,Sochaux,Brest,10,10,False
 F2,1617,2016-09-09,Ajaccio,Red Star,14,13,False
-F2,1617,2016-09-09,Amiens,Tours,14,14,False
 F2,1617,2016-09-09,Auxerre,Sochaux,14,11,False
 F2,1617,2016-09-09,Brest,Clermont,11,14,False
+F2,1617,2016-09-09,Reims,Ajaccio,14,14,False
+F2,1617,2016-09-09,Amiens,Tours,14,14,False
 F2,1617,2016-09-09,Laval,Le Mans,14,14,False
 F2,1617,2016-09-09,Le Mans,Bourg Peronnas,14,14,False
 F2,1617,2016-09-09,Niort,Nimes,14,14,False
-F2,1617,2016-09-09,Reims,Ajaccio,14,14,False
-F2,1617,2016-09-12,Red Star,Valenciennes,3,17,False
 F2,1617,2016-09-12,Niort,Le Havre,3,16,False
-F2,1617,2016-09-12,Nimes,Brest,3,3,False
-F2,1617,2016-09-12,Bourg Peronnas,Clermont,3,3,False
-F2,1617,2016-09-12,Amiens,Sochaux,3,3,False
 F2,1617,2016-09-12,Ajaccio,Ajaccio,3,3,False
+F2,1617,2016-09-12,Bourg Peronnas,Clermont,3,3,False
+F2,1617,2016-09-12,Red Star,Valenciennes,3,17,False
+F2,1617,2016-09-12,Amiens,Sochaux,3,3,False
 F2,1617,2016-09-12,Troyes,Auxerre,17,3,False
 F2,1617,2016-09-12,Tours,Laval,3,3,False
-F2,1617,2016-09-16,Le Mans,Strasbourg,7,21,False
+F2,1617,2016-09-12,Nimes,Brest,3,3,False
 F2,1617,2016-09-16,Red Star,Laval,4,4,False
 F2,1617,2016-09-16,Sochaux,Reims,4,7,False
+F2,1617,2016-09-16,Clermont,Le Mans,4,7,False
+F2,1617,2016-09-16,Bourg Peronnas,Le Havre,4,4,False
 F2,1617,2016-09-16,Tours,Nimes,4,4,False
 F2,1617,2016-09-16,Troyes,Niort,4,4,False
 F2,1617,2016-09-16,Valenciennes,Ajaccio,4,4,False
-F2,1617,2016-09-16,Clermont,Le Mans,4,7,False
-F2,1617,2016-09-16,Bourg Peronnas,Le Havre,4,4,False
+F2,1617,2016-09-16,Le Mans,Strasbourg,7,21,False
 F2,1617,2016-09-17,Brest,Auxerre,5,5,False
 F2,1617,2016-09-19,Strasbourg,Red Star,3,3,False
+F2,1617,2016-09-20,Le Havre,Brest,4,3,True
+F2,1617,2016-09-20,Ajaccio,Auxerre,4,3,True
+F2,1617,2016-09-20,Amiens,Valenciennes,8,4,True
+F2,1617,2016-09-20,Niort,Ajaccio,4,4,True
 F2,1617,2016-09-20,Tours,Bourg Peronnas,4,4,True
+F2,1617,2016-09-20,Reims,Clermont,4,4,True
 F2,1617,2016-09-20,Nimes,Troyes,4,4,True
 F2,1617,2016-09-20,Le Mans,Le Mans,4,4,True
-F2,1617,2016-09-20,Le Havre,Brest,4,3,True
 F2,1617,2016-09-20,Laval,Sochaux,4,4,True
-F2,1617,2016-09-20,Amiens,Valenciennes,8,4,True
-F2,1617,2016-09-20,Ajaccio,Auxerre,4,3,True
-F2,1617,2016-09-20,Niort,Ajaccio,4,4,True
-F2,1617,2016-09-20,Reims,Clermont,4,4,True
 F2,1617,2016-09-23,Troyes,Tours,3,3,False
-F2,1617,2016-09-23,Auxerre,Le Havre,3,3,False
+F2,1617,2016-09-23,Sochaux,Ajaccio,3,3,False
+F2,1617,2016-09-23,Red Star,Niort,4,3,False
+F2,1617,2016-09-23,Le Mans,Amiens,3,3,False
 F2,1617,2016-09-23,Ajaccio,Nimes,3,3,False
+F2,1617,2016-09-23,Auxerre,Le Havre,3,3,False
 F2,1617,2016-09-23,Bourg Peronnas,Laval,3,3,False
 F2,1617,2016-09-23,Clermont,Strasbourg,3,4,False
-F2,1617,2016-09-23,Le Mans,Amiens,3,3,False
-F2,1617,2016-09-23,Red Star,Niort,4,3,False
-F2,1617,2016-09-23,Sochaux,Ajaccio,3,3,False
 F2,1617,2016-09-24,Valenciennes,Le Mans,4,1,False
 F2,1617,2016-09-26,Brest,Reims,6,6,False
 F2,1617,2016-09-27,Ajaccio,Amiens,4,4,True
-F2,1617,2016-09-30,Reims,Auxerre,4,7,False
+F2,1617,2016-09-30,Niort,Le Mans,7,6,False
 F2,1617,2016-09-30,Ajaccio,Brest,3,4,False
 F2,1617,2016-09-30,Amiens,Troyes,3,7,False
-F2,1617,2016-09-30,Laval,Clermont,7,7,False
 F2,1617,2016-09-30,Le Mans,Red Star,6,7,False
 F2,1617,2016-09-30,Nimes,Bourg Peronnas,7,7,False
-F2,1617,2016-09-30,Niort,Le Mans,7,6,False
+F2,1617,2016-09-30,Laval,Clermont,7,7,False
+F2,1617,2016-09-30,Reims,Auxerre,4,7,False
 F2,1617,2016-09-30,Tours,Ajaccio,7,3,False
 F2,1617,2016-10-09,Le Havre,Valenciennes,16,15,False
 F2,1617,2016-10-12,Strasbourg,Le Mans,19,12,True
 F2,1617,2016-10-14,Red Star,Nimes,14,14,False
-F2,1617,2016-10-14,Le Mans,Tours,2,14,False
-F2,1617,2016-10-14,Clermont,Le Havre,14,5,False
-F2,1617,2016-10-14,Bourg Peronnas,Amiens,14,14,False
-F2,1617,2016-10-14,Valenciennes,Niort,5,14,False
-F2,1617,2016-10-14,Troyes,Ajaccio,14,14,False
 F2,1617,2016-10-14,Ajaccio,Reims,14,14,False
 F2,1617,2016-10-14,Auxerre,Laval,14,14,False
+F2,1617,2016-10-14,Bourg Peronnas,Amiens,14,14,False
+F2,1617,2016-10-14,Clermont,Le Havre,14,5,False
+F2,1617,2016-10-14,Le Mans,Tours,2,14,False
+F2,1617,2016-10-14,Troyes,Ajaccio,14,14,False
+F2,1617,2016-10-14,Valenciennes,Niort,5,14,False
 F2,1617,2016-10-15,Brest,Strasbourg,15,3,False
 F2,1617,2016-10-17,Sochaux,Le Mans,24,3,False
-F2,1617,2016-10-21,Laval,Brest,7,6,False
+F2,1617,2016-10-21,Nimes,Sochaux,7,4,False
 F2,1617,2016-10-21,Le Havre,Ajaccio,7,7,False
-F2,1617,2016-10-21,Troyes,Bourg Peronnas,7,7,False
-F2,1617,2016-10-21,Ajaccio,Le Mans,7,4,False
+F2,1617,2016-10-21,Laval,Brest,7,6,False
 F2,1617,2016-10-21,Niort,Clermont,7,7,False
 F2,1617,2016-10-21,Tours,Valenciennes,7,7,False
-F2,1617,2016-10-21,Nimes,Sochaux,7,4,False
 F2,1617,2016-10-21,Strasbourg,Auxerre,6,7,False
+F2,1617,2016-10-21,Ajaccio,Le Mans,7,4,False
+F2,1617,2016-10-21,Troyes,Bourg Peronnas,7,7,False
 F2,1617,2016-10-22,Le Mans,Reims,1,8,False
 F2,1617,2016-10-24,Amiens,Red Star,10,10,False
-F2,1617,2016-10-28,Reims,Le Havre,6,7,False
-F2,1617,2016-10-28,Ajaccio,Laval,7,7,False
 F2,1617,2016-10-28,Bourg Peronnas,Ajaccio,7,7,False
+F2,1617,2016-10-28,Ajaccio,Laval,7,7,False
 F2,1617,2016-10-28,Le Mans,Troyes,6,7,False
 F2,1617,2016-10-28,Red Star,Tours,4,7,False
 F2,1617,2016-10-28,Valenciennes,Nimes,7,7,False
-F2,1617,2016-10-29,Sochaux,Strasbourg,8,8,False
-F2,1617,2016-10-29,Clermont,Amiens,8,5,False
+F2,1617,2016-10-28,Reims,Le Havre,6,7,False
 F2,1617,2016-10-29,Auxerre,Niort,8,8,False
+F2,1617,2016-10-29,Clermont,Amiens,8,5,False
+F2,1617,2016-10-29,Sochaux,Strasbourg,8,8,False
 F2,1617,2016-10-31,Brest,Le Mans,10,3,False
-F2,1617,2016-11-18,Red Star,Troyes,21,21,False
-F2,1617,2016-11-18,Reims,Laval,21,21,False
-F2,1617,2016-11-18,Sochaux,Tours,20,21,False
-F2,1617,2016-11-18,Valenciennes,Bourg Peronnas,21,21,False
 F2,1617,2016-11-18,Le Mans,Nimes,18,21,False
-F2,1617,2016-11-18,Ajaccio,Strasbourg,21,20,False
-F2,1617,2016-11-18,Auxerre,Le Mans,20,18,False
+F2,1617,2016-11-18,Valenciennes,Bourg Peronnas,21,21,False
+F2,1617,2016-11-18,Sochaux,Tours,20,21,False
+F2,1617,2016-11-18,Red Star,Troyes,21,21,False
 F2,1617,2016-11-18,Clermont,Ajaccio,20,21,False
+F2,1617,2016-11-18,Auxerre,Le Mans,20,18,False
+F2,1617,2016-11-18,Reims,Laval,21,21,False
+F2,1617,2016-11-18,Ajaccio,Strasbourg,21,20,False
 F2,1617,2016-11-19,Le Havre,Amiens,22,21,False
 F2,1617,2016-11-21,Brest,Niort,21,23,False
-F2,1617,2016-11-25,Ajaccio,Sochaux,7,7,False
+F2,1617,2016-11-25,Troyes,Clermont,7,7,False
+F2,1617,2016-11-25,Tours,Auxerre,7,7,False
+F2,1617,2016-11-25,Niort,Ajaccio,4,7,False
 F2,1617,2016-11-25,Bourg Peronnas,Red Star,7,7,False
+F2,1617,2016-11-25,Ajaccio,Sochaux,7,7,False
+F2,1617,2016-11-25,Strasbourg,Laval,7,7,False
 F2,1617,2016-11-25,Le Mans,Le Havre,7,6,False
 F2,1617,2016-11-25,Nimes,Reims,7,7,False
-F2,1617,2016-11-25,Niort,Ajaccio,4,7,False
 F2,1617,2016-11-25,Le Mans,Valenciennes,7,7,False
-F2,1617,2016-11-25,Strasbourg,Laval,7,7,False
-F2,1617,2016-11-25,Tours,Auxerre,7,7,False
-F2,1617,2016-11-25,Troyes,Clermont,7,7,False
 F2,1617,2016-11-26,Amiens,Brest,7,5,False
 F2,1617,2016-11-28,Reims,Niort,3,3,False
-F2,1617,2016-11-29,Ajaccio,Amiens,4,3,True
 F2,1617,2016-11-29,Auxerre,Nimes,4,4,True
 F2,1617,2016-11-29,Brest,Troyes,3,4,True
 F2,1617,2016-11-29,Clermont,Tours,4,4,True
 F2,1617,2016-11-29,Laval,Le Mans,4,4,True
-F2,1617,2016-11-29,Le Havre,Strasbourg,4,4,True
-F2,1617,2016-11-29,Red Star,Le Mans,4,4,True
-F2,1617,2016-11-29,Sochaux,Bourg Peronnas,4,4,True
+F2,1617,2016-11-29,Ajaccio,Amiens,4,3,True
 F2,1617,2016-11-29,Valenciennes,Ajaccio,4,4,True
-F2,1617,2016-12-08,Troyes,Laval,9,9,True
-F2,1617,2016-12-08,Tours,Strasbourg,9,9,True
-F2,1617,2016-12-08,Red Star,Brest,9,9,True
+F2,1617,2016-11-29,Sochaux,Bourg Peronnas,4,4,True
+F2,1617,2016-11-29,Red Star,Le Mans,4,4,True
+F2,1617,2016-11-29,Le Havre,Strasbourg,4,4,True
+F2,1617,2016-12-08,Ajaccio,Le Havre,9,9,True
 F2,1617,2016-12-08,Le Mans,Ajaccio,9,9,True
-F2,1617,2016-12-08,Clermont,Sochaux,9,9,True
+F2,1617,2016-12-08,Red Star,Brest,9,9,True
+F2,1617,2016-12-08,Troyes,Laval,9,9,True
 F2,1617,2016-12-08,Bourg Peronnas,Auxerre,9,9,True
 F2,1617,2016-12-08,Amiens,Niort,9,10,True
-F2,1617,2016-12-08,Ajaccio,Le Havre,9,9,True
+F2,1617,2016-12-08,Tours,Strasbourg,9,9,True
+F2,1617,2016-12-08,Clermont,Sochaux,9,9,True
 F2,1617,2016-12-09,Strasbourg,Troyes,1,1,False
 F2,1617,2016-12-12,Le Mans,Reims,4,14,False
+F2,1617,2016-12-16,Le Havre,Tours,8,8,False
 F2,1617,2016-12-16,Ajaccio,Nimes,8,17,False
 F2,1617,2016-12-16,Auxerre,Valenciennes,8,17,False
-F2,1617,2016-12-16,Brest,Bourg Peronnas,8,8,False
-F2,1617,2016-12-16,Clermont,Le Mans,8,4,False
 F2,1617,2016-12-16,Laval,Amiens,8,8,False
-F2,1617,2016-12-16,Le Havre,Tours,8,8,False
-F2,1617,2016-12-16,Sochaux,Red Star,8,8,False
 F2,1617,2016-12-16,Strasbourg,Niort,7,8,False
+F2,1617,2016-12-16,Sochaux,Red Star,8,8,False
+F2,1617,2016-12-16,Clermont,Le Mans,8,4,False
+F2,1617,2016-12-16,Brest,Bourg Peronnas,8,8,False
 F2,1617,2016-12-17,Le Mans,Ajaccio,1,1,False
 F2,1617,2016-12-19,Reims,Troyes,7,10,False
 F2,1617,2017-01-04,Le Mans,Brest,18,19,True
 F2,1617,2017-01-05,Le Mans,Laval,1,20,True
-F2,1617,2017-01-13,Ajaccio,Auxerre,27,28,False
-F2,1617,2017-01-13,Bourg Peronnas,Reims,28,25,False
-F2,1617,2017-01-13,Nimes,Le Havre,28,28,False
-F2,1617,2017-01-13,Niort,Laval,28,8,False
-F2,1617,2017-01-13,Le Mans,Brest,8,9,False
 F2,1617,2017-01-13,Red Star,Clermont,28,28,False
-F2,1617,2017-01-13,Tours,Le Mans,28,8,False
+F2,1617,2017-01-13,Nimes,Le Havre,28,28,False
+F2,1617,2017-01-13,Ajaccio,Auxerre,27,28,False
 F2,1617,2017-01-13,Troyes,Ajaccio,25,27,False
+F2,1617,2017-01-13,Niort,Laval,28,8,False
+F2,1617,2017-01-13,Tours,Le Mans,28,8,False
+F2,1617,2017-01-13,Le Mans,Brest,8,9,False
+F2,1617,2017-01-13,Bourg Peronnas,Reims,28,25,False
 F2,1617,2017-01-14,Amiens,Strasbourg,29,29,False
 F2,1617,2017-01-16,Valenciennes,Sochaux,31,31,False
-F2,1617,2017-01-20,Laval,Troyes,7,7,False
-F2,1617,2017-01-20,Le Havre,Ajaccio,7,7,False
-F2,1617,2017-01-20,Niort,Amiens,7,6,False
 F2,1617,2017-01-20,Reims,Valenciennes,7,4,False
+F2,1617,2017-01-20,Niort,Amiens,7,6,False
+F2,1617,2017-01-20,Laval,Troyes,7,7,False
+F2,1617,2017-01-20,Auxerre,Bourg Peronnas,7,7,False
+F2,1617,2017-01-20,Le Havre,Ajaccio,7,7,False
 F2,1617,2017-01-20,Sochaux,Clermont,4,7,False
 F2,1617,2017-01-20,Ajaccio,Le Mans,7,7,False
-F2,1617,2017-01-20,Auxerre,Bourg Peronnas,7,7,False
 F2,1617,2017-01-21,Le Mans,Nimes,1,8,False
 F2,1617,2017-01-23,Brest,Red Star,10,10,False
-F2,1617,2017-01-27,Clermont,Auxerre,7,7,False
-F2,1617,2017-01-27,Nimes,Strasbourg,6,13,False
-F2,1617,2017-01-27,Le Mans,Sochaux,6,7,False
-F2,1617,2017-01-27,Tours,Niort,14,7,False
-F2,1617,2017-01-27,Ajaccio,Laval,7,7,False
 F2,1617,2017-01-27,Valenciennes,Brest,7,4,False
-F2,1617,2017-01-27,Troyes,Le Havre,7,7,False
+F2,1617,2017-01-27,Tours,Niort,14,7,False
+F2,1617,2017-01-27,Le Mans,Sochaux,6,7,False
+F2,1617,2017-01-27,Nimes,Strasbourg,6,13,False
+F2,1617,2017-01-27,Clermont,Auxerre,7,7,False
 F2,1617,2017-01-27,Bourg Peronnas,Ajaccio,7,7,False
+F2,1617,2017-01-27,Ajaccio,Laval,7,7,False
+F2,1617,2017-01-27,Troyes,Le Havre,7,7,False
 F2,1617,2017-01-28,Amiens,Le Mans,8,1,False
 F2,1617,2017-01-30,Red Star,Reims,7,10,False
 F2,1617,2017-02-13,Strasbourg,Le Mans,17,16,False
 F2,1617,2017-02-13,Le Mans,Clermont,16,17,False
-F2,1617,2017-02-17,Valenciennes,Amiens,21,20,False
-F2,1617,2017-02-17,Sochaux,Laval,21,21,False
-F2,1617,2017-02-17,Red Star,Strasbourg,18,4,False
 F2,1617,2017-02-17,Clermont,Reims,4,18,False
 F2,1617,2017-02-17,Auxerre,Ajaccio,21,21,False
-F2,1617,2017-02-17,Ajaccio,Niort,21,21,False
+F2,1617,2017-02-17,Sochaux,Laval,21,21,False
+F2,1617,2017-02-17,Valenciennes,Amiens,21,20,False
 F2,1617,2017-02-17,Troyes,Nimes,21,21,False
 F2,1617,2017-02-17,Bourg Peronnas,Tours,21,21,False
+F2,1617,2017-02-17,Ajaccio,Niort,21,21,False
+F2,1617,2017-02-17,Red Star,Strasbourg,18,4,False
 F2,1617,2017-02-18,Brest,Le Havre,22,8,False
 F2,1617,2017-02-20,Le Mans,Le Mans,7,7,False
 F2,1617,2017-02-21,Strasbourg,Tours,4,4,True
-F2,1617,2017-02-24,Ajaccio,Sochaux,7,7,False
-F2,1617,2017-02-24,Tours,Troyes,3,7,False
-F2,1617,2017-02-24,Strasbourg,Clermont,3,7,False
-F2,1617,2017-02-24,Niort,Red Star,7,7,False
-F2,1617,2017-02-24,Nimes,Ajaccio,7,7,False
 F2,1617,2017-02-24,Le Havre,Auxerre,6,7,False
+F2,1617,2017-02-24,Strasbourg,Clermont,3,7,False
+F2,1617,2017-02-24,Tours,Troyes,3,7,False
+F2,1617,2017-02-24,Ajaccio,Sochaux,7,7,False
+F2,1617,2017-02-24,Niort,Red Star,7,7,False
 F2,1617,2017-02-24,Laval,Bourg Peronnas,7,7,False
+F2,1617,2017-02-24,Nimes,Ajaccio,7,7,False
 F2,1617,2017-02-24,Amiens,Le Mans,7,4,False
 F2,1617,2017-02-25,Le Mans,Valenciennes,1,8,False
 F2,1617,2017-02-27,Reims,Brest,10,9,False
+F2,1617,2017-03-02,Le Havre,Red Star,6,6,True
+F2,1617,2017-03-02,Niort,Bourg Peronnas,6,6,True
+F2,1617,2017-03-02,Reims,Tours,3,6,True
+F2,1617,2017-03-02,Strasbourg,Ajaccio,6,6,True
+F2,1617,2017-03-02,Le Mans,Troyes,5,6,True
 F2,1617,2017-03-02,Laval,Valenciennes,6,5,True
 F2,1617,2017-03-02,Amiens,Nimes,6,6,True
 F2,1617,2017-03-02,Ajaccio,Clermont,6,6,True
-F2,1617,2017-03-02,Le Mans,Troyes,5,6,True
-F2,1617,2017-03-02,Le Havre,Red Star,6,6,True
-F2,1617,2017-03-02,Strasbourg,Ajaccio,6,6,True
-F2,1617,2017-03-02,Reims,Tours,3,6,True
-F2,1617,2017-03-02,Niort,Bourg Peronnas,6,6,True
+F2,1617,2017-03-03,Bourg Peronnas,Nimes,1,1,False
 F2,1617,2017-03-03,Red Star,Le Mans,1,1,False
 F2,1617,2017-03-03,Clermont,Laval,1,1,False
 F2,1617,2017-03-03,Brest,Ajaccio,4,1,False
-F2,1617,2017-03-03,Bourg Peronnas,Nimes,1,1,False
 F2,1617,2017-03-03,Auxerre,Reims,7,1,False
-F2,1617,2017-03-03,Ajaccio,Tours,1,1,False
 F2,1617,2017-03-03,Sochaux,Le Havre,7,1,False
+F2,1617,2017-03-03,Ajaccio,Tours,1,1,False
 F2,1617,2017-03-04,Strasbourg,Sochaux,2,1,False
 F2,1617,2017-03-13,Le Mans,Sochaux,2,2,False
-F2,1617,2017-03-17,Ajaccio,Le Havre,6,14,False
-F2,1617,2017-03-17,Bourg Peronnas,Troyes,6,15,False
 F2,1617,2017-03-17,Brest,Laval,6,14,False
 F2,1617,2017-03-17,Clermont,Niort,6,6,False
-F2,1617,2017-03-17,Le Mans,Ajaccio,4,6,False
 F2,1617,2017-03-17,Red Star,Amiens,14,15,False
+F2,1617,2017-03-17,Bourg Peronnas,Troyes,6,15,False
+F2,1617,2017-03-17,Le Mans,Ajaccio,4,6,False
 F2,1617,2017-03-17,Sochaux,Nimes,4,6,False
 F2,1617,2017-03-17,Valenciennes,Tours,6,6,False
+F2,1617,2017-03-17,Ajaccio,Le Havre,6,14,False
 F2,1617,2017-03-18,Reims,Le Mans,15,1,False
 F2,1617,2017-03-20,Auxerre,Strasbourg,9,16,False
-F2,1617,2017-03-31,Le Havre,Reims,14,13,False
-F2,1617,2017-03-31,Troyes,Le Mans,14,13,False
-F2,1617,2017-03-31,Tours,Red Star,14,14,False
-F2,1617,2017-03-31,Niort,Auxerre,14,11,False
 F2,1617,2017-03-31,Nimes,Valenciennes,14,14,False
-F2,1617,2017-03-31,Ajaccio,Bourg Peronnas,14,14,False
 F2,1617,2017-03-31,Amiens,Clermont,14,14,False
+F2,1617,2017-03-31,Niort,Auxerre,14,11,False
+F2,1617,2017-03-31,Ajaccio,Bourg Peronnas,14,14,False
 F2,1617,2017-03-31,Laval,Ajaccio,14,14,False
-F2,1617,2017-04-02,Brest,Sochaux,16,16,False
+F2,1617,2017-03-31,Le Havre,Reims,14,13,False
+F2,1617,2017-03-31,Tours,Red Star,14,14,False
+F2,1617,2017-03-31,Troyes,Le Mans,14,13,False
 F2,1617,2017-04-02,Auxerre,Le Mans,2,2,False
-F2,1617,2017-04-03,Troyes,Amiens,3,3,False
+F2,1617,2017-04-02,Brest,Sochaux,16,16,False
 F2,1617,2017-04-03,Le Mans,Niort,1,3,False
-F2,1617,2017-04-14,Amiens,Le Havre,11,6,False
-F2,1617,2017-04-14,Troyes,Red Star,11,14,False
-F2,1617,2017-04-14,Tours,Sochaux,6,6,False
-F2,1617,2017-04-14,Niort,Brest,6,6,False
+F2,1617,2017-04-03,Troyes,Amiens,3,3,False
 F2,1617,2017-04-14,Nimes,Le Mans,6,3,False
-F2,1617,2017-04-14,Laval,Reims,14,14,False
-F2,1617,2017-04-14,Bourg Peronnas,Valenciennes,6,6,False
 F2,1617,2017-04-14,Ajaccio,Clermont,6,6,False
+F2,1617,2017-04-14,Laval,Reims,14,14,False
+F2,1617,2017-04-14,Tours,Sochaux,6,6,False
+F2,1617,2017-04-14,Troyes,Red Star,11,14,False
+F2,1617,2017-04-14,Amiens,Le Havre,11,6,False
+F2,1617,2017-04-14,Bourg Peronnas,Valenciennes,6,6,False
+F2,1617,2017-04-14,Niort,Brest,6,6,False
 F2,1617,2017-04-15,Le Mans,Auxerre,1,7,False
 F2,1617,2017-04-17,Strasbourg,Ajaccio,28,3,False
 F2,1617,2017-04-21,Ajaccio,Niort,4,7,False
 F2,1617,2017-04-21,Laval,Strasbourg,7,4,False
-F2,1617,2017-04-21,Clermont,Troyes,7,7,False
 F2,1617,2017-04-21,Red Star,Bourg Peronnas,7,7,False
-F2,1617,2017-04-21,Auxerre,Tours,6,7,False
-F2,1617,2017-04-21,Valenciennes,Le Mans,7,6,False
-F2,1617,2017-04-21,Sochaux,Ajaccio,7,4,False
 F2,1617,2017-04-21,Reims,Nimes,7,7,False
+F2,1617,2017-04-21,Sochaux,Ajaccio,7,4,False
+F2,1617,2017-04-21,Auxerre,Tours,6,7,False
+F2,1617,2017-04-21,Clermont,Troyes,7,7,False
+F2,1617,2017-04-21,Valenciennes,Le Mans,7,6,False
 F2,1617,2017-04-22,Brest,Amiens,8,8,False
 F2,1617,2017-04-24,Le Havre,Le Mans,10,3,False
 F2,1617,2017-04-28,Amiens,Ajaccio,6,7,False
-F2,1617,2017-04-28,Ajaccio,Valenciennes,7,7,False
-F2,1617,2017-04-28,Bourg Peronnas,Sochaux,7,7,False
 F2,1617,2017-04-28,Nimes,Auxerre,7,7,False
-F2,1617,2017-04-28,Niort,Reims,7,7,False
-F2,1617,2017-04-28,Le Mans,Red Star,4,7,False
-F2,1617,2017-04-28,Strasbourg,Le Havre,7,4,False
+F2,1617,2017-04-28,Bourg Peronnas,Sochaux,7,7,False
+F2,1617,2017-04-28,Ajaccio,Valenciennes,7,7,False
 F2,1617,2017-04-28,Tours,Clermont,7,7,False
+F2,1617,2017-04-28,Strasbourg,Le Havre,7,4,False
+F2,1617,2017-04-28,Le Mans,Red Star,4,7,False
+F2,1617,2017-04-28,Niort,Reims,7,7,False
 F2,1617,2017-04-29,Troyes,Brest,8,7,False
 F2,1617,2017-05-05,Clermont,Bourg Peronnas,7,7,False
 F2,1617,2017-05-05,Auxerre,Troyes,7,6,False
+F2,1617,2017-05-05,Reims,Le Mans,7,7,False
+F2,1617,2017-05-05,Le Havre,Niort,7,7,False
 F2,1617,2017-05-05,Laval,Tours,14,7,False
 F2,1617,2017-05-05,Valenciennes,Red Star,7,7,False
 F2,1617,2017-05-05,Sochaux,Amiens,7,7,False
-F2,1617,2017-05-05,Le Havre,Niort,7,7,False
-F2,1617,2017-05-05,Reims,Le Mans,7,7,False
-F2,1617,2017-05-19,Sochaux,Troyes,14,14,False
-F2,1617,2017-05-19,Laval,Nimes,14,21,False
-F2,1617,2017-05-19,Clermont,Valenciennes,14,14,False
-F2,1617,2017-05-19,Ajaccio,Tours,21,14,False
-F2,1617,2017-05-19,Auxerre,Red Star,14,14,False
 F2,1617,2017-05-19,Brest,Ajaccio,20,21,False
+F2,1617,2017-05-19,Clermont,Valenciennes,14,14,False
+F2,1617,2017-05-19,Auxerre,Red Star,14,14,False
 F2,1617,2017-05-19,Strasbourg,Bourg Peronnas,21,14,False
+F2,1617,2017-05-19,Sochaux,Troyes,14,14,False
 F2,1617,2017-05-19,Reims,Amiens,11,14,False
 F2,1617,2017-05-19,Le Mans,Niort,11,14,False
 F2,1617,2017-05-19,Le Havre,Le Mans,14,11,False
+F2,1617,2017-05-19,Laval,Nimes,14,21,False
+F2,1617,2017-05-19,Ajaccio,Tours,21,14,False
 F2,1617,2017-06-02,Red Star,Ajaccio,14,14,False
 F2,1617,2017-06-02,Valenciennes,Le Havre,14,14,False
 F2,1617,2017-06-03,Valenciennes,Strasbourg,1,15,False
 F2,1617,2017-06-05,Brest,Nimes,17,17,False
-F2,1617,2017-07-02,Le Mans,Laval,44,44,False
-F2,1617,2017-07-02,Sochaux,Auxerre,44,44,False
-F2,1617,2017-07-02,Tours,Amiens,44,44,False
 F2,1617,2017-07-02,Bourg Peronnas,Le Mans,44,44,False
 F2,1617,2017-07-02,Clermont,Brest,44,27,False
-F2,1617,2017-07-02,Nimes,Niort,27,44,False
-F2,1617,2017-07-02,Troyes,Strasbourg,44,29,False
 F2,1617,2017-07-02,Ajaccio,Reims,30,21,False
+F2,1617,2017-07-02,Troyes,Strasbourg,44,29,False
+F2,1617,2017-07-02,Tours,Amiens,44,44,False
+F2,1617,2017-07-02,Sochaux,Auxerre,44,44,False
+F2,1617,2017-07-02,Nimes,Niort,27,44,False
+F2,1617,2017-07-02,Le Mans,Laval,44,44,False
+F2,1617,2017-07-04,Brest,Tours,2,2,True
 F2,1617,2017-07-04,Sochaux,Niort,2,2,True
+F2,1617,2017-07-04,Auxerre,Amiens,2,2,True
+F2,1617,2017-07-04,Clermont,Nimes,2,2,True
+F2,1617,2017-07-04,Valenciennes,Troyes,31,2,True
 F2,1617,2017-07-04,Le Mans,Bourg Peronnas,2,2,True
 F2,1617,2017-07-04,Le Havre,Laval,23,2,True
-F2,1617,2017-07-04,Clermont,Nimes,2,2,True
-F2,1617,2017-07-04,Auxerre,Amiens,2,2,True
-F2,1617,2017-07-04,Valenciennes,Troyes,31,2,True
-F2,1617,2017-07-04,Brest,Tours,2,2,True
 F2,1617,2017-08-04,Red Star,Ajaccio,63,7,False
 F2,1617,2017-08-04,Reims,Strasbourg,7,33,False
-F2,1617,2017-08-05,Ajaccio,Ajaccio,1,1,False
 F2,1617,2017-08-05,Le Mans,Strasbourg,5,1,False
-F2,1617,2017-10-02,Amiens,Ajaccio,90,3,False
-F2,1617,2017-10-02,Niort,Troyes,3,90,False
-F2,1617,2017-10-02,Nimes,Tours,3,3,False
-F2,1617,2017-10-02,Le Havre,Bourg Peronnas,10,3,False
-F2,1617,2017-10-02,Laval,Red Star,90,59,False
+F2,1617,2017-08-05,Ajaccio,Ajaccio,1,1,False
 F2,1617,2017-10-02,Auxerre,Brest,3,3,False
 F2,1617,2017-10-02,Ajaccio,Valenciennes,3,3,False
+F2,1617,2017-10-02,Laval,Red Star,90,59,False
+F2,1617,2017-10-02,Nimes,Tours,3,3,False
+F2,1617,2017-10-02,Niort,Troyes,3,90,False
+F2,1617,2017-10-02,Amiens,Ajaccio,90,3,False
+F2,1617,2017-10-02,Le Havre,Bourg Peronnas,10,3,False
+F2,1617,2017-10-03,Tours,Le Mans,1,4,True
+F2,1617,2017-10-03,Nimes,Red Star,1,1,True
 F2,1617,2017-10-03,Le Havre,Clermont,1,3,True
 F2,1617,2017-10-03,Laval,Auxerre,1,1,True
+F2,1617,2017-10-03,Niort,Valenciennes,1,1,True
 F2,1617,2017-10-03,Amiens,Bourg Peronnas,1,1,True
 F2,1617,2017-10-03,Ajaccio,Troyes,1,1,True
-F2,1617,2017-10-03,Tours,Le Mans,1,4,True
 F2,1617,2017-10-03,Reims,Ajaccio,3,1,True
-F2,1617,2017-10-03,Niort,Valenciennes,1,1,True
-F2,1617,2017-10-03,Nimes,Red Star,1,1,True
 F2,1617,2017-10-04,Ajaccio,Le Mans,1,1,True
 F2,1617,2017-11-02,Reims,Sochaux,5,6,True
 F2,1617,2017-11-03,Strasbourg,Brest,90,7,False
-F2,1617,2017-12-05,Ajaccio,Le Mans,7,7,True
-F2,1617,2017-12-05,Amiens,Laval,63,63,True
-F2,1617,2017-12-05,Bourg Peronnas,Brest,7,7,True
-F2,1617,2017-12-05,Nimes,Ajaccio,7,7,True
 F2,1617,2017-12-05,Niort,Strasbourg,7,32,True
-F2,1617,2017-12-05,Le Mans,Clermont,7,7,True
-F2,1617,2017-12-05,Tours,Le Havre,7,7,True
-F2,1617,2017-12-05,Red Star,Sochaux,63,7,True
 F2,1617,2017-12-05,Troyes,Reims,63,8,True
+F2,1617,2017-12-05,Bourg Peronnas,Brest,7,7,True
+F2,1617,2017-12-05,Tours,Le Havre,7,7,True
+F2,1617,2017-12-05,Amiens,Laval,63,63,True
+F2,1617,2017-12-05,Ajaccio,Le Mans,7,7,True
+F2,1617,2017-12-05,Nimes,Ajaccio,7,7,True
 F2,1617,2017-12-05,Valenciennes,Auxerre,7,8,True
+F2,1617,2017-12-05,Le Mans,Clermont,7,7,True
+F2,1617,2017-12-05,Red Star,Sochaux,63,7,True

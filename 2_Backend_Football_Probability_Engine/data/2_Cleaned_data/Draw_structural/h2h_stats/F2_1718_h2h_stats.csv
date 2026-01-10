@@ -10,8 +10,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9390,Ajaccio,9408,Chateauroux,1718,4,0,0.0,3.25
 9405,Nimes,9413,Tours,1718,2,1,0.5,4.0
 9394,Lorient,9413,Tours,1718,2,0,0.0,3.0
-9406,Sochaux,9411,Brest,1718,2,1,0.5,1.5
 9403,Niort,9413,Tours,1718,2,0,0.0,3.0
+9406,Sochaux,9411,Brest,1718,2,1,0.5,1.5
 9405,Nimes,9406,Sochaux,1718,2,0,0.0,2.5
 9400,Auxerre,9405,Nimes,1718,2,1,0.5,1.5
 9396,Quevilly Rouen,9406,Sochaux,1718,2,1,0.5,1.5
@@ -39,8 +39,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9396,Quevilly Rouen,9403,Niort,1718,2,0,0.0,3.0
 9390,Ajaccio,9404,Le Havre,1718,4,1,0.25,2.0
 9403,Niort,9406,Sochaux,1718,2,1,0.5,2.5
-9396,Quevilly Rouen,9404,Le Havre,1718,2,0,0.0,2.0
 9374,Le Mans,9404,Le Havre,1718,4,2,0.5,3.0
+9396,Quevilly Rouen,9404,Le Havre,1718,2,0,0.0,2.0
 9387,Reims,9394,Lorient,1718,2,0,0.0,2.0
 9390,Ajaccio,9400,Auxerre,1718,4,1,0.25,2.75
 9376,Clermont,9413,Tours,1718,2,1,0.5,1.0
@@ -99,8 +99,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9405,Nimes,9408,Chateauroux,1718,2,0,0.0,2.0
 9412,Bourg Peronnas,9413,Tours,1718,2,1,0.5,3.5
 9376,Clermont,9404,Le Havre,1718,2,0,0.0,3.0
-9392,Paris FC,9396,Quevilly Rouen,1718,2,0,0.0,3.0
 9403,Niort,9405,Nimes,1718,2,0,0.0,5.5
+9392,Paris FC,9396,Quevilly Rouen,1718,2,0,0.0,3.0
 9374,Le Mans,9411,Brest,1718,4,2,0.5,2.75
 9390,Ajaccio,9413,Tours,1718,4,0,0.0,3.75
 9399,Valenciennes,9413,Tours,1718,2,0,0.0,2.5
@@ -112,7 +112,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9396,Quevilly Rouen,9413,Tours,1718,2,1,0.5,4.0
 9404,Le Havre,9412,Bourg Peronnas,1718,2,1,0.5,1.5
 9399,Valenciennes,9404,Le Havre,1718,2,1,0.5,1.5
-9406,Sochaux,9412,Bourg Peronnas,1718,1,0,0.0,3.0
+9406,Sochaux,9412,Bourg Peronnas,1718,2,0,0.0,2.5
 9376,Clermont,9406,Sochaux,1718,2,0,0.0,3.0
 9382,Annecy,9387,Reims,1718,2,0,0.0,2.5
 9392,Paris FC,9400,Auxerre,1718,2,1,0.5,2.5
@@ -127,8 +127,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9374,Le Mans,9400,Auxerre,1718,4,0,0.0,3.25
 9394,Lorient,9411,Brest,1718,2,0,0.0,4.5
 9382,Annecy,9406,Sochaux,1718,2,1,0.5,2.5
-9400,Auxerre,9412,Bourg Peronnas,1718,2,1,0.5,3.0
 9400,Auxerre,9404,Le Havre,1718,2,1,0.5,3.5
+9400,Auxerre,9412,Bourg Peronnas,1718,2,1,0.5,3.0
 9390,Ajaccio,9411,Brest,1718,4,2,0.5,2.5
 9390,Ajaccio,9392,Paris FC,1718,4,2,0.5,1.25
 9396,Quevilly Rouen,9411,Brest,1718,2,0,0.0,3.5

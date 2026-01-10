@@ -1,231 +1,232 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-F2,1819,2018-07-27,Ajaccio,Paris FC,53,53,False
-F2,1819,2018-07-27,Ajaccio,Troyes,53,234,False
-F2,1819,2018-07-27,Red Star,Niort,234,53,False
-F2,1819,2018-07-27,Valenciennes,Auxerre,53,53,False
-F2,1819,2018-07-27,Le Mans,Le Mans,53,53,False
 F2,1819,2018-07-27,Clermont,Chateauroux,53,53,False
+F2,1819,2018-07-27,Ajaccio,Paris FC,53,53,False
+F2,1819,2018-07-27,Annecy,Beziers,91,7,False
+F2,1819,2018-07-27,Valenciennes,Auxerre,53,53,False
+F2,1819,2018-07-27,Red Star,Niort,234,53,False
+F2,1819,2018-07-27,Le Mans,Le Mans,53,53,False
 F2,1819,2018-07-27,Grenoble,Sochaux,7,53,False
+F2,1819,2018-07-27,Ajaccio,Troyes,53,234,False
 F2,1819,2018-07-28,Lorient,Le Havre,54,86,False
 F2,1819,2018-07-30,Brest,Metz,56,7,False
 F2,1819,2018-08-03,Auxerre,Ajaccio,7,7,False
-F2,1819,2018-08-03,Le Havre,Grenoble,6,7,False
-F2,1819,2018-08-03,Troyes,Brest,7,4,False
-F2,1819,2018-08-03,Sochaux,Valenciennes,7,7,False
-F2,1819,2018-08-03,Paris FC,Annecy,7,98,False
-F2,1819,2018-08-03,Niort,Clermont,7,7,False
+F2,1819,2018-08-03,Paris FC,Annecy,7,7,False
 F2,1819,2018-08-03,Metz,Le Mans,4,7,False
-F2,1819,2018-08-04,Beziers,Ajaccio,7,1,False
+F2,1819,2018-08-03,Le Havre,Grenoble,6,7,False
+F2,1819,2018-08-03,Sochaux,Valenciennes,7,7,False
+F2,1819,2018-08-03,Troyes,Brest,7,4,False
+F2,1819,2018-08-03,Niort,Clermont,7,7,False
 F2,1819,2018-08-04,Le Mans,Red Star,1,8,False
+F2,1819,2018-08-04,Beziers,Ajaccio,8,1,False
 F2,1819,2018-08-06,Chateauroux,Lorient,10,9,False
-F2,1819,2018-08-10,Ajaccio,Sochaux,6,7,False
-F2,1819,2018-08-10,Valenciennes,Chateauroux,7,4,False
-F2,1819,2018-08-10,Troyes,Beziers,7,6,False
-F2,1819,2018-08-10,Red Star,Le Havre,6,7,False
-F2,1819,2018-08-10,Le Mans,Auxerre,6,7,False
-F2,1819,2018-08-10,Annecy,Le Mans,7,6,False
-F2,1819,2018-08-10,Grenoble,Niort,7,7,False
 F2,1819,2018-08-10,Brest,Paris FC,7,7,False
+F2,1819,2018-08-10,Grenoble,Niort,7,7,False
+F2,1819,2018-08-10,Annecy,Le Mans,7,6,False
+F2,1819,2018-08-10,Le Mans,Auxerre,6,7,False
+F2,1819,2018-08-10,Red Star,Le Havre,6,7,False
+F2,1819,2018-08-10,Troyes,Beziers,7,6,False
+F2,1819,2018-08-10,Ajaccio,Sochaux,6,7,False
 F2,1819,2018-08-10,Ajaccio,Lorient,6,4,False
+F2,1819,2018-08-10,Valenciennes,Chateauroux,7,4,False
 F2,1819,2018-08-11,Clermont,Metz,8,8,False
-F2,1819,2018-08-17,Paris FC,Beziers,7,7,False
+F2,1819,2018-08-17,Sochaux,Brest,7,7,False
+F2,1819,2018-08-17,Le Havre,Clermont,7,6,False
 F2,1819,2018-08-17,Niort,Le Mans,7,7,False
 F2,1819,2018-08-17,Lorient,Valenciennes,7,7,False
-F2,1819,2018-08-17,Sochaux,Brest,7,7,False
 F2,1819,2018-08-17,Chateauroux,Red Star,7,7,False
-F2,1819,2018-08-17,Auxerre,Annecy,7,7,False
 F2,1819,2018-08-17,Ajaccio,Grenoble,7,7,False
-F2,1819,2018-08-17,Le Havre,Clermont,7,6,False
+F2,1819,2018-08-17,Auxerre,Annecy,7,7,False
+F2,1819,2018-08-17,Paris FC,Beziers,7,7,False
 F2,1819,2018-08-18,Le Mans,Troyes,1,8,False
 F2,1819,2018-08-20,Metz,Ajaccio,9,3,False
-F2,1819,2018-08-24,Red Star,Auxerre,7,7,False
-F2,1819,2018-08-24,Ajaccio,Lorient,4,7,False
-F2,1819,2018-08-24,Troyes,Metz,6,4,False
-F2,1819,2018-08-24,Grenoble,Chateauroux,7,7,False
-F2,1819,2018-08-24,Clermont,Sochaux,7,7,False
-F2,1819,2018-08-24,Annecy,Niort,7,7,False
 F2,1819,2018-08-24,Brest,Le Havre,7,7,False
+F2,1819,2018-08-24,Annecy,Niort,7,7,False
 F2,1819,2018-08-24,Le Mans,Paris FC,6,7,False
+F2,1819,2018-08-24,Grenoble,Chateauroux,7,7,False
+F2,1819,2018-08-24,Red Star,Auxerre,7,7,False
+F2,1819,2018-08-24,Troyes,Metz,6,4,False
+F2,1819,2018-08-24,Ajaccio,Lorient,4,7,False
+F2,1819,2018-08-24,Clermont,Sochaux,7,7,False
 F2,1819,2018-08-27,Valenciennes,Ajaccio,10,3,False
 F2,1819,2018-08-31,Chateauroux,Annecy,7,7,False
-F2,1819,2018-08-31,Ajaccio,Red Star,4,7,False
-F2,1819,2018-08-31,Auxerre,Brest,7,7,False
 F2,1819,2018-08-31,Le Havre,Le Mans,7,7,False
-F2,1819,2018-08-31,Niort,Ajaccio,7,4,False
-F2,1819,2018-08-31,Paris FC,Troyes,7,7,False
-F2,1819,2018-08-31,Sochaux,Beziers,7,14,False
+F2,1819,2018-08-31,Ajaccio,Red Star,4,7,False
 F2,1819,2018-08-31,Valenciennes,Clermont,4,7,False
+F2,1819,2018-08-31,Sochaux,Beziers,7,14,False
+F2,1819,2018-08-31,Paris FC,Troyes,7,7,False
+F2,1819,2018-08-31,Niort,Ajaccio,7,4,False
+F2,1819,2018-08-31,Auxerre,Brest,7,7,False
 F2,1819,2018-09-01,Metz,Le Mans,8,1,False
 F2,1819,2018-09-03,Lorient,Grenoble,1,10,False
-F2,1819,2018-09-14,Brest,Ajaccio,11,11,False
-F2,1819,2018-09-14,Ajaccio,Paris FC,11,12,False
-F2,1819,2018-09-14,Grenoble,Valenciennes,11,14,False
-F2,1819,2018-09-14,Clermont,Auxerre,11,11,False
+F2,1819,2018-09-14,Annecy,Le Havre,10,11,False
 F2,1819,2018-09-14,Troyes,Niort,14,11,False
 F2,1819,2018-09-14,Red Star,Lorient,14,11,False
 F2,1819,2018-09-14,Le Mans,Chateauroux,10,11,False
-F2,1819,2018-09-14,Annecy,Le Havre,10,11,False
+F2,1819,2018-09-14,Grenoble,Valenciennes,11,14,False
+F2,1819,2018-09-14,Ajaccio,Paris FC,11,12,False
+F2,1819,2018-09-14,Clermont,Auxerre,11,11,False
+F2,1819,2018-09-14,Brest,Ajaccio,11,11,False
 F2,1819,2018-09-15,Le Mans,Sochaux,1,13,False
 F2,1819,2018-09-17,Beziers,Metz,17,16,False
-F2,1819,2018-09-21,Grenoble,Brest,7,7,False
 F2,1819,2018-09-21,Chateauroux,Beziers,7,4,False
+F2,1819,2018-09-21,Lorient,Clermont,7,7,False
+F2,1819,2018-09-21,Sochaux,Le Mans,6,6,False
+F2,1819,2018-09-21,Grenoble,Brest,7,7,False
 F2,1819,2018-09-21,Auxerre,Ajaccio,7,7,False
 F2,1819,2018-09-21,Ajaccio,Annecy,7,7,False
-F2,1819,2018-09-21,Sochaux,Le Mans,6,6,False
-F2,1819,2018-09-21,Le Havre,Troyes,7,7,False
 F2,1819,2018-09-21,Valenciennes,Red Star,7,7,False
-F2,1819,2018-09-21,Lorient,Clermont,7,7,False
+F2,1819,2018-09-21,Le Havre,Troyes,7,7,False
 F2,1819,2018-09-22,Paris FC,Metz,8,5,False
 F2,1819,2018-09-24,Niort,Le Mans,10,3,False
-F2,1819,2018-09-28,Annecy,Sochaux,7,7,False
-F2,1819,2018-09-28,Le Mans,Paris FC,4,6,False
-F2,1819,2018-09-28,Clermont,Ajaccio,7,7,False
-F2,1819,2018-09-28,Brest,Chateauroux,7,7,False
-F2,1819,2018-09-28,Beziers,Niort,7,4,False
-F2,1819,2018-09-28,Ajaccio,Valenciennes,7,7,False
-F2,1819,2018-09-28,Le Mans,Lorient,4,7,False
 F2,1819,2018-09-28,Red Star,Grenoble,7,7,False
+F2,1819,2018-09-28,Annecy,Sochaux,7,7,False
+F2,1819,2018-09-28,Ajaccio,Valenciennes,7,7,False
+F2,1819,2018-09-28,Beziers,Niort,7,4,False
+F2,1819,2018-09-28,Brest,Chateauroux,7,7,False
+F2,1819,2018-09-28,Le Mans,Lorient,4,7,False
+F2,1819,2018-09-28,Clermont,Ajaccio,7,7,False
+F2,1819,2018-09-28,Le Mans,Paris FC,4,6,False
 F2,1819,2018-09-29,Metz,Le Havre,7,8,False
 F2,1819,2018-10-01,Troyes,Auxerre,10,10,False
 F2,1819,2018-10-02,Beziers,Le Mans,4,4,True
-F2,1819,2018-10-05,Lorient,Annecy,7,7,False
+F2,1819,2018-10-05,Le Havre,Beziers,6,3,False
 F2,1819,2018-10-05,Ajaccio,Le Mans,7,3,False
 F2,1819,2018-10-05,Chateauroux,Troyes,7,4,False
 F2,1819,2018-10-05,Grenoble,Clermont,7,7,False
-F2,1819,2018-10-05,Le Havre,Beziers,6,3,False
 F2,1819,2018-10-05,Niort,Paris FC,7,2,False
 F2,1819,2018-10-05,Red Star,Ajaccio,7,7,False
 F2,1819,2018-10-05,Valenciennes,Brest,3,7,False
+F2,1819,2018-10-05,Lorient,Annecy,7,7,False
 F2,1819,2018-10-06,Auxerre,Le Mans,5,1,False
 F2,1819,2018-10-08,Sochaux,Metz,5,9,False
 F2,1819,2018-10-19,Ajaccio,Le Havre,14,14,False
+F2,1819,2018-10-19,Troyes,Sochaux,14,11,False
 F2,1819,2018-10-19,Auxerre,Beziers,13,14,False
+F2,1819,2018-10-19,Paris FC,Chateauroux,14,14,False
 F2,1819,2018-10-19,Clermont,Red Star,14,14,False
 F2,1819,2018-10-19,Metz,Niort,11,14,False
 F2,1819,2018-10-19,Annecy,Grenoble,14,14,False
 F2,1819,2018-10-19,Le Mans,Valenciennes,13,14,False
-F2,1819,2018-10-19,Paris FC,Chateauroux,14,14,False
-F2,1819,2018-10-19,Troyes,Sochaux,14,11,False
 F2,1819,2018-10-20,Brest,Lorient,15,15,False
 F2,1819,2018-10-22,Le Mans,Ajaccio,3,3,False
-F2,1819,2018-10-26,Ajaccio,Beziers,4,7,False
+F2,1819,2018-10-26,Valenciennes,Annecy,7,7,False
 F2,1819,2018-10-26,Auxerre,Paris FC,7,7,False
 F2,1819,2018-10-26,Chateauroux,Ajaccio,7,4,False
 F2,1819,2018-10-26,Grenoble,Troyes,7,7,False
 F2,1819,2018-10-26,Lorient,Metz,6,7,False
 F2,1819,2018-10-26,Red Star,Le Mans,7,4,False
 F2,1819,2018-10-26,Sochaux,Niort,7,7,False
-F2,1819,2018-10-26,Valenciennes,Annecy,7,7,False
+F2,1819,2018-10-26,Ajaccio,Beziers,4,7,False
 F2,1819,2018-10-27,Le Havre,Le Mans,8,1,False
 F2,1819,2018-10-29,Clermont,Brest,10,9,False
 F2,1819,2018-11-02,Ajaccio,Ajaccio,7,7,False
-F2,1819,2018-11-02,Brest,Red Star,4,7,False
 F2,1819,2018-11-02,Annecy,Clermont,7,4,False
 F2,1819,2018-11-02,Paris FC,Sochaux,7,7,False
+F2,1819,2018-11-02,Brest,Red Star,4,7,False
+F2,1819,2018-11-03,Le Mans,Grenoble,7,8,False
 F2,1819,2018-11-03,Beziers,Lorient,8,8,False
 F2,1819,2018-11-03,Le Mans,Chateauroux,7,8,False
 F2,1819,2018-11-03,Niort,Le Havre,8,7,False
-F2,1819,2018-11-03,Le Mans,Grenoble,7,8,False
 F2,1819,2018-11-03,Troyes,Valenciennes,8,8,False
 F2,1819,2018-11-05,Metz,Auxerre,10,10,False
-F2,1819,2018-11-09,Ajaccio,Troyes,4,6,False
-F2,1819,2018-11-09,Auxerre,Niort,4,4,False
-F2,1819,2018-11-09,Chateauroux,Metz,4,4,False
 F2,1819,2018-11-09,Clermont,Le Mans,4,4,False
-F2,1819,2018-11-09,Grenoble,Ajaccio,6,4,False
-F2,1819,2018-11-09,Le Havre,Sochaux,4,4,False
-F2,1819,2018-11-09,Lorient,Paris FC,4,4,False
+F2,1819,2018-11-09,Auxerre,Niort,4,4,False
 F2,1819,2018-11-09,Red Star,Beziers,7,6,False
+F2,1819,2018-11-09,Lorient,Paris FC,4,4,False
+F2,1819,2018-11-09,Le Havre,Sochaux,4,4,False
+F2,1819,2018-11-09,Ajaccio,Troyes,4,6,False
+F2,1819,2018-11-09,Chateauroux,Metz,4,4,False
+F2,1819,2018-11-09,Grenoble,Ajaccio,6,4,False
 F2,1819,2018-11-10,Valenciennes,Le Mans,5,1,False
 F2,1819,2018-11-12,Brest,Annecy,7,7,False
-F2,1819,2018-11-23,Ajaccio,Clermont,14,14,False
-F2,1819,2018-11-23,Beziers,Valenciennes,14,13,False
-F2,1819,2018-11-23,Annecy,Red Star,11,14,False
 F2,1819,2018-11-23,Niort,Chateauroux,14,14,False
-F2,1819,2018-11-23,Le Mans,Brest,13,11,False
-F2,1819,2018-11-23,Paris FC,Le Havre,14,14,False
-F2,1819,2018-11-23,Sochaux,Auxerre,14,14,False
+F2,1819,2018-11-23,Annecy,Red Star,11,14,False
 F2,1819,2018-11-23,Troyes,Lorient,14,14,False
+F2,1819,2018-11-23,Ajaccio,Clermont,14,14,False
+F2,1819,2018-11-23,Paris FC,Le Havre,14,14,False
+F2,1819,2018-11-23,Beziers,Valenciennes,14,13,False
+F2,1819,2018-11-23,Le Mans,Brest,13,11,False
+F2,1819,2018-11-23,Sochaux,Auxerre,14,14,False
 F2,1819,2018-11-24,Le Mans,Grenoble,1,15,False
 F2,1819,2018-11-26,Metz,Ajaccio,17,3,False
-F2,1819,2018-11-30,Ajaccio,Niort,4,7,False
-F2,1819,2018-11-30,Brest,Ajaccio,7,4,False
+F2,1819,2018-11-30,Le Mans,Annecy,6,7,False
 F2,1819,2018-11-30,Chateauroux,Sochaux,7,7,False
 F2,1819,2018-11-30,Clermont,Beziers,7,7,False
-F2,1819,2018-11-30,Le Havre,Auxerre,7,7,False
-F2,1819,2018-11-30,Lorient,Le Mans,7,6,False
-F2,1819,2018-11-30,Le Mans,Annecy,6,7,False
 F2,1819,2018-11-30,Red Star,Troyes,7,7,False
 F2,1819,2018-11-30,Valenciennes,Paris FC,7,7,False
+F2,1819,2018-11-30,Brest,Ajaccio,7,4,False
+F2,1819,2018-11-30,Lorient,Le Mans,7,6,False
+F2,1819,2018-11-30,Le Havre,Auxerre,7,7,False
+F2,1819,2018-11-30,Ajaccio,Niort,4,7,False
 F2,1819,2018-12-01,Grenoble,Metz,7,5,False
 F2,1819,2018-12-03,Auxerre,Lorient,1,3,False
-F2,1819,2018-12-04,Ajaccio,Annecy,3,3,True
-F2,1819,2018-12-04,Beziers,Grenoble,4,3,True
-F2,1819,2018-12-04,Le Havre,Chateauroux,3,3,True
-F2,1819,2018-12-04,Le Mans,Brest,1,3,True
-F2,1819,2018-12-04,Metz,Red Star,3,4,True
-F2,1819,2018-12-04,Niort,Valenciennes,3,3,True
 F2,1819,2018-12-04,Paris FC,Clermont,3,3,True
+F2,1819,2018-12-04,Beziers,Grenoble,4,3,True
+F2,1819,2018-12-04,Niort,Valenciennes,3,3,True
+F2,1819,2018-12-04,Metz,Red Star,3,4,True
 F2,1819,2018-12-04,Sochaux,Ajaccio,3,3,True
 F2,1819,2018-12-04,Troyes,Le Mans,4,1,True
+F2,1819,2018-12-04,Le Mans,Brest,1,3,True
+F2,1819,2018-12-04,Le Havre,Chateauroux,3,3,True
+F2,1819,2018-12-04,Ajaccio,Annecy,3,3,True
 F2,1819,2018-12-14,Ajaccio,Le Havre,10,10,False
+F2,1819,2018-12-14,Le Mans,Ajaccio,10,10,False
+F2,1819,2018-12-14,Annecy,Troyes,10,10,False
 F2,1819,2018-12-14,Brest,Beziers,10,10,False
 F2,1819,2018-12-14,Chateauroux,Auxerre,10,11,False
 F2,1819,2018-12-14,Grenoble,Paris FC,10,10,False
-F2,1819,2018-12-14,Lorient,Niort,11,10,False
-F2,1819,2018-12-14,Annecy,Troyes,10,10,False
-F2,1819,2018-12-14,Le Mans,Ajaccio,10,10,False
 F2,1819,2018-12-14,Red Star,Sochaux,10,10,False
+F2,1819,2018-12-14,Lorient,Niort,11,10,False
 F2,1819,2018-12-15,Clermont,Le Mans,11,1,False
 F2,1819,2018-12-17,Valenciennes,Metz,13,13,False
-F2,1819,2018-12-21,Auxerre,Grenoble,7,7,False
-F2,1819,2018-12-21,Beziers,Le Mans,7,6,False
 F2,1819,2018-12-21,Chateauroux,Ajaccio,7,7,False
-F2,1819,2018-12-21,Niort,Brest,7,7,False
 F2,1819,2018-12-21,Paris FC,Red Star,7,7,False
+F2,1819,2018-12-21,Niort,Brest,7,7,False
+F2,1819,2018-12-21,Beziers,Le Mans,7,6,False
+F2,1819,2018-12-21,Auxerre,Grenoble,7,7,False
 F2,1819,2018-12-21,Troyes,Clermont,7,6,False
 F2,1819,2018-12-22,Le Mans,Ajaccio,1,1,False
 F2,1819,2018-12-22,Sochaux,Lorient,8,8,False
-F2,1819,2019-01-11,Clermont,Niort,21,21,False
-F2,1819,2019-01-11,Ajaccio,Beziers,20,21,False
 F2,1819,2019-01-11,Ajaccio,Auxerre,20,21,False
-F2,1819,2019-01-11,Lorient,Chateauroux,20,21,False
-F2,1819,2019-01-11,Annecy,Paris FC,28,21,False
 F2,1819,2019-01-11,Le Mans,Metz,20,25,False
 F2,1819,2019-01-11,Valenciennes,Sochaux,25,20,False
-F2,1819,2019-01-12,Brest,Troyes,22,22,False
+F2,1819,2019-01-11,Annecy,Paris FC,28,21,False
+F2,1819,2019-01-11,Lorient,Chateauroux,20,21,False
+F2,1819,2019-01-11,Clermont,Niort,21,21,False
+F2,1819,2019-01-11,Ajaccio,Beziers,20,21,False
 F2,1819,2019-01-12,Grenoble,Le Havre,22,29,False
+F2,1819,2019-01-12,Brest,Troyes,22,22,False
 F2,1819,2019-01-14,Red Star,Le Mans,24,3,False
 F2,1819,2019-01-15,Le Havre,Valenciennes,3,4,True
-F2,1819,2019-01-18,Auxerre,Le Mans,7,4,False
-F2,1819,2019-01-18,Beziers,Troyes,7,6,False
-F2,1819,2019-01-18,Chateauroux,Valenciennes,7,3,False
-F2,1819,2019-01-18,Lorient,Ajaccio,7,7,False
-F2,1819,2019-01-18,Metz,Clermont,7,7,False
 F2,1819,2019-01-18,Sochaux,Ajaccio,7,7,False
-F2,1819,2019-01-19,Le Mans,Annecy,1,8,False
+F2,1819,2019-01-18,Lorient,Ajaccio,7,7,False
+F2,1819,2019-01-18,Beziers,Troyes,7,6,False
+F2,1819,2019-01-18,Auxerre,Le Mans,7,4,False
+F2,1819,2019-01-18,Metz,Clermont,7,7,False
+F2,1819,2019-01-18,Chateauroux,Valenciennes,7,3,False
 F2,1819,2019-01-19,Niort,Grenoble,8,7,False
-F2,1819,2019-01-21,Le Havre,Red Star,6,7,False
+F2,1819,2019-01-19,Le Mans,Annecy,1,8,False
 F2,1819,2019-01-21,Paris FC,Brest,10,9,False
-F2,1819,2019-01-25,Ajaccio,Metz,7,7,False
+F2,1819,2019-01-21,Le Havre,Red Star,6,7,False
 F2,1819,2019-01-25,Grenoble,Ajaccio,6,7,False
-F2,1819,2019-01-25,Annecy,Auxerre,6,7,False
-F2,1819,2019-01-25,Red Star,Chateauroux,4,7,False
 F2,1819,2019-01-25,Valenciennes,Lorient,7,7,False
+F2,1819,2019-01-25,Annecy,Auxerre,6,7,False
+F2,1819,2019-01-25,Ajaccio,Metz,7,7,False
+F2,1819,2019-01-25,Red Star,Chateauroux,4,7,False
 F2,1819,2019-01-26,Brest,Sochaux,5,8,False
 F2,1819,2019-01-26,Le Mans,Niort,7,7,False
+F2,1819,2019-01-28,Troyes,Le Mans,10,2,False
 F2,1819,2019-01-28,Beziers,Paris FC,10,7,False
 F2,1819,2019-01-28,Clermont,Le Havre,10,7,False
-F2,1819,2019-01-28,Troyes,Le Mans,10,2,False
 F2,1819,2019-01-29,Metz,Annecy,4,4,True
-F2,1819,2019-02-01,Auxerre,Red Star,7,7,False
-F2,1819,2019-02-01,Chateauroux,Grenoble,7,7,False
-F2,1819,2019-02-01,Le Havre,Brest,4,6,False
-F2,1819,2019-02-01,Lorient,Ajaccio,7,7,False
-F2,1819,2019-02-01,Metz,Troyes,3,4,False
-F2,1819,2019-02-01,Niort,Annecy,6,3,False
-F2,1819,2019-02-01,Paris FC,Le Mans,4,4,False
 F2,1819,2019-02-01,Sochaux,Clermont,6,4,False
+F2,1819,2019-02-01,Metz,Troyes,3,4,False
+F2,1819,2019-02-01,Le Havre,Brest,4,6,False
+F2,1819,2019-02-01,Chateauroux,Grenoble,7,7,False
+F2,1819,2019-02-01,Auxerre,Red Star,7,7,False
+F2,1819,2019-02-01,Lorient,Ajaccio,7,7,False
+F2,1819,2019-02-01,Paris FC,Le Mans,4,4,False
+F2,1819,2019-02-01,Niort,Annecy,6,3,False
 F2,1819,2019-02-04,Ajaccio,Valenciennes,3,10,False
 F2,1819,2019-02-04,Le Mans,Beziers,3,7,False
 F2,1819,2019-02-08,Ajaccio,Niort,4,7,False
@@ -233,148 +234,148 @@ F2,1819,2019-02-08,Beziers,Sochaux,4,7,False
 F2,1819,2019-02-08,Clermont,Valenciennes,7,4,False
 F2,1819,2019-02-08,Grenoble,Lorient,7,7,False
 F2,1819,2019-02-08,Annecy,Chateauroux,7,7,False
+F2,1819,2019-02-08,Troyes,Paris FC,7,7,False
 F2,1819,2019-02-08,Le Mans,Le Havre,4,7,False
 F2,1819,2019-02-08,Red Star,Ajaccio,7,4,False
-F2,1819,2019-02-08,Troyes,Paris FC,7,7,False
 F2,1819,2019-02-09,Le Mans,Metz,1,8,False
 F2,1819,2019-02-11,Brest,Auxerre,10,10,False
-F2,1819,2019-02-15,Ajaccio,Brest,7,4,False
 F2,1819,2019-02-15,Auxerre,Clermont,4,7,False
-F2,1819,2019-02-15,Chateauroux,Le Mans,7,6,False
+F2,1819,2019-02-15,Paris FC,Ajaccio,7,7,False
 F2,1819,2019-02-15,Le Havre,Annecy,7,7,False
+F2,1819,2019-02-15,Valenciennes,Grenoble,7,7,False
+F2,1819,2019-02-15,Ajaccio,Brest,7,4,False
+F2,1819,2019-02-15,Chateauroux,Le Mans,7,6,False
 F2,1819,2019-02-15,Lorient,Red Star,7,7,False
 F2,1819,2019-02-15,Niort,Troyes,7,7,False
-F2,1819,2019-02-15,Paris FC,Ajaccio,7,7,False
-F2,1819,2019-02-15,Valenciennes,Grenoble,7,7,False
 F2,1819,2019-02-17,Sochaux,Le Mans,9,2,False
 F2,1819,2019-02-18,Metz,Beziers,9,10,False
-F2,1819,2019-02-22,Ajaccio,Auxerre,7,7,False
 F2,1819,2019-02-22,Beziers,Chateauroux,4,7,False
+F2,1819,2019-02-22,Ajaccio,Auxerre,7,7,False
 F2,1819,2019-02-22,Brest,Grenoble,7,7,False
-F2,1819,2019-02-22,Clermont,Lorient,7,7,False
-F2,1819,2019-02-22,Metz,Paris FC,4,7,False
 F2,1819,2019-02-22,Annecy,Ajaccio,7,7,False
-F2,1819,2019-02-22,Le Mans,Sochaux,5,5,False
-F2,1819,2019-02-22,Red Star,Valenciennes,7,7,False
 F2,1819,2019-02-22,Troyes,Le Havre,7,7,False
+F2,1819,2019-02-22,Red Star,Valenciennes,7,7,False
+F2,1819,2019-02-22,Le Mans,Sochaux,5,5,False
+F2,1819,2019-02-22,Metz,Paris FC,4,7,False
+F2,1819,2019-02-22,Clermont,Lorient,7,7,False
 F2,1819,2019-02-25,Le Mans,Niort,3,10,False
-F2,1819,2019-03-01,Ajaccio,Clermont,7,7,False
-F2,1819,2019-03-01,Auxerre,Troyes,7,7,False
 F2,1819,2019-03-01,Chateauroux,Brest,7,7,False
-F2,1819,2019-03-01,Grenoble,Red Star,7,7,False
 F2,1819,2019-03-01,Niort,Beziers,4,7,False
-F2,1819,2019-03-01,Sochaux,Annecy,7,7,False
+F2,1819,2019-03-01,Ajaccio,Clermont,7,7,False
 F2,1819,2019-03-01,Valenciennes,Ajaccio,7,7,False
+F2,1819,2019-03-01,Auxerre,Troyes,7,7,False
+F2,1819,2019-03-01,Grenoble,Red Star,7,7,False
+F2,1819,2019-03-01,Sochaux,Annecy,7,7,False
 F2,1819,2019-03-02,Lorient,Le Mans,8,5,False
 F2,1819,2019-03-03,Paris FC,Le Mans,9,1,False
 F2,1819,2019-03-04,Le Havre,Metz,10,10,False
-F2,1819,2019-03-08,Ajaccio,Red Star,7,7,False
+F2,1819,2019-03-08,Troyes,Chateauroux,7,7,False
+F2,1819,2019-03-08,Paris FC,Niort,5,7,False
 F2,1819,2019-03-08,Beziers,Le Havre,7,4,False
 F2,1819,2019-03-08,Brest,Valenciennes,7,7,False
+F2,1819,2019-03-08,Ajaccio,Red Star,7,7,False
 F2,1819,2019-03-08,Clermont,Grenoble,7,7,False
 F2,1819,2019-03-08,Annecy,Lorient,7,6,False
 F2,1819,2019-03-08,Le Mans,Ajaccio,5,7,False
-F2,1819,2019-03-08,Paris FC,Niort,5,7,False
-F2,1819,2019-03-08,Troyes,Chateauroux,7,7,False
 F2,1819,2019-03-09,Le Mans,Auxerre,1,8,False
 F2,1819,2019-03-11,Metz,Sochaux,7,10,False
-F2,1819,2019-03-15,Beziers,Auxerre,7,6,False
 F2,1819,2019-03-15,Chateauroux,Paris FC,7,7,False
+F2,1819,2019-03-15,Sochaux,Troyes,4,7,False
+F2,1819,2019-03-15,Niort,Metz,7,4,False
 F2,1819,2019-03-15,Grenoble,Annecy,7,7,False
 F2,1819,2019-03-15,Le Havre,Ajaccio,7,7,False
-F2,1819,2019-03-15,Niort,Metz,7,4,False
 F2,1819,2019-03-15,Red Star,Clermont,7,7,False
-F2,1819,2019-03-15,Sochaux,Troyes,4,7,False
+F2,1819,2019-03-15,Beziers,Auxerre,7,6,False
 F2,1819,2019-03-15,Valenciennes,Le Mans,7,6,False
 F2,1819,2019-03-16,Lorient,Brest,8,8,False
 F2,1819,2019-03-18,Ajaccio,Le Mans,3,3,False
-F2,1819,2019-03-29,Ajaccio,Chateauroux,11,14,False
-F2,1819,2019-03-29,Beziers,Ajaccio,14,11,False
-F2,1819,2019-03-29,Brest,Clermont,13,14,False
-F2,1819,2019-03-29,Annecy,Valenciennes,14,14,False
 F2,1819,2019-03-29,Niort,Sochaux,14,14,False
-F2,1819,2019-03-29,Le Mans,Red Star,11,14,False
-F2,1819,2019-03-29,Paris FC,Auxerre,14,14,False
 F2,1819,2019-03-29,Troyes,Grenoble,14,14,False
+F2,1819,2019-03-29,Le Mans,Red Star,11,14,False
+F2,1819,2019-03-29,Ajaccio,Chateauroux,11,14,False
+F2,1819,2019-03-29,Paris FC,Auxerre,14,14,False
+F2,1819,2019-03-29,Annecy,Valenciennes,14,14,False
+F2,1819,2019-03-29,Brest,Clermont,13,14,False
+F2,1819,2019-03-29,Beziers,Ajaccio,14,11,False
 F2,1819,2019-03-31,Metz,Lorient,16,15,False
 F2,1819,2019-04-01,Le Mans,Le Havre,3,17,False
-F2,1819,2019-04-05,Ajaccio,Ajaccio,7,7,False
 F2,1819,2019-04-05,Clermont,Annecy,7,7,False
-F2,1819,2019-04-05,Grenoble,Le Mans,7,4,False
-F2,1819,2019-04-05,Le Havre,Niort,4,7,False
-F2,1819,2019-04-05,Lorient,Beziers,5,7,False
 F2,1819,2019-04-05,Red Star,Brest,7,7,False
 F2,1819,2019-04-05,Sochaux,Paris FC,7,7,False
 F2,1819,2019-04-05,Valenciennes,Troyes,7,7,False
+F2,1819,2019-04-05,Le Havre,Niort,4,7,False
+F2,1819,2019-04-05,Lorient,Beziers,5,7,False
+F2,1819,2019-04-05,Ajaccio,Ajaccio,7,7,False
+F2,1819,2019-04-05,Grenoble,Le Mans,7,4,False
 F2,1819,2019-04-06,Auxerre,Metz,8,6,False
 F2,1819,2019-04-08,Chateauroux,Le Mans,10,3,False
+F2,1819,2019-04-12,Sochaux,Le Havre,7,7,False
+F2,1819,2019-04-12,Le Mans,Valenciennes,4,7,False
+F2,1819,2019-04-12,Niort,Auxerre,7,6,False
+F2,1819,2019-04-12,Troyes,Ajaccio,7,7,False
 F2,1819,2019-04-12,Ajaccio,Grenoble,7,7,False
 F2,1819,2019-04-12,Beziers,Red Star,7,7,False
-F2,1819,2019-04-12,Le Mans,Valenciennes,4,7,False
 F2,1819,2019-04-12,Metz,Chateauroux,6,4,False
 F2,1819,2019-04-12,Annecy,Brest,7,7,False
-F2,1819,2019-04-12,Niort,Auxerre,7,6,False
 F2,1819,2019-04-12,Le Mans,Clermont,4,7,False
-F2,1819,2019-04-12,Sochaux,Le Havre,7,7,False
-F2,1819,2019-04-12,Troyes,Ajaccio,7,7,False
 F2,1819,2019-04-15,Paris FC,Lorient,10,10,False
-F2,1819,2019-04-19,Ajaccio,Metz,7,7,False
-F2,1819,2019-04-19,Auxerre,Sochaux,7,7,False
-F2,1819,2019-04-19,Brest,Le Mans,7,7,False
-F2,1819,2019-04-19,Chateauroux,Niort,7,7,False
-F2,1819,2019-04-19,Clermont,Ajaccio,7,7,False
-F2,1819,2019-04-19,Le Havre,Paris FC,7,4,False
-F2,1819,2019-04-19,Lorient,Troyes,4,7,False
 F2,1819,2019-04-19,Red Star,Annecy,7,7,False
 F2,1819,2019-04-19,Valenciennes,Beziers,7,7,False
+F2,1819,2019-04-19,Lorient,Troyes,4,7,False
+F2,1819,2019-04-19,Clermont,Ajaccio,7,7,False
+F2,1819,2019-04-19,Auxerre,Sochaux,7,7,False
+F2,1819,2019-04-19,Ajaccio,Metz,7,7,False
+F2,1819,2019-04-19,Chateauroux,Niort,7,7,False
+F2,1819,2019-04-19,Brest,Le Mans,7,7,False
+F2,1819,2019-04-19,Le Havre,Paris FC,7,4,False
 F2,1819,2019-04-20,Grenoble,Le Mans,8,1,False
 F2,1819,2019-04-22,Paris FC,Valenciennes,3,3,False
-F2,1819,2019-04-23,Ajaccio,Brest,4,4,True
-F2,1819,2019-04-23,Auxerre,Le Havre,4,4,True
-F2,1819,2019-04-23,Beziers,Clermont,4,4,True
-F2,1819,2019-04-23,Le Mans,Lorient,3,4,True
-F2,1819,2019-04-23,Metz,Grenoble,4,3,True
-F2,1819,2019-04-23,Annecy,Le Mans,4,3,True
 F2,1819,2019-04-23,Niort,Ajaccio,4,4,True
-F2,1819,2019-04-23,Sochaux,Chateauroux,4,4,True
 F2,1819,2019-04-23,Troyes,Red Star,4,4,True
-F2,1819,2019-04-26,Ajaccio,Sochaux,3,3,False
-F2,1819,2019-04-26,Chateauroux,Le Havre,3,3,False
+F2,1819,2019-04-23,Sochaux,Chateauroux,4,4,True
+F2,1819,2019-04-23,Annecy,Le Mans,4,3,True
+F2,1819,2019-04-23,Le Mans,Lorient,3,4,True
+F2,1819,2019-04-23,Auxerre,Le Havre,4,4,True
+F2,1819,2019-04-23,Ajaccio,Brest,4,4,True
+F2,1819,2019-04-23,Beziers,Clermont,4,4,True
+F2,1819,2019-04-23,Metz,Grenoble,4,3,True
 F2,1819,2019-04-26,Clermont,Paris FC,3,4,False
 F2,1819,2019-04-26,Grenoble,Beziers,3,3,False
-F2,1819,2019-04-26,Annecy,Ajaccio,3,3,False
+F2,1819,2019-04-26,Ajaccio,Sochaux,3,3,False
 F2,1819,2019-04-26,Le Mans,Troyes,3,3,False
-F2,1819,2019-04-26,Red Star,Metz,3,3,False
+F2,1819,2019-04-26,Annecy,Ajaccio,3,3,False
+F2,1819,2019-04-26,Chateauroux,Le Havre,3,3,False
 F2,1819,2019-04-26,Valenciennes,Niort,4,3,False
+F2,1819,2019-04-26,Red Star,Metz,3,3,False
 F2,1819,2019-04-27,Brest,Le Mans,4,1,False
 F2,1819,2019-04-29,Lorient,Auxerre,6,6,False
-F2,1819,2019-05-03,Ajaccio,Le Mans,7,6,False
-F2,1819,2019-05-03,Auxerre,Chateauroux,4,7,False
-F2,1819,2019-05-03,Beziers,Brest,7,6,False
-F2,1819,2019-05-03,Le Havre,Ajaccio,7,7,False
-F2,1819,2019-05-03,Metz,Valenciennes,7,7,False
-F2,1819,2019-05-03,Paris FC,Grenoble,7,7,False
 F2,1819,2019-05-03,Sochaux,Red Star,7,7,False
 F2,1819,2019-05-03,Troyes,Annecy,7,7,False
+F2,1819,2019-05-03,Beziers,Brest,7,6,False
+F2,1819,2019-05-03,Metz,Valenciennes,7,7,False
+F2,1819,2019-05-03,Paris FC,Grenoble,7,7,False
+F2,1819,2019-05-03,Ajaccio,Le Mans,7,6,False
+F2,1819,2019-05-03,Auxerre,Chateauroux,4,7,False
+F2,1819,2019-05-03,Le Havre,Ajaccio,7,7,False
 F2,1819,2019-05-04,Le Mans,Clermont,1,8,False
 F2,1819,2019-05-06,Niort,Lorient,10,7,False
-F2,1819,2019-05-10,Ajaccio,Le Mans,7,6,False
-F2,1819,2019-05-10,Ajaccio,Chateauroux,7,7,False
-F2,1819,2019-05-10,Brest,Niort,7,4,False
-F2,1819,2019-05-10,Clermont,Troyes,6,7,False
 F2,1819,2019-05-10,Grenoble,Auxerre,7,7,False
-F2,1819,2019-05-10,Lorient,Sochaux,4,7,False
-F2,1819,2019-05-10,Annecy,Metz,7,7,False
+F2,1819,2019-05-10,Brest,Niort,7,4,False
+F2,1819,2019-05-10,Ajaccio,Le Mans,7,6,False
+F2,1819,2019-05-10,Clermont,Troyes,6,7,False
+F2,1819,2019-05-10,Ajaccio,Chateauroux,7,7,False
 F2,1819,2019-05-10,Le Mans,Beziers,6,7,False
 F2,1819,2019-05-10,Red Star,Paris FC,7,7,False
+F2,1819,2019-05-10,Annecy,Metz,7,7,False
 F2,1819,2019-05-10,Valenciennes,Le Havre,7,7,False
-F2,1819,2019-05-17,Auxerre,Valenciennes,7,7,False
+F2,1819,2019-05-10,Lorient,Sochaux,4,7,False
+F2,1819,2019-05-17,Le Mans,Le Mans,7,7,False
 F2,1819,2019-05-17,Beziers,Annecy,7,7,False
+F2,1819,2019-05-17,Metz,Brest,7,7,False
+F2,1819,2019-05-17,Troyes,Ajaccio,7,7,False
+F2,1819,2019-05-17,Paris FC,Ajaccio,7,7,False
+F2,1819,2019-05-17,Niort,Red Star,7,7,False
+F2,1819,2019-05-17,Auxerre,Valenciennes,7,7,False
 F2,1819,2019-05-17,Chateauroux,Clermont,7,7,False
 F2,1819,2019-05-17,Le Havre,Lorient,7,7,False
-F2,1819,2019-05-17,Le Mans,Le Mans,7,7,False
-F2,1819,2019-05-17,Metz,Brest,7,7,False
-F2,1819,2019-05-17,Niort,Red Star,7,7,False
-F2,1819,2019-05-17,Paris FC,Ajaccio,7,7,False
 F2,1819,2019-05-17,Sochaux,Grenoble,7,7,False
-F2,1819,2019-05-17,Troyes,Ajaccio,7,7,False

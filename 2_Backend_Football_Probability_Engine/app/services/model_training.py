@@ -9,7 +9,11 @@ import math
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple, Any
 from sqlalchemy.orm import Session
-from app.db.models import Model, ModelStatus, TrainingRun, Match, League, Team
+from app.db.models import (
+    Model, ModelStatus, TrainingRun, Match, League, Team, 
+    ValidationResult, JackpotFixture, SavedProbabilityResult, 
+    Jackpot as JackpotModel, Prediction, CalibrationData, MatchResult, PredictionSet
+)
 from app.db.session import SessionLocal
 import uuid
 import numpy as np
@@ -1422,6 +1426,464 @@ class ModelTrainingService:
             training_run.error_message = str(e)
             training_run.completed_at = datetime.utcnow()
             self.db.commit()
+            if task_id:
+                self._update_task_status(task_id, "failed", 0, "", error=str(e))
+            raise
+    
+    async def train_calibration_from_validation(
+        self,
+        base_model_id: Optional[int] = None,
+        validation_result_ids: Optional[List[int]] = None,
+        use_all_validation: bool = False,
+        min_validation_matches: int = 50,
+        task_id: Optional[str] = None
+    ) -> Dict:
+        """
+        Train calibration model using ValidationResult data.
+        
+        This creates a feedback loop: validation results → model improvement → better predictions.
+        Uses actual prediction performance from validation exports instead of just historical match data.
+        
+        Args:
+            base_model_id: ID of base model to calibrate (Poisson or Blending)
+            validation_result_ids: List of ValidationResult IDs to use (None = all)
+            use_all_validation: Use all exported validation results
+            min_validation_matches: Minimum number of matches required (default: 50)
+            task_id: Task ID for progress tracking
+            
+        Returns:
+            Dict with training results
+        """
+        logger.info(f"Starting calibration training from validation data (task: {task_id})")
+        
+        # Create training run record
+        training_run = TrainingRun(
+            run_type='calibration_from_validation',
+            status=ModelStatus.training,
+            started_at=datetime.now(),
+        )
+        self.db.add(training_run)
+        self.db.flush()
+        self.db.commit()
+        logger.info(f"Training run created: ID={training_run.id}, type=calibration_from_validation")
+        
+        try:
+            if task_id:
+                self._update_task_status(task_id, "in_progress", 10, "Loading base model...")
+            
+            # Load base model
+            if base_model_id:
+                base_model = self.db.query(Model).filter(Model.id == base_model_id).first()
+            else:
+                # Try calibration first (to get its base), then blending, then Poisson
+                active_calibration = self.db.query(Model).filter(
+                    Model.model_type == 'calibration',
+                    Model.status == ModelStatus.active
+                ).order_by(Model.training_completed_at.desc()).first()
+                
+                if active_calibration and active_calibration.model_weights:
+                    base_model_id_from_cal = active_calibration.model_weights.get('base_model_id')
+                    if base_model_id_from_cal:
+                        base_model = self.db.query(Model).filter(Model.id == base_model_id_from_cal).first()
+                    else:
+                        base_model = None
+                else:
+                    base_model = None
+                
+                if not base_model:
+                    # Try blending first, then Poisson
+                    base_model = self.db.query(Model).filter(
+                        Model.model_type == 'blending',
+                        Model.status == ModelStatus.active
+                    ).order_by(Model.training_completed_at.desc()).first()
+                    
+                    if not base_model:
+                        base_model = self.db.query(Model).filter(
+                            Model.model_type == 'poisson',
+                            Model.status == ModelStatus.active
+                        ).order_by(Model.training_completed_at.desc()).first()
+            
+            if not base_model:
+                raise ValueError("No active base model found. Train Poisson or Blending model first.")
+            
+            logger.info(f"Calibrating {base_model.model_type} model: {base_model.version} using validation data")
+            
+            if task_id:
+                self._update_task_status(task_id, "in_progress", 30, "Loading validation results...")
+            
+            # Load validation results
+            query = self.db.query(ValidationResult).filter(
+                ValidationResult.exported_to_training == True
+            )
+            
+            if validation_result_ids:
+                query = query.filter(ValidationResult.id.in_(validation_result_ids))
+            elif not use_all_validation:
+                # Use validation results for the current base model
+                query = query.filter(ValidationResult.model_id == base_model.id)
+            
+            validation_results = query.order_by(ValidationResult.created_at.asc()).all()
+            
+            if not validation_results:
+                raise ValueError("No validation results found. Export validation data first.")
+            
+            # Collect predictions and actuals from validation results
+            predictions_home = []
+            predictions_draw = []
+            predictions_away = []
+            actuals_home = []
+            actuals_draw = []
+            actuals_away = []
+            
+            total_validation_matches = 0
+            
+            for val_result in validation_results:
+                # Get the jackpot and fixtures
+                jackpot = self.db.query(JackpotModel).filter(JackpotModel.id == val_result.jackpot_id).first()
+                if not jackpot:
+                    continue
+                
+                # Get saved result to access probabilities
+                saved_result = self.db.query(SavedProbabilityResult).filter(
+                    SavedProbabilityResult.jackpot_id == jackpot.jackpot_id
+                ).order_by(SavedProbabilityResult.created_at.desc()).first()
+                
+                if not saved_result or not saved_result.actual_results:
+                    continue
+                
+                # Get fixtures
+                fixtures = self.db.query(JackpotFixture).filter(
+                    JackpotFixture.jackpot_id == jackpot.id
+                ).order_by(JackpotFixture.match_order).all()
+                
+                # Try to get predictions from Prediction table first
+                predictions = self.db.query(Prediction).filter(
+                    Prediction.fixture_id.in_([f.id for f in fixtures]),
+                    Prediction.set_type == val_result.set_type,
+                    Prediction.model_id == val_result.model_id
+                ).all()
+                
+                # If predictions don't exist in Prediction table, recalculate them
+                if len(predictions) != len(fixtures):
+                    logger.info(f"Predictions not found in Prediction table for jackpot {jackpot.jackpot_id}, recalculating...")
+                    
+                    # Recalculate probabilities for this jackpot
+                    from app.api.probabilities import calculate_probabilities
+                    
+                    try:
+                        # Recalculate probabilities (we're in async context)
+                        prob_response = await calculate_probabilities(jackpot.jackpot_id, self.db)
+                        prob_data = prob_response.data if hasattr(prob_response, 'data') else prob_response
+                        all_probability_sets = prob_data.get("probabilitySets", {})
+                        
+                        # Get probabilities for the set used in validation
+                        set_id_map = {
+                            PredictionSet.A: "A", PredictionSet.B: "B", PredictionSet.C: "C",
+                            PredictionSet.D: "D", PredictionSet.E: "E", PredictionSet.F: "F",
+                            PredictionSet.G: "G", PredictionSet.H: "H", PredictionSet.I: "I",
+                            PredictionSet.J: "J"
+                        }
+                        set_id_str = set_id_map.get(val_result.set_type, "A")
+                        set_probabilities = all_probability_sets.get(set_id_str, [])
+                        
+                        if len(set_probabilities) != len(fixtures):
+                            logger.warning(f"Recalculated probabilities count mismatch for jackpot {jackpot.jackpot_id}: {len(set_probabilities)} vs {len(fixtures)}")
+                            continue
+                        
+                        # Use recalculated probabilities
+                        for idx, fixture in enumerate(fixtures):
+                            if idx >= len(set_probabilities):
+                                continue
+                                
+                            fixture_id_str = str(fixture.id)
+                            actual_result_str = saved_result.actual_results.get(fixture_id_str) or saved_result.actual_results.get(str(fixture.match_order))
+                            
+                            if not actual_result_str:
+                                continue
+                            
+                            prob_output = set_probabilities[idx]
+                            if not prob_output:
+                                continue
+                            
+                            # Convert result format
+                            if actual_result_str == "1":
+                                actual_result = "H"
+                            elif actual_result_str == "X":
+                                actual_result = "D"
+                            elif actual_result_str == "2":
+                                actual_result = "A"
+                            else:
+                                actual_result = actual_result_str.upper()
+                            
+                            # Extract probabilities (convert from percentage to decimal)
+                            prob_home = prob_output.get("homeWinProbability", 0) / 100.0
+                            prob_draw = prob_output.get("drawProbability", 0) / 100.0
+                            prob_away = prob_output.get("awayWinProbability", 0) / 100.0
+                            
+                            # Store predictions and actuals
+                            predictions_home.append(prob_home)
+                            predictions_draw.append(prob_draw)
+                            predictions_away.append(prob_away)
+                            
+                            actuals_home.append(1 if actual_result == 'H' else 0)
+                            actuals_draw.append(1 if actual_result == 'D' else 0)
+                            actuals_away.append(1 if actual_result == 'A' else 0)
+                            
+                            total_validation_matches += 1
+                        
+                        continue  # Skip to next validation result
+                        
+                    except Exception as e:
+                        logger.error(f"Error recalculating probabilities for jackpot {jackpot.jackpot_id}: {e}", exc_info=True)
+                        continue
+                
+                # Use predictions from Prediction table
+                pred_map = {p.fixture_id: p for p in predictions}
+                
+                for fixture in fixtures:
+                    fixture_id_str = str(fixture.id)
+                    actual_result_str = saved_result.actual_results.get(fixture_id_str) or saved_result.actual_results.get(str(fixture.match_order))
+                    
+                    if not actual_result_str:
+                        continue
+                    
+                    pred = pred_map.get(fixture.id)
+                    if not pred:
+                        continue
+                    
+                    # Convert result format
+                    if actual_result_str == "1":
+                        actual_result = "H"
+                    elif actual_result_str == "X":
+                        actual_result = "D"
+                    elif actual_result_str == "2":
+                        actual_result = "A"
+                    else:
+                        actual_result = actual_result_str.upper()
+                    
+                    # Store predictions and actuals
+                    predictions_home.append(pred.prob_home)
+                    predictions_draw.append(pred.prob_draw)
+                    predictions_away.append(pred.prob_away)
+                    
+                    actuals_home.append(1 if actual_result == 'H' else 0)
+                    actuals_draw.append(1 if actual_result == 'D' else 0)
+                    actuals_away.append(1 if actual_result == 'A' else 0)
+                    
+                    total_validation_matches += 1
+            
+            if total_validation_matches < min_validation_matches:
+                raise ValueError(
+                    f"Insufficient validation matches: {total_validation_matches} (minimum: {min_validation_matches}). "
+                    f"To proceed:\n"
+                    f"1. Export more validation results (need {min_validation_matches - total_validation_matches} more matches), OR\n"
+                    f"2. Lower the minimum threshold by setting min_validation_matches parameter to {total_validation_matches} or less.\n"
+                    f"Note: Training with fewer matches may result in less reliable calibration."
+                )
+            
+            logger.info(f"Training calibration on {total_validation_matches} validation matches from {len(validation_results)} validation results")
+            
+            if task_id:
+                self._update_task_status(task_id, "in_progress", 70, "Fitting isotonic regression...")
+            
+            # Time-ordered split for validation
+            split_idx = int(len(predictions_home) * 0.8)
+            
+            # Fit calibrator on training set
+            from app.models.calibration import Calibrator, compute_calibration_curve
+            
+            calibrator = Calibrator()
+            
+            # Fit for each outcome
+            calibrator.fit(
+                predictions_home[:split_idx],
+                actuals_home[:split_idx],
+                "H"
+            )
+            calibrator.fit(
+                predictions_draw[:split_idx],
+                actuals_draw[:split_idx],
+                "D"
+            )
+            calibrator.fit(
+                predictions_away[:split_idx],
+                actuals_away[:split_idx],
+                "A"
+            )
+            
+            # Compute calibration curves
+            calibration_curves = {}
+            for outcome_type, outcome_enum in [("H", MatchResult.H), ("D", MatchResult.D), ("A", MatchResult.A)]:
+                if outcome_type == "H":
+                    preds = predictions_home[:split_idx]
+                    acts = actuals_home[:split_idx]
+                elif outcome_type == "D":
+                    preds = predictions_draw[:split_idx]
+                    acts = actuals_draw[:split_idx]
+                else:
+                    preds = predictions_away[:split_idx]
+                    acts = actuals_away[:split_idx]
+                
+                curve = compute_calibration_curve(preds, acts, outcome_type, n_bins=20)
+                calibration_curves[outcome_type] = curve
+            
+            if task_id:
+                self._update_task_status(task_id, "in_progress", 85, "Validating calibration...")
+            
+            # Validate on test set
+            calibrated_home = []
+            calibrated_draw = []
+            calibrated_away = []
+            
+            for i in range(split_idx, len(predictions_home)):
+                ch, cd, ca = calibrator.calibrate_probabilities(
+                    predictions_home[i],
+                    predictions_draw[i],
+                    predictions_away[i],
+                    use_joint_renormalization=True
+                )
+                
+                # Renormalize
+                total = ch + cd + ca
+                if total > 0:
+                    ch /= total
+                    cd /= total
+                    ca /= total
+                
+                calibrated_home.append(ch)
+                calibrated_draw.append(cd)
+                calibrated_away.append(ca)
+            
+            # Calculate metrics
+            test_actuals_home = actuals_home[split_idx:]
+            test_actuals_draw = actuals_draw[split_idx:]
+            test_actuals_away = actuals_away[split_idx:]
+            
+            # Brier score
+            brier_home = sum((calibrated_home[i] - test_actuals_home[i]) ** 2 for i in range(len(calibrated_home))) / len(calibrated_home) if calibrated_home else 0
+            brier_draw = sum((calibrated_draw[i] - test_actuals_draw[i]) ** 2 for i in range(len(calibrated_draw))) / len(calibrated_draw) if calibrated_draw else 0
+            brier_away = sum((calibrated_away[i] - test_actuals_away[i]) ** 2 for i in range(len(calibrated_away))) / len(calibrated_away) if calibrated_away else 0
+            
+            mean_brier = (brier_home + brier_draw + brier_away) / 3 if (brier_home + brier_draw + brier_away) > 0 else 0
+            
+            # Log loss
+            log_losses = []
+            for i in range(len(calibrated_home)):
+                actual = [test_actuals_home[i], test_actuals_draw[i], test_actuals_away[i]]
+                predicted = [calibrated_home[i], calibrated_draw[i], calibrated_away[i]]
+                log_loss = -sum(actual[j] * math.log(max(predicted[j], 1e-10)) for j in range(3))
+                log_losses.append(log_loss)
+            
+            mean_log_loss = sum(log_losses) / len(log_losses) if log_losses else 0
+            
+            metrics = {
+                'brierScore': float(mean_brier),
+                'logLoss': float(mean_log_loss),
+            }
+            
+            # Archive old calibration models
+            self.db.query(Model).filter(
+                Model.model_type == 'calibration',
+                Model.status == ModelStatus.active
+            ).update({"status": ModelStatus.archived})
+            
+            # Create new calibration model
+            version = f"calibration-validation-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+            
+            calibration_metadata = {
+                'base_model_id': base_model.id,
+                'base_model_version': base_model.version,
+                'base_model_type': base_model.model_type,
+                'trained_from_validation': True,
+                'validation_result_ids': [vr.id for vr in validation_results],
+                'validation_match_count': total_validation_matches,
+                'calibration_metadata': {
+                    'H': {
+                        'fitted': calibrator.metadata['H'].fitted,
+                        'sample_count': calibrator.metadata['H'].sample_count,
+                    },
+                    'D': {
+                        'fitted': calibrator.metadata['D'].fitted,
+                        'sample_count': calibrator.metadata['D'].sample_count,
+                    },
+                    'A': {
+                        'fitted': calibrator.metadata['A'].fitted,
+                        'sample_count': calibrator.metadata['A'].sample_count,
+                    },
+                }
+            }
+            
+            training_completed_utc = datetime.utcnow()
+            
+            model = Model(
+                version=version,
+                model_type='calibration',
+                status=ModelStatus.active,
+                training_started_at=training_run.started_at,
+                training_completed_at=training_completed_utc,
+                training_matches=total_validation_matches,
+                brier_score=metrics['brierScore'],
+                log_loss=metrics['logLoss'],
+                model_weights=clean_nan_for_json(calibration_metadata)
+            )
+            
+            self.db.add(model)
+            self.db.flush()
+            
+            # Store calibration curve data
+            for outcome_type, outcome_enum in [("H", MatchResult.H), ("D", MatchResult.D), ("A", MatchResult.A)]:
+                if outcome_type in calibration_curves:
+                    curve = calibration_curves[outcome_type]
+                    for i, (pred_bucket, obs_freq) in enumerate(zip(curve.predicted_buckets, curve.observed_frequencies)):
+                        if i < len(curve.sample_counts) and curve.sample_counts[i] > 0:
+                            cal_data = CalibrationData(
+                                model_id=model.id,
+                                league_id=None,
+                                outcome_type=outcome_enum,
+                                predicted_prob_bucket=round(pred_bucket, 3),
+                                actual_frequency=round(obs_freq, 4),
+                                sample_count=curve.sample_counts[i]
+                            )
+                            self.db.add(cal_data)
+            
+            self.db.flush()
+            
+            # Update training run
+            training_run.model_id = model.id
+            training_run.status = ModelStatus.active
+            training_run.completed_at = training_completed_utc
+            training_run.match_count = total_validation_matches
+            training_run.brier_score = metrics['brierScore']
+            training_run.log_loss = metrics['logLoss']
+            training_run.logs = {
+                "validation_result_ids": [vr.id for vr in validation_results],
+                "validation_match_count": total_validation_matches,
+                "base_model_id": base_model.id,
+                "base_model_version": base_model.version,
+            }
+            
+            self.db.commit()
+            
+            logger.info(f"Calibration model trained from validation data: {version}")
+            logger.info(f"Metrics - Brier: {metrics['brierScore']:.4f}, Log Loss: {metrics['logLoss']:.4f}")
+            
+            if task_id:
+                self._update_task_status(task_id, "completed", 100, "Training complete", result=metrics)
+            
+            return {
+                'modelId': model.id,
+                'version': version,
+                'metrics': metrics,
+                'matchCount': total_validation_matches,
+                'validationResultCount': len(validation_results),
+                'trainingRunId': training_run.id,
+            }
+        except Exception as e:
+            training_run.status = ModelStatus.failed
+            training_run.error_message = str(e)
+            training_run.completed_at = datetime.utcnow()
+            self.db.commit()
+            logger.error(f"Error training calibration from validation: {e}", exc_info=True)
             if task_id:
                 self._update_task_status(task_id, "failed", 0, "", error=str(e))
             raise

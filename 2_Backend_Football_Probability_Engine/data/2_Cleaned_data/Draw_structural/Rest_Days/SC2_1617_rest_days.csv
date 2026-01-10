@@ -1,181 +1,181 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 SC2,1617,2016-01-10,Stranraer,Brechin,7,7,False
-SC2,1617,2016-01-10,Albion Rvs,Queens Park,7,7,False
-SC2,1617,2016-01-10,Alloa,Airdrie Utd,7,7,False
 SC2,1617,2016-01-10,East Fife,Stenhousemuir,7,7,False
+SC2,1617,2016-01-10,Albion Rvs,Queens Park,7,7,False
 SC2,1617,2016-01-10,Peterhead,Livingston,7,7,False
-SC2,1617,2016-03-12,Queens Park,Brechin,62,62,False
-SC2,1617,2016-03-12,Albion Rvs,Livingston,62,62,False
+SC2,1617,2016-01-10,Alloa,Airdrie Utd,7,7,False
 SC2,1617,2016-03-12,Peterhead,Airdrie Utd,62,62,False
+SC2,1617,2016-03-12,Albion Rvs,Livingston,62,62,False
+SC2,1617,2016-03-12,Queens Park,Brechin,62,62,False
+SC2,1617,2016-05-11,Livingston,East Fife,60,122,True
+SC2,1617,2016-05-11,Alloa,Stenhousemuir,122,122,True
 SC2,1617,2016-05-11,Albion Rvs,Airdrie Utd,60,60,True
 SC2,1617,2016-05-11,Stranraer,Queens Park,122,60,True
 SC2,1617,2016-05-11,Peterhead,Brechin,60,60,True
-SC2,1617,2016-05-11,Livingston,East Fife,60,122,True
-SC2,1617,2016-05-11,Alloa,Stenhousemuir,122,122,True
 SC2,1617,2016-06-08,East Fife,Albion Rvs,28,28,True
 SC2,1617,2016-06-08,Alloa,Peterhead,28,28,True
+SC2,1617,2016-06-08,Livingston,Stranraer,28,28,True
 SC2,1617,2016-06-08,Queens Park,Airdrie Utd,28,28,True
 SC2,1617,2016-06-08,Brechin,Stenhousemuir,28,28,True
-SC2,1617,2016-06-08,Livingston,Stranraer,28,28,True
 SC2,1617,2016-06-12,Brechin,Albion Rvs,4,4,False
-SC2,1617,2016-08-13,Albion Rvs,Brechin,62,62,False
-SC2,1617,2016-08-13,Stranraer,Alloa,66,66,False
 SC2,1617,2016-08-13,Stenhousemuir,Queens Park,66,66,False
-SC2,1617,2016-08-13,Peterhead,East Fife,66,66,False
+SC2,1617,2016-08-13,Albion Rvs,Brechin,62,62,False
 SC2,1617,2016-08-13,Airdrie Utd,Livingston,66,66,False
+SC2,1617,2016-08-13,Peterhead,East Fife,66,66,False
+SC2,1617,2016-08-13,Stranraer,Alloa,66,66,False
 SC2,1617,2016-08-20,Livingston,Stenhousemuir,7,7,False
-SC2,1617,2016-08-20,Peterhead,Albion Rvs,7,7,False
-SC2,1617,2016-08-20,Airdrie Utd,Stranraer,7,7,False
 SC2,1617,2016-08-20,Alloa,East Fife,7,7,False
+SC2,1617,2016-08-20,Airdrie Utd,Stranraer,7,7,False
+SC2,1617,2016-08-20,Peterhead,Albion Rvs,7,7,False
 SC2,1617,2016-08-20,Brechin,Queens Park,7,7,False
-SC2,1617,2016-08-27,East Fife,Brechin,7,7,False
-SC2,1617,2016-08-27,Albion Rvs,Alloa,7,7,False
 SC2,1617,2016-08-27,Stranraer,Peterhead,7,7,False
+SC2,1617,2016-08-27,East Fife,Brechin,7,7,False
 SC2,1617,2016-08-27,Stenhousemuir,Airdrie Utd,7,7,False
+SC2,1617,2016-08-27,Albion Rvs,Alloa,7,7,False
 SC2,1617,2016-08-27,Queens Park,Livingston,7,7,False
 SC2,1617,2016-09-17,Stenhousemuir,Peterhead,21,21,False
-SC2,1617,2016-09-17,Airdrie Utd,East Fife,21,21,False
-SC2,1617,2016-09-17,Livingston,Brechin,21,21,False
 SC2,1617,2016-09-17,Queens Park,Alloa,21,21,False
+SC2,1617,2016-09-17,Livingston,Brechin,21,21,False
+SC2,1617,2016-09-17,Airdrie Utd,East Fife,21,21,False
 SC2,1617,2016-09-17,Stranraer,Albion Rvs,21,21,False
-SC2,1617,2016-09-24,Queens Park,Stranraer,7,7,False
 SC2,1617,2016-09-24,Airdrie Utd,Albion Rvs,7,7,False
-SC2,1617,2016-09-24,Brechin,Peterhead,7,7,False
-SC2,1617,2016-09-24,East Fife,Livingston,7,7,False
+SC2,1617,2016-09-24,Queens Park,Stranraer,7,7,False
 SC2,1617,2016-09-24,Stenhousemuir,Alloa,7,7,False
+SC2,1617,2016-09-24,East Fife,Livingston,7,7,False
+SC2,1617,2016-09-24,Brechin,Peterhead,7,7,False
 SC2,1617,2016-10-09,Alloa,Livingston,15,15,False
 SC2,1617,2016-10-09,Albion Rvs,Stenhousemuir,15,15,False
-SC2,1617,2016-10-09,Peterhead,Queens Park,15,15,False
-SC2,1617,2016-10-09,East Fife,Stranraer,15,15,False
 SC2,1617,2016-10-09,Brechin,Airdrie Utd,15,15,False
+SC2,1617,2016-10-09,East Fife,Stranraer,15,15,False
+SC2,1617,2016-10-09,Peterhead,Queens Park,15,15,False
+SC2,1617,2016-10-12,Queens Park,Albion Rvs,3,3,True
+SC2,1617,2016-10-12,Peterhead,Alloa,3,3,True
+SC2,1617,2016-10-12,Airdrie Utd,Stenhousemuir,3,3,True
 SC2,1617,2016-10-12,Brechin,East Fife,3,3,True
 SC2,1617,2016-10-12,Stranraer,Livingston,3,3,True
-SC2,1617,2016-10-12,Airdrie Utd,Stenhousemuir,3,3,True
-SC2,1617,2016-10-12,Peterhead,Alloa,3,3,True
-SC2,1617,2016-10-12,Queens Park,Albion Rvs,3,3,True
-SC2,1617,2016-10-15,Airdrie Utd,Peterhead,3,3,False
-SC2,1617,2016-10-15,Queens Park,East Fife,3,3,False
-SC2,1617,2016-10-15,Livingston,Albion Rvs,3,3,False
-SC2,1617,2016-10-15,Stenhousemuir,Stranraer,3,3,False
 SC2,1617,2016-10-15,Brechin,Alloa,3,3,False
+SC2,1617,2016-10-15,Livingston,Albion Rvs,3,3,False
+SC2,1617,2016-10-15,Airdrie Utd,Peterhead,3,3,False
+SC2,1617,2016-10-15,Stenhousemuir,Stranraer,3,3,False
+SC2,1617,2016-10-15,Queens Park,East Fife,3,3,False
 SC2,1617,2016-10-22,Stenhousemuir,Brechin,7,7,False
-SC2,1617,2016-10-22,Livingston,Alloa,7,7,False
-SC2,1617,2016-10-22,Airdrie Utd,Queens Park,7,7,False
 SC2,1617,2016-10-22,Albion Rvs,Peterhead,7,7,False
+SC2,1617,2016-10-22,Airdrie Utd,Queens Park,7,7,False
+SC2,1617,2016-10-22,Livingston,Alloa,7,7,False
 SC2,1617,2016-10-22,Stranraer,East Fife,7,7,False
-SC2,1617,2016-10-29,Brechin,Livingston,7,7,False
-SC2,1617,2016-10-29,Alloa,Albion Rvs,7,7,False
-SC2,1617,2016-10-29,East Fife,Airdrie Utd,7,7,False
 SC2,1617,2016-10-29,Queens Park,Stenhousemuir,7,7,False
 SC2,1617,2016-10-29,Peterhead,Stranraer,7,7,False
+SC2,1617,2016-10-29,East Fife,Airdrie Utd,7,7,False
+SC2,1617,2016-10-29,Brechin,Livingston,7,7,False
+SC2,1617,2016-10-29,Alloa,Albion Rvs,7,7,False
 SC2,1617,2016-11-15,East Fife,Alloa,17,17,True
 SC2,1617,2016-11-19,Livingston,Peterhead,21,21,False
-SC2,1617,2016-11-19,Airdrie Utd,Alloa,21,4,False
 SC2,1617,2016-11-19,East Fife,Queens Park,4,21,False
+SC2,1617,2016-11-19,Airdrie Utd,Alloa,21,4,False
 SC2,1617,2016-11-19,Stranraer,Stenhousemuir,21,21,False
-SC2,1617,2016-12-11,Queens Park,Peterhead,22,22,False
 SC2,1617,2016-12-11,Albion Rvs,Stranraer,43,22,False
 SC2,1617,2016-12-11,Airdrie Utd,Brechin,22,43,False
+SC2,1617,2016-12-11,Queens Park,Peterhead,22,22,False
 SC2,1617,2016-12-13,Alloa,Stranraer,24,2,True
 SC2,1617,2016-12-13,Stenhousemuir,Livingston,24,24,True
+SC2,1617,2016-12-17,Stenhousemuir,Albion Rvs,4,6,False
+SC2,1617,2016-12-17,Livingston,Airdrie Utd,4,6,False
+SC2,1617,2016-12-17,East Fife,Peterhead,28,6,False
 SC2,1617,2016-12-17,Alloa,Queens Park,4,6,False
 SC2,1617,2016-12-17,Brechin,Stranraer,6,4,False
-SC2,1617,2016-12-17,East Fife,Peterhead,28,6,False
-SC2,1617,2016-12-17,Livingston,Airdrie Utd,4,6,False
-SC2,1617,2016-12-17,Stenhousemuir,Albion Rvs,4,6,False
 SC2,1617,2016-12-20,Stenhousemuir,East Fife,3,3,True
-SC2,1617,2016-12-24,Alloa,Brechin,7,7,False
 SC2,1617,2016-12-24,Livingston,Queens Park,7,7,False
+SC2,1617,2016-12-24,Alloa,Brechin,7,7,False
 SC2,1617,2016-12-24,Stranraer,Airdrie Utd,7,7,False
 SC2,1617,2016-12-26,Peterhead,Stenhousemuir,9,6,False
-SC2,1617,2016-12-31,Queens Park,Stranraer,7,7,False
 SC2,1617,2016-12-31,East Fife,Livingston,11,7,False
+SC2,1617,2016-12-31,Queens Park,Stranraer,7,7,False
 SC2,1617,2016-12-31,Stenhousemuir,Alloa,5,7,False
-SC2,1617,2017-01-04,Brechin,Livingston,11,4,True
-SC2,1617,2017-01-04,Alloa,Albion Rvs,4,18,True
 SC2,1617,2017-01-04,Stranraer,Stenhousemuir,4,4,True
-SC2,1617,2017-01-04,Peterhead,Airdrie Utd,9,11,True
+SC2,1617,2017-01-04,Brechin,Livingston,11,4,True
 SC2,1617,2017-01-04,East Fife,Queens Park,4,4,True
+SC2,1617,2017-01-04,Alloa,Albion Rvs,4,18,True
+SC2,1617,2017-01-04,Peterhead,Airdrie Utd,9,11,True
+SC2,1617,2017-01-14,Alloa,Peterhead,10,10,False
 SC2,1617,2017-01-14,Airdrie Utd,East Fife,10,10,False
 SC2,1617,2017-01-14,Stenhousemuir,Stranraer,10,10,False
-SC2,1617,2017-01-14,Alloa,Peterhead,10,10,False
-SC2,1617,2017-01-28,Stenhousemuir,Airdrie Utd,14,14,False
 SC2,1617,2017-01-28,Livingston,Brechin,24,24,False
 SC2,1617,2017-01-28,Peterhead,Queens Park,14,24,False
+SC2,1617,2017-01-28,Stenhousemuir,Airdrie Utd,14,14,False
 SC2,1617,2017-01-28,Albion Rvs,Alloa,24,14,False
 SC2,1617,2017-01-28,East Fife,Stranraer,14,14,False
-SC2,1617,2017-02-01,Brechin,Peterhead,4,4,True
 SC2,1617,2017-02-01,Airdrie Utd,Albion Rvs,4,4,True
-SC2,1617,2017-02-18,Albion Rvs,Stenhousemuir,6,21,False
-SC2,1617,2017-02-18,Stranraer,Peterhead,6,17,False
-SC2,1617,2017-02-18,Queens Park,Alloa,6,6,False
+SC2,1617,2017-02-01,Brechin,Peterhead,4,4,True
 SC2,1617,2017-02-18,Airdrie Utd,Livingston,6,21,False
+SC2,1617,2017-02-18,Albion Rvs,Stenhousemuir,6,21,False
 SC2,1617,2017-02-18,East Fife,Brechin,6,17,False
-SC2,1617,2017-02-25,Alloa,Airdrie Utd,7,7,False
-SC2,1617,2017-02-25,Stranraer,Brechin,7,7,False
+SC2,1617,2017-02-18,Queens Park,Alloa,6,6,False
+SC2,1617,2017-02-18,Stranraer,Peterhead,6,17,False
 SC2,1617,2017-02-25,Peterhead,East Fife,7,7,False
+SC2,1617,2017-02-25,Stranraer,Brechin,7,7,False
+SC2,1617,2017-02-25,Alloa,Airdrie Utd,7,7,False
 SC2,1617,2017-02-28,Brechin,Queens Park,3,10,True
 SC2,1617,2017-02-28,Alloa,East Fife,3,3,True
 SC2,1617,2017-03-14,Brechin,Airdrie Utd,14,17,True
 SC2,1617,2017-03-18,Airdrie Utd,Stenhousemuir,4,28,False
-SC2,1617,2017-03-18,Albion Rvs,Peterhead,28,21,False
-SC2,1617,2017-03-18,East Fife,Alloa,18,18,False
-SC2,1617,2017-03-18,Queens Park,Brechin,18,4,False
 SC2,1617,2017-03-18,Stranraer,Livingston,21,28,False
-SC2,1617,2017-03-21,Brechin,Alloa,3,3,True
+SC2,1617,2017-03-18,Queens Park,Brechin,18,4,False
+SC2,1617,2017-03-18,East Fife,Alloa,18,18,False
+SC2,1617,2017-03-18,Albion Rvs,Peterhead,28,21,False
 SC2,1617,2017-03-21,Livingston,Stenhousemuir,3,3,True
-SC2,1617,2017-03-25,Stenhousemuir,Albion Rvs,4,7,False
-SC2,1617,2017-03-25,Alloa,Queens Park,4,7,False
+SC2,1617,2017-03-21,Brechin,Alloa,3,3,True
 SC2,1617,2017-03-25,Brechin,East Fife,4,7,False
+SC2,1617,2017-03-25,Stenhousemuir,Albion Rvs,4,7,False
 SC2,1617,2017-03-25,Livingston,Airdrie Utd,4,7,False
 SC2,1617,2017-03-25,Peterhead,Stranraer,7,7,False
+SC2,1617,2017-03-25,Alloa,Queens Park,4,7,False
 SC2,1617,2017-03-28,Albion Rvs,East Fife,3,3,True
-SC2,1617,2017-04-02,Alloa,Livingston,8,8,False
-SC2,1617,2017-04-02,Airdrie Utd,Peterhead,8,8,False
-SC2,1617,2017-04-02,Brechin,Stenhousemuir,8,8,False
 SC2,1617,2017-04-02,Stranraer,Albion Rvs,8,5,False
 SC2,1617,2017-04-02,Queens Park,East Fife,8,5,False
-SC2,1617,2017-04-03,East Fife,Albion Rvs,1,1,False
+SC2,1617,2017-04-02,Brechin,Stenhousemuir,8,8,False
+SC2,1617,2017-04-02,Alloa,Livingston,8,8,False
+SC2,1617,2017-04-02,Airdrie Utd,Peterhead,8,8,False
+SC2,1617,2017-04-03,Airdrie Utd,Stranraer,1,1,False
 SC2,1617,2017-04-03,Queens Park,Livingston,1,1,False
 SC2,1617,2017-04-03,Stenhousemuir,Peterhead,1,1,False
-SC2,1617,2017-04-03,Airdrie Utd,Stranraer,1,1,False
+SC2,1617,2017-04-03,East Fife,Albion Rvs,1,1,False
 SC2,1617,2017-04-04,Albion Rvs,Queens Park,1,1,True
 SC2,1617,2017-04-15,East Fife,Peterhead,4,12,False
-SC2,1617,2017-04-15,Queens Park,Albion Rvs,4,4,False
 SC2,1617,2017-04-15,Stenhousemuir,Livingston,12,12,False
+SC2,1617,2017-04-15,Queens Park,Albion Rvs,4,4,False
 SC2,1617,2017-04-15,Stranraer,Airdrie Utd,4,4,False
 SC2,1617,2017-04-15,Alloa,Brechin,4,13,False
-SC2,1617,2017-04-22,Brechin,Stranraer,7,7,False
-SC2,1617,2017-04-22,Albion Rvs,East Fife,7,7,False
-SC2,1617,2017-04-22,Livingston,Queens Park,7,7,False
 SC2,1617,2017-04-22,Airdrie Utd,Alloa,7,7,False
+SC2,1617,2017-04-22,Brechin,Stranraer,7,7,False
+SC2,1617,2017-04-22,Livingston,Queens Park,7,7,False
 SC2,1617,2017-04-22,Peterhead,Stenhousemuir,7,7,False
-SC2,1617,2017-04-29,Alloa,Stranraer,7,7,False
-SC2,1617,2017-04-29,East Fife,Airdrie Utd,7,7,False
+SC2,1617,2017-04-22,Albion Rvs,East Fife,7,7,False
 SC2,1617,2017-04-29,Livingston,Peterhead,7,7,False
 SC2,1617,2017-04-29,Queens Park,Stenhousemuir,7,7,False
+SC2,1617,2017-04-29,East Fife,Airdrie Utd,7,7,False
 SC2,1617,2017-04-29,Brechin,Albion Rvs,7,7,False
+SC2,1617,2017-04-29,Alloa,Stranraer,7,7,False
+SC2,1617,2017-06-05,Stranraer,East Fife,28,28,False
 SC2,1617,2017-06-05,Stenhousemuir,Brechin,37,37,False
+SC2,1617,2017-06-05,Airdrie Utd,Queens Park,28,28,False
 SC2,1617,2017-06-05,Peterhead,Alloa,37,28,False
 SC2,1617,2017-06-05,Albion Rvs,Livingston,28,37,False
-SC2,1617,2017-06-05,Airdrie Utd,Queens Park,28,28,False
-SC2,1617,2017-06-05,Stranraer,East Fife,28,28,False
 SC2,1617,2017-07-01,Stranraer,Alloa,26,26,False
-SC2,1617,2017-07-01,Queens Park,Airdrie Utd,26,26,False
 SC2,1617,2017-07-01,Peterhead,Livingston,26,26,False
-SC2,1617,2017-07-01,East Fife,Stenhousemuir,26,26,False
 SC2,1617,2017-07-01,Albion Rvs,Brechin,26,26,False
+SC2,1617,2017-07-01,East Fife,Stenhousemuir,26,26,False
+SC2,1617,2017-07-01,Queens Park,Airdrie Utd,26,26,False
 SC2,1617,2017-07-03,Livingston,Albion Rvs,2,2,False
-SC2,1617,2017-08-04,Queens Park,Peterhead,34,34,False
-SC2,1617,2017-08-04,Livingston,Alloa,32,34,False
-SC2,1617,2017-08-04,Albion Rvs,Stranraer,32,34,False
 SC2,1617,2017-08-04,Airdrie Utd,Brechin,34,34,False
+SC2,1617,2017-08-04,Queens Park,Peterhead,34,34,False
+SC2,1617,2017-08-04,Albion Rvs,Stranraer,32,34,False
+SC2,1617,2017-08-04,Livingston,Alloa,32,34,False
 SC2,1617,2017-08-04,Stenhousemuir,East Fife,34,34,False
+SC2,1617,2017-11-02,Stenhousemuir,Queens Park,90,5,True
 SC2,1617,2017-11-02,Livingston,Stranraer,90,5,True
 SC2,1617,2017-11-02,Peterhead,Albion Rvs,90,5,True
-SC2,1617,2017-11-02,Stenhousemuir,Queens Park,90,5,True
+SC2,1617,2017-11-03,Livingston,East Fife,1,6,False
 SC2,1617,2017-11-03,Stranraer,Queens Park,1,1,False
 SC2,1617,2017-11-03,Peterhead,Brechin,1,91,False
-SC2,1617,2017-11-03,Livingston,East Fife,1,6,False
 SC2,1617,2017-11-03,Alloa,Stenhousemuir,6,1,False
 SC2,1617,2017-11-03,Albion Rvs,Airdrie Utd,1,6,False

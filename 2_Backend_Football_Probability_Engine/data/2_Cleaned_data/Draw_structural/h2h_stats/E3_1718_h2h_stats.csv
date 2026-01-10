@@ -1,6 +1,6 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-8667,Cambridge,8688,Swindon,1718,2,0,0.0,3.0
 8666,Colchester,8676,Crawley Town,1718,2,0,0.0,3.0
+8667,Cambridge,8688,Swindon,1718,2,0,0.0,3.0
 8670,Morecambe,8696,Barnet,1718,2,0,0.0,2.0
 8676,Crawley Town,8680,Newport County,1718,4,0,0.0,2.5
 8668,Carlisle,8675,Port Vale,1718,2,0,0.0,3.0
@@ -32,8 +32,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8666,Colchester,8690,Yeovil,1718,2,0,0.0,1.0
 8662,Stevenage,8671,Mansfield,1718,2,1,0.5,1.5
 8662,Stevenage,8697,Wycombe,1718,2,1,0.5,0.5
-8666,Colchester,8684,Grimsby,1718,2,2,1.0,3.0
 8663,Bolton,8671,Mansfield,1718,2,1,0.5,3.5
+8666,Colchester,8684,Grimsby,1718,2,2,1.0,3.0
 8663,Bolton,8685,Crewe,1718,2,0,0.0,3.5
 8670,Morecambe,8688,Swindon,1718,2,1,0.5,1.5
 8680,Newport County,8696,Barnet,1718,4,0,0.0,2.25
@@ -42,8 +42,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8663,Bolton,8666,Colchester,1718,2,0,0.0,3.0
 8693,Accrington,8697,Wycombe,1718,2,0,0.0,2.5
 8668,Carlisle,8669,Cheltenham,1718,2,0,0.0,2.0
-8664,Forest Green,8667,Cambridge,1718,2,0,0.0,5.0
 8664,Forest Green,8697,Wycombe,1718,2,0,0.0,3.5
+8664,Forest Green,8667,Cambridge,1718,2,0,0.0,5.0
 8667,Cambridge,8675,Port Vale,1718,2,0,0.0,3.5
 8670,Morecambe,8690,Yeovil,1718,2,1,0.5,5.5
 8684,Grimsby,8697,Wycombe,1718,2,0,0.0,4.0
@@ -52,8 +52,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8662,Stevenage,8664,Forest Green,1718,2,0,0.0,3.5
 8669,Cheltenham,8670,Morecambe,1718,2,0,0.0,3.0
 8676,Crawley Town,8695,Coventry,1718,2,1,0.5,2.5
-8690,Yeovil,8691,Lincoln,1718,2,1,0.5,2.0
 8693,Accrington,8694,Chesterfield,1718,2,0,0.0,3.5
+8690,Yeovil,8691,Lincoln,1718,2,1,0.5,2.0
 8663,Bolton,8668,Carlisle,1718,2,1,0.5,2.5
 8667,Cambridge,8684,Grimsby,1718,2,1,0.5,2.0
 8663,Bolton,8669,Cheltenham,1718,2,2,1.0,4.0
@@ -69,18 +69,18 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8675,Port Vale,8697,Wycombe,1718,2,1,0.5,2.5
 8664,Forest Green,8693,Accrington,1718,2,0,0.0,2.5
 8666,Colchester,8671,Mansfield,1718,2,1,0.5,2.0
-8668,Carlisle,8694,Chesterfield,1718,2,1,0.5,3.0
 8685,Crewe,8697,Wycombe,1718,2,0,0.0,5.0
+8668,Carlisle,8694,Chesterfield,1718,2,1,0.5,3.0
 8666,Colchester,8670,Morecambe,1718,2,2,1.0,
 8669,Cheltenham,8671,Mansfield,1718,2,0,0.0,4.0
 8668,Carlisle,8671,Mansfield,1718,2,1,0.5,3.0
 8678,Exeter,8690,Yeovil,1718,2,1,0.5,2.0
 8662,Stevenage,8691,Lincoln,1718,2,0,0.0,3.0
-8663,Bolton,8684,Grimsby,1718,2,0,0.0,1.5
 8671,Mansfield,8696,Barnet,1718,2,1,0.5,3.0
+8663,Bolton,8684,Grimsby,1718,2,0,0.0,1.5
 8667,Cambridge,8680,Newport County,1718,4,1,0.25,3.25
-8670,Morecambe,8695,Coventry,1718,2,1,0.5,1.0
 8669,Cheltenham,8678,Exeter,1718,2,0,0.0,5.0
+8670,Morecambe,8695,Coventry,1718,2,1,0.5,1.0
 8668,Carlisle,8697,Wycombe,1718,2,1,0.5,6.5
 8670,Morecambe,8680,Newport County,1718,4,1,0.25,3.0
 8670,Morecambe,8685,Crewe,1718,2,0,0.0,1.0
@@ -88,8 +88,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8676,Crawley Town,8691,Lincoln,1718,2,1,0.5,2.0
 8668,Carlisle,8670,Morecambe,1718,2,2,1.0,2.0
 8678,Exeter,8697,Wycombe,1718,2,2,1.0,1.0
-8669,Cheltenham,8691,Lincoln,1718,2,0,0.0,1.0
 8671,Mansfield,8688,Swindon,1718,2,0,0.0,2.5
+8669,Cheltenham,8691,Lincoln,1718,2,0,0.0,1.0
 8680,Newport County,8685,Crewe,1718,4,1,0.25,3.0
 8676,Crawley Town,8696,Barnet,1718,2,0,0.0,2.5
 8668,Carlisle,8676,Crawley Town,1718,2,1,0.5,2.5
@@ -102,10 +102,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8668,Carlisle,8691,Lincoln,1718,2,0,0.0,3.0
 8675,Port Vale,8693,Accrington,1718,2,0,0.0,4.0
 8671,Mansfield,8697,Wycombe,1718,2,1,0.5,1.5
-8693,Accrington,8695,Coventry,1718,2,0,0.0,1.5
 8664,Forest Green,8680,Newport County,1718,4,2,0.5,3.75
-8685,Crewe,8690,Yeovil,1718,2,1,0.5,1.0
+8693,Accrington,8695,Coventry,1718,2,0,0.0,1.5
 8662,Stevenage,8663,Bolton,1718,2,1,0.5,5.0
+8685,Crewe,8690,Yeovil,1718,2,1,0.5,1.0
 8675,Port Vale,8685,Crewe,1718,2,1,0.5,2.5
 8678,Exeter,8688,Swindon,1718,2,1,0.5,3.0
 8678,Exeter,8685,Crewe,1718,2,0,0.0,3.0
@@ -233,8 +233,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8662,Stevenage,8676,Crawley Town,1718,2,1,0.5,1.5
 8691,Lincoln,8697,Wycombe,1718,2,2,1.0,2.0
 8688,Swindon,8697,Wycombe,1718,2,0,0.0,3.0
-8675,Port Vale,8690,Yeovil,1718,2,2,1.0,2.0
 8680,Newport County,8693,Accrington,1718,4,2,0.5,2.5
+8675,Port Vale,8690,Yeovil,1718,2,2,1.0,2.0
 8670,Morecambe,8676,Crawley Town,1718,2,1,0.5,1.5
 8666,Colchester,8669,Cheltenham,1718,2,0,0.0,4.5
 8668,Carlisle,8685,Crewe,1718,2,0,0.0,3.0

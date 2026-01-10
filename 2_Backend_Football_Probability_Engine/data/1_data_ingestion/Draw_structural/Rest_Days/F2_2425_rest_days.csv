@@ -1,49 +1,49 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-F2,2425,2024-08-16,Ajaccio,Rodez,91,91,False
+F2,2425,2024-08-16,Guingamp,Troyes,91,91,False
 F2,2425,2024-08-16,Amiens,Red Star,91,1918,False
 F2,2425,2024-08-16,Clermont,Pau FC,1189,91,False
 F2,2425,2024-08-16,Dunkerque,Annecy,91,91,False
+F2,2425,2024-08-16,Ajaccio,Rodez,91,91,False
 F2,2425,2024-08-16,Grenoble,Laval,91,91,False
-F2,2425,2024-08-16,Guingamp,Troyes,91,91,False
+F2,2425,2024-08-17,Caen,Paris FC,92,92,False
+F2,2425,2024-08-19,Martigues,Lorient,7,1626,False
 F2,2425,2024-08-19,Metz,Bastia,444,94,False
-F2,2425,2024-08-23,Annecy,Martigues,7,7,False
-F2,2425,2024-08-23,Bastia,Amiens,4,7,False
 F2,2425,2024-08-23,Laval,Guingamp,7,7,False
-F2,2425,2024-08-23,Paris FC,Dunkerque,98,7,False
-F2,2425,2024-08-23,Pau FC,Caen,7,98,False
+F2,2425,2024-08-23,Paris FC,Dunkerque,6,7,False
+F2,2425,2024-08-23,Pau FC,Caen,7,6,False
 F2,2425,2024-08-23,Rodez,Metz,7,4,False
 F2,2425,2024-08-23,Troyes,Clermont,7,7,False
-F2,2425,2024-08-24,Lorient,Grenoble,1631,8,False
+F2,2425,2024-08-23,Bastia,Amiens,4,7,False
+F2,2425,2024-08-23,Annecy,Martigues,7,4,False
+F2,2425,2024-08-24,Lorient,Grenoble,5,8,False
 F2,2425,2024-08-26,Red Star,Ajaccio,10,10,False
-F2,2425,2024-08-30,Ajaccio,Troyes,4,7,False
-F2,2425,2024-08-30,Caen,Annecy,7,7,False
 F2,2425,2024-08-30,Clermont,Paris FC,7,7,False
 F2,2425,2024-08-30,Dunkerque,Rodez,7,7,False
 F2,2425,2024-08-30,Grenoble,Pau FC,6,7,False
 F2,2425,2024-08-30,Guingamp,Red Star,7,4,False
 F2,2425,2024-08-30,Martigues,Bastia,7,7,False
+F2,2425,2024-08-30,Ajaccio,Troyes,4,7,False
+F2,2425,2024-08-30,Caen,Annecy,7,7,False
 F2,2425,2024-08-31,Amiens,Lorient,8,7,False
 F2,2425,2024-08-31,Metz,Laval,8,8,False
-F2,2425,2024-09-13,Annecy,Amiens,14,13,False
-F2,2425,2024-09-13,Bastia,Troyes,14,14,False
 F2,2425,2024-09-13,Clermont,Dunkerque,14,14,False
 F2,2425,2024-09-13,Laval,Ajaccio,13,14,False
 F2,2425,2024-09-13,Lorient,Red Star,13,14,False
-F2,2425,2024-09-13,Pau FC,Martigues,14,14,False
+F2,2425,2024-09-13,Annecy,Amiens,14,13,False
 F2,2425,2024-09-13,Rodez,Guingamp,14,14,False
+F2,2425,2024-09-13,Pau FC,Martigues,14,14,False
+F2,2425,2024-09-13,Bastia,Troyes,14,14,False
 F2,2425,2024-09-14,Paris FC,Metz,15,14,False
 F2,2425,2024-09-16,Grenoble,Caen,17,17,False
+F2,2425,2024-09-20,Guingamp,Annecy,7,7,False
 F2,2425,2024-09-20,Amiens,Clermont,7,7,False
 F2,2425,2024-09-20,Bastia,Paris FC,7,6,False
 F2,2425,2024-09-20,Caen,Ajaccio,4,7,False
 F2,2425,2024-09-20,Dunkerque,Pau FC,7,7,False
-F2,2425,2024-09-20,Guingamp,Annecy,7,7,False
 F2,2425,2024-09-20,Martigues,Grenoble,7,4,False
 F2,2425,2024-09-20,Red Star,Laval,7,7,False
 F2,2425,2024-09-20,Troyes,Rodez,7,7,False
 F2,2425,2024-09-21,Metz,Lorient,7,8,False
-F2,2425,2024-09-24,Ajaccio,Grenoble,4,4,True
-F2,2425,2024-09-24,Annecy,Troyes,4,4,True
 F2,2425,2024-09-24,Caen,Amiens,4,4,True
 F2,2425,2024-09-24,Clermont,Red Star,4,4,True
 F2,2425,2024-09-24,Dunkerque,Bastia,4,4,True
@@ -51,43 +51,43 @@ F2,2425,2024-09-24,Metz,Martigues,3,4,True
 F2,2425,2024-09-24,Paris FC,Guingamp,4,4,True
 F2,2425,2024-09-24,Pau FC,Lorient,4,3,True
 F2,2425,2024-09-24,Rodez,Laval,4,4,True
-F2,2425,2024-09-27,Amiens,Rodez,3,3,False
-F2,2425,2024-09-27,Bastia,Annecy,3,3,False
+F2,2425,2024-09-24,Annecy,Troyes,4,4,True
+F2,2425,2024-09-24,Ajaccio,Grenoble,4,4,True
 F2,2425,2024-09-27,Grenoble,Clermont,3,3,False
 F2,2425,2024-09-27,Laval,Pau FC,3,3,False
 F2,2425,2024-09-27,Lorient,Ajaccio,3,3,False
 F2,2425,2024-09-27,Martigues,Dunkerque,3,3,False
+F2,2425,2024-09-27,Amiens,Rodez,3,3,False
+F2,2425,2024-09-27,Bastia,Annecy,3,3,False
 F2,2425,2024-09-28,Red Star,Paris FC,4,4,False
 F2,2425,2024-09-28,Troyes,Metz,4,4,False
 F2,2425,2024-09-30,Guingamp,Caen,6,6,False
-F2,2425,2024-10-04,Annecy,Red Star,7,6,False
-F2,2425,2024-10-04,Dunkerque,Troyes,7,6,False
 F2,2425,2024-10-04,Paris FC,Laval,6,7,False
 F2,2425,2024-10-04,Rodez,Grenoble,7,7,False
-F2,2425,2024-10-05,Ajaccio,Martigues,8,8,False
-F2,2425,2024-10-05,Caen,Lorient,5,8,False
+F2,2425,2024-10-04,Dunkerque,Troyes,7,6,False
+F2,2425,2024-10-04,Annecy,Red Star,7,6,False
 F2,2425,2024-10-05,Clermont,Guingamp,8,5,False
 F2,2425,2024-10-05,Metz,Amiens,7,8,False
-F2,2425,2024-10-18,Bastia,Clermont,21,13,False
-F2,2425,2024-10-18,Grenoble,Metz,14,13,False
+F2,2425,2024-10-05,Ajaccio,Martigues,8,8,False
+F2,2425,2024-10-05,Caen,Lorient,5,8,False
 F2,2425,2024-10-18,Guingamp,Pau FC,13,21,False
 F2,2425,2024-10-18,Laval,Dunkerque,14,14,False
 F2,2425,2024-10-18,Martigues,Rodez,13,14,False
 F2,2425,2024-10-18,Red Star,Caen,14,13,False
-F2,2425,2024-10-19,Amiens,Ajaccio,14,14,False
+F2,2425,2024-10-18,Bastia,Clermont,21,13,False
+F2,2425,2024-10-18,Grenoble,Metz,14,13,False
 F2,2425,2024-10-19,Lorient,Annecy,14,15,False
+F2,2425,2024-10-19,Amiens,Ajaccio,14,14,False
 F2,2425,2024-10-21,Troyes,Paris FC,17,17,False
 F2,2425,2024-10-22,Pau FC,Bastia,4,4,True
-F2,2425,2024-10-25,Annecy,Laval,6,7,False
-F2,2425,2024-10-25,Clermont,Martigues,7,7,False
-F2,2425,2024-10-25,Dunkerque,Red Star,7,7,False
-F2,2425,2024-10-25,Metz,Guingamp,7,7,False
 F2,2425,2024-10-25,Pau FC,Amiens,3,6,False
 F2,2425,2024-10-25,Rodez,Lorient,7,6,False
-F2,2425,2024-10-26,Caen,Troyes,8,5,False
+F2,2425,2024-10-25,Annecy,Laval,6,7,False
+F2,2425,2024-10-25,Metz,Guingamp,7,7,False
+F2,2425,2024-10-25,Clermont,Martigues,7,7,False
+F2,2425,2024-10-25,Dunkerque,Red Star,7,7,False
 F2,2425,2024-10-26,Paris FC,Grenoble,5,8,False
-F2,2425,2024-10-29,Amiens,Paris FC,4,3,True
-F2,2425,2024-10-29,Bastia,Rodez,7,4,True
+F2,2425,2024-10-26,Caen,Troyes,8,5,False
 F2,2425,2024-10-29,Grenoble,Annecy,3,4,True
 F2,2425,2024-10-29,Guingamp,Ajaccio,4,10,True
 F2,2425,2024-10-29,Laval,Clermont,4,4,True
@@ -95,105 +95,107 @@ F2,2425,2024-10-29,Lorient,Dunkerque,4,4,True
 F2,2425,2024-10-29,Martigues,Caen,4,3,True
 F2,2425,2024-10-29,Red Star,Metz,4,4,True
 F2,2425,2024-10-29,Troyes,Pau FC,3,4,True
-F2,2425,2024-11-01,Annecy,Pau FC,3,3,False
-F2,2425,2024-11-01,Clermont,Lorient,3,3,False
+F2,2425,2024-10-29,Amiens,Paris FC,4,3,True
+F2,2425,2024-10-29,Bastia,Rodez,7,4,True
 F2,2425,2024-11-01,Dunkerque,Amiens,3,3,False
 F2,2425,2024-11-01,Martigues,Red Star,3,3,False
 F2,2425,2024-11-01,Paris FC,Rodez,3,3,False
 F2,2425,2024-11-01,Troyes,Laval,3,3,False
+F2,2425,2024-11-01,Clermont,Lorient,3,3,False
+F2,2425,2024-11-01,Annecy,Pau FC,3,3,False
 F2,2425,2024-11-02,Caen,Bastia,4,4,False
 F2,2425,2024-11-02,Guingamp,Grenoble,4,4,False
 F2,2425,2024-11-04,Ajaccio,Metz,6,6,False
-F2,2425,2024-11-08,Ajaccio,Clermont,4,7,False
-F2,2425,2024-11-08,Amiens,Martigues,7,7,False
 F2,2425,2024-11-08,Grenoble,Dunkerque,6,7,False
 F2,2425,2024-11-08,Laval,Bastia,7,6,False
 F2,2425,2024-11-08,Red Star,Troyes,7,7,False
 F2,2425,2024-11-08,Rodez,Annecy,7,7,False
+F2,2425,2024-11-08,Amiens,Martigues,7,7,False
+F2,2425,2024-11-08,Ajaccio,Clermont,4,7,False
+F2,2425,2024-11-09,Metz,Caen,5,7,False
 F2,2425,2024-11-09,Lorient,Guingamp,8,7,False
 F2,2425,2024-11-09,Pau FC,Paris FC,8,8,False
-F2,2425,2024-11-09,Metz,Caen,5,7,False
+F2,2425,2024-11-22,Guingamp,Amiens,13,14,False
 F2,2425,2024-11-22,Caen,Rodez,13,14,False
 F2,2425,2024-11-22,Clermont,Metz,14,13,False
-F2,2425,2024-11-22,Guingamp,Amiens,13,14,False
 F2,2425,2024-11-22,Martigues,Laval,14,14,False
 F2,2425,2024-11-22,Pau FC,Red Star,13,14,False
 F2,2425,2024-11-22,Troyes,Grenoble,14,14,False
-F2,2425,2024-11-23,Paris FC,Annecy,14,15,False
 F2,2425,2024-11-23,Bastia,Lorient,15,14,False
+F2,2425,2024-11-23,Paris FC,Annecy,14,15,False
 F2,2425,2024-11-25,Dunkerque,Ajaccio,17,17,False
 F2,2425,2024-12-03,Ajaccio,Bastia,8,10,True
-F2,2425,2024-12-06,Annecy,Clermont,13,14,False
-F2,2425,2024-12-06,Laval,Caen,14,14,False
 F2,2425,2024-12-06,Lorient,Troyes,13,14,False
 F2,2425,2024-12-06,Martigues,Guingamp,14,14,False
 F2,2425,2024-12-06,Red Star,Bastia,14,3,False
 F2,2425,2024-12-06,Rodez,Pau FC,14,14,False
+F2,2425,2024-12-06,Laval,Caen,14,14,False
+F2,2425,2024-12-06,Annecy,Clermont,13,14,False
 F2,2425,2024-12-07,Grenoble,Amiens,15,15,False
 F2,2425,2024-12-07,Ajaccio,Paris FC,4,14,False
 F2,2425,2024-12-09,Metz,Dunkerque,17,14,False
-F2,2425,2024-12-13,Amiens,Laval,6,7,False
-F2,2425,2024-12-13,Bastia,Guingamp,7,7,False
 F2,2425,2024-12-13,Clermont,Rodez,7,7,False
 F2,2425,2024-12-13,Pau FC,Ajaccio,7,6,False
 F2,2425,2024-12-13,Troyes,Martigues,7,7,False
+F2,2425,2024-12-13,Bastia,Guingamp,7,7,False
+F2,2425,2024-12-13,Amiens,Laval,6,7,False
+F2,2425,2024-12-14,Annecy,Metz,8,5,False
 F2,2425,2024-12-14,Lorient,Paris FC,8,7,False
 F2,2425,2024-12-14,Red Star,Grenoble,8,7,False
-F2,2425,2024-12-14,Annecy,Metz,8,5,False
 F2,2425,2024-12-16,Dunkerque,Caen,7,10,False
-F2,2425,2025-01-03,Ajaccio,Annecy,21,20,False
-F2,2425,2025-01-03,Amiens,Troyes,21,21,False
 F2,2425,2025-01-03,Caen,Clermont,18,21,False
 F2,2425,2025-01-03,Grenoble,Bastia,20,21,False
 F2,2425,2025-01-03,Paris FC,Martigues,20,21,False
 F2,2425,2025-01-03,Rodez,Red Star,21,20,False
+F2,2425,2025-01-03,Amiens,Troyes,21,21,False
+F2,2425,2025-01-03,Ajaccio,Annecy,21,20,False
+F2,2425,2025-01-04,Laval,Lorient,22,21,False
 F2,2425,2025-01-04,Guingamp,Dunkerque,22,19,False
 F2,2425,2025-01-04,Metz,Pau FC,21,22,False
-F2,2425,2025-01-04,Laval,Lorient,22,21,False
+F2,2425,2025-01-10,Martigues,Clermont,7,7,False
 F2,2425,2025-01-10,Annecy,Guingamp,7,6,False
 F2,2425,2025-01-10,Laval,Red Star,6,7,False
-F2,2425,2025-01-10,Martigues,Clermont,7,7,False
 F2,2425,2025-01-10,Pau FC,Dunkerque,6,6,False
 F2,2425,2025-01-10,Rodez,Troyes,7,7,False
+F2,2425,2025-01-11,Lorient,Metz,7,7,False
+F2,2425,2025-01-11,Paris FC,Amiens,8,8,False
 F2,2425,2025-01-11,Bastia,Ajaccio,8,8,False
 F2,2425,2025-01-11,Caen,Grenoble,8,8,False
-F2,2425,2025-01-11,Paris FC,Amiens,8,8,False
-F2,2425,2025-01-11,Lorient,Metz,7,7,False
-F2,2425,2025-01-17,Ajaccio,Caen,6,6,False
-F2,2425,2025-01-17,Amiens,Bastia,6,6,False
 F2,2425,2025-01-17,Grenoble,Martigues,6,7,False
 F2,2425,2025-01-17,Guingamp,Rodez,7,7,False
 F2,2425,2025-01-17,Red Star,Pau FC,7,7,False
+F2,2425,2025-01-17,Ajaccio,Caen,6,6,False
+F2,2425,2025-01-17,Amiens,Bastia,6,6,False
+F2,2425,2025-01-18,Dunkerque,Lorient,8,7,False
 F2,2425,2025-01-18,Clermont,Laval,8,8,False
 F2,2425,2025-01-18,Metz,Paris FC,7,7,False
-F2,2425,2025-01-18,Dunkerque,Lorient,8,7,False
 F2,2425,2025-01-20,Troyes,Annecy,10,10,False
-F2,2425,2025-01-24,Bastia,Pau FC,7,7,False
-F2,2425,2025-01-24,Caen,Guingamp,7,7,False
 F2,2425,2025-01-24,Laval,Troyes,6,4,False
 F2,2425,2025-01-24,Martigues,Amiens,7,7,False
 F2,2425,2025-01-24,Metz,Grenoble,6,7,False
 F2,2425,2025-01-24,Rodez,Ajaccio,7,7,False
+F2,2425,2025-01-24,Caen,Guingamp,7,7,False
+F2,2425,2025-01-24,Bastia,Pau FC,7,7,False
 F2,2425,2025-01-25,Paris FC,Red Star,7,8,False
 F2,2425,2025-01-25,Lorient,Clermont,7,7,False
 F2,2425,2025-01-27,Annecy,Dunkerque,7,9,False
-F2,2425,2025-01-31,Amiens,Annecy,7,4,False
-F2,2425,2025-01-31,Bastia,Metz,7,7,False
 F2,2425,2025-01-31,Clermont,Ajaccio,6,7,False
 F2,2425,2025-01-31,Dunkerque,Martigues,4,7,False
 F2,2425,2025-01-31,Grenoble,Rodez,7,7,False
 F2,2425,2025-01-31,Pau FC,Laval,7,7,False
+F2,2425,2025-01-31,Bastia,Metz,7,7,False
+F2,2425,2025-01-31,Amiens,Annecy,7,4,False
+F2,2425,2025-02-01,Guingamp,Paris FC,8,7,False
 F2,2425,2025-02-01,Red Star,Lorient,7,7,False
 F2,2425,2025-02-01,Troyes,Caen,8,8,False
-F2,2425,2025-02-01,Guingamp,Paris FC,8,7,False
-F2,2425,2025-02-07,Grenoble,Red Star,7,6,False
-F2,2425,2025-02-07,Laval,Annecy,7,7,False
 F2,2425,2025-02-07,Martigues,Troyes,7,6,False
 F2,2425,2025-02-07,Paris FC,Pau FC,6,7,False
 F2,2425,2025-02-07,Rodez,Bastia,7,7,False
+F2,2425,2025-02-07,Grenoble,Red Star,7,6,False
+F2,2425,2025-02-07,Laval,Annecy,7,7,False
+F2,2425,2025-02-08,Metz,Clermont,8,8,False
 F2,2425,2025-02-08,Ajaccio,Guingamp,8,7,False
 F2,2425,2025-02-08,Lorient,Amiens,7,8,False
-F2,2425,2025-02-08,Metz,Clermont,8,8,False
 F2,2425,2025-02-10,Caen,Dunkerque,9,10,False
 F2,2425,2025-02-14,Ajaccio,Laval,6,7,False
 F2,2425,2025-02-14,Amiens,Grenoble,6,7,False
@@ -201,33 +203,33 @@ F2,2425,2025-02-14,Clermont,Bastia,6,7,False
 F2,2425,2025-02-14,Pau FC,Rodez,7,7,False
 F2,2425,2025-02-14,Red Star,Martigues,7,7,False
 F2,2425,2025-02-14,Troyes,Lorient,7,6,False
-F2,2425,2025-02-15,Dunkerque,Paris FC,5,8,False
 F2,2425,2025-02-15,Guingamp,Metz,7,7,False
+F2,2425,2025-02-15,Dunkerque,Paris FC,5,8,False
 F2,2425,2025-02-17,Annecy,Caen,10,7,False
-F2,2425,2025-02-21,Bastia,Red Star,7,7,False
-F2,2425,2025-02-21,Dunkerque,Clermont,6,7,False
 F2,2425,2025-02-21,Grenoble,Guingamp,7,6,False
 F2,2425,2025-02-21,Martigues,Annecy,7,4,False
 F2,2425,2025-02-21,Paris FC,Troyes,6,7,False
 F2,2425,2025-02-21,Rodez,Amiens,7,7,False
+F2,2425,2025-02-21,Dunkerque,Clermont,6,7,False
+F2,2425,2025-02-21,Bastia,Red Star,7,7,False
+F2,2425,2025-02-22,Metz,Ajaccio,7,8,False
 F2,2425,2025-02-22,Caen,Pau FC,5,8,False
 F2,2425,2025-02-22,Lorient,Laval,8,8,False
-F2,2425,2025-02-22,Metz,Ajaccio,7,8,False
-F2,2425,2025-02-28,Annecy,Paris FC,7,7,False
-F2,2425,2025-02-28,Clermont,Caen,7,6,False
 F2,2425,2025-02-28,Laval,Martigues,6,7,False
 F2,2425,2025-02-28,Pau FC,Grenoble,6,7,False
 F2,2425,2025-02-28,Troyes,Bastia,7,7,False
+F2,2425,2025-02-28,Annecy,Paris FC,7,7,False
+F2,2425,2025-02-28,Clermont,Caen,7,6,False
+F2,2425,2025-03-01,Lorient,Rodez,7,8,False
 F2,2425,2025-03-01,Amiens,Metz,8,7,False
 F2,2425,2025-03-01,Red Star,Guingamp,8,8,False
-F2,2425,2025-03-01,Lorient,Rodez,7,8,False
 F2,2425,2025-03-03,Ajaccio,Dunkerque,9,10,False
-F2,2425,2025-03-07,Bastia,Martigues,7,7,False
-F2,2425,2025-03-07,Caen,Laval,7,7,False
 F2,2425,2025-03-07,Grenoble,Ajaccio,7,4,False
 F2,2425,2025-03-07,Guingamp,Clermont,6,7,False
 F2,2425,2025-03-07,Pau FC,Troyes,7,7,False
 F2,2425,2025-03-07,Red Star,Amiens,6,6,False
+F2,2425,2025-03-07,Caen,Laval,7,7,False
+F2,2425,2025-03-07,Bastia,Martigues,7,7,False
 F2,2425,2025-03-08,Paris FC,Lorient,8,7,False
 F2,2425,2025-03-08,Metz,Annecy,7,8,False
 F2,2425,2025-03-10,Rodez,Dunkerque,9,7,False
@@ -240,53 +242,51 @@ F2,2425,2025-03-14,Troyes,Guingamp,7,7,False
 F2,2425,2025-03-15,Dunkerque,Metz,5,7,False
 F2,2425,2025-03-15,Laval,Paris FC,8,7,False
 F2,2425,2025-03-15,Lorient,Bastia,7,8,False
-F2,2425,2025-03-28,Bastia,Dunkerque,13,13,False
-F2,2425,2025-03-28,Clermont,Amiens,14,14,False
+F2,2425,2025-03-28,Red Star,Rodez,14,14,False
 F2,2425,2025-03-28,Martigues,Ajaccio,14,14,False
 F2,2425,2025-03-28,Metz,Troyes,13,14,False
 F2,2425,2025-03-28,Pau FC,Annecy,14,14,False
-F2,2425,2025-03-28,Red Star,Rodez,14,14,False
+F2,2425,2025-03-28,Bastia,Dunkerque,13,13,False
+F2,2425,2025-03-28,Clermont,Amiens,14,14,False
 F2,2425,2025-03-29,Grenoble,Lorient,15,14,False
 F2,2425,2025-03-29,Guingamp,Laval,15,14,False
 F2,2425,2025-03-31,Paris FC,Caen,16,17,False
-F2,2425,2025-04-04,Ajaccio,Amiens,7,7,False
-F2,2425,2025-04-04,Annecy,Bastia,7,7,False
 F2,2425,2025-04-04,Laval,Grenoble,6,6,False
 F2,2425,2025-04-04,Paris FC,Clermont,4,7,False
 F2,2425,2025-04-04,Rodez,Martigues,7,7,False
+F2,2425,2025-04-04,Annecy,Bastia,7,7,False
+F2,2425,2025-04-04,Ajaccio,Amiens,7,7,False
+F2,2425,2025-04-05,Troyes,Red Star,8,8,False
 F2,2425,2025-04-05,Caen,Metz,5,8,False
 F2,2425,2025-04-05,Lorient,Pau FC,7,8,False
-F2,2425,2025-04-05,Troyes,Red Star,8,8,False
 F2,2425,2025-04-07,Dunkerque,Guingamp,10,9,False
-F2,2425,2025-04-11,Amiens,Dunkerque,7,4,False
-F2,2425,2025-04-11,Martigues,Metz,7,6,False
 F2,2425,2025-04-11,Pau FC,Clermont,6,7,False
 F2,2425,2025-04-11,Red Star,Annecy,6,7,False
 F2,2425,2025-04-11,Rodez,Caen,7,6,False
 F2,2425,2025-04-11,Troyes,Ajaccio,6,7,False
+F2,2425,2025-04-11,Martigues,Metz,7,6,False
+F2,2425,2025-04-11,Amiens,Dunkerque,7,4,False
 F2,2425,2025-04-12,Guingamp,Lorient,5,7,False
 F2,2425,2025-04-12,Grenoble,Paris FC,8,8,False
 F2,2425,2025-04-14,Bastia,Laval,10,10,False
+F2,2425,2025-04-18,Laval,Rodez,4,7,False
 F2,2425,2025-04-18,Ajaccio,Pau FC,7,7,False
 F2,2425,2025-04-18,Amiens,Guingamp,7,6,False
 F2,2425,2025-04-18,Caen,Martigues,7,7,False
 F2,2425,2025-04-18,Clermont,Troyes,7,7,False
 F2,2425,2025-04-18,Dunkerque,Grenoble,7,6,False
-F2,2425,2025-04-18,Laval,Rodez,4,7,False
-F2,2425,2025-04-19,Paris FC,Bastia,7,5,False
 F2,2425,2025-04-19,Metz,Red Star,8,8,False
+F2,2425,2025-04-19,Paris FC,Bastia,7,5,False
 F2,2425,2025-04-21,Annecy,Lorient,10,9,False
-F2,2425,2025-04-25,Annecy,Ajaccio,4,7,False
-F2,2425,2025-04-25,Bastia,Grenoble,6,7,False
 F2,2425,2025-04-25,Guingamp,Martigues,7,7,False
 F2,2425,2025-04-25,Laval,Amiens,7,7,False
 F2,2425,2025-04-25,Red Star,Clermont,6,7,False
 F2,2425,2025-04-25,Troyes,Dunkerque,7,7,False
+F2,2425,2025-04-25,Bastia,Grenoble,6,7,False
+F2,2425,2025-04-25,Annecy,Ajaccio,4,7,False
+F2,2425,2025-04-26,Pau FC,Metz,8,7,False
 F2,2425,2025-04-26,Rodez,Paris FC,8,7,False
 F2,2425,2025-04-26,Lorient,Caen,5,8,False
-F2,2425,2025-04-26,Pau FC,Metz,8,7,False
-F2,2425,2025-05-02,Ajaccio,Lorient,7,6,False
-F2,2425,2025-05-02,Amiens,Pau FC,7,6,False
 F2,2425,2025-05-02,Caen,Red Star,6,7,False
 F2,2425,2025-05-02,Clermont,Annecy,7,7,False
 F2,2425,2025-05-02,Dunkerque,Laval,7,7,False
@@ -294,8 +294,8 @@ F2,2425,2025-05-02,Grenoble,Troyes,7,7,False
 F2,2425,2025-05-02,Guingamp,Bastia,7,7,False
 F2,2425,2025-05-02,Martigues,Paris FC,7,6,False
 F2,2425,2025-05-02,Metz,Rodez,6,6,False
-F2,2425,2025-05-10,Annecy,Grenoble,8,8,False
-F2,2425,2025-05-10,Bastia,Caen,8,8,False
+F2,2425,2025-05-02,Ajaccio,Lorient,7,6,False
+F2,2425,2025-05-02,Amiens,Pau FC,7,6,False
 F2,2425,2025-05-10,Laval,Metz,8,8,False
 F2,2425,2025-05-10,Lorient,Martigues,8,8,False
 F2,2425,2025-05-10,Paris FC,Ajaccio,8,8,False
@@ -303,3 +303,5 @@ F2,2425,2025-05-10,Pau FC,Guingamp,8,8,False
 F2,2425,2025-05-10,Red Star,Dunkerque,8,8,False
 F2,2425,2025-05-10,Rodez,Clermont,8,8,False
 F2,2425,2025-05-10,Troyes,Amiens,8,8,False
+F2,2425,2025-05-10,Annecy,Grenoble,8,8,False
+F2,2425,2025-05-10,Bastia,Caen,8,8,False

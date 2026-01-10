@@ -1,33 +1,35 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-F2,2223,2022-07-30,Dijon,St Etienne,77,7,False
-F2,2223,2022-07-30,Bastia,Laval,77,1698,False
-F2,2223,2022-07-30,Bordeaux,Valenciennes,7,77,False
-F2,2223,2022-07-30,Guingamp,Pau FC,77,77,False
-F2,2223,2022-07-30,Le Havre,Grenoble,77,77,False
 F2,2223,2022-07-30,Metz,Amiens,1170,77,False
 F2,2223,2022-07-30,Nimes,Caen,77,77,False
 F2,2223,2022-07-30,Quevilly Rouen,Rodez,77,77,False
+F2,2223,2022-07-30,Guingamp,Pau FC,77,77,False
+F2,2223,2022-07-30,Bastia,Laval,77,1698,False
+F2,2223,2022-07-30,Dijon,St Etienne,77,7,False
+F2,2223,2022-07-30,Annecy,Niort,77,77,False
+F2,2223,2022-07-30,Bordeaux,Valenciennes,7,77,False
+F2,2223,2022-07-30,Le Havre,Grenoble,77,77,False
 F2,2223,2022-08-01,Sochaux,Paris FC,79,79,False
-F2,2223,2022-08-06,St Etienne,Nimes,7,7,False
-F2,2223,2022-08-06,Amiens,Annecy,7,84,False
-F2,2223,2022-08-06,Grenoble,Sochaux,7,5,False
 F2,2223,2022-08-06,Laval,Guingamp,7,7,False
-F2,2223,2022-08-06,Niort,Bastia,84,7,False
+F2,2223,2022-08-06,Niort,Bastia,7,7,False
 F2,2223,2022-08-06,Paris FC,Quevilly Rouen,5,7,False
 F2,2223,2022-08-06,Pau FC,Dijon,7,7,False
 F2,2223,2022-08-06,Rodez,Bordeaux,7,7,False
+F2,2223,2022-08-06,St Etienne,Nimes,7,7,False
 F2,2223,2022-08-06,Valenciennes,Le Havre,7,7,False
+F2,2223,2022-08-06,Grenoble,Sochaux,7,5,False
+F2,2223,2022-08-06,Amiens,Annecy,7,7,False
 F2,2223,2022-08-08,Caen,Metz,9,9,False
-F2,2223,2022-08-13,Guingamp,Paris FC,7,7,False
 F2,2223,2022-08-13,Annecy,Laval,7,7,False
 F2,2223,2022-08-13,Bastia,Grenoble,7,7,False
 F2,2223,2022-08-13,Bordeaux,Niort,7,7,False
 F2,2223,2022-08-13,Dijon,Caen,7,5,False
-F2,2223,2022-08-13,Le Havre,Pau FC,7,7,False
+F2,2223,2022-08-13,Guingamp,Paris FC,7,7,False
 F2,2223,2022-08-13,Metz,Valenciennes,5,7,False
 F2,2223,2022-08-13,Nimes,Rodez,7,7,False
 F2,2223,2022-08-13,Sochaux,Amiens,7,7,False
+F2,2223,2022-08-13,Le Havre,Pau FC,7,7,False
 F2,2223,2022-08-15,Quevilly Rouen,St Etienne,9,9,False
+F2,2223,2022-08-20,Valenciennes,Quevilly Rouen,7,5,False
 F2,2223,2022-08-20,St Etienne,Le Havre,5,7,False
 F2,2223,2022-08-20,Amiens,Bastia,7,7,False
 F2,2223,2022-08-20,Caen,Guingamp,7,7,False
@@ -36,19 +38,17 @@ F2,2223,2022-08-20,Laval,Metz,7,7,False
 F2,2223,2022-08-20,Niort,Paris FC,7,7,False
 F2,2223,2022-08-20,Pau FC,Sochaux,7,7,False
 F2,2223,2022-08-20,Rodez,Annecy,7,7,False
-F2,2223,2022-08-20,Valenciennes,Quevilly Rouen,7,5,False
 F2,2223,2022-08-22,Grenoble,Bordeaux,9,9,False
+F2,2223,2022-08-27,Nimes,Laval,7,7,False
 F2,2223,2022-08-27,Bordeaux,Guingamp,5,7,False
 F2,2223,2022-08-27,Metz,Dijon,7,7,False
 F2,2223,2022-08-27,Annecy,Grenoble,7,5,False
 F2,2223,2022-08-27,Bastia,Rodez,7,7,False
 F2,2223,2022-08-27,Le Havre,Amiens,7,7,False
-F2,2223,2022-08-27,Nimes,Laval,7,7,False
 F2,2223,2022-08-27,Paris FC,Caen,7,7,False
 F2,2223,2022-08-27,Quevilly Rouen,Pau FC,7,7,False
 F2,2223,2022-08-27,Sochaux,Niort,7,7,False
 F2,2223,2022-08-27,Valenciennes,St Etienne,7,7,False
-F2,2223,2022-08-30,Amiens,Paris FC,3,3,True
 F2,2223,2022-08-30,Bordeaux,Quevilly Rouen,3,3,True
 F2,2223,2022-08-30,Caen,Pau FC,3,3,True
 F2,2223,2022-08-30,Dijon,Annecy,3,3,True
@@ -58,16 +58,16 @@ F2,2223,2022-08-30,Laval,Le Havre,3,3,True
 F2,2223,2022-08-30,Niort,Valenciennes,3,3,True
 F2,2223,2022-08-30,Rodez,Metz,3,3,True
 F2,2223,2022-08-30,St Etienne,Bastia,3,3,True
-F2,2223,2022-09-02,Amiens,Grenoble,3,3,False
+F2,2223,2022-08-30,Amiens,Paris FC,3,3,True
 F2,2223,2022-09-02,Bastia,Dijon,3,3,False
 F2,2223,2022-09-02,Le Havre,Caen,3,3,False
 F2,2223,2022-09-02,Metz,Annecy,3,3,False
 F2,2223,2022-09-02,Quevilly Rouen,Niort,3,3,False
 F2,2223,2022-09-02,Sochaux,Laval,3,3,False
 F2,2223,2022-09-02,Valenciennes,Nimes,3,3,False
+F2,2223,2022-09-02,Amiens,Grenoble,3,3,False
 F2,2223,2022-09-03,Paris FC,Bordeaux,4,4,False
 F2,2223,2022-09-05,Pau FC,St Etienne,6,6,False
-F2,2223,2022-09-10,St Etienne,Bordeaux,5,7,False
 F2,2223,2022-09-10,Annecy,Quevilly Rouen,8,8,False
 F2,2223,2022-09-10,Caen,Amiens,8,8,False
 F2,2223,2022-09-10,Dijon,Sochaux,8,8,False
@@ -76,17 +76,19 @@ F2,2223,2022-09-10,Laval,Pau FC,8,5,False
 F2,2223,2022-09-10,Nimes,Bastia,8,8,False
 F2,2223,2022-09-10,Niort,Le Havre,8,8,False
 F2,2223,2022-09-10,Rodez,Valenciennes,11,8,False
+F2,2223,2022-09-10,St Etienne,Bordeaux,5,7,False
 F2,2223,2022-09-12,Metz,Guingamp,10,13,False
-F2,2223,2022-09-17,Bordeaux,Dijon,7,7,False
 F2,2223,2022-09-17,Guingamp,St Etienne,5,7,False
 F2,2223,2022-09-17,Amiens,Niort,7,7,False
 F2,2223,2022-09-17,Bastia,Metz,7,5,False
 F2,2223,2022-09-17,Grenoble,Caen,7,7,False
-F2,2223,2022-09-17,Le Havre,Annecy,7,7,False
+F2,2223,2022-09-17,Bordeaux,Dijon,7,7,False
 F2,2223,2022-09-17,Paris FC,Rodez,7,7,False
 F2,2223,2022-09-17,Pau FC,Valenciennes,7,7,False
 F2,2223,2022-09-17,Quevilly Rouen,Laval,7,7,False
 F2,2223,2022-09-17,Sochaux,Nimes,7,7,False
+F2,2223,2022-09-17,Le Havre,Annecy,7,7,False
+F2,2223,2022-10-01,Rodez,Amiens,14,14,False
 F2,2223,2022-10-01,St Etienne,Grenoble,14,14,False
 F2,2223,2022-10-01,Annecy,Bastia,14,14,False
 F2,2223,2022-10-01,Caen,Quevilly Rouen,14,14,False
@@ -94,61 +96,59 @@ F2,2223,2022-10-01,Dijon,Le Havre,14,14,False
 F2,2223,2022-10-01,Metz,Pau FC,14,14,False
 F2,2223,2022-10-01,Nimes,Paris FC,14,14,False
 F2,2223,2022-10-01,Niort,Guingamp,14,14,False
-F2,2223,2022-10-01,Rodez,Amiens,14,14,False
 F2,2223,2022-10-01,Valenciennes,Sochaux,14,14,False
 F2,2223,2022-10-03,Laval,Bordeaux,16,16,False
 F2,2223,2022-10-04,Guingamp,Rodez,3,3,True
-F2,2223,2022-10-08,Bordeaux,Metz,5,7,False
-F2,2223,2022-10-08,Amiens,Dijon,7,7,False
-F2,2223,2022-10-08,Caen,Niort,7,7,False
-F2,2223,2022-10-08,Grenoble,Laval,7,5,False
-F2,2223,2022-10-08,Guingamp,Annecy,4,7,False
 F2,2223,2022-10-08,Le Havre,Bastia,7,7,False
+F2,2223,2022-10-08,Amiens,Dijon,7,7,False
 F2,2223,2022-10-08,Paris FC,Valenciennes,7,7,False
 F2,2223,2022-10-08,Pau FC,Rodez,7,4,False
 F2,2223,2022-10-08,Quevilly Rouen,Nimes,7,7,False
+F2,2223,2022-10-08,Bordeaux,Metz,5,7,False
+F2,2223,2022-10-08,Grenoble,Laval,7,5,False
+F2,2223,2022-10-08,Guingamp,Annecy,4,7,False
+F2,2223,2022-10-08,Caen,Niort,7,7,False
 F2,2223,2022-10-10,Sochaux,St Etienne,9,9,False
-F2,2223,2022-10-15,St Etienne,Paris FC,5,7,False
 F2,2223,2022-10-15,Annecy,Pau FC,7,7,False
 F2,2223,2022-10-15,Dijon,Quevilly Rouen,7,7,False
 F2,2223,2022-10-15,Laval,Caen,7,7,False
 F2,2223,2022-10-15,Metz,Sochaux,7,5,False
-F2,2223,2022-10-15,Nimes,Amiens,7,7,False
+F2,2223,2022-10-15,St Etienne,Paris FC,5,7,False
 F2,2223,2022-10-15,Niort,Grenoble,7,7,False
 F2,2223,2022-10-15,Rodez,Le Havre,7,7,False
 F2,2223,2022-10-15,Valenciennes,Guingamp,7,7,False
+F2,2223,2022-10-15,Nimes,Amiens,7,7,False
 F2,2223,2022-10-17,Bastia,Bordeaux,9,9,False
+F2,2223,2022-10-22,Niort,Dijon,7,7,False
 F2,2223,2022-10-22,Amiens,St Etienne,7,7,False
 F2,2223,2022-10-22,Bordeaux,Annecy,5,7,False
 F2,2223,2022-10-22,Caen,Rodez,7,7,False
 F2,2223,2022-10-22,Grenoble,Valenciennes,7,7,False
 F2,2223,2022-10-22,Guingamp,Bastia,7,5,False
-F2,2223,2022-10-22,Niort,Dijon,7,7,False
 F2,2223,2022-10-22,Paris FC,Laval,7,7,False
 F2,2223,2022-10-22,Pau FC,Nimes,7,7,False
 F2,2223,2022-10-22,Sochaux,Quevilly Rouen,7,7,False
 F2,2223,2022-10-24,Le Havre,Metz,9,9,False
-F2,2223,2022-11-05,Nimes,Bordeaux,14,14,False
 F2,2223,2022-11-05,Annecy,Sochaux,14,14,False
 F2,2223,2022-11-05,Bastia,Paris FC,14,14,False
 F2,2223,2022-11-05,Dijon,Guingamp,14,14,False
 F2,2223,2022-11-05,Laval,Niort,14,14,False
-F2,2223,2022-11-05,Pau FC,Amiens,14,14,False
+F2,2223,2022-11-05,Nimes,Bordeaux,14,14,False
 F2,2223,2022-11-05,Quevilly Rouen,Le Havre,14,12,False
 F2,2223,2022-11-05,Rodez,Grenoble,14,14,False
 F2,2223,2022-11-05,Valenciennes,Caen,14,14,False
+F2,2223,2022-11-05,Pau FC,Amiens,14,14,False
 F2,2223,2022-11-07,Metz,St Etienne,14,16,False
+F2,2223,2022-11-12,Guingamp,Le Havre,7,7,False
 F2,2223,2022-11-12,St Etienne,Rodez,5,7,False
 F2,2223,2022-11-12,Amiens,Quevilly Rouen,7,7,False
 F2,2223,2022-11-12,Bordeaux,Pau FC,7,7,False
 F2,2223,2022-11-12,Caen,Annecy,7,7,False
 F2,2223,2022-11-12,Grenoble,Dijon,7,7,False
-F2,2223,2022-11-12,Guingamp,Le Havre,7,7,False
 F2,2223,2022-11-12,Laval,Valenciennes,7,7,False
 F2,2223,2022-11-12,Niort,Nimes,7,7,False
 F2,2223,2022-11-12,Paris FC,Metz,7,5,False
 F2,2223,2022-11-12,Sochaux,Bastia,7,7,False
-F2,2223,2022-12-26,Annecy,St Etienne,44,44,False
 F2,2223,2022-12-26,Le Havre,Bordeaux,44,44,False
 F2,2223,2022-12-26,Bastia,Caen,44,44,False
 F2,2223,2022-12-26,Dijon,Laval,44,44,False
@@ -158,7 +158,7 @@ F2,2223,2022-12-26,Pau FC,Paris FC,44,44,False
 F2,2223,2022-12-26,Quevilly Rouen,Grenoble,44,44,False
 F2,2223,2022-12-26,Sochaux,Rodez,44,44,False
 F2,2223,2022-12-26,Valenciennes,Amiens,44,44,False
-F2,2223,2022-12-30,Bordeaux,Sochaux,4,4,False
+F2,2223,2022-12-26,Annecy,St Etienne,44,44,False
 F2,2223,2022-12-30,St Etienne,Caen,4,4,False
 F2,2223,2022-12-30,Annecy,Nimes,4,4,False
 F2,2223,2022-12-30,Bastia,Valenciennes,4,4,False
@@ -168,7 +168,7 @@ F2,2223,2022-12-30,Laval,Amiens,4,4,False
 F2,2223,2022-12-30,Niort,Pau FC,4,4,False
 F2,2223,2022-12-30,Paris FC,Le Havre,4,4,False
 F2,2223,2022-12-30,Rodez,Dijon,4,4,False
-F2,2223,2023-01-10,Amiens,Guingamp,11,11,True
+F2,2223,2022-12-30,Bordeaux,Sochaux,4,4,False
 F2,2223,2023-01-10,Caen,Bordeaux,11,11,True
 F2,2223,2023-01-10,Le Havre,Sochaux,11,11,True
 F2,2223,2023-01-10,Nimes,Metz,11,11,True
@@ -178,14 +178,15 @@ F2,2223,2023-01-10,Quevilly Rouen,Bastia,11,11,True
 F2,2223,2023-01-10,Rodez,Niort,11,11,True
 F2,2223,2023-01-10,St Etienne,Laval,11,11,True
 F2,2223,2023-01-10,Valenciennes,Annecy,11,11,True
+F2,2223,2023-01-10,Amiens,Guingamp,11,11,True
 F2,2223,2023-01-13,Annecy,Paris FC,3,3,False
-F2,2223,2023-01-13,Bastia,Pau FC,3,3,False
 F2,2223,2023-01-13,Bordeaux,Amiens,3,3,False
 F2,2223,2023-01-13,Dijon,Valenciennes,3,3,False
 F2,2223,2023-01-13,Guingamp,Grenoble,3,3,False
 F2,2223,2023-01-13,Laval,Rodez,3,3,False
 F2,2223,2023-01-13,Le Havre,Nimes,3,3,False
 F2,2223,2023-01-13,Metz,Quevilly Rouen,3,3,False
+F2,2223,2023-01-13,Bastia,Pau FC,3,3,False
 F2,2223,2023-01-16,Niort,St Etienne,6,6,False
 F2,2223,2023-01-20,Sochaux,Caen,10,10,False
 F2,2223,2023-01-28,St Etienne,Sochaux,12,8,False
@@ -198,17 +199,16 @@ F2,2223,2023-01-28,Pau FC,Annecy,15,15,False
 F2,2223,2023-01-28,Quevilly Rouen,Paris FC,15,15,False
 F2,2223,2023-01-28,Rodez,Guingamp,15,15,False
 F2,2223,2023-01-28,Valenciennes,Metz,15,15,False
-F2,2223,2023-01-31,Annecy,Caen,3,3,True
-F2,2223,2023-01-31,Bastia,St Etienne,3,3,True
-F2,2223,2023-01-31,Bordeaux,Le Havre,3,3,True
-F2,2223,2023-01-31,Grenoble,Quevilly Rouen,3,3,True
 F2,2223,2023-01-31,Guingamp,Nimes,3,3,True
 F2,2223,2023-01-31,Laval,Dijon,3,3,True
 F2,2223,2023-01-31,Metz,Rodez,3,3,True
 F2,2223,2023-01-31,Niort,Amiens,3,3,True
 F2,2223,2023-01-31,Paris FC,Pau FC,3,3,True
 F2,2223,2023-01-31,Sochaux,Valenciennes,3,3,True
-F2,2223,2023-02-03,Caen,Bastia,3,3,False
+F2,2223,2023-01-31,Bordeaux,Le Havre,3,3,True
+F2,2223,2023-01-31,Annecy,Caen,3,3,True
+F2,2223,2023-01-31,Bastia,St Etienne,3,3,True
+F2,2223,2023-01-31,Grenoble,Quevilly Rouen,3,3,True
 F2,2223,2023-02-03,Dijon,Niort,3,3,False
 F2,2223,2023-02-03,Le Havre,Paris FC,3,3,False
 F2,2223,2023-02-03,Nimes,Grenoble,3,3,False
@@ -216,9 +216,9 @@ F2,2223,2023-02-03,Pau FC,Bordeaux,3,3,False
 F2,2223,2023-02-03,Quevilly Rouen,Guingamp,3,3,False
 F2,2223,2023-02-03,Rodez,Sochaux,3,3,False
 F2,2223,2023-02-03,Valenciennes,Laval,3,3,False
+F2,2223,2023-02-03,Caen,Bastia,3,3,False
 F2,2223,2023-02-04,St Etienne,Annecy,4,4,False
 F2,2223,2023-02-06,Amiens,Metz,6,6,False
-F2,2223,2023-02-11,St Etienne,Dijon,7,8,False
 F2,2223,2023-02-11,Bastia,Quevilly Rouen,8,8,False
 F2,2223,2023-02-11,Grenoble,Pau FC,8,8,False
 F2,2223,2023-02-11,Guingamp,Valenciennes,8,8,False
@@ -226,17 +226,19 @@ F2,2223,2023-02-11,Laval,Annecy,8,7,False
 F2,2223,2023-02-11,Niort,Bordeaux,8,8,False
 F2,2223,2023-02-11,Rodez,Nimes,8,8,False
 F2,2223,2023-02-11,Sochaux,Le Havre,8,8,False
+F2,2223,2023-02-11,St Etienne,Dijon,7,8,False
 F2,2223,2023-02-13,Metz,Caen,7,10,False
-F2,2223,2023-02-18,Bordeaux,Paris FC,7,15,False
 F2,2223,2023-02-18,Annecy,Amiens,7,12,False
 F2,2223,2023-02-18,Bastia,Guingamp,7,7,False
 F2,2223,2023-02-18,Caen,Grenoble,5,7,False
 F2,2223,2023-02-18,Dijon,Metz,7,5,False
-F2,2223,2023-02-18,Le Havre,Niort,7,7,False
+F2,2223,2023-02-18,Bordeaux,Paris FC,7,15,False
 F2,2223,2023-02-18,Pau FC,Laval,7,7,False
 F2,2223,2023-02-18,Quevilly Rouen,Sochaux,7,7,False
 F2,2223,2023-02-18,Valenciennes,Rodez,7,7,False
+F2,2223,2023-02-18,Le Havre,Niort,7,7,False
 F2,2223,2023-02-20,Nimes,St Etienne,9,9,False
+F2,2223,2023-02-25,St Etienne,Pau FC,5,7,False
 F2,2223,2023-02-25,Grenoble,Le Havre,7,7,False
 F2,2223,2023-02-25,Guingamp,Caen,7,7,False
 F2,2223,2023-02-25,Laval,Quevilly Rouen,7,7,False
@@ -244,42 +246,40 @@ F2,2223,2023-02-25,Metz,Nimes,7,5,False
 F2,2223,2023-02-25,Paris FC,Niort,7,7,False
 F2,2223,2023-02-25,Rodez,Bastia,7,7,False
 F2,2223,2023-02-25,Sochaux,Annecy,7,7,False
-F2,2223,2023-02-25,St Etienne,Pau FC,5,7,False
 F2,2223,2023-02-25,Valenciennes,Dijon,7,7,False
 F2,2223,2023-02-27,Amiens,Bordeaux,9,9,False
-F2,2223,2023-03-04,Bordeaux,St Etienne,5,7,False
-F2,2223,2023-03-04,Amiens,Pau FC,5,7,False
-F2,2223,2023-03-04,Annecy,Metz,7,7,False
 F2,2223,2023-03-04,Bastia,Nimes,7,7,False
 F2,2223,2023-03-04,Dijon,Grenoble,7,7,False
 F2,2223,2023-03-04,Le Havre,Laval,7,7,False
+F2,2223,2023-03-04,Bordeaux,St Etienne,5,7,False
 F2,2223,2023-03-04,Niort,Rodez,7,7,False
 F2,2223,2023-03-04,Paris FC,Guingamp,7,7,False
 F2,2223,2023-03-04,Quevilly Rouen,Valenciennes,7,7,False
+F2,2223,2023-03-04,Annecy,Metz,7,7,False
+F2,2223,2023-03-04,Amiens,Pau FC,5,7,False
 F2,2223,2023-03-06,Caen,Sochaux,9,9,False
-F2,2223,2023-03-11,Sochaux,Bordeaux,5,7,False
 F2,2223,2023-03-11,Grenoble,Annecy,7,7,False
 F2,2223,2023-03-11,Guingamp,Dijon,7,7,False
 F2,2223,2023-03-11,Laval,Paris FC,7,7,False
 F2,2223,2023-03-11,Nimes,Quevilly Rouen,7,7,False
 F2,2223,2023-03-11,Pau FC,Niort,7,7,False
-F2,2223,2023-03-11,Rodez,Caen,7,5,False
+F2,2223,2023-03-11,Sochaux,Bordeaux,5,7,False
 F2,2223,2023-03-11,St Etienne,Amiens,7,7,False
 F2,2223,2023-03-11,Valenciennes,Bastia,7,7,False
+F2,2223,2023-03-11,Rodez,Caen,7,5,False
 F2,2223,2023-03-13,Metz,Le Havre,9,9,False
 F2,2223,2023-03-14,Paris FC,Amiens,3,3,True
+F2,2223,2023-03-18,Dijon,Pau FC,7,7,False
 F2,2223,2023-03-18,Le Havre,St Etienne,5,7,False
 F2,2223,2023-03-18,Amiens,Rodez,4,7,False
 F2,2223,2023-03-18,Annecy,Guingamp,7,7,False
 F2,2223,2023-03-18,Bordeaux,Nimes,7,7,False
 F2,2223,2023-03-18,Caen,Valenciennes,7,7,False
-F2,2223,2023-03-18,Dijon,Pau FC,7,7,False
 F2,2223,2023-03-18,Niort,Laval,7,7,False
 F2,2223,2023-03-18,Paris FC,Bastia,4,7,False
 F2,2223,2023-03-18,Quevilly Rouen,Metz,7,5,False
 F2,2223,2023-03-18,Sochaux,Grenoble,7,7,False
 F2,2223,2023-04-01,St Etienne,Niort,14,14,False
-F2,2223,2023-04-01,Bastia,Sochaux,14,14,False
 F2,2223,2023-04-01,Caen,Dijon,14,14,False
 F2,2223,2023-04-01,Grenoble,Amiens,14,14,False
 F2,2223,2023-04-01,Metz,Laval,14,14,False
@@ -287,6 +287,7 @@ F2,2223,2023-04-01,Nimes,Annecy,14,14,False
 F2,2223,2023-04-01,Pau FC,Le Havre,14,14,False
 F2,2223,2023-04-01,Rodez,Quevilly Rouen,14,14,False
 F2,2223,2023-04-01,Valenciennes,Paris FC,14,14,False
+F2,2223,2023-04-01,Bastia,Sochaux,14,14,False
 F2,2223,2023-04-03,Guingamp,Bordeaux,16,16,False
 F2,2223,2023-04-08,Bordeaux,Bastia,5,7,False
 F2,2223,2023-04-08,Amiens,Nimes,7,7,False
@@ -298,45 +299,45 @@ F2,2223,2023-04-08,Paris FC,St Etienne,7,7,False
 F2,2223,2023-04-08,Pau FC,Metz,7,7,False
 F2,2223,2023-04-08,Quevilly Rouen,Caen,7,7,False
 F2,2223,2023-04-10,Annecy,Valenciennes,9,9,False
-F2,2223,2023-04-15,Metz,Bordeaux,7,7,False
-F2,2223,2023-04-15,Bastia,Annecy,7,5,False
-F2,2223,2023-04-15,Caen,Paris FC,7,7,False
-F2,2223,2023-04-15,Guingamp,Amiens,7,7,False
 F2,2223,2023-04-15,Nimes,Le Havre,7,7,False
 F2,2223,2023-04-15,Quevilly Rouen,Dijon,7,7,False
 F2,2223,2023-04-15,Rodez,Laval,7,7,False
+F2,2223,2023-04-15,Bastia,Annecy,7,5,False
 F2,2223,2023-04-15,Sochaux,Pau FC,7,7,False
 F2,2223,2023-04-15,Valenciennes,Niort,5,7,False
+F2,2223,2023-04-15,Metz,Bordeaux,7,7,False
+F2,2223,2023-04-15,Guingamp,Amiens,7,7,False
+F2,2223,2023-04-15,Caen,Paris FC,7,7,False
 F2,2223,2023-04-17,Grenoble,St Etienne,9,9,False
-F2,2223,2023-04-22,St Etienne,Metz,5,7,False
 F2,2223,2023-04-22,Amiens,Valenciennes,7,7,False
 F2,2223,2023-04-22,Annecy,Rodez,7,7,False
 F2,2223,2023-04-22,Dijon,Bastia,7,7,False
 F2,2223,2023-04-22,Laval,Sochaux,7,7,False
-F2,2223,2023-04-22,Le Havre,Quevilly Rouen,7,7,False
+F2,2223,2023-04-22,St Etienne,Metz,5,7,False
 F2,2223,2023-04-22,Niort,Caen,7,7,False
 F2,2223,2023-04-22,Paris FC,Nimes,7,7,False
 F2,2223,2023-04-22,Pau FC,Guingamp,7,7,False
+F2,2223,2023-04-22,Le Havre,Quevilly Rouen,7,7,False
 F2,2223,2023-04-24,Bordeaux,Grenoble,9,7,False
+F2,2223,2023-04-29,Nimes,Pau FC,7,7,False
 F2,2223,2023-04-29,Caen,Le Havre,7,7,False
 F2,2223,2023-04-29,Bastia,Amiens,7,7,False
 F2,2223,2023-04-29,Grenoble,Niort,5,7,False
 F2,2223,2023-04-29,Guingamp,Laval,7,7,False
 F2,2223,2023-04-29,Metz,Paris FC,7,7,False
-F2,2223,2023-04-29,Nimes,Pau FC,7,7,False
 F2,2223,2023-04-29,Quevilly Rouen,Annecy,7,7,False
 F2,2223,2023-04-29,Rodez,St Etienne,7,7,False
 F2,2223,2023-04-29,Valenciennes,Bordeaux,7,5,False
 F2,2223,2023-05-01,Sochaux,Dijon,9,9,False
-F2,2223,2023-05-06,Bordeaux,Caen,7,7,False
 F2,2223,2023-05-06,Amiens,Sochaux,7,5,False
 F2,2223,2023-05-06,Annecy,Dijon,7,5,False
 F2,2223,2023-05-06,Laval,Bastia,7,7,False
 F2,2223,2023-05-06,Nimes,Valenciennes,7,7,False
-F2,2223,2023-05-06,Niort,Metz,7,7,False
+F2,2223,2023-05-06,Bordeaux,Caen,7,7,False
 F2,2223,2023-05-06,Paris FC,Grenoble,7,7,False
 F2,2223,2023-05-06,Pau FC,Quevilly Rouen,7,7,False
 F2,2223,2023-05-06,St Etienne,Guingamp,7,7,False
+F2,2223,2023-05-06,Niort,Metz,7,7,False
 F2,2223,2023-05-08,Le Havre,Rodez,9,9,False
 F2,2223,2023-05-13,Quevilly Rouen,Bordeaux,7,7,False
 F2,2223,2023-05-13,Bastia,Niort,7,7,False
@@ -349,7 +350,6 @@ F2,2223,2023-05-13,Sochaux,Guingamp,7,7,False
 F2,2223,2023-05-13,Valenciennes,Pau FC,7,7,False
 F2,2223,2023-05-15,Annecy,Le Havre,9,7,False
 F2,2223,2023-05-19,Grenoble,Rodez,6,6,False
-F2,2223,2023-05-20,Bordeaux,Laval,7,7,False
 F2,2223,2023-05-20,Amiens,Caen,7,7,False
 F2,2223,2023-05-20,Guingamp,Metz,7,7,False
 F2,2223,2023-05-20,Nimes,Dijon,7,7,False
@@ -357,8 +357,8 @@ F2,2223,2023-05-20,Niort,Annecy,7,5,False
 F2,2223,2023-05-20,Paris FC,Sochaux,7,7,False
 F2,2223,2023-05-20,Pau FC,Bastia,7,7,False
 F2,2223,2023-05-20,St Etienne,Quevilly Rouen,7,7,False
+F2,2223,2023-05-20,Bordeaux,Laval,7,7,False
 F2,2223,2023-05-22,Le Havre,Valenciennes,7,9,False
-F2,2223,2023-05-26,Annecy,Bordeaux,6,6,False
 F2,2223,2023-05-26,Bastia,Le Havre,6,4,False
 F2,2223,2023-05-26,Caen,St Etienne,6,6,False
 F2,2223,2023-05-26,Dijon,Paris FC,6,6,False
@@ -368,7 +368,7 @@ F2,2223,2023-05-26,Quevilly Rouen,Amiens,6,6,False
 F2,2223,2023-05-26,Rodez,Pau FC,7,6,False
 F2,2223,2023-05-26,Sochaux,Metz,6,6,False
 F2,2223,2023-05-26,Valenciennes,Grenoble,4,7,False
-F2,2223,2023-06-02,Amiens,Laval,7,7,False
+F2,2223,2023-05-26,Annecy,Bordeaux,6,6,False
 F2,2223,2023-06-02,Grenoble,Guingamp,7,7,False
 F2,2223,2023-06-02,Le Havre,Dijon,7,7,False
 F2,2223,2023-06-02,Metz,Bastia,7,7,False
@@ -377,3 +377,4 @@ F2,2223,2023-06-02,Niort,Quevilly Rouen,7,7,False
 F2,2223,2023-06-02,Paris FC,Annecy,7,7,False
 F2,2223,2023-06-02,Pau FC,Caen,7,7,False
 F2,2223,2023-06-02,St Etienne,Valenciennes,7,7,False
+F2,2223,2023-06-02,Amiens,Laval,7,7,False

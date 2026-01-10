@@ -3,8 +3,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8772,Frosinone,8775,Brescia,1617,2,0,0.0,1.5
 8776,Pisa,9340,Pro Vercelli,1617,2,2,1.0,1.0
 8766,Spezia,8796,Trapani,1617,2,2,1.0,2.0
-8757,Cesena,8789,Benevento,1617,2,0,0.0,4.0
 8788,Perugia,8800,Verona,1617,2,2,1.0,3.0
+8757,Cesena,8789,Benevento,1617,2,0,0.0,4.0
 8768,Venezia,8773,Avellino,1617,2,1,0.5,2.0
 8766,Spezia,8768,Venezia,1617,2,1,0.5,0.5
 8775,Brescia,8782,Ternana,1617,2,0,0.0,2.0
@@ -42,14 +42,14 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8788,Perugia,9341,Latina,1617,2,2,1.0,3.0
 8766,Spezia,8773,Avellino,1617,2,0,0.0,2.0
 8757,Cesena,8768,Venezia,1617,2,2,1.0,1.0
-8782,Ternana,8790,Spal,1617,2,0,0.0,3.5
 8769,Bari,8781,Ascoli,1617,2,1,0.5,1.5
+8782,Ternana,8790,Spal,1617,2,0,0.0,3.5
 8775,Brescia,8799,Carpi,1617,2,1,0.5,3.5
 8757,Cesena,9339,Novara,1617,2,0,0.0,2.5
 8782,Ternana,9339,Novara,1617,2,0,0.0,5.0
 8760,Virtus Entella,8799,Carpi,1617,2,0,0.0,2.5
-8768,Venezia,9341,Latina,1617,2,0,0.0,1.0
 8766,Spezia,8800,Verona,1617,2,0,0.0,3.0
+8768,Venezia,9341,Latina,1617,2,0,0.0,1.0
 8769,Bari,8788,Perugia,1617,2,1,0.5,0.5
 8788,Perugia,9340,Pro Vercelli,1617,2,0,0.0,1.0
 8781,Ascoli,8796,Trapani,1617,2,2,1.0,3.0
@@ -57,12 +57,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8778,Cittadella,8782,Ternana,1617,2,0,0.0,1.5
 8773,Avellino,8782,Ternana,1617,2,0,0.0,3.0
 8760,Virtus Entella,9340,Pro Vercelli,1617,2,1,0.5,0.5
-8766,Spezia,8789,Benevento,1617,2,0,0.0,2.5
 8776,Pisa,9341,Latina,1617,2,2,1.0,2.0
+8766,Spezia,8789,Benevento,1617,2,0,0.0,2.5
 8781,Ascoli,8790,Spal,1617,2,2,1.0,2.0
 8777,Salernitana,8789,Benevento,1617,2,1,0.5,2.5
-8760,Virtus Entella,8800,Verona,1617,2,0,0.0,2.0
 8777,Salernitana,9341,Latina,1617,2,1,0.5,2.5
+8760,Virtus Entella,8800,Verona,1617,2,0,0.0,2.0
 8769,Bari,9341,Latina,1617,2,0,0.0,2.5
 8768,Venezia,9339,Novara,1617,2,0,0.0,3.5
 8775,Brescia,9339,Novara,1617,2,1,0.5,2.5
@@ -89,8 +89,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8760,Virtus Entella,8776,Pisa,1617,2,2,1.0,1.0
 8775,Brescia,8796,Trapani,1617,2,1,0.5,1.5
 8766,Spezia,8775,Brescia,1617,2,1,0.5,2.0
-8769,Bari,8799,Carpi,1617,2,0,0.0,2.0
 8766,Spezia,8778,Cittadella,1617,2,1,0.5,1.5
+8769,Bari,8799,Carpi,1617,2,0,0.0,2.0
 8788,Perugia,8799,Carpi,1617,2,1,0.5,1.0
 8781,Ascoli,8789,Benevento,1617,2,2,1.0,1.0
 8760,Virtus Entella,8772,Frosinone,1617,2,0,0.0,2.5
@@ -105,9 +105,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8782,Ternana,8789,Benevento,1617,2,0,0.0,2.0
 8777,Salernitana,8782,Ternana,1617,2,0,0.0,3.5
 8788,Perugia,8789,Benevento,1617,2,1,0.5,2.0
+8769,Bari,8772,Frosinone,1617,2,0,0.0,2.5
 8757,Cesena,8766,Spezia,1617,2,0,0.0,1.0
 8796,Trapani,8800,Verona,1617,2,0,0.0,2.0
-8769,Bari,8772,Frosinone,1617,2,0,0.0,2.5
 8777,Salernitana,9340,Pro Vercelli,1617,2,2,1.0,1.0
 8790,Spal,8800,Verona,1617,2,1,0.5,2.0
 8760,Virtus Entella,8778,Cittadella,1617,2,0,0.0,4.0
@@ -201,8 +201,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8776,Pisa,8777,Salernitana,1617,2,1,0.5,0.5
 8776,Pisa,8789,Benevento,1617,2,0,0.0,2.0
 8769,Bari,8796,Trapani,1617,2,0,0.0,3.5
-8800,Verona,9341,Latina,1617,1,0,0.0,2.0
 8788,Perugia,8796,Trapani,1617,2,1,0.5,2.5
+8800,Verona,9341,Latina,1617,2,0,0.0,3.5
 8757,Cesena,8796,Trapani,1617,2,0,0.0,3.5
 8781,Ascoli,8800,Verona,1617,2,1,0.5,2.5
 8776,Pisa,8790,Spal,1617,2,1,0.5,1.5

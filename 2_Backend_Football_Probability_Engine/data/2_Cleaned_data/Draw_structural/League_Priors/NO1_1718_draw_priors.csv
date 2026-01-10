@@ -1,0 +1,307 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2017-01-10,Heerenveen,Ajax,0,4,A,0
+2017-01-10,AZ Alkmaar,Feyenoord,0,4,A,0
+2017-01-10,Vitesse,Utrecht,1,1,D,1
+2017-01-10,Sparta Rotterdam,Roda,1,2,A,0
+2017-01-12,Zwolle,Utrecht,1,1,D,1
+2017-02-12,Feyenoord,Vitesse,1,0,H,0
+2017-02-12,Twente,Ajax,3,3,D,1
+2017-02-12,Den Haag,Groningen,0,3,A,0
+2017-02-12,Willem II,Heracles,3,1,H,0
+2017-03-11,Sparta Rotterdam,Heerenveen,0,0,D,1
+2017-03-12,VVV Venlo,AZ Alkmaar,0,2,A,0
+2017-03-12,NAC Breda,Excelsior,3,1,H,0
+2017-03-12,Roda,Heerenveen,2,1,H,0
+2017-03-12,PSV Eindhoven,Sparta Rotterdam,1,0,H,0
+2017-04-11,Excelsior,Roda,1,0,H,0
+2017-04-11,AZ Alkmaar,Willem II,3,2,H,0
+2017-04-11,Heracles,Groningen,2,1,H,0
+2017-04-11,VVV Venlo,NAC Breda,0,0,D,1
+2017-05-11,Vitesse,Zwolle,0,0,D,1
+2017-05-11,Ajax,Utrecht,1,2,A,0
+2017-05-11,PSV Eindhoven,Twente,4,3,H,0
+2017-05-11,Den Haag,Feyenoord,2,2,D,1
+2017-08-12,Willem II,NAC Breda,1,1,D,1
+2017-08-13,Willem II,Excelsior,1,2,A,0
+2017-08-13,Feyenoord,Twente,2,1,H,0
+2017-08-13,Groningen,Heerenveen,3,3,D,1
+2017-08-13,Zwolle,Roda,4,2,H,0
+2017-08-18,Roda,Vitesse,1,3,A,0
+2017-08-19,Twente,VVV Venlo,1,2,A,0
+2017-08-19,Heerenveen,Heracles,1,1,D,1
+2017-08-19,AZ Alkmaar,Den Haag,2,0,H,0
+2017-08-20,Sparta Rotterdam,Zwolle,1,1,D,1
+2017-08-20,Ajax,Groningen,3,1,H,0
+2017-08-20,NAC Breda,PSV Eindhoven,1,4,A,0
+2017-08-20,Utrecht,Willem II,2,0,H,0
+2017-08-20,Excelsior,Feyenoord,0,1,A,0
+2017-08-25,NAC Breda,Sparta Rotterdam,2,2,D,1
+2017-08-26,Den Haag,Heerenveen,1,2,A,0
+2017-08-26,Heracles,Excelsior,2,2,D,1
+2017-08-26,Vitesse,AZ Alkmaar,1,2,A,0
+2017-08-26,Zwolle,Twente,2,0,H,0
+2017-08-27,PSV Eindhoven,Roda,2,0,H,0
+2017-08-27,VVV Venlo,Ajax,0,2,A,0
+2017-08-27,Feyenoord,Willem II,5,0,H,0
+2017-08-27,Groningen,Utrecht,2,1,H,0
+2017-09-09,Excelsior,Vitesse,0,3,A,0
+2017-09-09,Willem II,Den Haag,1,2,A,0
+2017-09-09,Heracles,Feyenoord,2,4,A,0
+2017-09-09,Ajax,Zwolle,3,0,H,0
+2017-09-12,Twente,Den Haag,2,3,A,0
+2017-09-12,AZ Alkmaar,Heracles,5,0,H,0
+2017-09-12,Heerenveen,VVV Venlo,2,2,D,1
+2017-09-12,Excelsior,Zwolle,1,2,A,0
+2017-09-15,Sparta Rotterdam,AZ Alkmaar,0,2,A,0
+2017-09-16,NAC Breda,Groningen,2,1,H,0
+2017-09-16,Zwolle,Heracles,2,1,H,0
+2017-09-16,Roda,Willem II,1,3,A,0
+2017-09-16,Excelsior,Heerenveen,1,2,A,0
+2017-09-17,Twente,Utrecht,4,0,H,0
+2017-09-17,PSV Eindhoven,Feyenoord,1,0,H,0
+2017-09-17,Vitesse,VVV Venlo,1,1,D,1
+2017-09-17,Den Haag,Ajax,1,1,D,1
+2017-09-23,Willem II,Heerenveen,1,2,A,0
+2017-09-23,Heracles,Roda,2,1,H,0
+2017-09-23,Den Haag,Sparta Rotterdam,1,0,H,0
+2017-09-23,Feyenoord,NAC Breda,0,2,A,0
+2017-09-24,VVV Venlo,Zwolle,1,1,D,1
+2017-09-24,Utrecht,PSV Eindhoven,1,7,A,0
+2017-09-24,AZ Alkmaar,Excelsior,0,2,A,0
+2017-09-24,Ajax,Vitesse,1,2,A,0
+2017-09-24,Groningen,Twente,1,0,H,0
+2017-09-29,Twente,Heracles,2,1,H,0
+2017-09-30,Excelsior,VVV Venlo,0,2,A,0
+2017-09-30,NAC Breda,Den Haag,0,1,A,0
+2017-09-30,PSV Eindhoven,Willem II,4,0,H,0
+2017-09-30,Zwolle,Groningen,3,2,H,0
+2017-10-09,AZ Alkmaar,NAC Breda,2,1,H,0
+2017-10-09,Heerenveen,PSV Eindhoven,2,0,H,0
+2017-10-09,Groningen,VVV Venlo,1,1,D,1
+2017-10-09,Sparta Rotterdam,Twente,1,0,H,0
+2017-10-09,Utrecht,Roda,2,0,H,0
+2017-10-12,Roda,Groningen,2,2,D,1
+2017-10-12,Ajax,PSV Eindhoven,3,0,H,0
+2017-10-14,Ajax,Sparta Rotterdam,4,0,H,0
+2017-10-14,Utrecht,Heerenveen,3,1,H,0
+2017-10-14,Roda,NAC Breda,1,0,H,0
+2017-10-14,Feyenoord,Zwolle,0,0,D,1
+2017-10-15,Willem II,Twente,3,1,H,0
+2017-10-15,Groningen,AZ Alkmaar,1,1,D,1
+2017-10-15,Den Haag,Excelsior,1,2,A,0
+2017-10-15,VVV Venlo,PSV Eindhoven,2,5,A,0
+2017-10-15,Heracles,Vitesse,1,1,D,1
+2017-10-20,Groningen,Willem II,0,1,A,0
+2017-10-21,Twente,Roda,3,0,H,0
+2017-10-21,VVV Venlo,Den Haag,0,2,A,0
+2017-10-21,Excelsior,Sparta Rotterdam,1,1,D,1
+2017-10-21,NAC Breda,Zwolle,0,2,A,0
+2017-10-22,Heerenveen,Vitesse,0,4,A,0
+2017-10-22,AZ Alkmaar,Utrecht,3,0,H,0
+2017-10-22,Feyenoord,Ajax,1,4,A,0
+2017-10-22,PSV Eindhoven,Heracles,3,0,H,0
+2017-10-27,Twente,Excelsior,1,3,A,0
+2017-10-28,Zwolle,Den Haag,2,0,H,0
+2017-10-28,Heracles,VVV Venlo,3,0,H,0
+2017-10-28,Willem II,Ajax,1,3,A,0
+2017-10-28,Roda,Feyenoord,1,1,D,1
+2017-10-29,Sparta Rotterdam,Groningen,2,1,H,0
+2017-10-29,Vitesse,PSV Eindhoven,2,4,A,0
+2017-10-29,Heerenveen,AZ Alkmaar,1,2,A,0
+2017-10-29,Utrecht,NAC Breda,2,2,D,1
+2017-11-08,Den Haag,Utrecht,0,3,A,0
+2017-11-18,Twente,Heerenveen,0,4,A,0
+2017-11-18,Feyenoord,VVV Venlo,1,1,D,1
+2017-11-18,NAC Breda,Ajax,0,8,A,0
+2017-11-18,Willem II,Sparta Rotterdam,2,2,D,1
+2017-11-19,Groningen,Vitesse,4,2,H,0
+2017-11-19,Den Haag,Heracles,4,1,H,0
+2017-11-19,Roda,AZ Alkmaar,0,1,A,0
+2017-11-19,Utrecht,Excelsior,3,1,H,0
+2017-11-19,Zwolle,PSV Eindhoven,0,1,A,0
+2017-11-24,AZ Alkmaar,Twente,2,0,H,0
+2017-11-25,VVV Venlo,Willem II,3,3,D,1
+2017-11-25,Heerenveen,Zwolle,1,2,A,0
+2017-11-25,Heracles,NAC Breda,2,1,H,0
+2017-11-25,Groningen,Feyenoord,0,2,A,0
+2017-11-26,Ajax,Roda,5,1,H,0
+2017-11-26,Sparta Rotterdam,Utrecht,1,3,A,0
+2017-11-26,Vitesse,Den Haag,2,0,H,0
+2017-11-26,Excelsior,PSV Eindhoven,1,2,A,0
+2017-12-08,Heracles,Ajax,2,1,H,0
+2017-12-08,PSV Eindhoven,AZ Alkmaar,3,2,H,0
+2017-12-08,Vitesse,NAC Breda,4,1,H,0
+2017-12-08,VVV Venlo,Sparta Rotterdam,3,0,H,0
+2017-12-12,NAC Breda,Twente,1,2,A,0
+2017-12-12,Zwolle,AZ Alkmaar,1,1,D,1
+2017-12-13,Vitesse,Willem II,2,2,D,1
+2017-12-13,Feyenoord,Heerenveen,1,1,D,1
+2017-12-13,VVV Venlo,Utrecht,0,1,A,0
+2017-12-13,Groningen,PSV Eindhoven,3,3,D,1
+2017-12-13,Den Haag,Roda,3,2,H,0
+2017-12-14,Ajax,Excelsior,3,1,H,0
+2017-12-14,Heracles,Sparta Rotterdam,3,2,H,0
+2017-12-16,PSV Eindhoven,Den Haag,3,0,H,0
+2017-12-16,Heerenveen,NAC Breda,1,0,H,0
+2017-12-16,Roda,VVV Venlo,0,1,A,0
+2017-12-16,Twente,Vitesse,1,1,D,1
+2017-12-16,Willem II,Zwolle,2,3,A,0
+2017-12-17,Sparta Rotterdam,Feyenoord,0,7,A,0
+2017-12-17,Utrecht,Heracles,1,1,D,1
+2017-12-17,Excelsior,Groningen,2,0,H,0
+2017-12-17,AZ Alkmaar,Ajax,1,2,A,0
+2017-12-22,Den Haag,Zwolle,4,0,H,0
+2017-12-23,Excelsior,Twente,0,0,D,1
+2017-12-23,NAC Breda,Utrecht,3,1,H,0
+2017-12-23,PSV Eindhoven,Vitesse,2,1,H,0
+2017-12-23,AZ Alkmaar,Heerenveen,3,1,H,0
+2017-12-24,Ajax,Willem II,3,1,H,0
+2017-12-24,VVV Venlo,Heracles,3,1,H,0
+2017-12-24,Groningen,Sparta Rotterdam,4,0,H,0
+2017-12-24,Feyenoord,Roda,5,1,H,0
+2018-01-04,Heracles,Heerenveen,1,2,A,0
+2018-01-04,Groningen,Ajax,1,2,A,0
+2018-01-04,Feyenoord,Excelsior,5,0,H,0
+2018-01-04,VVV Venlo,Twente,0,0,D,1
+2018-01-16,Sparta Rotterdam,Vitesse,0,1,A,0
+2018-01-19,Utrecht,AZ Alkmaar,1,1,D,1
+2018-01-20,Vitesse,Heerenveen,1,1,D,1
+2018-01-20,Zwolle,NAC Breda,1,0,H,0
+2018-01-20,Den Haag,VVV Venlo,1,1,D,1
+2018-01-20,Roda,Twente,1,1,D,1
+2018-01-21,Ajax,Feyenoord,2,0,H,0
+2018-01-21,Willem II,Groningen,1,1,D,1
+2018-01-21,Sparta Rotterdam,Excelsior,2,3,A,0
+2018-01-21,Heracles,PSV Eindhoven,1,2,A,0
+2018-01-24,Utrecht,Feyenoord,1,1,D,1
+2018-01-26,Heerenveen,Sparta Rotterdam,2,1,H,0
+2018-01-27,Twente,PSV Eindhoven,0,2,A,0
+2018-01-27,Zwolle,Vitesse,1,2,A,0
+2018-01-27,Groningen,Heracles,3,3,D,1
+2018-01-27,NAC Breda,VVV Venlo,0,1,A,0
+2018-01-28,Feyenoord,Den Haag,3,1,H,0
+2018-01-28,Roda,Excelsior,2,1,H,0
+2018-01-28,Willem II,AZ Alkmaar,0,2,A,0
+2018-01-28,Utrecht,Ajax,0,0,D,1
+2018-02-02,Vitesse,Groningen,2,0,H,0
+2018-02-03,Roda,Heracles,0,3,A,0
+2018-02-16,VVV Venlo,Groningen,1,1,D,1
+2018-02-17,Den Haag,Willem II,2,1,H,0
+2018-02-17,NAC Breda,AZ Alkmaar,1,3,A,0
+2018-02-17,Vitesse,Excelsior,1,2,A,0
+2018-02-17,PSV Eindhoven,Heerenveen,2,2,D,1
+2018-02-18,Zwolle,Ajax,0,1,A,0
+2018-02-18,Roda,Utrecht,1,4,A,0
+2018-02-18,Twente,Sparta Rotterdam,1,1,D,1
+2018-02-18,Feyenoord,Heracles,1,0,H,0
+2018-02-23,Groningen,NAC Breda,1,1,D,1
+2018-02-24,Heerenveen,Excelsior,0,1,A,0
+2018-02-24,AZ Alkmaar,Sparta Rotterdam,2,1,H,0
+2018-02-24,VVV Venlo,Vitesse,2,2,D,1
+2018-02-24,Heracles,Zwolle,2,1,H,0
+2018-02-25,Willem II,Roda,1,0,H,0
+2018-02-25,Feyenoord,PSV Eindhoven,1,3,A,0
+2018-02-25,Utrecht,Twente,3,1,H,0
+2018-02-25,Ajax,Den Haag,0,0,D,1
+2018-03-02,Heerenveen,Twente,1,0,H,0
+2018-03-02,PSV Eindhoven,Zwolle,4,0,H,0
+2018-03-02,Heracles,Den Haag,1,1,D,1
+2018-03-03,NAC Breda,Feyenoord,2,1,H,0
+2018-03-03,Heerenveen,Willem II,2,0,H,0
+2018-03-03,PSV Eindhoven,Utrecht,3,0,H,0
+2018-03-03,Excelsior,AZ Alkmaar,1,2,A,0
+2018-03-16,Excelsior,Den Haag,1,2,A,0
+2018-03-17,Heerenveen,Utrecht,2,2,D,1
+2018-03-17,Vitesse,Heracles,0,0,D,1
+2018-03-17,PSV Eindhoven,VVV Venlo,3,0,H,0
+2018-03-17,Twente,Willem II,2,2,D,1
+2018-03-18,Zwolle,Feyenoord,3,4,A,0
+2018-03-18,Sparta Rotterdam,Ajax,2,5,A,0
+2018-03-18,AZ Alkmaar,Groningen,3,2,H,0
+2018-03-18,NAC Breda,Roda,0,1,A,0
+2018-03-31,PSV Eindhoven,NAC Breda,5,1,H,0
+2018-03-31,Den Haag,AZ Alkmaar,0,3,A,0
+2018-03-31,Zwolle,Sparta Rotterdam,2,0,H,0
+2018-03-31,Vitesse,Roda,0,3,A,0
+2018-03-31,Willem II,Utrecht,3,2,H,0
+2018-04-02,AZ Alkmaar,Roda,2,2,D,1
+2018-04-02,Excelsior,Utrecht,2,2,D,1
+2018-04-02,VVV Venlo,Feyenoord,1,0,H,0
+2018-04-02,Sparta Rotterdam,Willem II,1,0,H,0
+2018-04-02,Ajax,NAC Breda,3,1,H,0
+2018-04-03,Vitesse,Ajax,3,2,H,0
+2018-04-03,Twente,Groningen,1,1,D,1
+2018-04-03,Sparta Rotterdam,Den Haag,2,1,H,0
+2018-04-03,Zwolle,VVV Venlo,1,1,D,1
+2018-04-13,Heracles,AZ Alkmaar,0,3,A,0
+2018-04-14,Den Haag,Twente,2,1,H,0
+2018-04-14,Zwolle,Excelsior,1,1,D,1
+2018-04-14,Vitesse,Sparta Rotterdam,7,0,H,0
+2018-04-14,VVV Venlo,Heerenveen,0,2,A,0
+2018-04-15,Feyenoord,Utrecht,3,1,H,0
+2018-04-15,PSV Eindhoven,Ajax,3,0,H,0
+2018-04-15,Groningen,Roda,2,1,H,0
+2018-04-15,NAC Breda,Willem II,1,2,A,0
+2018-04-17,Heerenveen,Den Haag,2,0,H,0
+2018-04-17,Twente,Zwolle,2,0,H,0
+2018-04-18,Willem II,Feyenoord,1,5,A,0
+2018-04-18,Roda,PSV Eindhoven,2,2,D,1
+2018-04-18,Excelsior,Heracles,2,2,D,1
+2018-04-18,AZ Alkmaar,Vitesse,4,3,H,0
+2018-04-18,Sparta Rotterdam,NAC Breda,2,1,H,0
+2018-04-19,Utrecht,Groningen,1,1,D,1
+2018-04-19,Ajax,VVV Venlo,4,1,H,0
+2018-04-29,Heracles,Utrecht,2,2,D,1
+2018-04-29,Den Haag,PSV Eindhoven,3,3,D,1
+2018-04-29,Feyenoord,Sparta Rotterdam,3,1,H,0
+2018-04-29,Zwolle,Willem II,0,1,A,0
+2018-04-29,Vitesse,Twente,5,0,H,0
+2018-04-29,NAC Breda,Heerenveen,3,0,H,0
+2018-04-29,Groningen,Excelsior,4,0,H,0
+2018-04-29,Ajax,AZ Alkmaar,3,0,H,0
+2018-04-29,VVV Venlo,Roda,1,4,A,0
+2018-06-02,Zwolle,Heerenveen,3,2,H,0
+2018-06-04,Excelsior,Willem II,2,1,H,0
+2018-06-05,AZ Alkmaar,Zwolle,6,0,H,0
+2018-06-05,PSV Eindhoven,Groningen,0,0,D,1
+2018-06-05,Sparta Rotterdam,Heracles,2,5,A,0
+2018-06-05,Roda,Den Haag,2,3,A,0
+2018-06-05,Heerenveen,Feyenoord,2,3,A,0
+2018-06-05,Excelsior,Ajax,1,2,A,0
+2018-06-05,Twente,NAC Breda,1,1,D,1
+2018-06-05,Willem II,Vitesse,2,2,D,1
+2018-06-05,Utrecht,VVV Venlo,1,0,H,0
+2018-07-02,Willem II,VVV Venlo,3,0,H,0
+2018-07-02,Utrecht,Sparta Rotterdam,1,0,H,0
+2018-07-02,Twente,AZ Alkmaar,0,4,A,0
+2018-07-02,Roda,Ajax,2,4,A,0
+2018-07-02,PSV Eindhoven,Excelsior,1,0,H,0
+2018-07-02,NAC Breda,Heracles,6,1,H,0
+2018-07-04,AZ Alkmaar,PSV Eindhoven,2,3,A,0
+2018-07-04,NAC Breda,Vitesse,1,0,H,0
+2018-07-04,Sparta Rotterdam,VVV Venlo,3,2,H,0
+2018-07-04,Roda,Zwolle,3,2,H,0
+2018-08-02,Feyenoord,Groningen,3,0,H,0
+2018-08-02,Den Haag,Vitesse,1,0,H,0
+2018-08-04,Heerenveen,Groningen,1,1,D,1
+2018-08-04,Ajax,Heracles,1,0,H,0
+2018-08-04,Utrecht,Den Haag,3,3,D,1
+2018-08-04,Twente,Feyenoord,1,3,A,0
+2018-09-03,Heracles,Twente,2,1,H,0
+2018-10-02,Heerenveen,Roda,1,1,D,1
+2018-10-02,Utrecht,Zwolle,2,1,H,0
+2018-10-02,Sparta Rotterdam,PSV Eindhoven,1,2,A,0
+2018-10-02,Heracles,Willem II,1,0,H,0
+2018-10-02,AZ Alkmaar,VVV Venlo,0,0,D,1
+2018-10-03,Den Haag,NAC Breda,0,2,A,0
+2018-10-03,Willem II,PSV Eindhoven,5,0,H,0
+2018-10-03,Roda,Sparta Rotterdam,0,2,A,0
+2018-10-03,VVV Venlo,Excelsior,2,3,A,0
+2018-11-02,Vitesse,Feyenoord,3,1,H,0
+2018-11-02,Excelsior,NAC Breda,0,0,D,1
+2018-11-02,Groningen,Den Haag,0,0,D,1
+2018-11-02,Ajax,Twente,2,1,H,0
+2018-11-03,Feyenoord,AZ Alkmaar,2,1,H,0
+2018-11-03,Utrecht,Vitesse,5,1,H,0
+2018-11-03,Groningen,Zwolle,2,0,H,0
+2018-11-03,Ajax,Heerenveen,4,1,H,0

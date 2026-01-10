@@ -12,12 +12,12 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8670,Morecambe,8674,Leyton Orient,1617,2,0,0.0,2.0
 8684,Grimsby,8696,Barnet,1617,2,1,0.5,4.0
 8668,Carlisle,8699,Blackpool,1617,2,1,0.5,4.5
-8674,Leyton Orient,8676,Crawley Town,1617,2,0,0.0,4.0
 8668,Carlisle,8698,Doncaster,1617,2,1,0.5,3.5
+8674,Leyton Orient,8676,Crawley Town,1617,2,0,0.0,4.0
 8663,Bolton,8674,Leyton Orient,1617,2,1,0.5,3.5
 8668,Carlisle,8701,Portsmouth,1617,2,1,0.5,2.5
-8663,Bolton,8678,Exeter,1617,2,2,1.0,1.0
 8671,Mansfield,8685,Crewe,1617,2,1,0.5,2.5
+8663,Bolton,8678,Exeter,1617,2,2,1.0,1.0
 8674,Leyton Orient,8699,Blackpool,1617,2,0,0.0,3.5
 8663,Bolton,8697,Wycombe,1617,2,1,0.5,3.5
 8668,Carlisle,8696,Barnet,1617,2,1,0.5,1.5
@@ -35,9 +35,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8662,Stevenage,8671,Mansfield,1617,2,0,0.0,2.0
 8662,Stevenage,8697,Wycombe,1617,2,0,0.0,2.0
 8663,Bolton,8671,Mansfield,1617,2,2,1.0,2.0
-8699,Blackpool,8701,Portsmouth,1617,2,0,0.0,3.0
 8696,Barnet,8701,Portsmouth,1617,2,1,0.5,4.0
 8666,Colchester,8684,Grimsby,1617,2,0,0.0,3.0
+8699,Blackpool,8701,Portsmouth,1617,2,0,0.0,3.0
 8663,Bolton,8685,Crewe,1617,2,1,0.5,2.5
 8680,Newport County,8696,Barnet,1617,4,2,0.5,2.5
 8686,Plymouth,8693,Accrington,1617,2,0,0.0,1.0
@@ -59,8 +59,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8667,Cambridge,8684,Grimsby,1617,2,0,0.0,2.0
 8663,Bolton,8669,Cheltenham,1617,2,1,0.5,3.5
 8667,Cambridge,8668,Carlisle,1617,2,1,0.5,3.5
-8671,Mansfield,8699,Blackpool,1617,2,0,0.0,1.0
 8668,Carlisle,8678,Exeter,1617,2,0,0.0,5.0
+8671,Mansfield,8699,Blackpool,1617,2,0,0.0,1.0
 8686,Plymouth,8696,Barnet,1617,2,0,0.0,1.5
 8662,Stevenage,8699,Blackpool,1617,2,0,0.0,1.5
 8667,Cambridge,8699,Blackpool,1617,2,2,1.0,1.0
@@ -82,16 +82,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8669,Cheltenham,8671,Mansfield,1617,2,2,1.0,1.0
 8668,Carlisle,8671,Mansfield,1617,2,0,0.0,4.5
 8678,Exeter,8690,Yeovil,1617,2,2,1.0,3.0
-8671,Mansfield,8696,Barnet,1617,2,0,0.0,1.5
 8663,Bolton,8684,Grimsby,1617,2,1,0.5,2.5
+8671,Mansfield,8696,Barnet,1617,2,0,0.0,1.5
 8696,Barnet,8698,Doncaster,1617,2,0,0.0,4.5
 8667,Cambridge,8680,Newport County,1617,4,0,0.0,3.25
 8669,Cheltenham,8678,Exeter,1617,2,0,0.0,3.5
 8685,Crewe,8699,Blackpool,1617,2,2,1.0,3.0
 8670,Morecambe,8680,Newport County,1617,4,1,0.25,2.75
 8668,Carlisle,8697,Wycombe,1617,2,0,0.0,2.0
-8670,Morecambe,8685,Crewe,1617,2,1,0.5,1.5
 8696,Barnet,8700,Hartlepool,1617,2,0,0.0,3.5
+8670,Morecambe,8685,Crewe,1617,2,1,0.5,1.5
 8671,Mansfield,8674,Leyton Orient,1617,2,0,0.0,2.5
 8668,Carlisle,8670,Morecambe,1617,2,1,0.5,2.5
 8678,Exeter,8697,Wycombe,1617,2,0,0.0,3.5
@@ -100,16 +100,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8668,Carlisle,8676,Crawley Town,1617,2,1,0.5,5.0
 8667,Cambridge,8693,Accrington,1617,2,0,0.0,2.5
 8662,Stevenage,8700,Hartlepool,1617,2,0,0.0,4.5
-8674,Leyton Orient,8696,Barnet,1617,2,1,0.5,2.0
 8666,Colchester,8699,Blackpool,1617,2,1,0.5,3.5
+8674,Leyton Orient,8696,Barnet,1617,2,1,0.5,2.0
 8686,Plymouth,8690,Yeovil,1617,2,0,0.0,4.0
 8669,Cheltenham,8697,Wycombe,1617,2,1,0.5,3.5
 8670,Morecambe,8697,Wycombe,1617,2,1,0.5,2.0
 8663,Bolton,8667,Cambridge,1617,2,0,0.0,2.5
 8680,Newport County,8700,Hartlepool,1617,4,1,0.25,3.5
 8671,Mansfield,8697,Wycombe,1617,2,1,0.5,1.5
-8685,Crewe,8690,Yeovil,1617,2,0,0.0,2.0
 8662,Stevenage,8663,Bolton,1617,2,0,0.0,2.5
+8685,Crewe,8690,Yeovil,1617,2,0,0.0,2.0
 8678,Exeter,8685,Crewe,1617,2,0,0.0,3.0
 8685,Crewe,8686,Plymouth,1617,2,0,0.0,3.0
 8670,Morecambe,8693,Accrington,1617,2,0,0.0,4.0
@@ -176,9 +176,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8670,Morecambe,8686,Plymouth,1617,2,0,0.0,2.0
 8668,Carlisle,8693,Accrington,1617,2,2,1.0,2.0
 8668,Carlisle,8690,Yeovil,1617,2,0,0.0,2.5
-8696,Barnet,8697,Wycombe,1617,2,0,0.0,2.0
 8667,Cambridge,8670,Morecambe,1617,2,0,0.0,2.5
 8666,Colchester,8678,Exeter,1617,2,0,0.0,4.0
+8696,Barnet,8697,Wycombe,1617,2,0,0.0,2.0
 8662,Stevenage,8696,Barnet,1617,2,0,0.0,2.0
 8668,Carlisle,8700,Hartlepool,1617,2,1,0.5,3.5
 8680,Newport County,8684,Grimsby,1617,4,2,0.5,1.75
@@ -189,14 +189,14 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8678,Exeter,8684,Grimsby,1617,2,1,0.5,1.5
 8678,Exeter,8698,Doncaster,1617,2,0,0.0,4.0
 8685,Crewe,8698,Doncaster,1617,2,0,0.0,3.5
-8690,Yeovil,8696,Barnet,1617,2,1,0.5,2.5
 8674,Leyton Orient,8684,Grimsby,1617,2,0,0.0,3.0
+8690,Yeovil,8696,Barnet,1617,2,1,0.5,2.5
 8662,Stevenage,8686,Plymouth,1617,2,0,0.0,4.5
 8670,Morecambe,8671,Mansfield,1617,2,0,0.0,2.5
 8667,Cambridge,8700,Hartlepool,1617,2,0,0.0,3.0
 8693,Accrington,8700,Hartlepool,1617,2,1,0.5,3.0
-8684,Grimsby,8701,Portsmouth,1617,2,0,0.0,2.5
 8668,Carlisle,8684,Grimsby,1617,2,1,0.5,4.0
+8684,Grimsby,8701,Portsmouth,1617,2,0,0.0,2.5
 8671,Mansfield,8686,Plymouth,1617,2,0,0.0,2.0
 8670,Morecambe,8699,Blackpool,1617,2,0,0.0,3.5
 8676,Crawley Town,8700,Hartlepool,1617,2,1,0.5,1.5
@@ -226,8 +226,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8671,Mansfield,8678,Exeter,1617,2,0,0.0,2.5
 8686,Plymouth,8698,Doncaster,1617,2,0,0.0,1.5
 8698,Doncaster,8699,Blackpool,1617,2,0,0.0,3.5
-8690,Yeovil,8697,Wycombe,1617,2,1,0.5,1.5
 8690,Yeovil,8698,Doncaster,1617,2,0,0.0,4.0
+8690,Yeovil,8697,Wycombe,1617,2,1,0.5,1.5
 8663,Bolton,8693,Accrington,1617,2,0,0.0,3.0
 8668,Carlisle,8680,Newport County,1617,4,0,0.0,3.25
 8666,Colchester,8680,Newport County,1617,4,2,0.5,2.25

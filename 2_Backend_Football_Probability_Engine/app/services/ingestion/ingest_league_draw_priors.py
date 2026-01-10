@@ -8,6 +8,7 @@ import pandas as pd
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from app.db.models import League, LeagueDrawPrior
+from app.services.ingestion.draw_structural_validation import DrawStructuralValidator
 from pathlib import Path
 import logging
 

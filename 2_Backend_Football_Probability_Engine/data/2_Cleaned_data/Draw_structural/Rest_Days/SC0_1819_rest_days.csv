@@ -1,229 +1,229 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-SC0,1819,2018-08-04,St Mirren,Dundee United,7,31,False
 SC0,1819,2018-08-04,Kilmarnock,St Johnstone,31,31,False
 SC0,1819,2018-08-04,Hamilton,Hearts,91,31,False
+SC0,1819,2018-08-04,St Mirren,Dundee United,7,31,False
 SC0,1819,2018-08-04,Celtic,Livingston,60,7,False
-SC0,1819,2018-08-05,Aberdeen,Rangers,32,32,False
 SC0,1819,2018-08-05,Hibernian,Motherwell,32,32,False
+SC0,1819,2018-08-05,Aberdeen,Rangers,32,32,False
+SC0,1819,2018-08-11,Hearts,Celtic,7,7,False
 SC0,1819,2018-08-11,Dundee United,Aberdeen,6,6,False
 SC0,1819,2018-08-11,Motherwell,Hamilton,6,6,False
 SC0,1819,2018-08-11,Livingston,Kilmarnock,7,7,False
-SC0,1819,2018-08-11,Hearts,Celtic,7,7,False
 SC0,1819,2018-08-12,Rangers,St Mirren,7,8,False
 SC0,1819,2018-08-12,St Johnstone,Hibernian,7,7,False
 SC0,1819,2018-08-25,Hibernian,Aberdeen,13,14,False
+SC0,1819,2018-08-25,St Mirren,Livingston,13,14,False
 SC0,1819,2018-08-25,St Johnstone,Dundee United,13,14,False
 SC0,1819,2018-08-25,Kilmarnock,Hearts,14,14,False
-SC0,1819,2018-08-25,St Mirren,Livingston,13,14,False
 SC0,1819,2018-08-26,Motherwell,Rangers,15,14,False
 SC0,1819,2018-08-26,Celtic,Hamilton,15,15,False
-SC0,1819,2018-09-01,Livingston,Hibernian,7,7,False
-SC0,1819,2018-09-01,Hearts,St Mirren,7,7,False
 SC0,1819,2018-09-01,Aberdeen,Kilmarnock,7,7,False
 SC0,1819,2018-09-01,Hamilton,St Johnstone,6,7,False
+SC0,1819,2018-09-01,Hearts,St Mirren,7,7,False
+SC0,1819,2018-09-01,Livingston,Hibernian,7,7,False
 SC0,1819,2018-09-01,Dundee United,Motherwell,7,6,False
 SC0,1819,2018-09-02,Celtic,Rangers,7,7,False
 SC0,1819,2018-09-14,St Mirren,Celtic,13,9,False
 SC0,1819,2018-09-15,Livingston,Hamilton,14,14,False
-SC0,1819,2018-09-15,Hibernian,Kilmarnock,10,10,False
 SC0,1819,2018-09-15,Motherwell,Hearts,14,10,False
 SC0,1819,2018-09-15,Rangers,Dundee United,13,14,False
+SC0,1819,2018-09-15,Hibernian,Kilmarnock,10,10,False
 SC0,1819,2018-09-15,St Johnstone,Aberdeen,14,14,False
-SC0,1819,2018-09-22,Aberdeen,Motherwell,7,7,False
 SC0,1819,2018-09-22,Dundee United,Hibernian,7,7,False
-SC0,1819,2018-09-22,Hamilton,St Mirren,7,8,False
+SC0,1819,2018-09-22,Aberdeen,Motherwell,7,7,False
 SC0,1819,2018-09-22,Hearts,Livingston,7,7,False
-SC0,1819,2018-09-23,Rangers,St Johnstone,8,8,False
+SC0,1819,2018-09-22,Hamilton,St Mirren,7,8,False
 SC0,1819,2018-09-23,Kilmarnock,Celtic,8,9,False
+SC0,1819,2018-09-23,Rangers,St Johnstone,8,8,False
 SC0,1819,2018-09-29,St Mirren,Hibernian,7,7,False
-SC0,1819,2018-09-29,Kilmarnock,Motherwell,6,7,False
-SC0,1819,2018-09-29,Hearts,St Johnstone,7,6,False
-SC0,1819,2018-09-29,Hamilton,Dundee United,7,7,False
 SC0,1819,2018-09-29,Celtic,Aberdeen,6,7,False
+SC0,1819,2018-09-29,Hearts,St Johnstone,7,6,False
+SC0,1819,2018-09-29,Kilmarnock,Motherwell,6,7,False
+SC0,1819,2018-09-29,Hamilton,Dundee United,7,7,False
 SC0,1819,2018-09-30,Livingston,Rangers,8,7,False
 SC0,1819,2018-10-06,Aberdeen,St Mirren,3,7,False
-SC0,1819,2018-10-06,Motherwell,Livingston,3,6,False
 SC0,1819,2018-10-06,Hibernian,Hamilton,7,3,False
+SC0,1819,2018-10-06,Motherwell,Livingston,3,6,False
 SC0,1819,2018-10-06,Dundee United,Kilmarnock,3,3,False
-SC0,1819,2018-10-07,Rangers,Hearts,7,8,False
 SC0,1819,2018-10-07,St Johnstone,Celtic,4,8,False
-SC0,1819,2018-10-20,Hearts,Aberdeen,13,14,False
-SC0,1819,2018-10-20,St Mirren,Kilmarnock,14,14,False
-SC0,1819,2018-10-20,Motherwell,St Johnstone,14,13,False
+SC0,1819,2018-10-07,Rangers,Hearts,7,8,False
 SC0,1819,2018-10-20,Celtic,Hibernian,13,14,False
 SC0,1819,2018-10-20,Livingston,Dundee United,14,14,False
+SC0,1819,2018-10-20,Motherwell,St Johnstone,14,13,False
+SC0,1819,2018-10-20,St Mirren,Kilmarnock,14,14,False
+SC0,1819,2018-10-20,Hearts,Aberdeen,13,14,False
 SC0,1819,2018-10-21,Hamilton,Rangers,15,14,False
 SC0,1819,2018-10-23,Dundee United,Hearts,3,3,True
-SC0,1819,2018-10-27,Kilmarnock,Hamilton,7,6,False
 SC0,1819,2018-10-27,St Johnstone,St Mirren,7,7,False
+SC0,1819,2018-10-27,Kilmarnock,Hamilton,7,6,False
+SC0,1819,2018-10-31,Hearts,Hibernian,8,11,True
+SC0,1819,2018-10-31,St Mirren,Motherwell,4,11,True
+SC0,1819,2018-10-31,Rangers,Kilmarnock,10,4,True
 SC0,1819,2018-10-31,Aberdeen,Hamilton,11,4,True
 SC0,1819,2018-10-31,Dundee United,Celtic,8,11,True
-SC0,1819,2018-10-31,Hearts,Hibernian,8,11,True
 SC0,1819,2018-10-31,Livingston,St Johnstone,11,4,True
-SC0,1819,2018-10-31,Rangers,Kilmarnock,10,4,True
-SC0,1819,2018-10-31,St Mirren,Motherwell,4,11,True
 SC0,1819,2018-11-03,Motherwell,Dundee United,3,3,False
-SC0,1819,2018-11-03,St Mirren,Rangers,3,3,False
 SC0,1819,2018-11-03,Hamilton,Livingston,3,3,False
+SC0,1819,2018-11-03,St Mirren,Rangers,3,3,False
 SC0,1819,2018-11-03,Celtic,Hearts,3,3,False
 SC0,1819,2018-11-03,Hibernian,St Johnstone,3,3,False
 SC0,1819,2018-11-04,Kilmarnock,Aberdeen,4,4,False
 SC0,1819,2018-11-09,Aberdeen,Hibernian,5,6,False
-SC0,1819,2018-11-10,Dundee United,St Mirren,7,7,False
 SC0,1819,2018-11-10,St Johnstone,Hamilton,7,7,False
+SC0,1819,2018-11-10,Dundee United,St Mirren,7,7,False
 SC0,1819,2018-11-10,Hearts,Kilmarnock,7,6,False
 SC0,1819,2018-11-11,Livingston,Celtic,8,8,False
 SC0,1819,2018-11-11,Rangers,Motherwell,8,8,False
-SC0,1819,2018-11-24,Motherwell,Aberdeen,13,15,False
-SC0,1819,2018-11-24,Hamilton,Celtic,14,13,False
+SC0,1819,2018-11-24,St Johnstone,Kilmarnock,14,14,False
 SC0,1819,2018-11-24,Hibernian,Dundee United,15,14,False
 SC0,1819,2018-11-24,Rangers,Livingston,13,13,False
-SC0,1819,2018-11-24,St Johnstone,Kilmarnock,14,14,False
+SC0,1819,2018-11-24,Motherwell,Aberdeen,13,15,False
+SC0,1819,2018-11-24,Hamilton,Celtic,14,13,False
 SC0,1819,2018-11-24,St Mirren,Hearts,14,14,False
 SC0,1819,2018-12-01,Livingston,Motherwell,7,7,False
 SC0,1819,2018-12-01,Kilmarnock,Hibernian,7,7,False
 SC0,1819,2018-12-01,St Mirren,Hamilton,7,7,False
 SC0,1819,2018-12-02,Hearts,Rangers,8,8,False
-SC0,1819,2018-12-05,Rangers,Aberdeen,3,11,True
-SC0,1819,2018-12-05,Dundee United,Hamilton,11,4,True
-SC0,1819,2018-12-05,Hibernian,St Mirren,4,4,True
-SC0,1819,2018-12-05,Kilmarnock,Livingston,4,4,True
 SC0,1819,2018-12-05,Motherwell,Celtic,4,11,True
+SC0,1819,2018-12-05,Dundee United,Hamilton,11,4,True
+SC0,1819,2018-12-05,Kilmarnock,Livingston,4,4,True
+SC0,1819,2018-12-05,Rangers,Aberdeen,3,11,True
+SC0,1819,2018-12-05,Hibernian,St Mirren,4,4,True
 SC0,1819,2018-12-05,St Johnstone,Hearts,11,3,True
-SC0,1819,2018-12-08,Celtic,Kilmarnock,3,3,False
-SC0,1819,2018-12-08,Hamilton,Hibernian,3,3,False
 SC0,1819,2018-12-08,Hearts,Motherwell,3,3,False
 SC0,1819,2018-12-08,Livingston,St Mirren,3,3,False
+SC0,1819,2018-12-08,Celtic,Kilmarnock,3,3,False
 SC0,1819,2018-12-08,Aberdeen,St Johnstone,3,3,False
+SC0,1819,2018-12-08,Hamilton,Hibernian,3,3,False
 SC0,1819,2018-12-09,Dundee United,Rangers,4,4,False
 SC0,1819,2018-12-11,Aberdeen,Livingston,3,3,True
 SC0,1819,2018-12-14,Livingston,Hearts,3,6,False
-SC0,1819,2018-12-15,St Johnstone,Motherwell,7,7,False
 SC0,1819,2018-12-15,St Mirren,Aberdeen,7,4,False
 SC0,1819,2018-12-15,Kilmarnock,Dundee United,7,6,False
-SC0,1819,2018-12-16,Rangers,Hamilton,7,8,False
+SC0,1819,2018-12-15,St Johnstone,Motherwell,7,7,False
 SC0,1819,2018-12-16,Hibernian,Celtic,8,8,False
+SC0,1819,2018-12-16,Rangers,Hamilton,7,8,False
 SC0,1819,2018-12-18,Aberdeen,Dundee United,3,3,True
 SC0,1819,2018-12-19,Hibernian,Rangers,3,3,True
 SC0,1819,2018-12-19,Celtic,Motherwell,3,4,True
-SC0,1819,2018-12-22,Celtic,Dundee United,3,4,False
 SC0,1819,2018-12-22,Hamilton,Kilmarnock,6,7,False
-SC0,1819,2018-12-22,Hibernian,Livingston,3,8,False
+SC0,1819,2018-12-22,Celtic,Dundee United,3,4,False
 SC0,1819,2018-12-22,Motherwell,St Mirren,3,7,False
+SC0,1819,2018-12-22,Hibernian,Livingston,3,8,False
 SC0,1819,2018-12-22,Aberdeen,Hearts,4,8,False
 SC0,1819,2018-12-23,St Johnstone,Rangers,8,4,False
+SC0,1819,2018-12-26,Dundee United,Livingston,4,4,True
 SC0,1819,2018-12-26,Hearts,Hamilton,4,4,True
 SC0,1819,2018-12-26,Aberdeen,Celtic,4,4,True
-SC0,1819,2018-12-26,Dundee United,Livingston,4,4,True
-SC0,1819,2018-12-26,Motherwell,Kilmarnock,4,4,True
-SC0,1819,2018-12-26,Rangers,Hibernian,3,4,True
 SC0,1819,2018-12-26,St Mirren,St Johnstone,4,3,True
-SC0,1819,2018-12-29,Livingston,Aberdeen,3,3,False
+SC0,1819,2018-12-26,Rangers,Hibernian,3,4,True
+SC0,1819,2018-12-26,Motherwell,Kilmarnock,4,4,True
 SC0,1819,2018-12-29,Dundee United,St Johnstone,3,3,False
-SC0,1819,2018-12-29,Hibernian,Hearts,3,3,False
-SC0,1819,2018-12-29,Rangers,Celtic,3,3,False
 SC0,1819,2018-12-29,Hamilton,Motherwell,3,3,False
 SC0,1819,2018-12-29,Kilmarnock,St Mirren,3,3,False
+SC0,1819,2018-12-29,Livingston,Aberdeen,3,3,False
+SC0,1819,2018-12-29,Hibernian,Hearts,3,3,False
+SC0,1819,2018-12-29,Rangers,Celtic,3,3,False
+SC0,1819,2019-01-23,Motherwell,Hibernian,25,25,True
+SC0,1819,2019-01-23,Kilmarnock,Rangers,25,25,True
 SC0,1819,2019-01-23,Hearts,Dundee United,25,25,True
 SC0,1819,2019-01-23,Celtic,St Mirren,25,25,True
-SC0,1819,2019-01-23,Kilmarnock,Rangers,25,25,True
-SC0,1819,2019-01-23,Motherwell,Hibernian,25,25,True
-SC0,1819,2019-01-23,St Johnstone,Livingston,25,25,True
 SC0,1819,2019-01-23,Hamilton,Aberdeen,25,25,True
+SC0,1819,2019-01-23,St Johnstone,Livingston,25,25,True
+SC0,1819,2019-01-26,Aberdeen,Kilmarnock,3,3,False
 SC0,1819,2019-01-26,Celtic,Hamilton,3,3,False
 SC0,1819,2019-01-26,Dundee United,Motherwell,3,3,False
 SC0,1819,2019-01-26,Hearts,St Johnstone,3,3,False
-SC0,1819,2019-01-26,Aberdeen,Kilmarnock,3,3,False
-SC0,1819,2019-01-27,Livingston,Rangers,4,4,False
 SC0,1819,2019-01-27,St Mirren,Hibernian,4,4,False
+SC0,1819,2019-01-27,Livingston,Rangers,4,4,False
 SC0,1819,2019-01-30,Celtic,St Johnstone,4,4,True
 SC0,1819,2019-02-01,Kilmarnock,Hearts,6,6,False
-SC0,1819,2019-02-02,Hibernian,Aberdeen,6,7,False
+SC0,1819,2019-02-02,Hamilton,Dundee United,7,7,False
 SC0,1819,2019-02-02,Rangers,St Mirren,6,6,False
 SC0,1819,2019-02-02,Motherwell,Livingston,7,6,False
-SC0,1819,2019-02-02,Hamilton,Dundee United,7,7,False
+SC0,1819,2019-02-02,Hibernian,Aberdeen,6,7,False
 SC0,1819,2019-02-03,St Johnstone,Celtic,4,4,False
-SC0,1819,2019-02-06,Hamilton,St Johnstone,4,3,True
-SC0,1819,2019-02-06,Aberdeen,Rangers,4,4,True
-SC0,1819,2019-02-06,Celtic,Hibernian,3,4,True
 SC0,1819,2019-02-06,Dundee United,Kilmarnock,4,5,True
 SC0,1819,2019-02-06,Hearts,Livingston,5,4,True
+SC0,1819,2019-02-06,Aberdeen,Rangers,4,4,True
+SC0,1819,2019-02-06,Celtic,Hibernian,3,4,True
+SC0,1819,2019-02-06,Hamilton,St Johnstone,4,3,True
 SC0,1819,2019-02-06,St Mirren,Motherwell,4,4,True
-SC0,1819,2019-02-16,Hibernian,Hamilton,10,10,False
-SC0,1819,2019-02-16,Livingston,Dundee United,10,10,False
-SC0,1819,2019-02-16,Rangers,St Johnstone,10,10,False
 SC0,1819,2019-02-16,Aberdeen,St Mirren,10,10,False
+SC0,1819,2019-02-16,Hibernian,Hamilton,10,10,False
+SC0,1819,2019-02-16,Rangers,St Johnstone,10,10,False
+SC0,1819,2019-02-16,Livingston,Dundee United,10,10,False
 SC0,1819,2019-02-17,Motherwell,Hearts,11,11,False
 SC0,1819,2019-02-17,Kilmarnock,Celtic,11,11,False
 SC0,1819,2019-02-22,Dundee United,Hibernian,6,6,False
-SC0,1819,2019-02-23,Livingston,Kilmarnock,7,6,False
 SC0,1819,2019-02-23,St Johnstone,Aberdeen,7,7,False
 SC0,1819,2019-02-23,Hearts,St Mirren,6,7,False
+SC0,1819,2019-02-23,Livingston,Kilmarnock,7,6,False
 SC0,1819,2019-02-24,Hamilton,Rangers,8,8,False
 SC0,1819,2019-02-24,Celtic,Motherwell,7,7,False
 SC0,1819,2019-02-27,Hearts,Celtic,4,3,True
 SC0,1819,2019-02-27,Rangers,Dundee United,3,5,True
 SC0,1819,2019-02-27,St Johnstone,Hibernian,4,5,True
 SC0,1819,2019-02-27,Aberdeen,Hamilton,4,3,True
-SC0,1819,2019-03-02,St Mirren,Livingston,7,7,False
 SC0,1819,2019-03-02,Kilmarnock,Motherwell,7,6,False
+SC0,1819,2019-03-02,St Mirren,Livingston,7,7,False
 SC0,1819,2019-03-08,Hibernian,Rangers,9,9,False
+SC0,1819,2019-03-09,Motherwell,Hamilton,7,10,False
+SC0,1819,2019-03-09,Livingston,St Johnstone,7,10,False
 SC0,1819,2019-03-09,Celtic,Aberdeen,10,10,False
 SC0,1819,2019-03-09,Dundee United,Hearts,10,10,False
-SC0,1819,2019-03-09,Livingston,St Johnstone,7,10,False
-SC0,1819,2019-03-09,Motherwell,Hamilton,7,10,False
 SC0,1819,2019-03-11,St Mirren,Kilmarnock,9,9,False
+SC0,1819,2019-03-16,Hibernian,Motherwell,8,7,False
 SC0,1819,2019-03-16,Aberdeen,Livingston,7,7,False
 SC0,1819,2019-03-16,Hamilton,Hearts,7,7,False
-SC0,1819,2019-03-16,Hibernian,Motherwell,8,7,False
 SC0,1819,2019-03-16,Rangers,Kilmarnock,8,5,False
 SC0,1819,2019-03-17,Dundee United,Celtic,8,8,False
 SC0,1819,2019-03-27,St Johnstone,St Mirren,18,16,True
 SC0,1819,2019-03-29,Livingston,Hibernian,13,13,False
+SC0,1819,2019-03-30,Hearts,Aberdeen,14,14,False
 SC0,1819,2019-03-30,Kilmarnock,Hamilton,14,14,False
 SC0,1819,2019-03-30,Motherwell,St Johnstone,14,3,False
 SC0,1819,2019-03-30,St Mirren,Dundee United,3,13,False
-SC0,1819,2019-03-30,Hearts,Aberdeen,14,14,False
 SC0,1819,2019-03-31,Celtic,Rangers,14,15,False
 SC0,1819,2019-04-03,Hibernian,Kilmarnock,5,4,True
+SC0,1819,2019-04-03,Aberdeen,Motherwell,4,4,True
 SC0,1819,2019-04-03,Livingston,Hamilton,5,4,True
 SC0,1819,2019-04-03,Rangers,Hearts,3,4,True
 SC0,1819,2019-04-03,St Johnstone,Dundee United,4,4,True
 SC0,1819,2019-04-03,St Mirren,Celtic,4,3,True
-SC0,1819,2019-04-03,Aberdeen,Motherwell,4,4,True
-SC0,1819,2019-04-06,Dundee United,Aberdeen,3,3,False
-SC0,1819,2019-04-06,Hamilton,St Mirren,3,3,False
 SC0,1819,2019-04-06,Hearts,Hibernian,3,3,False
-SC0,1819,2019-04-06,Kilmarnock,St Johnstone,3,3,False
 SC0,1819,2019-04-06,Celtic,Livingston,3,3,False
+SC0,1819,2019-04-06,Dundee United,Aberdeen,3,3,False
+SC0,1819,2019-04-06,Kilmarnock,St Johnstone,3,3,False
+SC0,1819,2019-04-06,Hamilton,St Mirren,3,3,False
 SC0,1819,2019-04-07,Motherwell,Rangers,4,4,False
-SC0,1819,2019-04-20,Hearts,Rangers,14,13,False
-SC0,1819,2019-04-20,Kilmarnock,Aberdeen,14,14,False
 SC0,1819,2019-04-20,Hamilton,Motherwell,14,13,False
+SC0,1819,2019-04-20,Hearts,Rangers,14,13,False
 SC0,1819,2019-04-20,St Johnstone,Dundee United,14,14,False
+SC0,1819,2019-04-20,Kilmarnock,Aberdeen,14,14,False
 SC0,1819,2019-04-20,Livingston,St Mirren,14,14,False
 SC0,1819,2019-04-21,Hibernian,Celtic,15,15,False
 SC0,1819,2019-04-27,Celtic,Kilmarnock,6,7,False
-SC0,1819,2019-04-27,Hamilton,Livingston,7,7,False
 SC0,1819,2019-04-27,Motherwell,Dundee United,7,7,False
+SC0,1819,2019-04-27,Hamilton,Livingston,7,7,False
 SC0,1819,2019-04-27,St Mirren,St Johnstone,7,7,False
 SC0,1819,2019-04-28,Rangers,Aberdeen,8,8,False
 SC0,1819,2019-04-28,Hibernian,Hearts,7,8,False
+SC0,1819,2019-05-04,St Johnstone,Livingston,7,7,False
+SC0,1819,2019-05-04,Aberdeen,Celtic,6,7,False
 SC0,1819,2019-05-04,Dundee United,Hamilton,7,7,False
 SC0,1819,2019-05-04,Hearts,Kilmarnock,6,7,False
 SC0,1819,2019-05-04,Motherwell,St Mirren,7,7,False
-SC0,1819,2019-05-04,St Johnstone,Livingston,7,7,False
-SC0,1819,2019-05-04,Aberdeen,Celtic,6,7,False
 SC0,1819,2019-05-05,Rangers,Hibernian,7,7,False
 SC0,1819,2019-05-10,Aberdeen,Hearts,6,6,False
+SC0,1819,2019-05-11,Kilmarnock,Hibernian,7,6,False
 SC0,1819,2019-05-11,Livingston,Dundee United,7,7,False
 SC0,1819,2019-05-11,St Johnstone,Motherwell,7,7,False
-SC0,1819,2019-05-11,Kilmarnock,Hibernian,7,6,False
 SC0,1819,2019-05-12,Rangers,Celtic,7,8,False
 SC0,1819,2019-05-13,St Mirren,Hamilton,9,9,False
-SC0,1819,2019-05-18,Hamilton,St Johnstone,5,7,False
-SC0,1819,2019-05-18,Motherwell,Livingston,7,7,False
 SC0,1819,2019-05-18,Dundee United,St Mirren,7,5,False
-SC0,1819,2019-05-19,Celtic,Hearts,7,9,False
+SC0,1819,2019-05-18,Motherwell,Livingston,7,7,False
+SC0,1819,2019-05-18,Hamilton,St Johnstone,5,7,False
 SC0,1819,2019-05-19,Hibernian,Aberdeen,8,9,False
 SC0,1819,2019-05-19,Kilmarnock,Rangers,8,7,False
+SC0,1819,2019-05-19,Celtic,Hearts,7,9,False

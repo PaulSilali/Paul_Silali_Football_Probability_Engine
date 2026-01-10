@@ -8,8 +8,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9082,Man City,9099,Stoke,1617,4,3,0.75,2.25
 9100,Swansea,9101,Hull,1617,2,0,0.0,2.5
 9072,Bournemouth,9102,Middlesbrough,1617,2,0,0.0,3.0
-9092,Leicester,9102,Middlesbrough,1617,2,2,1.0,2.0
 9080,Burnley,9091,Southampton,1617,2,0,0.0,2.5
+9092,Leicester,9102,Middlesbrough,1617,2,2,1.0,2.0
 9082,Man City,9082,Man City,1617,2,1,0.5,1.5
 9089,Everton,9095,Watford,1617,2,0,0.0,3.0
 9071,Liverpool,9084,Crystal Palace,1617,2,0,0.0,4.5
@@ -41,8 +41,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9071,Liverpool,9092,Leicester,1617,2,0,0.0,4.5
 9084,Crystal Palace,9099,Stoke,1617,2,0,0.0,3.0
 9079,Tottenham,9101,Hull,1617,2,0,0.0,5.5
-9095,Watford,9100,Swansea,1617,2,1,0.5,0.5
 9071,Liverpool,9100,Swansea,1617,2,0,0.0,4.0
+9095,Watford,9100,Swansea,1617,2,1,0.5,0.5
 9087,Arsenal,9092,Leicester,1617,2,1,0.5,0.5
 9091,Southampton,9095,Watford,1617,2,1,0.5,4.5
 9084,Crystal Palace,9092,Leicester,1617,2,1,0.5,4.0
@@ -90,8 +90,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9079,Tottenham,9099,Stoke,1617,2,0,0.0,4.0
 9072,Bournemouth,9092,Leicester,1617,2,1,0.5,1.5
 9083,Chelsea,9084,Crystal Palace,1617,2,0,0.0,2.0
-9084,Crystal Palace,9091,Southampton,1617,2,0,0.0,3.5
 9082,Man City,9089,Everton,1617,4,3,0.75,2.5
+9084,Crystal Palace,9091,Southampton,1617,2,0,0.0,3.5
 9082,Man City,9095,Watford,1617,4,0,0.0,3.25
 9078,West Ham,9084,Crystal Palace,1617,4,0,0.0,1.75
 9084,Crystal Palace,9101,Hull,1617,2,1,0.5,5.0
@@ -115,8 +115,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9071,Liverpool,9072,Bournemouth,1617,2,1,0.5,5.5
 9071,Liverpool,9095,Watford,1617,2,0,0.0,4.0
 9072,Bournemouth,9087,Arsenal,1617,2,1,0.5,5.0
-9078,West Ham,9101,Hull,1617,4,1,0.25,2.5
 9087,Arsenal,9100,Swansea,1617,2,0,0.0,4.5
+9078,West Ham,9101,Hull,1617,4,1,0.25,2.5
 9079,Tottenham,9082,Man City,1617,4,1,0.25,2.5
 9079,Tottenham,9083,Chelsea,1617,2,0,0.0,2.5
 9071,Liverpool,9087,Arsenal,1617,2,0,0.0,5.5

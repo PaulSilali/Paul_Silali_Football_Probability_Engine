@@ -1,0 +1,61 @@
+================================================================================
+DRAW STRUCTURAL DATA INGESTION LOG - TEAM_FORM
+================================================================================
+Data Type: Team_Form
+Ingestion Date: 2026-01-09 17:48:27
+
+STATUS SUMMARY
+--------------------------------------------------------------------------------
+Status: ✓ SUCCESS
+Total Processed: 158,193
+Successful: 157,581
+Failed: 0
+Skipped: 612
+
+CSV FILES SAVED
+--------------------------------------------------------------------------------
+  ✓ E0_2526_team_form.csv (418 records)
+  ✓ E0_2425_team_form.csv (757 records)
+  ✓ E0_2324_team_form.csv (757 records)
+  ✓ E0_2223_team_form.csv (757 records)
+  ✓ E0_2122_team_form.csv (757 records)
+  ✓ E0_2021_team_form.csv (757 records)
+  ✓ E0_1920_team_form.csv (751 records)
+  ✓ E0_1819_team_form.csv (751 records)
+  ✓ E0_1718_team_form.csv (751 records)
+  ✓ E0_1617_team_form.csv (705 records)
+  ✓ E1_2526_team_form.csv (611 records)
+  ✓ E1_2425_team_form.csv (1098 records)
+  ✓ E1_2324_team_form.csv (1095 records)
+  ✓ E1_2223_team_form.csv (1104 records)
+  ✓ E1_2122_team_form.csv (1098 records)
+  ✓ E1_2021_team_form.csv (1092 records)
+  ✓ E1_1920_team_form.csv (1101 records)
+  ✓ E1_1819_team_form.csv (1095 records)
+  ✓ E1_1718_team_form.csv (1092 records)
+  ✓ E1_1617_team_form.csv (1032 records)
+  ✓ E2_2526_team_form.csv (571 records)
+  ✓ E2_2425_team_form.csv (1089 records)
+  ✓ E2_2324_team_form.csv (1092 records)
+  ✓ E2_2223_team_form.csv (1095 records)
+  ✓ E2_2122_team_form.csv (1095 records)
+  ✓ E2_2021_team_form.csv (1098 records)
+  ✓ E2_1920_team_form.csv (791 records)
+  ✓ E2_1819_team_form.csv (1092 records)
+  ✓ E2_1718_team_form.csv (1083 records)
+  ✓ E2_1617_team_form.csv (1032 records)
+  ... and 235 more files
+
+DATABASE UPDATES
+--------------------------------------------------------------------------------
+Records Inserted: 0
+Records Updated: 157,581
+
+PERFORMANCE
+--------------------------------------------------------------------------------
+Execution Time: 751.51 seconds
+Average Time per Record: 0.0048 seconds
+
+================================================================================
+END OF LOG
+================================================================================

@@ -23,6 +23,7 @@ from app.db.models import (
     SavedProbabilityResult, ValidationResult, PredictionSet, CalibrationData, MatchResult,
     MatchWeather, TeamRestDays, OddsMovement, League, TeamForm, TeamInjuries
 )
+from sqlalchemy import func
 from app.models.calibration import calculate_brier_score, calculate_log_loss
 from app.services.team_resolver import resolve_team_safe
 from datetime import datetime, date, time
@@ -573,7 +574,241 @@ async def calculate_probabilities(
             away_form_attack_mult = away_attack_adj / away_team_strength_base.attack if away_team_strength_base.attack > 0 else 1.0
             away_form_defense_mult = away_defense_adj / away_team_strength_base.defense if away_team_strength_base.defense > 0 else 1.0
             
-            # Get injury data for both teams
+            # ============================================================
+            # AUTOMATIC INGESTION: Weather, Rest Days, Injuries, Odds Movement
+            # ============================================================
+            # Automatically ingest missing draw structural features BEFORE calculating probabilities
+            # This ensures we have the latest data (especially injuries) for accurate predictions
+            # Use a savepoint to isolate ingestion errors from main transaction
+            # Note: MatchWeather, TeamRestDays, OddsMovement are already imported at top of file
+            try:
+                from app.services.ingestion.ingest_weather import ingest_weather_from_open_meteo
+                from app.services.ingestion.ingest_rest_days import ingest_rest_days_for_fixture
+                from app.services.ingestion.ingest_odds_movement import track_odds_movement
+                from sqlalchemy import text
+                
+                # Create a savepoint for this fixture's ingestion
+                savepoint = db.begin_nested()
+                
+                try:
+                    # Get fixture date for weather/rest days/injuries
+                    fixture_date = None
+                    if hasattr(fixture_obj, 'match_date') and fixture_obj.match_date:
+                        fixture_date = fixture_obj.match_date
+                    elif hasattr(fixture_obj, 'jackpot') and fixture_obj.jackpot and fixture_obj.jackpot.kickoff_date:
+                        fixture_date = fixture_obj.jackpot.kickoff_date
+                    else:
+                        fixture_date = date.today()
+                    
+                    match_datetime = datetime.combine(fixture_date, time(hour=15, minute=0))  # Default to 3 PM
+                    
+                    # 1. Auto-ingest weather if missing
+                    weather_exists = db.query(MatchWeather).filter(
+                        MatchWeather.fixture_id == fixture_data['id']
+                    ).first()
+                    
+                    if not weather_exists:
+                        try:
+                            # Try to get stadium coordinates (use league country capital as fallback)
+                            league = db.query(League).filter(League.id == getattr(fixture_obj, 'league_id', None)).first() if getattr(fixture_obj, 'league_id', None) else None
+                            
+                            # Fallback coordinates (country capitals)
+                            country_coords = {
+                                'England': {'lat': 51.5074, 'lon': -0.1278},
+                                'Spain': {'lat': 40.4168, 'lon': -3.7038},
+                                'Germany': {'lat': 52.5200, 'lon': 13.4050},
+                                'Italy': {'lat': 41.9028, 'lon': 12.4964},
+                                'France': {'lat': 48.8566, 'lon': 2.3522},
+                                'Netherlands': {'lat': 52.3676, 'lon': 4.9041},
+                                'Portugal': {'lat': 38.7223, 'lon': -9.1393},
+                                'Scotland': {'lat': 55.9533, 'lon': -3.1883},
+                                'Belgium': {'lat': 50.8503, 'lon': 4.3517},
+                                'Turkey': {'lat': 41.0082, 'lon': 28.9784},
+                                'Greece': {'lat': 37.9838, 'lon': 23.7275},
+                                'Mexico': {'lat': 19.4326, 'lon': -99.1332},
+                                'USA': {'lat': 38.9072, 'lon': -77.0369},
+                                'China': {'lat': 39.9042, 'lon': 116.4074},
+                                'Japan': {'lat': 35.6762, 'lon': 139.6503},
+                                'Australia': {'lat': -33.8688, 'lon': 151.2093},
+                            }
+                            
+                            default_coords = country_coords.get(league.country if league else 'England', {'lat': 51.5074, 'lon': -0.1278})
+                            
+                            weather_result = ingest_weather_from_open_meteo(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                latitude=default_coords['lat'],
+                                longitude=default_coords['lon'],
+                                match_datetime=match_datetime
+                            )
+                            
+                            if weather_result.get("success"):
+                                logger.debug(f"✓ Auto-ingested weather for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Weather auto-ingestion failed for fixture {fixture_data['id']}: {weather_result.get('error', 'Unknown error')}")
+                        except Exception as e:
+                            logger.debug(f"⚠ Weather auto-ingestion error for fixture {fixture_data['id']}: {e}")
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
+                    
+                    # 2. Auto-calculate rest days if missing
+                    rest_days_exist = db.query(TeamRestDays).filter(
+                        TeamRestDays.fixture_id == fixture_data['id']
+                    ).first()
+                    
+                    home_team_id_val = getattr(fixture_obj, 'home_team_id', None)
+                    away_team_id_val = getattr(fixture_obj, 'away_team_id', None)
+                    
+                    if not rest_days_exist:
+                        if home_team_id_val and away_team_id_val:
+                            try:
+                                rest_days_result = ingest_rest_days_for_fixture(
+                                    db=db,
+                                    fixture_id=fixture_data['id'],
+                                    home_team_id=home_team_id_val,
+                                    away_team_id=away_team_id_val
+                                )
+                                
+                                if rest_days_result.get("success"):
+                                    logger.info(f"✓ Auto-calculated rest days for fixture {fixture_data['id']}: home={rest_days_result.get('home_rest_days', 'N/A')}, away={rest_days_result.get('away_rest_days', 'N/A')}")
+                                    # Update rest_days variables with fresh data
+                                    home_rest_days = rest_days_result.get('home_rest_days')
+                                    away_rest_days = rest_days_result.get('away_rest_days')
+                                else:
+                                    logger.warning(f"⚠ Rest days auto-calculation failed for fixture {fixture_data['id']}: {rest_days_result.get('error', 'Unknown error')}")
+                                    try:
+                                        savepoint.rollback()
+                                        savepoint = db.begin_nested()  # Start new savepoint
+                                    except Exception:
+                                        # Savepoint may already be closed, create a new one
+                                        savepoint = db.begin_nested()
+                            except Exception as e:
+                                logger.warning(f"⚠ Rest days auto-calculation error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
+                        else:
+                            logger.debug(f"⚠ Skipping rest days calculation for fixture {fixture_data['id']}: home_team_id={home_team_id_val}, away_team_id={away_team_id_val}")
+                    
+                    # 3. Auto-download injuries if missing and API key is configured
+                    home_inj_exists = db.query(TeamInjuries).filter(
+                        TeamInjuries.fixture_id == fixture_data['id'],
+                        TeamInjuries.team_id == home_team_id_val
+                    ).first() if home_team_id_val else None
+                    
+                    away_inj_exists = db.query(TeamInjuries).filter(
+                        TeamInjuries.fixture_id == fixture_data['id'],
+                        TeamInjuries.team_id == away_team_id_val
+                    ).first() if away_team_id_val else None
+                    
+                    # Check if API key is configured (not empty)
+                    api_football_key = settings.API_FOOTBALL_KEY
+                    has_api_key = api_football_key and api_football_key.strip() != ""
+                    
+                    if (not home_inj_exists or not away_inj_exists) and has_api_key and home_team_id_val and away_team_id_val:
+                        try:
+                            from app.services.ingestion.download_injuries_from_api import download_injuries_from_api_football
+                            
+                            # Only download if at least one team is missing injury data
+                            injury_download_result = download_injuries_from_api_football(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                api_key=api_football_key
+                            )
+                            
+                            if injury_download_result.get("success"):
+                                logger.info(f"✓ Auto-downloaded injuries for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Injury auto-download failed for fixture {fixture_data['id']}: {injury_download_result.get('error', 'Unknown error')}")
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
+                        except Exception as e:
+                            logger.debug(f"⚠ Injury auto-download error for fixture {fixture_data['id']}: {e}")
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
+                    
+                    # 4. Auto-track odds movement if missing and odds available
+                    odds_movement_exists = db.query(OddsMovement).filter(
+                        OddsMovement.fixture_id == fixture_obj.id
+                    ).first()
+                    
+                    if not odds_movement_exists and fixture_data.get('odds_draw'):
+                        try:
+                            # Track current draw odds (will calculate delta if opening odds exist later)
+                            odds_result = track_odds_movement(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                draw_odds=float(fixture_data['odds_draw'])
+                            )
+                            
+                            if odds_result.get("success"):
+                                logger.debug(f"✓ Auto-tracked odds movement for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Odds movement auto-tracking failed for fixture {fixture_data['id']}: {odds_result.get('error', 'Unknown error')}")
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
+                        except Exception as e:
+                            logger.debug(f"⚠ Odds movement auto-tracking error for fixture {fixture_data['id']}: {e}")
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
+                    
+                    # Note: ingestion functions call db.commit() themselves, which commits the outer transaction
+                    # So we can't commit the savepoint - it's already committed
+                    # Just mark it as done
+                    try:
+                        savepoint.commit()
+                    except Exception as commit_err:
+                        # If savepoint was already committed by ingestion function, that's OK
+                        logger.debug(f"Savepoint commit note (may be already committed): {commit_err}")
+                    
+                except Exception as e:
+                    # Rollback savepoint on any error
+                    try:
+                        savepoint.rollback()
+                    except Exception:
+                        pass
+                    logger.debug(f"⚠ Automatic ingestion error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                    # If transaction was aborted, rollback and continue
+                    try:
+                        db.rollback()
+                    except Exception:
+                        pass
+            
+            except Exception as e:
+                # Outer exception handler - log but don't fail the whole request
+                logger.warning(f"⚠ Automatic ingestion setup error for fixture {fixture_data['id']}: {e}", exc_info=True)
+                # Rollback to ensure clean state
+                try:
+                    db.rollback()
+                except Exception:
+                    pass
+            
+            # ============================================================
+            # GET INJURY DATA (after auto-ingestion, so we get fresh data)
+            # ============================================================
             home_injuries = None
             away_injuries = None
             if fixture_data.get('id'):
@@ -597,7 +832,7 @@ async def calculate_probabilities(
                         'injury_severity': away_inj.injury_severity
                     }
             
-            # Apply all adjustments
+            # Apply all adjustments (now with fresh injury data)
             home_attack_final, home_defense_final = apply_all_adjustments(
                 home_team_strength_base.attack,
                 home_team_strength_base.defense,
@@ -703,9 +938,9 @@ async def calculate_probabilities(
                 for p in [base_probs.home, base_probs.draw, base_probs.away]
             )
             
-            # ============================================================
-            # AUTOMATIC INGESTION: Weather, Rest Days, Odds Movement
-            # ============================================================
+            # Note: Automatic ingestion (weather, rest days, injuries, odds movement) 
+            # happens BEFORE probability calculation (see above around line 578)
+            # This ensures we have fresh data for accurate predictions
             # Automatically ingest missing draw structural features before calculating probabilities
             # Use a savepoint to isolate ingestion errors from main transaction
             # Note: MatchWeather, TeamRestDays, OddsMovement are already imported at top of file
@@ -866,7 +1101,52 @@ async def calculate_probabilities(
                             logger.debug(f"⚠ Team form auto-calculation error for fixture {fixture_data['id']}: {e}", exc_info=True)
                             # Don't fail the whole request if form calculation fails
                     
-                    # 3. Auto-track odds movement if missing and odds available
+                    # 3. Auto-download injuries if missing and API key is configured
+                    home_inj_exists = db.query(TeamInjuries).filter(
+                        TeamInjuries.fixture_id == fixture_data['id'],
+                        TeamInjuries.team_id == home_team_id_val
+                    ).first() if home_team_id_val else None
+                    
+                    away_inj_exists = db.query(TeamInjuries).filter(
+                        TeamInjuries.fixture_id == fixture_data['id'],
+                        TeamInjuries.team_id == away_team_id_val
+                    ).first() if away_team_id_val else None
+                    
+                    # Check if API key is configured (not empty)
+                    api_football_key = settings.API_FOOTBALL_KEY
+                    has_api_key = api_football_key and api_football_key.strip() != ""
+                    
+                    if (not home_inj_exists or not away_inj_exists) and has_api_key and home_team_id_val and away_team_id_val:
+                        try:
+                            from app.services.ingestion.download_injuries_from_api import download_injuries_from_api_football
+                            
+                            # Only download if at least one team is missing injury data
+                            injury_download_result = download_injuries_from_api_football(
+                                db=db,
+                                fixture_id=fixture_data['id'],
+                                api_key=api_football_key
+                            )
+                            
+                            if injury_download_result.get("success"):
+                                logger.info(f"✓ Auto-downloaded injuries for fixture {fixture_data['id']}")
+                            else:
+                                logger.debug(f"⚠ Injury auto-download failed for fixture {fixture_data['id']}: {injury_download_result.get('error', 'Unknown error')}")
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
+                        except Exception as e:
+                            logger.debug(f"⚠ Injury auto-download error for fixture {fixture_data['id']}: {e}")
+                            try:
+                                savepoint.rollback()
+                                savepoint = db.begin_nested()  # Start new savepoint
+                            except Exception:
+                                # Savepoint may already be closed, create a new one
+                                savepoint = db.begin_nested()
+                    
+                    # 4. Auto-track odds movement if missing and odds available
                     odds_movement_exists = db.query(OddsMovement).filter(
                         OddsMovement.fixture_id == fixture_obj.id
                     ).first()
@@ -884,8 +1164,12 @@ async def calculate_probabilities(
                                 logger.debug(f"✓ Auto-tracked odds movement for fixture {fixture_data['id']}")
                             else:
                                 logger.debug(f"⚠ Odds movement auto-tracking failed for fixture {fixture_data['id']}: {odds_result.get('error', 'Unknown error')}")
-                                savepoint.rollback()
-                                savepoint = db.begin_nested()  # Start new savepoint
+                                try:
+                                    savepoint.rollback()
+                                    savepoint = db.begin_nested()  # Start new savepoint
+                                except Exception:
+                                    # Savepoint may already be closed, create a new one
+                                    savepoint = db.begin_nested()
                         except Exception as e:
                             logger.debug(f"⚠ Odds movement auto-tracking error for fixture {fixture_data['id']}: {e}")
                             try:
@@ -925,6 +1209,30 @@ async def calculate_probabilities(
                     db.rollback()
                 except Exception:
                     pass
+            
+            # ============================================================
+            # GET INJURY DATA (after auto-ingestion, so we get fresh data)
+            # ============================================================
+            if fixture_data.get('id'):
+                home_inj = db.query(TeamInjuries).filter(
+                    TeamInjuries.fixture_id == fixture_data['id'],
+                    TeamInjuries.team_id == home_team_id
+                ).first()
+                if home_inj:
+                    home_injuries = {
+                        'key_players_missing': home_inj.key_players_missing,
+                        'injury_severity': home_inj.injury_severity
+                    }
+                
+                away_inj = db.query(TeamInjuries).filter(
+                    TeamInjuries.fixture_id == fixture_data['id'],
+                    TeamInjuries.team_id == away_team_id
+                ).first()
+                if away_inj:
+                    away_injuries = {
+                        'key_players_missing': away_inj.key_players_missing,
+                        'injury_severity': away_inj.injury_severity
+                    }
             
             # ============================================================
             # DRAW STRUCTURAL ADJUSTMENT (CRITICAL: Home-Away Compression)
@@ -1919,7 +2227,33 @@ async def export_validation_to_training(
         
         db.commit()
         
+        # Check if we should trigger automatic retraining
+        # Count total exported validation matches
+        total_exported_matches = db.query(func.sum(ValidationResult.total_matches)).filter(
+            ValidationResult.exported_to_training == True
+        ).scalar() or 0
+        
+        auto_retrain_threshold = 50  # Minimum matches for auto-retraining
+        should_auto_retrain = total_exported_matches >= auto_retrain_threshold
+        
+        auto_retrain_result = None
+        if should_auto_retrain:
+            try:
+                logger.info(f"Auto-retraining calibration model from validation data ({total_exported_matches} matches available)...")
+                from app.services.model_training import ModelTrainingService
+                training_service = ModelTrainingService(db)
+                auto_retrain_result = await training_service.train_calibration_from_validation(
+                    use_all_validation=True,
+                    min_validation_matches=auto_retrain_threshold
+                )
+                logger.info(f"✓ Auto-retrained calibration model: {auto_retrain_result.get('version')}")
+            except Exception as e:
+                logger.warning(f"Auto-retraining failed (non-critical): {e}")
+                # Don't fail the export if auto-retraining fails
+        
         message = f"Successfully exported {exported_count} validation results to training."
+        if auto_retrain_result:
+            message += f" Calibration model auto-retrained using {auto_retrain_result.get('matchCount', 0)} validation matches."
         if errors:
             message += f" {len(errors)} errors occurred: {', '.join(errors[:5])}"
         
@@ -1928,11 +2262,64 @@ async def export_validation_to_training(
             message=message,
             data={
                 "exported_count": exported_count,
-                "errors": errors if errors else None
+                "errors": errors if errors else None,
+                "auto_retrained": auto_retrain_result is not None,
+                "auto_retrain_result": auto_retrain_result,
+                "total_validation_matches": int(total_exported_matches)
             }
         )
     
     except Exception as e:
         db.rollback()
         logger.error(f"Error exporting validation data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/validation/retrain-calibration", response_model=ApiResponse)
+async def retrain_calibration_from_validation(
+    validation_result_ids: Optional[List[int]] = Body(None, embed=True),
+    use_all_validation: bool = Body(False, embed=True),
+    base_model_id: Optional[int] = Body(None, embed=True),
+    min_validation_matches: int = Body(50, embed=True),
+    db: Session = Depends(get_db)
+):
+    """
+    Manually retrain calibration model using validation results.
+    
+    This creates a feedback loop: validation results → model improvement → better predictions.
+    
+    Args:
+        validation_result_ids: List of ValidationResult IDs to use (None = all)
+        use_all_validation: Use all exported validation results
+        base_model_id: ID of base model to calibrate (None = auto-detect)
+        min_validation_matches: Minimum number of matches required (default: 50)
+    
+    Returns:
+        ApiResponse with training results
+    """
+    try:
+        logger.info(f"=== MANUAL CALIBRATION RETRAINING FROM VALIDATION ===")
+        logger.info(f"validation_result_ids: {validation_result_ids}")
+        logger.info(f"use_all_validation: {use_all_validation}")
+        logger.info(f"base_model_id: {base_model_id}")
+        logger.info(f"min_validation_matches: {min_validation_matches}")
+        
+        from app.services.model_training import ModelTrainingService
+        training_service = ModelTrainingService(db)
+        
+        result = await training_service.train_calibration_from_validation(
+            base_model_id=base_model_id,
+            validation_result_ids=validation_result_ids,
+            use_all_validation=use_all_validation,
+            min_validation_matches=min_validation_matches
+        )
+        
+        return ApiResponse(
+            success=True,
+            message=f"Calibration model retrained successfully using {result['matchCount']} validation matches",
+            data=result
+        )
+        
+    except Exception as e:
+        logger.error(f"Error retraining calibration from validation: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))

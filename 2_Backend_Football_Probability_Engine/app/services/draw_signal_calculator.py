@@ -106,10 +106,42 @@ def fetch_draw_structural_data_for_fixture(
     league_draw_rate = None
     if league_id:
         try:
-            from app.db.models import League
+            from app.db.models import League, LeagueDrawPrior
+            # Check if this is INT league (international matches)
             league = db.query(League).filter(League.id == league_id).first()
-            if league and league.avg_draw_rate is not None:
-                league_draw_rate = float(league.avg_draw_rate)
+            if league and league.code == 'INT':
+                # For international matches, use default draw rate or calculate from all INT matches
+                # Default: 0.25 (typical international draw rate)
+                # Or calculate from historical INT matches if available
+                try:
+                    # Try to get draw rate from all INT matches
+                    from app.db.models import Match
+                    int_matches = db.query(Match).join(League).filter(
+                        League.code == 'INT',
+                        Match.result.isnot(None)
+                    ).all()
+                    if int_matches and len(int_matches) >= 10:  # Minimum sample size
+                        draws = sum(1 for m in int_matches if m.result == 'D')
+                        league_draw_rate = draws / len(int_matches)
+                        logger.debug(f"Calculated INT league draw rate from {len(int_matches)} matches: {league_draw_rate:.3f}")
+                    else:
+                        # Use default for international matches
+                        league_draw_rate = 0.25
+                        logger.debug(f"Using default INT league draw rate: {league_draw_rate}")
+                except Exception as e:
+                    logger.debug(f"Could not calculate INT draw rate: {e}, using default 0.25")
+                    league_draw_rate = 0.25
+            else:
+                # Normal league prior lookup
+                league_prior = db.query(LeagueDrawPrior).filter(
+                    LeagueDrawPrior.league_id == league_id
+                ).order_by(LeagueDrawPrior.updated_at.desc()).first()
+                
+                if league_prior:
+                    league_draw_rate = float(league_prior.draw_rate)
+                elif league and hasattr(league, 'avg_draw_rate') and league.avg_draw_rate is not None:
+                    # Fallback to league's avg_draw_rate if available
+                    league_draw_rate = float(league.avg_draw_rate)
         except Exception as e:
             logger.debug(f"Could not fetch league draw rate: {e}")
 

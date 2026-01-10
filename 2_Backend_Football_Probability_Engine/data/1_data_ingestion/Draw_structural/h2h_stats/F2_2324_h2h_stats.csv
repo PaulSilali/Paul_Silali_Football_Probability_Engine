@@ -1,6 +1,6 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9386,Amiens,9398,Angers,2324,2,0,0.0,4.5
-9399,Valenciennes,9400,Auxerre,2324,1,1,1.0,
+9399,Valenciennes,9400,Auxerre,2324,2,1,0.5,2.5
 9377,Laval,9381,Pau FC,2324,2,1,0.5,2.5
 9381,Pau FC,9397,Concarneau,2324,2,0,0.0,2.5
 9392,Paris FC,9398,Angers,2324,2,0,0.0,3.0
@@ -73,7 +73,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9378,St Etienne,9382,Annecy,2324,2,1,0.5,2.5
 9375,Dunkerque,9400,Auxerre,2324,2,0,0.0,2.5
 9375,Dunkerque,9396,Quevilly Rouen,2324,2,0,0.0,2.0
-9381,Pau FC,9401,Bordeaux,2324,1,0,0.0,5.0
+9381,Pau FC,9401,Bordeaux,2324,2,0,0.0,4.0
 9400,Auxerre,9401,Bordeaux,2324,2,0,0.0,5.0
 9375,Dunkerque,9399,Valenciennes,2324,2,0,0.0,2.0
 9382,Annecy,9383,Rodez,2324,2,0,0.0,3.5
@@ -115,7 +115,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9377,Laval,9396,Quevilly Rouen,2324,2,1,0.5,3.0
 9397,Concarneau,9401,Bordeaux,2324,2,0,0.0,3.5
 9386,Amiens,9400,Auxerre,2324,2,1,0.5,0.5
-9377,Laval,9398,Angers,2324,1,1,1.0,2.0
+9377,Laval,9398,Angers,2324,2,1,0.5,1.5
 9375,Dunkerque,9398,Angers,2324,2,1,0.5,0.5
 9385,Grenoble,9397,Concarneau,2324,2,0,0.0,3.0
 9385,Grenoble,9400,Auxerre,2324,2,2,1.0,1.0
@@ -160,7 +160,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9382,Annecy,9397,Concarneau,2324,2,1,0.5,2.5
 9390,Ajaccio,9392,Paris FC,2324,2,0,0.0,2.5
 9373,Guingamp,9399,Valenciennes,2324,2,1,0.5,1.5
-9386,Amiens,9396,Quevilly Rouen,2324,1,1,1.0,6.0
+9386,Amiens,9396,Quevilly Rouen,2324,2,1,0.5,3.5
 9398,Angers,9400,Auxerre,2324,2,1,0.5,2.5
 9392,Paris FC,9397,Concarneau,2324,2,1,0.5,3.5
 9381,Pau FC,9392,Paris FC,2324,2,1,0.5,2.0

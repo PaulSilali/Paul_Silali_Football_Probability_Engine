@@ -268,6 +268,28 @@ class ApiClient {
     });
   }
 
+  async retrainCalibrationFromValidation(params?: {
+    validation_result_ids?: number[];
+    use_all_validation?: boolean;
+    base_model_id?: number;
+    min_validation_matches?: number;
+  }): Promise<ApiResponse<{
+    modelId: number;
+    version: string;
+    metrics: {
+      brierScore: number;
+      logLoss: number;
+    };
+    matchCount: number;
+    validationResultCount: number;
+    trainingRunId: number;
+  }>> {
+    return this.request(`/probabilities/validation/retrain-calibration`, {
+      method: 'POST',
+      body: JSON.stringify(params || {}),
+    });
+  }
+
   // Calibration endpoints
   async getCalibrationData(params?: {
     league?: string;
@@ -1184,6 +1206,68 @@ class ApiClient {
     });
   }
 
+  async importTeamInjuriesFromCsv(file: File): Promise<ApiResponse<any>> {
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    const headers: HeadersInit = {};
+    if (this.token) {
+      headers['Authorization'] = `Bearer ${this.token}`;
+    }
+    // Don't set Content-Type for FormData - browser will set it with boundary
+    
+    const response = await fetch(`${API_BASE_URL}/draw-ingestion/team-injuries/import-csv`, {
+      method: 'POST',
+      body: formData,
+      headers,
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        this.token = null;
+        localStorage.removeItem('auth_token');
+        window.location.href = '/login';
+      }
+      
+      let errorMessage = `API Error: ${response.status} ${response.statusText}`;
+      try {
+        const errorData = await response.json();
+        if (errorData.detail) {
+          errorMessage = typeof errorData.detail === 'string' 
+            ? errorData.detail 
+            : JSON.stringify(errorData.detail);
+        } else if (errorData.message) {
+          errorMessage = errorData.message;
+        }
+      } catch (e) {
+        // If JSON parsing fails, use default message
+      }
+      
+      const error = new Error(errorMessage);
+      (error as any).status = response.status;
+      throw error;
+    }
+
+    return response.json();
+  }
+
+  async downloadTeamInjuries(options: {
+    fixtureIds?: number[];
+    leagueCodes?: string[];
+    useAllLeagues?: boolean;
+    source?: string;
+  }): Promise<ApiResponse<any>> {
+    return this.request('/draw-ingestion/team-injuries/download', {
+      method: 'POST',
+      body: JSON.stringify({
+        fixture_ids: options.fixtureIds,
+        league_codes: options.leagueCodes,
+        use_all_leagues: options.useAllLeagues || false,
+        source: options.source || 'api-football',
+      }),
+    });
+  }
+
   async ingestXGData(fixtureId?: number, matchId?: number, xgHome: number, xgAway: number): Promise<ApiResponse<any>> {
     return this.request('/draw-ingestion/xg-data', {
       method: 'POST',
@@ -1225,6 +1309,28 @@ class ApiClient {
     by_league: Array<{ code: string; name: string; count: number }>;
   }>> {
     return this.request('/draw-ingestion/xg-data/summary');
+  }
+
+  async getTeamFormSummary(): Promise<ApiResponse<{
+    total_records: number;
+    fixture_records: number;
+    historical_records: number;
+    leagues_with_form: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  }>> {
+    return this.request('/draw-ingestion/team-form/summary');
+  }
+
+  async getTeamInjuriesSummary(): Promise<ApiResponse<{
+    total_records: number;
+    leagues_with_injuries: number;
+    total_leagues: number;
+    last_updated: string | null;
+    by_league: Array<{ code: string; name: string; count: number }>;
+  }>> {
+    return this.request('/draw-ingestion/team-injuries/summary');
   }
 
   async importAllDrawStructuralData(options: {

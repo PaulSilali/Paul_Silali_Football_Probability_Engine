@@ -1,0 +1,38 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+CHN1,2122,2021-04-20,Dalian Pro,Shanghai Shenhua,269,269,True
+CHN1,2122,2021-04-20,Tianjin Jinmen Tiger,Beijing Guoan,7,269,True
+CHN1,2122,2021-04-20,Shenzhen Peng City,Chongqing Liangjiang Athletic,269,7,True
+CHN1,2122,2021-04-20,Shandong Taishan,Cangzhou Mighty Lions,269,7,True
+CHN1,2122,2021-04-20,Henan Songshan Longmen,Guangzhou City,7,269,True
+CHN1,2122,2021-04-20,Wuhan FC,Dalian Pro,7,269,True
+CHN1,2122,2021-04-20,Beijing Guoan,Changchun Yatai,269,1145,True
+CHN1,2122,2021-04-20,Shenzhen Peng City,Shanghai Port FC,269,269,True
+CHN1,2122,2021-04-20,Shandong Taishan,Beijing Guoan,269,269,True
+CHN1,2122,2021-04-20,Guangzhou City,Hebei FC,269,7,True
+CHN1,2122,2021-04-20,Changchun Yatai,Shenzhen Peng City,1145,269,True
+CHN1,2122,2021-04-20,Beijing Guoan,Shenzhen Peng City,269,269,True
+CHN1,2122,2021-04-20,Hebei FC,Guangzhou City,7,269,True
+CHN1,2122,2021-04-20,Shandong Taishan,Changchun Yatai,269,1145,True
+CHN1,2122,2021-04-20,Changchun Yatai,Guangzhou City,1145,269,True
+CHN1,2122,2021-04-20,Shanghai Port FC,Shenzhen Peng City,269,269,True
+CHN1,2122,2021-04-20,Beijing Guoan,Shandong Taishan,269,269,True
+CHN1,2122,2021-04-20,Guangzhou City,Shanghai Port FC,269,269,True
+CHN1,2122,2021-12-12,Wuhan FC,Henan Songshan Longmen,236,236,False
+CHN1,2122,2021-12-12,Qingdao FC,Dalian Pro,7,236,False
+CHN1,2122,2021-12-12,Shanghai Shenhua,Cangzhou Mighty Lions,236,236,False
+CHN1,2122,2021-12-12,Wuhan FC,Qingdao FC,236,7,False
+CHN1,2122,2021-12-12,Wuhan FC,Cangzhou Mighty Lions,236,236,False
+CHN1,2122,2021-12-12,Tianjin Jinmen Tiger,Chongqing Liangjiang Athletic,236,236,False
+CHN1,2122,2021-12-12,Henan Songshan Longmen,Tianjin Jinmen Tiger,236,236,False
+CHN1,2122,2021-12-12,Cangzhou Mighty Lions,Shanghai Shenhua,236,236,False
+CHN1,2122,2021-12-12,Qingdao FC,Wuhan FC,7,236,False
+CHN1,2122,2021-12-12,Tianjin Jinmen Tiger,Qingdao FC,236,7,False
+CHN1,2122,2021-12-12,Dalian Pro,Cangzhou Mighty Lions,236,236,False
+CHN1,2122,2021-12-12,Shanghai Shenhua,Chongqing Liangjiang Athletic,236,236,False
+CHN1,2122,2021-12-12,Cangzhou Mighty Lions,Tianjin Jinmen Tiger,236,236,False
+CHN1,2122,2022-01-01,Shandong Taishan,Shanghai Port FC,256,256,False
+CHN1,2122,2022-01-01,Beijing Guoan,Guangzhou City,256,256,False
+CHN1,2122,2022-01-01,Guangzhou City,Hebei FC,256,256,False
+CHN1,2122,2022-01-01,Changchun Yatai,Shandong Taishan,256,256,False
+CHN1,2122,2022-01-03,Wuhan Yangtze River,Chongqing Liangjiang Athletic,7,22,False
+CHN1,2122,2022-01-03,Dalian Pro,Qingdao FC,22,22,False

@@ -2144,3 +2144,14 @@ COMMENT ON TABLE team_form_historical IS 'Team form metrics for historical match
 COMMENT ON COLUMN team_form_historical.form_rating IS 'Normalized form rating (0.0-1.0), where 1.0 = perfect form (3 points per match)';
 COMMENT ON COLUMN team_form_historical.attack_form IS 'Goals scored per match, normalized (0.0-1.0)';
 COMMENT ON COLUMN team_form_historical.defense_form IS 'Goals conceded per match, normalized and inverted (lower is better)';
+
+
+-- Create International League for handling international matches
+-- This allows the system to handle country vs country games
+
+INSERT INTO leagues (code, name, country, tier, is_active)
+VALUES ('INT', 'International Matches', 'World', 0, TRUE)
+ON CONFLICT (code) DO NOTHING;
+
+-- Note: Tier 0 indicates special league type (not a regular club league)
+-- This allows filtering in queries if needed

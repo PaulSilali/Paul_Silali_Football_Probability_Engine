@@ -1,0 +1,553 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,is_draw
+2018-08-03,Reading,Derby,1,2,A,0
+2018-08-04,Birmingham,Norwich,2,2,D,1
+2018-08-04,Bristol City,Nott'm Forest,1,1,D,1
+2018-08-04,Sheffield United,Swansea,1,2,A,0
+2018-08-04,Ipswich,Blackburn,2,2,D,1
+2018-08-04,Preston,QPR,1,0,H,0
+2018-08-04,Brentford,Rotherham,5,1,H,0
+2018-08-04,Millwall,Middlesbrough,2,2,D,1
+2018-08-04,Wigan,Sheffield United,3,2,H,0
+2018-08-04,West Brom,Luton,1,2,A,0
+2018-08-05,Leeds,Stoke,3,1,H,0
+2018-08-06,Hull,Aston Villa,1,3,A,0
+2018-08-07,Middlesbrough,Sheffield United,3,0,H,0
+2018-08-07,Nott'm Forest,West Brom,1,1,D,1
+2018-08-11,QPR,Sheffield United,1,2,A,0
+2018-08-11,Nott'm Forest,Reading,1,0,H,0
+2018-08-11,Middlesbrough,Birmingham,1,0,H,0
+2018-08-11,Blackburn,Millwall,0,0,D,1
+2018-08-11,Stoke,Brentford,1,1,D,1
+2018-08-11,Sheffield United,Hull,1,1,D,1
+2018-08-11,Norwich,West Brom,3,4,A,0
+2018-08-11,Derby,Leeds,1,4,A,0
+2018-08-11,Luton,Bristol City,2,2,D,1
+2018-08-11,Aston Villa,Wigan,3,2,H,0
+2018-08-11,Swansea,Preston,1,0,H,0
+2018-08-11,Rotherham,Ipswich,1,0,H,0
+2018-08-17,Birmingham,Swansea,0,0,D,1
+2018-08-18,Sheffield United,Norwich,2,1,H,0
+2018-08-18,Hull,Blackburn,0,1,A,0
+2018-08-18,Bristol City,Middlesbrough,0,2,A,0
+2018-08-18,Ipswich,Aston Villa,1,1,D,1
+2018-08-18,Millwall,Derby,2,1,H,0
+2018-08-18,Preston,Stoke,2,2,D,1
+2018-08-18,West Brom,QPR,7,1,H,0
+2018-08-18,Leeds,Rotherham,2,0,H,0
+2018-08-18,Reading,Luton,0,1,A,0
+2018-08-18,Wigan,Nott'm Forest,2,2,D,1
+2018-08-19,Brentford,Sheffield United,2,0,H,0
+2018-08-21,QPR,Bristol City,0,3,A,0
+2018-08-21,Derby,Ipswich,2,0,H,0
+2018-08-21,Swansea,Leeds,2,2,D,1
+2018-08-21,Rotherham,Hull,2,3,A,0
+2018-08-22,Luton,Birmingham,1,0,H,0
+2018-08-22,Stoke,Wigan,0,3,A,0
+2018-08-22,Norwich,Preston,2,0,H,0
+2018-08-22,Aston Villa,Brentford,2,2,D,1
+2018-08-22,Blackburn,Reading,2,2,D,1
+2018-08-22,Sheffield United,Millwall,2,1,H,0
+2018-08-24,Middlesbrough,West Brom,1,0,H,0
+2018-08-25,Derby,Preston,2,0,H,0
+2018-08-25,Norwich,Leeds,0,3,A,0
+2018-08-25,Stoke,Hull,2,0,H,0
+2018-08-25,Swansea,Bristol City,0,1,A,0
+2018-08-25,Aston Villa,Reading,1,1,D,1
+2018-08-25,Nott'm Forest,Birmingham,2,2,D,1
+2018-08-25,Sheffield United,Ipswich,2,1,H,0
+2018-08-25,QPR,Wigan,1,0,H,0
+2018-08-25,Blackburn,Brentford,1,0,H,0
+2018-08-25,Luton,Sheffield United,0,3,A,0
+2018-08-26,Rotherham,Millwall,1,0,H,0
+2018-08-31,Leeds,Middlesbrough,0,0,D,1
+2018-09-01,Birmingham,QPR,0,0,D,1
+2018-09-01,Wigan,Rotherham,1,0,H,0
+2018-09-01,West Brom,Stoke,2,1,H,0
+2018-09-01,Sheffield United,Aston Villa,4,1,H,0
+2018-09-01,Reading,Sheffield United,1,2,A,0
+2018-09-01,Preston,Luton,2,2,D,1
+2018-09-01,Millwall,Swansea,1,2,A,0
+2018-09-01,Hull,Derby,1,2,A,0
+2018-09-01,Brentford,Nott'm Forest,2,1,H,0
+2018-09-02,Bristol City,Blackburn,4,1,H,0
+2018-09-02,Ipswich,Norwich,1,1,D,1
+2018-09-14,Birmingham,West Brom,1,1,D,1
+2018-09-15,Brentford,Wigan,2,0,H,0
+2018-09-15,Bristol City,Sheffield United,1,0,H,0
+2018-09-15,Preston,Reading,2,3,A,0
+2018-09-15,Sheffield United,Stoke,2,2,D,1
+2018-09-15,Swansea,Nott'm Forest,0,0,D,1
+2018-09-15,Rotherham,Derby,1,0,H,0
+2018-09-15,Norwich,Middlesbrough,1,0,H,0
+2018-09-15,Blackburn,Aston Villa,1,1,D,1
+2018-09-15,Hull,Ipswich,2,0,H,0
+2018-09-15,Luton,QPR,1,2,A,0
+2018-09-15,Millwall,Leeds,1,1,D,1
+2018-09-18,Leeds,Preston,3,0,H,0
+2018-09-18,Stoke,Swansea,1,0,H,0
+2018-09-18,Wigan,Hull,2,1,H,0
+2018-09-18,West Brom,Bristol City,4,2,H,0
+2018-09-18,Ipswich,Brentford,1,1,D,1
+2018-09-18,Aston Villa,Rotherham,2,0,H,0
+2018-09-18,Derby,Blackburn,0,0,D,1
+2018-09-19,Middlesbrough,Luton,2,0,H,0
+2018-09-19,Nott'm Forest,Sheffield United,2,1,H,0
+2018-09-19,Reading,Norwich,1,2,A,0
+2018-09-19,Sheffield United,Birmingham,0,0,D,1
+2018-09-19,QPR,Millwall,2,0,H,0
+2018-09-21,Wigan,Bristol City,1,0,H,0
+2018-09-22,Stoke,Blackburn,2,3,A,0
+2018-09-22,Ipswich,Luton,0,0,D,1
+2018-09-22,Middlesbrough,Swansea,0,0,D,1
+2018-09-22,Nott'm Forest,Rotherham,1,0,H,0
+2018-09-22,QPR,Norwich,0,1,A,0
+2018-09-22,Reading,Hull,3,0,H,0
+2018-09-22,West Brom,Millwall,2,0,H,0
+2018-09-22,Aston Villa,Sheffield United,1,2,A,0
+2018-09-22,Derby,Brentford,3,1,H,0
+2018-09-22,Leeds,Birmingham,1,2,A,0
+2018-09-22,Sheffield United,Preston,3,2,H,0
+2018-09-28,Bristol City,Aston Villa,1,1,D,1
+2018-09-28,Sheffield United,Leeds,1,1,D,1
+2018-09-29,Blackburn,Nott'm Forest,2,2,D,1
+2018-09-29,Brentford,Reading,2,2,D,1
+2018-09-29,Hull,Middlesbrough,1,1,D,1
+2018-09-29,Millwall,Sheffield United,2,3,A,0
+2018-09-29,Swansea,QPR,3,0,H,0
+2018-09-29,Norwich,Wigan,1,0,H,0
+2018-09-29,Luton,Derby,1,0,H,0
+2018-09-29,Preston,West Brom,2,3,A,0
+2018-09-29,Rotherham,Stoke,2,2,D,1
+2018-09-29,Birmingham,Ipswich,2,2,D,1
+2018-10-02,Brentford,Birmingham,1,1,D,1
+2018-10-02,Wigan,Swansea,0,0,D,1
+2018-10-02,Stoke,Luton,2,0,H,0
+2018-10-02,Aston Villa,Preston,3,3,D,1
+2018-10-02,Reading,QPR,0,1,A,0
+2018-10-02,Ipswich,Middlesbrough,0,2,A,0
+2018-10-02,Hull,Leeds,0,1,A,0
+2018-10-03,Blackburn,Sheffield United,0,2,A,0
+2018-10-03,Derby,Norwich,1,1,D,1
+2018-10-03,Sheffield United,West Brom,2,2,D,1
+2018-10-03,Nott'm Forest,Millwall,2,2,D,1
+2018-10-03,Rotherham,Bristol City,0,0,D,1
+2018-10-06,Middlesbrough,Nott'm Forest,0,2,A,0
+2018-10-06,Luton,Blackburn,0,1,A,0
+2018-10-06,West Brom,Reading,4,1,H,0
+2018-10-06,QPR,Derby,1,1,D,1
+2018-10-06,Sheffield United,Hull,1,0,H,0
+2018-10-06,Preston,Wigan,4,0,H,0
+2018-10-06,Norwich,Stoke,0,1,A,0
+2018-10-06,Birmingham,Rotherham,3,1,H,0
+2018-10-06,Millwall,Aston Villa,2,1,H,0
+2018-10-06,Swansea,Ipswich,2,3,A,0
+2018-10-06,Leeds,Brentford,1,1,D,1
+2018-10-07,Bristol City,Sheffield United,1,2,A,0
+2018-10-19,Sheffield United,Middlesbrough,1,2,A,0
+2018-10-20,Ipswich,QPR,0,2,A,0
+2018-10-20,Wigan,West Brom,1,0,H,0
+2018-10-20,Aston Villa,Swansea,1,0,H,0
+2018-10-20,Blackburn,Leeds,2,1,H,0
+2018-10-20,Derby,Sheffield United,2,1,H,0
+2018-10-20,Hull,Preston,1,1,D,1
+2018-10-20,Nott'm Forest,Norwich,1,2,A,0
+2018-10-20,Reading,Millwall,3,1,H,0
+2018-10-20,Rotherham,Luton,1,1,D,1
+2018-10-20,Brentford,Bristol City,0,1,A,0
+2018-10-20,Stoke,Birmingham,0,1,A,0
+2018-10-23,Birmingham,Reading,2,1,H,0
+2018-10-23,Middlesbrough,Rotherham,0,0,D,1
+2018-10-23,Swansea,Blackburn,3,1,H,0
+2018-10-23,Sheffield United,Stoke,1,1,D,1
+2018-10-23,Norwich,Aston Villa,2,1,H,0
+2018-10-23,Millwall,Wigan,2,1,H,0
+2018-10-23,QPR,Sheffield United,3,0,H,0
+2018-10-24,Bristol City,Hull,1,0,H,0
+2018-10-24,Luton,Nott'm Forest,0,3,A,0
+2018-10-24,Preston,Brentford,4,3,H,0
+2018-10-24,Leeds,Ipswich,2,0,H,0
+2018-10-24,West Brom,Derby,1,4,A,0
+2018-10-26,QPR,Aston Villa,1,0,H,0
+2018-10-27,Sheffield United,Wigan,4,2,H,0
+2018-10-27,Middlesbrough,Derby,1,1,D,1
+2018-10-27,West Brom,Blackburn,1,1,D,1
+2018-10-27,Leeds,Nott'm Forest,1,1,D,1
+2018-10-27,Preston,Rotherham,1,1,D,1
+2018-10-27,Birmingham,Sheffield United,3,1,H,0
+2018-10-27,Swansea,Reading,2,0,H,0
+2018-10-27,Norwich,Brentford,1,0,H,0
+2018-10-27,Millwall,Ipswich,3,0,H,0
+2018-10-27,Bristol City,Stoke,0,1,A,0
+2018-10-27,Luton,Hull,0,1,A,0
+2018-11-02,Aston Villa,Luton,2,0,H,0
+2018-11-03,Derby,Birmingham,3,1,H,0
+2018-11-03,Reading,Bristol City,3,2,H,0
+2018-11-03,Rotherham,Swansea,2,1,H,0
+2018-11-03,Stoke,Middlesbrough,0,0,D,1
+2018-11-03,Sheffield United,Norwich,0,4,A,0
+2018-11-03,Nott'm Forest,Sheffield United,1,0,H,0
+2018-11-03,Hull,West Brom,1,0,H,0
+2018-11-03,Brentford,Millwall,2,0,H,0
+2018-11-03,Blackburn,QPR,1,0,H,0
+2018-11-03,Ipswich,Preston,1,1,D,1
+2018-11-04,Wigan,Leeds,1,2,A,0
+2018-11-09,Sheffield United,Sheffield United,0,0,D,1
+2018-11-10,Reading,Ipswich,2,2,D,1
+2018-11-10,Luton,Swansea,0,1,A,0
+2018-11-10,Bristol City,Preston,0,1,A,0
+2018-11-10,Derby,Aston Villa,0,3,A,0
+2018-11-10,Middlesbrough,Wigan,2,0,H,0
+2018-11-10,Nott'm Forest,Stoke,0,0,D,1
+2018-11-10,QPR,Brentford,3,2,H,0
+2018-11-10,West Brom,Leeds,4,1,H,0
+2018-11-10,Birmingham,Hull,3,3,D,1
+2018-11-10,Blackburn,Rotherham,1,1,D,1
+2018-11-10,Norwich,Millwall,4,3,H,0
+2018-11-23,Ipswich,West Brom,1,2,A,0
+2018-11-24,Brentford,Middlesbrough,1,2,A,0
+2018-11-24,Sheffield United,Derby,1,2,A,0
+2018-11-24,Millwall,Luton,1,1,D,1
+2018-11-24,Rotherham,Sheffield United,2,2,D,1
+2018-11-24,Swansea,Norwich,1,4,A,0
+2018-11-24,Stoke,QPR,2,2,D,1
+2018-11-24,Hull,Nott'm Forest,0,2,A,0
+2018-11-24,Leeds,Bristol City,2,0,H,0
+2018-11-24,Wigan,Reading,0,0,D,1
+2018-11-24,Preston,Blackburn,4,1,H,0
+2018-11-25,Aston Villa,Birmingham,4,2,H,0
+2018-11-27,Brentford,Sheffield United,2,3,A,0
+2018-11-27,Rotherham,QPR,2,2,D,1
+2018-11-27,Hull,Norwich,0,0,D,1
+2018-11-27,Leeds,Reading,1,0,H,0
+2018-11-27,Sheffield United,Luton,1,0,H,0
+2018-11-27,Preston,Middlesbrough,1,1,D,1
+2018-11-28,Wigan,Blackburn,3,1,H,0
+2018-11-28,Swansea,West Brom,1,2,A,0
+2018-11-28,Stoke,Derby,2,1,H,0
+2018-11-28,Ipswich,Bristol City,2,3,A,0
+2018-11-28,Aston Villa,Nott'm Forest,5,5,D,1
+2018-11-28,Millwall,Birmingham,0,2,A,0
+2018-12-01,Derby,Swansea,2,1,H,0
+2018-12-01,QPR,Hull,2,3,A,0
+2018-12-01,Reading,Stoke,2,2,D,1
+2018-12-01,Birmingham,Preston,3,0,H,0
+2018-12-01,Middlesbrough,Aston Villa,0,3,A,0
+2018-12-01,Nott'm Forest,Ipswich,2,0,H,0
+2018-12-01,Sheffield United,Leeds,0,1,A,0
+2018-12-01,Blackburn,Sheffield United,4,2,H,0
+2018-12-01,Luton,Wigan,1,1,D,1
+2018-12-01,Norwich,Rotherham,3,1,H,0
+2018-12-02,Bristol City,Millwall,1,1,D,1
+2018-12-03,West Brom,Brentford,1,1,D,1
+2018-12-07,West Brom,Aston Villa,2,2,D,1
+2018-12-08,Sheffield United,Rotherham,2,2,D,1
+2018-12-08,Birmingham,Bristol City,0,1,A,0
+2018-12-08,Nott'm Forest,Preston,0,1,A,0
+2018-12-08,Reading,Sheffield United,0,2,A,0
+2018-12-08,Stoke,Ipswich,2,0,H,0
+2018-12-08,Wigan,Derby,0,1,A,0
+2018-12-08,Norwich,Luton,3,2,H,0
+2018-12-08,Millwall,Hull,2,2,D,1
+2018-12-08,Middlesbrough,Blackburn,1,1,D,1
+2018-12-08,Leeds,QPR,2,1,H,0
+2018-12-08,Brentford,Swansea,2,3,A,0
+2018-12-14,Sheffield United,West Brom,1,2,A,0
+2018-12-15,Blackburn,Birmingham,2,2,D,1
+2018-12-15,Aston Villa,Stoke,2,2,D,1
+2018-12-15,Bristol City,Norwich,2,2,D,1
+2018-12-15,Ipswich,Wigan,1,0,H,0
+2018-12-15,Luton,Leeds,0,1,A,0
+2018-12-15,Hull,Brentford,2,0,H,0
+2018-12-15,Swansea,Sheffield United,2,1,H,0
+2018-12-15,Rotherham,Reading,1,1,D,1
+2018-12-15,QPR,Middlesbrough,2,1,H,0
+2018-12-15,Preston,Millwall,3,2,H,0
+2018-12-17,Derby,Nott'm Forest,0,0,D,1
+2018-12-22,Ipswich,Sheffield United,1,1,D,1
+2018-12-22,Wigan,Birmingham,0,3,A,0
+2018-12-22,Derby,Bristol City,1,1,D,1
+2018-12-22,Stoke,Millwall,1,0,H,0
+2018-12-22,Sheffield United,Preston,1,0,H,0
+2018-12-22,Reading,Middlesbrough,0,1,A,0
+2018-12-22,Rotherham,West Brom,0,4,A,0
+2018-12-22,Blackburn,Norwich,0,1,A,0
+2018-12-22,Brentford,Luton,1,0,H,0
+2018-12-22,Nott'm Forest,QPR,0,1,A,0
+2018-12-22,Hull,Swansea,3,2,H,0
+2018-12-23,Aston Villa,Leeds,2,3,A,0
+2018-12-26,Swansea,Aston Villa,0,1,A,0
+2018-12-26,West Brom,Wigan,2,0,H,0
+2018-12-26,Luton,Rotherham,2,1,H,0
+2018-12-26,Bristol City,Brentford,1,1,D,1
+2018-12-26,Leeds,Blackburn,3,2,H,0
+2018-12-26,Norwich,Nott'm Forest,3,3,D,1
+2018-12-26,Preston,Hull,1,2,A,0
+2018-12-26,Sheffield United,Derby,3,1,H,0
+2018-12-26,Birmingham,Stoke,2,0,H,0
+2018-12-26,Middlesbrough,Sheffield United,0,1,A,0
+2018-12-26,QPR,Ipswich,3,0,H,0
+2018-12-26,Millwall,Reading,1,0,H,0
+2018-12-29,West Brom,Sheffield United,1,1,D,1
+2018-12-29,Swansea,Wigan,2,2,D,1
+2018-12-29,Preston,Aston Villa,1,1,D,1
+2018-12-29,Norwich,Derby,3,4,A,0
+2018-12-29,Birmingham,Brentford,0,0,D,1
+2018-12-29,Luton,Stoke,0,0,D,1
+2018-12-29,Bristol City,Rotherham,1,0,H,0
+2018-12-29,Leeds,Hull,0,2,A,0
+2018-12-29,Middlesbrough,Ipswich,2,0,H,0
+2018-12-29,Millwall,Nott'm Forest,1,0,H,0
+2018-12-29,QPR,Reading,0,0,D,1
+2018-12-29,Sheffield United,Blackburn,3,0,H,0
+2019-01-01,Stoke,Bristol City,0,2,A,0
+2019-01-01,Aston Villa,QPR,2,2,D,1
+2019-01-01,Blackburn,West Brom,2,1,H,0
+2019-01-01,Brentford,Norwich,1,1,D,1
+2019-01-01,Derby,Middlesbrough,1,1,D,1
+2019-01-01,Hull,Luton,6,0,H,0
+2019-01-01,Ipswich,Millwall,2,3,A,0
+2019-01-01,Nott'm Forest,Leeds,4,2,H,0
+2019-01-01,Reading,Swansea,1,4,A,0
+2019-01-01,Rotherham,Preston,2,1,H,0
+2019-01-01,Sheffield United,Birmingham,1,1,D,1
+2019-01-01,Wigan,Sheffield United,0,3,A,0
+2019-01-11,Leeds,Derby,2,0,H,0
+2019-01-12,Hull,Sheffield United,3,0,H,0
+2019-01-12,Wigan,Aston Villa,3,0,H,0
+2019-01-12,Sheffield United,QPR,1,0,H,0
+2019-01-12,Reading,Nott'm Forest,2,0,H,0
+2019-01-12,Millwall,Blackburn,0,2,A,0
+2019-01-12,Brentford,Stoke,3,1,H,0
+2019-01-12,Bristol City,Luton,2,1,H,0
+2019-01-12,Preston,Swansea,1,1,D,1
+2019-01-12,Ipswich,Rotherham,1,0,H,0
+2019-01-12,Birmingham,Middlesbrough,1,2,A,0
+2019-01-12,West Brom,Norwich,1,1,D,1
+2019-01-18,Norwich,Birmingham,3,1,H,0
+2019-01-19,Derby,Reading,2,1,H,0
+2019-01-19,Nott'm Forest,Bristol City,0,1,A,0
+2019-01-19,Sheffield United,Wigan,1,0,H,0
+2019-01-19,Swansea,Sheffield United,1,0,H,0
+2019-01-19,Blackburn,Ipswich,2,0,H,0
+2019-01-19,Stoke,Leeds,2,1,H,0
+2019-01-19,Rotherham,Brentford,2,4,A,0
+2019-01-19,QPR,Preston,1,4,A,0
+2019-01-19,Middlesbrough,Millwall,1,1,D,1
+2019-01-19,Aston Villa,Hull,2,2,D,1
+2019-01-21,Luton,West Brom,0,2,A,0
+2019-01-26,Rotherham,Leeds,1,2,A,0
+2019-01-26,Nott'm Forest,Wigan,3,1,H,0
+2019-01-26,Aston Villa,Ipswich,2,1,H,0
+2019-01-26,Blackburn,Hull,3,0,H,0
+2019-01-26,Stoke,Preston,0,2,A,0
+2019-01-26,Norwich,Sheffield United,2,2,D,1
+2019-01-29,Swansea,Birmingham,3,3,D,1
+2019-01-29,Luton,Reading,1,1,D,1
+2019-02-01,Preston,Derby,0,0,D,1
+2019-02-02,Hull,Stoke,2,0,H,0
+2019-02-02,Bristol City,Swansea,2,0,H,0
+2019-02-02,Ipswich,Sheffield United,0,1,A,0
+2019-02-02,Millwall,Rotherham,0,0,D,1
+2019-02-02,Reading,Aston Villa,0,0,D,1
+2019-02-02,Sheffield United,Luton,2,0,H,0
+2019-02-02,Wigan,QPR,2,1,H,0
+2019-02-02,West Brom,Middlesbrough,2,3,A,0
+2019-02-02,Leeds,Norwich,1,3,A,0
+2019-02-02,Brentford,Blackburn,5,2,H,0
+2019-02-02,Birmingham,Nott'm Forest,2,0,H,0
+2019-02-08,Aston Villa,Sheffield United,3,3,D,1
+2019-02-09,Stoke,West Brom,0,1,A,0
+2019-02-09,Swansea,Millwall,1,0,H,0
+2019-02-09,QPR,Birmingham,3,4,A,0
+2019-02-09,Nott'm Forest,Brentford,2,1,H,0
+2019-02-09,Middlesbrough,Leeds,1,1,D,1
+2019-02-09,Luton,Preston,1,2,A,0
+2019-02-09,Rotherham,Wigan,1,1,D,1
+2019-02-09,Blackburn,Bristol City,0,1,A,0
+2019-02-09,Derby,Hull,2,0,H,0
+2019-02-09,Sheffield United,Reading,0,0,D,1
+2019-02-10,Norwich,Ipswich,3,0,H,0
+2019-02-12,Hull,Rotherham,2,2,D,1
+2019-02-12,Bristol City,QPR,2,1,H,0
+2019-02-12,Millwall,Sheffield United,0,0,D,1
+2019-02-12,Birmingham,Luton,0,1,A,0
+2019-02-12,West Brom,Nott'm Forest,2,2,D,1
+2019-02-13,Brentford,Aston Villa,1,0,H,0
+2019-02-13,Leeds,Swansea,2,1,H,0
+2019-02-13,Preston,Norwich,3,1,H,0
+2019-02-13,Reading,Blackburn,2,1,H,0
+2019-02-13,Wigan,Stoke,0,0,D,1
+2019-02-13,Sheffield United,Middlesbrough,1,0,H,0
+2019-02-13,Ipswich,Derby,1,1,D,1
+2019-02-16,Preston,Nott'm Forest,0,0,D,1
+2019-02-16,Rotherham,Sheffield United,2,2,D,1
+2019-02-16,Ipswich,Stoke,1,1,D,1
+2019-02-16,Sheffield United,Reading,4,0,H,0
+2019-02-16,Aston Villa,West Brom,0,2,A,0
+2019-02-16,Luton,Norwich,0,4,A,0
+2019-02-17,Blackburn,Middlesbrough,0,1,A,0
+2019-02-19,QPR,West Brom,2,3,A,0
+2019-02-20,Derby,Millwall,0,1,A,0
+2019-02-23,Millwall,Preston,1,3,A,0
+2019-02-23,Middlesbrough,QPR,2,0,H,0
+2019-02-23,West Brom,Sheffield United,0,1,A,0
+2019-02-23,Birmingham,Blackburn,2,2,D,1
+2019-02-23,Brentford,Hull,5,1,H,0
+2019-02-23,Leeds,Luton,2,1,H,0
+2019-02-23,Norwich,Bristol City,3,2,H,0
+2019-02-23,Reading,Rotherham,1,1,D,1
+2019-02-23,Sheffield United,Swansea,3,1,H,0
+2019-02-23,Stoke,Aston Villa,1,1,D,1
+2019-02-23,Wigan,Ipswich,1,1,D,1
+2019-02-25,Nott'm Forest,Derby,1,0,H,0
+2019-02-26,Sheffield United,Brentford,2,0,H,0
+2019-02-26,QPR,Leeds,1,0,H,0
+2019-02-26,Hull,Millwall,2,1,H,0
+2019-02-26,Bristol City,Birmingham,1,2,A,0
+2019-03-01,Leeds,West Brom,4,0,H,0
+2019-03-02,Wigan,Middlesbrough,0,0,D,1
+2019-03-02,Rotherham,Blackburn,3,2,H,0
+2019-03-02,Preston,Bristol City,1,1,D,1
+2019-03-02,Aston Villa,Derby,4,0,H,0
+2019-03-02,Brentford,QPR,3,0,H,0
+2019-03-02,Hull,Birmingham,2,0,H,0
+2019-03-02,Ipswich,Reading,1,2,A,0
+2019-03-02,Millwall,Norwich,1,3,A,0
+2019-03-02,Stoke,Nott'm Forest,2,0,H,0
+2019-03-02,Swansea,Luton,2,0,H,0
+2019-03-04,Sheffield United,Sheffield United,0,0,D,1
+2019-03-05,Derby,Wigan,2,1,H,0
+2019-03-08,Norwich,Swansea,1,0,H,0
+2019-03-09,Luton,Millwall,2,1,H,0
+2019-03-09,Nott'm Forest,Hull,3,0,H,0
+2019-03-09,Bristol City,Leeds,0,1,A,0
+2019-03-09,Blackburn,Preston,0,1,A,0
+2019-03-09,QPR,Stoke,0,0,D,1
+2019-03-09,West Brom,Ipswich,1,1,D,1
+2019-03-09,Middlesbrough,Brentford,1,2,A,0
+2019-03-09,Reading,Wigan,3,2,H,0
+2019-03-09,Derby,Sheffield United,1,1,D,1
+2019-03-09,Sheffield United,Rotherham,2,0,H,0
+2019-03-10,Birmingham,Aston Villa,0,1,A,0
+2019-03-12,Blackburn,Wigan,3,0,H,0
+2019-03-12,Luton,Sheffield United,0,2,A,0
+2019-03-12,Reading,Leeds,0,3,A,0
+2019-03-12,Sheffield United,Brentford,2,0,H,0
+2019-03-12,Bristol City,Ipswich,1,1,D,1
+2019-03-13,Derby,Stoke,0,0,D,1
+2019-03-13,QPR,Rotherham,1,2,A,0
+2019-03-13,Birmingham,Millwall,0,2,A,0
+2019-03-13,Nott'm Forest,Aston Villa,1,3,A,0
+2019-03-13,Norwich,Hull,3,2,H,0
+2019-03-13,Middlesbrough,Preston,1,2,A,0
+2019-03-13,West Brom,Swansea,3,0,H,0
+2019-03-16,Wigan,Luton,5,2,H,0
+2019-03-16,Sheffield United,Blackburn,4,2,H,0
+2019-03-16,Stoke,Reading,0,0,D,1
+2019-03-16,Preston,Birmingham,1,0,H,0
+2019-03-16,Leeds,Sheffield United,0,1,A,0
+2019-03-16,Brentford,West Brom,0,1,A,0
+2019-03-16,Aston Villa,Middlesbrough,3,0,H,0
+2019-03-16,Rotherham,Norwich,1,2,A,0
+2019-03-16,Ipswich,Nott'm Forest,1,1,D,1
+2019-03-16,Hull,QPR,2,2,D,1
+2019-03-29,West Brom,Birmingham,3,2,H,0
+2019-03-30,Stoke,Sheffield United,0,0,D,1
+2019-03-30,Aston Villa,Blackburn,2,1,H,0
+2019-03-30,Derby,Rotherham,6,1,H,0
+2019-03-30,Leeds,Millwall,3,2,H,0
+2019-03-30,Nott'm Forest,Swansea,2,1,H,0
+2019-03-30,QPR,Luton,1,2,A,0
+2019-03-30,Reading,Preston,2,1,H,0
+2019-03-30,Sheffield United,Bristol City,2,3,A,0
+2019-03-30,Middlesbrough,Norwich,0,1,A,0
+2019-03-30,Ipswich,Hull,0,2,A,0
+2019-03-30,Wigan,Brentford,0,0,D,1
+2019-04-02,Swansea,Brentford,3,0,H,0
+2019-04-02,Middlesbrough,Bristol City,0,1,A,0
+2019-04-06,Norwich,QPR,4,0,H,0
+2019-04-06,Millwall,West Brom,2,0,H,0
+2019-04-06,Blackburn,Stoke,0,1,A,0
+2019-04-06,Birmingham,Leeds,1,0,H,0
+2019-04-06,Swansea,Middlesbrough,3,1,H,0
+2019-04-06,Preston,Sheffield United,0,1,A,0
+2019-04-06,Hull,Reading,3,1,H,0
+2019-04-06,Rotherham,Nott'm Forest,2,1,H,0
+2019-04-06,Luton,Ipswich,1,2,A,0
+2019-04-06,Bristol City,Wigan,2,2,D,1
+2019-04-06,Brentford,Derby,3,3,D,1
+2019-04-06,Sheffield United,Aston Villa,1,3,A,0
+2019-04-09,Sheffield United,Nott'm Forest,3,0,H,0
+2019-04-09,Swansea,Stoke,3,1,H,0
+2019-04-09,Bristol City,West Brom,3,2,H,0
+2019-04-09,Blackburn,Derby,2,0,H,0
+2019-04-09,Luton,Middlesbrough,0,2,A,0
+2019-04-09,Preston,Leeds,0,2,A,0
+2019-04-10,Birmingham,Sheffield United,1,1,D,1
+2019-04-10,Millwall,QPR,0,0,D,1
+2019-04-10,Brentford,Ipswich,2,0,H,0
+2019-04-10,Rotherham,Aston Villa,1,2,A,0
+2019-04-10,Norwich,Reading,2,2,D,1
+2019-04-10,Hull,Wigan,2,1,H,0
+2019-04-13,Stoke,Rotherham,2,2,D,1
+2019-04-13,West Brom,Preston,4,1,H,0
+2019-04-13,QPR,Swansea,4,0,H,0
+2019-04-13,Middlesbrough,Hull,1,0,H,0
+2019-04-13,Leeds,Sheffield United,1,0,H,0
+2019-04-13,Derby,Luton,4,0,H,0
+2019-04-13,Aston Villa,Bristol City,2,1,H,0
+2019-04-13,Ipswich,Birmingham,1,1,D,1
+2019-04-13,Nott'm Forest,Blackburn,1,2,A,0
+2019-04-13,Reading,Brentford,2,1,H,0
+2019-04-13,Sheffield United,Millwall,1,1,D,1
+2019-04-14,Wigan,Norwich,1,1,D,1
+2019-04-19,West Brom,Hull,3,2,H,0
+2019-04-19,Swansea,Rotherham,4,3,H,0
+2019-04-19,Birmingham,Derby,2,2,D,1
+2019-04-19,Luton,Aston Villa,0,2,A,0
+2019-04-19,Bristol City,Reading,1,1,D,1
+2019-04-19,Leeds,Wigan,1,2,A,0
+2019-04-19,Middlesbrough,Stoke,1,0,H,0
+2019-04-19,Millwall,Brentford,1,1,D,1
+2019-04-19,Norwich,Sheffield United,2,2,D,1
+2019-04-19,Preston,Ipswich,4,0,H,0
+2019-04-19,Sheffield United,Nott'm Forest,2,0,H,0
+2019-04-19,QPR,Blackburn,1,2,A,0
+2019-04-22,Derby,QPR,2,0,H,0
+2019-04-22,Aston Villa,Millwall,1,0,H,0
+2019-04-22,Blackburn,Luton,2,0,H,0
+2019-04-22,Brentford,Leeds,2,0,H,0
+2019-04-22,Hull,Sheffield United,0,3,A,0
+2019-04-22,Ipswich,Swansea,0,1,A,0
+2019-04-22,Nott'm Forest,Middlesbrough,3,0,H,0
+2019-04-22,Reading,West Brom,0,0,D,1
+2019-04-22,Sheffield United,Bristol City,2,0,H,0
+2019-04-22,Wigan,Preston,2,0,H,0
+2019-04-22,Rotherham,Birmingham,1,3,A,0
+2019-04-22,Stoke,Norwich,2,2,D,1
+2019-04-27,Swansea,Hull,2,2,D,1
+2019-04-27,Millwall,Stoke,0,0,D,1
+2019-04-27,Bristol City,Derby,0,2,A,0
+2019-04-27,Norwich,Blackburn,2,1,H,0
+2019-04-27,Preston,Sheffield United,3,3,D,1
+2019-04-27,West Brom,Rotherham,2,1,H,0
+2019-04-27,Luton,Brentford,0,1,A,0
+2019-04-27,Sheffield United,Ipswich,2,0,H,0
+2019-04-27,QPR,Nott'm Forest,0,1,A,0
+2019-04-27,Birmingham,Wigan,1,1,D,1
+2019-04-27,Middlesbrough,Reading,2,1,H,0
+2019-04-28,Leeds,Aston Villa,1,1,D,1
+2019-04-30,Millwall,Bristol City,1,2,A,0
+2019-05-01,Swansea,Derby,1,1,D,1
+2019-05-05,Sheffield United,QPR,1,2,A,0
+2019-05-05,Brentford,Preston,3,0,H,0
+2019-05-05,Ipswich,Leeds,3,2,H,0
+2019-05-05,Hull,Bristol City,1,1,D,1
+2019-05-05,Aston Villa,Norwich,1,2,A,0
+2019-05-05,Blackburn,Swansea,2,2,D,1
+2019-05-05,Derby,West Brom,3,1,H,0
+2019-05-05,Wigan,Millwall,1,0,H,0
+2019-05-05,Reading,Birmingham,0,0,D,1
+2019-05-05,Nott'm Forest,Luton,1,0,H,0
+2019-05-05,Stoke,Sheffield United,2,2,D,1
+2019-05-05,Rotherham,Middlesbrough,1,2,A,0

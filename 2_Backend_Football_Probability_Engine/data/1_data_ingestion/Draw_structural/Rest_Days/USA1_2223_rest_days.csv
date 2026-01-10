@@ -1,89 +1,145 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-USA1,2223,2022-02-26,Chicago Fire,Atlanta United FC,7,7,False
-USA1,2223,2022-02-26,Sporting Kansas City,Austin FC,728,7,False
-USA1,2223,2022-02-26,FC Dallas,Los Angeles Galaxy,728,728,False
-USA1,2223,2022-02-26,Seattle Sounders,FC Dallas,728,728,False
-USA1,2223,2022-02-26,Charlotte FC,D.C. United,7,7,False
-USA1,2223,2022-02-26,CF Montréal,New York RB,7,7,False
-USA1,2223,2022-02-26,Columbus Crew,CF Montréal,728,7,False
-USA1,2223,2022-02-26,Portland Timbers,Nashville SC,7,728,False
-USA1,2223,2022-02-26,San Jose Earthquakes,Inter Miami CF,7,7,False
-USA1,2223,2022-02-26,Vancouver Whitecaps,Houston Dynamo,7,7,False
-USA1,2223,2022-02-26,Atlanta United FC,Seattle Sounders,7,728,False
-USA1,2223,2022-02-26,Charlotte FC,Chicago Fire,7,7,False
-USA1,2223,2022-02-26,CF Montréal,Inter Miami CF,7,7,False
-USA1,2223,2022-02-26,Columbus Crew,New York RB,728,7,False
-USA1,2223,2022-02-26,D.C. United,New York RB,7,7,False
-USA1,2223,2022-02-26,FC Cincinnati,Philadelphia Union,7,7,False
-USA1,2223,2022-02-26,Orlando City,New England Revolution,728,728,False
-USA1,2223,2022-02-26,Nashville SC,Toronto FC,728,7,False
-USA1,2223,2022-02-26,Sporting Kansas City,Los Angeles Galaxy,728,728,False
-USA1,2223,2022-02-26,Austin FC,San Jose Earthquakes,7,7,False
-USA1,2223,2022-02-26,Colorado Rapids,Minnesota United FC,7,728,False
-USA1,2223,2022-02-26,Real Salt Lake,Los Angeles Galaxy,7,728,False
-USA1,2223,2022-02-26,Portland Timbers,FC Dallas,7,728,False
-USA1,2223,2022-02-26,New York RB,Orlando City,7,728,False
-USA1,2223,2022-02-26,FC Cincinnati,Atlanta United FC,7,7,False
-USA1,2223,2022-02-26,New England Revolution,D.C. United,728,7,False
-USA1,2223,2022-02-26,Philadelphia Union,Chicago Fire,7,7,False
-USA1,2223,2022-02-26,Toronto FC,Portland Timbers,7,7,False
-USA1,2223,2022-02-26,Inter Miami CF,New York RB,7,7,False
-USA1,2223,2022-02-26,Austin FC,Sporting Kansas City,7,728,False
-USA1,2223,2022-02-26,Colorado Rapids,Columbus Crew,7,728,False
-USA1,2223,2022-02-26,FC Dallas,San Jose Earthquakes,728,7,False
-USA1,2223,2022-02-26,Houston Dynamo,CF Montréal,7,7,False
-USA1,2223,2022-02-26,Los Angeles Galaxy,Vancouver Whitecaps,728,7,False
-USA1,2223,2022-02-26,Los Angeles Galaxy,Charlotte FC,728,7,False
-USA1,2223,2022-02-26,Nashville SC,Minnesota United FC,728,728,False
-USA1,2223,2022-02-26,Seattle Sounders,Real Salt Lake,728,7,False
-USA1,2223,2022-02-26,Los Angeles Galaxy,D.C. United,728,7,False
-USA1,2223,2022-02-26,Atlanta United FC,New York RB,7,7,False
-USA1,2223,2022-02-26,Toronto FC,New England Revolution,7,728,False
-USA1,2223,2022-02-26,New York RB,Charlotte FC,7,7,False
-USA1,2223,2022-02-26,FC Dallas,Philadelphia Union,728,7,False
-USA1,2223,2022-02-26,Vancouver Whitecaps,Colorado Rapids,7,7,False
-USA1,2223,2022-02-26,Los Angeles Galaxy,Seattle Sounders,728,728,False
-USA1,2223,2022-02-26,New York RB,FC Cincinnati,7,7,False
-USA1,2223,2022-02-26,CF Montréal,New England Revolution,7,728,False
-USA1,2223,2022-02-26,D.C. United,Philadelphia Union,7,7,False
-USA1,2223,2022-02-26,Inter Miami CF,Toronto FC,7,7,False
-USA1,2223,2022-02-26,Minnesota United FC,Austin FC,728,7,False
-USA1,2223,2022-02-26,Colorado Rapids,Houston Dynamo,7,7,False
-USA1,2223,2022-02-26,Real Salt Lake,Vancouver Whitecaps,7,7,False
-USA1,2223,2022-02-26,San Jose Earthquakes,Los Angeles Galaxy,7,728,False
-USA1,2223,2022-02-26,Chicago Fire,New York RB,7,7,False
-USA1,2223,2022-02-26,Columbus Crew,Atlanta United FC,728,7,False
-USA1,2223,2022-02-26,Charlotte FC,Orlando City,7,728,False
-USA1,2223,2022-02-26,Sporting Kansas City,Portland Timbers,728,7,False
-USA1,2223,2022-02-26,Nashville SC,FC Dallas,728,728,False
-USA1,2223,2022-02-26,Austin FC,Los Angeles Galaxy,7,728,False
-USA1,2223,2022-02-26,Portland Timbers,Seattle Sounders,7,728,False
-USA1,2223,2022-02-26,Minnesota United FC,Houston Dynamo,728,7,False
-USA1,2223,2022-02-26,New York RB,Inter Miami CF,7,7,False
-USA1,2223,2022-02-26,FC Cincinnati,Columbus Crew,7,728,False
-USA1,2223,2022-02-26,Philadelphia Union,Colorado Rapids,7,7,False
-USA1,2223,2022-02-26,Chicago Fire,CF Montréal,7,7,False
-USA1,2223,2022-02-26,Charlotte FC,Toronto FC,7,7,False
-USA1,2223,2022-02-26,Sporting Kansas City,San Jose Earthquakes,728,7,False
-USA1,2223,2022-02-26,FC Dallas,Real Salt Lake,728,7,False
-USA1,2223,2022-02-26,Vancouver Whitecaps,Nashville SC,7,728,False
-USA1,2223,2022-02-26,Atlanta United FC,D.C. United,7,7,False
-USA1,2223,2022-02-26,Orlando City,New York RB,728,7,False
-USA1,2223,2022-02-26,New England Revolution,Los Angeles Galaxy,728,728,False
-USA1,2223,2022-02-26,Philadelphia Union,Atlanta United FC,7,7,False
-USA1,2223,2022-02-26,Columbus Crew,Inter Miami CF,728,7,False
-USA1,2223,2022-02-26,New England Revolution,Chicago Fire,728,7,False
-USA1,2223,2022-02-26,Toronto FC,Los Angeles Galaxy,7,728,False
-USA1,2223,2022-02-26,Houston Dynamo,Los Angeles Galaxy,7,728,False
-USA1,2223,2022-02-26,Nashville SC,Colorado Rapids,728,7,False
-USA1,2223,2022-02-26,Orlando City,Seattle Sounders,728,728,False
-USA1,2223,2022-02-26,Real Salt Lake,Minnesota United FC,7,728,False
-USA1,2223,2022-02-26,Austin FC,Portland Timbers,7,7,False
-USA1,2223,2022-02-26,New York RB,D.C. United,7,7,False
-USA1,2223,2022-02-26,Minnesota United FC,FC Dallas,728,728,False
-USA1,2223,2022-02-26,Columbus Crew,Chicago Fire,728,7,False
-USA1,2223,2022-02-26,New York RB,Philadelphia Union,7,7,False
-USA1,2223,2022-02-26,FC Cincinnati,Charlotte FC,7,7,False
-USA1,2223,2022-02-26,Nashville SC,Austin FC,728,7,False
-USA1,2223,2022-02-26,Portland Timbers,Atlanta United FC,7,7,False
-USA1,2223,2022-02-26,D.C. United,Colorado Rapids,7,7,False
+USA1,2223,2022-02-26,Toronto FC,CF Montréal,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Sporting Kansas City,316,316,False
+USA1,2223,2022-02-26,Seattle Sounders,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,CF Montréal,Columbus Crew,316,316,False
+USA1,2223,2022-02-26,Nashville SC,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,New York RB,New England Revolution,316,316,False
+USA1,2223,2022-02-26,Atlanta United FC,Toronto FC,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,Orlando City,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,Colorado Rapids,Vancouver Whitecaps,316,316,False
+USA1,2223,2022-02-26,CF Montréal,Chicago Fire,316,316,False
+USA1,2223,2022-02-26,Inter Miami CF,Columbus Crew,316,316,False
+USA1,2223,2022-02-26,Minnesota United FC,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Houston Dynamo,New England Revolution,316,316,False
+USA1,2223,2022-02-26,Colorado Rapids,San Jose Earthquakes,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,Charlotte FC,316,7,False
+USA1,2223,2022-02-26,Sporting Kansas City,Minnesota United FC,316,316,False
+USA1,2223,2022-02-26,Austin FC,Nashville SC,316,316,False
+USA1,2223,2022-02-26,Real Salt Lake,FC Cincinnati,316,316,False
+USA1,2223,2022-02-26,Vancouver Whitecaps,Seattle Sounders,316,316,False
+USA1,2223,2022-02-26,San Jose Earthquakes,FC Dallas,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,Columbus Crew,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,D.C. United,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,Seattle Sounders,FC Cincinnati,316,316,False
+USA1,2223,2022-02-26,New England Revolution,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,FC Cincinnati,Chicago Fire,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Real Salt Lake,316,316,False
+USA1,2223,2022-02-26,Portland Timbers,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Nashville SC,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,Charlotte FC,Columbus Crew,7,316,False
+USA1,2223,2022-02-26,Inter Miami CF,Orlando City,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,New England Revolution,316,316,False
+USA1,2223,2022-02-26,D.C. United,FC Cincinnati,316,316,False
+USA1,2223,2022-02-26,Inter Miami CF,CF Montréal,316,316,False
+USA1,2223,2022-02-26,Orlando City,Columbus Crew,316,316,False
+USA1,2223,2022-02-26,Austin FC,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,FC Dallas,Sporting Kansas City,316,316,False
+USA1,2223,2022-02-26,Real Salt Lake,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,Seattle Sounders,San Jose Earthquakes,316,316,False
+USA1,2223,2022-02-26,Austin FC,Real Salt Lake,316,316,False
+USA1,2223,2022-02-26,FC Dallas,Minnesota United FC,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Austin FC,FC Dallas,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,New York RB,316,316,False
+USA1,2223,2022-02-26,CF Montréal,New York RB,316,316,False
+USA1,2223,2022-02-26,FC Dallas,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Columbus Crew,New York RB,316,316,False
+USA1,2223,2022-02-26,New York RB,Orlando City,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,Sporting Kansas City,Austin FC,316,316,False
+USA1,2223,2022-02-26,Seattle Sounders,FC Dallas,316,316,False
+USA1,2223,2022-02-26,Charlotte FC,D.C. United,7,316,False
+USA1,2223,2022-02-26,Columbus Crew,CF Montréal,316,316,False
+USA1,2223,2022-02-26,Portland Timbers,Nashville SC,316,316,False
+USA1,2223,2022-02-26,San Jose Earthquakes,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,Vancouver Whitecaps,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,Atlanta United FC,Seattle Sounders,316,316,False
+USA1,2223,2022-02-26,Charlotte FC,Chicago Fire,7,316,False
+USA1,2223,2022-02-26,CF Montréal,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,D.C. United,New York RB,316,316,False
+USA1,2223,2022-02-26,FC Cincinnati,Philadelphia Union,316,316,False
+USA1,2223,2022-02-26,Orlando City,New England Revolution,316,316,False
+USA1,2223,2022-02-26,Nashville SC,Toronto FC,316,316,False
+USA1,2223,2022-02-26,Sporting Kansas City,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Austin FC,San Jose Earthquakes,316,316,False
+USA1,2223,2022-02-26,Colorado Rapids,Minnesota United FC,316,316,False
+USA1,2223,2022-02-26,Real Salt Lake,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Portland Timbers,FC Dallas,316,316,False
+USA1,2223,2022-02-26,FC Cincinnati,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,New England Revolution,D.C. United,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,Chicago Fire,316,316,False
+USA1,2223,2022-02-26,Toronto FC,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,Inter Miami CF,New York RB,316,316,False
+USA1,2223,2022-02-26,Austin FC,Sporting Kansas City,316,316,False
+USA1,2223,2022-02-26,Colorado Rapids,Columbus Crew,316,316,False
+USA1,2223,2022-02-26,FC Dallas,San Jose Earthquakes,316,316,False
+USA1,2223,2022-02-26,Houston Dynamo,CF Montréal,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Vancouver Whitecaps,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Charlotte FC,316,7,False
+USA1,2223,2022-02-26,Nashville SC,Minnesota United FC,316,316,False
+USA1,2223,2022-02-26,Seattle Sounders,Real Salt Lake,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,D.C. United,316,316,False
+USA1,2223,2022-02-26,Atlanta United FC,New York RB,316,316,False
+USA1,2223,2022-02-26,Toronto FC,New England Revolution,316,316,False
+USA1,2223,2022-02-26,New York RB,Charlotte FC,316,7,False
+USA1,2223,2022-02-26,FC Dallas,Philadelphia Union,316,316,False
+USA1,2223,2022-02-26,Vancouver Whitecaps,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Seattle Sounders,316,316,False
+USA1,2223,2022-02-26,CF Montréal,New England Revolution,316,316,False
+USA1,2223,2022-02-26,D.C. United,Philadelphia Union,316,316,False
+USA1,2223,2022-02-26,Inter Miami CF,Toronto FC,316,316,False
+USA1,2223,2022-02-26,Minnesota United FC,Austin FC,316,316,False
+USA1,2223,2022-02-26,Colorado Rapids,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,Real Salt Lake,Vancouver Whitecaps,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,New York RB,316,316,False
+USA1,2223,2022-02-26,Columbus Crew,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,Charlotte FC,Orlando City,7,316,False
+USA1,2223,2022-02-26,Sporting Kansas City,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,Nashville SC,FC Dallas,316,316,False
+USA1,2223,2022-02-26,Austin FC,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Portland Timbers,Seattle Sounders,316,316,False
+USA1,2223,2022-02-26,Minnesota United FC,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,New York RB,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,FC Cincinnati,Columbus Crew,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,Chicago Fire,CF Montréal,316,316,False
+USA1,2223,2022-02-26,Charlotte FC,Toronto FC,7,316,False
+USA1,2223,2022-02-26,Sporting Kansas City,San Jose Earthquakes,316,316,False
+USA1,2223,2022-02-26,FC Dallas,Real Salt Lake,316,316,False
+USA1,2223,2022-02-26,Vancouver Whitecaps,Nashville SC,316,316,False
+USA1,2223,2022-02-26,Atlanta United FC,D.C. United,316,316,False
+USA1,2223,2022-02-26,Orlando City,New York RB,316,316,False
+USA1,2223,2022-02-26,New England Revolution,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,Columbus Crew,Inter Miami CF,316,316,False
+USA1,2223,2022-02-26,New England Revolution,Chicago Fire,316,316,False
+USA1,2223,2022-02-26,Toronto FC,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Nashville SC,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,Orlando City,Seattle Sounders,316,316,False
+USA1,2223,2022-02-26,Real Salt Lake,Minnesota United FC,316,316,False
+USA1,2223,2022-02-26,Austin FC,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,New York RB,D.C. United,316,316,False
+USA1,2223,2022-02-26,Minnesota United FC,FC Dallas,316,316,False
+USA1,2223,2022-02-26,Columbus Crew,Chicago Fire,316,316,False
+USA1,2223,2022-02-26,New York RB,Philadelphia Union,316,316,False
+USA1,2223,2022-02-26,FC Cincinnati,Charlotte FC,316,7,False
+USA1,2223,2022-02-26,Nashville SC,Austin FC,316,316,False
+USA1,2223,2022-02-26,Portland Timbers,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,D.C. United,Colorado Rapids,316,316,False
+USA1,2223,2022-02-26,New York RB,FC Cincinnati,316,316,False
+USA1,2223,2022-02-26,San Jose Earthquakes,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Houston Dynamo,Los Angeles Galaxy,316,316,False
+USA1,2223,2022-02-26,Austin FC,New York RB,316,316,False
+USA1,2223,2022-02-26,Los Angeles Galaxy,Atlanta United FC,316,316,False
+USA1,2223,2022-02-26,Minnesota United FC,Portland Timbers,316,316,False
+USA1,2223,2022-02-26,Philadelphia Union,Houston Dynamo,316,316,False
+USA1,2223,2022-02-26,Inter Miami CF,FC Cincinnati,316,316,False
+USA1,2223,2022-02-26,Nashville SC,Vancouver Whitecaps,316,316,False
+USA1,2223,2022-02-26,New England Revolution,Toronto FC,316,316,False
+USA1,2223,2022-02-26,San Jose Earthquakes,Real Salt Lake,316,316,False
+USA1,2223,2022-02-26,D.C. United,Orlando City,316,316,False
+USA1,2223,2022-02-26,New York RB,Colorado Rapids,316,316,False

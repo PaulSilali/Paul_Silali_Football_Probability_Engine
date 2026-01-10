@@ -1,14 +1,4 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-MEX1,2425,2024-07-05,CF América,Deportivo Guadalajara,175,175,False
-MEX1,2425,2024-07-05,Club León,Cruz Azul,175,175,False
-MEX1,2425,2024-07-05,Santos Laguna,CF Monterrey,175,175,False
-MEX1,2425,2024-07-05,Club Tijuana,Santos Laguna,175,175,False
-MEX1,2425,2024-07-05,Atlético San Luis,Cruz Azul,175,175,False
-MEX1,2425,2024-07-05,CF Pachuca,Deportivo Toluca,175,175,False
-MEX1,2425,2024-07-05,CF América,Atlas Guadalajara,175,175,False
-MEX1,2425,2024-07-05,Pumas UNAM,Puebla FC,175,175,False
-MEX1,2425,2024-07-05,Gallos Blancos,UANL Tigres,175,175,False
-MEX1,2425,2024-07-05,Deportivo Guadalajara,Club León,175,175,False
 MEX1,2425,2024-07-05,Mazatlán FC,Club Necaxa,175,175,False
 MEX1,2425,2024-07-05,CF Monterrey,FC Juárez,175,175,False
 MEX1,2425,2024-07-05,Atlas Guadalajara,Gallos Blancos,175,175,False
@@ -83,6 +73,7 @@ MEX1,2425,2024-07-05,CF América,Pumas UNAM,175,175,False
 MEX1,2425,2024-07-05,Mazatlán FC,Gallos Blancos,175,175,False
 MEX1,2425,2024-07-05,Club Tijuana,CF Pachuca,175,175,False
 MEX1,2425,2024-07-05,UANL Tigres,Puebla FC,175,175,False
+MEX1,2425,2024-07-05,CF América,Deportivo Guadalajara,175,175,False
 MEX1,2425,2024-07-05,Atlético San Luis,CF Monterrey,175,175,False
 MEX1,2425,2024-07-05,Cruz Azul,Club Necaxa,175,175,False
 MEX1,2425,2024-07-05,Deportivo Toluca,Pumas UNAM,175,175,False
@@ -90,6 +81,25 @@ MEX1,2425,2024-07-05,Deportivo Guadalajara,Atlas Guadalajara,175,175,False
 MEX1,2425,2024-07-05,Club León,CF América,175,175,False
 MEX1,2425,2024-07-05,Santos Laguna,FC Juárez,175,175,False
 MEX1,2425,2024-07-05,Atlas Guadalajara,Mazatlán FC,175,175,False
+MEX1,2425,2024-07-05,Club León,Cruz Azul,175,175,False
+MEX1,2425,2024-07-05,Santos Laguna,CF Monterrey,175,175,False
+MEX1,2425,2024-07-05,Club Tijuana,Santos Laguna,175,175,False
+MEX1,2425,2024-07-05,Atlético San Luis,Cruz Azul,175,175,False
+MEX1,2425,2024-07-05,CF Pachuca,Deportivo Toluca,175,175,False
+MEX1,2425,2024-07-05,CF América,Atlas Guadalajara,175,175,False
+MEX1,2425,2024-07-05,Pumas UNAM,Puebla FC,175,175,False
+MEX1,2425,2024-07-05,Gallos Blancos,UANL Tigres,175,175,False
+MEX1,2425,2024-07-05,Deportivo Guadalajara,Club León,175,175,False
+MEX1,2425,2024-07-05,Puebla FC,Santos Laguna,175,175,False
+MEX1,2425,2024-07-05,Gallos Blancos,Club Tijuana,175,175,False
+MEX1,2425,2024-07-05,FC Juárez,Atlas Guadalajara,175,175,False
+MEX1,2425,2024-07-05,Atlético San Luis,CF América,175,175,False
+MEX1,2425,2024-07-05,UANL Tigres,Club Necaxa,175,175,False
+MEX1,2425,2024-07-05,Deportivo Guadalajara,Deportivo Toluca,175,175,False
+MEX1,2425,2024-07-05,Cruz Azul,Mazatlán FC,175,175,False
+MEX1,2425,2024-07-05,Pumas UNAM,Club León,175,175,False
+MEX1,2425,2024-07-05,CF Pachuca,CF Monterrey,175,175,False
+MEX1,2425,2025-01-10,Deportivo Guadalajara,Cruz Azul,189,189,False
 MEX1,2425,2025-01-10,UANL Tigres,Club Tijuana,189,189,False
 MEX1,2425,2025-01-10,Club Necaxa,Cruz Azul,189,189,False
 MEX1,2425,2025-01-10,Atlas Guadalajara,CF Monterrey,189,189,False
@@ -173,7 +183,6 @@ MEX1,2425,2025-01-10,Mazatlán FC,Atlas Guadalajara,189,189,False
 MEX1,2425,2025-01-10,FC Juárez,Puebla FC,189,189,False
 MEX1,2425,2025-01-10,Deportivo Toluca,CF Pachuca,189,189,False
 MEX1,2425,2025-01-10,CF América,UANL Tigres,189,189,False
-MEX1,2425,2025-01-10,Deportivo Guadalajara,Cruz Azul,189,189,False
 MEX1,2425,2025-01-10,CF Monterrey,Club Tijuana,189,189,False
 MEX1,2425,2025-01-10,Santos Laguna,Atlético San Luis,189,189,False
 MEX1,2425,2025-01-10,Club León,Pumas UNAM,189,189,False

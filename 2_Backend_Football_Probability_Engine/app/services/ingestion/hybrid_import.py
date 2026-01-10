@@ -49,7 +49,7 @@ def find_csv_files(
         'odds_movement': 'Odds_Movement',
         'referee_stats': 'Referee',
         'rest_days': 'Rest_Days',
-        'xg_data': 'xG_Data',
+        'xg_data': 'XG Data',  # Fixed: folder name is "XG Data" (capital X, space)
         'weather': 'Weather'
     }
     

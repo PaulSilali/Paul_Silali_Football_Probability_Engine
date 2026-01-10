@@ -25,8 +25,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9055,Sp Braga,9060,Benfica,1617,2,0,0.0,2.5
 9066,Chaves,9067,Maritimo,1617,2,1,0.5,1.5
 9047,Nacional,9053,Moreirense,1617,2,0,0.0,2.5
-9053,Moreirense,9055,Sp Braga,1617,2,0,0.0,3.0
 9059,Guimaraes,9066,Chaves,1617,2,1,0.5,3.5
+9053,Moreirense,9055,Sp Braga,1617,2,0,0.0,3.0
 9062,Boavista,9070,Setubal,1617,2,0,0.0,1.0
 9049,Arouca,9067,Maritimo,1617,2,0,0.0,2.5
 9058,Porto,9062,Boavista,1617,2,0,0.0,2.5
@@ -77,8 +77,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9046,Sp Lisbon,9057,Estoril,1617,2,0,0.0,4.0
 9055,Sp Braga,9061,Rio Ave,1617,2,1,0.5,1.5
 9060,Benfica,9061,Rio Ave,1617,2,0,0.0,1.5
-9060,Benfica,9066,Chaves,1617,2,0,0.0,3.0
 9056,Tondela,9069,Belenenses,1617,2,1,0.5,0.5
+9060,Benfica,9066,Chaves,1617,2,0,0.0,3.0
 9047,Nacional,9063,Farense,1617,2,1,0.5,1.5
 9059,Guimaraes,9068,Pacos Ferreira,1617,2,0,0.0,5.0
 9057,Estoril,9069,Belenenses,1617,2,1,0.5,3.0
@@ -108,8 +108,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9049,Arouca,9069,Belenenses,1617,2,1,0.5,2.5
 9068,Pacos Ferreira,9070,Setubal,1617,2,0,0.0,4.0
 9062,Boavista,9069,Belenenses,1617,2,1,0.5,0.5
-9057,Estoril,9059,Guimaraes,1617,2,1,0.5,4.0
 9047,Nacional,9058,Porto,1617,2,0,0.0,5.5
+9057,Estoril,9059,Guimaraes,1617,2,1,0.5,4.0
 9047,Nacional,9061,Rio Ave,1617,2,0,0.0,2.5
 9055,Sp Braga,9067,Maritimo,1617,2,1,0.5,3.5
 9056,Tondela,9062,Boavista,1617,2,1,0.5,1.5
@@ -133,9 +133,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9068,Pacos Ferreira,9069,Belenenses,1617,2,0,0.0,2.0
 9059,Guimaraes,9061,Rio Ave,1617,2,0,0.0,3.0
 9062,Boavista,9063,Farense,1617,2,0,0.0,2.0
-9067,Maritimo,9068,Pacos Ferreira,1617,2,1,0.5,2.0
-9057,Estoril,9067,Maritimo,1617,2,1,0.5,1.5
 9057,Estoril,9062,Boavista,1617,2,2,1.0,
+9057,Estoril,9067,Maritimo,1617,2,1,0.5,1.5
+9067,Maritimo,9068,Pacos Ferreira,1617,2,1,0.5,2.0
 9046,Sp Lisbon,9066,Chaves,1617,2,1,0.5,4.5
 9046,Sp Lisbon,9056,Tondela,1617,2,1,0.5,3.5
 9061,Rio Ave,9068,Pacos Ferreira,1617,2,1,0.5,1.5
@@ -147,8 +147,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9047,Nacional,9062,Boavista,1617,2,1,0.5,3.0
 9053,Moreirense,9069,Belenenses,1617,2,1,0.5,1.5
 9047,Nacional,9069,Belenenses,1617,2,1,0.5,2.5
-9057,Estoril,9066,Chaves,1617,2,0,0.0,2.0
 9047,Nacional,9056,Tondela,1617,2,0,0.0,3.5
 9056,Tondela,9057,Estoril,1617,2,0,0.0,2.0
+9057,Estoril,9066,Chaves,1617,2,0,0.0,2.0
 9047,Nacional,9067,Maritimo,1617,2,1,0.5,1.0
 9066,Chaves,9070,Setubal,1617,2,2,1.0,

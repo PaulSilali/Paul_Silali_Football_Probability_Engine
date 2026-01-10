@@ -1,349 +1,351 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-E3,1617,2016-01-10,Cambridge,Accrington,7,7,False
-E3,1617,2016-01-10,Barnet,Leyton Orient,7,7,False
+E3,1617,2016-01-10,Grimsby,Hartlepool,7,7,False
 E3,1617,2016-01-10,Wycombe,Exeter,7,7,False
+E3,1617,2016-01-10,Barnet,Leyton Orient,7,7,False
+E3,1617,2016-01-10,Carlisle,Colchester,7,7,False
 E3,1617,2016-01-10,Portsmouth,Doncaster,7,7,False
 E3,1617,2016-01-10,Plymouth,Yeovil,7,7,False
-E3,1617,2016-01-10,Grimsby,Hartlepool,7,7,False
 E3,1617,2016-01-10,Crewe,Mansfield,7,7,False
 E3,1617,2016-01-10,Crawley Town,Blackpool,7,7,False
 E3,1617,2016-01-10,Cheltenham,Bolton,7,7,False
-E3,1617,2016-01-10,Carlisle,Colchester,7,7,False
+E3,1617,2016-01-10,Cambridge,Accrington,7,7,False
 E3,1617,2016-03-09,Colchester,Exeter,59,59,True
-E3,1617,2016-03-09,Crewe,Doncaster,59,59,True
-E3,1617,2016-03-09,Carlisle,Accrington,59,59,True
-E3,1617,2016-03-09,Yeovil,Blackpool,59,59,True
-E3,1617,2016-03-09,Stevenage,Hartlepool,7,59,True
-E3,1617,2016-03-09,Portsmouth,Crawley Town,59,59,True
-E3,1617,2016-03-09,Plymouth,Cheltenham,59,59,True
 E3,1617,2016-03-09,Newport County,Grimsby,7,59,True
+E3,1617,2016-03-09,Carlisle,Accrington,59,59,True
+E3,1617,2016-03-09,Crewe,Doncaster,59,59,True
+E3,1617,2016-03-09,Bolton,Wycombe,59,59,True
 E3,1617,2016-03-09,Morecambe,Leyton Orient,7,59,True
 E3,1617,2016-03-09,Mansfield,Cambridge,59,59,True
-E3,1617,2016-03-09,Bolton,Wycombe,59,59,True
+E3,1617,2016-03-09,Stevenage,Hartlepool,7,59,True
+E3,1617,2016-03-09,Yeovil,Blackpool,59,59,True
+E3,1617,2016-03-09,Portsmouth,Crawley Town,59,59,True
+E3,1617,2016-03-09,Plymouth,Cheltenham,59,59,True
 E3,1617,2016-03-12,Stevenage,Doncaster,3,3,False
 E3,1617,2016-03-12,Yeovil,Crawley Town,3,3,False
-E3,1617,2016-06-08,Newport County,Mansfield,91,91,True
+E3,1617,2016-06-08,Stevenage,Crewe,88,91,True
 E3,1617,2016-06-08,Portsmouth,Carlisle,91,91,True
-E3,1617,2016-06-08,Plymouth,Bolton,91,91,True
-E3,1617,2016-06-08,Cambridge,Barnet,91,150,True
+E3,1617,2016-06-08,Newport County,Mansfield,91,91,True
 E3,1617,2016-06-08,Hartlepool,Colchester,91,91,True
+E3,1617,2016-06-08,Plymouth,Bolton,91,91,True
+E3,1617,2016-06-08,Accrington,Doncaster,91,88,True
 E3,1617,2016-06-08,Grimsby,Morecambe,91,91,True
 E3,1617,2016-06-08,Crawley Town,Wycombe,88,91,True
-E3,1617,2016-06-08,Blackpool,Exeter,91,91,True
 E3,1617,2016-06-08,Cheltenham,Leyton Orient,91,91,True
-E3,1617,2016-06-08,Accrington,Doncaster,91,88,True
+E3,1617,2016-06-08,Cambridge,Barnet,91,150,True
+E3,1617,2016-06-08,Blackpool,Exeter,91,91,True
 E3,1617,2016-06-08,Yeovil,Newport County,88,91,True
-E3,1617,2016-06-08,Stevenage,Crewe,88,91,True
 E3,1617,2016-06-12,Newport County,Stevenage,4,4,False
 E3,1617,2016-08-10,Yeovil,Wycombe,63,63,True
-E3,1617,2016-08-10,Doncaster,Barnet,63,63,True
+E3,1617,2016-08-10,Stevenage,Plymouth,59,63,True
 E3,1617,2016-08-10,Colchester,Newport County,63,59,True
-E3,1617,2016-08-10,Accrington,Cheltenham,63,63,True
-E3,1617,2016-08-10,Hartlepool,Crawley Town,63,63,True
+E3,1617,2016-08-10,Morecambe,Carlisle,63,63,True
 E3,1617,2016-08-10,Leyton Orient,Portsmouth,63,63,True
+E3,1617,2016-08-10,Exeter,Grimsby,63,63,True
+E3,1617,2016-08-10,Accrington,Cheltenham,63,63,True
 E3,1617,2016-08-10,Blackpool,Cambridge,63,63,True
+E3,1617,2016-08-10,Doncaster,Barnet,63,63,True
+E3,1617,2016-08-10,Hartlepool,Crawley Town,63,63,True
 E3,1617,2016-08-10,Bolton,Crewe,63,63,True
 E3,1617,2016-08-10,Mansfield,Newport County,63,59,True
-E3,1617,2016-08-10,Morecambe,Carlisle,63,63,True
-E3,1617,2016-08-10,Exeter,Grimsby,63,63,True
-E3,1617,2016-08-10,Stevenage,Plymouth,59,63,True
+E3,1617,2016-08-13,Exeter,Hartlepool,3,3,False
+E3,1617,2016-08-13,Barnet,Accrington,3,3,False
 E3,1617,2016-08-13,Carlisle,Plymouth,3,3,False
 E3,1617,2016-08-13,Colchester,Cambridge,3,3,False
 E3,1617,2016-08-13,Crewe,Portsmouth,3,3,False
-E3,1617,2016-08-13,Doncaster,Crawley Town,3,3,False
-E3,1617,2016-08-13,Exeter,Hartlepool,3,3,False
 E3,1617,2016-08-13,Leyton Orient,Newport County,3,3,False
+E3,1617,2016-08-13,Doncaster,Crawley Town,3,3,False
 E3,1617,2016-08-13,Bolton,Yeovil,3,3,False
 E3,1617,2016-08-13,Mansfield,Cheltenham,3,3,False
 E3,1617,2016-08-13,Morecambe,Blackpool,3,3,False
 E3,1617,2016-08-13,Newport County,Stevenage,3,3,False
 E3,1617,2016-08-13,Wycombe,Grimsby,3,3,False
-E3,1617,2016-08-13,Barnet,Accrington,3,3,False
+E3,1617,2016-08-16,Doncaster,Cambridge,3,3,True
 E3,1617,2016-08-16,Wycombe,Accrington,3,3,True
 E3,1617,2016-08-16,Newport County,Plymouth,3,3,True
-E3,1617,2016-08-16,Morecambe,Portsmouth,3,3,True
-E3,1617,2016-08-16,Mansfield,Yeovil,3,3,True
 E3,1617,2016-08-16,Bolton,Newport County,3,3,True
-E3,1617,2016-08-16,Leyton Orient,Stevenage,3,3,True
-E3,1617,2016-08-16,Exeter,Crawley Town,3,3,True
-E3,1617,2016-08-16,Doncaster,Cambridge,3,3,True
 E3,1617,2016-08-16,Crewe,Hartlepool,3,3,True
 E3,1617,2016-08-16,Colchester,Grimsby,3,3,True
 E3,1617,2016-08-16,Carlisle,Cheltenham,3,3,True
 E3,1617,2016-08-16,Barnet,Blackpool,3,3,True
-E3,1617,2016-08-20,Accrington,Exeter,4,4,False
+E3,1617,2016-08-16,Morecambe,Portsmouth,3,3,True
+E3,1617,2016-08-16,Mansfield,Yeovil,3,3,True
+E3,1617,2016-08-16,Leyton Orient,Stevenage,3,3,True
+E3,1617,2016-08-16,Exeter,Crawley Town,3,3,True
+E3,1617,2016-08-20,Blackpool,Wycombe,4,4,False
 E3,1617,2016-08-20,Stevenage,Bolton,4,4,False
-E3,1617,2016-08-20,Portsmouth,Colchester,4,4,False
-E3,1617,2016-08-20,Plymouth,Mansfield,4,4,False
-E3,1617,2016-08-20,Newport County,Crewe,4,4,False
 E3,1617,2016-08-20,Hartlepool,Newport County,4,4,False
 E3,1617,2016-08-20,Grimsby,Leyton Orient,4,4,False
 E3,1617,2016-08-20,Crawley Town,Barnet,4,4,False
-E3,1617,2016-08-20,Cheltenham,Doncaster,4,4,False
 E3,1617,2016-08-20,Cambridge,Carlisle,4,4,False
-E3,1617,2016-08-20,Blackpool,Wycombe,4,4,False
+E3,1617,2016-08-20,Accrington,Exeter,4,4,False
+E3,1617,2016-08-20,Newport County,Crewe,4,4,False
 E3,1617,2016-08-20,Yeovil,Morecambe,4,4,False
+E3,1617,2016-08-20,Portsmouth,Colchester,4,4,False
+E3,1617,2016-08-20,Plymouth,Mansfield,4,4,False
+E3,1617,2016-08-20,Cheltenham,Doncaster,4,4,False
+E3,1617,2016-08-27,Barnet,Carlisle,7,7,False
+E3,1617,2016-08-27,Blackpool,Plymouth,7,7,False
+E3,1617,2016-08-27,Cambridge,Bolton,7,7,False
+E3,1617,2016-08-27,Cheltenham,Crewe,7,7,False
+E3,1617,2016-08-27,Exeter,Portsmouth,7,7,False
 E3,1617,2016-08-27,Wycombe,Colchester,7,7,False
+E3,1617,2016-08-27,Leyton Orient,Mansfield,7,7,False
 E3,1617,2016-08-27,Hartlepool,Newport County,7,7,False
 E3,1617,2016-08-27,Grimsby,Stevenage,7,7,False
-E3,1617,2016-08-27,Exeter,Portsmouth,7,7,False
 E3,1617,2016-08-27,Doncaster,Yeovil,7,7,False
 E3,1617,2016-08-27,Crawley Town,Newport County,7,7,False
-E3,1617,2016-08-27,Cheltenham,Crewe,7,7,False
-E3,1617,2016-08-27,Cambridge,Bolton,7,7,False
-E3,1617,2016-08-27,Blackpool,Plymouth,7,7,False
-E3,1617,2016-08-27,Barnet,Carlisle,7,7,False
 E3,1617,2016-08-27,Accrington,Morecambe,7,7,False
-E3,1617,2016-08-27,Leyton Orient,Mansfield,7,7,False
 E3,1617,2016-09-17,Barnet,Colchester,21,21,False
-E3,1617,2016-09-17,Accrington,Portsmouth,21,21,False
-E3,1617,2016-09-17,Blackpool,Carlisle,21,21,False
-E3,1617,2016-09-17,Cambridge,Morecambe,21,21,False
-E3,1617,2016-09-17,Cheltenham,Newport County,21,21,False
-E3,1617,2016-09-17,Crawley Town,Bolton,21,21,False
 E3,1617,2016-09-17,Doncaster,Newport County,21,21,False
+E3,1617,2016-09-17,Accrington,Portsmouth,21,21,False
+E3,1617,2016-09-17,Crawley Town,Bolton,21,21,False
+E3,1617,2016-09-17,Leyton Orient,Yeovil,21,21,False
+E3,1617,2016-09-17,Wycombe,Stevenage,21,21,False
 E3,1617,2016-09-17,Exeter,Plymouth,21,21,False
 E3,1617,2016-09-17,Grimsby,Crewe,21,21,False
 E3,1617,2016-09-17,Hartlepool,Mansfield,21,21,False
-E3,1617,2016-09-17,Leyton Orient,Yeovil,21,21,False
-E3,1617,2016-09-17,Wycombe,Stevenage,21,21,False
+E3,1617,2016-09-17,Cheltenham,Newport County,21,21,False
+E3,1617,2016-09-17,Cambridge,Morecambe,21,21,False
+E3,1617,2016-09-17,Blackpool,Carlisle,21,21,False
+E3,1617,2016-09-24,Bolton,Doncaster,7,7,False
 E3,1617,2016-09-24,Carlisle,Wycombe,7,7,False
-E3,1617,2016-09-24,Yeovil,Cheltenham,7,7,False
+E3,1617,2016-09-24,Mansfield,Grimsby,7,7,False
 E3,1617,2016-09-24,Stevenage,Exeter,7,7,False
+E3,1617,2016-09-24,Colchester,Accrington,7,7,False
+E3,1617,2016-09-24,Yeovil,Cheltenham,7,7,False
 E3,1617,2016-09-24,Portsmouth,Barnet,7,7,False
 E3,1617,2016-09-24,Plymouth,Hartlepool,7,7,False
 E3,1617,2016-09-24,Newport County,Leyton Orient,7,7,False
 E3,1617,2016-09-24,Newport County,Cambridge,7,7,False
 E3,1617,2016-09-24,Morecambe,Crawley Town,7,7,False
-E3,1617,2016-09-24,Mansfield,Grimsby,7,7,False
-E3,1617,2016-09-24,Bolton,Doncaster,7,7,False
 E3,1617,2016-09-24,Crewe,Blackpool,7,7,False
-E3,1617,2016-09-24,Colchester,Accrington,7,7,False
-E3,1617,2016-09-27,Blackpool,Portsmouth,3,3,True
-E3,1617,2016-09-27,Cambridge,Yeovil,3,3,True
-E3,1617,2016-09-27,Cheltenham,Stevenage,3,3,True
-E3,1617,2016-09-27,Crawley Town,Colchester,3,3,True
 E3,1617,2016-09-27,Doncaster,Carlisle,3,3,True
-E3,1617,2016-09-27,Exeter,Newport County,3,3,True
-E3,1617,2016-09-27,Grimsby,Newport County,3,3,True
-E3,1617,2016-09-27,Hartlepool,Bolton,3,3,True
-E3,1617,2016-09-27,Leyton Orient,Plymouth,3,3,True
-E3,1617,2016-09-27,Wycombe,Crewe,3,3,True
+E3,1617,2016-09-27,Crawley Town,Colchester,3,3,True
+E3,1617,2016-09-27,Blackpool,Portsmouth,3,3,True
 E3,1617,2016-09-27,Barnet,Morecambe,3,3,True
+E3,1617,2016-09-27,Leyton Orient,Plymouth,3,3,True
+E3,1617,2016-09-27,Grimsby,Newport County,3,3,True
+E3,1617,2016-09-27,Exeter,Newport County,3,3,True
+E3,1617,2016-09-27,Cheltenham,Stevenage,3,3,True
+E3,1617,2016-09-27,Cambridge,Yeovil,3,3,True
 E3,1617,2016-09-27,Accrington,Mansfield,3,3,True
-E3,1617,2016-10-09,Newport County,Accrington,12,12,False
+E3,1617,2016-09-27,Wycombe,Crewe,3,3,True
+E3,1617,2016-09-27,Hartlepool,Bolton,3,3,True
+E3,1617,2016-10-09,Crewe,Exeter,12,12,False
 E3,1617,2016-10-09,Yeovil,Hartlepool,12,12,False
 E3,1617,2016-10-09,Stevenage,Crawley Town,12,12,False
 E3,1617,2016-10-09,Portsmouth,Wycombe,12,12,False
 E3,1617,2016-10-09,Plymouth,Cambridge,12,12,False
 E3,1617,2016-10-09,Newport County,Cheltenham,12,12,False
 E3,1617,2016-10-09,Morecambe,Doncaster,12,12,False
-E3,1617,2016-10-09,Mansfield,Barnet,12,12,False
 E3,1617,2016-10-09,Bolton,Grimsby,12,12,False
-E3,1617,2016-10-09,Crewe,Exeter,12,12,False
 E3,1617,2016-10-09,Colchester,Blackpool,12,12,False
 E3,1617,2016-10-09,Carlisle,Leyton Orient,12,12,False
-E3,1617,2016-10-12,Stevenage,Blackpool,3,3,True
-E3,1617,2016-10-12,Cheltenham,Exeter,3,3,True
-E3,1617,2016-10-12,Crewe,Crawley Town,3,3,True
-E3,1617,2016-10-12,Grimsby,Portsmouth,3,3,True
-E3,1617,2016-10-12,Plymouth,Doncaster,3,3,True
-E3,1617,2016-10-12,Hartlepool,Cambridge,3,3,True
-E3,1617,2016-10-12,Leyton Orient,Accrington,3,3,True
+E3,1617,2016-10-09,Newport County,Accrington,12,12,False
+E3,1617,2016-10-09,Mansfield,Barnet,12,12,False
 E3,1617,2016-10-12,Bolton,Carlisle,3,3,True
 E3,1617,2016-10-12,Mansfield,Colchester,3,3,True
+E3,1617,2016-10-12,Leyton Orient,Accrington,3,3,True
+E3,1617,2016-10-12,Crewe,Crawley Town,3,3,True
+E3,1617,2016-10-12,Grimsby,Portsmouth,3,3,True
+E3,1617,2016-10-12,Hartlepool,Cambridge,3,3,True
 E3,1617,2016-10-12,Newport County,Wycombe,3,3,True
+E3,1617,2016-10-12,Plymouth,Doncaster,3,3,True
+E3,1617,2016-10-12,Stevenage,Blackpool,3,3,True
 E3,1617,2016-10-12,Yeovil,Barnet,3,3,True
-E3,1617,2016-10-15,Carlisle,Hartlepool,3,3,False
-E3,1617,2016-10-15,Cambridge,Grimsby,3,3,False
+E3,1617,2016-10-12,Cheltenham,Exeter,3,3,True
 E3,1617,2016-10-15,Cheltenham,Crawley Town,3,3,False
-E3,1617,2016-10-15,Doncaster,Colchester,3,3,False
-E3,1617,2016-10-15,Leyton Orient,Bolton,3,3,False
-E3,1617,2016-10-15,Mansfield,Wycombe,3,3,False
-E3,1617,2016-10-15,Morecambe,Stevenage,6,3,False
-E3,1617,2016-10-15,Newport County,Crewe,3,3,False
-E3,1617,2016-10-15,Plymouth,Portsmouth,3,3,False
-E3,1617,2016-10-15,Yeovil,Newport County,3,3,False
-E3,1617,2016-10-15,Accrington,Blackpool,3,3,False
+E3,1617,2016-10-15,Carlisle,Hartlepool,3,3,False
 E3,1617,2016-10-15,Barnet,Exeter,3,3,False
-E3,1617,2016-10-22,Bolton,Mansfield,7,7,False
-E3,1617,2016-10-22,Blackpool,Doncaster,7,7,False
+E3,1617,2016-10-15,Yeovil,Newport County,3,3,False
+E3,1617,2016-10-15,Morecambe,Stevenage,6,3,False
+E3,1617,2016-10-15,Doncaster,Colchester,3,3,False
+E3,1617,2016-10-15,Accrington,Blackpool,3,3,False
+E3,1617,2016-10-15,Mansfield,Wycombe,3,3,False
+E3,1617,2016-10-15,Newport County,Crewe,3,3,False
+E3,1617,2016-10-15,Cambridge,Grimsby,3,3,False
+E3,1617,2016-10-15,Plymouth,Portsmouth,3,3,False
+E3,1617,2016-10-15,Leyton Orient,Bolton,3,3,False
 E3,1617,2016-10-22,Colchester,Morecambe,7,7,False
+E3,1617,2016-10-22,Hartlepool,Leyton Orient,7,7,False
+E3,1617,2016-10-22,Bolton,Mansfield,7,7,False
+E3,1617,2016-10-22,Newport County,Plymouth,7,7,False
+E3,1617,2016-10-22,Exeter,Cambridge,7,7,False
+E3,1617,2016-10-22,Stevenage,Carlisle,7,7,False
+E3,1617,2016-10-22,Portsmouth,Newport County,7,7,False
 E3,1617,2016-10-22,Crawley Town,Accrington,7,7,False
 E3,1617,2016-10-22,Crewe,Yeovil,7,7,False
-E3,1617,2016-10-22,Exeter,Cambridge,7,7,False
 E3,1617,2016-10-22,Grimsby,Cheltenham,7,7,False
-E3,1617,2016-10-22,Hartlepool,Leyton Orient,7,7,False
-E3,1617,2016-10-22,Newport County,Plymouth,7,7,False
-E3,1617,2016-10-22,Portsmouth,Newport County,7,7,False
-E3,1617,2016-10-22,Stevenage,Carlisle,7,7,False
 E3,1617,2016-10-22,Wycombe,Barnet,7,7,False
+E3,1617,2016-10-22,Blackpool,Doncaster,7,7,False
 E3,1617,2016-10-25,Newport County,Barnet,3,3,True
-E3,1617,2016-10-29,Cheltenham,Blackpool,7,7,False
-E3,1617,2016-10-29,Carlisle,Crawley Town,7,7,False
 E3,1617,2016-10-29,Cambridge,Portsmouth,7,7,False
-E3,1617,2016-10-29,Newport County,Bolton,4,7,False
-E3,1617,2016-10-29,Barnet,Hartlepool,4,7,False
-E3,1617,2016-10-29,Accrington,Newport County,7,4,False
-E3,1617,2016-10-29,Plymouth,Colchester,7,7,False
-E3,1617,2016-10-29,Yeovil,Grimsby,7,7,False
-E3,1617,2016-10-29,Doncaster,Wycombe,7,7,False
-E3,1617,2016-10-29,Morecambe,Exeter,7,7,False
-E3,1617,2016-10-29,Mansfield,Stevenage,7,7,False
 E3,1617,2016-10-29,Leyton Orient,Crewe,7,7,False
+E3,1617,2016-10-29,Morecambe,Exeter,7,7,False
+E3,1617,2016-10-29,Newport County,Bolton,4,7,False
+E3,1617,2016-10-29,Yeovil,Grimsby,7,7,False
+E3,1617,2016-10-29,Accrington,Newport County,7,4,False
+E3,1617,2016-10-29,Barnet,Hartlepool,4,7,False
+E3,1617,2016-10-29,Carlisle,Crawley Town,7,7,False
+E3,1617,2016-10-29,Cheltenham,Blackpool,7,7,False
+E3,1617,2016-10-29,Doncaster,Wycombe,7,7,False
+E3,1617,2016-10-29,Mansfield,Stevenage,7,7,False
+E3,1617,2016-10-29,Plymouth,Colchester,7,7,False
 E3,1617,2016-11-10,Newport County,Morecambe,12,12,True
-E3,1617,2016-11-19,Carlisle,Exeter,21,21,False
 E3,1617,2016-11-19,Cheltenham,Portsmouth,21,21,False
-E3,1617,2016-11-19,Doncaster,Hartlepool,21,21,False
-E3,1617,2016-11-19,Leyton Orient,Blackpool,21,21,False
-E3,1617,2016-11-19,Mansfield,Crawley Town,21,21,False
-E3,1617,2016-11-19,Morecambe,Bolton,9,21,False
+E3,1617,2016-11-19,Carlisle,Exeter,21,21,False
+E3,1617,2016-11-19,Cambridge,Wycombe,21,21,False
 E3,1617,2016-11-19,Newport County,Newport County,9,9,False
 E3,1617,2016-11-19,Plymouth,Grimsby,21,21,False
-E3,1617,2016-11-19,Yeovil,Colchester,21,21,False
 E3,1617,2016-11-19,Accrington,Stevenage,21,21,False
-E3,1617,2016-11-19,Cambridge,Wycombe,21,21,False
+E3,1617,2016-11-19,Yeovil,Colchester,21,21,False
+E3,1617,2016-11-19,Mansfield,Crawley Town,21,21,False
+E3,1617,2016-11-19,Leyton Orient,Blackpool,21,21,False
+E3,1617,2016-11-19,Morecambe,Bolton,9,21,False
 E3,1617,2016-11-19,Barnet,Crewe,21,21,False
-E3,1617,2016-11-22,Newport County,Wycombe,3,3,True
-E3,1617,2016-11-22,Cheltenham,Colchester,3,3,True
-E3,1617,2016-11-22,Crewe,Morecambe,3,3,True
-E3,1617,2016-11-22,Grimsby,Carlisle,3,3,True
-E3,1617,2016-11-22,Hartlepool,Accrington,3,3,True
-E3,1617,2016-11-22,Leyton Orient,Exeter,3,3,True
+E3,1617,2016-11-19,Doncaster,Hartlepool,21,21,False
 E3,1617,2016-11-22,Bolton,Portsmouth,3,3,True
-E3,1617,2016-11-22,Mansfield,Blackpool,3,3,True
+E3,1617,2016-11-22,Grimsby,Carlisle,3,3,True
+E3,1617,2016-11-22,Crewe,Morecambe,3,3,True
+E3,1617,2016-11-22,Cheltenham,Colchester,3,3,True
 E3,1617,2016-11-22,Newport County,Cambridge,3,3,True
 E3,1617,2016-11-22,Plymouth,Barnet,3,3,True
+E3,1617,2016-11-22,Newport County,Wycombe,3,3,True
+E3,1617,2016-11-22,Mansfield,Blackpool,3,3,True
+E3,1617,2016-11-22,Hartlepool,Accrington,3,3,True
+E3,1617,2016-11-22,Leyton Orient,Exeter,3,3,True
+E3,1617,2016-11-26,Blackpool,Newport County,4,4,False
+E3,1617,2016-11-26,Colchester,Crewe,4,4,False
+E3,1617,2016-11-26,Exeter,Bolton,4,4,False
+E3,1617,2016-11-26,Wycombe,Hartlepool,4,4,False
+E3,1617,2016-11-26,Accrington,Yeovil,4,7,False
+E3,1617,2016-11-26,Barnet,Newport County,4,4,False
 E3,1617,2016-11-26,Cambridge,Cheltenham,4,4,False
 E3,1617,2016-11-26,Carlisle,Mansfield,4,4,False
-E3,1617,2016-11-26,Colchester,Crewe,4,4,False
 E3,1617,2016-11-26,Crawley Town,Grimsby,7,4,False
 E3,1617,2016-11-26,Doncaster,Leyton Orient,7,4,False
-E3,1617,2016-11-26,Exeter,Bolton,4,4,False
 E3,1617,2016-11-26,Morecambe,Plymouth,4,4,False
 E3,1617,2016-11-26,Portsmouth,Stevenage,4,7,False
-E3,1617,2016-11-26,Wycombe,Hartlepool,4,4,False
-E3,1617,2016-11-26,Blackpool,Newport County,4,4,False
-E3,1617,2016-11-26,Barnet,Newport County,4,4,False
-E3,1617,2016-11-26,Accrington,Yeovil,4,7,False
+E3,1617,2016-12-11,Hartlepool,Cheltenham,15,15,False
+E3,1617,2016-12-11,Blackpool,Newport County,15,15,False
 E3,1617,2016-12-11,Colchester,Leyton Orient,15,15,False
+E3,1617,2016-12-11,Bolton,Accrington,15,15,False
 E3,1617,2016-12-11,Crewe,Plymouth,15,15,False
 E3,1617,2016-12-11,Exeter,Doncaster,15,15,False
 E3,1617,2016-12-11,Grimsby,Barnet,15,15,False
-E3,1617,2016-12-11,Hartlepool,Cheltenham,15,15,False
-E3,1617,2016-12-11,Bolton,Accrington,15,15,False
+E3,1617,2016-12-11,Stevenage,Yeovil,15,15,False
+E3,1617,2016-12-11,Crawley Town,Cambridge,15,15,False
 E3,1617,2016-12-11,Newport County,Carlisle,15,15,False
 E3,1617,2016-12-11,Portsmouth,Mansfield,15,15,False
-E3,1617,2016-12-11,Stevenage,Yeovil,15,15,False
 E3,1617,2016-12-11,Wycombe,Morecambe,15,15,False
-E3,1617,2016-12-11,Blackpool,Newport County,15,15,False
-E3,1617,2016-12-11,Crawley Town,Cambridge,15,15,False
-E3,1617,2016-12-17,Barnet,Stevenage,6,6,False
-E3,1617,2016-12-17,Blackpool,Bolton,6,6,False
 E3,1617,2016-12-17,Cambridge,Crewe,6,6,False
-E3,1617,2016-12-17,Carlisle,Yeovil,6,6,False
-E3,1617,2016-12-17,Colchester,Newport County,6,6,False
-E3,1617,2016-12-17,Crawley Town,Newport County,6,6,False
-E3,1617,2016-12-17,Doncaster,Grimsby,6,6,False
-E3,1617,2016-12-17,Exeter,Mansfield,6,6,False
-E3,1617,2016-12-17,Morecambe,Cheltenham,6,6,False
 E3,1617,2016-12-17,Portsmouth,Hartlepool,6,6,False
-E3,1617,2016-12-17,Wycombe,Leyton Orient,6,6,False
+E3,1617,2016-12-17,Exeter,Mansfield,6,6,False
+E3,1617,2016-12-17,Doncaster,Grimsby,6,6,False
+E3,1617,2016-12-17,Blackpool,Bolton,6,6,False
 E3,1617,2016-12-17,Accrington,Plymouth,6,6,False
-E3,1617,2016-12-26,Cheltenham,Barnet,9,9,False
-E3,1617,2016-12-26,Crewe,Carlisle,9,9,False
-E3,1617,2016-12-26,Grimsby,Accrington,9,9,False
-E3,1617,2016-12-26,Hartlepool,Blackpool,9,9,False
-E3,1617,2016-12-26,Leyton Orient,Crawley Town,9,9,False
-E3,1617,2016-12-26,Bolton,Colchester,9,9,False
+E3,1617,2016-12-17,Colchester,Newport County,6,6,False
+E3,1617,2016-12-17,Barnet,Stevenage,6,6,False
+E3,1617,2016-12-17,Wycombe,Leyton Orient,6,6,False
+E3,1617,2016-12-17,Carlisle,Yeovil,6,6,False
+E3,1617,2016-12-17,Morecambe,Cheltenham,6,6,False
+E3,1617,2016-12-17,Crawley Town,Newport County,6,6,False
 E3,1617,2016-12-26,Mansfield,Morecambe,9,9,False
-E3,1617,2016-12-26,Newport County,Portsmouth,9,9,False
-E3,1617,2016-12-26,Newport County,Doncaster,9,9,False
-E3,1617,2016-12-26,Plymouth,Wycombe,9,9,False
 E3,1617,2016-12-26,Stevenage,Cambridge,9,9,False
+E3,1617,2016-12-26,Plymouth,Wycombe,9,9,False
+E3,1617,2016-12-26,Newport County,Portsmouth,9,9,False
+E3,1617,2016-12-26,Leyton Orient,Crawley Town,9,9,False
+E3,1617,2016-12-26,Crewe,Carlisle,9,9,False
+E3,1617,2016-12-26,Cheltenham,Barnet,9,9,False
 E3,1617,2016-12-26,Yeovil,Exeter,9,9,False
-E3,1617,2016-12-30,Cheltenham,Wycombe,4,4,False
+E3,1617,2016-12-26,Newport County,Doncaster,9,9,False
+E3,1617,2016-12-26,Bolton,Colchester,9,9,False
+E3,1617,2016-12-26,Hartlepool,Blackpool,9,9,False
+E3,1617,2016-12-26,Grimsby,Accrington,9,9,False
 E3,1617,2016-12-30,Yeovil,Portsmouth,4,4,False
+E3,1617,2016-12-30,Cheltenham,Wycombe,4,4,False
 E3,1617,2016-12-30,Hartlepool,Morecambe,4,4,False
-E3,1617,2016-12-31,Grimsby,Blackpool,5,5,False
-E3,1617,2016-12-31,Leyton Orient,Cambridge,5,5,False
-E3,1617,2016-12-31,Bolton,Barnet,5,5,False
-E3,1617,2016-12-31,Mansfield,Doncaster,5,5,False
-E3,1617,2016-12-31,Newport County,Exeter,5,5,False
 E3,1617,2016-12-31,Newport County,Carlisle,5,5,False
-E3,1617,2016-12-31,Plymouth,Crawley Town,5,5,False
+E3,1617,2016-12-31,Newport County,Exeter,5,5,False
 E3,1617,2016-12-31,Stevenage,Colchester,5,5,False
 E3,1617,2016-12-31,Crewe,Accrington,5,5,False
-E3,1617,2017-01-04,Stevenage,Barnet,4,4,True
-E3,1617,2017-01-04,Cheltenham,Morecambe,5,5,True
-E3,1617,2017-01-04,Crewe,Cambridge,4,4,True
-E3,1617,2017-01-04,Grimsby,Doncaster,4,4,True
-E3,1617,2017-01-04,Hartlepool,Portsmouth,5,5,True
-E3,1617,2017-01-04,Leyton Orient,Wycombe,4,5,True
-E3,1617,2017-01-04,Bolton,Blackpool,4,4,True
-E3,1617,2017-01-04,Mansfield,Exeter,4,4,True
-E3,1617,2017-01-04,Newport County,Crawley Town,4,4,True
+E3,1617,2016-12-31,Plymouth,Crawley Town,5,5,False
+E3,1617,2016-12-31,Bolton,Barnet,5,5,False
+E3,1617,2016-12-31,Mansfield,Doncaster,5,5,False
+E3,1617,2016-12-31,Leyton Orient,Cambridge,5,5,False
+E3,1617,2016-12-31,Grimsby,Blackpool,5,5,False
 E3,1617,2017-01-04,Newport County,Colchester,4,4,True
-E3,1617,2017-01-04,Plymouth,Accrington,4,4,True
+E3,1617,2017-01-04,Grimsby,Doncaster,4,4,True
+E3,1617,2017-01-04,Crewe,Cambridge,4,4,True
 E3,1617,2017-01-04,Yeovil,Carlisle,5,4,True
-E3,1617,2017-01-14,Grimsby,Exeter,10,10,False
-E3,1617,2017-01-14,Barnet,Doncaster,10,10,False
-E3,1617,2017-01-14,Cambridge,Blackpool,10,10,False
+E3,1617,2017-01-04,Stevenage,Barnet,4,4,True
+E3,1617,2017-01-04,Plymouth,Accrington,4,4,True
+E3,1617,2017-01-04,Newport County,Crawley Town,4,4,True
+E3,1617,2017-01-04,Bolton,Blackpool,4,4,True
+E3,1617,2017-01-04,Leyton Orient,Wycombe,4,5,True
+E3,1617,2017-01-04,Hartlepool,Portsmouth,5,5,True
+E3,1617,2017-01-04,Mansfield,Exeter,4,4,True
+E3,1617,2017-01-04,Cheltenham,Morecambe,5,5,True
+E3,1617,2017-01-14,Portsmouth,Leyton Orient,10,10,False
 E3,1617,2017-01-14,Carlisle,Morecambe,10,10,False
-E3,1617,2017-01-14,Cheltenham,Accrington,10,10,False
-E3,1617,2017-01-14,Crawley Town,Hartlepool,10,10,False
 E3,1617,2017-01-14,Crewe,Bolton,10,10,False
 E3,1617,2017-01-14,Newport County,Colchester,10,10,False
-E3,1617,2017-01-14,Newport County,Mansfield,10,10,False
 E3,1617,2017-01-14,Plymouth,Stevenage,10,10,False
-E3,1617,2017-01-14,Portsmouth,Leyton Orient,10,10,False
 E3,1617,2017-01-14,Wycombe,Yeovil,10,10,False
-E3,1617,2017-01-21,Cheltenham,Plymouth,7,7,False
-E3,1617,2017-01-21,Accrington,Carlisle,7,7,False
+E3,1617,2017-01-14,Barnet,Doncaster,10,10,False
+E3,1617,2017-01-14,Newport County,Mansfield,10,10,False
+E3,1617,2017-01-14,Grimsby,Exeter,10,10,False
+E3,1617,2017-01-14,Crawley Town,Hartlepool,10,10,False
+E3,1617,2017-01-14,Cheltenham,Accrington,10,10,False
+E3,1617,2017-01-14,Cambridge,Blackpool,10,10,False
+E3,1617,2017-01-21,Grimsby,Newport County,7,7,False
+E3,1617,2017-01-21,Exeter,Colchester,7,7,False
 E3,1617,2017-01-21,Barnet,Newport County,7,7,False
 E3,1617,2017-01-21,Wycombe,Bolton,7,7,False
-E3,1617,2017-01-21,Hartlepool,Stevenage,7,7,False
-E3,1617,2017-01-21,Grimsby,Newport County,7,7,False
-E3,1617,2017-01-21,Doncaster,Crewe,7,7,False
-E3,1617,2017-01-21,Exeter,Colchester,7,7,False
-E3,1617,2017-01-21,Blackpool,Yeovil,7,7,False
+E3,1617,2017-01-21,Cheltenham,Plymouth,7,7,False
 E3,1617,2017-01-21,Cambridge,Mansfield,7,7,False
-E3,1617,2017-01-28,Carlisle,Barnet,7,7,False
-E3,1617,2017-01-28,Crewe,Cheltenham,7,7,False
-E3,1617,2017-01-28,Bolton,Cambridge,7,7,False
+E3,1617,2017-01-21,Blackpool,Yeovil,7,7,False
+E3,1617,2017-01-21,Accrington,Carlisle,7,7,False
+E3,1617,2017-01-21,Doncaster,Crewe,7,7,False
+E3,1617,2017-01-21,Hartlepool,Stevenage,7,7,False
+E3,1617,2017-01-28,Portsmouth,Exeter,14,7,False
+E3,1617,2017-01-28,Yeovil,Doncaster,7,7,False
+E3,1617,2017-01-28,Stevenage,Grimsby,7,7,False
 E3,1617,2017-01-28,Mansfield,Leyton Orient,7,14,False
+E3,1617,2017-01-28,Bolton,Cambridge,7,7,False
+E3,1617,2017-01-28,Crewe,Cheltenham,7,7,False
+E3,1617,2017-01-28,Carlisle,Barnet,7,7,False
 E3,1617,2017-01-28,Newport County,Hartlepool,7,7,False
 E3,1617,2017-01-28,Newport County,Crawley Town,7,14,False
-E3,1617,2017-01-28,Stevenage,Grimsby,7,7,False
-E3,1617,2017-01-28,Yeovil,Doncaster,7,7,False
-E3,1617,2017-01-28,Portsmouth,Exeter,14,7,False
+E3,1617,2017-01-31,Yeovil,Plymouth,3,10,True
 E3,1617,2017-01-31,Bolton,Cheltenham,3,3,True
 E3,1617,2017-01-31,Exeter,Wycombe,3,10,True
-E3,1617,2017-01-31,Yeovil,Plymouth,3,10,True
-E3,1617,2017-02-01,Blackpool,Mansfield,11,4,True
-E3,1617,2017-02-01,Accrington,Hartlepool,11,4,True
-E3,1617,2017-02-01,Barnet,Plymouth,4,1,True
-E3,1617,2017-02-01,Cambridge,Newport County,4,4,True
-E3,1617,2017-02-01,Carlisle,Grimsby,4,4,True
-E3,1617,2017-02-01,Colchester,Cheltenham,11,1,True
-E3,1617,2017-02-01,Crawley Town,Yeovil,4,1,True
-E3,1617,2017-02-01,Doncaster,Stevenage,4,4,True
 E3,1617,2017-02-01,Exeter,Leyton Orient,1,4,True
 E3,1617,2017-02-01,Morecambe,Crewe,18,4,True
-E3,1617,2017-02-01,Portsmouth,Bolton,4,1,True
 E3,1617,2017-02-01,Wycombe,Newport County,1,4,True
-E3,1617,2017-02-14,Carlisle,Doncaster,13,13,True
-E3,1617,2017-02-14,Yeovil,Cambridge,13,13,True
+E3,1617,2017-02-01,Portsmouth,Bolton,4,1,True
+E3,1617,2017-02-01,Barnet,Plymouth,4,1,True
+E3,1617,2017-02-01,Crawley Town,Yeovil,4,1,True
+E3,1617,2017-02-01,Doncaster,Stevenage,4,4,True
+E3,1617,2017-02-01,Carlisle,Grimsby,4,4,True
+E3,1617,2017-02-01,Accrington,Hartlepool,11,4,True
+E3,1617,2017-02-01,Cambridge,Newport County,4,4,True
+E3,1617,2017-02-01,Blackpool,Mansfield,11,4,True
+E3,1617,2017-02-01,Colchester,Cheltenham,11,1,True
 E3,1617,2017-02-14,Stevenage,Cheltenham,13,13,True
-E3,1617,2017-02-14,Portsmouth,Blackpool,13,13,True
-E3,1617,2017-02-14,Plymouth,Leyton Orient,13,13,True
-E3,1617,2017-02-14,Newport County,Exeter,13,13,True
-E3,1617,2017-02-14,Newport County,Grimsby,13,13,True
-E3,1617,2017-02-14,Morecambe,Barnet,13,13,True
-E3,1617,2017-02-14,Mansfield,Accrington,13,13,True
-E3,1617,2017-02-14,Bolton,Hartlepool,13,13,True
-E3,1617,2017-02-14,Crewe,Wycombe,13,13,True
+E3,1617,2017-02-14,Carlisle,Doncaster,13,13,True
 E3,1617,2017-02-14,Colchester,Crawley Town,13,13,True
+E3,1617,2017-02-14,Crewe,Wycombe,13,13,True
+E3,1617,2017-02-14,Mansfield,Accrington,13,13,True
+E3,1617,2017-02-14,Newport County,Exeter,13,13,True
+E3,1617,2017-02-14,Plymouth,Leyton Orient,13,13,True
+E3,1617,2017-02-14,Morecambe,Barnet,13,13,True
+E3,1617,2017-02-14,Newport County,Grimsby,13,13,True
+E3,1617,2017-02-14,Portsmouth,Blackpool,13,13,True
+E3,1617,2017-02-14,Bolton,Hartlepool,13,13,True
+E3,1617,2017-02-14,Yeovil,Cambridge,13,13,True
+E3,1617,2017-02-18,Exeter,Stevenage,4,4,False
+E3,1617,2017-02-18,Grimsby,Mansfield,4,4,False
 E3,1617,2017-02-18,Cheltenham,Yeovil,4,4,False
 E3,1617,2017-02-18,Accrington,Colchester,4,4,False
 E3,1617,2017-02-18,Barnet,Portsmouth,4,4,False
@@ -351,203 +353,201 @@ E3,1617,2017-02-18,Blackpool,Crewe,4,4,False
 E3,1617,2017-02-18,Cambridge,Newport County,4,4,False
 E3,1617,2017-02-18,Crawley Town,Morecambe,4,4,False
 E3,1617,2017-02-18,Doncaster,Bolton,4,4,False
-E3,1617,2017-02-18,Exeter,Stevenage,4,4,False
-E3,1617,2017-02-18,Grimsby,Mansfield,4,4,False
 E3,1617,2017-02-18,Hartlepool,Plymouth,4,4,False
 E3,1617,2017-02-18,Leyton Orient,Newport County,4,4,False
 E3,1617,2017-02-18,Wycombe,Carlisle,4,4,False
 E3,1617,2017-02-21,Newport County,Morecambe,3,3,True
 E3,1617,2017-02-21,Colchester,Wycombe,3,3,True
-E3,1617,2017-02-25,Leyton Orient,Cheltenham,7,7,False
-E3,1617,2017-02-25,Exeter,Blackpool,7,7,False
-E3,1617,2017-02-25,Wycombe,Crawley Town,4,7,False
-E3,1617,2017-02-25,Newport County,Yeovil,4,7,False
-E3,1617,2017-02-25,Morecambe,Grimsby,4,7,False
-E3,1617,2017-02-25,Doncaster,Accrington,7,7,False
-E3,1617,2017-02-25,Colchester,Hartlepool,4,7,False
-E3,1617,2017-02-25,Barnet,Cambridge,7,7,False
-E3,1617,2017-02-25,Crewe,Stevenage,7,7,False
-E3,1617,2017-02-25,Mansfield,Newport County,7,4,False
 E3,1617,2017-02-25,Carlisle,Portsmouth,7,7,False
+E3,1617,2017-02-25,Leyton Orient,Cheltenham,7,7,False
+E3,1617,2017-02-25,Morecambe,Grimsby,4,7,False
+E3,1617,2017-02-25,Newport County,Yeovil,4,7,False
+E3,1617,2017-02-25,Colchester,Hartlepool,4,7,False
+E3,1617,2017-02-25,Crewe,Stevenage,7,7,False
+E3,1617,2017-02-25,Doncaster,Accrington,7,7,False
+E3,1617,2017-02-25,Exeter,Blackpool,7,7,False
 E3,1617,2017-02-25,Bolton,Plymouth,7,7,False
-E3,1617,2017-02-28,Plymouth,Newport County,3,3,True
-E3,1617,2017-02-28,Stevenage,Leyton Orient,3,3,True
+E3,1617,2017-02-25,Mansfield,Newport County,7,4,False
+E3,1617,2017-02-25,Wycombe,Crawley Town,4,7,False
+E3,1617,2017-02-25,Barnet,Cambridge,7,7,False
 E3,1617,2017-02-28,Yeovil,Mansfield,3,3,True
-E3,1617,2017-02-28,Cheltenham,Carlisle,3,3,True
-E3,1617,2017-02-28,Cambridge,Doncaster,3,3,True
 E3,1617,2017-02-28,Blackpool,Barnet,3,3,True
-E3,1617,2017-02-28,Accrington,Wycombe,3,3,True
+E3,1617,2017-02-28,Cambridge,Doncaster,3,3,True
 E3,1617,2017-02-28,Crawley Town,Exeter,3,3,True
+E3,1617,2017-02-28,Portsmouth,Morecambe,3,3,True
+E3,1617,2017-02-28,Stevenage,Leyton Orient,3,3,True
+E3,1617,2017-02-28,Cheltenham,Carlisle,3,3,True
 E3,1617,2017-02-28,Grimsby,Colchester,3,3,True
 E3,1617,2017-02-28,Hartlepool,Crewe,3,3,True
-E3,1617,2017-02-28,Portsmouth,Morecambe,3,3,True
-E3,1617,2017-03-14,Doncaster,Newport County,14,14,True
-E3,1617,2017-03-14,Colchester,Mansfield,14,14,True
-E3,1617,2017-03-14,Carlisle,Bolton,14,17,True
-E3,1617,2017-03-14,Cambridge,Hartlepool,14,14,True
-E3,1617,2017-03-14,Blackpool,Stevenage,14,14,True
+E3,1617,2017-02-28,Plymouth,Newport County,3,3,True
+E3,1617,2017-02-28,Accrington,Wycombe,3,3,True
 E3,1617,2017-03-14,Accrington,Leyton Orient,14,14,True
-E3,1617,2017-03-14,Wycombe,Plymouth,14,14,True
-E3,1617,2017-03-14,Portsmouth,Grimsby,14,14,True
-E3,1617,2017-03-14,Morecambe,Newport County,14,14,True
+E3,1617,2017-03-14,Cambridge,Hartlepool,14,14,True
 E3,1617,2017-03-14,Exeter,Cheltenham,14,14,True
 E3,1617,2017-03-14,Crawley Town,Crewe,14,14,True
+E3,1617,2017-03-14,Colchester,Mansfield,14,14,True
+E3,1617,2017-03-14,Carlisle,Bolton,14,17,True
+E3,1617,2017-03-14,Wycombe,Plymouth,14,14,True
+E3,1617,2017-03-14,Doncaster,Newport County,14,14,True
+E3,1617,2017-03-14,Portsmouth,Grimsby,14,14,True
+E3,1617,2017-03-14,Morecambe,Newport County,14,14,True
+E3,1617,2017-03-14,Blackpool,Stevenage,14,14,True
 E3,1617,2017-03-15,Barnet,Yeovil,15,15,True
-E3,1617,2017-03-18,Bolton,Exeter,4,4,False
-E3,1617,2017-03-18,Leyton Orient,Doncaster,4,4,False
-E3,1617,2017-03-18,Hartlepool,Wycombe,4,4,False
 E3,1617,2017-03-18,Grimsby,Crawley Town,4,4,False
-E3,1617,2017-03-18,Crewe,Colchester,4,4,False
-E3,1617,2017-03-18,Cheltenham,Cambridge,4,4,False
-E3,1617,2017-03-18,Mansfield,Carlisle,4,4,False
-E3,1617,2017-03-18,Stevenage,Portsmouth,4,4,False
-E3,1617,2017-03-18,Plymouth,Morecambe,4,4,False
+E3,1617,2017-03-18,Leyton Orient,Doncaster,4,4,False
+E3,1617,2017-03-18,Bolton,Exeter,4,4,False
 E3,1617,2017-03-18,Newport County,Blackpool,4,4,False
 E3,1617,2017-03-18,Yeovil,Accrington,3,4,False
+E3,1617,2017-03-18,Plymouth,Morecambe,4,4,False
+E3,1617,2017-03-18,Stevenage,Portsmouth,4,4,False
+E3,1617,2017-03-18,Cheltenham,Cambridge,4,4,False
+E3,1617,2017-03-18,Crewe,Colchester,4,4,False
+E3,1617,2017-03-18,Hartlepool,Wycombe,4,4,False
+E3,1617,2017-03-18,Mansfield,Carlisle,4,4,False
 E3,1617,2017-03-19,Newport County,Barnet,1,4,False
-E3,1617,2017-03-21,Newport County,Bolton,2,3,True
 E3,1617,2017-03-21,Morecambe,Accrington,3,3,True
-E3,1617,2017-03-25,Cambridge,Stevenage,7,7,False
+E3,1617,2017-03-21,Newport County,Bolton,2,3,True
+E3,1617,2017-03-25,Blackpool,Hartlepool,7,7,False
+E3,1617,2017-03-25,Accrington,Grimsby,4,7,False
+E3,1617,2017-03-25,Barnet,Cheltenham,6,7,False
 E3,1617,2017-03-25,Colchester,Bolton,7,4,False
-E3,1617,2017-03-25,Crawley Town,Leyton Orient,7,7,False
 E3,1617,2017-03-25,Exeter,Yeovil,7,7,False
 E3,1617,2017-03-25,Morecambe,Mansfield,4,7,False
 E3,1617,2017-03-25,Portsmouth,Newport County,7,4,False
 E3,1617,2017-03-25,Wycombe,Newport County,7,4,False
-E3,1617,2017-03-25,Blackpool,Hartlepool,7,7,False
+E3,1617,2017-03-25,Crawley Town,Leyton Orient,7,7,False
 E3,1617,2017-03-25,Carlisle,Crewe,7,7,False
-E3,1617,2017-03-25,Accrington,Grimsby,4,7,False
-E3,1617,2017-03-25,Barnet,Cheltenham,6,7,False
+E3,1617,2017-03-25,Cambridge,Stevenage,7,7,False
 E3,1617,2017-03-26,Doncaster,Plymouth,8,8,False
 E3,1617,2017-03-28,Accrington,Cambridge,3,3,True
-E3,1617,2017-04-02,Cambridge,Plymouth,5,7,False
-E3,1617,2017-04-02,Exeter,Crewe,8,8,False
-E3,1617,2017-04-02,Grimsby,Bolton,8,8,False
-E3,1617,2017-04-02,Hartlepool,Yeovil,8,8,False
-E3,1617,2017-04-02,Leyton Orient,Carlisle,8,8,False
 E3,1617,2017-04-02,Wycombe,Portsmouth,8,8,False
-E3,1617,2017-04-02,Crawley Town,Stevenage,8,8,False
-E3,1617,2017-04-02,Cheltenham,Newport County,8,8,False
-E3,1617,2017-04-02,Doncaster,Morecambe,7,8,False
 E3,1617,2017-04-02,Blackpool,Colchester,8,8,False
+E3,1617,2017-04-02,Cheltenham,Newport County,8,8,False
+E3,1617,2017-04-02,Hartlepool,Yeovil,8,8,False
+E3,1617,2017-04-02,Crawley Town,Stevenage,8,8,False
+E3,1617,2017-04-02,Doncaster,Morecambe,7,8,False
+E3,1617,2017-04-02,Grimsby,Bolton,8,8,False
+E3,1617,2017-04-02,Exeter,Crewe,8,8,False
+E3,1617,2017-04-02,Leyton Orient,Carlisle,8,8,False
+E3,1617,2017-04-02,Cambridge,Plymouth,5,7,False
 E3,1617,2017-04-02,Barnet,Mansfield,8,8,False
 E3,1617,2017-04-02,Accrington,Newport County,5,8,False
-E3,1617,2017-04-03,Newport County,Leyton Orient,1,1,False
-E3,1617,2017-04-03,Accrington,Barnet,1,1,False
-E3,1617,2017-04-03,Blackpool,Morecambe,1,1,False
+E3,1617,2017-04-03,Yeovil,Bolton,1,1,False
 E3,1617,2017-04-03,Cambridge,Colchester,1,1,False
-E3,1617,2017-04-03,Cheltenham,Mansfield,1,1,False
-E3,1617,2017-04-03,Crawley Town,Doncaster,1,1,False
 E3,1617,2017-04-03,Grimsby,Wycombe,1,1,False
 E3,1617,2017-04-03,Hartlepool,Exeter,1,1,False
-E3,1617,2017-04-03,Yeovil,Bolton,1,1,False
-E3,1617,2017-04-03,Stevenage,Newport County,1,1,False
+E3,1617,2017-04-03,Accrington,Barnet,1,1,False
+E3,1617,2017-04-03,Cheltenham,Mansfield,1,1,False
+E3,1617,2017-04-03,Crawley Town,Doncaster,1,1,False
+E3,1617,2017-04-03,Newport County,Leyton Orient,1,1,False
 E3,1617,2017-04-03,Portsmouth,Crewe,1,1,False
 E3,1617,2017-04-03,Plymouth,Carlisle,1,1,False
-E3,1617,2017-04-14,Blackpool,Accrington,11,11,False
-E3,1617,2017-04-14,Wycombe,Mansfield,11,11,False
+E3,1617,2017-04-03,Blackpool,Morecambe,1,1,False
+E3,1617,2017-04-03,Stevenage,Newport County,1,1,False
 E3,1617,2017-04-14,Stevenage,Morecambe,11,11,False
+E3,1617,2017-04-14,Wycombe,Mansfield,11,11,False
 E3,1617,2017-04-14,Portsmouth,Plymouth,11,11,False
 E3,1617,2017-04-14,Newport County,Yeovil,11,11,False
-E3,1617,2017-04-14,Bolton,Leyton Orient,11,11,False
-E3,1617,2017-04-14,Hartlepool,Carlisle,11,11,False
-E3,1617,2017-04-14,Grimsby,Cambridge,11,11,False
-E3,1617,2017-04-14,Exeter,Barnet,11,11,False
-E3,1617,2017-04-14,Crewe,Newport County,11,11,False
 E3,1617,2017-04-14,Crawley Town,Cheltenham,11,11,False
+E3,1617,2017-04-14,Blackpool,Accrington,11,11,False
 E3,1617,2017-04-14,Colchester,Doncaster,11,11,False
-E3,1617,2017-04-17,Accrington,Crawley Town,3,3,False
-E3,1617,2017-04-17,Yeovil,Crewe,3,3,False
+E3,1617,2017-04-14,Crewe,Newport County,11,11,False
+E3,1617,2017-04-14,Exeter,Barnet,11,11,False
+E3,1617,2017-04-14,Grimsby,Cambridge,11,11,False
+E3,1617,2017-04-14,Hartlepool,Carlisle,11,11,False
+E3,1617,2017-04-14,Bolton,Leyton Orient,11,11,False
 E3,1617,2017-04-17,Plymouth,Newport County,3,3,False
 E3,1617,2017-04-17,Newport County,Portsmouth,3,3,False
 E3,1617,2017-04-17,Morecambe,Colchester,3,3,False
-E3,1617,2017-04-17,Mansfield,Bolton,3,3,False
-E3,1617,2017-04-17,Leyton Orient,Hartlepool,3,3,False
-E3,1617,2017-04-17,Doncaster,Blackpool,3,3,False
-E3,1617,2017-04-17,Cheltenham,Grimsby,3,3,False
 E3,1617,2017-04-17,Carlisle,Stevenage,3,3,False
-E3,1617,2017-04-17,Cambridge,Exeter,3,3,False
+E3,1617,2017-04-17,Mansfield,Bolton,3,3,False
+E3,1617,2017-04-17,Accrington,Crawley Town,3,3,False
 E3,1617,2017-04-17,Barnet,Wycombe,3,3,False
+E3,1617,2017-04-17,Cambridge,Exeter,3,3,False
+E3,1617,2017-04-17,Doncaster,Blackpool,3,3,False
+E3,1617,2017-04-17,Yeovil,Crewe,3,3,False
+E3,1617,2017-04-17,Leyton Orient,Hartlepool,3,3,False
+E3,1617,2017-04-17,Cheltenham,Grimsby,3,3,False
 E3,1617,2017-04-22,Colchester,Plymouth,5,5,False
-E3,1617,2017-04-22,Grimsby,Yeovil,5,5,False
 E3,1617,2017-04-22,Hartlepool,Barnet,5,5,False
-E3,1617,2017-04-22,Bolton,Newport County,5,5,False
-E3,1617,2017-04-22,Newport County,Accrington,5,5,False
 E3,1617,2017-04-22,Portsmouth,Cambridge,5,5,False
-E3,1617,2017-04-22,Stevenage,Mansfield,5,5,False
-E3,1617,2017-04-22,Wycombe,Doncaster,5,5,False
+E3,1617,2017-04-22,Bolton,Newport County,5,5,False
+E3,1617,2017-04-22,Grimsby,Yeovil,5,5,False
 E3,1617,2017-04-22,Exeter,Morecambe,5,5,False
-E3,1617,2017-04-22,Crewe,Leyton Orient,5,5,False
+E3,1617,2017-04-22,Newport County,Accrington,5,5,False
 E3,1617,2017-04-22,Crawley Town,Carlisle,5,5,False
+E3,1617,2017-04-22,Wycombe,Doncaster,5,5,False
+E3,1617,2017-04-22,Stevenage,Mansfield,5,5,False
 E3,1617,2017-04-22,Blackpool,Cheltenham,5,5,False
-E3,1617,2017-04-29,Plymouth,Crewe,7,7,False
-E3,1617,2017-04-29,Accrington,Bolton,7,7,False
-E3,1617,2017-04-29,Barnet,Grimsby,7,7,False
-E3,1617,2017-04-29,Cambridge,Crawley Town,7,7,False
-E3,1617,2017-04-29,Carlisle,Newport County,7,7,False
-E3,1617,2017-04-29,Cheltenham,Hartlepool,7,7,False
+E3,1617,2017-04-22,Crewe,Leyton Orient,5,5,False
 E3,1617,2017-04-29,Doncaster,Exeter,7,7,False
-E3,1617,2017-04-29,Leyton Orient,Colchester,7,7,False
-E3,1617,2017-04-29,Mansfield,Portsmouth,7,7,False
+E3,1617,2017-04-29,Barnet,Grimsby,7,7,False
+E3,1617,2017-04-29,Accrington,Bolton,7,7,False
+E3,1617,2017-04-29,Plymouth,Crewe,7,7,False
 E3,1617,2017-04-29,Morecambe,Wycombe,7,7,False
-E3,1617,2017-04-29,Newport County,Blackpool,7,7,False
 E3,1617,2017-04-29,Yeovil,Stevenage,7,7,False
+E3,1617,2017-04-29,Leyton Orient,Colchester,7,7,False
+E3,1617,2017-04-29,Carlisle,Newport County,7,7,False
+E3,1617,2017-04-29,Cambridge,Crawley Town,7,7,False
+E3,1617,2017-04-29,Cheltenham,Hartlepool,7,7,False
+E3,1617,2017-04-29,Mansfield,Portsmouth,7,7,False
+E3,1617,2017-04-29,Newport County,Blackpool,7,7,False
 E3,1617,2017-05-01,Doncaster,Portsmouth,2,2,False
-E3,1617,2017-06-05,Crewe,Barnet,37,37,False
-E3,1617,2017-06-05,Newport County,Newport County,37,37,False
+E3,1617,2017-06-05,Exeter,Carlisle,37,37,False
 E3,1617,2017-06-05,Bolton,Morecambe,37,37,False
-E3,1617,2017-06-05,Colchester,Yeovil,37,37,False
+E3,1617,2017-06-05,Newport County,Newport County,37,37,False
+E3,1617,2017-06-05,Portsmouth,Cheltenham,35,37,False
+E3,1617,2017-06-05,Crawley Town,Mansfield,37,37,False
 E3,1617,2017-06-05,Blackpool,Leyton Orient,37,37,False
 E3,1617,2017-06-05,Hartlepool,Doncaster,37,35,False
-E3,1617,2017-06-05,Grimsby,Plymouth,37,37,False
-E3,1617,2017-06-05,Exeter,Carlisle,37,37,False
-E3,1617,2017-06-05,Crawley Town,Mansfield,37,37,False
-E3,1617,2017-06-05,Wycombe,Cambridge,37,37,False
+E3,1617,2017-06-05,Colchester,Yeovil,37,37,False
 E3,1617,2017-06-05,Stevenage,Accrington,37,37,False
-E3,1617,2017-06-05,Portsmouth,Cheltenham,35,37,False
-E3,1617,2017-07-01,Hartlepool,Grimsby,26,26,False
-E3,1617,2017-07-01,Leyton Orient,Barnet,26,26,False
-E3,1617,2017-07-01,Mansfield,Crewe,26,26,False
-E3,1617,2017-07-01,Morecambe,Newport County,26,26,False
+E3,1617,2017-06-05,Wycombe,Cambridge,37,37,False
+E3,1617,2017-06-05,Grimsby,Plymouth,37,37,False
+E3,1617,2017-06-05,Crewe,Barnet,37,37,False
 E3,1617,2017-07-01,Stevenage,Newport County,26,26,False
+E3,1617,2017-07-01,Morecambe,Newport County,26,26,False
+E3,1617,2017-07-01,Leyton Orient,Barnet,26,26,False
 E3,1617,2017-07-01,Colchester,Carlisle,26,26,False
-E3,1617,2017-07-02,Leyton Orient,Morecambe,1,1,False
+E3,1617,2017-07-01,Hartlepool,Grimsby,26,26,False
+E3,1617,2017-07-01,Mansfield,Crewe,26,26,False
 E3,1617,2017-07-02,Blackpool,Crawley Town,27,27,False
-E3,1617,2017-07-03,Plymouth,Blackpool,28,1,False
+E3,1617,2017-07-02,Leyton Orient,Morecambe,1,1,False
 E3,1617,2017-07-03,Crawley Town,Portsmouth,1,28,False
-E3,1617,2017-08-04,Barnet,Bolton,34,60,False
-E3,1617,2017-08-04,Cambridge,Leyton Orient,60,33,False
-E3,1617,2017-08-04,Carlisle,Newport County,34,34,False
-E3,1617,2017-08-04,Colchester,Stevenage,34,34,False
+E3,1617,2017-07-03,Plymouth,Blackpool,28,1,False
+E3,1617,2017-08-04,Accrington,Crewe,60,34,False
 E3,1617,2017-08-04,Crawley Town,Plymouth,32,32,False
-E3,1617,2017-08-04,Doncaster,Mansfield,60,34,False
-E3,1617,2017-08-04,Exeter,Newport County,60,34,False
 E3,1617,2017-08-04,Morecambe,Hartlepool,33,34,False
 E3,1617,2017-08-04,Portsmouth,Yeovil,32,60,False
 E3,1617,2017-08-04,Wycombe,Cheltenham,60,60,False
+E3,1617,2017-08-04,Exeter,Newport County,60,34,False
+E3,1617,2017-08-04,Doncaster,Mansfield,60,34,False
+E3,1617,2017-08-04,Colchester,Stevenage,34,34,False
+E3,1617,2017-08-04,Cambridge,Leyton Orient,60,33,False
+E3,1617,2017-08-04,Barnet,Bolton,34,60,False
 E3,1617,2017-08-04,Blackpool,Grimsby,32,34,False
-E3,1617,2017-08-04,Accrington,Crewe,60,34,False
+E3,1617,2017-08-04,Carlisle,Newport County,34,34,False
 E3,1617,2017-10-02,Newport County,Doncaster,2,59,False
-E3,1617,2017-11-02,Bolton,Crawley Town,5,5,True
-E3,1617,2017-11-02,Crewe,Grimsby,5,5,True
-E3,1617,2017-11-02,Colchester,Barnet,5,5,True
-E3,1617,2017-11-02,Morecambe,Cambridge,5,5,True
-E3,1617,2017-11-02,Carlisle,Blackpool,5,90,True
-E3,1617,2017-11-02,Portsmouth,Accrington,90,5,True
 E3,1617,2017-11-02,Stevenage,Wycombe,5,5,True
+E3,1617,2017-11-02,Portsmouth,Accrington,90,5,True
+E3,1617,2017-11-02,Colchester,Barnet,5,5,True
 E3,1617,2017-11-02,Yeovil,Leyton Orient,5,90,True
-E3,1617,2017-11-02,Plymouth,Exeter,90,5,True
 E3,1617,2017-11-02,Newport County,Cheltenham,5,5,True
+E3,1617,2017-11-02,Bolton,Crawley Town,5,5,True
+E3,1617,2017-11-02,Carlisle,Blackpool,5,90,True
+E3,1617,2017-11-02,Crewe,Grimsby,5,5,True
 E3,1617,2017-11-02,Mansfield,Hartlepool,5,90,True
-E3,1617,2017-11-03,Wycombe,Blackpool,1,1,False
-E3,1617,2017-11-03,Barnet,Crawley Town,1,1,False
-E3,1617,2017-11-03,Carlisle,Cambridge,1,1,False
-E3,1617,2017-11-03,Colchester,Portsmouth,1,1,False
-E3,1617,2017-11-03,Crewe,Newport County,1,1,False
-E3,1617,2017-11-03,Newport County,Hartlepool,1,1,False
-E3,1617,2017-11-03,Morecambe,Yeovil,1,1,False
-E3,1617,2017-11-03,Mansfield,Plymouth,1,1,False
-E3,1617,2017-11-03,Bolton,Stevenage,1,1,False
+E3,1617,2017-11-02,Morecambe,Cambridge,5,5,True
+E3,1617,2017-11-02,Plymouth,Exeter,90,5,True
 E3,1617,2017-11-03,Exeter,Accrington,1,1,False
-E3,1617,2017-11-03,Leyton Orient,Grimsby,1,1,False
+E3,1617,2017-11-03,Colchester,Portsmouth,1,1,False
+E3,1617,2017-11-03,Bolton,Stevenage,1,1,False
+E3,1617,2017-11-03,Morecambe,Yeovil,1,1,False
+E3,1617,2017-11-03,Crewe,Newport County,1,1,False
+E3,1617,2017-11-03,Barnet,Crawley Town,1,1,False
+E3,1617,2017-11-03,Wycombe,Blackpool,1,1,False
 E3,1617,2017-11-03,Doncaster,Cheltenham,32,1,False
+E3,1617,2017-11-03,Newport County,Hartlepool,1,1,False
+E3,1617,2017-11-03,Mansfield,Plymouth,1,1,False
+E3,1617,2017-11-03,Carlisle,Cambridge,1,1,False
+E3,1617,2017-11-03,Leyton Orient,Grimsby,1,1,False

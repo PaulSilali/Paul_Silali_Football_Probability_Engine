@@ -1,6 +1,57 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-CHN1,2223,2022-06-03,Guangzhou City,Cangzhou Mighty Lions,678,7,False
-CHN1,2223,2022-06-03,Meizhou Hakka,Guangzhou City,7,678,False
-CHN1,2223,2022-06-03,Shandong Taishan,Beijing Guoan,678,678,False
-CHN1,2223,2022-06-03,Shanghai Port FC,Changchun Yatai,678,1554,False
-CHN1,2223,2022-06-03,Wuhan Three Towns,Tianjin Jinmen Tiger,7,7,False
+CHN1,2223,2022-06-03,Changchun Yatai,Guangzhou City,153,153,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Tianjin Jinmen Tiger,7,173,False
+CHN1,2223,2022-06-03,Henan Songshan Longmen,Dalian Pro,173,151,False
+CHN1,2223,2022-06-03,Beijing Guoan,Cangzhou Mighty Lions,153,173,False
+CHN1,2223,2022-06-03,Wuhan Yangtze River,Hebei FC,151,153,False
+CHN1,2223,2022-06-03,Henan Songshan Longmen,Shandong Taishan,173,153,False
+CHN1,2223,2022-06-03,Chengdu Rongcheng,Beijing Guoan,7,153,False
+CHN1,2223,2022-06-03,Cangzhou Mighty Lions,Meizhou Hakka,173,7,False
+CHN1,2223,2022-06-03,Tianjin Jinmen Tiger,Shenzhen Peng City,173,409,False
+CHN1,2223,2022-06-03,Henan Songshan Longmen,Zhejiang Professional,173,7,False
+CHN1,2223,2022-06-03,Changchun Yatai,Dalian Pro,153,151,False
+CHN1,2223,2022-06-03,Shanghai Shenhua,Wuhan Three Towns,173,7,False
+CHN1,2223,2022-06-03,Shenzhen Peng City,Meizhou Hakka,409,7,False
+CHN1,2223,2022-06-03,Wuhan Yangtze River,Wuhan Three Towns,151,7,False
+CHN1,2223,2022-06-03,Hebei FC,Shanghai Shenhua,153,173,False
+CHN1,2223,2022-06-03,Tianjin Jinmen Tiger,Chengdu Rongcheng,173,7,False
+CHN1,2223,2022-06-03,Dalian Pro,Zhejiang Professional,151,7,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Beijing Guoan,7,153,False
+CHN1,2223,2022-06-03,Wuhan Three Towns,Shanghai Port FC,7,153,False
+CHN1,2223,2022-06-03,Guangzhou City,Zhejiang Professional,153,7,False
+CHN1,2223,2022-06-03,Beijing Guoan,Shenzhen Peng City,153,409,False
+CHN1,2223,2022-06-03,Guangzhou City,Changchun Yatai,153,153,False
+CHN1,2223,2022-06-03,Cangzhou Mighty Lions,Beijing Guoan,173,153,False
+CHN1,2223,2022-06-03,Wuhan Yangtze River,Shanghai Port FC,151,153,False
+CHN1,2223,2022-06-03,Shanghai Shenhua,Guangzhou City,173,153,False
+CHN1,2223,2022-06-03,Chengdu Rongcheng,Shenzhen Peng City,7,409,False
+CHN1,2223,2022-06-03,Shanghai Port FC,Shanghai Shenhua,153,173,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Cangzhou Mighty Lions,7,173,False
+CHN1,2223,2022-06-03,Shenzhen Peng City,Tianjin Jinmen Tiger,409,173,False
+CHN1,2223,2022-06-03,Changchun Yatai,Zhejiang Professional,153,7,False
+CHN1,2223,2022-06-03,Guangzhou City,Wuhan Three Towns,153,7,False
+CHN1,2223,2022-06-03,Hebei FC,Wuhan Yangtze River,153,151,False
+CHN1,2223,2022-06-03,Dalian Pro,Changchun Yatai,151,153,False
+CHN1,2223,2022-06-03,Tianjin Jinmen Tiger,Beijing Guoan,173,153,False
+CHN1,2223,2022-06-03,Wuhan Three Towns,Shanghai Shenhua,7,173,False
+CHN1,2223,2022-06-03,Wuhan Yangtze River,Guangzhou City,151,153,False
+CHN1,2223,2022-06-03,Shanghai Port FC,Hebei FC,153,153,False
+CHN1,2223,2022-06-03,Chengdu Rongcheng,Cangzhou Mighty Lions,7,173,False
+CHN1,2223,2022-06-03,Changchun Yatai,Shandong Taishan,153,153,False
+CHN1,2223,2022-06-03,Cangzhou Mighty Lions,Shenzhen Peng City,173,409,False
+CHN1,2223,2022-06-03,Henan Songshan Longmen,Guangzhou City,173,153,False
+CHN1,2223,2022-06-03,Chengdu Rongcheng,Tianjin Jinmen Tiger,7,173,False
+CHN1,2223,2022-06-03,Dalian Pro,Shandong Taishan,151,153,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Chengdu Rongcheng,7,7,False
+CHN1,2223,2022-06-03,Shenzhen Peng City,Beijing Guoan,409,153,False
+CHN1,2223,2022-06-03,Henan Songshan Longmen,Changchun Yatai,173,153,False
+CHN1,2223,2022-06-03,Wuhan Yangtze River,Shanghai Shenhua,151,173,False
+CHN1,2223,2022-06-03,Dalian Pro,Shanghai Port FC,151,153,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Wuhan Yangtze River,7,151,False
+CHN1,2223,2022-06-03,Hebei FC,Tianjin Jinmen Tiger,153,173,False
+CHN1,2223,2022-06-03,Guangzhou City,Cangzhou Mighty Lions,153,173,False
+CHN1,2223,2022-06-03,Meizhou Hakka,Guangzhou City,7,153,False
+CHN1,2223,2022-06-03,Shandong Taishan,Beijing Guoan,153,153,False
+CHN1,2223,2022-06-03,Shanghai Port FC,Changchun Yatai,153,153,False
+CHN1,2223,2022-06-03,Wuhan Three Towns,Tianjin Jinmen Tiger,7,173,False
+CHN1,2223,2022-06-03,Zhejiang Professional,Wuhan Yangtze River,7,151,False

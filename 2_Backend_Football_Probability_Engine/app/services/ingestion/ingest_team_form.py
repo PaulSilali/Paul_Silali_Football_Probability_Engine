@@ -8,11 +8,13 @@ from sqlalchemy.exc import IntegrityError
 from app.db.models import TeamForm, TeamFormHistorical, Match, League, Team, JackpotFixture
 from app.services.team_form_calculator import calculate_team_form
 from app.services.ingestion.draw_structural_utils import save_draw_structural_csv
+from app.services.ingestion.draw_structural_logging import write_draw_structural_log
 from typing import Dict, List, Optional
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 import pandas as pd
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -27,6 +29,10 @@ def batch_ingest_team_form_from_matches(
     save_csv: bool = True,
     matches_count: int = 5
 ) -> Dict:
+    """
+    Batch ingest team form from historical matches.
+    Now includes comprehensive logging to 01_logs folders.
+    """
     """
     Batch ingest team form for matches in specified leagues and seasons.
     
@@ -43,6 +49,7 @@ def batch_ingest_team_form_from_matches(
     Returns:
         Dict with batch processing statistics
     """
+    start_time = time.time()
     try:
         from app.services.data_ingestion import get_seasons_list
         
@@ -51,7 +58,12 @@ def batch_ingest_team_form_from_matches(
             "failed": 0,
             "skipped": 0,
             "total": 0,
-            "details": []
+            "details": [],
+            "csv_files_saved": [],
+            "db_records_inserted": 0,
+            "db_records_updated": 0,
+            "errors": [],
+            "warnings": []
         }
         
         # Get leagues to process
@@ -232,11 +244,19 @@ def batch_ingest_team_form_from_matches(
                             if home_form or away_form:
                                 try:
                                     db.commit()
-                                    # Count successful saves (only count if commit succeeded)
+                                    # Count successful saves and track DB updates
                                     if home_form:
                                         results["successful"] += 1
+                                        if existing_home:
+                                            results["db_records_updated"] += 1
+                                        else:
+                                            results["db_records_inserted"] += 1
                                     if away_form:
                                         results["successful"] += 1
+                                        if existing_away:
+                                            results["db_records_updated"] += 1
+                                        else:
+                                            results["db_records_inserted"] += 1
                                 except IntegrityError as e:
                                     db.rollback()
                                     # Check if it's a duplicate key error (record already exists)
@@ -249,20 +269,25 @@ def batch_ingest_team_form_from_matches(
                                         if away_form:
                                             results["skipped"] += 1
                                     else:
-                                        logger.error(f"Integrity error saving form to database for match {match_id}: {e}", exc_info=True)
+                                        error_msg = f"Integrity error saving form to database for match {match_id}: {e}"
+                                        results["errors"].append(error_msg)
+                                        logger.error(error_msg, exc_info=True)
                                         if home_form:
                                             results["failed"] += 1
                                         if away_form:
                                             results["failed"] += 1
                                 except Exception as e:
                                     db.rollback()
-                                    logger.error(f"Failed to save form to database for match {match_id}: {e}", exc_info=True)
+                                    error_msg = f"Failed to save form to database for match {match_id}: {e}"
+                                    results["errors"].append(error_msg)
+                                    logger.error(error_msg, exc_info=True)
                                     if home_form:
                                         results["failed"] += 1
                                     if away_form:
                                         results["failed"] += 1
                             
                             # Add to CSV records (always add to CSV even if DB save failed)
+                            # Note: CSV records are added separately from DB tracking
                             if home_form:
                                 form_records.append({
                                     "league_code": league.code,
@@ -283,9 +308,6 @@ def batch_ingest_team_form_from_matches(
                                     "defense_form": home_form.defense_form,
                                     "last_match_date": home_form.last_match_date.isoformat() if home_form.last_match_date else None
                                 })
-                                results["successful"] += 1
-                            else:
-                                results["skipped"] += 1
                             
                             if away_form:
                                 form_records.append({
@@ -307,36 +329,84 @@ def batch_ingest_team_form_from_matches(
                                     "defense_form": away_form.defense_form,
                                     "last_match_date": away_form.last_match_date.isoformat() if away_form.last_match_date else None
                                 })
-                                results["successful"] += 1
-                            else:
-                                results["skipped"] += 1
+                            
+                            results["total"] += 1
                             
                         except Exception as e:
+                            error_msg = f"Failed to calculate form for match {match_id}: {e}"
+                            results["errors"].append(error_msg)
                             results["failed"] += 1
-                            logger.warning(f"Failed to calculate form for match {match_id}: {e}")
+                            results["total"] += 1
+                            logger.warning(error_msg)
                     
                     # Save CSV for this league/season combination
                     if save_csv and form_records:
                         try:
                             csv_path = _save_team_form_csv_batch(db, league.code, season_filter or "all", form_records)
+                            csv_filename = csv_path.name if csv_path else f"{league.code}_{season_filter or 'all'}_team_form.csv"
+                            results["csv_files_saved"].append(f"{csv_filename} ({len(form_records)} records)")
                             logger.info(f"Saved Team Form CSV for {league.code} ({season_filter or 'all'}): {len(form_records)} records")
                         except Exception as e:
-                            logger.warning(f"Failed to save Team Form CSV for {league.code} ({season_filter or 'all'}): {e}")
+                            error_msg = f"Failed to save Team Form CSV for {league.code} ({season_filter or 'all'}): {e}"
+                            results["warnings"].append(error_msg)
+                            logger.warning(error_msg)
                 
                 except Exception as e:
                     logger.error(f"Error processing league {league.code} season {season_filter}: {e}")
                     continue
         
+        execution_time = time.time() - start_time
+        results["execution_time_seconds"] = execution_time
+        results["total"] = results["successful"] + results["failed"] + results["skipped"]
+        results["success"] = results["failed"] == 0
+        
         logger.info(f"Batch team form ingestion complete: {results['successful']} successful, {results['failed']} failed out of {results['total']} processed")
         
+        # Write comprehensive log to 01_logs folders
+        try:
+            log_summary = {
+                "success": results["success"],
+                "total": results["total"],
+                "successful": results["successful"],
+                "failed": results["failed"],
+                "skipped": results["skipped"],
+                "csv_files_saved": results.get("csv_files_saved", []),
+                "db_records_inserted": results.get("db_records_inserted", 0),
+                "db_records_updated": results.get("db_records_updated", 0),
+                "errors": results.get("errors", []),
+                "warnings": results.get("warnings", []),
+                "execution_time_seconds": execution_time,
+                "details": results.get("details", [])
+            }
+            write_draw_structural_log("Team_Form", log_summary)
+        except Exception as log_error:
+            logger.warning(f"Failed to write ingestion log: {log_error}", exc_info=True)
+        
         return {
-            "success": True,
+            "success": results["success"],
             **results,
             "message": f"Processed {results['total']} matches. {results['successful']} form records calculated, {results['failed']} failed."
         }
     
     except Exception as e:
+        execution_time = time.time() - start_time
         logger.error(f"Error in batch team form ingestion: {e}", exc_info=True)
+        
+        # Write error log
+        try:
+            error_summary = {
+                "success": False,
+                "total": 0,
+                "successful": 0,
+                "failed": 0,
+                "skipped": 0,
+                "errors": [str(e)],
+                "execution_time_seconds": execution_time
+            }
+            write_draw_structural_log("Team_Form", error_summary)
+        except:
+            pass
+        
         return {"success": False, "error": str(e)}
 
 

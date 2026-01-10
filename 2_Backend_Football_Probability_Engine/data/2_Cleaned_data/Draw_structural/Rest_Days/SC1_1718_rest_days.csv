@@ -1,117 +1,117 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-SC1,1718,2017-08-05,Queen of Sth,Brechin,1,7,False
-SC1,1718,2017-08-05,Dumbarton,Morton,1,1,False
-SC1,1718,2017-08-05,Inverness C,Dundee United,7,1,False
 SC1,1718,2017-08-05,Livingston,Dunfermline,7,1,False
+SC1,1718,2017-08-05,Queen of Sth,Brechin,1,7,False
+SC1,1718,2017-08-05,Inverness C,Dundee United,7,1,False
+SC1,1718,2017-08-05,Dumbarton,Morton,1,1,False
 SC1,1718,2017-08-05,St Mirren,Falkirk,1,1,False
+SC1,1718,2017-08-12,Falkirk,Dumbarton,7,7,False
 SC1,1718,2017-08-12,Brechin,Livingston,7,7,False
 SC1,1718,2017-08-12,Dundee United,Queen of Sth,7,7,False
 SC1,1718,2017-08-12,Dunfermline,Inverness C,7,7,False
-SC1,1718,2017-08-12,Falkirk,Dumbarton,7,7,False
 SC1,1718,2017-08-12,Morton,St Mirren,7,7,False
-SC1,1718,2017-08-19,Dunfermline,Falkirk,7,7,False
 SC1,1718,2017-08-19,Inverness C,Morton,7,7,False
+SC1,1718,2017-08-19,Dunfermline,Falkirk,7,7,False
 SC1,1718,2017-08-19,Livingston,St Mirren,7,7,False
-SC1,1718,2017-08-19,Queen of Sth,Dumbarton,7,7,False
 SC1,1718,2017-08-19,Dundee United,Brechin,7,7,False
-SC1,1718,2017-08-26,Dumbarton,Dunfermline,7,7,False
+SC1,1718,2017-08-19,Queen of Sth,Dumbarton,7,7,False
 SC1,1718,2017-08-26,Falkirk,Queen of Sth,7,7,False
+SC1,1718,2017-08-26,Brechin,Inverness C,7,7,False
+SC1,1718,2017-08-26,Dumbarton,Dunfermline,7,7,False
 SC1,1718,2017-08-26,Morton,Livingston,7,7,False
 SC1,1718,2017-08-26,St Mirren,Dundee United,7,7,False
-SC1,1718,2017-08-26,Brechin,Inverness C,7,7,False
 SC1,1718,2017-09-09,Morton,Dunfermline,14,14,False
-SC1,1718,2017-09-09,Brechin,Falkirk,14,14,False
-SC1,1718,2017-09-09,Dundee United,Dumbarton,14,14,False
 SC1,1718,2017-09-09,Livingston,Queen of Sth,14,14,False
+SC1,1718,2017-09-09,Dundee United,Dumbarton,14,14,False
+SC1,1718,2017-09-09,Brechin,Falkirk,14,14,False
 SC1,1718,2017-09-09,St Mirren,Inverness C,14,14,False
 SC1,1718,2017-09-16,Dunfermline,St Mirren,7,7,False
-SC1,1718,2017-09-16,Falkirk,Dundee United,7,7,False
-SC1,1718,2017-09-16,Inverness C,Livingston,7,7,False
 SC1,1718,2017-09-16,Queen of Sth,Morton,7,7,False
+SC1,1718,2017-09-16,Inverness C,Livingston,7,7,False
 SC1,1718,2017-09-16,Dumbarton,Brechin,7,7,False
-SC1,1718,2017-09-23,Dumbarton,Inverness C,7,7,False
-SC1,1718,2017-09-23,Dundee United,Morton,7,7,False
+SC1,1718,2017-09-16,Falkirk,Dundee United,7,7,False
 SC1,1718,2017-09-23,Falkirk,Livingston,7,7,False
 SC1,1718,2017-09-23,Brechin,Dunfermline,7,7,False
+SC1,1718,2017-09-23,Dundee United,Morton,7,7,False
+SC1,1718,2017-09-23,Dumbarton,Inverness C,7,7,False
 SC1,1718,2017-09-24,St Mirren,Queen of Sth,8,8,False
-SC1,1718,2017-09-30,Inverness C,Queen of Sth,7,6,False
-SC1,1718,2017-09-30,Livingston,Dumbarton,7,7,False
-SC1,1718,2017-09-30,Morton,Falkirk,7,7,False
 SC1,1718,2017-09-30,St Mirren,Brechin,6,7,False
 SC1,1718,2017-09-30,Dunfermline,Dundee United,7,7,False
-SC1,1718,2017-10-14,Dumbarton,St Mirren,14,14,False
-SC1,1718,2017-10-14,Falkirk,Inverness C,14,14,False
-SC1,1718,2017-10-14,Livingston,Dundee United,14,11,False
+SC1,1718,2017-09-30,Livingston,Dumbarton,7,7,False
+SC1,1718,2017-09-30,Inverness C,Queen of Sth,7,6,False
+SC1,1718,2017-09-30,Morton,Falkirk,7,7,False
 SC1,1718,2017-10-14,Queen of Sth,Dunfermline,14,14,False
+SC1,1718,2017-10-14,Dumbarton,St Mirren,14,14,False
+SC1,1718,2017-10-14,Livingston,Dundee United,14,11,False
 SC1,1718,2017-10-14,Brechin,Morton,14,14,False
-SC1,1718,2017-10-21,Brechin,Queen of Sth,7,7,False
+SC1,1718,2017-10-14,Falkirk,Inverness C,14,14,False
 SC1,1718,2017-10-21,Dundee United,Inverness C,7,7,False
 SC1,1718,2017-10-21,Dunfermline,Livingston,7,7,False
-SC1,1718,2017-10-21,Falkirk,St Mirren,7,7,False
 SC1,1718,2017-10-21,Morton,Dumbarton,7,7,False
+SC1,1718,2017-10-21,Brechin,Queen of Sth,7,7,False
+SC1,1718,2017-10-21,Falkirk,St Mirren,7,7,False
 SC1,1718,2017-10-28,Inverness C,Dunfermline,7,7,False
-SC1,1718,2017-10-28,Livingston,Brechin,7,7,False
+SC1,1718,2017-10-28,Dumbarton,Dundee United,7,7,False
 SC1,1718,2017-10-28,Queen of Sth,Falkirk,7,7,False
 SC1,1718,2017-10-28,St Mirren,Morton,7,7,False
-SC1,1718,2017-10-28,Dumbarton,Dundee United,7,7,False
-SC1,1718,2017-11-04,Dundee United,St Mirren,2,1,False
-SC1,1718,2017-11-04,Falkirk,Dunfermline,1,1,False
-SC1,1718,2017-11-04,Livingston,Inverness C,7,7,False
-SC1,1718,2017-11-04,Morton,Queen of Sth,1,1,False
+SC1,1718,2017-10-28,Livingston,Brechin,7,7,False
 SC1,1718,2017-11-04,Brechin,Dumbarton,7,1,False
+SC1,1718,2017-11-04,Falkirk,Dunfermline,1,1,False
+SC1,1718,2017-11-04,Morton,Queen of Sth,1,1,False
+SC1,1718,2017-11-04,Dundee United,St Mirren,2,1,False
+SC1,1718,2017-11-04,Livingston,Inverness C,7,7,False
 SC1,1718,2017-11-19,Dundee United,Falkirk,15,15,False
 SC1,1718,2017-11-21,Dunfermline,Morton,17,17,True
-SC1,1718,2017-11-25,Dunfermline,Dumbarton,4,21,False
-SC1,1718,2017-11-25,Falkirk,Morton,6,4,False
 SC1,1718,2017-11-25,Inverness C,St Mirren,21,21,False
+SC1,1718,2017-11-25,Falkirk,Morton,6,4,False
 SC1,1718,2017-11-25,Queen of Sth,Livingston,21,21,False
 SC1,1718,2017-11-25,Brechin,Dundee United,21,6,False
+SC1,1718,2017-11-25,Dunfermline,Dumbarton,4,21,False
 SC1,1718,2017-11-28,Inverness C,Brechin,3,3,True
 SC1,1718,2017-11-28,St Mirren,Livingston,3,3,True
 SC1,1718,2017-11-28,Dumbarton,Queen of Sth,3,3,True
-SC1,1718,2017-12-02,Morton,Brechin,7,4,False
 SC1,1718,2017-12-02,Queen of Sth,Inverness C,4,4,False
 SC1,1718,2017-12-02,St Mirren,Dumbarton,4,4,False
+SC1,1718,2017-12-02,Morton,Brechin,7,4,False
 SC1,1718,2017-12-02,Dundee United,Dunfermline,7,7,False
+SC1,1718,2017-12-09,Brechin,St Mirren,7,7,False
 SC1,1718,2017-12-09,Dunfermline,Queen of Sth,7,7,False
 SC1,1718,2017-12-09,Morton,Dundee United,7,7,False
-SC1,1718,2017-12-09,Brechin,St Mirren,7,7,False
 SC1,1718,2017-12-16,St Mirren,Dunfermline,7,7,False
 SC1,1718,2017-12-16,Inverness C,Dumbarton,14,14,False
 SC1,1718,2017-12-19,Livingston,Falkirk,21,24,True
-SC1,1718,2017-12-23,Dundee United,Livingston,14,4,False
 SC1,1718,2017-12-23,Dunfermline,Brechin,7,14,False
 SC1,1718,2017-12-23,Morton,Inverness C,14,7,False
-SC1,1718,2017-12-23,Queen of Sth,St Mirren,14,7,False
 SC1,1718,2017-12-23,Dumbarton,Falkirk,7,4,False
+SC1,1718,2017-12-23,Dundee United,Livingston,14,4,False
+SC1,1718,2017-12-23,Queen of Sth,St Mirren,14,7,False
 SC1,1718,2017-12-26,Dumbarton,Livingston,3,3,True
 SC1,1718,2017-12-29,St Mirren,Dundee United,6,6,False
 SC1,1718,2017-12-30,Brechin,Inverness C,7,7,False
 SC1,1718,2017-12-30,Falkirk,Queen of Sth,7,7,False
-SC1,1718,2018-01-02,Inverness C,Livingston,3,7,True
 SC1,1718,2018-01-02,Dundee United,Brechin,4,3,True
-SC1,1718,2018-01-02,Dunfermline,Falkirk,10,3,True
+SC1,1718,2018-01-02,Inverness C,Livingston,3,7,True
 SC1,1718,2018-01-02,Morton,St Mirren,10,4,True
 SC1,1718,2018-01-02,Queen of Sth,Dumbarton,3,7,True
-SC1,1718,2018-01-06,Dumbarton,Dunfermline,4,4,False
-SC1,1718,2018-01-06,Livingston,Queen of Sth,4,4,False
-SC1,1718,2018-01-06,Falkirk,Dundee United,4,4,False
+SC1,1718,2018-01-02,Dunfermline,Falkirk,10,3,True
 SC1,1718,2018-01-06,St Mirren,Inverness C,4,4,False
+SC1,1718,2018-01-06,Falkirk,Dundee United,4,4,False
 SC1,1718,2018-01-06,Brechin,Morton,4,4,False
+SC1,1718,2018-01-06,Livingston,Queen of Sth,4,4,False
+SC1,1718,2018-01-06,Dumbarton,Dunfermline,4,4,False
 SC1,1718,2018-01-09,Inverness C,Falkirk,3,3,True
-SC1,1718,2018-01-13,Dumbarton,St Mirren,7,7,False
-SC1,1718,2018-01-13,Dunfermline,Dundee United,7,7,False
-SC1,1718,2018-01-13,Inverness C,Queen of Sth,4,7,False
 SC1,1718,2018-01-13,Morton,Falkirk,7,4,False
+SC1,1718,2018-01-13,Inverness C,Queen of Sth,4,7,False
+SC1,1718,2018-01-13,Dunfermline,Dundee United,7,7,False
+SC1,1718,2018-01-13,Dumbarton,St Mirren,7,7,False
 SC1,1718,2018-01-13,Brechin,Livingston,7,7,False
 SC1,1718,2018-01-26,Dunfermline,St Mirren,13,13,False
-SC1,1718,2018-01-27,Falkirk,Inverness C,14,14,False
-SC1,1718,2018-01-27,Livingston,Dumbarton,14,14,False
 SC1,1718,2018-01-27,Queen of Sth,Brechin,14,14,False
+SC1,1718,2018-01-27,Falkirk,Inverness C,14,14,False
 SC1,1718,2018-01-27,Dundee United,Morton,14,14,False
-SC1,1718,2018-02-03,Morton,Dunfermline,7,8,False
-SC1,1718,2018-02-03,St Mirren,Queen of Sth,8,7,False
+SC1,1718,2018-01-27,Livingston,Dumbarton,14,14,False
 SC1,1718,2018-02-03,Falkirk,Livingston,7,7,False
+SC1,1718,2018-02-03,St Mirren,Queen of Sth,8,7,False
+SC1,1718,2018-02-03,Morton,Dunfermline,7,8,False
 SC1,1718,2018-02-06,Falkirk,Brechin,3,10,True
 SC1,1718,2018-02-10,Livingston,Dunfermline,7,7,False
 SC1,1718,2018-02-17,Livingston,St Mirren,7,14,False
@@ -119,63 +119,63 @@ SC1,1718,2018-02-17,Brechin,Falkirk,11,11,False
 SC1,1718,2018-02-17,Queen of Sth,Morton,14,14,False
 SC1,1718,2018-02-20,Dumbarton,Morton,24,3,True
 SC1,1718,2018-02-23,Livingston,Dundee United,6,27,False
+SC1,1718,2018-02-24,Falkirk,Dumbarton,7,4,False
 SC1,1718,2018-02-24,Inverness C,Morton,28,4,False
 SC1,1718,2018-02-24,Queen of Sth,Dunfermline,7,14,False
 SC1,1718,2018-02-24,St Mirren,Brechin,7,7,False
-SC1,1718,2018-02-24,Falkirk,Dumbarton,7,4,False
 SC1,1718,2018-02-27,Morton,Livingston,3,4,True
 SC1,1718,2018-03-10,Falkirk,Morton,14,11,False
 SC1,1718,2018-03-10,St Mirren,Dunfermline,14,14,False
 SC1,1718,2018-03-10,Dumbarton,Queen of Sth,14,14,False
 SC1,1718,2018-03-13,Dunfermline,Inverness C,3,17,True
-SC1,1718,2018-03-13,Livingston,Morton,14,3,True
 SC1,1718,2018-03-13,Queen of Sth,Dundee United,3,18,True
+SC1,1718,2018-03-13,Livingston,Morton,14,3,True
 SC1,1718,2018-03-13,Dumbarton,Brechin,3,17,True
-SC1,1718,2018-03-17,Dundee United,Inverness C,4,4,False
-SC1,1718,2018-03-17,Dunfermline,Morton,4,4,False
-SC1,1718,2018-03-17,Livingston,Falkirk,4,7,False
 SC1,1718,2018-03-17,Queen of Sth,St Mirren,4,7,False
+SC1,1718,2018-03-17,Dundee United,Inverness C,4,4,False
 SC1,1718,2018-03-17,Brechin,Dumbarton,4,4,False
+SC1,1718,2018-03-17,Livingston,Falkirk,4,7,False
+SC1,1718,2018-03-17,Dunfermline,Morton,4,4,False
 SC1,1718,2018-03-20,Dundee United,Queen of Sth,3,3,True
 SC1,1718,2018-03-20,Brechin,Dunfermline,3,3,True
-SC1,1718,2018-03-24,Morton,Brechin,7,4,False
-SC1,1718,2018-03-24,Queen of Sth,Livingston,4,7,False
 SC1,1718,2018-03-24,Dundee United,Dunfermline,4,4,False
-SC1,1718,2018-03-27,Inverness C,Dundee United,10,3,True
+SC1,1718,2018-03-24,Queen of Sth,Livingston,4,7,False
+SC1,1718,2018-03-24,Morton,Brechin,7,4,False
 SC1,1718,2018-03-27,St Mirren,Dumbarton,10,10,True
-SC1,1718,2018-03-31,Dunfermline,Queen of Sth,7,7,False
-SC1,1718,2018-03-31,Falkirk,Brechin,14,7,False
+SC1,1718,2018-03-27,Inverness C,Dundee United,10,3,True
 SC1,1718,2018-03-31,Inverness C,St Mirren,4,4,False
 SC1,1718,2018-03-31,Morton,Dundee United,7,4,False
+SC1,1718,2018-03-31,Falkirk,Brechin,14,7,False
 SC1,1718,2018-03-31,Dumbarton,Livingston,4,7,False
+SC1,1718,2018-03-31,Dunfermline,Queen of Sth,7,7,False
+SC1,1718,2018-04-03,Queen of Sth,Falkirk,3,3,True
 SC1,1718,2018-04-03,Dunfermline,Livingston,3,3,True
 SC1,1718,2018-04-03,Inverness C,Brechin,3,3,True
-SC1,1718,2018-04-03,Queen of Sth,Falkirk,3,3,True
 SC1,1718,2018-04-03,Dundee United,Dumbarton,3,3,True
-SC1,1718,2018-04-07,Dumbarton,Dundee United,4,4,False
-SC1,1718,2018-04-07,Falkirk,Dunfermline,4,4,False
 SC1,1718,2018-04-07,Livingston,Morton,4,7,False
 SC1,1718,2018-04-07,Queen of Sth,Inverness C,4,4,False
 SC1,1718,2018-04-07,Brechin,St Mirren,4,7,False
-SC1,1718,2018-04-10,Morton,Dumbarton,3,3,True
-SC1,1718,2018-04-10,Dundee United,St Mirren,3,3,True
+SC1,1718,2018-04-07,Dumbarton,Dundee United,4,4,False
+SC1,1718,2018-04-07,Falkirk,Dunfermline,4,4,False
 SC1,1718,2018-04-10,Inverness C,Falkirk,3,3,True
-SC1,1718,2018-04-14,Dunfermline,Brechin,7,7,False
-SC1,1718,2018-04-14,Inverness C,Dumbarton,4,4,False
-SC1,1718,2018-04-14,Morton,Queen of Sth,4,7,False
+SC1,1718,2018-04-10,Dundee United,St Mirren,3,3,True
+SC1,1718,2018-04-10,Morton,Dumbarton,3,3,True
 SC1,1718,2018-04-14,St Mirren,Livingston,4,7,False
 SC1,1718,2018-04-14,Dundee United,Falkirk,4,4,False
-SC1,1718,2018-04-17,St Mirren,Falkirk,3,3,True
+SC1,1718,2018-04-14,Dunfermline,Brechin,7,7,False
+SC1,1718,2018-04-14,Morton,Queen of Sth,4,7,False
+SC1,1718,2018-04-14,Inverness C,Dumbarton,4,4,False
 SC1,1718,2018-04-17,Brechin,Dundee United,3,3,True
+SC1,1718,2018-04-17,St Mirren,Falkirk,3,3,True
 SC1,1718,2018-04-18,Dumbarton,Inverness C,4,4,True
-SC1,1718,2018-04-21,Inverness C,Dunfermline,3,7,False
-SC1,1718,2018-04-21,Livingston,Brechin,7,4,False
 SC1,1718,2018-04-21,Queen of Sth,Dundee United,7,4,False
 SC1,1718,2018-04-21,St Mirren,Morton,4,7,False
+SC1,1718,2018-04-21,Livingston,Brechin,7,4,False
 SC1,1718,2018-04-21,Dumbarton,Falkirk,3,4,False
+SC1,1718,2018-04-21,Inverness C,Dunfermline,3,7,False
 SC1,1718,2018-04-24,Livingston,Inverness C,3,3,True
-SC1,1718,2018-04-28,Brechin,Queen of Sth,7,7,False
-SC1,1718,2018-04-28,Dundee United,Livingston,7,4,False
-SC1,1718,2018-04-28,Dunfermline,Dumbarton,7,7,False
 SC1,1718,2018-04-28,Falkirk,St Mirren,7,7,False
+SC1,1718,2018-04-28,Dunfermline,Dumbarton,7,7,False
+SC1,1718,2018-04-28,Dundee United,Livingston,7,4,False
+SC1,1718,2018-04-28,Brechin,Queen of Sth,7,7,False
 SC1,1718,2018-04-28,Morton,Inverness C,7,4,False

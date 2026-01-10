@@ -2,14 +2,14 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8756,Pescara,8777,Salernitana,1718,2,1,0.5,2.5
 8783,Parma,9339,Novara,1718,2,0,0.0,2.0
 8781,Ascoli,8783,Parma,1718,2,0,0.0,2.5
-8772,Frosinone,8775,Brescia,1718,2,0,0.0,2.5
 8773,Avellino,9339,Novara,1718,2,0,0.0,3.0
-8772,Frosinone,8780,Cremonese,1718,2,2,1.0,2.0
+8772,Frosinone,8775,Brescia,1718,2,0,0.0,2.5
 8768,Venezia,8773,Avellino,1718,2,1,0.5,3.0
+8772,Frosinone,8780,Cremonese,1718,2,2,1.0,2.0
 8773,Avellino,8783,Parma,1718,2,0,0.0,2.5
 8766,Spezia,8768,Venezia,1718,2,2,1.0,1.0
-8766,Spezia,8783,Parma,1718,2,1,0.5,1.0
 8775,Brescia,8782,Ternana,1718,2,1,0.5,3.0
+8766,Spezia,8783,Parma,1718,2,1,0.5,1.0
 8769,Bari,8782,Ternana,1718,2,0,0.0,3.0
 8768,Venezia,8798,Foggia,1718,2,1,0.5,3.5
 8757,Cesena,8777,Salernitana,1718,2,2,1.0,4.0
@@ -71,15 +71,15 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8798,Foggia,8799,Carpi,1718,2,0,0.0,3.5
 8757,Cesena,8775,Brescia,1718,2,1,0.5,0.5
 8781,Ascoli,9339,Novara,1718,2,0,0.0,3.0
-8799,Carpi,9339,Novara,1718,1,0,0.0,1.0
+8799,Carpi,9339,Novara,1718,2,0,0.0,1.0
 8788,Perugia,9339,Novara,1718,2,2,1.0,2.0
 8782,Ternana,8788,Perugia,1718,2,1,0.5,3.5
 8766,Spezia,8769,Bari,1718,2,1,0.5,1.5
 8756,Pescara,8766,Spezia,1718,2,0,0.0,4.5
 8773,Avellino,8775,Brescia,1718,2,0,0.0,4.0
-8764,Palermo,8769,Bari,1718,2,1,0.5,2.5
 8780,Cremonese,9339,Novara,1718,2,2,1.0,2.0
 8758,Empoli,8772,Frosinone,1718,2,1,0.5,6.0
+8764,Palermo,8769,Bari,1718,2,1,0.5,2.5
 8780,Cremonese,9340,Pro Vercelli,1718,2,0,0.0,5.0
 8758,Empoli,8769,Bari,1718,2,0,0.0,4.5
 8766,Spezia,8775,Brescia,1718,2,1,0.5,1.5
@@ -89,17 +89,17 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8760,Virtus Entella,8772,Frosinone,1718,2,0,0.0,4.0
 8783,Parma,9340,Pro Vercelli,1718,2,0,0.0,2.0
 8777,Salernitana,8778,Cittadella,1718,2,0,0.0,3.5
-8756,Pescara,9339,Novara,1718,2,1,0.5,1.5
 8760,Virtus Entella,8769,Bari,1718,2,0,0.0,2.5
+8756,Pescara,9339,Novara,1718,2,1,0.5,1.5
 8769,Bari,8777,Salernitana,1718,2,2,1.0,3.0
 8766,Spezia,8772,Frosinone,1718,2,2,1.0,2.0
 8777,Salernitana,8782,Ternana,1718,2,2,1.0,5.0
-8757,Cesena,8766,Spezia,1718,2,0,0.0,2.0
 8769,Bari,8772,Frosinone,1718,2,0,0.0,3.0
 8758,Empoli,8764,Palermo,1718,2,1,0.5,5.0
-8758,Empoli,8768,Venezia,1718,2,0,0.0,3.0
+8757,Cesena,8766,Spezia,1718,2,0,0.0,2.0
 8758,Empoli,8760,Virtus Entella,1718,2,0,0.0,4.0
 8777,Salernitana,9340,Pro Vercelli,1718,2,2,1.0,1.0
+8758,Empoli,8768,Venezia,1718,2,0,0.0,3.0
 8775,Brescia,8780,Cremonese,1718,2,1,0.5,2.0
 8760,Virtus Entella,8778,Cittadella,1718,2,0,0.0,1.0
 8757,Cesena,9340,Pro Vercelli,1718,2,1,0.5,5.5
@@ -138,8 +138,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8768,Venezia,8783,Parma,1718,2,1,0.5,1.5
 8777,Salernitana,8799,Carpi,1718,2,0,0.0,2.0
 8757,Cesena,8788,Perugia,1718,2,1,0.5,2.5
-8773,Avellino,8799,Carpi,1718,2,2,1.0,1.0
 8758,Empoli,9339,Novara,1718,2,2,1.0,2.0
+8773,Avellino,8799,Carpi,1718,2,2,1.0,1.0
 8764,Palermo,8772,Frosinone,1718,2,1,0.5,0.5
 8778,Cittadella,8781,Ascoli,1718,2,0,0.0,4.0
 8775,Brescia,8783,Parma,1718,2,0,0.0,2.0
@@ -182,10 +182,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8777,Salernitana,8783,Parma,1718,2,1,0.5,2.5
 8780,Cremonese,8783,Parma,1718,2,0,0.0,1.0
 8777,Salernitana,8788,Perugia,1718,2,2,1.0,2.0
-8781,Ascoli,8788,Perugia,1718,2,1,0.5,2.5
 8766,Spezia,8782,Ternana,1718,2,1,0.5,4.0
-8778,Cittadella,8799,Carpi,1718,2,1,0.5,1.5
+8781,Ascoli,8788,Perugia,1718,2,1,0.5,2.5
 8758,Empoli,8782,Ternana,1718,2,1,0.5,2.5
+8778,Cittadella,8799,Carpi,1718,2,1,0.5,1.5
 8782,Ternana,8798,Foggia,1718,2,2,1.0,3.0
 8782,Ternana,8799,Carpi,1718,2,1,0.5,1.5
 8777,Salernitana,8798,Foggia,1718,2,0,0.0,2.0
@@ -197,22 +197,22 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8760,Virtus Entella,9339,Novara,1718,2,0,0.0,2.0
 8764,Palermo,9340,Pro Vercelli,1718,2,1,0.5,1.5
 8781,Ascoli,8799,Carpi,1718,2,0,0.0,4.0
-8788,Perugia,8798,Foggia,1718,2,0,0.0,2.5
 8764,Palermo,8798,Foggia,1718,2,1,0.5,2.5
-8757,Cesena,8799,Carpi,1718,2,1,0.5,1.5
+8788,Perugia,8798,Foggia,1718,2,0,0.0,2.5
 8769,Bari,8773,Avellino,1718,2,0,0.0,3.0
 8757,Cesena,8773,Avellino,1718,2,1,0.5,3.0
+8757,Cesena,8799,Carpi,1718,2,1,0.5,1.5
 8773,Avellino,8777,Salernitana,1718,2,0,0.0,3.5
 8775,Brescia,8798,Foggia,1718,2,1,0.5,3.5
-8758,Empoli,8777,Salernitana,1718,2,0,0.0,2.5
 8758,Empoli,8798,Foggia,1718,2,0,0.0,3.5
+8758,Empoli,8777,Salernitana,1718,2,0,0.0,2.5
 8773,Avellino,8798,Foggia,1718,2,0,0.0,4.5
 8775,Brescia,8781,Ascoli,1718,2,1,0.5,0.5
 8758,Empoli,8766,Spezia,1718,2,2,1.0,2.0
 8756,Pescara,8783,Parma,1718,2,0,0.0,3.0
 8766,Spezia,9339,Novara,1718,2,1,0.5,1.5
-8760,Virtus Entella,8775,Brescia,1718,2,1,0.5,1.5
 8756,Pescara,8778,Cittadella,1718,2,0,0.0,2.5
+8760,Virtus Entella,8775,Brescia,1718,2,1,0.5,1.5
 8757,Cesena,8782,Ternana,1718,2,0,0.0,4.0
 8772,Frosinone,8777,Salernitana,1718,2,2,1.0,1.0
 8778,Cittadella,8798,Foggia,1718,2,0,0.0,4.0

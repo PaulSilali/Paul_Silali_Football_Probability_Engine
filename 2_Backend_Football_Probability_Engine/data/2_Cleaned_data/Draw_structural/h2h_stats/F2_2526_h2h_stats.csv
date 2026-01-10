@@ -3,6 +3,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9379,Montpellier,9389,Boulogne,2526,1,0,0.0,4.0
 9377,Laval,9381,Pau FC,2526,1,0,0.0,1.0
 9375,Dunkerque,9382,Annecy,2526,2,1,0.5,4.0
+9379,Montpellier,9380,Red Star,2526,1,1,1.0,2.0
 9380,Red Star,9384,Troyes,2526,2,0,0.0,2.5
 9378,St Etienne,9383,Rodez,2526,1,0,0.0,4.0
 9382,Annecy,9385,Grenoble,2526,2,0,0.0,2.5
@@ -16,6 +17,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9373,Guingamp,9377,Laval,2526,1,0,0.0,2.0
 9385,Grenoble,9387,Reims,2526,1,0,0.0,6.0
 9374,Le Mans,9385,Grenoble,2526,1,0,0.0,1.0
+9373,Guingamp,9374,Le Mans,2526,1,1,1.0,6.0
 9378,St Etienne,9379,Montpellier,2526,1,0,0.0,2.0
 9376,Clermont,9389,Boulogne,2526,1,1,1.0,2.0
 9386,Amiens,9388,Bastia,2526,1,1,1.0,
@@ -34,6 +36,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9379,Montpellier,9385,Grenoble,2526,1,1,1.0,2.0
 9380,Red Star,9381,Pau FC,2526,1,0,0.0,3.0
 9379,Montpellier,9381,Pau FC,2526,1,0,0.0,1.0
+9375,Dunkerque,9376,Clermont,2526,1,1,1.0,4.0
 9385,Grenoble,9389,Boulogne,2526,1,0,0.0,4.0
 9385,Grenoble,9388,Bastia,2526,2,1,0.5,0.5
 9377,Laval,9388,Bastia,2526,1,0,0.0,2.0
@@ -71,6 +74,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9373,Guingamp,9380,Red Star,2526,1,0,0.0,4.0
 9383,Rodez,9384,Troyes,2526,1,1,1.0,2.0
 9376,Clermont,9378,St Etienne,2526,1,0,0.0,3.0
+9386,Amiens,9387,Reims,2526,1,1,1.0,4.0
 9379,Montpellier,9388,Bastia,2526,1,0,0.0,2.0
 9383,Rodez,9389,Boulogne,2526,1,0,0.0,1.0
 9386,Amiens,9389,Boulogne,2526,1,0,0.0,1.0
@@ -81,6 +85,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9374,Le Mans,9388,Bastia,2526,1,0,0.0,1.0
 9380,Red Star,9385,Grenoble,2526,1,0,0.0,1.0
 9374,Le Mans,9383,Rodez,2526,1,0,0.0,1.0
+9384,Troyes,9385,Grenoble,2526,1,0,0.0,3.0
 9376,Clermont,9380,Red Star,2526,1,1,1.0,4.0
 9384,Troyes,9389,Boulogne,2526,1,0,0.0,3.0
 9378,St Etienne,9388,Bastia,2526,1,1,1.0,4.0
@@ -104,6 +109,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9375,Dunkerque,9377,Laval,2526,1,0,0.0,3.0
 9379,Montpellier,9387,Reims,2526,1,0,0.0,2.0
 9378,St Etienne,9384,Troyes,2526,1,0,0.0,5.0
+9377,Laval,9378,St Etienne,2526,1,1,1.0,6.0
 9374,Le Mans,9381,Pau FC,2526,1,0,0.0,3.0
 9382,Annecy,9384,Troyes,2526,2,0,0.0,3.5
 9387,Reims,9389,Boulogne,2526,1,0,0.0,8.0
@@ -112,9 +118,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9375,Dunkerque,9379,Montpellier,2526,2,0,0.0,2.5
 9377,Laval,9389,Boulogne,2526,1,0,0.0,3.0
 9376,Clermont,9388,Bastia,2526,1,0,0.0,1.0
-9382,Annecy,9389,Boulogne,2526,1,1,1.0,2.0
+9382,Annecy,9389,Boulogne,2526,2,1,0.5,1.5
 9374,Le Mans,9379,Montpellier,2526,1,0,0.0,3.0
-9381,Pau FC,9382,Annecy,2526,1,1,1.0,4.0
+9381,Pau FC,9382,Annecy,2526,2,1,0.5,3.0
 9378,St Etienne,9385,Grenoble,2526,1,1,1.0,2.0
 9373,Guingamp,9387,Reims,2526,1,0,0.0,1.0
 9379,Montpellier,9383,Rodez,2526,1,0,0.0,2.0

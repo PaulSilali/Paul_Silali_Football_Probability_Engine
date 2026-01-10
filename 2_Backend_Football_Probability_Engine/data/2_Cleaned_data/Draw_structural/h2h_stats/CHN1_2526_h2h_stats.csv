@@ -10,16 +10,20 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9592,Wuhan Three Towns,9602,Henan FC,2526,1,0,0.0,3.0
 9596,Beijing Guoan,9599,Zhejiang Professional,2526,1,0,0.0,2.0
 9597,Qingdao Hainiu,9601,Shandong Taishan,2526,1,1,1.0,2.0
+9593,Shanghai Shenhua,9594,Changchun Yatai,2526,1,0,0.0,3.0
 9603,Tianjin Jinmen Tiger,9605,Shanghai Port FC,2526,1,0,0.0,5.0
 9592,Wuhan Three Towns,9599,Zhejiang Professional,2526,1,0,0.0,4.0
 9591,Chengdu Rongcheng,9595,Yunnan Yukun,2526,1,1,1.0,2.0
+9601,Shandong Taishan,9602,Henan FC,2526,1,1,1.0,
 9598,Qingdao West Coast,9604,Meizhou Hakka,2526,1,0,0.0,4.0
 9593,Shanghai Shenhua,9596,Beijing Guoan,2526,1,1,1.0,4.0
 9594,Changchun Yatai,9595,Yunnan Yukun,2526,1,1,1.0,
 9592,Wuhan Three Towns,9595,Yunnan Yukun,2526,1,0,0.0,4.0
+9595,Yunnan Yukun,9596,Beijing Guoan,2526,1,0,0.0,2.0
 9595,Yunnan Yukun,9605,Shanghai Port FC,2526,1,0,0.0,5.0
 9596,Beijing Guoan,9602,Henan FC,2526,1,0,0.0,1.0
 9603,Tianjin Jinmen Tiger,9606,Shenzhen Peng City,2526,1,0,0.0,1.0
+9603,Tianjin Jinmen Tiger,9604,Meizhou Hakka,2526,1,1,1.0,4.0
 9598,Qingdao West Coast,9600,Dalian Yingbo,2526,1,0,0.0,2.0
 9593,Shanghai Shenhua,9602,Henan FC,2526,1,0,0.0,4.0
 9594,Changchun Yatai,9600,Dalian Yingbo,2526,1,0,0.0,2.0
@@ -37,14 +41,18 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9602,Henan FC,9606,Shenzhen Peng City,2526,1,0,0.0,4.0
 9597,Qingdao Hainiu,9604,Meizhou Hakka,2526,1,1,1.0,2.0
 9592,Wuhan Three Towns,9596,Beijing Guoan,2526,1,1,1.0,8.0
+9597,Qingdao Hainiu,9598,Qingdao West Coast,2526,1,1,1.0,4.0
+9599,Zhejiang Professional,9600,Dalian Yingbo,2526,1,1,1.0,2.0
 9593,Shanghai Shenhua,9601,Shandong Taishan,2526,1,0,0.0,1.0
 9592,Wuhan Three Towns,9603,Tianjin Jinmen Tiger,2526,1,0,0.0,3.0
 9594,Changchun Yatai,9605,Shanghai Port FC,2526,1,0,0.0,2.0
+9591,Chengdu Rongcheng,9592,Wuhan Three Towns,2526,1,0,0.0,1.0
 9598,Qingdao West Coast,9602,Henan FC,2526,1,0,0.0,5.0
 9602,Henan FC,9604,Meizhou Hakka,2526,1,0,0.0,3.0
 9592,Wuhan Three Towns,9598,Qingdao West Coast,2526,1,0,0.0,2.0
 9591,Chengdu Rongcheng,9596,Beijing Guoan,2526,1,1,1.0,2.0
 9594,Changchun Yatai,9604,Meizhou Hakka,2526,1,0,0.0,4.0
+9605,Shanghai Port FC,9606,Shenzhen Peng City,2526,1,0,0.0,4.0
 9598,Qingdao West Coast,9605,Shanghai Port FC,2526,1,1,1.0,6.0
 9591,Chengdu Rongcheng,9594,Changchun Yatai,2526,1,0,0.0,3.0
 9595,Yunnan Yukun,9597,Qingdao Hainiu,2526,1,0,0.0,1.0

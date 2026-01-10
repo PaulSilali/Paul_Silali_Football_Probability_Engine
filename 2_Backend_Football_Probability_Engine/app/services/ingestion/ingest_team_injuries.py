@@ -226,7 +226,6 @@ def batch_ingest_team_injuries_for_fixtures(
         elif use_all_leagues or league_codes:
             query = db.query(JackpotFixture)
             if league_codes:
-                from app.db.models import League
                 leagues = db.query(League).filter(League.code.in_(league_codes)).all()
                 league_ids = [l.id for l in leagues]
                 # JackpotFixture has league_id column directly, no need to join

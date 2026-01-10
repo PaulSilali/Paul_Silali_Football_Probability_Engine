@@ -69,8 +69,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8988,Bayern Munich,8990,Ein Frankfurt,1718,2,0,0.0,3.0
 8993,Augsburg,9008,Hertha,1718,2,2,1.0,3.0
 8995,Wolfsburg,9003,M'gladbach,1718,2,0,0.0,3.0
-9000,Dortmund,9004,Hamburg,1718,2,0,0.0,2.5
 8989,RB Leipzig,9003,M'gladbach,1718,2,1,0.5,2.5
+9000,Dortmund,9004,Hamburg,1718,2,0,0.0,2.5
 8998,Stuttgart,9001,Mainz,1718,2,0,0.0,3.0
 8994,Heidenheim,9004,Hamburg,1718,2,0,0.0,2.5
 8995,Wolfsburg,9015,Hannover,1718,2,1,0.5,1.5
@@ -93,8 +93,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8993,Augsburg,8998,Stuttgart,1718,2,1,0.5,0.5
 8992,Freiburg,9009,Schalke 04,1718,2,0,0.0,1.5
 8990,Ein Frankfurt,9002,FC Koln,1718,2,0,0.0,3.5
-8988,Bayern Munich,8998,Stuttgart,1718,2,0,0.0,3.0
 8995,Wolfsburg,9009,Schalke 04,1718,2,1,0.5,1.5
+8988,Bayern Munich,8998,Stuttgart,1718,2,0,0.0,3.0
 8993,Augsburg,9002,FC Koln,1718,2,1,0.5,2.5
 8990,Ein Frankfurt,9003,M'gladbach,1718,2,0,0.0,1.5
 8992,Freiburg,9008,Hertha,1718,2,2,1.0,1.0
@@ -109,8 +109,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8993,Augsburg,9009,Schalke 04,1718,2,0,0.0,4.0
 8988,Bayern Munich,8993,Augsburg,1718,2,0,0.0,4.0
 9003,M'gladbach,9009,Schalke 04,1718,2,2,1.0,2.0
-8991,Werder Bremen,9008,Hertha,1718,2,2,1.0,1.0
 8994,Heidenheim,8996,Leverkusen,1718,2,1,0.5,4.5
+8991,Werder Bremen,9008,Hertha,1718,2,2,1.0,1.0
 8994,Heidenheim,9008,Hertha,1718,2,2,1.0,2.0
 8991,Werder Bremen,8994,Heidenheim,1718,2,1,0.5,1.5
 8995,Wolfsburg,9002,FC Koln,1718,2,0,0.0,3.0
@@ -127,8 +127,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8996,Leverkusen,9015,Hannover,1718,2,1,0.5,6.5
 8994,Heidenheim,9001,Mainz,1718,2,0,0.0,5.5
 8998,Stuttgart,9015,Hannover,1718,2,2,1.0,2.0
-8990,Ein Frankfurt,8994,Heidenheim,1718,2,2,1.0,2.0
 8998,Stuttgart,9004,Hamburg,1718,2,1,0.5,3.0
+8990,Ein Frankfurt,8994,Heidenheim,1718,2,2,1.0,2.0
 8992,Freiburg,8998,Stuttgart,1718,2,0,0.0,3.0
 8992,Freiburg,8993,Augsburg,1718,2,1,0.5,4.0
 8998,Stuttgart,9000,Dortmund,1718,2,0,0.0,3.0
@@ -144,8 +144,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8989,RB Leipzig,9008,Hertha,1718,2,0,0.0,6.5
 8994,Heidenheim,9009,Schalke 04,1718,2,0,0.0,2.5
 8989,RB Leipzig,8991,Werder Bremen,1718,2,1,0.5,2.0
-9000,Dortmund,9001,Mainz,1718,2,0,0.0,2.5
 8998,Stuttgart,9002,FC Koln,1718,2,0,0.0,4.0
+9000,Dortmund,9001,Mainz,1718,2,0,0.0,2.5
 8991,Werder Bremen,8993,Augsburg,1718,2,0,0.0,3.5
 8991,Werder Bremen,8998,Stuttgart,1718,2,0,0.0,1.5
 8992,Freiburg,9004,Hamburg,1718,2,1,0.5,0.5

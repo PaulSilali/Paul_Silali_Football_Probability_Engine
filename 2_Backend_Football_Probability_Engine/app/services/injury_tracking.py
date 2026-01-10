@@ -81,9 +81,13 @@ def record_team_injuries(
         else:
             # Create new record
             # Calculate injury_severity if not provided but key_players_missing is
-            if injury_severity is None and key_players_missing is not None:
-                # Estimate severity: assume 5 key players = 1.0 severity
-                injury_severity = min(1.0, key_players_missing / 5.0)
+            if injury_severity is None:
+                if key_players_missing is not None and key_players_missing > 0:
+                    # Estimate severity: assume 5 key players = 1.0 severity
+                    injury_severity = min(1.0, key_players_missing / 5.0)
+                else:
+                    # No injuries = 0.0 severity
+                    injury_severity = 0.0
             
             injury_record = TeamInjuries(
                 team_id=team_id,
@@ -99,7 +103,7 @@ def record_team_injuries(
             
             db.add(injury_record)
             db.commit()
-            logger.info(f"Created injury record for team {team_id} in fixture {fixture_id}")
+            logger.info(f"Created injury record for team {team_id} in fixture {fixture_id}: {key_players_missing or 0} key players, severity={injury_severity}")
             
             return {
                 "success": True,

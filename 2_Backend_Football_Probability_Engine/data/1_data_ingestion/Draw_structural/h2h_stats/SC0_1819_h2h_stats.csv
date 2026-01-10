@@ -12,8 +12,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8831,Celtic,8833,Hearts,1819,4,0,0.0,3.0
 8833,Hearts,8836,St Johnstone,1819,3,1,0.3333333333333333,3.0
 8826,Motherwell,8834,Aberdeen,1819,3,0,0.0,2.6666666666666665
-8829,Dundee United,8836,St Johnstone,1819,4,0,0.0,1.75
 8824,Kilmarnock,8832,St Mirren,1819,3,0,0.0,2.3333333333333335
+8829,Dundee United,8836,St Johnstone,1819,4,0,0.0,1.75
 8829,Dundee United,8834,Aberdeen,1819,3,0,0.0,3.0
 8827,Rangers,8831,Celtic,1819,4,0,0.0,1.75
 8832,St Mirren,8834,Aberdeen,1819,3,1,0.3333333333333333,4.0
@@ -48,8 +48,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8827,Rangers,8829,Dundee United,1819,3,1,0.3333333333333333,3.3333333333333335
 8826,Motherwell,8831,Celtic,1819,3,1,0.3333333333333333,3.3333333333333335
 8831,Celtic,8837,Hamilton,1819,3,0,0.0,2.3333333333333335
-8829,Dundee United,8831,Celtic,1819,3,0,0.0,3.0
 8826,Motherwell,8827,Rangers,1819,3,1,0.3333333333333333,5.666666666666667
+8829,Dundee United,8831,Celtic,1819,3,0,0.0,3.0
 8829,Dundee United,8832,St Mirren,1819,4,1,0.25,3.25
 8829,Dundee United,8830,Hibernian,1819,3,1,0.3333333333333333,4.333333333333333
 8831,Celtic,8836,St Johnstone,1819,3,0,0.0,3.3333333333333335

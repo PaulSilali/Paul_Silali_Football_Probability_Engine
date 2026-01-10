@@ -1,292 +1,292 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-N1,2021,2020-09-12,Heerenveen,Willem II,189,188,False
 N1,2021,2020-09-12,Zwolle,Feyenoord,190,188,False
 N1,2021,2020-09-12,Twente,For Sittard,189,190,False
+N1,2021,2020-09-12,Heerenveen,Willem II,189,188,False
+N1,2021,2020-09-13,FC Emmen,VVV Venlo,190,190,False
+N1,2021,2020-09-13,Heracles,Den Haag,189,190,False
 N1,2021,2020-09-13,Sparta Rotterdam,Ajax,189,190,False
 N1,2021,2020-09-13,Groningen,PSV Eindhoven,189,189,False
 N1,2021,2020-09-13,Waalwijk,Vitesse,189,190,False
-N1,2021,2020-09-18,VVV Venlo,Utrecht,195,194,False
-N1,2021,2020-09-19,AZ Alkmaar,Zwolle,196,7,False
-N1,2021,2020-09-19,Vitesse,Sparta Rotterdam,6,6,False
-N1,2021,2020-09-19,PSV Eindhoven,FC Emmen,6,196,False
+N1,2021,2020-09-18,VVV Venlo,Utrecht,5,194,False
+N1,2021,2020-09-19,PSV Eindhoven,FC Emmen,6,6,False
 N1,2021,2020-09-19,For Sittard,Heerenveen,7,7,False
-N1,2021,2020-09-20,Den Haag,Groningen,197,7,False
-N1,2021,2020-09-20,Feyenoord,Twente,8,8,False
-N1,2021,2020-09-20,Willem II,Heracles,8,196,False
+N1,2021,2020-09-19,Vitesse,Sparta Rotterdam,6,6,False
+N1,2021,2020-09-19,AZ Alkmaar,Zwolle,196,7,False
+N1,2021,2020-09-20,Willem II,Heracles,8,7,False
 N1,2021,2020-09-20,Ajax,Waalwijk,7,7,False
+N1,2021,2020-09-20,Den Haag,Groningen,7,7,False
+N1,2021,2020-09-20,Feyenoord,Twente,8,8,False
 N1,2021,2020-09-25,Twente,Groningen,5,5,False
-N1,2021,2020-09-26,Zwolle,Sparta Rotterdam,7,7,False
-N1,2021,2020-09-26,For Sittard,AZ Alkmaar,7,7,False
 N1,2021,2020-09-26,Heerenveen,VVV Venlo,7,8,False
 N1,2021,2020-09-26,Ajax,Vitesse,6,7,False
-N1,2021,2020-09-27,Feyenoord,Den Haag,7,7,False
-N1,2021,2020-09-27,Utrecht,Waalwijk,9,7,False
+N1,2021,2020-09-26,For Sittard,AZ Alkmaar,7,7,False
+N1,2021,2020-09-26,Zwolle,Sparta Rotterdam,7,7,False
 N1,2021,2020-09-27,FC Emmen,Willem II,8,7,False
 N1,2021,2020-09-27,Heracles,PSV Eindhoven,7,8,False
+N1,2021,2020-09-27,Feyenoord,Den Haag,7,7,False
+N1,2021,2020-09-27,Utrecht,Waalwijk,9,7,False
 N1,2021,2020-10-02,Utrecht,Heerenveen,5,6,False
-N1,2021,2020-10-03,Vitesse,Heracles,7,6,False
-N1,2021,2020-10-03,VVV Venlo,Den Haag,7,6,False
 N1,2021,2020-10-03,Twente,FC Emmen,8,6,False
+N1,2021,2020-10-03,VVV Venlo,Den Haag,7,6,False
+N1,2021,2020-10-03,Vitesse,Heracles,7,6,False
+N1,2021,2020-10-04,PSV Eindhoven,For Sittard,7,8,False
 N1,2021,2020-10-04,Groningen,Ajax,9,8,False
 N1,2021,2020-10-04,Sparta Rotterdam,AZ Alkmaar,8,8,False
 N1,2021,2020-10-04,Willem II,Feyenoord,7,7,False
-N1,2021,2020-10-04,PSV Eindhoven,For Sittard,7,8,False
-N1,2021,2020-10-17,Heracles,Waalwijk,14,20,False
 N1,2021,2020-10-17,AZ Alkmaar,VVV Venlo,13,14,False
+N1,2021,2020-10-17,Heracles,Waalwijk,14,20,False
 N1,2021,2020-10-17,Willem II,Twente,13,14,False
+N1,2021,2020-10-18,Den Haag,Vitesse,15,15,False
 N1,2021,2020-10-18,Feyenoord,Sparta Rotterdam,14,14,False
 N1,2021,2020-10-18,Ajax,Heerenveen,14,16,False
-N1,2021,2020-10-18,Den Haag,Vitesse,15,15,False
 N1,2021,2020-10-18,Groningen,Utrecht,14,16,False
 N1,2021,2020-10-18,Zwolle,PSV Eindhoven,22,14,False
 N1,2021,2020-10-18,FC Emmen,For Sittard,15,14,False
 N1,2021,2020-10-21,Waalwijk,Zwolle,4,3,True
-N1,2021,2020-10-24,VVV Venlo,Ajax,7,6,False
-N1,2021,2020-10-24,Utrecht,Twente,6,7,False
 N1,2021,2020-10-24,Zwolle,Willem II,3,7,False
 N1,2021,2020-10-24,Heerenveen,FC Emmen,6,6,False
-N1,2021,2020-10-25,For Sittard,Groningen,7,7,False
-N1,2021,2020-10-25,Sparta Rotterdam,Heracles,7,8,False
+N1,2021,2020-10-24,Utrecht,Twente,6,7,False
+N1,2021,2020-10-24,VVV Venlo,Ajax,7,6,False
 N1,2021,2020-10-25,Vitesse,PSV Eindhoven,7,7,False
 N1,2021,2020-10-25,Waalwijk,Feyenoord,4,7,False
 N1,2021,2020-10-25,Den Haag,AZ Alkmaar,7,8,False
-N1,2021,2020-10-31,Twente,Zwolle,7,7,False
-N1,2021,2020-10-31,Ajax,For Sittard,7,6,False
+N1,2021,2020-10-25,For Sittard,Groningen,7,7,False
+N1,2021,2020-10-25,Sparta Rotterdam,Heracles,7,8,False
 N1,2021,2020-10-31,Groningen,VVV Venlo,6,7,False
 N1,2021,2020-10-31,Willem II,Vitesse,7,6,False
-N1,2021,2020-11-01,Heracles,Utrecht,7,8,False
-N1,2021,2020-11-01,FC Emmen,Feyenoord,8,7,False
+N1,2021,2020-10-31,Twente,Zwolle,7,7,False
+N1,2021,2020-10-31,Ajax,For Sittard,7,6,False
 N1,2021,2020-11-01,Sparta Rotterdam,Heerenveen,7,8,False
 N1,2021,2020-11-01,PSV Eindhoven,Den Haag,7,7,False
 N1,2021,2020-11-01,AZ Alkmaar,Waalwijk,7,7,False
+N1,2021,2020-11-01,Heracles,Utrecht,7,8,False
+N1,2021,2020-11-01,FC Emmen,Feyenoord,8,7,False
 N1,2021,2020-11-06,For Sittard,Zwolle,6,6,False
-N1,2021,2020-11-07,Den Haag,Twente,6,7,False
-N1,2021,2020-11-07,VVV Venlo,Heracles,7,6,False
 N1,2021,2020-11-07,Waalwijk,Sparta Rotterdam,6,6,False
-N1,2021,2020-11-08,Utrecht,Ajax,7,8,False
-N1,2021,2020-11-08,Feyenoord,Groningen,7,8,False
+N1,2021,2020-11-07,VVV Venlo,Heracles,7,6,False
+N1,2021,2020-11-07,Den Haag,Twente,6,7,False
 N1,2021,2020-11-08,Vitesse,FC Emmen,8,7,False
 N1,2021,2020-11-08,Heerenveen,AZ Alkmaar,7,7,False
 N1,2021,2020-11-08,PSV Eindhoven,Willem II,7,8,False
+N1,2021,2020-11-08,Utrecht,Ajax,7,8,False
+N1,2021,2020-11-08,Feyenoord,Groningen,7,8,False
+N1,2021,2020-11-21,Zwolle,Utrecht,15,13,False
 N1,2021,2020-11-21,Willem II,VVV Venlo,13,14,False
 N1,2021,2020-11-21,Groningen,Vitesse,13,13,False
-N1,2021,2020-11-21,Zwolle,Utrecht,15,13,False
+N1,2021,2020-11-22,AZ Alkmaar,FC Emmen,14,14,False
 N1,2021,2020-11-22,Ajax,Heracles,14,15,False
 N1,2021,2020-11-22,For Sittard,Feyenoord,16,14,False
 N1,2021,2020-11-22,Sparta Rotterdam,Den Haag,15,15,False
 N1,2021,2020-11-22,Twente,PSV Eindhoven,15,14,False
 N1,2021,2020-11-22,Waalwijk,Heerenveen,15,14,False
-N1,2021,2020-11-22,AZ Alkmaar,FC Emmen,14,14,False
 N1,2021,2020-11-27,Twente,Waalwijk,5,5,False
-N1,2021,2020-11-28,FC Emmen,Ajax,6,6,False
 N1,2021,2020-11-28,Den Haag,Heerenveen,6,6,False
+N1,2021,2020-11-28,FC Emmen,Ajax,6,6,False
 N1,2021,2020-11-28,VVV Venlo,Zwolle,7,7,False
-N1,2021,2020-11-29,Vitesse,For Sittard,8,7,False
 N1,2021,2020-11-29,Feyenoord,Utrecht,7,8,False
 N1,2021,2020-11-29,Groningen,Willem II,8,8,False
 N1,2021,2020-11-29,Heracles,AZ Alkmaar,7,7,False
 N1,2021,2020-11-29,PSV Eindhoven,Sparta Rotterdam,7,7,False
+N1,2021,2020-11-29,Vitesse,For Sittard,8,7,False
 N1,2021,2020-12-04,Sparta Rotterdam,FC Emmen,5,6,False
-N1,2021,2020-12-05,Waalwijk,VVV Venlo,8,7,False
-N1,2021,2020-12-05,For Sittard,Willem II,6,6,False
 N1,2021,2020-12-05,Ajax,Twente,7,8,False
 N1,2021,2020-12-05,Zwolle,Vitesse,7,6,False
-N1,2021,2020-12-06,Feyenoord,Heracles,7,7,False
-N1,2021,2020-12-06,AZ Alkmaar,Groningen,7,7,False
+N1,2021,2020-12-05,For Sittard,Willem II,6,6,False
+N1,2021,2020-12-05,Waalwijk,VVV Venlo,8,7,False
 N1,2021,2020-12-06,Utrecht,Den Haag,7,8,False
 N1,2021,2020-12-06,Heerenveen,PSV Eindhoven,8,7,False
+N1,2021,2020-12-06,Feyenoord,Heracles,7,7,False
+N1,2021,2020-12-06,AZ Alkmaar,Groningen,7,7,False
 N1,2021,2020-12-11,Heracles,For Sittard,5,6,False
-N1,2021,2020-12-12,Groningen,Waalwijk,6,7,False
-N1,2021,2020-12-12,FC Emmen,Den Haag,8,6,False
 N1,2021,2020-12-12,Ajax,Zwolle,7,7,False
-N1,2021,2020-12-13,Vitesse,Heerenveen,8,7,False
-N1,2021,2020-12-13,VVV Venlo,Feyenoord,8,7,False
+N1,2021,2020-12-12,FC Emmen,Den Haag,8,6,False
+N1,2021,2020-12-12,Groningen,Waalwijk,6,7,False
 N1,2021,2020-12-13,Willem II,Sparta Rotterdam,8,9,False
 N1,2021,2020-12-13,PSV Eindhoven,Utrecht,7,7,False
 N1,2021,2020-12-13,Twente,AZ Alkmaar,8,7,False
+N1,2021,2020-12-13,Vitesse,Heerenveen,8,7,False
+N1,2021,2020-12-13,VVV Venlo,Feyenoord,8,7,False
 N1,2021,2020-12-18,Zwolle,FC Emmen,6,6,False
-N1,2021,2020-12-19,Sparta Rotterdam,Groningen,6,7,False
-N1,2021,2020-12-19,VVV Venlo,Twente,6,6,False
 N1,2021,2020-12-19,Waalwijk,PSV Eindhoven,7,6,False
 N1,2021,2020-12-19,Utrecht,For Sittard,6,8,False
-N1,2021,2020-12-20,Vitesse,Feyenoord,7,7,False
-N1,2021,2020-12-20,Den Haag,Ajax,8,8,False
+N1,2021,2020-12-19,VVV Venlo,Twente,6,6,False
+N1,2021,2020-12-19,Sparta Rotterdam,Groningen,6,7,False
 N1,2021,2020-12-20,Heerenveen,Heracles,7,9,False
 N1,2021,2020-12-20,AZ Alkmaar,Willem II,7,7,False
+N1,2021,2020-12-20,Vitesse,Feyenoord,7,7,False
+N1,2021,2020-12-20,Den Haag,Ajax,8,8,False
+N1,2021,2020-12-22,Twente,Sparta Rotterdam,3,3,True
 N1,2021,2020-12-22,For Sittard,Waalwijk,3,3,True
 N1,2021,2020-12-22,FC Emmen,Utrecht,4,3,True
 N1,2021,2020-12-22,PSV Eindhoven,VVV Venlo,3,3,True
-N1,2021,2020-12-22,Twente,Sparta Rotterdam,3,3,True
-N1,2021,2020-12-23,AZ Alkmaar,Vitesse,3,3,True
-N1,2021,2020-12-23,Willem II,Ajax,3,3,True
 N1,2021,2020-12-23,Den Haag,Zwolle,3,5,True
 N1,2021,2020-12-23,Groningen,Heracles,4,3,True
 N1,2021,2020-12-23,Feyenoord,Heerenveen,3,3,True
+N1,2021,2020-12-23,Willem II,Ajax,3,3,True
+N1,2021,2020-12-23,AZ Alkmaar,Vitesse,3,3,True
 N1,2021,2020-12-27,Utrecht,AZ Alkmaar,5,4,False
-N1,2021,2021-01-09,Waalwijk,Den Haag,18,17,False
-N1,2021,2021-01-09,FC Emmen,Twente,18,18,False
 N1,2021,2021-01-09,Heracles,Vitesse,17,17,False
 N1,2021,2021-01-09,Zwolle,AZ Alkmaar,17,13,False
 N1,2021,2021-01-09,Utrecht,Groningen,13,17,False
-N1,2021,2021-01-10,Sparta Rotterdam,Feyenoord,19,18,False
-N1,2021,2021-01-10,Heerenveen,For Sittard,18,19,False
+N1,2021,2021-01-09,FC Emmen,Twente,18,18,False
+N1,2021,2021-01-09,Waalwijk,Den Haag,18,17,False
 N1,2021,2021-01-10,VVV Venlo,Willem II,19,18,False
 N1,2021,2021-01-10,Ajax,PSV Eindhoven,18,19,False
-N1,2021,2021-01-12,Vitesse,Utrecht,3,3,True
+N1,2021,2021-01-10,Sparta Rotterdam,Feyenoord,19,18,False
+N1,2021,2021-01-10,Heerenveen,For Sittard,18,19,False
 N1,2021,2021-01-12,Heracles,FC Emmen,3,3,True
-N1,2021,2021-01-13,PSV Eindhoven,AZ Alkmaar,3,4,True
-N1,2021,2021-01-13,Den Haag,VVV Venlo,4,3,True
+N1,2021,2021-01-12,Vitesse,Utrecht,3,3,True
 N1,2021,2021-01-13,For Sittard,Sparta Rotterdam,3,3,True
 N1,2021,2021-01-13,Feyenoord,Zwolle,3,4,True
-N1,2021,2021-01-14,Heerenveen,Waalwijk,4,5,True
-N1,2021,2021-01-14,Twente,Ajax,5,4,True
+N1,2021,2021-01-13,PSV Eindhoven,AZ Alkmaar,3,4,True
+N1,2021,2021-01-13,Den Haag,VVV Venlo,4,3,True
 N1,2021,2021-01-14,Willem II,Groningen,4,5,True
-N1,2021,2021-01-16,FC Emmen,Vitesse,4,4,False
-N1,2021,2021-01-16,Sparta Rotterdam,PSV Eindhoven,3,3,False
+N1,2021,2021-01-14,Twente,Ajax,5,4,True
+N1,2021,2021-01-14,Heerenveen,Waalwijk,4,5,True
 N1,2021,2021-01-16,Utrecht,Heracles,4,4,False
 N1,2021,2021-01-16,Zwolle,For Sittard,3,3,False
 N1,2021,2021-01-16,AZ Alkmaar,Den Haag,3,3,False
-N1,2021,2021-01-17,Waalwijk,Willem II,3,3,False
-N1,2021,2021-01-17,Groningen,Twente,3,3,False
+N1,2021,2021-01-16,FC Emmen,Vitesse,4,4,False
+N1,2021,2021-01-16,Sparta Rotterdam,PSV Eindhoven,3,3,False
 N1,2021,2021-01-17,VVV Venlo,Heerenveen,4,3,False
 N1,2021,2021-01-17,Ajax,Feyenoord,3,4,False
+N1,2021,2021-01-17,Waalwijk,Willem II,3,3,False
+N1,2021,2021-01-17,Groningen,Twente,3,3,False
 N1,2021,2021-01-22,Willem II,Zwolle,5,6,False
-N1,2021,2021-01-23,Den Haag,FC Emmen,7,7,False
 N1,2021,2021-01-23,Vitesse,Groningen,7,6,False
+N1,2021,2021-01-23,Den Haag,FC Emmen,7,7,False
 N1,2021,2021-01-23,PSV Eindhoven,Waalwijk,7,6,False
 N1,2021,2021-01-23,Heracles,Heerenveen,7,6,False
-N1,2021,2021-01-24,For Sittard,Ajax,8,7,False
 N1,2021,2021-01-24,Twente,VVV Venlo,7,7,False
-N1,2021,2021-01-24,Utrecht,Sparta Rotterdam,8,8,False
 N1,2021,2021-01-24,Feyenoord,AZ Alkmaar,7,8,False
-N1,2021,2021-01-26,Zwolle,Heracles,4,3,True
+N1,2021,2021-01-24,Utrecht,Sparta Rotterdam,8,8,False
+N1,2021,2021-01-24,For Sittard,Ajax,8,7,False
 N1,2021,2021-01-26,FC Emmen,PSV Eindhoven,3,3,True
 N1,2021,2021-01-26,Groningen,Den Haag,3,3,True
-N1,2021,2021-01-27,AZ Alkmaar,Utrecht,3,3,True
+N1,2021,2021-01-26,Zwolle,Heracles,4,3,True
 N1,2021,2021-01-27,VVV Venlo,Vitesse,3,4,True
 N1,2021,2021-01-27,Waalwijk,For Sittard,4,3,True
 N1,2021,2021-01-27,Heerenveen,Feyenoord,4,3,True
-N1,2021,2021-01-28,Ajax,Willem II,4,6,True
+N1,2021,2021-01-27,AZ Alkmaar,Utrecht,3,3,True
 N1,2021,2021-01-28,Sparta Rotterdam,Twente,4,4,True
-N1,2021,2021-01-30,Heracles,Groningen,4,4,False
-N1,2021,2021-01-30,Utrecht,Zwolle,3,4,False
+N1,2021,2021-01-28,Ajax,Willem II,4,6,True
 N1,2021,2021-01-30,For Sittard,VVV Venlo,3,3,False
 N1,2021,2021-01-30,Vitesse,Waalwijk,3,3,False
-N1,2021,2021-01-31,Twente,Heerenveen,3,4,False
-N1,2021,2021-01-31,Feyenoord,PSV Eindhoven,4,5,False
+N1,2021,2021-01-30,Heracles,Groningen,4,4,False
+N1,2021,2021-01-30,Utrecht,Zwolle,3,4,False
 N1,2021,2021-01-31,Willem II,FC Emmen,3,5,False
 N1,2021,2021-01-31,AZ Alkmaar,Ajax,4,3,False
 N1,2021,2021-01-31,Den Haag,Sparta Rotterdam,5,3,False
+N1,2021,2021-01-31,Feyenoord,PSV Eindhoven,4,5,False
+N1,2021,2021-01-31,Twente,Heerenveen,3,4,False
 N1,2021,2021-02-05,For Sittard,Heracles,6,6,False
-N1,2021,2021-02-06,FC Emmen,AZ Alkmaar,6,6,False
 N1,2021,2021-02-06,Zwolle,Waalwijk,7,7,False
+N1,2021,2021-02-06,FC Emmen,AZ Alkmaar,6,6,False
 N1,2021,2021-02-06,Heerenveen,Vitesse,6,7,False
 N1,2021,2021-02-06,PSV Eindhoven,Twente,6,6,False
 N1,2021,2021-02-12,Waalwijk,FC Emmen,6,6,False
-N1,2021,2021-02-13,Groningen,Zwolle,14,7,False
-N1,2021,2021-02-13,Sparta Rotterdam,For Sittard,13,8,False
 N1,2021,2021-02-13,Den Haag,PSV Eindhoven,13,7,False
+N1,2021,2021-02-13,Sparta Rotterdam,For Sittard,13,8,False
+N1,2021,2021-02-13,Groningen,Zwolle,14,7,False
 N1,2021,2021-02-13,Heracles,Ajax,8,13,False
+N1,2021,2021-02-14,Vitesse,Twente,8,8,False
 N1,2021,2021-02-14,AZ Alkmaar,Heerenveen,8,8,False
 N1,2021,2021-02-14,Feyenoord,Willem II,14,14,False
 N1,2021,2021-02-14,Utrecht,VVV Venlo,15,15,False
-N1,2021,2021-02-14,Vitesse,Twente,8,8,False
 N1,2021,2021-02-19,Willem II,Utrecht,5,5,False
-N1,2021,2021-02-20,FC Emmen,Zwolle,8,7,False
 N1,2021,2021-02-20,VVV Venlo,AZ Alkmaar,6,6,False
+N1,2021,2021-02-20,FC Emmen,Zwolle,8,7,False
 N1,2021,2021-02-20,For Sittard,Den Haag,7,7,False
 N1,2021,2021-02-21,Twente,Feyenoord,7,7,False
 N1,2021,2021-02-21,Heerenveen,Groningen,7,8,False
 N1,2021,2021-02-21,Waalwijk,Heracles,9,8,False
 N1,2021,2021-02-21,PSV Eindhoven,Vitesse,8,7,False
 N1,2021,2021-02-21,Ajax,Sparta Rotterdam,8,8,False
-N1,2021,2021-02-24,Willem II,Den Haag,5,4,True
 N1,2021,2021-02-24,Groningen,Feyenoord,3,3,True
+N1,2021,2021-02-24,Willem II,Den Haag,5,4,True
 N1,2021,2021-02-26,Zwolle,Heerenveen,6,5,False
-N1,2021,2021-02-27,Utrecht,FC Emmen,8,7,False
-N1,2021,2021-02-27,Den Haag,Waalwijk,3,6,False
 N1,2021,2021-02-27,Vitesse,VVV Venlo,6,7,False
 N1,2021,2021-02-27,Heracles,Twente,6,6,False
-N1,2021,2021-02-28,Sparta Rotterdam,Willem II,7,4,False
-N1,2021,2021-02-28,Groningen,For Sittard,4,8,False
+N1,2021,2021-02-27,Den Haag,Waalwijk,3,6,False
+N1,2021,2021-02-27,Utrecht,FC Emmen,8,7,False
 N1,2021,2021-02-28,PSV Eindhoven,Ajax,7,7,False
 N1,2021,2021-02-28,AZ Alkmaar,Feyenoord,8,4,False
+N1,2021,2021-02-28,Sparta Rotterdam,Willem II,7,4,False
+N1,2021,2021-02-28,Groningen,For Sittard,4,8,False
 N1,2021,2021-03-05,FC Emmen,Sparta Rotterdam,6,5,False
-N1,2021,2021-03-06,Feyenoord,VVV Venlo,6,7,False
-N1,2021,2021-03-06,Twente,Willem II,7,6,False
 N1,2021,2021-03-06,Heerenveen,Den Haag,8,7,False
 N1,2021,2021-03-06,Waalwijk,Utrecht,7,7,False
-N1,2021,2021-03-07,Ajax,Groningen,7,7,False
-N1,2021,2021-03-07,For Sittard,PSV Eindhoven,7,7,False
+N1,2021,2021-03-06,Twente,Willem II,7,6,False
+N1,2021,2021-03-06,Feyenoord,VVV Venlo,6,7,False
 N1,2021,2021-03-07,Heracles,Zwolle,8,9,False
 N1,2021,2021-03-07,Vitesse,AZ Alkmaar,8,7,False
+N1,2021,2021-03-07,Ajax,Groningen,7,7,False
+N1,2021,2021-03-07,For Sittard,PSV Eindhoven,7,7,False
 N1,2021,2021-03-09,VVV Venlo,Sparta Rotterdam,3,4,True
-N1,2021,2021-03-13,Willem II,Heerenveen,7,7,False
-N1,2021,2021-03-13,Den Haag,Heracles,7,6,False
 N1,2021,2021-03-13,AZ Alkmaar,Twente,6,7,False
 N1,2021,2021-03-13,Groningen,FC Emmen,6,8,False
 N1,2021,2021-03-13,Sparta Rotterdam,Waalwijk,4,7,False
-N1,2021,2021-03-14,VVV Venlo,For Sittard,5,7,False
-N1,2021,2021-03-14,PSV Eindhoven,Feyenoord,7,8,False
+N1,2021,2021-03-13,Den Haag,Heracles,7,6,False
+N1,2021,2021-03-13,Willem II,Heerenveen,7,7,False
 N1,2021,2021-03-14,Utrecht,Vitesse,8,7,False
 N1,2021,2021-03-14,Zwolle,Ajax,7,7,False
+N1,2021,2021-03-14,VVV Venlo,For Sittard,5,7,False
+N1,2021,2021-03-14,PSV Eindhoven,Feyenoord,7,8,False
 N1,2021,2021-03-19,Heerenveen,Twente,6,6,False
 N1,2021,2021-03-20,For Sittard,Utrecht,6,6,False
 N1,2021,2021-03-20,Feyenoord,FC Emmen,6,7,False
 N1,2021,2021-03-20,Waalwijk,Groningen,7,7,False
-N1,2021,2021-03-21,Zwolle,VVV Venlo,7,7,False
-N1,2021,2021-03-21,AZ Alkmaar,PSV Eindhoven,8,7,False
 N1,2021,2021-03-21,Vitesse,Willem II,7,8,False
-N1,2021,2021-03-21,Heracles,Sparta Rotterdam,8,8,False
+N1,2021,2021-03-21,Zwolle,VVV Venlo,7,7,False
 N1,2021,2021-03-21,Ajax,Den Haag,7,8,False
+N1,2021,2021-03-21,Heracles,Sparta Rotterdam,8,8,False
+N1,2021,2021-03-21,AZ Alkmaar,PSV Eindhoven,8,7,False
 N1,2021,2021-04-03,VVV Venlo,Groningen,13,14,False
 N1,2021,2021-04-03,Twente,Vitesse,15,13,False
 N1,2021,2021-04-03,Willem II,AZ Alkmaar,13,13,False
 N1,2021,2021-04-03,Sparta Rotterdam,Zwolle,13,13,False
-N1,2021,2021-04-04,Feyenoord,For Sittard,15,15,False
-N1,2021,2021-04-04,Den Haag,Utrecht,14,15,False
 N1,2021,2021-04-04,PSV Eindhoven,Heracles,14,14,False
 N1,2021,2021-04-04,FC Emmen,Waalwijk,15,15,False
 N1,2021,2021-04-04,Heerenveen,Ajax,16,14,False
+N1,2021,2021-04-04,Den Haag,Utrecht,14,15,False
+N1,2021,2021-04-04,Feyenoord,For Sittard,15,15,False
 N1,2021,2021-04-09,Vitesse,Den Haag,6,5,False
-N1,2021,2021-04-10,Heracles,Willem II,6,7,False
-N1,2021,2021-04-10,AZ Alkmaar,Sparta Rotterdam,7,7,False
 N1,2021,2021-04-10,For Sittard,FC Emmen,6,6,False
 N1,2021,2021-04-10,Zwolle,Twente,7,7,False
-N1,2021,2021-04-11,Utrecht,Feyenoord,7,7,False
-N1,2021,2021-04-11,Groningen,Heerenveen,8,7,False
+N1,2021,2021-04-10,AZ Alkmaar,Sparta Rotterdam,7,7,False
+N1,2021,2021-04-10,Heracles,Willem II,6,7,False
 N1,2021,2021-04-11,VVV Venlo,PSV Eindhoven,8,7,False
 N1,2021,2021-04-11,Waalwijk,Ajax,7,7,False
+N1,2021,2021-04-11,Utrecht,Feyenoord,7,7,False
+N1,2021,2021-04-11,Groningen,Heerenveen,8,7,False
 N1,2021,2021-04-22,Ajax,Utrecht,11,11,True
 N1,2021,2021-04-23,Willem II,Waalwijk,13,12,False
+N1,2021,2021-04-24,Sparta Rotterdam,VVV Venlo,14,13,False
 N1,2021,2021-04-24,Heerenveen,Zwolle,13,14,False
 N1,2021,2021-04-24,PSV Eindhoven,Groningen,13,13,False
-N1,2021,2021-04-24,Sparta Rotterdam,VVV Venlo,14,13,False
-N1,2021,2021-04-25,FC Emmen,Heracles,15,15,False
-N1,2021,2021-04-25,Ajax,AZ Alkmaar,3,15,False
 N1,2021,2021-04-25,Den Haag,For Sittard,16,15,False
 N1,2021,2021-04-25,Feyenoord,Vitesse,14,16,False
 N1,2021,2021-04-25,Twente,Utrecht,15,3,False
+N1,2021,2021-04-25,Ajax,AZ Alkmaar,3,15,False
+N1,2021,2021-04-25,FC Emmen,Heracles,15,15,False
+N1,2021,2021-05-01,Waalwijk,AZ Alkmaar,8,6,False
 N1,2021,2021-05-01,Heracles,VVV Venlo,6,7,False
 N1,2021,2021-05-01,For Sittard,Twente,6,6,False
 N1,2021,2021-05-01,Vitesse,Zwolle,6,7,False
-N1,2021,2021-05-01,Waalwijk,AZ Alkmaar,8,6,False
 N1,2021,2021-05-01,Utrecht,Willem II,6,8,False
-N1,2021,2021-05-02,Den Haag,Feyenoord,7,7,False
-N1,2021,2021-05-02,Ajax,FC Emmen,7,7,False
 N1,2021,2021-05-02,Groningen,Sparta Rotterdam,8,8,False
 N1,2021,2021-05-02,PSV Eindhoven,Heerenveen,8,8,False
+N1,2021,2021-05-02,Ajax,FC Emmen,7,7,False
+N1,2021,2021-05-02,Den Haag,Feyenoord,7,7,False
 N1,2021,2021-05-07,Sparta Rotterdam,Vitesse,5,6,False
-N1,2021,2021-05-08,Twente,Heracles,7,7,False
-N1,2021,2021-05-08,Heerenveen,Utrecht,6,7,False
 N1,2021,2021-05-08,AZ Alkmaar,For Sittard,7,7,False
 N1,2021,2021-05-08,VVV Venlo,Waalwijk,7,7,False
-N1,2021,2021-05-09,FC Emmen,Groningen,7,7,False
-N1,2021,2021-05-09,Feyenoord,Ajax,7,7,False
+N1,2021,2021-05-08,Heerenveen,Utrecht,6,7,False
+N1,2021,2021-05-08,Twente,Heracles,7,7,False
 N1,2021,2021-05-09,Zwolle,Den Haag,8,7,False
 N1,2021,2021-05-09,Willem II,PSV Eindhoven,8,7,False
-N1,2021,2021-05-13,Ajax,VVV Venlo,4,5,True
-N1,2021,2021-05-13,Den Haag,Willem II,4,4,True
+N1,2021,2021-05-09,FC Emmen,Groningen,7,7,False
+N1,2021,2021-05-09,Feyenoord,Ajax,7,7,False
 N1,2021,2021-05-13,FC Emmen,Heerenveen,4,5,True
 N1,2021,2021-05-13,For Sittard,Vitesse,5,6,True
 N1,2021,2021-05-13,Groningen,AZ Alkmaar,4,5,True
@@ -294,8 +294,8 @@ N1,2021,2021-05-13,Heracles,Feyenoord,5,4,True
 N1,2021,2021-05-13,PSV Eindhoven,Zwolle,4,4,True
 N1,2021,2021-05-13,Sparta Rotterdam,Utrecht,6,5,True
 N1,2021,2021-05-13,Waalwijk,Twente,5,5,True
-N1,2021,2021-05-16,AZ Alkmaar,Heracles,3,3,False
-N1,2021,2021-05-16,Feyenoord,Waalwijk,3,3,False
+N1,2021,2021-05-13,Ajax,VVV Venlo,4,5,True
+N1,2021,2021-05-13,Den Haag,Willem II,4,4,True
 N1,2021,2021-05-16,Heerenveen,Sparta Rotterdam,3,3,False
 N1,2021,2021-05-16,Twente,Den Haag,3,3,False
 N1,2021,2021-05-16,Utrecht,PSV Eindhoven,3,3,False
@@ -303,3 +303,5 @@ N1,2021,2021-05-16,Vitesse,Ajax,3,3,False
 N1,2021,2021-05-16,VVV Venlo,FC Emmen,3,3,False
 N1,2021,2021-05-16,Willem II,For Sittard,3,3,False
 N1,2021,2021-05-16,Zwolle,Groningen,3,3,False
+N1,2021,2021-05-16,AZ Alkmaar,Heracles,3,3,False
+N1,2021,2021-05-16,Feyenoord,Waalwijk,3,3,False

@@ -165,8 +165,24 @@ class DataIngestionService:
                 # Use the new log's ID instead
                 batch_number = ingestion_log.id
         
-        # Apply data cleaning (before saving and parsing)
+        # Save RAW CSV file FIRST (before cleaning) to 1_data_ingestion folder
+        raw_csv_content = csv_content  # Store original raw content
+        if save_csv:
+            try:
+                raw_csv_path = self._save_csv_file(
+                    raw_csv_content,  # Save RAW data before cleaning
+                    league_code, 
+                    season, 
+                    batch_number,
+                    download_session_folder
+                )
+                logger.info(f"Raw CSV saved to: {raw_csv_path}")
+            except Exception as e:
+                logger.warning(f"Failed to save raw CSV file: {e}")
+        
+        # Apply data cleaning (after saving raw data, before parsing)
         cleaning_stats = None
+        cleaned_csv_content = raw_csv_content  # Default to raw if cleaning disabled
         if self.enable_cleaning and self.cleaning_service:
             try:
                 # Use Phase 2 (includes Phase 1) for enhanced features
@@ -174,8 +190,8 @@ class DataIngestionService:
                 cleaning_phase = getattr(settings, 'DATA_CLEANING_PHASE', 'phase1')  # Default to phase1
                 
                 logger.info(f"Applying data cleaning (phase: {cleaning_phase})...")
-                csv_content, cleaning_stats = self.cleaning_service.clean_csv_content(
-                    csv_content,
+                cleaned_csv_content, cleaning_stats = self.cleaning_service.clean_csv_content(
+                    raw_csv_content,  # Clean the raw content
                     return_stats=True,
                     phase=cleaning_phase  # "phase1", "phase2", or "both"
                 )
@@ -188,26 +204,13 @@ class DataIngestionService:
                 logger.error(f"Error during data cleaning: {e}", exc_info=True)
                 logger.warning("Continuing with original CSV content")
                 # Continue with original content if cleaning fails
+                cleaned_csv_content = raw_csv_content
         
-        # Save CSV file if requested (save cleaned version)
-        if save_csv:
-            try:
-                csv_path = self._save_csv_file(
-                    csv_content, 
-                    league_code, 
-                    season, 
-                    batch_number,
-                    download_session_folder
-                )
-                logger.info(f"CSV saved to: {csv_path}")
-                
-                # Also save cleaned data to 2_Cleaned_data folder if cleaning was applied
-                # Save cleaned CSV if cleaning was enabled (csv_content is already cleaned after line 169)
-                # Note: cleaning_stats might be None even if cleaning succeeded, so we check enable_cleaning and cleaning_service
-                if self.enable_cleaning and self.cleaning_service:
+        # Save CLEANED CSV file to 2_Cleaned_data folder if cleaning was applied
+        if save_csv and self.enable_cleaning and self.cleaning_service:
                     try:
                         cleaned_csv_path = self._save_cleaned_csv_file(
-                            csv_content,  # This is already the cleaned version after line 169
+                    cleaned_csv_content,  # Save CLEANED data
                             league_code,
                             season,
                             download_session_folder
@@ -215,8 +218,9 @@ class DataIngestionService:
                         logger.info(f"Cleaned CSV saved to: {cleaned_csv_path}")
                     except Exception as e:
                         logger.error(f"Failed to save cleaned CSV file: {e}", exc_info=True)
-            except Exception as e:
-                logger.warning(f"Failed to save CSV file: {e}")
+        
+        # Use cleaned content for parsing (if cleaning was applied)
+        csv_content = cleaned_csv_content
         
         # Mapping of league codes to proper names (from football-data.co.uk)
         league_names = {
@@ -302,25 +306,59 @@ class DataIngestionService:
         errors = []
         
         try:
-            # Parse CSV
-            reader = csv.DictReader(io.StringIO(csv_content))
+            # Parse CSV with better error handling
+            try:
+                reader = csv.DictReader(io.StringIO(csv_content))
+                # Get fieldnames to check if required columns exist
+                fieldnames = reader.fieldnames
+                if not fieldnames:
+                    raise ValueError(f"CSV file for {league_code} {season} has no headers")
+                
+                # Check for required columns (case-insensitive)
+                required_columns = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG']
+                fieldnames_lower = [f.lower() for f in fieldnames]
+                missing_columns = []
+                for req_col in required_columns:
+                    if req_col.lower() not in fieldnames_lower:
+                        missing_columns.append(req_col)
+                
+                if missing_columns:
+                    error_msg = f"CSV file for {league_code} {season} missing required columns: {missing_columns}. Available columns: {fieldnames[:10]}"
+                    logger.error(error_msg)
+                    errors.append(error_msg)
+                    raise ValueError(error_msg)
+                
+            except csv.Error as e:
+                error_msg = f"CSV parsing error for {league_code} {season}: {str(e)}"
+                logger.error(error_msg)
+                errors.append(error_msg)
+                raise ValueError(error_msg)
             
+            row_num = 0
             for row in reader:
+                row_num += 1
                 stats["processed"] += 1
                 
                 try:
-                    # Parse date
-                    match_date = self._parse_date(row.get('Date', ''))
+                    # Parse date - try multiple column name variations
+                    date_str = row.get('Date', '') or row.get('date', '') or row.get('DATE', '')
+                    match_date = self._parse_date(date_str)
                     if not match_date:
                         stats["skipped"] += 1
+                        if row_num <= 5:  # Log first few skipped rows for debugging
+                            errors.append(f"Row {row_num}: Invalid date '{date_str}'")
                         continue
                     
-                    # Get teams
-                    home_team_name = row.get('HomeTeam', '').strip()
-                    away_team_name = row.get('AwayTeam', '').strip()
+                    # Get teams - try multiple column name variations
+                    home_team_name = (row.get('HomeTeam', '') or row.get('homeTeam', '') or 
+                                     row.get('HOMETEAM', '') or row.get('Home', '')).strip()
+                    away_team_name = (row.get('AwayTeam', '') or row.get('awayTeam', '') or 
+                                     row.get('AWAYTEAM', '') or row.get('Away', '')).strip()
                     
                     if not home_team_name or not away_team_name:
                         stats["skipped"] += 1
+                        if row_num <= 5:  # Log first few skipped rows for debugging
+                            errors.append(f"Row {row_num}: Missing team names (Home: '{home_team_name}', Away: '{away_team_name}')")
                         continue
                     
                     # Try to resolve teams, create if they don't exist
@@ -344,19 +382,33 @@ class DataIngestionService:
                             errors.append(f"Failed to create away team {away_team_name}: {e}")
                         continue
                     
-                    # Parse scores
-                    home_goals = self._parse_int(row.get('FTHG', ''))
-                    away_goals = self._parse_int(row.get('FTAG', ''))
+                    # Parse scores - try multiple column name variations
+                    home_goals = (self._parse_int(row.get('FTHG', '')) or 
+                                 self._parse_int(row.get('fthg', '')) or
+                                 self._parse_int(row.get('HomeGoals', '')) or
+                                 self._parse_int(row.get('HG', '')))
+                    away_goals = (self._parse_int(row.get('FTAG', '')) or 
+                                 self._parse_int(row.get('ftag', '')) or
+                                 self._parse_int(row.get('AwayGoals', '')) or
+                                 self._parse_int(row.get('AG', '')))
                     
                     if home_goals is None or away_goals is None:
                         stats["skipped"] += 1
+                        if row_num <= 5:  # Log first few skipped rows for debugging
+                            errors.append(f"Row {row_num}: Missing goals (Home: {row.get('FTHG', 'N/A')}, Away: {row.get('FTAG', 'N/A')})")
                         continue
                     
-                    # Parse half-time scores (if available)
-                    ht_home_goals = self._parse_int(row.get('HTHG', ''))
-                    ht_away_goals = self._parse_int(row.get('HTAG', ''))
+                    # Parse half-time scores (if available) - try multiple column name variations
+                    ht_home_goals = (self._parse_int(row.get('HTHG', '')) or 
+                                    self._parse_int(row.get('hthg', '')) or
+                                    self._parse_int(row.get('HTHomeGoals', '')) or
+                                    self._parse_int(row.get('HT_HG', '')))
+                    ht_away_goals = (self._parse_int(row.get('HTAG', '')) or 
+                                    self._parse_int(row.get('htag', '')) or
+                                    self._parse_int(row.get('HTAwayGoals', '')) or
+                                    self._parse_int(row.get('HT_AG', '')))
                     # Ensure both are NULL together (constraint requirement)
-                    if ht_home_goals is None or ht_away_goals is None or ht_home_goals == 0 or ht_away_goals == 0:
+                    if ht_home_goals is None or ht_away_goals is None:
                         ht_home_goals = None
                         ht_away_goals = None
                     
@@ -405,10 +457,23 @@ class DataIngestionService:
                     else:
                         result = MatchResult.D
                     
-                    # Parse odds
-                    odds_home = self._parse_float(row.get('AvgH', ''))
-                    odds_draw = self._parse_float(row.get('AvgD', ''))
-                    odds_away = self._parse_float(row.get('AvgA', ''))
+                    # Parse odds - try multiple column name variations
+                    # Common variations: AvgH/AvgD/AvgA, B365H/B365D/B365A, MaxH/MaxD/MaxA
+                    odds_home = (self._parse_float(row.get('AvgH', '')) or 
+                                self._parse_float(row.get('B365H', '')) or
+                                self._parse_float(row.get('MaxH', '')) or
+                                self._parse_float(row.get('avgH', '')) or
+                                self._parse_float(row.get('b365H', '')))
+                    odds_draw = (self._parse_float(row.get('AvgD', '')) or 
+                                self._parse_float(row.get('B365D', '')) or
+                                self._parse_float(row.get('MaxD', '')) or
+                                self._parse_float(row.get('avgD', '')) or
+                                self._parse_float(row.get('b365D', '')))
+                    odds_away = (self._parse_float(row.get('AvgA', '')) or 
+                                self._parse_float(row.get('B365A', '')) or
+                                self._parse_float(row.get('MaxA', '')) or
+                                self._parse_float(row.get('avgA', '')) or
+                                self._parse_float(row.get('b365A', '')))
                     
                     # Calculate market probabilities
                     prob_home_market = None
@@ -512,10 +577,16 @@ class DataIngestionService:
                 
                 except Exception as e:
                     stats["errors"] += 1
-                    errors.append(f"Row {stats['processed']}: {str(e)}")
-                    logger.error(f"Error processing row: {e}")
+                    error_msg = f"Row {row_num} ({league_code} {season}): {str(e)}"
+                    errors.append(error_msg)
+                    # Only log first 10 errors to avoid spam
+                    if len(errors) <= 10:
+                        logger.error(f"Error processing row {row_num}: {e}", exc_info=False)
                     # Rollback the failed transaction
-                    self.db.rollback()
+                    try:
+                        self.db.rollback()
+                    except Exception:
+                        pass  # Ignore rollback errors
                     continue
             
             # Final commit
@@ -615,7 +686,7 @@ class DataIngestionService:
             season: Season code (e.g., '2324' for 2023-24)
         
         Returns:
-            CSV content as string
+            CSV content as string (UTF-8 encoded)
         """
         # Extra Leagues (available from 2012/13 onwards) use same URL structure
         # But some leagues may not exist at all - try standard URL first
@@ -627,8 +698,27 @@ class DataIngestionService:
             response = requests.get(url, timeout=30, verify=verify_ssl)
             response.raise_for_status()
             
-            # Validate that the response is actually CSV, not HTML error page
-            content = response.text.strip()
+            # Try to detect encoding from response headers or content
+            # football-data.co.uk CSVs are often latin-1 encoded
+            encoding = response.encoding or 'utf-8'
+            
+            # Try to decode with detected encoding first
+            try:
+                content = response.content.decode(encoding).strip()
+            except (UnicodeDecodeError, LookupError):
+                # Fallback to common encodings
+                for fallback_encoding in ['latin-1', 'windows-1252', 'iso-8859-1', 'utf-8']:
+                    try:
+                        content = response.content.decode(fallback_encoding).strip()
+                        logger.debug(f"Successfully decoded {league_code} {season} using {fallback_encoding} encoding")
+                        break
+                    except (UnicodeDecodeError, LookupError):
+                        continue
+                else:
+                    # If all encodings fail, use errors='replace' to handle bad characters
+                    content = response.content.decode('utf-8', errors='replace').strip()
+                    logger.warning(f"Used UTF-8 with error replacement for {league_code} {season}")
+            
             if not content:
                 raise ValueError(f"Empty response from {url}")
             
@@ -1047,6 +1137,14 @@ class DataIngestionService:
         # Write download log for this league if download_session_folder is provided
         if download_session_folder and total_stats.get("seasons_processed", 0) > 0:
             try:
+                # Collect CSV files saved
+                csv_files_saved = []
+                backend_root = Path(__file__).parent.parent.parent
+                session_dir = backend_root / "data" / "1_data_ingestion" / "Historical Match_Odds_Data" / download_session_folder / league_code
+                if session_dir.exists():
+                    csv_files = list(session_dir.glob("*.csv"))
+                    csv_files_saved = [f.name for f in csv_files]
+                
                 league_summary = {
                     "total_leagues": 1,
                     "successful": total_stats["seasons_processed"],
@@ -1056,6 +1154,7 @@ class DataIngestionService:
                     "total_updated": total_stats["updated"],
                     "total_skipped": total_stats["skipped"],
                     "total_errors": total_stats["errors"],
+                    "csv_files_saved": csv_files_saved,
                     "successful_downloads": [
                         {
                             "league_code": league_code,
@@ -1091,21 +1190,30 @@ class DataIngestionService:
         if not date_str:
             return None
         
-        date_str = date_str.strip()
+        date_str = str(date_str).strip()
         
-        # Try common formats
+        # Remove any extra whitespace or newlines
+        date_str = date_str.replace('\n', '').replace('\r', '')
+        
+        # Try common formats (football-data.co.uk uses dd/mm/yyyy)
         formats = [
-            "%d/%m/%Y",
-            "%d/%m/%y",
-            "%Y-%m-%d",
-            "%d-%m-%Y",
-            "%d.%m.%Y"
+            "%d/%m/%Y",      # 19/11/2021 (most common)
+            "%d/%m/%y",      # 19/11/21
+            "%Y-%m-%d",      # 2021-11-19 (ISO format)
+            "%d-%m-%Y",      # 19-11-2021
+            "%d.%m.%Y",      # 19.11.2021
+            "%m/%d/%Y",      # 11/19/2021 (US format - some leagues)
+            "%Y/%m/%d",      # 2021/11/19
         ]
         
         for fmt in formats:
             try:
-                return datetime.strptime(date_str, fmt).date()
-            except ValueError:
+                parsed_date = datetime.strptime(date_str, fmt).date()
+                # Validate date is reasonable (not too far in past/future)
+                current_year = datetime.now().year
+                if 1900 <= parsed_date.year <= current_year + 1:
+                    return parsed_date
+            except (ValueError, TypeError):
                 continue
         
         return None
@@ -1224,19 +1332,34 @@ class DataIngestionService:
         download_summary: Dict
     ) -> Path:
         """
-        Write comprehensive download log to the download session folder
+        Write comprehensive download log to the download session folder AND 01_logs folder
         
         Args:
             download_session_folder: The session folder name
             download_summary: Dictionary containing download summary information
             
         Returns:
-            Path to the log file
+            Path to the log file in 01_logs folder
         """
-        base_dir = Path("data/1_data_ingestion/Historical Match_Odds_Data") / download_session_folder
+        backend_root = Path(__file__).parent.parent.parent
+        
+        # Also write to 01_logs folder
+        logs_dir = backend_root / "data" / "1_data_ingestion" / "Historical Match_Odds_Data" / "01_logs"
+        logs_dir.mkdir(parents=True, exist_ok=True)
+        
+        cleaned_logs_dir = backend_root / "data" / "2_Cleaned_data" / "Historical Match_Odds_Data" / "01_logs"
+        cleaned_logs_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Keep original log in session folder for backward compatibility
+        base_dir = backend_root / "data" / "1_data_ingestion" / "Historical Match_Odds_Data" / download_session_folder
         base_dir.mkdir(parents=True, exist_ok=True)
         
         log_file = base_dir / "DOWNLOAD_LOG.txt"
+        
+        # Also create log in 01_logs folder with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        logs_file = logs_dir / f"Historical_Odds_{download_session_folder}_{timestamp}_LOG.txt"
+        cleaned_logs_file = cleaned_logs_dir / f"Historical_Odds_{download_session_folder}_{timestamp}_LOG.txt"
         
         # Build comprehensive log content
         log_lines = []
@@ -1334,9 +1457,20 @@ class DataIngestionService:
         log_lines.append("  {session_folder}/{league_code}/{league_code}_{season}.csv")
         log_lines.append("")
         
+        # CSV files saved section
+        csv_files_saved = download_summary.get('csv_files_saved', [])
+        if csv_files_saved:
+            log_lines.append("CSV FILES SAVED")
+            log_lines.append("-" * 80)
+            for csv_file in csv_files_saved[:30]:  # Limit to first 30 files
+                log_lines.append(f"  ✓ {csv_file}")
+            if len(csv_files_saved) > 30:
+                log_lines.append(f"  ... and {len(csv_files_saved) - 30} more files")
+        log_lines.append("")
+        
         # Check actual files on disk
         if base_dir.exists():
-            league_folders = sorted([d for d in base_dir.iterdir() if d.is_dir()])
+            league_folders = sorted([d for d in base_dir.iterdir() if d.is_dir() and d.name != "01_logs"])
             if league_folders:
                 log_lines.append("Downloaded Files:")
                 for league_folder in league_folders:
@@ -1355,12 +1489,22 @@ class DataIngestionService:
         log_lines.append("END OF LOG")
         log_lines.append("=" * 80)
         
-        # Write log file
+        # Write log file to multiple locations
         log_content = "\n".join(log_lines)
-        log_file.write_text(log_content, encoding='utf-8')
         
+        # Write to session folder (original location)
+        log_file.write_text(log_content, encoding='utf-8')
         logger.info(f"Download log written to: {log_file}")
-        return log_file
+        
+        # Write to 01_logs folder (new location)
+        logs_file.write_text(log_content, encoding='utf-8')
+        logger.info(f"Download log written to: {logs_file}")
+        
+        # Write to cleaned data 01_logs folder
+        cleaned_logs_file.write_text(log_content, encoding='utf-8')
+        logger.info(f"Download log written to: {cleaned_logs_file}")
+        
+        return logs_file  # Return the 01_logs path as primary
 
 
 def create_default_leagues(db: Session) -> None:

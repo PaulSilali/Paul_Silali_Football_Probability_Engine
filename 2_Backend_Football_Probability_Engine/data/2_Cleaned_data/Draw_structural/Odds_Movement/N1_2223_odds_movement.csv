@@ -1,155 +1,156 @@
 league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
 N1,2223,2022-08-05,Heerenveen,Sparta Rotterdam,3.5,3.5,0.0
-N1,2223,2022-08-06,For Sittard,Ajax,6.87,6.87,0.0
-N1,2223,2022-08-06,Cambuur,Excelsior,3.82,3.82,0.0
 N1,2223,2022-08-06,Waalwijk,Utrecht,3.65,3.65,0.0
+N1,2223,2022-08-06,PSV Eindhoven,FC Emmen,6.73,6.73,0.0
+N1,2223,2022-08-06,Cambuur,Excelsior,3.82,3.82,0.0
+N1,2223,2022-08-06,For Sittard,Ajax,6.87,6.87,0.0
 N1,2223,2022-08-07,Groningen,Volendam,3.9,3.9,0.0
 N1,2223,2022-08-07,Nijmegen,Twente,3.48,3.48,0.0
 N1,2223,2022-08-07,Vitesse,Feyenoord,3.9,3.9,0.0
 N1,2223,2022-08-07,AZ Alkmaar,Go Ahead Eagles,4.85,4.85,0.0
 N1,2223,2022-08-12,Excelsior,Vitesse,3.88,3.88,0.0
-N1,2223,2022-08-13,Go Ahead Eagles,PSV Eindhoven,5.12,5.12,0.0
 N1,2223,2022-08-13,FC Emmen,Waalwijk,3.65,3.65,0.0
 N1,2223,2022-08-13,Utrecht,Cambuur,4.66,4.66,0.0
 N1,2223,2022-08-13,Feyenoord,Heerenveen,5.79,5.79,0.0
-N1,2223,2022-08-14,Volendam,Nijmegen,3.63,3.63,0.0
+N1,2223,2022-08-13,Go Ahead Eagles,PSV Eindhoven,5.12,5.12,0.0
 N1,2223,2022-08-14,Ajax,Groningen,7.97,7.97,0.0
 N1,2223,2022-08-14,Twente,For Sittard,4.49,4.49,0.0
 N1,2223,2022-08-14,Sparta Rotterdam,AZ Alkmaar,3.56,3.56,0.0
-N1,2223,2022-08-20,Vitesse,Heerenveen,3.66,3.66,0.0
+N1,2223,2022-08-14,Volendam,Nijmegen,3.63,3.63,0.0
 N1,2223,2022-08-20,For Sittard,Cambuur,3.64,3.64,0.0
 N1,2223,2022-08-20,FC Emmen,Utrecht,3.47,3.47,0.0
-N1,2223,2022-08-21,Groningen,Go Ahead Eagles,3.54,3.54,0.0
+N1,2223,2022-08-20,Vitesse,Heerenveen,3.66,3.66,0.0
 N1,2223,2022-08-21,Sparta Rotterdam,Ajax,6.26,6.26,0.0
 N1,2223,2022-08-21,Waalwijk,Feyenoord,5.4,5.4,0.0
+N1,2223,2022-08-21,Groningen,Go Ahead Eagles,3.54,3.54,0.0
 N1,2223,2022-08-26,Nijmegen,Groningen,3.46,3.46,0.0
-N1,2223,2022-08-27,Go Ahead Eagles,Sparta Rotterdam,3.38,3.38,0.0
 N1,2223,2022-08-27,Vitesse,Waalwijk,3.98,3.98,0.0
 N1,2223,2022-08-27,Feyenoord,FC Emmen,6.04,6.04,0.0
 N1,2223,2022-08-27,Heerenveen,For Sittard,4.11,4.11,0.0
-N1,2223,2022-08-28,Utrecht,Ajax,4.99,4.99,0.0
+N1,2223,2022-08-27,Go Ahead Eagles,Sparta Rotterdam,3.38,3.38,0.0
 N1,2223,2022-08-28,Excelsior,PSV Eindhoven,6.13,6.13,0.0
 N1,2223,2022-08-28,Volendam,Twente,4.05,4.05,0.0
 N1,2223,2022-08-28,Cambuur,AZ Alkmaar,3.89,3.89,0.0
-N1,2223,2022-08-31,PSV Eindhoven,Volendam,11.34,11.34,0.0
+N1,2223,2022-08-28,Utrecht,Ajax,4.99,4.99,0.0
 N1,2223,2022-08-31,Twente,Excelsior,5.95,5.95,0.0
+N1,2223,2022-08-31,PSV Eindhoven,Volendam,11.34,11.34,0.0
 N1,2223,2022-09-01,AZ Alkmaar,Nijmegen,4.46,4.46,0.0
 N1,2223,2022-09-02,For Sittard,Utrecht,3.72,3.72,0.0
+N1,2223,2022-09-03,Sparta Rotterdam,Volendam,4.23,4.23,0.0
 N1,2223,2022-09-03,Ajax,Cambuur,10.66,10.66,0.0
 N1,2223,2022-09-03,Twente,PSV Eindhoven,3.83,3.83,0.0
-N1,2223,2022-09-03,Sparta Rotterdam,Volendam,4.23,4.23,0.0
 N1,2223,2022-09-03,Go Ahead Eagles,Feyenoord,4.99,4.99,0.0
-N1,2223,2022-09-04,Waalwijk,Excelsior,4.13,4.13,0.0
 N1,2223,2022-09-04,FC Emmen,AZ Alkmaar,3.69,3.69,0.0
 N1,2223,2022-09-04,Heerenveen,Nijmegen,3.59,3.59,0.0
 N1,2223,2022-09-04,Groningen,Vitesse,3.51,3.51,0.0
+N1,2223,2022-09-04,Waalwijk,Excelsior,4.13,4.13,0.0
 N1,2223,2022-09-09,Volendam,Go Ahead Eagles,3.6,3.6,0.0
-N1,2223,2022-09-10,Nijmegen,For Sittard,3.71,3.71,0.0
 N1,2223,2022-09-10,Ajax,Heerenveen,7.36,7.36,0.0
 N1,2223,2022-09-10,Excelsior,FC Emmen,3.58,3.58,0.0
-N1,2223,2022-09-11,Utrecht,Vitesse,3.77,3.77,0.0
+N1,2223,2022-09-10,Nijmegen,For Sittard,3.71,3.71,0.0
 N1,2223,2022-09-11,Cambuur,Groningen,3.61,3.61,0.0
 N1,2223,2022-09-11,PSV Eindhoven,Waalwijk,7.76,7.76,0.0
 N1,2223,2022-09-11,AZ Alkmaar,Twente,3.52,3.52,0.0
 N1,2223,2022-09-11,Feyenoord,Sparta Rotterdam,5.85,5.85,0.0
+N1,2223,2022-09-11,Utrecht,Vitesse,3.77,3.77,0.0
 N1,2223,2022-09-16,Utrecht,Nijmegen,3.98,3.98,0.0
-N1,2223,2022-09-17,Sparta Rotterdam,Groningen,3.35,3.35,0.0
 N1,2223,2022-09-17,Vitesse,Volendam,4.87,4.87,0.0
 N1,2223,2022-09-17,Waalwijk,Cambuur,3.62,3.62,0.0
 N1,2223,2022-09-17,For Sittard,Excelsior,4.07,4.07,0.0
-N1,2223,2022-09-18,Go Ahead Eagles,FC Emmen,3.41,3.41,0.0
+N1,2223,2022-09-17,Sparta Rotterdam,Groningen,3.35,3.35,0.0
 N1,2223,2022-09-18,Heerenveen,Twente,3.37,3.37,0.0
 N1,2223,2022-09-18,PSV Eindhoven,Feyenoord,3.95,3.95,0.0
 N1,2223,2022-09-18,AZ Alkmaar,Ajax,4.17,4.17,0.0
-N1,2223,2022-10-01,Cambuur,PSV Eindhoven,6.04,6.04,0.0
+N1,2223,2022-09-18,Go Ahead Eagles,FC Emmen,3.41,3.41,0.0
 N1,2223,2022-10-01,Groningen,AZ Alkmaar,3.72,3.72,0.0
 N1,2223,2022-10-01,Ajax,Go Ahead Eagles,11.29,11.29,0.0
 N1,2223,2022-10-01,Twente,Vitesse,3.89,3.89,0.0
-N1,2223,2022-10-02,For Sittard,Volendam,4.09,4.09,0.0
+N1,2223,2022-10-01,Cambuur,PSV Eindhoven,6.04,6.04,0.0
 N1,2223,2022-10-02,Excelsior,Utrecht,4.27,4.27,0.0
 N1,2223,2022-10-02,Nijmegen,Feyenoord,4.27,4.27,0.0
 N1,2223,2022-10-02,Waalwijk,Sparta Rotterdam,3.37,3.37,0.0
 N1,2223,2022-10-02,FC Emmen,Heerenveen,3.33,3.33,0.0
+N1,2223,2022-10-02,For Sittard,Volendam,4.09,4.09,0.0
 N1,2223,2022-10-07,Groningen,Waalwijk,3.45,3.45,0.0
 N1,2223,2022-10-08,Volendam,Ajax,8.1,8.1,0.0
 N1,2223,2022-10-08,Sparta Rotterdam,FC Emmen,3.42,3.42,0.0
 N1,2223,2022-10-08,Nijmegen,Excelsior,4.51,4.51,0.0
+N1,2223,2022-10-09,Utrecht,AZ Alkmaar,3.58,3.58,0.0
 N1,2223,2022-10-09,Go Ahead Eagles,Cambuur,3.69,3.69,0.0
 N1,2223,2022-10-09,Feyenoord,Twente,4.02,4.02,0.0
-N1,2223,2022-10-09,Utrecht,AZ Alkmaar,3.58,3.58,0.0
 N1,2223,2022-10-09,Heerenveen,PSV Eindhoven,4.37,4.37,0.0
 N1,2223,2022-10-09,Vitesse,For Sittard,4.2,4.2,0.0
 N1,2223,2022-10-14,FC Emmen,Volendam,3.71,3.71,0.0
-N1,2223,2022-10-15,For Sittard,Waalwijk,3.68,3.68,0.0
-N1,2223,2022-10-15,Go Ahead Eagles,Heerenveen,3.31,3.31,0.0
 N1,2223,2022-10-15,Cambuur,Vitesse,3.56,3.56,0.0
-N1,2223,2022-10-16,Sparta Rotterdam,Nijmegen,3.32,3.32,0.0
+N1,2223,2022-10-15,Go Ahead Eagles,Heerenveen,3.31,3.31,0.0
+N1,2223,2022-10-15,For Sittard,Waalwijk,3.68,3.68,0.0
 N1,2223,2022-10-16,PSV Eindhoven,Utrecht,5.08,5.08,0.0
 N1,2223,2022-10-16,Twente,Groningen,4.7,4.7,0.0
 N1,2223,2022-10-16,AZ Alkmaar,Feyenoord,3.57,3.57,0.0
 N1,2223,2022-10-16,Ajax,Excelsior,13.5,13.5,0.0
-N1,2223,2022-10-22,Feyenoord,For Sittard,7.15,7.15,0.0
+N1,2223,2022-10-16,Sparta Rotterdam,Nijmegen,3.32,3.32,0.0
 N1,2223,2022-10-22,Waalwijk,Ajax,6.52,6.52,0.0
 N1,2223,2022-10-22,Vitesse,FC Emmen,3.72,3.72,0.0
-N1,2223,2022-10-23,Excelsior,AZ Alkmaar,5.23,5.23,0.0
+N1,2223,2022-10-22,Feyenoord,For Sittard,7.15,7.15,0.0
 N1,2223,2022-10-23,Cambuur,Twente,3.88,3.88,0.0
 N1,2223,2022-10-23,Groningen,PSV Eindhoven,5.33,5.33,0.0
 N1,2223,2022-10-23,Nijmegen,Go Ahead Eagles,3.46,3.46,0.0
 N1,2223,2022-10-23,Utrecht,Sparta Rotterdam,3.78,3.78,0.0
 N1,2223,2022-10-23,Volendam,Heerenveen,3.61,3.61,0.0
-N1,2223,2022-10-29,Heerenveen,Utrecht,3.49,3.49,0.0
+N1,2223,2022-10-23,Excelsior,AZ Alkmaar,5.23,5.23,0.0
 N1,2223,2022-10-29,Sparta Rotterdam,For Sittard,3.62,3.62,0.0
 N1,2223,2022-10-29,Go Ahead Eagles,Excelsior,4.04,4.04,0.0
-N1,2223,2022-10-30,FC Emmen,Groningen,3.34,3.34,0.0
+N1,2223,2022-10-29,Heerenveen,Utrecht,3.49,3.49,0.0
 N1,2223,2022-10-30,PSV Eindhoven,Nijmegen,6.67,6.67,0.0
 N1,2223,2022-10-30,Twente,Waalwijk,4.62,4.62,0.0
 N1,2223,2022-10-30,AZ Alkmaar,Volendam,6.89,6.89,0.0
+N1,2223,2022-10-30,FC Emmen,Groningen,3.34,3.34,0.0
 N1,2223,2022-11-04,Cambuur,Nijmegen,3.38,3.38,0.0
-N1,2223,2022-11-05,Vitesse,Sparta Rotterdam,3.57,3.57,0.0
 N1,2223,2022-11-05,For Sittard,FC Emmen,3.48,3.48,0.0
 N1,2223,2022-11-05,Excelsior,Heerenveen,4.03,4.03,0.0
-N1,2223,2022-11-06,Utrecht,Groningen,3.98,3.98,0.0
+N1,2223,2022-11-05,Vitesse,Sparta Rotterdam,3.57,3.57,0.0
 N1,2223,2022-11-06,Twente,Go Ahead Eagles,4.97,4.97,0.0
 N1,2223,2022-11-06,Volendam,Feyenoord,5.54,5.54,0.0
 N1,2223,2022-11-06,Ajax,PSV Eindhoven,4.17,4.17,0.0
 N1,2223,2022-11-06,Waalwijk,AZ Alkmaar,3.95,3.95,0.0
+N1,2223,2022-11-06,Utrecht,Groningen,3.98,3.98,0.0
 N1,2223,2022-11-09,Ajax,Vitesse,9.08,9.08,0.0
 N1,2223,2022-11-10,Feyenoord,Cambuur,6.84,6.84,0.0
 N1,2223,2022-11-11,Sparta Rotterdam,Twente,3.42,3.42,0.0
 N1,2223,2022-11-12,Volendam,Utrecht,4.12,4.12,0.0
 N1,2223,2022-11-12,FC Emmen,Ajax,5.69,5.69,0.0
 N1,2223,2022-11-12,PSV Eindhoven,AZ Alkmaar,4.48,4.48,0.0
-N1,2223,2022-11-13,Nijmegen,Waalwijk,3.56,3.56,0.0
 N1,2223,2022-11-13,Groningen,For Sittard,3.56,3.56,0.0
 N1,2223,2022-11-13,Heerenveen,Cambuur,3.81,3.81,0.0
 N1,2223,2022-11-13,Feyenoord,Excelsior,8.59,8.59,0.0
 N1,2223,2022-11-13,Go Ahead Eagles,Vitesse,3.46,3.46,0.0
+N1,2223,2022-11-13,Nijmegen,Waalwijk,3.56,3.56,0.0
 N1,2223,2023-01-06,Twente,FC Emmen,4.52,4.52,0.0
-N1,2223,2023-01-07,Waalwijk,Heerenveen,3.54,3.54,0.0
 N1,2223,2023-01-07,AZ Alkmaar,Vitesse,4.41,4.41,0.0
 N1,2223,2023-01-07,For Sittard,Go Ahead Eagles,3.46,3.46,0.0
 N1,2223,2023-01-07,PSV Eindhoven,Sparta Rotterdam,6.42,6.42,0.0
-N1,2223,2023-01-08,Utrecht,Feyenoord,4.01,4.01,0.0
+N1,2223,2023-01-07,Waalwijk,Heerenveen,3.54,3.54,0.0
 N1,2223,2023-01-08,Cambuur,Volendam,3.77,3.77,0.0
 N1,2223,2023-01-08,Nijmegen,Ajax,5.21,5.21,0.0
 N1,2223,2023-01-08,Excelsior,Groningen,3.65,3.65,0.0
-N1,2223,2023-01-14,Heerenveen,AZ Alkmaar,3.51,3.51,0.0
+N1,2223,2023-01-08,Utrecht,Feyenoord,4.01,4.01,0.0
 N1,2223,2023-01-14,Volendam,Waalwijk,3.55,3.55,0.0
 N1,2223,2023-01-14,Ajax,Twente,5.38,5.38,0.0
 N1,2223,2023-01-14,Sparta Rotterdam,Excelsior,4.33,4.33,0.0
-N1,2223,2023-01-15,Vitesse,Nijmegen,3.56,3.56,0.0
+N1,2223,2023-01-14,Heerenveen,AZ Alkmaar,3.51,3.51,0.0
 N1,2223,2023-01-15,For Sittard,PSV Eindhoven,5.22,5.22,0.0
 N1,2223,2023-01-15,Go Ahead Eagles,Utrecht,3.54,3.54,0.0
 N1,2223,2023-01-15,FC Emmen,Cambuur,3.5,3.5,0.0
 N1,2223,2023-01-15,Groningen,Feyenoord,4.55,4.55,0.0
+N1,2223,2023-01-15,Vitesse,Nijmegen,3.56,3.56,0.0
 N1,2223,2023-01-20,Excelsior,Volendam,3.69,3.69,0.0
-N1,2223,2023-01-21,Nijmegen,FC Emmen,3.35,3.35,0.0
 N1,2223,2023-01-21,Cambuur,Sparta Rotterdam,3.23,3.23,0.0
 N1,2223,2023-01-21,PSV Eindhoven,Vitesse,6.11,6.11,0.0
-N1,2223,2023-01-22,Heerenveen,Groningen,3.79,3.79,0.0
+N1,2223,2023-01-21,Nijmegen,FC Emmen,3.35,3.35,0.0
 N1,2223,2023-01-22,Feyenoord,Ajax,3.57,3.57,0.0
 N1,2223,2023-01-22,Twente,Utrecht,3.93,3.93,0.0
 N1,2223,2023-01-22,AZ Alkmaar,For Sittard,5.61,5.61,0.0
+N1,2223,2023-01-22,Heerenveen,Groningen,3.79,3.79,0.0
 N1,2223,2023-01-24,FC Emmen,PSV Eindhoven,4.61,4.61,0.0
 N1,2223,2023-01-24,Sparta Rotterdam,Waalwijk,3.65,3.65,0.0
 N1,2223,2023-01-25,Go Ahead Eagles,AZ Alkmaar,3.68,3.68,0.0
@@ -157,136 +158,135 @@ N1,2223,2023-01-25,Vitesse,Twente,3.55,3.55,0.0
 N1,2223,2023-01-25,For Sittard,Heerenveen,3.37,3.37,0.0
 N1,2223,2023-01-25,Feyenoord,Nijmegen,5.5,5.5,0.0
 N1,2223,2023-01-25,Utrecht,Excelsior,5.01,5.01,0.0
-N1,2223,2023-01-26,Groningen,Cambuur,3.37,3.37,0.0
 N1,2223,2023-01-26,Ajax,Volendam,9.47,9.47,0.0
+N1,2223,2023-01-26,Groningen,Cambuur,3.37,3.37,0.0
 N1,2223,2023-01-28,PSV Eindhoven,Go Ahead Eagles,6.19,6.19,0.0
-N1,2223,2023-01-28,Waalwijk,FC Emmen,3.34,3.34,0.0
+N1,2223,2023-01-28,AZ Alkmaar,Utrecht,3.98,3.98,0.0
 N1,2223,2023-01-28,Heerenveen,Vitesse,3.4,3.4,0.0
 N1,2223,2023-01-28,Nijmegen,Sparta Rotterdam,3.28,3.28,0.0
-N1,2223,2023-01-28,AZ Alkmaar,Utrecht,3.98,3.98,0.0
-N1,2223,2023-01-29,Twente,Feyenoord,3.31,3.31,0.0
+N1,2223,2023-01-28,Waalwijk,FC Emmen,3.34,3.34,0.0
 N1,2223,2023-01-29,Excelsior,Ajax,6.46,6.46,0.0
 N1,2223,2023-01-29,Volendam,Groningen,3.47,3.47,0.0
 N1,2223,2023-01-29,Cambuur,For Sittard,3.39,3.39,0.0
+N1,2223,2023-01-29,Twente,Feyenoord,3.31,3.31,0.0
 N1,2223,2023-02-01,Waalwijk,Go Ahead Eagles,3.53,3.53,0.0
 N1,2223,2023-02-03,For Sittard,Sparta Rotterdam,3.19,3.19,0.0
-N1,2223,2023-02-04,Volendam,AZ Alkmaar,4.59,4.59,0.0
 N1,2223,2023-02-04,FC Emmen,Vitesse,3.24,3.24,0.0
 N1,2223,2023-02-04,Utrecht,Heerenveen,3.62,3.62,0.0
 N1,2223,2023-02-04,Excelsior,Waalwijk,3.53,3.53,0.0
-N1,2223,2023-02-05,Cambuur,Ajax,6.0,6.0,0.0
+N1,2223,2023-02-04,Volendam,AZ Alkmaar,4.59,4.59,0.0
 N1,2223,2023-02-05,Feyenoord,PSV Eindhoven,3.53,3.53,0.0
 N1,2223,2023-02-05,Go Ahead Eagles,Nijmegen,3.39,3.39,0.0
 N1,2223,2023-02-05,Groningen,Twente,4.01,4.01,0.0
+N1,2223,2023-02-05,Cambuur,Ajax,6.0,6.0,0.0
 N1,2223,2023-02-10,AZ Alkmaar,Excelsior,6.07,6.07,0.0
-N1,2223,2023-02-11,Nijmegen,Cambuur,3.77,3.77,0.0
 N1,2223,2023-02-11,PSV Eindhoven,Groningen,7.72,7.72,0.0
 N1,2223,2023-02-11,FC Emmen,For Sittard,3.39,3.39,0.0
-N1,2223,2023-02-12,Sparta Rotterdam,Go Ahead Eagles,3.32,3.32,0.0
+N1,2223,2023-02-11,Nijmegen,Cambuur,3.77,3.77,0.0
 N1,2223,2023-02-12,Heerenveen,Feyenoord,3.87,3.87,0.0
 N1,2223,2023-02-12,Vitesse,Utrecht,3.51,3.51,0.0
 N1,2223,2023-02-12,Ajax,Waalwijk,8.26,8.26,0.0
 N1,2223,2023-02-12,Twente,Volendam,6.14,6.14,0.0
+N1,2223,2023-02-12,Sparta Rotterdam,Go Ahead Eagles,3.32,3.32,0.0
 N1,2223,2023-02-17,Waalwijk,For Sittard,3.48,3.48,0.0
 N1,2223,2023-02-18,Volendam,Vitesse,3.68,3.68,0.0
 N1,2223,2023-02-18,Groningen,FC Emmen,3.23,3.23,0.0
 N1,2223,2023-02-18,Feyenoord,AZ Alkmaar,3.93,3.93,0.0
+N1,2223,2023-02-19,Excelsior,Nijmegen,3.57,3.57,0.0
 N1,2223,2023-02-19,Cambuur,Heerenveen,3.35,3.35,0.0
 N1,2223,2023-02-19,Go Ahead Eagles,Twente,3.56,3.56,0.0
 N1,2223,2023-02-19,Utrecht,PSV Eindhoven,4.01,4.01,0.0
 N1,2223,2023-02-19,Ajax,Sparta Rotterdam,6.53,6.53,0.0
-N1,2223,2023-02-19,Excelsior,Nijmegen,3.57,3.57,0.0
 N1,2223,2023-02-24,Sparta Rotterdam,Utrecht,3.23,3.23,0.0
-N1,2223,2023-02-25,Groningen,Excelsior,3.81,3.81,0.0
 N1,2223,2023-02-25,Heerenveen,Waalwijk,3.66,3.66,0.0
 N1,2223,2023-02-25,AZ Alkmaar,Cambuur,6.17,6.17,0.0
 N1,2223,2023-02-25,Nijmegen,Volendam,4.2,4.2,0.0
-N1,2223,2023-02-26,For Sittard,Feyenoord,4.83,4.83,0.0
+N1,2223,2023-02-25,Groningen,Excelsior,3.81,3.81,0.0
 N1,2223,2023-02-26,FC Emmen,Go Ahead Eagles,3.28,3.28,0.0
 N1,2223,2023-02-26,Vitesse,Ajax,4.62,4.62,0.0
 N1,2223,2023-02-26,PSV Eindhoven,Twente,4.2,4.2,0.0
-N1,2223,2023-03-03,Utrecht,For Sittard,4.22,4.22,0.0
+N1,2223,2023-02-26,For Sittard,Feyenoord,4.83,4.83,0.0
 N1,2223,2023-03-03,Vitesse,AZ Alkmaar,3.42,3.42,0.0
-N1,2223,2023-03-04,Volendam,FC Emmen,3.39,3.39,0.0
+N1,2223,2023-03-03,Utrecht,For Sittard,4.22,4.22,0.0
 N1,2223,2023-03-04,Feyenoord,Groningen,6.96,6.96,0.0
 N1,2223,2023-03-04,Twente,Heerenveen,4.18,4.18,0.0
-N1,2223,2023-03-05,Excelsior,Sparta Rotterdam,3.49,3.49,0.0
+N1,2223,2023-03-04,Volendam,FC Emmen,3.39,3.39,0.0
 N1,2223,2023-03-05,Waalwijk,PSV Eindhoven,4.88,4.88,0.0
 N1,2223,2023-03-05,Ajax,Nijmegen,6.5,6.5,0.0
 N1,2223,2023-03-05,Cambuur,Go Ahead Eagles,3.35,3.35,0.0
-N1,2223,2023-03-11,FC Emmen,Excelsior,3.76,3.76,0.0
+N1,2223,2023-03-05,Excelsior,Sparta Rotterdam,3.49,3.49,0.0
 N1,2223,2023-03-11,For Sittard,Twente,3.66,3.66,0.0
 N1,2223,2023-03-11,AZ Alkmaar,Groningen,5.24,5.24,0.0
 N1,2223,2023-03-11,Sparta Rotterdam,Vitesse,3.3,3.3,0.0
-N1,2223,2023-03-12,Nijmegen,Utrecht,3.31,3.31,0.0
+N1,2223,2023-03-11,FC Emmen,Excelsior,3.76,3.76,0.0
 N1,2223,2023-03-12,Heerenveen,Ajax,4.86,4.86,0.0
 N1,2223,2023-03-12,PSV Eindhoven,Cambuur,8.49,8.49,0.0
 N1,2223,2023-03-12,Feyenoord,Volendam,9.4,9.4,0.0
+N1,2223,2023-03-12,Nijmegen,Utrecht,3.31,3.31,0.0
 N1,2223,2023-03-17,Volendam,For Sittard,3.57,3.57,0.0
-N1,2223,2023-03-18,Utrecht,Go Ahead Eagles,3.94,3.94,0.0
 N1,2223,2023-03-18,FC Emmen,Sparta Rotterdam,3.13,3.13,0.0
 N1,2223,2023-03-18,Waalwijk,Nijmegen,3.41,3.41,0.0
-N1,2223,2023-03-19,Groningen,Heerenveen,3.3,3.3,0.0
+N1,2223,2023-03-18,Utrecht,Go Ahead Eagles,3.94,3.94,0.0
 N1,2223,2023-03-19,Ajax,Feyenoord,4.05,4.05,0.0
 N1,2223,2023-03-19,Excelsior,Cambuur,3.47,3.47,0.0
 N1,2223,2023-03-19,Vitesse,PSV Eindhoven,4.05,4.05,0.0
 N1,2223,2023-03-19,Twente,AZ Alkmaar,3.45,3.45,0.0
+N1,2223,2023-03-19,Groningen,Heerenveen,3.3,3.3,0.0
 N1,2223,2023-04-01,AZ Alkmaar,Heerenveen,4.38,4.38,0.0
 N1,2223,2023-04-01,Excelsior,Twente,4.37,4.37,0.0
 N1,2223,2023-04-01,Cambuur,FC Emmen,3.3,3.3,0.0
 N1,2223,2023-04-01,Nijmegen,PSV Eindhoven,4.06,4.06,0.0
 N1,2223,2023-04-01,Waalwijk,Vitesse,3.42,3.42,0.0
-N1,2223,2023-04-02,Go Ahead Eagles,Ajax,5.24,5.24,0.0
-N1,2223,2023-04-02,Sparta Rotterdam,Feyenoord,3.91,3.91,0.0
-N1,2223,2023-04-02,Utrecht,Volendam,5.08,5.08,0.0
 N1,2223,2023-04-02,For Sittard,Groningen,3.49,3.49,0.0
+N1,2223,2023-04-02,Sparta Rotterdam,Feyenoord,3.91,3.91,0.0
+N1,2223,2023-04-02,Go Ahead Eagles,Ajax,5.24,5.24,0.0
+N1,2223,2023-04-02,Utrecht,Volendam,5.08,5.08,0.0
 N1,2223,2023-04-07,Groningen,Utrecht,3.47,3.47,0.0
-N1,2223,2023-04-08,Vitesse,Go Ahead Eagles,3.45,3.45,0.0
-N1,2223,2023-04-08,AZ Alkmaar,Sparta Rotterdam,4.39,4.39,0.0
-N1,2223,2023-04-08,PSV Eindhoven,Excelsior,11.06,11.06,0.0
 N1,2223,2023-04-08,Heerenveen,Volendam,4.36,4.36,0.0
-N1,2223,2023-04-09,Twente,Cambuur,5.73,5.73,0.0
+N1,2223,2023-04-08,Vitesse,Go Ahead Eagles,3.45,3.45,0.0
+N1,2223,2023-04-08,PSV Eindhoven,Excelsior,11.06,11.06,0.0
+N1,2223,2023-04-08,AZ Alkmaar,Sparta Rotterdam,4.39,4.39,0.0
 N1,2223,2023-04-09,FC Emmen,Nijmegen,3.42,3.42,0.0
 N1,2223,2023-04-09,Ajax,For Sittard,9.4,9.4,0.0
 N1,2223,2023-04-09,Feyenoord,Waalwijk,7.89,7.89,0.0
+N1,2223,2023-04-09,Twente,Cambuur,5.73,5.73,0.0
 N1,2223,2023-04-14,Excelsior,Go Ahead Eagles,3.54,3.54,0.0
-N1,2223,2023-04-15,Waalwijk,Groningen,3.63,3.63,0.0
 N1,2223,2023-04-15,Sparta Rotterdam,Heerenveen,3.34,3.34,0.0
+N1,2223,2023-04-15,Waalwijk,Groningen,3.63,3.63,0.0
+N1,2223,2023-04-16,Cambuur,Feyenoord,5.87,5.87,0.0
 N1,2223,2023-04-16,Nijmegen,Vitesse,3.38,3.38,0.0
 N1,2223,2023-04-16,Utrecht,Twente,3.46,3.46,0.0
 N1,2223,2023-04-16,Volendam,PSV Eindhoven,6.25,6.25,0.0
-N1,2223,2023-04-16,Cambuur,Feyenoord,5.87,5.87,0.0
 N1,2223,2023-04-16,Ajax,FC Emmen,9.21,9.21,0.0
 N1,2223,2023-04-16,For Sittard,AZ Alkmaar,3.86,3.86,0.0
 N1,2223,2023-04-19,Go Ahead Eagles,Waalwijk,3.63,3.63,0.0
 N1,2223,2023-04-21,Volendam,Cambuur,4.07,4.07,0.0
 N1,2223,2023-04-22,Heerenveen,FC Emmen,3.75,3.75,0.0
 N1,2223,2023-04-22,Vitesse,Excelsior,4.63,4.63,0.0
+N1,2223,2023-04-23,AZ Alkmaar,Waalwijk,5.23,5.23,0.0
+N1,2223,2023-04-23,PSV Eindhoven,Ajax,3.64,3.64,0.0
 N1,2223,2023-04-23,Twente,Sparta Rotterdam,4.22,4.22,0.0
 N1,2223,2023-04-23,Go Ahead Eagles,For Sittard,3.67,3.67,0.0
-N1,2223,2023-04-23,PSV Eindhoven,Ajax,3.64,3.64,0.0
 N1,2223,2023-04-23,Feyenoord,Utrecht,5.25,5.25,0.0
-N1,2223,2023-04-23,AZ Alkmaar,Waalwijk,5.23,5.23,0.0
 N1,2223,2023-04-25,Groningen,Nijmegen,3.33,3.33,0.0
 N1,2223,2023-05-05,Waalwijk,Volendam,4.01,4.01,0.0
+N1,2223,2023-05-06,Nijmegen,Heerenveen,3.56,3.56,0.0
 N1,2223,2023-05-06,Sparta Rotterdam,PSV Eindhoven,4.47,4.47,0.0
 N1,2223,2023-05-06,Cambuur,Utrecht,3.92,3.92,0.0
-N1,2223,2023-05-06,Nijmegen,Heerenveen,3.56,3.56,0.0
 N1,2223,2023-05-06,Ajax,AZ Alkmaar,4.46,4.46,0.0
-N1,2223,2023-05-07,FC Emmen,Twente,3.88,3.88,0.0
 N1,2223,2023-05-07,Excelsior,Feyenoord,7.07,7.07,0.0
 N1,2223,2023-05-07,Go Ahead Eagles,Groningen,3.97,3.97,0.0
 N1,2223,2023-05-07,For Sittard,Vitesse,3.56,3.56,0.0
+N1,2223,2023-05-07,FC Emmen,Twente,3.88,3.88,0.0
 N1,2223,2023-05-12,Twente,Nijmegen,4.81,4.81,0.0
-N1,2223,2023-05-13,Volendam,Sparta Rotterdam,3.63,3.63,0.0
 N1,2223,2023-05-13,Heerenveen,Excelsior,4.62,4.62,0.0
 N1,2223,2023-05-13,Utrecht,Waalwijk,4.42,4.42,0.0
-N1,2223,2023-05-14,Vitesse,Cambuur,5.28,5.28,0.0
+N1,2223,2023-05-13,Volendam,Sparta Rotterdam,3.63,3.63,0.0
 N1,2223,2023-05-14,Feyenoord,Go Ahead Eagles,7.78,7.78,0.0
 N1,2223,2023-05-14,AZ Alkmaar,FC Emmen,5.33,5.33,0.0
 N1,2223,2023-05-14,PSV Eindhoven,For Sittard,10.26,10.26,0.0
 N1,2223,2023-05-14,Groningen,Ajax,6.38,6.38,0.0
-N1,2223,2023-05-21,Ajax,Utrecht,6.51,6.51,0.0
+N1,2223,2023-05-14,Vitesse,Cambuur,5.28,5.28,0.0
 N1,2223,2023-05-21,Excelsior,For Sittard,3.83,3.83,0.0
 N1,2223,2023-05-21,FC Emmen,Feyenoord,4.84,4.84,0.0
 N1,2223,2023-05-21,Go Ahead Eagles,Volendam,4.05,4.05,0.0
@@ -295,7 +295,7 @@ N1,2223,2023-05-21,PSV Eindhoven,Heerenveen,6.66,6.66,0.0
 N1,2223,2023-05-21,Sparta Rotterdam,Cambuur,5.01,5.01,0.0
 N1,2223,2023-05-21,Vitesse,Groningen,4.79,4.79,0.0
 N1,2223,2023-05-21,Waalwijk,Twente,4.19,4.19,0.0
-N1,2223,2023-05-28,AZ Alkmaar,PSV Eindhoven,3.76,3.76,0.0
+N1,2223,2023-05-21,Ajax,Utrecht,6.51,6.51,0.0
 N1,2223,2023-05-28,Cambuur,Waalwijk,3.96,3.96,0.0
 N1,2223,2023-05-28,Feyenoord,Vitesse,6.13,6.13,0.0
 N1,2223,2023-05-28,For Sittard,Nijmegen,3.7,3.7,0.0
@@ -304,3 +304,4 @@ N1,2223,2023-05-28,Heerenveen,Go Ahead Eagles,3.89,3.89,0.0
 N1,2223,2023-05-28,Twente,Ajax,4.25,4.25,0.0
 N1,2223,2023-05-28,Utrecht,FC Emmen,4.5,4.5,0.0
 N1,2223,2023-05-28,Volendam,Excelsior,4.35,4.35,0.0
+N1,2223,2023-05-28,AZ Alkmaar,PSV Eindhoven,3.76,3.76,0.0

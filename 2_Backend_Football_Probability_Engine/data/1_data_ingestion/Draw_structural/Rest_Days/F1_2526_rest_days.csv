@@ -1,117 +1,125 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+F1,2526,2025-08-15,Rennes,Marseille,90,90,False
+F1,2526,2025-08-16,Nice,Toulouse,91,91,False
+F1,2526,2025-08-16,Monaco,Le Havre,91,91,False
+F1,2526,2025-08-16,Lens,Lyon,91,91,False
+F1,2526,2025-08-17,Auxerre,Lorient,92,455,False
+F1,2526,2025-08-17,Metz,Strasbourg,455,92,False
+F1,2526,2025-08-17,Angers,Paris FC,92,92,False
+F1,2526,2025-08-17,Brest,Lille,92,92,False
 F1,2526,2025-08-17,Nantes,Paris FC,92,92,False
-F1,2526,2025-08-22,Paris FC,Angers,5,97,False
-F1,2526,2025-08-23,Marseille,Paris FC,98,1,False
-F1,2526,2025-08-23,Nice,Auxerre,98,98,False
-F1,2526,2025-08-23,Lyon,Metz,98,461,False
-F1,2526,2025-08-24,Lorient,Rennes,462,99,False
-F1,2526,2025-08-24,Le Havre,Lens,99,99,False
-F1,2526,2025-08-24,Strasbourg,Nantes,99,7,False
-F1,2526,2025-08-24,Toulouse,Brest,99,99,False
-F1,2526,2025-08-24,Lille,Monaco,99,99,False
+F1,2526,2025-08-22,Paris FC,Angers,5,5,False
+F1,2526,2025-08-23,Marseille,Paris FC,8,1,False
+F1,2526,2025-08-23,Nice,Auxerre,7,6,False
+F1,2526,2025-08-23,Lyon,Metz,7,6,False
+F1,2526,2025-08-24,Toulouse,Brest,8,7,False
+F1,2526,2025-08-24,Lille,Monaco,7,8,False
+F1,2526,2025-08-24,Strasbourg,Nantes,7,7,False
+F1,2526,2025-08-24,Le Havre,Lens,8,8,False
+F1,2526,2025-08-24,Lorient,Rennes,7,9,False
 F1,2526,2025-08-29,Lens,Brest,5,5,False
+F1,2526,2025-08-30,Toulouse,Paris FC,6,7,False
 F1,2526,2025-08-30,Lorient,Lille,6,6,False
 F1,2526,2025-08-30,Nantes,Auxerre,6,7,False
-F1,2526,2025-08-30,Toulouse,Paris FC,6,7,False
+F1,2526,2025-08-31,Lyon,Marseille,8,8,False
 F1,2526,2025-08-31,Angers,Rennes,9,7,False
 F1,2526,2025-08-31,Le Havre,Nice,7,8,False
 F1,2526,2025-08-31,Monaco,Strasbourg,7,7,False
 F1,2526,2025-08-31,Paris FC,Metz,1,8,False
-F1,2526,2025-08-31,Lyon,Marseille,8,8,False
 F1,2526,2025-09-12,Marseille,Lorient,12,13,False
 F1,2526,2025-09-13,Nice,Nantes,13,14,False
 F1,2526,2025-09-13,Auxerre,Monaco,14,13,False
+F1,2526,2025-09-14,Rennes,Lyon,14,14,False
 F1,2526,2025-09-14,Lille,Toulouse,15,15,False
 F1,2526,2025-09-14,Brest,Paris FC,16,14,False
 F1,2526,2025-09-14,Metz,Angers,14,14,False
 F1,2526,2025-09-14,Paris FC,Lens,14,16,False
 F1,2526,2025-09-14,Strasbourg,Le Havre,14,14,False
-F1,2526,2025-09-14,Rennes,Lyon,14,14,False
 F1,2526,2025-09-19,Lyon,Angers,5,5,False
 F1,2526,2025-09-20,Nantes,Rennes,7,6,False
-F1,2526,2025-09-20,Brest,Nice,6,7,False
 F1,2526,2025-09-20,Lens,Lille,6,6,False
-F1,2526,2025-09-21,Paris FC,Strasbourg,7,7,False
+F1,2526,2025-09-20,Brest,Nice,6,7,False
+F1,2526,2025-09-21,Monaco,Metz,8,7,False
 F1,2526,2025-09-21,Auxerre,Toulouse,8,7,False
 F1,2526,2025-09-21,Le Havre,Lorient,7,9,False
-F1,2526,2025-09-21,Monaco,Metz,8,7,False
+F1,2526,2025-09-21,Paris FC,Strasbourg,7,7,False
 F1,2526,2025-09-22,Marseille,Paris FC,10,1,False
 F1,2526,2025-09-26,Strasbourg,Marseille,5,4,False
+F1,2526,2025-09-27,Paris FC,Auxerre,5,6,False
 F1,2526,2025-09-27,Lorient,Monaco,6,6,False
 F1,2526,2025-09-27,Toulouse,Nantes,6,7,False
-F1,2526,2025-09-27,Paris FC,Auxerre,5,6,False
 F1,2526,2025-09-28,Nice,Paris FC,8,1,False
 F1,2526,2025-09-28,Angers,Brest,9,8,False
 F1,2526,2025-09-28,Lille,Lyon,8,9,False
 F1,2526,2025-09-28,Metz,Le Havre,7,7,False
 F1,2526,2025-09-28,Rennes,Lens,8,8,False
 F1,2526,2025-10-03,Paris FC,Lorient,5,6,False
-F1,2526,2025-10-04,Metz,Marseille,6,8,False
-F1,2526,2025-10-04,Brest,Nantes,6,7,False
 F1,2526,2025-10-04,Auxerre,Lens,7,6,False
-F1,2526,2025-10-05,Lyon,Toulouse,7,8,False
+F1,2526,2025-10-04,Brest,Nantes,6,7,False
+F1,2526,2025-10-04,Metz,Marseille,6,8,False
 F1,2526,2025-10-05,Le Havre,Rennes,7,7,False
 F1,2526,2025-10-05,Monaco,Nice,8,7,False
 F1,2526,2025-10-05,Strasbourg,Angers,9,7,False
 F1,2526,2025-10-05,Lille,Paris FC,7,2,False
+F1,2526,2025-10-05,Lyon,Toulouse,7,8,False
 F1,2526,2025-10-17,Paris FC,Strasbourg,12,12,False
+F1,2526,2025-10-18,Marseille,Le Havre,14,13,False
 F1,2526,2025-10-18,Nice,Lyon,13,13,False
 F1,2526,2025-10-18,Angers,Monaco,13,13,False
-F1,2526,2025-10-18,Marseille,Le Havre,14,13,False
 F1,2526,2025-10-19,Lens,Paris FC,15,2,False
 F1,2526,2025-10-19,Lorient,Brest,16,15,False
 F1,2526,2025-10-19,Rennes,Auxerre,14,15,False
 F1,2526,2025-10-19,Toulouse,Metz,14,15,False
 F1,2526,2025-10-19,Nantes,Lille,15,14,False
 F1,2526,2025-10-24,Paris FC,Nantes,5,5,False
-F1,2526,2025-10-25,Brest,Paris FC,6,1,False
 F1,2526,2025-10-25,Monaco,Toulouse,7,6,False
+F1,2526,2025-10-25,Brest,Paris FC,6,1,False
 F1,2526,2025-10-25,Lens,Marseille,6,7,False
-F1,2526,2025-10-26,Lille,Metz,7,7,False
-F1,2526,2025-10-26,Angers,Lorient,8,7,False
 F1,2526,2025-10-26,Auxerre,Le Havre,7,8,False
-F1,2526,2025-10-26,Rennes,Nice,7,8,False
+F1,2526,2025-10-26,Angers,Lorient,8,7,False
+F1,2526,2025-10-26,Lille,Metz,7,7,False
 F1,2526,2025-10-26,Lyon,Strasbourg,8,9,False
+F1,2526,2025-10-26,Rennes,Nice,7,8,False
+F1,2526,2025-10-29,Nice,Lille,3,3,True
 F1,2526,2025-10-29,Le Havre,Brest,3,4,True
 F1,2526,2025-10-29,Lorient,Paris FC,3,4,True
 F1,2526,2025-10-29,Metz,Lens,3,4,True
-F1,2526,2025-10-29,Nice,Lille,3,3,True
 F1,2526,2025-10-29,Marseille,Angers,4,3,True
 F1,2526,2025-10-29,Nantes,Monaco,5,4,True
 F1,2526,2025-10-29,Paris FC,Lyon,4,3,True
 F1,2526,2025-10-29,Strasbourg,Auxerre,3,3,True
 F1,2526,2025-10-29,Toulouse,Rennes,4,3,True
-F1,2526,2025-11-01,Paris FC,Nice,3,3,False
 F1,2526,2025-11-01,Monaco,Paris FC,3,3,False
 F1,2526,2025-11-01,Auxerre,Marseille,3,3,False
-F1,2526,2025-11-02,Rennes,Strasbourg,4,4,False
-F1,2526,2025-11-02,Lens,Lorient,4,4,False
-F1,2526,2025-11-02,Lille,Angers,4,4,False
+F1,2526,2025-11-01,Paris FC,Nice,3,3,False
 F1,2526,2025-11-02,Nantes,Metz,4,4,False
 F1,2526,2025-11-02,Toulouse,Le Havre,4,4,False
 F1,2526,2025-11-02,Brest,Lyon,4,4,False
+F1,2526,2025-11-02,Rennes,Strasbourg,4,4,False
+F1,2526,2025-11-02,Lens,Lorient,4,4,False
+F1,2526,2025-11-02,Lille,Angers,4,4,False
 F1,2526,2025-11-07,Paris FC,Rennes,6,5,False
-F1,2526,2025-11-08,Marseille,Brest,7,6,False
-F1,2526,2025-11-08,Le Havre,Nantes,6,6,False
 F1,2526,2025-11-08,Monaco,Lens,7,6,False
+F1,2526,2025-11-08,Le Havre,Nantes,6,6,False
+F1,2526,2025-11-08,Marseille,Brest,7,6,False
+F1,2526,2025-11-09,Metz,Nice,7,8,False
 F1,2526,2025-11-09,Lorient,Toulouse,7,7,False
 F1,2526,2025-11-09,Angers,Auxerre,7,8,False
-F1,2526,2025-11-09,Metz,Nice,7,8,False
 F1,2526,2025-11-09,Strasbourg,Lille,7,7,False
 F1,2526,2025-11-09,Lyon,Paris FC,7,2,False
 F1,2526,2025-11-21,Nice,Marseille,12,13,False
+F1,2526,2025-11-22,Paris FC,Le Havre,13,14,False
 F1,2526,2025-11-22,Lens,Strasbourg,14,13,False
 F1,2526,2025-11-22,Rennes,Monaco,15,14,False
-F1,2526,2025-11-22,Paris FC,Le Havre,13,14,False
+F1,2526,2025-11-23,Toulouse,Angers,14,14,False
+F1,2526,2025-11-23,Lille,Paris FC,14,1,False
 F1,2526,2025-11-23,Auxerre,Lyon,14,14,False
 F1,2526,2025-11-23,Brest,Metz,15,14,False
 F1,2526,2025-11-23,Nantes,Lorient,15,14,False
-F1,2526,2025-11-23,Toulouse,Angers,14,14,False
-F1,2526,2025-11-23,Lille,Paris FC,14,1,False
 F1,2526,2025-11-28,Metz,Rennes,5,6,False
+F1,2526,2025-11-29,Marseille,Toulouse,8,6,False
 F1,2526,2025-11-29,Monaco,Paris FC,7,6,False
 F1,2526,2025-11-29,Paris FC,Auxerre,6,6,False
-F1,2526,2025-11-29,Marseille,Toulouse,8,6,False
 F1,2526,2025-11-30,Strasbourg,Brest,8,7,False
 F1,2526,2025-11-30,Angers,Lens,7,8,False
 F1,2526,2025-11-30,Le Havre,Lille,8,7,False
@@ -119,28 +127,28 @@ F1,2526,2025-11-30,Lorient,Nice,7,9,False
 F1,2526,2025-11-30,Lyon,Nantes,7,7,False
 F1,2526,2025-12-05,Brest,Monaco,5,6,False
 F1,2526,2025-12-05,Lille,Marseille,5,6,False
+F1,2526,2025-12-06,Paris FC,Rennes,7,8,False
 F1,2526,2025-12-06,Nantes,Lens,6,6,False
 F1,2526,2025-12-06,Toulouse,Strasbourg,7,6,False
-F1,2526,2025-12-06,Paris FC,Rennes,7,8,False
-F1,2526,2025-12-07,Nice,Angers,7,7,False
-F1,2526,2025-12-07,Auxerre,Metz,8,9,False
-F1,2526,2025-12-07,Le Havre,Paris FC,7,1,False
 F1,2526,2025-12-07,Lorient,Lyon,7,7,False
+F1,2526,2025-12-07,Le Havre,Paris FC,7,1,False
+F1,2526,2025-12-07,Auxerre,Metz,8,9,False
+F1,2526,2025-12-07,Nice,Angers,7,7,False
 F1,2526,2025-12-12,Angers,Nantes,5,6,False
-F1,2526,2025-12-13,Rennes,Brest,7,8,False
 F1,2526,2025-12-13,Metz,Paris FC,6,6,False
 F1,2526,2025-12-13,Paris FC,Toulouse,6,7,False
+F1,2526,2025-12-13,Rennes,Brest,7,8,False
+F1,2526,2025-12-14,Marseille,Monaco,9,9,False
 F1,2526,2025-12-14,Lyon,Le Havre,7,7,False
 F1,2526,2025-12-14,Auxerre,Lille,7,9,False
 F1,2526,2025-12-14,Lens,Nice,8,7,False
 F1,2526,2025-12-14,Strasbourg,Lorient,8,7,False
-F1,2526,2025-12-14,Marseille,Monaco,9,9,False
 F1,2526,2026-01-02,Toulouse,Lens,20,19,False
-F1,2526,2026-01-03,Monaco,Lyon,20,20,False
-F1,2526,2026-01-03,Nice,Strasbourg,20,20,False
 F1,2526,2026-01-03,Lille,Rennes,20,21,False
+F1,2526,2026-01-03,Nice,Strasbourg,20,20,False
+F1,2526,2026-01-03,Monaco,Lyon,20,20,False
+F1,2526,2026-01-04,Paris FC,Paris FC,22,22,False
+F1,2526,2026-01-04,Lorient,Metz,21,22,False
 F1,2526,2026-01-04,Marseille,Nantes,21,23,False
 F1,2526,2026-01-04,Brest,Auxerre,22,21,False
 F1,2526,2026-01-04,Le Havre,Angers,21,23,False
-F1,2526,2026-01-04,Lorient,Metz,21,22,False
-F1,2526,2026-01-04,Paris FC,Paris FC,22,22,False

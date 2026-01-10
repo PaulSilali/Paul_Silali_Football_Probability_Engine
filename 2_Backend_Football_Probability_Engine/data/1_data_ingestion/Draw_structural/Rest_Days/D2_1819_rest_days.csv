@@ -1,71 +1,71 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 D2,1819,2018-08-03,Hamburg,Holstein Kiel,7,30,False
-D2,1819,2018-08-04,Bochum,FC Koln,60,7,False
-D2,1819,2018-08-04,Regensburg,Ingolstadt,60,60,False
 D2,1819,2018-08-04,Greuther Furth,Sandhausen,60,60,False
-D2,1819,2018-08-05,Union Berlin,Erzgebirge Aue,32,32,False
+D2,1819,2018-08-04,Regensburg,Ingolstadt,60,60,False
+D2,1819,2018-08-04,Bochum,FC Koln,60,7,False
 D2,1819,2018-08-05,Magdeburg,St Pauli,7,32,False
-D2,1819,2018-08-05,Heidenheim,Bielefeld,32,1,False
+D2,1819,2018-08-05,Union Berlin,Erzgebirge Aue,32,32,False
 D2,1819,2018-08-05,Darmstadt,Paderborn,32,7,False
+D2,1819,2018-08-05,Heidenheim,Bielefeld,32,1,False
 D2,1819,2018-08-06,Dresden,Duisburg,2,33,False
-D2,1819,2018-08-10,Paderborn,Regensburg,5,6,False
 D2,1819,2018-08-10,St Pauli,Darmstadt,5,5,False
 D2,1819,2018-08-10,Ingolstadt,Greuther Furth,6,6,False
+D2,1819,2018-08-10,Paderborn,Regensburg,5,6,False
 D2,1819,2018-08-11,Bielefeld,Dresden,6,5,False
 D2,1819,2018-08-11,Duisburg,Bochum,5,7,False
+D2,1819,2018-08-12,Erzgebirge Aue,Magdeburg,7,7,False
 D2,1819,2018-08-12,Holstein Kiel,Heidenheim,9,7,False
 D2,1819,2018-08-12,Sandhausen,Hamburg,8,9,False
-D2,1819,2018-08-12,Erzgebirge Aue,Magdeburg,7,7,False
 D2,1819,2018-08-13,FC Koln,Union Berlin,9,8,False
 D2,1819,2018-08-24,Bochum,Sandhausen,13,12,False
 D2,1819,2018-08-24,Darmstadt,Duisburg,14,13,False
+D2,1819,2018-08-25,Magdeburg,Ingolstadt,13,15,False
 D2,1819,2018-08-25,FC Koln,Erzgebirge Aue,12,13,False
 D2,1819,2018-08-25,Greuther Furth,Paderborn,15,15,False
-D2,1819,2018-08-25,Magdeburg,Ingolstadt,13,15,False
-D2,1819,2018-08-26,Dresden,Heidenheim,15,14,False
-D2,1819,2018-08-26,Regensburg,Holstein Kiel,16,14,False
 D2,1819,2018-08-26,Union Berlin,St Pauli,13,16,False
+D2,1819,2018-08-26,Regensburg,Holstein Kiel,16,14,False
+D2,1819,2018-08-26,Dresden,Heidenheim,15,14,False
 D2,1819,2018-08-27,Hamburg,Bielefeld,15,16,False
-D2,1819,2018-08-31,Paderborn,Bochum,6,7,False
 D2,1819,2018-08-31,Ingolstadt,Erzgebirge Aue,6,6,False
+D2,1819,2018-08-31,Paderborn,Bochum,6,7,False
 D2,1819,2018-09-01,Bielefeld,Regensburg,5,6,False
 D2,1819,2018-09-01,Duisburg,Greuther Furth,8,7,False
-D2,1819,2018-09-02,Heidenheim,Darmstadt,7,9,False
 D2,1819,2018-09-02,St Pauli,FC Koln,7,8,False
+D2,1819,2018-09-02,Heidenheim,Darmstadt,7,9,False
 D2,1819,2018-09-02,Sandhausen,Union Berlin,9,7,False
 D2,1819,2018-09-03,Holstein Kiel,Magdeburg,1,9,False
-D2,1819,2018-09-14,Regensburg,Dresden,13,11,False
 D2,1819,2018-09-14,Union Berlin,Duisburg,12,13,False
+D2,1819,2018-09-14,Regensburg,Dresden,13,11,False
 D2,1819,2018-09-15,Darmstadt,Sandhausen,13,13,False
 D2,1819,2018-09-15,Hamburg,Heidenheim,19,12,False
 D2,1819,2018-09-15,Greuther Furth,Holstein Kiel,14,12,False
 D2,1819,2018-09-16,FC Koln,Paderborn,14,16,False
-D2,1819,2018-09-16,Erzgebirge Aue,St Pauli,16,14,False
 D2,1819,2018-09-16,Bochum,Ingolstadt,14,16,False
+D2,1819,2018-09-16,Erzgebirge Aue,St Pauli,16,14,False
 D2,1819,2018-09-17,Magdeburg,Bielefeld,14,14,False
 D2,1819,2018-09-18,Dresden,Hamburg,4,3,True
 D2,1819,2018-09-21,Sandhausen,FC Koln,6,5,False
 D2,1819,2018-09-21,Ingolstadt,St Pauli,5,5,False
-D2,1819,2018-09-22,Holstein Kiel,Bochum,7,6,False
 D2,1819,2018-09-22,Dresden,Darmstadt,4,7,False
 D2,1819,2018-09-22,Bielefeld,Union Berlin,5,8,False
+D2,1819,2018-09-22,Holstein Kiel,Bochum,7,6,False
 D2,1819,2018-09-23,Paderborn,Magdeburg,7,6,False
-D2,1819,2018-09-23,Hamburg,Regensburg,5,9,False
 D2,1819,2018-09-23,Duisburg,Erzgebirge Aue,9,7,False
 D2,1819,2018-09-23,Heidenheim,Greuther Furth,8,8,False
-D2,1819,2018-09-25,Union Berlin,Holstein Kiel,3,3,True
-D2,1819,2018-09-25,Bochum,Dresden,3,3,True
+D2,1819,2018-09-23,Hamburg,Regensburg,5,9,False
 D2,1819,2018-09-25,Darmstadt,Bielefeld,3,3,True
+D2,1819,2018-09-25,Bochum,Dresden,3,3,True
+D2,1819,2018-09-25,Union Berlin,Holstein Kiel,3,3,True
 D2,1819,2018-09-25,FC Koln,Ingolstadt,4,4,True
-D2,1819,2018-09-26,Regensburg,Heidenheim,3,3,True
-D2,1819,2018-09-26,St Pauli,Paderborn,5,3,True
-D2,1819,2018-09-26,Magdeburg,Duisburg,3,3,True
 D2,1819,2018-09-26,Erzgebirge Aue,Sandhausen,3,5,True
+D2,1819,2018-09-26,St Pauli,Paderborn,5,3,True
+D2,1819,2018-09-26,Regensburg,Heidenheim,3,3,True
+D2,1819,2018-09-26,Magdeburg,Duisburg,3,3,True
 D2,1819,2018-09-27,Greuther Furth,Hamburg,4,4,True
-D2,1819,2018-09-28,Bielefeld,FC Koln,3,3,False
 D2,1819,2018-09-28,Holstein Kiel,Darmstadt,3,3,False
-D2,1819,2018-09-29,Heidenheim,Bochum,3,4,False
+D2,1819,2018-09-28,Bielefeld,FC Koln,3,3,False
 D2,1819,2018-09-29,Duisburg,Regensburg,3,3,False
+D2,1819,2018-09-29,Heidenheim,Bochum,3,4,False
 D2,1819,2018-09-29,Paderborn,Erzgebirge Aue,3,3,False
 D2,1819,2018-09-30,Sandhausen,Magdeburg,4,4,False
 D2,1819,2018-09-30,Hamburg,St Pauli,3,4,False
@@ -76,122 +76,122 @@ D2,1819,2018-10-05,Darmstadt,Hamburg,2,5,False
 D2,1819,2018-10-06,Magdeburg,Dresden,6,6,False
 D2,1819,2018-10-06,Erzgebirge Aue,Holstein Kiel,7,3,False
 D2,1819,2018-10-06,Greuther Furth,Regensburg,3,4,False
-D2,1819,2018-10-07,Ingolstadt,Paderborn,4,8,False
 D2,1819,2018-10-07,Union Berlin,Heidenheim,5,5,False
 D2,1819,2018-10-07,St Pauli,Sandhausen,4,7,False
+D2,1819,2018-10-07,Ingolstadt,Paderborn,4,8,False
 D2,1819,2018-10-08,FC Koln,Duisburg,10,6,False
 D2,1819,2018-10-19,Sandhausen,Ingolstadt,12,12,False
 D2,1819,2018-10-19,Dresden,Erzgebirge Aue,13,13,False
+D2,1819,2018-10-20,Bielefeld,Greuther Furth,15,14,False
 D2,1819,2018-10-20,Heidenheim,Magdeburg,13,14,False
 D2,1819,2018-10-20,Holstein Kiel,FC Koln,14,12,False
-D2,1819,2018-10-20,Bielefeld,Greuther Furth,15,14,False
-D2,1819,2018-10-21,Paderborn,Union Berlin,14,14,False
-D2,1819,2018-10-21,Regensburg,Darmstadt,15,16,False
 D2,1819,2018-10-21,Hamburg,Bochum,16,16,False
+D2,1819,2018-10-21,Regensburg,Darmstadt,15,16,False
+D2,1819,2018-10-21,Paderborn,Union Berlin,14,14,False
 D2,1819,2018-10-22,Duisburg,St Pauli,14,15,False
-D2,1819,2018-10-26,Magdeburg,Hamburg,6,5,False
 D2,1819,2018-10-26,Darmstadt,Greuther Furth,5,6,False
+D2,1819,2018-10-26,Magdeburg,Hamburg,6,5,False
 D2,1819,2018-10-27,FC Koln,Heidenheim,7,7,False
-D2,1819,2018-10-27,Paderborn,Sandhausen,6,8,False
 D2,1819,2018-10-27,Erzgebirge Aue,Bielefeld,8,7,False
-D2,1819,2018-10-28,St Pauli,Holstein Kiel,6,8,False
+D2,1819,2018-10-27,Paderborn,Sandhausen,6,8,False
 D2,1819,2018-10-28,Union Berlin,Dresden,7,9,False
+D2,1819,2018-10-28,St Pauli,Holstein Kiel,6,8,False
 D2,1819,2018-10-28,Ingolstadt,Duisburg,9,6,False
 D2,1819,2018-10-29,Bochum,Regensburg,8,8,False
 D2,1819,2018-11-02,Dresden,Sandhausen,5,6,False
 D2,1819,2018-11-02,Greuther Furth,Bochum,7,4,False
+D2,1819,2018-11-03,Holstein Kiel,Ingolstadt,6,1,False
 D2,1819,2018-11-03,Darmstadt,Magdeburg,8,8,False
 D2,1819,2018-11-03,Duisburg,Paderborn,6,7,False
-D2,1819,2018-11-03,Holstein Kiel,Ingolstadt,6,1,False
 D2,1819,2018-11-04,Regensburg,Union Berlin,1,1,False
-D2,1819,2018-11-04,Bielefeld,St Pauli,8,7,False
 D2,1819,2018-11-04,Heidenheim,Erzgebirge Aue,8,1,False
+D2,1819,2018-11-04,Bielefeld,St Pauli,8,7,False
 D2,1819,2018-11-05,Hamburg,FC Koln,10,9,False
-D2,1819,2018-11-09,Paderborn,Holstein Kiel,6,6,False
 D2,1819,2018-11-09,Sandhausen,Duisburg,6,6,False
-D2,1819,2018-11-10,Erzgebirge Aue,Hamburg,6,5,False
-D2,1819,2018-11-10,FC Koln,Dresden,5,8,False
+D2,1819,2018-11-09,Paderborn,Holstein Kiel,6,6,False
 D2,1819,2018-11-10,St Pauli,Heidenheim,6,6,False
+D2,1819,2018-11-10,FC Koln,Dresden,5,8,False
+D2,1819,2018-11-10,Erzgebirge Aue,Hamburg,6,5,False
 D2,1819,2018-11-11,Magdeburg,Regensburg,8,7,False
 D2,1819,2018-11-11,Union Berlin,Greuther Furth,7,9,False
 D2,1819,2018-11-11,Ingolstadt,Bielefeld,8,7,False
 D2,1819,2018-11-12,Bochum,Darmstadt,10,9,False
 D2,1819,2018-11-23,Greuther Furth,Magdeburg,12,12,False
 D2,1819,2018-11-23,Bielefeld,Duisburg,12,14,False
-D2,1819,2018-11-24,Darmstadt,FC Koln,12,14,False
-D2,1819,2018-11-24,Holstein Kiel,Sandhausen,15,15,False
 D2,1819,2018-11-24,Bochum,Erzgebirge Aue,12,14,False
+D2,1819,2018-11-24,Holstein Kiel,Sandhausen,15,15,False
+D2,1819,2018-11-24,Darmstadt,FC Koln,12,14,False
+D2,1819,2018-11-25,Dresden,Ingolstadt,15,14,False
 D2,1819,2018-11-25,Heidenheim,Paderborn,15,16,False
 D2,1819,2018-11-25,Regensburg,St Pauli,14,15,False
-D2,1819,2018-11-25,Dresden,Ingolstadt,15,14,False
 D2,1819,2018-11-26,Hamburg,Union Berlin,16,15,False
-D2,1819,2018-11-30,Erzgebirge Aue,Regensburg,6,5,False
 D2,1819,2018-11-30,Paderborn,Bielefeld,5,7,False
-D2,1819,2018-12-01,Union Berlin,Darmstadt,5,7,False
-D2,1819,2018-12-01,FC Koln,Greuther Furth,7,8,False
+D2,1819,2018-11-30,Erzgebirge Aue,Regensburg,6,5,False
 D2,1819,2018-12-01,Ingolstadt,Hamburg,6,5,False
+D2,1819,2018-12-01,Union Berlin,Darmstadt,5,7,False
 D2,1819,2018-12-01,St Pauli,Dresden,6,6,False
+D2,1819,2018-12-01,FC Koln,Greuther Furth,7,8,False
 D2,1819,2018-12-02,Magdeburg,Bochum,9,8,False
 D2,1819,2018-12-02,Sandhausen,Heidenheim,8,7,False
 D2,1819,2018-12-02,Duisburg,Holstein Kiel,9,8,False
-D2,1819,2018-12-07,Regensburg,FC Koln,7,6,False
 D2,1819,2018-12-07,Hamburg,Paderborn,6,7,False
+D2,1819,2018-12-07,Regensburg,FC Koln,7,6,False
+D2,1819,2018-12-08,Darmstadt,Ingolstadt,7,7,False
 D2,1819,2018-12-08,Greuther Furth,Erzgebirge Aue,7,8,False
 D2,1819,2018-12-08,Heidenheim,Duisburg,6,6,False
-D2,1819,2018-12-08,Darmstadt,Ingolstadt,7,7,False
-D2,1819,2018-12-09,Dresden,Holstein Kiel,8,7,False
-D2,1819,2018-12-09,Magdeburg,Union Berlin,7,8,False
 D2,1819,2018-12-09,Bielefeld,Sandhausen,9,7,False
+D2,1819,2018-12-09,Magdeburg,Union Berlin,7,8,False
+D2,1819,2018-12-09,Dresden,Holstein Kiel,8,7,False
 D2,1819,2018-12-10,Bochum,St Pauli,8,8,False
-D2,1819,2018-12-14,Holstein Kiel,Bielefeld,5,5,False
 D2,1819,2018-12-14,Duisburg,Hamburg,6,7,False
+D2,1819,2018-12-14,Holstein Kiel,Bielefeld,5,5,False
 D2,1819,2018-12-15,St Pauli,Greuther Furth,5,7,False
-D2,1819,2018-12-15,Union Berlin,Bochum,6,5,False
 D2,1819,2018-12-15,Paderborn,Dresden,8,6,False
-D2,1819,2018-12-16,Ingolstadt,Heidenheim,8,8,False
+D2,1819,2018-12-15,Union Berlin,Bochum,6,5,False
 D2,1819,2018-12-16,Erzgebirge Aue,Darmstadt,8,8,False
+D2,1819,2018-12-16,Ingolstadt,Heidenheim,8,8,False
 D2,1819,2018-12-16,Sandhausen,Regensburg,7,9,False
 D2,1819,2018-12-17,FC Koln,Magdeburg,10,8,False
 D2,1819,2018-12-21,Sandhausen,Greuther Furth,5,6,False
 D2,1819,2018-12-21,FC Koln,Bochum,4,6,False
-D2,1819,2018-12-22,St Pauli,Magdeburg,7,5,False
 D2,1819,2018-12-22,Ingolstadt,Regensburg,6,6,False
+D2,1819,2018-12-22,St Pauli,Magdeburg,7,5,False
 D2,1819,2018-12-22,Bielefeld,Heidenheim,8,6,False
-D2,1819,2018-12-23,Erzgebirge Aue,Union Berlin,7,8,False
-D2,1819,2018-12-23,Duisburg,Dresden,9,8,False
 D2,1819,2018-12-23,Paderborn,Darmstadt,8,7,False
 D2,1819,2018-12-23,Holstein Kiel,Hamburg,9,9,False
-D2,1819,2019-01-29,Darmstadt,St Pauli,37,38,True
+D2,1819,2018-12-23,Erzgebirge Aue,Union Berlin,7,8,False
+D2,1819,2018-12-23,Duisburg,Dresden,9,8,False
 D2,1819,2019-01-29,Greuther Furth,Ingolstadt,39,38,True
-D2,1819,2019-01-29,Magdeburg,Erzgebirge Aue,38,37,True
+D2,1819,2019-01-29,Darmstadt,St Pauli,37,38,True
 D2,1819,2019-01-29,Bochum,Duisburg,39,37,True
-D2,1819,2019-01-30,Hamburg,Sandhausen,38,40,True
+D2,1819,2019-01-29,Magdeburg,Erzgebirge Aue,38,37,True
 D2,1819,2019-01-30,Heidenheim,Holstein Kiel,39,38,True
-D2,1819,2019-01-30,Regensburg,Paderborn,39,38,True
+D2,1819,2019-01-30,Hamburg,Sandhausen,38,40,True
 D2,1819,2019-01-30,Dresden,Bielefeld,38,39,True
+D2,1819,2019-01-30,Regensburg,Paderborn,39,38,True
 D2,1819,2019-01-31,Union Berlin,FC Koln,39,41,True
-D2,1819,2019-02-01,Duisburg,Darmstadt,3,3,False
 D2,1819,2019-02-01,Ingolstadt,Magdeburg,3,3,False
-D2,1819,2019-02-02,Bielefeld,Hamburg,3,3,False
-D2,1819,2019-02-02,Heidenheim,Dresden,3,3,False
+D2,1819,2019-02-01,Duisburg,Darmstadt,3,3,False
 D2,1819,2019-02-02,Paderborn,Greuther Furth,3,4,False
+D2,1819,2019-02-02,Heidenheim,Dresden,3,3,False
+D2,1819,2019-02-02,Bielefeld,Hamburg,3,3,False
 D2,1819,2019-02-03,Sandhausen,Bochum,4,5,False
 D2,1819,2019-02-03,Holstein Kiel,Regensburg,4,4,False
 D2,1819,2019-02-04,St Pauli,Union Berlin,6,4,False
-D2,1819,2019-02-08,Regensburg,Bielefeld,5,6,False
 D2,1819,2019-02-08,FC Koln,St Pauli,8,4,False
+D2,1819,2019-02-08,Regensburg,Bielefeld,5,6,False
 D2,1819,2019-02-09,Greuther Furth,Duisburg,7,8,False
 D2,1819,2019-02-09,Union Berlin,Sandhausen,5,6,False
 D2,1819,2019-02-09,Bochum,Paderborn,6,7,False
 D2,1819,2019-02-10,Darmstadt,Heidenheim,9,8,False
-D2,1819,2019-02-10,Erzgebirge Aue,Ingolstadt,12,9,False
 D2,1819,2019-02-10,Magdeburg,Holstein Kiel,9,7,False
+D2,1819,2019-02-10,Erzgebirge Aue,Ingolstadt,12,9,False
 D2,1819,2019-02-11,Hamburg,Dresden,9,9,False
-D2,1819,2019-02-15,Sandhausen,Darmstadt,6,5,False
 D2,1819,2019-02-15,Paderborn,FC Koln,6,7,False
+D2,1819,2019-02-15,Sandhausen,Darmstadt,6,5,False
+D2,1819,2019-02-16,Ingolstadt,Bochum,6,7,False
 D2,1819,2019-02-16,Duisburg,Union Berlin,7,7,False
 D2,1819,2019-02-16,Heidenheim,Hamburg,6,5,False
-D2,1819,2019-02-16,Ingolstadt,Bochum,6,7,False
 D2,1819,2019-02-16,St Pauli,Erzgebirge Aue,8,6,False
 D2,1819,2019-02-17,Bielefeld,Magdeburg,9,7,False
 D2,1819,2019-02-17,Dresden,Regensburg,6,9,False
@@ -202,106 +202,106 @@ D2,1819,2019-02-23,Darmstadt,Dresden,8,6,False
 D2,1819,2019-02-23,FC Koln,Sandhausen,8,8,False
 D2,1819,2019-02-23,St Pauli,Ingolstadt,7,7,False
 D2,1819,2019-02-23,Bochum,Holstein Kiel,7,6,False
-D2,1819,2019-02-24,Magdeburg,Paderborn,7,9,False
 D2,1819,2019-02-24,Regensburg,Hamburg,7,8,False
+D2,1819,2019-02-24,Magdeburg,Paderborn,7,9,False
 D2,1819,2019-02-24,Erzgebirge Aue,Duisburg,8,8,False
 D2,1819,2019-02-27,Erzgebirge Aue,FC Koln,3,4,True
-D2,1819,2019-03-01,Holstein Kiel,Union Berlin,6,7,False
 D2,1819,2019-03-01,Duisburg,Magdeburg,5,5,False
+D2,1819,2019-03-01,Holstein Kiel,Union Berlin,6,7,False
 D2,1819,2019-03-02,Paderborn,St Pauli,6,7,False
-D2,1819,2019-03-02,Sandhausen,Erzgebirge Aue,7,3,False
 D2,1819,2019-03-02,Heidenheim,Regensburg,8,6,False
+D2,1819,2019-03-02,Sandhausen,Erzgebirge Aue,7,3,False
 D2,1819,2019-03-03,Dresden,Bochum,8,8,False
 D2,1819,2019-03-03,Ingolstadt,FC Koln,8,4,False
 D2,1819,2019-03-03,Bielefeld,Darmstadt,9,8,False
 D2,1819,2019-03-04,Hamburg,Greuther Furth,8,10,False
 D2,1819,2019-03-08,Union Berlin,Ingolstadt,7,5,False
 D2,1819,2019-03-08,Bochum,Heidenheim,5,6,False
-D2,1819,2019-03-09,Erzgebirge Aue,Paderborn,7,7,False
 D2,1819,2019-03-09,FC Koln,Bielefeld,6,6,False
-D2,1819,2019-03-09,Regensburg,Duisburg,7,8,False
+D2,1819,2019-03-09,Erzgebirge Aue,Paderborn,7,7,False
 D2,1819,2019-03-09,Darmstadt,Holstein Kiel,6,8,False
-D2,1819,2019-03-10,St Pauli,Hamburg,8,6,False
+D2,1819,2019-03-09,Regensburg,Duisburg,7,8,False
 D2,1819,2019-03-10,Magdeburg,Sandhausen,9,8,False
-D2,1819,2019-03-15,Holstein Kiel,Erzgebirge Aue,6,6,False
+D2,1819,2019-03-10,St Pauli,Hamburg,8,6,False
 D2,1819,2019-03-15,Heidenheim,Union Berlin,7,7,False
-D2,1819,2019-03-16,Hamburg,Darmstadt,6,7,False
+D2,1819,2019-03-15,Holstein Kiel,Erzgebirge Aue,6,6,False
 D2,1819,2019-03-16,Sandhausen,St Pauli,6,6,False
+D2,1819,2019-03-16,Hamburg,Darmstadt,6,7,False
 D2,1819,2019-03-16,Dresden,Magdeburg,13,6,False
-D2,1819,2019-03-17,Paderborn,Ingolstadt,8,9,False
 D2,1819,2019-03-17,Bielefeld,Bochum,8,9,False
+D2,1819,2019-03-17,Paderborn,Ingolstadt,8,9,False
 D2,1819,2019-03-18,Regensburg,Greuther Furth,9,14,False
 D2,1819,2019-03-29,Magdeburg,Heidenheim,13,14,False
 D2,1819,2019-03-29,St Pauli,Duisburg,13,20,False
-D2,1819,2019-03-30,Union Berlin,Paderborn,15,13,False
 D2,1819,2019-03-30,Bochum,Hamburg,13,14,False
+D2,1819,2019-03-30,Union Berlin,Paderborn,15,13,False
 D2,1819,2019-03-30,Darmstadt,Regensburg,14,12,False
 D2,1819,2019-03-31,Greuther Furth,Bielefeld,13,14,False
-D2,1819,2019-03-31,Ingolstadt,Sandhausen,14,15,False
 D2,1819,2019-03-31,FC Koln,Holstein Kiel,22,16,False
+D2,1819,2019-03-31,Ingolstadt,Sandhausen,14,15,False
 D2,1819,2019-04-01,Erzgebirge Aue,Dresden,17,16,False
 D2,1819,2019-04-04,Greuther Furth,Dresden,4,3,True
 D2,1819,2019-04-05,Regensburg,Bochum,6,6,False
 D2,1819,2019-04-05,Bielefeld,Erzgebirge Aue,5,4,False
+D2,1819,2019-04-06,Duisburg,Ingolstadt,8,6,False
 D2,1819,2019-04-06,Holstein Kiel,St Pauli,6,8,False
 D2,1819,2019-04-06,Sandhausen,Paderborn,6,7,False
-D2,1819,2019-04-06,Duisburg,Ingolstadt,8,6,False
-D2,1819,2019-04-07,Greuther Furth,Darmstadt,3,8,False
-D2,1819,2019-04-07,Heidenheim,FC Koln,9,7,False
 D2,1819,2019-04-07,Dresden,Union Berlin,3,8,False
+D2,1819,2019-04-07,Heidenheim,FC Koln,9,7,False
+D2,1819,2019-04-07,Greuther Furth,Darmstadt,3,8,False
 D2,1819,2019-04-08,Hamburg,Magdeburg,9,10,False
 D2,1819,2019-04-10,Duisburg,FC Koln,4,3,True
 D2,1819,2019-04-12,Union Berlin,Regensburg,5,7,False
 D2,1819,2019-04-12,Erzgebirge Aue,Heidenheim,7,5,False
-D2,1819,2019-04-13,Paderborn,Duisburg,7,3,False
 D2,1819,2019-04-13,Sandhausen,Dresden,7,6,False
+D2,1819,2019-04-13,Paderborn,Duisburg,7,3,False
 D2,1819,2019-04-13,Magdeburg,Darmstadt,5,6,False
 D2,1819,2019-04-14,Ingolstadt,Holstein Kiel,8,8,False
 D2,1819,2019-04-14,St Pauli,Bielefeld,8,9,False
 D2,1819,2019-04-14,Bochum,Greuther Furth,9,7,False
 D2,1819,2019-04-15,FC Koln,Hamburg,5,7,False
-D2,1819,2019-04-20,Greuther Furth,Union Berlin,6,8,False
 D2,1819,2019-04-20,Hamburg,Erzgebirge Aue,5,8,False
-D2,1819,2019-04-20,Holstein Kiel,Paderborn,6,7,False
 D2,1819,2019-04-20,Duisburg,Sandhausen,7,7,False
-D2,1819,2019-04-21,Darmstadt,Bochum,8,7,False
-D2,1819,2019-04-21,Dresden,FC Koln,8,6,False
-D2,1819,2019-04-21,Heidenheim,St Pauli,9,7,False
-D2,1819,2019-04-21,Regensburg,Magdeburg,9,8,False
+D2,1819,2019-04-20,Greuther Furth,Union Berlin,6,8,False
+D2,1819,2019-04-20,Holstein Kiel,Paderborn,6,7,False
 D2,1819,2019-04-21,Bielefeld,Ingolstadt,7,7,False
-D2,1819,2019-04-26,FC Koln,Darmstadt,5,5,False
+D2,1819,2019-04-21,Heidenheim,St Pauli,9,7,False
+D2,1819,2019-04-21,Dresden,FC Koln,8,6,False
+D2,1819,2019-04-21,Darmstadt,Bochum,8,7,False
+D2,1819,2019-04-21,Regensburg,Magdeburg,9,8,False
 D2,1819,2019-04-26,Ingolstadt,Dresden,5,5,False
-D2,1819,2019-04-27,Sandhausen,Holstein Kiel,7,7,False
+D2,1819,2019-04-26,FC Koln,Darmstadt,5,5,False
 D2,1819,2019-04-27,St Pauli,Regensburg,6,6,False
 D2,1819,2019-04-27,Magdeburg,Greuther Furth,6,7,False
+D2,1819,2019-04-27,Sandhausen,Holstein Kiel,7,7,False
 D2,1819,2019-04-28,Paderborn,Heidenheim,8,7,False
-D2,1819,2019-04-28,Union Berlin,Hamburg,8,8,False
 D2,1819,2019-04-28,Erzgebirge Aue,Bochum,8,7,False
+D2,1819,2019-04-28,Union Berlin,Hamburg,8,8,False
 D2,1819,2019-04-29,Duisburg,Bielefeld,9,8,False
 D2,1819,2019-05-03,Dresden,St Pauli,7,6,False
 D2,1819,2019-05-03,Bielefeld,Paderborn,4,5,False
-D2,1819,2019-05-04,Hamburg,Ingolstadt,6,8,False
 D2,1819,2019-05-04,Heidenheim,Sandhausen,6,7,False
+D2,1819,2019-05-04,Hamburg,Ingolstadt,6,8,False
 D2,1819,2019-05-04,Bochum,Magdeburg,6,7,False
-D2,1819,2019-05-05,Holstein Kiel,Duisburg,8,6,False
 D2,1819,2019-05-05,Regensburg,Erzgebirge Aue,8,7,False
+D2,1819,2019-05-05,Holstein Kiel,Duisburg,8,6,False
 D2,1819,2019-05-05,Darmstadt,Union Berlin,9,7,False
 D2,1819,2019-05-06,Greuther Furth,FC Koln,9,10,False
-D2,1819,2019-05-12,Erzgebirge Aue,Greuther Furth,7,6,False
 D2,1819,2019-05-12,FC Koln,Regensburg,6,7,False
-D2,1819,2019-05-12,Holstein Kiel,Dresden,7,9,False
-D2,1819,2019-05-12,Ingolstadt,Darmstadt,8,7,False
 D2,1819,2019-05-12,Paderborn,Hamburg,9,8,False
-D2,1819,2019-05-12,Sandhausen,Bielefeld,8,9,False
-D2,1819,2019-05-12,St Pauli,Bochum,9,8,False
 D2,1819,2019-05-12,Union Berlin,Magdeburg,7,8,False
+D2,1819,2019-05-12,St Pauli,Bochum,9,8,False
+D2,1819,2019-05-12,Ingolstadt,Darmstadt,8,7,False
+D2,1819,2019-05-12,Holstein Kiel,Dresden,7,9,False
+D2,1819,2019-05-12,Sandhausen,Bielefeld,8,9,False
+D2,1819,2019-05-12,Erzgebirge Aue,Greuther Furth,7,6,False
 D2,1819,2019-05-12,Duisburg,Heidenheim,7,8,False
-D2,1819,2019-05-19,Bochum,Union Berlin,7,7,False
+D2,1819,2019-05-19,Hamburg,Duisburg,7,7,False
+D2,1819,2019-05-19,Magdeburg,FC Koln,7,7,False
+D2,1819,2019-05-19,Heidenheim,Ingolstadt,7,7,False
 D2,1819,2019-05-19,Darmstadt,Erzgebirge Aue,7,7,False
+D2,1819,2019-05-19,Bielefeld,Holstein Kiel,7,7,False
+D2,1819,2019-05-19,Bochum,Union Berlin,7,7,False
 D2,1819,2019-05-19,Dresden,Paderborn,7,7,False
 D2,1819,2019-05-19,Greuther Furth,St Pauli,7,7,False
-D2,1819,2019-05-19,Hamburg,Duisburg,7,7,False
-D2,1819,2019-05-19,Heidenheim,Ingolstadt,7,7,False
-D2,1819,2019-05-19,Magdeburg,FC Koln,7,7,False
 D2,1819,2019-05-19,Regensburg,Sandhausen,7,7,False
-D2,1819,2019-05-19,Bielefeld,Holstein Kiel,7,7,False

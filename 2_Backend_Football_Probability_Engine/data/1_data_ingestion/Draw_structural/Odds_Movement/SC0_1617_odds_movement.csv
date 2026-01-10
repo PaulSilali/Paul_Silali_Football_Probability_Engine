@@ -1,0 +1,124 @@
+league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
+SC0,1617,2016-01-10,Hamilton,Inverness C,3.5,3.5,0.0
+SC0,1617,2016-03-12,Ross County,Hearts,3.5,3.5,0.0
+SC0,1617,2016-03-12,Hamilton,Partick,3.3,3.3,0.0
+SC0,1617,2016-03-12,Motherwell,Celtic,6.0,6.0,0.0
+SC0,1617,2016-03-12,Rangers,Aberdeen,3.4,3.4,0.0
+SC0,1617,2016-04-11,Partick,Aberdeen,3.6,3.6,0.0
+SC0,1617,2016-05-11,Hearts,St Johnstone,3.6,3.6,0.0
+SC0,1617,2016-06-08,Kilmarnock,Motherwell,3.3,3.3,0.0
+SC0,1617,2016-06-08,Rangers,Hamilton,5.0,5.0,0.0
+SC0,1617,2016-06-08,Ross County,Dundee United,3.4,3.4,0.0
+SC0,1617,2016-06-11,Ross County,Rangers,3.8,3.8,0.0
+SC0,1617,2016-06-12,Aberdeen,Kilmarnock,5.25,5.25,0.0
+SC0,1617,2016-07-08,Hearts,Celtic,4.0,4.0,0.0
+SC0,1617,2016-08-13,Dundee United,Rangers,3.75,3.75,0.0
+SC0,1617,2016-08-13,Inverness C,Ross County,3.5,3.5,0.0
+SC0,1617,2016-08-13,Motherwell,St Johnstone,3.5,3.5,0.0
+SC0,1617,2016-08-13,Hamilton,Kilmarnock,3.75,3.75,0.0
+SC0,1617,2016-08-19,Dundee United,Hamilton,3.3,3.3,0.0
+SC0,1617,2016-08-20,Aberdeen,Partick,3.6,3.6,0.0
+SC0,1617,2016-08-20,Hearts,Inverness C,3.4,3.4,0.0
+SC0,1617,2016-08-20,Rangers,Motherwell,5.5,5.5,0.0
+SC0,1617,2016-08-20,St Johnstone,Celtic,3.75,3.75,0.0
+SC0,1617,2016-08-26,Kilmarnock,Rangers,4.33,4.33,0.0
+SC0,1617,2016-08-27,Partick,Hearts,3.4,3.4,0.0
+SC0,1617,2016-08-27,Celtic,Aberdeen,4.33,4.33,0.0
+SC0,1617,2016-08-27,Inverness C,St Johnstone,3.4,3.4,0.0
+SC0,1617,2016-09-12,Partick,Celtic,5.75,5.75,0.0
+SC0,1617,2016-09-17,Motherwell,Hamilton,3.25,3.25,0.0
+SC0,1617,2016-09-17,Kilmarnock,Partick,3.3,3.3,0.0
+SC0,1617,2016-09-18,Inverness C,Celtic,4.75,4.75,0.0
+SC0,1617,2016-09-18,Dundee United,Aberdeen,3.5,3.5,0.0
+SC0,1617,2016-09-24,Partick,Motherwell,3.4,3.4,0.0
+SC0,1617,2016-09-24,Celtic,Kilmarnock,7.5,7.5,0.0
+SC0,1617,2016-09-24,Inverness C,Dundee United,3.3,3.3,0.0
+SC0,1617,2016-09-25,Aberdeen,Rangers,3.2,3.2,0.0
+SC0,1617,2016-09-25,Hamilton,St Johnstone,3.3,3.3,0.0
+SC0,1617,2016-09-30,Motherwell,Hearts,3.6,3.6,0.0
+SC0,1617,2016-10-09,Celtic,Rangers,4.0,4.0,0.0
+SC0,1617,2016-10-09,Dundee United,Kilmarnock,3.4,3.4,0.0
+SC0,1617,2016-10-09,Hearts,Hamilton,3.75,3.75,0.0
+SC0,1617,2016-10-09,Ross County,Motherwell,3.5,3.5,0.0
+SC0,1617,2016-10-09,Aberdeen,Inverness C,3.6,3.6,0.0
+SC0,1617,2016-10-12,Inverness C,Hamilton,3.8,3.8,0.0
+SC0,1617,2016-10-15,Partick,Hamilton,3.4,3.4,0.0
+SC0,1617,2016-10-22,Inverness C,Kilmarnock,4.0,4.0,0.0
+SC0,1617,2016-10-22,Partick,Ross County,3.5,3.5,0.0
+SC0,1617,2016-10-23,St Johnstone,Dundee United,3.75,3.75,0.0
+SC0,1617,2016-10-26,Rangers,St Johnstone,4.0,4.0,0.0
+SC0,1617,2016-10-29,Inverness C,Hearts,3.4,3.4,0.0
+SC0,1617,2016-10-29,Motherwell,Ross County,3.5,3.5,0.0
+SC0,1617,2016-10-29,St Johnstone,Partick,3.5,3.5,0.0
+SC0,1617,2016-11-19,Inverness C,Aberdeen,3.4,3.4,0.0
+SC0,1617,2016-11-19,St Johnstone,Ross County,3.6,3.6,0.0
+SC0,1617,2016-11-21,Hamilton,Hearts,3.6,3.6,0.0
+SC0,1617,2016-11-26,Dundee United,Inverness C,3.25,3.25,0.0
+SC0,1617,2016-11-26,Partick,Rangers,3.6,3.6,0.0
+SC0,1617,2016-11-26,Ross County,Hamilton,3.3,3.3,0.0
+SC0,1617,2016-12-16,Hamilton,Rangers,4.2,4.2,0.0
+SC0,1617,2016-12-17,Kilmarnock,Inverness C,3.3,3.3,0.0
+SC0,1617,2016-12-17,Celtic,Dundee United,8.0,8.0,0.0
+SC0,1617,2016-12-17,St Johnstone,Motherwell,3.6,3.6,0.0
+SC0,1617,2016-12-17,Ross County,Aberdeen,3.5,3.5,0.0
+SC0,1617,2016-12-17,Hearts,Partick,3.75,3.75,0.0
+SC0,1617,2016-12-23,Ross County,Partick,3.3,3.3,0.0
+SC0,1617,2016-12-23,Motherwell,Aberdeen,3.6,3.6,0.0
+SC0,1617,2016-12-23,Dundee United,Hearts,3.4,3.4,0.0
+SC0,1617,2016-12-27,Aberdeen,Hamilton,4.75,4.75,0.0
+SC0,1617,2016-12-28,Inverness C,Motherwell,3.5,3.5,0.0
+SC0,1617,2016-12-28,St Johnstone,Rangers,3.4,3.4,0.0
+SC0,1617,2016-12-31,Hamilton,Motherwell,3.3,3.3,0.0
+SC0,1617,2016-12-31,Rangers,Celtic,3.75,3.75,0.0
+SC0,1617,2016-12-31,Ross County,Inverness C,3.2,3.2,0.0
+SC0,1617,2017-01-02,Hearts,Rangers,3.4,3.4,0.0
+SC0,1617,2017-01-03,Rangers,St Johnstone,3.8,3.8,0.0
+SC0,1617,2017-01-04,Inverness C,Kilmarnock,3.5,3.5,0.0
+SC0,1617,2017-01-04,Partick,Ross County,3.6,3.6,0.0
+SC0,1617,2017-01-04,Rangers,Motherwell,5.5,5.5,0.0
+SC0,1617,2017-01-28,Kilmarnock,Ross County,3.4,3.4,0.0
+SC0,1617,2017-01-31,Ross County,Motherwell,3.4,3.4,0.0
+SC0,1617,2017-02-15,Aberdeen,Motherwell,5.0,5.0,0.0
+SC0,1617,2017-02-18,Ross County,St Johnstone,3.3,3.3,0.0
+SC0,1617,2017-02-18,Hearts,Inverness C,4.0,4.0,0.0
+SC0,1617,2017-02-19,Kilmarnock,Aberdeen,4.33,4.33,0.0
+SC0,1617,2017-02-19,Dundee United,Rangers,3.8,3.8,0.0
+SC0,1617,2017-02-24,Inverness C,Rangers,3.75,3.75,0.0
+SC0,1617,2017-02-25,Motherwell,Dundee United,3.4,3.4,0.0
+SC0,1617,2017-03-18,Kilmarnock,Partick,3.3,3.3,0.0
+SC0,1617,2017-03-18,Motherwell,St Johnstone,3.4,3.4,0.0
+SC0,1617,2017-03-18,Inverness C,Ross County,3.4,3.4,0.0
+SC0,1617,2017-03-19,Dundee United,Celtic,6.5,6.5,0.0
+SC0,1617,2017-04-02,Hamilton,Kilmarnock,3.3,3.3,0.0
+SC0,1617,2017-04-02,Rangers,Ross County,4.5,4.5,0.0
+SC0,1617,2017-04-02,Inverness C,Dundee United,3.3,3.3,0.0
+SC0,1617,2017-04-03,Kilmarnock,Motherwell,3.5,3.5,0.0
+SC0,1617,2017-04-04,Ross County,Dundee United,3.6,3.6,0.0
+SC0,1617,2017-04-15,St Johnstone,Aberdeen,3.75,3.75,0.0
+SC0,1617,2017-04-15,Motherwell,Inverness C,3.25,3.25,0.0
+SC0,1617,2017-04-16,Ross County,Celtic,5.0,5.0,0.0
+SC0,1617,2017-04-29,Hearts,Partick,3.4,3.4,0.0
+SC0,1617,2017-04-29,Rangers,Celtic,4.0,4.0,0.0
+SC0,1617,2017-04-29,Motherwell,Dundee United,3.3,3.3,0.0
+SC0,1617,2017-05-02,St Johnstone,Celtic,4.33,4.33,0.0
+SC0,1617,2017-05-04,Celtic,Partick,7.5,7.5,0.0
+SC0,1617,2017-05-13,Dundee United,Ross County,3.25,3.25,0.0
+SC0,1617,2017-05-13,Rangers,Hearts,3.5,3.5,0.0
+SC0,1617,2017-05-13,Kilmarnock,Inverness C,3.25,3.25,0.0
+SC0,1617,2017-05-16,Ross County,Hamilton,3.3,3.3,0.0
+SC0,1617,2017-05-16,Motherwell,Kilmarnock,3.6,3.6,0.0
+SC0,1617,2017-05-17,Rangers,Aberdeen,3.4,3.4,0.0
+SC0,1617,2017-05-20,Inverness C,Motherwell,3.75,3.75,0.0
+SC0,1617,2017-05-20,Kilmarnock,Ross County,3.25,3.25,0.0
+SC0,1617,2017-05-21,St Johnstone,Rangers,3.3,3.3,0.0
+SC0,1617,2017-06-05,Celtic,St Johnstone,6.5,6.5,0.0
+SC0,1617,2017-06-05,Inverness C,Hamilton,3.25,3.25,0.0
+SC0,1617,2017-07-05,Partick,Rangers,3.4,3.4,0.0
+SC0,1617,2017-07-05,Hearts,Aberdeen,3.4,3.4,0.0
+SC0,1617,2017-08-04,Celtic,Kilmarnock,8.5,8.5,0.0
+SC0,1617,2017-08-04,Hamilton,Ross County,3.3,3.3,0.0
+SC0,1617,2017-11-02,Dundee United,Kilmarnock,3.3,3.3,0.0
+SC0,1617,2017-11-03,Ross County,Kilmarnock,3.5,3.5,0.0
+SC0,1617,2017-11-03,Partick,Inverness C,3.5,3.5,0.0
+SC0,1617,2017-12-03,Celtic,Rangers,5.25,5.25,0.0
+SC0,1617,2017-12-05,Aberdeen,Celtic,3.6,3.6,0.0

@@ -82,7 +82,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9375,Dunkerque,9393,Martigues,2425,2,1,0.5,1.5
 9384,Troyes,9385,Grenoble,2425,2,1,0.5,2.0
 9376,Clermont,9380,Red Star,2425,2,2,1.0,2.0
-9393,Martigues,9394,Lorient,2425,1,0,0.0,6.0
+9393,Martigues,9394,Lorient,2425,2,0,0.0,3.5
 9393,Martigues,9395,Metz,2425,2,0,0.0,5.5
 9385,Grenoble,9391,Caen,2425,2,0,0.0,2.5
 9385,Grenoble,9390,Ajaccio,2425,2,1,0.5,3.0
@@ -125,7 +125,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9373,Guingamp,9391,Caen,2425,2,0,0.0,2.5
 9384,Troyes,9392,Paris FC,2425,2,0,0.0,2.0
 9382,Annecy,9384,Troyes,2425,2,0,0.0,1.0
-9391,Caen,9392,Paris FC,2425,1,0,0.0,6.0
+9391,Caen,9392,Paris FC,2425,2,0,0.0,4.0
 9377,Laval,9383,Rodez,2425,2,0,0.0,3.5
 9385,Grenoble,9393,Martigues,2425,2,0,0.0,2.5
 9376,Clermont,9383,Rodez,2425,2,2,1.0,2.0

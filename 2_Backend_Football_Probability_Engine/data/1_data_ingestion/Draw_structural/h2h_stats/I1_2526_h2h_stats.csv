@@ -44,6 +44,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8732,Juventus,8738,Cagliari,2526,1,0,0.0,3.0
 8733,Lazio,8744,Roma,2526,1,0,0.0,1.0
 8733,Lazio,8740,Udinese,2526,1,1,1.0,2.0
+8738,Cagliari,9331,Cremonese,2526,1,1,1.0,4.0
 8734,Napoli,8748,Fiorentina,2526,1,0,0.0,4.0
 8734,Napoli,9333,Pisa,2526,1,0,0.0,5.0
 8734,Napoli,8751,Verona,2526,1,1,1.0,4.0
@@ -169,6 +170,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8738,Cagliari,8742,Inter,2526,1,0,0.0,2.0
 8738,Cagliari,8744,Roma,2526,1,0,0.0,1.0
 8743,Torino,9332,Como,2526,1,0,0.0,6.0
+8747,Milan,8749,Genoa,2526,1,1,1.0,2.0
 8744,Roma,8745,Atalanta,2526,1,0,0.0,1.0
 8739,Parma,8751,Verona,2526,1,0,0.0,3.0
 8734,Napoli,8745,Atalanta,2526,1,0,0.0,4.0

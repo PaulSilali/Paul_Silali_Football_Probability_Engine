@@ -4,8 +4,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9052,Santa Clara,9059,Guimaraes,1819,2,0,0.0,1.5
 9060,Benfica,9062,Boavista,1819,2,0,0.0,4.0
 9053,Moreirense,9067,Maritimo,1819,2,0,0.0,3.0
-9055,Sp Braga,9062,Boavista,1819,2,0,0.0,3.5
 9050,AVS,9058,Porto,1819,2,0,0.0,2.5
+9055,Sp Braga,9062,Boavista,1819,2,0,0.0,3.5
 9047,Nacional,9059,Guimaraes,1819,2,1,0.5,2.5
 9046,Sp Lisbon,9070,Setubal,1819,2,1,0.5,2.5
 9053,Moreirense,9059,Guimaraes,1819,2,0,0.0,2.5
@@ -27,8 +27,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9059,Guimaraes,9066,Chaves,1819,2,0,0.0,2.5
 9053,Moreirense,9055,Sp Braga,1819,2,0,0.0,1.5
 9062,Boavista,9070,Setubal,1819,2,0,0.0,2.0
-9052,Santa Clara,9056,Tondela,1819,2,0,0.0,3.5
 9058,Porto,9062,Boavista,1819,2,0,0.0,1.5
+9052,Santa Clara,9056,Tondela,1819,2,0,0.0,3.5
 9059,Guimaraes,9064,Portimonense,1819,2,0,0.0,3.5
 9046,Sp Lisbon,9060,Benfica,1819,2,1,0.5,4.0
 9047,Nacional,9070,Setubal,1819,2,1,0.5,1.5
@@ -40,8 +40,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9053,Moreirense,9061,Rio Ave,1819,2,0,0.0,3.0
 9059,Guimaraes,9069,Belenenses,1819,2,0,0.0,3.5
 9061,Rio Ave,9064,Portimonense,1819,2,0,0.0,2.0
-9050,AVS,9069,Belenenses,1819,2,0,0.0,5.0
 9060,Benfica,9070,Setubal,1819,2,0,0.0,3.5
+9050,AVS,9069,Belenenses,1819,2,0,0.0,5.0
 9058,Porto,9061,Rio Ave,1819,2,1,0.5,3.5
 9062,Boavista,9066,Chaves,1819,2,1,0.5,2.5
 9046,Sp Lisbon,9055,Sp Braga,1819,2,0,0.0,2.0
@@ -83,8 +83,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9055,Sp Braga,9061,Rio Ave,1819,2,1,0.5,2.5
 9060,Benfica,9061,Rio Ave,1819,2,0,0.0,5.5
 9046,Sp Lisbon,9050,AVS,1819,2,0,0.0,4.5
-9060,Benfica,9066,Chaves,1819,2,1,0.5,4.0
 9056,Tondela,9069,Belenenses,1819,2,1,0.5,2.5
+9060,Benfica,9066,Chaves,1819,2,1,0.5,4.0
 9047,Nacional,9063,Farense,1819,2,1,0.5,2.0
 9052,Santa Clara,9063,Farense,1819,2,2,1.0,6.0
 9046,Sp Lisbon,9067,Maritimo,1819,2,1,0.5,1.0

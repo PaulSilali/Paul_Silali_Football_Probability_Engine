@@ -11,11 +11,11 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8717,Ath Madrid,8728,La Coruna,1617,4,1,0.25,4.0
 8714,Ath Bilbao,8726,Eibar,1617,2,0,0.0,2.5
 8716,Espanol,8729,Malaga,1617,2,1,0.5,2.5
-8711,Sociedad,8719,Betis,1617,2,0,0.0,3.0
 8711,Sociedad,8716,Espanol,1617,2,1,0.5,2.5
+8711,Sociedad,8719,Betis,1617,2,0,0.0,3.0
 8719,Betis,8720,Osasuna,1617,2,0,0.0,2.5
-8707,Barcelona,8730,Sp Gijon,1617,2,0,0.0,6.0
 8712,Celta,8730,Sp Gijon,1617,2,1,0.5,2.5
+8707,Barcelona,8730,Sp Gijon,1617,2,0,0.0,6.0
 8708,Alaves,8729,Malaga,1617,2,1,0.5,2.5
 8717,Ath Madrid,8720,Osasuna,1617,4,0,0.0,4.25
 8707,Barcelona,8710,Valencia,1617,2,0,0.0,5.5
@@ -99,13 +99,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8711,Sociedad,8712,Celta,1617,2,1,0.5,2.5
 8715,Sevilla,8721,Las Palmas,1617,2,0,0.0,2.0
 8715,Sevilla,8726,Eibar,1617,2,1,0.5,2.0
-8711,Sociedad,8729,Malaga,1617,2,1,0.5,3.0
 8716,Espanol,8728,La Coruna,1617,2,1,0.5,2.5
+8711,Sociedad,8729,Malaga,1617,2,1,0.5,3.0
 8707,Barcelona,8721,Las Palmas,1617,2,0,0.0,5.0
 8717,Ath Madrid,8717,Ath Madrid,1617,2,1,0.5,2.5
 8704,Villarreal,8721,Las Palmas,1617,2,0,0.0,2.0
-8709,Levante,8729,Malaga,1617,2,1,0.5,2.0
 8714,Ath Bilbao,8729,Malaga,1617,2,0,0.0,2.0
+8709,Levante,8729,Malaga,1617,2,1,0.5,2.0
 8707,Barcelona,8709,Levante,1617,2,0,0.0,4.5
 8709,Levante,8730,Sp Gijon,1617,2,0,0.0,2.5
 8712,Celta,8720,Osasuna,1617,2,1,0.5,1.5
@@ -124,8 +124,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8716,Espanol,8720,Osasuna,1617,2,0,0.0,3.0
 8704,Villarreal,8719,Betis,1617,2,0,0.0,1.5
 8716,Espanol,8721,Las Palmas,1617,2,1,0.5,3.5
-8708,Alaves,8714,Ath Bilbao,1617,2,1,0.5,0.5
 8712,Celta,8728,La Coruna,1617,2,0,0.0,3.0
+8708,Alaves,8714,Ath Bilbao,1617,2,1,0.5,0.5
 8715,Sevilla,8730,Sp Gijon,1617,2,2,1.0,1.0
 8712,Celta,8721,Las Palmas,1617,2,1,0.5,5.0
 8710,Valencia,8721,Las Palmas,1617,2,0,0.0,5.0
@@ -161,13 +161,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8710,Valencia,8725,Granada,1617,2,1,0.5,3.0
 8711,Sociedad,8714,Ath Bilbao,1617,2,0,0.0,3.5
 8720,Osasuna,8721,Las Palmas,1617,2,1,0.5,5.5
-8711,Sociedad,8730,Sp Gijon,1617,2,0,0.0,4.0
 8708,Alaves,8715,Sevilla,1617,2,1,0.5,2.5
 8719,Betis,8725,Granada,1617,2,1,0.5,4.5
+8711,Sociedad,8730,Sp Gijon,1617,2,0,0.0,4.0
 8709,Levante,8717,Ath Madrid,1617,4,1,0.25,2.75
 8716,Espanol,8717,Ath Madrid,1617,4,1,0.25,1.25
 8714,Ath Bilbao,8719,Betis,1617,2,0,0.0,2.0
-8715,Sevilla,8720,Osasuna,1617,2,0,0.0,6.0
 8714,Ath Bilbao,8725,Granada,1617,2,0,0.0,3.5
+8715,Sevilla,8720,Osasuna,1617,2,0,0.0,6.0
 8707,Barcelona,8716,Espanol,1617,2,0,0.0,4.0
 8714,Ath Bilbao,8717,Ath Madrid,1617,4,1,0.25,3.5
