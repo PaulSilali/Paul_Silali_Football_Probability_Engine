@@ -395,7 +395,7 @@ class SavedJackpotTemplate(Base):
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
     
     __table_args__ = (
-        CheckConstraint('fixture_count >= 1 AND fixture_count <= 20', name='chk_fixture_count'),
+        CheckConstraint('fixture_count >= 1 AND fixture_count <= 200', name='chk_fixture_count'),
         Index('idx_saved_templates_user', 'user_id'),
         Index('idx_saved_templates_created', 'created_at'),
     )
@@ -582,10 +582,40 @@ class SavedProbabilityResult(Base):
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
     
     __table_args__ = (
-        CheckConstraint('total_fixtures >= 1 AND total_fixtures <= 20', name='chk_total_fixtures'),
+        CheckConstraint('total_fixtures >= 1 AND total_fixtures <= 200', name='chk_total_fixtures'),
         Index('idx_saved_results_user', 'user_id'),
         Index('idx_saved_results_jackpot', 'jackpot_id'),
         Index('idx_saved_results_created', 'created_at'),
+    )
+
+
+class SavedSureBetList(Base):
+    """Saved sure bet lists for reloading"""
+    __tablename__ = "saved_sure_bet_lists"
+    
+    id = Column(Integer, primary_key=True)
+    user_id = Column(String)  # From auth
+    name = Column(String, nullable=False)
+    description = Column(Text)
+    
+    # Sure bet games data
+    games = Column(JSON, nullable=False)  # Array of game objects with predictions, odds, probabilities
+    
+    # Betting details
+    bet_amount_kshs = Column(Float)  # Bet amount in Kenyan Shillings
+    selected_game_ids = Column(JSON)  # Array of selected game IDs
+    
+    # Metadata
+    total_odds = Column(Float)
+    total_probability = Column(Float)
+    expected_amount_kshs = Column(Float)
+    weighted_amount_kshs = Column(Float)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+    
+    __table_args__ = (
+        Index('idx_saved_sure_bets_user', 'user_id'),
+        Index('idx_saved_sure_bets_created', 'created_at'),
     )
 
 

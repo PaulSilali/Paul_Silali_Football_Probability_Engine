@@ -36,13 +36,16 @@ class DataPreparationService:
         
         Args:
             db: Database session
-            output_dir: Output directory for cleaned files (default: data/2_Cleaned_data)
+            output_dir: Output directory for cleaned files (default: data/2_Cleaned_data/Historical Match_Odds_Data)
+                      IMPORTANT: Always saves to Historical Match_Odds_Data subdirectory,
+                      NEVER directly to 2_Cleaned_data root directory.
         """
         self.db = db
         
         if output_dir is None:
             backend_root = Path(__file__).parent.parent.parent
-            output_dir = backend_root / "data" / "2_Cleaned_data"
+            # ALWAYS save to Historical Match_Odds_Data subdirectory, never directly to 2_Cleaned_data
+            output_dir = backend_root / "data" / "2_Cleaned_data" / "Historical Match_Odds_Data"
         
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)

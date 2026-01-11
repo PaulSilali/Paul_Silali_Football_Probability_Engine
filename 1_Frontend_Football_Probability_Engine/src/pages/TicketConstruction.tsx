@@ -19,7 +19,11 @@ import {
   Users,
   Sparkles,
   Loader2,
-  Save
+  Save,
+  Globe,
+  XCircle,
+  Brain,
+  Lightbulb
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
@@ -62,6 +66,9 @@ const probabilitySets = {
   H: { name: 'Market Consensus Draw', icon: Layers, risk: 'Low', color: 'text-chart-2' },
   I: { name: 'Formula-Based Draw', icon: Sparkles, risk: 'Medium', color: 'text-chart-6' },
   J: { name: 'System-Selected Draw', icon: Target, risk: 'Medium-Low', color: 'text-primary' },
+  K: { name: 'H/D/A Consensus', icon: CheckCircle, risk: 'Low', color: 'text-green-500' },
+  L: { name: 'League-Optimized', icon: Globe, risk: 'Low', color: 'text-blue-500' },
+  M: { name: 'Hybrid Best', icon: Zap, risk: 'Low', color: 'text-purple-500' },
 };
 
 // Helper function to get highest probability outcome
@@ -114,7 +121,288 @@ export default function TicketConstruction() {
   }>>([]);
   const [loadingSavedTickets, setLoadingSavedTickets] = useState(false);
   const [selectedSavedTicketId, setSelectedSavedTicketId] = useState<string>('');
+  const [analyzingTickets, setAnalyzingTickets] = useState(false);
+  const [ticketAnalysis, setTicketAnalysis] = useState<{
+    analysis: string;
+    best_performing_sets?: string[];
+    worst_performing_sets?: string[];
+    common_mistakes?: string[];
+    recommendations?: string[];
+  } | null>(null);
+  const [analyticsData, setAnalyticsData] = useState<{
+    bestSetForH?: { set: string; hAccuracy: number };
+    bestSetForD?: { set: string; dAccuracy: number };
+    bestSetForA?: { set: string; aAccuracy: number };
+    bestSetPerLeague?: Record<string, { set: string; accuracy: number }>;
+  } | null>(null);
   const { toast } = useToast();
+
+  // Generate Sets K, L, M based on analytics and consensus
+  const generateAdvancedSets = useCallback((
+    baseSets: Record<string, any>,
+    fixtures: any[],
+    analytics: typeof analyticsData
+  ): Record<string, any> => {
+    const advancedSets: Record<string, any> = {};
+    
+    if (!analytics || !baseSets || Object.keys(baseSets).length === 0) {
+      return advancedSets;
+    }
+
+    const baseSetKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+    
+    // Helper function to find best fallback set based on confidence
+    const findBestFallbackSet = (fixtureIdx: number, preferredOutcome?: '1' | 'X' | '2'): string => {
+      let bestSet = 'B';
+      let bestConfidence = 0;
+      
+      baseSetKeys.forEach(setId => {
+        const prob = baseSets[setId]?.probabilities?.[fixtureIdx];
+        if (prob) {
+          const homeProb = prob.homeWinProbability / 100;
+          const drawProb = prob.drawProbability / 100;
+          const awayProb = prob.awayWinProbability / 100;
+          const maxProb = Math.max(homeProb, drawProb, awayProb);
+          
+          // If preferred outcome specified, prioritize sets that predict it
+          if (preferredOutcome) {
+            const preferredProb = preferredOutcome === '1' ? homeProb : 
+                                 preferredOutcome === 'X' ? drawProb : awayProb;
+            if (preferredProb > bestConfidence) {
+              bestConfidence = preferredProb;
+              bestSet = setId;
+            }
+          } else {
+            // Otherwise, use most confident set
+            if (maxProb > bestConfidence) {
+              bestConfidence = maxProb;
+              bestSet = setId;
+            }
+          }
+        }
+      });
+      
+      return bestSet;
+    };
+    
+    // Generate Set K: H/D/A Consensus-based (improved with flexible threshold 5-10/10)
+    if (analytics.bestSetForH || analytics.bestSetForD || analytics.bestSetForA) {
+      const kProbabilities = fixtures.map((fixture: any, idx: number) => {
+        const predictions: { '1': number; 'X': number; '2': number } = { '1': 0, 'X': 0, '2': 0 };
+        const setPredictions: Record<string, '1' | 'X' | '2'> = {};
+        
+        baseSetKeys.forEach(setId => {
+          if (baseSets[setId]?.probabilities?.[idx]) {
+            const prob = baseSets[setId].probabilities[idx];
+            const prediction = getHighestProbOutcome(
+              prob.homeWinProbability / 100,
+              prob.drawProbability / 100,
+              prob.awayWinProbability / 100
+            );
+            predictions[prediction]++;
+            setPredictions[setId] = prediction;
+          }
+        });
+
+        const totalSets = Object.keys(setPredictions).length;
+        if (totalSets === 0) {
+          // No sets available, use Set B
+          const selectedProb = baseSets['B']?.probabilities?.[idx] || {
+            homeWinProbability: 33.33,
+            drawProbability: 33.33,
+            awayWinProbability: 33.33
+          };
+          return {
+            fixtureId: fixture.id || String(idx + 1),
+            homeTeam: fixture.homeTeam || '',
+            awayTeam: fixture.awayTeam || '',
+            odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+            homeWinProbability: selectedProb.homeWinProbability || 0,
+            drawProbability: selectedProb.drawProbability || 0,
+            awayWinProbability: selectedProb.awayWinProbability || 0,
+          };
+        }
+        
+        // Flexible threshold: 5-10 sets agree (50%+ consensus)
+        // Higher threshold for stronger consensus, lower for weaker
+        const minThreshold = Math.max(5, Math.ceil(totalSets * 0.5)); // At least 5 sets or 50%
+        const strongThreshold = Math.ceil(totalSets * 0.7); // 70% for strong consensus
+        
+        let selectedSetKey: string | null = null;
+        let selectedOutcome: '1' | 'X' | '2' | null = null;
+        
+        // Check for strong consensus first (70%+)
+        if (predictions['1'] >= strongThreshold && analytics.bestSetForH) {
+          selectedSetKey = analytics.bestSetForH.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = '1';
+        } else if (predictions['X'] >= strongThreshold && analytics.bestSetForD) {
+          selectedSetKey = analytics.bestSetForD.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = 'X';
+        } else if (predictions['2'] >= strongThreshold && analytics.bestSetForA) {
+          selectedSetKey = analytics.bestSetForA.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = '2';
+        }
+        // Check for moderate consensus (50%+)
+        else if (predictions['1'] >= minThreshold && analytics.bestSetForH) {
+          selectedSetKey = analytics.bestSetForH.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = '1';
+        } else if (predictions['X'] >= minThreshold && analytics.bestSetForD) {
+          selectedSetKey = analytics.bestSetForD.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = 'X';
+        } else if (predictions['2'] >= minThreshold && analytics.bestSetForA) {
+          selectedSetKey = analytics.bestSetForA.set.replace(/^Set\s+/i, '').trim();
+          selectedOutcome = '2';
+        }
+        
+        // If no consensus or best set not available, use intelligent fallback
+        if (!selectedSetKey || !baseSets[selectedSetKey]?.probabilities?.[idx]) {
+          // Find the most common outcome
+          const mostCommonOutcome = predictions['1'] >= predictions['X'] && predictions['1'] >= predictions['2'] ? '1' :
+                                    predictions['X'] >= predictions['2'] ? 'X' : '2';
+          
+          // Use best fallback set that predicts the most common outcome
+          selectedSetKey = findBestFallbackSet(idx, mostCommonOutcome);
+        }
+
+        const selectedProb = baseSets[selectedSetKey]?.probabilities?.[idx];
+        if (!selectedProb) {
+          // Final fallback: use most confident set overall
+          selectedSetKey = findBestFallbackSet(idx);
+          const finalProb = baseSets[selectedSetKey]?.probabilities?.[idx] || {
+            homeWinProbability: 33.33,
+            drawProbability: 33.33,
+            awayWinProbability: 33.33
+          };
+          return {
+            fixtureId: fixture.id || String(idx + 1),
+            homeTeam: fixture.homeTeam || '',
+            awayTeam: fixture.awayTeam || '',
+            odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+            homeWinProbability: finalProb.homeWinProbability || 0,
+            drawProbability: finalProb.drawProbability || 0,
+            awayWinProbability: finalProb.awayWinProbability || 0,
+          };
+        }
+
+        return {
+          fixtureId: fixture.id || String(idx + 1),
+          homeTeam: fixture.homeTeam || '',
+          awayTeam: fixture.awayTeam || '',
+          odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+          homeWinProbability: selectedProb.homeWinProbability || 0,
+          drawProbability: selectedProb.drawProbability || 0,
+          awayWinProbability: selectedProb.awayWinProbability || 0,
+        };
+      });
+
+      advancedSets['K'] = { probabilities: kProbabilities };
+    }
+
+    // Generate Set L: League-specific best sets (improved fallback)
+    if (analytics.bestSetPerLeague && Object.keys(analytics.bestSetPerLeague).length > 0) {
+      const lProbabilities = fixtures.map((fixture: any, idx: number) => {
+        const leagueCode = fixture.leagueCode || 'Unknown';
+        const bestSetForLeague = analytics.bestSetPerLeague![leagueCode];
+        
+        let selectedSet: string | null = null;
+        
+        // Try to use league-specific best set
+        if (bestSetForLeague) {
+          const setKey = bestSetForLeague.set.replace(/^Set\s+/i, '').trim();
+          if (baseSets[setKey]?.probabilities?.[idx]) {
+            selectedSet = setKey;
+          }
+        }
+        
+        // If league-specific set not available, use intelligent fallback
+        if (!selectedSet) {
+          // Find best fallback set based on confidence for this fixture
+          selectedSet = findBestFallbackSet(idx);
+        }
+
+        const selectedProb = baseSets[selectedSet]?.probabilities?.[idx];
+        if (!selectedProb) {
+          // Final fallback: use Set B or most confident set
+          selectedSet = findBestFallbackSet(idx);
+          const finalProb = baseSets[selectedSet]?.probabilities?.[idx] || {
+            homeWinProbability: 33.33,
+            drawProbability: 33.33,
+            awayWinProbability: 33.33
+          };
+          return {
+            fixtureId: fixture.id || String(idx + 1),
+            homeTeam: fixture.homeTeam || '',
+            awayTeam: fixture.awayTeam || '',
+            odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+            homeWinProbability: finalProb.homeWinProbability || 0,
+            drawProbability: finalProb.drawProbability || 0,
+            awayWinProbability: finalProb.awayWinProbability || 0,
+          };
+        }
+
+        return {
+          fixtureId: fixture.id || String(idx + 1),
+          homeTeam: fixture.homeTeam || '',
+          awayTeam: fixture.awayTeam || '',
+          odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+          homeWinProbability: selectedProb.homeWinProbability || 0,
+          drawProbability: selectedProb.drawProbability || 0,
+          awayWinProbability: selectedProb.awayWinProbability || 0,
+        };
+      });
+
+      advancedSets['L'] = { probabilities: lProbabilities };
+    } else {
+      // If no league data, generate Set L using most confident sets per fixture
+      const lProbabilities = fixtures.map((fixture: any, idx: number) => {
+        const selectedSet = findBestFallbackSet(idx);
+        const selectedProb = baseSets[selectedSet]?.probabilities?.[idx] || {
+          homeWinProbability: 33.33,
+          drawProbability: 33.33,
+          awayWinProbability: 33.33
+        };
+        
+        return {
+          fixtureId: fixture.id || String(idx + 1),
+          homeTeam: fixture.homeTeam || '',
+          awayTeam: fixture.awayTeam || '',
+          odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+          homeWinProbability: selectedProb.homeWinProbability || 0,
+          drawProbability: selectedProb.drawProbability || 0,
+          awayWinProbability: selectedProb.awayWinProbability || 0,
+        };
+      });
+      
+      advancedSets['L'] = { probabilities: lProbabilities };
+    }
+
+    // Generate Set M: Hybrid combination of K and L (weighted average)
+    if (advancedSets['K'] && advancedSets['L']) {
+      const mProbabilities = fixtures.map((fixture: any, idx: number) => {
+        const kProb = advancedSets['K'].probabilities[idx];
+        const lProb = advancedSets['L'].probabilities[idx];
+        
+        // Weighted average: 60% K (consensus), 40% L (league-specific)
+        const homeProb = (kProb.homeWinProbability * 0.6 + lProb.homeWinProbability * 0.4);
+        const drawProb = (kProb.drawProbability * 0.6 + lProb.drawProbability * 0.4);
+        const awayProb = (kProb.awayWinProbability * 0.6 + lProb.awayWinProbability * 0.4);
+
+        return {
+          fixtureId: fixture.id || String(idx + 1),
+          homeTeam: fixture.homeTeam || '',
+          awayTeam: fixture.awayTeam || '',
+          odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+          homeWinProbability: homeProb,
+          drawProbability: drawProb,
+          awayWinProbability: awayProb,
+        };
+      });
+
+      advancedSets['M'] = { probabilities: mProbabilities };
+    }
+
+    return advancedSets;
+  }, []);
 
   // Load all jackpots for dropdown
   useEffect(() => {
@@ -419,6 +707,7 @@ export default function TicketConstruction() {
                   fixtureId: probData.fixtures[idx]?.id || String(idx + 1),
                   homeTeam: probData.fixtures[idx]?.homeTeam || '',
                   awayTeam: probData.fixtures[idx]?.awayTeam || '',
+                  leagueCode: probData.fixtures[idx]?.leagueCode || undefined,
                   odds: probData.fixtures[idx]?.odds || { home: 2.0, draw: 3.0, away: 2.5 },
                   homeWinProbability: prob.homeWinProbability || 0,
                   drawProbability: prob.drawProbability || 0,
@@ -426,9 +715,107 @@ export default function TicketConstruction() {
                 })),
               };
             });
+            
+            // Load analytics data to generate Sets K, L, M
+            try {
+              const allSavedResponse = await apiClient.getAllSavedResults(500);
+              if (allSavedResponse.success && allSavedResponse.data?.results) {
+                const allSavedResults = allSavedResponse.data.results.filter(
+                  (r: any) => r.actualResults && Object.keys(r.actualResults).length > 0
+                );
+                
+                // Calculate analytics (simplified version)
+                const setStats: Record<string, {
+                  hCorrect: number; hTotal: number;
+                  dCorrect: number; dTotal: number;
+                  aCorrect: number; aTotal: number;
+                }> = {};
+                
+                // Process saved results to calculate set performance
+                // This is a simplified calculation - for full analytics, use JackpotValidation page
+                allSavedResults.forEach((savedResult: any) => {
+                  if (savedResult.selections && savedResult.actualResults) {
+                    Object.keys(savedResult.selections).forEach(setId => {
+                      if (!setStats[setId]) {
+                        setStats[setId] = { hCorrect: 0, hTotal: 0, dCorrect: 0, dTotal: 0, aCorrect: 0, aTotal: 0 };
+                      }
+                      
+                      const selections = savedResult.selections[setId];
+                      Object.keys(selections).forEach(fixtureKey => {
+                        const prediction = selections[fixtureKey];
+                        const actual = savedResult.actualResults[fixtureKey];
+                        if (actual) {
+                          const actualH = actual === '1' || actual === 'H';
+                          const actualD = actual === 'X' || actual === 'D';
+                          const actualA = actual === '2' || actual === 'A';
+                          
+                          if (actualH) {
+                            setStats[setId].hTotal++;
+                            if (prediction === '1' || prediction === 'H') setStats[setId].hCorrect++;
+                          } else if (actualD) {
+                            setStats[setId].dTotal++;
+                            if (prediction === 'X' || prediction === 'D') setStats[setId].dCorrect++;
+                          } else if (actualA) {
+                            setStats[setId].aTotal++;
+                            if (prediction === '2' || prediction === 'A') setStats[setId].aCorrect++;
+                          }
+                        }
+                      });
+                    });
+                  }
+                });
+                
+                // Find best sets for H/D/A
+                const bestSetForH = Object.entries(setStats)
+                  .filter(([_, stats]) => stats.hTotal > 0)
+                  .reduce((best, [setId, stats]) => {
+                    const accuracy = stats.hTotal > 0 ? (stats.hCorrect / stats.hTotal) * 100 : 0;
+                    const bestAccuracy = best.hTotal > 0 ? (best.hCorrect / best.hTotal) * 100 : 0;
+                    return accuracy > bestAccuracy ? { setId, ...stats } : best;
+                  }, { setId: 'B', hCorrect: 0, hTotal: 0, dCorrect: 0, dTotal: 0, aCorrect: 0, aTotal: 0 });
+                
+                const bestSetForD = Object.entries(setStats)
+                  .filter(([_, stats]) => stats.dTotal > 0)
+                  .reduce((best, [setId, stats]) => {
+                    const accuracy = stats.dTotal > 0 ? (stats.dCorrect / stats.dTotal) * 100 : 0;
+                    const bestAccuracy = best.dTotal > 0 ? (best.dCorrect / best.dTotal) * 100 : 0;
+                    return accuracy > bestAccuracy ? { setId, ...stats } : best;
+                  }, { setId: 'B', hCorrect: 0, hTotal: 0, dCorrect: 0, dTotal: 0, aCorrect: 0, aTotal: 0 });
+                
+                const bestSetForA = Object.entries(setStats)
+                  .filter(([_, stats]) => stats.aTotal > 0)
+                  .reduce((best, [setId, stats]) => {
+                    const accuracy = stats.aTotal > 0 ? (stats.aCorrect / stats.aTotal) * 100 : 0;
+                    const bestAccuracy = best.aTotal > 0 ? (best.aCorrect / best.aTotal) * 100 : 0;
+                    return accuracy > bestAccuracy ? { setId, ...stats } : best;
+                  }, { setId: 'B', hCorrect: 0, hTotal: 0, dCorrect: 0, dTotal: 0, aCorrect: 0, aTotal: 0 });
+                
+                // Set analytics data
+                setAnalyticsData({
+                  bestSetForH: bestSetForH.hTotal > 0 ? { set: `Set ${bestSetForH.setId}`, hAccuracy: (bestSetForH.hCorrect / bestSetForH.hTotal) * 100 } : undefined,
+                  bestSetForD: bestSetForD.dTotal > 0 ? { set: `Set ${bestSetForD.setId}`, dAccuracy: (bestSetForD.dCorrect / bestSetForD.dTotal) * 100 } : undefined,
+                  bestSetForA: bestSetForA.aTotal > 0 ? { set: `Set ${bestSetForA.setId}`, aAccuracy: (bestSetForA.aCorrect / bestSetForA.aTotal) * 100 } : undefined,
+                  bestSetPerLeague: {}, // Will be populated if league data is available
+                });
+                
+                // Generate Sets K, L, M
+                const advancedSets = generateAdvancedSets(transformedSets, probData.fixtures, {
+                  bestSetForH: bestSetForH.hTotal > 0 ? { set: `Set ${bestSetForH.setId}`, hAccuracy: (bestSetForH.hCorrect / bestSetForH.hTotal) * 100 } : undefined,
+                  bestSetForD: bestSetForD.dTotal > 0 ? { set: `Set ${bestSetForD.setId}`, dAccuracy: (bestSetForD.dCorrect / bestSetForD.dTotal) * 100 } : undefined,
+                  bestSetForA: bestSetForA.aTotal > 0 ? { set: `Set ${bestSetForA.setId}`, aAccuracy: (bestSetForA.aCorrect / bestSetForA.aTotal) * 100 } : undefined,
+                  bestSetPerLeague: {},
+                });
+                
+                // Merge advanced sets with base sets
+                Object.assign(transformedSets, advancedSets);
+              }
+            } catch (err) {
+              console.warn('Could not load analytics data for Sets K, L, M:', err);
+            }
+            
             setLoadedSets(transformedSets);
             
-            // Build fixture data with picks from probabilities
+            // Build fixture data with picks from probabilities (including K, L, M)
             const fixtures = probData.fixtures || [];
             const fixtureDataWithPicks = fixtures.map((fixture: any, idx: number) => {
               const sets: Record<string, '1' | 'X' | '2'> = {};
@@ -448,6 +835,7 @@ export default function TicketConstruction() {
                 away: fixture.awayTeam || '',
                 sets,
                 odds: fixture.odds || { home: 2.0, draw: 3.0, away: 2.5 },
+                leagueCode: fixture.leagueCode || undefined,
               };
             });
             setFixtureData(fixtureDataWithPicks);
@@ -649,6 +1037,148 @@ export default function TicketConstruction() {
       setLoading(false);
     }
   }, [selectedSets, fixtureData, loadedSets, jackpotId, toast]);
+
+  // Actual results comparison data
+  const actualResultsComparison = useMemo(() => {
+    if (tickets.length === 0 || savedResults.length === 0 || fixtureData.length === 0) {
+      return null;
+    }
+
+    // Get the latest saved result with actual results
+    const latestResultWithActuals = savedResults.find((r: any) => 
+      r.actualResults && Object.keys(r.actualResults).length > 0
+    );
+    
+    if (!latestResultWithActuals || !latestResultWithActuals.actualResults) {
+      return null;
+    }
+
+    const actualResults = latestResultWithActuals.actualResults;
+    // Convert actual results to array format matching fixture order
+    const actualResultsArray: Array<'1' | 'X' | '2' | null> = fixtureData.map((fixture, idx) => {
+      // Try multiple keys: fixture ID, index (1-based), index (0-based)
+      const fixtureId = fixture.id || String(idx + 1);
+      const matchNumber = String(idx + 1);
+      const actual = actualResults[fixtureId] || 
+                   actualResults[matchNumber] || 
+                   actualResults[String(idx)] ||
+                   (Object.values(actualResults)[idx] as string);
+      
+      if (!actual) return null;
+      
+      // Convert to standard format
+      if (actual === 'H' || actual === '1') return '1';
+      if (actual === 'D' || actual === 'X') return 'X';
+      if (actual === 'A' || actual === '2') return '2';
+      return null;
+    });
+
+    // Check if we have any actual results
+    const hasActualResults = actualResultsArray.some(r => r !== null);
+    if (!hasActualResults) {
+      return null;
+    }
+
+    // Calculate match statistics for each ticket
+    const ticketMatches = tickets.map(ticket => {
+      let correct = 0;
+      let total = 0;
+      const matchDetails: boolean[] = [];
+      
+      ticket.picks.forEach((pick, idx) => {
+        const actual = actualResultsArray[idx];
+        if (actual !== null) {
+          total++;
+          const isMatch = pick === actual;
+          if (isMatch) correct++;
+          matchDetails.push(isMatch);
+        } else {
+          matchDetails.push(false);
+        }
+      });
+      
+      return {
+        ticketId: ticket.id,
+        correct,
+        total,
+        accuracy: total > 0 ? (correct / total) * 100 : 0,
+        matchDetails,
+      };
+    });
+
+    return {
+      actualResultsArray,
+      ticketMatches,
+      hasActualResults,
+    };
+  }, [tickets, savedResults, fixtureData]);
+
+  // Handle LLM analysis of tickets
+  const handleAnalyzeTickets = useCallback(async () => {
+    if (!actualResultsComparison || tickets.length === 0 || fixtureData.length === 0) {
+      toast({
+        title: 'Error',
+        description: 'No tickets or actual results available for analysis',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    setAnalyzingTickets(true);
+    try {
+      // Prepare data for analysis
+      const ticketsData = tickets.map(ticket => ({
+        picks: ticket.picks,
+        setKey: ticket.setKey,
+        id: ticket.id,
+      }));
+
+      const fixturesData = fixtureData.map(fixture => ({
+        homeTeam: fixture.home,
+        awayTeam: fixture.away,
+        odds: fixture.odds,
+        id: fixture.id,
+      }));
+
+      const response = await apiClient.analyzeTicketPerformance({
+        tickets: ticketsData,
+        actual_results: actualResultsComparison.actualResultsArray.filter(r => r !== null) as string[],
+        fixtures: fixturesData,
+        ticket_performance: actualResultsComparison.ticketMatches,
+      });
+
+      if (response.success && response.data) {
+        setTicketAnalysis(response.data);
+        toast({
+          title: 'Analysis Complete',
+          description: 'AI analysis of ticket performance is ready',
+        });
+      } else {
+        throw new Error(response.message || 'Analysis failed');
+      }
+    } catch (error: any) {
+      console.error('Error analyzing tickets:', error);
+      const errorMessage = error.message || 'Failed to analyze tickets';
+      
+      // Check if it's a package installation error
+      if (errorMessage.includes('not installed') || errorMessage.includes('pip install')) {
+        toast({
+          title: 'OpenAI Package Required',
+          description: 'Please install OpenAI package in the backend: pip install openai>=1.12.0',
+          variant: 'destructive',
+          duration: 10000,
+        });
+      } else {
+        toast({
+          title: 'Analysis Failed',
+          description: errorMessage,
+          variant: 'destructive',
+        });
+      }
+    } finally {
+      setAnalyzingTickets(false);
+    }
+  }, [actualResultsComparison, tickets, fixtureData, toast]);
 
   // Coverage diagnostics with warnings
   const coverageDiagnostics = useMemo(() => {
@@ -913,7 +1443,7 @@ export default function TicketConstruction() {
             </div>
             </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-3">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 gap-3">
                 {(Object.entries(probabilitySets) as [SetKey, typeof probabilitySets['A']][]).map(([key, set]) => {
                   const Icon = set.icon;
                   const isSelected = selectedSets.includes(key);
@@ -1348,6 +1878,285 @@ export default function TicketConstruction() {
               )}
             </CardContent>
           </Card>
+
+          {/* LLM Analysis Results */}
+          {ticketAnalysis && (
+            <Card className="glass-card border-accent/30">
+              <CardHeader>
+                <CardTitle className="text-lg flex items-center gap-2">
+                  <Lightbulb className="h-5 w-5 text-accent" />
+                  AI Performance Analysis
+                </CardTitle>
+                <CardDescription>
+                  LLM-powered insights on ticket performance and improvement recommendations
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="prose prose-sm dark:prose-invert max-w-none">
+                  <div className="whitespace-pre-wrap text-sm leading-relaxed">
+                    {ticketAnalysis.analysis}
+                  </div>
+                </div>
+                
+                {ticketAnalysis.best_performing_sets && ticketAnalysis.best_performing_sets.length > 0 && (
+                  <div className="pt-4 border-t border-border/50">
+                    <div className="text-sm font-semibold mb-2">Best Performing Sets:</div>
+                    <div className="flex flex-wrap gap-2">
+                      {ticketAnalysis.best_performing_sets.map(set => (
+                        <Badge key={set} variant="outline" className="bg-green-500/10 text-green-600 border-green-500/30">
+                          Set {set}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                {ticketAnalysis.worst_performing_sets && ticketAnalysis.worst_performing_sets.length > 0 && (
+                  <div className="pt-2">
+                    <div className="text-sm font-semibold mb-2">Underperforming Sets:</div>
+                    <div className="flex flex-wrap gap-2">
+                      {ticketAnalysis.worst_performing_sets.map(set => (
+                        <Badge key={set} variant="outline" className="bg-red-500/10 text-red-600 border-red-500/30">
+                          Set {set}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setTicketAnalysis(null)}
+                  className="w-full"
+                >
+                  Dismiss Analysis
+                </Button>
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Actual Results Comparison */}
+          {actualResultsComparison && (
+              <Card className="glass-card border-primary/30">
+                <CardHeader>
+                  <CardTitle className="text-lg flex items-center gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    Actual Results Comparison
+                  </CardTitle>
+                  <CardDescription>
+                    Compare your tickets against actual match results
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="overflow-x-auto">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead className="w-[80px] sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-20 border-r">
+                            <div className="text-xs font-semibold">Result</div>
+                          </TableHead>
+                          {fixtureData.map((fixture, idx) => {
+                            const actual = actualResultsComparison.actualResultsArray[idx];
+                            return (
+                              <TableHead 
+                                key={`actual-${fixture.id}`}
+                                className="p-0.5 text-center border-l border-border/50 min-w-[70px]"
+                              >
+                                <div className="flex flex-col items-center gap-0.5">
+                                  {actual ? (
+                                    <Badge 
+                                      variant="outline"
+                                      className={`w-6 h-6 p-0 justify-center text-xs font-bold ${
+                                        actual === '1' ? 'bg-chart-1/30 text-chart-1 border-chart-1/50' :
+                                        actual === 'X' ? 'bg-chart-3/30 text-chart-3 border-chart-3/50' :
+                                        'bg-chart-2/30 text-chart-2 border-chart-2/50'
+                                      }`}
+                                    >
+                                      {actual}
+                                    </Badge>
+                                  ) : (
+                                    <span className="text-muted-foreground/30 text-xs">—</span>
+                                  )}
+                                </div>
+                              </TableHead>
+                            );
+                          })}
+                          <TableHead className="text-center w-[120px] border-l-2 border-primary/20">
+                            <div className="text-xs font-semibold">Matches</div>
+                          </TableHead>
+                          <TableHead className="text-center w-[100px]">
+                            <div className="text-xs font-semibold">Accuracy</div>
+                          </TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {/* Actual Results Row */}
+                        <TableRow className="bg-muted/20 font-semibold">
+                          <TableCell className="sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10 border-r">
+                            <div className="text-xs font-semibold text-muted-foreground">Actual</div>
+                          </TableCell>
+                          {fixtureData.map((fixture, idx) => {
+                            const actual = actualResultsComparison.actualResultsArray[idx];
+                            return (
+                              <TableCell 
+                                key={`actual-cell-${fixture.id}`}
+                                className="p-0.5 text-center border-l border-border/50"
+                              >
+                                {actual ? (
+                                  <Badge 
+                                    variant="outline"
+                                    className={`w-6 h-6 p-0 justify-center text-xs font-bold ${
+                                      actual === '1' ? 'bg-chart-1/30 text-chart-1 border-chart-1/50' :
+                                      actual === 'X' ? 'bg-chart-3/30 text-chart-3 border-chart-3/50' :
+                                      'bg-chart-2/30 text-chart-2 border-chart-2/50'
+                                    }`}
+                                  >
+                                    {actual}
+                                  </Badge>
+                                ) : (
+                                  <span className="text-muted-foreground/30 text-xs">—</span>
+                                )}
+                              </TableCell>
+                            );
+                          })}
+                          <TableCell className="text-center border-l-2 border-primary/20">
+                            <span className="text-xs text-muted-foreground">—</span>
+                          </TableCell>
+                          <TableCell className="text-center">
+                            <span className="text-xs text-muted-foreground">—</span>
+                          </TableCell>
+                        </TableRow>
+                        
+                        {/* Ticket Comparison Rows */}
+                        {tickets.map((ticket, ticketIdx) => {
+                          const matchData = actualResultsComparison.ticketMatches[ticketIdx];
+                          const set = probabilitySets[ticket.setKey];
+                          const Icon = set.icon;
+                          
+                          return (
+                            <TableRow 
+                              key={`comparison-${ticket.id}`}
+                              className={`hover:bg-muted/30 transition-colors ${
+                                matchData.accuracy === 100 ? 'bg-green-500/5' : ''
+                              }`}
+                            >
+                              <TableCell className="sticky left-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10 border-r">
+                                <Badge variant="outline" className={`${set.color} text-xs`}>
+                                  <Icon className="h-3 w-3 mr-1" />
+                                  {ticket.setKey}
+                                </Badge>
+                              </TableCell>
+                              {fixtureData.map((fixture, idx) => {
+                                const pick = ticket.picks[idx];
+                                const actual = actualResultsComparison.actualResultsArray[idx];
+                                const isMatch = actual !== null && pick === actual;
+                                
+                                return (
+                                  <TableCell 
+                                    key={`comparison-${ticket.id}-${idx}`}
+                                    className="p-0.5 text-center border-l border-border/50"
+                                  >
+                                    {actual !== null ? (
+                                      <div className="flex flex-col items-center gap-0.5">
+                                        <Badge 
+                                          variant="outline"
+                                          className={`w-5 h-5 p-0 justify-center text-[11px] font-bold ${
+                                            isMatch 
+                                              ? 'bg-green-500/30 text-green-600 border-green-500/50' 
+                                              : pick === '1' ? 'bg-chart-1/10 text-chart-1/50 border-chart-1/30' :
+                                                pick === 'X' ? 'bg-chart-3/10 text-chart-3/50 border-chart-3/30' :
+                                                'bg-chart-2/10 text-chart-2/50 border-chart-2/30'
+                                          }`}
+                                        >
+                                          {pick}
+                                        </Badge>
+                                        {isMatch ? (
+                                          <CheckCircle className="h-3 w-3 text-green-600" />
+                                        ) : (
+                                          <XCircle className="h-3 w-3 text-red-500" />
+                                        )}
+                                      </div>
+                                    ) : (
+                                      <span className="text-muted-foreground/30 text-xs">—</span>
+                                    )}
+                                  </TableCell>
+                                );
+                              })}
+                              <TableCell className="text-center border-l-2 border-primary/20 tabular-nums text-sm font-medium">
+                                <span className={matchData.accuracy === 100 ? 'text-green-600' : ''}>
+                                  {matchData.correct}/{matchData.total}
+                                </span>
+                              </TableCell>
+                              <TableCell className="text-center tabular-nums text-sm font-medium">
+                                <Badge 
+                                  variant={matchData.accuracy === 100 ? "default" : "outline"}
+                                  className={matchData.accuracy === 100 ? 'bg-green-500/20 text-green-600 border-green-500/50' : ''}
+                                >
+                                  {matchData.accuracy.toFixed(0)}%
+                                </Badge>
+                              </TableCell>
+                            </TableRow>
+                          );
+                        })}
+                      </TableBody>
+                    </Table>
+                  </div>
+                  
+                  {/* Summary Statistics */}
+                  {actualResultsComparison.ticketMatches.length > 0 && (
+                    <div className="mt-4 pt-4 border-t border-border/50 space-y-4">
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                        <div>
+                          <div className="text-muted-foreground text-xs">Total Tickets</div>
+                          <div className="font-semibold text-lg">{tickets.length}</div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground text-xs">Perfect Matches</div>
+                          <div className="font-semibold text-lg text-green-600">
+                            {actualResultsComparison.ticketMatches.filter(m => m.accuracy === 100).length}
+                          </div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground text-xs">Avg Accuracy</div>
+                          <div className="font-semibold text-lg">
+                            {(actualResultsComparison.ticketMatches.reduce((sum, m) => sum + m.accuracy, 0) / actualResultsComparison.ticketMatches.length).toFixed(1)}%
+                          </div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground text-xs">Best Ticket</div>
+                          <div className="font-semibold text-lg">
+                            {Math.max(...actualResultsComparison.ticketMatches.map(m => m.accuracy)).toFixed(0)}%
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* LLM Analysis Button */}
+                      <div className="flex justify-center pt-2">
+                        <Button
+                          onClick={handleAnalyzeTickets}
+                          disabled={analyzingTickets || tickets.length === 0}
+                          variant="outline"
+                          className="glass-card border-primary/30 hover:bg-primary/10 gap-2"
+                        >
+                          {analyzingTickets ? (
+                            <>
+                              <Loader2 className="h-4 w-4 animate-spin" />
+                              Analyzing...
+                            </>
+                          ) : (
+                            <>
+                              <Brain className="h-4 w-4" />
+                              Analyze Performance with AI
+                            </>
+                          )}
+                        </Button>
+                      </div>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+          )}
 
           {/* Save Dialog */}
           {showSaveDialog && (

@@ -26,7 +26,7 @@ class FixtureInput(BaseModel):
 
 class JackpotInput(BaseModel):
     """Complete jackpot input request."""
-    fixtures: List[FixtureInput] = Field(..., min_length=1, max_length=20)
+    fixtures: List[FixtureInput] = Field(..., min_length=1, max_length=200)
     createdAt: datetime
 
 

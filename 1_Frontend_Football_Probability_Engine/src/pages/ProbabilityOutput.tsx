@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { Info, Download, FileText, Calculator, TrendingUp, Target, Zap, Scale, Users, AlertTriangle, CheckCircle, HelpCircle, Loader2, Save, FolderOpen, X, Trophy, Sparkles } from 'lucide-react';
+import { Info, Download, FileText, Calculator, TrendingUp, Target, Zap, Scale, Users, AlertTriangle, CheckCircle, HelpCircle, Loader2, Save, FolderOpen, X, Trophy, Sparkles, Globe } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
 import { ModernCard } from '@/components/ui/modern-card';
@@ -252,9 +252,60 @@ const probabilitySets: Record<string, {
       { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.80, awayWinProbability: 22.78, confidenceLow: 47.9, confidenceHigh: 54.1 },
     ],
   },
+  K: {
+    name: 'Set K - H/D/A Consensus',
+    description: 'Uses best trusted set for each outcome type when 8/10 sets agree. Consensus-based intelligent selection.',
+    icon: CheckCircle,
+    useCase: 'Consensus-driven betting',
+    guidance: 'Dynamically generated based on historical performance. Uses best set for Home/Draw/Away when sets show strong consensus (80% agreement).',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 51.00, drawProbability: 26.00, awayWinProbability: 23.00, confidenceLow: 41.4, confidenceHigh: 47.6 },
+      { ...baseFixtures[1], homeWinProbability: 33.46, drawProbability: 28.49, awayWinProbability: 38.05, confidenceLow: 29.9, confidenceHigh: 36.1 },
+      { ...baseFixtures[2], homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51, confidenceLow: 36.9, confidenceHigh: 43.1 },
+      { ...baseFixtures[3], homeWinProbability: 47.16, drawProbability: 27.79, awayWinProbability: 25.05, confidenceLow: 43.9, confidenceHigh: 50.1 },
+      { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.14, awayWinProbability: 23.44, confidenceLow: 47.9, confidenceHigh: 54.1 },
+    ],
+  },
+  L: {
+    name: 'Set L - League-Optimized',
+    description: 'Uses the best-performing set for each league based on historical results. League-specific optimization.',
+    icon: Globe,
+    useCase: 'League-aware betting',
+    guidance: 'Dynamically generated based on league-specific performance. Each match uses the set that historically performs best for that league.',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 51.00, drawProbability: 26.00, awayWinProbability: 23.00, confidenceLow: 41.4, confidenceHigh: 47.6 },
+      { ...baseFixtures[1], homeWinProbability: 33.46, drawProbability: 28.49, awayWinProbability: 38.05, confidenceLow: 29.9, confidenceHigh: 36.1 },
+      { ...baseFixtures[2], homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51, confidenceLow: 36.9, confidenceHigh: 43.1 },
+      { ...baseFixtures[3], homeWinProbability: 47.16, drawProbability: 27.79, awayWinProbability: 25.05, confidenceLow: 43.9, confidenceHigh: 50.1 },
+      { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.14, awayWinProbability: 23.44, confidenceLow: 47.9, confidenceHigh: 54.1 },
+    ],
+  },
+  M: {
+    name: 'Set M - Hybrid Best',
+    description: 'Optimal combination of Set K (consensus) and Set L (league-specific). 60% consensus + 40% league optimization.',
+    icon: Zap,
+    useCase: 'Best of both worlds',
+    guidance: 'Dynamically generated hybrid approach. Combines consensus-based selection (K) with league-specific optimization (L) for maximum accuracy.',
+    calibrated: true,
+    heuristic: false,
+    allowedForDecisionSupport: true,
+    probabilities: [
+      { ...baseFixtures[0], homeWinProbability: 51.00, drawProbability: 26.00, awayWinProbability: 23.00, confidenceLow: 41.4, confidenceHigh: 47.6 },
+      { ...baseFixtures[1], homeWinProbability: 33.46, drawProbability: 28.49, awayWinProbability: 38.05, confidenceLow: 29.9, confidenceHigh: 36.1 },
+      { ...baseFixtures[2], homeWinProbability: 40.45, drawProbability: 30.04, awayWinProbability: 29.51, confidenceLow: 36.9, confidenceHigh: 43.1 },
+      { ...baseFixtures[3], homeWinProbability: 47.16, drawProbability: 27.79, awayWinProbability: 25.05, confidenceLow: 43.9, confidenceHigh: 50.1 },
+      { ...baseFixtures[4], homeWinProbability: 50.42, drawProbability: 26.14, awayWinProbability: 23.44, confidenceLow: 47.9, confidenceHigh: 54.1 },
+    ],
+  },
 };
 
-const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'] as const;
+const setKeys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'] as const;
 
 type Selection = '1' | 'X' | '2' | null;
 

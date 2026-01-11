@@ -95,6 +95,30 @@ TICKET_ROLE_CONSTRAINTS = {
         "min_underdogs": 2,
         "entropy_range": (0.80, 0.90),
         "description": "System-selected draw - Adaptive intelligent draw strategy, maximum coverage"
+    },
+    "K": {
+        "min_draws": 2,
+        "max_draws": 6,
+        "max_favorites": 7,
+        "min_underdogs": 1,
+        "entropy_range": (0.75, 0.85),
+        "description": "H/D/A Consensus - Uses best-performing set when 5+ sets agree on outcome"
+    },
+    "L": {
+        "min_draws": 3,
+        "max_draws": 7,
+        "max_favorites": 6,
+        "min_underdogs": 2,
+        "entropy_range": (0.78, 0.88),
+        "description": "League-Optimized - Uses best-performing set per league for each fixture"
+    },
+    "M": {
+        "min_draws": 3,
+        "max_draws": 6,
+        "max_favorites": 6,
+        "min_underdogs": 1,
+        "entropy_range": (0.77, 0.87),
+        "description": "Hybrid Best - Weighted combination of consensus (K) and league-optimized (L)"
     }
 }
 
@@ -104,7 +128,7 @@ def get_role_constraints(set_key: str) -> dict:
     Get constraints for a specific ticket role.
     
     Args:
-        set_key: Probability set key ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J')
+        set_key: Probability set key ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M')
         
     Returns:
         Dictionary with constraint values

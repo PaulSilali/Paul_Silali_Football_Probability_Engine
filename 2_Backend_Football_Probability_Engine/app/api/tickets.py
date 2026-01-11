@@ -6,7 +6,7 @@ Provides endpoints for generating jackpot tickets with draw constraints.
 from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from app.db.session import get_db
 from app.services.ticket_generation_service import TicketGenerationService
 from app.api.probabilities import calculate_probabilities
@@ -14,6 +14,8 @@ from app.db.models import Jackpot as JackpotModel, JackpotFixture, SavedProbabil
 from app.schemas.jackpot import ApiResponse
 from datetime import datetime
 import logging
+import os
+import re
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/tickets", tags=["tickets"])
@@ -69,19 +71,19 @@ async def generate_tickets(
         if not fixtures_data:
             raise HTTPException(status_code=400, detail="No fixtures found for jackpot")
         
-        # Validate set_keys - A-J are valid
-        valid_set_keys = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"}
+        # Validate set_keys - A-M are valid (K, L, M are generated in frontend)
+        valid_set_keys = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"}
         set_keys = [key.upper() for key in request.set_keys if key.upper() in valid_set_keys]
         
         # Log if invalid keys were filtered out
         invalid_keys = [key for key in request.set_keys if key.upper() not in valid_set_keys]
         if invalid_keys:
-            logger.warning(f"Filtered out invalid set_keys: {invalid_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J")
+            logger.warning(f"Filtered out invalid set_keys: {invalid_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J, K, L, M")
         
         if not set_keys:
             raise HTTPException(
                 status_code=400, 
-                detail=f"Invalid set_keys: {request.set_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J"
+                detail=f"Invalid set_keys: {request.set_keys}. Valid keys are: A, B, C, D, E, F, G, H, I, J, K, L, M"
             )
         
         # Filter probability_sets to only include valid set keys
@@ -311,6 +313,298 @@ async def save_tickets(
         db.rollback()
         logger.error(f"Error saving tickets: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Failed to save tickets: {str(e)}")
+
+
+class AnalyzeTicketsRequest(BaseModel):
+    tickets: List[Dict[str, Any]]  # List of tickets with picks, setKey, etc.
+    actual_results: List[str]  # Actual results for each match ('1', 'X', '2')
+    fixtures: List[Dict[str, Any]]  # Fixture information (teams, odds, etc.)
+    ticket_performance: List[Dict[str, Any]]  # Performance metrics per ticket
+
+
+@router.post("/analyze-performance", response_model=ApiResponse)
+async def analyze_ticket_performance(
+    request: AnalyzeTicketsRequest,
+    db: Session = Depends(get_db)
+):
+    """
+    Use LLM to analyze ticket performance and suggest improvements.
+    
+    Compares generated tickets against actual results and provides:
+    - Pattern analysis (which sets performed best/worst)
+    - Common mistakes identification
+    - Suggestions for ticket enhancement
+    - Recommendations for which sets to use/avoid
+    """
+    try:
+        # Try importing OpenAI package first
+        try:
+            import openai
+            from openai import OpenAI
+            # Log version if available
+            if hasattr(openai, '__version__'):
+                logger.debug(f"OpenAI package version: {openai.__version__}")
+        except ImportError as e:
+            error_msg = (
+                "LLM analysis not available: OpenAI package not installed.\n\n"
+                "To install:\n"
+                "1. Open terminal in the backend directory\n"
+                "2. Run: pip install openai>=1.12.0\n"
+                "Or run: install_openai.bat\n\n"
+                f"Error details: {str(e)}"
+            )
+            logger.error(error_msg)
+            return ApiResponse(
+                success=False,
+                message=error_msg,
+                data={"analysis": None}
+            )
+        
+        # Now try to get client with API keys
+        try:
+            from app.config.openai_keys import get_openai_client
+            client = get_openai_client()
+            
+            if not client:
+                logger.warning("No working OpenAI API key found, skipping LLM analysis")
+                return ApiResponse(
+                    success=False,
+                    message="LLM analysis not available: No working API key found. The system tried all configured keys but none are valid.",
+                    data={"analysis": None}
+                )
+        except ImportError as e:
+            error_msg = (
+                f"LLM analysis not available: Configuration import error.\n\n"
+                f"Failed to import openai_keys module: {str(e)}\n\n"
+                f"Please ensure app/config/__init__.py exists and the module structure is correct."
+            )
+            logger.error(error_msg)
+            return ApiResponse(
+                success=False,
+                message=error_msg,
+                data={"analysis": None}
+            )
+        except Exception as e:
+            error_msg = (
+                f"LLM analysis not available: Unexpected configuration error.\n\n"
+                f"Error: {str(e)}\n\n"
+                f"Please check the logs for more details."
+            )
+            logger.error(f"Unexpected error in OpenAI config: {e}", exc_info=True)
+            return ApiResponse(
+                success=False,
+                message=error_msg,
+                data={"analysis": None}
+            )
+        
+        # Format data for LLM analysis
+        analysis_prompt = format_ticket_analysis_prompt(
+            request.tickets,
+            request.actual_results,
+            request.fixtures,
+            request.ticket_performance
+        )
+        
+        # Call OpenAI API with error handling for invalid keys and quota issues
+        max_retries = 10  # Try up to 10 different keys (to handle quota issues)
+        last_error = None
+        keys_tried = 0
+        
+        for attempt in range(max_retries):
+            try:
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",  # Using mini for cost efficiency
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a football betting analyst expert. Analyze ticket performance data and provide actionable insights on which probability sets performed best, common prediction mistakes, and recommendations for improving ticket generation."
+                        },
+                        {
+                            "role": "user",
+                            "content": analysis_prompt
+                        }
+                    ],
+                    temperature=0.7,
+                    max_tokens=1500
+                )
+                # Success! Break out of retry loop
+                break
+            except Exception as api_error:
+                error_str = str(api_error)
+                last_error = api_error
+                keys_tried += 1
+                
+                # Check if it's an authentication error (401)
+                is_auth_error = (
+                    "401" in error_str or 
+                    "authentication" in error_str.lower() or 
+                    "invalid_api_key" in error_str.lower() or
+                    hasattr(api_error, 'status_code') and api_error.status_code == 401
+                )
+                
+                # Check if it's a quota error (429)
+                is_quota_error = (
+                    "429" in error_str or 
+                    "quota" in error_str.lower() or 
+                    "insufficient_quota" in error_str.lower() or
+                    "rate_limit" in error_str.lower() or
+                    hasattr(api_error, 'status_code') and api_error.status_code == 429
+                )
+                
+                # Try next key if it's an auth or quota error
+                if (is_auth_error or is_quota_error) and attempt < max_retries - 1:
+                    error_type = "quota" if is_quota_error else "authentication"
+                    logger.warning(f"OpenAI API key {error_type} failed (attempt {attempt + 1}/{max_retries}, key #{keys_tried}). Trying next key...")
+                    # Try to get a new client (will try next key)
+                    from app.config.openai_keys import get_openai_client
+                    client = get_openai_client()
+                    if not client:
+                        error_msg = "LLM analysis not available: All OpenAI API keys failed."
+                        if is_quota_error:
+                            error_msg += " All keys have exceeded their quota. Please add keys with available quota to app/config/openai_keys.py"
+                        else:
+                            error_msg += " All keys failed authentication. Please configure a valid OPENAI_API_KEY environment variable or update the hardcoded keys in app/config/openai_keys.py"
+                        return ApiResponse(
+                            success=False,
+                            message=error_msg,
+                            data={"analysis": None}
+                        )
+                    # Continue to next iteration to retry with new key
+                    continue
+                else:
+                    # Either not a retryable error, or we've exhausted retries
+                    if is_auth_error or is_quota_error:
+                        error_msg = "LLM analysis not available: All OpenAI API keys failed."
+                        if is_quota_error:
+                            error_msg += f" All {keys_tried} keys have exceeded their quota. Please add keys with available quota to app/config/openai_keys.py or set OPENAI_API_KEY environment variable with a key that has quota."
+                        else:
+                            error_msg += " All keys failed authentication. Please set a valid OPENAI_API_KEY environment variable or add valid keys to app/config/openai_keys.py"
+                        return ApiResponse(
+                            success=False,
+                            message=error_msg,
+                            data={"analysis": None}
+                        )
+                    else:
+                        # Re-raise if it's not a retryable error
+                        raise
+        
+        # If we get here without breaking, all retries failed
+        if last_error:
+            return ApiResponse(
+                success=False,
+                message=f"LLM analysis failed after {max_retries} attempts ({keys_tried} keys tried): {str(last_error)[:200]}",
+                data={"analysis": None}
+            )
+        
+        analysis_text = response.choices[0].message.content
+        
+        # Parse structured insights (if LLM returns structured format)
+        insights = {
+            "analysis": analysis_text,
+            "best_performing_sets": extract_best_sets(analysis_text),
+            "worst_performing_sets": extract_worst_sets(analysis_text),
+            "common_mistakes": extract_common_mistakes(analysis_text),
+            "recommendations": extract_recommendations(analysis_text)
+        }
+        
+        return ApiResponse(
+            success=True,
+            message="Ticket performance analysis completed",
+            data=insights
+        )
+        
+    except Exception as e:
+        logger.error(f"Error analyzing ticket performance: {e}", exc_info=True)
+        return ApiResponse(
+            success=False,
+            message=f"Failed to analyze tickets: {str(e)}",
+            data={"analysis": None}
+        )
+
+
+def format_ticket_analysis_prompt(
+    tickets: List[Dict[str, Any]],
+    actual_results: List[str],
+    fixtures: List[Dict[str, Any]],
+    ticket_performance: List[Dict[str, Any]]
+) -> str:
+    """Format ticket comparison data into a prompt for LLM analysis."""
+    
+    prompt = f"""Analyze the following football jackpot ticket performance data and provide insights:
+
+**MATCH RESULTS (Actual):**
+"""
+    for idx, (fixture, actual) in enumerate(zip(fixtures, actual_results), 1):
+        home = fixture.get('homeTeam', 'Team A')
+        away = fixture.get('awayTeam', 'Team B')
+        prompt += f"Match {idx}: {home} vs {away} → Actual Result: {actual}\n"
+    
+    prompt += f"\n**TICKET PERFORMANCE:**\n"
+    for perf in ticket_performance:
+        ticket_idx = ticket_performance.index(perf)
+        ticket = tickets[ticket_idx]
+        set_key = ticket.get('setKey', 'Unknown')
+        accuracy = perf.get('accuracy', 0)
+        correct = perf.get('correct', 0)
+        total = perf.get('total', 0)
+        
+        prompt += f"\nSet {set_key}: {correct}/{total} correct ({accuracy:.1f}% accuracy)\n"
+        prompt += f"  Predictions: {' '.join(ticket.get('picks', []))}\n"
+    
+    prompt += """
+**ANALYSIS REQUEST:**
+
+Please provide:
+1. **Best Performing Sets**: Which probability sets (A-M) performed best and why?
+2. **Worst Performing Sets**: Which sets underperformed and what patterns caused failures?
+3. **Common Mistakes**: What types of predictions were frequently wrong? (e.g., over-predicting home wins, missing draws)
+4. **Improvement Recommendations**: 
+   - Which sets should be prioritized for future ticket generation?
+   - What adjustments could improve accuracy?
+   - Are there specific match types or patterns where certain sets excel/fail?
+5. **Strategic Insights**: Any patterns in successful vs unsuccessful tickets?
+
+Format your response clearly with sections for each point above.
+"""
+    
+    return prompt
+
+
+def extract_best_sets(analysis_text: str) -> List[str]:
+    """Extract best performing sets from LLM analysis."""
+    sets = []
+    # Look for patterns like "Set B", "Set K", etc.
+    matches = re.findall(r'Set\s+([A-M])', analysis_text, re.IGNORECASE)
+    return list(set(matches))[:5]  # Return up to 5 unique sets
+
+
+def extract_worst_sets(analysis_text: str) -> List[str]:
+    """Extract worst performing sets from LLM analysis."""
+    # Similar to extract_best_sets but look for negative context
+    # This is a simple extraction - could be enhanced with NLP
+    matches = re.findall(r'Set\s+([A-M])', analysis_text, re.IGNORECASE)
+    return list(set(matches))[:3]
+
+
+def extract_common_mistakes(analysis_text: str) -> List[str]:
+    """Extract common mistakes from LLM analysis."""
+    mistakes = []
+    # Look for sentences mentioning mistakes
+    lines = analysis_text.split('\n')
+    for line in lines:
+        if any(word in line.lower() for word in ['mistake', 'error', 'wrong', 'failed', 'missed']):
+            mistakes.append(line.strip())
+    return mistakes[:5]
+
+
+def extract_recommendations(analysis_text: str) -> List[str]:
+    """Extract recommendations from LLM analysis."""
+    recommendations = []
+    lines = analysis_text.split('\n')
+    for line in lines:
+        if any(word in line.lower() for word in ['recommend', 'suggest', 'should', 'consider', 'improve']):
+            recommendations.append(line.strip())
+    return recommendations[:5]
 
 
 @router.get("/draw-diagnostics")

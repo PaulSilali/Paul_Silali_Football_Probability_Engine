@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS saved_probability_results (
     created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     
-    CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 20)
+    CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 200)
 );
 
 CREATE INDEX idx_saved_results_user ON saved_probability_results(user_id);

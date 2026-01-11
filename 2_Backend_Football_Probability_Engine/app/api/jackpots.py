@@ -77,8 +77,8 @@ async def save_template(
         if not request.fixtures or len(request.fixtures) == 0:
             raise HTTPException(status_code=400, detail="At least one fixture is required")
         
-        if len(request.fixtures) > 20:
-            raise HTTPException(status_code=400, detail="Maximum 20 fixtures allowed")
+        if len(request.fixtures) > 200:
+            raise HTTPException(status_code=400, detail="Maximum 200 fixtures allowed")
         
         # Convert fixtures to JSON
         fixtures_json = [

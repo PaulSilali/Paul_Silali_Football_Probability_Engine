@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS saved_jackpot_templates (
     created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     
-    CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 20)
+    CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 200)
 );
 
 CREATE INDEX idx_saved_templates_user ON saved_jackpot_templates(user_id);

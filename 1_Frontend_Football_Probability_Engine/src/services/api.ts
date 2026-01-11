@@ -268,6 +268,13 @@ class ApiClient {
     });
   }
 
+  async getValidationExportStatus(): Promise<ApiResponse<{
+    exported_validations: Record<string, { exported: boolean; exported_at: string | null; validation_result_id: number }>;
+    total_exported: number;
+  }>> {
+    return this.request(`/probabilities/validation/export-status`);
+  }
+
   async retrainCalibrationFromValidation(params?: {
     validation_result_ids?: number[];
     use_all_validation?: boolean;
@@ -325,6 +332,25 @@ class ApiClient {
 
   async getModelStatus(): Promise<ApiResponse<ModelStatus>> {
     return this.request('/model/status');
+  }
+
+  // Ticket analysis endpoints
+  async analyzeTicketPerformance(data: {
+    tickets: Array<{ picks: string[]; setKey: string; id: string }>;
+    actual_results: string[];
+    fixtures: Array<{ homeTeam: string; awayTeam: string; odds?: any; id: string }>;
+    ticket_performance: Array<{ correct: number; total: number; accuracy: number }>;
+  }): Promise<ApiResponse<{
+    analysis: string;
+    best_performing_sets?: string[];
+    worst_performing_sets?: string[];
+    common_mistakes?: string[];
+    recommendations?: string[];
+  }>> {
+    return this.request('/tickets/analyze-performance', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
   }
 
   async trainModel(params?: {
@@ -1490,6 +1516,219 @@ class ApiClient {
       method: 'POST',
       body: JSON.stringify({ injuries }),
     });
+  }
+
+  // Sure Bet endpoints
+  async validateSureBetGames(data: {
+    games: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      draw?: string;
+    }>;
+  }): Promise<ApiResponse<{
+    validatedGames: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      isValidated: boolean;
+      needsTraining?: boolean;
+      isTrained?: boolean;
+      hasData?: boolean;
+    }>;
+  }>> {
+    return this.request('/sure-bet/validate', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async trainSureBetGames(data: {
+    gameIds: string[];
+  }): Promise<ApiResponse<{
+    trained: number;
+    failed: number;
+  }>> {
+    return this.request('/sure-bet/train', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async analyzeSureBets(data: {
+    games: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+    }>;
+    maxResults?: number;
+  }): Promise<ApiResponse<{
+    sureBets: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      predictedOutcome: '1' | 'X' | '2';
+      confidence: number;
+      homeProbability: number;
+      drawProbability: number;
+      awayProbability: number;
+      homeOdds?: number;
+      drawOdds?: number;
+      awayOdds?: number;
+    }>;
+  }>> {
+    return this.request('/sure-bet/analyze', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async downloadAndValidateSureBetGames(data: {
+    games: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      homeOdds?: number;
+      drawOdds?: number;
+      awayOdds?: number;
+    }>;
+  }): Promise<ApiResponse<{
+    validatedGames: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      isValidated: boolean;
+      needsTraining?: boolean;
+      isTrained?: boolean;
+      hasData?: boolean;
+    }>;
+    removedGames: Array<{
+      id: string;
+      homeTeam: string;
+      awayTeam: string;
+      reason: string;
+    }>;
+    downloaded: number;
+    retrained: number;
+  }>> {
+    return this.request('/sure-bet/download-and-validate', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async saveSureBetList(data: {
+    name: string;
+    description?: string;
+    games: any[];
+    betAmountKshs?: number;
+    selectedGameIds?: string[];
+    totalOdds?: number;
+    totalProbability?: number;
+    expectedAmountKshs?: number;
+    weightedAmountKshs?: number;
+  }): Promise<ApiResponse<{
+    id: number;
+    name: string;
+    description?: string;
+    createdAt: string;
+  }>> {
+    return this.request('/sure-bet/save-list', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async getSavedSureBetLists(): Promise<ApiResponse<{
+    savedLists: Array<{
+      id: number;
+      name: string;
+      description?: string;
+      betAmountKshs?: number;
+      selectedGameIds: string[];
+      totalOdds?: number;
+      totalProbability?: number;
+      expectedAmountKshs?: number;
+      weightedAmountKshs?: number;
+      createdAt: string;
+      updatedAt: string;
+    }>;
+  }>> {
+    return this.request('/sure-bet/saved-lists');
+  }
+
+  async getSavedSureBetList(listId: number): Promise<ApiResponse<{
+    id: number;
+    name: string;
+    description?: string;
+    games: any[];
+    betAmountKshs?: number;
+    selectedGameIds: string[];
+    totalOdds?: number;
+    totalProbability?: number;
+    expectedAmountKshs?: number;
+    weightedAmountKshs?: number;
+    createdAt: string;
+    updatedAt: string;
+  }>> {
+    return this.request(`/sure-bet/saved-lists/${listId}`);
+  }
+
+  async deleteSavedSureBetList(listId: number): Promise<ApiResponse<{}>> {
+    return this.request(`/sure-bet/saved-lists/${listId}`, {
+      method: 'DELETE',
+    });
+  }
+
+  async importPDFGames(file: File): Promise<ApiResponse<{
+    games: Array<{
+      id: string;
+      gameId: string;
+      homeTeam: string;
+      awayTeam: string;
+      homeOdds?: number;
+      drawOdds?: number;
+      awayOdds?: number;
+      doubleChance1X?: number;
+      doubleChance12?: number;
+      doubleChanceX2?: number;
+    }>;
+  }>> {
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    const headers: HeadersInit = {};
+    // Don't set Content-Type - browser will set it with boundary for FormData
+    
+    if (this.token) {
+      headers['Authorization'] = `Bearer ${this.token}`;
+    }
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/sure-bet/import-pdf`, {
+        method: 'POST',
+        headers,
+        body: formData,
+      });
+
+      if (!response.ok) {
+        if (response.status === 401) {
+          this.token = null;
+          localStorage.removeItem('auth_token');
+          window.location.href = '/login';
+        }
+        
+        const errorData = await response.json().catch(() => ({ detail: response.statusText }));
+        const errorMessage = errorData.detail || errorData.message || `HTTP ${response.status}: ${response.statusText}`;
+        throw new Error(errorMessage);
+      }
+
+      const data = await response.json();
+      return data;
+    } catch (error: any) {
+      console.error('PDF import API error:', error);
+      throw error;
+    }
   }
 }
 

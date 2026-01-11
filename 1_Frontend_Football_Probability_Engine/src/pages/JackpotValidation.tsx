@@ -73,6 +73,7 @@ interface JackpotMatch {
   prediction: 'H' | 'D' | 'A';
   correct: boolean;
   confidence: number;
+  leagueCode?: string;  // League code for analytics
 }
 
 interface JackpotValidation {
@@ -189,17 +190,53 @@ const calculateAnalytics = (
     }));
   
   // Set comparison - aggregate across all jackpots, grouped by set
-  const setStats: Record<string, { correct: number; total: number; brier: number; count: number }> = {};
+  const setStats: Record<string, { 
+    correct: number; 
+    total: number; 
+    brier: number; 
+    count: number;
+    hCorrect: number;
+    hTotal: number;
+    dCorrect: number;
+    dTotal: number;
+    aCorrect: number;
+    aTotal: number;
+  }> = {};
   
   validationsToUse.forEach(v => {
     const setKey = v.setUsed;
     if (!setStats[setKey]) {
-      setStats[setKey] = { correct: 0, total: 0, brier: 0, count: 0 };
+      setStats[setKey] = { 
+        correct: 0, 
+        total: 0, 
+        brier: 0, 
+        count: 0,
+        hCorrect: 0,
+        hTotal: 0,
+        dCorrect: 0,
+        dTotal: 0,
+        aCorrect: 0,
+        aTotal: 0,
+      };
     }
     setStats[setKey].correct += v.correctPredictions;
     setStats[setKey].total += v.totalMatches;
     setStats[setKey].brier += v.brierScore * v.totalMatches;
     setStats[setKey].count += 1;
+    
+    // Calculate H/D/A accuracy per set
+    v.matches.forEach(match => {
+      if (match.actualResult === 'H') {
+        setStats[setKey].hTotal++;
+        if (match.prediction === 'H') setStats[setKey].hCorrect++;
+      } else if (match.actualResult === 'D') {
+        setStats[setKey].dTotal++;
+        if (match.prediction === 'D') setStats[setKey].dCorrect++;
+      } else if (match.actualResult === 'A') {
+        setStats[setKey].aTotal++;
+        if (match.prediction === 'A') setStats[setKey].aCorrect++;
+      }
+    });
   });
   
   const setComparison = Object.entries(setStats).map(([set, stats]) => ({
@@ -209,6 +246,15 @@ const calculateAnalytics = (
     correct: stats.correct,
     total: stats.total,
     jackpotCount: stats.count,
+    hAccuracy: stats.hTotal > 0 ? (stats.hCorrect / stats.hTotal) * 100 : 0,
+    hCorrect: stats.hCorrect,
+    hTotal: stats.hTotal,
+    dAccuracy: stats.dTotal > 0 ? (stats.dCorrect / stats.dTotal) * 100 : 0,
+    dCorrect: stats.dCorrect,
+    dTotal: stats.dTotal,
+    aAccuracy: stats.aTotal > 0 ? (stats.aCorrect / stats.aTotal) * 100 : 0,
+    aCorrect: stats.aCorrect,
+    aTotal: stats.aTotal,
   }));
   
   // Aggregated stats across all predictions
@@ -224,13 +270,227 @@ const calculateAnalytics = (
     avgBrierScore: avgBrier || 0,
   };
   
+  // Find best set for each outcome type (H/D/A)
+  const bestSetForH = setComparison.length > 0 
+    ? setComparison.reduce((best, current) => 
+        current.hTotal > 0 && current.hAccuracy > (best.hAccuracy || 0) ? current : best
+      , setComparison[0])
+    : null;
+  
+  const bestSetForD = setComparison.length > 0 
+    ? setComparison.reduce((best, current) => 
+        current.dTotal > 0 && current.dAccuracy > (best.dAccuracy || 0) ? current : best
+      , setComparison[0])
+    : null;
+  
+  const bestSetForA = setComparison.length > 0 
+    ? setComparison.reduce((best, current) => 
+        current.aTotal > 0 && current.aAccuracy > (best.aAccuracy || 0) ? current : best
+      , setComparison[0])
+    : null;
+  
+  // Calculate league-specific performance per set
+  const leagueSetStats: Record<string, Record<string, { correct: number; total: number; accuracy: number }>> = {};
+  
+  validationsToUse.forEach(validation => {
+    validation.matches.forEach(match => {
+      const league = match.leagueCode || 'Unknown';
+      const set = validation.setUsed;
+      
+      if (!leagueSetStats[league]) {
+        leagueSetStats[league] = {};
+      }
+      if (!leagueSetStats[league][set]) {
+        leagueSetStats[league][set] = { correct: 0, total: 0, accuracy: 0 };
+      }
+      
+      leagueSetStats[league][set].total++;
+      if (match.correct) {
+        leagueSetStats[league][set].correct++;
+      }
+    });
+  });
+  
+  // Calculate accuracy for each league-set combination
+  Object.keys(leagueSetStats).forEach(league => {
+    Object.keys(leagueSetStats[league]).forEach(set => {
+      const stats = leagueSetStats[league][set];
+      stats.accuracy = stats.total > 0 ? (stats.correct / stats.total) * 100 : 0;
+    });
+  });
+  
+  // Find best set for each league
+  const bestSetPerLeague: Record<string, { set: string; accuracy: number; correct: number; total: number }> = {};
+  Object.keys(leagueSetStats).forEach(league => {
+    const sets = leagueSetStats[league];
+    const bestSet = Object.entries(sets).reduce((best, [set, stats]) => {
+      if (stats.total > 0 && stats.accuracy > (best.accuracy || 0)) {
+        return { set, ...stats };
+      }
+      return best;
+    }, { set: '', accuracy: 0, correct: 0, total: 0 });
+    
+    if (bestSet.total > 0) {
+      bestSetPerLeague[league] = bestSet;
+    }
+  });
+  
   return {
     performanceTrend,
     outcomeBreakdown,
     confidenceAccuracy,
     setComparison,
     aggregatedStats,
+    bestSetForH,
+    bestSetForD,
+    bestSetForA,
+    bestSetPerLeague,
+    leagueSetStats,
   };
+};
+
+// Generate detailed analytics report
+const generateAnalyticsReport = (
+  analytics: ReturnType<typeof calculateAnalytics>,
+  validations: JackpotValidation[],
+  aggregateMode: 'all' | 'selected'
+): string => {
+  const timestamp = new Date().toISOString();
+  const reportLines: string[] = [];
+  
+  reportLines.push('='.repeat(80));
+  reportLines.push('ANALYTICS REPORT - FOOTBALL PROBABILITY ENGINE');
+  reportLines.push('='.repeat(80));
+  reportLines.push(`Generated: ${new Date(timestamp).toLocaleString()}`);
+  reportLines.push(`Scope: ${aggregateMode === 'all' ? 'All Predictions' : 'Selected Jackpot'}`);
+  reportLines.push('');
+  
+  // Overall Statistics
+  if (analytics.aggregatedStats) {
+    reportLines.push('OVERALL STATISTICS');
+    reportLines.push('-'.repeat(80));
+    reportLines.push(`Total Predictions: ${analytics.aggregatedStats.totalPredictions}`);
+    reportLines.push(`Total Matches: ${analytics.aggregatedStats.totalMatches}`);
+    reportLines.push(`Overall Accuracy: ${analytics.aggregatedStats.overallAccuracy.toFixed(2)}%`);
+    reportLines.push(`Average Brier Score: ${analytics.aggregatedStats.avgBrierScore.toFixed(3)}`);
+    reportLines.push('');
+  }
+  
+  // Best Sets for H/D/A
+  reportLines.push('BEST SETS FOR OUTCOME PREDICTION');
+  reportLines.push('-'.repeat(80));
+  if (analytics.bestSetForH && analytics.bestSetForH.hTotal > 0) {
+    reportLines.push(`Best for Home Wins: ${analytics.bestSetForH.set} - ${analytics.bestSetForH.hAccuracy.toFixed(2)}% (${analytics.bestSetForH.hCorrect}/${analytics.bestSetForH.hTotal})`);
+  }
+  if (analytics.bestSetForD && analytics.bestSetForD.dTotal > 0) {
+    reportLines.push(`Best for Draws: ${analytics.bestSetForD.set} - ${analytics.bestSetForD.dAccuracy.toFixed(2)}% (${analytics.bestSetForD.dCorrect}/${analytics.bestSetForD.dTotal})`);
+  }
+  if (analytics.bestSetForA && analytics.bestSetForA.aTotal > 0) {
+    reportLines.push(`Best for Away Wins: ${analytics.bestSetForA.set} - ${analytics.bestSetForA.aAccuracy.toFixed(2)}% (${analytics.bestSetForA.aCorrect}/${analytics.bestSetForA.aTotal})`);
+  }
+  reportLines.push('');
+  
+  // Best Set Per League
+  if (analytics.bestSetPerLeague && Object.keys(analytics.bestSetPerLeague).length > 0) {
+    reportLines.push('BEST SET PER LEAGUE');
+    reportLines.push('-'.repeat(80));
+    Object.entries(analytics.bestSetPerLeague)
+      .sort(([, a], [, b]) => b.accuracy - a.accuracy)
+      .forEach(([league, bestSet]) => {
+        reportLines.push(`${league}: ${bestSet.set} - ${bestSet.accuracy.toFixed(2)}% (${bestSet.correct}/${bestSet.total})`);
+      });
+    reportLines.push('');
+  }
+  
+  // Set-by-Set Performance
+  if (analytics.setComparison && analytics.setComparison.length > 0) {
+    reportLines.push('SET-BY-SET PERFORMANCE');
+    reportLines.push('-'.repeat(80));
+    reportLines.push('Set | Accuracy | Brier Score | H Accuracy | D Accuracy | A Accuracy | Total');
+    reportLines.push('-'.repeat(80));
+    
+    analytics.setComparison
+      .sort((a, b) => b.accuracy - a.accuracy)
+      .forEach(set => {
+        const hAcc = set.hTotal > 0 ? `${set.hAccuracy.toFixed(1)}%` : 'N/A';
+        const dAcc = set.dTotal > 0 ? `${set.dAccuracy.toFixed(1)}%` : 'N/A';
+        const aAcc = set.aTotal > 0 ? `${set.aAccuracy.toFixed(1)}%` : 'N/A';
+        reportLines.push(
+          `${set.set.padEnd(6)} | ${set.accuracy.toFixed(1)}%`.padEnd(15) + 
+          ` | ${set.brierScore.toFixed(3)}`.padEnd(15) +
+          ` | ${hAcc.padEnd(12)} | ${dAcc.padEnd(12)} | ${aAcc.padEnd(12)} | ${set.total}`
+        );
+      });
+    reportLines.push('');
+  }
+  
+  // Outcome Breakdown
+  if (analytics.outcomeBreakdown && analytics.outcomeBreakdown.length > 0) {
+    reportLines.push('OUTCOME DISTRIBUTION');
+    reportLines.push('-'.repeat(80));
+    analytics.outcomeBreakdown.forEach(outcome => {
+      reportLines.push(`${outcome.name}:`);
+      reportLines.push(`  Predicted: ${outcome.predicted.toFixed(2)}%`);
+      reportLines.push(`  Actual: ${outcome.actual.toFixed(2)}%`);
+      reportLines.push(`  Difference: ${(outcome.predicted - outcome.actual).toFixed(2)}%`);
+    });
+    reportLines.push('');
+  }
+  
+  // Confidence vs Accuracy
+  if (analytics.confidenceAccuracy && analytics.confidenceAccuracy.length > 0) {
+    reportLines.push('CONFIDENCE VS ACCURACY');
+    reportLines.push('-'.repeat(80));
+    analytics.confidenceAccuracy.forEach(bucket => {
+      reportLines.push(`${bucket.confidence}: ${bucket.accuracy.toFixed(2)}% accuracy (${bucket.count} matches)`);
+    });
+    reportLines.push('');
+  }
+  
+  // Detailed Set Performance
+  if (analytics.setComparison && analytics.setComparison.length > 0) {
+    reportLines.push('DETAILED SET PERFORMANCE');
+    reportLines.push('-'.repeat(80));
+    analytics.setComparison
+      .sort((a, b) => b.accuracy - a.accuracy)
+      .forEach(set => {
+        reportLines.push(`${set.set}:`);
+        reportLines.push(`  Overall: ${set.correct}/${set.total} (${set.accuracy.toFixed(2)}%)`);
+        if (set.hTotal > 0) {
+          reportLines.push(`  Home Wins: ${set.hCorrect}/${set.hTotal} (${set.hAccuracy.toFixed(2)}%)`);
+        }
+        if (set.dTotal > 0) {
+          reportLines.push(`  Draws: ${set.dCorrect}/${set.dTotal} (${set.dAccuracy.toFixed(2)}%)`);
+        }
+        if (set.aTotal > 0) {
+          reportLines.push(`  Away Wins: ${set.aCorrect}/${set.aTotal} (${set.aAccuracy.toFixed(2)}%)`);
+        }
+        reportLines.push(`  Brier Score: ${set.brierScore.toFixed(3)}`);
+        if (aggregateMode === 'all') {
+          reportLines.push(`  Jackpots: ${set.jackpotCount}`);
+        }
+        reportLines.push('');
+      });
+  }
+  
+  reportLines.push('='.repeat(80));
+  reportLines.push('End of Report');
+  reportLines.push('='.repeat(80));
+  
+  return reportLines.join('\n');
+};
+
+// Download report as file
+const downloadReport = (reportContent: string) => {
+  const blob = new Blob([reportContent], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `analytics-report-${new Date().toISOString().split('T')[0]}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 };
 
 function formatDate(dateString: string) {
@@ -261,6 +521,8 @@ export default function JackpotValidation() {
   const [loading, setLoading] = useState(true);
   const [loadedProbabilities, setLoadedProbabilities] = useState<Record<string, any>>({});
   const [aggregateMode, setAggregateMode] = useState<'all' | 'selected'>('all');
+  const [exportedValidations, setExportedValidations] = useState<Set<string>>(new Set());
+  const [hasRetrained, setHasRetrained] = useState(false);
   const { toast } = useToast();
 
   // Get unique jackpot IDs and sets from validations
@@ -578,6 +840,7 @@ export default function JackpotValidation() {
                 prediction,
                 correct,
                 confidence,
+                leagueCode: fixture.leagueCode || undefined,
               });
             });
             
@@ -729,6 +992,9 @@ export default function JackpotValidation() {
       const response = await apiClient.exportValidationToTraining([selectedJackpot.id]);
       
       if (response.success) {
+        // Mark as exported
+        setExportedValidations(prev => new Set(prev).add(selectedJackpot.id));
+        
         toast({
           title: 'Success',
           description: `Validation data exported to training pipeline. ${selectedJackpot.matches.length} matches added to calibration dataset.`,
@@ -759,6 +1025,18 @@ export default function JackpotValidation() {
         const totalMatches = validations.reduce((acc, v) => acc + v.matches.length, 0);
         const autoRetrained = response.data?.auto_retrained;
         const totalValidationMatches = response.data?.total_validation_matches || 0;
+        
+        // Mark all as exported
+        setExportedValidations(prev => {
+          const newSet = new Set(prev);
+          validationIds.forEach(id => newSet.add(id));
+          return newSet;
+        });
+        
+        // Mark as retrained if auto-retrained
+        if (autoRetrained) {
+          setHasRetrained(true);
+        }
         
         toast({
           title: 'Success',
@@ -803,6 +1081,9 @@ export default function JackpotValidation() {
         const warning = matchCount < 50 
           ? ` Warning: Training with only ${matchCount} matches (recommended: 50+). Results may be less reliable.`
           : '';
+        
+        // Mark as retrained
+        setHasRetrained(true);
         
         toast({
           title: 'Success',
@@ -1044,13 +1325,24 @@ export default function JackpotValidation() {
               <Button
                 variant="outline"
                 onClick={handleExportToTraining}
-                disabled={isExporting || !selectedJackpot || selectedJackpot.matches.length === 0}
+                disabled={
+                  isExporting || 
+                  !selectedJackpot || 
+                  selectedJackpot.matches.length === 0 ||
+                  exportedValidations.has(selectedJackpot.id)
+                }
                 className="glass-card border-primary/30 hover:bg-primary/10"
+                title={exportedValidations.has(selectedJackpot?.id || '') ? 'Already exported' : ''}
               >
                 {isExporting ? (
                   <>
                     <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                     Exporting...
+                  </>
+                ) : exportedValidations.has(selectedJackpot?.id || '') ? (
+                  <>
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                    Already Exported
                   </>
                 ) : (
                   <>
@@ -1061,13 +1353,23 @@ export default function JackpotValidation() {
               </Button>
               <Button
                 onClick={handleExportAll}
-                disabled={isExporting || validations.length === 0}
+                disabled={
+                  isExporting || 
+                  validations.length === 0 ||
+                  validations.every(v => exportedValidations.has(v.id))
+                }
                 className="btn-glow bg-primary text-primary-foreground"
+                title={validations.every(v => exportedValidations.has(v.id)) ? 'All validations already exported' : ''}
               >
                 {isExporting ? (
                   <>
                     <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                     Exporting...
+                  </>
+                ) : validations.every(v => exportedValidations.has(v.id)) ? (
+                  <>
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                    All Exported
                   </>
                 ) : (
                   <>
@@ -1078,14 +1380,20 @@ export default function JackpotValidation() {
               </Button>
               <Button
                 onClick={handleRetrainCalibration}
-                disabled={isRetraining || isExporting}
+                disabled={isRetraining || isExporting || hasRetrained}
                 variant="outline"
                 className="glass-card border-accent/30 hover:bg-accent/10 text-accent"
+                title={hasRetrained ? 'Already retrained' : ''}
               >
                 {isRetraining ? (
                   <>
                     <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                     Retraining...
+                  </>
+                ) : hasRetrained ? (
+                  <>
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                    Already Retrained
                   </>
                 ) : (
                   <>
@@ -1616,18 +1924,175 @@ export default function JackpotValidation() {
             </CardContent>
           </Card>
           
+          {/* Best Set for H/D/A Predictions */}
+          {analytics.setComparison && analytics.setComparison.length > 0 && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Best Sets for Outcome Prediction</CardTitle>
+                <CardDescription>
+                  Which probability sets perform best at predicting Home Wins, Draws, and Away Wins
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {/* Best Set for Home Wins */}
+                  <Card className="border-chart-1/20">
+                    <CardContent className="pt-6">
+                      <div className="flex items-center justify-between mb-4">
+                        <div>
+                          <p className="text-sm text-muted-foreground">Best for Home Wins</p>
+                          <p className="text-2xl font-bold">{analytics.bestSetForH?.set || 'N/A'}</p>
+                        </div>
+                        <div className="h-12 w-12 rounded-full bg-chart-1/10 flex items-center justify-center">
+                          <Trophy className="h-6 w-6 text-chart-1" />
+                        </div>
+                      </div>
+                      {analytics.bestSetForH && analytics.bestSetForH.hTotal > 0 ? (
+                        <>
+                          <p className="text-lg font-semibold text-green-600">
+                            {analytics.bestSetForH.hAccuracy.toFixed(1)}%
+                          </p>
+                          <p className="text-xs text-muted-foreground mt-1">
+                            {analytics.bestSetForH.hCorrect}/{analytics.bestSetForH.hTotal} correct predictions
+                          </p>
+                        </>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">No data available</p>
+                      )}
+                    </CardContent>
+                  </Card>
+
+                  {/* Best Set for Draws */}
+                  <Card className="border-chart-2/20">
+                    <CardContent className="pt-6">
+                      <div className="flex items-center justify-between mb-4">
+                        <div>
+                          <p className="text-sm text-muted-foreground">Best for Draws</p>
+                          <p className="text-2xl font-bold">{analytics.bestSetForD?.set || 'N/A'}</p>
+                        </div>
+                        <div className="h-12 w-12 rounded-full bg-chart-2/10 flex items-center justify-center">
+                          <Trophy className="h-6 w-6 text-chart-2" />
+                        </div>
+                      </div>
+                      {analytics.bestSetForD && analytics.bestSetForD.dTotal > 0 ? (
+                        <>
+                          <p className="text-lg font-semibold text-green-600">
+                            {analytics.bestSetForD.dAccuracy.toFixed(1)}%
+                          </p>
+                          <p className="text-xs text-muted-foreground mt-1">
+                            {analytics.bestSetForD.dCorrect}/{analytics.bestSetForD.dTotal} correct predictions
+                          </p>
+                        </>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">No data available</p>
+                      )}
+                    </CardContent>
+                  </Card>
+
+                  {/* Best Set for Away Wins */}
+                  <Card className="border-chart-3/20">
+                    <CardContent className="pt-6">
+                      <div className="flex items-center justify-between mb-4">
+                        <div>
+                          <p className="text-sm text-muted-foreground">Best for Away Wins</p>
+                          <p className="text-2xl font-bold">{analytics.bestSetForA?.set || 'N/A'}</p>
+                        </div>
+                        <div className="h-12 w-12 rounded-full bg-chart-3/10 flex items-center justify-center">
+                          <Trophy className="h-6 w-6 text-chart-3" />
+                        </div>
+                      </div>
+                      {analytics.bestSetForA && analytics.bestSetForA.aTotal > 0 ? (
+                        <>
+                          <p className="text-lg font-semibold text-green-600">
+                            {analytics.bestSetForA.aAccuracy.toFixed(1)}%
+                          </p>
+                          <p className="text-xs text-muted-foreground mt-1">
+                            {analytics.bestSetForA.aCorrect}/{analytics.bestSetForA.aTotal} correct predictions
+                          </p>
+                        </>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">No data available</p>
+                      )}
+                    </CardContent>
+                  </Card>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Best Set Per League */}
+          {analytics.bestSetPerLeague && Object.keys(analytics.bestSetPerLeague).length > 0 && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Best Set Per League</CardTitle>
+                <CardDescription>
+                  Which probability sets perform best for each league over time
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {Object.entries(analytics.bestSetPerLeague)
+                    .sort(([, a], [, b]) => b.accuracy - a.accuracy)
+                    .map(([league, bestSet]) => (
+                      <Card key={league} className="border-primary/20">
+                        <CardContent className="pt-6">
+                          <div className="flex items-center justify-between mb-4">
+                            <div>
+                              <p className="text-sm text-muted-foreground">Best for {league}</p>
+                              <p className="text-2xl font-bold">{bestSet.set}</p>
+                            </div>
+                            <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                              <Trophy className="h-6 w-6 text-primary" />
+                            </div>
+                          </div>
+                          <p className="text-lg font-semibold text-green-600">
+                            {bestSet.accuracy.toFixed(1)}%
+                          </p>
+                          <p className="text-xs text-muted-foreground mt-1">
+                            {bestSet.correct}/{bestSet.total} correct predictions
+                          </p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+          
           {/* Set Comparison Table */}
           {analytics.setComparison && analytics.setComparison.length > 1 && (
             <Card>
               <CardHeader>
+                <div className="flex items-center justify-between">
+                  <div>
                 <CardTitle className="text-lg">Set-by-Set Performance</CardTitle>
                 <CardDescription>
                   {aggregateMode === 'all' 
                     ? 'Aggregated performance across all predictions, grouped by set' 
                     : 'Detailed comparison of all probability sets'}
                 </CardDescription>
+                  </div>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => {
+                      // Generate and download analytics report
+                      const report = generateAnalyticsReport(analytics, validations, aggregateMode);
+                      downloadReport(report);
+                      toast({
+                        title: 'Report Generated',
+                        description: 'Analytics report has been downloaded successfully.',
+                      });
+                    }}
+                    className="gap-2"
+                  >
+                    <Download className="h-4 w-4" />
+                    Export Report
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
+                <div className="overflow-x-auto">
                 <Table>
                   <TableHeader>
                     <TableRow>
@@ -1636,6 +2101,9 @@ export default function JackpotValidation() {
                       <TableHead className="text-right">Correct</TableHead>
                       <TableHead className="text-right">Total</TableHead>
                       <TableHead className="text-right">Accuracy</TableHead>
+                        <TableHead className="text-right">H Accuracy</TableHead>
+                        <TableHead className="text-right">D Accuracy</TableHead>
+                        <TableHead className="text-right">A Accuracy</TableHead>
                       <TableHead className="text-right">Brier Score</TableHead>
                     </TableRow>
                   </TableHeader>
@@ -1669,11 +2137,60 @@ export default function JackpotValidation() {
                               {set.accuracy.toFixed(1)}%
                             </span>
                           </TableCell>
+                            <TableCell className="text-right">
+                              {set.hTotal > 0 ? (
+                                <span className={`tabular-nums ${
+                                  set.hAccuracy >= 70 ? 'text-green-600' :
+                                  set.hAccuracy >= 60 ? 'text-yellow-600' :
+                                  'text-red-600'
+                                }`}>
+                                  {set.hAccuracy.toFixed(1)}%
+                                  <span className="text-xs text-muted-foreground ml-1">
+                                    ({set.hCorrect}/{set.hTotal})
+                                  </span>
+                                </span>
+                              ) : (
+                                <span className="text-muted-foreground text-xs">N/A</span>
+                              )}
+                            </TableCell>
+                            <TableCell className="text-right">
+                              {set.dTotal > 0 ? (
+                                <span className={`tabular-nums ${
+                                  set.dAccuracy >= 70 ? 'text-green-600' :
+                                  set.dAccuracy >= 60 ? 'text-yellow-600' :
+                                  'text-red-600'
+                                }`}>
+                                  {set.dAccuracy.toFixed(1)}%
+                                  <span className="text-xs text-muted-foreground ml-1">
+                                    ({set.dCorrect}/{set.dTotal})
+                                  </span>
+                                </span>
+                              ) : (
+                                <span className="text-muted-foreground text-xs">N/A</span>
+                              )}
+                            </TableCell>
+                            <TableCell className="text-right">
+                              {set.aTotal > 0 ? (
+                                <span className={`tabular-nums ${
+                                  set.aAccuracy >= 70 ? 'text-green-600' :
+                                  set.aAccuracy >= 60 ? 'text-yellow-600' :
+                                  'text-red-600'
+                                }`}>
+                                  {set.aAccuracy.toFixed(1)}%
+                                  <span className="text-xs text-muted-foreground ml-1">
+                                    ({set.aCorrect}/{set.aTotal})
+                                  </span>
+                                </span>
+                              ) : (
+                                <span className="text-muted-foreground text-xs">N/A</span>
+                              )}
+                            </TableCell>
                           <TableCell className="text-right tabular-nums">{set.brierScore.toFixed(3)}</TableCell>
                         </TableRow>
                       ))}
                   </TableBody>
                 </Table>
+                </div>
               </CardContent>
             </Card>
           )}
@@ -1692,9 +2209,9 @@ export default function JackpotValidation() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Select
-                    value={selectedJackpot?.setUsed || ''}
+                    value={selectedJackpot?.setUsed || '__all__'}
                     onValueChange={(setUsed) => {
-                      if (setUsed === '') {
+                      if (setUsed === '__all__') {
                         // Show all - default to Set B if available
                         const setBValidation = validations.find(v => v.setUsed === 'Set B');
                         setSelectedJackpot(setBValidation || validations[0] || null);
@@ -1709,8 +2226,8 @@ export default function JackpotValidation() {
                       <SelectValue placeholder="Filter by Set" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Sets</SelectItem>
-                      {['A', 'B', 'C', 'D', 'E', 'F', 'G'].map(setId => (
+                      <SelectItem value="__all__">All Sets</SelectItem>
+                      {['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'].map(setId => (
                         <SelectItem key={setId} value={`Set ${setId}`}>
                           Set {setId} {setId === 'B' && '(Recommended)'}
                         </SelectItem>

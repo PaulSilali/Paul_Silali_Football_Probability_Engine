@@ -769,9 +769,8 @@ export default function DataIngestion() {
     fetchBatchHistory();
   }, [toast, downloadBatches.length]); // Refresh when new batches are added
 
-  // Fetch imported jackpots on component mount
-  useEffect(() => {
-    const fetchImportedJackpots = async () => {
+  // Fetch imported jackpots - reusable function
+  const fetchImportedJackpots = useCallback(async () => {
       try {
         setLoadingJackpots(true);
         const response = await apiClient.getImportedJackpots();
@@ -803,10 +802,12 @@ export default function DataIngestion() {
       } finally {
         setLoadingJackpots(false);
       }
-    };
-
-    fetchImportedJackpots();
   }, [toast]);
+
+  // Fetch imported jackpots on component mount
+  useEffect(() => {
+    fetchImportedJackpots();
+  }, [fetchImportedJackpots]);
 
   const handlePreviewBatch = (batch: DownloadBatch) => {
     setPreviewBatch(batch);
@@ -974,19 +975,7 @@ export default function DataIngestion() {
         });
         
         // Refresh the imported jackpots list
-        const refreshResponse = await apiClient.getImportedJackpots();
-        if (refreshResponse.success && refreshResponse.data?.jackpots) {
-          const transformed = refreshResponse.data.jackpots.map(j => ({
-            id: j.id,
-            jackpotId: j.jackpotId,
-            date: j.date || new Date().toISOString().split('T')[0],
-            matches: j.matches,
-            status: j.status,
-            correctPredictions: j.correctPredictions,
-            hasProbabilities: j.status === 'validated' || j.status === 'probabilities_computed'
-          }));
-          setJackpotResults(transformed);
-        }
+        await fetchImportedJackpots();
         
     setManualInput('');
       } else {
@@ -1166,12 +1155,42 @@ export default function DataIngestion() {
         }
       });
 
-      // Update saved result with selections (use actual jackpot ID)
+      // Calculate scores by comparing selections against actual results
+      const scores: Record<string, { correct: number; total: number }> = {};
+      Object.keys(selections).forEach(setId => {
+        const setSelections = selections[setId];
+        let correct = 0;
+        let total = 0;
+        
+        Object.keys(setSelections).forEach(matchNum => {
+          const selection = setSelections[matchNum];
+          const actualResult = actualResults[matchNum];
+          
+          if (actualResult) {
+            total++;
+            // Normalize both to same format (1/X/2)
+            const normalizedSelection = selection;
+            const normalizedActual = actualResult;
+            
+            if (normalizedSelection === normalizedActual) {
+              correct++;
+            }
+          }
+        });
+        
+        if (total > 0) {
+          scores[setId] = { correct, total };
+          console.log(`Set ${setId} score: ${correct}/${total} correct`);
+        }
+      });
+
+      // Update saved result with selections, actual results, and scores (use actual jackpot ID)
       const updateResponse = await apiClient.saveProbabilityResult(actualJackpotId, {
         name: savedResult.name || `Imported Jackpot - ${actualJackpotId}`,
         description: savedResult.description || `Probabilities computed for ${result.matches} matches`,
         selections: selections,
         actual_results: actualResults,
+        scores: scores, // Include scores to change status to "validated"
       });
 
       if (updateResponse.success) {
@@ -1181,22 +1200,7 @@ export default function DataIngestion() {
         });
 
         // Refresh jackpot results
-        const refreshResponse = await apiClient.getImportedJackpots();
-        if (refreshResponse.success && refreshResponse.data?.jackpots) {
-          const transformed = refreshResponse.data.jackpots.map(j => ({
-            id: j.id,
-            jackpotId: j.jackpotId,
-            date: j.date || new Date().toISOString().split('T')[0],
-            matches: j.matches,
-            status: j.status,
-            correctPredictions: j.correctPredictions,
-            hasProbabilities: j.status === 'validated' || j.status === 'probabilities_computed'
-          }));
-          console.log('Refreshed jackpot results:', transformed.find(j => j.jackpotId === actualJackpotId));
-          setJackpotResults(transformed);
-        } else {
-          console.warn('Failed to refresh jackpot results:', refreshResponse);
-        }
+        await fetchImportedJackpots();
       }
     } catch (error: any) {
       console.error('Error computing probabilities:', error);
@@ -2165,6 +2169,8 @@ export default function DataIngestion() {
 
             <Card>
               <CardHeader>
+                <div className="flex items-center justify-between">
+                  <div>
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Trophy className="h-5 w-5" />
                   Imported Jackpots
@@ -2172,6 +2178,18 @@ export default function DataIngestion() {
                 <CardDescription>
                   Historical jackpot results for backtesting
                 </CardDescription>
+                  </div>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={fetchImportedJackpots}
+                    disabled={loadingJackpots}
+                    className="gap-2"
+                  >
+                    <RefreshCw className={`h-4 w-4 ${loadingJackpots ? 'animate-spin' : ''}`} />
+                    Refresh
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
                 <ScrollArea className="h-[280px]">

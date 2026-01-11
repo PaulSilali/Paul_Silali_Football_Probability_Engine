@@ -13,6 +13,9 @@ from sqlalchemy.exc import IntegrityError
 from pathlib import Path
 import logging
 import urllib3
+import time as time_module
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from app.db.models import (
     League, Team, Match, DataSource, IngestionLog, MatchResult
 )
@@ -1297,6 +1300,9 @@ class DataIngestionService:
         """
         Save cleaned CSV file to 2_Cleaned_data/Historical Match_Odds_Data folder
         
+        IMPORTANT: Always saves to 2_Cleaned_data/Historical Match_Odds_Data subdirectory,
+        NEVER directly to 2_Cleaned_data root directory.
+        
         Structure: data/2_Cleaned_data/Historical Match_Odds_Data/{DownloadDate}_Seasons_{No of Seasons}_Leagues_{no of leagues}/{league_code}/{league_code}_{season}.csv
         Example: data/2_Cleaned_data/Historical Match_Odds_Data/2025-01-15_Seasons_10_Leagues_43/E0/E0_2425.csv
         
@@ -1305,11 +1311,12 @@ class DataIngestionService:
         # Resolve path relative to backend root (where this file is located)
         backend_root = Path(__file__).parent.parent.parent  # Go up from app/services/data_ingestion.py to backend root
         
+        # ALWAYS save to Historical Match_Odds_Data subdirectory, never directly to 2_Cleaned_data
         if download_session_folder:
             base_dir = backend_root / "data" / "2_Cleaned_data" / "Historical Match_Odds_Data" / download_session_folder
             league_dir = base_dir / league_code
         else:
-            # Fallback structure
+            # Fallback structure - still saves to Historical Match_Odds_Data subdirectory
             base_dir = backend_root / "data" / "2_Cleaned_data" / "Historical Match_Odds_Data"
             league_dir = base_dir / league_code
         

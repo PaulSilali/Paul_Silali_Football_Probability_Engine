@@ -24,6 +24,7 @@ import TrainingDataContract from "./pages/TrainingDataContract";
 import JackpotValidation from "./pages/JackpotValidation";
 import ResponsibleGamblingPage from "./pages/ResponsibleGamblingPage";
 import TicketConstruction from "./pages/TicketConstruction";
+import SureBet from "./pages/SureBet";
 import Backtesting from "./pages/Backtesting";
 import NotFound from "./pages/NotFound";
 
@@ -62,6 +63,7 @@ const App = () => (
                       <Route path="/probability-output" element={<ProbabilityOutput />} />
                       <Route path="/sets-comparison" element={<SetsComparison />} />
                       <Route path="/ticket-construction" element={<TicketConstruction />} />
+                      <Route path="/sure-bet" element={<SureBet />} />
                       <Route path="/jackpot-validation" element={<JackpotValidation />} />
                       <Route path="/backtesting" element={<Backtesting />} />
                       <Route path="/feature-store" element={<FeatureStore />} />

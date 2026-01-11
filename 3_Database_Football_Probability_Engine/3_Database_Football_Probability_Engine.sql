@@ -1006,7 +1006,7 @@ CREATE TABLE IF NOT EXISTS saved_jackpot_templates (
     created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     
-    CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 20)
+    CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 200)
 );
 
 CREATE INDEX idx_saved_templates_user ON saved_jackpot_templates(user_id);
@@ -1046,7 +1046,7 @@ CREATE TABLE IF NOT EXISTS saved_probability_results (
     created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
     
-    CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 20)
+    CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 200)
 );
 
 CREATE INDEX idx_saved_results_user ON saved_probability_results(user_id);
@@ -2155,3 +2155,28 @@ ON CONFLICT (code) DO NOTHING;
 
 -- Note: Tier 0 indicates special league type (not a regular club league)
 -- This allows filtering in queries if needed
+
+
+-- ============================================================================
+-- UPDATE FIXTURE LIMITS
+-- ============================================================================
+-- Increase fixture limits from 20 to 200 to support larger jackpots
+-- This allows importing jackpots with up to 200 fixtures
+
+-- Update saved_probability_results constraint
+ALTER TABLE saved_probability_results 
+DROP CONSTRAINT IF EXISTS chk_total_fixtures;
+
+ALTER TABLE saved_probability_results 
+ADD CONSTRAINT chk_total_fixtures CHECK (total_fixtures >= 1 AND total_fixtures <= 200);
+
+-- Update saved_jackpot_templates constraint
+ALTER TABLE saved_jackpot_templates 
+DROP CONSTRAINT IF EXISTS chk_fixture_count;
+
+ALTER TABLE saved_jackpot_templates 
+ADD CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 200);
+
+COMMENT ON CONSTRAINT chk_total_fixtures ON saved_probability_results IS 'Total fixtures must be between 1 and 200';
+COMMENT ON CONSTRAINT chk_fixture_count ON saved_jackpot_templates IS 'Fixture count must be between 1 and 200';
+

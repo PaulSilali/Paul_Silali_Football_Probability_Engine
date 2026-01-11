@@ -11,7 +11,7 @@ from app.schemas.prediction import (
     JackpotInput, PredictionResponse, MatchProbabilitiesOutput, PredictionWarning
 )
 from app.schemas.jackpot import ApiResponse
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from pydantic import BaseModel
 from app.models.dixon_coles import (
     TeamStrength, DixonColesParams, calculate_match_probabilities, MatchProbabilities
@@ -401,12 +401,25 @@ async def calculate_probabilities(
                 "away": float(fixture.odds_away) if fixture.odds_away else 2.5
             }
             
+            # Get league code if league_id is available
+            league_code = None
+            if fixture.league_id:
+                try:
+                    league = db.query(League).filter(League.id == fixture.league_id).first()
+                    if league:
+                        league_code = league.code
+                except Exception as e:
+                    logger.debug(f"Could not fetch league for fixture {fixture.id}: {e}")
+                    league_code = None
+            
             fixture_dict = {
                 "id": str(fixture.id),
                 "homeTeam": fixture.home_team or "",
                 "awayTeam": fixture.away_team or "",
                 "homeTeamId": fixture.home_team_id,  # Include team IDs for injury tracking
                 "awayTeamId": fixture.away_team_id,  # Include team IDs for injury tracking
+                "leagueId": fixture.league_id,
+                "leagueCode": league_code,  # Include league code for analytics
                 "odds": odds_data
             }
             fixtures_data.append(fixture_dict)
@@ -905,8 +918,7 @@ async def calculate_probabilities(
             # Get league code from fixture if available
             league_code = None
             if fixture_data.get('league_id'):
-                # Try to get league code from database
-                from app.db.models import League
+                # Try to get league code from database (League already imported at top)
                 try:
                     league = db.query(League).filter(League.id == fixture_data['league_id']).first()
                     if league:
@@ -1942,8 +1954,31 @@ async def save_probability_result(
             first_set = list(data["selections"].values())[0] if data["selections"] else {}
             total_fixtures = len(first_set)
         
-        # Create saved result
-        saved_result = SavedProbabilityResult(
+        # Check if a saved result already exists for this jackpot
+        existing_result = db.query(SavedProbabilityResult).filter(
+            SavedProbabilityResult.jackpot_id == jackpot_id
+        ).order_by(SavedProbabilityResult.created_at.desc()).first()
+        
+        if existing_result:
+            # Update existing result
+            existing_result.name = data["name"]
+            if data.get("description"):
+                existing_result.description = data.get("description")
+            existing_result.selections = data["selections"]
+            if data.get("actual_results"):
+                existing_result.actual_results = data.get("actual_results")
+            if data.get("scores"):
+                existing_result.scores = data.get("scores")
+            existing_result.model_version = model_version
+            existing_result.total_fixtures = total_fixtures
+            
+            db.commit()
+            db.refresh(existing_result)
+            saved_result = existing_result
+            logger.info(f"Updated probability result: ID={saved_result.id}, name={saved_result.name}, fixtures={total_fixtures}")
+        else:
+            # Create new saved result
+            saved_result = SavedProbabilityResult(
             jackpot_id=jackpot_id,
             user_id=None,  # TODO: Get from auth context if available
             name=data["name"],
@@ -1954,12 +1989,10 @@ async def save_probability_result(
             model_version=model_version,
             total_fixtures=total_fixtures
         )
-        
-        db.add(saved_result)
-        db.commit()
-        db.refresh(saved_result)
-        
-        logger.info(f"Saved probability result: ID={saved_result.id}, name={saved_result.name}, fixtures={total_fixtures}")
+            db.add(saved_result)
+            db.commit()
+            db.refresh(saved_result)
+            logger.info(f"Created new probability result: ID={saved_result.id}, name={saved_result.name}, fixtures={total_fixtures}")
         
         return ApiResponse(
             success=True,
@@ -2272,6 +2305,61 @@ async def export_validation_to_training(
     except Exception as e:
         db.rollback()
         logger.error(f"Error exporting validation data: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/validation/export-status", response_model=ApiResponse)
+async def get_validation_export_status(
+    db: Session = Depends(get_db)
+):
+    """
+    Get status of which validations have been exported to training.
+    
+    Returns:
+        ApiResponse with exported validation IDs in format "savedResultId-setId"
+    """
+    try:
+        # Get all exported validation results
+        exported_validations = db.query(ValidationResult).filter(
+            ValidationResult.exported_to_training == True
+        ).all()
+        
+        # Build map of exported validation IDs
+        # Format: "savedResultId-setId" -> {exported: true, exported_at: timestamp}
+        exported_ids: Dict[str, Dict[str, Any]] = {}
+        
+        for val_result in exported_validations:
+            # Get the jackpot to find saved_result_id
+            jackpot = db.query(JackpotModel).filter(JackpotModel.id == val_result.jackpot_id).first()
+            if not jackpot:
+                continue
+            
+            # Find saved result for this jackpot
+            saved_result = db.query(SavedProbabilityResult).filter(
+                SavedProbabilityResult.jackpot_id == jackpot.jackpot_id
+            ).order_by(SavedProbabilityResult.created_at.desc()).first()
+            
+            if saved_result:
+                # Convert set_type enum to string (A, B, C, etc.)
+                set_id = val_result.set_type.value if hasattr(val_result.set_type, 'value') else str(val_result.set_type)
+                validation_id = f"{saved_result.id}-{set_id}"
+                exported_ids[validation_id] = {
+                    "exported": True,
+                    "exported_at": val_result.exported_at.isoformat() if val_result.exported_at else None,
+                    "validation_result_id": val_result.id
+                }
+        
+        return ApiResponse(
+            success=True,
+            message="Export status retrieved successfully",
+            data={
+                "exported_validations": exported_ids,
+                "total_exported": len(exported_ids)
+            }
+        )
+    
+    except Exception as e:
+        logger.error(f"Error getting validation export status: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 

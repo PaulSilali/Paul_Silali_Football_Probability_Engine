@@ -367,43 +367,56 @@ def download_injuries_from_api_football(
         Dict with download statistics
     """
     try:
+        logger.debug(f"Starting injury download for fixture {fixture_id}")
+        
         if not api_key:
             api_key = settings.API_FOOTBALL_KEY
         
         # Check if API key is empty or None
         if not api_key or api_key.strip() == "":
-            logger.warning("API-Football key not configured, skipping injury download")
-            return {"success": False, "error": "API key not configured"}
+            error_msg = "API key not configured"
+            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
         
         # Get fixture
         fixture = db.query(JackpotFixture).filter(JackpotFixture.id == fixture_id).first()
         if not fixture:
-            return {"success": False, "error": "Fixture not found"}
+            error_msg = f"Fixture {fixture_id} not found in database"
+            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
         
         # Get teams
         home_team = db.query(Team).filter(Team.id == fixture.home_team_id).first()
         away_team = db.query(Team).filter(Team.id == fixture.away_team_id).first()
         
         if not home_team or not away_team:
-            return {"success": False, "error": "Teams not found"}
+            error_msg = f"Teams not found: home_team_id={fixture.home_team_id}, away_team_id={fixture.away_team_id}"
+            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
         
         # Get league
         league = db.query(League).filter(League.id == fixture.league_id).first()
         if not league:
-            return {"success": False, "error": "League not found"}
+            error_msg = f"League not found: league_id={fixture.league_id}"
+            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
         
         # Get fixture date
         fixture_date = None
         if fixture.jackpot and fixture.jackpot.kickoff_date:
             fixture_date = fixture.jackpot.kickoff_date
         else:
-            return {"success": False, "error": "Fixture date not found"}
+            error_msg = f"Fixture date not found for fixture {fixture_id} (jackpot_id={fixture.jackpot_id if fixture.jackpot_id else 'None'})"
+            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
+        
+        logger.debug(f"Fixture {fixture_id}: {home_team.name} vs {away_team.name}, league={league.code}, date={fixture_date}")
         
         # Handle INT (International) league differently - no league ID needed
         api_fixture_id = None
         if league.code == "INT":
             # For international matches, search by date and team names without league filter
-            logger.info(f"Searching for international fixture: {home_team.name} vs {away_team.name} on {fixture_date}")
+            logger.debug(f"Fixture {fixture_id}: Searching for international fixture: {home_team.name} vs {away_team.name} on {fixture_date}")
             api_fixture_id = find_api_football_fixture_id_international(
                 api_key, home_team.name, away_team.name, fixture_date
             )
@@ -411,9 +424,11 @@ def download_injuries_from_api_football(
             # For club matches, use league ID
             api_league_id = get_api_football_league_id(league.code)
             if not api_league_id:
-                logger.warning(f"No API-Football league ID mapping for {league.code}")
-                return {"success": False, "error": f"No API-Football mapping for league {league.code}"}
+                error_msg = f"No API-Football league ID mapping for league code '{league.code}'"
+                logger.warning(f"Fixture {fixture_id}: {error_msg}")
+                return {"success": False, "error": error_msg}
             
+            logger.debug(f"Fixture {fixture_id}: Searching for fixture in API-Football league {api_league_id} ({league.code})")
             # Step 1: Find API-Football fixture ID
             api_fixture_id = find_api_football_fixture_id(
                 db, fixture, api_league_id, api_key,
@@ -423,17 +438,22 @@ def download_injuries_from_api_football(
         if not api_fixture_id:
             # For INT matches, this is expected - API-Football may not have all international fixtures
             if league.code == "INT":
-                logger.info(f"International fixture not found in API-Football for {home_team.name} vs {away_team.name} on {fixture_date} - skipping")
+                error_msg = f"International fixture not available in API-Football for {home_team.name} vs {away_team.name} on {fixture_date}"
+                logger.debug(f"Fixture {fixture_id}: {error_msg} - skipping")
                 return {
                     "success": False,
-                    "error": f"International fixture not available in API-Football",
+                    "error": error_msg,
                     "skipped": True
                 }
             else:
+                error_msg = f"Could not find matching fixture in API-Football for {home_team.name} vs {away_team.name} on {fixture_date} (league: {league.code})"
+                logger.warning(f"Fixture {fixture_id}: {error_msg}")
                 return {
                     "success": False,
-                    "error": f"Could not find matching fixture in API-Football for {home_team.name} vs {away_team.name} on {fixture_date}"
+                    "error": error_msg
                 }
+        
+        logger.debug(f"Fixture {fixture_id}: Found API-Football fixture ID {api_fixture_id}")
         
         # Step 2: Get injuries for the API-Football fixture
         url = "https://v3.football.api-sports.io/injuries"
@@ -472,14 +492,26 @@ def download_injuries_from_api_football(
             except:
                 pass
         
-        response.raise_for_status()
+        # Check for API errors in response
+        if response.status_code != 200:
+            error_msg = f"API returned status {response.status_code}: {response.text[:200]}"
+            logger.error(f"Fixture {fixture_id}: {error_msg}")
+            response.raise_for_status()
+        
         data = response.json()
         
+        # Check for API-Football error messages in response
+        errors = data.get("errors", [])
+        if errors:
+            error_msg = f"API-Football errors: {errors}"
+            logger.error(f"Fixture {fixture_id}: {error_msg}")
+            return {"success": False, "error": error_msg}
+        
         # Log full response structure for debugging
-        logger.debug(f"Injuries API response structure: {list(data.keys())}")
+        logger.debug(f"Fixture {fixture_id}: Injuries API response structure: {list(data.keys())}")
         
         injuries_response = data.get("response", [])
-        logger.info(f"Injuries API response for fixture {api_fixture_id}: {len(injuries_response)} injury groups found")
+        logger.debug(f"Fixture {fixture_id}: Injuries API response for fixture {api_fixture_id}: {len(injuries_response)} injury groups found")
         
         if not injuries_response:
             logger.warning(f"No injury data returned from API-Football for fixture {api_fixture_id}")
@@ -518,11 +550,22 @@ def download_injuries_from_api_football(
         
         if fixture_response.status_code == 200:
             fixture_data = fixture_response.json()
-            fixtures_list = fixture_data.get("response", [])
-            if fixtures_list:
-                teams = fixtures_list[0].get("teams", {})
-                api_home_team_id = teams.get("home", {}).get("id")
-                api_away_team_id = teams.get("away", {}).get("id")
+            
+            # Check for API errors
+            errors = fixture_data.get("errors", [])
+            if errors:
+                logger.warning(f"Fixture {fixture_id}: API-Football fixture query errors: {errors}")
+            else:
+                fixtures_list = fixture_data.get("response", [])
+                if fixtures_list:
+                    teams = fixtures_list[0].get("teams", {})
+                    api_home_team_id = teams.get("home", {}).get("id")
+                    api_away_team_id = teams.get("away", {}).get("id")
+                    logger.debug(f"Fixture {fixture_id}: Found API team IDs - home={api_home_team_id}, away={api_away_team_id}")
+                else:
+                    logger.warning(f"Fixture {fixture_id}: No fixture data returned from API-Football for fixture ID {api_fixture_id}")
+        else:
+            logger.warning(f"Fixture {fixture_id}: Failed to query fixture details from API-Football: status {fixture_response.status_code}")
         
         # Match injuries to teams
         logger.debug(f"Matching {len(injuries_response)} injury groups to teams")
@@ -656,11 +699,13 @@ def download_injuries_from_api_football(
         }
         
     except requests.RequestException as e:
-        logger.error(f"API request failed: {e}")
-        return {"success": False, "error": f"API request failed: {str(e)}"}
+        error_msg = f"API request failed: {str(e)}"
+        logger.error(f"Fixture {fixture_id}: {error_msg}")
+        return {"success": False, "error": error_msg}
     except Exception as e:
-        logger.error(f"Error downloading injuries from API-Football: {e}", exc_info=True)
-        return {"success": False, "error": str(e)}
+        error_msg = f"Unexpected error: {str(e)}"
+        logger.error(f"Fixture {fixture_id}: {error_msg}", exc_info=True)
+        return {"success": False, "error": error_msg}
 
 
 def download_injuries_for_fixtures_batch(
@@ -743,7 +788,6 @@ def download_injuries_for_fixtures_batch(
                     time.sleep(min_request_interval - elapsed)
                 last_request_time = time.time()
                 
-                results["total"] += 1
                 request_count += 1
                 
                 try:
@@ -762,17 +806,21 @@ def download_injuries_for_fixtures_batch(
                     elif result.get("skipped"):
                         # INT matches that aren't found in API-Football are skipped, not failed
                         results["skipped"] += 1
+                        error_msg = result.get("error", "Skipped")
+                        logger.debug(f"Fixture {fixture.id} skipped: {error_msg}")
                         results["details"].append({
                             "fixture_id": fixture.id,
-                            "error": result.get("error", "Skipped"),
+                            "error": error_msg,
                             "success": False,
                             "skipped": True
                         })
                     else:
                         results["failed"] += 1
+                        error_msg = result.get("error", "Unknown error")
+                        logger.warning(f"Fixture {fixture.id} failed: {error_msg}")
                         results["details"].append({
                             "fixture_id": fixture.id,
-                            "error": result.get("error", "Unknown error"),
+                            "error": error_msg,
                             "success": False
                         })
                     
@@ -782,10 +830,11 @@ def download_injuries_for_fixtures_batch(
                         
                 except Exception as e:
                     results["failed"] += 1
-                    logger.warning(f"Failed to download injuries for fixture {fixture.id}: {e}")
+                    error_msg = str(e)
+                    logger.error(f"Exception downloading injuries for fixture {fixture.id}: {error_msg}", exc_info=True)
                     results["details"].append({
                         "fixture_id": fixture.id,
-                        "error": str(e),
+                        "error": error_msg,
                         "success": False
                     })
         else:
