@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-01-11T07:39:55.915640",
+  "stats": {
+    "total": 5,
+    "passed": 2,
+    "failed": 3,
+    "warnings": 8
+  },
+  "passed": [
+    {
+      "test": "Health Check",
+      "details": "Backend is running"
+    },
+    {
+      "test": "Root Endpoint",
+      "details": ""
+    }
+  ],
+  "failed": [
+    {
+      "test": "Database Schema Test",
+      "error": "'NoneType' object has no attribute 'cursor'",
+      "details": "Traceback (most recent call last):\n  File \"F:\\[ 11 ] Football Probability Engine  [SP Soccer]\\4_Test_Scripts\\comprehensive_system_test.py\", line 289, in test_database_schema\n    actual_tables = db_tester.get_tables()\n  File \"F:\\[ 11 ] Football Probability Engine  [SP Soccer]\\4_Test_Scripts\\comprehensive_system_test.py\", line 127, in get_tables\n    with self.conn.cursor() as cur:\n         ^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'cursor'\n"
+    },
+    {
+      "test": "Database Operations Test",
+      "error": "'NoneType' object has no attribute 'cursor'",
+      "details": "Traceback (most recent call last):\n  File \"F:\\[ 11 ] Football Probability Engine  [SP Soccer]\\4_Test_Scripts\\comprehensive_system_test.py\", line 401, in test_database_operations\n    with db_tester.conn.cursor() as cur:\n         ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'cursor'\n"
+    },
+    {
+      "test": "Migration Alignment Test",
+      "error": "'NoneType' object has no attribute 'cursor'",
+      "details": "Traceback (most recent call last):\n  File \"F:\\[ 11 ] Football Probability Engine  [SP Soccer]\\4_Test_Scripts\\comprehensive_system_test.py\", line 458, in test_migration_alignment\n    if db_tester.table_exists('saved_sure_bet_lists'):\n       ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\[ 11 ] Football Probability Engine  [SP Soccer]\\4_Test_Scripts\\comprehensive_system_test.py\", line 138, in table_exists\n    with self.conn.cursor() as cur:\n         ^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'cursor'\n"
+    }
+  ],
+  "warnings": [
+    {
+      "test": "API GET /model/health",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /model/versions",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots?page=1&page_size=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots/templates?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/freshness",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/batches?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /dashboard/summary",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /sure-bet/saved-lists",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    }
+  ]
+}

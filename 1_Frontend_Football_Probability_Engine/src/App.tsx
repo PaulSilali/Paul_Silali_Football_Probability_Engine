@@ -14,6 +14,7 @@ import ProbabilityOutput from "./pages/ProbabilityOutput";
 import SetsComparison from "./pages/SetsComparison";
 import FeatureStore from "./pages/FeatureStore";
 import Calibration from "./pages/Calibration";
+import CalibrationManagement from "./pages/CalibrationManagement";
 import Explainability from "./pages/Explainability";
 import ModelHealth from "./pages/ModelHealth";
 import System from "./pages/System";
@@ -26,6 +27,7 @@ import ResponsibleGamblingPage from "./pages/ResponsibleGamblingPage";
 import TicketConstruction from "./pages/TicketConstruction";
 import SureBet from "./pages/SureBet";
 import Backtesting from "./pages/Backtesting";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -68,9 +70,11 @@ const App = () => (
                       <Route path="/backtesting" element={<Backtesting />} />
                       <Route path="/feature-store" element={<FeatureStore />} />
                       <Route path="/calibration" element={<Calibration />} />
+                      <Route path="/calibration-management" element={<CalibrationManagement />} />
                       <Route path="/explainability" element={<Explainability />} />
                       <Route path="/model-health" element={<ModelHealth />} />
                       <Route path="/responsible-gambling" element={<ResponsibleGamblingPage />} />
+                      <Route path="/about" element={<About />} />
                       <Route path="/system" element={<System />} />
                       <Route path="*" element={<NotFound />} />
                     </Routes>

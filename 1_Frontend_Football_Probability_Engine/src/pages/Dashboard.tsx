@@ -107,6 +107,15 @@ export default function Dashboard() {
     matches: number;
     status: string;
   }>>([]);
+  const [decisionIntelligence, setDecisionIntelligence] = useState({
+    totalTickets: 0,
+    acceptedTickets: 0,
+    rejectedTickets: 0,
+    avgEvScore: null as number | null,
+    avgHitRate: null as number | null,
+    currentEvThreshold: 0.12,
+    maxContradictions: 1
+  });
 
   useEffect(() => {
     const fetchDashboardData = async () => {
@@ -121,6 +130,15 @@ export default function Dashboard() {
           setCalibrationTrend(response.data.calibrationTrend);
           setOutcomeDistribution(response.data.outcomeDistribution);
           setLeaguePerformance(response.data.leaguePerformance);
+          setDecisionIntelligence(response.data.decisionIntelligence || {
+            totalTickets: 0,
+            acceptedTickets: 0,
+            rejectedTickets: 0,
+            avgEvScore: null,
+            avgHitRate: null,
+            currentEvThreshold: 0.12,
+            maxContradictions: 1
+          });
         } else {
           throw new Error('Failed to load dashboard data');
         }
@@ -216,6 +234,46 @@ export default function Dashboard() {
           icon={<BarChart3 className="h-5 w-5" />}
           description={`Across ${systemHealth.leagueCount} leagues, ${systemHealth.seasonCount} seasons`}
           variant="default"
+        />
+      </div>
+
+      {/* Decision Intelligence Metrics */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <MetricCard
+          title="Total Tickets"
+          value={decisionIntelligence.totalTickets.toLocaleString()}
+          icon={<Target className="h-5 w-5" />}
+          description={`${decisionIntelligence.acceptedTickets} accepted, ${decisionIntelligence.rejectedTickets} rejected`}
+          variant="default"
+        />
+        <MetricCard
+          title="Avg EV Score"
+          value={decisionIntelligence.avgEvScore !== null 
+            ? decisionIntelligence.avgEvScore.toFixed(3) 
+            : 'N/A'}
+          icon={<TrendingUp className="h-5 w-5" />}
+          description={decisionIntelligence.avgEvScore !== null 
+            ? `Average Unified Decision Score` 
+            : 'No tickets evaluated yet'}
+          variant="primary"
+        />
+        <MetricCard
+          title="Avg Hit Rate"
+          value={decisionIntelligence.avgHitRate !== null 
+            ? `${decisionIntelligence.avgHitRate.toFixed(1)}%` 
+            : 'N/A'}
+          icon={<BarChart3 className="h-5 w-5" />}
+          description={decisionIntelligence.avgHitRate !== null 
+            ? `From ${decisionIntelligence.totalTickets} tickets` 
+            : 'No outcomes recorded yet'}
+          variant="success"
+        />
+        <MetricCard
+          title="EV Threshold"
+          value={decisionIntelligence.currentEvThreshold.toFixed(2)}
+          icon={<Activity className="h-5 w-5" />}
+          description={`Max contradictions: ${decisionIntelligence.maxContradictions}`}
+          variant="accent"
         />
       </div>
 

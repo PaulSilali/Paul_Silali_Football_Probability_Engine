@@ -47,9 +47,10 @@ async def get_model_health(
         ).order_by(Model.training_completed_at.desc()).first()
         
         if not active_model:
+            from datetime import timezone
             return {
                 "status": "no_model",
-                "lastChecked": datetime.utcnow().isoformat(),
+                "lastChecked": datetime.now(timezone.utc).isoformat(),
                 "metrics": {
                     "brierScore": None,
                     "logLoss": None,
@@ -75,7 +76,7 @@ async def get_model_health(
             Prediction.market_prob_home.isnot(None),
             Prediction.market_prob_draw.isnot(None),
             Prediction.market_prob_away.isnot(None),
-            Prediction.created_at >= datetime.utcnow() - timedelta(days=30)
+            Prediction.created_at >= func.now() - timedelta(days=30)
         ).limit(1000).all()
         
         odds_distribution = []
@@ -195,7 +196,18 @@ async def get_model_health(
         
         # Check if model is recent (trained in last 30 days)
         if active_model.training_completed_at:
-            days_since_training = (datetime.utcnow() - active_model.training_completed_at).days
+            # Ensure both datetimes are timezone-aware or both naive
+            now = datetime.utcnow()
+            training_date = active_model.training_completed_at
+            
+            # Make both timezone-aware if one is
+            if training_date.tzinfo is not None and now.tzinfo is None:
+                from datetime import timezone
+                now = now.replace(tzinfo=timezone.utc)
+            elif training_date.tzinfo is None and now.tzinfo is not None:
+                training_date = training_date.replace(tzinfo=now.tzinfo)
+            
+            days_since_training = (now - training_date).days
             if days_since_training > 90:
                 status = "watch"
                 alerts.append(f"Model trained {days_since_training} days ago - consider retraining")
@@ -221,9 +233,10 @@ async def get_model_health(
             if last_validation_result.created_at:
                 last_validation = last_validation_result.created_at.isoformat()
         
+        from datetime import timezone
         return {
             "status": status,
-            "lastChecked": datetime.utcnow().isoformat(),
+            "lastChecked": datetime.now(timezone.utc).isoformat(),
             "lastValidationDate": last_validation,
             "metrics": metrics,
             "alerts": alerts,

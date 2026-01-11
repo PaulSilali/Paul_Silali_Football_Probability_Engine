@@ -49,6 +49,8 @@ class MatchProbabilities:
     entropy: float
     lambda_home: Optional[float] = None
     lambda_away: Optional[float] = None
+    xg_confidence: Optional[float] = None  # Confidence based on xG variance
+    dc_applied: bool = False  # Whether Dixon-Coles adjustment was applied
 
 
 def factorial(n: int) -> int:
@@ -219,13 +221,19 @@ def calculate_match_probabilities(
         for p in [prob_home, prob_draw, prob_away]
     )
     
+    # Calculate xG confidence (model-native confidence factor)
+    # Higher confidence when teams are balanced (lower xG difference)
+    xg_confidence = 1.0 / (1.0 + abs(lambda_home - lambda_away)) if (lambda_home and lambda_away) else 0.5
+    
     return MatchProbabilities(
         home=prob_home,
         draw=prob_draw,
         away=prob_away,
         entropy=entropy,
         lambda_home=lambda_home,
-        lambda_away=lambda_away
+        lambda_away=lambda_away,
+        xg_confidence=xg_confidence,
+        dc_applied=True  # DC is always applied in this function (tau adjustment)
     )
 
 

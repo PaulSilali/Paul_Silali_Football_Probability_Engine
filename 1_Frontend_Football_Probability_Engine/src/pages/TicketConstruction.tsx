@@ -81,6 +81,13 @@ const getHighestProbOutcome = (homeProb: number, drawProb: number, awayProb: num
 type SetKey = keyof typeof probabilitySets;
 type Pick = '1' | 'X' | '2';
 
+interface DecisionIntelligence {
+  accepted: boolean;
+  evScore: number | null;
+  contradictions: number;
+  reason: string;
+}
+
 interface GeneratedTicket {
   id: string;
   setKey: SetKey;
@@ -88,6 +95,7 @@ interface GeneratedTicket {
   probability: number;
   combinedOdds: number;
   ranking?: number; // Ranking from 1-10 (1 = highest probability)
+  decisionIntelligence?: DecisionIntelligence;
 }
 
 export default function TicketConstruction() {
@@ -1001,12 +1009,21 @@ export default function TicketConstruction() {
             probability = 0.0001; // Very small default if calculation failed
           }
 
+          // Extract decision intelligence metrics if available
+          const decisionIntelligence = ticket.decisionIntelligence ? {
+            accepted: ticket.decisionIntelligence.accepted ?? true,
+            evScore: ticket.decisionIntelligence.evScore ?? null,
+            contradictions: ticket.decisionIntelligence.contradictions ?? 0,
+            reason: ticket.decisionIntelligence.reason || 'Not evaluated'
+          } : undefined;
+          
           return {
             id: ticket.id || `ticket-${ticket.setKey}-${Date.now()}`,
             setKey: ticket.setKey || selectedSets[0],
             picks: ticket.picks as Pick[],
             probability: probability * 100, // Already in percentage (0-100)
             combinedOdds,
+            decisionIntelligence
           };
         });
 
@@ -1699,6 +1716,9 @@ export default function TicketConstruction() {
                           <TableHead className="text-center w-[100px] py-1">
                             <div className="text-xs font-semibold text-muted-foreground">Ranking</div>
                           </TableHead>
+                          <TableHead className="text-center w-[140px] py-1">
+                            <div className="text-xs font-semibold text-muted-foreground">Decision Intelligence</div>
+                          </TableHead>
                           <TableHead className="w-[100px] py-1">
                             <div className="text-xs font-semibold text-muted-foreground">Actions</div>
                           </TableHead>
@@ -1716,6 +1736,7 @@ export default function TicketConstruction() {
                           ))}
                           <TableHead className="text-right w-[100px] border-l-2 border-primary/20 border-t-0 py-0.5"></TableHead>
                           <TableHead className="text-right w-[100px] border-t-0 py-0.5"></TableHead>
+                          <TableHead className="text-center w-[140px] border-t-0 py-0.5"></TableHead>
                           <TableHead className="w-[100px] border-t-0 py-0.5"></TableHead>
                       </TableRow>
                     </TableHeader>
@@ -1807,6 +1828,60 @@ export default function TicketConstruction() {
                                 <Badge variant={ticket.ranking && ticket.ranking <= 3 ? "default" : "outline"} className="text-xs">
                                   {ticket.ranking || '-'}
                                 </Badge>
+                            </TableCell>
+                            <TableCell className="text-center">
+                              {ticket.decisionIntelligence ? (
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <div className="flex flex-col items-center gap-1">
+                                      <Badge 
+                                        variant={ticket.decisionIntelligence.accepted ? "default" : "destructive"} 
+                                        className="text-[10px] px-2 py-0.5"
+                                      >
+                                        {ticket.decisionIntelligence.accepted ? 'Accepted' : 'Rejected'}
+                                      </Badge>
+                                      {ticket.decisionIntelligence.evScore !== null && (
+                                        <span className="text-[10px] font-semibold text-muted-foreground">
+                                          EV: {ticket.decisionIntelligence.evScore.toFixed(2)}
+                                        </span>
+                                      )}
+                                      {ticket.decisionIntelligence.contradictions > 0 && (
+                                        <Badge variant="outline" className="text-[9px] px-1.5 py-0 bg-status-watch/10 text-status-watch border-status-watch/30">
+                                          {ticket.decisionIntelligence.contradictions} contradiction{ticket.decisionIntelligence.contradictions !== 1 ? 's' : ''}
+                                        </Badge>
+                                      )}
+                                    </div>
+                                  </TooltipTrigger>
+                                  <TooltipContent className="max-w-xs">
+                                    <p className="font-semibold mb-1">Decision Intelligence</p>
+                                    <p className="text-xs mb-2">
+                                      {ticket.decisionIntelligence.accepted 
+                                        ? 'Passed structural validation' 
+                                        : 'Failed structural validation'}
+                                    </p>
+                                    {ticket.decisionIntelligence.evScore !== null && (
+                                      <p className="text-xs">EV Score: {ticket.decisionIntelligence.evScore.toFixed(3)}</p>
+                                    )}
+                                    {ticket.decisionIntelligence.contradictions > 0 && (
+                                      <p className="text-xs">Contradictions: {ticket.decisionIntelligence.contradictions}</p>
+                                    )}
+                                    {/* Market Disagreement Info - if available in picks */}
+                                    {ticket.picks && ticket.picks.length > 0 && (
+                                      <p className="text-xs text-muted-foreground mt-2 text-blue-400">
+                                        Market disagreement penalties applied per pick
+                                      </p>
+                                    )}
+                                    <p className="text-xs text-muted-foreground mt-2">
+                                      {ticket.decisionIntelligence.reason}
+                                    </p>
+                                    <p className="text-xs text-muted-foreground mt-2 italic">
+                                      Structural validation ≠ guaranteed outcome
+                                    </p>
+                                  </TooltipContent>
+                                </Tooltip>
+                              ) : (
+                                <span className="text-muted-foreground/50 text-xs">—</span>
+                              )}
                             </TableCell>
                             <TableCell>
                                 <div className="flex gap-1 justify-center">

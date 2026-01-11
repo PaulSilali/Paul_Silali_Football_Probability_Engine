@@ -2180,3 +2180,298 @@ ADD CONSTRAINT chk_fixture_count CHECK (fixture_count >= 1 AND fixture_count <= 
 COMMENT ON CONSTRAINT chk_total_fixtures ON saved_probability_results IS 'Total fixtures must be between 1 and 200';
 COMMENT ON CONSTRAINT chk_fixture_count ON saved_jackpot_templates IS 'Fixture count must be between 1 and 200';
 
+-- ============================================================================
+-- SAVED SURE BET LISTS TABLE
+-- ============================================================================
+-- Allows users to save sure bet lists for later reloading
+
+CREATE TABLE IF NOT EXISTS saved_sure_bet_lists (
+    id              SERIAL PRIMARY KEY,
+    user_id         VARCHAR,                            -- User identifier (string for flexibility)
+    name            VARCHAR NOT NULL,                   -- User-provided name
+    description     TEXT,                               -- Optional description
+    
+    -- Sure bet games data
+    games           JSONB NOT NULL,                     -- Array of game objects with predictions, odds, probabilities
+    
+    -- Betting details
+    bet_amount_kshs FLOAT,                              -- Bet amount in Kenyan Shillings
+    selected_game_ids JSONB,                            -- Array of selected game IDs
+    
+    -- Metadata
+    total_odds      FLOAT,                              -- Total combined odds
+    total_probability FLOAT,                            -- Total combined probability
+    expected_amount_kshs FLOAT,                         -- Expected winnings in KShs
+    weighted_amount_kshs FLOAT,                         -- Weighted expected amount in KShs
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at      TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_saved_sure_bets_user ON saved_sure_bet_lists(user_id);
+CREATE INDEX IF NOT EXISTS idx_saved_sure_bets_created ON saved_sure_bet_lists(created_at DESC);
+
+COMMENT ON TABLE saved_sure_bet_lists IS 'Saved sure bet lists for reloading';
+COMMENT ON COLUMN saved_sure_bet_lists.games IS 'Array of game objects with predictions, odds, probabilities';
+COMMENT ON COLUMN saved_sure_bet_lists.selected_game_ids IS 'Array of selected game IDs from the sure bet list';
+COMMENT ON COLUMN saved_sure_bet_lists.bet_amount_kshs IS 'Bet amount in Kenyan Shillings';
+
+-- ============================================================================
+-- DECISION INTELLIGENCE TABLES
+-- ============================================================================
+-- Decision Intelligence layer for EV-weighted scoring and automatic threshold learning
+-- Date: 2026-01-11
+
+-- Prediction snapshot table - Snapshot of beliefs at decision time
+CREATE TABLE IF NOT EXISTS prediction_snapshot (
+    snapshot_id SERIAL PRIMARY KEY,
+    fixture_id INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    model_version TEXT NOT NULL,
+    prob_home DOUBLE PRECISION NOT NULL CHECK (prob_home >= 0 AND prob_home <= 1),
+    prob_draw DOUBLE PRECISION NOT NULL CHECK (prob_draw >= 0 AND prob_draw <= 1),
+    prob_away DOUBLE PRECISION NOT NULL CHECK (prob_away >= 0 AND prob_away <= 1),
+    xg_home DOUBLE PRECISION CHECK (xg_home >= 0),
+    xg_away DOUBLE PRECISION CHECK (xg_away >= 0),
+    xg_confidence DOUBLE PRECISION CHECK (xg_confidence >= 0 AND xg_confidence <= 1),
+    dc_applied BOOLEAN DEFAULT FALSE,
+    league TEXT,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    
+    CONSTRAINT chk_prob_sum_snapshot CHECK (abs((prob_home + prob_draw + prob_away) - 1.0) < 0.001)
+);
+
+CREATE INDEX IF NOT EXISTS idx_prediction_snapshot_fixture ON prediction_snapshot(fixture_id);
+CREATE INDEX IF NOT EXISTS idx_prediction_snapshot_model ON prediction_snapshot(model_version);
+CREATE INDEX IF NOT EXISTS idx_prediction_snapshot_created ON prediction_snapshot(created_at DESC);
+
+COMMENT ON TABLE prediction_snapshot IS 'Snapshot of model beliefs at decision time for auditability and learning';
+COMMENT ON COLUMN prediction_snapshot.xg_confidence IS 'Confidence factor based on xG variance: 1 / (1 + abs(xg_home - xg_away))';
+COMMENT ON COLUMN prediction_snapshot.dc_applied IS 'Whether Dixon-Coles adjustment was applied to this prediction';
+
+-- Ticket table - Ticket as first-class object with decision intelligence metadata
+CREATE TABLE IF NOT EXISTS ticket (
+    ticket_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    jackpot_id INTEGER REFERENCES jackpots(id) ON DELETE SET NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    ticket_type TEXT NOT NULL DEFAULT 'standard',
+    archetype TEXT,  -- FAVORITE_LOCK, BALANCED, DRAW_SELECTIVE, AWAY_EDGE
+    accepted BOOLEAN NOT NULL DEFAULT FALSE,
+    ev_score DOUBLE PRECISION,
+    contradictions INTEGER NOT NULL DEFAULT 0 CHECK (contradictions >= 0),
+    max_contradictions_allowed INTEGER NOT NULL DEFAULT 1,
+    ev_threshold_used DOUBLE PRECISION,
+    decision_version TEXT NOT NULL DEFAULT 'UDS_v1',  -- Version of decision scoring algorithm
+    notes TEXT,
+    created_by_user_id VARCHAR,
+    
+    CONSTRAINT chk_contradictions CHECK (contradictions <= max_contradictions_allowed OR NOT accepted)
+);
+
+CREATE INDEX IF NOT EXISTS idx_ticket_jackpot ON ticket(jackpot_id);
+CREATE INDEX IF NOT EXISTS idx_ticket_created ON ticket(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_ticket_accepted ON ticket(accepted);
+CREATE INDEX IF NOT EXISTS idx_ticket_ev_score ON ticket(ev_score) WHERE ev_score IS NOT NULL;
+
+COMMENT ON TABLE ticket IS 'Ticket as first-class object with decision intelligence metadata';
+COMMENT ON COLUMN ticket.ev_score IS 'Unified Decision Score (UDS) - EV-weighted score with structural penalties';
+COMMENT ON COLUMN ticket.contradictions IS 'Number of hard contradictions detected in ticket';
+COMMENT ON COLUMN ticket.ev_threshold_used IS 'EV threshold used at decision time (for auditability)';
+
+-- Ticket pick table - Pick-level reasoning and EV scores
+CREATE TABLE IF NOT EXISTS ticket_pick (
+    ticket_id UUID NOT NULL REFERENCES ticket(ticket_id) ON DELETE CASCADE,
+    fixture_id INTEGER NOT NULL REFERENCES jackpot_fixtures(id) ON DELETE CASCADE,
+    pick CHAR(1) NOT NULL CHECK (pick IN ('1', 'X', '2')),
+    market_odds DOUBLE PRECISION NOT NULL CHECK (market_odds > 1.0),
+    model_prob DOUBLE PRECISION NOT NULL CHECK (model_prob >= 0 AND model_prob <= 1),
+    ev_score DOUBLE PRECISION,
+    xg_diff DOUBLE PRECISION,
+    confidence DOUBLE PRECISION CHECK (confidence >= 0 AND confidence <= 1),
+    structural_penalty DOUBLE PRECISION DEFAULT 0 CHECK (structural_penalty >= 0),
+    league_weight DOUBLE PRECISION DEFAULT 1.0 CHECK (league_weight > 0),
+    is_contradiction BOOLEAN NOT NULL DEFAULT FALSE,
+    is_hard_contradiction BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    
+    PRIMARY KEY (ticket_id, fixture_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_ticket_pick_ticket ON ticket_pick(ticket_id);
+CREATE INDEX IF NOT EXISTS idx_ticket_pick_fixture ON ticket_pick(fixture_id);
+CREATE INDEX IF NOT EXISTS idx_ticket_pick_contradiction ON ticket_pick(is_hard_contradiction) WHERE is_hard_contradiction = TRUE;
+CREATE INDEX IF NOT EXISTS idx_ticket_pick_ev_score ON ticket_pick(ev_score) WHERE ev_score IS NOT NULL;
+
+COMMENT ON TABLE ticket_pick IS 'Pick-level reasoning and EV scores for each match in a ticket';
+COMMENT ON COLUMN ticket_pick.ev_score IS 'Pick Decision Value (PDV) - EV-weighted score for this pick';
+COMMENT ON COLUMN ticket_pick.is_hard_contradiction IS 'Hard contradiction flag - if TRUE, pick should be rejected';
+
+-- Ticket outcome table - Outcome closure for threshold learning
+CREATE TABLE IF NOT EXISTS ticket_outcome (
+    ticket_id UUID PRIMARY KEY REFERENCES ticket(ticket_id) ON DELETE CASCADE,
+    correct_picks INTEGER NOT NULL DEFAULT 0 CHECK (correct_picks >= 0),
+    total_picks INTEGER NOT NULL DEFAULT 0 CHECK (total_picks > 0),
+    hit_rate DOUBLE PRECISION NOT NULL CHECK (hit_rate >= 0 AND hit_rate <= 1),
+    evaluated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    actual_results JSONB,
+    
+    CONSTRAINT chk_hit_rate CHECK (hit_rate = correct_picks::DOUBLE PRECISION / total_picks)
+);
+
+CREATE INDEX IF NOT EXISTS idx_ticket_outcome_hit_rate ON ticket_outcome(hit_rate);
+CREATE INDEX IF NOT EXISTS idx_ticket_outcome_evaluated ON ticket_outcome(evaluated_at DESC);
+
+COMMENT ON TABLE ticket_outcome IS 'Outcome closure for threshold learning and performance tracking';
+COMMENT ON COLUMN ticket_outcome.hit_rate IS 'Hit rate: correct_picks / total_picks';
+
+-- Decision thresholds table - Learned thresholds for automatic tuning
+CREATE TABLE IF NOT EXISTS decision_thresholds (
+    id SERIAL PRIMARY KEY,
+    threshold_type TEXT NOT NULL UNIQUE,
+    value DOUBLE PRECISION NOT NULL,
+    learned_from_samples INTEGER DEFAULT 0,
+    learned_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    is_active BOOLEAN DEFAULT TRUE,
+    notes TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_decision_thresholds_type ON decision_thresholds(threshold_type);
+CREATE INDEX IF NOT EXISTS idx_decision_thresholds_active ON decision_thresholds(is_active) WHERE is_active = TRUE;
+
+COMMENT ON TABLE decision_thresholds IS 'Learned thresholds for decision intelligence (auto-tuned from historical data)';
+
+-- Insert default thresholds (using DO block to handle errors gracefully)
+DO $$
+BEGIN
+    INSERT INTO decision_thresholds (threshold_type, value, notes) VALUES
+        ('ev_threshold', 0.12, 'Default EV threshold - will be learned from data'),
+        ('max_contradictions', 1, 'Maximum allowed hard contradictions per ticket'),
+        ('entropy_penalty', 0.05, 'Entropy penalty coefficient (mu)'),
+        ('contradiction_penalty', 10.0, 'Hard penalty for contradictions (lambda)')
+    ON CONFLICT (threshold_type) DO NOTHING;
+EXCEPTION WHEN OTHERS THEN
+    RAISE NOTICE 'Could not insert decision thresholds: %', SQLERRM;
+END $$;
+
+-- League reliability weights table
+CREATE TABLE IF NOT EXISTS league_reliability_weights (
+    league_code VARCHAR(10) PRIMARY KEY REFERENCES leagues(code) ON DELETE CASCADE,
+    weight DOUBLE PRECISION NOT NULL DEFAULT 1.0 CHECK (weight > 0),
+    learned_from_samples INTEGER DEFAULT 0,
+    learned_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_league_weights_code ON league_reliability_weights(league_code);
+
+COMMENT ON TABLE league_reliability_weights IS 'League-specific reliability weights for UDS calculation';
+
+-- Insert default weights (using DO block to handle errors gracefully)
+DO $$
+BEGIN
+    INSERT INTO league_reliability_weights (league_code, weight) VALUES
+        ('E0', 1.00),
+        ('SP1', 0.97),
+        ('D1', 0.95),
+        ('I1', 1.02),
+        ('I2', 1.05),
+        ('F1', 1.00),
+        ('F2', 1.04)
+    ON CONFLICT (league_code) DO NOTHING;
+EXCEPTION WHEN OTHERS THEN
+    -- If table doesn't exist yet or other error, continue
+    RAISE NOTICE 'Could not insert league weights: %', SQLERRM;
+END $$;
+
+-- ============================================================================
+-- Versioned Probability Calibration Table
+-- ============================================================================
+-- This table stores versioned calibration curves for safe, reversible updates.
+-- Each calibration is versioned and can be activated/deactivated independently.
+
+CREATE TABLE IF NOT EXISTS probability_calibration (
+    calibration_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    outcome CHAR(1) NOT NULL CHECK (outcome IN ('H', 'D', 'A')),
+    league TEXT,  -- NULL for global calibration, league code for league-specific
+    model_version TEXT NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    valid_from TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    valid_to TIMESTAMPTZ,  -- NULL if still valid
+    is_active BOOLEAN NOT NULL DEFAULT FALSE,
+    calibration_blob BYTEA NOT NULL,  -- Serialized isotonic regression model (pickle)
+    samples_used INTEGER NOT NULL,
+    notes TEXT,
+    
+    CONSTRAINT chk_outcome CHECK (outcome IN ('H', 'D', 'A'))
+);
+
+CREATE INDEX IF NOT EXISTS idx_calibration_outcome ON probability_calibration(outcome);
+CREATE INDEX IF NOT EXISTS idx_calibration_model_version ON probability_calibration(model_version);
+CREATE INDEX IF NOT EXISTS idx_calibration_active ON probability_calibration(is_active) WHERE is_active = TRUE;
+CREATE INDEX IF NOT EXISTS idx_calibration_league ON probability_calibration(league) WHERE league IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_calibration_created ON probability_calibration(created_at DESC);
+
+COMMENT ON TABLE probability_calibration IS 'Versioned calibration curves for probability calibration (isotonic regression models)';
+COMMENT ON COLUMN probability_calibration.calibration_blob IS 'Serialized sklearn.isotonic.IsotonicRegression model (pickle format)';
+COMMENT ON COLUMN probability_calibration.outcome IS 'Outcome type: H (home), D (draw), A (away)';
+COMMENT ON COLUMN probability_calibration.league IS 'League code for league-specific calibration, NULL for global';
+COMMENT ON COLUMN probability_calibration.is_active IS 'Only one active calibration per (outcome, league, model_version)';
+
+-- ============================================================================
+-- Market Disagreement Analysis View
+-- ============================================================================
+-- Materialized view for analyzing model-market disagreement patterns
+
+CREATE MATERIALIZED VIEW IF NOT EXISTS market_disagreement_analysis AS
+SELECT
+    ROUND(ABS(ps.prob_home - (1.0 / jf.odds_home))::numeric, 2) AS delta_home,
+    ROUND(ABS(ps.prob_draw - (1.0 / jf.odds_draw))::numeric, 2) AS delta_draw,
+    ROUND(ABS(ps.prob_away - (1.0 / jf.odds_away))::numeric, 2) AS delta_away,
+    CASE WHEN jf.actual_result = 'H' THEN 1 ELSE 0 END AS y_home,
+    CASE WHEN jf.actual_result = 'D' THEN 1 ELSE 0 END AS y_draw,
+    CASE WHEN jf.actual_result = 'A' THEN 1 ELSE 0 END AS y_away,
+    ps.league,
+    ps.model_version,
+    ps.created_at
+FROM prediction_snapshot ps
+JOIN jackpot_fixtures jf ON ps.fixture_id = jf.id
+WHERE jf.actual_result IS NOT NULL
+  AND jf.odds_home IS NOT NULL
+  AND jf.odds_draw IS NOT NULL
+  AND jf.odds_away IS NOT NULL;
+
+CREATE INDEX IF NOT EXISTS idx_market_disagreement_delta_home ON market_disagreement_analysis(delta_home);
+CREATE INDEX IF NOT EXISTS idx_market_disagreement_delta_draw ON market_disagreement_analysis(delta_draw);
+CREATE INDEX IF NOT EXISTS idx_market_disagreement_delta_away ON market_disagreement_analysis(delta_away);
+CREATE INDEX IF NOT EXISTS idx_market_disagreement_league ON market_disagreement_analysis(league);
+
+COMMENT ON MATERIALIZED VIEW market_disagreement_analysis IS 'Analysis of model-market disagreement patterns for calibration and penalty tuning';
+
+-- ============================================================================
+-- Calibration Dataset View
+-- ============================================================================
+-- View for extracting calibration dataset from prediction_snapshot and actual results
+
+CREATE OR REPLACE VIEW calibration_dataset AS
+SELECT
+    ps.fixture_id,
+    ps.created_at,
+    ps.league,
+    ps.model_version,
+    ps.prob_home,
+    ps.prob_draw,
+    ps.prob_away,
+    jf.actual_result,
+    CASE WHEN jf.actual_result = 'H' THEN 1 ELSE 0 END AS y_home,
+    CASE WHEN jf.actual_result = 'D' THEN 1 ELSE 0 END AS y_draw,
+    CASE WHEN jf.actual_result = 'A' THEN 1 ELSE 0 END AS y_away,
+    jf.odds_home,
+    jf.odds_draw,
+    jf.odds_away,
+    ABS(ps.prob_home - (1.0 / jf.odds_home)) AS market_disagreement_home,
+    ABS(ps.prob_draw - (1.0 / jf.odds_draw)) AS market_disagreement_draw,
+    ABS(ps.prob_away - (1.0 / jf.odds_away)) AS market_disagreement_away
+FROM prediction_snapshot ps
+JOIN jackpot_fixtures jf ON ps.fixture_id = jf.id
+WHERE jf.actual_result IS NOT NULL;
+
+COMMENT ON VIEW calibration_dataset IS 'Calibration dataset combining prediction_snapshot with actual results and odds';
+

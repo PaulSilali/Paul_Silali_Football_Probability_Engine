@@ -579,6 +579,26 @@ export default function JackpotValidation() {
    * Note: The validation_results table is populated when exporting to training,
    * but the validation page displays data computed from saved_probability_results
    */
+  // Load export status from database
+  useEffect(() => {
+    const loadExportStatus = async () => {
+      try {
+        const response = await apiClient.getValidationExportStatus();
+        if (response.success && response.data?.exported_validations) {
+          // Convert exported_validations object to Set of validation IDs
+          const exportedIds = new Set(Object.keys(response.data.exported_validations));
+          setExportedValidations(exportedIds);
+          console.log('Loaded export status:', exportedIds.size, 'validations already exported');
+        }
+      } catch (error) {
+        console.error('Failed to load export status:', error);
+        // Don't show error toast - this is not critical
+      }
+    };
+    
+    loadExportStatus();
+  }, []); // Load once on mount
+
   useEffect(() => {
     const loadValidations = async () => {
       try {
@@ -992,8 +1012,15 @@ export default function JackpotValidation() {
       const response = await apiClient.exportValidationToTraining([selectedJackpot.id]);
       
       if (response.success) {
-        // Mark as exported
-        setExportedValidations(prev => new Set(prev).add(selectedJackpot.id));
+        // Refresh export status from database to get accurate state
+        const statusResponse = await apiClient.getValidationExportStatus();
+        if (statusResponse.success && statusResponse.data?.exported_validations) {
+          const exportedIds = new Set(Object.keys(statusResponse.data.exported_validations));
+          setExportedValidations(exportedIds);
+        } else {
+          // Fallback: add to local state
+          setExportedValidations(prev => new Set(prev).add(selectedJackpot.id));
+        }
         
         toast({
           title: 'Success',
@@ -1026,12 +1053,19 @@ export default function JackpotValidation() {
         const autoRetrained = response.data?.auto_retrained;
         const totalValidationMatches = response.data?.total_validation_matches || 0;
         
-        // Mark all as exported
-        setExportedValidations(prev => {
-          const newSet = new Set(prev);
-          validationIds.forEach(id => newSet.add(id));
-          return newSet;
-        });
+        // Refresh export status from database to get accurate state
+        const statusResponse = await apiClient.getValidationExportStatus();
+        if (statusResponse.success && statusResponse.data?.exported_validations) {
+          const exportedIds = new Set(Object.keys(statusResponse.data.exported_validations));
+          setExportedValidations(exportedIds);
+        } else {
+          // Fallback: add to local state
+          setExportedValidations(prev => {
+            const newSet = new Set(prev);
+            validationIds.forEach(id => newSet.add(id));
+            return newSet;
+          });
+        }
         
         // Mark as retrained if auto-retrained
         if (autoRetrained) {

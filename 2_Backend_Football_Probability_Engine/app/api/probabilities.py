@@ -934,14 +934,29 @@ async def calculate_probabilities(
                 league_code=league_code
             )
             
+            # Apply Dixon-Coles gating (conditional application)
+            from app.models.dixon_coles_gate import should_apply_dc
+            
+            # Determine if DC should be applied
+            xg_total = (base_probs.lambda_home or 0) + (base_probs.lambda_away or 0)
+            lineup_stable = True  # Default to stable if unknown (can be enhanced with injury data)
+            dc_should_apply = should_apply_dc(
+                xg_home=base_probs.lambda_home or 0,
+                xg_away=base_probs.lambda_away or 0,
+                lineup_stable=lineup_stable
+            )
+            
             # Update base_probs with draw-prior-adjusted values
+            # Preserve xg_confidence from model calculation
             base_probs = MatchProbabilities(
                 home=adjusted_home,
                 draw=adjusted_draw,
                 away=adjusted_away,
                 entropy=base_probs.entropy,  # Recalculate after adjustment
                 lambda_home=base_probs.lambda_home,
-                lambda_away=base_probs.lambda_away
+                lambda_away=base_probs.lambda_away,
+                xg_confidence=base_probs.xg_confidence,  # Preserve model-native confidence
+                dc_applied=dc_should_apply  # Mark if DC adjustment was applied
             )
             
             # Recalculate entropy after draw prior injection
@@ -1301,6 +1316,7 @@ async def calculate_probabilities(
                 )
                 
                 # Update base_probs with draw-structurally-adjusted values
+                # Preserve xg_confidence and dc_applied from earlier
                 base_probs = MatchProbabilities(
                     home=adjustment_result["home"],
                     draw=adjustment_result["draw"],
@@ -1310,7 +1326,9 @@ async def calculate_probabilities(
                         for p in [adjustment_result["home"], adjustment_result["draw"], adjustment_result["away"]]
                     ),
                     lambda_home=lambda_home_val,
-                    lambda_away=lambda_away_val
+                    lambda_away=lambda_away_val,
+                    xg_confidence=getattr(base_probs, 'xg_confidence', None),  # Preserve from model
+                    dc_applied=getattr(base_probs, 'dc_applied', False)  # Preserve DC flag
                 )
                 
                 # Store draw structural metadata for later use in output
@@ -1364,7 +1382,9 @@ async def calculate_probabilities(
                 away=model_probs_scaled[2],
                 entropy=entropy(model_probs_scaled),
                 lambda_home=base_probs.lambda_home if hasattr(base_probs, 'lambda_home') else None,
-                lambda_away=base_probs.lambda_away if hasattr(base_probs, 'lambda_away') else None
+                lambda_away=base_probs.lambda_away if hasattr(base_probs, 'lambda_away') else None,
+                xg_confidence=getattr(base_probs, 'xg_confidence', None),  # Preserve xG confidence
+                dc_applied=getattr(base_probs, 'dc_applied', False)  # Preserve DC flag
             )
             
             # Use scaled probabilities for blending
@@ -1524,7 +1544,9 @@ async def calculate_probabilities(
                                     for p in [ch, cd, ca]
                                 ),
                                 lambda_home=probs.lambda_home if hasattr(probs, 'lambda_home') else None,
-                                lambda_away=probs.lambda_away if hasattr(probs, 'lambda_away') else None
+                                lambda_away=probs.lambda_away if hasattr(probs, 'lambda_away') else None,
+                                xg_confidence=getattr(probs, 'xg_confidence', None),  # Preserve xG confidence
+                                dc_applied=getattr(probs, 'dc_applied', False)  # Preserve DC flag
                             )
                             if not calibration_applied:
                                 logger.info(f"✓ Applying calibration to Set {set_id}: ({probs.home:.3f}, {probs.draw:.3f}, {probs.away:.3f}) -> ({ch:.3f}, {cd:.3f}, {ca:.3f})")
@@ -1600,6 +1622,22 @@ async def calculate_probabilities(
                 
                 probability_sets[set_id].append(output)
             
+            # Update fixture data with xG confidence and DC applied (for decision intelligence)
+            # Find the corresponding fixture in fixtures_data by ID
+            fixture_id_str = str(fixture_data['id'])
+            for fixture_item in fixtures_data:
+                if fixture_item.get('id') == fixture_id_str:
+                    # Add xG and confidence data from model
+                    if hasattr(base_probs, 'lambda_home') and base_probs.lambda_home is not None:
+                        fixture_item['xg_home'] = round(base_probs.lambda_home, 3)
+                    if hasattr(base_probs, 'lambda_away') and base_probs.lambda_away is not None:
+                        fixture_item['xg_away'] = round(base_probs.lambda_away, 3)
+                    if hasattr(base_probs, 'xg_confidence') and base_probs.xg_confidence is not None:
+                        fixture_item['xg_confidence'] = round(base_probs.xg_confidence, 4)
+                    if hasattr(base_probs, 'dc_applied'):
+                        fixture_item['dc_applied'] = base_probs.dc_applied
+                    break
+        
         # Log summary statistics
         logger.info(f"=== PROBABILITY CALCULATION COMPLETE ===")
         logger.info(f"Team matching stats: {team_match_stats}")
@@ -1826,9 +1864,30 @@ async def get_imported_jackpots(
             selections = row['selections'] or {}
             has_selections = bool(selections) and isinstance(selections, dict) and len(selections) > 0
             
+            # Check if selections are placeholder (all '1' values) or real probability calculations
+            # Placeholder selections are created during import with default '1' values
+            # Real selections have varied picks ('1', 'X', '2') based on actual probabilities
+            is_placeholder_selections = False
+            if has_selections:
+                # Real probability calculations have multiple sets (A, B, C, D, E, F, G, etc.)
+                # Placeholder imports only have Set A with all '1' values
+                set_keys = list(selections.keys())
+                
+                # If only Set A exists, check if it's a placeholder
+                if len(set_keys) == 1 and 'A' in set_keys:
+                    first_set = selections['A']
+                    if first_set:
+                        all_values = list(first_set.values())
+                        # If all selections are '1' (home win), it's a placeholder
+                        # Real calculations would have varied picks even in Set A
+                        if len(all_values) > 0 and all(v == '1' for v in all_values):
+                            is_placeholder_selections = True
+                # If multiple sets exist, it's definitely a real calculation
+                # (placeholder imports never have multiple sets)
+            
             if has_actual_results and has_scores:
                 status = "validated"
-            elif has_actual_results and has_selections:
+            elif has_actual_results and has_selections and not is_placeholder_selections:
                 status = "probabilities_computed"
             elif has_actual_results:
                 status = "imported"
@@ -1872,6 +1931,38 @@ async def get_imported_jackpots(
         )
     except Exception as e:
         logger.error(f"Error fetching imported jackpots: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.delete("/saved-results/{result_id}", response_model=ApiResponse)
+async def delete_saved_result(
+    result_id: int,
+    db: Session = Depends(get_db)
+):
+    """Delete a saved probability result"""
+    try:
+        saved_result = db.query(SavedProbabilityResult).filter(
+            SavedProbabilityResult.id == result_id
+        ).first()
+        
+        if not saved_result:
+            raise HTTPException(status_code=404, detail="Saved result not found")
+        
+        db.delete(saved_result)
+        db.commit()
+        
+        logger.info(f"Deleted saved result: ID={result_id}, jackpot_id={saved_result.jackpot_id}")
+        
+        return ApiResponse(
+            success=True,
+            message="Saved result deleted successfully",
+            data={"deleted_id": result_id, "jackpot_id": saved_result.jackpot_id}
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        db.rollback()
+        logger.error(f"Error deleting saved result: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1947,10 +2038,13 @@ async def save_probability_result(
         model = db.query(Model).filter(Model.status == ModelStatus.active).first()
         model_version = model.version if model else None
         
-        # Count total fixtures from selections
+        # Count total fixtures from actual_results (most accurate) or selections (fallback)
         total_fixtures = 0
-        if data.get("selections"):
-            # Get the first set to count fixtures
+        if data.get("actual_results"):
+            # Count from actual_results - this is the most accurate count
+            total_fixtures = len(data["actual_results"])
+        elif data.get("selections"):
+            # Fallback: Get the first set to count fixtures
             first_set = list(data["selections"].values())[0] if data["selections"] else {}
             total_fixtures = len(first_set)
         

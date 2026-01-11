@@ -29,7 +29,9 @@ import {
   Layers,
   HardDrive,
   Calculator,
-  ArrowRight
+  ArrowRight,
+  Brain,
+  Trash2
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
@@ -58,6 +60,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
@@ -739,6 +742,9 @@ export default function DataIngestion() {
   const [batchHistory, setBatchHistory] = useState<BatchHistoryItem[]>([]);
   const [batchSummary, setBatchSummary] = useState<BatchHistorySummary | null>(null);
   const [loadingBatches, setLoadingBatches] = useState(true);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [jackpotToDelete, setJackpotToDelete] = useState<{id: string, jackpotId: string} | null>(null);
+  const [isDeleting, setIsDeleting] = useState(false);
   const { toast } = useToast();
   
   // Generate seasons list
@@ -850,13 +856,33 @@ export default function DataIngestion() {
       const homeTeamIdx = header.findIndex(h => h.toLowerCase().replace(/\s+/g, '') === 'hometeam');
       const awayTeamIdx = header.findIndex(h => h.toLowerCase().replace(/\s+/g, '') === 'awayteam');
       const resultIdx = header.findIndex(h => h.toLowerCase() === 'result');
+      
+      // Optional odds columns - try multiple variations
+      const oddsHomeIdx = header.findIndex(h => 
+        h.toLowerCase() === 'oddshome' || 
+        h.toLowerCase() === 'homeodds' || 
+        h.toLowerCase() === 'oddsh' ||
+        h.toLowerCase() === 'h'
+      );
+      const oddsDrawIdx = header.findIndex(h => 
+        h.toLowerCase() === 'oddsdraw' || 
+        h.toLowerCase() === 'drawodds' || 
+        h.toLowerCase() === 'oddsd' ||
+        h.toLowerCase() === 'd'
+      );
+      const oddsAwayIdx = header.findIndex(h => 
+        h.toLowerCase() === 'oddsaway' || 
+        h.toLowerCase() === 'awayodds' || 
+        h.toLowerCase() === 'oddsa' ||
+        h.toLowerCase() === 'a'
+      );
 
-      console.log('Column indices:', { matchIdx, homeTeamIdx, awayTeamIdx, resultIdx });
+      console.log('Column indices:', { matchIdx, homeTeamIdx, awayTeamIdx, resultIdx, oddsHomeIdx, oddsDrawIdx, oddsAwayIdx });
 
       if (matchIdx === -1 || homeTeamIdx === -1 || awayTeamIdx === -1 || resultIdx === -1) {
         toast({
           title: 'Error',
-          description: `CSV must contain columns: Match, HomeTeam, AwayTeam, Result. Found: ${header.join(', ')}`,
+          description: `CSV must contain columns: Match, HomeTeam, AwayTeam, Result. Optional: OddsHome, OddsDraw, OddsAway. Found: ${header.join(', ')}`,
           variant: 'destructive',
         });
         return;
@@ -864,7 +890,13 @@ export default function DataIngestion() {
 
       // Parse data rows
       const actualResults: Record<string, string> = {};
-      const matches: Array<{match: string, home: string, away: string, result: string}> = [];
+      const matches: Array<{
+        match: string, 
+        home: string, 
+        away: string, 
+        result: string,
+        odds?: { home: number, draw: number, away: number }
+      }> = [];
 
       for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
@@ -900,8 +932,43 @@ export default function DataIngestion() {
           continue; // Skip invalid results
         }
 
+        // Parse optional odds - all three must be present and valid
+        let odds: { home: number, draw: number, away: number } | undefined = undefined;
+        if (oddsHomeIdx !== -1 && oddsDrawIdx !== -1 && oddsAwayIdx !== -1) {
+          // Check if we have enough columns
+          const maxOddsIdx = Math.max(oddsHomeIdx, oddsDrawIdx, oddsAwayIdx);
+          if (values.length > maxOddsIdx) {
+            const oddsHomeStr = values[oddsHomeIdx] || '';
+            const oddsDrawStr = values[oddsDrawIdx] || '';
+            const oddsAwayStr = values[oddsAwayIdx] || '';
+            
+            const oddsHome = parseFloat(oddsHomeStr);
+            const oddsDraw = parseFloat(oddsDrawStr);
+            const oddsAway = parseFloat(oddsAwayStr);
+            
+            // Validate odds (must be > 1.0 and all three must be valid)
+            if (!isNaN(oddsHome) && !isNaN(oddsDraw) && !isNaN(oddsAway) &&
+                oddsHome > 1.0 && oddsDraw > 1.0 && oddsAway > 1.0) {
+              odds = {
+                home: oddsHome,
+                draw: oddsDraw,
+                away: oddsAway
+              };
+              console.log(`Row ${i}: Parsed odds - Home: ${oddsHome}, Draw: ${oddsDraw}, Away: ${oddsAway}`);
+            } else {
+              console.warn(`Row ${i}: Invalid odds values (${oddsHomeStr}, ${oddsDrawStr}, ${oddsAwayStr}), using defaults`);
+            }
+          }
+        }
+
         actualResults[matchNum] = result;
-        matches.push({ match: matchNum, home: homeTeam, away: awayTeam, result });
+        matches.push({ 
+          match: matchNum, 
+          home: homeTeam, 
+          away: awayTeam, 
+          result,
+          odds 
+        });
       }
 
       console.log('Parsed results:', actualResults);
@@ -917,11 +984,12 @@ export default function DataIngestion() {
       }
 
       // Create jackpot with fixtures first (needed for probability computation)
+      // Use parsed odds if available, otherwise use defaults
       const fixturesToCreate = matches.map(match => ({
         id: match.match,
         homeTeam: match.home,
         awayTeam: match.away,
-        odds: {
+        odds: match.odds || {
           home: 2.0,
           draw: 3.0,
           away: 2.5
@@ -1220,6 +1288,47 @@ export default function DataIngestion() {
 
   const handleViewValidation = (jackpotId: string) => {
     navigate(`/jackpot-validation?jackpotId=${jackpotId}`);
+  };
+
+  const handleDeleteClick = (resultId: string, jackpotId: string) => {
+    setJackpotToDelete({ id: resultId, jackpotId });
+    setDeleteDialogOpen(true);
+  };
+
+  const handleDeleteConfirm = async () => {
+    if (!jackpotToDelete) return;
+
+    setIsDeleting(true);
+    try {
+      const response = await apiClient.deleteSavedResult(parseInt(jackpotToDelete.id));
+      if (response.success) {
+        toast({
+          title: 'Success',
+          description: `Jackpot ${jackpotToDelete.jackpotId} deleted successfully`,
+        });
+        // Refresh the list
+        await fetchImportedJackpots();
+        // Close dialog
+        setDeleteDialogOpen(false);
+        setJackpotToDelete(null);
+      } else {
+        throw new Error(response.message || 'Failed to delete jackpot');
+      }
+    } catch (error: any) {
+      console.error('Error deleting jackpot:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to delete jackpot',
+        variant: 'destructive',
+      });
+    } finally {
+      setIsDeleting(false);
+    }
+  };
+
+  const handleDeleteCancel = () => {
+    setDeleteDialogOpen(false);
+    setJackpotToDelete(null);
   };
 
   const totalRecords = sources.reduce((acc, s) => acc + (s.recordCount || 0), 0);
@@ -2043,6 +2152,61 @@ export default function DataIngestion() {
             </ModernCard>
           </div>
 
+          {/* Decision Intelligence Inputs */}
+          <Card className="glass-card border-primary/30 mt-6">
+            <CardHeader>
+              <CardTitle className="text-lg flex items-center gap-2">
+                <Brain className="h-5 w-5 text-primary" />
+                Decision Intelligence Inputs
+              </CardTitle>
+              <CardDescription>
+                How ingested data feeds into decision quality validation
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <p className="text-sm text-muted-foreground">
+                  The Decision Intelligence system uses ingested data to validate ticket quality before generation. 
+                  These signals ensure structural validity and economic grounding.
+                </p>
+                <div>
+                  <h4 className="font-semibold text-sm mb-2">Key Inputs for Decision Intelligence:</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2 list-disc list-inside">
+                    <li>
+                      <strong>xG and goal variance</strong> - Used to calculate confidence factors (balanced teams = higher confidence)
+                    </li>
+                    <li>
+                      <strong>Market odds</strong> - Economic grounding for Expected Value (EV) calculations
+                    </li>
+                    <li>
+                      <strong>Lineup stability</strong> - Determines when Dixon-Coles adjustment should be applied
+                    </li>
+                    <li>
+                      <strong>League context</strong> - League-specific risk weighting for reliability adjustments
+                    </li>
+                    <li>
+                      <strong>Weather data</strong> - Affects draw probability and match tempo (when available)
+                    </li>
+                    <li>
+                      <strong>Team form and rest days</strong> - Influences team strength adjustments
+                    </li>
+                  </ul>
+                </div>
+                <Alert className="bg-primary/5 border-primary/20">
+                  <Info className="h-4 w-4 text-primary" />
+                  <AlertDescription className="text-sm">
+                    These signals are used to validate decisions before tickets are generated. 
+                    Tickets that pass structural validation are marked as "Accepted" in the Ticket Construction page.
+                  </AlertDescription>
+                </Alert>
+                <p className="text-xs text-muted-foreground italic">
+                  Note: Decision Intelligence validates structural quality, not guaranteed outcomes. 
+                  See the About page for more details.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Recommended Stack */}
           <ModernCard
             title="Recommended Minimal FREE Data Stack"
@@ -2141,11 +2305,15 @@ export default function DataIngestion() {
                 <div className="space-y-2">
                   <Label>Paste Jackpot Results (CSV format)</Label>
                   <Textarea
-                    placeholder="Match,HomeTeam,AwayTeam,Result&#10;1,Arsenal,Chelsea,H&#10;2,Liverpool,Man City,D&#10;..."
+                    placeholder="Match,HomeTeam,AwayTeam,Result,OddsHome,OddsDraw,OddsAway&#10;1,Arsenal,Chelsea,H,2.1,3.2,3.5&#10;2,Liverpool,Man City,D,2.5,3.0,2.8&#10;...&#10;&#10;Note: Odds columns are optional. If omitted, defaults (2.0, 3.0, 2.5) will be used."
                     className="font-mono text-sm h-[200px]"
                     value={manualInput}
                     onChange={(e) => setManualInput(e.target.value)}
                   />
+                  <p className="text-xs text-muted-foreground">
+                    Required columns: <strong>Match, HomeTeam, AwayTeam, Result</strong><br/>
+                    Optional columns: <strong>OddsHome, OddsDraw, OddsAway</strong> (or HomeOdds, DrawOdds, AwayOdds)
+                  </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Button 
@@ -2284,6 +2452,15 @@ export default function DataIngestion() {
                                   View Validation
                                 </Button>
                               )}
+                              <Button
+                                size="sm"
+                                variant="ghost"
+                                onClick={() => handleDeleteClick(result.id, result.jackpotId)}
+                                className="text-destructive hover:text-destructive hover:bg-destructive/10"
+                                title="Delete jackpot"
+                              >
+                                <Trash2 className="h-3 w-3" />
+                              </Button>
                             </div>
                           </TableCell>
                         </TableRow>
@@ -2315,6 +2492,46 @@ export default function DataIngestion() {
               </div>
             </AlertDescription>
           </Alert>
+
+          {/* Delete Confirmation Dialog */}
+          <Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Delete Jackpot</DialogTitle>
+                <DialogDescription>
+                  Are you sure you want to delete jackpot <strong>{jackpotToDelete?.jackpotId}</strong>?
+                  <br />
+                  <span className="text-destructive">This action cannot be undone.</span>
+                </DialogDescription>
+              </DialogHeader>
+              <DialogFooter>
+                <Button
+                  variant="outline"
+                  onClick={handleDeleteCancel}
+                  disabled={isDeleting}
+                >
+                  Cancel
+                </Button>
+                <Button
+                  variant="destructive"
+                  onClick={handleDeleteConfirm}
+                  disabled={isDeleting}
+                >
+                  {isDeleting ? (
+                    <>
+                      <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                      Deleting...
+                    </>
+                  ) : (
+                    <>
+                      <Trash2 className="h-4 w-4 mr-2" />
+                      Delete
+                    </>
+                  )}
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </TabsContent>
 
         {/* Draw Structural Data Tab */}

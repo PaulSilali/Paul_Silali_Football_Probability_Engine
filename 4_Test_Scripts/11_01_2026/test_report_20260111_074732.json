@@ -1,0 +1,314 @@
+{
+  "timestamp": "2026-01-11T07:47:32.217565",
+  "stats": {
+    "total": 67,
+    "passed": 67,
+    "failed": 0,
+    "warnings": 8
+  },
+  "passed": [
+    {
+      "test": "Table exists: leagues",
+      "details": ""
+    },
+    {
+      "test": "Table exists: teams",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_h2h_stats",
+      "details": ""
+    },
+    {
+      "test": "Table exists: matches",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_features",
+      "details": ""
+    },
+    {
+      "test": "Table exists: league_stats",
+      "details": ""
+    },
+    {
+      "test": "Table exists: models",
+      "details": ""
+    },
+    {
+      "test": "Table exists: training_runs",
+      "details": ""
+    },
+    {
+      "test": "Table exists: users",
+      "details": ""
+    },
+    {
+      "test": "Table exists: jackpots",
+      "details": ""
+    },
+    {
+      "test": "Table exists: jackpot_fixtures",
+      "details": ""
+    },
+    {
+      "test": "Table exists: predictions",
+      "details": ""
+    },
+    {
+      "test": "Table exists: validation_results",
+      "details": ""
+    },
+    {
+      "test": "Table exists: calibration_data",
+      "details": ""
+    },
+    {
+      "test": "Table exists: data_sources",
+      "details": ""
+    },
+    {
+      "test": "Table exists: ingestion_logs",
+      "details": ""
+    },
+    {
+      "test": "Table exists: audit_entries",
+      "details": ""
+    },
+    {
+      "test": "Table exists: saved_jackpot_templates",
+      "details": ""
+    },
+    {
+      "test": "Table exists: saved_probability_results",
+      "details": ""
+    },
+    {
+      "test": "Table exists: saved_sure_bet_lists",
+      "details": ""
+    },
+    {
+      "test": "Table exists: league_draw_priors",
+      "details": ""
+    },
+    {
+      "test": "Table exists: h2h_draw_stats",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_elo",
+      "details": ""
+    },
+    {
+      "test": "Table exists: match_weather",
+      "details": ""
+    },
+    {
+      "test": "Table exists: match_weather_historical",
+      "details": ""
+    },
+    {
+      "test": "Table exists: referee_stats",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_rest_days",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_rest_days_historical",
+      "details": ""
+    },
+    {
+      "test": "Table exists: odds_movement",
+      "details": ""
+    },
+    {
+      "test": "Table exists: odds_movement_historical",
+      "details": ""
+    },
+    {
+      "test": "Table exists: league_structure",
+      "details": ""
+    },
+    {
+      "test": "Table exists: match_xg",
+      "details": ""
+    },
+    {
+      "test": "Table exists: match_xg_historical",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_form",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_form_historical",
+      "details": ""
+    },
+    {
+      "test": "Table exists: team_injuries",
+      "details": ""
+    },
+    {
+      "test": "All Expected Tables Exist",
+      "details": "Found 36 tables"
+    },
+    {
+      "test": "Table jackpots has required columns",
+      "details": ""
+    },
+    {
+      "test": "Table jackpot_fixtures has required columns",
+      "details": ""
+    },
+    {
+      "test": "Table predictions has required columns",
+      "details": ""
+    },
+    {
+      "test": "Table models has required columns",
+      "details": ""
+    },
+    {
+      "test": "Table teams has required columns",
+      "details": ""
+    },
+    {
+      "test": "Table leagues has required columns",
+      "details": ""
+    },
+    {
+      "test": "Health Check",
+      "details": "Backend is running"
+    },
+    {
+      "test": "Root Endpoint",
+      "details": ""
+    },
+    {
+      "test": "Leagues Table CRUD",
+      "details": "Inserted ID: 94"
+    },
+    {
+      "test": "Jackpots Table CRUD",
+      "details": "Inserted ID: 32"
+    },
+    {
+      "test": "Migration: saved_sure_bet_lists table exists",
+      "details": ""
+    },
+    {
+      "test": "Migration table: saved_sure_bet_lists",
+      "details": ""
+    },
+    {
+      "test": "Migration table: saved_jackpot_templates",
+      "details": ""
+    },
+    {
+      "test": "Migration table: saved_probability_results",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_form",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_form_historical",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_injuries",
+      "details": ""
+    },
+    {
+      "test": "Migration table: match_xg",
+      "details": ""
+    },
+    {
+      "test": "Migration table: match_xg_historical",
+      "details": ""
+    },
+    {
+      "test": "Migration table: league_draw_priors",
+      "details": ""
+    },
+    {
+      "test": "Migration table: h2h_draw_stats",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_elo",
+      "details": ""
+    },
+    {
+      "test": "Migration table: match_weather",
+      "details": ""
+    },
+    {
+      "test": "Migration table: match_weather_historical",
+      "details": ""
+    },
+    {
+      "test": "Migration table: referee_stats",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_rest_days",
+      "details": ""
+    },
+    {
+      "test": "Migration table: team_rest_days_historical",
+      "details": ""
+    },
+    {
+      "test": "Migration table: odds_movement",
+      "details": ""
+    },
+    {
+      "test": "Migration table: odds_movement_historical",
+      "details": ""
+    },
+    {
+      "test": "Migration table: league_structure",
+      "details": ""
+    }
+  ],
+  "failed": [],
+  "warnings": [
+    {
+      "test": "API GET /model/health",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /model/versions",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots?page=1&page_size=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots/templates?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/freshness",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/batches?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /dashboard/summary",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /sure-bet/saved-lists",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    }
+  ]
+}

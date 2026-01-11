@@ -1,4 +1,0 @@
-"""
-Database Tests Package
-"""
-

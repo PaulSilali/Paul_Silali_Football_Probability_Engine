@@ -396,6 +396,8 @@ export default function MLTraining() {
             
             // Get model name from current state (use functional update to avoid stale closure)
             let modelName = 'Model';
+            
+            // First, update progress to 100% with animation
             setModels(prev => {
               const found = prev.find(m => m.id === modelId);
               if (found) {
@@ -406,7 +408,7 @@ export default function MLTraining() {
                   ? {
                       ...m,
                       status: 'completed' as const,
-                      progress: 100,
+                      progress: 100, // Ensure 100% is set immediately
                       phase: task.phase || 'Complete',
                       // Only set metrics if they exist in result
                       metrics: task.result?.metrics ? {
@@ -420,6 +422,13 @@ export default function MLTraining() {
               );
             });
             
+            // Force a re-render by updating state again after a brief delay
+            setTimeout(() => {
+              setModels(prev => prev.map(m => 
+                m.id === modelId ? { ...m, progress: 100 } : m
+              ));
+            }, 100);
+            
             toast({
               title: 'Training Complete',
               description: `${modelName} trained successfully.`,
@@ -428,9 +437,13 @@ export default function MLTraining() {
             // Refresh model status and training history from backend (this will update lastTrained with actual timestamp)
             console.log('[MLTraining] Training completed, refreshing model status...');
             console.log('[MLTraining] Current time:', new Date().toISOString());
-            await loadModelStatus();
-            await loadTrainingHistory();
-            console.log('[MLTraining] Model status refresh complete');
+            
+            // Refresh data after a short delay to ensure UI updates first
+            setTimeout(async () => {
+              await loadModelStatus();
+              await loadTrainingHistory();
+              console.log('[MLTraining] Model status refresh complete');
+            }, 500);
           }
 
           // Handle failure
@@ -619,23 +632,33 @@ export default function MLTraining() {
                 });
                 setIsTrainingPipeline(false);
                 
-                // Update all models to completed state (temporary, will be refreshed from backend)
+                // Update all models to completed state with 100% progress
                 setModels(prev => prev.map(m => ({
                   ...m,
                   status: 'completed' as const,
-                  progress: 100,
+                  progress: 100, // Ensure 100% is set
                   phase: 'Complete',
                   // Don't set lastTrained here - will be updated from backend with actual completion time
                 })));
+                
+                // Force re-render after a brief delay
+                setTimeout(() => {
+                  setModels(prev => prev.map(m => ({
+                    ...m,
+                    progress: 100
+                  })));
+                }, 100);
                 
                 toast({
                   title: 'Pipeline Complete',
                   description: 'All models trained successfully. New version ready for activation.',
                 });
                 
-                // Refresh all data from backend
-                await loadModelStatus();
-                await loadTrainingHistory();
+                // Refresh all data from backend after UI updates
+                setTimeout(async () => {
+                  await loadModelStatus();
+                  await loadTrainingHistory();
+                }, 500);
               }
 
               if (task.status === 'failed') {
@@ -1019,13 +1042,23 @@ export default function MLTraining() {
               </CardHeader>
               <CardContent className="space-y-4">
                 {/* Training Progress */}
-                {model.status === 'training' && (
+                {(model.status === 'training' || (model.status === 'completed' && model.progress < 100)) && (
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-muted-foreground">{model.phase}</span>
                       <span className="tabular-nums font-medium">{Math.round(model.progress)}%</span>
                     </div>
                     <Progress value={model.progress} className="h-2" />
+                  </div>
+                )}
+                {/* Show completion state briefly */}
+                {model.status === 'completed' && model.progress === 100 && (
+                  <div className="space-y-2 animate-fade-in">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-green-600 font-medium">✓ Complete</span>
+                      <span className="tabular-nums font-medium text-green-600">100%</span>
+                    </div>
+                    <Progress value={100} className="h-2" />
                   </div>
                 )}
 

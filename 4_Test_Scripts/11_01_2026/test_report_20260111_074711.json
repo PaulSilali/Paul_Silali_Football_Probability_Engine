@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-01-11T07:47:11.847729",
+  "stats": {
+    "total": 5,
+    "passed": 2,
+    "failed": 3,
+    "warnings": 8
+  },
+  "passed": [
+    {
+      "test": "Health Check",
+      "details": "Backend is running"
+    },
+    {
+      "test": "Root Endpoint",
+      "details": ""
+    }
+  ],
+  "failed": [
+    {
+      "test": "Database Connection",
+      "error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n",
+      "details": ""
+    },
+    {
+      "test": "Database Connection",
+      "error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n",
+      "details": ""
+    },
+    {
+      "test": "Database Connection",
+      "error": "connection to server at \"localhost\" (::1), port 5432 failed: FATAL:  password authentication failed for user \"postgres\"\n",
+      "details": ""
+    }
+  ],
+  "warnings": [
+    {
+      "test": "API GET /model/health",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /model/versions",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots?page=1&page_size=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /jackpots/templates?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/freshness",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /data/batches?limit=10",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /dashboard/summary",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    },
+    {
+      "test": "API GET /sure-bet/saved-lists",
+      "message": "Endpoint exists but returned 404 (may be expected)"
+    }
+  ]
+}

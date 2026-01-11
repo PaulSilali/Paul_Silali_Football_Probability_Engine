@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-01-11T07:48:33.777961",
+  "summary": {
+    "passed": 15,
+    "failed": 16,
+    "warnings": 4
+  },
+  "results": {
+    "passed": [
+      "Dashboard: GET /data/freshness",
+      "JackpotInput: GET /jackpots/templates",
+      "JackpotInput: GET /teams/all",
+      "ProbabilityOutput: GET /probabilities/{jackpot_id}/saved-results",
+      "JackpotValidation: GET /probabilities/saved-results/all",
+      "SureBet: GET /sure-bet/saved-lists",
+      "DataIngestion: GET /data/batches",
+      "DataIngestion: GET /data/league-stats",
+      "MLTraining: POST /model/train",
+      "MLTraining: GET /model/training-history",
+      "MLTraining: GET /model/versions",
+      "ModelHealth: GET /model/versions",
+      "FeatureStore: GET /feature-store/stats",
+      "Backtesting: GET /probabilities/saved-results/all",
+      "Backtesting: GET /probabilities/validation/export-status"
+    ],
+    "failed": [
+      "Dashboard: GET /dashboard/summary - Status 500: {\"detail\":\"(psycopg.errors.SyntaxError) syntax error at or near \\\"/\\\"\\nLINE 4: ... sum(validation_re",
+      "Dashboard: GET /model/health - Status 500: {\"detail\":\"can't subtract offset-naive and offset-aware datetimes\"}",
+      "JackpotInput: POST /jackpots - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"fixtures\"],\"msg\":\"Field required\",\"input\":{}}]}",
+      "ProbabilityOutput: POST /probabilities/{jackpot_id}/save-result - Status 400: {\"detail\":\"Name is required\"}",
+      "TicketConstruction: POST /tickets/generate - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"jackpot_id\"],\"msg\":\"Field required\",\"input\":{}}]}",
+      "TicketConstruction: POST /tickets/save - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"jackpot_id\"],\"msg\":\"Field required\",\"input\":{}},{\"type\":",
+      "SureBet: POST /sure-bet/validate - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"games\"],\"msg\":\"Field required\",\"input\":{}}]}",
+      "SureBet: POST /sure-bet/analyze - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"games\"],\"msg\":\"Field required\",\"input\":{}}]}",
+      "SureBet: POST /sure-bet/save-list - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"name\"],\"msg\":\"Field required\",\"input\":{}},{\"type\":\"missi",
+      "SureBet: POST /sure-bet/import-pdf - Status 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"file\"],\"msg\":\"Field required\",\"input\":null}]}",
+      "DataIngestion: POST /data/batch-download - Status 500: {\"detail\":\"400: leagues array is required\"}",
+      "ModelHealth: GET /model/health - Status 500: {\"detail\":\"can't subtract offset-naive and offset-aware datetimes\"}",
+      "FeatureStore: GET /feature-store/teams - HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)",
+      "DrawIngestion: POST /draw-ingestion/league-priors - HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)",
+      "DrawIngestion: GET /draw-ingestion/league-priors/summary - HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)",
+      "DrawIngestion: POST /draw-ingestion/h2h/batch - HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)"
+    ],
+    "warnings": [
+      "ProbabilityOutput: GET /probabilities/{jackpot_id}/probabilities - Not found (may be expected)",
+      "TicketConstruction: GET /probabilities/{jackpot_id}/probabilities - Not found (may be expected)",
+      "JackpotValidation: GET /probabilities/{jackpot_id}/probabilities - Not found (may be expected)",
+      "JackpotValidation: PUT /probabilities/saved-results/{id}/actual-results - Not found (may be expected)"
+    ]
+  }
+}

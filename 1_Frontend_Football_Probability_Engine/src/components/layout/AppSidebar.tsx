@@ -17,7 +17,8 @@ import {
   ChevronDown,
   Ticket,
   History,
-  FileText
+  FileText,
+  Info
 } from 'lucide-react';
 import { NavLink } from '@/components/NavLink';
 import { useAuth } from '@/contexts/AuthContext';
@@ -131,6 +132,12 @@ const navigationItems = [
     description: 'Validation metrics',
   },
   {
+    title: 'Calibration Management',
+    url: '/calibration-management',
+    icon: Settings,
+    description: 'Fit and manage calibration versions',
+  },
+  {
     title: 'Explainability',
     url: '/explainability',
     icon: Lightbulb,
@@ -147,6 +154,12 @@ const navigationItems = [
     url: '/responsible-gambling',
     icon: Shield,
     description: 'Limits & resources',
+  },
+  {
+    title: 'About',
+    url: '/about',
+    icon: Info,
+    description: 'Decision Intelligence system',
   },
   {
     title: 'System',

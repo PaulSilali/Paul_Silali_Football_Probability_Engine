@@ -1,0 +1,214 @@
+{
+  "timestamp": "2026-01-11T12:01:06.237972",
+  "fixtures_count": 3,
+  "actual_results_count": 2,
+  "analysis": {
+    "baseline": {
+      "label": "Baseline (No DI)",
+      "count": 30,
+      "mean_hits": 0.7,
+      "std_hits": 0.7022132498578064,
+      "pct_5_plus": 0.0,
+      "pct_6_plus": 0.0,
+      "min_hits": 0,
+      "max_hits": 2,
+      "total_picks_per_ticket": 3
+    },
+    "di_accepted": {
+      "label": "Decision Intelligence (Accepted)",
+      "count": 20,
+      "mean_hits": 0.85,
+      "std_hits": 0.5871429486123998,
+      "pct_5_plus": 0.0,
+      "pct_6_plus": 0.0,
+      "min_hits": 0,
+      "max_hits": 2,
+      "total_picks_per_ticket": 3
+    },
+    "di_rejected": {
+      "label": "Decision Intelligence (Rejected)",
+      "count": 10,
+      "mean_hits": 0.5,
+      "std_hits": 0.7071067811865476,
+      "pct_5_plus": 0.0,
+      "pct_6_plus": 0.0,
+      "min_hits": 0,
+      "max_hits": 2,
+      "total_picks_per_ticket": 3
+    },
+    "improvement": {
+      "mean_hits_lift": 0.15000000000000002,
+      "pct_5_plus_lift": 0.0,
+      "relative_improvement": 21.428571428571434
+    },
+    "acceptance_rate": 66.66666666666666,
+    "summary": {
+      "total_tickets_baseline": 30,
+      "total_tickets_di": 30,
+      "di_accepted_count": 20,
+      "di_rejected_count": 10
+    }
+  },
+  "raw_results": [
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-0",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-1",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 2,
+      "total": 3,
+      "hit_rate": 0.6666666666666666,
+      "ticket_id": "ticket-baseline-2",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-3",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 2,
+      "total": 3,
+      "hit_rate": 0.6666666666666666,
+      "ticket_id": "ticket-baseline-4",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-5",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-6",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-7",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-8",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-9",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-10",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-11",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-12",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-13",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-14",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-15",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-16",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 1,
+      "total": 3,
+      "hit_rate": 0.3333333333333333,
+      "ticket_id": "ticket-baseline-17",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-18",
+      "mode": "baseline",
+      "accepted": true
+    },
+    {
+      "correct": 0,
+      "total": 3,
+      "hit_rate": 0.0,
+      "ticket_id": "ticket-baseline-19",
+      "mode": "baseline",
+      "accepted": true
+    }
+  ]
+}

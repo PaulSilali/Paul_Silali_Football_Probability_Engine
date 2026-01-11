@@ -222,6 +222,12 @@ class ApiClient {
     }
   }
 
+  async deleteSavedResult(resultId: number): Promise<ApiResponse<any>> {
+    return this.request<ApiResponse<any>>(`/probabilities/saved-results/${resultId}`, {
+      method: 'DELETE',
+    });
+  }
+
   async getImportedJackpots(): Promise<ApiResponse<{
     jackpots: Array<{
       id: string;
@@ -310,6 +316,58 @@ class ApiClient {
     
     const query = queryParams.toString();
     return this.request(`/calibration${query ? `?${query}` : ''}`);
+  }
+
+  // Versioned Calibration Jobs endpoints
+  async fitCalibration(params: {
+    model_version: string;
+    league?: string;
+    start_date?: string;
+    end_date?: string;
+    min_samples?: number;
+  }): Promise<ApiResponse<{
+    calibration_ids: string[];
+    model_version: string;
+    league: string | null;
+  }>> {
+    const queryParams = new URLSearchParams();
+    queryParams.set('model_version', params.model_version);
+    if (params.league) queryParams.set('league', params.league);
+    if (params.start_date) queryParams.set('start_date', params.start_date);
+    if (params.end_date) queryParams.set('end_date', params.end_date);
+    if (params.min_samples) queryParams.set('min_samples', params.min_samples.toString());
+    
+    return this.request(`/calibration/fit?${queryParams.toString()}`, {
+      method: 'POST',
+    });
+  }
+
+  async activateCalibration(calibrationId: string): Promise<ApiResponse<{
+    calibration_id: string;
+  }>> {
+    return this.request(`/calibration/activate/${calibrationId}`, {
+      method: 'POST',
+    });
+  }
+
+  async getActiveCalibrations(params: {
+    model_version: string;
+    league?: string;
+  }): Promise<ApiResponse<{
+    model_version: string;
+    league: string | null;
+    calibrations: Record<string, {
+      calibration_id: string;
+      samples_used: number;
+      created_at: string;
+      valid_from: string;
+    }>;
+  }>> {
+    const queryParams = new URLSearchParams();
+    queryParams.set('model_version', params.model_version);
+    if (params.league) queryParams.set('league', params.league);
+    
+    return this.request(`/calibration/active?${queryParams.toString()}`);
   }
 
   // Explainability endpoints

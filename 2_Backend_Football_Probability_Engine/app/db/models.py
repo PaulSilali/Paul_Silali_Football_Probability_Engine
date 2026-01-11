@@ -8,6 +8,8 @@ from sqlalchemy import (
     ForeignKey, Enum, JSON, Boolean, Text, ARRAY,
     UniqueConstraint, CheckConstraint, Index
 )
+from sqlalchemy.dialects.postgresql import UUID
+import uuid
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from datetime import datetime
@@ -999,5 +1001,153 @@ class MatchXGHistorical(Base):
         Index('idx_match_xg_historical_match', 'match_id'),
         Index('idx_match_xg_historical_total', 'xg_total'),
         Index('idx_match_xg_historical_draw_index', 'xg_draw_index'),
+    )
+
+
+# ============================================================================
+# DECISION INTELLIGENCE TABLES
+# ============================================================================
+
+class PredictionSnapshot(Base):
+    """Snapshot of model beliefs at decision time for auditability"""
+    __tablename__ = "prediction_snapshot"
+    
+    snapshot_id = Column(Integer, primary_key=True)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False)
+    model_version = Column(String, nullable=False)
+    prob_home = Column(Float, nullable=False)
+    prob_draw = Column(Float, nullable=False)
+    prob_away = Column(Float, nullable=False)
+    xg_home = Column(Float)
+    xg_away = Column(Float)
+    xg_confidence = Column(Float)
+    dc_applied = Column(Boolean, default=False)
+    league = Column(String)
+    created_at = Column(DateTime, server_default=func.now())
+    
+    fixture = relationship("JackpotFixture")
+    
+    __table_args__ = (
+        CheckConstraint('abs((prob_home + prob_draw + prob_away) - 1.0) < 0.001', name='chk_prob_sum_snapshot'),
+        Index('idx_prediction_snapshot_fixture', 'fixture_id'),
+        Index('idx_prediction_snapshot_model', 'model_version'),
+        Index('idx_prediction_snapshot_created', 'created_at'),
+    )
+
+
+class Ticket(Base):
+    """Ticket as first-class object with decision intelligence metadata"""
+    __tablename__ = "ticket"
+    
+    ticket_id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    jackpot_id = Column(Integer, ForeignKey("jackpots.id", ondelete="SET NULL"))
+    created_at = Column(DateTime, server_default=func.now(), nullable=False)
+    ticket_type = Column(String, nullable=False, default='standard')
+    archetype = Column(String)  # FAVORITE_LOCK, BALANCED, DRAW_SELECTIVE, AWAY_EDGE
+    accepted = Column(Boolean, nullable=False, default=False)
+    ev_score = Column(Float)  # Unified Decision Score (UDS)
+    contradictions = Column(Integer, nullable=False, default=0)
+    max_contradictions_allowed = Column(Integer, nullable=False, default=1)
+    ev_threshold_used = Column(Float)
+    decision_version = Column(String, nullable=False, default='UDS_v1')  # Version of decision scoring algorithm
+    notes = Column(Text)
+    created_by_user_id = Column(String)
+    
+    jackpot = relationship("Jackpot")
+    picks = relationship("TicketPick", back_populates="ticket", cascade="all, delete-orphan")
+    outcome = relationship("TicketOutcome", back_populates="ticket", uselist=False, cascade="all, delete-orphan")
+    
+    __table_args__ = (
+        CheckConstraint('contradictions <= max_contradictions_allowed OR NOT accepted', name='chk_contradictions'),
+        Index('idx_ticket_jackpot', 'jackpot_id'),
+        Index('idx_ticket_created', 'created_at'),
+        Index('idx_ticket_accepted', 'accepted'),
+        Index('idx_ticket_ev_score', 'ev_score'),
+    )
+
+
+class TicketPick(Base):
+    """Pick-level reasoning and EV scores for each match in a ticket"""
+    __tablename__ = "ticket_pick"
+    
+    ticket_id = Column(UUID(as_uuid=True), ForeignKey("ticket.ticket_id", ondelete="CASCADE"), nullable=False, primary_key=True)
+    fixture_id = Column(Integer, ForeignKey("jackpot_fixtures.id", ondelete="CASCADE"), nullable=False, primary_key=True)
+    pick = Column(String(1), nullable=False)  # '1', 'X', '2'
+    market_odds = Column(Float, nullable=False)
+    model_prob = Column(Float, nullable=False)
+    ev_score = Column(Float)  # Pick Decision Value (PDV)
+    xg_diff = Column(Float)
+    confidence = Column(Float)
+    structural_penalty = Column(Float, default=0)
+    league_weight = Column(Float, default=1.0)
+    is_contradiction = Column(Boolean, nullable=False, default=False)
+    is_hard_contradiction = Column(Boolean, nullable=False, default=False)
+    created_at = Column(DateTime, server_default=func.now(), nullable=False)
+    
+    ticket = relationship("Ticket", back_populates="picks")
+    fixture = relationship("JackpotFixture")
+    
+    __table_args__ = (
+        CheckConstraint("pick IN ('1', 'X', '2')", name='chk_pick_value'),
+        Index('idx_ticket_pick_ticket', 'ticket_id'),
+        Index('idx_ticket_pick_fixture', 'fixture_id'),
+        Index('idx_ticket_pick_contradiction', 'is_hard_contradiction'),
+        Index('idx_ticket_pick_ev_score', 'ev_score'),
+    )
+
+
+class TicketOutcome(Base):
+    """Outcome closure for threshold learning and performance tracking"""
+    __tablename__ = "ticket_outcome"
+    
+    ticket_id = Column(UUID(as_uuid=True), ForeignKey("ticket.ticket_id", ondelete="CASCADE"), primary_key=True)
+    correct_picks = Column(Integer, nullable=False, default=0)
+    total_picks = Column(Integer, nullable=False)
+    hit_rate = Column(Float, nullable=False)
+    evaluated_at = Column(DateTime, server_default=func.now(), nullable=False)
+    actual_results = Column(JSON)  # JSON mapping fixture_id to result
+    
+    ticket = relationship("Ticket", back_populates="outcome")
+    
+    __table_args__ = (
+        CheckConstraint('hit_rate = correct_picks::DOUBLE PRECISION / total_picks', name='chk_hit_rate'),
+        Index('idx_ticket_outcome_hit_rate', 'hit_rate'),
+        Index('idx_ticket_outcome_evaluated', 'evaluated_at'),
+    )
+
+
+class DecisionThreshold(Base):
+    """Learned thresholds for decision intelligence (auto-tuned from historical data)"""
+    __tablename__ = "decision_thresholds"
+    
+    id = Column(Integer, primary_key=True)
+    threshold_type = Column(String, unique=True, nullable=False)
+    value = Column(Float, nullable=False)
+    learned_from_samples = Column(Integer, default=0)
+    learned_at = Column(DateTime, server_default=func.now(), nullable=False)
+    is_active = Column(Boolean, default=True)
+    notes = Column(Text)
+    
+    __table_args__ = (
+        Index('idx_decision_thresholds_type', 'threshold_type'),
+        Index('idx_decision_thresholds_active', 'is_active'),
+    )
+
+
+class LeagueReliabilityWeight(Base):
+    """League-specific reliability weights for UDS calculation"""
+    __tablename__ = "league_reliability_weights"
+    
+    league_code = Column(String(10), ForeignKey("leagues.code", ondelete="CASCADE"), primary_key=True)
+    weight = Column(Float, nullable=False, default=1.0)
+    learned_from_samples = Column(Integer, default=0)
+    learned_at = Column(DateTime, server_default=func.now(), nullable=False)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), nullable=False)
+    
+    league = relationship("League")
+    
+    __table_args__ = (
+        Index('idx_league_weights_code', 'league_code'),
+        Index('idx_league_weights_weight', 'weight'),
     )
 

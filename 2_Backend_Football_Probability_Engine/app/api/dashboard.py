@@ -9,7 +9,7 @@ from app.db.session import get_db
 from app.db.models import (
     Model, ModelStatus, TrainingRun, Match, League, 
     DataSource, ValidationResult, JackpotFixture, Prediction,
-    MatchResult, Jackpot
+    MatchResult, Jackpot, Ticket, TicketOutcome, DecisionThreshold
 )
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional
@@ -234,7 +234,7 @@ async def get_dashboard_summary(
             ).having(
                 func.sum(ValidationResult.total_matches) > 0
             ).order_by(
-                func.sum(ValidationResult.correct_predictions).desc() / func.sum(ValidationResult.total_matches).desc()
+                (func.sum(ValidationResult.correct_predictions) / func.sum(ValidationResult.total_matches)).desc()
             ).limit(10).all()
             
             for league_name, league_code, total, correct in validation_with_leagues:
@@ -256,6 +256,60 @@ async def get_dashboard_summary(
         # 9. Get season count (distinct seasons)
         season_count = db.query(func.count(func.distinct(Match.season))).scalar() or 0
         
+        # 10. Get Decision Intelligence metrics
+        decision_intelligence = {
+            "totalTickets": 0,
+            "acceptedTickets": 0,
+            "rejectedTickets": 0,
+            "avgEvScore": None,
+            "avgHitRate": None,
+            "currentEvThreshold": 0.12,
+            "maxContradictions": 1
+        }
+        
+        try:
+            # Get ticket counts
+            total_tickets = db.query(func.count(Ticket.ticket_id)).scalar() or 0
+            accepted_tickets = db.query(func.count(Ticket.ticket_id)).filter(
+                Ticket.accepted == True
+            ).scalar() or 0
+            
+            decision_intelligence["totalTickets"] = total_tickets
+            decision_intelligence["acceptedTickets"] = accepted_tickets
+            decision_intelligence["rejectedTickets"] = total_tickets - accepted_tickets
+            
+            # Get average EV score for accepted tickets
+            avg_ev_result = db.query(func.avg(Ticket.ev_score)).filter(
+                Ticket.accepted == True,
+                Ticket.ev_score.isnot(None)
+            ).scalar()
+            if avg_ev_result:
+                decision_intelligence["avgEvScore"] = float(avg_ev_result)
+            
+            # Get average hit rate from outcomes
+            avg_hit_rate_result = db.query(func.avg(TicketOutcome.hit_rate)).filter(
+                TicketOutcome.hit_rate.isnot(None)
+            ).scalar()
+            if avg_hit_rate_result:
+                decision_intelligence["avgHitRate"] = float(avg_hit_rate_result) * 100  # Convert to percentage
+            
+            # Get current thresholds
+            ev_threshold = db.query(DecisionThreshold).filter(
+                DecisionThreshold.threshold_type == "ev_threshold",
+                DecisionThreshold.is_active == True
+            ).first()
+            if ev_threshold:
+                decision_intelligence["currentEvThreshold"] = float(ev_threshold.value)
+            
+            max_contradictions = db.query(DecisionThreshold).filter(
+                DecisionThreshold.threshold_type == "max_contradictions",
+                DecisionThreshold.is_active == True
+            ).first()
+            if max_contradictions:
+                decision_intelligence["maxContradictions"] = int(max_contradictions.value)
+        except Exception as e:
+            logger.warning(f"Error fetching decision intelligence metrics: {e}")
+        
         return {
             "success": True,
             "data": {
@@ -274,7 +328,8 @@ async def get_dashboard_summary(
                 "dataFreshness": data_freshness,
                 "calibrationTrend": calibration_trend if calibration_trend else [],
                 "outcomeDistribution": outcome_distribution if outcome_distribution else [],
-                "leaguePerformance": league_performance if league_performance else []
+                "leaguePerformance": league_performance if league_performance else [],
+                "decisionIntelligence": decision_intelligence
             }
         }
     

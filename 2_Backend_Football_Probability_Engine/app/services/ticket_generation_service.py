@@ -100,7 +100,13 @@ class TicketGenerationService:
             else:
                 late_shocks[i] = None
         
-        # Step 3: Generate tickets with role constraints
+        # Step 2.5: Analyze slate profile and select archetype
+        from app.services.ticket_archetypes import analyze_slate_profile, select_archetype, enforce_archetype
+        slate_profile = analyze_slate_profile(fixtures)
+        selected_archetype = select_archetype(slate_profile)
+        logger.info(f"Selected ticket archetype: {selected_archetype} (profile: {slate_profile})")
+        
+        # Step 3: Generate tickets with role constraints and archetype enforcement
         all_tickets = []
         for set_key in set_keys:
             # Get role constraints
@@ -119,8 +125,14 @@ class TicketGenerationService:
                             "away": prob.get("awayWinProbability", 33) / 100.0
                         }
             
-            # Generate tickets for this set
-            for ticket_num in range(n_tickets):
+            # Generate tickets for this set with archetype enforcement
+            max_attempts = n_tickets * 3  # Allow retries for archetype enforcement
+            attempts = 0
+            tickets_generated = 0
+            
+            while tickets_generated < n_tickets and attempts < max_attempts:
+                attempts += 1
+                
                 picks = self._generate_ticket(
                     fixtures=set_fixtures,
                     probs_dict=self._convert_probs_to_dict(set_fixtures),
@@ -131,22 +143,91 @@ class TicketGenerationService:
                     league_code=league_code
                 )
                 
-                ticket = {
-                    "id": f"ticket-{set_key}-{len(all_tickets)}",
-                    "setKey": set_key,
-                    "picks": picks,
-                    "drawCount": picks.count("X")
-                }
-                all_tickets.append(ticket)
+                # Prepare ticket matches for archetype enforcement and evaluation
+                ticket_matches = []
+                for i, pick in enumerate(picks):
+                    if i < len(set_fixtures):
+                        fixture = set_fixtures[i]
+                        ticket_matches.append({
+                            "pick": pick,
+                            "fixture_id": fixture.get("id") or (i + 1),
+                            "model_prob": fixture.get("probabilities", {}).get(
+                                "home" if pick == "1" else "draw" if pick == "X" else "away", 0.33
+                            ),
+                            "market_odds": fixture.get("odds", {}),
+                            "probabilities": fixture.get("probabilities", {}),
+                            "xg_home": fixture.get("xg_home"),
+                            "xg_away": fixture.get("xg_away"),
+                            "dc_applied": fixture.get("dc_applied", False),
+                            "league_code": league_code,
+                            "market_prob_home": None,  # Will be calculated if needed
+                            "market_prob": None  # Will be calculated if needed
+                        })
+                
+                # Enforce archetype constraints (BEFORE Decision Intelligence)
+                if not enforce_archetype(ticket_matches, selected_archetype):
+                    logger.debug(f"Ticket rejected by archetype {selected_archetype} constraints, attempt {attempts}")
+                    continue
+                
+                # Evaluate with decision intelligence
+                try:
+                    from app.decision_intelligence.ticket_evaluator import evaluate_ticket
+                    evaluation = evaluate_ticket(
+                        ticket_matches=ticket_matches,
+                        db=self.db
+                    )
+                    
+                    # Only add if accepted by Decision Intelligence
+                    if not evaluation.get("accepted", False):
+                        logger.debug(f"Ticket rejected by Decision Intelligence: {evaluation.get('reason', 'Unknown')}")
+                        continue
+                    
+                    ticket = {
+                        "id": f"ticket-{set_key}-{len(all_tickets)}",
+                        "setKey": set_key,
+                        "picks": picks,
+                        "drawCount": picks.count("X"),
+                        "archetype": selected_archetype,
+                        "decision_version": "UDS_v1",  # Version of decision scoring algorithm
+                        "decisionIntelligence": {
+                            "accepted": evaluation.get("accepted", True),
+                            "evScore": evaluation.get("ev_score"),
+                            "contradictions": evaluation.get("contradictions", 0),
+                            "reason": evaluation.get("reason", "Not evaluated")
+                        }
+                    }
+                    
+                    # Add ev_score to ticket for portfolio scoring
+                    ticket["ev_score"] = evaluation.get("ev_score")
+                    
+                    all_tickets.append(ticket)
+                    tickets_generated += 1
+                    
+                except Exception as e:
+                    logger.warning(f"Decision intelligence evaluation failed: {e}, skipping ticket")
+                    continue
+            
+            if tickets_generated < n_tickets:
+                logger.warning(f"Only generated {tickets_generated}/{n_tickets} tickets for set {set_key} (archetype: {selected_archetype})")
         
-        # Step 4: Calculate coverage diagnostics
+        # Step 4: Portfolio-level optimization (if multiple tickets requested)
+        if n_tickets > 1 and len(all_tickets) > n_tickets:
+            from app.services.portfolio_scoring import select_optimal_bundle, calculate_portfolio_diagnostics
+            logger.info(f"Selecting optimal bundle from {len(all_tickets)} accepted tickets")
+            all_tickets = select_optimal_bundle(all_tickets, n_tickets)
+            portfolio_diagnostics = calculate_portfolio_diagnostics(all_tickets)
+            logger.info(f"Portfolio diagnostics: {portfolio_diagnostics}")
+        else:
+            portfolio_diagnostics = None
+        
+        # Step 5: Calculate coverage diagnostics
         from app.services.coverage import coverage_diagnostics
         diagnostics = coverage_diagnostics([t["picks"] for t in all_tickets])
         
-        # Step 5: Generate portfolio diagnostics (optional, for auditor)
+        # Step 6: Generate portfolio diagnostics (optional, for auditor)
         try:
             from app.services.auditor import bundle_diagnostics
-            portfolio_diagnostics = bundle_diagnostics(
+            auditor_diagnostics = bundle_diagnostics(
                 {"tickets": all_tickets},
                 fixtures,
                 corr_matrix
