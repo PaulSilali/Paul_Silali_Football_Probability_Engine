@@ -104,21 +104,44 @@ def load_calibration_dataset(
         FROM saved_probability_results
         WHERE actual_results IS NOT NULL
           AND jsonb_typeof(actual_results::jsonb) = 'object'
+          AND (actual_results::jsonb) != '{}'::jsonb
         """
         saved_count = pd.read_sql(text(check_saved_query), engine).iloc[0]['count']
         
-        if saved_count > 0:
+        # Check if validation_results has exported data
+        check_validation_query = """
+        SELECT COUNT(*) as count
+        FROM validation_results
+        WHERE exported_to_training = TRUE
+        """
+        validation_count = pd.read_sql(text(check_validation_query), engine).iloc[0]['count']
+        
+        if saved_count > 0 and validation_count == 0:
             raise RuntimeError(
                 f"Insufficient calibration samples: {len(df)} < {min_samples}. "
-                f"Found {saved_count} saved results with actual outcomes. "
-                f"Please export validation results to training first using the 'Export Validation Data to Training' button on the Validation page. "
-                f"This will populate the calibration dataset with your validated predictions."
+                f"Found {saved_count} saved result(s) with actual outcomes, but they haven't been exported to training yet. "
+                f"\n\nTo fix this:\n"
+                f"1. Go to the 'Validation' page in the UI\n"
+                f"2. Click 'Export Validation Data to Training' for your validated jackpot(s)\n"
+                f"3. This will populate the calibration dataset with your validated predictions\n"
+                f"4. Then try fitting calibration again\n"
+                f"\nNote: You need at least {min_samples} matches with actual results for calibration."
+            )
+        elif saved_count == 0:
+            raise RuntimeError(
+                f"Insufficient calibration samples: {len(df)} < {min_samples}. "
+                f"No saved results with actual outcomes found. "
+                f"\n\nTo fix this:\n"
+                f"1. Import jackpot results with actual outcomes (CSV with results)\n"
+                f"2. Compute probabilities for those jackpots\n"
+                f"3. Export validation results to training\n"
+                f"4. Then try fitting calibration again"
             )
         else:
             raise RuntimeError(
                 f"Insufficient calibration samples: {len(df)} < {min_samples}. "
-                f"Need at least {min_samples} samples with actual results. "
-                f"Please: 1) Import jackpot results with actual outcomes, 2) Compute probabilities, 3) Export validation results to training."
+                f"Found {saved_count} saved result(s) and {validation_count} exported validation(s), but still need {min_samples} samples. "
+                f"Please export more validation results to training or reduce min_samples (currently {min_samples})."
             )
     
     logger.info(f"Loaded {len(df)} calibration samples")
@@ -166,7 +189,7 @@ def _load_from_saved_results(
     JOIN jackpots j ON spr.jackpot_id = j.jackpot_id
     WHERE spr.actual_results IS NOT NULL
       AND jsonb_typeof(spr.actual_results::jsonb) = 'object'
-      AND jsonb_object_keys(spr.actual_results::jsonb) IS NOT NULL
+      AND (spr.actual_results::jsonb) != '{}'::jsonb
     """
     
     params = {}
