@@ -169,10 +169,20 @@ def hybrid_import_league_priors(
     }
     
     # Step 1: Try to import from CSV files
-    logger.info("Step 1: Importing from CSV files...")
+    logger.info("=" * 80)
+    logger.info("📥 DRAW STRUCTURE INGESTION - Step 1: Importing from CSV files...")
+    logger.info(f"Searching for CSV files (league_codes={league_codes}, seasons={seasons})...")
     csv_files = find_csv_files('league_priors')
     
+    if csv_files:
+        logger.info(f"✓ Found {len(csv_files)} CSV files to import")
+    else:
+        logger.info("⚠ No CSV files found - will calculate from matches table")
+    
+    csv_processed = 0
     for csv_file in csv_files:
+        csv_processed += 1
+        logger.info(f"[{csv_processed}/{len(csv_files)}] Processing CSV: {csv_file.name}...")
         try:
             # Extract league_code and season from filename
             # Format: {league_code}_{season}_draw_priors.csv
@@ -200,6 +210,7 @@ def hybrid_import_league_priors(
                         "season": season,
                         "status": "success"
                     })
+                    logger.info(f"  ✓ Successfully imported {league_code} {season} from CSV")
                 else:
                     results["csv_failed"] += 1
                     results["details"].append({
@@ -209,15 +220,19 @@ def hybrid_import_league_priors(
                         "status": "failed",
                         "error": result.get("error")
                     })
+                    logger.warning(f"  ✗ Failed to import {league_code} {season} from CSV: {result.get('error', 'Unknown error')}")
         except Exception as e:
-            logger.error(f"Error importing CSV {csv_file}: {e}", exc_info=True)
+            logger.error(f"  ✗ Error importing CSV {csv_file.name}: {e}", exc_info=False)
             results["csv_failed"] += 1
     
     # Step 2: Check what's missing and calculate from matches
-    logger.info("Step 2: Calculating missing data from matches table...")
+    logger.info("=" * 80)
+    logger.info("📊 DRAW STRUCTURE INGESTION - Step 2: Calculating missing data from matches table...")
+    logger.info(f"Checking for missing league/season combinations...")
     missing = check_missing_data(db, 'league_priors', league_codes, seasons)
     
     if missing:
+        logger.info(f"✓ Found {len(missing)} missing league/season combinations to calculate")
         # Use batch_ingest_league_priors to calculate missing
         # Filter to only missing league/season combinations
         missing_league_codes = list(set(m["league_code"] for m in missing))

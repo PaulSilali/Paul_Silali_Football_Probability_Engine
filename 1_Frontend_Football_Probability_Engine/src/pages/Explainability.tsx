@@ -1,51 +1,13 @@
-import { Info, AlertCircle } from 'lucide-react';
+import { Info, AlertCircle, Loader2 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLayout } from '@/components/layouts/PageLayout';
 import { ModernCard } from '@/components/ui/modern-card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useToast } from '@/hooks/use-toast';
+import apiClient from '@/services/api';
 import type { FeatureContribution } from '@/types';
-
-// Mock data
-const fixtureContributions: (FeatureContribution & { homeTeam: string; awayTeam: string })[] = [
-  {
-    fixtureId: '1',
-    homeTeam: 'Arsenal',
-    awayTeam: 'Chelsea',
-    contributions: [
-      { feature: 'Team Strength Differential', value: 8.5, description: 'Arsenal rated higher by ELO and form metrics' },
-      { feature: 'Home Advantage', value: 4.2, description: 'Standard home advantage adjustment' },
-      { feature: 'Market Odds Correction', value: -2.1, description: 'Model slightly above market consensus' },
-      { feature: 'Draw Inflation', value: 0.0, description: 'No adjustment applied' },
-      { feature: 'Recent Form', value: 3.8, description: 'Arsenal in better recent form' },
-    ],
-  },
-  {
-    fixtureId: '2',
-    homeTeam: 'Liverpool',
-    awayTeam: 'Man City',
-    contributions: [
-      { feature: 'Team Strength Differential', value: -5.2, description: 'Man City rated higher overall' },
-      { feature: 'Home Advantage', value: 4.8, description: 'Liverpool strong at Anfield' },
-      { feature: 'Market Odds Correction', value: 1.4, description: 'Model slightly below market consensus' },
-      { feature: 'Draw Inflation', value: 2.3, description: 'Close match adjustment' },
-      { feature: 'Recent Form', value: -1.8, description: 'Man City in better recent form' },
-    ],
-  },
-  {
-    fixtureId: '3',
-    homeTeam: 'Man United',
-    awayTeam: 'Tottenham',
-    contributions: [
-      { feature: 'Team Strength Differential', value: 3.2, description: 'Man United rated slightly higher' },
-      { feature: 'Home Advantage', value: 3.9, description: 'Standard home advantage adjustment' },
-      { feature: 'Market Odds Correction', value: -0.8, description: 'Model close to market consensus' },
-      { feature: 'Draw Inflation', value: 1.5, description: 'Moderate draw inflation' },
-      { feature: 'Recent Form', value: 1.2, description: 'Slightly better recent form for home team' },
-    ],
-  },
-];
 
 function ContributionBar({ value, maxValue }: { value: number; maxValue: number }) {
   const percentage = Math.abs(value) / maxValue * 100;
@@ -84,10 +46,83 @@ function ContributionBar({ value, maxValue }: { value: number; maxValue: number 
 }
 
 export default function Explainability() {
-  const [selectedFixture, setSelectedFixture] = useState(fixtureContributions[0].fixtureId);
-  
-  const currentFixture = fixtureContributions.find(f => f.fixtureId === selectedFixture) || fixtureContributions[0];
-  const maxContribution = Math.max(...currentFixture.contributions.map(c => Math.abs(c.value)));
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
+  const [jackpotId, setJackpotId] = useState<string>('');
+  const [availableJackpots, setAvailableJackpots] = useState<Array<{ id: string; label: string }>>([]);
+  const [fixtureContributions, setFixtureContributions] = useState<Array<FeatureContribution & { homeTeam: string; awayTeam: string }>>([]);
+  const [selectedFixture, setSelectedFixture] = useState<string>('');
+
+  // Load available jackpots
+  useEffect(() => {
+    const loadJackpots = async () => {
+      try {
+        const response = await apiClient.getAllSavedResults(100);
+        if (response.success && response.data) {
+          const jackpots = response.data.map((result: any) => ({
+            id: result.jackpotId,
+            label: `${result.jackpotId} - ${new Date(result.createdAt).toLocaleDateString()}`
+          }));
+          setAvailableJackpots(jackpots);
+          if (jackpots.length > 0 && !jackpotId) {
+            setJackpotId(jackpots[0].id);
+          }
+        }
+      } catch (error: any) {
+        console.error('Error loading jackpots:', error);
+      }
+    };
+    loadJackpots();
+  }, []);
+
+  // Load feature contributions when jackpot is selected
+  useEffect(() => {
+    if (!jackpotId) return;
+    
+    const loadContributions = async () => {
+      setLoading(true);
+      try {
+        const response = await apiClient.getFeatureContributions(jackpotId);
+        if (response.success && response.data) {
+          const contributions = response.data.map((item: any) => ({
+            fixtureId: item.fixtureId,
+            homeTeam: item.homeTeam,
+            awayTeam: item.awayTeam,
+            contributions: item.contributions.map((c: any) => ({
+              feature: c.feature,
+              value: c.value * 100, // Convert to percentage points
+              description: c.description
+            }))
+          }));
+          setFixtureContributions(contributions);
+          if (contributions.length > 0 && !selectedFixture) {
+            setSelectedFixture(contributions[0].fixtureId);
+          }
+        } else {
+          toast({
+            title: 'No data available',
+            description: 'No feature contributions found for this jackpot. Calculate probabilities first.',
+            variant: 'default'
+          });
+        }
+      } catch (error: any) {
+        toast({
+          title: 'Error',
+          description: error.message || 'Failed to load feature contributions',
+          variant: 'destructive'
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadContributions();
+  }, [jackpotId, toast]);
+
+  const currentFixture = fixtureContributions.find(f => f.fixtureId === selectedFixture);
+  const maxContribution = currentFixture 
+    ? Math.max(...currentFixture.contributions.map(c => Math.abs(c.value)))
+    : 1;
 
   return (
     <PageLayout
@@ -95,18 +130,43 @@ export default function Explainability() {
       description="Feature contributions to probability estimates"
       icon={<Info className="h-6 w-6" />}
     >
-        <Select value={selectedFixture} onValueChange={setSelectedFixture}>
-          <SelectTrigger className="w-[250px]">
-            <SelectValue placeholder="Select fixture" />
-          </SelectTrigger>
-          <SelectContent>
-            {fixtureContributions.map(f => (
-              <SelectItem key={f.fixtureId} value={f.fixtureId}>
-                {f.homeTeam} vs {f.awayTeam}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+      <div className="space-y-4">
+        {/* Jackpot Selection */}
+        <div className="flex items-center gap-4">
+          <Select value={jackpotId} onValueChange={setJackpotId}>
+            <SelectTrigger className="w-[300px]">
+              <SelectValue placeholder="Select jackpot" />
+            </SelectTrigger>
+            <SelectContent>
+              {availableJackpots.map(j => (
+                <SelectItem key={j.id} value={j.id}>
+                  {j.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+          
+          {loading && (
+            <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
+          )}
+        </div>
+
+        {/* Fixture Selection */}
+        {fixtureContributions.length > 0 && (
+          <Select value={selectedFixture} onValueChange={setSelectedFixture}>
+            <SelectTrigger className="w-[300px]">
+              <SelectValue placeholder="Select fixture" />
+            </SelectTrigger>
+            <SelectContent>
+              {fixtureContributions.map(f => (
+                <SelectItem key={f.fixtureId} value={f.fixtureId}>
+                  {f.homeTeam} vs {f.awayTeam}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        )}
+      </div>
 
       <Alert variant="default" className="border-muted bg-muted/30">
         <AlertCircle className="h-4 w-4" />
@@ -118,30 +178,55 @@ export default function Explainability() {
         </AlertDescription>
       </Alert>
 
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-lg">
-            {currentFixture.homeTeam} vs {currentFixture.awayTeam}
-          </CardTitle>
-          <CardDescription>
-            Contribution of each feature to the home win probability estimate
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="space-y-6">
-          {currentFixture.contributions.map((contribution, index) => (
-            <div key={index} className="space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">{contribution.feature}</span>
-                <span className="text-xs text-muted-foreground flex items-center gap-1">
-                  <Info className="h-3 w-3" />
-                  {contribution.description}
-                </span>
-              </div>
-              <ContributionBar value={contribution.value} maxValue={maxContribution} />
+      {loading ? (
+        <Card>
+          <CardContent className="pt-6">
+            <div className="flex items-center justify-center py-12">
+              <Loader2 className="h-8 w-8 animate-spin text-primary" />
+              <p className="ml-3 text-muted-foreground">Loading feature contributions...</p>
             </div>
-          ))}
-        </CardContent>
-      </Card>
+          </CardContent>
+        </Card>
+      ) : currentFixture ? (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-lg">
+              {currentFixture.homeTeam} vs {currentFixture.awayTeam}
+            </CardTitle>
+            <CardDescription>
+              Contribution of each feature to the home win probability estimate
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {currentFixture.contributions.map((contribution, index) => (
+              <div key={index} className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-medium">{contribution.feature}</span>
+                  <span className="text-xs text-muted-foreground flex items-center gap-1">
+                    <Info className="h-3 w-3" />
+                    {contribution.description}
+                  </span>
+                </div>
+                <ContributionBar value={contribution.value} maxValue={maxContribution} />
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      ) : (
+        <Card>
+          <CardContent className="pt-6">
+            <Alert>
+              <AlertCircle className="h-4 w-4" />
+              <AlertTitle>No Data Available</AlertTitle>
+              <AlertDescription>
+                {jackpotId 
+                  ? 'No feature contributions found for this jackpot. Please calculate probabilities first.'
+                  : 'Please select a jackpot to view feature contributions.'}
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        </Card>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Card className="bg-muted/30">

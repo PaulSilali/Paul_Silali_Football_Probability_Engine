@@ -1,0 +1,108 @@
+================================================================================
+DOWNLOAD SESSION LOG
+================================================================================
+Session Folder: 2026-01-13_Seasons_10_Leagues_43
+Download Date: 2026-01-13 21:48:54
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Leagues Attempted: 1
+Successful Downloads (with data): 10
+Failed Downloads (errors): 0
+No Data Available (all 404s): 0
+Total Records Processed: 5,107
+Total Records Inserted: 3
+Total Records Updated: 2,616
+Total Records Skipped: 2,488
+Total Errors: 0
+
+SUCCESSFUL DOWNLOADS
+--------------------------------------------------------------------------------
+✓ E2 - Season: 2526 (Batch #N/A)
+  Records: 291 processed, 3 inserted, 143 updated, 145 skipped
+
+✓ E2 - Season: 2425 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 285 updated, 267 skipped
+
+✓ E2 - Season: 2324 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 282 updated, 270 skipped
+
+✓ E2 - Season: 2223 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 262 updated, 290 skipped
+
+✓ E2 - Season: 2122 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 291 updated, 261 skipped
+
+✓ E2 - Season: 2021 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 273 updated, 279 skipped
+
+✓ E2 - Season: 1920 (Batch #N/A)
+  Records: 400 processed, 0 inserted, 206 updated, 194 skipped
+
+✓ E2 - Season: 1819 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 297 updated, 255 skipped
+
+✓ E2 - Season: 1718 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 286 updated, 266 skipped
+
+✓ E2 - Season: 1617 (Batch #N/A)
+  Records: 552 processed, 0 inserted, 291 updated, 261 skipped
+
+FILE STRUCTURE
+--------------------------------------------------------------------------------
+Base Directory: F:\[ 11 ] Football Probability Engine  [SP Soccer]\2_Backend_Football_Probability_Engine\data\1_data_ingestion\Historical Match_Odds_Data\2026-01-13_Seasons_10_Leagues_43
+
+Files are organized by league code:
+  {session_folder}/{league_code}/{league_code}_{season}.csv
+
+CSV FILES SAVED
+--------------------------------------------------------------------------------
+  ✓ E2_1617.csv
+  ✓ E2_1718.csv
+  ✓ E2_1819.csv
+  ✓ E2_1920.csv
+  ✓ E2_2021.csv
+  ✓ E2_2122.csv
+  ✓ E2_2223.csv
+  ✓ E2_2324.csv
+  ✓ E2_2425.csv
+  ✓ E2_2526.csv
+
+Downloaded Files:
+  E0/ (10 files)
+    - E0_1617.csv
+    - E0_1718.csv
+    - E0_1819.csv
+    - E0_1920.csv
+    - E0_2021.csv
+    - E0_2122.csv
+    - E0_2223.csv
+    - E0_2324.csv
+    - E0_2425.csv
+    - E0_2526.csv
+  E1/ (10 files)
+    - E1_1617.csv
+    - E1_1718.csv
+    - E1_1819.csv
+    - E1_1920.csv
+    - E1_2021.csv
+    - E1_2122.csv
+    - E1_2223.csv
+    - E1_2324.csv
+    - E1_2425.csv
+    - E1_2526.csv
+  E2/ (10 files)
+    - E2_1617.csv
+    - E2_1718.csv
+    - E2_1819.csv
+    - E2_1920.csv
+    - E2_2021.csv
+    - E2_2122.csv
+    - E2_2223.csv
+    - E2_2324.csv
+    - E2_2425.csv
+    - E2_2526.csv
+
+================================================================================
+END OF LOG
+================================================================================

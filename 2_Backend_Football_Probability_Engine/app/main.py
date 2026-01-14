@@ -13,12 +13,59 @@ from app.api import model_health, automated_training, feature_store, draw_ingest
 from app.db.session import engine
 from sqlalchemy import text
 import logging
+from logging.handlers import RotatingFileHandler
+from pathlib import Path
+from datetime import datetime
 
-# Configure logging
-logging.basicConfig(
-    level=getattr(logging, settings.LOG_LEVEL),
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+# Create logs directory if it doesn't exist
+logs_dir = Path(__file__).parent.parent / "logs"
+logs_dir.mkdir(exist_ok=True)
+
+# Configure logging with both console and file handlers
+log_level = getattr(logging, settings.LOG_LEVEL)
+log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+date_format = '%Y-%m-%d %H:%M:%S'
+
+# Create formatter
+formatter = logging.Formatter(log_format, datefmt=date_format)
+
+# Console handler (always enabled)
+console_handler = logging.StreamHandler()
+console_handler.setLevel(log_level)
+console_handler.setFormatter(formatter)
+
+# File handler for all logs (rotating, max 10MB per file, keep 5 backups)
+log_file = logs_dir / f"app_{datetime.now().strftime('%Y%m%d')}.log"
+file_handler = RotatingFileHandler(
+    log_file,
+    maxBytes=10*1024*1024,  # 10MB
+    backupCount=5,
+    encoding='utf-8'
 )
+file_handler.setLevel(log_level)
+file_handler.setFormatter(formatter)
+
+# File handler for errors only (separate file)
+error_log_file = logs_dir / f"errors_{datetime.now().strftime('%Y%m%d')}.log"
+error_file_handler = RotatingFileHandler(
+    error_log_file,
+    maxBytes=10*1024*1024,  # 10MB
+    backupCount=5,
+    encoding='utf-8'
+)
+error_file_handler.setLevel(logging.ERROR)
+error_file_handler.setFormatter(formatter)
+
+# Configure root logger
+root_logger = logging.getLogger()
+root_logger.setLevel(log_level)
+root_logger.addHandler(console_handler)
+root_logger.addHandler(file_handler)
+root_logger.addHandler(error_file_handler)
+
+# Log startup message
+logger = logging.getLogger(__name__)
+logger.info(f"Logging configured - Console: enabled, File: {log_file}, Error log: {error_log_file}")
 
 logger = logging.getLogger(__name__)
 

@@ -2095,6 +2095,8 @@ async def import_all_draw_structural_data(
         
         # 1. League Draw Priors
         try:
+            logger.info("=" * 80)
+            logger.info("📊 Starting League Draw Priors ingestion...")
             if use_hybrid_import:
                 # Use hybrid CSV-first approach
                 from app.services.ingestion.hybrid_import import hybrid_import_league_priors
@@ -2107,7 +2109,11 @@ async def import_all_draw_structural_data(
                     max_years=max_years,
                     save_csv=True
                 )
-                logger.info(f"✓ League Draw Priors (Hybrid): {result.get('csv_imported', 0)} from CSV, {result.get('calculated', 0)} calculated")
+                logger.info(
+                    f"✓ League Draw Priors (Hybrid): "
+                    f"{result.get('csv_imported', 0)} from CSV, "
+                    f"{result.get('calculated', 0)} calculated"
+                )
             else:
                 # Use traditional calculate-from-matches approach
                 from app.services.ingestion.ingest_league_draw_priors import batch_ingest_league_priors
@@ -2119,10 +2125,19 @@ async def import_all_draw_structural_data(
                     max_years=max_years,
                     save_csv=True
                 )
-                logger.info(f"✓ League Draw Priors: {result.get('successful', 0)} successful, {result.get('failed', 0)} failed")
+                logger.info(
+                    f"✓ League Draw Priors: "
+                    f"{result.get('successful', 0)} successful, "
+                    f"{result.get('failed', 0)} failed, "
+                    f"{result.get('skipped', 0)} skipped"
+                )
             results["league_priors"] = result
         except Exception as e:
-            logger.error(f"Error importing league priors: {e}", exc_info=True)
+            error_type = type(e).__name__
+            logger.error(
+                f"✗ Error importing league priors: {error_type} - {str(e)[:200]}",
+                exc_info=False
+            )
             results["league_priors"] = {"success": False, "error": str(e)}
         
         # 2. League Structure

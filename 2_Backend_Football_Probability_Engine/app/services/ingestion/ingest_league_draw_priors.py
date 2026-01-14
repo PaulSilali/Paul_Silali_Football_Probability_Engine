@@ -388,10 +388,19 @@ def batch_ingest_league_priors(
             seasons_to_process = [season]
         
         # Process each league and season combination
+        total_combinations = len(leagues_to_process) * len(seasons_to_process)
+        current_combination = 0
+        
         for league_id, league_code, league_name in leagues_to_process:
             for season_to_process in seasons_to_process:
                 try:
+                    current_combination += 1
                     results["processed"] += 1
+                    
+                    logger.info(
+                        f"[{current_combination}/{total_combinations}] Processing draw priors: "
+                        f"{league_code} ({season_to_process})..."
+                    )
                     
                     # Query matches for this league and season
                     if season_to_process == "ALL":
@@ -529,7 +538,10 @@ def batch_ingest_league_priors(
                         results["successful"] += 1
                         results["details"].append(detail_item)
                         
-                        logger.info(f"✓ {action.capitalize()} prior for {league_code} ({season_to_process}): {draw_rate:.3f} (n={result.total_matches})")
+                        logger.info(
+                            f"✓ [{current_combination}/{total_combinations}] {league_code} ({season_to_process}): "
+                            f"{action.capitalize()} prior - draw_rate={draw_rate:.3f}, n={result.total_matches}"
+                        )
                     else:
                         results["skipped"] += 1
                         results["details"].append({
@@ -539,12 +551,16 @@ def batch_ingest_league_priors(
                             "success": False,
                             "error": "No matches found"
                         })
-                        logger.warning(f"⚠ Skipped {league_code} ({season_to_process}): No matches found")
+                        logger.warning(
+                            f"⚠ [{current_combination}/{total_combinations}] {league_code} ({season_to_process}): "
+                            f"Skipped - No matches found"
+                        )
                 
                 except Exception as e:
                     db.rollback()
                     results["failed"] += 1
                     error_msg = str(e)
+                    error_type = type(e).__name__
                     results["errors"].append(f"{league_code} ({season_to_process}): {error_msg}")
                     results["details"].append({
                         "league_code": league_code,
@@ -553,7 +569,11 @@ def batch_ingest_league_priors(
                         "success": False,
                         "error": error_msg
                     })
-                    logger.error(f"✗ Failed {league_code} ({season_to_process}): {error_msg}")
+                    logger.error(
+                        f"✗ [{current_combination}/{total_combinations}] {league_code} ({season_to_process}): "
+                        f"Failed - {error_type}: {error_msg[:200]}",
+                        exc_info=False  # Don't print full traceback to reduce noise
+                    )
         
         # Set overall success based on results
         if results["failed"] > 0 and results["successful"] == 0:
@@ -561,7 +581,18 @@ def batch_ingest_league_priors(
         elif results["successful"] > 0:
             results["success"] = True
         
-        logger.info(f"Batch ingestion complete: {results['successful']} successful, {results['failed']} failed, {results['skipped']} skipped out of {results['processed']} processed")
+        # Log final summary
+        logger.info("=" * 80)
+        logger.info(f"📊 DRAW PRIORS INGESTION SUMMARY:")
+        logger.info(f"   ✓ Processed: {results['processed']} league/season combinations")
+        logger.info(f"   ✓ Successful: {results['successful']} priors created/updated")
+        logger.info(f"   ⚠ Skipped: {results['skipped']} (no matches found)")
+        if results['failed'] > 0:
+            logger.warning(f"   ✗ Failed: {results['failed']} combinations")
+            logger.warning(f"   Errors: {len(results['errors'])} total errors")
+        else:
+            logger.info(f"   ✓ Errors: 0 (all combinations successful)")
+        logger.info("=" * 80)
         
         return results
     

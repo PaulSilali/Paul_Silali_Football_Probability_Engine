@@ -194,7 +194,10 @@ async def generate_tickets(
                 "odds_open": odds_open,  # NEW: Opening odds for late-shock detection
                 "kickoff_ts": kickoff_ts,  # NEW: Kickoff timestamp for correlation
                 "draw_signal": draw_signal,  # NEW: Draw signal for correlation
-                "lambda_total": lambda_total  # NEW: Total expected goals for correlation
+                "lambda_total": lambda_total,  # NEW: Total expected goals for correlation
+                "xg_home": fixture_data.get("xg_home"),  # Expected goals for home team (for archetype enforcement)
+                "xg_away": fixture_data.get("xg_away"),  # Expected goals for away team (for archetype enforcement)
+                "dc_applied": fixture_data.get("dc_applied", False)  # Whether Dixon-Coles was applied (for archetype enforcement)
             })
         
         # Determine league code from fixtures if not provided
@@ -215,9 +218,13 @@ async def generate_tickets(
             probability_sets=probability_sets
         )
         
+        tickets_count = len(bundle.get('tickets', []))
+        if tickets_count == 0:
+            logger.warning(f"No tickets generated for jackpot {request.jackpot_id} with sets {set_keys}")
+        
         return ApiResponse(
             success=True,
-            message=f"Generated {len(bundle.get('tickets', []))} tickets",
+            message=f"Generated {tickets_count} ticket{'s' if tickets_count != 1 else ''} for {len(set_keys)} set{'s' if len(set_keys) != 1 else ''}",
             data=bundle
         )
         

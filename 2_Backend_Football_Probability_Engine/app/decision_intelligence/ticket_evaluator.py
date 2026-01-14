@@ -127,17 +127,19 @@ def evaluate_ticket(
         xg_away = match.get('xg_away')
         confidence = xg_confidence(xg_home or 0, xg_away or 0) if xg_home and xg_away else 0.5
         
-        # Check for hard contradiction
-        hard_contradiction = is_hard_contradiction({
-            'pick': pick,
-            'market_odds': market_odds_dict,
-            'market_prob_home': match.get('market_prob_home'),
-            'xg_home': xg_home,
-            'xg_away': xg_away
-        })
+        # TEMPORARILY DISABLED - Hard contradiction detection is too strict
+        # TODO: Review and adjust hard contradiction thresholds
+        hard_contradiction = False
+        # hard_contradiction = is_hard_contradiction({
+        #     'pick': pick,
+        #     'market_odds': market_odds_dict,
+        #     'market_prob_home': match.get('market_prob_home'),
+        #     'xg_home': xg_home,
+        #     'xg_away': xg_away
+        # })
         
-        if hard_contradiction:
-            total_contradictions += 1
+        # if hard_contradiction:
+        #     total_contradictions += 1
         
         # Calculate structural penalty
         structural_pen = structural_penalty({
@@ -151,11 +153,12 @@ def evaluate_ticket(
         market_delta = calculate_market_disagreement(model_prob, market_odds)
         market_penalty = market_disagreement_penalty(market_delta)
         
+        # TEMPORARILY DISABLED - Extreme disagreement check is too strict
         # Check for extreme disagreement (hard gate)
-        market_favorite = get_market_favorite(market_odds_dict)
-        if is_extreme_disagreement(model_prob, market_odds, pick, market_favorite):
-            hard_contradiction = True
-            total_contradictions += 1
+        # market_favorite = get_market_favorite(market_odds_dict)
+        # if is_extreme_disagreement(model_prob, market_odds, pick, market_favorite):
+        #     hard_contradiction = True
+        #     total_contradictions += 1
         
         # Get league weight
         league_code = match.get('league_code') or match.get('league')

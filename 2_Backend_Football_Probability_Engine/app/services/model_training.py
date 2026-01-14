@@ -485,10 +485,11 @@ class ModelTrainingService:
             else:
                 logger.warning(f"No teams were updated (skipped: {skipped_count}, errors: {error_count})")
             
-            # Log to MLflow if available
+            # Log to MLflow if available (non-blocking, fails gracefully)
             mlflow_run_id = None
             if self.mlflow_registry:
                 try:
+                    logger.debug("Attempting to log Poisson training to MLflow (non-blocking)...")
                     mlflow_run_id = self.mlflow_registry.log_training_run(
                         experiment_name="dixon_coles_poisson",
                         model=model_weights,  # Log model weights as dict
@@ -515,9 +516,12 @@ class ModelTrainingService:
                             "training_run_id": str(training_run.id),
                         }
                     )
-                    logger.info(f"Logged training run to MLflow: {mlflow_run_id}")
+                    if mlflow_run_id:
+                        logger.info(f"Logged training run to MLflow: {mlflow_run_id}")
+                    else:
+                        logger.debug("MLflow logging skipped (not available or timed out)")
                 except Exception as e:
-                    logger.warning(f"Could not log to MLflow: {e}. Training completed successfully.")
+                    logger.warning(f"Could not log to MLflow (non-blocking): {e}. Training completed successfully.")
             
             # Log final confirmation
             logger.info(f"=== POISSON MODEL TRAINING FINAL STATUS ===")
@@ -890,10 +894,11 @@ class ModelTrainingService:
             
             self.db.commit()
             
-            # Log to MLflow if available
+            # Log to MLflow if available (non-blocking, fails gracefully)
             mlflow_run_id = None
             if self.mlflow_registry:
                 try:
+                    logger.debug("Attempting to log Blending training to MLflow (non-blocking)...")
                     mlflow_run_id = self.mlflow_registry.log_training_run(
                         experiment_name="dixon_coles_blending",
                         model=model_weights,
@@ -917,9 +922,12 @@ class ModelTrainingService:
                             "training_run_id": str(training_run.id),
                         }
                     )
-                    logger.info(f"Logged blending training run to MLflow: {mlflow_run_id}")
+                    if mlflow_run_id:
+                        logger.info(f"Logged blending training run to MLflow: {mlflow_run_id}")
+                    else:
+                        logger.debug("MLflow logging skipped (not available or timed out)")
                 except Exception as e:
-                    logger.warning(f"Could not log to MLflow: {e}")
+                    logger.warning(f"Could not log to MLflow (non-blocking): {e}")
             
             # Log final confirmation
             logger.info(f"=== BLENDING MODEL TRAINING FINAL STATUS ===")
@@ -979,7 +987,10 @@ class ModelTrainingService:
         Returns:
             Dict with training results
         """
-        logger.info(f"Starting calibration model training (task: {task_id})")
+        logger.info(f"=== STARTING CALIBRATION MODEL TRAINING ===")
+        logger.info(f"Task ID: {task_id}")
+        logger.info(f"Parameters: base_model_id={base_model_id}, leagues={leagues}, seasons={seasons}")
+        logger.info(f"Date range: {date_from} to {date_to}")
         
         # Create training run record
         training_run = TrainingRun(
@@ -1040,9 +1051,17 @@ class ModelTrainingService:
                 raise ValueError(f"Insufficient matches for calibration. Found {len(matches)}, need at least 500.")
             
             logger.info(f"Calibrating on {len(matches)} historical matches")
+            logger.info(f"  - Date range: {matches[0].match_date if matches else 'N/A'} to {matches[-1].match_date if matches else 'N/A'}")
+            logger.info(f"  - Leagues: {leagues if leagues else 'ALL'}")
+            logger.info(f"  - Seasons: {seasons if seasons else 'ALL'}")
             
             if task_id:
                 self._update_task_status(task_id, "in_progress", 50, "Calculating predictions...")
+            
+            logger.info("=== CALCULATING PREDICTIONS FOR CALIBRATION ===")
+            logger.info(f"Base model type: {base_model.model_type}")
+            logger.info(f"Base model version: {base_model.version}")
+            logger.info(f"Base model ID: {base_model.id}")
             
             # Calculate predictions using base model
             from app.models.dixon_coles import TeamStrength, DixonColesParams, calculate_match_probabilities
@@ -1102,11 +1121,23 @@ class ModelTrainingService:
             actuals_draw = []
             actuals_away = []
             
+            skipped_matches = 0
+            logger.info(f"Processing {len(matches)} matches to collect predictions...")
+            logger.info(f"Team strengths available for {len(team_strengths)} teams")
+            
             for match in matches:
                 home_id = match.home_team_id
                 away_id = match.away_team_id
                 
                 if home_id not in team_strengths or away_id not in team_strengths:
+                    skipped_matches += 1
+                    if skipped_matches <= 5:  # Log first 5 skipped matches
+                        missing_teams = []
+                        if home_id not in team_strengths:
+                            missing_teams.append(f"home={home_id}")
+                        if away_id not in team_strengths:
+                            missing_teams.append(f"away={away_id}")
+                        logger.warning(f"  ⚠ Skipping match {match.id}: missing team strengths ({', '.join(missing_teams)})")
                     continue
                 
                 home_strength = team_strengths[home_id]
@@ -1151,14 +1182,26 @@ class ModelTrainingService:
                     actuals_draw.append(0)
                     actuals_away.append(1)
             
+            logger.info(f"=== PREDICTION COLLECTION COMPLETE ===")
+            logger.info(f"Valid predictions collected: {len(predictions_home)}")
+            logger.info(f"Matches skipped (missing team strengths): {skipped_matches} ({100*skipped_matches/len(matches):.1f}%)")
+            logger.info(f"Total matches processed: {len(matches)}")
+            logger.info(f"Outcome distribution - Home: {sum(actuals_home)}, Draw: {sum(actuals_draw)}, Away: {sum(actuals_away)}")
+            
             if len(predictions_home) < 500:
-                raise ValueError(f"Insufficient valid predictions. Found {len(predictions_home)}, need at least 500.")
+                error_msg = f"Insufficient valid predictions. Found {len(predictions_home)}, need at least 500."
+                logger.error(f"✗ {error_msg}")
+                raise ValueError(error_msg)
             
             if task_id:
                 self._update_task_status(task_id, "in_progress", 70, "Fitting isotonic regression...")
             
             # Time-ordered split for validation
             split_idx = int(len(predictions_home) * 0.8)
+            
+            logger.info("=== FITTING ISOTONIC REGRESSION CALIBRATORS ===")
+            logger.info(f"Training set size: {split_idx} matches")
+            logger.info(f"Test set size: {len(predictions_home) - split_idx} matches")
             
             # Fit calibrator on training set
             from app.models.calibration import Calibrator, compute_calibration_curve
@@ -1236,12 +1279,18 @@ class ModelTrainingService:
             test_actuals_draw = actuals_draw[split_idx:]
             test_actuals_away = actuals_away[split_idx:]
             
+            logger.info("=== CALCULATING CALIBRATION METRICS ===")
+            logger.info(f"Test set size: {len(calibrated_home)} matches")
+            
             # Brier score
             brier_home = sum((calibrated_home[i] - test_actuals_home[i]) ** 2 for i in range(len(calibrated_home))) / len(calibrated_home)
             brier_draw = sum((calibrated_draw[i] - test_actuals_draw[i]) ** 2 for i in range(len(calibrated_draw))) / len(calibrated_draw)
             brier_away = sum((calibrated_away[i] - test_actuals_away[i]) ** 2 for i in range(len(calibrated_away))) / len(calibrated_away)
             
             mean_brier = (brier_home + brier_draw + brier_away) / 3
+            
+            logger.info(f"Brier scores - Home: {brier_home:.4f}, Draw: {brier_draw:.4f}, Away: {brier_away:.4f}")
+            logger.info(f"Mean Brier score: {mean_brier:.4f}")
             
             # Log loss
             log_losses = []
@@ -1254,10 +1303,19 @@ class ModelTrainingService:
             
             mean_log_loss = sum(log_losses) / len(log_losses)
             
+            logger.info(f"Log loss: {mean_log_loss:.4f}")
+            
             metrics = {
                 'brierScore': float(mean_brier),
                 'logLoss': float(mean_log_loss),
             }
+            
+            logger.info(f"=== CALIBRATION METRICS SUMMARY ===")
+            logger.info(f"  - Mean Brier Score: {mean_brier:.4f}")
+            logger.info(f"  - Mean Log Loss: {mean_log_loss:.4f}")
+            logger.info(f"  - Home Brier: {brier_home:.4f}")
+            logger.info(f"  - Draw Brier: {brier_draw:.4f}")
+            logger.info(f"  - Away Brier: {brier_away:.4f}")
             
             # Archive old calibration models
             self.db.query(Model).filter(
@@ -1454,7 +1512,13 @@ class ModelTrainingService:
         Returns:
             Dict with training results
         """
-        logger.info(f"Starting calibration training from validation data (task: {task_id})")
+        logger.info(f"=== STARTING CALIBRATION TRAINING FROM VALIDATION ===")
+        logger.info(f"Task ID: {task_id}")
+        logger.info(f"Parameters:")
+        logger.info(f"  base_model_id: {base_model_id}")
+        logger.info(f"  validation_result_ids: {validation_result_ids}")
+        logger.info(f"  use_all_validation: {use_all_validation}")
+        logger.info(f"  min_validation_matches: {min_validation_matches}")
         
         # Create training run record
         training_run = TrainingRun(
@@ -1465,7 +1529,7 @@ class ModelTrainingService:
         self.db.add(training_run)
         self.db.flush()
         self.db.commit()
-        logger.info(f"Training run created: ID={training_run.id}, type=calibration_from_validation")
+        logger.info(f"Training run created: ID={training_run.id}, type=calibration_from_validation, started_at={training_run.started_at.isoformat()}")
         
         try:
             if task_id:
@@ -1504,27 +1568,36 @@ class ModelTrainingService:
                         ).order_by(Model.training_completed_at.desc()).first()
             
             if not base_model:
+                logger.error("✗ No active base model found. Train Poisson or Blending model first.")
                 raise ValueError("No active base model found. Train Poisson or Blending model first.")
             
+            logger.info(f"✓ Base model found: {base_model.model_type} model (ID: {base_model.id}, version: {base_model.version})")
             logger.info(f"Calibrating {base_model.model_type} model: {base_model.version} using validation data")
             
             if task_id:
                 self._update_task_status(task_id, "in_progress", 30, "Loading validation results...")
             
             # Load validation results
+            logger.info("Loading validation results from database...")
             query = self.db.query(ValidationResult).filter(
                 ValidationResult.exported_to_training == True
             )
             
             if validation_result_ids:
                 query = query.filter(ValidationResult.id.in_(validation_result_ids))
+                logger.info(f"Filtering by validation_result_ids: {validation_result_ids}")
             elif not use_all_validation:
                 # Use validation results for the current base model
                 query = query.filter(ValidationResult.model_id == base_model.id)
+                logger.info(f"Filtering by base_model_id: {base_model.id}")
+            else:
+                logger.info("Using ALL exported validation results")
             
             validation_results = query.order_by(ValidationResult.created_at.asc()).all()
+            logger.info(f"Found {len(validation_results)} validation result(s)")
             
             if not validation_results:
+                logger.error("✗ No validation results found. Export validation data first.")
                 raise ValueError("No validation results found. Export validation data first.")
             
             # Collect predictions and actuals from validation results
@@ -1537,7 +1610,9 @@ class ModelTrainingService:
             
             total_validation_matches = 0
             
-            for val_result in validation_results:
+            logger.info(f"Processing {len(validation_results)} validation result(s) to extract predictions and actuals...")
+            for idx, val_result in enumerate(validation_results):
+                logger.info(f"Processing validation result {idx+1}/{len(validation_results)}: ID={val_result.id}, set_type={val_result.set_type}, jackpot_id={val_result.jackpot_id}")
                 # Get the jackpot and fixtures
                 jackpot = self.db.query(JackpotModel).filter(JackpotModel.id == val_result.jackpot_id).first()
                 if not jackpot:
@@ -1672,15 +1747,23 @@ class ModelTrainingService:
                     
                     total_validation_matches += 1
             
+            logger.info(f"=== VALIDATION DATA COLLECTION SUMMARY ===")
+            logger.info(f"Total validation matches collected: {total_validation_matches}")
+            logger.info(f"From {len(validation_results)} validation result(s)")
+            logger.info(f"Minimum required: {min_validation_matches}")
+            
             if total_validation_matches < min_validation_matches:
-                raise ValueError(
+                error_msg = (
                     f"Insufficient validation matches: {total_validation_matches} (minimum: {min_validation_matches}). "
                     f"To proceed:\n"
                     f"1. Export more validation results (need {min_validation_matches - total_validation_matches} more matches), OR\n"
                     f"2. Lower the minimum threshold by setting min_validation_matches parameter to {total_validation_matches} or less.\n"
                     f"Note: Training with fewer matches may result in less reliable calibration."
                 )
+                logger.error(f"✗ {error_msg}")
+                raise ValueError(error_msg)
             
+            logger.info(f"✓ Sufficient validation matches: {total_validation_matches} >= {min_validation_matches}")
             logger.info(f"Training calibration on {total_validation_matches} validation matches from {len(validation_results)} validation results")
             
             if task_id:

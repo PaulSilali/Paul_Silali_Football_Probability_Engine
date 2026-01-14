@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText, Loader2, Save, FolderOpen, X, Calendar, CheckCircle2 } from 'lucide-react';
+import { Plus, Trash2, Upload, AlertTriangle, ArrowRight, Sparkles, Target, FileText, Loader2, Save, FolderOpen, X, Calendar, CheckCircle2, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -88,6 +88,12 @@ export default function JackpotInput() {
   const [saveName, setSaveName] = useState('');
   const [saveDescription, setSaveDescription] = useState('');
   const validationTimersRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
+  
+  // Team search state
+  const [searchDialogOpen, setSearchDialogOpen] = useState(false);
+  const [searchingTeam, setSearchingTeam] = useState<{tempId: string, type: 'home' | 'away', teamName: string} | null>(null);
+  const [searchResults, setSearchResults] = useState<Array<{teamId: number, name: string, canonicalName: string, similarity: number}>>([]);
+  const [isSearching, setIsSearching] = useState(false);
   
   // Pipeline state
   const [pipelineDialogOpen, setPipelineDialogOpen] = useState(false);
@@ -220,6 +226,26 @@ export default function JackpotInput() {
       });
     }, 100);
   }, [validateTeam]);
+
+  // Search for team with broader matching
+  const handleSearchTeam = useCallback(async (tempId: string, type: 'home' | 'away', teamName: string) => {
+    setSearchingTeam({ tempId, type, teamName });
+    setSearchDialogOpen(true);
+    setIsSearching(true);
+    setSearchResults([]);
+
+    try {
+      const response = await apiClient.searchTeam(teamName.trim());
+      if (response.success && response.data) {
+        setSearchResults(response.data);
+      }
+    } catch (error) {
+      console.error('Error searching for team:', error);
+    } finally {
+      setIsSearching(false);
+    }
+  }, []);
+
   const addFixture = useCallback(() => {
     setFixtures((prev) => [...prev, createEmptyFixture()]);
   }, []);
@@ -245,6 +271,27 @@ export default function JackpotInput() {
     },
     [validateTeam]
   );
+
+  // Select a team from search results (defined after updateFixture)
+  const handleSelectSearchResult = useCallback((team: {teamId: number, name: string, canonicalName: string}) => {
+    if (!searchingTeam) return;
+    
+    // Store values before clearing state
+    const { tempId, type } = searchingTeam;
+    
+    // Update the fixture with the selected team name
+    updateFixture(tempId, type === 'home' ? 'homeTeam' : 'awayTeam', team.canonicalName);
+    
+    // Close dialog and clear state
+    setSearchDialogOpen(false);
+    setSearchingTeam(null);
+    setSearchResults([]);
+    
+    // Re-validate after a short delay
+    setTimeout(() => {
+      validateTeam(tempId, type, team.canonicalName);
+    }, 100);
+  }, [searchingTeam, updateFixture, validateTeam]);
 
   const parseOdds = (value: string): number => {
     const parsed = parseFloat(value);
@@ -1053,29 +1100,41 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
                           <CheckCircle2 className="absolute right-2 top-2.5 h-4 w-4 text-green-500" />
                         )}
                         {fixture.homeTeamValidation?.isValid === false && !fixture.homeTeamValidation.isValidating && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <AlertTriangle className="absolute right-2 top-2.5 h-4 w-4 text-red-500 cursor-help" />
-                            </TooltipTrigger>
-                            <TooltipContent className="max-w-xs">
-                              <div className="space-y-1">
-                                <p className="font-medium">Team not found in database</p>
-                                {fixture.homeTeamValidation.suggestions && fixture.homeTeamValidation.suggestions.length > 0 && (
-                                  <div>
-                                    <p className="text-xs mb-1">Suggestions:</p>
-                                    <ul className="text-xs list-disc list-inside">
-                                      {fixture.homeTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
-                                        <li key={idx}>{suggestion}</li>
-                                      ))}
-                                    </ul>
-                                  </div>
-                                )}
-                                <p className="text-xs text-muted-foreground mt-1">
-                                  Using default team strengths (1.0, 1.0) - probabilities may be less accurate
-                                </p>
-                              </div>
-                            </TooltipContent>
-                          </Tooltip>
+                          <div className="absolute right-2 top-2.5 flex items-center gap-1">
+                            <Tooltip>
+                              <TooltipTrigger asChild>
+                                <AlertTriangle className="h-4 w-4 text-red-500 cursor-help" />
+                              </TooltipTrigger>
+                              <TooltipContent className="max-w-xs">
+                                <div className="space-y-1">
+                                  <p className="font-medium">Team not found in database</p>
+                                  {fixture.homeTeamValidation.suggestions && fixture.homeTeamValidation.suggestions.length > 0 && (
+                                    <div>
+                                      <p className="text-xs mb-1">Suggestions:</p>
+                                      <ul className="text-xs list-disc list-inside">
+                                        {fixture.homeTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
+                                          <li key={idx}>{suggestion}</li>
+                                        ))}
+                                      </ul>
+                                    </div>
+                                  )}
+                                  <p className="text-xs text-muted-foreground mt-1">
+                                    Using default team strengths (1.0, 1.0) - probabilities may be less accurate
+                                  </p>
+                                </div>
+                              </TooltipContent>
+                            </Tooltip>
+                            <Button
+                              type="button"
+                              variant="ghost"
+                              size="sm"
+                              className="h-5 w-5 p-0 hover:bg-primary/10"
+                              onClick={() => handleSearchTeam(fixture.tempId, 'home', fixture.homeTeam)}
+                              title="Search for team"
+                            >
+                              <Search className="h-3 w-3 text-primary" />
+                            </Button>
+                          </div>
                         )}
                       </div>
                     </TableCell>
@@ -1100,29 +1159,41 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
                           <CheckCircle2 className="absolute right-2 top-2.5 h-4 w-4 text-green-500" />
                         )}
                         {fixture.awayTeamValidation?.isValid === false && !fixture.awayTeamValidation.isValidating && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <AlertTriangle className="absolute right-2 top-2.5 h-4 w-4 text-red-500 cursor-help" />
-                            </TooltipTrigger>
-                            <TooltipContent className="max-w-xs">
-                              <div className="space-y-1">
-                                <p className="font-medium">Team not found in database</p>
-                                {fixture.awayTeamValidation.suggestions && fixture.awayTeamValidation.suggestions.length > 0 && (
-                                  <div>
-                                    <p className="text-xs mb-1">Suggestions:</p>
-                                    <ul className="text-xs list-disc list-inside">
-                                      {fixture.awayTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
-                                        <li key={idx}>{suggestion}</li>
-                                      ))}
-                                    </ul>
-                                  </div>
-                                )}
-                                <p className="text-xs text-muted-foreground mt-1">
-                                  Using default team strengths (1.0, 1.0) - probabilities may be less accurate
-                                </p>
-                              </div>
-                            </TooltipContent>
-                          </Tooltip>
+                          <div className="absolute right-2 top-2.5 flex items-center gap-1">
+                            <Tooltip>
+                              <TooltipTrigger asChild>
+                                <AlertTriangle className="h-4 w-4 text-red-500 cursor-help" />
+                              </TooltipTrigger>
+                              <TooltipContent className="max-w-xs">
+                                <div className="space-y-1">
+                                  <p className="font-medium">Team not found in database</p>
+                                  {fixture.awayTeamValidation.suggestions && fixture.awayTeamValidation.suggestions.length > 0 && (
+                                    <div>
+                                      <p className="text-xs mb-1">Suggestions:</p>
+                                      <ul className="text-xs list-disc list-inside">
+                                        {fixture.awayTeamValidation.suggestions.slice(0, 3).map((suggestion, idx) => (
+                                          <li key={idx}>{suggestion}</li>
+                                        ))}
+                                      </ul>
+                                    </div>
+                                  )}
+                                  <p className="text-xs text-muted-foreground mt-1">
+                                    Using default team strengths (1.0, 1.0) - probabilities may be less accurate
+                                  </p>
+                                </div>
+                              </TooltipContent>
+                            </Tooltip>
+                            <Button
+                              type="button"
+                              variant="ghost"
+                              size="sm"
+                              className="h-5 w-5 p-0 hover:bg-primary/10"
+                              onClick={() => handleSearchTeam(fixture.tempId, 'away', fixture.awayTeam)}
+                              title="Search for team"
+                            >
+                              <Search className="h-3 w-3 text-primary" />
+                            </Button>
+                          </div>
                         )}
                       </div>
                     </TableCell>
@@ -1409,6 +1480,70 @@ Liverpool, Man City, 2.80, 3.30, 2.45"
         onOpenChange={setIsPDFDialogOpen}
         onImport={handlePDFImport}
       />
-    </PageLayout>
-  );
-}
+
+      {/* Team Search Dialog */}
+      <Dialog open={searchDialogOpen} onOpenChange={setSearchDialogOpen}>
+        <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>Search for Team</DialogTitle>
+            <DialogDescription>
+              Searching for: <strong>{searchingTeam?.teamName}</strong>
+              <br />
+              <span className="text-xs text-muted-foreground">
+                Showing teams with similar names (broader search than validation)
+              </span>
+            </DialogDescription>
+          </DialogHeader>
+          
+          <div className="space-y-2">
+            {isSearching && (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-primary" />
+                <span className="ml-2">Searching...</span>
+              </div>
+            )}
+            
+            {!isSearching && searchResults.length === 0 && searchingTeam && (
+              <div className="text-center py-8 text-muted-foreground">
+                No teams found matching "{searchingTeam.teamName}"
+              </div>
+            )}
+            
+            {!isSearching && searchResults.length > 0 && (
+              <div className="space-y-2">
+                <p className="text-sm font-medium">Found {searchResults.length} team(s):</p>
+                <div className="space-y-1 max-h-[400px] overflow-y-auto">
+                  {searchResults.map((team) => (
+                    <Button
+                      key={team.teamId}
+                      variant="outline"
+                      className="w-full justify-start text-left h-auto py-3 px-4 hover:bg-primary/5"
+                      onClick={() => handleSelectSearchResult(team)}
+                    >
+                      <div className="flex-1">
+                        <div className="font-medium">{team.canonicalName}</div>
+                        {team.name !== team.canonicalName && (
+                          <div className="text-xs text-muted-foreground">{team.name}</div>
+                        )}
+                        <div className="text-xs text-muted-foreground mt-1">
+                          Similarity: {(team.similarity * 100).toFixed(1)}%
+                        </div>
+                      </div>
+                      <ArrowRight className="h-4 w-4 ml-2 text-muted-foreground" />
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+          
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setSearchDialogOpen(false)}>
+              Close
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+      </PageLayout>
+    );
+  }

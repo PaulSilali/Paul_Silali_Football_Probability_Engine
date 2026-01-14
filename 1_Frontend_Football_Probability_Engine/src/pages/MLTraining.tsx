@@ -175,28 +175,59 @@ function formatDate(dateString: string) {
   });
 }
 
-function formatDateTime(dateString: string) {
+function formatDateTime(dateInput: string | Date | object | null | undefined) {
   try {
-    const date = new Date(dateString);
-    if (isNaN(date.getTime())) {
-      console.warn('[MLTraining] Invalid date string:', dateString);
+    // Handle null/undefined
+    if (!dateInput) {
+      return 'Never';
+    }
+    
+    // If it's already a Date object, use it
+    let date: Date;
+    if (dateInput instanceof Date) {
+      date = dateInput;
+    } else if (typeof dateInput === 'string') {
+      date = new Date(dateInput);
+    } else if (typeof dateInput === 'object') {
+      // Handle object with date properties (e.g., {year, month, day} or ISO string property)
+      if ('toISOString' in dateInput && typeof dateInput.toISOString === 'function') {
+        date = dateInput as Date;
+      } else if ('$date' in dateInput) {
+        // MongoDB date format
+        date = new Date((dateInput as any).$date);
+      } else {
+        // Try to extract ISO string from object
+        const isoString = (dateInput as any).toString?.() || (dateInput as any).toISOString?.() || JSON.stringify(dateInput);
+        date = new Date(isoString);
+      }
+    } else {
+      console.warn('[MLTraining] Unexpected date format:', typeof dateInput, dateInput);
       return 'Invalid Date';
     }
+    
+    if (isNaN(date.getTime())) {
+      console.warn('[MLTraining] Invalid date:', dateInput);
+      return 'Invalid Date';
+    }
+    
     const formatted = date.toLocaleString('en-US', {
       month: 'short',
       day: 'numeric',
       hour: '2-digit',
       minute: '2-digit',
     });
-    console.log('[MLTraining] Formatting timestamp:', {
-      input: dateString,
-      parsed: date.toISOString(),
-      formatted: formatted,
-      localTime: date.toLocaleString()
-    });
+    
+    // Only log in debug mode (remove console.log to reduce noise)
+    // console.log('[MLTraining] Formatting timestamp:', {
+    //   input: dateInput,
+    //   parsed: date.toISOString(),
+    //   formatted: formatted,
+    //   localTime: date.toLocaleString()
+    // });
+    
     return formatted;
   } catch (error) {
-    console.error('[MLTraining] Error formatting date:', dateString, error);
+    console.error('[MLTraining] Error formatting date:', dateInput, error);
     return 'Invalid Date';
   }
 }
@@ -261,12 +292,14 @@ export default function MLTraining() {
             // Update Poisson model with Poisson-specific data
             if (m.id === 'poisson' && response.data.poisson) {
               const trainedAt = response.data.poisson.trainedAt;
-              console.log('[MLTraining] Poisson model timestamp received:', {
-                raw: trainedAt,
-                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
-                previous: m.lastTrained,
-                changed: trainedAt !== m.lastTrained
-              });
+              // Only log if timestamp actually changed or is new
+              if (trainedAt && trainedAt !== m.lastTrained) {
+                console.log('[MLTraining] Poisson model timestamp updated:', {
+                  raw: trainedAt,
+                  formatted: formatDateTime(trainedAt),
+                  previous: m.lastTrained
+                });
+              }
               
               return {
                 ...m,
@@ -275,18 +308,21 @@ export default function MLTraining() {
                   logLoss: response.data.poisson.logLoss || undefined,
                   drawAccuracy: response.data.poisson.drawAccuracy || undefined,
                 } : undefined,
-                lastTrained: trainedAt || undefined,
+                lastTrained: trainedAt ? formatDateTime(trainedAt) : undefined,
               };
             }
             // Update Blending model with Blending-specific data
             if (m.id === 'blending' && response.data.blending) {
               const trainedAt = response.data.blending.trainedAt;
-              console.log('[MLTraining] Blending model timestamp received:', {
-                raw: trainedAt,
-                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
-                previous: m.lastTrained,
-                changed: trainedAt !== m.lastTrained
-              });
+              // Only log if timestamp actually changed or is new
+              if (trainedAt && trainedAt !== m.lastTrained) {
+                console.log('[MLTraining] Blending model timestamp received:', {
+                  raw: trainedAt,
+                  formatted: formatDateTime(trainedAt),
+                  previous: m.lastTrained,
+                  changed: true
+                });
+              }
               
               return {
                 ...m,
@@ -294,18 +330,21 @@ export default function MLTraining() {
                   brierScore: response.data.blending.brierScore || undefined,
                   logLoss: response.data.blending.logLoss || undefined,
                 } : undefined,
-                lastTrained: trainedAt || undefined,
+                lastTrained: trainedAt ? formatDateTime(trainedAt) : undefined,
               };
             }
             // Update Calibration model with Calibration-specific data
             if (m.id === 'calibration' && response.data.calibration) {
               const trainedAt = response.data.calibration.trainedAt;
-              console.log('[MLTraining] Calibration model timestamp received:', {
-                raw: trainedAt,
-                formatted: trainedAt ? formatDateTime(trainedAt) : 'None',
-                previous: m.lastTrained,
-                changed: trainedAt !== m.lastTrained
-              });
+              // Only log if timestamp actually changed or is new
+              if (trainedAt && trainedAt !== m.lastTrained) {
+                console.log('[MLTraining] Calibration model timestamp received:', {
+                  raw: trainedAt,
+                  formatted: formatDateTime(trainedAt),
+                  previous: m.lastTrained,
+                  changed: true
+                });
+              }
               
               return {
                 ...m,
@@ -313,7 +352,7 @@ export default function MLTraining() {
                   brierScore: response.data.calibration.brierScore || undefined,
                   logLoss: response.data.calibration.logLoss || undefined,
                 } : undefined,
-                lastTrained: trainedAt || undefined,
+                lastTrained: trainedAt ? formatDateTime(trainedAt) : undefined,
               };
             }
             return m;

@@ -4,7 +4,7 @@ Team Validation API Endpoint
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.db.session import get_db
-from app.services.team_resolver import validate_team_name
+from app.services.team_resolver import validate_team_name, search_teams
 from app.db.models import Model, ModelStatus
 from pydantic import BaseModel
 from typing import Optional, List, Dict
@@ -163,6 +163,63 @@ async def validate_teams_batch(
             team_data["suggestions"] = result["suggestions"]
         
         results.append(team_data)
+    
+    return {
+        "success": True,
+        "data": results
+    }
+
+
+class TeamSearchRequest(BaseModel):
+    query: str
+    leagueId: Optional[int] = None
+    limit: Optional[int] = 20  # More results for search
+
+
+class TeamSearchResult(BaseModel):
+    teamId: int
+    name: str
+    canonicalName: str
+    leagueId: Optional[int] = None
+    similarity: float
+
+
+@router.post("/team/search")
+async def search_team(
+    request: TeamSearchRequest,
+    db: Session = Depends(get_db)
+):
+    """
+    Search for teams with broader matching (lower threshold than validation)
+    
+    This is useful when a team is "not found" during validation but might exist
+    with a different name or spelling. Uses lower similarity threshold (0.3 vs 0.7).
+    
+    Returns up to 20 matching teams sorted by similarity score.
+    """
+    if not request.query or len(request.query.strip()) < 2:
+        return {
+            "success": True,
+            "data": []
+        }
+    
+    # Use search_teams which has lower threshold (0.3) for broader matching
+    matches = search_teams(
+        db, 
+        request.query.strip(), 
+        request.leagueId, 
+        limit=request.limit or 20
+    )
+    
+    results = []
+    for team, score in matches:
+        results.append({
+            "teamId": team.id,
+            "name": team.name,
+            "canonicalName": team.canonical_name,
+            "leagueId": team.league_id,
+            "similarity": round(score, 3)
+        })
     
     return {
         "success": True,

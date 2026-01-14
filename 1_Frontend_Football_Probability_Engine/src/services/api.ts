@@ -595,6 +595,25 @@ class ApiClient {
   }
 
   // Validation endpoints
+  async searchTeam(query: string, leagueId?: number, limit?: number): Promise<ApiResponse<{
+    teamId: number;
+    name: string;
+    canonicalName: string;
+    leagueId?: number;
+    similarity: number;
+  }[]>> {
+    return this.request<ApiResponse<{
+      teamId: number;
+      name: string;
+      canonicalName: string;
+      leagueId?: number;
+      similarity: number;
+    }[]>>('/validation/team/search', {
+      method: 'POST',
+      body: JSON.stringify({ query, leagueId, limit }),
+    });
+  }
+
   async validateTeamName(teamName: string, leagueId?: number, checkTraining?: boolean): Promise<ApiResponse<{
     isValid: boolean;
     suggestions?: string[];

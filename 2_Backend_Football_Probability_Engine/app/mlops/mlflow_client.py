@@ -6,11 +6,13 @@ try:
     import mlflow.sklearn
     from mlflow.tracking import MlflowClient
     from mlflow.store.artifact.runs_artifact_repo import RunsArtifactRepository
+    import signal
     MLFLOW_AVAILABLE = True
 except ImportError:
     MLFLOW_AVAILABLE = False
     mlflow = None
     MlflowClient = None
+    signal = None
 
 from typing import Dict, List, Optional, Any
 import logging
@@ -22,6 +24,7 @@ logger = logging.getLogger(__name__)
 # MLflow Configuration
 MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5000")
 MLFLOW_ARTIFACT_ROOT = os.getenv("MLFLOW_ARTIFACT_ROOT", "./mlruns")
+MLFLOW_TIMEOUT_SECONDS = int(os.getenv("MLFLOW_TIMEOUT_SECONDS", "5"))  # 5 second timeout
 
 # Initialize MLflow (only if available)
 if MLFLOW_AVAILABLE:
@@ -32,29 +35,83 @@ class MLflowModelRegistry:
     """Manages model lifecycle with MLflow"""
     
     def __init__(self):
-        self.client = MlflowClient(tracking_uri=MLFLOW_TRACKING_URI)
-        logger.info(f"MLflow client initialized with tracking URI: {MLFLOW_TRACKING_URI}")
+        try:
+            self.client = MlflowClient(tracking_uri=MLFLOW_TRACKING_URI)
+            logger.info(f"MLflow client initialized with tracking URI: {MLFLOW_TRACKING_URI}")
+        except Exception as e:
+            logger.warning(f"Could not initialize MLflow client: {e}. MLflow tracking will be disabled.")
+            self.client = None
+    
+    def _with_timeout(self, func, *args, timeout_seconds=MLFLOW_TIMEOUT_SECONDS, **kwargs):
+        """Execute function with timeout (non-blocking)"""
+        if not MLFLOW_AVAILABLE or not self.client:
+            raise Exception("MLflow not available")
         
-    def create_experiment(self, name: str, description: str = "") -> str:
-        """Create MLflow experiment"""
-        if not MLFLOW_AVAILABLE:
-            raise ImportError("MLflow is not installed")
+        # For Windows, use threading instead of signal
+        import threading
+        result = [None]
+        exception = [None]
+        
+        def target():
+            try:
+                result[0] = func(*args, **kwargs)
+            except Exception as e:
+                exception[0] = e
+        
+        thread = threading.Thread(target=target)
+        thread.daemon = True
+        thread.start()
+        thread.join(timeout=timeout_seconds)
+        
+        if thread.is_alive():
+            raise TimeoutError(f"MLflow operation timed out after {timeout_seconds} seconds")
+        
+        if exception[0]:
+            raise exception[0]
+        
+        return result[0]
+    
+    def create_experiment(self, name: str, description: str = "", use_timeout: bool = True) -> str:
+        """Create MLflow experiment with optional timeout"""
+        if not MLFLOW_AVAILABLE or not self.client:
+            raise ImportError("MLflow is not installed or not available")
         
         try:
-            experiment_id = self.client.create_experiment(
-                name=name,
-                artifact_location=f"{MLFLOW_ARTIFACT_ROOT}/{name}",
-                tags={"description": description}
-            )
+            # Try to create experiment (with or without timeout)
+            if use_timeout:
+                experiment_id = self._with_timeout(
+                    self.client.create_experiment,
+                    name=name,
+                    artifact_location=f"{MLFLOW_ARTIFACT_ROOT}/{name}",
+                    tags={"description": description},
+                    timeout_seconds=MLFLOW_TIMEOUT_SECONDS
+                )
+            else:
+                experiment_id = self.client.create_experiment(
+                    name=name,
+                    artifact_location=f"{MLFLOW_ARTIFACT_ROOT}/{name}",
+                    tags={"description": description}
+                )
             logger.info(f"Created experiment: {name} (ID: {experiment_id})")
             return experiment_id
-        except Exception as e:
-            # Experiment exists
-            logger.info(f"Experiment {name} already exists, retrieving...")
-            experiment = self.client.get_experiment_by_name(name)
-            if experiment:
-                return experiment.experiment_id
-            raise ValueError(f"Failed to create or retrieve experiment: {name}")
+        except (TimeoutError, Exception) as e:
+            # Experiment might exist, try to retrieve it
+            try:
+                logger.info(f"Experiment {name} already exists or connection failed, retrieving...")
+                if use_timeout:
+                    experiment = self._with_timeout(
+                        self.client.get_experiment_by_name,
+                        name,
+                        timeout_seconds=MLFLOW_TIMEOUT_SECONDS
+                    )
+                else:
+                    experiment = self.client.get_experiment_by_name(name)
+                if experiment:
+                    return experiment.experiment_id
+            except Exception as e2:
+                logger.warning(f"Could not retrieve experiment {name}: {e2}")
+            # If all else fails, raise the original exception
+            raise ValueError(f"Failed to create or retrieve experiment: {name} - {str(e)}")
     
     def log_training_run(
         self,
@@ -64,9 +121,9 @@ class MLflowModelRegistry:
         metrics: Dict[str, float],
         artifacts: Optional[Dict[str, str]] = None,
         tags: Optional[Dict[str, str]] = None
-    ) -> str:
+    ) -> Optional[str]:
         """
-        Log a training run to MLflow
+        Log a training run to MLflow (non-blocking, fails gracefully)
         
         Args:
             experiment_name: Name of experiment
@@ -77,46 +134,58 @@ class MLflowModelRegistry:
             tags: Additional tags
             
         Returns:
-            run_id: MLflow run ID
+            run_id: MLflow run ID, or None if logging failed
         """
-        experiment_id = self.create_experiment(experiment_name)
+        if not MLFLOW_AVAILABLE or not self.client:
+            logger.debug("MLflow not available, skipping logging")
+            return None
         
-        with mlflow.start_run(experiment_id=experiment_id):
-            # Log parameters
-            mlflow.log_params(params)
+        try:
+            # Create experiment without timeout wrapper (to avoid recursion)
+            experiment_id = self.create_experiment(experiment_name, use_timeout=True)
             
-            # Log metrics
-            mlflow.log_metrics(metrics)
+            def _log_run():
+                with mlflow.start_run(experiment_id=experiment_id):
+                    # Log parameters
+                    mlflow.log_params(params)
+                    
+                    # Log metrics
+                    mlflow.log_metrics(metrics)
+                    
+                    # Log tags
+                    if tags:
+                        mlflow.set_tags(tags)
+                    
+                    # Log model (if it's a scikit-learn compatible model)
+                    try:
+                        if hasattr(model, 'predict') or isinstance(model, dict):
+                            # For custom models, log as artifact
+                            import json
+                            import tempfile
+                            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+                                json.dump(model if isinstance(model, dict) else {"type": "custom"}, f)
+                                mlflow.log_artifact(f.name, "model")
+                        else:
+                            mlflow.sklearn.log_model(model, "model")
+                    except Exception as e:
+                        logger.warning(f"Could not log model to MLflow: {e}")
+                        # Log model metadata instead
+                        mlflow.log_dict({"model_type": str(type(model))}, "model_metadata.json")
+                    
+                    # Log additional artifacts
+                    if artifacts:
+                        for name, artifact_path in artifacts.items():
+                            if os.path.exists(artifact_path):
+                                mlflow.log_artifact(artifact_path, name)
+                    
+                    return mlflow.active_run().info.run_id
             
-            # Log tags
-            if tags:
-                mlflow.set_tags(tags)
-            
-            # Log model (if it's a scikit-learn compatible model)
-            try:
-                if hasattr(model, 'predict') or isinstance(model, dict):
-                    # For custom models, log as artifact
-                    import json
-                    import tempfile
-                    with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
-                        json.dump(model if isinstance(model, dict) else {"type": "custom"}, f)
-                        mlflow.log_artifact(f.name, "model")
-                else:
-                    mlflow.sklearn.log_model(model, "model")
-            except Exception as e:
-                logger.warning(f"Could not log model to MLflow: {e}")
-                # Log model metadata instead
-                mlflow.log_dict({"model_type": str(type(model))}, "model_metadata.json")
-            
-            # Log additional artifacts
-            if artifacts:
-                for name, artifact_path in artifacts.items():
-                    if os.path.exists(artifact_path):
-                        mlflow.log_artifact(artifact_path, name)
-            
-            run_id = mlflow.active_run().info.run_id
+            run_id = self._with_timeout(_log_run, timeout_seconds=MLFLOW_TIMEOUT_SECONDS)
             logger.info(f"Logged training run: {run_id} to experiment: {experiment_name}")
             return run_id
+        except (TimeoutError, Exception) as e:
+            logger.warning(f"Could not log training run to MLflow (non-blocking): {e}. Training completed successfully.")
+            return None
     
     def load_production_model(self, model_name: str = "dixon_coles_production") -> Any:
         """Load current production model from MLflow registry"""

@@ -51,6 +51,9 @@ interface GeneratedProbability {
     setE: { H: number; D: number; A: number };
     setF: { H: number; D: number; A: number };
     setG: { H: number; D: number; A: number };
+    setH?: { H: number; D: number; A: number };
+    setI?: { H: number; D: number; A: number };
+    setJ?: { H: number; D: number; A: number };
   };
   confidence: number;
 }
@@ -61,13 +64,16 @@ interface BacktestComparisonProps {
 }
 
 const SET_NAMES = {
-  setA: 'Set A - Model Only',
-  setB: 'Set B - Market Adjusted',
-  setC: 'Set C - Conservative',
-  setD: 'Set D - Market Only',
-  setE: 'Set E - High Confidence',
-  setF: 'Set F - Draw Enhanced',
-  setG: 'Set G - Upset Biased',
+  setA: 'Set A - Pure Model',
+  setB: 'Set B - Market-Aware (Balanced)',
+  setC: 'Set C - Market-Dominant',
+  setD: 'Set D - Draw-Boosted',
+  setE: 'Set E - Entropy-Penalized',
+  setF: 'Set F - Kelly-Weighted',
+  setG: 'Set G - Ensemble',
+  setH: 'Set H - Market Consensus Draw',
+  setI: 'Set I - Formula-Based Draw',
+  setJ: 'Set J - System-Selected Draw',
 };
 
 const SET_COLORS: Record<string, string> = {
@@ -78,6 +84,9 @@ const SET_COLORS: Record<string, string> = {
   setE: 'hsl(var(--chart-5))',
   setF: 'hsl(210 80% 60%)',
   setG: 'hsl(280 80% 60%)',
+  setH: 'hsl(150 80% 50%)',
+  setI: 'hsl(30 80% 55%)',
+  setJ: 'hsl(320 80% 55%)',
 };
 
 export function BacktestComparison({ results, probabilities }: BacktestComparisonProps) {
@@ -91,7 +100,13 @@ export function BacktestComparison({ results, probabilities }: BacktestCompariso
       predictions: { predicted: string; actual: string; correct: boolean }[];
     }> = {};
 
-    const setKeys = ['setA', 'setB', 'setC', 'setD', 'setE', 'setF', 'setG'] as const;
+    // Include all sets A-J, but only process sets that exist in the data
+    const allSetKeys = ['setA', 'setB', 'setC', 'setD', 'setE', 'setF', 'setG', 'setH', 'setI', 'setJ'] as const;
+    // Filter to only sets that have data
+    const setKeys = allSetKeys.filter(setKey => {
+      // Check if at least one probability has this set
+      return probabilities.some(prob => prob.sets[setKey] !== undefined);
+    }) as typeof allSetKeys;
 
     setKeys.forEach(setKey => {
       let correct = 0;
@@ -287,7 +302,7 @@ export function BacktestComparison({ results, probabilities }: BacktestCompariso
               </div>
             </div>
             <p className="text-xs text-muted-foreground mt-2">
-              Across 7 probability sets
+              Across {setKeys.length} probability sets
             </p>
           </CardContent>
         </Card>
@@ -306,7 +321,7 @@ export function BacktestComparison({ results, probabilities }: BacktestCompariso
             <CardHeader>
               <CardTitle>Probability Set Performance</CardTitle>
               <CardDescription>
-                Comparing accuracy across all 7 probability sets
+                Comparing accuracy across all probability sets ({setKeys.length} sets available)
               </CardDescription>
             </CardHeader>
             <CardContent>

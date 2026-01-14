@@ -111,13 +111,14 @@ class FootballDataOrgService:
         
         self.last_request_time = time.time()
     
-    def _make_request(self, endpoint: str, params: Optional[Dict] = None) -> Dict:
+    def _make_request(self, endpoint: str, params: Optional[Dict] = None, max_retries: int = 3) -> Dict:
         """
-        Make API request with rate limiting and error handling
+        Make API request with rate limiting, error handling, and retry logic
         
         Args:
             endpoint: API endpoint (e.g., '/competitions/{id}/matches')
             params: Query parameters
+            max_retries: Maximum number of retry attempts for connection errors
         
         Returns:
             JSON response as dict
@@ -128,45 +129,86 @@ class FootballDataOrgService:
         self._rate_limit()
         
         url = f"{self.base_url}{endpoint}"
+        verify_ssl = getattr(settings, 'VERIFY_SSL', True)
         
-        try:
-            verify_ssl = getattr(settings, 'VERIFY_SSL', True)
-            response = requests.get(url, headers=self.headers, params=params, timeout=30, verify=verify_ssl)
-            response.raise_for_status()
-            return response.json()
-        except requests.exceptions.HTTPError as e:
-            if response.status_code == 429:
-                logger.warning("Rate limit exceeded. Waiting 60 seconds...")
-                time.sleep(60)
-                # Retry once
-                verify_ssl = getattr(settings, 'VERIFY_SSL', True)
-                response = requests.get(url, headers=self.headers, params=params, timeout=30, verify=verify_ssl)
+        # Retry logic for connection errors
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(url, headers=self.headers, params=params, timeout=60, verify=verify_ssl)
                 response.raise_for_status()
                 return response.json()
-            elif response.status_code == 403:
-                # 403 Forbidden - usually means subscription tier doesn't include this competition
-                error_msg = response.text if hasattr(response, 'text') else str(e)
-                logger.error(
-                    f"403 Forbidden from Football-Data.org for {endpoint}. "
-                    f"This competition may require a paid subscription tier. "
-                    f"Free tier typically only includes major European leagues. "
-                    f"Error: {error_msg}"
-                )
-                # Raise a more informative error
-                raise ValueError(
-                    f"403 Forbidden: This competition requires a paid Football-Data.org subscription. "
-                    f"Free tier access is limited. Endpoint: {endpoint}"
-                )
-            elif response.status_code == 404:
-                logger.error(f"404 Not Found from Football-Data.org: {endpoint}. Competition ID may be incorrect.")
-                raise ValueError(f"Competition not found (404): {endpoint}. Verify competition ID.")
-            else:
-                error_msg = response.text if hasattr(response, 'text') else str(e)
-                logger.error(f"HTTP error {response.status_code} from Football-Data.org: {error_msg}")
+            except requests.exceptions.HTTPError as e:
+                if response.status_code == 429:
+                    wait_time = 60
+                    logger.warning(f"Rate limit exceeded. Waiting {wait_time} seconds...")
+                    time.sleep(wait_time)
+                    # Retry once after rate limit wait
+                    response = requests.get(url, headers=self.headers, params=params, timeout=60, verify=verify_ssl)
+                    response.raise_for_status()
+                    return response.json()
+                elif response.status_code == 403:
+                    # 403 Forbidden - usually means subscription tier doesn't include this competition
+                    error_msg = response.text if hasattr(response, 'text') else str(e)
+                    logger.error(
+                        f"403 Forbidden from Football-Data.org for {endpoint}. "
+                        f"This competition may require a paid subscription tier. "
+                        f"Free tier typically only includes major European leagues. "
+                        f"Error: {error_msg}"
+                    )
+                    # Raise a more informative error
+                    raise ValueError(
+                        f"403 Forbidden: This competition requires a paid Football-Data.org subscription. "
+                        f"Free tier access is limited. Endpoint: {endpoint}"
+                    )
+                elif response.status_code == 404:
+                    logger.error(f"404 Not Found from Football-Data.org: {endpoint}. Competition ID may be incorrect.")
+                    raise ValueError(f"Competition not found (404): {endpoint}. Verify competition ID.")
+                else:
+                    error_msg = response.text if hasattr(response, 'text') else str(e)
+                    logger.error(f"HTTP error {response.status_code} from Football-Data.org: {error_msg}")
+                    raise
+            except requests.exceptions.ConnectTimeout as e:
+                # Connection timeout - retry with exponential backoff
+                if attempt < max_retries - 1:
+                    wait_time = (2 ** attempt) * 5  # 5, 10, 20 seconds
+                    logger.warning(
+                        f"Connection timeout (attempt {attempt + 1}/{max_retries}) for {endpoint}. "
+                        f"Retrying in {wait_time} seconds..."
+                    )
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    # Final attempt failed
+                    logger.error(
+                        f"Connection timeout after {max_retries} attempts for {endpoint}: {e}. "
+                        f"This may indicate network issues or the API server is down."
+                    )
+                    raise requests.exceptions.RequestException(
+                        f"Failed to connect to Football-Data.org after {max_retries} attempts: {e}"
+                    ) from e
+            except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+                # Other connection errors - retry with exponential backoff
+                if attempt < max_retries - 1:
+                    wait_time = (2 ** attempt) * 5  # 5, 10, 20 seconds
+                    logger.warning(
+                        f"Connection error (attempt {attempt + 1}/{max_retries}) for {endpoint}: {type(e).__name__}. "
+                        f"Retrying in {wait_time} seconds..."
+                    )
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    # Final attempt failed
+                    logger.error(
+                        f"Connection error after {max_retries} attempts for {endpoint}: {e}. "
+                        f"This may indicate network issues or the API server is down."
+                    )
+                    raise requests.exceptions.RequestException(
+                        f"Failed to connect to Football-Data.org after {max_retries} attempts: {e}"
+                    ) from e
+            except requests.exceptions.RequestException as e:
+                # Other request errors - don't retry (but log them)
+                logger.error(f"Request error from Football-Data.org for {endpoint}: {e}")
                 raise
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Request error from Football-Data.org: {e}")
-            raise
     
     def get_matches_for_competition(
         self,

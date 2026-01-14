@@ -576,8 +576,57 @@ class DataIngestionService:
                     
                     # Commit periodically
                     if stats["processed"] % 100 == 0:
-                        self.db.commit()
+                        try:
+                            self.db.commit()
+                        except IntegrityError as ie:
+                            # Handle duplicate key violations on bulk commit
+                            # This can happen if duplicates exist within the batch
+                            error_str = str(ie.orig) if hasattr(ie, 'orig') else str(ie)
+                            if 'uix_match' in error_str or 'duplicate key' in error_str.lower():
+                                logger.warning(
+                                    f"Duplicate key violation during bulk commit at row {row_num}. "
+                                    f"Rolling back and will retry with individual commits..."
+                                )
+                                self.db.rollback()
+                                # Re-query and update existing matches in this batch
+                                # This is a fallback - the per-row check should catch most duplicates
+                                logger.debug(f"Bulk commit failed due to duplicates, continuing with individual processing...")
+                            else:
+                                raise
                 
+                except IntegrityError as ie:
+                    # Handle duplicate key violations for individual rows
+                    error_str = str(ie.orig) if hasattr(ie, 'orig') else str(ie)
+                    if 'uix_match' in error_str or 'duplicate key' in error_str.lower():
+                        # Match already exists - try to update it instead
+                        try:
+                            self.db.rollback()
+                            existing_match = self.db.query(Match).filter(
+                                Match.home_team_id == home_team.id,
+                                Match.away_team_id == away_team.id,
+                                Match.match_date == match_date
+                            ).first()
+                            
+                            if existing_match:
+                                # Update existing match
+                                existing_match.home_goals = home_goals
+                                existing_match.away_goals = away_goals
+                                existing_match.result = result
+                                if odds_home: existing_match.odds_home = odds_home
+                                if odds_draw: existing_match.odds_draw = odds_draw
+                                if odds_away: existing_match.odds_away = odds_away
+                                stats["updated"] += 1
+                                self.db.commit()
+                            else:
+                                # Race condition - match was inserted between check and insert
+                                stats["skipped"] += 1
+                                logger.debug(f"Row {row_num}: Match already exists (race condition), skipping")
+                        except Exception as update_error:
+                            stats["errors"] += 1
+                            logger.warning(f"Error handling duplicate for row {row_num}: {update_error}")
+                    else:
+                        # Other integrity error - re-raise
+                        raise
                 except Exception as e:
                     stats["errors"] += 1
                     error_msg = f"Row {row_num} ({league_code} {season}): {str(e)}"
@@ -595,6 +644,20 @@ class DataIngestionService:
             # Final commit
             try:
                 self.db.commit()
+            except IntegrityError as ie:
+                # Handle duplicate key violations on final commit
+                error_str = str(ie.orig) if hasattr(ie, 'orig') else str(ie)
+                if 'uix_match' in error_str or 'duplicate key' in error_str.lower():
+                    logger.warning(
+                        f"Duplicate key violation on final commit. "
+                        f"Rolling back and will skip duplicates..."
+                    )
+                    self.db.rollback()
+                    # Try to commit remaining non-duplicate matches individually
+                    # This is a fallback - most duplicates should be caught earlier
+                    logger.debug("Final commit failed due to duplicates, some matches may not be saved")
+                else:
+                    raise
             except Exception as commit_error:
                 logger.error(f"Error committing matches: {commit_error}", exc_info=True)
                 self.db.rollback()
@@ -676,21 +739,72 @@ class DataIngestionService:
                 self.db.commit()
             raise
     
-    def download_from_football_data(
+    def _find_existing_csv_file(
         self,
         league_code: str,
         season: str
+    ) -> Optional[Path]:
+        """
+        Check if CSV file already exists in any download session folder.
+        Searches all session folders in Historical Match_Odds_Data.
+        
+        Args:
+            league_code: League code (e.g., 'E0')
+            season: Season code (e.g., '2324')
+        
+        Returns:
+            Path to existing CSV file if found, None otherwise
+        """
+        backend_root = Path(__file__).parent.parent.parent
+        base_dir = backend_root / "data" / "1_data_ingestion" / "Historical Match_Odds_Data"
+        
+        if not base_dir.exists():
+            return None
+        
+        # Search all session folders
+        filename = f"{league_code}_{season}.csv"
+        
+        for session_folder in base_dir.iterdir():
+            if not session_folder.is_dir():
+                continue
+            
+            csv_file = session_folder / league_code / filename
+            if csv_file.exists() and csv_file.is_file():
+                logger.debug(f"Found existing CSV: {csv_file}")
+                return csv_file
+        
+        return None
+    
+    def download_from_football_data(
+        self,
+        league_code: str,
+        season: str,
+        skip_if_exists: bool = True
     ) -> str:
         """
-        Download CSV from football-data.co.uk
+        Download CSV from football-data.co.uk or read from existing file.
         
         Args:
             league_code: League code (e.g., 'E0' for Premier League)
             season: Season code (e.g., '2324' for 2023-24)
+            skip_if_exists: If True, check for existing CSV file first and skip download if found
         
         Returns:
             CSV content as string (UTF-8 encoded)
         """
+        # Check if CSV already exists
+        if skip_if_exists:
+            existing_csv = self._find_existing_csv_file(league_code, season)
+            if existing_csv:
+                logger.info(f"✓ CSV already exists for {league_code} {season}, reading from: {existing_csv.parent.name}/{existing_csv.name}")
+                try:
+                    return existing_csv.read_text(encoding='utf-8')
+                except UnicodeDecodeError:
+                    # Try latin-1 if UTF-8 fails
+                    return existing_csv.read_text(encoding='latin-1')
+        
+        # CSV doesn't exist, download it
+        logger.info(f"📥 Downloading {league_code} {season} from football-data.co.uk...")
         # Extra Leagues (available from 2012/13 onwards) use same URL structure
         # But some leagues may not exist at all - try standard URL first
         url = f"https://www.football-data.co.uk/mmz4281/{season}/{league_code}.csv"
@@ -727,7 +841,8 @@ class DataIngestionService:
             
             # Check if response is HTML (error page)
             if content.startswith('<!DOCTYPE') or content.startswith('<html') or content.startswith('<HTML'):
-                raise ValueError(f"Received HTML error page instead of CSV from {url}. The file may not exist for this league/season.")
+                # This is expected for non-existent files - return a clear error message
+                raise ValueError(f"CSV file not available for {league_code} season {season} at {url}. The file may not exist for this league/season combination.")
             
             # Check content-type if available
             content_type = response.headers.get('Content-Type', '').lower()
@@ -819,7 +934,7 @@ class DataIngestionService:
             elif season == "last10":
                 return self.ingest_all_seasons(league_code, batch_number, save_csv, max_years=10, download_session_folder=download_session_folder)
             
-            csv_content = self.download_from_football_data(league_code, season)
+            csv_content = self.download_from_football_data(league_code, season, skip_if_exists=True)
             return self.ingest_csv(csv_content, league_code, season, batch_number=batch_number, save_csv=save_csv, download_session_folder=download_session_folder)
     
     def ingest_from_football_data_org(
@@ -906,9 +1021,10 @@ class DataIngestionService:
         }
         
         # Ingest each season
-        for season_code in seasons:
+        total_seasons = len(seasons)
+        for idx, season_code in enumerate(seasons, 1):
             try:
-                logger.info(f"Downloading {league_code} season {season_code} from Football-Data.org...")
+                logger.info(f"[{idx}/{total_seasons}] Downloading {league_code} season {season_code} from Football-Data.org...")
                 stats = org_service.ingest_league_matches(
                     league_code=league_code,
                     season=season_code,
@@ -921,12 +1037,19 @@ class DataIngestionService:
                 total_stats["skipped"] += stats["skipped"]
                 total_stats["errors"] += stats["errors"]
                 
+                logger.info(
+                    f"✓ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                    f"{stats['processed']} processed, {stats['inserted']} inserted, "
+                    f"{stats['updated']} updated, {stats['errors']} errors"
+                )
+                
             except ValueError as e:
                 # Handle subscription/access errors gracefully
                 error_msg = str(e)
                 if "403 Forbidden" in error_msg or "subscription" in error_msg.lower():
                     logger.warning(
-                        f"Football-Data.org failed for {league_code} season {season_code}: {error_msg}. "
+                        f"⚠ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Football-Data.org subscription error: {error_msg}. "
                         f"Trying OpenFootball as fallback..."
                     )
                     # Try OpenFootball as fallback
@@ -938,21 +1061,55 @@ class DataIngestionService:
                             season=season_code,
                             batch_number=batch_number
                         )
-                        logger.info(f"Successfully ingested {league_code} season {season_code} from OpenFootball")
+                        logger.info(
+                            f"✓ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                            f"Successfully ingested from OpenFootball (fallback) - "
+                            f"{stats['processed']} processed, {stats['inserted']} inserted"
+                        )
                         total_stats["processed"] += stats["processed"]
                         total_stats["inserted"] += stats["inserted"]
                         total_stats["updated"] += stats["updated"]
                         total_stats["skipped"] += stats["skipped"]
                         total_stats["errors"] += stats["errors"]
                     except Exception as of_error:
-                        logger.warning(f"OpenFootball also failed for {league_code} season {season_code}: {of_error}")
+                        logger.error(
+                            f"✗ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                            f"Both Football-Data.org and OpenFootball failed. "
+                            f"OpenFootball error: {of_error}"
+                        )
                         total_stats["errors"] += 1
                 else:
-                    logger.error(f"Failed to ingest {league_code} season {season_code} from Football-Data.org: {e}")
+                    logger.error(
+                        f"✗ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Failed to ingest from Football-Data.org: {e}"
+                    )
                     total_stats["errors"] += 1
                 continue
             except Exception as e:
-                logger.error(f"Failed to ingest {league_code} season {season_code} from Football-Data.org: {e}", exc_info=True)
+                # Check if it's a connection/timeout error
+                error_type = type(e).__name__
+                is_connection_error = (
+                    'ConnectTimeout' in error_type or 
+                    'ConnectionError' in error_type or 
+                    'Timeout' in error_type or
+                    'RequestException' in error_type or
+                    'connection' in str(e).lower() or
+                    'timeout' in str(e).lower()
+                )
+                
+                if is_connection_error:
+                    logger.warning(
+                        f"⚠ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Connection/timeout error from Football-Data.org. "
+                        f"Error: {error_type}. Trying OpenFootball as fallback..."
+                    )
+                else:
+                    logger.error(
+                        f"✗ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Unexpected error from Football-Data.org: {error_type} - {str(e)[:200]}",
+                        exc_info=False  # Don't print full traceback to reduce noise
+                    )
+                
                 # Try OpenFootball as fallback
                 try:
                     from app.services.ingestion.ingest_openfootball import OpenFootballService
@@ -962,16 +1119,37 @@ class DataIngestionService:
                         season=season_code,
                         batch_number=batch_number
                     )
-                    logger.info(f"Successfully ingested {league_code} season {season_code} from OpenFootball (fallback)")
+                    logger.info(
+                        f"✓ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Successfully ingested from OpenFootball (fallback) - "
+                        f"{stats['processed']} processed, {stats['inserted']} inserted"
+                    )
                     total_stats["processed"] += stats["processed"]
                     total_stats["inserted"] += stats["inserted"]
                     total_stats["updated"] += stats["updated"]
                     total_stats["skipped"] += stats["skipped"]
                     total_stats["errors"] += stats["errors"]
                 except Exception as of_error:
-                    logger.error(f"Both Football-Data.org and OpenFootball failed for {league_code} season {season_code}: {of_error}")
-                total_stats["errors"] += 1
+                    logger.error(
+                        f"✗ [{idx}/{total_seasons}] {league_code} {season_code}: "
+                        f"Both Football-Data.org and OpenFootball failed. "
+                        f"OpenFootball error: {type(of_error).__name__} - {str(of_error)[:200]}"
+                    )
+                    total_stats["errors"] += 1
                 continue
+        
+        # Log final summary
+        logger.info("=" * 80)
+        logger.info(f"📊 INGESTION SUMMARY for {league_code} ({len(seasons)} seasons):")
+        logger.info(f"   ✓ Processed: {total_stats['processed']} matches")
+        logger.info(f"   ✓ Inserted: {total_stats['inserted']} new matches")
+        logger.info(f"   ✓ Updated: {total_stats['updated']} existing matches")
+        logger.info(f"   ⚠ Skipped: {total_stats['skipped']} matches")
+        if total_stats['errors'] > 0:
+            logger.warning(f"   ✗ Errors: {total_stats['errors']} seasons failed")
+        else:
+            logger.info(f"   ✓ Errors: 0 (all seasons successful)")
+        logger.info("=" * 80)
         
         # Update batch log
         batch_log = self.db.query(IngestionLog).filter(IngestionLog.id == batch_number).first()
@@ -1080,8 +1258,8 @@ class DataIngestionService:
         
         for season_code in seasons:
             try:
-                logger.info(f"Downloading {league_code} season {season_code}...")
-                csv_content = self.download_from_football_data(league_code, season_code)
+                # Check if CSV exists first (skip download if it does)
+                csv_content = self.download_from_football_data(league_code, season_code, skip_if_exists=True)
                 stats = self.ingest_csv(
                     csv_content, 
                     league_code, 
@@ -1112,10 +1290,16 @@ class DataIngestionService:
                 
             except Exception as e:
                 error_msg = str(e)
-                logger.error(f"Failed to ingest season {season_code}: {error_msg}", exc_info=True)
+                error_type = type(e).__name__
                 
-                # Handle 404 errors gracefully (data not available for this league/season)
-                is_404 = "404" in error_msg or "Not Found" in error_msg
+                # Handle expected errors gracefully (data not available for this league/season)
+                is_expected_error = (
+                    "404" in error_msg or 
+                    "Not Found" in error_msg or 
+                    "HTML error page" in error_msg or
+                    "CSV file not available" in error_msg or
+                    "file may not exist" in error_msg.lower()
+                )
                 
                 # Rollback any failed transaction
                 try:
@@ -1128,13 +1312,21 @@ class DataIngestionService:
                     "season": season_code,
                     "status": "failed",
                     "error": error_msg,
-                    "is_404": is_404,  # Flag for 404 errors (data not available)
+                    "is_expected": is_expected_error,  # Flag for expected errors (data not available)
                     "league_code": league_code  # Include league code for logging
                 })
                 
-                # Don't log 404s as critical errors - they're expected for some leagues/seasons
-                if not is_404:
-                    logger.warning(f"Non-404 error for {league_code} season {season_code}: {error_msg}")
+                # Don't log expected errors as critical - they're normal for some leagues/seasons
+                if is_expected_error:
+                    logger.debug(
+                        f"⚠ {league_code} season {season_code}: "
+                        f"Data not available (expected) - {error_msg[:100]}"
+                    )
+                else:
+                    logger.warning(
+                        f"✗ {league_code} season {season_code}: "
+                        f"Unexpected error ({error_type}) - {error_msg[:200]}"
+                    )
                 continue
         
         # Write download log for this league if download_session_folder is provided

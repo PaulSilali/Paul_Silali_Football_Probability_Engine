@@ -5,7 +5,7 @@ This service provides functions to fetch injury data from various sources
 and populate the team_injuries table.
 """
 import requests
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from sqlalchemy import text
 from app.db.models import Team, TeamInjuries, League, JackpotFixture
 from app.services.injury_tracking import record_team_injuries, calculate_injury_severity
@@ -45,6 +45,17 @@ API_FOOTBALL_LEAGUE_IDS = {
     'B1': 144,  # Pro League
     'T1': 203,  # Super Lig
     'G1': 197,  # Super League 1
+    'DK1': 119, # Danish Superliga
+    'SWE1': 103, # Allsvenskan (Sweden)
+    'NO1': 103,  # Eliteserien (Norway) - Note: Same ID as Sweden, verify if needed
+    'FIN1': 106, # Veikkausliiga (Finland)
+    'PL1': 106,  # Ekstraklasa (Poland)
+    'RO1': 109,  # Liga 1 (Romania)
+    'CZE1': 129, # First League (Czech Republic)
+    'CRO1': 203, # Prva HNL (Croatia)
+    'SRB1': 203, # SuperLiga (Serbia)
+    'UKR1': 203, # Premier League (Ukraine)
+    'IRL1': 203, # Premier Division (Ireland)
     # Add more as needed
 }
 
@@ -378,12 +389,20 @@ def download_injuries_from_api_football(
             logger.warning(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
         
-        # Get fixture
-        fixture = db.query(JackpotFixture).filter(JackpotFixture.id == fixture_id).first()
+        # Get fixture with jackpot relationship eagerly loaded
+        from app.db.models import Jackpot
+        fixture = db.query(JackpotFixture).options(
+            joinedload(JackpotFixture.jackpot)
+        ).filter(JackpotFixture.id == fixture_id).first()
+        
         if not fixture:
             error_msg = f"Fixture {fixture_id} not found in database"
             logger.warning(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
+        
+        # Ensure jackpot relationship is loaded (fallback if eager load didn't work)
+        if not hasattr(fixture, 'jackpot') or fixture.jackpot is None:
+            fixture.jackpot = db.query(Jackpot).filter(Jackpot.id == fixture.jackpot_id).first()
         
         # Get teams
         home_team = db.query(Team).filter(Team.id == fixture.home_team_id).first()
@@ -401,13 +420,28 @@ def download_injuries_from_api_football(
             logger.warning(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
         
-        # Get fixture date
+        # Get fixture date - try multiple sources
         fixture_date = None
-        if fixture.jackpot and fixture.jackpot.kickoff_date:
+        
+        # Try 1: Check if fixture has match_date attribute
+        if hasattr(fixture, 'match_date') and fixture.match_date:
+            fixture_date = fixture.match_date
+            logger.debug(f"Fixture {fixture_id}: Using fixture.match_date = {fixture_date}")
+        
+        # Try 2: Check jackpot kickoff_date
+        elif fixture.jackpot and fixture.jackpot.kickoff_date:
             fixture_date = fixture.jackpot.kickoff_date
+            logger.debug(f"Fixture {fixture_id}: Using jackpot.kickoff_date = {fixture_date}")
+        
+        # Try 3: Use today's date as fallback (for future fixtures)
         else:
-            error_msg = f"Fixture date not found for fixture {fixture_id} (jackpot_id={fixture.jackpot_id if fixture.jackpot_id else 'None'})"
-            logger.warning(f"Fixture {fixture_id}: {error_msg}")
+            from datetime import date as date_class
+            fixture_date = date_class.today()
+            logger.warning(f"Fixture {fixture_id}: No date found, using today's date as fallback: {fixture_date}")
+        
+        if not fixture_date:
+            error_msg = f"Could not determine fixture date for fixture {fixture_id}"
+            logger.error(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
         
         logger.debug(f"Fixture {fixture_id}: {home_team.name} vs {away_team.name}, league={league.code}, date={fixture_date}")

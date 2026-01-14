@@ -1,4 +1,24 @@
 Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team_id,TotalGoals,GoalDifference,Year,Month,DayOfWeek,is_high_scoring_match,is_very_high_scoring
+2019-02-22,JPN1,Sanfrecce Hiroshima,Cerezo Osaka,1,1,D,1920,46,9657,9650,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Júbilo Iwata,Matsumoto Yamaga,1,1,D,1920,46,9660,9669,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Yokohama F. Marinos,FC Tokyo,3,0,H,1920,46,9649,9648,3,3,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Vissel Kobe,Júbilo Iwata,4,1,H,1920,46,9664,9660,5,3,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Urawa Red Diamonds,Gamba Osaka,2,3,A,1920,46,9654,9655,5,-1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Shimizu S-Pulse,Sagan Tosu,1,0,H,1920,46,9651,9658,1,1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Sanfrecce Hiroshima,Vegalta Sendai,1,0,H,1920,46,9657,9666,1,1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Oita Trinita,Cerezo Osaka,0,2,A,1920,46,9667,9650,2,-2,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Nagoya Grampus,Kashima Antlers,0,1,A,1920,46,9663,9656,1,-1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Matsumoto Yamaga,Shonan Bellmare,1,1,D,1920,46,9669,9661,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,1,2,A,1920,46,9652,9647,3,-1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Vegalta Sendai,Oita Trinita,2,0,H,1920,46,9666,9667,2,2,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Shonan Bellmare,Sanfrecce Hiroshima,1,0,H,1920,46,9661,9657,1,1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,0,2,A,1920,46,9658,9652,2,-2,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Kawasaki Frontale,Yokohama F. Marinos,1,4,A,1920,46,9647,9649,5,-3,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Kashima Antlers,Vissel Kobe,1,3,A,1920,46,9656,9664,4,-2,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Júbilo Iwata,Nagoya Grampus,2,1,H,1920,46,9660,9663,3,1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Gamba Osaka,Matsumoto Yamaga,4,1,H,1920,46,9655,9669,5,3,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,FC Tokyo,Urawa Red Diamonds,1,1,D,1920,46,9648,9654,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Cerezo Osaka,Shimizu S-Pulse,2,1,H,1920,46,9650,9651,3,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Gamba Osaka,Vegalta Sendai,2,0,H,1920,46,9655,9666,2,2,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Shimizu S-Pulse,Oita Trinita,1,1,D,1920,46,9651,9667,2,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Sanfrecce Hiroshima,Kashima Antlers,0,0,D,1920,46,9657,9656,0,0,2019.0,2.0,4.0,0,0
@@ -36,7 +56,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2019-02-22,JPN1,Matsumoto Yamaga,Kashima Antlers,1,1,D,1920,46,9669,9656,2,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,0,1,A,1920,46,9652,9650,1,-1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Shonan Bellmare,Kawasaki Frontale,0,5,A,1920,46,9661,9647,5,-5,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sanfrecce Hiroshima,Júbilo Iwata,0,0,D,1920,46,9657,9660,0,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Urawa Red Diamonds,Shimizu S-Pulse,2,1,H,1920,46,9654,9651,3,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Cerezo Osaka,Kashima Antlers,0,1,A,1920,46,9650,9656,1,-1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Sanfrecce Hiroshima,Vissel Kobe,6,2,H,1920,46,9657,9664,8,4,2019.0,2.0,4.0,1,0
@@ -61,15 +80,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2019-02-22,JPN1,Gamba Osaka,Sagan Tosu,1,0,H,1920,46,9655,9658,1,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Oita Trinita,Shonan Bellmare,2,1,H,1920,46,9667,9661,3,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Hokkaido Consadole Sapporo,Vegalta Sendai,1,3,A,1920,46,9652,9666,4,-2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Cerezo Osaka,Vissel Kobe,1,0,H,1920,46,9650,9664,1,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Kawasaki Frontale,FC Tokyo,0,0,D,1920,46,9647,9648,0,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sagan Tosu,Nagoya Grampus,0,4,A,1920,46,9658,9663,4,-4,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,1,1,D,1920,46,9657,9651,2,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Vegalta Sendai,Urawa Red Diamonds,0,0,D,1920,46,9666,9654,0,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Gamba Osaka,Yokohama F. Marinos,2,3,A,1920,46,9655,9649,5,-1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Kashima Antlers,Oita Trinita,1,2,A,1920,46,9656,9667,3,-1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,2,0,H,1920,46,9661,9652,2,2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Kawasaki Frontale,Kashima Antlers,1,1,D,1920,46,9647,9656,2,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Urawa Red Diamonds,Cerezo Osaka,1,2,A,1920,46,9654,9650,3,-1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Shimizu S-Pulse,Nagoya Grampus,3,2,H,1920,46,9651,9663,5,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Shonan Bellmare,Urawa Red Diamonds,1,1,D,1920,46,9661,9654,2,0,2019.0,2.0,4.0,0,0
@@ -141,7 +151,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2019-02-22,JPN1,Hokkaido Consadole Sapporo,Matsumoto Yamaga,1,1,D,1920,46,9652,9669,2,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Yokohama F. Marinos,Oita Trinita,1,0,H,1920,46,9649,9667,1,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Urawa Red Diamonds,Vegalta Sendai,1,0,H,1920,46,9654,9666,1,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sanfrecce Hiroshima,Cerezo Osaka,1,1,D,1920,46,9657,9650,2,0,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Kashima Antlers,Júbilo Iwata,2,0,H,1920,46,9656,9660,2,2,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Shimizu S-Pulse,Vissel Kobe,2,1,H,1920,46,9651,9664,3,1,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Sagan Tosu,Shimizu S-Pulse,4,2,H,1920,46,9658,9651,6,2,2019.0,2.0,4.0,0,0
@@ -286,332 +295,323 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2019-02-22,JPN1,Shimizu S-Pulse,Gamba Osaka,2,4,A,1920,46,9651,9655,6,-2,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Nagoya Grampus,Cerezo Osaka,2,0,H,1920,46,9663,9650,2,2,2019.0,2.0,4.0,0,0
 2019-02-22,JPN1,Yokohama F. Marinos,Vegalta Sendai,2,1,H,1920,46,9649,9666,3,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Júbilo Iwata,Matsumoto Yamaga,1,1,D,1920,46,9660,9669,2,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Yokohama F. Marinos,FC Tokyo,3,0,H,1920,46,9649,9648,3,3,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Vissel Kobe,Júbilo Iwata,4,1,H,1920,46,9664,9660,5,3,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Urawa Red Diamonds,Gamba Osaka,2,3,A,1920,46,9654,9655,5,-1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Shimizu S-Pulse,Sagan Tosu,1,0,H,1920,46,9651,9658,1,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sanfrecce Hiroshima,Vegalta Sendai,1,0,H,1920,46,9657,9666,1,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Oita Trinita,Cerezo Osaka,0,2,A,1920,46,9667,9650,2,-2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Nagoya Grampus,Kashima Antlers,0,1,A,1920,46,9663,9656,1,-1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Matsumoto Yamaga,Shonan Bellmare,1,1,D,1920,46,9669,9661,2,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,1,2,A,1920,46,9652,9647,3,-1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Vegalta Sendai,Oita Trinita,2,0,H,1920,46,9666,9667,2,2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Shonan Bellmare,Sanfrecce Hiroshima,1,0,H,1920,46,9661,9657,1,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,0,2,A,1920,46,9658,9652,2,-2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Kawasaki Frontale,Yokohama F. Marinos,1,4,A,1920,46,9647,9649,5,-3,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Kashima Antlers,Vissel Kobe,1,3,A,1920,46,9656,9664,4,-2,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Júbilo Iwata,Nagoya Grampus,2,1,H,1920,46,9660,9663,3,1,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Gamba Osaka,Matsumoto Yamaga,4,1,H,1920,46,9655,9669,5,3,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,FC Tokyo,Urawa Red Diamonds,1,1,D,1920,46,9648,9654,2,0,2019.0,2.0,4.0,0,0
-2019-02-22,JPN1,Cerezo Osaka,Shimizu S-Pulse,2,1,H,1920,46,9650,9651,3,1,2019.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Vissel Kobe,2,1,H,2021,46,9665,9664,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Urawa Red Diamonds,2,3,A,2021,46,9661,9654,5,-1,2020.0,2.0,4.0,0,0
+2019-02-22,JPN1,Sanfrecce Hiroshima,Júbilo Iwata,0,0,D,1920,46,9657,9660,0,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Kawasaki Frontale,Kashima Antlers,1,1,D,1920,46,9647,9656,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,2,0,H,1920,46,9661,9652,2,2,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Kashima Antlers,Oita Trinita,1,2,A,1920,46,9656,9667,3,-1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Gamba Osaka,Yokohama F. Marinos,2,3,A,1920,46,9655,9649,5,-1,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Vegalta Sendai,Urawa Red Diamonds,0,0,D,1920,46,9666,9654,0,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,1,1,D,1920,46,9657,9651,2,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Sagan Tosu,Nagoya Grampus,0,4,A,1920,46,9658,9663,4,-4,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Kawasaki Frontale,FC Tokyo,0,0,D,1920,46,9647,9648,0,0,2019.0,2.0,4.0,0,0
+2019-02-22,JPN1,Cerezo Osaka,Vissel Kobe,1,0,H,1920,46,9650,9664,1,1,2019.0,2.0,4.0,0,0
 2020-02-21,JPN1,Vegalta Sendai,Nagoya Grampus,1,1,D,2021,46,9666,9663,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Oita Trinita,1,0,H,2021,46,9650,9667,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Sagan Tosu,0,0,D,2021,46,9647,9658,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Hokkaido Consadole Sapporo,4,2,H,2021,46,9662,9652,6,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,FC Tokyo,1,3,A,2021,46,9651,9648,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Kashima Antlers,3,0,H,2021,46,9657,9656,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Gamba Osaka,1,2,A,2021,46,9649,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Yokohama FC,1,1,D,2021,46,9664,9665,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Hokkaido Consadole Sapporo,1,2,A,2021,46,9665,9652,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Nagoya Grampus,1,2,A,2021,46,9651,9663,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Cerezo Osaka,1,2,A,2021,46,9655,9650,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Sagan Tosu,2,0,H,2021,46,9667,9658,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Yokohama F. Marinos,0,0,D,2021,46,9654,9649,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,FC Tokyo,0,1,A,2021,46,9662,9648,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Kashima Antlers,2,1,H,2021,46,9647,9656,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Vegalta Sendai,0,1,A,2021,46,9661,9666,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Sanfrecce Hiroshima,0,3,A,2021,46,9664,9657,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Urawa Red Diamonds,1,2,A,2021,46,9666,9654,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Shimizu S-Pulse,2,0,H,2021,46,9650,9651,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Yokohama FC,1,3,A,2021,46,9662,9665,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Hokkaido Consadole Sapporo,0,2,A,2021,46,9656,9652,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Shonan Bellmare,3,2,H,2021,46,9649,9661,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Oita Trinita,1,2,A,2021,46,9657,9667,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Vissel Kobe,0,1,A,2021,46,9658,9664,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Kawasaki Frontale,0,4,A,2021,46,9648,9647,4,-4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Gamba Osaka,2,2,D,2021,46,9663,9655,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Kashiwa Reysol,3,1,H,2021,46,9647,9662,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Vissel Kobe,1,1,D,2021,46,9667,9664,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Vegalta Sendai,1,1,D,2021,46,9665,9666,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Gamba Osaka,1,2,A,2021,46,9651,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Sanfrecce Hiroshima,0,0,D,2021,46,9658,9657,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Kashima Antlers,1,0,H,2021,46,9654,9656,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,0,0,D,2021,46,9661,9652,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Nagoya Grampus,0,2,A,2021,46,9650,9663,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,FC Tokyo,1,3,A,2021,46,9649,9648,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Hokkaido Consadole Sapporo,2,2,D,2021,46,9666,9652,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Yokohama F. Marinos,4,2,H,2021,46,9656,9649,6,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Kawasaki Frontale,1,5,A,2021,46,9665,9647,6,-4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Sagan Tosu,1,0,H,2021,46,9663,9658,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Shonan Bellmare,3,2,H,2021,46,9662,9661,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Urawa Red Diamonds,2,0,H,2021,46,9648,9654,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Oita Trinita,2,1,H,2021,46,9655,9667,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Shimizu S-Pulse,3,1,H,2021,46,9664,9651,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Cerezo Osaka,1,2,A,2021,46,9657,9650,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Yokohama FC,4,0,H,2021,46,9649,9665,4,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Kashima Antlers,1,0,H,2021,46,9661,9656,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Sanfrecce Hiroshima,1,0,H,2021,46,9655,9657,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Shimizu S-Pulse,1,1,D,2021,46,9658,9651,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,FC Tokyo,1,1,D,2021,46,9652,9648,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Kawasaki Frontale,2,3,A,2021,46,9666,9647,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Kashiwa Reysol,0,4,A,2021,46,9654,9662,4,-4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Vissel Kobe,0,0,D,2021,46,9650,9664,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Nagoya Grampus,0,3,A,2021,46,9667,9663,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Yokohama F. Marinos,3,1,H,2021,46,9652,9649,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Urawa Red Diamonds,0,2,A,2021,46,9665,9654,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Oita Trinita,4,2,H,2021,46,9651,9667,6,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,FC Tokyo,2,2,D,2021,46,9656,9648,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Vegalta Sendai,5,1,H,2021,46,9662,9666,6,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Shonan Bellmare,3,1,H,2021,46,9647,9661,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Gamba Osaka,0,2,A,2021,46,9664,9655,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Cerezo Osaka,1,1,D,2021,46,9658,9650,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Nagoya Grampus,2,0,H,2021,46,9657,9663,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Yokohama F. Marinos,0,1,A,2021,46,9666,9649,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Sanfrecce Hiroshima,0,2,A,2021,46,9665,9657,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Kashiwa Reysol,0,1,A,2021,46,9663,9662,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Shimizu S-Pulse,1,1,D,2021,46,9654,9651,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Sagan Tosu,2,3,A,2021,46,9648,9658,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Cerezo Osaka,0,1,A,2021,46,9661,9650,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Kawasaki Frontale,0,1,A,2021,46,9655,9647,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Kashima Antlers,1,4,A,2021,46,9667,9656,5,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,2,3,A,2021,46,9652,9664,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Hokkaido Consadole Sapporo,3,1,H,2021,46,9651,9652,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Urawa Red Diamonds,6,2,H,2021,46,9663,9654,8,4,2020.0,2.0,4.0,1,0
-2020-02-21,JPN1,Kashima Antlers,Sagan Tosu,2,0,H,2021,46,9656,9658,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Oita Trinita,2,0,H,2021,46,9647,9667,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Kashiwa Reysol,1,1,D,2021,46,9649,9662,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Yokohama FC,2,1,H,2021,46,9655,9665,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Vegalta Sendai,1,2,A,2021,46,9664,9666,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Shonan Bellmare,1,0,H,2021,46,9657,9661,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,FC Tokyo,0,0,D,2021,46,9650,9648,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,1,6,A,2021,46,9652,9647,7,-5,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Shimizu S-Pulse,0,0,D,2021,46,9666,9651,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Shonan Bellmare,4,2,H,2021,46,9665,9661,6,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Yokohama F. Marinos,1,0,H,2021,46,9667,9649,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Sanfrecce Hiroshima,1,0,H,2021,46,9654,9657,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Cerezo Osaka,1,3,A,2021,46,9662,9650,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Nagoya Grampus,1,0,H,2021,46,9648,9663,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Vissel Kobe,2,2,D,2021,46,9656,9664,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Gamba Osaka,1,2,A,2021,46,9658,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Cerezo Osaka,5,2,H,2021,46,9647,9650,7,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Kashima Antlers,1,0,H,2021,46,9665,9656,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Nagoya Grampus,0,1,A,2021,46,9661,9663,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Yokohama F. Marinos,3,4,A,2021,46,9651,9649,7,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Urawa Red Diamonds,1,3,A,2021,46,9655,9654,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Kashiwa Reysol,2,3,A,2021,46,9664,9662,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,FC Tokyo,3,3,D,2021,46,9657,9648,6,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Oita Trinita,1,1,D,2021,46,9652,9667,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Sagan Tosu,0,3,A,2021,46,9666,9658,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Yokohama FC,2,3,A,2021,46,9651,9665,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Kawasaki Frontale,1,0,H,2021,46,9663,9647,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Gamba Osaka,1,1,D,2021,46,9656,9655,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Vissel Kobe,1,2,A,2021,46,9654,9664,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Shonan Bellmare,3,0,H,2021,46,9648,9661,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Sanfrecce Hiroshima,3,1,H,2021,46,9649,9657,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Vegalta Sendai,2,1,H,2021,46,9650,9666,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Kashiwa Reysol,0,0,D,2021,46,9667,9662,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,0,2,A,2021,46,9658,9652,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Yokohama F. Marinos,3,3,D,2021,46,9664,9649,6,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,0,0,D,2021,46,9652,9663,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Oita Trinita,2,1,H,2021,46,9654,9667,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Kashima Antlers,2,3,A,2021,46,9662,9656,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Shimizu S-Pulse,5,0,H,2021,46,9647,9651,5,5,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,FC Tokyo,1,3,A,2021,46,9655,9648,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Vegalta Sendai,1,1,D,2021,46,9657,9666,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Cerezo Osaka,1,2,A,2021,46,9665,9650,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Sagan Tosu,0,0,D,2021,46,9661,9658,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,0,2,A,2021,46,9652,9657,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Kawasaki Frontale,1,3,A,2021,46,9649,9647,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Kashiwa Reysol,1,2,A,2021,46,9651,9662,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Kashima Antlers,1,3,A,2021,46,9663,9656,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Gamba Osaka,1,4,A,2021,46,9666,9655,5,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Vissel Kobe,1,1,D,2021,46,9661,9664,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,FC Tokyo,0,1,A,2021,46,9667,9648,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Yokohama FC,3,0,H,2021,46,9658,9665,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Urawa Red Diamonds,3,0,H,2021,46,9650,9654,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Vissel Kobe,3,2,H,2021,46,9647,9664,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Vegalta Sendai,2,1,H,2021,46,9656,9666,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Gamba Osaka,3,0,H,2021,46,9662,9655,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Yokohama FC,2,1,H,2021,46,9648,9665,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,4,1,H,2021,46,9657,9651,5,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Shonan Bellmare,2,2,D,2021,46,9667,9661,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Sagan Tosu,2,2,D,2021,46,9654,9658,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Yokohama F. Marinos,2,1,H,2021,46,9663,9649,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Hokkaido Consadole Sapporo,2,0,H,2021,46,9650,9652,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Kashima Antlers,1,2,A,2021,46,9651,9656,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,FC Tokyo,2,2,D,2021,46,9664,9648,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Urawa Red Diamonds,3,4,A,2021,46,9652,9654,7,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Oita Trinita,0,3,A,2021,46,9666,9667,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Nagoya Grampus,3,2,H,2021,46,9665,9663,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Sanfrecce Hiroshima,5,1,H,2021,46,9647,9657,6,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Kashiwa Reysol,2,1,H,2021,46,9658,9662,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Cerezo Osaka,1,2,A,2021,46,9649,9650,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Shonan Bellmare,0,1,A,2021,46,9655,9661,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Gamba Osaka,0,1,A,2021,46,9652,9655,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Yokohama F. Marinos,1,3,A,2021,46,9658,9649,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Vissel Kobe,2,1,H,2021,46,9663,9664,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Kashima Antlers,1,2,A,2021,46,9650,9656,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Shimizu S-Pulse,0,3,A,2021,46,9661,9651,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Sanfrecce Hiroshima,1,1,D,2021,46,9662,9657,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Yokohama FC,1,0,H,2021,46,9667,9665,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Kawasaki Frontale,0,3,A,2021,46,9654,9647,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Vegalta Sendai,1,0,H,2021,46,9648,9666,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kashiwa Reysol,0,1,A,2021,46,9652,9662,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Shonan Bellmare,1,0,H,2021,46,9656,9661,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Cerezo Osaka,2,0,H,2021,46,9648,9650,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Yokohama FC,3,2,H,2021,46,9647,9665,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Nagoya Grampus,2,1,H,2021,46,9655,9663,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Sagan Tosu,4,3,H,2021,46,9664,9658,7,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Sanfrecce Hiroshima,0,2,A,2021,46,9667,9657,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Vegalta Sendai,3,1,H,2021,46,9649,9666,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Urawa Red Diamonds,1,2,A,2021,46,9651,9654,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Shimizu S-Pulse,3,1,H,2021,46,9663,9651,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Yokohama FC,0,2,A,2021,46,9654,9665,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Hokkaido Consadole Sapporo,4,0,H,2021,46,9664,9652,4,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Cerezo Osaka,2,3,A,2021,46,9666,9650,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,FC Tokyo,3,0,H,2021,46,9658,9648,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Oita Trinita,0,2,A,2021,46,9656,9667,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Gamba Osaka,1,2,A,2021,46,9657,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Yokohama F. Marinos,1,3,A,2021,46,9662,9649,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Kawasaki Frontale,0,1,A,2021,46,9661,9647,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Vegalta Sendai,3,3,D,2021,46,9652,9666,6,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Kawasaki Frontale,1,3,A,2021,46,9650,9647,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Kashiwa Reysol,0,3,A,2021,46,9665,9662,3,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Sagan Tosu,3,0,H,2021,46,9657,9658,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Kashima Antlers,2,0,H,2021,46,9655,9656,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Shimizu S-Pulse,2,1,H,2021,46,9667,9651,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,FC Tokyo,0,1,A,2021,46,9661,9648,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Vissel Kobe,2,3,A,2021,46,9649,9664,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Nagoya Grampus,0,1,A,2021,46,9654,9663,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Shonan Bellmare,2,1,H,2021,46,9652,9661,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Gamba Osaka,0,1,A,2021,46,9648,9655,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Sanfrecce Hiroshima,2,3,A,2021,46,9651,9657,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Cerezo Osaka,1,0,H,2021,46,9663,9650,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Vissel Kobe,4,3,H,2021,46,9662,9664,7,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Yokohama FC,3,2,H,2021,46,9656,9665,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Oita Trinita,4,0,H,2021,46,9649,9667,4,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Vegalta Sendai,1,0,H,2021,46,9647,9666,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Urawa Red Diamonds,0,1,A,2021,46,9658,9654,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Kashima Antlers,0,2,A,2021,46,9658,9656,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Yokohama FC,0,0,D,2021,46,9666,9665,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Urawa Red Diamonds,1,1,D,2021,46,9662,9654,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Shimizu S-Pulse,3,1,H,2021,46,9648,9651,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Yokohama F. Marinos,1,1,D,2021,46,9655,9649,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Oita Trinita,1,1,D,2021,46,9664,9667,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Kawasaki Frontale,0,2,A,2021,46,9657,9647,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Hokkaido Consadole Sapporo,3,0,H,2021,46,9663,9652,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Shonan Bellmare,1,0,H,2021,46,9650,9661,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Yokohama F. Marinos,4,1,H,2021,46,9650,9649,5,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kashima Antlers,1,0,H,2021,46,9652,9656,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,FC Tokyo,1,0,H,2021,46,9665,9648,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Sagan Tosu,1,1,D,2021,46,9651,9658,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Gamba Osaka,0,1,A,2021,46,9667,9655,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Kashiwa Reysol,3,2,H,2021,46,9661,9662,5,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Vegalta Sendai,6,0,H,2021,46,9654,9666,6,6,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Vissel Kobe,2,1,H,2021,46,9657,9664,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Nagoya Grampus,3,0,H,2021,46,9647,9663,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Kawasaki Frontale,2,2,D,2021,46,9664,9647,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Oita Trinita,2,3,A,2021,46,9648,9667,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Shimizu S-Pulse,3,0,H,2021,46,9649,9651,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Yokohama FC,3,0,H,2021,46,9652,9665,3,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Sanfrecce Hiroshima,1,0,H,2021,46,9656,9657,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Vegalta Sendai,1,0,H,2021,46,9663,9666,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Kashiwa Reysol,2,1,H,2021,46,9655,9662,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Cerezo Osaka,3,1,H,2021,46,9654,9650,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Shonan Bellmare,2,2,D,2021,46,9658,9661,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Cerezo Osaka,0,1,A,2021,46,9664,9650,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Sagan Tosu,1,1,D,2021,46,9649,9658,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Sanfrecce Hiroshima,0,0,D,2021,46,9666,9657,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Urawa Red Diamonds,0,0,D,2021,46,9667,9654,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Yokohama FC,1,0,H,2021,46,9661,9665,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Shimizu S-Pulse,0,0,D,2021,46,9662,9651,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Nagoya Grampus,0,2,A,2021,46,9656,9663,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,FC Tokyo,2,1,H,2021,46,9647,9648,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Hokkaido Consadole Sapporo,2,1,H,2021,46,9655,9652,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Kashima Antlers,1,2,A,2021,46,9648,9656,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Nagoya Grampus,0,0,D,2021,46,9658,9663,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Hokkaido Consadole Sapporo,0,2,A,2021,46,9647,9652,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Gamba Osaka,1,1,D,2021,46,9650,9655,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Vissel Kobe,3,1,H,2021,46,9651,9664,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Oita Trinita,2,3,A,2021,46,9665,9667,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Urawa Red Diamonds,1,1,D,2021,46,9657,9654,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Yokohama F. Marinos,1,0,H,2021,46,9661,9649,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Kashiwa Reysol,0,2,A,2021,46,9666,9662,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,1,1,D,2021,46,9652,9658,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Cerezo Osaka,3,1,H,2021,46,9651,9650,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Yokohama FC,1,1,D,2021,46,9657,9665,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Vegalta Sendai,0,4,A,2021,46,9655,9666,4,-4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Urawa Red Diamonds,6,2,H,2021,46,9649,9654,8,4,2020.0,2.0,4.0,1,0
-2020-02-21,JPN1,Kashima Antlers,Kawasaki Frontale,1,1,D,2021,46,9656,9647,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Shonan Bellmare,0,2,A,2021,46,9664,9661,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,FC Tokyo,1,0,H,2021,46,9663,9648,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Oita Trinita,1,1,D,2021,46,9662,9667,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Yokohama F. Marinos,0,4,A,2021,46,9648,9649,4,-4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Shimizu S-Pulse,5,1,H,2021,46,9652,9651,6,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Kawasaki Frontale,1,0,H,2021,46,9667,9647,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Kashima Antlers,1,3,A,2021,46,9666,9656,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Sagan Tosu,1,2,A,2021,46,9662,9658,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Sanfrecce Hiroshima,0,1,A,2021,46,9650,9657,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Shonan Bellmare,3,1,H,2021,46,9663,9661,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Gamba Osaka,1,2,A,2021,46,9654,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,4,1,H,2021,46,9649,9652,5,3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Nagoya Grampus,1,0,H,2021,46,9664,9663,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,FC Tokyo,0,1,A,2021,46,9654,9648,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Gamba Osaka,5,0,H,2021,46,9647,9655,5,5,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Kashiwa Reysol,1,4,A,2021,46,9656,9662,5,-3,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Shimizu S-Pulse,1,3,A,2021,46,9665,9651,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Cerezo Osaka,0,1,A,2021,46,9667,9650,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Sanfrecce Hiroshima,1,1,D,2021,46,9661,9657,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Vegalta Sendai,0,1,A,2021,46,9658,9666,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Vissel Kobe,2,3,A,2021,46,9666,9664,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Kashiwa Reysol,1,3,A,2021,46,9648,9662,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Yokohama F. Marinos,3,1,H,2021,46,9647,9649,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Oita Trinita,0,0,D,2021,46,9663,9667,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,2,2,D,2021,46,9657,9652,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Shonan Bellmare,1,1,D,2021,46,9651,9661,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Urawa Red Diamonds,4,0,H,2021,46,9656,9654,4,4,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Yokohama FC,1,0,H,2021,46,9650,9665,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Sagan Tosu,1,1,D,2021,46,9655,9658,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Kashima Antlers,2,3,A,2021,46,9649,9656,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Urawa Red Diamonds,0,1,A,2021,46,9664,9654,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,1,3,A,2021,46,9652,9650,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Nagoya Grampus,0,1,A,2021,46,9662,9663,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Kawasaki Frontale,2,2,D,2021,46,9651,9647,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Sagan Tosu,1,1,D,2021,46,9665,9658,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Vegalta Sendai,0,2,A,2021,46,9667,9666,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Gamba Osaka,1,2,A,2021,46,9661,9655,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Sanfrecce Hiroshima,1,0,H,2021,46,9648,9657,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Yokohama F. Marinos,3,1,H,2021,46,9657,9649,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Vissel Kobe,1,0,H,2021,46,9655,9664,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,FC Tokyo,2,2,D,2021,46,9666,9648,4,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Yokohama FC,0,0,D,2021,46,9663,9665,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Kashiwa Reysol,0,0,D,2021,46,9650,9662,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sagan Tosu,Kawasaki Frontale,1,1,D,2021,46,9658,9647,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Oita Trinita,Hokkaido Consadole Sapporo,1,1,D,2021,46,9667,9652,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Shimizu S-Pulse,2,0,H,2021,46,9656,9651,2,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Shonan Bellmare,0,0,D,2021,46,9654,9661,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vissel Kobe,Kashima Antlers,1,3,A,2021,46,9664,9656,4,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama F. Marinos,Nagoya Grampus,2,1,H,2021,46,9649,9663,3,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Hokkaido Consadole Sapporo,1,0,H,2021,46,9648,9652,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kawasaki Frontale,Urawa Red Diamonds,3,1,H,2021,46,9647,9654,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Gamba Osaka,0,2,A,2021,46,9665,9655,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shonan Bellmare,Oita Trinita,1,2,A,2021,46,9661,9667,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Shimizu S-Pulse,Vegalta Sendai,2,3,A,2021,46,9651,9666,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Cerezo Osaka,Sagan Tosu,1,2,A,2021,46,9650,9658,3,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Sanfrecce Hiroshima,Kashiwa Reysol,0,1,A,2021,46,9657,9662,1,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Vegalta Sendai,Shonan Bellmare,0,0,D,2021,46,9666,9661,0,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashima Antlers,Cerezo Osaka,1,1,D,2021,46,9656,9650,2,0,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,0,2,A,2021,46,9654,9652,2,-2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Kashiwa Reysol,Kawasaki Frontale,2,3,A,2021,46,9662,9647,5,-1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,FC Tokyo,Vissel Kobe,1,0,H,2021,46,9648,9664,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Yokohama FC,Yokohama F. Marinos,3,1,H,2021,46,9665,9649,4,2,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,1,0,H,2021,46,9663,9657,1,1,2020.0,2.0,4.0,0,0
-2020-02-21,JPN1,Gamba Osaka,Shimizu S-Pulse,0,2,A,2021,46,9655,9651,2,-2,2020.0,2.0,4.0,0,0
 2020-02-21,JPN1,Sagan Tosu,Oita Trinita,2,2,D,2021,46,9658,9667,4,0,2020.0,2.0,4.0,0,0
-2021-02-26,JPN1,Vegalta Sendai,Shonan Bellmare,0,2,A,2122,46,9666,9661,2,-2,2021.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Shimizu S-Pulse,0,2,A,2021,46,9655,9651,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,1,0,H,2021,46,9663,9657,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Yokohama F. Marinos,3,1,H,2021,46,9665,9649,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Vissel Kobe,1,0,H,2021,46,9648,9664,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Kawasaki Frontale,2,3,A,2021,46,9662,9647,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,0,2,A,2021,46,9654,9652,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Cerezo Osaka,1,1,D,2021,46,9656,9650,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Shonan Bellmare,0,0,D,2021,46,9666,9661,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Kashiwa Reysol,0,1,A,2021,46,9657,9662,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Sagan Tosu,1,2,A,2021,46,9650,9658,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Vegalta Sendai,2,3,A,2021,46,9651,9666,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Oita Trinita,1,2,A,2021,46,9661,9667,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Gamba Osaka,0,2,A,2021,46,9665,9655,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Urawa Red Diamonds,3,1,H,2021,46,9647,9654,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Hokkaido Consadole Sapporo,1,0,H,2021,46,9648,9652,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Nagoya Grampus,2,1,H,2021,46,9649,9663,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Kashima Antlers,1,3,A,2021,46,9664,9656,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Shonan Bellmare,0,0,D,2021,46,9654,9661,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Shimizu S-Pulse,2,0,H,2021,46,9656,9651,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Hokkaido Consadole Sapporo,1,1,D,2021,46,9667,9652,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Kawasaki Frontale,1,1,D,2021,46,9658,9647,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Kashiwa Reysol,0,0,D,2021,46,9650,9662,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Yokohama FC,0,0,D,2021,46,9663,9665,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,FC Tokyo,2,2,D,2021,46,9666,9648,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Vissel Kobe,1,0,H,2021,46,9655,9664,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Yokohama F. Marinos,3,1,H,2021,46,9657,9649,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Sanfrecce Hiroshima,1,0,H,2021,46,9648,9657,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Gamba Osaka,1,2,A,2021,46,9661,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Vegalta Sendai,0,2,A,2021,46,9667,9666,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Sagan Tosu,1,1,D,2021,46,9665,9658,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Kawasaki Frontale,2,2,D,2021,46,9651,9647,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Nagoya Grampus,0,1,A,2021,46,9662,9663,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,1,3,A,2021,46,9652,9650,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Urawa Red Diamonds,0,1,A,2021,46,9664,9654,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Kashima Antlers,2,3,A,2021,46,9649,9656,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Sagan Tosu,1,1,D,2021,46,9655,9658,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Yokohama FC,1,0,H,2021,46,9650,9665,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Urawa Red Diamonds,4,0,H,2021,46,9656,9654,4,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Shonan Bellmare,1,1,D,2021,46,9651,9661,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,2,2,D,2021,46,9657,9652,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Oita Trinita,0,0,D,2021,46,9663,9667,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Yokohama F. Marinos,3,1,H,2021,46,9647,9649,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Kashiwa Reysol,1,3,A,2021,46,9648,9662,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Vissel Kobe,2,3,A,2021,46,9666,9664,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Vegalta Sendai,0,1,A,2021,46,9658,9666,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Sanfrecce Hiroshima,1,1,D,2021,46,9661,9657,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Cerezo Osaka,0,1,A,2021,46,9667,9650,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Shimizu S-Pulse,1,3,A,2021,46,9665,9651,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Kashiwa Reysol,1,4,A,2021,46,9656,9662,5,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Gamba Osaka,5,0,H,2021,46,9647,9655,5,5,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,FC Tokyo,0,1,A,2021,46,9654,9648,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Nagoya Grampus,1,0,H,2021,46,9664,9663,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,4,1,H,2021,46,9649,9652,5,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Gamba Osaka,1,2,A,2021,46,9654,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Shonan Bellmare,3,1,H,2021,46,9663,9661,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Sanfrecce Hiroshima,0,1,A,2021,46,9650,9657,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Sagan Tosu,1,2,A,2021,46,9662,9658,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Kashima Antlers,1,3,A,2021,46,9666,9656,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Kawasaki Frontale,1,0,H,2021,46,9667,9647,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Shimizu S-Pulse,5,1,H,2021,46,9652,9651,6,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Vissel Kobe,2,1,H,2021,46,9665,9664,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Yokohama F. Marinos,0,4,A,2021,46,9648,9649,4,-4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Oita Trinita,1,1,D,2021,46,9662,9667,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,FC Tokyo,1,0,H,2021,46,9663,9648,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Shonan Bellmare,0,2,A,2021,46,9664,9661,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Kawasaki Frontale,1,1,D,2021,46,9656,9647,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Urawa Red Diamonds,6,2,H,2021,46,9649,9654,8,4,2020.0,2.0,4.0,1,0
+2020-02-21,JPN1,Gamba Osaka,Vegalta Sendai,0,4,A,2021,46,9655,9666,4,-4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Yokohama FC,1,1,D,2021,46,9657,9665,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Cerezo Osaka,3,1,H,2021,46,9651,9650,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,1,1,D,2021,46,9652,9658,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Kashiwa Reysol,0,2,A,2021,46,9666,9662,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Yokohama F. Marinos,1,0,H,2021,46,9661,9649,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Urawa Red Diamonds,1,1,D,2021,46,9657,9654,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Oita Trinita,2,3,A,2021,46,9665,9667,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Vissel Kobe,3,1,H,2021,46,9651,9664,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Gamba Osaka,1,1,D,2021,46,9650,9655,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Hokkaido Consadole Sapporo,0,2,A,2021,46,9647,9652,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Nagoya Grampus,0,0,D,2021,46,9658,9663,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Kashima Antlers,1,2,A,2021,46,9648,9656,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Hokkaido Consadole Sapporo,2,1,H,2021,46,9655,9652,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,FC Tokyo,2,1,H,2021,46,9647,9648,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Nagoya Grampus,0,2,A,2021,46,9656,9663,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Shimizu S-Pulse,0,0,D,2021,46,9662,9651,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Yokohama FC,1,0,H,2021,46,9661,9665,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Urawa Red Diamonds,0,0,D,2021,46,9667,9654,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Sanfrecce Hiroshima,0,0,D,2021,46,9666,9657,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Sagan Tosu,1,1,D,2021,46,9649,9658,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Cerezo Osaka,0,1,A,2021,46,9664,9650,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Shonan Bellmare,2,2,D,2021,46,9658,9661,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Cerezo Osaka,3,1,H,2021,46,9654,9650,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Kashiwa Reysol,2,1,H,2021,46,9655,9662,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Vegalta Sendai,1,0,H,2021,46,9663,9666,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Sanfrecce Hiroshima,1,0,H,2021,46,9656,9657,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Yokohama FC,3,0,H,2021,46,9652,9665,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Shimizu S-Pulse,3,0,H,2021,46,9649,9651,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Oita Trinita,2,3,A,2021,46,9648,9667,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Kawasaki Frontale,2,2,D,2021,46,9664,9647,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Nagoya Grampus,3,0,H,2021,46,9647,9663,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Vissel Kobe,2,1,H,2021,46,9657,9664,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Vegalta Sendai,6,0,H,2021,46,9654,9666,6,6,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Kashiwa Reysol,3,2,H,2021,46,9661,9662,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Gamba Osaka,0,1,A,2021,46,9667,9655,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Sagan Tosu,1,1,D,2021,46,9651,9658,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,FC Tokyo,1,0,H,2021,46,9665,9648,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kashima Antlers,1,0,H,2021,46,9652,9656,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Yokohama F. Marinos,4,1,H,2021,46,9650,9649,5,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Shonan Bellmare,1,0,H,2021,46,9650,9661,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Hokkaido Consadole Sapporo,3,0,H,2021,46,9663,9652,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Kawasaki Frontale,0,2,A,2021,46,9657,9647,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Oita Trinita,1,1,D,2021,46,9664,9667,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Yokohama F. Marinos,1,1,D,2021,46,9655,9649,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Shimizu S-Pulse,3,1,H,2021,46,9648,9651,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Urawa Red Diamonds,1,1,D,2021,46,9662,9654,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Yokohama FC,0,0,D,2021,46,9666,9665,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Kashima Antlers,0,2,A,2021,46,9658,9656,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Urawa Red Diamonds,0,1,A,2021,46,9658,9654,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Vegalta Sendai,1,0,H,2021,46,9647,9666,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Oita Trinita,4,0,H,2021,46,9649,9667,4,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Yokohama FC,3,2,H,2021,46,9656,9665,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Vissel Kobe,4,3,H,2021,46,9662,9664,7,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Cerezo Osaka,1,0,H,2021,46,9663,9650,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Sanfrecce Hiroshima,2,3,A,2021,46,9651,9657,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Gamba Osaka,0,1,A,2021,46,9648,9655,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Shonan Bellmare,2,1,H,2021,46,9652,9661,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Nagoya Grampus,0,1,A,2021,46,9654,9663,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Vissel Kobe,2,3,A,2021,46,9649,9664,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,FC Tokyo,0,1,A,2021,46,9661,9648,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Shimizu S-Pulse,2,1,H,2021,46,9667,9651,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Kashima Antlers,2,0,H,2021,46,9655,9656,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Sagan Tosu,3,0,H,2021,46,9657,9658,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Kashiwa Reysol,0,3,A,2021,46,9665,9662,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Kawasaki Frontale,1,3,A,2021,46,9650,9647,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Vegalta Sendai,3,3,D,2021,46,9652,9666,6,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Kawasaki Frontale,0,1,A,2021,46,9661,9647,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Yokohama F. Marinos,1,3,A,2021,46,9662,9649,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Gamba Osaka,1,2,A,2021,46,9657,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Oita Trinita,0,2,A,2021,46,9656,9667,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,FC Tokyo,3,0,H,2021,46,9658,9648,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Cerezo Osaka,2,3,A,2021,46,9666,9650,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Hokkaido Consadole Sapporo,4,0,H,2021,46,9664,9652,4,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Yokohama FC,0,2,A,2021,46,9654,9665,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Shimizu S-Pulse,3,1,H,2021,46,9663,9651,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Urawa Red Diamonds,1,2,A,2021,46,9651,9654,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Vegalta Sendai,3,1,H,2021,46,9649,9666,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Sanfrecce Hiroshima,0,2,A,2021,46,9667,9657,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Sagan Tosu,4,3,H,2021,46,9664,9658,7,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Nagoya Grampus,2,1,H,2021,46,9655,9663,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Yokohama FC,3,2,H,2021,46,9647,9665,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Cerezo Osaka,2,0,H,2021,46,9648,9650,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Urawa Red Diamonds,2,3,A,2021,46,9661,9654,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Shonan Bellmare,1,0,H,2021,46,9656,9661,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kashiwa Reysol,0,1,A,2021,46,9652,9662,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Vegalta Sendai,1,0,H,2021,46,9648,9666,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Kawasaki Frontale,0,3,A,2021,46,9654,9647,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Yokohama FC,1,0,H,2021,46,9667,9665,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Sanfrecce Hiroshima,1,1,D,2021,46,9662,9657,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Shimizu S-Pulse,0,3,A,2021,46,9661,9651,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Kashima Antlers,1,2,A,2021,46,9650,9656,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Vissel Kobe,2,1,H,2021,46,9663,9664,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Yokohama F. Marinos,1,3,A,2021,46,9658,9649,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Gamba Osaka,0,1,A,2021,46,9652,9655,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Shonan Bellmare,0,1,A,2021,46,9655,9661,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Cerezo Osaka,1,2,A,2021,46,9649,9650,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Kashiwa Reysol,2,1,H,2021,46,9658,9662,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Sanfrecce Hiroshima,5,1,H,2021,46,9647,9657,6,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Nagoya Grampus,3,2,H,2021,46,9665,9663,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Oita Trinita,0,3,A,2021,46,9666,9667,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Urawa Red Diamonds,3,4,A,2021,46,9652,9654,7,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,FC Tokyo,2,2,D,2021,46,9664,9648,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Kashima Antlers,1,2,A,2021,46,9651,9656,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Hokkaido Consadole Sapporo,2,0,H,2021,46,9650,9652,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Yokohama F. Marinos,2,1,H,2021,46,9663,9649,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Sagan Tosu,2,2,D,2021,46,9654,9658,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Shonan Bellmare,2,2,D,2021,46,9667,9661,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,4,1,H,2021,46,9657,9651,5,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Yokohama FC,2,1,H,2021,46,9648,9665,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Gamba Osaka,3,0,H,2021,46,9662,9655,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Vegalta Sendai,2,1,H,2021,46,9656,9666,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Vissel Kobe,3,2,H,2021,46,9647,9664,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Urawa Red Diamonds,3,0,H,2021,46,9650,9654,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Yokohama FC,3,0,H,2021,46,9658,9665,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,FC Tokyo,0,1,A,2021,46,9667,9648,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Vissel Kobe,1,1,D,2021,46,9661,9664,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Gamba Osaka,1,4,A,2021,46,9666,9655,5,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Kashima Antlers,1,3,A,2021,46,9663,9656,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Kashiwa Reysol,1,2,A,2021,46,9651,9662,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Kawasaki Frontale,1,3,A,2021,46,9649,9647,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,0,2,A,2021,46,9652,9657,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Sagan Tosu,0,0,D,2021,46,9661,9658,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Cerezo Osaka,1,2,A,2021,46,9665,9650,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Vegalta Sendai,1,1,D,2021,46,9657,9666,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,FC Tokyo,1,3,A,2021,46,9655,9648,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Shimizu S-Pulse,5,0,H,2021,46,9647,9651,5,5,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Kashima Antlers,2,3,A,2021,46,9662,9656,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Oita Trinita,2,1,H,2021,46,9654,9667,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,0,0,D,2021,46,9652,9663,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Yokohama F. Marinos,3,3,D,2021,46,9664,9649,6,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,0,2,A,2021,46,9658,9652,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Kashiwa Reysol,0,0,D,2021,46,9667,9662,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Vegalta Sendai,2,1,H,2021,46,9650,9666,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Sanfrecce Hiroshima,3,1,H,2021,46,9649,9657,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Shonan Bellmare,3,0,H,2021,46,9648,9661,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Vissel Kobe,1,2,A,2021,46,9654,9664,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Gamba Osaka,1,1,D,2021,46,9656,9655,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Kawasaki Frontale,1,0,H,2021,46,9663,9647,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Yokohama FC,2,3,A,2021,46,9651,9665,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Sagan Tosu,0,3,A,2021,46,9666,9658,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Oita Trinita,1,1,D,2021,46,9652,9667,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,FC Tokyo,3,3,D,2021,46,9657,9648,6,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Kashiwa Reysol,2,3,A,2021,46,9664,9662,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Urawa Red Diamonds,1,3,A,2021,46,9655,9654,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Yokohama F. Marinos,3,4,A,2021,46,9651,9649,7,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Nagoya Grampus,0,1,A,2021,46,9661,9663,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Kashima Antlers,1,0,H,2021,46,9665,9656,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Cerezo Osaka,5,2,H,2021,46,9647,9650,7,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Gamba Osaka,1,2,A,2021,46,9658,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Vissel Kobe,2,2,D,2021,46,9656,9664,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Nagoya Grampus,1,0,H,2021,46,9648,9663,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Cerezo Osaka,1,3,A,2021,46,9662,9650,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Sanfrecce Hiroshima,1,0,H,2021,46,9654,9657,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Yokohama F. Marinos,1,0,H,2021,46,9667,9649,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Shonan Bellmare,4,2,H,2021,46,9665,9661,6,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Shimizu S-Pulse,0,0,D,2021,46,9666,9651,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,1,6,A,2021,46,9652,9647,7,-5,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,FC Tokyo,0,0,D,2021,46,9650,9648,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Shonan Bellmare,1,0,H,2021,46,9657,9661,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Vegalta Sendai,1,2,A,2021,46,9664,9666,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Yokohama FC,2,1,H,2021,46,9655,9665,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Kashiwa Reysol,1,1,D,2021,46,9649,9662,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Oita Trinita,2,0,H,2021,46,9647,9667,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Sagan Tosu,2,0,H,2021,46,9656,9658,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Urawa Red Diamonds,6,2,H,2021,46,9663,9654,8,4,2020.0,2.0,4.0,1,0
+2020-02-21,JPN1,Shimizu S-Pulse,Hokkaido Consadole Sapporo,3,1,H,2021,46,9651,9652,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,2,3,A,2021,46,9652,9664,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Kashima Antlers,1,4,A,2021,46,9667,9656,5,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Kawasaki Frontale,0,1,A,2021,46,9655,9647,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Cerezo Osaka,0,1,A,2021,46,9661,9650,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Sagan Tosu,2,3,A,2021,46,9648,9658,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Shimizu S-Pulse,1,1,D,2021,46,9654,9651,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Kashiwa Reysol,0,1,A,2021,46,9663,9662,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Sanfrecce Hiroshima,0,2,A,2021,46,9665,9657,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Yokohama F. Marinos,0,1,A,2021,46,9666,9649,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Nagoya Grampus,2,0,H,2021,46,9657,9663,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Cerezo Osaka,1,1,D,2021,46,9658,9650,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Gamba Osaka,0,2,A,2021,46,9664,9655,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Shonan Bellmare,3,1,H,2021,46,9647,9661,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Vegalta Sendai,5,1,H,2021,46,9662,9666,6,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,FC Tokyo,2,2,D,2021,46,9656,9648,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Oita Trinita,4,2,H,2021,46,9651,9667,6,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Urawa Red Diamonds,0,2,A,2021,46,9665,9654,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,Yokohama F. Marinos,3,1,H,2021,46,9652,9649,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Nagoya Grampus,0,3,A,2021,46,9667,9663,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Vissel Kobe,0,0,D,2021,46,9650,9664,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Kashiwa Reysol,0,4,A,2021,46,9654,9662,4,-4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Kawasaki Frontale,2,3,A,2021,46,9666,9647,5,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Hokkaido Consadole Sapporo,FC Tokyo,1,1,D,2021,46,9652,9648,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Shimizu S-Pulse,1,1,D,2021,46,9658,9651,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Sanfrecce Hiroshima,1,0,H,2021,46,9655,9657,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Kashima Antlers,1,0,H,2021,46,9661,9656,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Yokohama FC,4,0,H,2021,46,9649,9665,4,4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Cerezo Osaka,1,2,A,2021,46,9657,9650,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Shimizu S-Pulse,3,1,H,2021,46,9664,9651,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Oita Trinita,2,1,H,2021,46,9655,9667,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Urawa Red Diamonds,2,0,H,2021,46,9648,9654,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Shonan Bellmare,3,2,H,2021,46,9662,9661,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Sagan Tosu,1,0,H,2021,46,9663,9658,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Kawasaki Frontale,1,5,A,2021,46,9665,9647,6,-4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Yokohama F. Marinos,4,2,H,2021,46,9656,9649,6,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Hokkaido Consadole Sapporo,2,2,D,2021,46,9666,9652,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,FC Tokyo,1,3,A,2021,46,9649,9648,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Nagoya Grampus,0,2,A,2021,46,9650,9663,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,0,0,D,2021,46,9661,9652,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Kashima Antlers,1,0,H,2021,46,9654,9656,1,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Sanfrecce Hiroshima,0,0,D,2021,46,9658,9657,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Gamba Osaka,1,2,A,2021,46,9651,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Vegalta Sendai,1,1,D,2021,46,9665,9666,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Vissel Kobe,1,1,D,2021,46,9667,9664,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Kashiwa Reysol,3,1,H,2021,46,9647,9662,4,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Nagoya Grampus,Gamba Osaka,2,2,D,2021,46,9663,9655,4,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,FC Tokyo,Kawasaki Frontale,0,4,A,2021,46,9648,9647,4,-4,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sagan Tosu,Vissel Kobe,0,1,A,2021,46,9658,9664,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Oita Trinita,1,2,A,2021,46,9657,9667,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Shonan Bellmare,3,2,H,2021,46,9649,9661,5,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashima Antlers,Hokkaido Consadole Sapporo,0,2,A,2021,46,9656,9652,2,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Yokohama FC,1,3,A,2021,46,9662,9665,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Shimizu S-Pulse,2,0,H,2021,46,9650,9651,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vegalta Sendai,Urawa Red Diamonds,1,2,A,2021,46,9666,9654,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Sanfrecce Hiroshima,0,3,A,2021,46,9664,9657,3,-3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shonan Bellmare,Vegalta Sendai,0,1,A,2021,46,9661,9666,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Kashima Antlers,2,1,H,2021,46,9647,9656,3,1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,FC Tokyo,0,1,A,2021,46,9662,9648,1,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Urawa Red Diamonds,Yokohama F. Marinos,0,0,D,2021,46,9654,9649,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Oita Trinita,Sagan Tosu,2,0,H,2021,46,9667,9658,2,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Gamba Osaka,Cerezo Osaka,1,2,A,2021,46,9655,9650,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,Nagoya Grampus,1,2,A,2021,46,9651,9663,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama FC,Hokkaido Consadole Sapporo,1,2,A,2021,46,9665,9652,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Vissel Kobe,Yokohama FC,1,1,D,2021,46,9664,9665,2,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Yokohama F. Marinos,Gamba Osaka,1,2,A,2021,46,9649,9655,3,-1,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Sanfrecce Hiroshima,Kashima Antlers,3,0,H,2021,46,9657,9656,3,3,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Shimizu S-Pulse,FC Tokyo,1,3,A,2021,46,9651,9648,4,-2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kashiwa Reysol,Hokkaido Consadole Sapporo,4,2,H,2021,46,9662,9652,6,2,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Kawasaki Frontale,Sagan Tosu,0,0,D,2021,46,9647,9658,0,0,2020.0,2.0,4.0,0,0
+2020-02-21,JPN1,Cerezo Osaka,Oita Trinita,1,0,H,2021,46,9650,9667,1,1,2020.0,2.0,4.0,0,0
+2021-02-26,JPN1,Shimizu S-Pulse,Sanfrecce Hiroshima,1,0,H,2122,46,9651,9657,1,1,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Kawasaki Frontale,Yokohama F. Marinos,2,0,H,2122,46,9647,9649,2,2,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Urawa Red Diamonds,FC Tokyo,1,1,D,2122,46,9654,9648,2,0,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Kashima Antlers,Shimizu S-Pulse,1,3,A,2122,46,9656,9651,4,-2,2021.0,2.0,4.0,0,0
@@ -964,8 +964,8 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2021-02-26,JPN1,Gamba Osaka,Nagoya Grampus,1,3,A,2122,46,9655,9663,4,-2,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,1,0,H,2122,46,9658,9652,1,1,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Urawa Red Diamonds,Yokohama F. Marinos,2,1,H,2122,46,9654,9649,3,1,2021.0,2.0,4.0,0,0
+2021-02-26,JPN1,Vegalta Sendai,Shonan Bellmare,0,2,A,2122,46,9666,9661,2,-2,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Kashima Antlers,Oita Trinita,0,0,D,2122,46,9656,9667,0,0,2021.0,2.0,4.0,0,0
-2021-02-26,JPN1,Shimizu S-Pulse,Sanfrecce Hiroshima,1,0,H,2122,46,9651,9657,1,1,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Yokohama FC,Vissel Kobe,0,2,A,2122,46,9665,9664,2,-2,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Kashiwa Reysol,Avispa Fukuoka,0,0,D,2122,46,9662,9659,0,0,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Avispa Fukuoka,Vegalta Sendai,2,2,D,2122,46,9659,9666,4,0,2021.0,2.0,4.0,0,0
@@ -991,116 +991,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2021-02-26,JPN1,Hokkaido Consadole Sapporo,Yokohama FC,5,1,H,2122,46,9652,9665,6,4,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Sanfrecce Hiroshima,Vegalta Sendai,1,1,D,2122,46,9657,9666,2,0,2021.0,2.0,4.0,0,0
 2021-02-26,JPN1,Oita Trinita,Tokushima Vortis,1,1,D,2122,46,9667,9668,2,0,2021.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Nagoya Grampus,0,1,A,2223,46,9650,9663,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Kyoto Sanga FC,0,0,D,2223,46,9660,9653,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Kawasaki Frontale,2,3,A,2223,46,9648,9647,5,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashiwa Reysol,Shonan Bellmare,1,2,A,2223,46,9662,9661,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Avispa Fukuoka,1,1,D,2223,46,9654,9659,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashima Antlers,Gamba Osaka,0,0,D,2223,46,9656,9655,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Shimizu S-Pulse,4,3,H,2223,46,9652,9651,7,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Kashiwa Reysol,2,1,H,2223,46,9659,9662,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,1,2,A,2223,46,9657,9652,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,Júbilo Iwata,2,0,H,2223,46,9655,9660,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Cerezo Osaka,0,0,D,2223,46,9653,9650,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,FC Tokyo,2,1,H,2223,46,9663,9648,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Kashima Antlers,0,1,A,2223,46,9651,9656,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shonan Bellmare,Sagan Tosu,3,0,H,2223,46,9661,9658,3,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Urawa Red Diamonds,4,1,H,2223,46,9649,9654,5,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Vissel Kobe,2,1,H,2223,46,9647,9664,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashiwa Reysol,Cerezo Osaka,0,0,D,2223,46,9662,9650,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Shonan Bellmare,0,2,A,2223,46,9648,9661,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Sagan Tosu,2,1,H,2223,46,9654,9658,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Sanfrecce Hiroshima,4,0,H,2223,46,9664,9657,4,4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Nagoya Grampus,1,1,D,2223,46,9653,9663,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Kashima Antlers,3,3,D,2223,46,9660,9656,6,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Gamba Osaka,0,2,A,2223,46,9649,9655,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Shimizu S-Pulse,3,2,H,2223,46,9647,9651,5,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Avispa Fukuoka,1,2,A,2223,46,9652,9659,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Júbilo Iwata,1,1,D,2223,46,9651,9660,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,Kashiwa Reysol,0,0,D,2223,46,9655,9662,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,Yokohama F. Marinos,0,4,A,2223,46,9663,9649,4,-4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,4,3,H,2223,46,9652,9647,7,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Kyoto Sanga FC,0,1,A,2223,46,9658,9653,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sanfrecce Hiroshima,Urawa Red Diamonds,4,1,H,2223,46,9657,9654,5,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashima Antlers,FC Tokyo,0,1,A,2223,46,9656,9648,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Vissel Kobe,0,1,A,2223,46,9659,9664,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Shonan Bellmare,1,1,D,2223,46,9650,9661,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Gamba Osaka,2,1,H,2223,46,9664,9655,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Kyoto Sanga FC,2,0,H,2223,46,9648,9653,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,0,0,D,2223,46,9649,9652,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Shimizu S-Pulse,3,2,H,2223,46,9659,9651,5,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,0,0,D,2223,46,9663,9657,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shonan Bellmare,Urawa Red Diamonds,0,0,D,2223,46,9661,9654,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashiwa Reysol,Kawasaki Frontale,1,1,D,2223,46,9662,9647,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Cerezo Osaka,2,2,D,2223,46,9660,9650,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Kashima Antlers,1,1,D,2223,46,9658,9656,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Júbilo Iwata,4,0,H,2223,46,9652,9660,4,4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Nagoya Grampus,0,0,D,2223,46,9664,9663,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Sagan Tosu,2,1,H,2223,46,9650,9658,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,FC Tokyo,0,0,D,2223,46,9655,9648,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Kashima Antlers,1,1,D,2223,46,9653,9656,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Avispa Fukuoka,1,0,H,2223,46,9649,9659,1,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Kashiwa Reysol,4,1,H,2223,46,9654,9662,5,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Sanfrecce Hiroshima,4,0,H,2223,46,9647,9657,4,4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Shonan Bellmare,1,1,D,2223,46,9651,9661,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Nagoya Grampus,2,3,A,2223,46,9659,9663,5,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,Sagan Tosu,0,3,A,2223,46,9655,9658,3,-3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Vissel Kobe,2,0,H,2223,46,9653,9664,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shonan Bellmare,Kawasaki Frontale,2,1,H,2223,46,9661,9647,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Yokohama F. Marinos,2,2,D,2223,46,9648,9649,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,2,0,H,2223,46,9657,9651,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Kashiwa Reysol,2,2,D,2223,46,9660,9662,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashima Antlers,Urawa Red Diamonds,2,2,D,2223,46,9656,9654,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,2,1,H,2223,46,9652,9650,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,1,1,D,2223,46,9654,9652,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Shonan Bellmare,1,0,H,2223,46,9664,9661,1,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Júbilo Iwata,0,1,A,2223,46,9649,9660,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Kashima Antlers,2,1,H,2223,46,9647,9656,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Sanfrecce Hiroshima,0,3,A,2223,46,9650,9657,3,-3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashiwa Reysol,FC Tokyo,3,6,A,2223,46,9662,9648,9,-3,2022.0,2.0,4.0,1,0
-2022-02-18,JPN1,Nagoya Grampus,Gamba Osaka,0,2,A,2223,46,9663,9655,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Kyoto Sanga FC,1,0,H,2223,46,9651,9653,1,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Avispa Fukuoka,1,1,D,2223,46,9658,9659,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Cerezo Osaka,0,1,A,2223,46,9654,9650,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,FC Tokyo,2,1,H,2223,46,9664,9648,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Yokohama F. Marinos,1,2,A,2223,46,9653,9649,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shonan Bellmare,Kashima Antlers,1,1,D,2223,46,9661,9656,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Kawasaki Frontale,1,4,A,2223,46,9659,9647,5,-3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sanfrecce Hiroshima,Gamba Osaka,5,2,H,2223,46,9657,9655,7,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Kashiwa Reysol,1,1,D,2223,46,9651,9662,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,1,2,A,2223,46,9652,9658,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,Júbilo Iwata,1,0,H,2223,46,9663,9660,1,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Kyoto Sanga FC,3,1,H,2223,46,9647,9653,4,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Cerezo Osaka,4,0,H,2223,46,9648,9650,4,4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Shonan Bellmare,3,0,H,2223,46,9649,9661,3,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Nagoya Grampus,0,0,D,2223,46,9658,9663,0,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,Shimizu S-Pulse,0,2,A,2223,46,9655,9651,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashiwa Reysol,Sanfrecce Hiroshima,2,3,A,2223,46,9662,9657,5,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashima Antlers,Avispa Fukuoka,2,0,H,2223,46,9656,9659,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Urawa Red Diamonds,0,6,A,2223,46,9660,9654,6,-6,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,0,2,A,2223,46,9652,9664,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Avispa Fukuoka,Gamba Osaka,0,1,A,2223,46,9659,9655,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Júbilo Iwata,2,0,H,2223,46,9658,9660,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,1,5,A,2223,46,9661,9652,6,-4,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,Yokohama F. Marinos,2,1,H,2223,46,9647,9649,3,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Shimizu S-Pulse,0,2,A,2223,46,9648,9651,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Vissel Kobe,3,0,H,2223,46,9650,9664,3,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,Urawa Red Diamonds,3,0,H,2223,46,9663,9654,3,3,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Kashiwa Reysol,1,2,A,2223,46,9653,9662,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kashima Antlers,Sanfrecce Hiroshima,0,2,A,2223,46,9656,9657,2,-2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Shimizu S-Pulse,Sagan Tosu,3,3,D,2223,46,9651,9658,6,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sanfrecce Hiroshima,FC Tokyo,1,2,A,2223,46,9657,9648,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Kashiwa Reysol,0,1,A,2223,46,9664,9662,1,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Avispa Fukuoka,2,0,H,2223,46,9650,9659,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Gamba Osaka,Kyoto Sanga FC,1,1,D,2223,46,9655,9653,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Yokohama F. Marinos,Kashima Antlers,2,0,H,2223,46,9649,9656,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Urawa Red Diamonds,Kawasaki Frontale,3,1,H,2223,46,9654,9647,4,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Shonan Bellmare,1,0,H,2223,46,9660,9661,1,1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,2,2,D,2223,46,9652,9663,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Nagoya Grampus,Kawasaki Frontale,1,1,D,2223,46,9663,9647,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kyoto Sanga FC,Sanfrecce Hiroshima,1,1,D,2223,46,9653,9657,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,FC Tokyo,Júbilo Iwata,2,0,H,2223,46,9648,9660,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Yokohama F. Marinos,2,2,D,2223,46,9658,9649,4,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Gamba Osaka,Cerezo Osaka,1,2,A,2223,46,9655,9650,3,-1,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Shonan Bellmare,Avispa Fukuoka,0,0,D,2223,46,9661,9659,0,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Kashiwa Reysol,Hokkaido Consadole Sapporo,1,0,H,2223,46,9662,9652,1,1,2022.0,2.0,4.0,0,0
@@ -1148,6 +1038,116 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-02-18,JPN1,Kashiwa Reysol,Vissel Kobe,3,1,H,2223,46,9662,9664,4,2,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Urawa Red Diamonds,Nagoya Grampus,3,0,H,2223,46,9654,9663,3,3,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Júbilo Iwata,Sagan Tosu,3,1,H,2223,46,9660,9658,4,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Sanfrecce Hiroshima,1,1,D,2223,46,9653,9657,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Kawasaki Frontale,1,1,D,2223,46,9663,9647,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,2,2,D,2223,46,9652,9663,4,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Shonan Bellmare,1,0,H,2223,46,9660,9661,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Kawasaki Frontale,3,1,H,2223,46,9654,9647,4,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Kashima Antlers,2,0,H,2223,46,9649,9656,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,Kyoto Sanga FC,1,1,D,2223,46,9655,9653,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Avispa Fukuoka,2,0,H,2223,46,9650,9659,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Kashiwa Reysol,0,1,A,2223,46,9664,9662,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sanfrecce Hiroshima,FC Tokyo,1,2,A,2223,46,9657,9648,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Sagan Tosu,3,3,D,2223,46,9651,9658,6,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashima Antlers,Sanfrecce Hiroshima,0,2,A,2223,46,9656,9657,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Kashiwa Reysol,1,2,A,2223,46,9653,9662,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Urawa Red Diamonds,3,0,H,2223,46,9663,9654,3,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Vissel Kobe,3,0,H,2223,46,9650,9664,3,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Shimizu S-Pulse,0,2,A,2223,46,9648,9651,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Yokohama F. Marinos,2,1,H,2223,46,9647,9649,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,1,5,A,2223,46,9661,9652,6,-4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Júbilo Iwata,2,0,H,2223,46,9658,9660,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Gamba Osaka,0,1,A,2223,46,9659,9655,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,0,2,A,2223,46,9652,9664,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Urawa Red Diamonds,0,6,A,2223,46,9660,9654,6,-6,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashima Antlers,Avispa Fukuoka,2,0,H,2223,46,9656,9659,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashiwa Reysol,Sanfrecce Hiroshima,2,3,A,2223,46,9662,9657,5,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,Shimizu S-Pulse,0,2,A,2223,46,9655,9651,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Nagoya Grampus,0,0,D,2223,46,9658,9663,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Shonan Bellmare,3,0,H,2223,46,9649,9661,3,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Cerezo Osaka,4,0,H,2223,46,9648,9650,4,4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Kyoto Sanga FC,3,1,H,2223,46,9647,9653,4,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Júbilo Iwata,1,0,H,2223,46,9663,9660,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,1,2,A,2223,46,9652,9658,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Kashiwa Reysol,1,1,D,2223,46,9651,9662,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sanfrecce Hiroshima,Gamba Osaka,5,2,H,2223,46,9657,9655,7,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Kawasaki Frontale,1,4,A,2223,46,9659,9647,5,-3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shonan Bellmare,Kashima Antlers,1,1,D,2223,46,9661,9656,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Yokohama F. Marinos,1,2,A,2223,46,9653,9649,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,FC Tokyo,2,1,H,2223,46,9664,9648,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Cerezo Osaka,0,1,A,2223,46,9654,9650,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Avispa Fukuoka,1,1,D,2223,46,9658,9659,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Kyoto Sanga FC,1,0,H,2223,46,9651,9653,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Gamba Osaka,0,2,A,2223,46,9663,9655,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashiwa Reysol,FC Tokyo,3,6,A,2223,46,9662,9648,9,-3,2022.0,2.0,4.0,1,0
+2022-02-18,JPN1,Cerezo Osaka,Sanfrecce Hiroshima,0,3,A,2223,46,9650,9657,3,-3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Kashima Antlers,2,1,H,2223,46,9647,9656,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Júbilo Iwata,0,1,A,2223,46,9649,9660,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Shonan Bellmare,1,0,H,2223,46,9664,9661,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,1,1,D,2223,46,9654,9652,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,2,1,H,2223,46,9652,9650,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashima Antlers,Urawa Red Diamonds,2,2,D,2223,46,9656,9654,4,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Kashiwa Reysol,2,2,D,2223,46,9660,9662,4,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sanfrecce Hiroshima,Shimizu S-Pulse,2,0,H,2223,46,9657,9651,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Yokohama F. Marinos,2,2,D,2223,46,9648,9649,4,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shonan Bellmare,Kawasaki Frontale,2,1,H,2223,46,9661,9647,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Vissel Kobe,2,0,H,2223,46,9653,9664,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,Sagan Tosu,0,3,A,2223,46,9655,9658,3,-3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Nagoya Grampus,2,3,A,2223,46,9659,9663,5,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Shonan Bellmare,1,1,D,2223,46,9651,9661,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Sanfrecce Hiroshima,4,0,H,2223,46,9647,9657,4,4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Kashiwa Reysol,4,1,H,2223,46,9654,9662,5,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Avispa Fukuoka,1,0,H,2223,46,9649,9659,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Kashima Antlers,1,1,D,2223,46,9653,9656,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,FC Tokyo,0,0,D,2223,46,9655,9648,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Sagan Tosu,2,1,H,2223,46,9650,9658,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Nagoya Grampus,0,0,D,2223,46,9664,9663,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Júbilo Iwata,4,0,H,2223,46,9652,9660,4,4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Kashima Antlers,1,1,D,2223,46,9658,9656,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Cerezo Osaka,2,2,D,2223,46,9660,9650,4,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashiwa Reysol,Kawasaki Frontale,1,1,D,2223,46,9662,9647,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shonan Bellmare,Urawa Red Diamonds,0,0,D,2223,46,9661,9654,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,0,0,D,2223,46,9663,9657,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Shimizu S-Pulse,3,2,H,2223,46,9659,9651,5,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,0,0,D,2223,46,9649,9652,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Kyoto Sanga FC,2,0,H,2223,46,9648,9653,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Gamba Osaka,2,1,H,2223,46,9664,9655,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Shonan Bellmare,1,1,D,2223,46,9650,9661,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Vissel Kobe,0,1,A,2223,46,9659,9664,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashima Antlers,FC Tokyo,0,1,A,2223,46,9656,9648,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sanfrecce Hiroshima,Urawa Red Diamonds,4,1,H,2223,46,9657,9654,5,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Kyoto Sanga FC,0,1,A,2223,46,9658,9653,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,4,3,H,2223,46,9652,9647,7,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,Yokohama F. Marinos,0,4,A,2223,46,9663,9649,4,-4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,Kashiwa Reysol,0,0,D,2223,46,9655,9662,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Júbilo Iwata,1,1,D,2223,46,9651,9660,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Avispa Fukuoka,1,2,A,2223,46,9652,9659,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Shimizu S-Pulse,3,2,H,2223,46,9647,9651,5,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Gamba Osaka,0,2,A,2223,46,9649,9655,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Kashima Antlers,3,3,D,2223,46,9660,9656,6,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Nagoya Grampus,1,1,D,2223,46,9653,9663,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Sanfrecce Hiroshima,4,0,H,2223,46,9664,9657,4,4,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Sagan Tosu,2,1,H,2223,46,9654,9658,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Shonan Bellmare,0,2,A,2223,46,9648,9661,2,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashiwa Reysol,Cerezo Osaka,0,0,D,2223,46,9662,9650,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,Vissel Kobe,2,1,H,2223,46,9647,9664,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Yokohama F. Marinos,Urawa Red Diamonds,4,1,H,2223,46,9649,9654,5,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shonan Bellmare,Sagan Tosu,3,0,H,2223,46,9661,9658,3,3,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Shimizu S-Pulse,Kashima Antlers,0,1,A,2223,46,9651,9656,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Nagoya Grampus,FC Tokyo,2,1,H,2223,46,9663,9648,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kyoto Sanga FC,Cerezo Osaka,0,0,D,2223,46,9653,9650,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Gamba Osaka,Júbilo Iwata,2,0,H,2223,46,9655,9660,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,1,2,A,2223,46,9657,9652,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Avispa Fukuoka,Kashiwa Reysol,2,1,H,2223,46,9659,9662,3,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Hokkaido Consadole Sapporo,Shimizu S-Pulse,4,3,H,2223,46,9652,9651,7,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashima Antlers,Gamba Osaka,0,0,D,2223,46,9656,9655,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Urawa Red Diamonds,Avispa Fukuoka,1,1,D,2223,46,9654,9659,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kashiwa Reysol,Shonan Bellmare,1,2,A,2223,46,9662,9661,3,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Kawasaki Frontale,2,3,A,2223,46,9648,9647,5,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Kyoto Sanga FC,0,0,D,2223,46,9660,9653,0,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Nagoya Grampus,0,1,A,2223,46,9650,9663,1,-1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Vissel Kobe,Yokohama F. Marinos,1,3,A,2223,46,9664,9649,4,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Sanfrecce Hiroshima,2,2,D,2223,46,9658,9657,4,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Shimizu S-Pulse,Avispa Fukuoka,3,1,H,2223,46,9651,9659,4,2,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Shonan Bellmare,FC Tokyo,2,0,H,2223,46,9661,9648,2,2,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Kashima Antlers,Kyoto Sanga FC,1,0,H,2223,46,9656,9653,1,1,2022.0,2.0,4.0,0,0
@@ -1284,7 +1284,8 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-02-18,JPN1,Urawa Red Diamonds,Gamba Osaka,0,1,A,2223,46,9654,9655,1,-1,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Kashima Antlers,Kawasaki Frontale,0,2,A,2223,46,9656,9647,2,-2,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,1,1,D,2223,46,9652,9657,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Kawasaki Frontale,FC Tokyo,1,0,H,2223,46,9647,9648,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Cerezo Osaka,Kyoto Sanga FC,1,1,D,2223,46,9650,9653,2,0,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Júbilo Iwata,Shimizu S-Pulse,1,2,A,2223,46,9660,9651,3,-1,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Yokohama F. Marinos,Cerezo Osaka,2,2,D,2223,46,9649,9650,4,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Shimizu S-Pulse,Hokkaido Consadole Sapporo,1,1,D,2223,46,9651,9652,2,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Kyoto Sanga FC,Urawa Red Diamonds,1,0,H,2223,46,9653,9654,1,1,2022.0,2.0,4.0,0,0
@@ -1293,7 +1294,432 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-02-18,JPN1,Avispa Fukuoka,Júbilo Iwata,1,1,D,2223,46,9659,9660,2,0,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Shonan Bellmare,Kashiwa Reysol,0,2,A,2223,46,9661,9662,2,-2,2022.0,2.0,4.0,0,0
 2022-02-18,JPN1,Nagoya Grampus,Vissel Kobe,2,0,H,2223,46,9663,9664,2,2,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Cerezo Osaka,Kyoto Sanga FC,1,1,D,2223,46,9650,9653,2,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Júbilo Iwata,Shimizu S-Pulse,1,2,A,2223,46,9660,9651,3,-1,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Sagan Tosu,Sanfrecce Hiroshima,2,2,D,2223,46,9658,9657,4,0,2022.0,2.0,4.0,0,0
-2022-02-18,JPN1,Vissel Kobe,Yokohama F. Marinos,1,3,A,2223,46,9664,9649,4,-2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Kawasaki Frontale,FC Tokyo,1,0,H,2223,46,9647,9648,1,1,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,FC Tokyo,Júbilo Iwata,2,0,H,2223,46,9648,9660,2,2,2022.0,2.0,4.0,0,0
+2022-02-18,JPN1,Sagan Tosu,Yokohama F. Marinos,2,2,D,2223,46,9658,9649,4,0,2022.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Shonan Bellmare,1,1,D,2324,46,9662,9661,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Kashima Antlers,1,1,D,2324,46,9657,9656,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Yokohama F. Marinos,2,2,D,2324,46,9663,9649,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Shonan Bellmare,4,1,H,2324,46,9649,9661,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Hokkaido Consadole Sapporo,1,1,D,2324,46,9664,9652,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Urawa Red Diamonds,1,2,A,2324,46,9658,9654,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Kawasaki Frontale,1,1,D,2324,46,9654,9647,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kyoto Sanga FC,Yokohama FC,2,1,H,2324,46,9653,9665,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Kashima Antlers,2,1,H,2324,46,9655,9656,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,1,4,A,2324,46,9652,9650,5,-3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,FC Tokyo,3,1,H,2324,46,9655,9648,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Avispa Fukuoka,2,1,H,2324,46,9663,9659,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Kyoto Sanga FC,1,3,A,2324,46,9934,9653,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Hokkaido Consadole Sapporo,1,1,D,2324,46,9658,9652,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Vissel Kobe,2,1,H,2324,46,9650,9664,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Kashiwa Reysol,4,3,H,2324,46,9649,9662,7,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Kawasaki Frontale,2,2,D,2324,46,9664,9647,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Kyoto Sanga FC,3,1,H,2324,46,9657,9653,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Hokkaido Consadole Sapporo,4,5,A,2324,46,9662,9652,9,-1,2023.0,2.0,4.0,1,0
+2023-02-17,JPN1,Yokohama FC,Sagan Tosu,1,2,A,2324,46,9665,9658,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Gamba Osaka,1,2,A,2324,46,9659,9655,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Cerezo Osaka,3,1,H,2324,46,9663,9650,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Albirex Niigata,2,2,D,2324,46,9661,9934,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Yokohama F. Marinos,2,3,A,2324,46,9648,9649,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Gamba Osaka,1,3,A,2324,46,9934,9655,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Kashima Antlers,2,2,D,2324,46,9658,9656,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,FC Tokyo,3,2,H,2324,46,9664,9648,5,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,1,2,A,2324,46,9652,9663,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Kawasaki Frontale,2,1,H,2324,46,9665,9647,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Vissel Kobe,1,1,D,2324,46,9662,9664,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,2,1,H,2324,46,9663,9657,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,FC Tokyo,1,1,D,2324,46,9656,9648,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Kyoto Sanga FC,2,1,H,2324,46,9652,9653,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Gamba Osaka,3,1,H,2324,46,9654,9655,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Yokohama F. Marinos,2,1,H,2324,46,9934,9649,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,2,4,A,2324,46,9661,9652,6,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Kawasaki Frontale,2,1,H,2324,46,9648,9647,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Shonan Bellmare,4,1,H,2324,46,9654,9661,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Yokohama F. Marinos,1,2,A,2324,46,9647,9649,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Albirex Niigata,2,2,D,2324,46,9650,9934,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Gamba Osaka,2,2,D,2324,46,9662,9655,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Shonan Bellmare,1,5,A,2324,46,9658,9661,6,-4,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Yokohama FC,2,2,D,2324,46,9661,9665,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Cerezo Osaka,2,1,H,2324,46,9659,9650,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,1,3,A,2324,46,9652,9664,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Sagan Tosu,1,1,D,2324,46,9655,9658,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Kawasaki Frontale,1,2,A,2324,46,9656,9647,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Albirex Niigata,1,2,A,2324,46,9657,9934,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,FC Tokyo,1,1,D,2324,46,9662,9648,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Sanfrecce Hiroshima,1,1,D,2324,46,9649,9657,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Shonan Bellmare,1,1,D,2324,46,9647,9661,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Hokkaido Consadole Sapporo,2,2,D,2324,46,9934,9652,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Kashima Antlers,1,3,A,2324,46,9665,9656,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Cerezo Osaka,2,1,H,2324,46,9654,9650,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Sagan Tosu,2,1,H,2324,46,9650,9658,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Yokohama FC,3,1,H,2324,46,9648,9665,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Sanfrecce Hiroshima,1,2,A,2324,46,9655,9657,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Kashima Antlers,2,1,H,2324,46,9649,9656,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Kyoto Sanga FC,1,4,A,2324,46,9665,9653,5,-3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Hokkaido Consadole Sapporo,2,2,D,2324,46,9655,9652,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Albirex Niigata,2,1,H,2324,46,9654,9934,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Shonan Bellmare,2,1,H,2324,46,9659,9661,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Nagoya Grampus,1,3,A,2324,46,9934,9663,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Avispa Fukuoka,1,1,D,2324,46,9665,9659,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Sanfrecce Hiroshima,1,2,A,2324,46,9656,9657,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Gamba Osaka,4,1,H,2324,46,9661,9655,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Yokohama F. Marinos,2,1,H,2324,46,9650,9649,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Kawasaki Frontale,3,4,A,2324,46,9652,9647,7,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Hokkaido Consadole Sapporo,2,3,A,2324,46,9650,9652,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Kyoto Sanga FC,2,1,H,2324,46,9659,9653,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Shonan Bellmare,2,2,D,2324,46,9648,9661,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Avispa Fukuoka,3,2,H,2324,46,9934,9659,5,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Nagoya Grampus,1,2,A,2324,46,9647,9663,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Kashiwa Reysol,1,1,D,2324,46,9658,9662,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Yokohama F. Marinos,1,1,D,2324,46,9661,9649,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,4,1,H,2324,46,9654,9652,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Cerezo Osaka,1,2,A,2324,46,9648,9650,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Vissel Kobe,1,5,A,2324,46,9656,9664,6,-4,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kyoto Sanga FC,Gamba Osaka,2,1,H,2324,46,9653,9655,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,FC Tokyo,1,2,A,2324,46,9657,9648,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Yokohama F. Marinos,2,3,A,2324,46,9664,9649,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Avispa Fukuoka,2,2,D,2324,46,9652,9659,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kyoto Sanga FC,Sagan Tosu,2,3,A,2324,46,9653,9658,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Shonan Bellmare,2,2,D,2324,46,9663,9661,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Yokohama FC,1,1,D,2324,46,9655,9665,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Urawa Red Diamonds,1,1,D,2324,46,9647,9654,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Hokkaido Consadole Sapporo,1,4,A,2324,46,9665,9652,5,-3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Albirex Niigata,2,1,H,2324,46,9648,9934,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Kyoto Sanga FC,1,1,D,2324,46,9662,9653,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Nagoya Grampus,1,1,D,2324,46,9649,9663,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Kawasaki Frontale,1,3,A,2324,46,9659,9647,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Cerezo Osaka,1,2,A,2324,46,9655,9650,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Vissel Kobe,2,2,D,2324,46,9663,9664,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Yokohama F. Marinos,1,3,A,2324,46,9658,9649,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Kashiwa Reysol,1,2,A,2324,46,9661,9662,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Sanfrecce Hiroshima,2,1,H,2324,46,9654,9657,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,FC Tokyo,5,1,H,2324,46,9652,9648,6,4,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Avispa Fukuoka,3,1,H,2324,46,9657,9659,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Kyoto Sanga FC,4,1,H,2324,46,9649,9653,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Kashiwa Reysol,1,1,D,2324,46,9663,9662,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kyoto Sanga FC,Yokohama F. Marinos,3,1,H,2324,46,9653,9649,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Yokohama FC,2,1,H,2324,46,9656,9665,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Nagoya Grampus,2,1,H,2324,46,9664,9663,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Avispa Fukuoka,2,3,A,2324,46,9654,9659,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Sagan Tosu,2,2,D,2324,46,9662,9658,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Hokkaido Consadole Sapporo,1,3,A,2324,46,9648,9652,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Vissel Kobe,1,2,A,2324,46,9654,9664,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Kyoto Sanga FC,3,3,D,2324,46,9647,9653,6,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Yokohama FC,1,3,A,2324,46,9658,9665,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Kashiwa Reysol,1,1,D,2324,46,9656,9662,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Avispa Fukuoka,1,2,A,2324,46,9655,9659,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Nagoya Grampus,2,1,H,2324,46,9661,9663,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Kawasaki Frontale,1,1,D,2324,46,9662,9647,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Sanfrecce Hiroshima,1,2,A,2324,46,9648,9657,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Vissel Kobe,1,1,D,2324,46,9661,9664,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Yokohama FC,2,1,H,2324,46,9652,9665,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Sagan Tosu,1,1,D,2324,46,9663,9658,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Kashima Antlers,3,1,H,2324,46,9664,9656,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,4,1,H,2324,46,9649,9652,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Sagan Tosu,1,1,D,2324,46,9934,9658,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Avispa Fukuoka,4,2,H,2324,46,9647,9659,6,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Kyoto Sanga FC,3,2,H,2324,46,9658,9653,5,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Nagoya Grampus,3,1,H,2324,46,9657,9663,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Kashiwa Reysol,1,2,A,2324,46,9652,9662,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Urawa Red Diamonds,Yokohama FC,1,1,D,2324,46,9654,9665,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Albirex Niigata,2,3,A,2324,46,9647,9934,5,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Urawa Red Diamonds,1,3,A,2324,46,9655,9654,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Yokohama F. Marinos,1,2,A,2324,46,9656,9649,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Avispa Fukuoka,1,3,A,2324,46,9662,9659,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Hokkaido Consadole Sapporo,1,1,D,2324,46,9663,9652,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Sagan Tosu,3,2,H,2324,46,9648,9658,5,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Yokohama FC,3,1,H,2324,46,9934,9665,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Albirex Niigata,1,1,D,2324,46,9655,9934,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Kashiwa Reysol,1,2,A,2324,46,9665,9662,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Sagan Tosu,1,1,D,2324,46,9649,9658,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Kyoto Sanga FC,2,1,H,2324,46,9664,9653,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Avispa Fukuoka,1,2,A,2324,46,9648,9659,3,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Shonan Bellmare,Kashima Antlers,2,2,D,2324,46,9661,9656,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Nagoya Grampus,Yokohama FC,1,1,D,2324,46,9663,9665,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Urawa Red Diamonds,1,1,D,2324,46,9934,9654,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Gamba Osaka,1,1,D,2324,46,9658,9655,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Hokkaido Consadole Sapporo,2,2,D,2324,46,9647,9652,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Vissel Kobe,2,2,D,2324,46,9648,9664,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Cerezo Osaka,Nagoya Grampus,3,1,H,2324,46,9650,9663,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama FC,Yokohama F. Marinos,4,1,H,2324,46,9665,9649,5,3,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,FC Tokyo,2,1,H,2324,46,9649,9648,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Kashiwa Reysol,1,1,D,2324,46,9664,9662,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Kawasaki Frontale,3,2,H,2324,46,9657,9647,5,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Shonan Bellmare,2,1,H,2324,46,9655,9661,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashima Antlers,Sagan Tosu,2,1,H,2324,46,9656,9658,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Urawa Red Diamonds,2,1,H,2324,46,9657,9654,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Yokohama F. Marinos,Gamba Osaka,2,1,H,2324,46,9649,9655,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kashiwa Reysol,Cerezo Osaka,1,1,D,2324,46,9662,9650,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Albirex Niigata,Shonan Bellmare,2,2,D,2324,46,9934,9661,4,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,1,1,D,2324,46,9652,9658,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kawasaki Frontale,Gamba Osaka,3,4,A,2324,46,9647,9655,7,-1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Vissel Kobe,Sagan Tosu,2,1,H,2324,46,9664,9658,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Kyoto Sanga FC,Nagoya Grampus,2,1,H,2324,46,9653,9663,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Gamba Osaka,Kashiwa Reysol,3,1,H,2324,46,9655,9662,4,2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,FC Tokyo,Kashima Antlers,1,3,A,2324,46,9648,9656,4,-2,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sanfrecce Hiroshima,Yokohama FC,1,1,D,2324,46,9657,9665,2,0,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Sagan Tosu,Cerezo Osaka,2,1,H,2324,46,9658,9650,3,1,2023.0,2.0,4.0,0,0
+2023-02-17,JPN1,Avispa Fukuoka,Hokkaido Consadole Sapporo,2,1,H,2324,46,9659,9652,3,1,2023.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Vissel Kobe,1,2,A,2425,46,9937,9664,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Sanfrecce Hiroshima,1,1,D,2425,46,9659,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Hokkaido Consadole Sapporo,1,1,D,2425,46,9934,9652,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Yokohama F. Marinos,1,2,A,2425,46,9664,9649,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Kashiwa Reysol,1,1,D,2425,46,9936,9662,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Urawa Red Diamonds,2,1,H,2425,46,9648,9654,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Nagoya Grampus,1,2,A,2425,46,9652,9663,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Tokyo Verdy,1,2,A,2425,46,9661,9936,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Sanfrecce Hiroshima,1,2,A,2425,46,9937,9657,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Cerezo Osaka,1,1,D,2425,46,9662,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Yokohama F. Marinos,2,1,H,2425,46,9663,9649,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Avispa Fukuoka,2,1,H,2425,46,9654,9659,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Sagan Tosu,3,1,H,2425,46,9937,9658,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Hokkaido Consadole Sapporo,6,1,H,2425,46,9664,9652,7,5,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Kashiwa Reysol,1,1,D,2425,46,9934,9662,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Gamba Osaka,1,1,D,2425,46,9657,9655,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Kyoto Sanga FC,2,2,D,2425,46,9936,9653,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Urawa Red Diamonds,4,4,D,2425,46,9661,9654,8,0,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Kashima Antlers,Kawasaki Frontale,2,1,H,2425,46,9656,9647,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Yokohama F. Marinos,2,3,A,2425,46,9653,9649,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Albirex Niigata,2,2,D,2425,46,9936,9934,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Júbilo Iwata,2,1,H,2425,46,9655,9660,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,FC Machida Zelvia,1,2,A,2425,46,9652,9937,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,FC Tokyo,1,3,A,2425,46,9659,9648,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Vissel Kobe,1,2,A,2425,46,9648,9664,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Tokyo Verdy,2,1,H,2425,46,9650,9936,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Shonan Bellmare,1,1,D,2425,46,9659,9661,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Tokyo Verdy,1,1,D,2425,46,9654,9936,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Cerezo Osaka,1,1,D,2425,46,9656,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Sanfrecce Hiroshima,1,1,D,2425,46,9648,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Shonan Bellmare,1,2,A,2425,46,9653,9661,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Júbilo Iwata,4,5,A,2425,46,9647,9660,9,-1,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Tokyo Verdy,Yokohama F. Marinos,1,2,A,2425,46,9936,9649,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Kyoto Sanga FC,1,1,D,2425,46,9662,9653,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Kawasaki Frontale,1,2,A,2425,46,9661,9647,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Gamba Osaka,1,1,D,2425,46,9937,9655,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,FC Tokyo,2,2,D,2425,46,9650,9648,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Albirex Niigata,1,2,A,2425,46,9658,9934,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Tokyo Verdy,4,1,H,2425,46,9657,9936,5,3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,FC Machida Zelvia,1,3,A,2425,46,9649,9937,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Nagoya Grampus,2,1,H,2425,46,9647,9663,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Hokkaido Consadole Sapporo,5,3,H,2425,46,9936,9652,8,2,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Kyoto Sanga FC,Cerezo Osaka,1,1,D,2425,46,9653,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Vissel Kobe,1,1,D,2425,46,9654,9664,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Gamba Osaka,1,2,A,2425,46,9661,9655,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Albirex Niigata,1,3,A,2425,46,9937,9934,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Yokohama F. Marinos,3,2,H,2425,46,9656,9649,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,FC Machida Zelvia,1,2,A,2425,46,9654,9937,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Kyoto Sanga FC,1,1,D,2425,46,9663,9653,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Sanfrecce Hiroshima,1,1,D,2425,46,9650,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Kashiwa Reysol,1,1,D,2425,46,9647,9662,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Avispa Fukuoka,1,2,A,2425,46,9934,9659,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Shonan Bellmare,3,2,H,2425,46,9660,9661,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Albirex Niigata,2,1,H,2425,46,9661,9934,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Hokkaido Consadole Sapporo,2,1,H,2425,46,9662,9652,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Kawasaki Frontale,3,1,H,2425,46,9655,9647,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Yokohama F. Marinos,1,1,D,2425,46,9648,9649,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Urawa Red Diamonds,1,1,D,2425,46,9660,9654,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Kashima Antlers,1,3,A,2425,46,9657,9656,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Kawasaki Frontale,5,2,H,2425,46,9658,9647,7,3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,FC Tokyo,3,1,H,2425,46,9663,9648,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Cerezo Osaka,2,1,H,2425,46,9937,9650,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Shonan Bellmare,2,1,H,2425,46,9662,9661,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Yokohama F. Marinos,3,1,H,2425,46,9934,9649,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Sanfrecce Hiroshima,3,2,H,2425,46,9649,9657,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Tokyo Verdy,3,3,D,2425,46,9656,9936,6,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Kashiwa Reysol,3,3,D,2425,46,9648,9662,6,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Vissel Kobe,1,4,A,2425,46,9650,9664,5,-3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Avispa Fukuoka,2,3,A,2425,46,9653,9659,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Urawa Red Diamonds,2,4,A,2425,46,9934,9654,6,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Yokohama F. Marinos,2,1,H,2425,46,9654,9649,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Sagan Tosu,2,1,H,2425,46,9661,9658,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Kashima Antlers,1,2,A,2425,46,9662,9656,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Nagoya Grampus,2,3,A,2425,46,9657,9663,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,FC Tokyo,1,2,A,2425,46,9652,9648,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Kawasaki Frontale,1,1,D,2425,46,9659,9647,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Albirex Niigata,3,2,H,2425,46,9664,9934,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Júbilo Iwata,3,2,H,2425,46,9936,9660,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Urawa Red Diamonds,3,1,H,2425,46,9647,9654,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Shonan Bellmare,3,1,H,2425,46,9656,9661,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Kyoto Sanga FC,2,1,H,2425,46,9648,9653,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Hokkaido Consadole Sapporo,1,1,D,2425,46,9650,9652,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Júbilo Iwata,1,1,D,2425,46,9649,9660,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Sanfrecce Hiroshima,1,1,D,2425,46,9934,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Nagoya Grampus,2,1,H,2425,46,9654,9663,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Sagan Tosu,1,1,D,2425,46,9662,9658,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Kashima Antlers,1,2,A,2425,46,9655,9656,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Kawasaki Frontale,2,2,D,2425,46,9657,9647,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Yokohama F. Marinos,2,2,D,2425,46,9650,9649,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,FC Tokyo,1,3,A,2425,46,9934,9648,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Shonan Bellmare,3,3,D,2425,46,9652,9661,6,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Cerezo Osaka,2,1,H,2425,46,9663,9650,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,FC Machida Zelvia,1,2,A,2425,46,9648,9937,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Júbilo Iwata,2,2,D,2425,46,9659,9660,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Kashima Antlers,4,2,H,2425,46,9658,9656,6,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Sanfrecce Hiroshima,1,1,D,2425,46,9652,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Sagan Tosu,2,1,H,2425,46,9655,9658,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,FC Tokyo,2,2,D,2425,46,9936,9648,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Shonan Bellmare,2,2,D,2425,46,9649,9661,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Avispa Fukuoka,3,1,H,2425,46,9647,9659,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,FC Machida Zelvia,3,1,H,2425,46,9656,9937,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Sanfrecce Hiroshima,3,1,H,2425,46,9655,9657,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Hokkaido Consadole Sapporo,5,1,H,2425,46,9657,9652,6,4,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Kawasaki Frontale,4,5,A,2425,46,9936,9647,9,-1,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Shonan Bellmare,Yokohama F. Marinos,2,3,A,2425,46,9661,9649,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Vissel Kobe,1,1,D,2425,46,9662,9664,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,FC Tokyo,2,1,H,2425,46,9660,9648,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Vissel Kobe,1,1,D,2425,46,9936,9664,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Albirex Niigata,1,1,D,2425,46,9662,9934,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Gamba Osaka,3,4,A,2425,46,9660,9655,7,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Hokkaido Consadole Sapporo,1,1,D,2425,46,9661,9652,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Yokohama F. Marinos,1,2,A,2425,46,9658,9649,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Kawasaki Frontale,1,1,D,2425,46,9653,9647,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Kashiwa Reysol,2,1,H,2425,46,9659,9662,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,FC Machida Zelvia,2,1,H,2425,46,9658,9937,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Cerezo Osaka,1,1,D,2425,46,9652,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Kashima Antlers,1,3,A,2425,46,9647,9656,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Nagoya Grampus,3,2,H,2425,46,9655,9663,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Urawa Red Diamonds,2,1,H,2425,46,9936,9654,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Sanfrecce Hiroshima,2,1,H,2425,46,9661,9657,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Júbilo Iwata,1,2,A,2425,46,9650,9660,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,FC Machida Zelvia,1,1,D,2425,46,9662,9937,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Gamba Osaka,1,1,D,2425,46,9647,9655,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Sanfrecce Hiroshima,1,2,A,2425,46,9660,9657,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Vissel Kobe,2,3,A,2425,46,9653,9664,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Hokkaido Consadole Sapporo,2,1,H,2425,46,9655,9652,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Kawasaki Frontale,1,4,A,2425,46,9937,9647,5,-3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Sagan Tosu,1,1,D,2425,46,9648,9658,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Kashima Antlers,3,2,H,2425,46,9661,9656,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,FC Tokyo,1,3,A,2425,46,9649,9648,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Tokyo Verdy,1,1,D,2425,46,9655,9936,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Albirex Niigata,5,1,H,2425,46,9647,9934,6,4,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Cerezo Osaka,1,2,A,2425,46,9661,9650,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Gamba Osaka,2,2,D,2425,46,9653,9655,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Yokohama F. Marinos,6,2,H,2425,46,9657,9649,8,4,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Albirex Niigata,Vissel Kobe,2,3,A,2425,46,9934,9664,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Nagoya Grampus,4,1,H,2425,46,9648,9663,5,3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Shonan Bellmare,3,1,H,2425,46,9934,9661,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Sanfrecce Hiroshima,2,2,D,2425,46,9656,9657,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Kyoto Sanga FC,1,2,A,2425,46,9649,9653,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Cerezo Osaka,2,1,H,2425,46,9664,9650,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Sagan Tosu,3,2,H,2425,46,9647,9658,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Yokohama F. Marinos,3,4,A,2425,46,9660,9649,7,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Shonan Bellmare,1,2,A,2425,46,9658,9661,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Tokyo Verdy,2,3,A,2425,46,9662,9936,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,FC Tokyo,3,2,H,2425,46,9657,9648,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Urawa Red Diamonds,2,2,D,2425,46,9937,9654,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Kawasaki Frontale,1,1,D,2425,46,9654,9647,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Kashima Antlers,2,1,H,2425,46,9936,9656,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Avispa Fukuoka,2,2,D,2425,46,9655,9659,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Gamba Osaka,2,2,D,2425,46,9664,9655,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Kashiwa Reysol,1,2,A,2425,46,9661,9662,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,1,2,A,2425,46,9663,9657,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Yokohama F. Marinos,1,3,A,2425,46,9647,9649,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Kyoto Sanga FC,3,5,A,2425,46,9650,9653,8,-2,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Sagan Tosu,5,3,H,2425,46,9652,9658,8,2,2024.0,2.0,4.0,1,0
+2024-02-23,JPN1,Yokohama F. Marinos,Vissel Kobe,1,2,A,2425,46,9649,9664,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Urawa Red Diamonds,1,1,D,2425,46,9658,9654,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Kashima Antlers,2,1,H,2425,46,9660,9656,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Avispa Fukuoka,2,2,D,2425,46,9652,9659,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Hokkaido Consadole Sapporo,3,2,H,2425,46,9649,9652,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Shonan Bellmare,Avispa Fukuoka,1,1,D,2425,46,9661,9659,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Nagoya Grampus,3,2,H,2425,46,9653,9663,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Júbilo Iwata,2,2,D,2425,46,9934,9660,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Sanfrecce Hiroshima,1,4,A,2425,46,9658,9657,5,-3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Nagoya Grampus,3,3,D,2425,46,9664,9663,6,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Hokkaido Consadole Sapporo,3,4,A,2425,46,9654,9652,7,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,Kawasaki Frontale,2,3,A,2425,46,9662,9647,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Kyoto Sanga FC,1,2,A,2425,46,9660,9653,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Albirex Niigata,1,2,A,2425,46,9650,9934,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Machida Zelvia,Yokohama F. Marinos,1,2,A,2425,46,9937,9649,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,FC Tokyo,2,1,H,2425,46,9656,9648,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Kashima Antlers,4,1,H,2425,46,9649,9656,5,3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Cerezo Osaka,1,1,D,2425,46,9647,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Kashiwa Reysol,2,1,H,2425,46,9663,9662,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Hokkaido Consadole Sapporo,Vissel Kobe,1,1,D,2425,46,9652,9664,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Kyoto Sanga FC,1,2,A,2425,46,9659,9653,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashiwa Reysol,FC Tokyo,3,2,H,2425,46,9662,9648,5,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Shonan Bellmare,2,3,A,2425,46,9654,9661,5,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Kawasaki Frontale,2,2,D,2425,46,9660,9647,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Sagan Tosu,3,4,A,2425,46,9934,9658,7,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Tokyo Verdy,Cerezo Osaka,1,1,D,2425,46,9936,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Vissel Kobe,1,3,A,2425,46,9657,9664,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Vissel Kobe,Kashima Antlers,3,1,H,2425,46,9664,9656,4,2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sagan Tosu,Kashiwa Reysol,1,4,A,2425,46,9658,9662,5,-3,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,FC Machida Zelvia,1,3,A,2425,46,9655,9937,4,-2,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Nagoya Grampus,2,1,H,2425,46,9650,9663,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Yokohama F. Marinos,Tokyo Verdy,1,2,A,2425,46,9649,9936,3,-1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Sanfrecce Hiroshima,1,1,D,2425,46,9647,9657,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Sanfrecce Hiroshima,Albirex Niigata,1,1,D,2425,46,9657,9934,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kyoto Sanga FC,Kashiwa Reysol,2,2,D,2425,46,9653,9662,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kawasaki Frontale,Shonan Bellmare,1,1,D,2425,46,9647,9661,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Avispa Fukuoka,Yokohama F. Marinos,2,1,H,2425,46,9659,9649,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Urawa Red Diamonds,Kashima Antlers,2,2,D,2425,46,9654,9656,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Júbilo Iwata,Cerezo Osaka,1,1,D,2425,46,9660,9650,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Vissel Kobe,2,1,H,2425,46,9655,9664,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Albirex Niigata,Kawasaki Frontale,2,2,D,2425,46,9934,9647,4,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Nagoya Grampus,Shonan Bellmare,1,1,D,2425,46,9663,9661,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Kashima Antlers,Albirex Niigata,1,1,D,2425,46,9656,9934,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Gamba Osaka,Kashiwa Reysol,2,1,H,2425,46,9655,9662,3,1,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,FC Tokyo,Júbilo Iwata,1,1,D,2425,46,9648,9660,2,0,2024.0,2.0,4.0,0,0
+2024-02-23,JPN1,Cerezo Osaka,Urawa Red Diamonds,2,1,H,2425,46,9650,9654,3,1,2024.0,2.0,4.0,0,0
+2025-02-14,JPN1,FC Machida Zelvia,Sanfrecce Hiroshima,1,2,A,2526,46,9937,9657,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashiwa Reysol,Kawasaki Frontale,1,1,D,2526,46,9662,9647,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Nagoya Grampus,Vissel Kobe,2,2,D,2526,46,9663,9664,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kyoto Sanga FC,Urawa Red Diamonds,1,1,D,2526,46,9653,9654,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Gamba Osaka,Avispa Fukuoka,2,1,H,2526,46,9655,9659,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,Shonan Bellmare,1,2,A,2526,46,9650,9661,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashima Antlers,Albirex Niigata,2,1,H,2526,46,9656,9934,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashiwa Reysol,Cerezo Osaka,2,1,H,2526,46,9662,9650,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,FC Tokyo,Nagoya Grampus,3,1,H,2526,46,9648,9663,4,2,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shonan Bellmare,Urawa Red Diamonds,2,1,H,2526,46,9661,9654,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shimizu S-Pulse,Sanfrecce Hiroshima,1,1,D,2526,46,9651,9657,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Vissel Kobe,Kyoto Sanga FC,1,1,D,2526,46,9664,9653,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Avispa Fukuoka,Kawasaki Frontale,1,2,A,2526,46,9659,9647,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Gamba Osaka,Cerezo Osaka,2,5,A,2526,46,9655,9650,7,-3,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Yokohama F. Marinos,Shonan Bellmare,1,1,D,2526,46,9649,9661,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Albirex Niigata,Cerezo Osaka,2,2,D,2526,46,9934,9650,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Nagoya Grampus,FC Machida Zelvia,1,2,A,2526,46,9663,9937,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Fagiano Okayama,Shimizu S-Pulse,1,1,D,2526,46,9935,9651,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Albirex Niigata,Tokyo Verdy,2,2,D,2526,46,9934,9936,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashiwa Reysol,Kashima Antlers,1,3,A,2526,46,9662,9656,4,-2,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,Nagoya Grampus,1,1,D,2526,46,9650,9663,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kawasaki Frontale,Yokohama F. Marinos,3,3,D,2526,46,9647,9649,6,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Tokyo Verdy,Nagoya Grampus,2,1,H,2526,46,9936,9663,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shimizu S-Pulse,Kyoto Sanga FC,1,2,A,2526,46,9651,9653,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashima Antlers,Urawa Red Diamonds,1,1,D,2526,46,9656,9654,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Sanfrecce Hiroshima,Kashiwa Reysol,1,1,D,2526,46,9657,9662,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shonan Bellmare,Vissel Kobe,1,2,A,2526,46,9661,9664,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,Urawa Red Diamonds,1,1,D,2526,46,9650,9654,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Albirex Niigata,Gamba Osaka,3,3,D,2526,46,9934,9655,6,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Nagoya Grampus,Yokohama FC,2,1,H,2526,46,9663,9665,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Avispa Fukuoka,FC Machida Zelvia,2,2,D,2526,46,9659,9937,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Tokyo Verdy,FC Tokyo,2,2,D,2526,46,9936,9648,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kyoto Sanga FC,Kashiwa Reysol,1,1,D,2526,46,9653,9662,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,Fagiano Okayama,2,1,H,2526,46,9650,9935,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Urawa Red Diamonds,Shimizu S-Pulse,2,1,H,2526,46,9654,9651,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,FC Machida Zelvia,Kawasaki Frontale,2,2,D,2526,46,9937,9647,4,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashima Antlers,Kyoto Sanga FC,3,4,A,2526,46,9656,9653,7,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shonan Bellmare,Nagoya Grampus,2,1,H,2526,46,9661,9663,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Sanfrecce Hiroshima,Cerezo Osaka,2,1,H,2526,46,9657,9650,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,FC Tokyo,Kashiwa Reysol,1,1,D,2526,46,9648,9662,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shimizu S-Pulse,Kawasaki Frontale,1,1,D,2526,46,9651,9647,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Avispa Fukuoka,Yokohama F. Marinos,2,1,H,2526,46,9659,9649,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Albirex Niigata,Kyoto Sanga FC,1,2,A,2526,46,9934,9653,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Yokohama FC,Gamba Osaka,1,1,D,2526,46,9665,9655,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Shimizu S-Pulse,Avispa Fukuoka,3,1,H,2526,46,9651,9659,4,2,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Nagoya Grampus,Sanfrecce Hiroshima,2,1,H,2526,46,9663,9657,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Fagiano Okayama,Kashima Antlers,1,2,A,2526,46,9935,9656,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,FC Tokyo,1,1,D,2526,46,9650,9648,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Urawa Red Diamonds,Yokohama F. Marinos,3,1,H,2526,46,9654,9649,4,2,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Yokohama F. Marinos,Shimizu S-Pulse,2,3,A,2526,46,9649,9651,5,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Vissel Kobe,Kawasaki Frontale,2,1,H,2526,46,9664,9647,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kyoto Sanga FC,Yokohama FC,2,1,H,2526,46,9653,9665,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Avispa Fukuoka,Fagiano Okayama,1,1,D,2526,46,9659,9935,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kashiwa Reysol,Albirex Niigata,1,1,D,2526,46,9662,9934,2,0,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Nagoya Grampus,Kashiwa Reysol,1,2,A,2526,46,9663,9662,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Gamba Osaka,Kyoto Sanga FC,2,1,H,2526,46,9655,9653,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Cerezo Osaka,FC Machida Zelvia,1,2,A,2526,46,9650,9937,3,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Sanfrecce Hiroshima,Avispa Fukuoka,2,1,H,2526,46,9657,9659,3,1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Albirex Niigata,FC Tokyo,2,3,A,2526,46,9934,9648,5,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Kyoto Sanga FC,Cerezo Osaka,2,3,A,2526,46,9653,9650,5,-1,2025.0,2.0,4.0,0,0
+2025-02-14,JPN1,Urawa Red Diamonds,Kyoto Sanga FC,2,1,H,2526,46,9654,9653,3,1,2025.0,2.0,4.0,0,0

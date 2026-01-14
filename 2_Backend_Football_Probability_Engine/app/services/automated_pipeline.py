@@ -50,15 +50,51 @@ class AutomatedPipelineService:
         untrained_team_ids = set()
         team_details = {}
         
-        # Get active model to check training status
+        # Get active models to check training status
+        # IMPORTANT: Refresh the session to ensure we get the latest active models
+        self.db.expire_all()  # Expire all cached objects to force fresh query
         poisson_model = self.db.query(Model).filter(
             Model.model_type == "poisson",
             Model.status == ModelStatus.active
         ).order_by(Model.training_completed_at.desc()).first()
         
+        # Also check for active calibration model (for full pipeline training)
+        calibration_model = self.db.query(Model).filter(
+            Model.model_type == "calibration",
+            Model.status == ModelStatus.active
+        ).order_by(Model.training_completed_at.desc()).first()
+        
+        has_full_pipeline = poisson_model is not None and calibration_model is not None
+        
         team_strengths = {}
+        # Also create a mapping by canonical_name for better matching
+        team_strengths_by_name = {}
         if poisson_model and poisson_model.model_weights:
             team_strengths = poisson_model.model_weights.get('team_strengths', {})
+            logger.info(f"Checking training status against active Poisson model: {poisson_model.version} (ID: {poisson_model.id})")
+            logger.info(f"Active model has {len(team_strengths)} teams in team_strengths")
+            logger.info(f"Active model trained on: {poisson_model.training_completed_at}")
+            
+            if calibration_model:
+                logger.info(f"✓ Full pipeline trained: Calibration model {calibration_model.version} (ID: {calibration_model.id}) is active")
+            else:
+                logger.warning("⚠ Only Poisson model is active - calibration model missing (partial pipeline)")
+            
+            # Build canonical_name mapping by looking up team names from IDs
+            canonical_mapping_count = 0
+            for team_id_str, strength_data in team_strengths.items():
+                try:
+                    team_id_int = int(team_id_str) if isinstance(team_id_str, str) else team_id_str
+                    team_from_model = self.db.query(Team).filter(Team.id == team_id_int).first()
+                    if team_from_model and team_from_model.canonical_name:
+                        canonical = team_from_model.canonical_name.lower()
+                        team_strengths_by_name[canonical] = strength_data
+                        canonical_mapping_count += 1
+                except (ValueError, TypeError):
+                    continue
+            logger.info(f"Built canonical name mapping: {canonical_mapping_count} teams (out of {len(team_strengths)} total)")
+        else:
+            logger.warning("No active Poisson model found - all teams will be marked as untrained")
         
         for team_name in team_names:
             team = resolve_team_safe(self.db, team_name, league_id)
@@ -66,17 +102,28 @@ class AutomatedPipelineService:
             if team:
                 validated_teams.append(team_name)
                 team_id = team.id
+                canonical_name = team.canonical_name.lower() if team.canonical_name else None
                 
-                # Check if team has training data
-                is_trained = (
-                    team_id in team_strengths or 
-                    str(team_id) in team_strengths
-                )
+                # Check if team has training data (by ID or by canonical_name)
+                # For "fully trained", team must be in Poisson model AND calibration model must exist
+                matched_by_id = (team_id in team_strengths or str(team_id) in team_strengths)
+                matched_by_canonical = (canonical_name and canonical_name in team_strengths_by_name)
+                is_in_poisson = matched_by_id or matched_by_canonical
                 
-                if is_trained:
-                    trained_team_ids.add(team_id)
+                # Team is "fully trained" if it's in Poisson model AND full pipeline (calibration) exists
+                is_fully_trained = is_in_poisson and has_full_pipeline
+                
+                if is_in_poisson:
+                    match_method = "ID" if matched_by_id else "canonical name"
+                    if has_full_pipeline:
+                        trained_team_ids.add(team_id)
+                        logger.info(f"✓ Team '{team_name}' (ID: {team_id}, canonical: '{canonical_name}') is validated and fully trained (Poisson + Calibration) [matched by {match_method}]")
+                    else:
+                        trained_team_ids.add(team_id)
+                        logger.warning(f"⚠ Team '{team_name}' (ID: {team_id}, canonical: '{canonical_name}') is in Poisson model but calibration missing (partial training) [matched by {match_method}]")
                 else:
                     untrained_team_ids.add(team_id)
+                    logger.warning(f"⚠ Team '{team_name}' (ID: {team_id}, canonical: '{canonical_name}') is validated but NOT trained - missing from active Poisson model")
                 
                 # Get league code for downloading
                 league = self.db.query(League).filter(League.id == team.league_id).first()
@@ -85,12 +132,15 @@ class AutomatedPipelineService:
                 team_details[team_name] = {
                     "team_id": team_id,
                     "isValid": True,
-                    "isTrained": is_trained,
+                    "isTrained": is_fully_trained,  # Only True if both Poisson and Calibration exist
+                    "isInPoisson": is_in_poisson,  # True if in Poisson model
+                    "hasFullPipeline": has_full_pipeline,  # True if calibration exists
                     "league_code": league_code,
                     "league_id": team.league_id
                 }
             else:
                 missing_teams.append(team_name)
+                logger.warning(f"✗ Team '{team_name}' is MISSING from database (league_id: {league_id})")
                 team_details[team_name] = {
                     "team_id": None,
                     "isValid": False,
@@ -98,6 +148,18 @@ class AutomatedPipelineService:
                     "league_code": None,
                     "league_id": league_id
                 }
+        
+        # Log summary
+        logger.info(f"=== TEAM STATUS CHECK SUMMARY ===")
+        logger.info(f"Total teams checked: {len(team_names)}")
+        logger.info(f"Validated teams: {len(validated_teams)}")
+        logger.info(f"Missing teams: {len(missing_teams)}")
+        if missing_teams:
+            logger.warning(f"MISSING TEAMS: {', '.join(missing_teams)}")
+        logger.info(f"Trained teams: {len(trained_team_ids)}")
+        logger.info(f"Untrained teams: {len(untrained_team_ids)}")
+        if untrained_team_ids:
+            logger.warning(f"UNTRAINED TEAM IDs: {list(untrained_team_ids)}")
         
         return {
             "validated_teams": validated_teams,
@@ -200,6 +262,16 @@ class AutomatedPipelineService:
                 error_msg = f"Error downloading league {league_code}: {str(e)}"
                 logger.error(error_msg)
                 download_stats["errors"].append(error_msg)
+        
+        # Mark as successful if matches were downloaded (even if there were some errors)
+        download_stats["success"] = download_stats["total_matches"] > 0
+        download_stats["skipped"] = download_stats["total_matches"] == 0 and len(download_stats["errors"]) == 0
+        
+        logger.info(f"=== DATA DOWNLOAD SUMMARY ===")
+        logger.info(f"Total matches downloaded: {download_stats['total_matches']}")
+        logger.info(f"Leagues processed: {len(download_stats['leagues_downloaded'])}")
+        logger.info(f"Errors: {len(download_stats['errors'])}")
+        logger.info(f"Success: {download_stats['success']}, Skipped: {download_stats['skipped']}")
         
         return download_stats
     
@@ -337,7 +409,9 @@ class AutomatedPipelineService:
         
         # Step 2: Create missing teams
         if missing_teams:
+            logger.info(f"=== CREATING MISSING TEAMS ===")
             logger.info(f"Step 2: Creating {len(missing_teams)} missing teams...")
+            logger.info(f"Missing teams list: {missing_teams}")
             if progress_callback:
                 progress_callback(20, f"Creating {len(missing_teams)} missing teams...", results["steps"])
             
@@ -348,24 +422,43 @@ class AutomatedPipelineService:
                     first_validated = status_check["validated_teams"][0]
                     team_details = status_check["team_details"][first_validated]
                     league_id = team_details.get("league_id")
+                    logger.info(f"Inferred league_id: {league_id} from validated team '{first_validated}'")
                 
                 if not league_id:
                     error_msg = "Cannot create teams: league_id required but not provided"
-                    logger.error(error_msg)
+                    logger.error(f"✗ {error_msg}")
+                    logger.error(f"Missing teams that cannot be created: {missing_teams}")
                     results["status"] = "failed"
                     results["error"] = error_msg
                     if progress_callback:
                         progress_callback(0, f"Error: {error_msg}", results["steps"])
                     return results
             
+            logger.info(f"Creating teams with league_id: {league_id}")
             create_result = self.create_missing_teams(missing_teams, league_id)
             results["steps"]["create_teams"] = create_result
+            
+            # Log creation results
+            logger.info(f"=== TEAM CREATION RESULTS ===")
+            logger.info(f"Created: {len(create_result.get('created', []))} teams")
+            if create_result.get('created'):
+                logger.info(f"Created teams: {', '.join(create_result.get('created', []))}")
+            logger.info(f"Skipped (already exist): {len(create_result.get('skipped', []))} teams")
+            if create_result.get('skipped'):
+                logger.info(f"Skipped teams: {', '.join(create_result.get('skipped', []))}")
+            logger.info(f"Errors: {len(create_result.get('errors', []))} teams")
+            if create_result.get('errors'):
+                for error in create_result.get('errors', []):
+                    logger.error(f"  ✗ {error}")
+            
             if progress_callback:
                 progress_callback(30, f"Created {len(create_result.get('created', []))} teams", results["steps"])
             
             # Update status check after creating teams
+            logger.info("Re-checking team status after creation...")
             status_check = self.check_teams_status(team_names, league_id)
         else:
+            logger.info("Step 2: No missing teams to create - all teams exist in database")
             results["steps"]["create_teams"] = {"skipped": True, "reason": "No missing teams"}
         
         # Step 3: Download missing data
@@ -426,29 +519,47 @@ class AutomatedPipelineService:
                 Model.status == ModelStatus.active
             ).order_by(Model.training_completed_at.desc()).first()
             
-            # Only retrain if:
-            # 1. There are still untrained teams AFTER data download, AND
-            # 2. Either new data was downloaded OR no active model exists
-            # 3. OR if explicitly requested via auto_recompute
+            # Determine if retraining is needed
             has_untrained_teams = len(updated_untrained_teams) > 0
+            has_active_model = poisson_model is not None
+            
+            logger.info(f"=== RETRAINING DECISION LOGIC ===")
+            logger.info(f"Untrained teams: {len(updated_untrained_teams)}")
+            logger.info(f"New data downloaded: {new_data_downloaded}")
+            logger.info(f"Active model exists: {has_active_model}")
+            logger.info(f"Auto recompute requested: {auto_recompute}")
+            
+            # Retrain if:
+            # 1. There are untrained teams (they need to be added to the model), OR
+            # 2. New data was downloaded (to incorporate new matches), OR
+            # 3. No active model exists (need to create one), OR
+            # 4. Explicitly requested via auto_recompute
             needs_retraining = (
-                (has_untrained_teams and (new_data_downloaded or not poisson_model)) or
-                auto_recompute
+                has_untrained_teams or  # CRITICAL: Always retrain if teams are missing
+                new_data_downloaded or  # Retrain to incorporate new data
+                not has_active_model or  # Need to create initial model
+                auto_recompute  # Explicitly requested
             )
             
             if not needs_retraining:
                 logger.info("Step 4: Skipping retraining - all teams are already trained and no new data downloaded")
+                logger.info(f"  - Trained teams: {len(updated_status_check.get('trained_teams', []))}")
+                logger.info(f"  - Untrained teams: {len(updated_untrained_teams)}")
+                logger.info(f"  - New data: {new_data_downloaded}")
                 results["steps"]["retrain_model"] = {
                     "skipped": True,
-                    "reason": "All teams already trained in active model",
+                    "reason": "All teams already trained in active model and no new data",
                     "trained_teams": len(updated_status_check.get("trained_teams", [])),
-                    "untrained_teams": len(updated_untrained_teams)
+                    "untrained_teams": len(updated_untrained_teams),
+                    "new_data_downloaded": new_data_downloaded
                 }
                 if progress_callback:
                     progress_callback(75, "All teams already trained - skipping retraining", results["steps"])
         
         if auto_train and needs_retraining:
+            logger.info("=== STARTING MODEL RETRAINING ===")
             logger.info("Step 4: Retraining model (teams need training or new data downloaded)...")
+            logger.info(f"Retraining reason: has_untrained_teams={has_untrained_teams}, new_data_downloaded={new_data_downloaded}, auto_recompute={auto_recompute}")
             if progress_callback:
                 progress_callback(75, "Retraining model...", results["steps"])
             try:
@@ -458,37 +569,57 @@ class AutomatedPipelineService:
                     if details.get("league_code"):
                         league_codes.add(details["league_code"])
                 
+                logger.info(f"Retraining for leagues: {list(league_codes) if league_codes else 'ALL'}")
+                
                 # Train full pipeline: Poisson → Blending → Calibration
                 # This ensures we get the best possible model (calibrated and blended with market odds)
                 if progress_callback:
                     progress_callback(75, "Training Poisson model...", results["steps"])
                 
+                logger.info("=== TRAINING POISSON MODEL ===")
                 # Step 1: Train Poisson model
-                poisson_result = self.training_service.train_poisson_model(
-                    leagues=list(league_codes) if league_codes else None,
-                    base_model_window_years=base_model_window_years,  # Recent data focus
-                    task_id=f"auto-pipeline-poisson-{datetime.now().timestamp()}"
-                )
+                try:
+                    poisson_result = self.training_service.train_poisson_model(
+                        leagues=list(league_codes) if league_codes else None,
+                        base_model_window_years=base_model_window_years,  # Recent data focus
+                        task_id=f"auto-pipeline-poisson-{datetime.now().timestamp()}"
+                    )
+                    logger.info(f"✓ Poisson model trained: ID={poisson_result.get('modelId')}, version={poisson_result.get('version')}")
+                except Exception as e:
+                    logger.error(f"✗ Poisson model training failed: {e}", exc_info=True)
+                    raise  # Re-raise to be caught by outer exception handler
                 
                 if progress_callback:
                     progress_callback(80, "Training blending model...", results["steps"])
                 
+                logger.info("=== TRAINING BLENDING MODEL ===")
                 # Step 2: Train blending model (combines Poisson with market odds)
-                blending_result = self.training_service.train_blending_model(
-                    poisson_model_id=poisson_result.get("modelId"),
-                    leagues=list(league_codes) if league_codes else None,
-                    task_id=f"auto-pipeline-blending-{datetime.now().timestamp()}"
-                )
+                try:
+                    blending_result = self.training_service.train_blending_model(
+                        poisson_model_id=poisson_result.get("modelId"),
+                        leagues=list(league_codes) if league_codes else None,
+                        task_id=f"auto-pipeline-blending-{datetime.now().timestamp()}"
+                    )
+                    logger.info(f"✓ Blending model trained: ID={blending_result.get('modelId')}, version={blending_result.get('version')}")
+                except Exception as e:
+                    logger.error(f"✗ Blending model training failed: {e}", exc_info=True)
+                    raise  # Re-raise to be caught by outer exception handler
                 
                 if progress_callback:
                     progress_callback(90, "Training calibration model...", results["steps"])
                 
+                logger.info("=== TRAINING CALIBRATION MODEL ===")
                 # Step 3: Train calibration model (calibrates the blended model)
-                calibration_result = self.training_service.train_calibration_model(
-                    base_model_id=blending_result.get("modelId"),  # Calibrate blended model, not raw Poisson
-                    leagues=list(league_codes) if league_codes else None,
-                    task_id=f"auto-pipeline-calibration-{datetime.now().timestamp()}"
-                )
+                try:
+                    calibration_result = self.training_service.train_calibration_model(
+                        base_model_id=blending_result.get("modelId"),  # Calibrate blended model, not raw Poisson
+                        leagues=list(league_codes) if league_codes else None,
+                        task_id=f"auto-pipeline-calibration-{datetime.now().timestamp()}"
+                    )
+                    logger.info(f"✓ Calibration model trained: ID={calibration_result.get('modelId')}, version={calibration_result.get('version')}")
+                except Exception as e:
+                    logger.error(f"✗ Calibration model training failed: {e}", exc_info=True)
+                    raise  # Re-raise to be caught by outer exception handler
                 
                 # Step 4: Train draw calibration model (optional, requires historical predictions with results)
                 draw_calibration_result = None
@@ -497,13 +628,14 @@ class AutomatedPipelineService:
                     if progress_callback:
                         progress_callback(92, "Training draw calibration model...", results["steps"])
                     
+                    logger.info("=== TRAINING DRAW CALIBRATION MODEL ===")
                     # Draw calibration requires predictions with actual results
                     # This is optional and may fail if insufficient data
                     draw_calibration_result = self.training_service.train_draw_calibration_model(
                         leagues=list(league_codes) if league_codes else None,
                         task_id=f"auto-pipeline-draw-calibration-{datetime.now().timestamp()}"
                     )
-                    logger.info(f"✓ Draw calibration model trained successfully")
+                    logger.info(f"✓ Draw calibration model trained successfully: ID={draw_calibration_result.get('modelId')}, version={draw_calibration_result.get('version')}")
                 except Exception as draw_e:
                     # Draw calibration is optional - log but don't fail the pipeline
                     draw_calibration_error = str(draw_e)
@@ -551,17 +683,26 @@ class AutomatedPipelineService:
                     final_version = calibration_result.get("version", "N/A")
                     draw_status = " (with draw calibration)" if draw_calibration_result else ""
                     progress_callback(95, f"Full pipeline trained: {final_version}{draw_status}", results["steps"])
+                
+                logger.info("=== MODEL TRAINING PIPELINE COMPLETED SUCCESSFULLY ===")
+                logger.info(f"Final model: {calibration_result.get('version')} (ID: {calibration_result.get('modelId')})")
+                logger.info(f"Pipeline components: Poisson={poisson_result.get('modelId')}, Blending={blending_result.get('modelId')}, Calibration={calibration_result.get('modelId')}")
             except Exception as e:
                 error_msg = f"Model training failed: {str(e)}"
-                logger.error(error_msg, exc_info=True)
+                logger.error(f"✗ {error_msg}", exc_info=True)
+                logger.error(f"=== MODEL RETRAINING FAILED ===")
+                logger.error(f"Error type: {type(e).__name__}")
+                logger.error(f"Error details: {str(e)}")
                 results["steps"]["train_model"] = {
                     "success": False,
                     "error": error_msg,
+                    "error_type": type(e).__name__,
                     "pipeline": "partial"  # Indicates partial failure
                 }
                 if progress_callback:
                     progress_callback(90, f"Model training failed: {str(e)}", results["steps"])
         else:
+            logger.info("Step 4: Skipping retraining - all teams are already trained and no new data downloaded")
             results["steps"]["train_model"] = {"skipped": True}
         
         # Step 5: Recompute probabilities (if requested)
@@ -588,6 +729,23 @@ class AutomatedPipelineService:
         # Mark as completed
         results["status"] = "completed"
         results["completed_at"] = datetime.now().isoformat()
+        
+        # Log pipeline completion
+        logger.info("=== AUTOMATED PIPELINE COMPLETED ===")
+        logger.info(f"Pipeline status: {results['status']}")
+        logger.info(f"Completed at: {results['completed_at']}")
+        logger.info(f"Steps completed: {list(results['steps'].keys())}")
+        
+        # Check if training was successful
+        train_model_result = results["steps"].get("train_model", {})
+        if train_model_result.get("success"):
+            logger.info(f"✓ Full model pipeline trained successfully")
+            logger.info(f"  Final model version: {train_model_result.get('final_version', 'N/A')}")
+            logger.info(f"  Final model ID: {train_model_result.get('final_model_id', 'N/A')}")
+        elif train_model_result.get("skipped"):
+            logger.info("⚠ Model training was skipped")
+        else:
+            logger.warning(f"⚠ Model training failed: {train_model_result.get('error', 'Unknown error')}")
         
         # Update progress callback with final status
         if progress_callback:

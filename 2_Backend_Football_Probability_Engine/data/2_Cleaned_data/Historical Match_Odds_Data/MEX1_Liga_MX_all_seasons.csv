@@ -1,14 +1,9 @@
 Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team_id,TotalGoals,GoalDifference,Year,Month,DayOfWeek,is_high_scoring_match,is_very_high_scoring
-2016-07-15,MEX1,Monarcas Morelia,Puebla FC,2,3,A,1617,43,9463,9445,5,-1,2016.0,7.0,4.0,0,0
-2016-07-15,MEX1,Atlas Guadalajara,CF Monterrey,3,1,H,1617,43,9450,9462,4,2,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,CF Pachuca,Gallos Blancos,2,0,H,1617,43,9461,9447,2,2,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,CF América,Pumas UNAM,2,1,H,1617,43,9452,9459,3,1,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Deportivo Toluca,Club León,1,1,D,1617,43,9456,9460,2,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Santos Laguna,Club Tijuana,1,2,A,1617,43,9446,9448,3,-1,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Club Tijuana,Atlas Guadalajara,1,0,H,1617,43,9448,9450,1,1,2016.0,7.0,4.0,0,0
-2016-07-15,MEX1,Club Tijuana,Monarcas Morelia,2,0,H,1617,43,9448,9463,2,2,2016.0,7.0,4.0,0,0
-2016-07-15,MEX1,Gallos Blancos,CD Veracruz,2,0,H,1617,43,9447,9464,2,2,2016.0,7.0,4.0,0,0
-2016-07-15,MEX1,CF Monterrey,Puebla FC,1,1,D,1617,43,9462,9445,2,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Atlas Guadalajara,Deportivo Toluca,1,1,D,1617,43,9450,9456,2,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,CF Pachuca,Club León,5,1,H,1617,43,9461,9460,6,4,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Club Necaxa,Cruz Azul,0,0,D,1617,43,9454,9457,0,0,2016.0,7.0,4.0,0,0
@@ -57,6 +52,9 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2016-07-15,MEX1,Monarcas Morelia,Chiapas FC,3,2,H,1617,43,9463,9466,5,1,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Club León,Gallos Blancos,2,1,H,1617,43,9460,9447,3,1,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Club Necaxa,Club Tijuana,1,1,D,1617,43,9454,9448,2,0,2016.0,7.0,4.0,0,0
+2016-07-15,MEX1,Club Tijuana,Monarcas Morelia,2,0,H,1617,43,9448,9463,2,2,2016.0,7.0,4.0,0,0
+2016-07-15,MEX1,Gallos Blancos,CD Veracruz,2,0,H,1617,43,9447,9464,2,2,2016.0,7.0,4.0,0,0
+2016-07-15,MEX1,CF Monterrey,Puebla FC,1,1,D,1617,43,9462,9445,2,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Deportivo Guadalajara,Atlas Guadalajara,2,2,D,1617,43,9455,9450,4,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Pumas UNAM,CF Monterrey,5,3,H,1617,43,9459,9462,8,2,2016.0,7.0,4.0,1,0
 2016-07-15,MEX1,Puebla FC,CF América,2,2,D,1617,43,9445,9452,4,0,2016.0,7.0,4.0,0,0
@@ -99,13 +97,10 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2016-07-15,MEX1,CD Veracruz,Deportivo Guadalajara,0,1,A,1617,43,9464,9455,1,-1,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,Chiapas FC,Club Necaxa,2,2,D,1617,43,9466,9454,4,0,2016.0,7.0,4.0,0,0
 2016-07-15,MEX1,UANL Tigres,Cruz Azul,0,0,D,1617,43,9453,9457,0,0,2016.0,7.0,4.0,0,0
+2016-07-15,MEX1,Monarcas Morelia,Puebla FC,2,3,A,1617,43,9463,9445,5,-1,2016.0,7.0,4.0,0,0
+2016-07-15,MEX1,Atlas Guadalajara,CF Monterrey,3,1,H,1617,43,9450,9462,4,2,2016.0,7.0,4.0,0,0
 2017-01-06,MEX1,Monarcas Morelia,Deportivo Toluca,1,2,A,1617,43,9463,9456,3,-1,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Cruz Azul,Atlas Guadalajara,0,1,A,1617,43,9457,9450,1,-1,2017.0,1.0,4.0,0,0
-2017-01-06,MEX1,CD Veracruz,UANL Tigres,0,3,A,1617,43,9464,9453,3,-3,2017.0,1.0,4.0,0,0
-2017-01-06,MEX1,Santos Laguna,Cruz Azul,2,2,D,1617,43,9446,9457,4,0,2017.0,1.0,4.0,0,0
-2017-01-06,MEX1,Chiapas FC,Monarcas Morelia,1,2,A,1617,43,9466,9463,3,-1,2017.0,1.0,4.0,0,0
-2017-01-06,MEX1,Deportivo Toluca,CD Veracruz,1,0,H,1617,43,9456,9464,1,1,2017.0,1.0,4.0,0,0
-2017-01-06,MEX1,CF América,Puebla FC,0,0,D,1617,43,9452,9445,0,0,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Club Necaxa,Monarcas Morelia,2,1,H,1617,43,9454,9463,3,1,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Club León,Puebla FC,1,0,H,1617,43,9460,9445,1,1,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Atlas Guadalajara,CF Pachuca,1,0,H,1617,43,9450,9461,1,1,2017.0,1.0,4.0,0,0
@@ -140,6 +135,11 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-01-06,MEX1,Atlas Guadalajara,Club Tijuana,3,3,D,1617,43,9450,9448,6,0,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Chiapas FC,Pumas UNAM,0,3,A,1617,43,9466,9459,3,-3,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,CD Veracruz,Cruz Azul,3,1,H,1617,43,9464,9457,4,2,2017.0,1.0,4.0,0,0
+2017-01-06,MEX1,CD Veracruz,UANL Tigres,0,3,A,1617,43,9464,9453,3,-3,2017.0,1.0,4.0,0,0
+2017-01-06,MEX1,Santos Laguna,Cruz Azul,2,2,D,1617,43,9446,9457,4,0,2017.0,1.0,4.0,0,0
+2017-01-06,MEX1,Chiapas FC,Monarcas Morelia,1,2,A,1617,43,9466,9463,3,-1,2017.0,1.0,4.0,0,0
+2017-01-06,MEX1,Deportivo Toluca,CD Veracruz,1,0,H,1617,43,9456,9464,1,1,2017.0,1.0,4.0,0,0
+2017-01-06,MEX1,CF América,Puebla FC,0,0,D,1617,43,9452,9445,0,0,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,CF Pachuca,UANL Tigres,1,0,H,1617,43,9461,9453,1,1,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,CF Monterrey,Pumas UNAM,2,0,H,1617,43,9462,9459,2,2,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Atlas Guadalajara,Deportivo Guadalajara,1,2,A,1617,43,9450,9455,3,-1,2017.0,1.0,4.0,0,0
@@ -199,8 +199,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-01-06,MEX1,Club Necaxa,Gallos Blancos,1,4,A,1617,43,9454,9447,5,-3,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,Club León,Santos Laguna,2,2,D,1617,43,9460,9446,4,0,2017.0,1.0,4.0,0,0
 2017-01-06,MEX1,CF Monterrey,CF Pachuca,1,0,H,1617,43,9462,9461,1,1,2017.0,1.0,4.0,0,0
-2017-07-21,MEX1,Deportivo Guadalajara,Gallos Blancos,0,0,D,1718,43,9455,9447,0,0,2017.0,7.0,4.0,0,0
-2017-07-21,MEX1,Deportivo Toluca,Puebla FC,2,1,H,1718,43,9456,9445,3,1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CD Veracruz,Pumas UNAM,1,0,H,1718,43,9464,9459,1,1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Puebla FC,Cruz Azul,0,0,D,1718,43,9445,9457,0,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Lobos BUAP,Monarcas Morelia,1,3,A,1718,43,9465,9463,4,-2,2017.0,7.0,4.0,0,0
@@ -237,6 +235,8 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-07-21,MEX1,Club Necaxa,Gallos Blancos,1,0,H,1718,43,9454,9447,1,1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CF Pachuca,Cruz Azul,4,0,H,1718,43,9461,9457,4,4,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CF Monterrey,Santos Laguna,1,1,D,1718,43,9462,9446,2,0,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,Puebla FC,Club León,0,1,A,1718,43,9445,9460,1,-1,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,CF América,UANL Tigres,2,2,D,1718,43,9452,9453,4,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Gallos Blancos,Club Tijuana,1,3,A,1718,43,9447,9448,4,-2,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Pumas UNAM,Monarcas Morelia,1,2,A,1718,43,9459,9463,3,-1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Atlas Guadalajara,Lobos BUAP,1,1,D,1718,43,9450,9465,2,0,2017.0,7.0,4.0,0,0
@@ -266,10 +266,10 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-07-21,MEX1,Club León,Cruz Azul,2,2,D,1718,43,9460,9457,4,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,UANL Tigres,Gallos Blancos,1,1,D,1718,43,9453,9447,2,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Lobos BUAP,CF Pachuca,3,2,H,1718,43,9465,9461,5,1,2017.0,7.0,4.0,0,0
-2017-07-21,MEX1,Monarcas Morelia,CF Monterrey,0,0,D,1718,43,9463,9462,0,0,2017.0,7.0,4.0,0,0
-2017-07-21,MEX1,Club Tijuana,Cruz Azul,0,2,A,1718,43,9448,9457,2,-2,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Monarcas Morelia,Club Tijuana,3,0,H,1718,43,9463,9448,3,3,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CF Monterrey,Atlas Guadalajara,4,1,H,1718,43,9462,9450,5,3,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,Club Tijuana,Cruz Azul,0,2,A,1718,43,9448,9457,2,-2,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,Monarcas Morelia,CF Monterrey,0,0,D,1718,43,9463,9462,0,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CF Monterrey,UANL Tigres,1,2,A,1718,43,9462,9453,3,-1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,UANL Tigres,CF Monterrey,1,1,D,1718,43,9453,9462,2,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Monarcas Morelia,Deportivo Toluca,2,1,H,1718,43,9463,9456,3,1,2017.0,7.0,4.0,0,0
@@ -319,8 +319,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-07-21,MEX1,CF América,Gallos Blancos,0,1,A,1718,43,9452,9447,1,-1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Lobos BUAP,Santos Laguna,2,2,D,1718,43,9465,9446,4,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Club Tijuana,CF Monterrey,0,3,A,1718,43,9448,9462,3,-3,2017.0,7.0,4.0,0,0
-2017-07-21,MEX1,CF América,UANL Tigres,2,2,D,1718,43,9452,9453,4,0,2017.0,7.0,4.0,0,0
-2017-07-21,MEX1,Puebla FC,Club León,0,1,A,1718,43,9445,9460,1,-1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Santos Laguna,Deportivo Guadalajara,1,1,D,1718,43,9446,9455,2,0,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,CF Monterrey,Deportivo Toluca,4,1,H,1718,43,9462,9456,5,3,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Club Necaxa,Cruz Azul,1,1,D,1718,43,9454,9457,2,0,2017.0,7.0,4.0,0,0
@@ -330,6 +328,8 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2017-07-21,MEX1,Club León,Santos Laguna,1,2,A,1718,43,9460,9446,3,-1,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Monarcas Morelia,CF América,2,0,H,1718,43,9463,9452,2,2,2017.0,7.0,4.0,0,0
 2017-07-21,MEX1,Club Necaxa,Atlas Guadalajara,2,1,H,1718,43,9454,9450,3,1,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,Deportivo Guadalajara,Gallos Blancos,0,0,D,1718,43,9455,9447,0,0,2017.0,7.0,4.0,0,0
+2017-07-21,MEX1,Deportivo Toluca,Puebla FC,2,1,H,1718,43,9456,9445,3,1,2017.0,7.0,4.0,0,0
 2018-01-05,MEX1,Santos Laguna,CF Monterrey,3,2,H,1718,43,9446,9462,5,1,2018.0,1.0,4.0,0,0
 2018-01-05,MEX1,Deportivo Toluca,Santos Laguna,1,1,D,1718,43,9456,9446,2,0,2018.0,1.0,4.0,0,0
 2018-01-05,MEX1,Puebla FC,UANL Tigres,2,1,H,1718,43,9445,9453,3,1,2018.0,1.0,4.0,0,0
@@ -1025,17 +1025,9 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2021-01-08,MEX1,Mazatlán FC,Atlas Guadalajara,0,0,D,2021,43,9458,9450,0,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Atlético San Luis,Puebla FC,1,4,A,2021,43,9451,9445,5,-3,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Club León,Deportivo Toluca,2,4,A,2021,43,9460,9456,6,-2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,CF América,Cruz Azul,1,1,D,2021,43,9452,9457,2,0,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Santos Laguna,Deportivo Toluca,3,1,H,2021,43,9446,9456,4,2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Mazatlán FC,Club León,4,3,H,2021,43,9458,9460,7,1,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Gallos Blancos,CF Pachuca,3,1,H,2021,43,9447,9461,4,2,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Cruz Azul,Atlético San Luis,3,2,H,2021,43,9457,9451,5,1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,UANL Tigres,CF Monterrey,2,1,H,2021,43,9453,9462,3,1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Deportivo Toluca,CF América,3,1,H,2021,43,9456,9452,4,2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Atlético San Luis,CF Pachuca,1,5,A,2021,43,9451,9461,6,-4,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Club Necaxa,Atlas Guadalajara,1,5,A,2021,43,9454,9450,6,-4,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Mazatlán FC,Atlético San Luis,0,3,A,2021,43,9458,9451,3,-3,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Club Tijuana,Club León,2,0,H,2021,43,9448,9460,2,2,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Puebla FC,FC Juárez,4,0,H,2021,43,9445,9449,4,4,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,FC Juárez,UANL Tigres,2,3,A,2021,43,9449,9453,5,-1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Club León,Deportivo Guadalajara,1,3,A,2021,43,9460,9455,4,-2,2021.0,1.0,4.0,0,0
@@ -1044,13 +1036,21 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2021-01-08,MEX1,CF América,Puebla FC,1,0,H,2021,43,9452,9445,1,1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Atlas Guadalajara,Santos Laguna,1,1,D,2021,43,9450,9446,2,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Club Necaxa,Cruz Azul,0,2,A,2021,43,9454,9457,2,-2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Cruz Azul,Santos Laguna,1,1,D,2021,43,9457,9446,2,0,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,CF Monterrey,Santos Laguna,1,1,D,2021,43,9462,9446,2,0,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,CF Pachuca,CF América,3,1,H,2021,43,9461,9452,4,2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Deportivo Toluca,Cruz Azul,2,1,H,2021,43,9456,9457,3,1,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Cruz Azul,Club Tijuana,1,1,D,2021,43,9457,9448,2,0,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Gallos Blancos,CF Pachuca,3,1,H,2021,43,9447,9461,4,2,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Atlético San Luis,Club Tijuana,2,2,D,2021,43,9451,9448,4,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Puebla FC,CF Monterrey,0,0,D,2021,43,9445,9462,0,0,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,CF América,CF Pachuca,4,2,H,2021,43,9452,9461,6,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,CF Pachuca,Deportivo Guadalajara,4,2,H,2021,43,9461,9455,6,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Cruz Azul,Deportivo Toluca,3,1,H,2021,43,9457,9456,4,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Atlético San Luis,CF Pachuca,1,5,A,2021,43,9451,9461,6,-4,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Club Necaxa,Atlas Guadalajara,1,5,A,2021,43,9454,9450,6,-4,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Club León,Gallos Blancos,2,1,H,2021,43,9460,9447,3,1,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Cruz Azul,Club Tijuana,1,1,D,2021,43,9457,9448,2,0,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Deportivo Toluca,Cruz Azul,2,1,H,2021,43,9456,9457,3,1,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Mazatlán FC,Atlético San Luis,0,3,A,2021,43,9458,9451,3,-3,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Club Tijuana,Club León,2,0,H,2021,43,9448,9460,2,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Cruz Azul,Santos Laguna,1,1,D,2021,43,9457,9446,2,0,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,CF Monterrey,Santos Laguna,1,1,D,2021,43,9462,9446,2,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Club León,Atlético San Luis,3,1,H,2021,43,9460,9451,4,2,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Santos Laguna,CF América,1,1,D,2021,43,9446,9452,2,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Pumas UNAM,Atlas Guadalajara,0,0,D,2021,43,9459,9450,0,0,2021.0,1.0,4.0,0,0
@@ -1058,10 +1058,10 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2021-01-08,MEX1,Cruz Azul,Gallos Blancos,4,1,H,2021,43,9457,9447,5,3,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Deportivo Guadalajara,FC Juárez,1,2,A,2021,43,9455,9449,3,-1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Santos Laguna,CF Monterrey,2,1,H,2021,43,9446,9462,3,1,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Club León,Gallos Blancos,2,1,H,2021,43,9460,9447,3,1,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,Cruz Azul,Deportivo Toluca,3,1,H,2021,43,9457,9456,4,2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,CF Pachuca,Deportivo Guadalajara,4,2,H,2021,43,9461,9455,6,2,2021.0,1.0,4.0,0,0
-2021-01-08,MEX1,CF América,CF Pachuca,4,2,H,2021,43,9452,9461,6,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,CF Pachuca,CF América,3,1,H,2021,43,9461,9452,4,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,CF América,Cruz Azul,1,1,D,2021,43,9452,9457,2,0,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Santos Laguna,Deportivo Toluca,3,1,H,2021,43,9446,9456,4,2,2021.0,1.0,4.0,0,0
+2021-01-08,MEX1,Mazatlán FC,Club León,4,3,H,2021,43,9458,9460,7,1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Deportivo Guadalajara,Club Necaxa,2,2,D,2021,43,9455,9454,4,0,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,CF América,Gallos Blancos,2,1,H,2021,43,9452,9447,3,1,2021.0,1.0,4.0,0,0
 2021-01-08,MEX1,Deportivo Toluca,Pumas UNAM,1,0,H,2021,43,9456,9459,1,1,2021.0,1.0,4.0,0,0
@@ -1287,6 +1287,8 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-01-06,MEX1,Atlas Guadalajara,Santos Laguna,2,1,H,2122,43,9450,9446,3,1,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Gallos Blancos,Puebla FC,0,2,A,2122,43,9447,9445,2,-2,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Club Tijuana,Pumas UNAM,1,0,H,2122,43,9448,9459,1,1,2022.0,1.0,3.0,0,0
+2022-01-06,MEX1,CF América,Atlético San Luis,2,3,A,2122,43,9452,9451,5,-1,2022.0,1.0,3.0,0,0
+2022-01-06,MEX1,Club Necaxa,CF Pachuca,1,3,A,2122,43,9454,9461,4,-2,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Puebla FC,Club Tijuana,3,1,H,2122,43,9445,9448,4,2,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Santos Laguna,Club Necaxa,1,4,A,2122,43,9446,9454,5,-3,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Pumas UNAM,UANL Tigres,1,2,A,2122,43,9459,9453,3,-1,2022.0,1.0,3.0,0,0
@@ -1314,10 +1316,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-01-06,MEX1,Club Tijuana,CF América,1,3,A,2122,43,9448,9452,4,-2,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,Club Necaxa,Atlético San Luis,4,2,H,2122,43,9454,9451,6,2,2022.0,1.0,3.0,0,0
 2022-01-06,MEX1,FC Juárez,CF Pachuca,1,2,A,2122,43,9449,9461,3,-1,2022.0,1.0,3.0,0,0
-2022-01-06,MEX1,CF América,Atlético San Luis,2,3,A,2122,43,9452,9451,5,-1,2022.0,1.0,3.0,0,0
-2022-01-06,MEX1,Club Necaxa,CF Pachuca,1,3,A,2122,43,9454,9461,4,-2,2022.0,1.0,3.0,0,0
-2022-07-01,MEX1,Gallos Blancos,Deportivo Guadalajara,2,2,D,2223,43,9447,9455,4,0,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,Club Necaxa,CF Pachuca,2,0,H,2223,43,9454,9461,2,2,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Club León,Deportivo Toluca,0,1,A,2223,43,9460,9456,1,-1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Atlético San Luis,Cruz Azul,0,0,D,2223,43,9451,9457,0,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,FC Juárez,UANL Tigres,0,1,A,2223,43,9449,9453,1,-1,2022.0,7.0,4.0,0,0
@@ -1325,9 +1323,11 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-07-01,MEX1,Atlas Guadalajara,Club Tijuana,1,2,A,2223,43,9450,9448,3,-1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,CF Pachuca,Pumas UNAM,0,0,D,2223,43,9461,9459,0,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,UANL Tigres,Atlas Guadalajara,2,0,H,2223,43,9453,9450,2,2,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,Club Tijuana,FC Juárez,0,2,A,2223,43,9448,9449,2,-2,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Club Tijuana,CF América,2,0,H,2223,43,9448,9452,2,2,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Cruz Azul,Puebla FC,2,2,D,2223,43,9457,9445,4,0,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,CF Pachuca,Gallos Blancos,2,0,H,2223,43,9461,9447,2,2,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,Mazatlán FC,UANL Tigres,0,1,A,2223,43,9458,9453,1,-1,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,Club Tijuana,FC Juárez,0,2,A,2223,43,9448,9449,2,-2,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Puebla FC,Santos Laguna,1,0,H,2223,43,9445,9446,1,1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Club León,Pumas UNAM,3,3,D,2223,43,9460,9459,6,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Deportivo Guadalajara,Atlético San Luis,0,1,A,2223,43,9455,9451,1,-1,2022.0,7.0,4.0,0,0
@@ -1403,9 +1403,11 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-07-01,MEX1,UANL Tigres,Gallos Blancos,2,1,H,2223,43,9453,9447,3,1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Cruz Azul,Club Necaxa,1,0,H,2223,43,9457,9454,1,1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,FC Juárez,Deportivo Toluca,1,1,D,2223,43,9449,9456,2,0,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,CF América,Santos Laguna,3,3,D,2223,43,9452,9446,6,0,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,Pumas UNAM,Mazatlán FC,1,1,D,2223,43,9459,9458,2,0,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,Gallos Blancos,Deportivo Guadalajara,2,2,D,2223,43,9447,9455,4,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Deportivo Toluca,Santos Laguna,2,1,H,2223,43,9456,9446,3,1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Mazatlán FC,Puebla FC,2,4,A,2223,43,9458,9445,6,-2,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,CF América,Santos Laguna,3,3,D,2223,43,9452,9446,6,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Club Necaxa,Deportivo Toluca,1,3,A,2223,43,9454,9456,4,-2,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Deportivo Guadalajara,FC Juárez,0,0,D,2223,43,9455,9449,0,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,UANL Tigres,Cruz Azul,2,3,A,2223,43,9453,9457,5,-1,2022.0,7.0,4.0,0,0
@@ -1413,10 +1415,9 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2022-07-01,MEX1,Pumas UNAM,Club Tijuana,1,1,D,2223,43,9459,9448,2,0,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Atlético San Luis,Club León,1,2,A,2223,43,9451,9460,3,-1,2022.0,7.0,4.0,0,0
 2022-07-01,MEX1,Santos Laguna,CF Monterrey,4,3,H,2223,43,9446,9462,7,1,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,CF Pachuca,Gallos Blancos,2,0,H,2223,43,9461,9447,2,2,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,Mazatlán FC,UANL Tigres,0,1,A,2223,43,9458,9453,1,-1,2022.0,7.0,4.0,0,0
-2022-07-01,MEX1,Pumas UNAM,Mazatlán FC,1,1,D,2223,43,9459,9458,2,0,2022.0,7.0,4.0,0,0
+2022-07-01,MEX1,Club Necaxa,CF Pachuca,2,0,H,2223,43,9454,9461,2,2,2022.0,7.0,4.0,0,0
 2023-01-06,MEX1,Deportivo Toluca,Cruz Azul,3,1,H,2223,43,9456,9457,4,2,2023.0,1.0,4.0,0,0
+2023-01-06,MEX1,Deportivo Toluca,UANL Tigres,3,1,H,2223,43,9456,9453,4,2,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Club León,Atlético San Luis,1,3,A,2223,43,9460,9451,4,-2,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Deportivo Guadalajara,UANL Tigres,2,3,A,2223,43,9455,9453,5,-1,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,CF América,Deportivo Guadalajara,1,3,A,2223,43,9452,9455,4,-2,2023.0,1.0,4.0,0,0
@@ -1436,7 +1437,6 @@ Date,Div,HomeTeam,AwayTeam,FTHG,FTAG,FTR,season,league_id,home_team_id,away_team
 2023-01-06,MEX1,Pumas UNAM,Deportivo Toluca,3,1,H,2223,43,9459,9456,4,2,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Cruz Azul,CF América,1,3,A,2223,43,9457,9452,4,-2,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Atlas Guadalajara,CF Pachuca,4,1,H,2223,43,9450,9461,5,3,2023.0,1.0,4.0,0,0
-2023-01-06,MEX1,Deportivo Toluca,UANL Tigres,3,1,H,2223,43,9456,9453,4,2,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,UANL Tigres,CF Monterrey,1,1,D,2223,43,9453,9462,2,0,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Mazatlán FC,Club Tijuana,1,2,A,2223,43,9458,9448,3,-1,2023.0,1.0,4.0,0,0
 2023-01-06,MEX1,Club Necaxa,Puebla FC,1,1,D,2223,43,9454,9445,2,0,2023.0,1.0,4.0,0,0

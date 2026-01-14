@@ -328,6 +328,7 @@ export default function ProbabilityOutput() {
   const [actualResults, setActualResults] = useState<Record<string, Selection>>({});
   const [savedResults, setSavedResults] = useState<any[]>([]);
   const [loadingSavedResults, setLoadingSavedResults] = useState(false);
+  const [showingAllSavedResults, setShowingAllSavedResults] = useState(false);
   const [scores, setScores] = useState<Record<string, { correct: number; total: number }>>({});
 
   // State for pipeline metadata
@@ -493,6 +494,25 @@ export default function ProbabilityOutput() {
         if (jackpotId) {
           console.log('Loading saved results for jackpot:', jackpotId);
           response = await apiClient.getSavedResults(jackpotId);
+          
+          // If no results for this jackpot, also load all saved results to show alternatives
+          if (response.success && response.data && (response.data.results || []).length === 0) {
+            console.log('No saved results for current jackpot, loading all saved results...');
+            const allResponse = await apiClient.getAllSavedResults(50);
+            if (allResponse.success && allResponse.data) {
+              const allResults = allResponse.data.results || [];
+              console.log(`Found ${allResults.length} saved results from other jackpots`);
+              // Keep the empty array for current jackpot, but we'll show all results in UI
+              response = {
+                ...response,
+                data: {
+                  ...response.data,
+                  allResults: allResults, // Store separately
+                  showAllResults: true // Flag to show all results
+                }
+              };
+            }
+          }
         } else {
           console.log('No jackpotId provided, loading latest saved result');
           response = await apiClient.getLatestSavedResult();
@@ -511,8 +531,39 @@ export default function ProbabilityOutput() {
         
         if (response.success && response.data) {
           const results = response.data.results || [];
-          console.log(`Loaded ${results.length} saved results:`, results);
-          setSavedResults(results);
+          const allResults = response.data.allResults || [];
+          const showAllResults = response.data.showAllResults || false;
+          
+          // If we should show all results, combine them
+          const resultsToShow = showAllResults && allResults.length > 0 ? allResults : results;
+          setShowingAllSavedResults(showAllResults && allResults.length > 0);
+          
+          console.log(`Loaded ${resultsToShow.length} saved results:`, resultsToShow);
+          
+          // Log detailed information about saved results
+          if (resultsToShow.length > 0) {
+            console.log('=== SAVED RESULTS DETAILS ===');
+            resultsToShow.forEach((result: any, idx: number) => {
+              const selectionsCount = result.selections ? Object.keys(result.selections).reduce((total: number, setId: string) => {
+                const setSelections = result.selections[setId] || {};
+                return total + Object.keys(setSelections).length;
+              }, 0) : 0;
+              console.log(`  Result ${idx + 1}:`, {
+                id: result.id,
+                name: result.name,
+                jackpotId: result.jackpotId,
+                totalFixtures: result.totalFixtures,
+                selectionsCount: selectionsCount,
+                hasActualResults: !!(result.actualResults && Object.keys(result.actualResults).length > 0),
+                actualResultsCount: result.actualResults ? Object.keys(result.actualResults).length : 0
+              });
+            });
+            console.log('=============================');
+          } else {
+            console.warn(`No saved results found for jackpot ${jackpotId || 'latest'}`);
+          }
+          
+          setSavedResults(resultsToShow);
           
           // If we loaded latest result without jackpotId, try to load probabilities for that jackpotId
           if (!jackpotId && results.length > 0 && results[0].jackpotId) {
@@ -639,22 +690,36 @@ export default function ProbabilityOutput() {
           
           // Convert saved selections to array and match by index position
           const savedEntries = Object.entries(savedSelections);
+          const unmatchedEntries: Array<{savedFixtureId: string, index: number, reason: string}> = [];
+          
+          console.log(`[LOAD DEBUG] Processing Set ${setId}: ${savedEntries.length} saved fixtures`);
+          console.log(`[LOAD DEBUG] Current jackpot has ${currentFixtureIds.length} fixtures`);
           
           savedEntries.forEach(([savedFixtureId, selection], index) => {
             // First try direct ID match
             if (currentFixtureIds.includes(savedFixtureId)) {
               selectionsToApply[savedFixtureId] = selection as Selection;
+              console.log(`[LOAD DEBUG] ✓ Matched by ID: ${savedFixtureId} (index ${index})`);
             } else if (index < currentFixtureIds.length) {
               // Match by index position (most reliable when IDs don't match)
               const matchedFixtureId = currentFixtureIds[index];
               if (matchedFixtureId) {
                 selectionsToApply[matchedFixtureId] = selection as Selection;
+                console.log(`[LOAD DEBUG] ✓ Matched by index ${index}: ${savedFixtureId} -> ${matchedFixtureId}`);
+              } else {
+                unmatchedEntries.push({ savedFixtureId, index, reason: 'No fixture at index position' });
               }
+            } else {
+              unmatchedEntries.push({ savedFixtureId, index, reason: `Index ${index} >= current fixture count ${currentFixtureIds.length}` });
             }
           });
           
+          if (unmatchedEntries.length > 0) {
+            console.warn(`[LOAD DEBUG] ⚠ ${unmatchedEntries.length} fixtures from Set ${setId} could not be matched:`, unmatchedEntries);
+          }
+          
           if (Object.keys(selectionsToApply).length > 0) {
-            console.log(`Applied selections from Set ${setId} (matched ${Object.keys(selectionsToApply).length} by index):`, selectionsToApply);
+            console.log(`[LOAD DEBUG] Applied selections from Set ${setId} (matched ${Object.keys(selectionsToApply).length}/${savedEntries.length}):`, selectionsToApply);
             break; // Use first set found
           }
         }
@@ -678,15 +743,52 @@ export default function ProbabilityOutput() {
         console.log('Applied merged selections from all sets (matched by index):', selectionsToApply);
       }
       
+      // Calculate total saved fixtures count
+      const totalSavedFixtures = Object.values(lastSavedResult.selections).reduce((total, setSelections) => {
+        return total + Object.keys(setSelections || {}).length;
+      }, 0);
+      const matchedCount = Object.keys(selectionsToApply).length;
+      const unmatchedCount = totalSavedFixtures - matchedCount;
+      
+      // Log detailed information
+      console.log('=== LOADING SAVED RESULTS DEBUG ===');
+      console.log('Total saved fixtures:', totalSavedFixtures);
+      console.log('Current fixture IDs count:', currentFixtureIds.length);
+      console.log('Current fixture IDs:', currentFixtureIds);
+      console.log('Matched selections:', matchedCount);
+      console.log('Unmatched selections:', unmatchedCount);
+      console.log('Saved fixture IDs by set:', Object.entries(lastSavedResult.selections).map(([setId, selections]) => ({
+        setId,
+        count: Object.keys(selections || {}).length,
+        ids: Object.keys(selections || {})
+      })));
+      console.log('Selections applied:', selectionsToApply);
+      console.log('===================================');
+      
       if (Object.keys(selectionsToApply).length > 0) {
         console.log('Setting selections:', selectionsToApply);
         setSelections(selectionsToApply);
-        toast({
-          title: 'Loaded Saved Results',
-          description: `Applied ${Object.keys(selectionsToApply).length} selections from "${lastSavedResult.name}"`,
-        });
+        
+        // Show warning if some fixtures weren't matched
+        if (unmatchedCount > 0) {
+          toast({
+            title: 'Loaded Saved Results',
+            description: `Applied ${matchedCount} selections from "${lastSavedResult.name}". ${unmatchedCount} may have not been retained.`,
+            variant: 'default',
+          });
+        } else {
+          toast({
+            title: 'Loaded Saved Results',
+            description: `Applied ${matchedCount} selections from "${lastSavedResult.name}"`,
+          });
+        }
       } else {
         console.warn('No selections could be matched. Saved fixture IDs:', Object.keys(lastSavedResult.selections).flatMap(setId => Object.keys(lastSavedResult.selections[setId] || {})), 'Current fixture IDs:', currentFixtureIds);
+        toast({
+          title: 'Warning',
+          description: `Could not match any selections. Saved: ${totalSavedFixtures} fixtures, Current: ${currentFixtureIds.length} fixtures`,
+          variant: 'destructive',
+        });
       }
     }
     
@@ -1825,7 +1927,9 @@ export default function ProbabilityOutput() {
               Saved Results
             </CardTitle>
             <CardDescription>
-              Previously saved probability results for this jackpot
+              {showingAllSavedResults 
+                ? `No saved results for this jackpot. Showing all saved results from other jackpots.`
+                : 'Previously saved probability results for this jackpot'}
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -1841,37 +1945,71 @@ export default function ProbabilityOutput() {
               </div>
             ) : (
               <div className="space-y-3">
-                {savedResults.map((result) => (
-                  <Card key={result.id} className="glass-card border-border/50 hover:border-primary/30 transition-colors">
-                    <CardContent className="p-4">
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <div className="flex items-center gap-2 mb-2">
-                            <h3 className="font-semibold text-foreground">{result.name}</h3>
-                            <Badge variant="outline" className="text-xs">
-                              {result.totalFixtures} fixtures
-                            </Badge>
-                          </div>
-                          {result.description && (
-                            <p className="text-sm text-muted-foreground mb-2">{result.description}</p>
-                          )}
-                          {result.scores && Object.keys(result.scores).length > 0 && (
-                            <div className="flex flex-wrap gap-2 mb-2">
-                              {Object.entries(result.scores).map(([setId, score]: [string, any]) => (
-                                <Badge key={setId} variant="outline" className="text-xs">
-                                  Set {setId}: {score.correct}/{score.total}
+                {savedResults.map((result) => {
+                  const isCurrentJackpot = result.jackpotId === jackpotId;
+                  return (
+                    <Card key={result.id} className={`glass-card border-border/50 hover:border-primary/30 transition-colors ${!isCurrentJackpot ? 'opacity-75' : ''}`}>
+                      <CardContent className="p-4">
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-2 mb-2">
+                              <h3 className="font-semibold text-foreground">{result.name}</h3>
+                              <Badge variant="outline" className="text-xs">
+                                {result.totalFixtures} fixtures
+                              </Badge>
+                              {!isCurrentJackpot && (
+                                <Badge variant="secondary" className="text-xs">
+                                  {result.jackpotId}
                                 </Badge>
-                              ))}
+                              )}
                             </div>
+                            {result.description && (
+                              <p className="text-sm text-muted-foreground mb-2">{result.description}</p>
+                            )}
+                            {result.scores && Object.keys(result.scores).length > 0 && (
+                              <div className="flex flex-wrap gap-2 mb-2">
+                                {Object.entries(result.scores).map(([setId, score]: [string, any]) => (
+                                  <Badge key={setId} variant="outline" className="text-xs">
+                                    Set {setId}: {score.correct}/{score.total}
+                                  </Badge>
+                                ))}
+                              </div>
+                            )}
+                            <p className="text-xs text-muted-foreground">
+                              Saved: {new Date(result.createdAt).toLocaleString()}
+                              {!isCurrentJackpot && ` • From jackpot: ${result.jackpotId}`}
+                            </p>
+                          </div>
+                          {!isCurrentJackpot && (
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={async () => {
+                                try {
+                                  // Navigate to the jackpot that has this saved result
+                                  navigate(`/probability-output?jackpotId=${result.jackpotId}`);
+                                  toast({
+                                    title: 'Loading saved result',
+                                    description: `Loading jackpot ${result.jackpotId}...`,
+                                  });
+                                } catch (err: any) {
+                                  toast({
+                                    title: 'Error',
+                                    description: 'Could not load saved result: ' + (err.message || 'Unknown error'),
+                                    variant: 'destructive',
+                                  });
+                                }
+                              }}
+                              className="ml-4"
+                            >
+                              Load
+                            </Button>
                           )}
-                          <p className="text-xs text-muted-foreground">
-                            Saved: {new Date(result.createdAt).toLocaleString()}
-                          </p>
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
+                      </CardContent>
+                    </Card>
+                  );
+                })}
               </div>
             )}
           </CardContent>
