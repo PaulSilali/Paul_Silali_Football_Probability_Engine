@@ -1,9 +1,9 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 SP1,1920,2019-08-16,Ath Bilbao,Barcelona,90,89,False
-SP1,1920,2019-08-17,Celta,Ath Madrid,91,90,False
-SP1,1920,2019-08-17,Valencia,Sociedad,91,91,False
-SP1,1920,2019-08-17,Mallorca,Eibar,7,90,False
 SP1,1920,2019-08-17,Levante,Osasuna,91,653,False
+SP1,1920,2019-08-17,Mallorca,Eibar,7,90,False
+SP1,1920,2019-08-17,Valencia,Sociedad,91,91,False
+SP1,1920,2019-08-17,Celta,Ath Madrid,91,90,False
 SP1,1920,2019-08-17,Villarreal,Granada,91,652,False
 SP1,1920,2019-08-18,Alaves,Levante,92,1,False
 SP1,1920,2019-08-18,Espanol,Sevilla,92,92,False
@@ -11,8 +11,8 @@ SP1,1920,2019-08-18,Betis,Valladolid,91,92,False
 SP1,1920,2019-08-18,Ath Madrid,Getafe,1,92,False
 SP1,1920,2019-08-23,Granada,Sevilla,6,5,False
 SP1,1920,2019-08-23,Levante,Villarreal,5,6,False
-SP1,1920,2019-08-24,Osasuna,Eibar,7,7,False
 SP1,1920,2019-08-24,Ath Madrid,Valladolid,6,6,False
+SP1,1920,2019-08-24,Osasuna,Eibar,7,7,False
 SP1,1920,2019-08-24,Celta,Valencia,7,7,False
 SP1,1920,2019-08-24,Getafe,Ath Bilbao,6,8,False
 SP1,1920,2019-08-25,Alaves,Espanol,7,7,False
@@ -25,253 +25,267 @@ SP1,1920,2019-08-31,Osasuna,Barcelona,7,6,False
 SP1,1920,2019-08-31,Getafe,Alaves,7,6,False
 SP1,1920,2019-08-31,Levante,Valladolid,6,7,False
 SP1,1920,2019-08-31,Betis,Levante,6,6,False
+SP1,1920,2019-08-31,Betis,CD Leganes,6,105,False
 SP1,1920,2019-09-01,Valencia,Mallorca,8,7,False
 SP1,1920,2019-09-01,Ath Madrid,Eibar,7,8,False
 SP1,1920,2019-09-01,Espanol,Granada,7,9,False
 SP1,1920,2019-09-01,Villarreal,Ath Madrid,9,7,False
 SP1,1920,2019-09-13,Mallorca,Ath Bilbao,12,14,False
-SP1,1920,2019-09-14,Ath Madrid,Levante,13,14,False
-SP1,1920,2019-09-14,Levante,Villarreal,14,13,False
 SP1,1920,2019-09-14,Sociedad,Ath Madrid,15,13,False
 SP1,1920,2019-09-14,Barcelona,Valencia,14,13,False
-SP1,1920,2019-09-15,Eibar,Espanol,14,14,False
+SP1,1920,2019-09-14,Levante,Villarreal,14,13,False
+SP1,1920,2019-09-14,Ath Madrid,Levante,13,14,False
 SP1,1920,2019-09-15,Alaves,Sevilla,15,16,False
 SP1,1920,2019-09-15,Celta,Granada,16,14,False
 SP1,1920,2019-09-15,Valladolid,Osasuna,15,15,False
 SP1,1920,2019-09-15,Betis,Getafe,15,15,False
+SP1,1920,2019-09-15,Eibar,Espanol,14,14,False
 SP1,1920,2019-09-20,Osasuna,Betis,5,5,False
 SP1,1920,2019-09-21,Villarreal,Valladolid,7,6,False
 SP1,1920,2019-09-21,Levante,Eibar,7,6,False
 SP1,1920,2019-09-21,Ath Madrid,Celta,7,6,False
 SP1,1920,2019-09-21,Granada,Barcelona,6,7,False
-SP1,1920,2019-09-22,Getafe,Mallorca,7,9,False
 SP1,1920,2019-09-22,Espanol,Sociedad,7,8,False
 SP1,1920,2019-09-22,Valencia,Levante,8,1,False
 SP1,1920,2019-09-22,Ath Bilbao,Alaves,9,7,False
 SP1,1920,2019-09-22,Sevilla,Ath Madrid,7,1,False
+SP1,1920,2019-09-22,Getafe,Mallorca,7,9,False
+SP1,1920,2019-09-22,Valencia,CD Leganes,8,22,False
+SP1,1920,2019-09-24,Barcelona,Villarreal,3,3,True
 SP1,1920,2019-09-24,Valladolid,Granada,3,3,True
 SP1,1920,2019-09-24,Betis,Levante,4,2,True
-SP1,1920,2019-09-24,Barcelona,Villarreal,3,3,True
-SP1,1920,2019-09-25,Levante,Ath Bilbao,1,3,True
-SP1,1920,2019-09-25,Mallorca,Ath Madrid,3,3,True
-SP1,1920,2019-09-25,Valencia,Getafe,3,3,True
 SP1,1920,2019-09-25,Ath Madrid,Osasuna,3,5,True
+SP1,1920,2019-09-25,Mallorca,Ath Madrid,3,3,True
+SP1,1920,2019-09-25,CD Leganes,Ath Bilbao,3,3,True
+SP1,1920,2019-09-25,Levante,Ath Bilbao,1,3,True
+SP1,1920,2019-09-25,Valencia,Getafe,3,3,True
+SP1,1920,2019-09-26,Sociedad,Alaves,4,4,True
 SP1,1920,2019-09-26,Eibar,Sevilla,5,4,True
 SP1,1920,2019-09-26,Celta,Espanol,5,4,True
-SP1,1920,2019-09-26,Sociedad,Alaves,4,4,True
 SP1,1920,2019-09-27,Villarreal,Betis,3,3,False
-SP1,1920,2019-09-28,Ath Bilbao,Valencia,3,3,False
-SP1,1920,2019-09-28,Getafe,Barcelona,3,4,False
 SP1,1920,2019-09-28,Granada,Levante,4,3,False
 SP1,1920,2019-09-28,Ath Madrid,Ath Madrid,3,3,False
+SP1,1920,2019-09-28,Ath Bilbao,Valencia,3,3,False
+SP1,1920,2019-09-28,Getafe,Barcelona,3,4,False
+SP1,1920,2019-09-29,Sevilla,Sociedad,3,3,False
 SP1,1920,2019-09-29,Espanol,Valladolid,3,5,False
 SP1,1920,2019-09-29,Eibar,Celta,3,3,False
 SP1,1920,2019-09-29,Alaves,Mallorca,3,4,False
 SP1,1920,2019-09-29,Levante,Osasuna,1,4,False
-SP1,1920,2019-09-29,Sevilla,Sociedad,3,3,False
 SP1,1920,2019-10-04,Betis,Eibar,7,5,False
-SP1,1920,2019-10-05,Levante,Levante,6,6,False
-SP1,1920,2019-10-05,Ath Madrid,Granada,7,7,False
-SP1,1920,2019-10-05,Valencia,Alaves,7,6,False
 SP1,1920,2019-10-05,Osasuna,Villarreal,6,8,False
+SP1,1920,2019-10-05,Valencia,Alaves,7,6,False
+SP1,1920,2019-10-05,Ath Madrid,Granada,7,7,False
+SP1,1920,2019-10-05,Levante,Levante,6,6,False
+SP1,1920,2019-10-05,CD Leganes,Levante,10,6,False
+SP1,1920,2019-10-06,Barcelona,Sevilla,8,7,False
 SP1,1920,2019-10-06,Mallorca,Espanol,7,7,False
 SP1,1920,2019-10-06,Celta,Ath Bilbao,7,8,False
 SP1,1920,2019-10-06,Valladolid,Ath Madrid,7,1,False
 SP1,1920,2019-10-06,Sociedad,Getafe,7,8,False
-SP1,1920,2019-10-06,Barcelona,Sevilla,8,7,False
 SP1,1920,2019-10-18,Granada,Osasuna,13,13,False
 SP1,1920,2019-10-19,Eibar,Barcelona,15,13,False
 SP1,1920,2019-10-19,Ath Madrid,Valencia,13,14,False
 SP1,1920,2019-10-19,Getafe,Levante,13,14,False
 SP1,1920,2019-10-19,Mallorca,Ath Madrid,13,13,False
+SP1,1920,2019-10-20,Sevilla,Levante,14,1,False
 SP1,1920,2019-10-20,Alaves,Celta,15,14,False
 SP1,1920,2019-10-20,Sociedad,Betis,14,16,False
 SP1,1920,2019-10-20,Espanol,Villarreal,14,15,False
 SP1,1920,2019-10-20,Ath Bilbao,Valladolid,14,14,False
-SP1,1920,2019-10-20,Sevilla,Levante,14,1,False
 SP1,1920,2019-10-25,Villarreal,Alaves,5,5,False
 SP1,1920,2019-10-26,Levante,Mallorca,6,7,False
-SP1,1920,2019-10-26,Valladolid,Eibar,6,7,False
 SP1,1920,2019-10-26,Ath Madrid,Ath Bilbao,7,6,False
+SP1,1920,2019-10-26,Valladolid,Eibar,6,7,False
+SP1,1920,2019-10-27,Osasuna,Valencia,9,8,False
 SP1,1920,2019-10-27,Celta,Sociedad,7,7,False
 SP1,1920,2019-10-27,Granada,Betis,9,7,False
 SP1,1920,2019-10-27,Levante,Espanol,1,7,False
 SP1,1920,2019-10-27,Sevilla,Getafe,7,8,False
-SP1,1920,2019-10-27,Osasuna,Valencia,9,8,False
-SP1,1920,2019-10-29,Alaves,Ath Madrid,4,3,True
 SP1,1920,2019-10-29,Barcelona,Valladolid,10,3,True
-SP1,1920,2019-10-30,Sociedad,Levante,3,3,True
+SP1,1920,2019-10-29,Alaves,Ath Madrid,4,3,True
 SP1,1920,2019-10-30,Valencia,Sevilla,3,3,True
+SP1,1920,2019-10-30,Sociedad,Levante,3,3,True
 SP1,1920,2019-10-30,Ath Bilbao,Espanol,4,3,True
 SP1,1920,2019-10-30,Betis,Celta,3,3,True
 SP1,1920,2019-10-30,Ath Madrid,Levante,1,3,True
-SP1,1920,2019-10-31,Eibar,Villarreal,5,6,True
 SP1,1920,2019-10-31,Mallorca,Osasuna,5,4,True
+SP1,1920,2019-10-31,Eibar,Villarreal,5,6,True
 SP1,1920,2019-10-31,Getafe,Granada,4,4,True
-SP1,1920,2019-11-02,Espanol,Valencia,3,3,False
-SP1,1920,2019-11-02,Levante,Barcelona,3,4,False
 SP1,1920,2019-11-02,Sevilla,Ath Madrid,3,3,False
+SP1,1920,2019-11-02,Levante,Barcelona,3,4,False
+SP1,1920,2019-11-02,Espanol,Valencia,3,3,False
 SP1,1920,2019-11-02,Ath Madrid,Betis,3,3,False
-SP1,1920,2019-11-03,Valladolid,Mallorca,5,3,False
+SP1,1920,2019-11-03,Granada,Sociedad,3,4,False
 SP1,1920,2019-11-03,Villarreal,Ath Bilbao,3,4,False
+SP1,1920,2019-11-03,CD Leganes,Eibar,29,3,False
+SP1,1920,2019-11-03,Valladolid,Mallorca,5,3,False
 SP1,1920,2019-11-03,Osasuna,Alaves,3,5,False
 SP1,1920,2019-11-03,Celta,Getafe,4,3,False
 SP1,1920,2019-11-03,Levante,Eibar,1,3,False
-SP1,1920,2019-11-03,Granada,Sociedad,3,4,False
+SP1,1920,2019-11-08,Sociedad,CD Leganes,5,5,False
 SP1,1920,2019-11-08,Sociedad,Levante,5,5,False
 SP1,1920,2019-11-09,Alaves,Valladolid,6,6,False
-SP1,1920,2019-11-09,Valencia,Granada,7,6,False
-SP1,1920,2019-11-09,Eibar,Ath Madrid,6,7,False
 SP1,1920,2019-11-09,Barcelona,Celta,7,6,False
-SP1,1920,2019-11-10,Mallorca,Villarreal,7,7,False
-SP1,1920,2019-11-10,Ath Bilbao,Levante,7,2,False
+SP1,1920,2019-11-09,Eibar,Ath Madrid,6,7,False
+SP1,1920,2019-11-09,Valencia,Granada,7,6,False
 SP1,1920,2019-11-10,Ath Madrid,Espanol,1,8,False
+SP1,1920,2019-11-10,Mallorca,Villarreal,7,7,False
 SP1,1920,2019-11-10,Getafe,Osasuna,7,7,False
 SP1,1920,2019-11-10,Betis,Sevilla,8,8,False
+SP1,1920,2019-11-10,Ath Bilbao,Levante,7,2,False
 SP1,1920,2019-11-22,Levante,Mallorca,12,12,False
+SP1,1920,2019-11-23,CD Leganes,Barcelona,15,14,False
 SP1,1920,2019-11-23,Levante,Barcelona,1,14,False
 SP1,1920,2019-11-23,Betis,Valencia,13,14,False
 SP1,1920,2019-11-23,Granada,Ath Madrid,14,13,False
 SP1,1920,2019-11-23,Ath Madrid,Sociedad,13,15,False
+SP1,1920,2019-11-24,Villarreal,Celta,14,15,False
+SP1,1920,2019-11-24,Valladolid,Sevilla,15,14,False
 SP1,1920,2019-11-24,Espanol,Getafe,14,14,False
 SP1,1920,2019-11-24,Osasuna,Ath Bilbao,14,14,False
 SP1,1920,2019-11-24,Eibar,Alaves,15,15,False
-SP1,1920,2019-11-24,Villarreal,Celta,14,15,False
-SP1,1920,2019-11-24,Valladolid,Sevilla,15,14,False
 SP1,1920,2019-11-29,Celta,Valladolid,5,5,False
-SP1,1920,2019-11-30,Alaves,Ath Madrid,6,7,False
 SP1,1920,2019-11-30,Sociedad,Eibar,7,6,False
 SP1,1920,2019-11-30,Mallorca,Betis,8,7,False
 SP1,1920,2019-11-30,Valencia,Villarreal,7,6,False
-SP1,1920,2019-12-01,Sevilla,Levante,7,8,False
-SP1,1920,2019-12-01,Ath Bilbao,Granada,7,8,False
-SP1,1920,2019-12-01,Espanol,Osasuna,7,7,False
+SP1,1920,2019-11-30,Alaves,Ath Madrid,6,7,False
 SP1,1920,2019-12-01,Getafe,Levante,7,8,False
+SP1,1920,2019-12-01,Espanol,Osasuna,7,7,False
+SP1,1920,2019-12-01,Ath Bilbao,Granada,7,8,False
+SP1,1920,2019-12-01,Sevilla,Levante,7,8,False
 SP1,1920,2019-12-01,Ath Madrid,Barcelona,1,8,False
 SP1,1920,2019-12-06,Villarreal,Ath Madrid,6,5,False
 SP1,1920,2019-12-07,Ath Madrid,Espanol,1,6,False
-SP1,1920,2019-12-07,Granada,Alaves,6,7,False
 SP1,1920,2019-12-07,Levante,Valencia,6,7,False
 SP1,1920,2019-12-07,Barcelona,Mallorca,6,7,False
+SP1,1920,2019-12-07,Granada,Alaves,6,7,False
+SP1,1920,2019-12-08,Levante,Celta,1,9,False
 SP1,1920,2019-12-08,Eibar,Getafe,8,7,False
 SP1,1920,2019-12-08,Betis,Ath Bilbao,8,7,False
 SP1,1920,2019-12-08,Valladolid,Sociedad,9,8,False
-SP1,1920,2019-12-08,Levante,Celta,1,9,False
 SP1,1920,2019-12-08,Osasuna,Sevilla,7,7,False
+SP1,1920,2019-12-08,CD Leganes,Celta,15,9,False
 SP1,1920,2019-12-13,Alaves,Levante,6,5,False
-SP1,1920,2019-12-14,Granada,Levante,7,1,False
-SP1,1920,2019-12-14,Sociedad,Barcelona,6,7,False
+SP1,1920,2019-12-13,Alaves,CD Leganes,6,5,False
 SP1,1920,2019-12-14,Ath Bilbao,Eibar,6,6,False
 SP1,1920,2019-12-14,Ath Madrid,Osasuna,7,6,False
-SP1,1920,2019-12-15,Getafe,Valladolid,7,7,False
-SP1,1920,2019-12-15,Celta,Mallorca,7,8,False
-SP1,1920,2019-12-15,Espanol,Betis,8,7,False
+SP1,1920,2019-12-14,Granada,Levante,7,1,False
+SP1,1920,2019-12-14,Sociedad,Barcelona,6,7,False
 SP1,1920,2019-12-15,Sevilla,Villarreal,7,9,False
 SP1,1920,2019-12-15,Valencia,Ath Madrid,8,1,False
+SP1,1920,2019-12-15,Celta,Mallorca,7,8,False
+SP1,1920,2019-12-15,Getafe,Valladolid,7,7,False
+SP1,1920,2019-12-15,Espanol,Betis,8,7,False
 SP1,1920,2019-12-18,Barcelona,Ath Madrid,4,3,True
 SP1,1920,2019-12-20,Eibar,Granada,6,6,False
 SP1,1920,2019-12-21,Mallorca,Sevilla,6,6,False
 SP1,1920,2019-12-21,Barcelona,Alaves,3,8,False
 SP1,1920,2019-12-21,Villarreal,Getafe,6,6,False
 SP1,1920,2019-12-21,Valladolid,Valencia,6,6,False
+SP1,1920,2019-12-22,Levante,Celta,8,7,False
+SP1,1920,2019-12-22,Ath Madrid,Ath Bilbao,4,8,False
 SP1,1920,2019-12-22,Levante,Espanol,8,7,False
 SP1,1920,2019-12-22,Osasuna,Sociedad,8,8,False
 SP1,1920,2019-12-22,Betis,Ath Madrid,7,4,False
-SP1,1920,2019-12-22,Levante,Celta,8,7,False
-SP1,1920,2019-12-22,Ath Madrid,Ath Bilbao,4,8,False
-SP1,1920,2020-01-03,Valladolid,Levante,13,12,False
 SP1,1920,2020-01-03,Sevilla,Ath Bilbao,13,12,False
+SP1,1920,2020-01-03,Valladolid,Levante,13,12,False
+SP1,1920,2020-01-03,Valladolid,CD Leganes,13,21,False
+SP1,1920,2020-01-04,Ath Madrid,Levante,13,1,False
 SP1,1920,2020-01-04,Valencia,Eibar,14,15,False
 SP1,1920,2020-01-04,Getafe,Ath Madrid,14,13,False
-SP1,1920,2020-01-04,Ath Madrid,Levante,13,1,False
 SP1,1920,2020-01-04,Espanol,Barcelona,13,14,False
+SP1,1920,2020-01-05,Alaves,Betis,15,14,False
 SP1,1920,2020-01-05,Granada,Mallorca,16,15,False
 SP1,1920,2020-01-05,Sociedad,Villarreal,14,15,False
-SP1,1920,2020-01-05,Alaves,Betis,15,14,False
 SP1,1920,2020-01-05,Celta,Osasuna,14,14,False
 SP1,1920,2020-01-17,Levante,Getafe,13,13,False
 SP1,1920,2020-01-18,Levante,Alaves,1,13,False
-SP1,1920,2020-01-18,Ath Madrid,Sevilla,14,15,False
-SP1,1920,2020-01-18,Osasuna,Valladolid,13,15,False
 SP1,1920,2020-01-18,Eibar,Ath Madrid,14,14,False
+SP1,1920,2020-01-18,Osasuna,Valladolid,13,15,False
+SP1,1920,2020-01-18,Ath Madrid,Sevilla,14,15,False
+SP1,1920,2020-01-19,Ath Bilbao,Celta,16,14,False
 SP1,1920,2020-01-19,Mallorca,Valencia,14,15,False
 SP1,1920,2020-01-19,Betis,Sociedad,14,14,False
 SP1,1920,2020-01-19,Villarreal,Espanol,14,15,False
-SP1,1920,2020-01-19,Ath Bilbao,Celta,16,14,False
 SP1,1920,2020-01-19,Barcelona,Granada,15,14,False
 SP1,1920,2020-01-24,Osasuna,Levante,6,6,False
+SP1,1920,2020-01-25,Sevilla,Granada,7,6,False
 SP1,1920,2020-01-25,Espanol,Ath Bilbao,6,6,False
 SP1,1920,2020-01-25,Valencia,Barcelona,6,6,False
 SP1,1920,2020-01-25,Alaves,Villarreal,7,6,False
-SP1,1920,2020-01-25,Sevilla,Granada,7,6,False
-SP1,1920,2020-01-26,Ath Madrid,Levante,8,2,False
-SP1,1920,2020-01-26,Celta,Eibar,7,8,False
-SP1,1920,2020-01-26,Getafe,Betis,9,7,False
 SP1,1920,2020-01-26,Sociedad,Mallorca,7,7,False
 SP1,1920,2020-01-26,Valladolid,Ath Madrid,8,8,False
-SP1,1920,2020-02-01,Granada,Espanol,7,7,False
+SP1,1920,2020-01-26,Getafe,Betis,9,7,False
+SP1,1920,2020-01-26,Celta,Eibar,7,8,False
+SP1,1920,2020-01-26,Ath Madrid,Levante,8,2,False
 SP1,1920,2020-02-01,Ath Madrid,Ath Madrid,6,6,False
-SP1,1920,2020-02-01,Mallorca,Valladolid,6,6,False
 SP1,1920,2020-02-01,Valencia,Celta,7,6,False
-SP1,1920,2020-02-02,Levante,Sociedad,7,7,False
-SP1,1920,2020-02-02,Eibar,Betis,7,7,False
+SP1,1920,2020-02-01,Granada,Espanol,7,7,False
+SP1,1920,2020-02-01,Mallorca,Valladolid,6,6,False
 SP1,1920,2020-02-02,Ath Bilbao,Getafe,8,7,False
 SP1,1920,2020-02-02,Sevilla,Alaves,8,8,False
 SP1,1920,2020-02-02,Villarreal,Osasuna,8,9,False
 SP1,1920,2020-02-02,Barcelona,Levante,8,7,False
+SP1,1920,2020-02-02,CD Leganes,Sociedad,30,7,False
+SP1,1920,2020-02-02,Levante,Sociedad,7,7,False
+SP1,1920,2020-02-02,Eibar,Betis,7,7,False
 SP1,1920,2020-02-07,Alaves,Eibar,5,5,False
+SP1,1920,2020-02-08,Valladolid,Villarreal,7,6,False
 SP1,1920,2020-02-08,Levante,Levante,6,6,False
 SP1,1920,2020-02-08,Getafe,Valencia,6,7,False
-SP1,1920,2020-02-08,Valladolid,Villarreal,7,6,False
 SP1,1920,2020-02-08,Ath Madrid,Granada,7,7,False
 SP1,1920,2020-02-09,Espanol,Mallorca,8,8,False
-SP1,1920,2020-02-09,Sociedad,Ath Bilbao,7,7,False
-SP1,1920,2020-02-09,Osasuna,Ath Madrid,7,1,False
-SP1,1920,2020-02-09,Celta,Sevilla,8,7,False
 SP1,1920,2020-02-09,Betis,Barcelona,7,7,False
+SP1,1920,2020-02-09,Celta,Sevilla,8,7,False
+SP1,1920,2020-02-09,Osasuna,Ath Madrid,7,1,False
+SP1,1920,2020-02-09,Sociedad,Ath Bilbao,7,7,False
 SP1,1920,2020-02-14,Valencia,Ath Madrid,6,5,False
+SP1,1920,2020-02-15,Granada,Valladolid,7,7,False
 SP1,1920,2020-02-15,Mallorca,Alaves,6,8,False
 SP1,1920,2020-02-15,Barcelona,Getafe,6,7,False
 SP1,1920,2020-02-15,Villarreal,Levante,7,7,False
-SP1,1920,2020-02-15,Granada,Valladolid,7,7,False
-SP1,1920,2020-02-16,Sevilla,Espanol,7,7,False
-SP1,1920,2020-02-16,Levante,Betis,1,7,False
 SP1,1920,2020-02-16,Ath Bilbao,Osasuna,7,7,False
+SP1,1920,2020-02-16,Levante,Betis,1,7,False
+SP1,1920,2020-02-16,Sevilla,Espanol,7,7,False
 SP1,1920,2020-02-16,Ath Madrid,Celta,2,7,False
 SP1,1920,2020-02-21,Betis,Mallorca,5,6,False
+SP1,1920,2020-02-22,Sociedad,Valencia,13,8,False
 SP1,1920,2020-02-22,Celta,Levante,6,6,False
 SP1,1920,2020-02-22,Barcelona,Eibar,7,15,False
-SP1,1920,2020-02-22,Sociedad,Valencia,13,8,False
 SP1,1920,2020-02-22,Levante,Ath Madrid,6,6,False
+SP1,1920,2020-02-23,Ath Madrid,Villarreal,1,8,False
 SP1,1920,2020-02-23,Osasuna,Granada,7,8,False
 SP1,1920,2020-02-23,Alaves,Ath Bilbao,8,7,False
 SP1,1920,2020-02-23,Valladolid,Espanol,8,7,False
 SP1,1920,2020-02-23,Getafe,Sevilla,8,7,False
-SP1,1920,2020-02-23,Ath Madrid,Villarreal,1,8,False
 SP1,1920,2020-02-28,Sociedad,Valladolid,6,5,False
+SP1,1920,2020-02-29,Granada,Celta,6,7,False
+SP1,1920,2020-02-29,CD Leganes,Alaves,27,6,False
 SP1,1920,2020-02-29,Eibar,Levante,7,7,False
 SP1,1920,2020-02-29,Valencia,Betis,7,8,False
 SP1,1920,2020-02-29,Levante,Alaves,7,6,False
-SP1,1920,2020-02-29,Granada,Celta,6,7,False
+SP1,1920,2020-03-01,Mallorca,Getafe,9,7,False
 SP1,1920,2020-03-01,Sevilla,Osasuna,7,7,False
 SP1,1920,2020-03-01,Ath Bilbao,Villarreal,7,7,False
 SP1,1920,2020-03-01,Espanol,Ath Madrid,7,7,False
-SP1,1920,2020-03-01,Mallorca,Getafe,9,7,False
 SP1,1920,2020-03-01,Ath Madrid,Barcelona,7,8,False
 SP1,1920,2020-03-06,Alaves,Valencia,6,6,False
+SP1,1920,2020-03-07,Getafe,Celta,6,7,False
 SP1,1920,2020-03-07,Eibar,Mallorca,7,6,False
 SP1,1920,2020-03-07,Ath Madrid,Sevilla,6,6,False
 SP1,1920,2020-03-07,Barcelona,Sociedad,6,8,False
-SP1,1920,2020-03-07,Getafe,Celta,6,7,False
-SP1,1920,2020-03-08,Osasuna,Espanol,7,7,False
-SP1,1920,2020-03-08,Valladolid,Ath Bilbao,9,7,False
 SP1,1920,2020-03-08,Levante,Granada,8,8,False
-SP1,1920,2020-03-08,Villarreal,Levante,7,8,False
 SP1,1920,2020-03-08,Betis,Ath Madrid,8,1,False
+SP1,1920,2020-03-08,Villarreal,Levante,7,8,False
+SP1,1920,2020-03-08,Valladolid,Ath Bilbao,9,7,False
+SP1,1920,2020-03-08,Osasuna,Espanol,7,7,False
+SP1,1920,2020-03-08,Villarreal,CD Leganes,7,8,False
 SP1,1920,2020-03-10,Eibar,Sociedad,3,3,True
 SP1,1920,2020-06-11,Sevilla,Betis,96,95,True
-SP1,1920,2020-06-12,Granada,Getafe,96,97,False
 SP1,1920,2020-06-12,Valencia,Levante,98,96,False
+SP1,1920,2020-06-12,Granada,Getafe,96,97,False
+SP1,1920,2020-06-13,CD Leganes,Valladolid,97,97,False
 SP1,1920,2020-06-13,Espanol,Alaves,97,99,False
 SP1,1920,2020-06-13,Celta,Villarreal,98,97,False
 SP1,1920,2020-06-13,Levante,Valladolid,1,97,False
@@ -279,30 +293,31 @@ SP1,1920,2020-06-13,Mallorca,Barcelona,98,98,False
 SP1,1920,2020-06-14,Ath Bilbao,Ath Madrid,98,98,False
 SP1,1920,2020-06-14,Ath Madrid,Eibar,98,96,False
 SP1,1920,2020-06-14,Sociedad,Osasuna,96,98,False
-SP1,1920,2020-06-15,Levante,Sevilla,2,4,False
 SP1,1920,2020-06-15,Betis,Granada,4,3,False
-SP1,1920,2020-06-16,Getafe,Espanol,4,3,True
+SP1,1920,2020-06-15,Levante,Sevilla,2,4,False
 SP1,1920,2020-06-16,Villarreal,Mallorca,3,3,True
+SP1,1920,2020-06-16,Getafe,Espanol,4,3,True
 SP1,1920,2020-06-16,Barcelona,Levante,3,1,True
-SP1,1920,2020-06-17,Eibar,Ath Bilbao,3,3,True
 SP1,1920,2020-06-17,Valladolid,Celta,4,4,True
+SP1,1920,2020-06-17,Eibar,Ath Bilbao,3,3,True
 SP1,1920,2020-06-17,Osasuna,Ath Madrid,3,3,True
 SP1,1920,2020-06-18,Alaves,Sociedad,5,4,True
 SP1,1920,2020-06-18,Ath Madrid,Valencia,1,6,True
-SP1,1920,2020-06-19,Granada,Villarreal,4,3,False
 SP1,1920,2020-06-19,Mallorca,Levante,3,3,False
+SP1,1920,2020-06-19,Mallorca,CD Leganes,3,6,False
+SP1,1920,2020-06-19,Granada,Villarreal,4,3,False
 SP1,1920,2020-06-19,Sevilla,Barcelona,4,3,False
-SP1,1920,2020-06-20,Espanol,Levante,4,1,False
-SP1,1920,2020-06-20,Ath Bilbao,Betis,3,5,False
-SP1,1920,2020-06-20,Getafe,Eibar,4,3,False
 SP1,1920,2020-06-20,Ath Madrid,Valladolid,2,3,False
+SP1,1920,2020-06-20,Getafe,Eibar,4,3,False
+SP1,1920,2020-06-20,Ath Bilbao,Betis,3,5,False
+SP1,1920,2020-06-20,Espanol,Levante,4,1,False
 SP1,1920,2020-06-21,Celta,Alaves,4,3,False
-SP1,1920,2020-06-21,Valencia,Osasuna,3,4,False
 SP1,1920,2020-06-21,Sociedad,Ath Madrid,3,1,False
-SP1,1920,2020-06-22,Villarreal,Sevilla,3,3,False
+SP1,1920,2020-06-21,Valencia,Osasuna,3,4,False
 SP1,1920,2020-06-22,Levante,Granada,2,3,False
-SP1,1920,2020-06-23,Levante,Ath Madrid,1,2,True
+SP1,1920,2020-06-22,Villarreal,Sevilla,3,3,False
 SP1,1920,2020-06-23,Valladolid,Getafe,3,3,True
+SP1,1920,2020-06-23,Levante,Ath Madrid,1,2,True
 SP1,1920,2020-06-23,Barcelona,Ath Bilbao,4,3,True
 SP1,1920,2020-06-24,Alaves,Osasuna,3,3,True
 SP1,1920,2020-06-24,Sociedad,Celta,3,3,True
@@ -310,72 +325,74 @@ SP1,1920,2020-06-24,Ath Madrid,Mallorca,1,5,True
 SP1,1920,2020-06-25,Eibar,Valencia,5,4,True
 SP1,1920,2020-06-25,Betis,Espanol,5,5,True
 SP1,1920,2020-06-26,Sevilla,Valladolid,4,3,False
-SP1,1920,2020-06-27,Ath Bilbao,Mallorca,4,3,False
-SP1,1920,2020-06-27,Celta,Barcelona,3,4,False
-SP1,1920,2020-06-27,Osasuna,Levante,3,4,False
 SP1,1920,2020-06-27,Ath Madrid,Alaves,3,3,False
+SP1,1920,2020-06-27,Osasuna,CD Leganes,3,8,False
+SP1,1920,2020-06-27,Osasuna,Levante,3,4,False
+SP1,1920,2020-06-27,Celta,Barcelona,3,4,False
+SP1,1920,2020-06-27,Ath Bilbao,Mallorca,4,3,False
 SP1,1920,2020-06-28,Levante,Betis,1,3,False
-SP1,1920,2020-06-28,Villarreal,Valencia,6,3,False
 SP1,1920,2020-06-28,Granada,Eibar,6,3,False
 SP1,1920,2020-06-28,Espanol,Ath Madrid,3,1,False
+SP1,1920,2020-06-28,Villarreal,Valencia,6,3,False
 SP1,1920,2020-06-29,Getafe,Sociedad,6,5,False
-SP1,1920,2020-06-30,Mallorca,Celta,3,3,True
 SP1,1920,2020-06-30,Levante,Sevilla,2,4,True
 SP1,1920,2020-06-30,Barcelona,Ath Madrid,3,2,True
+SP1,1920,2020-06-30,Mallorca,Celta,3,3,True
+SP1,1920,2020-07-01,Valladolid,Levante,5,1,True
 SP1,1920,2020-07-01,Alaves,Granada,4,3,True
 SP1,1920,2020-07-01,Valencia,Ath Bilbao,3,4,True
 SP1,1920,2020-07-01,Betis,Villarreal,3,3,True
-SP1,1920,2020-07-01,Valladolid,Levante,5,1,True
+SP1,1920,2020-07-02,Ath Madrid,Getafe,2,3,True
 SP1,1920,2020-07-02,Eibar,Osasuna,4,5,True
 SP1,1920,2020-07-02,Sociedad,Espanol,3,4,True
-SP1,1920,2020-07-02,Ath Madrid,Getafe,2,3,True
 SP1,1920,2020-07-03,Ath Madrid,Mallorca,1,3,False
+SP1,1920,2020-07-04,Granada,Valencia,3,3,False
 SP1,1920,2020-07-04,Celta,Betis,4,3,False
 SP1,1920,2020-07-04,Valladolid,Alaves,3,3,False
-SP1,1920,2020-07-04,Granada,Valencia,3,3,False
+SP1,1920,2020-07-05,Osasuna,Getafe,3,3,False
 SP1,1920,2020-07-05,Ath Bilbao,Ath Madrid,4,2,False
 SP1,1920,2020-07-05,Espanol,Levante,3,4,False
-SP1,1920,2020-07-05,Osasuna,Getafe,3,3,False
 SP1,1920,2020-07-05,Villarreal,Barcelona,4,5,False
 SP1,1920,2020-07-06,Levante,Sociedad,1,4,False
 SP1,1920,2020-07-06,Sevilla,Eibar,6,4,False
-SP1,1920,2020-07-07,Valencia,Valladolid,3,3,True
 SP1,1920,2020-07-07,Celta,Ath Madrid,3,2,True
-SP1,1920,2020-07-08,Betis,Osasuna,4,3,True
+SP1,1920,2020-07-07,Valencia,Valladolid,3,3,True
 SP1,1920,2020-07-08,Getafe,Villarreal,3,3,True
 SP1,1920,2020-07-08,Barcelona,Espanol,3,3,True
-SP1,1920,2020-07-09,Eibar,Levante,3,3,True
-SP1,1920,2020-07-09,Mallorca,Levante,6,3,True
+SP1,1920,2020-07-08,Betis,Osasuna,4,3,True
 SP1,1920,2020-07-09,Ath Bilbao,Sevilla,4,3,True
+SP1,1920,2020-07-09,Mallorca,Levante,6,3,True
+SP1,1920,2020-07-09,Eibar,Levante,3,3,True
 SP1,1920,2020-07-10,Sociedad,Granada,4,6,False
 SP1,1920,2020-07-10,Ath Madrid,Alaves,3,6,False
 SP1,1920,2020-07-11,Osasuna,Celta,3,4,False
-SP1,1920,2020-07-11,Valladolid,Barcelona,4,3,False
 SP1,1920,2020-07-11,Ath Madrid,Betis,1,3,False
-SP1,1920,2020-07-12,Espanol,Eibar,4,3,False
-SP1,1920,2020-07-12,Levante,Ath Bilbao,3,3,False
-SP1,1920,2020-07-12,Levante,Valencia,3,5,False
+SP1,1920,2020-07-11,Valladolid,Barcelona,4,3,False
 SP1,1920,2020-07-12,Sevilla,Mallorca,3,3,False
-SP1,1920,2020-07-13,Alaves,Getafe,3,5,False
+SP1,1920,2020-07-12,Levante,Ath Bilbao,3,3,False
+SP1,1920,2020-07-12,Espanol,Eibar,4,3,False
+SP1,1920,2020-07-12,Levante,Valencia,3,5,False
 SP1,1920,2020-07-13,Villarreal,Sociedad,5,3,False
+SP1,1920,2020-07-13,Alaves,Getafe,3,5,False
 SP1,1920,2020-07-13,Granada,Ath Madrid,3,2,False
-SP1,1920,2020-07-16,Eibar,Valladolid,4,5,True
-SP1,1920,2020-07-16,Ath Bilbao,Levante,4,4,True
-SP1,1920,2020-07-16,Barcelona,Osasuna,5,5,True
-SP1,1920,2020-07-16,Betis,Alaves,5,3,True
-SP1,1920,2020-07-16,Celta,Levante,5,4,True
-SP1,1920,2020-07-16,Getafe,Ath Madrid,3,3,True
-SP1,1920,2020-07-16,Mallorca,Granada,4,3,True
-SP1,1920,2020-07-16,Ath Madrid,Villarreal,3,3,True
 SP1,1920,2020-07-16,Sociedad,Sevilla,3,4,True
+SP1,1920,2020-07-16,Ath Madrid,Villarreal,3,3,True
+SP1,1920,2020-07-16,Mallorca,Granada,4,3,True
+SP1,1920,2020-07-16,Getafe,Ath Madrid,3,3,True
+SP1,1920,2020-07-16,Celta,Levante,5,4,True
+SP1,1920,2020-07-16,Betis,Alaves,5,3,True
+SP1,1920,2020-07-16,Barcelona,Osasuna,5,5,True
+SP1,1920,2020-07-16,Ath Bilbao,Levante,4,4,True
+SP1,1920,2020-07-16,Eibar,Valladolid,4,5,True
 SP1,1920,2020-07-16,Valencia,Espanol,4,4,True
-SP1,1920,2020-07-19,Alaves,Barcelona,3,3,False
-SP1,1920,2020-07-19,Valladolid,Betis,3,3,False
-SP1,1920,2020-07-19,Villarreal,Eibar,3,3,False
-SP1,1920,2020-07-19,Ath Madrid,Sociedad,3,3,False
-SP1,1920,2020-07-19,Espanol,Celta,3,3,False
-SP1,1920,2020-07-19,Granada,Ath Bilbao,3,3,False
 SP1,1920,2020-07-19,Levante,Ath Madrid,3,3,False
+SP1,1920,2020-07-19,CD Leganes,Ath Madrid,22,3,False
 SP1,1920,2020-07-19,Levante,Getafe,3,3,False
 SP1,1920,2020-07-19,Osasuna,Mallorca,3,3,False
 SP1,1920,2020-07-19,Sevilla,Valencia,3,3,False
+SP1,1920,2020-07-19,Granada,Ath Bilbao,3,3,False
+SP1,1920,2020-07-19,Espanol,Celta,3,3,False
+SP1,1920,2020-07-19,Ath Madrid,Sociedad,3,3,False
+SP1,1920,2020-07-19,Villarreal,Eibar,3,3,False
+SP1,1920,2020-07-19,Valladolid,Betis,3,3,False
+SP1,1920,2020-07-19,Alaves,Barcelona,3,3,False

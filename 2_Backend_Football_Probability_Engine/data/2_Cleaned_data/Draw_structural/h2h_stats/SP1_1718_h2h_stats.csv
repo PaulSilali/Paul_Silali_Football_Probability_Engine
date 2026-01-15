@@ -6,6 +6,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8716,Espanol,8719,Betis,1718,2,0,0.0,2.0
 8704,Villarreal,8708,Alaves,1718,2,0,0.0,3.0
 8708,Alaves,8716,Espanol,1718,2,1,0.5,0.5
+8719,Betis,9875,CD Leganes,1718,2,0,0.0,5.0
 8708,Alaves,8719,Betis,1718,2,0,0.0,3.0
 8711,Sociedad,8721,Las Palmas,1718,2,1,0.5,2.5
 8717,Ath Madrid,8728,La Coruna,1718,4,0,0.0,3.25
@@ -16,6 +17,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8702,Girona,8716,Espanol,1718,2,0,0.0,1.5
 8708,Alaves,8729,Malaga,1718,2,0,0.0,2.0
 8707,Barcelona,8710,Valencia,1718,2,1,0.5,2.5
+8713,Getafe,9875,CD Leganes,1718,1,0,0.0,3.0
 8704,Villarreal,8717,Ath Madrid,1718,4,2,0.5,2.5
 8717,Ath Madrid,8721,Las Palmas,1718,4,0,0.0,3.75
 8712,Celta,8726,Eibar,1718,2,0,0.0,3.0
@@ -27,6 +29,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8711,Sociedad,8717,Ath Madrid,1718,4,0,0.0,4.25
 8704,Villarreal,8729,Malaga,1718,2,0,0.0,1.5
 8711,Sociedad,8715,Sevilla,1718,2,0,0.0,2.5
+8717,Ath Madrid,9875,CD Leganes,1718,2,0,0.0,3.5
 8712,Celta,8713,Getafe,1718,2,1,0.5,2.5
 8712,Celta,8715,Sevilla,1718,2,0,0.0,3.5
 8704,Villarreal,8709,Levante,1718,4,0,0.0,2.75
@@ -66,6 +69,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8713,Getafe,8721,Las Palmas,1718,2,0,0.0,1.5
 8707,Barcelona,8713,Getafe,1718,2,1,0.5,1.5
 8708,Alaves,8726,Eibar,1718,2,0,0.0,2.0
+8708,Alaves,9875,CD Leganes,1718,1,1,1.0,4.0
 8719,Betis,8728,La Coruna,1718,2,0,0.0,2.0
 8709,Levante,8709,Levante,1718,2,1,0.5,1.5
 8708,Alaves,8713,Getafe,1718,2,0,0.0,3.5
@@ -95,6 +99,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8702,Girona,8713,Getafe,1718,2,1,0.5,1.5
 8711,Sociedad,8712,Celta,1718,2,0,0.0,4.0
 8715,Sevilla,8721,Las Palmas,1718,2,0,0.0,2.0
+8715,Sevilla,9875,CD Leganes,1718,2,0,0.0,3.0
 8715,Sevilla,8726,Eibar,1718,2,0,0.0,4.5
 8716,Espanol,8728,La Coruna,1718,2,1,0.5,2.5
 8711,Sociedad,8729,Malaga,1718,2,0,0.0,2.0
@@ -105,6 +110,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8709,Levante,8729,Malaga,1718,4,1,0.25,1.25
 8707,Barcelona,8709,Levante,1718,4,0,0.0,4.75
 8721,Las Palmas,8729,Malaga,1718,2,0,0.0,2.5
+8704,Villarreal,9875,CD Leganes,1718,2,0,0.0,3.5
 8707,Barcelona,8708,Alaves,1718,2,0,0.0,2.5
 8702,Girona,8711,Sociedad,1718,2,1,0.5,3.5
 8707,Barcelona,8711,Sociedad,1718,2,0,0.0,3.5
@@ -137,14 +143,17 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8710,Valencia,8726,Eibar,1718,2,1,0.5,1.5
 8712,Celta,8714,Ath Bilbao,1718,2,1,0.5,3.0
 8714,Ath Bilbao,8721,Las Palmas,1718,2,1,0.5,0.5
+8711,Sociedad,9875,CD Leganes,1718,1,0,0.0,5.0
 8714,Ath Bilbao,8715,Sevilla,1718,2,0,0.0,1.5
 8717,Ath Madrid,8729,Malaga,1718,4,0,0.0,2.5
+8707,Barcelona,9875,CD Leganes,1718,1,0,0.0,4.0
 8704,Villarreal,8716,Espanol,1718,2,2,1.0,1.0
 8708,Alaves,8721,Las Palmas,1718,2,0,0.0,3.0
 8708,Alaves,8711,Sociedad,1718,2,0,0.0,2.5
 8712,Celta,8719,Betis,1718,2,0,0.0,4.0
 8710,Valencia,8713,Getafe,1718,2,0,0.0,2.0
 8708,Alaves,8709,Levante,1718,4,1,0.25,2.0
+8716,Espanol,9875,CD Leganes,1718,1,0,0.0,5.0
 8710,Valencia,8715,Sevilla,1718,2,0,0.0,3.0
 8704,Villarreal,8713,Getafe,1718,2,0,0.0,2.5
 8711,Sociedad,8714,Ath Bilbao,1718,2,1,0.5,2.0

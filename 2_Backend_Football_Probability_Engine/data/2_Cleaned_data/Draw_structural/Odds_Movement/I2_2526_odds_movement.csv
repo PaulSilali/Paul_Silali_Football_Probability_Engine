@@ -10,9 +10,9 @@ I2,2526,2025-08-24,Catanzaro,Sudtirol,3.01,3.01,0.0
 I2,2526,2025-08-24,Venezia,Bari,3.22,3.22,0.0
 I2,2526,2025-08-25,Sampdoria,Monza,3.05,3.05,0.0
 I2,2526,2025-08-29,Reggiana,Empoli,2.96,2.96,0.0
+I2,2526,2025-08-30,Juve Stabia,Venezia,3.01,3.01,0.0
 I2,2526,2025-08-30,Spezia,Catanzaro,3.27,3.27,0.0
 I2,2526,2025-08-30,Mantova,Pescara,3.33,3.33,0.0
-I2,2526,2025-08-30,Juve Stabia,Venezia,3.01,3.01,0.0
 I2,2526,2025-08-30,Palermo,Frosinone,3.31,3.31,0.0
 I2,2526,2025-08-30,Cesena,Virtus Entella,3.09,3.09,0.0
 I2,2526,2025-08-31,Carrarese,Padova,3.12,3.12,0.0
@@ -98,9 +98,9 @@ I2,2526,2025-10-28,Frosinone,Virtus Entella,3.07,3.07,0.0
 I2,2526,2025-10-29,Venezia,Sudtirol,3.65,3.65,0.0
 I2,2526,2025-10-29,Mantova,Catanzaro,3.23,3.23,0.0
 I2,2526,2025-10-29,Spezia,Padova,3.26,3.26,0.0
+I2,2526,2025-11-01,Padova,Sudtirol,3.04,3.04,0.0
 I2,2526,2025-11-01,Avellino,Reggiana,3.33,3.33,0.0
 I2,2526,2025-11-01,Carrarese,Frosinone,3.2,3.2,0.0
-I2,2526,2025-11-01,Padova,Sudtirol,3.04,3.04,0.0
 I2,2526,2025-11-01,Virtus Entella,Empoli,3.02,3.02,0.0
 I2,2526,2025-11-01,Palermo,Pescara,4.45,4.45,0.0
 I2,2526,2025-11-02,Sampdoria,Mantova,3.4,3.4,0.0
@@ -112,9 +112,9 @@ I2,2526,2025-11-07,Spezia,Bari,3.09,3.09,0.0
 I2,2526,2025-11-08,Frosinone,Monza,3.13,3.13,0.0
 I2,2526,2025-11-08,Empoli,Catanzaro,3.08,3.08,0.0
 I2,2526,2025-11-08,Mantova,Padova,3.15,3.15,0.0
-I2,2526,2025-11-08,Reggiana,Virtus Entella,2.98,2.98,0.0
 I2,2526,2025-11-08,Sudtirol,Carrarese,3.14,3.14,0.0
 I2,2526,2025-11-08,Juve Stabia,Palermo,3.05,3.05,0.0
+I2,2526,2025-11-08,Reggiana,Virtus Entella,2.98,2.98,0.0
 I2,2526,2025-11-08,Venezia,Sampdoria,3.53,3.53,0.0
 I2,2526,2025-11-09,Cesena,Avellino,3.34,3.34,0.0
 I2,2526,2025-11-09,Pescara,Monza,3.43,3.43,0.0
@@ -150,9 +150,9 @@ I2,2526,2025-12-08,Frosinone,Juve Stabia,3.15,3.15,0.0
 I2,2526,2025-12-08,Virtus Entella,Spezia,3.02,3.02,0.0
 I2,2526,2025-12-08,Padova,Cesena,2.91,2.91,0.0
 I2,2526,2025-12-12,Palermo,Sampdoria,3.62,3.62,0.0
+I2,2526,2025-12-13,Spezia,Monza,3.06,3.06,0.0
 I2,2526,2025-12-13,Juve Stabia,Empoli,2.98,2.98,0.0
 I2,2526,2025-12-13,Reggiana,Padova,3.0,3.0,0.0
-I2,2526,2025-12-13,Spezia,Monza,3.06,3.06,0.0
 I2,2526,2025-12-13,Sudtirol,Bari,3.18,3.18,0.0
 I2,2526,2025-12-13,Venezia,Monza,3.01,3.01,0.0
 I2,2526,2025-12-13,Catanzaro,Avellino,3.44,3.44,0.0
@@ -167,15 +167,20 @@ I2,2526,2025-12-20,Monza,Carrarese,3.73,3.73,0.0
 I2,2526,2025-12-20,Monza,Venezia,3.12,3.12,0.0
 I2,2526,2025-12-20,Frosinone,Spezia,3.49,3.49,0.0
 I2,2526,2025-12-20,Cesena,Juve Stabia,3.05,3.05,0.0
-I2,2526,2025-12-21,Mantova,Empoli,3.07,3.07,0.0
 I2,2526,2025-12-21,Virtus Entella,Sudtirol,3.03,3.03,0.0
+I2,2526,2025-12-21,Mantova,Empoli,3.07,3.07,0.0
 I2,2526,2025-12-26,Monza,Monza,2.97,2.97,0.0
-I2,2526,2025-12-27,Spezia,Pescara,3.64,3.64,0.0
+I2,2526,2025-12-27,Sampdoria,Reggiana,3.25,3.25,0.0
+I2,2526,2025-12-27,Palermo,Padova,3.96,3.96,0.0
+I2,2526,2025-12-27,Bari,Avellino,3.08,3.08,0.0
 I2,2526,2025-12-27,Carrarese,Mantova,3.18,3.18,0.0
 I2,2526,2025-12-27,Catanzaro,Cesena,3.0,3.0,0.0
 I2,2526,2025-12-27,Empoli,Frosinone,3.11,3.11,0.0
 I2,2526,2025-12-27,Juve Stabia,Sudtirol,3.02,3.02,0.0
 I2,2526,2025-12-27,Venezia,Virtus Entella,4.21,4.21,0.0
-I2,2526,2025-12-27,Sampdoria,Reggiana,3.25,3.25,0.0
-I2,2526,2025-12-27,Palermo,Padova,3.96,3.96,0.0
-I2,2526,2025-12-27,Bari,Avellino,3.08,3.08,0.0
+I2,2526,2025-12-27,Spezia,Pescara,3.64,3.64,0.0
+I2,2526,2026-01-10,Juve Stabia,Pescara,3.36,3.36,0.0
+I2,2526,2026-01-10,Sudtirol,Spezia,2.99,2.99,0.0
+I2,2526,2026-01-10,Reggiana,Venezia,3.66,3.66,0.0
+I2,2526,2026-01-10,Avellino,Sampdoria,3.0,3.0,0.0
+I2,2526,2026-01-11,Mantova,Palermo,3.31,3.31,0.0

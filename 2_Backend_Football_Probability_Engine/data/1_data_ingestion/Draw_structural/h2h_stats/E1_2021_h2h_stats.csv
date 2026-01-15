@@ -1,87 +1,44 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-9124,Bristol City,9142,Wycombe,2021,2,0,0.0,3.0
 9120,Derby,9130,Luton,2021,2,0,0.0,2.5
-9131,Burnley,9132,Huddersfield,2021,2,0,0.0,2.0
 9106,Watford,9119,Stoke,2021,2,0,0.0,4.0
 9126,Cardiff,9135,Reading,2021,2,1,0.5,2.5
-9111,Middlesbrough,9142,Wycombe,2021,2,0,0.0,3.5
-9123,Sheffield United,9130,Luton,2021,2,0,0.0,3.0
 9107,Coventry,9142,Wycombe,2021,2,1,0.5,1.5
 9119,Stoke,9133,Rotherham,2021,2,1,0.5,3.5
-9113,Norwich,9141,Brentford,2021,2,1,0.5,1.5
-9130,Luton,9132,Huddersfield,2021,2,2,1.0,2.0
 9126,Cardiff,9137,Bournemouth,2021,2,1,0.5,2.5
-9124,Bristol City,9141,Brentford,2021,2,0,0.0,4.5
 9112,Swansea,9140,Nott'm Forest,2021,2,0,0.0,1.0
 9119,Stoke,9130,Luton,2021,2,0,0.0,2.5
-9120,Derby,9142,Wycombe,2021,2,1,0.5,2.5
-9117,QPR,9122,Blackburn,2021,2,0,0.0,2.5
 9120,Derby,9123,Sheffield United,2021,2,1,0.5,3.5
-9126,Cardiff,9132,Huddersfield,2021,2,1,0.5,1.5
 9103,Birmingham,9114,Millwall,2021,2,1,0.5,1.0
-9103,Birmingham,9142,Wycombe,2021,2,1,0.5,1.5
 9112,Swansea,9122,Blackburn,2021,2,1,0.5,2.0
-9106,Watford,9137,Bournemouth,2021,2,1,0.5,1.5
-9130,Luton,9131,Burnley,2021,2,0,0.0,2.0
 9106,Watford,9111,Middlesbrough,2021,2,1,0.5,1.5
 9123,Sheffield United,9124,Bristol City,2021,2,1,0.5,2.0
-9107,Coventry,9132,Huddersfield,2021,2,2,1.0,1.0
 9113,Norwich,9131,Burnley,2021,2,1,0.5,2.5
-9106,Watford,9117,QPR,2021,2,1,0.5,2.5
-9114,Millwall,9137,Bournemouth,2021,2,1,0.5,3.5
-9106,Watford,9142,Wycombe,2021,2,1,0.5,2.0
 9106,Watford,9140,Nott'm Forest,2021,2,1,0.5,0.5
-9111,Middlesbrough,9126,Cardiff,2021,2,2,1.0,2.0
 9119,Stoke,9142,Wycombe,2021,2,0,0.0,1.5
 9132,Huddersfield,9142,Wycombe,2021,2,1,0.5,2.5
 9130,Luton,9133,Rotherham,2021,2,1,0.5,0.5
 9106,Watford,9124,Bristol City,2021,2,1,0.5,3.0
-9133,Rotherham,9135,Reading,2021,2,0,0.0,2.0
-9111,Middlesbrough,9118,Preston,2021,2,0,0.0,2.5
 9111,Middlesbrough,9120,Derby,2021,2,0,0.0,3.0
-9118,Preston,9132,Huddersfield,2021,2,0,0.0,3.0
-9119,Stoke,9135,Reading,2021,2,1,0.5,1.5
 9103,Birmingham,9131,Burnley,2021,2,0,0.0,2.0
 9122,Blackburn,9135,Reading,2021,2,0,0.0,3.5
 9122,Blackburn,9123,Sheffield United,2021,2,1,0.5,1.5
 9103,Birmingham,9123,Sheffield United,2021,2,0,0.0,1.0
 9112,Swansea,9133,Rotherham,2021,2,0,0.0,2.5
-9119,Stoke,9123,Sheffield United,2021,2,1,0.5,0.5
-9113,Norwich,9117,QPR,2021,2,1,0.5,3.0
-9114,Millwall,9123,Sheffield United,2021,2,1,0.5,2.5
-9112,Swansea,9124,Bristol City,2021,2,1,0.5,3.0
-9111,Middlesbrough,9131,Burnley,2021,2,0,0.0,2.5
-9120,Derby,9133,Rotherham,2021,2,0,0.0,2.0
 9124,Bristol City,9131,Burnley,2021,2,1,0.5,2.5
 9126,Cardiff,9130,Luton,2021,2,0,0.0,3.0
 9103,Birmingham,9141,Brentford,2021,2,1,0.5,0.5
 9113,Norwich,9119,Stoke,2021,2,0,0.0,5.0
-9123,Sheffield United,9137,Bournemouth,2021,2,0,0.0,2.0
 9122,Blackburn,9130,Luton,2021,2,1,0.5,1.5
-9103,Birmingham,9119,Stoke,2021,2,1,0.5,2.0
 9124,Bristol City,9132,Huddersfield,2021,2,0,0.0,3.0
 9132,Huddersfield,9137,Bournemouth,2021,2,0,0.0,4.0
-9122,Blackburn,9133,Rotherham,2021,2,1,0.5,2.5
-9126,Cardiff,9140,Nott'm Forest,2021,2,0,0.0,1.5
-9122,Blackburn,9140,Nott'm Forest,2021,2,0,0.0,1.0
-9119,Stoke,9120,Derby,2021,2,1,0.5,0.5
-9123,Sheffield United,9131,Burnley,2021,2,0,0.0,3.0
-9140,Nott'm Forest,9141,Brentford,2021,2,1,0.5,3.0
 9111,Middlesbrough,9114,Millwall,2021,2,0,0.0,2.0
-9123,Sheffield United,9142,Wycombe,2021,2,0,0.0,1.5
-9112,Swansea,9123,Sheffield United,2021,2,1,0.5,2.0
 9140,Nott'm Forest,9142,Wycombe,2021,2,0,0.0,2.5
 9123,Sheffield United,9126,Cardiff,2021,2,0,0.0,3.5
 9119,Stoke,9140,Nott'm Forest,2021,2,2,1.0,2.0
 9107,Coventry,9113,Norwich,2021,2,1,0.5,2.0
-9112,Swansea,9126,Cardiff,2021,2,0,0.0,1.5
-9131,Burnley,9142,Wycombe,2021,2,0,0.0,3.5
 9112,Swansea,9120,Derby,2021,2,0,0.0,2.5
 9111,Middlesbrough,9112,Swansea,2021,2,0,0.0,3.0
 9119,Stoke,9132,Huddersfield,2021,2,1,0.5,4.5
-9124,Bristol City,9130,Luton,2021,2,0,0.0,4.0
-9126,Cardiff,9141,Brentford,2021,2,1,0.5,3.5
-9107,Coventry,9122,Blackburn,2021,2,1,0.5,3.0
 9103,Birmingham,9106,Watford,2021,2,0,0.0,2.0
 9132,Huddersfield,9133,Rotherham,2021,2,2,1.0,1.0
 9107,Coventry,9137,Bournemouth,2021,2,0,0.0,4.5
@@ -90,176 +47,90 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9130,Luton,9135,Reading,2021,2,1,0.5,1.5
 9137,Bournemouth,9140,Nott'm Forest,2021,2,1,0.5,1.0
 9113,Norwich,9122,Blackburn,2021,2,1,0.5,2.5
-9131,Burnley,9141,Brentford,2021,2,0,0.0,1.5
 9103,Birmingham,9117,QPR,2021,2,1,0.5,1.5
 9103,Birmingham,9112,Swansea,2021,2,1,0.5,0.5
-9118,Preston,9137,Bournemouth,2021,2,1,0.5,3.5
 9106,Watford,9118,Preston,2021,2,0,0.0,3.0
 9112,Swansea,9113,Norwich,2021,2,0,0.0,1.5
-9135,Reading,9137,Bournemouth,2021,2,0,0.0,5.0
-9107,Coventry,9126,Cardiff,2021,2,0,0.0,2.5
 9135,Reading,9140,Nott'm Forest,2021,2,1,0.5,2.0
 9114,Millwall,9124,Bristol City,2021,2,0,0.0,3.5
 9106,Watford,9135,Reading,2021,2,0,0.0,1.5
 9112,Swansea,9130,Luton,2021,2,0,0.0,1.5
 9103,Birmingham,9140,Nott'm Forest,2021,2,2,1.0,1.0
-9118,Preston,9123,Sheffield United,2021,2,0,0.0,1.0
 9114,Millwall,9126,Cardiff,2021,2,2,1.0,2.0
-9123,Sheffield United,9132,Huddersfield,2021,2,1,0.5,2.0
 9112,Swansea,9135,Reading,2021,2,2,1.0,2.0
 9103,Birmingham,9135,Reading,2021,2,0,0.0,3.0
-9113,Norwich,9135,Reading,2021,2,0,0.0,4.0
 9106,Watford,9126,Cardiff,2021,2,0,0.0,2.0
 9107,Coventry,9111,Middlesbrough,2021,2,0,0.0,2.5
-9114,Millwall,9135,Reading,2021,2,1,0.5,2.5
-9113,Norwich,9124,Bristol City,2021,2,0,0.0,3.0
 9107,Coventry,9130,Luton,2021,2,1,0.5,1.0
-9112,Swansea,9142,Wycombe,2021,2,1,0.5,3.0
-9120,Derby,9124,Bristol City,2021,2,0,0.0,1.0
-9114,Millwall,9130,Luton,2021,2,1,0.5,2.0
 9112,Swansea,9131,Burnley,2021,2,0,0.0,2.0
-9107,Coventry,9114,Millwall,2021,2,0,0.0,5.0
 9120,Derby,9126,Cardiff,2021,2,1,0.5,3.0
 9103,Birmingham,9124,Bristol City,2021,2,0,0.0,2.0
 9117,QPR,9142,Wycombe,2021,2,1,0.5,1.5
 9131,Burnley,9137,Bournemouth,2021,2,0,0.0,4.5
 9112,Swansea,9119,Stoke,2021,2,0,0.0,2.5
-9111,Middlesbrough,9123,Sheffield United,2021,2,0,0.0,3.5
 9107,Coventry,9141,Brentford,2021,2,0,0.0,2.0
 9118,Preston,9135,Reading,2021,2,1,0.5,1.5
-9111,Middlesbrough,9140,Nott'm Forest,2021,2,0,0.0,2.0
-9135,Reading,9141,Brentford,2021,2,0,0.0,4.0
 9112,Swansea,9137,Bournemouth,2021,2,1,0.5,1.5
-9117,QPR,9124,Bristol City,2021,2,0,0.0,2.5
-9107,Coventry,9118,Preston,2021,2,0,0.0,1.5
 9111,Middlesbrough,9122,Blackburn,2021,2,1,0.5,0.5
-9114,Millwall,9118,Preston,2021,2,0,0.0,2.5
-9114,Millwall,9142,Wycombe,2021,2,1,0.5,1.5
-9114,Millwall,9141,Brentford,2021,2,2,1.0,1.0
 9122,Blackburn,9141,Brentford,2021,2,1,0.5,2.5
-9106,Watford,9141,Brentford,2021,2,1,0.5,2.0
-9107,Coventry,9124,Bristol City,2021,2,0,0.0,3.5
 9120,Derby,9140,Nott'm Forest,2021,2,2,1.0,2.0
 9122,Blackburn,9137,Bournemouth,2021,2,0,0.0,3.5
-9141,Brentford,9142,Wycombe,2021,2,1,0.5,4.5
-9117,QPR,9133,Rotherham,2021,2,0,0.0,4.5
-9132,Huddersfield,9141,Brentford,2021,2,1,0.5,2.5
 9122,Blackburn,9124,Bristol City,2021,2,1,0.5,0.5
-9120,Derby,9137,Bournemouth,2021,2,1,0.5,1.5
-9118,Preston,9141,Brentford,2021,2,0,0.0,5.5
 9113,Norwich,9126,Cardiff,2021,2,0,0.0,2.5
-9111,Middlesbrough,9119,Stoke,2021,2,0,0.0,2.0
 9120,Derby,9122,Blackburn,2021,2,0,0.0,3.5
 9107,Coventry,9112,Swansea,2021,2,1,0.5,1.5
-9118,Preston,9133,Rotherham,2021,2,0,0.0,3.0
-9107,Coventry,9117,QPR,2021,2,0,0.0,4.0
-9120,Derby,9135,Reading,2021,2,0,0.0,3.0
 9131,Burnley,9135,Reading,2021,2,1,0.5,2.0
 9117,QPR,9120,Derby,2021,2,0,0.0,1.0
-9126,Cardiff,9142,Wycombe,2021,2,0,0.0,3.0
 9114,Millwall,9132,Huddersfield,2021,2,0,0.0,2.0
-9106,Watford,9107,Coventry,2021,2,1,0.5,2.5
 9130,Luton,9141,Brentford,2021,2,0,0.0,2.0
 9103,Birmingham,9137,Bournemouth,2021,2,0,0.0,4.5
-9118,Preston,9119,Stoke,2021,2,1,0.5,0.5
 9103,Birmingham,9120,Derby,2021,2,0,0.0,3.5
 9114,Millwall,9119,Stoke,2021,2,1,0.5,1.5
 9119,Stoke,9137,Bournemouth,2021,2,0,0.0,1.5
 9132,Huddersfield,9135,Reading,2021,2,1,0.5,3.5
-9123,Sheffield United,9140,Nott'm Forest,2021,2,1,0.5,1.0
-9107,Coventry,9123,Sheffield United,2021,2,0,0.0,1.5
-9112,Swansea,9117,QPR,2021,2,0,0.0,1.5
 9111,Middlesbrough,9141,Brentford,2021,2,1,0.5,2.5
 9111,Middlesbrough,9133,Rotherham,2021,2,0,0.0,3.0
 9111,Middlesbrough,9130,Luton,2021,2,1,0.5,1.5
-9118,Preston,9130,Luton,2021,2,0,0.0,2.0
-9114,Millwall,9117,QPR,2021,2,1,0.5,3.5
 9132,Huddersfield,9140,Nott'm Forest,2021,2,0,0.0,1.5
-9106,Watford,9120,Derby,2021,2,0,0.0,2.0
-9133,Rotherham,9137,Bournemouth,2021,2,1,0.5,2.5
-9118,Preston,9142,Wycombe,2021,2,1,0.5,2.5
 9137,Bournemouth,9142,Wycombe,2021,2,0,0.0,1.0
-9119,Stoke,9126,Cardiff,2021,2,1,0.5,1.5
 9107,Coventry,9119,Stoke,2021,2,1,0.5,2.5
-9118,Preston,9122,Blackburn,2021,2,0,0.0,3.0
-9122,Blackburn,9142,Wycombe,2021,2,0,0.0,3.0
 9123,Sheffield United,9141,Brentford,2021,2,0,0.0,3.0
-9118,Preston,9126,Cardiff,2021,2,0,0.0,2.5
 9103,Birmingham,9122,Blackburn,2021,2,0,0.0,4.5
 9113,Norwich,9142,Wycombe,2021,2,0,0.0,2.5
 9130,Luton,9142,Wycombe,2021,2,0,0.0,3.0
-9117,QPR,9126,Cardiff,2021,2,0,0.0,3.0
-9106,Watford,9133,Rotherham,2021,2,0,0.0,3.5
-9137,Bournemouth,9141,Brentford,2021,2,0,0.0,2.0
-9103,Birmingham,9133,Rotherham,2021,2,1,0.5,1.5
 9112,Swansea,9132,Huddersfield,2021,2,0,0.0,4.0
-9119,Stoke,9124,Bristol City,2021,2,0,0.0,2.0
 9106,Watford,9113,Norwich,2021,2,0,0.0,1.0
-9120,Derby,9131,Burnley,2021,2,1,0.5,1.0
 9103,Birmingham,9118,Preston,2021,2,0,0.0,2.0
 9107,Coventry,9135,Reading,2021,2,0,0.0,4.0
 9131,Burnley,9140,Nott'm Forest,2021,2,1,0.5,1.0
-9117,QPR,9118,Preston,2021,2,1,0.5,1.0
-9117,QPR,9132,Huddersfield,2021,2,0,0.0,1.5
-9130,Luton,9140,Nott'm Forest,2021,2,1,0.5,1.5
 9112,Swansea,9118,Preston,2021,2,0,0.0,1.0
 9113,Norwich,9118,Preston,2021,2,2,1.0,3.0
-9113,Norwich,9133,Rotherham,2021,2,0,0.0,2.0
-9106,Watford,9114,Millwall,2021,2,1,0.5,0.5
 9133,Rotherham,9140,Nott'm Forest,2021,2,1,0.5,1.5
-9111,Middlesbrough,9113,Norwich,2021,2,1,0.5,0.5
-9118,Preston,9120,Derby,2021,2,0,0.0,2.0
 9114,Millwall,9133,Rotherham,2021,2,0,0.0,1.0
-9124,Bristol City,9135,Reading,2021,2,0,0.0,3.0
-9113,Norwich,9114,Millwall,2021,2,2,1.0,
 9123,Sheffield United,9133,Rotherham,2021,2,0,0.0,3.0
 9103,Birmingham,9132,Huddersfield,2021,2,1,0.5,2.5
 9131,Burnley,9133,Rotherham,2021,2,0,0.0,2.0
-9113,Norwich,9123,Sheffield United,2021,2,0,0.0,3.0
 9107,Coventry,9120,Derby,2021,2,1,0.5,1.5
 9117,QPR,9123,Sheffield United,2021,2,1,0.5,3.5
-9111,Middlesbrough,9135,Reading,2021,2,1,0.5,1.0
 9117,QPR,9140,Nott'm Forest,2021,2,0,0.0,3.0
-9117,QPR,9135,Reading,2021,2,1,0.5,1.5
-9117,QPR,9130,Luton,2021,2,0,0.0,3.0
 9130,Luton,9137,Bournemouth,2021,2,1,0.5,0.5
-9124,Bristol City,9137,Bournemouth,2021,2,0,0.0,2.0
 9114,Millwall,9140,Nott'm Forest,2021,2,1,0.5,3.0
 9113,Norwich,9140,Nott'm Forest,2021,2,0,0.0,2.5
-9106,Watford,9132,Huddersfield,2021,2,0,0.0,2.0
 9118,Preston,9124,Bristol City,2021,2,0,0.0,1.5
 9106,Watford,9123,Sheffield United,2021,2,1,0.5,0.5
 9126,Cardiff,9133,Rotherham,2021,2,1,0.5,2.5
-9103,Birmingham,9107,Coventry,2021,2,2,1.0,1.0
-9133,Rotherham,9142,Wycombe,2021,2,0,0.0,2.0
 9103,Birmingham,9126,Cardiff,2021,2,0,0.0,4.5
 9119,Stoke,9141,Brentford,2021,2,0,0.0,4.0
-9133,Rotherham,9141,Brentford,2021,2,0,0.0,1.5
-9103,Birmingham,9113,Norwich,2021,2,0,0.0,2.5
-9113,Norwich,9132,Huddersfield,2021,2,0,0.0,4.0
-9122,Blackburn,9131,Burnley,2021,2,0,0.0,3.0
 9113,Norwich,9120,Derby,2021,2,0,0.0,1.0
-9120,Derby,9141,Brentford,2021,2,2,1.0,2.0
 9106,Watford,9112,Swansea,2021,2,0,0.0,2.5
-9119,Stoke,9131,Burnley,2021,2,1,0.5,3.0
 9113,Norwich,9130,Luton,2021,2,0,0.0,3.5
-9117,QPR,9137,Bournemouth,2021,2,1,0.5,1.5
 9106,Watford,9130,Luton,2021,2,0,0.0,1.0
 9124,Bristol City,9140,Nott'm Forest,2021,2,1,0.5,1.5
-9107,Coventry,9131,Burnley,2021,2,1,0.5,1.0
-9103,Birmingham,9111,Middlesbrough,2021,2,0,0.0,3.0
 9117,QPR,9141,Brentford,2021,2,0,0.0,3.0
-9112,Swansea,9114,Millwall,2021,2,0,0.0,3.0
-9118,Preston,9140,Nott'm Forest,2021,2,0,0.0,2.0
 9106,Watford,9131,Burnley,2021,2,0,0.0,1.0
 9123,Sheffield United,9135,Reading,2021,2,1,0.5,2.5
-9124,Bristol City,9133,Rotherham,2021,2,0,0.0,2.0
-9124,Bristol City,9126,Cardiff,2021,2,0,0.0,1.5
 9126,Cardiff,9131,Burnley,2021,2,1,0.5,3.5
 9119,Stoke,9122,Blackburn,2021,2,1,0.5,1.5
-9117,QPR,9131,Burnley,2021,2,0,0.0,3.5
-9122,Blackburn,9126,Cardiff,2021,2,2,1.0,2.0
-9114,Millwall,9122,Blackburn,2021,2,0,0.0,2.5
 9111,Middlesbrough,9132,Huddersfield,2021,2,0,0.0,4.0
 9107,Coventry,9140,Nott'm Forest,2021,2,0,0.0,3.0
 9114,Millwall,9131,Burnley,2021,2,1,0.5,2.5
@@ -267,11 +138,140 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9118,Preston,9131,Burnley,2021,2,0,0.0,2.5
 9120,Derby,9132,Huddersfield,2021,2,0,0.0,1.5
 9112,Swansea,9141,Brentford,2021,2,2,1.0,2.0
+9113,Norwich,9137,Bournemouth,2021,2,0,0.0,2.5
+9117,QPR,9119,Stoke,2021,2,1,0.5,1.0
+9135,Reading,9142,Wycombe,2021,2,0,0.0,1.0
+9124,Bristol City,9142,Wycombe,2021,2,0,0.0,3.0
+9131,Burnley,9132,Huddersfield,2021,2,0,0.0,2.0
+9111,Middlesbrough,9142,Wycombe,2021,2,0,0.0,3.5
+9123,Sheffield United,9130,Luton,2021,2,0,0.0,3.0
+9113,Norwich,9141,Brentford,2021,2,1,0.5,1.5
+9130,Luton,9132,Huddersfield,2021,2,2,1.0,2.0
+9124,Bristol City,9141,Brentford,2021,2,0,0.0,4.5
+9120,Derby,9142,Wycombe,2021,2,1,0.5,2.5
+9117,QPR,9122,Blackburn,2021,2,0,0.0,2.5
+9126,Cardiff,9132,Huddersfield,2021,2,1,0.5,1.5
+9103,Birmingham,9142,Wycombe,2021,2,1,0.5,1.5
+9106,Watford,9137,Bournemouth,2021,2,1,0.5,1.5
+9130,Luton,9131,Burnley,2021,2,0,0.0,2.0
+9107,Coventry,9132,Huddersfield,2021,2,2,1.0,1.0
+9106,Watford,9117,QPR,2021,2,1,0.5,2.5
+9114,Millwall,9137,Bournemouth,2021,2,1,0.5,3.5
+9106,Watford,9142,Wycombe,2021,2,1,0.5,2.0
+9111,Middlesbrough,9126,Cardiff,2021,2,2,1.0,2.0
+9133,Rotherham,9135,Reading,2021,2,0,0.0,2.0
+9111,Middlesbrough,9118,Preston,2021,2,0,0.0,2.5
+9118,Preston,9132,Huddersfield,2021,2,0,0.0,3.0
+9119,Stoke,9135,Reading,2021,2,1,0.5,1.5
+9119,Stoke,9123,Sheffield United,2021,2,1,0.5,0.5
+9113,Norwich,9117,QPR,2021,2,1,0.5,3.0
+9114,Millwall,9123,Sheffield United,2021,2,1,0.5,2.5
+9112,Swansea,9124,Bristol City,2021,2,1,0.5,3.0
+9111,Middlesbrough,9131,Burnley,2021,2,0,0.0,2.5
+9120,Derby,9133,Rotherham,2021,2,0,0.0,2.0
+9123,Sheffield United,9137,Bournemouth,2021,2,0,0.0,2.0
+9103,Birmingham,9119,Stoke,2021,2,1,0.5,2.0
+9122,Blackburn,9133,Rotherham,2021,2,1,0.5,2.5
+9126,Cardiff,9140,Nott'm Forest,2021,2,0,0.0,1.5
+9122,Blackburn,9140,Nott'm Forest,2021,2,0,0.0,1.0
+9119,Stoke,9120,Derby,2021,2,1,0.5,0.5
+9123,Sheffield United,9131,Burnley,2021,2,0,0.0,3.0
+9140,Nott'm Forest,9141,Brentford,2021,2,1,0.5,3.0
+9123,Sheffield United,9142,Wycombe,2021,2,0,0.0,1.5
+9112,Swansea,9123,Sheffield United,2021,2,1,0.5,2.0
+9112,Swansea,9126,Cardiff,2021,2,0,0.0,1.5
+9131,Burnley,9142,Wycombe,2021,2,0,0.0,3.5
+9124,Bristol City,9130,Luton,2021,2,0,0.0,4.0
+9126,Cardiff,9141,Brentford,2021,2,1,0.5,3.5
+9107,Coventry,9122,Blackburn,2021,2,1,0.5,3.0
+9131,Burnley,9141,Brentford,2021,2,0,0.0,1.5
+9118,Preston,9137,Bournemouth,2021,2,1,0.5,3.5
+9135,Reading,9137,Bournemouth,2021,2,0,0.0,5.0
+9107,Coventry,9126,Cardiff,2021,2,0,0.0,2.5
+9118,Preston,9123,Sheffield United,2021,2,0,0.0,1.0
+9123,Sheffield United,9132,Huddersfield,2021,2,1,0.5,2.0
+9113,Norwich,9135,Reading,2021,2,0,0.0,4.0
+9114,Millwall,9135,Reading,2021,2,1,0.5,2.5
+9113,Norwich,9124,Bristol City,2021,2,0,0.0,3.0
+9112,Swansea,9142,Wycombe,2021,2,1,0.5,3.0
+9120,Derby,9124,Bristol City,2021,2,0,0.0,1.0
+9114,Millwall,9130,Luton,2021,2,1,0.5,2.0
+9107,Coventry,9114,Millwall,2021,2,0,0.0,5.0
+9111,Middlesbrough,9123,Sheffield United,2021,2,0,0.0,3.5
+9111,Middlesbrough,9140,Nott'm Forest,2021,2,0,0.0,2.0
+9135,Reading,9141,Brentford,2021,2,0,0.0,4.0
+9117,QPR,9124,Bristol City,2021,2,0,0.0,2.5
+9107,Coventry,9118,Preston,2021,2,0,0.0,1.5
+9114,Millwall,9118,Preston,2021,2,0,0.0,2.5
+9114,Millwall,9142,Wycombe,2021,2,1,0.5,1.5
+9114,Millwall,9141,Brentford,2021,2,2,1.0,1.0
+9106,Watford,9141,Brentford,2021,2,1,0.5,2.0
+9107,Coventry,9124,Bristol City,2021,2,0,0.0,3.5
+9141,Brentford,9142,Wycombe,2021,2,1,0.5,4.5
+9117,QPR,9133,Rotherham,2021,2,0,0.0,4.5
+9132,Huddersfield,9141,Brentford,2021,2,1,0.5,2.5
+9120,Derby,9137,Bournemouth,2021,2,1,0.5,1.5
+9118,Preston,9141,Brentford,2021,2,0,0.0,5.5
+9111,Middlesbrough,9119,Stoke,2021,2,0,0.0,2.0
+9118,Preston,9133,Rotherham,2021,2,0,0.0,3.0
+9107,Coventry,9117,QPR,2021,2,0,0.0,4.0
+9120,Derby,9135,Reading,2021,2,0,0.0,3.0
+9126,Cardiff,9142,Wycombe,2021,2,0,0.0,3.0
+9106,Watford,9107,Coventry,2021,2,1,0.5,2.5
+9118,Preston,9119,Stoke,2021,2,1,0.5,0.5
+9123,Sheffield United,9140,Nott'm Forest,2021,2,1,0.5,1.0
+9107,Coventry,9123,Sheffield United,2021,2,0,0.0,1.5
+9112,Swansea,9117,QPR,2021,2,0,0.0,1.5
+9118,Preston,9130,Luton,2021,2,0,0.0,2.0
+9114,Millwall,9117,QPR,2021,2,1,0.5,3.5
+9106,Watford,9120,Derby,2021,2,0,0.0,2.0
+9133,Rotherham,9137,Bournemouth,2021,2,1,0.5,2.5
+9118,Preston,9142,Wycombe,2021,2,1,0.5,2.5
+9119,Stoke,9126,Cardiff,2021,2,1,0.5,1.5
+9118,Preston,9122,Blackburn,2021,2,0,0.0,3.0
+9122,Blackburn,9142,Wycombe,2021,2,0,0.0,3.0
+9118,Preston,9126,Cardiff,2021,2,0,0.0,2.5
+9117,QPR,9126,Cardiff,2021,2,0,0.0,3.0
+9106,Watford,9133,Rotherham,2021,2,0,0.0,3.5
+9137,Bournemouth,9141,Brentford,2021,2,0,0.0,2.0
+9103,Birmingham,9133,Rotherham,2021,2,1,0.5,1.5
+9119,Stoke,9124,Bristol City,2021,2,0,0.0,2.0
+9120,Derby,9131,Burnley,2021,2,1,0.5,1.0
+9117,QPR,9118,Preston,2021,2,1,0.5,1.0
+9117,QPR,9132,Huddersfield,2021,2,0,0.0,1.5
+9130,Luton,9140,Nott'm Forest,2021,2,1,0.5,1.5
+9113,Norwich,9133,Rotherham,2021,2,0,0.0,2.0
+9106,Watford,9114,Millwall,2021,2,1,0.5,0.5
+9111,Middlesbrough,9113,Norwich,2021,2,1,0.5,0.5
+9118,Preston,9120,Derby,2021,2,0,0.0,2.0
+9124,Bristol City,9135,Reading,2021,2,0,0.0,3.0
+9113,Norwich,9114,Millwall,2021,2,2,1.0,
+9113,Norwich,9123,Sheffield United,2021,2,0,0.0,3.0
+9111,Middlesbrough,9135,Reading,2021,2,1,0.5,1.0
+9117,QPR,9135,Reading,2021,2,1,0.5,1.5
+9117,QPR,9130,Luton,2021,2,0,0.0,3.0
+9124,Bristol City,9137,Bournemouth,2021,2,0,0.0,2.0
+9106,Watford,9132,Huddersfield,2021,2,0,0.0,2.0
+9103,Birmingham,9107,Coventry,2021,2,2,1.0,1.0
+9133,Rotherham,9142,Wycombe,2021,2,0,0.0,2.0
+9133,Rotherham,9141,Brentford,2021,2,0,0.0,1.5
+9103,Birmingham,9113,Norwich,2021,2,0,0.0,2.5
+9113,Norwich,9132,Huddersfield,2021,2,0,0.0,4.0
+9122,Blackburn,9131,Burnley,2021,2,0,0.0,3.0
+9120,Derby,9141,Brentford,2021,2,2,1.0,2.0
+9119,Stoke,9131,Burnley,2021,2,1,0.5,3.0
+9117,QPR,9137,Bournemouth,2021,2,1,0.5,1.5
+9107,Coventry,9131,Burnley,2021,2,1,0.5,1.0
+9103,Birmingham,9111,Middlesbrough,2021,2,0,0.0,3.0
+9112,Swansea,9114,Millwall,2021,2,0,0.0,3.0
+9118,Preston,9140,Nott'm Forest,2021,2,0,0.0,2.0
+9124,Bristol City,9133,Rotherham,2021,2,0,0.0,2.0
+9124,Bristol City,9126,Cardiff,2021,2,0,0.0,1.5
+9117,QPR,9131,Burnley,2021,2,0,0.0,3.5
+9122,Blackburn,9126,Cardiff,2021,2,2,1.0,2.0
+9114,Millwall,9122,Blackburn,2021,2,0,0.0,2.5
 9122,Blackburn,9132,Huddersfield,2021,2,0,0.0,5.0
 9107,Coventry,9133,Rotherham,2021,2,0,0.0,2.5
 9111,Middlesbrough,9117,QPR,2021,2,1,0.5,2.5
-9113,Norwich,9137,Bournemouth,2021,2,0,0.0,2.5
 9114,Millwall,9120,Derby,2021,2,0,0.0,1.0
 9111,Middlesbrough,9124,Bristol City,2021,2,0,0.0,2.5
-9117,QPR,9119,Stoke,2021,2,1,0.5,1.0
-9135,Reading,9142,Wycombe,2021,2,0,0.0,1.0

@@ -1,153 +1,73 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-9147,Luton,9163,Barnsley,2425,4,1,0.25,2.75
-9170,Bristol Rvs,9173,Cambridge,2425,2,0,0.0,1.5
-9173,Cambridge,9175,Wrexham,2425,2,2,1.0,4.0
-9154,Wycombe,9157,Exeter,2425,2,1,0.5,3.5
 9155,Mansfield,9175,Wrexham,2425,2,0,0.0,2.0
-9154,Wycombe,9168,Stockport,2425,2,0,0.0,4.5
 9150,Peterboro,9166,Wigan,2425,2,0,0.0,2.0
-9170,Bristol Rvs,9172,Shrewsbury,2425,2,1,0.5,0.5
-9163,Barnsley,9169,Birmingham,2425,2,0,0.0,5.5
-9157,Exeter,9169,Birmingham,2425,2,0,0.0,1.5
 9164,Rotherham,9167,Northampton,2425,2,0,0.0,2.5
-9158,Huddersfield,9174,Charlton,2425,2,0,0.0,3.5
 9158,Huddersfield,9171,Crawley Town,2425,2,1,0.5,5.0
 9147,Luton,9157,Exeter,2425,4,1,0.25,2.0
 9163,Barnsley,9164,Rotherham,2425,2,0,0.0,1.5
 9151,Blackpool,9161,Reading,2425,2,0,0.0,3.0
 9161,Reading,9174,Charlton,2425,2,1,0.5,1.0
-9150,Peterboro,9171,Crawley Town,2425,2,0,0.0,7.0
-9160,Lincoln,9161,Reading,2425,2,0,0.0,1.5
 9158,Huddersfield,9169,Birmingham,2425,2,0,0.0,1.0
-9164,Rotherham,9170,Bristol Rvs,2425,2,1,0.5,2.5
 9159,Leyton Orient,9167,Northampton,2425,2,0,0.0,2.0
 9147,Luton,9154,Wycombe,2425,4,1,0.25,2.25
 9152,Stevenage,9163,Barnsley,2425,2,0,0.0,2.0
-9169,Birmingham,9172,Shrewsbury,2425,2,0,0.0,5.0
 9157,Exeter,9160,Lincoln,2425,2,2,1.0,
 9151,Blackpool,9158,Huddersfield,2425,2,1,0.5,3.0
-9172,Shrewsbury,9175,Wrexham,2425,2,0,0.0,3.0
 9152,Stevenage,9166,Wigan,2425,2,1,0.5,1.5
-9154,Wycombe,9161,Reading,2425,2,1,0.5,1.5
-9159,Leyton Orient,9168,Stockport,2425,2,0,0.0,3.0
 9161,Reading,9164,Rotherham,2425,2,0,0.0,3.0
-9150,Peterboro,9157,Exeter,2425,2,1,0.5,2.5
-9158,Huddersfield,9159,Leyton Orient,2425,2,0,0.0,3.5
-9168,Stockport,9172,Shrewsbury,2425,2,0,0.0,1.5
-9154,Wycombe,9174,Charlton,2425,2,0,0.0,3.5
-9147,Luton,9175,Wrexham,2425,4,2,0.5,1.0
 9166,Wigan,9168,Stockport,2425,2,1,0.5,1.0
 9166,Wigan,9167,Northampton,2425,2,1,0.5,2.5
-9159,Leyton Orient,9170,Bristol Rvs,2425,2,0,0.0,4.0
 9147,Luton,9152,Stevenage,2425,4,2,0.5,2.0
-9164,Rotherham,9168,Stockport,2425,2,1,0.5,3.0
 9147,Luton,9150,Peterboro,2425,4,2,0.5,2.0
 9158,Huddersfield,9163,Barnsley,2425,2,0,0.0,2.5
 9150,Peterboro,9158,Huddersfield,2425,2,0,0.0,1.5
-9147,Luton,9164,Rotherham,2425,4,1,0.25,3.75
 9151,Blackpool,9169,Birmingham,2425,2,1,0.5,1.0
-9158,Huddersfield,9170,Bristol Rvs,2425,2,0,0.0,2.5
 9161,Reading,9163,Barnsley,2425,2,1,0.5,5.0
 9161,Reading,9168,Stockport,2425,2,0,0.0,4.5
 9147,Luton,9166,Wigan,2425,4,1,0.25,2.0
 9152,Stevenage,9159,Leyton Orient,2425,2,1,0.5,0.5
 9164,Rotherham,9173,Cambridge,2425,2,0,0.0,2.0
-9170,Bristol Rvs,9175,Wrexham,2425,2,2,1.0,2.0
 9147,Luton,9161,Reading,2425,4,0,0.0,4.25
-9152,Stevenage,9168,Stockport,2425,2,0,0.0,3.0
 9159,Leyton Orient,9169,Birmingham,2425,2,0,0.0,2.5
-9152,Stevenage,9155,Mansfield,2425,2,1,0.5,1.5
 9155,Mansfield,9158,Huddersfield,2425,2,0,0.0,3.0
 9160,Lincoln,9171,Crawley Town,2425,2,0,0.0,4.0
-9155,Mansfield,9171,Crawley Town,2425,2,0,0.0,1.5
-9150,Peterboro,9154,Wycombe,2425,2,1,0.5,3.0
 9172,Shrewsbury,9173,Cambridge,2425,2,0,0.0,3.0
 9159,Leyton Orient,9173,Cambridge,2425,2,0,0.0,2.5
-9151,Blackpool,9159,Leyton Orient,2425,2,0,0.0,3.0
-9171,Crawley Town,9173,Cambridge,2425,2,0,0.0,1.5
 9147,Luton,9147,Luton,2425,2,0,0.0,3.0
 9172,Shrewsbury,9174,Charlton,2425,2,0,0.0,1.0
-9160,Lincoln,9175,Wrexham,2425,2,0,0.0,1.5
-9155,Mansfield,9170,Bristol Rvs,2425,2,0,0.0,2.0
-9159,Leyton Orient,9172,Shrewsbury,2425,2,0,0.0,2.0
 9150,Peterboro,9151,Blackpool,2425,2,1,0.5,3.0
 9151,Blackpool,9164,Rotherham,2425,2,1,0.5,1.5
-9150,Peterboro,9161,Reading,2425,2,0,0.0,3.5
 9155,Mansfield,9167,Northampton,2425,2,0,0.0,1.5
-9157,Exeter,9170,Bristol Rvs,2425,2,0,0.0,3.5
-9161,Reading,9175,Wrexham,2425,2,0,0.0,2.5
-9157,Exeter,9159,Leyton Orient,2425,2,0,0.0,4.5
 9170,Bristol Rvs,9171,Crawley Town,2425,2,1,0.5,0.5
 9154,Wycombe,9164,Rotherham,2425,2,0,0.0,3.5
-9159,Leyton Orient,9166,Wigan,2425,2,1,0.5,1.0
-9159,Leyton Orient,9163,Barnsley,2425,2,0,0.0,5.5
-9158,Huddersfield,9173,Cambridge,2425,2,0,0.0,3.5
 9158,Huddersfield,9167,Northampton,2425,2,0,0.0,4.5
 9160,Lincoln,9174,Charlton,2425,2,2,1.0,2.0
 9171,Crawley Town,9174,Charlton,2425,2,0,0.0,2.0
 9167,Northampton,9171,Crawley Town,2425,2,0,0.0,3.0
-9161,Reading,9172,Shrewsbury,2425,2,1,0.5,3.0
 9152,Stevenage,9173,Cambridge,2425,2,0,0.0,1.5
 9147,Luton,9158,Huddersfield,2425,4,1,0.25,2.5
-9154,Wycombe,9160,Lincoln,2425,2,0,0.0,3.0
 9164,Rotherham,9171,Crawley Town,2425,2,0,0.0,2.5
-9154,Wycombe,9170,Bristol Rvs,2425,2,0,0.0,2.5
-9147,Luton,9168,Stockport,2425,4,0,0.0,3.0
-9147,Luton,9167,Northampton,2425,4,1,0.25,2.75
-9147,Luton,9172,Shrewsbury,2425,4,1,0.25,3.25
-9154,Wycombe,9155,Mansfield,2425,2,0,0.0,2.0
 9166,Wigan,9169,Birmingham,2425,2,0,0.0,3.0
 9152,Stevenage,9172,Shrewsbury,2425,2,0,0.0,1.0
 9167,Northampton,9175,Wrexham,2425,2,0,0.0,3.5
-9152,Stevenage,9160,Lincoln,2425,2,1,0.5,0.5
-9159,Leyton Orient,9160,Lincoln,2425,2,0,0.0,4.0
 9164,Rotherham,9175,Wrexham,2425,2,0,0.0,1.0
-9154,Wycombe,9173,Cambridge,2425,2,1,0.5,2.5
 9168,Stockport,9174,Charlton,2425,2,2,1.0,1.0
 9174,Charlton,9175,Wrexham,2425,2,1,0.5,3.5
-9166,Wigan,9173,Cambridge,2425,2,0,0.0,1.5
-9151,Blackpool,9157,Exeter,2425,2,0,0.0,3.5
-9158,Huddersfield,9161,Reading,2425,2,1,0.5,1.5
 9163,Barnsley,9171,Crawley Town,2425,2,0,0.0,3.0
-9164,Rotherham,9172,Shrewsbury,2425,2,1,0.5,2.5
-9151,Blackpool,9171,Crawley Town,2425,2,0,0.0,3.5
-9154,Wycombe,9163,Barnsley,2425,2,1,0.5,3.5
 9147,Luton,9171,Crawley Town,2425,4,2,0.5,2.75
-9158,Huddersfield,9166,Wigan,2425,2,0,0.0,2.0
 9158,Huddersfield,9164,Rotherham,2425,2,1,0.5,1.5
-9163,Barnsley,9166,Wigan,2425,2,1,0.5,1.5
 9158,Huddersfield,9168,Stockport,2425,2,0,0.0,2.0
 9151,Blackpool,9175,Wrexham,2425,2,0,0.0,3.0
-9147,Luton,9151,Blackpool,2425,4,1,0.25,2.75
 9169,Birmingham,9173,Cambridge,2425,2,0,0.0,3.5
-9169,Birmingham,9171,Crawley Town,2425,2,1,0.5,0.5
 9150,Peterboro,9168,Stockport,2425,2,1,0.5,2.5
-9150,Peterboro,9164,Rotherham,2425,2,1,0.5,4.5
 9154,Wycombe,9175,Wrexham,2425,2,0,0.0,3.0
-9152,Stevenage,9170,Bristol Rvs,2425,2,0,0.0,2.0
-9147,Luton,9159,Leyton Orient,2425,4,1,0.25,2.25
-9166,Wigan,9174,Charlton,2425,2,0,0.0,2.0
-9170,Bristol Rvs,9174,Charlton,2425,2,0,0.0,3.5
-9168,Stockport,9171,Crawley Town,2425,2,1,0.5,2.0
-9163,Barnsley,9174,Charlton,2425,2,1,0.5,2.5
 9151,Blackpool,9160,Lincoln,2425,2,1,0.5,2.0
-9157,Exeter,9174,Charlton,2425,2,0,0.0,2.0
-9160,Lincoln,9166,Wigan,2425,2,2,1.0,1.0
 9157,Exeter,9163,Barnsley,2425,2,0,0.0,3.0
-9164,Rotherham,9166,Wigan,2425,2,0,0.0,1.0
 9157,Exeter,9167,Northampton,2425,2,1,0.5,2.5
 9157,Exeter,9158,Huddersfield,2425,2,0,0.0,3.0
 9167,Northampton,9172,Shrewsbury,2425,2,1,0.5,3.5
-9159,Leyton Orient,9174,Charlton,2425,2,0,0.0,2.0
 9168,Stockport,9170,Bristol Rvs,2425,2,1,0.5,2.0
-9169,Birmingham,9174,Charlton,2425,2,0,0.0,1.0
-9167,Northampton,9169,Birmingham,2425,2,2,1.0,2.0
-9147,Luton,9170,Bristol Rvs,2425,4,0,0.0,3.5
-9150,Peterboro,9160,Lincoln,2425,2,1,0.5,4.0
-9150,Peterboro,9173,Cambridge,2425,2,0,0.0,4.0
-9155,Mansfield,9160,Lincoln,2425,2,0,0.0,4.0
 9160,Lincoln,9170,Bristol Rvs,2425,2,1,0.5,3.5
-9151,Blackpool,9163,Barnsley,2425,2,0,0.0,3.0
 9171,Crawley Town,9172,Shrewsbury,2425,2,0,0.0,5.5
 9154,Wycombe,9167,Northampton,2425,2,1,0.5,1.5
 9163,Barnsley,9173,Cambridge,2425,2,2,1.0,2.0
@@ -156,100 +76,180 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9151,Blackpool,9152,Stevenage,2425,2,1,0.5,2.0
 9151,Blackpool,9172,Shrewsbury,2425,2,1,0.5,2.5
 9167,Northampton,9168,Stockport,2425,2,2,1.0,2.0
-9152,Stevenage,9158,Huddersfield,2425,2,0,0.0,3.0
 9152,Stevenage,9169,Birmingham,2425,2,0,0.0,2.0
-9152,Stevenage,9164,Rotherham,2425,2,1,0.5,2.0
 9155,Mansfield,9166,Wigan,2425,2,1,0.5,1.5
+9167,Northampton,9170,Bristol Rvs,2425,2,0,0.0,2.0
+9152,Stevenage,9174,Charlton,2425,2,0,0.0,1.5
+9154,Wycombe,9166,Wigan,2425,2,1,0.5,0.5
+9166,Wigan,9170,Bristol Rvs,2425,2,0,0.0,3.0
+9154,Wycombe,9169,Birmingham,2425,2,0,0.0,3.0
+9160,Lincoln,9172,Shrewsbury,2425,2,1,0.5,1.5
+9157,Exeter,9166,Wigan,2425,2,2,1.0,1.0
+9169,Birmingham,9170,Bristol Rvs,2425,2,0,0.0,2.5
+9157,Exeter,9173,Cambridge,2425,2,0,0.0,1.0
+9151,Blackpool,9166,Wigan,2425,2,2,1.0,3.0
+9154,Wycombe,9171,Crawley Town,2425,2,1,0.5,1.5
+9159,Leyton Orient,9164,Rotherham,2425,2,0,0.0,1.0
+9155,Mansfield,9161,Reading,2425,2,0,0.0,4.5
+9158,Huddersfield,9160,Lincoln,2425,2,1,0.5,2.5
+9157,Exeter,9175,Wrexham,2425,2,0,0.0,2.5
+9151,Blackpool,9168,Stockport,2425,2,0,0.0,3.0
+9155,Mansfield,9163,Barnsley,2425,2,0,0.0,3.0
+9161,Reading,9166,Wigan,2425,2,0,0.0,2.5
+9163,Barnsley,9172,Shrewsbury,2425,2,0,0.0,2.5
+9147,Luton,9174,Charlton,2425,4,0,0.0,2.5
+9159,Leyton Orient,9161,Reading,2425,2,0,0.0,1.5
+9161,Reading,9169,Birmingham,2425,2,2,1.0,1.0
+9167,Northampton,9173,Cambridge,2425,2,2,1.0,1.0
+9166,Wigan,9171,Crawley Town,2425,2,1,0.5,1.5
+9151,Blackpool,9173,Cambridge,2425,2,1,0.5,5.5
+9151,Blackpool,9174,Charlton,2425,2,1,0.5,3.5
+9163,Barnsley,9175,Wrexham,2425,2,0,0.0,2.0
+9164,Rotherham,9174,Charlton,2425,2,1,0.5,4.0
+9155,Mansfield,9174,Charlton,2425,2,1,0.5,1.5
+9154,Wycombe,9159,Leyton Orient,2425,2,0,0.0,2.0
+9147,Luton,9169,Birmingham,2425,4,0,0.0,2.75
+9152,Stevenage,9167,Northampton,2425,2,1,0.5,1.0
+9150,Peterboro,9174,Charlton,2425,2,0,0.0,3.0
+9160,Lincoln,9173,Cambridge,2425,2,1,0.5,2.0
+9164,Rotherham,9169,Birmingham,2425,2,0,0.0,2.5
+9150,Peterboro,9163,Barnsley,2425,2,1,0.5,3.0
+9168,Stockport,9173,Cambridge,2425,2,0,0.0,2.0
+9150,Peterboro,9172,Shrewsbury,2425,2,0,0.0,4.5
+9163,Barnsley,9167,Northampton,2425,2,1,0.5,3.5
+9155,Mansfield,9157,Exeter,2425,2,0,0.0,2.5
+9155,Mansfield,9169,Birmingham,2425,2,1,0.5,3.0
+9150,Peterboro,9169,Birmingham,2425,2,0,0.0,4.0
+9160,Lincoln,9169,Birmingham,2425,2,0,0.0,2.5
+9152,Stevenage,9175,Wrexham,2425,2,0,0.0,3.0
+9160,Lincoln,9167,Northampton,2425,2,0,0.0,2.0
+9157,Exeter,9161,Reading,2425,2,1,0.5,1.5
+9173,Cambridge,9175,Wrexham,2425,2,2,1.0,4.0
+9154,Wycombe,9157,Exeter,2425,2,1,0.5,3.5
+9154,Wycombe,9168,Stockport,2425,2,0,0.0,4.5
+9170,Bristol Rvs,9172,Shrewsbury,2425,2,1,0.5,0.5
+9163,Barnsley,9169,Birmingham,2425,2,0,0.0,5.5
+9157,Exeter,9169,Birmingham,2425,2,0,0.0,1.5
+9158,Huddersfield,9174,Charlton,2425,2,0,0.0,3.5
+9150,Peterboro,9171,Crawley Town,2425,2,0,0.0,7.0
+9160,Lincoln,9161,Reading,2425,2,0,0.0,1.5
+9164,Rotherham,9170,Bristol Rvs,2425,2,1,0.5,2.5
+9169,Birmingham,9172,Shrewsbury,2425,2,0,0.0,5.0
+9172,Shrewsbury,9175,Wrexham,2425,2,0,0.0,3.0
+9154,Wycombe,9161,Reading,2425,2,1,0.5,1.5
+9159,Leyton Orient,9168,Stockport,2425,2,0,0.0,3.0
+9150,Peterboro,9157,Exeter,2425,2,1,0.5,2.5
+9158,Huddersfield,9159,Leyton Orient,2425,2,0,0.0,3.5
+9168,Stockport,9172,Shrewsbury,2425,2,0,0.0,1.5
+9154,Wycombe,9174,Charlton,2425,2,0,0.0,3.5
+9147,Luton,9175,Wrexham,2425,4,2,0.5,1.0
+9159,Leyton Orient,9170,Bristol Rvs,2425,2,0,0.0,4.0
+9164,Rotherham,9168,Stockport,2425,2,1,0.5,3.0
+9147,Luton,9164,Rotherham,2425,4,1,0.25,3.75
+9158,Huddersfield,9170,Bristol Rvs,2425,2,0,0.0,2.5
+9170,Bristol Rvs,9175,Wrexham,2425,2,2,1.0,2.0
+9152,Stevenage,9168,Stockport,2425,2,0,0.0,3.0
+9152,Stevenage,9155,Mansfield,2425,2,1,0.5,1.5
+9155,Mansfield,9171,Crawley Town,2425,2,0,0.0,1.5
+9150,Peterboro,9154,Wycombe,2425,2,1,0.5,3.0
+9151,Blackpool,9159,Leyton Orient,2425,2,0,0.0,3.0
+9171,Crawley Town,9173,Cambridge,2425,2,0,0.0,1.5
+9160,Lincoln,9175,Wrexham,2425,2,0,0.0,1.5
+9155,Mansfield,9170,Bristol Rvs,2425,2,0,0.0,2.0
+9159,Leyton Orient,9172,Shrewsbury,2425,2,0,0.0,2.0
+9150,Peterboro,9161,Reading,2425,2,0,0.0,3.5
+9157,Exeter,9170,Bristol Rvs,2425,2,0,0.0,3.5
+9161,Reading,9175,Wrexham,2425,2,0,0.0,2.5
+9157,Exeter,9159,Leyton Orient,2425,2,0,0.0,4.5
+9159,Leyton Orient,9166,Wigan,2425,2,1,0.5,1.0
+9159,Leyton Orient,9163,Barnsley,2425,2,0,0.0,5.5
+9158,Huddersfield,9173,Cambridge,2425,2,0,0.0,3.5
+9161,Reading,9172,Shrewsbury,2425,2,1,0.5,3.0
+9154,Wycombe,9160,Lincoln,2425,2,0,0.0,3.0
+9154,Wycombe,9170,Bristol Rvs,2425,2,0,0.0,2.5
+9147,Luton,9168,Stockport,2425,4,0,0.0,3.0
+9147,Luton,9167,Northampton,2425,4,1,0.25,2.75
+9147,Luton,9172,Shrewsbury,2425,4,1,0.25,3.25
+9154,Wycombe,9155,Mansfield,2425,2,0,0.0,2.0
+9152,Stevenage,9160,Lincoln,2425,2,1,0.5,0.5
+9159,Leyton Orient,9160,Lincoln,2425,2,0,0.0,4.0
+9154,Wycombe,9173,Cambridge,2425,2,1,0.5,2.5
+9166,Wigan,9173,Cambridge,2425,2,0,0.0,1.5
+9151,Blackpool,9157,Exeter,2425,2,0,0.0,3.5
+9158,Huddersfield,9161,Reading,2425,2,1,0.5,1.5
+9164,Rotherham,9172,Shrewsbury,2425,2,1,0.5,2.5
+9151,Blackpool,9171,Crawley Town,2425,2,0,0.0,3.5
+9154,Wycombe,9163,Barnsley,2425,2,1,0.5,3.5
+9158,Huddersfield,9166,Wigan,2425,2,0,0.0,2.0
+9163,Barnsley,9166,Wigan,2425,2,1,0.5,1.5
+9147,Luton,9151,Blackpool,2425,4,1,0.25,2.75
+9169,Birmingham,9171,Crawley Town,2425,2,1,0.5,0.5
+9150,Peterboro,9164,Rotherham,2425,2,1,0.5,4.5
+9152,Stevenage,9170,Bristol Rvs,2425,2,0,0.0,2.0
+9147,Luton,9159,Leyton Orient,2425,4,1,0.25,2.25
+9166,Wigan,9174,Charlton,2425,2,0,0.0,2.0
+9170,Bristol Rvs,9174,Charlton,2425,2,0,0.0,3.5
+9168,Stockport,9171,Crawley Town,2425,2,1,0.5,2.0
+9163,Barnsley,9174,Charlton,2425,2,1,0.5,2.5
+9157,Exeter,9174,Charlton,2425,2,0,0.0,2.0
+9160,Lincoln,9166,Wigan,2425,2,2,1.0,1.0
+9164,Rotherham,9166,Wigan,2425,2,0,0.0,1.0
+9159,Leyton Orient,9174,Charlton,2425,2,0,0.0,2.0
+9169,Birmingham,9174,Charlton,2425,2,0,0.0,1.0
+9167,Northampton,9169,Birmingham,2425,2,2,1.0,2.0
+9147,Luton,9170,Bristol Rvs,2425,4,0,0.0,3.5
+9150,Peterboro,9160,Lincoln,2425,2,1,0.5,4.0
+9150,Peterboro,9173,Cambridge,2425,2,0,0.0,4.0
+9155,Mansfield,9160,Lincoln,2425,2,0,0.0,4.0
+9151,Blackpool,9163,Barnsley,2425,2,0,0.0,3.0
+9152,Stevenage,9158,Huddersfield,2425,2,0,0.0,3.0
+9152,Stevenage,9164,Rotherham,2425,2,1,0.5,2.0
 9168,Stockport,9169,Birmingham,2425,2,1,0.5,2.0
 9163,Barnsley,9170,Bristol Rvs,2425,2,0,0.0,3.5
 9160,Lincoln,9164,Rotherham,2425,2,0,0.0,2.0
 9157,Exeter,9171,Crawley Town,2425,2,1,0.5,6.0
 9171,Crawley Town,9175,Wrexham,2425,2,0,0.0,3.0
-9167,Northampton,9170,Bristol Rvs,2425,2,0,0.0,2.0
 9163,Barnsley,9168,Stockport,2425,2,1,0.5,2.5
-9152,Stevenage,9174,Charlton,2425,2,0,0.0,1.5
 9154,Wycombe,9172,Shrewsbury,2425,2,1,0.5,2.5
-9154,Wycombe,9166,Wigan,2425,2,1,0.5,0.5
-9166,Wigan,9170,Bristol Rvs,2425,2,0,0.0,3.0
-9154,Wycombe,9169,Birmingham,2425,2,0,0.0,3.0
 9166,Wigan,9175,Wrexham,2425,2,1,0.5,1.5
-9160,Lincoln,9172,Shrewsbury,2425,2,1,0.5,1.5
-9157,Exeter,9166,Wigan,2425,2,2,1.0,1.0
 9150,Peterboro,9159,Leyton Orient,2425,2,2,1.0,2.0
-9169,Birmingham,9170,Bristol Rvs,2425,2,0,0.0,2.5
-9157,Exeter,9173,Cambridge,2425,2,0,0.0,1.0
-9151,Blackpool,9166,Wigan,2425,2,2,1.0,3.0
-9154,Wycombe,9171,Crawley Town,2425,2,1,0.5,1.5
 9167,Northampton,9174,Charlton,2425,2,0,0.0,4.0
 9160,Lincoln,9163,Barnsley,2425,2,0,0.0,5.0
 9168,Stockport,9175,Wrexham,2425,2,0,0.0,1.0
-9159,Leyton Orient,9164,Rotherham,2425,2,0,0.0,1.0
-9155,Mansfield,9161,Reading,2425,2,0,0.0,4.5
 9150,Peterboro,9155,Mansfield,2425,2,0,0.0,4.5
-9158,Huddersfield,9160,Lincoln,2425,2,1,0.5,2.5
-9157,Exeter,9175,Wrexham,2425,2,0,0.0,2.5
-9151,Blackpool,9168,Stockport,2425,2,0,0.0,3.0
-9155,Mansfield,9163,Barnsley,2425,2,0,0.0,3.0
 9155,Mansfield,9173,Cambridge,2425,2,0,0.0,4.0
-9161,Reading,9166,Wigan,2425,2,0,0.0,2.5
-9163,Barnsley,9172,Shrewsbury,2425,2,0,0.0,2.5
 9152,Stevenage,9157,Exeter,2425,2,0,0.0,3.5
-9147,Luton,9174,Charlton,2425,4,0,0.0,2.5
-9159,Leyton Orient,9161,Reading,2425,2,0,0.0,1.5
 9150,Peterboro,9175,Wrexham,2425,2,0,0.0,1.5
 9151,Blackpool,9167,Northampton,2425,2,1,0.5,1.0
-9161,Reading,9169,Birmingham,2425,2,2,1.0,1.0
-9167,Northampton,9173,Cambridge,2425,2,2,1.0,1.0
 9155,Mansfield,9164,Rotherham,2425,2,1,0.5,3.5
-9166,Wigan,9171,Crawley Town,2425,2,1,0.5,1.5
-9151,Blackpool,9173,Cambridge,2425,2,1,0.5,5.5
-9151,Blackpool,9174,Charlton,2425,2,1,0.5,3.5
 9158,Huddersfield,9175,Wrexham,2425,2,1,0.5,0.5
-9163,Barnsley,9175,Wrexham,2425,2,0,0.0,2.0
-9164,Rotherham,9174,Charlton,2425,2,1,0.5,4.0
-9155,Mansfield,9174,Charlton,2425,2,1,0.5,1.5
 9147,Luton,9173,Cambridge,2425,4,2,0.5,2.5
 9154,Wycombe,9158,Huddersfield,2425,2,0,0.0,1.0
-9154,Wycombe,9159,Leyton Orient,2425,2,0,0.0,2.0
-9147,Luton,9169,Birmingham,2425,4,0,0.0,2.75
-9152,Stevenage,9167,Northampton,2425,2,1,0.5,1.0
 9158,Huddersfield,9172,Shrewsbury,2425,2,0,0.0,1.0
 9150,Peterboro,9167,Northampton,2425,2,0,0.0,3.5
-9150,Peterboro,9174,Charlton,2425,2,0,0.0,3.0
-9160,Lincoln,9173,Cambridge,2425,2,1,0.5,2.0
 9159,Leyton Orient,9175,Wrexham,2425,2,1,0.5,1.5
-9164,Rotherham,9169,Birmingham,2425,2,0,0.0,2.5
 9161,Reading,9171,Crawley Town,2425,2,1,0.5,3.5
-9150,Peterboro,9163,Barnsley,2425,2,1,0.5,3.0
 9150,Peterboro,9170,Bristol Rvs,2425,2,0,0.0,4.5
 9151,Blackpool,9154,Wycombe,2425,2,2,1.0,3.0
 9152,Stevenage,9171,Crawley Town,2425,2,0,0.0,4.0
-9168,Stockport,9173,Cambridge,2425,2,0,0.0,2.0
 9157,Exeter,9168,Stockport,2425,2,0,0.0,2.0
-9150,Peterboro,9172,Shrewsbury,2425,2,0,0.0,4.5
 9147,Luton,9160,Lincoln,2425,4,0,0.0,3.75
-9163,Barnsley,9167,Northampton,2425,2,1,0.5,3.5
-9155,Mansfield,9157,Exeter,2425,2,0,0.0,2.5
 9155,Mansfield,9159,Leyton Orient,2425,2,0,0.0,4.0
-9155,Mansfield,9169,Birmingham,2425,2,1,0.5,3.0
 9173,Cambridge,9174,Charlton,2425,2,0,0.0,2.0
 9151,Blackpool,9170,Bristol Rvs,2425,2,0,0.0,3.5
 9159,Leyton Orient,9171,Crawley Town,2425,2,0,0.0,3.5
 9157,Exeter,9172,Shrewsbury,2425,2,0,0.0,2.0
 9151,Blackpool,9155,Mansfield,2425,2,1,0.5,4.0
-9150,Peterboro,9169,Birmingham,2425,2,0,0.0,4.0
 9161,Reading,9170,Bristol Rvs,2425,2,0,0.0,1.5
-9160,Lincoln,9169,Birmingham,2425,2,0,0.0,2.5
 9155,Mansfield,9172,Shrewsbury,2425,2,0,0.0,3.0
 9155,Mansfield,9168,Stockport,2425,2,1,0.5,2.5
-9152,Stevenage,9175,Wrexham,2425,2,0,0.0,3.0
-9160,Lincoln,9167,Northampton,2425,2,0,0.0,2.0
 9152,Stevenage,9154,Wycombe,2425,2,0,0.0,2.0
 9161,Reading,9167,Northampton,2425,2,1,0.5,2.5
 9169,Birmingham,9175,Wrexham,2425,2,1,0.5,3.0
 9152,Stevenage,9161,Reading,2425,2,2,1.0,2.0
 9161,Reading,9173,Cambridge,2425,2,0,0.0,3.5
-9157,Exeter,9161,Reading,2425,2,1,0.5,1.5
 9147,Luton,9155,Mansfield,2425,4,2,0.5,3.75
 9166,Wigan,9172,Shrewsbury,2425,2,1,0.5,2.5
 9157,Exeter,9164,Rotherham,2425,2,1,0.5,1.5
+9147,Luton,9163,Barnsley,2425,4,1,0.25,2.75
+9170,Bristol Rvs,9173,Cambridge,2425,2,0,0.0,1.5

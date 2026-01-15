@@ -1,5 +1,5 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-8965,Aris,8975,Kifisia,2526,2,1,0.5,1.5
+8965,Aris,8975,Kifisia,2526,3,2,0.6666666666666666,1.6666666666666667
 8966,Volos NFC,8972,Panserraikos,2526,1,0,0.0,3.0
 8974,Levadeiakos,8975,Kifisia,2526,1,0,0.0,5.0
 8968,Asteras Tripolis,8973,PAOK,2526,1,1,1.0,6.0
@@ -33,7 +33,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8966,Volos NFC,8971,AEK,2526,1,0,0.0,1.0
 8970,Atromitos,8977,Panathinaikos,2526,1,0,0.0,1.0
 8967,Olympiakos,8968,Asteras Tripolis,2526,1,0,0.0,2.0
-8965,Aris,8971,AEK,2526,2,1,0.5,1.5
+8965,Aris,8971,AEK,2526,3,2,0.6666666666666666,1.6666666666666667
 8968,Asteras Tripolis,8975,Kifisia,2526,2,2,1.0,2.0
 8969,Panetolikos,8975,Kifisia,2526,1,1,1.0,2.0
 8965,Aris,8968,Asteras Tripolis,2526,3,2,0.6666666666666666,1.6666666666666667
@@ -65,7 +65,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8967,Olympiakos,8974,Levadeiakos,2526,1,0,0.0,5.0
 8966,Volos NFC,8967,Olympiakos,2526,1,0,0.0,2.0
 8970,Atromitos,8976,OFI Crete,2526,1,0,0.0,4.0
-8966,Volos NFC,8974,Levadeiakos,2526,1,0,0.0,3.0
+8966,Volos NFC,8974,Levadeiakos,2526,2,0,0.0,3.5
 8968,Asteras Tripolis,8970,Atromitos,2526,1,0,0.0,1.0
 8968,Asteras Tripolis,8971,AEK,2526,1,0,0.0,1.0
 8968,Asteras Tripolis,8972,Panserraikos,2526,1,0,0.0,3.0

@@ -13,8 +13,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8711,Sociedad,8719,Betis,1819,2,0,0.0,2.0
 8702,Girona,8716,Espanol,1819,2,0,0.0,3.5
 8707,Barcelona,8710,Valencia,1819,2,2,1.0,3.0
+8713,Getafe,9875,CD Leganes,1819,1,1,1.0,2.0
 8704,Villarreal,8717,Ath Madrid,1819,4,2,0.5,3.25
 8702,Girona,8703,Vallecano,1819,2,0,0.0,2.5
+8710,Valencia,9875,CD Leganes,1819,2,2,1.0,2.0
 8703,Vallecano,8715,Sevilla,1819,2,0,0.0,5.0
 8710,Valencia,8727,Huesca,1819,2,0,0.0,5.5
 8712,Celta,8726,Eibar,1819,2,0,0.0,2.5
@@ -28,6 +30,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8703,Vallecano,8709,Levante,1819,4,0,0.0,3.0
 8703,Vallecano,8713,Getafe,1819,2,0,0.0,3.0
 8711,Sociedad,8715,Sevilla,1819,2,1,0.5,3.5
+8717,Ath Madrid,9875,CD Leganes,1819,3,2,0.6666666666666666,3.0
 8712,Celta,8713,Getafe,1819,2,1,0.5,3.0
 8712,Celta,8715,Sevilla,1819,2,0,0.0,2.0
 8704,Villarreal,8709,Levante,1819,4,1,0.25,2.0
@@ -48,6 +51,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8717,Ath Madrid,8719,Betis,1819,4,0,0.0,1.75
 8713,Getafe,8727,Huesca,1819,2,1,0.5,2.5
 8703,Vallecano,8719,Betis,1819,2,1,0.5,2.0
+8727,Huesca,9875,CD Leganes,1819,1,0,0.0,3.0
 8702,Girona,8709,Levante,1819,4,2,0.5,2.25
 8713,Getafe,8714,Ath Bilbao,1819,2,1,0.5,1.5
 8710,Valencia,8719,Betis,1819,2,1,0.5,1.5
@@ -67,6 +71,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8715,Sevilla,8719,Betis,1819,2,0,0.0,3.0
 8707,Barcelona,8713,Getafe,1819,2,0,0.0,2.5
 8708,Alaves,8726,Eibar,1819,2,1,0.5,2.5
+8708,Alaves,9875,CD Leganes,1819,1,1,1.0,2.0
 8703,Vallecano,8707,Barcelona,1819,2,0,0.0,4.5
 8709,Levante,8709,Levante,1819,2,0,0.0,1.5
 8708,Alaves,8713,Getafe,1819,2,1,0.5,3.0
@@ -76,6 +81,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8713,Getafe,8715,Sevilla,1819,2,0,0.0,2.5
 8709,Levante,8711,Sociedad,1819,4,2,0.5,3.25
 8712,Celta,8716,Espanol,1819,2,2,1.0,2.0
+8726,Eibar,9875,CD Leganes,1819,1,1,1.0,4.0
 8703,Vallecano,8716,Espanol,1819,2,1,0.5,3.5
 8713,Getafe,8717,Ath Madrid,1819,4,1,0.25,1.5
 8709,Levante,8713,Getafe,1819,4,2,0.5,1.25
@@ -95,18 +101,22 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8707,Barcelona,8714,Ath Bilbao,1819,2,2,1.0,1.0
 8709,Levante,8719,Betis,1819,4,0,0.0,2.75
 8710,Valencia,8714,Ath Bilbao,1819,2,1,0.5,1.0
+8703,Vallecano,9875,CD Leganes,1819,1,0,0.0,3.0
 8708,Alaves,8717,Ath Madrid,1819,4,0,0.0,2.75
 8702,Girona,8713,Getafe,1819,2,1,0.5,2.0
 8711,Sociedad,8712,Celta,1819,2,0,0.0,3.5
 8708,Alaves,8727,Huesca,1819,2,0,0.0,3.5
 8711,Sociedad,8722,Valladolid,1819,2,1,0.5,2.5
+8715,Sevilla,9875,CD Leganes,1819,1,1,1.0,2.0
 8703,Vallecano,8710,Valencia,1819,2,0,0.0,2.5
 8715,Sevilla,8726,Eibar,1819,2,1,0.5,4.0
+8714,Ath Bilbao,9875,CD Leganes,1819,1,0,0.0,3.0
 8703,Vallecano,8726,Eibar,1819,2,0,0.0,2.0
 8711,Sociedad,8727,Huesca,1819,2,1,0.5,0.5
 8717,Ath Madrid,8717,Ath Madrid,1819,2,1,0.5,2.0
 8707,Barcelona,8709,Levante,1819,4,0,0.0,3.25
 8709,Levante,8727,Huesca,1819,4,2,0.5,3.0
+8704,Villarreal,9875,CD Leganes,1819,1,0,0.0,3.0
 8707,Barcelona,8708,Alaves,1819,2,0,0.0,2.5
 8702,Girona,8711,Sociedad,1819,2,2,1.0,
 8702,Girona,8727,Huesca,1819,2,1,0.5,2.0
@@ -120,6 +130,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8702,Girona,8717,Ath Madrid,1819,4,1,0.25,3.0
 8704,Villarreal,8719,Betis,1819,2,0,0.0,3.0
 8708,Alaves,8714,Ath Bilbao,1819,2,2,1.0,1.0
+8722,Valladolid,9875,CD Leganes,1819,1,0,0.0,6.0
 8702,Girona,8722,Valladolid,1819,2,1,0.5,0.5
 8702,Girona,8704,Villarreal,1819,2,0,0.0,1.0
 8710,Valencia,8716,Espanol,1819,2,1,0.5,1.0
@@ -136,8 +147,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8710,Valencia,8726,Eibar,1819,2,1,0.5,1.5
 8712,Celta,8714,Ath Bilbao,1819,2,0,0.0,3.5
 8712,Celta,8722,Valladolid,1819,2,1,0.5,4.5
+8711,Sociedad,9875,CD Leganes,1819,1,1,1.0,4.0
 8714,Ath Bilbao,8715,Sevilla,1819,2,0,0.0,2.0
 8703,Vallecano,8717,Ath Madrid,1819,4,0,0.0,1.0
+8707,Barcelona,9875,CD Leganes,1819,2,0,0.0,3.5
 8704,Villarreal,8716,Espanol,1819,2,1,0.5,4.0
 8719,Betis,8722,Valladolid,1819,2,0,0.0,1.5
 8708,Alaves,8711,Sociedad,1819,2,0,0.0,1.0

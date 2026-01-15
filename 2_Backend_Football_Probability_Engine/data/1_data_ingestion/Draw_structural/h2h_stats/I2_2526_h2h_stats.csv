@@ -20,6 +20,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8768,Venezia,8769,Bari,2526,1,0,0.0,3.0
 8756,Pescara,8767,Carrarese,2526,1,1,1.0,4.0
 8758,Empoli,8765,Reggiana,2526,1,0,0.0,4.0
+8773,Avellino,8774,Sampdoria,2526,1,0,0.0,3.0
 8763,Mantova,8765,Reggiana,2526,1,0,0.0,1.0
 8763,Mantova,8773,Avellino,2526,1,1,1.0,
 8764,Palermo,8770,Catanzaro,2526,1,0,0.0,1.0
@@ -53,6 +54,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8757,Cesena,8763,Mantova,2526,1,0,0.0,5.0
 8757,Cesena,8760,Virtus Entella,2526,1,1,1.0,2.0
 8766,Spezia,8767,Carrarese,2526,1,0,0.0,2.0
+8765,Reggiana,8768,Venezia,2526,1,0,0.0,4.0
 8765,Reggiana,8767,Carrarese,2526,1,1,1.0,
 8756,Pescara,8765,Reggiana,2526,1,0,0.0,3.0
 8766,Spezia,8769,Bari,2526,1,1,1.0,2.0
@@ -115,6 +117,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8761,Juve Stabia,8768,Venezia,2526,1,1,1.0,
 8756,Pescara,8758,Empoli,2526,1,0,0.0,4.0
 8756,Pescara,8762,Monza,2526,2,0,0.0,2.5
+8766,Spezia,8771,Sudtirol,2526,1,0,0.0,3.0
 8758,Empoli,8773,Avellino,2526,1,0,0.0,3.0
 8756,Pescara,8757,Cesena,2526,1,0,0.0,4.0
 8760,Virtus Entella,8771,Sudtirol,2526,1,1,1.0,2.0
@@ -136,6 +139,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8762,Monza,8763,Mantova,2526,2,0,0.0,2.5
 8758,Empoli,8762,Monza,2526,2,1,0.5,2.5
 8766,Spezia,8774,Sampdoria,2526,1,0,0.0,1.0
+8763,Mantova,8764,Palermo,2526,1,1,1.0,2.0
 8764,Palermo,8773,Avellino,2526,1,1,1.0,4.0
 8759,Padova,8767,Carrarese,2526,1,1,1.0,
 8772,Frosinone,8773,Avellino,2526,1,0,0.0,2.0
@@ -157,6 +161,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8756,Pescara,8764,Palermo,2526,1,0,0.0,5.0
 8758,Empoli,8770,Catanzaro,2526,1,0,0.0,1.0
 8756,Pescara,8773,Avellino,2526,1,1,1.0,2.0
+8756,Pescara,8761,Juve Stabia,2526,1,1,1.0,4.0
 8763,Mantova,8766,Spezia,2526,1,0,0.0,5.0
 8759,Padova,8762,Monza,2526,1,0,0.0,1.0
 8762,Monza,8764,Palermo,2526,2,1,0.5,2.5

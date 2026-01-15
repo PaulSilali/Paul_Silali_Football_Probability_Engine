@@ -1,28 +1,32 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-E3,2526,2025-08-02,Shrewsbury,Bromley,7,91,False
+E3,2526,2025-08-02,Salford,Crewe,91,91,False
+E3,2526,2025-08-02,Walsall,Swindon,91,91,False
+E3,2526,2025-08-02,Newport County,Newport County,91,91,False
 E3,2526,2025-08-02,Barnet,Fleetwood Town,2646,91,False
 E3,2526,2025-08-02,Accrington,Gillingham,91,91,False
-E3,2526,2025-08-02,Colchester,Tranmere,91,91,False
-E3,2526,2025-08-02,Bristol Rvs,Harrogate,1183,91,False
-E3,2526,2025-08-02,Salford,Crewe,91,91,False
-E3,2526,2025-08-02,Milton Keynes Dons,Oldham,91,1183,False
 E3,2526,2025-08-02,Chesterfield,Barrow,91,91,False
-E3,2526,2025-08-02,Cambridge,Cheltenham,1547,91,False
 E3,2526,2025-08-02,Grimsby,Crawley Town,91,462,False
-E3,2526,2025-08-02,Newport County,Newport County,91,91,False
-E3,2526,2025-08-02,Walsall,Swindon,91,91,False
-E3,2526,2025-08-09,Harrogate,Grimsby,7,7,False
-E3,2526,2025-08-09,Tranmere,Shrewsbury,7,7,False
-E3,2526,2025-08-09,Barrow,Milton Keynes Dons,7,7,False
-E3,2526,2025-08-09,Bromley,Barnet,7,7,False
-E3,2526,2025-08-09,Cheltenham,Chesterfield,7,7,False
+E3,2526,2025-08-02,Colchester,Tranmere,91,91,False
+E3,2526,2025-08-02,Cambridge,Cheltenham,1547,91,False
+E3,2526,2025-08-02,Bristol Rvs,Harrogate,1183,91,False
+E3,2526,2025-08-02,Shrewsbury,Bromley,7,91,False
+E3,2526,2025-08-02,Milton Keynes Dons,Oldham,91,1183,False
 E3,2526,2025-08-09,Crawley Town,Newport County,7,7,False
 E3,2526,2025-08-09,Crewe,Accrington,7,7,False
 E3,2526,2025-08-09,Fleetwood Town,Bristol Rvs,7,7,False
-E3,2526,2025-08-09,Gillingham,Walsall,7,7,False
 E3,2526,2025-08-09,Newport County,Salford,7,7,False
+E3,2526,2025-08-09,Tranmere,Shrewsbury,7,7,False
+E3,2526,2025-08-09,Gillingham,Walsall,7,7,False
+E3,2526,2025-08-09,Harrogate,Grimsby,7,7,False
 E3,2526,2025-08-09,Oldham,Colchester,7,7,False
 E3,2526,2025-08-09,Swindon,Cambridge,7,7,False
+E3,2526,2025-08-09,Bromley,Barnet,7,7,False
+E3,2526,2025-08-09,Cheltenham,Chesterfield,7,7,False
+E3,2526,2025-08-09,Barrow,Milton Keynes Dons,7,7,False
+E3,2526,2025-08-16,Tranmere,Gillingham,7,7,False
+E3,2526,2025-08-16,Chesterfield,Bristol Rvs,7,7,False
+E3,2526,2025-08-16,Oldham,Swindon,7,7,False
+E3,2526,2025-08-16,Barnet,Walsall,7,7,False
 E3,2526,2025-08-16,Barrow,Newport County,7,7,False
 E3,2526,2025-08-16,Bromley,Fleetwood Town,7,7,False
 E3,2526,2025-08-16,Cambridge,Harrogate,7,7,False
@@ -31,21 +35,18 @@ E3,2526,2025-08-16,Grimsby,Newport County,7,7,False
 E3,2526,2025-08-16,Milton Keynes Dons,Cheltenham,7,7,False
 E3,2526,2025-08-16,Salford,Accrington,7,7,False
 E3,2526,2025-08-16,Shrewsbury,Colchester,7,7,False
-E3,2526,2025-08-16,Tranmere,Gillingham,7,7,False
-E3,2526,2025-08-16,Barnet,Walsall,7,7,False
-E3,2526,2025-08-16,Oldham,Swindon,7,7,False
-E3,2526,2025-08-16,Chesterfield,Bristol Rvs,7,7,False
-E3,2526,2025-08-19,Cheltenham,Bromley,3,3,True
+E3,2526,2025-08-19,Walsall,Grimsby,3,3,True
 E3,2526,2025-08-19,Newport County,Salford,3,3,True
 E3,2526,2025-08-19,Bristol Rvs,Oldham,3,3,True
+E3,2526,2025-08-19,Cheltenham,Bromley,3,3,True
 E3,2526,2025-08-19,Colchester,Cambridge,3,3,True
 E3,2526,2025-08-19,Crawley Town,Milton Keynes Dons,3,3,True
 E3,2526,2025-08-19,Fleetwood Town,Crewe,3,3,True
 E3,2526,2025-08-19,Gillingham,Chesterfield,3,3,True
 E3,2526,2025-08-19,Harrogate,Barrow,3,3,True
 E3,2526,2025-08-19,Swindon,Barnet,3,3,True
-E3,2526,2025-08-19,Walsall,Grimsby,3,3,True
 E3,2526,2025-08-20,Newport County,Shrewsbury,1,4,True
+E3,2526,2025-08-23,Accrington,Grimsby,7,4,False
 E3,2526,2025-08-23,Bristol Rvs,Cambridge,4,4,False
 E3,2526,2025-08-23,Cheltenham,Barnet,4,4,False
 E3,2526,2025-08-23,Colchester,Barrow,4,4,False
@@ -55,10 +56,10 @@ E3,2526,2025-08-23,Gillingham,Crewe,4,4,False
 E3,2526,2025-08-23,Harrogate,Chesterfield,4,4,False
 E3,2526,2025-08-23,Newport County,Bromley,3,4,False
 E3,2526,2025-08-23,Swindon,Shrewsbury,4,3,False
-E3,2526,2025-08-23,Accrington,Grimsby,7,4,False
 E3,2526,2025-08-23,Walsall,Salford,4,4,False
 E3,2526,2025-08-23,Newport County,Milton Keynes Dons,3,4,False
 E3,2526,2025-08-29,Salford,Cheltenham,6,6,False
+E3,2526,2025-08-30,Barnet,Colchester,7,7,False
 E3,2526,2025-08-30,Bromley,Harrogate,7,7,False
 E3,2526,2025-08-30,Cambridge,Newport County,7,7,False
 E3,2526,2025-08-30,Chesterfield,Crawley Town,7,7,False
@@ -67,13 +68,12 @@ E3,2526,2025-08-30,Milton Keynes Dons,Walsall,7,7,False
 E3,2526,2025-08-30,Oldham,Gillingham,7,7,False
 E3,2526,2025-08-30,Shrewsbury,Accrington,7,7,False
 E3,2526,2025-08-30,Tranmere,Newport County,7,7,False
-E3,2526,2025-08-30,Barrow,Fleetwood Town,7,7,False
-E3,2526,2025-08-30,Barnet,Colchester,7,7,False
 E3,2526,2025-08-30,Crewe,Swindon,7,7,False
-E3,2526,2025-09-06,Cambridge,Oldham,7,7,False
+E3,2526,2025-08-30,Barrow,Fleetwood Town,7,7,False
+E3,2526,2025-09-06,Barrow,Swindon,7,7,False
 E3,2526,2025-09-06,Newport County,Bristol Rvs,7,7,False
 E3,2526,2025-09-06,Barnet,Shrewsbury,7,7,False
-E3,2526,2025-09-06,Barrow,Swindon,7,7,False
+E3,2526,2025-09-06,Cambridge,Oldham,7,7,False
 E3,2526,2025-09-06,Cheltenham,Accrington,8,7,False
 E3,2526,2025-09-06,Colchester,Crewe,7,7,False
 E3,2526,2025-09-06,Harrogate,Crawley Town,7,7,False
@@ -82,6 +82,8 @@ E3,2526,2025-09-06,Newport County,Fleetwood Town,7,7,False
 E3,2526,2025-09-06,Salford,Tranmere,8,7,False
 E3,2526,2025-09-06,Walsall,Chesterfield,7,7,False
 E3,2526,2025-09-06,Bromley,Gillingham,7,7,False
+E3,2526,2025-09-13,Crewe,Barnet,7,7,False
+E3,2526,2025-09-13,Fleetwood Town,Walsall,7,7,False
 E3,2526,2025-09-13,Gillingham,Newport County,7,7,False
 E3,2526,2025-09-13,Grimsby,Cambridge,7,7,False
 E3,2526,2025-09-13,Oldham,Bromley,7,7,False
@@ -91,23 +93,21 @@ E3,2526,2025-09-13,Tranmere,Newport County,7,7,False
 E3,2526,2025-09-13,Accrington,Colchester,7,7,False
 E3,2526,2025-09-13,Crawley Town,Cheltenham,7,7,False
 E3,2526,2025-09-13,Bristol Rvs,Barrow,7,7,False
-E3,2526,2025-09-13,Crewe,Barnet,7,7,False
 E3,2526,2025-09-13,Chesterfield,Milton Keynes Dons,7,7,False
-E3,2526,2025-09-13,Fleetwood Town,Walsall,7,7,False
+E3,2526,2025-09-20,Barnet,Grimsby,7,7,False
 E3,2526,2025-09-20,Barrow,Crewe,7,7,False
 E3,2526,2025-09-20,Bromley,Chesterfield,7,7,False
 E3,2526,2025-09-20,Cheltenham,Oldham,7,7,False
 E3,2526,2025-09-20,Colchester,Bristol Rvs,7,7,False
 E3,2526,2025-09-20,Milton Keynes Dons,Accrington,7,7,False
 E3,2526,2025-09-20,Newport County,Gillingham,7,7,False
+E3,2526,2025-09-20,Newport County,Crawley Town,7,7,False
 E3,2526,2025-09-20,Cambridge,Fleetwood Town,7,7,False
 E3,2526,2025-09-20,Harrogate,Shrewsbury,7,7,False
-E3,2526,2025-09-20,Barnet,Grimsby,7,7,False
-E3,2526,2025-09-20,Newport County,Crawley Town,7,7,False
 E3,2526,2025-09-20,Salford,Swindon,7,7,False
 E3,2526,2025-09-20,Walsall,Tranmere,7,7,False
-E3,2526,2025-09-27,Oldham,Barnet,7,7,False
 E3,2526,2025-09-27,Crewe,Newport County,7,7,False
+E3,2526,2025-09-27,Oldham,Barnet,7,7,False
 E3,2526,2025-09-27,Accrington,Walsall,7,7,False
 E3,2526,2025-09-27,Bristol Rvs,Salford,7,7,False
 E3,2526,2025-09-27,Chesterfield,Newport County,7,7,False
@@ -118,6 +118,7 @@ E3,2526,2025-09-27,Grimsby,Cheltenham,7,7,False
 E3,2526,2025-09-27,Shrewsbury,Milton Keynes Dons,7,7,False
 E3,2526,2025-09-27,Swindon,Bromley,7,7,False
 E3,2526,2025-09-27,Tranmere,Cambridge,7,7,False
+E3,2526,2025-10-04,Barnet,Accrington,7,7,False
 E3,2526,2025-10-04,Barrow,Shrewsbury,7,7,False
 E3,2526,2025-10-04,Bromley,Tranmere,7,7,False
 E3,2526,2025-10-04,Cambridge,Crawley Town,7,7,False
@@ -126,10 +127,10 @@ E3,2526,2025-10-04,Colchester,Chesterfield,7,7,False
 E3,2526,2025-10-04,Newport County,Oldham,7,7,False
 E3,2526,2025-10-04,Salford,Grimsby,7,7,False
 E3,2526,2025-10-04,Walsall,Bristol Rvs,7,7,False
-E3,2526,2025-10-04,Barnet,Accrington,7,7,False
 E3,2526,2025-10-04,Newport County,Swindon,7,7,False
 E3,2526,2025-10-04,Milton Keynes Dons,Gillingham,7,7,False
 E3,2526,2025-10-06,Harrogate,Crewe,9,9,False
+E3,2526,2025-10-11,Chesterfield,Salford,7,7,False
 E3,2526,2025-10-11,Crawley Town,Walsall,7,7,False
 E3,2526,2025-10-11,Crewe,Bromley,5,7,False
 E3,2526,2025-10-11,Fleetwood Town,Harrogate,7,5,False
@@ -138,49 +139,48 @@ E3,2526,2025-10-11,Grimsby,Colchester,7,7,False
 E3,2526,2025-10-11,Shrewsbury,Cambridge,7,7,False
 E3,2526,2025-10-11,Tranmere,Barnet,7,7,False
 E3,2526,2025-10-11,Oldham,Barrow,7,7,False
-E3,2526,2025-10-11,Accrington,Newport County,7,7,False
-E3,2526,2025-10-11,Chesterfield,Salford,7,7,False
 E3,2526,2025-10-11,Bristol Rvs,Milton Keynes Dons,7,7,False
-E3,2526,2025-10-18,Colchester,Harrogate,7,7,False
+E3,2526,2025-10-11,Accrington,Newport County,7,7,False
+E3,2526,2025-10-18,Chesterfield,Fleetwood Town,7,7,False
 E3,2526,2025-10-18,Cambridge,Bromley,7,7,False
 E3,2526,2025-10-18,Salford,Oldham,7,7,False
 E3,2526,2025-10-18,Accrington,Swindon,7,14,False
 E3,2526,2025-10-18,Barnet,Newport County,7,7,False
 E3,2526,2025-10-18,Bristol Rvs,Tranmere,7,7,False
-E3,2526,2025-10-18,Chesterfield,Fleetwood Town,7,7,False
+E3,2526,2025-10-18,Colchester,Harrogate,7,7,False
 E3,2526,2025-10-18,Grimsby,Gillingham,7,7,False
 E3,2526,2025-10-18,Milton Keynes Dons,Crewe,7,7,False
 E3,2526,2025-10-18,Newport County,Cheltenham,7,7,False
 E3,2526,2025-10-18,Shrewsbury,Crawley Town,7,7,False
 E3,2526,2025-10-18,Walsall,Barrow,7,7,False
 E3,2526,2025-10-21,Swindon,Newport County,3,3,True
-E3,2526,2025-10-25,Swindon,Colchester,4,7,False
-E3,2526,2025-10-25,Barrow,Barnet,7,7,False
-E3,2526,2025-10-25,Cheltenham,Walsall,7,7,False
-E3,2526,2025-10-25,Fleetwood Town,Accrington,7,7,False
-E3,2526,2025-10-25,Tranmere,Chesterfield,7,7,False
-E3,2526,2025-10-25,Oldham,Shrewsbury,7,7,False
-E3,2526,2025-10-25,Crewe,Grimsby,7,7,False
-E3,2526,2025-10-25,Crawley Town,Bristol Rvs,7,7,False
-E3,2526,2025-10-25,Bromley,Milton Keynes Dons,7,7,False
 E3,2526,2025-10-25,Harrogate,Newport County,7,4,False
-E3,2526,2025-10-25,Gillingham,Salford,7,7,False
 E3,2526,2025-10-25,Newport County,Cambridge,4,7,False
+E3,2526,2025-10-25,Fleetwood Town,Accrington,7,7,False
+E3,2526,2025-10-25,Oldham,Shrewsbury,7,7,False
+E3,2526,2025-10-25,Cheltenham,Walsall,7,7,False
+E3,2526,2025-10-25,Swindon,Colchester,4,7,False
+E3,2526,2025-10-25,Tranmere,Chesterfield,7,7,False
+E3,2526,2025-10-25,Gillingham,Salford,7,7,False
+E3,2526,2025-10-25,Bromley,Milton Keynes Dons,7,7,False
+E3,2526,2025-10-25,Barrow,Barnet,7,7,False
+E3,2526,2025-10-25,Crawley Town,Bristol Rvs,7,7,False
+E3,2526,2025-10-25,Crewe,Grimsby,7,7,False
 E3,2526,2025-10-28,Accrington,Tranmere,3,3,True
+E3,2526,2025-11-08,Barnet,Milton Keynes Dons,14,14,False
 E3,2526,2025-11-08,Barrow,Grimsby,14,14,False
 E3,2526,2025-11-08,Bristol Rvs,Gillingham,14,14,False
 E3,2526,2025-11-08,Chesterfield,Accrington,14,11,False
 E3,2526,2025-11-08,Crawley Town,Fleetwood Town,14,14,False
 E3,2526,2025-11-08,Harrogate,Oldham,14,14,False
 E3,2526,2025-11-08,Newport County,Walsall,14,14,False
-E3,2526,2025-11-08,Colchester,Bromley,14,14,False
 E3,2526,2025-11-08,Salford,Cambridge,14,14,False
 E3,2526,2025-11-08,Swindon,Tranmere,14,11,False
+E3,2526,2025-11-08,Colchester,Bromley,14,14,False
 E3,2526,2025-11-08,Crewe,Shrewsbury,14,14,False
-E3,2526,2025-11-08,Barnet,Milton Keynes Dons,14,14,False
 E3,2526,2025-11-10,Cheltenham,Newport County,16,2,False
-E3,2526,2025-11-15,Bromley,Barrow,7,7,False
 E3,2526,2025-11-15,Accrington,Bristol Rvs,7,7,False
+E3,2526,2025-11-15,Bromley,Barrow,7,7,False
 E3,2526,2025-11-15,Cambridge,Barnet,7,7,False
 E3,2526,2025-11-15,Fleetwood Town,Swindon,7,7,False
 E3,2526,2025-11-15,Grimsby,Chesterfield,7,7,False
@@ -191,6 +191,7 @@ E3,2526,2025-11-15,Shrewsbury,Newport County,7,5,False
 E3,2526,2025-11-15,Tranmere,Cheltenham,7,5,False
 E3,2526,2025-11-15,Walsall,Colchester,7,7,False
 E3,2526,2025-11-15,Gillingham,Crawley Town,7,7,False
+E3,2526,2025-11-22,Barrow,Cambridge,7,7,False
 E3,2526,2025-11-22,Bromley,Salford,7,7,False
 E3,2526,2025-11-22,Cheltenham,Bristol Rvs,7,7,False
 E3,2526,2025-11-22,Crawley Town,Accrington,7,7,False
@@ -200,10 +201,10 @@ E3,2526,2025-11-22,Newport County,Colchester,7,7,False
 E3,2526,2025-11-22,Oldham,Newport County,7,7,False
 E3,2526,2025-11-22,Swindon,Grimsby,7,7,False
 E3,2526,2025-11-22,Tranmere,Milton Keynes Dons,7,7,False
-E3,2526,2025-11-22,Barrow,Cambridge,7,7,False
 E3,2526,2025-11-22,Harrogate,Walsall,7,7,False
 E3,2526,2025-11-22,Gillingham,Barnet,7,7,False
 E3,2526,2025-11-27,Grimsby,Tranmere,5,5,True
+E3,2526,2025-11-29,Barnet,Harrogate,7,7,False
 E3,2526,2025-11-29,Bristol Rvs,Newport County,7,7,False
 E3,2526,2025-11-29,Cambridge,Crewe,7,7,False
 E3,2526,2025-11-29,Chesterfield,Swindon,7,7,False
@@ -212,11 +213,10 @@ E3,2526,2025-11-29,Newport County,Barrow,7,7,False
 E3,2526,2025-11-29,Salford,Crawley Town,7,7,False
 E3,2526,2025-11-29,Shrewsbury,Gillingham,7,7,False
 E3,2526,2025-11-29,Walsall,Bromley,7,7,False
-E3,2526,2025-11-29,Milton Keynes Dons,Fleetwood Town,7,7,False
-E3,2526,2025-11-29,Barnet,Harrogate,7,7,False
 E3,2526,2025-11-29,Accrington,Oldham,7,7,False
+E3,2526,2025-11-29,Milton Keynes Dons,Fleetwood Town,7,7,False
 E3,2526,2025-12-06,Colchester,Gillingham,7,7,False
-E3,2526,2025-12-09,Swindon,Cheltenham,10,10,True
+E3,2526,2025-12-09,Shrewsbury,Grimsby,10,12,True
 E3,2526,2025-12-09,Barnet,Bristol Rvs,10,10,True
 E3,2526,2025-12-09,Barrow,Tranmere,10,12,True
 E3,2526,2025-12-09,Bromley,Crawley Town,10,10,True
@@ -224,35 +224,35 @@ E3,2526,2025-12-09,Cambridge,Chesterfield,10,10,True
 E3,2526,2025-12-09,Fleetwood Town,Salford,10,10,True
 E3,2526,2025-12-09,Harrogate,Accrington,10,10,True
 E3,2526,2025-12-09,Newport County,Milton Keynes Dons,10,10,True
-E3,2526,2025-12-09,Shrewsbury,Grimsby,10,12,True
-E3,2526,2025-12-10,Oldham,Walsall,11,11,True
+E3,2526,2025-12-09,Swindon,Cheltenham,10,10,True
 E3,2526,2025-12-10,Crewe,Newport County,11,1,True
+E3,2526,2025-12-10,Oldham,Walsall,11,11,True
+E3,2526,2025-12-13,Chesterfield,Barnet,4,4,False
+E3,2526,2025-12-13,Crawley Town,Oldham,4,3,False
 E3,2526,2025-12-13,Gillingham,Barrow,7,4,False
 E3,2526,2025-12-13,Grimsby,Newport County,4,3,False
 E3,2526,2025-12-13,Milton Keynes Dons,Cambridge,4,4,False
 E3,2526,2025-12-13,Newport County,Fleetwood Town,3,4,False
 E3,2526,2025-12-13,Tranmere,Crewe,4,3,False
 E3,2526,2025-12-13,Walsall,Shrewsbury,3,4,False
-E3,2526,2025-12-13,Chesterfield,Barnet,4,4,False
-E3,2526,2025-12-13,Crawley Town,Oldham,4,3,False
-E3,2526,2025-12-13,Bristol Rvs,Swindon,4,4,False
 E3,2526,2025-12-13,Accrington,Bromley,4,4,False
-E3,2526,2025-12-13,Salford,Colchester,4,7,False
 E3,2526,2025-12-13,Cheltenham,Harrogate,4,4,False
+E3,2526,2025-12-13,Bristol Rvs,Swindon,4,4,False
+E3,2526,2025-12-13,Salford,Colchester,4,7,False
+E3,2526,2025-12-19,Crewe,Bristol Rvs,6,6,False
 E3,2526,2025-12-19,Barrow,Cheltenham,6,6,False
 E3,2526,2025-12-19,Cambridge,Accrington,6,6,False
-E3,2526,2025-12-19,Crewe,Bristol Rvs,6,6,False
+E3,2526,2025-12-20,Barnet,Salford,7,7,False
 E3,2526,2025-12-20,Colchester,Newport County,7,7,False
 E3,2526,2025-12-20,Fleetwood Town,Gillingham,7,7,False
 E3,2526,2025-12-20,Harrogate,Milton Keynes Dons,7,7,False
-E3,2526,2025-12-20,Bromley,Grimsby,7,7,False
+E3,2526,2025-12-20,Oldham,Tranmere,7,7,False
 E3,2526,2025-12-20,Shrewsbury,Chesterfield,7,7,False
 E3,2526,2025-12-20,Swindon,Crawley Town,7,7,False
-E3,2526,2025-12-20,Oldham,Tranmere,7,7,False
+E3,2526,2025-12-20,Bromley,Grimsby,7,7,False
 E3,2526,2025-12-20,Newport County,Walsall,7,7,False
-E3,2526,2025-12-20,Barnet,Salford,7,7,False
-E3,2526,2025-12-26,Bristol Rvs,Bromley,7,6,False
 E3,2526,2025-12-26,Accrington,Barrow,7,7,False
+E3,2526,2025-12-26,Bristol Rvs,Bromley,7,6,False
 E3,2526,2025-12-26,Cheltenham,Shrewsbury,7,6,False
 E3,2526,2025-12-26,Chesterfield,Newport County,6,6,False
 E3,2526,2025-12-26,Crawley Town,Colchester,6,6,False
@@ -263,18 +263,21 @@ E3,2526,2025-12-26,Newport County,Barnet,6,6,False
 E3,2526,2025-12-26,Salford,Harrogate,6,6,False
 E3,2526,2025-12-26,Tranmere,Fleetwood Town,6,6,False
 E3,2526,2025-12-26,Walsall,Crewe,6,7,False
-E3,2526,2025-12-29,Cheltenham,Swindon,3,3,False
-E3,2526,2025-12-29,Chesterfield,Cambridge,3,3,False
 E3,2526,2025-12-29,Crawley Town,Bromley,3,3,False
+E3,2526,2025-12-29,Bristol Rvs,Barnet,3,3,False
 E3,2526,2025-12-29,Gillingham,Colchester,3,3,False
 E3,2526,2025-12-29,Grimsby,Shrewsbury,3,3,False
 E3,2526,2025-12-29,Milton Keynes Dons,Newport County,3,3,False
 E3,2526,2025-12-29,Salford,Fleetwood Town,3,3,False
 E3,2526,2025-12-29,Tranmere,Barrow,3,3,False
 E3,2526,2025-12-29,Walsall,Oldham,3,3,False
-E3,2526,2025-12-29,Bristol Rvs,Barnet,3,3,False
-E3,2526,2025-12-29,Accrington,Harrogate,3,3,False
+E3,2526,2025-12-29,Cheltenham,Swindon,3,3,False
+E3,2526,2025-12-29,Chesterfield,Cambridge,3,3,False
 E3,2526,2025-12-29,Newport County,Crewe,3,3,False
+E3,2526,2025-12-29,Accrington,Harrogate,3,3,False
+E3,2526,2026-01-01,Cambridge,Walsall,3,3,True
+E3,2526,2026-01-01,Barnet,Crawley Town,3,3,True
+E3,2526,2026-01-01,Barrow,Salford,3,3,True
 E3,2526,2026-01-01,Bromley,Newport County,3,3,True
 E3,2526,2026-01-01,Colchester,Milton Keynes Dons,3,3,True
 E3,2526,2026-01-01,Crewe,Cheltenham,3,3,True
@@ -284,8 +287,6 @@ E3,2526,2026-01-01,Newport County,Accrington,3,3,True
 E3,2526,2026-01-01,Oldham,Chesterfield,3,3,True
 E3,2526,2026-01-01,Shrewsbury,Bristol Rvs,3,3,True
 E3,2526,2026-01-01,Swindon,Gillingham,3,3,True
-E3,2526,2026-01-01,Barrow,Salford,3,3,True
-E3,2526,2026-01-01,Cambridge,Walsall,3,3,True
-E3,2526,2026-01-01,Barnet,Crawley Town,3,3,True
-E3,2526,2026-01-04,Cheltenham,Crawley Town,3,3,False
 E3,2526,2026-01-04,Milton Keynes Dons,Chesterfield,3,3,False
+E3,2526,2026-01-04,Cheltenham,Crawley Town,3,3,False
+E3,2526,2026-01-10,Crewe,Harrogate,9,9,False

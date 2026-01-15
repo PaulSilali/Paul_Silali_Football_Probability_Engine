@@ -1,0 +1,61 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+AUS1,2223,2022-10-07,Melbourne City FC,Western United,226,226,False
+AUS1,2223,2022-10-07,Sydney FC,Melbourne Victory,226,226,False
+AUS1,2223,2022-10-07,Wellington Phoenix,Adelaide United,226,226,False
+AUS1,2223,2022-10-07,Newcastle United Jets,Perth Glory,226,226,False
+AUS1,2223,2022-10-07,Wellington Phoenix,Central Coast Mariners,226,226,False
+AUS1,2223,2022-10-07,Western United,Sydney FC,226,226,False
+AUS1,2223,2022-10-07,Western United,Macarthur FC,226,226,False
+AUS1,2223,2022-10-07,Newcastle United Jets,Wellington Phoenix,226,226,False
+AUS1,2223,2022-10-07,Western Sydney Wanderers,Brisbane Roar,226,226,False
+AUS1,2223,2022-10-07,Sydney FC,Adelaide United,226,226,False
+AUS1,2223,2022-10-07,Central Coast Mariners,Perth Glory,226,226,False
+AUS1,2223,2022-10-07,Central Coast Mariners,Western United,226,226,False
+AUS1,2223,2022-10-07,Macarthur FC,Sydney FC,226,226,False
+AUS1,2223,2022-10-07,Adelaide United,Perth Glory,226,226,False
+AUS1,2223,2022-10-07,Melbourne City FC,Wellington Phoenix,226,226,False
+AUS1,2223,2022-10-07,Wellington Phoenix,Macarthur FC,226,226,False
+AUS1,2223,2022-10-07,Brisbane Roar,Sydney FC,226,226,False
+AUS1,2223,2022-10-07,Western United,Adelaide United,226,226,False
+AUS1,2223,2022-10-07,Newcastle United Jets,Melbourne City FC,226,226,False
+AUS1,2223,2022-10-07,Wellington Phoenix,Western United,226,226,False
+AUS1,2223,2022-10-07,Central Coast Mariners,Macarthur FC,226,226,False
+AUS1,2223,2022-12-09,Wellington Phoenix,Adelaide United,63,63,False
+AUS1,2223,2022-12-09,Brisbane Roar,Adelaide United,63,63,False
+AUS1,2223,2022-12-09,Wellington Phoenix,Western Sydney Wanderers,63,63,False
+AUS1,2223,2022-12-09,Sydney FC,Melbourne City FC,63,63,False
+AUS1,2223,2022-12-09,Perth Glory,Western United,63,63,False
+AUS1,2223,2022-12-09,Central Coast Mariners,Newcastle United Jets,63,63,False
+AUS1,2223,2022-12-09,Central Coast Mariners,Sydney FC,63,63,False
+AUS1,2223,2022-12-23,Brisbane Roar,Western Sydney Wanderers,14,14,False
+AUS1,2223,2022-12-23,Perth Glory,Wellington Phoenix,14,14,False
+AUS1,2223,2022-12-23,Western United,Brisbane Roar,14,14,False
+AUS1,2223,2022-12-23,Central Coast Mariners,Melbourne Victory,14,77,False
+AUS1,2223,2023-01-01,Macarthur FC,Wellington Phoenix,86,9,False
+AUS1,2223,2023-01-01,Melbourne Victory,Melbourne City FC,9,23,False
+AUS1,2223,2023-01-01,Wellington Phoenix,Melbourne City FC,9,23,False
+AUS1,2223,2023-01-01,Macarthur FC,Central Coast Mariners,86,9,False
+AUS1,2223,2023-01-01,Adelaide United,Melbourne Victory,23,9,False
+AUS1,2223,2023-01-01,Perth Glory,Sydney FC,9,23,False
+AUS1,2223,2023-01-01,Western Sydney Wanderers,Melbourne City FC,9,23,False
+AUS1,2223,2023-01-01,Western United,Newcastle United Jets,9,23,False
+AUS1,2223,2023-01-01,Perth Glory,Melbourne Victory,9,9,False
+AUS1,2223,2023-01-01,Wellington Phoenix,Central Coast Mariners,9,9,False
+AUS1,2223,2023-01-01,Newcastle United Jets,Western Sydney Wanderers,23,9,False
+AUS1,2223,2023-01-01,Melbourne Victory,Sydney FC,9,23,False
+AUS1,2223,2023-01-01,Wellington Phoenix,Perth Glory,9,9,False
+AUS1,2223,2023-01-01,Macarthur FC,Western United,86,9,False
+AUS1,2223,2023-01-01,Central Coast Mariners,Western Sydney Wanderers,9,9,False
+AUS1,2223,2023-01-01,Melbourne City FC,Adelaide United,23,23,False
+AUS1,2223,2023-01-01,Melbourne Victory,Wellington Phoenix,9,9,False
+AUS1,2223,2023-01-01,Melbourne City FC,Macarthur FC,23,86,False
+AUS1,2223,2023-01-01,Sydney FC,Central Coast Mariners,23,9,False
+AUS1,2223,2023-01-01,Adelaide United,Brisbane Roar,23,9,False
+AUS1,2223,2023-01-01,Perth Glory,Newcastle United Jets,9,23,False
+AUS1,2223,2023-01-01,Brisbane Roar,Central Coast Mariners,9,9,False
+AUS1,2223,2023-01-01,Western United,Adelaide United,9,23,False
+AUS1,2223,2023-01-01,Perth Glory,Melbourne City FC,9,23,False
+AUS1,2223,2023-01-01,Newcastle United Jets,Melbourne Victory,23,9,False
+AUS1,2223,2023-01-01,Sydney FC,Brisbane Roar,23,9,False
+AUS1,2223,2023-01-10,Perth Glory,Brisbane Roar,9,9,True
+AUS1,2223,2023-04-05,Melbourne City FC,Melbourne Victory,94,94,True

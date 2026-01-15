@@ -1,37 +1,40 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 SP1,1819,2018-08-17,Betis,Levante,44,13,False
 SP1,1819,2018-08-17,Girona,Valladolid,13,7,False
-SP1,1819,2018-08-18,Barcelona,Alaves,45,45,False
 SP1,1819,2018-08-18,Celta,Espanol,45,14,False
+SP1,1819,2018-08-18,Barcelona,Alaves,45,45,False
 SP1,1819,2018-08-18,Villarreal,Sociedad,48,14,False
-SP1,1819,2018-08-19,Vallecano,Sevilla,7,46,False
 SP1,1819,2018-08-19,Eibar,Huesca,46,7,False
 SP1,1819,2018-08-19,Ath Madrid,Getafe,15,46,False
-SP1,1819,2018-08-20,Valencia,Ath Madrid,16,1,False
+SP1,1819,2018-08-19,Vallecano,Sevilla,7,46,False
 SP1,1819,2018-08-20,Ath Bilbao,Levante,50,3,False
-SP1,1819,2018-08-24,Levante,Sociedad,4,6,False
+SP1,1819,2018-08-20,Valencia,Ath Madrid,16,1,False
+SP1,1819,2018-08-20,Ath Bilbao,CD Leganes,50,47,False
 SP1,1819,2018-08-24,Getafe,Eibar,5,5,False
+SP1,1819,2018-08-24,Levante,Sociedad,4,6,False
+SP1,1819,2018-08-24,CD Leganes,Sociedad,4,6,False
 SP1,1819,2018-08-25,Alaves,Betis,7,8,False
 SP1,1819,2018-08-25,Valladolid,Barcelona,8,7,False
 SP1,1819,2018-08-25,Ath Madrid,Vallecano,5,6,False
 SP1,1819,2018-08-26,Sevilla,Villarreal,7,8,False
-SP1,1819,2018-08-26,Espanol,Valencia,8,6,False
 SP1,1819,2018-08-26,Girona,Ath Madrid,9,1,False
-SP1,1819,2018-08-27,Ath Bilbao,Huesca,7,8,False
+SP1,1819,2018-08-26,Espanol,Valencia,8,6,False
 SP1,1819,2018-08-27,Levante,Celta,3,9,False
+SP1,1819,2018-08-27,Ath Bilbao,Huesca,7,8,False
 SP1,1819,2018-08-31,Villarreal,Girona,5,5,False
-SP1,1819,2018-08-31,Getafe,Valladolid,7,6,False
 SP1,1819,2018-08-31,Eibar,Sociedad,7,7,False
-SP1,1819,2018-09-01,Ath Madrid,Levante,6,5,False
+SP1,1819,2018-08-31,Getafe,Valladolid,7,6,False
 SP1,1819,2018-09-01,Celta,Ath Madrid,5,6,False
-SP1,1819,2018-09-02,Alaves,Espanol,8,7,False
+SP1,1819,2018-09-01,Ath Madrid,Levante,6,5,False
+SP1,1819,2018-09-01,Ath Madrid,CD Leganes,6,8,False
 SP1,1819,2018-09-02,Levante,Valencia,1,7,False
-SP1,1819,2018-09-02,Barcelona,Huesca,8,6,False
 SP1,1819,2018-09-02,Betis,Sevilla,8,7,False
+SP1,1819,2018-09-02,Alaves,Espanol,8,7,False
+SP1,1819,2018-09-02,Barcelona,Huesca,8,6,False
 SP1,1819,2018-09-14,Huesca,Vallecano,12,20,False
-SP1,1819,2018-09-15,Sociedad,Barcelona,15,10,False
-SP1,1819,2018-09-15,Ath Madrid,Eibar,10,15,False
 SP1,1819,2018-09-15,Ath Bilbao,Ath Madrid,11,10,False
+SP1,1819,2018-09-15,Ath Madrid,Eibar,10,15,False
+SP1,1819,2018-09-15,Sociedad,Barcelona,15,10,False
 SP1,1819,2018-09-15,Valencia,Betis,13,13,False
 SP1,1819,2018-09-16,Valladolid,Alaves,16,14,False
 SP1,1819,2018-09-16,Sevilla,Getafe,11,16,False
@@ -44,338 +47,352 @@ SP1,1819,2018-09-22,Eibar,Levante,7,6,False
 SP1,1819,2018-09-22,Getafe,Ath Madrid,6,7,False
 SP1,1819,2018-09-22,Ath Madrid,Espanol,7,6,False
 SP1,1819,2018-09-22,Vallecano,Alaves,8,6,False
-SP1,1819,2018-09-23,Levante,Sevilla,1,7,False
 SP1,1819,2018-09-23,Villarreal,Valencia,7,8,False
-SP1,1819,2018-09-23,Barcelona,Girona,8,6,False
+SP1,1819,2018-09-23,Levante,Sevilla,1,7,False
 SP1,1819,2018-09-23,Betis,Ath Bilbao,8,8,False
-SP1,1819,2018-09-25,Espanol,Eibar,3,3,True
-SP1,1819,2018-09-25,Ath Madrid,Huesca,3,4,True
+SP1,1819,2018-09-23,Barcelona,Girona,8,6,False
 SP1,1819,2018-09-25,Sociedad,Vallecano,4,3,True
-SP1,1819,2018-09-26,Sevilla,Ath Madrid,3,1,True
+SP1,1819,2018-09-25,Ath Madrid,Huesca,3,4,True
+SP1,1819,2018-09-25,Espanol,Eibar,3,3,True
 SP1,1819,2018-09-26,Valencia,Celta,3,4,True
 SP1,1819,2018-09-26,Levante,Barcelona,3,3,True
 SP1,1819,2018-09-26,Ath Bilbao,Villarreal,3,3,True
-SP1,1819,2018-09-27,Girona,Betis,4,4,True
-SP1,1819,2018-09-27,Valladolid,Levante,5,1,True
+SP1,1819,2018-09-26,Sevilla,Ath Madrid,3,1,True
+SP1,1819,2018-09-26,CD Leganes,Barcelona,25,3,True
 SP1,1819,2018-09-27,Alaves,Getafe,5,5,True
+SP1,1819,2018-09-27,Valladolid,Levante,5,1,True
+SP1,1819,2018-09-27,Girona,Betis,4,4,True
 SP1,1819,2018-09-28,Vallecano,Espanol,3,3,False
-SP1,1819,2018-09-29,Ath Madrid,Ath Madrid,3,3,False
+SP1,1819,2018-09-29,Sociedad,Valencia,4,3,False
 SP1,1819,2018-09-29,Barcelona,Ath Bilbao,3,3,False
 SP1,1819,2018-09-29,Eibar,Sevilla,4,3,False
-SP1,1819,2018-09-29,Sociedad,Valencia,4,3,False
+SP1,1819,2018-09-29,Ath Madrid,Ath Madrid,3,3,False
 SP1,1819,2018-09-30,Betis,Levante,3,3,False
-SP1,1819,2018-09-30,Levante,Alaves,3,3,False
 SP1,1819,2018-09-30,Huesca,Girona,5,3,False
 SP1,1819,2018-09-30,Villarreal,Valladolid,4,3,False
+SP1,1819,2018-09-30,Levante,Alaves,3,3,False
 SP1,1819,2018-10-01,Celta,Getafe,5,4,False
 SP1,1819,2018-10-05,Ath Bilbao,Sociedad,6,3,False
-SP1,1819,2018-10-06,Getafe,Levante,3,3,False
-SP1,1819,2018-10-06,Alaves,Ath Madrid,4,3,False
 SP1,1819,2018-10-06,Girona,Eibar,6,3,False
 SP1,1819,2018-10-06,Levante,Vallecano,3,8,False
-SP1,1819,2018-10-07,Espanol,Villarreal,9,5,False
-SP1,1819,2018-10-07,Sevilla,Celta,4,6,False
-SP1,1819,2018-10-07,Valencia,Barcelona,4,4,False
+SP1,1819,2018-10-06,Getafe,Levante,3,3,False
+SP1,1819,2018-10-06,Alaves,Ath Madrid,4,3,False
 SP1,1819,2018-10-07,Valladolid,Huesca,7,7,False
 SP1,1819,2018-10-07,Ath Madrid,Betis,1,7,False
+SP1,1819,2018-10-07,Sevilla,Celta,4,6,False
+SP1,1819,2018-10-07,Espanol,Villarreal,9,5,False
+SP1,1819,2018-10-07,Valencia,Barcelona,4,4,False
 SP1,1819,2018-10-19,Celta,Alaves,12,13,False
 SP1,1819,2018-10-20,Valencia,Levante,13,14,False
 SP1,1819,2018-10-20,Villarreal,Ath Madrid,13,13,False
 SP1,1819,2018-10-20,Ath Madrid,Levante,13,14,False
 SP1,1819,2018-10-20,Barcelona,Sevilla,13,13,False
-SP1,1819,2018-10-21,Eibar,Ath Bilbao,15,16,False
+SP1,1819,2018-10-20,Valencia,CD Leganes,13,24,False
 SP1,1819,2018-10-21,Vallecano,Getafe,15,15,False
-SP1,1819,2018-10-21,Huesca,Espanol,14,14,False
 SP1,1819,2018-10-21,Betis,Valladolid,14,14,False
+SP1,1819,2018-10-21,Huesca,Espanol,14,14,False
+SP1,1819,2018-10-21,Eibar,Ath Bilbao,15,16,False
 SP1,1819,2018-10-22,Sociedad,Girona,17,16,False
 SP1,1819,2018-10-24,Vallecano,Ath Bilbao,3,3,True
 SP1,1819,2018-10-26,Valladolid,Espanol,5,5,False
 SP1,1819,2018-10-27,Girona,Vallecano,5,3,False
-SP1,1819,2018-10-27,Levante,Levante,7,7,False
-SP1,1819,2018-10-27,Celta,Eibar,8,6,False
 SP1,1819,2018-10-27,Ath Madrid,Sociedad,7,5,False
+SP1,1819,2018-10-27,Levante,Levante,7,7,False
 SP1,1819,2018-10-27,Ath Bilbao,Valencia,3,7,False
-SP1,1819,2018-10-28,Getafe,Betis,7,7,False
-SP1,1819,2018-10-28,Sevilla,Huesca,8,7,False
+SP1,1819,2018-10-27,Celta,Eibar,8,6,False
 SP1,1819,2018-10-28,Alaves,Villarreal,9,8,False
 SP1,1819,2018-10-28,Barcelona,Ath Madrid,8,1,False
+SP1,1819,2018-10-28,Sevilla,Huesca,8,7,False
+SP1,1819,2018-10-28,Getafe,Betis,7,7,False
 SP1,1819,2018-11-03,Levante,Ath Madrid,1,6,False
-SP1,1819,2018-11-03,Ath Madrid,Valladolid,6,8,False
+SP1,1819,2018-11-03,CD Leganes,Ath Madrid,14,6,False
 SP1,1819,2018-11-03,Vallecano,Barcelona,7,1,False
 SP1,1819,2018-11-03,Valencia,Girona,1,1,False
-SP1,1819,2018-11-04,Betis,Celta,7,1,False
+SP1,1819,2018-11-03,Ath Madrid,Valladolid,6,8,False
+SP1,1819,2018-11-04,Eibar,Alaves,8,7,False
 SP1,1819,2018-11-04,Villarreal,Levante,1,1,False
 SP1,1819,2018-11-04,Sociedad,Sevilla,1,2,False
+SP1,1819,2018-11-04,Betis,Celta,7,1,False
 SP1,1819,2018-11-04,Huesca,Getafe,7,2,False
-SP1,1819,2018-11-04,Eibar,Alaves,8,7,False
 SP1,1819,2018-11-05,Espanol,Ath Bilbao,2,2,False
 SP1,1819,2018-11-09,Levante,Sociedad,5,5,False
-SP1,1819,2018-11-10,Girona,Levante,7,1,False
 SP1,1819,2018-11-10,Ath Madrid,Ath Bilbao,7,5,False
-SP1,1819,2018-11-10,Valladolid,Eibar,7,6,False
 SP1,1819,2018-11-10,Getafe,Valencia,6,7,False
-SP1,1819,2018-11-11,Sevilla,Espanol,7,6,False
-SP1,1819,2018-11-11,Barcelona,Betis,8,7,False
+SP1,1819,2018-11-10,Girona,Levante,7,1,False
+SP1,1819,2018-11-10,Valladolid,Eibar,7,6,False
 SP1,1819,2018-11-11,Alaves,Huesca,7,7,False
+SP1,1819,2018-11-11,Barcelona,Betis,8,7,False
+SP1,1819,2018-11-11,Sevilla,Espanol,7,6,False
 SP1,1819,2018-11-11,Celta,Ath Madrid,7,1,False
 SP1,1819,2018-11-11,Vallecano,Villarreal,8,7,False
 SP1,1819,2018-11-23,Levante,Alaves,13,12,False
-SP1,1819,2018-11-24,Huesca,Levante,13,1,False
 SP1,1819,2018-11-24,Valencia,Vallecano,14,13,False
 SP1,1819,2018-11-24,Eibar,Ath Madrid,14,13,False
 SP1,1819,2018-11-24,Ath Madrid,Barcelona,13,13,False
-SP1,1819,2018-11-25,Espanol,Girona,14,15,False
+SP1,1819,2018-11-24,Huesca,Levante,13,1,False
 SP1,1819,2018-11-25,Villarreal,Betis,14,14,False
+SP1,1819,2018-11-25,Espanol,Girona,14,15,False
 SP1,1819,2018-11-25,Sevilla,Valladolid,14,15,False
 SP1,1819,2018-11-25,Ath Bilbao,Getafe,15,15,False
 SP1,1819,2018-11-26,Sociedad,Celta,17,15,False
 SP1,1819,2018-11-30,Vallecano,Eibar,6,6,False
 SP1,1819,2018-12-01,Celta,Huesca,5,7,False
-SP1,1819,2018-12-01,Valladolid,Levante,6,7,False
 SP1,1819,2018-12-01,Getafe,Espanol,6,6,False
 SP1,1819,2018-12-01,Ath Madrid,Valencia,7,7,False
+SP1,1819,2018-12-01,Valladolid,CD Leganes,6,28,False
+SP1,1819,2018-12-01,Valladolid,Levante,6,7,False
 SP1,1819,2018-12-02,Betis,Sociedad,7,6,False
-SP1,1819,2018-12-02,Barcelona,Villarreal,8,7,False
 SP1,1819,2018-12-02,Girona,Ath Madrid,7,1,False
 SP1,1819,2018-12-02,Alaves,Sevilla,9,7,False
+SP1,1819,2018-12-02,Barcelona,Villarreal,8,7,False
 SP1,1819,2018-12-03,Levante,Ath Bilbao,2,8,False
+SP1,1819,2018-12-07,CD Leganes,Getafe,2,2,False
 SP1,1819,2018-12-07,Levante,Getafe,2,2,False
-SP1,1819,2018-12-08,Espanol,Barcelona,7,6,False
 SP1,1819,2018-12-08,Villarreal,Celta,3,3,False
-SP1,1819,2018-12-08,Valencia,Sevilla,3,3,False
 SP1,1819,2018-12-08,Ath Madrid,Alaves,3,3,False
+SP1,1819,2018-12-08,Espanol,Barcelona,7,6,False
+SP1,1819,2018-12-08,Valencia,Sevilla,3,3,False
 SP1,1819,2018-12-09,Eibar,Levante,4,2,False
-SP1,1819,2018-12-09,Betis,Vallecano,4,9,False
-SP1,1819,2018-12-09,Huesca,Ath Madrid,8,1,False
 SP1,1819,2018-12-09,Sociedad,Valladolid,4,8,False
+SP1,1819,2018-12-09,Huesca,Ath Madrid,8,1,False
+SP1,1819,2018-12-09,Betis,Vallecano,4,9,False
 SP1,1819,2018-12-10,Ath Bilbao,Girona,5,5,False
 SP1,1819,2018-12-14,Celta,Levante,6,5,False
 SP1,1819,2018-12-15,Valladolid,Ath Madrid,6,6,False
-SP1,1819,2018-12-15,Eibar,Valencia,6,7,False
 SP1,1819,2018-12-15,Ath Madrid,Vallecano,6,6,False
+SP1,1819,2018-12-15,Eibar,Valencia,6,7,False
 SP1,1819,2018-12-15,Getafe,Sociedad,8,6,False
-SP1,1819,2018-12-16,Huesca,Villarreal,7,8,False
-SP1,1819,2018-12-16,Espanol,Betis,8,7,False
-SP1,1819,2018-12-16,Levante,Barcelona,2,8,False
 SP1,1819,2018-12-16,Sevilla,Girona,8,6,False
+SP1,1819,2018-12-16,Levante,Barcelona,2,8,False
+SP1,1819,2018-12-16,Espanol,Betis,8,7,False
+SP1,1819,2018-12-16,Huesca,Villarreal,7,8,False
 SP1,1819,2018-12-17,Alaves,Ath Bilbao,9,7,False
-SP1,1819,2018-12-21,Sociedad,Alaves,6,4,False
 SP1,1819,2018-12-21,Girona,Getafe,5,6,False
+SP1,1819,2018-12-21,Sociedad,Alaves,6,4,False
+SP1,1819,2018-12-22,Ath Madrid,Espanol,7,6,False
 SP1,1819,2018-12-22,Barcelona,Celta,6,8,False
 SP1,1819,2018-12-22,Betis,Eibar,6,7,False
 SP1,1819,2018-12-22,Ath Bilbao,Valladolid,5,7,False
-SP1,1819,2018-12-22,Ath Madrid,Espanol,7,6,False
-SP1,1819,2018-12-23,Vallecano,Levante,8,7,False
-SP1,1819,2018-12-23,Valencia,Huesca,8,7,False
+SP1,1819,2018-12-23,CD Leganes,Sevilla,16,7,False
 SP1,1819,2018-12-23,Levante,Sevilla,7,7,False
+SP1,1819,2018-12-23,Valencia,Huesca,8,7,False
+SP1,1819,2018-12-23,Vallecano,Levante,8,7,False
 SP1,1819,2019-01-03,Villarreal,Ath Madrid,18,12,True
-SP1,1819,2019-01-04,Levante,Girona,12,14,False
 SP1,1819,2019-01-04,Espanol,Levante,13,12,False
-SP1,1819,2019-01-05,Alaves,Valencia,15,13,False
+SP1,1819,2019-01-04,Levante,Girona,12,14,False
 SP1,1819,2019-01-05,Huesca,Betis,13,14,False
+SP1,1819,2019-01-05,Alaves,Valencia,15,13,False
 SP1,1819,2019-01-05,Valladolid,Vallecano,14,13,False
 SP1,1819,2019-01-06,Ath Madrid,Sociedad,3,16,False
-SP1,1819,2019-01-06,Sevilla,Ath Madrid,14,3,False
 SP1,1819,2019-01-06,Getafe,Barcelona,16,15,False
 SP1,1819,2019-01-06,Eibar,Villarreal,15,3,False
+SP1,1819,2019-01-06,Sevilla,Ath Madrid,14,3,False
 SP1,1819,2019-01-07,Celta,Ath Bilbao,16,16,False
 SP1,1819,2019-01-11,Vallecano,Celta,6,4,False
 SP1,1819,2019-01-12,Villarreal,Getafe,6,6,False
-SP1,1819,2019-01-12,Valencia,Valladolid,7,7,False
-SP1,1819,2019-01-12,Girona,Alaves,8,7,False
 SP1,1819,2019-01-12,Levante,Huesca,8,7,False
+SP1,1819,2019-01-12,Girona,Alaves,8,7,False
+SP1,1819,2019-01-12,Valencia,Valladolid,7,7,False
 SP1,1819,2019-01-13,Betis,Ath Madrid,8,7,False
 SP1,1819,2019-01-13,Barcelona,Eibar,7,7,False
-SP1,1819,2019-01-13,Ath Madrid,Levante,7,1,False
 SP1,1819,2019-01-13,Ath Bilbao,Sevilla,6,7,False
+SP1,1819,2019-01-13,Ath Madrid,Levante,7,1,False
 SP1,1819,2019-01-14,Sociedad,Espanol,8,10,False
 SP1,1819,2019-01-18,Getafe,Alaves,6,6,False
 SP1,1819,2019-01-19,Ath Madrid,Sevilla,6,6,False
-SP1,1819,2019-01-19,Celta,Valencia,8,7,False
 SP1,1819,2019-01-19,Huesca,Ath Madrid,7,6,False
+SP1,1819,2019-01-19,Celta,Valencia,8,7,False
+SP1,1819,2019-01-20,Villarreal,Ath Bilbao,8,7,False
 SP1,1819,2019-01-20,Barcelona,Levante,7,7,False
 SP1,1819,2019-01-20,Betis,Girona,7,8,False
 SP1,1819,2019-01-20,Vallecano,Sociedad,9,6,False
+SP1,1819,2019-01-20,Barcelona,CD Leganes,7,28,False
 SP1,1819,2019-01-20,Levante,Valladolid,7,8,False
-SP1,1819,2019-01-20,Villarreal,Ath Bilbao,8,7,False
 SP1,1819,2019-01-21,Eibar,Espanol,8,7,False
-SP1,1819,2019-01-26,Valencia,Villarreal,7,6,False
-SP1,1819,2019-01-26,Levante,Eibar,6,5,False
 SP1,1819,2019-01-26,Sevilla,Levante,7,6,False
 SP1,1819,2019-01-26,Ath Madrid,Getafe,7,8,False
+SP1,1819,2019-01-26,Valencia,Villarreal,7,6,False
+SP1,1819,2019-01-26,Levante,Eibar,6,5,False
+SP1,1819,2019-01-26,CD Leganes,Eibar,6,5,False
 SP1,1819,2019-01-27,Espanol,Ath Madrid,6,1,False
-SP1,1819,2019-01-27,Valladolid,Celta,7,8,False
+SP1,1819,2019-01-27,Sociedad,Huesca,7,8,False
 SP1,1819,2019-01-27,Ath Bilbao,Betis,7,7,False
 SP1,1819,2019-01-27,Girona,Barcelona,7,7,False
-SP1,1819,2019-01-27,Sociedad,Huesca,7,8,False
+SP1,1819,2019-01-27,Valladolid,Celta,7,8,False
 SP1,1819,2019-01-28,Alaves,Vallecano,10,8,False
 SP1,1819,2019-02-01,Huesca,Valladolid,5,5,False
 SP1,1819,2019-02-02,Levante,Getafe,7,7,False
 SP1,1819,2019-02-02,Celta,Sevilla,6,7,False
-SP1,1819,2019-02-02,Sociedad,Ath Bilbao,6,6,False
 SP1,1819,2019-02-02,Barcelona,Valencia,6,7,False
+SP1,1819,2019-02-02,Sociedad,Ath Bilbao,6,6,False
 SP1,1819,2019-02-03,Villarreal,Espanol,8,7,False
-SP1,1819,2019-02-03,Betis,Ath Madrid,7,7,False
-SP1,1819,2019-02-03,Eibar,Girona,8,7,False
 SP1,1819,2019-02-03,Ath Madrid,Alaves,7,6,False
+SP1,1819,2019-02-03,Eibar,Girona,8,7,False
+SP1,1819,2019-02-03,Betis,Ath Madrid,7,7,False
 SP1,1819,2019-02-04,Vallecano,Levante,7,2,False
+SP1,1819,2019-02-04,Vallecano,CD Leganes,7,9,False
 SP1,1819,2019-02-08,Valladolid,Villarreal,7,5,False
-SP1,1819,2019-02-09,Ath Madrid,Ath Madrid,6,6,False
-SP1,1819,2019-02-09,Espanol,Vallecano,6,5,False
-SP1,1819,2019-02-09,Getafe,Celta,7,7,False
 SP1,1819,2019-02-09,Girona,Huesca,6,8,False
-SP1,1819,2019-02-10,Levante,Betis,6,7,False
+SP1,1819,2019-02-09,Getafe,Celta,7,7,False
+SP1,1819,2019-02-09,Espanol,Vallecano,6,5,False
+SP1,1819,2019-02-09,Ath Madrid,Ath Madrid,6,6,False
 SP1,1819,2019-02-10,Valencia,Sociedad,8,8,False
 SP1,1819,2019-02-10,Sevilla,Eibar,8,7,False
+SP1,1819,2019-02-10,Levante,Betis,6,7,False
 SP1,1819,2019-02-10,Ath Bilbao,Barcelona,8,8,False
 SP1,1819,2019-02-11,Alaves,Levante,8,1,False
 SP1,1819,2019-02-15,Eibar,Getafe,5,6,False
-SP1,1819,2019-02-16,Vallecano,Ath Madrid,7,7,False
-SP1,1819,2019-02-16,Celta,Levante,7,5,False
 SP1,1819,2019-02-16,Barcelona,Valladolid,6,8,False
 SP1,1819,2019-02-16,Sociedad,Levante,6,5,False
-SP1,1819,2019-02-17,Ath Madrid,Girona,1,8,False
-SP1,1819,2019-02-17,Betis,Alaves,7,6,False
+SP1,1819,2019-02-16,Vallecano,Ath Madrid,7,7,False
+SP1,1819,2019-02-16,Celta,Levante,7,5,False
 SP1,1819,2019-02-17,Valencia,Espanol,7,8,False
 SP1,1819,2019-02-17,Villarreal,Sevilla,9,7,False
+SP1,1819,2019-02-17,Betis,Alaves,7,6,False
+SP1,1819,2019-02-17,Ath Madrid,Girona,1,8,False
 SP1,1819,2019-02-18,Huesca,Ath Bilbao,9,8,False
 SP1,1819,2019-02-22,Espanol,Huesca,5,4,False
 SP1,1819,2019-02-23,Ath Bilbao,Eibar,5,8,False
-SP1,1819,2019-02-23,Getafe,Vallecano,8,7,False
-SP1,1819,2019-02-23,Sevilla,Barcelona,6,7,False
 SP1,1819,2019-02-23,Alaves,Celta,6,7,False
+SP1,1819,2019-02-23,Sevilla,Barcelona,6,7,False
+SP1,1819,2019-02-23,Getafe,Vallecano,8,7,False
+SP1,1819,2019-02-24,CD Leganes,Valencia,20,7,False
+SP1,1819,2019-02-24,Levante,Valencia,8,7,False
+SP1,1819,2019-02-24,Levante,Ath Madrid,8,7,False
 SP1,1819,2019-02-24,Ath Madrid,Villarreal,7,7,False
 SP1,1819,2019-02-24,Valladolid,Betis,8,7,False
-SP1,1819,2019-02-24,Levante,Ath Madrid,8,7,False
-SP1,1819,2019-02-24,Levante,Valencia,8,7,False
 SP1,1819,2019-02-25,Girona,Sociedad,8,9,False
 SP1,1819,2019-03-01,Vallecano,Girona,6,4,False
-SP1,1819,2019-03-02,Villarreal,Alaves,6,7,False
-SP1,1819,2019-03-02,Espanol,Valladolid,8,6,False
 SP1,1819,2019-03-02,Ath Madrid,Barcelona,6,7,False
+SP1,1819,2019-03-02,Espanol,Valladolid,8,6,False
 SP1,1819,2019-03-02,Huesca,Sevilla,8,7,False
+SP1,1819,2019-03-02,Villarreal,Alaves,6,7,False
 SP1,1819,2019-03-03,Betis,Getafe,7,8,False
 SP1,1819,2019-03-03,Valencia,Ath Bilbao,7,8,False
 SP1,1819,2019-03-03,Sociedad,Ath Madrid,6,1,False
 SP1,1819,2019-03-03,Eibar,Celta,8,8,False
 SP1,1819,2019-03-04,Levante,Levante,8,8,False
 SP1,1819,2019-03-08,Ath Bilbao,Espanol,5,6,False
-SP1,1819,2019-03-09,Ath Madrid,Levante,6,5,False
+SP1,1819,2019-03-09,Getafe,Huesca,6,7,False
 SP1,1819,2019-03-09,Barcelona,Vallecano,7,8,False
 SP1,1819,2019-03-09,Alaves,Eibar,7,6,False
-SP1,1819,2019-03-09,Getafe,Huesca,6,7,False
+SP1,1819,2019-03-09,Ath Madrid,Levante,6,5,False
 SP1,1819,2019-03-10,Valladolid,Ath Madrid,8,1,False
-SP1,1819,2019-03-10,Sevilla,Sociedad,8,7,False
-SP1,1819,2019-03-10,Girona,Valencia,9,7,False
-SP1,1819,2019-03-10,Levante,Villarreal,1,8,False
 SP1,1819,2019-03-10,Celta,Betis,7,7,False
+SP1,1819,2019-03-10,Levante,Villarreal,1,8,False
+SP1,1819,2019-03-10,Girona,Valencia,9,7,False
+SP1,1819,2019-03-10,Sevilla,Sociedad,8,7,False
 SP1,1819,2019-03-15,Sociedad,Levante,5,5,False
 SP1,1819,2019-03-16,Huesca,Alaves,7,7,False
-SP1,1819,2019-03-16,Ath Bilbao,Ath Madrid,8,6,False
-SP1,1819,2019-03-16,Levante,Girona,1,6,False
 SP1,1819,2019-03-16,Ath Madrid,Celta,6,6,False
-SP1,1819,2019-03-17,Betis,Barcelona,7,8,False
-SP1,1819,2019-03-17,Eibar,Valladolid,8,7,False
+SP1,1819,2019-03-16,Levante,Girona,1,6,False
+SP1,1819,2019-03-16,Ath Bilbao,Ath Madrid,8,6,False
 SP1,1819,2019-03-17,Valencia,Getafe,7,8,False
+SP1,1819,2019-03-17,Eibar,Valladolid,8,7,False
 SP1,1819,2019-03-17,Villarreal,Vallecano,7,8,False
 SP1,1819,2019-03-17,Espanol,Sevilla,9,7,False
+SP1,1819,2019-03-17,Betis,Barcelona,7,8,False
 SP1,1819,2019-03-29,Girona,Ath Bilbao,13,13,False
-SP1,1819,2019-03-30,Barcelona,Espanol,13,13,False
 SP1,1819,2019-03-30,Celta,Villarreal,14,13,False
+SP1,1819,2019-03-30,Barcelona,Espanol,13,13,False
 SP1,1819,2019-03-30,Getafe,Levante,13,14,False
 SP1,1819,2019-03-30,Alaves,Ath Madrid,14,14,False
-SP1,1819,2019-03-31,Levante,Eibar,1,14,False
+SP1,1819,2019-03-31,Sevilla,Valencia,14,14,False
 SP1,1819,2019-03-31,Vallecano,Betis,14,14,False
 SP1,1819,2019-03-31,Valladolid,Sociedad,14,16,False
 SP1,1819,2019-03-31,Ath Madrid,Huesca,1,15,False
-SP1,1819,2019-03-31,Sevilla,Valencia,14,14,False
+SP1,1819,2019-03-31,Levante,Eibar,1,14,False
 SP1,1819,2019-04-02,Villarreal,Barcelona,3,3,True
-SP1,1819,2019-04-02,Ath Madrid,Girona,2,4,True
 SP1,1819,2019-04-02,Espanol,Getafe,3,3,True
-SP1,1819,2019-04-03,Valencia,Ath Madrid,3,1,True
+SP1,1819,2019-04-02,Ath Madrid,Girona,2,4,True
 SP1,1819,2019-04-03,Eibar,Vallecano,3,3,True
-SP1,1819,2019-04-03,Ath Bilbao,Levante,5,3,True
 SP1,1819,2019-04-03,Huesca,Celta,3,4,True
+SP1,1819,2019-04-03,Valencia,Ath Madrid,3,1,True
+SP1,1819,2019-04-03,Ath Bilbao,Levante,5,3,True
 SP1,1819,2019-04-04,Sociedad,Betis,4,4,True
 SP1,1819,2019-04-04,Levante,Valladolid,1,4,True
 SP1,1819,2019-04-04,Sevilla,Alaves,4,5,True
-SP1,1819,2019-04-06,Girona,Espanol,4,4,False
 SP1,1819,2019-04-06,Ath Madrid,Eibar,3,3,False
+SP1,1819,2019-04-06,Girona,Espanol,4,4,False
 SP1,1819,2019-04-06,Vallecano,Valencia,3,3,False
 SP1,1819,2019-04-06,Barcelona,Ath Madrid,4,3,False
-SP1,1819,2019-04-07,Valladolid,Sevilla,3,3,False
 SP1,1819,2019-04-07,Levante,Huesca,3,4,False
+SP1,1819,2019-04-07,Alaves,CD Leganes,3,42,False
+SP1,1819,2019-04-07,Valladolid,Sevilla,3,3,False
 SP1,1819,2019-04-07,Getafe,Ath Bilbao,5,4,False
-SP1,1819,2019-04-07,Alaves,Levante,3,3,False
-SP1,1819,2019-04-07,Betis,Villarreal,3,5,False
 SP1,1819,2019-04-07,Celta,Sociedad,4,3,False
-SP1,1819,2019-04-13,Espanol,Alaves,7,6,False
+SP1,1819,2019-04-07,Betis,Villarreal,3,5,False
+SP1,1819,2019-04-07,Alaves,Levante,3,3,False
 SP1,1819,2019-04-13,Sevilla,Betis,6,6,False
-SP1,1819,2019-04-13,Huesca,Barcelona,6,7,False
 SP1,1819,2019-04-13,Ath Madrid,Celta,7,6,False
-SP1,1819,2019-04-14,Valladolid,Getafe,7,7,False
+SP1,1819,2019-04-13,Espanol,Alaves,7,6,False
+SP1,1819,2019-04-13,Huesca,Barcelona,6,7,False
 SP1,1819,2019-04-14,Ath Bilbao,Vallecano,7,8,False
+SP1,1819,2019-04-14,Valladolid,Getafe,7,7,False
+SP1,1819,2019-04-14,Valencia,Levante,8,7,False
 SP1,1819,2019-04-14,Girona,Villarreal,8,7,False
 SP1,1819,2019-04-14,Sociedad,Eibar,7,8,False
-SP1,1819,2019-04-14,Valencia,Levante,8,7,False
 SP1,1819,2019-04-15,Levante,Ath Madrid,1,2,False
+SP1,1819,2019-04-15,CD Leganes,Ath Madrid,8,2,False
 SP1,1819,2019-04-19,Alaves,Valladolid,6,5,False
 SP1,1819,2019-04-20,Vallecano,Huesca,6,7,False
+SP1,1819,2019-04-20,Eibar,Ath Madrid,6,5,False
 SP1,1819,2019-04-20,Barcelona,Sociedad,7,6,False
 SP1,1819,2019-04-20,Celta,Girona,7,6,False
-SP1,1819,2019-04-20,Eibar,Ath Madrid,6,5,False
+SP1,1819,2019-04-21,Villarreal,CD Leganes,7,6,False
 SP1,1819,2019-04-21,Ath Madrid,Ath Bilbao,1,7,False
-SP1,1819,2019-04-21,Villarreal,Levante,7,6,False
-SP1,1819,2019-04-21,Levante,Espanol,6,8,False
-SP1,1819,2019-04-21,Betis,Valencia,8,7,False
 SP1,1819,2019-04-21,Getafe,Sevilla,7,8,False
-SP1,1819,2019-04-23,Valladolid,Girona,4,3,True
+SP1,1819,2019-04-21,Betis,Valencia,8,7,False
+SP1,1819,2019-04-21,Levante,Espanol,6,8,False
+SP1,1819,2019-04-21,Villarreal,Levante,7,6,False
 SP1,1819,2019-04-23,Alaves,Barcelona,4,3,True
+SP1,1819,2019-04-23,Valladolid,Girona,4,3,True
 SP1,1819,2019-04-23,Huesca,Eibar,3,3,True
-SP1,1819,2019-04-24,Levante,Ath Bilbao,3,3,True
 SP1,1819,2019-04-24,Espanol,Celta,3,4,True
 SP1,1819,2019-04-24,Ath Madrid,Valencia,3,3,True
 SP1,1819,2019-04-24,Levante,Betis,3,3,True
+SP1,1819,2019-04-24,Levante,Ath Bilbao,3,3,True
+SP1,1819,2019-04-25,Sevilla,Vallecano,4,5,True
 SP1,1819,2019-04-25,Getafe,Ath Madrid,4,1,True
 SP1,1819,2019-04-25,Sociedad,Villarreal,5,4,True
-SP1,1819,2019-04-25,Sevilla,Vallecano,4,5,True
-SP1,1819,2019-04-27,Levante,Celta,3,3,False
-SP1,1819,2019-04-27,Ath Madrid,Valladolid,2,4,False
 SP1,1819,2019-04-27,Ath Bilbao,Alaves,3,4,False
+SP1,1819,2019-04-27,Ath Madrid,Valladolid,2,4,False
 SP1,1819,2019-04-27,Barcelona,Levante,4,3,False
-SP1,1819,2019-04-28,Vallecano,Ath Madrid,3,1,False
-SP1,1819,2019-04-28,Girona,Sevilla,5,3,False
+SP1,1819,2019-04-27,Levante,Celta,3,3,False
 SP1,1819,2019-04-28,Sociedad,Getafe,3,3,False
+SP1,1819,2019-04-28,Girona,Sevilla,5,3,False
 SP1,1819,2019-04-28,Valencia,Eibar,4,5,False
+SP1,1819,2019-04-28,Vallecano,Ath Madrid,3,1,False
 SP1,1819,2019-04-28,Villarreal,Huesca,3,5,False
 SP1,1819,2019-04-29,Betis,Espanol,5,5,False
 SP1,1819,2019-05-03,Sevilla,Levante,5,6,False
-SP1,1819,2019-05-04,Alaves,Sociedad,7,6,False
 SP1,1819,2019-05-04,Celta,Barcelona,7,7,False
-SP1,1819,2019-05-04,Espanol,Ath Madrid,5,6,False
+SP1,1819,2019-05-04,Alaves,Sociedad,7,6,False
 SP1,1819,2019-05-04,Levante,Vallecano,1,6,False
-SP1,1819,2019-05-05,Huesca,Valencia,7,7,False
-SP1,1819,2019-05-05,Ath Madrid,Villarreal,1,7,False
+SP1,1819,2019-05-04,Espanol,Ath Madrid,5,6,False
+SP1,1819,2019-05-05,Valladolid,Ath Bilbao,8,8,False
 SP1,1819,2019-05-05,Eibar,Betis,7,6,False
 SP1,1819,2019-05-05,Getafe,Girona,7,7,False
-SP1,1819,2019-05-05,Valladolid,Ath Bilbao,8,8,False
-SP1,1819,2019-05-12,Girona,Levante,7,8,False
+SP1,1819,2019-05-05,Huesca,Valencia,7,7,False
+SP1,1819,2019-05-05,Ath Madrid,Villarreal,1,7,False
 SP1,1819,2019-05-12,Betis,Huesca,7,7,False
+SP1,1819,2019-05-12,Girona,Levante,7,8,False
 SP1,1819,2019-05-12,Sociedad,Ath Madrid,8,7,False
 SP1,1819,2019-05-12,Valencia,Alaves,7,8,False
 SP1,1819,2019-05-12,Vallecano,Valladolid,8,7,False
-SP1,1819,2019-05-12,Barcelona,Getafe,8,7,False
 SP1,1819,2019-05-12,Levante,Espanol,8,8,False
+SP1,1819,2019-05-12,Barcelona,Getafe,8,7,False
 SP1,1819,2019-05-12,Villarreal,Eibar,7,7,False
 SP1,1819,2019-05-12,Ath Bilbao,Celta,7,8,False
 SP1,1819,2019-05-12,Ath Madrid,Sevilla,7,9,False
-SP1,1819,2019-05-18,Huesca,Levante,6,6,False
-SP1,1819,2019-05-18,Espanol,Sociedad,6,6,False
-SP1,1819,2019-05-18,Sevilla,Ath Bilbao,6,6,False
+SP1,1819,2019-05-18,Huesca,CD Leganes,6,27,False
 SP1,1819,2019-05-18,Valladolid,Valencia,6,6,False
+SP1,1819,2019-05-18,Sevilla,Ath Bilbao,6,6,False
+SP1,1819,2019-05-18,Espanol,Sociedad,6,6,False
+SP1,1819,2019-05-18,Levante,Ath Madrid,6,6,False
 SP1,1819,2019-05-18,Alaves,Girona,6,6,False
 SP1,1819,2019-05-18,Celta,Vallecano,6,6,False
 SP1,1819,2019-05-18,Getafe,Villarreal,6,6,False
-SP1,1819,2019-05-18,Levante,Ath Madrid,6,6,False
-SP1,1819,2019-05-19,Eibar,Barcelona,7,7,False
+SP1,1819,2019-05-18,Huesca,Levante,6,6,False
 SP1,1819,2019-05-19,Ath Madrid,Betis,1,7,False
+SP1,1819,2019-05-19,Eibar,Barcelona,7,7,False

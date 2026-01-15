@@ -1,0 +1,503 @@
+league_code,season,match_date,home_team,away_team,temperature,rainfall,wind_speed,weather_draw_index
+E1,2324,2023-08-04,Sheffield United,Southampton,19.1,0.0,15.0,1.15
+E1,2324,2023-08-05,Stoke,Rotherham,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Swansea,Birmingham,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Norwich,Hull,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Middlesbrough,Millwall,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Bristol City,Preston,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Watford,QPR,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Plymouth,Huddersfield,18.0,1.1,6.0,1.093
+E1,2324,2023-08-05,Blackburn,West Brom,18.0,1.1,6.0,1.093
+E1,2324,2023-08-06,Sunderland,Ipswich,18.5,0.0,18.3,1.15
+E1,2324,2023-08-06,Leicester,Coventry,18.5,0.0,18.3,1.15
+E1,2324,2023-08-06,Leeds,Cardiff,18.5,0.0,18.3,1.15
+E1,2324,2023-08-12,Cardiff,QPR,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Birmingham,Leeds,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Coventry,Middlesbrough,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Huddersfield,Leicester,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Hull,Sheffield United,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Ipswich,Stoke,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Millwall,Bristol City,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Preston,Sunderland,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Rotherham,Blackburn,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Southampton,Norwich,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,Watford,Plymouth,20.2,0.0,29.3,1.15
+E1,2324,2023-08-12,West Brom,Swansea,20.2,0.0,29.3,1.15
+E1,2324,2023-08-18,Leeds,West Brom,24.8,0.0,21.3,1.15
+E1,2324,2023-08-19,Blackburn,Hull,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Plymouth,Southampton,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Bristol City,Birmingham,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Leicester,Cardiff,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Middlesbrough,Huddersfield,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,QPR,Ipswich,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Sheffield United,Preston,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Stoke,Watford,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Sunderland,Rotherham,22.8,0.0,27.8,1.15
+E1,2324,2023-08-19,Swansea,Coventry,22.8,0.0,27.8,1.15
+E1,2324,2023-08-20,Norwich,Millwall,24.0,0.0,17.9,1.15
+E1,2324,2023-08-25,Hull,Bristol City,19.5,0.0,14.1,1.141
+E1,2324,2023-08-26,Coventry,Sunderland,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Huddersfield,Norwich,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Ipswich,Leeds,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Millwall,Stoke,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Preston,Swansea,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Rotherham,Leicester,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Southampton,QPR,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,West Brom,Middlesbrough,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Birmingham,Plymouth,17.2,0.3,17.2,1.15
+E1,2324,2023-08-26,Cardiff,Sheffield United,17.2,0.3,17.2,1.15
+E1,2324,2023-08-27,Watford,Blackburn,18.9,0.0,20.3,1.15
+E1,2324,2023-09-02,Swansea,Bristol City,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Coventry,Watford,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Ipswich,Cardiff,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Leeds,Sheffield United,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Leicester,Hull,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Middlesbrough,QPR,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Sunderland,Southampton,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Rotherham,Norwich,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Stoke,Preston,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,West Brom,Huddersfield,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Plymouth,Blackburn,23.0,0.0,14.1,1.141
+E1,2324,2023-09-02,Birmingham,Millwall,23.0,0.0,14.1,1.141
+E1,2324,2023-09-15,Hull,Coventry,24.9,0.0,13.2,1.132
+E1,2324,2023-09-15,Southampton,Leicester,24.9,0.0,13.2,1.132
+E1,2324,2023-09-16,Sheffield United,Ipswich,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Blackburn,Middlesbrough,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Bristol City,West Brom,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Huddersfield,Rotherham,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Norwich,Stoke,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Preston,Plymouth,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,QPR,Sunderland,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Watford,Birmingham,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-16,Cardiff,Swansea,25.5,0.0,12.8,1.1280000000000001
+E1,2324,2023-09-17,Millwall,Leeds,20.3,0.0,17.5,1.15
+E1,2324,2023-09-19,Sheffield United,Middlesbrough,18.6,0.1,28.7,1.15
+E1,2324,2023-09-19,Southampton,Ipswich,18.6,0.1,28.7,1.15
+E1,2324,2023-09-19,Cardiff,Coventry,18.6,0.1,28.7,1.15
+E1,2324,2023-09-19,Bristol City,Plymouth,18.6,0.1,28.7,1.15
+E1,2324,2023-09-19,Preston,Birmingham,18.6,0.1,28.7,1.15
+E1,2324,2023-09-19,QPR,Swansea,18.6,0.1,28.7,1.15
+E1,2324,2023-09-20,Watford,West Brom,18.0,2.6,29.8,1.15
+E1,2324,2023-09-20,Blackburn,Sunderland,18.0,2.6,29.8,1.15
+E1,2324,2023-09-20,Norwich,Leicester,18.0,2.6,29.8,1.15
+E1,2324,2023-09-20,Huddersfield,Stoke,18.0,2.6,29.8,1.15
+E1,2324,2023-09-20,Hull,Leeds,18.0,2.6,29.8,1.15
+E1,2324,2023-09-20,Millwall,Rotherham,18.0,2.6,29.8,1.15
+E1,2324,2023-09-22,Birmingham,QPR,14.4,0.5,19.1,1.15
+E1,2324,2023-09-23,Leicester,Bristol City,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Middlesbrough,Southampton,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Plymouth,Norwich,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Rotherham,Preston,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Swansea,Sheffield United,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,West Brom,Millwall,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Ipswich,Blackburn,17.0,0.0,15.6,1.15
+E1,2324,2023-09-23,Leeds,Watford,17.0,0.0,15.6,1.15
+E1,2324,2023-09-24,Stoke,Hull,19.5,0.0,30.6,1.15
+E1,2324,2023-09-24,Sunderland,Cardiff,19.5,0.0,30.6,1.15
+E1,2324,2023-09-25,Coventry,Huddersfield,21.4,0.0,16.1,1.15
+E1,2324,2023-09-29,Sheffield United,Sunderland,18.8,0.0,18.0,1.15
+E1,2324,2023-09-30,Norwich,Birmingham,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Southampton,Leeds,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Bristol City,Stoke,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Cardiff,Rotherham,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Huddersfield,Ipswich,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Hull,Plymouth,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Millwall,Swansea,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Preston,West Brom,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,QPR,Coventry,18.6,0.0,19.0,1.15
+E1,2324,2023-09-30,Watford,Middlesbrough,18.6,0.0,19.0,1.15
+E1,2324,2023-10-01,Blackburn,Leicester,22.4,0.0,18.2,1.15
+E1,2324,2023-10-03,Middlesbrough,Cardiff,17.6,0.0,23.6,1.15
+E1,2324,2023-10-03,Plymouth,Millwall,17.6,0.0,23.6,1.15
+E1,2324,2023-10-03,Stoke,Southampton,17.6,0.0,23.6,1.15
+E1,2324,2023-10-03,West Brom,Sheffield United,17.6,0.0,23.6,1.15
+E1,2324,2023-10-03,Ipswich,Hull,17.6,0.0,23.6,1.15
+E1,2324,2023-10-03,Birmingham,Huddersfield,17.6,0.0,23.6,1.15
+E1,2324,2023-10-04,Leicester,Preston,17.5,0.0,23.6,1.15
+E1,2324,2023-10-04,Sunderland,Watford,17.5,0.0,23.6,1.15
+E1,2324,2023-10-04,Swansea,Norwich,17.5,0.0,23.6,1.15
+E1,2324,2023-10-04,Rotherham,Bristol City,17.5,0.0,23.6,1.15
+E1,2324,2023-10-04,Coventry,Blackburn,17.5,0.0,23.6,1.15
+E1,2324,2023-10-04,Leeds,QPR,17.5,0.0,23.6,1.15
+E1,2324,2023-10-06,Birmingham,West Brom,20.8,0.0,20.6,1.15
+E1,2324,2023-10-07,Coventry,Norwich,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Ipswich,Preston,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Leeds,Bristol City,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Leicester,Stoke,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Millwall,Hull,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Plymouth,Swansea,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,QPR,Blackburn,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Sheffield United,Huddersfield,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Southampton,Rotherham,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Cardiff,Watford,22.6,0.0,20.4,1.15
+E1,2324,2023-10-07,Sunderland,Middlesbrough,22.6,0.0,20.4,1.15
+E1,2324,2023-10-21,Swansea,Leicester,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Preston,Millwall,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Blackburn,Cardiff,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Bristol City,Coventry,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Huddersfield,QPR,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Hull,Southampton,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Middlesbrough,Birmingham,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Norwich,Leeds,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Stoke,Sunderland,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,Watford,Sheffield United,15.2,0.1,6.8,1.071
+E1,2324,2023-10-21,West Brom,Plymouth,15.2,0.1,6.8,1.071
+E1,2324,2023-10-24,Swansea,Watford,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-24,West Brom,QPR,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-24,Huddersfield,Cardiff,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-24,Millwall,Blackburn,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-24,Leicester,Sunderland,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-24,Norwich,Middlesbrough,13.7,0.0,12.2,1.1219999999999999
+E1,2324,2023-10-25,Birmingham,Hull,13.2,0.0,9.4,1.094
+E1,2324,2023-10-25,Preston,Southampton,13.2,0.0,9.4,1.094
+E1,2324,2023-10-25,Rotherham,Coventry,13.2,0.0,9.4,1.094
+E1,2324,2023-10-25,Stoke,Leeds,13.2,0.0,9.4,1.094
+E1,2324,2023-10-25,Plymouth,Sheffield United,13.2,0.0,9.4,1.094
+E1,2324,2023-10-25,Bristol City,Ipswich,13.2,0.0,9.4,1.094
+E1,2324,2023-10-28,Blackburn,Swansea,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Cardiff,Bristol City,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Hull,Preston,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Ipswich,Plymouth,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Middlesbrough,Stoke,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,QPR,Leicester,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Sunderland,Norwich,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Watford,Millwall,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Leeds,Huddersfield,13.4,0.0,19.4,1.15
+E1,2324,2023-10-28,Southampton,Birmingham,13.4,0.0,19.4,1.15
+E1,2324,2023-10-29,Sheffield United,Rotherham,12.1,0.0,19.4,1.15
+E1,2324,2023-10-30,Coventry,West Brom,12.1,0.5,10.9,1.124
+E1,2324,2023-11-03,Leicester,Leeds,12.4,0.1,11.8,1.121
+E1,2324,2023-11-04,Huddersfield,Watford,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Millwall,Southampton,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Plymouth,Middlesbrough,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Preston,Coventry,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Rotherham,QPR,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Stoke,Cardiff,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Swansea,Sunderland,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Birmingham,Ipswich,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,West Brom,Hull,11.6,0.0,18.6,1.15
+E1,2324,2023-11-04,Bristol City,Sheffield United,11.6,0.0,18.6,1.15
+E1,2324,2023-11-05,Norwich,Blackburn,12.1,0.0,21.6,1.15
+E1,2324,2023-11-07,Rotherham,Ipswich,11.4,0.0,18.2,1.15
+E1,2324,2023-11-10,Blackburn,Preston,9.0,0.0,19.9,1.15
+E1,2324,2023-11-11,Coventry,Stoke,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Hull,Huddersfield,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Ipswich,Swansea,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Leeds,Plymouth,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Middlesbrough,Leicester,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,QPR,Bristol City,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Sheffield United,Millwall,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Southampton,West Brom,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Watford,Rotherham,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Sunderland,Birmingham,9.7,0.0,4.5,1.045
+E1,2324,2023-11-11,Cardiff,Norwich,9.7,0.0,4.5,1.045
+E1,2324,2023-11-24,Rotherham,Leeds,5.7,0.0,17.9,1.15
+E1,2324,2023-11-25,Huddersfield,Southampton,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Leicester,Watford,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Millwall,Coventry,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Norwich,QPR,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Plymouth,Sunderland,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Preston,Cardiff,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Stoke,Blackburn,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Swansea,Hull,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Bristol City,Middlesbrough,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,West Brom,Ipswich,4.7,0.0,8.9,1.15
+E1,2324,2023-11-25,Birmingham,Sheffield United,4.7,0.0,8.9,1.15
+E1,2324,2023-11-28,Hull,Rotherham,5.9,0.0,10.0,1.1
+E1,2324,2023-11-28,Middlesbrough,Preston,5.9,0.0,10.0,1.1
+E1,2324,2023-11-28,QPR,Stoke,5.9,0.0,10.0,1.1
+E1,2324,2023-11-28,Watford,Norwich,5.9,0.0,10.0,1.1
+E1,2324,2023-11-28,Cardiff,West Brom,5.9,0.0,10.0,1.1
+E1,2324,2023-11-28,Coventry,Plymouth,5.9,0.0,10.0,1.1
+E1,2324,2023-11-29,Leeds,Swansea,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-11-29,Blackburn,Birmingham,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-11-29,Sheffield United,Leicester,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-11-29,Southampton,Bristol City,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-11-29,Sunderland,Huddersfield,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-11-29,Ipswich,Millwall,3.8,0.0,4.4,1.1440000000000001
+E1,2324,2023-12-01,Preston,QPR,3.4,0.0,10.3,1.15
+E1,2324,2023-12-02,Leeds,Middlesbrough,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Millwall,Sunderland,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Plymouth,Stoke,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,West Brom,Leicester,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Sheffield United,Blackburn,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Southampton,Cardiff,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Swansea,Huddersfield,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Birmingham,Rotherham,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Hull,Watford,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-02,Ipswich,Coventry,-0.6,0.0,8.1,1.15
+E1,2324,2023-12-03,Bristol City,Norwich,7.6,0.2,17.0,1.15
+E1,2324,2023-12-08,Coventry,Birmingham,9.9,0.0,17.1,1.15
+E1,2324,2023-12-09,Cardiff,Millwall,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Huddersfield,Bristol City,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Leicester,Plymouth,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Middlesbrough,Ipswich,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Norwich,Preston,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,QPR,Hull,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Rotherham,Swansea,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Blackburn,Leeds,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Watford,Southampton,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Stoke,Sheffield United,10.8,0.0,33.0,1.15
+E1,2324,2023-12-09,Sunderland,West Brom,10.8,0.0,33.0,1.15
+E1,2324,2023-12-12,Rotherham,West Brom,9.7,0.1,18.4,1.15
+E1,2324,2023-12-12,Stoke,Swansea,9.7,0.1,18.4,1.15
+E1,2324,2023-12-12,Watford,Ipswich,9.7,0.1,18.4,1.15
+E1,2324,2023-12-12,Sunderland,Leeds,9.7,0.1,18.4,1.15
+E1,2324,2023-12-12,Huddersfield,Preston,9.7,0.1,18.4,1.15
+E1,2324,2023-12-12,Blackburn,Bristol City,9.7,0.1,18.4,1.15
+E1,2324,2023-12-13,Leicester,Millwall,6.8,0.1,31.3,1.15
+E1,2324,2023-12-13,Cardiff,Birmingham,6.8,0.1,31.3,1.15
+E1,2324,2023-12-13,Coventry,Southampton,6.8,0.1,31.3,1.15
+E1,2324,2023-12-13,Norwich,Sheffield United,6.8,0.1,31.3,1.15
+E1,2324,2023-12-13,QPR,Plymouth,6.8,0.1,31.3,1.15
+E1,2324,2023-12-13,Middlesbrough,Hull,6.8,0.1,31.3,1.15
+E1,2324,2023-12-16,Hull,Cardiff,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Leeds,Coventry,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Millwall,Huddersfield,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Plymouth,Rotherham,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Preston,Watford,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Sheffield United,QPR,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Southampton,Blackburn,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Swansea,Middlesbrough,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Bristol City,Sunderland,11.2,0.0,18.7,1.15
+E1,2324,2023-12-16,Ipswich,Norwich,11.2,0.0,18.7,1.15
+E1,2324,2023-12-17,West Brom,Stoke,9.9,0.0,20.9,1.15
+E1,2324,2023-12-18,Birmingham,Leicester,11.6,0.0,23.2,1.15
+E1,2324,2023-12-22,Bristol City,Hull,10.5,0.0,28.9,1.15
+E1,2324,2023-12-22,Swansea,Preston,10.5,0.0,28.9,1.15
+E1,2324,2023-12-23,Leicester,Rotherham,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Middlesbrough,West Brom,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Norwich,Huddersfield,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Plymouth,Birmingham,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,QPR,Southampton,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Sheffield United,Cardiff,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Stoke,Millwall,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Sunderland,Coventry,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Blackburn,Watford,10.2,0.0,24.8,1.15
+E1,2324,2023-12-23,Leeds,Ipswich,10.2,0.0,24.8,1.15
+E1,2324,2023-12-26,Cardiff,Plymouth,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Preston,Leeds,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Millwall,QPR,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Coventry,Sheffield United,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Huddersfield,Blackburn,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Hull,Sunderland,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Rotherham,Middlesbrough,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Southampton,Swansea,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Watford,Bristol City,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,West Brom,Norwich,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Birmingham,Stoke,7.6,0.0,4.7,1.047
+E1,2324,2023-12-26,Ipswich,Leicester,7.6,0.0,4.7,1.047
+E1,2324,2023-12-29,Hull,Blackburn,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Cardiff,Leicester,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Ipswich,QPR,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Millwall,Norwich,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Preston,Sheffield United,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Southampton,Plymouth,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Birmingham,Bristol City,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Rotherham,Sunderland,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Watford,Stoke,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,West Brom,Leeds,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Coventry,Swansea,9.6,0.0,25.5,1.15
+E1,2324,2023-12-29,Huddersfield,Middlesbrough,9.6,0.0,25.5,1.15
+E1,2324,2024-01-01,Bristol City,Millwall,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Leeds,Birmingham,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Leicester,Huddersfield,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Middlesbrough,Coventry,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Norwich,Southampton,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Plymouth,Watford,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,QPR,Cardiff,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Stoke,Ipswich,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Swansea,West Brom,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Sheffield United,Hull,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Sunderland,Preston,8.5,0.5,14.9,1.15
+E1,2324,2024-01-01,Blackburn,Rotherham,8.5,0.5,14.9,1.15
+E1,2324,2024-01-12,Hull,Norwich,6.1,0.0,11.0,1.11
+E1,2324,2024-01-13,Cardiff,Leeds,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Huddersfield,Plymouth,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Millwall,Middlesbrough,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Preston,Bristol City,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Rotherham,Stoke,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Southampton,Sheffield United,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,West Brom,Blackburn,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Ipswich,Sunderland,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Birmingham,Swansea,3.8,0.0,7.9,1.15
+E1,2324,2024-01-13,Coventry,Leicester,3.8,0.0,7.9,1.15
+E1,2324,2024-01-14,QPR,Watford,5.6,0.0,12.4,1.124
+E1,2324,2024-01-19,Sunderland,Hull,4.2,0.0,12.9,1.15
+E1,2324,2024-01-20,Bristol City,Watford,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Middlesbrough,Rotherham,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Norwich,West Brom,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Plymouth,Cardiff,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,QPR,Millwall,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Sheffield United,Coventry,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Stoke,Birmingham,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Blackburn,Huddersfield,4.3,0.0,22.0,1.15
+E1,2324,2024-01-20,Swansea,Southampton,4.3,0.0,22.0,1.15
+E1,2324,2024-01-21,Leeds,Preston,10.9,0.0,40.2,1.15
+E1,2324,2024-01-22,Leicester,Ipswich,9.9,0.0,30.9,1.15
+E1,2324,2024-01-24,Leeds,Norwich,10.7,0.0,23.1,1.15
+E1,2324,2024-01-27,Sunderland,Stoke,8.1,0.0,15.9,1.15
+E1,2324,2024-01-27,Millwall,Preston,8.1,0.0,15.9,1.15
+E1,2324,2024-01-28,QPR,Huddersfield,10.2,0.0,12.3,1.123
+E1,2324,2024-01-30,Leicester,Swansea,7.9,0.0,14.1,1.141
+E1,2324,2024-01-30,Coventry,Bristol City,7.9,0.0,14.1,1.141
+E1,2324,2024-01-31,Sheffield United,Watford,9.5,0.0,26.0,1.15
+E1,2324,2024-02-02,Bristol City,Leeds,12.6,0.0,27.3,1.15
+E1,2324,2024-02-03,Hull,Millwall,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Norwich,Coventry,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Preston,Ipswich,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Rotherham,Southampton,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Stoke,Leicester,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Huddersfield,Sheffield United,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Watford,Cardiff,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,West Brom,Birmingham,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Blackburn,QPR,12.8,0.0,23.7,1.15
+E1,2324,2024-02-03,Swansea,Plymouth,12.8,0.0,23.7,1.15
+E1,2324,2024-02-04,Middlesbrough,Sunderland,12.6,0.0,27.6,1.15
+E1,2324,2024-02-09,Sheffield United,Birmingham,12.1,0.1,26.7,1.15
+E1,2324,2024-02-10,Cardiff,Preston,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Middlesbrough,Bristol City,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,QPR,Norwich,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Southampton,Huddersfield,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Sunderland,Plymouth,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Watford,Leicester,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Ipswich,West Brom,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Blackburn,Stoke,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Hull,Swansea,11.0,0.0,9.0,1.09
+E1,2324,2024-02-10,Leeds,Rotherham,11.0,0.0,9.0,1.09
+E1,2324,2024-02-11,Coventry,Millwall,10.4,0.1,18.5,1.15
+E1,2324,2024-02-13,Bristol City,Southampton,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,Birmingham,Blackburn,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,Leicester,Sheffield United,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,West Brom,Cardiff,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,Norwich,Watford,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,Swansea,Leeds,9.1,0.2,24.6,1.15
+E1,2324,2024-02-13,Rotherham,Hull,9.1,0.2,24.6,1.15
+E1,2324,2024-02-14,Millwall,Ipswich,13.4,0.0,26.8,1.15
+E1,2324,2024-02-14,Huddersfield,Sunderland,13.4,0.0,26.8,1.15
+E1,2324,2024-02-14,Plymouth,Coventry,13.4,0.0,26.8,1.15
+E1,2324,2024-02-14,Preston,Middlesbrough,13.4,0.0,26.8,1.15
+E1,2324,2024-02-14,Stoke,QPR,13.4,0.0,26.8,1.15
+E1,2324,2024-02-16,West Brom,Southampton,12.6,0.0,21.8,1.15
+E1,2324,2024-02-17,Bristol City,QPR,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Plymouth,Leeds,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Birmingham,Sunderland,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Huddersfield,Hull,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Leicester,Middlesbrough,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Millwall,Sheffield United,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Norwich,Cardiff,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Preston,Blackburn,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Rotherham,Watford,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Stoke,Coventry,12.1,0.0,21.6,1.15
+E1,2324,2024-02-17,Swansea,Ipswich,12.1,0.0,21.6,1.15
+E1,2324,2024-02-20,Plymouth,West Brom,11.5,0.0,26.3,1.15
+E1,2324,2024-02-20,Southampton,Hull,11.5,0.0,26.3,1.15
+E1,2324,2024-02-20,Ipswich,Rotherham,11.5,0.0,26.3,1.15
+E1,2324,2024-02-20,Cardiff,Blackburn,11.5,0.0,26.3,1.15
+E1,2324,2024-02-23,Leeds,Leicester,6.7,1.0,13.6,1.15
+E1,2324,2024-02-23,Coventry,Preston,6.7,1.0,13.6,1.15
+E1,2324,2024-02-24,Cardiff,Stoke,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Ipswich,Birmingham,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Middlesbrough,Plymouth,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,QPR,Rotherham,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Sheffield United,Bristol City,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Southampton,Millwall,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Sunderland,Swansea,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Watford,Huddersfield,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Hull,West Brom,7.2,0.4,6.8,1.08
+E1,2324,2024-02-24,Blackburn,Norwich,7.2,0.4,6.8,1.08
+E1,2324,2024-03-01,West Brom,Coventry,8.4,0.0,24.9,1.15
+E1,2324,2024-03-02,Birmingham,Southampton,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Leicester,QPR,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Millwall,Watford,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Norwich,Sunderland,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Plymouth,Ipswich,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Huddersfield,Leeds,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Rotherham,Sheffield United,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Stoke,Middlesbrough,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Swansea,Blackburn,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Bristol City,Cardiff,8.0,0.0,21.4,1.15
+E1,2324,2024-03-02,Preston,Hull,8.0,0.0,21.4,1.15
+E1,2324,2024-03-05,Leeds,Stoke,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Blackburn,Millwall,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Coventry,Rotherham,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Hull,Birmingham,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Sheffield United,Plymouth,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Sunderland,Leicester,10.6,0.0,10.8,1.108
+E1,2324,2024-03-05,Ipswich,Bristol City,10.6,0.0,10.8,1.108
+E1,2324,2024-03-06,Watford,Swansea,10.5,0.0,7.7,1.077
+E1,2324,2024-03-06,Middlesbrough,Norwich,10.5,0.0,7.7,1.077
+E1,2324,2024-03-06,Cardiff,Huddersfield,10.5,0.0,7.7,1.077
+E1,2324,2024-03-06,QPR,West Brom,10.5,0.0,7.7,1.077
+E1,2324,2024-03-08,Sheffield United,Leeds,8.8,0.0,25.9,1.15
+E1,2324,2024-03-09,Southampton,Sunderland,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Watford,Coventry,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Hull,Leicester,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Millwall,Birmingham,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Norwich,Rotherham,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Preston,Stoke,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,QPR,Middlesbrough,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Cardiff,Ipswich,11.4,0.3,24.1,1.15
+E1,2324,2024-03-09,Blackburn,Plymouth,11.4,0.3,24.1,1.15
+E1,2324,2024-03-10,Huddersfield,West Brom,8.8,1.3,11.9,1.15
+E1,2324,2024-03-10,Bristol City,Swansea,8.8,1.3,11.9,1.15
+E1,2324,2024-03-12,Birmingham,Middlesbrough,13.1,0.0,20.9,1.15
+E1,2324,2024-03-16,Swansea,Cardiff,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Middlesbrough,Blackburn,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Plymouth,Preston,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Rotherham,Huddersfield,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Stoke,Norwich,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Sunderland,QPR,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,West Brom,Bristol City,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Ipswich,Sheffield United,12.4,0.0,18.5,1.15
+E1,2324,2024-03-16,Birmingham,Watford,12.4,0.0,18.5,1.15
+E1,2324,2024-03-17,Leeds,Millwall,15.1,0.1,18.0,1.15
+E1,2324,2024-03-29,Preston,Rotherham,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Bristol City,Leicester,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Millwall,West Brom,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Cardiff,Sunderland,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Huddersfield,Coventry,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Hull,Stoke,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Norwich,Plymouth,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,QPR,Birmingham,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Sheffield United,Swansea,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Southampton,Middlesbrough,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Blackburn,Ipswich,12.9,0.0,30.0,1.15
+E1,2324,2024-03-29,Watford,Leeds,12.9,0.0,30.0,1.15
+E1,2324,2024-04-01,Coventry,Cardiff,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Middlesbrough,Sheffield United,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Plymouth,Bristol City,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Rotherham,Millwall,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Stoke,Huddersfield,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Sunderland,Blackburn,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Swansea,QPR,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,West Brom,Watford,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Ipswich,Southampton,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Leeds,Hull,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Birmingham,Preston,12.5,0.2,18.9,1.15
+E1,2324,2024-04-01,Leicester,Norwich,12.5,0.2,18.9,1.15
+E1,2324,2024-04-05,Rotherham,Plymouth,16.0,0.0,34.2,1.15
+E1,2324,2024-04-06,Cardiff,Hull,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Coventry,Leeds,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Huddersfield,Millwall,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Leicester,Birmingham,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Middlesbrough,Swansea,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,QPR,Sheffield United,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Stoke,West Brom,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Sunderland,Bristol City,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Watford,Preston,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Blackburn,Southampton,16.9,0.0,32.8,1.15
+E1,2324,2024-04-06,Norwich,Ipswich,16.9,0.0,32.8,1.15
+E1,2324,2024-04-09,Preston,Huddersfield,11.6,0.1,32.8,1.15
+E1,2324,2024-04-09,Millwall,Leicester,11.6,0.1,32.8,1.15
+E1,2324,2024-04-09,Plymouth,QPR,11.6,0.1,32.8,1.15
+E1,2324,2024-04-09,Sheffield United,Norwich,11.6,0.1,32.8,1.15
+E1,2324,2024-04-09,Southampton,Coventry,11.6,0.1,32.8,1.15
+E1,2324,2024-04-09,Leeds,Sunderland,11.6,0.1,32.8,1.15
+E1,2324,2024-04-10,Bristol City,Blackburn,11.4,0.3,26.3,1.15
+E1,2324,2024-04-10,Ipswich,Watford,11.4,0.3,26.3,1.15
+E1,2324,2024-04-10,Swansea,Stoke,11.4,0.3,26.3,1.15
+E1,2324,2024-04-10,West Brom,Rotherham,11.4,0.3,26.3,1.15
+E1,2324,2024-04-10,Hull,Middlesbrough,11.4,0.3,26.3,1.15
+E1,2324,2024-04-10,Birmingham,Cardiff,11.4,0.3,26.3,1.15
+E1,2324,2024-04-12,Plymouth,Leicester,18.8,0.0,24.7,1.15

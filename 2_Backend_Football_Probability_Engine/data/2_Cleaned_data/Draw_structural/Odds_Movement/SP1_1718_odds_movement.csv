@@ -6,14 +6,16 @@ SP1,1718,2017-02-12,Ath Madrid,Sociedad,3.89,3.89,0.0
 SP1,1718,2017-03-11,Betis,Getafe,3.5,3.5,0.0
 SP1,1718,2017-03-12,Eibar,Espanol,3.1,3.1,0.0
 SP1,1718,2017-03-12,Levante,Villarreal,3.25,3.25,0.0
+SP1,1718,2017-03-12,CD Leganes,Villarreal,3.25,3.25,0.0
 SP1,1718,2017-04-11,Barcelona,Sevilla,7.5,7.5,0.0
 SP1,1718,2017-04-12,Girona,Alaves,3.79,3.79,0.0
+SP1,1718,2017-05-11,Levante,Girona,3.29,3.29,0.0
 SP1,1718,2017-05-11,Celta,Ath Bilbao,3.5,3.5,0.0
 SP1,1718,2017-05-11,Sociedad,Eibar,4.0,4.0,0.0
-SP1,1718,2017-05-11,Levante,Girona,3.29,3.29,0.0
+SP1,1718,2017-08-09,CD Leganes,Getafe,3.25,3.25,0.0
 SP1,1718,2017-08-09,Levante,Getafe,3.25,3.25,0.0
-SP1,1718,2017-08-19,Sevilla,Espanol,4.0,4.0,0.0
 SP1,1718,2017-08-19,Girona,Ath Madrid,4.33,4.33,0.0
+SP1,1718,2017-08-19,Sevilla,Espanol,4.0,4.0,0.0
 SP1,1718,2017-08-19,Celta,Sociedad,3.25,3.25,0.0
 SP1,1718,2017-08-25,Betis,Celta,3.4,3.4,0.0
 SP1,1718,2017-08-26,Levante,La Coruna,3.1,3.1,0.0
@@ -21,9 +23,9 @@ SP1,1718,2017-08-26,Las Palmas,Ath Madrid,3.75,3.75,0.0
 SP1,1718,2017-08-27,Ath Madrid,Valencia,8.0,8.0,0.0
 SP1,1718,2017-09-09,Ath Madrid,Levante,15.0,15.0,0.0
 SP1,1718,2017-09-12,Valencia,Celta,4.0,4.0,0.0
+SP1,1718,2017-09-16,Getafe,Barcelona,6.5,6.5,0.0
 SP1,1718,2017-09-16,Levante,Valencia,3.25,3.25,0.0
 SP1,1718,2017-09-16,Betis,La Coruna,3.6,3.6,0.0
-SP1,1718,2017-09-16,Getafe,Barcelona,6.5,6.5,0.0
 SP1,1718,2017-09-17,Sociedad,Ath Madrid,4.0,4.0,0.0
 SP1,1718,2017-09-18,Espanol,Celta,3.3,3.3,0.0
 SP1,1718,2017-09-19,Barcelona,Eibar,10.0,10.0,0.0
@@ -38,21 +40,22 @@ SP1,1718,2017-09-30,La Coruna,Getafe,3.25,3.25,0.0
 SP1,1718,2017-10-09,La Coruna,Sociedad,3.3,3.3,0.0
 SP1,1718,2017-10-09,Villarreal,Betis,3.6,3.6,0.0
 SP1,1718,2017-10-12,Levante,Ath Bilbao,3.39,3.39,0.0
-SP1,1718,2017-10-14,Ath Madrid,Barcelona,3.4,3.4,0.0
 SP1,1718,2017-10-14,Getafe,Ath Madrid,5.75,5.75,0.0
+SP1,1718,2017-10-14,Ath Madrid,Barcelona,3.4,3.4,0.0
 SP1,1718,2017-10-15,Girona,Villarreal,3.2,3.2,0.0
 SP1,1718,2017-10-15,Betis,Valencia,3.5,3.5,0.0
 SP1,1718,2017-10-16,Las Palmas,Celta,3.3,3.3,0.0
 SP1,1718,2017-10-21,Levante,Getafe,3.2,3.2,0.0
-SP1,1718,2017-10-23,La Coruna,Girona,3.29,3.29,0.0
 SP1,1718,2017-10-23,Sociedad,Espanol,3.79,3.79,0.0
+SP1,1718,2017-10-23,La Coruna,Girona,3.29,3.29,0.0
 SP1,1718,2017-10-28,Ath Madrid,Villarreal,4.0,4.0,0.0
-SP1,1718,2017-10-28,Sevilla,Levante,3.75,3.75,0.0
+SP1,1718,2017-10-28,Sevilla,CD Leganes,3.75,3.75,0.0
 SP1,1718,2017-10-28,Alaves,Valencia,3.75,3.75,0.0
-SP1,1718,2017-10-29,Eibar,Levante,3.39,3.39,0.0
+SP1,1718,2017-10-28,Sevilla,Levante,3.75,3.75,0.0
 SP1,1718,2017-10-29,Girona,Ath Madrid,6.5,6.5,0.0
-SP1,1718,2017-10-29,Getafe,Sociedad,3.39,3.39,0.0
 SP1,1718,2017-10-29,Malaga,Celta,3.39,3.39,0.0
+SP1,1718,2017-10-29,Eibar,Levante,3.39,3.39,0.0
+SP1,1718,2017-10-29,Getafe,Sociedad,3.39,3.39,0.0
 SP1,1718,2017-10-30,Las Palmas,La Coruna,3.5,3.5,0.0
 SP1,1718,2017-11-09,Malaga,Las Palmas,3.5,3.5,0.0
 SP1,1718,2017-11-17,Girona,Sociedad,3.5,3.5,0.0
@@ -61,11 +64,11 @@ SP1,1718,2017-11-18,Getafe,Alaves,3.5,3.5,0.0
 SP1,1718,2017-11-19,Malaga,La Coruna,3.29,3.29,0.0
 SP1,1718,2017-11-19,Ath Bilbao,Villarreal,3.29,3.29,0.0
 SP1,1718,2017-11-25,Ath Madrid,Malaga,13.0,13.0,0.0
-SP1,1718,2017-11-25,Alaves,Eibar,3.1,3.1,0.0
 SP1,1718,2017-11-25,Betis,Girona,3.6,3.6,0.0
+SP1,1718,2017-11-25,Alaves,Eibar,3.1,3.1,0.0
+SP1,1718,2017-11-26,Sociedad,Las Palmas,4.75,4.75,0.0
 SP1,1718,2017-11-26,Valencia,Barcelona,3.89,3.89,0.0
 SP1,1718,2017-11-26,Villarreal,Sevilla,3.39,3.39,0.0
-SP1,1718,2017-11-26,Sociedad,Las Palmas,4.75,4.75,0.0
 SP1,1718,2017-11-26,La Coruna,Ath Bilbao,3.29,3.29,0.0
 SP1,1718,2017-12-16,Eibar,Valencia,3.29,3.29,0.0
 SP1,1718,2017-12-17,Las Palmas,Espanol,3.29,3.29,0.0
@@ -77,31 +80,35 @@ SP1,1718,2018-01-13,La Coruna,Valencia,3.39,3.39,0.0
 SP1,1718,2018-01-14,Sociedad,Barcelona,5.0,5.0,0.0
 SP1,1718,2018-01-14,Espanol,Ath Bilbao,3.0,3.0,0.0
 SP1,1718,2018-01-15,Betis,Levante,3.1,3.1,0.0
+SP1,1718,2018-01-15,Betis,CD Leganes,3.1,3.1,0.0
 SP1,1718,2018-01-19,Getafe,Ath Bilbao,3.1,3.1,0.0
 SP1,1718,2018-01-20,Ath Madrid,Girona,4.75,4.75,0.0
 SP1,1718,2018-01-20,Las Palmas,Valencia,4.0,4.0,0.0
 SP1,1718,2018-01-20,Villarreal,Levante,4.5,4.5,0.0
-SP1,1718,2018-01-21,Sociedad,Celta,3.89,3.89,0.0
-SP1,1718,2018-01-21,Alaves,Levante,3.1,3.1,0.0
 SP1,1718,2018-01-21,Ath Madrid,La Coruna,9.0,9.0,0.0
+SP1,1718,2018-01-21,Alaves,CD Leganes,3.1,3.1,0.0
+SP1,1718,2018-01-21,Alaves,Levante,3.1,3.1,0.0
+SP1,1718,2018-01-21,Sociedad,Celta,3.89,3.89,0.0
 SP1,1718,2018-01-22,Eibar,Malaga,3.5,3.5,0.0
 SP1,1718,2018-01-26,Ath Bilbao,Eibar,3.39,3.39,0.0
+SP1,1718,2018-01-27,Valencia,Ath Madrid,4.33,4.33,0.0
 SP1,1718,2018-01-27,La Coruna,Levante,3.5,3.5,0.0
 SP1,1718,2018-01-27,Villarreal,Sociedad,3.5,3.5,0.0
-SP1,1718,2018-01-27,Valencia,Ath Madrid,4.33,4.33,0.0
-SP1,1718,2018-01-28,Sevilla,Getafe,4.33,4.33,0.0
-SP1,1718,2018-01-28,Levante,Espanol,2.79,2.79,0.0
+SP1,1718,2018-01-28,CD Leganes,Espanol,2.79,2.79,0.0
 SP1,1718,2018-01-28,Barcelona,Alaves,11.0,11.0,0.0
+SP1,1718,2018-01-28,Levante,Espanol,2.79,2.79,0.0
+SP1,1718,2018-01-28,Sevilla,Getafe,4.33,4.33,0.0
 SP1,1718,2018-01-29,Celta,Betis,3.75,3.75,0.0
-SP1,1718,2018-02-17,Las Palmas,Sevilla,3.6,3.6,0.0
 SP1,1718,2018-02-17,Malaga,Valencia,3.5,3.5,0.0
-SP1,1718,2018-02-18,Espanol,Villarreal,3.25,3.25,0.0
+SP1,1718,2018-02-17,Las Palmas,Sevilla,3.6,3.6,0.0
 SP1,1718,2018-02-18,Betis,Ath Madrid,6.0,6.0,0.0
+SP1,1718,2018-02-18,Espanol,Villarreal,3.25,3.25,0.0
 SP1,1718,2018-02-21,Levante,Ath Madrid,6.0,6.0,0.0
+SP1,1718,2018-02-21,CD Leganes,Ath Madrid,6.0,6.0,0.0
 SP1,1718,2018-02-24,Barcelona,Girona,8.0,8.0,0.0
-SP1,1718,2018-02-25,Sevilla,Ath Madrid,3.2,3.2,0.0
 SP1,1718,2018-02-25,Ath Bilbao,Malaga,3.5,3.5,0.0
 SP1,1718,2018-02-25,Valencia,Sociedad,4.0,4.0,0.0
+SP1,1718,2018-02-25,Sevilla,Ath Madrid,3.2,3.2,0.0
 SP1,1718,2018-02-28,Ath Bilbao,Valencia,3.2,3.2,0.0
 SP1,1718,2018-03-02,Alaves,Celta,3.2,3.2,0.0
 SP1,1718,2018-03-02,Betis,Villarreal,3.39,3.39,0.0
@@ -110,34 +117,37 @@ SP1,1718,2018-03-02,Levante,Ath Madrid,7.0,7.0,0.0
 SP1,1718,2018-03-03,Ath Madrid,Getafe,7.5,7.5,0.0
 SP1,1718,2018-03-03,La Coruna,Eibar,3.1,3.1,0.0
 SP1,1718,2018-03-16,Levante,Eibar,3.2,3.2,0.0
+SP1,1718,2018-03-17,Sociedad,Getafe,3.6,3.6,0.0
 SP1,1718,2018-03-17,Valencia,Alaves,4.5,4.5,0.0
 SP1,1718,2018-03-17,La Coruna,Las Palmas,3.75,3.75,0.0
-SP1,1718,2018-03-17,Sociedad,Getafe,3.6,3.6,0.0
 SP1,1718,2018-03-18,Levante,Sevilla,3.29,3.29,0.0
-SP1,1718,2018-03-18,Villarreal,Ath Madrid,3.1,3.1,0.0
+SP1,1718,2018-03-18,CD Leganes,Sevilla,3.29,3.29,0.0
 SP1,1718,2018-03-18,Ath Madrid,Girona,7.5,7.5,0.0
-SP1,1718,2018-03-31,Girona,Levante,3.79,3.79,0.0
-SP1,1718,2018-03-31,Sevilla,Barcelona,4.0,4.0,0.0
+SP1,1718,2018-03-18,Villarreal,Ath Madrid,3.1,3.1,0.0
 SP1,1718,2018-03-31,Ath Bilbao,Celta,3.29,3.29,0.0
+SP1,1718,2018-03-31,Sevilla,Barcelona,4.0,4.0,0.0
+SP1,1718,2018-03-31,Girona,Levante,3.79,3.79,0.0
 SP1,1718,2018-04-02,Espanol,Barcelona,5.25,5.25,0.0
 SP1,1718,2018-04-03,Levante,Espanol,3.1,3.1,0.0
 SP1,1718,2018-04-03,Sociedad,Alaves,4.0,4.0,0.0
-SP1,1718,2018-04-14,Barcelona,Valencia,6.0,6.0,0.0
 SP1,1718,2018-04-14,Sevilla,Villarreal,3.75,3.75,0.0
+SP1,1718,2018-04-14,Barcelona,Valencia,6.0,6.0,0.0
 SP1,1718,2018-04-14,Ath Bilbao,La Coruna,3.75,3.75,0.0
 SP1,1718,2018-04-15,Malaga,Ath Madrid,5.5,5.5,0.0
 SP1,1718,2018-04-17,Villarreal,Levante,3.79,3.79,0.0
 SP1,1718,2018-04-17,Celta,Barcelona,4.33,4.33,0.0
-SP1,1718,2018-04-18,Ath Madrid,Ath Bilbao,7.0,7.0,0.0
+SP1,1718,2018-04-17,Villarreal,CD Leganes,3.79,3.79,0.0
 SP1,1718,2018-04-18,Valencia,Getafe,4.0,4.0,0.0
+SP1,1718,2018-04-18,Ath Madrid,Ath Bilbao,7.0,7.0,0.0
 SP1,1718,2018-04-19,Alaves,Girona,3.1,3.1,0.0
 SP1,1718,2018-04-21,Celta,Valencia,3.39,3.39,0.0
 SP1,1718,2018-04-23,Ath Bilbao,Levante,3.75,3.75,0.0
 SP1,1718,2018-04-27,Levante,Sevilla,3.6,3.6,0.0
-SP1,1718,2018-04-28,Villarreal,Celta,3.75,3.75,0.0
 SP1,1718,2018-04-28,Espanol,Las Palmas,4.75,4.75,0.0
-SP1,1718,2018-04-28,Sociedad,Ath Bilbao,3.6,3.6,0.0
+SP1,1718,2018-04-28,Ath Madrid,CD Leganes,5.5,5.5,0.0
 SP1,1718,2018-04-28,Ath Madrid,Levante,5.5,5.5,0.0
+SP1,1718,2018-04-28,Sociedad,Ath Bilbao,3.6,3.6,0.0
+SP1,1718,2018-04-28,Villarreal,Celta,3.75,3.75,0.0
 SP1,1718,2018-04-29,La Coruna,Barcelona,6.0,6.0,0.0
 SP1,1718,2018-04-29,Getafe,Girona,3.1,3.1,0.0
 SP1,1718,2018-04-30,Betis,Malaga,4.5,4.5,0.0
@@ -146,33 +156,36 @@ SP1,1718,2018-05-05,Celta,La Coruna,4.0,4.0,0.0
 SP1,1718,2018-05-05,Girona,Eibar,3.29,3.29,0.0
 SP1,1718,2018-05-13,Espanol,Malaga,3.7,3.7,0.0
 SP1,1718,2018-05-13,Levante,Barcelona,5.25,5.25,0.0
-SP1,1718,2018-05-19,Levante,Betis,3.6,3.6,0.0
-SP1,1718,2018-05-19,Celta,Levante,4.0,4.0,0.0
 SP1,1718,2018-05-19,Villarreal,Ath Madrid,4.1,4.1,0.0
+SP1,1718,2018-05-19,Levante,Betis,3.6,3.6,0.0
 SP1,1718,2018-05-19,Las Palmas,Girona,3.5,3.5,0.0
-SP1,1718,2018-05-20,Valencia,La Coruna,4.75,4.75,0.0
+SP1,1718,2018-05-19,Celta,Levante,4.0,4.0,0.0
+SP1,1718,2018-05-19,CD Leganes,Betis,3.6,3.6,0.0
 SP1,1718,2018-05-20,Ath Madrid,Eibar,3.8,3.8,0.0
-SP1,1718,2018-06-01,Valencia,Girona,4.0,4.0,0.0
+SP1,1718,2018-05-20,Valencia,La Coruna,4.75,4.75,0.0
 SP1,1718,2018-06-01,Sevilla,Betis,4.33,4.33,0.0
 SP1,1718,2018-06-01,Las Palmas,Eibar,3.39,3.39,0.0
+SP1,1718,2018-06-01,Valencia,Girona,4.0,4.0,0.0
 SP1,1718,2018-06-04,La Coruna,Malaga,3.29,3.29,0.0
 SP1,1718,2018-06-05,Barcelona,Ath Madrid,4.33,4.33,0.0
 SP1,1718,2018-07-01,Celta,Ath Madrid,4.33,4.33,0.0
 SP1,1718,2018-07-01,Villarreal,La Coruna,4.0,4.0,0.0
 SP1,1718,2018-07-04,Barcelona,Levante,9.0,9.0,0.0
+SP1,1718,2018-07-04,Barcelona,CD Leganes,9.0,9.0,0.0
 SP1,1718,2018-08-04,Ath Madrid,Ath Madrid,3.75,3.75,0.0
 SP1,1718,2018-08-04,Levante,Las Palmas,3.6,3.6,0.0
 SP1,1718,2018-09-04,Villarreal,Ath Bilbao,3.5,3.5,0.0
-SP1,1718,2018-09-05,Sevilla,Ath Madrid,3.7,3.7,0.0
 SP1,1718,2018-09-05,Barcelona,Villarreal,5.75,5.75,0.0
-SP1,1718,2018-10-02,Villarreal,Alaves,4.0,4.0,0.0
+SP1,1718,2018-09-05,Sevilla,Ath Madrid,3.7,3.7,0.0
 SP1,1718,2018-10-02,Ath Madrid,Sociedad,7.0,7.0,0.0
+SP1,1718,2018-10-02,Villarreal,Alaves,4.0,4.0,0.0
 SP1,1718,2018-10-03,Eibar,Ath Madrid,4.75,4.75,0.0
-SP1,1718,2018-11-02,Valencia,Levante,4.33,4.33,0.0
 SP1,1718,2018-11-02,Celta,Espanol,3.6,3.6,0.0
+SP1,1718,2018-11-02,Valencia,Levante,4.33,4.33,0.0
 SP1,1718,2018-11-03,Espanol,Sociedad,3.1,3.1,0.0
 SP1,1718,2018-12-03,Alaves,Betis,3.29,3.29,0.0
-SP1,1718,2018-12-05,Alaves,Ath Bilbao,3.29,3.29,0.0
-SP1,1718,2018-12-05,La Coruna,Villarreal,3.6,3.6,0.0
 SP1,1718,2018-12-05,Sociedad,Levante,4.2,4.2,0.0
+SP1,1718,2018-12-05,Sociedad,CD Leganes,4.2,4.2,0.0
+SP1,1718,2018-12-05,La Coruna,Villarreal,3.6,3.6,0.0
 SP1,1718,2018-12-05,Betis,Sevilla,3.39,3.39,0.0
+SP1,1718,2018-12-05,Alaves,Ath Bilbao,3.29,3.29,0.0

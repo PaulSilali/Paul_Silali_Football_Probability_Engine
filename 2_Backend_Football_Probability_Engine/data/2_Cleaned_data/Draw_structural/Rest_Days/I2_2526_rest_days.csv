@@ -10,9 +10,9 @@ I2,2526,2025-08-24,Catanzaro,Sudtirol,103,103,False
 I2,2526,2025-08-24,Venezia,Bari,471,103,False
 I2,2526,2025-08-25,Sampdoria,Monza,104,2,False
 I2,2526,2025-08-29,Reggiana,Empoli,6,6,False
+I2,2526,2025-08-30,Juve Stabia,Venezia,7,6,False
 I2,2526,2025-08-30,Spezia,Catanzaro,6,6,False
 I2,2526,2025-08-30,Mantova,Pescara,7,8,False
-I2,2526,2025-08-30,Juve Stabia,Venezia,7,6,False
 I2,2526,2025-08-30,Palermo,Frosinone,7,6,False
 I2,2526,2025-08-30,Cesena,Virtus Entella,8,7,False
 I2,2526,2025-08-31,Carrarese,Padova,7,8,False
@@ -98,9 +98,9 @@ I2,2526,2025-10-28,Frosinone,Virtus Entella,3,3,True
 I2,2526,2025-10-29,Venezia,Sudtirol,4,4,True
 I2,2526,2025-10-29,Mantova,Catanzaro,3,4,True
 I2,2526,2025-10-29,Spezia,Padova,4,3,True
+I2,2526,2025-11-01,Padova,Sudtirol,3,3,False
 I2,2526,2025-11-01,Avellino,Reggiana,4,4,False
 I2,2526,2025-11-01,Carrarese,Frosinone,4,4,False
-I2,2526,2025-11-01,Padova,Sudtirol,3,3,False
 I2,2526,2025-11-01,Virtus Entella,Empoli,4,4,False
 I2,2526,2025-11-01,Palermo,Pescara,4,4,False
 I2,2526,2025-11-02,Sampdoria,Mantova,5,4,False
@@ -112,9 +112,9 @@ I2,2526,2025-11-07,Spezia,Bari,5,5,False
 I2,2526,2025-11-08,Frosinone,Monza,7,6,False
 I2,2526,2025-11-08,Empoli,Catanzaro,7,6,False
 I2,2526,2025-11-08,Mantova,Padova,6,7,False
-I2,2526,2025-11-08,Reggiana,Virtus Entella,7,7,False
 I2,2526,2025-11-08,Sudtirol,Carrarese,7,7,False
 I2,2526,2025-11-08,Juve Stabia,Palermo,6,7,False
+I2,2526,2025-11-08,Reggiana,Virtus Entella,7,7,False
 I2,2526,2025-11-08,Venezia,Sampdoria,6,6,False
 I2,2526,2025-11-09,Cesena,Avellino,7,8,False
 I2,2526,2025-11-09,Pescara,Monza,8,1,False
@@ -150,9 +150,9 @@ I2,2526,2025-12-08,Frosinone,Juve Stabia,9,4,False
 I2,2526,2025-12-08,Virtus Entella,Spezia,9,8,False
 I2,2526,2025-12-08,Padova,Cesena,9,10,False
 I2,2526,2025-12-12,Palermo,Sampdoria,5,5,False
+I2,2526,2025-12-13,Spezia,Monza,5,5,False
 I2,2526,2025-12-13,Juve Stabia,Empoli,5,6,False
 I2,2526,2025-12-13,Reggiana,Padova,5,5,False
-I2,2526,2025-12-13,Spezia,Monza,5,5,False
 I2,2526,2025-12-13,Sudtirol,Bari,5,5,False
 I2,2526,2025-12-13,Venezia,Monza,5,5,False
 I2,2526,2025-12-13,Catanzaro,Avellino,5,5,False
@@ -167,15 +167,20 @@ I2,2526,2025-12-20,Monza,Carrarese,7,6,False
 I2,2526,2025-12-20,Monza,Venezia,7,7,False
 I2,2526,2025-12-20,Frosinone,Spezia,6,7,False
 I2,2526,2025-12-20,Cesena,Juve Stabia,7,7,False
-I2,2526,2025-12-21,Mantova,Empoli,8,8,False
 I2,2526,2025-12-21,Virtus Entella,Sudtirol,7,8,False
+I2,2526,2025-12-21,Mantova,Empoli,8,8,False
 I2,2526,2025-12-26,Monza,Monza,6,6,False
-I2,2526,2025-12-27,Spezia,Pescara,7,7,False
+I2,2526,2025-12-27,Sampdoria,Reggiana,7,7,False
+I2,2526,2025-12-27,Palermo,Padova,7,7,False
+I2,2526,2025-12-27,Bari,Avellino,8,7,False
 I2,2526,2025-12-27,Carrarese,Mantova,7,6,False
 I2,2526,2025-12-27,Catanzaro,Cesena,8,7,False
 I2,2526,2025-12-27,Empoli,Frosinone,6,7,False
 I2,2526,2025-12-27,Juve Stabia,Sudtirol,7,6,False
 I2,2526,2025-12-27,Venezia,Virtus Entella,7,6,False
-I2,2526,2025-12-27,Sampdoria,Reggiana,7,7,False
-I2,2526,2025-12-27,Palermo,Padova,7,7,False
-I2,2526,2025-12-27,Bari,Avellino,8,7,False
+I2,2526,2025-12-27,Spezia,Pescara,7,7,False
+I2,2526,2026-01-10,Juve Stabia,Pescara,14,14,False
+I2,2526,2026-01-10,Sudtirol,Spezia,14,14,False
+I2,2526,2026-01-10,Reggiana,Venezia,14,14,False
+I2,2526,2026-01-10,Avellino,Sampdoria,14,14,False
+I2,2526,2026-01-11,Mantova,Palermo,15,15,False

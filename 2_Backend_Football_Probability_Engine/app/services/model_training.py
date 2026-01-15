@@ -2060,28 +2060,34 @@ class ModelTrainingService:
             if task_id:
                 self._update_task_status(task_id, "in_progress", 10, "Loading draw model...")
             
-            # Load draw model
+            # Load draw model (optional - draw model is deterministic and computed at inference time)
+            # Draw calibration doesn't strictly need a draw model record, but we'll try to find one for reference
+            draw_model = None
             if draw_model_id:
                 draw_model = self.db.query(Model).filter(
                     Model.id == draw_model_id,
                     Model.model_type == "draw"
                 ).first()
             else:
-                # Get active draw model
+                # Get active draw model (if exists)
                 draw_model = self.db.query(Model).filter(
                     Model.model_type == "draw",
                     Model.status == ModelStatus.active
                 ).order_by(Model.training_completed_at.desc()).first()
             
+            # Draw model is optional - it's deterministic and computed at inference time
+            # We'll use a placeholder ID if no draw model exists
+            draw_model_id_for_metadata = draw_model.id if draw_model else None
+            draw_model_version_for_metadata = draw_model.version if draw_model else "deterministic-draw-model"
+            
             if not draw_model:
-                raise ValueError("Active draw model not found. Draw model is deterministic and doesn't need training. Train draw calibration separately if needed.")
+                logger.info("No active draw model found. Draw model is deterministic and computed at inference time. Proceeding with draw calibration using predictions directly.")
             
             if task_id:
                 self._update_task_status(task_id, "in_progress", 20, "Loading prediction data...")
             
-            # Load predictions from Prediction table
-            # We need predictions with draw probabilities and actual results
-            from app.db.models import Prediction, JackpotFixture, MatchResult, PredictionSet
+            # Load predictions from Prediction table with actual results
+            from app.db.models import Prediction, JackpotFixture, MatchResult, PredictionSet, SavedProbabilityResult, Jackpot as JackpotModel
             
             query = self.db.query(Prediction).join(JackpotFixture)
             
@@ -2091,7 +2097,6 @@ class ModelTrainingService:
                 )
             
             # Get predictions with actual results (from saved_probability_results)
-            # For now, we'll use predictions from fixtures that have actual results
             predictions = query.filter(
                 Prediction.set_type == PredictionSet.B  # Use Set B as default
             ).order_by(Prediction.id.asc()).all()
@@ -2099,29 +2104,98 @@ class ModelTrainingService:
             if len(predictions) < 500:
                 raise ValueError(f"Insufficient draw samples for calibration (min 500, got {len(predictions)})")
             
-            # Extract draw predictions and outcomes
-            # Note: We need actual results from saved_probability_results or match results
-            # For now, this is a placeholder - actual implementation would join with actual results
-            preds_draw = [p.prob_draw for p in predictions]
+            logger.info(f"Found {len(predictions)} predictions, matching with actual results...")
+            
+            # Match predictions with actual results from SavedProbabilityResult
+            preds_draw = []
+            acts_draw = []
+            
+            # Group predictions by jackpot_id for efficient lookup
+            predictions_by_jackpot = {}
+            for pred in predictions:
+                fixture = self.db.query(JackpotFixture).filter(JackpotFixture.id == pred.fixture_id).first()
+                if fixture and fixture.jackpot_id:
+                    if fixture.jackpot_id not in predictions_by_jackpot:
+                        predictions_by_jackpot[fixture.jackpot_id] = []
+                    predictions_by_jackpot[fixture.jackpot_id].append((pred, fixture))
+            
+            logger.info(f"Grouped predictions into {len(predictions_by_jackpot)} jackpots")
+            
+            # Get actual results from SavedProbabilityResult
+            for jackpot_id, pred_fixture_pairs in predictions_by_jackpot.items():
+                # Get the jackpot to find jackpot_id (string)
+                jackpot = self.db.query(JackpotModel).filter(JackpotModel.id == jackpot_id).first()
+                if not jackpot:
+                    continue
+                
+                # Get saved result with actual results
+                saved_result = self.db.query(SavedProbabilityResult).filter(
+                    SavedProbabilityResult.jackpot_id == jackpot.jackpot_id,
+                    SavedProbabilityResult.actual_results.isnot(None)
+                ).order_by(SavedProbabilityResult.created_at.desc()).first()
+                
+                if not saved_result or not saved_result.actual_results:
+                    # Try to get from MatchResult table as fallback
+                    for pred, fixture in pred_fixture_pairs:
+                        # Try to find match result
+                        match_result = self.db.query(MatchResult).filter(
+                            MatchResult.fixture_id == fixture.id
+                        ).first()
+                        
+                        if match_result and match_result.result:
+                            preds_draw.append(pred.prob_draw)
+                            # Convert result to binary (1 if draw, 0 otherwise)
+                            acts_draw.append(1.0 if match_result.result == 'D' else 0.0)
+                    continue
+                
+                # Match predictions with actual results
+                for pred, fixture in pred_fixture_pairs:
+                    fixture_id_str = str(fixture.id)
+                    match_number = str(fixture.match_order) if fixture.match_order else None
+                    
+                    # Try to get actual result (priority: match_number > fixture_id > index)
+                    actual_result_str = None
+                    if saved_result.actual_results:
+                        # Try match_number first (1-indexed from CSV)
+                        if match_number:
+                            actual_result_str = saved_result.actual_results.get(match_number)
+                        # Try fixture_id if match_number didn't work
+                        if not actual_result_str:
+                            actual_result_str = saved_result.actual_results.get(fixture_id_str)
+                        # Try index as last resort
+                        if not actual_result_str:
+                            try:
+                                idx = pred_fixture_pairs.index((pred, fixture))
+                                actual_result_str = saved_result.actual_results.get(str(idx))
+                            except ValueError:
+                                pass
+                    
+                    if actual_result_str:
+                        preds_draw.append(pred.prob_draw)
+                        # Convert result to binary (1 if draw, 0 otherwise)
+                        # Handle both 'X'/'D' formats and '1'/'X'/'2' formats
+                        if actual_result_str.upper() in ['D', 'X']:
+                            acts_draw.append(1.0)
+                        else:
+                            acts_draw.append(0.0)
+            
+            if len(preds_draw) < 500:
+                raise ValueError(f"Insufficient draw samples with actual results for calibration (min 500, got {len(preds_draw)})")
+            
+            logger.info(f"Matched {len(preds_draw)} predictions with actual results ({sum(acts_draw)} draws, {len(acts_draw) - sum(acts_draw)} non-draws)")
             
             # Time-ordered split
             split_idx = int(len(preds_draw) * 0.8)
             preds_train = preds_draw[:split_idx]
-            
-            # For now, we'll use a simplified approach
-            # In production, you'd load actual results from saved_probability_results
-            # and match them to predictions
-            logger.warning("Draw calibration: Using simplified approach. Actual results matching not yet implemented.")
+            acts_train = acts_draw[:split_idx]
             
             if task_id:
-                self._update_task_status(task_id, "in_progress", 50, "Fitting isotonic regression...")
+                self._update_task_status(task_id, "in_progress", 50, f"Fitting isotonic regression on {len(preds_train)} samples...")
             
             # Fit isotonic regression for draw only
             from app.models.calibration import Calibrator
             
-            # For now, create dummy actuals (in production, load from actual results)
-            # This is a placeholder - you'd need to join with actual match results
-            acts_train = [0.0] * len(preds_train)  # Placeholder
+            logger.info(f"Fitting draw calibration model with {len(preds_train)} training samples ({sum(acts_train)} draws)")
             
             calibrator = Calibrator()
             # Fit only for draw outcome
@@ -2145,8 +2219,8 @@ class ModelTrainingService:
             version = f"draw-calibration-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
             
             calibration_metadata = {
-                'base_model_id': draw_model.id,
-                'base_model_version': draw_model.version,
+                'base_model_id': draw_model_id_for_metadata,
+                'base_model_version': draw_model_version_for_metadata,
                 'base_model_type': 'draw',
                 'outcome': 'D',
                 'sample_count': len(preds_train),

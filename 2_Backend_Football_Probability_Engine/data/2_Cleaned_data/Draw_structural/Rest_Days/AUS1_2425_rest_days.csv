@@ -1,0 +1,105 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+AUS1,2425,2024-10-18,Western Sydney Wanderers,Sydney FC,291,291,False
+AUS1,2425,2024-10-18,Wellington Phoenix,Western United,291,291,False
+AUS1,2425,2024-10-18,Macarthur FC,Perth Glory,291,291,False
+AUS1,2425,2024-10-18,Macarthur FC,Newcastle United Jets,291,291,False
+AUS1,2425,2024-10-18,Adelaide United,Central Coast Mariners,291,291,False
+AUS1,2425,2024-10-18,Melbourne City FC,Melbourne Victory,291,291,False
+AUS1,2425,2024-10-18,Western United,Western Sydney Wanderers,291,291,False
+AUS1,2425,2024-10-18,Brisbane Roar,Sydney FC,291,291,False
+AUS1,2425,2024-10-18,Western Sydney Wanderers,Adelaide United,291,291,False
+AUS1,2425,2024-10-18,Melbourne Victory,Macarthur FC,291,291,False
+AUS1,2425,2024-10-18,Western Sydney Wanderers,Newcastle United Jets,291,291,False
+AUS1,2425,2024-10-18,Adelaide United,Western United,291,291,False
+AUS1,2425,2024-10-18,Sydney FC,Macarthur FC,291,291,False
+AUS1,2425,2024-10-18,Perth Glory,Western United,291,291,False
+AUS1,2425,2024-10-18,Newcastle United Jets,Central Coast Mariners,291,291,False
+AUS1,2425,2024-10-18,Brisbane Roar,Adelaide United,291,291,False
+AUS1,2425,2024-10-18,Sydney FC,Western Sydney Wanderers,291,291,False
+AUS1,2425,2024-10-18,Adelaide United,Perth Glory,291,291,False
+AUS1,2425,2024-10-18,Macarthur FC,Brisbane Roar,291,291,False
+AUS1,2425,2024-10-18,Western United,Melbourne Victory,291,291,False
+AUS1,2425,2024-10-18,Brisbane Roar,Melbourne City FC,291,291,False
+AUS1,2425,2024-10-18,Auckland FC,Wellington Phoenix,7,291,False
+AUS1,2425,2024-10-18,Central Coast Mariners,Sydney FC,291,291,False
+AUS1,2425,2024-10-18,Wellington Phoenix,Macarthur FC,291,291,False
+AUS1,2425,2024-10-18,Sydney FC,Western United,291,291,False
+AUS1,2425,2024-10-18,Western Sydney Wanderers,Brisbane Roar,291,291,False
+AUS1,2425,2024-10-18,Melbourne City FC,Auckland FC,291,7,False
+AUS1,2425,2024-10-18,Adelaide United,Sydney FC,291,291,False
+AUS1,2425,2024-10-18,Melbourne Victory,Melbourne City FC,291,291,False
+AUS1,2425,2024-10-18,Western Sydney Wanderers,Wellington Phoenix,291,291,False
+AUS1,2425,2024-10-18,Macarthur FC,Central Coast Mariners,291,291,False
+AUS1,2425,2024-10-18,Adelaide United,Western Sydney Wanderers,291,291,False
+AUS1,2425,2024-10-18,Wellington Phoenix,Newcastle United Jets,291,291,False
+AUS1,2425,2024-10-18,Central Coast Mariners,Auckland FC,291,7,False
+AUS1,2425,2024-10-18,Central Coast Mariners,Melbourne City FC,291,291,False
+AUS1,2425,2025-01-01,Brisbane Roar,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Perth Glory,Western United,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Sydney FC,75,75,True
+AUS1,2425,2025-01-01,Melbourne Victory,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Melbourne Victory,Western United,75,75,True
+AUS1,2425,2025-01-01,Wellington Phoenix,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Perth Glory,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Auckland FC,75,75,True
+AUS1,2425,2025-01-01,Western United,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Western United,Newcastle United Jets,75,75,True
+AUS1,2425,2025-01-01,Western Sydney Wanderers,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Melbourne Victory,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Perth Glory,75,75,True
+AUS1,2425,2025-01-01,Brisbane Roar,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Auckland FC,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Central Coast Mariners,Newcastle United Jets,75,75,True
+AUS1,2425,2025-01-01,Wellington Phoenix,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Western Sydney Wanderers,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Perth Glory,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Western United,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Newcastle United Jets,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Auckland FC,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Melbourne Victory,Melbourne City FC,75,75,True
+AUS1,2425,2025-01-01,Central Coast Mariners,Western United,75,75,True
+AUS1,2425,2025-01-01,Auckland FC,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Brisbane Roar,Melbourne Victory,75,75,True
+AUS1,2425,2025-01-01,Western Sydney Wanderers,Perth Glory,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Western United,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Auckland FC,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Western Sydney Wanderers,Melbourne Victory,75,75,True
+AUS1,2425,2025-01-01,Perth Glory,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Auckland FC,Central Coast Mariners,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Western United,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Newcastle United Jets,75,75,True
+AUS1,2425,2025-01-01,Wellington Phoenix,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Melbourne City FC,75,75,True
+AUS1,2425,2025-01-01,Melbourne Victory,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Central Coast Mariners,Perth Glory,75,75,True
+AUS1,2425,2025-01-01,Brisbane Roar,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Auckland FC,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Western United,Perth Glory,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Sydney FC,75,75,True
+AUS1,2425,2025-01-01,Newcastle United Jets,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Melbourne City FC,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Wellington Phoenix,Melbourne Victory,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Auckland FC,75,75,True
+AUS1,2425,2025-01-01,Perth Glory,Adelaide United,75,75,True
+AUS1,2425,2025-01-01,Brisbane Roar,Western United,75,75,True
+AUS1,2425,2025-01-01,Adelaide United,Wellington Phoenix,75,75,True
+AUS1,2425,2025-01-01,Western Sydney Wanderers,Melbourne City FC,75,75,True
+AUS1,2425,2025-01-01,Sydney FC,Newcastle United Jets,75,75,True
+AUS1,2425,2025-01-01,Central Coast Mariners,Macarthur FC,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Melbourne Victory,75,75,True
+AUS1,2425,2025-01-01,Central Coast Mariners,Brisbane Roar,75,75,True
+AUS1,2425,2025-01-01,Melbourne City FC,Sydney FC,75,75,True
+AUS1,2425,2025-01-01,Western United,Auckland FC,75,75,True
+AUS1,2425,2025-01-01,Macarthur FC,Western Sydney Wanderers,75,75,True
+AUS1,2425,2025-01-01,Melbourne Victory,Newcastle United Jets,75,75,True

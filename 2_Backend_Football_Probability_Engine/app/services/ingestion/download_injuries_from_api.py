@@ -72,7 +72,8 @@ def find_api_football_fixture_id(
     api_key: str,
     home_team_name: str,
     away_team_name: str,
-    fixture_date: date
+    fixture_date: date,
+    date_might_be_wrong: bool = False
 ) -> Optional[int]:
     """
     Find API-Football fixture ID by querying fixtures endpoint.
@@ -85,28 +86,48 @@ def find_api_football_fixture_id(
         home_team_name: Home team name
         away_team_name: Away team name
         fixture_date: Fixture date
+        date_might_be_wrong: If True, search wider date range (for fallback dates)
     
     Returns:
         API-Football fixture ID or None if not found
     """
+    # Use longer timeout for wide date range searches (5 years can return lots of data)
+    timeout = 60 if date_might_be_wrong else 30
+    
     try:
         # Query API-Football fixtures endpoint
-        # Search within date range (±1 day to account for timezone differences)
-        date_from = (fixture_date - timedelta(days=1)).strftime("%Y-%m-%d")
-        date_to = (fixture_date + timedelta(days=1)).strftime("%Y-%m-%d")
+        # If date might be wrong (fallback), search wider range
+        if date_might_be_wrong:
+            # Search last 5 years for historical matches (wider range for missing dates)
+            from datetime import date as date_class
+            date_from = (date_class.today() - timedelta(days=1825)).strftime("%Y-%m-%d")  # 5 years
+            date_to = date_class.today().strftime("%Y-%m-%d")
+            logger.debug(f"Searching API-Football with wide date range (date might be wrong): {date_from} to {date_to}, timeout={timeout}s")
+            params = {
+                "league": api_league_id,
+                "from": date_from,
+                "to": date_to
+            }
+        else:
+            # Normal search: ±1 day to account for timezone differences
+            date_from = (fixture_date - timedelta(days=1)).strftime("%Y-%m-%d")
+            date_to = (fixture_date + timedelta(days=1)).strftime("%Y-%m-%d")
+            logger.debug(f"Searching API-Football with specific date: {fixture_date} (±1 day), timeout={timeout}s")
+            params = {
+                "league": api_league_id,
+                "date": fixture_date.strftime("%Y-%m-%d"),
+                "season": fixture_date.year if fixture_date.month >= 8 else fixture_date.year - 1  # Approximate season
+            }
         
         url = "https://v3.football.api-sports.io/fixtures"
         headers = {
             "x-apisports-key": api_key
         }
-        params = {
-            "league": api_league_id,
-            "date": fixture_date.strftime("%Y-%m-%d"),
-            "season": fixture_date.year if fixture_date.month >= 8 else fixture_date.year - 1  # Approximate season
-        }
         
         verify_ssl = getattr(settings, 'VERIFY_SSL', True)
-        response = requests.get(url, headers=headers, params=params, timeout=30, verify=verify_ssl)
+        
+        logger.debug(f"Querying API-Football with params: {params}")
+        response = requests.get(url, headers=headers, params=params, timeout=timeout, verify=verify_ssl)
         
         # Check rate limit headers
         rate_limit_remaining = response.headers.get('X-RateLimit-Remaining')
@@ -124,7 +145,7 @@ def find_api_football_fixture_id(
         if response.status_code == 429:
             logger.warning("API-Football rate limit exceeded, waiting 60 seconds...")
             time.sleep(60)  # Wait 1 minute for rate limit
-            response = requests.get(url, headers=headers, params=params, timeout=30, verify=verify_ssl)
+            response = requests.get(url, headers=headers, params=params, timeout=timeout, verify=verify_ssl)
         
         # Log rate limit info for debugging
         if daily_remaining:
@@ -138,8 +159,10 @@ def find_api_football_fixture_id(
         
         fixtures = data.get("response", [])
         if not fixtures:
-            logger.debug(f"No fixtures found for league {api_league_id} on {fixture_date}")
+            logger.debug(f"No fixtures found for league {api_league_id} in date range (date={fixture_date}, might_be_wrong={date_might_be_wrong})")
             return None
+        
+        logger.debug(f"Found {len(fixtures)} fixtures from API-Football for league {api_league_id}, searching for match: {home_team_name} vs {away_team_name}...")
         
         # Normalize team names for matching
         home_normalized = normalize_team_name(home_team_name)
@@ -148,6 +171,7 @@ def find_api_football_fixture_id(
         # Find best matching fixture
         best_match = None
         best_score = 0.0
+        all_scores = []  # Track all scores for debugging
         
         for api_fixture in fixtures:
             teams = api_fixture.get("teams", {})
@@ -164,18 +188,40 @@ def find_api_football_fixture_id(
             # Combined score (both teams must match well)
             combined_score = (home_score + away_score) / 2.0
             
-            if combined_score > best_score and combined_score >= 0.7:  # Minimum 70% similarity
+            # Track all scores for debugging
+            all_scores.append({
+                "api_home": api_home,
+                "api_away": api_away,
+                "home_score": home_score,
+                "away_score": away_score,
+                "combined": combined_score
+            })
+            
+            # Lower threshold if date might be wrong (more lenient matching)
+            min_similarity = 0.6 if date_might_be_wrong else 0.7
+            
+            if combined_score > best_score and combined_score >= min_similarity:
                 best_score = combined_score
                 best_match = api_fixture
+                logger.debug(f"Found potential match: {api_home} vs {api_away} (home_score={home_score:.2f}, away_score={away_score:.2f}, combined={combined_score:.2f})")
         
         if best_match:
             api_fixture_id = best_match.get("fixture", {}).get("id")
             logger.info(f"Found API-Football fixture ID {api_fixture_id} for fixture {fixture.id} (similarity: {best_score:.2f})")
             return api_fixture_id
         else:
-            logger.warning(f"No matching fixture found for {home_team_name} vs {away_team_name} on {fixture_date}")
+            # Log top 3 matches for debugging (even if below threshold)
+            if all_scores:
+                all_scores.sort(key=lambda x: x["combined"], reverse=True)
+                top_matches = all_scores[:3]
+                logger.debug(f"Top matches (below threshold): {top_matches}")
+            logger.warning(f"No matching fixture found for {home_team_name} vs {away_team_name} on {fixture_date} (searched {len(fixtures)} fixtures, min_similarity={0.6 if date_might_be_wrong else 0.7})")
             return None
             
+    except requests.Timeout as e:
+        logger.error(f"Timeout querying API-Football fixtures (timeout={timeout}s): {e}. This may happen with wide date range searches.")
+        # For timeouts, we could retry with a narrower date range, but for now just return None
+        return None
     except requests.RequestException as e:
         logger.error(f"Error querying API-Football fixtures: {e}")
         return None
@@ -413,14 +459,7 @@ def download_injuries_from_api_football(
             logger.warning(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
         
-        # Get league
-        league = db.query(League).filter(League.id == fixture.league_id).first()
-        if not league:
-            error_msg = f"League not found: league_id={fixture.league_id}"
-            logger.warning(f"Fixture {fixture_id}: {error_msg}")
-            return {"success": False, "error": error_msg}
-        
-        # Get fixture date - try multiple sources
+        # Get fixture date FIRST - try multiple sources (needed for league lookup fallback)
         fixture_date = None
         
         # Try 1: Check if fixture has match_date attribute
@@ -433,18 +472,132 @@ def download_injuries_from_api_football(
             fixture_date = fixture.jackpot.kickoff_date
             logger.debug(f"Fixture {fixture_id}: Using jackpot.kickoff_date = {fixture_date}")
         
-        # Try 3: Use today's date as fallback (for future fixtures)
-        else:
+        # Try 3: Try to find date from matches table
+        if not fixture_date:
+            from app.db.models import Match
+            # Find a match with these teams (within last 2 years)
+            from datetime import date as date_class, timedelta
+            two_years_ago = date_class.today() - timedelta(days=730)
+            
+            match = db.query(Match).filter(
+                ((Match.home_team_id == fixture.home_team_id) & (Match.away_team_id == fixture.away_team_id)) |
+                ((Match.home_team_id == fixture.away_team_id) & (Match.away_team_id == fixture.home_team_id))
+            ).filter(
+                Match.match_date >= two_years_ago
+            ).order_by(Match.match_date.desc()).first()
+            
+            if match and match.match_date:
+                fixture_date = match.match_date
+                logger.debug(f"Fixture {fixture_id}: Using match.match_date from database = {fixture_date}")
+        
+        # Track if date might be wrong (fallback date)
+        date_might_be_wrong = False
+        
+        # Try 4: Use today's date as fallback (for future fixtures only)
+        if not fixture_date:
             from datetime import date as date_class
             fixture_date = date_class.today()
-            logger.warning(f"Fixture {fixture_id}: No date found, using today's date as fallback: {fixture_date}")
+            date_might_be_wrong = True  # Mark that this is a fallback date
+            logger.warning(f"Fixture {fixture_id}: No date found in fixture/jackpot/matches, using today's date as fallback: {fixture_date}")
         
         if not fixture_date:
             error_msg = f"Could not determine fixture date for fixture {fixture_id}"
             logger.error(f"Fixture {fixture_id}: {error_msg}")
             return {"success": False, "error": error_msg}
         
-        logger.debug(f"Fixture {fixture_id}: {home_team.name} vs {away_team.name}, league={league.code}, date={fixture_date}")
+        # Get league - try multiple sources
+        logger.debug(f"Fixture {fixture_id}: Starting league lookup - fixture.league_id={fixture.league_id}, home_team_id={fixture.home_team_id}, away_team_id={fixture.away_team_id}")
+        league = None
+        
+        # Method 1: Try fixture.league_id
+        if fixture.league_id:
+            league = db.query(League).filter(League.id == fixture.league_id).first()
+            if league:
+                logger.debug(f"Fixture {fixture_id}: ✓ Method 1 (fixture.league_id): Found league {league.code} (ID: {league.id})")
+            else:
+                logger.debug(f"Fixture {fixture_id}: ✗ Method 1 (fixture.league_id): League ID {fixture.league_id} not found in leagues table")
+        else:
+            logger.debug(f"Fixture {fixture_id}: ✗ Method 1 (fixture.league_id): fixture.league_id is None")
+        
+        # Method 2: Try home team's league
+        if not league:
+            if home_team:
+                logger.debug(f"Fixture {fixture_id}: Checking home team - ID: {home_team.id}, league_id: {home_team.league_id}")
+                if home_team.league_id:
+                    league = db.query(League).filter(League.id == home_team.league_id).first()
+                    if league:
+                        logger.debug(f"Fixture {fixture_id}: ✓ Method 2 (home_team.league_id): Found league {league.code} (ID: {league.id})")
+                    else:
+                        logger.debug(f"Fixture {fixture_id}: ✗ Method 2 (home_team.league_id): League ID {home_team.league_id} not found in leagues table")
+                else:
+                    logger.debug(f"Fixture {fixture_id}: ✗ Method 2 (home_team.league_id): home_team.league_id is None")
+            else:
+                logger.debug(f"Fixture {fixture_id}: ✗ Method 2 (home_team.league_id): home_team is None")
+        
+        # Method 3: Try away team's league
+        if not league:
+            if away_team:
+                logger.debug(f"Fixture {fixture_id}: Checking away team - ID: {away_team.id}, league_id: {away_team.league_id}")
+                if away_team.league_id:
+                    league = db.query(League).filter(League.id == away_team.league_id).first()
+                    if league:
+                        logger.debug(f"Fixture {fixture_id}: ✓ Method 3 (away_team.league_id): Found league {league.code} (ID: {league.id})")
+                    else:
+                        logger.debug(f"Fixture {fixture_id}: ✗ Method 3 (away_team.league_id): League ID {away_team.league_id} not found in leagues table")
+                else:
+                    logger.debug(f"Fixture {fixture_id}: ✗ Method 3 (away_team.league_id): away_team.league_id is None")
+            else:
+                logger.debug(f"Fixture {fixture_id}: ✗ Method 3 (away_team.league_id): away_team is None")
+        
+        # Method 4: Try to find from matches table using team IDs
+        if not league:
+            logger.debug(f"Fixture {fixture_id}: Attempting Method 4 (matches table lookup) - date_might_be_wrong={date_might_be_wrong}, fixture_date={fixture_date}")
+            from app.db.models import Match
+            # If date might be wrong (fallback date), search more broadly
+            if date_might_be_wrong:
+                # Search for ANY match between these teams (within last 2 years)
+                from datetime import date as date_class, timedelta
+                two_years_ago = date_class.today() - timedelta(days=730)
+                match = db.query(Match).filter(
+                    ((Match.home_team_id == fixture.home_team_id) & (Match.away_team_id == fixture.away_team_id)) |
+                    ((Match.home_team_id == fixture.away_team_id) & (Match.away_team_id == fixture.home_team_id))
+                ).filter(
+                    Match.match_date >= two_years_ago
+                ).order_by(Match.match_date.desc()).first()
+                logger.debug(f"Fixture {fixture_id}: Method 4 (broad search): Found match? {match is not None}, match_date={match.match_date if match else None}, league_id={match.league_id if match else None}")
+            else:
+                # Try to find a match with these teams around this date
+                from datetime import timedelta
+                match = db.query(Match).filter(
+                    ((Match.home_team_id == fixture.home_team_id) & (Match.away_team_id == fixture.away_team_id)) |
+                    ((Match.home_team_id == fixture.away_team_id) & (Match.away_team_id == fixture.home_team_id))
+                ).filter(
+                    Match.match_date >= fixture_date - timedelta(days=7),
+                    Match.match_date <= fixture_date + timedelta(days=7)
+                ).first()
+                logger.debug(f"Fixture {fixture_id}: Method 4 (date-specific search): Found match? {match is not None}, match_date={match.match_date if match else None}, league_id={match.league_id if match else None}")
+            
+            if match and match.league_id:
+                league = db.query(League).filter(League.id == match.league_id).first()
+                if league:
+                    logger.debug(f"Fixture {fixture_id}: ✓ Method 4 (matches table): Found league {league.code} (ID: {league.id}) from match on {match.match_date}")
+                else:
+                    logger.debug(f"Fixture {fixture_id}: ✗ Method 4 (matches table): Match has league_id={match.league_id} but league not found in leagues table")
+            elif match:
+                logger.debug(f"Fixture {fixture_id}: ✗ Method 4 (matches table): Match found but has no league_id")
+            else:
+                logger.debug(f"Fixture {fixture_id}: ✗ Method 4 (matches table): No match found between these teams")
+        
+        if not league:
+            error_msg = f"League not found: fixture.league_id={fixture.league_id}, home_team.league_id={home_team.league_id if home_team else None}, away_team.league_id={away_team.league_id if away_team else None}"
+            logger.warning(f"Fixture {fixture_id}: {error_msg} - skipping")
+            return {
+                "success": False,
+                "error": error_msg,
+                "skipped": True  # Mark as skipped, not failed
+            }
+        
+        logger.debug(f"Fixture {fixture_id}: {home_team.name} vs {away_team.name}, league={league.code}, date={fixture_date} (might_be_wrong={date_might_be_wrong})")
         
         # Handle INT (International) league differently - no league ID needed
         api_fixture_id = None
@@ -466,7 +619,8 @@ def download_injuries_from_api_football(
             # Step 1: Find API-Football fixture ID
             api_fixture_id = find_api_football_fixture_id(
                 db, fixture, api_league_id, api_key,
-                home_team.name, away_team.name, fixture_date
+                home_team.name, away_team.name, fixture_date,
+                date_might_be_wrong=date_might_be_wrong
             )
         
         if not api_fixture_id:

@@ -16,6 +16,24 @@ from app.config import settings
 
 logger = logging.getLogger(__name__)
 
+# Try to import meteostat at module level
+# Note: meteostat 2.0.0 uses 'hourly' (function) instead of 'Hourly' (class)
+try:
+    from meteostat import Point, hourly
+    METEOSTAT_AVAILABLE = True
+    _MeteostatPoint = Point
+    _MeteostatHourly = hourly
+except ImportError as e:
+    METEOSTAT_AVAILABLE = False
+    _MeteostatPoint = None
+    _MeteostatHourly = None
+    logger.debug(f"Meteostat not available: {e}")
+except Exception as e:
+    METEOSTAT_AVAILABLE = False
+    _MeteostatPoint = None
+    _MeteostatHourly = None
+    logger.warning(f"Meteostat import failed with unexpected error: {e}")
+
 
 class WeatherProvider:
     """Base class for weather providers"""
@@ -109,25 +127,24 @@ class MeteostatProvider(WeatherProvider):
         match_datetime: datetime
     ) -> Optional[Dict]:
         """Fetch weather from Meteostat API"""
+        if not METEOSTAT_AVAILABLE or _MeteostatPoint is None or _MeteostatHourly is None:
+            logger.debug("Meteostat library not available. Install with: pip install meteostat")
+            return None
+        
         try:
-            # Meteostat uses station-based data, requires Point and Daily/Hourly
-            try:
-                from meteostat import Point, Hourly
-            except ImportError:
-                logger.warning("Meteostat library not installed. Install with: pip install meteostat")
-                return None
+            # Meteostat 2.0.0 API: uses 'hourly' function instead of 'Hourly' class
+            # Point and hourly are already imported at module level if available
             
             # Create point from lat/lon
-            location = Point(latitude, longitude)
+            location = _MeteostatPoint(latitude, longitude)
             
             # Get hourly data for the match date
             match_date = match_datetime.date()
             start = datetime.combine(match_date, datetime.min.time())
             end = datetime.combine(match_date, datetime.max.time())
             
-            # Fetch hourly data
-            data = Hourly(location, start, end)
-            df = data.fetch()
+            # Fetch hourly data (meteostat 2.0.0: hourly() returns DataFrame directly)
+            df = _MeteostatHourly(location, start, end)
             
             if df.empty:
                 return None
@@ -164,7 +181,7 @@ class MeteostatProvider(WeatherProvider):
                 "provider": "meteostat"
             }
         except Exception as e:
-            logger.debug(f"Meteostat provider failed: {e}")
+            logger.debug(f"Meteostat provider failed: {type(e).__name__}: {e}")
             return None
 
 

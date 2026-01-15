@@ -1,215 +1,240 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-9131,Burnley,9132,Huddersfield,2223,2,0,0.0,2.5
 9106,Watford,9119,Stoke,2223,2,0,0.0,3.0
-9108,Hull,9117,QPR,2223,2,0,0.0,3.5
 9126,Cardiff,9135,Reading,2223,2,0,0.0,2.0
-9123,Sheffield United,9130,Luton,2223,2,1,0.5,1.5
 9119,Stoke,9133,Rotherham,2223,2,1,0.5,2.5
 9106,Watford,9136,Wigan,2223,2,1,0.5,1.5
-9130,Luton,9132,Huddersfield,2223,2,1,0.5,4.5
 9133,Rotherham,9134,Blackpool,2223,2,1,0.5,1.5
 9119,Stoke,9130,Luton,2223,2,0,0.0,1.5
-9117,QPR,9122,Blackburn,2223,2,0,0.0,2.5
 9103,Birmingham,9114,Millwall,2223,2,1,0.5,0.5
-9126,Cardiff,9132,Huddersfield,2223,2,0,0.0,2.0
 9112,Swansea,9122,Blackburn,2223,2,0,0.0,2.0
-9130,Luton,9131,Burnley,2223,2,1,0.5,1.5
 9106,Watford,9111,Middlesbrough,2223,2,0,0.0,2.5
 9123,Sheffield United,9124,Bristol City,2223,2,0,0.0,1.0
-9107,Coventry,9132,Huddersfield,2223,2,0,0.0,3.0
-9122,Blackburn,9136,Wigan,2223,2,1,0.5,0.5
 9113,Norwich,9131,Burnley,2223,2,0,0.0,2.0
-9106,Watford,9117,QPR,2223,2,0,0.0,3.0
 9103,Birmingham,9136,Wigan,2223,2,1,0.5,1.5
-9111,Middlesbrough,9126,Cardiff,2223,2,0,0.0,4.5
-9106,Watford,9108,Hull,2223,2,1,0.5,0.5
 9103,Birmingham,9108,Hull,2223,2,0,0.0,1.5
 9123,Sheffield United,9136,Wigan,2223,2,0,0.0,2.0
 9107,Coventry,9134,Blackpool,2223,2,0,0.0,4.0
 9130,Luton,9133,Rotherham,2223,2,1,0.5,2.0
 9103,Birmingham,9134,Blackpool,2223,2,1,0.5,0.5
 9106,Watford,9124,Bristol City,2223,2,1,0.5,1.0
+9103,Birmingham,9131,Burnley,2223,2,1,0.5,2.5
+9122,Blackburn,9135,Reading,2223,2,0,0.0,3.0
+9103,Birmingham,9123,Sheffield United,2223,2,1,0.5,2.5
+9122,Blackburn,9123,Sheffield United,2223,2,0,0.0,2.0
+9112,Swansea,9133,Rotherham,2223,2,2,1.0,2.0
+9119,Stoke,9134,Blackpool,2223,2,0,0.0,1.5
+9124,Bristol City,9131,Burnley,2223,2,0,0.0,3.0
+9126,Cardiff,9130,Luton,2223,2,0,0.0,2.0
+9112,Swansea,9127,Sunderland,2223,2,0,0.0,3.5
+9131,Burnley,9136,Wigan,2223,2,0,0.0,4.5
+9113,Norwich,9119,Stoke,2223,2,1,0.5,2.0
+9119,Stoke,9136,Wigan,2223,2,0,0.0,1.0
+9122,Blackburn,9130,Luton,2223,2,1,0.5,2.0
+9124,Bristol City,9132,Huddersfield,2223,2,1,0.5,1.0
+9114,Millwall,9136,Wigan,2223,2,1,0.5,2.5
+9133,Rotherham,9136,Wigan,2223,2,1,0.5,1.0
+9111,Middlesbrough,9114,Millwall,2223,2,0,0.0,1.5
+9108,Hull,9122,Blackburn,2223,2,1,0.5,0.5
+9108,Hull,9113,Norwich,2223,2,0,0.0,3.5
+9123,Sheffield United,9126,Cardiff,2223,2,0,0.0,3.0
+9107,Coventry,9113,Norwich,2223,2,0,0.0,4.5
+9111,Middlesbrough,9112,Swansea,2223,2,0,0.0,3.5
+9119,Stoke,9132,Huddersfield,2223,2,0,0.0,3.5
+9108,Hull,9126,Cardiff,2223,2,0,0.0,3.0
+9132,Huddersfield,9133,Rotherham,2223,2,0,0.0,2.5
+9103,Birmingham,9106,Watford,2223,2,1,0.5,2.5
+9106,Watford,9122,Blackburn,2223,2,1,0.5,2.0
+9130,Luton,9135,Reading,2223,2,2,1.0,1.0
+9103,Birmingham,9121,West Brom,2223,2,0,0.0,3.5
+9108,Hull,9118,Preston,2223,2,2,1.0,
+9113,Norwich,9122,Blackburn,2223,2,0,0.0,2.0
+9103,Birmingham,9112,Swansea,2223,2,1,0.5,5.5
+9103,Birmingham,9117,QPR,2223,2,0,0.0,1.5
+9108,Hull,9112,Swansea,2223,2,1,0.5,2.5
+9108,Hull,9130,Luton,2223,2,1,0.5,1.0
+9117,QPR,9136,Wigan,2223,2,0,0.0,2.0
+9112,Swansea,9113,Norwich,2223,2,0,0.0,2.0
+9106,Watford,9118,Preston,2223,2,2,1.0,
+9114,Millwall,9121,West Brom,2223,2,1,0.5,1.5
+9107,Coventry,9121,West Brom,2223,2,0,0.0,1.0
+9106,Watford,9135,Reading,2223,2,1,0.5,3.0
+9114,Millwall,9124,Bristol City,2223,2,1,0.5,1.5
+9112,Swansea,9130,Luton,2223,2,0,0.0,1.5
+9130,Luton,9134,Blackpool,2223,2,0,0.0,2.5
+9114,Millwall,9126,Cardiff,2223,2,0,0.0,1.5
+9112,Swansea,9135,Reading,2223,2,0,0.0,4.0
+9103,Birmingham,9135,Reading,2223,2,1,0.5,3.5
+9124,Bristol City,9127,Sunderland,2223,2,1,0.5,3.5
+9106,Watford,9126,Cardiff,2223,2,0,0.0,3.5
+9107,Coventry,9111,Middlesbrough,2223,2,1,0.5,1.5
+9123,Sheffield United,9127,Sunderland,2223,2,0,0.0,3.0
+9107,Coventry,9130,Luton,2223,2,2,1.0,3.0
+9112,Swansea,9131,Burnley,2223,2,0,0.0,3.5
+9103,Birmingham,9124,Bristol City,2223,2,0,0.0,4.5
+9121,West Brom,9131,Burnley,2223,2,1,0.5,2.5
+9112,Swansea,9119,Stoke,2223,2,1,0.5,3.0
+9118,Preston,9135,Reading,2223,2,0,0.0,3.0
+9108,Hull,9121,West Brom,2223,2,0,0.0,4.5
+9119,Stoke,9121,West Brom,2223,2,0,0.0,2.5
+9111,Middlesbrough,9122,Blackburn,2223,2,0,0.0,3.0
+9127,Sunderland,9133,Rotherham,2223,2,0,0.0,3.0
+9107,Coventry,9108,Hull,2223,2,1,0.5,3.5
+9122,Blackburn,9124,Bristol City,2223,2,1,0.5,3.5
+9113,Norwich,9126,Cardiff,2223,2,0,0.0,1.5
+9107,Coventry,9112,Swansea,2223,2,2,1.0,3.0
+9134,Blackpool,9136,Wigan,2223,2,0,0.0,2.0
+9131,Burnley,9135,Reading,2223,2,1,0.5,1.5
+9117,QPR,9127,Sunderland,2223,2,1,0.5,3.5
+9114,Millwall,9132,Huddersfield,2223,2,0,0.0,1.0
+9123,Sheffield United,9134,Blackpool,2223,2,1,0.5,4.5
+9127,Sunderland,9130,Luton,2223,2,2,1.0,2.0
+9114,Millwall,9119,Stoke,2223,2,0,0.0,1.5
+9132,Huddersfield,9135,Reading,2223,2,0,0.0,3.0
+9113,Norwich,9121,West Brom,2223,2,1,0.5,2.5
+9111,Middlesbrough,9130,Luton,2223,2,0,0.0,3.0
+9111,Middlesbrough,9133,Rotherham,2223,2,1,0.5,0.5
+9118,Preston,9134,Blackpool,2223,2,0,0.0,5.0
+9108,Hull,9124,Bristol City,2223,2,0,0.0,2.0
+9121,West Brom,9123,Sheffield United,2223,2,0,0.0,2.0
+9107,Coventry,9119,Stoke,2223,2,0,0.0,3.0
+9108,Hull,9114,Millwall,2223,2,1,0.5,0.5
+9103,Birmingham,9122,Blackburn,2223,2,0,0.0,2.0
+9124,Bristol City,9136,Wigan,2223,2,2,1.0,2.0
+9127,Sunderland,9134,Blackpool,2223,2,2,1.0,1.0
+9117,QPR,9121,West Brom,2223,2,1,0.5,2.5
+9112,Swansea,9132,Huddersfield,2223,2,1,0.5,0.5
+9106,Watford,9113,Norwich,2223,2,0,0.0,2.0
+9107,Coventry,9127,Sunderland,2223,2,1,0.5,2.5
+9107,Coventry,9135,Reading,2223,2,0,0.0,2.0
+9103,Birmingham,9118,Preston,2223,2,0,0.0,2.0
+9112,Swansea,9118,Preston,2223,2,0,0.0,3.5
+9113,Norwich,9118,Preston,2223,2,0,0.0,4.5
+9106,Watford,9127,Sunderland,2223,2,2,1.0,4.0
+9121,West Brom,9133,Rotherham,2223,2,0,0.0,3.5
+9114,Millwall,9133,Rotherham,2223,2,1,0.5,2.5
+9123,Sheffield United,9133,Rotherham,2223,2,1,0.5,0.5
+9103,Birmingham,9132,Huddersfield,2223,2,0,0.0,3.0
+9126,Cardiff,9127,Sunderland,2223,2,0,0.0,1.0
+9131,Burnley,9133,Rotherham,2223,2,1,0.5,4.5
+9117,QPR,9123,Sheffield United,2223,2,1,0.5,1.5
+9118,Preston,9124,Bristol City,2223,2,0,0.0,3.0
+9106,Watford,9123,Sheffield United,2223,2,0,0.0,1.0
+9126,Cardiff,9133,Rotherham,2223,2,0,0.0,2.0
+9103,Birmingham,9126,Cardiff,2223,2,0,0.0,1.5
+9106,Watford,9112,Swansea,2223,2,0,0.0,3.5
+9113,Norwich,9130,Luton,2223,2,0,0.0,2.0
+9130,Luton,9136,Wigan,2223,2,0,0.0,2.5
+9106,Watford,9130,Luton,2223,2,0,0.0,3.0
+9132,Huddersfield,9134,Blackpool,2223,2,1,0.5,2.5
+9108,Hull,9131,Burnley,2223,2,1,0.5,3.0
+9106,Watford,9131,Burnley,2223,2,1,0.5,1.5
+9123,Sheffield United,9135,Reading,2223,2,0,0.0,2.5
+9112,Swansea,9136,Wigan,2223,2,1,0.5,3.0
+9126,Cardiff,9131,Burnley,2223,2,1,0.5,2.5
+9103,Birmingham,9127,Sunderland,2223,2,0,0.0,3.0
+9119,Stoke,9122,Blackburn,2223,2,0,0.0,3.0
+9111,Middlesbrough,9132,Huddersfield,2223,2,1,0.5,3.0
+9111,Middlesbrough,9134,Blackpool,2223,2,0,0.0,3.0
+9117,QPR,9134,Blackpool,2223,2,0,0.0,4.0
+9114,Millwall,9131,Burnley,2223,2,1,0.5,2.0
+9103,Birmingham,9130,Luton,2223,2,1,0.5,0.5
+9118,Preston,9131,Burnley,2223,2,1,0.5,2.5
+9131,Burnley,9134,Blackpool,2223,2,2,1.0,3.0
+9107,Coventry,9136,Wigan,2223,2,1,0.5,2.0
+9117,QPR,9119,Stoke,2223,2,1,0.5,0.5
+9131,Burnley,9132,Huddersfield,2223,2,0,0.0,2.5
+9108,Hull,9117,QPR,2223,2,0,0.0,3.5
+9123,Sheffield United,9130,Luton,2223,2,1,0.5,1.5
+9130,Luton,9132,Huddersfield,2223,2,1,0.5,4.5
+9117,QPR,9122,Blackburn,2223,2,0,0.0,2.5
+9126,Cardiff,9132,Huddersfield,2223,2,0,0.0,2.0
+9130,Luton,9131,Burnley,2223,2,1,0.5,1.5
+9107,Coventry,9132,Huddersfield,2223,2,0,0.0,3.0
+9122,Blackburn,9136,Wigan,2223,2,1,0.5,0.5
+9106,Watford,9117,QPR,2223,2,0,0.0,3.0
+9111,Middlesbrough,9126,Cardiff,2223,2,0,0.0,4.5
+9106,Watford,9108,Hull,2223,2,1,0.5,0.5
 9127,Sunderland,9136,Wigan,2223,2,0,0.0,4.0
 9133,Rotherham,9135,Reading,2223,2,0,0.0,3.5
 9111,Middlesbrough,9118,Preston,2223,2,0,0.0,3.5
 9118,Preston,9132,Huddersfield,2223,2,0,0.0,2.0
 9119,Stoke,9135,Reading,2223,2,0,0.0,3.5
 9111,Middlesbrough,9136,Wigan,2223,2,0,0.0,5.0
-9103,Birmingham,9131,Burnley,2223,2,1,0.5,2.5
-9122,Blackburn,9135,Reading,2223,2,0,0.0,3.0
 9106,Watford,9121,West Brom,2223,2,1,0.5,3.5
-9103,Birmingham,9123,Sheffield United,2223,2,1,0.5,2.5
-9122,Blackburn,9123,Sheffield United,2223,2,0,0.0,2.0
-9112,Swansea,9133,Rotherham,2223,2,2,1.0,2.0
 9119,Stoke,9123,Sheffield United,2223,2,0,0.0,4.0
-9119,Stoke,9134,Blackpool,2223,2,0,0.0,1.5
 9113,Norwich,9117,QPR,2223,2,2,1.0,1.0
 9114,Millwall,9123,Sheffield United,2223,2,0,0.0,3.5
 9111,Middlesbrough,9131,Burnley,2223,2,0,0.0,3.5
 9112,Swansea,9124,Bristol City,2223,2,1,0.5,2.0
-9124,Bristol City,9131,Burnley,2223,2,0,0.0,3.0
-9126,Cardiff,9130,Luton,2223,2,0,0.0,2.0
 9126,Cardiff,9134,Blackpool,2223,2,1,0.5,3.0
-9112,Swansea,9127,Sunderland,2223,2,0,0.0,3.5
-9131,Burnley,9136,Wigan,2223,2,0,0.0,4.5
-9113,Norwich,9119,Stoke,2223,2,1,0.5,2.0
-9119,Stoke,9136,Wigan,2223,2,0,0.0,1.0
 9103,Birmingham,9119,Stoke,2223,2,1,0.5,1.5
-9122,Blackburn,9130,Luton,2223,2,1,0.5,2.0
-9124,Bristol City,9132,Huddersfield,2223,2,1,0.5,1.0
 9108,Hull,9111,Middlesbrough,2223,2,0,0.0,4.0
-9114,Millwall,9136,Wigan,2223,2,1,0.5,2.5
 9121,West Brom,9135,Reading,2223,2,0,0.0,1.5
 9122,Blackburn,9133,Rotherham,2223,2,0,0.0,3.5
-9133,Rotherham,9136,Wigan,2223,2,1,0.5,1.0
 9123,Sheffield United,9131,Burnley,2223,2,0,0.0,4.5
-9111,Middlesbrough,9114,Millwall,2223,2,0,0.0,1.5
-9108,Hull,9122,Blackburn,2223,2,1,0.5,0.5
 9112,Swansea,9123,Sheffield United,2223,2,0,0.0,2.0
-9108,Hull,9113,Norwich,2223,2,0,0.0,3.5
-9123,Sheffield United,9126,Cardiff,2223,2,0,0.0,3.0
-9107,Coventry,9113,Norwich,2223,2,0,0.0,4.5
 9112,Swansea,9134,Blackpool,2223,2,0,0.0,2.0
 9112,Swansea,9126,Cardiff,2223,2,0,0.0,3.5
-9111,Middlesbrough,9112,Swansea,2223,2,0,0.0,3.5
-9119,Stoke,9132,Huddersfield,2223,2,0,0.0,3.5
-9108,Hull,9126,Cardiff,2223,2,0,0.0,3.0
 9124,Bristol City,9130,Luton,2223,2,0,0.0,1.5
 9107,Coventry,9122,Blackburn,2223,2,1,0.5,1.5
-9132,Huddersfield,9133,Rotherham,2223,2,0,0.0,2.5
-9103,Birmingham,9106,Watford,2223,2,1,0.5,2.5
 9135,Reading,9136,Wigan,2223,2,1,0.5,1.5
 9108,Hull,9135,Reading,2223,2,1,0.5,2.5
-9106,Watford,9122,Blackburn,2223,2,1,0.5,2.0
-9130,Luton,9135,Reading,2223,2,2,1.0,1.0
 9113,Norwich,9127,Sunderland,2223,2,0,0.0,1.0
-9103,Birmingham,9121,West Brom,2223,2,0,0.0,3.5
-9108,Hull,9118,Preston,2223,2,2,1.0,
-9113,Norwich,9122,Blackburn,2223,2,0,0.0,2.0
 9127,Sunderland,9132,Huddersfield,2223,2,1,0.5,2.0
-9103,Birmingham,9112,Swansea,2223,2,1,0.5,5.5
-9103,Birmingham,9117,QPR,2223,2,0,0.0,1.5
 9121,West Brom,9122,Blackburn,2223,2,1,0.5,2.5
-9108,Hull,9112,Swansea,2223,2,1,0.5,2.5
-9108,Hull,9130,Luton,2223,2,1,0.5,1.0
-9117,QPR,9136,Wigan,2223,2,0,0.0,2.0
-9112,Swansea,9113,Norwich,2223,2,0,0.0,2.0
-9106,Watford,9118,Preston,2223,2,2,1.0,
 9114,Millwall,9134,Blackpool,2223,2,0,0.0,4.0
-9114,Millwall,9121,West Brom,2223,2,1,0.5,1.5
 9107,Coventry,9126,Cardiff,2223,2,1,0.5,0.5
 9119,Stoke,9127,Sunderland,2223,2,0,0.0,3.5
-9107,Coventry,9121,West Brom,2223,2,0,0.0,1.0
-9106,Watford,9135,Reading,2223,2,1,0.5,3.0
-9114,Millwall,9124,Bristol City,2223,2,1,0.5,1.5
-9112,Swansea,9130,Luton,2223,2,0,0.0,1.5
-9130,Luton,9134,Blackpool,2223,2,0,0.0,2.5
 9118,Preston,9123,Sheffield United,2223,2,0,0.0,3.5
-9114,Millwall,9126,Cardiff,2223,2,0,0.0,1.5
 9123,Sheffield United,9132,Huddersfield,2223,2,0,0.0,1.0
-9112,Swansea,9135,Reading,2223,2,0,0.0,4.0
-9103,Birmingham,9135,Reading,2223,2,1,0.5,3.5
 9113,Norwich,9135,Reading,2223,2,2,1.0,2.0
-9124,Bristol City,9127,Sunderland,2223,2,1,0.5,3.5
 9118,Preston,9136,Wigan,2223,2,1,0.5,1.5
-9106,Watford,9126,Cardiff,2223,2,0,0.0,3.5
-9107,Coventry,9111,Middlesbrough,2223,2,1,0.5,1.5
 9111,Middlesbrough,9121,West Brom,2223,2,1,0.5,2.0
 9113,Norwich,9124,Bristol City,2223,2,0,0.0,3.0
 9114,Millwall,9135,Reading,2223,2,0,0.0,1.0
 9121,West Brom,9132,Huddersfield,2223,2,1,0.5,2.5
-9123,Sheffield United,9127,Sunderland,2223,2,0,0.0,3.0
-9107,Coventry,9130,Luton,2223,2,2,1.0,3.0
 9114,Millwall,9130,Luton,2223,2,2,1.0,2.0
-9112,Swansea,9131,Burnley,2223,2,0,0.0,3.5
 9107,Coventry,9114,Millwall,2223,2,0,0.0,3.0
-9103,Birmingham,9124,Bristol City,2223,2,0,0.0,4.5
-9121,West Brom,9131,Burnley,2223,2,1,0.5,2.5
-9112,Swansea,9119,Stoke,2223,2,1,0.5,3.0
 9111,Middlesbrough,9123,Sheffield United,2223,2,1,0.5,4.0
-9118,Preston,9135,Reading,2223,2,0,0.0,3.0
 9117,QPR,9124,Bristol City,2223,2,0,0.0,2.5
 9107,Coventry,9118,Preston,2223,2,1,0.5,0.5
-9108,Hull,9121,West Brom,2223,2,0,0.0,4.5
-9119,Stoke,9121,West Brom,2223,2,0,0.0,2.5
 9114,Millwall,9118,Preston,2223,2,0,0.0,4.0
-9111,Middlesbrough,9122,Blackburn,2223,2,0,0.0,3.0
-9127,Sunderland,9133,Rotherham,2223,2,0,0.0,3.0
-9107,Coventry,9108,Hull,2223,2,1,0.5,3.5
 9107,Coventry,9124,Bristol City,2223,2,2,1.0,1.0
 9117,QPR,9133,Rotherham,2223,2,1,0.5,3.0
-9122,Blackburn,9124,Bristol City,2223,2,1,0.5,3.5
 9121,West Brom,9124,Bristol City,2223,2,0,0.0,2.0
 9111,Middlesbrough,9119,Stoke,2223,2,2,1.0,3.0
-9113,Norwich,9126,Cardiff,2223,2,0,0.0,1.5
-9107,Coventry,9112,Swansea,2223,2,2,1.0,3.0
-9134,Blackpool,9136,Wigan,2223,2,0,0.0,2.0
 9107,Coventry,9117,QPR,2223,2,0,0.0,2.5
 9118,Preston,9133,Rotherham,2223,2,1,0.5,1.5
-9131,Burnley,9135,Reading,2223,2,1,0.5,1.5
-9117,QPR,9127,Sunderland,2223,2,1,0.5,3.5
-9114,Millwall,9132,Huddersfield,2223,2,0,0.0,1.0
 9106,Watford,9107,Coventry,2223,2,1,0.5,2.5
 9118,Preston,9119,Stoke,2223,2,0,0.0,1.5
-9123,Sheffield United,9134,Blackpool,2223,2,1,0.5,4.5
-9127,Sunderland,9130,Luton,2223,2,2,1.0,2.0
-9114,Millwall,9119,Stoke,2223,2,0,0.0,1.5
-9132,Huddersfield,9135,Reading,2223,2,0,0.0,3.0
-9113,Norwich,9121,West Brom,2223,2,1,0.5,2.5
 9107,Coventry,9123,Sheffield United,2223,2,0,0.0,2.5
 9112,Swansea,9117,QPR,2223,2,1,0.5,1.5
-9111,Middlesbrough,9130,Luton,2223,2,0,0.0,3.0
-9111,Middlesbrough,9133,Rotherham,2223,2,1,0.5,0.5
 9118,Preston,9130,Luton,2223,2,1,0.5,1.5
-9118,Preston,9134,Blackpool,2223,2,0,0.0,5.0
 9114,Millwall,9117,QPR,2223,2,0,0.0,2.5
-9108,Hull,9124,Bristol City,2223,2,0,0.0,2.0
-9121,West Brom,9123,Sheffield United,2223,2,0,0.0,2.0
 9119,Stoke,9126,Cardiff,2223,2,2,1.0,3.0
 9112,Swansea,9121,West Brom,2223,2,0,0.0,5.0
-9107,Coventry,9119,Stoke,2223,2,0,0.0,3.0
 9118,Preston,9122,Blackburn,2223,2,1,0.5,3.5
-9108,Hull,9114,Millwall,2223,2,1,0.5,0.5
 9118,Preston,9126,Cardiff,2223,2,1,0.5,1.0
-9103,Birmingham,9122,Blackburn,2223,2,0,0.0,2.0
-9124,Bristol City,9136,Wigan,2223,2,2,1.0,2.0
 9108,Hull,9136,Wigan,2223,2,0,0.0,4.0
 9117,QPR,9126,Cardiff,2223,2,1,0.5,1.5
-9127,Sunderland,9134,Blackpool,2223,2,2,1.0,1.0
 9106,Watford,9133,Rotherham,2223,2,2,1.0,2.0
 9118,Preston,9121,West Brom,2223,2,0,0.0,1.5
 9103,Birmingham,9133,Rotherham,2223,2,0,0.0,2.0
-9117,QPR,9121,West Brom,2223,2,1,0.5,2.5
-9112,Swansea,9132,Huddersfield,2223,2,1,0.5,0.5
 9119,Stoke,9124,Bristol City,2223,2,0,0.0,3.0
-9106,Watford,9113,Norwich,2223,2,0,0.0,2.0
-9107,Coventry,9127,Sunderland,2223,2,1,0.5,2.5
 9134,Blackpool,9135,Reading,2223,2,0,0.0,2.5
-9107,Coventry,9135,Reading,2223,2,0,0.0,2.0
-9103,Birmingham,9118,Preston,2223,2,0,0.0,2.0
 9117,QPR,9118,Preston,2223,2,0,0.0,1.5
 9117,QPR,9132,Huddersfield,2223,2,1,0.5,2.5
-9112,Swansea,9118,Preston,2223,2,0,0.0,3.5
 9121,West Brom,9130,Luton,2223,2,1,0.5,2.5
 9114,Millwall,9127,Sunderland,2223,2,1,0.5,2.5
-9113,Norwich,9118,Preston,2223,2,0,0.0,4.5
 9113,Norwich,9133,Rotherham,2223,2,1,0.5,1.5
 9106,Watford,9114,Millwall,2223,2,0,0.0,2.5
-9106,Watford,9127,Sunderland,2223,2,2,1.0,4.0
-9121,West Brom,9133,Rotherham,2223,2,0,0.0,3.5
 9111,Middlesbrough,9113,Norwich,2223,2,0,0.0,4.5
 9108,Hull,9127,Sunderland,2223,2,2,1.0,5.0
-9114,Millwall,9133,Rotherham,2223,2,1,0.5,2.5
-9123,Sheffield United,9133,Rotherham,2223,2,1,0.5,0.5
 9124,Bristol City,9135,Reading,2223,2,1,0.5,2.0
 9113,Norwich,9114,Millwall,2223,2,0,0.0,3.5
-9103,Birmingham,9132,Huddersfield,2223,2,0,0.0,3.0
-9126,Cardiff,9127,Sunderland,2223,2,0,0.0,1.0
-9131,Burnley,9133,Rotherham,2223,2,1,0.5,4.5
 9113,Norwich,9123,Sheffield United,2223,2,1,0.5,2.5
 9121,West Brom,9136,Wigan,2223,2,1,0.5,1.5
 9108,Hull,9134,Blackpool,2223,2,1,0.5,3.0
-9117,QPR,9123,Sheffield United,2223,2,1,0.5,1.5
 9122,Blackburn,9127,Sunderland,2223,2,0,0.0,2.5
 9111,Middlesbrough,9135,Reading,2223,2,0,0.0,3.0
 9121,West Brom,9126,Cardiff,2223,2,2,1.0,1.0
@@ -217,24 +242,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9108,Hull,9132,Huddersfield,2223,2,1,0.5,2.0
 9117,QPR,9130,Luton,2223,2,0,0.0,3.5
 9106,Watford,9132,Huddersfield,2223,2,0,0.0,3.5
-9118,Preston,9124,Bristol City,2223,2,0,0.0,3.0
 9132,Huddersfield,9136,Wigan,2223,2,0,0.0,2.0
-9106,Watford,9123,Sheffield United,2223,2,0,0.0,1.0
 9127,Sunderland,9131,Burnley,2223,2,1,0.5,3.0
-9126,Cardiff,9133,Rotherham,2223,2,0,0.0,2.0
 9103,Birmingham,9107,Coventry,2223,2,1,0.5,1.0
-9103,Birmingham,9126,Cardiff,2223,2,0,0.0,1.5
 9118,Preston,9127,Sunderland,2223,2,1,0.5,1.5
 9121,West Brom,9134,Blackpool,2223,2,0,0.0,1.5
 9103,Birmingham,9113,Norwich,2223,2,0,0.0,3.5
 9113,Norwich,9132,Huddersfield,2223,2,1,0.5,2.5
 9122,Blackburn,9131,Burnley,2223,2,0,0.0,2.0
-9106,Watford,9112,Swansea,2223,2,0,0.0,3.5
 9126,Cardiff,9136,Wigan,2223,2,1,0.5,3.0
 9119,Stoke,9131,Burnley,2223,2,1,0.5,1.5
-9113,Norwich,9130,Luton,2223,2,0,0.0,2.0
-9130,Luton,9136,Wigan,2223,2,0,0.0,2.5
-9106,Watford,9130,Luton,2223,2,0,0.0,3.0
 9106,Watford,9134,Blackpool,2223,2,0,0.0,3.0
 9113,Norwich,9136,Wigan,2223,2,2,1.0,1.0
 9107,Coventry,9131,Burnley,2223,2,0,0.0,1.0
@@ -242,27 +259,13 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9124,Bristol City,9134,Blackpool,2223,2,1,0.5,4.0
 9108,Hull,9133,Rotherham,2223,2,1,0.5,3.0
 9103,Birmingham,9111,Middlesbrough,2223,2,0,0.0,2.5
-9132,Huddersfield,9134,Blackpool,2223,2,1,0.5,2.5
 9112,Swansea,9114,Millwall,2223,2,1,0.5,3.5
-9108,Hull,9131,Burnley,2223,2,1,0.5,3.0
-9106,Watford,9131,Burnley,2223,2,1,0.5,1.5
-9123,Sheffield United,9135,Reading,2223,2,0,0.0,2.5
 9124,Bristol City,9133,Rotherham,2223,2,0,0.0,3.5
 9108,Hull,9119,Stoke,2223,2,1,0.5,1.5
-9112,Swansea,9136,Wigan,2223,2,1,0.5,3.0
-9126,Cardiff,9131,Burnley,2223,2,1,0.5,2.5
 9124,Bristol City,9126,Cardiff,2223,2,0,0.0,2.0
-9103,Birmingham,9127,Sunderland,2223,2,0,0.0,3.0
-9119,Stoke,9122,Blackburn,2223,2,0,0.0,3.0
 9117,QPR,9131,Burnley,2223,2,0,0.0,3.0
 9122,Blackburn,9126,Cardiff,2223,2,0,0.0,1.0
 9114,Millwall,9122,Blackburn,2223,2,0,0.0,5.0
-9111,Middlesbrough,9132,Huddersfield,2223,2,1,0.5,3.0
-9111,Middlesbrough,9134,Blackpool,2223,2,0,0.0,3.0
-9117,QPR,9134,Blackpool,2223,2,0,0.0,4.0
-9114,Millwall,9131,Burnley,2223,2,1,0.5,2.0
-9103,Birmingham,9130,Luton,2223,2,1,0.5,0.5
-9118,Preston,9131,Burnley,2223,2,1,0.5,2.5
 9121,West Brom,9127,Sunderland,2223,2,0,0.0,3.0
 9127,Sunderland,9135,Reading,2223,2,0,0.0,2.0
 9108,Hull,9123,Sheffield United,2223,2,0,0.0,1.5
@@ -270,8 +273,5 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9107,Coventry,9133,Rotherham,2223,2,1,0.5,3.0
 9111,Middlesbrough,9117,QPR,2223,2,0,0.0,4.5
 9122,Blackburn,9134,Blackpool,2223,2,0,0.0,1.0
-9131,Burnley,9134,Blackpool,2223,2,2,1.0,3.0
-9107,Coventry,9136,Wigan,2223,2,1,0.5,2.0
 9111,Middlesbrough,9124,Bristol City,2223,2,2,1.0,3.0
 9113,Norwich,9134,Blackpool,2223,2,0,0.0,1.0
-9117,QPR,9119,Stoke,2223,2,1,0.5,0.5

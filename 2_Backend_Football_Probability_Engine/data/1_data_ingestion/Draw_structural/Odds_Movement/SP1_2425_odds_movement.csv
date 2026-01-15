@@ -1,52 +1,54 @@
 league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
-SP1,2425,2024-08-15,Ath Bilbao,Getafe,4.04,4.04,0.0
 SP1,2425,2024-08-15,Betis,Girona,3.38,3.38,0.0
-SP1,2425,2024-08-16,Celta,Alaves,3.32,3.32,0.0
+SP1,2425,2024-08-15,Ath Bilbao,Getafe,4.04,4.04,0.0
 SP1,2425,2024-08-16,Las Palmas,Sevilla,3.21,3.21,0.0
+SP1,2425,2024-08-16,Celta,Alaves,3.32,3.32,0.0
 SP1,2425,2024-08-17,Osasuna,Levante,3.44,3.44,0.0
+SP1,2425,2024-08-17,Osasuna,CD Leganes,3.44,3.44,0.0
 SP1,2425,2024-08-17,Valencia,Barcelona,3.87,3.87,0.0
 SP1,2425,2024-08-18,Sociedad,Vallecano,3.74,3.74,0.0
 SP1,2425,2024-08-18,Mallorca,Ath Madrid,4.34,4.34,0.0
-SP1,2425,2024-08-19,Valladolid,Espanol,3.1,3.1,0.0
 SP1,2425,2024-08-19,Villarreal,Ath Madrid,3.67,3.67,0.0
-SP1,2425,2024-08-23,Celta,Valencia,3.35,3.35,0.0
+SP1,2425,2024-08-19,Valladolid,Espanol,3.1,3.1,0.0
 SP1,2425,2024-08-23,Sevilla,Villarreal,3.55,3.55,0.0
+SP1,2425,2024-08-23,Celta,Valencia,3.35,3.35,0.0
 SP1,2425,2024-08-24,Osasuna,Mallorca,3.01,3.01,0.0
 SP1,2425,2024-08-24,Barcelona,Ath Bilbao,4.18,4.18,0.0
 SP1,2425,2024-08-24,Espanol,Sociedad,3.13,3.13,0.0
 SP1,2425,2024-08-24,Getafe,Vallecano,2.93,2.93,0.0
+SP1,2425,2024-08-25,CD Leganes,Las Palmas,2.99,2.99,0.0
 SP1,2425,2024-08-25,Ath Madrid,Valladolid,7.96,7.96,0.0
 SP1,2425,2024-08-25,Levante,Las Palmas,2.99,2.99,0.0
 SP1,2425,2024-08-25,Alaves,Betis,3.12,3.12,0.0
 SP1,2425,2024-08-25,Ath Madrid,Girona,4.27,4.27,0.0
 SP1,2425,2024-08-26,Villarreal,Celta,3.56,3.56,0.0
-SP1,2425,2024-08-27,Mallorca,Sevilla,3.11,3.11,0.0
 SP1,2425,2024-08-27,Vallecano,Barcelona,3.95,3.95,0.0
+SP1,2425,2024-08-27,Mallorca,Sevilla,3.11,3.11,0.0
+SP1,2425,2024-08-28,Sociedad,Alaves,3.57,3.57,0.0
+SP1,2425,2024-08-28,Ath Madrid,Espanol,5.42,5.42,0.0
 SP1,2425,2024-08-28,Ath Bilbao,Valencia,3.89,3.89,0.0
 SP1,2425,2024-08-28,Valladolid,Levante,3.01,3.01,0.0
-SP1,2425,2024-08-28,Ath Madrid,Espanol,5.42,5.42,0.0
-SP1,2425,2024-08-28,Sociedad,Alaves,3.57,3.57,0.0
 SP1,2425,2024-08-29,Girona,Osasuna,3.94,3.94,0.0
 SP1,2425,2024-08-29,Las Palmas,Ath Madrid,5.09,5.09,0.0
-SP1,2425,2024-08-31,Barcelona,Valladolid,6.45,6.45,0.0
-SP1,2425,2024-08-31,Ath Bilbao,Ath Madrid,3.34,3.34,0.0
 SP1,2425,2024-08-31,Espanol,Vallecano,3.03,3.03,0.0
 SP1,2425,2024-08-31,Levante,Mallorca,2.9,2.9,0.0
 SP1,2425,2024-08-31,Valencia,Villarreal,3.45,3.45,0.0
-SP1,2425,2024-09-01,Alaves,Las Palmas,3.35,3.35,0.0
-SP1,2425,2024-09-01,Osasuna,Celta,3.31,3.31,0.0
+SP1,2425,2024-08-31,Ath Bilbao,Ath Madrid,3.34,3.34,0.0
+SP1,2425,2024-08-31,Barcelona,Valladolid,6.45,6.45,0.0
 SP1,2425,2024-09-01,Sevilla,Girona,3.73,3.73,0.0
 SP1,2425,2024-09-01,Getafe,Sociedad,2.87,2.87,0.0
 SP1,2425,2024-09-01,Ath Madrid,Betis,5.91,5.91,0.0
+SP1,2425,2024-09-01,Alaves,Las Palmas,3.35,3.35,0.0
+SP1,2425,2024-09-01,Osasuna,Celta,3.31,3.31,0.0
 SP1,2425,2024-09-13,Betis,Levante,3.72,3.72,0.0
-SP1,2425,2024-09-14,Mallorca,Villarreal,3.27,3.27,0.0
-SP1,2425,2024-09-14,Espanol,Alaves,3.07,3.07,0.0
 SP1,2425,2024-09-14,Sevilla,Getafe,3.09,3.09,0.0
 SP1,2425,2024-09-14,Sociedad,Ath Madrid,3.87,3.87,0.0
-SP1,2425,2024-09-15,Celta,Valladolid,3.97,3.97,0.0
-SP1,2425,2024-09-15,Girona,Barcelona,3.97,3.97,0.0
+SP1,2425,2024-09-14,Espanol,Alaves,3.07,3.07,0.0
+SP1,2425,2024-09-14,Mallorca,Villarreal,3.27,3.27,0.0
 SP1,2425,2024-09-15,Las Palmas,Ath Bilbao,3.43,3.43,0.0
 SP1,2425,2024-09-15,Ath Madrid,Valencia,4.98,4.98,0.0
+SP1,2425,2024-09-15,Celta,Valladolid,3.97,3.97,0.0
+SP1,2425,2024-09-15,Girona,Barcelona,3.97,3.97,0.0
 SP1,2425,2024-09-16,Vallecano,Osasuna,3.17,3.17,0.0
 SP1,2425,2024-09-17,Mallorca,Sociedad,2.81,2.81,0.0
 SP1,2425,2024-09-18,Betis,Getafe,3.08,3.08,0.0
@@ -56,157 +58,164 @@ SP1,2425,2024-09-21,Valladolid,Sociedad,3.07,3.07,0.0
 SP1,2425,2024-09-21,Osasuna,Las Palmas,3.44,3.44,0.0
 SP1,2425,2024-09-21,Valencia,Girona,3.35,3.35,0.0
 SP1,2425,2024-09-21,Ath Madrid,Espanol,8.07,8.07,0.0
-SP1,2425,2024-09-22,Getafe,Levante,2.88,2.88,0.0
-SP1,2425,2024-09-22,Ath Bilbao,Celta,3.96,3.96,0.0
 SP1,2425,2024-09-22,Villarreal,Barcelona,4.09,4.09,0.0
 SP1,2425,2024-09-22,Vallecano,Ath Madrid,3.52,3.52,0.0
+SP1,2425,2024-09-22,Ath Bilbao,Celta,3.96,3.96,0.0
+SP1,2425,2024-09-22,Getafe,CD Leganes,2.88,2.88,0.0
+SP1,2425,2024-09-22,Getafe,Levante,2.88,2.88,0.0
 SP1,2425,2024-09-23,Betis,Mallorca,3.29,3.29,0.0
-SP1,2425,2024-09-24,Sevilla,Valladolid,3.83,3.83,0.0
 SP1,2425,2024-09-24,Valencia,Osasuna,3.16,3.16,0.0
 SP1,2425,2024-09-24,Ath Madrid,Alaves,7.37,7.37,0.0
+SP1,2425,2024-09-24,Sevilla,Valladolid,3.83,3.83,0.0
 SP1,2425,2024-09-25,Girona,Vallecano,3.81,3.81,0.0
 SP1,2425,2024-09-25,Barcelona,Getafe,6.47,6.47,0.0
-SP1,2425,2024-09-26,Espanol,Villarreal,3.46,3.46,0.0
 SP1,2425,2024-09-26,Las Palmas,Betis,3.25,3.25,0.0
 SP1,2425,2024-09-26,Celta,Ath Madrid,3.74,3.74,0.0
+SP1,2425,2024-09-26,Espanol,Villarreal,3.46,3.46,0.0
 SP1,2425,2024-09-27,Valladolid,Mallorca,2.9,2.9,0.0
-SP1,2425,2024-09-28,Getafe,Alaves,2.8,2.8,0.0
-SP1,2425,2024-09-28,Vallecano,Levante,3.14,3.14,0.0
-SP1,2425,2024-09-28,Sociedad,Valencia,3.29,3.29,0.0
 SP1,2425,2024-09-28,Osasuna,Barcelona,4.76,4.76,0.0
+SP1,2425,2024-09-28,Sociedad,Valencia,3.29,3.29,0.0
+SP1,2425,2024-09-28,Getafe,Alaves,2.8,2.8,0.0
+SP1,2425,2024-09-28,Vallecano,CD Leganes,3.14,3.14,0.0
+SP1,2425,2024-09-28,Vallecano,Levante,3.14,3.14,0.0
 SP1,2425,2024-09-29,Celta,Girona,3.65,3.65,0.0
 SP1,2425,2024-09-29,Ath Bilbao,Sevilla,3.83,3.83,0.0
 SP1,2425,2024-09-29,Betis,Espanol,3.77,3.77,0.0
 SP1,2425,2024-09-29,Ath Madrid,Ath Madrid,3.44,3.44,0.0
 SP1,2425,2024-09-30,Villarreal,Las Palmas,4.71,4.71,0.0
 SP1,2425,2024-10-04,Levante,Valencia,2.82,2.82,0.0
-SP1,2425,2024-10-05,Espanol,Mallorca,2.92,2.92,0.0
 SP1,2425,2024-10-05,Getafe,Osasuna,2.95,2.95,0.0
+SP1,2425,2024-10-05,Espanol,Mallorca,2.92,2.92,0.0
 SP1,2425,2024-10-05,Las Palmas,Celta,3.58,3.58,0.0
 SP1,2425,2024-10-05,Valladolid,Vallecano,3.01,3.01,0.0
 SP1,2425,2024-10-05,Ath Madrid,Villarreal,6.6,6.6,0.0
-SP1,2425,2024-10-06,Girona,Ath Bilbao,3.27,3.27,0.0
 SP1,2425,2024-10-06,Alaves,Barcelona,4.4,4.4,0.0
-SP1,2425,2024-10-06,Sevilla,Betis,3.21,3.21,0.0
+SP1,2425,2024-10-06,Girona,Ath Bilbao,3.27,3.27,0.0
 SP1,2425,2024-10-06,Sociedad,Ath Madrid,3.16,3.16,0.0
+SP1,2425,2024-10-06,Sevilla,Betis,3.21,3.21,0.0
 SP1,2425,2024-10-18,Alaves,Valladolid,3.82,3.82,0.0
 SP1,2425,2024-10-19,Ath Bilbao,Espanol,4.32,4.32,0.0
 SP1,2425,2024-10-19,Osasuna,Betis,3.3,3.3,0.0
 SP1,2425,2024-10-19,Girona,Sociedad,3.29,3.29,0.0
 SP1,2425,2024-10-19,Celta,Ath Madrid,4.37,4.37,0.0
+SP1,2425,2024-10-20,Ath Madrid,CD Leganes,4.96,4.96,0.0
 SP1,2425,2024-10-20,Mallorca,Vallecano,3.07,3.07,0.0
 SP1,2425,2024-10-20,Ath Madrid,Levante,4.96,4.96,0.0
 SP1,2425,2024-10-20,Villarreal,Getafe,3.77,3.77,0.0
 SP1,2425,2024-10-20,Barcelona,Sevilla,5.81,5.81,0.0
 SP1,2425,2024-10-21,Valencia,Las Palmas,3.71,3.71,0.0
 SP1,2425,2024-10-25,Espanol,Sevilla,3.21,3.21,0.0
-SP1,2425,2024-10-26,Valladolid,Villarreal,3.68,3.68,0.0
 SP1,2425,2024-10-26,Vallecano,Alaves,3.09,3.09,0.0
+SP1,2425,2024-10-26,Valladolid,Villarreal,3.68,3.68,0.0
 SP1,2425,2024-10-26,Las Palmas,Girona,3.42,3.42,0.0
 SP1,2425,2024-10-26,Ath Madrid,Barcelona,4.04,4.04,0.0
+SP1,2425,2024-10-27,Betis,Ath Madrid,3.22,3.22,0.0
 SP1,2425,2024-10-27,Levante,Celta,3.18,3.18,0.0
 SP1,2425,2024-10-27,Getafe,Valencia,2.93,2.93,0.0
-SP1,2425,2024-10-27,Betis,Ath Madrid,3.22,3.22,0.0
 SP1,2425,2024-10-27,Sociedad,Osasuna,3.63,3.63,0.0
 SP1,2425,2024-10-28,Mallorca,Ath Bilbao,2.98,2.98,0.0
 SP1,2425,2024-11-01,Alaves,Mallorca,2.97,2.97,0.0
 SP1,2425,2024-11-02,Osasuna,Valladolid,3.79,3.79,0.0
+SP1,2425,2024-11-02,Girona,CD Leganes,3.64,3.64,0.0
 SP1,2425,2024-11-02,Girona,Levante,3.64,3.64,0.0
-SP1,2425,2024-11-03,Ath Madrid,Las Palmas,5.92,5.92,0.0
-SP1,2425,2024-11-03,Barcelona,Espanol,10.76,10.76,0.0
-SP1,2425,2024-11-03,Sevilla,Sociedad,3.05,3.05,0.0
 SP1,2425,2024-11-03,Ath Bilbao,Betis,3.5,3.5,0.0
+SP1,2425,2024-11-03,Sevilla,Sociedad,3.05,3.05,0.0
+SP1,2425,2024-11-03,Barcelona,Espanol,10.76,10.76,0.0
+SP1,2425,2024-11-03,Ath Madrid,Las Palmas,5.92,5.92,0.0
 SP1,2425,2024-11-04,Celta,Getafe,3.27,3.27,0.0
 SP1,2425,2024-11-08,Vallecano,Las Palmas,3.43,3.43,0.0
-SP1,2425,2024-11-09,Ath Madrid,Osasuna,7.32,7.32,0.0
 SP1,2425,2024-11-09,Villarreal,Alaves,4.14,4.14,0.0
+SP1,2425,2024-11-09,Ath Madrid,Osasuna,7.32,7.32,0.0
 SP1,2425,2024-11-09,Levante,Sevilla,3.06,3.06,0.0
-SP1,2425,2024-11-10,Betis,Celta,3.54,3.54,0.0
 SP1,2425,2024-11-10,Mallorca,Ath Madrid,3.02,3.02,0.0
 SP1,2425,2024-11-10,Getafe,Girona,3.1,3.1,0.0
 SP1,2425,2024-11-10,Valladolid,Ath Bilbao,3.42,3.42,0.0
 SP1,2425,2024-11-10,Sociedad,Barcelona,4.1,4.1,0.0
+SP1,2425,2024-11-10,Betis,Celta,3.54,3.54,0.0
 SP1,2425,2024-11-22,Getafe,Valladolid,3.44,3.44,0.0
-SP1,2425,2024-11-23,Valencia,Betis,3.06,3.06,0.0
-SP1,2425,2024-11-23,Ath Madrid,Alaves,4.86,4.86,0.0
-SP1,2425,2024-11-23,Girona,Espanol,3.91,3.91,0.0
 SP1,2425,2024-11-23,Las Palmas,Mallorca,2.94,2.94,0.0
+SP1,2425,2024-11-23,Girona,Espanol,3.91,3.91,0.0
+SP1,2425,2024-11-23,Ath Madrid,Alaves,4.86,4.86,0.0
+SP1,2425,2024-11-23,Valencia,Betis,3.06,3.06,0.0
 SP1,2425,2024-11-23,Celta,Barcelona,4.44,4.44,0.0
+SP1,2425,2024-11-24,Levante,Ath Madrid,4.66,4.66,0.0
 SP1,2425,2024-11-24,Osasuna,Villarreal,3.45,3.45,0.0
 SP1,2425,2024-11-24,Sevilla,Vallecano,3.23,3.23,0.0
-SP1,2425,2024-11-24,Levante,Ath Madrid,4.66,4.66,0.0
 SP1,2425,2024-11-24,Ath Bilbao,Sociedad,3.04,3.04,0.0
 SP1,2425,2024-11-29,Mallorca,Valencia,2.94,2.94,0.0
-SP1,2425,2024-11-30,Barcelona,Las Palmas,8.92,8.92,0.0
 SP1,2425,2024-11-30,Alaves,Levante,3.27,3.27,0.0
 SP1,2425,2024-11-30,Espanol,Celta,3.33,3.33,0.0
 SP1,2425,2024-11-30,Valladolid,Ath Madrid,4.07,4.07,0.0
-SP1,2425,2024-12-01,Villarreal,Girona,3.84,3.84,0.0
+SP1,2425,2024-11-30,Alaves,CD Leganes,3.27,3.27,0.0
+SP1,2425,2024-11-30,Barcelona,Las Palmas,8.92,8.92,0.0
 SP1,2425,2024-12-01,Ath Madrid,Getafe,4.75,4.75,0.0
 SP1,2425,2024-12-01,Vallecano,Ath Bilbao,3.08,3.08,0.0
 SP1,2425,2024-12-01,Sociedad,Betis,3.58,3.58,0.0
+SP1,2425,2024-12-01,Villarreal,Girona,3.84,3.84,0.0
 SP1,2425,2024-12-02,Sevilla,Osasuna,3.36,3.36,0.0
 SP1,2425,2024-12-03,Mallorca,Barcelona,4.38,4.38,0.0
 SP1,2425,2024-12-04,Ath Bilbao,Ath Madrid,3.5,3.5,0.0
 SP1,2425,2024-12-06,Celta,Mallorca,3.36,3.36,0.0
-SP1,2425,2024-12-07,Las Palmas,Valladolid,3.65,3.65,0.0
-SP1,2425,2024-12-07,Betis,Barcelona,4.5,4.5,0.0
 SP1,2425,2024-12-07,Valencia,Vallecano,2.98,2.98,0.0
+SP1,2425,2024-12-07,Betis,Barcelona,4.5,4.5,0.0
+SP1,2425,2024-12-07,Las Palmas,Valladolid,3.65,3.65,0.0
 SP1,2425,2024-12-07,Girona,Ath Madrid,4.01,4.01,0.0
+SP1,2425,2024-12-08,Ath Madrid,Sevilla,4.84,4.84,0.0
 SP1,2425,2024-12-08,Levante,Sociedad,3.15,3.15,0.0
 SP1,2425,2024-12-08,Ath Bilbao,Villarreal,3.7,3.7,0.0
 SP1,2425,2024-12-08,Osasuna,Alaves,3.35,3.35,0.0
-SP1,2425,2024-12-08,Ath Madrid,Sevilla,4.84,4.84,0.0
 SP1,2425,2024-12-09,Getafe,Espanol,3.17,3.17,0.0
 SP1,2425,2024-12-13,Valladolid,Valencia,3.05,3.05,0.0
 SP1,2425,2024-12-14,Espanol,Osasuna,3.14,3.14,0.0
 SP1,2425,2024-12-14,Mallorca,Girona,3.05,3.05,0.0
 SP1,2425,2024-12-14,Sevilla,Celta,3.31,3.31,0.0
 SP1,2425,2024-12-14,Vallecano,Ath Madrid,4.01,4.01,0.0
-SP1,2425,2024-12-15,Ath Madrid,Getafe,4.3,4.3,0.0
 SP1,2425,2024-12-15,Alaves,Ath Bilbao,3.15,3.15,0.0
 SP1,2425,2024-12-15,Sociedad,Las Palmas,4.31,4.31,0.0
 SP1,2425,2024-12-15,Villarreal,Betis,3.89,3.89,0.0
 SP1,2425,2024-12-15,Barcelona,Levante,8.85,8.85,0.0
+SP1,2425,2024-12-15,Ath Madrid,Getafe,4.3,4.3,0.0
 SP1,2425,2024-12-18,Espanol,Valencia,2.95,2.95,0.0
 SP1,2425,2024-12-18,Villarreal,Vallecano,3.65,3.65,0.0
 SP1,2425,2024-12-20,Girona,Valladolid,4.83,4.83,0.0
+SP1,2425,2024-12-21,Barcelona,Ath Madrid,3.88,3.88,0.0
+SP1,2425,2024-12-21,Osasuna,Ath Bilbao,3.2,3.2,0.0
 SP1,2425,2024-12-21,Getafe,Mallorca,2.76,2.76,0.0
 SP1,2425,2024-12-21,Celta,Sociedad,3.11,3.11,0.0
-SP1,2425,2024-12-21,Osasuna,Ath Bilbao,3.2,3.2,0.0
-SP1,2425,2024-12-21,Barcelona,Ath Madrid,3.88,3.88,0.0
 SP1,2425,2024-12-22,Valencia,Alaves,3.04,3.04,0.0
 SP1,2425,2024-12-22,Ath Madrid,Sevilla,5.53,5.53,0.0
 SP1,2425,2024-12-22,Las Palmas,Espanol,3.54,3.54,0.0
 SP1,2425,2024-12-22,Levante,Villarreal,3.47,3.47,0.0
 SP1,2425,2024-12-22,Betis,Vallecano,3.54,3.54,0.0
+SP1,2425,2024-12-22,CD Leganes,Villarreal,3.47,3.47,0.0
 SP1,2425,2025-01-03,Valencia,Ath Madrid,4.67,4.67,0.0
 SP1,2425,2025-01-10,Vallecano,Celta,3.07,3.07,0.0
-SP1,2425,2025-01-11,Alaves,Girona,3.13,3.13,0.0
-SP1,2425,2025-01-11,Valladolid,Betis,3.47,3.47,0.0
 SP1,2425,2025-01-11,Espanol,Levante,3.03,3.03,0.0
+SP1,2425,2025-01-11,Alaves,Girona,3.13,3.13,0.0
 SP1,2425,2025-01-11,Sevilla,Valencia,3.42,3.42,0.0
-SP1,2425,2025-01-12,Las Palmas,Getafe,2.93,2.93,0.0
+SP1,2425,2025-01-11,Espanol,CD Leganes,3.03,3.03,0.0
+SP1,2425,2025-01-11,Valladolid,Betis,3.47,3.47,0.0
 SP1,2425,2025-01-12,Ath Madrid,Osasuna,5.3,5.3,0.0
+SP1,2425,2025-01-12,Las Palmas,Getafe,2.93,2.93,0.0
 SP1,2425,2025-01-13,Sociedad,Villarreal,3.48,3.48,0.0
 SP1,2425,2025-01-17,Espanol,Valladolid,3.36,3.36,0.0
-SP1,2425,2025-01-18,Girona,Sevilla,3.55,3.55,0.0
-SP1,2425,2025-01-18,Levante,Ath Madrid,4.15,4.15,0.0
-SP1,2425,2025-01-18,Betis,Alaves,3.68,3.68,0.0
 SP1,2425,2025-01-18,Getafe,Barcelona,4.35,4.35,0.0
+SP1,2425,2025-01-18,Betis,Alaves,3.68,3.68,0.0
+SP1,2425,2025-01-18,Levante,Ath Madrid,4.15,4.15,0.0
+SP1,2425,2025-01-18,Girona,Sevilla,3.55,3.55,0.0
+SP1,2425,2025-01-19,Valencia,Sociedad,3.05,3.05,0.0
 SP1,2425,2025-01-19,Celta,Ath Bilbao,3.14,3.14,0.0
 SP1,2425,2025-01-19,Ath Madrid,Las Palmas,8.44,8.44,0.0
 SP1,2425,2025-01-19,Osasuna,Vallecano,3.11,3.11,0.0
-SP1,2425,2025-01-19,Valencia,Sociedad,3.05,3.05,0.0
 SP1,2425,2025-01-20,Villarreal,Mallorca,3.68,3.68,0.0
 SP1,2425,2025-01-24,Las Palmas,Osasuna,3.13,3.13,0.0
-SP1,2425,2025-01-25,Mallorca,Betis,3.05,3.05,0.0
 SP1,2425,2025-01-25,Ath Madrid,Villarreal,4.09,4.09,0.0
-SP1,2425,2025-01-25,Sevilla,Espanol,3.75,3.75,0.0
+SP1,2425,2025-01-25,Mallorca,Betis,3.05,3.05,0.0
 SP1,2425,2025-01-25,Valladolid,Ath Madrid,6.31,6.31,0.0
+SP1,2425,2025-01-25,Sevilla,Espanol,3.75,3.75,0.0
+SP1,2425,2025-01-26,Ath Bilbao,Levante,4.67,4.67,0.0
 SP1,2425,2025-01-26,Vallecano,Girona,3.06,3.06,0.0
 SP1,2425,2025-01-26,Sociedad,Getafe,3.21,3.21,0.0
-SP1,2425,2025-01-26,Ath Bilbao,Levante,4.67,4.67,0.0
 SP1,2425,2025-01-26,Barcelona,Valencia,7.06,7.06,0.0
 SP1,2425,2025-01-27,Alaves,Celta,3.1,3.1,0.0
 SP1,2425,2025-01-31,Levante,Vallecano,2.99,2.99,0.0
@@ -214,137 +223,145 @@ SP1,2425,2025-02-01,Getafe,Sevilla,2.92,2.92,0.0
 SP1,2425,2025-02-01,Villarreal,Valladolid,6.59,6.59,0.0
 SP1,2425,2025-02-01,Ath Madrid,Mallorca,4.34,4.34,0.0
 SP1,2425,2025-02-01,Espanol,Ath Madrid,5.49,5.49,0.0
-SP1,2425,2025-02-02,Barcelona,Alaves,7.52,7.52,0.0
-SP1,2425,2025-02-02,Valencia,Celta,3.13,3.13,0.0
-SP1,2425,2025-02-02,Osasuna,Sociedad,2.97,2.97,0.0
 SP1,2425,2025-02-02,Betis,Ath Bilbao,3.26,3.26,0.0
+SP1,2425,2025-02-02,Osasuna,Sociedad,2.97,2.97,0.0
+SP1,2425,2025-02-02,Valencia,Celta,3.13,3.13,0.0
+SP1,2425,2025-02-02,Barcelona,Alaves,7.52,7.52,0.0
 SP1,2425,2025-02-03,Girona,Las Palmas,4.1,4.1,0.0
 SP1,2425,2025-02-07,Vallecano,Valladolid,4.25,4.25,0.0
 SP1,2425,2025-02-08,Celta,Betis,3.35,3.35,0.0
 SP1,2425,2025-02-08,Ath Bilbao,Girona,3.84,3.84,0.0
 SP1,2425,2025-02-08,Las Palmas,Villarreal,4.04,4.04,0.0
 SP1,2425,2025-02-08,Ath Madrid,Ath Madrid,3.68,3.68,0.0
-SP1,2425,2025-02-09,Alaves,Getafe,2.9,2.9,0.0
-SP1,2425,2025-02-09,Valencia,Levante,3.43,3.43,0.0
-SP1,2425,2025-02-09,Sociedad,Espanol,3.81,3.81,0.0
 SP1,2425,2025-02-09,Sevilla,Barcelona,4.63,4.63,0.0
+SP1,2425,2025-02-09,Sociedad,Espanol,3.81,3.81,0.0
+SP1,2425,2025-02-09,Valencia,Levante,3.43,3.43,0.0
+SP1,2425,2025-02-09,Alaves,Getafe,2.9,2.9,0.0
 SP1,2425,2025-02-10,Mallorca,Osasuna,3.15,3.15,0.0
 SP1,2425,2025-02-14,Girona,Getafe,3.22,3.22,0.0
+SP1,2425,2025-02-15,CD Leganes,Alaves,2.92,2.92,0.0
 SP1,2425,2025-02-15,Levante,Alaves,2.92,2.92,0.0
 SP1,2425,2025-02-15,Osasuna,Ath Madrid,4.32,4.32,0.0
 SP1,2425,2025-02-15,Ath Madrid,Celta,4.64,4.64,0.0
 SP1,2425,2025-02-15,Villarreal,Valencia,4.43,4.43,0.0
-SP1,2425,2025-02-16,Espanol,Ath Bilbao,3.52,3.52,0.0
-SP1,2425,2025-02-16,Valladolid,Sevilla,3.38,3.38,0.0
 SP1,2425,2025-02-16,Mallorca,Las Palmas,3.53,3.53,0.0
+SP1,2425,2025-02-16,Valladolid,Sevilla,3.38,3.38,0.0
+SP1,2425,2025-02-16,Espanol,Ath Bilbao,3.52,3.52,0.0
 SP1,2425,2025-02-16,Betis,Sociedad,3.1,3.1,0.0
 SP1,2425,2025-02-17,Barcelona,Vallecano,7.43,7.43,0.0
 SP1,2425,2025-02-21,Celta,Osasuna,3.8,3.8,0.0
+SP1,2425,2025-02-22,Las Palmas,Barcelona,6.79,6.79,0.0
 SP1,2425,2025-02-22,Alaves,Espanol,3.38,3.38,0.0
 SP1,2425,2025-02-22,Vallecano,Villarreal,3.42,3.42,0.0
 SP1,2425,2025-02-22,Valencia,Ath Madrid,3.42,3.42,0.0
-SP1,2425,2025-02-22,Las Palmas,Barcelona,6.79,6.79,0.0
-SP1,2425,2025-02-23,Ath Bilbao,Valladolid,7.34,7.34,0.0
-SP1,2425,2025-02-23,Ath Madrid,Girona,6.26,6.26,0.0
 SP1,2425,2025-02-23,Getafe,Betis,3.06,3.06,0.0
+SP1,2425,2025-02-23,Ath Madrid,Girona,6.26,6.26,0.0
+SP1,2425,2025-02-23,Ath Bilbao,Valladolid,7.34,7.34,0.0
 SP1,2425,2025-02-23,Sociedad,Levante,3.79,3.79,0.0
 SP1,2425,2025-02-24,Sevilla,Mallorca,3.17,3.17,0.0
 SP1,2425,2025-02-28,Valladolid,Las Palmas,3.21,3.21,0.0
-SP1,2425,2025-03-01,Girona,Celta,3.51,3.51,0.0
-SP1,2425,2025-03-01,Vallecano,Sevilla,3.23,3.23,0.0
 SP1,2425,2025-03-01,Betis,Ath Madrid,4.07,4.07,0.0
 SP1,2425,2025-03-01,Ath Madrid,Ath Bilbao,3.44,3.44,0.0
-SP1,2425,2025-03-02,Levante,Getafe,2.74,2.74,0.0
-SP1,2425,2025-03-02,Barcelona,Sociedad,5.97,5.97,0.0
-SP1,2425,2025-03-02,Mallorca,Alaves,3.05,3.05,0.0
+SP1,2425,2025-03-01,Girona,Celta,3.51,3.51,0.0
+SP1,2425,2025-03-01,Vallecano,Sevilla,3.23,3.23,0.0
 SP1,2425,2025-03-02,Osasuna,Valencia,3.16,3.16,0.0
+SP1,2425,2025-03-02,Barcelona,Sociedad,5.97,5.97,0.0
+SP1,2425,2025-03-02,Levante,Getafe,2.74,2.74,0.0
+SP1,2425,2025-03-02,Mallorca,Alaves,3.05,3.05,0.0
+SP1,2425,2025-03-08,Celta,CD Leganes,4.04,4.04,0.0
+SP1,2425,2025-03-08,Valencia,Valladolid,4.5,4.5,0.0
 SP1,2425,2025-03-08,Celta,Levante,4.04,4.04,0.0
 SP1,2425,2025-03-08,Alaves,Villarreal,3.32,3.32,0.0
-SP1,2425,2025-03-08,Valencia,Valladolid,4.5,4.5,0.0
-SP1,2425,2025-03-09,Getafe,Ath Madrid,3.1,3.1,0.0
 SP1,2425,2025-03-09,Ath Madrid,Vallecano,5.97,5.97,0.0
 SP1,2425,2025-03-09,Ath Bilbao,Mallorca,3.73,3.73,0.0
-SP1,2425,2025-03-09,Betis,Las Palmas,4.61,4.61,0.0
+SP1,2425,2025-03-09,Getafe,Ath Madrid,3.1,3.1,0.0
 SP1,2425,2025-03-09,Sociedad,Sevilla,3.15,3.15,0.0
+SP1,2425,2025-03-09,Betis,Las Palmas,4.61,4.61,0.0
 SP1,2425,2025-03-10,Espanol,Girona,3.22,3.22,0.0
 SP1,2425,2025-03-14,Las Palmas,Alaves,3.02,3.02,0.0
-SP1,2425,2025-03-15,Valladolid,Celta,3.88,3.88,0.0
-SP1,2425,2025-03-15,Mallorca,Espanol,3.37,3.37,0.0
-SP1,2425,2025-03-15,Villarreal,Ath Madrid,3.9,3.9,0.0
 SP1,2425,2025-03-15,Girona,Valencia,3.53,3.53,0.0
+SP1,2425,2025-03-15,Valladolid,Celta,3.88,3.88,0.0
+SP1,2425,2025-03-15,Villarreal,Ath Madrid,3.9,3.9,0.0
+SP1,2425,2025-03-15,Mallorca,Espanol,3.37,3.37,0.0
+SP1,2425,2025-03-16,CD Leganes,Betis,3.33,3.33,0.0
 SP1,2425,2025-03-16,Levante,Betis,3.33,3.33,0.0
 SP1,2425,2025-03-16,Sevilla,Ath Bilbao,3.15,3.15,0.0
 SP1,2425,2025-03-16,Osasuna,Getafe,2.94,2.94,0.0
 SP1,2425,2025-03-16,Vallecano,Sociedad,3.08,3.08,0.0
 SP1,2425,2025-03-16,Ath Madrid,Barcelona,3.64,3.64,0.0
 SP1,2425,2025-03-27,Barcelona,Osasuna,6.34,6.34,0.0
+SP1,2425,2025-03-29,Ath Madrid,CD Leganes,8.37,8.37,0.0
 SP1,2425,2025-03-29,Sociedad,Valladolid,4.81,4.81,0.0
 SP1,2425,2025-03-29,Espanol,Ath Madrid,3.81,3.81,0.0
 SP1,2425,2025-03-29,Alaves,Vallecano,2.99,2.99,0.0
 SP1,2425,2025-03-29,Ath Madrid,Levante,8.37,8.37,0.0
-SP1,2425,2025-03-30,Getafe,Villarreal,3.14,3.14,0.0
-SP1,2425,2025-03-30,Barcelona,Girona,6.72,6.72,0.0
-SP1,2425,2025-03-30,Ath Bilbao,Osasuna,4.33,4.33,0.0
-SP1,2425,2025-03-30,Valencia,Mallorca,3.15,3.15,0.0
 SP1,2425,2025-03-30,Betis,Sevilla,3.52,3.52,0.0
+SP1,2425,2025-03-30,Valencia,Mallorca,3.15,3.15,0.0
+SP1,2425,2025-03-30,Ath Bilbao,Osasuna,4.33,4.33,0.0
+SP1,2425,2025-03-30,Barcelona,Girona,6.72,6.72,0.0
+SP1,2425,2025-03-30,Getafe,Villarreal,3.14,3.14,0.0
 SP1,2425,2025-03-31,Celta,Las Palmas,4.17,4.17,0.0
 SP1,2425,2025-04-04,Vallecano,Espanol,3.55,3.55,0.0
 SP1,2425,2025-04-05,Girona,Alaves,3.36,3.36,0.0
-SP1,2425,2025-04-05,Ath Madrid,Valencia,5.68,5.68,0.0
-SP1,2425,2025-04-05,Mallorca,Celta,3.09,3.09,0.0
 SP1,2425,2025-04-05,Barcelona,Betis,5.5,5.5,0.0
+SP1,2425,2025-04-05,Mallorca,Celta,3.09,3.09,0.0
+SP1,2425,2025-04-05,Ath Madrid,Valencia,5.68,5.68,0.0
+SP1,2425,2025-04-06,Villarreal,Ath Bilbao,3.38,3.38,0.0
 SP1,2425,2025-04-06,Las Palmas,Sociedad,3.18,3.18,0.0
 SP1,2425,2025-04-06,Sevilla,Ath Madrid,3.29,3.29,0.0
 SP1,2425,2025-04-06,Valladolid,Getafe,3.18,3.18,0.0
-SP1,2425,2025-04-06,Villarreal,Ath Bilbao,3.38,3.38,0.0
+SP1,2425,2025-04-07,CD Leganes,Osasuna,3.1,3.1,0.0
 SP1,2425,2025-04-07,Levante,Osasuna,3.1,3.1,0.0
 SP1,2425,2025-04-11,Valencia,Sevilla,3.12,3.12,0.0
+SP1,2425,2025-04-12,Celta,Espanol,3.81,3.81,0.0
 SP1,2425,2025-04-12,Sociedad,Mallorca,3.37,3.37,0.0
 SP1,2425,2025-04-12,Getafe,Las Palmas,3.44,3.44,0.0
-SP1,2425,2025-04-12,Celta,Espanol,3.81,3.81,0.0
 SP1,2425,2025-04-12,Levante,Barcelona,5.94,5.94,0.0
-SP1,2425,2025-04-13,Osasuna,Girona,3.2,3.2,0.0
 SP1,2425,2025-04-13,Alaves,Ath Madrid,4.13,4.13,0.0
-SP1,2425,2025-04-13,Betis,Villarreal,3.52,3.52,0.0
+SP1,2425,2025-04-13,Osasuna,Girona,3.2,3.2,0.0
 SP1,2425,2025-04-13,Ath Bilbao,Vallecano,3.44,3.44,0.0
+SP1,2425,2025-04-13,Betis,Villarreal,3.52,3.52,0.0
 SP1,2425,2025-04-14,Ath Madrid,Valladolid,8.56,8.56,0.0
 SP1,2425,2025-04-18,Espanol,Getafe,2.74,2.74,0.0
-SP1,2425,2025-04-19,Vallecano,Valencia,3.13,3.13,0.0
-SP1,2425,2025-04-19,Barcelona,Celta,6.1,6.1,0.0
-SP1,2425,2025-04-19,Mallorca,Levante,3.15,3.15,0.0
 SP1,2425,2025-04-19,Las Palmas,Ath Madrid,4.2,4.2,0.0
+SP1,2425,2025-04-19,Mallorca,Levante,3.15,3.15,0.0
+SP1,2425,2025-04-19,Barcelona,Celta,6.1,6.1,0.0
+SP1,2425,2025-04-19,Vallecano,Valencia,3.13,3.13,0.0
+SP1,2425,2025-04-20,Sevilla,Alaves,3.07,3.07,0.0
 SP1,2425,2025-04-20,Valladolid,Osasuna,3.49,3.49,0.0
 SP1,2425,2025-04-20,Villarreal,Sociedad,3.85,3.85,0.0
-SP1,2425,2025-04-20,Sevilla,Alaves,3.07,3.07,0.0
 SP1,2425,2025-04-20,Ath Madrid,Ath Bilbao,3.94,3.94,0.0
 SP1,2425,2025-04-21,Girona,Betis,3.39,3.39,0.0
 SP1,2425,2025-04-22,Valencia,Espanol,3.34,3.34,0.0
 SP1,2425,2025-04-22,Barcelona,Mallorca,6.61,6.61,0.0
-SP1,2425,2025-04-23,Ath Bilbao,Las Palmas,5.0,5.0,0.0
-SP1,2425,2025-04-23,Celta,Villarreal,3.41,3.41,0.0
 SP1,2425,2025-04-23,Alaves,Sociedad,3.04,3.04,0.0
 SP1,2425,2025-04-23,Getafe,Ath Madrid,3.64,3.64,0.0
+SP1,2425,2025-04-23,Ath Bilbao,Las Palmas,5.0,5.0,0.0
+SP1,2425,2025-04-23,Celta,Villarreal,3.41,3.41,0.0
 SP1,2425,2025-04-24,Levante,Girona,3.05,3.05,0.0
+SP1,2425,2025-04-24,Betis,Valladolid,7.04,7.04,0.0
 SP1,2425,2025-04-24,Osasuna,Sevilla,3.03,3.03,0.0
 SP1,2425,2025-04-24,Ath Madrid,Vallecano,4.03,4.03,0.0
-SP1,2425,2025-04-24,Betis,Valladolid,7.04,7.04,0.0
+SP1,2425,2025-04-24,CD Leganes,Girona,3.05,3.05,0.0
 SP1,2425,2025-04-27,Villarreal,Espanol,4.85,4.85,0.0
 SP1,2425,2025-05-02,Vallecano,Getafe,2.98,2.98,0.0
 SP1,2425,2025-05-03,Alaves,Ath Madrid,3.15,3.15,0.0
-SP1,2425,2025-05-03,Villarreal,Osasuna,4.4,4.4,0.0
 SP1,2425,2025-05-03,Las Palmas,Valencia,3.34,3.34,0.0
 SP1,2425,2025-05-03,Valladolid,Barcelona,8.53,8.53,0.0
-SP1,2425,2025-05-04,Ath Madrid,Celta,5.64,5.64,0.0
-SP1,2425,2025-05-04,Sevilla,Levante,3.41,3.41,0.0
-SP1,2425,2025-05-04,Espanol,Betis,2.98,2.98,0.0
+SP1,2425,2025-05-03,Villarreal,Osasuna,4.4,4.4,0.0
 SP1,2425,2025-05-04,Sociedad,Ath Bilbao,3.14,3.14,0.0
+SP1,2425,2025-05-04,Sevilla,Levante,3.41,3.41,0.0
+SP1,2425,2025-05-04,Ath Madrid,Celta,5.64,5.64,0.0
+SP1,2425,2025-05-04,Sevilla,CD Leganes,3.41,3.41,0.0
+SP1,2425,2025-05-04,Espanol,Betis,2.98,2.98,0.0
 SP1,2425,2025-05-05,Girona,Mallorca,3.2,3.2,0.0
 SP1,2425,2025-05-09,Las Palmas,Vallecano,3.29,3.29,0.0
-SP1,2425,2025-05-10,Valencia,Getafe,3.12,3.12,0.0
 SP1,2425,2025-05-10,Celta,Sevilla,3.66,3.66,0.0
-SP1,2425,2025-05-10,Girona,Villarreal,3.72,3.72,0.0
 SP1,2425,2025-05-10,Mallorca,Valladolid,5.0,5.0,0.0
 SP1,2425,2025-05-10,Ath Madrid,Sociedad,3.83,3.83,0.0
+SP1,2425,2025-05-10,Valencia,Getafe,3.12,3.12,0.0
+SP1,2425,2025-05-10,Girona,Villarreal,3.72,3.72,0.0
+SP1,2425,2025-05-11,CD Leganes,Espanol,3.07,3.07,0.0
 SP1,2425,2025-05-11,Levante,Espanol,3.07,3.07,0.0
 SP1,2425,2025-05-11,Barcelona,Ath Madrid,4.08,4.08,0.0
 SP1,2425,2025-05-11,Ath Bilbao,Alaves,3.24,3.24,0.0
@@ -356,26 +373,26 @@ SP1,2425,2025-05-14,Alaves,Valencia,3.17,3.17,0.0
 SP1,2425,2025-05-14,Villarreal,Levante,5.26,5.26,0.0
 SP1,2425,2025-05-14,Ath Madrid,Mallorca,5.06,5.06,0.0
 SP1,2425,2025-05-15,Vallecano,Betis,3.13,3.13,0.0
-SP1,2425,2025-05-15,Osasuna,Ath Madrid,3.3,3.3,0.0
 SP1,2425,2025-05-15,Espanol,Barcelona,5.76,5.76,0.0
 SP1,2425,2025-05-15,Getafe,Ath Bilbao,2.65,2.65,0.0
-SP1,2425,2025-05-18,Ath Madrid,Betis,3.72,3.72,0.0
-SP1,2425,2025-05-18,Barcelona,Villarreal,4.15,4.15,0.0
-SP1,2425,2025-05-18,Celta,Vallecano,3.91,3.91,0.0
-SP1,2425,2025-05-18,Las Palmas,Levante,3.45,3.45,0.0
+SP1,2425,2025-05-15,Osasuna,Ath Madrid,3.3,3.3,0.0
 SP1,2425,2025-05-18,Mallorca,Getafe,3.2,3.2,0.0
-SP1,2425,2025-05-18,Osasuna,Espanol,3.48,3.48,0.0
-SP1,2425,2025-05-18,Sevilla,Ath Madrid,3.99,3.99,0.0
-SP1,2425,2025-05-18,Sociedad,Girona,3.08,3.08,0.0
 SP1,2425,2025-05-18,Valencia,Ath Bilbao,2.99,2.99,0.0
 SP1,2425,2025-05-18,Valladolid,Alaves,3.84,3.84,0.0
+SP1,2425,2025-05-18,Sevilla,Ath Madrid,3.99,3.99,0.0
+SP1,2425,2025-05-18,Osasuna,Espanol,3.48,3.48,0.0
+SP1,2425,2025-05-18,Sociedad,Girona,3.08,3.08,0.0
+SP1,2425,2025-05-18,Las Palmas,Levante,3.45,3.45,0.0
+SP1,2425,2025-05-18,Celta,Vallecano,3.91,3.91,0.0
+SP1,2425,2025-05-18,Barcelona,Villarreal,4.15,4.15,0.0
+SP1,2425,2025-05-18,Ath Madrid,Betis,3.72,3.72,0.0
 SP1,2425,2025-05-23,Betis,Valencia,3.78,3.78,0.0
-SP1,2425,2025-05-24,Ath Madrid,Sociedad,5.04,5.04,0.0
-SP1,2425,2025-05-24,Espanol,Las Palmas,4.88,4.88,0.0
-SP1,2425,2025-05-24,Levante,Valladolid,5.42,5.42,0.0
 SP1,2425,2025-05-24,Alaves,Osasuna,3.2,3.2,0.0
-SP1,2425,2025-05-24,Getafe,Celta,3.65,3.65,0.0
+SP1,2425,2025-05-24,Levante,Valladolid,5.42,5.42,0.0
+SP1,2425,2025-05-24,Espanol,Las Palmas,4.88,4.88,0.0
+SP1,2425,2025-05-24,Ath Madrid,Sociedad,5.04,5.04,0.0
 SP1,2425,2025-05-24,Vallecano,Mallorca,4.1,4.1,0.0
+SP1,2425,2025-05-24,Getafe,Celta,3.65,3.65,0.0
 SP1,2425,2025-05-25,Girona,Ath Madrid,3.75,3.75,0.0
-SP1,2425,2025-05-25,Villarreal,Sevilla,4.89,4.89,0.0
 SP1,2425,2025-05-25,Ath Bilbao,Barcelona,3.75,3.75,0.0
+SP1,2425,2025-05-25,Villarreal,Sevilla,4.89,4.89,0.0

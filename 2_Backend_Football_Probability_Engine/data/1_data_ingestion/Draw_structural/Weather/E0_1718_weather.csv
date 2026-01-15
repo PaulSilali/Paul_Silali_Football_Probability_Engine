@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,temperature,rainfall,wind_speed,weather_draw_index
+E0,1718,2017-08-11,Arsenal,Leicester,20.7,0.0,19.9,1.15
+E0,1718,2017-08-12,Southampton,Swansea,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,Watford,Liverpool,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,Crystal Palace,Huddersfield,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,Chelsea,Burnley,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,West Ham,Bournemouth,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,Everton,Stoke,19.6,0.0,17.3,1.15
+E0,1718,2017-08-12,Brighton,Man City,19.6,0.0,17.3,1.15
+E0,1718,2017-08-13,Newcastle,Tottenham,21.0,0.0,8.2,1.082
+E0,1718,2017-08-13,Man City,West Ham,21.0,0.0,8.2,1.082
+E0,1718,2017-08-19,Leicester,Brighton,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Liverpool,Crystal Palace,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Southampton,West Ham,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Stoke,Arsenal,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Bournemouth,Watford,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Swansea,Man City,18.8,0.0,25.9,1.15
+E0,1718,2017-08-19,Burnley,West Ham,18.8,0.0,25.9,1.15
+E0,1718,2017-08-20,Tottenham,Chelsea,19.9,0.0,10.8,1.108
+E0,1718,2017-08-20,Huddersfield,Newcastle,19.9,0.0,10.8,1.108
+E0,1718,2017-08-21,Man City,Everton,18.5,0.0,7.2,1.072
+E0,1718,2017-08-26,Bournemouth,Man City,24.2,0.0,5.5,1.055
+E0,1718,2017-08-26,Crystal Palace,Swansea,24.2,0.0,5.5,1.055
+E0,1718,2017-08-26,Huddersfield,Southampton,24.2,0.0,5.5,1.055
+E0,1718,2017-08-26,Man City,Leicester,24.2,0.0,5.5,1.055
+E0,1718,2017-08-26,Newcastle,West Ham,24.2,0.0,5.5,1.055
+E0,1718,2017-08-26,Watford,Brighton,24.2,0.0,5.5,1.055
+E0,1718,2017-08-27,Liverpool,Arsenal,24.4,0.0,3.5,1.035
+E0,1718,2017-08-27,West Ham,Stoke,24.4,0.0,3.5,1.035
+E0,1718,2017-08-27,Tottenham,Burnley,24.4,0.0,3.5,1.035
+E0,1718,2017-08-27,Chelsea,Everton,24.4,0.0,3.5,1.035
+E0,1718,2017-09-09,Southampton,Watford,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Man City,Liverpool,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Everton,Tottenham,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Arsenal,Bournemouth,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Brighton,West Ham,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Leicester,Chelsea,16.5,0.0,22.3,1.15
+E0,1718,2017-09-09,Stoke,Man City,16.5,0.0,22.3,1.15
+E0,1718,2017-09-10,Burnley,Crystal Palace,16.0,0.1,33.0,1.15
+E0,1718,2017-09-10,Swansea,Newcastle,16.0,0.1,33.0,1.15
+E0,1718,2017-09-11,West Ham,Huddersfield,17.4,0.0,30.2,1.15
+E0,1718,2017-09-15,Bournemouth,Brighton,14.1,0.1,7.6,1.079
+E0,1718,2017-09-16,Liverpool,Burnley,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,Huddersfield,Leicester,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,Crystal Palace,Southampton,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,Watford,Man City,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,West Ham,West Ham,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,Tottenham,Swansea,13.8,0.1,4.7,1.05
+E0,1718,2017-09-16,Newcastle,Stoke,13.8,0.1,4.7,1.05
+E0,1718,2017-09-17,Man City,Everton,15.6,0.3,10.6,1.115
+E0,1718,2017-09-17,Chelsea,Arsenal,15.6,0.3,10.6,1.115
+E0,1718,2017-09-23,Everton,Bournemouth,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Burnley,Huddersfield,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Man City,Crystal Palace,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Southampton,Man City,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Stoke,Chelsea,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,West Ham,Tottenham,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Swansea,Watford,18.5,0.0,14.0,1.14
+E0,1718,2017-09-23,Leicester,Liverpool,18.5,0.0,14.0,1.14
+E0,1718,2017-09-24,Brighton,Newcastle,20.4,0.0,15.6,1.15
+E0,1718,2017-09-25,Arsenal,West Ham,16.4,0.0,11.5,1.115
+E0,1718,2017-09-30,West Ham,Watford,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,West Ham,Swansea,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,Bournemouth,Leicester,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,Stoke,Southampton,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,Chelsea,Man City,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,Huddersfield,Tottenham,16.1,0.0,18.8,1.15
+E0,1718,2017-09-30,Man City,Crystal Palace,16.1,0.0,18.8,1.15
+E0,1718,2017-10-01,Everton,Burnley,17.4,0.0,30.0,1.15
+E0,1718,2017-10-01,Newcastle,Liverpool,17.4,0.0,30.0,1.15
+E0,1718,2017-10-01,Arsenal,Brighton,17.4,0.0,30.0,1.15
+E0,1718,2017-10-14,Man City,Stoke,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Liverpool,Man City,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Swansea,Huddersfield,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Tottenham,Bournemouth,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Burnley,West Ham,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Crystal Palace,Chelsea,18.5,0.0,14.5,1.145
+E0,1718,2017-10-14,Watford,Arsenal,18.5,0.0,14.5,1.145
+E0,1718,2017-10-15,Southampton,Newcastle,18.0,0.0,20.5,1.15
+E0,1718,2017-10-15,Brighton,Everton,18.0,0.0,20.5,1.15
+E0,1718,2017-10-16,Leicester,West Ham,19.4,0.0,34.4,1.15
+E0,1718,2017-10-20,West Ham,Brighton,13.7,0.0,23.4,1.15
+E0,1718,2017-10-21,Swansea,Leicester,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Southampton,West Ham,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Man City,Burnley,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Stoke,Bournemouth,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Chelsea,Watford,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Newcastle,Crystal Palace,14.1,0.0,39.3,1.15
+E0,1718,2017-10-21,Huddersfield,Man City,14.1,0.0,39.3,1.15
+E0,1718,2017-10-22,Everton,Arsenal,12.9,0.0,23.1,1.15
+E0,1718,2017-10-22,Tottenham,Liverpool,12.9,0.0,23.1,1.15
+E0,1718,2017-10-28,Liverpool,Huddersfield,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,Arsenal,Swansea,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,Crystal Palace,West Ham,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,West Ham,Man City,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,Man City,Tottenham,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,Watford,Stoke,15.2,0.0,23.4,1.15
+E0,1718,2017-10-28,Bournemouth,Chelsea,15.2,0.0,23.4,1.15
+E0,1718,2017-10-29,Leicester,Everton,11.7,0.0,17.3,1.15
+E0,1718,2017-10-29,Brighton,Southampton,11.7,0.0,17.3,1.15
+E0,1718,2017-10-30,Burnley,Newcastle,10.6,0.0,2.6,1.026
+E0,1718,2017-11-04,Stoke,Leicester,11.2,0.0,17.7,1.15
+E0,1718,2017-11-04,West Ham,Liverpool,11.2,0.0,17.7,1.15
+E0,1718,2017-11-04,Southampton,Burnley,11.2,0.0,17.7,1.15
+E0,1718,2017-11-04,Swansea,Brighton,11.2,0.0,17.7,1.15
+E0,1718,2017-11-04,Newcastle,Bournemouth,11.2,0.0,17.7,1.15
+E0,1718,2017-11-04,Huddersfield,West Ham,11.2,0.0,17.7,1.15
+E0,1718,2017-11-05,Chelsea,Man City,9.2,0.0,15.6,1.15
+E0,1718,2017-11-05,Tottenham,Crystal Palace,9.2,0.0,15.6,1.15
+E0,1718,2017-11-05,Everton,Watford,9.2,0.0,15.6,1.15
+E0,1718,2017-11-05,Man City,Arsenal,9.2,0.0,15.6,1.15
+E0,1718,2017-11-18,West Ham,Chelsea,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Man City,Newcastle,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Crystal Palace,Everton,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Arsenal,Tottenham,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Bournemouth,Huddersfield,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Burnley,Swansea,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Leicester,Man City,7.9,0.5,7.9,1.094
+E0,1718,2017-11-18,Liverpool,Southampton,7.9,0.5,7.9,1.094
+E0,1718,2017-11-19,Watford,West Ham,6.2,0.0,6.5,1.065
+E0,1718,2017-11-20,Brighton,Stoke,11.7,0.0,22.1,1.15
+E0,1718,2017-11-24,West Ham,Leicester,7.2,0.0,2.6,1.026
+E0,1718,2017-11-25,Liverpool,Chelsea,5.8,0.0,19.2,1.15
+E0,1718,2017-11-25,Man City,Brighton,5.8,0.0,19.2,1.15
+E0,1718,2017-11-25,Newcastle,Watford,5.8,0.0,19.2,1.15
+E0,1718,2017-11-25,Crystal Palace,Stoke,5.8,0.0,19.2,1.15
+E0,1718,2017-11-25,Swansea,Bournemouth,5.8,0.0,19.2,1.15
+E0,1718,2017-11-25,Tottenham,West Ham,5.8,0.0,19.2,1.15
+E0,1718,2017-11-26,Burnley,Arsenal,6.4,0.0,15.9,1.15
+E0,1718,2017-11-26,Huddersfield,Man City,6.4,0.0,15.9,1.15
+E0,1718,2017-11-26,Southampton,Everton,6.4,0.0,15.9,1.15
+E0,1718,2017-11-28,Brighton,Crystal Palace,5.5,0.0,12.6,1.126
+E0,1718,2017-11-28,West Ham,Newcastle,5.5,0.0,12.6,1.126
+E0,1718,2017-11-28,Watford,Man City,5.5,0.0,12.6,1.126
+E0,1718,2017-11-28,Leicester,Tottenham,5.5,0.0,12.6,1.126
+E0,1718,2017-11-29,Bournemouth,Burnley,5.8,0.0,18.8,1.15
+E0,1718,2017-11-29,Man City,Southampton,5.8,0.0,18.8,1.15
+E0,1718,2017-11-29,Stoke,Liverpool,5.8,0.0,18.8,1.15
+E0,1718,2017-11-29,Everton,West Ham,5.8,0.0,18.8,1.15
+E0,1718,2017-11-29,Chelsea,Swansea,5.8,0.0,18.8,1.15
+E0,1718,2017-11-29,Arsenal,Huddersfield,5.8,0.0,18.8,1.15
+E0,1718,2017-12-02,Watford,Tottenham,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,West Ham,Crystal Palace,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Leicester,Burnley,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Everton,Huddersfield,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Arsenal,Man City,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Brighton,Liverpool,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Chelsea,Newcastle,4.3,0.0,9.2,1.15
+E0,1718,2017-12-02,Stoke,Swansea,4.3,0.0,9.2,1.15
+E0,1718,2017-12-03,Man City,West Ham,8.8,0.0,5.6,1.056
+E0,1718,2017-12-03,Bournemouth,Southampton,8.8,0.0,5.6,1.056
+E0,1718,2017-12-09,Tottenham,Stoke,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,Burnley,Watford,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,West Ham,Chelsea,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,Swansea,West Ham,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,Huddersfield,Brighton,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,Crystal Palace,Bournemouth,2.8,0.0,11.8,1.15
+E0,1718,2017-12-09,Newcastle,Leicester,2.8,0.0,11.8,1.15
+E0,1718,2017-12-10,Man City,Man City,1.0,0.3,12.3,1.15
+E0,1718,2017-12-10,Liverpool,Everton,1.0,0.3,12.3,1.15
+E0,1718,2017-12-10,Southampton,Arsenal,1.0,0.3,12.3,1.15
+E0,1718,2017-12-12,Crystal Palace,Watford,0.6,0.0,9.5,1.15
+E0,1718,2017-12-12,Huddersfield,Chelsea,0.6,0.0,9.5,1.15
+E0,1718,2017-12-12,Burnley,Stoke,0.6,0.0,9.5,1.15
+E0,1718,2017-12-13,Swansea,Man City,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,Tottenham,Brighton,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,Southampton,Leicester,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,West Ham,Arsenal,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,Liverpool,West Ham,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,Man City,Bournemouth,8.2,0.6,25.8,1.15
+E0,1718,2017-12-13,Newcastle,Everton,8.2,0.6,25.8,1.15
+E0,1718,2017-12-16,Watford,Huddersfield,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Man City,Tottenham,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Leicester,Crystal Palace,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Stoke,West Ham,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Arsenal,Newcastle,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Brighton,Burnley,3.8,0.0,11.9,1.15
+E0,1718,2017-12-16,Chelsea,Southampton,3.8,0.0,11.9,1.15
+E0,1718,2017-12-17,West Ham,Man City,6.8,0.4,21.0,1.15
+E0,1718,2017-12-17,Bournemouth,Liverpool,6.8,0.4,21.0,1.15
+E0,1718,2017-12-18,Everton,Swansea,4.7,0.0,6.1,1.15
+E0,1718,2017-12-22,Arsenal,Liverpool,10.6,0.0,4.0,1.04
+E0,1718,2017-12-23,Swansea,Crystal Palace,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Man City,Bournemouth,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,West Ham,Newcastle,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Stoke,West Ham,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Southampton,Huddersfield,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Leicester,Man City,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Everton,Chelsea,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Burnley,Tottenham,9.6,0.0,19.2,1.15
+E0,1718,2017-12-23,Brighton,Watford,9.6,0.0,19.2,1.15
+E0,1718,2017-12-26,Watford,Leicester,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Chelsea,Brighton,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Liverpool,Swansea,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,West Ham,Everton,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Bournemouth,West Ham,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Huddersfield,Stoke,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Man City,Burnley,6.7,0.0,15.0,1.15
+E0,1718,2017-12-26,Tottenham,Southampton,6.7,0.0,15.0,1.15
+E0,1718,2017-12-27,Newcastle,Man City,3.1,0.0,27.5,1.15
+E0,1718,2017-12-28,Crystal Palace,Arsenal,3.8,0.0,11.4,1.15
+E0,1718,2017-12-30,Chelsea,Stoke,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Bournemouth,Everton,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Newcastle,Brighton,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Liverpool,Leicester,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Watford,Swansea,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Huddersfield,Burnley,12.8,0.0,31.0,1.15
+E0,1718,2017-12-30,Man City,Southampton,12.8,0.0,31.0,1.15
+E0,1718,2017-12-31,West Ham,Arsenal,10.1,0.0,25.0,1.15
+E0,1718,2017-12-31,Crystal Palace,Man City,10.1,0.0,25.0,1.15
+E0,1718,2018-01-01,Everton,Man City,6.6,0.1,18.1,1.15
+E0,1718,2018-01-01,Brighton,Bournemouth,6.6,0.1,18.1,1.15
+E0,1718,2018-01-01,Burnley,Liverpool,6.6,0.1,18.1,1.15
+E0,1718,2018-01-01,Stoke,Newcastle,6.6,0.1,18.1,1.15
+E0,1718,2018-01-01,Leicester,Huddersfield,6.6,0.1,18.1,1.15
+E0,1718,2018-01-02,Swansea,Tottenham,9.6,0.0,27.7,1.15
+E0,1718,2018-01-02,Man City,Watford,9.6,0.0,27.7,1.15
+E0,1718,2018-01-02,Southampton,Crystal Palace,9.6,0.0,27.7,1.15
+E0,1718,2018-01-02,West Ham,West Ham,9.6,0.0,27.7,1.15
+E0,1718,2018-01-03,Arsenal,Chelsea,9.1,0.0,34.4,1.15
+E0,1718,2018-01-04,Tottenham,West Ham,10.0,0.0,41.1,1.15
+E0,1718,2018-01-13,West Ham,Brighton,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Tottenham,Everton,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Newcastle,Swansea,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Chelsea,Leicester,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Huddersfield,West Ham,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Crystal Palace,Burnley,6.6,0.0,14.5,1.145
+E0,1718,2018-01-13,Watford,Southampton,6.6,0.0,14.5,1.145
+E0,1718,2018-01-14,Bournemouth,Arsenal,6.2,0.0,2.0,1.02
+E0,1718,2018-01-14,Liverpool,Man City,6.2,0.0,2.0,1.02
+E0,1718,2018-01-15,Man City,Stoke,10.1,0.0,26.1,1.15
+E0,1718,2018-01-20,West Ham,Bournemouth,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Stoke,Huddersfield,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Leicester,Watford,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Burnley,Man City,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Everton,West Ham,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Arsenal,Crystal Palace,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Brighton,Chelsea,2.8,1.1,13.2,1.15
+E0,1718,2018-01-20,Man City,Newcastle,2.8,1.1,13.2,1.15
+E0,1718,2018-01-21,Southampton,Tottenham,3.2,1.4,15.8,1.15
+E0,1718,2018-01-22,Swansea,Liverpool,9.6,0.0,18.3,1.15
+E0,1718,2018-01-30,Huddersfield,Liverpool,7.7,0.0,12.0,1.12
+E0,1718,2018-01-30,West Ham,Crystal Palace,7.7,0.0,12.0,1.12
+E0,1718,2018-01-30,Swansea,Arsenal,7.7,0.0,12.0,1.12
+E0,1718,2018-01-31,Tottenham,Man City,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Everton,Leicester,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Newcastle,Burnley,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Southampton,Brighton,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Stoke,Watford,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Man City,West Ham,6.2,0.1,28.1,1.15
+E0,1718,2018-01-31,Chelsea,Bournemouth,6.2,0.1,28.1,1.15
+E0,1718,2018-02-03,Man City,Huddersfield,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,West Ham,Southampton,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,Leicester,Swansea,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,Burnley,Man City,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,Brighton,West Ham,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,Bournemouth,Stoke,4.0,0.3,5.7,1.15
+E0,1718,2018-02-03,Arsenal,Everton,4.0,0.3,5.7,1.15
+E0,1718,2018-02-04,Liverpool,Tottenham,5.2,0.0,22.5,1.15
+E0,1718,2018-02-04,Crystal Palace,Newcastle,5.2,0.0,22.5,1.15
+E0,1718,2018-02-05,Watford,Chelsea,3.5,0.0,20.5,1.15
+E0,1718,2018-02-10,Swansea,Burnley,6.8,0.4,31.4,1.15
+E0,1718,2018-02-10,Tottenham,Arsenal,6.8,0.4,31.4,1.15
+E0,1718,2018-02-10,West Ham,Watford,6.8,0.4,31.4,1.15
+E0,1718,2018-02-10,Stoke,Brighton,6.8,0.4,31.4,1.15
+E0,1718,2018-02-10,Man City,Leicester,6.8,0.4,31.4,1.15
+E0,1718,2018-02-10,Everton,Crystal Palace,6.8,0.4,31.4,1.15
+E0,1718,2018-02-11,Newcastle,Man City,5.6,0.1,31.2,1.15
+E0,1718,2018-02-11,Southampton,Liverpool,5.6,0.1,31.2,1.15
+E0,1718,2018-02-11,Huddersfield,Bournemouth,5.6,0.1,31.2,1.15
+E0,1718,2018-02-12,Chelsea,West Ham,6.2,0.0,16.8,1.15
+E0,1718,2018-02-24,West Ham,Huddersfield,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Watford,Everton,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Bournemouth,Newcastle,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Brighton,Swansea,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Burnley,Southampton,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Leicester,Stoke,4.3,0.0,26.5,1.15
+E0,1718,2018-02-24,Liverpool,West Ham,4.3,0.0,26.5,1.15
+E0,1718,2018-02-25,Crystal Palace,Tottenham,2.8,0.0,23.9,1.15
+E0,1718,2018-02-25,Man City,Chelsea,2.8,0.0,23.9,1.15
+E0,1718,2018-03-01,Arsenal,Man City,-1.6,0.0,26.9,1.15
+E0,1718,2018-03-03,Leicester,Bournemouth,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Burnley,Everton,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Swansea,West Ham,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Southampton,Stoke,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Tottenham,Huddersfield,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Watford,West Ham,3.8,0.0,24.7,1.15
+E0,1718,2018-03-03,Liverpool,Newcastle,3.8,0.0,24.7,1.15
+E0,1718,2018-03-04,Man City,Chelsea,8.2,0.1,15.3,1.15
+E0,1718,2018-03-04,Brighton,Arsenal,8.2,0.1,15.3,1.15
+E0,1718,2018-03-05,Crystal Palace,Man City,8.9,0.1,19.4,1.15
+E0,1718,2018-03-10,Man City,Liverpool,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,West Ham,Burnley,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,West Ham,Leicester,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,Everton,Brighton,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,Huddersfield,Swansea,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,Newcastle,Southampton,13.9,0.0,25.9,1.15
+E0,1718,2018-03-10,Chelsea,Crystal Palace,13.9,0.0,25.9,1.15
+E0,1718,2018-03-11,Bournemouth,Tottenham,11.6,0.0,14.5,1.145
+E0,1718,2018-03-11,Arsenal,Watford,11.6,0.0,14.5,1.145
+E0,1718,2018-03-12,Stoke,Man City,10.1,0.1,14.3,1.146
+E0,1718,2018-03-17,Bournemouth,West Ham,0.9,0.0,28.6,1.15
+E0,1718,2018-03-17,Stoke,Everton,0.9,0.0,28.6,1.15
+E0,1718,2018-03-17,Liverpool,Watford,0.9,0.0,28.6,1.15
+E0,1718,2018-03-17,Huddersfield,Crystal Palace,0.9,0.0,28.6,1.15
+E0,1718,2018-03-31,Man City,Swansea,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,Crystal Palace,Liverpool,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,West Ham,Burnley,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,Watford,Bournemouth,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,Everton,Man City,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,West Ham,Southampton,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,Newcastle,Huddersfield,8.4,0.0,11.2,1.112
+E0,1718,2018-03-31,Brighton,Leicester,8.4,0.0,11.2,1.112
+E0,1718,2018-04-01,Arsenal,Stoke,7.2,0.0,1.1,1.011
+E0,1718,2018-04-01,Chelsea,Tottenham,7.2,0.0,1.1,1.011
+E0,1718,2018-04-07,Stoke,Tottenham,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Everton,Liverpool,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Bournemouth,Crystal Palace,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Brighton,Huddersfield,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Leicester,Newcastle,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Man City,Man City,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,Watford,Burnley,15.2,0.0,20.9,1.15
+E0,1718,2018-04-07,West Ham,Swansea,15.2,0.0,20.9,1.15
+E0,1718,2018-04-08,Arsenal,Southampton,11.6,0.3,7.2,1.081
+E0,1718,2018-04-08,Chelsea,West Ham,11.6,0.3,7.2,1.081
+E0,1718,2018-04-14,Huddersfield,Watford,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Liverpool,Bournemouth,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Tottenham,Man City,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Burnley,Leicester,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Crystal Palace,Brighton,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Southampton,Chelsea,16.8,0.0,6.5,1.065
+E0,1718,2018-04-14,Swansea,Everton,16.8,0.0,6.5,1.065
+E0,1718,2018-04-15,Newcastle,Arsenal,13.8,0.6,21.6,1.15
+E0,1718,2018-04-15,Man City,West Ham,13.8,0.6,21.6,1.15
+E0,1718,2018-04-16,West Ham,Stoke,13.8,0.0,25.8,1.15
+E0,1718,2018-04-17,Brighton,Tottenham,17.0,0.0,30.4,1.15
+E0,1718,2018-04-18,Bournemouth,Man City,21.9,0.0,17.9,1.15
+E0,1718,2018-04-19,Leicester,Southampton,26.0,0.0,5.1,1.051
+E0,1718,2018-04-19,Burnley,Chelsea,26.0,0.0,5.1,1.051
+E0,1718,2018-04-21,West Ham,Liverpool,23.2,0.0,8.4,1.084
+E0,1718,2018-04-21,Watford,Crystal Palace,23.2,0.0,8.4,1.084
+E0,1718,2018-04-22,Stoke,Burnley,19.6,0.7,21.9,1.15
+E0,1718,2018-04-22,Man City,Swansea,19.6,0.7,21.9,1.15
+E0,1718,2018-04-22,Arsenal,West Ham,19.6,0.7,21.9,1.15
+E0,1718,2018-04-23,Everton,Newcastle,15.0,0.0,23.6,1.15
+E0,1718,2018-04-28,Crystal Palace,Leicester,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Huddersfield,Everton,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Liverpool,Stoke,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Newcastle,West Ham,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Swansea,Chelsea,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Burnley,Brighton,9.2,0.0,12.1,1.121
+E0,1718,2018-04-28,Southampton,Bournemouth,9.2,0.0,12.1,1.121
+E0,1718,2018-04-29,West Ham,Man City,8.1,0.0,28.5,1.15
+E0,1718,2018-04-29,Man City,Arsenal,8.1,0.0,28.5,1.15
+E0,1718,2018-04-30,Tottenham,Watford,7.8,0.2,23.1,1.15
+E0,1718,2018-05-04,Brighton,Man City,17.9,0.0,4.1,1.041
+E0,1718,2018-05-05,Bournemouth,Swansea,20.1,0.0,11.3,1.113
+E0,1718,2018-05-05,Leicester,West Ham,20.1,0.0,11.3,1.113
+E0,1718,2018-05-05,West Ham,Tottenham,20.1,0.0,11.3,1.113
+E0,1718,2018-05-05,Everton,Southampton,20.1,0.0,11.3,1.113
+E0,1718,2018-05-05,Stoke,Crystal Palace,20.1,0.0,11.3,1.113
+E0,1718,2018-05-05,Watford,Newcastle,20.1,0.0,11.3,1.113
+E0,1718,2018-05-06,Chelsea,Liverpool,22.9,0.0,7.3,1.073
+E0,1718,2018-05-06,Arsenal,Burnley,22.9,0.0,7.3,1.073
+E0,1718,2018-05-06,Man City,Huddersfield,22.9,0.0,7.3,1.073
+E0,1718,2018-05-08,Swansea,Southampton,23.0,0.0,20.0,1.15
+E0,1718,2018-05-09,Man City,Brighton,18.5,0.0,12.0,1.12
+E0,1718,2018-05-09,Leicester,Arsenal,18.5,0.0,12.0,1.12
+E0,1718,2018-05-09,Tottenham,Newcastle,18.5,0.0,12.0,1.12
+E0,1718,2018-05-09,Chelsea,Huddersfield,18.5,0.0,12.0,1.12
+E0,1718,2018-05-10,West Ham,Man City,14.7,0.0,18.6,1.15
+E0,1718,2018-05-13,Huddersfield,Arsenal,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Crystal Palace,West Ham,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Liverpool,Brighton,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Man City,Watford,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Newcastle,Chelsea,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,West Ham,Everton,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Southampton,Man City,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Swansea,Stoke,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Tottenham,Leicester,15.8,0.1,8.1,1.084
+E0,1718,2018-05-13,Burnley,Bournemouth,15.8,0.1,8.1,1.084

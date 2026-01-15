@@ -1,0 +1,381 @@
+league_code,season,match_date,home_team,away_team,temperature,rainfall,wind_speed,weather_draw_index
+E0,2122,2021-08-13,Brentford,Arsenal,21.6,0.0,22.0,1.15
+E0,2122,2021-08-14,Man City,Leeds,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Burnley,Brighton,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Chelsea,Crystal Palace,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Everton,Southampton,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Leicester,Wolves,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Watford,Aston Villa,22.6,0.0,16.6,1.15
+E0,2122,2021-08-14,Norwich,Liverpool,22.6,0.0,16.6,1.15
+E0,2122,2021-08-15,Newcastle,West Ham,21.8,0.0,22.7,1.15
+E0,2122,2021-08-15,Tottenham,Man City,21.8,0.0,22.7,1.15
+E0,2122,2021-08-21,Liverpool,Burnley,19.4,0.0,9.4,1.094
+E0,2122,2021-08-21,Aston Villa,Newcastle,19.4,0.0,9.4,1.094
+E0,2122,2021-08-21,Crystal Palace,Brentford,19.4,0.0,9.4,1.094
+E0,2122,2021-08-21,Leeds,Everton,19.4,0.0,9.4,1.094
+E0,2122,2021-08-21,Man City,Norwich,19.4,0.0,9.4,1.094
+E0,2122,2021-08-21,Brighton,Watford,19.4,0.0,9.4,1.094
+E0,2122,2021-08-22,Southampton,Man City,20.8,0.0,16.6,1.15
+E0,2122,2021-08-22,Wolves,Tottenham,20.8,0.0,16.6,1.15
+E0,2122,2021-08-22,Arsenal,Chelsea,20.8,0.0,16.6,1.15
+E0,2122,2021-08-23,West Ham,Leicester,20.0,0.0,13.5,1.135
+E0,2122,2021-08-28,Man City,Arsenal,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,Aston Villa,Brentford,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,Brighton,Everton,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,Newcastle,Southampton,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,Norwich,Leicester,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,West Ham,Crystal Palace,20.0,0.0,19.3,1.15
+E0,2122,2021-08-28,Liverpool,Chelsea,20.0,0.0,19.3,1.15
+E0,2122,2021-08-29,Burnley,Leeds,18.3,0.0,15.5,1.15
+E0,2122,2021-08-29,Tottenham,Watford,18.3,0.0,15.5,1.15
+E0,2122,2021-08-29,Wolves,Man City,18.3,0.0,15.5,1.15
+E0,2122,2021-09-11,Crystal Palace,Tottenham,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Arsenal,Norwich,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Brentford,Brighton,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Leicester,Man City,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Man City,Newcastle,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Southampton,West Ham,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Watford,Wolves,21.0,0.0,14.0,1.14
+E0,2122,2021-09-11,Chelsea,Aston Villa,21.0,0.0,14.0,1.14
+E0,2122,2021-09-12,Leeds,Liverpool,20.0,0.0,6.6,1.066
+E0,2122,2021-09-13,Everton,Burnley,19.5,0.0,18.0,1.15
+E0,2122,2021-09-17,Newcastle,Leeds,21.1,0.0,13.4,1.134
+E0,2122,2021-09-18,Wolves,Brentford,22.2,0.0,13.3,1.133
+E0,2122,2021-09-18,Burnley,Arsenal,22.2,0.0,13.3,1.133
+E0,2122,2021-09-18,Liverpool,Crystal Palace,22.2,0.0,13.3,1.133
+E0,2122,2021-09-18,Man City,Southampton,22.2,0.0,13.3,1.133
+E0,2122,2021-09-18,Norwich,Watford,22.2,0.0,13.3,1.133
+E0,2122,2021-09-18,Aston Villa,Everton,22.2,0.0,13.3,1.133
+E0,2122,2021-09-19,Brighton,Leicester,17.7,0.3,11.2,1.121
+E0,2122,2021-09-19,West Ham,Man City,17.7,0.3,11.2,1.121
+E0,2122,2021-09-19,Tottenham,Chelsea,17.7,0.3,11.2,1.121
+E0,2122,2021-09-25,Chelsea,Man City,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Man City,Aston Villa,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Everton,Norwich,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Leeds,West Ham,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Leicester,Burnley,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Watford,Newcastle,19.8,0.0,6.9,1.069
+E0,2122,2021-09-25,Brentford,Liverpool,19.8,0.0,6.9,1.069
+E0,2122,2021-09-26,Southampton,Wolves,21.1,0.0,19.1,1.15
+E0,2122,2021-09-26,Arsenal,Tottenham,21.1,0.0,19.1,1.15
+E0,2122,2021-09-27,Crystal Palace,Brighton,17.0,0.1,26.2,1.15
+E0,2122,2021-10-02,Man City,Everton,14.6,3.2,24.2,1.15
+E0,2122,2021-10-02,Burnley,Norwich,14.6,3.2,24.2,1.15
+E0,2122,2021-10-02,Chelsea,Southampton,14.6,3.2,24.2,1.15
+E0,2122,2021-10-02,Leeds,Watford,14.6,3.2,24.2,1.15
+E0,2122,2021-10-02,Wolves,Newcastle,14.6,3.2,24.2,1.15
+E0,2122,2021-10-02,Brighton,Arsenal,14.6,3.2,24.2,1.15
+E0,2122,2021-10-03,Crystal Palace,Leicester,14.3,0.1,31.0,1.15
+E0,2122,2021-10-03,Tottenham,Aston Villa,14.3,0.1,31.0,1.15
+E0,2122,2021-10-03,West Ham,Brentford,14.3,0.1,31.0,1.15
+E0,2122,2021-10-03,Liverpool,Man City,14.3,0.1,31.0,1.15
+E0,2122,2021-10-16,Watford,Liverpool,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Aston Villa,Wolves,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Leicester,Man City,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Man City,Burnley,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Norwich,Brighton,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Southampton,Leeds,14.6,0.4,13.3,1.145
+E0,2122,2021-10-16,Brentford,Chelsea,14.6,0.4,13.3,1.145
+E0,2122,2021-10-17,Everton,West Ham,15.9,0.0,14.0,1.14
+E0,2122,2021-10-17,Newcastle,Tottenham,15.9,0.0,14.0,1.14
+E0,2122,2021-10-18,Arsenal,Crystal Palace,15.8,0.7,16.2,1.15
+E0,2122,2021-10-22,Arsenal,Aston Villa,12.8,0.0,17.4,1.15
+E0,2122,2021-10-23,Chelsea,Norwich,13.6,0.0,15.8,1.15
+E0,2122,2021-10-23,Crystal Palace,Newcastle,13.6,0.0,15.8,1.15
+E0,2122,2021-10-23,Everton,Watford,13.6,0.0,15.8,1.15
+E0,2122,2021-10-23,Leeds,Wolves,13.6,0.0,15.8,1.15
+E0,2122,2021-10-23,Southampton,Burnley,13.6,0.0,15.8,1.15
+E0,2122,2021-10-23,Brighton,Man City,13.6,0.0,15.8,1.15
+E0,2122,2021-10-24,Brentford,Leicester,14.1,0.0,21.7,1.15
+E0,2122,2021-10-24,West Ham,Tottenham,14.1,0.0,21.7,1.15
+E0,2122,2021-10-24,Man City,Liverpool,14.1,0.0,21.7,1.15
+E0,2122,2021-10-30,Leicester,Arsenal,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Burnley,Brentford,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Liverpool,Brighton,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Man City,Crystal Palace,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Newcastle,Chelsea,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Watford,Southampton,13.8,0.0,15.8,1.15
+E0,2122,2021-10-30,Tottenham,Man City,13.8,0.0,15.8,1.15
+E0,2122,2021-10-31,Norwich,Leeds,13.6,0.0,28.5,1.15
+E0,2122,2021-10-31,Aston Villa,West Ham,13.6,0.0,28.5,1.15
+E0,2122,2021-11-01,Wolves,Everton,11.3,0.0,20.0,1.15
+E0,2122,2021-11-05,Southampton,Aston Villa,8.9,0.0,11.3,1.113
+E0,2122,2021-11-06,Man City,Man City,12.4,0.0,27.1,1.15
+E0,2122,2021-11-06,Brentford,Norwich,12.4,0.0,27.1,1.15
+E0,2122,2021-11-06,Chelsea,Burnley,12.4,0.0,27.1,1.15
+E0,2122,2021-11-06,Crystal Palace,Wolves,12.4,0.0,27.1,1.15
+E0,2122,2021-11-06,Brighton,Newcastle,12.4,0.0,27.1,1.15
+E0,2122,2021-11-07,Arsenal,Watford,11.6,0.0,17.3,1.15
+E0,2122,2021-11-07,Everton,Tottenham,11.6,0.0,17.3,1.15
+E0,2122,2021-11-07,Leeds,Leicester,11.6,0.0,17.3,1.15
+E0,2122,2021-11-07,West Ham,Liverpool,11.6,0.0,17.3,1.15
+E0,2122,2021-11-20,Leicester,Chelsea,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Aston Villa,Brighton,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Burnley,Crystal Palace,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Newcastle,Brentford,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Norwich,Southampton,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Watford,Man City,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Wolves,West Ham,10.6,0.0,11.5,1.115
+E0,2122,2021-11-20,Liverpool,Arsenal,10.6,0.0,11.5,1.115
+E0,2122,2021-11-21,Man City,Everton,7.2,0.0,23.4,1.15
+E0,2122,2021-11-21,Tottenham,Leeds,7.2,0.0,23.4,1.15
+E0,2122,2021-11-27,Arsenal,Newcastle,4.3,0.0,37.7,1.15
+E0,2122,2021-11-27,Crystal Palace,Aston Villa,4.3,0.0,37.7,1.15
+E0,2122,2021-11-27,Liverpool,Southampton,4.3,0.0,37.7,1.15
+E0,2122,2021-11-27,Norwich,Wolves,4.3,0.0,37.7,1.15
+E0,2122,2021-11-27,Brighton,Leeds,4.3,0.0,37.7,1.15
+E0,2122,2021-11-28,Brentford,Everton,2.7,0.0,13.0,1.15
+E0,2122,2021-11-28,Leicester,Watford,2.7,0.0,13.0,1.15
+E0,2122,2021-11-28,Man City,West Ham,2.7,0.0,13.0,1.15
+E0,2122,2021-11-28,Chelsea,Man City,2.7,0.0,13.0,1.15
+E0,2122,2021-11-30,Newcastle,Norwich,10.7,0.0,20.5,1.15
+E0,2122,2021-11-30,Leeds,Crystal Palace,10.7,0.0,20.5,1.15
+E0,2122,2021-12-01,Southampton,Leicester,7.7,0.1,19.2,1.15
+E0,2122,2021-12-01,Watford,Chelsea,7.7,0.1,19.2,1.15
+E0,2122,2021-12-01,West Ham,Brighton,7.7,0.1,19.2,1.15
+E0,2122,2021-12-01,Wolves,Burnley,7.7,0.1,19.2,1.15
+E0,2122,2021-12-01,Aston Villa,Man City,7.7,0.1,19.2,1.15
+E0,2122,2021-12-01,Everton,Liverpool,7.7,0.1,19.2,1.15
+E0,2122,2021-12-02,Tottenham,Brentford,3.5,0.0,15.3,1.15
+E0,2122,2021-12-02,Man City,Arsenal,3.5,0.0,15.3,1.15
+E0,2122,2021-12-04,West Ham,Chelsea,6.3,0.0,22.5,1.15
+E0,2122,2021-12-04,Newcastle,Burnley,6.3,0.0,22.5,1.15
+E0,2122,2021-12-04,Southampton,Brighton,6.3,0.0,22.5,1.15
+E0,2122,2021-12-04,Wolves,Liverpool,6.3,0.0,22.5,1.15
+E0,2122,2021-12-04,Watford,Man City,6.3,0.0,22.5,1.15
+E0,2122,2021-12-05,Leeds,Brentford,6.9,0.0,24.5,1.15
+E0,2122,2021-12-05,Man City,Crystal Palace,6.9,0.0,24.5,1.15
+E0,2122,2021-12-05,Tottenham,Norwich,6.9,0.0,24.5,1.15
+E0,2122,2021-12-05,Aston Villa,Leicester,6.9,0.0,24.5,1.15
+E0,2122,2021-12-06,Everton,Arsenal,6.9,0.2,20.6,1.15
+E0,2122,2021-12-10,Brentford,Watford,6.4,0.0,22.6,1.15
+E0,2122,2021-12-11,Man City,Wolves,6.8,0.3,13.9,1.1480000000000001
+E0,2122,2021-12-11,Arsenal,Southampton,6.8,0.3,13.9,1.1480000000000001
+E0,2122,2021-12-11,Chelsea,Leeds,6.8,0.3,13.9,1.1480000000000001
+E0,2122,2021-12-11,Liverpool,Aston Villa,6.8,0.3,13.9,1.1480000000000001
+E0,2122,2021-12-11,Norwich,Man City,6.8,0.3,13.9,1.1480000000000001
+E0,2122,2021-12-12,Burnley,West Ham,12.6,0.0,18.3,1.15
+E0,2122,2021-12-12,Leicester,Newcastle,12.6,0.0,18.3,1.15
+E0,2122,2021-12-12,Crystal Palace,Everton,12.6,0.0,18.3,1.15
+E0,2122,2021-12-14,Norwich,Aston Villa,12.1,0.0,13.8,1.138
+E0,2122,2021-12-14,Man City,Leeds,12.1,0.0,13.8,1.138
+E0,2122,2021-12-15,Brighton,Wolves,11.8,0.0,9.0,1.09
+E0,2122,2021-12-15,Crystal Palace,Southampton,11.8,0.0,9.0,1.09
+E0,2122,2021-12-15,Arsenal,West Ham,11.8,0.0,9.0,1.09
+E0,2122,2021-12-16,Chelsea,Everton,10.7,0.0,3.5,1.035
+E0,2122,2021-12-16,Liverpool,Newcastle,10.7,0.0,3.5,1.035
+E0,2122,2021-12-18,Leeds,Arsenal,8.3,0.0,13.4,1.134
+E0,2122,2021-12-19,Newcastle,Man City,6.3,0.0,11.3,1.113
+E0,2122,2021-12-19,Wolves,Chelsea,6.3,0.0,11.3,1.113
+E0,2122,2021-12-19,Tottenham,Liverpool,6.3,0.0,11.3,1.113
+E0,2122,2021-12-26,Man City,Leicester,9.1,0.0,3.9,1.039
+E0,2122,2021-12-26,Norwich,Arsenal,9.1,0.0,3.9,1.039
+E0,2122,2021-12-26,Tottenham,Crystal Palace,9.1,0.0,3.9,1.039
+E0,2122,2021-12-26,West Ham,Southampton,9.1,0.0,3.9,1.039
+E0,2122,2021-12-26,Aston Villa,Chelsea,9.1,0.0,3.9,1.039
+E0,2122,2021-12-26,Brighton,Brentford,9.1,0.0,3.9,1.039
+E0,2122,2021-12-27,Newcastle,Man City,10.6,0.0,16.6,1.15
+E0,2122,2021-12-28,Crystal Palace,Norwich,10.8,0.0,23.6,1.15
+E0,2122,2021-12-28,Southampton,Tottenham,10.8,0.0,23.6,1.15
+E0,2122,2021-12-28,Watford,West Ham,10.8,0.0,23.6,1.15
+E0,2122,2021-12-28,Leicester,Liverpool,10.8,0.0,23.6,1.15
+E0,2122,2021-12-29,Chelsea,Brighton,14.4,0.0,29.6,1.15
+E0,2122,2021-12-29,Brentford,Man City,14.4,0.0,29.6,1.15
+E0,2122,2021-12-30,Man City,Burnley,13.9,0.0,30.1,1.15
+E0,2122,2022-01-01,Arsenal,Man City,13.6,0.0,25.3,1.15
+E0,2122,2022-01-01,Watford,Tottenham,13.6,0.0,25.3,1.15
+E0,2122,2022-01-01,Crystal Palace,West Ham,13.6,0.0,25.3,1.15
+E0,2122,2022-01-02,Brentford,Aston Villa,10.5,0.6,26.6,1.15
+E0,2122,2022-01-02,Everton,Brighton,10.5,0.6,26.6,1.15
+E0,2122,2022-01-02,Leeds,Burnley,10.5,0.6,26.6,1.15
+E0,2122,2022-01-02,Chelsea,Liverpool,10.5,0.6,26.6,1.15
+E0,2122,2022-01-03,Man City,Wolves,9.9,0.0,17.2,1.15
+E0,2122,2022-01-11,Southampton,Brentford,9.4,0.1,4.3,1.046
+E0,2122,2022-01-12,West Ham,Norwich,6.1,0.0,5.1,1.051
+E0,2122,2022-01-14,Brighton,Crystal Palace,3.3,0.0,6.1,1.15
+E0,2122,2022-01-15,Man City,Chelsea,4.9,0.0,6.9,1.15
+E0,2122,2022-01-15,Newcastle,Watford,4.9,0.0,6.9,1.15
+E0,2122,2022-01-15,Norwich,Everton,4.9,0.0,6.9,1.15
+E0,2122,2022-01-15,Wolves,Southampton,4.9,0.0,6.9,1.15
+E0,2122,2022-01-15,Aston Villa,Man City,4.9,0.0,6.9,1.15
+E0,2122,2022-01-16,Liverpool,Brentford,7.8,0.0,6.9,1.069
+E0,2122,2022-01-16,West Ham,Leeds,7.8,0.0,6.9,1.069
+E0,2122,2022-01-18,Brighton,Chelsea,6.5,0.0,5.2,1.052
+E0,2122,2022-01-19,Leicester,Tottenham,8.9,0.0,18.1,1.15
+E0,2122,2022-01-19,Brentford,Man City,8.9,0.0,18.1,1.15
+E0,2122,2022-01-21,Watford,Norwich,4.4,0.0,12.7,1.15
+E0,2122,2022-01-22,Everton,Aston Villa,6.3,0.0,10.6,1.106
+E0,2122,2022-01-22,Brentford,Wolves,6.3,0.0,10.6,1.106
+E0,2122,2022-01-22,Leeds,Newcastle,6.3,0.0,10.6,1.106
+E0,2122,2022-01-22,Man City,West Ham,6.3,0.0,10.6,1.106
+E0,2122,2022-01-22,Southampton,Man City,6.3,0.0,10.6,1.106
+E0,2122,2022-01-23,Arsenal,Burnley,5.8,0.0,5.2,1.052
+E0,2122,2022-01-23,Crystal Palace,Liverpool,5.8,0.0,5.2,1.052
+E0,2122,2022-01-23,Leicester,Brighton,5.8,0.0,5.2,1.052
+E0,2122,2022-01-23,Chelsea,Tottenham,5.8,0.0,5.2,1.052
+E0,2122,2022-02-05,Burnley,Watford,10.1,0.0,29.2,1.15
+E0,2122,2022-02-08,Newcastle,Everton,12.2,0.0,23.5,1.15
+E0,2122,2022-02-08,West Ham,Watford,12.2,0.0,23.5,1.15
+E0,2122,2022-02-08,Burnley,Man City,12.2,0.0,23.5,1.15
+E0,2122,2022-02-09,Man City,Brentford,11.9,0.0,15.2,1.15
+E0,2122,2022-02-09,Norwich,Crystal Palace,11.9,0.0,15.2,1.15
+E0,2122,2022-02-09,Tottenham,Southampton,11.9,0.0,15.2,1.15
+E0,2122,2022-02-09,Aston Villa,Leeds,11.9,0.0,15.2,1.15
+E0,2122,2022-02-10,Liverpool,Leicester,7.5,0.0,18.4,1.15
+E0,2122,2022-02-10,Wolves,Arsenal,7.5,0.0,18.4,1.15
+E0,2122,2022-02-12,Man City,Southampton,7.3,0.0,26.4,1.15
+E0,2122,2022-02-12,Brentford,Crystal Palace,7.3,0.0,26.4,1.15
+E0,2122,2022-02-12,Everton,Leeds,7.3,0.0,26.4,1.15
+E0,2122,2022-02-12,Watford,Brighton,7.3,0.0,26.4,1.15
+E0,2122,2022-02-12,Norwich,Man City,7.3,0.0,26.4,1.15
+E0,2122,2022-02-13,Burnley,Liverpool,8.1,0.9,31.7,1.15
+E0,2122,2022-02-13,Newcastle,Aston Villa,8.1,0.9,31.7,1.15
+E0,2122,2022-02-13,Tottenham,Wolves,8.1,0.9,31.7,1.15
+E0,2122,2022-02-13,Leicester,West Ham,8.1,0.9,31.7,1.15
+E0,2122,2022-02-15,Man City,Brighton,9.4,1.1,27.5,1.15
+E0,2122,2022-02-19,West Ham,Newcastle,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Arsenal,Brentford,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Aston Villa,Watford,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Brighton,Burnley,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Crystal Palace,Chelsea,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Liverpool,Norwich,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Southampton,Everton,8.1,1.8,34.9,1.15
+E0,2122,2022-02-19,Man City,Tottenham,8.1,1.8,34.9,1.15
+E0,2122,2022-02-20,Leeds,Man City,11.9,0.1,38.2,1.15
+E0,2122,2022-02-20,Wolves,Leicester,11.9,0.1,38.2,1.15
+E0,2122,2022-02-23,Burnley,Tottenham,9.2,0.0,26.1,1.15
+E0,2122,2022-02-23,Watford,Crystal Palace,9.2,0.0,26.1,1.15
+E0,2122,2022-02-23,Liverpool,Leeds,9.2,0.0,26.1,1.15
+E0,2122,2022-02-24,Arsenal,Wolves,6.9,0.0,31.4,1.15
+E0,2122,2022-02-25,Southampton,Norwich,10.1,0.0,15.5,1.15
+E0,2122,2022-02-26,Leeds,Tottenham,9.4,0.0,17.1,1.15
+E0,2122,2022-02-26,Brentford,Newcastle,9.4,0.0,17.1,1.15
+E0,2122,2022-02-26,Crystal Palace,Burnley,9.4,0.0,17.1,1.15
+E0,2122,2022-02-26,Man City,Watford,9.4,0.0,17.1,1.15
+E0,2122,2022-02-26,Brighton,Aston Villa,9.4,0.0,17.1,1.15
+E0,2122,2022-02-26,Everton,Man City,9.4,0.0,17.1,1.15
+E0,2122,2022-02-27,West Ham,Wolves,9.1,0.0,18.0,1.15
+E0,2122,2022-03-01,Burnley,Leicester,8.8,0.2,18.9,1.15
+E0,2122,2022-03-05,Leicester,Leeds,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Aston Villa,Southampton,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Burnley,Chelsea,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Newcastle,Brighton,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Norwich,Brentford,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Wolves,Crystal Palace,7.7,0.0,30.5,1.15
+E0,2122,2022-03-05,Liverpool,West Ham,7.7,0.0,30.5,1.15
+E0,2122,2022-03-06,Watford,Arsenal,7.0,0.0,26.9,1.15
+E0,2122,2022-03-06,Man City,Man City,7.0,0.0,26.9,1.15
+E0,2122,2022-03-07,Tottenham,Everton,6.1,0.0,25.0,1.15
+E0,2122,2022-03-10,Norwich,Chelsea,14.1,0.0,15.3,1.15
+E0,2122,2022-03-10,Southampton,Newcastle,14.1,0.0,15.3,1.15
+E0,2122,2022-03-10,Wolves,Watford,14.1,0.0,15.3,1.15
+E0,2122,2022-03-10,Leeds,Aston Villa,14.1,0.0,15.3,1.15
+E0,2122,2022-03-12,Brighton,Liverpool,11.5,0.0,22.4,1.15
+E0,2122,2022-03-12,Brentford,Burnley,11.5,0.0,22.4,1.15
+E0,2122,2022-03-12,Man City,Tottenham,11.5,0.0,22.4,1.15
+E0,2122,2022-03-13,Chelsea,Newcastle,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-13,Everton,Wolves,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-13,Leeds,Norwich,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-13,Southampton,Watford,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-13,West Ham,Aston Villa,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-13,Arsenal,Leicester,9.6,0.1,13.3,1.1360000000000001
+E0,2122,2022-03-14,Crystal Palace,Man City,12.3,0.0,12.0,1.12
+E0,2122,2022-03-16,Brighton,Tottenham,12.5,1.4,11.5,1.15
+E0,2122,2022-03-16,Arsenal,Liverpool,12.5,1.4,11.5,1.15
+E0,2122,2022-03-17,Everton,Newcastle,12.9,0.0,17.7,1.15
+E0,2122,2022-03-18,Wolves,Leeds,13.9,0.0,18.1,1.15
+E0,2122,2022-03-19,Aston Villa,Arsenal,12.5,0.0,27.9,1.15
+E0,2122,2022-03-20,Leicester,Brentford,10.4,0.0,3.0,1.03
+E0,2122,2022-03-20,Tottenham,West Ham,10.4,0.0,3.0,1.03
+E0,2122,2022-04-02,Liverpool,Watford,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Brighton,Norwich,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Burnley,Man City,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Chelsea,Brentford,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Leeds,Southampton,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Wolves,Aston Villa,6.7,0.3,14.6,1.15
+E0,2122,2022-04-02,Man City,Leicester,6.7,0.3,14.6,1.15
+E0,2122,2022-04-03,West Ham,Everton,8.9,0.0,11.5,1.115
+E0,2122,2022-04-03,Tottenham,Newcastle,8.9,0.0,11.5,1.115
+E0,2122,2022-04-04,Crystal Palace,Arsenal,14.6,0.1,25.2,1.15
+E0,2122,2022-04-06,Burnley,Everton,13.6,0.3,34.0,1.15
+E0,2122,2022-04-08,Newcastle,Wolves,10.4,0.1,16.2,1.15
+E0,2122,2022-04-09,Everton,Man City,10.6,0.1,17.4,1.15
+E0,2122,2022-04-09,Arsenal,Brighton,10.6,0.1,17.4,1.15
+E0,2122,2022-04-09,Southampton,Chelsea,10.6,0.1,17.4,1.15
+E0,2122,2022-04-09,Watford,Leeds,10.6,0.1,17.4,1.15
+E0,2122,2022-04-09,Aston Villa,Tottenham,10.6,0.1,17.4,1.15
+E0,2122,2022-04-10,Brentford,West Ham,12.1,0.0,16.2,1.15
+E0,2122,2022-04-10,Leicester,Crystal Palace,12.1,0.0,16.2,1.15
+E0,2122,2022-04-10,Norwich,Burnley,12.1,0.0,16.2,1.15
+E0,2122,2022-04-10,Man City,Liverpool,12.1,0.0,16.2,1.15
+E0,2122,2022-04-16,Tottenham,Brighton,17.5,0.0,12.3,1.123
+E0,2122,2022-04-16,Man City,Norwich,17.5,0.0,12.3,1.123
+E0,2122,2022-04-16,Southampton,Arsenal,17.5,0.0,12.3,1.123
+E0,2122,2022-04-16,Watford,Brentford,17.5,0.0,12.3,1.123
+E0,2122,2022-04-17,Newcastle,Leicester,17.6,0.0,16.2,1.15
+E0,2122,2022-04-17,West Ham,Burnley,17.6,0.0,16.2,1.15
+E0,2122,2022-04-19,Liverpool,Man City,15.2,0.0,20.9,1.15
+E0,2122,2022-04-20,Chelsea,Arsenal,16.5,0.0,22.7,1.15
+E0,2122,2022-04-20,Everton,Leicester,16.5,0.0,22.7,1.15
+E0,2122,2022-04-20,Newcastle,Crystal Palace,16.5,0.0,22.7,1.15
+E0,2122,2022-04-20,Man City,Brighton,16.5,0.0,22.7,1.15
+E0,2122,2022-04-21,Burnley,Southampton,16.8,0.0,24.5,1.15
+E0,2122,2022-04-23,Arsenal,Man City,15.9,0.0,30.3,1.15
+E0,2122,2022-04-23,Leicester,Aston Villa,15.9,0.0,30.3,1.15
+E0,2122,2022-04-23,Man City,Watford,15.9,0.0,30.3,1.15
+E0,2122,2022-04-23,Norwich,Newcastle,15.9,0.0,30.3,1.15
+E0,2122,2022-04-23,Brentford,Tottenham,15.9,0.0,30.3,1.15
+E0,2122,2022-04-24,Brighton,Southampton,17.0,0.0,21.2,1.15
+E0,2122,2022-04-24,Burnley,Wolves,17.0,0.0,21.2,1.15
+E0,2122,2022-04-24,Chelsea,West Ham,17.0,0.0,21.2,1.15
+E0,2122,2022-04-24,Liverpool,Everton,17.0,0.0,21.2,1.15
+E0,2122,2022-04-25,Crystal Palace,Leeds,13.2,0.0,23.1,1.15
+E0,2122,2022-04-28,Man City,Chelsea,13.9,0.0,9.8,1.098
+E0,2122,2022-04-30,Newcastle,Liverpool,16.0,0.0,3.9,1.039
+E0,2122,2022-04-30,Aston Villa,Norwich,16.0,0.0,3.9,1.039
+E0,2122,2022-04-30,Southampton,Crystal Palace,16.0,0.0,3.9,1.039
+E0,2122,2022-04-30,Watford,Burnley,16.0,0.0,3.9,1.039
+E0,2122,2022-04-30,Wolves,Brighton,16.0,0.0,3.9,1.039
+E0,2122,2022-04-30,Leeds,Man City,16.0,0.0,3.9,1.039
+E0,2122,2022-05-01,Everton,Chelsea,12.3,0.1,7.7,1.08
+E0,2122,2022-05-01,Tottenham,Leicester,12.3,0.1,7.7,1.08
+E0,2122,2022-05-01,West Ham,Arsenal,12.3,0.1,7.7,1.08
+E0,2122,2022-05-02,Man City,Brentford,15.6,0.0,2.4,1.024
+E0,2122,2022-05-07,Brentford,Southampton,17.9,0.0,15.7,1.15
+E0,2122,2022-05-07,Burnley,Aston Villa,17.9,0.0,15.7,1.15
+E0,2122,2022-05-07,Chelsea,Wolves,17.9,0.0,15.7,1.15
+E0,2122,2022-05-07,Crystal Palace,Watford,17.9,0.0,15.7,1.15
+E0,2122,2022-05-07,Brighton,Man City,17.9,0.0,15.7,1.15
+E0,2122,2022-05-07,Liverpool,Tottenham,17.9,0.0,15.7,1.15
+E0,2122,2022-05-08,Arsenal,Leeds,17.0,0.0,12.2,1.1219999999999999
+E0,2122,2022-05-08,Leicester,Everton,17.0,0.0,12.2,1.1219999999999999
+E0,2122,2022-05-08,Norwich,West Ham,17.0,0.0,12.2,1.1219999999999999
+E0,2122,2022-05-08,Man City,Newcastle,17.0,0.0,12.2,1.1219999999999999
+E0,2122,2022-05-10,Aston Villa,Liverpool,18.6,0.0,21.6,1.15
+E0,2122,2022-05-11,Leeds,Chelsea,13.8,1.6,24.9,1.15
+E0,2122,2022-05-11,Leicester,Norwich,13.8,1.6,24.9,1.15
+E0,2122,2022-05-11,Watford,Everton,13.8,1.6,24.9,1.15
+E0,2122,2022-05-11,Wolves,Man City,13.8,1.6,24.9,1.15
+E0,2122,2022-05-12,Tottenham,Arsenal,16.5,0.0,21.9,1.15
+E0,2122,2022-05-15,Tottenham,Burnley,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,Aston Villa,Crystal Palace,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,Leeds,Brighton,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,Watford,Leicester,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,West Ham,Man City,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,Wolves,Norwich,15.3,1.2,11.5,1.15
+E0,2122,2022-05-15,Everton,Brentford,15.3,1.2,11.5,1.15
+E0,2122,2022-05-16,Newcastle,Arsenal,19.1,0.1,29.9,1.15
+E0,2122,2022-05-17,Southampton,Liverpool,23.5,0.0,20.0,1.15
+E0,2122,2022-05-19,Everton,Crystal Palace,21.0,0.0,13.8,1.138
+E0,2122,2022-05-19,Aston Villa,Burnley,21.0,0.0,13.8,1.138
+E0,2122,2022-05-19,Chelsea,Leicester,21.0,0.0,13.8,1.138
+E0,2122,2022-05-22,Arsenal,Everton,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Brentford,Leeds,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Brighton,West Ham,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Burnley,Newcastle,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Chelsea,Watford,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Crystal Palace,Man City,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Leicester,Southampton,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Liverpool,Wolves,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Man City,Aston Villa,21.4,0.0,13.8,1.138
+E0,2122,2022-05-22,Norwich,Tottenham,21.4,0.0,13.8,1.138

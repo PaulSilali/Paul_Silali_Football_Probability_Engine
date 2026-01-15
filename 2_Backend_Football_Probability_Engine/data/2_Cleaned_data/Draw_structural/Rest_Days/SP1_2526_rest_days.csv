@@ -1,18 +1,18 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 SP1,2526,2025-08-15,Villarreal,Oviedo,82,7,False
 SP1,2526,2025-08-15,Girona,Vallecano,82,83,False
+SP1,2526,2025-08-16,Valencia,Sociedad,85,84,False
 SP1,2526,2025-08-16,Alaves,Levante,84,84,False
 SP1,2526,2025-08-16,Mallorca,Barcelona,84,83,False
-SP1,2526,2025-08-16,Valencia,Sociedad,85,84,False
 SP1,2526,2025-08-17,Ath Bilbao,Sevilla,84,84,False
 SP1,2526,2025-08-17,Celta,Getafe,85,85,False
 SP1,2526,2025-08-17,Espanol,Ath Madrid,85,84,False
 SP1,2526,2025-08-18,Elche,Betis,806,87,False
 SP1,2526,2025-08-19,Ath Madrid,Osasuna,2,87,True
 SP1,2526,2025-08-22,Betis,Alaves,4,6,False
-SP1,2526,2025-08-23,Mallorca,Celta,7,6,False
-SP1,2526,2025-08-23,Levante,Barcelona,7,7,False
 SP1,2526,2025-08-23,Ath Madrid,Elche,4,5,False
+SP1,2526,2025-08-23,Levante,Barcelona,7,7,False
+SP1,2526,2025-08-23,Mallorca,Celta,7,6,False
 SP1,2526,2025-08-24,Oviedo,Ath Madrid,9,1,False
 SP1,2526,2025-08-24,Osasuna,Valencia,5,8,False
 SP1,2526,2025-08-24,Sociedad,Espanol,8,7,False
@@ -100,83 +100,89 @@ SP1,2526,2025-10-26,Ath Madrid,Barcelona,7,8,False
 SP1,2526,2025-10-26,Mallorca,Levante,8,7,False
 SP1,2526,2025-10-27,Betis,Ath Madrid,9,1,False
 SP1,2526,2025-10-31,Getafe,Girona,6,6,False
-SP1,2526,2025-11-01,Ath Madrid,Valencia,5,7,False
 SP1,2526,2025-11-01,Sociedad,Ath Bilbao,8,7,False
-SP1,2526,2025-11-01,Ath Madrid,Sevilla,5,8,False
 SP1,2526,2025-11-01,Villarreal,Vallecano,7,6,False
+SP1,2526,2025-11-01,Ath Madrid,Sevilla,5,8,False
+SP1,2526,2025-11-01,Ath Madrid,Valencia,5,7,False
 SP1,2526,2025-11-02,Levante,Celta,7,7,False
-SP1,2526,2025-11-02,Betis,Mallorca,6,7,False
-SP1,2526,2025-11-02,Barcelona,Elche,7,8,False
 SP1,2526,2025-11-02,Alaves,Espanol,7,8,False
+SP1,2526,2025-11-02,Barcelona,Elche,7,8,False
+SP1,2526,2025-11-02,Betis,Mallorca,6,7,False
 SP1,2526,2025-11-03,Oviedo,Osasuna,9,8,False
 SP1,2526,2025-11-07,Elche,Sociedad,5,6,False
-SP1,2526,2025-11-08,Sevilla,Osasuna,7,5,False
-SP1,2526,2025-11-08,Girona,Alaves,8,6,False
 SP1,2526,2025-11-08,Ath Madrid,Levante,7,6,False
+SP1,2526,2025-11-08,Girona,Alaves,8,6,False
+SP1,2526,2025-11-08,Sevilla,Osasuna,7,5,False
 SP1,2526,2025-11-08,Espanol,Villarreal,6,7,False
-SP1,2526,2025-11-09,Mallorca,Getafe,7,9,False
 SP1,2526,2025-11-09,Ath Bilbao,Oviedo,8,6,False
-SP1,2526,2025-11-09,Vallecano,Ath Madrid,8,1,False
-SP1,2526,2025-11-09,Valencia,Betis,8,7,False
 SP1,2526,2025-11-09,Celta,Barcelona,7,7,False
+SP1,2526,2025-11-09,Vallecano,Ath Madrid,8,1,False
+SP1,2526,2025-11-09,Mallorca,Getafe,7,9,False
+SP1,2526,2025-11-09,Valencia,Betis,8,7,False
 SP1,2526,2025-11-21,Valencia,Levante,12,13,False
-SP1,2526,2025-11-22,Villarreal,Mallorca,14,13,False
 SP1,2526,2025-11-22,Alaves,Celta,14,13,False
 SP1,2526,2025-11-22,Barcelona,Ath Bilbao,13,13,False
 SP1,2526,2025-11-22,Osasuna,Sociedad,14,15,False
-SP1,2526,2025-11-23,Elche,Ath Madrid,16,14,False
-SP1,2526,2025-11-23,Oviedo,Vallecano,14,14,False
+SP1,2526,2025-11-22,Villarreal,Mallorca,14,13,False
 SP1,2526,2025-11-23,Betis,Girona,14,15,False
+SP1,2526,2025-11-23,Elche,Ath Madrid,16,14,False
 SP1,2526,2025-11-23,Getafe,Ath Madrid,14,14,False
+SP1,2526,2025-11-23,Oviedo,Vallecano,14,14,False
 SP1,2526,2025-11-24,Espanol,Sevilla,16,16,False
 SP1,2526,2025-11-28,Getafe,Elche,5,5,False
 SP1,2526,2025-11-29,Ath Madrid,Oviedo,6,6,False
-SP1,2526,2025-11-29,Mallorca,Osasuna,7,7,False
-SP1,2526,2025-11-29,Barcelona,Alaves,7,7,False
 SP1,2526,2025-11-29,Levante,Ath Bilbao,8,7,False
-SP1,2526,2025-11-30,Girona,Ath Madrid,7,1,False
+SP1,2526,2025-11-29,Barcelona,Alaves,7,7,False
+SP1,2526,2025-11-29,Mallorca,Osasuna,7,7,False
 SP1,2526,2025-11-30,Sociedad,Villarreal,8,8,False
 SP1,2526,2025-11-30,Sevilla,Betis,6,7,False
 SP1,2526,2025-11-30,Celta,Espanol,8,6,False
+SP1,2526,2025-11-30,Girona,Ath Madrid,7,1,False
 SP1,2526,2025-12-01,Vallecano,Valencia,8,10,False
 SP1,2526,2025-12-02,Barcelona,Ath Madrid,3,2,True
 SP1,2526,2025-12-03,Ath Bilbao,Ath Madrid,4,1,True
 SP1,2526,2025-12-05,Oviedo,Mallorca,6,6,False
 SP1,2526,2025-12-06,Betis,Barcelona,6,4,False
+SP1,2526,2025-12-06,Ath Bilbao,Ath Madrid,3,3,False
 SP1,2526,2025-12-06,Alaves,Sociedad,7,6,False
 SP1,2526,2025-12-06,Villarreal,Getafe,6,8,False
-SP1,2526,2025-12-06,Ath Bilbao,Ath Madrid,3,3,False
 SP1,2526,2025-12-07,Ath Madrid,Celta,1,7,False
 SP1,2526,2025-12-07,Valencia,Sevilla,6,7,False
 SP1,2526,2025-12-07,Elche,Girona,9,7,False
 SP1,2526,2025-12-07,Espanol,Vallecano,7,6,False
 SP1,2526,2025-12-08,Osasuna,Levante,9,9,False
 SP1,2526,2025-12-12,Sociedad,Girona,6,5,False
+SP1,2526,2025-12-13,Getafe,Espanol,7,6,False
 SP1,2526,2025-12-13,Ath Madrid,Valencia,6,6,False
 SP1,2526,2025-12-13,Mallorca,Elche,8,6,False
-SP1,2526,2025-12-13,Getafe,Espanol,7,6,False
 SP1,2526,2025-12-13,Barcelona,Osasuna,7,5,False
-SP1,2526,2025-12-14,Sevilla,Oviedo,7,9,False
 SP1,2526,2025-12-14,Alaves,Ath Madrid,8,1,False
+SP1,2526,2025-12-14,Sevilla,Oviedo,7,9,False
 SP1,2526,2025-12-14,Celta,Ath Bilbao,7,8,False
 SP1,2526,2025-12-15,Vallecano,Betis,8,9,False
 SP1,2526,2025-12-19,Valencia,Mallorca,6,6,False
 SP1,2526,2025-12-20,Oviedo,Celta,6,6,False
-SP1,2526,2025-12-20,Levante,Sociedad,12,8,False
 SP1,2526,2025-12-20,Osasuna,Alaves,7,6,False
 SP1,2526,2025-12-20,Ath Madrid,Sevilla,6,6,False
+SP1,2526,2025-12-20,Levante,Sociedad,12,8,False
 SP1,2526,2025-12-21,Villarreal,Barcelona,15,8,False
 SP1,2526,2025-12-21,Elche,Vallecano,8,6,False
 SP1,2526,2025-12-21,Betis,Getafe,6,8,False
 SP1,2526,2025-12-21,Girona,Ath Madrid,9,1,False
 SP1,2526,2025-12-22,Ath Bilbao,Espanol,8,9,False
 SP1,2526,2026-01-02,Vallecano,Getafe,12,12,False
-SP1,2526,2026-01-03,Osasuna,Ath Bilbao,14,12,False
-SP1,2526,2026-01-03,Espanol,Barcelona,12,13,False
-SP1,2526,2026-01-03,Elche,Villarreal,13,13,False
 SP1,2526,2026-01-03,Celta,Valencia,14,15,False
-SP1,2526,2026-01-04,Sevilla,Levante,15,15,False
-SP1,2526,2026-01-04,Sociedad,Ath Madrid,15,14,False
+SP1,2526,2026-01-03,Osasuna,Ath Bilbao,14,12,False
+SP1,2526,2026-01-03,Elche,Villarreal,13,13,False
+SP1,2526,2026-01-03,Espanol,Barcelona,12,13,False
 SP1,2526,2026-01-04,Mallorca,Girona,16,14,False
 SP1,2526,2026-01-04,Alaves,Oviedo,15,15,False
 SP1,2526,2026-01-04,Ath Madrid,Betis,14,14,False
+SP1,2526,2026-01-04,Sevilla,Levante,15,15,False
+SP1,2526,2026-01-04,Sociedad,Ath Madrid,15,14,False
+SP1,2526,2026-01-09,Getafe,Sociedad,7,5,False
+SP1,2526,2026-01-10,Valencia,Elche,7,7,False
+SP1,2526,2026-01-10,Villarreal,Alaves,7,6,False
+SP1,2526,2026-01-10,Oviedo,Betis,6,6,False
+SP1,2526,2026-01-11,Vallecano,Mallorca,9,7,False
+SP1,2526,2026-01-11,Levante,Espanol,7,8,False

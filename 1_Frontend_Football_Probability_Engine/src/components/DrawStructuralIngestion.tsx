@@ -4816,6 +4816,31 @@ export function DrawStructuralIngestion() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
+              <Label>Select Season</Label>
+              <Select value={selectedSeason} onValueChange={setSelectedSeason}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select season" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="ALL">All Seasons</SelectItem>
+                  <SelectItem value="last7">Last 7 Seasons</SelectItem>
+                  <SelectItem value="last10">Last 10 Seasons</SelectItem>
+                  {seasonsList.map((season) => (
+                    <SelectItem key={season} value={season}>
+                      {season}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              <p className="text-xs text-muted-foreground mt-1">
+                {selectedSeason === 'ALL' && 'Will process all historical matches'}
+                {selectedSeason === 'last7' && 'Will process matches from the last 7 seasons'}
+                {selectedSeason === 'last10' && 'Will process matches from the last 10 seasons'}
+                {selectedSeason !== 'ALL' && selectedSeason !== 'last7' && selectedSeason !== 'last10' && `Will process matches from ${selectedSeason} season`}
+              </p>
+            </div>
+
+            <div>
               <Label>Select Leagues</Label>
               <div className="mt-2 space-y-2 max-h-48 overflow-y-auto border rounded-md p-3">
                 <div className="flex items-center space-x-2 mb-2">

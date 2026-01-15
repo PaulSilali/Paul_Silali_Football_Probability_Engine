@@ -1,25 +1,15 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9120,Derby,9130,Luton,1819,2,0,0.0,2.5
-9111,Middlesbrough,9143,Aston Villa,1819,2,0,0.0,3.0
-9108,Hull,9117,QPR,1819,2,1,0.5,4.5
 9123,Sheffield United,9128,Leeds,1819,4,1,0.25,1.25
 9117,QPR,9128,Leeds,1819,2,0,0.0,2.0
-9123,Sheffield United,9130,Luton,1819,4,0,0.0,2.0
 9119,Stoke,9133,Rotherham,1819,2,2,1.0,4.0
-9113,Norwich,9141,Brentford,1819,2,1,0.5,1.5
 9104,Ipswich,9114,Millwall,1819,2,0,0.0,4.0
-9124,Bristol City,9141,Brentford,1819,2,1,0.5,1.5
 9119,Stoke,9130,Luton,1819,2,1,0.5,1.0
 9112,Swansea,9140,Nott'm Forest,1819,2,1,0.5,1.5
-9120,Derby,9121,West Brom,1819,2,0,0.0,4.5
-9117,QPR,9122,Blackburn,1819,2,0,0.0,2.0
 9120,Derby,9123,Sheffield United,1819,4,1,0.25,3.0
 9103,Birmingham,9114,Millwall,1819,2,0,0.0,2.0
 9112,Swansea,9122,Blackburn,1819,2,1,0.5,4.0
 9123,Sheffield United,9124,Bristol City,1819,4,0,0.0,2.75
-9120,Derby,9136,Wigan,1819,2,0,0.0,2.0
-9122,Blackburn,9136,Wigan,1819,2,0,0.0,3.5
-9108,Hull,9128,Leeds,1819,2,0,0.0,1.5
 9135,Reading,9143,Aston Villa,1819,2,2,1.0,1.0
 9140,Nott'm Forest,9143,Aston Villa,1819,2,1,0.5,7.0
 9114,Millwall,9128,Leeds,1819,2,1,0.5,3.5
@@ -27,79 +17,45 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9103,Birmingham,9136,Wigan,1819,2,1,0.5,2.5
 9111,Middlesbrough,9128,Leeds,1819,2,2,1.0,1.0
 9104,Ipswich,9113,Norwich,1819,2,1,0.5,2.5
-9104,Ipswich,9130,Luton,1819,2,1,0.5,1.5
 9103,Birmingham,9108,Hull,1819,2,1,0.5,4.0
 9123,Sheffield United,9136,Wigan,1819,4,0,0.0,3.75
 9130,Luton,9133,Rotherham,1819,2,1,0.5,2.5
-9104,Ipswich,9136,Wigan,1819,2,1,0.5,1.5
-9104,Ipswich,9111,Middlesbrough,1819,2,0,0.0,2.0
-9133,Rotherham,9135,Reading,1819,2,2,1.0,2.0
 9103,Birmingham,9104,Ipswich,1819,2,2,1.0,3.0
-9111,Middlesbrough,9118,Preston,1819,2,1,0.5,2.5
 9108,Hull,9120,Derby,1819,2,0,0.0,2.5
 9111,Middlesbrough,9120,Derby,1819,2,2,1.0,2.0
-9119,Stoke,9135,Reading,1819,2,2,1.0,2.0
-9111,Middlesbrough,9136,Wigan,1819,2,1,0.5,1.0
 9104,Ipswich,9120,Derby,1819,2,1,0.5,2.0
 9122,Blackburn,9135,Reading,1819,2,1,0.5,3.5
 9128,Leeds,9141,Brentford,1819,2,1,0.5,2.0
 9122,Blackburn,9123,Sheffield United,1819,4,0,0.0,4.25
 9103,Birmingham,9123,Sheffield United,1819,4,3,0.75,2.0
 9112,Swansea,9133,Rotherham,1819,2,0,0.0,5.0
-9119,Stoke,9123,Sheffield United,1819,4,4,1.0,2.5
-9113,Norwich,9117,QPR,1819,2,0,0.0,2.5
-9114,Millwall,9123,Sheffield United,1819,4,2,0.5,2.5
-9122,Blackburn,9143,Aston Villa,1819,2,1,0.5,2.5
-9112,Swansea,9124,Bristol City,1819,2,0,0.0,1.5
-9120,Derby,9133,Rotherham,1819,2,0,0.0,4.0
-9114,Millwall,9143,Aston Villa,1819,2,0,0.0,2.0
 9103,Birmingham,9141,Brentford,1819,2,2,1.0,1.0
 9124,Bristol City,9128,Leeds,1819,2,0,0.0,1.5
 9113,Norwich,9119,Stoke,1819,2,1,0.5,2.5
 9123,Sheffield United,9143,Aston Villa,1819,4,1,0.25,4.5
 9119,Stoke,9136,Wigan,1819,2,1,0.5,1.5
 9128,Leeds,9130,Luton,1819,2,0,0.0,2.0
-9103,Birmingham,9119,Stoke,1819,2,0,0.0,1.5
 9122,Blackburn,9130,Luton,1819,2,0,0.0,1.5
-9119,Stoke,9143,Aston Villa,1819,2,2,1.0,3.0
-9108,Hull,9111,Middlesbrough,1819,2,1,0.5,1.5
 9114,Millwall,9136,Wigan,1819,2,0,0.0,2.0
-9122,Blackburn,9133,Rotherham,1819,2,1,0.5,3.5
-9121,West Brom,9135,Reading,1819,2,1,0.5,2.5
-9122,Blackburn,9140,Nott'm Forest,1819,2,1,0.5,3.5
-9119,Stoke,9120,Derby,1819,2,1,0.5,1.5
 9133,Rotherham,9136,Wigan,1819,2,1,0.5,1.5
-9140,Nott'm Forest,9141,Brentford,1819,2,0,0.0,3.0
 9111,Middlesbrough,9114,Millwall,1819,2,2,1.0,3.0
-9104,Ipswich,9143,Aston Villa,1819,2,1,0.5,2.5
 9108,Hull,9122,Blackburn,1819,2,0,0.0,2.0
-9112,Swansea,9123,Sheffield United,1819,4,0,0.0,2.75
 9108,Hull,9113,Norwich,1819,2,1,0.5,2.5
-9103,Birmingham,9128,Leeds,1819,2,0,0.0,2.0
 9119,Stoke,9140,Nott'm Forest,1819,2,1,0.5,1.0
 9112,Swansea,9120,Derby,1819,2,1,0.5,2.5
 9111,Middlesbrough,9112,Swansea,1819,2,1,0.5,2.0
-9124,Bristol City,9130,Luton,1819,2,1,0.5,3.5
 9122,Blackburn,9128,Leeds,1819,2,0,0.0,4.0
-9104,Ipswich,9108,Hull,1819,2,0,0.0,2.0
-9135,Reading,9136,Wigan,1819,2,1,0.5,2.5
-9108,Hull,9135,Reading,1819,2,0,0.0,3.5
 9108,Hull,9143,Aston Villa,1819,2,1,0.5,4.0
 9130,Luton,9135,Reading,1819,2,1,0.5,1.5
 9108,Hull,9118,Preston,1819,2,1,0.5,2.5
 9103,Birmingham,9121,West Brom,1819,2,1,0.5,3.5
 9113,Norwich,9122,Blackburn,1819,2,0,0.0,2.0
-9103,Birmingham,9143,Aston Villa,1819,2,0,0.0,3.5
 9104,Ipswich,9141,Brentford,1819,2,1,0.5,2.0
-9113,Norwich,9143,Aston Villa,1819,2,0,0.0,3.0
-9121,West Brom,9122,Blackburn,1819,2,1,0.5,2.5
 9103,Birmingham,9117,QPR,1819,2,1,0.5,3.5
 9103,Birmingham,9112,Swansea,1819,2,2,1.0,3.0
 9108,Hull,9112,Swansea,1819,2,1,0.5,4.5
 9118,Preston,9128,Leeds,1819,2,0,0.0,2.5
-9128,Leeds,9143,Aston Villa,1819,2,1,0.5,3.5
 9108,Hull,9130,Luton,1819,2,0,0.0,3.5
-9136,Wigan,9141,Brentford,1819,2,1,0.5,1.0
 9117,QPR,9136,Wigan,1819,2,0,0.0,2.0
 9112,Swansea,9113,Norwich,1819,2,0,0.0,3.0
 9114,Millwall,9121,West Brom,1819,2,0,0.0,2.0
@@ -108,148 +64,192 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9112,Swansea,9130,Luton,1819,2,0,0.0,1.5
 9103,Birmingham,9140,Nott'm Forest,1819,2,1,0.5,3.0
 9117,QPR,9143,Aston Villa,1819,2,1,0.5,2.5
-9141,Brentford,9143,Aston Villa,1819,2,1,0.5,2.5
-9104,Ipswich,9122,Blackburn,1819,2,1,0.5,3.0
-9118,Preston,9123,Sheffield United,1819,4,1,0.25,3.25
 9112,Swansea,9135,Reading,1819,2,0,0.0,3.5
 9103,Birmingham,9135,Reading,1819,2,1,0.5,1.5
-9113,Norwich,9135,Reading,1819,2,1,0.5,3.5
 9104,Ipswich,9119,Stoke,1819,2,1,0.5,2.0
-9118,Preston,9136,Wigan,1819,2,0,0.0,3.0
-9111,Middlesbrough,9121,West Brom,1819,2,0,0.0,3.0
-9113,Norwich,9124,Bristol City,1819,2,1,0.5,4.5
-9114,Millwall,9135,Reading,1819,2,0,0.0,2.5
 9133,Rotherham,9143,Aston Villa,1819,2,0,0.0,2.5
-9104,Ipswich,9133,Rotherham,1819,2,0,0.0,1.0
-9114,Millwall,9130,Luton,1819,2,1,0.5,2.5
-9120,Derby,9124,Bristol City,1819,2,1,0.5,2.0
 9103,Birmingham,9124,Bristol City,1819,2,0,0.0,2.0
 9112,Swansea,9119,Stoke,1819,2,0,0.0,2.5
-9111,Middlesbrough,9123,Sheffield United,1819,4,0,0.0,2.0
 9108,Hull,9141,Brentford,1819,2,0,0.0,4.0
 9118,Preston,9135,Reading,1819,2,0,0.0,4.0
-9136,Wigan,9143,Aston Villa,1819,2,0,0.0,4.0
-9111,Middlesbrough,9140,Nott'm Forest,1819,2,0,0.0,2.5
-9135,Reading,9141,Brentford,1819,2,1,0.5,3.5
-9117,QPR,9124,Bristol City,1819,2,0,0.0,3.0
 9108,Hull,9121,West Brom,1819,2,0,0.0,3.0
-9114,Millwall,9118,Preston,1819,2,0,0.0,4.5
 9111,Middlesbrough,9122,Blackburn,1819,2,1,0.5,1.5
 9119,Stoke,9121,West Brom,1819,2,0,0.0,2.0
-9121,West Brom,9140,Nott'm Forest,1819,2,2,1.0,3.0
-9114,Millwall,9141,Brentford,1819,2,1,0.5,2.0
 9122,Blackburn,9141,Brentford,1819,2,0,0.0,4.0
 9120,Derby,9140,Nott'm Forest,1819,2,1,0.5,0.5
-9112,Swansea,9128,Leeds,1819,2,1,0.5,3.5
-9117,QPR,9133,Rotherham,1819,2,1,0.5,3.5
 9122,Blackburn,9124,Bristol City,1819,2,0,0.0,3.0
 9120,Derby,9128,Leeds,1819,2,0,0.0,3.5
-9118,Preston,9141,Brentford,1819,2,0,0.0,5.0
-9121,West Brom,9124,Bristol City,1819,2,0,0.0,5.5
-9111,Middlesbrough,9119,Stoke,1819,2,1,0.5,0.5
 9120,Derby,9122,Blackburn,1819,2,1,0.5,1.0
-9118,Preston,9133,Rotherham,1819,2,1,0.5,2.5
-9120,Derby,9135,Reading,1819,2,0,0.0,3.0
-9104,Ipswich,9123,Sheffield United,1819,4,1,0.25,2.0
 9117,QPR,9120,Derby,1819,2,1,0.5,2.0
 9104,Ipswich,9128,Leeds,1819,2,0,0.0,3.5
 9130,Luton,9141,Brentford,1819,2,0,0.0,1.0
-9118,Preston,9119,Stoke,1819,2,1,0.5,3.0
-9136,Wigan,9140,Nott'm Forest,1819,2,1,0.5,4.0
 9103,Birmingham,9120,Derby,1819,2,1,0.5,4.0
 9114,Millwall,9119,Stoke,1819,2,1,0.5,0.5
-9123,Sheffield United,9140,Nott'm Forest,1819,4,0,0.0,2.25
 9113,Norwich,9121,West Brom,1819,2,1,0.5,4.5
-9104,Ipswich,9135,Reading,1819,2,1,0.5,3.5
-9113,Norwich,9128,Leeds,1819,2,0,0.0,3.5
-9112,Swansea,9117,QPR,1819,2,0,0.0,3.5
-9124,Bristol City,9143,Aston Villa,1819,2,1,0.5,2.5
 9111,Middlesbrough,9141,Brentford,1819,2,0,0.0,3.0
 9118,Preston,9143,Aston Villa,1819,2,2,1.0,4.0
-9118,Preston,9130,Luton,1819,2,1,0.5,3.5
 9111,Middlesbrough,9133,Rotherham,1819,2,1,0.5,1.5
 9111,Middlesbrough,9130,Luton,1819,2,0,0.0,2.0
-9114,Millwall,9117,QPR,1819,2,1,0.5,1.0
 9108,Hull,9124,Bristol City,1819,2,1,0.5,1.5
 9121,West Brom,9123,Sheffield United,1819,4,2,0.5,2.5
-9112,Swansea,9121,West Brom,1819,2,0,0.0,3.0
 9104,Ipswich,9118,Preston,1819,2,1,0.5,3.0
-9118,Preston,9122,Blackburn,1819,2,0,0.0,3.0
 9108,Hull,9114,Millwall,1819,2,1,0.5,3.5
 9123,Sheffield United,9141,Brentford,1819,4,0,0.0,2.75
 9112,Swansea,9143,Aston Villa,1819,2,0,0.0,1.0
 9103,Birmingham,9122,Blackburn,1819,2,2,1.0,4.0
 9124,Bristol City,9136,Wigan,1819,2,1,0.5,2.5
-9108,Hull,9136,Wigan,1819,2,0,0.0,3.0
-9103,Birmingham,9133,Rotherham,1819,2,0,0.0,4.0
-9118,Preston,9121,West Brom,1819,2,0,0.0,5.0
 9117,QPR,9121,West Brom,1819,2,0,0.0,6.5
-9119,Stoke,9124,Bristol City,1819,2,0,0.0,1.5
-9128,Leeds,9136,Wigan,1819,2,0,0.0,3.0
 9120,Derby,9143,Aston Villa,1819,2,0,0.0,3.5
 9103,Birmingham,9118,Preston,1819,2,0,0.0,2.0
-9117,QPR,9118,Preston,1819,2,0,0.0,3.0
-9130,Luton,9140,Nott'm Forest,1819,2,0,0.0,2.0
 9112,Swansea,9118,Preston,1819,2,1,0.5,1.5
-9121,West Brom,9130,Luton,1819,2,0,0.0,2.5
 9113,Norwich,9118,Preston,1819,2,0,0.0,3.0
-9113,Norwich,9133,Rotherham,1819,2,0,0.0,3.5
 9123,Sheffield United,9123,Sheffield United,1819,2,2,1.0,
 9133,Rotherham,9140,Nott'm Forest,1819,2,0,0.0,2.0
 9121,West Brom,9133,Rotherham,1819,2,0,0.0,3.5
-9111,Middlesbrough,9113,Norwich,1819,2,0,0.0,1.0
-9118,Preston,9120,Derby,1819,2,1,0.5,1.0
 9114,Millwall,9133,Rotherham,1819,2,1,0.5,0.5
-9124,Bristol City,9135,Reading,1819,2,1,0.5,3.5
 9123,Sheffield United,9133,Rotherham,1819,4,3,0.75,3.5
-9113,Norwich,9114,Millwall,1819,2,0,0.0,5.5
-9113,Norwich,9123,Sheffield United,1819,4,2,0.5,3.75
 9121,West Brom,9128,Leeds,1819,2,0,0.0,4.5
-9121,West Brom,9136,Wigan,1819,2,0,0.0,1.5
 9117,QPR,9123,Sheffield United,1819,4,0,0.0,2.5
-9111,Middlesbrough,9135,Reading,1819,2,0,0.0,2.0
 9104,Ipswich,9121,West Brom,1819,2,1,0.5,2.5
 9117,QPR,9140,Nott'm Forest,1819,2,0,0.0,1.0
-9117,QPR,9135,Reading,1819,2,1,0.5,0.5
-9117,QPR,9130,Luton,1819,2,0,0.0,3.0
 9104,Ipswich,9112,Swansea,1819,2,0,0.0,3.0
 9113,Norwich,9140,Nott'm Forest,1819,2,1,0.5,4.5
 9114,Millwall,9140,Nott'm Forest,1819,2,1,0.5,2.5
 9118,Preston,9124,Bristol City,1819,2,1,0.5,1.5
 9119,Stoke,9141,Brentford,1819,2,1,0.5,3.0
-9104,Ipswich,9124,Bristol City,1819,2,1,0.5,3.5
-9133,Rotherham,9141,Brentford,1819,2,0,0.0,6.0
-9103,Birmingham,9113,Norwich,1819,2,1,0.5,4.0
 9113,Norwich,9120,Derby,1819,2,1,0.5,4.5
-9120,Derby,9141,Brentford,1819,2,1,0.5,5.0
 9113,Norwich,9130,Luton,1819,2,0,0.0,4.5
 9130,Luton,9136,Wigan,1819,2,1,0.5,4.5
 9124,Bristol City,9140,Nott'm Forest,1819,2,1,0.5,1.5
+9108,Hull,9140,Nott'm Forest,1819,2,0,0.0,2.5
+9117,QPR,9141,Brentford,1819,2,0,0.0,4.0
+9123,Sheffield United,9135,Reading,1819,4,1,0.25,2.25
+9112,Swansea,9136,Wigan,1819,2,2,1.0,2.0
+9119,Stoke,9122,Blackburn,1819,2,0,0.0,3.0
+9103,Birmingham,9130,Luton,1819,2,0,0.0,1.0
+9112,Swansea,9141,Brentford,1819,2,0,0.0,4.0
+9128,Leeds,9133,Rotherham,1819,2,0,0.0,2.5
+9117,QPR,9119,Stoke,1819,2,2,1.0,2.0
+9111,Middlesbrough,9143,Aston Villa,1819,2,0,0.0,3.0
+9108,Hull,9117,QPR,1819,2,1,0.5,4.5
+9123,Sheffield United,9130,Luton,1819,4,0,0.0,2.0
+9113,Norwich,9141,Brentford,1819,2,1,0.5,1.5
+9124,Bristol City,9141,Brentford,1819,2,1,0.5,1.5
+9120,Derby,9121,West Brom,1819,2,0,0.0,4.5
+9117,QPR,9122,Blackburn,1819,2,0,0.0,2.0
+9120,Derby,9136,Wigan,1819,2,0,0.0,2.0
+9122,Blackburn,9136,Wigan,1819,2,0,0.0,3.5
+9108,Hull,9128,Leeds,1819,2,0,0.0,1.5
+9104,Ipswich,9130,Luton,1819,2,1,0.5,1.5
+9104,Ipswich,9136,Wigan,1819,2,1,0.5,1.5
+9104,Ipswich,9111,Middlesbrough,1819,2,0,0.0,2.0
+9133,Rotherham,9135,Reading,1819,2,2,1.0,2.0
+9111,Middlesbrough,9118,Preston,1819,2,1,0.5,2.5
+9119,Stoke,9135,Reading,1819,2,2,1.0,2.0
+9111,Middlesbrough,9136,Wigan,1819,2,1,0.5,1.0
+9119,Stoke,9123,Sheffield United,1819,4,4,1.0,2.5
+9113,Norwich,9117,QPR,1819,2,0,0.0,2.5
+9114,Millwall,9123,Sheffield United,1819,4,2,0.5,2.5
+9122,Blackburn,9143,Aston Villa,1819,2,1,0.5,2.5
+9112,Swansea,9124,Bristol City,1819,2,0,0.0,1.5
+9120,Derby,9133,Rotherham,1819,2,0,0.0,4.0
+9114,Millwall,9143,Aston Villa,1819,2,0,0.0,2.0
+9103,Birmingham,9119,Stoke,1819,2,0,0.0,1.5
+9119,Stoke,9143,Aston Villa,1819,2,2,1.0,3.0
+9108,Hull,9111,Middlesbrough,1819,2,1,0.5,1.5
+9122,Blackburn,9133,Rotherham,1819,2,1,0.5,3.5
+9121,West Brom,9135,Reading,1819,2,1,0.5,2.5
+9122,Blackburn,9140,Nott'm Forest,1819,2,1,0.5,3.5
+9119,Stoke,9120,Derby,1819,2,1,0.5,1.5
+9140,Nott'm Forest,9141,Brentford,1819,2,0,0.0,3.0
+9104,Ipswich,9143,Aston Villa,1819,2,1,0.5,2.5
+9112,Swansea,9123,Sheffield United,1819,4,0,0.0,2.75
+9103,Birmingham,9128,Leeds,1819,2,0,0.0,2.0
+9124,Bristol City,9130,Luton,1819,2,1,0.5,3.5
+9104,Ipswich,9108,Hull,1819,2,0,0.0,2.0
+9135,Reading,9136,Wigan,1819,2,1,0.5,2.5
+9108,Hull,9135,Reading,1819,2,0,0.0,3.5
+9103,Birmingham,9143,Aston Villa,1819,2,0,0.0,3.5
+9113,Norwich,9143,Aston Villa,1819,2,0,0.0,3.0
+9121,West Brom,9122,Blackburn,1819,2,1,0.5,2.5
+9128,Leeds,9143,Aston Villa,1819,2,1,0.5,3.5
+9136,Wigan,9141,Brentford,1819,2,1,0.5,1.0
+9141,Brentford,9143,Aston Villa,1819,2,1,0.5,2.5
+9104,Ipswich,9122,Blackburn,1819,2,1,0.5,3.0
+9118,Preston,9123,Sheffield United,1819,4,1,0.25,3.25
+9113,Norwich,9135,Reading,1819,2,1,0.5,3.5
+9118,Preston,9136,Wigan,1819,2,0,0.0,3.0
+9111,Middlesbrough,9121,West Brom,1819,2,0,0.0,3.0
+9113,Norwich,9124,Bristol City,1819,2,1,0.5,4.5
+9114,Millwall,9135,Reading,1819,2,0,0.0,2.5
+9104,Ipswich,9133,Rotherham,1819,2,0,0.0,1.0
+9114,Millwall,9130,Luton,1819,2,1,0.5,2.5
+9120,Derby,9124,Bristol City,1819,2,1,0.5,2.0
+9111,Middlesbrough,9123,Sheffield United,1819,4,0,0.0,2.0
+9136,Wigan,9143,Aston Villa,1819,2,0,0.0,4.0
+9111,Middlesbrough,9140,Nott'm Forest,1819,2,0,0.0,2.5
+9135,Reading,9141,Brentford,1819,2,1,0.5,3.5
+9117,QPR,9124,Bristol City,1819,2,0,0.0,3.0
+9114,Millwall,9118,Preston,1819,2,0,0.0,4.5
+9121,West Brom,9140,Nott'm Forest,1819,2,2,1.0,3.0
+9114,Millwall,9141,Brentford,1819,2,1,0.5,2.0
+9112,Swansea,9128,Leeds,1819,2,1,0.5,3.5
+9117,QPR,9133,Rotherham,1819,2,1,0.5,3.5
+9118,Preston,9141,Brentford,1819,2,0,0.0,5.0
+9121,West Brom,9124,Bristol City,1819,2,0,0.0,5.5
+9111,Middlesbrough,9119,Stoke,1819,2,1,0.5,0.5
+9118,Preston,9133,Rotherham,1819,2,1,0.5,2.5
+9120,Derby,9135,Reading,1819,2,0,0.0,3.0
+9104,Ipswich,9123,Sheffield United,1819,4,1,0.25,2.0
+9118,Preston,9119,Stoke,1819,2,1,0.5,3.0
+9136,Wigan,9140,Nott'm Forest,1819,2,1,0.5,4.0
+9123,Sheffield United,9140,Nott'm Forest,1819,4,0,0.0,2.25
+9104,Ipswich,9135,Reading,1819,2,1,0.5,3.5
+9113,Norwich,9128,Leeds,1819,2,0,0.0,3.5
+9112,Swansea,9117,QPR,1819,2,0,0.0,3.5
+9124,Bristol City,9143,Aston Villa,1819,2,1,0.5,2.5
+9118,Preston,9130,Luton,1819,2,1,0.5,3.5
+9114,Millwall,9117,QPR,1819,2,1,0.5,1.0
+9112,Swansea,9121,West Brom,1819,2,0,0.0,3.0
+9118,Preston,9122,Blackburn,1819,2,0,0.0,3.0
+9108,Hull,9136,Wigan,1819,2,0,0.0,3.0
+9103,Birmingham,9133,Rotherham,1819,2,0,0.0,4.0
+9118,Preston,9121,West Brom,1819,2,0,0.0,5.0
+9119,Stoke,9124,Bristol City,1819,2,0,0.0,1.5
+9128,Leeds,9136,Wigan,1819,2,0,0.0,3.0
+9117,QPR,9118,Preston,1819,2,0,0.0,3.0
+9130,Luton,9140,Nott'm Forest,1819,2,0,0.0,2.0
+9121,West Brom,9130,Luton,1819,2,0,0.0,2.5
+9113,Norwich,9133,Rotherham,1819,2,0,0.0,3.5
+9111,Middlesbrough,9113,Norwich,1819,2,0,0.0,1.0
+9118,Preston,9120,Derby,1819,2,1,0.5,1.0
+9124,Bristol City,9135,Reading,1819,2,1,0.5,3.5
+9113,Norwich,9114,Millwall,1819,2,0,0.0,5.5
+9113,Norwich,9123,Sheffield United,1819,4,2,0.5,3.75
+9121,West Brom,9136,Wigan,1819,2,0,0.0,1.5
+9111,Middlesbrough,9135,Reading,1819,2,0,0.0,2.0
+9117,QPR,9135,Reading,1819,2,1,0.5,0.5
+9117,QPR,9130,Luton,1819,2,0,0.0,3.0
+9104,Ipswich,9124,Bristol City,1819,2,1,0.5,3.5
+9133,Rotherham,9141,Brentford,1819,2,0,0.0,6.0
+9103,Birmingham,9113,Norwich,1819,2,1,0.5,4.0
+9120,Derby,9141,Brentford,1819,2,1,0.5,5.0
 9113,Norwich,9136,Wigan,1819,2,1,0.5,1.5
 9108,Hull,9133,Rotherham,1819,2,1,0.5,4.5
 9103,Birmingham,9111,Middlesbrough,1819,2,0,0.0,2.0
-9108,Hull,9140,Nott'm Forest,1819,2,0,0.0,2.5
-9117,QPR,9141,Brentford,1819,2,0,0.0,4.0
 9112,Swansea,9114,Millwall,1819,2,0,0.0,2.0
 9118,Preston,9140,Nott'm Forest,1819,2,1,0.5,0.5
-9123,Sheffield United,9135,Reading,1819,4,1,0.25,2.25
 9124,Bristol City,9133,Rotherham,1819,2,1,0.5,0.5
 9108,Hull,9119,Stoke,1819,2,0,0.0,2.0
-9112,Swansea,9136,Wigan,1819,2,2,1.0,2.0
-9119,Stoke,9122,Blackburn,1819,2,0,0.0,3.0
 9128,Leeds,9140,Nott'm Forest,1819,2,1,0.5,4.0
 9130,Luton,9143,Aston Villa,1819,2,0,0.0,2.0
 9119,Stoke,9128,Leeds,1819,2,0,0.0,3.5
 9114,Millwall,9122,Blackburn,1819,2,1,0.5,1.0
-9103,Birmingham,9130,Luton,1819,2,0,0.0,1.0
 9108,Hull,9123,Sheffield United,1819,4,1,0.25,2.25
 9104,Ipswich,9140,Nott'm Forest,1819,2,1,0.5,2.0
-9112,Swansea,9141,Brentford,1819,2,0,0.0,4.0
 9111,Middlesbrough,9117,QPR,1819,2,0,0.0,2.5
 9104,Ipswich,9117,QPR,1819,2,0,0.0,2.5
-9128,Leeds,9133,Rotherham,1819,2,0,0.0,2.5
 9114,Millwall,9120,Derby,1819,2,0,0.0,2.0
 9128,Leeds,9135,Reading,1819,2,0,0.0,2.0
 9111,Middlesbrough,9124,Bristol City,1819,2,0,0.0,1.5
 9121,West Brom,9141,Brentford,1819,2,1,0.5,1.5
-9117,QPR,9119,Stoke,1819,2,2,1.0,2.0

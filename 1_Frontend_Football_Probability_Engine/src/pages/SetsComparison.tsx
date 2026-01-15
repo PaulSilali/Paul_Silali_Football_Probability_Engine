@@ -428,6 +428,28 @@ export default function SetsComparison() {
     return 'Clear favorite';
   };
 
+  // Get clear favorite indicator (for cross-tab display)
+  const getClearFavorite = (prob: FixtureProbability): { favorite: 'H' | 'D' | 'A' | null; strength: 'strong' | 'weak' | null } => {
+    const { homeWinProbability, drawProbability, awayWinProbability } = prob;
+    const maxProb = Math.max(homeWinProbability, drawProbability, awayWinProbability);
+    const minProb = Math.min(homeWinProbability, drawProbability, awayWinProbability);
+    const diff = maxProb - minProb;
+    
+    // If all probabilities are close (within 5%), no clear favorite
+    if (diff < 5) return { favorite: null, strength: null };
+    
+    // Determine which is the favorite
+    let favorite: 'H' | 'D' | 'A' | null = null;
+    if (maxProb === homeWinProbability) favorite = 'H';
+    else if (maxProb === drawProbability) favorite = 'D';
+    else if (maxProb === awayWinProbability) favorite = 'A';
+    
+    // Determine strength (strong if diff >= 10, weak if diff < 10)
+    const strength: 'strong' | 'weak' | null = diff >= 10 ? 'strong' : 'weak';
+    
+    return { favorite, strength };
+  };
+
   const formatProbability = (value: number) => {
     // Values are already percentages (0-100 range)
     // Show 2 decimal places by default, but use more precision for very small values
@@ -757,6 +779,7 @@ export default function SetsComparison() {
                       const entropy = calculateEntropy(baseProbability);
                       const entropyLevel = getEntropyLevel(entropy);
                       const dominance = getDominanceIndicator(baseProbability);
+                      const clearFavorite = getClearFavorite(baseProbability);
                       
                       // Find max value across all sets for this fixture (for highlighting)
                       const homeValues = visibleSets.map(set => {
@@ -782,6 +805,18 @@ export default function SetsComparison() {
                                   {entropyLevel} UNCERTAINTY
                                 </Badge>
                                 <span className="text-xs text-muted-foreground">{dominance}</span>
+                                {clearFavorite.favorite && clearFavorite.favorite !== 'H' && (
+                                  <Badge 
+                                    variant="outline" 
+                                    className={`text-xs ${
+                                      clearFavorite.favorite === 'D' 
+                                        ? 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50' 
+                                        : 'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                    }`}
+                                  >
+                                    {clearFavorite.favorite === 'D' ? 'Draw' : 'Away'} {clearFavorite.strength === 'strong' ? 'favored' : 'slight edge'}
+                                  </Badge>
+                                )}
                               </div>
                             </div>
                           </TableCell>
@@ -863,6 +898,10 @@ export default function SetsComparison() {
                   <TableBody>
                     {baseSet.probabilities.map((baseProbability) => {
                       const actualResult = actualResults[baseProbability.fixtureId];
+                      const entropy = calculateEntropy(baseProbability);
+                      const entropyLevel = getEntropyLevel(entropy);
+                      const dominance = getDominanceIndicator(baseProbability);
+                      const clearFavorite = getClearFavorite(baseProbability);
                       
                       // Find max value across all sets for this fixture (for highlighting)
                       const drawValues = visibleSets.map(set => {
@@ -874,7 +913,34 @@ export default function SetsComparison() {
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
-                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                            <div className="flex flex-col gap-1">
+                              <span>{baseProbability.homeTeam} vs {baseProbability.awayTeam}</span>
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-xs ${
+                                    entropyLevel === 'HIGH' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    entropyLevel === 'MEDIUM' ? 'bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 border-yellow-500/50' :
+                                    'bg-red-500/20 text-red-600 dark:text-red-400 border-red-500/50'
+                                  }`}
+                                >
+                                  {entropyLevel} UNCERTAINTY
+                                </Badge>
+                                <span className="text-xs text-muted-foreground">{dominance}</span>
+                                {clearFavorite.favorite && clearFavorite.favorite !== 'D' && (
+                                  <Badge 
+                                    variant="outline" 
+                                    className={`text-xs ${
+                                      clearFavorite.favorite === 'H' 
+                                        ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' 
+                                        : 'bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50'
+                                    }`}
+                                  >
+                                    {clearFavorite.favorite === 'H' ? 'Home' : 'Away'} {clearFavorite.strength === 'strong' ? 'favored' : 'slight edge'}
+                                  </Badge>
+                                )}
+                              </div>
+                            </div>
                           </TableCell>
                           {visibleSets.map(set => {
                             const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);
@@ -954,6 +1020,10 @@ export default function SetsComparison() {
                   <TableBody>
                     {baseSet.probabilities.map((baseProbability) => {
                       const actualResult = actualResults[baseProbability.fixtureId];
+                      const entropy = calculateEntropy(baseProbability);
+                      const entropyLevel = getEntropyLevel(entropy);
+                      const dominance = getDominanceIndicator(baseProbability);
+                      const clearFavorite = getClearFavorite(baseProbability);
                       
                       // Find max value across all sets for this fixture (for highlighting)
                       const awayValues = visibleSets.map(set => {
@@ -965,7 +1035,34 @@ export default function SetsComparison() {
                       return (
                         <TableRow key={baseProbability.fixtureId} className="hover:bg-primary/5">
                           <TableCell className="font-medium sticky left-0 bg-card">
-                            {baseProbability.homeTeam} vs {baseProbability.awayTeam}
+                            <div className="flex flex-col gap-1">
+                              <span>{baseProbability.homeTeam} vs {baseProbability.awayTeam}</span>
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <Badge 
+                                  variant="outline" 
+                                  className={`text-xs ${
+                                    entropyLevel === 'HIGH' ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' :
+                                    entropyLevel === 'MEDIUM' ? 'bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 border-yellow-500/50' :
+                                    'bg-red-500/20 text-red-600 dark:text-red-400 border-red-500/50'
+                                  }`}
+                                >
+                                  {entropyLevel} UNCERTAINTY
+                                </Badge>
+                                <span className="text-xs text-muted-foreground">{dominance}</span>
+                                {clearFavorite.favorite && clearFavorite.favorite !== 'A' && (
+                                  <Badge 
+                                    variant="outline" 
+                                    className={`text-xs ${
+                                      clearFavorite.favorite === 'H' 
+                                        ? 'bg-blue-500/20 text-blue-600 dark:text-blue-400 border-blue-500/50' 
+                                        : 'bg-purple-500/20 text-purple-600 dark:text-purple-400 border-purple-500/50'
+                                    }`}
+                                  >
+                                    {clearFavorite.favorite === 'H' ? 'Home' : 'Draw'} {clearFavorite.strength === 'strong' ? 'favored' : 'slight edge'}
+                                  </Badge>
+                                )}
+                              </div>
+                            </div>
                           </TableCell>
                           {visibleSets.map(set => {
                             const prob = set.probabilities.find(p => p.fixtureId === baseProbability.fixtureId);

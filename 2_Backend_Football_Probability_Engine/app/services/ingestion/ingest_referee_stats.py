@@ -452,8 +452,8 @@ def batch_ingest_referee_stats(
             has_referee_data = referee_count > 0 if referee_count else False
         
         if not has_referee_id or not has_referee_data:
-        if not has_referee_id:
-            logger.warning("Matches table doesn't have referee_id column. Cannot calculate referee-specific stats.")
+            if not has_referee_id:
+                logger.warning("Matches table doesn't have referee_id column. Cannot calculate referee-specific stats.")
             else:
                 logger.warning("Matches table has referee_id column but all values are NULL. Cannot calculate referee-specific stats.")
             logger.info("Referee stats will be calculated using league-wide averages as placeholders.")

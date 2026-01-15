@@ -1,41 +1,41 @@
 league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
-G1,2526,2025-08-23,Aris,Volos NFC,3.66,3.66,0.0
 G1,2526,2025-08-23,Panetolikos,Atromitos,2.97,2.97,0.0
 G1,2526,2025-08-23,Olympiakos,Asteras Tripolis,5.8,5.8,0.0
+G1,2526,2025-08-23,Aris,Volos NFC,3.66,3.66,0.0
 G1,2526,2025-08-24,PAOK,Aris,5.48,5.48,0.0
 G1,2526,2025-08-24,AEK,Panserraikos,5.74,5.74,0.0
 G1,2526,2025-08-25,Levadeiakos,Kifisia,3.27,3.27,0.0
+G1,2526,2025-08-30,Aris,Kifisia,3.05,3.05,0.0
 G1,2526,2025-08-30,Aris,Panetolikos,4.04,4.04,0.0
 G1,2526,2025-08-30,Volos NFC,Olympiakos,5.24,5.24,0.0
-G1,2526,2025-08-30,Aris,Kifisia,3.05,3.05,0.0
 G1,2526,2025-08-30,Panserraikos,OFI Crete,3.33,3.33,0.0
-G1,2526,2025-08-31,PAOK,Atromitos,4.73,4.73,0.0
 G1,2526,2025-08-31,Panathinaikos,Levadeiakos,5.08,5.08,0.0
+G1,2526,2025-08-31,PAOK,Atromitos,4.73,4.73,0.0
 G1,2526,2025-08-31,AEK,Asteras Tripolis,5.35,5.35,0.0
 G1,2526,2025-09-13,Olympiakos,Panserraikos,7.75,7.75,0.0
 G1,2526,2025-09-13,Atromitos,Aris,3.03,3.03,0.0
 G1,2526,2025-09-13,Panetolikos,Volos NFC,3.03,3.03,0.0
-G1,2526,2025-09-14,Asteras Tripolis,Aris,3.11,3.11,0.0
-G1,2526,2025-09-14,Kifisia,Panathinaikos,4.79,4.79,0.0
-G1,2526,2025-09-14,Levadeiakos,AEK,4.08,4.08,0.0
 G1,2526,2025-09-14,OFI Crete,PAOK,3.67,3.67,0.0
+G1,2526,2025-09-14,Levadeiakos,AEK,4.08,4.08,0.0
+G1,2526,2025-09-14,Kifisia,Panathinaikos,4.79,4.79,0.0
+G1,2526,2025-09-14,Asteras Tripolis,Aris,3.11,3.11,0.0
 G1,2526,2025-09-20,PAOK,Panetolikos,6.22,6.22,0.0
 G1,2526,2025-09-20,Kifisia,Aris,3.17,3.17,0.0
 G1,2526,2025-09-20,Panserraikos,Atromitos,2.82,2.82,0.0
 G1,2526,2025-09-20,Volos NFC,Asteras Tripolis,3.1,3.1,0.0
-G1,2526,2025-09-21,Panathinaikos,Olympiakos,3.11,3.11,0.0
-G1,2526,2025-09-21,Levadeiakos,OFI Crete,3.31,3.31,0.0
 G1,2526,2025-09-21,Aris,AEK,4.33,4.33,0.0
+G1,2526,2025-09-21,Levadeiakos,OFI Crete,3.31,3.31,0.0
+G1,2526,2025-09-21,Panathinaikos,Olympiakos,3.11,3.11,0.0
 G1,2526,2025-09-27,Olympiakos,Levadeiakos,6.02,6.02,0.0
 G1,2526,2025-09-27,Aris,Panserraikos,4.58,4.58,0.0
 G1,2526,2025-09-28,OFI Crete,Kifisia,3.22,3.22,0.0
-G1,2526,2025-09-28,Panetolikos,Panathinaikos,4.0,4.0,0.0
 G1,2526,2025-09-28,AEK,Volos NFC,5.66,5.66,0.0
 G1,2526,2025-09-28,Asteras Tripolis,PAOK,3.78,3.78,0.0
+G1,2526,2025-09-28,Panetolikos,Panathinaikos,4.0,4.0,0.0
 G1,2526,2025-09-29,Atromitos,Aris,3.31,3.31,0.0
+G1,2526,2025-10-04,Aris,Volos NFC,3.07,3.07,0.0
 G1,2526,2025-10-04,Panserraikos,Asteras Tripolis,3.14,3.14,0.0
 G1,2526,2025-10-04,OFI Crete,Aris,3.42,3.42,0.0
-G1,2526,2025-10-04,Aris,Volos NFC,3.07,3.07,0.0
 G1,2526,2025-10-05,Panathinaikos,Atromitos,4.19,4.19,0.0
 G1,2526,2025-10-05,Kifisia,AEK,4.97,4.97,0.0
 G1,2526,2025-10-05,Levadeiakos,Panetolikos,3.35,3.35,0.0
@@ -43,63 +43,66 @@ G1,2526,2025-10-05,PAOK,Olympiakos,3.09,3.09,0.0
 G1,2526,2025-10-18,Panetolikos,OFI Crete,3.06,3.06,0.0
 G1,2526,2025-10-18,Atromitos,Levadeiakos,3.15,3.15,0.0
 G1,2526,2025-10-18,Aris,Olympiakos,5.54,5.54,0.0
-G1,2526,2025-10-19,Volos NFC,Panserraikos,3.64,3.64,0.0
-G1,2526,2025-10-19,Aris,Panathinaikos,3.15,3.15,0.0
 G1,2526,2025-10-19,AEK,PAOK,3.11,3.11,0.0
 G1,2526,2025-10-19,Asteras Tripolis,Kifisia,3.16,3.16,0.0
+G1,2526,2025-10-19,Volos NFC,Panserraikos,3.64,3.64,0.0
+G1,2526,2025-10-19,Aris,Panathinaikos,3.15,3.15,0.0
 G1,2526,2025-10-25,OFI Crete,Atromitos,3.24,3.24,0.0
-G1,2526,2025-10-25,Kifisia,Panetolikos,3.3,3.3,0.0
 G1,2526,2025-10-25,Panserraikos,Aris,3.22,3.22,0.0
-G1,2526,2025-10-26,Panathinaikos,Asteras Tripolis,5.57,5.57,0.0
-G1,2526,2025-10-26,Olympiakos,AEK,3.48,3.48,0.0
-G1,2526,2025-10-26,PAOK,Volos NFC,5.19,5.19,0.0
+G1,2526,2025-10-25,Kifisia,Panetolikos,3.3,3.3,0.0
 G1,2526,2025-10-26,Levadeiakos,Aris,3.15,3.15,0.0
+G1,2526,2025-10-26,Olympiakos,AEK,3.48,3.48,0.0
+G1,2526,2025-10-26,Panathinaikos,Asteras Tripolis,5.57,5.57,0.0
+G1,2526,2025-10-26,PAOK,Volos NFC,5.19,5.19,0.0
 G1,2526,2025-11-01,Atromitos,Kifisia,3.12,3.12,0.0
 G1,2526,2025-11-01,Volos NFC,Panathinaikos,3.77,3.77,0.0
 G1,2526,2025-11-01,Olympiakos,Aris,4.72,4.72,0.0
-G1,2526,2025-11-02,Aris,Levadeiakos,3.15,3.15,0.0
 G1,2526,2025-11-02,Panserraikos,PAOK,5.21,5.21,0.0
 G1,2526,2025-11-02,AEK,Panetolikos,6.13,6.13,0.0
+G1,2526,2025-11-02,Aris,Levadeiakos,3.15,3.15,0.0
 G1,2526,2025-11-03,Asteras Tripolis,OFI Crete,3.23,3.23,0.0
 G1,2526,2025-11-08,Panetolikos,Aris,3.13,3.13,0.0
-G1,2526,2025-11-09,OFI Crete,AEK,4.31,4.31,0.0
-G1,2526,2025-11-09,Panathinaikos,PAOK,3.21,3.21,0.0
-G1,2526,2025-11-09,Atromitos,Volos NFC,3.18,3.18,0.0
-G1,2526,2025-11-09,Aris,Asteras Tripolis,3.5,3.5,0.0
-G1,2526,2025-11-09,Levadeiakos,Panserraikos,4.35,4.35,0.0
 G1,2526,2025-11-09,Kifisia,Olympiakos,5.08,5.08,0.0
-G1,2526,2025-11-22,Olympiakos,Atromitos,7.02,7.02,0.0
+G1,2526,2025-11-09,Levadeiakos,Panserraikos,4.35,4.35,0.0
+G1,2526,2025-11-09,OFI Crete,AEK,4.31,4.31,0.0
+G1,2526,2025-11-09,Atromitos,Volos NFC,3.18,3.18,0.0
+G1,2526,2025-11-09,Panathinaikos,PAOK,3.21,3.21,0.0
+G1,2526,2025-11-09,Aris,Asteras Tripolis,3.5,3.5,0.0
 G1,2526,2025-11-22,Asteras Tripolis,Panetolikos,3.15,3.15,0.0
+G1,2526,2025-11-22,Olympiakos,Atromitos,7.02,7.02,0.0
 G1,2526,2025-11-23,PAOK,Kifisia,5.99,5.99,0.0
-G1,2526,2025-11-23,Panserraikos,Panathinaikos,4.58,4.58,0.0
 G1,2526,2025-11-23,AEK,Aris,4.03,4.03,0.0
+G1,2526,2025-11-23,Panserraikos,Panathinaikos,4.58,4.58,0.0
 G1,2526,2025-11-24,Volos NFC,Levadeiakos,3.3,3.3,0.0
 G1,2526,2025-11-24,Aris,OFI Crete,3.23,3.23,0.0
-G1,2526,2025-11-29,OFI Crete,Volos NFC,3.14,3.14,0.0
 G1,2526,2025-11-29,Aris,Aris,3.72,3.72,0.0
 G1,2526,2025-11-29,Kifisia,Panserraikos,3.95,3.95,0.0
-G1,2526,2025-11-30,Panetolikos,Olympiakos,5.39,5.39,0.0
-G1,2526,2025-11-30,Levadeiakos,PAOK,3.53,3.53,0.0
+G1,2526,2025-11-29,OFI Crete,Volos NFC,3.14,3.14,0.0
 G1,2526,2025-11-30,Panathinaikos,AEK,3.07,3.07,0.0
+G1,2526,2025-11-30,Panetolikos,Olympiakos,5.39,5.39,0.0
 G1,2526,2025-11-30,Atromitos,Asteras Tripolis,3.1,3.1,0.0
+G1,2526,2025-11-30,Levadeiakos,PAOK,3.53,3.53,0.0
 G1,2526,2025-12-06,Olympiakos,OFI Crete,7.95,7.95,0.0
 G1,2526,2025-12-06,Volos NFC,Kifisia,3.19,3.19,0.0
-G1,2526,2025-12-07,AEK,Atromitos,5.23,5.23,0.0
 G1,2526,2025-12-07,Asteras Tripolis,Levadeiakos,3.2,3.2,0.0
 G1,2526,2025-12-07,Aris,Panathinaikos,4.16,4.16,0.0
 G1,2526,2025-12-07,PAOK,Aris,3.96,3.96,0.0
+G1,2526,2025-12-07,AEK,Atromitos,5.23,5.23,0.0
 G1,2526,2025-12-08,Panserraikos,Panetolikos,3.06,3.06,0.0
-G1,2526,2025-12-13,Kifisia,Asteras Tripolis,3.24,3.24,0.0
 G1,2526,2025-12-13,Levadeiakos,Aris,4.41,4.41,0.0
+G1,2526,2025-12-13,Kifisia,Asteras Tripolis,3.24,3.24,0.0
 G1,2526,2025-12-13,OFI Crete,Panserraikos,3.37,3.37,0.0
-G1,2526,2025-12-14,Panathinaikos,Volos NFC,4.83,4.83,0.0
-G1,2526,2025-12-14,Aris,Olympiakos,3.99,3.99,0.0
 G1,2526,2025-12-14,Atromitos,PAOK,4.25,4.25,0.0
+G1,2526,2025-12-14,Aris,Olympiakos,3.99,3.99,0.0
+G1,2526,2025-12-14,Panathinaikos,Volos NFC,4.83,4.83,0.0
 G1,2526,2025-12-14,Panetolikos,AEK,4.18,4.18,0.0
 G1,2526,2025-12-20,Asteras Tripolis,Aris,2.87,2.87,0.0
-G1,2526,2025-12-20,Olympiakos,Kifisia,7.49,7.49,0.0
 G1,2526,2025-12-20,Volos NFC,Panetolikos,3.21,3.21,0.0
-G1,2526,2025-12-21,Aris,Atromitos,2.99,2.99,0.0
+G1,2526,2025-12-20,Olympiakos,Kifisia,7.49,7.49,0.0
 G1,2526,2025-12-21,PAOK,Panathinaikos,3.26,3.26,0.0
+G1,2526,2025-12-21,Aris,Atromitos,2.99,2.99,0.0
 G1,2526,2025-12-21,AEK,OFI Crete,6.7,6.7,0.0
 G1,2526,2025-12-22,Panserraikos,Levadeiakos,3.79,3.79,0.0
+G1,2526,2026-01-10,Kifisia,Aris,3.71,3.71,0.0
+G1,2526,2026-01-11,Aris,AEK,3.52,3.52,0.0
+G1,2526,2026-01-11,Levadeiakos,Volos NFC,3.65,3.65,0.0

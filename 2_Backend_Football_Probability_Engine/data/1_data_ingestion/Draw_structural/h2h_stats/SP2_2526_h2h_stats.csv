@@ -24,6 +24,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9228,Leganes,9231,Sp Gijon,2526,1,0,0.0,1.0
 9219,Malaga,9225,Cadiz,2526,1,0,0.0,1.0
 9221,Granada,9231,Sp Gijon,2526,1,0,0.0,1.0
+9222,La Coruna,9229,Las Palmas,2526,1,1,1.0,2.0
 9216,Ceuta,9222,La Coruna,2526,1,0,0.0,3.0
 9215,Valladolid,9224,Zaragoza,2526,1,1,1.0,2.0
 9214,Cultural Leonesa,9216,Ceuta,2526,1,0,0.0,1.0
@@ -45,6 +46,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9221,Granada,9229,Las Palmas,2526,1,1,1.0,
 9223,Sociedad B,9231,Sp Gijon,2526,1,0,0.0,1.0
 9226,Mirandes,9228,Leganes,2526,1,1,1.0,
+9227,Huesca,9232,Cordoba,2526,1,0,0.0,3.0
 9213,Burgos,9230,Andorra,2526,1,0,0.0,3.0
 9223,Sociedad B,9230,Andorra,2526,1,0,0.0,3.0
 9216,Ceuta,9229,Las Palmas,2526,1,1,1.0,2.0
@@ -76,6 +78,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9218,Castellon,9228,Leganes,2526,1,0,0.0,1.0
 9213,Burgos,9221,Granada,2526,1,1,1.0,2.0
 9226,Mirandes,9231,Sp Gijon,2526,1,0,0.0,3.0
+9214,Cultural Leonesa,9230,Andorra,2526,1,1,1.0,2.0
 9228,Leganes,9232,Cordoba,2526,1,1,1.0,
 9220,Eibar,9223,Sociedad B,2526,1,0,0.0,3.0
 9214,Cultural Leonesa,9220,Eibar,2526,1,0,0.0,3.0
@@ -96,6 +99,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9224,Zaragoza,9233,Almeria,2526,1,0,0.0,6.0
 9214,Cultural Leonesa,9233,Almeria,2526,1,0,0.0,1.0
 9217,Santander,9218,Castellon,2526,1,0,0.0,4.0
+9216,Ceuta,9219,Malaga,2526,1,0,0.0,3.0
 9217,Santander,9228,Leganes,2526,1,1,1.0,2.0
 9221,Granada,9230,Andorra,2526,1,1,1.0,
 9215,Valladolid,9221,Granada,2526,1,0,0.0,3.0
@@ -126,8 +130,10 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9216,Ceuta,9221,Granada,2526,1,1,1.0,2.0
 9215,Valladolid,9225,Cadiz,2526,1,1,1.0,
 9220,Eibar,9228,Leganes,2526,1,1,1.0,
+9226,Mirandes,9233,Almeria,2526,1,1,1.0,4.0
 9214,Cultural Leonesa,9227,Huesca,2526,1,0,0.0,2.0
 9220,Eibar,9224,Zaragoza,2526,1,0,0.0,3.0
+9225,Cadiz,9231,Sp Gijon,2526,1,0,0.0,5.0
 9226,Mirandes,9229,Las Palmas,2526,1,1,1.0,
 9214,Cultural Leonesa,9223,Sociedad B,2526,1,1,1.0,2.0
 9229,Las Palmas,9234,Albacete,2526,1,0,0.0,3.0
@@ -139,6 +145,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9217,Santander,9223,Sociedad B,2526,1,0,0.0,1.0
 9213,Burgos,9214,Cultural Leonesa,2526,1,0,0.0,6.0
 9213,Burgos,9218,Castellon,2526,1,1,1.0,
+9217,Santander,9224,Zaragoza,2526,1,0,0.0,5.0
 9231,Sp Gijon,9232,Cordoba,2526,1,0,0.0,3.0
 9213,Burgos,9219,Malaga,2526,1,0,0.0,3.0
 9217,Santander,9233,Almeria,2526,1,0,0.0,5.0

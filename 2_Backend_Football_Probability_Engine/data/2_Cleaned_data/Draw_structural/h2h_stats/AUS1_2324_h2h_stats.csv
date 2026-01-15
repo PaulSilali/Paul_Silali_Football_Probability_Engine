@@ -1,0 +1,44 @@
+home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
+9670,Melbourne City FC,9674,Western United,2324,2,0,0.0,3.0
+9679,Central Coast Mariners,9680,Macarthur FC,2324,1,0,0.0,3.0
+9673,Sydney FC,9681,Wellington Phoenix,2324,1,0,0.0,4.0
+9673,Sydney FC,9679,Central Coast Mariners,2324,1,0,0.0,4.0
+9678,Newcastle United Jets,9679,Central Coast Mariners,2324,1,0,0.0,4.0
+9676,Perth Glory,9677,Adelaide United,2324,1,1,1.0,6.0
+9672,Western Sydney Wanderers,9678,Newcastle United Jets,2324,2,2,1.0,5.0
+9673,Sydney FC,9675,Melbourne Victory,2324,1,1,1.0,2.0
+9671,Brisbane Roar,9679,Central Coast Mariners,2324,1,0,0.0,3.0
+9676,Perth Glory,9679,Central Coast Mariners,2324,1,0,0.0,6.0
+9676,Perth Glory,9678,Newcastle United Jets,2324,2,2,1.0,4.0
+9670,Melbourne City FC,9676,Perth Glory,2324,2,0,0.0,4.5
+9678,Newcastle United Jets,9681,Wellington Phoenix,2324,1,0,0.0,3.0
+9672,Western Sydney Wanderers,9675,Melbourne Victory,2324,1,0,0.0,7.0
+9670,Melbourne City FC,9671,Brisbane Roar,2324,2,0,0.0,7.5
+9675,Melbourne Victory,9677,Adelaide United,2324,1,1,1.0,2.0
+9678,Newcastle United Jets,9680,Macarthur FC,2324,1,1,1.0,2.0
+9675,Melbourne Victory,9679,Central Coast Mariners,2324,1,1,1.0,4.0
+9670,Melbourne City FC,9680,Macarthur FC,2324,1,1,1.0,6.0
+9674,Western United,9675,Melbourne Victory,2324,1,0,0.0,3.0
+9672,Western Sydney Wanderers,9676,Perth Glory,2324,1,0,0.0,3.0
+9672,Western Sydney Wanderers,9680,Macarthur FC,2324,2,0,0.0,5.5
+9671,Brisbane Roar,9680,Macarthur FC,2324,2,1,0.5,3.0
+9671,Brisbane Roar,9673,Sydney FC,2324,1,0,0.0,3.0
+9673,Sydney FC,9674,Western United,2324,2,1,0.5,5.0
+9671,Brisbane Roar,9681,Wellington Phoenix,2324,2,1,0.5,4.5
+9677,Adelaide United,9680,Macarthur FC,2324,2,1,0.5,4.5
+9673,Sydney FC,9676,Perth Glory,2324,2,1,0.5,3.5
+9676,Perth Glory,9681,Wellington Phoenix,2324,1,0,0.0,3.0
+9670,Melbourne City FC,9679,Central Coast Mariners,2324,2,1,0.5,4.5
+9671,Brisbane Roar,9678,Newcastle United Jets,2324,1,0,0.0,4.0
+9675,Melbourne Victory,9678,Newcastle United Jets,2324,2,1,0.5,5.0
+9675,Melbourne Victory,9681,Wellington Phoenix,2324,2,2,1.0,2.0
+9676,Perth Glory,9680,Macarthur FC,2324,2,1,0.5,4.5
+9673,Sydney FC,9677,Adelaide United,2324,2,0,0.0,4.5
+9675,Melbourne Victory,9680,Macarthur FC,2324,1,1,1.0,2.0
+9674,Western United,9677,Adelaide United,2324,2,1,0.5,5.0
+9677,Adelaide United,9681,Wellington Phoenix,2324,1,1,1.0,4.0
+9671,Brisbane Roar,9672,Western Sydney Wanderers,2324,1,1,1.0,4.0
+9671,Brisbane Roar,9676,Perth Glory,2324,2,0,0.0,4.0
+9675,Melbourne Victory,9676,Perth Glory,2324,1,0,0.0,5.0
+9671,Brisbane Roar,9674,Western United,2324,1,0,0.0,3.0
+9677,Adelaide United,9678,Newcastle United Jets,2324,1,0,0.0,4.0

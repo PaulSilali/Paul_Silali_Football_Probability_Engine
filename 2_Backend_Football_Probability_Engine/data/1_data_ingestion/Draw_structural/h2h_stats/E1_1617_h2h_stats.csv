@@ -1,11 +1,134 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9120,Derby,9130,Luton,1617,2,1,0.5,0.5
-9131,Burnley,9132,Huddersfield,1617,2,1,0.5,2.5
 9124,Bristol City,9145,Newcastle,1617,2,1,0.5,2.5
 9126,Cardiff,9135,Reading,1617,2,0,0.0,2.0
 9123,Sheffield United,9128,Leeds,1617,2,0,0.0,1.5
-9126,Cardiff,9144,Wolves,1617,2,0,0.0,3.5
 9117,QPR,9128,Leeds,1617,2,1,0.5,1.5
+9120,Derby,9123,Sheffield United,1617,2,0,0.0,2.5
+9136,Wigan,9145,Newcastle,1617,2,0,0.0,2.5
+9123,Sheffield United,9124,Bristol City,1617,2,1,0.5,4.5
+9135,Reading,9143,Aston Villa,1617,2,0,0.0,3.5
+9117,QPR,9144,Wolves,1617,2,0,0.0,3.0
+9113,Norwich,9131,Burnley,1617,2,0,0.0,2.5
+9140,Nott'm Forest,9143,Aston Villa,1617,2,1,0.5,3.5
+9103,Birmingham,9136,Wigan,1617,2,1,0.5,1.5
+9104,Ipswich,9113,Norwich,1617,2,2,1.0,2.0
+9123,Sheffield United,9136,Wigan,1617,2,0,0.0,2.0
+9130,Luton,9133,Rotherham,1617,2,0,0.0,3.0
+9103,Birmingham,9104,Ipswich,1617,2,1,0.5,2.5
+9103,Birmingham,9131,Burnley,1617,2,1,0.5,3.5
+9104,Ipswich,9120,Derby,1617,2,0,0.0,2.0
+9122,Blackburn,9135,Reading,1617,2,0,0.0,4.5
+9128,Leeds,9141,Brentford,1617,2,0,0.0,1.5
+9103,Birmingham,9123,Sheffield United,1617,2,0,0.0,3.0
+9122,Blackburn,9123,Sheffield United,1617,2,0,0.0,2.0
+9124,Bristol City,9131,Burnley,1617,2,1,0.5,4.5
+9126,Cardiff,9130,Luton,1617,2,0,0.0,1.5
+9103,Birmingham,9141,Brentford,1617,2,0,0.0,3.5
+9131,Burnley,9136,Wigan,1617,2,1,0.5,2.5
+9130,Luton,9146,Brighton,1617,2,0,0.0,3.0
+9124,Bristol City,9128,Leeds,1617,2,0,0.0,2.0
+9123,Sheffield United,9143,Aston Villa,1617,2,0,0.0,1.5
+9118,Preston,9145,Newcastle,1617,2,0,0.0,4.0
+9128,Leeds,9130,Luton,1617,2,0,0.0,2.5
+9123,Sheffield United,9146,Brighton,1617,2,0,0.0,3.0
+9122,Blackburn,9130,Luton,1617,2,2,1.0,3.0
+9124,Bristol City,9132,Huddersfield,1617,2,0,0.0,3.5
+9120,Derby,9146,Brighton,1617,2,1,0.5,1.5
+9128,Leeds,9144,Wolves,1617,2,0,0.0,1.0
+9133,Rotherham,9136,Wigan,1617,2,0,0.0,5.0
+9123,Sheffield United,9126,Cardiff,1617,2,1,0.5,1.5
+9122,Blackburn,9128,Leeds,1617,2,0,0.0,3.0
+9132,Huddersfield,9133,Rotherham,1617,2,0,0.0,4.0
+9130,Luton,9144,Wolves,1617,2,1,0.5,2.5
+9130,Luton,9135,Reading,1617,2,0,0.0,4.5
+9141,Brentford,9146,Brighton,1617,2,1,0.5,4.0
+9135,Reading,9144,Wolves,1617,2,0,0.0,2.5
+9113,Norwich,9122,Blackburn,1617,2,1,0.5,4.5
+9104,Ipswich,9141,Brentford,1617,2,1,0.5,2.0
+9103,Birmingham,9117,QPR,1617,2,1,0.5,3.5
+9118,Preston,9128,Leeds,1617,2,0,0.0,4.0
+9117,QPR,9136,Wigan,1617,2,0,0.0,2.0
+9135,Reading,9140,Nott'm Forest,1617,2,0,0.0,3.5
+9103,Birmingham,9140,Nott'm Forest,1617,2,1,0.5,2.0
+9103,Birmingham,9146,Brighton,1617,2,0,0.0,3.5
+9117,QPR,9143,Aston Villa,1617,2,0,0.0,1.0
+9117,QPR,9145,Newcastle,1617,2,1,0.5,5.0
+9103,Birmingham,9135,Reading,1617,2,1,0.5,0.5
+9136,Wigan,9139,Fulham,1617,2,1,0.5,2.5
+9133,Rotherham,9143,Aston Villa,1617,2,0,0.0,2.5
+9126,Cardiff,9145,Newcastle,1617,2,0,0.0,2.5
+9120,Derby,9126,Cardiff,1617,2,0,0.0,4.5
+9128,Leeds,9146,Brighton,1617,2,0,0.0,2.0
+9103,Birmingham,9124,Bristol City,1617,2,0,0.0,1.0
+9122,Blackburn,9139,Fulham,1617,2,1,0.5,2.5
+9118,Preston,9135,Reading,1617,2,0,0.0,2.0
+9122,Blackburn,9141,Brentford,1617,2,0,0.0,4.5
+9120,Derby,9140,Nott'm Forest,1617,2,1,0.5,3.5
+9120,Derby,9145,Newcastle,1617,2,0,0.0,1.5
+9133,Rotherham,9139,Fulham,1617,2,0,0.0,2.0
+9117,QPR,9139,Fulham,1617,2,1,0.5,2.5
+9122,Blackburn,9124,Bristol City,1617,2,1,0.5,1.5
+9120,Derby,9128,Leeds,1617,2,0,0.0,1.0
+9130,Luton,9139,Fulham,1617,2,1,0.5,2.0
+9120,Derby,9122,Blackburn,1617,2,0,0.0,2.0
+9113,Norwich,9126,Cardiff,1617,2,0,0.0,3.0
+9131,Burnley,9135,Reading,1617,2,1,0.5,1.5
+9124,Bristol City,9146,Brighton,1617,2,0,0.0,1.5
+9117,QPR,9120,Derby,1617,2,0,0.0,1.0
+9104,Ipswich,9128,Leeds,1617,2,1,0.5,1.5
+9123,Sheffield United,9139,Fulham,1617,2,1,0.5,2.5
+9130,Luton,9141,Brentford,1617,2,0,0.0,5.5
+9133,Rotherham,9146,Brighton,1617,2,0,0.0,2.5
+9103,Birmingham,9120,Derby,1617,2,0,0.0,2.0
+9132,Huddersfield,9135,Reading,1617,2,0,0.0,1.0
+9118,Preston,9143,Aston Villa,1617,2,1,0.5,3.0
+9132,Huddersfield,9140,Nott'm Forest,1617,2,0,0.0,2.5
+9128,Leeds,9139,Fulham,1617,2,2,1.0,2.0
+9145,Newcastle,9146,Brighton,1617,2,0,0.0,2.5
+9128,Leeds,9131,Burnley,1617,2,0,0.0,4.0
+9104,Ipswich,9118,Preston,1617,2,1,0.5,1.5
+9123,Sheffield United,9141,Brentford,1617,2,1,0.5,2.5
+9104,Ipswich,9126,Cardiff,1617,2,1,0.5,3.0
+9103,Birmingham,9122,Blackburn,1617,2,1,0.5,1.5
+9124,Bristol City,9136,Wigan,1617,2,0,0.0,2.0
+9104,Ipswich,9139,Fulham,1617,2,0,0.0,3.0
+9136,Wigan,9146,Brighton,1617,2,0,0.0,2.0
+9120,Derby,9143,Aston Villa,1617,2,1,0.5,0.5
+9104,Ipswich,9144,Wolves,1617,2,2,1.0,
+9103,Birmingham,9118,Preston,1617,2,1,0.5,3.5
+9131,Burnley,9140,Nott'm Forest,1617,2,0,0.0,4.0
+9113,Norwich,9118,Preston,1617,2,0,0.0,2.5
+9133,Rotherham,9140,Nott'm Forest,1617,2,1,0.5,3.0
+9103,Birmingham,9132,Huddersfield,1617,2,1,0.5,2.0
+9123,Sheffield United,9133,Rotherham,1617,2,0,0.0,1.5
+9131,Burnley,9133,Rotherham,1617,2,0,0.0,2.5
+9117,QPR,9123,Sheffield United,1617,2,0,0.0,2.0
+9117,QPR,9140,Nott'm Forest,1617,2,1,0.5,2.0
+9113,Norwich,9140,Nott'm Forest,1617,2,0,0.0,4.5
+9118,Preston,9124,Bristol City,1617,2,0,0.0,4.0
+9126,Cardiff,9133,Rotherham,1617,2,0,0.0,4.0
+9103,Birmingham,9126,Cardiff,1617,2,2,1.0,1.0
+9113,Norwich,9120,Derby,1617,2,0,0.0,2.0
+9132,Huddersfield,9139,Fulham,1617,2,0,0.0,5.0
+9113,Norwich,9130,Luton,1617,2,0,0.0,3.5
+9130,Luton,9136,Wigan,1617,2,1,0.5,1.0
+9124,Bristol City,9140,Nott'm Forest,1617,2,0,0.0,2.0
+9113,Norwich,9144,Wolves,1617,2,0,0.0,3.5
+9117,QPR,9141,Brentford,1617,2,0,0.0,3.0
+9123,Sheffield United,9135,Reading,1617,2,0,0.0,2.5
+9126,Cardiff,9131,Burnley,1617,2,1,0.5,3.5
+9120,Derby,9139,Fulham,1617,2,1,0.5,5.0
+9132,Huddersfield,9143,Aston Villa,1617,2,1,0.5,1.5
+9103,Birmingham,9130,Luton,1617,2,0,0.0,2.0
+9118,Preston,9131,Burnley,1617,2,1,0.5,1.5
+9104,Ipswich,9145,Newcastle,1617,2,0,0.0,3.5
+9120,Derby,9132,Huddersfield,1617,2,1,0.5,1.5
+9128,Leeds,9133,Rotherham,1617,2,0,0.0,3.0
+9143,Aston Villa,9145,Newcastle,1617,2,1,0.5,2.0
+9131,Burnley,9145,Newcastle,1617,2,0,0.0,2.5
+9131,Burnley,9132,Huddersfield,1617,2,1,0.5,2.5
+9126,Cardiff,9144,Wolves,1617,2,0,0.0,3.5
 9123,Sheffield United,9130,Luton,1617,2,1,0.5,3.0
 9126,Cardiff,9128,Leeds,1617,2,0,0.0,2.0
 9113,Norwich,9141,Brentford,1617,2,1,0.5,2.5
@@ -16,262 +139,139 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9117,QPR,9122,Blackburn,1617,2,1,0.5,1.5
 9104,Ipswich,9131,Burnley,1617,2,1,0.5,4.0
 9126,Cardiff,9132,Huddersfield,1617,2,0,0.0,4.0
-9120,Derby,9123,Sheffield United,1617,2,0,0.0,2.5
 9130,Luton,9131,Burnley,1617,2,2,1.0,1.0
 9141,Brentford,9145,Newcastle,1617,2,0,0.0,3.5
-9136,Wigan,9145,Newcastle,1617,2,0,0.0,2.5
-9123,Sheffield United,9124,Bristol City,1617,2,1,0.5,4.5
 9120,Derby,9136,Wigan,1617,2,1,0.5,0.5
 9131,Burnley,9146,Brighton,1617,2,0,0.0,2.0
 9122,Blackburn,9136,Wigan,1617,2,0,0.0,2.0
-9135,Reading,9143,Aston Villa,1617,2,0,0.0,3.5
-9117,QPR,9144,Wolves,1617,2,0,0.0,3.0
-9113,Norwich,9131,Burnley,1617,2,0,0.0,2.5
 9122,Blackburn,9145,Newcastle,1617,2,0,0.0,1.0
-9140,Nott'm Forest,9143,Aston Villa,1617,2,1,0.5,3.5
-9103,Birmingham,9136,Wigan,1617,2,1,0.5,1.5
-9104,Ipswich,9113,Norwich,1617,2,2,1.0,2.0
 9139,Fulham,9146,Brighton,1617,2,0,0.0,3.0
 9139,Fulham,9145,Newcastle,1617,2,0,0.0,2.5
 9104,Ipswich,9130,Luton,1617,2,0,0.0,2.5
-9123,Sheffield United,9136,Wigan,1617,2,0,0.0,2.0
 9128,Leeds,9132,Huddersfield,1617,2,0,0.0,2.0
-9130,Luton,9133,Rotherham,1617,2,0,0.0,3.0
 9104,Ipswich,9136,Wigan,1617,2,0,0.0,4.0
-9103,Birmingham,9104,Ipswich,1617,2,1,0.5,2.5
 9133,Rotherham,9135,Reading,1617,2,0,0.0,2.0
 9126,Cardiff,9146,Brighton,1617,2,1,0.5,0.5
 9118,Preston,9132,Huddersfield,1617,2,0,0.0,4.5
-9103,Birmingham,9131,Burnley,1617,2,1,0.5,3.5
 9139,Fulham,9144,Wolves,1617,2,1,0.5,6.0
-9104,Ipswich,9120,Derby,1617,2,0,0.0,2.0
-9122,Blackburn,9135,Reading,1617,2,0,0.0,4.5
-9128,Leeds,9141,Brentford,1617,2,0,0.0,1.5
-9103,Birmingham,9123,Sheffield United,1617,2,0,0.0,3.0
-9122,Blackburn,9123,Sheffield United,1617,2,0,0.0,2.0
 9113,Norwich,9117,QPR,1617,2,0,0.0,3.5
 9122,Blackburn,9143,Aston Villa,1617,2,0,0.0,2.0
 9141,Brentford,9144,Wolves,1617,2,0,0.0,3.5
-9124,Bristol City,9131,Burnley,1617,2,1,0.5,4.5
 9120,Derby,9133,Rotherham,1617,2,1,0.5,2.5
 9122,Blackburn,9146,Brighton,1617,2,0,0.0,3.0
-9126,Cardiff,9130,Luton,1617,2,0,0.0,1.5
-9103,Birmingham,9141,Brentford,1617,2,0,0.0,3.5
-9131,Burnley,9136,Wigan,1617,2,1,0.5,2.5
-9130,Luton,9146,Brighton,1617,2,0,0.0,3.0
-9124,Bristol City,9128,Leeds,1617,2,0,0.0,2.0
-9123,Sheffield United,9143,Aston Villa,1617,2,0,0.0,1.5
 9140,Nott'm Forest,9146,Brighton,1617,2,0,0.0,3.0
-9118,Preston,9145,Newcastle,1617,2,0,0.0,4.0
-9128,Leeds,9130,Luton,1617,2,0,0.0,2.5
-9123,Sheffield United,9146,Brighton,1617,2,0,0.0,3.0
-9122,Blackburn,9130,Luton,1617,2,2,1.0,3.0
-9124,Bristol City,9132,Huddersfield,1617,2,0,0.0,3.5
-9120,Derby,9146,Brighton,1617,2,1,0.5,1.5
-9128,Leeds,9144,Wolves,1617,2,0,0.0,1.0
 9122,Blackburn,9133,Rotherham,1617,2,1,0.5,4.0
 9126,Cardiff,9140,Nott'm Forest,1617,2,0,0.0,2.0
 9122,Blackburn,9140,Nott'm Forest,1617,2,0,0.0,2.0
-9133,Rotherham,9136,Wigan,1617,2,0,0.0,5.0
 9123,Sheffield United,9131,Burnley,1617,2,1,0.5,2.0
 9140,Nott'm Forest,9141,Brentford,1617,2,0,0.0,3.0
 9104,Ipswich,9143,Aston Villa,1617,2,1,0.5,0.5
-9123,Sheffield United,9126,Cardiff,1617,2,1,0.5,1.5
 9103,Birmingham,9128,Leeds,1617,2,0,0.0,3.5
 9124,Bristol City,9130,Luton,1617,2,1,0.5,1.5
 9126,Cardiff,9141,Brentford,1617,2,1,0.5,3.5
-9122,Blackburn,9128,Leeds,1617,2,0,0.0,3.0
-9132,Huddersfield,9133,Rotherham,1617,2,0,0.0,4.0
-9130,Luton,9144,Wolves,1617,2,1,0.5,2.5
 9135,Reading,9136,Wigan,1617,2,0,0.0,2.0
 9120,Derby,9144,Wolves,1617,2,0,0.0,4.5
-9130,Luton,9135,Reading,1617,2,0,0.0,4.5
-9141,Brentford,9146,Brighton,1617,2,1,0.5,4.0
-9135,Reading,9144,Wolves,1617,2,0,0.0,2.5
-9113,Norwich,9122,Blackburn,1617,2,1,0.5,4.5
 9103,Birmingham,9143,Aston Villa,1617,2,1,0.5,1.5
 9136,Wigan,9144,Wolves,1617,2,0,0.0,2.0
-9104,Ipswich,9141,Brentford,1617,2,1,0.5,2.0
 9113,Norwich,9143,Aston Villa,1617,2,0,0.0,1.5
 9131,Burnley,9141,Brentford,1617,2,1,0.5,2.0
-9103,Birmingham,9117,QPR,1617,2,1,0.5,3.5
-9118,Preston,9128,Leeds,1617,2,0,0.0,4.0
 9128,Leeds,9143,Aston Villa,1617,2,1,0.5,2.0
 9136,Wigan,9141,Brentford,1617,2,1,0.5,1.5
-9117,QPR,9136,Wigan,1617,2,0,0.0,2.0
-9135,Reading,9140,Nott'm Forest,1617,2,0,0.0,3.5
 9126,Cardiff,9139,Fulham,1617,2,2,1.0,4.0
-9103,Birmingham,9140,Nott'm Forest,1617,2,1,0.5,2.0
-9103,Birmingham,9146,Brighton,1617,2,0,0.0,3.5
-9117,QPR,9143,Aston Villa,1617,2,0,0.0,1.0
 9104,Ipswich,9132,Huddersfield,1617,2,0,0.0,1.5
 9141,Brentford,9143,Aston Villa,1617,2,1,0.5,2.5
 9118,Preston,9123,Sheffield United,1617,2,1,0.5,2.5
 9104,Ipswich,9122,Blackburn,1617,2,1,0.5,2.5
-9117,QPR,9145,Newcastle,1617,2,1,0.5,5.0
 9123,Sheffield United,9132,Huddersfield,1617,2,0,0.0,1.5
-9103,Birmingham,9135,Reading,1617,2,1,0.5,0.5
 9113,Norwich,9135,Reading,1617,2,0,0.0,6.0
 9135,Reading,9145,Newcastle,1617,2,1,0.5,2.5
-9136,Wigan,9139,Fulham,1617,2,1,0.5,2.5
 9118,Preston,9136,Wigan,1617,2,1,0.5,0.5
 9113,Norwich,9124,Bristol City,1617,2,1,0.5,1.5
 9104,Ipswich,9133,Rotherham,1617,2,1,0.5,2.5
 9124,Bristol City,9139,Fulham,1617,2,0,0.0,3.0
-9133,Rotherham,9143,Aston Villa,1617,2,0,0.0,2.5
 9135,Reading,9146,Brighton,1617,2,1,0.5,3.5
 9120,Derby,9124,Bristol City,1617,2,2,1.0,4.0
-9126,Cardiff,9145,Newcastle,1617,2,0,0.0,2.5
-9120,Derby,9126,Cardiff,1617,2,0,0.0,4.5
-9128,Leeds,9146,Brighton,1617,2,0,0.0,2.0
-9103,Birmingham,9124,Bristol City,1617,2,0,0.0,1.0
-9122,Blackburn,9139,Fulham,1617,2,1,0.5,2.5
 9103,Birmingham,9139,Fulham,1617,2,0,0.0,1.0
 9136,Wigan,9143,Aston Villa,1617,2,0,0.0,1.5
 9131,Burnley,9144,Wolves,1617,2,0,0.0,4.0
-9118,Preston,9135,Reading,1617,2,0,0.0,2.0
 9135,Reading,9141,Brentford,1617,2,0,0.0,5.0
 9117,QPR,9124,Bristol City,1617,2,0,0.0,2.0
 9113,Norwich,9139,Fulham,1617,2,1,0.5,4.0
 9113,Norwich,9146,Brighton,1617,2,0,0.0,3.5
-9122,Blackburn,9141,Brentford,1617,2,0,0.0,4.5
 9133,Rotherham,9144,Wolves,1617,2,1,0.5,2.5
-9120,Derby,9140,Nott'm Forest,1617,2,1,0.5,3.5
-9120,Derby,9145,Newcastle,1617,2,0,0.0,1.5
-9133,Rotherham,9139,Fulham,1617,2,0,0.0,2.0
 9117,QPR,9133,Rotherham,1617,2,0,0.0,3.5
-9117,QPR,9139,Fulham,1617,2,1,0.5,2.5
 9132,Huddersfield,9141,Brentford,1617,2,0,0.0,2.0
-9122,Blackburn,9124,Bristol City,1617,2,1,0.5,1.5
-9120,Derby,9128,Leeds,1617,2,0,0.0,1.0
-9130,Luton,9139,Fulham,1617,2,1,0.5,2.0
 9118,Preston,9141,Brentford,1617,2,0,0.0,5.5
-9120,Derby,9122,Blackburn,1617,2,0,0.0,2.0
-9113,Norwich,9126,Cardiff,1617,2,0,0.0,3.0
 9130,Luton,9145,Newcastle,1617,2,0,0.0,2.0
 9118,Preston,9133,Rotherham,1617,2,1,0.5,3.0
 9120,Derby,9135,Reading,1617,2,1,0.5,3.5
 9104,Ipswich,9123,Sheffield United,1617,2,0,0.0,2.0
-9131,Burnley,9135,Reading,1617,2,1,0.5,1.5
-9124,Bristol City,9146,Brighton,1617,2,0,0.0,1.5
-9117,QPR,9120,Derby,1617,2,0,0.0,1.0
 9139,Fulham,9140,Nott'm Forest,1617,2,1,0.5,3.5
-9104,Ipswich,9128,Leeds,1617,2,1,0.5,1.5
-9123,Sheffield United,9139,Fulham,1617,2,1,0.5,2.5
-9130,Luton,9141,Brentford,1617,2,0,0.0,5.5
 9143,Aston Villa,9144,Wolves,1617,2,1,0.5,1.5
 9104,Ipswich,9146,Brighton,1617,2,2,1.0,1.0
 9123,Sheffield United,9145,Newcastle,1617,2,0,0.0,2.0
-9133,Rotherham,9146,Brighton,1617,2,0,0.0,2.5
 9136,Wigan,9140,Nott'm Forest,1617,2,1,0.5,3.5
-9103,Birmingham,9120,Derby,1617,2,0,0.0,2.0
 9133,Rotherham,9145,Newcastle,1617,2,0,0.0,2.5
-9132,Huddersfield,9135,Reading,1617,2,0,0.0,1.0
 9144,Wolves,9145,Newcastle,1617,2,0,0.0,1.5
 9128,Leeds,9145,Newcastle,1617,2,1,0.5,2.0
 9123,Sheffield United,9140,Nott'm Forest,1617,2,0,0.0,3.0
 9104,Ipswich,9135,Reading,1617,2,1,0.5,3.5
 9113,Norwich,9128,Leeds,1617,2,1,0.5,5.5
 9124,Bristol City,9143,Aston Villa,1617,2,0,0.0,3.0
-9118,Preston,9143,Aston Villa,1617,2,1,0.5,3.0
 9118,Preston,9130,Luton,1617,2,1,0.5,1.5
-9132,Huddersfield,9140,Nott'm Forest,1617,2,0,0.0,2.5
-9128,Leeds,9139,Fulham,1617,2,2,1.0,2.0
 9132,Huddersfield,9146,Brighton,1617,2,0,0.0,2.5
-9145,Newcastle,9146,Brighton,1617,2,0,0.0,2.5
 9118,Preston,9122,Blackburn,1617,2,1,0.5,4.5
-9128,Leeds,9131,Burnley,1617,2,0,0.0,4.0
-9104,Ipswich,9118,Preston,1617,2,1,0.5,1.5
-9123,Sheffield United,9141,Brentford,1617,2,1,0.5,2.5
 9124,Bristol City,9144,Wolves,1617,2,0,0.0,4.5
 9140,Nott'm Forest,9145,Newcastle,1617,2,0,0.0,3.5
 9140,Nott'm Forest,9144,Wolves,1617,2,0,0.0,1.5
 9118,Preston,9126,Cardiff,1617,2,0,0.0,2.5
-9104,Ipswich,9126,Cardiff,1617,2,1,0.5,3.0
-9103,Birmingham,9122,Blackburn,1617,2,1,0.5,1.5
-9124,Bristol City,9136,Wigan,1617,2,0,0.0,2.0
 9117,QPR,9126,Cardiff,1617,2,0,0.0,2.5
 9103,Birmingham,9133,Rotherham,1617,2,1,0.5,4.0
 9139,Fulham,9141,Brentford,1617,2,1,0.5,2.0
 9113,Norwich,9145,Newcastle,1617,2,1,0.5,5.5
-9104,Ipswich,9139,Fulham,1617,2,0,0.0,3.0
 9132,Huddersfield,9145,Newcastle,1617,2,0,0.0,3.5
 9128,Leeds,9136,Wigan,1617,2,2,1.0,2.0
-9136,Wigan,9146,Brighton,1617,2,0,0.0,2.0
 9132,Huddersfield,9144,Wolves,1617,2,0,0.0,1.0
 9131,Burnley,9139,Fulham,1617,2,0,0.0,4.0
-9120,Derby,9143,Aston Villa,1617,2,1,0.5,0.5
-9104,Ipswich,9144,Wolves,1617,2,2,1.0,
-9103,Birmingham,9118,Preston,1617,2,1,0.5,3.5
 9120,Derby,9131,Burnley,1617,2,0,0.0,2.5
-9131,Burnley,9140,Nott'm Forest,1617,2,0,0.0,4.0
 9135,Reading,9139,Fulham,1617,2,0,0.0,3.0
 9117,QPR,9118,Preston,1617,2,0,0.0,2.5
 9117,QPR,9132,Huddersfield,1617,2,0,0.0,3.0
 9130,Luton,9140,Nott'm Forest,1617,2,0,0.0,4.0
-9113,Norwich,9118,Preston,1617,2,0,0.0,2.5
 9113,Norwich,9133,Rotherham,1617,2,0,0.0,3.5
 9117,QPR,9146,Brighton,1617,2,0,0.0,3.0
-9133,Rotherham,9140,Nott'm Forest,1617,2,1,0.5,3.0
 9118,Preston,9120,Derby,1617,2,1,0.5,1.5
 9124,Bristol City,9135,Reading,1617,2,0,0.0,4.0
-9103,Birmingham,9132,Huddersfield,1617,2,1,0.5,2.0
-9123,Sheffield United,9133,Rotherham,1617,2,0,0.0,1.5
-9131,Burnley,9133,Rotherham,1617,2,0,0.0,2.5
 9113,Norwich,9123,Sheffield United,1617,2,1,0.5,3.0
-9117,QPR,9123,Sheffield United,1617,2,0,0.0,2.0
 9122,Blackburn,9144,Wolves,1617,2,2,1.0,1.0
-9117,QPR,9140,Nott'm Forest,1617,2,1,0.5,2.0
 9117,QPR,9135,Reading,1617,2,1,0.5,1.5
 9117,QPR,9130,Luton,1617,2,1,0.5,2.5
 9103,Birmingham,9145,Newcastle,1617,2,1,0.5,2.0
-9113,Norwich,9140,Nott'm Forest,1617,2,0,0.0,4.5
-9118,Preston,9124,Bristol City,1617,2,0,0.0,4.0
 9132,Huddersfield,9136,Wigan,1617,2,0,0.0,2.0
 9131,Burnley,9143,Aston Villa,1617,2,1,0.5,3.0
-9126,Cardiff,9133,Rotherham,1617,2,0,0.0,4.0
 9118,Preston,9139,Fulham,1617,2,0,0.0,3.5
-9103,Birmingham,9126,Cardiff,1617,2,2,1.0,1.0
 9104,Ipswich,9124,Bristol City,1617,2,0,0.0,2.5
 9133,Rotherham,9141,Brentford,1617,2,0,0.0,3.5
 9113,Norwich,9132,Huddersfield,1617,2,0,0.0,3.0
 9103,Birmingham,9113,Norwich,1617,2,0,0.0,2.5
 9122,Blackburn,9131,Burnley,1617,2,0,0.0,2.0
-9113,Norwich,9120,Derby,1617,2,0,0.0,2.0
 9120,Derby,9141,Brentford,1617,2,1,0.5,2.0
-9132,Huddersfield,9139,Fulham,1617,2,0,0.0,5.0
 9126,Cardiff,9136,Wigan,1617,2,1,0.5,0.5
-9113,Norwich,9130,Luton,1617,2,0,0.0,3.5
 9144,Wolves,9146,Brighton,1617,2,0,0.0,1.5
-9130,Luton,9136,Wigan,1617,2,1,0.5,1.0
 9113,Norwich,9136,Wigan,1617,2,1,0.5,3.5
-9124,Bristol City,9140,Nott'm Forest,1617,2,0,0.0,2.0
-9113,Norwich,9144,Wolves,1617,2,0,0.0,3.5
-9117,QPR,9141,Brentford,1617,2,0,0.0,3.0
 9118,Preston,9140,Nott'm Forest,1617,2,2,1.0,2.0
-9123,Sheffield United,9135,Reading,1617,2,0,0.0,2.5
 9124,Bristol City,9133,Rotherham,1617,2,1,0.5,2.5
 9124,Bristol City,9126,Cardiff,1617,2,0,0.0,4.0
-9126,Cardiff,9131,Burnley,1617,2,1,0.5,3.5
-9120,Derby,9139,Fulham,1617,2,1,0.5,5.0
 9128,Leeds,9140,Nott'm Forest,1617,2,0,0.0,3.0
 9123,Sheffield United,9144,Wolves,1617,2,1,0.5,1.0
 9130,Luton,9143,Aston Villa,1617,2,1,0.5,2.5
 9122,Blackburn,9126,Cardiff,1617,2,1,0.5,2.5
 9117,QPR,9131,Burnley,1617,2,0,0.0,4.0
-9132,Huddersfield,9143,Aston Villa,1617,2,1,0.5,1.5
 9118,Preston,9146,Brighton,1617,2,1,0.5,3.0
-9103,Birmingham,9130,Luton,1617,2,0,0.0,2.0
-9118,Preston,9131,Burnley,1617,2,1,0.5,1.5
 9126,Cardiff,9143,Aston Villa,1617,2,0,0.0,2.5
 9118,Preston,9144,Wolves,1617,2,1,0.5,0.5
 9104,Ipswich,9140,Nott'm Forest,1617,2,0,0.0,2.5
-9104,Ipswich,9145,Newcastle,1617,2,0,0.0,3.5
-9120,Derby,9132,Huddersfield,1617,2,1,0.5,1.5
 9122,Blackburn,9132,Huddersfield,1617,2,2,1.0,2.0
 9104,Ipswich,9117,QPR,1617,2,0,0.0,3.0
-9128,Leeds,9133,Rotherham,1617,2,0,0.0,3.0
 9143,Aston Villa,9146,Brighton,1617,2,2,1.0,2.0
 9128,Leeds,9135,Reading,1617,2,0,0.0,1.5
-9143,Aston Villa,9145,Newcastle,1617,2,1,0.5,2.0
-9131,Burnley,9145,Newcastle,1617,2,0,0.0,2.5

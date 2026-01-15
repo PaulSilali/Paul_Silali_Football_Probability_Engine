@@ -1,119 +1,186 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
-9150,Peterboro,9178,Fleetwood Town,1718,2,0,0.0,3.5
 9150,Peterboro,9166,Wigan,1718,2,1,0.5,2.5
-9148,AFC Wimbledon,9156,Doncaster,1718,2,1,0.5,1.0
-9170,Bristol Rvs,9172,Shrewsbury,1718,2,0,0.0,3.5
 9164,Rotherham,9167,Northampton,1718,2,0,0.0,2.0
-9153,Bradford,9176,Oxford,1718,2,1,0.5,4.5
-9169,Birmingham,9197,Walsall,1718,2,1,0.5,0.5
-9176,Oxford,9196,Scunthorpe,1718,2,1,0.5,1.5
 9180,Portsmouth,9198,Bury,1718,2,0,0.0,1.0
 9151,Blackpool,9198,Bury,1718,2,1,0.5,2.5
-9196,Scunthorpe,9199,Oldham,1718,2,0,0.0,3.5
 9153,Bradford,9170,Bristol Rvs,1718,2,0,0.0,4.0
 9153,Bradford,9194,Southend,1718,2,0,0.0,2.5
-9169,Birmingham,9194,Southend,1718,2,1,0.5,5.0
 9170,Bristol Rvs,9180,Portsmouth,1718,2,0,0.0,3.0
-9169,Birmingham,9192,Rochdale,1718,2,0,0.0,3.0
 9194,Southend,9197,Walsall,1718,2,0,0.0,2.0
 9151,Blackpool,9178,Fleetwood Town,1718,2,1,0.5,1.5
-9164,Rotherham,9170,Bristol Rvs,1718,2,0,0.0,2.5
-9162,Plymouth,9167,Northampton,1718,2,0,0.0,2.0
 9156,Doncaster,9167,Northampton,1718,2,0,0.0,2.0
-9167,Northampton,9178,Fleetwood Town,1718,2,0,0.0,1.5
-9169,Birmingham,9172,Shrewsbury,1718,2,1,0.5,2.5
 9148,AFC Wimbledon,9180,Portsmouth,1718,2,0,0.0,2.5
 9178,Fleetwood Town,9184,Milton Keynes Dons,1718,2,1,0.5,1.5
 9178,Fleetwood Town,9200,Blackburn,1718,2,1,0.5,3.5
+9176,Oxford,9192,Rochdale,1718,2,1,0.5,1.5
+9176,Oxford,9197,Walsall,1718,2,0,0.0,3.0
+9170,Bristol Rvs,9192,Rochdale,1718,2,0,0.0,3.0
+9162,Plymouth,9200,Blackburn,1718,2,1,0.5,2.0
+9166,Wigan,9194,Southend,1718,2,0,0.0,3.5
+9166,Wigan,9167,Northampton,1718,2,0,0.0,1.0
+9194,Southend,9198,Bury,1718,2,1,0.5,0.5
+9153,Bradford,9162,Plymouth,1718,2,0,0.0,1.0
+9151,Blackpool,9169,Birmingham,1718,2,1,0.5,2.5
+9184,Milton Keynes Dons,9197,Walsall,1718,2,1,0.5,1.5
+9194,Southend,9199,Oldham,1718,2,0,0.0,2.5
+9178,Fleetwood Town,9199,Oldham,1718,2,1,0.5,3.5
+9148,AFC Wimbledon,9151,Blackpool,1718,2,0,0.0,1.5
+9170,Bristol Rvs,9197,Walsall,1718,2,1,0.5,1.5
+9148,AFC Wimbledon,9184,Milton Keynes Dons,1718,2,1,0.5,1.0
+9166,Wigan,9197,Walsall,1718,2,0,0.0,2.5
+9180,Portsmouth,9197,Walsall,1718,2,1,0.5,1.5
+9172,Shrewsbury,9194,Southend,1718,2,0,0.0,2.0
+9184,Milton Keynes Dons,9198,Bury,1718,2,0,0.0,2.5
+9162,Plymouth,9170,Bristol Rvs,1718,2,0,0.0,4.0
+9162,Plymouth,9164,Rotherham,1718,2,1,0.5,2.5
+9172,Shrewsbury,9174,Charlton,1718,2,0,0.0,2.0
+9150,Peterboro,9151,Blackpool,1718,2,1,0.5,1.5
+9151,Blackpool,9164,Rotherham,1718,2,0,0.0,2.0
+9153,Bradford,9198,Bury,1718,2,1,0.5,4.0
+9162,Plymouth,9198,Bury,1718,2,1,0.5,1.5
+9167,Northampton,9196,Scunthorpe,1718,2,1,0.5,3.5
+9192,Rochdale,9198,Bury,1718,2,1,0.5,1.0
+9150,Peterboro,9162,Plymouth,1718,2,0,0.0,3.0
+9150,Peterboro,9197,Walsall,1718,2,1,0.5,2.5
+9196,Scunthorpe,9198,Bury,1718,2,0,0.0,1.0
+9151,Blackpool,9196,Scunthorpe,1718,2,1,0.5,2.5
+9153,Bradford,9167,Northampton,1718,2,0,0.0,2.0
+9167,Northampton,9192,Rochdale,1718,2,1,0.5,2.5
+9156,Doncaster,9196,Scunthorpe,1718,2,1,0.5,1.5
+9180,Portsmouth,9199,Oldham,1718,2,0,0.0,2.5
+9178,Fleetwood Town,9197,Walsall,1718,2,0,0.0,4.0
+9148,AFC Wimbledon,9197,Walsall,1718,2,0,0.0,4.0
+9150,Peterboro,9156,Doncaster,1718,2,2,1.0,1.0
+9162,Plymouth,9196,Scunthorpe,1718,2,0,0.0,3.0
+9151,Blackpool,9197,Walsall,1718,2,2,1.0,3.0
+9166,Wigan,9169,Birmingham,1718,2,1,0.5,2.0
+9162,Plymouth,9180,Portsmouth,1718,2,1,0.5,0.5
+9156,Doncaster,9162,Plymouth,1718,2,1,0.5,2.5
+9174,Charlton,9178,Fleetwood Town,1718,2,1,0.5,2.0
+9153,Bradford,9174,Charlton,1718,2,1,0.5,1.5
+9178,Fleetwood Town,9198,Bury,1718,2,0,0.0,3.5
+9180,Portsmouth,9194,Southend,1718,2,0,0.0,2.5
+9166,Wigan,9176,Oxford,1718,2,0,0.0,4.0
+9174,Charlton,9197,Walsall,1718,2,1,0.5,4.0
+9172,Shrewsbury,9196,Scunthorpe,1718,2,0,0.0,2.5
+9164,Rotherham,9176,Oxford,1718,2,1,0.5,5.0
+9180,Portsmouth,9192,Rochdale,1718,2,1,0.5,4.0
+9167,Northampton,9172,Shrewsbury,1718,2,1,0.5,1.5
+9148,AFC Wimbledon,9167,Northampton,1718,2,0,0.0,2.5
+9178,Fleetwood Town,9180,Portsmouth,1718,2,0,0.0,4.0
+9199,Oldham,9200,Blackburn,1718,2,1,0.5,2.5
+9169,Birmingham,9180,Portsmouth,1718,2,0,0.0,2.5
+9162,Plymouth,9169,Birmingham,1718,2,0,0.0,5.0
+9150,Peterboro,9199,Oldham,1718,2,0,0.0,4.0
+9192,Rochdale,9196,Scunthorpe,1718,2,2,1.0,2.0
+9148,AFC Wimbledon,9164,Rotherham,1718,2,0,0.0,3.0
+9151,Blackpool,9172,Shrewsbury,1718,2,1,0.5,1.5
+9176,Oxford,9200,Blackburn,1718,2,0,0.0,4.5
+9192,Rochdale,9199,Oldham,1718,2,1,0.5,2.0
+9172,Shrewsbury,9197,Walsall,1718,2,1,0.5,2.0
+9180,Portsmouth,9184,Milton Keynes Dons,1718,2,0,0.0,2.5
+9167,Northampton,9170,Bristol Rvs,1718,2,1,0.5,4.0
+9166,Wigan,9170,Bristol Rvs,1718,2,1,0.5,2.5
+9174,Charlton,9200,Blackburn,1718,2,0,0.0,1.5
+9153,Bradford,9197,Walsall,1718,2,2,1.0,4.0
+9196,Scunthorpe,9200,Blackburn,1718,2,1,0.5,2.5
+9169,Birmingham,9170,Bristol Rvs,1718,2,1,0.5,3.5
+9148,AFC Wimbledon,9153,Bradford,1718,2,0,0.0,3.5
+9151,Blackpool,9166,Wigan,1718,2,0,0.0,3.0
+9167,Northampton,9184,Milton Keynes Dons,1718,2,1,0.5,1.5
+9169,Birmingham,9199,Oldham,1718,2,2,1.0,1.0
+9150,Peterboro,9194,Southend,1718,2,1,0.5,1.5
+9150,Peterboro,9153,Bradford,1718,2,0,0.0,4.0
+9148,AFC Wimbledon,9192,Rochdale,1718,2,2,1.0,1.0
+9197,Walsall,9199,Oldham,1718,2,1,0.5,2.5
+9170,Bristol Rvs,9196,Scunthorpe,1718,2,1,0.5,1.5
+9151,Blackpool,9174,Charlton,1718,2,1,0.5,1.5
+9151,Blackpool,9176,Oxford,1718,2,0,0.0,2.5
+9148,AFC Wimbledon,9196,Scunthorpe,1718,2,2,1.0,2.0
+9156,Doncaster,9197,Walsall,1718,2,0,0.0,4.5
+9164,Rotherham,9174,Charlton,1718,2,0,0.0,3.0
+9153,Bradford,9178,Fleetwood Town,1718,2,0,0.0,3.0
+9148,AFC Wimbledon,9172,Shrewsbury,1718,2,0,0.0,1.0
+9170,Bristol Rvs,9194,Southend,1718,2,1,0.5,1.5
+9150,Peterboro,9174,Charlton,1718,2,1,0.5,4.5
+9164,Rotherham,9169,Birmingham,1718,2,0,0.0,2.5
+9151,Blackpool,9180,Portsmouth,1718,2,0,0.0,3.5
+9174,Charlton,9196,Scunthorpe,1718,2,0,0.0,1.5
+9170,Bristol Rvs,9178,Fleetwood Town,1718,2,0,0.0,3.0
+9148,AFC Wimbledon,9174,Charlton,1718,2,0,0.0,1.0
+9166,Wigan,9198,Bury,1718,2,0,0.0,3.5
+9174,Charlton,9180,Portsmouth,1718,2,0,0.0,1.0
+9150,Peterboro,9172,Shrewsbury,1718,2,0,0.0,2.5
+9174,Charlton,9199,Oldham,1718,2,0,0.0,4.0
+9156,Doncaster,9164,Rotherham,1718,2,1,0.5,2.5
+9150,Peterboro,9184,Milton Keynes Dons,1718,2,0,0.0,1.5
+9162,Plymouth,9194,Southend,1718,2,1,0.5,3.0
+9162,Plymouth,9197,Walsall,1718,2,0,0.0,2.0
+9150,Peterboro,9169,Birmingham,1718,2,1,0.5,1.5
+9153,Bradford,9156,Doncaster,1718,2,0,0.0,2.0
+9172,Shrewsbury,9200,Blackburn,1718,2,1,0.5,3.0
+9148,AFC Wimbledon,9162,Plymouth,1718,2,0,0.0,3.5
+9148,AFC Wimbledon,9199,Oldham,1718,2,2,1.0,2.0
+9162,Plymouth,9192,Rochdale,1718,2,2,1.0,2.0
+9178,Fleetwood Town,9196,Scunthorpe,1718,2,1,0.5,3.5
+9164,Rotherham,9180,Portsmouth,1718,2,0,0.0,1.0
+9174,Charlton,9192,Rochdale,1718,2,0,0.0,2.0
+9148,AFC Wimbledon,9198,Bury,1718,2,1,0.5,3.5
+9151,Blackpool,9194,Southend,1718,2,1,0.5,2.5
+9150,Peterboro,9178,Fleetwood Town,1718,2,0,0.0,3.5
+9148,AFC Wimbledon,9156,Doncaster,1718,2,1,0.5,1.0
+9170,Bristol Rvs,9172,Shrewsbury,1718,2,0,0.0,3.5
+9153,Bradford,9176,Oxford,1718,2,1,0.5,4.5
+9169,Birmingham,9197,Walsall,1718,2,1,0.5,0.5
+9176,Oxford,9196,Scunthorpe,1718,2,1,0.5,1.5
+9196,Scunthorpe,9199,Oldham,1718,2,0,0.0,3.5
+9169,Birmingham,9194,Southend,1718,2,1,0.5,5.0
+9169,Birmingham,9192,Rochdale,1718,2,0,0.0,3.0
+9164,Rotherham,9170,Bristol Rvs,1718,2,0,0.0,2.5
+9162,Plymouth,9167,Northampton,1718,2,0,0.0,2.0
+9167,Northampton,9178,Fleetwood Town,1718,2,0,0.0,1.5
+9169,Birmingham,9172,Shrewsbury,1718,2,1,0.5,2.5
 9166,Wigan,9192,Rochdale,1718,2,0,0.0,3.0
 9164,Rotherham,9194,Southend,1718,2,0,0.0,3.5
 9153,Bradford,9180,Portsmouth,1718,2,0,0.0,2.5
 9167,Northampton,9194,Southend,1718,2,1,0.5,4.0
 9148,AFC Wimbledon,9169,Birmingham,1718,2,2,1.0,3.0
-9176,Oxford,9192,Rochdale,1718,2,1,0.5,1.5
 9176,Oxford,9199,Oldham,1718,2,1,0.5,1.0
-9176,Oxford,9197,Walsall,1718,2,0,0.0,3.0
 9174,Charlton,9198,Bury,1718,2,1,0.5,1.5
-9170,Bristol Rvs,9192,Rochdale,1718,2,0,0.0,3.0
-9162,Plymouth,9200,Blackburn,1718,2,1,0.5,2.0
 9151,Blackpool,9199,Oldham,1718,2,0,0.0,3.0
-9166,Wigan,9194,Southend,1718,2,0,0.0,3.5
-9166,Wigan,9167,Northampton,1718,2,0,0.0,1.0
 9170,Bristol Rvs,9198,Bury,1718,2,0,0.0,4.0
 9167,Northampton,9200,Blackburn,1718,2,2,1.0,2.0
-9194,Southend,9198,Bury,1718,2,1,0.5,0.5
-9153,Bradford,9162,Plymouth,1718,2,0,0.0,1.0
 9192,Rochdale,9200,Blackburn,1718,2,0,0.0,2.5
-9151,Blackpool,9169,Birmingham,1718,2,1,0.5,2.5
 9148,AFC Wimbledon,9166,Wigan,1718,2,1,0.5,3.0
 9156,Doncaster,9184,Milton Keynes Dons,1718,2,0,0.0,3.0
-9184,Milton Keynes Dons,9197,Walsall,1718,2,1,0.5,1.5
-9194,Southend,9199,Oldham,1718,2,0,0.0,2.5
-9178,Fleetwood Town,9199,Oldham,1718,2,1,0.5,3.5
 9148,AFC Wimbledon,9176,Oxford,1718,2,0,0.0,3.0
-9148,AFC Wimbledon,9151,Blackpool,1718,2,0,0.0,1.5
 9150,Peterboro,9200,Blackburn,1718,2,0,0.0,4.5
-9170,Bristol Rvs,9197,Walsall,1718,2,1,0.5,1.5
-9148,AFC Wimbledon,9184,Milton Keynes Dons,1718,2,1,0.5,1.0
 9164,Rotherham,9192,Rochdale,1718,2,0,0.0,1.0
-9166,Wigan,9197,Walsall,1718,2,0,0.0,2.5
 9148,AFC Wimbledon,9150,Peterboro,1718,2,2,1.0,3.0
-9180,Portsmouth,9197,Walsall,1718,2,1,0.5,1.5
-9172,Shrewsbury,9194,Southend,1718,2,0,0.0,2.0
 9172,Shrewsbury,9199,Oldham,1718,2,0,0.0,2.0
-9184,Milton Keynes Dons,9198,Bury,1718,2,0,0.0,2.5
 9150,Peterboro,9176,Oxford,1718,2,0,0.0,4.0
 9176,Oxford,9198,Bury,1718,2,0,0.0,3.0
-9162,Plymouth,9170,Bristol Rvs,1718,2,0,0.0,4.0
-9162,Plymouth,9164,Rotherham,1718,2,1,0.5,2.5
 9162,Plymouth,9174,Charlton,1718,2,0,0.0,2.0
-9172,Shrewsbury,9174,Charlton,1718,2,0,0.0,2.0
 9166,Wigan,9184,Milton Keynes Dons,1718,2,0,0.0,3.5
-9150,Peterboro,9151,Blackpool,1718,2,1,0.5,1.5
 9172,Shrewsbury,9178,Fleetwood Town,1718,2,0,0.0,2.0
-9151,Blackpool,9164,Rotherham,1718,2,0,0.0,2.0
 9169,Birmingham,9196,Scunthorpe,1718,2,1,0.5,2.0
 9153,Bradford,9200,Blackburn,1718,2,0,0.0,1.5
 9197,Walsall,9200,Blackburn,1718,2,0,0.0,3.5
-9153,Bradford,9198,Bury,1718,2,1,0.5,4.0
 9174,Charlton,9194,Southend,1718,2,0,0.0,3.5
 9174,Charlton,9176,Oxford,1718,2,1,0.5,3.5
-9162,Plymouth,9198,Bury,1718,2,1,0.5,1.5
 9172,Shrewsbury,9198,Bury,1718,2,1,0.5,1.5
-9167,Northampton,9196,Scunthorpe,1718,2,1,0.5,3.5
-9192,Rochdale,9198,Bury,1718,2,1,0.5,1.0
-9150,Peterboro,9162,Plymouth,1718,2,0,0.0,3.0
-9150,Peterboro,9197,Walsall,1718,2,1,0.5,2.5
 9169,Birmingham,9176,Oxford,1718,2,1,0.5,2.5
-9196,Scunthorpe,9198,Bury,1718,2,0,0.0,1.0
 9153,Bradford,9164,Rotherham,1718,2,0,0.0,1.5
-9151,Blackpool,9196,Scunthorpe,1718,2,1,0.5,2.5
-9153,Bradford,9167,Northampton,1718,2,0,0.0,2.0
-9167,Northampton,9192,Rochdale,1718,2,1,0.5,2.5
-9156,Doncaster,9196,Scunthorpe,1718,2,1,0.5,1.5
 9153,Bradford,9169,Birmingham,1718,2,0,0.0,1.0
 9162,Plymouth,9166,Wigan,1718,2,0,0.0,2.5
 9166,Wigan,9196,Scunthorpe,1718,2,1,0.5,4.5
 9156,Doncaster,9192,Rochdale,1718,2,0,0.0,2.5
-9180,Portsmouth,9199,Oldham,1718,2,0,0.0,2.5
 9156,Doncaster,9200,Blackburn,1718,2,0,0.0,2.5
-9178,Fleetwood Town,9197,Walsall,1718,2,0,0.0,4.0
 9192,Rochdale,9194,Southend,1718,2,2,1.0,
-9148,AFC Wimbledon,9197,Walsall,1718,2,0,0.0,4.0
-9150,Peterboro,9156,Doncaster,1718,2,2,1.0,1.0
 9166,Wigan,9200,Blackburn,1718,2,2,1.0,2.0
-9162,Plymouth,9196,Scunthorpe,1718,2,0,0.0,3.0
-9151,Blackpool,9197,Walsall,1718,2,2,1.0,3.0
-9166,Wigan,9169,Birmingham,1718,2,1,0.5,2.0
 9167,Northampton,9180,Portsmouth,1718,2,0,0.0,4.0
-9162,Plymouth,9180,Portsmouth,1718,2,1,0.5,0.5
-9156,Doncaster,9162,Plymouth,1718,2,1,0.5,2.5
-9174,Charlton,9178,Fleetwood Town,1718,2,1,0.5,2.0
 9198,Bury,9200,Blackburn,1718,2,0,0.0,2.5
 9166,Wigan,9178,Fleetwood Town,1718,2,0,0.0,3.0
-9153,Bradford,9174,Charlton,1718,2,1,0.5,1.5
-9178,Fleetwood Town,9198,Bury,1718,2,0,0.0,3.5
-9180,Portsmouth,9194,Southend,1718,2,0,0.0,2.5
 9170,Bristol Rvs,9200,Blackburn,1718,2,1,0.5,2.5
 9164,Rotherham,9172,Shrewsbury,1718,2,0,0.0,2.0
 9156,Doncaster,9194,Southend,1718,2,1,0.5,2.5
@@ -127,79 +194,46 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9148,AFC Wimbledon,9178,Fleetwood Town,1718,2,0,0.0,1.5
 9164,Rotherham,9178,Fleetwood Town,1718,2,0,0.0,3.5
 9196,Scunthorpe,9197,Walsall,1718,2,0,0.0,1.0
-9166,Wigan,9176,Oxford,1718,2,0,0.0,4.0
 9176,Oxford,9178,Fleetwood Town,1718,2,0,0.0,1.5
-9174,Charlton,9197,Walsall,1718,2,1,0.5,4.0
 9150,Peterboro,9164,Rotherham,1718,2,1,0.5,2.5
 9164,Rotherham,9196,Scunthorpe,1718,2,0,0.0,2.5
 9166,Wigan,9174,Charlton,1718,2,1,0.5,1.5
 9148,AFC Wimbledon,9170,Bristol Rvs,1718,2,0,0.0,2.5
-9172,Shrewsbury,9196,Scunthorpe,1718,2,0,0.0,2.5
 9170,Bristol Rvs,9174,Charlton,1718,2,1,0.5,1.5
 9197,Walsall,9198,Bury,1718,2,0,0.0,1.0
 9178,Fleetwood Town,9192,Rochdale,1718,2,1,0.5,3.0
-9164,Rotherham,9176,Oxford,1718,2,1,0.5,5.0
 9192,Rochdale,9197,Walsall,1718,2,1,0.5,2.5
-9180,Portsmouth,9192,Rochdale,1718,2,1,0.5,4.0
 9184,Milton Keynes Dons,9200,Blackburn,1718,2,0,0.0,4.0
 9164,Rotherham,9166,Wigan,1718,2,1,0.5,2.0
 9167,Northampton,9176,Oxford,1718,2,1,0.5,1.5
-9167,Northampton,9172,Shrewsbury,1718,2,1,0.5,1.5
 9172,Shrewsbury,9180,Portsmouth,1718,2,0,0.0,1.5
-9148,AFC Wimbledon,9167,Northampton,1718,2,0,0.0,2.5
-9178,Fleetwood Town,9180,Portsmouth,1718,2,0,0.0,4.0
 9169,Birmingham,9174,Charlton,1718,2,0,0.0,2.0
 9167,Northampton,9169,Birmingham,1718,2,0,0.0,3.0
-9199,Oldham,9200,Blackburn,1718,2,1,0.5,2.5
-9169,Birmingham,9180,Portsmouth,1718,2,0,0.0,2.5
-9162,Plymouth,9169,Birmingham,1718,2,0,0.0,5.0
 9169,Birmingham,9178,Fleetwood Town,1718,2,0,0.0,2.5
-9150,Peterboro,9199,Oldham,1718,2,0,0.0,4.0
 9172,Shrewsbury,9176,Oxford,1718,2,1,0.5,3.5
-9192,Rochdale,9196,Scunthorpe,1718,2,2,1.0,2.0
-9148,AFC Wimbledon,9164,Rotherham,1718,2,0,0.0,3.0
-9151,Blackpool,9172,Shrewsbury,1718,2,1,0.5,1.5
 9180,Portsmouth,9196,Scunthorpe,1718,2,1,0.5,2.0
 9184,Milton Keynes Dons,9194,Southend,1718,2,1,0.5,3.0
-9176,Oxford,9200,Blackburn,1718,2,0,0.0,4.5
-9192,Rochdale,9199,Oldham,1718,2,1,0.5,2.0
-9172,Shrewsbury,9197,Walsall,1718,2,1,0.5,2.0
-9180,Portsmouth,9184,Milton Keynes Dons,1718,2,0,0.0,2.5
-9167,Northampton,9170,Bristol Rvs,1718,2,1,0.5,4.0
 9164,Rotherham,9200,Blackburn,1718,2,1,0.5,2.0
 9151,Blackpool,9184,Milton Keynes Dons,1718,2,1,0.5,0.5
 9166,Wigan,9180,Portsmouth,1718,2,1,0.5,2.5
 9148,AFC Wimbledon,9194,Southend,1718,2,0,0.0,1.5
-9166,Wigan,9170,Bristol Rvs,1718,2,1,0.5,2.5
-9174,Charlton,9200,Blackburn,1718,2,0,0.0,1.5
-9153,Bradford,9197,Walsall,1718,2,2,1.0,4.0
-9196,Scunthorpe,9200,Blackburn,1718,2,1,0.5,2.5
 9162,Plymouth,9178,Fleetwood Town,1718,2,1,0.5,2.5
 9150,Peterboro,9180,Portsmouth,1718,2,0,0.0,2.5
 9151,Blackpool,9153,Bradford,1718,2,0,0.0,4.0
-9169,Birmingham,9170,Bristol Rvs,1718,2,1,0.5,3.5
 9162,Plymouth,9199,Oldham,1718,2,0,0.0,4.0
-9148,AFC Wimbledon,9153,Bradford,1718,2,0,0.0,3.5
-9151,Blackpool,9166,Wigan,1718,2,0,0.0,3.0
 9164,Rotherham,9199,Oldham,1718,2,1,0.5,4.0
 9198,Bury,9199,Oldham,1718,2,1,0.5,3.5
 9167,Northampton,9174,Charlton,1718,2,0,0.0,4.5
 9169,Birmingham,9198,Bury,1718,2,1,0.5,2.5
-9167,Northampton,9184,Milton Keynes Dons,1718,2,1,0.5,1.5
 9194,Southend,9200,Blackburn,1718,2,0,0.0,2.0
-9169,Birmingham,9199,Oldham,1718,2,2,1.0,1.0
 9172,Shrewsbury,9192,Rochdale,1718,2,0,0.0,4.5
-9150,Peterboro,9194,Southend,1718,2,1,0.5,1.5
 9169,Birmingham,9200,Blackburn,1718,2,1,0.5,0.5
 9153,Bradford,9184,Milton Keynes Dons,1718,2,0,0.0,3.5
-9150,Peterboro,9153,Bradford,1718,2,0,0.0,4.0
 9151,Blackpool,9162,Plymouth,1718,2,1,0.5,4.0
 9156,Doncaster,9199,Oldham,1718,2,2,1.0,1.0
-9148,AFC Wimbledon,9192,Rochdale,1718,2,2,1.0,1.0
 9156,Doncaster,9180,Portsmouth,1718,2,1,0.5,3.5
 9164,Rotherham,9198,Bury,1718,2,0,0.0,4.0
 9151,Blackpool,9192,Rochdale,1718,2,1,0.5,1.5
-9197,Walsall,9199,Oldham,1718,2,1,0.5,2.5
 9150,Peterboro,9192,Rochdale,1718,2,0,0.0,1.5
 9170,Bristol Rvs,9184,Milton Keynes Dons,1718,2,0,0.0,1.5
 9178,Fleetwood Town,9194,Southend,1718,2,0,0.0,4.5
@@ -208,70 +242,36 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9156,Doncaster,9178,Fleetwood Town,1718,2,1,0.5,1.5
 9184,Milton Keynes Dons,9196,Scunthorpe,1718,2,1,0.5,3.0
 9176,Oxford,9194,Southend,1718,2,1,0.5,2.0
-9170,Bristol Rvs,9196,Scunthorpe,1718,2,1,0.5,1.5
 9164,Rotherham,9184,Milton Keynes Dons,1718,2,0,0.0,4.0
 9176,Oxford,9180,Portsmouth,1718,2,0,0.0,3.0
 9164,Rotherham,9197,Walsall,1718,2,0,0.0,4.5
-9151,Blackpool,9174,Charlton,1718,2,1,0.5,1.5
-9151,Blackpool,9176,Oxford,1718,2,0,0.0,2.5
-9148,AFC Wimbledon,9196,Scunthorpe,1718,2,2,1.0,2.0
 9151,Blackpool,9200,Blackburn,1718,2,0,0.0,4.5
-9156,Doncaster,9197,Walsall,1718,2,0,0.0,4.5
 9156,Doncaster,9169,Birmingham,1718,2,2,1.0,
-9164,Rotherham,9174,Charlton,1718,2,0,0.0,3.0
-9153,Bradford,9178,Fleetwood Town,1718,2,0,0.0,3.0
-9148,AFC Wimbledon,9172,Shrewsbury,1718,2,0,0.0,1.0
-9170,Bristol Rvs,9194,Southend,1718,2,1,0.5,1.5
 9150,Peterboro,9167,Northampton,1718,2,0,0.0,3.5
-9150,Peterboro,9174,Charlton,1718,2,1,0.5,4.5
 9148,AFC Wimbledon,9200,Blackburn,1718,2,0,0.0,2.0
 9166,Wigan,9199,Oldham,1718,2,0,0.0,2.5
 9167,Northampton,9199,Oldham,1718,2,1,0.5,5.0
-9164,Rotherham,9169,Birmingham,1718,2,0,0.0,2.5
 9150,Peterboro,9170,Bristol Rvs,1718,2,1,0.5,3.5
-9151,Blackpool,9180,Portsmouth,1718,2,0,0.0,3.5
-9174,Charlton,9196,Scunthorpe,1718,2,0,0.0,1.5
 9170,Bristol Rvs,9176,Oxford,1718,2,0,0.0,2.0
-9170,Bristol Rvs,9178,Fleetwood Town,1718,2,0,0.0,3.0
-9148,AFC Wimbledon,9174,Charlton,1718,2,0,0.0,1.0
 9153,Bradford,9166,Wigan,1718,2,0,0.0,2.0
-9166,Wigan,9198,Bury,1718,2,0,0.0,3.5
-9174,Charlton,9180,Portsmouth,1718,2,0,0.0,1.0
 9151,Blackpool,9156,Doncaster,1718,2,1,0.5,4.5
-9150,Peterboro,9172,Shrewsbury,1718,2,0,0.0,2.5
 9153,Bradford,9192,Rochdale,1718,2,1,0.5,4.5
-9174,Charlton,9199,Oldham,1718,2,0,0.0,4.0
-9156,Doncaster,9164,Rotherham,1718,2,1,0.5,2.5
-9150,Peterboro,9184,Milton Keynes Dons,1718,2,0,0.0,1.5
 9153,Bradford,9196,Scunthorpe,1718,2,1,0.5,2.5
 9167,Northampton,9197,Walsall,1718,2,0,0.0,2.0
-9162,Plymouth,9194,Southend,1718,2,1,0.5,3.0
-9162,Plymouth,9197,Walsall,1718,2,0,0.0,2.0
 9156,Doncaster,9176,Oxford,1718,2,0,0.0,1.0
 9153,Bradford,9199,Oldham,1718,2,1,0.5,2.5
 9153,Bradford,9172,Shrewsbury,1718,2,1,0.5,0.5
 9180,Portsmouth,9200,Blackburn,1718,2,0,0.0,3.0
 9151,Blackpool,9170,Bristol Rvs,1718,2,1,0.5,2.0
 9170,Bristol Rvs,9199,Oldham,1718,2,1,0.5,3.5
-9150,Peterboro,9169,Birmingham,1718,2,1,0.5,1.5
 9162,Plymouth,9176,Oxford,1718,2,0,0.0,2.5
 9169,Birmingham,9184,Milton Keynes Dons,1718,2,0,0.0,2.0
 9156,Doncaster,9198,Bury,1718,2,1,0.5,3.5
-9153,Bradford,9156,Doncaster,1718,2,0,0.0,2.0
-9172,Shrewsbury,9200,Blackburn,1718,2,1,0.5,3.0
-9148,AFC Wimbledon,9162,Plymouth,1718,2,0,0.0,3.5
 9172,Shrewsbury,9184,Milton Keynes Dons,1718,2,1,0.5,1.5
-9148,AFC Wimbledon,9199,Oldham,1718,2,2,1.0,2.0
-9162,Plymouth,9192,Rochdale,1718,2,2,1.0,2.0
 9162,Plymouth,9184,Milton Keynes Dons,1718,2,0,0.0,1.0
 9167,Northampton,9198,Bury,1718,2,1,0.5,2.5
-9178,Fleetwood Town,9196,Scunthorpe,1718,2,1,0.5,3.5
-9164,Rotherham,9180,Portsmouth,1718,2,0,0.0,1.0
 9150,Peterboro,9196,Scunthorpe,1718,2,1,0.5,3.5
 9176,Oxford,9184,Milton Keynes Dons,1718,2,1,0.5,3.0
 9156,Doncaster,9170,Bristol Rvs,1718,2,0,0.0,2.5
-9174,Charlton,9192,Rochdale,1718,2,0,0.0,2.0
 9184,Milton Keynes Dons,9199,Oldham,1718,2,1,0.5,4.5
 9166,Wigan,9172,Shrewsbury,1718,2,1,0.5,0.5
-9148,AFC Wimbledon,9198,Bury,1718,2,1,0.5,3.5
-9151,Blackpool,9194,Southend,1718,2,1,0.5,2.5

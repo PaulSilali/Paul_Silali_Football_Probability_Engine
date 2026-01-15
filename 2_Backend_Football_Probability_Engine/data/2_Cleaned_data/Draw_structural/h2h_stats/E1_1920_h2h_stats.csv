@@ -1,51 +1,27 @@
 home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,draw_count,draw_rate,avg_goals
 9120,Derby,9130,Luton,1920,2,0,0.0,3.5
-9131,Burnley,9132,Huddersfield,1920,2,0,0.0,3.0
 9123,Sheffield United,9128,Leeds,1920,2,1,0.5,1.0
-9108,Hull,9117,QPR,1920,2,0,0.0,4.0
 9126,Cardiff,9135,Reading,1920,2,1,0.5,2.5
 9117,QPR,9128,Leeds,1920,2,0,0.0,1.5
-9123,Sheffield United,9130,Luton,1920,2,0,0.0,1.0
-9126,Cardiff,9128,Leeds,1920,2,1,0.5,4.0
-9130,Luton,9132,Huddersfield,1920,2,0,0.0,2.5
 9119,Stoke,9130,Luton,1920,2,1,0.5,2.5
-9124,Bristol City,9141,Brentford,1920,2,1,0.5,3.0
 9112,Swansea,9140,Nott'm Forest,1920,2,1,0.5,2.5
-9117,QPR,9122,Blackburn,1920,2,0,0.0,4.5
-9120,Derby,9121,West Brom,1920,2,1,0.5,2.0
 9120,Derby,9123,Sheffield United,1920,2,1,0.5,3.0
 9103,Birmingham,9114,Millwall,1920,2,2,1.0,1.0
-9126,Cardiff,9132,Huddersfield,1920,2,0,0.0,3.0
 9112,Swansea,9122,Blackburn,1920,2,2,1.0,3.0
-9130,Luton,9131,Burnley,1920,2,1,0.5,3.0
 9123,Sheffield United,9124,Bristol City,1920,2,0,0.0,2.0
-9120,Derby,9136,Wigan,1920,2,1,0.5,1.5
-9122,Blackburn,9136,Wigan,1920,2,1,0.5,1.0
-9108,Hull,9128,Leeds,1920,2,0,0.0,3.0
 9111,Middlesbrough,9128,Leeds,1920,2,0,0.0,2.5
 9114,Millwall,9128,Leeds,1920,2,0,0.0,4.0
 9103,Birmingham,9136,Wigan,1920,2,0,0.0,3.0
-9111,Middlesbrough,9126,Cardiff,1920,2,0,0.0,2.5
 9103,Birmingham,9108,Hull,1920,2,1,0.5,4.5
 9123,Sheffield United,9136,Wigan,1920,2,0,0.0,2.0
-9128,Leeds,9132,Huddersfield,1920,2,0,0.0,2.0
-9105,Charlton,9112,Swansea,1920,2,0,0.0,2.0
 9108,Hull,9120,Derby,1920,2,0,0.0,1.5
-9111,Middlesbrough,9118,Preston,1920,2,1,0.5,2.0
-9118,Preston,9132,Huddersfield,1920,2,1,0.5,2.0
 9111,Middlesbrough,9120,Derby,1920,2,1,0.5,3.0
-9119,Stoke,9135,Reading,1920,2,2,1.0,1.0
-9111,Middlesbrough,9136,Wigan,1920,2,1,0.5,2.5
 9103,Birmingham,9131,Burnley,1920,2,0,0.0,1.5
 9122,Blackburn,9135,Reading,1920,2,0,0.0,5.0
 9128,Leeds,9141,Brentford,1920,2,1,0.5,1.5
 9105,Charlton,9122,Blackburn,1920,2,0,0.0,2.5
 9103,Birmingham,9123,Sheffield United,1920,2,2,1.0,4.0
 9122,Blackburn,9123,Sheffield United,1920,2,0,0.0,4.0
-9119,Stoke,9123,Sheffield United,1920,2,0,0.0,3.0
-9114,Millwall,9123,Sheffield United,1920,2,1,0.5,0.5
-9111,Middlesbrough,9131,Burnley,1920,2,0,0.0,1.0
-9112,Swansea,9124,Bristol City,1920,2,1,0.5,0.5
 9124,Bristol City,9131,Burnley,1920,2,1,0.5,2.5
 9111,Middlesbrough,9139,Fulham,1920,2,1,0.5,0.5
 9126,Cardiff,9130,Luton,1920,2,0,0.0,2.0
@@ -57,60 +33,159 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9119,Stoke,9136,Wigan,1920,2,0,0.0,3.0
 9128,Leeds,9130,Luton,1920,2,1,0.5,2.5
 9122,Blackburn,9130,Luton,1920,2,0,0.0,4.0
-9103,Birmingham,9119,Stoke,1920,2,0,0.0,2.5
 9124,Bristol City,9132,Huddersfield,1920,2,0,0.0,5.0
-9108,Hull,9111,Middlesbrough,1920,2,1,0.5,3.5
 9114,Millwall,9136,Wigan,1920,2,1,0.5,2.5
-9121,West Brom,9135,Reading,1920,2,1,0.5,2.5
-9126,Cardiff,9140,Nott'm Forest,1920,2,0,0.0,1.0
-9122,Blackburn,9140,Nott'm Forest,1920,2,1,0.5,3.5
-9119,Stoke,9120,Derby,1920,2,1,0.5,4.0
-9140,Nott'm Forest,9141,Brentford,1920,2,0,0.0,1.0
 9111,Middlesbrough,9114,Millwall,1920,2,1,0.5,2.0
-9123,Sheffield United,9131,Burnley,1920,2,1,0.5,2.0
 9108,Hull,9122,Blackburn,1920,2,0,0.0,2.0
-9112,Swansea,9123,Sheffield United,1920,2,1,0.5,3.5
 9123,Sheffield United,9126,Cardiff,1920,2,1,0.5,2.5
-9103,Birmingham,9128,Leeds,1920,2,0,0.0,5.0
 9119,Stoke,9140,Nott'm Forest,1920,2,0,0.0,5.0
-9112,Swansea,9126,Cardiff,1920,2,1,0.5,0.5
 9112,Swansea,9120,Derby,1920,2,1,0.5,2.5
 9111,Middlesbrough,9112,Swansea,1920,2,0,0.0,3.5
 9119,Stoke,9132,Huddersfield,1920,2,0,0.0,4.0
 9108,Hull,9126,Cardiff,1920,2,1,0.5,3.5
-9124,Bristol City,9130,Luton,1920,2,0,0.0,3.0
-9126,Cardiff,9141,Brentford,1920,2,1,0.5,3.5
 9122,Blackburn,9128,Leeds,1920,2,0,0.0,3.5
-9108,Hull,9139,Fulham,1920,2,0,0.0,2.0
 9105,Charlton,9117,QPR,1920,2,1,0.5,2.5
-9135,Reading,9136,Wigan,1920,2,0,0.0,3.5
-9108,Hull,9135,Reading,1920,2,1,0.5,2.5
 9130,Luton,9135,Reading,1920,2,0,0.0,4.0
 9103,Birmingham,9121,West Brom,1920,2,1,0.5,2.5
 9108,Hull,9118,Preston,1920,2,0,0.0,3.5
-9131,Burnley,9141,Brentford,1920,2,0,0.0,3.5
 9103,Birmingham,9117,QPR,1920,2,1,0.5,3.0
-9121,West Brom,9122,Blackburn,1920,2,1,0.5,3.5
 9103,Birmingham,9112,Swansea,1920,2,0,0.0,3.5
 9108,Hull,9112,Swansea,1920,2,1,0.5,5.5
 9118,Preston,9128,Leeds,1920,2,2,1.0,2.0
-9136,Wigan,9141,Brentford,1920,2,0,0.0,3.0
 9119,Stoke,9139,Fulham,1920,2,0,0.0,1.5
 9108,Hull,9130,Luton,1920,2,0,0.0,2.0
 9117,QPR,9136,Wigan,1920,2,0,0.0,2.5
 9114,Millwall,9121,West Brom,1920,2,1,0.5,2.0
 9135,Reading,9140,Nott'm Forest,1920,2,2,1.0,2.0
 9114,Millwall,9124,Bristol City,1920,2,1,0.5,2.5
-9126,Cardiff,9139,Fulham,1920,2,1,0.5,2.0
 9112,Swansea,9130,Luton,1920,2,0,0.0,1.0
 9103,Birmingham,9140,Nott'm Forest,1920,2,0,0.0,3.0
 9114,Millwall,9126,Cardiff,1920,2,2,1.0,3.0
-9118,Preston,9123,Sheffield United,1920,2,0,0.0,3.5
 9105,Charlton,9108,Hull,1920,2,1,0.5,2.5
-9123,Sheffield United,9132,Huddersfield,1920,2,1,0.5,1.0
 9112,Swansea,9135,Reading,1920,2,1,0.5,3.5
 9103,Birmingham,9135,Reading,1920,2,0,0.0,4.5
 9136,Wigan,9139,Fulham,1920,2,1,0.5,2.0
+9112,Swansea,9131,Burnley,1920,2,2,1.0,1.0
+9120,Derby,9126,Cardiff,1920,2,1,0.5,2.5
+9121,West Brom,9131,Burnley,1920,2,2,1.0,3.0
+9103,Birmingham,9124,Bristol City,1920,2,1,0.5,3.0
+9112,Swansea,9119,Stoke,1920,2,0,0.0,2.5
+9122,Blackburn,9139,Fulham,1920,2,0,0.0,1.5
+9108,Hull,9141,Brentford,1920,2,1,0.5,4.0
+9118,Preston,9135,Reading,1920,2,0,0.0,1.5
+9108,Hull,9121,West Brom,1920,2,0,0.0,3.5
+9119,Stoke,9121,West Brom,1920,2,0,0.0,1.5
+9111,Middlesbrough,9122,Blackburn,1920,2,1,0.5,1.5
+9105,Charlton,9141,Brentford,1920,2,0,0.0,2.0
+9122,Blackburn,9141,Brentford,1920,2,1,0.5,2.5
+9120,Derby,9140,Nott'm Forest,1920,2,1,0.5,1.5
+9117,QPR,9139,Fulham,1920,2,0,0.0,3.0
+9122,Blackburn,9124,Bristol City,1920,2,0,0.0,3.0
+9120,Derby,9128,Leeds,1920,2,1,0.5,3.0
+9130,Luton,9139,Fulham,1920,2,1,0.5,5.5
+9120,Derby,9122,Blackburn,1920,2,0,0.0,2.0
+9131,Burnley,9135,Reading,1920,2,1,0.5,2.0
+9117,QPR,9120,Derby,1920,2,1,0.5,2.5
+9114,Millwall,9132,Huddersfield,1920,2,1,0.5,3.5
+9123,Sheffield United,9139,Fulham,1920,2,1,0.5,5.0
+9130,Luton,9141,Brentford,1920,2,0,0.0,5.0
+9105,Charlton,9130,Luton,1920,2,0,0.0,3.5
+9114,Millwall,9119,Stoke,1920,2,1,0.5,1.0
+9103,Birmingham,9120,Derby,1920,2,0,0.0,4.5
+9132,Huddersfield,9135,Reading,1920,2,1,0.5,1.0
+9103,Birmingham,9105,Charlton,1920,2,1,0.5,1.5
+9111,Middlesbrough,9141,Brentford,1920,2,0,0.0,3.0
+9111,Middlesbrough,9130,Luton,1920,2,1,0.5,3.5
+9132,Huddersfield,9140,Nott'm Forest,1920,2,0,0.0,3.5
+9128,Leeds,9139,Fulham,1920,2,0,0.0,3.0
+9108,Hull,9124,Bristol City,1920,2,0,0.0,3.5
+9121,West Brom,9123,Sheffield United,1920,2,0,0.0,3.0
+9128,Leeds,9131,Burnley,1920,2,0,0.0,1.5
+9108,Hull,9114,Millwall,1920,2,1,0.5,1.5
+9123,Sheffield United,9141,Brentford,1920,2,0,0.0,4.0
+9105,Charlton,9135,Reading,1920,2,0,0.0,1.5
+9103,Birmingham,9122,Blackburn,1920,2,1,0.5,1.5
+9124,Bristol City,9136,Wigan,1920,2,1,0.5,3.0
+9117,QPR,9121,West Brom,1920,2,1,0.5,3.0
+9112,Swansea,9132,Huddersfield,1920,2,1,0.5,3.0
+9105,Charlton,9131,Burnley,1920,2,1,0.5,3.5
+9103,Birmingham,9118,Preston,1920,2,0,0.0,1.5
+9131,Burnley,9140,Nott'm Forest,1920,2,0,0.0,1.0
+9112,Swansea,9118,Preston,1920,2,1,0.5,3.5
+9103,Birmingham,9132,Huddersfield,1920,2,1,0.5,2.5
+9121,West Brom,9128,Leeds,1920,2,1,0.5,1.5
+9105,Charlton,9124,Bristol City,1920,2,0,0.0,4.0
+9117,QPR,9123,Sheffield United,1920,2,0,0.0,3.0
+9117,QPR,9140,Nott'm Forest,1920,2,1,0.5,2.0
+9105,Charlton,9114,Millwall,1920,2,0,0.0,2.0
+9114,Millwall,9140,Nott'm Forest,1920,2,1,0.5,3.5
+9118,Preston,9124,Bristol City,1920,2,2,1.0,4.0
+9103,Birmingham,9126,Cardiff,1920,2,1,0.5,4.0
+9119,Stoke,9141,Brentford,1920,2,1,0.5,0.5
+9132,Huddersfield,9139,Fulham,1920,2,0,0.0,4.0
+9130,Luton,9136,Wigan,1920,2,1,0.5,1.5
+9124,Bristol City,9140,Nott'm Forest,1920,2,1,0.5,0.5
+9108,Hull,9140,Nott'm Forest,1920,2,0,0.0,2.5
+9117,QPR,9141,Brentford,1920,2,0,0.0,4.0
+9108,Hull,9131,Burnley,1920,2,0,0.0,2.5
+9123,Sheffield United,9135,Reading,1920,2,0,0.0,3.5
+9126,Cardiff,9131,Burnley,1920,2,0,0.0,3.5
+9112,Swansea,9136,Wigan,1920,2,0,0.0,3.0
+9120,Derby,9139,Fulham,1920,2,1,0.5,2.5
+9119,Stoke,9122,Blackburn,1920,2,1,0.5,1.5
+9111,Middlesbrough,9132,Huddersfield,1920,2,1,0.5,0.5
+9114,Millwall,9131,Burnley,1920,2,1,0.5,1.5
+9103,Birmingham,9130,Luton,1920,2,0,0.0,3.0
+9118,Preston,9131,Burnley,1920,2,0,0.0,4.5
+9120,Derby,9132,Huddersfield,1920,2,1,0.5,2.5
+9112,Swansea,9141,Brentford,1920,2,0,0.0,3.5
+9117,QPR,9119,Stoke,1920,2,0,0.0,4.5
+9131,Burnley,9132,Huddersfield,1920,2,0,0.0,3.0
+9108,Hull,9117,QPR,1920,2,0,0.0,4.0
+9123,Sheffield United,9130,Luton,1920,2,0,0.0,1.0
+9126,Cardiff,9128,Leeds,1920,2,1,0.5,4.0
+9130,Luton,9132,Huddersfield,1920,2,0,0.0,2.5
+9124,Bristol City,9141,Brentford,1920,2,1,0.5,3.0
+9117,QPR,9122,Blackburn,1920,2,0,0.0,4.5
+9120,Derby,9121,West Brom,1920,2,1,0.5,2.0
+9126,Cardiff,9132,Huddersfield,1920,2,0,0.0,3.0
+9130,Luton,9131,Burnley,1920,2,1,0.5,3.0
+9120,Derby,9136,Wigan,1920,2,1,0.5,1.5
+9122,Blackburn,9136,Wigan,1920,2,1,0.5,1.0
+9108,Hull,9128,Leeds,1920,2,0,0.0,3.0
+9111,Middlesbrough,9126,Cardiff,1920,2,0,0.0,2.5
+9128,Leeds,9132,Huddersfield,1920,2,0,0.0,2.0
+9105,Charlton,9112,Swansea,1920,2,0,0.0,2.0
+9111,Middlesbrough,9118,Preston,1920,2,1,0.5,2.0
+9118,Preston,9132,Huddersfield,1920,2,1,0.5,2.0
+9119,Stoke,9135,Reading,1920,2,2,1.0,1.0
+9111,Middlesbrough,9136,Wigan,1920,2,1,0.5,2.5
+9119,Stoke,9123,Sheffield United,1920,2,0,0.0,3.0
+9114,Millwall,9123,Sheffield United,1920,2,1,0.5,0.5
+9111,Middlesbrough,9131,Burnley,1920,2,0,0.0,1.0
+9112,Swansea,9124,Bristol City,1920,2,1,0.5,0.5
+9103,Birmingham,9119,Stoke,1920,2,0,0.0,2.5
+9108,Hull,9111,Middlesbrough,1920,2,1,0.5,3.5
+9121,West Brom,9135,Reading,1920,2,1,0.5,2.5
+9126,Cardiff,9140,Nott'm Forest,1920,2,0,0.0,1.0
+9122,Blackburn,9140,Nott'm Forest,1920,2,1,0.5,3.5
+9119,Stoke,9120,Derby,1920,2,1,0.5,4.0
+9140,Nott'm Forest,9141,Brentford,1920,2,0,0.0,1.0
+9123,Sheffield United,9131,Burnley,1920,2,1,0.5,2.0
+9112,Swansea,9123,Sheffield United,1920,2,1,0.5,3.5
+9103,Birmingham,9128,Leeds,1920,2,0,0.0,5.0
+9112,Swansea,9126,Cardiff,1920,2,1,0.5,0.5
+9124,Bristol City,9130,Luton,1920,2,0,0.0,3.0
+9126,Cardiff,9141,Brentford,1920,2,1,0.5,3.5
+9108,Hull,9139,Fulham,1920,2,0,0.0,2.0
+9135,Reading,9136,Wigan,1920,2,0,0.0,3.5
+9108,Hull,9135,Reading,1920,2,1,0.5,2.5
+9131,Burnley,9141,Brentford,1920,2,0,0.0,3.5
+9121,West Brom,9122,Blackburn,1920,2,1,0.5,3.5
+9136,Wigan,9141,Brentford,1920,2,0,0.0,3.0
+9126,Cardiff,9139,Fulham,1920,2,1,0.5,2.0
+9118,Preston,9123,Sheffield United,1920,2,0,0.0,3.5
+9123,Sheffield United,9132,Huddersfield,1920,2,1,0.5,1.0
 9118,Preston,9136,Wigan,1920,2,0,0.0,3.0
 9111,Middlesbrough,9121,West Brom,1920,2,0,0.0,1.5
 9114,Millwall,9135,Reading,1920,2,0,0.0,2.5
@@ -118,153 +193,79 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9124,Bristol City,9139,Fulham,1920,2,1,0.5,2.5
 9114,Millwall,9130,Luton,1920,2,1,0.5,3.0
 9120,Derby,9124,Bristol City,1920,2,0,0.0,4.0
-9112,Swansea,9131,Burnley,1920,2,2,1.0,1.0
-9120,Derby,9126,Cardiff,1920,2,1,0.5,2.5
-9121,West Brom,9131,Burnley,1920,2,2,1.0,3.0
-9103,Birmingham,9124,Bristol City,1920,2,1,0.5,3.0
-9112,Swansea,9119,Stoke,1920,2,0,0.0,2.5
-9122,Blackburn,9139,Fulham,1920,2,0,0.0,1.5
 9111,Middlesbrough,9123,Sheffield United,1920,2,0,0.0,4.0
 9103,Birmingham,9139,Fulham,1920,2,0,0.0,1.0
-9108,Hull,9141,Brentford,1920,2,1,0.5,4.0
-9118,Preston,9135,Reading,1920,2,0,0.0,1.5
 9111,Middlesbrough,9140,Nott'm Forest,1920,2,2,1.0,3.0
 9135,Reading,9141,Brentford,1920,2,0,0.0,2.0
 9117,QPR,9124,Bristol City,1920,2,0,0.0,1.5
 9105,Charlton,9123,Sheffield United,1920,2,0,0.0,2.5
-9108,Hull,9121,West Brom,1920,2,0,0.0,3.5
-9119,Stoke,9121,West Brom,1920,2,0,0.0,1.5
-9111,Middlesbrough,9122,Blackburn,1920,2,1,0.5,1.5
 9114,Millwall,9118,Preston,1920,2,0,0.0,1.0
-9105,Charlton,9141,Brentford,1920,2,0,0.0,2.0
 9121,West Brom,9140,Nott'm Forest,1920,2,1,0.5,3.5
 9114,Millwall,9141,Brentford,1920,2,0,0.0,3.0
-9122,Blackburn,9141,Brentford,1920,2,1,0.5,2.5
-9120,Derby,9140,Nott'm Forest,1920,2,1,0.5,1.5
 9112,Swansea,9128,Leeds,1920,2,0,0.0,1.0
-9117,QPR,9139,Fulham,1920,2,0,0.0,3.0
 9132,Huddersfield,9141,Brentford,1920,2,1,0.5,0.5
-9122,Blackburn,9124,Bristol City,1920,2,0,0.0,3.0
-9120,Derby,9128,Leeds,1920,2,1,0.5,3.0
-9130,Luton,9139,Fulham,1920,2,1,0.5,5.5
 9118,Preston,9141,Brentford,1920,2,0,0.0,1.5
 9111,Middlesbrough,9119,Stoke,1920,2,0,0.0,2.5
-9120,Derby,9122,Blackburn,1920,2,0,0.0,2.0
 9121,West Brom,9124,Bristol City,1920,2,0,0.0,4.0
 9120,Derby,9135,Reading,1920,2,0,0.0,3.0
-9131,Burnley,9135,Reading,1920,2,1,0.5,2.0
 9105,Charlton,9128,Leeds,1920,2,0,0.0,2.5
-9117,QPR,9120,Derby,1920,2,1,0.5,2.5
 9139,Fulham,9140,Nott'm Forest,1920,2,0,0.0,2.0
-9114,Millwall,9132,Huddersfield,1920,2,1,0.5,3.5
-9123,Sheffield United,9139,Fulham,1920,2,1,0.5,5.0
-9130,Luton,9141,Brentford,1920,2,0,0.0,5.0
 9118,Preston,9119,Stoke,1920,2,0,0.0,3.0
-9105,Charlton,9130,Luton,1920,2,0,0.0,3.5
 9105,Charlton,9121,West Brom,1920,2,2,1.0,4.0
 9136,Wigan,9140,Nott'm Forest,1920,2,0,0.0,1.0
-9114,Millwall,9119,Stoke,1920,2,1,0.5,1.0
-9103,Birmingham,9120,Derby,1920,2,0,0.0,4.5
-9132,Huddersfield,9135,Reading,1920,2,1,0.5,1.0
 9105,Charlton,9140,Nott'm Forest,1920,2,1,0.5,1.5
 9123,Sheffield United,9140,Nott'm Forest,1920,2,1,0.5,3.0
-9103,Birmingham,9105,Charlton,1920,2,1,0.5,1.5
 9112,Swansea,9117,QPR,1920,2,1,0.5,2.0
-9111,Middlesbrough,9141,Brentford,1920,2,0,0.0,3.0
 9118,Preston,9130,Luton,1920,2,1,0.5,2.5
-9111,Middlesbrough,9130,Luton,1920,2,1,0.5,3.5
-9132,Huddersfield,9140,Nott'm Forest,1920,2,0,0.0,3.5
 9114,Millwall,9117,QPR,1920,2,0,0.0,5.0
-9128,Leeds,9139,Fulham,1920,2,0,0.0,3.0
-9108,Hull,9124,Bristol City,1920,2,0,0.0,3.5
-9121,West Brom,9123,Sheffield United,1920,2,0,0.0,3.0
 9119,Stoke,9126,Cardiff,1920,2,0,0.0,1.5
 9112,Swansea,9121,West Brom,1920,2,1,0.5,3.0
 9121,West Brom,9139,Fulham,1920,2,2,1.0,1.0
 9118,Preston,9122,Blackburn,1920,2,1,0.5,3.5
-9128,Leeds,9131,Burnley,1920,2,0,0.0,1.5
-9108,Hull,9114,Millwall,1920,2,1,0.5,1.5
-9123,Sheffield United,9141,Brentford,1920,2,0,0.0,4.0
 9118,Preston,9126,Cardiff,1920,2,1,0.5,2.0
-9105,Charlton,9135,Reading,1920,2,0,0.0,1.5
-9103,Birmingham,9122,Blackburn,1920,2,1,0.5,1.5
-9124,Bristol City,9136,Wigan,1920,2,1,0.5,3.0
 9108,Hull,9136,Wigan,1920,2,1,0.5,6.0
 9117,QPR,9126,Cardiff,1920,2,0,0.0,5.0
 9118,Preston,9121,West Brom,1920,2,0,0.0,1.5
 9139,Fulham,9141,Brentford,1920,2,0,0.0,1.5
-9117,QPR,9121,West Brom,1920,2,1,0.5,3.0
-9112,Swansea,9132,Huddersfield,1920,2,1,0.5,3.0
 9105,Charlton,9139,Fulham,1920,2,2,1.0,2.0
 9119,Stoke,9124,Bristol City,1920,2,1,0.5,2.5
-9105,Charlton,9131,Burnley,1920,2,1,0.5,3.5
 9114,Millwall,9139,Fulham,1920,2,1,0.5,3.0
 9128,Leeds,9136,Wigan,1920,2,0,0.0,1.5
 9105,Charlton,9118,Preston,1920,2,0,0.0,2.0
 9131,Burnley,9139,Fulham,1920,2,0,0.0,2.0
 9120,Derby,9131,Burnley,1920,2,1,0.5,3.5
-9103,Birmingham,9118,Preston,1920,2,0,0.0,1.5
-9131,Burnley,9140,Nott'm Forest,1920,2,0,0.0,1.0
 9135,Reading,9139,Fulham,1920,2,0,0.0,4.0
 9117,QPR,9118,Preston,1920,2,0,0.0,3.0
 9130,Luton,9140,Nott'm Forest,1920,2,0,0.0,3.5
-9112,Swansea,9118,Preston,1920,2,1,0.5,3.5
 9117,QPR,9132,Huddersfield,1920,2,1,0.5,2.0
 9121,West Brom,9130,Luton,1920,2,0,0.0,2.5
 9118,Preston,9120,Derby,1920,2,0,0.0,1.0
-9103,Birmingham,9132,Huddersfield,1920,2,1,0.5,2.5
 9124,Bristol City,9135,Reading,1920,2,0,0.0,1.0
 9121,West Brom,9136,Wigan,1920,2,1,0.5,1.5
-9121,West Brom,9128,Leeds,1920,2,1,0.5,1.5
-9105,Charlton,9124,Bristol City,1920,2,0,0.0,4.0
-9117,QPR,9123,Sheffield United,1920,2,0,0.0,3.0
 9111,Middlesbrough,9135,Reading,1920,2,0,0.0,2.0
-9117,QPR,9140,Nott'm Forest,1920,2,1,0.5,2.0
 9121,West Brom,9126,Cardiff,1920,2,0,0.0,4.5
 9117,QPR,9135,Reading,1920,2,1,0.5,2.5
 9108,Hull,9132,Huddersfield,1920,2,0,0.0,3.0
-9105,Charlton,9114,Millwall,1920,2,0,0.0,2.0
 9117,QPR,9130,Luton,1920,2,1,0.5,3.5
-9114,Millwall,9140,Nott'm Forest,1920,2,1,0.5,3.5
 9105,Charlton,9111,Middlesbrough,1920,2,0,0.0,1.0
 9132,Huddersfield,9136,Wigan,1920,2,1,0.5,2.0
-9118,Preston,9124,Bristol City,1920,2,2,1.0,4.0
 9118,Preston,9139,Fulham,1920,2,0,0.0,2.5
-9103,Birmingham,9126,Cardiff,1920,2,1,0.5,4.0
-9119,Stoke,9141,Brentford,1920,2,1,0.5,0.5
 9122,Blackburn,9131,Burnley,1920,2,0,0.0,3.5
 9120,Derby,9141,Brentford,1920,2,0,0.0,3.5
-9132,Huddersfield,9139,Fulham,1920,2,0,0.0,4.0
 9126,Cardiff,9136,Wigan,1920,2,1,0.5,4.5
 9119,Stoke,9131,Burnley,1920,2,0,0.0,5.0
-9130,Luton,9136,Wigan,1920,2,1,0.5,1.5
-9124,Bristol City,9140,Nott'm Forest,1920,2,1,0.5,0.5
 9103,Birmingham,9111,Middlesbrough,1920,2,1,0.5,2.5
-9108,Hull,9140,Nott'm Forest,1920,2,0,0.0,2.5
-9117,QPR,9141,Brentford,1920,2,0,0.0,4.0
-9108,Hull,9131,Burnley,1920,2,0,0.0,2.5
 9112,Swansea,9114,Millwall,1920,2,1,0.5,1.5
 9105,Charlton,9132,Huddersfield,1920,2,0,0.0,2.5
 9118,Preston,9140,Nott'm Forest,1920,2,2,1.0,2.0
-9123,Sheffield United,9135,Reading,1920,2,0,0.0,3.5
 9108,Hull,9119,Stoke,1920,2,0,0.0,4.5
-9126,Cardiff,9131,Burnley,1920,2,0,0.0,3.5
 9124,Bristol City,9126,Cardiff,1920,2,0,0.0,1.0
-9112,Swansea,9136,Wigan,1920,2,0,0.0,3.0
-9120,Derby,9139,Fulham,1920,2,1,0.5,2.5
-9119,Stoke,9122,Blackburn,1920,2,1,0.5,1.5
 9128,Leeds,9140,Nott'm Forest,1920,2,1,0.5,2.0
 9117,QPR,9131,Burnley,1920,2,0,0.0,4.5
 9122,Blackburn,9126,Cardiff,1920,2,1,0.5,2.5
 9114,Millwall,9122,Blackburn,1920,2,0,0.0,1.5
 9119,Stoke,9128,Leeds,1920,2,0,0.0,4.0
-9111,Middlesbrough,9132,Huddersfield,1920,2,1,0.5,0.5
-9114,Millwall,9131,Burnley,1920,2,1,0.5,1.5
-9103,Birmingham,9130,Luton,1920,2,0,0.0,3.0
-9118,Preston,9131,Burnley,1920,2,0,0.0,4.5
 9108,Hull,9123,Sheffield United,1920,2,0,0.0,1.0
-9120,Derby,9132,Huddersfield,1920,2,1,0.5,2.5
-9112,Swansea,9141,Brentford,1920,2,0,0.0,3.5
 9111,Middlesbrough,9117,QPR,1920,2,1,0.5,2.5
 9122,Blackburn,9132,Huddersfield,1920,2,1,0.5,3.5
 9112,Swansea,9139,Fulham,1920,2,0,0.0,2.0
@@ -274,4 +275,3 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9105,Charlton,9126,Cardiff,1920,2,2,1.0,2.0
 9121,West Brom,9141,Brentford,1920,2,1,0.5,1.5
 9105,Charlton,9136,Wigan,1920,2,1,0.5,3.0
-9117,QPR,9119,Stoke,1920,2,0,0.0,4.5

@@ -1,8 +1,4 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
-MEX1,2122,2021-07-22,Club León,Club Tijuana,195,195,True
-MEX1,2122,2021-07-22,Deportivo Toluca,Pumas UNAM,195,195,True
-MEX1,2122,2021-07-22,Atlas Guadalajara,CF Monterrey,195,195,True
-MEX1,2122,2021-07-22,UANL Tigres,Club León,195,195,True
 MEX1,2122,2021-07-22,FC Juárez,CF Monterrey,195,195,True
 MEX1,2122,2021-07-22,Deportivo Toluca,Gallos Blancos,195,195,True
 MEX1,2122,2021-07-22,Gallos Blancos,Club Tijuana,195,195,True
@@ -30,6 +26,10 @@ MEX1,2122,2021-07-22,Santos Laguna,UANL Tigres,195,195,True
 MEX1,2122,2021-07-22,CF América,Pumas UNAM,195,195,True
 MEX1,2122,2021-07-22,Club León,UANL Tigres,195,195,True
 MEX1,2122,2021-07-22,Club León,Atlas Guadalajara,195,195,True
+MEX1,2122,2021-07-22,Cruz Azul,CF Monterrey,195,195,True
+MEX1,2122,2021-07-22,Deportivo Toluca,Pumas UNAM,195,195,True
+MEX1,2122,2021-07-22,Atlas Guadalajara,CF Monterrey,195,195,True
+MEX1,2122,2021-07-22,UANL Tigres,Club León,195,195,True
 MEX1,2122,2021-07-22,Puebla FC,Deportivo Guadalajara,195,195,True
 MEX1,2122,2021-07-22,Gallos Blancos,CF América,195,195,True
 MEX1,2122,2021-07-22,Club Necaxa,Santos Laguna,195,195,True
@@ -41,7 +41,7 @@ MEX1,2122,2021-07-22,CF Monterrey,Puebla FC,195,195,True
 MEX1,2122,2021-07-22,Club Tijuana,UANL Tigres,195,195,True
 MEX1,2122,2021-07-22,Cruz Azul,Mazatlán FC,195,195,True
 MEX1,2122,2021-07-22,Mazatlán FC,CF Pachuca,195,195,True
-MEX1,2122,2021-07-22,Cruz Azul,CF Monterrey,195,195,True
+MEX1,2122,2021-07-22,Club León,Club Tijuana,195,195,True
 MEX1,2122,2021-07-22,CF América,Club Necaxa,195,195,True
 MEX1,2122,2021-07-22,CF Monterrey,Pumas UNAM,195,195,True
 MEX1,2122,2021-07-22,Atlas Guadalajara,FC Juárez,195,195,True
@@ -144,10 +144,6 @@ MEX1,2122,2022-01-06,Pumas UNAM,CF Monterrey,168,168,True
 MEX1,2122,2022-01-06,CF Pachuca,Puebla FC,168,168,True
 MEX1,2122,2022-01-06,Club Necaxa,UANL Tigres,168,168,True
 MEX1,2122,2022-01-06,Deportivo Guadalajara,Club Tijuana,168,168,True
-MEX1,2122,2022-01-06,Club Tijuana,Pumas UNAM,168,168,True
-MEX1,2122,2022-01-06,Gallos Blancos,Puebla FC,168,168,True
-MEX1,2122,2022-01-06,Atlas Guadalajara,Santos Laguna,168,168,True
-MEX1,2122,2022-01-06,UANL Tigres,Mazatlán FC,168,168,True
 MEX1,2122,2022-01-06,FC Juárez,Club Necaxa,168,168,True
 MEX1,2122,2022-01-06,Puebla FC,CF América,168,168,True
 MEX1,2122,2022-01-06,Santos Laguna,UANL Tigres,168,168,True
@@ -166,6 +162,10 @@ MEX1,2122,2022-01-06,Santos Laguna,Club Necaxa,168,168,True
 MEX1,2122,2022-01-06,Puebla FC,Club Tijuana,168,168,True
 MEX1,2122,2022-01-06,Club Necaxa,CF Pachuca,168,168,True
 MEX1,2122,2022-01-06,CF América,Atlético San Luis,168,168,True
+MEX1,2122,2022-01-06,Club Tijuana,Pumas UNAM,168,168,True
+MEX1,2122,2022-01-06,Gallos Blancos,Puebla FC,168,168,True
+MEX1,2122,2022-01-06,Atlas Guadalajara,Santos Laguna,168,168,True
+MEX1,2122,2022-01-06,UANL Tigres,Mazatlán FC,168,168,True
 MEX1,2122,2022-01-06,Club León,Cruz Azul,168,168,True
 MEX1,2122,2022-01-06,FC Juárez,Deportivo Guadalajara,168,168,True
 MEX1,2122,2022-01-06,Deportivo Toluca,CF Monterrey,168,168,True

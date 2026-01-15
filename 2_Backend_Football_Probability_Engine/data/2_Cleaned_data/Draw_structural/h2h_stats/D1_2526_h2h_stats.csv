@@ -16,6 +16,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9265,Bayern Munich,9271,Heidenheim,2526,2,0,0.0,4.5
 9266,RB Leipzig,9277,Dortmund,2526,1,1,1.0,2.0
 9265,Bayern Munich,9270,Augsburg,2526,1,0,0.0,5.0
+9274,Union Berlin,9278,Mainz,2526,1,1,1.0,4.0
 9275,Stuttgart,9281,Hamburg,2526,1,0,0.0,3.0
 9280,M'gladbach,9281,Hamburg,2526,1,1,1.0,
 9269,Freiburg,9277,Dortmund,2526,1,1,1.0,2.0
@@ -29,6 +30,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9275,Stuttgart,9280,M'gladbach,2526,1,0,0.0,1.0
 9276,St Pauli,9281,Hamburg,2526,1,0,0.0,2.0
 9271,Heidenheim,9281,Hamburg,2526,2,0,0.0,4.0
+9267,Ein Frankfurt,9277,Dortmund,2526,1,1,1.0,6.0
 9267,Ein Frankfurt,9276,St Pauli,2526,1,0,0.0,2.0
 9274,Union Berlin,9281,Hamburg,2526,1,1,1.0,
 9265,Bayern Munich,9266,RB Leipzig,2526,1,0,0.0,6.0
@@ -81,6 +83,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9271,Heidenheim,9274,Union Berlin,2526,2,0,0.0,4.5
 9268,Werder Bremen,9279,FC Koln,2526,1,1,1.0,2.0
 9267,Ein Frankfurt,9280,M'gladbach,2526,1,0,0.0,10.0
+9269,Freiburg,9281,Hamburg,2526,1,0,0.0,3.0
 9268,Werder Bremen,9278,Mainz,2526,1,1,1.0,2.0
 9267,Ein Frankfurt,9278,Mainz,2526,1,0,0.0,1.0
 9265,Bayern Munich,9276,St Pauli,2526,1,0,0.0,4.0
@@ -88,14 +91,16 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9274,Union Berlin,9275,Stuttgart,2526,1,0,0.0,3.0
 9270,Augsburg,9278,Mainz,2526,1,0,0.0,5.0
 9270,Augsburg,9276,St Pauli,2526,1,0,0.0,3.0
-9271,Heidenheim,9279,FC Koln,2526,1,0,0.0,1.0
+9271,Heidenheim,9279,FC Koln,2526,2,1,0.5,2.5
 9265,Bayern Munich,9280,M'gladbach,2526,1,0,0.0,3.0
+9265,Bayern Munich,9272,Wolfsburg,2526,1,0,0.0,9.0
 9266,RB Leipzig,9275,Stuttgart,2526,1,0,0.0,4.0
 9269,Freiburg,9273,Leverkusen,2526,1,0,0.0,2.0
 9267,Ein Frankfurt,9281,Hamburg,2526,1,1,1.0,2.0
 9266,RB Leipzig,9281,Hamburg,2526,1,0,0.0,3.0
 9271,Heidenheim,9273,Leverkusen,2526,2,0,0.0,4.5
 9269,Freiburg,9280,M'gladbach,2526,1,1,1.0,
+9273,Leverkusen,9275,Stuttgart,2526,1,0,0.0,5.0
 9276,St Pauli,9278,Mainz,2526,1,1,1.0,
 9272,Wolfsburg,9275,Stuttgart,2526,1,0,0.0,3.0
 9270,Augsburg,9273,Leverkusen,2526,1,0,0.0,2.0

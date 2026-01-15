@@ -16,6 +16,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8989,RB Leipzig,9002,FC Koln,2526,1,0,0.0,4.0
 8993,Augsburg,8999,St Pauli,2526,1,0,0.0,3.0
 9000,Dortmund,9003,M'gladbach,2526,1,0,0.0,2.0
+8990,Ein Frankfurt,9000,Dortmund,2526,1,1,1.0,6.0
 8990,Ein Frankfurt,9004,Hamburg,2526,1,1,1.0,2.0
 8995,Wolfsburg,9004,Hamburg,2526,1,0,0.0,1.0
 8990,Ein Frankfurt,8993,Augsburg,2526,1,0,0.0,1.0
@@ -50,6 +51,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9001,Mainz,9004,Hamburg,2526,1,0,0.0,4.0
 8988,Bayern Munich,9004,Hamburg,2526,1,0,0.0,5.0
 8989,RB Leipzig,8997,Union Berlin,2526,1,0,0.0,4.0
+8996,Leverkusen,8998,Stuttgart,2526,1,0,0.0,5.0
 8997,Union Berlin,8998,Stuttgart,2526,1,0,0.0,3.0
 8988,Bayern Munich,8990,Ein Frankfurt,2526,1,0,0.0,3.0
 8995,Wolfsburg,9003,M'gladbach,2526,1,0,0.0,4.0
@@ -59,8 +61,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8994,Heidenheim,9004,Hamburg,2526,2,0,0.0,4.0
 8990,Ein Frankfurt,9001,Mainz,2526,1,0,0.0,1.0
 8998,Stuttgart,8999,St Pauli,2526,1,0,0.0,2.0
+8988,Bayern Munich,8995,Wolfsburg,2526,1,0,0.0,9.0
 8991,Werder Bremen,9001,Mainz,2526,1,1,1.0,2.0
-8994,Heidenheim,9002,FC Koln,2526,1,0,0.0,1.0
+8994,Heidenheim,9002,FC Koln,2526,2,1,0.5,2.5
 8996,Leverkusen,9000,Dortmund,2526,1,0,0.0,3.0
 8990,Ein Frankfurt,8996,Leverkusen,2526,1,0,0.0,4.0
 8988,Bayern Munich,8991,Werder Bremen,2526,1,0,0.0,4.0
@@ -109,6 +112,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8991,Werder Bremen,8996,Leverkusen,2526,1,1,1.0,6.0
 8991,Werder Bremen,8995,Wolfsburg,2526,1,0,0.0,3.0
 8991,Werder Bremen,8992,Freiburg,2526,1,0,0.0,3.0
+8997,Union Berlin,9001,Mainz,2526,1,1,1.0,4.0
 8990,Ein Frankfurt,8992,Freiburg,2526,1,1,1.0,4.0
 8992,Freiburg,8999,St Pauli,2526,1,0,0.0,3.0
 8994,Heidenheim,8997,Union Berlin,2526,2,0,0.0,4.5
@@ -119,6 +123,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8991,Werder Bremen,8993,Augsburg,2526,1,1,1.0,
 8991,Werder Bremen,8998,Stuttgart,2526,1,0,0.0,4.0
 8997,Union Berlin,9003,M'gladbach,2526,1,0,0.0,4.0
+8992,Freiburg,9004,Hamburg,2526,1,0,0.0,3.0
 8996,Leverkusen,9001,Mainz,2526,1,0,0.0,7.0
 8995,Wolfsburg,8997,Union Berlin,2526,1,0,0.0,4.0
 8994,Heidenheim,8995,Wolfsburg,2526,2,0,0.0,4.5

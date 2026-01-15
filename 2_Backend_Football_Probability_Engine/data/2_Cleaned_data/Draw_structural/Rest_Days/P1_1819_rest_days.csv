@@ -1,307 +1,307 @@
 league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
 P1,1819,2018-08-10,Benfica,Guimaraes,37,40,False
 P1,1819,2018-08-11,Porto,Aves,7,7,False
-P1,1819,2018-08-11,Tondela,Belenenses,38,7,False
 P1,1819,2018-08-11,Setubal,Aves,38,7,False
+P1,1819,2018-08-11,Tondela,Belenenses,38,7,False
+P1,1819,2018-08-12,Moreirense,Sp Lisbon,42,8,False
 P1,1819,2018-08-12,Maritimo,Santa Clara,39,7,False
 P1,1819,2018-08-12,Farense,Rio Ave,11,38,False
 P1,1819,2018-08-12,Sp Braga,Nacional,39,253,False
-P1,1819,2018-08-12,Moreirense,Sp Lisbon,42,8,False
 P1,1819,2018-08-13,Portimonense,Boavista,12,72,False
 P1,1819,2018-08-17,Aves,Tondela,6,6,False
+P1,1819,2018-08-18,Aves,Portimonense,1,5,False
 P1,1819,2018-08-18,Sp Lisbon,Setubal,6,7,False
 P1,1819,2018-08-18,Boavista,Benfica,5,8,False
-P1,1819,2018-08-18,Aves,Portimonense,1,5,False
 P1,1819,2018-08-19,Nacional,Moreirense,7,7,False
 P1,1819,2018-08-19,Belenenses,Porto,8,8,False
 P1,1819,2018-08-19,Santa Clara,Sp Braga,7,7,False
 P1,1819,2018-08-19,Rio Ave,Maritimo,7,7,False
 P1,1819,2018-08-20,Guimaraes,Farense,10,8,False
 P1,1819,2018-08-24,Maritimo,Aves,5,6,False
-P1,1819,2018-08-25,Porto,Guimaraes,6,5,False
 P1,1819,2018-08-25,Benfica,Sp Lisbon,7,7,False
 P1,1819,2018-08-25,Portimonense,Santa Clara,7,6,False
+P1,1819,2018-08-25,Porto,Guimaraes,6,5,False
 P1,1819,2018-08-26,Farense,Boavista,6,8,False
-P1,1819,2018-08-26,Setubal,Nacional,8,7,False
 P1,1819,2018-08-26,Sp Braga,Aves,7,2,False
 P1,1819,2018-08-26,Tondela,Rio Ave,9,7,False
+P1,1819,2018-08-26,Setubal,Nacional,8,7,False
 P1,1819,2018-08-27,Moreirense,Belenenses,8,8,False
 P1,1819,2018-08-31,Aves,Sp Braga,5,5,False
 P1,1819,2018-08-31,Guimaraes,Tondela,6,5,False
 P1,1819,2018-09-01,Belenenses,Setubal,5,6,False
 P1,1819,2018-09-01,Sp Lisbon,Farense,7,6,False
 P1,1819,2018-09-01,Santa Clara,Boavista,7,6,False
-P1,1819,2018-09-02,Aves,Maritimo,2,9,False
 P1,1819,2018-09-02,Porto,Moreirense,8,6,False
-P1,1819,2018-09-02,Nacional,Benfica,7,8,False
 P1,1819,2018-09-02,Rio Ave,Portimonense,7,8,False
+P1,1819,2018-09-02,Aves,Maritimo,2,9,False
+P1,1819,2018-09-02,Nacional,Benfica,7,8,False
 P1,1819,2018-09-21,Boavista,Aves,17,19,False
+P1,1819,2018-09-22,Setubal,Porto,21,20,False
 P1,1819,2018-09-22,Santa Clara,Rio Ave,21,20,False
 P1,1819,2018-09-22,Maritimo,Belenenses,20,21,False
-P1,1819,2018-09-22,Setubal,Porto,21,20,False
-P1,1819,2018-09-23,Benfica,Aves,21,2,False
-P1,1819,2018-09-23,Portimonense,Guimaraes,21,23,False
-P1,1819,2018-09-23,Tondela,Moreirense,21,19,False
 P1,1819,2018-09-23,Farense,Nacional,22,21,False
+P1,1819,2018-09-23,Portimonense,Guimaraes,21,23,False
+P1,1819,2018-09-23,Benfica,Aves,21,2,False
+P1,1819,2018-09-23,Tondela,Moreirense,21,19,False
 P1,1819,2018-09-24,Sp Braga,Sp Lisbon,21,23,False
 P1,1819,2018-09-27,Aves,Benfica,4,4,True
 P1,1819,2018-09-28,Porto,Tondela,6,5,False
-P1,1819,2018-09-29,Rio Ave,Boavista,7,8,False
 P1,1819,2018-09-29,Sp Lisbon,Maritimo,5,7,False
+P1,1819,2018-09-29,Rio Ave,Boavista,7,8,False
 P1,1819,2018-09-29,Moreirense,Farense,6,6,False
-P1,1819,2018-09-30,Belenenses,Sp Braga,8,6,False
-P1,1819,2018-09-30,Guimaraes,Setubal,7,8,False
 P1,1819,2018-09-30,Nacional,Santa Clara,7,8,False
+P1,1819,2018-09-30,Guimaraes,Setubal,7,8,False
+P1,1819,2018-09-30,Belenenses,Sp Braga,8,6,False
 P1,1819,2018-10-01,Aves,Portimonense,4,8,False
 P1,1819,2018-10-05,Tondela,Nacional,7,5,False
-P1,1819,2018-10-05,Santa Clara,Aves,5,2,False
 P1,1819,2018-10-05,Farense,Belenenses,2,5,False
+P1,1819,2018-10-05,Santa Clara,Aves,5,2,False
 P1,1819,2018-10-06,Sp Braga,Rio Ave,4,3,False
 P1,1819,2018-10-06,Setubal,Moreirense,4,7,False
 P1,1819,2018-10-06,Maritimo,Guimaraes,4,6,False
-P1,1819,2018-10-07,Benfica,Porto,4,9,False
-P1,1819,2018-10-07,Boavista,Aves,4,2,False
 P1,1819,2018-10-07,Portimonense,Sp Lisbon,5,8,False
-P1,1819,2018-10-26,Nacional,Portimonense,21,19,False
+P1,1819,2018-10-07,Boavista,Aves,4,2,False
+P1,1819,2018-10-07,Benfica,Porto,4,9,False
 P1,1819,2018-10-26,Guimaraes,Sp Braga,20,20,False
+P1,1819,2018-10-26,Nacional,Portimonense,21,19,False
+P1,1819,2018-10-27,Rio Ave,Aves,21,20,False
 P1,1819,2018-10-27,Aves,Santa Clara,20,22,False
 P1,1819,2018-10-27,Belenenses,Benfica,22,20,False
-P1,1819,2018-10-27,Rio Ave,Aves,21,20,False
-P1,1819,2018-10-28,Sp Lisbon,Boavista,21,21,False
-P1,1819,2018-10-28,Moreirense,Maritimo,22,22,False
 P1,1819,2018-10-28,Tondela,Setubal,23,22,False
+P1,1819,2018-10-28,Sp Lisbon,Boavista,21,21,False
 P1,1819,2018-10-28,Porto,Farense,21,23,False
+P1,1819,2018-10-28,Moreirense,Maritimo,22,22,False
 P1,1819,2018-11-02,Benfica,Moreirense,6,5,False
-P1,1819,2018-11-03,Portimonense,Belenenses,8,1,False
 P1,1819,2018-11-03,Maritimo,Porto,6,1,False
 P1,1819,2018-11-03,Boavista,Guimaraes,1,1,False
+P1,1819,2018-11-03,Portimonense,Belenenses,8,1,False
 P1,1819,2018-11-04,Sp Braga,Setubal,9,1,False
-P1,1819,2018-11-04,Farense,Tondela,2,1,False
 P1,1819,2018-11-04,Santa Clara,Sp Lisbon,8,2,False
-P1,1819,2018-11-05,Aves,Aves,3,3,False
+P1,1819,2018-11-04,Farense,Tondela,2,1,False
 P1,1819,2018-11-05,Rio Ave,Nacional,9,10,False
+P1,1819,2018-11-05,Aves,Aves,3,3,False
 P1,1819,2018-11-09,Setubal,Farense,5,5,False
 P1,1819,2018-11-09,Moreirense,Portimonense,7,6,False
-P1,1819,2018-11-10,Nacional,Maritimo,5,7,False
 P1,1819,2018-11-10,Belenenses,Boavista,7,7,False
-P1,1819,2018-11-10,Aves,Rio Ave,5,5,False
+P1,1819,2018-11-10,Nacional,Maritimo,5,7,False
 P1,1819,2018-11-10,Porto,Sp Braga,7,6,False
-P1,1819,2018-11-11,Guimaraes,Santa Clara,8,7,False
+P1,1819,2018-11-10,Aves,Rio Ave,5,5,False
 P1,1819,2018-11-11,Tondela,Benfica,7,9,False
+P1,1819,2018-11-11,Guimaraes,Santa Clara,8,7,False
 P1,1819,2018-11-11,Sp Lisbon,Aves,7,1,False
 P1,1819,2018-11-30,Santa Clara,Belenenses,19,20,False
 P1,1819,2018-12-01,Maritimo,Setubal,21,22,False
-P1,1819,2018-12-01,Benfica,Farense,20,22,False
 P1,1819,2018-12-01,Sp Braga,Moreirense,21,22,False
+P1,1819,2018-12-01,Benfica,Farense,20,22,False
+P1,1819,2018-12-02,Boavista,Porto,22,22,False
 P1,1819,2018-12-02,Aves,Nacional,1,22,False
 P1,1819,2018-12-02,Portimonense,Tondela,23,21,False
 P1,1819,2018-12-02,Aves,Guimaraes,1,1,False
-P1,1819,2018-12-02,Boavista,Porto,22,22,False
 P1,1819,2018-12-03,Rio Ave,Sp Lisbon,23,22,False
 P1,1819,2018-12-07,Porto,Portimonense,2,5,False
-P1,1819,2018-12-08,Tondela,Sp Braga,6,7,False
-P1,1819,2018-12-08,Belenenses,Aves,3,5,False
 P1,1819,2018-12-08,Setubal,Benfica,7,7,False
-P1,1819,2018-12-09,Guimaraes,Rio Ave,4,6,False
-P1,1819,2018-12-09,Moreirense,Santa Clara,7,9,False
+P1,1819,2018-12-08,Belenenses,Aves,3,5,False
+P1,1819,2018-12-08,Tondela,Sp Braga,6,7,False
 P1,1819,2018-12-09,Nacional,Boavista,7,4,False
+P1,1819,2018-12-09,Moreirense,Santa Clara,7,9,False
+P1,1819,2018-12-09,Guimaraes,Rio Ave,4,6,False
 P1,1819,2018-12-09,Sp Lisbon,Aves,6,1,False
 P1,1819,2018-12-10,Farense,Maritimo,9,9,False
 P1,1819,2018-12-14,Sp Braga,Farense,6,4,False
 P1,1819,2018-12-14,Portimonense,Setubal,7,6,False
-P1,1819,2018-12-15,Boavista,Tondela,6,7,False
 P1,1819,2018-12-15,Santa Clara,Porto,6,8,False
-P1,1819,2018-12-15,Aves,Moreirense,6,6,False
 P1,1819,2018-12-15,Aves,Guimaraes,6,6,False
+P1,1819,2018-12-15,Aves,Moreirense,6,6,False
+P1,1819,2018-12-15,Boavista,Tondela,6,7,False
 P1,1819,2018-12-16,Maritimo,Benfica,6,8,False
-P1,1819,2018-12-16,Rio Ave,Belenenses,7,8,False
 P1,1819,2018-12-16,Sp Lisbon,Nacional,7,7,False
-P1,1819,2018-12-22,Setubal,Santa Clara,8,7,False
+P1,1819,2018-12-16,Rio Ave,Belenenses,7,8,False
 P1,1819,2018-12-22,Tondela,Maritimo,7,6,False
-P1,1819,2018-12-22,Belenenses,Aves,6,7,False
 P1,1819,2018-12-22,Farense,Portimonense,8,8,False
 P1,1819,2018-12-22,Moreirense,Boavista,7,7,False
+P1,1819,2018-12-22,Setubal,Santa Clara,8,7,False
+P1,1819,2018-12-22,Belenenses,Aves,6,7,False
 P1,1819,2018-12-23,Nacional,Aves,7,1,False
 P1,1819,2018-12-23,Porto,Rio Ave,8,7,False
 P1,1819,2018-12-23,Benfica,Sp Braga,7,9,False
 P1,1819,2018-12-23,Guimaraes,Sp Lisbon,8,7,False
-P1,1819,2019-01-02,Rio Ave,Moreirense,10,11,True
 P1,1819,2019-01-02,Boavista,Setubal,11,11,True
 P1,1819,2019-01-02,Nacional,Guimaraes,10,10,True
 P1,1819,2019-01-02,Portimonense,Benfica,11,10,True
 P1,1819,2019-01-02,Sp Braga,Maritimo,10,11,True
 P1,1819,2019-01-02,Santa Clara,Tondela,11,11,True
+P1,1819,2019-01-02,Rio Ave,Moreirense,10,11,True
+P1,1819,2019-01-03,Aves,Porto,11,11,True
 P1,1819,2019-01-03,Aves,Farense,11,12,True
 P1,1819,2019-01-03,Sp Lisbon,Belenenses,11,12,True
-P1,1819,2019-01-03,Aves,Porto,11,11,True
 P1,1819,2019-01-05,Maritimo,Portimonense,3,3,False
 P1,1819,2019-01-06,Sp Braga,Boavista,4,4,False
-P1,1819,2019-01-06,Benfica,Rio Ave,4,4,False
 P1,1819,2019-01-06,Farense,Santa Clara,3,4,False
+P1,1819,2019-01-06,Benfica,Rio Ave,4,4,False
 P1,1819,2019-01-06,Belenenses,Guimaraes,3,4,False
 P1,1819,2019-01-06,Setubal,Aves,4,3,False
-P1,1819,2019-01-07,Moreirense,Aves,5,1,False
 P1,1819,2019-01-07,Porto,Nacional,4,5,False
+P1,1819,2019-01-07,Moreirense,Aves,5,1,False
 P1,1819,2019-01-07,Tondela,Sp Lisbon,5,4,False
 P1,1819,2019-01-10,Portimonense,Sp Braga,5,4,True
 P1,1819,2019-01-11,Guimaraes,Moreirense,5,4,False
-P1,1819,2019-01-11,Santa Clara,Benfica,5,5,False
 P1,1819,2019-01-11,Aves,Farense,4,5,False
-P1,1819,2019-01-12,Boavista,Maritimo,6,7,False
+P1,1819,2019-01-11,Santa Clara,Benfica,5,5,False
 P1,1819,2019-01-12,Sp Lisbon,Porto,5,5,False
-P1,1819,2019-01-13,Nacional,Belenenses,6,7,False
+P1,1819,2019-01-12,Boavista,Maritimo,6,7,False
 P1,1819,2019-01-13,Aves,Tondela,2,6,False
+P1,1819,2019-01-13,Nacional,Belenenses,6,7,False
 P1,1819,2019-01-13,Rio Ave,Setubal,7,7,False
-P1,1819,2019-01-18,Nacional,Sp Braga,5,8,False
 P1,1819,2019-01-18,Aves,Porto,5,6,False
+P1,1819,2019-01-18,Nacional,Sp Braga,5,8,False
 P1,1819,2019-01-18,Guimaraes,Benfica,7,7,False
 P1,1819,2019-01-19,Sp Lisbon,Moreirense,7,8,False
-P1,1819,2019-01-19,Santa Clara,Maritimo,8,7,False
 P1,1819,2019-01-19,Belenenses,Tondela,6,6,False
-P1,1819,2019-01-20,Boavista,Portimonense,8,10,False
+P1,1819,2019-01-19,Santa Clara,Maritimo,8,7,False
 P1,1819,2019-01-20,Rio Ave,Farense,7,9,False
+P1,1819,2019-01-20,Boavista,Portimonense,8,10,False
 P1,1819,2019-01-20,Aves,Setubal,2,7,False
-P1,1819,2019-01-28,Farense,Guimaraes,8,10,False
-P1,1819,2019-01-28,Moreirense,Nacional,9,10,False
 P1,1819,2019-01-28,Tondela,Aves,9,8,False
 P1,1819,2019-01-28,Maritimo,Rio Ave,9,8,False
-P1,1819,2019-01-29,Portimonense,Aves,9,1,True
+P1,1819,2019-01-28,Moreirense,Nacional,9,10,False
+P1,1819,2019-01-28,Farense,Guimaraes,8,10,False
 P1,1819,2019-01-29,Benfica,Boavista,11,9,True
 P1,1819,2019-01-29,Sp Braga,Santa Clara,11,10,True
+P1,1819,2019-01-29,Portimonense,Aves,9,1,True
 P1,1819,2019-01-30,Porto,Belenenses,12,11,True
 P1,1819,2019-01-30,Setubal,Sp Lisbon,10,11,True
 P1,1819,2019-02-01,Rio Ave,Tondela,4,4,False
+P1,1819,2019-02-02,Aves,Maritimo,4,5,False
 P1,1819,2019-02-02,Boavista,Farense,4,5,False
 P1,1819,2019-02-02,Aves,Sp Braga,4,4,False
-P1,1819,2019-02-02,Aves,Maritimo,4,5,False
-P1,1819,2019-02-03,Guimaraes,Porto,6,4,False
 P1,1819,2019-02-03,Sp Lisbon,Benfica,4,5,False
-P1,1819,2019-02-03,Santa Clara,Portimonense,5,5,False
 P1,1819,2019-02-03,Nacional,Setubal,6,4,False
+P1,1819,2019-02-03,Guimaraes,Porto,6,4,False
+P1,1819,2019-02-03,Santa Clara,Portimonense,5,5,False
 P1,1819,2019-02-04,Belenenses,Moreirense,5,7,False
 P1,1819,2019-02-08,Moreirense,Porto,4,5,False
 P1,1819,2019-02-09,Maritimo,Aves,7,7,False
-P1,1819,2019-02-09,Tondela,Guimaraes,8,6,False
 P1,1819,2019-02-09,Portimonense,Rio Ave,6,8,False
-P1,1819,2019-02-10,Benfica,Nacional,7,7,False
+P1,1819,2019-02-09,Tondela,Guimaraes,8,6,False
 P1,1819,2019-02-10,Sp Braga,Aves,8,1,False
-P1,1819,2019-02-10,Farense,Sp Lisbon,8,7,False
 P1,1819,2019-02-10,Boavista,Santa Clara,8,7,False
+P1,1819,2019-02-10,Benfica,Nacional,7,7,False
+P1,1819,2019-02-10,Farense,Sp Lisbon,8,7,False
 P1,1819,2019-02-11,Setubal,Belenenses,8,7,False
 P1,1819,2019-02-15,Rio Ave,Santa Clara,6,5,False
 P1,1819,2019-02-16,Guimaraes,Portimonense,7,7,False
-P1,1819,2019-02-16,Porto,Setubal,8,5,False
 P1,1819,2019-02-16,Nacional,Farense,6,6,False
+P1,1819,2019-02-16,Porto,Setubal,8,5,False
+P1,1819,2019-02-17,Moreirense,Tondela,9,8,False
 P1,1819,2019-02-17,Belenenses,Maritimo,6,8,False
 P1,1819,2019-02-17,Sp Lisbon,Sp Braga,7,7,False
-P1,1819,2019-02-17,Moreirense,Tondela,9,8,False
 P1,1819,2019-02-17,Aves,Boavista,7,7,False
 P1,1819,2019-02-18,Aves,Benfica,1,8,False
 P1,1819,2019-02-22,Sp Braga,Belenenses,5,5,False
 P1,1819,2019-02-22,Tondela,Porto,5,6,False
-P1,1819,2019-02-23,Setubal,Guimaraes,7,7,False
 P1,1819,2019-02-23,Farense,Moreirense,7,6,False
+P1,1819,2019-02-23,Setubal,Guimaraes,7,7,False
 P1,1819,2019-02-23,Portimonense,Aves,7,5,False
 P1,1819,2019-02-24,Santa Clara,Nacional,9,8,False
 P1,1819,2019-02-24,Boavista,Rio Ave,7,9,False
-P1,1819,2019-02-25,Benfica,Aves,7,2,False
 P1,1819,2019-02-25,Maritimo,Sp Lisbon,8,8,False
+P1,1819,2019-02-25,Benfica,Aves,7,2,False
 P1,1819,2019-03-01,Aves,Boavista,4,5,False
+P1,1819,2019-03-02,Porto,Benfica,8,5,False
 P1,1819,2019-03-02,Nacional,Tondela,6,8,False
 P1,1819,2019-03-02,Moreirense,Setubal,7,7,False
-P1,1819,2019-03-02,Porto,Benfica,8,5,False
-P1,1819,2019-03-03,Belenenses,Farense,9,8,False
 P1,1819,2019-03-03,Aves,Santa Clara,2,7,False
-P1,1819,2019-03-03,Rio Ave,Sp Braga,7,9,False
 P1,1819,2019-03-03,Sp Lisbon,Portimonense,6,8,False
+P1,1819,2019-03-03,Rio Ave,Sp Braga,7,9,False
+P1,1819,2019-03-03,Belenenses,Farense,9,8,False
 P1,1819,2019-03-04,Guimaraes,Maritimo,9,7,False
 P1,1819,2019-03-08,Aves,Rio Ave,5,5,False
 P1,1819,2019-03-09,Sp Braga,Guimaraes,6,5,False
-P1,1819,2019-03-09,Boavista,Sp Lisbon,8,6,False
 P1,1819,2019-03-09,Maritimo,Moreirense,5,7,False
+P1,1819,2019-03-09,Boavista,Sp Lisbon,8,6,False
 P1,1819,2019-03-10,Setubal,Tondela,8,8,False
 P1,1819,2019-03-10,Santa Clara,Aves,7,2,False
 P1,1819,2019-03-10,Farense,Porto,7,8,False
 P1,1819,2019-03-10,Portimonense,Nacional,7,8,False
 P1,1819,2019-03-11,Benfica,Belenenses,9,8,False
 P1,1819,2019-03-15,Sp Lisbon,Santa Clara,6,5,False
-P1,1819,2019-03-16,Setubal,Sp Braga,6,7,False
-P1,1819,2019-03-16,Porto,Maritimo,6,7,False
 P1,1819,2019-03-16,Guimaraes,Boavista,7,7,False
+P1,1819,2019-03-16,Porto,Maritimo,6,7,False
+P1,1819,2019-03-16,Setubal,Sp Braga,6,7,False
 P1,1819,2019-03-16,Belenenses,Portimonense,5,6,False
 P1,1819,2019-03-17,Aves,Aves,7,7,False
-P1,1819,2019-03-17,Tondela,Farense,7,7,False
-P1,1819,2019-03-17,Nacional,Rio Ave,7,9,False
 P1,1819,2019-03-17,Moreirense,Benfica,8,6,False
+P1,1819,2019-03-17,Nacional,Rio Ave,7,9,False
+P1,1819,2019-03-17,Tondela,Farense,7,7,False
 P1,1819,2019-03-29,Portimonense,Moreirense,13,12,False
 P1,1819,2019-03-30,Santa Clara,Guimaraes,15,14,False
-P1,1819,2019-03-30,Benfica,Tondela,13,13,False
 P1,1819,2019-03-30,Sp Braga,Porto,14,14,False
+P1,1819,2019-03-30,Benfica,Tondela,13,13,False
 P1,1819,2019-03-30,Aves,Sp Lisbon,13,15,False
 P1,1819,2019-03-31,Rio Ave,Aves,14,1,False
-P1,1819,2019-03-31,Boavista,Belenenses,15,15,False
 P1,1819,2019-03-31,Maritimo,Nacional,15,14,False
+P1,1819,2019-03-31,Boavista,Belenenses,15,15,False
 P1,1819,2019-04-01,Farense,Setubal,15,16,False
 P1,1819,2019-04-05,Porto,Boavista,6,5,False
-P1,1819,2019-04-06,Belenenses,Santa Clara,6,7,False
 P1,1819,2019-04-06,Nacional,Aves,6,6,False
-P1,1819,2019-04-06,Moreirense,Sp Braga,8,7,False
 P1,1819,2019-04-06,Guimaraes,Aves,7,6,False
+P1,1819,2019-04-06,Moreirense,Sp Braga,8,7,False
+P1,1819,2019-04-06,Belenenses,Santa Clara,6,7,False
+P1,1819,2019-04-07,Setubal,Maritimo,6,7,False
 P1,1819,2019-04-07,Sp Lisbon,Rio Ave,8,7,False
 P1,1819,2019-04-07,Farense,Benfica,6,8,False
-P1,1819,2019-04-07,Setubal,Maritimo,6,7,False
 P1,1819,2019-04-08,Tondela,Portimonense,9,10,False
 P1,1819,2019-04-12,Aves,Belenenses,6,6,False
-P1,1819,2019-04-13,Aves,Sp Lisbon,1,6,False
 P1,1819,2019-04-13,Portimonense,Porto,5,8,False
 P1,1819,2019-04-13,Santa Clara,Moreirense,7,7,False
+P1,1819,2019-04-13,Aves,Sp Lisbon,1,6,False
+P1,1819,2019-04-14,Boavista,Nacional,9,8,False
 P1,1819,2019-04-14,Maritimo,Farense,7,7,False
 P1,1819,2019-04-14,Sp Braga,Tondela,8,6,False
-P1,1819,2019-04-14,Benfica,Setubal,7,7,False
 P1,1819,2019-04-14,Rio Ave,Guimaraes,7,8,False
-P1,1819,2019-04-14,Boavista,Nacional,9,8,False
-P1,1819,2019-04-19,Setubal,Portimonense,5,6,False
-P1,1819,2019-04-19,Tondela,Boavista,5,5,False
-P1,1819,2019-04-19,Nacional,Sp Lisbon,5,6,False
+P1,1819,2019-04-14,Benfica,Setubal,7,7,False
 P1,1819,2019-04-19,Guimaraes,Aves,5,6,False
+P1,1819,2019-04-19,Setubal,Portimonense,5,6,False
+P1,1819,2019-04-19,Nacional,Sp Lisbon,5,6,False
+P1,1819,2019-04-19,Tondela,Boavista,5,5,False
+P1,1819,2019-04-20,Belenenses,Rio Ave,8,6,False
+P1,1819,2019-04-20,Porto,Santa Clara,7,7,False
 P1,1819,2019-04-20,Moreirense,Aves,7,1,False
 P1,1819,2019-04-20,Farense,Sp Braga,6,6,False
-P1,1819,2019-04-20,Porto,Santa Clara,7,7,False
-P1,1819,2019-04-20,Belenenses,Rio Ave,8,6,False
 P1,1819,2019-04-22,Benfica,Maritimo,8,8,False
 P1,1819,2019-04-26,Rio Ave,Porto,6,6,False
-P1,1819,2019-04-27,Santa Clara,Setubal,7,8,False
 P1,1819,2019-04-27,Sp Lisbon,Guimaraes,8,8,False
+P1,1819,2019-04-27,Santa Clara,Setubal,7,8,False
 P1,1819,2019-04-27,Portimonense,Farense,8,7,False
 P1,1819,2019-04-27,Aves,Belenenses,7,7,False
 P1,1819,2019-04-28,Aves,Nacional,1,9,False
-P1,1819,2019-04-28,Maritimo,Tondela,6,9,False
 P1,1819,2019-04-28,Sp Braga,Benfica,8,6,False
 P1,1819,2019-04-28,Boavista,Moreirense,9,8,False
+P1,1819,2019-04-28,Maritimo,Tondela,6,9,False
 P1,1819,2019-05-03,Moreirense,Rio Ave,5,7,False
-P1,1819,2019-05-04,Maritimo,Sp Braga,6,6,False
 P1,1819,2019-05-04,Porto,Aves,8,6,False
 P1,1819,2019-05-04,Farense,Aves,7,6,False
 P1,1819,2019-05-04,Benfica,Portimonense,6,7,False
+P1,1819,2019-05-04,Maritimo,Sp Braga,6,6,False
 P1,1819,2019-05-05,Tondela,Santa Clara,7,8,False
-P1,1819,2019-05-05,Guimaraes,Nacional,8,7,False
 P1,1819,2019-05-05,Belenenses,Sp Lisbon,8,8,False
+P1,1819,2019-05-05,Guimaraes,Nacional,8,7,False
 P1,1819,2019-05-06,Setubal,Boavista,9,8,False
 P1,1819,2019-05-10,Aves,Moreirense,6,7,False
-P1,1819,2019-05-11,Sp Lisbon,Tondela,6,6,False
 P1,1819,2019-05-11,Boavista,Sp Braga,5,7,False
-P1,1819,2019-05-11,Portimonense,Maritimo,7,7,False
 P1,1819,2019-05-11,Santa Clara,Farense,6,7,False
-P1,1819,2019-05-12,Guimaraes,Belenenses,7,7,False
+P1,1819,2019-05-11,Sp Lisbon,Tondela,6,6,False
+P1,1819,2019-05-11,Portimonense,Maritimo,7,7,False
 P1,1819,2019-05-12,Nacional,Porto,7,8,False
+P1,1819,2019-05-12,Guimaraes,Belenenses,7,7,False
 P1,1819,2019-05-12,Aves,Setubal,2,6,False
 P1,1819,2019-05-12,Rio Ave,Benfica,9,8,False
 P1,1819,2019-05-16,Belenenses,Nacional,4,4,True
 P1,1819,2019-05-17,Sp Braga,Portimonense,6,6,False
-P1,1819,2019-05-18,Maritimo,Boavista,7,7,False
-P1,1819,2019-05-18,Farense,Aves,7,6,False
 P1,1819,2019-05-18,Benfica,Santa Clara,6,7,False
-P1,1819,2019-05-18,Setubal,Rio Ave,6,6,False
+P1,1819,2019-05-18,Farense,Aves,7,6,False
+P1,1819,2019-05-18,Maritimo,Boavista,7,7,False
 P1,1819,2019-05-18,Porto,Sp Lisbon,6,7,False
+P1,1819,2019-05-18,Setubal,Rio Ave,6,6,False
 P1,1819,2019-05-19,Moreirense,Guimaraes,9,7,False
 P1,1819,2019-05-19,Tondela,Aves,8,1,False

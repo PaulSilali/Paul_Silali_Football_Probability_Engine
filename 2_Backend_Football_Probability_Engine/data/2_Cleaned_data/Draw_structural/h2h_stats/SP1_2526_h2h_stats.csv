@@ -4,6 +4,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8710,Valencia,8712,Celta,2526,1,0,0.0,5.0
 8705,Oviedo,8715,Sevilla,2526,1,0,0.0,4.0
 8716,Espanol,8719,Betis,2526,1,0,0.0,3.0
+8704,Villarreal,8708,Alaves,2526,1,0,0.0,4.0
 8708,Alaves,8716,Espanol,2526,1,0,0.0,3.0
 8706,Mallorca,8712,Celta,2526,1,1,1.0,2.0
 8708,Alaves,8719,Betis,2526,1,0,0.0,1.0
@@ -43,6 +44,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8718,Elche,8719,Betis,2526,1,1,1.0,2.0
 8717,Ath Madrid,8719,Betis,2526,2,0,0.0,4.0
 8714,Ath Bilbao,8720,Osasuna,2526,1,1,1.0,2.0
+8705,Oviedo,8719,Betis,2526,1,1,1.0,2.0
 8703,Vallecano,8719,Betis,2526,1,1,1.0,
 8708,Alaves,8720,Osasuna,2526,1,0,0.0,3.0
 8702,Girona,8709,Levante,2526,1,0,0.0,4.0
@@ -62,6 +64,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8715,Sevilla,8718,Elche,2526,1,1,1.0,4.0
 8714,Ath Bilbao,8716,Espanol,2526,1,0,0.0,3.0
 8703,Vallecano,8711,Sociedad,2526,1,0,0.0,1.0
+8709,Levante,8716,Espanol,2526,1,1,1.0,2.0
 8704,Villarreal,8707,Barcelona,2526,1,0,0.0,2.0
 8704,Villarreal,8706,Mallorca,2526,1,0,0.0,3.0
 8715,Sevilla,8719,Betis,2526,1,0,0.0,2.0
@@ -77,9 +80,11 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8703,Vallecano,8716,Espanol,2526,1,0,0.0,1.0
 8706,Mallorca,8720,Osasuna,2526,1,1,1.0,4.0
 8713,Getafe,8717,Ath Madrid,2526,2,0,0.0,1.0
+8710,Valencia,8718,Elche,2526,1,1,1.0,2.0
 8709,Levante,8713,Getafe,2526,1,1,1.0,2.0
 8702,Girona,8715,Sevilla,2526,1,0,0.0,2.0
 8718,Elche,8720,Osasuna,2526,1,1,1.0,2.0
+8711,Sociedad,8713,Getafe,2526,1,0,0.0,3.0
 8702,Girona,8712,Celta,2526,1,1,1.0,2.0
 8708,Alaves,8710,Valencia,2526,1,1,1.0,
 8703,Vallecano,8712,Celta,2526,1,1,1.0,2.0
@@ -113,6 +118,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8702,Girona,8711,Sociedad,2526,1,0,0.0,3.0
 8703,Vallecano,8718,Elche,2526,1,0,0.0,4.0
 8707,Barcelona,8711,Sociedad,2526,1,0,0.0,3.0
+8703,Vallecano,8706,Mallorca,2526,1,0,0.0,3.0
 8702,Girona,8708,Alaves,2526,1,0,0.0,1.0
 8703,Vallecano,8708,Alaves,2526,1,0,0.0,1.0
 8704,Villarreal,8711,Sociedad,2526,1,0,0.0,5.0

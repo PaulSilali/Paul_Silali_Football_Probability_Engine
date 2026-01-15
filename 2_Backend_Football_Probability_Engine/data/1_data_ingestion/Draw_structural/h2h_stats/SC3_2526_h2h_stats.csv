@@ -13,7 +13,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8893,Elgin,8898,Edinburgh City,2526,2,0,0.0,5.0
 8895,Clyde,8899,Stirling,2526,2,0,0.0,4.5
 8893,Elgin,8894,Dumbarton,2526,2,1,0.5,2.0
-8900,Forfar,8901,Stranraer,2526,2,0,0.0,2.5
+8900,Forfar,8901,Stranraer,2526,3,1,0.3333333333333333,3.0
 8892,Annan Athletic,8895,Clyde,2526,2,0,0.0,3.5
 8896,East Kilbride,8899,Stirling,2526,2,0,0.0,3.5
 8892,Annan Athletic,8896,East Kilbride,2526,2,0,0.0,4.0
@@ -31,7 +31,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 8892,Annan Athletic,8900,Forfar,2526,2,0,0.0,2.5
 8892,Annan Athletic,8899,Stirling,2526,2,2,1.0,1.0
 8899,Stirling,8901,Stranraer,2526,2,0,0.0,3.0
-8898,Edinburgh City,8899,Stirling,2526,2,0,0.0,2.0
+8898,Edinburgh City,8899,Stirling,2526,3,0,0.0,3.0
 8897,Spartans,8898,Edinburgh City,2526,2,0,0.0,2.5
 8896,East Kilbride,8900,Forfar,2526,2,0,0.0,4.0
 8893,Elgin,8895,Clyde,2526,2,2,1.0,1.0

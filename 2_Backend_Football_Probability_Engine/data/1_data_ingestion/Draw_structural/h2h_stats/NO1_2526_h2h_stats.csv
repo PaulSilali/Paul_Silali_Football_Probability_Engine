@@ -44,7 +44,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9031,AZ Alkmaar,9033,Utrecht,2526,1,0,0.0,5.0
 9023,Heerenveen,9025,PSV Eindhoven,2526,1,0,0.0,2.0
 9029,Ajax,9033,Utrecht,2526,1,0,0.0,3.0
-9021,Feyenoord,9023,Heerenveen,2526,1,0,0.0,1.0
+9021,Feyenoord,9023,Heerenveen,2526,2,1,0.5,2.5
 9023,Heerenveen,9034,Heracles,2526,1,0,0.0,3.0
 9019,Nijmegen,9026,Sparta Rotterdam,2526,1,0,0.0,4.0
 9022,NAC Breda,9033,Utrecht,2526,1,1,1.0,2.0
@@ -84,8 +84,8 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9021,Feyenoord,9034,Heracles,2526,1,0,0.0,7.0
 9021,Feyenoord,9031,AZ Alkmaar,2526,1,1,1.0,6.0
 9019,Nijmegen,9033,Utrecht,2526,1,0,0.0,1.0
-9027,Zwolle,9028,Twente,2526,1,0,0.0,1.0
-9020,Excelsior,9025,PSV Eindhoven,2526,1,0,0.0,3.0
+9020,Excelsior,9025,PSV Eindhoven,2526,2,0,0.0,4.5
+9027,Zwolle,9028,Twente,2526,2,1,0.5,1.5
 9025,PSV Eindhoven,9033,Utrecht,2526,1,0,0.0,3.0
 9022,NAC Breda,9029,Ajax,2526,1,0,0.0,3.0
 9017,For Sittard,9029,Ajax,2526,1,0,0.0,4.0
@@ -93,7 +93,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9017,For Sittard,9030,Telstar,2526,1,0,0.0,4.0
 9024,Volendam,9032,Groningen,2526,1,0,0.0,3.0
 9024,Volendam,9029,Ajax,2526,1,1,1.0,2.0
-9017,For Sittard,9018,Go Ahead Eagles,2526,1,1,1.0,4.0
+9017,For Sittard,9018,Go Ahead Eagles,2526,2,2,1.0,4.0
 9029,Ajax,9031,AZ Alkmaar,2526,1,0,0.0,2.0
 9020,Excelsior,9021,Feyenoord,2526,1,0,0.0,3.0
 9019,Nijmegen,9020,Excelsior,2526,1,0,0.0,5.0
@@ -133,7 +133,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9018,Go Ahead Eagles,9026,Sparta Rotterdam,2526,1,0,0.0,3.0
 9017,For Sittard,9032,Groningen,2526,1,0,0.0,3.0
 9020,Excelsior,9028,Twente,2526,1,0,0.0,1.0
-9029,Ajax,9030,Telstar,2526,1,0,0.0,2.0
+9029,Ajax,9030,Telstar,2526,2,0,0.0,3.5
 9019,Nijmegen,9030,Telstar,2526,1,1,1.0,4.0
 9019,Nijmegen,9024,Volendam,2526,1,0,0.0,5.0
 9018,Go Ahead Eagles,9031,AZ Alkmaar,2526,1,1,1.0,4.0

@@ -2297,20 +2297,56 @@ async def import_all_draw_structural_data(
             logger.error(f"Error importing team form: {e}", exc_info=True)
             results["team_form"] = {"success": False, "error": str(e)}
         
-        # 10. Team Injuries (Export existing data)
+        # 10. Team Injuries (Try downloading from API first, then export existing data)
         try:
-            from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_for_fixtures
-            result = batch_ingest_team_injuries_for_fixtures(
-                db,
-                fixture_ids=None,
-                league_codes=league_codes,
-                use_all_leagues=use_all_leagues,
-                save_csv=True
-            )
-            results["team_injuries"] = result
-            logger.info(f"✓ Team Injuries: {result.get('successful', 0)} exported, {result.get('skipped', 0)} skipped")
+            # First, try to download injuries from API-Football
+            from app.services.ingestion.download_injuries_from_api import download_injuries_for_fixtures_batch
+            from app.config import settings
+            
+            # Check if API key is available
+            api_key_available = hasattr(settings, 'API_FOOTBALL_KEY') and settings.API_FOOTBALL_KEY and str(settings.API_FOOTBALL_KEY).strip() != ""
+            
+            if api_key_available:
+                logger.info("Attempting to download team injuries from API-Football...")
+                download_result = download_injuries_for_fixtures_batch(
+                    db,
+                    fixture_ids=None,
+                    league_codes=league_codes,
+                    use_all_leagues=use_all_leagues,
+                    source="api-football"
+                )
+                
+                if download_result.get("success") and download_result.get("successful", 0) > 0:
+                    results["team_injuries"] = download_result
+                    logger.info(f"✓ Team Injuries: {download_result.get('successful', 0)} downloaded, {download_result.get('failed', 0)} failed, {download_result.get('skipped', 0)} skipped")
+                else:
+                    # If download failed or no data, try exporting existing data
+                    logger.info("API download had no results, exporting existing injury data...")
+                    from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_for_fixtures
+                    export_result = batch_ingest_team_injuries_for_fixtures(
+                        db,
+                        fixture_ids=None,
+                        league_codes=league_codes,
+                        use_all_leagues=use_all_leagues,
+                        save_csv=True
+                    )
+                    results["team_injuries"] = export_result
+                    logger.info(f"✓ Team Injuries: {export_result.get('successful', 0)} exported, {export_result.get('skipped', 0)} skipped (no API data available)")
+            else:
+                # No API key, just export existing data
+                logger.info("API key not available, exporting existing injury data...")
+                from app.services.ingestion.ingest_team_injuries import batch_ingest_team_injuries_for_fixtures
+                result = batch_ingest_team_injuries_for_fixtures(
+                    db,
+                    fixture_ids=None,
+                    league_codes=league_codes,
+                    use_all_leagues=use_all_leagues,
+                    save_csv=True
+                )
+                results["team_injuries"] = result
+                logger.info(f"✓ Team Injuries: {result.get('successful', 0)} exported, {result.get('skipped', 0)} skipped (no API key configured)")
         except Exception as e:
-            logger.error(f"Error exporting team injuries: {e}", exc_info=True)
+            logger.error(f"Error processing team injuries: {e}", exc_info=True)
             results["team_injuries"] = {"success": False, "error": str(e)}
         
         # 11. Weather (LAST)

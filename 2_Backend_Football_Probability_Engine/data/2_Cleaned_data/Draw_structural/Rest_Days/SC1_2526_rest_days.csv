@@ -54,9 +54,9 @@ SC1,2526,2025-10-18,Ayr,Morton,7,7,False
 SC1,2526,2025-10-18,Arbroath,St Johnstone,7,7,False
 SC1,2526,2025-10-21,Airdrie Utd,Dunfermline,3,4,True
 SC1,2526,2025-10-21,Partick,Ayr,3,3,True
-SC1,2526,2025-10-25,Morton,St Johnstone,7,7,False
-SC1,2526,2025-10-25,Airdrie Utd,Arbroath,4,7,False
 SC1,2526,2025-10-25,Queens Park,Ayr,7,4,False
+SC1,2526,2025-10-25,Airdrie Utd,Arbroath,4,7,False
+SC1,2526,2025-10-25,Morton,St Johnstone,7,7,False
 SC1,2526,2025-10-25,Raith Rvs,Partick,8,4,False
 SC1,2526,2025-10-25,Ross County,Dunfermline,7,4,False
 SC1,2526,2025-10-31,Ayr,Dunfermline,6,6,False
@@ -84,15 +84,15 @@ SC1,2526,2025-12-06,Ross County,Airdrie Utd,21,14,False
 SC1,2526,2025-12-06,Dunfermline,Arbroath,11,14,False
 SC1,2526,2025-12-06,Ayr,Partick,14,11,False
 SC1,2526,2025-12-12,Ayr,St Johnstone,6,6,False
-SC1,2526,2025-12-13,Morton,Airdrie Utd,8,7,False
-SC1,2526,2025-12-13,Arbroath,Partick,7,7,False
 SC1,2526,2025-12-13,Queens Park,Dunfermline,8,7,False
+SC1,2526,2025-12-13,Arbroath,Partick,7,7,False
+SC1,2526,2025-12-13,Morton,Airdrie Utd,8,7,False
 SC1,2526,2025-12-13,Raith Rvs,Ross County,7,7,False
 SC1,2526,2025-12-20,Airdrie Utd,Queens Park,7,7,False
 SC1,2526,2025-12-20,Dunfermline,Ayr,7,8,False
 SC1,2526,2025-12-20,Partick,Raith Rvs,7,7,False
-SC1,2526,2025-12-20,St Johnstone,Morton,8,7,False
 SC1,2526,2025-12-20,Ross County,Arbroath,7,7,False
+SC1,2526,2025-12-20,St Johnstone,Morton,8,7,False
 SC1,2526,2025-12-27,Arbroath,Airdrie Utd,7,7,False
 SC1,2526,2025-12-27,Morton,Ayr,7,7,False
 SC1,2526,2025-12-27,Queens Park,Partick,7,7,False
@@ -101,3 +101,5 @@ SC1,2526,2025-12-27,Ross County,St Johnstone,7,7,False
 SC1,2526,2026-01-03,St Johnstone,Arbroath,7,7,False
 SC1,2526,2026-01-03,Partick,Morton,7,7,False
 SC1,2526,2026-01-03,Airdrie Utd,Raith Rvs,7,7,False
+SC1,2526,2026-01-10,Raith Rvs,Arbroath,7,7,False
+SC1,2526,2026-01-10,Ayr,Airdrie Utd,14,7,False

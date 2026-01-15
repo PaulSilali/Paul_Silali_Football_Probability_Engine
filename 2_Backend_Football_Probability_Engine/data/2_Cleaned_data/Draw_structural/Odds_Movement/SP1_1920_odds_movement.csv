@@ -1,9 +1,9 @@
 league_code,season,match_date,home_team,away_team,draw_open,draw_close,draw_delta
 SP1,1920,2019-08-16,Ath Bilbao,Barcelona,3.81,3.81,0.0
-SP1,1920,2019-08-17,Celta,Ath Madrid,4.12,4.12,0.0
-SP1,1920,2019-08-17,Valencia,Sociedad,3.8,3.8,0.0
-SP1,1920,2019-08-17,Mallorca,Eibar,3.09,3.09,0.0
 SP1,1920,2019-08-17,Levante,Osasuna,3.18,3.18,0.0
+SP1,1920,2019-08-17,Mallorca,Eibar,3.09,3.09,0.0
+SP1,1920,2019-08-17,Valencia,Sociedad,3.8,3.8,0.0
+SP1,1920,2019-08-17,Celta,Ath Madrid,4.12,4.12,0.0
 SP1,1920,2019-08-17,Villarreal,Granada,3.95,3.95,0.0
 SP1,1920,2019-08-18,Alaves,Levante,3.25,3.25,0.0
 SP1,1920,2019-08-18,Espanol,Sevilla,3.41,3.41,0.0
@@ -11,8 +11,8 @@ SP1,1920,2019-08-18,Betis,Valladolid,3.76,3.76,0.0
 SP1,1920,2019-08-18,Ath Madrid,Getafe,4.23,4.23,0.0
 SP1,1920,2019-08-23,Granada,Sevilla,3.58,3.58,0.0
 SP1,1920,2019-08-23,Levante,Villarreal,3.54,3.54,0.0
-SP1,1920,2019-08-24,Osasuna,Eibar,3.12,3.12,0.0
 SP1,1920,2019-08-24,Ath Madrid,Valladolid,6.97,6.97,0.0
+SP1,1920,2019-08-24,Osasuna,Eibar,3.12,3.12,0.0
 SP1,1920,2019-08-24,Celta,Valencia,3.45,3.45,0.0
 SP1,1920,2019-08-24,Getafe,Ath Bilbao,2.94,2.94,0.0
 SP1,1920,2019-08-25,Alaves,Espanol,3.18,3.18,0.0
@@ -25,253 +25,267 @@ SP1,1920,2019-08-31,Osasuna,Barcelona,4.86,4.86,0.0
 SP1,1920,2019-08-31,Getafe,Alaves,3.34,3.34,0.0
 SP1,1920,2019-08-31,Levante,Valladolid,3.56,3.56,0.0
 SP1,1920,2019-08-31,Betis,Levante,3.24,3.24,0.0
+SP1,1920,2019-08-31,Betis,CD Leganes,3.24,3.24,0.0
 SP1,1920,2019-09-01,Valencia,Mallorca,4.63,4.63,0.0
 SP1,1920,2019-09-01,Ath Madrid,Eibar,4.16,4.16,0.0
 SP1,1920,2019-09-01,Espanol,Granada,3.2,3.2,0.0
 SP1,1920,2019-09-01,Villarreal,Ath Madrid,4.14,4.14,0.0
 SP1,1920,2019-09-13,Mallorca,Ath Bilbao,3.02,3.02,0.0
-SP1,1920,2019-09-14,Ath Madrid,Levante,6.59,6.59,0.0
-SP1,1920,2019-09-14,Levante,Villarreal,3.15,3.15,0.0
 SP1,1920,2019-09-14,Sociedad,Ath Madrid,3.15,3.15,0.0
 SP1,1920,2019-09-14,Barcelona,Valencia,4.59,4.59,0.0
-SP1,1920,2019-09-15,Eibar,Espanol,3.34,3.34,0.0
+SP1,1920,2019-09-14,Levante,Villarreal,3.15,3.15,0.0
+SP1,1920,2019-09-14,Ath Madrid,Levante,6.59,6.59,0.0
 SP1,1920,2019-09-15,Alaves,Sevilla,3.37,3.37,0.0
 SP1,1920,2019-09-15,Celta,Granada,3.64,3.64,0.0
 SP1,1920,2019-09-15,Valladolid,Osasuna,3.05,3.05,0.0
 SP1,1920,2019-09-15,Betis,Getafe,3.22,3.22,0.0
+SP1,1920,2019-09-15,Eibar,Espanol,3.34,3.34,0.0
 SP1,1920,2019-09-20,Osasuna,Betis,3.37,3.37,0.0
 SP1,1920,2019-09-21,Villarreal,Valladolid,4.19,4.19,0.0
 SP1,1920,2019-09-21,Levante,Eibar,3.51,3.51,0.0
 SP1,1920,2019-09-21,Ath Madrid,Celta,4.35,4.35,0.0
 SP1,1920,2019-09-21,Granada,Barcelona,5.44,5.44,0.0
-SP1,1920,2019-09-22,Getafe,Mallorca,3.23,3.23,0.0
 SP1,1920,2019-09-22,Espanol,Sociedad,3.25,3.25,0.0
 SP1,1920,2019-09-22,Valencia,Levante,3.9,3.9,0.0
 SP1,1920,2019-09-22,Ath Bilbao,Alaves,3.61,3.61,0.0
 SP1,1920,2019-09-22,Sevilla,Ath Madrid,3.77,3.77,0.0
+SP1,1920,2019-09-22,Getafe,Mallorca,3.23,3.23,0.0
+SP1,1920,2019-09-22,Valencia,CD Leganes,3.9,3.9,0.0
+SP1,1920,2019-09-24,Barcelona,Villarreal,6.06,6.06,0.0
 SP1,1920,2019-09-24,Valladolid,Granada,3.17,3.17,0.0
 SP1,1920,2019-09-24,Betis,Levante,3.67,3.67,0.0
-SP1,1920,2019-09-24,Barcelona,Villarreal,6.06,6.06,0.0
-SP1,1920,2019-09-25,Levante,Ath Bilbao,2.94,2.94,0.0
-SP1,1920,2019-09-25,Mallorca,Ath Madrid,3.65,3.65,0.0
-SP1,1920,2019-09-25,Valencia,Getafe,3.31,3.31,0.0
 SP1,1920,2019-09-25,Ath Madrid,Osasuna,6.45,6.45,0.0
+SP1,1920,2019-09-25,Mallorca,Ath Madrid,3.65,3.65,0.0
+SP1,1920,2019-09-25,CD Leganes,Ath Bilbao,2.94,2.94,0.0
+SP1,1920,2019-09-25,Levante,Ath Bilbao,2.94,2.94,0.0
+SP1,1920,2019-09-25,Valencia,Getafe,3.31,3.31,0.0
+SP1,1920,2019-09-26,Sociedad,Alaves,3.83,3.83,0.0
 SP1,1920,2019-09-26,Eibar,Sevilla,3.34,3.34,0.0
 SP1,1920,2019-09-26,Celta,Espanol,3.64,3.64,0.0
-SP1,1920,2019-09-26,Sociedad,Alaves,3.83,3.83,0.0
 SP1,1920,2019-09-27,Villarreal,Betis,3.82,3.82,0.0
-SP1,1920,2019-09-28,Ath Bilbao,Valencia,3.21,3.21,0.0
-SP1,1920,2019-09-28,Getafe,Barcelona,3.44,3.44,0.0
 SP1,1920,2019-09-28,Granada,Levante,3.07,3.07,0.0
 SP1,1920,2019-09-28,Ath Madrid,Ath Madrid,3.33,3.33,0.0
+SP1,1920,2019-09-28,Ath Bilbao,Valencia,3.21,3.21,0.0
+SP1,1920,2019-09-28,Getafe,Barcelona,3.44,3.44,0.0
+SP1,1920,2019-09-29,Sevilla,Sociedad,3.56,3.56,0.0
 SP1,1920,2019-09-29,Espanol,Valladolid,3.26,3.26,0.0
 SP1,1920,2019-09-29,Eibar,Celta,3.3,3.3,0.0
 SP1,1920,2019-09-29,Alaves,Mallorca,3.13,3.13,0.0
 SP1,1920,2019-09-29,Levante,Osasuna,3.45,3.45,0.0
-SP1,1920,2019-09-29,Sevilla,Sociedad,3.56,3.56,0.0
 SP1,1920,2019-10-04,Betis,Eibar,3.62,3.62,0.0
-SP1,1920,2019-10-05,Levante,Levante,3.44,3.44,0.0
-SP1,1920,2019-10-05,Ath Madrid,Granada,5.78,5.78,0.0
-SP1,1920,2019-10-05,Valencia,Alaves,4.1,4.1,0.0
 SP1,1920,2019-10-05,Osasuna,Villarreal,3.28,3.28,0.0
+SP1,1920,2019-10-05,Valencia,Alaves,4.1,4.1,0.0
+SP1,1920,2019-10-05,Ath Madrid,Granada,5.78,5.78,0.0
+SP1,1920,2019-10-05,Levante,Levante,3.44,3.44,0.0
+SP1,1920,2019-10-05,CD Leganes,Levante,3.44,3.44,0.0
+SP1,1920,2019-10-06,Barcelona,Sevilla,4.46,4.46,0.0
 SP1,1920,2019-10-06,Mallorca,Espanol,3.13,3.13,0.0
 SP1,1920,2019-10-06,Celta,Ath Bilbao,3.04,3.04,0.0
 SP1,1920,2019-10-06,Valladolid,Ath Madrid,3.52,3.52,0.0
 SP1,1920,2019-10-06,Sociedad,Getafe,3.36,3.36,0.0
-SP1,1920,2019-10-06,Barcelona,Sevilla,4.46,4.46,0.0
 SP1,1920,2019-10-18,Granada,Osasuna,3.01,3.01,0.0
 SP1,1920,2019-10-19,Eibar,Barcelona,4.5,4.5,0.0
 SP1,1920,2019-10-19,Ath Madrid,Valencia,3.87,3.87,0.0
 SP1,1920,2019-10-19,Getafe,Levante,3.21,3.21,0.0
 SP1,1920,2019-10-19,Mallorca,Ath Madrid,4.34,4.34,0.0
+SP1,1920,2019-10-20,Sevilla,Levante,5.53,5.53,0.0
 SP1,1920,2019-10-20,Alaves,Celta,3.0,3.0,0.0
 SP1,1920,2019-10-20,Sociedad,Betis,3.88,3.88,0.0
 SP1,1920,2019-10-20,Espanol,Villarreal,3.4,3.4,0.0
 SP1,1920,2019-10-20,Ath Bilbao,Valladolid,3.46,3.46,0.0
-SP1,1920,2019-10-20,Sevilla,Levante,5.53,5.53,0.0
 SP1,1920,2019-10-25,Villarreal,Alaves,4.25,4.25,0.0
 SP1,1920,2019-10-26,Levante,Mallorca,3.39,3.39,0.0
-SP1,1920,2019-10-26,Valladolid,Eibar,3.12,3.12,0.0
 SP1,1920,2019-10-26,Ath Madrid,Ath Bilbao,3.37,3.37,0.0
+SP1,1920,2019-10-26,Valladolid,Eibar,3.12,3.12,0.0
+SP1,1920,2019-10-27,Osasuna,Valencia,3.17,3.17,0.0
 SP1,1920,2019-10-27,Celta,Sociedad,3.29,3.29,0.0
 SP1,1920,2019-10-27,Granada,Betis,3.33,3.33,0.0
 SP1,1920,2019-10-27,Levante,Espanol,3.4,3.4,0.0
 SP1,1920,2019-10-27,Sevilla,Getafe,3.62,3.62,0.0
-SP1,1920,2019-10-27,Osasuna,Valencia,3.17,3.17,0.0
-SP1,1920,2019-10-29,Alaves,Ath Madrid,3.45,3.45,0.0
 SP1,1920,2019-10-29,Barcelona,Valladolid,9.03,9.03,0.0
-SP1,1920,2019-10-30,Sociedad,Levante,4.55,4.55,0.0
+SP1,1920,2019-10-29,Alaves,Ath Madrid,3.45,3.45,0.0
 SP1,1920,2019-10-30,Valencia,Sevilla,3.38,3.38,0.0
+SP1,1920,2019-10-30,Sociedad,Levante,4.55,4.55,0.0
 SP1,1920,2019-10-30,Ath Bilbao,Espanol,3.19,3.19,0.0
 SP1,1920,2019-10-30,Betis,Celta,3.47,3.47,0.0
 SP1,1920,2019-10-30,Ath Madrid,Levante,5.87,5.87,0.0
-SP1,1920,2019-10-31,Eibar,Villarreal,3.42,3.42,0.0
 SP1,1920,2019-10-31,Mallorca,Osasuna,3.01,3.01,0.0
+SP1,1920,2019-10-31,Eibar,Villarreal,3.42,3.42,0.0
 SP1,1920,2019-10-31,Getafe,Granada,3.25,3.25,0.0
-SP1,1920,2019-11-02,Espanol,Valencia,3.21,3.21,0.0
-SP1,1920,2019-11-02,Levante,Barcelona,5.92,5.92,0.0
 SP1,1920,2019-11-02,Sevilla,Ath Madrid,3.14,3.14,0.0
+SP1,1920,2019-11-02,Levante,Barcelona,5.92,5.92,0.0
+SP1,1920,2019-11-02,Espanol,Valencia,3.21,3.21,0.0
 SP1,1920,2019-11-02,Ath Madrid,Betis,6.27,6.27,0.0
-SP1,1920,2019-11-03,Valladolid,Mallorca,3.29,3.29,0.0
+SP1,1920,2019-11-03,Granada,Sociedad,3.17,3.17,0.0
 SP1,1920,2019-11-03,Villarreal,Ath Bilbao,3.5,3.5,0.0
+SP1,1920,2019-11-03,CD Leganes,Eibar,3.17,3.17,0.0
+SP1,1920,2019-11-03,Valladolid,Mallorca,3.29,3.29,0.0
 SP1,1920,2019-11-03,Osasuna,Alaves,3.04,3.04,0.0
 SP1,1920,2019-11-03,Celta,Getafe,3.05,3.05,0.0
 SP1,1920,2019-11-03,Levante,Eibar,3.17,3.17,0.0
-SP1,1920,2019-11-03,Granada,Sociedad,3.17,3.17,0.0
+SP1,1920,2019-11-08,Sociedad,CD Leganes,3.34,3.34,0.0
 SP1,1920,2019-11-08,Sociedad,Levante,3.34,3.34,0.0
 SP1,1920,2019-11-09,Alaves,Valladolid,3.02,3.02,0.0
-SP1,1920,2019-11-09,Valencia,Granada,3.63,3.63,0.0
-SP1,1920,2019-11-09,Eibar,Ath Madrid,4.13,4.13,0.0
 SP1,1920,2019-11-09,Barcelona,Celta,6.93,6.93,0.0
-SP1,1920,2019-11-10,Mallorca,Villarreal,3.45,3.45,0.0
-SP1,1920,2019-11-10,Ath Bilbao,Levante,3.77,3.77,0.0
+SP1,1920,2019-11-09,Eibar,Ath Madrid,4.13,4.13,0.0
+SP1,1920,2019-11-09,Valencia,Granada,3.63,3.63,0.0
 SP1,1920,2019-11-10,Ath Madrid,Espanol,4.02,4.02,0.0
+SP1,1920,2019-11-10,Mallorca,Villarreal,3.45,3.45,0.0
 SP1,1920,2019-11-10,Getafe,Osasuna,3.26,3.26,0.0
 SP1,1920,2019-11-10,Betis,Sevilla,3.44,3.44,0.0
+SP1,1920,2019-11-10,Ath Bilbao,Levante,3.77,3.77,0.0
 SP1,1920,2019-11-22,Levante,Mallorca,3.77,3.77,0.0
+SP1,1920,2019-11-23,CD Leganes,Barcelona,4.46,4.46,0.0
 SP1,1920,2019-11-23,Levante,Barcelona,4.46,4.46,0.0
 SP1,1920,2019-11-23,Betis,Valencia,3.4,3.4,0.0
 SP1,1920,2019-11-23,Granada,Ath Madrid,3.1,3.1,0.0
 SP1,1920,2019-11-23,Ath Madrid,Sociedad,5.4,5.4,0.0
+SP1,1920,2019-11-24,Villarreal,Celta,3.87,3.87,0.0
+SP1,1920,2019-11-24,Valladolid,Sevilla,3.59,3.59,0.0
 SP1,1920,2019-11-24,Espanol,Getafe,2.94,2.94,0.0
 SP1,1920,2019-11-24,Osasuna,Ath Bilbao,2.98,2.98,0.0
 SP1,1920,2019-11-24,Eibar,Alaves,3.4,3.4,0.0
-SP1,1920,2019-11-24,Villarreal,Celta,3.87,3.87,0.0
-SP1,1920,2019-11-24,Valladolid,Sevilla,3.59,3.59,0.0
 SP1,1920,2019-11-29,Celta,Valladolid,3.62,3.62,0.0
-SP1,1920,2019-11-30,Alaves,Ath Madrid,4.44,4.44,0.0
 SP1,1920,2019-11-30,Sociedad,Eibar,3.84,3.84,0.0
 SP1,1920,2019-11-30,Mallorca,Betis,3.33,3.33,0.0
 SP1,1920,2019-11-30,Valencia,Villarreal,3.43,3.43,0.0
-SP1,1920,2019-12-01,Sevilla,Levante,4.01,4.01,0.0
-SP1,1920,2019-12-01,Ath Bilbao,Granada,3.42,3.42,0.0
-SP1,1920,2019-12-01,Espanol,Osasuna,3.23,3.23,0.0
+SP1,1920,2019-11-30,Alaves,Ath Madrid,4.44,4.44,0.0
 SP1,1920,2019-12-01,Getafe,Levante,3.77,3.77,0.0
+SP1,1920,2019-12-01,Espanol,Osasuna,3.23,3.23,0.0
+SP1,1920,2019-12-01,Ath Bilbao,Granada,3.42,3.42,0.0
+SP1,1920,2019-12-01,Sevilla,Levante,4.01,4.01,0.0
 SP1,1920,2019-12-01,Ath Madrid,Barcelona,3.24,3.24,0.0
 SP1,1920,2019-12-06,Villarreal,Ath Madrid,3.29,3.29,0.0
 SP1,1920,2019-12-07,Ath Madrid,Espanol,7.06,7.06,0.0
-SP1,1920,2019-12-07,Granada,Alaves,3.06,3.06,0.0
 SP1,1920,2019-12-07,Levante,Valencia,3.76,3.76,0.0
 SP1,1920,2019-12-07,Barcelona,Mallorca,9.16,9.16,0.0
+SP1,1920,2019-12-07,Granada,Alaves,3.06,3.06,0.0
+SP1,1920,2019-12-08,Levante,Celta,3.09,3.09,0.0
 SP1,1920,2019-12-08,Eibar,Getafe,2.98,2.98,0.0
 SP1,1920,2019-12-08,Betis,Ath Bilbao,3.24,3.24,0.0
 SP1,1920,2019-12-08,Valladolid,Sociedad,3.22,3.22,0.0
-SP1,1920,2019-12-08,Levante,Celta,3.09,3.09,0.0
 SP1,1920,2019-12-08,Osasuna,Sevilla,3.38,3.38,0.0
+SP1,1920,2019-12-08,CD Leganes,Celta,3.09,3.09,0.0
 SP1,1920,2019-12-13,Alaves,Levante,2.95,2.95,0.0
-SP1,1920,2019-12-14,Granada,Levante,3.55,3.55,0.0
-SP1,1920,2019-12-14,Sociedad,Barcelona,4.24,4.24,0.0
+SP1,1920,2019-12-13,Alaves,CD Leganes,2.95,2.95,0.0
 SP1,1920,2019-12-14,Ath Bilbao,Eibar,3.58,3.58,0.0
 SP1,1920,2019-12-14,Ath Madrid,Osasuna,4.27,4.27,0.0
-SP1,1920,2019-12-15,Getafe,Valladolid,3.58,3.58,0.0
-SP1,1920,2019-12-15,Celta,Mallorca,3.76,3.76,0.0
-SP1,1920,2019-12-15,Espanol,Betis,3.36,3.36,0.0
+SP1,1920,2019-12-14,Granada,Levante,3.55,3.55,0.0
+SP1,1920,2019-12-14,Sociedad,Barcelona,4.24,4.24,0.0
 SP1,1920,2019-12-15,Sevilla,Villarreal,4.07,4.07,0.0
 SP1,1920,2019-12-15,Valencia,Ath Madrid,3.91,3.91,0.0
+SP1,1920,2019-12-15,Celta,Mallorca,3.76,3.76,0.0
+SP1,1920,2019-12-15,Getafe,Valladolid,3.58,3.58,0.0
+SP1,1920,2019-12-15,Espanol,Betis,3.36,3.36,0.0
 SP1,1920,2019-12-18,Barcelona,Ath Madrid,4.16,4.16,0.0
 SP1,1920,2019-12-20,Eibar,Granada,3.21,3.21,0.0
 SP1,1920,2019-12-21,Mallorca,Sevilla,3.89,3.89,0.0
 SP1,1920,2019-12-21,Barcelona,Alaves,8.35,8.35,0.0
 SP1,1920,2019-12-21,Villarreal,Getafe,3.18,3.18,0.0
 SP1,1920,2019-12-21,Valladolid,Valencia,3.28,3.28,0.0
+SP1,1920,2019-12-22,Levante,Celta,3.49,3.49,0.0
+SP1,1920,2019-12-22,Ath Madrid,Ath Bilbao,5.12,5.12,0.0
 SP1,1920,2019-12-22,Levante,Espanol,3.09,3.09,0.0
 SP1,1920,2019-12-22,Osasuna,Sociedad,3.29,3.29,0.0
 SP1,1920,2019-12-22,Betis,Ath Madrid,3.33,3.33,0.0
-SP1,1920,2019-12-22,Levante,Celta,3.49,3.49,0.0
-SP1,1920,2019-12-22,Ath Madrid,Ath Bilbao,5.12,5.12,0.0
-SP1,1920,2020-01-03,Valladolid,Levante,2.83,2.83,0.0
 SP1,1920,2020-01-03,Sevilla,Ath Bilbao,3.67,3.67,0.0
+SP1,1920,2020-01-03,Valladolid,Levante,2.83,2.83,0.0
+SP1,1920,2020-01-03,Valladolid,CD Leganes,2.83,2.83,0.0
+SP1,1920,2020-01-04,Ath Madrid,Levante,5.65,5.65,0.0
 SP1,1920,2020-01-04,Valencia,Eibar,3.87,3.87,0.0
 SP1,1920,2020-01-04,Getafe,Ath Madrid,3.63,3.63,0.0
-SP1,1920,2020-01-04,Ath Madrid,Levante,5.65,5.65,0.0
 SP1,1920,2020-01-04,Espanol,Barcelona,4.69,4.69,0.0
+SP1,1920,2020-01-05,Alaves,Betis,3.21,3.21,0.0
 SP1,1920,2020-01-05,Granada,Mallorca,3.35,3.35,0.0
 SP1,1920,2020-01-05,Sociedad,Villarreal,3.86,3.86,0.0
-SP1,1920,2020-01-05,Alaves,Betis,3.21,3.21,0.0
 SP1,1920,2020-01-05,Celta,Osasuna,3.35,3.35,0.0
 SP1,1920,2020-01-17,Levante,Getafe,2.82,2.82,0.0
 SP1,1920,2020-01-18,Levante,Alaves,3.47,3.47,0.0
-SP1,1920,2020-01-18,Ath Madrid,Sevilla,4.3,4.3,0.0
-SP1,1920,2020-01-18,Osasuna,Valladolid,3.43,3.43,0.0
 SP1,1920,2020-01-18,Eibar,Ath Madrid,3.34,3.34,0.0
+SP1,1920,2020-01-18,Osasuna,Valladolid,3.43,3.43,0.0
+SP1,1920,2020-01-18,Ath Madrid,Sevilla,4.3,4.3,0.0
+SP1,1920,2020-01-19,Ath Bilbao,Celta,3.21,3.21,0.0
 SP1,1920,2020-01-19,Mallorca,Valencia,3.49,3.49,0.0
 SP1,1920,2020-01-19,Betis,Sociedad,3.63,3.63,0.0
 SP1,1920,2020-01-19,Villarreal,Espanol,3.92,3.92,0.0
-SP1,1920,2020-01-19,Ath Bilbao,Celta,3.21,3.21,0.0
 SP1,1920,2020-01-19,Barcelona,Granada,8.1,8.1,0.0
 SP1,1920,2020-01-24,Osasuna,Levante,4.07,4.07,0.0
+SP1,1920,2020-01-25,Sevilla,Granada,4.62,4.62,0.0
 SP1,1920,2020-01-25,Espanol,Ath Bilbao,2.96,2.96,0.0
 SP1,1920,2020-01-25,Valencia,Barcelona,4.29,4.29,0.0
 SP1,1920,2020-01-25,Alaves,Villarreal,3.24,3.24,0.0
-SP1,1920,2020-01-25,Sevilla,Granada,4.62,4.62,0.0
-SP1,1920,2020-01-26,Ath Madrid,Levante,4.13,4.13,0.0
-SP1,1920,2020-01-26,Celta,Eibar,3.37,3.37,0.0
-SP1,1920,2020-01-26,Getafe,Betis,3.3,3.3,0.0
 SP1,1920,2020-01-26,Sociedad,Mallorca,4.54,4.54,0.0
 SP1,1920,2020-01-26,Valladolid,Ath Madrid,4.81,4.81,0.0
-SP1,1920,2020-02-01,Granada,Espanol,3.07,3.07,0.0
+SP1,1920,2020-01-26,Getafe,Betis,3.3,3.3,0.0
+SP1,1920,2020-01-26,Celta,Eibar,3.37,3.37,0.0
+SP1,1920,2020-01-26,Ath Madrid,Levante,4.13,4.13,0.0
 SP1,1920,2020-02-01,Ath Madrid,Ath Madrid,3.57,3.57,0.0
-SP1,1920,2020-02-01,Mallorca,Valladolid,3.21,3.21,0.0
 SP1,1920,2020-02-01,Valencia,Celta,3.61,3.61,0.0
-SP1,1920,2020-02-02,Levante,Sociedad,3.14,3.14,0.0
-SP1,1920,2020-02-02,Eibar,Betis,3.39,3.39,0.0
+SP1,1920,2020-02-01,Granada,Espanol,3.07,3.07,0.0
+SP1,1920,2020-02-01,Mallorca,Valladolid,3.21,3.21,0.0
 SP1,1920,2020-02-02,Ath Bilbao,Getafe,2.85,2.85,0.0
 SP1,1920,2020-02-02,Sevilla,Alaves,4.95,4.95,0.0
 SP1,1920,2020-02-02,Villarreal,Osasuna,3.87,3.87,0.0
 SP1,1920,2020-02-02,Barcelona,Levante,9.14,9.14,0.0
+SP1,1920,2020-02-02,CD Leganes,Sociedad,3.14,3.14,0.0
+SP1,1920,2020-02-02,Levante,Sociedad,3.14,3.14,0.0
+SP1,1920,2020-02-02,Eibar,Betis,3.39,3.39,0.0
 SP1,1920,2020-02-07,Alaves,Eibar,3.12,3.12,0.0
+SP1,1920,2020-02-08,Valladolid,Villarreal,3.19,3.19,0.0
 SP1,1920,2020-02-08,Levante,Levante,3.21,3.21,0.0
 SP1,1920,2020-02-08,Getafe,Valencia,3.29,3.29,0.0
-SP1,1920,2020-02-08,Valladolid,Villarreal,3.19,3.19,0.0
 SP1,1920,2020-02-08,Ath Madrid,Granada,4.19,4.19,0.0
 SP1,1920,2020-02-09,Espanol,Mallorca,3.87,3.87,0.0
-SP1,1920,2020-02-09,Sociedad,Ath Bilbao,3.2,3.2,0.0
-SP1,1920,2020-02-09,Osasuna,Ath Madrid,4.38,4.38,0.0
-SP1,1920,2020-02-09,Celta,Sevilla,3.27,3.27,0.0
 SP1,1920,2020-02-09,Betis,Barcelona,3.85,3.85,0.0
+SP1,1920,2020-02-09,Celta,Sevilla,3.27,3.27,0.0
+SP1,1920,2020-02-09,Osasuna,Ath Madrid,4.38,4.38,0.0
+SP1,1920,2020-02-09,Sociedad,Ath Bilbao,3.2,3.2,0.0
 SP1,1920,2020-02-14,Valencia,Ath Madrid,3.06,3.06,0.0
+SP1,1920,2020-02-15,Granada,Valladolid,2.97,2.97,0.0
 SP1,1920,2020-02-15,Mallorca,Alaves,3.13,3.13,0.0
 SP1,1920,2020-02-15,Barcelona,Getafe,4.53,4.53,0.0
 SP1,1920,2020-02-15,Villarreal,Levante,4.53,4.53,0.0
-SP1,1920,2020-02-15,Granada,Valladolid,2.97,2.97,0.0
-SP1,1920,2020-02-16,Sevilla,Espanol,3.91,3.91,0.0
-SP1,1920,2020-02-16,Levante,Betis,3.17,3.17,0.0
 SP1,1920,2020-02-16,Ath Bilbao,Osasuna,3.19,3.19,0.0
+SP1,1920,2020-02-16,Levante,Betis,3.17,3.17,0.0
+SP1,1920,2020-02-16,Sevilla,Espanol,3.91,3.91,0.0
 SP1,1920,2020-02-16,Ath Madrid,Celta,5.94,5.94,0.0
 SP1,1920,2020-02-21,Betis,Mallorca,4.52,4.52,0.0
+SP1,1920,2020-02-22,Sociedad,Valencia,4.03,4.03,0.0
 SP1,1920,2020-02-22,Celta,Levante,3.39,3.39,0.0
 SP1,1920,2020-02-22,Barcelona,Eibar,7.01,7.01,0.0
-SP1,1920,2020-02-22,Sociedad,Valencia,4.03,4.03,0.0
 SP1,1920,2020-02-22,Levante,Ath Madrid,4.93,4.93,0.0
+SP1,1920,2020-02-23,Ath Madrid,Villarreal,3.72,3.72,0.0
 SP1,1920,2020-02-23,Osasuna,Granada,3.37,3.37,0.0
 SP1,1920,2020-02-23,Alaves,Ath Bilbao,2.9,2.9,0.0
 SP1,1920,2020-02-23,Valladolid,Espanol,2.97,2.97,0.0
 SP1,1920,2020-02-23,Getafe,Sevilla,3.08,3.08,0.0
-SP1,1920,2020-02-23,Ath Madrid,Villarreal,3.72,3.72,0.0
 SP1,1920,2020-02-28,Sociedad,Valladolid,4.04,4.04,0.0
+SP1,1920,2020-02-29,Granada,Celta,3.06,3.06,0.0
+SP1,1920,2020-02-29,CD Leganes,Alaves,3.06,3.06,0.0
 SP1,1920,2020-02-29,Eibar,Levante,3.55,3.55,0.0
 SP1,1920,2020-02-29,Valencia,Betis,3.4,3.4,0.0
 SP1,1920,2020-02-29,Levante,Alaves,3.06,3.06,0.0
-SP1,1920,2020-02-29,Granada,Celta,3.06,3.06,0.0
+SP1,1920,2020-03-01,Mallorca,Getafe,2.99,2.99,0.0
 SP1,1920,2020-03-01,Sevilla,Osasuna,4.28,4.28,0.0
 SP1,1920,2020-03-01,Ath Bilbao,Villarreal,3.29,3.29,0.0
 SP1,1920,2020-03-01,Espanol,Ath Madrid,3.06,3.06,0.0
-SP1,1920,2020-03-01,Mallorca,Getafe,2.99,2.99,0.0
 SP1,1920,2020-03-01,Ath Madrid,Barcelona,3.66,3.66,0.0
 SP1,1920,2020-03-06,Alaves,Valencia,3.23,3.23,0.0
+SP1,1920,2020-03-07,Getafe,Celta,3.27,3.27,0.0
 SP1,1920,2020-03-07,Eibar,Mallorca,3.69,3.69,0.0
 SP1,1920,2020-03-07,Ath Madrid,Sevilla,3.25,3.25,0.0
 SP1,1920,2020-03-07,Barcelona,Sociedad,5.38,5.38,0.0
-SP1,1920,2020-03-07,Getafe,Celta,3.27,3.27,0.0
-SP1,1920,2020-03-08,Osasuna,Espanol,3.23,3.23,0.0
-SP1,1920,2020-03-08,Valladolid,Ath Bilbao,2.82,2.82,0.0
 SP1,1920,2020-03-08,Levante,Granada,3.44,3.44,0.0
-SP1,1920,2020-03-08,Villarreal,Levante,3.7,3.7,0.0
 SP1,1920,2020-03-08,Betis,Ath Madrid,4.02,4.02,0.0
+SP1,1920,2020-03-08,Villarreal,Levante,3.7,3.7,0.0
+SP1,1920,2020-03-08,Valladolid,Ath Bilbao,2.82,2.82,0.0
+SP1,1920,2020-03-08,Osasuna,Espanol,3.23,3.23,0.0
+SP1,1920,2020-03-08,Villarreal,CD Leganes,3.7,3.7,0.0
 SP1,1920,2020-03-10,Eibar,Sociedad,3.33,3.33,0.0
 SP1,1920,2020-06-11,Sevilla,Betis,3.68,3.68,0.0
-SP1,1920,2020-06-12,Granada,Getafe,2.94,2.94,0.0
 SP1,1920,2020-06-12,Valencia,Levante,4.08,4.08,0.0
+SP1,1920,2020-06-12,Granada,Getafe,2.94,2.94,0.0
+SP1,1920,2020-06-13,CD Leganes,Valladolid,3.02,3.02,0.0
 SP1,1920,2020-06-13,Espanol,Alaves,3.2,3.2,0.0
 SP1,1920,2020-06-13,Celta,Villarreal,3.35,3.35,0.0
 SP1,1920,2020-06-13,Levante,Valladolid,3.02,3.02,0.0
@@ -279,30 +293,31 @@ SP1,1920,2020-06-13,Mallorca,Barcelona,6.0,6.0,0.0
 SP1,1920,2020-06-14,Ath Bilbao,Ath Madrid,2.96,2.96,0.0
 SP1,1920,2020-06-14,Ath Madrid,Eibar,6.41,6.41,0.0
 SP1,1920,2020-06-14,Sociedad,Osasuna,3.89,3.89,0.0
-SP1,1920,2020-06-15,Levante,Sevilla,3.98,3.98,0.0
 SP1,1920,2020-06-15,Betis,Granada,3.48,3.48,0.0
-SP1,1920,2020-06-16,Getafe,Espanol,3.14,3.14,0.0
+SP1,1920,2020-06-15,Levante,Sevilla,3.98,3.98,0.0
 SP1,1920,2020-06-16,Villarreal,Mallorca,4.45,4.45,0.0
+SP1,1920,2020-06-16,Getafe,Espanol,3.14,3.14,0.0
 SP1,1920,2020-06-16,Barcelona,Levante,8.06,8.06,0.0
-SP1,1920,2020-06-17,Eibar,Ath Bilbao,3.04,3.04,0.0
 SP1,1920,2020-06-17,Valladolid,Celta,2.96,2.96,0.0
+SP1,1920,2020-06-17,Eibar,Ath Bilbao,3.04,3.04,0.0
 SP1,1920,2020-06-17,Osasuna,Ath Madrid,3.25,3.25,0.0
 SP1,1920,2020-06-18,Alaves,Sociedad,3.37,3.37,0.0
 SP1,1920,2020-06-18,Ath Madrid,Valencia,5.09,5.09,0.0
-SP1,1920,2020-06-19,Granada,Villarreal,3.19,3.19,0.0
 SP1,1920,2020-06-19,Mallorca,Levante,2.93,2.93,0.0
+SP1,1920,2020-06-19,Mallorca,CD Leganes,2.93,2.93,0.0
+SP1,1920,2020-06-19,Granada,Villarreal,3.19,3.19,0.0
 SP1,1920,2020-06-19,Sevilla,Barcelona,3.57,3.57,0.0
-SP1,1920,2020-06-20,Espanol,Levante,3.51,3.51,0.0
-SP1,1920,2020-06-20,Ath Bilbao,Betis,3.29,3.29,0.0
-SP1,1920,2020-06-20,Getafe,Eibar,3.37,3.37,0.0
 SP1,1920,2020-06-20,Ath Madrid,Valladolid,4.48,4.48,0.0
+SP1,1920,2020-06-20,Getafe,Eibar,3.37,3.37,0.0
+SP1,1920,2020-06-20,Ath Bilbao,Betis,3.29,3.29,0.0
+SP1,1920,2020-06-20,Espanol,Levante,3.51,3.51,0.0
 SP1,1920,2020-06-21,Celta,Alaves,3.25,3.25,0.0
-SP1,1920,2020-06-21,Valencia,Osasuna,3.57,3.57,0.0
 SP1,1920,2020-06-21,Sociedad,Ath Madrid,4.14,4.14,0.0
-SP1,1920,2020-06-22,Villarreal,Sevilla,3.42,3.42,0.0
+SP1,1920,2020-06-21,Valencia,Osasuna,3.57,3.57,0.0
 SP1,1920,2020-06-22,Levante,Granada,2.96,2.96,0.0
-SP1,1920,2020-06-23,Levante,Ath Madrid,3.65,3.65,0.0
+SP1,1920,2020-06-22,Villarreal,Sevilla,3.42,3.42,0.0
 SP1,1920,2020-06-23,Valladolid,Getafe,2.81,2.81,0.0
+SP1,1920,2020-06-23,Levante,Ath Madrid,3.65,3.65,0.0
 SP1,1920,2020-06-23,Barcelona,Ath Bilbao,5.35,5.35,0.0
 SP1,1920,2020-06-24,Alaves,Osasuna,3.07,3.07,0.0
 SP1,1920,2020-06-24,Sociedad,Celta,3.23,3.23,0.0
@@ -310,72 +325,74 @@ SP1,1920,2020-06-24,Ath Madrid,Mallorca,8.33,8.33,0.0
 SP1,1920,2020-06-25,Eibar,Valencia,3.36,3.36,0.0
 SP1,1920,2020-06-25,Betis,Espanol,3.36,3.36,0.0
 SP1,1920,2020-06-26,Sevilla,Valladolid,4.32,4.32,0.0
-SP1,1920,2020-06-27,Ath Bilbao,Mallorca,4.11,4.11,0.0
-SP1,1920,2020-06-27,Celta,Barcelona,4.05,4.05,0.0
-SP1,1920,2020-06-27,Osasuna,Levante,2.98,2.98,0.0
 SP1,1920,2020-06-27,Ath Madrid,Alaves,4.76,4.76,0.0
+SP1,1920,2020-06-27,Osasuna,CD Leganes,2.98,2.98,0.0
+SP1,1920,2020-06-27,Osasuna,Levante,2.98,2.98,0.0
+SP1,1920,2020-06-27,Celta,Barcelona,4.05,4.05,0.0
+SP1,1920,2020-06-27,Ath Bilbao,Mallorca,4.11,4.11,0.0
 SP1,1920,2020-06-28,Levante,Betis,3.41,3.41,0.0
-SP1,1920,2020-06-28,Villarreal,Valencia,3.54,3.54,0.0
 SP1,1920,2020-06-28,Granada,Eibar,2.97,2.97,0.0
 SP1,1920,2020-06-28,Espanol,Ath Madrid,4.79,4.79,0.0
+SP1,1920,2020-06-28,Villarreal,Valencia,3.54,3.54,0.0
 SP1,1920,2020-06-29,Getafe,Sociedad,3.04,3.04,0.0
-SP1,1920,2020-06-30,Mallorca,Celta,3.13,3.13,0.0
 SP1,1920,2020-06-30,Levante,Sevilla,3.23,3.23,0.0
 SP1,1920,2020-06-30,Barcelona,Ath Madrid,3.62,3.62,0.0
+SP1,1920,2020-06-30,Mallorca,Celta,3.13,3.13,0.0
+SP1,1920,2020-07-01,Valladolid,Levante,3.23,3.23,0.0
 SP1,1920,2020-07-01,Alaves,Granada,3.01,3.01,0.0
 SP1,1920,2020-07-01,Valencia,Ath Bilbao,3.05,3.05,0.0
 SP1,1920,2020-07-01,Betis,Villarreal,3.49,3.49,0.0
-SP1,1920,2020-07-01,Valladolid,Levante,3.23,3.23,0.0
+SP1,1920,2020-07-02,Ath Madrid,Getafe,4.83,4.83,0.0
 SP1,1920,2020-07-02,Eibar,Osasuna,3.19,3.19,0.0
 SP1,1920,2020-07-02,Sociedad,Espanol,3.42,3.42,0.0
-SP1,1920,2020-07-02,Ath Madrid,Getafe,4.83,4.83,0.0
 SP1,1920,2020-07-03,Ath Madrid,Mallorca,5.39,5.39,0.0
+SP1,1920,2020-07-04,Granada,Valencia,3.22,3.22,0.0
 SP1,1920,2020-07-04,Celta,Betis,3.4,3.4,0.0
 SP1,1920,2020-07-04,Valladolid,Alaves,2.78,2.78,0.0
-SP1,1920,2020-07-04,Granada,Valencia,3.22,3.22,0.0
+SP1,1920,2020-07-05,Osasuna,Getafe,2.98,2.98,0.0
 SP1,1920,2020-07-05,Ath Bilbao,Ath Madrid,3.74,3.74,0.0
 SP1,1920,2020-07-05,Espanol,Levante,2.98,2.98,0.0
-SP1,1920,2020-07-05,Osasuna,Getafe,2.98,2.98,0.0
 SP1,1920,2020-07-05,Villarreal,Barcelona,3.98,3.98,0.0
 SP1,1920,2020-07-06,Levante,Sociedad,3.42,3.42,0.0
 SP1,1920,2020-07-06,Sevilla,Eibar,4.36,4.36,0.0
-SP1,1920,2020-07-07,Valencia,Valladolid,3.18,3.18,0.0
 SP1,1920,2020-07-07,Celta,Ath Madrid,3.16,3.16,0.0
-SP1,1920,2020-07-08,Betis,Osasuna,3.43,3.43,0.0
+SP1,1920,2020-07-07,Valencia,Valladolid,3.18,3.18,0.0
 SP1,1920,2020-07-08,Getafe,Villarreal,3.08,3.08,0.0
 SP1,1920,2020-07-08,Barcelona,Espanol,8.41,8.41,0.0
-SP1,1920,2020-07-09,Eibar,Levante,3.05,3.05,0.0
-SP1,1920,2020-07-09,Mallorca,Levante,3.66,3.66,0.0
+SP1,1920,2020-07-08,Betis,Osasuna,3.43,3.43,0.0
 SP1,1920,2020-07-09,Ath Bilbao,Sevilla,3.02,3.02,0.0
+SP1,1920,2020-07-09,Mallorca,Levante,3.66,3.66,0.0
+SP1,1920,2020-07-09,Eibar,Levante,3.05,3.05,0.0
 SP1,1920,2020-07-10,Sociedad,Granada,3.7,3.7,0.0
 SP1,1920,2020-07-10,Ath Madrid,Alaves,6.33,6.33,0.0
 SP1,1920,2020-07-11,Osasuna,Celta,3.11,3.11,0.0
-SP1,1920,2020-07-11,Valladolid,Barcelona,4.99,4.99,0.0
 SP1,1920,2020-07-11,Ath Madrid,Betis,4.18,4.18,0.0
-SP1,1920,2020-07-12,Espanol,Eibar,3.24,3.24,0.0
-SP1,1920,2020-07-12,Levante,Ath Bilbao,3.28,3.28,0.0
-SP1,1920,2020-07-12,Levante,Valencia,3.13,3.13,0.0
+SP1,1920,2020-07-11,Valladolid,Barcelona,4.99,4.99,0.0
 SP1,1920,2020-07-12,Sevilla,Mallorca,4.81,4.81,0.0
-SP1,1920,2020-07-13,Alaves,Getafe,2.91,2.91,0.0
+SP1,1920,2020-07-12,Levante,Ath Bilbao,3.28,3.28,0.0
+SP1,1920,2020-07-12,Espanol,Eibar,3.24,3.24,0.0
+SP1,1920,2020-07-12,Levante,Valencia,3.13,3.13,0.0
 SP1,1920,2020-07-13,Villarreal,Sociedad,3.5,3.5,0.0
+SP1,1920,2020-07-13,Alaves,Getafe,2.91,2.91,0.0
 SP1,1920,2020-07-13,Granada,Ath Madrid,4.51,4.51,0.0
-SP1,1920,2020-07-16,Eibar,Valladolid,3.12,3.12,0.0
-SP1,1920,2020-07-16,Ath Bilbao,Levante,3.41,3.41,0.0
-SP1,1920,2020-07-16,Barcelona,Osasuna,8.0,8.0,0.0
-SP1,1920,2020-07-16,Betis,Alaves,3.25,3.25,0.0
-SP1,1920,2020-07-16,Celta,Levante,4.23,4.23,0.0
-SP1,1920,2020-07-16,Getafe,Ath Madrid,2.95,2.95,0.0
-SP1,1920,2020-07-16,Mallorca,Granada,3.47,3.47,0.0
-SP1,1920,2020-07-16,Ath Madrid,Villarreal,4.79,4.79,0.0
 SP1,1920,2020-07-16,Sociedad,Sevilla,3.42,3.42,0.0
+SP1,1920,2020-07-16,Ath Madrid,Villarreal,4.79,4.79,0.0
+SP1,1920,2020-07-16,Mallorca,Granada,3.47,3.47,0.0
+SP1,1920,2020-07-16,Getafe,Ath Madrid,2.95,2.95,0.0
+SP1,1920,2020-07-16,Celta,Levante,4.23,4.23,0.0
+SP1,1920,2020-07-16,Betis,Alaves,3.25,3.25,0.0
+SP1,1920,2020-07-16,Barcelona,Osasuna,8.0,8.0,0.0
+SP1,1920,2020-07-16,Ath Bilbao,Levante,3.41,3.41,0.0
+SP1,1920,2020-07-16,Eibar,Valladolid,3.12,3.12,0.0
 SP1,1920,2020-07-16,Valencia,Espanol,4.21,4.21,0.0
-SP1,1920,2020-07-19,Alaves,Barcelona,4.3,4.3,0.0
-SP1,1920,2020-07-19,Valladolid,Betis,3.27,3.27,0.0
-SP1,1920,2020-07-19,Villarreal,Eibar,4.4,4.4,0.0
-SP1,1920,2020-07-19,Ath Madrid,Sociedad,3.27,3.27,0.0
-SP1,1920,2020-07-19,Espanol,Celta,3.74,3.74,0.0
-SP1,1920,2020-07-19,Granada,Ath Bilbao,3.47,3.47,0.0
 SP1,1920,2020-07-19,Levante,Ath Madrid,3.58,3.58,0.0
+SP1,1920,2020-07-19,CD Leganes,Ath Madrid,3.58,3.58,0.0
 SP1,1920,2020-07-19,Levante,Getafe,3.55,3.55,0.0
 SP1,1920,2020-07-19,Osasuna,Mallorca,3.72,3.72,0.0
 SP1,1920,2020-07-19,Sevilla,Valencia,3.63,3.63,0.0
+SP1,1920,2020-07-19,Granada,Ath Bilbao,3.47,3.47,0.0
+SP1,1920,2020-07-19,Espanol,Celta,3.74,3.74,0.0
+SP1,1920,2020-07-19,Ath Madrid,Sociedad,3.27,3.27,0.0
+SP1,1920,2020-07-19,Villarreal,Eibar,4.4,4.4,0.0
+SP1,1920,2020-07-19,Valladolid,Betis,3.27,3.27,0.0
+SP1,1920,2020-07-19,Alaves,Barcelona,4.3,4.3,0.0

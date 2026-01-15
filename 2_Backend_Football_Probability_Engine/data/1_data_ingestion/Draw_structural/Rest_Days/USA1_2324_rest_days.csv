@@ -1,0 +1,10 @@
+league_code,season,match_date,home_team,away_team,home_rest_days,away_rest_days,is_midweek
+USA1,2324,2023-02-25,New York RB,FC Cincinnati,364,364,False
+USA1,2324,2023-02-25,FC Dallas,Seattle Sounders,364,364,False
+USA1,2324,2023-02-25,Sporting Kansas City,St. Louis City SC,364,7,False
+USA1,2324,2023-02-25,Real Salt Lake,Houston Dynamo,364,364,False
+USA1,2324,2023-02-25,Atlanta United FC,Columbus Crew,364,364,False
+USA1,2324,2023-02-25,Houston Dynamo,Real Salt Lake,364,364,False
+USA1,2324,2023-02-25,Columbus Crew,Atlanta United FC,364,364,False
+USA1,2324,2023-02-25,FC Cincinnati,Columbus Crew,364,364,False
+USA1,2324,2023-02-25,Columbus Crew,Los Angeles Galaxy,364,364,False

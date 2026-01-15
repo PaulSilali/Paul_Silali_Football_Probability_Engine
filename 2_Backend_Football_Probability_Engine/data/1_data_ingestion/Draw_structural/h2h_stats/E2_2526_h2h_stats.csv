@@ -5,7 +5,7 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9150,Peterboro,9166,Wigan,2526,1,0,0.0,2.0
 9154,Wycombe,9168,Stockport,2526,1,0,0.0,3.0
 9160,Lincoln,9165,Port Vale,2526,1,0,0.0,1.0
-9149,Cardiff,9159,Leyton Orient,2526,1,0,0.0,7.0
+9149,Cardiff,9159,Leyton Orient,2526,2,1,0.5,4.5
 9164,Rotherham,9167,Northampton,2526,1,0,0.0,3.0
 9147,Luton,9157,Exeter,2526,2,0,0.0,2.0
 9147,Luton,9149,Cardiff,2526,3,0,0.0,1.0
@@ -38,9 +38,9 @@ home_team_id,home_team_name,away_team_id,away_team_name,season,matches_played,dr
 9149,Cardiff,9150,Peterboro,2526,1,0,0.0,3.0
 9166,Wigan,9168,Stockport,2526,1,1,1.0,2.0
 9166,Wigan,9167,Northampton,2526,1,0,0.0,4.0
-9147,Luton,9152,Stevenage,2526,2,1,0.5,3.0
+9147,Luton,9152,Stevenage,2526,3,1,0.3333333333333333,3.0
 9164,Rotherham,9168,Stockport,2526,1,0,0.0,1.0
-9147,Luton,9150,Peterboro,2526,3,0,0.0,2.0
+9147,Luton,9150,Peterboro,2526,4,0,0.0,2.5
 9158,Huddersfield,9163,Barnsley,2526,1,0,0.0,4.0
 9150,Peterboro,9158,Huddersfield,2526,1,0,0.0,5.0
 9153,Bradford,9162,Plymouth,2526,1,0,0.0,1.0
